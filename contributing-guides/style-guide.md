@@ -102,12 +102,13 @@ Example:
 `tldr vim`
 
 ```
+
 - Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
 
 ## Option syntax
 
 - Use GNU-style **long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
-- In other cases use short options (like `-h`).
+- In other cases, use short options (like `-h`).
 
 ## Placeholder syntax
 
@@ -160,8 +161,9 @@ All borders of integer and float ranges get included. If you want to exclude the
   while in `wc -l {{path/to/file}}` using `{{path/to/file}}` (without extension) is sufficient.
 
 ### Special cases
+
 - If a command performs irreversible changes to a file system or devices,
-  write every example in a way that cannot be thoughtlessly copy-pasted.
+  write every example in a way that cannot be copy pasted thoughtlessly.
   For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
   write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
   and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
@@ -181,8 +183,8 @@ Use backticks on the following:
 ## Imperative Mood
 
 - Example descriptions have to be phrased in imperative mood.
-- For example, use `List all files`, instead of `Listing all files` or `File listing`.
-- This also applies to all translations by default, unless otherwise specified in the language-specific section below.
+- For example, use `List all files` instead of `Listing all files` or `File listing`.
+- This also applies to all translations by default unless otherwise specified in the language-specific section below.
 
 ## Serial Comma
 
