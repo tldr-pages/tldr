@@ -15,7 +15,7 @@
 
 `adig -s {{1.2.3.4}} {{examplo.com}}`
 
-- Usa porta TCP específica para conectar ao servidor DNS:
+- Use uma porta TCP específica para se conectar ao servidor DNS:
 
 `adig -T {{port}} {{examplo.com}}`
 
