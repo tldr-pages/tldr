@@ -10,16 +10,16 @@
 
 - Send a text to an Android device (`%s` represents spaces):
 
-`input text "{{text}}"`
+`input text "{{string}}"`
 
 - Send a single tap to an Android device:
 
-`input tap {{x_pos}} {{y_pos}}`
+`input tap {{x_position}} {{y_position}}`
 
 - Send a swipe gesture to an Android device:
 
-`input swipe {{x_start}} {{y_start}} {{x_end}} {{y_end}} {{duration_in_ms}}`
+`input swipe {{x_start}} {{y_start}} {{x_end}} {{y_end}} {{1..infinity}}`
 
 - Send a long press to an Android device using a swipe gesture:
 
-`input swipe {{x_pos}} {{y_pos}} {{x_pos}} {{y_pos}} {{duration_in_ms}}`
+`input swipe {{x_position}} {{y_position}} {{x_position}} {{y_position}} {{1..infinity}}`
