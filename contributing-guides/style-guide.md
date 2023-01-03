@@ -121,7 +121,14 @@ Keep the following guidelines in mind when choosing placeholders:
   such as `{{path/to/source_file}}` or `{{path/to/wallet.txt}}`.
 - Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
 - Use a generic placeholder rather than an actual value where a generic placeholder
-  is available. For example, use `iostat {{1..infinity}}` rather than `iostat {{2}}`.
+  is available (but there is an exception, listed below). For example, use
+  `iostat {{1..infinity}}` rather than `iostat {{2}}`.
+  But if there are several consequtive placeholders of the same type
+  which don't allow to add arbitraty text in them (ranges) than instead of generic
+  placeholders use descriptive ones. For example prefer `input swipe {{x_position}} {{y_position}} {{x_position}} {{y_position}} {{seconds}}`
+  instead of `input swipe {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{1..infinity}}`.
+  In other words: more placeholders are shown more focus should be moved to what
+  value actually is but not what it can be.
 
 ## Range syntax
 
