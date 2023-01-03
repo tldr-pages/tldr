@@ -8,7 +8,7 @@
 
 `sudo abroot get {{presente|futuro}}`
 
-- Insere o shell transacional na partição raíz futura e troca a raíz na próxima inicialização:
+- Insira um shell transacional na futura partição raiz e alterne o root na próxima inicialização:
 
 `sudo abroot shell`
 
