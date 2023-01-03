@@ -109,17 +109,6 @@ Example:
 - Use GNU-style **long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
 - In other cases use short options (like `-h`).
 
-## Range syntax
-
-All borders of integer and float ranges are included. If you wanna exclude
-one border then use incremented or decremented values to do it:
-`{{1..5}}` == `[1-6)`.
-
-- Use `{{from..to}}` syntax for closed ranges.
-- Use `{{-infinity..to}}` or `{{from..infinity}}` syntax for integer partially closed ranges.
-- Use `{{integer}}` syntax for values where any integer is valid.
-- Use `{{float}}` syntax for values where any float is valid.
-
 ## Placeholder syntax
 
 User-provided values should use the `{{placeholder}}` syntax
@@ -133,6 +122,17 @@ Keep the following guidelines in mind when choosing placeholders:
 - Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
 - Use an actual value rather than a generic placeholder where appropriate.
   For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
+
+## Range syntax
+
+All borders of integer and float ranges are included. If you wanna exclude
+one border then use incremented or decremented values to do it:
+`{{1..5}}` == `[1-6)`.
+
+- Use `{{from..to}}` syntax for closed ranges.
+- Use `{{-infinity..to}}` or `{{from..infinity}}` syntax for integer partially closed ranges.
+- Use `{{integer}}` syntax for values where any integer is valid.
+- Use `{{float}}` syntax for values where any float is valid.
 
 ### Paths
 - Use `{{filename}}` when just file name is expected.
