@@ -19,6 +19,6 @@
 
 `adig -T {{port}} {{examplo.com}}`
 
-- Usa porta UDP específica para conectar ao servidor DNS:
+- Use uma porta UDP específica para se conectar ao servidor DNS:
 
 `adig -U {{port}} {{examplo.com}}`
