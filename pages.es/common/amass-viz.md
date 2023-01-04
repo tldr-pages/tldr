@@ -19,6 +19,6 @@
 
 `amass viz -graphistry -dir {{ruta/a/directorio_de_base_de_datos}}`
 
-- Genera un archivo CSV Maltego a partir de los datos de la base de datos:
+- Genera un archivo CSV Maltego a partir de los datos específicos de la base de datos:
 
 `amass viz -maltego -dir {{ruta/a/directorio_de_base_de_datos}}`
