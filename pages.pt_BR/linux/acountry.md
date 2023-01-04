@@ -3,7 +3,7 @@
 > Imprime o país onde um endereço IPv4 ou nome do servidor estão localizados.
 > Mais informação: <https://manned.org/acountry>.
 
-- Imprima um país onde um endereço IPv4 ou host está localizado:
+- Imprime um país onde um endereço IPv4 ou host está localizado:
 
 `acountry {{examplo.com}}`
 
