@@ -6,7 +6,7 @@
 
 - Saída do estado da partição raiz atual ou futuro:
 
-`sudo abroot get {{presente|futuro}}`
+`sudo abroot get {{present|future}}`
 
 - Insira um shell transacional na futura partição raiz e alterne o root na próxima inicialização:
 
