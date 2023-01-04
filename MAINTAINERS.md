@@ -44,8 +44,6 @@ If you are an owner of the organization, you can see an automated list
   [03 May 2021](https://github.com/tldr-pages/tldr/issues/5873) — present
 - **Patrice Denis ([@patricedenis](https://github.com/patricedenis))**:
   [10 May 2021](https://github.com/tldr-pages/tldr/issues/5919) — present
-- **Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson))**:
-  [12 Aug 2021](https://github.com/tldr-pages/tldr/issues/6330) — present
 - **Reinhart Previano Koentjoro ([@reinhart1010](https://github.com/reinhart1010))**:
   [23 Nov 2021](https://github.com/tldr-pages/tldr/issues/7404) — present
 - **258204 ([@258204](https://github.com/258204))**:
@@ -86,6 +84,8 @@ If you are an owner of the organization, you can see an automated list
   [6 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142)
 - Seth Falco ([@SethFalco](https://github.com/SethFalco)):
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5993) - [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149)
+- Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson)):
+  [12 Aug 2021](https://github.com/tldr-pages/tldr/issues/6330) — [4 Jan 2023](https://github.com/tldr-pages/tldr/issues/9671)
 - Pixel Häußler ([@pixelcmtd](https://github.com/pixelcmtd)):
   [27 Aug 2021](https://github.com/tldr-pages/tldr/issues/6415) — [16 October 2022](https://github.com/tldr-pages/tldr/pull/9072#issuecomment-1279847932)
 - Emily Grace Seville ([@EmilySeville7cfg](https://github.com/EmilySeville7cfg)):
@@ -120,6 +120,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [16 October 2022](https://github.com/tldr-pages/tldr/pull/9072#issuecomment-1279847932) — present
 - **K.B.Dharun Krishna ([@kbdharun](https://github.com/kbdharun))**:
   [14 December 2022](https://github.com/tldr-pages/tldr/issues/9625) — present
+- **Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson))**:
+  [4 Jan 2023](https://github.com/tldr-pages/tldr/issues/9671) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
