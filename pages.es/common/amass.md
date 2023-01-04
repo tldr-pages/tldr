@@ -4,9 +4,9 @@
 > Algunos subcomandos como `amass db` tienen su propia documentación de uso.
 > Más información: <https://github.com/OWASP/Amass>.
 
-- Consulta la versión de Amass:
+- Ejecuta un subcomando Amass:
 
-`amass -version`
+`amass {{subcommand}}`
 
 - Muestra ayuda:
 
@@ -16,6 +16,6 @@
 
 `amass -help {{subcommand}}`
 
-- Ejecuta un subcomando Amass:
+- Muestra la versión:
 
-`amass {{subcommand}}`
+`amass -version`
