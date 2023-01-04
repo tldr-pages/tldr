@@ -5,7 +5,7 @@
 
 - Genere una visualización D3.js basada en datos específicos de la base de datos::
 
-`amass viz -d3 -dir {{ruta/a/directorio_de_base_de_datos}}`
+`amass viz -d3 -dir {{ruta/al/directorio_de_base_de_datos}}`
 
 - Genera un archivo DOT a partir de los datos específicos de la base de datos:
 
