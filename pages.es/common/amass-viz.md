@@ -15,7 +15,7 @@
 
 `amass viz -gexf -dir {{ruta/a/directorio_de_base_de_datos}}`
 
-- Genera un archivo Graphistry JSON a partir de los datos de la base de datos:
+- Genera un archivo Graphistry JSON a partir de los datos específicos de la base de datos:
 
 `amass viz -graphistry -dir {{ruta/a/directorio_de_base_de_datos}}`
 
