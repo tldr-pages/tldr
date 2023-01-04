@@ -11,7 +11,7 @@
 
 `amass viz -dot -dir {{ruta/a/directorio_de_base_de_datos}}`
 
-- Genera de un archivo en formato Gephi Graph Exchange XML (GEXF) a partir de los datos de la base de datos:
+- Genera de un archivo en formato Gephi Graph Exchange XML (GEXF) a partir específicos de los datos de la base de datos:
 
 `amass viz -gexf -dir {{ruta/a/directorio_de_base_de_datos}}`
 
