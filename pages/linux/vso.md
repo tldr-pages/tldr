@@ -1,4 +1,4 @@
-# VSO
+# vso
 
 > Utility to perform maintenance tasks on Vanilla OS.
 > More information: <https://github.com/Vanilla-OS/vanilla-system-operator>.
@@ -15,11 +15,11 @@
 
 `vso create-task --name "{{string}}" --description {{string}} --command "{{cmd}}" --{{on-boot|on-shutdown|on-login}}`
 
-- Create an automated task to execute during low battery or charging or on battery or on full battery states:
+- Create an automated task to execute during specific battery states:
 
-`vso create-task --name "{{string}}" --description {{string}} --command "{{cmd}}" --{{on-low-battery|on-charge|on-battery|on-full-battery|}}`
+`vso create-task --name "{{string}}" --description {{string}} --command "{{cmd}}" --{{on-low-battery|on-charge|on-battery|on-full-battery}}`
 
-- Create an automated task to execute [at] a specific time interval (hh:mm) or re-execute it [every] time after a specific time interval (m,h,d):
+- Create an automated task to execute [at] a specific time interval (hh: mm) or re-execute it [every] time after specific time intervals (m,h,d):
 
 `vso create-task --name "{{string}}" --description {{string}} --command "{{cmd}}" --{{at|every}} "{{time_interval}}"`
 
