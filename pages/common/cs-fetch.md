@@ -9,7 +9,7 @@
 
 - Fetch a package and evaluate the classpath corresponding to the selected package in an env var:
 
-`CP="$(cs fetch --classpath org.scalameta::scalafmt-cli:latest.release)"``
+`CP="$(cs fetch --classpath org.scalameta::scalafmt-cli:latest.release)"`
 
 - Fetch the source jar:
 
