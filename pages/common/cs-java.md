@@ -27,7 +27,6 @@
 
 `eval "$(cs java --disable)"`
 
-
 - Set a specific JVM as default for the whole system:
 
 `cs java --jvm {{jvm-name}}:{{jvm-version}} --setup`
