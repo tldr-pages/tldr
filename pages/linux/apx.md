@@ -1,6 +1,6 @@
 # apx
 
-> Package management utility for Vanilla OS.
+> Package management utility.
 > Install packages inside managed containers from multiple sources (`apx` supports --aur,--dnf, --apk flags in all commands).
 > More information: <https://github.com/Vanilla-OS/apx>.
 
