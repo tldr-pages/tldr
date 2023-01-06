@@ -9,7 +9,7 @@
 
 - Install a specific version of an application:
 
-`cs install {{application-name}}:{{application-version}}`
+`cs install {{application_name}}:{{application_version}}`
 
 - Search an application by a specific name:
 
