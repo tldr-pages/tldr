@@ -27,7 +27,7 @@
 
 `cs uninstall {{application-name}}`
 
-- List the installed applications:
+- List all installed applications:
 
 `cs list`
 
