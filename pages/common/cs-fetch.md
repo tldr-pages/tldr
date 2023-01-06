@@ -25,4 +25,4 @@
 
 - Fetch jars coming from dependency files:
 
-`cs fetch --dependency-file file_1 --dependency-file file_2`
+`cs fetch {{--dependency-file path/to/file1 --dependency-file path/to/file2 ...}}`
