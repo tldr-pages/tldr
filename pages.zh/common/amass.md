@@ -4,9 +4,9 @@
 > 此命令也有关于其子命令的文件，例如：`amass db`.
 > 更多信息：<https://github.com/OWASP/Amass>.
 
-- 查看 Amass 版本：
+- 执行 Amass 子命令：
 
-`amass -version`
+`amass {{子命令}}`
 
 - 展示帮助信息：
 
@@ -16,6 +16,6 @@
 
 `amass -help {{子命令}}`
 
-- 执行 Amass 子命令：
+- 查看 Amass 版本：
 
-`amass {{子命令}}`
+`amass -version`
