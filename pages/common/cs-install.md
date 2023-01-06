@@ -15,9 +15,9 @@
 
 `cs search {{application_partial_name}}`
 
-- Update an application if available:
+- Update a specific application if available:
 
-`cs update {{application-name}}`
+`cs update {{application_name}}`
 
 - Update all the installed applications:
 
