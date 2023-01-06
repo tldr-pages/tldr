@@ -1,7 +1,7 @@
-# cs fetch
+# cs complete dep
 
 > Allows the developer to search for libraries without searching directly on the web but from the command line.
-> More information: <https://get-coursier.io/docs/cli-fetch>.
+> More information: <https://get-coursier.io/docs/cli-complete>.
 
 - Print which artifacts are published under a specific Maven group identifier:
 
@@ -11,7 +11,7 @@
 
 `cs complete-dep {{group_id}}:{{artifact_id}}`
 
-- Print which articats are pubblished under a given Maven groupId searching in the ivy2local:
+- Print which artifacts are pubblished under a given Maven groupId searching in the ivy2local:
 
 `cs complete-dep {{groupId}} --repository ivy2local`
 

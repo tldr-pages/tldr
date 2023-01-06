@@ -11,7 +11,7 @@
 
 `cs resolve --tree {{groupId}}:{{artifactId}}:{{artifactVersion}}`
 
-- Resolve dependency tree in a reverse order (from a dependency to its dependees):
+- Resolve dependency tree in a reverse order (from a dependency to its dependencies):
 
 `cs resolve --reverse-tree {{groupId}}:{{artifactId}}:{{artifactVersion}}`
 
