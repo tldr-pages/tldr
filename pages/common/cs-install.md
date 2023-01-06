@@ -11,9 +11,9 @@
 
 `cs install {{application-name}}:{{application-version}}`
 
-- Search an application by name:
+- Search an application by a specific name:
 
-`cs search {{application-partial-name}}`
+`cs search {{application_partial_name}}`
 
 - Update an application if available:
 
