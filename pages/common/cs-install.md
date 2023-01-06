@@ -23,9 +23,9 @@
 
 `cs update`
 
-- Uninstall an application:
+- Uninstall a specific application:
 
-`cs uninstall {{application-name}}`
+`cs uninstall {{application_name}}`
 
 - List all installed applications:
 
