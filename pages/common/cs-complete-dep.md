@@ -3,9 +3,9 @@
 > Allows the developer to search for libraries without searching directly on the web but from the command line.
 > More information: <https://get-coursier.io/docs/cli-fetch>.
 
-- Print which artifacts are published under a given Maven groupId:
+- Print which artifacts are published under a specific Maven group identifier:
 
-`cs complete-dep {{groupId}}`
+`cs complete-dep {{group_id}}`
 
 - Print which versions of a library are published under a given Maven groupId and artifactId:
 
