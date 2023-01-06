@@ -5,7 +5,7 @@
 
 - Fetch a specific version of a jar:
 
-`cs fetch {{groupId}}:{{artifactId}}:{{artifactVersion}}`
+`cs fetch {{group_id}}:{{artifact_id}}:{{artifact_version}}`
 
 - Fetch a package and evaluate the classpath corresponding to the selected package in an env var:
 
