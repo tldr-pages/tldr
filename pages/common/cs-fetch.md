@@ -11,9 +11,9 @@
 
 `CP="$(cs fetch --classpath org.scalameta::scalafmt-cli:latest.release)"`
 
-- Fetch the source jar:
+- Fetch a source of a specific jar:
 
-`cs fetch --sources {{groupId}}:{{artifactId}}:{{artifactVersion}}`
+`cs fetch --sources {{group_id}}:{{artifact_id}}:{{artifact_version}}`
 
 - Fetch the javadoc jars:
 
