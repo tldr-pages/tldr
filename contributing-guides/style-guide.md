@@ -169,6 +169,7 @@ All borders of integer and float ranges get included. If you want to exclude the
   and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
 - If a command can take a variable number of arguments, use an ellipsis: `{{arg1 arg2 ...}}`.
   If one of the multiple options is possible, write it as `{{either|or}}`.
+  If there are more than 5 alternatives, use `|...` for the ellipsis.
 
 In general, placeholders should make it as intuitive as possible
 to figure out how to use the command and fill it in with values.
