@@ -1,6 +1,6 @@
 # sattach
 
-> Attach to a Slurm job step.
+> Attach to a `Slurm` job step.
 > More information: <https://manned.org/sattach>.
 
 - Attach to a specific job step:
