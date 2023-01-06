@@ -17,7 +17,7 @@
 
 - Fetch the javadoc jars:
 
-`cs fetch --javadoc {{groupId}}:{{artifactId}}:{{artifactVersion}}`
+`cs fetch --javadoc {{group_id}}:{{artifact_id}}:{{artifact_version}}`
 
 - Fetch dependency with javadoc jars and source jars:
 
