@@ -11,9 +11,9 @@
 
 `vso create-task --name "{{string}}" --description {{string}} --{{command|on-condition-command}} "{{cmd}}" --on-process {{process}}`
 
-- Create an automated task to execute during boot/shutdown/login:
+- Create an automated task to execute during boot:
 
-`vso create-task --name "{{string}}" --description {{string}} --command "{{cmd}}" --{{on-boot|on-shutdown|on-login}}`
+`vso create-task --name "{{string}}" --description {{string}} --command "{{cmd}}" --on-boot`
 
 - Create an automated task to execute during specific battery states:
 
