@@ -23,13 +23,13 @@
 
 `vso create-task --name "{{string}}" --description {{string}} --command "{{cmd}}" --{{at|every}} "{{time_interval}}"`
 
-- Create an automated task after another task or upon a particular status (`success` or `failure`):
-
-`vso create-task --name "{{string}}" --description {{string}} --command "{{cmd}}" --{{after-task|after-task-{{status}}}} "{{task}}"`
-
 - Create an automated task which asks for a confirmation before execution:
 
 `vso create-task --name "{{string}}" --description {{string}} --command "{{cmd}}" --need-confirm`
+
+- Create an automated task to execute during network connection or disconnection:
+
+`vso create-task --name "{{string}}" --description {{string}} --command "{{cmd}}" --{{on-network|on-disconnect}}`
 
 - Delete an automated task:
 
