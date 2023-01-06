@@ -3,9 +3,9 @@
 > Install an application in the installation directory onfigured when installing `cs`  (to enable the binary to be loaded add to your `.bash_profile` the `$ eval "$(cs install --env)"` command).
 > More information: <https://get-coursier.io/docs/cli-install>.
 
-- Install an application:
+- Install a specific application:
 
-`cs install {{application-name}}`
+`cs install {{application_name}}`
 
 - Install a specific version of an application:
 
