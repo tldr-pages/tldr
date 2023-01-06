@@ -1,6 +1,6 @@
 # salloc
 
-> Obtain a Slurm job allocation (a set of nodes), execute a command, and then release the allocation when the command is finished
+> Obtain a Slurm job allocation (a set of nodes), execute a command, and then release the allocation when the command is finished.
 > More information: <https://manned.org/salloc>.
 
 - Get an allocation and run a specific application:
