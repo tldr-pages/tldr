@@ -15,6 +15,6 @@
 
 `cs complete-dep {{groupId}} --repository ivy2local`
 
-- Print which articats are pubblished under a given Maven groupId searching in a custom repo with specified credentials:
+- List published artifacts under a Maven group identifier searching in a specific repository and credentials:
 
-`cs complete-dep {{groupId}}:{{artifactId}} --repository {{repoUrl}} --credentials {{user}}:{{password}}`
+`cs complete-dep {{group_id}}:{{artifact_id}} --repository {{repository_url}} --credentials {{user}}:{{password}}`
