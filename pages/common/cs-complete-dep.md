@@ -7,9 +7,9 @@
 
 `cs complete-dep {{group_id}}`
 
-- Print which versions of a library are published under a given Maven groupId and artifactId:
+- List published library versions under a specific Maven group identifier and an artifact one:
 
-`cs complete-dep {{groupId}}:{{artifactId}}`
+`cs complete-dep {{group_id}}:{{artifact_id}}`
 
 - Print which articats are pubblished under a given Maven groupId searching in the ivy2local:
 
