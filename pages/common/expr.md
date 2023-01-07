@@ -5,7 +5,7 @@
 
 - Get the length of a specific string:
 
-`expr length '{{hello world}}'`
+`expr length '{{string}}'`
 
 - Get the substring of a string with a specific length:
 
