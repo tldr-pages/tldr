@@ -18,7 +18,7 @@
 
 - Execute a command with a specific argument count until all are consumed:
 
-`{{cat path/to/file}} | xargs --max-args={{5}} {{command}}`
+`{{cat path/to/file}} | xargs --max-args={{1..infinity}} {{command}}`
 
 - Execute a command with a specific argument replacement string:
 
@@ -26,7 +26,7 @@
 
 - Set a specific limit for parallel processes (`0` disables this limit):
 
-`{{cat path/to/file}} | xargs --max-procs='{{5}}' {{command}}`
+`{{cat path/to/file}} | xargs --max-procs='{{0..infinity}}' {{command}}`
 
 - Execute a command with a `\0` argument delimiter:
 
