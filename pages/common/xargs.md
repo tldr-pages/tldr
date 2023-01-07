@@ -8,25 +8,25 @@
 
 `{{cat path/to/file}} | xargs {{command}}`
 
-- Execute a command with a specific argument delimiter:
+- Execute a command with a specific argument [d]elimiter:
 
 `{{cat path/to/file}} | xargs -d '{{,}}' {{command}}`
 
-- Execute a command with a specific end of file string:
+- Execute a command with a specific [E]nd of file string:
 
 `{{cat path/to/file}} | xargs -E '{{EOF}}' {{command}}`
 
 - Execute a command with a specific argument count until all are consumed:
 
-`{{cat path/to/file}} | xargs -n {{5}} {{command}}`
+`{{cat path/to/file}} | xargs -n {{1..infinity}} {{command}}`
 
-- Execute a command with a specific argument replacement string:
+- Execute a command with a specific argument replacement str[I]ng:
 
 `{{cat path/to/file}} | xargs -I '{{%}}' {{command}} {{%}}`
 
-- Set a specific limit for parallel processes (`0` disables this limit):
+- Set a specific limit for [P]arallel processes (`0` disables this limit):
 
-`{{cat path/to/file}} | xargs -P '{{5}}' {{command}}`
+`{{cat path/to/file}} | xargs -P '{{1..infinity}}' {{command}}`
 
 - Execute a command with a `\0` argument delimiter:
 
