@@ -22,4 +22,4 @@
 
 - Start an interactive shell session with a specific execution policy:
 
-`pwsh -ExecutionPolicy {{AllSigned|Bypass|Default|RemoteSigned|Restricted|Undefined|Unrestricted}}`
+`pwsh -ExecutionPolicy {{AllSigned|Bypass|Default|RemoteSigned|Restricted|...}}`
