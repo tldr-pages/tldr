@@ -1,0 +1,7 @@
+# gusers
+
+> यह आदेश `-p linux users` का उपनाम है।
+
+- मूल आदेश के लिए दस्तावेज़ देखें:
+
+`tldr -p linux users`

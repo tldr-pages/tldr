@@ -30,7 +30,3 @@
 - Bump the minor version of the project in `pyproject.toml`:
 
 `poetry version minor`
-
-- List all poetry subcommands:
-
-`poetry list`

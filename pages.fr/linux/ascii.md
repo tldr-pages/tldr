@@ -1,7 +1,7 @@
 # ascii
 
 > Affiche les alias de caractères ASCII.
-> Plus d'information : <https://www.catb.org/~esr/ascii/>.
+> Plus d'informations : <http://www.catb.org/~esr/ascii/>.
 
 - Affiche les alias ASCII d'un caractère :
 

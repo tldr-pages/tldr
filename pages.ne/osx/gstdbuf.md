@@ -1,0 +1,7 @@
+# gstdbuf
+
+> यो आदेश `-p linux stdbuf` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr -p linux stdbuf`

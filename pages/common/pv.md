@@ -7,9 +7,9 @@
 
 `pv {{path/to/file}}`
 
-- Measure the speed and amount of data flow between pipes (`-s` is optional):
+- Measure the speed and amount of data flow between pipes (`--size` is optional):
 
-`command1 | pv -s {{expected_amount_of_data_for_eta}} | command2`
+`command1 | pv --size {{expected_amount_of_data_for_eta}} | command2`
 
 - Filter a file, see both progress and amount of output data:
 
@@ -25,4 +25,4 @@
 
 - Stop reading after reading specified amount of data, rate limit to 1K/s:
 
-`pv -L 1K -S {{maximum_file_size_to_be_read}}`
+`pv -L 1K --stop-at --size {{maximum_file_size_to_be_read}}`

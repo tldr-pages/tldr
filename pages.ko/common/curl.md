@@ -2,7 +2,7 @@
 
 > 데이터를 서버에서 혹은 서버로 전송.
 > HTTP,FTP 및 POP3를 포함한 대부분의 프로토콜 지원.
-> 더 많은 정보: <https://curl.se/docs/manpage.html>.
+> 더 많은 정보: <https://curl.se>.
 
 - URL의 내용을 파일로 다운로드:
 
