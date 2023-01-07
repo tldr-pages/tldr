@@ -9,7 +9,7 @@
 
 - Resolve lists of transitive dependencies of a package by the dependency tree:
 
-`cs resolve --tree {{groupId}}:{{artifactId}}:{{artifactVersion}}`
+`cs resolve --tree {{group_id}}:{{artifact_id}}:{{artifact_version}}`
 
 - Resolve dependency tree in a reverse order (from a dependency to its dependencies):
 
