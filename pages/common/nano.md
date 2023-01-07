@@ -7,7 +7,7 @@
 
 `nano`
 
-- Start the editor without loading startup configs:
+- Start the editor without using configuration files:
 
 `nano --ignorercfiles`
 
