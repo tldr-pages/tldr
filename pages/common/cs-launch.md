@@ -7,9 +7,9 @@
 
 `cs launch {{application_name}} -- {{arg1 arg2 ...}}`
 
-- Launch a specific version of `scalafmt-cli` with `-help`argument in it:
+- Launch a specific application version with arguments:
 
-`cs launch org.scalameta::scalafmt-cli:2.3.2 -- --help`
+`cs launch {{application_name}}:{{application_version}} -- {{arg1 arg2 ...}}`
 
 - Launch a specific version of an application specifying which is the main file:
 
