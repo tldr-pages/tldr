@@ -167,7 +167,7 @@ All borders of integer and float ranges get included. If you want to exclude the
   For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
   write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
   and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
-- If a command can take a variable number of arguments, use an ellipsis: `{{arg1 arg2 ...}}`.
+- If a placeholder can take a variable number of arguments, use an ellipsis: `{{common_placeholder_part1 common_placeholder_part2 ...}}`.
   If one of the multiple options is possible, write it as `{{either|or}}`.
   If there are more than 5 alternatives, use `|...` for the ellipsis.
 
