@@ -1,12 +1,11 @@
 # pwd
 
-> Print name of current/working directory.
-> More information: <https://www.gnu.org/software/coreutils/pwd>.
+> Отобразить абсолютной путь до текущей/рабочей директории.
+> Больше информации: <https://www.gnu.org/software/coreutils/pwd>.
 
-- Print the current directory:
+- Отобразить абсолютной путь до текущей директории:
 
 `pwd`
 
-- Print the current directory, and resolve all symlinks (i.e. show the "physical" path):
+- Отобразить абсолютной путь до текущей директории и "разрешить" символические ссылки (т.е. показать "фактический" путь):
 
-`pwd -P`
