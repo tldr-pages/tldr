@@ -15,9 +15,9 @@
 
 `expr match "{{string}}" '{{pattern}}'`
 
-- Get the substring position in a specific string:
+- Get the first char position from a specific set in a string:
 
-`expr index "{{string}}" "{{substring}}"`
+`expr index "{{string}}" "{{chars}}"`
 
 - Calculate a specific mathematic expession:
 
