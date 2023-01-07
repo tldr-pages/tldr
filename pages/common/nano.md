@@ -11,7 +11,7 @@
 
 `nano --ignorercfiles`
 
-- Open specific files:
+- Open specific files, moving to the next file when closing the previous one:
 
 `nano {{path/to/file1 path/to/file2 ...}}`
 
