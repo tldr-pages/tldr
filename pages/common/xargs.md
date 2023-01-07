@@ -26,7 +26,7 @@
 
 - Set a specific limit for [P]arallel processes (`0` disables this limit):
 
-`{{cat path/to/file}} | xargs -P '{{1..infinity}}' {{command}}`
+`{{cat path/to/file}} | xargs -P '{{0..infinity}}' {{command}}`
 
 - Execute a command with a `\0` argument delimiter:
 
