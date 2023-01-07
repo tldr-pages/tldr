@@ -31,3 +31,7 @@
 - Initialisiere ein Git Repository (Alle durch pass durchgeführten Änderungen werden automatisch committed):
 
 `pass git init`
+
+- Führe einen Git-Befehl für den Passwort-Store aus:
+
+`pass git {{befehl}}`

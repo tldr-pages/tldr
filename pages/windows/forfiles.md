@@ -1,7 +1,7 @@
 # forfiles
 
 > Select one or more files to execute a specified command on.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/forfiles>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/forfiles>.
 
 - Search for files in the current directory:
 

@@ -1,7 +1,7 @@
 # gitlab-runner
 
 > GitLab koşucuları için CLI aracı.
-> Daha fazla bilgi: <https://docs.gitlab.com/runner/>.
+> Daha fazla bilgi için: <https://docs.gitlab.com/runner/>.
 
 - Bir koşucuyu kayıt ettir:
 

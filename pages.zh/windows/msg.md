@@ -1,7 +1,7 @@
 # msg
 
 > 向指定的用户或会话发送信息。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/msg>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/msg>.
 
 - 向指定的用户或会话发送信息：
 

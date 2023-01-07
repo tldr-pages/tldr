@@ -8,7 +8,7 @@
 
 `gpg --full-generate-key`
 
-- Signiere `doc.txt` ohne Verschlüsselung (Ausabe nach `doc.txt.asc`):
+- Signiere `doc.txt` ohne Verschlüsselung (Ausgabe nach `doc.txt.asc`):
 
 `gpg --clearsign {{doc.txt}}`
 

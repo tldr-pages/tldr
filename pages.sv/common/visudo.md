@@ -1,7 +1,7 @@
 # visudo
 
 > Redigera sudoers-filen på säkert sätt.
-> Mer information: <https://www.sudo.ws/man/1.8.13/visudo.man.html>.
+> Mer information: <https://www.sudo.ws/docs/man/visudo.man>.
 
 - Redigera sudoers-filen:
 

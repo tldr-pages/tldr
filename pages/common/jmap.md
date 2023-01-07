@@ -1,6 +1,6 @@
 # jmap
 
-> Java Memory Map Tool.
+> Java memory map tool.
 > More information: <https://docs.oracle.com/javase/7/docs/technotes/tools/share/jmap.html>.
 
 - Print shared object mappings for a Java process (output like pmap):
@@ -17,4 +17,4 @@
 
 - Dump contents of the heap into a binary file for analysis with jhat:
 
-`jmap -dump:format=b,file={{filename}} {{java_pid}}`
+`jmap -dump:format=b,file={{path/to/file}} {{java_pid}}`

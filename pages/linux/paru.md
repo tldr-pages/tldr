@@ -5,7 +5,7 @@
 
 - Interactively search for and install a package:
 
-`paru {{package_name_or_seach_term}}`
+`paru {{package_name_or_search_term}}`
 
 - Synchronize and update all packages:
 

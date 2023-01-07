@@ -20,7 +20,7 @@
 
 `7za x {{path/to/archive.7z}} -o{{path/to/output}}`
 
-- E[x]tract an archive to stdout:
+- E[x]tract an archive to `stdout`:
 
 `7za x {{path/to/archive.7z}} -so`
 

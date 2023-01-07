@@ -1,7 +1,7 @@
 # ipconfig
 
 > 显示和管理 Windows 的网络配置。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
 
 - 显示网络适配器列表：
 

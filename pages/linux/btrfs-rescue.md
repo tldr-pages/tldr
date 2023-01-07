@@ -1,7 +1,7 @@
 # btrfs rescue
 
 > Try to recover a damaged btrfs filesystem.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-rescue>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html>.
 
 - Rebuild the filesystem metadata tree (very slow):
 

@@ -26,3 +26,7 @@
 - Put the drive into idle (low-power) mode, also setting its standby timeout:
 
 `sudo hdparm -S {{standby_timeout}} {{device}}`
+
+- Test the read speed of a specific device:
+
+`sudo hdparm -tT {{device}}`

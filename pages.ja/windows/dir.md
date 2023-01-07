@@ -1,7 +1,7 @@
 # dir
 
 > ディレクトリの内容を一覧表示します。
-> 詳しくはこちら: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>
+> 詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>
 
 - 現在のディレクトリの内容を表示します:
 

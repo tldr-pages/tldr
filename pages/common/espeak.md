@@ -9,7 +9,7 @@
 
 - Speak a file aloud:
 
-`espeak -f {{filename}}`
+`espeak -f {{path/to/file}}`
 
 - Save output to a WAV audio file, rather than speaking it directly:
 

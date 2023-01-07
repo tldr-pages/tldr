@@ -15,6 +15,6 @@
 
 `llc --output {{path/to/output.s}}`
 
-- Emit fully relocateable, position independent code:
+- Emit fully relocatable, position independent code:
 
 `llc -relocation-model=pic {{path/to/input.ll}}`

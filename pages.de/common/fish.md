@@ -8,26 +8,26 @@
 
 `fish`
 
-- Führe einen Befehl aus:
+- Starte eine interaktive Shell-Sitzung ohne die Start-Konfiguration zu laden:
 
-`fish -c "{{befehl}}"`
+`fish --no-config`
 
-- Führe ein Skript aus:
+- Führe einen bestimmten Befehl aus:
+
+`fish --command "{{echo 'fish wird ausgeführt'}}"`
+
+- Führe ein bestimmtes Skript aus:
 
 `fish {{pfad/zu/skript.fish}}`
 
-- Überprüfe ein Skript auf Syntaxfehler:
+- Überprüfe ein bestimmtes Skript auf Syntaxfehler:
 
 `fish --no-execute {{pfad/zu/skript.fish}}`
 
-- Starte eine private interaktive Shell-Sitzung, in der `fish` weder auf die Shell-History zugreift, noch diese verändert:
+- Starte eine private, interaktive Shell-Sitzung, in der `fish` weder auf die Shell-History zugreift, noch diese verändert:
 
 `fish --private`
 
-- Gib die Version von fish aus:
+- Definiere und exportiere eine Umgebungsvariable, die über mehrere Shell-Neustarts hinweg existiert (builtin):
 
-`fish --version`
-
-- Setze und exportiere eine permanente Umgebungsvariable (nur innerhalb der Shell):
-
-`set -Ux {{variablenname}} {{variablenwert}}`
+`set --universal --export {{variablenname}} {{variablenwert}}`

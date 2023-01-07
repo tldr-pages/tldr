@@ -12,6 +12,6 @@
 
 `xcursorgen --prefix {{path/to/image_directory/}} {{path/to/config.cursor}} {{path/to/output_file}}`
 
-- Create an X cursor file using a config file and write the output to stdout:
+- Create an X cursor file using a config file and write the output to `stdout`:
 
 `xcursorgen {{path/to/config.cursor}}`

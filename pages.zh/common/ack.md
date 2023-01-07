@@ -1,20 +1,37 @@
 # ack
 
 > 一个类似 grep 的搜索工具，为程序员优化。
+> 另见 `rg`，它要快得多。
 > 更多信息：<https://beyondgrep.com/documentation>.
 
-- 寻找包含"小明"的文件：
+- 在当前目录下递归地搜索包含一个字符串或正则表达式的文件：
 
-`ack {{小明}}`
+`ack "{{search_pattern}}"`
 
-- 在给定文件类型中寻找包含"小明"的文件：
+- 不区分大小写搜索：
 
-`ack --ruby {{小明}}`
+`ack --ignore-case "{{search_pattern}}"`
 
-- 计算匹配到"小明"的总次数：
+- 搜索匹配模式的行，只打印匹配的文本，而不打印行的其他部分：
 
-`ack -ch {{小明}}`
+`ack -o "{{search_pattern}}"`
 
-- 列出内容包含"小明"的文件的文件名，并显示在每个文件中匹配的次数：
+- 限制搜索特定类型的文件：
 
-`ack -cl {{小明}}`
+`ack --type={{ruby}} "{{search_pattern}}"`
+
+- 不在特定类型的文件中搜索：
+
+`ack --type=no{{ruby}} "{{search_pattern}}"`
+
+- 计算找到的匹配文件的总数：
+
+`ack --count --no-filename "{{search_pattern}}"`
+
+- 只打印文件名和每个文件的匹配数：
+
+`ack --count --files-with-matches "{{search_pattern}}"`
+
+- 列出所有可与 `--type` 一起使用的值：
+
+`ack --help-types`

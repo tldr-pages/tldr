@@ -1,7 +1,7 @@
 # cmd
 
 > Android servis yöneticisi.
-> Daha fazla bilgi: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+> Daha fazla bilgi için: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
 
 - Tüm çalışan servisleri sırala:
 

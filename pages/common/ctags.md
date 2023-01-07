@@ -9,8 +9,12 @@
 
 - Generate tags for all files in the current directory, and output them to a specific file, overwriting the file if it exists:
 
-`ctags -f {{filename}} *`
+`ctags -f {{path/to/file}} *`
 
 - Generate tags for all files in the current directory and all subdirectories:
 
 `ctags --recurse`
+
+- Generate tags for a single file, and output them with start line number and end line number in JSON format:
+
+`ctags --fields=+ne --output-format=json {{path/to/file}}`

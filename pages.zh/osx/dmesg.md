@@ -1,6 +1,7 @@
 # dmesg
 
 > 将内核消息写入标准输出。
+> 更多信息：<https://www.manpagez.com/man/8/dmesg/>.
 
 - 显示内核消息：
 

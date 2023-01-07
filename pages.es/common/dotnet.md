@@ -2,7 +2,7 @@
 
 > Herramienta multiplataforma de línea de comandos para .NET Core.
 > Algunos subcomandos, como `dotnet build`, tienen su propia documentación de uso.
-> Más información: <https://docs.microsoft.com/dotnet/core/tools>.
+> Más información: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Inicializa un proyecto .NET nuevo:
 

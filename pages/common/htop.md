@@ -19,6 +19,10 @@
 
 `?`
 
+- Switch to a different tab:
+
+`tab`
+
 - Display help:
 
 `htop --help`

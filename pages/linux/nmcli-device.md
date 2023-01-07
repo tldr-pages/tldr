@@ -1,6 +1,7 @@
 # nmcli device
 
 > Hardware device management with NetworkManager.
+> This subcommand can also be called with `nmcli d`.
 > More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Print the statuses of all network interfaces:

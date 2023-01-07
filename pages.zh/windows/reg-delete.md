@@ -1,7 +1,7 @@
 # reg delete
 
 > 从注册表中删除键和值。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/reg-delete>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete>.
 
 - 删除一个指定的键：
 

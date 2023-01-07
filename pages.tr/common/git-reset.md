@@ -2,7 +2,7 @@
 
 > Mevcut Git HEAD'ini belirtilen duruma sıfırlayarak commit'leri veya değişiklikleri geri al.
 > Eğer bir konum verildiye o konumdaki değişiklikler "geri alınır"; eğer bir commit değeri veya dal verildiyse o commit/dal "geri alınır".
-> Daha fazla bilgi: <https://git-scm.com/docs/git-reset>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-reset>.
 
 - Her şeyi geri al:
 

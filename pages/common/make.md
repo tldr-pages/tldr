@@ -18,15 +18,19 @@
 
 - Use a specific Makefile:
 
-`make --file {{file}}`
+`make --file {{path/to/file}}`
 
 - Execute make from another directory:
 
-`make --directory {{directory}}`
+`make --directory {{path/to/directory}}`
 
 - Force making of a target, even if source files are unchanged:
 
 `make --always-make {{target}}`
+
+- Override a variable defined in the Makefile:
+
+`make {{target}} {{variable}}={{new_value}}`
 
 - Override variables defined in the Makefile by the environment:
 

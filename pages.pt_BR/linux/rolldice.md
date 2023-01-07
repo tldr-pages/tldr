@@ -1,6 +1,6 @@
 # rolldice
 
-> Rola dados virtuais
+> Rola dados virtuais.
 > Mais informações: <https://manned.org/rolldice>.
 
 - Rola um dado de 20 lados:

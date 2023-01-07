@@ -21,6 +21,7 @@ The templates can be changed when necessary.
 [it](#it) •
 [ja](#ja) •
 [ko](#ko) •
+[lo](#lo) •
 [ml](#ml) •
 [ne](#ne) •
 [nl](#nl) •
@@ -40,7 +41,6 @@ The templates can be changed when necessary.
 [uz](#uz) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
-
 ---
 ### en
 
@@ -101,7 +101,15 @@ Not translated yet.
 ---
 ### da
 
-Not translated yet.
+```markdown
+# example
+
+> Denne kommando er et alias af `example`.
+
+- Se dokumentation for den oprindelige kommando:
+
+`tldr example`
+```
 
 ---
 ### de
@@ -192,7 +200,7 @@ Not translated yet.
 ```markdown
 # example
 
-> このコマンドは `example` のエイリアスです.
+> このコマンドは `example` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 
@@ -208,6 +216,19 @@ Not translated yet.
 > 이 명령은 `example` 의 에일리어스 (별칭) 입니다.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
+
+`tldr example`
+```
+
+---
+### lo
+
+```markdown
+# example
+
+> ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `example`.
+
+- ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 
 `tldr example`
 ```
@@ -422,7 +443,7 @@ Not translated yet.
 
 > 這是 `example` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr example`
 ```

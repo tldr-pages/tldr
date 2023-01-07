@@ -19,7 +19,7 @@
 
 `dig {{example.com}} ANY`
 
-- Especifíca un servidor DNS alterno a consultar:
+- Especifica un servidor DNS alterno a consultar:
 
 `dig @{{8.8.8.8}} {{example.com}}`
 

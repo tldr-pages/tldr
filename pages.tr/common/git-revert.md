@@ -1,7 +1,7 @@
 # git revert
 
 > Öncekilerin etkilerini geri alan yeni bir commit oluştur.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-revert>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-revert>.
 
 - En son commit'leri geri al:
 

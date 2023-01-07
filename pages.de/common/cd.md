@@ -7,14 +7,22 @@
 
 `cd {{pfad/zu/verzeichnis}}`
 
-- Wechsle in das Home-Verzeichnis des aktuellen Benutzers:
-
-`cd`
-
 - Wechsle zum Verzeichnis über dem aktuellen Verzeichnis:
 
 `cd ..`
 
+- Wechsle in das Home-Verzeichnis des aktuellen Benutzers:
+
+`cd`
+
+- Wechsle in das Home-Verzeichnis eines bestimmten Benutzers:
+
+`cd ~{{benutzername}}`
+
 - Wechsle zum zuletzt gewählten Verzeichnis:
 
 `cd -`
+
+- Wechseln in das Stammverzeichnis:
+
+`cd /`

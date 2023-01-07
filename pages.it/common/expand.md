@@ -15,7 +15,7 @@
 
 `expand -i {{file}}`
 
-- Sostituisci i tab con un determinato numeroo di spazi, non 8 (default):
+- Sostituisci i tab con un determinato numero di spazi, non 8 (default):
 
 `expand -t={{numero_spazi}} {{file}}`
 

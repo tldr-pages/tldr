@@ -7,7 +7,7 @@
 
 `age --passphrase --output {{path/to/encrypted_file}} {{path/to/unencrypted_file}}`
 
-- Generate a key pair, saving the private key to an unencrypted file and printing the public key to stdout:
+- Generate a key pair, saving the private key to an unencrypted file and printing the public key to `stdout`:
 
 `age-keygen --output {{path/to/file}}`
 

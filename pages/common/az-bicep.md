@@ -2,7 +2,7 @@
 
 > Bicep CLI command group.
 > Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/bicep>.
+> More information: <https://learn.microsoft.com/cli/azure/bicep>.
 
 - Install Bicep CLI:
 
