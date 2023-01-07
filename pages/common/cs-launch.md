@@ -3,9 +3,9 @@
 > Launch an application from the name directly from one or more Maven dependencies without the need of installing it.
 > More information: <https://get-coursier.io/docs/cli-launch>.
 
-- Launch an application with the `--version` argument:
+- Launch a specific application with arguments:
 
-`cs launch {{application-name}} -- --version`
+`cs launch {{application_name}} -- {{arg1 arg2 ...}}`
 
 - Launch a specific version of `scalafmt-cli` with `-help`argument in it:
 
