@@ -20,7 +20,7 @@
 
 `cs uninstall {{application-name}}`
 
-- Setup your machine for the Scala development:
+- Setup machine for the Scala development:
 
 `cs setup`
 
