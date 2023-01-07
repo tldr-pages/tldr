@@ -22,6 +22,6 @@
 
 `cs resolve {{group_id}}:{{artifact_id}}:{{artifact_version}} --what-depends-on {{searched_group_id}}:{{searched_artifact_id}}{{searched_artifact_version}}`
 
-- Print eventual conflits between a set of packages:
+- Print eventual conflicts between a set of packages:
 
-`cs resolve --conflicts {{groupId1}}:{{artifactId1}}:{{artifactartifactVersion1}} {{groupId2}}:{{artifactId2}}:{{artifactVersion2}}} {{groupId3}}:{{artifactId3}}:{{artifactVersion3}}`
+`cs resolve --conflicts {{group_id1:artifact_id1:artifact_version1 group_id2:artifact_id2:artifact_version2 ...}}`
