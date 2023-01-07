@@ -3,7 +3,7 @@
 > Change file/directory access permissions.
 > More information: <https://www.gnu.org/software/coreutils/chmod>.
 
-- Add [r]ead/[w]rite/e[x]ecute permissions for a file/directory owner:
+- Add [r]ead or [w]rite or e[x]ecute permissions for a file or directory owner:
 
 `chmod u+{{r|w|x}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
@@ -11,7 +11,7 @@
 
 `chmod {{u|g|o|a}}+{{r}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Add/remove/replace specific permissions:
+- Add or remove or replace specific permissions:
 
 `chmod {{u}}{{+|-|=}}{{r}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
