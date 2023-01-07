@@ -21,7 +21,7 @@
 
 - Set the a specific JVM as one-off "default" for the shell instance:
 
-`cs java --jvm {{jvm-name}}:{{jvm-version}} --env`
+`cs java --jvm {{jvm_name}}:{{jvm_version}} --env`
 
 - Revert the changes for the default JVM settings:
 
