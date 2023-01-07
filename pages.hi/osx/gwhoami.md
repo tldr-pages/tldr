@@ -1,0 +1,7 @@
+# gwhoami
+
+> यह आदेश `-p linux whoami` का उपनाम है।
+
+- मूल आदेश के लिए दस्तावेज़ देखें:
+
+`tldr -p linux whoami`

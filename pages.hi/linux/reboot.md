@@ -1,7 +1,7 @@
 # reboot
 
 > मशीन को `reboot` करें
-> अधिक जानकारी: <https://manned.org/reboot.8>.
+> अधिक जानकारी: <https://manned.org/reboot.8>।
 
 - तुरंत पुनरारंभ करें:
 

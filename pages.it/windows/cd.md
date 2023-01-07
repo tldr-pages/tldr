@@ -1,7 +1,7 @@
 # cd
 
 > Mostra informazioni riguardo alla directory corrente e permette di muoversi in un altra directory.
-> Maggiori informazioni: <https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/cd>.
+> Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Mostra il percorso (path) della directory corrente:
 

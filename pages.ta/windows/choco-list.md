@@ -1,7 +1,7 @@
 # choco list
 
 > சாக்லேட்டியுடன் ஒன்று அல்லது அதற்கு மேற்பட்ட தொகுப்புகளை நிறுவவும்.
-> மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-install>.
+> மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-list>.
 
 - கிடைக்கக்கூடிய அனைத்து தொகுப்புகளையும் காண்பி:
 

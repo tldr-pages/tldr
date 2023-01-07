@@ -2,7 +2,7 @@
 
 > Trasferisci dati da o ad un server.
 > Supporta molti protocollo, tra cui HTTP, FTP e POP3.
-> Maggiori informazioni: <https://curl.se/docs/manpage.html>.
+> Maggiori informazioni: <https://curl.se>.
 
 - Scarica il contenuto di un URL in un file:
 

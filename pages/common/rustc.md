@@ -6,15 +6,15 @@
 
 - Compile a single file:
 
-`rustc {{file.rs}}`
+`rustc {{path/to/file.rs}}`
 
 - Compile with high optimization:
 
-`rustc -O {{file.rs}}`
+`rustc -O {{path/to/file.rs}}`
 
 - Compile with debugging information:
 
-`rustc -g {{file.rs}}`
+`rustc -g {{path/to/file.rs}}`
 
 - Compile with architecture-specific optimizations for the current CPU:
 

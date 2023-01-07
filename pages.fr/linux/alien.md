@@ -1,7 +1,7 @@
 # alien
 
 > Convertit différents paquets d'installation vers d'autres formats :
-> Plus d'information : <https://manned.org/alien>.
+> Plus d'informations : <https://manned.org/alien>.
 
 - Convertit un fichier d'installation spécifique vers le format Debian (extension `.deb`) :
 

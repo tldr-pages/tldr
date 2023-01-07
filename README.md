@@ -54,10 +54,16 @@ which is supported by the tldr-pages project maintainers:
 npm install -g tldr
 ```
 
-Alternatively, you can also use the [Python client](https://github.com/tldr-pages/tldr-python-client) which can be installed via `pip3`.
+Alternatively, you can also use the [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via `pip3`.
 
 ```sh
 pip3 install tldr
+```
+
+Or Mac users can also install our [C Client](https://github.com/tldr-pages/tldr-c-client) using Homebrew.
+
+```sh
+brew install tldr
 ```
 
 Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
@@ -87,6 +93,12 @@ Some ways to contribute include:
 All `tldr` pages are written in markdown, so they can be edited quite easily and changes can be submitted in
 pull requests here using Git on the command-line or
 using the GitHub web interface.
+
+But we already have some plugins for different editors to enhance the tldr page editing experience:
+
+- [Emacs](https://github.com/tldr-pages/tldr-emacs-extension)
+
+For editors without a plugin system, we provide a set of configurations in a [separate repo](https://github.com/tldr-pages/tldr-editor-configs).
 
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
 If it's your first time contributing, have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
