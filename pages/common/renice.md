@@ -1,6 +1,6 @@
 # renice
 
-> Alters the scheduling priority/nicenesses of one or more running processes.
+> Alters the scheduling priority/niceness of one or more running processes.
 > Niceness values range from -20 (most favorable to the process) to 19 (least favorable to the process).
 > More information: <https://manned.org/renice>.
 

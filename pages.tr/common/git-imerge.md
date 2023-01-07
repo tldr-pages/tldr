@@ -2,7 +2,7 @@
 
 > İki git dalı arasında aşamalı olarak birleştirme veya taban değiştirme işlemlerini uygula.
 > Dallar arasındaki uyuşmazlıklar özel commitler ile bölüşülerek uyuşmazlıkları çözmek kolaylaştırılır.
-> Daha fazla bilgi: <https://github.com/mhagger/git-imerge>.
+> Daha fazla bilgi için: <https://github.com/mhagger/git-imerge>.
 
 - imerge bazlı taban değiştirme işlemini başlat (işlemden önce tabanı değiştirilmek istenen dalı kontrol et):
 

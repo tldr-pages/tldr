@@ -4,34 +4,34 @@
 > Supports Java, Groovy, Scala, Kotlin, Gradle, Maven, Vert.x and many others.
 > More information: <https://sdkman.io/usage>.
 
-- Install a specific version of Gradle:
+- Install an SDK version:
 
-`sdk install {{gradle}} {{gradle_version}}`
+`sdk install {{sdk_name}} {{sdk_version}}`
 
-- Switch to a specific version of Gradle:
+- Use a specific SDK version for the current terminal session:
 
-`sdk use {{gradle}} {{gradle_version}}`
+`sdk use {{sdk_name}} {{sdk_version}}`
 
-- Check current Gradle version:
+- Show the stable version of any available SDK:
 
-`sdk current {{gradle}}`
+`sdk current {{sdk_name}}`
 
-- List all Software Development Kits available to install:
-
-`sdk list`
-
-- List all available versions for a specific Software Development Kit:
-
-`sdk list {{sdk_name}}`
-
-- List all installed Software Development Kits:
+- Show the stable versions of all installed SDKs:
 
 `sdk current`
 
-- Update Gradle to the latest version:
+- List all available SDKs:
 
-`sdk upgrade {{gradle}}`
+`sdk list`
 
-- Uninstall a particular version of Gradle:
+- List all versions of an SDK:
 
-`sdk rm {{gradle}} {{gradle_version}}`
+`sdk list {{sdk_name}}`
+
+- Upgrade an SDK to the latest stable version:
+
+`sdk upgrade {{sdk_name}}`
+
+- Uninstall a specific SDK version:
+
+`sdk rm {{sdk_name}} {{sdk_version}}`

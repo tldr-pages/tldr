@@ -1,7 +1,7 @@
 # dotnet build
 
 > Compila una aplicación .NET y sus dependencias.
-> Más información: <https://docs.microsoft.com/dotnet/core/tools/dotnet-build>.
+> Más información: <https://learn.microsoft.com/dotnet/core/tools/dotnet-build>.
 
 - Compila el proyecto o solución en el directorio actual:
 

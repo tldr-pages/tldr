@@ -1,7 +1,7 @@
 # repair-bde
 
 > 尝试修复或解密损坏的 BitLocker 加密卷。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/repair-bde>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/repair-bde>.
 
 - 尝试修复一个指定的卷：
 

@@ -1,7 +1,7 @@
 # cd
 
 > Zeige den Namen des aktuellen Arbeitsverzeichnisses an oder ändere dieses.
-> Weitere Informationen: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+> Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Wechsle zu einem Verzeichnis im selben Laufwerk:
 

@@ -15,9 +15,13 @@
 
 `say --voice={{voice}} --rate={{words_per_minute}} "{{I'm sorry Dave, I can't let you do that.}}"`
 
-- List the available voices:
+- List the available voices (different voices speak in different languages):
 
 `say --voice="?"`
+
+- Say something in Polish:
+
+`say --voice={{Zosia}} "{{Litwo, ojczyzno moja!}}"`
 
 - Create an audio file of the spoken text:
 

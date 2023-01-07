@@ -1,7 +1,7 @@
 # dotnet ef
 
 > Narzędzia projektowania dla Entity Framework Core.
-> Więcej informacji: <https://docs.microsoft.com/ef/core/cli/dotnet>.
+> Więcej informacji: <https://learn.microsoft.com/ef/core/cli/dotnet>.
 
 - Zaaktualizuj bazę danych do wybranej migracji:
 

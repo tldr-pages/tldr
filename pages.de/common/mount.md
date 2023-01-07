@@ -3,7 +3,7 @@
 > Ermöglicht den Zugriff auf ein gesamtes Dateisystem in einem Verzeichnis.
 > Weitere Informationen: <https://manned.org/mount.8>.
 
-- Zeige alle eingehängten Dateisyteme:
+- Zeige alle eingehängten Dateisysteme:
 
 `mount`
 

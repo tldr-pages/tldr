@@ -1,7 +1,7 @@
 # nmcli agent
 
 > Run nmcli as a NetworkManager secret agent or polkit agent.
-> See also: `nmcli radio`.
+> This subcommand can also be called with `nmcli a`.
 > More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Register nmcli as a secret agent and listen for secret requests:

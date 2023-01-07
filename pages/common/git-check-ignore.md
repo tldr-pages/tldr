@@ -1,6 +1,6 @@
 # git check-ignore
 
-> Analyse and debug Git ignore / exclude (".gitignore") files.
+> Analyze and debug Git ignore / exclude (".gitignore") files.
 > More information: <https://git-scm.com/docs/git-check-ignore>.
 
 - Check whether a file or directory is ignored:
@@ -11,7 +11,7 @@
 
 `git check-ignore {{path/to/file}} {{path/to/directory}}`
 
-- Use pathnames, one per line, from stdin:
+- Use pathnames, one per line, from `stdin`:
 
 `git check-ignore --stdin < {{path/to/file_list}}`
 

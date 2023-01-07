@@ -1,7 +1,7 @@
 # reg delete
 
 > Delete keys or their values from the registry.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-delete>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete>.
 
 - Delete a specific registry key:
 

@@ -5,19 +5,19 @@
 
 - Riproduce un file:
 
-`vlc {{percorso/al/file}}`
+`vlc {{percorso/del/file}}`
 
 - Riproduce a schermo intero:
 
-`vlc --fullscreen {{percorso/al/file}}`
+`vlc --fullscreen {{percorso/del/file}}`
 
 - Riproduce con audio disattivato:
 
-`vlc --no-audio {{percorso/al/file}}`
+`vlc --no-audio {{percorso/del/file}}`
 
 - Riproduce in ciclo continuo:
 
-`vlc --loop {{percorso/al/file}}`
+`vlc --loop {{percorso/del/file}}`
 
 - Riproduce il video in un certo URL:
 

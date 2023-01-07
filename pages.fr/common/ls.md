@@ -11,6 +11,10 @@
 
 `ls -a`
 
+- Liste tous les fichiers, avec les noms de répertoires suivis d'un `/` :
+
+`ls -F`
+
 - Liste tous les fichiers avec un format détaillé (permissions, propriétaire, taille et date de modification) :
 
 `ls -la`
@@ -26,3 +30,7 @@
 - Liste avec un format détaillé tous les fichiers en triant par date de modification (les plus anciennes en premier) :
 
 `ls -ltr`
+
+- Liste uniquement les répertoires :
+
+`ls -d */`

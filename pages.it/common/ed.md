@@ -1,7 +1,7 @@
 # ed
 
 > L'originale editor di testo Unix.
-> Maggiori informazioni: <https://man.archlinux.org/man/ed.1>.
+> Maggiori informazioni: <https://www.gnu.org/software/ed/manual/ed_manual.html>.
 
 - Avvia ed per editare un documento vuoto (che può essere salvato come nuovo file nella directory corrente):
 
@@ -13,7 +13,7 @@
 
 - Avvia ed per editare un file esistente (mostra il numero di byte del file caricato):
 
-`ed -p : {{percorso/al/file}}`
+`ed -p : {{percorso/del/file}}`
 
 - Attiva o disattiva la stampa di spiegazioni per gli errori (di default, le spiegazioni non sono stampate ed appare solo un `?`):
 

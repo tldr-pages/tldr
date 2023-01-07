@@ -29,4 +29,4 @@
 
 - Mostra il contenuto di un file ad una data revisione (ad esempio, in un ramo, tag o commit):
 
-`git show {{revisione}}:{{percorso/al/file}}`
+`git show {{revisione}}:{{percorso/del/file}}`

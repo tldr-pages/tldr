@@ -3,7 +3,7 @@
 > The command-line utility for the Satis static Composer repository.
 > More information: <https://github.com/composer/satis>.
 
-- Initialise a Satis configuration:
+- Initialize a Satis configuration:
 
 `satis init {{satis.json}}`
 

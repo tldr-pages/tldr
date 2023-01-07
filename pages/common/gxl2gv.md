@@ -8,7 +8,7 @@
 
 `gxl2gv -o {{output.gv}} {{input.gxl}}`
 
-- Convert a graph using stdin and stdout:
+- Convert a graph using `stdin` and `stdout`:
 
 `cat {{input.gxl}} | gxl2gv > {{output.gv}}`
 

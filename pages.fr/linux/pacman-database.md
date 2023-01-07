@@ -4,10 +4,6 @@
 > Modifie des attributs des paquets installés.
 > Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 
-- Affiche l'aide :
-
-`pacman --database --help`
-
 - Marque un paquet comme étant installé en tant que dépendance :
 
 `sudo pacman --database --asdeps {{paquet}}`
@@ -27,3 +23,7 @@
 - N'affiche que les messages d'erreur :
 
 `pacman --database --check --quiet`
+
+- Affiche l'aide :
+
+`pacman --database --help`

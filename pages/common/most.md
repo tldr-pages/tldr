@@ -13,7 +13,7 @@
 
 - Open a file at the first occurrence of "string":
 
-`most {{file}} +/{{string}}`
+`most {{path/to/file}} +/{{string}}`
 
 - Move through opened files:
 

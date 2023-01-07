@@ -19,17 +19,17 @@
 
 `find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
 
-- Find files matching a given size range:
+- Find files matching a given size range, limiting the recursive depth to "1"::
 
-`find {{root_path}} -size {{+500k}} -size {{-10M}}`
+`find {{root_path}} -maxdepth 1 -size {{+500k}} -size {{-10M}}`
 
 - Run a command for each file (use `{}` within the command to access the filename):
 
 `find {{root_path}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
 
-- Find files modified in the last 7 days and delete them:
+- Find files modified in the last 7 days:
 
-`find {{root_path}} -daystart -mtime -{{7}} -delete`
+`find {{root_path}} -daystart -mtime -{{7}}`
 
 - Find empty (0 byte) files and delete them:
 

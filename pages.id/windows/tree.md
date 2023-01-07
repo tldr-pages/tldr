@@ -1,7 +1,7 @@
 # tree
 
 > Menampilkan struktur direktori pada suatu lokasi dengan tampilan grafis pohon.
-> Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/tree>.
+> Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/tree>.
 
 - Tampilkan pohon dari direktori saat ini:
 

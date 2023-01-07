@@ -12,7 +12,7 @@
 
 `vim +{{numero_ligne}} {{chemin/vers/fichier}}`
 
-- consulter le manuel utilisateur :
+- Consulter le manuel utilisateur :
 
 `:help<Entrée>`
 

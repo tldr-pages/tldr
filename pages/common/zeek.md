@@ -1,6 +1,6 @@
 # zeek
 
-> Passive network traffic analyser.
+> Passive network traffic analyzer.
 > Any output and log files will be saved to the current working directory.
 > More information: <https://docs.zeek.org/en/lts/quickstart.html#zeek-as-a-command-line-utility>.
 

@@ -1,7 +1,7 @@
 # dotnet publish
 
 > Publica una aplicación .NET y sus dependencias en una carpeta para la implementación en un sistema de hospedaje.
-> Más información: <https://docs.microsoft.com/dotnet/core/tools/dotnet-publish>.
+> Más información: <https://learn.microsoft.com/dotnet/core/tools/dotnet-publish>.
 
 - Compila un proyecto .NET en modo de lanzamiento:
 

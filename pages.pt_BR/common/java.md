@@ -1,7 +1,7 @@
 # java
 
 > Inicializador de Programas Java.
-> Mais informações: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
+> Mais informações: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/java.html>.
 
 - Executa um arquivo Java `.class` que contém um método main, usando o nome da classe:
 

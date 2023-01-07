@@ -4,30 +4,34 @@
 > Souvent combiné avec une méthode de compression, telle que gzip ou bzip2.
 > Plus d'informations : <https://www.gnu.org/software/tar>.
 
-- Créer une archive à partir de fichiers :
+- Crée une archive à partir de fichiers :
 
-`tar cf {{cible.tar}} {{fichier1 fichier2 fichier3}}`
+`tar cf {{chemin/vers/cible.tar}} {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`
 
-- Créer une archive gzip :
+- Crée une archive gzip à partir de fichiers :
 
-`tar czf {{cible.tar.gz}} {{fichier1 fichier2 fichier3}}`
+`tar czf {{chemin/vers/cible.tar.gz}} {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`
 
-- Extraie une archive (compressée) dans le dossier courant :
+- Crée une archive gzip à partir d'un répertoire en utilisant son chemin relatif :
 
-`tar xf {{source.tar[.gz|.bz2|.xz]}}`
+`tar czf {{chemin/vers/cible.tar.gz}} --directory={{chemin/vers/répertoire}} .`
 
-- Extraie une archive dans un dossier cible :
+- Extrait une archive (compressée) dans le dossier courant en affichant la liste des fichiers traités :
 
-`tar xf {{source.tar}} -C {{dossier}}`
+`tar xvf {{chemin/vers/source.tar[.gz|.bz2|.xz]}}`
 
-- Créer une archive compressée, en utilisant le suffixe de l'archive pour déterminer le programme de compression :
+- Extrait une archive (compressée) dans un répertoire cible :
 
-`tar caf {{cible.tar.xz}} {{fichier1 fichier2 fichier3}}`
+`tar xf {{chemin/vers/source.tar[.gz|.bz2|.xz]}} --directory={{répertoire}}`
 
-- Lister le contenu d'une archive tar :
+- Crée une archive compressée, en utilisant le suffixe de l'archive pour déterminer le programme de compression :
 
-`tar tvf {{source.tar}}`
+`tar caf {{chemin/vers/cible.tar.xz}} {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`
 
-- Extraire les fichiers correspondant au motif :
+- Liste les fichiers contenus dans une archive tar :
+
+`tar tvf {{chemin/vers/source.tar}}`
+
+- Extrait les fichiers correspondant au motif :
 
 `tar xf {{source.tar}} --wildcards "{{*.html}}"`

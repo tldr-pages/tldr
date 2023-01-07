@@ -22,3 +22,7 @@
 - Find which processes are accessing the filesystem containing a specific file or directory:
 
 `fuser --mount {{path/to/file_or_directory}}`
+
+- Kill all processes with a TCP connection on a specific port:
+
+`fuser --kill {{port}}/tcp`

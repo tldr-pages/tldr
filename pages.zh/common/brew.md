@@ -31,6 +31,6 @@
 
 `brew info {{配方}}`
 
-- 檢查本地 Homebrew 安裝包是否有潛在問題：
+- 检查本地 Homebrew 安装包是否有潜在问题：
 
 `brew doctor`

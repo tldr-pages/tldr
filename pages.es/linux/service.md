@@ -2,6 +2,7 @@
 
 > Gestiona los servicios mediante la ejecución de scripts init.
 > Se debe omitir la ruta completa del script (se asume `/etc/init.d/`).
+> Más información: <https://manned.org/service>.
 
 - Lista el nombre y el estado de todos los servicios:
 

@@ -1,7 +1,7 @@
 # dir
 
 > Geeft de inhoud weer van een directory.
-> Meer informatie: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
+> Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - Geef de inhoud weer van de huidige map:
 

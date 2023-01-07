@@ -2,7 +2,7 @@
 
 > Calculate a hash for a file.
 > This command can only be used through PowerShell.
-> More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/get-filehash>.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-filehash>.
 
 - Calculate a hash for a specified file using the SHA256 algorithm:
 

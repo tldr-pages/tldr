@@ -3,7 +3,7 @@
 > Gestiona múltiples árboles de trabajo adjuntos al mismo repositorio.
 > Más información: <https://git-scm.com/docs/git-worktree>.
 
-- Crea un nuevo directorio con la rama específicada y se cambia él:
+- Crea un nuevo directorio con la rama específicada y se cambia a él:
 
 `git worktree add {{ruta/al/directorio}} {{rama}}`
 

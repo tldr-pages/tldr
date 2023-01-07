@@ -1,7 +1,7 @@
 # btrfs device
 
 > Manage devices in a btrfs filesystem.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-device>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-device.html>.
 
 - Add one or more devices to a btrfs filesystem:
 

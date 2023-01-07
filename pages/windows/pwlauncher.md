@@ -1,7 +1,7 @@
 # pwlauncher
 
 > A command-line tool for managing the Windows To Go startup options.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/pwlauncher>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/pwlauncher>.
 
 - Display the current Windows To Go status:
 

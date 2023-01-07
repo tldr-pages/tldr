@@ -4,10 +4,6 @@
 > See also `pkgfile`.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
-- Display help:
-
-`pacman --files --help`
-
 - Update the package database:
 
 `sudo pacman --files --refresh`
@@ -31,3 +27,7 @@
 - List only the absolute path to the files:
 
 `pacman --query --list --quiet {{package_name}}`
+
+- Display help:
+
+`pacman --files --help`

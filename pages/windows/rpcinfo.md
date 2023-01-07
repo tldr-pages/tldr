@@ -1,7 +1,7 @@
 # rpcinfo
 
 > List programs via RPC on remote computers.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/rpcinfo>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/rpcinfo>.
 
 - List all programs registered on the local computer:
 

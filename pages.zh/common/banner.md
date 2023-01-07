@@ -1,7 +1,7 @@
 # banner
 
 > 将给定参数输出为大型 ASCII 文字。
-> 更多信息：<https://man.archlinux.org/man/banner.1>.
+> 更多信息：<https://manned.org/banner>.
 
 - 将文字信息打印为大横幅（引号是可选的）：
 

@@ -8,7 +8,7 @@
 
 `bat {{pfad/zu/datei}}`
 
-- Verkette mehrere Dateien zu eine Zieldatei:
+- Verkette mehrere Dateien zu einer Zieldatei:
 
 `bat {{pfad/zu/datei1}} {{pfad/zu/datei2}} > {{pfad/zu/ziel_datei}}`
 
@@ -20,7 +20,7 @@
 
 `bat -n {{pfad/zu/datei}}`
 
-- Hebe den Syntax einer JSON-Datei hervor:
+- Hebe die Syntax einer JSON-Datei hervor:
 
 `bat --language {{json}} {{pfad/zu/datei.json}}`
 

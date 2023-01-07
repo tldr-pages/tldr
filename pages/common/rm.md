@@ -12,7 +12,7 @@
 
 `rm -f {{path/to/file1 path/to/file2 ...}}`
 
-- Remove specific files interactively prompting before each removal:
+- Remove specific files [i]nteractively prompting before each removal:
 
 `rm -i {{path/to/file1 path/to/file2 ...}}`
 

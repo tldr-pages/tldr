@@ -24,6 +24,6 @@
 
 `aria2c --ftp-user={{username}} --ftp-passwd={{password}} {{url}}`
 
-- Limita la valocità di download (in byte al secondo):
+- Limita la velocità di download (in byte al secondo):
 
 `aria2c --max-download-limit={{velocità}} {{url}}`
