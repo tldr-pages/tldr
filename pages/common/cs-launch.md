@@ -13,7 +13,7 @@
 
 - Launch a specific version of an application specifying which is the main file:
 
-`cs launch {{groupId}}:{{artifactId}}:{{artifactVersion}} -M {{main-class-file}}`
+`cs launch {{group_id}}:{{artifact_id}}:{{artifact_version}} --main-class {{path/to/main_class_file}}`
 
 - Launch an application specifying custom java options and a jvm memory options:
 
