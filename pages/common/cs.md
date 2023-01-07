@@ -12,9 +12,9 @@
 
 `cs list`
 
-- Install an application:
+- Install a specific application:
 
-`cs install {{application-name}}`
+`cs install {{application_name}}`
 
 - Uninstall a specific application:
 
