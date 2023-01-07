@@ -19,6 +19,6 @@
 
 `chmod {{o}}= {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Change permissions recursively:
+- Change permissions [recursive]ly:
 
 `chmod --recursive {{u}}{{+}}{{r}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
