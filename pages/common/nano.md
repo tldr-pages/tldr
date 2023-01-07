@@ -23,7 +23,7 @@
 
 `nano --softwrap {{path/to/file}}`
 
-- Open a file and indent new lines to the previous line indentation:
+- Open a file and indent new lines to the previous lines' indentation:
 
 `nano --autoindent {{path/to/file}}`
 
