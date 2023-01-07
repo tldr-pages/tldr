@@ -168,6 +168,8 @@ All borders of integer and float ranges get included. If you want to exclude the
   write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
   and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
 - If a placeholder can take a variable number of arguments, use an ellipsis: `{{common_placeholder_part1 common_placeholder_part2 ...}}`.
+  But if we are talking about unsplittable objects written together like a collection of
+  0 or more characters than plural noun must be used like `{{characters}}`.
   If one of the multiple options is possible, write it as `{{either|or}}`.
   If there are more than 5 alternatives, use `|...` for the ellipsis.
 
