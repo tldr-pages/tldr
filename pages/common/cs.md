@@ -4,7 +4,7 @@
 > Some subcommands such as `install`, `launch`, `java`, `fetch`, `resolve`, `complete-dep`, etc. have their own usage documentation, accessible via `tldr cs subcommand`.
 > More information: <https://get-coursier.io/docs/overview>.
 
-- Show the current version:
+- Display version:
 
 `cs version`
 
