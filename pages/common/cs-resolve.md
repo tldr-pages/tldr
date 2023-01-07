@@ -15,10 +15,9 @@
 
 `cs resolve --reverse-tree {{groupId}}:{{artifactId}}:{{artifactVersion}}`
 
-- Print all the libraries that depends on a particoular library:
+- Print all the libraries that depends on a specific library:
 
-`cs resolve {{groupId}}:{{artifactId}}:{{artifactVersion}} --what-depends-on {{searchedGroupId}}:{{searchedArtifactId}}`
-
+`cs resolve {{group_id}}:{{artifact_id}}:{{artifact_version}} --what-depends-on {{searched_group_id}}:{{searched_artifact_id}}`
 - Print all the libraries that depends on a particoular library version:
 
 `cs resolve {{groupId}}:{{artifactId}}:{{artifactVersion}} --what-depends-on {{searchedGroupId}}:{{searchedArtifactId}}{{searchedArtifactVersion}}`
