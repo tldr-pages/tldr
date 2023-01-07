@@ -2,7 +2,7 @@
 
 > Open files in their respective default programs.
 > This command can only be used through PowerShell.
-> More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.management/invoke-item>.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/invoke-item>.
 
 - Open a file in its default program:
 

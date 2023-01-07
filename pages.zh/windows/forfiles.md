@@ -1,7 +1,7 @@
 # forfiles
 
 > 选择一个或多个文件以执行指定的命令。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/forfiles>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/forfiles>.
 
 - 在当前的目录中寻找文件：
 

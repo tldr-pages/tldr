@@ -1,7 +1,7 @@
 # git shortlog
 
 > 'git log' çıktısını özetle.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-shortlog>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-shortlog>.
 
 - Yapılan tüm commit'lerin yazar ismiyle alfabetik olarak guruplanmış özetini göster:
 

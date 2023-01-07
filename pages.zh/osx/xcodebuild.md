@@ -1,6 +1,7 @@
 # xcodebuild
 
 > 构建 Xcode 项目。
+> 更多信息：<https://developer.apple.com/library/archive/technotes/tn2339/_index.html>.
 
 - 构建工作区：
 

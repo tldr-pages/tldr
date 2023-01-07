@@ -1,0 +1,7 @@
+# gsleep
+
+> Ova komanda je pseudonim za `-p linux sleep`.
+
+- Pogledaj dokumentaciju za izvornu komandu:
+
+`tldr -p linux sleep`

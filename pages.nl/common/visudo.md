@@ -1,7 +1,7 @@
 # visudo
 
 > Bewerk veilig het sudoers-bestand.
-> Meer informatie: <https://www.sudo.ws/man/1.8.13/visudo.man.html>.
+> Meer informatie: <https://www.sudo.ws/docs/man/visudo.man>.
 
 - Bewerk sudoers-bestand:
 

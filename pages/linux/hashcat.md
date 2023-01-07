@@ -1,7 +1,7 @@
 # hashcat
 
 > Fast and advanced password recovery tool.
-> More information: <https://manned.org/hashcat>.
+> More information: <https://hashcat.net/wiki/doku.php?id=hashcat>.
 
 - Perform a brute-force attack (mode 3) with the default hashcat mask:
 

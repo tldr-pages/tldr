@@ -16,7 +16,7 @@
 
 `gh issue list`
 
-- View an issue in the browser:
+- View an issue in the default web browser:
 
 `gh issue view --web {{issue_number}}`
 
@@ -24,11 +24,11 @@
 
 `gh pr create`
 
-- View a pull request in the browser:
+- View a pull request in the default web browser:
 
 `gh pr view --web {{pr_number}}`
 
-- Locally check out the branch of a pull request, given its number:
+- Check out a specific pull request locally:
 
 `gh pr checkout {{pr_number}}`
 

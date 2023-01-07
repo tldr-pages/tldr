@@ -11,7 +11,7 @@
 
 `diff --ignore-all-space {{arquivo_antigo}} {{arquivo_novo}}`
 
-- Compara arquivos, mostrando diferenças lado a lado
+- Compara arquivos, mostrando diferenças lado a lado:
 
 `diff --side-by-side {{arquivo_antigo}} {{arquivo_novo}}`
 

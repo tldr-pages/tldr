@@ -1,7 +1,7 @@
 # git svn
 
 > Bir alt sürüm deposu ve Git arasında çift yönlü operasyon.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-svn>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-svn>.
 
 - Bit SVN deposunu klonla:
 

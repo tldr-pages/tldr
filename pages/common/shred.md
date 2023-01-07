@@ -5,16 +5,16 @@
 
 - Overwrite a file:
 
-`shred {{file}}`
+`shred {{path/to/file}}`
 
 - Overwrite a file, leaving zeroes instead of random data:
 
-`shred --zero {{file}}`
+`shred --zero {{path/to/file}}`
 
 - Overwrite a file 25 times:
 
-`shred -n25 {{file}}`
+`shred -n25 {{path/to/file}}`
 
 - Overwrite a file and remove it:
 
-`shred --remove {{file}}`
+`shred --remove {{path/to/file}}`

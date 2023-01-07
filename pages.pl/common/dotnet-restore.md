@@ -1,7 +1,7 @@
 # dotnet restore
 
 > Przywracanie zależności i narzędzi dla projektu .NET.
-> Więcej informacji: <https://docs.microsoft.com/dotnet/core/tools/dotnet-restore>.
+> Więcej informacji: <https://learn.microsoft.com/dotnet/core/tools/dotnet-restore>.
 
 - Przywróć zależności dla projektu lub solucji w bieżącym katalogu:
 

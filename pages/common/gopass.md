@@ -3,7 +3,7 @@
 > Standard Unix Password Manager for Teams. Written in Go.
 > More information: <https://www.gopass.pw>.
 
-- Initialise the configuration settings:
+- Initialize the configuration settings:
 
 `gopass init`
 

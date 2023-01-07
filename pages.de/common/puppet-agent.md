@@ -22,3 +22,11 @@
 - Protokolliere jede ausgewertete Ressource (selbst wenn sich nichts geändert hat):
 
 `puppet agent --test --evaltrace`
+
+- Deaktiviere den Agenten:
+
+`puppet agent --disable "{{nachricht}}"`
+
+- Aktiviere den Agenten:
+
+`puppet agent --enable`

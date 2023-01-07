@@ -1,7 +1,7 @@
 # cmd
 
 > Windows 命令解释器。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
 - 开启一个新的命令行实例：
 

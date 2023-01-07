@@ -1,7 +1,7 @@
 # git update-ref
 
 > Git referanslarını yaratmak, güncellemek ve silmeye yarayan bir Git komutu.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-update-ref>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-update-ref>.
 
 - Bir referansı sil (ilk commit'i hafifçe sıfırlamaya yarar):
 

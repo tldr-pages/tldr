@@ -1,7 +1,7 @@
 # git column
 
 > Kolonlarda veri görüntüle.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-column>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-column>.
 
 - Standart çıktıyı çoklu kolonlar olarak biçimlendir:
 

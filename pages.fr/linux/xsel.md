@@ -1,6 +1,7 @@
 # xsel
 
 > Outil de sélection et de manipulation du presse-papiers X11.
+> Plus d'informations : <https://manned.org/xsel>.
 
 - Utilise la sortie d'une commande comme entrée du presse-papiers (équivalent de `Ctrl + C`) :
 

@@ -16,6 +16,6 @@
 
 `git cherry-pick {{commit_1}} {{commit_2}}`
 
-- Aggiungi le modifiche introdotte da un commit alla cartella di lavoro, ma senza creare un nuovo commit:
+- Aggiungi le modifiche introdotte da un commit alla directory di lavoro, ma senza creare un nuovo commit:
 
 `git cherry-pick -n {{commit}}`

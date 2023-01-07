@@ -6,7 +6,7 @@
 
 - Installa un pacchetto:
 
-`dpkg -i {{percorso/al/file.deb}}`
+`dpkg -i {{percorso/del/file.deb}}`
 
 - Rimuove un pacchetto:
 
@@ -22,7 +22,7 @@
 
 - Elenca i contenuti di un file pacchetto locale:
 
-`dpkg -c {{percorso/al/file.deb}}`
+`dpkg -c {{percorso/del/file.deb}}`
 
 - Trova a quale pacchetto appartiene un file:
 

@@ -1,7 +1,7 @@
 # reg flags
 
 > 显示或设置注册表键的标志。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/reg-flags>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-flags>.
 
 - 显示当前指定键的标志：
 

@@ -1,7 +1,7 @@
 # print
 
 > Wyślij plik tekstowy do drukarki.
-> Więcej informacji: <https://docs.microsoft.com/windows-server/administration/windows-commands/print>.
+> Więcej informacji: <https://learn.microsoft.com/windows-server/administration/windows-commands/print>.
 
 - Drukuj plik tekstowy używając domyślnej drukarki:
 

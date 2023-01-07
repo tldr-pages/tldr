@@ -28,6 +28,6 @@
 
 `resolvectl opengpg {{email}}`
 
-- Retreive a TLS key:
+- Retrieve a TLS key:
 
 `resolvectl tlsa tcp {{domain}}:443`

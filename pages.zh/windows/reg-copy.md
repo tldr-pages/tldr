@@ -1,7 +1,7 @@
 # reg copy
 
 > 复制注册表中的键和值。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/reg-copy>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-copy>.
 
 - 将注册表键复制到新的注册表位置：
 

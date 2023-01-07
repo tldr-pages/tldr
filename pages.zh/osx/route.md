@@ -2,6 +2,7 @@
 
 > 手动操作路由表。
 > 需要 root 权限。
+> 更多信息：<https://www.manpagez.com/man/8/route/>.
 
 - 通过网关向目标添加路由：
 

@@ -1,7 +1,7 @@
 # chromium
 
 > Navegador código aberto do Google.
-> Mais informações: <https://chromium.org>.
+> Mais informações: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
 - Abre um arquivo:
 

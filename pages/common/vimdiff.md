@@ -1,7 +1,7 @@
 # vimdiff
 
 > Open up two or more files in vim and show the differences between them.
-> See also `vim`.
+> See also `vim`, `vimtutor`, `nvim`.
 > More information: <https://www.vim.org>.
 
 - Open two files and show the differences:
@@ -12,11 +12,11 @@
 
 `Ctrl + w {{h|l}}`
 
-- Jump to the next difference:
+- Jump to the previous difference:
 
 `[c`
 
-- Jump to the previous difference:
+- Jump to the next difference:
 
 `]c`
 

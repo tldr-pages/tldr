@@ -9,7 +9,7 @@
 
 - Generate file from a plugin:
 
-`ignite generate {{plugin_name}} {{filename}}`
+`ignite generate {{plugin_name}} {{path/to/file}}`
 
 - Add an Ignite plugin to the project:
 

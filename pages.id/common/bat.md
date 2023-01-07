@@ -1,7 +1,7 @@
 # bat
 
 > Mencetak dan menggabungkan berkas.
-> klon dari `cat` dengan sintaks berwarna dan integrasi Git.
+> Klon dari `cat` dengan sintaks berwarna dan integrasi Git.
 > Informasi lebih lanjut: <https://github.com/sharkdp/bat>.
 
 - Mencetak konten berkas ke keluaran standar:

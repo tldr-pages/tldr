@@ -3,7 +3,7 @@
 > Apri file in un server emacs esistente.
 > Maggiori informazioni: <https://www.emacswiki.org/emacs/EmacsClient>.
 
-- Apri un file in un server Emacs esistene (utilizzando la GUI se disponibile):
+- Apri un file in un server Emacs esistente (utilizzando la GUI se disponibile):
 
 `emacsclient {{nome_file}}`
 

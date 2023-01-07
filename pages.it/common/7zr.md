@@ -6,7 +6,7 @@
 
 - Archivia un file o una directory:
 
-`7zr a {{archivio.7z}} {{percorso/a/file_o_directory}}`
+`7zr a {{archivio.7z}} {{percorso/del/file_o_directory}}`
 
 - Estrai un archivio mantenendo la gerarchia delle directory:
 

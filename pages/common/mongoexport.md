@@ -3,7 +3,7 @@
 > Produce exports of data stored in a MongoDB instance formatted as JSON or CSV.
 > More information: <https://docs.mongodb.com/database-tools/mongoexport/>.
 
-- Export a collection to stdout, formatted as JSON:
+- Export a collection to `stdout`, formatted as JSON:
 
 `mongoexport --uri={{connection_string}} --collection={{collection_name}}`
 
@@ -23,7 +23,7 @@
 
 `mongoexport --collection={{collection_name}} --type={{csv}} --fields="{{field1,field2,...}}" --queryFile={{path/to/file}} --noHeaderLine --out={{path/to/file.csv}}`
 
-- Export documents to stdout, formatted as human-readable JSON:
+- Export documents to `stdout`, formatted as human-readable JSON:
 
 `mongoexport --uri={{mongodb_uri}} --collection={{collection_name}} --pretty`
 

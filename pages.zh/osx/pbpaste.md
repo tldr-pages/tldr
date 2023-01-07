@@ -1,6 +1,7 @@
 # pbpaste
 
 > 将剪贴板的内容发送到标准输出（命令行）。
+> 更多信息：<https://ss64.com/osx/pbpaste.html>.
 
 - 将剪贴板的内容写入文件：
 

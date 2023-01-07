@@ -1,7 +1,7 @@
 # shutdown
 
 > A tool for shutting down, restarting or logging off a machine.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/shutdown>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown>.
 
 - Shutdown the current machine:
 

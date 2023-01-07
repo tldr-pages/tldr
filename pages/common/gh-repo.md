@@ -15,7 +15,7 @@
 
 `gh repo fork {{owner}}/{{repository}} --clone`
 
-- View a repository in the web browser:
+- View a repository in the default web browser:
 
 `gh repo view {{repository}} --web`
 
