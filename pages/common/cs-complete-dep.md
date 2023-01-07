@@ -13,7 +13,7 @@
 
 - Print which artifacts are pubblished under a given Maven groupId searching in the ivy2local:
 
-`cs complete-dep {{groupId}} --repository ivy2local`
+`cs complete-dep {{group_id}} --repository ivy2local`
 
 - List published artifacts under a Maven group identifier searching in a specific repository and credentials:
 
