@@ -5,7 +5,7 @@
 
 - Resolve lists of transitive dependencies of two dependencies:
 
-`cs resolve {{groupId1}}:{{artifactId1}}:{{artifactVersion1}} {{groupId2}}:{{artifactId2}}:{{artifactVersion2}}`
+`cs resolve {{group_id1}}:{{artifact_id1}}:{{artifact_version1}} {{group_id2}}:{{artifact_id2}}:{{artifact_version2}}`
 
 - Resolve lists of transitive dependencies of a package by the dependency tree:
 
