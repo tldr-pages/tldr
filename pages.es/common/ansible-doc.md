@@ -10,7 +10,7 @@
 
 - Lista de complementos disponibles dado un tipo específico:
 
-`ansible-doc --type {{tipo_complemento}} --list`
+`ansible-doc --type {{become|cache|callback|cliconf|connection|...}} --list`
 
 - Muestra información sobre un complemento acorde su acción específica (módulo):
 
