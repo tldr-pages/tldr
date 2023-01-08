@@ -10,7 +10,7 @@
 
 - Check out a specific pull request locally:
 
-`gh pr checkout {{pr_number}}`
+`gh pr checkout {{1..infinity}}`
 
 - View the changes made in the pull request for the current branch:
 
@@ -30,7 +30,7 @@
 
 - Edit the base branch of a pull request:
 
-`gh pr edit --base {{branch_name}}`
+`gh pr edit --base {{string}}`
 
 - Check the status of the current repository's pull requests:
 
