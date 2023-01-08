@@ -4,7 +4,7 @@
 > See also: `xargs`.
 > More information: <https://manned.org/man/freebsd-13.0/find.1>.
 
-- Search files by a specific case sensitive glob pattern/case insensitive glob pattern/case sensitive regular expression/case insensitive regular expression:
+- Search files by a specific search pattern:
 
 `find {{path/to/search_root_directory}} -type {{f}} -{{name|iname|regex|iregex}} '{{*.sh}}'`
 
