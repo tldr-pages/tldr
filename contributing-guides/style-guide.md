@@ -136,18 +136,10 @@ All borders of integer and float ranges get included. If you want to exclude the
 - Use `{{from..to}}` syntax for closed ranges.
 - Use `{{-infinity..to}}` or `{{from..infinity}}` syntax for integer partially closed ranges.
 - Use `{{from..to..step}}`, `{{-infinity..to..step}}` or `{{from..infinity..step}}` syntax for closed ranges with a specific step.
-  - `step` must always be positive
+  - `step` must always be positive.
 - Use `{{integer}}` syntax for values where any integer is valid.
 - Use `{{float}}` syntax for values where any float is valid.
 - Use `{{number}}` syntax for values where any integer and float is valid.
-
-Note that:
-
-- valid integer format is: `-?[0-9]+`
-- valid float format is: `-?[0-9]+\.[0-9]+`
-  - another separator can be used instead of dot it's required
-
-These formats must be avoided if they are unsupported by command.
 
 ### Paths
 
