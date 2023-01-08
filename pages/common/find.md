@@ -20,7 +20,7 @@
 
 `find {{path/to/search_root_directory}} -{{user|group}} {{value}}'`
 
-- Find files matching a specific size range, limiting the recursive depth to a value:
+- Find files matching a specific size range, limiting the recursive depth:
 
 `find {{path/to/search_root_directory}} -maxdepth {{1..infinity}} -size {{+500k}} -size {{-10M}}`
 
@@ -35,4 +35,3 @@
 - Find empty files and delete them:
 
 `find {{path/to/search_root_directory}} -type {{f}} -empty -delete`
-
