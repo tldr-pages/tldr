@@ -20,7 +20,7 @@
 
 `find {{path/to/search_root_directory}} -type {{b|c|d|p|f|...}}'`
 
-- Search files/directories owned by a specific user/group:
+- Search files and directories owned by a specific user or group:
 
 `find {{path/to/search_root_directory}} -{{user|group}} {{value}}'`
 
@@ -28,6 +28,6 @@
 
 `find {{path/to/search_root_directory}} {{-not -type f}} -{{and|or}} {{-name '*.sh'}}`
 
-- Execute a specific command for found files/directories:
+- Execute a specific command for found files and directories:
 
 `find {{path/to/search_root_directory}} {{-not -type f}} -execdir {{stat '{}' ';'}}`
