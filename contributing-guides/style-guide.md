@@ -135,8 +135,10 @@ All borders of integer and float ranges get included. If you want to exclude the
 
 - Use `{{from..to}}` syntax for closed ranges.
 - Use `{{-infinity..to}}` or `{{from..infinity}}` syntax for integer partially closed ranges.
+- Use `{{from..to..step}}`, `{{-infinity..to..step}}` or `{{from..infinity..step}}` syntax for closed ranges with a specific step.
 - Use `{{integer}}` syntax for values where any integer is valid.
 - Use `{{float}}` syntax for values where any float is valid.
+- Use `{{number}}` syntax for values where any integer and float is valid.
 
 ### Paths
 
