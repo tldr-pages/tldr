@@ -5,28 +5,28 @@
 
 - Display a specific issue:
 
-`gh issue view {{issue_number}}`
+`gh issue view {{1..infinity}}`
 
 - Display a specific issue in the default web browser:
 
-`gh issue view {{issue_number}} --web`
+`gh issue view {{1..infinity}} --web`
 
 - Create a new issue in the default web browser:
 
 `gh issue create --web`
 
-- List the last 10 issues with the `bug` label:
+- List the last issues with a specific label:
 
-`gh issue list --limit {{10}} --label "{{bug}}"`
+`gh issue list --limit {{1..infinity}} --label "{{string}}"`
 
-- List closed issues made by a specific user:
+- List opened, closed, or all issues made by a specific user:
 
-`gh issue list --state closed --author {{username}}`
+`gh issue list --state {{open|closed|all}} --author {{username}}`
 
-- Display the status of issues relevant to the user, in a specific repository:
+- Display the status of issues relevant to the user, in a specific [repo]sitory:
 
 `gh issue status --repo {{owner}}/{{repository}}`
 
 - Reopen a specific issue:
 
-`gh issue reopen {{issue_number}}`
+`gh issue reopen {{1..infinity}}`
