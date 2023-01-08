@@ -45,7 +45,11 @@ Clients MUST implement both the short and long version of an option.
 
 Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example a page list MUST be formatted with 1 page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
-Clients MAY support additional custom arguments and syntax not documented here.
+Clients MAY support the additional arguments below, and custom arguments whose syntax is not documented here.
+
+Option                  | Required?   | Meaning
+------------------------|-------------|----------
+`-O`, `--option-format` | No          | Specifies the preferred option format for code examples. Possible values: `all`, `long`, `short` (see the [option syntax](./contributing-guides/style-guide.md#option-syntax) section of the style guide).
 
 Here are some examples invocations using the above flags:
 
