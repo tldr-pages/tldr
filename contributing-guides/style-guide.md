@@ -146,6 +146,8 @@ Note that:
 - valid float format is: `-?[0-9]+\.[0-9]+`
   - another separator can be used instead of dot it's required
 
+These formats must be avoided if they are unsupported by command.
+
 ### Paths
 
 - Use `{{filename}}` when just file name is expected.
