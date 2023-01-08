@@ -12,13 +12,13 @@
 
 `find {{path/to/search_root_directory}} -type {{f}} -regextype {{emacs|posix-awk|posix-basic|posix-egrep|posix-extended}} -{{regex}} '{{\..*\.sh}}'`
 
-- Search files with a specific size in 512-byte blocks/bytes/2-byte words/kibibytes/mebibytes/gibibytes:
+- Search files with a specific size in 512-byte blocks/bytes/2-byte words/kibibytes/mebibytes:
 
-`find {{path/to/search_root_directory}} -type {{f}} -size {{5}}{{b|c|w|k|M|G}}'`
+`find {{path/to/search_root_directory}} -type {{f}} -size {{5}}{{b|c|w|k|M|...}}'`
 
-- Search specific blocks/characters/directories/named pipes/regular files/symbolic links/socket/door:
+- Search specific blocks/characters/directories/named pipes/regular files:
 
-`find {{path/to/search_root_directory}} -type {{b|c|d|p|f|l|s|D}}'`
+`find {{path/to/search_root_directory}} -type {{b|c|d|p|f|...}}'`
 
 - Search files/directories owned by a specific user/group:
 
