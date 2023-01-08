@@ -166,6 +166,8 @@ All borders of integer and float ranges get included. If you want to exclude the
   For instance if multiple paths are expected `{{path/to/directory1 path/to/directory2 ...}}` can be used.
 - If a command can take 0 or more arguments of different kinds, use an ellipsis: `{{placeholder1|placeholder2|...}}`.
   If there are more than 5 possible values use `|...` after the last item.
+- To restrict the minimum or (and) maximum placeholder count use range syntax after ellipsis:
+  For instance if 4 or more paths are expected `{{path/to/directory1 path/to/directory2 ...(4..infinity)}}` can be used.
 
 It's up to program to decide how to handle duplicating values, provided syntax
 tells no info about whether items are mutually exclusive or not.
@@ -174,8 +176,6 @@ tells no info about whether items are mutually exclusive or not.
   `{{path/to/directory1}} {{path/to/directory2 path/to/directory3 ...}}` means that
   at least 1 directory must be passed. Note that consequtive placeholder count numbering
   has been continued after the first required placeholder.
-- There is no way to restrict the upper count for such placeholders via this syntax.
-  Mention such things in descriptions.
 
 ### Special cases
 
