@@ -140,6 +140,12 @@ All borders of integer and float ranges get included. If you want to exclude the
 - Use `{{float}}` syntax for values where any float is valid.
 - Use `{{number}}` syntax for values where any integer and float is valid.
 
+Note that:
+
+- valid integer format is: `-?[0-9]+`
+- valid float format is: `-?[0-9]+\.[0-9]+`
+  - another separator can be used instead of dot it's required
+
 ### Paths
 
 - Use `{{filename}}` when just file name is expected.
