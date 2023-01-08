@@ -1,7 +1,7 @@
 # git commit-graph
 
 > Git commit-graph dosyalarını yaz ve doğrula.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-commit-graph>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-commit-graph>.
 
 - Dizinin yerel `.git` dizinindeki paketlenmiş commit'ler için bir commit-grafik dosyası yaz:
 

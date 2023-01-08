@@ -22,3 +22,7 @@
 - Enable Network Time Protocol (NTP) synchronization:
 
 `timedatectl set-ntp on`
+
+- Change the hardware clock time standard to localtime:
+
+`timedatectl set-local-rtc 1`

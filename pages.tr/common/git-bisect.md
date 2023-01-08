@@ -2,7 +2,7 @@
 
 > Bug taşıyan commit'i bulmak için ikili arama kullan.
 > Git otomatik olarak commit çizelgesi içinde oradan oraya atlayarak yaramaz commit'i saptar.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-bisect>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-bisect>.
 
 - Buglı bilinen bir commit'i ve (genelde eski olan) iyi bir commit'i belirterek ikiye bölme işlemini başlat:
 

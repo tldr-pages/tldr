@@ -8,9 +8,13 @@
 
 `pip install {{paketname}}`
 
+- Installiere ein Paket im Benutzerverzeichnis, anstatt systemweit:
+
+`pip install --user {{paketname}}`
+
 - Aktualisiere ein Paket:
 
-`pip install -U {{paketname}}`
+`pip install --upgrade {{paketname}}`
 
 - Deinstalliere ein Paket:
 
@@ -23,3 +27,7 @@
 - Zeige Informationen über ein installiertes Paket an:
 
 `pip show {{paketname}}`
+
+- Installiere Pakete, die in einer Datei gelistet sind:
+
+`pip install --requirement {{requirements.txt}}`

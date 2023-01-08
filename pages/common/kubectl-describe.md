@@ -21,4 +21,4 @@
 
 - Show details of Kubernetes objects defined in a YAML manifest:
 
-`kubectl describe -f {{path/to/manifest}}.yaml`
+`kubectl describe -f {{path/to/manifest.yaml}}`

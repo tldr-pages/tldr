@@ -3,9 +3,9 @@
 > Create and delete Amazon S3 buckets and edit bucket properties.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/index.html>.
 
-- Create a bucket:
+- Create bucket in a specific region:
 
-`aws s3api create-bucket --bucket {{bucket_name}}`
+`aws s3api create-bucket --bucket {{bucket_name}} --region {{region}} --create-bucket-configuration LocationConstraint={{region}}`
 
 - Delete a bucket:
 

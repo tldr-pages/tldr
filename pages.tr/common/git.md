@@ -1,7 +1,7 @@
 # git
 
 > Dağıtım sürüö kontrol sistemi.
-> Daha fazla bilgi: <https://git-scm.com/>.
+> Daha fazla bilgi için: <https://git-scm.com/>.
 
 - Git sürümünü kontrol et:
 

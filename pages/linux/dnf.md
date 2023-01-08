@@ -1,6 +1,7 @@
 # dnf
 
 > Package management utility for RHEL, Fedora, and CentOS (replaces yum).
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://dnf.readthedocs.io>.
 
 - Upgrade installed packages to the newest available versions:
@@ -15,13 +16,9 @@
 
 `dnf info {{package}}`
 
-- Install a new package:
+- Install a new package (use `-y` to confirm all prompts automatically):
 
 `sudo dnf install {{package}}`
-
-- Install a new package and assume yes to all questions:
-
-`sudo dnf -y install {{package}}`
 
 - Remove a package:
 
@@ -34,3 +31,7 @@
 - Find which packages provide a given file:
 
 `dnf provides {{file}}`
+
+- View all past operations:
+
+`dnf history`

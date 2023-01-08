@@ -1,7 +1,7 @@
 # dos2unix
 
 > Cambia saltos de línea con formato DOS a saltos de línea con formato Unix.
-> Reemplaza CRLF con CR.
+> Reemplaza CRLF con LF.
 > Más información: <https://manned.org/dos2unix>.
 
 - Cambia los saltos de línea de un archivo:

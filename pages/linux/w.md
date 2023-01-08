@@ -9,7 +9,7 @@
 
 - Display information about a specific user:
 
-`w {{user}}`
+`w {{username}}`
 
 - Display information without including the header:
 

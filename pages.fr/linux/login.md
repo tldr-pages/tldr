@@ -1,6 +1,6 @@
 # login
 
-> Démarre une session pour un utilisateur
+> Démarre une session pour un utilisateur.
 > Plus d'informations : <https://manned.org/login>.
 
 - Démarrer une session en tant qu'utilisateur :

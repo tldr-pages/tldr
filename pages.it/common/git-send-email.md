@@ -1,7 +1,7 @@
 # git send-email
 
 > Invia una raccolta di patch via email.
-> Le patch possono essere specificate come file, cartelle, o liste di revisione.
+> Le patch possono essere specificate come file, directory, o liste di revisione.
 > Maggiori informazioni: <https://git-scm.com/docs/git-send-email>.
 
 - Invia l'ultimo commit nel ramo corrente:

@@ -1,7 +1,7 @@
 # ipconfig
 
 > Menampilkan dan mengatur konfigurasi jaringan dalam sistem operasi Windows.
-> Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
+> Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
 
 - Menunjukkan daftar adaptor jaringan:
 

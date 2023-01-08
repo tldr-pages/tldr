@@ -1,6 +1,6 @@
 # vi
 
-> Te polecenie jest aliasem `vim`.
+> To polecenie jest aliasem `vim`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

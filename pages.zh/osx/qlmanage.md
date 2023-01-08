@@ -1,6 +1,7 @@
 # qlmanage
 
 > QuickLook 服务器工具。
+> 更多信息：<https://ss64.com/osx/qlmanage.html>.
 
 - 快速显示一个或多个文件：
 

@@ -19,7 +19,7 @@
 
 `sudo dnf install {{paquete}}`
 
-- Instala un nuevo paquete respondiendo si a todas las preguntas:
+- Instala un nuevo paquete respondiendo sí a todas las preguntas:
 
 `sudo dnf install -y {{paquete}}`
 

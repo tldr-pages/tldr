@@ -1,7 +1,7 @@
 # pwlauncher
 
 > 用于管理 Windows To Go 启动选项的命令行工具。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/pwlauncher>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/pwlauncher>.
 
 - 显示当前 Windows To Go 的状态：
 

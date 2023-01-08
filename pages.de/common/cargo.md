@@ -2,7 +2,7 @@
 
 > Verwalte Rust-Projekte und deren Abhängigkeiten (crates).
 > Manche Unterbefehle wie `cargo build` sind separat dokumentiert.
-> Weitere Informationen: <https://crates.io/>.
+> Weitere Informationen: <https://crates.io>.
 
 - Suche nach Abhängigkeiten (crates):
 

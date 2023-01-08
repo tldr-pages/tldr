@@ -1,7 +1,7 @@
 # asciinema
 
 > Registra e riproduci sessioni di terminale, condividendole opzionalmente su asciiname.org.
-> Maggiori informazioni: <https://asciinema.org/>.
+> Maggiori informazioni: <https://asciinema.org/docs/usage>.
 
 - Associa l'installazione locale di `asciiname` ad un account di asciiname.org:
 
@@ -17,7 +17,7 @@
 
 - Riproduci una sessione da un file locale:
 
-`asciinema play {{percorso/al/file}}.cast`
+`asciinema play {{percorso/del/file}}.cast`
 
 - Riproducei una sessione da asciinema.org:
 
@@ -29,8 +29,8 @@
 
 - Stampa l'output completo di una sessione locale:
 
-`asciinema cat {{percorso/al/file}}.cast`
+`asciinema cat {{percorso/del/file}}.cast`
 
 - Carica una sessione locale su asciinama.org:
 
-`asciinema upload {{percorso/al/file}}.cast`
+`asciinema upload {{percorso/del/file}}.cast`

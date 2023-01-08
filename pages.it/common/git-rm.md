@@ -7,9 +7,9 @@
 
 `git rm {{file}}`
 
-- Cancella una cartella:
+- Cancella una directory:
 
-`git rm -r {{cartella}}`
+`git rm -r {{directory}}`
 
 - Cancella un file dall'indice del repository ma non dal filesystem locale:
 

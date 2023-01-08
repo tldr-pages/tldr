@@ -1,7 +1,7 @@
 # reg compare
 
 > 比较注册表中的键和值。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/reg-compare>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-compare>.
 
 - 比较两个键中的所有值：
 

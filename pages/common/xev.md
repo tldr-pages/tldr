@@ -3,7 +3,7 @@
 > Print contents of X events.
 > More information: <https://gitlab.freedesktop.org/xorg/app/xev>.
 
-- Monitor all occuring X events:
+- Monitor all occurring X events:
 
 `xev`
 

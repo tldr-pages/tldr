@@ -1,7 +1,7 @@
 # dotnet ef
 
 > Perform design-time development tasks for Entity Framework Core.
-> More information: <https://docs.microsoft.com/ef/core/cli/dotnet>.
+> More information: <https://learn.microsoft.com/ef/core/cli/dotnet>.
 
 - Update the database to a specified migration:
 

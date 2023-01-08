@@ -1,7 +1,7 @@
 # color
 
 > Canvia els colors de la lletra i del fons de la consola.
-> Més informació: <https://docs.microsoft.com/windows-server/administration/windows-commands/color>.
+> Més informació: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
 
 - Estableix els colors de la consola als valors per defecte:
 

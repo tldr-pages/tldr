@@ -1,7 +1,7 @@
 # exit
 
 > Quit the current CMD instance or the current batch file.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/exit>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/exit>.
 
 - Quit the current CMD instance:
 

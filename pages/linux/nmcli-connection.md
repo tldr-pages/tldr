@@ -1,6 +1,7 @@
 # nmcli connection
 
 > Connection management with NetworkManager.
+> This subcommand can also be called with `nmcli c`.
 > More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - List all NetworkManager connections (shows name, UUID, type and device):

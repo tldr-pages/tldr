@@ -2,7 +2,7 @@
 
 > Manage Azure CLI configuration.
 > Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/config>.
+> More information: <https://learn.microsoft.com/cli/azure/config>.
 
 - Print all configurations:
 

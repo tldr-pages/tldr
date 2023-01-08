@@ -5,16 +5,16 @@
 
 - Encode a file:
 
-`base32 {{filename}}`
+`base32 {{path/to/file}}`
 
 - Decode a file:
 
-`base32 --decode {{filename}}`
+`base32 --decode {{path/to/file}}`
 
-- Encode from stdin:
+- Encode from `stdin`:
 
 `{{somecommand}} | base32`
 
-- Decode from stdin:
+- Decode from `stdin`:
 
 `{{somecommand}} | base32 --decode`

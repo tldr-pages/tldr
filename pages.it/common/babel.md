@@ -5,31 +5,31 @@
 
 - Transpila uno specifico file e stampa il risultato su stdout:
 
-`babel {{percorso/al/file}}`
+`babel {{percorso/del/file}}`
 
 - Transpila un file e scrivi il risultato su uno specifico file di output:
 
-`babel {{percorso/al/file_input}} --out-file {{percorso/al/file_output}}`
+`babel {{percorso/del/file_input}} --out-file {{percorso/del/file_output}}`
 
 - Transpila un file ogni volta che viene modificato:
 
-`babel {{percorso/al/file}} --watch`
+`babel {{percorso/del/file}} --watch`
 
 - Transpila un'intera directory di file:
 
-`babel {{percorso/a/directory_input}}`
+`babel {{percorso/della/directory_input}}`
 
 - Transpila un'intera directory ignorando specifici file separati da virgola:
 
-`babel {{percorso/a/directory_input}} --ignore {{file_ignorati}}`
+`babel {{percorso/della/directory_input}} --ignore {{file_ignorati}}`
 
 - Transpila minimizzando il codice JavaScript in output:
 
-`babel {{percorso/al/file_input}} --minified`
+`babel {{percorso/del/file_input}} --minified`
 
 - Scegli un insieme di preset per formattare l'output:
 
-`babel {{percorso/al/file_input}} --presets {{preset}}`
+`babel {{percorso/del/file_input}} --presets {{preset}}`
 
 - Mostra tutte le opzioni disponibili:
 

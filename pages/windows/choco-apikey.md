@@ -1,4 +1,4 @@
-# choco-apikey
+# choco apikey
 
 > Manage API keys for Chocolatey sources.
 > More information: <https://chocolatey.org/docs/commands-apikey>.

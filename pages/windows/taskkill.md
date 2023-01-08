@@ -1,7 +1,7 @@
 # taskkill
 
 > Terminate a process by its process ID or name.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/taskkill>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill>.
 
 - Terminate a process by its ID:
 

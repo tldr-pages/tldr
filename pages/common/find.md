@@ -20,10 +20,19 @@
 
 `find {{path/to/search_root_directory}} -{{user|group}} {{value}}'`
 
-- Group specific conditions:
+- Find files matching a specific size range, limiting the recursive depth to a value:
 
-`find {{path/to/search_root_directory}} {{-not -type f}} -{{and|or}} {{-name '*.sh'}}`
+`find {{path/to/search_root_directory}} -maxdepth {{1..infinity}} -size {{+500k}} -size {{-10M}}`
 
 - Execute a specific command for found files and directories:
 
-`find {{path/to/search_root_directory}} {{-not -type f}} -execdir {{stat '{}' ';'}}`
+`find {{path/to/search_root_directory}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
+
+- Find files modified in the last days:
+
+`find {{path/to/search_root_directory}} -daystart -mtime -{{1..infinity}}`
+
+- Find empty files and delete them:
+
+`find {{path/to/search_root_directory}} -type {{f}} -empty -delete`
+

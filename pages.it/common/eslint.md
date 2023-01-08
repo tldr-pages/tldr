@@ -17,4 +17,4 @@
 
 - Esegui il linting utilizzando un determinato file di configurazione:
 
-`eslint -c {{percorso/a/file_config}} {{app/src}}`
+`eslint -c {{percorso/del/file_config}} {{app/src}}`

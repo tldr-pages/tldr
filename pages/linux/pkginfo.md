@@ -17,4 +17,4 @@
 
 - Print the footprint of a file:
 
-`pkginfo -f {{file}}`
+`pkginfo -f {{path/to/file}}`

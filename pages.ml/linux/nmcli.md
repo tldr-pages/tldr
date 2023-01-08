@@ -1,7 +1,7 @@
 # nmcli
 
 > നെറ്റ്‌വർക്ക് മാനേജർ നിയന്ത്രിക്കാൻ വേണ്ടിയുള്ള കമാൻഡ് ലൈൻ ഉപകരണം.
-> കൂടുതൽ വിവരങ്ങൾ: <https://manned.org/nmcli>.
+> കൂടുതൽ വിവരങ്ങൾ: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - nmcli പതിപ്പ് ഏതാണെന്ന് അറിയാൻ:
 
