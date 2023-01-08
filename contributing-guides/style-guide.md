@@ -163,14 +163,14 @@ All borders of integer and float ranges get included. If you want to exclude the
 ### Grouping placeholders
 
 - If a command can take 0 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
-  For instance if multiple paths are expected `{{path/to/directory1 path/to/directory2 ...}}` can be used.
+  For instance, if multiple paths are expected `{{path/to/directory1 path/to/directory2 ...}}` can be used.
 - If a command can take 0 or more arguments of different kinds, use an ellipsis: `{{placeholder1|placeholder2|...}}`.
   If there are more than 5 possible values use `|...` after the last item.
-- To restrict the minimum or (and) maximum placeholder count use range syntax after ellipsis:
+- To restrict the minimum or (and) maximum placeholder count use range syntax after the ellipsis:
   For instance if 4 or more paths are expected `{{path/to/directory1 path/to/directory2 ...(4..)}}` can be used.
-  `-infinity` and `infinity` keywords must be omitted if no range `step` provided.
+  `-infinity` and `infinity` keywords must be omitted if no range `step` is provided.
 
-It's up to program to decide how to handle duplicating values, provided syntax
+It's up to the program to decide how to handle duplicating values, provided syntax
 tells no info about whether items are mutually exclusive or not.
 
 ### Special cases
