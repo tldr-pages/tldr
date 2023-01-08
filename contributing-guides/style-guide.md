@@ -167,6 +167,16 @@ All borders of integer and float ranges get included. If you want to exclude the
 - If a command can take 0 or more arguments of different kinds, use an ellipsis: `{{placeholder1|placeholder2|...}}`.
   If there are more than 5 possible values use `|...` after the last item.
 
+It's up to program to decide how to handle duplicating values, provided syntax
+tells no info about whether items are mutually exclusive or not.
+
+- To represent command where at least `n` (> 0) are required duplicate placeholders:
+  `{{path/to/directory1}} {{path/to/directory2 path/to/directory3 ...}}` means that
+  at least 1 directory must be passed. Note that consequtive placeholder count numbering
+  has been continued after the first required placeholder.
+- There is no way to restrict the upper count for such placeholders via this syntax.
+  Mention such things in descriptions.
+
 ### Special cases
 
 - If a command performs irreversible changes to a file system or devices,
