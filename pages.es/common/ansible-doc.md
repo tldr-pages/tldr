@@ -18,7 +18,7 @@
 
 - Muestra información acerca de un complemento dado un tipo específico:
 
-`ansible-doc --type {{tipo_complemento}} {{nombre_complemento}}`
+`ansible-doc --type {{become|cache|callback|cliconf|connection|...}} {{nombre_complemento}}`
 
 - Muestra fragmentos de las acciones respecto al tipo de complemento y su especificidad de tipo de acción (módulos):
 
