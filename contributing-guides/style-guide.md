@@ -109,6 +109,13 @@ Example:
 
 - Use GNU-style **long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
 - In other cases, use short options (like `-h`).
+- Both long and short alternative formats may be shown as example by the following these rules:
+  - the **long** and **short** examples must be on two consecutive lines;
+  - the **long** format example is on the first line, and the **short** format is on the second line;
+  - both must have the same outcome, e.g. they must have the same parameters, and if there are other options, they must be identical and using the appropriate **long** or **short** format for the sake of coherency;
+  - if some other option is only available in one format (long or short), it should be present in both alternatives anyway;
+  - there must never be more than two consecutive lines of example code.
+- There mustn't be consecutive lines of example codes in other cases than descibed above.
 
 ## Placeholder syntax
 
