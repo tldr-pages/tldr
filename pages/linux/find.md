@@ -35,7 +35,3 @@
 - Find files modified in the last days:
 
 `find {{path/to/search_root_directory}} -daystart -mtime -{{1..infinity}}`
-
-- Find empty files and delete them:
-
-`find {{path/to/search_root_directory}} -type {{f}} -empty -delete`
