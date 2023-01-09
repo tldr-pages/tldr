@@ -8,17 +8,17 @@
 
 `apt-get update`
 
-- Installeer of werk het pakket bij naar de laatste beschikbare versie:
+- Installeer specifieke pakketten of werk ze bij naar de nieuwste beschikbare versies:
 
-`apt-get install {{package}}`
+`apt-get install {{pakket1 pakket2 ...}}`
 
-- Een pakket verwijderen:
+- Verwijder specifieke pakketten:
 
-`apt-get remove {{package}}`
+`apt-get remove {{pakket1 pakket2 ...}}`
 
-- Verwijder een pakket en de bijbehorende configuratiebestanden:
+- Verwijder specifieke pakketten en hun configuratiebestanden:
 
-`apt-get purge {{package}}`
+`apt-get purge {{pakket1 pakket2 ...}}`
 
 - Upgrade alle geïnstalleerde pakketten naar hun nieuwste beschikbare versies:
 
