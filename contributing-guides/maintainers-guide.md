@@ -60,13 +60,12 @@ as a guideline for current and future maintainers.
   (3) get **approved reviews by at least two maintainers**, (the second maintainer can merge immediately after approving) and
   (4) have been open for at least **12 hours** unless the changes are trivial (contains only typo fixes or shell builtin/keyword/quoting syntax fixes)
   
-  These rules mean that trivial PRs can be merged before 12 hours left.
+  These rules mean that trivial PRs can be merged before the default 24 hours.
 
 - If a PR fails to get a review from a second maintainer after a week,
   the first maintainer should ping others for review. If it still lingers
   for **over a week without a second maintainer’s approval**,
-  the first maintainer can go ahead and merge it while possibly (if he/she/they) wants dismissing all reviewers who
-  didn't reviewed the PR.
+  the first maintainer can go ahead and merge it.
 
 - If a PR **stops getting feedback from the submitter** and is marked as stale
   by [probot-stale](../.github/workflows/stale.yml),
@@ -79,12 +78,12 @@ as a guideline for current and future maintainers.
   and how it should be fixed).
   Be mindful of signs of fatigue (less enthusiastic responses, slower reactions),
   and relax review standards if necessary — minor issues can always be fixed later.
-  It doesn't mean that maintainers reviewing PRs from new contributors should violate
+  It doesn't mean that maintainers reviewing PRs from new contributors should allow violation to the 
   style guide for simplifying feedback. It means that feedback should be better written
-  with more details.
+  with more detail.
 
 - **Don't request changes** just to block merging until there are issues that should be fixed because our specification or style guide mandates it.
-  Grammar errors and typos also can be a reason to request changes. No other reasons are valid to do so.
+  Grammatical errors and typos also can be a reason to request changes. No other reasons are valid to do so.
 
 - When merging PRs, use the **merge strategy that produces a clean Git history**:
   If there's a single commit in the PR,
@@ -93,7 +92,7 @@ as a guideline for current and future maintainers.
   Don't forget to clean up the body of the squashed commit message, especially the `Co-authored by:` part.
   (You can always use the body if you want to include useful information.)
   
-  Note: For all PRs from external contributors (outside of the tldr-pages organization) the `Co-authored by` part must be included in the merge commit message.  
+  Note: For all PRs from external contributors (outside of the tldr-pages organization), the `Co-authored by` part must be included in the merge commit message.  
 
   If instead the PR author took the time to craft
   individual, informative messages for each commit,
