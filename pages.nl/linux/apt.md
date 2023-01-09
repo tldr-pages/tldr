@@ -9,21 +9,21 @@
 
 `sudo apt update`
 
-- Zoek naar een bepaald pakket:
+- Zoek naar een specifiek pakket:
 
-`apt search {{package}}`
+`apt search {{pakket}}`
 
-- Toon informatie over een pakket:
+- Toon informatie voor een specifiek pakket:
 
-`apt show {{package}}`
+`apt show {{pakket1 pakket2 ...}}`
 
-- Installeer of werk het pakket bij naar de laatste beschikbare versie:
+- Installeer specifieke pakketten of werk ze bij naar de nieuwste beschikbare versies:
 
-`sudo apt install {{package}}`
+`sudo apt install {{pakket1 pakket2 ...}}`
 
-- Een pakket verwijderen (door in plaats daarvan `purge` te gebruiken, worden ook de configuratiebestanden verwijderd):
+- Verwijder specifieke pakketten (gebruik in plaats daarvan purge om ook hun configuratiebestanden te verwijderen):
 
-`sudo apt remove {{package}}`
+`sudo apt remove {{pakket1 pakket2 ...}}`
 
 - Upgrade alle geïnstalleerde pakketten naar hun nieuwste beschikbare versies:
 
