@@ -166,11 +166,7 @@ All borders of integer and float ranges get included. If you want to exclude the
   For instance, if multiple paths are expected `{{path/to/directory1 path/to/directory2 ...}}` can be used.
 - If a command can take 0 or more arguments of different kinds, use an ellipsis: `{{placeholder1|placeholder2|...}}`.
   If there are more than 5 possible values use `|...` after the last item.
-- To restrict the minimum or (and) maximum placeholder count use the following syntax along with ellipsis:
-  - `{{n to m: placeholder1 placeholder2 ...}}`: expect `n..m` placeholders
-  - `{{n or more: placeholder1 placeholder2 ...}}`: expect `n..infinity` placeholders
-  - `{{n or less: placeholder1 placeholder2 ...}}`: expect `-infinity..n` placeholders
-  For instance if 4 or more paths are expected `{{4 or more: path/to/directory1 path/to/directory2 ...}}` can be used.
+- It's impossible to restrict the minimum or (and) maximum placeholder count via `ellipsis`.
 
 It's up to the program to decide how to handle duplicating values, provided syntax
 tells no info about whether items are mutually exclusive or not.
