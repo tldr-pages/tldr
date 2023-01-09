@@ -21,7 +21,7 @@
 
 - Open a specific issue or pull request in the web browser:
 
-`gh browse {{issue_identifier|pull_request_identifier}}`
+`gh browse {{issue_number|pull_request_number}}`
 
 - Open a specific branch in the web browser:
 
