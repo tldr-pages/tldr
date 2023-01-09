@@ -131,10 +131,10 @@ Keep the following guidelines in mind when choosing placeholders:
 ### Range syntax
 
 All borders of integer and float ranges get included. If you want to exclude the border, then use incremented or decremented values to do it:
-`{{1..5}}` == `[1-6)`.
+`{{1 to 5}}` == `[1-6)`.
 
-- Use `{{from..to}}` syntax for closed ranges.
-- Use `{{-infinity..to}}` or `{{from..infinity}}` syntax for integer partially closed ranges.
+- Use `{{n to m}}` syntax for closed ranges.
+- Use `{{n or less}}` or `{{n or more}}` syntax for integer partially closed ranges.
 - Use `{{integer}}` syntax for values where any integer is valid.
 - Use `{{float}}` syntax for values where any float is valid.
 
