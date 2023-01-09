@@ -12,7 +12,7 @@
 
 `ansible-doc --type {{become|cache|callback|cliconf|connection|...}} --list`
 
-- Muestra información sobre un complemento acorde su acción específica (módulo):
+- Muestra información sobre un complemento acorde a su acción específica (módulo):
 
 `ansible-doc {{nombre_complemento}}`
 
