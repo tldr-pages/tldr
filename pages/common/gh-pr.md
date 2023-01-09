@@ -30,7 +30,7 @@
 
 - Edit the base branch of a pull request:
 
-`gh pr edit --base {{string}}`
+`gh pr edit --base {{branch_name}}`
 
 - Check the status of the current repository's pull requests:
 
