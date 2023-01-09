@@ -105,6 +105,15 @@ Example:
 
 - Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
 
+## Description syntax
+
+### Default values
+
+- Mention default values for placeholders via the following syntax:
+  `({{placeholder}} defaults to {{value}})` like `(path/to/config defaults to .myrc)`.
+- If there are multiple defauls available, use comma to separate them:
+  `(\`path/to/config\` defaults to .myrc, \`color\` defaults to red)`
+
 ## Option syntax
 
 - Use GNU-style **long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
