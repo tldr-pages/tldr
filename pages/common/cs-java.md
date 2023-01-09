@@ -9,7 +9,7 @@
 
 - Call a specific java version with custom properties using coursier:
 
-`cs java --jvm {{jvm_name}}:{{jvm-version}} -Xmx32m -X{{another_jvm_opt}} -jar {{path/to/myJarName.jar}}`
+`cs java --jvm {{jvm_name}}:{{jvm_version}} -Xmx32m -X{{another_jvm_opt}} -jar {{path/to/jar_name.jar}}`
 
 - List all the available JVM in the coursier default index:
 
