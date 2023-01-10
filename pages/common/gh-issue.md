@@ -5,11 +5,11 @@
 
 - Display a specific issue:
 
-`gh issue view {{1..infinity}}`
+`gh issue view {{1..n}}`
 
 - Display a specific issue in the default web browser:
 
-`gh issue view {{1..infinity}} --web`
+`gh issue view {{1..n}} --web`
 
 - Create a new issue in the default web browser:
 
@@ -17,7 +17,7 @@
 
 - List the last issues with a specific label:
 
-`gh issue list --limit {{1..infinity}} --label "{{string}}"`
+`gh issue list --limit {{1..n}} --label "{{string}}"`
 
 - List opened, closed, or all issues made by a specific user:
 
@@ -29,4 +29,4 @@
 
 - Reopen a specific issue:
 
-`gh issue reopen {{1..infinity}}`
+`gh issue reopen {{1..n}}`
