@@ -23,3 +23,7 @@
 - List the contents of a specific archive without extracting them:
 
 `unzip -l {{path/to/archive.zip}}`
+
+- Extract a specific file from an archive:
+
+`unzip -j {{path/to/archive.zip}} {{path/to/file_in_archive1 path/to/file_in_archive2 ...}}`
