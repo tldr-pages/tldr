@@ -10,7 +10,7 @@
 
 - Encrypt an existing archive (including file names):
 
-`7za a {{path/to/encrypted.7z}} -p{{password}} -mhe=on {{path/to/archive.7z}}`
+`7za a {{path/to/encrypted.7z}} -p{{password}} -mhe={{on}} {{path/to/archive.7z}}`
 
 - E[x]tract an archive preserving the original directory structure:
 
@@ -26,7 +26,7 @@
 
 - [a]rchive using a specific archive type:
 
-`7za a -t{{7z|bzip2|gzip|lzip|tar|zip}} {{path/to/archive.7z}} {{path/to/file_or_directory}}`
+`7za a -t{{7z|bzip2|gzip|lzip|tar|...}} {{path/to/archive.7z}} {{path/to/file_or_directory}}`
 
 - [l]ist the contents of an archive:
 
