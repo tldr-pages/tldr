@@ -111,7 +111,7 @@ Example:
 
 - Mention default values for placeholders via the following syntax:
   `({{placeholder}} defaults to {{value}})` like `(path/to/config defaults to .myrc)`.
-- If there are multiple defauls available, use comma to separate them:
+- If there are multiple defaults available, use comma to separate them:
   `(\`path/to/config\` defaults to .myrc, \`color\` defaults to red)`
 
 ## Option syntax
