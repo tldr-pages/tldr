@@ -11,7 +11,7 @@
 
 `asciidoctor -a stylesheet={{path/to/stylesheet.css}} {{path/to/file.adoc}}`
 
-- Преобразовать данный `.adoc` файл во встраиваемый HTML, убрав всё кроме самого текста: 
+- Преобразовать данный `.adoc` файл во встраиваемый HTML, убрав всё кроме самого текста:
 
 `asciidoctor --embedded {{path/to/file.adoc}}`
 
