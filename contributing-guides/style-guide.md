@@ -171,7 +171,7 @@ It's up to the program to decide how to handle duplicating values, provided synt
 tells no info about whether items are mutually exclusive or not.
 
 Note that `|` for path placeholders is interpreted specially: it delimits alternatives after
-`path/to/` prefix. For example `{{path/to/file|directory}}` placeholder expected regular file
+`path/to/` prefix. For example `{{path/to/file|directory}}` placeholder expect a regular file
 or directory to be passed in. Earlier `{{path/to/file_or_diretory}}` used for such purpose
 but it was deprecated for the sake of syntax simplification.
 
