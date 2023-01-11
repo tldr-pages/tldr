@@ -170,6 +170,11 @@ All borders of integer and float ranges get included. If you want to exclude the
 It's up to the program to decide how to handle duplicating values, provided syntax
 tells no info about whether items are mutually exclusive or not.
 
+Note that `|` for path placeholders is interpreted specially: it delimits alternatives after
+`path/to/` prefix. For example `{{path/to/file|directory}}` placeholder expected regular file
+or directory to be passed in. Earlier `{{path/to/file_or_diretory}}` used for such purpose
+but it was deprecated for the sake of syntax simplification.
+
 ### Special cases
 
 - If a command performs irreversible changes to a file system or devices,
