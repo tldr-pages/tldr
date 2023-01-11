@@ -17,7 +17,7 @@
 
 - Match any character from a specific set of characters:
 
-`[{{chars}}]`
+`[{{characters}}]`
 
 - Match one of two specific alternatives:
 
