@@ -163,10 +163,11 @@ All borders of integer and float ranges get included. If you want to exclude the
 
 ### Regular expressions
 
-- Use `{{basic_regex}}` and `{{extended_regex}}` placeholder for basic regular expressions and
-  extended ones respectively.
-- Always refer to `basic-regex` and `extended-regex` pages via `See also:` line at the
-  beginning of the page when such regular expression flavours are used.
+- Use `{{<flavor>_regex}}` placeholder for regex e.g. `{{basic_regex}}` and `{{extended_regex}}` placeholder
+  for basic regular expressions and extended ones respectively.
+- Always refer to {{<flavor>_regex}} pages via `See also:` line at the
+  beginning of the page when such regular expression flavors are used like
+  `See also: basic_regex.`.
 
 ### Grouping placeholders
 
