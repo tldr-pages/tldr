@@ -25,11 +25,11 @@
 
 - Run a manual workflow with parameters:
 
-`gh workflow run {{id|workflow_name|filename.yml}} --raw-field {{param1}}={{value1}} --raw-field {{param2}}={{value2}}`
+`gh workflow run {{id|workflow_name|filename.yml}} {{--raw-field param1=value1 --raw-field param2=value2 ...}}`
 
 - Run a manual workflow using a specific branch or tag with JSON parameters from `stdin`:
 
-`echo '{{{"param1":"value1", "param2":"value2"}}}' | gh workflow run {{id|workflow_name|filename.yml}} --ref {{branch|tag_name}}`
+`echo '{{{"param1": "value1", "param2": "value2", ...}}}' | gh workflow run {{id|workflow_name|filename.yml}} --ref {{branch|tag_name}}`
 
 - Enable or disable a specific workflow:
 
