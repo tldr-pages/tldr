@@ -171,6 +171,9 @@ All borders of integer and float ranges get included. If you want to exclude the
 It's up to the program to decide how to handle duplicating values, provided syntax
 tells no info about whether items are mutually exclusive or not.
 
+Note that if not just arguments are expected but options also use {{--option value1 --option value2 ...}}` like
+`{{--raw-field param1=value1 --raw-field param2=value2 ...}}` in `gh-workflow` page.
+
 ### Special cases
 
 - If a command performs irreversible changes to a file system or devices,
