@@ -17,7 +17,7 @@
 
 - List Gists owned by the currently logged in user:
 
-`gh gist list --limit {{1..infinity}}`
+`gh gist list --limit {{1..n}}`
 
 - View a Gist in the default browser without rendering Markdown:
 
