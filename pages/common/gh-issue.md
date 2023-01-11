@@ -3,11 +3,11 @@
 > Manage GitHub issues from the command-line.
 > More information: <https://cli.github.com/manual/gh_issue>.
 
-- Display a specific issue:
+- Display an issue with a specific number:
 
 `gh issue view {{1..n}}`
 
-- Display a specific issue in the default web browser:
+- Display an issue with a specific number in the default web browser:
 
 `gh issue view {{1..n}} --web`
 
@@ -27,6 +27,6 @@
 
 `gh issue status --repo {{owner}}/{{repository}}`
 
-- Reopen a specific issue:
+- Reopen an issue with a specific number:
 
 `gh issue reopen {{1..n}}`
