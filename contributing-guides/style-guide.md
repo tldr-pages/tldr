@@ -107,6 +107,7 @@ Example:
 ## Description syntax
 
 - Use double quotes for quoting.
+- Quote just strings.
 - Don't quote program names.
 
 ## Option syntax
