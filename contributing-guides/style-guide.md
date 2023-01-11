@@ -113,7 +113,7 @@ Example:
   `({{placeholder}} defaults to {{value}})` like `(path/to/config defaults to .myrc)`.
   Default values must be placed as much closer as possible to the option description like:
   `Start an interactive shell session with a specific config (--rcfile defaults to ~/.bashrc)`.
-- If there are multiple defauls available, use comma to separate them:
+- If there are multiple defaults available, use comma to separate them:
   `(\`path/to/config\` defaults to .myrc, \`color\` defaults to red)`
 
 ## Option syntax
