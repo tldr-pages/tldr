@@ -21,7 +21,7 @@
 
 - Match one of two specific alternatives:
 
-`{{alternative1}}|{{alternative2}}`
+`{{alternative1}}\|{{alternative2}}`
 
 - Group a specific pattern:
 
