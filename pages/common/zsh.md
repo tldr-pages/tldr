@@ -1,22 +1,30 @@
 # zsh
 
 > Z SHell, a Bash-compatible command-line interpreter.
-> See also `histexpand` for history expansion.
+> See also: `bash`, `histexpand`.
 > More information: <https://www.zsh.org>.
 
 - Start an interactive shell session:
 
 `zsh`
 
-- Execute a command and then exit:
+- Execute specific [c]ommands:
 
-`zsh -c "{{command}}"`
+`zsh -c "{{echo Hello world}}"`
 
-- Execute a script:
+- Execute a specific script:
 
 `zsh {{path/to/script.zsh}}`
 
-- Execute a script, printing each command before executing it:
+- Check a specific script for syntax errors without executing it:
+
+`zsh --no-exec {{path/to/script.zsh}}`
+
+- Execute specific commands from stdin:
+
+`{{echo Hello world}} | zsh`
+
+- Execute a specific script, printing each command in the script before executing it:
 
 `zsh --xtrace {{path/to/script.zsh}}`
 
