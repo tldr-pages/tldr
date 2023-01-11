@@ -149,6 +149,7 @@ All borders of integer and float ranges get included. If you want to exclude the
   but has to start at the root of the filesystem,
   prefix it with a slash,
   such as `get {{/path/to/remote_file}}`.
+- If a path is optional add `optional` at the beginning like `{{path/to/optional_file}}`.
 - In case of a possible reference both to a file or a directory,
   use `{{path/to/file_or_directory}}`.
 
