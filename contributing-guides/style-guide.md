@@ -161,6 +161,13 @@ All borders of integer and float ranges get included. If you want to exclude the
   using `{{*.ext}}` explains the command without being unnecessarily specific;
   while in `wc -l {{path/to/file}}` using `{{path/to/file}}` (without extension) is sufficient.
 
+### Regular expressions
+
+- Use `{{basic_regex}}` and `{{extended_regex}}` placeholder for basic regular expressions and
+  extended ones respectively.
+- Always refer to `basic-regex` and `extended-regex` pages via `See also:` line at the
+  beginning of the page when such regular expression flavours are used.
+
 ### Grouping placeholders
 
 - If a command can take 0 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
