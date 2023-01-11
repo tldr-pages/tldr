@@ -25,4 +25,4 @@
 
 - Group a specific pattern:
 
-`({{alternative}})`
+`\({{pattern}}\)`
