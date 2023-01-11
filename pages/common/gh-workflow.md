@@ -17,7 +17,7 @@
 
 - Display the YAML definition for a specific Git branch or tag:
 
-`gh workflow view {{id|workflow_name|filename.yml}} --ref {{branch_or_tag_name}} --yaml`
+`gh workflow view {{id|workflow_name|filename.yml}} --ref {{branch|tag_name}} --yaml`
 
 - List workflow files (use `--all` to include disabled workflows):
 
@@ -29,7 +29,7 @@
 
 - Run a manual workflow using a specific branch or tag with JSON parameters from `stdin`:
 
-`echo '{{{"param1":"value1", "param2":"value2"}}}' | gh workflow run {{id|workflow_name|filename.yml}} --ref {{branch_or_tag_name}}`
+`echo '{{{"param1":"value1", "param2":"value2"}}}' | gh workflow run {{id|workflow_name|filename.yml}} --ref {{branch|tag_name}}`
 
 - Enable or disable a specific workflow:
 
