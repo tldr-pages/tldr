@@ -29,4 +29,4 @@
 
 - Expand the permission scopes:
 
-`gh auth refresh --scopes {{write:org,read:public_key}}`
+`gh auth refresh --scopes {{repo,admin:repo_hook,admin:org,admin:public_key,admin:org_hook,...}}`

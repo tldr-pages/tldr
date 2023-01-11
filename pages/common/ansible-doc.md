@@ -10,7 +10,7 @@
 
 - List available plugins of a specific type:
 
-`ansible-doc --type {{plugin_type}} --list`
+`ansible-doc --type {{become|cache|callback|cliconf|connection|...}} --list`
 
 - Show information about a specific action plugin (module):
 
@@ -18,7 +18,7 @@
 
 - Show information about a plugin with a specific type:
 
-`ansible-doc --type {{plugin_type}} {{plugin_name}}`
+`ansible-doc --type {{become|cache|callback|cliconf|connection|...}} {{plugin_name}}`
 
 - Show the playbook snippet for action plugin (modules):
 
