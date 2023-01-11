@@ -5,16 +5,16 @@
 
 - Преобразовать данный `.adoc` файл в HTML (формат на выходе по умолчанию):
 
-`asciidoctor {{path/to/file.adoc}}`
+`asciidoctor {{путь/до/файла.adoc}}`
 
 - Преобразовать данный `.adoc` файл в HTML и привязать к таблице стилей CSS:
 
-`asciidoctor -a stylesheet={{path/to/stylesheet.css}} {{path/to/file.adoc}}`
+`asciidoctor -a stylesheet={{путь/до/таблицы-стилей.css}} {{путь/до/файла.adoc}}`
 
 - Преобразовать данный `.adoc` файл во встраиваемый HTML, убрав всё кроме самого текста:
 
-`asciidoctor --embedded {{path/to/file.adoc}}`
+`asciidoctor --embedded {{путь/до/файла.adoc}}`
 
 - Преобразовать данный `.adoc` файл в PDF с помощью библиотеки `asciidoctor-pdf`:
 
-`asciidoctor --backend={{pdf}} --require={{asciidoctor-pdf}} {{path/to/file.adoc}}`
+`asciidoctor --backend={{pdf}} --require={{asciidoctor-pdf}} {{путь/до/файла.adoc}}`
