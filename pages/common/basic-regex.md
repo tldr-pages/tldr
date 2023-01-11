@@ -5,28 +5,28 @@
 
 - Match 0 or more repetitions of previous character, class or group:
 
-`{{character|class|group}}*`
+`{{a|[abc]]|(abc)}}*`
 
 - Match 1 or more repetitions of previous character, class or group:
 
-`{{character|class|group}}\+`
+`{{a|[abc]]|(abc)}}\+`
 
 - Match 0 or 1 repetitions of previous character, class or group:
 
-`{{character|class|group}}\?`
+`{{a|[abc]]|(abc)}}\?`
 
 - Match any character from a specific set of characters:
 
-`[{{characters}}]`
+`[{{abc}}]`
 
 - Match any character not from a specific set of characters:
 
-`[^{{characters}}]`
+`[^{{abc}}]`
 
 - Match one of two specific alternatives:
 
-`{{alternative1}}\|{{alternative2}}`
+`{{abc}}\|{{def}}`
 
 - Group a specific pattern:
 
-`\({{pattern}}\)`
+`\({{abc}}\)`
