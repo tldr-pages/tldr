@@ -134,9 +134,10 @@ All borders of integer and float ranges get included. If you want to exclude the
 `{{1..5}}` == `[1-6)`.
 
 - Use `{{from..to}}` syntax for closed ranges.
-- Use `{{-infinity..to}}` or `{{from..infinity}}` syntax for integer partially closed ranges.
-- Use `{{from..to..step}}`, `{{-infinity..to..step}}` or `{{from..infinity..step}}` syntax for closed ranges with a specific step.
+- Use `{{from..to..step}}`, `{{-n..to..step}}` or `{{from..n..step}}` syntax for closed ranges with a specific step.
   - `step` must always be positive.
+- Use `{{-n..to}}` or `{{from..n}}` syntax for integer partially closed ranges where `n` is a keyword
+  signifying the minimum or maximum range value e.g. `{{1..n}}` - 1 or greater values.
 - Use `{{integer}}` syntax for values where any integer is valid.
 - Use `{{float}}` syntax for values where any float is valid.
 - Use `{{number}}` syntax for values where any integer and float is valid.
@@ -163,6 +164,17 @@ All borders of integer and float ranges get included. If you want to exclude the
   using `{{*.ext}}` explains the command without being unnecessarily specific;
   while in `wc -l {{path/to/file}}` using `{{path/to/file}}` (without extension) is sufficient.
 
+### Grouping placeholders
+
+- If a command can take 0 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
+  For instance, if multiple paths are expected `{{path/to/directory1 path/to/directory2 ...}}` can be used.
+- If a command can take 0 or more arguments of different kinds, use an ellipsis: `{{placeholder1|placeholder2|...}}`.
+  If there are more than 5 possible values use `|...` after the last item.
+- It's impossible to restrict the minimum or (and) maximum placeholder count via `ellipsis`.
+
+It's up to the program to decide how to handle duplicating values, provided syntax
+tells no info about whether items are mutually exclusive or not.
+
 ### Special cases
 
 - If a command performs irreversible changes to a file system or devices,
@@ -170,9 +182,6 @@ All borders of integer and float ranges get included. If you want to exclude the
   For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
   write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
   and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
-- If a command can take a variable number of arguments, use an ellipsis: `{{arg1 arg2 ...}}`.
-  If one of the multiple options is possible, write it as `{{either|or}}`.
-  If there are more than 5 alternatives, use `|...` for the ellipsis.
 
 In general, placeholders should make it as intuitive as possible
 to figure out how to use the command and fill it in with values.

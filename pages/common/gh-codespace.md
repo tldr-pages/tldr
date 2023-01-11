@@ -15,7 +15,7 @@
 
 `gh codespace ssh`
 
-- Transfer a file to a codespace interactively:
+- Transfer a specific file to a codespace interactively:
 
 `gh codespace cp {{path/to/source_file}} remote:{{path/to/remote_file}}`
 
@@ -23,7 +23,7 @@
 
 `gh codespace ports`
 
-- Print the logs from a codespace interactively:
+- Display the logs from a codespace interactively:
 
 `gh codespace logs`
 
@@ -33,4 +33,4 @@
 
 - Display help for a subcommand:
 
-`gh codespace {{subcommand}} --help`
+`gh codespace {{code|cp|create|delete|edit|...}} --help`
