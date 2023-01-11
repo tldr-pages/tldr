@@ -5,7 +5,7 @@
 
 - Write the contents of the clipboard to a file:
 
-`pbpaste > {{file}}`
+`pbpaste > {{path/to/file}}`
 
 - Use the contents of the clipboard as input to a command:
 

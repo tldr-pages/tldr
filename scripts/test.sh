@@ -45,7 +45,7 @@ function run_flake8 {
 
 # Default test function, ran by `npm test`.
 function run_tests {
-  markdownlint pages*/**/*.md
+  find pages* -name '*.md' -exec markdownlint {} +
   tldr-lint ./pages
   for f in ./pages.*; do
     tldr-lint --ignore "TLDR003,TLDR004,TLDR005,TLDR015,TLDR104" "${f}"

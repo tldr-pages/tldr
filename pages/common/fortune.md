@@ -25,4 +25,4 @@
 
 - Print a quotation from one of the database files listed by `fortune -f`:
 
-`fortune {{filename}}`
+`fortune {{path/to/file}}`

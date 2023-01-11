@@ -17,4 +17,4 @@
 
 - Dump contents of the heap into a binary file for analysis with jhat:
 
-`jmap -dump:format=b,file={{filename}} {{java_pid}}`
+`jmap -dump:format=b,file={{path/to/file}} {{java_pid}}`

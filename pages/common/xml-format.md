@@ -15,7 +15,7 @@
 
 `xml format --recover --noindent {{path/to/malformed.xml|URI}} > {{path/to/recovered.xml}}`
 
-- Format an XML document from stdin, removing the `DOCTYPE` declaration:
+- Format an XML document from `stdin`, removing the `DOCTYPE` declaration:
 
 `cat {{path\to\input.xml}} | xml format --dropdtd > {{path/to/output.xml}}`
 

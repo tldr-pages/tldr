@@ -18,3 +18,7 @@
 - List the contents of a compressed file:
 
 `gunzip --list {{file.txt.gz}}`
+
+- Decompress an archive from `stdin`:
+
+`cat {{path/to/archive.gz}} | gunzip`

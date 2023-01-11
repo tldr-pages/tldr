@@ -16,7 +16,7 @@
 
 `fdp -T {{ps|pdf|svg|fig|png|gif|jpg|json|dot}} -O {{path/to/input.gv}}`
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "{{digraph {this -> that} }}" | fdp -T gif > {{path/to/image.gif}}`
 
