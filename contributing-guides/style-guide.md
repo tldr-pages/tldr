@@ -106,7 +106,8 @@ Example:
 
 ## Description syntax
 
-- Use backticks (\`) for quoting in descriptions as they're highlighted in GitHub.
+- Use backticks (\`) for quoting I/O streams in descriptions as they're highlighted in GitHub.
+- For everything else use double quotes.
 
 ## Token syntax
 
