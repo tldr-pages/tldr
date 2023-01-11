@@ -19,6 +19,10 @@
 
 `[{{characters}}]`
 
+- Match any character not from a specific set of characters:
+
+`[^{{characters}}]`
+
 - Match one of two specific alternatives:
 
 `{{alternative1}}|{{alternative2}}`
