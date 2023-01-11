@@ -3,15 +3,15 @@
 > This page describes basic regex syntax.
 > More information: <https://linuxize.com/post/regular-expressions-in-grep/>.
 
-- Match 0 or more repetitions of previous character, class or group:
+- Match 0 or more repetitions of previous character, class, or group:
 
 `{{a|[abc]|(abc)}}*`
 
-- Match 1 or more repetitions of previous character, class or group:
+- Match 1 or more repetitions of previous character, class, or group:
 
 `{{a|[abc]|(abc)}}\+`
 
-- Match 0 or 1 repetitions of previous character, class or group:
+- Match 0 or 1 repetitions of previous character, class, or group:
 
 `{{a|[abc]|(abc)}}\?`
 
