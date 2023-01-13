@@ -3,11 +3,15 @@
 > Move or rename files and directories.
 > More information: <https://www.gnu.org/software/coreutils/mv>.
 
-- Move a file to an arbitrary location:
+- Rename a file or an empty directory (`{{target}}` does not exists):
 
 `mv {{source}} {{target}}`
 
-- Move files into another directory, keeping the filenames:
+- Move a file to an arbitrary location (`{{target}}` is a location that exists):
+
+`mv {{source}} {{target}}`
+
+- Move a number of files into another directory, keeping the filenames:
 
 `mv {{source1}} {{source2}} {{source3}} {{target_directory}}`
 
