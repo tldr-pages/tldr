@@ -14,11 +14,11 @@
 
 - Load an environment:
 
-`conda {{activate environment_name}}`
+`conda activate {{environment_name}}`
 
 - Unload an environment:
 
-`conda {{deactivate}}`
+`conda deactivate`
 
 - Delete an environment (remove all packages):
 
