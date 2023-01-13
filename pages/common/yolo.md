@@ -7,6 +7,6 @@
 
 `yolo task=init`
 
-- Train the model for object detection using the specified configuration file:
+- Train the object detection, instance segment, or classification model with the specified configuration file:
 
-`yolo task=detect mode=train cfg={{path/to/config.yaml}}`
+`yolo task={{detect|segment|classify}} mode=train cfg={{path/to/config.yaml}}`
