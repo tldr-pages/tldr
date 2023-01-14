@@ -14,7 +14,7 @@
 
 - Gitのサブコマンドのヘルプを見る (例えば `clone`, `add`, `push`, `log`, など):
 
-`git help {{subcommand}}`
+`git help {{サブコマンド}}`
 
 - Gitのサブコマンドを実行する:
 
