@@ -114,8 +114,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142) — present
 - **Seth Falco ([@SethFalco](https://github.com/SethFalco))**:
   [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149) — present
-- **Emily Grace Seville ([@EmilySeville7cfg](https://github.com/EmilySeville7cfg))**:
-  [25 April 2022](https://github.com/tldr-pages/tldr/issues/8053) — present
 - **Pixel Häußler ([@pixelcmtd](https://github.com/pixelcmtd))**:
   [16 October 2022](https://github.com/tldr-pages/tldr/pull/9072#issuecomment-1279847932) — present
 - **K.B.Dharun Krishna ([@kbdharun](https://github.com/kbdharun))**:
@@ -138,6 +136,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [14 June 2021](https://github.com/tldr-pages/tldr/issues/6123) — [14 December 2021](https://github.com/tldr-pages/tldr/issues/7541)
 - Marcher Simon ([@marchersimon](https://github.com/marchersimon)):
   [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722) — [9 August 2022](https://github.com/tldr-pages/tldr/issues/7540)
+- Emily Grace Seville ([@EmilySeville7cfg](https://github.com/EmilySeville7cfg)):
+  [25 April 2022](https://github.com/tldr-pages/tldr/issues/8053) — [12 January 2022](https://gitter.im/tldr-pages/tldr?at=63bf282dd8678973f9aa90bb)
 
 ## Organization owners
 
