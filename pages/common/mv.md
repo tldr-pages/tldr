@@ -7,7 +7,7 @@
 
 `mv {{source}} {{target}}`
 
-- Move a file to an arbitrary location (`{{target}}` is a location that exists):
+- Move a file to an arbitrary location when the target location exists:
 
 `mv {{source}} {{target}}`
 
