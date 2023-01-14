@@ -11,7 +11,7 @@
 
 `mv {{source}} {{target}}`
 
-- Move a number of files into another directory, keeping the filenames:
+- Move multiple files into a specific directory, keeping the existing filenames:
 
 `mv {{source1}} {{source2}} {{source3}} {{target_directory}}`
 
