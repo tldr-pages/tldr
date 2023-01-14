@@ -11,10 +11,14 @@
 
 `whatis --long {{command}}`
 
-- globパターンにマッチするすべてのコマンドの説明を表示する:
+- globパターンにマッチするすべてのコマンドの説明文を表示する:
 
 `whatis --wildcard {{net*}}`
 
-- 正規表現でmanページの説明を検索する:
+- 正規表現でmanページの説明文を検索する:
 
 `whatis --regex '{{wish[0-9]\.[0-9]}}'`
+
+- 言語を指定して説明文で表示する (`manpage-{{ja}}` パッケージが必要です)
+
+`whatis --locale={{ja}} {{command}}`
