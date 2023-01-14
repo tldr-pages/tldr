@@ -3,7 +3,7 @@
 > Move or rename files and directories.
 > More information: <https://www.gnu.org/software/coreutils/mv>.
 
-- Rename a file or an empty directory (`{{target}}` does not exists):
+- Rename a file or directory when the target does not exist:
 
 `mv {{source}} {{target}}`
 
