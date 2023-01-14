@@ -26,4 +26,4 @@
 
 - Gitのサブコマンドを、指定された設定値で実行する:
 
-`git -c '{{config.key}}={{value}}' {{subcommand}}`
+`git -c '{{config.key}}={{値}}' {{サブコマンド}}`
