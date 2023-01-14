@@ -5,12 +5,12 @@
 
 - Create a keystore:
 
-`keytool -genkeypair -v -keystore {{path/to/file}}.keystore -alias {{key_name}}`
+`keytool -genkeypair -v -keystore {{path/to/file.keystore}} -alias {{key_name}}`
 
 - Change a keystore password:
 
-`keytool -storepasswd -keystore {{path/to/file}}.keystore`
+`keytool -storepasswd -keystore {{path/to/file.keystore}}`
 
-- Change a key's password inside a keystore:
+- Change a key's password inside a specific keystore:
 
-`keytool -keypasswd  -alias {{key_name}} -keystore {{path/to/file}}.keystore`
+`keytool -keypasswd  -alias {{key_name}} -keystore {{path/to/file.keystore}}`
