@@ -9,7 +9,7 @@
 
 - Ersetzt alle Vorkommen eines erweiterten regulären Ausdrucks in einer Datei:
 
-`sed -E 's/{{regulärer_ausdruck}}/{{ersetze}}/g' {{dateiname}}`
+`sed -E 's/{{regulärer_ausdruck}}/{{ersetze}}/g' {{Pfad/zu/Datei}}`
 
 - Ersetzt alle Vorkommen einer Zeichenkette [i]n einer Datei, wobei die Datei überschrieben wird (d.h. an Ort und Stelle):
 
