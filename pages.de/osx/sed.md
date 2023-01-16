@@ -5,7 +5,7 @@
 
 - Ersetzt das erste Vorkommen einer Zeichenkette in einer Datei und gibt das Ergebnis aus:
 
-`sed 's/{{finde}}/{{ersetze}}/' {{dateiname}}`
+`sed 's/{{finde}}/{{ersetze}}/' {{Pfad/zu/Datei}}`
 
 - Ersetzt alle Vorkommen eines erweiterten regulären Ausdrucks in einer Datei:
 
