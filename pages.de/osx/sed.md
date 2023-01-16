@@ -25,7 +25,7 @@
 
 - Mehrere Ausdrücke zum Suchen und Ersetzen auf eine Datei anwenden:
 
-`sed -e 's/{{finde}}/{{ersetze}}/' -e 's/{{finde}}/{{ersetze}}/' {{dateiname}}`
+`sed -e 's/{{finde}}/{{ersetze}}/' -e 's/{{finde}}/{{ersetze}}/' {{Pfad/zu/Datei}}`
 
 - Ersetzt das Trennzeichen `/` durch jedes andere Zeichen, das nicht in den Such- oder Ersetzungsmustern verwendet wird, z. B. `#`:
 
