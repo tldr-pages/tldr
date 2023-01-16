@@ -17,7 +17,7 @@
 
 - Ersetzt nur die Zeilen, die dem Zeilenmuster entsprechen:
 
-`sed '/{{zeilenmuster}}/s/{{finde}}/{{resetze}}/' {{dateiname}}`
+`sed '/{{zeilenmuster}}/s/{{finde}}/{{resetze}}/' {{Pfad/zu/Datei}}`
 
 - Druckt nur den Text zwischen der n-ten Zeile bis zur nächsten Leerzeile:
 
