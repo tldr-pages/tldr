@@ -3,34 +3,34 @@
 > Führe grundlegende Texttransformationen an der Eingabe aus.
 > Weitere Informationen: <https://ss64.com/osx/sed.html>.
 
-- Ersetzt das erste Vorkommen einer Zeichenkette in einer Datei und gibt das Ergebnis aus:
+- Ersetze das erste Vorkommen einer Zeichenkette in einer Datei und gibt das Ergebnis aus:
 
 `sed 's/{{finde}}/{{ersetze}}/' {{Pfad/zu/Datei}}`
 
-- Ersetzt alle Vorkommen eines erweiterten regulären Ausdrucks in einer Datei:
+- Ersetze alle Vorkommen eines erweiterten regulären Ausdrucks in einer Datei:
 
 `sed -E 's/{{regulärer_ausdruck}}/{{ersetze}}/g' {{Pfad/zu/Datei}}`
 
-- Ersetzt alle Vorkommen einer Zeichenkette [i]n einer Datei, wobei die Datei überschrieben wird (d.h. an Ort und Stelle):
+- Ersetze alle Vorkommen einer Zeichenkette [i]n einer Datei, wobei die Datei überschrieben wird (d.h. an Ort und Stelle):
 
 `sed -i '' 's/{{finde}}/{{ersetze}}/g' {{Pfad/zu/Datei}}`
 
-- Ersetzt nur die Zeilen, die dem Zeilenmuster entsprechen:
+- Ersetze nur die Zeilen, die dem Zeilenmuster entsprechen:
 
 `sed '/{{zeilenmuster}}/s/{{finde}}/{{resetze}}/' {{Pfad/zu/Datei}}`
 
-- Druckt nur den Text zwischen der n-ten Zeile bis zur nächsten Leerzeile:
+- Druck nur den Text zwischen der n-ten Zeile bis zur nächsten Leerzeile:
 
 `sed -n '{{zeilennummer}},/^$/p' {{Pfad/zu/Datei}}`
 
-- Mehrere Ausdrücke zum Suchen und Ersetzen auf eine Datei anwenden:
+- Suche und Ersetzen mehrere Ausdrücke in einer Datei:
 
 `sed -e 's/{{finde}}/{{ersetze}}/' -e 's/{{finde}}/{{ersetze}}/' {{Pfad/zu/Datei}}`
 
-- Ersetzt das Trennzeichen `/` durch jedes andere Zeichen, das nicht in den Such- oder Ersetzungsmustern verwendet wird, z. B. `#`:
+- Ersetze das Trennzeichen `/` durch jedes andere Zeichen, das nicht in den Such- oder Ersetzungsmustern verwendet wird, z. B. `#`:
 
 `sed 's#{{finde}}#{{ersetze}}#' {{Pfad/zu/Datei}}`
 
-- Löscht die Zeile an der bestimmten Zeilennummer in einer Datei:
+- Lösche die Zeile an der bestimmten Zeilennummer in einer Datei:
 
 `sed -i '' '{{zeilennummer}}d' {{Pfad/zu/Datei}}`
