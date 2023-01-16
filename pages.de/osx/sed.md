@@ -29,7 +29,7 @@
 
 - Ersetzt das Trennzeichen `/` durch jedes andere Zeichen, das nicht in den Such- oder Ersetzungsmustern verwendet wird, z. B. `#`:
 
-`sed 's#{{finde}}#{{ersetze}}#' {{dateiname}}`
+`sed 's#{{finde}}#{{ersetze}}#' {{Pfad/zu/Datei}}`
 
 - Löscht die Zeile an der bestimmten Zeilennummer in einer Datei:
 
