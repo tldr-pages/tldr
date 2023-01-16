@@ -1,20 +1,20 @@
 # anki
 
-> Powerful, intelligent flashcard program
+> Powerful, intelligent flashcard program.
 > <https://apps.ankiweb.net/>
 
 - Launch anki:
 
 `anki`
 
-- Launch anki with a specific profile
+- Launch anki with a specific profile:
 
 `anki -p {{profile name}}`
 
-- Launch anki in a specific langauge
+- Launch anki in a specific langauge:
 
 `anki -l {{language}}`
 
-- Launch anki from a specifc directory instead of the default (~/Anki)
+- Launch anki from a specifc directory instead of the default (~/Anki):
 
 `anki -b {{path/to/directory}}`
