@@ -21,4 +21,4 @@
 
 - 言語を指定して説明文で表示する (`manpage-{{ja}}` パッケージが必要です)
 
-`whatis --locale={{ja}} {{command}}`
+`whatis --locale={{ja}} {{コマンド}}`
