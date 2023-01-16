@@ -1,7 +1,7 @@
 # anki
 
 > Powerful, intelligent flashcard program.
-> <https://apps.ankiweb.net/>
+> More information: <https://apps.ankiweb.net/>.
 
 - Launch anki:
 
