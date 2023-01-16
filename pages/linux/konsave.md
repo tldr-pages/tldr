@@ -1,20 +1,20 @@
 # konsave
 
-> A CLI program that will let you save and apply your Linux customizations with just one command!
+> A CLI program that lets you save and apply your Linux customizations with just one command!
 > More information: <https://github.com/Prayag2/konsave>.
 
 
-- Save current configuration as a profile:
+- Save the current configuration as a profile:
 
-`konsave --save <profile name>`
+`konsave --save {{profile_name}]`
 
 - Apply a profile:
 
-`konsave --apply <profile name>`
+`konsave --apply {{profile_name}}`
 
-- Overwrite an already saved profile:
+- Save the current configuration as a profile, overwriting existing profiles if they exist with the same name:
 
-`konsave -s <profile name> --force`
+`konsave -s {{profile_name}} --force`
 
 - List all profiles:
 
@@ -22,13 +22,13 @@
 
 - Remove a profile:
 
-`konsave --remove <profile name>`
+`konsave --remove {{profile_name}}`
 
-- Export a profile as a ".knsv":
+- Export a profile as a `.knsv` to the home directory:
 
-`konsave --export-profile <profile name>`
+`konsave --export-profile {{profile_name}}`
 
 
-- Import a ".knsv" file:
+- Import a `.knsv` profile:
 
 `konsave --import-profile <path to the file>`
