@@ -21,7 +21,7 @@
 
 - Druckt nur den Text zwischen der n-ten Zeile bis zur nächsten Leerzeile:
 
-`sed -n '{{zeilennummer}},/^$/p' {{dateiname}}`
+`sed -n '{{zeilennummer}},/^$/p' {{Pfad/zu/Datei}}`
 
 - Mehrere Ausdrücke zum Suchen und Ersetzen auf eine Datei anwenden:
 
