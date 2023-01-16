@@ -13,7 +13,7 @@
 
 - Ersetzt alle Vorkommen einer Zeichenkette [i]n einer Datei, wobei die Datei überschrieben wird (d.h. an Ort und Stelle):
 
-`sed -i '' 's/{{finde}}/{{ersetze}}/g' {{dateiname}}`
+`sed -i '' 's/{{finde}}/{{ersetze}}/g' {{Pfad/zu/Datei}}`
 
 - Ersetzt nur die Zeilen, die dem Zeilenmuster entsprechen:
 
