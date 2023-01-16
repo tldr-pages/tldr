@@ -33,4 +33,4 @@
 
 - Löscht die Zeile an der bestimmten Zeilennummer in einer Datei:
 
-`sed -i '' '{{zeilennummer}}d' {{dateiname}}`
+`sed -i '' '{{zeilennummer}}d' {{Pfad/zu/Datei}}`
