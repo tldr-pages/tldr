@@ -3,10 +3,9 @@
 > A CLI program that lets you save and apply your Linux customizations with just one command!
 > More information: <https://github.com/Prayag2/konsave>.
 
-
 - Save the current configuration as a profile:
 
-`konsave --save {{profile_name}]`
+`konsave --save {{profile_name}}`
 
 - Apply a profile:
 
@@ -28,7 +27,6 @@
 
 `konsave --export-profile {{profile_name}}`
 
-
 - Import a `.knsv` profile:
 
-`konsave --import-profile <path to the file>`
+`konsave --import-profile {{path to the file}}`
