@@ -9,7 +9,7 @@
 
 - Launch anki with a specific profile:
 
-`anki -p {{profile name}}`
+`anki -p {{profile_name}}`
 
 - Launch anki in a specific langauge:
 
