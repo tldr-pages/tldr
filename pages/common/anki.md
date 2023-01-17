@@ -11,7 +11,7 @@
 
 `anki -p {{profile_name}}`
 
-- Launch anki in a specific langauge:
+- Launch `anki` in a specific language:
 
 `anki -l {{language}}`
 
