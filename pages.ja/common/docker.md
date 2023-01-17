@@ -16,7 +16,7 @@
 
 `docker {{start|stop}} {{コンテナ名}}`
 
-- dockerレジストリからイメージをプルする
+- dockerレジストリからイメージをプルする:
 
 `docker pull {{イメージ}}`
 
