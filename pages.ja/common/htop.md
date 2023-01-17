@@ -9,7 +9,7 @@
 
 - 特定のユーザが所有するプロセスを表示する htop を起動する:
 
-`htop --user {{username}}`
+`htop --user {{ユーザー名}}`
 
 - 指定した `sort_item` でプロセスをソートする (利用可能なオプションは `htop --sort help` を使用する):
 
