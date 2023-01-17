@@ -29,4 +29,4 @@
 
 - Import a `.knsv` profile:
 
-`konsave --import-profile {{path to the file}}`
+`konsave --import-profile {{path/to/profile_name.knsv}}`
