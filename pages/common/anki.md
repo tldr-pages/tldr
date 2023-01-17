@@ -3,7 +3,7 @@
 > Powerful, intelligent flashcard program.
 > More information: <https://apps.ankiweb.net>.
 
-- Launch anki:
+- Launch `anki`:
 
 `anki`
 
