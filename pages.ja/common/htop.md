@@ -13,7 +13,7 @@
 
 - 指定した `sort_item` でプロセスをソートする (利用可能なオプションは `htop --sort help` を使用する):
 
-`htop --sort {{sort_item}}`
+`htop --sort {{並べ替え項目}}`
 
 - htop 実行中の対話型コマンドを見る:
 
