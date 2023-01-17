@@ -15,6 +15,6 @@
 
 `anki -l {{language}}`
 
-- Launch anki from a specifc directory instead of the default (~/Anki):
+- Launch `anki` from a specific directory instead of the default (`~/Anki`):
 
 `anki -b {{path/to/directory}}`
