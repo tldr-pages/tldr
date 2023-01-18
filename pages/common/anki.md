@@ -7,7 +7,7 @@
 
 `anki`
 
-- Launch anki with a specific profile:
+- Launch `anki` with a specific profile:
 
 `anki -p {{profile_name}}`
 
