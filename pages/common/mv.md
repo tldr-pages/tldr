@@ -3,7 +3,7 @@
 > Move or rename files and directories.
 > More information: <https://www.gnu.org/software/coreutils/mv>.
 
-- Rename a file or directory when the target is not a directory:
+- Rename a file or directory when the target is not an existing directory:
 
 `mv {{source}} {{target}}`
 
@@ -11,7 +11,7 @@
 
 `mv {{source}} {{target}}`
 
-- Move multiple files into an existing directory, keeping the existing filenames:
+- Move multiple files into an existing directory, keeping the filenames unchanged:
 
 `mv {{source1}} {{source2}} {{source3}} {{target}}`
 
