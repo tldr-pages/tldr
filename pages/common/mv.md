@@ -9,7 +9,7 @@
 
 - Move a single file when the target is an existing directory:
 
-`mv {{source}} {{target}}`
+`mv {{source}} {{existing_directory}}`
 
 - Move multiple files into an existing directory, keeping the filenames unchanged:
 
