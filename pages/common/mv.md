@@ -7,7 +7,7 @@
 
 `mv {{source}} {{target}}`
 
-- Move a single file when the target is an existing directory:
+- Move a file or directory into an existing directory:
 
 `mv {{source}} {{existing_directory}}`
 
