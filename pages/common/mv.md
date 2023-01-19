@@ -13,7 +13,7 @@
 
 - Move multiple files into an existing directory, keeping the filenames unchanged:
 
-`mv {{source1}} {{source2}} {{source3}} {{target}}`
+`mv {{source1}} {{source2}} {{source3}} {{existing_directory}}`
 
 - Do not prompt for confirmation before overwriting existing files:
 
