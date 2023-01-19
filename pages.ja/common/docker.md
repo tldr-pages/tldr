@@ -1,7 +1,7 @@
 # docker
 
 > Dockerコンテナ及びDockerイメージの管理を行います。
-> `docker run`などいくつかのサブコマンドがあります。これらには使用方法についての独自のドキュメントがあります。
+> `docker run` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
 > 詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
 - 全てのDockerコンテナを表示する(実行中・停止中、両方のコンテナ):
