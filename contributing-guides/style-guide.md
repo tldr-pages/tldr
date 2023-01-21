@@ -105,6 +105,11 @@ Example:
 
 - Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
 
+## Option syntax
+
+- Use GNU-style **long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
+- In other cases, use short options (like `-h`).
+
 ## Placeholder syntax
 
 User-provided values should use the `{{placeholder}}` syntax
