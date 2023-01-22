@@ -6,7 +6,7 @@
 
 - Lista de todos los marcos ID3v2.3 o ID3v2.4 admitidos y sus significados:
 
-`id3v2 --list-frames {{ruta/a/archivo1.mp3 ruta/a/archivo2.mp3 ...}}`
+`id3v2 --list-frames {{ruta/al/archivo1.mp3 ruta/al/archivo2.mp3 ...}}`
 
 - Lista de todos los géneros numéricos ID3v1 admitidos:
 
