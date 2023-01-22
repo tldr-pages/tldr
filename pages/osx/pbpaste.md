@@ -1,7 +1,7 @@
 # pbpaste
 
 > Send the contents of the clipboard to standard output.
-> Equivalent to pressing Cmd + V on the keyboard.
+> Comparable to pressing Cmd + V on the keyboard.
 > More information: <https://ss64.com/osx/pbpaste.html>.
 
 - Write the contents of the clipboard to a file:
