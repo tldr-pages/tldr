@@ -1,7 +1,7 @@
 # age
 
 > A simple, modern and secure file encryption tool.
-> More information: <https://age-encryption.org>.
+> More information: <https://github.com/FiloSottile/age>.
 
 - Generate an encrypted file that can be decrypted with a passphrase:
 
