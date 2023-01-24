@@ -1,7 +1,7 @@
 # ping6
 
 > Enviar paquetes ICMP ECHO_REQUEST ("pings") a hosts de la red usando direcciones IPv6.
->  Más información: <https://manned.org/ping6>.
+> Más información: <https://manned.org/ping6>.
 
 - Enviar pings a un host:
 
