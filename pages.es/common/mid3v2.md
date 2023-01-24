@@ -22,7 +22,7 @@
 
 - Establece información específica de la imagen:
 
-`id3v2 --picture={{filename:description:image_type:mime_type}} {{ruta/a/archivo1.mp3 ruta/a/archivo2.mp3 ...}}`
+`id3v2 --picture={{filename:description:image_type:mime_type}} {{ruta/al/archivo1.mp3 ruta/al/archivo2.mp3 ...}}`
 
 - Establece información específica del año:
 
