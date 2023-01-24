@@ -10,7 +10,7 @@
 
 - Lista de todos los géneros numéricos ID3v1 admitidos:
 
-`id3v2 --list-genres {{ruta/a/archivo1.mp3 ruta/a/archivo2.mp3 ...}}`
+`id3v2 --list-genres {{ruta/al/archivo1.mp3 ruta/al/archivo2.mp3 ...}}`
 
 - Lista todas las etiquetas en archivos específicos:
 
