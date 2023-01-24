@@ -1,6 +1,6 @@
 # antibody
 
-> "El más rápido" administrador de complementos de shell .
+> "El más rápido" administrador de complementos de shell.
 > Más información: <https://getantibody.github.io>.
 
 - Empaqueta todos los complementos para su carga estática:
