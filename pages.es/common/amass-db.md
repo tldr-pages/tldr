@@ -13,7 +13,7 @@
 
 - Lista todos los subdominios encontrados en un dominio dentro de una enumeración:
 
-`amass db -dir {{ruta/a/directorio_base_de_datos}} -d {{nombre_dominio}} -enum {{indice_de_lista}} -names`
+`amass db -dir {{ruta/al/directorio_base_de_datos}} -d {{nombre_dominio}} -enum {{indice_de_lista}} -names`
 
 - Muestra un resumen de los subdominios encontrados dentro de una enumeración:
 
