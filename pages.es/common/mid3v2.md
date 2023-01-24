@@ -30,4 +30,4 @@
 
 - Establece información de fecha específica:
 
-`id3v2 --date={{YYYY-MM-DD}} {{ruta/a/archivo1.mp3 ruta/a/archivo2.mp3 ...}}`
+`id3v2 --date={{YYYY-MM-DD}} {{ruta/al/archivo1.mp3 ruta/al/archivo2.mp3 ...}}`
