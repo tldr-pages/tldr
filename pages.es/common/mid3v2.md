@@ -26,7 +26,7 @@
 
 - Establece información específica del año:
 
-`id3v2 --year={{YYYY}} {{ruta/a/archivo1.mp3 ruta/a/archivo2.mp3 ...}}`
+`id3v2 --year={{YYYY}} {{ruta/al/archivo1.mp3 ruta/al/archivo2.mp3 ...}}`
 
 - Establece información de fecha específica:
 
