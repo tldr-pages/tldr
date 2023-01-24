@@ -9,7 +9,7 @@
 
 - Muestra resultados para un índice de enumeración y un nombre de dominio especificados:
 
-`amass db -dir {{ruta/a/directorio_base_de_datos}} -d {{nombre_dominio}} -enum {{indice_de_lista}} -show`
+`amass db -dir {{ruta/al/directorio_base_de_datos}} -d {{nombre_dominio}} -enum {{indice_de_lista}} -show`
 
 - Lista todos los subdominios encontrados en un dominio dentro de una enumeración:
 
