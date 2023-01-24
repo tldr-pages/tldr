@@ -5,7 +5,7 @@
 
 - Lista de todas las enumeraciones realizadas en la base de datos:
 
-`amass db -dir {{ruta/a/directorio_base_de_datos}} -list`
+`amass db -dir {{ruta/al/directorio_base_de_datos}} -list`
 
 - Muestra resultados para un índice de enumeración y un nombre de dominio especificados:
 
