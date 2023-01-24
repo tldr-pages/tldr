@@ -18,7 +18,7 @@
 
 - Establece información específica sobre artistas, álbumes o canciones:
 
-`id3v2 {{--artist|--album|--song}}={{string}} {{ruta/a/archivo1.mp3 ruta/a/archivo2.mp3 ...}}`
+`id3v2 {{--artist|--album|--song}}={{string}} {{ruta/al/archivo1.mp3 ruta/al/archivo2.mp3 ...}}`
 
 - Establece información específica de la imagen:
 
