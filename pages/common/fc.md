@@ -17,7 +17,7 @@
 
 - List recent commands in reverse order:
 
-`fc -r`
+`fc -l -r`
 
 - List commands in a given interval:
 
