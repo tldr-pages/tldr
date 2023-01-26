@@ -108,6 +108,11 @@ to see the overall progress of all translations, and which translations are miss
 
 ## Similar projects
 
+- [Better TlDr](https://github.com/emilyseville7cfg-better-tldr)
+  allows you to write almost the same pages as TlDr but in a standardized way
+  and with rich IDE-like facilities like syntax highlighting, refactorings and
+  linting. It is designed to be a replacement for TlDr project.
+
 - [Cheat](https://github.com/cheat/cheat)
   allows you to create and view interactive cheatsheets on the command-line.
   It was designed to help remind *nix system administrators of options
