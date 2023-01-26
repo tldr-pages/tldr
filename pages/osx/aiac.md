@@ -21,4 +21,4 @@
 
 - Generate a MongoDB query:
 
-`aiac get mongo query that aggregates all documents by created date`
+`aiac get mongo {{query that aggregates all documents by created date}}`
