@@ -17,7 +17,7 @@
 
 - Generate a port scanner in Python:
 
-`aiac get python code that scans all open ports in my network`
+`aiac get python {{code that scans all open ports in my network}}`
 
 - Generate a MongoDB query:
 
