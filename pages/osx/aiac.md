@@ -13,7 +13,7 @@
 
 - Generate GitHub action that applies Terraform:
 
-`aiac get github action that plans and applies terraform`
+`aiac get github action {{that plans and applies terraform}}`
 
 - Generate a port scanner in Python:
 
