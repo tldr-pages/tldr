@@ -18,4 +18,4 @@
 
 - Execute a specific script with logging:
 
-`nu --loglevel {{error|warn|info|debug|trace}} {{path/to/script.nu}}`
+`nu --log-level {{error|warn|info|debug|trace}} {{path/to/script.nu}}`
