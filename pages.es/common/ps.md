@@ -2,6 +2,7 @@
 
 > Información sobre procesos en ejecución.
 > Más información: <https://manned.org/ps>.
+
 - Lista todos los procesos en ejecución:
 
 `ps aux`
