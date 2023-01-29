@@ -7,7 +7,7 @@
 
 `nc -l {{puerto}}`
 
-- Se conecta a un puerto determinado:
+- Conecta a un puerto determinado:
 
 `nc {{direccion_ip}} {{puerto}}`
 
