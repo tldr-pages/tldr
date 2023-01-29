@@ -11,9 +11,9 @@
 
 `ps auxww`
 
-- Busca un proceso que coincida con la cadena:
+- Busca un proceso que coincida con la cadena de texto:
 
-`ps aux | grep {{string}}`
+`ps aux | grep {{cadena}}`
 
 - Lista todos los procesos del usuario actual en formato supercompleto:
 
