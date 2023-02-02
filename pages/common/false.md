@@ -1,8 +1,8 @@
 # false
 
-> Returns an exit code of 1.
+> Returns a non-zero exit code.
 > More information: <https://www.gnu.org/software/coreutils/false>.
 
-- Return an exit code of 1:
+- Return a non-zero exit code:
 
 `false`
