@@ -5,20 +5,24 @@
 
 - Package a web page:
 
-`pake [url] [options]`
+`pake [options] https://www.google.com/`
 
 - Package a web page with specific window size:
 
-`pake [url] --width [number] --height [number] [options]`
+`pake --width 800 --height 600 "https://www.google.com/`
 
 - Package a web page with a custom application name and icon:
 
-`pake [url] --name [string] --icon [string] [options]`
+`pake --name "Google" --icon "path/to/icon.ico" [options] https://www.google.com/`
 
 - Package a web page with non-resizable window:
 
-`pake [url] --no-resizable [options]`
+`pake --no-resizable https://www.google.com/`
 
 - Package a web page with fullscreen mode:
 
-`pake [url] --fullscreen [options]`
+`pake --fullscreen https://www.google.com/`
+
+- Package a web page with transparent title bar:
+
+`pake --transparent https://www.google.com/`
