@@ -1,8 +1,15 @@
-# curl
+# curl 
 
-> Denne kommando er et alias af `curl -p common`.
-> Mere information: <https://curl.se>.
+> I PowerShell er denne kommando muligvis et alias af `Invoke-WebRequest`, når det originale `curl` program (<https://curl.se>) ikke er ordenligt installeret.
 
-- Se dokumentation for den oprindelige kommando:
+- Tjek om `curl` er installeret korrekt ved at printe dens version nummer. Hvis kommandoen evaluere til en fejl, vil PowerShell eventuelt erstatte denne kommando med `Invoke-WebRequest`: 
+
+`curl --version`
+
+- Se dokumentationen for den oprindelige `curl` kommando:
 
 `tldr curl -p common`
+
+- Se dokumentationen for PowerShells `Invoke-WebRequest`:
+
+`tldr invoke-webRequest`
