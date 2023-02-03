@@ -1,6 +1,7 @@
 # pbcopy
 
 > Copy data from `stdin` to the clipboard.
+> Comparable to pressing Cmd + C on the keyboard.
 > More information: <https://ss64.com/osx/pbcopy.html>.
 
 - Place the contents of a specific file in the clipboard:
