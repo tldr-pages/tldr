@@ -17,7 +17,7 @@
 
 - Package a web page with non-resizable window:
 
-`pake --no-resizable https://www.google.com/`
+`pake --no-resizable {{https://www.google.com/}}`
 
 - Package a web page with fullscreen mode:
 
