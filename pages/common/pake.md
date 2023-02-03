@@ -9,7 +9,7 @@
 
 - Package a web page with specific window size:
 
-`pake --width 800 --height 600 "https://www.google.com/`
+`pake --width {{800}} --height {{600}} {{https://www.google.com/}}`
 
 - Package a web page with a custom application name and icon:
 
