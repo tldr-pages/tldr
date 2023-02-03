@@ -3,15 +3,15 @@
 > Det officielle CLI værktøj for Google Cloud Platform.
 > Mere information: <https://cloud.google.com/sdk/gcloud>.
 
-- List alle aktive configurationer:
+- List alle aktive konfigurationer:
 
 `gcloud config list`
 
-- Log in til en Google account:
+- Login på en Google account:
 
 `gcloud auth login`
 
-- Sæt det standart aktive GCP project:
+- Sæt et GCP project som standard:
 
 `gcloud config set project {{project_name}}`
 
