@@ -15,7 +15,7 @@
 
 `pake --name {{Google}} --icon {{path/to/icon.ico}} {{https://www.google.com/}}`
 
-- Package a web page with non-resizable window:
+- Package a web page with a non-resizable window:
 
 `pake --no-resizable {{https://www.google.com/}}`
 
