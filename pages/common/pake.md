@@ -5,7 +5,7 @@
 
 - Package a web page:
 
-`pake https://www.google.com/`
+`pake {{https://www.google.com/}}`
 
 - Package a web page with specific window size:
 
