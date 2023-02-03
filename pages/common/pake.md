@@ -21,7 +21,7 @@
 
 - Package a web page with fullscreen mode:
 
-`pake --fullscreen https://www.google.com/`
+`pake --fullscreen {{https://www.google.com/}}`
 
 - Package a web page with transparent title bar:
 
