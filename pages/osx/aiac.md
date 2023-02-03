@@ -9,7 +9,7 @@
 
 - Generate a Dockerfile for nginx:
 
-`aiac get dockerfile for a secured nginx`
+`aiac get dockerfile {{for a secured nginx}}`
 
 - Generate GitHub action that applies Terraform:
 
