@@ -23,6 +23,6 @@
 
 `pake --fullscreen {{https://www.google.com/}}`
 
-- Package a web page with transparent title bar:
+- Package a web page with a transparent title bar:
 
 `pake --transparent {{https://www.google.com/}}`
