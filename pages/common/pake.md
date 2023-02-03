@@ -25,4 +25,4 @@
 
 - Package a web page with transparent title bar:
 
-`pake --transparent https://www.google.com/`
+`pake --transparent {{https://www.google.com/}}`
