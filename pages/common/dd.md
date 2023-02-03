@@ -26,7 +26,3 @@
 - Restore a drive from an IMG file:
 
 `dd if={{path/to/file.img}} of={{/dev/drive_device}}`
-
-- Check the progress of an ongoing dd operation (run this command from another shell):
-
-`kill -USR1 $(pgrep ^dd)`
