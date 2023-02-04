@@ -11,3 +11,7 @@
 - Run a command using x86_64:
 
 `arch -x86_64 "{{command}}"`
+
+- Run a command using ARM:
+
+`arch -arm64 "{{command}}"`
