@@ -7,9 +7,9 @@
 
 `prompt`
 
-- Change the prompt line:
+- Set a specific prompt:
 
-`prompt {{special_codes}}`
+`prompt {{prompt}}`
 
 - Change the prompt to show the current date first:
 
