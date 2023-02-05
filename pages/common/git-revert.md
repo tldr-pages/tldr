@@ -11,7 +11,7 @@
 
 `git revert HEAD~{{4}}`
 
-- Revert a specific commit
+- Revert a specific commit:
 
 `git revert {{0c01a9}}`
 
