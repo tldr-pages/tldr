@@ -17,12 +17,12 @@
 
 - Scan multiple directories recursively:
 
-`osv-scanner -r {{directory1 directory2...}}`
+`osv-scanner -r {{directory1 directory2 ...}}`
 
 - Skip scanning git repositories:
 
-`osv-scanner --skip-git`
+`osv-scanner --skip-git` {{-r|-D}} {{target}}
 
 - Output result in JSON format:
 
-`osv-scanner --json`
+`osv-scanner --json {{-D|-L|-S|-r}} {{target}}`
