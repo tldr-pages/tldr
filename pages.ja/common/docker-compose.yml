@@ -9,7 +9,7 @@
 
 - カレントディレクトリにある `docker-compose.yml`ファイルを使用してバックグラウンドで全てのコンテナを作成・起動する:
 
-`docker compose up -d`
+`docker compose up --detach`
 
 - 全てのコンテナを起動し、必要に応じて再ビルドする:
 
