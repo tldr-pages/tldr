@@ -19,7 +19,7 @@
 
 `docker compose --file {{ファイルパス}} up`
 
-- 全てのコンテナを停止する:
+- 実行中の全てのコンテナを停止する:
 
 `docker compose stop`
 
