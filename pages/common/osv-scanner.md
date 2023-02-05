@@ -21,7 +21,7 @@
 
 - Skip scanning git repositories:
 
-`osv-scanner --skip-git` {{-r|-D}} {{target}}
+`osv-scanner --skip-git {{-r|-D}} {{target}}`
 
 - Output result in JSON format:
 
