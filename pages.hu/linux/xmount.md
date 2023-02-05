@@ -1,6 +1,8 @@
 # xmount
 
-> Gyorsan konvertál több bemeneti és kimeneti merevlemezkép-típus között, opcionális írási gyorsítótár támogatással. Virtuális fájlrendszert hoz létre a FUSE (Filesystem in Userspace) segítségével, amely a bemeneti kép virtuális reprezentációját tartalmazza. További információ: <https://manned.org/xmount>.
+> Gyorsan konvertál több bemeneti és kimeneti merevlemezkép-típus között, opcionális írási gyorsítótár támogatással.
+> Virtuális fájlrendszert hoz létre a FUSE (Filesystem in Userspace) segítségével, amely a bemeneti kép virtuális reprezentációját tartalmazza.
+> További információ: <https://manned.org/xmount>.
 
 - A `.raw` képfájlt egy DMG konténerfájlba mountolja:
 

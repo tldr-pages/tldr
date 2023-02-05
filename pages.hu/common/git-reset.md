@@ -1,6 +1,8 @@
 # git reset
 
-> Visszavonja a commitokat vagy a változtatásokat, visszaállítva az aktuális Git HEAD-et a megadott állapotba. Ha egy elérési utat adunk meg, akkor "unstage"-ként működik; ha egy commit hash-t vagy ágat adunk meg, akkor "uncommit"-ként működik. További információ [: https://git-scm.com/docs/git-reset](https://git-scm.com/docs/git-reset).
+> Visszavonja a commitokat vagy a változtatásokat, visszaállítva az aktuális Git HEAD-et a megadott állapotba.
+> Ha egy elérési utat adunk meg, akkor "unstage"-ként működik; ha egy commit hash-t vagy ágat adunk meg, akkor "uncommit"-ként működik.
+> További információ [: https://git-scm.com/docs/git-reset](https://git-scm.com/docs/git-reset).
 
 - Unstage everything:
 

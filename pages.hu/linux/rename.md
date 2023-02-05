@@ -1,6 +1,10 @@
 # rename
 
-> Több fájl átnevezése. MEGJEGYZÉS: ez az oldal a `util-linux` csomagban található parancsra vonatkozik. A Perl verzióért lásd a `file-rename` vagy a `perl-rename`. Figyelmeztetés: Ez a parancs nem rendelkezik biztosítékokkal, és kérdezés nélkül felülírja a fájlokat. További információ: <https://manned.org/rename>.
+> Több fájl átnevezése.
+> MEGJEGYZÉS: ez az oldal a `util-linux` csomagban található parancsra vonatkozik.
+> A Perl verzióért lásd a `file-rename` vagy a `perl-rename`.
+> Figyelmeztetés: Ez a parancs nem rendelkezik biztosítékokkal, és kérdezés nélkül felülírja a fájlokat.
+> További információ: <https://manned.org/rename>.
 
 - Fájlok átnevezése egyszerű helyettesítésekkel (a 'foo' helyett 'bar', ahol csak található):
 

@@ -1,6 +1,9 @@
 # run-mailcap
 
-> MailCap programok futtatása. A mailcap megtekintése, megtekintése, szerkesztése, összeállítása, nyomtatása - a mailcap fájlban (vagy annak bármelyik aliasában) található bejegyzéseken keresztül végrehajtott programok a megadott műveletet használják az egyes mime-típusok/fájlok feldolgozására. További információ: <https://manned.org/run-mailcap>.
+> MailCap programok futtatása.
+> A mailcap megtekintése, megtekintése, szerkesztése, összeállítása, nyomtatása - a mailcap fájlban (vagy annak bármelyik aliasában)
+> található bejegyzéseken keresztül végrehajtott programok a megadott műveletet használják az egyes mime-típusok/fájlok feldolgozására.
+> További információ: <https://manned.org/run-mailcap>.
 
 - A run-mailcap egyes műveletei/programjai action flaggel hívhatók meg:
 

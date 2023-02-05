@@ -1,6 +1,8 @@
 # emond
 
-> Eseményfigyelő szolgáltatás, amely különböző szolgáltatásoktól fogad eseményeket, lefuttatja azokat egy egyszerű szabálymotoron keresztül, és akciókat hajt végre. Az akciók parancsokat futtathatnak, e-mailt vagy SMS üzeneteket küldhetnek. További információ: <https://www.manpagez.com/man/8/emond/>.
+> Eseményfigyelő szolgáltatás, amely különböző szolgáltatásoktól fogad eseményeket, lefuttatja azokat egy egyszerű szabálymotoron keresztül, és akciókat hajt végre.
+> Az akciók parancsokat futtathatnak, e-mailt vagy SMS üzeneteket küldhetnek.
+> További információ: <https://www.manpagez.com/man/8/emond/>.
 
 - Indítsa el a démont:
 

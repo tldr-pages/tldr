@@ -1,6 +1,8 @@
 # searchsploit
 
-> A Searchsploit az exploit adatbázis adatbázisában keres exploitokat, shellkódokat és/vagy papírokat. Ha ismert verziószámokat használunk keresési feltételként, akkor a pontos verzióra vonatkozó exploitok és olyanok is megjelennek, amelyek verzióköre a megadott verzióra terjed ki. További információ: <https://www.exploit-db.com/searchsploit>.
+> A Searchsploit az exploit adatbázis adatbázisában keres exploitokat, shellkódokat és/vagy papírokat.
+> Ha ismert verziószámokat használunk keresési feltételként, akkor a pontos verzióra vonatkozó exploitok és olyanok is megjelennek, amelyek verzióköre a megadott verzióra terjed ki.
+> További információ: <https://www.exploit-db.com/searchsploit>.
 
 - Exploit, shellcode vagy dokumentum keresése:
 

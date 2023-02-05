@@ -1,6 +1,9 @@
 # edquota
 
-> Egy felhasználó vagy csoport kvótáinak szerkesztése. Alapértelmezés szerint az összes kvótával rendelkező fájlrendszeren működik. A kvótainformációkat a fájlrendszer gyökerében található `quota.user` és `quota.group` fájlok tárolják állandóan. További információ: <https://manned.org/edquota>.
+> Egy felhasználó vagy csoport kvótáinak szerkesztése.
+> Alapértelmezés szerint az összes kvótával rendelkező fájlrendszeren működik.
+> A kvótainformációkat a fájlrendszer gyökerében található `quota.user` és `quota.group` fájlok tárolják állandóan.
+> További információ: <https://manned.org/edquota>.
 
 - Az aktuális felhasználó kvótájának szerkesztése:
 

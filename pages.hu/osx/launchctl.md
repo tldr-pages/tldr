@@ -1,6 +1,8 @@
 # launchctl
 
-> Parancssori interfész az Apple `launchd` kezelőjéhez a démonok (rendszerszintű szolgáltatások) és a launch agentek (felhasználókra szabott programok) indításához.`launchd` betölti a megfelelő helyeken elhelyezett XML-alapú `*.plist` fájlokat, és a megfelelő parancsokat a meghatározott ütemezés szerint futtatja. További információ: <https://manned.org/launchctl>.
+> Parancssori interfész az Apple `launchd` kezelőjéhez a démonok (rendszerszintű szolgáltatások) és a launch agentek (felhasználókra szabott programok) indításához.
+> `launchd` betölti a megfelelő helyeken elhelyezett XML-alapú `*.plist` fájlokat, és a megfelelő parancsokat a meghatározott ütemezés szerint futtatja.
+> További információ: <https://manned.org/launchctl>.
 
 - Aktiváljon egy felhasználó-specifikus ügynököt, amely a felhasználó bejelentkezésekor betöltődik a `launchd` oldalra:
 

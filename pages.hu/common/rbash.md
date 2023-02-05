@@ -1,6 +1,9 @@
 # rbash
 
-> Korlátozott Bash shell, egyenértékű a `bash --restricted`-val . Nem engedélyezi többek között a munkakönyvtár megváltoztatását, a parancsok kimenetének átirányítását vagy a környezeti változók módosítását. Lásd még `histexpand` az előzmények bővítéséhez. További információ: <https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell>.
+> Korlátozott Bash shell, egyenértékű a `bash --restricted`-val.
+> Nem engedélyezi többek között a munkakönyvtár megváltoztatását, a parancsok kimenetének átirányítását vagy a környezeti változók módosítását.
+> Lásd még `histexpand` az előzmények bővítéséhez.
+> További információ: <https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell>.
 
 - Interaktív shell munkamenet indítása:
 

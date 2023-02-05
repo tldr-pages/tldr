@@ -1,6 +1,8 @@
 # dnf
 
-> Csomagkezelő segédprogram RHEL, Fedora és CentOS rendszerekhez (helyettesíti a yum-ot). Más csomagkezelők megfelelő parancsaiért lásd: [https://wiki.archlinux.org/title/Pacman/Rosetta. További](https://wiki.archlinux.org/title/Pacman/Rosetta) információ: <https://dnf.readthedocs.io>.
+> Csomagkezelő segédprogram RHEL, Fedora és CentOS rendszerekhez (helyettesíti a yum-ot).
+> Más csomagkezelők megfelelő parancsaiért lásd: [https://wiki.archlinux.org/title/Pacman/Rosetta](https://wiki.archlinux.org/title/Pacman/Rosetta).
+> További információ: <https://dnf.readthedocs.io>.
 
 - A telepített csomagok frissítése a legújabb elérhető verziókra:
 

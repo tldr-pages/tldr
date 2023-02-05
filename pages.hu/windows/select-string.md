@@ -1,6 +1,8 @@
 # Select-String
 
-> Szöveg keresése karakterláncokban és fájlokban a PowerShellben. Ezt a parancsot csak a PowerShell segítségével lehet használni. A `Select-String` parancsot a UNIX-ban a grep-hez hasonlóan használhatja, vagy a findstr.exe-t a Windowsban. További információ: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
+> Szöveg keresése karakterláncokban és fájlokban a PowerShellben. Ezt a parancsot csak a PowerShell segítségével lehet használni.
+> A `Select-String` parancsot a UNIX-ban a grep-hez hasonlóan használhatja, vagy a findstr.exe-t a Windowsban.
+> További információ: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Egy fájlban lévő minta keresése:
 

@@ -1,6 +1,8 @@
 # coursier
 
-> Alkalmazás- és artefakt-kezelő a Scala nyelvhez, képes Scala alkalmazások telepítésére és a Scala fejlesztőkörnyezet beállítására. Néhány alparancsnak, mint például a `install`, `launch`, `java`, `fetch`, `resolve`, `complete-dep`, stb. saját használati dokumentációval rendelkezik, amely a `tldr cs subcommand` oldalon keresztül érhető el. További információ: <https://get-coursier.io/docs/overview>.
+> Alkalmazás- és artefakt-kezelő a Scala nyelvhez, képes Scala alkalmazások telepítésére és a Scala fejlesztőkörnyezet beállítására.
+> Néhány alparancsnak, mint például a `install`, `launch`, `java`, `fetch`, `resolve`, `complete-dep`, stb. saját használati dokumentációval rendelkezik, amely a `tldr cs subcommand` oldalon keresztül érhető el.
+> További információ: <https://get-coursier.io/docs/overview>.
 
 - Megjelenített verzió:
 

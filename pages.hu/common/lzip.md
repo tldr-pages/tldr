@@ -1,6 +1,8 @@
 # lzip
 
-> Az Lzip egy veszteségmentes adattömörítő, amelynek felhasználói felülete hasonló a `gzip` vagy a `bzip2`. Az Lzip a "Lempel-Ziv-Markovchain-Algorithm "z (LZMA) stream formátum egyszerűsített formáját használja, és 3 faktoros integritás-ellenőrzést biztosít az interoperabilitás maximalizálása és a biztonság optimalizálása érdekében. További információ: <https://www.nongnu.org/lzip>.
+> Az Lzip egy veszteségmentes adattömörítő, amelynek felhasználói felülete hasonló a `gzip` vagy a `bzip2`.
+> Az Lzip a "Lempel-Ziv-Markovchain-Algorithm "z (LZMA) stream formátum egyszerűsített formáját használja, és 3 faktoros integritás-ellenőrzést biztosít az interoperabilitás maximalizálása és a biztonság optimalizálása érdekében.
+> További információ: <https://www.nongnu.org/lzip>.
 
 - Egy fájl archiválása, kicserélve azt egy tömörített verzióra:
 

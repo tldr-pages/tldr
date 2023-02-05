@@ -1,6 +1,8 @@
 # swig
 
-> C/C++ kód és különböző magas szintű nyelvek, például JavaScript, Python, C# stb. közötti kötések generálása. Speciális .i vagy .swg fájlokat használ a kötések generálásához (C/C++ SWIG direktívákkal, majd egy C/C++ fájlt ad ki, amely tartalmazza a bővítőmodul létrehozásához szükséges összes csomagoló kódot. További információ: <http://www.swig.org>.
+> C/C++ kód és különböző magas szintű nyelvek, például JavaScript, Python, C# stb. közötti kötések generálása. Speciális .i vagy .swg fájlokat használ a kötések generálásához
+> (C/C++ SWIG direktívákkal, majd egy C/C++ fájlt ad ki, amely tartalmazza a bővítőmodul létrehozásához szükséges összes csomagoló kódot.
+> További információ: <http://www.swig.org>.
 
 - C++ és Python közötti kötés generálása:
 

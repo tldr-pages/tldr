@@ -1,8 +1,10 @@
 # mail
 
-> A parancs a felhasználó postafiókján dolgozik, ha nincs argumentum megadva. E-mail küldéséhez az üzenet szövegét a standard bemenetről kell felépíteni. További információ: <https://manned.org/mail>.
+> A parancs a felhasználó postafiókján dolgozik, ha nincs argumentum megadva.
+> E-mail küldéséhez az üzenet szövegét a standard bemenetről kell felépíteni.
+> További információ: <https://manned.org/mail>.
 
-- Gépelt e-mail üzenet küldése. Az alábbi parancssor az Enter billentyű lenyomása után folytatódik. CC email-id bevitele (opcionális) Enter billentyű lenyomása. Üzenet szövegének bevitele (lehet többsoros). Az üzenet szövegének befejezéséhez nyomja meg a Ctrl-D billentyűt:
+- Gépelt e-mail üzenet küldése. Az alábbi parancssor az Enter billentyű lenyomása után folytatódik. CC email-id bevitele (opcionális) Majd Enter. Üzenet szövegének bevitele (többsoros akár). Befejezéséhez nyomja meg a Ctrl-D billentyűt:
 
 `mail --subject="{{subject line}}" {{to_user@example.com}}`
 

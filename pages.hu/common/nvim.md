@@ -1,6 +1,9 @@
 # nvim
 
-> A Neovim, egy Vim alapú programozói szövegszerkesztő, többféle üzemmódot biztosít a különböző szövegmanipulációkhoz. A `i` megnyomásával normál módban a beszúrási módba léphetünk. `<Esc>` visszatér a normál módba, amely nem teszi lehetővé a normál szöveg beszúrását. Lásd még: `vim`, `vimtutor`, `vimdiff`. További információ: <https://neovim.io>.
+> A Neovim, egy Vim alapú programozói szövegszerkesztő, többféle üzemmódot biztosít a különböző szövegmanipulációkhoz.
+> A `i` megnyomásával normál módban a beszúrási módba léphetünk. `<Esc>` visszatér a normál módba, amely nem teszi lehetővé a normál szöveg beszúrását.
+> Lásd még: `vim`, `vimtutor`, `vimdiff`.
+> További információ: <https://neovim.io>.
 
 - Fájl megnyitása:
 

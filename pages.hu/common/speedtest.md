@@ -1,6 +1,9 @@
 # speedtest
 
-> Hivatalos parancssori felület az internetes sávszélesség teszteléséhez a https://speedtest.net segítségével. Megjegyzés: egyes platformok a `speedtest` és a `speedtest-cli` közötti linket tartalmazzák. Ha az oldalon található példák közül néhány nem működik, lásd a `speedtest-cli`. További információ: <https://www.speedtest.net/apps/cli>.
+> Hivatalos parancssori felület az internetes sávszélesség teszteléséhez a <https://speedtest.net> segítségével.
+> Megjegyzés: egyes platformok a `speedtest` és a `speedtest-cli` közötti linket tartalmazzák.
+> Ha az oldalon található példák közül néhány nem működik, lásd a `speedtest-cli`.
+> További információ: <https://www.speedtest.net/apps/cli>.
 
 - Futtasson sebességtesztet:
 

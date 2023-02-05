@@ -1,6 +1,8 @@
 # git bug
 
-> Egy elosztott hibakövető, amely a git belső tárolóját használja, így nem kerülnek fájlok a projektedbe. A problémáidat ugyanarra a git távolira küldheted be, amelyet másokkal való interakcióra használsz, hasonlóan a commitokhoz és ágakhoz. További információ: <https://github.com/MichaelMure/git-bug/blob/master/doc/md/git-bug.md>.
+> Egy elosztott hibakövető, amely a git belső tárolóját használja, így nem kerülnek fájlok a projektedbe.
+> A problémáidat ugyanarra a git távolira küldheted be, amelyet másokkal való interakcióra használsz, hasonlóan a commitokhoz és ágakhoz.
+> További információ: <https://github.com/MichaelMure/git-bug/blob/master/doc/md/git-bug.md>.
 
 - Új identitás létrehozása:
 

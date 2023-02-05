@@ -1,6 +1,8 @@
 # duc
 
-> A Duc egy eszközgyűjtemény a lemezhasználat indexeléséhez, vizsgálatához és megjelenítéséhez. A Duc egy adatbázist tart fenn a fájlrendszer könyvtárainak felhalmozott méreteiről, lehetővé téve az adatbázis lekérdezését, vagy díszes grafikonok létrehozását az adatok helyének bemutatására. További információ: <https://duc.zevv.nl/>.
+> A Duc egy eszközgyűjtemény a lemezhasználat indexeléséhez, vizsgálatához és megjelenítéséhez.
+> A Duc egy adatbázist tart fenn a fájlrendszer könyvtárainak felhalmozott méreteiről, lehetővé téve az adatbázis lekérdezését, vagy díszes grafikonok létrehozását az adatok helyének bemutatására.
+> További információ: <https://duc.zevv.nl/>.
 
 - Indexelje az /usr könyvtárat, az alapértelmezett adatbázis helyére ~/.duc.db írva:
 

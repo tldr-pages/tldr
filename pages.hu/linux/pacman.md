@@ -1,6 +1,9 @@
 # pacman
 
-> Arch Linux csomagkezelő segédprogram. Néhány alparancsnak, mint például a `pacman sync`, saját használati dokumentációja van. Más csomagkezelőkben használt, ezzel egyenértékű parancsokért lásd: https: [//wiki.archlinux.org/title/Pacman/Rosetta. További](https://wiki.archlinux.org/title/Pacman/Rosetta) információ: <https://man.archlinux.org/man/pacman.8>.
+> Arch Linux csomagkezelő segédprogram.
+> Néhány alparancsnak, mint például a `pacman sync`, saját használati dokumentációja van.
+> Más csomagkezelőkben használt, ezzel egyenértékű parancsokért lásd: https: [//wiki.archlinux.org/title/Pacman/Rosetta](https://wiki.archlinux.org/title/Pacman/Rosetta).
+> További információ: <https://man.archlinux.org/man/pacman.8>.
 
 - Az összes csomag szinkronizálása és frissítése:
 

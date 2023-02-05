@@ -1,6 +1,9 @@
 # duperemove
 
-> Megkeresi a duplikált fájlrendszer-kiterjesztéseket, és opcionálisan ütemezi őket deduplikációra. A kiterjesztés egy fájl kis része a fájlrendszeren belül. Egyes fájlrendszereken egy kiterjesztésre többször is lehet hivatkozni, ha a fájlok tartalmának egy része azonos. További információ: <https://markfasheh.github.io/duperemove/>.
+> Megkeresi a duplikált fájlrendszer-kiterjesztéseket, és opcionálisan ütemezi őket deduplikációra.
+> A kiterjesztés egy fájl kis része a fájlrendszeren belül.
+> Egyes fájlrendszereken egy kiterjesztésre többször is lehet hivatkozni, ha a fájlok tartalmának egy része azonos.
+> További információ: <https://markfasheh.github.io/duperemove/>.
 
 - Duplikált kiterjesztések keresése és megjelenítése egy könyvtárban:
 

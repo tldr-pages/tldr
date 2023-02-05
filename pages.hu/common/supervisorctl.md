@@ -1,6 +1,8 @@
 # supervisorctl
 
-> A Supervisor egy kliens/szerver rendszer, amely lehetővé teszi a felhasználóinak, hogy számos folyamatot irányítsanak UNIX-szerű operációs rendszereken. A Supervisorctl a supervisor parancssori kliens része, amely egy shell-szerű felületet biztosít. További információ [: http://supervisord.org](http://supervisord.org).
+> A Supervisor egy kliens/szerver rendszer, amely lehetővé teszi a felhasználóinak, hogy számos folyamatot irányítsanak UNIX-szerű operációs rendszereken.
+> A Supervisorctl a supervisor parancssori kliens része, amely egy shell-szerű felületet biztosít.
+> További információ: [http://supervisord.org](http://supervisord.org).
 
 - Egy folyamat indítása/leállítása/újraindítása:
 

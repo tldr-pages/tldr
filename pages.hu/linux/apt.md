@@ -1,6 +1,8 @@
 # apt
 
-> Csomagkezelő segédprogram Debian alapú disztribúciókhoz. A `apt-get` ajánlott helyettesítője, ha interaktívan használják az Ubuntu 16.04 és újabb verziókban. Más csomagkezelők egyenértékű parancsaiért lásd: https: [//wiki.archlinux.org/title/Pacman/Rosetta. További](https://wiki.archlinux.org/title/Pacman/Rosetta) információ: <https://manpages.debian.org/latest/apt/apt.8.html>.
+> Csomagkezelő segédprogram Debian alapú disztribúciókhoz.
+> A `apt-get` ajánlott helyettesítője, ha interaktívan használják az Ubuntu 16.04 és újabb verziókban. Más csomagkezelők egyenértékű parancsaiért lásd: https: [//wiki.archlinux.org/title/Pacman/Rosetta](https://wiki.archlinux.org/title/Pacman/Rosetta)
+> További információ: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - Frissíti az elérhető csomagok és verziók listáját (ajánlott más `apt` parancsok előtt futtatni):
 

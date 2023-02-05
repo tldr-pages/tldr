@@ -1,6 +1,9 @@
 # dpkg
 
-> Debian csomagkezelő. Néhány alparancsnak, mint például a `dpkg deb`, saját használati dokumentációja van. Más csomagkezelőkben az ezzel egyenértékű parancsokat lásd: https: [//wiki.archlinux.org/title/Pacman/Rosetta. További](https://wiki.archlinux.org/title/Pacman/Rosetta) információ: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
+> Debian csomagkezelő.
+> Néhány alparancsnak, mint például a `dpkg deb`, saját használati dokumentációja van.
+> Más csomagkezelőkben az ezzel egyenértékű parancsokat lásd: https: [//wiki.archlinux.org/title/Pacman/Rosetta](https://wiki.archlinux.org/title/Pacman/Rosetta).
+> További információ: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
 - Telepítsen egy csomagot:
 

@@ -1,6 +1,8 @@
 # helix
 
-> A Helix, A posztmodern szövegszerkesztő, többféle üzemmódot biztosít a különböző szövegmanipulációkhoz. A `i` megnyomásával belép a beszúrási módba. `<Esc>` belép a normál módba, amely lehetővé teszi a Helix parancsok használatát. További információ: <https://helix-editor.com>.
+> A Helix, A posztmodern szövegszerkesztő, többféle üzemmódot biztosít a különböző szövegmanipulációkhoz.
+> A `i` megnyomásával belép a beszúrási módba. `<Esc>` belép a normál módba, amely lehetővé teszi a Helix parancsok használatát.
+> További információ: <https://helix-editor.com>.
 
 - Fájl megnyitása:
 

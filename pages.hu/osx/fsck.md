@@ -1,6 +1,9 @@
 # fsck
 
-> A fájlrendszer integritásának ellenőrzése vagy javítása. A parancs futtatásakor a fájlrendszernek le kell lennie csatolva. A parancs egy wrapper, amely szükség szerint hívja a `fsck_hfs`, `fsck_apfs`, `fsck_msdos`, `fsck_exfat` és `fsck_udf`. További információ: <https://ss64.com/osx/fsck.html>.
+> A fájlrendszer integritásának ellenőrzése vagy javítása.
+> A parancs futtatásakor a fájlrendszernek le kell lennie csatolva.
+> A parancs egy wrapper, amely szükség szerint hívja a `fsck_hfs`, `fsck_apfs`, `fsck_msdos`, `fsck_exfat` és `fsck_udf`.
+> További információ: <https://ss64.com/osx/fsck.html>.
 
 - Ellenőrizze a fájlrendszert `/dev/sdX`, jelentve a sérült blokkokat:
 
