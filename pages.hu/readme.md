@@ -10,6 +10,7 @@
 > _upon creation of such translations, all excusive, transferable, sublicensable, worldwide perpetual rights to use the translations without limitation and for any existing or future types of use,_
 > _including without limitation the right to modify the translations and to create derivative works._
 > **Credits for the translation:**
+>
 > - [TLDR Pages](https://github.com/tldr-pages/tldr)
 > - [Deepl API for automated translation](https://www.deepl.com/pro#developer)
 > - [Deepl Pro License](https://www.deepl.com/en/pro-license)
