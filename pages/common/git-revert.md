@@ -11,6 +11,10 @@
 
 `git revert HEAD~{{4}}`
 
+- Revert a specific commit:
+
+`git revert {{0c01a9}}`
+
 - Revert multiple commits:
 
 `git revert {{branch_name~5..branch_name~2}}`
