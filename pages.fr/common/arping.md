@@ -20,7 +20,7 @@
 
 `arping -c {{nombre_d_appel}} {{ip_hôte}}`
 
-- Diffuse les paquets de requête ARP pour mettre à hour les caches ARP voisin :
+- Diffuse les paquets de requête ARP pour mettre à jour les caches ARP voisin :
 
 `arping -U {{ip_à_diffuser}}`
 
