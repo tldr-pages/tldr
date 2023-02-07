@@ -16,7 +16,7 @@
 
 `{{some_command}} | b3sum`
 
-- Create a file of BLAKE3 sums:
+- Create a file of BLAKE3 checksums:
 
 `b3sum {{path/to/file}} > {{path/to/file.b3}}`
 
