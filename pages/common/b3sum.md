@@ -1,6 +1,7 @@
 # b3sum
 
-> A command line utility for calculating BLAKE3 hashes, similar to Coreutils tools like b2sum or md5sum.
+> Command line utility for calculating BLAKE3 hashes.
+> It is similar to Coreutils tools like b2sum or md5sum.
 > More information: <https://github.com/BLAKE3-team/BLAKE3/tree/master/b3sum>.
 
 - Calculate the BLAKE3 checksum for a file:
