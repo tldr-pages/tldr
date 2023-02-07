@@ -20,6 +20,6 @@
 
 `b3sum {{path/to/file}} > {{path/to/file.b3}}`
 
-- Read and verify a file of BLAKE3 sums:
+- Read and verify a file of BLAKE3 checksums:
 
 `b3sum --check {{path/to/file.b3}}`
