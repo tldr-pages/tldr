@@ -28,6 +28,6 @@
 
 `ostree summary --repo {{path/to/repo}} --view`
 
-- Show available refs:
+- Show available refs (branches):
 
 `ostree refs --repo {{path/to/repo}}`
