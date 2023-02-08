@@ -5,4 +5,4 @@
 
 - Generate a cloudinit file for a specific configuration type:
 
-`qm cloudinit dump {{vmid}} {{meta|network|user}}`
+`qm cloudinit dump {{virtual_machine_id}} {{meta|network|user}}`
