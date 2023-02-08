@@ -9,7 +9,7 @@
 
 - Mevcut dizinde bir `docker-compose.yml` dosyası çalıştırarak arkaplandaki tüm konteynerleri çalıştırın ve başlatın:
 
-`docker compose up -d`
+`docker compose up --detach`
 
 - Tüm konteynerleri çalıştırın ve gerekiyorsa yeniden oluşturun:
 

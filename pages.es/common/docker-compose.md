@@ -9,7 +9,7 @@
 
 - Crea e inicia todos los contenedores en segundo plano usando el archivo `docker-compose.yml` en el directorio actual:
 
-`docker compose up -d`
+`docker compose up --detach`
 
 - Inicia todos los contenedores y reconstruye si es ncesario:
 
