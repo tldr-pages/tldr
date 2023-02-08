@@ -9,7 +9,7 @@
 
 - Crée et démarre en arrière-plan tous les conteneurs décrits dans le fichier `docker-compose.yml` du répertoire courant :
 
-`docker compose up -d`
+`docker compose up --detach`
 
 - Démarre tous les conteneurs après les avoir recréés si nécessaire :
 
