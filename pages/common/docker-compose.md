@@ -9,7 +9,7 @@
 
 - Create and start all containers in the background using a `docker-compose.yml` file from the current directory:
 
-`docker compose up -d`
+`docker compose up --detach`
 
 - Start all containers, rebuild if necessary:
 
