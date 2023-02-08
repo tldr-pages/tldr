@@ -73,7 +73,7 @@ If you want an offline version without installing any software,
 check out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
 
 For browsing without installing a client to your computer,
-see the web client at <https://tldr.ostera.io>.
+see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
 
 There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
