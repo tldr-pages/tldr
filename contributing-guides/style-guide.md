@@ -128,17 +128,6 @@ Keep the following guidelines in mind when choosing placeholders:
   which don't allow adding arbitrary text in them (ranges), then instead of generic placeholders use descriptive ones. For example prefer `input swipe {{x_position}} {{y_position}} {{x_position}} {{y_position}} {{seconds}}`
   instead of `input swipe {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{1..infinity}}`.
 
-### Range syntax
-
-All borders of integer and float ranges get included. If you want to exclude the border, then use incremented or decremented values to do it:
-`{{1..5}}` == `[1-6)`.
-
-- Use `{{from..to}}` syntax for closed ranges.
-- Use `{{-n..to}}` or `{{from..n}}` syntax for integer partially closed ranges where `n` is a keyword
-  signifying the minimum or maximum range value e.g. `{{1..n}}` - 1 or greater values.
-- Use `{{integer}}` syntax for values where any integer is valid.
-- Use `{{float}}` syntax for values where any float is valid.
-
 ### Paths
 
 - Use `{{filename}}` when just file name is expected.
