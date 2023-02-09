@@ -1,7 +1,6 @@
 # clip-view
 
-> Render for TlDr-like project with much a more extensive syntax and
-> several render modes.
+> Render for TlDr-like project with much a more extensive syntax and several render modes.
 > More information: <https://github.com/emilyseville7cfg-better-tldr/prototypes/blob/main/clip-view/README.md>.
 
 - Render specific local pages:
