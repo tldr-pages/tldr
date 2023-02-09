@@ -19,7 +19,7 @@
 
 `clip-view --theme {{path/to/local_theme.yaml|remote_theme_name}} {{page_name1 page_name2 ...}}`
 
-- Render a page or theme cache:
+- Clear a page or theme cache:
 
 `clip-view --clear-{{page|theme}}-cache`
 
