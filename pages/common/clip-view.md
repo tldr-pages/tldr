@@ -6,7 +6,7 @@
 
 - Render specific local pages:
 
-`clip-view {{path/to/page1.yaml path/to/page2.yaml ...}}`
+`clip-view {{path/to/page1.clip path/to/page2.clip ...}}`
 
 - Render specific remote pages:
 
