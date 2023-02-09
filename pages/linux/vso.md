@@ -7,6 +7,10 @@
 
 `sudo vso trigger-update --now`
 
+- Check for an update:
+
+`sudo vso update-check`
+
 - Create an automated task upon an application's launch:
 
 `vso create-task --name "{{string}}" --description "{{string}}" --{{command|on-condition-command}} "{{command}}" --on-process {{integer}}`
@@ -18,10 +22,6 @@
 - Create an automated task to execute during specific battery states:
 
 `vso create-task --name "{{string}}" --description "{{string}}" --command "{{command}}" --{{on-low-battery|on-charge|on-battery|on-full-battery}}`
-
-- Create an automated task to execute at a specific time interval (hh: mm) or re-execute it every time after specific time intervals (m,h,d):
-
-`vso create-task --name "{{string}}" --description "{{string}}" --command "{{command}}" --{{at|every}} {{time_interval}}`
 
 - Create an automated task which asks for a confirmation before execution:
 
