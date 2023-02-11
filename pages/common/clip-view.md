@@ -1,7 +1,7 @@
 # clip-view
 
 > [C]ommand [L]ine [I]nterface [P]ages render.
-> Render for TlDr-like project with much a more extensive syntax and several render modes.
+> Render for a TlDr-like project with much a more extensive syntax and several render modes.
 > More information: <https://github.com/command-line-interface-pages/prototypes/blob/main/clip-view/README.md>.
 
 - Render specific local pages:
