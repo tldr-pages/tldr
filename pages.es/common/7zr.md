@@ -24,7 +24,7 @@
 
 `7zr x {{ruta/al/archivo.7z}} -so`
 
-- l]ista el contenido de un archivo:
+- [l]ista el contenido de un archivo:
 
 `7zr l {{ruta/al/archivo.7z}}`
 
