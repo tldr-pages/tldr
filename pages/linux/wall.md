@@ -5,7 +5,11 @@
 
 - Send a message:
 
-`echo "{{message}}" | wall`
+`wall {{message}}`
+
+- Send a message to users that belong to a specific group:
+
+`wall --group {{group_name}} {{message}}`
 
 - Send a message from a file:
 
@@ -13,4 +17,4 @@
 
 - Send a message with timeout (default 300):
 
-`wall -t {{seconds}} {{file}}`
+`wall --timeout {{seconds}} {{file}}`
