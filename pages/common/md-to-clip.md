@@ -1,7 +1,7 @@
 # md-to-clip
 
 > Converter from TlDr pages to [C]ommand [L]ine [I]nterface [P]ages.
-> More information: <https://github.com/emilyseville7cfg-better-tldr/prototypes/tree/main/md-to-clip>.
+> More information: <https://github.com/command-line-interface-pages/prototypes/tree/main/md-to-clip>.
 
 - Convert specific local pages and output outcome pages in the same directories:
 

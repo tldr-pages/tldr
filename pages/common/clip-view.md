@@ -2,7 +2,7 @@
 
 > [C]ommand [L]ine [I]nterface [P]ages render.
 > Render for TlDr-like project with much a more extensive syntax and several render modes.
-> More information: <https://github.com/emilyseville7cfg-better-tldr/prototypes/blob/main/clip-view/README.md>.
+> More information: <https://github.com/command-line-interface-pages/prototypes/blob/main/clip-view/README.md>.
 
 - Render specific local pages:
 
