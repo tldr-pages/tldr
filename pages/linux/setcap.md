@@ -6,7 +6,7 @@
 
 - Set capability `cap_net_raw` (to use RAW and PACKET sockets) for a given file:
 
-`setcap 'cap_net_raw' path/to/file`
+`setcap '{{cap_net_raw}}' {{path/to/file}}`
 
 - Set multiple capabilities on a file (ep behind the capability means "effective permitted"):
 
