@@ -14,7 +14,7 @@
 
 - Remove all capabilities from a file:
 
-`setcap -r path/to/file`
+`setcap -r {{path/to/file}}`
 
 - Verify that the specified capabilities are currently associated with the specified file:
 
