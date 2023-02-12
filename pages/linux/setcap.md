@@ -10,7 +10,7 @@
 
 - Set multiple capabilities on a file (ep behind the capability means "effective permitted"):
 
-`setcap 'cap_dac_read_search,cap_sys_tty_config+ep' path/to/file`
+`setcap '{{cap_dac_read_search,cap_sys_tty_config+ep}}' {{path/to/file}}`
 
 - Remove all capabilities from a file:
 
