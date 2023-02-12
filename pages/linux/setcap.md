@@ -18,7 +18,7 @@
 
 - Verify that the specified capabilities are currently associated with the specified file:
 
-`setcap -v 'cap_net_raw' path/to/file`
+`setcap -v '{{cap_net_raw}}' {{path/to/file}}`
 
 - The optional -n <rootuid> argument can be used to set the file capability for use only in a user namespace with this root user ID owner:
 
