@@ -4,7 +4,7 @@
 > See also: `tldr getcap`.
 > More information: <https://manned.org/setcap>.
 
-- Set capability cap_net_raw (to use RAW and PACKET sockets) for a given file:
+- Set capability `cap_net_raw` (to use RAW and PACKET sockets) for a given file:
 
 `setcap 'cap_net_raw' path/to/file`
 
