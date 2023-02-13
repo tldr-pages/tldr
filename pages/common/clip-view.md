@@ -1,6 +1,6 @@
 # clip-view
 
-> [C]ommand [L]ine [I]nterface [P]ages render.
+> Command Line Interface Pages render.
 > Render for a TlDr-like project with much a more extensive syntax and several render modes.
 > More information: <https://github.com/command-line-interface-pages/prototypes/blob/main/clip-view/README.md>.
 

@@ -1,13 +1,14 @@
 # md-to-clip
 
-> Converter from TlDr pages to [C]ommand [L]ine [I]nterface [P]ages.
+> Converter from tldr-pages to Command Line Interface Pages.
+> See also: `clip-view`.
 > More information: <https://github.com/command-line-interface-pages/prototypes/tree/main/md-to-clip>.
 
-- Convert specific local pages and output outcome pages in the same directories:
+- Convert tldr-pages files and save into the same directories:
 
 `md-to-clip {{path/to/page1.md path/to/page2.md ...}}`
 
-- Convert local pages and output outcome pages to a specific directory:
+- Convert tldr-pages files and save into a specific directory:
 
 `md-to-clip --output-directory {{path/to/directory}} {{path/to/page1.md path/to/page2.md ...}}`
 
