@@ -23,7 +23,7 @@
 
 `nc -q {{tiempo_en_segundos}} {{direccion_ip}}`
 
-- Escanear puertos abiertos en un determinado host:
+- Escanea puertos abiertos en un determinado host:
 
 `nc -v -z {{direccion_ip}} {{puerto1 puerto2 ...}}`
 
