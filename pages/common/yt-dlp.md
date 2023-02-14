@@ -8,6 +8,10 @@
 
 `yt-dlp "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
+- List the available downloadable formats for a video:
+
+`yt-dlp --list-formats "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"
+
 - Download a video with a defined format, in this case the best mp4 video available (default is "bv\*+ba/b"):
 
 `yt-dlp --format "{{bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
@@ -16,11 +20,7 @@
 
 `yt-dlp --extract-audio "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Specify audio format of extracted audio (the default is "best"):
-
-`yt-dlp --extract-audio --audio-format {{mp3}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
-
-- Specify audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
+- Specify audio format and audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
 
 `yt-dlp --extract-audio --audio-format {{mp3}} --audio-quality {{0}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
