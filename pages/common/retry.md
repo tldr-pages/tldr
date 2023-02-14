@@ -7,7 +7,7 @@
 
 `retry {{command}}`
 
-- Retry a command every n seconds:
+- Retry a command every n seconds until it succeeds:
 
 `retry --delay={{n}} {{command}}`
 
