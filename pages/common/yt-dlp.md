@@ -16,7 +16,7 @@
 
 `yt-dlp --format "{{bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Extract audio from videos (required ffmpeg or ffprobe):
+- Extract audio from a video (requires ffmpeg or ffprobe):
 
 `yt-dlp --extract-audio "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
