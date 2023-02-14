@@ -10,7 +10,7 @@
 
 - List the available downloadable formats for a video:
 
-`yt-dlp --list-formats "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"
+`yt-dlp --list-formats "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
 - Download a video with a defined format, in this case the best mp4 video available (default is "bv\*+ba/b"):
 
