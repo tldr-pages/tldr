@@ -25,7 +25,7 @@
 
 - Preview app synchronization without affecting cluster:
 
-`argocd app sync {{app-name}} --dry-run --prune`
+`argocd app sync {{app_name}} --dry-run --prune`
 
 - Show application deployment history:
 
