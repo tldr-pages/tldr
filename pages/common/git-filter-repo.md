@@ -10,12 +10,12 @@
 
 - Extract a single folder, keeping history:
 
-`git-filter-repo --path {{path/to/folder}}`
+`git filter-repo --path {{path/to/folder}}`
 
 - Remove a single folder, keeping history:
 
-`git-filter-repo --path {{path/to/folder}} --invert-paths`
+`git filter-repo --path {{path/to/folder}} --invert-paths`
 
 - Move everything from sub-folder one level up:
 
-`git-filter-repo --path-rename {{path/to/folder/:}}`
+`git filter-repo --path-rename {{path/to/folder/:}}`
