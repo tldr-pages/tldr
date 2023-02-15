@@ -6,7 +6,7 @@
 
 - Login to Argo CD server:
 
-`argocd login --insecure --username {{user}} --password {{password}} {{argocd-server:port}}`
+`argocd login --insecure --username {{user}} --password {{password}} {{argocd_server:port}}`
 
 - List applications:
 
