@@ -29,7 +29,7 @@
 
 - Show application deployment history:
 
-`argocd app history {{app-name}} --output {{wide|id}}`
+`argocd app history {{app_name}} --output {{wide|id}}`
 
 - Rollback application to a previous deployed version by history ID (deleting unexpected resources):
 
