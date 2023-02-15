@@ -17,7 +17,7 @@
 
 - Delete an application:
 
-`argocd app delete {{app-name}}`
+`argocd app delete {{app_name}}`
 
 - Enable application auto-sync:
 
