@@ -13,7 +13,7 @@
 
 - Deploy application internally (to the same cluster that Argo CD is running in):
 
-`argocd app create {{app-name}} --repo {{git-repo-url}} --path {{repo-path}} --dest-server https://kubernetes.default.svc --dest-namespace {{ns}}`
+`argocd app create {{app_name}} --repo {{git_repo_url}} --path {{path/to/repo}} --dest-server https://kubernetes.default.svc --dest-namespace {{ns}}`
 
 - Delete an application:
 
