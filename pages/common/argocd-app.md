@@ -21,7 +21,7 @@
 
 - Enable application auto-sync:
 
-`argocd app set {{app-name}} --sync-policy auto --auto-prune --self-heal`
+`argocd app set {{app_name}} --sync-policy auto --auto-prune --self-heal`
 
 - Preview app synchronization without affecting cluster:
 
