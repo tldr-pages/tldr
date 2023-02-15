@@ -9,7 +9,7 @@
 
 - Get application details:
 
-`argocd app get {{app-name}} --output {{json|yaml|wide}}`
+`argocd app get {{app_name}} --output {{json|yaml|wide}}`
 
 - Deploy application internally (to the same cluster that Argo CD is running in):
 
