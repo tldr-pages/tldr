@@ -29,4 +29,4 @@
 
 - Run a specific workflow:
 
-`act push -W 'path/to/workflow'`
+`act push -W {{path/to/workflow}}`
