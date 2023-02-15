@@ -33,4 +33,4 @@
 
 - Rollback application to a previous deployed version by history ID (deleting unexpected resources):
 
-`argocd app rollback {{app-name}} {{history-id}} --prune`
+`argocd app rollback {{app_name}} {{history_id}} --prune`
