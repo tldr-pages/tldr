@@ -9,7 +9,7 @@
 
 - Unmount an image:
 
-`hdiutil detach /Volumes/{{volume_name}}`
+`hdiutil detach /Volumes/{{volume_file}}`
 
 - List mounted images:
 

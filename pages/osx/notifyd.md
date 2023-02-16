@@ -14,4 +14,4 @@
 
 - Log debug messages to an alternate log file:
 
-`notifyd -d -log_file {{path/to/log}}`
+`notifyd -d -log_file {{path/to/log_file}}`
