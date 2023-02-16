@@ -1,6 +1,6 @@
 # retry
 
-> Repeat command until a criteria is met, usually success.
+> Repeat command until it succeeds or a criterion is met.
 > More information: <https://github.com/minfrin/retry>.
 
 - Retry a command until it succeeds:
