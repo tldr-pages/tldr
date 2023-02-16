@@ -18,4 +18,4 @@
 
 - Clone volumes without the use of an intermediate disk image:
 
-`sudo asr restore --source {{path/to/volume}} --target {{path/to/volume_file}}`
+`sudo asr restore --source {{path/to/volume_file}} --target {{path/to/volume_file}}`
