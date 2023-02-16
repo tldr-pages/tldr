@@ -19,6 +19,10 @@
 
 `cp -vr {{path/to/source_directory}} {{path/to/target_directory}}`
 
+- Copy multiple files at once to a directory:
+
+`cp -t {{path/to/destination_directory}} {{source_file_1}} {{source_file_2}} {{source_file_n}}`
+
 - Copy text files to another location, in interactive mode (prompts user before overwriting):
 
 `cp -i {{*.txt}} {{path/to/target_directory}}`
