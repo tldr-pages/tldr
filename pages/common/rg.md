@@ -12,10 +12,6 @@
 
 `rg --no-ignore --hidden {{regular_expression}}`
 
-- Search for a regular expression only in a certain filetype (e.g. HTML, CSS, etc.):
-
-`rg --type {{filetype}} {{regular_expression}}`
-
 - Search for a regular expression only in a subset of directories:
 
 `rg {{regular_expression}} {{set_of_subdirs}}`
