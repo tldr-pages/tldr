@@ -24,6 +24,10 @@
 
 `rg {{regular_expression}} --glob {{glob}}`
 
+- Search for filenames that match a regular expression:
+
+`rg --files | rg {{regular_expression}}`
+
 - Only list matched files (useful when piping to other commands):
 
 `rg --files-with-matches {{regular_expression}}`
