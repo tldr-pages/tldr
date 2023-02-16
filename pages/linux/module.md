@@ -26,3 +26,7 @@
 - Unload all loaded modules:
 
 `module purge`
+
+- Specify additional search directory:
+
+`module use {{search_directory}}`
