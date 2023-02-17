@@ -34,3 +34,7 @@
 - Change the type of the key format (for example from OPENSSH format to PEM), the file will be rewritten in-place:
 
 `ssh-keygen -p -N "" -m {{PEM}} -f {{~/.ssh/OpenSSH_private_key}}`
+
+- Retrieve public key from secret key:
+
+`ssh-keygen -y -f {{OpenSSH_private_key}}`
