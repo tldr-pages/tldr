@@ -6,7 +6,7 @@
 
 - Output processes to a file and to the console:
 
-`Get-Process | Tee-Object -FilePath {{path/to/file}}`
+`Get-Process | Tee-Object -FilePath {{path\to\file}}`
 
 - Output processes to a variable and `Select-Object`:
 

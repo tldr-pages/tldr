@@ -6,7 +6,7 @@
 
 - Display the ACL for a specific directory:
 
-`Get-Acl {{path/to/directory}}`
+`Get-Acl {{path\to\directory}}`
 
 - Get an ACL for a registry key:
 

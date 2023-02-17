@@ -17,7 +17,7 @@
 
 - Add a new package source with a client certificate:
 
-`choco source add --name {{name}} --source {{url}} --cert {{path/to/certificate}}`
+`choco source add --name {{name}} --source {{url}} --cert {{path\to\certificate_file}}`
 
 - Enable a package source:
 

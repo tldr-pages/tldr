@@ -10,8 +10,8 @@
 
 - Resolve a UNC path:
 
-`Resolve-Path -Path "\\{{hostname}}\{{path/to/file}}"`
+`Resolve-Path -Path "\\{{hostname}}\{{path\to\file}}"`
 
 - Get relative paths:
 
-`Resolve-Path -Path {{path/to/file_or_directory}} -Relative`
+`Resolve-Path -Path {{path\to\file_or_directory}} -Relative`
