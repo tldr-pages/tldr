@@ -3,7 +3,7 @@
 > Preprocess and compile Fortran source files, then assemble and link them together.
 > More information: <https://gcc.gnu.org/wiki/GFortran>.
 
-- Compile multiple source files into executable:
+- Compile multiple source files into an executable:
 
 `gfortran {{path/to/source1.f90 path/to/source2.f90 ...}} -o {{path/to/output_executable}}`
 
