@@ -3,19 +3,19 @@
 > Cambia el directorio de trabajo actual.
 > Más información: <https://manned.org/cd>.
 
-- Ir al directorio especificado:
+- Accede al directorio especificado:
 
-`cd {{ruta/al/directorio}}`.
+`cd {{ruta/al/directorio}}`
 
 - Subir al directorio padre respecto del directorio actual:
 
 `cd ..`
 
-- Ir al directorio raíz del usuario actual:
+- Accede al directorio raíz del usuario actual:
 
 `cd`
 
-- Ir al directorio personal del usuario especificado:
+- Accede al directorio personal del usuario especificado:
 
 `cd ~{{nombredeusuario}}`
 
