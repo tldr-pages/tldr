@@ -7,13 +7,9 @@
 
 `ssh-keygen`
 
-- Specify file in which to save the key:
+- Generate an ed25519 key with 100 key derivation function rounds and specify the file in which to save the key:
 
-`ssh-keygen -f {{~/.ssh/filename}}`
-
-- Generate an ed25519 key with 100 key derivation function rounds:
-
-`ssh-keygen -t {{ed25519}} -a {{100}}`
+`ssh-keygen -t {{ed25519}} -a {{100}} -f {{~/.ssh/filename}}`
 
 - Generate an RSA 4096-bit key with email as a comment:
 
@@ -37,4 +33,4 @@
 
 - Retrieve public key from secret key:
 
-`ssh-keygen -y -f {{OpenSSH_private_key}}`
+`ssh-keygen -y -f {{~/.ssh/OpenSSH_private_key}}`
