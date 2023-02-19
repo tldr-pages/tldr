@@ -9,7 +9,7 @@
 
 - Clone a drive to another drive with 4 MB block, ignore error and show the progress:
 
-`dd if={{/dev/source_device}} of={{/dev/dest_device}} bs={{4}}m conv={{noerror}} status=progress`
+`dd if={{/dev/source_device}} of={{/dev/dest_device}} bs={{4m}} conv={{noerror}} status=progress`
 
 - Generate a file of 100 random bytes by using kernel random driver:
 
