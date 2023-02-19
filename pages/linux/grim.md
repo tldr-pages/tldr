@@ -1,7 +1,7 @@
 # grim
 
-> Grab images (Screenshots) from a Wayland compositor
-> More information: https://github.com/emersion/grim
+> Grab images (Screenshots) from a Wayland compositor.
+> More information: https://github.com/emersion/grim.
 
 - Screenshoot all outputs:
 
@@ -15,7 +15,7 @@
 
 `grim -g "{{<x>,<y> <width>x<height>}}"`
 
-- Select a region and screenshoot it: (using slurp)
+- Select a region and screenshoot it, (using slurp):
 
 `grim -g "{{$(slurp)}}"`
 
