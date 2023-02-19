@@ -15,7 +15,7 @@
 
 `grim -g "{{<x>,<y> <width>x<height>}}"`
 
-Select a region and screenshoot it: (using slurp)
+- Select a region and screenshoot it: (using slurp)
 
 `grim -g "{{$(slurp)}}"`
 
