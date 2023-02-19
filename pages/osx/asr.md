@@ -10,7 +10,7 @@
 
 - Erase the target volume before restoring:
 
-`sudo asr restore --source {{image_filename.dmg}} --target {{path/to/volume_file}} --erase`
+`sudo asr restore --source {{image_file.dmg}} --target {{path/to/volume_file}} --erase`
 
 - Skip verification after restoring:
 
