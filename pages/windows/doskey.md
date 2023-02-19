@@ -29,4 +29,4 @@
 
 - Load macros from a file:
 
-`doskey /macrofile = {{path/to/macinit_file}}`
+`doskey /macrofile = {{path\to\macinit_file}}`
