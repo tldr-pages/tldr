@@ -6,7 +6,7 @@
 
 - Restore a disk image to a target volume:
 
-`sudo asr restore --source {{image_filename.dmg}} --target {{path/to/volume_file}}`
+`sudo asr restore --source {{image_file.dmg}} --target {{path/to/volume_file}}`
 
 - Erase the target volume before restoring:
 
