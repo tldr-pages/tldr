@@ -9,7 +9,7 @@
 
 - Display information about a specific property:
 
-`getprop {{prop}}`
+`getprop {{property}}`
 
 - Display the SDK API level:
 
