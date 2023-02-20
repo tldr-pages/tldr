@@ -27,6 +27,6 @@
 
 `module purge`
 
-- Specify additional search directory:
+- Specify user-created modules:
 
-`module use {{search_directory}}`
+`module use {{path/to/modulefiles}}`
