@@ -14,4 +14,4 @@
 
 - Display the last N commands:
 
-`Get-History -Count {{count}}`
+`Get-History -Count {{10}}`

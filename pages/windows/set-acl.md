@@ -6,8 +6,8 @@
 
 - Copy a security descriptor from one file to another:
 
-`$OriginAcl = Get-Acl -Path {{path/to/file}}; Set-Acl -Path {{path/to/file}} -AclObject $OriginAcl`
+`$OriginAcl = Get-Acl -Path {{path\to\file}}; Set-Acl -Path {{path\to\file}} -AclObject $OriginAcl`
 
 - Use the pipeline operator to pass a descriptor:
 
-`Get-Acl -Path {{path/to/file}} | Set-Acl -Path {{path/to/file}}`
+`Get-Acl -Path {{path\to\file}} | Set-Acl -Path {{path\to\file}}`

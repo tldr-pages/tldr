@@ -10,4 +10,4 @@
 
 - Pipe input to Measure-Command (objects that are piped to `Measure-Command` are available to the script block that is passed to the Expression parameter):
 
-`"One", "Two", "Three", "Four" | Set-Content -Path "{{path/to/file}}"; Get-Content "{{path/to/file}}"; | Measure-Object -Character -Line -Word`
+`"One", "Two", "Three", "Four" | Set-Content -Path "{{path\to\file}}"; Get-Content "{{path\to\file}}"; | Measure-Object -Character -Line -Word`

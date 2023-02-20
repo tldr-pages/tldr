@@ -6,4 +6,4 @@
 
 - Load a backup file into the specified key:
 
-`reg load {{key_name}} {{path/to/file}}`
+`reg load {{key_name}} {{path\to\file}}`

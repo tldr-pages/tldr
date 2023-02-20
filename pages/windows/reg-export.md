@@ -5,8 +5,8 @@
 
 - Export all sub keys and values of a specific key:
 
-`reg export {{key_name}} {{path/to/file.reg}}`
+`reg export {{key_name}} {{path\to\file.reg}}`
 
 - Force overwriting of an existing file without prompt:
 
-`reg export {{key_name}} {{path/to/file.reg}} /y`
+`reg export {{key_name}} {{path\to\file.reg}} /y`

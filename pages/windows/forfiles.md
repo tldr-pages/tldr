@@ -9,7 +9,7 @@
 
 - Search for files in a specific directory:
 
-`forfiles /p {{path/to/directory}}`
+`forfiles /p {{path\to\directory}}`
 
 - Run the specified command for each file:
 
@@ -25,4 +25,4 @@
 
 - Search for files older than 5 days:
 
-`forfiles /d {{+5}}`
+`forfiles /d +{{5}}`
