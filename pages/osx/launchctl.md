@@ -26,8 +26,8 @@
 
 - Manually run a known (loaded) agent/daemon, even if it is not the right time (note: this command uses the agent's label, rather than the filename):
 
-`launchctl start {{my_script}}`
+`launchctl start {{script_file}}`
 
 - Manually kill the process associated with a known agent/daemon, if it is running:
 
-`launchctl stop {{my_script}}`
+`launchctl stop {{script_file}}`
