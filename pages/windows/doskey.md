@@ -25,8 +25,8 @@
 
 - Save macros to a file for portability:
 
-`doskey /macros > {{macinit}}`
+`doskey /macros > {{path\to\macinit_file}}`
 
 - Load macros from a file:
 
-`doskey /macrofile = {{macinit}}`
+`doskey /macrofile = {{path\to\macinit_file}}`

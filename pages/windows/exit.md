@@ -13,4 +13,4 @@
 
 - Quit using a specific exit code:
 
-`exit {{exit_code}}`
+`exit {{2}}`

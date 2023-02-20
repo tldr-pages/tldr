@@ -6,7 +6,7 @@
 
 - Render markdown to console from a file:
 
-`Show-Markdown -Path {{path/to/file}}`
+`Show-Markdown -Path {{path\to\file}}`
 
 - Render markdown to console from string:
 
@@ -14,4 +14,4 @@
 
 - Open Markdown file in a browser:
 
-`Show-Markdown -Path {{path/to/file}} -UseBrowser`
+`Show-Markdown -Path {{path\to\file}} -UseBrowser`

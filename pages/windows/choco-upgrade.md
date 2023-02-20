@@ -5,7 +5,7 @@
 
 - Upgrade one or more space-separated packages:
 
-`choco upgrade {{package(s)}}`
+`choco upgrade {{package1 package2 ...}}`
 
 - Upgrade to a specific version of a package:
 
@@ -17,7 +17,7 @@
 
 - Upgrade all except specified comma-separated packages:
 
-`choco upgrade all --except "{{package(s)}}"`
+`choco upgrade all --except "{{package1 package2 ...}}"`
 
 - Confirm all prompts automatically:
 

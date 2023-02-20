@@ -14,4 +14,4 @@
 
 - Test if a string from stdin matches a specific schema file:
 
-`'{{string}}' | Test-Json -SchemaFile {{path/to/schema.json}}`
+`'{{string}}' | Test-Json -SchemaFile {{path\to\schema_file.json}}`
