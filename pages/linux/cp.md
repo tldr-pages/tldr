@@ -21,7 +21,7 @@
 
 - Copy multiple files at once to a directory:
 
-`cp -t {{path/to/destination_directory}} {{source_file_1}} {{source_file_2}} {{source_file_n}}`
+`cp -t {{path/to/destination_directory}} {{path/to/file1 path/to/file2 ...}}`
 
 - Copy text files to another location, in interactive mode (prompts user before overwriting):
 
