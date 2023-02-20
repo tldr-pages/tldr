@@ -21,4 +21,4 @@
 
 - Specify a new startup disk:
 
-`systemsetup -setstartupdisk {{path}}`
+`systemsetup -setstartupdisk {{path/to/directory}}`

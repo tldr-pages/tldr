@@ -5,7 +5,7 @@
 
 - Set a custom icon for a specific file or directory:
 
-`fileicon set {{path/to/file_or_directory}} {{path/to/icon.png}}`
+`fileicon set {{path/to/file_or_directory}} {{path/to/icon_file.png}}`
 
 - Remove a custom icon from a specific file or directory:
 
