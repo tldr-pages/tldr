@@ -11,7 +11,7 @@
 
 `expr substr "{{string}}" {{from}} {{length}}`
 
-- Match a specific substring agains an anchored pattern:
+- Match a specific substring against an anchored pattern:
 
 `expr match "{{string}}" '{{pattern}}'`
 
@@ -19,11 +19,11 @@
 
 `expr index "{{string}}" "{{chars}}"`
 
-- Calculate a specific mathematic expession:
+- Calculate a specific mathematic expression:
 
 `expr {{expression1}} {{+|-|*|/|%}} {{expression2}}`
 
-- Get the first expression if it's value non-zero and not null otherwise get the second one:
+- Get the first expression if its value is non-zero and not null otherwise get the second one:
 
 `expr {{expression1}} \| {{expression2}}`
 
