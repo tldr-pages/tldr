@@ -7,6 +7,6 @@
 
 `sudo a2disconf {{archivo_de_configuración}}`
 
-- No mostrar mensajes informativos:
+- No muestra mensajes informativos:
 
 `sudo a2disconf --quiet {{archivo_de_configuración}}`

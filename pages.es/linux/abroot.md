@@ -8,26 +8,26 @@
 
 `sudo abroot get {{present|future}}`
 
-- Ingrese el shell transaccional en la partición raíz futura y cambie la raíz en el próximo arranque:
+- Ingresa el shell transaccional en la partición raíz futura y cambia la raíz en el próximo arranque:
 
 `sudo abroot shell`
 
-- Ejecute un comando específico en el shell transaccional en la futura partición raíz y cambie a él en el siguiente arranque:
+- Ejecuta un comando específico en el shell transaccional en la futura partición raíz y cambia a él en el siguiente arranque:
 
 `sudo abroot exec "{{comando}}"`
 
-- Instale paquetes específicos en el host dentro del shell transaccional en la partición raíz futura y cambie a él en el próximo arranque:
+- Instala paquetes específicos en el host dentro del shell transaccional en la partición raíz futura y cambia a él en el próximo arranque:
 
 `sudo abroot exec apt install {{paquete1 paquete2 ...}}`
 
-- Actualice la partición de arranque (solo para usuarios avanzados):
+- Actualiza la partición de arranque (solo para usuarios avanzados):
 
 `sudo abroot _update-boot`
 
-- Mostrar ayuda:
+- Muestra la ayuda:
 
 `abroot --help`
 
-- Mostrar version:
+- Muestra la version:
 
 `abroot --version`
