@@ -23,6 +23,6 @@
 
 `adb logcat *:W`
 
-- Colorear el registro (normalmente se utiliza con filtros):
+- Colorea el registro (normalmente se utiliza con filtros):
 
 `adb logcat -v color`
