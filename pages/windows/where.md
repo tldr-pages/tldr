@@ -14,7 +14,7 @@
 
 - Recursively search for file pattern at specified path:
 
-`where /R {{path/to/directory}} {{file_pattern}}`
+`where /R {{path\to\directory}} {{file_pattern}}`
 
 - Silently return the error code for the location of the file pattern:
 

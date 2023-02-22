@@ -9,7 +9,7 @@
 
 - Show the contents of a given directory:
 
-`dir {{path/to/directory}}`
+`dir {{path\to\directory}}`
 
 - Show the contents of the current directory, including hidden ones:
 
@@ -17,4 +17,4 @@
 
 - Show the contents of a given directory, including hidden ones:
 
-`dir {{path/to/directory}} /A`
+`dir {{path\to\directory}} /A`

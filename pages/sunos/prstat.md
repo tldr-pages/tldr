@@ -21,4 +21,4 @@
 
 - Print out a list of top 5 CPU using processes every second:
 
-`prstat -c -n 5 -s cpu 1`
+`prstat -c -n {{5}} -s cpu {{1}}`

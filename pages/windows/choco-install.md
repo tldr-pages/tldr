@@ -5,15 +5,15 @@
 
 - Install one or more space-separated packages:
 
-`choco install {{package(s)}}`
+`choco install {{package1 package2 ...}}`
 
 - Install packages from a custom configuration file:
 
-`choco install {{path/to/packages.config}}`
+`choco install {{path\to\packages_file.config}}`
 
 - Install a specific nuspec or nupkg file:
 
-`choco install {{path/to/file}}`
+`choco install {{path\to\file}}`
 
 - Install a specific version of a package:
 

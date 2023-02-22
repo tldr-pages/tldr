@@ -10,7 +10,7 @@
 
 - Execute a specific script [f]ile and print the result to `stdout`:
 
-`{{command}} | sed -f {{path/to/script.sed}}`
+`{{command}} | sed -f {{path/to/script_file.sed}}`
 
 - Replace all `apple` (extended regex) occurrences with `APPLE` (extended regex) in all input lines and print the result to `stdout`:
 

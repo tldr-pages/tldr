@@ -22,4 +22,4 @@
 
 - List items in a directory other than the current one:
 
-`Get-ChildItem -Path {{path/to/directory}}`
+`Get-ChildItem -Path {{path\to\directory}}`

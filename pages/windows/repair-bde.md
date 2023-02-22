@@ -13,7 +13,7 @@
 
 - Attempt to repair a specified volume using the provided recovery key file:
 
-`repair-bde {{C:}} -RecoveryKey {{path/to/file.bek}}`
+`repair-bde {{C:}} -RecoveryKey {{path\to\file.bek}}`
 
 - Attempt to repair a specified volume using the provided numerical recovery password:
 
@@ -25,11 +25,11 @@
 
 - Attempt to repair a specified volume using the provided key package:
 
-`repair-bde {{C:}} -KeyPackage {{path/to/directory}}`
+`repair-bde {{C:}} -KeyPackage {{path\to\directory}}`
 
 - Log all output to a specific file:
 
-`repair-bde {{C:}} -LogFile {{path/to/file}}`
+`repair-bde {{C:}} -LogFile {{path\to\file}}`
 
 - Display all available options:
 
