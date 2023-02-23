@@ -13,7 +13,7 @@
 
 - Mount the specified DVD image file:
 
-`virtualboxvm --startvm {{name|uuid}} --dvd {{path/to/image_file}}`
+`virtualboxvm --startvm {{name|uuid}} --dvd {{path\to\image_file}}`
 
 - Display a command-line window with debug information:
 

@@ -9,7 +9,7 @@
 
 - Copy the contents of a file to the Windows clipboard:
 
-`clip < {{path/to/file.ext}}`
+`clip < {{path\to\file.ext}}`
 
 - Copy text with a trailing newline to the Windows clipboard:
 

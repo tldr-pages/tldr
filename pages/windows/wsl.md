@@ -21,11 +21,11 @@
 
 - Export a distribution to a `.tar` file:
 
-`wsl --export {{distribution}} {{path/to/distro_fs.tar}}`
+`wsl --export {{distribution}} {{path\to\distro_file.tar}}`
 
 - Import a distribution from a `.tar` file:
 
-`wsl --import {{distribution}} {{path/to/install_location}} {{path/to/distro_fs.tar}}`
+`wsl --import {{distribution}} {{path\to\install_location}} {{path/to/distro_file.tar}}`
 
 - Change the version of wsl used for the specified distribution:
 

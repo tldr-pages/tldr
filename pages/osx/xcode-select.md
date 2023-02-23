@@ -14,7 +14,7 @@
 
 - Select a given Xcode instance and use its developer directory as the active one:
 
-`xcode-select --switch {{path/to/Xcode.app}}`
+`xcode-select --switch {{path/to/Xcode_file.app}}`
 
 - Print the currently selected developer directory:
 

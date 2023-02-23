@@ -26,3 +26,7 @@
 - Unload all loaded modules:
 
 `module purge`
+
+- Specify user-created modules:
+
+`module use {{path/to/modulefiles}}`

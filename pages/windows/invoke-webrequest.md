@@ -6,7 +6,7 @@
 
 - Download the contents of a URL to a file:
 
-`Invoke-WebRequest {{http://example.com}} -OutFile {{filename}}`
+`Invoke-WebRequest {{http://example.com}} -OutFile {{path\to\file}}`
 
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`):
 

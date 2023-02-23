@@ -13,11 +13,11 @@
 
 - Iterate over a given list of files:
 
-`for %{{variable}} in ({{file_a.ext file_b.ext file_c.ext}}) do ({{echo Loop is executed}})`
+`for %{{variable}} in ({{path\to\file1.ext path\to\file2.ext ...}}) do ({{echo Loop is executed}})`
 
 - Iterate over a given list of directories:
 
-`for /d %{{variable}} in ({{directory_a/ directory_b/ directory_c/}}) do ({{echo Loop is executed}})`
+`for /d %{{variable}} in ({{path\to\directory1.ext path\to\directory2.ext ...}}) do ({{echo Loop is executed}})`
 
 - Perform a given command in every directory:
 

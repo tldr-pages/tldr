@@ -9,11 +9,11 @@
 
 - Set the path to one or more semicolon-separated directories:
 
-`path {{path/to/directory(s)}}`
+`path {{path\to\directory1 path\to\directory2 ...}}`
 
 - Append a new directory to the original path:
 
-`path {{path/to/directory}};%path%`
+`path {{path\to\directory}};%path%`
 
 - Set command prompt to only search the current directory for executables:
 

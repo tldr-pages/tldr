@@ -3,22 +3,30 @@
 > Evaluate expressions and manipulate strings.
 > More information: <https://www.gnu.org/software/coreutils/expr>.
 
-- Get string length:
+- Get the length of a specific string:
 
-`expr length {{string}}`
+`expr length "{{string}}"`
 
-- Evaluate logical or math expression with an operator ('+', '-', '*', '&', '|', etc.). Special symbols should be escaped:
+- Get the substring of a string with a specific length:
 
-`expr {{first_argument}} {{operator}} {{second_argument}}`
+`expr substr "{{string}}" {{from}} {{length}}`
 
-- Get position of the first character in 'string' that matches 'substring':
+- Match a specific substring against an anchored pattern:
 
-`echo $(expr index {{string}} {{substring}})`
+`expr match "{{string}}" '{{pattern}}'`
 
-- Extract part of the string:
+- Get the first char position from a specific set in a string:
 
-`echo $(expr substr {{string}} {{position_to_start}} {{number_of_characters}}`
+`expr index "{{string}}" "{{chars}}"`
 
-- Extract part of the string which matches a regular expression:
+- Calculate a specific mathematic expression:
 
-`echo $(expr {{string}} : '\({{regular_expression}}\)')`
+`expr {{expression1}} {{+|-|*|/|%}} {{expression2}}`
+
+- Get the first expression if its value is non-zero and not null otherwise get the second one:
+
+`expr {{expression1}} \| {{expression2}}`
+
+- Get the first expression if both expressions are non-zero and not null otherwise get zero:
+
+`expr {{expression1}} \& {{expression2}}`
