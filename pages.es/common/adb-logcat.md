@@ -23,7 +23,7 @@
 
 `adb logcat *:W`
 
-- Muestra los registros para un proceso específico:
+- Muestra los registros de un proceso específico:
 
 `adb logcat --pid={{pid}}`
 
