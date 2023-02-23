@@ -15,10 +15,10 @@
 
 `logcat --regex {{expresión_regular}}`
 
-- Muestra registros para un proceso específico:
+- Muestra registros de un proceso específico:
 
 `logcat --pid={{pid}}`
 
-- Muestra registros para el proceso de un paquete específico:
+- Muestra registros del proceso de un paquete específico:
 
 `logcat --pid=$(pidof -s {{paquete}})`
