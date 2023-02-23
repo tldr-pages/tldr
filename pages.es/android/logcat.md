@@ -11,6 +11,14 @@
 
 `logcat -f {{ruta/al/archivo}}`
 
-- Muestra líneas que coincidan con una expresión regular:
+- Muestra registros que coincidan con una expresión regular:
 
 `logcat --regex {{expresión_regular}}`
+
+- Muestra registros para un proceso específico:
+
+`logcat --pid={{pid}}`
+
+- Muestra registros para el proceso de un paquete específico:
+
+`logcat --pid=$(pidof -s {{paquete}})`
