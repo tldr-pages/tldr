@@ -1,8 +1,5 @@
-# This ensures that the line endings in any files added or modified are
-# normalized before being committed. On Windows they will automatically
-# be checked-out as CRLF, and re-converted to LF before check-in.
-# See https://git-scm.com/docs/gitattributes for more information.
-* text=auto
+# https://github.com/tldr-pages/tldr/issues/7097
+* text=auto eol=lf
 
 # GitHub linguist ignores markdown files by default, but tldr-pages
 # is mostly markdown, so we explicitly make the pages detectable
