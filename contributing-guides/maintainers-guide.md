@@ -25,7 +25,7 @@ as a guideline for current and future maintainers.
   You can respond yourself
   or ask other members to provide their thoughts/opinions.
   In addition, if possible, try to hang around in the
-  [Gitter chat room](https://gitter.im/tldr-pages/tldr)
+  [Matrix chat room](https://matrix.to/#/#tldr-pages:matrix.org)
   on a regular basis as well, or at least show up every now and then.
 
 - **Know when and how to say no**.

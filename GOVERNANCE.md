@@ -38,7 +38,7 @@ Community members are asked to abide by the following principles:
    e.g. when setting up services that require passwords,
    but otherwise all communications that impact the project
    will either happen in issue and PR discussions,
-   or in the [Gitter chat room](https://gitter.im/tldr-pages/tldr)
+   or in the [Matrix chat room](https://matrix.to/#/#tldr-pages:matrix.org)
    (which is open to all, and publicly logged).
 
 4. **All decisions are made by community consensus**.
