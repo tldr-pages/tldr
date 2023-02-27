@@ -7,7 +7,7 @@
 [![license][license-image]][license-url]
 
 [matrix-url]: https://matrix.to/#/#tldr-pages:matrix.org
-[matrix-image]: https://img.shields.io/badge/chat-on_matrix-deeppink
+[matrix-image]: https://img.shields.io/badge/chat-on_matrix-lightseagreen
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
 [prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs&color=green
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
