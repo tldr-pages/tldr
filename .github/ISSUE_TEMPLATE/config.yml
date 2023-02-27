@@ -3,6 +3,3 @@ contact_links:
   - name: Chatroom
     url: https://matrix.to/#/#tldr-pages:matrix.org
     about: You can ask and answer questions here
-  - name: Matrix Space
-    url: https://matrix.to/#/#tldr-pages-project:matrix.org
-    about: Matrix space of our chat rooms
