@@ -148,9 +148,9 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Romain Prieto ([@rprieto](https://github.com/rprieto))**:
   created the project on [8 December 2013](https://github.com/tldr-pages/tldr/commit/11264d9b19000734a2d35ecbdbdebc0b0b45aed9)
 - **Agniva De Sarker ([@agnivade](https://github.com/agnivade))**:
-  [27 September 2016](https://gitter.im/tldr-pages/tldr?at=57eaedefe4e41c6a4afc2f47) — present
+  [21 September 2016](https://github.com/tldr-pages/tldr/issues/9899) — present
 - **Starbeamrainbowlabs ([@sbrl](https://github.com/sbrl))**:
-  [23 April 2017](https://gitter.im/tldr-pages/tldr?at=58fc6fce3e27cac331b5c397) — present
+  [19 April 2017](https://github.com/tldr-pages/tldr/issues/9899) — present
 - **Owen Voke ([@owenvoke](https://github.com/owenvoke))**
   [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989) — present
 - **Marco Bonelli ([@mebeim](https://github.com/mebeim))**:
