@@ -10,7 +10,7 @@
 [github-actions-url]: https://github.com/tldr-pages/tldr/actions
 [github-actions-image]: https://img.shields.io/github/actions/workflow/status/tldr-pages/tldr/ci.yml?branch=main
 [matrix-url]: https://matrix.to/#/#tldr-pages:matrix.org
-[matrix-image]: https://img.shields.io/badge/chat-on_matrix-deeppink
+[matrix-image]: https://img.shields.io/matrix/tldr-pages:matrix.org
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
 [prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs&color=green
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
