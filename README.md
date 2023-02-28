@@ -8,15 +8,15 @@
 [![license][license-image]][license-url]
 
 [github-actions-url]: https://github.com/tldr-pages/tldr/actions
-[github-actions-image]: https://img.shields.io/github/actions/workflow/status/tldr-pages/tldr/ci.yml?branch=main
+[github-actions-image]: https://img.shields.io/github/actions/workflow/status/tldr-pages/tldr/ci.yml?branch=main&label=Build
 [matrix-url]: https://matrix.to/#/#tldr-pages:matrix.org
-[matrix-image]: https://img.shields.io/matrix/tldr-pages:matrix.org
+[matrix-image]: https://img.shields.io/matrix/tldr-pages:matrix.org?label=Chat+on+Matrix
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
-[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs&color=green
+[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=Merged+PRs&color=green
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
-[contributors-image]: https://img.shields.io/github/contributors-anon/tldr-pages/tldr.svg
+[contributors-image]: https://img.shields.io/github/contributors-anon/tldr-pages/tldr.svg?label=Contributors
 [license-url]: https://github.com/tldr-pages/tldr/blob/main/LICENSE.md
-[license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg
+[license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg?label=License
 </div>
 
 ## What is tldr-pages?
