@@ -1,9 +1,9 @@
 # whisper
 
 > CLI tool to convert audio files to txt,vtt,srt,tsv,json.
-> Created By OpenAI. Read more:- https://github.com/openai/whisper
+> Created By OpenAI. Read more:- https://github.com/openai/whisper .
 
-- Convert audio file named audio.mp3 to all of the given file formats:
+- Convert audio file named audio.mp3 to all of the given file formats.:
 
 `whisper audio.mp3`
 
