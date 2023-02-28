@@ -108,10 +108,8 @@ to see the overall progress of all translations, and which translations are miss
 
 ## Similar projects
 
-- [Better TlDr](https://github.com/emilyseville7cfg-better-tldr)
-  allows you to write similar pages as TlDr but in a standardized way
-  and with rich IDE-like facilities like syntax highlighting, refactorings and
-  linting.
+- [Command Line Interface Pages](https://github.com/command-line-interface-pages)
+  allows you to write standardized help pages for command CLI, directories and configs.
 
 - [Cheat](https://github.com/cheat/cheat)
   allows you to create and view interactive cheatsheets on the command-line.
