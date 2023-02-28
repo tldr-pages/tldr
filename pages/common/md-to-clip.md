@@ -2,7 +2,7 @@
 
 > Converter from tldr-pages to Command Line Interface Pages.
 > See also: `clip-view`.
-> More information: <https://github.com/command-line-interface-pages/prototypes/tree/main/md-to-clip>.
+> More information: <https://github.com/command-line-interface-pages/v2-tooling/tree/main/md-to-clip>.
 
 - Convert tldr-pages files and save into the same directories:
 
