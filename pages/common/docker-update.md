@@ -8,7 +8,7 @@
 
 `docker update --restart={{always|no|on-failure|unless-stopped}} {{container_name}}`
 
-- Update the policy to restart up to three times a specific container when it exits with a non-zero exit status:
+- Update the policy to restart up to three times a specific container when it exits with non-zero exit status:
 
 `docker update --restart=on-failure:3 {{container_name}}`
 
@@ -20,7 +20,7 @@
 
 `docker update --memory {{limit}}M {{container_name}}`
 
-- Update maximum number of process IDs allowed inside a specific container (use `-1` for unlimited):
+- Update the maximum number of process IDs allowed inside a specific container (use `-1` for unlimited):
 
 `docker update --pids-limit {{count}} {{container_name}}`
 
