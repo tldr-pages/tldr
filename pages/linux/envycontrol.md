@@ -1,30 +1,28 @@
-# Envycontrol
+# envycontrol
 
 > GPU switching utility for Nvidia Optimus laptops.
 > More information: <https://github.com/bayasdev/envycontrol>.
 
-- Display help: 
+- Switch between different GPU modes:
 
-`envycontrol --help`
-
-- Display version:
-
-`envycontrol --version`
+`sudo envycontrol -s {{nvidia|integrated|hybrid}}`
 
 - Specify your display manager manually:
 
 `envycontrol --dm`
 
+- Check Current GPU mode:
+
+`sudo envycontrol --query`
+
 - Reset settings:
 
 `sudo envycontrol --reset`
 
-> Switch Graphic Mode:
+- Display version:
 
-- Check Current Graphic Mode
+`envycontrol --version`
 
-`sudo envycontrol --query`
+- Display help: 
 
-- Switch between different GPU modes:
-
-`sudo envycontrol -s {{nvidia|integrated|hybrid}}`
+`envycontrol --help`
