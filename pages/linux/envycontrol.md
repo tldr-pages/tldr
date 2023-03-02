@@ -14,7 +14,8 @@
 
 `envycontrol --dm`
 
-- Reset
+- Reset settings:
+
 `sudo envycontrol --reset`
 
 > Switch Graphic Mode:
