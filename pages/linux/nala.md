@@ -1,4 +1,3 @@
-
 # nala
 
 > Package management utility for Debian and Ubuntu.
