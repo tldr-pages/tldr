@@ -1,8 +1,10 @@
-# envycontrol
+# Envycontrol
 
 > GPU switching utility for Nvidia Optimus laptops.
 > More information: <https://github.com/bayasdev/envycontrol>.
+
 - Display help: 
+
 `envycontrol --help`
 
 - Display version:
@@ -14,7 +16,6 @@
 `envycontrol --dm`
 
 - Reset settings:
-
 
 `sudo envycontrol --reset`
 
