@@ -25,14 +25,6 @@
 
 `sudo envycontrol --query`
 
-- Switch to NVIDIA Graphic:
-
-`sudo envycontrol -s nvidia`
-
-- Switch to Integrated Graphic
-
-`sudo envycontrol -s integrated`
-
-- Switch to hybrid Graphic
+- Switch between different GPU modes:
 
 `sudo envycontrol -s {{nvidia|integrated|hybrid}}`
