@@ -10,7 +10,7 @@
 
 `envycontrol --version`
 
-- Display Manager
+- Specify your display manager manually:
 
 `envycontrol --dm`
 
