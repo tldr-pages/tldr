@@ -11,7 +11,7 @@
 
 `envycontrol --dm`
 
-- Check Current GPU mode:
+- Check current GPU mode:
 
 `sudo envycontrol --query`
 
