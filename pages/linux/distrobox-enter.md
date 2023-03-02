@@ -1,14 +1,14 @@
 # distrobox-enter
 
-> Enter a distrobox container. More about distrobox: `tldr distrobox`.
+> Enter a distrobox container. See also: `tldr distrobox`.
 > Default command executed is your SHELL, but you can specify different shells or entire commands to execute. If used inside a script, an application, or a service, you can specify the --headless mode to disable tty and interactivity.
-> More information: <https://github.com/89luca89/distrobox/blob/main/docs/usage/distrobox-enter.md>.
+> More information: <https://distrobox.privatedns.org/usage/distrobox-enter.html>.
 
-- Enter a distrobox:
+- Enter a distrobox container:
 
 `distrobox-enter {{container-name}}`
 
-- Enter a distrobox and run `sh -l`:
+- Enter a distrobox container and run `sh -l`:
 
 `distrobox-enter container-name -- sh -l`
 
