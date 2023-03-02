@@ -5,7 +5,7 @@
 > More information: https://github.com/bayasdev/envycontrol
 
 - Display help: 
-`envycontrol -h`
+`envycontrol --help`
 
 - Version
 
