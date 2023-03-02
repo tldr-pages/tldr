@@ -29,7 +29,7 @@
 
 `nala autoclean`
 
-- Remove all packages that are no longer needed:
+- Remove all unused packages and dependencies:
 
 `nala autoremove`
 
