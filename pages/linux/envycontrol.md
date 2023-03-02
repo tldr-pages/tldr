@@ -23,6 +23,6 @@
 
 `envycontrol --version`
 
-- Display help: 
+- Display help:
 
 `envycontrol --help`
