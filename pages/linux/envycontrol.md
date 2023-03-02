@@ -33,4 +33,4 @@
 
 - Switch to hybrid Graphic
 
-`sudo envycontrol -s hybrid`
+`sudo envycontrol -s {{nvidia|integrated|hybrid}}`
