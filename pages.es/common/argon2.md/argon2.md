@@ -5,11 +5,11 @@
 
 - Calcula un hash con una contraseña y una somesalt con los parámetros por defecto:
 
-`echo " {{contraseña}} | argon2 "{{texto_salt}}"`
+`echo "{{contraseña}} | argon2 "{{texto_salt}}"`
 
 - Calcula un hash con el algoritmo especificado:
 
-`echo "{{contraseña}}" | argon2 "{{texto_sal}}" -{{d|i|id}}``
+`echo "{{contraseña}}" | argon2 "{{texto_sal}}" -{{d|i|id}}`
 
 - Muestra el hash de salida sin información adicional:
 
