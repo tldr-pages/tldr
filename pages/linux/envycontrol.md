@@ -2,7 +2,6 @@
 
 > GPU switching utility for Nvidia Optimus laptops.
 > More information: <https://github.com/bayasdev/envycontrol>.
-
 - Display help: 
 `envycontrol --help`
 
