@@ -3,7 +3,7 @@
 
 > Package management utility for Debian and Ubuntu.
 > Search for packages using `nala search`.
-> More information: <https://gitlab.com/volian/nala>
+> More information: <https://gitlab.com/volian/nala>.
 
 - Update System:
 
