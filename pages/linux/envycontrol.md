@@ -7,7 +7,7 @@
 - Display help: 
 `envycontrol --help`
 
-- Version
+- Display version:
 
 `envycontrol -v`
 
