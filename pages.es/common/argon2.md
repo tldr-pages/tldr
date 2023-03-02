@@ -3,7 +3,7 @@
 > Calcula hashes criptográficos Argon2.
 > Más información: <https://github.com/P-H-C/phc-winner-argon2#command-line-utility>.
 
-- Calcula un hash con una contraseña y una somesalt con los parámetros por defecto:
+- Calcula un hash con una contraseña y un salt con los parámetros por defecto:
 
 `echo "{{contraseña}} | argon2 "{{texto_salt}}"`
 
@@ -15,6 +15,6 @@
 
 `echo "{{contraseña}}" | argon2 "{{texto_sal}}" -e`
 
-- Calcula un hash con [t]imes de iteración, uso de [m]emoria y parámetros de [p]aralelismo dados:
+- Calcula un hash con una cantidad de i[t]eraciones dada, uso de [m]emoria y parámetros de [p]aralelismo dados:
 
 `echo "{{contraseña}}" | argon2 "{{texto_sal}}" -t {{5}} -m {{20}} -p {{7}}`
