@@ -1,7 +1,6 @@
 # envycontrol
 
 > GPU switching utility for Nvidia Optimus laptops.
-> Search for package using 'envycontrol'
 > More information: https://github.com/bayasdev/envycontrol
 
 - Display help: 
