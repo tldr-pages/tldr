@@ -41,7 +41,7 @@
 
 `nala fetch`
 
-- History
+- Print history of all transactions:
 
 `nala history`
 
