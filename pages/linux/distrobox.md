@@ -1,7 +1,7 @@
 # distrobox
 
-> Use any Linux distribution inside your terminal by running it as a container. Install & use packages inside it while tightly integrating with host OS, sharing storage, HOME directory with GUI & audio capabilities.
-> You can install any software inside it. Eg: installing a `.deb` package inside an ubuntu container running on an Arch Linux host system. Packages inside container can access host's files.
+> Use any Linux distribution inside your terminal by running it as a container. Install & use packages inside it while tightly integrating with the host OS, sharing storage, and `home` directory with GUI & audio capabilities.
+> You can install any software inside it. Eg: installing a `.deb` package inside an ubuntu container running on an Arch Linux host system. Packages inside the container can access the host's files.
 > More information: <https://github.com/89luca89/distrobox>.
 
 - Show tldr page for distrobox-create (creating containers):
@@ -16,7 +16,7 @@
 
 `tldr distrobox-enter`
 
-- Show tldr page for distrobox-host-exec (Execute command on host while inside a container):
+- Show tldr page for distrobox-host-exec (Execute command on the host while inside a container):
 
 `tldr distrobox-host-exec`
 

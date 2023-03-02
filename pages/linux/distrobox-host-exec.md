@@ -1,13 +1,13 @@
 # distrobox-host-exec
 
 > Execute a command on host while inside a distrobox container.
-> Subcommand of `distrobox`. More about distrobox: `tldr distrobox`.
-> More information: <https://github.com/89luca89/distrobox/blob/main/docs/usage/distrobox-host-exec.md>.
+> Subcommand of `distrobox`. See also: `tldr distrobox`.
+> More information: <https://distrobox.privatedns.org/usage/distrobox-host-exec.html>.
 
-- Execute command on the host system, while inside of a container:
+- Execute command on the host system from inside the container:
 
 `distrobox-host-exec "{{command}}"`
 
-- Execute `ls` command on the host system, while inside of a container:
+- Execute the `ls` command on the host system from inside the container:
 
 `distrobox-host-exec ls`
