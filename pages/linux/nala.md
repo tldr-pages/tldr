@@ -37,7 +37,7 @@
 
 `nala dist-upgrade`
 
-- Nala will then go get all the mirrors from the respective master list. Once done we test the latency and score each mirror. Nala will choose the fastest 3 mirrors (configurable) and write them to a file.
+- Fetch mirrors from the master list for your distribution (Nala will choose the fastest 3 configurable mirrors by testing latency and write them to a file):
 
 `nala fetch`
 
