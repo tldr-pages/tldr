@@ -1,8 +1,9 @@
-# Nalaa
+# Nala
 
-> Package management utility for Debian and Ubuntu.
+> Package management Utility for Debian and Ubuntu.
 > Search for packages using `nala search`.
-> More information: <https://gitlab.com/volian/nala>.
+> More information: 
+<https://gitlab.com/volian/nala>.
 
 - Update System:
 
@@ -28,7 +29,7 @@
 
 `nala autoclean`
 
-- Remove all unused packages and dependencies:
+- Remove all unused packages and dependencies from your Distribution:
 
 `nala autoremove`
 
