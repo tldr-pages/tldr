@@ -1,28 +1,16 @@
 # cut
 
-> Recorta campos provenientes de la entrada estándar o de archivos.
+> Corta campos de `stdin` o archivos.
 > Más información: <https://www.gnu.org/software/coreutils/cut>.
 
-- Recorta los primeros 16 caracteres de cada línea de la entrada estándar:
+- Imprime un rango específico de caracteres/campos de cada línea:
 
-`cut -c {{1-16}}`
+`{{command}} | cut --{{characters|field}}={{1|1,10|1-10|1-|-10}}`
 
-- Recorta los primeros 16 caracteres de cada línea de los archivos especificados:
+- Imprime un rango de cada línea con un delimitador específico:
 
-`cut -c {{1-16}} {{archivo}}`
+`{{command}} | cut --delimiter="{{,}}" --{{campos}}={1}}`
 
-- Recorta todo desde el tercer caracter hasta el final de cada línea:
+- Imprime un rango de cada línea de un archivo específico:
 
-`cut -c {{3-}}`
-
-- Recorta el quinto campo de cada línea, usando los dos puntos como delimitadores de campos (por defecto el delimitador es tab):
-
-`cut -d'{{:}}' -f{{5}}`
-
-- Recorta el segundo y décimo campo de cada línea, usando los punto y coma como delimitadores:
-
-`cut -d'{{;}}' -f{{2,10}}`
-
-- Recorta los campos del tercero al último de cada línea, usando los espacios como delimintadores:
-
-`cut -d'{{ }}' -f{{3-}}`
+`cut --{{caracteres}}={{1}} {{ruta/al/archivo}}`
