@@ -8,7 +8,7 @@
 
 - Display version:
 
-`envycontrol -v`
+`envycontrol --version`
 
 - Display Manager
 
