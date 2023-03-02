@@ -13,9 +13,17 @@
 
 `nala install {{package}}`
 
+- Example: Install the latest version of the package `vim`:
+
+`sudo nala install vim`
+
 - Remove a package:
 
-`nala remove {{package}}`
+`sudo nala remove {{package}}`
+ 
+- Example: Remove the package `vim`:
+
+`nala remove vim` 
 
 - Remove a package and its configuration files:
 
