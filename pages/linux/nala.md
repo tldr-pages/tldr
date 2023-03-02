@@ -33,7 +33,7 @@
 
 `nala autoremove`
 
-- Upgrade installed packages (like `upgrade`), but remove obsolete packages and install additional packages to meet new dependencies:
+- Upgrade installed packages, remove obsolete packages and install additional packages to meet new dependencies:
 
 `nala dist-upgrade`
 
