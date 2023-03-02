@@ -1,4 +1,4 @@
-# nala
+# Nalaa
 
 > Package management utility for Debian and Ubuntu.
 > Search for packages using `nala search`.
