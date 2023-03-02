@@ -4,7 +4,7 @@
 > Search for package using 'envycontrol'
 > More information: https://github.com/bayasdev/envycontrol
 
-- Help 
+- Display help: 
 `envycontrol -h`
 
 - Version
