@@ -13,7 +13,7 @@
 
 - Provide a custom [u]nit name and pass extra parameters:
 
-`systemd-run -u {{unit_name}} -- {{executable}} {{extra parameters ...}}`
+`systemd-run -u {{unit_name}} -- {{executable}} {{argument1 argument2 ...}}`
 
 - Share the [t]erminal with the program (allowing interactive input/output) and make sure the execution details [r]emain after the program exits:
 
