@@ -1,6 +1,6 @@
-# rgpt 
+# rgpt
 
-> An automated code review tool that uses GPT3 you can use straight from your terminal
+> An automated code review tool that uses GPT3 you can use straight from your terminal.
 > More information: <https://github.com/vibovenkat123/review-gpt>.
 
 - Ask GPT3 to improve the code with no extra options:
@@ -19,11 +19,10 @@
 
 `rgpt --pres {{1.2}} --i "$(git diff {{path/to/file}})"`
 
-- Ask GPT3 to review your code using a specific model
+- Ask GPT3 to review your code using a specific model:
 
 `rgpt --model {{text-davinci-003}} --i "$(git diff {{path/to/file}})"`
 
-- Make rgpt use a json output
+- Make rgpt use a json output:
 
 `rgpt --json --i "$(git diff {{path/to/file}})"`
-
