@@ -19,10 +19,10 @@
 
 `systemd-run -rt {{executable}}`
 
-- Limit the CPU and memory utilization of the process, set other [p]roperties and wait until it exits:
+- Set [p]roperties (e.g. CPUQuota, MemoryMax) of the process and wait until it exits:
 
-`systemd-run -p MemoryMax={{memory_in_bytes}} -p CPUQuota={{percentage_of_CPU_time}}% -p {{other_property=value}} --wait {{executable}}`
+`systemd-run -p MemoryMax={{memory_in_bytes}} -p CPUQuota={{percentage_of_CPU_time}}% --wait {{executable}}`
 
 - Use the program in a shell [P]ipeline:
 
-`{{other_executable}} | systemd-run -P {{executable}} | {{other_executable}}`
+`{{executable1}} | systemd-run -P {{executable2}} | {{executable3}}`
