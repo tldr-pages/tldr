@@ -3,10 +3,10 @@
 > Set the default boot entry for GRUB, for the next boot only.
 > More information: <https://manned.org/grub-reboot>.
 
-- Set the boot entry to a entry number, name or identifier:
+- Set the default boot entry to an entry number, name or identifier for the next boot:
 
-`sudo grub-reboot {{menu_entry}}`
+`sudo grub-reboot {{entry_number}}`
 
-- Set the boot entry to a entry number, name or identifier for alternative boot directory:
+- Set the default boot entry to an entry number, name or identifier for an alternative boot directory for the next boot:
 
-`sudo grub-reboot --boot-directory {{/path/to/directory}} {{menu_entry}}`
+`sudo grub-reboot --boot-directory {{/path/to/boot_directory}} {{entry_number}}`
