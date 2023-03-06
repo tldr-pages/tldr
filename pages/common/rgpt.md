@@ -23,6 +23,6 @@
 
 `rgpt --model {{text-davinci-003}} --i "$(git diff {{path/to/file}})"`
 
-- Make rgpt use a json output:
+- Make `rgpt` use a JSON output:
 
 `rgpt --json --i "$(git diff {{path/to/file}})"`
