@@ -7,7 +7,7 @@
 
 `rgpt --i "$(git diff {{path/to/file}})"`
 
-- Get a more detailed verbose output from rgpt while reviewing the code:
+- Get a more detailed verbose output from `rgpt` while reviewing the code:
 
 `rgpt --v --i "$(git diff {{path/to/file}})"`
 
