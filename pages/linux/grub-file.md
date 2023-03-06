@@ -1,7 +1,7 @@
 # grub-file
 
 > Check if a file is of a specific bootable image type.
-> More information: <https://manned.org/grub-file.1>.
+> More information: <https://manned.org/grub-file>.
 
 - Check if a file is an ARM EFI image:
 
@@ -15,11 +15,11 @@
 
 `grub-file --is-x86_64-efi {{path/to/file}}`
 
-- Check if a file is an ARM image (linux kernel):
+- Check if a file is an ARM image (Linux kernel):
 
 `grub-file --is-arm-linux {{path/to/file}}`
 
-- Check if a file is an x86 image (linux kernel):
+- Check if a file is an x86 image (Linux kernel):
 
 `grub-file --is-x86-linux {{path/to/file}}`
 
