@@ -7,7 +7,7 @@
 
 `ssh-keygen`
 
-- Generate an ed25519 key with 100 key derivation function rounds and specify the file in which to save the key:
+- Generate an ed25519 key with 100 key derivation function rounds and save the key to a specific file:
 
 `ssh-keygen -t {{ed25519}} -a {{100}} -f {{~/.ssh/filename}}`
 
