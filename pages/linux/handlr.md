@@ -3,7 +3,7 @@
 > Manage your default applications.
 > More information: <https://github.com/chmln/handlr>.
 
-- Open a URL in the default application:
+- Open an URL in the default application:
 
 `handlr open {{https://example.com}}`
 
@@ -11,22 +11,18 @@
 
 `handlr open {{path/to/pdf}}`
 
-- Set imv as the default handler for PNG images:
+- Set imv as the default application for PNG files:
 
 `handlr set {{.png}} {{imv.desktop}}`
 
-- Set NeoVim as a wildcard handler for all text files:
+- Set MPV as the default application for all audio files:
 
-`handlr set {{'text/*'}} {{nvim.desktop}}`
-
-- Set the default handler based on mime-type:
-
-`handlr set {{application/pdf}} {{evince.desktop}}`
+`handlr set {{'audio/*'}} {{mpv.desktop}}`
 
 - List all default apps:
 
 `handlr list`
 
-- Get the default handler for PNG images:
+- Print the default application for PNG files:
 
 `handlr get {{.png}}`
