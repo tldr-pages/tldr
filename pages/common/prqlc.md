@@ -6,7 +6,7 @@
 
 - Run the compiler interactively:
 
-`prql compile`
+`prqlc compile`
 
 - Compile a .prql file standard output:
 
