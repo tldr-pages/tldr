@@ -1,9 +1,9 @@
 # rgpt
 
-> An automated code review tool that uses GPT3 you can use straight from your terminal.
+> An automated code review tool that uses GPT you can use straight from your terminal.
 > More information: <https://github.com/vibovenkat123/review-gpt>.
 
-- Ask GPT3 to improve the code with no extra options:
+- Ask GPT to improve the code with no extra options:
 
 `rgpt --i "$(git diff {{path/to/file}})"`
 
@@ -11,15 +11,15 @@
 
 `rgpt --v --i "$(git diff {{path/to/file}})"`
 
-- Ask GPT3 to improve the code and limit it to a certain amount of GPT3 tokens:
+- Ask GPT to improve the code and limit it to a certain amount of GPT3 tokens:
 
 `rgpt --max {{300}} --i "$(git diff {{path/to/file}})"`
 
-- Ask GPT3 for a more unique result using a float value between 0 and 2. (higher = more unique):
+- Ask GPT for a more unique result using a float value between 0 and 2. (higher = more unique):
 
 `rgpt --pres {{1.2}} --i "$(git diff {{path/to/file}})"`
 
-- Ask GPT3 to review your code using a specific model:
+- Ask GPT to review your code using a specific model:
 
 `rgpt --model {{text-davinci-003}} --i "$(git diff {{path/to/file}})"`
 
