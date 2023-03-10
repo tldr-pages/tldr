@@ -1,14 +1,14 @@
 # rg
 
 > Ripgrep, yinelemeli satır-odaklı bir CLI arama aracıdır.
-> `grep` 'e daha hızlı bir alternatif olmayı hedefler. 
+> Grep'e daha hızlı bir alternatif olmayı hedefler. 
 > Daha fazla bilgi: <https://github.com/BurntSushi/ripgrep>.
 
 - Normal bir ifade için geçerli dizini yinelemeli olarak arayın:
 
 `rg {{normal_ifade}}`
 
-- Geçerli dizinde, gizli dosyalar ve ".gitignore" 'da listelenen dosyalar dahil olmak üzere normal ifadeleri yinelemeli olarak arayın: 
+- Geçerli dizinde, gizli dosyalar ve ".gitignore" da listelenen dosyalar dahil olmak üzere normal ifadeleri yinelemeli olarak arayın: 
 
 `rg --no-ignore --hidden {{normal_ifade}}`
 
