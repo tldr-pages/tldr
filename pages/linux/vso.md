@@ -7,7 +7,7 @@
 
 `sudo vso trigger-update --now`
 
-- Check for an update:
+- Check for package updates and list them:
 
 `sudo vso update-check`
 
