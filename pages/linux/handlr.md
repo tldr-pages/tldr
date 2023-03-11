@@ -3,13 +3,13 @@
 > Manage your default applications.
 > More information: <https://github.com/chmln/handlr>.
 
-- Open an URL in the default application:
+- Open a URL in the default application:
 
 `handlr open {{https://example.com}}`
 
 - Open a PDF in the default PDF viewer:
 
-`handlr open {{path/to/pdf}}`
+`handlr open {{path/to/file.pdf}}`
 
 - Set imv as the default application for PNG files:
 
