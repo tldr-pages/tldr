@@ -1,16 +1,20 @@
 # apx
 
-> Package management utility for Vanilla OS.
-> Install packages inside managed containers from multiple sources (`apx` supports --aur,--dnf flags in all commands).
+> Package management utility.
+> Install packages inside managed containers from multiple sources (`apx` supports --aur,--dnf, --apk flags in all commands).
 > More information: <https://github.com/Vanilla-OS/apx>.
 
-- Initialize the container:
+- Initialize or reinitialize a specific container:
 
 `apx init`
 
 - Install specific packages in the container:
 
 `apx install {{package1 package2 ...}}`
+
+- Install a DEB/RPM package inside the container (Use `--dnf` flag for installing RPMs):
+
+`apx install --sideload {{path/to/package}}`
 
 - Remove specific packages from the container:
 
