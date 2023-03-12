@@ -1,4 +1,3 @@
-
 # xcopy
 
 > Copia di file e directory.
