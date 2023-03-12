@@ -31,6 +31,6 @@
 
 `xcopy {{percorso/del/file_o_directory}} {{percorso/della/destinazione}} /y`
 
-- Mostra l'aiuto dettagliato:
+- Mostra l'aiuto dettagliato per l'utilizzo:
 
 `xcopy /?`
