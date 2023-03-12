@@ -1,7 +1,7 @@
 # xcopy
 
 > Copia di file e directory.
-> Ulteriori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>.
+> Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>.
 
 - Copia il/i file nella destinazione specificata:
 
