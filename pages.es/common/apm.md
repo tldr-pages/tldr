@@ -6,12 +6,12 @@
 
 - Instala un paquete de http://atom.io/packages o un tema de http://atom.io/themes:
 
-`apm install {{nombre_paquete}}`
+`apm install {{nombre_de_paquete}}`
 
 - Elimina un paquete/tema:
 
-`apm remove {{nombre_paquete}}`
+`apm remove {{nombre_de_paquete}}`
 
 - Actualiza un paquete/tema:
 
-`apm upgrade {{nombre_paquete}}`
+`apm upgrade {{nombre_de_paquete}}`
