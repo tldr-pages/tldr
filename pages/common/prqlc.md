@@ -12,7 +12,7 @@
 
 `prqlc compile {{path/to/file.prql}}`
 
-- Compile a .prql file to a .sql file:
+- Compile a `.prql` file to a `.sql` file:
 
 `prqlc compile {{path/to/source.prql}} {{path/to/target.sql}}`
 
