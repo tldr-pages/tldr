@@ -2,7 +2,7 @@
 
 > Ripgrep, yinelemeli satır-odaklı bir CLI arama aracıdır.
 > Grep'e daha hızlı bir alternatif olmayı hedefler.
-> Daha fazla bilgi: <https://github.com/BurntSushi/ripgrep>.
+> Daha fazla bilgi için: <https://github.com/BurntSushi/ripgrep>.
 
 - Normal bir ifade için geçerli dizini yinelemeli olarak arayın:
 
