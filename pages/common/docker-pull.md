@@ -15,9 +15,9 @@
 
 `docker pull --all-tags {{image}}`
 
-- Download a Docker images for a specific platform:
+- Download a Docker images for a specific platform, e.g. linux/amd64:
 
-`docker pull --platform {{platform_name}} {{image}}:{{tag}}`
+`docker pull --platform {{linux/amd64}} {{image}}:{{tag}}`
 
 - Display help:
 
