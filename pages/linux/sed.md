@@ -20,6 +20,6 @@
 
 `{{command}} | sed -n '1p'`
 
-- Replace all `apple` (basic regex) occurrences with `mango` (basic regex) in all input lines and save modifications to a specific file:
+- Replace all `apple` (basic regex) occurrences with `mango` (basic regex) in a specific file and overwrite the original file in place:
 
 `sed -i 's/apple/mango/g' {{path/to/file}}`
