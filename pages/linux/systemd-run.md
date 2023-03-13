@@ -21,4 +21,4 @@
 
 - Start a transient timer that periodically runs its transient service (see `man systemd.time` for calendar event format):
 
-`sudo systemd-run --on-calendar={{calender event}} {{command}} {{[args...]}}`
+`sudo systemd-run --on-calendar={{calendar event}} {{command}} {{[args...]}}`
