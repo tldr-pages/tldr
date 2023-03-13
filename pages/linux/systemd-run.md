@@ -15,9 +15,9 @@
 
 `sudo systemd-run --unit={{name}} --description={{desc}} {{command}} {{[args...]}}`
 
-- Start a transient service with a custom environment variable that does not get cleaned up after it terminates:
+- Start a transient service that does not get cleaned up after it terminates with a custom environment variable:
 
-`sudo systemd-run --set-env={{name}}={{val}} --remain-after-exit {{command}} {{[args...]}}`
+`sudo systemd-run --remain-after-exit --set-env={{name}}={{val}} {{command}} {{[args...]}}`
 
 - Start a transient timer that periodically runs its transient service (see `man systemd.time` for calendar event format):
 
