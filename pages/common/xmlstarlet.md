@@ -9,7 +9,7 @@
 
 - XML document can also be piped from stdin:
 
-`{{cat path/to/file.json}} | xmlstarlet format`
+`{{cat path/to/file.xml}} | xmlstarlet format`
 
 - Print all nodes that match a given XPATH:
 
