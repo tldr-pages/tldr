@@ -14,7 +14,7 @@
 
 - Add build validation on a specific repository, using an existing build pipeline, to be triggered automatically on source update:
 
-`az repos policy build create --repository-id {{repository_id}} --build-definition-id {{build_pipeline_id}} --branch main --blocking --enabled --queue-on-source-update-only true --manual-queue-only false --display-name {{policy_name}} --valid-duration {{duration_in_minutes}}`
+`az repos policy build create --repository-id {{repository_id}} --build-definition-id {{build_pipeline_id}} --branch main --blocking --enabled --queue-on-source-update-only true --display-name {{name}} --valid-duration {{minutes}}`
 
 - List all active Pull Requests on a specific repository within a specific project:
 
