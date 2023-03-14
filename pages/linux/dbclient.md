@@ -13,7 +13,7 @@
 
 - Connect to a remote host using a specific [i]dentity key in dropbear format:
 
-`dbclient -i {{path/to/key}} {{user}}@{{host}}`
+`dbclient -i {{path/to/key_file}} {{user}}@{{host}}`
 
 - Run a command on the remote host with a [t]ty allocation allowing interaction with the remote command:
 
