@@ -17,4 +17,4 @@
 
 - [u]pdate the local cache of tldr pages:
 
-`tldr -u`
+`tldr --update`
