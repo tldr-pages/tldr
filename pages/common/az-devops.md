@@ -6,7 +6,7 @@
 
 - Set the Personal Access Token (PAT) to login to a particular organization:
 
-`az devops login --organization {{organization_URL}}`
+`az devops login --organization {{organization_url}}`
 
 - Open a project in the browser:
 
