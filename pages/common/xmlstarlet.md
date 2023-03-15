@@ -29,4 +29,4 @@
 
 - List a given directory as XML (omit argument to list current directory):
 
-`xmlstarlet ls {{[path/to/directory]}}`
+`xmlstarlet ls [{{path/to/directory}}]`
