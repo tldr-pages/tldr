@@ -8,7 +8,7 @@
 
 `az devops login --organization {{organization_URL}}`
 
-- Open project in browser:
+- Open a project in the browser:
 
 `az devops project show --project {{project_name}} --open`
 
