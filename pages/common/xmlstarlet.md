@@ -1,6 +1,7 @@
 # xmlstarlet
 
 > A commandline XML/XSLT toolkit.
+> Note: You will likely need to know XPath: <https://developer.mozilla.org/en-US/docs/Web/XPath>.
 > More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Format an XML document and print to stdout:
@@ -11,7 +12,7 @@
 
 `{{cat path/to/file.xml}} | xmlstarlet format`
 
-- Print all nodes that match a given XPATH:
+- Print all nodes that match a given XPath:
 
 `xmlstarlet select --template --copy-of {{xpath}} {{file.xml}}`
 
