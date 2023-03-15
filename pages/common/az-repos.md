@@ -8,7 +8,7 @@
 
 `az repos list --project {{project_name}}`
 
-- Add policy on specific branch of a specific repository to restrict basic merge:
+- Add policy on a specific branch of a specific repository to restrict basic merge:
 
 `az repos policy merge-strategy create --repository-id {{repository_id_in_repos_list}} --branch {{branch_name}} --blocking --enabled --allow-no-fast-forward false --allow-rebase true --allow-rebase-merge true --allow-squash true`
 
