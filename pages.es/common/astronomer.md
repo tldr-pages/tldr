@@ -11,6 +11,6 @@
 
 `astronomer {{tldr-pages/tldr-node-client}} --stars {{50}}`
 
-- "Escanea un repositorio incluyendo informes comparativos:
+- Escanea un repositorio incluyendo informes comparativos:
 
 `astronomer {{tldr-pages/tldr-node-client}} --verbose`
