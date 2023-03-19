@@ -12,11 +12,11 @@
 
 `distrobox-export --bin {{path/to/binary}} --export-path {{path/to/binary_on_host}}`
 
-- Export a binary from the container to the host (i.e `$HOME/.local/bin`) :
+- Export a binary from the container to the host (i.e.`$HOME/.local/bin`) :
 
 `distrobox-export --bin {{path/to/binary}} --export-path {{path/to/export}}`
 
-- Export a service from container to the host (`--sudo` will run the service as root inside the container):
+- Export a service from the container to the host (`--sudo` will run the service as root inside the container):
 
 `distrobox-export --service {{package}} --extra-flags "--allow-newer-config" --sudo`
 

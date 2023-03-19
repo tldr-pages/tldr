@@ -1,37 +1,37 @@
 # distrobox
 
-> Use any Linux distribution inside your terminal by running it as a container. Install & use packages inside it while tightly integrating with the host OS, sharing storage, and `home` directory with GUI & audio capabilities.
-> You can install any software inside it. Eg: installing a `.deb` package inside an ubuntu container running on an Arch Linux host system. Packages inside the container can access the host's files.
+> Use any Linux distribution inside your terminal in a container. Install & use packages inside it while tightly integrating with the host OS, sharing storage (`home` directory) and hardware.
+> It uses Podman or Docker to create your containers.
 > More information: <https://github.com/89luca89/distrobox>.
 
-- Show tldr page for distrobox-create (creating containers):
+- View documentation for creating containers:
 
 `tldr distrobox-create`
 
-- Show tldr page for distrobox-list (list container info):
+- View documentation for listing container's information:
 
 `tldr distrobox-list`
 
-- Show tldr page for distrobox-enter (enter inside containers):
+- View documentation for entering the container:
 
 `tldr distrobox-enter`
 
-- Show tldr page for distrobox-host-exec (Execute command on the host while inside a container):
+- View documentation for executing a command on the host from inside a container:
 
 `tldr distrobox-host-exec`
 
-- Show tldr page for distrobox-export (Export app/service/binary from container to host):
+- View documentation for exporting app/service/binary from the container to the host:
 
 `tldr distrobox-export`
 
-- Show tldr page for distrobox-upgrade (upgrade containers):
+- View documentation for upgrading containers:
 
 `tldr distrobox-upgrade`
 
-- Show tldr page for distrobox-stop (stop containers):
+- View documentation for stopping the containers:
 
 `tldr distrobox-stop`
 
-- Show tldr page for distrobox-rm (remove containers):
+- View documentation for removing the containers:
 
 `tldr distrobox-rm`

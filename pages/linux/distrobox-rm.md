@@ -2,12 +2,12 @@
 
 > Remove a distrobox container.
 > Subcommand of `distrobox`. See also: `tldr distrobox`.
-> More information: <https://github.com/89luca89/distrobox/blob/main/docs/usage/distrobox-rm.md>.
+> More information: <https://distrobox.privatedns.org/usage/distrobox-rm.html>.
 
-- Remove a distrobox (Tip: Stop the container before removing it):
+- Remove a distrobox container (Tip: Stop the container before removing it):
 
 `distrobox-rm {{container_name}}`
 
-- Remove a distrobox forcefully:
+- Remove a distrobox container forcefully:
 
 `distrobox-rm {{container_name}} --force`
