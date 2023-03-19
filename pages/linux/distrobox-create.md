@@ -1,10 +1,10 @@
 # distrobox-create
 
 > Create a distrobox container. See also: `tldr distrobox`.
-> The created container will be tightly integrated with the host, allowing sharing of the HOME directory of the user, external storage, external usb devices and graphical apps (X11/Wayland), and audio.
+> The container created will be tightly integrated with the host, allowing sharing of the user's HOME directory, external storage, external USB devices, graphical apps (X11/Wayland), and audio.
 > More information: <https://distrobox.privatedns.org/usage/distrobox-create.html>.
 
-- Create a distrobox using the Ubuntu Linux image:
+- Create a distrobox container using the Ubuntu image:
 
 `distrobox-create {{container_name}} --image {{ubuntu:latest}}`
 
