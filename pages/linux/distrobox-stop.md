@@ -6,4 +6,8 @@
 
 - Stop a distrobox container:
 
-`distrobox-stop {{container-name}}`
+`distrobox-stop {{container_name}}`
+
+- Stop a distrobox container non-interactively (without confirmation):
+
+`distrobox-stop --name {{container_name}} --yes`
