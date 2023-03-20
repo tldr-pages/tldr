@@ -17,11 +17,11 @@
 
 - Bir dosyanın ilk sütunundaki değerleri topla ve toplamı yazdır:
 
-`awk '{s+=$1} END {print s}' {{dosya/yolu/dosya}}'
+`awk '{s+=$1} END {print s}' {{dosya/yolu/dosya}}`
 
 - İlk satırdan başlayarak her üçüncü satırı yazdır:
 
-`awk 'NR%3==1' {{dosya/yolu/dosya}}'
+`awk 'NR%3==1' {{dosya/yolu/dosya}}`
 
 - Koşullara göre farklı değerler yazdır:
 
