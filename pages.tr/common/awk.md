@@ -25,7 +25,7 @@
 
 - Koşullara göre farklı değerler yazdır:
 
-`awk '{if ($1 == "foo") print "Tam eşleşme foo"; else if ($1 ~ "bar") print "Kısmi eşleşme çubuğu"; else print "Baz"}' {{dosya/yolu/dosya}}'
+`awk '{if ($1 == "foo") print "Tam eşleşme foo"; else if ($1 ~ "bar") print "Kısmi eşleşme çubuğu"; else print "Baz"}' {{dosya/yolu/dosya}}`
 
 - 10. sütun değerinin belirtilen değere eşit olduğu tüm satırları yazdır:
 
