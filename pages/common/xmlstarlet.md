@@ -20,13 +20,13 @@
 
 `xmlstarlet edit --insert {{xpath}} --type attr --name {{attribute_name}} --value {{attribute_value}} {{file.xml}}`
 
-- Rename all matching nodes, and print to stdout (source file is unchanged):
+- Rename all matching nodes in place (source file is changed):
 
-`xmlstarlet edit --rename {{xpath}} --value {{new_name}} {{file.xml}}`
+`xmlstarlet edit --inplace --rename {{xpath}} --value {{new_name}} {{file.xml}}`
 
-- Delete all matching nodes, and print to stdout (source file is unchanged):
+- Delete all matching nodes in place (source file is changed):
 
-`xmlstarlet edit --delete {{xpath}} {{file.xml}}`
+`xmlstarlet edit --inplace --delete {{xpath}} {{file.xml}}`
 
 - Escape or unescape special XML characters in a given string:
 
