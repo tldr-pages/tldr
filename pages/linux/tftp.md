@@ -15,18 +15,18 @@
 
 `tftp {{server_ip}} -6 -R {{port}}:{{port}}`
 
-- Set transfer mode to binary:
+- Set transfer mode to binary through the tftp client:
 
 `mode binary`
 
-- Download file:
+- Download file from a server through the tftp client:
 
 `get {{file}}`
 
-- Upload file:
+- Upload file to a server through the tftp client:
 
 `put {{file}}`
 
-- Exit tftp:
+- Exit the tftp client:
 
 `quit`
