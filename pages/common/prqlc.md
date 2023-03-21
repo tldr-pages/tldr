@@ -18,7 +18,7 @@
 
 - Compile a query:
 
-`echo "from employees | filter has_dog | select salary" | prqlc compile`
+`echo "{{from employees | filter has_dog | select salary}}" | prqlc compile`
 
 - Watch a directory and compile on file modification:
 
