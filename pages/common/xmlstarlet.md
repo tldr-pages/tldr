@@ -20,9 +20,9 @@
 
 `xmlstarlet edit --insert {{xpath}} --type attr --name {{attribute_name}} --value {{attribute_value}} {{file.xml}}`
 
-- Rename all matching nodes in place (source file is changed):
+- Update the value of all matching nodes in place (source file is changed):
 
-`xmlstarlet edit --inplace --rename {{xpath}} --value {{new_name}} {{file.xml}}`
+`xmlstarlet edit --inplace --update {{xpath}} --value {{new_value}} {{file.xml}}`
 
 - Delete all matching nodes in place (source file is changed):
 
