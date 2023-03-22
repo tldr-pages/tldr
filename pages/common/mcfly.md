@@ -16,7 +16,7 @@
 
 `mcfly add "{{command}}"`
 
-- Record that a directory has moved and transfer the history records from the old path to the new one:
+- Record that a directory has moved and transfer the historical records from the old path to the new one:
 
 `mcfly move "{{path/to/old_directory}}" "{{path/to/new_directory}}"`
 
