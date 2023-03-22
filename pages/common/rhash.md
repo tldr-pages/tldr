@@ -7,15 +7,15 @@
 
 `rhash {{path/to/file}}`
 
-- Recursively process a directory to generate a SFV file using SHA1:
+- Recursively process a directory to generate an SFV file using SHA1:
 
 `rhash --sha1 --recursive {{path/to/folder}} > {{path/to/output.sfv}}`
 
-- Verify the integrity of files based on a SFV file:
+- Verify the integrity of files based on an SFV file:
 
 `rhash --check {{path/to/file.sfv}}`
 
-- Calculate SHA3 digest of a text message:
+- Calculate the SHA3 digest of a text message:
 
 `rhash --sha3-256 --message '{{message}}'`
 
@@ -25,4 +25,4 @@
 
 - Use custom output template:
 
-`rhash --printf '%p\t%s\t%{mtime}\t%m\n' {{path/to/file}}`
+`rhash --printf '{{%p\t%s\t%{mtime}\t%m\n}}' {{path/to/file}}`
