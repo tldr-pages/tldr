@@ -3,7 +3,7 @@
 > WEP und WPA/WPA2 Schlüssel im Kommunikationsaufbau knacken.
 > Teil des Aircrack-ng Softwarepakets.
 > Davor muss Packet abgefangen werden mit aircrack
-> Mehr Informationen: <https://www.aircrack-ng.org/doku.php?id=aircrack-ng> (auf Englisch)
+> Weitere Informationen: <https://www.aircrack-ng.org/doku.php?id=aircrack-ng>.
 
 - Schlüssel knacken von abgefangenen Packeten mithilfe von Wortlisten:
 
