@@ -7,7 +7,7 @@
 
 - Schlüssel knacken von abgefangenen Packeten mithilfe von Wortlisten:
 
-`aircrack-ng -w {{Pfad/zu/Wortliste.txt}} {{Pfad/zu/Packetdatei.cap}}`
+`aircrack-ng -w {{pfad/zu/wortliste.txt}} {{pfad/zu/packetdatei.cap}}`
 
 - Schlüssel knacken von abgefangenen Packeten mithilfe einer Wortliste und der (E)SSID des Access Points:
 
