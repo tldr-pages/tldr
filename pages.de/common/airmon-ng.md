@@ -8,7 +8,6 @@
 
 `sudo airmon-ng`
 
-
 - Überwachungsmodus für ein bestimmtes Gerät aktivieren:
 
 `sudo airmon-ng start {{wlan0}}`
