@@ -6,7 +6,7 @@
 
 - Hace ping a un host mediante paquetes de petición ARP:
 
-`arping {{host_ip}}`.
+`arping {{host_ip}}`
 
 - Hace ping a un host en una interfaz específica:
 
