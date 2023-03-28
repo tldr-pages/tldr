@@ -9,7 +9,7 @@
 
 - Pin the matching the packages to the given repository:
 
-`pinning add {{repository}} {{package(s)}}`
+`tlmgr pinning add {{repository}} {{package1 package2 ...}}`
 
 - Remove any packages recorded in the pinning file matching the packages for the given repository:
 
