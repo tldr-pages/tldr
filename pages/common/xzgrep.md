@@ -1,7 +1,6 @@
 # xzgrep
 
 > Search possibly compressed files with xz, lzma, gzip, bzip2, lzop, or zstd for regular expressions.
-> All options specified are passed directly to `grep`.
 > See also: `grep`.
 > More information: <https://manned.org/xzgrep.1>.
 
