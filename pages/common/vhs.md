@@ -18,7 +18,7 @@
 
 `vhs validate {{path/to/file.tape}}`
 
-- Create gif from tape File:
+- Create a gif from a tape file:
 
 `vhs < {{tape_name_or_path}}.tape`
 
