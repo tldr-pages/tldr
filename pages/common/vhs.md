@@ -8,7 +8,7 @@
 `vhs new {{path/to/file.tape}}`
 - Record inputs to a tape file (Once done, exit the shell to create the tape):
 
-`vhs record > {{tape_name}}`
+`vhs record > {{path/to/file.tape}}`
 
 - Record inputs to a tape file using a specific shell:
 
