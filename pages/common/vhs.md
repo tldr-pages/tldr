@@ -6,6 +6,7 @@
 - Create a tape file (Add commands to the tap file using your editor):
 
 `vhs new {{path/to/file.tape}}`
+
 - Record inputs to a tape file (Once done, exit the shell to create the tape):
 
 `vhs record > {{path/to/file.tape}}`
