@@ -20,7 +20,7 @@
 
 - Create a gif from a tape file:
 
-`vhs < {{tape_name_or_path}}.tape`
+`vhs < {{path/to/file.tape}}`
 
 - Publish a gif to vhs.charm.sh and get a shareable url:
 
