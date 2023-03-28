@@ -16,7 +16,7 @@
 
 - Validate a type file's syntax:
 
-`vhs validate {{tape_name_or_path}}`
+`vhs validate {{path/to/file.tape}}`
 
 - Create gif from tape File:
 
