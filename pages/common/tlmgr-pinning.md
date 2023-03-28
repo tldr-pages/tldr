@@ -11,7 +11,7 @@
 
 `pinning add {{repository}} {{package(s)}}`
 
-- Any packages recorded in the pinning file matching the <package>s for the given repository are removed:
+- Remove any packages recorded in the pinning file matching the packages for the given repository:
 
 `pinning remove {{repository}} {{package(s)}}`
 
