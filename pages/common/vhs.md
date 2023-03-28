@@ -3,7 +3,7 @@
 > CLI home video recorder to generate terminal gifs from code.
 > More information: <https://github.com/charmbracelet/vhs>.
 
-- Create a tape file (Add commands to the tap file using your editor):
+Create a tape file (Add commands to the tap file using your editor):
 
 `vhs new {{path/to/file.tape}}`
 
