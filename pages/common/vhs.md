@@ -3,7 +3,7 @@
 > Generate Terminal Gifs from Code.
 > More information: <https://github.com/charmbracelet/vhs>.
 
-- Record inputs to a tape file. Once done, exit the shell to create the tape:
+- Record inputs to a tape file (Once done, exit the shell to create the tape):
 
 `vhs record > {{tape_name}}`
 
