@@ -1,6 +1,6 @@
 # vhs
 
-> Generate Terminal Gifs from Code.
+> CLI home video recorder to generate terminal gifs from code.
 > More information: <https://github.com/charmbracelet/vhs>.
 
 - Create a tape file (Add commands to the tap file using your editor):
