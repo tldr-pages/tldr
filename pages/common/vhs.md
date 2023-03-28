@@ -12,7 +12,7 @@
 
 - Record inputs to a tape file using a specific shell:
 
-`vhs record --shell {{shell}} > cassette.tape`
+`vhs record --shell {{shell}} > {{path/to/file.tape}}`
 
 - Validate a type file's syntax:
 
