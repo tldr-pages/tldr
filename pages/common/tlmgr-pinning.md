@@ -5,7 +5,7 @@
 
 - Show the current pinning data:
 
-`pinning show`
+`tlmgr pinning show`
 
 - Pin the matching the packages to the given repository:
 
