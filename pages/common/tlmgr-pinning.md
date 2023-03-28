@@ -7,7 +7,7 @@
 
 `pinning show`
 
-- Pin the packages matching the packages(s) to the repository repository:
+- Pin the matching the packages to the given repository:
 
 `pinning add {{repository}} {{package(s)}}`
 
