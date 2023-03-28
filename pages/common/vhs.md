@@ -24,4 +24,4 @@
 
 - Publish a gif to vhs.charm.sh and get a shareable url:
 
-`vhs publish {{path/to/gif}}`
+`vhs publish {{path/to/file.gif}}`
