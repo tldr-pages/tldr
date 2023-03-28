@@ -17,4 +17,4 @@
 
 - Remove all pinning data for the given repository:
 
-`pinning remove repo --all`
+`tlmgr pinning remove {{repository}} --all`
