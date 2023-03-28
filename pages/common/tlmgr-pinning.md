@@ -15,6 +15,6 @@
 
 `pinning remove {{repository}} {{package(s)}}`
 
-- Remove all pinning data for repository repo:
+- Remove all pinning data for the given repository:
 
 `pinning remove repo --all`
