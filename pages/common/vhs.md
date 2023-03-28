@@ -22,6 +22,6 @@
 
 `vhs < {{path/to/file.tape}}`
 
-- Publish a gif to vhs.charm.sh and get a shareable url:
+- Publish a gif to https://vhs.charm.sh and get a shareable URL:
 
 `vhs publish {{path/to/file.gif}}`
