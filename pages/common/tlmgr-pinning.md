@@ -13,7 +13,7 @@
 
 - Remove any packages recorded in the pinning file matching the packages for the given repository:
 
-`pinning remove {{repository}} {{package(s)}}`
+`tlmgr pinning remove {{repository}} {{package1 package2 ...}}`
 
 - Remove all pinning data for the given repository:
 
