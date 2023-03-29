@@ -9,11 +9,11 @@
 
 - Installa pacchetti da un file di configurazione personalizzato:
 
-`choco install {{percorso\al\file_di_pacchetti.config}}`
+`choco install {{percorso\del\file_di_pacchetti.config}}`
 
 - Installa un file nuspec o nupkg specifico:
 
-`choco install {{percorso\al\file}}`
+`choco install {{percorso\del\file}}`
 
 - Installa una nuova versione specifica di un pacchetto:
 
