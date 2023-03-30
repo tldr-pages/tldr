@@ -4,7 +4,7 @@
 > Teil von `aircrack-ng`.
 > Weitere Informationen: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
 
-- Wireless Geräte und deren Status auflisten:
+- Liste Wireless Geräte und deren Status auf:
 
 `sudo airmon-ng`
 
