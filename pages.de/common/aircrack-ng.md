@@ -4,7 +4,7 @@
 > Teil des Aircrack-ng Softwarepakets.
 > Weitere Informationen: <https://www.aircrack-ng.org/doku.php?id=aircrack-ng>.
 
-- Schlüssel knacken von abgefangenen Packeten mithilfe von Wortlisten:
+- Knacke Schlüssel von abgefangenen Paketen mithilfe von Wortlisten:
 
 `aircrack-ng -w {{pfad/zu/wortliste.txt}} {{pfad/zu/packetdatei.cap}}`
 
