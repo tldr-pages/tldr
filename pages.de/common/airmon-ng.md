@@ -16,6 +16,6 @@
 
 `sudo airmon-ng check kill`
 
-- Überwachungsmodus für ein spezifisches Interface deaktivieren:
+- Deaktiviere den Überwachungsmodus für ein spezifisches Interface:
 
 `sudo airmon-ng stop {{wlan0mon}}`
