@@ -4,7 +4,7 @@
 > Teil von `aircrack-ng`.
 > Weitere Informationen: <https://www.aircrack-ng.org/doku.php?id=airodump-ng>.
 
-- Erfassen von Paketen und Anzeigen von Informationen über ein drahtloses Netzwerk:
+- Erfasse Pakete und zeige Informationen über ein drahtloses Netzwerk an:
 
 `sudo airodump-ng {{interface}}`
 
