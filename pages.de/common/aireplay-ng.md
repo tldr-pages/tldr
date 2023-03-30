@@ -1,6 +1,6 @@
 # aireplay-ng
 
-> Packete in ein WLAN injizieren.
+> Pakete in ein WLAN injizieren.
 > Teil von `aicraick-ng`.
 > Weitere Informationen: <https://www.aircrack-ng.org/doku.php?id=aireplay-ng>.
 
