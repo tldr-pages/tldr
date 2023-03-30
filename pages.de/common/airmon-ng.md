@@ -1,6 +1,6 @@
 # airmon-ng
 
-> Aktiver Überwachungsmodus auf Wireless Network Geräten.
+> Aktiveren des Überwachungsmodus auf Wireless Network Geräten.
 > Teil von `aircrack-ng`.
 > Weitere Informationen: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
 
