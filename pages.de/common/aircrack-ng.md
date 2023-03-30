@@ -12,6 +12,6 @@
 
 `aircrack-ng -w {{pfad/zu/wortliste.txt}} -e {{essid}} {{pfad/zu/packetdatei.cap}}`
 
-- Schlüssel knacken von abgefangenen Packeten mithilfe einer Wortliste und der MAC-Adresse des Access Points:
+- Knacke Schlüssel von abgefangenen Paketen mithilfe einer Wortliste und der MAC-Adresse des Access Points:
 
 `aircrack-ng -w {{pfad/zu/wortliste.txt}} --bssid {{mac}} {{pfad/zu/packetdatei.cap}}`
