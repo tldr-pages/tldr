@@ -8,6 +8,6 @@
 
 `sudo airodump-ng {{interface}}`
 
-- Erfassen von Paketen und Anzeigen von Informationen über ein drahtloses Netzwerk anhand der MAC-Adresse und des Kanals und diese in eine Datei schreiben.  
+- Erfasse Pakete und zeige Informationen über ein drahtloses Netzwerk anhand der MAC-Adresse und des Kanals an, und schreibe diese in eine Datei:
 
 `sudo airodump-ng --channel {{kanal}} --write {{pfad/zu/datei}} --bssid {{mac}} {{interface}}`
