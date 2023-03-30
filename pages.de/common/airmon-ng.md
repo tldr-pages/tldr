@@ -12,7 +12,7 @@
 
 `sudo airmon-ng start {{wlan0}}`
 
-- Störende Prozesse killn, die das wireless Gerät verwenden:
+- Kille störende Prozesse, die das Wireless Gerät verwenden:
 
 `sudo airmon-ng check kill`
 
