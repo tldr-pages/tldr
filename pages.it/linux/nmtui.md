@@ -16,7 +16,7 @@
 
 `nmtui connect {{nome|uuid|device|SSID}}`
 
-- Cambia/Agiunge/Elimina una rete:
+- Cambia/Aggiunge/Elimina una rete:
 
 `nmtui edit {{nome|id}}`
 

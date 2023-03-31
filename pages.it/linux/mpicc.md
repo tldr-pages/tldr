@@ -1,16 +1,17 @@
 # mpicc
 
 > Involucro Open MPI per il compilatore di C.
-> Shell che eseguono sul compilatore, aggiungono i relevanti argomenti e linkers necessari a compilare/collegare programmi Open MPI, invocando il sottostante compilatore di C per effettuare le effetive operazioni.
+> Shell che esegue sul compilatore, aggiungono i relevanti argomenti e linkers necessari a compilare/collegare programmi Open MPI, invocando il sottostante compilatore di C per effettuare le effetive operazioni.
+> Maggiori informazioni: <https://www.mpich.org/static/docs/latest/www1/mpicc.html>.
 
-- Per compilare un singolo file:
+- Compila un file sorgente:
 
-`mpicc -c foo.c`
+`mpicc -c {{percorso/del/file.c}}`
 
-- Per collegare un output file e compilare un eseguibile:
+- Collega gli output file per generare un eseguibile:
 
-`mpicc -o foo foo.o`
+`mpicc -o {{executable}} {{percorso/del/file.o}}`
 
-- Per compilare e collegare i file in un solo commando:
+- Collega e compila i file sorgente in un solo commando:
 
-`mpicc -o foo foo.c`
+`mpicc -o {{executable}} {{percorso/del/file.c}}`
