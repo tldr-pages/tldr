@@ -7,7 +7,7 @@
 
 `tcc -o {{executable_name}} {{path/to/file1.c}} {{path/to/file2.c}}`
 
-- Directly run `source_file.c` like a script and pass arguments to it:
+- Directly run an input file like a script and pass arguments to it:
 
 `tcc -run {{path/to/source_file.c}} {{arguments}}`
 
