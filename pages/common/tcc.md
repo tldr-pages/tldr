@@ -3,7 +3,7 @@
 > A tiny C compiler that can run C source files as scripts and otherwise has command line options similar to `gcc`.
 > More information: <https://bellard.org/tcc/tcc-doc.html>.
 
-- Compile and link `file1.c` and `file2.c` to generate an executable:
+- Compile and link 2 source files to generate an executable:
 
 `tcc -o {{executable_name}} {{path/to/file1.c}} {{path/to/file2.c}}`
 
