@@ -18,4 +18,4 @@
 
 - Vuelca el inventario por defecto a un fichero:
 
-`ansible-inventory --list --output {{ruta/al/archivo}}
+`ansible-inventory --list --output {{ruta/al/archivo}}`
