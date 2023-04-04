@@ -5,19 +5,19 @@
 
 - メッセージと共に、ステージ済のファイルをリポジトリにコミットする:
 
-`git commit -m "{{message}}"`
+`git commit -m "{{メッセージ}}"`
 
 - ファイルから読みとったメッセージと共に、ステージ済のファイルをコミットする:
 
-`git commit --file {{path/to/commit_message_file}}`
+`git commit --file {{コミットメッセージが書かれたファイルへのパス}}`
 
 - 変更されたファイルを全て自動的にステージし、メッセージと共にコミットする:
 
-`git commit -a -m "{{message}}"`
+`git commit -a -m "{{メッセージ}}"`
 
 - ステージ済のファイルをコミットし、`~/.gitconfig`に設定したGPG鍵で署名する:
 
-`git commit -S -m "{{message}}"`
+`git commit -S -m "{{メッセージ}}"`
 
 - 今のステージ済の変更を最後のコミットに付け足し、コミットハッシュを変更する:
 
@@ -25,8 +25,8 @@
 
 - 特定のファイル(ステージ済)だけをコミットする:
 
-`git commit {{path/to/file1}} {{path/to/file2}}`
+`git commit {{ファイルパス1}} {{ファイルパス2}}`
 
 - ステージ済のファイルが無くても、コミットを作る:
 
-`git commit -m "{{message}}" --allow-empty`
+`git commit -m "{{メッセージ}}" --allow-empty`
