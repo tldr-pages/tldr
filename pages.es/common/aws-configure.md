@@ -25,7 +25,7 @@
 
 - Establece el valor de una variable de configuración en un perfil específico:
 
-`aws configure set {{nombre}} {{valor}} --profile {{nombre_del_perfil}}``
+`aws configure set {{nombre}} {{valor}} --profile {{nombre_del_perfil}}`
 
 - Lista las entradas de configuración:
 
