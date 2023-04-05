@@ -1,0 +1,16 @@
+# picom
+
+> Standalon compositor fo Xorg.
+> More information: <https://wiki.archlinux.org/title/picom>.
+
+- Enable picom during a session
+
+`picom &`
+
+- Start picom as a background
+
+`picom &`
+
+- Use custom configuration file
+
+`picom --config {{path/to/config_file}}`
