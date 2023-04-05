@@ -9,7 +9,7 @@
 
 - Create a Debian Bookworm tarball chroot using a mirror:
 
-`mmdebstrap bookworm {{path/to/debian-bookworm.tar}} {{http://mirror.example.org/debian/}}`
+`mmdebstrap bookworm {{path/to/debian-bookworm.tar}} {{http://mirror.example.org/debian}}`
 
 - Create a Debian Sid tarball chroot with additional packages:
 
