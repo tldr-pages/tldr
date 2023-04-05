@@ -7,7 +7,7 @@
 
 `picom &`
 
-- Start picom as a background
+- Start picom as a background process
 
 `picom &`
 
