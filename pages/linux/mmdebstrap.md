@@ -1,6 +1,7 @@
 # mmdebstrap
 
-> Create a Debian chroot, alternative to debootstrap.
+> Create a Debian chroot.
+> Alternative to `debootstrap`.
 > More information: <https://gitlab.mister-muffin.de/josch/mmdebstrap/>.
 
 - Create a Debian Stable directory chroot:
