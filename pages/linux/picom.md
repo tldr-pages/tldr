@@ -9,8 +9,8 @@
 
 - Start picom as a background process:
 
-`picom &`
+`picom -b`
 
-- Use custom configuration file:
+- Use a custom configuration file:
 
 `picom --config {{path/to/config_file}}`
