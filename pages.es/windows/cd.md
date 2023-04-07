@@ -5,7 +5,7 @@
 
 - Muestra la ruta (path) del directorio actual:
 
-'cd`
+"cd"
 
 - Mover al directorio superior:
 
