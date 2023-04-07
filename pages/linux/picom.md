@@ -3,7 +3,7 @@
 > Standalone compositor for Xorg.
 > More information: <https://wiki.archlinux.org/title/picom>.
 
-- Enable picom during a session:
+- Enable `picom` during a session:
 
 `picom &`
 
