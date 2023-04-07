@@ -21,7 +21,6 @@
 
 - Ricerca dei pacchetti da una parola chiave:
 
-
 `apk search {{parola_chiave}}`
 
 - Ottieni informazioni su un pacchetto:
