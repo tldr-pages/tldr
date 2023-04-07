@@ -30,4 +30,3 @@
 - Visualizza il messaggio d'aiuto:
 
 `powershell -Help`
-
