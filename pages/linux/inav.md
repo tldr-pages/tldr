@@ -5,7 +5,7 @@
 
 - Load and follow the system syslog file:
 
-`inav`
+`lnav`
 
 - Load all of the files in `/var/log`:
 
