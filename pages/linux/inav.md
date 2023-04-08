@@ -1,4 +1,4 @@
-# Inav
+# lnav
 
 > Advanced log file viewer for the console.
 > More information: <https://docs.lnav.org/en/latest/>.
