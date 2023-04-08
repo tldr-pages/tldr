@@ -1,6 +1,6 @@
 # Inav
 
-> An advanced log file viewer for the small-scale.
+> Advanced log file viewer for the console.
 > More information: <https://docs.lnav.org/en/latest/>.
 
 - Load and follow the system syslog file:
