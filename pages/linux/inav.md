@@ -13,4 +13,4 @@
 
 - Load all of the files in `/var/log`:
 
-`make 2>&1 | inav -t`
+`make 2>&1 | lnav -t`
