@@ -7,7 +7,7 @@
 
 `inav`
 
-- To load all of the files in /var/log:
+- Load all of the files in `/var/log`:
 
 `inav /var/log`
 
