@@ -11,6 +11,6 @@
 
 `inav /var/log`
 
-- To load all of the files in /var/log:
+- Load all of the files in `/var/log`:
 
 `make 2>&1 | inav -t`
