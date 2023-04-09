@@ -17,4 +17,4 @@
 
 - Mover a un directorio específico en otro disco:
 
-`cd /d {{C}}:{{ruta/al/directorio}}`
+`cd /d {{C}}:{{ruta\al\directorio}}`
