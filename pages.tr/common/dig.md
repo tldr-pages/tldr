@@ -18,4 +18,3 @@
 - Belli başlı DNS sunucuları ile ilgili kayıtları sorgular.
 
 `dig +short {{example.com}} {{A|MX|TXT|CNAME|NS}}`
-
