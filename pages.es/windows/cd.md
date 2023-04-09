@@ -7,6 +7,10 @@
 
 `cd`
 
+- Ir a la raíz de la unidad actual:
+
+`cd \`
+
 - Mover al directorio superior:
 
 `cd ..`
