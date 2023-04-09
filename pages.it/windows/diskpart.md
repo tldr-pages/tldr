@@ -1,4 +1,4 @@
-# Diskpart
+# diskpart
 
 > Gestore di dischi, volumi e partizioni.
 > Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart>.
