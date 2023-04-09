@@ -13,7 +13,7 @@
 
 - Mover a un directorio específico en el mismo disco:
 
-`cd {{ruta/al/directorio}}`
+`cd {{ruta\al\directorio}}`
 
 - Mover a un directorio específico en otro disco:
 
