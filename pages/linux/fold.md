@@ -3,7 +3,7 @@
 > Folds long lines for fixed-width output devices.
 > More information: <https://www.ibm.com/docs/en/aix/7.1?topic=f-fold-command>.
 
-- Fold lines in a fixed widht:
+- Fold lines in a fixed width:
 
 `fold -w {{width}} {{file_name}}`
 
