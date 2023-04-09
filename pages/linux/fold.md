@@ -7,7 +7,7 @@
 
 `fold -w {{width}} {{file_name}}`
 
-- Count Width in bytes (the default is to count in columns):
+- Count width in bytes (the default is to count in columns):
 
 `fold -b -w {{width_in_bytes}} {{file_name}}`
 
