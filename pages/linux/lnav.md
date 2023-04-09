@@ -15,6 +15,6 @@
 
 `lnav -C {{path/to/log_directory}}`
 
-- View logs of  the directory '/var/log':
+- View logs of the directory '/var/log':
 
 `lnav /var/log`
