@@ -7,15 +7,15 @@
 
 `tracert {{IP}}`
 
-- Prevents tracert from resolving IP addresses to hostnames:
+- Prevent tracert from resolving IP addresses to hostnames:
 
 `tracert -d {{IP}}`
 
-- Forces tracert to use IPv4 only:
+- Force tracert to use IPv4 only:
 
 `tracert -4 {{IP}}`
 
-- Forces tracert to use IPv6 only:
+- Force tracert to use IPv6 only:
 
 `tracert -6 {{IP}}`
 
