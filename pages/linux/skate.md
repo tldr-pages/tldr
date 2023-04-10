@@ -33,4 +33,4 @@
 
 - Delete local db and pull down fresh copy from Charm Cloud:
 
-`skate reset @{{"database_name"}}`
+`skate reset @"{{database_name}}"`
