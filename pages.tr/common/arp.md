@@ -7,10 +7,6 @@
 
 `arp -a`
 
-- Tüm önbelleği temizle:
-
-`sudo arp -a -d`
-
 - Belirli bir girdiyi sil:
 
 `arp -d {{adres}}`
