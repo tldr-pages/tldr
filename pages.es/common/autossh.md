@@ -26,4 +26,4 @@
 
 - Se ejecuta en segundo plano, registrando la salida de depuración `autossh` y la salida detallada `ssh` en archivos:
 
-AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE={{ruta/al/autossh_log_file.log}} autossh -f -M {{puerto_monitor}} -v -E {{ruta/al/archivo_ssh_log.log}} {{comando_ssh}}`
+`AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE={{ruta/al/autossh_log_file.log}} autossh -f -M {{puerto_monitor}} -v -E {{ruta/al/archivo_ssh_log.log}} {{comando_ssh}}`
