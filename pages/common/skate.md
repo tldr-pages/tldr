@@ -1,6 +1,5 @@
 # skate
 
-> A personal key-value store.
 > Simple and powerful key-value store.
 > More information: <https://github.com/charmbracelet/skate>.
 
