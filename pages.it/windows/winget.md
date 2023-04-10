@@ -1,6 +1,6 @@
 # winget
 
-> Gestore pacchetti a linea di comando di Windows .
+> Gestore pacchetti a linea di comando di Windows.
 > Maggiori informazioni: <https://learn.microsoft.com/windows/package-manager/winget>.
 
 - Installa un pacchetto:
