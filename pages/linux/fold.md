@@ -9,7 +9,7 @@
 
 - Count width in bytes (the default is to count in columns):
 
-`fold -b -w {{width_in_bytes}} {{file_name}}`
+`fold -b -w {{width_in_bytes}} {{path/to/file}}`
 
 - Break the line after the rightmost blank within the width limit:
 
