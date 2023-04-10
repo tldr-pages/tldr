@@ -1,7 +1,6 @@
 # skate
 
-> A personal key-value store.
-> Skate is simple and powerful. Use it to save and retrieve anything you’d like—even binary data. It’s fully encrypted, backed up to the cloud (that you can self-host if you want) and can be synced with all your machines.
+> Skate is simple and powerful key-value store. Skate can be used to save and retrieve anything you’d like—even binary data. It’s fully encrypted, backed up to the cloud (that you can self-host if you want) and can be synced with all your machines.
 > More information: <https://github.com/charmbracelet/skate>.
 
 - Store a key and a value on the default database:
