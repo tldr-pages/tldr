@@ -5,7 +5,7 @@
 
 - Archive a file or directory:
 
-`asar pack {{path/to/file_or_directory}} {{archive.asar}}`
+`asar pack {{path/to/input_file_or_directory}} {{path/to/output_archive.asar}}`
 
 - Extract an archive:
 
@@ -17,4 +17,4 @@
 
 - List the contents of an archive file:
 
-`asar list {{path/to/archivee.asar}}`
+`asar list {{path/to/archive.asar}}`
