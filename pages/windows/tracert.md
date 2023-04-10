@@ -25,4 +25,4 @@
 
 - Specifies the maximum number of hops in the search for the target:
 
-`tracert -h {{max_hops}} {{IP}}
+`tracert -h {{max_hops}} {{IP}}`
