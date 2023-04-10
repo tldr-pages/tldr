@@ -7,13 +7,9 @@
 
 `betty {{what time is it}}`
 
-- Ask Betty version:
-
-`betty version`
-
 - Download a file:
 
-`betty download {{https://example.com/file.png}} to {{file.png}}`
+`betty download {{https://example.com/file.ext}} to {{path/to/output_file.ext}}`
 
 - Compress a file or directory to one of the support archive formats:
 
@@ -34,3 +30,7 @@
 - Drive Betty to madness:
 
 `betty go crazy`
+
+- Display version:
+
+`betty version`
