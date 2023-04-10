@@ -7,10 +7,6 @@
 
 `arp -a`
 
-- Elimina l'intera cache:
-
-`sudo arp -a -d`
-
 - Elimina una specifica voce:
 
 `arp -d {{indirizzo}}`
