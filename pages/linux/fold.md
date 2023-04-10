@@ -13,4 +13,4 @@
 
 - Break the line after the rightmost blank within the width limit:
 
-`fold -s -w {{width}} {{file_name}}`
+`fold -s -w {{width}} {{path/to/file}}`
