@@ -5,7 +5,7 @@
 
 - Store a key and a value on the default database:
 
-`skate set {{"key"}} {{"value"}}`
+`skate set "{{key}}" "{{value}}"`
 
 - Show your keys saved on the default database:
 
