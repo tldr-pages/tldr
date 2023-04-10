@@ -23,6 +23,6 @@
 
 `tracert /?`
 
-- Specifies the maximum number of hops in the search for the target:
+- Specifie the maximum number of hops in the search for the target:
 
 `tracert -h {{max_hops}} {{IP}}`
