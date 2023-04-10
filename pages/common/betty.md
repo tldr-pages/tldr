@@ -19,7 +19,7 @@
 
 `betty {{unzip}} {{archive.tar.gz}}`
 
-- Extract an archive into a directory:
+- Extract an archive into a specific directory:
 
 `betty unarchive {{archive.tar.gz}} to {{path/to/directory}}`
 
