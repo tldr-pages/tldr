@@ -13,7 +13,7 @@
 
 - Delete key and value from the default database:
 
-`skate delete {{"key"}}`
+`skate delete "{{key}}"`
 
 - Create a new key and value in a new database:
 
