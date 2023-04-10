@@ -5,7 +5,7 @@
 
 - Fold lines in a fixed width:
 
-`fold -w {{width}} {{file_name}}`
+`fold -w {{width}} {{path/to/file}}`
 
 - Count width in bytes (the default is to count in columns):
 
