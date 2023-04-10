@@ -17,4 +17,4 @@
 
 - Esporta sul disco tutti i log dell'ultima ora:
 
-`sudo log collect --last {{1h}} --output {{percorso/per/file.logarchive}}`
+`sudo log collect --last {{1h}} --output {{percorso/del/file.logarchive}}`
