@@ -18,15 +18,29 @@ function exists {
 # but we want to only print if there are actual errors, and not
 # the "All done!" success message.
 function run_black {
-  # skip black check if command is not available in the system.
-  if [ "$CI" != "true" ] && ! exists black; then
-    echo "Skipping black check, command not available."
+  target_black_version=$(awk -F '==' '$1 == "black" { print $2 }' < requirements.txt)
+
+  if grep -qw black <<< "$(pip3 --disable-pip-version-check list)"; then
+    errs=$(python3 -m black scripts --check --required-version ${target_black_version} 2>&1 || true)
+  fi
+
+  if [ -z "${errs}" ]; then
+    # skip black check if command is not available in the system.
+    if [ "$CI" != "true" ] && ! exists black; then
+      echo "Skipping black check, command not available."
+      return 0
+    fi
+
+    errs=$(black scripts --check --required-version ${target_black_version} 2>&1 || true)
+  fi
+
+  if [[ ${errs} == *"does not match the running version"* ]]; then
+    echo -e "Skipping black check, required version not available, try running: pip3 install -r requirements.txt"
     return 0
   fi
 
   # we want to ignore the exit code from black on failure, so that we can
   # do the conditional printing below
-  errs=$(black scripts --check 2>&1 || true)
   if [[ ${errs} != "All done!"* ]]; then
      echo -e "${errs}" >&2
      return 1
