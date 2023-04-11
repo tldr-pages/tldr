@@ -1,0 +1,36 @@
+# ftp
+
+> Interactively transfer files between a local and remote FTP server.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/ftp>.
+
+- Connettiti a un server FTP remoto:
+
+`ftp {{host}}`
+
+- Accedi come utente anonimo:
+
+`ftp -A {{host}}`
+
+- Disabilita l'accesso automatico alla connessione iniziale:
+
+`ftp -n {{host}}`
+
+- Esegui un file contenente una lista di comandi FTP:
+
+`ftp -s:{{percorso\to\file}} {{host}}`
+
+- Scarica file:
+
+`mget {{*.png}}`
+
+- Carica file:
+
+`mput {{*.zip}}`
+
+- Cancella file sul server remoto:
+
+`mdelete {{*.txt}}`
+
+- Mostra la pagina di aiuto dettagliato:
+
+`ftp --help`
