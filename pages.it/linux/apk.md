@@ -15,7 +15,7 @@
 
 `apk del {{pacchetto}}`
 
-- Prova a riparare un pacchetto o ad aggiornare un pacchetto senza dipendenze:
+- Prova a riparare un pacchetto o ad aggiornare un pacchetto senza modificarne le dipendenze:
 
 `apk fix {{paquet}}`
 
