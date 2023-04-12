@@ -19,7 +19,7 @@
 
 `apk fix {{paquet}}`
 
-- Ricerca dei pacchetti da una parola chiave:
+- Ricerca pacchetti data una parola chiave:
 
 `apk search {{parola_chiave}}`
 
