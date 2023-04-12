@@ -1,6 +1,6 @@
 # genisoimage
 
-> genisoimage is a pre-mastering program to generate ISO9660/Joliet/HFS hybrid filesystems.
+> Genisoimage is a pre-mastering program to generate ISO9660/Joliet/HFS hybrid filesystems.
 > More information: <https://manpages.debian.org/stretch/genisoimage/genisoimage.1.en.html>.
 
 - Create an ISO image:
