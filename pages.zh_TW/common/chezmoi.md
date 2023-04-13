@@ -9,7 +9,7 @@
 
 - 叫 chezmoi 管理一個 dotfile:
 
-`chezmoi add {{path/to/file}}`
+`chezmoi add {{檔案/完整/路徑}}`
 
 - 編輯一個已管理的 dotfile :
 
