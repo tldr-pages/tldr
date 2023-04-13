@@ -19,7 +19,7 @@
 
 `ftp -s:{{percorso\to\file}} {{host}}`
 
-- Carica file:
+- Carica file (espressione glob):
 
 `mget {{*.png}}`
 
