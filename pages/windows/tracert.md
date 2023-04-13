@@ -9,7 +9,7 @@
 
 - Prevent `tracert` from resolving IP addresses to hostnames:
 
-`tracert -d {{IP}}`
+`tracert /d {{IP}}`
 
 - Force `tracert` to use IPv4 only:
 
