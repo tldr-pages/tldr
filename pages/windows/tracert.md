@@ -1,7 +1,7 @@
 # tracert
 
 > Receive information about each step in the route between your PC and the target.
-> More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/tracert>.
 
 - Trace a route:
 
