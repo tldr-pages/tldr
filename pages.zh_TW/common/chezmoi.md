@@ -19,7 +19,7 @@
 
 `chezmoi diff`
 
-- 套用所做的更動:
+- 套用所做的更動：
 
 `chezmoi -v apply`
 
