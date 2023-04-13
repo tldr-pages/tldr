@@ -11,7 +11,7 @@
 
 `tracert -d {{IP}}`
 
-- Force tracert to use IPv4 only:
+- Force `tracert` to use IPv4 only:
 
 `tracert -4 {{IP}}`
 
