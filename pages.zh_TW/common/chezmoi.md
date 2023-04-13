@@ -27,6 +27,6 @@
 
 `chezmoi init {{https://example.com/path/to/repository.git}}`
 
-- 從遠端的 repository 獲取所做的更動:
+- 從遠端的 repository 獲取所做的更動：
 
 `chezmoi update`
