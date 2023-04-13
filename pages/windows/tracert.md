@@ -19,10 +19,10 @@
 
 `tracert /6 {{IP}}`
 
-- Show detailed help:
-
-`tracert /?`
-
 - Specify the maximum number of hops in the search for the target:
 
-`tracert -h {{max_hops}} {{IP}}`
+`tracert /h {{max_hops}} {{IP}}`
+
+- Display help:
+
+`tracert /?`
