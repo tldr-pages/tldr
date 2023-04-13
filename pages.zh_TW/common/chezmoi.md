@@ -15,7 +15,7 @@
 
 `chezmoi edit {檔案/完整/路徑}}`
 
-- 檢視 chezmoi 所做的更動 :
+- 檢視 chezmoi 所做的更動：
 
 `chezmoi diff`
 
