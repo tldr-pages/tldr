@@ -23,7 +23,7 @@
 
 `chezmoi -v apply`
 
-- 用一個已存在的 git repository 來初始化 chezmoi:
+- 用一個已存在的 git repository 來初始化 chezmoi：
 
 `chezmoi init {{https://example.com/path/to/repository.git}}`
 
