@@ -7,7 +7,7 @@
 
 `tracert {{IP}}`
 
-- Prevent tracert from resolving IP addresses to hostnames:
+- Prevent `tracert` from resolving IP addresses to hostnames:
 
 `tracert -d {{IP}}`
 
