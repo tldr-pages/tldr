@@ -23,7 +23,7 @@
 
 `mget {{*.png}}`
 
-- Carica file:
+- Carica file (espressione glob):
 
 `mput {{*.zip}}`
 
