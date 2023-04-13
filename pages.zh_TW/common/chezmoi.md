@@ -3,7 +3,7 @@
 > 一個用 Go 語言寫的 dotfile 管理工具。
 > 更多資訊：<https://chezmoi.io>.
 
-- 初始化 chezmoi:
+- 初始化 chezmoi：
 
 `chezmoi init`
 
