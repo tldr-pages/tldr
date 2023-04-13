@@ -7,7 +7,7 @@
 
 `chezmoi init`
 
-- 叫 chezmoi 管理一個 dotfile:
+- 叫 chezmoi 管理一個 dotfile：
 
 `chezmoi add {{檔案/完整/路徑}}`
 
