@@ -1,7 +1,7 @@
 # ftp
 
-> Interactively transfer files between a local and remote FTP server.
-> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/ftp>.
+> Trasferisci file in modo interattivo tra un server FTP locale e remoto.
+> Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/ftp>.
 
 - Connettiti a un server FTP remoto:
 
