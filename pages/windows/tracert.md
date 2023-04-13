@@ -15,7 +15,7 @@
 
 `tracert -4 {{IP}}`
 
-- Force tracert to use IPv6 only:
+- Force `tracert` to use IPv6 only:
 
 `tracert -6 {{IP}}`
 
