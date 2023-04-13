@@ -1,7 +1,7 @@
 # copyq
 
 > Clipboard manager with advanced features.
-> More information: <https://hluk.github.io/CopyQ/>.
+> More information: <https://copyq.readthedocs.io/en/latest/command-line.html>.
 
 - Launch CopyQ to store clipboard history:
 
