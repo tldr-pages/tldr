@@ -3,7 +3,7 @@
 > Create lightweight "virtual environments" in python.
 > More information: <https://docs.python.org/3/library/venv.html>.
 
-- Create a python virutal environment:
+- Create a python virtual environment:
 
 ` python -m venv {{path/to/new/virtual/environment}}`
 
