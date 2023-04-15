@@ -7,11 +7,11 @@
 
 `eksctl create cluster`
 
-- List the details about a cluster or all of the clusters
+- List the details about a cluster or all of the clusters:
 
 `eksctl get cluster [--name=<name>][--region=<region>]`
 
-- Create a cluster passing all configuration information in a file using `--config-file`
+- Create a cluster passing all configuration information in a file using `--config-file`:
 
 `eksctl create cluster --config-file=<path>`
 
