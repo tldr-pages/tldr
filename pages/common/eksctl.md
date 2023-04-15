@@ -34,4 +34,3 @@
 - Create a cluster and let eksctl manage cluster credentials under `~/.kube/eksctl/clusters` directory:
 
 `eksctl create cluster --name=cluster-3 --nodes=4 --auto-kubeconfig`
-
