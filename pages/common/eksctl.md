@@ -1,6 +1,6 @@
 # eksctl
 
-> The official CLI for Amazon EKS
+> The official CLI for Amazon EKS.
 > More information: <https://eksctl.io/>.
 
 - Create a basic cluster:
@@ -34,8 +34,4 @@
 - Create a cluster and let eksctl manage cluster credentials under `~/.kube/eksctl/clusters` directory:
 
 `eksctl create cluster --name=cluster-3 --nodes=4 --auto-kubeconfig`
-
-- Obtain cluster credentials at any point in time:
-
-`eksctl utils write-kubeconfig --cluster=<name> [--kubeconfig=<path>][--set-kubeconfig-context=<bool>]`
 
