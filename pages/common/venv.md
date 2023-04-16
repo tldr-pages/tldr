@@ -1,6 +1,6 @@
 # venv
 
-> Create lightweight "virtual environments" in python.
+> Create lightweight virtual environments in python.
 > More information: <https://docs.python.org/3/library/venv.html>.
 
 - Create a python virtual environment:
