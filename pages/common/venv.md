@@ -7,9 +7,13 @@
 
 ` python -m venv {{path/to/virtual_environment}}`
 
-- Activate the virtual environment:
+- Activate the virtual environment (Linux and Mac os):
 
-`source {{path/to/new/virtual/environment}}/bin/activate`
+`source {{path/to/virtual_environment}}/bin/activate`
+
+- Activate the virtual environment (Windows):
+
+`{{path\to\virtual_environment}}\Scripts\activate.bat`
 
 - Deactivate the virtual environment:
 
