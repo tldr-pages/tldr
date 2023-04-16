@@ -5,7 +5,7 @@
 
 - Create a python virtual environment:
 
-` python -m venv {{path/to/new/virtual/environment}}`
+` python -m venv {{path/to/virtual_environment}}`
 
 - Activate the virtual environment:
 
