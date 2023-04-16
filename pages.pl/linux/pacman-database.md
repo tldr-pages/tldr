@@ -1,0 +1,29 @@
+# pacman --database
+
+> Operuj na bazie danych pakietów Arch Linuksa.
+> Modyfikuj niektóre atrybuty zainstalowanych pakietów.
+> Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
+
+- Oznacz pakiet jako pośrednio zainstalowany (zależność):
+
+`sudo pacman --database --asdeps {{nazwa_pakietu}}`
+
+- Oznacz pakiet jako bezpośrednio zainstalowany:
+
+`sudo pacman --database --asexplicit {{nazwa_pakietu}}`
+
+- Sprawdź, czy wszystkie zależności pakietów są zainstalowane:
+
+`pacman --database --check`
+
+- Sprawdź repozytoria, aby zapewnić, że wszystkie podane zależności są dostępne:
+
+`pacman --database --check --check`
+
+- Pokaż tylko komunikaty o błędach:
+
+`pacman --database --check --quiet`
+
+- Pokaż pomoc:
+
+`pacman --database --help`
