@@ -20,10 +20,10 @@
 
 `pacman --database --check --check`
 
-- Pokaż tylko komunikaty o błędach:
+- Wyświetlaj tylko komunikaty o błędach:
 
 `pacman --database --check --quiet`
 
-- Pokaż pomoc:
+- Wyświetl pomoc:
 
 `pacman --database --help`
