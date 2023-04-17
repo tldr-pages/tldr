@@ -9,4 +9,4 @@
 
 - Specify a configuration [f]ile:
 
-`clash -f {{path/of/configuration/file}}`
+`clash -f {{path/to/configuration_file}}`
