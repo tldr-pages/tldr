@@ -5,7 +5,7 @@
 
 - Specify a configuration [d]irectory:
 
-`clash -d {{path/of/configuration}}`
+`clash -d {{path/to/directory}}`
 
 - Specify a configuration [f]ile:
 
