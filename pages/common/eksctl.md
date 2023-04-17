@@ -1,7 +1,7 @@
 # eksctl
 
 > The official CLI for Amazon EKS.
-> More information: <https://eksctl.io/>.
+> More information: <https://eksctl.io>.
 
 - Create a basic cluster:
 
@@ -9,11 +9,11 @@
 
 - List the details about a cluster or all of the clusters:
 
-`eksctl get cluster [--name=<name>][--region=<region>]`
+`eksctl get cluster --name={{name}} --region={{region}}`
 
-- Create a cluster passing all configuration information in a file using `--config-file`:
+- Create a cluster passing all configuration information in a file:
 
-`eksctl create cluster --config-file=<path>`
+`eksctl create cluster --config-file={{path/to/file}}`
 
 - Create a cluster using a configuration file and skip creating nodegroups until later:
 
@@ -21,16 +21,16 @@
 
 - Delete a cluster:
 
-`eksctl delete cluster --name=<name> [--region=<region>]`
+`eksctl delete cluster --name={{name}} --region={{region}}`
 
-- Create cluster and write cluster credentials to a file other than default:
+- Create cluster and write cluster credentials to a file other than the default:
 
-`eksctl create cluster --name=cluster-2 --nodes=4 --kubeconfig=./kubeconfig.cluster-2.yaml`
+`eksctl create cluster --name={{name}} --nodes={{4}} --kubeconfig={{path/to/config.yaml}}`
 
 - Create a cluster and prevent storing cluster credentials locally:
 
-`eksctl create cluster --name=cluster-3 --nodes=4 --write-kubeconfig=false`
+`eksctl create cluster --name={{name}} --nodes={{4}} --write-kubeconfig=false`
 
-- Create a cluster and let eksctl manage cluster credentials under `~/.kube/eksctl/clusters` directory:
+- Create a cluster and let `eksctl` manage cluster credentials under the `~/.kube/eksctl/clusters` directory:
 
-`eksctl create cluster --name=cluster-3 --nodes=4 --auto-kubeconfig`
+`eksctl create cluster --name={{name}} --nodes={{4}} --auto-kubeconfig`
