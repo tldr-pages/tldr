@@ -9,7 +9,7 @@
 
 - Elimina importaciones no utilizadas de varios archivos y muestra las diferencias de cada uno de ellos:
 
-`autoflake --remove-all-unused-imports {{archivo1.py}} {{archivo2.py}} {{archivo3.py}}`
+`autoflake --remove-all-unused-imports {{ruta/al/archivo1.py ruta/al/archivo2.py ...}}`
 
 - Elimina variables no utilizadas de un archivo, sobrescribiendo el mismo:
 
