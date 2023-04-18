@@ -5,7 +5,7 @@
 
 - Elimina variables no utilizadas de un único archivo y muestra las diferencias:
 
-`autoflake --remove-unused-variables {{ruta\al\archivo.py}}`
+`autoflake --remove-unused-variables {{ruta/al/archivo.py}}`
 
 - Elimina importaciones no utilizadas de varios archivos y muestra las diferencias de cada uno de ellos:
 
