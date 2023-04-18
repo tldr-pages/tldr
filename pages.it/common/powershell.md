@@ -12,11 +12,11 @@
 
 `powershell -NoProfile`
 
-- Eseguire comandi specifici:
+- Esegui specifici comandi:
 
 `powershell -Command "{{echo 'powershell è eseguito'}}"`
 
-- Esegui uno script specifico:
+- Esegui uno specifico script:
 
 `powershell -File {{percorso/dello/script.ps1}}`
 
@@ -24,14 +24,14 @@
 
 `powershell -Version {{versione}}`
 
-- Impedisce l'uscita di una shell dopo aver eseguito i comandi di avvio:
+- Impedisci l'uscita dalla shell dopo aver eseguito i comandi di avvio:
 
 `powershell -NoExit`
 
-- Descrivi il formato dei dati inviati a PowerShell:
+- Specifica il formato dei dati inviati a PowerShell:
 
 `powershell -InputFormat {{Text|XML}}`
 
-- Determinare come viene formattato un output da PowerShell:
+- Specifica come formattatare l'output da PowerShell:
 
 `powershell -OutputFormat {{Text|XML}}`
