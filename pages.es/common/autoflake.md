@@ -11,7 +11,7 @@
 
 `autoflake --remove-all-unused-imports {{archivo1.py}} {{archivo2.py}} {{archivo3.py}}`
 
-- Elimina variables no utilizadas de un archivo, sobrescribiendo el archivo:
+- Elimina variables no utilizadas de un archivo, sobrescribiendo el mismo:
 
 `autoflake --remove-unused-variables --in-place {{archivo.py}}`
 
