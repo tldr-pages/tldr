@@ -13,7 +13,7 @@
 
 - Elimina variables no utilizadas de un archivo, sobrescribiendo el mismo:
 
-`autoflake --remove-unused-variables --in-place {{archivo.py}}`
+`autoflake --remove-unused-variables --in-place {{ruta/al/archivo.py}}`
 
 - Elimina variables no utilizadas recursivamente de todos los archivos en un directorio, sobrescribiendo cada uno de ellos:
 
