@@ -18,7 +18,7 @@
 
 - Einen Host für eine bestimmte Anzahl pingen:
 
-`arping -c {{Anzahl}} {{host_adresse}}`
+`arping -c {{anzahl}} {{host_adresse}}`
 
 - ARP Request Packete broadcasten um die ARP Caches der Nachbarn zu aktualisieren:
 
