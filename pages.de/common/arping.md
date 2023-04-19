@@ -12,7 +12,7 @@
 
 `arping -I {{interface}} {{host_adresse}}`
 
-- Einen Host pungen und nach der ersten Antwort aufhören:
+- Pinge einen Host und höre nach der ersten Antwort auf:
 
 `arping -f {{host_adresse}}`
 
