@@ -15,6 +15,6 @@
 
 `arp-scan {{adresse_a}}-{{adresse_b}}`
 
-- Ein IP Netzwerk mit einer benutzerdefinierten Netzmaske scannen:
+- Scanne ein IP Netzwerk mit einer benutzerdefinierten Netzmaske:
 
 `arp-scan {{adresse}}:{{netzwerkmaske}}`
