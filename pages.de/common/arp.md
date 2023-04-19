@@ -3,7 +3,7 @@
 > Den ARP Cache des Systems anzeigen und manipulieren.
 > Weitere Informationen: <https://manned.org/arp>.
 
-- Die aktuelle ARP Tabelle anzeigen lassen:
+- Zeige die aktuelle ARP Tabelle an:
 
 `arp -a`
 
