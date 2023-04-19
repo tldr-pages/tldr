@@ -16,7 +16,7 @@
 
 `arping -f {{host_adresse}}`
 
-- Einen Host für eine bestimmte Anzahl pingen:
+- Pinge einen Host für eine bestimmte Anzahl:
 
 `arping -c {{anzahl}} {{host_adresse}}`
 
