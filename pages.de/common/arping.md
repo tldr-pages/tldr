@@ -4,7 +4,7 @@
 > Nützlich für die Entdeckung von MAC-Adressen.
 > Weitere Informationen: <https://github.com/ThomasHabets/arping>.
 
-- Mit ARP Requests Paketen einen Host pingen:
+- Pinge einen Host mit ARP Request Paketen:
 
 `arping {{host_adresse}`
 
