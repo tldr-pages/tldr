@@ -20,7 +20,7 @@
 
 `arping -c {{anzahl}} {{host_adresse}}`
 
-- ARP Request Packete broadcasten um die ARP Caches der Nachbarn zu aktualisieren:
+- Broadcaste ARP Request Pakete um die ARP Caches der Nachbarn zu aktualisieren:
 
 `arping -U {{broadcast_adresse}}`
 
