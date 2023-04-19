@@ -7,7 +7,7 @@
 
 `arp-scan --localnet`
 
-- Ein IP Netzwerk mit einer benutzerdefinierten Bitmaske scannen:
+- Scanne ein IP Netzwerk mit einer benutzerdefinierten Bitmaske:
 
 `arp-scan {{netzwerk_adresse}}/{{netzwerk_subnet}}`
 
