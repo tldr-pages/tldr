@@ -15,6 +15,6 @@
 
 `arp -d {{addresse}}`
 
-- Einen Eintrag in der ARP Tabelle erstellen:
+- Erstelle einen Eintrag in der ARP Tabelle:
 
 `arp -s {{adresse}} {{mac_adresse}}`
