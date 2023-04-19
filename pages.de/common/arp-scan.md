@@ -11,7 +11,7 @@
 
 `arp-scan {{netzwerk_adresse}}/{{netzwerk_subnet}}`
 
-- Ein IP Netzwerk innerhalb einer benutzerdefinierten Range scannen:
+- Scanne ein IP Netzwerk innerhalb einer benutzerdefinierten Range:
 
 `arp-scan {{adresse_a}}-{{adresse_b}}`
 
