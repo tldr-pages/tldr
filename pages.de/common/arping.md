@@ -8,7 +8,7 @@
 
 `arping {{host_adresse}`
 
-- Einen Host auf einem spezifizierten Interface pingen:
+- Pinge einen Host auf einem spezifizierten Interface:
 
 `arping -I {{interface}} {{host_adresse}}`
 
