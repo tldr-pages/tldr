@@ -11,7 +11,7 @@
 
 `sudo arp -a -d`
 
-- Einen spezifizierten Eintrag in der Tabelle löschen:
+- Lösche einen spezifischen Eintrag in der Tabelle:
 
 `arp -d {{addresse}}`
 
