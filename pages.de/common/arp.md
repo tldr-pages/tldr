@@ -7,7 +7,7 @@
 
 `arp -a`
 
-- Den gesamten Cache leeren:
+- Leere den gesamten Cache:
 
 `sudo arp -a -d`
 
