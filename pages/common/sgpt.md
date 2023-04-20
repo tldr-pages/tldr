@@ -3,7 +3,7 @@
 > A command-line productivity tool powered by OpenAI's GPT models.
 > More information: <https://github.com/TheR1D/shell_gpt#readme>.
 
--  Use it as normal `Search Engine`, asking for mass of the sun:
+- Use it as normal `Search Engine`, asking for mass of the sun:
 
 `sgpt "mass of the sun"`
 
