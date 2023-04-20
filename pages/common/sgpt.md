@@ -13,7 +13,7 @@
 
 - Generate code, solving classic fizz buzz problem:
 
-`sgpt --code "{{Solve fizz buzz problem using Python}}"`
+`sgpt --code "{{solve fizz buzz problem using Python}}"`
 
 - Start a chat session with a unique session name:
 
