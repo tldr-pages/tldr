@@ -4,10 +4,6 @@
 > See `tldr nix3 flake` for information about flakes.
 > More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-registry.html>.
 
-- See documentation about what Nix flake registries are:
-
-`nix registry --help`
-
 - Pin the `nixpkgs` revision to the current version of the upstream repository:
 
 `nix registry pin {{nixpkgs}}`
@@ -23,3 +19,7 @@
 - Remove a registry entry:
 
 `nix registry remove {{entry}}`
+
+- See documentation about what Nix flake registries are:
+
+`nix registry --help`
