@@ -1,7 +1,8 @@
 # nix store
 
 > Manipulate the Nix store.
-> Not to be confused with `nix-store` (see `tldr nix-store`).
+> See also: `tldr nix-store`.
+> More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-store.html>.
 
 - Collect garbage, i.e. remove unused paths to reduce space usage:
 

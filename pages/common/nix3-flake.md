@@ -1,7 +1,7 @@
 # nix flake
 
 > Manage Nix flakes.
-> See <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake.html> for more information about flakes and how to write your own.
+> More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake.html>.
 
 - See documentation about what Nix flakes are:
 

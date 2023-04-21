@@ -1,8 +1,7 @@
 # Nix classic interface
 
 > A classic, stable interface to a powerful package manager that makes package management reliable, reproducible, and declarative.
-> For an improved, experimental interface, see `tldr nix`.
-> Some Nix commands such as `nix-build`, `nix-shell`, `nix-env`, and `nix-store` have their own pages.
+> Some Nix commands such as `nix-build`, `nix-shell`, `nix-env`, and `nix-store` have their own pages. See also: `tldr nix`.
 > More information: <https://nixos.org>.
 
 - Search for a package in nixpkgs via its name:

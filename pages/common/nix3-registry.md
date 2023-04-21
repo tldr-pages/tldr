@@ -1,7 +1,7 @@
 # nix registry
 
 > Manage a Nix flake registry.
-> See https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-registry.html for more information about Nix flake registries.
+> More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-registry.html>.
 > See `tldr nix3 flake` for information about flakes.
 
 - See documentation about what Nix flake registries are:

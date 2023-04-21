@@ -1,8 +1,8 @@
 # nix build
 
-> Build (downloading from cache when possible) a Nix expression.
-> Not to be confused with `nix-build` (see `tldr nix-build`).
-> See `tldr nix3 flake` for information about flakes.
+> Build a Nix expression (downloading from the cache when possible).
+> See also: `tldr nix-build`. See `tldr nix3 flake` for information about flakes.
+> More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-build.html>.
 
 - Build a package from nixpkgs, symlinking the result to `./result`:
 

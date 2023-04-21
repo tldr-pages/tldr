@@ -1,22 +1,21 @@
 # nix
 
 > Powerful package manager that makes package management reliable, reproducible, and declarative.
-> The `nix` command-line utility is experimental, and requires enabling experimental features (see below).
-> For a classic, stable interface, see `tldr nix classic`.
-> Some `nix` subcommands such as `build`, `develop`, `flake`, `registry`, `profile`, `search`, `repl`, `store`, `edit`, `why-depends` etc. have their own usage documentation, accessible via `tldr nix3 subcommand` (note the `nix3`).
+> The `nix` command-line utility is experimental and requires enabling experimental features. For a classic, stable interface, see `tldr nix classic`.
+> Some `nix` subcommands such as `build`, `develop`, `flake`, `registry`, `profile`, `search`, `repl`, `store`, `edit`, `why-depends` etc. have their own usage documentation, accessible via `tldr nix3 subcommand`.
 > More information: <https://nixos.org/manual/nix>.
 
 - Enable the `nix` command:
 
 `mkdir -p ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
 
-- Get help on a `nix` subcommand:
+- Display help for the `nix` subcommand:
 
 `nix help {{subcommand}}`
 
 - Search for a package in nixpkgs via its name or description:
 
-`nix search nixpkgs {{search_term ...}}`
+`nix search nixpkgs {{search_term}}`
 
 - Start a shell with the specified packages from nixpkgs available:
 
