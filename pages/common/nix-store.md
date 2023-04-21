@@ -4,7 +4,7 @@
 > See also: `tldr nix3 store`.
 > More information: <https://nixos.org/manual/nix/stable/command-ref/nix-store.html>.
 
-- Collect garbage, i.e. remove unused paths to reduce space usage:
+- Collect garbage, such as removing unused paths:
 
 `nix-store --gc`
 
