@@ -23,6 +23,14 @@
 
 `adb logcat *:W`
 
+- Muestra los registros de un proceso específico:
+
+`adb logcat --pid={{pid}}`
+
+- Muestra los registros del proceso de un paquete específico:
+
+`adb logcat --pid=$(adb shell pidof -s {{paquete}})`
+
 - Colorea el registro (normalmente se utiliza con filtros):
 
 `adb logcat -v color`

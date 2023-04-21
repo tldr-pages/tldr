@@ -131,13 +131,13 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - Axel Navarro ([@navarroaxel](https://github.com/navarroaxel)):
   [5 October 2020](https://github.com/tldr-pages/tldr/issues/4504) — [7 April 2021](https://github.com/tldr-pages/tldr/issues/5703)
 - bl-ue ([@bl-ue](https://github.com/bl-ue)):
-  [2 February 2021](https://github.com/tldr-pages/tldr/issues/5219) — [25 June 2021](https://gitter.im/tldr-pages/tldr?at=60d615598a40b117282a96d7)
+  [2 February 2021](https://github.com/tldr-pages/tldr/issues/5219) — [25 June 2021](https://matrix.to/#/!zXiOpjSkFTvtMpsenJ:gitter.im/$qCyBANu8Ub_GKJgwh0zKlVSgWASLYxYJXBn4NDEEQPw)
 - CleanMachine1 ([@CleanMachine1](https://github.com/CleanMachine1)):
   [14 June 2021](https://github.com/tldr-pages/tldr/issues/6123) — [14 December 2021](https://github.com/tldr-pages/tldr/issues/7541)
 - Marcher Simon ([@marchersimon](https://github.com/marchersimon)):
   [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722) — [9 August 2022](https://github.com/tldr-pages/tldr/issues/7540)
 - Emily Grace Seville ([@EmilySeville7cfg](https://github.com/EmilySeville7cfg)):
-  [25 April 2022](https://github.com/tldr-pages/tldr/issues/8053) — [12 January 2022](https://gitter.im/tldr-pages/tldr?at=63bf282dd8678973f9aa90bb)
+  [25 April 2022](https://github.com/tldr-pages/tldr/issues/8053) — [12 January 2022](https://matrix.to/#/!zXiOpjSkFTvtMpsenJ:gitter.im/$n3Jk7mhIzG6edTVUv6MkAoX_1N5z5MPRj2hclyrfKBI)
 
 ## Organization owners
 
@@ -148,9 +148,9 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Romain Prieto ([@rprieto](https://github.com/rprieto))**:
   created the project on [8 December 2013](https://github.com/tldr-pages/tldr/commit/11264d9b19000734a2d35ecbdbdebc0b0b45aed9)
 - **Agniva De Sarker ([@agnivade](https://github.com/agnivade))**:
-  [27 September 2016](https://gitter.im/tldr-pages/tldr?at=57eaedefe4e41c6a4afc2f47) — present
+  [21 September 2016](https://github.com/tldr-pages/tldr/issues/9899) — present
 - **Starbeamrainbowlabs ([@sbrl](https://github.com/sbrl))**:
-  [23 April 2017](https://gitter.im/tldr-pages/tldr?at=58fc6fce3e27cac331b5c397) — present
+  [19 April 2017](https://github.com/tldr-pages/tldr/issues/9899) — present
 - **Owen Voke ([@owenvoke](https://github.com/owenvoke))**
   [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989) — present
 - **Marco Bonelli ([@mebeim](https://github.com/mebeim))**:

@@ -3,26 +3,34 @@
 > Run programs in transient scope units, service units, or path-, socket-, or timer-triggered service units.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-run.html>.
 
-- Run a program as root:
+- Start a transient service:
 
-`systemd-run {{executable}}`
+`sudo systemd-run {{command}} {{argument1 argument2 ...}}`
 
-- Run a program in the user service, keeping the working [d]irectory and waiting until it exits:
+- Start a transient service under the service manager of the current user (no privileges):
 
-`systemd-run --user -d {{executable}}`
+`systemd-run --user {{command}} {{argument1 argument2 ...}}`
 
-- Provide a custom [u]nit name and pass extra parameters:
+- Start a transient service with a custom unit name and description:
 
-`systemd-run -u {{unit_name}} -- {{executable}} {{argument1 argument2 ...}}`
+`sudo systemd-run --unit={{name}} --description={{string}} {{command}} {{argument1 argument2 ...}}`
 
-- Share the [t]erminal with the program (allowing interactive input/output) and make sure the execution details [r]emain after the program exits:
+- Start a transient service that does not get cleaned up after it terminates with a custom environment variable:
 
-`systemd-run -rt {{executable}}`
+`sudo systemd-run --remain-after-exit --set-env={{name}}={{value}} {{command}} {{argument1 argument2 ...}}`
 
-- Set [p]roperties (e.g. CPUQuota, MemoryMax) of the process and wait until it exits:
+- Start a transient timer that periodically runs its transient service (see `man systemd.time` for calendar event format):
 
-`systemd-run -p MemoryMax={{memory_in_bytes}} -p CPUQuota={{percentage_of_CPU_time}}% --wait {{executable}}`
+`sudo systemd-run --on-calendar={{calendar_event}} {{command}} {{argument1 argument2 ...}}`
 
-- Use the program in a shell [P]ipeline:
+- Share the terminal with the program (allowing interactive input/output) and make sure the execution details remain after the program exits:
 
-`{{executable1}} | systemd-run -P {{executable2}} | {{executable3}}`
+`systemd-run  --remain-after-exit --pty {{executable}}`
+
+- Set properties (e.g. CPUQuota, MemoryMax) of the process and wait until it exits:
+
+`systemd-run --property MemoryMax={{memory_in_bytes}} --property CPUQuota={{percentage_of_CPU_time}}% --wait {{executable}}`
+
+- Use the program in a shell pipeline:
+
+`{{executable1}} | systemd-run --pipe {{executable2}} | {{executable3}}`
