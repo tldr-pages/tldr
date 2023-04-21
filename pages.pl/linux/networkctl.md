@@ -14,15 +14,15 @@
 
 - Włącz urządzenia sieciowe:
 
-`networkctl up {{interfejs1}} {{interfejs2}}`
+`networkctl up {{interfejs1 interfejs2 ...}}`
 
 - Wyłącz urządzenia sieciowe:
 
-`networkctl down {{interfejs1}} {{interfejs2}}`
+`networkctl down {{interfejs1 interfejs2 ...}}`
 
 - Odnów konfiguracje dynamiczne (np. adresy IP przydzielone przez serwer DHCP):
 
-`networkctl renew {{interfejs1}} {{interfejs2}}`
+`networkctl renew {{interfejs1 interfejs2 ...}}`
 
 - Przeładuj pliki konfiguracyjne (.netdev i .network):
 
@@ -30,4 +30,4 @@
 
 - Rekonfiguruj interfejsy sieciowe (jeżeli pliki konfiguracyjne były edytowane, najpierw uruchom `networkctl reload`):
 
-`networkctl reconfigure {{interfejs1}} {{interfejs2}}`
+`networkctl reconfigure {{interfejs1 interfejs2 ...}}`
