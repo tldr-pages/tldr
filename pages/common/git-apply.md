@@ -1,6 +1,7 @@
 # git apply
 
-> Apply a patch to files and/or to the index.
+> Apply a patch to files and/or to the index without creating a commit.
+> See also `git am`, which applies a patch and also creates a commit.
 > More information: <https://git-scm.com/docs/git-apply>.
 
 - Print messages about the patched files:
@@ -13,7 +14,7 @@
 
 - Apply a remote patch file:
 
-`curl {{https://example.com/file.patch}} | git apply`
+`curl -L {{https://example.com/file.patch}} | git apply`
 
 - Output diffstat for the input and apply the patch:
 
