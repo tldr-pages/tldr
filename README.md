@@ -2,21 +2,21 @@
   <h1><a href="https://tldr.sh/"><img alt="tldr-pages" src="images/banner.png" width=600/></a></h1>
 
 [![Build status][github-actions-image]][github-actions-url]
-[![Gitter chat][gitter-image]][gitter-url]
+[![Matrix chat][matrix-image]][matrix-url]
 [![Merged PRs][prs-merged-image]][prs-merged-url]
 [![GitHub contributors][contributors-image]][contributors-url]
 [![license][license-image]][license-url]
 
 [github-actions-url]: https://github.com/tldr-pages/tldr/actions
-[github-actions-image]: https://img.shields.io/github/actions/workflow/status/tldr-pages/tldr/ci.yml?branch=main
-[gitter-url]: https://gitter.im/tldr-pages/tldr
-[gitter-image]: https://img.shields.io/badge/chat-on_gitter-deeppink
+[github-actions-image]: https://img.shields.io/github/actions/workflow/status/tldr-pages/tldr/ci.yml?branch=main&label=Build
+[matrix-url]: https://matrix.to/#/#tldr-pages:matrix.org
+[matrix-image]: https://img.shields.io/matrix/tldr-pages:matrix.org?label=Chat+on+Matrix
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
-[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs&color=green
+[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=Merged+PRs&color=green
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
-[contributors-image]: https://img.shields.io/github/contributors-anon/tldr-pages/tldr.svg
+[contributors-image]: https://img.shields.io/github/contributors-anon/tldr-pages/tldr.svg?label=Contributors
 [license-url]: https://github.com/tldr-pages/tldr/blob/main/LICENSE.md
-[license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg
+[license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg?label=License
 </div>
 
 ## What is tldr-pages?
@@ -93,12 +93,6 @@ Some ways to contribute include:
 All `tldr` pages are written in markdown, so they can be edited quite easily and changes can be submitted in
 pull requests here using Git on the command-line or
 using the GitHub web interface.
-
-But we already have some plugins for different editors to enhance the tldr page editing experience:
-
-- [Emacs](https://github.com/tldr-pages/tldr-emacs-extension)
-
-For editors without a plugin system, we provide a set of configurations in a [separate repo](https://github.com/tldr-pages/tldr-editor-configs).
 
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
 If it's your first time contributing, have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!

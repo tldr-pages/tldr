@@ -126,7 +126,7 @@ using one of the template messages below as a base.
    According to our [community roles documentation](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md), you've now met the thresholds to be effectively considered an active maintainer of the project.
    To publicly acknowledge that fact, we'd like to add you to the tldr-pages organization.
 
-   If you accept the invitation, we ask you to make your membership public, and (in case you don't already) start hanging out in our Gitter chat room.
+   If you accept the invitation, we ask you to make your membership public, and (in case you don't already) start hanging out in our [Matrix chat room](https://matrix.to/#/#tldr-pages:matrix.org).
    Additionally, consider subscribing to the notifications from the various repositories under the [tldr-pages organization](https://github.com/tldr-pages).
    As one of the public faces of the tldr-pages project, it's also especially important that you follow and encourage the [project
    governance principles](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md).

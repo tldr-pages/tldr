@@ -14,3 +14,7 @@
 - Monitor "node" processes, refreshing every 3 seconds:
 
 `watch -n {{3}} "{{ps aux | grep node}}"`
+
+- Monitor disk space and if it changes, stop monitoring:
+
+`watch -g {{df}}`

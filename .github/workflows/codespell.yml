@@ -11,7 +11,7 @@ jobs:
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v26.1
+        uses: tj-actions/changed-files@v35.7.11
         with:
           # Ignore all other languages except English
           files_ignore: |

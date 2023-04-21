@@ -21,7 +21,7 @@
 
 - Ask GPT to review your code using a specific model:
 
-`rgpt --model {{text-davinci-003}} --i "$(git diff {{path/to/file}})"`
+`rgpt --model {{davinci}} --i "$(git diff {{path/to/file}})"`
 
 - Make `rgpt` use a JSON output:
 
