@@ -9,4 +9,4 @@
 
 - Criar uma imagem ISO com arquivos maiores que 4GB:
 
-`genisoimage -o -allow-limited-size {{minhaimagem.iso} {{caminho/para/a/pasta/}}`
+`genisoimage -o -allow-limited-size {{minhaimagem.iso}} {{caminho/para/a/pasta}}`
