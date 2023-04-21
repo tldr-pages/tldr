@@ -24,7 +24,7 @@
 
 `rsync -r {{remote_host}}:{{path/to/remote_directory}}/ {{path/to/local_directory}}`
 
-- Transfer a directory [r]ecursively, in [a]rchive (to preserve attributes), resolving contained soft[L]inks, and ignoring already transferred files [u]nless newer:
+- Transfer a directory [r]ecursively, in [a]rchive (to preserve attributes), resolving contained sym[L]inks, and ignoring already transferred files [u]nless newer:
 
 `rsync -rauL {{remote_host}}:{{path/to/remote_directory}} {{path/to/local_directory}}`
 
