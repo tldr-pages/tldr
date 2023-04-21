@@ -7,6 +7,6 @@
 
 `avahi-resolve -4 --name {{service.local}}`
 
-- Resolve an IP to a host name, verbosely:
+- Resolve an IP to a hostname, verbosely:
 
 `avahi-resolve --verbose --address {{IP}}`
