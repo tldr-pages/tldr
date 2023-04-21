@@ -5,7 +5,7 @@
 
 - Create an ISO image:
 
-`genisoimage -o {{myimage.iso} {{path/to/directory/}}`
+`genisoimage -o {{myimage.iso}} {{path/to/directory}}`
 
 - Create an ISO image with files larger than 4GB:
 
