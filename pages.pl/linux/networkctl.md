@@ -20,7 +20,7 @@
 
 `networkctl down {{interfejs1}} {{interfejs2}}`
 
-- Odnów konfiguracje dynamiczne (np. adresy przydzielone przez serwer DHCP):
+- Odnów konfiguracje dynamiczne (np. adresy IP przydzielone przez serwer DHCP):
 
 `networkctl renew {{interfejs1}} {{interfejs2}}`
 
