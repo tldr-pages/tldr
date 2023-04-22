@@ -4,7 +4,7 @@
 > Protocolos soportados HTTP, HTTPS y FTP.
 > Más información: <https://github.com/axel-download-accelerator/axel>.
 
-- Descarga una URL a un archivo:
+- Descarga un archivo alojado en una URL pública:
 
 `axel {{url}}`
 
