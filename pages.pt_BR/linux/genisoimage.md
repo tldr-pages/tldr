@@ -7,6 +7,6 @@
 
 `genisoimage -o {{minhaimagem.iso}} {{caminho/para/diretório_origem}`
 
-- Criar uma imagem ISO com arquivos maiores que 4GB a partir do diretório de origem fornecido:
+- Criar uma imagem ISO com arquivos maiores que 2GiB a partir do diretório de origem fornecido:
 
 `genisoimage -o -allow-limited-size {{minhaimagem.iso}} {{caminho/para/diretório_origem}}`

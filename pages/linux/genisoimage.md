@@ -7,6 +7,6 @@
 
 `genisoimage -o {{myimage.iso}} {{path/to/source_directory}}`
 
-- Create an ISO image with files larger than 4GB from the given source directory:
+- Create an ISO image with files larger than 2GiB from the given source directory:
 
 `genisoimage -o -allow-limited-size {{myimage.iso}} {{path/to/source_directory}}`
