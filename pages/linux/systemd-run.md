@@ -25,7 +25,7 @@
 
 - Share the terminal with the program (allowing interactive input/output) and make sure the execution details remain after the program exits:
 
-`systemd-run  --remain-after-exit --pty {{command}}`
+`systemd-run --remain-after-exit --pty {{command}}`
 
 - Set properties (e.g. CPUQuota, MemoryMax) of the process and wait until it exits:
 
