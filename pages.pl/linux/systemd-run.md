@@ -25,7 +25,7 @@
 
 - Udostępnij terminal programowi (umożliwiając interaktywne wejście/wyjście) i zapewnij, że szczegóły wykonania pozostaną po zakończeniu programu:
 
-`systemd-run  --remain-after-exit --pty {{komenda}}`
+`systemd-run --remain-after-exit --pty {{komenda}}`
 
 - Ustaw właściwości (np. CPUQuota, MemoryMax) procesu i poczekaj, aż się zakończy:
 
