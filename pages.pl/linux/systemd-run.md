@@ -1,7 +1,7 @@
 # systemd-run
 
-> Uruchamiaj programy w jednostkach przejściowych.
-> Więcej informacji: <https://manned.org/systemd-run>.
+> Uruchamiaj programy w przejściowych jednostkach zakresu, jednostkach usługowych lub jednostkach usługowych uruchamianych przez ścieżkę, gniazdo lub timer.
+> Więcej informacji: <https://www.freedesktop.org/software/systemd/man/systemd-run.html>.
 
 - Uruchom przejściową usługę:
 
@@ -22,3 +22,15 @@
 - Uruchom przejściowy timer, który okresowo uruchamia swoją przejściową usługę (zobacz `man systemd.time`, aby zapoznać się z formatem wydarzeń kalendarza):
 
 `sudo systemd-run --on-calendar={{wydarzenie_kalendarza}} {{komenda}} {{argument1 argument2 ...}}`
+
+- Udostępnij terminal programowi (umożliwiając interaktywne wejście/wyjście) i zapewnij, że szczegóły wykonania pozostaną po zakończeniu programu:
+
+`systemd-run  --remain-after-exit --pty {{komenda}}`
+
+- Ustaw właściwości (np. CPUQuota, MemoryMax) procesu i poczekaj, aż się zakończy:
+
+`systemd-run --property MemoryMax={{pamięć_w_bajtach}} --property CPUQuota={{procent_czasu_CPU}}% --wait {{komenda}}`
+
+- Użyj programu w potoku powłoki:
+
+`{{komenda1}} | systemd-run --pipe {{komenda2}} | {{komenda3}}`
