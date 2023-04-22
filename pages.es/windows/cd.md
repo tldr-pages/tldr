@@ -7,14 +7,18 @@
 
 `cd`
 
+- Ir a la raíz de la unidad actual:
+
+`cd \`
+
 - Mover al directorio superior:
 
 `cd ..`
 
 - Mover a un directorio específico en el mismo disco:
 
-`cd {{ruta/al/directorio}}`
+`cd {{ruta\al\directorio}}`
 
 - Mover a un directorio específico en otro disco:
 
-`cd /d {{C}}:{{ruta/al/directorio}}`
+`cd /d {{C}}:{{ruta\al\directorio}}`
