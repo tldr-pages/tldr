@@ -17,7 +17,7 @@
 
 - Decompress a Brotli file specifying the output filename:
 
-`brotli -d {{path/to/compressed_file.ext.br}} -o {{path/to/file.ext}}`
+`brotli -d {{path/to/compressed_file.ext.br}} -o {{path/to/output_file.ext}}`
 
 - Specify the compression level [1=Fastest (Worst), 11=Slowest (Best)]:
 
