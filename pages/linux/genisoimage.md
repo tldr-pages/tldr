@@ -7,6 +7,6 @@
 
 `genisoimage -o {{myimage.iso}} {{path/to/source_directory}}`
 
-- Create an ISO image with files larger than 2GiB by reporting a smaller visible size in the ISO9660 file system and the correct actual size in the UDF file system:
+- Create an ISO image with files larger than 2GiB by reporting a smaller apparent size for ISO9660:
 
 `genisoimage -o -allow-limited-size {{myimage.iso}} {{path/to/source_directory}}`
