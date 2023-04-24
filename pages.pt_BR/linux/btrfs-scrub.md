@@ -1,7 +1,7 @@
 # btrfs scrub
 
-> Varre os sistemas de arquivos btrfs para verificar a integridade dos dados. 
-> Recomenda-se fazer uma varredura uma vez por mês. 
+> Varre os sistemas de arquivos btrfs para verificar a integridade dos dados.
+> Recomenda-se fazer uma varredura uma vez por mês.
 > Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html>.
 
 - Começa uma varredura:
