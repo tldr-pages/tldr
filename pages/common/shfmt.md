@@ -1,7 +1,7 @@
 # shfmt
 
 > A shell parser, formatter and interpreter.
-> More information: <https://pkg.go.dev/mvdan.cc/sh/v3>
+> More information: <https://pkg.go.dev/mvdan.cc/sh/v3>.
 
 - Print to terminal a formatted version of the shell script
 
