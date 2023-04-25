@@ -11,10 +11,10 @@
 
 `shfmt --list {{path/to/directory}}`
 
-- Write result to file instead of printing to terminal:
+- Write result to the file instead of printing it to the terminal:
 
 `shfmt --write {{path/to/file}}`
 
-- Simplify the code:
+- Simplify the code, removing redundant pieces of syntax (i.e. removing "$" from vars in expressions):
 
 `shfmt --simplify {{path/to/file}}`
