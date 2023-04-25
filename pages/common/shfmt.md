@@ -3,7 +3,7 @@
 > A shell parser, formatter and interpreter.
 > More information: <https://pkg.go.dev/mvdan.cc/sh/v3>.
 
-- Print to terminal a formatted version of the shell script
+- Print to terminal a formatted version of the shell script:
 
 `shfmt {{path/to/file}}`
 
@@ -11,10 +11,10 @@
 
 `shfmt --list {{path/to/directory}}`
 
-- Write result to file instead of printing to terminal
+- Write result to file instead of printing to terminal:
 
 `shfmt --write {{path/to/file}}`
 
-- Simplify the code
+- Simplify the code:
 
 `shfmt --simplify {{path/to/file}}`
