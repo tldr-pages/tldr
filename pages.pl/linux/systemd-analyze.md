@@ -14,11 +14,11 @@
 
 - Utwórz plik SVG pokazujący kiedy każda usługa wystartowała, zaznaczając czas wykorzystany na inicjalizację:
 
-`systemd-analyze plot > {{path/to/file.svg}}`
+`systemd-analyze plot > {{ścieżka/do/pliku.svg}}`
 
 - Sporządź wykres zależności i przekonwertuj go do pliku SVG:
 
-`systemd-analyze dot | dot -T{{svg}} > {{path/to/file.svg}}`
+`systemd-analyze dot | dot -T{{svg}} > {{ścieżka/do/pliku.svg}}`
 
 - Wyświetl wyniki bezpieczeństwa działających jednostek:
 
