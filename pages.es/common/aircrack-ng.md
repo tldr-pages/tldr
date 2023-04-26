@@ -10,7 +10,7 @@
 
 - Descifra la clave del archivo de captura utilizando [w]ordlist y el [e]ssid del punto de acceso:
 
-`aircrack-ng -w {{ruta/a/lista.txt}} -e {{essid}} {{ruta/a/captura.cap}}`
+`aircrack-ng -w {{ruta/al/lista.txt}} -e {{essid}} {{ruta/al/captura.cap}}`
 
 - Descifra la clave del archivo de captura utilizando [w]ordlist y la dirección MAC del punto de acceso:
 
