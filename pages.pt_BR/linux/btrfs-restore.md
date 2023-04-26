@@ -3,7 +3,7 @@
 > Tenta salvar arquivos de um sistema de arquivos btrfs danificado.
 > Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs-restore.html>.
 
-- Restaura todos os arquivos de um sistema de arquivos btrfs para um determinado diretório:
+- Restaurar todos os arquivos de um sistema de arquivos btrfs para um determinado diretório:
 
 `sudo btrfs restore {{caminho/para/dispositivo_btrfs}} {{caminho/para/diretório_alvo}}`
 
