@@ -18,7 +18,7 @@
 
 - Lista disparadores:
 
-`aws glue list-triggers` 
+`aws glue list-triggers`
 
 - Inicia un disparador:
 
