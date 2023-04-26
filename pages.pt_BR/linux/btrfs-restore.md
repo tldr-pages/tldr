@@ -7,7 +7,7 @@
 
 `sudo btrfs restore {{caminho/para/dispositivo_btrfs}} {{caminho/para/diretório_alvo}}`
 
-- Lista (não escreve) os arquivos a serem restaurados de um sistema de arquivos btrfs:
+- Listar (sem escrever) os arquivos a serem restaurados de um sistema de arquivos btrfs:
 
 `sudo btrfs restore --dry-run {{caminho/para/dispositivo_btrfs}} {{caminho/para/diretório_alvo}}`
 
