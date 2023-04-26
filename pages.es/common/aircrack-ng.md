@@ -6,7 +6,7 @@
 
 - Crackea la clave desde el archivo de captura usando [w]ordlist:
 
-`aircrack-ng -w {{ruta/a/lista.txt}} {{ruta/a/captura.cap}}`
+`aircrack-ng -w {{ruta/al/lista.txt}} {{ruta/al/captura.cap}}`
 
 - Descifra la clave del archivo de captura utilizando [w]ordlist y el [e]ssid del punto de acceso:
 
