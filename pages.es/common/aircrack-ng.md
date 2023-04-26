@@ -14,4 +14,4 @@
 
 - Descifra la clave del archivo de captura utilizando [w]ordlist y la dirección MAC del punto de acceso:
 
-`aircrack-ng -w {{ruta/a/lista.txt}} --bssid {{mac}} {{ruta/a/captura.cap}}`
+`aircrack-ng -w {{ruta/al/lista.txt}} --bssid {{mac}} {{ruta/al/captura.cap}}`
