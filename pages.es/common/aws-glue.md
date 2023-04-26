@@ -26,4 +26,4 @@
 
 - Crea un punto final de desarrollo:
 
-`aws glue create-dev-endpoint --endpoint-name {{nombre}} --role-arn {{role_arn_usado_por_puntofinaldesarrollo}}`
+`aws glue create-dev-endpoint --endpoint-name {{nombre}} --role-arn {{role_arn_usado_por_puntofinal}}`
