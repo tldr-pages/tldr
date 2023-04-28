@@ -5,12 +5,12 @@
 
 - Fold lines in a fixed width:
 
-`fold -w {{width}} {{path/to/file}}`
+`fold --width {{width}} {{path/to/file}}`
 
 - Count width in bytes (the default is to count in columns):
 
-`fold -b -w {{width_in_bytes}} {{path/to/file}}`
+`fold --bytes --width {{width_in_bytes}} {{path/to/file}}`
 
 - Break the line after the rightmost blank within the width limit:
 
-`fold -s -w {{width}} {{path/to/file}}`
+`fold --spaces --width {{width}} {{path/to/file}}`
