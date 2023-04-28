@@ -33,6 +33,10 @@
 
 `pacman -Qtdq`
 
+- Uninstall unneeded packages:
+
+`sudo pacman -Rns $(pacman -Qtdq)`
+
 - Empty the entire pacman cache:
 
 `sudo pacman -Scc`
