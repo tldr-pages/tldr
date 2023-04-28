@@ -1,6 +1,7 @@
 # pacman-key
 
 > Skrypt opakowujący dla GnuPG używany do zarządzania pękiem kluczy pacmana.
+> Zobacz także: `pacman`.
 > Więcej informacji: <https://man.archlinux.org/man/pacman-key>.
 
 - Zainicjalizuj pęk kluczy pacmana:

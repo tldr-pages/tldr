@@ -2,6 +2,7 @@
 
 > Wygeneruj listę serwerów lustrzanych dla Manjaro Linuksa.
 > Każde uruchomienie pacman-mirrors wymaga zsynchronizowanej bazy danych oraz zaktualizowania systemu używając `sudo pacman -Syyu`.
+> Zobacz także: `pacman`.
 > Więcej informacji: <https://wiki.manjaro.org/index.php?title=Pacman-mirrors>.
 
 - Wygeneruj listę serwerów lustrzanych używając domyślnych ustawień:

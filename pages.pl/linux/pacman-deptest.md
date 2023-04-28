@@ -1,6 +1,7 @@
 # pacman --deptest
 
-> Sprawdź każdą podaną zależność i zwróć listę zależności, które nie są aktualnie spełnione.
+> Sprawdź każdą podaną zależność i zwróć listę zależności, które nie są aktualnie spełnione.
+> Zobacz także: `pacman`.
 > Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
 
 - Wyświetl nazwy zależności, które nie są zainstalowane:

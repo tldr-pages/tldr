@@ -1,6 +1,7 @@
 # pacman --remove
 
 > Narzędzie do zarządzania pakietami w Arch Linuksie.
+> Zobacz także: `pacman`.
 > Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
 
 - Usuń pakiet i jego zależności:

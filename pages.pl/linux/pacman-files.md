@@ -1,7 +1,7 @@
 # pacman --files
 
 > Narzędzie do zarządzania pakietami w Arch Linuksie.
-> Zobacz także: `pkgfile`
+> Zobacz także: `pacman`, `pkgfile`.
 > Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
 
 - Zaktualizuj bazę danych pakietów:
