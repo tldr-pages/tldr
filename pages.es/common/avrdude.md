@@ -9,7 +9,7 @@
 
 - Escribe el microcontrolador AVR:
 
-`avrdude -p {{AVR_dispositivo}} -c {{programador}} -U flash:w:{{file.hex}}``
+`avrdude -p {{AVR_dispositivo}} -c {{programador}} -U flash:w:{{file.hex}}`
 
 - Lista de dispositivos AVR disponibles:
 
