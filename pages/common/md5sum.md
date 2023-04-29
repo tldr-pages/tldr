@@ -11,7 +11,7 @@
 
 `md5sum {{path/to/file1}} {{path/to/file2}}`
 
-- Calculate a MD5 checksum from `stdin`:
+- Calculate an MD5 checksum from `stdin`:
 
 `{{some_command}}" | md5sum`
 
