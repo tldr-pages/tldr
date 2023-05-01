@@ -1,24 +1,20 @@
 # bob
 
-> Bob is a Neovim version manager that makes it easy to switch between Neovim versions.
+> Manage and switch between Neovim versions.
 > More information: <https://github.com/MordechaiHadad/bob>.
 
-- Install and switch to stable version of Neovim:
+- Install and switch to the specified version of Neovim:
 
-`bob use stable`
-
-- Install and switch to nightly version of Neovim:
-
-`bob use nightly`
+`bob use {{nightly|stable|latest|version_string|commit_hash}}`
 
 - List installed and currently used versions of Neovim:
 
-`bob ls`
+`bob list`
 
 - Uninstall Neovim and erase any changes bob has made:
 
 `bob erase`
 
-- Rollback nightly version:
+- Roll back to a previous nightly version:
 
 `bob rollback`
