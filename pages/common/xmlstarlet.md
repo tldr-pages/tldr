@@ -14,11 +14,11 @@
 
 - Print all nodes that match a given XPath:
 
-`xmlstarlet select --template --copy-of {{xpath}} {{file.xml}}`
+`xmlstarlet select --template --copy-of {{xpath}} {{path/to/file.xml}}`
 
 - Insert an attribute to all matching nodes, and print to stdout (source file is unchanged):
 
-`xmlstarlet edit --insert {{xpath}} --type attr --name {{attribute_name}} --value {{attribute_value}} {{file.xml}}`
+`xmlstarlet edit --insert {{xpath}} --type attr --name {{attribute_name}} --value {{attribute_value}} {{path/to/file.xml}}`
 
 - Update the value of all matching nodes in place (source file is changed):
 
@@ -34,4 +34,4 @@
 
 - List a given directory as XML (omit argument to list current directory):
 
-`xmlstarlet ls [{{path/to/directory}}]`
+`xmlstarlet ls {{path/to/directory}}`
