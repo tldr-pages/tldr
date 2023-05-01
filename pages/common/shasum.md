@@ -15,7 +15,7 @@
 
 `shasum --algorithm 512 {{path/to/file1 path/to/file2 ...}}`
 
-- Calculate the SHA1 checksum from `stdin`:
+- Calculate a SHA1 checksum from `stdin`:
 
 `{{some_command}} | shasum`
 
