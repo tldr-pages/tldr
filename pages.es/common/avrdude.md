@@ -17,4 +17,4 @@
 
 - Lista de programadores AVR disponibles:
 
-`avrdude -c ¿?`
+`avrdude -c \?`
