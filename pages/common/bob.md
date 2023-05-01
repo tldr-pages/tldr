@@ -11,7 +11,11 @@
 
 `bob list`
 
-- Uninstall Neovim and erase any changes bob has made:
+- Uninstall the specified version of Neovim:
+
+`bob uninstall {{nightly|stable|latest|version_string|commit_hash}}`
+
+- Uninstall Neovim and erase any changes `bob` has made:
 
 `bob erase`
 
