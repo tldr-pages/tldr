@@ -3,7 +3,7 @@
 > Download Spotify playlists and songs along with metadata.
 > More information: <https://github.com/spotDL/spotify-downloader>.
 
-- Download the songs from the provided urls and embed metadata:
+- Download songs from the provided URLs and embed metadata:
 
 `spotdl {{open.spotify.com/playlist/playlistId https://open.spotify.com/track/trackId ...}}`
 
