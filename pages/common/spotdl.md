@@ -13,4 +13,4 @@
 
 - Save only the metadata without downloading anything:
 
-`spotdl save {{open.spotify.com/playlist/playlistId ...}} --save-file {{filename.spotdl}}`
+`spotdl save {{open.spotify.com/playlist/playlistId ...}} --save-file {{path/to/save_file.spotdl}}`
