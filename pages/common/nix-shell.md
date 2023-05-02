@@ -1,7 +1,8 @@
 # nix-shell
 
 > Start an interactive shell based on a Nix expression.
-> More information: <https://nixos.org/manual/nix/stable/#sec-nix-shell>.
+> See also: `tldr nix3 shell`.
+> More information: <https://nixos.org/manual/nix/stable/command-ref/nix-shell.html>.
 
 - Start with nix expression in `shell.nix` or `default.nix` in the current directory:
 

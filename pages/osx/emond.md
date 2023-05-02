@@ -14,4 +14,4 @@
 
 - Use a specific configuration file:
 
-`emond -c {{path/to/config}}`
+`emond -c {{path/to/config_file}}`

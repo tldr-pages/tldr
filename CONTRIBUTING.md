@@ -1,21 +1,21 @@
 # Contributing
 
-[![Gitter chat][gitter-image]][gitter-url]
+[![Matrix chat][matrix-image]][matrix-url]
 [![Merged PRs][prs-merged-image]][prs-merged-url]
 [![GitHub contributors][contributors-image]][contributors-url]
 [![CLA assistant][cla-assistant-image]][cla-assistant-url]
 [![license][license-image]][license-url]
 
-[gitter-url]: https://gitter.im/tldr-pages/tldr
-[gitter-image]: https://img.shields.io/badge/chat-on_gitter-deeppink
+[matrix-url]: https://matrix.to/#/#tldr-pages:matrix.org
+[matrix-image]: https://img.shields.io/matrix/tldr-pages:matrix.org?label=Chat+on+Matrix
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
-[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs&color=green
+[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=Merged+PRs&color=green
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
-[contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
+[contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg?label=Contributors
 [cla-assistant-url]: https://cla-assistant.io/tldr-pages/tldr
 [cla-assistant-image]: https://cla-assistant.io/readme/badge/tldr-pages/tldr
 [license-url]: https://github.com/tldr-pages/tldr/blob/main/LICENSE.md
-[license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg
+[license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg?label=License
 
 Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!
 All `tldr` pages are stored in Markdown right here on GitHub.

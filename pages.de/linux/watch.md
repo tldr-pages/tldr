@@ -14,3 +14,7 @@
 - Überwache "node"-Prozesse und aktualisiere alle 3 Sekunden:
 
 `watch -n {{3}} "{{ps aux | grep node}}"`
+
+- Überwache, ob sich der Festplatten-Speicherplatz ändert und höre mit der Überwachung auf, sobald eine Änderung auftritt:
+
+`watch -g {{df}}`

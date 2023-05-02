@@ -21,4 +21,4 @@
 
 - Set a delay in seconds for a message:
 
-`msg /time:{{seconds}}`
+`msg /time:{{10}}`

@@ -33,4 +33,4 @@
 
 - Change a VM's display resolution:
 
-`tart set {{vm-name}} --display {{width}}x{{height}}`
+`tart set {{vm-name}} --display {{640}}x{{400}}`
