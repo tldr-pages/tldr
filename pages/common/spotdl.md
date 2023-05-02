@@ -5,7 +5,7 @@
 
 - Download songs from the provided URLs and embed metadata:
 
-`spotdl {{open.spotify.com/playlist/playlistId https://open.spotify.com/track/trackId ...}}`
+`spotdl {{open.spotify.com/playlist/playlistId open.spotify.com/track/trackId ...}}`
 
 - Start a web interface to download individual songs:
 
