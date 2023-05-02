@@ -1,0 +1,16 @@
+# spotdl
+
+> Download Spotify playlists and songs along with metadata.
+> More information: <https://github.com/spotDL/spotify-downloader>
+
+- Download the songs from the provided urls and embed metadata:
+
+`spotdl {{open.spotify.com/playlist/playlistId https://open.spotify.com/track/trackId ...}}`
+
+- Start a web interface to download individual songs:
+
+`spotdl web`
+
+- Save only the metadata without downloading anything:
+
+`spotdl save {{open.spotify.com/playlist/playlistId ...}} --save-file {{filename.spotdl}}`
