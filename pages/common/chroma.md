@@ -3,7 +3,7 @@
 > Chroma is a general-purpose syntax highlighting library and corresponding command, for Go.
 > More information: <https://github.com/alecthomas/chroma>.
 
-- Highlight a source file with python lexer and output to terminal:
+- Highlight a source file with Python lexer and output to terminal:
 
 `chroma --lexer="{{python}}" {{source_file}}`
 

@@ -1,6 +1,6 @@
 # pystun3
 
-> Classic STUN client written in python.
+> Classic STUN client written in Python.
 > More information: <https://github.com/talkiq/pystun3>.
 
 - Make a STUN request:
