@@ -11,7 +11,7 @@
 
 `shfmt --list {{path/to/directory}}`
 
-- Write result to the file instead of printing it to the terminal:
+- Write the result to the file instead of printing it to the terminal:
 
 `shfmt --write {{path/to/file}}`
 
