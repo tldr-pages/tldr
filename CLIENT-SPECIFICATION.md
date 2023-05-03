@@ -226,6 +226,8 @@ the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
 
+ - Unreleased
+
  - [v2.0, May 3rd 2022](https://github.com/tldr-pages/tldr/blob/v2.0/CLIENT-SPECIFICATION.md) ([#10148](https://github.com/tldr-pages/tldr/pull/10148))
    - Add recommendation to support `macos` alias for `osx` ([#7514](https://github.com/tldr-pages/tldr/pull/7514))
    - Drop the special "all" platform from the `--list` flag ([#7561](https://github.com/tldr-pages/tldr/pull/7561))
