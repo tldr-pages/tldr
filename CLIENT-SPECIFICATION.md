@@ -2,14 +2,14 @@
 
 **Current Specification Version:** 2.0
 
-This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For the list of previous versions of this specification, see the [changelog section](#Changelog) below.
+This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#Changelog) below.
 
 The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 
 ## Terminology
 
-Several terms will be defined in this section to aid the understanding of this specification document.
+This section defines key terms that are relevant for understanding this specification document.
 
 ### Page
 
@@ -31,19 +31,19 @@ This section describes the standardised command-line interface (CLI) for clients
 
 ### Arguments
 
-Several command-line options MUST be supported (unless otherwise specified) if a CLI is implemented:
+The following command-line options MUST be supported (unless otherwise specified) if a CLI is implemented:
 
 Option             | Required?   | Meaning
 -------------------|-------------|----------
 `-v`, `--version`  | Yes         | Shows the current version of the client, and the version of this specification that it implements.
 `-p`, `--platform` | Yes         | Specifies the platform to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
-`-u`, `--update`   | Conditional | Updates the offline cache of pages. MUST be implemented if the cache is supported.
+`-u`, `--update`   | Conditional | Updates the offline cache of pages. MUST be implemented if caching is supported.
 `-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output.
 `-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
 
 Clients MUST implement both the short and long versions of an option.
 
-Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example, a page list MUST be formatted with a 1-page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
+Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example, a page list MUST be formatted with one page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
 Clients MAY support additional custom arguments and syntax not documented here.
 
@@ -116,7 +116,7 @@ The structure inside these translation folders is identical to that of the main 
 
 ## Page structure
 
-Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in the standard [CommonMark](https://commonmark.org/), which the exception of the non-standard `{{` and `}}` syntax, which surrounds values in an example that users may edit. Clients MUST NOT break if the page format is changed within the _CommonMark_ specification.
+Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in standard [CommonMark](https://commonmark.org/), which the exception of the non-standard `{{` and `}}` syntax, which surrounds values in an example that users may edit. Clients MUST NOT break if the page format is changed within the _CommonMark_ specification.
 
 
 ## Page resolution
@@ -151,7 +151,7 @@ It is possible that due to this page resolution logic, the client may show a pag
 
 #### If a page is not found
 
-If a page cannot be found in _any_ platform, then it is RECOMMENDED that clients display an error message with a link to create a new issue against the `tldr-pages/tldr` GitHub repository. The said link might take the following form:
+If a page cannot be found in _any_ platform, then it is RECOMMENDED that clients display an error message with a link to create a new issue against the `tldr-pages/tldr` GitHub repository. Said link might take the following form:
 
 ```url
 https://github.com/tldr-pages/tldr/issues/new?title=page%20request:%20{command_name}
@@ -168,7 +168,7 @@ If multiple versions of a page were found for different platforms, then a client
 
 Pages can be written in multiple languages. If a client has access to environment variables, it MUST use them to derive the preferred user language as described in the next paragraphs. If not, then clients MUST make reasonable assumptions based on the information provided by the environment in which they operate (e.g. consulting `navigator.languages` in a browser, etc.).
 
-The [`LANG` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) specifies the user-preferred locale (in the form `ll[_CC][.encoding]`). The [`LANGUAGE` environment variable](https://www.gnu.org/software/gettext/manual/html_node/The-LANGUAGE-variable.html) specifies a priority list of locales (in the form `l1:l2:...`) that can be used if the locale defined by `LANG` is not available. Both `LANG` and `LANGUAGE` may contain the values `C` or `POSIX`, which should be ignored.
+The [`LANG` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) specifies the user's preferred locale (in the form `ll[_CC][.encoding]`). The [`LANGUAGE` environment variable](https://www.gnu.org/software/gettext/manual/html_node/The-LANGUAGE-variable.html) specifies a priority list of locales (in the form `l1:l2:...`) that can be used if the locale defined by `LANG` is not available. Both `LANG` and `LANGUAGE` may contain the values `C` or `POSIX`, which should be ignored.
 
 To determine the display language, a client MUST:
 
@@ -245,7 +245,7 @@ the commit hash changes when merging with squash or rebase.
 
  - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/v1.2/CLIENT-SPECIFICATION.md) ([#3168](https://github.com/tldr-pages/tldr/pull/3168))
    - Addition of a new `-L, --language` recommended command-line option.
-   - Rewording of the language section also encourages the use of configuration files for language.
+   - Rewording of the language section, also encouraging the use of configuration files for language.
    - Shift from BCP-47 to POSIX style locale tags, with consequent **deprecation of previous versions of the spec**.
    - Clearer clarification about the recommended caching functionality.
    - Correction of the usage of the term "arguments" in the homonym section.
