@@ -226,9 +226,10 @@ the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
 
- - [v2.0, May 3rd 2022](https://github.com/tldr-pages/tldr/blob/v2.0/CLIENT-SPECIFICATION.md) 
+ - [v2.0, May 3rd 2022](https://github.com/tldr-pages/tldr/blob/v2.0/CLIENT-SPECIFICATION.md) ([#10148](https://github.com/tldr-pages/tldr/pull/10148))
    - Add recommendation to support `macos` alias for `osx` ([#7514](https://github.com/tldr-pages/tldr/pull/7514))
    - Drop the special "all" platform from the `--list` flag ([#7561](https://github.com/tldr-pages/tldr/pull/7561))
+   - Drop the `master` branch from assets link. ([#9668](https://github.com/tldr-pages/tldr/pull/9668))
    - Require support for long options ([#9651](https://github.com/tldr-pages/tldr/pull/9651))
 
  - [v1.5, March 17th 2021](https://github.com/tldr-pages/tldr/blob/v1.5/CLIENT-SPECIFICATION.md) ([#5428](https://github.com/tldr-pages/tldr/pull/5428))
