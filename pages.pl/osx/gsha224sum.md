@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `-p linux sha224sum`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr -p linux sha224sum`
