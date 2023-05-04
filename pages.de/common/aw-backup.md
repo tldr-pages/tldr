@@ -11,7 +11,7 @@
 
 `aws backup create-backup-plan --backup-plan {{plan}}`
 
-- Löschen eines bestimmten Backup-Plans
+- Lösche einen bestimmten Backup-Plan:
 
 `aws backup delete-backup-plan --backup-plan-id {{id}}`
 
