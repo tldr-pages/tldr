@@ -3,7 +3,7 @@
 > Einheitliches Backup-Service zum Schutz der Amazon Web Services und der damit verbundenen Daten.
 > Weitere Informationen: <https://docs.aws.amazon.com/cli/latest/reference/backup/index.html>.
 
-- Rückgabe von Backup-Plan-Details für eine bestimmte Backup-Plan-ID:
+- Gib Backup-Plan-Details für eine bestimmte Backup-Plan-ID aus:
 
 `aws backup get-backup-plan --backup-plan-id {{id}}`
 
