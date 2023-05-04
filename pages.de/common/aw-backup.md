@@ -19,6 +19,6 @@
 
 `aws backup list-backup-plans`
 
-- Zeigt Deatuls über die Reportaufträge an:
+- Zeige Details über die Report-Aufträge an:
 
 `aws backup list-report-jobs`
