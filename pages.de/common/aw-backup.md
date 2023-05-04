@@ -7,7 +7,7 @@
 
 `aws backup get-backup-plan --backup-plan-id {{id}}`
 
-- Erstellen eines Sicherungsplans unter Verwendung eines bestimmten Sicherungsplannamens und von Sicherungsregeln:
+- Erstelle einen Backup-Plan unter Verwendung eines bestimmten Backup-Plan-Namens und von Backup-Regeln:
 
 `aws backup create-backup-plan --backup-plan {{plan}}`
 
