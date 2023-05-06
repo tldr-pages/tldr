@@ -9,7 +9,7 @@
 
 - Check a table and provide credentials to access it:
 
-`mysqlcheck --check {{table}} -u {{user}} -p`
+`mysqlcheck --check {{table}} --user {{username}} --password {{password}}`
 
 - Repair a table:
 
