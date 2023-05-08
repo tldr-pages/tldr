@@ -4,11 +4,11 @@
 
 - Brute force the password for an archive (tries to guess the archive type):
 
-`rarcrack {{filename.zip}}`
+`rarcrack {{path/to/file.zip}}`
 
 - Specify the archive type:
 
-`rarcrack --type {{zip}} {{filename.zip}}`
+`rarcrack --type {{rar|zip|7z}} {{path/to/file.zip}}`
 
 - Use multiple threads:
 
