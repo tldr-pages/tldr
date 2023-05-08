@@ -9,7 +9,7 @@
 
 - Get the direct URL of an image from a site supporting authentication with username and password:
 
-`gallery-dl -g -u "<username>" -p "<password>" "https://twitter.com/i/web/status/604341487988576256"`
+`gallery-dl --get-urls --username {{username}} --password {{password}} "{{url}}"`
 
 - Filter manga chapters by chapter number and language:
 
