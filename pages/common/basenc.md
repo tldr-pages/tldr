@@ -13,7 +13,7 @@
 
 - Encode from `stdin` with base32 encoding with 42 columns:
 
-`{{somecommand}} | basenc --base32 -w42`
+`{{command}} | basenc --base32 -w42`
 
 - Encode from `stdin` with base32 encoding:
 
