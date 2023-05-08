@@ -7,7 +7,7 @@
 
 `gallery-dl "{{url}}"`
 
-- Get the direct URL of an image from a site supporting authentication with username & password:
+- Get the direct URL of an image from a site supporting authentication with username and password:
 
 `gallery-dl -g -u "<username>" -p "<password>" "https://twitter.com/i/web/status/604341487988576256"`
 
