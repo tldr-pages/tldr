@@ -25,4 +25,4 @@
 
 - List third-party packages:
 
-`ubuntu-security-status --thirdparty`
+`pro security-status --thirdparty`
