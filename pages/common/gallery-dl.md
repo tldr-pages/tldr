@@ -13,4 +13,4 @@
 
 - Filter manga chapters by chapter number and language:
 
-`gallery-dl --chapter-filter "{{10 <= chapter < 20}}" --option "lang={{language_code}}" "https://mangadex.org/title/59793dd0-a2d8-41a2-9758-8197287a8539"`
+`gallery-dl --chapter-filter "{{10 <= chapter < 20}}" --option "lang={{language_code}}" "{{url}}`
