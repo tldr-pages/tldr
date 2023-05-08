@@ -1,7 +1,11 @@
 # pro
 
 > Manage Ubuntu Pro services.
-> More information: <https://ubuntu.com/pro>.
+> More information: <https://manpages.ubuntu.com/manpages/latest/en/man1/ubuntu-advantage.1.html>.
+
+- Connect your system to the Ubuntu Pro support contract:
+
+`sudo pro attach`
 
 - Display the status of Ubuntu Pro services:
 
