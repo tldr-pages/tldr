@@ -17,4 +17,4 @@
 
 - Encode from `stdin` with base32 encoding:
 
-`{{somecommand}} | basenc --base32`
+`{{command}} | basenc --base32`
