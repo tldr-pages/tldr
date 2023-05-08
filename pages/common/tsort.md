@@ -10,4 +10,4 @@
 
 - Perform a topological sort consistent on strings:
 
-`echo "UI Backend\nBackend Database\nDocs UI"|tsort`
+`echo "{{UI Backend\nBackend Database\nDocs UI}}"|tsort`
