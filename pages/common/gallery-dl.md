@@ -3,7 +3,7 @@
 > Download image galleries and collections from several image hosting sites.
 > More information: <https://github.com/mikf/gallery-dl>.
 
-- Download images; in this case from danbooru via tag search for 'bonocho':
+- Download images from the specified URL:
 
 `gallery-dl "https://danbooru.donmai.us/posts?tags=bonocho"`
 
