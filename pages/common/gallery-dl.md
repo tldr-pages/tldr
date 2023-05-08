@@ -5,7 +5,7 @@
 
 - Download images from the specified URL:
 
-`gallery-dl "https://danbooru.donmai.us/posts?tags=bonocho"`
+`gallery-dl "{{url}}"`
 
 - Get the direct URL of an image from a site supporting authentication with username & password:
 
