@@ -7,6 +7,10 @@
 
 `git init`
 
+- Inizializza un repository con il nome specificato per il ramo iniziale:
+
+`git init --initial-branch={{nome_ramo}}`
+
 - Inizializza un repository di soli dati, adatto per essere usato come server remoto accessibile via ssh:
 
 `git init --bare`
