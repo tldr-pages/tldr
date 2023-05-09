@@ -4,11 +4,15 @@
 > Avahi is compatible with Bonjour (Zeroconf) found in Apple devices.
 > More information: <https://www.avahi.org/>.
 
-- List all services available on the local network along with their addresses and ports while ignoring local ones:
+- List services available on the local network along with their addresses and ports, ignoring ones on the local machine:
 
 `avahi-browse --all --resolve --ignore-local`
 
-- List all domains:
+- Quickly list services in the local network in SSV format for scripts:
+
+`avahi-browse --all --terminate --parsable`
+
+- List domains in the neighbourhood:
 
 `avahi-browse --browse-domains`
 
