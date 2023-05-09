@@ -12,4 +12,4 @@
 
 - Use multiple threads:
 
-`rarcrack --threads {{6}}`
+`rarcrack --threads {{6}} {{path/to/file.zip}}`
