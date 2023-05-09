@@ -10,7 +10,7 @@
 
 - Search packages via keywords:
 
-`dnf search {{keywords}}`
+`dnf search {{keyword1 keyword2 ...}}`
 
 - Display details about a package:
 
@@ -18,19 +18,19 @@
 
 - Install a new package (use `-y` to confirm all prompts automatically):
 
-`sudo dnf install {{package}}`
+`sudo dnf install {{package1 package2 ...}}`
 
 - Remove a package:
 
-`sudo dnf remove {{package}}`
+`sudo dnf remove {{package1 package2 ...}}`
 
 - List installed packages:
 
 `dnf list --installed`
 
-- Find which packages provide a given file:
+- Find which packages provide a given command:
 
-`dnf provides {{file}}`
+`dnf provides {{command}}`
 
 - View all past operations:
 
