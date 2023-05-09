@@ -17,4 +17,4 @@
 
 - Belirtilen bir dizinden (konumdan) calıştır:
 
-`anki -b {{path/to/directory}}`
+`anki -b {{dizin/yolu}}`
