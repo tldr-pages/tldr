@@ -9,11 +9,11 @@
 
 - Belirtilen bir profil ismi ile çalıştır:
 
-`anki -p {{profile_name}}`
+`anki -p {{profil_ismi}}`
 
 - Belirtilen bir dil ile çalıştır:
 
-`anki -l {{language}}`
+`anki -l {{dil}}`
 
 - Belirtilen bir dizinden (konumdan) calıştır:
 
