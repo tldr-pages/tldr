@@ -17,7 +17,7 @@
 
 - Edit a resource using a specific editor:
 
-`KUBE_EDITOR="nano" kubectl edit {{resource}}/{{resource_name}} `
+`KUBE_EDITOR={{nano}} kubectl edit {{resource}}/{{resource_name}} `
 
 - Edit a resource in JSON format:
 
