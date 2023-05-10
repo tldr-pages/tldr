@@ -1,7 +1,7 @@
 # lzgrep
 
 > Search compressed files using the `grep` utility.
-> More information: <https://manned.org/lzgrep>
+> More information: <https://manned.org/lzgrep>.
 
 - Search in a compressed file:
 
