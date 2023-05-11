@@ -1,11 +1,15 @@
 /pages.de/ @tldr-pages/german
 /pages.es/ @tldr-pages/spanish
 /pages.it/ @tldr-pages/italian
+/pages.pt_BR/ @tldr-pages/portuguese
+/pages.pt_PT/ @tldr-pages/portuguese
 /pages.ta/ @tldr-pages/tamil
 /pages.tr/ @tldr-pages/turkish
 
 /contributing-guides/*.de.md @tldr-pages/german
 /contributing-guides/*.es.md @tldr-pages/spanish
 /contributing-guides/*.it.md @tldr-pages/italian
+/contributing-guides/*.pt_BR/ @tldr-pages/portuguese
+/contributing-guides/*.pt_PT/ @tldr-pages/portuguese
 /contributing-guides/*.ta.md @tldr-pages/tamil
 /contributing-guides/*.tr.md @tldr-pages/turkish
