@@ -6,16 +6,12 @@
 
 - View a compressed file:
 
-`xzless {{path/to/archive.xz}}`
+`xzless {{path/to/archive}}`
 
-- View a compressed file [r]ecursively page by page:
+- View a compressed file and display line numbers:
 
-`xzless -r {{path/to/archive.xz}}`
+`xzless --LINE-NUMBERS {{path/to/archive}}`
 
-- View a compressed file and display the line [n]umber:
+- View a compressed file and quit if the entire file can be displayed on the first screen:
 
-`xzless -N {{path/to/archive.xz}}`
-
-- View a compressed file and [f]ollow it:
-
-`xzless -F {{path/to/archive.xz}}`
+`xzless --quit-if-one-screen {{path/to/archive}}`
