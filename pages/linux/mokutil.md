@@ -7,7 +7,7 @@
 
 `mokutil --sb-state`
 
-- Enable SecureBoot:
+- Enable Secure Boot:
 
 `mokutil --enable-validation`
 
