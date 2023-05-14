@@ -1,7 +1,7 @@
 # pacman --files
 
 > Arch Linux Paketverwaltungs-Werkzeug.
-> Siehe auch `pkgfile`.
+> Siehe auch: `pacman`, `pkgfile`.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Aktualisiere die Paketdatenbank:
