@@ -1,6 +1,7 @@
 # pacman-key
 
 > Wrapper script for GnuPG used to manage pacman's keyring.
+> See also: `pacman`.
 > More information: <https://man.archlinux.org/man/pacman-key>.
 
 - Initialize the pacman keyring:
