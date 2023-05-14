@@ -9,7 +9,7 @@
 
 - Decompress an xz file:
 
-`xz --decompress {{file.xz}}`
+`xz --decompress {{path/to/file.xz}}`
 
 - Compress a file using lzma:
 
@@ -17,11 +17,11 @@
 
 - Decompress an lzma file:
 
-`xz --decompress --format={{lzma}} {{file.lzma}}`
+`xz --decompress --format={{lzma}} {{path/to/file.lzma}}`
 
 - Decompress a file and write to `stdout` (implies `--keep`):
 
-`xz --decompress --stdout {{file.xz}}`
+`xz --decompress --stdout {{path/to/file.xz}}`
 
 - Compress a file, but don't delete the original:
 
