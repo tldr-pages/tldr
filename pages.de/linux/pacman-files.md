@@ -24,10 +24,6 @@
 
 `pacman --files --list {{paketname}}`
 
-- Liste nur den absoluten Pfad der Dateien auf:
-
-`pacman --query --list --quiet {{paketname}}`
-
 - Zeige Hilfe an:
 
 `pacman --files --help`
