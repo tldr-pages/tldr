@@ -1,7 +1,7 @@
 # wtf
 
 > Show the expansions of acronyms.
-> More information: <https://manpages.debian.org/bsdgames/wtf.6.en.html>.
+> More information: <https://manpages.debian.org/latest/bsdgames/wtf.6.en.html>.
 
 - Expand a given acronym:
 
