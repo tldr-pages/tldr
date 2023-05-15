@@ -6,7 +6,7 @@
 /pages.pt_PT/ @waldyrious
 /pages.ta/ @kbdharun
 /pages.tr/ @yutyo
-/pages.zh/ @blueskyson
+/pages.zh/ @blueskyson @einverne
 /pages.zh_TW/ @blueskyson
 
 /contributing-guides/*.de.md @pixelcmtd @marchersimon
@@ -17,5 +17,5 @@
 /contributing-guides/*.pt_PT.md @waldyrious
 /contributing-guides/*.ta.md @kbdharun
 /contributing-guides/*.tr.md @yutyo
-/contributing-guides/*.zh.md @blueskyson
+/contributing-guides/*.zh.md @blueskyson @einverne
 /contributing-guides/*.zh_TW.md @blueskyson
