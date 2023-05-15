@@ -1,6 +1,7 @@
 # mokutil
 
 > Configure Secure Boot Machine Owner Keys (MOK).
+> Some operations, such as enabling and disabling Secure Boot or enrolling keys require a reboot.
 > More information: <https://github.com/lcp/mokutil>.
 
 - Show if Secure Boot is enabled:
