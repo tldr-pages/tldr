@@ -1,7 +1,7 @@
 # pacman
 
 > Kegunaan manajer paket Arch Linux.
-> Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `pacman sync`.
+> Guarda anche: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`,  `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 > Informasi lebih lanjut: <https://man.archlinux.org/man/pacman.8>.
 
 - Sinkronkan dan perbarui semua paket:

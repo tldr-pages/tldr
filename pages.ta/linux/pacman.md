@@ -1,7 +1,7 @@
 # pacman
 
 > ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு.
-> `pacman sync` போன்ற சில துணைக் கட்டளைகள் அவற்றின் சொந்த பயன்பாட்டு ஆவணங்களைக் கொண்டுள்ளன.
+> இதையும் பார்க்கவும்: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`,  `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`..
 > மேலும் விவரத்திற்கு: <https://man.archlinux.org/man/pacman.8>.
 
 - அனைத்து தொகுப்புகளையும் ஒத்திசைத்து புதுப்பிக்கவும்:
