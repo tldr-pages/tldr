@@ -4,7 +4,7 @@
 > Note: A Kerberos principal can be either a user, service, or application.
 > More information: <https://web.mit.edu/kerberos/krb5-1.12/doc/user/user_commands/kinit.html>.
 
-- Authenticate user and obtain a ticket-granting ticket:
+- Authenticate a user and obtain a ticket-granting ticket:
 
 `kinit {{username}}`
 
