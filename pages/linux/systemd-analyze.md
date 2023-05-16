@@ -2,9 +2,9 @@
 
 > Analyze and debug system manager.
 > Show timing details about the boot process of units (services, mount points, devices, sockets).
-> More information: <https://manned.org/systemd-analyze>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemd-analyze.html>.
 
-- List time of each unit to start up:
+- List all running units, ordered by the time they took to initialize:
 
 `systemd-analyze blame`
 
