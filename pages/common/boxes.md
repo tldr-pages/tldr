@@ -1,7 +1,7 @@
 # boxes
 
 > Draw, remove, and repair ASCII art boxes.
-> More information: <https://boxes.thomasjensen.com/>.
+> More information: <https://boxes.thomasjensen.com>.
 
 - Draw a box around a string:
 
