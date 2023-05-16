@@ -1,6 +1,6 @@
 # aws cloudformation
 
-> AWS CloudFormation lets you model, provision, and manage AWS and third-party resources by treating infrastructure as code.
+> Model, provision, and manage AWS and third-party resources by treating infrastructure as code.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudformation/index.html>.
 
 - Create a stack from a template file:
