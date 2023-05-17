@@ -19,38 +19,6 @@
 
 `clido --lists`
 
-- Unload current list:
-
-`clido unload`
-
-- Add a task:
-
-`clido add {{task}}`
-
-- Remove a task:
-
-`clido rm {{tasknumber}}`
-
-- Mark a task as done:
-
-`clido check {{tasknumber}}`
-
-- Mark a task as not done:
-
-`clido uncheck {{tasknumber}}`
-
-- Mark a task as in progress:
-
-`clido inwork {{tasknumber}}`
-
-- List all tasks:
-
-`clido list`
-
-- Write pending changes:
-
-`clido write`
-
 - Toggle autowrite:
 
 `clido toggle-autowrite`
