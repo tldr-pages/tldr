@@ -10,7 +10,7 @@
 
 - Encrypt an existing archive (including file names):
 
-`7zr a {{path/to/encrypted.7z}} -p{{password}} -mhe=on {{path/to/archive.7z}}`
+`7zr a {{path/to/encrypted.7z}} -p{{password}} -mhe={{on}} {{path/to/archive.7z}}`
 
 - E[x]tract an archive preserving the original directory structure:
 
