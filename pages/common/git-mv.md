@@ -7,10 +7,10 @@
 
 `git mv {{path/to/file}} {{new/path/to/file}}`
 
-- Rename file and add renaming to the next commit:
+- Rename file or directory and add renaming to the next commit:
 
-`git mv {{filename}} {{new_filename}}`
+`git mv {{path/to/file_or_directory}} {{path/to/destination}}`
 
 - Overwrite the file in the target path if it exists:
 
-`git mv --force {{file}} {{target}}`
+`git mv --force {{file}} {{path/to/target}}`
