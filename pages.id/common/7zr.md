@@ -10,7 +10,7 @@
 
 - Mengenkripsi sebuah file arsip (termasuk nama-nama file yang terkandung di dalamnya):
 
-`7zr a {{jalan/menuju/arsip_terenkripsi.7z}} -p{{kata sandi}} -mhe=on {{jalan/menuju/arsip.7z}}`
+`7zr a {{jalan/menuju/arsip_terenkripsi.7z}} -p{{kata sandi}} -mhe={{on}} {{jalan/menuju/arsip.7z}}`
 
 - Mengekstrak sebuah file arsip dengan mempertahankan struktur direktori asli:
 

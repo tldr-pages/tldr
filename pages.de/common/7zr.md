@@ -10,7 +10,7 @@
 
 - Verschlüssle ein vorhandenes Archiv (einschließlich Dateinamen):
 
-`7zr a {{pfad/zu/verschlüsselt.7z}} -p{{passwort}} -mhe=on {{pfad/zu/archiv.7z}}`
+`7zr a {{pfad/zu/verschlüsselt.7z}} -p{{passwort}} -mhe={{on}} {{pfad/zu/archiv.7z}}`
 
 - E[x]trahiere ein Archiv und behalte die originale Verzeichnisstruktur bei:
 

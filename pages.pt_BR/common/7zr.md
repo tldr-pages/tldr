@@ -10,7 +10,7 @@
 
 - Criptografa um arquivo existente (incluindo cabeçalhos):
 
-`7zr a {{arquivo_criptografado.7z}} -p{{senha}} -mhe=on {{caminho/para/arquivo_compactado.7z}}`
+`7zr a {{arquivo_criptografado.7z}} -p{{senha}} -mhe={{on}} {{caminho/para/arquivo_compactado.7z}}`
 
 - Descompacta um arquivo mantendo a estrutura de diretórios original:
 

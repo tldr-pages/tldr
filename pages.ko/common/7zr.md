@@ -10,7 +10,7 @@
 
 - 압축파일 암호화 (including file names):
 
-`7zr a {{경로/encrypted.7z}} -p{{비밀번호}} -mhe=on {{경로/archive.7z}}`
+`7zr a {{경로/encrypted.7z}} -p{{비밀번호}} -mhe={{on}} {{경로/archive.7z}}`
 
 - 기존 디렉토리 경로에 존재하는 7z파일 추출하기:
 

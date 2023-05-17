@@ -10,7 +10,7 @@
 
 - Cifra un archivo existente (incluidos los nombres de los archivos):
 
-`7zr a {{ruta/al/archivo.7z}} -p{{contraseña}} -mhe=on {{ruta/al/archivo.7z}}`
+`7zr a {{ruta/al/archivo.7z}} -p{{contraseña}} -mhe={{on}} {{ruta/al/archivo.7z}}`
 
 - E[x]trae un archivo conservando la estructura de directorios original:
 
