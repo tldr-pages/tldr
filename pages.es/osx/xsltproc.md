@@ -5,7 +5,7 @@
 
 - Transforma un archivo XML con una hoja de estilos XSLT específica:
 
-`xsltproc --output {{ruta/al/archivo_salida.html}} {{ruta/al/archivo.xslt}} {{ruta/al/archivo.xml}}`
+`xsltproc --output {{ruta/al/archivo_salida.html}} {{ruta/al/archivo_hoja_estilo.xslt}} {{ruta/al/archivo.xml}}`
 
 - Pasa un valor a un parámetro de la hoja de estilos:
 
