@@ -2,7 +2,7 @@
 
 > Pengarsip file dengan rasio kompresi yang tinggi.
 > Serupa dengan `7z` namun mendukung format file arsip `.7z` saja.
-> Informasi lebih lanjut: <https://www.7-zip.org>.
+> Informasi lebih lanjut: <https://manned.org/7zr>.
 
 - Meng[a]rsipkan sebuah file atau direktori:
 
