@@ -2,7 +2,7 @@
 
 > Bestandsarchiver met een hoge compressieverhouding.
 > Vergelijkbaar met `7z`, behalve dat het alleen `.7z`-bestanden ondersteunt.
-> Meer informatie: <https://www.7-zip.org>.
+> Meer informatie: <https://manned.org/7zr>.
 
 - Archiveer een bestand of directory:
 
