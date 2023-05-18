@@ -2,7 +2,7 @@
 
 > Un archiveur de fichiers avec un haut taux de compression.
 > Similaire à `7z` sauf qu'il supporte que les fichiers `.7z`.
-> Plus d'informations : <https://www.7-zip.org>.
+> Plus d'informations : <https://manned.org/7zr>.
 
 - Compresse un fichier ou un dossier :
 
