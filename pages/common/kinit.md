@@ -26,4 +26,4 @@
 
 - Specify a different keytab file to authenticate with:
 
-`kinit -t {{/path/to/keytab}}`
+`kinit -t {{path/to/keytab}}`
