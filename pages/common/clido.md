@@ -1,7 +1,7 @@
 # clido
 
 > Save-state TODO app for the terminal.
-> For more info, visit the Clido Wiki: <https://codeberg.org/Oglo12/clido/wiki>.
+> More information: <https://codeberg.org/Oglo12/clido/wiki>.
 
 - Create a list:
 
