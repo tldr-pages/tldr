@@ -17,4 +17,4 @@
 
 - Lint z config:
 
-`eslint -c {{sciezka/do/pliku_config}} {{ścieżka/do/źródło}}`
+`eslint -c {{ścieżka/do/pliku_konfiguracyjnego}} {{ścieżka/do/źródła}}`
