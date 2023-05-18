@@ -27,7 +27,7 @@
 
 `clido edit {{texteditor}}`
 
-- Get your version number:
+- Show the version:
 
 `clido -v`
 
