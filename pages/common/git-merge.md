@@ -18,3 +18,8 @@
 - Abort a merge in case of conflicts:
 
 `git merge --abort`
+
+- Merge using a specific strategy options
+
+`git merge -X {{strategy_options}} {{branch_name}}`
+
