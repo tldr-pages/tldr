@@ -19,7 +19,6 @@
 
 `git merge --abort`
 
-- Merge using a specific strategy options
+- Merge using a specific strategy options:
 
 `git merge -X {{strategy_options}} {{branch_name}}`
-
