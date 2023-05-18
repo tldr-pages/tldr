@@ -7,7 +7,7 @@
 
 `git mv {{path/to/file}} {{new/path/to/file}}`
 
-- Rename file or directory and add renaming to the next commit:
+- Rename a file or directory and add the renaming to the next commit:
 
 `git mv {{path/to/file_or_directory}} {{path/to/destination}}`
 
