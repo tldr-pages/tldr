@@ -2,7 +2,7 @@
 
 > Bestandsarchiver met een hoge compressieverhouding.
 > Vergelijkbaar met `7z`, behalve dat het minder bestandstypes ondersteunt, maar platformonafhankelijk is.
-> Meer informatie: <https://www.7-zip.org>.
+> Meer informatie: <https://manned.org/7za>.
 
 - Archiveer een bestand of directory:
 
