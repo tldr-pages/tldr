@@ -25,7 +25,7 @@
 
 - Open a list in a text editor:
 
-`clido edit {{texteditor}}`
+`clido edit {{text_editor}}`
 
 - Show the version:
 
