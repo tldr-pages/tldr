@@ -2,7 +2,7 @@
 
 > Rust pakketbeheerder.
 > Beheer Rust projecten en hun afhankelijkheden (crates).
-> Meer informatie: <https://crates.io>.
+> Meer informatie: <https://doc.rust-lang.org/cargo>.
 
 - Zoek naar crates:
 

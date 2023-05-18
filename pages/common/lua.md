@@ -9,8 +9,8 @@
 
 - Execute a Lua script:
 
-`lua {{script_name.lua}} {{--optional-argument}}`
+`lua {{path/to/script.lua}} {{--optional-argument}}`
 
 - Execute a Lua expression:
 
-`lua -e '{{print( "Hello World" )}}'`
+`lua -e '{{print("Hello World")}}'`

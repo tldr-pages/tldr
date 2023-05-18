@@ -6,8 +6,8 @@
 
 - Change the line endings of a file:
 
-`unix2dos {{filename}}`
+`unix2dos {{path/to/file}}`
 
 - Create a copy with DOS-style line endings:
 
-`unix2dos -n {{filename}} {{new_filename}}`
+`unix2dos -n {{path/to/unix_file}} {{path/to/dos_file}}`

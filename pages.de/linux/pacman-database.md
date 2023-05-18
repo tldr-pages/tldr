@@ -2,6 +2,7 @@
 
 > Mit der Arch Linux Paketdatenbank arbeiten.
 > Verschiedene Attribute von installierten Paketen bearbeiten.
+> Siehe auch: `pacman`.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Markiere ein Paket als implizit installiert:

@@ -2,6 +2,7 @@
 
 > Manjaro Linux için pacman aynalistesi oluşturucu.
 > pacman-mirrors'ın çalıştırıldığı her vakit, E`sudo pacman -Syyu` komutu ile veritabanının senkronize edilmesi ve sistemin güncellenmesi gerekir.
+> Ayrıca bakınız: `pacman`.
 > Daha fazla bilgi için: <https://wiki.manjaro.org/index.php?title=Pacman-mirrors>.
 
 - Varsayılan ayarlar ile bir aynalistesi oluştur:

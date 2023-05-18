@@ -19,6 +19,10 @@
 
 `molecule converge`
 
+- List scenarios of the instance:
+
+`molecule matrix converge`
+
 - Log in into the instance:
 
 `molecule login`

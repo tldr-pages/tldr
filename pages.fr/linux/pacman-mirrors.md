@@ -2,6 +2,7 @@
 
 > Génère une liste de miroirs pour pacman sur Manjaro Linux.
 > Tout appel à pacman-mirrors demande de synchroniser les bases de données et de mettre à jour le système en exécutant `sudo pacman -Syyu` en suivant.
+> Voir aussi: `pacman`.
 > Plus d'informations : <https://wiki.manjaro.org/index.php?title=Pacman-mirrors>.
 
 - Génère une liste de miroirs avec les réglages par défaut :
