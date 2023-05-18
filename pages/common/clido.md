@@ -31,6 +31,6 @@
 
 `clido -v`
 
-- Get a list of commands:
+- Show a list of commands:
 
 `clido -h`
