@@ -21,4 +21,4 @@
 
 - Merge using a specific strategy:
 
-`git merge -X {{strategy_options}} {{branch_name}}`
+`git merge --strategy {{strategy}} --strategy-option {{strategy_option}} {{branch_name}}`
