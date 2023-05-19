@@ -25,4 +25,4 @@
 
 - Upload assets to a specific release:
 
-`gh release upload {{tag}} {{path/to/file1}} {{path/to/file2}}`
+`gh release upload {{tag}} {{path/to/file1 path/to/file2 ...}}`

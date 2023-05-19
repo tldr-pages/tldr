@@ -2,7 +2,7 @@
 
 > Um compactador de arquivos com alta taxa de compressão.
 > Versão do `7z` com suporte apenas para o formato `.7z`.
-> Mais informações: <https://www.7-zip.org>.
+> Mais informações: <https://manned.org/7zr>.
 
 - Compactar um arquivo ou diretório:
 
@@ -10,7 +10,7 @@
 
 - Criptografa um arquivo existente (incluindo cabeçalhos):
 
-`7zr a {{arquivo_criptografado.7z}} -p{{senha}} -mhe=on {{caminho/para/arquivo_compactado.7z}}`
+`7zr a {{arquivo_criptografado.7z}} -p{{senha}} -mhe={{on}} {{caminho/para/arquivo_compactado.7z}}`
 
 - Descompacta um arquivo mantendo a estrutura de diretórios original:
 

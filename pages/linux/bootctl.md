@@ -5,7 +5,11 @@
 
 - Show information about the system firmware and the bootloaders:
 
-`sudo bootctl status`
+`bootctl status`
+
+- Show all available bootloader entries:
+
+`bootctl list`
 
 - Set a flag to boot into the system firmware on the next boot (similar to `sudo systemctl reboot --firmware-setup`):
 
@@ -13,11 +17,7 @@
 
 - Specify the path to the EFI system partition (defaults to `/efi/`, `/boot/` or `/boot/efi`):
 
-`sudo bootctl --esp-path={{/path/to/efi_system_partition/}}`
-
-- Show all available bootloader entries:
-
-`sudo bootctl list`
+`bootctl --esp-path={{/path/to/efi_system_partition/}}`
 
 - Install `systemd-boot` into the EFI system partition:
 

@@ -1,6 +1,5 @@
 # input
 
-> Send event codes or touchscreen gestures to an Android device.
 > Envoie à un appareil Android des codes événements ou des gestes d'écran tactile.
 > Cette commande peut être utilisé uniquement depuis `adb shell`.
 > Plus d'informations : <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.

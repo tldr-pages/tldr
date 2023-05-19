@@ -1,6 +1,7 @@
 # pacman --upgrade
 
 > Kegunaan manajer paket Arch Linux.
+> Guarda anche: `pacman`.
 > Informasi lebih lanjut: <https://man.archlinux.org/man/pacman.8>.
 
 - Instal satu paket atau lebih dari file:
