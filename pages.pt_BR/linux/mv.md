@@ -5,24 +5,24 @@
 
 - Move um arquivo para um diretório arbitrário:
 
-`mv {{arquivo}} {{destino}}`
+`mv {{percorso/del/arquivo}} {{percorso/del/destino}}`
 
 - Move arquivos para outro diretório, mantendo os nomes dos arquivos:
 
-`mv {{arquivo_1}} {{arquivo_2}} {{arquivo_3}} {{destino}}`
+`mv {{percorso/del/arquivo_1 percorso/del/arquivo_2 ...}} {{percorso/del/destino}}`
 
 - Não requisitar confirmação para sobrescrição de arquivos:
 
-`mv -f {{arquivo}} {{destino}}`
+`mv -f {{percorso/del/arquivo}} {{percorso/del/destino}}`
 
 - Requisita confirmação para sobrescrição de arquivos, independentemente das permissões de arquivo:
 
-`mv -i {{arquivo}} {{destino}}`
+`mv -i {{percorso/del/arquivo}} {{percorso/del/destino}}`
 
 - Não sobrescrita arquivos existentes no diretório de destino:
 
-`mv -n {{arquivo}} {{destino}}`
+`mv -n {{percorso/del/arquivo}} {{percorso/del/destino}}`
 
 - Move os arquivos em modo Verbose, mostrando os arquivos após sua movimentação:
 
-`mv -v {{arquivo}} {{destino}}`
+`mv -v {{percorso/del/arquivo}} {{percorso/del/destino}}`
