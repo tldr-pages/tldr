@@ -9,7 +9,7 @@
 
 - Esegui il linting di un dato set di file:
 
-`eslint {{file1.js file2.js}}`
+`eslint {{percorso/del/file1.js percorso/del/file2.js ...}}`
 
 - Risolvi gli errori di linting:
 
@@ -17,4 +17,4 @@
 
 - Esegui il linting utilizzando un determinato file di configurazione:
 
-`eslint -c {{percorso/del/file_config}} {{app/src}}`
+`eslint -c {{percorso/del/file_config}} {{percorso/del/sorgente}}`
