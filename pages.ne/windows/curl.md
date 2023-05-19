@@ -1,7 +1,7 @@
 # curl
 
 > यो आदेश `curl -p common` को उपनाम हो |
-> थप जानकारी: <https://curl.se>.
+> थप जानकारी: <https://curl.se/docs/manpage.html>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

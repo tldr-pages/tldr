@@ -1,7 +1,7 @@
 # curl
 
 > Este comando é um alias de `curl -p common`.
-> Mais informações: <https://curl.se>.
+> Mais informações: <https://curl.se/docs/manpage.html>.
 
 - Ver documentação do comando original:
 
