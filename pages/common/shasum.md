@@ -17,7 +17,7 @@
 
 - Calculate a SHA1 checksum from `stdin`:
 
-`{{some_command}} | shasum`
+`{{command}} | shasum`
 
 - Calculate and save the list of SHA256 checksums to a file:
 

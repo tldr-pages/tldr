@@ -13,7 +13,7 @@
 
 - Calculate an MD5 checksum from `stdin`:
 
-`{{some_command}} | md5sum`
+`{{command}} | md5sum`
 
 - Read a file of MD5 sums and filenames and verify all files have matching checksums:
 
