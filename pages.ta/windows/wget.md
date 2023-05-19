@@ -14,6 +14,6 @@
 
 `tldr wget -o common`
 
--PowerShell இன் 'Invoke-WebRequest' கட்டளைக்கான ஆவணங்களைக் காண்க:
+- PowerShell இன் 'Invoke-WebRequest' கட்டளைக்கான ஆவணங்களைக் காண்க:
 
 `tldr invoke-webrequest`
