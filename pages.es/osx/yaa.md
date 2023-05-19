@@ -1,15 +1,15 @@
 # yaa
 
-> Crear y manipular archivos YAA.
+> Crea y manipula archivos YAA.
 > Más información: <https://www.manpagez.com/man/1/yaa/>.
 
 - Crea un archivo a partir de un directorio:
 
-`yaa archive -d {{ruta/a/directorio}} -o {{ruta/al/archivo_salida.yaa}}`
+`yaa archive -d {{ruta/al/directorio}} -o {{ruta/al/archivo_de_salida.yaa}}`
 
 - Crea un archivo a partir de un fichero:
 
-`yaa archive -i {{ruta/al/archivo}} -o {{ruta/al/archivo_salida.yaa}}`
+`yaa archive -i {{ruta/al/archivo}} -o {{ruta/al/archivo_de_salida.yaa}}`
 
 - Extrae un archivo al directorio actual:
 
@@ -21,8 +21,8 @@
 
 - Crea un archivo con un algoritmo de compresión específico:
 
-`yaa archive -a {{algorithm}} -d {{ruta/al/directorio}} -o {{ruta/al/archivo_salida.yaa}}`
+`yaa archive -a {{algorithm}} -d {{ruta/al/directorio}} -o {{ruta/al/archivo_de_salida.yaa}}`
 
 - Crea un archivo con un tamaño de bloque de 8 MB:
 
-`yaa archive -b {{8m}}} -d {{ruta/al/directorio}} -o {{ruta/a/archivo_salida.yaa}}`
+`yaa archive -b {{8m}}} -d {{ruta/al/directorio}} -o {{ruta/al/archivo_de_salida.yaa}}`
