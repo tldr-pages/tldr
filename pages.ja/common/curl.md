@@ -6,13 +6,13 @@
 
 - URLのコンテンツをファイルにダウンロードする:
 
-`curl {{http://example.com}} --output {{path/to/file}}`
+`curl {{http://example.com}} --output {{ファイルパス}}`
 
 - ファイルをダウンロードし、URLにより指定されたファイル名で出力を保存する:
 
 `curl --remote-name {{http://example.com/filename}}`
 
-- ファイルをダウンロードしロケーションレスポンスヘッダーのリダイレクトに追従しつつ、自動的に以前のファイル転送を継続(再開)し、サーバーエラー時にはエラーを返す:
+- ファイルをダウンロードし、ロケーションレスポンスヘッダーのリダイレクトに追従しつつ自動的に以前のファイル転送を継続(再開)する。サーバーエラー時にはエラーを返す:
 
 `curl --fail --remote-name --location --continue-at - {{http://example.com/filename}}`
 
