@@ -1,10 +1,10 @@
 # autossh
 
-> Ejecuta, monitoriza y reinicia conexiones SSH.
+> Ejecuta, monitorea y reinicia conexiones SSH.
 > Auto-reconecta para mantener los túneles de reenvío de puertos. Acepta todas las señales `ssh`.
 > Más información: <https://www.harding.motd.ca/autossh>.
 
-- Inicia una sesión SSH, reiniciando cuando un puerto de monitorización no devuelve datos:
+- Inicia una sesión SSH, reiniciando cuando un puerto de monitoreo no retorna datos:
 
 `autossh -M {{puerto_monitor}} "{{comando_ssh}}"`
 
@@ -12,7 +12,7 @@
 
 `autossh -M {{puerto_monitor}} -L {{puerto_local}}:localhost:{{puerto_remoto}} {{usuario}}@{{host}}`
 
-- Fork `autossh` en segundo plano antes de ejecutar `ssh` y no abre un shell remoto:
+- Crea un proceso `autossh` en segundo plano antes de ejecutar `ssh` y no abre un shell remoto:
 
 `autossh -f -M {{puerto_monitor}} -N "{{comando_ssh}}"`
 
