@@ -1,6 +1,6 @@
 # acountry
 
-> Imprime el país donde se encuentra una dirección IPv4 o el nombre de host.
+> Imprime el país donde se encuentra una dirección IPv4 o el nombre de un host.
 > Más información: <https://manned.org/acountry>.
 
 - Imprime un país donde se encuentra una dirección IPv4 o host:
