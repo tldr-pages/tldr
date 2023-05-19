@@ -9,7 +9,7 @@
 
 - Edit the merge message:
 
-`git merge -e {{branch_name}}`
+`git merge --edit {{branch_name}}`
 
 - Merge a branch and create a merge commit:
 
