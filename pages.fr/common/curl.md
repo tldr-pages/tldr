@@ -2,7 +2,7 @@
 
 > Transfère des données depuis ou vers un serveur.
 > Accepte la plupart des protocoles, notamment HTTP, FTP et POP3.
-> Plus d'informations : <https://curl.se>.
+> Plus d'informations : <https://curl.se/docs/manpage.html>.
 
 - Télécharger le contenu d'une URL dans un fichier :
 
