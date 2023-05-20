@@ -12,7 +12,7 @@
 
 `axel {{url}} -o {{ruta/al/archivo}}`
 
-- Descarga con varias conexiones:
+- Descarga con múltiples conexiones:
 
 `axel -n {{num_conexiones}} {{url}}`
 
