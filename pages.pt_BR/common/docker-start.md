@@ -17,4 +17,4 @@
 
 - Inicia um ou mais containers com ID separados por espaço:
 
-`docker start {{container(s)}}`
+`docker start {{container1 container2 ...}}`

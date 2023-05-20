@@ -17,4 +17,4 @@
 
 - Bir veya daha fazla boşlukla ayrılarak belirtilmiş konteynerleri başlar:
 
-`docker start {{konteyner(ler)}}`
+`docker start {{konteyner1 konteyner2 ...}}`
