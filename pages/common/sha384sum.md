@@ -13,7 +13,7 @@
 
 - Calculate a SHA384 checksum from `stdin`:
 
-`{{some_command}} | sha384sum`
+`{{command}} | sha384sum`
 
 - Read a file of SHA384 sums and filenames and verify all files have matching checksums:
 

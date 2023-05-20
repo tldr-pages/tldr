@@ -13,7 +13,7 @@
 
 - Calculate a BLAKE3 checksum from `stdin`:
 
-`{{some_command}} | b3sum`
+`{{command}} | b3sum`
 
 - Read a file of BLAKE3 sums and filenames and verify all files have matching checksums:
 
