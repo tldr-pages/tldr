@@ -8,7 +8,7 @@
 
 `axel {{url}}`
 
-- Descarga y especifica nombre de archivo:
+- Descarga y especifica un nombre de archivo:
 
 `axel {{url}} -o {{ruta/al/archivo}}`
 
