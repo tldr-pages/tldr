@@ -1,7 +1,7 @@
 # curl
 
 > Denne kommandoen er et alias for `curl -p common`.
-> Mer informasjon: <https://curl.se/docs/manpage.html>.
+> Mer informasjon: <https://curl.se>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

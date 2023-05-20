@@ -1,7 +1,7 @@
 # curl
 
 > このコマンドは `curl -p common` のエイリアスです。
-> 詳しくはこちら: <https://curl.se/docs/manpage.html>
+> 詳しくはこちら: <https://curl.se>
 
 - オリジナルのコマンドのドキュメントを表示する:
 
