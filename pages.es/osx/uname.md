@@ -4,7 +4,7 @@
 > Nota: para obtener información adicional sobre el sistema operativo, pruebe el comando `sw_vers`.
 > Más información: <https://ss64.com/osx/uname.html>.
 
-- Muestra el nombre del kernel:
+- Imprime el nombre del kernel:
 
 `uname`
 
