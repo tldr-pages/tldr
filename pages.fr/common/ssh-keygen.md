@@ -17,7 +17,7 @@
 
 - Génère une clé RSA de 4096 bits, avec l'adresse électronique en commentaire:
 
-`ssh-keygen -t {{dsa|ecdsa|ed25519|rsa}} -b {{4096}} -C "{{commentaire|email}}"`
+`ssh-keygen -t {{rsa}} -b {{4096}} -C "{{commentaire|email}}"`
 
 - Retire les clés d'une machine donnée du fichier `known_hosts` des hôtes connus (utile lorsque un hôte déjà enregistré change de clé) :
 
