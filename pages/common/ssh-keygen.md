@@ -7,9 +7,9 @@
 
 `ssh-keygen`
 
-- Generate an ed25519 key with 100 key derivation function rounds and save the key to a specific file:
+- Generate an ed25519 key with 32 key derivation function rounds and save the key to a specific file:
 
-`ssh-keygen -t {{ed25519}} -a {{100}} -f {{~/.ssh/filename}}`
+`ssh-keygen -t {{ed25519}} -a {{32}} -f {{~/.ssh/filename}}`
 
 - Generate an RSA 4096-bit key with email as a comment:
 

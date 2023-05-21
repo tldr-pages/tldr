@@ -11,9 +11,9 @@
 
 `ssh-keygen -f {{~/.ssh/datei}}`
 
-- Generiere ein ed25519 Schlüssel-Paar mit 100 Schlüssel-Ableitungs-Iterationen:
+- Generiere ein ed25519 Schlüssel-Paar mit 32 Schlüssel-Ableitungs-Iterationen:
 
-`ssh-keygen -t {{ed25519}} -a {{100}}`
+`ssh-keygen -t {{ed25519}} -a {{32}}`
 
 - Generiere ein 4096 Bit langen RSA Schlüssel-Paar mit der E-Mail im Kommentarfeld:
 
