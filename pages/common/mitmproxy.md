@@ -1,7 +1,7 @@
 # mitmproxy
 
 > An interactive man-in-the-middle HTTP proxy.
-> More information: <https://mitmproxy.org>.
+> More information: <https://docs.mitmproxy.org/stable/concepts-options>.
 
 - Start mitmproxy with default settings:
 
@@ -9,4 +9,8 @@
 
 - Start mitmproxy bound to custom address and port:
 
-`mitmproxy -b {{ip_address}} -p {{port}}`
+`mitmproxy --listen-host {{ip_address}} --listen-port {{port}}`
+
+- Start mitmproxy using a script to process trafic:
+
+`mitmproxy --scripts {{path/to/script.py}}`
