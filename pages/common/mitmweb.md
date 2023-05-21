@@ -4,14 +4,14 @@
 > See also: `mitmproxy`.
 > More information: <https://docs.mitmproxy.org/stable/concepts-options>.
 
-- Start mitmweb with default settings:
+- Start `mitmweb` with default settings:
 
 `mitmweb`
 
-- Start mitmweb bound to custom address and port:
+- Start `mitmweb` bound to a custom address and port:
 
 `mitmweb --listen-host {{ip_address}} --listen-port {{port}}`
 
-- Start mitmweb using a script to process traffic:
+- Start `mitmweb` using a script to process traffic:
 
 `mitmweb --scripts {{path/to/script.py}}`
