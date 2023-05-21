@@ -11,6 +11,6 @@
 
 `mitmproxy --listen-host {{ip_address}} --listen-port {{port}}`
 
-- Start mitmproxy using a script to process trafic:
+- Start mitmproxy using a script to process traffic:
 
 `mitmproxy --scripts {{path/to/script.py}}`

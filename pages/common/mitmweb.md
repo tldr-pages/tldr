@@ -12,6 +12,6 @@
 
 `mitmweb --listen-host {{ip_address}} --listen-port {{port}}`
 
-- Start mitmweb using a script to process trafic:
+- Start mitmweb using a script to process traffic:
 
 `mitmweb --scripts {{path/to/script.py}}`
