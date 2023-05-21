@@ -31,6 +31,6 @@
 
 `winget {{import|export}} {{--import-file|--output}} {{பாதை/டு/கோப்பு}}`
 
-- <https://github.com/microsoft/winget-pkgs> க்கு PR ஐச் சமர்ப்பிக்கும் முன் மேனிஃபெஸ்ட்டைச் சரிபார்க்கவும்
+- Winget களஞ்சியத்தில் PR ஐச் சமர்ப்பிக்கும் முன் மேனிஃபெஸ்ட்களை சரிபார்க்கவும்:
 
 `winget validate {{பாதை/டு/மேனிஃபெஸ்ட்}}`
