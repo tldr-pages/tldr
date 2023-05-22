@@ -21,4 +21,4 @@
 
 - Crea una contraseña que no aparece en un diccionario (se debe proporcionar el archivo del diccionario):
 
-`apg -r {{archivo_diccionario}}`
+`apg -r {{ruta/al/archivo_diccionario}}`

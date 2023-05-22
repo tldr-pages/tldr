@@ -21,4 +21,4 @@
 
 - Crée un mot de passe qui n'apparaît pas dans le dictionnaire (le fichier de dictionnaire doit être donné) :
 
-`apg -r {{fichier_dictionnaire}}`
+`apg -r {{chemin/vers/fichier_dictionnaire}}`
