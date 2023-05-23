@@ -5,12 +5,12 @@
 
 - Extrahiere ein Archiv ins aktuelle Verzeichnis:
 
-`ark --batch {{archiv}}`
+`ark --batch {{pfad/zu/archiv}}`
 
 - Verändere das Verzeichnis in das extrahiert wird:
 
-`ark --batch --destination {{pfad/zum/verzeichnis}} {{archiv}}`
+`ark --batch --destination {{pfad/zu/verzeichnis}} {{pfad/zu/archiv}}`
 
 - Erstelle ein Archiv wenn es nicht existiert und füge Dateien hinzu:
 
-`ark --add-to {{archiv}} {{datei1}} {{datei2}}`
+`ark --add-to {{pfad/zu/archiv}} {{pfad/zu/datei1 pfad/zu/datei2 ...}}`
