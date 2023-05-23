@@ -16,7 +16,7 @@
 
 `axel -n {{num_conexiones}} {{url}}`
 
-- Busca un archivo utilizando un mirror haciendo uso del motor de búsqueda filesearching.com.
+- Busca copias espejo.
 
 `axel -S {{num_de_espejos}} {{url}}`
 
