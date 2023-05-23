@@ -1,6 +1,6 @@
 # autoflake
 
-> Herramienta para eliminar importaciones y variables no utilizadas en archivos con extensión y sintaxis válida en Python.
+> Herramienta para eliminar importaciones y variables no utilizadas en archivos Python.
 > Más información: <https://github.com/myint/autoflake>.
 
 - Elimina variables no utilizadas de un único archivo y muestra las diferencias:
