@@ -1,20 +1,20 @@
 # eslint
 
-> Podłączane narzędzie lintowania dla JavaScript i JSX.
+> Rozszerzalne narzędzie lintowania dla JavaScript i JSX.
 > Więcej informacji: <https://eslint.org>.
 
-- Stwórz eslint config:
+- Stwórz plik konfiguracyjny ESlint:
 
 `eslint --init`
 
-- Lint na danym zestawie plików:
+- Lintuj jeden lub więcej plików:
 
 `eslint {{ścieżka/do/pliku1.js ścieżka/do/pliku2.js ...}}`
 
-- Napraw lint issues:
+- Napraw wykryte problemy:
 
 `eslint --fix`
 
-- Lint z config:
+- Lintuj używając podanego pliku konfiguracyjnego:
 
-`eslint -c {{ścieżka/do/pliku_konfiguracyjnego}} {{ścieżka/do/źródła}}`
+`eslint -c {{ścieżka/do/pliku_konfiguracyjnego}} {{ścieżka/do/pliku1.js ścieżka/do/pliku2.js}}`
