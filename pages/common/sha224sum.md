@@ -13,7 +13,7 @@
 
 - Calculate a SHA224 checksum from `stdin`:
 
-`{{some_command}} | sha224sum`
+`{{command}} | sha224sum`
 
 - Read a file of SHA224 sums and filenames and verify all files have matching checksums:
 

@@ -13,7 +13,7 @@
 
 - Calculate a SHA256 checksum from `stdin`:
 
-`{{some_command}} | sha256sum`
+`{{command}} | sha256sum`
 
 - Read a file of SHA256 sums and filenames and verify all files have matching checksums:
 

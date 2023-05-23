@@ -13,7 +13,7 @@
 
 - Calculate a SHA512 checksum from `stdin`:
 
-`{{some_command}} | sha512sum`
+`{{command}} | sha512sum`
 
 - Read a file of SHA512 sums and filenames and verify all files have matching checksums:
 
