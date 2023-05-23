@@ -27,7 +27,7 @@
 
 `winget list --source winget`
 
-- Import a list of packages from a file/Export the list of installed packages to a file:
+- Import packages from a file, or export installed packages to a file:
 
 `winget {{import|export}} {{--import-file|--output}} {{path/to/file}}`
 
