@@ -4,10 +4,6 @@
 > When a file is annexed, its content is moved into a key-value store, and a symlink is made that points to the content.
 > More information: <https://git-annex.branchable.com>.
 
-- Help:
-
-`git annex help`
-
 - Initialize a repo with Git annex:
 
 `git annex init`
@@ -27,3 +23,7 @@
 - Get a file or directory:
 
 `git annex get {{path/to/file_or_directory}}`
+
+- Display help:
+
+`git annex help`

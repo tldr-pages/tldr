@@ -4,10 +4,6 @@
 > Lorsqu'un fichier est annexé, son contenu est déplacé dans un stockage clé-valeur et un lien symbolique est créé qui pointe vers le contenu.
 > Plus d'informations : <https://git-annex.branchable.com>.
 
-- Aide :
-
-`git annex help`
-
 - Initialise le dépôt :
 
 `git annex init`
@@ -27,3 +23,7 @@
 - Récupère un fichier ou un répertoire :
 
 `git annex get {{chemin/vers/fichier_ou_repertoire}}`
+
+- Affiche l'aide :
+
+`git annex help`
