@@ -9,4 +9,4 @@
 
 - 获取特定网卡的地址信息：
 
-`ipconfig getifaddr {{interface_name}}`
+`ipconfig getifaddr {{接口名称}}`
