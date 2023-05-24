@@ -7,6 +7,6 @@
 
 `ipconfig getiflist`
 
-- Get interface address:
+- Show the IP address of an interface:
 
 `ipconfig getifaddr {{interface_name}}`
