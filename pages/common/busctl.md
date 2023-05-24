@@ -1,13 +1,13 @@
 # busctl
 
->  Introspect the bus.  
->  More information: <https://www.freedesktop.org/software/systemd/man/busctl.html>
+> Introspect the bus.
+> More information: <https://www.freedesktop.org/software/systemd/man/busctl.html>.
 
-- Show all peers on the bus, by their service names:
+- Show all peers on the bus, by their service names.
 
 `busctl list`
 
-- Dump messages being exchanged
+- Dump messages being exchanged.
 
 `busctl monitor`
 
