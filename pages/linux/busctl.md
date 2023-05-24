@@ -7,9 +7,9 @@
 
 `busctl list`
 
-- Dump messages being exchanged:
+- Dump messages being exchanged. If no service is specified, show all messages on the bus:
 
-`busctl monitor`
+`busctl monitor {{service1 service2 ...}}`
 
 - Show interfaces, methods, properties and signals of the specified object on the specified service:
 
