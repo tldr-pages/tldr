@@ -6,4 +6,4 @@
 
 - Expande el archivo en el directorio de trabajo actual:
 
-`xip --expand {{ruta/al/archivo.xip}}`.
+`xip --expand {{ruta/al/archivo.xip}}`
