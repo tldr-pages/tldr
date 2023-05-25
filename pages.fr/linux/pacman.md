@@ -1,7 +1,7 @@
 # pacman
 
 > Outil de gestion de paquets sur Arch Linux.
-> Certaines commandes comme `pacman sync` ont leur propre documentation.
+> Voir aussi: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`,  `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 > Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 
 - Synchronise et mets à jour tous les paquets :

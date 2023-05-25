@@ -2,7 +2,7 @@
 
 > Manage Rust projects and their module dependencies (crates).
 > Some subcommands such as `cargo build` have their own usage documentation.
-> More information: <https://crates.io>.
+> More information: <https://doc.rust-lang.org/cargo>.
 
 - Search for crates:
 

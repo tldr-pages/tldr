@@ -5,12 +5,12 @@
 
 - Extrait une archive dans le répertoire courant :
 
-`ark --batch {{archive}}`
+`ark --batch {{chemin/vers/archive}}`
 
 - Change le répertoire d'extraction :
 
-`ark --batch --destination {{chemin/vers/le/répertoire}} {{archive}}`
+`ark --batch --destination {{chemin/vers/dossier}} {{chemin/vers/archive}}`
 
 - Crée une archive si elle n'existe pas et y ajouter des fichiers :
 
-`ark --add-to {{archive}} {{fichier1}} {{fichier2}} ...`
+`ark --add-to {{chemin/vers/archive}} {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`

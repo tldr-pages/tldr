@@ -2,7 +2,7 @@
 
 > Ein Dateiarchivierer mit hoher Kompressionsrate.
 > Eine alleinstehende Version von `7z`, die nur `.7z` Dateien unterstützt.
-> Weitere Informationen: <https://www.7-zip.org>.
+> Weitere Informationen: <https://manned.org/7zr>.
 
 - [a]rchiviere eine Datei oder ein Verzeichnis:
 
@@ -10,7 +10,7 @@
 
 - Verschlüssle ein vorhandenes Archiv (einschließlich Dateinamen):
 
-`7zr a {{pfad/zu/verschlüsselt.7z}} -p{{passwort}} -mhe=on {{pfad/zu/archiv.7z}}`
+`7zr a {{pfad/zu/verschlüsselt.7z}} -p{{passwort}} -mhe={{on}} {{pfad/zu/archiv.7z}}`
 
 - E[x]trahiere ein Archiv und behalte die originale Verzeichnisstruktur bei:
 

@@ -1,37 +1,38 @@
 # apt
 
 > Narzędzie do zarządzania pakietami dla dystrybucji bazujących na Debianie.
-> Zalecany zamiennik `apt-get` przy uyciu interaktywnym w Ubuntu w wersji 16.04 i wyższych.
+> Zalecany zamiennik `apt-get` przy użyciu interaktywnym w Ubuntu w wersjach 16.04 i wyższych.
+> Odpowiednie polecenia dla innych menedżerów pakietów: <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Więcej informacji: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
-- Aktualizacja listy dostępnych pakietów i ich wersji (zalecane uruchomienie przed innymi poleceniami `apt`):
+- Zaktualizuj listę dostępnych pakietów i ich wersji (zaleca się uruchomienie tego przed innymi poleceniami `apt`):
 
 `sudo apt update`
 
-- Wyszukanie podanego pakietu:
+- Wyszukaj podany pakiet:
 
 `apt search {{pakiet}}`
 
-- Wyświetlenie informacji o pakiecie:
+- Wyświetl informacje o podanym pakiecie:
 
 `apt show {{pakiet}}`
 
-- Instalacja pakietu lub aktualizacja do najnowszej dostępnej wersji:
+- Zainstaluj pakiet lub zaktualizuj go do najnowszej dostępnej wersji:
 
 `sudo apt install {{pakiet}}`
 
-- Usunięcie pakietu (użyj `purge` aby usunąć także pliki konfiguracyjne):
+- Usuń pakiet (użyj `purge` aby usunąć także pliki konfiguracyjne):
 
 `sudo apt remove {{pakiet}}`
 
-- Aktualizacja wszystkich zainstalowanych pakietów do ich najnowszych wersji:
+- Zaktualizuj wszystkie zainstalowane pakiety do ich najnowszych wersji:
 
 `sudo apt upgrade`
 
-- Wyświetlenie wszystkich pakietów:
+- Wyświetl wszystkie pakiety:
 
 `apt list`
 
-- Wyświetlenie zainstalowanych pakietów:
+- Wyświetl zainstalowane pakiety:
 
 `apt list --installed`
