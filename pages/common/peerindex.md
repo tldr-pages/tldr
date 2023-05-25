@@ -1,6 +1,6 @@
 # peerindex
 
-> inspect MRT TABLE_DUMPV2 Peer Index Table
+> inspect MRT TABLE_DUMPV2 Peer Index Table.
 > can read files compressed with gzip, bzip2 and xz.
 > More information: <https://gitea.it/1414codeforge/ubgpsuite>.
 

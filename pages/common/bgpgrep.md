@@ -1,6 +1,6 @@
 # bgpgrep
 
-> filter and print BGP data within MRT dumps
+> filter and print BGP data within MRT dumps.
 > can read files compressed with gzip, bzip2 and xz.
 > More information: <https://gitea.it/1414codeforge/ubgpsuite>.
 
