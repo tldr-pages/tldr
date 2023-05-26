@@ -3,22 +3,26 @@
 > Transfer data between two machines in a local network.
 > More information: <https://airshare.readthedocs.io>.
 
-- Send a file:
+- Share files or directories:
 
-`airshare {{CODE}} {{path/to/file}}`
+`airshare {{code}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Receive a file from airshare:
+- Receive a file:
 
-`airshare {{CODE}}`
+`airshare {{code}}`
 
-- Start airshare with the option to upload:
+- Host a receiving server (use this to be able to upload files using the web interface):
 
-`airshare --upload {{CODE}}`
+`airshare --upload {{code}}`
 
-- Send files whose paths have been copied to the clipoard:
+- Send files or directories to a receiving server:
 
-`airshare --file-path {{CODE}}`
+`airshare --upload {{code}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+
+- Send files whose paths have been copied to the clipboard:
+
+`airshare --file-path {{code}}`
 
 - Receive a file and copy it to the clipboard:
 
-`airshare --clip-receive {{CODE}}`
+`airshare --clip-receive {{code}}`
