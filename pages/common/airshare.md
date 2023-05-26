@@ -1,4 +1,4 @@
-# Airshare
+# airshare
 
 > Transfer data between two machines in a local network.
 > More information: <https://airshare.readthedocs.io>.
