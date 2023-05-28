@@ -4,34 +4,34 @@
 > Diese Optionen können lokal (für das aktiven Repository) or global (für den aktiven Benutzer) sein.
 > Weitere Informationen: <https://git-scm.com/docs/git-config/de>.
 
-- Auflisten von lokalen Konfigurationseinträgen (gespeichert unter `.git/config` im aktiven Repository):
+- Liste nur lokale Konfigurationseinträge (gespeichert unter `.git/config` im aktiven Repository) auf:
 
 `git config --list --local`
 
-- Auflisten von global Konfigurationseinträgen (gespeichert unter `~/.gitconfig`):
+- Liste nur globale Konfigurationseinträge (gespeichert unter `~/.gitconfig`) auf:
 
 `git config --list --global`
 
-- Auflisten von System-Konfigurationseinträgen (gespeichert unter `/etc/gitconfig`), und deren Speicherort:
+- Liste nur System-Konfigurationseinträge (gespeichert unter `/etc/gitconfig`) und deren Speicherort auf:
 
 `git config --list --system --show-origin`
 
-- Ermitteln des Wertes für einen bestimmten Konfigurationseintrag:
+- Gib den Wert eines bestimmten Konfigurationseintrags aus:
 
 `git config alias.unstage`
 
-- Setzen des globalen Wertes für einen bestimmten Konfigurationseintrag:
+- Setze den globalen Wert eines bestimmten Konfigurationseintrags:
 
 `git config --global alias.unstage "reset HEAD --"`
 
-- Zurücketzen des globalen Wertes für einen bestimmten Konfigurationseintrag auf seinen Standardwert:
+- Setze den globalen Wert eines bestimmten Konfigurationseintrags auf seinen Standardwert zurück:
 
 `git config --global --unset alias.unstage`
 
-- Bearbeiten der Git-Konfiguration für das aktive Repository mit dem Standard-Editor:
+- Bearbeite die Git-Konfiguration für das aktuelle Repository mit dem Standard-Editor:
 
 `git config --edit`
 
-- Bearbeiten der globalen Git-Konfiguration mit dem Standard-Editor:
+- Bearbeite die globale Git-Konfiguration mit dem Standard-Editor:
 
 `git config --global --edit`
