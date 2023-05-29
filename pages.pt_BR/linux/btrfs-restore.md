@@ -15,10 +15,10 @@
 
 `sudo btrfs restore --path-regex {{regex}} -c {{caminho/para/dispositivo_btrfs}} {{caminho/para/diretório_alvo}}`
 
-- Restaura arquivos de um sistema de arquivos btrfs usando um `bytenr` específico da árvore raiz (consulte `btrfs-find-root`):
+- Restaurar arquivos de um sistema de arquivos btrfs usando um `bytenr` específico da árvore raiz (consulte `btrfs-find-root`):
 
 `sudo btrfs restore -t {{bytenr}} {{caminho/para/dispositivo_btrfs}} {{caminho/para/diretório_alvo}}`
 
-- Restaura arquivos de um sistema de arquivos btrfs (juntamente com metadados, atributos estendidos e Symlinks), sobrescrevendo arquivos no destino:
+- Restaurar arquivos de um sistema de arquivos btrfs (juntamente com metadados, atributos estendidos e Symlinks), sobrescrevendo arquivos no destino:
 
 `sudo btrfs restore --metadata --xattr --symlinks --overwrite {{caminho/para/dispositivo_btrfs}} {{caminho/para/diretório_alvo}}`
