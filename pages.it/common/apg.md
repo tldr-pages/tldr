@@ -21,4 +21,4 @@
 
 - Crea una password che non è già presente in un dizionario (file dizionario fornito come argomento):
 
-`apg -r {{dizionario}}`
+`apg -r {{percorso/del/dizionario}}`

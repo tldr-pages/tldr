@@ -21,4 +21,4 @@
 
 - Criar uma senha que não aparece em um dicionário provido pelo usuário:
 
-`apg -r {{arquivo_de_dicionario}}`
+`apg -r {{caminho/para/arquivo_de_dicionario}}`

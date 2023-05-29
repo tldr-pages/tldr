@@ -2,7 +2,7 @@
 
 > File archiver with a high compression ratio.
 > Similar to `7z` except that it supports fewer file types but is cross-platform.
-> More information: <https://www.7-zip.org>.
+> More information: <https://manned.org/7za>.
 
 - [a]rchive a file or directory:
 

@@ -1,8 +1,8 @@
 # curl
 
-> W PowerShell polecenie to może być aliasem polecenia `Invoke-WebRequest`, gdy oryginalny program `curl` (<https://curl.se>) nie jest poprawnie zainstalowany.
+> W PowerShell to polecenie może być aliasem `Invoke-WebRequest`, gdy oryginalny program `curl` (<https://curl.se>) nie jest poprawnie zainstalowany.
 
-- Zweryfikuj, czy `curl` jest poprawnie zainstalowany przez sprawdzeniem jego wersji. Jeśli to polecenie zwraca błąd, PowerShell mógł zastąpić to polecenie `Invoke-WebRequest`:
+- Zweryfikuj, czy `curl` jest poprawnie zainstalowany poprzez sprawdzenie jego wersji. Jeśli to polecenie zwraca błąd, PowerShell mógł je zastąpić poleceniem `Invoke-WebRequest`:
 
 `curl --version`
 

@@ -9,4 +9,4 @@
 
 - Öffne angegebene Verzeichnisse auf der linken oder rechten Seite:
 
-`vifm {{pfad/zu/verzeichnis_1}} {{pfad/zu/verzeichnis_2}}`
+`vifm {{pfad/zu/verzeichnis1 pfad/zu/verzeichnis2 ...}}`

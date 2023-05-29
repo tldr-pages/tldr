@@ -1,7 +1,7 @@
 # wtf
 
 > Pokazuje rozwinięcia akronimów.
-> Więcej informacji: <https://manpages.debian.org/bsdgames/wtf.6.en.html>.
+> Więcej informacji: <https://manpages.debian.org/latest/bsdgames/wtf.6.en.html>.
 
 - Rozwinięcie podanego akronimu:
 

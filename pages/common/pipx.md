@@ -1,6 +1,6 @@
 # pipx
 
-> Install and run python applications in isolated environments.
+> Install and run Python applications in isolated environments.
 > More information: <https://github.com/pypa/pipx>.
 
 - Run an app in a temporary virtual environment:

@@ -21,7 +21,7 @@
 
 - Open a specific issue or pull request in the web browser:
 
-`gh browse {{issue_or_pull_request_number}}`
+`gh browse {{issue_number|pull_request_number}}`
 
 - Open a specific branch in the web browser:
 
@@ -29,7 +29,7 @@
 
 - Open a specific file or directory of the current repository in the web browser:
 
-`gh browse {{path_from_root_of_repository}}`
+`gh browse {{path/to/file_or_directory}}`
 
 - Print the destination URL without open the web browser:
 

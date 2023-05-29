@@ -2,7 +2,7 @@
 
 > Archiwizator plików o wysokim współczynniku kompresji.
 > Samodzielna wersja `7z` obsługująca tylko pliki typu .7z.
-> Więcej informacji: <https://www.7-zip.org>.
+> Więcej informacji: <https://manned.org/7zr>.
 
 - Zarchiwizuj plik lub katalog:
 

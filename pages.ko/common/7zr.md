@@ -2,7 +2,7 @@
 
 > 높은 파일압축률을 보여주는 압축 프로그램.
 > .7z파일들만을 지원하는 `7z`의 독립형 버전.
-> 더 많은 정보: <https://www.7-zip.org>.
+> 더 많은 정보: <https://manned.org/7zr>.
 
 - 파일이나 디렉토리 압축하기:
 
@@ -10,7 +10,7 @@
 
 - 압축파일 암호화 (including file names):
 
-`7zr a {{경로/encrypted.7z}} -p{{비밀번호}} -mhe=on {{경로/archive.7z}}`
+`7zr a {{경로/encrypted.7z}} -p{{비밀번호}} -mhe={{on}} {{경로/archive.7z}}`
 
 - 기존 디렉토리 경로에 존재하는 7z파일 추출하기:
 

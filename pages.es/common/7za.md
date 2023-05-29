@@ -2,7 +2,7 @@
 
 > Archivador de archivos con una alta relación de compresión.
 > Similar a `7z`, salvo que admite menos tipos de archivos pero es multiplataforma.
-> Más información: <https://www.7-zip.org>.
+> Más información: <https://manned.org/7za>.
 
 - [a]rchivar un archivo o directorio:
 
