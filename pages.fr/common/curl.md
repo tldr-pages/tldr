@@ -4,6 +4,10 @@
 > Accepte la plupart des protocoles, notamment HTTP, FTP et POP3.
 > Plus d'informations : <https://curl.se/docs/manpage.html>.
 
+- Interroge une adresse IPv6 spécifique:
+
+`curl '{{http://[ipv6]:port}}'`
+
 - Télécharger le contenu d'une URL dans un fichier :
 
 `curl {{http://exemple.fr}} --output {{nom_fichier}}`
