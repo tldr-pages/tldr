@@ -1,7 +1,7 @@
 # 7za
 
 > Compactador de arquivos com uma alta taxa de compressão.
-- Semelhante to '7z', a principal diferença é que este suporta menos tipos de arquivamento/compressão.
+> Semelhante to '7z', a principal diferença é que este suporta menos tipos de arquivamento/compressão.
 > Mais informações: <https://manned.org/7za>.
 
 - Compactar um ficheiro ou diretório:

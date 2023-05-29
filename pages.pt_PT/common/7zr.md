@@ -1,7 +1,7 @@
 # 7z
 
 > Compactador de arquivos com uma alta taxa de compressão.
-- Semelhante ao '7z', com a diferença que suporta apenas ficheiros '.7z'.
+> Semelhante ao '7z', com a diferença que suporta apenas ficheiros '.7z'.
 > Mais informações: <https://manned.org/7zr>.
 
 - Adicionar um ficheiro ou diretório a um novo ou existente arquivo:

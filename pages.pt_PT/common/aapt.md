@@ -15,4 +15,3 @@
 - Criar um novo arquivo APK com os arquivos do directório especificado:
 
 `aapt package -F {{path/to/app.apk}} {{path/to/directory}}`
-
