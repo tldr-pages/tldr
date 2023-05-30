@@ -1,6 +1,6 @@
 # tts
 
-> Synthesize speech on the command line.
+> Synthesize speech on the command-line.
 > More information: <https://github.com/coqui-ai/TTS#command-line-tts>.
 
 - Run text-to-speech with the default models, writing the output to "tts_output.wav":

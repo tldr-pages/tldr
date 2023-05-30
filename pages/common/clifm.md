@@ -1,6 +1,6 @@
 # clifm
 
-> The command line file manager.
+> The command-line file manager.
 > More information: <https://github.com/leo-arch/clifm>.
 
 - Start CliFM:

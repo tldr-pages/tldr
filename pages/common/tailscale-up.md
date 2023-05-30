@@ -1,7 +1,7 @@
 # tailscale up
 
 > Connects the client to the Tailscale network.
-> In version 1.8 and above, command line arguments are stored and reused until they're overwritten or `--reset` is called.
+> In version 1.8 and above, command-line arguments are stored and reused until they're overwritten or `--reset` is called.
 > More information: <https://tailscale.com/kb/admin/>.
 
 - Connect to Tailscale:
