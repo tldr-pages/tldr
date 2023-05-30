@@ -1,6 +1,6 @@
 # cs complete dep
 
-> Allows the developer to search for libraries without searching directly on the web but from the command line.
+> Allows the developer to search for libraries without searching directly on the web but from the command-line.
 > More information: <https://get-coursier.io/docs/cli-complete>.
 
 - Print which artifacts are published under a specific Maven group identifier:

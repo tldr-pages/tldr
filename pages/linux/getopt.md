@@ -1,6 +1,6 @@
 # getopt
 
-> Parse command line arguments.
+> Parse command-line arguments.
 > More information: <https://www.gnu.org/software/libc/manual/html_node/Getopt.html>.
 
 - Parse optional `verbose`/`version` flags with shorthands:
