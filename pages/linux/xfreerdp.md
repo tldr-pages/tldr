@@ -23,6 +23,6 @@
 
 `xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /cert:ignore`
 
-- Connect to a FreeRDP server wtih shared drive mapped:
+- Connect to a FreeRDP server with shared drive mapped:
 
-`xfreerdp /v:ip_address /u:username /p:password /drive:{{share_path}},{{share_name}}` 
+`xfreerdp /v:ip_address /u:username /p:password /drive:{{share_path}},{{share_name}}`
