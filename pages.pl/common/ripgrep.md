@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `rg`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr rg`
