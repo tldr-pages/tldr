@@ -16,6 +16,6 @@
 
 `mitmproxy --scripts {{path/to/script.py}}`
 
-- Export the logs with SSL/TLS master keys, to external programs (wireshark,...)
+- Export the logs with SSL/TLS master keys, to external programs (wireshark,...):
 
 `SSLKEYLOGFILE="{{path/to/file}}" mitmproxy`
