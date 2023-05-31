@@ -3,6 +3,6 @@
 > To polecenie jest aliasem `musescore`.
 > Więcej informacji: <https://musescore.org/handbook/command-line-options>.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr musescore`

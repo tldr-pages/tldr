@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `-p linux comm`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr -p linux comm`

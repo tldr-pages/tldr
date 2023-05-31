@@ -1,6 +1,6 @@
 # vcvarsall
 
-> Setup the environment variables required for using the Microsoft Visual Studio tools from the command line.
+> Setup the environment variables required for using the Microsoft Visual Studio tools from the command-line.
 > The path of `vcvarsall` for a certain Visual Studio installation can be found using `vswhere`.
 > More information: <https://learn.microsoft.com/cpp/build/building-on-the-command-line>.
 

@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `kcat`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr kcat`
