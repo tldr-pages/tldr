@@ -25,4 +25,4 @@
 
 - Connect to a FreeRDP server with shared drive mapped:
 
-`xfreerdp /v:ip_address /u:username /p:password /drive:{{path/to/directory}},{{share_name}}`
+`xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /drive:{{path/to/directory}},{{share_name}}`
