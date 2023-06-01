@@ -1,6 +1,7 @@
 # jobs
 
-> BASH builtin for viewing information about processes spawned by the current shell.
+> Shell builtin for viewing information about processes spawned by the current shell.
+> Options prefixed with ~ are exclusive to BASH.
 > More information: <https://manned.org/jobs>.
 
 - View jobs spawned by the current shell:
@@ -11,7 +12,7 @@
 
 `jobs -l`
 
-- Display information about jobs with changed status:
+- Display information about jobs with changed status (~):
 
 `jobs -n`
 
@@ -19,10 +20,10 @@
 
 `jobs -p`
 
-- Display running processes:
+- Display running processes (~):
 
 `jobs -r`
 
-- Display stopped processes:
+- Display stopped processes (~):
 
 `jobs -s`
