@@ -293,7 +293,7 @@ Not translated yet.
 
 > To polecenie jest aliasem `example`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr example`
 ```

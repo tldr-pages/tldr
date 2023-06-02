@@ -3,14 +3,14 @@
 > Move or rename files and update the Git index.
 > More information: <https://git-scm.com/docs/git-mv>.
 
-- Move file inside the repo and add the movement to the next commit:
+- Move a file inside the repo and add the movement to the next commit:
 
 `git mv {{path/to/file}} {{new/path/to/file}}`
 
-- Rename file and add renaming to the next commit:
+- Rename a file or directory and add the renaming to the next commit:
 
-`git mv {{filename}} {{new_filename}}`
+`git mv {{path/to/file_or_directory}} {{path/to/destination}}`
 
-- Overwrite the file in the target path if it exists:
+- Overwrite the file or directory in the target path if it exists:
 
-`git mv --force {{file}} {{target}}`
+`git mv --force {{path/to/file_or_directory}} {{path/to/destination}}`

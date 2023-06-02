@@ -2,7 +2,7 @@
 
 > Indente, formate, et embelli du code source pour des languages de programmation comme C, C++, C# et Java.
 > Pendant l'exécution, une copie du fichier original est créé avec un ".orig" suffixé au nom de fichier original.
-> Plus d'informations : <http://astyle.sourceforge.net/>.
+> Plus d'informations : <http://astyle.sourceforge.net>.
 
 - Applique le style par défaut de 4 espaces pour l'indentation et pas de changement de formatage :
 

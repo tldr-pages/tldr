@@ -7,6 +7,6 @@
 
 `gnatprep {{source_file}} {{target_file}} {{definitions_file}}`
 
-- Specify symbol values in the command line:
+- Specify symbol values in the command-line:
 
 `gnatprep -D{{name}}={{value}} {{source_file}} {{target_file}}`

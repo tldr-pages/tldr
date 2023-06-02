@@ -9,7 +9,7 @@
 
 - Verschiebe mehrere Dateien in ein anderes Verzeichnis und behalte deren Namen bei:
 
-`mv {{datei1}} {{datei2}} {{datei3}} {{pfad/zu/ziel_verzeichnis}}`
+`mv {{pfad/zu/datei1 pfad/zu/datei2 ...}} {{pfad/zu/ziel_verzeichnis}}`
 
 - Überschreibe bereits existierende Dateien ohne vorherige Bestätigung:
 

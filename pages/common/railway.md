@@ -1,6 +1,6 @@
 # railway
 
-> Connect code to a Railway project from the command line.
+> Connect code to a Railway project from the command-line.
 > More information: <https://railway.app/>.
 
 - Login to a Railway account:
@@ -11,7 +11,7 @@
 
 `railway link {{projectId}}`
 
-- Create a new project directly from the command line:
+- Create a new project directly from the command-line:
 
 `railway init`
 

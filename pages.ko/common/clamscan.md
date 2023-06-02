@@ -1,7 +1,7 @@
 # clamscan
 
 > 바이러스 검사를 하는 줄 명령어.
-> 더 많은 정보: <https://www.clamav.net>.
+> 더 많은 정보: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>.
 
 - 약점이 있는 파일을 검사합니다:
 

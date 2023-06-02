@@ -1,7 +1,7 @@
 # clamscan
 
 > โปรแกรมตรวจหาไวรัสบนคอมมานด์ไลน์
-> ข้อมูลเพิ่มเติม: <https://www.clamav.net>.
+> ข้อมูลเพิ่มเติม: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>.
 
 - แสกนไฟล์หาช่องโหว่ทางความปลอดภัย:
 

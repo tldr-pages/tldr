@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `rc`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr rc`

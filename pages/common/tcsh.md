@@ -1,6 +1,6 @@
 # tcsh
 
-> C shell with file name completion and command line editing.
+> C shell with file name completion and command-line editing.
 > See also: `csh`.
 > More information: <https://manned.org/tcsh>.
 

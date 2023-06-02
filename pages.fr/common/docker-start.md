@@ -17,4 +17,4 @@
 
 - Lancer un ou plusieurs conteneurs séparés par des espaces :
 
-`docker start {{conteneur(s)}}`
+`docker start {{conteneur1 conteneur2 ...}}`
