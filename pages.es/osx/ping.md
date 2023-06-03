@@ -17,11 +17,11 @@
 
 - Ping a `host` sin intentar buscar nombres simbólicos para las direcciones:
 
-Ping -n "{{host}}"`
+`ping -n "{{host}}"`
 
 - Ping al `host` y hace sonar la campana cuando se recibe un paquete (si tu terminal lo soporta):
 
-ping -a "{{host}}"`
+`ping -a "{{host}}"`
 
 - Ping al `host` y muestra la hora en la que se ha recibido un paquete (esta opción es un añadido de Apple):
 
