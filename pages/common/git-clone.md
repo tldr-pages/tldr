@@ -3,10 +3,6 @@
 > Clone an existing repository.
 > More information: <https://git-scm.com/docs/git-clone>.
 
-- Clone an existing repository:
-
-`git clone {{remote_repository_location}}`
-
 - Clone an existing repository into a specific directory:
 
 `git clone {{remote_repository_location}} {{path/to/directory}}`
@@ -14,6 +10,10 @@
 - Clone an existing repository and its submodules:
 
 `git clone --recursive {{remote_repository_location}}`
+
+- Clone .git directory of an existing repository only:
+
+`git clone --no-checkout {{remote_repository_location}}`
 
 - Clone a local repository:
 
