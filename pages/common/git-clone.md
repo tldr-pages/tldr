@@ -11,17 +11,17 @@
 
 `git clone --recursive {{remote_repository_location}}`
 
-- Clone .git directory of an existing repository only:
+- Clone `.git` directory of an existing repository only:
 
 `git clone --no-checkout {{remote_repository_location}}`
 
 - Clone a local repository:
 
-`git clone -l {{path/to/local/repository}}`
+`git clone --local {{path/to/local/repository}}`
 
 - Clone quietly:
 
-`git clone -q {{remote_repository_location}}`
+`git clone --quiet {{remote_repository_location}}`
 
 - Clone an existing repository only fetching the 10 most recent commits on the default branch (useful to save time):
 
