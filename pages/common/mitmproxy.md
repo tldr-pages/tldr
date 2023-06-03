@@ -15,3 +15,7 @@
 - Start `mitmproxy` using a script to process traffic:
 
 `mitmproxy --scripts {{path/to/script.py}}`
+
+- Export the logs with SSL/TLS master keys to external programs (wireshark, etc.):
+
+`SSLKEYLOGFILE="{{path/to/file}}" mitmproxy`
