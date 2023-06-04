@@ -3,7 +3,7 @@
 > Clone an existing repository.
 > More information: <https://git-scm.com/docs/git-clone>.
 
-- Clone an existing repository into a specific directory:
+- Clone an existing repository into a new directory (the default directory is the repository name):
 
 `git clone {{remote_repository_location}} {{path/to/directory}}`
 
