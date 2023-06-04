@@ -1,7 +1,7 @@
 # java
 
 > Peluncur Aplikasi Java.
-> Informasi lebih lanjut: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/java.html>.
+> Informasi lebih lanjut: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html>.
 
 - Jalankan berkas java `.class` yang mengandung method main dengan hanya menggunakan nama class:
 
