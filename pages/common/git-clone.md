@@ -11,7 +11,7 @@
 
 `git clone --recursive {{remote_repository_location}}`
 
-- Clone `.git` directory of an existing repository only:
+- Clone only the `.git` directory of an existing repository:
 
 `git clone --no-checkout {{remote_repository_location}}`
 
