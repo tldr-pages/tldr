@@ -11,7 +11,7 @@
 
 `git lfs track '{{*.bin}}'`
 
-- Change the Git LFS endpoint URL (useful if the LFS server is separate from the Git server):
+- Change the Git LFS endpoint URL (useful if the LFS server is separated from the Git server):
 
 `git config -f .lfsconfig lfs.url {{lfs_endpoint_url}}`
 
