@@ -7,10 +7,10 @@
 
 `gitwatch {{path/to/file_or_directory}}`
 
-- Automatically commit changes, and push these to git repository:
+- Automatically commit changes and push them to a remote repository:
 
 `gitwatch -r {{remote_name}} {{path/to/file_or_directory}}`
 
-- Automatically commit changes, and push these to a specific branch of the git repository:
+- Automatically commit changes and push them to a specific branch of a remote repository:
 
 `gitwatch -r {{remote_name}} -b {{branch_name}} {{path/to/file_or_directory}}`
