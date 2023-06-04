@@ -31,3 +31,7 @@
 - Execute specific commands from `stdin`:
 
 `{{echo "echo 'bash is executed'"}} | bash`
+
+- Start an restricted shell session:
+
+`bash -r`
