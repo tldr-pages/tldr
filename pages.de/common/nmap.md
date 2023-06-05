@@ -1,10 +1,10 @@
 # nmap
 
 > Netzwerk erkundungs Werkzeug und Security / Port Scanner.
-> Manche Funktionen können nur benutzt werden bei ausführung von Nmap mit root Rechten.
+> Manche Funktionen können nur benutzt werden bei ausführung von Nmap mit Root Rechten.
 > Weitere Informationen: <https://nmap.org>.
 
-- Überprüft ob eine IP-Adresse Online ist und Rate das Betriebssystem des remote Host's:
+- Überprüft ob eine IP-Adresse Online ist und Sannt nach dem Betriebssystem:
 
 `nmap -O {{ip_oder_hostname}}`
 
@@ -12,7 +12,7 @@
 
 `nmap -sn {{ip_oder_hostname}} {{optional_noch_eine_addresse}}`
 
-- Scanne zusätzlich mit Betriebssystem erkennung, Version erkennung, nach Scripts und nach Traceroute:
+- Scanne zusätzlich mit aggressiver Betriebssystem erkennung, Version erkennung, nach Scripts und nach Traceroute:
 
 `nmap -A {{addresse_oder_addressen}}`
 
