@@ -11,7 +11,7 @@
 
 `git commit --file {{path/to/commit_message_file}}`
 
-- Auto stage all modified files and commit with a message:
+- Auto stage all modified and deleted files and commit with a message:
 
 `git commit -a -m "{{message}}"`
 
