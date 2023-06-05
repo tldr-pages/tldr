@@ -1,7 +1,7 @@
 # nmap
 
 > Netzwerk erkundungs Werkzeug und Security / Port Scanner.
-> Manche Funktionen können nur benutzt werden bei ausführung von Nmap mit root Rechten .
+> Manche Funktionen können nur benutzt werden bei ausführung von Nmap mit root Rechten.
 > Weitere Informationen: <https://nmap.org>.
 
 - Überprüft ob eine IP-Adresse Online ist und Rate das Betriebssystem des remote Host's:
@@ -32,6 +32,6 @@
 
 `nmap --script "http-*" {{addresse_oder_addressen}} -p 80,443`
 
-- Führe einen sehr langsamen verborgenen Scan ('-T0') aus um die Entdeckung von IDS/IPS zu umgehen und benutze Köder IP PAAdressen ('-D'):
+- Führe einen sehr langsamen verborgenen Scan ('-T0') aus um die Entdeckung von IDS/IPS zu umgehen und benutze Köder IP Adressen ('-D'):
 
 `nmap -T0 -D {{köder1_ipaddresse,köder2_ipaddresse,...,köderN_ipaddresse}} {{addresse_oder_addressen}}`
