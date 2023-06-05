@@ -13,7 +13,7 @@
 `nmap -sn {{ip_oder_hostname}} {{optional_noch_eine_addresse}}`
 
 - Scanne zusätzlich mit Betriebssystem erkennung, Version erkennung, nach Scripts und nach Traceroute:
- 
+
 `nmap -A {{addresse_oder_addressen}}`
 
 - Scanne eine spezifische Liste an Ports (benutze '-p-' für alle Ports von 1 bis 65535):
