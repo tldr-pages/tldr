@@ -24,6 +24,6 @@
 
 `jobs -r`
 
-- Display stopped processes (~):
+- Display stopped processes:
 
 `jobs -s`
