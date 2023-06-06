@@ -12,7 +12,7 @@
 
 `jobs -l`
 
-- Display information about jobs with changed status (~):
+- Display information about jobs with changed status:
 
 `jobs -n`
 
