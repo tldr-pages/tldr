@@ -9,7 +9,7 @@
 
 - Escribe un atributo para un archivo determinado:
 
-`xattr -w {{atributo_clave}} {{atributo_valor}} {{fichero}}`
+`xattr -w {{atributo_clave}} {{atributo_valor}} {{archivo}}`
 
 - Elimina un atributo de un archivo determinado:
 
@@ -17,7 +17,7 @@
 
 - Elimina todos los atributos extendidos de un archivo determinado:
 
-`xattr -c {{fichero}}`
+`xattr -c {{archivo}}`
 
 - Elimina recursivamente un atributo en un directorio determinado:
 
