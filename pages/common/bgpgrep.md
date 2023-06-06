@@ -16,7 +16,7 @@
 
 `bgpgrep {{master4.mrt.bz2}} -peer {{2001:db8:dead:cafe:acd::19e}}`
 
-- Output all routes which have certain AS in their AS path:
+- Output all routes which have certain ASNs in their AS path:
 
 `bgpgrep {{master6.mrt.bz2}} -aspath '{{64498 64510}}'`
 
