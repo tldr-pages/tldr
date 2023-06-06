@@ -16,7 +16,7 @@
 
 `jobs -n`
 
-- Display process ID of process group leader:
+- Display only process IDs:
 
 `jobs -p`
 
