@@ -1,7 +1,7 @@
 # jobs
 
 > Shell builtin for viewing information about processes spawned by the current shell.
-> Options prefixed with ~ are exclusive to BASH.
+> Options other than `-l` and `-p` are exclusive to `bash`.
 > More information: <https://manned.org/jobs>.
 
 - View jobs spawned by the current shell:
