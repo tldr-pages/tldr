@@ -19,6 +19,10 @@
 
 `git remote set-url {{远程仓库名字}} {{新 URL}}`
 
+- 查看远程仓库的 URL：
+
+`git remote get-url {{远程仓库名字}}`
+
 - 移除远程仓库：
 
 `git remote remove {{远程仓库名字}}`
