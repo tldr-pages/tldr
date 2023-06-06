@@ -20,7 +20,7 @@
 
 `jobs -p`
 
-- Display running processes (~):
+- Display running processes:
 
 `jobs -r`
 
