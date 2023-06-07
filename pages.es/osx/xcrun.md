@@ -13,7 +13,7 @@
 
 - Busca una herramienta para un SDK determinado:
 
-`xcrun --sdk {{nombre_sdk}}
+`xcrun --sdk {{nombre_sdk}}`
 
 - Busca una herramienta para una cadena de herramientas determinada:
 
