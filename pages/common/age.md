@@ -15,7 +15,7 @@
 
 `age --recipient {{public_key_1}} --recipient {{public_key_2}} {{path/to/unencrypted_file}} --output {{path/to/encrypted_file}}`
 
-- Encrypt a file with one or more public keys that are specified in a recipients file:
+- Encrypt a file with one or more public keys that are specified in a recipient's file:
 
 `age --recipients-file {{path/to/recipients_file}} {{path/to/unencrypted_file}} --output {{path/to/encrypted_file}}`
 
