@@ -31,6 +31,6 @@
 
 `winget {{import|export}} {{--import-file|--output}} {{path/to/file}}`
 
-- Validate manifests before submitting PR to Winget repository:
+- Validate manifests before submitting a PR to the winget-pkgs repository:
 
 `winget validate {{path/to/manifest}}`
