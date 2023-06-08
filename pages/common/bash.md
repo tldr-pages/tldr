@@ -32,6 +32,6 @@
 
 `{{echo "echo 'bash is executed'"}} | bash`
 
-- Start an restricted shell session:
+- Start a [r]estricted shell session:
 
 `bash -r`
