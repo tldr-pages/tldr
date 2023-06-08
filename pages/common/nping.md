@@ -7,7 +7,7 @@
 
 `nping {{example.com}}`
 
-- Ping a specified host using ICMP assuming that the user is allowed to do so
+- Ping a specified host using ICMP assuming that the user is allowed to do so:
 
 `nping --icmp --privileged {{example.com}}`
 
