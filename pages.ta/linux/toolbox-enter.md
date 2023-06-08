@@ -14,4 +14,4 @@
 
 - ஃபெடோரா 36 க்கான இயல்புநிலை படத்தைப் பயன்படுத்தி ஒரு கருவிப்பெட்டி கொள்கலனை உள்ளிடவும்:
 
-`toolbox enter --distro {{fedora}} --release {{f36}}`
+`toolbox enter --distro {{fedora}} --release {{f38}}`
