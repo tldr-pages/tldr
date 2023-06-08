@@ -8,7 +8,7 @@
 
 `bgpgrep {{master6.mrt}}`
 
-- Output all routes received from a specific peer, determined by the AS number:
+- Output all routes received from a specific peer, determined by the peer's AS number:
 
 `bgpgrep {{master4.mrt}} -peer {{64498}}`
 
