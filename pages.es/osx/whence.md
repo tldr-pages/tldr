@@ -21,4 +21,4 @@
 
 - Buscar sólo el `PATH`para {{comando}}, ignorando los buildins, aliases o funciones del shell (equivalente al comando `where`):
 
-`whence -p "{{command}}"`
+`whence -p "{{comando}}"`
