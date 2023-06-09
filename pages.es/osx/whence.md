@@ -7,7 +7,7 @@
 
 `whence "{{comando}}"`
 
-- Muestra tipo de {{command}}, con localización si se define como una función, o binario (equivalente a los `type` y `command -V` integrados):
+- Muestra tipo de {{comando}}, con localización si se define como una función, o binario (equivalente a los `type` y `command -V` integrados):
 
 `whence -v "{{comando}}"`
 
