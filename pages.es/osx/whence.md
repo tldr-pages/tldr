@@ -17,7 +17,7 @@
 
 - Igual que el anterior, pero muestra todas las apariciones en la ruta del comando (equivalente al `where` integrado):
 
-`whence -ca " {{command}}"`
+`whence -ca "{{comando}}"`
 
 - Buscar sólo el `PATH`para {{command}}, ignorando los buildins, aliases o funciones del shell (equivalente al comando `where`):
 
