@@ -5,6 +5,7 @@
 ## 레이아웃
 
 각 페이지의 기본 포맷은 다음 템플릿과 일치해야 하며, 다음과 최대 8개의 명령어 예제를 포함해야 합니다:
+
 ```md
 # 명령어 이름
 
@@ -102,6 +103,7 @@ tldr --render path/to/tldr_page.md
 토큰을 선택할 때 다음의 가이드라인을 염두에 두십시오:
 
 ### Naming
+
 - 짧지만 설명적인 토큰을 사용하세요.
 - 파일 및 디렉토리 경로에 대한 참조의 경우: 
   `{{path/to/<placeholder>}}`의 포맷을 사용하세요.
@@ -125,7 +127,7 @@ tldr --render path/to/tldr_page.md
 - 만약 명령어가 파일 시스템이나 장치에 돌이킬 수 없는 변경을 수행하는 경우, 모든 예제를 생각 없이 복사하여 붙여넣을 수 없도록 작성하십시오.
   예를 들어 `ddrescue --force --no-scrape /dev/sda /dev/sdb` 대신에 `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`를 사용하고, *block device*에 `/dev/sda1` 대신 `{{/dev/sdXY}}` 자리 표시자를 사용하세요.
 - 명령어가 많은 수의 명령어를 포함할 수 있는 경우, 다음과 같이 생략하여 표현하세요.
-  `{{arg1 arg2 ...}}` 여러 옵션 중 하나가 가능한 경우 `{{either|or}}`로 작성합니다.
+  `{{argument1 argument2 ...}}` 여러 옵션 중 하나가 가능한 경우 `{{either|or}}`로 작성합니다.
 
 일반적으로, 토큰은 가능한 한 직관적이어야 합니다.
 명령을 사용하는 방법을 파악하고 값으로 채우십시오.
@@ -150,8 +152,9 @@ tldr --render path/to/tldr_page.md
 > Git brances, tags, remotes를 삭제하세요.
 
 위의 예는 직렬 쉼표를 사용하지 않으므로 다음 두 가지 중 하나를 의미할 수 있습니다.
-* `tags`와 `remotes`라는 Git branch들을 삭제하세요.
-* Git branches, Git tag, Git remotes를 모두 삭제하세요.
+
+- `tags`와 `remotes`라는 Git branch들을 삭제하세요.
+- Git branches, Git tag, Git remotes를 모두 삭제하세요.
 
 목록의 마지막 요소에서 "and" 또는 "or" 앞에 쉼표를 삽입하면 이 문제를 해결할 수 있습니다.
 

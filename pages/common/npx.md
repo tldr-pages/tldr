@@ -5,7 +5,7 @@
 
 - Execute the command from a local or remote `npm` package:
 
-`npx {{command}} {{arg1 arg2 ...}}`
+`npx {{command}} {{argument1 argument2 ...}}`
 
 - In case multiple commands with the same name exist, it is possible to specify the package name:
 
@@ -17,7 +17,7 @@
 
 - Execute a specific command suppressing any output from `npx` itself:
 
-`npx --quiet {{command}} {{arg1 arg2 ...}}`
+`npx --quiet {{command}} {{argument1 argument2 ...}}`
 
 - Display help:
 

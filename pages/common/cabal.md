@@ -10,11 +10,11 @@
 
 - Show information about a package:
 
-`cabal info {{package_name}}`
+`cabal info {{package}}`
 
 - Download and install a package:
 
-`cabal install {{package_name}}`
+`cabal install {{package}}`
 
 - Create a new Haskell project in the current directory:
 

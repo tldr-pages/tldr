@@ -5,23 +5,23 @@
 
 - Find available packages:
 
-`pip3 search {{package_name}}`
+`pip3 search {{package1 package2 ...}}`
 
 - Install a package:
 
-`pip3 install {{package_name}}`
+`pip3 install {{package}}`
 
 - Install a specific version of a package:
 
-`pip3 install {{package_name}}=={{package_version}}`
+`pip3 install {{package}}=={{version}}`
 
 - Upgrade a package:
 
-`pip3 install --upgrade {{package_name}}`
+`pip3 install --upgrade {{package}}`
 
 - Uninstall a package:
 
-`pip3 uninstall {{package_name}}`
+`pip3 uninstall {{package}}`
 
 - Save the list of installed packages to a file:
 
@@ -33,4 +33,4 @@
 
 - Show installed package info:
 
-`pip3 show {{package_name}}`
+`pip3 show {{package}}`

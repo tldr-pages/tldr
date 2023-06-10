@@ -26,12 +26,12 @@
 
 - Remove all versions of a published package from the registry:
 
-`pio package unpublish {{package_name}}`
+`pio package unpublish {{package}}`
 
 - Remove a specific version of a published package from the registry:
 
-`pio package unpublish {{package_name}}@{{version}}`
+`pio package unpublish {{package}}@{{version}}`
 
 - Undo the removal, putting all versions or a specific version of the package back into the registry:
 
-`pio package unpublish --undo {{package_name}}@{{version}}`
+`pio package unpublish --undo {{package}}@{{version}}`

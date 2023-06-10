@@ -8,7 +8,7 @@
 
 首先，你的页面应该看起来像这样：
 
-```
+```md
 # 命令名称
 
 > 短小精悍的描述。
@@ -28,7 +28,7 @@
 
 你也可以在提交前在本地测试自己的贡献：
 
-```
+```sh
 npm install --global tldr-lint
 tldr-lint {{page.md}}
 ```
@@ -37,10 +37,9 @@ tldr-lint {{page.md}}
 
 如果你用 tldr-pages 的 Node.js 客户端，你可以在命令后加 `-f` (`--render`) 来在本地预览自己的页面：
 
-```
+```sh
 tldr --render {{page.md}}
 ```
-
 
 ## 占位符（token）语法
 
@@ -84,7 +83,7 @@ tldr --render {{page.md}}
 以下规则适用于中文（zh）和繁体中文（zh_TW）：
 
 1. 在西文单词和数字前后放置一个空格。  
-   例如：`列出所有 docker 容器` 而不是 `列出所有docker容器`。   
+   例如：`列出所有 docker 容器` 而不是 `列出所有docker容器`。  
    例如：`宽度为 50 个字` 而不是 `宽度为50个字`。
 2. 除了度数和百分比，在数字和单位之间留一个空格。  
    例如：`容量 50 MB` 而不是 `容量 50MB`。  
@@ -101,4 +100,3 @@ tldr --render {{page.md}}
 为保持可读性和一致性，将页面翻译成中文时，请尽可能遵守以上 6 条规则。
 
 有关更多中西文混排规则的信息，请参考 [《中文文案排版指北》](https://github.com/sparanoid/chinese-copywriting-guidelines)。
-

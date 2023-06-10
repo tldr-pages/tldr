@@ -5,7 +5,7 @@
 
 - Uninstall a package:
 
-`pip uninstall {{package_name}}`
+`pip uninstall {{package}}`
 
 - Uninstall packages listed in a specific file:
 
@@ -13,4 +13,4 @@
 
 - Uninstall package without asking for confirmation:
 
-`pip uninstall --yes {{package_name}}`
+`pip uninstall --yes {{package}}`

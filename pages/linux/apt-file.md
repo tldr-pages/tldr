@@ -13,7 +13,7 @@
 
 - List the contents of a specific package:
 
-`apt-file {{show|list}} {{package_name}}`
+`apt-file {{show|list}} {{package}}`
 
 - Search for packages that match the `regular_expression`:
 

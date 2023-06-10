@@ -5,7 +5,7 @@
 
 - Search for all available versions of a particular package:
 
-`mamba repoquery search {{package_name}}`
+`mamba repoquery search {{package}}`
 
 - Search for all packages satisfying specific constraints:
 

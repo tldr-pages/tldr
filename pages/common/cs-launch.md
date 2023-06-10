@@ -5,11 +5,11 @@
 
 - Launch a specific application with arguments:
 
-`cs launch {{application_name}} -- {{arg1 arg2 ...}}`
+`cs launch {{application_name}} -- {{argument1 argument2 ...}}`
 
 - Launch a specific application version with arguments:
 
-`cs launch {{application_name}}:{{application_version}} -- {{arg1 arg2 ...}}`
+`cs launch {{application_name}}:{{application_version}} -- {{argument1 argument2 ...}}`
 
 - Launch a specific version of an application specifying which is the main file:
 

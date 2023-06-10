@@ -124,7 +124,7 @@ Keep the following guidelines in mind when choosing placeholders:
 - Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
 - Use a generic placeholder rather than an actual value where a generic placeholder is available (but there is an exception to this listed below). For example, use
   `iostat {{1..infinity}}` rather than `iostat {{2}}`.
- - If there are several consecutive placeholders of the same type
+  - If there are several consecutive placeholders of the same type
   which don't allow adding arbitrary text in them (ranges), then instead of generic placeholders use descriptive ones. For example prefer `input swipe {{x_position}} {{y_position}} {{x_position}} {{y_position}} {{seconds}}`
   instead of `input swipe {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{1..infinity}}`.
 
@@ -195,8 +195,9 @@ since omitting it can create ambiguity.
 > Delete the Git branches, tags and remotes.
 
 The example above does not use a serial comma, so this could mean one of two things:
-* Delete the Git branches named `tags` and `remotes`.
-* Delete all of the following: Git branches, Git tags, and Git remotes.
+
+- Delete the Git branches named `tags` and `remotes`.
+- Delete all of the following: Git branches, Git tags, and Git remotes.
 
 This can be resolved by inserting a comma before the "and" or "or" in the final element in the list.
 
@@ -206,7 +207,7 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 On the `More information` line, prefer linking to the author's provided documentation.
 
-When not available, use <https://manned.org> as the default fallback. 
+When not available, use <https://manned.org> as the default fallback.
 
 ## Language-Specific Rules
 
@@ -217,19 +218,30 @@ When Chinese words, Latin words and Arabic numerals are written in the same sent
 The following guidelines are applied to Chinese (`zh`) and traditional Chinese (`zh_TW`) pages:
 
 1. Place one space before/after English words and numbers.
-  - For example, use `列出所有 docker 容器` rather than `列出所有docker容器`.
-  - For example, use `宽度为 50 个字` rather than `宽度为50个字`.
+
+ - For example, use `列出所有 docker 容器` rather than `列出所有docker容器`.
+ - For example, use `宽度为 50 个字` rather than `宽度为50个字`.
+
 2. Place one space between numbers and units **except** degrees and percentages.
-  - For example, use `容量 50 MB` rather than `容量 50MB`.
-  - For instances of degree and percentage, use `50°C` and `50%` rather than `50 °C` and `50 %`.
+
+ - For example, use `容量 50 MB` rather than `容量 50MB`.
+ - For instances of degree and percentage, use `50°C` and `50%` rather than `50 °C` and `50 %`.
+
 3. No additional spaces before/after full-width punctuations.
-  - For example, use `开启 shell，进入交互模式` rather than `开启 shell ，进入交互模式`
+
+ - For example, use `开启 shell，进入交互模式` rather than `开启 shell ，进入交互模式`
+
 4. Use full-width punctuations except for long Latin clauses.
-  - For example, use `嗨，你好。` rather than `嗨, 你好.`
+
+ - For example, use `嗨，你好。` rather than `嗨, 你好.`
+
 5. Use a half-width punctuation to end a sentence when the last character is half-width.
+
   - For example, use `将代码转化为 Python 3.` rather than `将代码转化为 Python 3。`
+
 6. Use precise form for technical terms, and do not use unofficial Chinese abbreviations.
-  - For example, use `Facebook` rather than `facebook`, `fb` or `脸书`.
+
+ - For example, use `Facebook` rather than `facebook`, `fb` or `脸书`.
 
 In order to maintain readability and normalization, please comply with the 6 rules above as much as possible when translating pages into Chinese.
 

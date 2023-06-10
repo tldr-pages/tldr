@@ -14,15 +14,15 @@
 
 - Install a new package:
 
-`aurman --sync {{package_name}}`
+`aurman --sync {{package}}`
 
 - Install a new package without show changes of `PKGBUILD` files:
 
-`aurman --sync --noedit {{package_name}}`
+`aurman --sync --noedit {{package}}`
 
 - Install a new package without prompting:
 
-`aurman --sync --noedit --noconfirm {{package_name}}`
+`aurman --sync --noedit --noconfirm {{package}}`
 
 - Search the package database for a keyword from the official repositories and AUR:
 
@@ -30,7 +30,7 @@
 
 - Remove a package and its dependencies:
 
-`aurman --remove --recursive --nosave {{package_name}}`
+`aurman --remove --recursive --nosave {{package}}`
 
 - Clear the package cache (use two `--clean` flags to clean all packages):
 
