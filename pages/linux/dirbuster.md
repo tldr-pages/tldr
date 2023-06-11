@@ -9,11 +9,11 @@
 
 - Start in headless (no gui) mode:
 
-`dirbuster -H -u {{http://url.here}}`
+`dirbuster -H -u {{http://example.com}}`
 
 - Set file extension list:
 
-`dirbuster -e {{extensions,list}}`
+`dirbuster -e {{txt,html}}`
 
 - Enable verbose output:
 
