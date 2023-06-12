@@ -19,7 +19,7 @@
 
 `choco install {{pacchetto}} --version {{versione}}`
 
-- Consente l'installazione di più versioni di un pacchetto:
+- Consenti l'installazione di più versioni di un pacchetto:
 
 `choco install {{pacchetto}} --allow-multiple`
 
