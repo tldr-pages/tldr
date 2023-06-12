@@ -7,11 +7,11 @@
 
 `zotero`
 
-- Run Zotero headlessly:
+- Run Zotero in headless mode:
 
 `zotero --headless`
 
-- Run Zotero with a particular profile:
+- Run Zotero with a specific profile:
 
 `zotero -P {{profile}}`
 
