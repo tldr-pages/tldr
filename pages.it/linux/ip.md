@@ -23,7 +23,7 @@
 
 `ip neighbour`
 
-- Impostare un'interfaccia up/down:
+- Attiva/disattiva un'interfaccia:
 
 `ip link set {{interfaccia}} up/down`
 
