@@ -165,10 +165,10 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [14 December 2021](https://github.com/tldr-pages/tldr/issues/7541) — present
 - **Marcher Simon ([@marchersimon](https://github.com/marchersimon))**:
   [9 August 2022](https://github.com/tldr-pages/tldr/issues/7540) — present
-- **Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))**:
-  [10 April 2023](https://github.com/tldr-pages/tldr/issues/10053) - present
 - **Pixel Häußler ([@pixelcmtd](https://github.com/pixelcmtd))**:
   [10 May 2023](https://github.com/tldr-pages/tldr/pull/10056) — present
+- **Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))**:
+  [9 June 2023](https://github.com/tldr-pages/tldr/pull/10355) - present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
