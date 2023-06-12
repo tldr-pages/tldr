@@ -19,7 +19,7 @@
 
 `mount -o retry={{retries}} \\{{computer_name}}\{{share_name}} {{Z:}}`
 
-- Monta una share forzando il maiuscolo:
+- Monta una share forzando la distinzione tra maiuscole e minuscole:
 
 `mount -o casesensitive \\{{computer_name}}\{{share_name}} {{Z:}}`
 
