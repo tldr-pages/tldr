@@ -16,7 +16,7 @@
 
 `robocopy {{percorso\della\directory_sorgente}} {{percorso\della\directory_destinazione}} /MIR /COPYALL`
 
-- Copia tutti i file e le sottocartelle, escludendo i file di origine più vecchi rispetto ai file di destinazione:
+- Copia tutti i file e le sottodirectory, escludendo i file di origine più vecchi rispetto ai file di destinazione:
 
 `robocopy {{percorso\della\directory_sorgente}} {{percorso\della\directory_destinazione}} /E /XO`
 
