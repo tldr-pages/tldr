@@ -24,7 +24,7 @@
 
 `robocopy {{percorso\della\directory_sorgente}} {{percorso\della\directory_destinazione}} /MIN:{{52428800}} /L`
 
-- Consentire la ripresa se la connessione di rete viene interrotta e limitare i tentativi di ripetizione a 5 e il tempo di attesa a 15 secondi:
+- Consenti la ripresa se la connessione di rete viene interrotta, limita i tentativi di ripresa a 5 ed il tempo di attesa a 15 secondi:
 
 `robocopy {{percorso\della\directory_sorgente}} {{percorso\della\directory_destinazione}} /Z /R:5 /W:15`
 
