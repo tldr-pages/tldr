@@ -8,7 +8,7 @@
 
 `robocopy {{percorso\della\directory_sorgente}} {{percorso\della\directory_destinazione}} {{*.jpg}} {{*.bmp}}`
 
-- Copia tutti i file e le sottocartelle, includento anche quelle vuote:
+- Copia tutti i file e le sottodirectory, includento anche quelle vuote:
 
 `robocopy {{percorso\della\directory_sorgente}} {{percorso\della\directory_destinazione}} /E`
 
