@@ -12,7 +12,7 @@
 
 `robocopy {{percorso\della\directory_sorgente}} {{percorso\della\directory_destinazione}} /E`
 
-- Mirror/Sincronizza una cartella, eliminando tutto ciò che non è nella sorgente e includendo tutti gli attributi e le autorizzazioni:
+- Mirror/Sincronizza una directory, eliminando tutto ciò che non è nella sorgente e includendo tutti gli attributi e le autorizzazioni:
 
 `robocopy {{percorso\della\directory_sorgente}} {{percorso\della\directory_destinazione}} /MIR /COPYALL`
 
