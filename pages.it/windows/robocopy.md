@@ -1,7 +1,7 @@
 # robocopy
 
 > Copia robusta di file e directory.
-> Per impostazione predefinita, i file saranno copiati solo se la sorgente e la destinazione hanno timestamp o dimensioni dei file diversi.
+> Di default, i file saranno copiati solo se la sorgente e la destinazione hanno timestamp o dimensioni diverse.
 > Maggiori informazioni: <https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/robocopy>
 
 - Copia tutti i file `.jpg` e `.bmp` da una cartella ad un'altra:
