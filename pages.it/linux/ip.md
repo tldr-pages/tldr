@@ -31,6 +31,6 @@
 
 `ip addr add/del {{ip}}/{{mask}} dev {{interfaccia}}`
 
-- Aggiungere una rotta predefinita:
+- Aggiungi una route predefinita:
 
 `ip route add default via {{ip}} dev {{interfaccia}}`
