@@ -3,7 +3,7 @@
 > Montare le condivisioni di rete del Network File System (NFS).
 > Maggiori informazioni: <https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/mount>.
 
-- Montare una share con la lettera di unità "Z":
+- Monta una share con la lettera di unità "Z":
 
 `mount \\{{computer_name}}\{{share_name}} {{Z:}}`
 
