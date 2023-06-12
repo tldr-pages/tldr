@@ -3,15 +3,15 @@
 > Mostra / manipola routing, dispositivi, criteri di routing e tunnel.
 > Alcuni sottocomandi, come `ip address`, hanno una propria documentazione d'uso. Maggiori informazioni: <https://www.man7.org/linux/man-pages/man8/ip.8.html>
 
-- Lista delle interfacce con informazioni dettagliate:
+- Elenca le interfacce con informazioni dettagliate:
 
 `ip address`
 
-- Lista delle interfacce con informazioni brevi sul livello di rete:
+- Elenca le interfacce con informazioni brevi sul livello di rete:
 
 `ip -brief address`
 
-- Lista delle interfacce con informazioni brevi sul livello di collegamento:
+- Elenca le interfacce con informazioni brevi sul livello di collegamento:
 
 `ip -brief link`
 
