@@ -5,7 +5,7 @@
 
 - Connettiti ad una share (all'utente verrà richiesta la password; `exit` per uscire dalla sessione):
 
-`smbclient {{//server/condivisione}}`
+`smbclient {{//server/share}}`
 
 - Connettersi con un altro nome utente:
 
