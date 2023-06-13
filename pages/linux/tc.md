@@ -1,6 +1,6 @@
 # tc
 
-> Show / manipulate traffic control settings.
+> Show/manipulate traffic control settings.
 > More information: <https://manned.org/tc>.
 
 - Add constant network delay to outbound packages:
