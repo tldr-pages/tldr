@@ -25,7 +25,7 @@
 
 - Carica un file sul server:
 
-`smbclient {{//server/condivisione}} --directory {{percorso/della/directory}} --command "put {{file.txt}}"`
+`smbclient {{//server/share}} --directory {{percorso/della/directory}} --command "put {{file.txt}}"`
 
 - Elencare le azioni di un server in modo anonimo:
 
