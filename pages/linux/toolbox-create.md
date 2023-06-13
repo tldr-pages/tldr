@@ -17,8 +17,8 @@
 
 - Create a `toolbox` container from a custom Fedora image:
 
-`toolbox create --image {{registry.fedoraproject.org/fedora-toolbox:36}}`
+`toolbox create --image {{registry.fedoraproject.org/fedora-toolbox:38}}`
 
-- Create a `toolbox` container using the default image for Fedora 36:
+- Create a `toolbox` container using the default image for Fedora 38:
 
-`toolbox create --distro {{fedora}} --release {{f36}}`
+`toolbox create --distro {{fedora}} --release {{f38}}`

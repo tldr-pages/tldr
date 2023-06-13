@@ -1,7 +1,7 @@
 # javap
 
 > Disassemble one or more class files and list them.
-> More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/javap.html>.
+> More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/javap.html>.
 
 - Disassemble and list a `.class` file:
 
