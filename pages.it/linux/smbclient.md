@@ -13,7 +13,7 @@
 
 - Connettiti con un altro gruppo di lavoro:
 
-`smbclient {{//server/condivisione}} --workgroup {{dominio}} --user {{username}}`
+`smbclient {{//server/share}} --workgroup {{dominio}} --user {{username}}`
 
 - Connettersi con un nome utente ed una password:
 
