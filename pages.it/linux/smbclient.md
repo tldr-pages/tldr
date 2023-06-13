@@ -7,7 +7,7 @@
 
 `smbclient {{//server/share}}`
 
-- Connettersi con un altro nome utente:
+- Connettiti con un altro nome utente:
 
 `smbclient {{//server/condivisione}} --user {{username}}`
 
