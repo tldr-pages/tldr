@@ -27,6 +27,6 @@
 
 `smbclient {{//server/share}} --directory {{percorso/della/directory}} --command "put {{file.txt}}"`
 
-- Elencare le azioni di un server in modo anonimo:
+- Elenca le share di un server in modo anonimo:
 
 `smbclient --list={{server}} --no-pass`
