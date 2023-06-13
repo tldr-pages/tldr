@@ -11,7 +11,7 @@
 
 `smbclient {{//server/share}} --user {{username}}`
 
-- Connettersi con un altro gruppo di lavoro:
+- Connettiti con un altro gruppo di lavoro:
 
 `smbclient {{//server/condivisione}} --workgroup {{dominio}} --user {{username}}`
 
