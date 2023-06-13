@@ -21,7 +21,7 @@
 
 - Create a coprocess which repeatedly reads `stdin` and runs some commands on the input:
 
-`coproc {{name}} {  while read line; do {{command1; command2; ...}}; done }`
+`coproc {{name}} { while read line; do {{command1; command2; ...}}; done }`
 
 - Create and use a coprocess running `bc`:
 
