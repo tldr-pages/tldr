@@ -9,7 +9,7 @@
 
 - Connettiti con un altro nome utente:
 
-`smbclient {{//server/condivisione}} --user {{username}}`
+`smbclient {{//server/share}} --user {{username}}`
 
 - Connettersi con un altro gruppo di lavoro:
 
