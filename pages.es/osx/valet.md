@@ -17,7 +17,7 @@
 
 - Sirve un único sitio en lugar de un directorio completo:
 
-`valet link nombre-aplicacion`
+`valet link {{nombre_aplicacion}}`
 
 - Compartir un proyecto a través de un túnel Ngrok:
 
