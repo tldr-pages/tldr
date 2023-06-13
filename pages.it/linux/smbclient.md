@@ -19,7 +19,7 @@
 
 `smbclient {{//server/share}} --user {{username%password}}`
 
-- Scaricare un file dal server:
+- Scarica un file dal server:
 
 `smbclient {{//server/condivisione}} --directory {{percorso/della/directory}} --command "get {{file.txt}}"`
 
