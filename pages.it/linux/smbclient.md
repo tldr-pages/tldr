@@ -1,6 +1,6 @@
 # smbclient
 
-> Programma client simile ad ftp per Lan Manager.
+> Programma client simile ad FTP per server SMB/CIFS.
 > Maggiori informazioni: <https://manned.org/man.it/smbclient.1>.
 
 - Connettersi ad una condivisione (all'utente verrà richiesta la password; `exit` per uscire dalla sessione):
