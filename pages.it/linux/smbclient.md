@@ -23,7 +23,7 @@
 
 `smbclient {{//server/condivisione}} --directory {{percorso/della/directory}} --command "get {{file.txt}}"`
 
-- Caricare un file sul server:
+- Carica un file sul server:
 
 `smbclient {{//server/condivisione}} --directory {{percorso/della/directory}} --command "put {{file.txt}}"`
 
