@@ -15,7 +15,7 @@
 
 `smbclient {{//server/share}} --workgroup {{dominio}} --user {{username}}`
 
-- Connettersi con un nome utente ed una password:
+- Connettiti con un nome utente ed una password:
 
 `smbclient {{//server/condivisione}} --user {{username%password}}`
 
