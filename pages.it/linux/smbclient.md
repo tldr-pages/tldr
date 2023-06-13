@@ -21,7 +21,7 @@
 
 - Scarica un file dal server:
 
-`smbclient {{//server/condivisione}} --directory {{percorso/della/directory}} --command "get {{file.txt}}"`
+`smbclient {{//server/share}} --directory {{percorso/della/directory}} --command "get {{file.txt}}"`
 
 - Carica un file sul server:
 
