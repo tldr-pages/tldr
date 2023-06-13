@@ -17,7 +17,7 @@
 
 - Connettiti con un nome utente ed una password:
 
-`smbclient {{//server/condivisione}} --user {{username%password}}`
+`smbclient {{//server/share}} --user {{username%password}}`
 
 - Scaricare un file dal server:
 
