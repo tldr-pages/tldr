@@ -10,7 +10,7 @@
 
 - Selecciona una ruta determinada como directorio de desarrollador activo:
 
-`xcode-select --switch {{ruta/a/Xcode.app/Contents/Developer}}`
+`xcode-select --switch {{ruta/al/Xcode.app/Contents/Developer}}`
 
 - Selecciona una instancia de Xcode determinada y utiliza su directorio de desarrollador como directorio activo:
 
