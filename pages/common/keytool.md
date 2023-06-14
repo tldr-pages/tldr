@@ -13,4 +13,4 @@
 
 - Change a key's password inside a specific keystore:
 
-`keytool -keypasswd  -alias {{key_name}} -keystore {{path/to/file.keystore}}`
+`keytool -keypasswd -alias {{key_name}} -keystore {{path/to/file.keystore}}`
