@@ -16,7 +16,7 @@
 
 `clj -M -m {{namespace}} {{args}}`
 
-- Prepare a project by resolving dependencies, downloading libraries, and making / caching classpaths:
+- Prepare a project by resolving dependencies, downloading libraries, and making/caching classpaths:
 
 `clj -P`
 
