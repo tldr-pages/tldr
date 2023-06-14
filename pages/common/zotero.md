@@ -1,4 +1,4 @@
-# Zotero
+# zotero
 
 > Manage your bibliographies.
 > More information: <https://www.zotero.org/support>.
