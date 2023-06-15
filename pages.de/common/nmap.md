@@ -8,7 +8,7 @@
 
 `nmap -O {{ip_oder_hostname}}`
 
-- Überprüft nur ob ein Host Online ist (Ping Scan):
+- Überprüfe nur ob die angegebenen Hosts online sind (Ping Scan) und ihre Domain-Namen:
 
 `nmap -sn {{ip_oder_hostname}} {{optional_noch_eine_addresse}}`
 
