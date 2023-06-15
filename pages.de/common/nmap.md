@@ -32,6 +32,6 @@
 
 `nmap --script "http-*" {{addresse_oder_addressen}} -p 80,443`
 
-- Führe einen sehr langsamen verborgenen Scan ('-T0') aus um die Entdeckung von IDS/IPS zu umgehen und benutze Köder IP Adressen ('-D'):
+- Führe einen sehr langsamen verborgenen Scan ('-T0') aus um die Entdeckung von IDS/IPS zu umgehen und benutze Köder IP-Adressen ('-D'):
 
 `nmap -T0 -D {{köder1_ipaddresse,köder2_ipaddresse,...,köderN_ipaddresse}} {{addresse_oder_addressen}}`
