@@ -20,7 +20,7 @@
 
 `nmap -p {{port1,port2,...,portN}} {{addresse_oder_addressen}}`
 
-- Führe Dienst und Version Erkennung auf den top 1000 Ports mit den Standard NSE Scripts aus; Speicher das Ergebins ('-oN') in der Ausgabe Datei:
+- Führe Dienst- und Versions-Erkennung auf den top 1000 Ports mit den Standard NSE Skripten aus; und schreibe das Ergebnis ('-oN') in der Ausgabe Datei:
 
 `nmap -sC -sV -oN {{ergebnis.txt}} {{addresse_oder_addressen}}`
 
