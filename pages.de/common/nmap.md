@@ -1,6 +1,6 @@
 # nmap
 
-> Netzwerk erkundungs Werkzeug und Security / Port Scanner.
+> Netzwerk-Erkundungs-Werkzeug und Security / Port Scanner.
 > Manche Funktionen können nur benutzt werden bei ausführung von Nmap mit Root Rechten.
 > Weitere Informationen: <https://nmap.org>.
 
