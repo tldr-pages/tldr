@@ -4,7 +4,7 @@
 > Manche Funktionen können nur benutzt werden bei ausführung von Nmap mit Root Rechten.
 > Weitere Informationen: <https://nmap.org>.
 
-- Überprüft ob eine IP-Adresse Online ist und Sannt nach dem Betriebssystem:
+- Überprüfe ob eine IP-Adresse online ist und versuche, das Betriebssystem herauszufinden:
 
 `nmap -O {{ip_oder_hostname}}`
 
