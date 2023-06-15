@@ -7,7 +7,7 @@
 
 `ern create-miniapp {{application_name}}`
 
-- Run one or more `MiniApps` in the iOS / Android Runner application:
+- Run one or more `MiniApps` in the iOS/Android Runner application:
 
 `ern run-{{ios|android}}`
 
