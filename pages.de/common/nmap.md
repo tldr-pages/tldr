@@ -12,7 +12,7 @@
 
 `nmap -sn {{ip_oder_hostname}} {{optional_noch_eine_addresse}}`
 
-- Scanne zusätzlich mit aggressiver Betriebssystem erkennung, Version erkennung, nach Scripts und nach Traceroute:
+- Scanne zusätzlich mit Skripten, Service-Erkennung, Betriebssystem-Fingerprinting und Traceroute:
 
 `nmap -A {{addresse_oder_addressen}}`
 
