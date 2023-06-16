@@ -5,20 +5,20 @@
 
 - Genera Terraform para una cuenta de almacenamiento Azure:
 
-`aiac get terraform {{para una cuenta de almacenamiento azure}}`
+`aiac get terraform {{for an azure storage account}}`
 
 - Genera un Dockerfile para nginx:
 
-`aiac get dockerfile {{para un nginx seguro}}`
+`aiac get dockerfile {{for a secured nginx}}`
 
 - Genera una GitHub action que aplica Terraform:
 
-`aiac get github action {{que planifica y aplica terraform}}`
+`aiac get github action {{that plans and applies terraform}}`
 
 - Genera un escáner de puertos en Python:
 
-`aiac get python {{código que escanea todos los puertos abiertos en mi red}}`
+`aiac get python {{code that scans all open ports in my network}}`
 
 - Genera una consulta MongoDB:
 
-`aiac get mongo {{consulta que agrega todos los documentos por fecha de creación}}`
+`aiac get mongo {{query that aggregates all documents by created date}}`
