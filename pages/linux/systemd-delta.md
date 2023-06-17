@@ -1,9 +1,9 @@
 # systemd-delta
 
-> Find overriden systemd-related configuration files.
+> Find overridden systemd-related configuration files.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-delta.html>.
 
-- Show all overriden configuration files:
+- Show all overridden configuration files:
 
 `systemd-delta`
 
