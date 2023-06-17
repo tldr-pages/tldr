@@ -22,4 +22,4 @@
 
 - Detach from the current session (inside a zellij session):
 
-`Ctrl + N, D`
+`Ctrl + O, D`

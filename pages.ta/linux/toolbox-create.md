@@ -17,8 +17,8 @@
 
 - தனிப்பயன் ஃபெடோரா படத்திலிருந்து `toolbox` கொள்கலனை உருவாக்கவும்:
 
-`toolbox create --image {{registry.fedoraproject.org/fedora-toolbox:36}}`
+`toolbox create --image {{registry.fedoraproject.org/fedora-toolbox:38}}`
 
 - ஃபெடோரா 36க்கான இயல்புநிலை படத்தைப் பயன்படுத்தி `toolbox` கொள்கலனை உருவாக்கவும்:
 
-`toolbox create --distro {{fedora}} --release {{f36}}`
+`toolbox create --distro {{fedora}} --release {{f38}}`
