@@ -35,4 +35,3 @@
 - Display help:
 
 `tre --help`
-
