@@ -1,6 +1,6 @@
 # bchunk
 
-> Command-line tool for converting .bin files to .iso files
+> Command-line tool for converting .bin files to .iso files.
 > More information: <http://he.fi/bchunk>.
 
 - Convert binary CD into a standard iso9960 image file:
