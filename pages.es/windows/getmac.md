@@ -9,7 +9,7 @@
 
 - Muestra los detalles en un formato específico:
 
-`getmac /fo {{tabla|lista|csv}}`
+`getmac /fo {{table|list|csv}}`
 
 - Excluye la cabecera en la lista de salida:
 
