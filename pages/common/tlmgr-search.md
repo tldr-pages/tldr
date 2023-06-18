@@ -5,7 +5,7 @@
 
 - Search for a package name and descriptions of all locally installed packages from a specific regular expression:
 
-`tlmgr search {{regular_expression}}`
+`tlmgr search "{{regular_expression}}"`
 
 - Search for all file names of all locally installed packages from a regular expression:
 
