@@ -29,13 +29,13 @@ jobs:
         # Number of days of inactivity before a stale issue or PR is closed
         days-before-pr-close: 30
 
-        days-before-issue-close: 90 
+        days-before-issue-close: 90
 
         # Issues or PRs with these labels will never be considered stale
         exempt-pr-labels: stalebot ignore
 
         exempt-issue-labels: stalebot ignore,help wanted
-        
+
         # Label to use when marking an issue or PR as stale
         stale-pr-label: waiting
 
