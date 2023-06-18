@@ -23,6 +23,6 @@
 
 `aws cognito-idp list-users --user-pool-id {{user_pool_id}}`
 
-- Einen bestimmten Benutzer aus einem Pool löschen:
+- Lösche einen  Benutzer aus einem bestimmten Pool:
 
 `aws cognito-idp admin-delete-user --username {{username}} --user-pool-id {{user_pool_id}}`
