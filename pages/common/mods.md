@@ -2,7 +2,6 @@
 
 > AI for the command line, built for pipelines.
 > More information: <https://github.com/charmbracelet/mods>.
-
 - Ask for a generic question or request:
 
 `mods "write me a poem about platypuses"`
@@ -21,7 +20,7 @@
 
 - Ask for help with your documentation, in a markdown [f]ormat:
 
-`mods "write a new section to this readme for a feature that sends you a free rabbit if you hit r"`
+`mods -f "write a new section to this readme for a feature that sends you a free rabbit if you hit r"`
 
 - Organize your videos, in a markdown [f]ormat:
 
