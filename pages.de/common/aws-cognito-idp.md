@@ -11,7 +11,7 @@
 
 `aws cognito-idp list-user-pools --max-results {{10}}`
 
-- Einen bestimmten Benutzerpool löschen:
+- Lösche einen bestimmten Benutzerpool:
 
 `aws cognito-idp delete-user-pool --user-pool-id {{user_pool_id}}`
 
