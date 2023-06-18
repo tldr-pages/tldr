@@ -19,7 +19,7 @@
 
 `aws cognito-idp admin-create-user --username {{username}} --user-pool-id {{user_pool_id}}`
 
-- Die Benutzer eines bestimmten Pool auflisten:
+- Liste die Benutzer eines bestimmten Pool auf:
 
 `aws cognito-idp list-users --user-pool-id {{user_pool_id}}`
 
