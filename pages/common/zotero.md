@@ -3,18 +3,18 @@
 > Manage your bibliographies.
 > More information: <https://www.zotero.org/support>.
 
-- Run Zotero with the GUI:
+- Run with the GUI:
 
 `zotero`
 
-- Run Zotero in headless mode:
+- Run in headless mode:
 
 `zotero --headless`
 
-- Run Zotero with a specific profile:
+- Run with a specific profile:
 
 `zotero -P {{profile}}`
 
-- Run Zotero Migration Assistant:
+- Run the Migration Assistant:
 
 `zotero --migration`
