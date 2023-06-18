@@ -7,7 +7,7 @@
 
 `aws cognito-idp create-user-pool --pool-name {{name}}`
 
-- Alle Bentzerpools auflisten:
+- Liste alle Bentzerpools auf:
 
 `aws cognito-idp list-user-pools --max-results {{10}}`
 
