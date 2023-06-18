@@ -15,7 +15,7 @@
 
 `aws cognito-idp delete-user-pool --user-pool-id {{user_pool_id}}`
 
-- Einen bestimmten Benutzer im Pool erstellen:
+- Erstelle einen Benutzer in einem bestimmten Pool:
 
 `aws cognito-idp admin-create-user --username {{username}} --user-pool-id {{user_pool_id}}`
 
