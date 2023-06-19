@@ -1,14 +1,14 @@
 # instaloader
 
 > Download pictures, videos, captions, and other metadata from Instagram.
-> Note: You will need to provide Instagram login information if you want high quality media downloads.
+> Note: You will need to provide Instagram login information if you want high-quality media downloads.
 > More information: <https://instaloader.github.io>.
 
 - Download a profile:
 
 `instaloader {{profile_name}}`
 
-- Also Download highlights:
+- Download highlights:
 
 `instaloader --highlights {{profile_name}}`
 
@@ -28,7 +28,7 @@
 
 `instaloader --fast-update {{profile_name}}`
 
-- Also Download stories and IGTV videos (login required):
+- Download stories and IGTV videos (login required):
 
 `instaloader --login {{username}} --password {{password}} --stories --igtv {{profile_name}}`
 
