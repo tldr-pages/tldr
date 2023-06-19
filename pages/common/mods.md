@@ -23,9 +23,9 @@
 
 `ls {{path/to/videos}} | mods --format "{{organize these by decade and summarize}}"`
 
-- Read through raw HTML and summarize the contents, in a markdown [f]ormat:
+- Read through raw HTML and summarize the contents, in markdown format:
 
-`curl "{{https://api.open-meteo.com/v1/forecast?latitude=29.00&longitude=-90.00&current_weather=true&hourly=temperature_2m,relativehumidity_2m,windspeed_10m" 2>/dev/null}} | mods -f "{{summarize this weather data for a human.}}"`
+`curl "{{https://api.open-meteo.com/v1/forecast?latitude=29.00&longitude=-90.00&current_weather=true&hourly=temperature_2m,relativehumidity_2m,windspeed_10m}}" | mods --format "{{summarize this weather data for a human}}"`
 
 - Display [h]elp and exit:
 
