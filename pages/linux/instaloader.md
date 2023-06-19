@@ -8,6 +8,10 @@
 
 `instaloader {{profile_name}}`
 
+- Also Download highlights:
+
+`instaloader --highlights {{profile_name}}`
+
 - Download posts with geotags (if available) while suppressing any user interaction:
 
 `instaloader --quiet --geotags {{profile_name}}`
@@ -27,10 +31,6 @@
 - Also Download stories and IGTV videos (login required):
 
 `instaloader --login {{username}} --password {{password}} --stories --igtv {{profile_name}}`
-
-- Also Download highlights:
-
-`instaloader --highlights {{profile_name}}`
 
 - Download all types of posts (login required):
 
