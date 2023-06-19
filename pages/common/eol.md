@@ -1,36 +1,30 @@
-# eol
-
-> CLI to show end-of-life dates (EoLs) for an (ever increasing) number of products (e.g. Programming Languages, Frameworks, Devices, Operating Systems, Desktop Applications, ...).
+> CLI to show end-of-life dates (EoLs) for a number of products.
 > More information: <https://github.com/hugovk/norwegianblue>.
-
-- Get help:
-
-`eol -h`
 
 - List all available products:
 
 `eol`
 
-- Get eols of a given product:
+- Get EOLs of a given product:
 
 `eol {{product}}`
 
-- Open product webpage on endoflie.date:
+- Open product webpage on EOL:
 
 `eol {{product}} -w`
 
-- Get eols of multiple products all at once:
+- Get EOLs of multiple products all at once:
 
-`eol {{product1}} {{product2}} {{product3}}`
+`eol {{product1 product2 ...}}`
 
-- Get eols of a product as markdown:
+- Get EOLs of a product in a specific format:
 
-`eol {{product}} -f markdown`
+`eol {{product}} -f {{html|json|md|markdown|pretty|rst|csv|tsv|yaml}}`
 
-- Get eols of a product as csv:
+- Get EOLs of multiple products as a single markdown file:
 
-`eol {{product}} -f csv`
+`eol {{product1 product2 ...}} -f markdown > eol_report.md`
 
-- Get eols of a multiple products as a single markdown file:
+- Display help:
 
-`eol {{product1}} {{product2}} {{product3}} -f markdown > eol_report.md`
+`eol --help`
