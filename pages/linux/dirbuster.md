@@ -11,7 +11,7 @@
 
 `dirbuster -H -u {{http://example.com}}`
 
-- Set file extension list:
+- Set the file extension list:
 
 `dirbuster -e {{txt,html}}`
 
