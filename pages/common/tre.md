@@ -1,7 +1,7 @@
 # tre
 
 > Show the contents of the current directory as a tree.
-> Respects `.gitignore` settings, by default.
+> Respects the `.gitignore` settings, by default.
 > More information: <https://github.com/dduan/tre>.
 
 - Print directories only:
