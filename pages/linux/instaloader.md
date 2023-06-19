@@ -14,7 +14,7 @@
 
 - Skip a target if a downloaded file has been found (useful for Instagram archives):
 
-`instaloader --fast-update`
+`instaloader --fast-update {{profilename}}`
 
 - Download stories only:
 
