@@ -15,6 +15,6 @@
 
 `systemd-delta {{/etc|/run|/usr/lib|...}}`
 
-- Further, restrict the search path by adding a suffix (the prefix is optional):
+- Further restrict the search path by adding a suffix (the prefix is optional):
 
 `systemd-delta {{prefix}}/{{tmpfiles.d|sysctl.d|systemd/system|...}}`
