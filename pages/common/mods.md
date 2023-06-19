@@ -7,9 +7,9 @@
 
 `mods "{{write me a poem about platypuses}}"`
 
-- Open [s]ettings in your $EDITOR:
+- Open settings in your `$EDITOR`:
 
-`mods -s`
+`mods --settings`
 
 - Ask for comments on your code, in a markdown [f]ormat:
 
