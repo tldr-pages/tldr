@@ -9,7 +9,7 @@
 
 - Clona una VM desde una fuente de imagen local o remota:
 
-`tart clone {{source-vm}}} {{nombre-vm}}`
+`tart clone {{source-vm}} {{nombre-vm}}`
 
 - Crea una nueva Mac VM a partir de un archivo ipsw específico:
 
