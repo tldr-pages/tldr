@@ -11,9 +11,9 @@
 
 `mods --settings`
 
-- Ask for comments on your code, in a markdown [f]ormat:
+- Ask for comments on your code, in markdown format:
 
-`mods -f "{{what are your thoughts on improving this code?}}" < {{path/to/file}}`
+`mods --format "{{what are your thoughts on improving this code?}}" < {{path/to/file}}`
 
 - Ask for help with your documentation, in a markdown [f]ormat:
 
