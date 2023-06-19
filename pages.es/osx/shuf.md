@@ -17,4 +17,4 @@
 
 - Genera números aleatorios en el rango 1-10:
 
-`shuf --input-range={1-10}}`
+`shuf --input-range={{1-10}}`
