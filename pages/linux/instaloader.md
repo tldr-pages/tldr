@@ -12,7 +12,7 @@
 
 `instaloader --login {{username}} --password {{password}} {{profilename}}`
 
-- Fast update (ignore files that are already downloaded):
+- Skip a target if a downloaded file has been found (useful for Instagram archives):
 
 `instaloader --fast-update`
 
