@@ -5,7 +5,7 @@
 
 - Start in GUI mode:
 
-`dirbuster`
+`dirbuster -u {{http://example.com}}`
 
 - Start in headless (no GUI) mode:
 
