@@ -4,7 +4,7 @@
 > Note: You will need to provide Instagram login information if you want high quality media downloads.
 > More information: <https://instaloader.github.io>.
 
-- Download a profile (defaults to regular posts):
+- Download a profile:
 
 `instaloader {{profile_name}}`
 
