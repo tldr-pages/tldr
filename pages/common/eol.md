@@ -5,9 +5,9 @@
 
 `eol`
 
-- Get EOLs of a given product:
+- Get EoLs of one or more products:
 
-`eol {{product}}`
+`eol {{product1 product2 ...}}`
 
 - Open the product webpage:
 
