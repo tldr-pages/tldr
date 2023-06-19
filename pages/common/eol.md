@@ -13,9 +13,9 @@
 
 `eol {{product}} --web`
 
-- Get EOLs of a product in a specific format:
+- Get EoLs of a one or more products in a specific format:
 
-`eol {{product}} -f {{html|json|md|markdown|pretty|rst|csv|tsv|yaml}}`
+`eol {{product1 product2 ...}} --format {{html|json|md|markdown|pretty|rst|csv|tsv|yaml}}`
 
 - Get EOLs of multiple products as a single markdown file:
 
