@@ -5,16 +5,16 @@
 
 - Imprime a representação hexadecimal de um arquivo, substituindo linhas duplicadas por '*':
 
-`hexdump {{nome_do_arquivo}}`
+`hexdump {{caminho/para/arquivo}}`
 
 - Imprime a representação hexadecimal e ASCII de um arquivo, em duas colunas:
 
-`hexdump -C {{nome_do_arquivo}}`
+`hexdump -C {{caminho/para/arquivo}}`
 
 - Imprime a representação hexadecimal de um arquivo, porém apresentando apenas seus n primeiros bytes:
 
-`hexdump -C -n{{numero_de_bytes}} {{nome_do_arquivo}}`
+`hexdump -C -n{{numero_de_bytes}} {{caminho/para/arquivo}}`
 
 - Não substitui as linhas duplicadas por '*':
 
-`hexdump --no-squeezing {{nome_do_arquivo}}`
+`hexdump --no-squeezing {{caminho/para/arquivo}}`
