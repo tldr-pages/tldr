@@ -3,7 +3,7 @@
 > AI for the command line, built for pipelines.
 > More information: <https://github.com/charmbracelet/mods>.
 
-- Ask for a generic question or request:
+- Ask a generic question:
 
 `mods "{{write me a poem about platypuses}}"`
 
