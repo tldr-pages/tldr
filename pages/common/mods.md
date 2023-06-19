@@ -19,9 +19,9 @@
 
 `mods --format "{{write a new section to this readme for a feature that sends you a free rabbit if you hit r}} < {{README.md}}"`
 
-- Organize your videos, in a markdown [f]ormat:
+- Organize your videos, in markdown format:
 
-`ls {{path/to/videos}} | mods -f "{{organize these by decade and summarize}}"`
+`ls {{path/to/videos}} | mods --format "{{organize these by decade and summarize}}"`
 
 - Read through raw HTML and summarize the contents, in a markdown [f]ormat:
 
