@@ -12,6 +12,10 @@
 
 `instaloader --quiet --geotags {{profile_name}}`
 
+- Specify a user agent for HTTP requests:
+
+`instaloader --user-agent {{user_agent}} {{profile_name}}`
+
 - Specify login info and download posts (useful for private profiles):
 
 `instaloader --login {{username}} --password {{password}} {{profile_name}}`
