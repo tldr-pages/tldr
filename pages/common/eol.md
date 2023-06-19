@@ -9,9 +9,9 @@
 
 `eol {{product}}`
 
-- Open product webpage on EOL:
+- Open the product webpage:
 
-`eol {{product}} -w`
+`eol {{product}} --web`
 
 - Get EOLs of multiple products all at once:
 
