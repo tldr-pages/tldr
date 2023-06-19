@@ -15,9 +15,9 @@
 
 `mods --format "{{what are your thoughts on improving this code?}}" < {{path/to/file}}`
 
-- Ask for help with your documentation, in a markdown [f]ormat:
+- Ask for help with your documentation, in markdown format:
 
-`mods -f "{{write a new section to this readme for a feature that sends you a free rabbit if you hit r}}"`
+`mods --format "{{write a new section to this readme for a feature that sends you a free rabbit if you hit r}} < {{README.md}}"`
 
 - Organize your videos, in a markdown [f]ormat:
 
