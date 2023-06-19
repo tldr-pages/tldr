@@ -12,7 +12,7 @@
 
 `instaloader --login {{username}} --password {{password}} {{profilename}}`
 
-- Skip a target if a downloaded file has been found (useful for Instagram archives):
+- Skip a target if the first downloaded file has been found (useful for Instagram archives):
 
 `instaloader --fast-update {{profilename}}`
 
