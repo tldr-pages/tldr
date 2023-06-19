@@ -17,9 +17,9 @@
 
 `eol {{product1 product2 ...}} --format {{html|json|md|markdown|pretty|rst|csv|tsv|yaml}}`
 
-- Get EOLs of multiple products as a single markdown file:
+- Get EoLs of one or more products as a single markdown file:
 
-`eol {{product1 product2 ...}} -f markdown > eol_report.md`
+`eol {{product1 product2 ...}} --format {{markdown}} > {{eol_report.md}}`
 
 - Display help:
 
