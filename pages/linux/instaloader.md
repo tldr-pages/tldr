@@ -6,28 +6,28 @@
 
 - Download a profile (defaults to regular posts):
 
-`instaloader {{profilename}}`
+`instaloader {{profile_name}}`
 
 - Specify login info and download posts:
 
-`instaloader --login {{username}} --password {{password}} {{profilename}}`
+`instaloader --login {{username}} --password {{password}} {{profile_name}}`
 
 - Skip a target if the first downloaded file has been found (useful for Instagram archives):
 
-`instaloader --fast-update {{profilename}}`
+`instaloader --fast-update {{profile_name}}`
 
 - Download stories only:
 
-`instaloader --stories {{profilename}}`
+`instaloader --stories {{profile_name}}`
 
 - Download IGTV videos:
 
-`instaloader --igtv {{profilename}}`
+`instaloader --igtv {{profile_name}}`
 
 - Download highlights:
 
-`instaloader --highlights {{profilename}}`
+`instaloader --highlights {{profile_name}}`
 
 - Download all types of posts:
 
-`instaloader --stories --igtv --highlights {{profilename}}`
+`instaloader --stories --igtv --highlights {{profile_name}}`
