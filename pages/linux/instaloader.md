@@ -12,7 +12,7 @@
 
 `instaloader --quiet --geotags {{profile_name}}`
 
-- Specify login info and download posts:
+- Specify login info and download posts (useful for private profiles):
 
 `instaloader --login {{username}} --password {{password}} {{profile_name}}`
 
@@ -20,14 +20,14 @@
 
 `instaloader --fast-update {{profile_name}}`
 
-- Download stories and IGTV videos only:
+- Also Download stories and IGTV videos (login required):
 
-`instaloader --stories --igtv {{profile_name}}`
+`instaloader --login {{username}} --password {{password}} --stories --igtv {{profile_name}}`
 
-- Download highlights only:
+- Also Download highlights:
 
 `instaloader --highlights {{profile_name}}`
 
-- Download all types of posts:
+- Download all types of posts (login required):
 
-`instaloader --stories --igtv --highlights {{profile_name}}`
+`instaloader --login {{username}} --password {{password}} --stories --igtv --highlights {{profile_name}}`
