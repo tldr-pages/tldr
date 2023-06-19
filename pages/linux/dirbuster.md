@@ -7,7 +7,7 @@
 
 `dirbuster`
 
-- Start in headless (no gui) mode:
+- Start in headless (no GUI) mode:
 
 `dirbuster -H -u {{http://example.com}}`
 
