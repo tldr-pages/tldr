@@ -1,3 +1,5 @@
+# eol
+
 > CLI to show end-of-life dates (EoLs) for a number of products.
 > More information: <https://github.com/hugovk/norwegianblue>.
 
