@@ -19,6 +19,6 @@
 
 `dirbuster -v`
 
-- Set report location:
+- Set the report location:
 
 `dirbuster -r {{path/to/report.txt}}`
