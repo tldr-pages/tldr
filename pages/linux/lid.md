@@ -3,10 +3,10 @@
 > Display a user's groups or a group's users.
 > More information: <https://manned.org/lid.8>.
 
-- Show a user's groups (primary and secondary):
+- List primary and secondary groups of a specific user:
 
-`sudo lid {{user}}`
+`sudo lid {{username}}`
 
-- Show a group's users:
+- List users of a specific group:
 
-`sudo lid --group {{group}}`
+`sudo lid --group {{name}}`
