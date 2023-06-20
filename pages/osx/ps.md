@@ -23,6 +23,6 @@
 
 `ps -m`
 
-- Sort processes by cpu usage:
+- Sort processes by CPU usage:
 
 `ps -r`
