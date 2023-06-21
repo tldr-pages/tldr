@@ -9,7 +9,7 @@
 
 - Display piped data with a sound:
 
-`echo {{'Piped Message Data!'}} | terminal-notifier -sound {{default}}`
+`echo '{{Piped Message Data!}}' | terminal-notifier -sound {{default}}`
 
 - Open a URL when the notification is clicked:
 
