@@ -12,7 +12,7 @@
 
 `instaloader --highlights {{profile_name}}`
 
-- Download posts with geotags (if available) while suppressing any user interaction:
+- Download posts with geotags (if available), suppressing any user interaction:
 
 `instaloader --quiet --geotags {{profile_name}}`
 
