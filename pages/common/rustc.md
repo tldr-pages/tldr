@@ -1,33 +1,33 @@
 # rustc
 
 > The Rust compiler.
-> Processes, compiles and links Rust language source files.
+> Rust projects usually use `cargo` instead of invoking `rustc` directly.
 > More information: <https://doc.rust-lang.org/rustc>.
 
-- Compile a single file:
+- Compile a binary crate:
 
-`rustc {{path/to/file.rs}}`
+`rustc {{path/to/main.rs}}`
 
-- Compile with high optimization:
+- Compile with optimizations (`s` means optimize for binary size; `z` is the same with even more optimizations):
 
-`rustc -O {{path/to/file.rs}}`
+`rustc -C lto -C opt-level={{0|1|2|3|s|z}} {{path/to/main.rs}}`
 
 - Compile with debugging information:
 
-`rustc -g {{path/to/file.rs}}`
+`rustc -g {{path/to/main.rs}}`
+
+- Explain an error message:
+
+`rustc --explain {{error_code}}`
 
 - Compile with architecture-specific optimizations for the current CPU:
 
-`rustc -C target-cpu=native {{path/to/file.rs}}`
+`rustc -C target-cpu={{native}} {{path/to/main.rs}}`
 
-- Display architecture-specific optimizations for the current CPU:
-
-`rustc -C target-cpu=native --print cfg`
-
-- Display target list:
+- Display the target list (Note: you have to add a target using `rustup` first to be able to compile for it):
 
 `rustc --print target-list`
 
 - Compile for a specific target:
 
-`rustc --target {{target_triple}} {{path/to/file.rs}}`
+`rustc --target {{target_triple}} {{path/to/main.rs}}`
