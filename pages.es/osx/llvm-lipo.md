@@ -2,6 +2,6 @@
 
 > Este comando es un alias de `lipo`.
 
-- Consulta la documentación del comando original:
+- Ver documentación para el comando original:
 
 `tldr lipo`
