@@ -54,8 +54,6 @@ If you are an owner of the organization, you can see an automated list
   [17 August 2022](https://github.com/tldr-pages/tldr/issues/8321) — present
 - **Cairn ([@CairnThePerson](https://github.com/CairnThePerson))**:
   [1 September 2022](https://github.com/tldr-pages/tldr/issues/8438) — present
-- **Lena ([@acuteenvy](https://github.com/acuteenvy))**:
-  [13 May 2023](https://github.com/tldr-pages/tldr/issues/10187) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -94,6 +92,8 @@ If you are an owner of the organization, you can see an automated list
   [19 January 2022](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — [24 April 2022](https://github.com/tldr-pages/tldr/issues/8053)
 - K.B.Dharun Krishna ([@kbdharun](https://github.com/kbdharun)):
   [06 August 2022](https://github.com/tldr-pages/tldr/issues/8309) — [14 December 2022](https://github.com/tldr-pages/tldr/issues/9625)
+- Lena ([@acuteenvy](https://github.com/acuteenvy)):
+  [13 May 2023](https://github.com/tldr-pages/tldr/issues/10187) — [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406)
 
 ## Organization members
 
@@ -116,6 +116,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149) — present
 - **Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson))**:
   [4 Jan 2023](https://github.com/tldr-pages/tldr/issues/9671) — present
+- **Lena ([@acuteenvy](https://github.com/acuteenvy))**:
+  [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406) - present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
