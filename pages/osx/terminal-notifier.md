@@ -3,7 +3,7 @@
 > Send macOS User Notifications.
 > More information: <https://github.com/julienXX/terminal-notifier>.
 
-- Send a notification (message is mandatory):
+- Send a notification (only the message is required):
 
 `terminal-notifier -group {{tldr-info}} -title {{TLDR}} -message '{{TLDR rocks}}'`
 
