@@ -3,10 +3,6 @@
 > Ruby programming language interpreter.
 > More information: <https://www.ruby-lang.org>.
 
-- Start a REPL (interactive shell):
-
-`irb`
-
 - Execute a Ruby script:
 
 `ruby {{script.rb}}`
