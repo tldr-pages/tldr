@@ -19,10 +19,10 @@
 
 `ruby -c {{script.rb}}`
 
-- Show the version of Ruby you are using:
-
-`ruby -v`
-
 - Start the built-in HTTP server on port 8080 in the current directory:
 
 `ruby -run -e httpd`
+
+- Show the version of Ruby you are using:
+
+`ruby -v`
