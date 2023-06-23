@@ -11,13 +11,13 @@
 
 `ssh-keygen -f {{~/.ssh/fichier}}`
 
-- Génère une clé ed25519, avec 100 passages de fonction de dérivation de clé:
+- Génère une clé ed25519, avec 32 passages de fonction de dérivation de clé:
 
-`ssh-keygen -t {{ed25519}} -a {{100}}`
+`ssh-keygen -t {{ed25519}} -a {{32}}`
 
 - Génère une clé RSA de 4096 bits, avec l'adresse électronique en commentaire:
 
-`ssh-keygen -t {{dsa|ecdsa|ed25519|rsa}} -b {{4096}} -C "{{commentaire|email}}"`
+`ssh-keygen -t {{rsa}} -b {{4096}} -C "{{commentaire|email}}"`
 
 - Retire les clés d'une machine donnée du fichier `known_hosts` des hôtes connus (utile lorsque un hôte déjà enregistré change de clé) :
 
