@@ -9,7 +9,7 @@
 
 - Visualize the geospatial data (supports Geoparquet, shapefile, geojson, geopackage, etc.):
 
-`datashader_cli points {{path/to/input_data.geo.parquet}} {{path/to/output_data.png}} --geo {{true}}`
+`datashader_cli points {{path/to/input_data.geo.parquet}} {{path/to/output_data.png}} --geo true`
 
 - Use matplotlib to render the image:
 
