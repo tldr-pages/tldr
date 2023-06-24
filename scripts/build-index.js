@@ -2,7 +2,7 @@
 
 'use strict';
 
-const glob = require('glob');
+const { glob } = require('glob');
 
 function parsePlatform(pagefile) {
   return pagefile.split(/\//)[1];
