@@ -17,7 +17,7 @@
 
 - Copy piped clipboard content:
 
-`echo "Some example text" | cb`
+`echo "{{Some example text}}" | cb`
 
 - Paste clipboard content:
 
