@@ -13,7 +13,7 @@
 
 - Copy some text to the clipboard:
 
-`cb copy "Some example text"`
+`cb copy "{{Some example text}}"`
 
 - Copy piped clipboard content:
 
