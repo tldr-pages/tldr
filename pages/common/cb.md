@@ -9,7 +9,7 @@
 
 - Copy a file to the clipboard:
 
-`cb copy Foo`
+`cb copy {{path/to/file}}`
 
 - Copy some text to the clipboard:
 
