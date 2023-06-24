@@ -15,7 +15,7 @@
 
 `cb copy "{{Some example text}}"`
 
-- Copy piped clipboard content:
+- Copy piped data to the clipboard:
 
 `echo "{{Some example text}}" | cb`
 
