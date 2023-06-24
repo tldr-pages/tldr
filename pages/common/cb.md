@@ -7,21 +7,25 @@
 
 `cb`
 
-- Copy a file:
+- Copy a file to the clipboard:
 
 `cb copy Foo`
 
-- Copy some text:
+- Copy some text to the clipboard:
 
 `cb copy "Some example text"`
 
-- Copy piped content:
+- Copy piped clipboard content:
 
 `echo "Some example text" | cb`
 
-- Paste content:
+- Paste clipboard content:
 
 `cb paste`
+
+- Pipe out clipboard content:
+
+`cb | cat`
 
 - Show clipboard history:
 
