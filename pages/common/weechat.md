@@ -1,7 +1,11 @@
 # weechat
 
 > Command-line internet relay chat client with various features.
-> More information: <https://weechat.org>.
+> More information: <https://weechat.org/doc>.
+
+- Start `weechat`:
+
+`weechat`
 
 - Do not load any plugin(s) on startup:
 
