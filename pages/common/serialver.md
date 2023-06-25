@@ -2,7 +2,7 @@
 
 > Returns the serialVersionUID of classes.
 > It does not set a security manager by default.
-> More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/serialver.html>.
+> More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/serialver.html>.
 
 - Display the serialVersionUID of a class:
 

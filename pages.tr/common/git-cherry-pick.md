@@ -18,4 +18,4 @@
 
 - Bir commit'in değişikliklerini, herhangi bir yeni commit oluşturmadan çalışan dizine ekle:
 
-`git cherry-pick -n {{commit}}`
+`git cherry-pick --no-commit {{commit}}`

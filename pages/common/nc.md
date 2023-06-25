@@ -1,6 +1,6 @@
 # nc
 
-> Netcat is a versatile utility for working with TCP or UDP data.
+> A versatile utility for working with TCP or UDP data.
 > More information: <https://manned.org/man/nc.1>.
 
 - Establish a TCP connection:
@@ -27,10 +27,10 @@
 
 `nc -u -l {{port}}`
 
-- Act as proxy and forward data from a local TCP port to the given remote host:
+- Act as a proxy and forward data from a local TCP port to the given remote host:
 
 `nc -l {{local_port}} | nc {{hostname}} {{remote_port}}`
 
-- Send a HTTP request:
+- Send an HTTP GET request:
 
 `echo -e "GET / HTTP/1.1\nHost: {{hostname}}\n\n" | nc {{hostname}} 80`

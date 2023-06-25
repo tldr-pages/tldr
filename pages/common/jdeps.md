@@ -1,7 +1,7 @@
 # jdeps
 
 > Java class dependency analyzer.
-> More information: <https://docs.oracle.com/en/java/javase/18/docs/specs/man/jdeps.html>.
+> More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/jdeps.html>.
 
 - Analyze the dependencies of a `.jar` or `.class` file:
 

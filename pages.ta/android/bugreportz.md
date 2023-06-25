@@ -16,6 +16,6 @@
 
 `bugreportz -v`
 
-- காட்சி உதவி:
+- உதவியைக் காட்டு:
 
 `bugreportz -h`

@@ -33,4 +33,4 @@
 
 - Quickly run an application:
 
-`minifab apprun -l {{app_programming_langauge}}`
+`minifab apprun -l {{app_programming_language}}`
