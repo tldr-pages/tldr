@@ -10,11 +10,11 @@
 
 - Show information about an installed package:
 
-`xbps-query --show {{package_name}}`
+`xbps-query --show {{package}}`
 
 - Show information about a package in remote repositories:
 
-`xbps-query --show {{package_name}} --repository`
+`xbps-query --show {{package}} --repository`
 
 - List packages registered in the package database:
 

@@ -6,11 +6,11 @@
 
 - Remove a package:
 
-`xbps-remove {{package_name}}`
+`xbps-remove {{package}}`
 
 - Remove a package and its dependencies:
 
-`xbps-remove --recursive {{package_name}}`
+`xbps-remove --recursive {{package}}`
 
 - Remove orphan packages (installed as dependencies but no longer required by any package):
 

@@ -6,7 +6,7 @@
 
 - Install a new package:
 
-`xbps-install {{package_name}}`
+`xbps-install {{package}}`
 
 - Synchronize and update all packages:
 
