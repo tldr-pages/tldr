@@ -1,7 +1,7 @@
 # bzip3
 
 > An efficient statistical file compressor.
-> More information: <https://github.com/kspalaiologos/bzip3>
+> More information: <https://github.com/kspalaiologos/bzip3>.
 
 - Compress a file
 
