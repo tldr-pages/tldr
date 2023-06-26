@@ -3,7 +3,7 @@
 > An efficient statistical file compressor.
 > More information: <https://github.com/kspalaiologos/bzip3>.
 
-- Compress a file
+- Compress a file:
 
 `bzip3 {{path/to/file_to_compress}}`
 
