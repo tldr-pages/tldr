@@ -1,7 +1,7 @@
 # apktool
 
 > Me-reverse engineer berkas APK.
-> Informasi lebih lanjut: <https://ibotpeaches.github.io/Apktool/>.
+> Informasi lebih lanjut: <https://ibotpeaches.github.io/Apktool>.
 
 - Dekode berkas APK:
 

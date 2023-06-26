@@ -1,7 +1,7 @@
 # qutebrowser
 
 > A keyboard-driven, vim-like browser based on PyQt5.
-> More information: <https://qutebrowser.org/>.
+> More information: <https://qutebrowser.org>.
 
 - Open qutebrowser with a specified storage directory:
 

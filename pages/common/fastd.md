@@ -2,7 +2,7 @@
 
 > VPN daemon.
 > Works on Layer 2 or Layer 3, supports different encryption methods, used by Freifunk.
-> More information: <https://fastd.readthedocs.io/en/stable/>.
+> More information: <https://fastd.readthedocs.io/en/stable>.
 
 - Start `fastd` with a specific configuration file:
 

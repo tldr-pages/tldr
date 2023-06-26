@@ -1,7 +1,7 @@
 # pyats version
 
 > View and upgrade the pyATS installation.
-> More information: <https://developer.cisco.com/pyats/>.
+> More information: <https://developer.cisco.com/pyats>.
 
 - Display version of all packages:
 

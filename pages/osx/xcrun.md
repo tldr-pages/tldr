@@ -1,7 +1,7 @@
 # xcrun
 
 > Run or locate development tools and properties.
-> More information: <https://www.unix.com/man-page/osx/1/xcrun/>.
+> More information: <https://www.unix.com/man-page/osx/1/xcrun>.
 
 - Find and run a tool from the active developer directory:
 

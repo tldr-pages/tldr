@@ -1,7 +1,7 @@
 # pio org
 
 > Manage PlatformIO organizations and their owners.
-> More information: <https://docs.platformio.org/en/latest/core/userguide/org/>.
+> More information: <https://docs.platformio.org/en/latest/core/userguide/org>.
 
 - Create a new organization:
 

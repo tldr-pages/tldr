@@ -1,7 +1,7 @@
 # pio lib
 
 > Manage PlatformIO libraries.
-> More information: <https://docs.platformio.org/en/latest/core/userguide/lib/>.
+> More information: <https://docs.platformio.org/en/latest/core/userguide/lib>.
 
 - List installed libraries:
 

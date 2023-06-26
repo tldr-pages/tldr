@@ -1,7 +1,7 @@
 # newsboat
 
 > An RSS/Atom feed reader for text terminals.
-> More information: <https://newsboat.org/>.
+> More information: <https://newsboat.org>.
 
 - First import feed URLs from an OPML file:
 

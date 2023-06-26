@@ -1,7 +1,7 @@
 # apktool
 
 > Outil de Rétro-ingénierie pour les fichier APK.
-> Plus d'informations : <https://ibotpeaches.github.io/Apktool/>.
+> Plus d'informations : <https://ibotpeaches.github.io/Apktool>.
 
 - Décode un fichier APK :
 

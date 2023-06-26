@@ -2,7 +2,7 @@
 
 > Alat diagnostik dan umpan balik bagi layanan Cloudflare WARP.
 > Lihat juga: `warp-cli`.
-> Informasi lebih lanjut: <https://developers.cloudflare.com/warp-client/>.
+> Informasi lebih lanjut: <https://developers.cloudflare.com/warp-client>.
 
 - Membuat sebuah file arsip (zip) berisi informasi konfigurasi sistem dan log debug terhadap koneksi WARP:
 

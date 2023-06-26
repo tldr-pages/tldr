@@ -11,7 +11,7 @@
 
 `espanso edit config`
 
-- Instala un paquete desde el hub store (<https://hub.espanso.org/>):
+- Instala un paquete desde el hub store (<https://hub.espanso.org>.:
 
 `espanso install {{nombre_paquete}}`
 

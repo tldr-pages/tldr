@@ -2,7 +2,7 @@
 
 > Bird remote control.
 > Command tool to retrieve information like routes from bird and perform configurations during runtime.
-> More information: <https://bird.network.cz/>.
+> More information: <https://bird.network.cz>.
 
 - Open the remote control console::
 

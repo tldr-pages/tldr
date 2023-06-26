@@ -1,7 +1,7 @@
 # pio platform
 
 > Manage PlatformIO development platforms.
-> More information: <https://docs.platformio.org/en/latest/core/userguide/platforms/>.
+> More information: <https://docs.platformio.org/en/latest/core/userguide/platforms>.
 
 - List all installed development platforms:
 

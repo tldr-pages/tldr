@@ -2,7 +2,7 @@
 
 > Manage the security assessment policy subsystem.
 > Utility for managing Gatekeeper in macOS.
-> More information: <https://www.unix.com/man-page/osx/8/SPCTL/>.
+> More information: <https://www.unix.com/man-page/osx/8/SPCTL>.
 
 - Turn off Gatekeeper:
 

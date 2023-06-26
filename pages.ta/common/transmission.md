@@ -2,7 +2,7 @@
 
 > Transmission ஒரு எளிய டொரண்ட் (torrent) வாடிக்கையாளர்.
 > Transmission ஒரு கட்டளை அல்ல, ஆனால் கட்டளைகளின் தொகுப்பு. கீழே உள்ள பக்கங்களைப் பார்க்கவும்.
-> மேலும் விவரத்திற்கு: <https://transmissionbt.com/>.
+> மேலும் விவரத்திற்கு: <https://transmissionbt.com>.
 
 - Transmission டீமானை இயக்குவதற்கு tldr பக்கத்தைக் காட்டு:
 

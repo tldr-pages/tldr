@@ -11,7 +11,7 @@
 
 `espanso edit config`
 
-- 从 hub 商店（<https://hub.espanso.org/>）安装一个软件包：
+- 从 hub 商店（<https://hub.espanso.org>.安装一个软件包：
 
 `espanso install {{软件包的名字}}`
 

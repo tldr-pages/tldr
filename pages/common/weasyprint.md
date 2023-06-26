@@ -1,7 +1,7 @@
 # weasyprint
 
 > Render HTML to PDF or PNG.
-> More information: <https://weasyprint.org/>.
+> More information: <https://weasyprint.org>.
 
 - Render an HTML file to PDF:
 

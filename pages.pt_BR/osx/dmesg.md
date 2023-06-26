@@ -1,7 +1,7 @@
 # dmesg
 
 > Exibe mensagens do kernel na saída padrão.
-> Mais informações: <https://www.manpagez.com/man/8/dmesg/>.
+> Mais informações: <https://www.manpagez.com/man/8/dmesg>.
 
 - Exibe mensagens do kernel:
 

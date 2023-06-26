@@ -1,7 +1,7 @@
 # aws sts
 
 > Security Token Service (STS) allows to request temporary credentials for (IAM) users or federated users.
-> More information: <https://docs.aws.amazon.com/cli/latest/reference/sts/>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/sts>.
 
 - Get temporary security credentials to access specific AWS resources:
 

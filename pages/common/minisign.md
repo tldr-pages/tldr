@@ -1,7 +1,7 @@
 # minisign
 
 > A dead simple tool to sign files and verify signatures.
-> More information: <https://jedisct1.github.io/minisign/>.
+> More information: <https://jedisct1.github.io/minisign>.
 
 - Generate a new keypair at the default location:
 

@@ -2,7 +2,7 @@
 
 > Um visualizador de documentos modular e baseado em vim, com uma linha de comando integrada.
 > Tenha certeza de que um backend está instalado (poppler, PostScript, ou DjVu).
-> Mais informações: <https://pwmt.org/projects/zathura/>.
+> Mais informações: <https://pwmt.org/projects/zathura>.
 
 - Abre um arquivo:
 

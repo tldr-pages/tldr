@@ -1,7 +1,7 @@
 # icalBuddy
 
 > Utilidad de línea de comandos para imprimir eventos y tareas desde la base de datos del calendario de macOS.
-> Más información: <https://hasseg.org/icalBuddy/>.
+> Más información: <https://hasseg.org/icalBuddy>.
 
 - Mostrar los eventos de hoy más tarde:
 

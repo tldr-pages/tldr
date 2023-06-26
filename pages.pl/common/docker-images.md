@@ -1,7 +1,7 @@
 # docker images
 
 > Zarządzaj obrazami Dockera.
-> Więcej informacji: <https://docs.docker.com/engine/reference/commandline/images/>.
+> Więcej informacji: <https://docs.docker.com/engine/reference/commandline/images>.
 
 - Wyświetl wszystkie obrazy Docker:
 

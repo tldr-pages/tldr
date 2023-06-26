@@ -1,7 +1,7 @@
 # errno
 
 > Look up errno names and descriptions.
-> More information: <https://joeyh.name/code/moreutils/>.
+> More information: <https://joeyh.name/code/moreutils>.
 
 - Lookup errno description by name or code:
 

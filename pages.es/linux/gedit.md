@@ -1,7 +1,7 @@
 # gedit
 
 > Editor de texto del proyecto GNOME.
-> Más información: <https://help.gnome.org/users/gedit/stable/>.
+> Más información: <https://help.gnome.org/users/gedit/stable>.
 
 - Abre un archivo de texto:
 

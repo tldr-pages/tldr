@@ -1,7 +1,7 @@
 # aws lambda
 
 > Linha de comando CLI para o AWS lambda.
-> Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/lambda/>.
+> Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/lambda>.
 
 - Executa uma função:
 

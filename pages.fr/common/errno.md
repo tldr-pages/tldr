@@ -1,7 +1,7 @@
 # errno
 
 > Recherche les noms et descriptions des codes errno.
-> Plus d'informations : <https://joeyh.name/code/moreutils/>.
+> Plus d'informations : <https://joeyh.name/code/moreutils>.
 
 - Recherche la description d'une erreur par nom ou par code :
 

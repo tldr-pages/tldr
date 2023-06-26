@@ -1,7 +1,7 @@
 # cordova
 
 > HTML, CSS 및 JS가 포함된 모바일 앱.
-> 더 많은 정보: <https://cordova.apache.org/docs/en/latest/guide/cli/>.
+> 더 많은 정보: <https://cordova.apache.org/docs/en/latest/guide/cli>.
 
 - cordova 프로젝트 생성:
 

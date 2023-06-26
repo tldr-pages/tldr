@@ -1,7 +1,7 @@
 # install-tl
 
 > TeX Live cross-platform installer.
-> More information: <https://tug.org/texlive/>.
+> More information: <https://tug.org/texlive>.
 
 - Start the text-based installer (default on Unix systems):
 

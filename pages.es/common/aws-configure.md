@@ -1,7 +1,7 @@
 # aws configure
 
 > Gestiona la configuración para la CLI de AWS.
-> Más información: <https://docs.aws.amazon.com/cli/latest/reference/configure/>.
+> Más información: <https://docs.aws.amazon.com/cli/latest/reference/configure>.
 
 - Configura AWS CLI interactivamente (crea una nueva configuración o actualiza la predeterminada):
 

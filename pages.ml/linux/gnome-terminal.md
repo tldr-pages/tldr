@@ -1,7 +1,7 @@
 # gnome-terminal
 
 > ഗ്നോം ടെർമിനൽ എമുലേറ്റർ.
-> കൂടുതൽ വിവരങ്ങൾ: <https://help.gnome.org/users/gnome-terminal/stable/>.
+> കൂടുതൽ വിവരങ്ങൾ: <https://help.gnome.org/users/gnome-terminal/stable>.
 
 - ഒരു പുതിയ ഗ്നോം ടെർമിനൽ വിൻഡോ തുറക്കാൻ:
 

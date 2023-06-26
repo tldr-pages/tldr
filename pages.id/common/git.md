@@ -2,7 +2,7 @@
 
 > Sistem kontrol versi terdistribusi.
 > Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `git commit`.
-> Informasi lebih lanjut: <https://git-scm.com/>.
+> Informasi lebih lanjut: <https://git-scm.com>.
 
 - Memeriksa versi Git:
 

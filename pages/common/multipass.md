@@ -1,7 +1,7 @@
 # multipass
 
 > CLI to manage Ubuntu virtual machines using native hypervisors.
-> More information: <https://multipass.run/>.
+> More information: <https://multipass.run>.
 
 - List the aliases that can be used to launch an instance:
 

@@ -1,7 +1,7 @@
 # icalBuddy
 
 > Utilitário de linha de comando para exibir eventos e tarefas do banco de dados do calendário do macOS.
-> Mais informações: <https://hasseg.org/icalBuddy/>.
+> Mais informações: <https://hasseg.org/icalBuddy>.
 
 - Exibe eventos que acontecerão hoje:
 

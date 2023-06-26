@@ -1,7 +1,7 @@
 # fdesetup
 
 > Define e recupera informações relacionadas ao FileVault.
-> Mais informações: <https://www.unix.com/man-page/mojave/8/fdesetup/>.
+> Mais informações: <https://www.unix.com/man-page/mojave/8/fdesetup>.
 
 - Lista os usuários atuais habilitados para o FileVault:
 

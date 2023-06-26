@@ -1,7 +1,7 @@
 # hyperfine
 
 > A command-line benchmarking tool.
-> More information: <https://github.com/sharkdp/hyperfine/>.
+> More information: <https://github.com/sharkdp/hyperfine>.
 
 - Run a basic benchmark, performing at least 10 runs:
 

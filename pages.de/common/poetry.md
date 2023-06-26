@@ -1,7 +1,7 @@
 # poetry
 
 > Verwalte Python-Pakete und -Abhängigkeiten.
-> Weitere Informationen: <https://python-poetry.org/docs/cli/>.
+> Weitere Informationen: <https://python-poetry.org/docs/cli>.
 
 - Erstelle ein neues Poetry-Projekt im Verzeichnis mit dem angegebenem Namen:
 

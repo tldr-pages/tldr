@@ -1,7 +1,7 @@
 # vlc
 
 > Lettore multimediale multi-piattaforma.
-> Maggiori informazioni: <https://wiki.videolan.org/Documentation:Command_line/>.
+> Maggiori informazioni: <https://wiki.videolan.org/Documentation:Command_line>.
 
 - Riproduce un file:
 

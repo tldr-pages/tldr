@@ -1,7 +1,7 @@
 # pytest
 
 > Run Python tests.
-> More information: <https://docs.pytest.org/>.
+> More information: <https://docs.pytest.org>.
 
 - Run tests from specific files:
 

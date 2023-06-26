@@ -1,7 +1,7 @@
 # influx
 
 > InfluxDB command-line client.
-> More information: <https://docs.influxdata.com/influxdb/v1.7/tools/shell/>.
+> More information: <https://docs.influxdata.com/influxdb/v1.7/tools/shell>.
 
 - Connect to an InfluxDB running on localhost with no credentials:
 

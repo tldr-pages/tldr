@@ -1,7 +1,7 @@
 # docker ps
 
 > Lister les conteneurs Docker.
-> Plus d'informations : <https://docs.docker.com/engine/reference/commandline/ps/>.
+> Plus d'informations : <https://docs.docker.com/engine/reference/commandline/ps>.
 
 - Lister les conteneurs Docker en cours d'exécution :
 

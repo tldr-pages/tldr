@@ -1,7 +1,7 @@
 # pio system
 
 > Miscellaneous system commands for PlatformIO.
-> More information: <https://docs.platformio.org/en/latest/core/userguide/system/>.
+> More information: <https://docs.platformio.org/en/latest/core/userguide/system>.
 
 - Install shell completion for the current shell (supports Bash, Fish, Zsh and PowerShell):
 

@@ -2,7 +2,7 @@
 
 > Système de gestion de versions décentralisé.
 > Certaines commandes comme `git commit` ont leur propre documentation.
-> Plus d'informations : <https://git-scm.com/>.
+> Plus d'informations : <https://git-scm.com>.
 
 - Obtenir la version de Git :
 

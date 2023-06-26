@@ -1,7 +1,7 @@
 # acpi
 
 > Mostra lo stato e le informazioni termiche della batteria.
-> Maggiori informazioni: <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
+> Maggiori informazioni: <https://sourceforge.net/projects/acpiclient/files/acpiclient>.
 
 - Mostra le informazioni sulla batteria:
 

@@ -1,7 +1,7 @@
 # apktool
 
 > Reverse engineer APK files.
-> More information: <https://ibotpeaches.github.io/Apktool/>.
+> More information: <https://ibotpeaches.github.io/Apktool>.
 
 - Decode an APK file:
 

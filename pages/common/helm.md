@@ -2,7 +2,7 @@
 
 > Helm is a package manager for Kubernetes.
 > Some subcommands such as `helm install` have their own usage documentation.
-> More information: <https://helm.sh/>.
+> More information: <https://helm.sh>.
 
 - Create a helm chart:
 

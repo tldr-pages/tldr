@@ -1,7 +1,7 @@
 # gitlint
 
 > Git commit message linter checks your commit messages for style.
-> More information: <https://jorisroovers.com/gitlint/>.
+> More information: <https://jorisroovers.com/gitlint>.
 
 - Check the last commit message:
 

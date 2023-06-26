@@ -11,7 +11,7 @@
 
 `espanso edit config`
 
-- Install a package from the hub store (<https://hub.espanso.org/>):
+- Install a package from the hub store (<https://hub.espanso.org>.:
 
 `espanso install {{package_name}}`
 

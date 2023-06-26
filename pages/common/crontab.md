@@ -1,7 +1,7 @@
 # crontab
 
 > Schedule cron jobs to run on a time interval for the current user.
-> More information: <https://crontab.guru/>.
+> More information: <https://crontab.guru>.
 
 - Edit the crontab file for the current user:
 

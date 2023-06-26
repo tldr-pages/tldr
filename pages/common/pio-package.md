@@ -2,7 +2,7 @@
 
 > Manage packages in the registry.
 > Packages can only be removed within 72 hours (3 days) from the date that they are published.
-> More information: <https://docs.platformio.org/en/latest/core/userguide/package/>.
+> More information: <https://docs.platformio.org/en/latest/core/userguide/package>.
 
 - Create a package tarball from the current directory:
 

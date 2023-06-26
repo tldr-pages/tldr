@@ -1,7 +1,7 @@
 # nudoku
 
 > Sudoku game in terminal.
-> More information: <https://jubalh.github.io/nudoku/>.
+> More information: <https://jubalh.github.io/nudoku>.
 
 - Start a sudoku game:
 

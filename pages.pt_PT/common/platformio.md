@@ -1,7 +1,7 @@
 # platformio
 
 > Este comando é um alias de `pio`.
-> Mais informações: <https://docs.platformio.org/en/latest/core/userguide/>.
+> Mais informações: <https://docs.platformio.org/en/latest/core/userguide>.
 
 - Ver documentação do comando original:
 

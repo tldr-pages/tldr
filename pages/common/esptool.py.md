@@ -1,7 +1,7 @@
 # esptool.py
 
 > Bootloader utility for Espressif chips (e.g. ESP8266).
-> More information: <https://docs.espressif.com/projects/esptool/en/latest/esp32/>.
+> More information: <https://docs.espressif.com/projects/esptool/en/latest/esp32>.
 
 - Flash a firmware file to an ESP chip with a given port and baud rate:
 

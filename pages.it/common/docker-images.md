@@ -1,7 +1,7 @@
 # docker images
 
 > Gestisci immagini Docker.
-> Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/images/>.
+> Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/images>.
 
 - Elenca tutte le immagini Docker:
 

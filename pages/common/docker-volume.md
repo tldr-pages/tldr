@@ -1,7 +1,7 @@
 # docker volume
 
 > Manage Docker volumes.
-> More information: <https://docs.docker.com/engine/reference/commandline/volume/>.
+> More information: <https://docs.docker.com/engine/reference/commandline/volume>.
 
 - Create a volume:
 

@@ -2,7 +2,7 @@
 
 > Wieloplatformowy edytor tekstu z obsługą wtyczek.
 > Wtyczkami zarządza się poprzez `apm`.
-> Więcej informacji: <https://atom.io/>.
+> Więcej informacji: <https://atom.io>.
 
 - Otwórz plik lub katalog:
 

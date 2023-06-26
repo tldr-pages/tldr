@@ -1,7 +1,7 @@
 # apktool
 
 > Ingeniería inversa de archivos APK.
-> Más información: <https://ibotpeaches.github.io/Apktool/>.
+> Más información: <https://ibotpeaches.github.io/Apktool>.
 
 - Decodifica un archivo APK:
 

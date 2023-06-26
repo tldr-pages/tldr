@@ -1,7 +1,7 @@
 # aws secretsmanager
 
 > Store, manage, and retrieve secrets.
-> More information: <https://docs.aws.amazon.com/cli/latest/reference/secretsmanager/>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/secretsmanager>.
 
 - Show secrets stored by the secrets manager in the current account:
 

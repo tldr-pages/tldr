@@ -2,7 +2,7 @@
 
 > Linha de comando para executar comando em clusters do Kubernetes.
 > Alguns subcomandos como `kubectl run` tem sua própia documentação de uso.
-> Mais informações: <https://kubernetes.io/docs/reference/kubectl/>.
+> Mais informações: <https://kubernetes.io/docs/reference/kubectl>.
 
 - Lista toda a informação sobre um recurso em detalhes:
 

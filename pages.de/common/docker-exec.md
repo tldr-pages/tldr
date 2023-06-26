@@ -1,7 +1,7 @@
 # docker exec
 
 > Führe Befehle in einem bereits laufenden Docker Container aus.
-> Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/exec/>.
+> Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/exec>.
 
 - Öffne eine Shell innerhalb eines bereits laufenden Containers:
 

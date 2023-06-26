@@ -1,7 +1,7 @@
 # josm
 
 > Extensible OpenStreetMap editor for Java 8+.
-> More information: <https://josm.openstreetmap.de/>.
+> More information: <https://josm.openstreetmap.de>.
 
 - Launch JOSM:
 

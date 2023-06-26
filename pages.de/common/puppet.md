@@ -2,7 +2,7 @@
 
 > Puppet bietet Tools, an um die Konfiguration von Servern zu automatisieren.
 > Einige Unterbefehle wie `puppet agent` sind separat dokumentiert.
-> Weitere Informationen: <https://puppet.com/>.
+> Weitere Informationen: <https://puppet.com>.
 
 - Führe einen Puppet-Unterbefehl aus:
 

@@ -1,7 +1,7 @@
 # icalBuddy
 
 > Command-line utility for printing events and tasks from the macOS calendar database.
-> More information: <https://hasseg.org/icalBuddy/>.
+> More information: <https://hasseg.org/icalBuddy>.
 
 - Show events later today:
 

@@ -1,7 +1,7 @@
 # mate
 
 > General-purpose text editor for macOS.
-> More information: <https://macromates.com/>.
+> More information: <https://macromates.com>.
 
 - Start TextMate:
 

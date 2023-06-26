@@ -1,7 +1,7 @@
 # pio access
 
 > Set the access level on published resources (packages) in the registry.
-> More information: <https://docs.platformio.org/en/latest/core/userguide/access/>.
+> More information: <https://docs.platformio.org/en/latest/core/userguide/access>.
 
 - Grant a user access to a resource:
 

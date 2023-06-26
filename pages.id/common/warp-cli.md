@@ -1,7 +1,7 @@
 # warp-cli
 
 > Program command-line resmi untuk layanan Cloudflare WARP.
-> Informasi lebih lanjut: <https://developers.cloudflare.com/warp-client/>.
+> Informasi lebih lanjut: <https://developers.cloudflare.com/warp-client>.
 
 - Mendaftarkan perangkat ini ke dalam jaringan WARP (harus dijalankan pada pertama kali):
 

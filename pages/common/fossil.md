@@ -2,7 +2,7 @@
 
 > Distributed version control system.
 > Some subcommands such as `fossil commit` have their own usage documentation.
-> More information: <https://fossil-scm.org/>.
+> More information: <https://fossil-scm.org>.
 
 - Check the Fossil version:
 

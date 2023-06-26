@@ -1,7 +1,7 @@
 # fastlane
 
 > Build and release mobile applications from the command-line.
-> More information: <https://docs.fastlane.tools/actions/>.
+> More information: <https://docs.fastlane.tools/actions>.
 
 - Build and sign the iOS application in the current directory:
 

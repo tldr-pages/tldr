@@ -1,7 +1,7 @@
 # git
 
 > Gedistribueerd versiebeheersysteem.
-> Meer informatie: <https://git-scm.com/>.
+> Meer informatie: <https://git-scm.com>.
 
 - Controleer de Git versie:
 

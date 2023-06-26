@@ -2,7 +2,7 @@
 
 > Sistema de control de versiones distribuido.
 > Algunos subcomandos, como `commit`, `add`, `branch`, `checkout`, `push`, etc., tienen su propia documentación de uso, accessible a través de `tldr git subcomando`.
-> Más información: <https://git-scm.com/>.
+> Más información: <https://git-scm.com>.
 
 - Muestra la versión de Git:
 

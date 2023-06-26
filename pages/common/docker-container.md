@@ -1,7 +1,7 @@
 # docker container
 
 > Manage Docker containers.
-> More information: <https://docs.docker.com/engine/reference/commandline/container/>.
+> More information: <https://docs.docker.com/engine/reference/commandline/container>.
 
 - List currently running Docker containers:
 

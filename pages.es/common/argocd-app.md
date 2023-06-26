@@ -1,7 +1,7 @@
 # argocd app
 
 > Interfaz de línea de comandos para gestionar aplicaciones por CD Argo.
-> Más información: <https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd_app/>.
+> Más información: <https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd_app>.
 
 - Lista aplicaciones:
 

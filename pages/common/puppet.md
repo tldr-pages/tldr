@@ -2,7 +2,7 @@
 
 > Help to manage and automate the configuration of servers.
 > Some subcommands such as `puppet agent` have their own usage documentation.
-> More information: <https://puppet.com/>.
+> More information: <https://puppet.com>.
 
 - Execute a Puppet subcommand:
 

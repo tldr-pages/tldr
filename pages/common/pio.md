@@ -2,7 +2,7 @@
 
 > Development environment for embedded boards.
 > Some subcommands such as `pio run` have their own usage documentation.
-> More information: <https://docs.platformio.org/en/latest/core/userguide/>.
+> More information: <https://docs.platformio.org/en/latest/core/userguide>.
 
 - Show help and list subcommands:
 

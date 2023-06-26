@@ -1,7 +1,7 @@
 # mullvad
 
 > CLI client for Mullvad VPN.
-> More information: <https://mullvad.net/>.
+> More information: <https://mullvad.net>.
 
 - Link your mullvad account with the specified account number:
 

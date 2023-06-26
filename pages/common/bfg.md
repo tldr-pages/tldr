@@ -2,7 +2,7 @@
 
 > Remove large files or passwords from Git history like git-filter-branch.
 > Note: if your repository is connected to a remote, you will need to force push to it.
-> More information: <https://rtyley.github.io/bfg-repo-cleaner/>.
+> More information: <https://rtyley.github.io/bfg-repo-cleaner>.
 
 - Remove a file with sensitive data but leave the latest commit untouched:
 

@@ -1,7 +1,7 @@
 # aws pricing
 
 > Query services, products, and pricing information from Amazon Web Services.
-> More information: <https://docs.aws.amazon.com/cli/latest/reference/pricing/>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/pricing>.
 
 - List service codes of a specific region:
 

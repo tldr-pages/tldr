@@ -1,7 +1,7 @@
 # pio device
 
 > Manage and monitor PlatformIO devices.
-> More information: <https://docs.platformio.org/en/latest/core/userguide/device/>.
+> More information: <https://docs.platformio.org/en/latest/core/userguide/device>.
 
 - List all available serial ports:
 

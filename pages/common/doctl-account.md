@@ -1,7 +1,7 @@
 # doctl account
 
 > Retrieve information about Digital Ocean accounts.
-> More information: <https://docs.digitalocean.com/reference/doctl/reference/account/>.
+> More information: <https://docs.digitalocean.com/reference/doctl/reference/account>.
 
 - Display account info:
 

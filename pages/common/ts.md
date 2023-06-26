@@ -1,7 +1,7 @@
 # ts
 
 > Add timestamps to every line from standard input.
-> More information: <https://joeyh.name/code/moreutils/>.
+> More information: <https://joeyh.name/code/moreutils>.
 
 - Add a timestamp to the beginning of each line:
 

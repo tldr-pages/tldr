@@ -1,7 +1,7 @@
 # pinta
 
 > Pinta is a free, open source program for drawing and image editing.
-> More information: <https://www.pinta-project.com/>.
+> More information: <https://www.pinta-project.com>.
 
 - Start Pinta:
 

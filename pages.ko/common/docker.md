@@ -1,7 +1,7 @@
 # docker
 
 > 도커 컨테이너들과 이미지들을 관리한다.
-> 더 많은 정보: <https://docs.docker.com/engine/reference/commandline/cli/>.
+> 더 많은 정보: <https://docs.docker.com/engine/reference/commandline/cli>.
 
 - 현재 실행중인 도커 컨테이너들 목록보기:
 

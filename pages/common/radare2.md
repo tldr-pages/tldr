@@ -1,7 +1,7 @@
 # radare2
 
 > A set of reverse engineering tools.
-> More information: <https://radare.gitbooks.io/radare2book/>.
+> More information: <https://radare.gitbooks.io/radare2book>.
 
 - Open a file in write mode without parsing the file format headers:
 

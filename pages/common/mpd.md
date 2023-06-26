@@ -1,7 +1,7 @@
 # mpd
 
 > Music Player Daemon.
-> More information: <https://www.musicpd.org/>.
+> More information: <https://www.musicpd.org>.
 
 - Start MPD:
 

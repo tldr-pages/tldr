@@ -2,7 +2,7 @@
 
 > Linha de comando CLI para o AWS Glue.
 > Define o endpoint público para o servico AWS Glue.
-> Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/glue/>.
+> Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/glue>.
 
 - Lista trabalhos:
 

@@ -2,7 +2,7 @@
 
 > Command-line interface for running commands against Kubernetes clusters.
 > Some subcommands such as `kubectl run` have their own usage documentation.
-> More information: <https://kubernetes.io/docs/reference/kubectl/>.
+> More information: <https://kubernetes.io/docs/reference/kubectl>.
 
 - List information about a resource with more details:
 

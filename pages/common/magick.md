@@ -2,7 +2,7 @@
 
 > Create, edit, compose, or convert bitmap images.
 > ImageMagick version 7+. See `convert` for versions 6 and below.
-> More information: <https://imagemagick.org/>.
+> More information: <https://imagemagick.org>.
 
 - Convert file type:
 

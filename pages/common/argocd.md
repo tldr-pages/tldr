@@ -2,7 +2,7 @@
 
 > Command-line interface to control a Argo CD server.
 > Some subcommands such as `argocd app` have their own usage documentation.
-> More information: <https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd/>.
+> More information: <https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd>.
 
 - Login to Argo CD server:
 

@@ -2,7 +2,7 @@
 
 > Notification server.
 > It should not be invoked manually.
-> More information: <https://www.manpagez.com/man/8/notifyd/>.
+> More information: <https://www.manpagez.com/man/8/notifyd>.
 
 - Start the daemon:
 

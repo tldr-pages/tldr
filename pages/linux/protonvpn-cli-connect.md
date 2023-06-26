@@ -1,7 +1,7 @@
 # protonvpn-cli connect
 
 > Official client to connect to ProtonVPN from the command-line.
-> More information: <https://protonvpn.com/support/linux-vpn-setup/>.
+> More information: <https://protonvpn.com/support/linux-vpn-setup>.
 
 - Connect to ProtonVPN interactively:
 

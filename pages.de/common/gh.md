@@ -2,7 +2,7 @@
 
 > Arbeite mit GitHub von der Konsole aus.
 > Manche Unterbefehle wie `gh config` sind separat dokumentiert.
-> Weitere Informationen: <https://cli.github.com/>.
+> Weitere Informationen: <https://cli.github.com>.
 
 - Klone ein GitHub Repository lokal:
 

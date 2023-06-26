@@ -2,7 +2,7 @@
 
 > CLI para AWS Glue.
 > Define el punto de enlace público para el servicio AWS Glue.
-> Más información: <https://docs.aws.amazon.com/cli/latest/reference/glue/>.
+> Más información: <https://docs.aws.amazon.com/cli/latest/reference/glue>.
 
 - Lista trabajos:
 

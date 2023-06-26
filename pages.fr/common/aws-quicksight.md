@@ -2,7 +2,7 @@
 
 > CLI pour AWS QuickSight.
 > Accès aux entrées QuickSight.
-> Plus d'informations : <https://docs.aws.amazon.com/cli/latest/reference/quicksight/>.
+> Plus d'informations : <https://docs.aws.amazon.com/cli/latest/reference/quicksight>.
 
 - Liste les datasets:
 

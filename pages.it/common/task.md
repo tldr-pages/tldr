@@ -1,7 +1,7 @@
 # task
 
 > Gestore della lista dei TODO.
-> Maggiori informazioni: <https://taskwarrior.org/docs/>.
+> Maggiori informazioni: <https://taskwarrior.org/docs>.
 
 - Aggiungere un nuovo task:
 

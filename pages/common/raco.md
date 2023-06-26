@@ -1,7 +1,7 @@
 # raco
 
 > Racket command-line tools.
-> More information: <https://docs.racket-lang.org/raco/>.
+> More information: <https://docs.racket-lang.org/raco>.
 
 - Install a package, automatically installing dependencies:
 

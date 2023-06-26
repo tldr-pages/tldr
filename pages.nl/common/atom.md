@@ -2,7 +2,7 @@
 
 > Een platformonafhankelijke inplugbare tekstbewerker.
 > Plugins zijn beheerd door `apm`.
-> Meer informatie: <https://atom.io/>.
+> Meer informatie: <https://atom.io>.
 
 - Open een bestand of map:
 
