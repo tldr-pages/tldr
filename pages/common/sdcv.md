@@ -4,7 +4,7 @@
 > Dictionaries are provided separately from the client.
 > More information: <https://manned.org/sdcv>.
 
-- Start sdcv interactively:
+- Start `sdcv` interactively:
 
 `sdcv`
 
