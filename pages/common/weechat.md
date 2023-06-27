@@ -19,6 +19,6 @@
 
 `weechat --no-connect`
 
-- Write default terminal colors to stdout:
+- Write default terminal colors to `stdout`:
 
 `weechat --colors`
