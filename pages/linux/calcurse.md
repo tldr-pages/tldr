@@ -3,7 +3,7 @@
 > A text-based calendar and scheduling application for the command-line.
 > More information: <https://calcurse.org>.
 
-- Start calcurse on interactive mode:
+- Start `calcurse` on interactive mode:
 
 `calcurse`
 
