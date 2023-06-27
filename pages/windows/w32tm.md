@@ -13,15 +13,15 @@
 
 - run with elevated privileges:
 
-`w32tm /debug /enable /file:C:\Windows\w32time.log /size:10000000 /entries:0-300`
+`w32tm /debug /enable /file:{{path\to\debug.log}} /size:{{10000000}} /entries:{{0-300}}`
 
 - Get packet info:
 
-`w32tm /stripchart /packetinfo /samples:1 /computer:$computer`
+`w32tm /stripchart /packetinfo /samples:1 /computer:{{time_server}}`
 
 - 2 seconds:
 
-`w32tm /stripchart /computer:time.windows.com`
+`w32tm /stripchart /computer:{{time_server}}`
 
 - run with elevated privileges:
 
