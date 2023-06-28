@@ -3,17 +3,17 @@
 > Query and control w32time time synchronization service on Windows from the command-line.
 > More information: <https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings>.
 
-- Get a NTP reply from a time server:
+- Show the current status of the time synchronization:
 
-`w32tm /stripchart /packetinfo /samples:1 /computer:{{time_server}}`
+`w32tm /query /status /verbose`
 
 - Show a time offset graph against a time server:
 
 `w32tm /stripchart /computer:{{time_server}}`
 
-- Show the current status of the time synchronization:
+- Show an NTP reply from a time server:
 
-`w32tm /query /status /verbose`
+`w32tm /stripchart /packetinfo /samples:1 /computer:{{time_server}}`
 
 - Show state of the currently used time servers:
 
