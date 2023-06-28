@@ -3,7 +3,7 @@
 > Communicate with the Service Control Manager and services on Windows from the command-line.
 > More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/sc-query>.
 
-- Show status of a service:
+- Show the status of a service:
 
 `sc queryex {{service_name}}`
 
