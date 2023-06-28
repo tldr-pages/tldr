@@ -3,30 +3,30 @@
 > Query and control w32time time synchronization service on Windows from the command-line.
 > More information: <https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings>.
 
-- Get packet info:
+- Get a NTP reply from a time server:
 
 `w32tm /stripchart /packetinfo /samples:1 /computer:{{time_server}}`
 
-- 2 seconds:
+- Show a time offset graph against a time server:
 
 `w32tm /stripchart /computer:{{time_server}}`
 
-- State of the time syncronization:
+- Show the current status of the time synchronization:
 
 `w32tm /query /status /verbose`
 
-- Peer statistics:
+- Show state of the currently used time servers:
 
 `w32tm /query /peers`
 
-- (run in elevated console):
+- Show configuration of the w32time service (run in elevated console):
 
 `w32tm /query /configuration`
 
-- (run in elevated console):
+- Force time resynchronization immediatelly (run in elevated console):
 
 `w32tm /resync /force`
 
-- (run in elevated console):
+- Write w32time debug logs into a file (run in elevated console):
 
 `w32tm /debug /enable /file:{{path\to\debug.log}} /size:{{10000000}} /entries:{{0-300}}`
