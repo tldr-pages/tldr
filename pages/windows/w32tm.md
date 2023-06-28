@@ -23,7 +23,7 @@
 
 `w32tm /query /configuration`
 
-- Force time resynchronization immediatelly (run in elevated console):
+- Force time resynchronization immediately (run in elevated console):
 
 `w32tm /resync /force`
 
