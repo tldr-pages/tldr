@@ -21,4 +21,4 @@
 
 - Muestra la ayuda:
 
-java_home --help
+`java_home --help`
