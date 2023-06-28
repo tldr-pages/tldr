@@ -8,9 +8,9 @@
 
 `age --passphrase --output {{path/to/encrypted_file}} {{path/to/unencrypted_file}}`
 
-- Encrypt a file with one or more public keys that are entered as literals:
+- Encrypt a file with one or more public keys entered as literals (repeat the `--recipient` flag to specify multiple public keys):
 
-`age --recipient {{public_key1}} --recipient {{public_key2}} --output {{path/to/encrypted_file}} {{path/to/unencrypted_file}}`
+`age --recipient {{public_key}} --output {{path/to/encrypted_file}} {{path/to/unencrypted_file}}`
 
 - Encrypt a file to one or more recipients with their public keys specified in a file (one per line):
 
