@@ -15,7 +15,7 @@
 
 `w32tm /stripchart /packetinfo /samples:1 /computer:{{time_server}}`
 
-- Show state of the currently used time servers:
+- Show the state of the currently used time servers:
 
 `w32tm /query /peers`
 
