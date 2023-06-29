@@ -26,4 +26,4 @@
 
 - Elimina el perfil ICC ColorSync de una imagen:
 
-`sips --deleteProperty profile --deleteColorManagementProperties {{ruta/a/archivo_de_imagen.ext}}
+`sips --deleteProperty profile --deleteColorManagementProperties {{ruta/a/archivo_de_imagen.ext}}`
