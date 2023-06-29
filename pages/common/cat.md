@@ -3,7 +3,7 @@
 > Print and concatenate files.
 > More information: <https://www.gnu.org/software/coreutils/cat>.
 
-- Print the contents of a file to the standard output:
+- Print the contents of a file to `stdout`:
 
 `cat {{path/to/file}}`
 

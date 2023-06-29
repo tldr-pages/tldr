@@ -3,7 +3,7 @@
 > Print and concatenate files.
 > More information: <https://keith.github.io/xcode-man-pages/cat.1.html>.
 
-- Print the contents of a file to the standard output:
+- Print the contents of a file to `stdout`:
 
 `cat {{path/to/file}}`
 

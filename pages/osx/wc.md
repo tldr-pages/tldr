@@ -19,6 +19,6 @@
 
 `wc -m {{path/to/file}}`
 
-- Use standard input to count lines, words and characters (bytes) in that order:
+- Use `stdin` to count lines, words and characters (bytes) in that order:
 
 `{{find .}} | wc`

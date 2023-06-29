@@ -1,7 +1,7 @@
 # msmtp
 
 > An SMTP client.
-> It reads text from standard input and sends it to an SMTP server.
+> It reads text from `stdin` and sends it to an SMTP server.
 > More information: <https://marlam.de/msmtp>.
 
 - Send an email using the default account configured in `~/.msmtprc`:

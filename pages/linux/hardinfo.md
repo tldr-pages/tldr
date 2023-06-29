@@ -7,7 +7,7 @@
 
 `hardinfo`
 
-- Print report to standard output:
+- Print report to `stdout`:
 
 `hardinfo -r`
 

@@ -8,7 +8,7 @@
 
 `sops -e {{path/to/myfile.json}} > {{path/to/myfile.enc.json}}`
 
-- Decrypt a file to the standard output:
+- Decrypt a file to `stdout`:
 
 `sops -d {{path/to/myfile.enc.json}}`
 

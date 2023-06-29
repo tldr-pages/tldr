@@ -15,6 +15,6 @@
 
 `script -a {{path/to/session.out}}`
 
-- Record timing information (data is outputted to the standard error):
+- Record timing information (data is outputted to `stderr`):
 
 `script -t 2> {{path/to/timingfile}}`

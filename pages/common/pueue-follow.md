@@ -8,6 +8,6 @@
 
 `pueue follow {{task_id}}`
 
-- Follow the `stderr` of a task:
+- Follow `stderr` of a task:
 
 `pueue follow --err {{task_id}}`

@@ -16,7 +16,7 @@
 
 `run-mailcap --action=ACTION --debug {{filename}}`
 
-- Ignore any "copiousoutput" directive and forward output to standard output:
+- Ignore any "copiousoutput" directive and forward output to `stdout`:
 
 `run-mailcap --action=ACTION --nopager {{filename}}`
 

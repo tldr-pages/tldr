@@ -7,7 +7,7 @@
 
 `mutool convert -o {{path/to/output%nd.png}} {{path/to/input.pdf}} {{1-10}}`
 
-- Convert pages 2, 3 and 5 of a PDF into text in the standard output:
+- Convert pages 2, 3 and 5 of a PDF into text in `stdout`:
 
 `mutool draw -F {{txt}} {{path/to/input.pdf}} {{2,3,5}}`
 

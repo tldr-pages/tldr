@@ -7,7 +7,7 @@
 
 `logsave {{path/to/logfile}} {{command}}`
 
-- Take input from standard input and save it in a log file:
+- Take input from `stdin` and save it in a log file:
 
 `logsave {{logfile}} -`
 

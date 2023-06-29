@@ -1,6 +1,6 @@
 # git stripspace
 
-> Read text (e.g. commit messages, notes, tags, and branch descriptions) from the standard input and clean it into the manner used by Git.
+> Read text (e.g. commit messages, notes, tags, and branch descriptions) from `stdin` and clean it into the manner used by Git.
 > More information: <https://git-scm.com/docs/git-stripspace>.
 
 - Trim whitespace from a file:

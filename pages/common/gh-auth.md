@@ -7,7 +7,7 @@
 
 `gh auth login`
 
-- Log in with a token from standard input (created in https://github.com/settings/tokens):
+- Log in with a token from `stdin` (created in https://github.com/settings/tokens):
 
 `echo {{your_token}} | gh auth login --with-token`
 

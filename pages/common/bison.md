@@ -7,7 +7,7 @@
 
 `bison {{path/to/file.y}}`
 
-- Compile in debug mode, which causes the resulting parser to write additional information to the standard output:
+- Compile in debug mode, which causes the resulting parser to write additional information to `stdout`:
 
 `bison --debug {{path/to/file.y}}`
 

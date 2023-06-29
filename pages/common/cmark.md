@@ -7,7 +7,7 @@
 
 `cmark --to html {{filename.md}}`
 
-- Convert data from standard input to LaTeX:
+- Convert data from `stdin` to LaTeX:
 
 `cmark --to latex`
 
