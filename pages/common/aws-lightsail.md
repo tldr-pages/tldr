@@ -1,6 +1,6 @@
 # aws lightsail
 
-> Manage Amazon Lightsail resources using the CLI.
+> Manage Amazon Lightsail resources.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/lightsail/index.html>.
 
 - List all virtual private servers, or instances:

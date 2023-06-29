@@ -1,6 +1,6 @@
 # glab issue
 
-> Manage GitLab issues from the command-line.
+> Manage GitLab issues.
 > More information: <https://glab.readthedocs.io/en/latest/issue>.
 
 - Display a specific issue:

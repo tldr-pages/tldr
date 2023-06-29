@@ -1,6 +1,6 @@
 # gh issue
 
-> Manage GitHub issues from the command-line.
+> Manage GitHub issues.
 > More information: <https://cli.github.com/manual/gh_issue>.
 
 - Display a specific issue:

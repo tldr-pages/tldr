@@ -1,6 +1,6 @@
 # mktorrent
 
-> A CLI utility to create BitTorrent metainfo files.
+> Create BitTorrent metainfo files.
 > More information: <https://github.com/Rudde/mktorrent>.
 
 - Create a torrent with 2^21 KB as the piece size:
