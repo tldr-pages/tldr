@@ -1,8 +1,8 @@
 # time
 
-> See how long a command takes.
+> Measure how long a command took to run.
 > More information: <https://manned.org/time>.
 
-- Time "ls":
+- Run the `command` and print the time measurements to `stdout`:
 
-`time ls`
+`time {{command}}`
