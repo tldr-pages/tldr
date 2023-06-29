@@ -25,4 +25,4 @@
 
 - Inicia una aplicación en una GPU:
 
-`SafeEjectGPU gpuid {{GPU_ID}} LaunchOnGPU {{ruta/a/App.app}}`
+`SafeEjectGPU gpuid {{GPU_ID}} LaunchOnGPU {{ruta/al/App.app}}`
