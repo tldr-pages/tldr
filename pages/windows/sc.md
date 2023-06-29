@@ -15,6 +15,6 @@
 
 `sc stop {{service_name}}`
 
-- Set type for a service:
+- Set the type of a service:
 
 `sc config {{service_name}} type= {{service_type}}`
