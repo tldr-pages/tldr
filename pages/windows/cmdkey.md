@@ -1,6 +1,6 @@
 # cmdkey
 
-> Create, show, and delete stored user names and passwords on Windows from the command-line.
+> Create, show, and delete stored user names and passwords.
 > More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmdkey>.
 
 - Show a list of all user credentials:
