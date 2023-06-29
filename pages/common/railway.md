@@ -11,7 +11,7 @@
 
 `railway link {{projectId}}`
 
-- Create a new project directly:
+- Create a new project:
 
 `railway init`
 
