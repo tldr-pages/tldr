@@ -8,10 +8,14 @@
 
 `popd`
 
-- Remove the Nth directory (starting from zero to the left from the list printed with `dirs`):
+- Remove the Nth directory (from the left of the list printed with `dirs`), couting starts at zero:
 
 `popd +N`
 
-- Remove the Nth directory (starting from zero to the right from the list printed with `dirs`):
+- Remove the Nth directory (from the right of the list printed with `dirs`), counting starts at zero:
 
 `popd -N`
+
+- Remove the 1st directory (from the left of the list printed with `dirs`), counting starts at zero:
+
+`popd -n`
