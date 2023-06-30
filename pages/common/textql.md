@@ -17,7 +17,7 @@
 
 - Read data from `stdin`:
 
-`cat {{path/to/file}} | textql -sql "{{SELECT * FROM `stdin`}}"`
+`cat {{path/to/file}} | textql -sql "{{SELECT * FROM stdin}}"`
 
 - Join two files on a specified common column:
 
