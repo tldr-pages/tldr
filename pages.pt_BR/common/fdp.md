@@ -16,7 +16,7 @@
 
 `fdp -T {{ps|pdf|svg|fig|png|gif|jpg|json|dot}} -O {{caminho/para/entrada.gv}}`
 
-- Renderiza uma imagem `gif` usando stdin e stdout:
+- Renderiza uma imagem `gif` usando `stdin` e `stdout`:
 
 `echo "{{digraph {isso -> aquilo} }}" | fdp -T gif > {{caminho/para/imagem.gif}}`
 

@@ -8,7 +8,7 @@
 
 `git prune --dry-run`
 
-- Erişilemeyen nesneleri buda ve stdout'a budanan şeyleri görüntüle:
+- Erişilemeyen nesneleri buda ve `stdout`'a budanan şeyleri görüntüle:
 
 `git prune --verbose`
 

@@ -11,10 +11,10 @@
 
 `base64 --decode {{bestandsnaam}}`
 
-- Codeer stdin:
+- Codeer `stdin`:
 
 `{{eencommando}} | base64`
 
-- Decodeer stdin:
+- Decodeer `stdin`:
 
 `{{eencommando}} | base64 --decode`

@@ -4,7 +4,7 @@
 > This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/test-json>.
 
-- Test if a string from stdin is in JSON format:
+- Test if a string from `stdin` is in JSON format:
 
 `'{{string}}' | Test-Json`
 
@@ -12,6 +12,6 @@
 
 `Test-Json -Json '{{json_to_test}}'`
 
-- Test if a string from stdin matches a specific schema file:
+- Test if a string from `stdin` matches a specific schema file:
 
 `'{{string}}' | Test-Json -SchemaFile {{path\to\schema_file.json}}`

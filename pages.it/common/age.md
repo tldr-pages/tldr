@@ -7,7 +7,7 @@
 
 `age --passphrase --output {{percorso/del/file_cifrato}} {{percorso/del/file_non_cifrato}}`
 
-- Generare una coppia di chiavi, salvando la chiave privata in un file non cifrato e stampando sullo stdout la chiave pubblica:
+- Generare una coppia di chiavi, salvando la chiave privata in un file non cifrato e stampando sullo `stdout` la chiave pubblica:
 
 `age-keygen --output {{percorso/del/file}}`
 

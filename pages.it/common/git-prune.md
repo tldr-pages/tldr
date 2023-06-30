@@ -8,7 +8,7 @@
 
 `git prune --dry-run`
 
-- Elimina gli oggetti non raggiungibili e stampane un elenco su stdout:
+- Elimina gli oggetti non raggiungibili e stampane un elenco su `stdout`:
 
 `git prune --verbose`
 
