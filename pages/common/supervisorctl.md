@@ -14,11 +14,11 @@
 
 - Show last 100 **bytes** of process `stderr`:
 
-`supervisorctl tail -100 {{process_name}} `stderr``
+`supervisorctl tail -100 {{process_name}} stderr`
 
 - Keep displaying `stdout` of a process:
 
-`supervisorctl tail -f {{process_name}} `stdout``
+`supervisorctl tail -f {{process_name}} stdout`
 
 - Reload process config file to add/remove processes as necessary:
 
