@@ -16,6 +16,6 @@
 
 `pushd +4`
 
-- Rotate stack 4 times to the left but current directory stays at the top by replacing the 5th element:
+- Rotate the stack 4 times to the left (the current directory stays at the top by replacing the 5th element):
 
 `pushd -n +4`
