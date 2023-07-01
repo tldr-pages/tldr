@@ -23,6 +23,6 @@
 
 `trayer --align {{left|center|right}}`
 
-- Provide space between icons (in pixels):
+- Provide spacing between icons (in pixels):
 
 `trayer --iconspacing {{10}}`
