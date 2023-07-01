@@ -1,28 +1,28 @@
 # trayer
 
-> A lightweight GTK-2 based systray for UNIX desktop.
+> A lightweight GTK-2 based systray.
 > More information: <https://github.com/sargon/trayer-srg>.
 
-- Run trayer:
+- Run `trayer`:
 
 `trayer`
 
-- Position trayer to the top:
+- Position `trayer` to a specific edge:
 
-`trayer --edge {{top}}`
+`trayer --edge {{left|right|top|bottom}}`
 
-- Provide height as 32px and width as 10% of screen resolution:
+- Provide a specific height and width of the panel (in pixels):
 
-`trayer --width {{10}} height {{ 32 }}`
+`trayer --width {{10}} --height {{32}}`
 
-- Provide width in pixel:
+- Provide the width of the panel in pixels or percentages:
 
-`trayer --widthtype {{pixel}} --width {{72}}`
+`trayer --widthtype {{pixel|percent}} --width {{72}}`
 
-- Align trayer to the right:
+- Align `trayer` to a specific direction:
 
-`trayer --align {{right}}`
+`trayer --align {{left|center|right}}`
 
-- Provide icon gap 10px:
+- Provide space between icons (in pixels):
 
 `trayer --iconspacing {{10}}`
