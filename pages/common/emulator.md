@@ -31,6 +31,6 @@
 
 `emulator -avd {{name}} -sdcard {{path/to/sdcard.img}}`
 
-- Display the help:
+- Display help:
 
 `emulator -help`
