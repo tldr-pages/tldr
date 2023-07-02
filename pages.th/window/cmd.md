@@ -9,11 +9,15 @@
 
 - รันคำสั่งที่ระบุแล้วปิด:
 
-`cmd /c "{{command}}"`
+`cmd /c "{{echo Hello world}}"`
 
+- Execute a specific script:
+
+`cmd {{path\to\script.bat}}`
+   
 - เรียกใช้คำสั่งที่ระบุ จากนั้นป้อนคำสั่งแบบโต้ตอบ:
 
-`cmd /k "{{command}}"`
+`cmd /k "{{echo Hello world}}"`
 
 - ปิดการใช้งานคำสั่ง "echo" :
 
