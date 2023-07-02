@@ -1,7 +1,7 @@
 # cmd
 
 > ตัวแปลคำสั่งของ Windows.
-> ข้อมูลเพิ่มเติม: <https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
+> ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd>.
 
 - เริ่มใช้งานตัวแปลคำสั่งของ Windows:
 

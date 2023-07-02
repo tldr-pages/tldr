@@ -1,7 +1,7 @@
 # dir
 
 > แสดงรายการเนื้อหาไดเรกทอรี.
-> ข้อมูลเพิ่มเติม: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
+> ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/dir>.
 
 - Show the contents of the current directory:
 
@@ -9,7 +9,7 @@
 
 - แสดงเนื้อหาของไดเร็กทอรีปัจจุบัน:
 
-`dir {{path/to/directory}}`
+`dir {{ทาง\ไป\สารบบ}}`
 
 - แสดงเนื้อหาของไดเร็กทอรีปัจจุบัน, รวมถึงรายการที่ซ่อนอยู่:
 
@@ -17,4 +17,4 @@
 
 - แสดงเนื้อหาของไดเร็กทอรีที่กำหนด, รวมถึงรายการที่ซ่อนอยู่:
 
-`dir {{path/to/directory}} /A`
+`dir {{ทาง\ไป\สารบบ}} /A`

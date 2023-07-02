@@ -1,11 +1,11 @@
 # cd
 
-> แสดงชื่อหรือเปลี่ยนไดเร็กทอรีการทำงานปัจจุบัน
-> ข้อมูลเพิ่มเติม: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+> แสดงชื่อหรือเปลี่ยนไดเร็กทอรีการทำงานปัจจุบัน.
+> ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>.
 
 - ไปที่ไดเร็กทอรีในไดรฟ์เดียวกัน:
 
-`cd {{path/to/directory}}`
+`cd {{ทาง/ไป/สารบบ}}`
 
 - แสดงชื่อของไดเร็กทอรีปัจจุบัน:
 
@@ -17,4 +17,4 @@
 
 - ไปที่ไดเร็กทอรีที่อยู่ต่างไดรฟ์:
 
-`cd {{path/to/directory}} /d`
+`cd {{ทาง/ไป/สารบบ}} /d`
