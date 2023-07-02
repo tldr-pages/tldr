@@ -11,7 +11,7 @@
 
 `ts-node --skip-project {{path/to/file.ts}}`
 
-- Evaluate TypeScript code passed as a literal on the command-line:
+- Evaluate TypeScript code passed as a literal:
 
 `ts-node --eval '{{console.log("Hello World")}}'`
 
