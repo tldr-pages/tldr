@@ -1,6 +1,6 @@
 # read
 
-> BASH builtin for retrieving data from standard input.
+> Shell builtin for retrieving data from standard input.
 > More information: <https://manned.org/read.1p>.
 
 - Store data that you type from the keyboard:
