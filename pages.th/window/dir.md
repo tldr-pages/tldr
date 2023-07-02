@@ -3,7 +3,7 @@
 > แสดงรายการเนื้อหาไดเรกทอรี.
 > ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/dir>.
 
-- Show the contents of the current directory:
+- แสดงเนื้อหาของไดเร็กทอรีปัจจุบัน:
 
 `dir`
 
