@@ -7,7 +7,7 @@
 
 `cd`
 
- - Go to the root of the current drive:
+- Go to the root of the current drive:
 
 `cd \`
 
