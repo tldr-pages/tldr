@@ -4,7 +4,7 @@
 > Ajuda a encontrar no texto, frases favorecedoras de gênero, polarizantes, relacionadas à raça, insensíveis à religiao e outras frases desiguais.
 > Mais informações: <https://github.com/get-alex/alex>.
 
-- Analisa o texto do stdin:
+- Analisa o texto do `stdin`:
 
 `echo {{A rede dele parece boa}} | alex --stdin`
 

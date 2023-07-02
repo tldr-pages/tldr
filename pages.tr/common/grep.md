@@ -31,6 +31,6 @@
 
 `grep --only-matching "{{aranan_kalıp}}" {{dosya/yolu}}`
 
-- Bir kalıpla eşleşmeyen satırlar için stdin'de arama yap:
+- Bir kalıpla eşleşmeyen satırlar için `stdin`'de arama yap:
 
 `cat {{dosya/yolu}} | grep --invert-match "{{aranan_kalıp}}"`

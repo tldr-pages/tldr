@@ -4,7 +4,7 @@
 > 이것은 당신이 선호 성별, 양극화, 인종 관련, 종교에 대한 고려가 불분명하거나 다른 문구가 아닌 문구를 찾는데 도움이 됩니다.
 > 더 많은 정보: <https://github.com/get-alex/alex>.
 
-- stdin으로부터 텍스트 분석:
+- `stdin`으로부터 텍스트 분석:
 
 `echo {{His network looks good}} | alex --stdin`
 
