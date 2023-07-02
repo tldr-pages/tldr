@@ -1,25 +1,25 @@
 # postalias
 
-> Creates or updates postfix alias databses.
+> Create or update postfix alias databases.
 > More information: <https://manned.org/postalias>.
 
-- Config dir read the main configuration file in the named directory:
+- [c]onfig dir read the main configuration file in the named directory:
 
-`postalias -c `
+`postalias -c {{path/to/config_dir}}`
 
-- Do not fold the lookup key to lower case while creating a query table:
+- Do not [f]old the lookup key to lower case while creating a query table:
 
 `postalias -f`
 
-- Search the specified maps for key and remove one entry per map:
+- Search specific maps for key and [d]elete one entry per map:
 
-`postalias -d {{key}}`
+`postalias -d "{{key}}"`
 
-- Incremental mode - do not rebuild the database from scratch:
+- [i]ncremental mode - do not rebuild the database from scratch:
 
 `postalias -i`
 
-- Do not include the terminating null character that terminates lookup keys and values in the database:
+- Do [N]ot include the terminating null character that terminates lookup keys and values in the database:
 
 `postalias -N`
 
