@@ -3,7 +3,7 @@
 > Docker swarm sırlarını yönet.
 > Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/secret/>.
 
-- stdin'den yeni bir sır yarat:
+- `stdin`'den yeni bir sır yarat:
 
 `{{komut}} | docker secret create {{sır_ismi}} -`
 

@@ -11,7 +11,7 @@
 
 `docker start {{conteneur}}`
 
-- Lancer un conteneur, en attachant stdout et stderr et en transférant les signaux :
+- Lancer un conteneur, en attachant `stdout` et `stderr` et en transférant les signaux :
 
 `docker start --attach {{conteneur}}`
 
