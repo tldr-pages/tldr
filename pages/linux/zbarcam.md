@@ -17,4 +17,4 @@
 
 - Define capture device:
 
-`zbarcam {{path/to/device}}`
+`zbarcam /dev/{{video_device}}`
