@@ -5,4 +5,4 @@
 
 - Set a filesystem label:
 
-`mlabel -i /dev/{{sda}} ::"{{Label}}"`
+`mlabel -i /dev/{{sda}} ::"{{new_label}}"`
