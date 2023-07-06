@@ -7,6 +7,6 @@
 
 `echo "hello" | rev`
 
-- Omvänd hel fil och skriv till stdout:
+- Omvänd hel fil och skriv till `stdout`:
 
 `rev {{fil}}`

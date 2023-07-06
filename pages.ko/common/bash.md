@@ -28,6 +28,6 @@
 
 `bash -e {{경로/대상/script.sh}}`
 
-- stdin에서 bash 실행하기:
+- `stdin`에서 bash 실행하기:
 
 `{{echo "echo 'bash가 실행되었습니다'"}} | bash`

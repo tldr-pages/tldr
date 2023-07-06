@@ -11,6 +11,6 @@
 
 `banner -w {{50}} "{{Hello World}}"`
 
-- 从 stdin 中读取文本：
+- 从 `stdin` 中读取文本：
 
 `banner`

@@ -1,6 +1,6 @@
 # git check-ignore
 
-> Analyze and debug Git ignore / exclude (".gitignore") files.
+> Analyze and debug Git ignore/exclude (".gitignore") files.
 > More information: <https://git-scm.com/docs/git-check-ignore>.
 
 - Check whether a file or directory is ignored:
