@@ -1,6 +1,7 @@
 # bpytop
 
-> Display dynamic real-time information about running processes with graphs. Similar to `gtop` and `htop`.
+> A resource monitor that shows information about the CPU, memory, disks, network and processes.
+> A Python version of `bashtop`.
 > More information: <https://github.com/aristocratos/bpytop>.
 
 - Start `bpytop`:

@@ -11,7 +11,7 @@
 
 `git check-ignore {{örnek/dosya}} {{örnek/dizin}}`
 
-- Her bir satıra tekabül edecek şekilde stdin'den yolisimleri kullan:
+- Her bir satıra tekabül edecek şekilde `stdin`'den yolisimleri kullan:
 
 `git check-ignore --stdin < {{örnek/dosya_sırası}}`
 

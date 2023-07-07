@@ -11,7 +11,7 @@
 
 `docker start {{container}}`
 
-- Inicia um container, atachando ao terminal os sinais stdout e stderr e outros sinais:
+- Inicia um container, atachando ao terminal os sinais `stdout` e `stderr` e outros sinais:
 
 `docker start --attach {{container}}`
 

@@ -20,7 +20,7 @@
 
 `7zr x {{경로/archive.7z}} -o{{아웃풋/의/경로}}`
 
-- stdout에 압축파일 추출:
+- `stdout`에 압축파일 추출:
 
 `7zr x {{경로/archive.7z}} -so`
 

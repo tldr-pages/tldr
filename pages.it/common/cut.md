@@ -1,9 +1,9 @@
 # cut
 
-> Taglia dividendo in campi stdin o file.
+> Taglia dividendo in campi `stdin` o file.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/cut>.
 
-- Estrai i primi 16 caratteri di ogni riga da stdin:
+- Estrai i primi 16 caratteri di ogni riga da `stdin`:
 
 `cut -c {{1-16}}`
 
