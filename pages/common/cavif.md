@@ -1,6 +1,6 @@
 # cavif
 
-> PNG/JPEG to AVIF converter
+> PNG/JPEG to AVIF converter.
 > More information: <https://github.com/kornelski/cavif-rs>.
 
 - Convert a JPEG file to AVIF:
