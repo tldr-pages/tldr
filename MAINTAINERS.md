@@ -114,8 +114,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5989) — present
 - **Seth Falco ([@SethFalco](https://github.com/SethFalco))**:
   [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149) — present
-- **Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson))**:
-  [4 Jan 2023](https://github.com/tldr-pages/tldr/issues/9671) — present
 - **Lena ([@acuteenvy](https://github.com/acuteenvy))**:
   [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406) - present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
@@ -142,6 +140,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142) — [9 June 2023](https://github.com/tldr-pages/tldr/issues/10053)
 - K.B.Dharun Krishna ([@kbdharun](https://github.com/kbdharun)):
   [14 December 2022](https://github.com/tldr-pages/tldr/issues/9625) — [19 June 2023](https://github.com/tldr-pages/tldr/issues/10057)
+- Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson)):
+  [4 Jan 2023](https://github.com/tldr-pages/tldr/issues/9671) — [8 July 2023](https://github.com/tldr-pages/tldr/issues/10054)
 
 ## Organization owners
 
@@ -173,6 +173,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [9 June 2023](https://github.com/tldr-pages/tldr/pull/10355) — present
 - **K.B.Dharun Krishna ([@kbdharun](https://github.com/kbdharun))**:
   [19 June 2023](https://github.com/tldr-pages/tldr/issues/10057) — present
+- **Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson))**:
+  [8 July 2023](https://github.com/tldr-pages/tldr/issues/10054) — present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
