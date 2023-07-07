@@ -5,7 +5,7 @@
 
 - Add new configuration:
 
-`jf config add `
+`jf config add`
 
 - Show current configuration:
 
