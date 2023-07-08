@@ -7,6 +7,10 @@
 
 `cavif {{path/to/file.jpg}}`
 
+- Adjust the image quality (1-100) and convert a PNG file to AVIF:
+
+`cavif --quality {{60}} {{path/to/file.png}}`
+
 - Set the output location explicitly:
 
 `cavif {{path/to/file.jpg}} --output {{path/to/file.avif}}`
