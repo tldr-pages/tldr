@@ -15,7 +15,7 @@
 
 `macchina --long-uptime --long-shell --long-kernel`
 
-- Check for any errors / system failures encountered when trying to fetch system information:
+- Check for any errors/system failures encountered when trying to fetch system information:
 
 `macchina --doctor`
 
