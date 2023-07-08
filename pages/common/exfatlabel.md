@@ -5,4 +5,4 @@
 
 - Set a filesystem label:
 
-`exfatlabel /dev/{{sda}} "{{new label}}"`
+`exfatlabel /dev/{{sda}} "{{new_label}}"`
