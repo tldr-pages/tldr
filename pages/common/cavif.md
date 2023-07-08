@@ -5,12 +5,12 @@
 
 - Convert a JPEG file to AVIF:
 
-`cavif {{path/to/filename.jpg}}`
+`cavif {{path/to/file.jpg}}`
 
-- Set the destination filename explicitly:
+- Set the output location explicitly:
 
-`cavif {{path/to/filename.jpg}} --output {{path/to/filename.avif}}`
+`cavif {{path/to/file.jpg}} --output {{path/to/file.avif}}`
 
 - Overwrite the destination file if it already exists:
 
-`cavif --overwrite {{path/to/filename.jpg}}`
+`cavif --overwrite {{path/to/file.jpg}}`
