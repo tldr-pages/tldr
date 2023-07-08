@@ -9,7 +9,7 @@
 
 - Specify a custom configuration file path:
 
-`macchina --config {{path/to/configuration/file}}`
+`macchina --config {{path/to/configuration_file}}`
 
 - List out system information, but lengthen uptime, shell and kernel output:
 
