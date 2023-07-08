@@ -13,7 +13,7 @@
 
 - Play media passed by `ffmpeg` through standard stream:
 
-`ffmpeg -i {{path/to/file}} -c {{copy}} -f {{mediaformat}} - | ffplay -`
+`ffmpeg -i {{path/to/file}} -c {{copy}} -f {{media_format}} - | ffplay -`
 
 - Play a video and show motion vectors in real time:
 
