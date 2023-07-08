@@ -1,6 +1,6 @@
 # macchina
 
-> Macchina is a tool which fetches and displays information about your computer.
+> Display information about your computer.
 > More information: <https://github.com/Macchina-CLI/macchina>.
 
 - List out system information, with either default settings or those specified in your configuration file:
