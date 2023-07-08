@@ -19,6 +19,6 @@
 
 `macchina --doctor`
 
-- List out original artists of all the ASCII art used by macchina:
+- List out original artists of all the ASCII art:
 
 `macchina --ascii-artists`
