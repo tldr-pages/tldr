@@ -1,7 +1,7 @@
 # zbarcam
 
 > Scans and decodes barcodes from a video device.
-> More information: <https://linux.die.net/man/1/zbarcam>.
+> More information: <https://manned.org/zbarcam>.
 
 - Continuously read barcodes and print them to standard output:
 
