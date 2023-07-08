@@ -1,11 +1,11 @@
 # qm suspend
 
-> Suspends a virtual machine (VM) in the Proxmox Virtual Environment (PVE) cluster using the "qm" command-line tool.
+> Suspends a virtual machine (VM) in the Proxmox Virtual Environment (PVE).
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- To specifies the ID of the virtual machine to suspend:
+- Suspend virtual machine by id:
 
-`qm suspend -id 101`
+`qm suspend -{id} 101`
 
 - To skips the lock check when suspending the VM. Use with caution, as it may lead to data corruption in certain situations:
 
