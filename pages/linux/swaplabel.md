@@ -4,6 +4,14 @@
 > Note: `path/to/file` can either point to a regular file or a swap partition.
 > More information: <https://man7.org/linux/man-pages/man8/swaplabel.8.html>.
 
-- Set a swap partition label:
+- Display the current label and UUID of a swap area:
 
-`swaplabel --label "{{new_label}}" /dev/{{sda1}}"`
+`swaplabel {{path/to/file}}`
+
+- Set the label of a swap area:
+
+`swaplabel --label {{new_label}} {{path/to/file}}`
+
+- Set the UUID of a swap area (you can generate a UUID using `uuidgen`):
+
+`swaplabel --uuid {{new_uuid}} {{path/to/file}}`
