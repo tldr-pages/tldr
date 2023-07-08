@@ -1,7 +1,7 @@
 # exfatlabel
 
 > Set an exfat filesystem label.
-> More information: <https://www.mankier.com/8/exfatlabel>.
+> More information: <https://manned.org/exfatlabel>.
 
 - Set a filesystem label:
 
