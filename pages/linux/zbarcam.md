@@ -1,6 +1,6 @@
 # zbarcam
 
-> Scans and decodes barcodes from a video device.
+> Scans and decodes barcodes (and QR codes) from a video device.
 > More information: <https://manned.org/zbarcam>.
 
 - Continuously read barcodes and print them to standard output:
