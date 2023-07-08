@@ -2,7 +2,7 @@
 
 > Print or change the label or UUID of a swap area.
 > Note: `path/to/file` can either point to a regular file or a swap partition.
-> More information: <https://man7.org/linux/man-pages/man8/swaplabel.8.html>.
+> More information: <https://manned.org/swaplabel>.
 
 - Display the current label and UUID of a swap area:
 
