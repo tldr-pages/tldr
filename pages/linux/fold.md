@@ -1,7 +1,7 @@
-# Fold
+# fold
 
 > Folds long lines for fixed-width output devices.
-> More information: <https://manned.org/fold>.
+> More information: <https://gnu.org/software/coreutils/fold>.
 
 - Fold lines in a fixed width:
 
