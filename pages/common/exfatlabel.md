@@ -3,6 +3,10 @@
 > Get or set an exFAT filesystem label.
 > More information: <https://manned.org/exfatlabel>.
 
-- Set a filesystem label:
+- Display the current filesystem label:
 
-`exfatlabel /dev/{{sda}} "{{new_label}}"`
+`exfatlabel {{/dev/sda}}`
+
+- Set the filesystem label:
+
+`exfatlabel {{/dev/sda}} {{new_label}}`
