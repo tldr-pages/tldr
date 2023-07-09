@@ -18,7 +18,7 @@
 
 - Ejecuta un script:
 
-`bc {{ruta/a/script.bc}}`
+`bc {{ruta/al/script.bc}}`
 
 - Calcula una expresión con la escala especificada:
 
