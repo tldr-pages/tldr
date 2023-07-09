@@ -1,16 +1,17 @@
 # qm suspend
 
 > Suspends a virtual machine (VM) in the Proxmox Virtual Environment (PVE).
+> Use `--skiplock` and `--skiplockstorage` flags with caution, as they may lead to data corruption in certain situations.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Suspend virtual machine by id:
 
-`qm suspend -{id} 101`
+`qm suspend {{vm_id}} {{integer}}`
 
-- To skips the lock check when suspending the VM. Use with caution, as it may lead to data corruption in certain situations:
+- Skip the lock check when suspending the VM:
 
-`qm suspend --vmid 101 --skiplock`
+`qm suspend {{vm_id}} {{integer}} --skiplock`
 
-- To skips the lock check for storage when suspending the VM. Use with caution, as it may lead to data corruption in certain situations:
+- Skip the lock check for storage when suspending the VM:
 
-`qm suspend --vmid 101 --skiplockstorage`
+`qm suspend {{vm_id}} {{integer}} --skiplockstorage`
