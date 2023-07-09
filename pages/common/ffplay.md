@@ -11,7 +11,7 @@
 
 `ffplay -nodisp {{path/to/file}}`
 
-- Play media passed by `ffmpeg` through standard stream:
+- Play media passed by `ffmpeg` through `stdin`:
 
 `ffmpeg -i {{path/to/file}} -c {{copy}} -f {{media_format}} - | ffplay -`
 
