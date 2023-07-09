@@ -1,4 +1,4 @@
-# Fold
+# fold
 
 > Folds long lines for fixed-width output devices.
 > More information: <https://gnu.org/software/coreutils/fold>.
