@@ -31,6 +31,6 @@
 
 `v4l2-ctl --list-ctrls --device {{path/to/video_device}}`
 
-- Set a value of a video device control:
+- Set the value of a video device control:
 
 `v4l2-ctl --device {{path/to/video_device}} --set-ctrl={{control_name}}={{value}}`
