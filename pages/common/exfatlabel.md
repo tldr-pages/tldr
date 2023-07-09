@@ -1,6 +1,6 @@
 # exfatlabel
 
-> Set an exFAT filesystem label.
+> Get or set an exFAT filesystem label.
 > More information: <https://manned.org/exfatlabel>.
 
 - Set a filesystem label:
