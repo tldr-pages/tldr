@@ -6,8 +6,8 @@
 
 - Starte Bird mit einer bestimmten Konfigurationsdatei:
 
-`bird -c {{path/to/bird.conf}}`
+`bird -c {{pfad/zu/bird.conf}}`
 
 - Starte Bird als spezifischer Benutzer und Gruppe:
 
-`bird -u {{username}} -g {{group}}`
+`bird -u {{Benutzername}} -g {{Gruppe}}`

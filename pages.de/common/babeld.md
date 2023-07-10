@@ -5,11 +5,11 @@
 
 - Starte babeld von einer bestimmten Konfigurationsdatei:
 
-`babeld -c {{path/to/babeld.conf}}`
+`babeld -c {{pfad/zu/babeld.conf}}`
 
 - Starte babeld von mehreren Konfigurationsdateien (in der Reihenfolge des Einlesens):
 
-`babeld -c {{path/to/ports.conf}} -c {{path/to/filters.conf}} -c {{path/to/interfaces.conf}}`
+`babeld -c {{pfad/zu/ports.conf}} -c {{pfad/zu/filters.conf}} -c {{pfad/zu/interfaces.conf}}`
 
 - Starte Babeld und versetze es danach in den Hintergrund:
 
