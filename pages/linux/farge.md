@@ -15,7 +15,6 @@
 
 `farge --stdout`
 
-
 - Output a pixel's RGB value to `stdout`, and copy this value to the clipboard:
 
 `farge --rgb --stdout`
