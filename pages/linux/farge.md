@@ -3,22 +3,23 @@
 > Display the color of a specific pixel on the screen in either hexadecimal or RGB formats.
 > More information: <https://github.com/sdushantha/farge>.
 
-- Select a pixel interactively and display a small, square preview window of the color and it's hexadecimal value:
+- Display a small preview window of a pixel's color with it's hexadecimal value, and copy this value to the clipboard:
 
 `farge`
 
-- Select a pixel interactively and display a small, square preview window of the color, without displaying it's hexadecimal value:
+- Copy a pixel's hexadecimal value to the clipboard without displaying a preview window:
 
-`farge --no-color-code`
+`farge --no-preview`
 
-- Select a pixel interactively and output it's hexadecimal value to `stdout`:
+- Output a pixel's hexadecimal value to `stdout`, and copy this value to the clipboard:
 
 `farge --stdout`
 
-- Select a pixel interactively and output it's RGB value to `stdout`:
+
+- Output a pixel's RGB value to `stdout`, and copy this value to the clipboard:
 
 `farge --rgb --stdout`
 
-- Select a pixel interactively and display it's hexadecimal value as a notification which expires in 5000 milliseconds:
+- Display a pixel's hexadecimal value as a notification which expires in 5000 milliseconds, and copy this value to the clipboard:
 
 `farge --notify --expire-time 5000`
