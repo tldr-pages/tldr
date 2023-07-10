@@ -14,4 +14,4 @@
 
 - Compile a grammar file, replace the 'y' prepending the output files with '{{prefix}}':
 
-`yacc -d {{path/to/grammar_file.y}}.y -v -b {{prefix}}`
+`yacc -d {{path/to/grammar_file.y}} -v -b {{prefix}}`
