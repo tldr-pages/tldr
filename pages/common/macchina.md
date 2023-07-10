@@ -11,7 +11,7 @@
 
 `macchina --config {{path/to/configuration_file}}`
 
-- List out system information, but lengthen uptime, shell and kernel output:
+- List system information, but lengthen uptime, shell and kernel output:
 
 `macchina --long-uptime --long-shell --long-kernel`
 
@@ -19,6 +19,6 @@
 
 `macchina --doctor`
 
-- List out original artists of all the ASCII art:
+- List original artists of all the ASCII art:
 
 `macchina --ascii-artists`
