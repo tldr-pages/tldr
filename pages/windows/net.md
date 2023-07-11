@@ -1,28 +1,32 @@
 # net
 
-> System utility to view and modify network-related settings
+> System utility to view and modify network-related settings.
 > More information: <https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155(v=ws.11)>.
 
-- Remote filesystem (IPC$)
+- See the help for a subcommand or list all the subcommands:
 
-`net use \\{IP}`
+`net help {{subcommand_or_empty}}`
 
-- List current SMB shares
+- Start or stop a windows service syncronously:
+
+`net {{start|stop}} {{service_name}}`
+
+- Make sure an SMB share is avaialable in the current console:
+
+`net use {{\\smb_shared_folder}} /USER:{{user_name}}`
+
+- Show the folders currently shared over SMB:
 
 `net share`
 
-- Who is using your network shares (elevated)
+- Show who is using your SMB shares (run in elevated console):
 
 `net session`
 
-- List local Administrators
+- Show users in a local security group:
 
-`net localgroup "Administrators"`
+`net localgroup "{{Administrators}}"`
 
-- Add user to the administrators group (elevated)
+- Add a user to the local security group (run in elevated console):
 
-`net localgroup "Administrators" {{user}} /add`
-
-- Start and stop windows services syncronously:
-
-`net {{start|stop}} {{service_name}}`
+`net localgroup "{{Administrators}}" {{user_name}} /add`
