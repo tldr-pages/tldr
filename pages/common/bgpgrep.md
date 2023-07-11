@@ -2,7 +2,7 @@
 
 > Filter and print BGP data within MRT dumps.
 > Can read files compressed with gzip, bzip2 and xz.
-> More information: <https://gitea.it/1414codeforge/ubgpsuite>.
+> More information: <https://codeberg.org/1414codeforge/ubgpsuite>.
 
 - Output all routes:
 
