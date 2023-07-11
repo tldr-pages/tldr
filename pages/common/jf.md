@@ -11,6 +11,6 @@
 
 `jf config show`
 
-- Artifactory: Search artifacts within given repository and directory:
+- Search artifacts within the given repository and directory:
 
 `jf rt search --recursive {{repostiory_name}}/{{path}}/`
