@@ -17,7 +17,7 @@
 
 - Abre un archivo específico y bloquea el terminal hasta que se cierre:
 
-`cot --wait {{ruta/a/archivo}}`
+`cot --wait {{ruta/al/archivo}}`
 
 - Abre un archivo específico con el cursor en una línea y columna específicas:
 
