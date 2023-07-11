@@ -5,4 +5,4 @@
 
 - Create a template of a specific virtual machine:
 
-`qm template {{vmid}}`
+`qm template {{vm_id}}`
