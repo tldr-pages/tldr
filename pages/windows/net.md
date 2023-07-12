@@ -7,7 +7,7 @@
 
 `net help {{subcommand_or_empty}}`
 
-- Start or stop a windows service syncronously:
+- Start or stop a Windows service synchronously:
 
 `net {{start|stop}} {{service_name}}`
 
