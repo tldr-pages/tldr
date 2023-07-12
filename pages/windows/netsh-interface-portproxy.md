@@ -1,11 +1,7 @@
-# netsh
+# netsh interface portproxy
 
-> Configure and display the status of various network components
-> More information: <https://learn.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh>.
-
-- Display help:
-
-`netsh /?`
+> Configure and display the status of various network components.
+> More information: <https://learn.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-interface-portproxy>.
 
 - Display current port forwarding setup:
 
@@ -18,3 +14,7 @@
 - Remove IPv4 port forwarding (run in elevated console):
 
 `netsh interface portproxy delete v4tov4 listenaddress={{192.168.0.1}} listenport={{8080}}`
+
+- Display help:
+
+`netsh /?`
