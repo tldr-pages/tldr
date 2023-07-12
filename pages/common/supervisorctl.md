@@ -6,7 +6,7 @@
 
 - Get all process status info:
 
-`supervisorctl help status`
+`supervisorctl status`
 
 - Start/stop/restart a process:
 
