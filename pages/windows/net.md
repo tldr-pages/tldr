@@ -3,10 +3,6 @@
 > System utility to view and modify network-related settings.
 > More information: <https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155(v=ws.11)>.
 
-- See the help for a subcommand or list all the subcommands:
-
-`net help {{subcommand_or_empty}}`
-
 - Start or stop a Windows service synchronously:
 
 `net {{start|stop}} {{service_name}}`
