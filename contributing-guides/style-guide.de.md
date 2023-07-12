@@ -85,8 +85,8 @@
 
  Das obige Beispiel nutzt kein serial comma und ist somit mehrdeutig:
 
-* Lösche die Git Branches namens `tags` und `remotes`.
-* Lösche die Git Branches und die Git Tags und die Git Remotes.
+- Lösche die Git Branches namens `tags` und `remotes`.
+- Lösche die Git Branches und die Git Tags und die Git Remotes.
 
  Dies kann durch ein Komma vor "and" oder "or" gelöst werden.
 
