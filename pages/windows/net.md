@@ -29,4 +29,12 @@
 
 - Add a user to the local security group (run in elevated console):
 
-`net localgroup "{{Administrators}}" {{user_name}} /add`
+`net localgroup "{{Administrators}}" {{username}} /add`
+
+- Display help for a subcommand:
+
+`net help {{subcommand}}`
+
+- Display help:
+
+`net help`
