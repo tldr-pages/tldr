@@ -9,7 +9,7 @@
 
 - Make sure an SMB share is available in the current console:
 
-`net use {{\\smb_shared_folder}} /USER:{{user_name}}`
+`net use {{\\smb_shared_folder}} /USER:{{username}}`
 
 - Show the folders currently shared over SMB:
 
