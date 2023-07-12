@@ -11,7 +11,7 @@
 
 `net {{start|stop}} {{service_name}}`
 
-- Make sure an SMB share is avaialable in the current console:
+- Make sure an SMB share is available in the current console:
 
 `net use {{\\smb_shared_folder}} /USER:{{user_name}}`
 
