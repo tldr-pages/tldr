@@ -8,7 +8,7 @@
 
 `git format-patch {{origin}}`
 
-- Scrivi su stdout un file `.patch` per l'intervallo di commit definito dai due commit dati:
+- Scrivi su `stdout` un file `.patch` per l'intervallo di commit definito dai due commit dati:
 
 `git format-patch --stdout {{commit_1}}..{{commit_2}}`
 

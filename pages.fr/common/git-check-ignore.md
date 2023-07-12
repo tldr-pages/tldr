@@ -11,7 +11,7 @@
 
 `git check-ignore {{chemin/vers/fichier}} {{chemin/vers/répertoire}}`
 
-- Utilisez des chemins d'accès, un par ligne, de stdin :
+- Utilisez des chemins d'accès, un par ligne, de `stdin` :
 
 `git check-ignore --stdin < {{chemin/vers/fichier_annexe}}`
 

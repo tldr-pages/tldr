@@ -15,6 +15,6 @@
 
 `terraform fmt -diff`
 
-- Die Dateien mit Formatierungsinkonsistenzen werden nicht auf stdout ausgegeben:
+- Die Dateien mit Formatierungsinkonsistenzen werden nicht auf `stdout` ausgegeben:
 
 `terraform fmt -list=false`

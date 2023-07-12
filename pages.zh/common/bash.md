@@ -24,7 +24,7 @@
 
 `bash -e {{file.sh}}`
 
-- 从输入（stdin）读取命令：
+- 从输入（`stdin`）读取命令：
 
 `bash -s`
 

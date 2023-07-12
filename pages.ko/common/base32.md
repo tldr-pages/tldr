@@ -11,10 +11,10 @@
 
 `base32 --decode {{filename}}`
 
-- stdin에서 인코딩:
+- `stdin`에서 인코딩:
 
 `{{somecommand}} | base32`
 
-- stdin에서 디코딩:
+- `stdin`에서 디코딩:
 
 `{{somecommand}} | base32 --decode`

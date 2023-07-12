@@ -15,7 +15,7 @@
 
 `docker exec --interactive -tty --workdir {{örnek/dizin}} {{konteyner_ismi}} {{komut}}`
 
-- Varolan konteyner üstünde arkaplanda çalışmak üzere bir komut çalıştır ancak stdin'i açık tut:
+- Varolan konteyner üstünde arkaplanda çalışmak üzere bir komut çalıştır ancak `stdin`'i açık tut:
 
 `docker exec --interactive --detach {{konteyner_ismi}} {{komut}}`
 

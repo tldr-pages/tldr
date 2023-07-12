@@ -3,7 +3,7 @@
 > 코드를 JavaScript ES6/ES7 문법에서 ES5 문법으로 변환하는 변환기입니다.
 > 더 많은 정보: <https://babeljs.io/>.
 
-- 지정된 입력 파일을 변환하고 `stdout'으로 출력:
+- 지정된 입력 파일을 변환하고 ``stdout`'으로 출력:
 
 `babel {{path/to/file}}`
 
