@@ -13,7 +13,7 @@
 
 - Run a command if it exists in the current path or in `node_modules/.bin`:
 
-`npx --no-install {{command}} {{command_arguments}}`
+`npx --no-install {{command}} {{argument1 argument2 ...}}`
 
 - Execute a specific command suppressing any output from `npx` itself:
 

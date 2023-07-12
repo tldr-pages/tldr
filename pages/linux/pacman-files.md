@@ -22,7 +22,7 @@
 
 - List the files owned by a specific package:
 
-`pacman --files --list {{package_name}}`
+`pacman --files --list {{package}}`
 
 - Display help:
 

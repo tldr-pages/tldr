@@ -18,11 +18,11 @@
 
 - Install a new package, with confirmation:
 
-`emerge -av {{package_name}}`
+`emerge -av {{package}}`
 
 - Remove a package, with confirmation:
 
-`emerge -Cav {{package_name}}`
+`emerge -Cav {{package}}`
 
 - Remove orphaned packages (that were installed only as dependencies):
 

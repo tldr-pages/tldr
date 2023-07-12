@@ -11,11 +11,11 @@
 
 - Install a new package:
 
-`sudo pacman -S {{package_name}}`
+`sudo pacman -S {{package}}`
 
 - Remove a package and its dependencies:
 
-`sudo pacman -Rs {{package_name}}`
+`sudo pacman -Rs {{package}}`
 
 - Search the database for packages containing a specific file:
 

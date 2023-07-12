@@ -18,11 +18,11 @@
 
 - Install a new package from the repos and AUR:
 
-`yay -S {{package_name}}`
+`yay -S {{package}}`
 
 - Remove an installed package and both its dependencies and configuration files:
 
-`yay -Rns {{package_name}}`
+`yay -Rns {{package}}`
 
 - Search the package database for a keyword from the repos and AUR:
 

@@ -5,7 +5,7 @@
 
 - Download a binary package:
 
-`dget {{package_name}}`
+`dget {{package}}`
 
 - Download and extract a package source from its `.dsc` file:
 

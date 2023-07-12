@@ -17,12 +17,12 @@
 
 - Get information about a package:
 
-`paru -Si {{package_name}}`
+`paru -Si {{package}}`
 
 - Download `PKGBUILD` and other package source files from the AUR or ABS:
 
-`paru --getpkgbuild {{package_name}}`
+`paru --getpkgbuild {{package}}`
 
 - Display the `PKGBUILD` file of a package:
 
-`paru --getpkgbuild --print {{package_name}}`
+`paru --getpkgbuild --print {{package}}`
