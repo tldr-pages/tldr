@@ -11,7 +11,7 @@
 
 `traceroute -n {{example.com}}`
 
-- Specify wait time for response:
+- Specify wait time in seconds for response:
 
 `traceroute --wait={{0.5}} {{example.com}}`
 
