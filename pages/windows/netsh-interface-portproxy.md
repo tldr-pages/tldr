@@ -17,4 +17,4 @@
 
 - Display help:
 
-`netsh /?`
+`netsh interface portproxy`
