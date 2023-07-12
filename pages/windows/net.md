@@ -5,7 +5,7 @@
 
 - Start or stop a Windows service synchronously:
 
-`net {{start|stop}} {{service_name}}`
+`net {{start|stop}} {{service}}`
 
 - Make sure an SMB share is available in the current console:
 
