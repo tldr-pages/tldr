@@ -3,7 +3,7 @@
 > Command-line word processor.
 > More information: <https://cowlark.com/wordgrinder>.
 
-- Start wordgrinder (loads a blank document by default):
+- Start WordGrinder (loads a blank document by default):
 
 `wordgrinder`
 

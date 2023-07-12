@@ -15,6 +15,6 @@
 
 `browser-sync init`
 
-- Start browser-sync from config file:
+- Start Browsersync from config file:
 
 `browser-sync start --config {{config_file}}`

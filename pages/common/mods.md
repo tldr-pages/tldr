@@ -17,7 +17,7 @@
 
 - Ask for help with your documentation, in markdown format:
 
-`mods --format "{{write a new section to this readme for a feature that sends you a free rabbit if you hit r}} < {{README.md}}"`
+`mods --format "{{write a new section to this readme for a feature that sends you a free rabbit if you hit r}}" < {{README.md}}`
 
 - Organize your videos, in markdown format:
 

@@ -16,9 +16,9 @@
 
 `sudo pacman -Rs {{nom_paquet}}`
 
-- Recherche dans la base de données des paquets une expression régulière ou mot clé :
+- Recherche dans la base de données des paquets contenant un certain fichier :
 
-`pacman -Ss "{{terme_recherche}}"`
+`pacman -F "{{nom_fichier}}"`
 
 - Liste les paquets installés et leurs versions :
 

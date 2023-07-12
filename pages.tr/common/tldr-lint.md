@@ -7,7 +7,7 @@
 
 `tldr-lint {{sayfa_dizini}}`
 
-- Belirtilmiş bir sayfayı stdout'a biçimlendir:
+- Belirtilmiş bir sayfayı `stdout`'a biçimlendir:
 
 `tldr-lint --format {{page.md}}`
 
