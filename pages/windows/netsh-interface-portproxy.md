@@ -7,7 +7,7 @@
 
 `netsh interface portproxy show all`
 
-- Setup IPv4 port forwarding (run in elevated console):
+- Set up IPv4 port forwarding (run in elevated console):
 
 `netsh interface portproxy add v4tov4 listenaddress={{192.168.0.1}} listenport={{8080}}  connectaddress={{10.0.0.1}} connectport={{80}}`
 
