@@ -27,7 +27,7 @@
 
 `sudo systemd-firstboot --force`
 
-- Remove all existing files that are configured by systemd-firstboot:
+- Remove all existing files that are configured by `systemd-firstboot`:
 
 `sudo systemd-firstboot --reset`
 
