@@ -5,7 +5,7 @@
 
 - Set the root directory for the basic system settings initialization:
 
-`sudo systemd-firstboot --root={{root_directory_path}}`
+`sudo systemd-firstboot --root={{path/to/root_directory}}`
 
 - Set the system keyboard layout:
 
