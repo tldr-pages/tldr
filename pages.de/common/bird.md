@@ -10,4 +10,4 @@
 
 - Starte Bird als spezifischer Benutzer und Gruppe:
 
-`bird -u {{Benutzername}} -g {{Gruppe}}`
+`bird -u {{benutzername}} -g {{gruppe}}`
