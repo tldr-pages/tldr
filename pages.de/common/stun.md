@@ -1,6 +1,6 @@
 # stun
 
-> Classic STUN client.
+> Classic STUN-Client.
 > Weitere Informationen: <https://manned.org/stun.1>.
 
 - Stelle eine STUN-Anfrage:

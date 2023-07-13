@@ -4,7 +4,7 @@
 > Arbeitet auf Schicht 2 oder Schicht 3, unterstützt verschiedene Verschlüsselungsmethoden, wird von Freifunk verwendet.
 > Weitere Informationen: <https://fastd.readthedocs.io/en/stable/>.
 
-- fastd von einer bestimmten Konfigurationsdatei starten:
+- Starte fastd mit einer bestimmten Konfigurationsdatei:
 
 `fastd --config {{pfad/zu/fastd.conf}}`
 

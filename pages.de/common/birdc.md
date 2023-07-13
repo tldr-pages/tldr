@@ -8,7 +8,7 @@
 
 `birdc`
 
-- Lade die Konfiguration neu, ohne Bird neu zu starten.:
+- Lade die Konfiguration neu, ohne Bird neu zu starten:
 
 `birdc configure`
 
@@ -32,6 +32,6 @@
 
 `birdc show route primary`
 
-- Zeige alle Details zu allen Routen von einem bestimmten Präfix anzeigen:
+- Zeige alle Details zu allen Routen von einem bestimmten Präfix an:
 
 `birdc show route for {{fd00:/8}} all`
