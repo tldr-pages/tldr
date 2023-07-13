@@ -3,7 +3,7 @@
 > Documentation tool for Ruby.
 > More information: <https://yardoc.org/>.
 
-- Create documentation:
+- Create the documentation:
 
 `yard`
 
