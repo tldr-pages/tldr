@@ -4,7 +4,7 @@
 > Command tool to retrieve information like routes from bird and perform configurations during runtime.
 > More information: <https://bird.network.cz/>.
 
-- Open the remote control console::
+- Open the remote control console:
 
 `birdc`
 
@@ -16,7 +16,7 @@
 
 `birdc show status`
 
-- Show all active protocols:
+- Show all configured protocols:
 
 `birdc show protocols`
 
