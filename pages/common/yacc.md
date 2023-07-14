@@ -12,6 +12,6 @@
 
 `yacc -d {{path/to/grammar_file.y}} -v`
 
-- Compile a grammar file, replace the 'y' prepending the output files with '{{prefix}}':
+- Compile a grammar file, and prefix output filenames with `prefix` instead of `y`:
 
 `yacc -d {{path/to/grammar_file.y}} -v -b {{prefix}}`
