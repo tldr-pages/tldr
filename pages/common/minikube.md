@@ -27,6 +27,6 @@
 
 `minikube delete`
 
-- Connect to LoadBalancer services
+- Connect to LoadBalancer services:
 
 `minikube tunnel`
