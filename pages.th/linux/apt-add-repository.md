@@ -1,7 +1,7 @@
 # apt-add-repository
 
 > ควบคุมและจัดการที่อยู่ของคลัง apt.
-> ข้อมูลเพิ่มเติม: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
+> ข้อมูลเพิ่มเติม: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>
 
 - เพิ่มที่หมายของคลัง apt:
 
