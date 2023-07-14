@@ -1,8 +1,8 @@
-# qm-disk-resize
+# qm disk resize
 
-> This command is an alias of `qm-resize`.
+> Resize a virtual machine (VM) in the Proxmox Virtual Environment (PVE).
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- View documentation for the original command:
+- Resize a virtual machine by id:
 
-`tldr qm-resize`
+`qm disk resize {{vm_id}} {{disk_name}} +{{resize_value}}G`
