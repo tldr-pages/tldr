@@ -17,19 +17,19 @@
 
 - Listen on a specified TCP port and print any data received:
 
-`nc -l {{port}}`
+`nc -l -p {{port}}`
 
 - Keep the server up after the client detaches:
 
-`nc -k -l {{port}}`
+`nc -k -l -p {{port}}`
 
 - Listen on a specified UDP port and print connection details and any data received:
 
-`nc -u -l {{port}}`
+`nc -u -l -p {{port}}`
 
 - Act as a proxy and forward data from a local TCP port to the given remote host:
 
-`nc -l {{local_port}} | nc {{hostname}} {{remote_port}}`
+`nc -l -p {{local_port}} | nc {{hostname}} {{remote_port}}`
 
 - Send an HTTP GET request:
 
