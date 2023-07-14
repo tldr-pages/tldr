@@ -14,6 +14,3 @@
 - Watch changes on a Typst file and compile dynamically:
 
 `typst watch {{path/to/source.typ path/to/output.pdf}}`
-
-
-
