@@ -3,7 +3,7 @@
 > Initialize basic system settings on or before the first boot-up of a system.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-firstboot.html>.
 
-- Set the root directory for the basic system settings initialization:
+- Operate on the specified directory instead of the root directory of the host system:
 
 `sudo systemd-firstboot --root={{path/to/root_directory}}`
 
