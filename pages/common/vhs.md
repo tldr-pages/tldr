@@ -1,13 +1,13 @@
 # vhs
 
-> CLI home video recorder to generate terminal gifs from code.
+> Generate terminal gifs from a tape file.
 > More information: <https://github.com/charmbracelet/vhs>.
 
-- Create a tape file (Add commands to the tap file using your editor):
+- Create a tape file (add commands to the tape file using an editor):
 
 `vhs new {{path/to/file.tape}}`
 
-- Record inputs to a tape file (Once done, exit the shell to create the tape):
+- Record inputs to a tape file (once done, exit the shell to create the tape):
 
 `vhs record > {{path/to/file.tape}}`
 
@@ -15,7 +15,7 @@
 
 `vhs record --shell {{shell}} > {{path/to/file.tape}}`
 
-- Validate a type file's syntax:
+- Validate the syntax of a tape file:
 
 `vhs validate {{path/to/file.tape}}`
 
@@ -23,6 +23,6 @@
 
 `vhs < {{path/to/file.tape}}`
 
-- Publish a gif to https://vhs.charm.sh and get a shareable URL:
+- Publish a gif to <https://vhs.charm.sh> and get a shareable URL:
 
 `vhs publish {{path/to/file.gif}}`

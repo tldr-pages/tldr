@@ -1,6 +1,6 @@
 # winget
 
-> Windows Package Manager CLI.
+> Windows Package Manager.
 > More information: <https://learn.microsoft.com/windows/package-manager/winget>.
 
 - Install a package:

@@ -1,6 +1,6 @@
 # composer-require-checker
 
-> A CLI tool to analyze Composer dependencies for soft dependencies.
+> Analyze Composer dependencies for soft dependencies.
 > More information: <https://github.com/maglnet/ComposerRequireChecker>.
 
 - Analyze a Composer JSON file:

@@ -1,7 +1,7 @@
 # play
 
 > Audio player of SoX - Sound eXchange.
-> Plays any audio from the command-line, with audio formats identified by the extension.
+> Plays any audio, with audio formats identified by the extension.
 > More information: <http://sox.sourceforge.net>.
 
 - Play the given audio file:

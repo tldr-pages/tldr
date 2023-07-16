@@ -1,6 +1,6 @@
 # nmcli
 
-> A command-line tool for controlling NetworkManager.
+> Manage the network configuration using NetworkManager.
 > Some subcommands such as `nmcli monitor` have their own usage documentation.
 > More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 

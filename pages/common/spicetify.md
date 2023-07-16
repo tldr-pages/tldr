@@ -1,6 +1,6 @@
 # spicetify
 
-> A CLI utility to customize the Spotify client UI and functionality.
+> Customize the Spotify client UI and functionality.
 > More information: <https://spicetify.app>.
 
 - Generate a configuration file on very first run and display help:

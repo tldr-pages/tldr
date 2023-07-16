@@ -1,6 +1,6 @@
 # etcdctl
 
-> CLI interface for interacting with etcd, a highly-available key-value pair store.
+> Interact with `etcd`, a highly-available key-value pair store.
 > More information: <https://etcd.io/docs/latest/dev-guide/interacting_v3/>.
 
 - Display the value associated with a specified key:

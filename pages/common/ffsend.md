@@ -1,6 +1,6 @@
 # ffsend
 
-> Easily and securely share files from command-line.
+> Easily and securely share files.
 > More information: <https://gitlab.com/timvisee/ffsend>.
 
 - Upload a file:

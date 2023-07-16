@@ -1,6 +1,6 @@
 # miniserve
 
-> Simple HTTP file server CLI.
+> Simple HTTP file server.
 > More information: <https://github.com/svenstaro/miniserve>.
 
 - Serve a directory:
