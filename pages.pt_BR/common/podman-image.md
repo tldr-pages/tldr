@@ -1,5 +1,4 @@
-V
-dman image
+# podman image
 
 > Gerenciar imagens Docker.
 > Veja também `podman build`, `podman import` e `podman pull`.

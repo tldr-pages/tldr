@@ -1,5 +1,4 @@
-V
-dman ps
+# podman ps
 
 > Listar contêineres do Podman.
 > Mais informações: <https://docs.podman.io/en/latest/markdown/podman-ps.1.html>.

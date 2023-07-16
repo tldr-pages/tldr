@@ -1,5 +1,4 @@
-V
-dman-compose
+# podman-compose
 
 > Executar e gerenciar definição de contêineres Compose Specification.
 > Mais informações: <https://github.com/containers/podman-compose>.
