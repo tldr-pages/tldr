@@ -1,6 +1,6 @@
 # cut
 
-> Recorta campos de stdin ou arquivos.
+> Recorta campos de `stdin` ou arquivos.
 > Mais informações: <https://manned.org/man/freebsd-13.0/cut.1>.
 
 - Imprime um intervalo específico de caracteres/campos de cada linha:

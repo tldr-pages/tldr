@@ -20,7 +20,7 @@
 
 `7zr x {{jalan/menuju/arsip.7z}} -o{{jalan/menuju/direktori}}`
 
-- Mengekstrak sebuah file arsip menuju stdout:
+- Mengekstrak sebuah file arsip menuju `stdout`:
 
 `7zr x {{jalan/menuju/arsip.7z}} -so`
 

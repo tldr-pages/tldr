@@ -9,7 +9,7 @@
 
 - Convert an audio file specifying the output format of the converted file:
 
-`whisper {{path/to/audio.mp3}} --output-format {{txt}}`
+`whisper {{path/to/audio.mp3}} --output_format {{txt}}`
 
 - Convert an audio file using a specific model for conversion:
 

@@ -11,7 +11,7 @@
 
 `b2sum {{chemin/vers/fichier1}} {{chemin/vers/fichier2}}`
 
-- Calcule la somme de contrôle BLAKE2 depuis stdin :
+- Calcule la somme de contrôle BLAKE2 depuis `stdin` :
 
 `{{commande}} | b2sum`
 

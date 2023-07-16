@@ -4,7 +4,7 @@
 > Ein `cat`-Ersatz mit Syntax-Hervorhebung und Git-Integration.
 > Weitere Informationen: <https://github.com/sharkdp/bat>.
 
-- Gib den Inhalt einer Datei in stdout aus:
+- Gib den Inhalt einer Datei in `stdout` aus:
 
 `bat {{pfad/zu/datei}}`
 

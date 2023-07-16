@@ -15,6 +15,6 @@
 
 `b2sum -c {{filename.b2}}`
 
-- stdin에서 BLACK2 체크섬 계산:
+- `stdin`에서 BLACK2 체크섬 계산:
 
 `{{somecommand}} | b2sum`
