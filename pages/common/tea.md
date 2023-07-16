@@ -1,6 +1,6 @@
 # tea
 
-> A command-line tool to interact with Gitea servers.
+> Interact with Gitea servers.
 > More information: <https://gitea.com/gitea/tea>.
 
 - Log into a Gitea server:

@@ -1,6 +1,6 @@
 # neofetch
 
-> CLI tool to display information about your operating system, software and hardware.
+> Display information about your operating system, software and hardware.
 > More information: <https://github.com/dylanaraps/neofetch>.
 
 - Return the default config, and create it if it's the first time the program runs:
