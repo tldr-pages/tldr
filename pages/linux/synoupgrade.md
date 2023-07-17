@@ -1,6 +1,6 @@
 # synoupgrade
 
-> Upgrade a Synology DiskStation Manager (DSM) from the command-line.
+> Upgrade Synology DiskStation Manager (DSM) - the Synology NAS operating system.
 > More information: <https://www.synology.com/dsm>.
 
 - Check if upgrades are available:

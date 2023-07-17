@@ -1,6 +1,6 @@
 # rtorrent
 
-> Download torrents over the command-line.
+> Download torrents.
 > More information: <https://github.com/rakshasa/rtorrent>.
 
 - Add a torrent file or magnet to be downloaded:

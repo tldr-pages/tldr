@@ -1,6 +1,6 @@
 # particle
 
-> A command-line tool for interacting with Particle devices.
+> Interact with Particle devices.
 > More information: <https://docs.particle.io/tutorials/developer-tools/cli>.
 
 - Log in or create an account for the Particle CLI:

@@ -1,6 +1,6 @@
 # bluetoothctl
 
-> Manage Bluetooth devices from the command-line.
+> Manage Bluetooth devices.
 > More information: <https://bitbucket.org/serkanp/bluetoothctl>.
 
 - Enter the `bluetoothctl` shell:

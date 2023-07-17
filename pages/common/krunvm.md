@@ -1,6 +1,6 @@
 # krunvm
 
-> CLI-based utility for creating MicroVMs from OCI images.
+> Create MicroVMs from OCI images.
 > More information: <https://github.com/containers/krunvm>.
 
 - Create MicroVM based on Fedora:
