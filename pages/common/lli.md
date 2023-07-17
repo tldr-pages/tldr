@@ -7,7 +7,7 @@
 
 `lli {{path/to/file.ll}}`
 
-- Execute with command line arguments:
+- Execute with command-line arguments:
 
 `lli {{path/to/file.ll}} {{argument1 argument2 ...}}`
 

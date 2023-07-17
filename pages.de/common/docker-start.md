@@ -17,4 +17,4 @@
 
 - Starte einen oder mehrere durch Leerzeichen getrennte Container:
 
-`docker start {{container}}`
+`docker start {{container1 container2 ...}}`

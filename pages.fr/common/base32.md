@@ -11,10 +11,10 @@
 
 `base32 --decode {{fichier}}`
 
-- Encode depuis stdin :
+- Encode depuis `stdin` :
 
 `{{commande}} | base32`
 
-- Décode depuis stdin :
+- Décode depuis `stdin` :
 
 `{{commande}} | base32 --decode`

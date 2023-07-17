@@ -293,7 +293,7 @@ Not translated yet.
 
 > To polecenie jest aliasem `example`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr example`
 ```
@@ -384,7 +384,7 @@ Not translated yet.
 ```markdown
 # example
 
-> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `example`.
+> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `example`
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

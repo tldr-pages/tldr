@@ -1,6 +1,6 @@
 # nx
 
-> CLI utility for managing `nx` workspaces.
+> Manage `nx` workspaces.
 > More information: <https://nx.dev/l/r/getting-started/nx-cli>.
 
 - Build a specific project:

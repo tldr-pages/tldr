@@ -8,7 +8,7 @@
 
 `git format-patch {{origen}}`
 
-- Escribe un archivo `.patch` para todos los commits entre dos revisiones a stdout:
+- Escribe un archivo `.patch` para todos los commits entre dos revisiones a `stdout`:
 
 `git format-patch {{revisión_1}}..{{revisión_2}}`
 

@@ -2,7 +2,7 @@
 
 > File archiver with a high compression ratio.
 > Similar to `7z` except that it only supports `.7z` files.
-> More information: <https://www.7-zip.org>.
+> More information: <https://manned.org/7zr>.
 
 - [a]rchive a file or directory:
 
@@ -10,7 +10,7 @@
 
 - Encrypt an existing archive (including file names):
 
-`7zr a {{path/to/encrypted.7z}} -p{{password}} -mhe=on {{path/to/archive.7z}}`
+`7zr a {{path/to/encrypted.7z}} -p{{password}} -mhe={{on}} {{path/to/archive.7z}}`
 
 - E[x]tract an archive preserving the original directory structure:
 

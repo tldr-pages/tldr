@@ -1,6 +1,7 @@
 # grpcurl
 
-> Like cURL, but for gRPC: CLI tool for interacting with gRPC servers.
+> Interact with gRPC servers.
+> Like `curl`, but for gRPC.
 > More information: <https://github.com/fullstorydev/grpcurl>.
 
 - Send an empty request:

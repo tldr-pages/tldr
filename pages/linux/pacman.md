@@ -1,7 +1,7 @@
 # pacman
 
 > Arch Linux package manager utility.
-> Some subcommands such as `pacman sync` have their own usage documentation.
+> See also: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
@@ -17,9 +17,9 @@
 
 `sudo pacman -Rs {{package_name}}`
 
-- Search the package database for a regular expression or keyword:
+- Search the database for packages containing a specific file:
 
-`pacman -Ss "{{search_pattern}}"`
+`pacman -F "{{file_name}}"`
 
 - List installed packages and versions:
 

@@ -20,7 +20,7 @@
 
 `zsh --no-exec {{path/to/script.zsh}}`
 
-- Execute specific commands from stdin:
+- Execute specific commands from `stdin`:
 
 `{{echo Hello world}} | zsh`
 

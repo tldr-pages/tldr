@@ -6,7 +6,7 @@
 
 - Install a package, or update it to the latest available version:
 
-`nala install {{package}}`
+`sudo nala install {{package}}`
 
 - Remove a package:
 
@@ -18,19 +18,19 @@
 
 - Search package names and descriptions using a word, regex (default) or glob:
 
-`sudo nala search "{{pattern}}"`
+`nala search "{{pattern}}"`
 
 - Update the list of available packages and upgrade the system:
 
-`nala upgrade`
+`sudo nala upgrade`
 
 - Remove all unused packages and dependencies from your system:
 
-`nala autoremove`
+`sudo nala autoremove`
 
 - Fetch fast mirrors to improve download speeds:
 
-`nala fetch`
+`sudo nala fetch`
 
 - Display the history of all transactions:
 

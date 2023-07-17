@@ -21,4 +21,4 @@
 
 - Create a password that doesn't appear in a dictionary (the dictionary file has to be provided):
 
-`apg -r {{dictionary_file}}`
+`apg -r {{path/to/dictionary_file}}`

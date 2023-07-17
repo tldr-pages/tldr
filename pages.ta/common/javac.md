@@ -1,7 +1,7 @@
 # javac
 
 > ஜாவா பயன்பாட்டு தொகுப்பாளர்.
-> மேலும் விவரத்திற்கு: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/javac.html>.
+> மேலும் விவரத்திற்கு: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/javac.html>.
 
 - ஒரு `.java` கோப்பை தொகுக்கவும்:
 

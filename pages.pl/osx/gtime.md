@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `-p linux time`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr -p linux time`

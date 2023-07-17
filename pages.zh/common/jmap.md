@@ -1,7 +1,7 @@
 # jmap
 
 > Java 内存映射工具。
-> 更多信息：<https://docs.oracle.com/javase/7/docs/technotes/tools/share/jmap.html>.
+> 更多信息：<https://docs.oracle.com/en/java/javase/20/docs/specs/man/jmap.html>.
 
 - 打印 Java 进程的共享对象映射（类似 pmap 的输出）：
 

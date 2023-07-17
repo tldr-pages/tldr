@@ -1,26 +1,26 @@
 # gpg
 
 > GNU Privacy Guard.
-> 请参阅`gpg2`了解 GNU Privacy Guard 2.
+> 请参阅 `gpg2` 了解 GNU Privacy Guard 2.
 > 更多信息：<https://gnupg.org>.
 
-- 不加密，仅对`doc.txt`进行签名（生成`doc.txt.asc`，格式为 ASCII 码形式）：
+- 交互地创建 GPG 公钥和私钥：
+
+`gpg --full-generate-key`
+
+- 不加密，仅对 `doc.txt` 进行签名（生成 `doc.txt.asc`，格式为 ASCII 码形式）：
 
 `gpg --clearsign {{doc.txt}}`
 
-- 对`doc.txt`进行签名并加密（生成`doc.txt.asc`，格式为 ASCII 码形式）：
+- 为接收者 alice@example.com 和 bob@example.com 签名并加密 `doc.txt`（生成 `doc.txt.gpg`）：
 
-`gpg --local-user {{sender_id}} --recipient {{recipient_id}} --armor --sign --encrypt {{doc.txt}}`
+`gpg --encrypt --sign --recipient {{alice@example.com}} --recipient {{bob@example.com}} {{doc.txt}}`
 
-- 为接收者 alice@example.com 加密`doc.txt`（生成`doc.txt.gpg`）：
-
-`gpg --encrypt --recipient {{alice@example.com}} {{doc.txt}}`
-
-- 只用密码加密`doc.txt`（生成`doc.txt.gpg`）：
+- 只用密码加密 `doc.txt`（生成 `doc.txt.gpg`）：
 
 `gpg --symmetric {{doc.txt}}`
 
-- 解密`doc.txt.gpg`（输出到标准输出）：
+- 解密 `doc.txt.gpg`（输出到标准输出）：
 
 `gpg --decrypt {{doc.txt.gpg}}`
 

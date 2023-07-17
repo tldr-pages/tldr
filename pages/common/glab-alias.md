@@ -1,6 +1,6 @@
 # glab alias
 
-> Manage GitLab CLI command aliases from the command-line.
+> Manage GitLab CLI command aliases.
 > More information: <https://glab.readthedocs.io/en/latest/alias>.
 
 - Display the subcommand help:

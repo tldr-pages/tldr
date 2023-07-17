@@ -2,7 +2,7 @@
 
 > Archivador de ficheros con un alto ratio de compresión.
 > Similar a `7z` excepto que sólo soporta ficheros `.7z`.
-> Más información: <https://www.7-zip.org>.
+> Más información: <https://manned.org/7zr>.
 
 - [a]rchiva un archivo o directorio:
 
@@ -10,7 +10,7 @@
 
 - Cifra un archivo existente (incluidos los nombres de los archivos):
 
-`7zr a {{ruta/al/archivo.7z}} -p{{contraseña}} -mhe=on {{ruta/al/archivo.7z}}`
+`7zr a {{ruta/al/archivo.7z}} -p{{contraseña}} -mhe={{on}} {{ruta/al/archivo.7z}}`
 
 - E[x]trae un archivo conservando la estructura de directorios original:
 

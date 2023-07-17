@@ -4,7 +4,7 @@
 > Works on Layer 2 or Layer 3, supports different encryption methods, used by Freifunk.
 > More information: <https://fastd.readthedocs.io/en/stable/>.
 
-- Start fastd with a specific configuration file:
+- Start `fastd` with a specific configuration file:
 
 `fastd --config {{path/to/fastd.conf}}`
 
@@ -24,6 +24,6 @@
 
 `fastd --show-key --config {{path/to/fastd.conf}}`
 
-- Show the current version::
+- Show the current version:
 
 `fastd -v`

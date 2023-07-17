@@ -2,7 +2,7 @@
 
 'use strict';
 
-const glob = require('glob');
+const { glob } = require('glob');
 
 function parsePlatform(pagefile) {
   return pagefile.split(/\//)[1];
@@ -71,13 +71,14 @@ function saveIndex(index) {
   console.log(JSON.stringify(indexFile));
 }
 
-glob('pages*/**/*.md', function (er, files) {
-  if (er !== null) {
-    console.error('ERROR finding pages!');
-    console.error(er);
-    return;
-  }
-
+(async () => {
+  const files = await glob('pages*/**/*.md');
   let index = buildPagesIndex(files);
   saveIndex(index);
+})().then(() => {
+  process.exit(0);
+}).catch((err) => {
+  console.error('ERROR building index!');
+  console.error(er);
+  process.exit(1);
 });

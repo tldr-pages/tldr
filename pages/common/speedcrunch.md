@@ -3,7 +3,7 @@
 > A high-precision scientific calculator.
 > More information: <https://www.speedcrunch.org>.
 
-- Start speedcrunch:
+- Start SpeedCrunch:
 
 `speedcrunch`
 
