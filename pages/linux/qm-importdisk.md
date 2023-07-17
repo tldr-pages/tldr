@@ -1,7 +1,7 @@
 # qm importdisk
 
 > Import disk image to a VM as unused disk.
-> The supported image formats for qemu-img, such as raw, qcow2, qed, vdi, vmdk, and vhd, must be used.
+> The supported image formats for `qemu-img`, such as raw, qcow2, qed, vdi, vmdk, and vhd, must be used.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Import a VMDK disk image to specific storage:
