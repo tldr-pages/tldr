@@ -1,31 +1,27 @@
 # nc
 
-> A versatile utility for working with TCP or UDP data.
+> netcat is a versatile utility for redirecting IO into a network stream.
 > More information: <https://manned.org/man/nc.1>.
 
-- Establish a TCP connection:
+- Start a listener on the specified TCP port and send a file into it:
 
-`nc {{host}} {{port}}`
+`nc -l -p {{port}} < {{sent_file_name}}`
 
-- Set a timeout:
+- Connect to a target listener on the specified port and receive a file from it:
 
-`nc -w {{timeout_in_seconds}} {{host}} {{port}}`
+`nc {{host}} {{port}} > {{received_file_name}}`
 
 - Scan the open TCP ports of a specified host:
 
-`nc -v -z {{host}} {{port}}`
+`nc -v -z -w {{timeout_in_seconds}} {{host}} {{start_port}}-{{end_port}}`
 
-- Listen on a specified TCP port and print any data received:
+- Start a listener on the specified TCP port and provide your local shell access to the connected party (that is dangerous if abused):
 
-`nc -l -p {{port}}`
+`nc -l -p {{port}} -e {{shell_executable}}`
 
-- Keep the server up after the client detaches:
+- Connect to a target listener and provide your local shell access to the remote party (that is dangerous if abused):
 
-`nc -k -l -p {{port}}`
-
-- Listen on a specified UDP port and print connection details and any data received:
-
-`nc -u -l -p {{port}}`
+`nc {{host}} {{port}} -e {{shell_executable}}`
 
 - Act as a proxy and forward data from a local TCP port to the given remote host:
 
