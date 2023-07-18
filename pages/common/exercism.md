@@ -1,6 +1,6 @@
 # exercism
 
-> Download and solve problems from the command-line.
+> Download and solve problems.
 > More information: <https://exercism.org/docs/using/solving-exercises/working-locally>.
 
 - Configure the application token and the preferred workspace for Exercism:

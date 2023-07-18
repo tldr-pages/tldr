@@ -1,6 +1,6 @@
 # rich
 
-> Rich CLI is a toolbox for fancy output in the terminal.
+> A toolbox for fancy output in the terminal.
 > More information: <https://github.com/Textualize/rich-cli>.
 
 - Display a file with syntax highlighting:

@@ -1,7 +1,7 @@
 # snap
 
-> Tool for managing the "snap" self-contained software packages.
-> Similar to what `apt` is for ".deb".
+> Manage the "snap" self-contained software packages.
+> Similar to what `apt` is for `.deb`.
 > More information: <https://manned.org/snap>.
 
 - Search for a package:

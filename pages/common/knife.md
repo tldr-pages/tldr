@@ -1,6 +1,6 @@
 # knife
 
-> CLI for interacting with a Chef server from a local Chef repo.
+> Interact with a Chef server from a local Chef repo.
 > More information: <https://docs.chef.io/knife.html>.
 
 - Bootstrap a new node:
