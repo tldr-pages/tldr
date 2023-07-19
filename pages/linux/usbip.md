@@ -1,6 +1,6 @@
 # usbip
 
-> Tool for using USB devices remotely
+> Tool for using USB devices remotely.
 > More information: <https://usbip.sourceforge.net/>.
 
 - List all local USB devices and they busid's:
