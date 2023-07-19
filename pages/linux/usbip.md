@@ -27,10 +27,10 @@
 
 `usbip port`
 
-- Detach from a device
+- Detach from a device:
 
 `sudo usbip detach --port={{port}}`
 
-- Unbind a device
+- Unbind a device:
 
 `usbip unbind --busid={{bus_id}}`
