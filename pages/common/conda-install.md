@@ -1,4 +1,4 @@
-# conda install 
+# conda install
 
 > Install packages into an existing conda environment.
 > More information: <https://docs.conda.io/projects/conda/en/latest/commands/install.html>.
