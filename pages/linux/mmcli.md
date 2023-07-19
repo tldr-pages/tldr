@@ -11,6 +11,10 @@
 
 `mmcli --modem={{modem}}`
 
+- Enable a modem:
+
+`mmcli --modem={{modem}} --enable`
+
 - List SMS messages available on the modem:
 
 `sudo mmcli --modem={{modem}} --messaging-list-sms`
