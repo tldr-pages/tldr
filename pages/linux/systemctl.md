@@ -3,9 +3,10 @@
 > Control the systemd system and service manager.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
 
-- Show all running services:
+- List all services (optionally filtering by state):
 
-`systemctl status`
+`systemctl list-unit-files --type=service --all`
+`systemctl list-unit-files --type=service --state=enabled`
 
 - List failed units:
 
