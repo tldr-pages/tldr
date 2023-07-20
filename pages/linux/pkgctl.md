@@ -1,7 +1,7 @@
 # pkgctl
 
 > Unified command-line devtools frontend for Arch Linux.
-> More information: <https://manned.org/pkgctl.1>.
+> More information: <https://man.archlinux.org/man/pkgctl.1>.
 
 - Download PKGBUILD of a package:
 
