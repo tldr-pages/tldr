@@ -9,4 +9,4 @@
 
 - List hardware transcoding capabilities of your device:
 
-`gst-inspect-1.0 vaapi`
+`gst-inspect-1.0 {{vaapi|nvcodec}}`
