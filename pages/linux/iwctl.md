@@ -1,6 +1,6 @@
 # iwctl
 
-> A command-line tool for controlling the iwd network supplicant.
+> Control the `iwd` network supplicant.
 > More information: <https://iwd.wiki.kernel.org/gettingstarted>.
 
 - Start the interactive mode, in this mode you can enter the commands directly, with autocompletion:

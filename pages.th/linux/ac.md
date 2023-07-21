@@ -1,7 +1,7 @@
 # ac
 
 > แสดงสถิติที่ผู้ใช้งานได้เชื่อมต่อเข้ามาในระบบเป็นเวลานานเท่าไหร่
-> ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/acct/manual/accounting.html#ac>.
+> ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/acct/manual/accounting.html#ac>
 
 - แสดงสถิติเวลาที่ผู้ใช้ปัจจุบันได้เชื่อมต่อเข้ามาในระบบในหลักชั่วโมง:
 

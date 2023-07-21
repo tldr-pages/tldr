@@ -19,6 +19,10 @@
 
 `ipconfig /release {{adapter}}`
 
-- Remove all data from the DNS cache:
+- Show the local DNS cache:
+
+`ipconfig /displaydns`
+
+- Remove all data from the local DNS cache:
 
 `ipconfig /flushdns`

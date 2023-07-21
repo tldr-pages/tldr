@@ -1,6 +1,6 @@
 # gh repo
 
-> Work with GitHub repositories on the command-line.
+> Work with GitHub repositories.
 > More information: <https://cli.github.com/manual/gh_repo>.
 
 - Create a new repository (if the repository name is not set, the default name will be the name of the current directory):

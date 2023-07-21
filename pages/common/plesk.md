@@ -1,6 +1,6 @@
 # plesk
 
-> Plesk hosting control panel CLI interface.
+> Plesk hosting control panel.
 > More information: <https://docs.plesk.com>.
 
 - Generate an auto login link for the admin user and print it:
