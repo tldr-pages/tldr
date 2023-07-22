@@ -1,16 +1,17 @@
 # typst
 
-> Compile a typst file to PDF.
+> Compile a Typst file to PDF.
+> Note: Specifying output location is optional.
 > More information: <https://github.com/typst/typst>.
 
 - List all discoverable fonts in the system and the given directory:
 
-`typst --font-path {{path/to/fontDir}} fonts`
+`typst --font-path {{path/to/fonts_directory}} fonts`
 
 - Compile a Typst file directly:
 
-`typst compile {{path/to/source.typ path/to/output.pdf}}`
+`typst compile {{path/to/source.typ}} {{path/to/output.pdf}}`
 
 - Watch changes on a Typst file and compile dynamically:
 
-`typst watch {{path/to/source.typ path/to/output.pdf}}`
+`typst watch {{path/to/source.typ}} {{path/to/output.pdf}}`
