@@ -27,7 +27,7 @@
 
 `systemd-mount --umount {{path/to/mount_point_or_device1}} {{path/to/mount_point_or_device2}}`
 
-- Mount a file system (image or block device) with specific file system type:
+- Mount a file system (image or block device) with a specific file system type:
 
 `systemd-mount --type={{file_system_type}} {{path/to/file_or_device}} {{path/to/mount_point}}`
 
