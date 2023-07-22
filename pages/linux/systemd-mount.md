@@ -11,10 +11,6 @@
 
 `systemd-mount {{path/to/file_or_device}} {{path/to/mount_point}}`
 
-- Unmount a specific mount point or device:
-
-`systemd-mount --umount {{path/to/mount_point_or_device}}`
-
 - Show a list of all local, known block devices with file systems that may be mounted:
 
 `systemd-mount --list`
