@@ -3,7 +3,7 @@
 > Establish and destroy transient mount or auto-mount points.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-mount.html>.
 
-- Mount a file system (image or block device) and automatically determine the mount point:
+- Mount a file system (image or block device) at `/run/media/system/LABEL` where LABEL is the filesystem label or the device name if there is no label:
 
 `systemd-mount {{path/to/file_or_device}}`
 
