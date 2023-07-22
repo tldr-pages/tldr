@@ -23,7 +23,7 @@
 
 `systemd-mount --automount=yes {{path/to/file_or_device}}`
 
-- Unmount multiple mount points or devices:
+- Unmount one or more devices:
 
 `systemd-mount --umount {{path/to/mount_point_or_device1}} {{path/to/mount_point_or_device2}}`
 
