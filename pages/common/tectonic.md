@@ -5,11 +5,11 @@
 
 - Compile a standalone TeX/LaTeX file:
 
-`tectonic -X compile {{file.tex}}`
+`tectonic -X compile {{path/to/file.tex}}`
 
 - Compile standalone with synctex data:
 
-`tectonic -X compile --synctex {{file.tex}}`
+`tectonic -X compile --synctex {{path/to/file.tex}}`
 
 - Initialize a tectonic project in the current directory:
 
