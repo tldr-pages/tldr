@@ -7,7 +7,7 @@
 
 `mmcli --list-modems`
 
-- Print device information about a modem:
+- Print information about a modem:
 
 `mmcli --modem={{modem}}`
 
