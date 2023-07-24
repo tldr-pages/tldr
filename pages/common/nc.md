@@ -5,7 +5,7 @@
 
 - Start a listener on the specified TCP port and send a file into it:
 
-`nc -l -p {{port}} < {{sent_file_name}}`
+`nc -l -p {{port}} < {{filename}}`
 
 - Connect to a target listener on the specified port and receive a file from it:
 
