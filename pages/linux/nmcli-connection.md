@@ -1,6 +1,6 @@
 # nmcli connection
 
-> Connection management with NetworkManager.
+> Manage connections with NetworkManager.
 > This subcommand can also be called with `nmcli c`.
 > More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
@@ -8,7 +8,7 @@
 
 `nmcli connection`
 
-- Activate a connection by specifying a UUID:
+- Activate a connection:
 
 `nmcli connection up uuid {{uuid}}`
 
@@ -28,6 +28,6 @@
 
 `nmcli connection add ifname {{interface_name}} type {{ethernet}} ip4 {{10.0.0.7/8}} gw4 {{10.0.0.1}} ipv4.dns {{10.0.0.1}} ipv6.method {{ignore}}`
 
-- Create a VPN connection using OpenVPN from a OVPN file:
+- Create a VPN connection using OpenVPN from an OVPN file:
 
 `nmcli connection import type {{openvpn}} file {{path/to/vpn_config.ovpn}}`
