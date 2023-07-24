@@ -11,7 +11,7 @@
 
 `systemd-hwdb query {{modalias}}`
 
-- Update the binary hardware database, but return a non-zero exit value on any parsing error:
+- Update the binary hardware database, returning a non-zero exit value on any parsing error:
 
 `systemd-hwdb --strict update`
 
