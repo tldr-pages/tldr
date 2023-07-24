@@ -15,7 +15,7 @@
 
 `systemd-hwdb --strict update`
 
-- Update the binary hardware database, and generate it in /usr/lib/udev instead of /etc/udev:
+- Update the binary hardware database in `/usr/lib/udev`:
 
 `systemd-hwdb --usr update`
 
