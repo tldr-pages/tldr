@@ -1,7 +1,7 @@
 # tectonic
 
 > A modern, self-contained TeX/LaTeX engine.
-> More information: <https://github.com/tectonic-typesetting/tectonic>.
+> More information: <https://tectonic-typesetting.github.io/book/latest>.
 
 - Compile a standalone TeX/LaTeX file:
 
