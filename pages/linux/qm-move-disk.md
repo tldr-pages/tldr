@@ -1,12 +1,12 @@
-# qm move_disk Command
+# qm disk move
 
 > Move a virtual disk from one storage to another within the same Proxmox cluster.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- To move a virtual disk:
+- Move a virtual disk:
 
-`qm move_disk {{id}} {{destination}} {{index}}`
+`qm disk move {{vm_id}} {{destination}} {{index}}`
 
-- To delete the previous copy of virtual disk:
+- Delete the previous copy of the virtual disk:
 
-`qm move_disk -delete {{id}} {{destination}} {{index}}`
+`qm disk move -delete {{vm_id}} {{destination}} {{index}}`
