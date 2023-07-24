@@ -19,6 +19,6 @@
 
 `systemd-hwdb --usr update`
 
-- Update the binary hardware database, specifying an alternate root path in the filesystem:
+- Update the binary hardware database in the specified root path:
 
 `systemd-hwdb --root={{path/to/root}} update`
