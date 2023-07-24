@@ -9,7 +9,7 @@
 
 - Connect to a target listener on the specified port and receive a file from it:
 
-`nc {{host}} {{port}} > {{received_file_name}}`
+`nc {{host}} {{port}} > {{received_filename}}`
 
 - Scan the open TCP ports of a specified host:
 
