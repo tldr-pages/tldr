@@ -23,6 +23,6 @@
 
 `echo -e "{{Column 1\tColumn 2}}"`
 
-- Print success or failure message of a recently executed command:
+- Print success or failure message of the last executed command:
 
 `echo $?`
