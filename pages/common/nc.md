@@ -19,7 +19,7 @@
 
 `nc -l -p {{port}} -e {{shell_executable}}`
 
-- Connect to a target listener and provide your local shell access to the remote party (that is dangerous if abused):
+- Connect to a target listener and provide your local shell access to the remote party (this is dangerous and can be abused):
 
 `nc {{host}} {{port}} -e {{shell_executable}}`
 
