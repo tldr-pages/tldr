@@ -17,7 +17,7 @@
 
 - Compara el rendimiento de escritura de un disco:
 
-`dd if=/dev/zero of={ruta/para/archivo_1GB}} bs={{1024}} count={{1000000}}`.
+`dd if=/dev/zero of={ruta/para/archivo_1GB}} bs={{1024}} count={{1000000}}`
 
 - Genera una copia de seguridad del sistema en un archivo IMG y muestra el progreso:
 
