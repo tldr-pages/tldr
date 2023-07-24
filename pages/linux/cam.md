@@ -1,6 +1,6 @@
 # cam
 
-> Frontend tool for libcamera.
+> Frontend tool for `libcamera`.
 > More information: <https://libcamera.org/docs.html>.
 
 - List available cameras:
