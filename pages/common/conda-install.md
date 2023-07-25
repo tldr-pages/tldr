@@ -5,32 +5,32 @@
 
 - Install a single package into the currently active conda environment:
 
-`conda install {{package_name}}`
+`conda install {{package}}`
 
 - Install a single package into the currently active conda environment using channel conda-forge:
 
-`conda install -c conda-forge {{package_name}}`
+`conda install -c conda-forge {{package}}`
 
 - Install a single package into the currently active conda environment using channel conda-forge and ignoring other channels:
 
-`conda install -c conda-forge --override-channels {{package_name}}`
+`conda install -c conda-forge --override-channels {{package}}`
 
 - Install multiple packages:
 
-`conda install {{package_name1}} {{package_name2}}`
+`conda install {{package1 package2 ...}}`
 
 - Install a specific version of a package:
 
-`conda install {{package_name}}={{version}}`
+`conda install {{package}}={{version}}`
 
 - Install a package into a specific environment:
 
-`conda install --name {{environment_name}} {{package_name}}`
+`conda install --name {{environment}} {{package}}`
 
 - Update a package in the current environment:
 
-`conda install --upgrade {{package_name}}`
+`conda install --upgrade {{package}}`
 
 - Install a package and agree to the transactions without prompting:
 
-`conda install --yes {{package_name}}`
+`conda install --yes {{package}}`
