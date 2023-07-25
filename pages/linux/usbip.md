@@ -15,7 +15,7 @@
 
 `sudo usbip bind --busid={{bus_id}}`
 
-- Load the kernel module required by usbip on the client:
+- Load the kernel module required by `usbip` on the client:
 
 `sudo modprobe vhci-hcd`
 
