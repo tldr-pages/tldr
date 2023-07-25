@@ -11,7 +11,7 @@
 
 `systemctl start usbipd`
 
-- Bind an USB device to usbip on the server:
+- Bind a USB device to `usbip` on the server:
 
 `sudo usbip bind --busid={{bus_id}}`
 
