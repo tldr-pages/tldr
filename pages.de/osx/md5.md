@@ -5,15 +5,15 @@
 
 - Berechne die MD5-Prüfsumme einer Datei und gib sie mit Dateinamen auf der Konsole aus:
 
-`md5 {{datei_name}}`
+`md5 {{pfad/zu/datei}}`
 
 - Berechne die MD5-Prüfsumme mehrerer Dateien und gib sie mit Dateinamen auf der Konsole aus:
 
-`md5 {{datei_name_1}} {{datei_name_2}}`
+`md5 {{pfad/zu/datei1 pfad/zu/datei2 ...}}`
 
 - Gib nur die MD5-Prüfsumme auf der Konsole aus:
 
-`md5 -q {{datei_name}}`
+`md5 -q {{pfad/zu/datei}}`
 
 - Berechne die MD5-Prüfsumme für den gegebenen Text:
 
