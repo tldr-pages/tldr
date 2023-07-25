@@ -23,6 +23,6 @@
 
 `echo -e "{{Column 1\tColumn 2}}"`
 
-- Print the exit status of the last executed command (Note: In Windows Command Prompt and Powershell the equivalent commands are `echo %errorlevel%` and `$LASTEXITCODE` respectively):
+- Print the exit status of the last executed command (Note: In Windows Command Prompt and PowerShell the equivalent commands are `echo %errorlevel%` and `$lastexitcode` respectively):
 
 `echo $?`
