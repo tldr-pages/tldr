@@ -1,36 +1,36 @@
 # lando
 
-> Local development environment and DevOps tool built on Docker
+> Local development environment and DevOps tool built on Docker.
 > More information: <https://docs.lando.dev/cli/>.
 
-- Initializes code for use with lando
+- Initialize code for use with lando:
 
 `lando init`
 
-- Prints info about your app
+- Print info about your app:
 
 `lando info`
 
-- Starts your app
+- Start your app:
 
 `lando start`
 
-- Stops your app
+- Stop your app:
 
 `lando stop`
 
-- Restarts your app
+- Restart your app:
 
 `lando restart`
 
-- Rebuilds your app from scratch, preserving data
+- Rebuild your app from scratch, preserving data:
 
 `lando rebuild`
 
-- Displays logs for your app
+- Display logs for your app:
 
 `lando logs`
 
-- Destroys your app
+- Destroy your app:
 
 `lando destroy`
