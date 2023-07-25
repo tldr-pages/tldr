@@ -7,7 +7,7 @@
 
 `tectonic -X compile {{path/to/file.tex}}`
 
-- Compile standalone with synctex data:
+- Compile a standalone TeX/LaTeX file with synctex data:
 
 `tectonic -X compile --synctex {{path/to/file.tex}}`
 
@@ -15,11 +15,11 @@
 
 `tectonic -X init`
 
-- Create a tectonic project in the specified directory:
+- Initialize a tectonic project in the specified directory:
 
 `tectonic -X new {{project_name}}`
 
-- Build the existing project in the current directory:
+- Build the project in the current directory:
 
 `tectonic -X build`
 
