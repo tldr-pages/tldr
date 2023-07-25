@@ -19,7 +19,7 @@
 
 `sudo modprobe vhci-hcd`
 
-- Attach to the usbip device on the client (bus ID is the same as on the server):
+- Attach to the `usbip` device on the client (bus ID is the same as on the server):
 
 `sudo usbip attach -r {{ip_address}} --busid={{bus_id}}`
 
