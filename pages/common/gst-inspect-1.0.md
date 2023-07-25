@@ -5,7 +5,7 @@
 
 - Print information on a plugin:
 
-`gst-inspect-1.0 {{plugin_name}}`
+`gst-inspect-1.0 {{plugin}}`
 
 - List hardware transcoding capabilities of your device:
 
