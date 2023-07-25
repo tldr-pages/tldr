@@ -13,16 +13,16 @@
 
 - Lösche einen bestimmten Benutzerpool:
 
-`aws cognito-idp delete-user-pool --user-pool-id {{user_pool_id}}`
+`aws cognito-idp delete-user-pool --user-pool-id {{benutzerpool_id}}`
 
 - Erstelle einen Benutzer in einem bestimmten Pool:
 
-`aws cognito-idp admin-create-user --username {{username}} --user-pool-id {{user_pool_id}}`
+`aws cognito-idp admin-create-user --username {{benutzer}} --user-pool-id {{benutzerpool_id}}`
 
 - Liste die Benutzer eines bestimmten Pool auf:
 
-`aws cognito-idp list-users --user-pool-id {{user_pool_id}}`
+`aws cognito-idp list-users --user-pool-id {{benutzerpool_id}}`
 
 - Lösche einen  Benutzer aus einem bestimmten Pool:
 
-`aws cognito-idp admin-delete-user --username {{username}} --user-pool-id {{user_pool_id}}`
+`aws cognito-idp admin-delete-user --username {{benutzer}} --user-pool-id {{benutzerpool_id}}`
