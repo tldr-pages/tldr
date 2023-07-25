@@ -7,7 +7,7 @@
 
 `usbip list --local`
 
-- Start a usbip daemon on the server:
+- Start a `usbip` daemon on the server:
 
 `systemctl start usbipd`
 
