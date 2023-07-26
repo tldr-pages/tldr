@@ -15,6 +15,6 @@
 
 `wpctl set-default {{id}}`
 
-- Print the help page:
+- Display help:
 
 `wpctl`
