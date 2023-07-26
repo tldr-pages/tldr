@@ -1,10 +1,10 @@
 # ooniprobe
 
-> Open Observatory of Network Interference.
+> Open Observatory of Network Interference (OONI).
 > Test the blocking of websites and apps. Measure the speed and performance of your network.
-> More information: <https://ooni.org/>.
+> More information: <https://ooni.org/support/ooni-probe-cli/>.
 
-- List of all tests performed:
+- List all tests performed:
 
 `ooniprobe list`
 
@@ -26,7 +26,7 @@
 
 - Check the availability of all websites listed in a file:
 
-`ooniprobe run websites --input-file {{my-websites.txt}}`
+`ooniprobe run websites --input-file {{path/to/my-websites.txt}}`
 
 - Display detailed information about a test in JSON format:
 
