@@ -13,4 +13,4 @@
 
 - Incluir nombres unicode en la salida:
 
-`--include-unicode-names`
+`ftxdiff --include-unicode-names`
