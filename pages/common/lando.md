@@ -3,7 +3,7 @@
 > Local development environment and DevOps tool built on Docker.
 > More information: <https://docs.lando.dev/cli/>.
 
-- Initialize code for use with lando:
+- Initialize code for use with `lando`:
 
 `lando init`
 
