@@ -5,7 +5,7 @@
 
 - Crea una unidad USB de arranque desde un archivo isohybrid (como `archlinux-xxx.iso`) y muestra el progreso:
 
-`dd if={ruta/al/archivo.iso}} of={{/dev/dispositivo_usb}} status=progress`
+`dd if={{ruta/al/archivo.iso}} of={{/dev/dispositivo_usb}} status=progress`
 
 - Clona una unidad a otra unidad con un bloque de 4 MB, ignora el error y muestra el progreso:
 
