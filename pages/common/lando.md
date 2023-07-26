@@ -7,7 +7,7 @@
 
 `lando init`
 
-- Print info about your app:
+- Print information about your app:
 
 `lando info`
 
