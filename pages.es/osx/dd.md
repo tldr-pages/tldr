@@ -9,7 +9,7 @@
 
 - Clona una unidad a otra unidad con un bloque de 4 MB, ignora el error y muestra el progreso:
 
-`dd if={/dev/dispositivo_de origen}} of={{/dev/dispositivo_de destino}} bs={{4m}} conv={{noerror}} status=progress`
+`dd if={{/dev/dispositivo_de origen}} of={{/dev/dispositivo_de destino}} bs={{4m}} conv={{noerror}} status=progress`
 
 - Genera un fichero de 100 bytes aleatorios utilizando el controlador aleatorio del kernel:
 
