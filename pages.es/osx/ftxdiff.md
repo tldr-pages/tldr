@@ -9,8 +9,8 @@
 
 - Incluir nombres de glifos en la salida:
 
-`ftxdiff --include-nombres-de-glifos`
+`fftxdiff --include-glyph-names`
 
 - Incluir nombres unicode en la salida:
 
-`ftxdiff --include-nombres-unicode`
+`--include-unicode-names`
