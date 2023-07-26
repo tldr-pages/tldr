@@ -7,7 +7,7 @@
 
 `wpctl status`
 
-- Print all of the properties of an object:
+- Print all the properties of an object:
 
 `wpctl inspect {{id}}`
 
