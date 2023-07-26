@@ -7,7 +7,7 @@
 
 `ninja`
 
-- Build in the current directory, with 4 parallel jobs at max:
+- Build in the current directory, executing 4 jobs at a time in parallel:
 
 `ninja -j {{4}}`
 
