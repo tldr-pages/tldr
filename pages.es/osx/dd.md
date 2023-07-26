@@ -25,7 +25,7 @@
 
 - Restaura una unidad desde un archivo IMG y muestra el progreso:
 
-`dd if={ruta/al/archivo.img}} of={/dev/unidad_dispositivo}} status=progress`
+`dd if={{ruta/al/archivo.img}} of={{/dev/unidad_dispositivo}} status=progress`
 
 - Comprueba el progreso de una operación dd en curso (ejecuta este comando desde otro shell):
 
