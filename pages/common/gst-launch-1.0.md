@@ -1,6 +1,6 @@
 # gst-launch-1.0
 
-> Create gstreamer pipelines on the command line.
+> Build and run a GStreamer pipeline.
 > More information: <https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html?gi-language=c>.
 
 - Play test video in a window:
