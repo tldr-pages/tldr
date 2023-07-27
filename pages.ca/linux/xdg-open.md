@@ -3,7 +3,7 @@
 > Obre un arxiu o URL en l'aplicació predeterminada del usuari.
 > Més informació: <https://portland.freedesktop.org/doc/xdg-open.html>.
 
-- Obre el directori actual en l'explorador d'arxius predeterminat::
+- Obre el directori actual en l'explorador d'arxius predeterminat:
 
 `xdg-open .`
 
