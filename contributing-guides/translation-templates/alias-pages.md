@@ -41,7 +41,9 @@ The templates can be changed when necessary.
 [uz](#uz) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
+
 ---
+
 ### en
 
 ```markdown
@@ -55,6 +57,7 @@ The templates can be changed when necessary.
 ```
 
 ---
+
 ### ar
 
 ```markdown
@@ -68,11 +71,13 @@ The templates can be changed when necessary.
 ```
 
 ---
+
 ### bn
 
 Not translated yet.
 
 ---
+
 ### bs
 
 ```markdown
@@ -86,6 +91,7 @@ Not translated yet.
 ```
 
 ---
+
 ### ca
 
 ```markdown
@@ -99,6 +105,7 @@ Not translated yet.
 ```
 
 ---
+
 ### da
 
 ```markdown
@@ -112,6 +119,7 @@ Not translated yet.
 ```
 
 ---
+
 ### de
 
 ```markdown
@@ -125,6 +133,7 @@ Not translated yet.
 ```
 
 ---
+
 ### es
 
 ```markdown
@@ -138,11 +147,21 @@ Not translated yet.
 ```
 
 ---
+
 ### fa
 
-Not translated yet.
+```markdown
+# example
+
+> این دستور یک نام مستعار از `example` است.
+
+- مشاهده مستندات دستور اصلی
+
+`tldr example`
+```
 
 ---
+
 ### fr
 
 ```markdown
@@ -156,6 +175,7 @@ Not translated yet.
 ```
 
 ---
+
 ### hi
 
 ```markdown
@@ -169,6 +189,7 @@ Not translated yet.
 ```
 
 ---
+
 ### id
 
 ```markdown
@@ -182,6 +203,7 @@ Not translated yet.
 ```
 
 ---
+
 ### it
 
 ```markdown
@@ -195,6 +217,7 @@ Not translated yet.
 ```
 
 ---
+
 ### ja
 
 ```markdown
@@ -208,6 +231,7 @@ Not translated yet.
 ```
 
 ---
+
 ### ko
 
 ```markdown
@@ -221,6 +245,7 @@ Not translated yet.
 ```
 
 ---
+
 ### lo
 
 ```markdown
@@ -234,6 +259,7 @@ Not translated yet.
 ```
 
 ---
+
 ### ml
 
 ```markdown
@@ -247,6 +273,7 @@ Not translated yet.
 ```
 
 ---
+
 ### ne
 
 ```markdown
@@ -260,6 +287,7 @@ Not translated yet.
 ```
 
 ---
+
 ### nl
 
 ```markdown
@@ -273,6 +301,7 @@ Not translated yet.
 ```
 
 ---
+
 ### no
 
 ```markdown
@@ -286,6 +315,7 @@ Not translated yet.
 ```
 
 ---
+
 ### pl
 
 ```markdown
@@ -299,6 +329,7 @@ Not translated yet.
 ```
 
 ---
+
 ### pt_BR
 
 ```markdown
@@ -312,6 +343,7 @@ Not translated yet.
 ```
 
 ---
+
 ### pt_PT
 
 ```markdown
@@ -325,11 +357,13 @@ Not translated yet.
 ```
 
 ---
+
 ### ro
 
 Not translated yet.
 
 ---
+
 ### ru
 
 ```markdown
@@ -343,16 +377,19 @@ Not translated yet.
 ```
 
 ---
+
 ### sh
 
 Not translated yet.
 
 ---
+
 ### sr
 
 Not translated yet.
 
 ---
+
 ### sv
 
 ```markdown
@@ -366,6 +403,7 @@ Not translated yet.
 ```
 
 ---
+
 ### ta
 
 ```markdown
@@ -379,6 +417,7 @@ Not translated yet.
 ```
 
 ---
+
 ### th
 
 ```markdown
@@ -392,6 +431,7 @@ Not translated yet.
 ```
 
 ---
+
 ### tr
 
 ```markdown
@@ -405,6 +445,7 @@ Not translated yet.
 ```
 
 ---
+
 ### uk
 
 ```markdown
@@ -418,11 +459,13 @@ Not translated yet.
 ```
 
 ---
+
 ### uz
 
 Not translated yet.
 
 ---
+
 ### zh
 
 ```markdown
@@ -436,6 +479,7 @@ Not translated yet.
 ```
 
 ---
+
 ### zh_TW
 
 ```markdown

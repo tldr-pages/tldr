@@ -42,6 +42,7 @@ This file contains the translation templates of this notice.
 [zh_TW](#zh_tw)
 
 ---
+
 ### en
 
 ```markdown
@@ -49,6 +50,7 @@ Some subcommands such as `example command` have their own usage documentation.
 ```
 
 ---
+
 ### ar
 
 ```markdown
@@ -56,16 +58,19 @@ Some subcommands such as `example command` have their own usage documentation.
 ```
 
 ---
+
 ### bn
 
 Not translated yet.
 
 ---
+
 ### bs
 
 Not translated yet.
 
 ---
+
 ### ca
 
 ```markdown
@@ -73,13 +78,15 @@ Alguns subcomandaments com `example command` tenen la seva pròpia documentació
 ```
 
 ---
+
 ### da
 
 ```markdown
-Visse underkommandoer såsom `example command` har sin egen dokumentation. 
+Visse underkommandoer såsom `example command` har sin egen dokumentation.
 ```
 
 ---
+
 ### de
 
 ```markdown
@@ -87,6 +94,7 @@ Manche Unterbefehle wie `example command` sind separat dokumentiert.
 ```
 
 ---
+
 ### es
 
 ```markdown
@@ -94,11 +102,15 @@ Algunos subcomandos, como `example command`, tienen su propia documentación de 
 ```
 
 ---
+
 ### fa
 
-Not translated yet.
+```markdown
+برخی از دستورات فرعی مانند `example command` سند استفاده خاص خودشون رو دارند.
+```
 
 ---
+
 ### fr
 
 ```markdown
@@ -106,6 +118,7 @@ Certaines sous-commandes comme `example command` ont leur propre documentation.
 ```
 
 ---
+
 ### hi
 
 ```markdown
@@ -113,6 +126,7 @@ Certaines sous-commandes comme `example command` ont leur propre documentation.
 ```
 
 ---
+
 ### id
 
 ```markdown
@@ -120,6 +134,7 @@ Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `examp
 ```
 
 ---
+
 ### it
 
 ```markdown
@@ -127,6 +142,7 @@ Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazio
 ```
 
 ---
+
 ### ja
 
 ```markdown
@@ -134,21 +150,25 @@ Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazio
 ```
 
 ---
+
 ### ko
 
 Not translated yet.
 
 ---
+
 ### lo
 
 Not translated yet.
 
 ---
+
 ### ml
 
 Not translated yet.
 
 ---
+
 ### ne
 
 ```markdown
@@ -156,6 +176,7 @@ Not translated yet.
 ```
 
 ---
+
 ### nl
 
 ```markdown
@@ -163,16 +184,19 @@ Sommige subcommando's zoals `example command` hebben een eigen documentatie pagi
 ```
 
 ---
+
 ### no
 
 Not translated yet.
 
 ---
+
 ### pl
 
 Not translated yet.
 
 ---
+
 ### pt_BR
 
 ```markdown
@@ -180,6 +204,7 @@ Alguns subcomandos como `example command` tem sua própia documentação de uso.
 ```
 
 ---
+
 ### pt_PT
 
 ```markdown
@@ -187,11 +212,13 @@ Alguns subcomandos, como `example command`, tem a sua própria documentação de
 ```
 
 ---
+
 ### ro
 
 Not translated yet.
 
 ---
+
 ### ru
 
 ```markdown
@@ -199,24 +226,27 @@ Not translated yet.
 ```
 
 ---
+
 ### sh
 
 Not translated yet.
 
 ---
+
 ### sr
 
 Not translated yet.
 
 ---
+
 ### sv
 
 ```markdown
 En del underkommandon som t.ex: `example command` har sin egen användningsdokumentation.
 ```
 
-
 ---
+
 ### ta
 
 ```markdown
@@ -224,11 +254,13 @@ En del underkommandon som t.ex: `example command` har sin egen användningsdokum
 ```
 
 ---
+
 ### th
 
 Not translated yet.
 
 ---
+
 ### tr
 
 ```markdown
@@ -236,6 +268,7 @@ Not translated yet.
 ```
 
 ---
+
 ### uk
 
 ```markdown
@@ -243,11 +276,13 @@ Not translated yet.
 ```
 
 ---
+
 ### uz
 
 Not translated yet.
 
 ---
+
 ### zh
 
 ```markdown
@@ -255,6 +290,7 @@ Not translated yet.
 ```
 
 ---
+
 ### zh_TW
 
 ```markdown
