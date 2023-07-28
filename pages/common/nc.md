@@ -1,36 +1,32 @@
 # nc
 
-> A versatile utility for working with TCP or UDP data.
+> Netcat is a versatile utility for redirecting IO into a network stream.
 > More information: <https://manned.org/man/nc.1>.
 
-- Establish a TCP connection:
+- Start a listener on the specified TCP port and send a file into it:
 
-`nc {{ip_address}} {{port}}`
+`nc -l -p {{port}} < {{filename}}`
 
-- Set a timeout:
+- Connect to a target listener on the specified port and receive a file from it:
 
-`nc -w {{timeout_in_seconds}} {{ipaddress}} {{port}}`
+`nc {{host}} {{port}} > {{received_filename}}`
 
 - Scan the open TCP ports of a specified host:
 
-`nc -v -z {{ip_address}} {{port}}`
+`nc -v -z -w {{timeout_in_seconds}} {{host}} {{start_port}}-{{end_port}}`
 
-- Listen on a specified TCP port and print any data received:
+- Start a listener on the specified TCP port and provide your local shell access to the connected party (this is dangerous and can be abused):
 
-`nc -l {{port}}`
+`nc -l -p {{port}} -e {{shell_executable}}`
 
-- Keep the server up after the client detaches:
+- Connect to a target listener and provide your local shell access to the remote party (this is dangerous and can be abused):
 
-`nc -k -l {{port}}`
-
-- Listen on a specified UDP port and print connection details and any data received:
-
-`nc -u -l {{port}}`
+`nc {{host}} {{port}} -e {{shell_executable}}`
 
 - Act as a proxy and forward data from a local TCP port to the given remote host:
 
-`nc -l {{local_port}} | nc {{hostname}} {{remote_port}}`
+`nc -l -p {{local_port}} | nc {{host}} {{remote_port}}`
 
 - Send an HTTP GET request:
 
-`echo -e "GET / HTTP/1.1\nHost: {{hostname}}\n\n" | nc {{hostname}} 80`
+`echo -e "GET / HTTP/1.1\nHost: {{host}}\n\n" | nc {{host}} 80`
