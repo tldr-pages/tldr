@@ -19,6 +19,6 @@
 
 `ifconfig eth0 up`
 
-- اختصاص ادرس ای پی به رابط eth0 :
+- اختصاص آدرس ای پی به رابط eth0 :
 
-`ifconfig eth0 {{ip_address}}`
+`ifconfig eth0 {{آدرس_ای_پی}}`

@@ -27,6 +27,6 @@
 
 `diff --recursive --brief {{پوشه_قدیمی}} {{پوشه_جدید}}`
 
-- Create a patch file for Git from the differences of two text files, treating nonexistent files as empty:
+- از تفاوت دو فایل متنی یک بروزرسانی میسازد، فایل های ناموجود را خالی فرض میکند :
 
-`diff --text --unified --new-file {{فایل قدیمی}} {{فایل_جدید}} > {{diff.patch}}`
+`diff --text --unified --new-file {{فایل قدیمی}} {{فایل_جدید}} > {{تفاوت.patch}}`

@@ -21,8 +21,8 @@
 
 - یک پشتیبان از سیستم را در یک فایل IMG میسازد :
 
-`dd if={{/dev/drive_device}} of={{path/to/file.img}}`
+`dd if={{/dev/drive_device}} of={{مسیر/به/فایل.img}}`
 
 - یک درایو را از یک فایل IMG بازیابی کنید:
 
-`dd if={{path/to/file.img}} of={{/dev/drive_device}}`
+`dd if={{مسیر/به/فایل.img}} of={{/dev/drive_device}}`
