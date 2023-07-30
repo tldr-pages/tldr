@@ -14,7 +14,7 @@
 
 - Authenticate using the specified username on the specified database (you will be prompted for a password):
 
-`mongosh --host {{host}} --port {{port}} --username {{username}} --authenticationDatabase {{authdb_name}} {{db_name}}`
+`mongo --host {{host}} --port {{port}} --username {{username}} --authenticationDatabase {{authdb_name}} {{db_name}}`
 
 - Evaluate a JavaScript expression on a database:
 

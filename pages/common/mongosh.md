@@ -18,4 +18,4 @@
 
 - Evaluate a JavaScript expression on a database:
 
-`mongo --eval '{{JSON.stringify(db.foo.findOne())}}' {{db_name}}`
+`mongosh --eval '{{JSON.stringify(db.foo.findOne())}}' {{db_name}}`
