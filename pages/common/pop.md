@@ -1,0 +1,16 @@
+# pop
+
+> Send emails from your terminal.
+> More information: <https://github.com/charmbracelet/pop>.
+
+- Launch the Text-based User Interface:
+
+`pop`
+
+- Send email with file content as body:
+
+`pop < {{path/to/file}} --from "me@example.com" --to "you@example.com" --subject "On the Subject of Ducks..." --attach invoice.pdf`
+
+- Display help and exit:
+
+`pop --help`
