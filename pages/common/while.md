@@ -1,7 +1,7 @@
 # while
 
-> Simple shell loop.
-> More information: <https://manned.org/while>.
+> Bash builtin construct for creating menus.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-while>.
 
 - Read `stdin` and perform an action on every line:
 
