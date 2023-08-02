@@ -1,6 +1,6 @@
 # while
 
-> Bash builtin construct for creating menus.
+> Bash builtin construct for creating conditional loops.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-while>.
 
 - Read `stdin` and perform an action on every line:
