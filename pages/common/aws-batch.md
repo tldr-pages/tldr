@@ -26,4 +26,3 @@
 - Cancel job:
 
 `aws batch cancel-job --job-id {{job_id}} --reason {{reason}}`
-
