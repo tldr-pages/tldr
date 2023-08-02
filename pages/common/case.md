@@ -1,7 +1,7 @@
 # case
 
-> Branch based on the value of an expression.
-> More information: <https://manned.org/case>.
+> Bash builtin construct for creating multi-choice conditional statements.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-case>.
 
 - Match a variable against string literals to decide which command to run:
 
