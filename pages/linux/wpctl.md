@@ -3,7 +3,7 @@
 > Tool for managing WirePlumbler, a session and policy manager for PipeWire.
 > More information: <https://pipewire.pages.freedesktop.org/wireplumber/>.
 
-- List all of the objects managed by WirePlumber:
+- List all objects managed by WirePlumber:
 
 `wpctl status`
 
