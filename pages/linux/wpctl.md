@@ -15,6 +15,18 @@
 
 `wpctl set-default {{id}}`
 
-- Display help:
+- Get the volume of a sink:
 
-`wpctl`
+`wpctl get-volume {{id}}`
+
+- Set the volume of a sink to `n` percent:
+
+`wpctl set-volume {{id}} {{n}}%`
+
+- Increase/Decrease the volume of a sink by `n` percent:
+
+`wpctl set-volume {{id}} {{n}}%{{+|-}}`
+
+- Mute/Unmute a sink (1 is mute, 0 is unmute):
+
+`wpctl set-mute {{id}} {{1|0|toggle}}`
