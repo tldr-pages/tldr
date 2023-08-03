@@ -1,29 +1,32 @@
 # nmcli
 
 > Manage the network configuration using NetworkManager.
-> Some subcommands such as `nmcli monitor` have their own usage documentation.
 > More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
-- List all available wifi networks:
+- View documentation for running `nmcli` as a NetworkManager secret/polkit agent:
 
-`nmcli device wifi`
+`tldr nmcli agent`
 
-- Connect to a wifi network:
+- View documentation for managing network connections:
 
-`nmcli dev wifi connect {{SSID}}`
+`tldr nmcli connection`
 
-- Run an `nmcli` subcommand:
+- View documentation for managing network interfaces and establishing new Wi-Fi connections:
 
-`nmcli {{agent|connection|device|general|help|monitor|networking|radio}} {{command_options}}`
+`tldr nmcli device`
 
-- Display the current version of NetworkManager:
+- View documentation for managing general settings of NetworkManager:
 
-`nmcli --version`
+`tldr nmcli general`
 
-- Display help:
+- View documentation for NetworkManager's activity monitor:
 
-`nmcli --help`
+`tldr nmcli monitor`
 
-- Display help for a subcommand:
+- View documentation for enabling/disabling and checking the status of networking:
 
-`nmcli {{subcommand}} --help`
+`tldr nmcli networking`
+
+- View documentation for managing radio switches:
+
+`tldr nmcli radio`
