@@ -11,6 +11,6 @@
 
 `pydoc {{subject_name}}`
 
-- Start python HTML documentation and automatically open it in browser:
+- Start python HTML documentation and automatically open it in [b]rowser:
 
 `pydoc -b`
