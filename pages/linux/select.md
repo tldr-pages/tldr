@@ -11,6 +11,6 @@
 
 `select {{file}} in *; do echo ${{file}}; done`
 
-- Create a menu from a bash array:
+- Create a menu from a Bash array:
 
 `{{fruits}}=({{apple}} {{orange}} {{pear}} {{banana}}); select {{word}} in ${{{fruits}}[@]}; do echo ${{word}}; done`
