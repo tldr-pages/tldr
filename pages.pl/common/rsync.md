@@ -2,7 +2,7 @@
 
 > Przesyłaj pliki do lub ze zdalnego hosta (ale nie pomiędzy dwoma zdalnymi hostami).
 > Może przesyłać pojedyncze pliki lub wiele plików pasujących do wzorca.
-> Więcej informacji: <https://manned.org/rsync>.
+> Więcej informacji: <https://download.samba.org/pub/rsync/rsync.1>.
 
 - Prześlij plik z lokalnego do zdalnego hosta:
 

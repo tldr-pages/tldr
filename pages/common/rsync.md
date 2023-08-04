@@ -2,7 +2,7 @@
 
 > Transfer files either to or from a remote host (but not between two remote hosts), by default using SSH.
 > To specify a remote path, use `host:path/to/file_or_directory`.
-> More information: <https://manned.org/rsync>.
+> More information: <https://download.samba.org/pub/rsync/rsync.1>.
 
 - Transfer a file:
 
