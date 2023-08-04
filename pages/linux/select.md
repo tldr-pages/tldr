@@ -7,7 +7,7 @@
 
 `select {{word}} in {{apple}} {{orange}} {{pear}} {{banana}}; do echo ${{word}}; done`
 
-- Create a menu for picking a file from the current directory:
+- Create a menu for picking a file or folder from the current directory:
 
 `select {{file}} in *; do echo ${{file}}; done`
 
