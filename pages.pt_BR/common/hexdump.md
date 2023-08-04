@@ -15,6 +15,6 @@
 
 `hexdump -C -n{{numero_de_bytes}} {{caminho/para/arquivo}}`
 
-- Imprimir a representação hexadecimal de um arquivo, porém apresentando apenas seus n primeiros bytes:
+- Imprimir a representação hexadecimal completa de um arquivo (sem omitir linhas duplicadas):
 
 `hexdump --no-squeezing {{caminho/para/arquivo}}`
