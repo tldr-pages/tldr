@@ -1,6 +1,6 @@
 # todoist
 
-> Access Todoist from the command-line.
+> Access <https://todoist.com> from the command-line.
 > More information: <https://github.com/sachaos/todoist>.
 
 - Add a task:

@@ -1,11 +1,7 @@
 # emulator
 
-> Manager Android emulators from the command-line.
+> Manage Android emulators.
 > More information: <https://developer.android.com/studio/run/emulator-commandline>.
-
-- Display the help:
-
-`emulator -help`
 
 - Start an Android emulator device:
 
@@ -34,3 +30,7 @@
 - Start an emulator with a given SD card partition image file:
 
 `emulator -avd {{name}} -sdcard {{path/to/sdcard.img}}`
+
+- Display help:
+
+`emulator -help`

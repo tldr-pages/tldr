@@ -12,7 +12,7 @@
 
 `git reset {{dosya(ların)/konumu}}`
 
-- Bir dosyanın kısımlarını geri al::
+- Bir dosyanın kısımlarını geri al:
 
 `git reset -p {{dosya/konumu}}`
 

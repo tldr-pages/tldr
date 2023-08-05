@@ -1,6 +1,6 @@
 # firebase
 
-> Test, manage, and deploy Firebase projects from the command-line.
+> Test, manage, and deploy Firebase projects.
 > More information: <https://github.com/firebase/firebase-tools>.
 
 - Log in to <https://console.firebase.google.com>:

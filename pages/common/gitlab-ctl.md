@@ -1,6 +1,6 @@
 # gitlab-ctl
 
-> CLI tool for managing the GitLab omnibus.
+> Manage the GitLab omnibus.
 > More information: <https://docs.gitlab.com/omnibus/maintenance/>.
 
 - Display the status of every service:

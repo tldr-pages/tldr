@@ -1,6 +1,6 @@
 # glab repo
 
-> Work with GitLab repositories on the command-line.
+> Work with GitLab repositories.
 > More information: <https://glab.readthedocs.io/en/latest/repo/index.html#synopsis>.
 
 - Create a new repository (if the repository name is not set, the default name will be the name of the current directory):

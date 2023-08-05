@@ -4,6 +4,10 @@
 > Supervisorctl is the command-line client piece of the supervisor which provides a shell-like interface.
 > More information: <http://supervisord.org>.
 
+- Show the status of a process (or all processes if `process_name` is not specified):
+
+`supervisorctl status {{process_name}}`
+
 - Start/stop/restart a process:
 
 `supervisorctl {{start|stop|restart}} {{process_name}}`

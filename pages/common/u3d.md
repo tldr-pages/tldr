@@ -1,9 +1,9 @@
 # u3d
 
-> Set of tools to interact with Unity from command-line.
+> A set of tools to interact with Unity.
 > More information: <https://github.com/DragonBox/u3d>.
 
-- Open project from the current directory in correct Unity version:
+- Open the project in the current directory using the correct Unity version:
 
 `u3d`
 

@@ -1,6 +1,6 @@
 # gh auth
 
-> Authenticate with a GitHub host from the command-line.
+> Authenticate with a GitHub host.
 > More information: <https://cli.github.com/manual/gh_auth>.
 
 - Log in with interactive prompt:
