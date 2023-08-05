@@ -1,13 +1,13 @@
 # cargo clippy
 
-> Um conjunto de lints para identificar erros comuns e melhorar o seu código Rust.
+> Conjunto de validadores para identificar erros comuns e melhorar código em Rust.
 > Mais informações: <https://github.com/rust-lang/rust-clippy>.
 
 - Executar verificações no código no diretório atual:
 
 `cargo clippy`
 
-- Exigir que o `Cargo.lock` esteja atualizado:
+- Executar verificações garantindo que o `Cargo.lock` esteja atualizado:
 
 `cargo clippy --locked`
 
@@ -19,7 +19,7 @@
 
 `cargo clippy --package {{pacote}}`
 
-- Tratar avisos como erros:
+- Executar validações tratando avisos como erros:
 
 `cargo clippy -- --deny warnings`
 

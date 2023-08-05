@@ -1,6 +1,6 @@
 # cargo add
 
-> Adicionar dependências ao arquivo `Cargo.toml` de um projeto Rust.
+> Adiciona dependências ao arquivo `Cargo.toml` de um projeto Rust.
 > Mais informações: <https://doc.rust-lang.org/cargo/commands/cargo-add.html>.
 
 - Adicionar a versão mais recente de uma dependência ao projeto atual:

@@ -1,6 +1,6 @@
 # cargo rustc
 
-> Compilar um pacote Rust e passar opções extras para o compilador.
+> Compila um pacote Rust.
 > Mais informações: <https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>.
 
 - Compilar o pacote ou pacotes definidos pelo arquivo `Cargo.toml` no diretório de trabalho atual:
@@ -23,7 +23,7 @@
 
 `cargo rustc -- -C opt-level {{s|z}}`
 
-- Verificar se o seu pacote usa código inseguro (unsafe):
+- Verificar se o pacote usa código com padrões inseguros de acesso à memória:
 
 `cargo rustc --lib -- -D unsafe-code`
 

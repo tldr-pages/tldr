@@ -1,6 +1,6 @@
 # cargo build
 
-> Compilar um pacote local e todas as suas dependências.
+> Compila um projeto Rust em um pacote local incluindo todas as suas dependências.
 > Mais informações: <https://doc.rust-lang.org/cargo/commands/cargo-build.html>.
 
 - Compilar o pacote ou pacotes definidos pelo arquivo `Cargo.toml` no diretório local:
@@ -11,7 +11,7 @@
 
 `cargo build --release`
 
-- Exigir que o `Cargo.lock` esteja atualizado:
+- Compilar um pacote garantindo que o `Cargo.lock` esteja atualizado:
 
 `cargo build --locked`
 
