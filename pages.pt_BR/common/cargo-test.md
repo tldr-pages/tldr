@@ -15,7 +15,7 @@
 
 `cargo test --locked`
 
-- Testar os artefatos em modo de lançamento (release), com otimizações:
+- Testar os artefatos em modo de publicação (release), com otimizações:
 
 `cargo test --release`
 

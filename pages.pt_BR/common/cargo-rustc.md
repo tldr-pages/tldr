@@ -7,7 +7,7 @@
 
 `cargo rustc`
 
-- Compilar os artefatos em modo de lançamento (release), com otimizações:
+- Compilar os artefatos em modo de publicação (release), com otimizações:
 
 `cargo rustc --release`
 
@@ -19,7 +19,7 @@
 
 `cargo rustc -- -C opt-level {{1|2|3}}`
 
-- Compilar com otimização de tamanho (`z` também desativa a vetorização de loops):
+- Compilar com otimização de tamanho (`z` também desativa a vetorização de ciclos):
 
 `cargo rustc -- -C opt-level {{s|z}}`
 

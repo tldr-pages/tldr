@@ -7,7 +7,7 @@
 
 `cargo build`
 
-- Compilar os artefatos em modo de lançamento (release), com otimizações:
+- Compilar os artefatos em modo de publicação (release), com otimizações:
 
 `cargo build --release`
 
@@ -27,6 +27,6 @@
 
 `cargo build --bin {{nome}}`
 
-- Compilar apenas o teste específico:
+- Compilar apenas um teste específico:
 
 `cargo build --test {{nome_do_teste}}`
