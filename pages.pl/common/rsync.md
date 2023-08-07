@@ -1,37 +1,37 @@
 # rsync
 
-> Przesyłaj pliki do lub ze zdalnego hosta (ale nie pomiędzy dwoma zdalnymi hostami).
-> Może przesyłać pojedyncze pliki lub wiele plików pasujących do wzorca.
-> Więcej informacji: <https://manned.org/rsync>.
+> Przesyłaj pliki do lub ze zdalnego hosta (ale nie pomiędzy dwoma zdalnymi hostami), domyślnie używając SSH.
+> Aby wskazać na ścieżkę zdalną, użyj `host:ścieżka/do/pliku_lub_katalogu`.
+> Więcej informacji: <https://download.samba.org/pub/rsync/rsync.1>.
 
-- Prześlij plik z lokalnego do zdalnego hosta:
+- Prześlij plik:
 
-`rsync {{ścieżka/do/lokalnego_pliku}} {{zdalny_host}}:{{ścieżka/do/zdalnego_katalogu}}`
+`rsync {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
 
-- Prześlij plik ze zdalnego do lokalnego hosta:
+- Użyj trybu archiwum (rekursywnie kopiuj katalogi, kopiuj dowiązania symboliczne bez rozwiązywania i zachowaj uprawnienia, własność i czasy modyfikacji):
 
-`rsync {{zdalny_host}}:{{ścieżka/do/zdalnego_pliku}} {{ścieżka/do/lokalnego_katalogu}}`
+`rsync --archive {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
 
-- Prześlij plik w trybie [a]rchiwum (aby zachować atrybuty) i skompresowanym ([z]ip) wyświetlając szczegółowy ([v]erbose) i czytelny dla człowieka ([h]uman-readable) [P]ostęp:
+- Kompresuj dane podczas gdy są wysyłane do miejsca docelowego, wyświetlaj szczegółowy i czytelny dla człowieka postęp i zachowaj częściowo przesłane pliki w przypadku przerwania:
 
-`rsync -azvhP {{ścieżka/do/lokalnego_pliku}} {{zdalny_host}}:{{ścieżka/do/zdalnego_katalogu}}`
+`rsync --compress --verbose --human-readable --partial --progress {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
 
-- Prześlij katalog i jego zawartość ze zdalnego do lokalnego hosta:
+- Rekursywnie kopiuj katalogi:
 
-`rsync -r {{zdalny_host}}:{{ścieżka/do/zdalnego_katalogu}} {{ścieżka/do/lokalnego_katalogu}}`
+`rsync --recursive {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
 
-- Prześlij zawartość katalogu (ale nie sam katalog) ze zdalnego do lokalnego hosta:
+- Prześlij zawartość katalogu, ale nie sam katalog:
 
-`rsync -r {{zdalny_host}}:{{ścieżka/do/zdalnego_katalogu}}/ {{ścieżka/do/lokalnego_katalogu}}`
+`rsync --recursive {{ścieżka/do/źródła}}/ {{ścieżka/do/miejsca_docelowego}}`
 
-- Prześlij katalog [r]ekursywnie, w trybie [a]rchiwum (aby zachować atrybuty), rozwiązując zawarte dowiązania symbo[L]iczne, i ignorując już przesłane pliki o ile nie są nowsze ([u]nless):
+- Rekursywnie kopiuj katalogi, użyj trybu archiwum, rozwiąż dowiązania symboliczne i pomiń pliki, które są nowsze w miejscu docelowym:
 
-`rsync -rauL {{zdalny_host}}:{{ścieżka/do/zdalnego_katalogu}} {{ścieżka/do/lokalnego_katalogu}}`
+`rsync --recursive --archive --update --copy-links {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
 
-- Prześlij plik poprzez SSH i usuń pliki na zdalnym hoście, które nie istnieją na lokalnym:
+- Prześlij katalog do zdalnego hosta, na którym działa `rsyncd` i usuń pliki w miejscu docelowym które nie istnieją w źródle:
 
-`rsync -e ssh --delete {{zdalny_host}}:{{ścieżka/do/zdalnego_pliku}} {{ścieżka/do/lokalnego_pliku}}`
+`rsync --recursive --delete rsync://{{host}}:{{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
 
-- Prześlij pliki poprzez SSH używając innego portu niż domyślny i wyświetlaj globalny postęp:
+- Prześlij plik poprzez SSH używając innego portu niż domyślny (22) i wyświetlaj globalny postęp:
 
-`rsync -e 'ssh -p {{port}}' --info=progress2 {{zdalny_host}}:{{ścieżka/do/zdalnego_pliku}} {{ścieżka/do/lokalnego_pliku}}`
+`rsync --rsh 'ssh -p {{port}}' --info=progress2 {{host}}:{{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
