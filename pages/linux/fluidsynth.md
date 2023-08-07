@@ -5,4 +5,4 @@
 
 - Play a midi file:
 
-`fluidsynth --audio-driver={{pipewire|pulseaudio}} {{path/to/soundfont}}.sf2 {{path/to/midi}}.midi`
+`fluidsynth --audio-driver={{pipewire|pulseaudio}} {{path/to/soundfont}}.sf2 {{path/to/file}}.midi`
