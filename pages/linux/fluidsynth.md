@@ -1,7 +1,7 @@
 # fluidsynth
 
 > Synthesize audio from midi files.
-> More information: <https://www.fluidsynth.org/documentation/>.
+> More information: <https://github.com/FluidSynth/fluidsynth/wiki/UserManual>.
 
 - Play a midi file:
 
