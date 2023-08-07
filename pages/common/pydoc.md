@@ -7,7 +7,7 @@
 
 `pydoc {{subject_name}}`
 
-- Start Python HTML documentation and automatically open it in [b]rowser:
+- Start an HTTP server on an arbitrary unused port and open a [b]rowser to see the documentation:
 
 `pydoc -b`
 
