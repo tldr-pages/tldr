@@ -1,7 +1,7 @@
 # dhcpig
 
 > Initiates an advanced DHCP exhaustion attack and stress test.
-> DHCPig need to be run with root privileges.
+> DHCPig needs to be run with root privileges.
 > More information: <https://github.com/kamorin/DHCPig>.
 
 - Exhaust all of the available DHCP addresses using the specified interface:
@@ -28,6 +28,6 @@
 
 `sudo pig.py -c --verbosity=100 --neighbors-scan-arp {{eth1}}`
 
-- Enable printing lease information,attempt to scan and release all neighbor IP addresses:
+- Enable printing lease information, attempt to scan and release all neighbor IP addresses:
 
 `sudo ./pig.py --neighbors-scan-arp -r --show-options {{eth1}}`
