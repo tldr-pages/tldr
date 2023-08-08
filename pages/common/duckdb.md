@@ -9,23 +9,27 @@
 
 - Start an interactive shell on a database file. If the file does not exist, a new database is created:
 
-`duckdb {{path/to/dbfile.[db|duckdb]}}`
+`duckdb {{path/to/dbfile}}`
 
-- Load CSV or Parquet file to a table and quit:
+- Directly query a CSV, JSON, or Parquet file:
 
-`duckdb {{path/to/dbfile.[db|duckdb]}} -c "{{CREATE OR REPLACE TABLE tbl AS FROM 'data_source.[csv|parquet]'}}"`
+`duckdb -c "{{SELECT * FROM 'data_source.[csv|csv.gz|json|json.gz|parquet]'}}"`
 
-- Run query on database file and keep interactive shell open:
+- Run a SQL script:
 
-`duckdb {{path/to/dbfile.[db|duckdb]}} -cmd "{{SELECT DISTINCT * FROM tbl}}"`
+`duckdb -c ".read {{path/to/script.sql}}"`
 
-- Run SQL queries in file on database and keep interactive shell open:
+- Run query on database file and keep the interactive shell open:
 
-`duckdb {{path/to/dbfile.[db|duckdb]}} -init {{path/to/script.sql}}`
+`duckdb {{path/to/dbfile}} -cmd "{{SELECT DISTINCT * FROM tbl}}"`
 
-- Open database in read-only mode:
+- Run SQL queries in file on database and keep the interactive shell open:
 
-`duckdb -readonly {{path/to/dbfile.[db|duckdb]}}`
+`duckdb {{path/to/dbfile}} -init {{path/to/script.sql}}`
+
+- Read CSV from stdin and write CSV to stdout:
+
+`cat {{path/to/source.csv}} | duckdb -c "{{COPY (FROM read_csv_auto('/dev/stdin')) TO '/dev/stdout' WITH (FORMAT CSV, HEADER)}}"`
 
 - Display help:
 
