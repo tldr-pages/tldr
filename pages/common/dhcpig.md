@@ -14,7 +14,7 @@
 
 - Send fuzzed/malformed data packets using the interface:
 
-`sudo pig.py --fuzz {{eth1}}`
+`sudo ./pig.py --fuzz {{eth1}}`
 
 - Enable color output:
 
