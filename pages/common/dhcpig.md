@@ -22,7 +22,7 @@
 
 - Enable minimal verbosity and color output:
 
-`sudo pig.py -c --verbosity=1 {{eth1}}`
+`sudo ./pig.py -c --verbosity=1 {{eth1}}`
 
 - Set debug verbosity and scan network of neighboring devices using ARP packets:
 
