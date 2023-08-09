@@ -5,9 +5,9 @@
 
 - Display a report with specific details level (mini [no personal information], basic or full):
 
-`system_profiler -detailLevel {{mini}}`
+`system_profiler -detailLevel {{level}}`
 
-- Display a full system profiler report which can be opened by System Profiler.app:
+- Display a full system profiler report which can be opened by `System Profiler.app`:
 
 `system_profiler -xml > MyReport.spx`
 
