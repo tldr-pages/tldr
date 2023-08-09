@@ -1,13 +1,13 @@
 # nl
 
-> A utility for numbering lines, either from a file, or from standard input.
+> A utility for numbering lines, either from a file, or from `stdin`.
 > More information: <https://www.gnu.org/software/coreutils/nl>.
 
 - Number non-blank lines in a file:
 
 `nl {{path/to/file}}`
 
-- Read from standard output:
+- Read from `stdout`:
 
 `cat {{path/to/file}} | nl {{options}} -`
 

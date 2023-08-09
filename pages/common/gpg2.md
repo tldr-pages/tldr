@@ -16,7 +16,7 @@
 
 `gpg2 --symmetric {{path/to/doc.txt}}`
 
-- Decrypt a specified file, writing the result to the standard output:
+- Decrypt a specified file, writing the result to `stdout`:
 
 `gpg2 --decrypt {{path/to/doc.txt.gpg}}`
 
@@ -24,10 +24,10 @@
 
 `gpg2 --import {{path/to/public_key.gpg}}`
 
-- Export the public key of a specified email address to the standard output:
+- Export the public key of a specified email address to `stdout`:
 
 `gpg2 --export --armor {{alice@example.com}}`
 
-- Export the private key with a specified email address to the standard output:
+- Export the private key with a specified email address to `stdout`:
 
 `gpg2 --export-secret-keys --armor {{alice@example.com}}`
