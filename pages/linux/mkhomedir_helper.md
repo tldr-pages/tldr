@@ -11,6 +11,6 @@
 
 `sudo mkhomedir_helper {{username}} {{037}}`
 
-- Create a home folder for a user based on a custom skeleton location:
+- Create a home directory for a user based on a custom skeleton:
 
-`sudo mkhomedir_helper {{user_name}} {{umask}} {{path/to/folder}}`
+`sudo mkhomedir_helper {{username}} {{umask}} {{path/to/skeleton_directory}}`
