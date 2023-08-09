@@ -1,11 +1,8 @@
 # ruby
 
 > Ruby programming language interpreter.
+> See also: `gem`, `bundler`, `rake`, `irb`.
 > More information: <https://www.ruby-lang.org>.
-
-- Start a REPL (interactive shell):
-
-`irb`
 
 - Execute a Ruby script:
 
