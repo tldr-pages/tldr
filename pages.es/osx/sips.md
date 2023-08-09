@@ -18,12 +18,12 @@
 
 - Remuestrea todas las imágenes de un directorio para que se ajusten a una anchura de 960px (respetando la relación de aspecto):
 
-`sips --resampleWidth {{960}} {{ruta/a/imágenes}}`
+`sips --resampleWidth {{960}} {{ruta/al/imágenes}}`
 
 - Convierte una imagen de CMYK a RGB:
 
-`sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" {{ruta/a/imagen.ext}} {{ruta/a/directorio_salida}}`
+`sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" {{ruta/al/imagen.ext}} {{ruta/al/directorio_salida}}`
 
 - Elimina el perfil ICC ColorSync de una imagen:
 
-`sips --deleteProperty profile --deleteColorManagementProperties {{ruta/a/archivo_de_imagen.ext}}`
+`sips --deleteProperty profile --deleteColorManagementProperties {{ruta/al/archivo_de_imagen.ext}}`
