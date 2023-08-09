@@ -1,6 +1,6 @@
 # mkhomedir_helper
 
-> Create the user home folder after creating the user.
+> Create the user's home directory after creating the user.
 > More information: <https://manned.org/mkhomedir_helper>.
 
 - Create a home directory for a user based on `/etc/skel` with umask 022:
