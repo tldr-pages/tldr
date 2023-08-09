@@ -23,6 +23,6 @@
 
 `elm reactor`
 
-- Install Elm package from https://package.elm-lang.org:
+- Install Elm package from <https://package.elm-lang.org>:
 
 `elm install {{author}}/{{package}}`

@@ -7,7 +7,7 @@
 
 `hugo new site {{alamat/ke/website}}`
 
-- Membuat tema Hugo baru (tema juga dapat diunduh dari https://themes.gohugo.io/):
+- Membuat tema Hugo baru (tema juga dapat diunduh dari <https://themes.gohugo.io/>):
 
 `hugo new theme {{nama_tema}}`
 
