@@ -6,7 +6,7 @@
 
 - Exhaust all of the available DHCP addresses using the specified interface:
 
-`sudo pig.py {{eth0}}`
+`sudo ./pig.py {{eth0}}`
 
 - Exhaust IPv6 addresses using eth1 interface:
 
