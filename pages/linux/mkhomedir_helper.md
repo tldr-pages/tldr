@@ -7,9 +7,9 @@
 
 `sudo mkhomedir_helper {{username}}`
 
-- Create a home folder for a user based on /etc/skel with all permissions for owner (0) and read permission for group (3):
+- Create a home directory for a user based on `/etc/skel` with all permissions for owner (0) and read permission for group (3):
 
-`sudo mkhomedir_helper {{user_name}} {{037}}`
+`sudo mkhomedir_helper {{username}} {{037}}`
 
 - Create a home folder for a user based on a custom skeleton location:
 
