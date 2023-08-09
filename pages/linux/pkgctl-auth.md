@@ -1,4 +1,4 @@
-## pkgctl auth
+# pkgctl auth
 
 > Authenticate `pkgctl` with services like GitLab.
 > More information: <https://man.archlinux.org/man/pkgctl-auth.1>.
