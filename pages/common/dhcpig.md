@@ -18,7 +18,7 @@
 
 - Enable color output:
 
-`sudo pig.py -c {{eth1}}`
+`sudo ./pig.py -c {{eth1}}`
 
 - Enable minimal verbosity and color output:
 
