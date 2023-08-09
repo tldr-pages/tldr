@@ -26,7 +26,7 @@
 
 - Set debug verbosity and scan network of neighboring devices using ARP packets:
 
-`sudo pig.py -c --verbosity=100 --neighbors-scan-arp {{eth1}}`
+`sudo ./pig.py -c --verbosity=100 --neighbors-scan-arp {{eth1}}`
 
 - Enable printing lease information, attempt to scan and release all neighbor IP addresses:
 
