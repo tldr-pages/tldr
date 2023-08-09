@@ -1,6 +1,6 @@
 # ts
 
-> Add timestamps to every line from standard input.
+> Add timestamps to every line from `stdin`.
 > More information: <https://joeyh.name/code/moreutils/>.
 
 - Add a timestamp to the beginning of each line:

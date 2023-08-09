@@ -23,7 +23,7 @@
 
 `git bundle verify {{path/to/file.bundle}}`
 
-- Print to the standard output the list of references contained in a bundle:
+- Print to `stdout` the list of references contained in a bundle:
 
 `git bundle unbundle {{path/to/file.bundle}}`
 

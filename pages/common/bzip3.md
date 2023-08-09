@@ -11,7 +11,7 @@
 
 `bzip3 -d {{path/to/compressed_file.bz3}}`
 
-- Decompress a file to standard output:
+- Decompress a file to `stdout`:
 
 `bzip3 -dc {{path/to/compressed_file.bz3}}`
 
