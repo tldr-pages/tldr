@@ -14,3 +14,7 @@
 - Tune to optimal settings:
 
 `sudo powertop --auto-tune`
+
+- Refresh more often (every 5 seconds instead of 20 by default):
+
+`sudo powertop --time=5`
