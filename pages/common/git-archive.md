@@ -3,11 +3,11 @@
 > Create an archive of files from a named tree.
 > More information: <https://git-scm.com/docs/git-archive>.
 
-- Create a tar archive from the contents of the current HEAD and print it to standard output:
+- Create a tar archive from the contents of the current HEAD and print it to `stdout`:
 
 `git archive --verbose HEAD`
 
-- Create a zip archive from the current HEAD and print it to standard output:
+- Create a zip archive from the current HEAD and print it to `stdout`:
 
 `git archive --verbose --format=zip HEAD`
 

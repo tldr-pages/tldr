@@ -1,7 +1,7 @@
 # while
 
 > Simple shell loop.
-> More information: <https://manned.org/while>.
+> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_04_09>.
 
 - Read `stdin` and perform an action on every line:
 
