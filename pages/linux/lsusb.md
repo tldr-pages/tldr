@@ -17,7 +17,7 @@
 
 - List detailed information about a USB device:
 
-`lsusb -D {{device}}`
+`lsusb --verbose -s {{bus}}:{{device number}}`
 
 - List devices with a specified vendor and product ID only:
 

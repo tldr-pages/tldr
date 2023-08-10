@@ -1,7 +1,7 @@
 # mail
 
 > The command operates on the user's mailbox if no argument is given.
-> To send an email the message body is built from standard input.
+> To send an email the message body is built from `stdin`.
 > More information: <https://manned.org/mail>.
 
 - Send a typed email message. The command-line below continues after pressing Enter key. Input CC email-id (optional) press Enter key. Input message text (can be multiline). Press Ctrl-D key to complete the message text:

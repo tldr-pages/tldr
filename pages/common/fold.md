@@ -1,6 +1,6 @@
 # fold
 
-> Wraps each line in an input file to fit a specified width and prints it to the standard output.
+> Wrap each line in an input file to fit a specified width and print it to `stdout`.
 > More information: <https://manned.org/fold.1p>.
 
 - Wrap each line to default width (80 characters):

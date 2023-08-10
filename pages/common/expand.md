@@ -3,11 +3,11 @@
 > Convert tabs to spaces.
 > More information: <https://www.gnu.org/software/coreutils/expand>.
 
-- Convert tabs in each file to spaces, writing to standard output:
+- Convert tabs in each file to spaces, writing to `stdout`:
 
 `expand {{path/to/file}}`
 
-- Convert tabs to spaces, reading from standard input:
+- Convert tabs to spaces, reading from `stdin`:
 
 `expand`
 
