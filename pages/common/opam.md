@@ -10,7 +10,7 @@
 
 - Search for packages:
 
-`opam search {{package1 package2 ...}}`
+`opam search {{query}}`
 
 - Install a package and all of its dependencies:
 
