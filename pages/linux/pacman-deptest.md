@@ -6,7 +6,7 @@
 
 - Print the package names of the dependencies that aren't installed:
 
-`pacman --deptest {{package1}} {{package2}}`
+`pacman --deptest {{package1 package2 ...}}`
 
 - Check if the installed package satisfies the given minimum version:
 

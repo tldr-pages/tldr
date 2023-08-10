@@ -22,7 +22,7 @@
 
 - Locate packages by the package name, disk set, or version:
 
-`slapt-get --search {{package}}`
+`slapt-get --search {{query}}`
 
 - Show information about a package:
 

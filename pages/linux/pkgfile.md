@@ -16,7 +16,7 @@
 
 `pkgfile --list {{package}}`
 
-- List only files provided by a package located within the `bin` or `sbin` directory:
+- List only files provided by a package located within the `/bin` or `/sbin` directory:
 
 `pkgfile --list --binaries {{package}}`
 

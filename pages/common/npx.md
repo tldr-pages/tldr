@@ -7,9 +7,9 @@
 
 `npx {{command}} {{argument1 argument2 ...}}`
 
-- In case multiple commands with the same name exist, it is possible to specify the package name:
+- In case multiple commands with the same name exist, it is possible to explicitly specify the package:
 
-`npx --package {{package_name}} {{command}}`
+`npx --package {{package}} {{command}}`
 
 - Run a command if it exists in the current path or in `node_modules/.bin`:
 

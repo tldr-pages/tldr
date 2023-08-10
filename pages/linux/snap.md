@@ -6,7 +6,7 @@
 
 - Search for a package:
 
-`snap find {{package}}`
+`snap find {{query}}`
 
 - Install a package:
 

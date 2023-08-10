@@ -5,7 +5,7 @@
 
 - Search for packages from the official repositories and AUR:
 
-`aura --aursync --both --search {{package1 package2 ...|search_regex}}`
+`aura --aursync --both --search {{keyword|regular_expression}}`
 
 - Install a package from the AUR:
 

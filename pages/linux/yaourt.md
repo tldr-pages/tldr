@@ -17,7 +17,7 @@
 
 - Search the package database for a keyword (including AUR):
 
-`yaourt -Ss {{package}}`
+`yaourt -Ss {{query}}`
 
 - List installed packages, versions, and repositories (AUR packages will be listed under the repository name 'local'):
 

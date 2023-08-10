@@ -13,4 +13,4 @@
 
 - Call a service with specific arguments:
 
-`cmd {{service}} {{argument 1 argument 1 ...}}`
+`cmd {{service}} {{argument1 argument2 ...}}`

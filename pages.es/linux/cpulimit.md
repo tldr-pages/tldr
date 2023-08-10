@@ -13,7 +13,7 @@
 
 - Ejecuta un programa determinado y limita su uso a solo el 50% del CPU:
 
-`cpulimit --limit {{50}} -- {{programa argument 1 argument 1 ...}}`
+`cpulimit --limit {{50}} -- {{programa argument1 argument2 ...}}`
 
 - Ejecuta un programa, limita el uso del CPU a 50% y corre cpulimit en segundo plano:
 

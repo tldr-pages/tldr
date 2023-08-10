@@ -11,7 +11,7 @@
 
 `wapm install`
 
-- Download a specific version of a package and add it to the list of dependencies in wapm.toml:
+- Download a specific version of a package and add it to the list of dependencies in `wapm.toml`:
 
 `wapm install {{package}}@{{version}}`
 

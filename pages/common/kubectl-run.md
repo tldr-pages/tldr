@@ -21,4 +21,4 @@
 
 - Run an Ubuntu pod, overriding the default command with echo, and specifying custom arguments:
 
-`kubectl run {{temp-ubuntu}} --image=ubuntu:22.04 --command -- echo {{argument 1 argument 2 ...}}`
+`kubectl run {{temp-ubuntu}} --image=ubuntu:22.04 --command -- echo {{argument1 argument2 ...}}`

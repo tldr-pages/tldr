@@ -6,11 +6,11 @@
 
 - Search for a package:
 
-`eix {{package}}`
+`eix {{query}}`
 
 - Search for installed packages:
 
-`eix --installed {{package}}`
+`eix --installed {{query}}`
 
 - Search in package descriptions:
 

@@ -25,7 +25,7 @@
 
 - Search the ports tree:
 
-`prt-get search {{package}}`
+`prt-get search {{query}}`
 
 - Search for a file in a package:
 

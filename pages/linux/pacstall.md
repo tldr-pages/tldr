@@ -5,7 +5,7 @@
 
 - Search the package database for a package name:
 
-`pacstall --search {{package}}`
+`pacstall --search {{query}}`
 
 - Install a package:
 
