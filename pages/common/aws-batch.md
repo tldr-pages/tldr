@@ -19,7 +19,7 @@
 
 `aws batch submit-job --job-name {{job_name}} --job-queue {{job_queue}} --job-definition {{job_definition}}`
 
-- Describe list of batch jobs:
+- Describe the list of batch jobs:
 
 `aws batch describe-jobs --jobs {{jobs}}`
 
