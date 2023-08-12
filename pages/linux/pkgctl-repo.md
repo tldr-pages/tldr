@@ -4,7 +4,7 @@
 > See also: `pkgctl`.
 > More information: <https://man.archlinux.org/man/pkgctl-repo.1>.
 
-- Clone a package repository (requires setting an SSH key in your Arch GitLab account):
+- Clone a package repository (requires setting an SSH key in your Arch Linux GitLab account):
 
 `pkgctl repo clone {{pkgname}}`
 
