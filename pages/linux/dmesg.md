@@ -1,6 +1,6 @@
 # dmesg
 
-> Write the kernel messages to standard output.
+> Write the kernel messages to `stdout`.
 > More information: <https://manned.org/dmesg>.
 
 - Show kernel messages:

@@ -3,10 +3,6 @@
 > Git ile dosyaları, dosyaların içeriğine bakmadan yönet.
 > Daha fazla bilgi için: <https://git-annex.branchable.com>.
 
-- Yardım:
-
-`git annex help`
-
 - Git annex ile bir depo başlat:
 
 `git annex init`
@@ -26,3 +22,7 @@
 - Bir dosya veya dizin al:
 
 `git annex get {{örnek/dosya_veya_dizin}}`
+
+- Yardım görüntüle:
+
+`git annex help`

@@ -1,37 +1,37 @@
 # rsync
 
-> Transfer files either to or from a remote host (but not between two remote hosts).
-> Can transfer single files or multiple files matching a pattern.
-> More information: <https://manned.org/rsync>.
+> Transfer files either to or from a remote host (but not between two remote hosts), by default using SSH.
+> To specify a remote path, use `host:path/to/file_or_directory`.
+> More information: <https://download.samba.org/pub/rsync/rsync.1>.
 
-- Transfer a file from local to a remote host:
+- Transfer a file:
 
-`rsync {{path/to/local_file}} {{remote_host}}:{{path/to/remote_directory}}`
+`rsync {{path/to/source}} {{path/to/destination}}`
 
-- Transfer a file from a remote host to local:
+- Use archive mode (recursively copy directories, copy symlinks without resolving and preserve permissions, ownership and modification times):
 
-`rsync {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
+`rsync --archive {{path/to/source}} {{path/to/destination}}`
 
-- Transfer a file in [a]rchive (to preserve attributes) and compressed ([z]ipped) mode displaying [v]erbose and [h]uman-readable [P]rogress:
+- Compress the data as it is sent to the destination, display verbose and human-readable progress, and keep partially transferred files if interrupted:
 
-`rsync -azvhP {{path/to/local_file}} {{remote_host}}:{{path/to/remote_directory}}`
+`rsync --compress --verbose --human-readable --partial --progress {{path/to/source}} {{path/to/destination}}`
 
-- Transfer a directory and all its contents from a remote host to local:
+- Recursively copy directories:
 
-`rsync -r {{remote_host}}:{{path/to/remote_directory}} {{path/to/local_directory}}`
+`rsync --recursive {{path/to/source}} {{path/to/destination}}`
 
-- Transfer directory contents (but not the directory itself) from a remote host to local:
+- Transfer directory contents, but not the directory itself:
 
-`rsync -r {{remote_host}}:{{path/to/remote_directory}}/ {{path/to/local_directory}}`
+`rsync --recursive {{path/to/source}}/ {{path/to/destination}}`
 
-- Transfer a directory [r]ecursively, in [a]rchive (to preserve attributes), resolving contained sym[L]inks, and ignoring already transferred files [u]nless newer:
+- Recursively copy directories, use archive mode, resolve symlinks and skip files that are newer on the destination:
 
-`rsync -rauL {{remote_host}}:{{path/to/remote_directory}} {{path/to/local_directory}}`
+`rsync --recursive --archive --update --copy-links {{path/to/source}} {{path/to/destination}}`
 
-- Transfer a file over SSH and delete remote files that do not exist locally:
+- Transfer a directory to a remote host running `rsyncd` and delete files on the destination that do not exist on the source:
 
-`rsync -e ssh --delete {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
+`rsync --recursive --delete rsync://{{host}}:{{path/to/source}} {{path/to/destination}}`
 
-- Transfer a file over SSH using a different port than the default and show global progress:
+- Transfer a file over SSH using a different port than the default (22) and show global progress:
 
-`rsync -e 'ssh -p {{port}}' --info=progress2 {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
+`rsync --rsh 'ssh -p {{port}}' --info=progress2 {{host}}:{{path/to/source}} {{path/to/destination}}`
