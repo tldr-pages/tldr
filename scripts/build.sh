@@ -28,7 +28,7 @@ function build_archive {
   echo "Pages archive successfully built."
 }
 
-function build_individual_language_archives {
+function build_translation_archives {
   local source_directory="$TLDRHOME"
   local target_directory="$TLDR_LANG_ARCHIVES_DIRECTORY"
   mkdir -p "$target_directory"
@@ -57,4 +57,4 @@ function build_individual_language_archives {
 initialize
 build_index
 build_archive
-build_individual_language_archives
+build_translation_archives
