@@ -14,7 +14,7 @@
 
 - Forcibly install a package regardless of currently installed versions:
 
-`rpm --upgrade {{package.rpm}} --force`
+`rpm --upgrade {{path/to/package.rpm}} --force`
 
 - Identify owner of a file and show version of the package:
 
