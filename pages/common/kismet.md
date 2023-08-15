@@ -35,4 +35,3 @@
 - Display detailed information about a specific AP's packets:
 
 `kismet -c {{wlan0}} --info {{BSSID}}`
-
