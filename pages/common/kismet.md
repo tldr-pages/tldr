@@ -16,7 +16,7 @@
 
 `kismet -c {{wlan0}} -d /path/to/output`
 
-- Start Kismet with a specific configuration file: 
+- Start Kismet with a specific configuration file:
 
 `kismet -c {{wlan0}} -f /path/to/config.conf`
 
