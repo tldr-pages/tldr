@@ -15,6 +15,6 @@
 
 `sudo powertop --auto-tune`
 
-- Refresh more often (every 5 seconds instead of 20 by default):
+- Generate a report for a specified number of seconds (instead of 20 by default):
 
-`sudo powertop --time=5`
+`sudo powertop --time={{5}}`
