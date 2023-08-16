@@ -207,7 +207,7 @@ Here's an example of how the lookup should be done on `linux` having set `LANG=i
 
 ## Caching
 
-If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the archive either from **[https://tldr.sh/assets/tldr.zip](https://tldr.sh/assets/tldr.zip)** or [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/main/assets/tldr.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/main/assets/tldr.zip) (which is pointed to by the first link).
+If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the entire archive either as a whole from **[https://tldr.sh/assets/tldr.zip](https://tldr.sh/assets/tldr.zip)** (Which redirects to [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/main/assets/tldr.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/main/assets/tldr.zip)) or download language-specific translation archives in the format `https://tldr.sh/assets/tldr-pages.{{language-code}}.zip` (Which redirects to [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/main/assets/tldr-pages.{{language-code}}.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/main/assets)), along with the archive for English from **[https://tldr.sh/assets/tldr-pages.zip](https://tldr.sh/assets/tldr-pages.zip)** (It redirects to [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/main/assets/tldr-pages.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/main/assets/tldr-pages.zip)).
 
 Caching SHOULD be done according to the user's language configuration (if any), to not waste unneeded space for unused languages. Additionally, clients MAY automatically update the cache regularly.
 
@@ -226,13 +226,12 @@ the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
 
- - Unreleased
-
- - [v2.0, May 3rd 2022](https://github.com/tldr-pages/tldr/blob/v2.0/CLIENT-SPECIFICATION.md) ([#10148](https://github.com/tldr-pages/tldr/pull/10148))
+ - Unreleased ([#10148](https://github.com/tldr-pages/tldr/pull/10148))
    - Add recommendation to support `macos` alias for `osx` ([#7514](https://github.com/tldr-pages/tldr/pull/7514))
    - Drop the special "all" platform from the `--list` flag ([#7561](https://github.com/tldr-pages/tldr/pull/7561))
    - Drop the `master` branch from assets link. ([#9668](https://github.com/tldr-pages/tldr/pull/9668))
    - Require support for long options ([#9651](https://github.com/tldr-pages/tldr/pull/9651))
+   - Add recommendation to support caching individual translation archives ([#10148](https://github.com/tldr-pages/tldr/pull/10148))
 
  - [v1.5, March 17th 2021](https://github.com/tldr-pages/tldr/blob/v1.5/CLIENT-SPECIFICATION.md) ([#5428](https://github.com/tldr-pages/tldr/pull/5428))
    - Add requirement for converting command names to lowercase before running the page resolution algorithm.
