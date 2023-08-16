@@ -5,12 +5,8 @@
 
 - Switch between different GPU modes:
 
-```bash
-optimus-manager --switch {{nvidia|integrated|hybrid}}
-```
+`optimus-manager --switch {{nvidia|integrated|hybrid}}`
 
 - Clean up:
 
-```bash
-optimus-manager --cleanup
-```
+`optimus-manager --cleanup`
