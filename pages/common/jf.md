@@ -1,16 +1,16 @@
 # jf
 
-> Interface with JFrog products like Artifactory, Xray, Distribution, Pipelines and Mission Control.
+> Interact with JFrog products like Artifactory, Xray, Distribution, Pipelines and Mission Control.
 > More information: <https://jfrog.com/help/r/jfrog-cli/usage>.
 
-- Add new configuration:
+- Add a new configuration:
 
 `jf config add`
 
-- Show current configuration:
+- Show the current configuration:
 
 `jf config show`
 
-- Search artifacts within the given repository and directory:
+- Search for artifacts within the given repository and directory:
 
 `jf rt search --recursive {{repostiory_name}}/{{path}}/`
