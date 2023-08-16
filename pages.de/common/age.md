@@ -7,7 +7,7 @@
 
 `age --passphrase --output {{pfad/zu/verschlüsselter_datei}} {{pfad/zu/unverschlüsselter_datei}}`
 
-- Generiere ein Schlüsselpaar, speichere dabei den privaten Schlüssel in einer unverschlüsselten Datei und gib den öffentlichen Schlüssel zu stdout aus:
+- Generiere ein Schlüsselpaar, speichere dabei den privaten Schlüssel in einer unverschlüsselten Datei und gib den öffentlichen Schlüssel zu `stdout` aus:
 
 `age-keygen --output {{pfad/zu/datei}}`
 

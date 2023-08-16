@@ -16,6 +16,6 @@
 
 `nix build {{./path/to/directory}}`
 
-- Build a package without making the `result` symlink, instead printing the store path to the stdout:
+- Build a package without making the `result` symlink, instead printing the store path to the `stdout`:
 
 `nix build --no-link --print-out-paths`

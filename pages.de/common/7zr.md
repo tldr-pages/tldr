@@ -20,7 +20,7 @@
 
 `7zr x {{pfad/zu/archiv.7z}} -o{{pfad/zu/verzeichnis}}`
 
-- E[x]trahiere ein Archiv nach stdout:
+- E[x]trahiere ein Archiv nach `stdout`:
 
 `7zr x {{pfad/zu/archiv.7z}} -so`
 

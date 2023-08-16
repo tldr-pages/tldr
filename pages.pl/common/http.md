@@ -27,6 +27,6 @@
 
 `http --auth {{nazwauzytkownika:haslo}} {{przyklad.org}}`
 
-- Określ surowe ciało żądania za pośrednictwem stdin:
+- Określ surowe ciało żądania za pośrednictwem `stdin`:
 
 `cat {{dane.txt}} | http PUT {{przyklad.org}}`

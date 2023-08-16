@@ -8,7 +8,7 @@
 
 `git format-patch {{origin}}`
 
-- stdout'daki belirtilen 2 revizyon arasındaki tüm commit'ler için bir `.patch` dosyası oluştur:
+- `stdout`'daki belirtilen 2 revizyon arasındaki tüm commit'ler için bir `.patch` dosyası oluştur:
 
 `git format-patch {{revizyon_1}}..{{revizyon_2}}`
 

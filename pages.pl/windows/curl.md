@@ -6,7 +6,7 @@
 
 `curl --version`
 
-- Zobacz dokumentację orginalnego polecenia `curl`:
+- Zobacz dokumentację oryginalnego polecenia `curl`:
 
 `tldr curl -p common`
 

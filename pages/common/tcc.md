@@ -1,6 +1,6 @@
 # tcc
 
-> A tiny C compiler that can run C source files as scripts and otherwise has command line options similar to `gcc`.
+> A tiny C compiler that can run C source files as scripts and otherwise has command-line options similar to `gcc`.
 > More information: <https://bellard.org/tcc/tcc-doc.html>.
 
 - Compile and link 2 source files to generate an executable:

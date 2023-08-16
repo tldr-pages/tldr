@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `-p linux id`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr -p linux id`

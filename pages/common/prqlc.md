@@ -8,7 +8,7 @@
 
 `prqlc compile`
 
-- Compile a specific `.prql` file to stdout:
+- Compile a specific `.prql` file to `stdout`:
 
 `prqlc compile {{path/to/file.prql}}`
 

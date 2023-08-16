@@ -3,11 +3,11 @@
 > Show hardware information in GUI window.
 > More information: <https://github.com/lpereira/hardinfo>.
 
-- Start hardinfo:
+- Start `hardinfo`:
 
 `hardinfo`
 
-- Print report to standard output:
+- Print report to `stdout`:
 
 `hardinfo -r`
 

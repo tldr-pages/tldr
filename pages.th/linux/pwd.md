@@ -1,7 +1,7 @@
 # pwd
 
 > แสดงชื่อของไดเรกทอรีที่ทำงานอยู่
-> ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/coreutils/pwd>.
+> ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/coreutils/pwd>
 
 - แสดงชื่อของไดเรกทอรีที่ทำงานอยู่:
 

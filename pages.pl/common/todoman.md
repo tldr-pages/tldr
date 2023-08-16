@@ -3,6 +3,6 @@
 > To polecenie jest aliasem `todo`.
 > Więcej informacji: <https://todoman.readthedocs.io/>.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr todo`

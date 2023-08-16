@@ -1,6 +1,6 @@
 # dep
 
-> A CLI tool for deployment of PHP applications.
+> Deploy PHP applications.
 > Note: The Go command `dep` with the same name is deprecated and archived.
 > More information: <https://deployer.org>.
 

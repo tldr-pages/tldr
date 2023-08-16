@@ -22,3 +22,7 @@
 - Connect to a FreeRDP server ignoring any certificate checks:
 
 `xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /cert:ignore`
+
+- Connect to a FreeRDP server with a shared directory:
+
+`xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /drive:{{path/to/directory}},{{share_name}}`

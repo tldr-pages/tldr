@@ -29,4 +29,8 @@
 
 - List all video device's controls and their values:
 
-`v4l2-ctl --list-ctrls --device {{/path/to/video_device}}`
+`v4l2-ctl --list-ctrls --device {{path/to/video_device}}`
+
+- Set the value of a video device control:
+
+`v4l2-ctl --device {{path/to/video_device}} --set-ctrl={{control_name}}={{value}}`

@@ -19,7 +19,7 @@
 
 `wc --chars {{ruta/al/archivo}}`
 
-- Cuenta todas las líneas, palabras y bytes desde stdin:
+- Cuenta todas las líneas, palabras y bytes desde `stdin`:
 
 `{{find .}} | wc`
 

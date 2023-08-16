@@ -1,7 +1,7 @@
 # clamdscan
 
-> โปรแกรมแสกนหาไวรัสบนคอมมานด์ไลน์ โดยใช้โปรแกรมพื้นหลัง ClamAV.
-> ข้อมูลเพิ่มเติม: <https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan>.
+> โปรแกรมแสกนหาไวรัสบนคอมมานด์ไลน์ โดยใช้โปรแกรมพื้นหลัง ClamAV
+> ข้อมูลเพิ่มเติม: <https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan>
 
 - แสกนข้อบกพร่องของไฟล์หรือไฟล์ในไดเรคทอรี:
 

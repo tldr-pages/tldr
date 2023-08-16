@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `ar`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr ar`

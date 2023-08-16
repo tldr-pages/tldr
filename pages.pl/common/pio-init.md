@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `pio project`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr pio project`

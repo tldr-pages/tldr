@@ -1,7 +1,7 @@
 # keytool
 
 > Keytool is a certificate management utility included with Java.
-> More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/keytool.html>.
+> More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/keytool.html>.
 
 - Create a keystore:
 
@@ -13,4 +13,4 @@
 
 - Change a key's password inside a specific keystore:
 
-`keytool -keypasswd  -alias {{key_name}} -keystore {{path/to/file.keystore}}`
+`keytool -keypasswd -alias {{key_name}} -keystore {{path/to/file.keystore}}`

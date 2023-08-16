@@ -1,7 +1,7 @@
 # archlinux-java
 
 > Ein Helfer Script das Funktionen für Java-Umgebungen bereitstellt.
-> Weitere Informationen: <https://github.com/michaellass/archlinux-java-run>.
+> Weitere Informationen: <https://wiki.archlinux.org/title/Java#Switching_between_JVM>.
 
 - Liste installierte Java-Umgebungen:
 

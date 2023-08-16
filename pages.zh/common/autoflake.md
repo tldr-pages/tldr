@@ -9,7 +9,7 @@
 
 - 移除多个文件中未使用的引入，并展示 diffs：
 
-`autoflake --remove-all-unused-imports {{路径/到/文件1个.py 路径/到/文件2个.py ...}}`
+`autoflake --remove-all-unused-imports {{路径/到/文件1.py 路径/到/文件2.py ...}}`
 
 - 移除未被使用的变量，并覆盖更新：
 

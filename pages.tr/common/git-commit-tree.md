@@ -8,7 +8,7 @@
 
 `git commit-tree {{ağaç}} -m "{{mesaj}}"`
 
-- Bir dosyadan mesaj okuyan bir commit cismi oluştur (stdin için `-` ekini kullan):
+- Bir dosyadan mesaj okuyan bir commit cismi oluştur (`stdin` için `-` ekini kullan):
 
 `git commit-tree {{ağaç}} -F {{örnek/dosya}}`
 

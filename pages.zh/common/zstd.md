@@ -11,7 +11,7 @@
 
 `zstd -d {{file}}.zst`
 
-- 将文件解压缩到标准输出（stdout）：
+- 将文件解压缩到标准输出（`stdout`）：
 
 `zstd -dc {{file}}.zst`
 

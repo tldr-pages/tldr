@@ -7,7 +7,7 @@
 
 `tldr-lint {{direktorijum_stranica}}`
 
-- Formatiraj određenu stranicu u stdout:
+- Formatiraj određenu stranicu u `stdout`:
 
 `tldr-lint --format {{stranica.md}}`
 

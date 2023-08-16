@@ -23,6 +23,6 @@
 
 `dash -e {{caminho/para/script.sh}}`
 
-- Lê e executa comandos de stdin:
+- Lê e executa comandos de `stdin`:
 
 `dash -s`

@@ -17,9 +17,9 @@
 
 `sudo pacman -Rs {{package_name}}`
 
-- Search the package database for a regular expression or keyword:
+- Search the database for packages containing a specific file:
 
-`pacman -Ss "{{search_pattern}}"`
+`pacman -F "{{file_name}}"`
 
 - List installed packages and versions:
 

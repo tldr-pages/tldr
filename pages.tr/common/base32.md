@@ -11,10 +11,10 @@
 
 `base32 --decode {{dosyaismi}}`
 
-- stdin'den şifrele:
+- `stdin`'den şifrele:
 
 `{{herhangibirkomut}} | base32`
 
-- stdin'den deşifre et:
+- `stdin`'den deşifre et:
 
 `{{herhangibirkomut}} | base32 --decode`

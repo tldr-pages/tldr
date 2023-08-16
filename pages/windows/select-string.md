@@ -21,6 +21,6 @@
 
 `Select-String --Context {{2,3}} "{{search_pattern}}" {{path\to\file}}`
 
-- Search stdin for lines that do not match a pattern:
+- Search `stdin` for lines that do not match a pattern:
 
 `Get-Content {{path\to\file}} | Select-String --NotMatch "{{search_pattern}}"`
