@@ -5,26 +5,10 @@
 
 - auto-cpufreq modes and options:
 
-- Monitor:
-
-`sudo auto-cpufreq --monitor`
-
-- Live:
-
-`sudo auto-cpufreq --live`
+`sudo auto-cpufreq --{{monitor|live|update|remove|stats}}`
 
 - Overriding governor:
 
 `sudo auto-cpufreq --force=governor`
 
-- Update auto-cpufreq:
 
-`sudo auto-cpufreq --update`
-
-- Remove auto-cpufreq:
-
-`sudo auto-cpufreq --remove`
-
-- Stats:
-
-`auto-cpufreq --stats`
