@@ -21,7 +21,7 @@
 
 - Filtrar contêineres que compartilhem uma determinada imagem como ancestral:
 
-`podman ps --filter "ancestor={{imagem}}:{{tag}}"`
+`podman ps --filter="ancestor={{imagem}}:{{tag}}"`
 
 - Filtrar contêineres pelo código de status de saída:
 
