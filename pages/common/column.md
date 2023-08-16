@@ -1,6 +1,6 @@
 # column
 
-> Format standard input or a file into multiple columns.
+> Format `stdin` or a file into multiple columns.
 > Columns are filled before rows; the default separator is a whitespace.
 > More information: <https://manned.org/column>.
 

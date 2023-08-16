@@ -18,7 +18,7 @@
 
 - Send data in JSON format, specifying the appropriate content-type header:
 
-`Invoke-WebRequest -Body {{'{"name":"bob"}'}}  -ContentType 'application/json' {{http://example.com/users/1234}}`
+`Invoke-WebRequest -Body {{'{"name":"bob"}'}} -ContentType 'application/json' {{http://example.com/users/1234}}`
 
 - Pass a username and password for server authentication:
 

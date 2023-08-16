@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `-p linux cksum`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr -p linux cksum`

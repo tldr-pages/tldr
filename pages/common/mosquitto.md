@@ -3,7 +3,7 @@
 > An MQTT broker.
 > More information: <https://mosquitto.org/>.
 
-- Start mosquitto:
+- Start Mosquitto:
 
 `mosquitto`
 

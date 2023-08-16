@@ -7,3 +7,7 @@
 - Perform a topological sort consistent with a partial sort per line of input separated by blanks:
 
 `tsort {{path/to/file}}`
+
+- Perform a topological sort consistent on strings:
+
+`echo -e "{{UI Backend\nBackend Database\nDocs UI}}" | tsort`

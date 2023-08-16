@@ -1,6 +1,6 @@
 # gh label
 
-> Work with GitHub labels on the command-line.
+> Work with GitHub labels.
 > More information: <https://cli.github.com/manual/gh_label>.
 
 - List labels for the repository in the current directory:

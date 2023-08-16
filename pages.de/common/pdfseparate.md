@@ -1,7 +1,7 @@
 # pdfseparate
 
 > Extrahiere die Seiten einer Portable Document Format (PDF) Datei.
-> Weitere Informationen: <https://manpages.debian.org/unstable/poppler-utils/pdfseparate.1.en.html>.
+> Weitere Informationen: <https://manpages.debian.org/latest/poppler-utils/pdfseparate.1.en.html>.
 
 - Extrahiere die Seiten einer PDF Datei und speichere jede Seite als neue PDF Datei ab:
 

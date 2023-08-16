@@ -26,3 +26,7 @@
 - Delete the cluster:
 
 `minikube delete`
+
+- Connect to LoadBalancer services:
+
+`minikube tunnel`

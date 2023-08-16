@@ -1,6 +1,6 @@
 # resume
 
-> CLI tool to easily setup a new resume.
+> Easily setup a new resume.
 > More information: <https://github.com/jsonresume/resume-cli>.
 
 - Create a new `resume.json` file in the current working directory:

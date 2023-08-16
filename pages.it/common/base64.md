@@ -11,10 +11,10 @@
 
 `base64 --decode {{nome_file}}`
 
-- Codifica da stdin:
+- Codifica da `stdin`:
 
 `{{comando}} | base64`
 
-- Decodifica da stdin:
+- Decodifica da `stdin`:
 
 `{{comando}} | base64 --decode`

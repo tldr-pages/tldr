@@ -19,6 +19,6 @@
 
 `pastel distinct {{8}}`
 
-- Get a list of all X11 / CSS color names:
+- Get a list of all X11/CSS color names:
 
 `pastel list`

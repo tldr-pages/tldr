@@ -2,7 +2,7 @@
 
 > Gestiona proyectos Rust y sus dependencias de módulos (crates).
 > Algunos subcomandos como `cargo build` tienen su propia documentación de uso.
-> Más información: <https://crates.io>.
+> Más información: <https://doc.rust-lang.org/cargo>.
 
 - Busca crates:
 

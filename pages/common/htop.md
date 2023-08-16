@@ -3,11 +3,11 @@
 > Display dynamic real-time information about running processes. An enhanced version of `top`.
 > More information: <https://htop.dev/>.
 
-- Start htop:
+- Start `htop`:
 
 `htop`
 
-- Start htop displaying processes owned by a specific user:
+- Start `htop` displaying processes owned by a specific user:
 
 `htop --user {{username}}`
 

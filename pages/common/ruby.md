@@ -1,11 +1,8 @@
 # ruby
 
 > Ruby programming language interpreter.
+> See also: `gem`, `bundler`, `rake`, `irb`.
 > More information: <https://www.ruby-lang.org>.
-
-- Start a REPL (interactive shell):
-
-`irb`
 
 - Execute a Ruby script:
 
@@ -18,6 +15,10 @@
 - Check for syntax errors on a given Ruby script:
 
 `ruby -c {{script.rb}}`
+
+- Start the built-in HTTP server on port 8080 in the current directory:
+
+`ruby -run -e httpd`
 
 - Show the version of Ruby you are using:
 

@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `-p linux grep`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr -p linux grep`

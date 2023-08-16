@@ -24,7 +24,7 @@
 
 `bash -e {{archivo.sh}}`
 
-- Ejecuta comandos desde stdin (entrada estándar):
+- Ejecuta comandos desde `stdin` (entrada estándar):
 
 `bash -s`
 

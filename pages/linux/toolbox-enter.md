@@ -12,6 +12,6 @@
 
 `toolbox enter --release {{release}}`
 
-- Enter a toolbox container using the default image for Fedora 36:
+- Enter a toolbox container using the default image for Fedora 38:
 
-`toolbox enter --distro {{fedora}} --release {{f36}}`
+`toolbox enter --distro {{fedora}} --release {{f38}}`

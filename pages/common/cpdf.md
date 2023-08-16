@@ -1,6 +1,6 @@
 # cpdf
 
-> CLI to manipulate existing PDF files in a variety of ways.
+> Manipulate PDF files.
 > More information: <https://www.coherentpdf.com/cpdfmanual/cpdfmanual.html>.
 
 - Select pages 1, 2, 3 and 6 from a source document and write those to a destination document:

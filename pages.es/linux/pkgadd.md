@@ -1,7 +1,7 @@
 # pkgadd
 
 > Añade un paquete a un sistema CRUX.
-> Más información: <https://docs.oracle.com/cd/E19253-01/816-5166/pkgadd-1m/index.html>.
+> Más información: <https://docs.oracle.com/cd/E88353_01/html/E72487/pkgadd-8.html>.
 
 - Instala un paquete de software local:
 

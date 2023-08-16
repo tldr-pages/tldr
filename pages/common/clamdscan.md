@@ -1,7 +1,7 @@
 # clamdscan
 
 > A command-line virus scanner using the ClamAV Daemon.
-> More information: <https://www.clamav.net>.
+> More information: <https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan>.
 
 - Scan a file or directory for vulnerabilities:
 

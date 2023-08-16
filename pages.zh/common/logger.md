@@ -7,7 +7,7 @@
 
 `logger {{消息内容}}`
 
-- 从 stdin 获取输入并记录到系统日志 syslog：
+- 从 `stdin` 获取输入并记录到系统日志 syslog：
 
 `echo {{记录内容}} | logger`
 

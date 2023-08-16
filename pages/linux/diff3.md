@@ -5,8 +5,8 @@
 
 - Compare files:
 
-`diff3 {{file1}} {{file2}} {{file3}}`
+`diff3 {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`
 
 - Show all changes, outlining conflicts:
 
-`diff3 --show-all {{file1}} {{file2}} {{file3}}`
+`diff3 --show-all {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`

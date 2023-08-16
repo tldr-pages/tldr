@@ -3,7 +3,7 @@
 > Visualize gathered information in a network graph.
 > Más información: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-viz-subcommand>.
 
-- Genere una visualización D3.js basada en datos específicos de la base de datos::
+- Genere una visualización D3.js basada en datos específicos de la base de datos:
 
 `amass viz -d3 -dir {{ruta/al/directorio_de_base_de_datos}}`
 

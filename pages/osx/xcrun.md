@@ -19,10 +19,10 @@
 
 `xcrun --toolchain {{name}}`
 
-- Display help:
-
-`xcrun --help`
-
 - Display version:
 
 `xcrun --version`
+
+- Display help:
+
+`xcrun --help`

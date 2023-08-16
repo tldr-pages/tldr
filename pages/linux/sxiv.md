@@ -11,7 +11,7 @@
 
 `sxiv -f {{path/to/file}}`
 
-- Open a newline-separated list of images, reading filenames from standard input:
+- Open a newline-separated list of images, reading filenames from `stdin`:
 
 `echo {{path/to/file}} | sxiv -i`
 

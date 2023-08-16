@@ -1,9 +1,10 @@
 # pacman --sync
 
 > Arch Linux paket yönetim aracı.
+> Ayrıca bakınız: `pacman`.
 > Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
 
-- Yeni bir paket indir::
+- Yeni bir paket indir:
 
 `sudo pacman --sync {{paket_ismi}}`
 

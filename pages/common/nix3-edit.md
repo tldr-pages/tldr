@@ -7,6 +7,6 @@
 
 `nix edit {{nixpkgs#pkg}}`
 
-- Dump the source of a package to stdout:
+- Dump the source of a package to `stdout`:
 
 `EDITOR=cat nix edit {{nixpkgs#pkg}}`

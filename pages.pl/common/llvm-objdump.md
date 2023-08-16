@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `objdump`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr objdump`

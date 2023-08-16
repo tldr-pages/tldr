@@ -17,4 +17,4 @@
 
 - Start one or more space-separated containers:
 
-`docker start {{container(s)}}`
+`docker start {{container1 container2 ...}}`

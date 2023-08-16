@@ -18,7 +18,6 @@ from weasyprint import HTML
 
 
 def main(loc, colorscheme):
-
     # Checking correctness of path
     if not os.path.isdir(loc):
         print("Invalid directory. Please try again!", file=sys.stderr)
@@ -42,7 +41,6 @@ def main(loc, colorscheme):
 
     # Writing names of all directories inside 'pages' to a list
     for operating_sys in sorted(os.listdir(loc)):
-
         # Required string to create directory title pages
         html += (
             "<h1 class=title-dir>"
@@ -78,7 +76,6 @@ def main(loc, colorscheme):
 
 
 if __name__ == "__main__":
-
     # Parsing the arguments
     parser = argparse.ArgumentParser(
         prog="tldr-pages-to-pdf",

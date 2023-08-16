@@ -24,7 +24,7 @@
 
 `samtools flagstat {{sorted_input}}`
 
-- Count alignments to each index (chromosome / contig):
+- Count alignments to each index (chromosome/contig):
 
 `samtools idxstats {{sorted_indexed_input}}`
 

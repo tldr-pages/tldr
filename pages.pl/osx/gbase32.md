@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `-p linux base32`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr -p linux base32`

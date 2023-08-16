@@ -17,7 +17,7 @@
 
 - Determine the MIME type of `stdin` (does not check a filename):
 
-`{{some_command}} | mimetype --stdin`
+`{{command}} | mimetype --stdin`
 
 - Display debug information about how the MIME type was determined:
 

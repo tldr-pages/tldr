@@ -1,7 +1,7 @@
 # java
 
 > Java 程序启动器。
-> 更多信息：<https://docs.oracle.com/en/java/javase/19/docs/specs/man/java.html>.
+> 更多信息：<https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html>.
 
 - 通过提供类名称运行一个含有 main 函数的 java .class 程序：
 

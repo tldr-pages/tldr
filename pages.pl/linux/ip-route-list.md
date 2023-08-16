@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `ip-route-show`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr ip-route-show`

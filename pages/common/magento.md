@@ -1,6 +1,6 @@
 # magento
 
-> A CLI for managing the Magento PHP framework.
+> Manage the Magento PHP framework.
 > More information: <https://magento.com>.
 
 - Enable one or more space-separated modules:

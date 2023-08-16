@@ -1,7 +1,7 @@
 # explorer
 
 > โปรแกรมจัดการไฟล์ของวินโดวส์.
-> ข้อมูลเพิ่มเติม: <https://ss64.com/nt/explorer.html>.
+> ข้อมูลเพิ่มเติม: <https://ss64.com/nt/explorer.html>
 
 - เปิดโปรแกรมจัดการไฟล์:
 

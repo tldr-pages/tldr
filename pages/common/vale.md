@@ -17,7 +17,7 @@
 
 - Check style issues at the specific severity and higher:
 
-`vale --minAlertLeve={{suggestion|warning|error}} {{path/to/file}}`
+`vale --minAlertLevel={{suggestion|warning|error}} {{path/to/file}}`
 
 - Check the style from `stdin`, specifying markup format:
 

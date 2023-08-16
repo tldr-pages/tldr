@@ -21,4 +21,4 @@
 
 - Test DNS resolving by Amazon servers of a given zone:
 
-`aws route53 test-dns-answer --hosted-zone-id {{zone_id}}  --record-name {{name}} --record-type {{type}}`
+`aws route53 test-dns-answer --hosted-zone-id {{zone_id}} --record-name {{name}} --record-type {{type}}`

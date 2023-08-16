@@ -11,7 +11,7 @@
 
 `echo {{http://example.com/path/to/feed}} >> "${HOME}/.newsboat/urls"`
 
-- Start newsboat and refresh all feeds on startup:
+- Start Newsboat and refresh all feeds on startup:
 
 `newsboat -r`
 

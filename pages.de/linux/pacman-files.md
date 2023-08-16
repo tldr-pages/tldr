@@ -1,7 +1,7 @@
 # pacman --files
 
 > Arch Linux Paketverwaltungs-Werkzeug.
-> Siehe auch `pkgfile`.
+> Siehe auch: `pacman`, `pkgfile`.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Aktualisiere die Paketdatenbank:
@@ -23,10 +23,6 @@
 - Liste die Dateien auf welche einem bestimmten Paket gehören:
 
 `pacman --files --list {{paketname}}`
-
-- Liste nur den absoluten Pfad der Dateien auf:
-
-`pacman --query --list --quiet {{paketname}}`
 
 - Zeige Hilfe an:
 

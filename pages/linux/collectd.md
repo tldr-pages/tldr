@@ -15,7 +15,7 @@
 
 `collectd -T`
 
-- Start collectd:
+- Start `collectd`:
 
 `collectd`
 

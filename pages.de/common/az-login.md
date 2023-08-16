@@ -10,7 +10,7 @@
 
 - Melden Sie sich mit einem Dienstprinzipal mit dem geheimen Clientschlüssel an:
 
-`az login --service-principal --username {{http://azure-cli-service-principal}} --passsword {{secret}} --tenant {{someone.onmicrosoft.com}}`
+`az login --service-principal --username {{http://azure-cli-service-principal}} --password {{secret}} --tenant {{someone.onmicrosoft.com}}`
 
 - Melden Sie sich mit einem Dienstprinzipal mithilfe des Clientzertifikats an:
 

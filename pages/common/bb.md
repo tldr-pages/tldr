@@ -11,10 +11,10 @@
 
 `bb -f {{path/to/script.clj}}`
 
-- Bind input to a sequence of lines from stdin:
+- Bind input to a sequence of lines from `stdin`:
 
 `printf "first\nsecond" | bb -i "(map clojure.string/capitalize *input*)"`
 
-- Bind input to a sequence of EDN(Extensible Data Notation) values from stdin:
+- Bind input to a sequence of EDN(Extensible Data Notation) values from `stdin`:
 
 `echo "{:key 'val}" | bb -I "(:key (first *input*))"`

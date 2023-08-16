@@ -23,7 +23,7 @@
 
 `xauth remove {{display_name}}`
 
-- Print the authorization entry for the current display to stdout:
+- Print the authorization entry for the current display to `stdout`:
 
 `xauth extract - $DISPLAY`
 

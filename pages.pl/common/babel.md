@@ -3,7 +3,7 @@
 > Transpiler, który konwertuje kod ze składni JavaScript ES6 / ES7 na składnię ES5.
 > Więcej informacji: <https://babeljs.io/>.
 
-- Transpiluj określony plik wejściowy i dane wyjściowe do stdout:
+- Transpiluj określony plik wejściowy i dane wyjściowe do `stdout`:
 
 `babel {{siezka/do/pliku}}`
 

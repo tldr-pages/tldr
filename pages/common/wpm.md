@@ -3,15 +3,15 @@
 > Typeracer-like console app for measuring your WPM.
 > More information: <https://github.com/cslarsen/wpm>.
 
-- Start the program:
+- Start `wpm`:
 
 `wpm`
 
-- Start wpm with short texts:
+- Start `wpm` with short texts:
 
 `wpm --short`
 
-- Start wpm using a specific text file:
+- Start `wpm` using a specific text file:
 
 `wpm --load {{path/to/file.txt}}`
 
@@ -23,6 +23,6 @@
 
 `wpm --stats`
 
-- Start wpm with monochrome colors:
+- Start `wpm` with monochrome colors:
 
 `wpm --monochrome`

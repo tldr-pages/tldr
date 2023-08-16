@@ -11,10 +11,10 @@
 
 `base64 --decode {{dosyaismi}}`
 
-- stdin'den şifrele:
+- `stdin`'den şifrele:
 
 `{{herhangibirkomut}} | base64`
 
-- stdin'den deşifre et:
+- `stdin`'den deşifre et:
 
 `{{herhangibirkomut}} | base64 --decode`

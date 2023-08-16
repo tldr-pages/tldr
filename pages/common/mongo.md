@@ -1,20 +1,21 @@
 # mongo
 
-> MongoDB interactive shell client.
+> The legacy MongoDB shell. See `mongosh` for the new shell.
+> Note: all connection options can be replaced with one string: `mongodb://user@host:port/db_name?authSource=authdb_name`.
 > More information: <https://docs.mongodb.com/manual/reference/program/mongo>.
+
+- Connect to a local database on the default port (`mongodb://localhost:27017`):
+
+`mongo`
 
 - Connect to a database:
 
-`mongo {{database}}`
+`mongo --host {{host}} --port {{port}} {{db_name}}`
 
-- Connect to a database running on a given host on a given port:
+- Authenticate using the specified username on the specified database (you will be prompted for a password):
 
-`mongo --host {{host}} --port {{port}} {{database}}`
+`mongo --host {{host}} --port {{port}} --username {{username}} --authenticationDatabase {{authdb_name}} {{db_name}}`
 
-- Connect to a database with a given username; user will be prompted for password:
+- Evaluate a JavaScript expression on a database:
 
-`mongo --username {{username}} {{database}} --password`
-
-- Evaluate a JavaScript expression on the database:
-
-`mongo --eval '{{JSON.stringify(db.foo.findOne())}}' {{database}}`
+`mongo --eval '{{JSON.stringify(db.foo.findOne())}}' {{db_name}}`

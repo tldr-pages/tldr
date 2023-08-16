@@ -1,7 +1,7 @@
 # xzdiff
 
-> Invokes the diff command on files compressed with xz, lzma, gzip, bzip2, lzop, or zstd.
-> All options specified are passed directly to diff.
+> Invokes `diff` on files compressed with `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, or `zstd`.
+> All options specified are passed directly to `diff`.
 > More information: <https://manned.org/xzdiff>.
 
 - Compare files:
@@ -23,7 +23,3 @@
 - Compare files using paginated results:
 
 `xzdiff --paginate {{path/to/file1}} {{path/to/file2}}`
-
-- Compare directories recursively (shows names for differing files/directories as well as changes made to files):
-
-`diff --recursive {{path/to/file1}} {{path/to/file2}}`

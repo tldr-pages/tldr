@@ -1,6 +1,6 @@
 # nmap
 
-> Network exploration tool and security / port scanner.
+> Network exploration tool and security/port scanner.
 > Some features only activate when Nmap is run with root privileges.
 > More information: <https://nmap.org>.
 

@@ -24,7 +24,7 @@
 
 `flameshot screen --number {{2}}`
 
-- Create a screenshot and print it to the standard output:
+- Create a screenshot and print it to `stdout`:
 
 `flameshot gui --raw`
 

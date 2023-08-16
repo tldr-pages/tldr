@@ -1,32 +1,17 @@
 # xbps
 
-> The X Binary Package System (or xbps) is the binary package system used by Void Linux.
-> More information: <https://github.com/void-linux/xbps>.
+> The X Binary Package System is the package manager used by Void Linux.
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> More information: <https://docs.voidlinux.org/xbps/index.html>.
 
-- Install packages and synchronize them with the remote repository:
+- View documentation for installing and updating packages:
 
-`xbps-install --sync {{package_name1}} {{package_name2}}`
+`tldr xbps-install`
 
-- Search for a package in the remote repository:
+- View documentation for removing packages:
 
-`xbps-query --repository -s {{package_name}}`
+`tldr xbps-remove`
 
-- Remove a package, leaving all of its dependencies installed:
+- View documentation for querying for package and repository information:
 
-`xbps-remove {{package_name}}`
-
-- Remove a package and all of its dependencies recursively that are not required by other packages:
-
-`xbps-remove --recursive {{package_name}}`
-
-- Synchronize your repository databases and update your system and dependencies:
-
-`xbps-install --sync --update`
-
-- Remove packages that were installed as dependencies and aren't currently needed:
-
-`xbps-remove --remove-orphans`
-
-- Remove obsolete packages from the cache:
-
-`xbps-remove --clean-cache`
+`tldr xbps-query`
