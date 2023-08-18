@@ -17,4 +17,4 @@
 
 - Edit last entry's end time:
 
-`timetrap edit --end {{time}}
+`timetrap edit --end {{time}}`
