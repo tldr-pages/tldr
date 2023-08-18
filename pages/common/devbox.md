@@ -1,7 +1,7 @@
 # devbox
 
-> Easily create isolated shells for development<br>
-> Full docs: https://www.jetpack.io/devbox/docs/devbox_global/
+> Easily create isolated shells for development.<br>
+> Full docs: https://www.jetpack.io/devbox/docs/devbox_global/.
 
 - Quickly Find packages:
 
@@ -13,11 +13,15 @@
 
 - Install a package system wide:
 
-`devbox global add {{package_name}}@{{version_number}}`
-`devbox global install`
+```
+devbox global add {{package_name}}@{{version_number}}
+devbox global install
+```
 
-- Install package for just this project
+- Install package for just this project:
 
-`devbox init`
-`devbox add {{package_name}}@{{version_number}}`
-`devbox shell`
+```
+devbox init
+devbox add {{package_name}}@{{version_number}}
+devbox shell
+```
