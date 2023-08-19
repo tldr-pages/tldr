@@ -1,20 +1,17 @@
 # swapoff
 
-> Disables device or file for swapping.
+> Disable devices and files for swapping.
+> Note: `path/to/file` can either point to a regular file or a swap partition.
 > More information: <https://manned.org/swapoff>.
 
-- Disable a given swap partition:
-
-`swapoff {{/dev/sdb7}}`
-
-- Disable a given swap file:
+- Disable a given swap area:
 
 `swapoff {{path/to/file}}`
 
-- Disable all swap areas:
+- Disable all swap areas in `/proc/swaps`:
 
-`swapoff -a`
+`swapoff --all`
 
-- Disable swap by label of a device or file:
+- Disable a swap partition by its label:
 
-`swapoff -L {{swap1}}`
+`swapoff -L {{label}}`

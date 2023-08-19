@@ -1,24 +1,21 @@
 # swapon
 
-> Enables device or file for swapping.
+> Enable devices and files for swapping.
+> Note: `path/to/file` can either point to a regular file or a swap partition.
 > More information: <https://manned.org/swapon>.
 
-- Get swap information:
+- Show swap information:
 
-`swapon -s`
+`swapon`
 
-- Enable a given swap partition:
-
-`swapon {{/dev/sdb7}}`
-
-- Enable a given swap file:
+- Enable a given swap area:
 
 `swapon {{path/to/file}}`
 
-- Enable all swap areas:
+- Enable all swap areas specified in `/etc/fstab` except those with the `noauto` option:
 
-`swapon -a`
+`swapon --all`
 
-- Enable swap by label of a device or file:
+- Enable a swap partition by its label:
 
-`swapon -L {{swap1}}`
+`swapon -L {{label}}`
