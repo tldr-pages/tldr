@@ -11,6 +11,6 @@
 
 `systemd-notify --ready`
 
-- Provide a custom status message to systemd. It can be used to provide additional information about the service's initialization progress or state:
+- Provide a custom status message to systemd (this information is shown by `systemctl status`):
 
-`systemd-notify --status="Add custom status message here..."`
+`systemd-notify --status="{{Add custom status message here...}}"`
