@@ -14,7 +14,3 @@
 - Provide a custom status message to systemd. It can be used to provide additional information about the service's initialization progress or state:
 
 `systemd-notify --status="Add custom status message here..."`
-
-
-
-
