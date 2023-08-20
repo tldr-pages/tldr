@@ -16,7 +16,7 @@
 
 `ncu -g`
 
-- Upgrade all npm packages in current folder:
+- Upgrade all npm packages in the current directory:
 
 `ncu -u && npm install`
 
