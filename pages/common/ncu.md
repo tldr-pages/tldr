@@ -4,7 +4,7 @@
 > Used for checking outdated npm packages locally or globally.
 > More information: <https://github.com/raineorshine/npm-check-updates>.
 
-- Install npm package node-check-updates globally:
+- Install npm package `node-check-updates` globally:
 
 `npm install -g node-check-updates`
 
