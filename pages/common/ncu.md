@@ -24,6 +24,6 @@
 
 `ncu -i && npm install`
 
-- View `ncu` options:
+- Display help:
 
 `ncu -h`
