@@ -1,7 +1,6 @@
 # ncu
 
-> npm plugin for `npm-check-updates`.
-> Used for checking outdated npm packages locally or globally.
+> Find newer versions of package dependencies and check outdated npm packages locally or globally.
 > More information: <https://github.com/raineorshine/npm-check-updates>.
 
 - Install npm package `node-check-updates` globally:
