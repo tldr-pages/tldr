@@ -15,6 +15,6 @@
 
 `timetrap display`
 
-- Edit last entry's end time:
+- Edit the last entry's end time:
 
 `timetrap edit --end {{time}}`
