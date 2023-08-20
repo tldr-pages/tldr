@@ -17,4 +17,4 @@
 
 - Call/restart `my_server` when any file in the current directory change, sending `SIGKILL` to stop the child process:
 
-`watchexec --restart --signal {{SIGKILL}} {{my_server}}`
+`watchexec --restart --stop-signal {{SIGKILL}} {{my_server}}`
