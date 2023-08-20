@@ -8,7 +8,7 @@
 
 `npm install -g node-check-updates`
 
-- List outdated npm packages in current folder:
+- List outdated npm packages in the current directory:
 
 `ncu`
 
