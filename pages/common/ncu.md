@@ -20,7 +20,7 @@
 
 `ncu -u && npm install`
 
-- Interactively upgrade npm package in current directory:
+- Interactively upgrade npm packages in the current directory:
 
 `ncu -i && npm install`
 
