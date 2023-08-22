@@ -1,6 +1,7 @@
 # ncu
 
 > Find newer versions of package dependencies and check outdated npm packages locally or globally.
+> `ncu` only updates dependency versions in `package.json`. To install the new versions, run `npm install` afterwards.
 > More information: <https://github.com/raineorshine/npm-check-updates>.
 
 - List outdated npm packages in the current directory:
