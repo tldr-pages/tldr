@@ -11,13 +11,13 @@
 
 `ncu -g`
 
-- Upgrade all npm packages in the current directory:
+- Upgrade all dependencies in the current directory:
 
-`ncu -u && npm install`
+`ncu -u`
 
-- Interactively upgrade npm packages in the current directory:
+- Interactively upgrade dependencies in the current directory:
 
-`ncu -i && npm install`
+`ncu -i`
 
 - Display help:
 
