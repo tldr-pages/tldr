@@ -8,9 +8,9 @@
 
 `nmap -O {{ip_or_hostname}}`
 
-- Try to determine whether the specified hosts are up (ping scan) and what their names are:
+- Try to determine whether the specified hosts are up (ping scan) and what their names and MAC addresses are:
 
-`nmap -sn {{ip_or_hostname}} {{optional_another_address}}`
+`sudo nmap -sn {{ip_or_hostname}} {{optional_another_address}}`
 
 - Also enable scripts, service detection, OS fingerprinting and traceroute:
 
