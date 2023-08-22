@@ -3,10 +3,6 @@
 > Find newer versions of package dependencies and check outdated npm packages locally or globally.
 > More information: <https://github.com/raineorshine/npm-check-updates>.
 
-- Install npm package `node-check-updates` globally:
-
-`npm install -g node-check-updates`
-
 - List outdated npm packages in the current directory:
 
 `ncu`
