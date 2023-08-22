@@ -1,7 +1,6 @@
 # clamscan
 
 > Sebuah program pemindai virus berbasis command-line.
-> Gunakan perintah ini jika Anda hendak tidak menggunakan daemon ClamAV (`clamd`).
 > Informasi lebih lanjut: <https://www.clamav.net>.
 
 - Pindai kerentanan sebuah file:
