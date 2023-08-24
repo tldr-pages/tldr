@@ -15,7 +15,7 @@
 
 `aws cloud9 describe-environments --environment-ids {{environment_ids}}`
 
-- Adds an environment member to a Cloud9 development environment:
+- Add an environment member to a Cloud9 development environment:
 
 `aws cloud9 create-environment-membership --environment-id {{environment_id}} --user-arn {{user_arn}} --permissions {{permissions}}`
 
