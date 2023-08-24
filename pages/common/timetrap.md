@@ -14,3 +14,7 @@
 - Display the current timesheet:
 
 `timetrap display`
+
+- Edit the last entry's end time:
+
+`timetrap edit --end {{time}}`
