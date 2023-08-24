@@ -1,6 +1,6 @@
 # swaylock
 
-> Swaylock is a screen locking utility for Wayland compositors.
+> Screen locking utility for Wayland compositors.
 > More information: <https://www.mankier.com/1/swaylock>.
 
 - Lock the screen showing a white background:
