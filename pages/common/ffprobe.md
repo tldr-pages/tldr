@@ -5,7 +5,7 @@
 
 - Display all available stream info for a media file:
 
-`ffprobe -v error -show_entries {{input.mp4}}`
+`ffprobe -v error -show_streams {{input.mp4}}`
 
 - Display media duration:
 

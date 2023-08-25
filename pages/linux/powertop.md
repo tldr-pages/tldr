@@ -14,3 +14,7 @@
 - Tune to optimal settings:
 
 `sudo powertop --auto-tune`
+
+- Generate a report for a specified number of seconds (instead of 20 by default):
+
+`sudo powertop --time={{5}}`

@@ -4,11 +4,11 @@
 > Service atd (or atrun) should be running for the actual executions.
 > More information: <https://manned.org/at>.
 
-- Execute commands from standard input in 5 minutes (press `Ctrl + D` when done):
+- Execute commands from `stdin` in 5 minutes (press `Ctrl + D` when done):
 
 `at now + 5 minutes`
 
-- Execute a command from standard input at 10:00 AM today:
+- Execute a command from `stdin` at 10:00 AM today:
 
 `echo "{{./make_db_backup.sh}}" | at 1000`
 
