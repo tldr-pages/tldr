@@ -34,4 +34,4 @@
 
 - Run a class with a main method:
 
-`mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{arg1 arg2}}"`
+`mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{argument1 argument2 ...}}"`

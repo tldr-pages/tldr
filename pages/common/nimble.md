@@ -10,7 +10,7 @@
 
 - Install a package:
 
-`nimble install {{package_name}}`
+`nimble install {{package}}`
 
 - List installed packages:
 
