@@ -5,7 +5,7 @@
 
 - Install a specific package:
 
-`sudo eopkg install {{package_name}}`
+`sudo eopkg install {{package}}`
 
 - Update all packages:
 

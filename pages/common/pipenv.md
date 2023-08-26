@@ -14,7 +14,7 @@
 
 - Install a package:
 
-`pipenv install {{package_name}}`
+`pipenv install {{package}}`
 
 - Install all the dependencies for a project:
 
@@ -26,7 +26,7 @@
 
 - Uninstall a package:
 
-`pipenv uninstall {{package_name}}`
+`pipenv uninstall {{package}}`
 
 - Start a shell within the created virtual environment:
 

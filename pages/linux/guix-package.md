@@ -5,11 +5,11 @@
 
 - Install a new package:
 
-`guix package -i {{package_name}}`
+`guix package -i {{package}}`
 
 - Remove a package:
 
-`guix package -r {{package_name}}`
+`guix package -r {{package}}`
 
 - Search the package database for a regular expression:
 
