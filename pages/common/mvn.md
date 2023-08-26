@@ -30,7 +30,7 @@
 
 - Clean and then package the code with a given build profile:
 
-`mvn clean -P{{profile}} package`
+`mvn clean -P {{profile}} package`
 
 - Run a class with a main method:
 
