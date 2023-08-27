@@ -2,7 +2,7 @@
 
 > Rust toolchain installer.
 > Install, manage, and update Rust toolchains.
-> More information: <https://github.com/rust-lang/rustup.rs>.
+> More information: <https://rust-lang.github.io/rustup>.
 
 - Install the nightly toolchain for your system:
 
