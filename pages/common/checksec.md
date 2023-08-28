@@ -3,7 +3,7 @@
 > Check security properties of executables.
 > More information: <https://github.com/slimm609/checksec.sh>.
 
-- List security properties of an executable binary files:
+- List security properties of an executable binary file:
 
 `checksec --file={{path/to/binary}}`
 
