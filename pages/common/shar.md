@@ -1,7 +1,7 @@
 # shar
 
 > Create a shell archive.
-> More information: <https://manned.org/freebsd/shar>.
+> More information: <https://manned.org/man/freebsd/shar>.
 
 - Create a shell file that when executed extracts the given files from itself:
 
