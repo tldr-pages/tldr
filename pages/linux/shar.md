@@ -1,28 +1,24 @@
 # shar
 
 > Create a shell archive.
-> More information: <https://manned.org/shar>.
+> More information: <https://www.gnu.org/software/sharutils/manual/sharutils.html>.
 
-- Specify compression for input files:
+- Create a shell file that when executed extracts the given files from itself:
 
-`shar --intermix-type`
+`shar --vanilla-operation {{path/to/file1 path/to/file2 ...}} > {{path/to/archive.sh}}`
 
-- Specify compaction (compression) program:
+- Compress the files in the archive:
 
-`shar --compactor={{program}}`
+`shar --compactor {{xz}} {{path/to/file1 path/to/file2 ...}} > {{path/to/archive.sh}}`
 
-- Pass level for compression:
+- Treat all files as binary (i.e. `uuencode` everything):
 
-`shar --level-of-compression={{level}}`
+`shar --uuencode {{path/to/file1 path/to/file2 ...}} > {{path/to/archive.sh}}`
 
-- Decide uuencoding for each file:
+- Treat all files as text (i.e. `uuencode` nothing):
 
-`shar --mixed-uuencode`
+`shar --text-files {{path/to/file1 path/to/file2 ...}} > {{path/to/archive.sh}}`
 
-- Treat all files as binary:
+- Include a name and cut mark in the header comment of the archive:
 
-`shar --uuencode`
-
-- Treat all files as text:
-
-`shar --text-files`
+`shar --archive-name "{{My files}}" --cut-mark {{path/to/file1 path/to/file2 ...}} > {{path/to/archive.sh}}`
