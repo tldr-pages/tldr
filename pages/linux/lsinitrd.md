@@ -16,7 +16,7 @@
 
 `lsinitrd {{path/to/initramfs.img}}`
 
-- List dracut modules included in the initramfs image:
+- List modules included in the initramfs image:
 
 `lsinitrd --mod`
 
