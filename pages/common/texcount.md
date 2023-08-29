@@ -3,9 +3,9 @@
 > Count words in TeX documents omiting macros.
 > More information: <https://app.uio.no/ifi/texcount/index.html>.
 
-- Count words in one TeX file:
+- Count words in a TeX file:
 
-`texcount path/to/file`
+`texcount {{path/to/file.tex}}`
 
 - Count words in document and subdocuments built with \input or \include:
 
