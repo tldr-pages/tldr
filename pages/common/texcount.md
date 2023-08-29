@@ -7,9 +7,9 @@
 
 `texcount {{path/to/file.tex}}`
 
-- Count words in document and subdocuments built with \input or \include:
+- Count words in a document and subdocuments built with `\input` or `\include`:
 
-`texcount -merge file`
+`texcount -merge {{file.tex}}`
 
 - Count words in document and subdocuments list each file extra:
 
