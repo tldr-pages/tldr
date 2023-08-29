@@ -1,7 +1,7 @@
 # rustup toolchain
 
 > Manage Rust toolchains.
-> See `rustup toolchain help` for more information about toolchains.
+> See `rustup help toolchain` for more information about toolchains.
 > More information: <https://rust-lang.github.io/rustup>.
 
 - Install or update a given toolchain:
