@@ -3,7 +3,7 @@
 > Create a shell archive.
 > More information: <https://www.gnu.org/software/sharutils/manual/sharutils.html>.
 
-- Create a shell file that when executed extracts the given files from itself:
+- Create a shell script that when executed extracts the given files from itself:
 
 `shar --vanilla-operation {{path/to/file1 path/to/file2 ...}} > {{path/to/archive.sh}}`
 
