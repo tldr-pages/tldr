@@ -33,4 +33,4 @@
 
 - Executar uma classe que possua o método `main`:
 
-`mvn exec:java -Dexec.mainClass="{{nome.do.pacote.classe}}" -Dexec.args="{{arg1 arg2}}"`
+`mvn exec:java -Dexec.mainClass="{{nome.do.pacote.classe}}" -Dexec.args="{{argument1 argument2 ...}}"`

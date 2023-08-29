@@ -11,17 +11,17 @@
 
 `wapm install`
 
-- Download a specific version of a package and add it to the list of dependencies in wapm.toml:
+- Download a specific version of a package and add it to the list of dependencies in `wapm.toml`:
 
-`wapm install {{package_name}}@{{version}}`
+`wapm install {{package}}@{{version}}`
 
 - Download a package and install it globally:
 
-`wapm install --global {{package_name}}`
+`wapm install --global {{package}}`
 
 - Uninstall a package and remove it from the list of dependencies in `wapm.toml`:
 
-`wapm uninstall {{package_name}}`
+`wapm uninstall {{package}}`
 
 - Print a tree of locally installed dependencies:
 
