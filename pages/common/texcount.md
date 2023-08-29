@@ -18,4 +18,4 @@
 
 - Count words with verbose output:
 
-`texcount -v path/to/file`
+`texcount -v {{path/to/file.tex}}`
