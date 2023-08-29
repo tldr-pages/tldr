@@ -12,9 +12,9 @@
 
 `texcount -merge {{file.tex}}`
 
-- Count words in document and subdocuments list each file extra:
+- Count words in a document and subdocuments, listing each file separately (and a total count):
 
-`texcount -inc file`
+`texcount -inc {{file.tex}}`
 
 - Count words with verbose output:
 
