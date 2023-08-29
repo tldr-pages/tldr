@@ -7,7 +7,7 @@
 
 `pm list packages`
 
-- Affiche une liste de toutes les applications système instalées :
+- Affiche une liste de toutes les applications système installées :
 
 `pm list packages -s`
 
