@@ -22,3 +22,15 @@
 - List available chroots:
 
 `schroot --list`
+
+- Begin a new session. A unique session ID is returned on standard output:
+
+`schroot --begin-session --chroot {{chroot}}`
+
+- Connect to an existing session:
+
+`schroot --run-session --chroot {{session_id}}`
+
+- End an existing session:
+
+`schroot --end-session --chroot {{session_id}}`
