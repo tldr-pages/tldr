@@ -7,7 +7,7 @@
 
 `ROPgadget --binary {{path/to/binary}}`
 
-- List gadgets in the binary file, filtered by regular expression:
+- Filter gadgets in the binary file by a regular expression:
 
 `ROPgadget --binary {{path/to/binary}} --re {{regex}}`
 
@@ -15,10 +15,10 @@
 
 `ROPgadget --binary {{path/to/binary}} --{{norop|nojob|nosys}}`
 
-- List gadgets in the binary file, not including bad bytes:
+- Exclude bad byte gadgets in the binary file:
 
 `ROPgadget --binary {{path/to/binary}} --badbytes {{byte_string}}`
 
-- List gadgets in the binary file, with up to a given number of bytes:
+- List gadgets up to the specified number of bytes in the binary file:
 
 `ROPgadget --binary {{path/to/binary}} --depth {{nbyte}}`
