@@ -12,6 +12,6 @@
 
 `mktemp --directory`
 
-- Create an empty temporary file at the specified path, with `X`s replaced with random alphanumeric characeters, and print its path:
+- Create an empty temporary file at the specified path, with `X`s replaced with random alphanumeric characters, and print its path:
 
 `mktemp "{{path/to/file-XXXXX-name}}"`
