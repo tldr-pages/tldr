@@ -7,18 +7,18 @@
 
 `ropper --file {{path/to/binary}}`
 
-- List gadgets in the binary file, filtered by regular expression:
+- Filter gadgets in the binary file by a regular expression:
 
 `ropper --file {{path/to/binary}} --search {{regex}}`
 
-- List gadgets in the binary file of the specified type:
+- List gadgets of specified type in the binary file:
 
 `ropper --file {{path/to/binary}} --type {{rop|job|sys|all}}`
 
-- List gadgets in the binary file, not including bad bytes:
+- Exclude bad byte gadgets in the binary file:
 
 `ropper --file {{path/to/binary}} --badbytes {{byte_string}}`
 
-- List gadgets in the binary file, with up to the given instructions count:
+- List gadgets up to the specified instruction count in the binary file:
 
 `ropper --file {{path/to/binary}} --inst-count {{count}}`
