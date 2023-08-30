@@ -1,4 +1,4 @@
-# lima
+# limactl
 
 > Virtual machine manager for linux guests, with multiple vm templates available.
 > Can be used to run containers on macos, but also for generic virtual machine use-cases on macos and linux hosts.
