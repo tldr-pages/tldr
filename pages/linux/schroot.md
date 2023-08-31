@@ -23,7 +23,7 @@
 
 `schroot --chroot {{chroot}} --user {{user}}`
 
-- Begin a new session (A unique session ID is returned on standard output):
+- Begin a new session (a unique session ID is returned on `stdout`):
 
 `schroot --begin-session --chroot {{chroot}}`
 
