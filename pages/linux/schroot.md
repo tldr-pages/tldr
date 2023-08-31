@@ -1,7 +1,11 @@
 # schroot
 
-> Run command or start an interactive shell with a different root directory. More customizable than `chroot`.
+> Run a command or start an interactive shell with a different root directory. More customizable than `chroot`.
 > More information: <https://wiki.debian.org/Schroot>.
+
+- List available chroots:
+
+`schroot --list`
 
 - Run a command in a specific chroot:
 
@@ -19,6 +23,14 @@
 
 `schroot --chroot {{chroot}} --user {{user}}`
 
-- List available chroots:
+- Begin a new session (a unique session ID is returned on `stdout`):
 
-`schroot --list`
+`schroot --begin-session --chroot {{chroot}}`
+
+- Connect to an existing session:
+
+`schroot --run-session --chroot {{session_id}}`
+
+- End an existing session:
+
+`schroot --end-session --chroot {{session_id}}`
