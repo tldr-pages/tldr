@@ -35,6 +35,6 @@
 
 `ls -d */`
 
-- lists contents inside a directory recursively:
+- Lists contents inside a directory recursively:
 
 `ls -lRt`
