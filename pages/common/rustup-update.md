@@ -7,6 +7,6 @@
 
 `rustup update`
 
-- Update a specific toolchain (see `rustup help toolchain` for more information):
+- Install or update a specific toolchain (see `rustup help toolchain` for more information):
 
 `rustup update {{toolchain}}`
