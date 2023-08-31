@@ -34,3 +34,7 @@
 - Only list directories:
 
 `ls -d */`
+
+- lists contents inside a directory recursively:
+
+`ls -lRt`
