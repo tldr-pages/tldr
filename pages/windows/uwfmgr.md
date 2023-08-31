@@ -16,7 +16,7 @@
 
 `uwfmgr volume unprotect {{drive_letter}}:`
 
-- Enable or disable protection. Applies after reboot.
+- Enable or disable protection (Applies after reboot):
 
 `uwfmgr filter {{enable|disable}}`
 
