@@ -3,7 +3,7 @@
 > List or process pending systemd password requests.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-tty-ask-password-agent.html>.
 
-- Lists all currently pending system password requests:
+- List all currently pending system password requests:
 
 `systemd-tty-ask-password-agent --list`
 
@@ -18,4 +18,3 @@
 - Forward password requests to wall instead of querying the user on the calling TTY:
 
 `systemd-tty-ask-password-agent --wall`
-
