@@ -4,7 +4,7 @@
 > Protect drives by redirecting any writes to the drive to a virtual overlay. Writes are discarded upon reboot unless committed by default.
 > More information: <https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/unified-write-filter>.
 
-- Get current status:
+- Get the current status:
 
 `uwfmgr get-config`
 
