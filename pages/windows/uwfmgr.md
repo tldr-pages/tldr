@@ -1,7 +1,7 @@
 # uwfmgr
 
-> Unified Write Filter (UWF) command line interface.
-> UWF helps to protect drives by redirecting any writes to the drive to a virtual overlay. Writes are discarded upon reboot unless committed by default.
+> Unified Write Filter (UWF).
+> Protect drives by redirecting any writes to the drive to a virtual overlay. Writes are discarded upon reboot unless committed by default.
 > More information: <https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/unified-write-filter>.
 
 - Get current status:
