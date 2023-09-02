@@ -9,7 +9,7 @@
 
 - Führe Shell-Befehl in nicht-interaktiver Shell aus und beende:
 
-`nix-shell --run "{{befehl}} {{arg1 arg2 ...}}"`
+`nix-shell --run "{{befehl}} {{argument1 argument2 ...}}"`
 
 - Starte mit Ausdruck in `default.nix` im aktuellen Verzeichnis:
 

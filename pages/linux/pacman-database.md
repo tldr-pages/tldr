@@ -7,11 +7,11 @@
 
 - Mark a package as implicitly installed:
 
-`sudo pacman --database --asdeps {{package_name}}`
+`sudo pacman --database --asdeps {{package}}`
 
 - Mark a package as explicitly installed:
 
-`sudo pacman --database --asexplicit {{package_name}}`
+`sudo pacman --database --asexplicit {{package}}`
 
 - Check that all the package dependencies are installed:
 

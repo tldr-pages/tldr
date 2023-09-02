@@ -5,11 +5,11 @@
 
 - Install a package:
 
-`pip install {{package_name}}`
+`pip install {{package}}`
 
 - Install a specific version of a package:
 
-`pip install {{package_name}}=={{package_version}}`
+`pip install {{package}}=={{version}}`
 
 - Install packages listed in a file:
 

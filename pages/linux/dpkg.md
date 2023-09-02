@@ -11,7 +11,7 @@
 
 - Remove a package:
 
-`dpkg -r {{package_name}}`
+`dpkg -r {{package}}`
 
 - List installed packages:
 
@@ -19,7 +19,7 @@
 
 - List a package's contents:
 
-`dpkg -L {{package_name}}`
+`dpkg -L {{package}}`
 
 - List contents of a local package file:
 
@@ -27,4 +27,4 @@
 
 - Find out which package owns a file:
 
-`dpkg -S {{filename}}`
+`dpkg -S {{path/to/file}}`
