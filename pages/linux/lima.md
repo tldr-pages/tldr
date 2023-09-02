@@ -1,8 +1,8 @@
 # lima
 
-> This command is a wrapper for `limactl`.
+> This command is an alias of `limactl`.
 > More information: <https://github.com/lima-vm/lima>.
 
-- View documentation of `limactl`:
+- View documentation for the original command:
 
 `tldr limactl`
