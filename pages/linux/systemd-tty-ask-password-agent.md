@@ -7,7 +7,7 @@
 
 `systemd-tty-ask-password-agent --list`
 
-- To Continuously process password requests:
+- Continuously process password requests:
 
 `systemd-tty-ask-password-agent --watch`
 
