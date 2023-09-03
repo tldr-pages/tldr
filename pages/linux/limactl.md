@@ -10,7 +10,7 @@
 
 - Create a virtual machine using the default settings (this will download the VM image on the first run):
 
-`cat /usr/local/share/lima/templates/$LIMA_DISTRO.yaml | limactl create --name=$LIMA_DISTRO-vm -`
+`limactl create --name=$LIMA_DISTRO-vm template://$LIMA_DISTRO`
 
 - Start the VM instance (this might install some dependencies in the VM and take a few minutes):
 
