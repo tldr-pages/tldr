@@ -1,7 +1,7 @@
 # limactl
 
 > Virtual machine manager for Linux guests, with multiple VM templates available.
-> Can be used to run containers on macos, but also for generic virtual machine use-cases on macOS and Linux hosts.
+> Can be used to run containers on macOS, but also for generic virtual machine use cases on macOS and Linux hosts.
 > More information: <https://github.com/lima-vm/lima>.
 
 - Pick any of the available distributions, see templates in `/usr/local/share/lima/templates/`:
