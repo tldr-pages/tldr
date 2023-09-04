@@ -7,7 +7,7 @@
 
 `stressapptest -M {{memory}}`
 
-- Test memory as well as I/O to the given file:
+- Test memory as well as I/O for the given file:
 
 `stressapptest -M {{memory}} -f {{path/to/file}}`
 
