@@ -4,11 +4,11 @@
 > Updates are performed using OCI images, to ensure that the system is always in a consistent state.
 > More information: <https://github.com/Vanilla-OS/ABRoot>.
 
-- Add packages to the local image (Note: after executing this command you need to apply these changes.):
+- Add packages to the local image (Note: after executing this command, you need to apply these changes.):
 
 `sudo abroot pkg add {{package}}`
 
-- Remove packages from the local image (Note: after executing this command you need to apply these changes.):
+- Remove packages from the local image (Note: after executing this command, you need to apply these changes.):
 
 `sudo abroot pkg remove {{package}}`
 
