@@ -8,26 +8,22 @@
 
 `limactl create --list-templates`
 
-- Pick any of the available distributions:
+- Create a virtual machine using the default settings with any of the templates and optionally provide a name (this will download the VM image on the first run):
 
-`LIMA_DISTRO={{debian|fedora|ubuntu|…}}`
-
-- Create a virtual machine using the default settings (this will download the VM image on the first run):
-
-`limactl create {{--name=$LIMA_DISTRO-vm}} template://$LIMA_DISTRO`
+`limactl create {{--name=default}} template://{{debian|fedora|ubuntu|…}}`
 
 - Start the VM instance (this might install some dependencies in the VM and take a few minutes):
 
-`limactl start {{$LIMA_DISTRO-vm}}`
+`limactl start {{debian|fedora|ubuntu|…}}`
 
 - Open a remote shell inside the VM:
 
-`limactl shell {{$LIMA_DISTRO-vm}}`
+`limactl shell {{debian|fedora|ubuntu|…}}`
 
 - Stop/shutdown the VM instance:
 
-`limactl stop {{$LIMA_DISTRO-vm}}`
+`limactl stop {{debian|fedora|ubuntu|…}}`
 
 - Delete the VM instance:
 
-`limactl remove {{$LIMA_DISTRO-vm}}`
+`limactl remove {{debian|fedora|ubuntu|…}}`
