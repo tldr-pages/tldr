@@ -15,6 +15,6 @@
 
 `liquidctl status`
 
-- Match with a string in product name and set fan speed to 0% in 20°C, 50% in 50°C and 100% in 70°C:
+- Match a string in product name to pick a device and set its fan speed to 0% at 20°C, 50% at 50°C and 100% at 70°C:
 
 `liquidctl --match {{string}} set fan speed {{20 0 50 50 70 100}}`
