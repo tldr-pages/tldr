@@ -1,4 +1,4 @@
-# systemd-mount
+# systemd-tmpfiles
 
 > Create, delete and clean up volatile and temporary files and directories.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-tmpfiles.html>.
