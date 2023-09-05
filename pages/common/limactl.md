@@ -4,26 +4,30 @@
 > Can be used to run containers on macOS, but also for generic virtual machine use cases on macOS and Linux hosts.
 > More information: <https://github.com/lima-vm/lima>.
 
-- See available VM templates:
+- List VMs:
 
-`limactl create --list-templates`
+`limactl list`
 
-- Create a virtual machine using the default settings with any of the templates and optionally provide a name (this will download the VM image on the first run):
+- Create a VM using the default settings and optionally provide a name and/or a template (see `limactl create --list-templates` for available templates):
 
-`limactl create {{--name=default}} template://{{debian|fedora|ubuntu|…}}`
+`limactl create --name {{vm_name}} template://{{debian|fedora|ubuntu|…}}`
 
-- Start the VM instance (this might install some dependencies in the VM and take a few minutes):
+- Start a VM (this might install some dependencies in it and take a few minutes):
 
-`limactl start {{debian|fedora|ubuntu|…}}`
+`limactl start {{vm_name}}`
 
-- Open a remote shell inside the VM:
+- Open a remote shell inside a VM:
 
-`limactl shell {{debian|fedora|ubuntu|…}}`
+`limactl shell {{vm_name}}`
 
-- Stop/shutdown the VM instance:
+- Run a command inside a VM:
 
-`limactl stop {{debian|fedora|ubuntu|…}}`
+`limactl shell {{vm_name}} {{command}}`
 
-- Delete the VM instance:
+- Stop/shutdown a VM:
 
-`limactl remove {{debian|fedora|ubuntu|…}}`
+`limactl stop {{vm_name}}`
+
+- Delete a VM:
+
+`limactl remove {{vm_name}}`
