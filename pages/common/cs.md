@@ -1,7 +1,7 @@
 # coursier
 
 > Application and artifact manager for the Scala language, it can install Scala applications and setup your Scala development environment.
-> Some subcommands such as `install`, `launch`, `java`, `fetch`, `resolve`, `complete-dep`, etc. have their own usage documentation, accessible via `tldr cs subcommand`.
+> Some subcommands such as `install`, `launch`, `java`, `fetch`, `resolve`, `complete-dep`, etc. have their own usage documentation.
 > More information: <https://get-coursier.io/docs/overview>.
 
 - Display version:
