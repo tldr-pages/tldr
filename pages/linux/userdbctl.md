@@ -1,6 +1,6 @@
 # userdbctl
 
-> Inspect user, groups and group memberships of the system.
+> Inspect users, groups and group memberships on the system.
 > More information: <https://www.freedesktop.org/software/systemd/man/userdbctl.html>.
 
 - List all known user records:
