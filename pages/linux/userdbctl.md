@@ -17,7 +17,7 @@
 
 - Show details of a specific group:
 
-`userdbctl group "{{groupname}}"`
+`userdbctl group {{groupname}}`
 
 - List all services currently providing user/group definitions to the system:
 
