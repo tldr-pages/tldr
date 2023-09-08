@@ -9,7 +9,7 @@
 
 - Show details of a specific user:
 
-`userdbctl user "{{username}}"`
+`userdbctl user {{username}}`
 
 - List all known groups:
 
