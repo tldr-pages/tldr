@@ -3,7 +3,7 @@
 > Creates system users and groups.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-sysusers.html>.
 
-- Create Users and Groups from a Specific Configuration File:
+- Create users and groups from a specific configuration file:
 
 `systemd-sysusers {{config_pathpath}}`
 
