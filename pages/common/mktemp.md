@@ -1,16 +1,20 @@
 # mktemp
 
 > Create a temporary file or directory.
-> More information: <https://ss64.com/osx/mktemp.html>.
+> More information: <https://man.openbsd.org/mktemp.1>.
 
-- Create an empty temporary file and print the absolute path to it:
+- Create an empty temporary file and print its absolute path:
 
 `mktemp`
 
-- Create an empty temporary file with a given suffix and print the absolute path to file:
+- Use a custom path template (`X`s are replaced with random alphanumeric characters):
 
-`mktemp --suffix "{{.ext}}"`
+`mktemp {{/tmp/example.XXXXXXXX}}`
 
-- Create a temporary directory and print the absolute path to it:
+- Use a custom file name template:
+
+`mktemp -t {{example.XXXXXXXX}}`
+
+- Create an empty temporary directory and print its absolute path:
 
 `mktemp -d`
