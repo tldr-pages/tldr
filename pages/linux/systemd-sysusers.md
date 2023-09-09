@@ -1,6 +1,6 @@
 # systemd-sysusers
 
-> Creates system users and groups.
+> Create system users and groups.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-sysusers.html>.
 
 - Create users and groups from a specific configuration file:
