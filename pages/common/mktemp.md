@@ -7,6 +7,10 @@
 
 `mktemp`
 
+- Use a custom directory if `$TMPDIR` is not set (the default is platform-dependent, but usually `/tmp`):
+
+`mktemp -p {{/path/to/tempdir}}`
+
 - Use a custom path template (`X`s are replaced with random alphanumeric characters):
 
 `mktemp {{/tmp/example.XXXXXXXX}}`
