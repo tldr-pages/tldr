@@ -11,7 +11,7 @@
 
 `vso sys-upgrade upgrade --now`
 
-- Initialize the subsystem:
+- Initialize the Pico subsystem (used for package management):
 
 `vso pico-init`
 
