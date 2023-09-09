@@ -1,6 +1,6 @@
 # systemd-sysusers
 
-> creates system users and groups.
+> Creates system users and groups.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-sysusers.html>.
 
 - Create Users and Groups from a Specific Configuration File:
@@ -14,4 +14,3 @@
 - Print the contents of the specified configuration file:
 
 `systemd-sysusers --cat-config {{config_path}}`
-
