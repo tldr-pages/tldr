@@ -7,13 +7,17 @@
 
 `mktemp`
 
+- Use a custom directory (defaults to `/tmp`):
+
+`mktemp --tmpdir {{/path/to/tempdir}}`
+
 - Use a custom path template (`X`s are replaced with random alphanumeric characters):
 
 `mktemp {{/tmp/example.XXXXXXXX}}`
 
 - Use a custom file name template:
 
-`mktemp -t {{example.XXXXXXXX}}`
+`mktemp --deprecated-tmpdir {{example.XXXXXXXX}}`
 
 - Create an empty temporary file with the given suffix and print its absolute path:
 
