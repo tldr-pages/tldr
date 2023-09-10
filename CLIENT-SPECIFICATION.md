@@ -225,11 +225,12 @@ including the changes. NOTE: tagging of the commit with a new version tag (in
 the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
+ - Unreleased
 
- - Unreleased ([#10148](https://github.com/tldr-pages/tldr/pull/10148))
+ - [v2.0, September 10th 2023](https://github.com/tldr-pages/tldr/blob/v2.0/CLIENT-SPECIFICATION.md) ([#10148](https://github.com/tldr-pages/tldr/pull/10148))
    - Add recommendation to support `macos` alias for `osx` ([#7514](https://github.com/tldr-pages/tldr/pull/7514))
    - Drop the special "all" platform from the `--list` flag ([#7561](https://github.com/tldr-pages/tldr/pull/7561))
-   - Drop the `master` branch from assets link. ([#9668](https://github.com/tldr-pages/tldr/pull/9668))
+   - Drop the `master` branch from the assets link. ([#9668](https://github.com/tldr-pages/tldr/pull/9668))
    - Require support for long options ([#9651](https://github.com/tldr-pages/tldr/pull/9651))
    - Add recommendation to support caching individual translation archives ([#10148](https://github.com/tldr-pages/tldr/pull/10148))
 
