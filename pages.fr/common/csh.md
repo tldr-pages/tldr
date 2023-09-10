@@ -1,7 +1,7 @@
 # csh
 
 > Le shell (interprèteur de commandes) affiche une syntaxe proche de C.
-> Voir aussi : tcsh.
+> Voir aussi : `tcsh`.
 > Plus d'informations : <https://www.mkssoftware.com/docs/man1/csh.1.asp>.
 
 - Démarrer une session interactive:
