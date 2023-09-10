@@ -23,7 +23,7 @@
 
 `jhipster entity {{entity_name}}`
 
-- Import a JDL file to configure your application (see: https://start.jhipster.tech/jdl-studio/):
+- Import a JDL file to configure your application (see: <https://start.jhipster.tech/jdl-studio/>):
 
 `jhipster import-jdl {{first_file.jh second_file.jh ... n_file.jh}}`
 

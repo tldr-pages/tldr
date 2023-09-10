@@ -7,7 +7,7 @@
 
 `hugo new site {{path/to/site}}`
 
-- Create a new Hugo theme (themes may also be downloaded from https://themes.gohugo.io/):
+- Create a new Hugo theme (themes may also be downloaded from <https://themes.gohugo.io/>):
 
 `hugo new theme {{theme_name}}`
 
