@@ -1,7 +1,6 @@
 # tod
 
 > A tiny Todoist command line client in Rust.
->
 > Takes simple input and dumps it in your inbox or anoclearther project. Takes advantage of natural language processing to assign due dates, tags, etc.
 > More information: <https://github.com/alanvardy/tod>.
 
