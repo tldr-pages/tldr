@@ -12,7 +12,7 @@
 
 `apx subsystems list`
 
-- Reset a specific subsystem to it's initial state:
+- Reset a specific subsystem to its initial state:
 
 `apx subsystems reset --name {{string}}`
 
