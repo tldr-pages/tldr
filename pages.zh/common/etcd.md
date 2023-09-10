@@ -15,6 +15,6 @@
 
 `etcd --name {{my_etcd_cluster}}`
 
-- 启动单节点 etcd 集群，同时可以在这里看到大量监控指标 http://localhost:2379/debug/pprof/：
+- 启动单节点 etcd 集群，同时可以在这里看到大量监控指标 <http://localhost:2379/debug/pprof/>：
 
 `etcd --enable-pprof --metrics extensive`

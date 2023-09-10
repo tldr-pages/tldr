@@ -15,7 +15,7 @@
 
 `DIST={{bullseye}} ARCH={{amd64}} gbp buildpackage -jauto -us -uc --git-builder={{git-pbuilder}}`
 
-- Specify a package to be a source-only upload in the `.changes` file (see https://wiki.debian.org/SourceOnlyUpload):
+- Specify a package to be a source-only upload in the `.changes` file (see <https://wiki.debian.org/SourceOnlyUpload>):
 
 `gbp buildpackage -jauto -us -uc --changes-options={{-S}}`
 

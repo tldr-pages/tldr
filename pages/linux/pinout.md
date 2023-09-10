@@ -7,6 +7,6 @@
 
 `pinout`
 
-- Open https://pinout.xyz/ in the default browser:
+- Open <https://pinout.xyz/> in the default browser:
 
 `pinout -x`

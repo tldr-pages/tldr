@@ -31,6 +31,6 @@
 
 `wpscan --url {{url}} --usernames {{username|path/to/usernames.txt}} --passwords {{path/to/passwords.txt}} threads {{20}}`
 
-- Scan a WordPress website, collecting vulnerability data from the WPVulnDB (https://wpvulndb.com/):
+- Scan a WordPress website, collecting vulnerability data from the WPVulnDB (<https://wpvulndb.com/>):
 
 `wpscan --url {{url}} --api-token {{token}}`
