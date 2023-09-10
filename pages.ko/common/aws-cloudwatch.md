@@ -25,8 +25,8 @@
 
 - 지정한 알람들 삭제:
 
-`aws cloudwatch delete-alarms --alarm_names {{alarm_names}}`
+`aws cloudwatch delete-alarms --alarm_names {{알람_이름}}`
 
 - 지정한 대시보드들 삭제:
 
-`aws cloudwatch delete-dashboards --dashboard-names {{dashboard_names}}`
+`aws cloudwatch delete-dashboards --dashboard-names {{대시보드_이름}}`
