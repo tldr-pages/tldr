@@ -27,7 +27,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | no    |                      |                        |                                   |           |                   |
 | pl    | ścieżka/do/pliku     | ścieżka/do/katalogu    | ścieżka/do/pliku_lub_katalogu     | pakiet    | nazwa_użytkownika |
 | pt_BR | caminho/para/arquivo | caminho/para/diretorio | caminho/para/arquivo_ou_diretorio | pacote    | nome_do_usuario   |
-| pt_PT |                      |                        |                                   |           |                   |
+| pt_PT | diretório/ficheiro                     | diretório/ficheiro_ou_diretório    |    pacote      |                   |
 | ro    |                      |                        |                                   |           |                   |
 | ru    | путь/до/файла        | путь/до/папки          | путь/до/файла_или_папки           | пакет     | имя_пользователя  |
 | sh    |                      |                        |                                   |           |                   |
