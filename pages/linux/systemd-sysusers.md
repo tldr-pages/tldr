@@ -12,6 +12,6 @@
 
 `systemd-sysusers --dry-run {{path/to/file}}`
 
-- Print the contents of the specified configuration file:
+- Print the contents of all config files (before each file, its name is printed as a comment):
 
-`systemd-sysusers --cat-config {{config_path}}`
+`systemd-sysusers --cat-config`
