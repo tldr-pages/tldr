@@ -1,6 +1,6 @@
 # l2ping
 
-> Send L2CAP echo request and receive an answer.
+> Send an L2CAP echo request and receive an answer.
 > More information: <https://manned.org/l2ping>.
 
 - Ping a Bluetooth device:
@@ -23,7 +23,7 @@
 
 `sudo l2ping -f {{mac_address}}`
 
-- Ping a Bluetooth device for a specified amount of times:
+- Ping a Bluetooth device a specified amount of times:
 
 `sudo l2ping -c {{amount}} {{mac_address}}`
 
