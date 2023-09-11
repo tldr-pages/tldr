@@ -5,7 +5,7 @@
 
 - Create users and groups from a specific configuration file:
 
-`systemd-sysusers {{config_pathpath}}`
+`systemd-sysusers {{path/to/file}}`
 
 - Process configuration files and print what would be done without actually doing anything:
 
