@@ -7,9 +7,9 @@
 
 `systemd-sysusers {{config_pathpath}}`
 
-- Simulate processing a configuration file without creating users and groups to preview the entries that would be generated:
+- Process configuration files and print what would be done without actually doing anything:
 
-`systemd-sysusers --dry-run {{config_pathpath}}`
+`systemd-sysusers --dry-run {{path/to/file}}`
 
 - Print the contents of the specified configuration file:
 
