@@ -1,9 +1,9 @@
 # op
 
-> An official command-line interface for 1Password's desktop app.
+> Official CLI for 1Password's desktop app.
 > More information: <https://developer.1password.com/docs/cli>.
 
-- Sign in to a `1Password` account:
+- Sign in to a 1Password account:
 
 `op signin`
 
@@ -11,11 +11,11 @@
 
 `op vault list`
 
-- Print item detail in `JSON` format:
+- Print item details in JSON format:
 
 `op item get {{item_name}} --format json`
 
-- Create a new item with category in the default vault:
+- Create a new item with a category in the default vault:
 
 `op item create --category {{category_name}}`
 
@@ -33,4 +33,4 @@
 
 - Read secret references from an input file and save plaintext secrets to an output file:
 
-`op inject -i {{path/to/file1}} -o {{path/to/file2}}`
+`op inject -i {{path/to/input_file}} -o {{path/to/output_file}}`
