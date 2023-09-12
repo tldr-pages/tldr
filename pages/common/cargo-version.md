@@ -1,9 +1,9 @@
 # cargo version
 
-> Display Cargo version information.
+> Display `cargo` version information.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-version.html>.
 
-- Display Cargo version:
+- Display the version of `cargo`:
 
 `cargo version`
 

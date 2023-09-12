@@ -1,15 +1,11 @@
 # cargo help
 
-> Display help information about the Rust project manager.
+> Display help on `cargo` and its subcommands.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-help.html>.
 
 - Display general help:
 
 `cargo help`
-
-- Display help for the `cargo help` subcommand:
-
-`cargo help --help`
 
 - Display help for a subcommand:
 
