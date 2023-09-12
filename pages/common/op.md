@@ -32,4 +32,5 @@
 `op run --env-file {{path/to/env_file.env}} -- {{command}}`
 
 - Read secret references from an input file and save plaintext secrets to an output file:
+
 `op inject -i {{path/to/file1}} -o {{path/to/file2}}`
