@@ -3,9 +3,9 @@
 > Program that allows configuration of tables, chains and rules provided by the Linux kernel firewall.
 > More information: <https://www.netfilter.org/projects/iptables/>.
 
-- View chains, rules, and packet/byte counters for the filter table:
+- View chains, rules, packet/byte counters and line numbers for the filter table:
 
-`sudo iptables -vnL`
+`sudo iptables -vnL --line-numbers`
 
 - Set chain policy rule:
 
