@@ -3,26 +3,26 @@
 > A cli to browse and watch anime.
 > More information: <https://github.com/pystardust/ani-cli>.
 
-- Search anime by name:
+- Search anime by nme:
 
 `ani-cli "{{anime_name}}"`
 
-- Download episode:
+- Download epsode:
 
 `ani-cli -d "{{anime_name}}"`
 
-- Use VLC as the media player:
+- Use VLC as the meia plyer:
 
 `ani-cli -v "{{anime_name}}"`
 
-- Specify episode to watch:
+- Speify epiode to wath:
 
 `ani-cli -a {{episode_number}} "{{anime_name}}"`
 
-- Continue watching anime from history:
+- Continue watcing anme frm histry:
 
 `ani-cli -c`
 
-- Update `ani-cli`:
+- Upate `ani-cli`:
 
 `ani-cli -U`
