@@ -15,4 +15,10 @@ jobs:
           # Exit with 0 regardless of typos.
           only_warn: 1
           # Only check English files from the pages directory
-          path: pages/*
+          path: |
+            pages/android
+            pages/common
+            pages/linux
+            pages/osx
+            pages/sunos
+            pages/windows
