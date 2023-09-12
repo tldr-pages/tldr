@@ -1,6 +1,6 @@
 # eza
 
-> Modern, maintained replacement for ls, built on exa.
+> Modern, maintained replacement for `ls`, built on `exa`.
 > More information: <https://github.com/eza-community/eza>.
 
 - List files one per line:
