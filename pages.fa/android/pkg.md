@@ -3,22 +3,22 @@
 > ابزار مدیر بسته ها برای ترماکس.
 > اطلاعات بیشتر: <https://wiki.termux.com/wiki/Package_Management>.
 
-- ارتقا تمامی بسته های نصب شده:
+- ارتقا تمامی بسته های نصب شده :
 
 `pkg upgrade`
 
-- نصب یک بسته:
+- نصب یک بسته :
 
-`pkg install {{package}}`
+`pkg install {{بسته}}`
 
-- حذف یک بسته:
+- حذف یک بسته :
 
-`pkg uninstall {{package}}`
+`pkg uninstall {{بسته}}`
 
-- نصب دوباره یک بسته:
+- نصب دوباره یک بسته :
 
-`pkg reinstall {{package}}`
+`pkg reinstall {{بسته}}`
 
-- جستجوی یک بسته:
+- جستجوی یک بسته :
 
-`pkg search {{package}}`
+`pkg search {{بسته}}`

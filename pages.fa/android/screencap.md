@@ -4,6 +4,6 @@
 > این دستور فقط از طریق `adb shell` قابل اجراست.
 > اطلاعات بیشتر: <https://developer.android.com/studio/command-line/adb#screencap>.
 
-- ضبط یک اسکرین شات:
+- ضبط یک اسکرین شات :
 
-`screencap {{path/to/file}}`
+`screencap {{مسیر/به/فایل}}`

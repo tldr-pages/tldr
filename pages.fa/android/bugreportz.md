@@ -12,7 +12,7 @@
 
 `bugreportz -p`
 
-- نمایش نسخه `bugreportz`:
+- نمایش نسخه `bugreportz` :
 
 `bugreportz -v`
 
