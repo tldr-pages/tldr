@@ -1,6 +1,7 @@
 # xcodes runtimes
 
 > Manage Xcode Simulator runtimes.
+> More information: <https://github.com/xcodesorg/xcodes>.
 
 - Display all available Simulator runtimes:
 
