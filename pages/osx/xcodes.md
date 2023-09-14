@@ -25,4 +25,4 @@
 
 - Download a specific Xcode version archive to a given directory without installing it:
 
-`xcodes download {{xcode-version}} --directory {{path/to/download/directory}}`
+`xcodes download {{xcode-version}} --directory {{path/to/directory}}`
