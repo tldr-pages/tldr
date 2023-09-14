@@ -19,7 +19,7 @@
 
 `xcodes install {{xcode-version}}`
 
-- Install the latest 'release' Xcode version and select it:
+- Install the latest Xcode release and select it:
 
 `xcodes install --latest --select`
 
