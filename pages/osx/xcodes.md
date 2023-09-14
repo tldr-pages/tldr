@@ -11,9 +11,9 @@
 
 `xcodes list`
 
-- Select an Xcode version by specifying a version number or path:
+- Select an Xcode version by specifying a version number or a path:
 
-`xcodes select {{xcode-version|/path/to/Xcode.app}}`
+`xcodes select {{xcode-version|path/to/Xcode.app}}`
 
 - Download and install a specific Xcode version:
 
