@@ -14,5 +14,3 @@
 - Download and install a Simulator runtime:
 
 `xcodes runtimes install "{{runtime-name}}"`
-
-

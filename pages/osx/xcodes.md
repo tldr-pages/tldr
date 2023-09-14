@@ -3,9 +3,6 @@
 > Download, install and manage multiple Xcode versions.
 > More information: <https://github.com/xcodesorg/xcodes>.
 
-See help text for the xcodes command:
-`xcodes {{command}} --help`
-
 - List all installed Xcode versions:
 
 `xcodes installed`
