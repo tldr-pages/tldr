@@ -1,0 +1,31 @@
+# xcodes
+
+> Download, install and manage multiple Xcode versions.
+> More information: <https://github.com/xcodesorg/xcodes>.
+
+See help text for the xcodes command:
+`xcodes {{command}} --help`
+
+- List all installed Xcode versions:
+
+`xcodes installed`
+
+- List all available Xcode versions:
+
+`xcodes list`
+
+- Select an Xcode version by specifying a version number or path:
+
+`xcodes select {{xcode-version|/path/to/Xcode.app}}`
+
+- Download and install a specific Xcode version:
+
+`xcodes install {{xcode-version}}`
+
+- Install the latest 'release' Xcode version and select it:
+
+`xcodes install --latest --select`
+
+- Download a specific Xcode version archive to a given directory without installing it:
+
+`xcodes download {{xcode-version}} --directory {{path/to/download/directory}}`
