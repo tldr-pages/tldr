@@ -10,7 +10,7 @@
 
 - Create a new managed domain:
 
-`linode-cli domains create --domain {{domain_name}} --type {{master/slave}} --soa-email {{email}}`
+`linode-cli domains create --domain {{domain_name}} --type {{master|slave}} --soa-email {{email}}`
 
 - View details of a specific domain:
 
@@ -26,7 +26,7 @@
 
 - Add a DNS record to a domain:
 
-`linode-cli domains records-create {{domain_id}} --type {{A/AAAA/CNAME/MX/...}} --name {{subdomain}} --target {{target_value}}`
+`linode-cli domains records-create {{domain_id}} --type {{A|AAAA|CNAME|MX|...}} --name {{subdomain}} --target {{target_value}}`
 
 - Update a DNS record for a domain:
 
@@ -34,4 +34,4 @@
 
 - Delete a DNS record from a domain:
 
-`linode-cli domains records-delete [domain-id] [record-id]`
+`linode-cli domains records-delete {{domain_id}} {{record_id}}`
