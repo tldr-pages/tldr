@@ -8,18 +8,18 @@
 
 `linode-cli linodes list`
 
-- Manage Linode Kubernetes Engine (LKE):
+- View documentation for managing Linode Kubernetes Engine (LKE):
 
-`linode-cli lke clusters [list|create|delete]`
+`tldr linode-cli lke`
 
-- Manage NodeBalancers:
+- View documentation for managing NodeBalancers:
 
-`linode-cli nodebalancers [list|create|delete]`
+`tldr linode-cli nodebalancers`
 
-- Manage Object Storage:
+- View documentation for managing Object Storage:
 
-`linode-cli object-storage buckets [list|create|delete]`
+` tldr linode-cli object-storage`
 
-- Manage DNS domains:
+- View documentation for managing DNS domains:
 
-`linode-cli domains [list|create|delete]`
+`tldr linode-cli domains`
