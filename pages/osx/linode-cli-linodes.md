@@ -1,6 +1,8 @@
 # linode-cli linodes
 
-> Command-line interface to manage Linode instances via `linode-cli`.
+> Manage Linode instances.
+> See also: `linode-cli`.
+> More information: <https://www.linode.com/docs/products/tools/cli/guides/linode-instances/>.
 
 - List all Linodes:
 
@@ -8,28 +10,28 @@
 
 - Create a new Linode:
 
-`linode-cli linodes create --type [linode-type] --region [region] --image [image-id]`
+`linode-cli linodes create --type {{linode_type}} --region {{region}} --image {{image_id}}`
 
 - View details of a specific Linode:
 
-`linode-cli linodes view [linode-id]`
+`linode-cli linodes view {{linode_id}}`
 
 - Update settings for a Linode:
 
-`linode-cli linodes update [linode-id] --label [new-label]`
+`linode-cli linodes update {{linode_id}} --label {{[new_label}}`
 
 - Delete a Linode:
 
-`linode-cli linodes delete [linode-id]`
+`linode-cli linodes delete {{linode_id}}`
 
-- Boot/reboot/shutdown a Linode:
+- Perform power management operation (Boot/reboot/shutdown) on a Linode:
 
-`linode-cli linodes [boot/reboot/shutdown] [linode-id]`
+`linode-cli linodes {{boot/reboot/shutdown}} {{linode_id}}`
 
 - List available backups for a Linode:
 
-`linode-cli linodes backups-list [linode-id]`
+`linode-cli linodes backups-list {{linode_id}}`
 
 - Restore a backup to a Linode:
 
-`linode-cli linodes backups-restore [linode-id] --backup-id [backup-id]`
+`linode-cli linodes backups-restore {{linode_id}} --backup-id {{backup_id}}`
