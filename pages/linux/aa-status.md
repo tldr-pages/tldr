@@ -1,7 +1,7 @@
 # aa-status
 
 > List currently loaded AppArmor modules.
-> More information: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-status.8>
+> More information: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-status.8>.
 
 - Check status:
 
