@@ -1,7 +1,7 @@
 # aa-disable
 
 > Disable AppArmor security policy.
-> More information: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-disable.8>
+> More information: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-disable.8>.
 
 - Disable profile:
 
