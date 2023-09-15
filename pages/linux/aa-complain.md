@@ -1,7 +1,7 @@
 # aa-complain
 
 > Set an AppArmor policy to complain mode.
-> More information: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-complain.8>
+> More information: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-complain.8>.
 
 - Set policy to complain mode:
 
