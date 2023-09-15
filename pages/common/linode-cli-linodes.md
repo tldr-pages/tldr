@@ -24,9 +24,9 @@
 
 `linode-cli linodes delete {{linode_id}}`
 
-- Perform power management operation (Boot/reboot/shutdown) on a Linode:
+- Perform a power management operation on a Linode:
 
-`linode-cli linodes {{boot/reboot/shutdown}} {{linode_id}}`
+`linode-cli linodes {{boot|reboot|shutdown}} {{linode_id}}`
 
 - List available backups for a Linode:
 
