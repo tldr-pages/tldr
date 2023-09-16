@@ -5,11 +5,11 @@
 > Calibre 전자책 라이브러리의 일부.
 > 더 많은 정보: <https://manual.calibre-ebook.com/generated/en/calibre-server.html>.
 
-- 전자책을 배포할 서버 시작. http://localhost:8080에 연결:
+- 전자책을 배포할 서버 시작. <http://localhost:8080> 에 연결:
 
 `calibre-server`
 
-- 다른 포트에서 서버 시작. http://localhost:port에 연결:
+- 다른 포트에서 서버 시작. <http://localhost:port> 에 연결:
 
 `calibre-server --port {{포트번호}}`
 

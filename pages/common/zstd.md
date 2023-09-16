@@ -9,11 +9,11 @@
 
 - Decompress a file:
 
-`zstd -d {{path/to/file}}.zst`
+`zstd --decompress {{path/to/file.zst}}`
 
 - Decompress to `stdout`:
 
-`zstd -dc {{path/to/file}}.zst`
+`zstd --decompress --stdout {{path/to/file.zst}}`
 
 - Compress a file specifying the compression level, where 1=fastest, 19=slowest and 3=default:
 

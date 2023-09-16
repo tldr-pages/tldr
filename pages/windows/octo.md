@@ -5,11 +5,11 @@
 
 - Create a package:
 
-`octo pack --id={{package_name}}`
+`octo pack --id={{package}}`
 
 - Push a package to a repository on the Octopus server:
 
-`octo push --package={{package_name}}`
+`octo push --package={{package}}`
 
 - Create a release:
 
