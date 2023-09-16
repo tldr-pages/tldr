@@ -8,7 +8,7 @@
 
 `bun run {{path/to/file|script_name}}`
 
-- Run unit tests with Bun:
+- Run unit tests:
 
 `bun test`
 
