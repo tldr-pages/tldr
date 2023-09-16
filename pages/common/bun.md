@@ -20,7 +20,7 @@
 
 `bun add {{module_name}}`
 
-- Remove a dependency from package.json:
+- Remove a dependency from `package.json`:
 
 `bun remove {{module_name}}`
 
