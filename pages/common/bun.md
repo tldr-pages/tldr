@@ -4,7 +4,7 @@
 > Includes bundler, test runner, and package manager.
 > More information: <https://bun.sh/>.
 
-- Run a JavaScript file or a package.json script:
+- Run a JavaScript file or a `package.json` script:
 
 `bun run {{path/to/file|script_name}}`
 
