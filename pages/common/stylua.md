@@ -3,7 +3,7 @@
 > An opinionated Lua code formatter.
 > More information: <https://github.com/JohnnyMorganz/StyLua>.
 
-- Auto-format a file or entire directory:
+- Auto-format a file or an entire directory:
 
 `stylua {{path/to/file_or_directory}}`
 
@@ -17,7 +17,7 @@
 
 - Format code from `stdin` and output to `stdout`:
 
-`cat {{path/to/file.lua}} | stylua -`
+`stylua - < {{path/to/file.lua}}`
 
 - Format a file or directory using spaces and preferring single quotes:
 
