@@ -7,7 +7,7 @@
 
 `systemd-detect-virt --list`
 
-- Detect virtualization, print the result and return a 0 status code when running in a VM or a container, and a non-zero code otherwise:
+- Detect virtualization, print the result and return a zero status code when running in a VM or a container, and a non-zero code otherwise:
 
 `systemd-detect-virt`
 
