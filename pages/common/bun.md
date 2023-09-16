@@ -16,7 +16,7 @@
 
 `bun install`
 
-- Add a dependency to package.json:
+- Add a dependency to `package.json`:
 
 `bun add {{module_name}}`
 
