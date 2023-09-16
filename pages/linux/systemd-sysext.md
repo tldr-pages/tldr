@@ -6,6 +6,7 @@
 - List installed extension images:
 
 `systemd-sysext list`
+
 - Merge system extension images into `/usr/` and `/opt/`:
 
 `systemd-sysext merge`
