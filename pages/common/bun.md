@@ -1,8 +1,8 @@
 # bun
 
 > JavaScript runtime and toolkit.
-> Includes bundler, test runner, and package manager.
-> More information: <https://bun.sh/>.
+> Includes a bundler, a test runner, and a package manager.
+> More information: <https://bun.sh>.
 
 - Run a JavaScript file or a `package.json` script:
 
