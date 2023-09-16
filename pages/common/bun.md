@@ -12,7 +12,7 @@
 
 `bun test`
 
-- Download and install all the packages listed as dependencies in package.json:
+- Download and install all the packages listed as dependencies in `package.json`:
 
 `bun install`
 
