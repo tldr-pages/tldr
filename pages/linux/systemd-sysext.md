@@ -3,6 +3,9 @@
 > Activate or deactivate system extension images.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-sysext.html>.
 
+- List installed extension images:
+
+`systemd-sysext list`
 - Merge system extension images into `/usr/` and `/opt/`:
 
 `systemd-sysext merge`
