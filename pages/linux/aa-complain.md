@@ -9,4 +9,4 @@
 
 - Set policies to complain mode:
 
-`sudo aa-complain --dir {(path/to/profiles)}`
+`sudo aa-complain --dir {{path/to/profiles}}`
