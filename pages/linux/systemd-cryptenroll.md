@@ -1,12 +1,9 @@
 # systemd-cryptenroll
 
 > Interactively enroll or remove a Password, a FIDO2-Device / Security-Token, a TPM2 Security Chip, or a Recovery-Key used to unlock 
-> a previously LUKS2-encrypted volume / block-device. The volume will need to be unlocked using a currently present Method. 
-> In order to allow a volume to be unlocked during system boot using an enrolled PKCS#11-Token, TMP2 Security Chip or FIDO2-Device, 
-> specify the respective option(s) in the crypttab File. systemd-cryptenroll does not change the allowed / possible unlock-Methods at system boot.
+> a previously LUKS2-encrypted volume / block-device. The volume will need to be unlocked by systemd-cryptenroll using an existing Method. 
+> In order to allow a volume to be unlocked during system boot using anythin but a Password, specify the respective option(s) in the crypttab File.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-cryptenroll.html>.
-
-## Password
 
 - Unlock using Password, and enroll a new / additional Password:
 
@@ -24,8 +21,6 @@
 
 `systemd-cryptenroll --wipe-slot=password --password {{path/to/luks2_block_device}}`
 
-## Recovery-Key
-
 - Unlock using Password, and enroll a new / additional Recovery-Key:
 
 `systemd-cryptenroll --recovery-key {{path/to/luks2_block_device}}`
@@ -41,8 +36,6 @@
 - Unlock using Password, remove all currently present Recovery-Keys, and enroll a new Recovery-Key:
 
 `systemd-cryptenroll --wipe-slot=recovery --recovery-key {{path/to/luks2_block_device}}`
-
-## PKCS#11 Token
 
 - List all connected / found PKCS#11 Token:
 
@@ -63,8 +56,6 @@
 - Unlock using Password, remove all currently present PKCS#11 Token, and enroll a new PKCS#11 Token:
 
 `systemd-cryptenroll --wipe-slot=pkcs11 --pkcs11-token-uri={{auto|pkcs11_token_uri}} {{path/to/luks2_block_device}}`
-
-## FIDO2 Device
 
 - List all connected FIDO2 Devices:
 
@@ -89,8 +80,6 @@
 - Unlock using Key-File, and enroll a new FIDO2-Device:
 
 `systemd-cryptenroll --unlock-key-file={{path/to/key_file}} --fido2-device={{auto|path/to/fido_hidraw_device}} {{path/to/luks2_block_device}}`
-
-## TPM2 Security Chip
 
 - List all available TPM2 Security Chips:
 
@@ -119,8 +108,6 @@
 - Unlock using Password, and enroll a TPM2 Security Chip (self-defined PCR policy):
 
 `systemd-cryptenroll --tpm2-device={{auto|path/to/tpm_block_device}} --tpm2-public-key={{path/to/pem_encoded_rsa_public_key_file}} --tpm2-public-key-pcrs={{list_of_selected_pcrs}} --tpm2-signature={{path/to/tpm2_pcr_signature_file}}`
-
-## General
 
 - Unlock using Password, and remove all empty Passwords / all Passwords / all FIDO2-Devices / all PKCS#11 Tokens / all TMP2 Security Chips / all Recovery-Keys:
 
