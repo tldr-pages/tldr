@@ -5,7 +5,7 @@
 
 - Set policy to complain mode:
 
-`sudo aa-complain {(path/to/profile})`
+`sudo aa-complain {{path/to/profile}}`
 
 - Set policies to complain mode:
 
