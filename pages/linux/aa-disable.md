@@ -5,8 +5,8 @@
 
 - Disable profile:
 
-`sudo aa-disable {(path/to/profile})`
+`sudo aa-disable {{path/to/profile}}`
 
 - Disable profiles:
 
-`sudo aa-disable --dir {(path/to/profiles)}`
+`sudo aa-disable --dir {{path/to/profiles}}`
