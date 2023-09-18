@@ -1,8 +1,8 @@
 # systemd-cryptenroll
 
-> Interactively enroll or remove a Password, a FIDO2-Device / Security-Token, a TPM2 Security Chip, or a Recovery-Key used to unlock 
-> a previously LUKS2-encrypted volume / block-device. The volume will need to be unlocked by systemd-cryptenroll using an existing Method. 
-> In order to allow a volume to be unlocked during system boot using anythin but a Password, specify the respective option(s) in the crypttab File.
+> Interactively enroll or remove a Method used to unlock a previously LUKS2-encrypted volume / block-device.
+> The volume will need to be unlocked by systemd-cryptenroll using an existing Method.
+> In order to allow a volume to be unlocked during system boot using anything but a Password, specify the respective option(s) in the crypttab File.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-cryptenroll.html>.
 
 - Unlock using Password, and enroll a new / additional Password:
