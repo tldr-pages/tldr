@@ -1,7 +1,7 @@
 # mkosi
 
 > Tool for building modern, legacy-free Linux images. Part of systemd.
-> More information: <https://github.com/systemd/mkosi>.
+> More information: <https://manned.org/mkosi>.
 
 - Show current build configuration to verify what would be built:
 
