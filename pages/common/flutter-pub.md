@@ -1,4 +1,4 @@
-# flutter-pub
+# flutter pub
 
 > Flutter's own package manager.
 > Packages are available on <https://pub.dev>.
