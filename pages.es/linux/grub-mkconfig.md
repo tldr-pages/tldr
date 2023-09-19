@@ -1,7 +1,7 @@
 # grub-mkconfig
 
 > Generar un archivo de configuracion de GRUB.
-> Para mas informacion: <https://www.gnu.org/software/grub/manual/grub/html_node/Invoking-grub_002dmkconfig.html>.
+> Más información: <https://www.gnu.org/software/grub/manual/grub/html_node/Invoking-grub_002dmkconfig.html>.
 
 - Ejecutar el comando solo e imprimir la salida a `stdout`:
 
