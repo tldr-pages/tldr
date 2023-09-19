@@ -16,6 +16,14 @@
 
 `resolvectl query {{ip_address}}`
 
+- Flush all local DNS caches:
+
+`resolvectl flush-caches`
+
+- Display DNS statistics (transactions, cache, and DNSSEC):
+
+`resolvectl statistics`
+
 - Retrieve an MX record of a domain:
 
 `resolvectl --legend={{no}} --type={{MX}} query {{domain}}`
