@@ -1,8 +1,8 @@
 # flutter
 
-> Flutter's own package manager. Packages are available on <https://flutter.dev>.
+> Flutter's own package manager.
+> Packages are available on <https://pub.dev>.
 > More information: <https://docs.flutter.dev/packages-and-plugins/using-packages>.
-
 
 - Download / Update all packages specified in `pubspec.yaml`:
 
@@ -10,11 +10,11 @@
 
 - Add a package dependency to an app:
 
-`flutter pub add {{package}}`
+`flutter pub add {{package1, package2 ...}}`
 
 - Remove a package dependency to an app:
 
-`flutter pub remove {{package}}`
+`flutter pub remove {{package1, package2...}}`
 
 - Upgrade to the highest version of a package that is allowed by `pubspec.yaml`:
 
