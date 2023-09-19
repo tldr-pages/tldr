@@ -32,10 +32,6 @@
 
 `resolvectl service _{{service}}._{{protocol}} {{name}}`
 
-- Retrieve the public key from an email address from an OPENPGPKEY DNS record:
-
-`resolvectl openpgp {{email}}`
-
 - Retrieve a TLS key:
 
 `resolvectl tlsa tcp {{domain}}:443`
