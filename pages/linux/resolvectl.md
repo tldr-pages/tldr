@@ -20,7 +20,7 @@
 
 `resolvectl flush-caches`
 
-- Display DNS statistics (transactions, cache, and DNSSEC):
+- Display DNS statistics (transactions, cache, and DNSSEC verdicts):
 
 `resolvectl statistics`
 
