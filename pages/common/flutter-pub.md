@@ -1,6 +1,6 @@
 # flutter pub
 
-> Flutter's own package manager.
+> Flutter's package manager.
 > Note: Packages are available on <https://pub.dev>. See also: `flutter`.
 > More information: <https://docs.flutter.dev/packages-and-plugins/using-packages>.
 
