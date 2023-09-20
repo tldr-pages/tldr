@@ -4,7 +4,7 @@
 > More information: <https://containers.dev/>.
 
 - Create and run a Dev Container:
-  
+
 `devcontainer up`
 
 - Apply a Dev Container Template to a workspace:
