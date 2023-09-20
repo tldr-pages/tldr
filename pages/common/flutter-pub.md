@@ -10,11 +10,11 @@
 
 - Add a package dependency to an app:
 
-`flutter pub add {{package1, package2 ...}}`
+`flutter pub add {{package1 package2 ...}}`
 
 - Remove a package dependency to an app:
 
-`flutter pub remove {{package1, package2...}}`
+`flutter pub remove {{package1 package2 ...}}`
 
 - Upgrade to the highest version of a package that is allowed by `pubspec.yaml`:
 
