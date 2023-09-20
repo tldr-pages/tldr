@@ -4,7 +4,7 @@
 > Note: Packages are available on <https://pub.dev>. See also: `flutter`.
 > More information: <https://docs.flutter.dev/packages-and-plugins/using-packages>.
 
-- Download / Update all packages specified in `pubspec.yaml`:
+- Download/Update all packages specified in `pubspec.yaml`:
 
 `flutter pub get`
 
