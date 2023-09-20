@@ -21,7 +21,7 @@
 
 - Open a Dev Container in VS Code:
 
-`devcontainer open {{optional/path/to/workspace}}`[
+`devcontainer open {{optional/path/to/workspace}}`
 
 - Read configuration of Dev Container from `devcontainer.json`:
 
