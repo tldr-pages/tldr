@@ -1,7 +1,7 @@
 # flutter pub
 
 > Flutter's own package manager.
-> Packages are available on <https://pub.dev>.
+> Note: Packages are available on <https://pub.dev>. See also: `flutter`.
 > More information: <https://docs.flutter.dev/packages-and-plugins/using-packages>.
 
 - Download / Update all packages specified in `pubspec.yaml`:
