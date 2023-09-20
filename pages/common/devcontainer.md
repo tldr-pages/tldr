@@ -1,7 +1,7 @@
 # devcontainer
 
 > Use a Docker container as a development environment.
-> More information: <https://containers.dev/>
+> More information: <https://containers.dev/>.
 
 - Create and run a Dev Container:
   
