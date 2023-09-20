@@ -13,7 +13,7 @@
 
 - Install a package from the hub store (<https://hub.espanso.org/>):
 
-`espanso install {{package_name}}`
+`espanso install {{package}}`
 
 - Restart (required after installing a package, useful in case of failure):
 

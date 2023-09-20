@@ -54,12 +54,14 @@ If you are an owner of the organization, you can see an automated list
   [17 August 2022](https://github.com/tldr-pages/tldr/issues/8321) — present
 - **Cairn ([@CairnThePerson](https://github.com/CairnThePerson))**:
   [1 September 2022](https://github.com/tldr-pages/tldr/issues/8438) — present
+- **Managor ([@Managor](https://github.com/Managor))**:
+  [4 September 2023](https://github.com/tldr-pages/tldr/issues/10611) — present
+- **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
+  [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764), [7 February 2023](https://github.com/tldr-pages/tldr/issues/10674) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
   [28 January 2019](https://github.com/tldr-pages/tldr/issues/2735) — [8 April 2019](https://github.com/tldr-pages/tldr/issues/2874)
-- Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
-  [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764)
 - Ein Verne ([@einverne](https://github.com/einverne)):
   [27 October 2019](https://github.com/tldr-pages/tldr/issues/3488) — [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738)
 - Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic)):
@@ -159,8 +161,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989) — present
 - **Marco Bonelli ([@mebeim](https://github.com/mebeim))**:
   [21 December 2019](https://github.com/tldr-pages/tldr/issues/3672) — present
-- **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
-  [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224) — present
 - **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
   [7 April 2021](https://github.com/tldr-pages/tldr/issues/5703) — present
 - **CleanMachine1 ([@CleanMachine1](https://github.com/CleanMachine1))**:
@@ -193,3 +193,5 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   until [26 August 2018](https://github.com/tldr-pages/tldr/issues/2257)
 - Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic)):
   until [14 December 2021](https://github.com/tldr-pages/tldr/issues/7538)
+- Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
+  until [7 February 2023](https://github.com/tldr-pages/tldr/issues/10674)

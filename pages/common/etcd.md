@@ -15,6 +15,6 @@
 
 `etcd --name {{my_etcd_cluster}}`
 
-- Start a single-node etcd cluster with extensive metrics available at http://localhost:2379/debug/pprof/:
+- Start a single-node etcd cluster with extensive metrics available at <http://localhost:2379/debug/pprof/>:
 
 `etcd --enable-pprof --metrics extensive`

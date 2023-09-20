@@ -14,7 +14,7 @@
 
 - Forcibly install a package regardless of currently installed versions:
 
-`rpm --upgrade {{package_name.rpm}} --force`
+`rpm --upgrade {{path/to/package.rpm}} --force`
 
 - Identify owner of a file and show version of the package:
 
@@ -26,7 +26,7 @@
 
 - Show scriptlets from an RPM file:
 
-`rpm --query --package --scripts {{package_name.rpm}}`
+`rpm --query --package --scripts {{package.rpm}}`
 
 - Show changed, missing and/or incorrectly installed files of matching packages:
 
@@ -34,4 +34,4 @@
 
 - Display the changelog of a specific package:
 
-`rpm --query --changelog {{package_name}}`
+`rpm --query --changelog {{package}}`

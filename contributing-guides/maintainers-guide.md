@@ -43,7 +43,7 @@ as a guideline for current and future maintainers.
   (pull request, feature request, bug report, etc.)
   is a voluntary gift of time offered to the tldr-pages project
   by someone who cares about it,
-  so make sure it's clear that that we don't take it for granted.
+  so make sure it's clear that we don't take it for granted.
 
 - Try to **keep the entire contribution process web-based**, if possible,
   to ensure it is accessible and straightforward.
