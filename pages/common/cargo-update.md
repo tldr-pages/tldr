@@ -1,0 +1,20 @@
+# cargo update
+
+> Check a local package and all of its dependencies for errors.
+> More information: <https://doc.rust-lang.org/cargo/commands/cargo-update.html>.
+
+- Update dependencies in the `Cargo.lock` file to the latest version:
+
+`cargo update`
+
+- Display what would be updated, but don't actually write the lockfile:
+
+`cargo update --dry-run`
+
+- Update only the specified dependencies:
+
+`cargo update --package dependency1 --package dependency2 --package dependency3`
+
+- Set a specific dependency to a specific version:
+
+`cargo update --package dependency1 --precise 1.2.3`
