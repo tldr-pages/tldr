@@ -1,6 +1,6 @@
 # systemd-cryptenroll
 
-> Interactively enroll or remove a Method used to unlock a previously LUKS2-encrypted volume / block-device.
+> Interactively enroll or remove Methods used to unlock a previously LUKS2-encrypted volume / block-device.
 > In order to allow a volume to be unlocked during system boot using anything but a Password, specify the respective option(s) in the crypttab File.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-cryptenroll.html>.
 
@@ -26,7 +26,7 @@
 
 - Unlock using a FIDO2-Device, and enroll a new FIDO2-Device:
 
-`systemd-cryptenroll --unlock-fido2-device={{path/to/fido_hidraw_unlock_device}} --fido2-device={{path/to/fido_hidraw_enroll_device}} {{path/to/luks2_block_device}}` 
+`systemd-cryptenroll --unlock-fido2-device={{path/to/fido_hidraw_unlock_device}} --fido2-device={{path/to/fido_hidraw_enroll_device}} {{path/to/luks2_block_device}}`
 
 - Unlock using Password, and enroll a TPM2 Security Chip (only secure-boot-policy PCR) and require additional alphanumeric PIN:
 
