@@ -1,6 +1,7 @@
 # rustic
 
 > Create fast, encrypted, deduplicated backups powered by Rust
+> More Information: https://github.com/rustic-rs/rustic
 
 - Initialize a new repository in `~/backup`
 
