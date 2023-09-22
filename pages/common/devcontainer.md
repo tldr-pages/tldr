@@ -23,6 +23,6 @@
 
 `devcontainer open {{optional/path/to/workspace}}`
 
-- Read configuration of Dev Container from `devcontainer.json`:
+- Read and print the configuration of a Dev Container from `devcontainer.json`:
 
 `devcontainer read-configuration`
