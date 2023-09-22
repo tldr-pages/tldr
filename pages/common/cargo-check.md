@@ -19,6 +19,6 @@
 
 `cargo check --features feature1,feature2`
 
-- Check the current package only with the features "feature1" and "feature2":
+- Check the current package with default features disabled:
 
-`cargo check --no-default-features --features feature1,feature2`
+`cargo check --no-default-features`
