@@ -13,7 +13,7 @@
 
 - Check the integration tests in `tests/integration_test1.rs`:
 
-`cargo check --test integration_test1`
+`cargo check --test {{integration_test1}}`
 
 - Check the current package with the features "feature1" and "feature2":
 
