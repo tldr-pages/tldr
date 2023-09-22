@@ -1,9 +1,9 @@
 # cargo update
 
-> Check a local package and all of its dependencies for errors.
+> Update dependencies as recorded in the local lock file
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-update.html>.
 
-- Update dependencies in the `Cargo.lock` file to the latest version:
+- Update dependencies in the `Cargo.lock` file to the latest minor patch version:
 
 `cargo update`
 
