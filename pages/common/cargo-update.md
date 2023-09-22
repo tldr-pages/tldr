@@ -1,6 +1,6 @@
 # cargo update
 
-> Update dependencies as recorded in the local lock file.
+> Update dependencies as recorded in `Cargo.lock`.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-update.html>.
 
 - Update dependencies in the `Cargo.lock` file to the latest minor patch version:
