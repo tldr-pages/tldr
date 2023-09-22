@@ -11,6 +11,10 @@
 
 `caffeinate -s "{{command}}"`
 
+- Prevent from sleeping until a PID completes:
+
+`caffeinate -w {{pid}}`
+
 - Prevent from sleeping (use `Ctrl + C` to exit):
 
 `caffeinate -i`
