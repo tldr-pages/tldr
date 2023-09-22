@@ -13,7 +13,7 @@
 
 - Update only the specified dependencies:
 
-`cargo update --package dependency1 --package dependency2 --package dependency3`
+`cargo update --package {{dependency1}} --package {{dependency2}} --package {{dependency3}}`
 
 - Set a specific dependency to a specific version:
 
