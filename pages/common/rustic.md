@@ -3,10 +3,10 @@
 > Create fast, encrypted, deduplicated backups powered by Rust.
 > More information: <https://github.com/rustic-rs/rustic>.
 
-- Initialize a new repository in `~/backup`:
+- Initialize a new repository:
 
-`rustic init --repository ~/backup`
+`rustic init --repository {{/srv/rustic-repo}}`
 
-- Create a new backup of `~/important_stuff` to the repository `~/backup`:
+- Create a new backup of a file/directory to a repository:
 
-`rustic backup --repository ~/backup ~/important_stuff`
+`rustic backup --repository {{/srv/rustic-repo}} {{path/to/file_or_directory}}`
