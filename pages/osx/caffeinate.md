@@ -11,7 +11,7 @@
 
 `caffeinate -s "{{command}}"`
 
-- Prevent from sleeping until a PID completes:
+- Prevent from sleeping until a process with the specified PID completes:
 
 `caffeinate -w {{pid}}`
 
