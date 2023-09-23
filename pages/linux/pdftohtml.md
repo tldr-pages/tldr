@@ -3,18 +3,18 @@
 > Pdftohtml is a program to convert PDF files into HTML, XML and PNG images.
 > More information: <https://linux.die.net/man/1/pdftohtml>.
 
-- Convert a pdf file to a html file:
+- Convert a PDF file to an HTML file:
 
-`pdftohtml {{path/to/pdf}} {{path/to/html}}`
+`pdftohtml {{path/to/file.pdf}} {{path/to/output_file.html}}`
 
-- Ignore images in the pdf file:
+- Ignore images in the PDF file:
 
-`pdftohtml -i {{path/to/pdf}} {{path/to/html}}`
+`pdftohtml -i {{path/to/file.pdf}} {{path/to/output_file.html}}`
 
-- Generate a single HTML that includes all pdf pages:
+- Generate a single HTML file that includes all PDF pages:
 
-`pdftohtml -s {{path/to/pdf}} {{path/to/html}}`
+`pdftohtml -s {{path/to/file.pdf}} {{path/to/output_file.html}}`
 
-- Convert a pdf file to a xml file:
+- Convert a PDF file to an XML file:
 
-`pdftohtml -xml {{path/to/pdf}} {{path/to/html}}`
+`pdftohtml -xml {{path/to/file.pdf}} {{path/to/output_file.xml}}`
