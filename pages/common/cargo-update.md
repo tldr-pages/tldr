@@ -17,4 +17,4 @@
 
 - Set a specific dependency to a specific version:
 
-`cargo update --package {{dependency1}} --precise {{1.2.3}}`
+`cargo update --package {{dependency}} --precise {{1.2.3}}`
