@@ -7,7 +7,7 @@
 
 `mkosi summary`
 
-- Build an image with default settings, if no distribution is selected, distribuion of the host system is used:
+- Build an image with default settings, if no distribution is selected, distribution of the host system is used:
 
 `mkosi build --distribution={{fedora|debian|ubuntu|arch|opensuse}}`
 
