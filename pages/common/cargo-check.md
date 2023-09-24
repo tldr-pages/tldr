@@ -17,7 +17,7 @@
 
 - Check the current package with the features `feature1` and `feature2`:
 
-`cargo check --features {{feature1,feature2,...}}`
+`cargo check --features {{feature1,feature2}}`
 
 - Check the current package with default features disabled:
 
