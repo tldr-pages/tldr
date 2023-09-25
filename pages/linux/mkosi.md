@@ -16,7 +16,7 @@
 
 `mkosi shell`
 
-- Boot image in a virtual machine using qemu, only supported for disk images or cpio images when a kernel is provided:
+- Boot image in a virtual machine using QEMU, only supported for disk images or CPIO images when a kernel is provided:
 
 `mkosi qemu`
 
