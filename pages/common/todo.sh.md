@@ -1,9 +1,9 @@
 # todo.sh
 
-> A simple and extensible shell script for managing your todo.txt file.
+> Simple and extensible shell script for managing your `todo.txt` file.
 > More information: <https://github.com/todotxt/todo.txt-cli>.
 
-- List every items:
+- List every item:
 
 `todo.sh ls`
 
