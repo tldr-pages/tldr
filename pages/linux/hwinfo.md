@@ -7,7 +7,7 @@
 
 `hwinfo --gfxcard`
 
-- Get network information:
+- Get network device information:
 
 `hwinfo --network`
 
