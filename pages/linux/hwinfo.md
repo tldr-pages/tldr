@@ -19,6 +19,6 @@
 
 `hwinfo --short --disk --cdrom`
 
-- Write all hardward info to file:
+- Write all hardware info to a file:
 
 `hwinfo --all --log={{path/to/file}}`
