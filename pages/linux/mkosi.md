@@ -20,6 +20,6 @@
 
 `mkosi qemu`
 
-- Get more help:
+- Display help:
 
 `mkosi help`
