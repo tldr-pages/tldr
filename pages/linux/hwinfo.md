@@ -11,10 +11,6 @@
 
 `hwinfo --network`
 
-- See other type of hardware items:
-
-`hwinfo --help`
-
 - Abbreviate the output:
 
 `hwinfo --short --disk --cdrom`
@@ -22,3 +18,7 @@
 - Write all hardware info to a file:
 
 `hwinfo --all --log={{path/to/file}}`
+
+- Display help:
+
+`hwinfo --help`
