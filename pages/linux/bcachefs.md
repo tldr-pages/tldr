@@ -7,7 +7,7 @@
 
 `sudo bcachefs format {{path/to/partition}}`
 
-- Mount a bcachefs filesystem:
+- Mount a `bcachefs` filesystem:
 
 `sudo bcachefs mount {{path/to/device}} {{path/to/mountpoint}}`
 
