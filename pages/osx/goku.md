@@ -1,28 +1,28 @@
 # goku
 
-> A tool to manage Karabiner configuration.
+> Manage Karabiner configuration.
 > More information: <https://github.com/yqrashawn/GokuRakuJoudo>.
 
-- Generate karabiner.json by using default configuration:
+- Generate `karabiner.json` by using the default configuration:
 
 `goku`
 
-- Generate karabiner.json by using the specific config.edn:
+- Generate `karabiner.json` by using the specific `config.edn` file:
 
 `goku --config {{path/to/config.edn}}`
 
-- Dry run new configuration into stdout instead of updating karabiner.json:
+- Dry run new configuration into `stdout` instead of updating the `karabiner.json` file:
 
 `goku --dry-run`
 
-- Dry run whole configuration into stdout instead of updating karabiner.json:
+- Dry run the whole configuration into `stdout` instead of updating the `karabiner.json` file:
 
 `goku --dry-run-all`
 
-- Show help:
+- Display help:
 
 `goku --help`
 
-- Show version:
+- Display version:
 
 `goku --version`
