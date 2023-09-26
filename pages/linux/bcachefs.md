@@ -19,6 +19,10 @@
 
 `sudo bcachefs mount {{path/to/partition1}}:{{path/to/partition2}} {{path/to/mountpoint}}`
 
+- Display disk usage:
+
+`bcachefs fs usage --human-readable /mnt/bcachefs/`
+
 - Display help:
 
 `bcachefs`
