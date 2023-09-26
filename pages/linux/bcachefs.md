@@ -21,7 +21,7 @@
 
 - Display disk usage:
 
-`bcachefs fs usage --human-readable /mnt/bcachefs/`
+`bcachefs fs usage --human-readable {{path/to/mountpoint}}`
 
 - Display help:
 
