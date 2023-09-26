@@ -15,6 +15,6 @@
 
 `sudo lchage --maxdays={{number_of_days}} {{username}}`
 
-- Start warning the user certain days before password expires:
+- Start warning the user certain days before the password expires:
 
 `sudo lchage --warndays={{number_of_days}} {{username}}`
