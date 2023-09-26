@@ -11,7 +11,7 @@
 
 `sudo lchage --list {{username}}`
 
-- Require password change for a user, certain days after last password change:
+- Require password change for a user, certain days after the last password change:
 
 `sudo lchage --maxdays={{number_of_days}} {{username}}`
 
