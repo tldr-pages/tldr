@@ -108,6 +108,7 @@ def get_alias_page(file):
         ),
         "",)
 
+
 def set_alias_page(file, command):
     """
     Write an alias page to disk.
