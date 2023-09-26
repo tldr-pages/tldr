@@ -21,4 +21,4 @@
 
 - Display help:
 
-`bcachefs -h`
+`bcachefs`
