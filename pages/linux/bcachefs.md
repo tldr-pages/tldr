@@ -3,7 +3,7 @@
 > Manage `bcachefs` filesystems/devices.
 > More information: <https://bcachefs.org/bcachefs-principles-of-operation.pdf>.
 
-- Format a partition with bcachefs:
+- Format a partition with `bcachefs`:
 
 `sudo bcachefs format {{path/to/partition}}`
 
