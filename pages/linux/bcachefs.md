@@ -1,6 +1,6 @@
 # bcachefs
 
-> Manage bcachefs filesystems/devices.
+> Manage `bcachefs` filesystems/devices.
 > More information: <https://bcachefs.org/bcachefs-principles-of-operation.pdf>.
 
 - Format a partition with bcachefs:
