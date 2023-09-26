@@ -56,11 +56,10 @@ def get_tldr_root():
 
     if "TLDR_ROOT" in os.environ:
         return os.environ["TLDR_ROOT"]
-    else:
-        print(
-            "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
-        )
-        sys.exit(1)
+    print(
+        "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
+    )
+    sys.exit(1)
 
 
 def set_link(file, link):
