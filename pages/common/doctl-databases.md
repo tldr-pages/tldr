@@ -3,9 +3,9 @@
 > Manage your MySQL, Redis, PostgreSQL, and MongoDB database services.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/>.
 
-- Run a doctl command, and return information associated with an access token:
+- Run a doctl databases command with an access token:
 
-`doctl databases [command] --access-token string {{access_token}}`
+`doctl databases [command] --access-token {{access_token}}`
 
 - Get details for a database cluster:
 
