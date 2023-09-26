@@ -87,9 +87,9 @@ def set_link(file, link):
     # build new line
     if locale == "hi":
         new_line = f"> {labels[locale]} <{link}>।\n"
-    elif locale == "ja" or locale == "th":
+    elif locale in ["ja", "th"]:
         new_line = f"> {labels[locale]} <{link}>\n"
-    elif locale == "zh" or locale == "zh_TW":
+    elif locale in ["zh", "zh_TW"]:
         new_line = f"> {labels[locale]}<{link}>.\n"
     else:
         new_line = f"> {labels[locale]} <{link}>.\n"
