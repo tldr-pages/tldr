@@ -100,11 +100,13 @@ def get_alias_page(file):
         return ""
     with open(file) as f:
         lines = f.readlines()
-    for line in lines:
-        if re.search(r"^`tldr ", line):
-            return re.search("`tldr (.+)`", line).group(1)
-    return ""
-
+    return next(
+        (
+            re.search("`tldr (.+)`", line).group(1)
+            for line in lines
+            if re.search(r"^`tldr ", line)
+        ),
+        "",)
 
 def set_alias_page(file, command):
     """
