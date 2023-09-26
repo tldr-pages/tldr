@@ -1,7 +1,7 @@
 # tt
 
 > A terminal based typing tester.
-> More info: <https://github.com/lemnos/tt>.
+> More information: <https://github.com/lemnos/tt>.
 
 - Start quote mode with builting quote list in english 'en':
 
