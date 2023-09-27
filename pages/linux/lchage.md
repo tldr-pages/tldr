@@ -7,7 +7,7 @@
 
 `sudo lchage --date -1 {{username}}`
 
-- List password policy for the user:
+- Display the password policy for the user:
 
 `sudo lchage --list {{username}}`
 
