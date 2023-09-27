@@ -5,7 +5,7 @@
 
 - Disable password expiration for the user:
 
-`sudo lchage --date=-1 {{username}}`
+`sudo lchage --date -1 {{username}}`
 
 - List password policy for the user:
 
