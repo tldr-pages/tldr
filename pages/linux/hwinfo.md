@@ -1,7 +1,7 @@
 # hwinfo
 
 > Probe for the hardware present in the system.
-> More information: <https://github.com/openSUSE/hwinfo>.
+> More information: <https://manned.org/hwinfo>.
 
 - Get graphics card information:
 
@@ -17,7 +17,7 @@
 
 - Write all hardware information to a file:
 
-`hwinfo --all --log={{path/to/file}}`
+`hwinfo --all --log {{path/to/file}}`
 
 - Display help:
 
