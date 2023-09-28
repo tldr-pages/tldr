@@ -11,7 +11,7 @@
 
 `hwinfo --network`
 
-- Abbreviate the output:
+- List disks and CD-ROM drives, abbreviating the output:
 
 `hwinfo --short --disk --cdrom`
 
