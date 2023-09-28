@@ -1,6 +1,6 @@
 # idea
 
-> Java and Kotlin IDE by JetBrains.
+> JetBrains Java and Kotlin IDE.
 > More information: <https://www.jetbrains.com/help/idea/working-with-the-ide-features-from-command-line.html>.
 
 - Open the current directory in IntelliJ IDEA:
