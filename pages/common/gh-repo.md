@@ -23,9 +23,9 @@
 
 `gh repo list {{owner}}`
 
-- List only non-forks repositories:
+- List only non-forks repositories, limit amount (default: 30):
 
-`gh repo list {{owner}} --non-forks`
+`gh repo list {{owner}} --source -L {{limit}}`
 
 - List repositories with a specific primary coding language:
 
