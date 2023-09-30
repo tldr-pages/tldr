@@ -2,7 +2,7 @@
 
 > It is an open-source command-line tool that allows you to convert HTML documents or web pages into PDF files.
 > It is primarily a command-line tool, which means you use it by running commands in a terminal or shell.
-> More information: <https://wkhtmltopdf.org/>
+> More information: <https://wkhtmltopdf.org/>.
 
 - Basic Conversion:
 
