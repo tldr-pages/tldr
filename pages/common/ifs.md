@@ -6,16 +6,16 @@
 
 - View the Current IFS Value:
 
-  `echo "$IFS"`
+`echo "$IFS"`
 
 - Change the IFS Value:
 
-  `IFS=":"`
+`IFS=":"`
 
 - Reset IFS to Default:
 
-  `IFS=$' \t\n'`
+`IFS=$' \t\n'`
 
 - Temporary IFS Change in a Subshell:
 
-  `(IFS=":"; echo "one:two:three")`
+`(IFS=":"; echo "one:two:three")`
