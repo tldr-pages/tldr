@@ -11,11 +11,11 @@
 
 `basename /path/to/file.txt`
 
-- Removing a specific file extension:
+- Remove a specific file extension:
 
 `basename /path/to/file.txt .txt`
 
-- Extracting the base name from a string:
+- Extract the base name from a string:
 
 `basename "Some/Long/Path/To/Directory/"`
 
