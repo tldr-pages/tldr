@@ -1,7 +1,7 @@
 # hwinfo
 
 > Probe for the hardware present in the system.
-> More information: <https://manned.org/hwinfo>.
+> More information: <https://manpages.opensuse.org/hwinfo/hwinfo.8.en.html>.
 
 - Get graphics card information:
 
