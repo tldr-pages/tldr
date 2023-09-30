@@ -7,8 +7,6 @@
 
 `basename [OPTION] NAME`
 
-> Where:
-
     - OPTION (optional) specifies various options you can use with basename.
     - NAME is the file path or string from which you want to extract the base name.
 
@@ -17,21 +15,21 @@
 
 `basename /path/to/file.txt`
 
-> Output:
+  Output:
     - file.txt
 
 - Removing a specific file extension:
 
 `basename /path/to/file.txt .txt`
-
-> Output:
+  
+  Output:
     - file
 
 - Extracting the base name from a string:
 
 `basename "Some/Long/Path/To/Directory/"`
 
-> Output:
+  Output:
     - Directory
 
 - For more details and additional options, you can refer to the basename manual page by running man basename
