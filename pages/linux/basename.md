@@ -2,7 +2,7 @@
 
 > The basename command is used to extract and display the filename portion from a given path.
 > It essentially removes all directory components and displays only the base name of the file or directory.
-> More Information: <https://man7.org/linux/man-pages/man1/basename.1.html>.
+> More information: <https://man7.org/linux/man-pages/man1/basename.1.html>.
 
 - The basic syntax of the basename command is as follows:
 
