@@ -19,4 +19,4 @@
 
 `basename "Some/Long/Path/To/Directory/"`
 
-- For more details and additional options, you can refer to the basename manual page by running man basename
+> For more details and additional options, you can refer to the basename manual page by running man basename.
