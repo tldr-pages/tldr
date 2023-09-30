@@ -6,7 +6,7 @@
 - The basic syntax of the basename command is as follows:
 
 `basename [OPTION] NAME`
-    
+   
 - Basic usage:
 
 `basename /path/to/file.txt`
