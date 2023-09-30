@@ -27,7 +27,7 @@
 
 `cargo fix --target-dir`
 
-- Prevents Cargo from accessing the network for any reason:
+- Restrict Cargo from access to network for any reason:
 
 `cargo fix --offline`
 
