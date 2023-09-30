@@ -8,11 +8,11 @@
 
 `wkhtmltopdf input.html output.pdf`
 
-- Specifying Page Size:
+- Specify Page Size:
 
 `wkhtmltopdf --page-size A4 input.html output.pdf`
 
-- Setting Margins:
+- Set Margins:
 
 `wkhtmltopdf --margin-top 10mm --margin-bottom 10mm --margin-left 10mm --margin-right 10mm input.html output.pdf`
 
@@ -20,6 +20,6 @@
 
 `wkhtmltopdf --orientation Landscape input.html output.pdf`
 
-- Generating Grayscale PDF:
+- Generate Grayscale PDF:
 
 `wkhtmltopdf --grayscale input.html output.pdf`
