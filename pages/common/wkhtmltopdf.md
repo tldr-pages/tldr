@@ -17,7 +17,7 @@
 
 - Custom Page Orientation:
 
-`wkhtmltopdf --orientation Landscape input.html output.pdf`
+`wkhtmltopdf --orientation {{Landscape|Portrait}} {{input.html}} {{output.pdf}}`
 
 - Generate Grayscale PDF:
 
