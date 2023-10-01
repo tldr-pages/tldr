@@ -31,6 +31,6 @@
 
 `cargo fix --offline`
 
-- Number of parallel jobs to run:
+- Run `n` jobs in parallel (default: number of logical CPUs):
 
-`cargo fix --jobs`
+`cargo fix --jobs {{n}}`
