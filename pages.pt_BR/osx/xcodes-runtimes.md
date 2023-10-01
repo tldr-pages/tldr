@@ -3,7 +3,7 @@
 > Gerencie versões dos simuladores Xcode.
 > Mais informações: <https://github.com/xcodesorg/xcodes>.
 
-- Listar todas as versões dos simuladores disponíveis:
+- Lista todos os runtimes do Simulador disponíveis:
 
 `xcodes runtimes --include-betas`
 
