@@ -13,7 +13,7 @@
 
 - Benchmark only the specified packages:
 
-`cargo bench --package`
+`cargo bench --package {{package}}`
 
 - Benchmark the specified benchmark:
 
