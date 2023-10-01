@@ -1,7 +1,8 @@
 # resolvconf
 
 > Manage nameserver information.
-> More information: <https://manpages.ubuntu.com/manpages/resolvconf.8.html>
+> Acts as an intermediary between rograms that supply nameserver information and applications that use this information.
+> More information: <https://manpages.ubuntu.com/manpages/resolvconf.8.html>.
 
 - Add or override a record (IFACE.PROG) and run the update scripts if updating is enabled:
 
