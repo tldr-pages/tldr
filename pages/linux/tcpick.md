@@ -6,7 +6,7 @@
 
 - Basic Usage:
 
-`tcpick -i {interface} -C -h {{host}} -p {{port}}`
+`tcpick -i {{interface}} -C -h {{host}} -p {{port}}`
 
 - Advanced Options:
 
