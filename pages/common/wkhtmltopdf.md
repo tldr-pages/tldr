@@ -5,7 +5,7 @@
 
 - Basic Conversion:
 
-`wkhtmltopdf input.html output.pdf`
+`wkhtmltopdf {{input.html}} {{output.pdf}}`
 
 - Specify Page Size (please see `PaperSize` of `QPrinter` for supported sizes):
 
