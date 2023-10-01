@@ -7,7 +7,7 @@
 
 `xcodes runtimes --include-betas`
 
-- Baixa uma versão específica do simulador:
+- Baixa um runtime do Simulador:
 
 `xcodes runtimes download {{nome-da-versao}}`
 
