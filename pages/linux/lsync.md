@@ -4,7 +4,7 @@
 > It is often used to keep two directories on separate systems in sync, ensuring that changes made in one directory are immediately mirrored to the other.
 > More information: <https://github.com/lsyncd/lsyncd>.
 
-- Lsync with rsync-share ‘share’.
+- Lsync with rsync-share ‘share’:
 
 `lsyncd -rsync {{/source_directory}} {{destination_host:/destination_directory}}`
 
