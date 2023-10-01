@@ -13,7 +13,7 @@
 
 - Set Margins:
 
-`wkhtmltopdf --margin-top 10mm --margin-bottom 10mm --margin-left 10mm --margin-right 10mm input.html output.pdf`
+`wkhtmltopdf --margin-{{top|bottom|left|right}} {{10mm}} {{input.html}} {{output.pdf}}`
 
 - Custom Page Orientation:
 
