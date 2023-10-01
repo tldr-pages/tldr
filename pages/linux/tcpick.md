@@ -12,6 +12,6 @@
 
 `man tcpick`
 
-- Example to capture traffic on port 80 (HTTP) from a specific host:
+- Capture traffic on port 80 (HTTP) of a specific host:
 
-`sudo tcpick -i eth0 -C -h 192.168.1.100 -p 80`
+`sudo tcpick -i {{eth0}} -C -h {{192.168.1.100}} -p {{80}}`
