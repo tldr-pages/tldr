@@ -11,6 +11,7 @@ The templates can be changed when necessary.
 [bn](#bn) •
 [bs](#bs) •
 [ca](#ca) •
+[cs](#cs) •
 [da](#da) •
 [de](#de) •
 [es](#es) •
@@ -100,6 +101,20 @@ Not translated yet.
 > Aquest comandament és un àlies de `example`.
 
 - Veure documentació pel comandament original:
+
+`tldr example`
+```
+
+---
+
+### cs
+
+```markdown
+# example
+
+> Tento příkaz je aliasem pro `example`.
+
+- Podívejte se na dokumentaci původního příkazu:
 
 `tldr example`
 ```
