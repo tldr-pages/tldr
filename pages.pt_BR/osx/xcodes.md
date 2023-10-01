@@ -12,7 +12,7 @@
 
 `xcodes list`
 
-- Seleciona uma versão do Xcode especificando o número da versão ou o caminho:
+- Seleciona uma versão do Xcode especificando o número da versão ou um caminho:
 
 `xcodes select {{versao-do-xcode|caminho/para/Xcode.app}}`
 
