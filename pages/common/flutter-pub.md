@@ -12,7 +12,7 @@
 
 `flutter pub add {{package1 package2 ...}}`
 
-- Remove a package dependency to an app:
+- Remove a package dependency from an app:
 
 `flutter pub remove {{package1 package2 ...}}`
 
