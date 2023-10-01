@@ -1,6 +1,6 @@
 # cargo fix
 
-> Automatically fix lint warnings reported by rustc.
+> Automatically fix lint warnings reported by `rustc`.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-fix.html>.
 
 - Fix code even if it already has compiler errors:
