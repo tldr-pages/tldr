@@ -9,7 +9,7 @@
 
 - Baixa um runtime do Simulador:
 
-`xcodes runtimes download {{nome-da-versao}}`
+`xcodes runtimes download {{nome-do-runtime}}`
 
 - Baixa e instala um runtime do Simulador:
 
