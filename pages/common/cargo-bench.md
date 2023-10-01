@@ -19,9 +19,9 @@
 
 `cargo bench --bench`
 
-- Benchmark with the given profile:
+- Benchmark with the given profile (default: `bench`):
 
-`cargo bench --profile`
+`cargo bench --profile {{profile}}`
 
 - Benchmark all example targets:
 
