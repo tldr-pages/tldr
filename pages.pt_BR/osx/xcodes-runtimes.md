@@ -13,4 +13,4 @@
 
 - Baixa e instala um runtime do Simulador:
 
-`xcodes runtimes install {{nome-da-versao}}`
+`xcodes runtimes install {{nome-do-runtime}}`
