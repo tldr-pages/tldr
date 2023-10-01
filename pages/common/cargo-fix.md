@@ -17,7 +17,7 @@
 
 - Fix the specified integration test:
 
-`cargo fix --test`
+`cargo fix --test {{name}}`
 
 - Fix all members in the workspace:
 
