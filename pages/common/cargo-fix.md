@@ -23,9 +23,9 @@
 
 `cargo fix --workspace`
 
-- Directory for all generated artifacts and intermediate files:
+- Set the directory for all generated artifacts and intermediate files:
 
-`cargo fix --target-dir`
+`cargo fix --target-dir {{path/to/directory}}`
 
 - Restrict Cargo from access to network for any reason:
 
