@@ -11,6 +11,6 @@
 
 `xcodes runtimes download {{nome-da-versao}}`
 
-- Baixa e instala uma versão específica do simulador:
+- Baixa e instala um runtime do Simulador:
 
 `xcodes runtimes install {{nome-da-versao}}`
