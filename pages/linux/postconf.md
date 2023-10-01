@@ -24,6 +24,6 @@
 
 `postconf -a`
 
-- List the names of all supported lookup table types. Lookup tables are specified as type:name in configuration files where type can be btree, cdb, hash, mysql etc.
+- List the names of all supported lookup table types. Lookup tables are specified as type:name in configuration files where type can be btree, cdb, hash, mysql etc:
 
 `postconf -m`
