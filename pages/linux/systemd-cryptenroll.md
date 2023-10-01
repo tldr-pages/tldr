@@ -16,7 +16,7 @@
 
 `systemd-cryptenroll --pkcs11-token-uri={{list|auto|pkcs11_token_uri}} {{path/to/luks2_block_device}}`
 
-- Unlock using Pasword, and list available or enroll a new FIDO2-Device (using PIN and Presence/Touch if available):
+- Unlock using Password, and list available or enroll a new FIDO2-Device (using PIN and Presence/Touch if available):
 
 `systemd-cryptenroll --fido2-device={{list|auto|path/to/fido2_hidraw_device}} {{path/to/luks2_block_device}}`
 
