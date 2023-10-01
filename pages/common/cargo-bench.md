@@ -17,7 +17,7 @@
 
 - Benchmark the specified benchmark:
 
-`cargo bench --bench`
+`cargo bench --bench {{benchmark}}`
 
 - Benchmark with the given profile (default: `bench`):
 
