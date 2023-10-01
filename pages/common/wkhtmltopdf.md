@@ -7,9 +7,9 @@
 
 `wkhtmltopdf input.html output.pdf`
 
-- Specify Page Size:
+- Specify Page Size (please see `PaperSize` of `QPrinter` for supported sizes):
 
-`wkhtmltopdf --page-size A4 input.html output.pdf`
+`wkhtmltopdf --page-size {{A4}} {{input.html}} {{output.pdf}}`
 
 - Set Margins:
 
