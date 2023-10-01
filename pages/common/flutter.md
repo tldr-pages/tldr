@@ -19,10 +19,6 @@
 
 `flutter run -d all`
 
-- Download all packages specified in `pubspec.yaml`:
-
-`flutter pub get`
-
 - Run tests in a terminal from the root of the project:
 
 `flutter test {{test/example_test.dart}}`
