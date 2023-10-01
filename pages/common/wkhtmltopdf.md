@@ -21,4 +21,4 @@
 
 - Generate Grayscale PDF:
 
-`wkhtmltopdf --grayscale input.html output.pdf`
+`wkhtmltopdf --grayscale {{input.html}} {{output.pdf}}`
