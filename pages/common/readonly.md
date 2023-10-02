@@ -4,7 +4,7 @@
 > This is useful when you want to ensure that a variable retains a constant value throughout the execution of a script.
 > More information: <https://manned.org/readonly.1p>.
 
-- To create a read-only variable:
+- Create a read-only variable:
 
 `readonly {{variable_name}}={{value}}`
 
