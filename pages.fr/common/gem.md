@@ -1,6 +1,6 @@
 # gem
 
-> A package manager for the Ruby programming language.
+> Un gestionnaire de paquets pour le langage de programmation Ruby.
 > Plus d'informations : <https://guides.rubygems.org>.
 
 - Recherche des gems distantes et affiche toutes les versions disponibles :
