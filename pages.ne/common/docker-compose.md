@@ -17,7 +17,7 @@
 
 - प्रोजेक्तको नाम निर्दिष्ट गरेर र वैकल्पिक रचना फाइल प्रयोग गरेर सबै कन्टेनरहरू सुरु गर्नुहोस्:
 
-`docker compose -p {{project_name}} --file {{path/to/file}} up`
+`docker compose -p {{परियोजनाको_नाम}} --file {{फाइल/को/पथ}} up`
 
 - चलिरहेको सबै कन्टेनरहरू रोक्नुहोस्:
 
@@ -33,4 +33,4 @@
 
 - विशेष कन्टेनरको लागि लगहरू पछ्याउनुहोस्:
 
-`docker compose logs --follow {{container_name}}`
+`docker compose logs --follow {{कन्टेनर_नाम}}`
