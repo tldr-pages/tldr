@@ -8,10 +8,10 @@
 
 `tcpick -i {{interface}} -C -h {{host}} -p {{port}}`
 
-- Show help:
-
-`tcpick --help`
-
 - Capture traffic on port 80 (HTTP) of a specific host:
 
 `sudo tcpick -i {{eth0}} -C -h {{192.168.1.100}} -p {{80}}`
+
+- Display help:
+
+`tcpick --help`
