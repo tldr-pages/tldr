@@ -23,7 +23,7 @@
 
 `cargo remove --dry-run`
 
-- Use verbrose output:
+- Use verbose output:
 
 `cargo remove {{-v|--verbose}}`
 
