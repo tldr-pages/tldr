@@ -16,7 +16,7 @@
 
 `cargo run --example {{name}}`
 
-- Space or comma separated list of features to activate:
+- Activate a space or comma separated list of features:
 
 `cargo run --features {{feature1 feature2 ...}}`
 
