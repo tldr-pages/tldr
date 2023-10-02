@@ -14,3 +14,7 @@
 - List only the filenames of the tree on a commit:
 
 `git ls-tree --name-only {{commit_hash}}`
+
+- Print the filenames of the current branch head in a tree structure:
+
+`git ls-tree -r --name-only HEAD | tree --fromfile`
