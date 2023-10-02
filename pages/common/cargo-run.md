@@ -4,6 +4,10 @@
 > Note: Set the working directory of the binary executed to the current working directory.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-run.html>.
 
+- Run the default binary target:
+
+`cargo run`
+
 - Run the specified binary:
 
 `cargo run --bin {{name}}`
