@@ -15,17 +15,13 @@
 
 `cargo logout --verbose`
 
-- Do not print cargo log messages:
+- Do not print cargo log message:
 
 `cargo logout --quit`
 
 - Control when colored output is used:
 
 `cargo logout --color {{auto|always|never}}`
-
-- To specify which toolchain to use:
-
-`cargo logout +{{stable|nightly}}`
 
 - Override a Cargo configuration value:
 
