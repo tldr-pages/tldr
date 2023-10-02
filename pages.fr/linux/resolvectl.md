@@ -14,19 +14,23 @@
 
 - Récupère le domaine d'une IP spécifiée :
 
-`resolvectl query {{ip_address}}`
+`resolvectl query {{adresse_ip}}`
+
+- Vide tous les caches DNS locaux :
+
+`resolvectl flush-caches`
+
+- Affiche les statistiques DNS (transactions, cache et verdicts DNSSEC) :
+
+`resolvectl statistics`
 
 - Récupère un enregistrement MX du domaine :
 
-`resolvectl --legend={{no}} --type={{MX}} query {{domain}}`
+`resolvectl --legend={{no}} --type={{MX}} query {{domaine}}`
 
 - Résout un enregistrement SRV, par exemple _xmpp-server._tcp gmail.com :
 
-`resolvectl service _{{service}}._{{protocol}} {{name}}`
-
-- Récupère la clé publique d'une adresse de courriel à partir d'un enregistrement DNS OPENPGPKEY :
-
-`resolvectl opengpg {{email}}`
+`resolvectl service _{{service}}._{{protocole}} {{nom}}`
 
 - Récupère une clé TLS :
 
