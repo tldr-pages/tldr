@@ -3,10 +3,14 @@
 > Display various kinds of reports.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-report.html>.
 
-- Show report with specified Cargo-generated id:
+- Display a report:
 
-`cargo report --id {{id}}`
+`cargo report {{future-incompatibilities|...}}`
+
+- Display a report with the specified Cargo-generated id:
+
+`cargo report {{future-incompatibilities|...}} --id {{id}}`
 
 - Display a report for the specified package:
 
-`cargo report --package {{package}}`
+`cargo report {{future-incompatibilities|...}} --package {{package}}`
