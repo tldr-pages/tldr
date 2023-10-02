@@ -1,8 +1,8 @@
 # tcpick
 
-> A Linux command-line tool for packet sniffing and network traffic analysis.
+> Packet sniffing and network traffic analysis tool.
 > It can capture and display TCP connections and data. It can also monitor network traffic on a specific interface, host, or port.
-> More information: <https://linux.die.net/man/8/tcpick>.
+> More information: <https://manned.org/tcpick.8>.
 
 - Basic usage:
 
