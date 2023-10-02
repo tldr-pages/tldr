@@ -24,7 +24,7 @@
 
 `cargo run --no-default-features`
 
-- Activate all available features of selected packages:
+- Activate all available features:
 
 `cargo run --all-features`
 
