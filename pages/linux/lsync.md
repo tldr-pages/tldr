@@ -8,6 +8,6 @@
 
 `lsyncd -rsync {{path/to/source}} {{host::share_name}}`
 
-- Lsync with SSH connection:
+- Use SSH instead of `rsyncd` shares:
 
-`lsyncd -rsyncssh {{/home}} {{remotehost.org}} {{backup-home/}}`
+`lsyncd -rsyncssh {{path/to/source}} {{host}} {{path/to/destination}}`
