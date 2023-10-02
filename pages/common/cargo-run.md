@@ -20,7 +20,7 @@
 
 `cargo run --features {{feature1 feature2 ...}}`
 
-- Disable the default feature of the selected packages:
+- Disable the default feature:
 
 `cargo run --no-default-features`
 
