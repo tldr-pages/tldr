@@ -1,4 +1,4 @@
-# lsync
+# lsyncd
 
 > Watch files and directories and run `rsync` when they change.
 > It is often used to keep two directories on separate systems in sync, ensuring that changes made in one directory are immediately mirrored to the other.
