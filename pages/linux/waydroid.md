@@ -22,8 +22,8 @@
 
 - Start or stop the Waydroid session:
 
-`waydroid session {{start/stop}}`
+`waydroid session {{start|stop}}`
 
 - Manage the Waydroid Container:
 
-`waydroid container {{start/stop/restart/freeze/unfreeze}}`
+`waydroid container {{start|stop|restart|freeze|unfreeze}}`
