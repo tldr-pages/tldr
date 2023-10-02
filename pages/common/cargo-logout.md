@@ -17,7 +17,7 @@
 
 - Do not print cargo log messages:
 
-`cargo logout {{-q|--quit}}`
+`cargo logout --quit`
 
 - Control when colored output is used:
 
