@@ -23,7 +23,7 @@
 
 `cargo remove --verbose`
 
-- Do not print cargo log message:
+- Do not print Cargo log message:
 
 `cargo remove --quiet`
 
