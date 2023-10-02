@@ -19,13 +19,13 @@
 
 `cargo remove --dry-run`
 
-- Use verbrose output:
+- Use verbose output:
 
 `cargo remove --verbose`
 
-- Do not print cargo log messages:
+- Do not print cargo log message:
 
-`cargo remove {{-q|--quiet}}`
+`cargo remove --quiet`
 
 - Package to remove from:
 
