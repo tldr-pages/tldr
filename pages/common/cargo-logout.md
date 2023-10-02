@@ -27,11 +27,11 @@
 
 `cargo logout +{{stable|nightly}}`
 
-- Overrides a Cargo configuration value:
+- Override a Cargo configuration value:
 
 `cargo logout --config {{KEY=VALUE|PATH}}`
 
-- Changes the current working directory before executing any specified operations:
+- Change the current working directory before executing any specified operation:
 
 `cargo logout -c {{PATH}}`
 
@@ -39,6 +39,6 @@
 
 `cargo logout {{-h|--help}}`
 
-- Unstable (nightly-only) flags to Cargo:
+- Unstable (nightly-only) flag to Cargo:
 
 `cargo -z help` 
