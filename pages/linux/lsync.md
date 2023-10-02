@@ -4,9 +4,9 @@
 > It is often used to keep two directories on separate systems in sync, ensuring that changes made in one directory are immediately mirrored to the other.
 > More information: <https://github.com/lsyncd/lsyncd>.
 
-- Lsync with `rsync-share` share:
+- Watch the source for changes and run `rsync` to synchronize files to the destination on every change: 
 
-`lsyncd -rsync {{/source_directory}} {{destination_host::/destination_directory}}`
+`lsyncd -rsync {{path/to/source}} {{host::share_name}}`
 
 - Lsync with SSH connection:
 
