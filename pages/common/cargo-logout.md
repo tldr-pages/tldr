@@ -41,5 +41,4 @@
 
 - Unstable (nightly-only) flags to Cargo.
 
-`cargo -z help`
- 
+`cargo -z help` 
