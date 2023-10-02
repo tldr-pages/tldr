@@ -6,7 +6,7 @@
 
 - Lsync with `rsync-share` share:
 
-`lsyncd -rsync {{/source_directory}} {{destination_host:/destination_directory}}`
+`lsyncd -rsync {{/source_directory}} {{destination_host::/destination_directory}}`
 
 - Lsync with ssh connection:
 
