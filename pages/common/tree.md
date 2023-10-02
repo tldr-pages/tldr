@@ -34,7 +34,3 @@
 - Print the tree ignoring the given directories:
 
 `tree -I '{{directory_name1|directory_name2}}'`
-
-- Print the current git repo tree:
-
-`git ls-tree -r --name-only HEAD | tree --fromfile`
