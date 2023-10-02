@@ -11,7 +11,7 @@
 
 `reboot --poweroff`
 
-- Halt the system (same as `halt`):
+- Halt (terminates all processes and shuts down the cpu) the system (same as `halt`):
 
 `reboot --halt`
 
