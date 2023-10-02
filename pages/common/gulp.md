@@ -11,3 +11,7 @@
 - Run individual tasks:
 
 `gulp {{task}} {{othertask}}`
+
+- Print the task dependency tree for the loaded gulpfile.
+
+`gulp --tasks`
