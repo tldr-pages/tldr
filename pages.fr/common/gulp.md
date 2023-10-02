@@ -12,6 +12,6 @@
 
 `gulp {{task}} {{othertask}}`
 
-- Affiche l'arbre de dépendance des tâches pour le gulpfile chargé.
+- Affiche l'arbre de dépendance des tâches pour le gulpfile chargé :
 
 `gulp --tasks`

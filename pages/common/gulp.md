@@ -12,6 +12,6 @@
 
 `gulp {{task}} {{othertask}}`
 
-- Print the task dependency tree for the loaded gulpfile.
+- Print the task dependency tree for the loaded gulpfile:
 
 `gulp --tasks`
