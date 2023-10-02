@@ -1,7 +1,7 @@
 # cd
 
 > Zobrazit aktuální adresář nebo přesun do jiného adresáře.
-> Více informací: <https://learn.microsoft.com/cs-cz/windows-server/administration/windows-commands/cd>.
+> Více informací: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Zobrazit cestu k aktuálnímu adresáři:
 
