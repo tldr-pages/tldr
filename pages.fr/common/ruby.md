@@ -20,7 +20,7 @@
 
 `ruby -run -e httpd`
 
-- Exécute localement un binaire ruby sans installer la bibliothèque requise dont il dépend :
+- Exécute localement un binaire Ruby sans installer la bibliothèque requise dont il dépend :
 
 `ruby -I{{chemin/vers/dossier_bibliothèque}} -r{{nom_chargement_bibliothèque}} {{chemin/vers/dossier_bin/nom_bin}} {{arguments}}`
 
