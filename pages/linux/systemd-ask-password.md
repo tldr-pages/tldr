@@ -26,4 +26,3 @@
 - Store a password in kernel keyring without displaying it:
 
 `systemd-ask-password --no-output --keyname={{key_name}} "{{message}}"`
-
