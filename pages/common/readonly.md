@@ -8,7 +8,7 @@
 
 `readonly {{variable_name}}={{value}}`
 
-- To mark a variable as read-only:
+- Mark a variable as read-only:
 
 `readonly {{existing_variable}}`
 
