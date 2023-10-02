@@ -10,7 +10,7 @@
 
 - Exécute des tâches individuelles :
 
-`gulp {{task}} {{othertask}}`
+`gulp {{tâche}} {{autre_tâche}}`
 
 - Affiche l'arbre de dépendance des tâches pour le gulpfile chargé :
 
