@@ -8,22 +8,22 @@
 
 `waydroid`
 
-- Initialize Waydroid:
+- Initialize Waydroid (required on first run or after reinstalling Android):
 
 `waydroid init`
 
-- Install Android Applications:
+- Install a new Android app from file:
 
-`waydroid app install {{path/to/app.apk}}`
+`waydroid app install {{path/to/file.apk}}`
 
-- Launch Applications (with package name of the app):
+- Launch an Android app by its package name:
 
 `waydroid app launch {{com.example.app}}`
 
-- Manage Waydroid Session:
+- Start or stop the Waydroid session:
 
 `waydroid session {{start/stop}}`
 
-- Manage Waydroid Container:
+- Manage the Waydroid Container:
 
 `waydroid container {{start/stop/restart/freeze/unfreeze}}`
