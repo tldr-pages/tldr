@@ -1,6 +1,7 @@
 # duc
 
-> Duc é uma coleção de ferramentas para indexar, inspecionar e visualizar uso do disco. o duc mantém uma base de dados dos tamanhos acumlados dos diretórios do sistema de arquivos, permitindo buscas nessa base de dados, ou a criação de gráficos para mostrar onde os dados estão.
+> Duc é uma coleção de ferramentas para indexar, inspecionar e visualizar uso do disco. O duc mantém uma base de dados dos tamanhos acumlados dos diretórios do sistema de arquivos, 
+> permitindo buscas nessa base de dados, ou a criação de gráficos para mostrar onde os dados estão.
 > Mais informações: <https://duc.zevv.nl/>.
 
 - Indexa o diretório /usr, escrevendo a base de dados para o local default em ~/.duc.db:
