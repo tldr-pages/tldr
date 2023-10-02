@@ -17,7 +17,7 @@
 
 - Do not print cargo log message:
 
-`cargo logout --quit`
+`cargo logout --quiet`
 
 - Control when colored output is used:
 
@@ -27,7 +27,7 @@
 
 `cargo logout --config {{KEY=VALUE|PATH}}`
 
-- Change the current working directory before executing any specified operation:
+- Change the current directory before executing any specified operation:
 
 `cargo logout -c {{PATH}}`
 
