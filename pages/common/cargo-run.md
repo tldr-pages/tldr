@@ -18,7 +18,7 @@
 
 - Space or comma separated list of features to activate:
 
-`cargo run --features {{features}}`
+`cargo run --features {{feature1 feature2 ...}}`
 
 - Disable the default feature of the selected packages:
 
