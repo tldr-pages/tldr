@@ -9,43 +9,35 @@
 
 - To add the name of the registry to use.
 
-`cargo logout --registry **registry**`
+`cargo logout --registry {{registry}}`
 
 - To use verbose output.
 
-`cargo logout -v`
-`cargo logout --verbose`
+`cargo logout {{-v|--verbose}}`
 
 - Do not print cargo log messages.
 
-`cargo logout -q`
-`cargo logout --quiet`
+`cargo logout {{-q|--quit}}`
 
 - Control when colored output is used.
 
-`cargo logout --color **when**`
-`cargo logout --color auto`
-`cargo logout --color always`
-`cargo logout --color never`
+`cargo logout --color {{auto|always|never}}`
 
 - To specify which toolchain to use.
 
-`cargo logout +**toolchain**`
-`cargo logout +stable`
-`cargo logout +nightly`
+`cargo logout +{{stable|nightly}}`
 
 - Overrides a Cargo configuration value.
 
-`cargo logout --config **KEY=VALUE** or **PATH**`
+`cargo logout --config {{KEY=VALUE|PATH}}`
 
 - Changes the current working directory before executing any specified operations.
 
-`cargo logout -c **PATH**`
+`cargo logout -c {{PATH}}`
 
 - Print help information.
 
-`cargo logout -h`
-`cargo logout --help`
+`cargo logout {{-h|--help}}`
 
 - Unstable (nightly-only) flags to Cargo.
 
