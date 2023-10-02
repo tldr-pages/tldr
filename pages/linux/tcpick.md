@@ -4,7 +4,7 @@
 > It can capture and display TCP connections and data. It can also monitor network traffic on a specific interface, host, or port.
 > More information: <https://manned.org/tcpick.8>.
 
-- Basic usage:
+- Capture traffic on a specific [i]nterface, port and host::
 
 `tcpick -i {{interface}} -C -h {{host}} -p {{port}}`
 
