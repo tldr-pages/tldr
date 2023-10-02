@@ -1,7 +1,7 @@
 # gulp
 
 > Système d'exécution de tâches et de construction en continu pour JavaScript.
-> Les tâches sont définies dans le fichier gulpfile.js à la racine du projet.
+> Les tâches sont définies dans le fichier `gulpfile.js` à la racine du projet.
 > Plus d'informations : <https://github.com/gulpjs/gulp-cli>.
 
 - Exécute la tâche par défaut :
