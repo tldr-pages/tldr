@@ -38,7 +38,3 @@
 - Print help information:
 
 `cargo logout {{-h|--help}}`
-
-- Unstable (nightly-only) flag to Cargo:
-
-`cargo -z help` 
