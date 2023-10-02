@@ -17,7 +17,7 @@
 
 - Přesun do domovského adresáře zadaného uživatele:
 
-`cd ~{{uzivatel}}`
+`cd ~{{jmeno_uzivatele}}`
 
 - Přesun do předchozího vybraného adresáře:
 
