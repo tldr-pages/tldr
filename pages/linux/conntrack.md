@@ -2,7 +2,7 @@
 
 > Interact with the Netfilter connection tracking system.
 > Search, list, inspect, modify, and delete connection flows.
-> More information: <https://manned.org/conntrack>.
+> More information: <https://manned.org/conntrack>
 
 - List all currently tracked connections:
 

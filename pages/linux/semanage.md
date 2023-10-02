@@ -1,7 +1,7 @@
 # semanage
 
 > SELinux Policy Management tool.
-> More information: <https://manned.org/semanage>.
+> More information: <https://manned.org/semanage>
 
 - Output local customizations:
 

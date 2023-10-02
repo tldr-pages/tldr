@@ -2,7 +2,7 @@
 
 > A large file decompression program.
 > See also `lrzip`, `lrztar`, `lrzuntar`.
-> More information: <https://manned.org/lrunzip>.
+> More information: <https://manned.org/lrunzip>
 
 - Decompress a file:
 

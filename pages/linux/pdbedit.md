@@ -2,7 +2,7 @@
 
 > Edit the Samba user database.
 > For simple user add/remove/password, you can also use `smbpasswd`.
-> More information: <https://manned.org/pdbedit>.
+> More information: <https://manned.org/pdbedit>
 
 - List all Samba users (use verbose flag to show their settings):
 

@@ -1,7 +1,7 @@
 # steghide
 
 > Steganography tool for JPEG, BMP, WAV and AU file formats.
-> More information: <https://github.com/StefanoDeVuono/steghide>.
+> More information: <https://github.com/StefanoDeVuono/steghide>
 
 - Embed data in a PNG, prompting for a passphrase:
 

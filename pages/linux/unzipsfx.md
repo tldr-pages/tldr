@@ -1,7 +1,7 @@
 # unzipsfx
 
 > Create a self-extracting compressed binary file by prepending self-extracting stubs on a `zip` file.
-> More information: <https://manned.org/unzipsfx>.
+> More information: <https://manned.org/unzipsfx>
 
 - Create a self-extracting binary file of a `zip` archive:
 

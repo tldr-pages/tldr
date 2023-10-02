@@ -1,7 +1,7 @@
 # inotifywait
 
 > Waits for changes to one or more files.
-> More information: <https://manned.org/inotifywait>.
+> More information: <https://manned.org/inotifywait>
 
 - Watch a specific file for events, exiting after the first one:
 

@@ -2,7 +2,7 @@
 
 > Utility providing full immutability and atomicity by transacting between 2 root partition states (A⟺B).
 > Updates are performed using OCI images, to ensure that the system is always in a consistent state.
-> More information: <https://github.com/Vanilla-OS/ABRoot>.
+> More information: <https://github.com/Vanilla-OS/ABRoot>
 
 - Add packages to the local image (Note: after executing this command, you need to apply these changes.):
 

@@ -1,7 +1,7 @@
 # links
 
 > Command-line web browser.
-> More information: <http://links.twibright.com/>.
+> More information: <http://links.twibright.com/>
 
 - Visit a website:
 

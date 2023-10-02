@@ -2,7 +2,7 @@
 
 > Add user groups to the system.
 > See also: `groups`, `groupdel`, `groupmod`.
-> More information: <https://manned.org/groupadd>.
+> More information: <https://manned.org/groupadd>
 
 - Create a new group:
 

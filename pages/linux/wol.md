@@ -1,7 +1,7 @@
 # wol
 
 > Client for sending Wake-on-LAN magic packets.
-> More information: <https://sourceforge.net/projects/wake-on-lan/>.
+> More information: <https://sourceforge.net/projects/wake-on-lan/>
 
 - Send a WoL packet to a device:
 

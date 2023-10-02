@@ -2,7 +2,7 @@
 
 > Interactively enroll or remove methods used to unlock LUKS2-encrypted partitions/block devices.
 > In order to allow a partition to be unlocked during system boot using something other than a Password, also update the crypttab file and initramfs.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemd-cryptenroll.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemd-cryptenroll.html>
 
 - Unlock using Password, and enroll a new/additional Password:
 

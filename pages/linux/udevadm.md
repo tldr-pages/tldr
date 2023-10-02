@@ -1,7 +1,7 @@
 # udevadm
 
 > Linux `udev` management tool.
-> More information: <https://www.freedesktop.org/software/systemd/man/udevadm>.
+> More information: <https://www.freedesktop.org/software/systemd/man/udevadm>
 
 - Monitor all device events:
 

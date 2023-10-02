@@ -1,7 +1,7 @@
 # expect
 
 > Script executor that interacts with other programs that require user input.
-> More information: <https://manned.org/expect>.
+> More information: <https://manned.org/expect>
 
 - Execute an expect script from a file:
 

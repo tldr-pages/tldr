@@ -1,7 +1,7 @@
 # woeusb
 
 > Windows media creation tool.
-> More information: <https://github.com/WoeUSB/WoeUSB>.
+> More information: <https://github.com/WoeUSB/WoeUSB>
 
 - Format a USB then create a bootable Windows installation drive:
 

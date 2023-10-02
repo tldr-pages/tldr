@@ -1,7 +1,7 @@
 # getcap
 
 > Command to display the name and capabilities of each specified file.
-> More information: <https://manned.org/getcap>.
+> More information: <https://manned.org/getcap>
 
 - Get capabilities for the given files:
 

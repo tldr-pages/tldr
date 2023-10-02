@@ -1,7 +1,7 @@
 # grub-install
 
 > Install GRUB to a device.
-> More information: <https://www.gnu.org/software/grub/manual/grub/html_node/Installing-GRUB-using-grub_002dinstall.html>.
+> More information: <https://www.gnu.org/software/grub/manual/grub/html_node/Installing-GRUB-using-grub_002dinstall.html>
 
 - Install GRUB on a BIOS system:
 

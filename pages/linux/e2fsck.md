@@ -1,7 +1,7 @@
 # e2fsck
 
 > Check a Linux ext2/ext3/ext4 filesystem. The partition should be unmounted.
-> More information: <https://manned.org/e2fsck>.
+> More information: <https://manned.org/e2fsck>
 
 - Check filesystem, reporting any damaged blocks:
 

@@ -1,7 +1,7 @@
 # btrfs subvolume
 
 > Manage btrfs subvolumes and snapshots.
-> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html>
 
 - Create a new empty subvolume:
 

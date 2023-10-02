@@ -1,7 +1,7 @@
 # btrfs inspect-internal
 
 > Query internal information of a btrfs filesystem.
-> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-inspect-internal.html>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-inspect-internal.html>
 
 - Print superblock's information:
 

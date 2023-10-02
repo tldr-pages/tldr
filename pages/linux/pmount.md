@@ -1,7 +1,7 @@
 # pmount
 
 > Mount arbitrary hotpluggable devices as a normal user.
-> More information: <https://manned.org/pmount>.
+> More information: <https://manned.org/pmount>
 
 - Mount a device below `/media/` (using device as mount point):
 

@@ -2,7 +2,7 @@
 
 > Remove a user account or remove a user from a group.
 > See also: `users`, `useradd`, `usermod`.
-> More information: <https://manned.org/userdel>.
+> More information: <https://manned.org/userdel>
 
 - Remove a user:
 

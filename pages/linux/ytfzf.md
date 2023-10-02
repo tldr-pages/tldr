@@ -1,7 +1,7 @@
 # ytfzf
 
 > A POSIX script that helps you find and download videos and music.
-> More information: <https://github.com/pystardust/ytfzf>.
+> More information: <https://github.com/pystardust/ytfzf>
 
 - Search for videos on YouTube with thumbnail previews:
 

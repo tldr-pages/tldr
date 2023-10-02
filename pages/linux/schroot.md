@@ -1,7 +1,7 @@
 # schroot
 
 > Run a command or start an interactive shell with a different root directory. More customizable than `chroot`.
-> More information: <https://wiki.debian.org/Schroot>.
+> More information: <https://wiki.debian.org/Schroot>
 
 - List available chroots:
 

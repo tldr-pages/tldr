@@ -2,7 +2,7 @@
 
 > List directory contents using one line per file, special characters are represented by backslash escape sequences.
 > Works as `ls -C --escape`.
-> More information: <https://manned.org/dir>.
+> More information: <https://manned.org/dir>
 
 - List all files, including hidden files:
 

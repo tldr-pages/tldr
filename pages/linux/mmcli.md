@@ -1,7 +1,7 @@
 # mmcli
 
 > Control and monitor the ModemManager.
-> More information: <https://www.freedesktop.org/software/ModemManager/man/latest/mmcli.1.html>.
+> More information: <https://www.freedesktop.org/software/ModemManager/man/latest/mmcli.1.html>
 
 - List available modems:
 

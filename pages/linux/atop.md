@@ -1,7 +1,7 @@
 # atop
 
 > Linux system and process monitor.
-> More information: <https://manned.org/atop>.
+> More information: <https://manned.org/atop>
 
 - Start:
 

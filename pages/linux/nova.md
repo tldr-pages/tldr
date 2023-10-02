@@ -1,7 +1,7 @@
 # nova
 
 > The OpenStack project that provides a way to provision compute instances.
-> More information: <https://docs.openstack.org/nova/latest/>.
+> More information: <https://docs.openstack.org/nova/latest/>
 
 - List VMs on current tenant:
 

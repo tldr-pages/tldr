@@ -1,7 +1,7 @@
 # coproc
 
 > Bash builtin for creating interactive asynchronous subshells.
-> More information: <https://www.gnu.org/software/bash/manual/bash.html#Coprocesses>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#Coprocesses>
 
 - Run a subshell asynchronously:
 

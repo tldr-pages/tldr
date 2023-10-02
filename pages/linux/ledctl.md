@@ -1,7 +1,7 @@
 # ledctl
 
 > Intel(R) Enclosure LED Control Application.
-> More information: <https://manned.org/ledctl>.
+> More information: <https://manned.org/ledctl>
 
 - Turn on the "Locate" LED for specified device(s):
 

@@ -1,7 +1,7 @@
 # kreadconfig5
 
 > Read KConfig entries for KDE Plasma.
-> More information: <https://userbase.kde.org/KDE_System_Administration/Configuration_Files>.
+> More information: <https://userbase.kde.org/KDE_System_Administration/Configuration_Files>
 
 - Read a key from the global configuration:
 

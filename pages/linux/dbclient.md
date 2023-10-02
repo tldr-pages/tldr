@@ -1,7 +1,7 @@
 # dbclient
 
 > Lightweight Dropbear Secure Shell client.
-> More information: <https://manned.org/dbclient.1>.
+> More information: <https://manned.org/dbclient.1>
 
 - Connect to a remote host:
 

@@ -1,7 +1,7 @@
 # latte-dock
 
 > Replacement dock for Plasma desktop.
-> More information: <https://github.com/KDE/latte-dock>.
+> More information: <https://github.com/KDE/latte-dock>
 
 - Clear QML cache:
 

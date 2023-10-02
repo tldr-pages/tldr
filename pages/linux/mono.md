@@ -1,7 +1,7 @@
 # mono
 
 > Runtime for the .NET Framework.
-> More information: <https://www.mono-project.com/docs/>.
+> More information: <https://www.mono-project.com/docs/>
 
 - Run a .NET assembly in debug mode:
 

@@ -1,7 +1,7 @@
 # swaylock
 
 > Screen locking utility for Wayland compositors.
-> More information: <https://manned.org/swaylock>.
+> More information: <https://manned.org/swaylock>
 
 - Lock the screen showing a white background:
 

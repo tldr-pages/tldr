@@ -2,7 +2,7 @@
 
 > Get or set process resource soft and hard limits.
 > Given a process ID and one or more resources, prlimit tries to retrieve and/or modify the limits.
-> More information: <https://manned.org/prlimit>.
+> More information: <https://manned.org/prlimit>
 
 - Display limit values for all current resources for the running parent process:
 

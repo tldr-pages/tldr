@@ -2,7 +2,7 @@
 
 > Create a temporary file or directory.
 > Note that examples here all assume `$TMPDIR` is unset.
-> More information: <https://www.gnu.org/software/autogen/mktemp.html>.
+> More information: <https://www.gnu.org/software/autogen/mktemp.html>
 
 - Create an empty temporary file in `/tmp/` and print its absolute path:
 

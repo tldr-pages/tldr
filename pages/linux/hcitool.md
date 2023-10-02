@@ -1,7 +1,7 @@
 # hcitool
 
 > Monitor, configure connections, and send special commands to Bluetooth devices.
-> More information: <https://manned.org/hcitool>.
+> More information: <https://manned.org/hcitool>
 
 - Scan for Bluetooth devices:
 

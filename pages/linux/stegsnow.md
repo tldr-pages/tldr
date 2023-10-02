@@ -1,7 +1,7 @@
 # stegsnow
 
 > Steganography tool for concealing and extracting messages in text files encoded as tabs and spaces.
-> More information: <https://darkside.com.au/snow/manual.html>.
+> More information: <https://darkside.com.au/snow/manual.html>
 
 - Extract [m]essage from file:
 

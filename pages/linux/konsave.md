@@ -1,7 +1,7 @@
 # konsave
 
 > Save and apply your Linux customizations with just one command.
-> More information: <https://github.com/Prayag2/konsave>.
+> More information: <https://github.com/Prayag2/konsave>
 
 - Save the current configuration as a profile:
 

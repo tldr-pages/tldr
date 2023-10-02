@@ -2,7 +2,7 @@
 
 > View information about Slurm nodes and partitions.
 > See also `squeue` and `sbatch`, which are also part of the Slurm workload manager.
-> More information: <https://slurm.schedmd.com/sinfo.html>.
+> More information: <https://slurm.schedmd.com/sinfo.html>
 
 - Show a quick summary overview of the cluster:
 

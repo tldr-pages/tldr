@@ -2,7 +2,7 @@
 
 > Show the contents of an initramfs image.
 > See also: `dracut`.
-> More information: <https://github.com/dracutdevs/dracut/blob/master/man/lsinitrd.1.asc>.
+> More information: <https://github.com/dracutdevs/dracut/blob/master/man/lsinitrd.1.asc>
 
 - Show the contents of the initramfs image for the current kernel:
 

@@ -1,7 +1,7 @@
 # auracle
 
 > Command-line tool used to interact with Arch Linux's User Repository, commonly referred to as the AUR.
-> More information: <https://github.com/falconindy/auracle>.
+> More information: <https://github.com/falconindy/auracle>
 
 - Display AUR packages that match a regular expression:
 

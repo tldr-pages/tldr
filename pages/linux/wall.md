@@ -1,7 +1,7 @@
 # wall
 
 > Write a message on the terminals of users currently logged in.
-> More information: <https://manned.org/wall>.
+> More information: <https://manned.org/wall>
 
 - Send a message:
 

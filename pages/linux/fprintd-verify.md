@@ -1,7 +1,7 @@
 # fprintd-verify
 
 > Verify fingerprints against the database.
-> More information: <https://manned.org/fprintd-verify>.
+> More information: <https://manned.org/fprintd-verify>
 
 - Verify all stored fingerprints for the current user:
 

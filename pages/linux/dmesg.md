@@ -1,7 +1,7 @@
 # dmesg
 
 > Write the kernel messages to `stdout`.
-> More information: <https://manned.org/dmesg>.
+> More information: <https://manned.org/dmesg>
 
 - Show kernel messages:
 

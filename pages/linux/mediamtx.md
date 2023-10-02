@@ -1,7 +1,7 @@
 # mediamtx
 
 > Real-time media server and proxy.
-> More information: <https://github.com/bluenviron/mediamtx>.
+> More information: <https://github.com/bluenviron/mediamtx>
 
 - Run MediaMTX:
 

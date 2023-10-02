@@ -1,7 +1,7 @@
 # dunstctl
 
 > Control command for `dunst`.
-> More information: <https://manned.org/dunstctl>.
+> More information: <https://manned.org/dunstctl>
 
 - Pause notifications:
 

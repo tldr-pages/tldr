@@ -1,7 +1,7 @@
 # scrot
 
 > Screen capture utility.
-> More information: <https://github.com/resurrecting-open-source-projects/scrot>.
+> More information: <https://github.com/resurrecting-open-source-projects/scrot>
 
 - Capture a screenshot and save it to the current directory with the current date as the filename:
 

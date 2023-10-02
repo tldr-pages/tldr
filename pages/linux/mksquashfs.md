@@ -1,7 +1,7 @@
 # mksquashfs
 
 > Create or append files and directories to squashfs filesystems.
-> More information: <https://manned.org/mksquashfs>.
+> More information: <https://manned.org/mksquashfs>
 
 - Create or append files and directories to a squashfs filesystem (compressed using `gzip` by default):
 

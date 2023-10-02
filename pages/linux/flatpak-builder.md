@@ -1,7 +1,7 @@
 # flatpak-builder
 
 > Help build application dependencies.
-> More information: <https://docs.flatpak.org/en/latest/flatpak-builder-command-reference.html>.
+> More information: <https://docs.flatpak.org/en/latest/flatpak-builder-command-reference.html>
 
 - Build a Flatpak and export it to a new repository:
 

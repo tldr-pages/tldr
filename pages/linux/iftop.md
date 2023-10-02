@@ -1,7 +1,7 @@
 # iftop
 
 > Show bandwidth usage on an interface by host.
-> More information: <https://manned.org/iftop>.
+> More information: <https://manned.org/iftop>
 
 - Show the bandwidth usage:
 

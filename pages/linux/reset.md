@@ -1,7 +1,7 @@
 # reset
 
 > Reinitializes the current terminal. Clears the entire terminal screen.
-> More information: <https://manned.org/reset>.
+> More information: <https://manned.org/reset>
 
 - Reinitialize the current terminal:
 

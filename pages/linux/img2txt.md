@@ -1,7 +1,7 @@
 # img2txt
 
 > Convert images to colour ASCII characters and output them to text-based coloured files.
-> More information: <https://manned.org/img2txt>.
+> More information: <https://manned.org/img2txt>
 
 - Set output column count to a specific value:
 

@@ -1,7 +1,7 @@
 # brctl
 
 > Ethernet bridge administration.
-> More information: <https://manned.org/brctl>.
+> More information: <https://manned.org/brctl>
 
 - Show a list with information about currently existing Ethernet bridges:
 

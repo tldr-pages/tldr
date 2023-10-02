@@ -1,7 +1,7 @@
 # xrandr
 
 > Set the size, orientation and/or reflection of the outputs for a screen.
-> More information: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml>.
+> More information: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml>
 
 - Display the current state of the system (known screens, resolutions, ...):
 

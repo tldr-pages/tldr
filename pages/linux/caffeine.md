@@ -1,7 +1,7 @@
 # caffeine
 
 > Prevent desktop idleness in full-screen mode.
-> More information: <https://manned.org/caffeine>.
+> More information: <https://manned.org/caffeine>
 
 - Start a caffeine server:
 

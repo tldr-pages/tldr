@@ -1,7 +1,7 @@
 # mt
 
 > Control magnetic tape drive operation (commonly LTO tape).
-> More information: <https://manned.org/mt>.
+> More information: <https://manned.org/mt>
 
 - Check the status of a tape drive:
 

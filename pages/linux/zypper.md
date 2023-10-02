@@ -1,8 +1,8 @@
 # zypper
 
 > SUSE & openSUSE package management utility.
-> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> More information: <https://en.opensuse.org/SDB:Zypper_manual>.
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>
+> More information: <https://en.opensuse.org/SDB:Zypper_manual>
 
 - Synchronize list of packages and versions available:
 

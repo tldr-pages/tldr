@@ -2,7 +2,7 @@
 
 > Makes a fast tree from genomes.
 > Does not make a phylogeny.
-> More information: <https://github.com/lskatz/mashtree>.
+> More information: <https://github.com/lskatz/mashtree>
 
 - Fastest method in mashtree to create a tree from fastq and/or fasta files using multiple threads, piping into a newick file:
 

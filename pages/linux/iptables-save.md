@@ -2,7 +2,7 @@
 
 > Save the `iptables` IPv4 configuration.
 > Use `ip6tables-save` to to the same for IPv6.
-> More information: <https://manned.org/iptables-save>.
+> More information: <https://manned.org/iptables-save>
 
 - Print the `iptables` configuration:
 

@@ -1,7 +1,7 @@
 # loadkeys
 
 > Load the kernel keymap for the console.
-> More information: <https://manned.org/loadkeys>.
+> More information: <https://manned.org/loadkeys>
 
 - Load a default keymap:
 

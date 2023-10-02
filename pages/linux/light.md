@@ -1,7 +1,7 @@
 # light
 
 > Control the backlight of your screen.
-> More information: <https://manned.org/light>.
+> More information: <https://manned.org/light>
 
 - Get the current backlight value in percent:
 

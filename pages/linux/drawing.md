@@ -1,7 +1,7 @@
 # drawing
 
 > Free basic raster image editor in GNOME desktop environment.
-> More information: <https://maoschanz.github.io/drawing/>.
+> More information: <https://maoschanz.github.io/drawing/>
 
 - Start Drawing:
 

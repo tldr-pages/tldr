@@ -2,7 +2,7 @@
 
 > A hybrid image/package system.
 > Manage ostree deployments, package layers, filesystem overlays, and boot configuration.
-> More information: <https://coreos.github.io/rpm-ostree/administrator-handbook/>.
+> More information: <https://coreos.github.io/rpm-ostree/administrator-handbook/>
 
 - Show rpm-ostree deployments in the order they will appear in the bootloader:
 

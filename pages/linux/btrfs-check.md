@@ -1,7 +1,7 @@
 # btrfs check
 
 > Check or repair a btrfs filesystem.
-> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-check.html>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-check.html>
 
 - Check a btrfs filesystem:
 

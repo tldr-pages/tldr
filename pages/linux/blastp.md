@@ -1,7 +1,7 @@
 # blastp
 
 > Protein-Protein BLAST.
-> More information: <https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastp_application_options/>.
+> More information: <https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastp_application_options/>
 
 - Align two or more sequences using blastp, with the e-value threshold of 1e-9, pairwise output format, output to screen:
 

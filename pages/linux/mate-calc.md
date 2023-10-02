@@ -1,7 +1,7 @@
 # mate-calc
 
 > Calculate mathematic expressions in MATE desktop environment.
-> More information: <https://manned.org/mate-calc>.
+> More information: <https://manned.org/mate-calc>
 
 - Start the calculator:
 

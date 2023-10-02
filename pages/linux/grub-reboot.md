@@ -1,7 +1,7 @@
 # grub-reboot
 
 > Set the default boot entry for GRUB, for the next boot only.
-> More information: <https://manned.org/grub-reboot>.
+> More information: <https://manned.org/grub-reboot>
 
 - Set the default boot entry to an entry number, name or identifier for the next boot:
 

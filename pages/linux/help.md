@@ -1,7 +1,7 @@
 # help
 
 > Display information about Bash builtin commands.
-> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-help>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-help>
 
 - Display the full list of builtin commands:
 

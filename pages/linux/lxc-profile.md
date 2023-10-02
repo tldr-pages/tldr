@@ -1,7 +1,7 @@
 # lxc profile
 
 > Manage profiles for LXD containers.
-> More information: <https://linuxcontainers.org/lxd/docs/master/profiles>.
+> More information: <https://linuxcontainers.org/lxd/docs/master/profiles>
 
 - List all available profiles:
 

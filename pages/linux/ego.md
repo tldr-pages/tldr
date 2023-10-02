@@ -1,7 +1,7 @@
 # ego
 
 > Funtoo's official system personality management tool.
-> More information: <https://funtoo-ego.readthedocs.io/en/develop/>.
+> More information: <https://funtoo-ego.readthedocs.io/en/develop/>
 
 - Synchronize the Portage tree:
 

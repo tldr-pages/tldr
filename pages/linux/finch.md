@@ -1,7 +1,7 @@
 # finch
 
 > Console-based modular messaging client.
-> More information: <https://developer.pidgin.im/wiki/Using%20Finch>.
+> More information: <https://developer.pidgin.im/wiki/Using%20Finch>
 
 - Launch finch:
 

@@ -1,7 +1,7 @@
 # tic
 
 > Compile terminfo and install for ncurses.
-> More information: <https://pubs.opengroup.org/onlinepubs/007908799/xcurses/terminfo.html>.
+> More information: <https://pubs.opengroup.org/onlinepubs/007908799/xcurses/terminfo.html>
 
 - Compile and install terminfo for a terminal:
 

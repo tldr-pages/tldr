@@ -1,7 +1,7 @@
 # pacstall
 
 > An AUR package manager for Ubuntu.
-> More information: <https://github.com/pacstall/pacstall>.
+> More information: <https://github.com/pacstall/pacstall>
 
 - Search the package database for a package name:
 

@@ -1,7 +1,7 @@
 # ffuf
 
 > Subdomain and directory discovery tool.
-> More information: <https://github.com/ffuf/ffuf>.
+> More information: <https://github.com/ffuf/ffuf>
 
 - Discover directories using a [w]ordlist on a target [u]rl with [c]olorized and [v]erbose output:
 

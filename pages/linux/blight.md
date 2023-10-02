@@ -1,7 +1,7 @@
 # blight
 
 > Utility for changing the display brightness.
-> More information: <https://github.com/gutjuri/blight>.
+> More information: <https://github.com/gutjuri/blight>
 
 - Set display brightness to 50%:
 

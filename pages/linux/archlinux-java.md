@@ -1,7 +1,7 @@
 # archlinux-java
 
 > Switch between installed Java environments.
-> More information: <https://wiki.archlinux.org/title/Java#Switching_between_JVM>.
+> More information: <https://wiki.archlinux.org/title/Java#Switching_between_JVM>
 
 - List installed Java environments:
 

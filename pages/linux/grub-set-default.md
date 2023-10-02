@@ -1,7 +1,7 @@
 # grub-set-default
 
 > Set the default boot entry for GRUB.
-> More information: <https://manned.org/grub-set-default>.
+> More information: <https://manned.org/grub-set-default>
 
 - Set the default boot entry to an entry number, name or identifier:
 

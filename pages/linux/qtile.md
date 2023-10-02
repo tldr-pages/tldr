@@ -1,7 +1,7 @@
 # qtile
 
 > A full-featured, hackable tiling window manager written and configured in Python.
-> More information: <https://docs.qtile.org/en/latest/manual/commands/shell/index.html>.
+> More information: <https://docs.qtile.org/en/latest/manual/commands/shell/index.html>
 
 - Start the window manager, if it is not running already (should ideally be run from `.xsession` or similar):
 

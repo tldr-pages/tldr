@@ -1,7 +1,7 @@
 # pi
 
 > Compute decimal Archimedes' constant Pi.
-> More information: <https://manned.org/pi>.
+> More information: <https://manned.org/pi>
 
 - Display 100 decimal digits of Archimedes' constant Pi:
 

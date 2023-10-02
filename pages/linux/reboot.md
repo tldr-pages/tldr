@@ -1,7 +1,7 @@
 # reboot
 
 > Reboot the system.
-> More information: <https://manned.org/reboot.8>.
+> More information: <https://manned.org/reboot.8>
 
 - Reboot the system:
 

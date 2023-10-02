@@ -1,7 +1,7 @@
 # lci
 
 > LOLCODE interpreter written in C.
-> More information: <https://github.com/justinmeza/lci>.
+> More information: <https://github.com/justinmeza/lci>
 
 - Run a LOLCODE file:
 

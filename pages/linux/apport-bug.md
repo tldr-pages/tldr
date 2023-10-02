@@ -1,7 +1,7 @@
 # apport-bug
 
 > File a bug report on Ubuntu.
-> More information: <https://wiki.ubuntu.com/Apport>.
+> More information: <https://wiki.ubuntu.com/Apport>
 
 - Report a bug about the whole system:
 

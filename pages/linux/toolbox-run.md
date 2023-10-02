@@ -2,7 +2,7 @@
 
 > Run a command in an existing `toolbox` container.
 > See also: `toolbox enter`.
-> More information: <https://manned.org/toolbox-run>.
+> More information: <https://manned.org/toolbox-run>
 
 - Run a command inside a specific `toolbox` container:
 

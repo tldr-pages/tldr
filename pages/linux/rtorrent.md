@@ -1,7 +1,7 @@
 # rtorrent
 
 > Download torrents.
-> More information: <https://github.com/rakshasa/rtorrent>.
+> More information: <https://github.com/rakshasa/rtorrent>
 
 - Add a torrent file or magnet to be downloaded:
 
@@ -13,7 +13,7 @@
 
 - View details about downloading torrent:
 
-`->`
+`->
 
 - Close rtorrent safely:
 

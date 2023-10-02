@@ -1,7 +1,7 @@
 # fprintd-list
 
 > List enrolled fingerprints.
-> More information: <https://manned.org/fprintd-list>.
+> More information: <https://manned.org/fprintd-list>
 
 - List enrolled fingerprints for a specific user:
 

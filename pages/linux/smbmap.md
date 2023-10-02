@@ -1,7 +1,7 @@
 # smbmap
 
 > SMB enumeration tool.
-> More information: <https://github.com/ShawnDEvans/smbmap>.
+> More information: <https://github.com/ShawnDEvans/smbmap>
 
 - Display SMB shares and permissions on a host, prompting for user's password or NTLM hash:
 

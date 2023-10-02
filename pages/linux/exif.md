@@ -1,7 +1,7 @@
 # exif
 
 > Show and change EXIF information in JPEG files.
-> More information: <https://github.com/libexif/exif/>.
+> More information: <https://github.com/libexif/exif/>
 
 - Show all recognized EXIF information in an image:
 

@@ -2,7 +2,7 @@
 
 > Enable devices and files for swapping.
 > Note: `path/to/file` can either point to a regular file or a swap partition.
-> More information: <https://manned.org/swapon>.
+> More information: <https://manned.org/swapon>
 
 - Show swap information:
 

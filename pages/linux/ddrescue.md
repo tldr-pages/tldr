@@ -1,7 +1,7 @@
 # ddrescue
 
 > Data recovery tool that reads data from damaged block devices.
-> More information: <https://www.gnu.org/software/ddrescue/>.
+> More information: <https://www.gnu.org/software/ddrescue/>
 
 - Take an image of a device, creating a log file:
 

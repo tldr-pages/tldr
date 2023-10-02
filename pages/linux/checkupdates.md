@@ -1,7 +1,7 @@
 # checkupdates
 
 > Tool to check pending updates in Arch Linux.
-> More information: <https://man.archlinux.org/man/checkupdates.8>.
+> More information: <https://man.archlinux.org/man/checkupdates.8>
 
 - List pending updates:
 

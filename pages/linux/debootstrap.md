@@ -1,7 +1,7 @@
 # debootstrap
 
 > Create a basic Debian system.
-> More information: <https://wiki.debian.org/Debootstrap>.
+> More information: <https://wiki.debian.org/Debootstrap>
 
 - Create a Debian stable release system inside the `debian-root` directory:
 

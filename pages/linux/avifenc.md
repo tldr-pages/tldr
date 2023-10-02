@@ -1,7 +1,7 @@
 # avifenc
 
 > AV1 Image File Format (AVIF) encoder.
-> More information: <https://aomediacodec.github.io/av1-avif/>.
+> More information: <https://aomediacodec.github.io/av1-avif/>
 
 - Convert a specific PNG image to AVIF:
 

@@ -1,7 +1,7 @@
 # sreport
 
 > Generate reports on jobs, users, and clusters from accounting data.
-> More information: <https://slurm.schedmd.com/sreport.html>.
+> More information: <https://slurm.schedmd.com/sreport.html>
 
 - Show pipe delimited cluster utilization data:
 

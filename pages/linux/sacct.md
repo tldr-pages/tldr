@@ -1,7 +1,7 @@
 # sacct
 
 > Display accounting data from the Slurm service.
-> More information: <https://slurm.schedmd.com/sacct.html>.
+> More information: <https://slurm.schedmd.com/sacct.html>
 
 - Display job id, job name, partition, account, number of allocated cpus, job state, and job exit codes for recent jobs:
 

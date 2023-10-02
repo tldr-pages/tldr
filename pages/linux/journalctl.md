@@ -1,7 +1,7 @@
 # journalctl
 
 > Query the systemd journal.
-> More information: <https://manned.org/journalctl>.
+> More information: <https://manned.org/journalctl>
 
 - Show all messages with priority level 3 (errors) from this [b]oot:
 

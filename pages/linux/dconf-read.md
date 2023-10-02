@@ -2,7 +2,7 @@
 
 > Read key values from dconf databases.
 > See also: `dconf`.
-> More information: <https://manned.org/dconf>.
+> More information: <https://manned.org/dconf>
 
 - Print a specific key value:
 

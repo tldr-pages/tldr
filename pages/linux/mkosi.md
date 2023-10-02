@@ -2,7 +2,7 @@
 
 > Tool for building modern, legacy-free Linux images.
 > Part of `systemd`.
-> More information: <https://manned.org/mkosi>.
+> More information: <https://manned.org/mkosi>
 
 - Show current build configuration to verify what would be built:
 

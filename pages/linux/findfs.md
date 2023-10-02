@@ -1,7 +1,7 @@
 # findfs
 
 > Finds a filesystem by label or UUID.
-> More information: <https://mirrors.edge.kernel.org/pub/linux/utils/util-linux>.
+> More information: <https://mirrors.edge.kernel.org/pub/linux/utils/util-linux>
 
 - Search block devices by filesystem label:
 

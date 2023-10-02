@@ -2,7 +2,7 @@
 
 > Simple IRC client.
 > Part of the suckless tools.
-> More information: <https://tools.suckless.org/sic/>.
+> More information: <https://tools.suckless.org/sic/>
 
 - Connect to the default host (irc.ofct.net) with the nickname set in the `$USER` environment variable:
 
@@ -18,12 +18,12 @@
 
 - Join a channel:
 
-`:j #{{channel}}<Enter>`
+`:j #{{channel}}<Enter>
 
 - Send a message to a channel or user:
 
-`:m #{{channel|user}}<Enter>`
+`:m #{{channel|user}}<Enter>
 
 - Set default channel or user:
 
-`:s #{{channel|user}}<Enter>`
+`:s #{{channel|user}}<Enter>

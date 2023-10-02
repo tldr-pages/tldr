@@ -1,7 +1,7 @@
 # srun
 
 > Create an interactive slurm job or connect to an existing job.
-> More information: <https://slurm.schedmd.com/srun.html>.
+> More information: <https://slurm.schedmd.com/srun.html>
 
 - Submit a basic interactive job:
 

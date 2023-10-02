@@ -1,7 +1,7 @@
 # wine
 
 > Run Windows executables on Unix-based systems.
-> More information: <https://wiki.winehq.org/>.
+> More information: <https://wiki.winehq.org/>
 
 - Run a specific program inside the `wine` environment:
 

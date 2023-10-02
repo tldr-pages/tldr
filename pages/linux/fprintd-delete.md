@@ -1,7 +1,7 @@
 # fprintd-delete
 
 > Remove fingerprints from the database.
-> More information: <https://manned.org/fprintd-delete>.
+> More information: <https://manned.org/fprintd-delete>
 
 - Remove all fingerprints for a specific user:
 

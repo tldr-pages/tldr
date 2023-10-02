@@ -1,7 +1,7 @@
 # qm create
 
 > Create or restore a virtual machine on QEMU/KVM Virtual Machine Manager.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>
 
 - Create a virtual machine:
 

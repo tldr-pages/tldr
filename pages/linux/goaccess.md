@@ -1,7 +1,7 @@
 # goaccess
 
 > An open source real-time web log analyzer.
-> More information: <https://goaccess.io>.
+> More information: <https://goaccess.io>
 
 - Analyze one or more log files in interactive mode:
 

@@ -1,7 +1,7 @@
 # perf
 
 > Framework for Linux performance counter measurements.
-> More information: <https://perf.wiki.kernel.org>.
+> More information: <https://perf.wiki.kernel.org>
 
 - Display basic performance counter stats for a command:
 

@@ -1,7 +1,7 @@
 # fprintd-enroll
 
 > Enroll fingerprints into the database.
-> More information: <https://manned.org/fprintd-enroll>.
+> More information: <https://manned.org/fprintd-enroll>
 
 - Enroll the right index finger for the current user:
 

@@ -2,7 +2,7 @@
 
 > Disable devices and files for swapping.
 > Note: `path/to/file` can either point to a regular file or a swap partition.
-> More information: <https://manned.org/swapoff>.
+> More information: <https://manned.org/swapoff>
 
 - Disable a given swap area:
 

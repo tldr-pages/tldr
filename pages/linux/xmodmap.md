@@ -1,7 +1,7 @@
 # xmodmap
 
 > Utility for modifying keymaps and pointer button mappings in X.
-> More information: <https://manned.org/xmodmap>.
+> More information: <https://manned.org/xmodmap>
 
 - Swap left-click and right-click on the pointer:
 

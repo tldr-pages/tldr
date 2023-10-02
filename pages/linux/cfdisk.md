@@ -1,7 +1,7 @@
 # cfdisk
 
 > A program for managing partition tables and partitions on a hard disk using a curses UI.
-> More information: <https://manned.org/cfdisk>.
+> More information: <https://manned.org/cfdisk>
 
 - Start the partition manipulator with a specific device:
 

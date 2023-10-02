@@ -1,7 +1,7 @@
 # openvpn3
 
 > OpenVPN 3 Linux client.
-> More information: <https://community.openvpn.net/openvpn/wiki/OpenVPN3Linux>.
+> More information: <https://community.openvpn.net/openvpn/wiki/OpenVPN3Linux>
 
 - Start a new VPN session:
 

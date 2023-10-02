@@ -1,7 +1,7 @@
 # ntpdate
 
 > Synchronize and set the date and time via NTP.
-> More information: <http://support.ntp.org/documentation>.
+> More information: <http://support.ntp.org/documentation>
 
 - Synchronize and set date and time:
 

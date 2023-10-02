@@ -2,7 +2,7 @@
 
 > Create an X cursor file from a collection of PNGs.
 > If `--prefix` is omitted, the image files must be located in the current working directory.
-> More information: <https://manned.org/xcursorgen>.
+> More information: <https://manned.org/xcursorgen>
 
 - Create an X cursor file using a config file:
 

@@ -1,7 +1,7 @@
 # openfortivpn
 
 > A VPN client, for Fortinet's proprietary PPP+SSL VPN solution.
-> More information: <https://github.com/adrienverge/openfortivpn>.
+> More information: <https://github.com/adrienverge/openfortivpn>
 
 - Connect to a VPN with a username and password:
 

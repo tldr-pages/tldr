@@ -1,7 +1,7 @@
 # pw-cli
 
 > The PipeWire Command Line Interface.
-> More information: <https://docs.pipewire.org/page_man_pw_cli_1.html>.
+> More information: <https://docs.pipewire.org/page_man_pw_cli_1.html>
 
 - Print all nodes (sinks and sources) along with their IDs:
 

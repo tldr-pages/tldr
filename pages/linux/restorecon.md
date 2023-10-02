@@ -2,7 +2,7 @@
 
 > Restore SELinux security context on files/directories according to persistent rules.
 > See also: `semanage-fcontext`.
-> More information: <https://manned.org/restorecon>.
+> More information: <https://manned.org/restorecon>
 
 - View the current security context of a file or directory:
 

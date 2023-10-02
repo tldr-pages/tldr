@@ -2,7 +2,7 @@
 
 > A utility to automate building of slackbuilds.
 > SlackBuild sources need to be configured in the slapt-srcrc file.
-> More information: <https://github.com/jaos/slapt-src>.
+> More information: <https://github.com/jaos/slapt-src>
 
 - Update the list of available slackbuilds and versions:
 

@@ -1,7 +1,7 @@
 # atool
 
 > Manage archives of various formats.
-> More information: <https://www.nongnu.org/atool/>.
+> More information: <https://www.nongnu.org/atool/>
 
 - List files in a zip archive:
 

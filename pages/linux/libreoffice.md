@@ -1,7 +1,7 @@
 # libreoffice
 
 > CLI for the powerful and free office suite LibreOffice.
-> More information: <https://www.libreoffice.org/>.
+> More information: <https://www.libreoffice.org/>
 
 - Open a space-separated list of files in read-only mode:
 

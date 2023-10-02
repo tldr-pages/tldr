@@ -1,7 +1,7 @@
 # pdftohtml
 
 > Convert PDF files into HTML, XML and PNG images.
-> More information: <https://manned.org/pdftohtml>.
+> More information: <https://manned.org/pdftohtml>
 
 - Convert a PDF file to an HTML file:
 

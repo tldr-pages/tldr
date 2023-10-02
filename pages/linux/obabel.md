@@ -1,7 +1,7 @@
 # obabel
 
 > Translate chemistry-related data.
-> More information: <https://openbabel.org/wiki/Main_Page>.
+> More information: <https://openbabel.org/wiki/Main_Page>
 
 - Convert a .mol file to XYZ coordinates:
 

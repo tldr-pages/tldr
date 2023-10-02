@@ -2,7 +2,7 @@
 
 > Generate and decode Universally Unique Identifiers (UUID).
 > See also `uuidgen`.
-> More information: <https://manned.org/uuid>.
+> More information: <https://manned.org/uuid>
 
 - Generate a UUIDv1 (based on time and system's hardware address, if present):
 

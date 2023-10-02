@@ -1,7 +1,7 @@
 # sqfstar
 
 > Create a squashfs filesystem from a tar archive.
-> More information: <https://manned.org/sqfstar>.
+> More information: <https://manned.org/sqfstar>
 
 - Create a squashfs filesystem (compressed using `gzip` by default) from an uncompressed tar archive:
 

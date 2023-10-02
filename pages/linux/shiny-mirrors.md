@@ -2,7 +2,7 @@
 
 > Generate a pacman mirror list for Manjaro Linux.
 > Every run of shiny-mirrors requires you to synchronize your database and update your system using `sudo pacman -Syyu`.
-> More information: <https://gitlab.com/Arisa_Snowbell/shiny-mirrors/-/blob/domina/shiny-mirrors/man/shiny-mirrors.md>.
+> More information: <https://gitlab.com/Arisa_Snowbell/shiny-mirrors/-/blob/domina/shiny-mirrors/man/shiny-mirrors.md>
 
 - Get the status of the current mirrors:
 

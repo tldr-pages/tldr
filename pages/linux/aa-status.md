@@ -2,7 +2,7 @@
 
 > List currently loaded AppArmor modules.
 > See also: `aa-complain`, `aa-disable`, `aa-enforce`.
-> More information: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-status.8>.
+> More information: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-status.8>
 
 - Check status:
 

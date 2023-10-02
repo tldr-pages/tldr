@@ -2,7 +2,7 @@
 
 > A tool to generate TLP status reports.
 > See also `tlp`.
-> More information: <https://linrunner.de/tlp/usage/tlp-stat>.
+> More information: <https://linrunner.de/tlp/usage/tlp-stat>
 
 - Generate status report with configuration and all active settings:
 

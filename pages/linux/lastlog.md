@@ -1,7 +1,7 @@
 # lastlog
 
 > Show the most recent login of all users or of a given user.
-> More information: <https://manned.org/lastlog>.
+> More information: <https://manned.org/lastlog>
 
 - Display the most recent login of all users:
 

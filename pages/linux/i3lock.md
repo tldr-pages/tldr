@@ -1,7 +1,7 @@
 # i3lock
 
 > Simple screen locker built for the i3 window manager.
-> More information: <https://i3wm.org/i3lock>.
+> More information: <https://i3wm.org/i3lock>
 
 - Lock the screen showing a white background:
 

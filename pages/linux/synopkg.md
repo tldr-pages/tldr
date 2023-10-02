@@ -1,7 +1,7 @@
 # synopkg
 
 > Package management utility for Synology DiskStation Manager.
-> More information: <https://www.synology.com/dsm>.
+> More information: <https://www.synology.com/dsm>
 
 - List the names of installed packages:
 

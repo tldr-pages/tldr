@@ -1,7 +1,7 @@
 # sfill
 
 > Securely overwrite the free space and inodes of the partition where the specified directory resides.
-> More information: <https://manned.org/sfill>.
+> More information: <https://manned.org/sfill>
 
 - Overwrite free space and inodes of a disk with 38 writes (slow but secure):
 

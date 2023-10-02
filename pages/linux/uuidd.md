@@ -1,7 +1,7 @@
 # uuidd
 
 > Daemon for generating UUIDs.
-> More information: <https://manned.org/uuidd>.
+> More information: <https://manned.org/uuidd>
 
 - Generate a random UUID:
 

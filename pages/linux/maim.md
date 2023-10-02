@@ -1,7 +1,7 @@
 # maim
 
 > Screenshot utility.
-> More information: <https://github.com/naelstrof/maim>.
+> More information: <https://github.com/naelstrof/maim>
 
 - Capture a screenshot and save it to the given path:
 

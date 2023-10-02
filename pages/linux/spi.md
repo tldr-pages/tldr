@@ -1,7 +1,7 @@
 # spi
 
 > A meta package manager that handles both packages and slackbuilds.
-> More information: <https://github.com/gapan/spi>.
+> More information: <https://github.com/gapan/spi>
 
 - Update the list of available packages and slackbuilds:
 

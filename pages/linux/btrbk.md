@@ -1,7 +1,7 @@
 # btrbk
 
 > A tool for creating snapshots and remote backups of btrfs subvolumes.
-> More information: <https://digint.ch/btrbk/doc/readme.html>.
+> More information: <https://digint.ch/btrbk/doc/readme.html>
 
 - Print statistics about configured subvolumes and snapshots:
 

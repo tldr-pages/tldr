@@ -1,7 +1,7 @@
 # ipcmk
 
 > Create IPC (Inter-process Communication) resources.
-> More information: <https://manned.org/ipcmk>.
+> More information: <https://manned.org/ipcmk>
 
 - Create a shared memory segment:
 

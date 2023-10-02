@@ -2,7 +2,7 @@
 
 > A tiny Todoist client in Rust.
 > It takes simple input and dumps it in your inbox or another project. Taking advantage of natural language processing to assign due dates, tags, etc.
-> More information: <https://github.com/alanvardy/tod>.
+> More information: <https://github.com/alanvardy/tod>
 
 - Import your projects (this is necessary to enable project prompts):
 

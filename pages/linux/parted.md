@@ -2,7 +2,7 @@
 
 > A partition manipulation program.
 > See also: `partprobe`.
-> More information: <https://www.gnu.org/software/parted/parted.html>.
+> More information: <https://www.gnu.org/software/parted/parted.html>
 
 - List partitions on all block devices:
 

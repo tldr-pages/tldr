@@ -1,7 +1,7 @@
 # lsscsi
 
 > List SCSI devices (or hosts) and their attributes.
-> More information: <https://manned.org/lspci>.
+> More information: <https://manned.org/lspci>
 
 - List all SCSI devices:
 

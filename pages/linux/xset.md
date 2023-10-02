@@ -1,7 +1,7 @@
 # xset
 
 > User preference utility for X.
-> More information: <https://manned.org/xset>.
+> More information: <https://manned.org/xset>
 
 - Disable the screensaver:
 

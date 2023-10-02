@@ -1,7 +1,7 @@
 # yaourt
 
 > Arch Linux utility for building packages from the Arch User Repository.
-> More information: <https://linuxcommandlibrary.com/man/yaourt>.
+> More information: <https://linuxcommandlibrary.com/man/yaourt>
 
 - Synchronize and update all packages (including AUR):
 

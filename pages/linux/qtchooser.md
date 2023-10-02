@@ -1,7 +1,7 @@
 # qtchooser
 
 > A wrapper used to select between Qt development binary versions.
-> More information: <https://manned.org/qtchooser>.
+> More information: <https://manned.org/qtchooser>
 
 - List available Qt versions from the configuration files:
 

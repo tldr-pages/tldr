@@ -2,7 +2,7 @@
 
 > Manage persistent SELinux security context rules on files/directories.
 > See also: `semanage`, `restorecon`.
-> More information: <https://manned.org/semanage-fcontext>.
+> More information: <https://manned.org/semanage-fcontext>
 
 - List all file labelling rules:
 

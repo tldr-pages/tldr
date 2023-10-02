@@ -1,7 +1,7 @@
 # vnstati
 
 > PNG image output support for vnStat.
-> More information: <https://manned.org/vnstati>.
+> More information: <https://manned.org/vnstati>
 
 - Output a summary of the last 2: months, days, and all-time:
 

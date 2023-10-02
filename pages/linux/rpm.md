@@ -1,8 +1,8 @@
 # rpm
 
 > RPM Package Manager.
-> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> More information: <https://rpm.org/>.
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>
+> More information: <https://rpm.org/>
 
 - Show version of httpd package:
 

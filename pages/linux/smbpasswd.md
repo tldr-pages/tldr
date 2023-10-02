@@ -2,7 +2,7 @@
 
 > Add/remove a Samba user or change its password.
 > Samba users must have an existing local Unix account.
-> More information: <https://manned.org/smbpasswd.8>.
+> More information: <https://manned.org/smbpasswd.8>
 
 - Change the current user's SMB password:
 

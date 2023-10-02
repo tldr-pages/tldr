@@ -1,7 +1,7 @@
 # pacman4console
 
 > A text-based console game inspired by the original Pacman.
-> More information: <https://github.com/YoctoForBeaglebone/pacman4console>.
+> More information: <https://github.com/YoctoForBeaglebone/pacman4console>
 
 - Start a game at Level 1:
 

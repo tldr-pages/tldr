@@ -1,7 +1,7 @@
 # dirbuster
 
 > Brute force directories and filenames on servers.
-> More information: <https://www.kali.org/tools/dirbuster/>.
+> More information: <https://www.kali.org/tools/dirbuster/>
 
 - Start in GUI mode:
 

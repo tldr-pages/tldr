@@ -1,7 +1,7 @@
 # mocp
 
 > Music on Console (MOC) audio player.
-> More information: <https://manned.org/mocp>.
+> More information: <https://manned.org/mocp>
 
 - Launch the MOC terminal UI:
 

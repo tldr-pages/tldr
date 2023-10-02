@@ -2,7 +2,7 @@
 
 > Modifies a user account.
 > See also: `users`, `useradd`, `userdel`.
-> More information: <https://manned.org/usermod>.
+> More information: <https://manned.org/usermod>
 
 - Change a username:
 

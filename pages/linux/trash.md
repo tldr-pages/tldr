@@ -1,7 +1,7 @@
 # trash
 
 > Manage the trashcan/recycling bin.
-> More information: <https://github.com/andreafrancia/trash-cli>.
+> More information: <https://github.com/andreafrancia/trash-cli>
 
 - Delete a file and send it to the trash:
 

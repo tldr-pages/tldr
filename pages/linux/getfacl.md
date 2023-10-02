@@ -1,7 +1,7 @@
 # getfacl
 
 > Get file access control lists.
-> More information: <https://manned.org/getfacl>.
+> More information: <https://manned.org/getfacl>
 
 - Display the file access control list:
 

@@ -2,7 +2,7 @@
 
 > A filesystem based on the copy-on-write (COW) principle for Linux.
 > Some subcommands such as `btrfs device` have their own usage documentation.
-> More information: <https://btrfs.readthedocs.io/en/latest/btrfs.html>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs.html>
 
 - Create subvolume:
 

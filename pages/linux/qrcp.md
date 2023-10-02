@@ -1,7 +1,7 @@
 # qrcp
 
 > A file transfer tool.
-> More information: <https://github.com/claudiodangelis/qrcp>.
+> More information: <https://github.com/claudiodangelis/qrcp>
 
 - Send a file or directories:
 

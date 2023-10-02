@@ -1,7 +1,7 @@
 # battop
 
 > An interactive viewer for the batteries installed in your notebook.
-> More information: <https://github.com/svartalf/rust-battop>.
+> More information: <https://github.com/svartalf/rust-battop>
 
 - Display battery information:
 

@@ -1,7 +1,7 @@
 # repo-add
 
 > Package database maintenance utility which enables installation of said package via Pacman.
-> More information: <https://man.archlinux.org/man/repo-add>.
+> More information: <https://man.archlinux.org/man/repo-add>
 
 - Add all package binaries in the current directory and remove the old database file:
 

@@ -1,7 +1,7 @@
 # cloud-init
 
 > Command line tool for managing cloud instance initialization.
-> More information: <https://cloudinit.readthedocs.io>.
+> More information: <https://cloudinit.readthedocs.io>
 
 - Display the status of the most recent cloud-init run:
 

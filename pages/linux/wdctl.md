@@ -1,7 +1,7 @@
 # wdctl
 
 > Show the hardware watchdog status.
-> More information: <https://manned.org/wdctl>.
+> More information: <https://manned.org/wdctl>
 
 - Display the watchdog status:
 

@@ -2,7 +2,7 @@
 
 > The OpenRC service manager.
 > See also `rc-status`, `rc-update`, and `rc-service`.
-> More information: <https://wiki.gentoo.org/wiki/OpenRC>.
+> More information: <https://wiki.gentoo.org/wiki/OpenRC>
 
 - Change to a specific runlevel:
 

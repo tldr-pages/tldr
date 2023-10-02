@@ -1,7 +1,7 @@
 # collectd
 
 > System statistics collection daemon.
-> More information: <https://collectd.org/>.
+> More information: <https://collectd.org/>
 
 - Show usage help, including the program version:
 

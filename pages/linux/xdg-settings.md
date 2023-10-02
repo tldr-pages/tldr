@@ -1,7 +1,7 @@
 # xdg-settings
 
 > Manage settings of XDG-compatible desktop environments.
-> More information: <https://portland.freedesktop.org/doc/xdg-settings.html>.
+> More information: <https://portland.freedesktop.org/doc/xdg-settings.html>
 
 - Print the default web browser:
 

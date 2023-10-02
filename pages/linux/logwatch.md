@@ -1,7 +1,7 @@
 # logwatch
 
 > Summarizes many different logs for common services (e.g. apache, pam_unix, sshd, etc.) in a single report.
-> More information: <https://manned.org/logwatch>.
+> More information: <https://manned.org/logwatch>
 
 - Analyze logs for a range of dates at a certain level of detail:
 

@@ -1,7 +1,7 @@
 # swaks
 
 > Swiss Army Knife SMTP, the all-purpose SMTP transaction tester.
-> More information: <https://github.com/jetmore/swaks/blob/develop/doc/base.pod>.
+> More information: <https://github.com/jetmore/swaks/blob/develop/doc/base.pod>
 
 - Deliver a standard test email to `user@example.com` on port 25 of `test-server.example.net`:
 

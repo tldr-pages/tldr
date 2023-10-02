@@ -1,7 +1,7 @@
 # select
 
 > Bash builtin construct for creating menus.
-> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-select>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-select>
 
 - Create a menu out of individual words:
 

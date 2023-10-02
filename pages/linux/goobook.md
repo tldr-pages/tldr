@@ -1,7 +1,7 @@
 # goobook
 
 > Access Google contacts from `mutt` or the command-line.
-> More information: <https://manned.org/goobook>.
+> More information: <https://manned.org/goobook>
 
 - Allow `goobook` to access Google contacts using OAuth2:
 

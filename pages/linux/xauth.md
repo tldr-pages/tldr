@@ -1,7 +1,7 @@
 # xauth
 
 > Edit and display the authorization information used in connecting to the X server.
-> More information: <https://manned.org/xauth>.
+> More information: <https://manned.org/xauth>
 
 - Start interactive mode with a specific authority file (defaults to `~/.Xauthority`):
 

@@ -1,7 +1,7 @@
 # locale
 
 > Get locale-specific information.
-> More information: <https://manned.org/locale>.
+> More information: <https://manned.org/locale>
 
 - List all global environment variables describing the user's locale:
 

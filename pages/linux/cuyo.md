@@ -1,7 +1,7 @@
 # cuyo
 
 > Tetris like game.
-> More information: <https://www.karimmi.de/cuyo/>.
+> More information: <https://www.karimmi.de/cuyo/>
 
 - Start a new game:
 

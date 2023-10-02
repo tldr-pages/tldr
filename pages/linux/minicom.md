@@ -1,7 +1,7 @@
 # minicom
 
 > A program to communicate with the serial interface of a device.
-> More information: <https://manned.org/minicom>.
+> More information: <https://manned.org/minicom>
 
 - Open a given serial port:
 

@@ -1,7 +1,7 @@
 # dm-tool
 
 > A tool to communicate with the display manager.
-> More information: <https://manned.org/dm-tool>.
+> More information: <https://manned.org/dm-tool>
 
 - Show the greeter while keeping current desktop session open and waiting to be restored upon authentication by logged in user:
 

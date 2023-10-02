@@ -2,7 +2,7 @@
 
 > Wayland clipboard manipulation tool.
 > See also: `wl-paste`.
-> More information: <https://github.com/bugaevc/wl-clipboard>.
+> More information: <https://github.com/bugaevc/wl-clipboard>
 
 - Copy the text to the clipboard:
 

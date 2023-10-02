@@ -1,7 +1,7 @@
 # boltctl
 
 > Control thunderbolt devices.
-> More information: <https://manned.org/boltctl>.
+> More information: <https://manned.org/boltctl>
 
 - List connected (and authorized) devices:
 

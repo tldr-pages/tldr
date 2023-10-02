@@ -1,7 +1,7 @@
 # blastn
 
 > Nucleotide-Nucleotide BLAST.
-> More information: <https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastn_application_options/>.
+> More information: <https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastn_application_options/>
 
 - Align two or more sequences using megablast (default), with the e-value threshold of 1e-9, pairwise output format (default):
 

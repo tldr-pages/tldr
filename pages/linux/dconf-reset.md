@@ -2,7 +2,7 @@
 
 > Reset key values in dconf databases.
 > See also: `dconf`.
-> More information: <https://manned.org/dconf>.
+> More information: <https://manned.org/dconf>
 
 - Reset a specific key value:
 

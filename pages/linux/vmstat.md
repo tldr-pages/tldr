@@ -1,7 +1,7 @@
 # vmstat
 
 > Report information about processes, memory, paging, block IO, traps, disks and CPU activity.
-> More information: <https://manned.org/vmstat>.
+> More information: <https://manned.org/vmstat>
 
 - Display virtual memory statistics:
 

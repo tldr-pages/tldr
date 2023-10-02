@@ -1,7 +1,7 @@
 # wifi-menu
 
 > Interactively connect to a wireless network.
-> More information: <https://manned.org/wifi-menu>.
+> More information: <https://manned.org/wifi-menu>
 
 - Set up a wireless connection interactively:
 

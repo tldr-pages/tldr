@@ -1,7 +1,7 @@
 # rmmod
 
 > Remove modules from the Linux kernel.
-> More information: <https://manned.org/rmmod>.
+> More information: <https://manned.org/rmmod>
 
 - Remove a module from the kernel:
 

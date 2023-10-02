@@ -1,7 +1,7 @@
 # xvfb-run
 
 > Run a command in a virtual X server environment.
-> More information: <https://www.x.org/wiki/>.
+> More information: <https://www.x.org/wiki/>
 
 - Run the specified command in a virtual X server:
 

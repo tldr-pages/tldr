@@ -2,7 +2,7 @@
 
 > Tool for inspection and simple manipulation of eBPF programs and maps.
 > Some subcommands such as `bpftool prog` have their own usage documentation.
-> More information: <https://manned.org/bpftool>.
+> More information: <https://manned.org/bpftool>
 
 - List information about loaded `eBPF` programs:
 

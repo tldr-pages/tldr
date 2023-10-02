@@ -1,7 +1,7 @@
 # resolveip
 
 > Resolve hostnames to their IP addresses and vice versa.
-> More information: <https://mariadb.com/kb/en/resolveip/>.
+> More information: <https://mariadb.com/kb/en/resolveip/>
 
 - Resolve a hostname to an IP address:
 

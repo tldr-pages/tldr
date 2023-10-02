@@ -1,7 +1,7 @@
 # free
 
 > Display amount of free and used memory in the system.
-> More information: <https://manned.org/free>.
+> More information: <https://manned.org/free>
 
 - Display system memory:
 

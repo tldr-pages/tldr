@@ -1,7 +1,7 @@
 # unsquashfs
 
 > Uncompress, extract and list files in squashfs filesystems.
-> More information: <https://manned.org/unsquashfs>.
+> More information: <https://manned.org/unsquashfs>
 
 - Extract a squashfs filesystem to `squashfs-root` in the current working directory:
 

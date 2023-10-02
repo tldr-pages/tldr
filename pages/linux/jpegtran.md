@@ -1,7 +1,7 @@
 # jpegtran
 
 > Perform lossless transformation of JPEG files.
-> More information: <https://manned.org/jpegtran>.
+> More information: <https://manned.org/jpegtran>
 
 - Mirror an image horizontally or vertically:
 

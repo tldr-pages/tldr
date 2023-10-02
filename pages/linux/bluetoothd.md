@@ -1,7 +1,7 @@
 # bluetoothd
 
 > Daemon to manage bluetooth devices.
-> More information: <https://manned.org/bluetoothd>.
+> More information: <https://manned.org/bluetoothd>
 
 - Start the daemon:
 

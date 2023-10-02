@@ -2,7 +2,7 @@
 
 > Manage general settings of NetworkManager.
 > This subcommand can also be called with `nmcli g`.
-> More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+> More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>
 
 - Show the general status of NetworkManager:
 

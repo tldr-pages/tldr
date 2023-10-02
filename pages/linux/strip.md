@@ -1,7 +1,7 @@
 # strip
 
 > Discard symbols from executables or object files.
-> More information: <https://manned.org/strip>.
+> More information: <https://manned.org/strip>
 
 - Replace the input file with its stripped version:
 

@@ -1,7 +1,7 @@
 # lshw
 
 > List detailed information about hardware configurations as root user.
-> More information: <https://manned.org/lshw>.
+> More information: <https://manned.org/lshw>
 
 - Launch the GUI:
 

@@ -2,7 +2,7 @@
 
 > Scan for volume groups on all supported Logical Volume Manager (LVM) block devices.
 > See also `lvm`, `vgchange`.
-> More information: <https://manned.org/vgscan>.
+> More information: <https://manned.org/vgscan>
 
 - Scan for volume groups and print information about each group found:
 

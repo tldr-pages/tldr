@@ -1,7 +1,7 @@
 # mate-screenshot
 
 > Make screenshots in MATE desktop environment.
-> More information: <https://manned.org/mate-screenshot>.
+> More information: <https://manned.org/mate-screenshot>
 
 - Create a fullscreen screenshot:
 

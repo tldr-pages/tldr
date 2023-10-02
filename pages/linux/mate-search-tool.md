@@ -1,7 +1,7 @@
 # mate-search-tool
 
 > Search files in MATE desktop environment.
-> More information: <https://manned.org/mate-search-tool>.
+> More information: <https://manned.org/mate-search-tool>
 
 - Search files containing a specific string in their name in a specific directory:
 

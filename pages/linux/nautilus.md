@@ -2,7 +2,7 @@
 
 > Default file explorer for GNOME desktop environment.
 > Also known as GNOME Files.
-> More information: <https://manned.org/nautilus>.
+> More information: <https://manned.org/nautilus>
 
 - Launch Nautilus:
 

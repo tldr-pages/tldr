@@ -1,7 +1,7 @@
 # tracepath
 
 > Trace the path to a network host discovering MTU along this path.
-> More information: <https://manned.org/tracepath>.
+> More information: <https://manned.org/tracepath>
 
 - A preferred way to trace the path to a host:
 

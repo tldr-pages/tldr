@@ -2,7 +2,7 @@
 
 > N-up PDF pages.
 > N-upping means putting multiple pages onto one page by scaling and rotating them into a grid.
-> More information: <https://ctan.org/pkg/pdfxup>.
+> More information: <https://ctan.org/pkg/pdfxup>
 
 - Create a 2-up PDF:
 

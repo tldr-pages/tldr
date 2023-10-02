@@ -1,7 +1,7 @@
 # deluser
 
 > Delete a user from the system.
-> More information: <https://manpages.debian.org/latest/adduser/deluser.html>.
+> More information: <https://manpages.debian.org/latest/adduser/deluser.html>
 
 - Remove a user:
 

@@ -1,7 +1,7 @@
 # lxi
 
 > Control LXI compatible instruments such as oscilloscopes.
-> More information: <https://github.com/lxi-tools/lxi-tools>.
+> More information: <https://github.com/lxi-tools/lxi-tools>
 
 - Discover LXI devices on available networks:
 

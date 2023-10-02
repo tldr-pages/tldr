@@ -1,7 +1,7 @@
 # zipsplit
 
 > Read a zipfile and split it into smaller zipfiles.
-> More information: <https://manned.org/zipsplit>.
+> More information: <https://manned.org/zipsplit>
 
 - Split zipfile into pieces that are no larger than a particular size [n]:
 

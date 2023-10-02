@@ -1,7 +1,7 @@
 # rfkill
 
 > Enable and disable wireless devices.
-> More information: <https://manned.org/rfkill>.
+> More information: <https://manned.org/rfkill>
 
 - List devices:
 

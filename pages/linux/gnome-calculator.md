@@ -1,7 +1,7 @@
 # gnome-calculator
 
 > The official calculator for the GNOME desktop environment.
-> More information: <https://wiki.gnome.org/Apps/Calculator>.
+> More information: <https://wiki.gnome.org/Apps/Calculator>
 
 - Launch the GNOME Calculator GUI:
 

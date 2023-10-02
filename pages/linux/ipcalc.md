@@ -1,7 +1,7 @@
 # ipcalc
 
 > Perform simple operations and calculations on IP addresses and networks.
-> More information: <https://manned.org/ipcalc>.
+> More information: <https://manned.org/ipcalc>
 
 - Show information about an address or network with a given subnet mask:
 

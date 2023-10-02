@@ -1,7 +1,7 @@
 # setserial
 
 > Read and modify serial port information.
-> More information: <https://manned.org/setserial>.
+> More information: <https://manned.org/setserial>
 
 - Print all information about a specific serial device:
 

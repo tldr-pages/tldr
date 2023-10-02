@@ -2,7 +2,7 @@
 
 > Change SysV runlevel.
 > Since the concept SysV runlevels is obsolete the runlevel requests will be transparently translated into systemd unit activation requests.
-> More information: <https://manned.org/telinit>.
+> More information: <https://manned.org/telinit>
 
 - Power off the machine:
 

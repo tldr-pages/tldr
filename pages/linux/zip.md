@@ -2,7 +2,7 @@
 
 > Package and compress (archive) files into zip file.
 > See also: `unzip`.
-> More information: <https://manned.org/zip>.
+> More information: <https://manned.org/zip>
 
 - Add files/directories to a specific archive:
 

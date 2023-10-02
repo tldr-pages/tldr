@@ -1,7 +1,7 @@
 # mdadm
 
 > RAID management utility.
-> More information: <https://manned.org/mdadm>.
+> More information: <https://manned.org/mdadm>
 
 - Create array:
 

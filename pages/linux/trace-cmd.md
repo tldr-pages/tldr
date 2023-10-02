@@ -2,7 +2,7 @@
 
 > Utility to interact with the Ftrace Linux kernel internal tracer.
 > This utility only runs as root.
-> More information: <https://manned.org/trace-cmd>.
+> More information: <https://manned.org/trace-cmd>
 
 - Display the status of tracing system:
 

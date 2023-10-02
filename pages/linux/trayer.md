@@ -1,7 +1,7 @@
 # trayer
 
 > A lightweight GTK-2 based systray.
-> More information: <https://github.com/sargon/trayer-srg>.
+> More information: <https://github.com/sargon/trayer-srg>
 
 - Run `trayer`:
 

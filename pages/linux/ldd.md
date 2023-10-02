@@ -2,7 +2,7 @@
 
 > Display shared library dependencies of a binary.
 > Do not use on an untrusted binary, use objdump for that instead.
-> More information: <https://manned.org/ldd>.
+> More information: <https://manned.org/ldd>
 
 - Display shared library dependencies of a binary:
 

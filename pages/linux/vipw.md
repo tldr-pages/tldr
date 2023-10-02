@@ -1,7 +1,7 @@
 # vipw
 
 > Edit the password file.
-> More information: <https://manned.org/vipw>.
+> More information: <https://manned.org/vipw>
 
 - Edit the password file:
 

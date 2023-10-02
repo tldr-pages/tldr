@@ -1,7 +1,7 @@
 # login
 
 > Initiates a session for a user.
-> More information: <https://manned.org/login>.
+> More information: <https://manned.org/login>
 
 - Log in as a user:
 

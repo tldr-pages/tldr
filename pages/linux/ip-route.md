@@ -1,7 +1,7 @@
 # ip route
 
 > IP Routing table management subcommand.
-> More information: <https://manned.org/ip-route>.
+> More information: <https://manned.org/ip-route>
 
 - Display the routing table:
 

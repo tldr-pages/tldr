@@ -1,7 +1,7 @@
 # lsusb
 
 > Display information about USB buses and devices connected to them.
-> More information: <https://manned.org/lsusb>.
+> More information: <https://manned.org/lsusb>
 
 - List all the USB devices available:
 

@@ -1,7 +1,7 @@
 # lftp
 
 > Sophisticated file transfer program.
-> More information: <https://lftp.yar.ru/lftp-man.html>.
+> More information: <https://lftp.yar.ru/lftp-man.html>
 
 - Connect to an FTP server:
 

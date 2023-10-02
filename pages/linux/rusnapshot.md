@@ -1,7 +1,7 @@
 # rusnapshot
 
 > BTRFS snapshotting utility written in Rust.
-> More information: <https://github.com/Edu4rdSHL/rusnapshot>.
+> More information: <https://github.com/Edu4rdSHL/rusnapshot>
 
 - Create a snapshot using a config file:
 

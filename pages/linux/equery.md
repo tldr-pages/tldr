@@ -1,7 +1,7 @@
 # equery
 
 > View information about Portage packages.
-> More information: <https://wiki.gentoo.org/wiki/Equery>.
+> More information: <https://wiki.gentoo.org/wiki/Equery>
 
 - List all installed packages:
 

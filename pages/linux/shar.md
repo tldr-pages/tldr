@@ -1,7 +1,7 @@
 # shar
 
 > Create a shell archive.
-> More information: <https://www.gnu.org/software/sharutils/manual/sharutils.html>.
+> More information: <https://www.gnu.org/software/sharutils/manual/sharutils.html>
 
 - Create a shell script that when executed extracts the given files from itself:
 

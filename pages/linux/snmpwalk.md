@@ -1,7 +1,7 @@
 # snmpwalk
 
 > SNMP query tool.
-> More information: <https://manned.org/snmpwalk>.
+> More information: <https://manned.org/snmpwalk>
 
 - Query the system information of a remote host using SNMPv1 and a community string:
 

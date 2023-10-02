@@ -1,7 +1,7 @@
 # httpie
 
 > A user friendly HTTP tool.
-> More information: <https://github.com/httpie/httpie>.
+> More information: <https://github.com/httpie/httpie>
 
 - Send a GET request (default method with no request data):
 

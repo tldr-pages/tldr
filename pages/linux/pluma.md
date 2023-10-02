@@ -1,7 +1,7 @@
 # pluma
 
 > Edit files in MATE desktop environment.
-> More information: <https://manned.org/pluma>.
+> More information: <https://manned.org/pluma>
 
 - Start the editor:
 

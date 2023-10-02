@@ -1,7 +1,7 @@
 # autopkgtest
 
 > Run tests on Debian packages.
-> More information: <https://wiki.debian.org/ContinuousIntegration/autopkgtest>.
+> More information: <https://wiki.debian.org/ContinuousIntegration/autopkgtest>
 
 - Build the package in the current directory and run all tests directly on the system:
 

@@ -1,7 +1,7 @@
 # rpcclient
 
 > MS-RPC client tool (part of the samba suite).
-> More information: <https://www.samba.org/samba/docs/current/man-html/rpcclient.1.html>.
+> More information: <https://www.samba.org/samba/docs/current/man-html/rpcclient.1.html>
 
 - Connect to a remote host:
 

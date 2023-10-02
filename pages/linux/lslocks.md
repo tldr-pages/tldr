@@ -1,7 +1,7 @@
 # lslocks
 
 > List local system locks.
-> More information: <https://manned.org/lslocks>.
+> More information: <https://manned.org/lslocks>
 
 - List all local system locks:
 

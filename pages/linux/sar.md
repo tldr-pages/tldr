@@ -1,7 +1,7 @@
 # sar
 
 > Monitor performance of various Linux subsystems.
-> More information: <https://manned.org/sar>.
+> More information: <https://manned.org/sar>
 
 - Report I/O and transfer rate issued to physical devices, one per second (press CTRL+C to quit):
 

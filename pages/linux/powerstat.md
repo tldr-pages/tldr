@@ -1,7 +1,7 @@
 # powerstat
 
 > Measures the power consumption of a computer that has a battery power source or supports the RAPL interface.
-> More information: <https://manned.org/powerstat>.
+> More information: <https://manned.org/powerstat>
 
 - Measure power with the default of 10 samples with an interval of 10 seconds:
 

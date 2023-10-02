@@ -1,7 +1,7 @@
 # rpmspec
 
 > Query a RPM spec file.
-> More information: <https://manned.org/rpmspec>.
+> More information: <https://manned.org/rpmspec>
 
 - List binary packages which would be generated from a rpm spec file:
 

@@ -1,7 +1,7 @@
 # rolldice
 
 > Roll virtual dice.
-> More information: <https://manned.org/rolldice>.
+> More information: <https://manned.org/rolldice>
 
 - Roll a single 20 sided dice:
 

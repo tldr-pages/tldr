@@ -1,7 +1,7 @@
 # lchage
 
 > Display or change user password policy.
-> More information: <https://manned.org/lchage>.
+> More information: <https://manned.org/lchage>
 
 - Disable password expiration for the user:
 

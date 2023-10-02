@@ -2,7 +2,7 @@
 
 > Query the status of network links.
 > Manage the network configuration using `systemd-networkd`.
-> More information: <https://www.freedesktop.org/software/systemd/man/networkctl.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/networkctl.html>
 
 - Show a list of existing links and their status:
 

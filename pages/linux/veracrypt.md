@@ -1,7 +1,7 @@
 # veracrypt
 
 > Free and open source disk encryption software.
-> More information: <https://www.veracrypt.fr/code/VeraCrypt/plain/doc/html/Documentation.html>.
+> More information: <https://www.veracrypt.fr/code/VeraCrypt/plain/doc/html/Documentation.html>
 
 - Create a new volume through a text user interface and use `/dev/urandom` as a source of random data:
 

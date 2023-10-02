@@ -1,7 +1,7 @@
 # einfo
 
 > Provides the number of records indexed in each field of a given database, the date of the last update of the database, and the available links from the database to other Entrez databases.
-> More information: <https://www.ncbi.nlm.nih.gov/books/NBK179288/>.
+> More information: <https://www.ncbi.nlm.nih.gov/books/NBK179288/>
 
 - Print all database names:
 

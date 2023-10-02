@@ -2,7 +2,7 @@
 
 > Manage WirePlumber, a session and policy manager for PipeWire.
 > Note: you can use the special name `@DEFAULT_SINK@` in place of `id` to operate on the default sink.
-> More information: <https://pipewire.pages.freedesktop.org/wireplumber/>.
+> More information: <https://pipewire.pages.freedesktop.org/wireplumber/>
 
 - List all objects managed by WirePlumber:
 

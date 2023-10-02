@@ -1,7 +1,7 @@
 # partprobe
 
 > Notify the operating system kernel of partition table changes.
-> More information: <https://manned.org/partprobe>.
+> More information: <https://manned.org/partprobe>
 
 - Notify the operating system kernel of partition table changes:
 

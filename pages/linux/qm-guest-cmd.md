@@ -1,7 +1,7 @@
 # qm guest cmd
 
 > Execute QEMU Guest Agent commands.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>
 
 - Execute a specific QEMU Guest Agent command:
 

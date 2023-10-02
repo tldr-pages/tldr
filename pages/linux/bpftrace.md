@@ -1,7 +1,7 @@
 # bpftrace
 
 > High-level tracing language for Linux eBPF.
-> More information: <https://github.com/iovisor/bpftrace>.
+> More information: <https://github.com/iovisor/bpftrace>
 
 - Display bpftrace version:
 

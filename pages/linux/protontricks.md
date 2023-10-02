@@ -1,7 +1,7 @@
 # protontricks
 
 > A simple wrapper that runs Winetricks commands for Proton enabled games.
-> More information: <https://github.com/Matoking/protontricks>.
+> More information: <https://github.com/Matoking/protontricks>
 
 - Run the protontricks GUI:
 

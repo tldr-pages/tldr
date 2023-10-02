@@ -3,7 +3,7 @@
 > Finds duplicate filesystem extents and optionally schedule them for deduplication.
 > An extent is small part of a file inside the filesystem.
 > On some filesystems one extent can be referenced multiple times, when parts of the content of the files are identical.
-> More information: <https://markfasheh.github.io/duperemove/>.
+> More information: <https://markfasheh.github.io/duperemove/>
 
 - Search for duplicate extents in a directory and show them:
 

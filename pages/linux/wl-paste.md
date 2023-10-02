@@ -2,7 +2,7 @@
 
 > Tool to access data stored in the clipboard for Wayland.
 > See also: `wl-copy`.
-> More information: <https://github.com/bugaevc/wl-clipboard>.
+> More information: <https://github.com/bugaevc/wl-clipboard>
 
 - Paste the contents of the clipboard:
 

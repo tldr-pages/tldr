@@ -1,7 +1,7 @@
 # halt
 
 > Halt the system.
-> More information: <https://www.man7.org/linux/man-pages/man8/halt.8.html>.
+> More information: <https://www.man7.org/linux/man-pages/man8/halt.8.html>
 
 - Halt the system:
 

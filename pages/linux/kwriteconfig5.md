@@ -1,7 +1,7 @@
 # kwriteconfig5
 
 > Write KConfig entries for KDE Plasma.
-> More information: <https://userbase.kde.org/KDE_System_Administration/Configuration_Files>.
+> More information: <https://userbase.kde.org/KDE_System_Administration/Configuration_Files>
 
 - Display help:
 

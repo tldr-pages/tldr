@@ -1,7 +1,7 @@
 # poweroff
 
 > Power off the system.
-> More information: <https://www.man7.org/linux/man-pages/man8/poweroff.8.html>.
+> More information: <https://www.man7.org/linux/man-pages/man8/poweroff.8.html>
 
 - Power off the system:
 

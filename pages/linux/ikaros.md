@@ -1,7 +1,7 @@
 # ikaros
 
 > Vanilla OS Tool for managing drivers for your device.
-> More information: <https://github.com/Vanilla-OS/Ikaros>.
+> More information: <https://github.com/Vanilla-OS/Ikaros>
 
 - Interactively install drivers for your device:
 

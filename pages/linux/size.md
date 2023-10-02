@@ -1,7 +1,7 @@
 # size
 
 > Displays the sizes of sections inside binary files.
-> More information: <https://sourceware.org/binutils/docs/binutils/size.html>.
+> More information: <https://sourceware.org/binutils/docs/binutils/size.html>
 
 - Display the size of sections in a given object or executable file:
 

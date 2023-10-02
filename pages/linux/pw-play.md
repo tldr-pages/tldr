@@ -1,7 +1,7 @@
 # pw-play
 
 > Shorthand tool for pw-cat --playback.
-> More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
+> More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>
 
 - Play a wav sound file over the default target:
 

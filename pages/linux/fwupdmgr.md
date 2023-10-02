@@ -1,7 +1,7 @@
 # fwupdmgr
 
 > A tool for updating device firmware, including UEFI, using `fwupd`.
-> More information: <https://fwupd.org/>.
+> More information: <https://fwupd.org/>
 
 - Display all devices detected by fwupd:
 

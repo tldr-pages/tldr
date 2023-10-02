@@ -1,7 +1,7 @@
 # archinstall
 
 > Guided Arch Linux installer with a twist.
-> More information: <https://archinstall.readthedocs.io>.
+> More information: <https://archinstall.readthedocs.io>
 
 - Start the interactive installer:
 

@@ -1,7 +1,7 @@
 # bootctl
 
 > Control EFI firmware boot settings and manage boot loader.
-> More information: <https://manned.org/bootctl>.
+> More information: <https://manned.org/bootctl>
 
 - Show information about the system firmware and the bootloaders:
 

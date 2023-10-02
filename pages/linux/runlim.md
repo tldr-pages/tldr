@@ -1,7 +1,7 @@
 # runlim
 
 > A tool for sampling and limiting time and memory usage of a program and its child processes using the proc file system on Linux.
-> More information: <http://fmv.jku.at/runlim>.
+> More information: <http://fmv.jku.at/runlim>
 
 - Print the time and memory usage of a command:
 

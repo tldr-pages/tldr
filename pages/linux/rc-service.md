@@ -2,7 +2,7 @@
 
 > Locate and run OpenRC services with arguments.
 > See also `openrc`.
-> More information: <https://manned.org/rc-service>.
+> More information: <https://manned.org/rc-service>
 
 - Show a service's status:
 

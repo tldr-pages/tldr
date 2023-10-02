@@ -2,7 +2,7 @@
 
 > RetroArch is a frontend for emulators, game engines and media players.
 > It is the reference implementation of libretro API.
-> More information: <https://github.com/libretro/RetroArch>.
+> More information: <https://github.com/libretro/RetroArch>
 
 - Start in the menu mode:
 

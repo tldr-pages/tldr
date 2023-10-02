@@ -1,7 +1,7 @@
 # sstat
 
 > View information about running jobs.
-> More information: <https://slurm.schedmd.com/sstat.html>.
+> More information: <https://slurm.schedmd.com/sstat.html>
 
 - Display status information of a comma-separated list of jobs:
 

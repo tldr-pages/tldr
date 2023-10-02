@@ -1,7 +1,7 @@
 # mandb
 
 > Manage the pre-formatted manual page database.
-> More information: <https://man7.org/linux/man-pages/man8/mandb.8.html>.
+> More information: <https://man7.org/linux/man-pages/man8/mandb.8.html>
 
 - Purge and process manual pages:
 

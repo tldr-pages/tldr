@@ -1,7 +1,7 @@
 # partx
 
 > Parse a partition table and tell the kernel about it.
-> More information: <https://man7.org/linux/man-pages/man8/partx.8.html>.
+> More information: <https://man7.org/linux/man-pages/man8/partx.8.html>
 
 - List the partitions on a block device or disk image:
 

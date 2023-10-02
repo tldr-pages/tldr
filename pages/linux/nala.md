@@ -2,7 +2,7 @@
 
 > Package management Utility.
 > Wrapper for the `apt` package manager.
-> More information: <https://gitlab.com/volian/nala>.
+> More information: <https://gitlab.com/volian/nala>
 
 - Install a package, or update it to the latest available version:
 

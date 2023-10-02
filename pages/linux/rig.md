@@ -1,7 +1,7 @@
 # rig
 
 > Utility to piece together a random first name, last name, street number and address, along with a geographically consistent (ie, they all match the same area) city, state, ZIP code, and area code.
-> More information: <https://manned.org/rig>.
+> More information: <https://manned.org/rig>
 
 - Display a random name (male or female) and address:
 

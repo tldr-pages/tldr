@@ -2,7 +2,7 @@
 
 > Run a program in a new session if the calling process is not a process group leader.
 > The created session is by default not controlled by the current terminal.
-> More information: <https://manned.org/setsid>.
+> More information: <https://manned.org/setsid>
 
 - Run a program in a new session:
 

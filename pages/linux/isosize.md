@@ -1,7 +1,7 @@
 # isosize
 
 > Display the size of an ISO file.
-> More information: <https://manned.org/isosize>.
+> More information: <https://manned.org/isosize>
 
 - Display the size of an ISO file:
 

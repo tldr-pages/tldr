@@ -1,7 +1,7 @@
 # kpackagetool5
 
 > KPackage Manager: Install, list, remove Plasma packages.
-> More information: <https://techbase.kde.org/Development/Tutorials/Plasma5/QML2/GettingStarted#Kpackagetool5>.
+> More information: <https://techbase.kde.org/Development/Tutorials/Plasma5/QML2/GettingStarted#Kpackagetool5>
 
 - List all known package types that can be installed:
 
