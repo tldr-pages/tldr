@@ -8,6 +8,6 @@
 
 `lsyncd -rsync {{/source_directory}} {{destination_host::/destination_directory}}`
 
-- Lsync with ssh connection:
+- Lsync with SSH connection:
 
 `lsyncd -rsyncssh {{/home}} {{remotehost.org}} {{backup-home/}}`
