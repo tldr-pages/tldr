@@ -11,7 +11,7 @@
 
 `wkhtmltopdf --page-size {{A4}} {{input.html}} {{output.pdf}}`
 
-- Set Margins:
+- Set the PDF page margins:
 
 `wkhtmltopdf --margin-{{top|bottom|left|right}} {{10mm}} {{input.html}} {{output.pdf}}`
 
