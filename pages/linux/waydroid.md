@@ -1,8 +1,7 @@
 # waydroid
 
 > Waydroid is a container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu.
-> Documentation: <https://docs.waydro.id/>.
-> More information: <https://waydro.id/>.
+> More information: <https://docs.waydro.id>.
 
 - Start Waydroid:
 
