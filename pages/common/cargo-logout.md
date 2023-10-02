@@ -1,7 +1,7 @@
 # cargo logout
 
 > Remove an API token from the registry locally.
-> More information: <https://doc.rust-lang.org/cargo/commands/cargo-logout.html>
+> More information: <https://doc.rust-lang.org/cargo/commands/cargo-logout.html>.
 
 - This command will remove the API token from the local credential storage.
 
