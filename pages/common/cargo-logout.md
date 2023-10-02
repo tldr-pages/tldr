@@ -13,7 +13,7 @@
 
 - To use verbose output:
 
-`cargo logout {{-v|--verbose}}`
+`cargo logout --verbose`
 
 - Do not print cargo log messages:
 
