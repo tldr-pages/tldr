@@ -1,7 +1,7 @@
 # mktemp
 
 > Create a temporary file or directory.
-> More information: <https://www.gnu.org/software/autogen/mktemp.html>.
+> More information: <https://www.gnu.org/software/coreutils/mktemp>.
 
 - Create an empty temporary file and print its absolute path:
 
@@ -9,7 +9,7 @@
 
 - Use a custom directory (defaults to `$TMPDIR` or `/tmp`):
 
-`mktemp --tmpdir {{/path/to/tempdir}}`
+`mktemp --tmpdir={{/path/to/tempdir}}`
 
 - Use a custom path template (`X`s are replaced with random alphanumeric characters):
 
@@ -17,7 +17,7 @@
 
 - Use a custom file name template:
 
-`mktemp --deprecated-tmpdir {{example.XXXXXXXX}}`
+`mktemp -t {{example.XXXXXXXX}}`
 
 - Create an empty temporary file with the given suffix and print its absolute path:
 
