@@ -3,42 +3,42 @@
 > Remove an API token from the registry locally.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-logout.html>.
 
-- This command will remove the API token from the local credential storage.
+- This command will remove the API token from the local credential storage:
 
 `cargo logout`
 
-- To add the name of the registry to use.
+- To add the name of the registry to use:
 
 `cargo logout --registry {{registry}}`
 
-- To use verbose output.
+- To use verbose output:
 
 `cargo logout {{-v|--verbose}}`
 
-- Do not print cargo log messages.
+- Do not print cargo log messages:
 
 `cargo logout {{-q|--quit}}`
 
-- Control when colored output is used.
+- Control when colored output is used:
 
 `cargo logout --color {{auto|always|never}}`
 
-- To specify which toolchain to use.
+- To specify which toolchain to use:
 
 `cargo logout +{{stable|nightly}}`
 
-- Overrides a Cargo configuration value.
+- Overrides a Cargo configuration value:
 
 `cargo logout --config {{KEY=VALUE|PATH}}`
 
-- Changes the current working directory before executing any specified operations.
+- Changes the current working directory before executing any specified operations:
 
 `cargo logout -c {{PATH}}`
 
-- Print help information.
+- Print help information:
 
 `cargo logout {{-h|--help}}`
 
-- Unstable (nightly-only) flags to Cargo.
+- Unstable (nightly-only) flags to Cargo:
 
 `cargo -z help` 
