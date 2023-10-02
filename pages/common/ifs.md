@@ -4,18 +4,18 @@
 > The default value of IFS is a space, tab, and newline. The three characters serve as delimiters.
 > More information: <https://www.gnu.org/software/bash/manual/html_node/Word-Splitting.html>.
 
-- View the Current IFS Value:
+- View the current IFS value:
 
 `echo "$IFS"`
 
-- Change the IFS Value:
+- Change the IFS value:
 
-`IFS=":"`
+`IFS="{{:}}"`
 
-- Reset IFS to Default:
+- Reset IFS to default:
 
 `IFS=$' \t\n'`
 
-- Temporary IFS Change in a Subshell:
+- Temporarily change the IFS value in a subshell:
 
-`(IFS=":"; echo "one:two:three")`
+`(IFS="{{:}}"; echo "{{one:two:three}}")`
