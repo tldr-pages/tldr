@@ -15,7 +15,7 @@
 
 `wkhtmltopdf --margin-{{top|bottom|left|right}} {{10mm}} {{input.html}} {{output.pdf}}`
 
-- Custom Page Orientation:
+- Set the PDF page orientation:
 
 `wkhtmltopdf --orientation {{Landscape|Portrait}} {{input.html}} {{output.pdf}}`
 
