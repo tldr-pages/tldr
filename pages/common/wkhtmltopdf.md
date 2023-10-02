@@ -19,6 +19,6 @@
 
 `wkhtmltopdf --orientation {{Landscape|Portrait}} {{input.html}} {{output.pdf}}`
 
-- Generate Grayscale PDF:
+- Generate a greyscale version of the PDF document:
 
 `wkhtmltopdf --grayscale {{input.html}} {{output.pdf}}`
