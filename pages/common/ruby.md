@@ -20,6 +20,10 @@
 
 `ruby -run -e httpd`
 
+- Locally execute a ruby binary without installing the required library it depends on:
+
+`ruby -I{{path/to/library_folder}} -r{{library_require_name}} {{path/to/bin_folder/bin_name}} {{arguments}}`
+
 - Show the version of Ruby you are using:
 
 `ruby -v`
