@@ -37,4 +37,4 @@
 
 - Print help information:
 
-`cargo logout {{-h|--help}}`
+`cargo logout --help`
