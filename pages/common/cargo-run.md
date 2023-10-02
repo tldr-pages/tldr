@@ -1,7 +1,7 @@
 # cargo run
 
-> To run the current package.
-> Set the working directory of the binary executed to the current working directory.
+> Run the current Cargo package.
+> Note: Set the working directory of the binary executed to the current working directory.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-run.html>.
 
 - Run the specified binary:
