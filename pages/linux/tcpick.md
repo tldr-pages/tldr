@@ -6,7 +6,7 @@
 
 - Capture traffic on a specific [i]nterface, port and host::
 
-`tcpick -i {{interface}} -C -h {{host}} -p {{port}}`
+`sudo tcpick -i {{interface}} -C -h {{host}} -p {{port}}`
 
 - Capture traffic on port 80 (HTTP) of a specific host:
 
