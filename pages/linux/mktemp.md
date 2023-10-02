@@ -7,7 +7,7 @@
 
 `mktemp`
 
-- Use a custom directory (defaults to `$TMPDIR` or `/tmp`):
+- Use a custom directory (defaults to `$TMPDIR`, or `/tmp`):
 
 `mktemp --tmpdir={{/path/to/tempdir}}`
 
