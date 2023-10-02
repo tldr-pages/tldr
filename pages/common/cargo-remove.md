@@ -3,7 +3,7 @@
 > Remove dependencies from a Cargo.toml manifest file.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-remove.html>.
 
-- Remove one or more depndencies from the Cargo.toml manifest:
+- Remove one or more dependencies from the Cargo.toml manifest:
 
 `cargo remove`
 
