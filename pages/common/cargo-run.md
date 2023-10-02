@@ -6,15 +6,15 @@
 
 - Run the specified binary:
 
-`cargo run --bin`
+`cargo run --bin {{name}}`
 
 - Run the specified example:
 
-`cargo run --example`
+`cargo run --example {{name}}`
 
 - Space or comma separated list of features to activate:
 
-`cargo run --features`
+`cargo run --features {{features}}`
 
 - Disable the default feature of the selected packages:
 
@@ -26,4 +26,4 @@
 
 - Run with the given profile:
 
-`cargo run --profile`
+`cargo run --profile {{name}}`
