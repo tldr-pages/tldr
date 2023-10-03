@@ -108,3 +108,4 @@ as a guideline for current and future maintainers.
 - All non-confidential requests/mail made/sent on behalf of the project
  should be documented as an issue with the [archive](https://github.com/tldr-pages/tldr/issues?q=label%3Aarchive) label
   and must be communicated with other maintainers.
+- All repository/organization settings changes must be documented as an issue with the [archive](https://github.com/tldr-pages/tldr/issues?q=label%3Aarchive) label.
