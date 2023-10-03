@@ -1,6 +1,6 @@
 # tail
 
-> Muestra las últimas líneas de un archivo de texto en especifico.
+> Muestra las últimas líneas de un archivo de texto determinado.
 > Ver también: `head`.
 > Más información: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html#tail-invocation>.
 
