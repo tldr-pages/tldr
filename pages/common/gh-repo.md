@@ -23,7 +23,7 @@
 
 `gh repo list {{owner}}`
 
-- List only non-forks repositories, limit amount (default: 30):
+- List only non-forks repositories and limit the number of repositories to list (default: 30):
 
 `gh repo list {{owner}} --source -L {{limit}}`
 
