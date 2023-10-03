@@ -11,7 +11,7 @@
 
 `crystal build {{chemin/vers/fichier.cr}}`
 
-- Lit le code source Crystal à partir de la ligne de commande ou de stdin, et l'exécute :
+- Lit le code source Crystal à partir de la ligne de commande ou de `stdin`, et l'exécute :
 
 `crystal eval '{{code}}'`
 
