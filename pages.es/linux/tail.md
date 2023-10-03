@@ -3,26 +3,26 @@
 > Muestra las ultimas líneas de un archivo de texto en especifico
 > Más información: <https://www.linuxfoundation.org/blog/blog/classic-sysadmin-14-tail-and-head-commands-in-linux-unix>.
 
-- Imprime las últimas 10 líneas de un archivo:
+- Imprime las ultimas 'conteo' lineas de un archivo:
 
-`tail /ruta/al/archivo`
+`tail --lines {{conteo}} {{/ruta/al/archivo}}`
 
-- Imprime las ultimas 20 lineas de un archivo:
+- Imprime un archivo desde una linea en especifico:
 
-`tail --lines conteo /ruta/al/archivo`
+`tail --lines +{{conteo}} {{/ruta/al/archivo}}`
 
-- Imprime las últimas líneas de un archivo en tiempo real (seguimiento de archivos):
+- Imprime un numero especifico de bytes desde el final de algun archivo:
 
-`tail --follow /ruta/al/archivo`
+`tail --bytes {{conteo}} {{/ruta/al/archivo}}`
 
-- Imprime las últimas líneas de un archivo y se actualiza cada 'n' segundos:
+- Imprime las últimas líneas de un archivo en tiempo real hasta introducir `Ctrl + C`:
 
-`tail --sleep-interval segundos /ruta/al/archivo`
+`tail --follow {{/ruta/al/archivo}}`
 
-- Imprime un numero especifico de bytes desde el final de algun archivo
+- Mantiene leyendo las ultimas lineas de un archivo hasta introducir `Ctrl + C`, aunque el archivo sea inaccedible:
 
-`tail --bytes conteo /ruta/al/archivo`
+`tail --retry --follow {{/ruta/al/archivo}}`
 
-- Imprime las ultimas lineas de un archivo aun si este es inaccesible
+- Imprime las últimas 'conteo' lineas en 'archivo' y se refresca cada 'n' segundos:
 
-`tail --retry conteo /ruta/al/archivo`
+`tail --lines {{conteo}} --sleep-interval {{segundos}} --follow {{ruta/al/archivo}}`
