@@ -1,7 +1,8 @@
 # tail
 
 > Muestra las ultimas líneas de un archivo de texto en especifico.
-> Más información: <https://www.linuxfoundation.org/blog/blog/classic-sysadmin-14-tail-and-head-commands-in-linux-unix>.
+> Ver también: `head`.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html#tail-invocation>.
 
 - Imprime las ultimas 'conteo' lineas de un archivo:
 
