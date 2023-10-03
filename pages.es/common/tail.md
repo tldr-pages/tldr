@@ -8,7 +8,7 @@
 
 `tail --lines {{conteo}} {{ruta/al/archivo}}`
 
-- Imprime un archivo desde una línea en especifico:
+- Imprime un archivo desde una línea específica:
 
 `tail --lines +{{conteo}} {{ruta/al/archivo}}`
 
@@ -20,10 +20,10 @@
 
 `tail --follow {{ruta/al/archivo}}`
 
-- Mantiene leyendo las últimas líneas de un archivo hasta introducir `Ctrl + C`, aunque el archivo sea inaccedible:
+- Mantiene leyendo las últimas líneas de un archivo hasta introducir `Ctrl + C`, aunque el archivo sea inaccesible:
 
 `tail --retry --follow {{ruta/al/archivo}}`
 
-- Imprime las últimas 'conteo' líneas en 'archivo' y se refresca cada 'n' segundos:
+- Imprime las últimas 'conteo' líneas en 'archivo' y se actualiza cada 'n' segundos:
 
 `tail --lines {{conteo}} --sleep-interval {{segundos}} --follow {{ruta/al/archivo}}`
