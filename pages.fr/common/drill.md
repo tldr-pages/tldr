@@ -3,7 +3,7 @@
 > Effectue diverses requêtes DNS.
 > Plus d'informations : <https://manned.org/drill>.
 
-- Recherche des adresses IP associées à un nom d'hôte (enregistrements A) :
+- Recherche des adresses IP(s) associées à un nom d'hôte (enregistrements A) :
 
 `drill {{example.com}}`
 
