@@ -3,7 +3,7 @@
 > Generates package documentation.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html>.
 
--  Build documentation of specified target:
+- Build documentation of specified target:
 
 `cargo rustdoc {{options}} --{{args}}`
 
