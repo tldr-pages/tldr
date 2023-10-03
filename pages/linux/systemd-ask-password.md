@@ -19,7 +19,7 @@
 
 `systemd-ask-password --timeout={{seconds}} "{{message}}"`
 
-- Force the use of agent system and never ask on current TTY:
+- Force the use of an agent system and never ask on current TTY:
 
 `systemd-ask-password --no-tty "{{message}}"`
 
