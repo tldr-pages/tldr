@@ -1,6 +1,6 @@
 # git clone
 
-> Clona um repositório exitente.
+> Clona um repositório existente.
 > Mais informações: <https://git-scm.com/docs/git-clone>.
 
 - Clona um repositório existente em um novo diretório (o diretório padrão é o nome do repositório):
