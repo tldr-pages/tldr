@@ -29,7 +29,7 @@
 
 - Specify package to remove from:
 
-`cargo remove --package  {{specification}}`
+`cargo remove --package {{specification}}`
 
 - Display help:
 
