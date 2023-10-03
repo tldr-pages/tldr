@@ -19,7 +19,7 @@
 
 `crystal docs`
 
-- Compile and run a Crystal spec suite:
+- Compile and run a Crystal specification suite:
 
 `crystal spec`
 
