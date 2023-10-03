@@ -1,17 +1,17 @@
 # cargo remove
 
-> Remove dependencies from a Cargo.toml manifest file.
+> Remove dependencies from a `Cargo.toml` manifest file.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-remove.html>.
 
-- Remove one or more dependency from the Cargo.toml manifest:
+- Remove one or more dependencies from the Cargo.toml manifest:
 
 `cargo remove`
 
-- Remove as a build dependency:
+- Remove a build dependency:
 
 `cargo remove --build`
 
-- Remove as a dependency to the given target platform:
+- Remove a dependency to the given target platform:
 
 `cargo remove --target {{target}}`
 
@@ -19,7 +19,7 @@
 
 `cargo remove --dry-run`
 
-- Use verbose output:
+- Display verbose output:
 
 `cargo remove --verbose`
 
@@ -27,10 +27,10 @@
 
 `cargo remove --quiet`
 
-- Package to remove from:
+- Specify package to remove from:
 
-`cargo remove {{-p|--package}}  {{spec...}}`
+`cargo remove --package  {{specification}}`
 
-- Print help information:
+- Display help:
 
 `cargo remove --help`
