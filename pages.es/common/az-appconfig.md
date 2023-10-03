@@ -8,7 +8,6 @@
 
 `az appconfig create --name {{nombre}} --resource-group {{grupo_de_recursos}} --location {{ubicación}}`
 
-- Delete a specific App Configuration:
 - Elimina una configuración de aplicación específica:
 
 `az appconfig delete --resource-group {{grupo_de_recursos}} --name {{nombre_de_configuración}}`
