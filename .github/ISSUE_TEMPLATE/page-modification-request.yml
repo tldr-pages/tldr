@@ -1,7 +1,7 @@
 name: 📄 Page modification request
 title: "page request: "
 description: Page modification request template.
-labels: help wanted
+labels: page edit, help wanted
 body:
   - type: textarea
     attributes:
