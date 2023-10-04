@@ -9,27 +9,27 @@
 
 - Remove a build dependency:
 
-`cargo remove --build`
+`cargo remove --build {{dependency_name}}`
 
 - Remove a dependency to the given target platform:
 
-`cargo remove --target {{target}}`
+`cargo remove --target {{target}} {dependency_name}}`
 
 - Don't actually write to the manifest:
 
-`cargo remove --dry-run`
+`cargo remove --dry-run {{dependency_name}}`
 
 - Display verbose output:
 
-`cargo remove --verbose`
+`cargo remove --verbose {{dependency_name}}`
 
 - Do not print Cargo log message:
 
-`cargo remove --quiet`
+`cargo remove --quiet {{dependency_name}}`
 
 - Specify package to remove from:
 
-`cargo remove --package {{specification}}`
+`cargo remove --package {{specification}} {dependency_name}}`
 
 - Display help:
 
