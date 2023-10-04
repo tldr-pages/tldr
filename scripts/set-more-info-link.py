@@ -85,10 +85,14 @@ def set_link(file, link):
         locale = "en"
 
     # build new line
-    if locale in labels:
+    if locale == "hi":
         new_line = f"> {labels[locale]} <{link}>।\n"
+    elif locale in ["ja", "th"]:
+        new_line = f"> {labels[locale]} <{link}>\n"
+    elif locale in ["zh", "zh_TW"]:
+        new_line = f"> {labels[locale]}<{link}>.\n"
     else:
-        new_line = f"> <{link}>.\n"
+        new_line = f"> {labels[locale]} <{link}>.\n"
 
     if lines[desc_end] == new_line:
         # return empty status to indicate that no changes were made
