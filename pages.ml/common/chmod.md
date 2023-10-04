@@ -4,7 +4,7 @@
 > കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/chmod>.
 
 - ഒരു ഫയൽ കൈവശമുള്ള [u]ser-ന് അത് e[x]ecute ചെയ്യാനുള്ള അവകാശം നൽകുക:
- 
+
 `chmod u+x {{path/to/file}}`
 
 - ഒരു ഫയൽ/ഡയറക്‌ടറിയിലേക്ക് [r]ead, [w]rite എന്നിവയ്ക്കുള്ള [u]ser അവകാശങ്ങൾ നൽകുക:
