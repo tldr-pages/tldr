@@ -10,7 +10,7 @@
 
 - Resize an image, making a new copy:
 
-`magick convert -resize {{100x100}} {{image.jpg}} {{image.jpg}}`
+`magick {{input_image.jpg}} -resize {{100x100}} {{output_image.jpg}}`
 
 - Create a GIF using images:
 
