@@ -7,7 +7,7 @@
 
 `duc index {{/usr}}`
 
-- Lista todos os arqivos e diretórios dentro do /usr/local, mostrando tamanho relativo dos arquivos em um [g]ráfico:
+- Lista todos os arqivos e diretórios dentro do /usr/local, mostrando tamanho relativo dos arquivos em um [g]raph (gráfico):
 
 `duc ls -Fg {{/usr/local}}`
 
