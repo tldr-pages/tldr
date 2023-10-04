@@ -27,6 +27,10 @@ Generating the PDF is as simple as running:
 
     python3 render.py <path-to-pages-directory> --color <color-scheme>
 
+Optionally,  specify the output filename:
+
+    python3 render.py <path-to-pages-directory> --color <color-scheme> --output <filename>
+
 Complete information about the arguments can be viewed by running:
 
     python3 render.py --help
