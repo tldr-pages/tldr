@@ -3,15 +3,15 @@
 > Generates package documentation.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html>.
 
-- Build documentation of specified target:
+- Build documentation of the specified target:
 
 `cargo rustdoc {{options}} --{{args}}`
 
-- Open the docs in browser:
+- Open the documentation in browser:
 
 `cargo rustdoc --open`
 
-- Specify package to document:
+- Specify the package to document:
 
 `cargo rustdoc --package {{spec}}`
 
@@ -19,11 +19,11 @@
 
 `cargo rustdoc --lib`
 
-- Document specified binary:
+- Document the specified binary:
 
 `cargo rustdoc --bin {{name}}`
 
-- Document specified example:
+- Document the specified example:
 
 `cargo rustdoc --example {{name}}`
 
