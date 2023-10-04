@@ -16,6 +16,7 @@ from datetime import datetime
 
 from weasyprint import HTML
 
+
 def main(loc, colorscheme, output_filename=None):
     # Checking correctness of path
     if not os.path.isdir(loc):
