@@ -5,7 +5,7 @@
 
 - Remove one or more dependencies from the `Cargo.toml` manifest:
 
-`cargo remove`
+`cargo remove {{dependency_name}}`
 
 - Remove a build dependency:
 
