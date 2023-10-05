@@ -2,7 +2,7 @@
 
 > Utilitas manajemen paket untuk RHEL, Fedora, dan CentOS (untuk versi-versi yang lebih lama).
 > Untuk perintah-perintah setara dalam pengelola paket lainnya, lihat <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> Informasi lebih lanjut: https://manned.org/yum.
+> Informasi lebih lanjut: <https://manned.org/yum>.
 
 - Menginstall sebuah paket baru
 
