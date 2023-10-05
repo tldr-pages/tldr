@@ -11,7 +11,7 @@
 
 `free -{{b|k|m|g}}`
 
-- Menampilkan memori dalam unit yang dapat dibaca manusia:
+- Tampilkan memori dalam unit yang dapat dibaca manusia:
 
 `free -h`
 
