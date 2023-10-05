@@ -12,7 +12,7 @@
 
 `yt-dlp --list-formats "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
--  Download a video or playlist at a specific quality:
+- Download a video or playlist at a specific quality:
 
 `yt-dlp --format "{{bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
