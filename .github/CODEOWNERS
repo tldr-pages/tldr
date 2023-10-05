@@ -1,5 +1,6 @@
 /pages.de/ @pixelcmtd @marchersimon
 /pages.es/ @navarroaxel @kant
+/pages.id/ @reinhart1010
 /pages.it/ @mebeim @yutyo
 /pages.pl/ @acuteenvy
 /pages.pt_BR/ @waldyrious @isaacvicente
@@ -11,6 +12,7 @@
 
 /contributing-guides/*.de.md @pixelcmtd @marchersimon
 /contributing-guides/*.es.md @navarroaxel @kant
+/contributing-guides/*.id.md @reinhart1010
 /contributing-guides/*.it.md @mebeim @yutyo
 /contributing-guides/*.pl.md @acuteenvy
 /contributing-guides/*.pt_BR.md @waldyrious @isaacvicente
