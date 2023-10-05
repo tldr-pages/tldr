@@ -52,7 +52,10 @@ jobs:
             pages.en)
               python render.py ../../$locale -o tldr-pages.pdf ;;
             *)
-              python render.py ../../$locale -o tldr-pages-$(basename $locale .pdf).pdf ;;
+              if [ -f "$locale" ]; then
+                python render.py ../../$locale -o tldr-pages-$(basename $locale .pdf).pdf
+              fi
+              ;;
           esac
         done
 
