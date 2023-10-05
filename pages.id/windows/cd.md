@@ -7,7 +7,7 @@
 
 `cd`
 
-- Menuju root dari drive saat ini:
+- Pergi menuju root dari drive saat ini:
 
 `cd \`
 
