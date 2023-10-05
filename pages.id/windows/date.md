@@ -11,6 +11,6 @@
 
 `date /t`
 
-- Mengubah tanggal sistem saat ini ke tanggal tertentu:
+- Ubah tanggal sistem saat ini ke tanggal tertentu:
 
 `date {{bulan}}-{{hari}}-{{tahun}}`
