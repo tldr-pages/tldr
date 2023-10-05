@@ -1,24 +1,24 @@
 # mktemp
 
 > Create a temporary file or directory.
-> More information: <https://man.openbsd.org/mktemp.1>.
+> More information: <https://keith.github.io/xcode-man-pages/mktemp.1.html>.
 
 - Create an empty temporary file and print its absolute path:
 
 `mktemp`
 
-- Use a custom directory if `$TMPDIR` is not set (the default is platform-dependent, but usually `/tmp`):
+- Use a custom directory (defaults to the output of `getconf DARWIN_USER_TEMP_DIR`, or `/tmp`):
 
-`mktemp -p {{/path/to/tempdir}}`
+`mktemp --tmpdir={{/path/to/tempdir}}`
 
 - Use a custom path template (`X`s are replaced with random alphanumeric characters):
 
 `mktemp {{/tmp/example.XXXXXXXX}}`
 
-- Use a custom file name template:
+- Use a custom file name prefix:
 
-`mktemp -t {{example.XXXXXXXX}}`
+`mktemp -t {{example}}`
 
 - Create an empty temporary directory and print its absolute path:
 
-`mktemp -d`
+`mktemp --directory`

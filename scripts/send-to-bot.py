@@ -29,7 +29,7 @@ Is this intended? If so, just ignore this comment. Otherwise, please double-chec
 
 
 def post_comment(pr_id, body, once):
-    endpoint = BOT_URL + "/comment"
+    endpoint = f"{BOT_URL}/comment"
 
     if once:
         endpoint += "/once"
