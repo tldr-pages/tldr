@@ -1,6 +1,6 @@
 # krita
 
-> Krita is a sketching and painting program designed for digital artists.
+> A sketching and painting program designed for digital artists.
 > See also: `gimp`.
 > More information: <https://docs.krita.org/en/reference_manual/linux_command_line.html>.
 
