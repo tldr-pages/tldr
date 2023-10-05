@@ -19,6 +19,6 @@
 
 `cd {{jalan/menuju/direktori}}`
 
-- Menuju direktori tertentu di drive [d] yang berbeda:
+- Pergi menuju direktori tertentu di [d]rive yang berbeda:
 
 `cd /d {{C}}:{{jalan\menuju\direktori}}`
