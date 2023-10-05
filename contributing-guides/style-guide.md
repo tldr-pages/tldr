@@ -29,7 +29,7 @@ Example:
 ```md
 # krita
 
-> Krita is a sketching and painting program designed for digital artists.
+> A sketching and painting program designed for digital artists.
 > See also: `gimp`.
 > More information: <https://docs.krita.org/en/reference_manual/linux_command_line.html>.
 
@@ -184,6 +184,11 @@ Use backticks on the following:
 - Example descriptions have to be phrased in imperative mood.
 - For example, use `List all files` instead of `Listing all files` or `File listing`.
 - This also applies to all translations by default unless otherwise specified in the language-specific section below.
+
+## Descriptions
+
+- Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`) unless the program name differs from the executable name (e.g. `rg` and Ripgrep).
+- Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
 
 ## Serial Comma
 
