@@ -3,7 +3,7 @@
 > Menampilkan direktori kerja saat ini atau pindah ke direktori lain.
 > Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Menampilkan nama dari direktori saat ini:
+- Tampilkan nama dari direktori saat ini:
 
 `cd`
 
