@@ -15,6 +15,6 @@
 
 `free -h`
 
-- Menampilkan output setiap 2 detik:
+- Tampilkan output setiap 2 detik:
 
 `free -s {{2}}`
