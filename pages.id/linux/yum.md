@@ -20,7 +20,7 @@
 
 `yum remove {{paket}}`
 
-- Menampilkan pembaruan yang tersedia untuk paket yang terpasang:
+- Tampilkan pembaruan yang tersedia untuk paket yang terpasang:
 
 `yum check-update`
 
