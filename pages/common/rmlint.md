@@ -7,9 +7,13 @@
 
 `rmlint {{path/to/directory1 path/to/directory2 ...}}`
 
-- Check for space wasters, keeping everything in the tagged directories (after the double slash):
+- Check for space wasters, preferably keeping files in tagged directories (after the double slash):
 
 `rmlint {{path/to/directory}} // {{path/to/originals_directory}}`
+
+- Check for space wasters, keeping everything in the untagged directories:
+
+`rmlint --keep-all-untagged {{path/to/directory}} // {{path/to/originals_directory}}`
 
 - Delete duplicate files found by an execution of `rmlint`:
 
