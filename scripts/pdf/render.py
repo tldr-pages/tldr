@@ -17,7 +17,7 @@ from datetime import datetime
 from weasyprint import HTML
 
 
-def main(loc, colorscheme, output_filename=None):
+def main(loc, colorscheme, output_filename):
     # Checking correctness of path
     if not os.path.isdir(loc):
         print("Invalid directory. Please try again!", file=sys.stderr)
@@ -67,9 +67,6 @@ def main(loc, colorscheme, output_filename=None):
 
     html += "</body></html>"
 
-    # Determine the output filename
-    if output_filename is None:
-        output_filename = "tldr-pages.pdf"
 
     # Writing the PDF to disk
     print("\nConverting all pages to PDF...")
@@ -96,7 +93,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "-o",
         "--output",
-        default=None,
+        default="tldr-pages.pdf",
         help="Custom filename for the output PDF (default is 'tldr-pages.pdf')",
     )
     args = parser.parse_args()
