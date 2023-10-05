@@ -52,7 +52,7 @@ jobs:
             pages.en)
               python render.py ../../$locale -o tldr-pages.pdf ;;
             *)
-              if [ -f "$locale" ]; then
+              if [ -d "$locale" ]; then
                 python render.py ../../$locale -o tldr-pages-$(basename $locale .pdf).pdf
               fi
               ;;
