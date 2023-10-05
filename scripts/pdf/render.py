@@ -67,7 +67,6 @@ def main(loc, colorscheme, output_filename):
 
     html += "</body></html>"
 
-
     # Writing the PDF to disk
     print("\nConverting all pages to PDF...")
     HTML(string=html).write_pdf(output_filename, stylesheets=csslist)
