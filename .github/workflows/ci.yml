@@ -41,39 +41,27 @@ jobs:
       run: bash scripts/build.sh
 
     - name: Build PDF
-      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
+      if: github.repository == 'tldr-pages/tldr'
+      # if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       working-directory: ./scripts/pdf
       run: |
-            python render.py ../../pages -c solarized-light
-            python render.py ../../pages.ar -c basic -o tldr-pages-ar.pdf
-            python render.py ../../pages.bn -c basic -o tldr-pages-bn.pdf
-            python render.py ../../pages.bs -c basic -o tldr-pages-bs.pdf
-            python render.py ../../pages.ca -c basic -o tldr-pages-ca.pdf
-            python render.py ../../pages.de -c basic -o tldr-pages-de.pdf
-            python render.py ../../pages.es -c basic -o tldr-pages-es.pdf
-            python render.py ../../pages.fa -c basic -o tldr-pages-fa.pdf
-            python render.py ../../pages.fr -c basic -o tldr-pages-fr.pdf
-            python render.py ../../pages.hi -c basic -o tldr-pages-hi.pdf
-            python render.py ../../pages.id -c basic -o tldr-pages-id.pdf
-            python render.py ../../pages.it -c basic -o tldr-pages-it.pdf
-            python render.py ../../pages.lo -c basic -o tldr-pages-lo.pdf
-            python render.py ../../pages.ml -c basic -o tldr-pages-ml.pdf
-            python render.py ../../pages.ne -c basic -o tldr-pages-ne.pdf
-            python render.py ../../pages.nl -c basic -o tldr-pages-nl.pdf
-            python render.py ../../pages.no -c basic -o tldr-pages-no.pdf
-            python render.py ../../pages.pl -c basic -o tldr-pages-pl.pdf
-            python render.py ../../pages.pt_BR -c basic -o tldr-pages-pt_BR.pdf
-            python render.py ../../pages.pt_PT -c basic -o tldr-pages-pt_PT.pdf
-            python render.py ../../pages.ro -c basic -o tldr-pages-ro.pdf
-            python render.py ../../pages.ru -c basic -o tldr-pages-ru.pdf
-            python render.py ../../pages.sh -c basic -o tldr-pages-sh.pdf
-            python render.py ../../pages.sr -c basic -o tldr-pages-sr.pdf
-            python render.py ../../pages.sv -c basic -o tldr-pages-sv.pdf
-            python render.py ../../pages.ta -c basic -o tldr-pages-ta.pdf
-            python render.py ../../pages.th -c basic -o tldr-pages-th.pdf
-            python render.py ../../pages.tr -c basic -o tldr-pages-tr.pdf
-            python render.py ../../pages.uk -c basic -o tldr-pages-uk.pdf
-            python render.py ../../pages.uz -c basic -o tldr-pages-uz.pdf
+        for locale in pages*; do
+          case $locale in
+            pages.ja | pages.ko | pages.zh | pages.zh_TW)
+              continue ;;
+            pages.en)
+              python render.py ../../$locale -o tldr-pages.pdf ;;
+            *)
+              python render.py ../../$locale -o tldr-pages-$(basename $locale .pdf).pdf ;;
+          esac
+        done
+
+    - name: Upload Build Artifacts
+      if: github.repository == 'tldr-pages/tldr'
+      uses: actions/upload-artifact@v3
+      with:
+         name: pdf-artifacts
+         path: ./scripts/pdf/*.pdf
 
     - name: Deploy
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
