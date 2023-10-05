@@ -7,10 +7,10 @@
 
 `latex {{tex 檔案}}`
 
-- 編譯 DVI 文檔，指定輸出位置：
+- 編譯 DVI 文件，指定輸出位置：
 
 `latex -output-directory={{輸出目錄位置}} {{tex 檔案}}`
 
-- 編譯 DVI 文檔，出錯時退出：
+- 編譯 DVI 文件，出錯時退出：
 
 `latex -halt-on-error {{tex 檔案}}`
