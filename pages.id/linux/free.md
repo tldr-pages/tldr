@@ -7,7 +7,7 @@
 
 `free`
 
-- Menampilkan memori dalam Bytes/KB/MB/GB:
+- Tampilkan memori dalam Bytes/KB/MB/GB:
 
 `free -{{b|k|m|g}}`
 
