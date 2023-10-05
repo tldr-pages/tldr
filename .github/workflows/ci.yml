@@ -45,19 +45,20 @@ jobs:
       # if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       working-directory: ./scripts/pdf
       run: |
-        for locale in pages*; do
-          case $locale in
+        for path in ../../pages*; do
+          folder=$(basename "${path}")
+          language="${folder##*.}"
+          case $folder in
             pages.ja | pages.ko | pages.zh | pages.zh_TW)
-              continue ;;
-            pages.en)
-              python render.py ../../$locale -o tldr-pages.pdf ;;
+              ;;
+            pages)
+              python render.py ${path} -c solarized-light
+              ;;
             *)
-              if [ -d "$locale" ]; then
-                python render.py ../../$locale -o tldr-pages-$(basename $locale .pdf).pdf
-              fi
+              python render.py ${path} -c basic -o tldr-pages-${language}.pdf
               ;;
           esac
-        done
+        done    
 
     - name: Upload Build Artifacts
       if: github.repository == 'tldr-pages/tldr'
