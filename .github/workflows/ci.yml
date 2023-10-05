@@ -49,7 +49,7 @@ jobs:
           folder=$(basename "${path}")
           language="${folder##*.}"
           case $folder in
-            pages.ja | pages.ko | pages.zh | pages.zh_TW)
+            pages.bn | pages.ja | pages.ko | pages.ml | pages.ta | pages.th | pages.zh | pages.zh_TW)
               ;;
             pages)
               python render.py ${path} -c solarized-light
