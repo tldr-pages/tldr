@@ -19,7 +19,7 @@
 
 `docker build --tag {{nama:tag}} - < {{Dockerfile}}`
 
-- Tidak menggunakan cache pada saat membangun sebuah image:
+- Bangun sebuah image tanpa menggunakan cache:
 
 `docker build --no-cache --tag {{nama:tag}} .`
 
