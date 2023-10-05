@@ -16,7 +16,7 @@
 
 `yum provides {{perintah}}`
 
-- Menghapus sebuah paket
+- Hapus paket yang terpasang sebelumnya:
 
 `yum remove {{paket}}`
 
