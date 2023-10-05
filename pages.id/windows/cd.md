@@ -11,7 +11,7 @@
 
 `cd \`
 
-- Menuju ke induk direktori dari direktori saat ini:
+- Pergi menuju induk dari direktori dari saat ini:
 
 `cd ..`
 
