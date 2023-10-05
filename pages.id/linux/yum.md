@@ -12,7 +12,7 @@
 
 `yum -y install {{nama_paket}}`
 
-- Mencari sebuah paket yang menyediakan suatu perintah tertentu:
+- Cari sebuah paket yang menyediakan suatu perintah tertentu:
 
 `yum provides {{perintah}}`
 
