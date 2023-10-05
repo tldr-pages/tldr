@@ -8,11 +8,11 @@
 
 `yt-dlp "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- List the available downloadable formats for a video:
+- List all formats that a video or playlist is available in:
 
 `yt-dlp --list-formats "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Download a video with a defined format, in this case the best mp4 video available (default is "bv\*+ba/b"):
+-  Download a video or playlist at a specific quality:
 
 `yt-dlp --format "{{bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
@@ -22,16 +22,16 @@
 
 - Specify audio format and audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
 
-`yt-dlp --extract-audio --audio-format {{mp3}} --audio-quality {{0}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
+`yt-dlp --extract-audio --audio-format {{mp3}} --audio-quality {{0}} "{{url}}"`
 
 - Download all playlists of YouTube channel/user keeping each playlist in separate directory:
 
-`yt-dlp -o "{{%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}}" "{{https://www.youtube.com/user/TheLinuxFoundation/playlists}}"`
+`yt-dlp -o "{{%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}}" "{{url}}"`
 
 - Download Udemy course keeping each chapter in separate directory under MyVideos directory in your home:
 
-`yt-dlp -u {{user}} -p {{password}} -P "{{~/MyVideos}}" -o "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{https://www.udemy.com/java-tutorial}}"`
+`yt-dlp -u {{user}} -p {{password}} -P "{{~/MyVideos}}" -o "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{url}}"`
 
 - Download entire series season keeping each series and each season in separate directory under C:/MyVideos:
 
-`yt-dlp -P "{{C:/MyVideos}}" -o "{{%(series)s/%(season_number)s - %(season)s/%(episode_number)s - %(episode)s.%(ext)s}}" "{{https://videomore.ru/kino_v_detalayah/5_sezon/367617}}"`
+`yt-dlp -P "{{C:/MyVideos}}" -o "{{%(series)s/%(season_number)s - %(season)s/%(episode_number)s - %(episode)s.%(ext)s}}" "{{url}}"`
