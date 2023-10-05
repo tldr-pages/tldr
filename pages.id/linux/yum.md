@@ -8,7 +8,7 @@
 
 `yum install {{nama_paket}}`
 
-- Instal sebuah paket baru dan mengasumsikan jawaban ya untuk semua pertanyaan (juga berfungsi dengan perintah pembaruan, sangat berguna untuk pembaruan otomatis):
+- Instal sebuah paket baru dan mengasumsikan jawaban [y]a untuk semua pertanyaan (juga berfungsi dengan perintah pembaruan, sangat berguna untuk pembaruan otomatis):
 
 `yum -y install {{nama_paket}}`
 

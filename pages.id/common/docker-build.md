@@ -11,7 +11,7 @@
 
 `docker build {{github.com/creack/docker-firefox}}`
 
-- Bangun sebuah docker image dan memberikan tag:
+- Bangun sebuah docker image dengan tag tertentu:
 
 `docker build --tag {{nama:tag}} .`
 
