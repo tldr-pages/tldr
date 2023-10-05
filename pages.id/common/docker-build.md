@@ -23,7 +23,7 @@
 
 `docker build --no-cache --tag {{nama:tag}} .`
 
-- Membangun sebuah docker image dengan Dockerfile tertentu:
+- Bangun sebuah docker image dengan Dockerfile tertentu:
 
 `docker build --file {{Dockerfile}} .`
 
