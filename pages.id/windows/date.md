@@ -7,7 +7,7 @@
 
 `date`
 
-- Menampilkan tanggal sistem saat ini tanpa meminta untuk memasukkan tanggal baru:
+- Tampilkan tanggal sistem saat ini tanpa meminta untuk memasukkan tanggal baru:
 
 `date /t`
 
