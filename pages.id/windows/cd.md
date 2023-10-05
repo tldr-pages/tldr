@@ -15,7 +15,7 @@
 
 `cd ..`
 
-- Menuju suatu direktori pada drive yang sama:
+- Pergi menuju suatu direktori pada drive yang sama:
 
 `cd {{jalan/menuju/direktori}}`
 
