@@ -24,6 +24,6 @@
 
 `yum check-update`
 
-- Memperbarui seluruh paket yang terpasang ke versi terbaru:
+- Perbarui seluruh paket yang terpasang ke versi terbaru:
 
 `yum upgrade`
