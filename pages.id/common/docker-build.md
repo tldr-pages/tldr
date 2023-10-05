@@ -3,7 +3,7 @@
 > Membangun sebuah image dari Dockerfile.
 > Informasi lebih lanjut: https://docs.docker.com/engine/reference/commandline/build/.
 
-- Membangun sebuah image docker meggunakan Dockerfile dalam direktori saat ini:
+- Bangun sebuah image docker meggunakan Dockerfile dalam direktori saat ini:
 
 `docker build .`
 
