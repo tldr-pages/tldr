@@ -1,4 +1,4 @@
-# Bildschirmfotos
+# screencap
 
 > Nimmt ein Bildschirmfoto von einem Handy-Display auf
 > Dieser Befehl kann nur über die 'adb shell' benutzt werden
