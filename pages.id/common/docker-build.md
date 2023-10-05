@@ -27,6 +27,6 @@
 
 `docker build --file {{Dockerfile}} .`
 
-- Membangun dengan variabel waktu-pembangunan kustom:
+- Bangun sebuah docker image dengan variabel lingkungan tertentu:
 
 `docker build --build-arg {{HTTP_PROXY=http://10.20.30.2:1234}} --build-arg {{FTP_PROXY=http://40.50.60.5:4567}} .`
