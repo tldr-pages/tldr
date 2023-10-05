@@ -3,7 +3,7 @@
 > Menampilkan jumlah memori kosong/tersedia dan memori yang digunakan dalam sistem.
 > Informasi lebih lanjut: <https://manned.org/free>.
 
-- Menampilkan memori sistem:
+- Tampilkan memori sistem:
 
 `free`
 
