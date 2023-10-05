@@ -7,7 +7,7 @@
 
 `docker build .`
 
-- Membangun sebuah docker image dari Dockerfile dengan menggunakan URL yang spesifik:
+- Bangun sebuah docker image dari Dockerfile dengan menggunakan URL yang spesifik:
 
 `docker build {{github.com/creack/docker-firefox}}`
 
