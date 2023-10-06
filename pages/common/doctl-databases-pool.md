@@ -3,7 +3,7 @@
 > Manage specific databases that are served by a database cluster.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/pool/>.
 
-- Run a doctl databases maintenance-window command with an access token:
+- Run a doctl databases pool command with an access token:
 
 `doctl databases pool [command] --access-token {{ access_token }}`
 

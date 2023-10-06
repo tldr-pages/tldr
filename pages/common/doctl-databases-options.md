@@ -3,7 +3,7 @@
 > Manage specific databases that are served by a database cluster.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/options/>.
 
-- Run a doctl databases maintenance-window command with an access token:
+- Run a doctl databases options command with an access token:
 
 `doctl databases options [command] --access-token {{ access_token }}`
 
