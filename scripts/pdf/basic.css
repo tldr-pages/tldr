@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: MIT */
 
 @font-face {
-    font-family: "Notosans";
+    font-family: "sans-serif";
     src: url("NotoSans-Regular.ttf") format("truetype");
 }
 
@@ -14,7 +14,7 @@ code {
 }
 
 h1, h2, h4, ul {
-    font-family: "Notosans";
+    font-family: "sans-serif";
 }
 
 .title-main {

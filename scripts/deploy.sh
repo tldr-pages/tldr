@@ -38,8 +38,8 @@ function upload_assets {
 
   sha256sum \
     "${SITE_HOME}/assets/index.json" \
-    "${SITE_HOME}/assets/"*.zip \
     "${SITE_HOME}/assets/tldr-book*.pdf" \
+    > "${SITE_HOME}/assets/tldr.sha256sums"
 
   cd "$SITE_HOME"
   git add -A
