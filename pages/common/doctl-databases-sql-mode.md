@@ -1,6 +1,6 @@
 # doctl databases sql-mode
 
-> View and configure a MySQL database cluster’s global SQL modes
+> View and configure a MySQL database cluster’s global SQL modes.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/sql-mode/>.
 
 - Run a doctl databases sql-mode command with an access token:
