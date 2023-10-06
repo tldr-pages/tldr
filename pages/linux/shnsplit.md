@@ -7,14 +7,14 @@
 
 `shnsplit -f file.cue file.wav`
 
-- Show supported formats
+- Show supported formats.
 
 `shnsplit -a`
 
-- Splits a flac file into multiple files
+- Split a flac file into multiple files.
 
 `shnsplit -f file.cue -o flac file.flac`
 
-- Splits a wav file into files of the form track-number - album - title:
+- Split a wav file into files of the form track-number - album - title:
 
 `shnsplit -f file.cue file.wav -t "%n - %a - %t`
