@@ -41,17 +41,9 @@ jobs:
       run: bash scripts/build.sh
 
     - name: Build PDF
-      if: github.repository == 'tldr-pages/tldr'
-      # if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       working-directory: ./scripts/pdf
       run: bash build-pdf.sh
-
-    - name: Upload Build Artifacts
-      if: github.repository == 'tldr-pages/tldr'
-      uses: actions/upload-artifact@v3
-      with:
-         name: pdf-artifacts
-         path: ./scripts/pdf/*.pdf
 
     - name: Deploy
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
