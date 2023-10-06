@@ -4,7 +4,7 @@
 > The extrepo tool is used to manage external repositories in Debian.  Before extrepo, users 
 > who wished to use software not packaged for Debian had to manually write the apt 
 > configuration files, run an unsigned script as root, or install an unsigned .deb package
-> More Information <https://manpages.ubuntu.com/manpages/focal/man1/extrepo.1p.html> 
+> More information: <https://manpages.ubuntu.com/manpages/focal/man1/extrepo.1p.html> 
 > use apt to install the package after enabling the repository
 - Search for a given package:
 
