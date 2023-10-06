@@ -1,6 +1,6 @@
 # doctl databases firewalls
 
-> Manage specific databases that are served by a database cluster.
+> Manage firewalls for database clusters.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/firewalls/>.
 
 - Run a doctl databases firewalls command with an access token:

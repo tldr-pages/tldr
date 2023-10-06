@@ -1,6 +1,6 @@
 # doctl databases pool
 
-> Manage specific databases that are served by a database cluster.
+> Manage connection pools for your database cluster.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/pool/>.
 
 - Run a doctl databases pool command with an access token:
