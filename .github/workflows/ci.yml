@@ -41,23 +41,17 @@ jobs:
       run: bash scripts/build.sh
 
     - name: Build PDF
-      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
+      if: github.repository == 'tldr-pages/tldr'
+      # if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       working-directory: ./scripts/pdf
-      run: |
-        for path in ../../pages*; do
-          folder=$(basename "${path}")
-          language="${folder##*.}"
-          case $folder in
-            pages.bn | pages.ja | pages.ko | pages.ml | pages.ta | pages.th | pages.zh | pages.zh_TW)
-              ;;
-            pages)
-              python render.py ${path} -c solarized-light
-              ;;
-            *)
-              python render.py ${path} -c basic -o tldr-pages-${language}.pdf
-              ;;
-          esac
-        done
+      run: bash build-pdf.sh
+
+    - name: Upload Build Artifacts
+      if: github.repository == 'tldr-pages/tldr'
+      uses: actions/upload-artifact@v3
+      with:
+         name: pdf-artifacts
+         path: ./scripts/pdf/*.pdf
 
     - name: Deploy
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
