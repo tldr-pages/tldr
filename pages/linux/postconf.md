@@ -1,18 +1,18 @@
 # postconf
 
-> Postfix coniguration utility.
-> This command displays the values of main.cf configuration parameters by default and warns about possible mis-typed parameter names. It can also change the main.cf configuration parameter values.
+> Postfix configuration utility.
+> This command displays the values of the `main.cf` configuration parameters by default and warns about possible mistyped parameter names. It can also change the `main.cf` configuration parameter values.
 > More information: <https://manned.org/postconf>.
 
 - Specify the directory of the main.cf configuration file instead of the default configuration directory:
 
-`postconf -c {{config_dir}}`
+`postconf -c {{path/to/configuration_directory}}`
 
-- Edit the main.cf configuration file and update parameter settings with the "name=value" pairs on command line:
+- Edit the `main.cf` configuration file and update parameter settings with the "name=value" pairs on the command line:
 
 `postconf -e`
 
-- Print the default parameter settings of main.cf instead of actual settings:
+- Print the default parameter settings of the `main.cf` instead of the actual settings:
 
 `postconf -d`
 
@@ -20,10 +20,10 @@
 
 `postconf -C {{class}}`
 
-- List available SASL plug-in tyes for the Postfix SMTP server. The plug-in type is selected with the smtpd_sasl_type configuration parameter by specifying cyrus or dovecot as the name:
+- List available SASL plug-in types for the Postfix SMTP server. The plug-in type is selected with the `smtpd_sasl_type` configuration parameter by specifying `cyrus` or `dovecot` as the name:
 
 `postconf -a`
 
-- List the names of all supported lookup table types. Lookup tables are specified as type:name in configuration files where type can be btree, cdb, hash, mysql etc:
+- List the names of all supported lookup table types. Lookup tables are specified as `type:name` in configuration files where the type can be `btree`, `cdb`, `hash`, `mysql`, etc:
 
 `postconf -m`
