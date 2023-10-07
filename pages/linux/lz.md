@@ -3,6 +3,6 @@
 > Shows a listing of the files inside a '.tar.gz' compressed archive.
 > More information: <https://manned.org/lz.1>.
 
-- Show a listing of the files inside a compressed archive:
+- List all files inside a compressed archive:
 
 `lz {{path/to/file.tar.gz}}`
