@@ -12,7 +12,7 @@
 
 `dtrace -a`
 
-- - Set principal trace buffer size. Supported units are `k`, `m`, `g`, or `t`:
+- Set principal trace buffer size. Supported units are `k`, `m`, `g`, or `t`:
 
 `dtrace -b {{2g}}`
 
