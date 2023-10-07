@@ -3,7 +3,7 @@
 > Akhiri sesi masuk.
 > Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/logoff>.
 
-- Mengakhiri sesi saat ini:
+- Akhiri sesi saat ini:
 
 `logoff`
 
