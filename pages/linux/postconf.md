@@ -4,11 +4,11 @@
 > This command displays the values of the `main.cf` configuration parameters by default and warns about possible mistyped parameter names. It can also change the `main.cf` configuration parameter values.
 > More information: <https://manned.org/postconf>.
 
-- Specify the directory of the main.cf configuration file instead of the default configuration directory:
+- Specify the directory of the `main.cf` configuration file instead of the default configuration directory:
 
 `postconf -c {{path/to/configuration_directory}}`
 
-- Edit the `main.cf` configuration file and update parameter settings with the "name=value" pairs on the command line:
+- Edit the `main.cf` configuration file and update parameter settings with the "name=value" pairs:
 
 `postconf -e`
 
