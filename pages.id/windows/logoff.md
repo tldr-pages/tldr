@@ -1,6 +1,6 @@
 # logoff
 
-> Mengakhiri sesi masuk.
+> Akhiri sesi masuk.
 > Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/logoff>.
 
 - Mengakhiri sesi saat ini:
