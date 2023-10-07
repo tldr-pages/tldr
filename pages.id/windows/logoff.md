@@ -11,6 +11,6 @@
 
 `logoff {{nama_sesi|id_sesi}}`
 
-- Mengakhiri sesi pada server tertentu yang terhubung melalui RDP:
+- Akhiri sesi pada server tertentu yang terhubung melalui RDP:
 
 `logoff {{nama_sesi|id_sesi}} /server:{{namaserver}}`
