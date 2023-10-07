@@ -1,35 +1,34 @@
 # dtrace
 
-> Generic front-end to DTrace facility.
-> This command is a simple interface to invoke the D language compiler, retrieve buffered trace data from the DTrace kernel facility, and a set of basic routines to format and print traced data.
-> This requires root privileges.
+> A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility.
+> Generic front-end to DTrace facility, requiring root privileges.
 > More information: <https://www.unix.com/man-page/osx/1/dtrace/>.
 
-- Set dtrace's target data model which is the target architecture:
+- Set target data model for a specific architecture:
 
 `dtrace -arch {{arch_name}}`
 
-- Claim anonymous tracing state and display the traced data:
+- Claim [a]nonymous tracing state and display the traced data:
 
 `dtrace -a`
 
-- Set principal trace buffer size. Trace buffer size can include any size suffix like k, m, g or t:
+- - Set principal trace buffer size. Supported units are `k`, `m`, `g`, or `t`:
 
-`dtrace -b {{buffer_size}}`
+`dtrace -b {{2g}}`
 
-- Compile the specified D Program:
+- Compile the specified D Program [s]ource file:
 
 `dtrace -s {{D_script}}`
 
-- Run tghe specified command and exit upon its completion:
+- Run the specified [c]ommand and exit upon its completion:
 
-`dtrace -c {{path/to/command}}`
+`dtrace -c {{command}}`
 
-- Specify function name to trace or list (-l option).  The corresponding argument can include any of the probe description  forms like provider:module:function, module:function or function:
+- Specify [f]unction name to trace or list (-l option). The corresponding argument can include any of the probe description forms like `provider:module:function`, `module:function` or `function`:
 
 `dtrace -f {{function}}`
 
-- Grad the process corresponding to specified pid , cache its symbol table and exit upon completion:
+- Grad the specified  [p]rocess ID, cache its symbol table, and exit upon completion:
 
 `dtrace -p {{pid}}`
 
