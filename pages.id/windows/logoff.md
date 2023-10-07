@@ -7,7 +7,7 @@
 
 `logoff`
 
-- Mengakhiri sesi dengan nama atau id-nya:
+- Akhiri sesi dengan nama atau id-nya:
 
 `logoff {{nama_sesi|id_sesi}}`
 
