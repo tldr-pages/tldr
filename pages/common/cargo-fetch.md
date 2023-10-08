@@ -23,7 +23,7 @@
 
 `cargo fetch --manifest-path {{path}}`
 
-- Prevent Cargo from accessing network:
+- Prevent Cargo from accessing the network:
 
 `cargo fetch --offline`
 
