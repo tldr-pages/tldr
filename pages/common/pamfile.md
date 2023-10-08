@@ -5,7 +5,7 @@
 
 - Describe the specified Netpbm files:
 
-`pamfile {{path/to/file1}} {{path/to/file2}}`
+`pamfile {{path/to/file1 path/to/file2 ...}}`
 
 - Describe every image in each input file (as opposed to only the first image in each file) in a machine-readable format:
 
