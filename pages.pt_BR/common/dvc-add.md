@@ -9,7 +9,7 @@
 
 - Adiciona um diretório para o índice:
 
-`dvc add {{caminho/para/diretório}}`
+`dvc add {{caminho/para/diretorio}}`
 
 - Adiciona recursivamente todos os arquivos em um dado diretório:
 
