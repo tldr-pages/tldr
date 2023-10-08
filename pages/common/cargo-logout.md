@@ -31,6 +31,6 @@
 
 `cargo logout -c {{PATH}}`
 
-- Display information:
+- Display help:
 
 `cargo logout --help`
