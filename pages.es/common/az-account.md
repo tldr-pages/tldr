@@ -8,7 +8,7 @@
 
 `az account list`
 
-- Establece una `suscripción` como la suscripción activa:
+- Establece una `subscription` como la suscripción activa:
 
 `az account set --subscription {{id_de_suscripción}}`
 
