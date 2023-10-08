@@ -1,6 +1,6 @@
 # gzexe
 
-> A compressor that compresses executable files while keeping them executable.
+> Compresses executable files while keeping them executable.
 > More information: <https://manned.org/gzexe.1>.
 
 - Compress an executable file in-place:
