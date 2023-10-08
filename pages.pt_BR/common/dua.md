@@ -5,7 +5,7 @@
 
 - Analisa um diretório específico:
 
-`dua {{caminho/para/diretório}`
+`dua {{caminho/para/diretorio}`
 
 - Exibe o tamanho aparente ao invés do uso do disco:
 
@@ -15,7 +15,7 @@
 
 `dua --count-hard-links`
 
-- Agrega o espaço em disco consumido de mais de m diretório ou arquivos:
+- Agrega o espaço em disco consumido de um ou mais diretórios ou arquivos:
 
 `dua aggregate`
 
@@ -29,4 +29,4 @@
 
 - Escolhe o número de threads a serem usadas:
 
-`dua --threads {{número}}`
+`dua --threads {{numero}}`
