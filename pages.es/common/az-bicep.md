@@ -14,7 +14,7 @@
 
 - Intenta descompilar un archivo de plantilla ARM a un archivo de Bicep:
 
-`az bicep decompile --file {{ruta/al/archivo.json}}`
+`az bicep decompile --file {{ruta/al/archivo_plantilla.json}}`
 
 - Actualiza la CLI de Bicep a la última versión:
 
