@@ -6,7 +6,7 @@
 
 - Search for a given package:
 
-`extrepo search {{key}}`
+`extrepo search {{package}}`
 
 - Enable the repository named {{repository_name}}:
 
