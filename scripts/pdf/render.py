@@ -26,7 +26,7 @@ def main(loc, colorscheme):
     # Set up css style sheets
     csslist = ["basic.css"]
     if colorscheme != "basic":
-        csslist.append(colorscheme + ".css")
+        csslist.append(f"{colorscheme}.css")
 
     # A string that stores all pages in HTML format
     html = (
