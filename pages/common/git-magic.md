@@ -14,11 +14,11 @@
 
 - Commit changes with a custom message:
 
-`git magic -m "{{Custom commit message}}"`
+`git magic -m "{{custom_commit_message}}"`
 
 - Edit the commit message before committing:
 
-`git magic -em "{{Custom commit message}}"`
+`git magic -em "{{custom_commit_message}}"`
 
 - Commit changes and push to remote:
 
