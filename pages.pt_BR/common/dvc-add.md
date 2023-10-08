@@ -13,7 +13,7 @@
 
 - Adiciona recursivamente todos os arquivos em um dado diretório:
 
-`dvc add --recursive {{caminho/para/diretório}}`
+`dvc add --recursive {{caminho/para/diretorio}}`
 
 - Adiciona um arquivo com o nome `.dvc` customizado:
 
