@@ -13,6 +13,6 @@
 
 `systemd-repart --dry-run=yes`
 
-- Grow root partition size by 10 gigabytes:
+- Grow root partition size to 10 gigabytes:
 
 `systemd-repart --size=10G --root /`
