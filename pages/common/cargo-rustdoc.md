@@ -3,10 +3,6 @@
 > Generate documentation for the Rust package.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html>.
 
-- Build documentation of the specified target:
-
-`cargo rustdoc {{options}} --{{args}}`
-
 - Open the documentation in the browser:
 
 `cargo rustdoc --open`
