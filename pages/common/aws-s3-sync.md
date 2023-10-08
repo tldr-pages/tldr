@@ -1,6 +1,6 @@
 # aws s3 sync
 
-> Sync files and directories between local and a S3 bucket or S3 objects between S3 buckets recursively
+> Sync files and directories between local and a S3 bucket or S3 objects between S3 buckets recursively.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/sync.html>.
 
 - Sync files and directories from local to a specific bucket location:
