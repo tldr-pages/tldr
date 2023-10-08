@@ -1,6 +1,6 @@
 # pamfile
 
-> Describe Netpbm (.pam or .pnm) files.
+> Describe Netpbm (PAM or PNM) files.
 > More information: <https://netpbm.sourceforge.net/doc/pamfile.html>.
 
 - Describe the specified Netpbm files:
