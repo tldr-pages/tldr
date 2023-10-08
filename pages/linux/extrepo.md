@@ -2,7 +2,7 @@
 
 > Manage external Debian repositories.
 > It is used to manage external repositories in Debian.
-> More information: <https://manpages.ubuntu.com/manpages/focal/man1/extrepo.1p.html>.
+> More information: <https://manned.org/extrepo.1p>.
 
 - Search for a given package:
 
