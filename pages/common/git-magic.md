@@ -1,6 +1,6 @@
 # git magic
 
-> Abort an ongoing rebase, merge, or cherry-pick.
+> Automate add, commit, and push routines.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-magic>.
 
