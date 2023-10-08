@@ -3,34 +3,34 @@
 > PHP Befehlszeilenschnittstelle.
 > Mehr Informationen: <https://php.net>.
 
-- Analysieren Sie ein PHP-Skript und führen Sie es aus:
+- Analysiere ein PHP-Skript und führe es aus:
 
-`php {{datei}}`
+`php {{pfad/zu/datei}}`
 
-- Überprüfen Sie die Syntax eines PHP-Skripts:
+- Überprüfe die Syntax eines PHP-Skripts:
 
-`php -l {{datei}}`
+`php -l {{pfad/zu/datei}}`
 
-- Führen PHP interaktiv:
+- Führen PHP interaktiv aus:
 
 `php -a`
 
-- Führen Sie einen PHP-Code aus:
+- Führe einen PHP-Befehl aus:
 
-`php -r "{{code}}"`
+`php -r "{{befehl}}"`
 
-- Starten Sie einen in PHP integrierten Webserver im aktuellen Verzeichnis:
+- Starte den in PHP integrierten Webserver im aktuellen Verzeichnis:
 
 `php -S {{host:port}}`
 
-- Holen Sie sich eine Liste der installierten PHP-Erweiterungen:
+- Zeige eine Liste der installierten PHP-Erweiterungen:
 
 `php -m`
 
-- Informationen zur aktuellen PHP-Konfiguration anzeigen:
+- Zeige Informationen zur aktuellen PHP-Konfiguration an:
 
 `php -i`
 
-- Informationen zu einer bestimmten Funktion anzeigen:
+- Zeige Informationen zu einer bestimmten Funktion an:
 
 `php --rf {{funktionsname}}`
