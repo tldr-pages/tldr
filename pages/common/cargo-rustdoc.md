@@ -7,7 +7,7 @@
 
 `cargo rustdoc {{options}} --{{args}}`
 
-- Open the documentation in browser:
+- Open the documentation in the browser:
 
 `cargo rustdoc --open`
 
@@ -27,7 +27,7 @@
 
 `cargo rustdoc --example {{name}}`
 
-- Document integration test:
+- Document the specified integration test:
 
 `cargo rustdoc --test {{name}}`
 
