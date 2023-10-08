@@ -8,7 +8,7 @@
 
 `systemd-inhibit --list`
 
-- Block system shutdown with sleep command:
+- Block system shutdown for {{5}} seconds with sleep command:
 
 `systemd-inhibit --who $USER --what shutdown sleep {{5}}`
 
