@@ -1,7 +1,7 @@
 # extrepo
 
 > Manage external Debian repositories.
-> The extrepo tool is used to manage external repositories in Debian.
+> It is used to manage external repositories in Debian.
 > More information: <https://manpages.ubuntu.com/manpages/focal/man1/extrepo.1p.html>.
 
 - Search for a given package:
