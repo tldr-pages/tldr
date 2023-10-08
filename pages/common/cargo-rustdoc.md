@@ -1,6 +1,6 @@
 # cargo rustdoc
 
-> Generates package documentation.
+> Generate documentation for the Rust package.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html>.
 
 - Build documentation of the specified target:
