@@ -1,13 +1,13 @@
-name: 📄 Page request
+name: 📄 Page modification request
 title: "page request: "
-description: Page request template.
-labels: new command, help wanted
+description: Page modification request template.
+labels: page edit, help wanted
 body:
   - type: textarea
     attributes:
       label: Command description
-      description: Describe a command you want to be summarized.
-      placeholder: Tell us about the command!
+      description: Describe the command you want the page(s) to be modified.
+      placeholder: Tell us about the changes in the command!
   - type: input
     attributes:
       label: Command details
@@ -23,4 +23,3 @@ body:
         - label: macOS (osx)
         - label: sunOS
         - label: Windows
-
