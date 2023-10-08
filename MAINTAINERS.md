@@ -62,6 +62,8 @@ If you are an owner of the organization, you can see an automated list
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10737) — present
 - **Darío Hereñú ([@kant](https://github.com/kant))**:
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10738) — present
+- **Juri ([@gutjuri](https://github.com/gutjuri))**: 
+  [06 October 2023](https://github.com/tldr-pages/tldr/issues/10874) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
