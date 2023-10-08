@@ -9,4 +9,4 @@
 
 - Decompress a compressed executable in-place:
 
-`gzexe -d {{path/to/compressed/executable}}`
+`gzexe -d {{path/to/compressed_executable}}`
