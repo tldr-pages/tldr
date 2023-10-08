@@ -1,0 +1,32 @@
+# gladtex
+
+> A LaTeX formula preprocessor for HTML files. Converts LaTeX formulas to images.
+> More information: <https://humenda.github.io/GladTeX/manpage.html/>.
+
+- Convert to html:
+
+`gladtex {{input_file.htex}}`
+
+- Save the converted file to a specific location:
+
+`gladtex {{input_file.htex}} -o {{path/to/output_file.html}}`
+
+- Save the generated images to a specific location:
+
+`gladtex {{input_file.htex}} -d {{path/to/image_output_directory}}`
+
+- Set image resolution (in dpi, default is 100):
+
+`gladtex {{input_file.htex}} -r {{resolution}}`
+
+- Keep latex files after conversion:
+
+`gladtex {{input_file.htex}} -k`
+
+- Set background and foreground color of the images:
+
+`gladtex {{input_file.htex}} -b {{background_color}} -f {{foreground_color}}`
+
+- Convert markdown to html using pandoc:
+
+`pandoc -s -t html --gladtex {{file.md}} | gladtex -o {{file.html}}`
