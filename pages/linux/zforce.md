@@ -3,6 +3,6 @@
 > Add a GZ extension on all supplied GZip files.
 > More information: <https://manned.org/zforce.1>.
 
-- Add a '.gz' extension to the supplied gzip files, leave the suppied non-gzip files as-is:
+- Add a '.gz' extension to the supplied GZip files (Note: Non-GZip files are ignored):
 
-`zforce {{path/to/gzipped1}} {{path/to/gzipped2}} {{path/to/non/gzipped}}`
+`zforce {{path/to/archive1.gz path/to/archive2.gz ...}}`
