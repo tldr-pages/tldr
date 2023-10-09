@@ -16,7 +16,7 @@
 
 `git magic -m "{{custom_commit_message}}"`
 
-- Edit the commit message before committing:
+- [e]dit the commit [m]essage before committing:
 
 `git magic -em "{{custom_commit_message}}"`
 
