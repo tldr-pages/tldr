@@ -24,6 +24,6 @@
 
 `git magic -p`
 
-- Commit changes with a force push to remote:
+- Commit changes with a [f]orce [p]ush to remote:
 
 `git magic -fp`
