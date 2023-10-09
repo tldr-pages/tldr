@@ -13,7 +13,7 @@
 
 - Split a flac file into multiple files:
 
-`shnsplit -f file.cue -o flac file.flac`
+`shnsplit -f {{path/to/file.cue}} -o flac {{path/to/file.flac}}`
 
 - Split a wav file into files of the form track-number - album - title:
 
