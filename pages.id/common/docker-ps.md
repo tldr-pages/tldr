@@ -3,7 +3,7 @@
 > Tampilkan daftar kontainer Docker.
 > Informasi lebih lanjut: <https://docs.docker.com/engine/reference/commandline/ps/>.
 
-- Menampilkan kontainer Docker yang sedang berjalan saat ini:
+- Tampilkan kontainer Docker yang sedang berjalan saat ini:
 
 `docker ps`
 
