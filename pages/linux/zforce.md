@@ -5,4 +5,4 @@
 
 - Add a `.gz` extension to the supplied Gzip files (Note: other files are ignored):
 
-`zforce {{path/to/file1 path/to/file2 ..}}`
+`zforce {{path/to/file1 path/to/file2 ...}}`
