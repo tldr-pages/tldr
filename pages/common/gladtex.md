@@ -9,7 +9,7 @@
 
 - Save the converted file to a specific location:
 
-`gladtex {{input_file.htex}} -o {{path/to/output_file.html}}`
+`gladtex {{path/to/input.htex}} -o {{path/to/output.html}}`
 
 - Save the generated images to a specific location:
 
