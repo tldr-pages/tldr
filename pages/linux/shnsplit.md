@@ -5,7 +5,7 @@
 
 - Split a wav + cue file into multiple files:
 
-`shnsplit -f file.cue file.wav`
+`shnsplit -f {{path/to/file.cue}} {{path/to/file.wav}}`
 
 - Show supported formats:
 
