@@ -16,7 +16,7 @@
 
 `az account list-locations`
 
-- Imprime un token de acceso para usar con la `API de MS Graph`:
+- Imprime un token de acceso para usar con la `MS Graph API`:
 
 `az account get-access-token --resource-type {{ms-graph}}`
 
