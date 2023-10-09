@@ -23,7 +23,7 @@
 
 `gladtex {{input_file.htex}} -k`
 
-- Set background and foreground color of the images:
+- Set [b]ackground and [f]oreground color of the images:
 
 `gladtex {{input_file.htex}} -b {{background_color}} -f {{foreground_color}}`
 
