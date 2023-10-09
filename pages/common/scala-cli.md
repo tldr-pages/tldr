@@ -13,7 +13,7 @@
 
 - Compile and test a Scala script:
 
-`scala-cli test {{script.scala}}`
+`scala-cli test {{path/to/script.scala}}`
 
 - Format a Scala script:
 
