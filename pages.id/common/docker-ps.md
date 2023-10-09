@@ -11,7 +11,7 @@
 
 `docker ps --all`
 
-- Menampilkan kontainer yang dibuat terakhir (termasuk semua status):
+- Tampilkan kontainer yang dibuat terakhir (termasuk semua status):
 
 `docker ps --latest`
 
