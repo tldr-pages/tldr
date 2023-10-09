@@ -15,7 +15,7 @@
 
 `docker ps --latest`
 
-- Memilah kontainer yang mengandung substring dalam namanya:
+- Pilah kontainer yang mengandung substring dalam namanya:
 
 `docker ps --filter="name={{nama}}"`
 
