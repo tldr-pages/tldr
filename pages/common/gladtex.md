@@ -29,4 +29,4 @@
 
 - Convert Markdown to HTML using `pandoc` and `gladtex`:
 
-`pandoc -s -t html --gladtex {{file.md}} | gladtex -o {{file.html}}`
+`pandoc -s -t html --gladtex {{path/to/input.md}} | gladtex -o {{path/to/output.html}}`
