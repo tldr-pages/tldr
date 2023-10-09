@@ -1,6 +1,6 @@
 # bun
 
-> JavaScript środowisko uruchomieniowe i zestaw narzędzi.
+> Środowisko uruchomieniowe JavaScript i zestaw narzędzi.
 > Zawiera kompilator, narzędzie do uruchamiania testów i menadżera pakietów.
 > Więcej informacji: <https://bun.sh>.
 
