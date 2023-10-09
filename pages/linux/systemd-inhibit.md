@@ -16,7 +16,7 @@
 
 `systemd-inhibit --what sleep:idle wget {{https://example.com/file}}`
 
-- Ignore lid close switch until script exits:
+- Ignore lid close switch until the script exits:
 
 `systemd-inhibit --what sleep:handle-lid-switch {{path/to/script}}`
 
