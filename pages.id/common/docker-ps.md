@@ -27,7 +27,7 @@
 
 `docker ps --all --filter="exited={{kode}}"`
 
-- Memilah kontainer berdasarkan status (created, running, removing, paused, exited, dan dead):
+- Pilah kontainer berdasarkan status (created, running, removing, paused, exited, dan dead):
 
 `docker ps --filter="status={{status}}"`
 
