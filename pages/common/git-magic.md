@@ -20,7 +20,7 @@
 
 `git magic -em "{{custom_commit_message}}"`
 
-- Commit changes and push to remote:
+- Commit changes and [p]ush to remote:
 
 `git magic -p`
 
