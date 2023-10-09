@@ -19,7 +19,7 @@
 
 `docker ps --filter="name={{nama}}"`
 
-- Memilah kontainer yang memiliki gambar yang sama sebagai leluhur:
+- Pilah kontainer yang memiliki gambar yang sama sebagai leluhur:
 
 `docker ps --filter "ancestor={{image}}:{{tag}}"`
 
