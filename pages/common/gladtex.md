@@ -13,7 +13,7 @@
 
 - Save the generated images to a specific location:
 
-`gladtex {{input_file.htex}} -d {{path/to/image_output_directory}}`
+`gladtex {{path/to/input.htex}} -d {{path/to/image_output_directory}}`
 
 - Set image resolution (in dpi, default is 100):
 
