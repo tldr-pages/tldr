@@ -1,6 +1,6 @@
 # systemd-inhibit
 
-> Prohibit system from entering certain power states.
+> Prohibit the system from entering certain power states.
 > Inhibitor locks may be used to block or delay system sleep and shutdown requests as well as automatic idle handling.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-inhibit.html>.
 
