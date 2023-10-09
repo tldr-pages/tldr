@@ -8,7 +8,7 @@
 
 `git magic`
 
-- Add untracked files and commit changes with a generated message:
+- [a]dd untracked files and commit changes with a generated message:
 
 `git magic -a`
 
