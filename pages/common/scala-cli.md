@@ -9,7 +9,7 @@
 
 - Compile and run a Scala script:
 
-`scala-cli run {{script.scala}}`
+`scala-cli run {{path/to/script.scala}}`
 
 - Compile and test a Scala script:
 
