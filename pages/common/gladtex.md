@@ -17,7 +17,7 @@
 
 - Set image resolution (in dpi, default is 100):
 
-`gladtex {{input_file.htex}} -r {{resolution}}`
+`gladtex {{path/to/input.htex}} -r {{resolution}}`
 
 - Keep latex files after conversion:
 
