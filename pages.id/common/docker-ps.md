@@ -23,7 +23,7 @@
 
 `docker ps --filter "ancestor={{image}}:{{tag}}"`
 
-- Memilah kontainer berdasarkan kode status keluar (exit status code):
+- Pilah kontainer berdasarkan kode status keluar (exit status code):
 
 `docker ps --all --filter="exited={{kode}}"`
 
