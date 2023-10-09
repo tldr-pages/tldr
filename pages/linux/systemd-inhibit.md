@@ -10,7 +10,7 @@
 
 - Block system shutdown for a specified number of seconds with the `sleep` command:
 
-`systemd-inhibit --who $USER --what shutdown sleep {{5}}`
+`systemd-inhibit --what shutdown sleep {{5}}`
 
 - Keep the system from sleeping or idling until the download is complete:
 
