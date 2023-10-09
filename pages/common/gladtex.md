@@ -27,6 +27,6 @@
 
 `gladtex {{input_file.htex}} -b {{background_color}} -f {{foreground_color}}`
 
-- Convert markdown to html using pandoc:
+- Convert Markdown to HTML using `pandoc` and `gladtex`:
 
 `pandoc -s -t html --gladtex {{file.md}} | gladtex -o {{file.html}}`
