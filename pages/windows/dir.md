@@ -18,3 +18,7 @@
 - Show the contents of a given directory, including hidden ones:
 
 `dir {{path\to\directory}} /A`
+
+- Show only file names, no other information:
+
+`dir /B`
