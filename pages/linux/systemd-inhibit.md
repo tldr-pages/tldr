@@ -23,3 +23,7 @@
 - Ignore power button press while command is running:
 
 `systemd-inhibit --what handle-power-key {{command}}`
+
+- Describe who and why created the inhibitor (default: the command and its arguments for `--who` and `Unknown reason` for `--why`):
+
+`systemd-inhibit --who {{$USER}} --why {{reason}} --what {{operation}} {{command}}`
