@@ -7,7 +7,7 @@
 
 `docker ps`
 
-- Menampilkan semua kontainer Docker (yang berjalan dan yang berhenti):
+- Tampilkan semua kontainer Docker (yang berjalan dan yang berhenti):
 
 `docker ps --all`
 
