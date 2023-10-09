@@ -15,7 +15,7 @@
 
 `gladtex {{path/to/input.htex}} -d {{path/to/image_output_directory}}`
 
-- Set image resolution (in dpi, default is 100):
+- Set image [r]esolution (in dpi, default is 100):
 
 `gladtex {{path/to/input.htex}} -r {{resolution}}`
 
