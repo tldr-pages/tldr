@@ -4,7 +4,7 @@
 > Part of 'az', the command-line client for Microsoft Azure.
 > More information: <https://learn.microsoft.com/en-us/cli/azure/acr>.
 
-- Create a managed container registry: 
+- Create a managed container registry:
 
 `az acr create --name {{registry_name}} --resource-group {{resource_group}} --sku {{sku}}`
 
@@ -28,7 +28,7 @@
 
 `az acr repository delete --name {{registry_name}} --repository {{image_name}}:{{tag}}`
 
-- Delete a managed container registry: 
+- Delete a managed container registry:
 
 `az acr delete -name {{registry_name}} --resource-group {{resource_group}} --yes`
 
