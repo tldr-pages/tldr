@@ -21,4 +21,4 @@
 
 - Generate files for IDE (VSCode and IntelliJ) support:
 
-`scala-cli setup-ide {{script.scala}}`
+`scala-cli setup-ide {{path/to/script.scala}}`
