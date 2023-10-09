@@ -25,7 +25,7 @@
 
 - Set [b]ackground and [f]oreground color of the images:
 
-`gladtex {{input_file.htex}} -b {{background_color}} -f {{foreground_color}}`
+`gladtex {{path/to/input.htex}} -b {{background_color}} -f {{foreground_color}}`
 
 - Convert Markdown to HTML using `pandoc` and `gladtex`:
 
