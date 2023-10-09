@@ -10,7 +10,7 @@
 
 - Calculate the change in blame between two revisions:
 
-`git guilt {{revision}} {{revision}}`
+`git guilt {{first_revision}} {{last_revision}}`
 
 - Show author emails instead of names:
 
