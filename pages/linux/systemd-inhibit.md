@@ -12,7 +12,7 @@
 
 `systemd-inhibit --who $USER --what shutdown sleep {{5}}`
 
-- Keep system from sleeping or idling until after download is finished:
+- Keep the system from sleeping or idling until after the download is completed:
 
 `systemd-inhibit --what sleep:idle wget {{https://example.com/file}}`
 
