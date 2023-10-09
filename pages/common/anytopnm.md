@@ -5,8 +5,8 @@
 
 - Convert an input image to PBM, PGM, or PPM format irrespective of the input type:
 
-`anotopnm`
+`anytopnm {{path/to/input}} > {{path/to/output.pnm}}`
 
-- Print the version of the netpbm package that contains the anytopnm program:
+- Display version:
 
 `anytopnm -version`
