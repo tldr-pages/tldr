@@ -1,7 +1,7 @@
 # exa
 
-> Nowoczesny odpowiednik `ls` (wyświetla zawartość katalogu).
-> Więcej informacji: <https://the.exa.website>.
+> Nowoczesny odpowiednik `ls`, fork `exa`.
+> Więcej informacji: <https://github.com/eza-community/eza>.
 
 - Wyświetl listę plików, po jednym w linii:
 
