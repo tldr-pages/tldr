@@ -1,0 +1,24 @@
+# scala-cli
+
+> Command-line tool to interact with the Scala language.
+> More information: <https://scala-cli.virtuslab.org/>.
+
+- Start a REPL (interactive shell) using a specific Scala and JVM version:
+
+`scala-cli --scala {{3.1.0}} --jvm {{temurin:17}}`
+
+- Compile and run a Scala script:
+
+`scala-cli run {{script.scala}}`
+
+- Compile and test a Scala script:
+
+`scala-cli test {{script.scala}}`
+
+- Format a Scala script:
+
+`scala-cli fmt {{script.scala}}`
+
+- Generate files for IDE (VSCode and IntelliJ) support:
+
+`scala-cli setup-ide {{script.scala}}`
