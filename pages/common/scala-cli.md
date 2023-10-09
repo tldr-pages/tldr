@@ -17,7 +17,7 @@
 
 - Format a Scala script:
 
-`scala-cli fmt {{script.scala}}`
+`scala-cli fmt {{path/to/script.scala}}`
 
 - Generate files for IDE (VSCode and IntelliJ) support:
 
