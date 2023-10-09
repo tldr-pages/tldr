@@ -11,7 +11,7 @@
 
 `shnsplit -a`
 
-- Split a flac file into multiple files:
+- Split a .flac file into multiple files:
 
 `shnsplit -f {{path/to/file.cue}} -o flac {{path/to/file.flac}}`
 
