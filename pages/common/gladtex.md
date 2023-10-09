@@ -11,7 +11,7 @@
 
 `gladtex {{path/to/input.htex}} -o {{path/to/output.html}}`
 
-- Save the generated images to a specific location:
+- Save the generated images to a specific [d]irectory:
 
 `gladtex {{path/to/input.htex}} -d {{path/to/image_output_directory}}`
 
