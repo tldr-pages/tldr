@@ -12,7 +12,7 @@
 
 `git magic -a`
 
-- Commit changes with a custom message:
+- Commit changes with a custom [m]essage:
 
 `git magic -m "{{custom_commit_message}}"`
 
