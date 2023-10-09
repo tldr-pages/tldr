@@ -13,7 +13,7 @@
 
 - Generate documentation from Markdown files:
 
-`rustdoc {{file.md}}`
+`rustdoc {{path/to/file.md}}`
 
 - Specify the output directory:
 
