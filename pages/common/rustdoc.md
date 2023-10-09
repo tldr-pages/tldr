@@ -17,4 +17,4 @@
 
 - Specify the output directory:
 
-`rustdoc {{src/lib.rs}} --out-dir {{PATH}}`
+`rustdoc {{src/lib.rs}} --out-dir {{path/to/output_directory}}`
