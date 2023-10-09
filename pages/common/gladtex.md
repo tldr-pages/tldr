@@ -5,7 +5,7 @@
 
 - Convert to html:
 
-`gladtex {{input_file.htex}}`
+`gladtex {{path/to/input.htex}}`
 
 - Save the converted file to a specific location:
 
