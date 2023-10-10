@@ -20,6 +20,6 @@
 
 `cargo generate-lockfile --frozen`
 
-- Prevent Cargo from accessing the network. Cargo will attempt to proceed without network. If Cargo requires internet to proceed and network is not available Cargo will stop with an error:
+- Prevent Cargo from accessing the network. (Note: If Cargo requires internet to proceed and network is not available, it will stop with an error):
 
 `cargo generate-lockfile --offline`
