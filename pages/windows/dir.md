@@ -13,12 +13,12 @@
 
 - Show the contents of the current directory, including hidden ones:
 
-`dir /A`
+`dir /a`
 
 - Show the contents of a given directory, including hidden ones:
 
-`dir {{path\to\directory}} /A`
+`dir {{path\to\directory}} /a`
 
-- Show only file names, no other information:
+- Show a bare list of directories and files, with no additional information:
 
-`dir /B`
+`dir /b`
