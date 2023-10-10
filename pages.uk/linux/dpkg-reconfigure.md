@@ -5,4 +5,4 @@
 
 - Змінити конфігурацію одного або декількох пакетів:
 
-`dpkg-reconfigure {{package1 package2 ...}}`
+`dpkg-reconfigure {{пакунок1 пакунок2 ...}}`
