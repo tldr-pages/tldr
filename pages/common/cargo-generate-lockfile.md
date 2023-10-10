@@ -16,7 +16,7 @@
 
 `cargo generate-lockfile --locked`
 
-- Prevent the Cargo from attempting to access the network to determine if it out-of-date:
+- Prevent Cargo from attempting to access the network to determine if it out-of-date:
 
 `cargo generate-lockfile --frozen`
 
