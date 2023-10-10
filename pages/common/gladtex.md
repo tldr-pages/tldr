@@ -1,6 +1,7 @@
 # gladtex
 
-> A LaTeX formula preprocessor for HTML files. Converts LaTeX formulas to images.
+> A LaTeX formula preprocessor for HTML files.
+> It converts LaTeX formulas to images.
 > More information: <https://humenda.github.io/GladTeX/manpage.html/>.
 
 - Convert to html:
