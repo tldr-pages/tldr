@@ -12,9 +12,9 @@
 
 `sudo machinectl start {{machine_name}}`
 
-- Stop a running container:
+- Stop a running machine:
 
-`sudo machinectl stop {{container-name}}`
+`sudo machinectl stop {{machine_name}}`
 
 - Display a list of running containers:
 
