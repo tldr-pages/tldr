@@ -3,7 +3,7 @@
 > Manage your MySQL, Redis, PostgreSQL, and MongoDB database services.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/>.
 
-- Run a doctl databases command with an access token:
+- Run a `doctl databases` command with an access token:
 
 `doctl databases [command] --access-token {{access_token}}`
 
@@ -17,8 +17,8 @@
 
 - Create a database cluster:
 
-`doctl databases create {{ database name }}`
+`doctl databases create {{database_name}}`
 
 - Delete a cluster:
 
-`doctl databases delete {{ database id }}`
+`doctl databases delete {{database_id}}`

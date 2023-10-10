@@ -3,9 +3,9 @@
 > Manage firewalls for database clusters.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/firewalls/>.
 
-- Run a doctl databases firewalls command with an access token:
+- Run a `doctl databases firewalls` command with an access token:
 
-`doctl databases firewalls [command] --access-token {{ access_token }}`
+`doctl databases firewalls [command] --access-token {{access_token}}`
 
 - Retrieve a list of firewall rules for a given database:
 
@@ -13,8 +13,8 @@
 
 - Add a database firewall rule to a given database:
 
-`doctl databases firewalls append {{ database id }} --rule {{ type (droplet, k8s, ip_addr, tag, or app) }}:{{ value }}`
+`doctl databases firewalls append {{database_id}} --rule {{type (droplet, k8s, ip_addr, tag, or app)}}:{{value}}`
 
 - Remove a firewall rule for a given database:
 
-`doctl databases firewalls remove {{ database id }} {{ rule uuid }}`
+`doctl databases firewalls remove {{database_id}} {{rule_uuid}}`

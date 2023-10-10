@@ -3,14 +3,14 @@
 > Schedule, and check the schedule of, maintenance windows for your databases.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/maintenance-window/>.
 
-- Run a doctl databases maintenance-window command with an access token:
+- Run a `doctl databases maintenance-window` command with an access token:
 
-`doctl databases maintenance-window [command] --access-token {{ access_token }}`
+`doctl databases maintenance-window [command] --access-token {{access_token}}`
 
 - Retrieve details about a database cluster's maintenance windows:
 
-`doctl databases maintenance-window get {{ database id }}`
+`doctl databases maintenance-window get {{database_id}}`
 
 - Update the maintenance window for a database cluster:
 
-`doctl databases maintenance-window update {{ database id }} --day {{ day of the week (e.g. monday) }} --hour {{ 24 hour (e.g. '16:00') }}`
+`doctl databases maintenance-window update {{database_id}} --day {{day_of_the_week (e.g. monday)}} --hour {{24_hour (e.g. '16:00')}}`
