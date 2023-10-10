@@ -16,7 +16,7 @@
 
 `sudo machinectl stop {{container-name}}`
 
-- To see a list of running containers, execute:
+- Display a list of running containers:
 
 `machinectl list`
 
