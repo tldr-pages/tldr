@@ -3,7 +3,7 @@
 > Manage specific databases that are served by a database cluster.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/db/>.
 
-- Run a doctl databases db command with an access token:
+- Run a `doctl databases db` command with an access token:
 
 `doctl databases db [command] --access-token {{ access_token }}`
 
