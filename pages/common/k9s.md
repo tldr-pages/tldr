@@ -1,6 +1,6 @@
 # k9s
 
-> CLI to view and manage Kubernetes clusters.
+> View and manage Kubernetes clusters.
 > More information: <https://k9scli.io/>.
 
 - Manage a cluster using a kubeconfig context:
