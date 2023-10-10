@@ -1,7 +1,7 @@
 # az apim
 
 > Manage Azure API Management services.
-> Part of `az`, the command-line client for Microsoft Azure.
+> Part of `az`.
 > More information: <https://docs.microsoft.com/cli/azure/apim>.
 
 - List API Management services within a resource group:
