@@ -8,13 +8,13 @@
 
 `sudo machinectl create {{container-name}}`
 
-- You can start a container with the following command:
+- Start a container:
 
-`sudo machinectl start my-container`
+`sudo machinectl start {{container-name}}`
 
-- To stop a running container, use the following command:
+- Stop a running container:
 
-`sudo machinectl stop my-container`
+`sudo machinectl stop {{container-name}}`
 
 - To see a list of running containers, execute:
 
