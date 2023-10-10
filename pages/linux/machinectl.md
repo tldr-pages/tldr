@@ -1,4 +1,4 @@
-# Machinectl
+# machinectl
 
 > Machinectl is a command-line utility for managing Linux containers, particularly on systems that use the systemd init system.
 > It provides a powerful and convenient way to create, start, stop, and manage container instances, referred to as machines in `systemd` terminology.
