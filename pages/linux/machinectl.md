@@ -16,10 +16,10 @@
 
 `sudo machinectl stop {{machine_name}}`
 
-- Display a list of running containers:
+- Display a list of running machines:
 
 `machinectl list`
 
-- Interactively log into the container shell:
+- Open an interactive shell inside the machine:
 
-`sudo machinectl shell {{container-name}}`
+`sudo machinectl shell {{machine_name}}`
