@@ -1,6 +1,6 @@
 # cargo generate-lockfile
 
-> Generates the Cargo.lock file for the current package.
+> Generates the `Cargo.lock` file for the current package.
 > If the lockfile already exsits it will be rebuilt with latest version of every package.
 > More information: <https://doc.rust-lang.org/stable/cargo/commands/cargo-generate-lockfile.html>.
 
