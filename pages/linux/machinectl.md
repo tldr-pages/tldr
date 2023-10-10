@@ -8,9 +8,9 @@
 
 `sudo machinectl create {{container-name}}`
 
-- Start a container:
+- Start a machine as a service using `systemd-nspawn`:
 
-`sudo machinectl start {{container-name}}`
+`sudo machinectl start {{machine_name}}`
 
 - Stop a running container:
 
