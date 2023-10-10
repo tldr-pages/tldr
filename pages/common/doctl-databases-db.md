@@ -13,7 +13,7 @@
 
 - List existing databases hosted within a given database cluster:
 
-`doctl databases db list {{ database id }}`
+`doctl databases db list {{database_id}}`
 
 - Create a database with the given name in the given database cluster:
 
