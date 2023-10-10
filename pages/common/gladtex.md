@@ -19,9 +19,9 @@
 
 `gladtex {{path/to/input.htex}} -r {{resolution}}`
 
-- Keep latex files after conversion:
+- [k]eep LaTeX files after conversion:
 
-`gladtex {{input_file.htex}} -k`
+`gladtex {{path/to/input.htex}} -k`
 
 - Set [b]ackground and [f]oreground color of the images:
 
