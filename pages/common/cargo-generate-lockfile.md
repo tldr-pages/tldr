@@ -4,7 +4,7 @@
 > If the lockfile already exsits it will be rebuilt with latest version of every package.
 > More information: <https://doc.rust-lang.org/stable/cargo/commands/cargo-generate-lockfile.html>.
 
-- Generate Cargo.lock with latest version of every package:
+- Generate `Cargo.lock` file with the latest version of every package:
 
 `cargo generate-lockfile`
 
