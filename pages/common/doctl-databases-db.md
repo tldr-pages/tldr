@@ -21,4 +21,4 @@
 
 - Delete the database with the given name in the given database cluster:
 
-`doctl databases db delete {{ database id }} {{ db name }}`
+`doctl databases db delete {{database_id}} {{db_name}}`
