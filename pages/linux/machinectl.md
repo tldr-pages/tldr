@@ -19,7 +19,7 @@
 
 `machinectl list`
 
-To log into a container for interactive use, use:
+- To log into a container for interactive use, use:
 
 `sudo machinectl shell my-container`
 
