@@ -3,7 +3,7 @@
 > Convert a Zeiss confocal file to Netbpm format.
 > More information: <https://manned.org/zeisstopnm.1>.
 
-- Convert a Zeiss cofocal file into either .pgm or .ppm format:
+- Convert a Zeiss cofocal file into either `.pgm` or `.ppm` format:
 
 `zeisstopnm {{path/to/file}}`
 
