@@ -4,9 +4,9 @@
 > It provides a powerful and convenient way to create, start, stop, and manage container instances, referred to as machines in `systemd` terminology.
 > More information: <https://www.freedesktop.org/software/systemd/man/machinectl.html>.
 
-- Create a Machine:
+- Create a container:
 
-`sudo machinectl create my-container`
+`sudo machinectl create {{container-name}}`
 
 - You can start a container with the following command:
 
