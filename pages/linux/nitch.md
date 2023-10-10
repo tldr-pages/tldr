@@ -3,18 +3,18 @@
 > Nitch is a small and incredibly fast system fetch written fully.
 > More information: <https://github.com/ssleert/nitch>.
 
-- Return the system info like hostname, kernel, uptime, etc.:
+- Return the system information like hostname, kernel, uptime, etc.:
 
 `nitch`
 
-- Use -h flag to see all options:
+- Fetch the system information:
+
+`nitch -f`
+
+- Display help:
 
 `nitch -h`
 
-- Use -v flag to see the version:
+- Display version:
 
 `nitch -v`
-
-- Use -f flag to fetch the system info:
-
-`nitch -f`
