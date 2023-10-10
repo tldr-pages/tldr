@@ -9,7 +9,7 @@
 
 - Retrieve the name of the given database hosted in the given database cluster:
 
-`doctl databases db get {{ database id }} {{ db name }}`
+`doctl databases db get {{database_id}} {{db_name}}`
 
 - List existing databases hosted within a given database cluster:
 
