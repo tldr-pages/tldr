@@ -8,7 +8,7 @@
 
 `cargo generate-lockfile`
 
-- Path for the `Cargo.toml` file. By default the file is present in the current directory:
+- Specify a custom path for the `Cargo.toml` file (Note: By default the file is present in the current directory):
 
 `cargo generate-lockfile --manifest-path {{path/to/toml/file}}`
 
