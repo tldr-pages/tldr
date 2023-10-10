@@ -17,7 +17,7 @@
 
 - Create a database with the given name in the given database cluster:
 
-`doctl databases db create {{ database id }} {{ db name }}`
+`doctl databases db create {{database_id}} {{db_name}}`
 
 - Delete the database with the given name in the given database cluster:
 
