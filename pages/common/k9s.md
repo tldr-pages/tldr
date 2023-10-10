@@ -7,7 +7,7 @@
 
 `k9s --context {{kubeconfig_context_name}}`
 
-- Manage a cluster in "read-only" mode (disabling all commands that may cause modifications):
+- Manage a cluster in read-only mode (disabling all commands that may cause modifications):
 
 `k9s --readonly --cluster {{cluster_name}}`
 
