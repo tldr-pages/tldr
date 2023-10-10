@@ -20,6 +20,6 @@
 
 `machinectl list`
 
-- To log into a container for interactive use, use:
+- Interactively log into the container shell:
 
-`sudo machinectl shell my-container`
+`sudo machinectl shell {{container-name}}`
