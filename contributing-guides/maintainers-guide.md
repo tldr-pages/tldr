@@ -6,7 +6,7 @@ for the behavior expected of tldr-pages maintainers.
 *Note:* This text is a living standard;
 that is, it is meant to *describe* the project's maintenance practices,
 rather than *prescribe* them.
-As a maintainer, you're expected to refer to it for clarifications
+As a maintainer, you're expected to refer to it for clarification
 about the collaborative workflows of the project,
 but also to propose changes to it
 that you feel would make it more useful
@@ -26,7 +26,7 @@ as a guideline for current and future maintainers.
   or ask other members to provide their thoughts/opinions.
   In addition, if possible, try to hang around in the
   [Matrix chat room](https://matrix.to/#/#tldr-pages:matrix.org)
-  on a regular basis as well, or at least show up every now and then.
+  regularly as well, or at least show up every now and then.
 
 - **Know when and how to say no**.
   Sometimes requests or contributions need to be declined,
@@ -39,7 +39,7 @@ as a guideline for current and future maintainers.
 - Always remember to **thank every contribution**,
   even when it can't be accepted (in fact, especially then).
   Keep in mind that
-  [every form of contribution](https://github.com/kentcdodds/all-contributors)
+  [every form of contribution](https://github.com/all-contributors/all-contributors)
   (pull request, feature request, bug report, etc.)
   is a voluntary gift of time offered to the tldr-pages project
   by someone who cares about it,
@@ -63,15 +63,15 @@ as a guideline for current and future maintainers.
 - If a PR fails to get a review from a second maintainer after a few days,
   the first maintainer should ping others for review. If it still lingers around
   for **over a week without a second maintainer’s approval**,
-  the first maintainer can go ahead and merge it.
+  the first maintainer (if Owner) can go ahead and merge it. Otherwise, a message
+  can be sent in the chatroom asking other maintainers to review the PR.
 
 - If the only issues holding up a merge are **trivial fixes**
   (typos, syntax errors, etc.), and the author doesn't respond in a day or two,
   **maintainers can make the necessary changes themselves**,
   and proceed with the merge process.
 
-- If a PR **stops getting feedback from the submitter** and is marked as stale
-  by [probot-stale](../.github/workflows/stale.yml),
+- If a PR **stops getting feedback from the submitter** for more than a month,
   any maintainer can choose to take over the PR
   and make the necessary changes to get the content ready for merging.
 
@@ -85,7 +85,7 @@ as a guideline for current and future maintainers.
   or if the multiple commits are not semantically independent changes,
   use the `Squash and merge` method.
   (Don't forget to clean up the body of the squashed commit message.)
-  If instead the PR author took the time to craft
+  If instead, the PR author took the time to craft
   individual, informative messages for each commit,
   then use the `Rebase and merge` method,
   to honor that work and preserve the history of the changes.
@@ -93,10 +93,19 @@ as a guideline for current and future maintainers.
   is that if there are more "dirty" commits than "clean" commits,
   then prefer squash, else do a rebase.
 
-- Although having push access allows committing directly to the repository,
-  please **create pull requests for all of your changes**,
-  except the simplest ones (e.g. typo fixes).
+- Although having push access allows committing directly to the repository to all branches (except main),
+  please **create pull requests for all of your changes**.
   This ensures that the entire process that regular contributors go through
   is also exposed to maintainers,
   who can then identify and address bottlenecks or inconveniences.
   Similarly, **avoid merging your own PRs** unless approved by other maintainers.
+
+- At the last week of October, all applicable PRs that wouldn't get merged
+ in time can be labeled as `hacktoberfest-accepted`.
+
+## III. Transparency
+
+- All non-confidential requests/mail made/sent on behalf of the project
+ should be documented as an issue with the [archive](https://github.com/tldr-pages/tldr/issues?q=label%3Aarchive) label
+  and must be communicated with other maintainers.
+- All repository/organization settings changes must be documented as an issue with the [archive](https://github.com/tldr-pages/tldr/issues?q=label%3Aarchive) label.
