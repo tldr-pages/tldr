@@ -10,7 +10,7 @@
 
 - Path for the `Cargo.toml` file. By default the file is present in the current directory:
 
-`cargo generate-lockfile --manifest-path {{/path-to-toml-file}}`
+`cargo generate-lockfile --manifest-path {{path/to/toml/file}}`
 
 - Assert that the `Cargo.lock` file is up-to-date:
 
