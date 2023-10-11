@@ -4,7 +4,7 @@
 > See also: `zip`, `tar`.
 > More information: <https://github.com/mate-desktop/engrampa>.
 
-- Start engrampa:
+- Start Engrampa:
 
 `engrampa`
 

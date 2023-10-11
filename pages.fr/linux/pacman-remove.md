@@ -1,11 +1,8 @@
 # pacman --remove
 
 > Supprimes des paquets.
+> Voir aussi: `pacman`.
 > Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
-
-- Affiche l'aide :
-
-`pacman --remove --help`
 
 - Supprime un paquet et ses dépendances :
 
@@ -30,3 +27,7 @@
 - Affiche les paquets qui seraient affectés par la commande sans agir :
 
 `pacman --remove --print {{paquet}}`
+
+- Affiche l'aide :
+
+`pacman --remove --help`

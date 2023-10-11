@@ -1,6 +1,6 @@
 # viu
 
-> A small command-line application to view images from the terminal.
+> View images on the terminal.
 > More information: <https://github.com/atanunq/viu>.
 
 - Render an image or animated GIF:

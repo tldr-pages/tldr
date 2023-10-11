@@ -1,6 +1,6 @@
 # tuxi
 
-> A CLI tool that scrapes Google search results and SERPs that provides instant and concise answers.
+> Scrape Google search results and SERPs and provide instant and concise answers.
 > More information: <https://github.com/Bugswriter/tuxi>.
 
 - Make a search using Google:

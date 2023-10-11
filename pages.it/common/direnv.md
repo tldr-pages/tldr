@@ -1,13 +1,13 @@
 # direnv
 
-> Estensione della shell per aggiungere o rimuovere variabili d'ambiente in base alla cartella corrente.
+> Estensione della shell per aggiungere o rimuovere variabili d'ambiente in base alla directory corrente.
 > Maggiori informazioni: <https://github.com/direnv/direnv>.
 
-- Permette il caricamento del `.envrc` presente nella cartella corrente:
+- Permette il caricamento del `.envrc` presente nella directory corrente:
 
 `direnv allow {{.}}`
 
-- Revoca il permesso del `.envrc` presente nella cartella corrente:
+- Revoca il permesso del `.envrc` presente nella directory corrente:
 
 `direnv deny {{.}}`
 

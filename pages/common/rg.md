@@ -1,6 +1,6 @@
 # rg
 
-> Ripgrep is a recursive line-oriented CLI search tool.
+> Ripgrep is a recursive line-oriented search tool.
 > Aims to be a faster alternative to `grep`.
 > More information: <https://github.com/BurntSushi/ripgrep>.
 
@@ -12,10 +12,6 @@
 
 `rg --no-ignore --hidden {{regular_expression}}`
 
-- Search for a regular expression only in a certain filetype (e.g. HTML, CSS, etc.):
-
-`rg --type {{filetype}} {{regular_expression}}`
-
 - Search for a regular expression only in a subset of directories:
 
 `rg {{regular_expression}} {{set_of_subdirs}}`
@@ -23,6 +19,10 @@
 - Search for a regular expression in files matching a glob (e.g. `README.*`):
 
 `rg {{regular_expression}} --glob {{glob}}`
+
+- Search for filenames that match a regular expression:
+
+`rg --files | rg {{regular_expression}}`
 
 - Only list matched files (useful when piping to other commands):
 

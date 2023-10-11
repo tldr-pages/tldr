@@ -26,7 +26,7 @@
 
 - Capture a screenshot of a specific selection and copy it to the clipboard:
 
-`i3-scrot --select-to-clibpoard`
+`i3-scrot --select-to-clipboard`
 
 - Capture a screenshot of the active window after a delay of 5 seconds:
 

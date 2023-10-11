@@ -8,13 +8,13 @@
 
 `git config --list --local`
 
-- 列出全局配置项（存储在 `~/.gitconfig`)：
+- 列出全局配置项（存储在 `~/.gitconfig`）：
 
 `git config --list --global`
 
-- 列出所有被修改过的配置项，包含局部的以及全局的：
+- 列出系统配置项（存储在 `/etc/gitconfig`），并且展示文件的位置：
 
-`git config --list`
+`git config --list --system --show-origin`
 
 - 获取某个配置项的值：
 

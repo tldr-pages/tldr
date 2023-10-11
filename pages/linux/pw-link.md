@@ -5,7 +5,7 @@
 
 - List all audio output and input ports:
 
-`pw-link --output --input'`
+`pw-link --output --input`
 
 - Create a link between an output and an input port:
 

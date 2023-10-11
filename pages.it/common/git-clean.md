@@ -19,7 +19,7 @@
 
 `git clean -f`
 
-- Forza l'eliminazione delle cartelle non tracciate da Git:
+- Forza l'eliminazione delle directory non tracciate da Git:
 
 `git clean -fd`
 

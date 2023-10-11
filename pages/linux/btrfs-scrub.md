@@ -2,7 +2,7 @@
 
 > Scrub btrfs filesystems to verify data integrity.
 > It is recommended to run a scrub once a month.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-scrub>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html>.
 
 - Start a scrub:
 

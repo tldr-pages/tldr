@@ -2,7 +2,7 @@
 
 > Bir yama koleksiyonunu e-posta olarak gönder.
 > Yamalar dosya, dizin veya sürüm listesi olarak tanımlanabilir.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-send-email>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-send-email>.
 
 - Mevcut dizindeki son commit'i gönder:
 

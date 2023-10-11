@@ -7,11 +7,11 @@
 
 `less {{source_file}}`
 
-- Page down / up:
+- Page down/up:
 
 `<Space> (down), b (up)`
 
-- Go to end / start of file:
+- Go to end/start of file:
 
 `G (end), g (start)`
 

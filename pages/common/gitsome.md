@@ -12,7 +12,7 @@
 
 `gh configure`
 
-- List notifications for the current account (as would be seen in https://github.com/notifications):
+- List notifications for the current account (as would be seen in <https://github.com/notifications>):
 
 `gh notifications`
 

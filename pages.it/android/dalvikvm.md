@@ -5,4 +5,4 @@
 
 - Lancia un programma Java:
 
-`dalvikvm -classpath {{percorso/al/file.jar}} {{nomeclasse}}`
+`dalvikvm -classpath {{percorso/del/file.jar}} {{nomeclasse}}`

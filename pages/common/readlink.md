@@ -5,8 +5,8 @@
 
 - Get the actual file to which the symlink points:
 
-`readlink {{filename}}`
+`readlink {{path/to/file}}`
 
 - Get the absolute path to a file:
 
-`readlink -f {{filename}}`
+`readlink -f {{path/to/file}}`

@@ -1,7 +1,7 @@
 # git show-ref
 
 > Referans sıralamak için git komutu.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-show-ref>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-show-ref>.
 
 - Depodaki tüm referansları göster:
 

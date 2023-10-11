@@ -9,7 +9,7 @@
 
 - Print the value of a key or the schema-provided default if the key has not been set in `dconf`:
 
-`gsetings get {{org.example.schema}} {{example-key}}`
+`gsettings get {{org.example.schema}} {{example-key}}`
 
 - Unset a key, so that its schema default value will be used:
 

@@ -26,3 +26,7 @@
 - Show verbose logs:
 
 `act -v`
+
+- Run a specific workflow:
+
+`act push -W {{path/to/workflow}}`

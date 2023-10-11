@@ -5,11 +5,11 @@
 > Parte del manager di e-book Calibre.
 > Maggiori informazioni: <https://manual.calibre-ebook.com/generated/en/calibre-server.html>.
 
-- Avvia un server per distribuire e-book. Accesso a http://localhost:8080:
+- Avvia un server per distribuire e-book. Accesso a <http://localhost:8080>:
 
 `calibre-server`
 
-- Avvia il server su una specifica porta. Accesso a http://localhost:porta:
+- Avvia il server su una specifica porta. Accesso a <http://localhost:porta>:
 
 `calibre-server --port {{porta}}`
 

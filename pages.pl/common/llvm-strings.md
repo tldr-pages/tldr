@@ -1,7 +1,7 @@
 # llvm-strings
 
-> Te polecenie jest aliasem `strings`.
+> To polecenie jest aliasem `strings`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr strings`

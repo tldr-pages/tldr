@@ -14,3 +14,11 @@
 - Saring informasi log berdasarkan sintaks ekspresi reguler (regex) tertentu:
 
 `logcat --regex {{regular_expression}}`
+
+- Tampilkan log untuk nomor induk (PID) program yang sedang dijalankan:
+
+`logcat --pid={{pid}}`
+
+- Tampilkan log untuk (kemasan) aplikasi yang sedang dijalankan:
+
+`logcat --pid=$(pidof -s {{nama_kemasan_aplikasi}})`

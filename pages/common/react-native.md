@@ -27,10 +27,10 @@
 
 `react-native run-android --variant={{release}}`
 
-- Start `logkitty` and print logs to stdout:
+- Start `logkitty` and print logs to `stdout`:
 
 `react-native log-android`
 
-- Start `tail system.log` for an iOS simulator and print logs to stdout:
+- Start `tail system.log` for an iOS simulator and print logs to `stdout`:
 
 `react-native log-ios`

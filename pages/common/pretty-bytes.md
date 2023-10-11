@@ -7,7 +7,7 @@
 
 `pretty-bytes {{1337}}`
 
-- Convert numeric bytes value from stdin to a human-readable string:
+- Convert numeric bytes value from `stdin` to a human-readable string:
 
 `echo {{1337}} | pretty-bytes`
 

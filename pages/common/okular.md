@@ -1,13 +1,13 @@
 # okular
 
-> A universal document viewer.
-> More information: <https://okular.kde.org/>.
+> View documents.
+> More information: <https://docs.kde.org/stable5/en/okular/okular/command-line-options.html>.
 
-- Launch Okular:
+- Launch document viewer:
 
 `okular`
 
-- Open specific documents in Okular:
+- Open specific documents:
 
 `okular {{path/to/file1 path/to/file2 ...}}`
 
@@ -15,11 +15,11 @@
 
 `okular --page {{page_number}} {{path/to/file}}`
 
-- Open a document in presentation mode:
+- Open a specific document in presentation mode:
 
 `okular --presentation {{path/to/file}}`
 
-- Open a document and start the print dialog:
+- Open a specific document and start a print dialog:
 
 `okular --print {{path/to/file}}`
 

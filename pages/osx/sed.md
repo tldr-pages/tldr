@@ -1,36 +1,25 @@
 # sed
 
 > Edit text in a scriptable manner.
-> More information: <https://ss64.com/osx/sed.html>.
+> See also: `awk`, `ed`.
+> More information: <https://keith.github.io/xcode-man-pages/sed.1.html>.
 
-- Replace the first occurrence of a string in a file, and print the result:
+- Replace all `apple` (basic regex) occurrences with `mango` (basic regex) in all input lines and print the result to `stdout`:
 
-`sed 's/{{find}}/{{replace}}/' {{filename}}`
+`{{command}} | sed 's/apple/mango/g'`
 
-- Replace all occurrences of an extended regular expression in a file:
+- Execute a specific script [f]ile and print the result to `stdout`:
 
-`sed -E 's/{{regular_expression}}/{{replace}}/g' {{filename}}`
+`{{command}} | sed -f {{path/to/script_file.sed}}`
 
-- Replace all occurrences of a string [i]n a file, overwriting the file (i.e. in-place):
+- Replace all `apple` (extended regex) occurrences with `APPLE` (extended regex) in all input lines and print the result to `stdout`:
 
-`sed -i '' 's/{{find}}/{{replace}}/g' {{filename}}`
+`{{command}} | sed -E 's/(apple)/\U\1/g'`
 
-- Replace only on lines matching the line pattern:
+- Print just a first line to `stdout`:
 
-`sed '/{{line_pattern}}/s/{{find}}/{{replace}}/' {{filename}}`
+`{{command}} | sed -n '1p'`
 
-- Print only text between n-th line till the next empty line:
+- Replace all `apple` (basic regex) occurrences with `mango` (basic regex) in a `file` and save a backup of the original to `file.bak`:
 
-`sed -n '{{line_number}},/^$/p' {{filename}}`
-
-- Apply multiple find-replace expressions to a file:
-
-`sed -e 's/{{find}}/{{replace}}/' -e 's/{{find}}/{{replace}}/' {{filename}}`
-
-- Replace separator `/` by any other character not used in the find or replace patterns, e.g. `#`:
-
-`sed 's#{{find}}#{{replace}}#' {{filename}}`
-
-- [d]elete the line at the specific line number [i]n a file, overwriting the file:
-
-`sed -i '' '{{line_number}}d' {{filename}}`
+`sed -i bak 's/apple/mango/g' {{path/to/file}}`

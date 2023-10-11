@@ -31,6 +31,6 @@
 
 `qdbus {{org.kde.kglobalaccel}} {{/component/kmix}} {{invokeShortcut}} "{{increase_volume}}"`
 
-- Display help:
+- Gracefully log out and then do nothing, reboot or shut down:
 
-`qdbus --help`
+`qdbus {{org.kde.Shutdown}} {{/Shutdown}} {{logout|logoutAndReboot|logoutAndShutdown}}`

@@ -5,19 +5,15 @@
 
 - Display all settings for the current terminal:
 
-`stty -a`
+`stty --all`
 
-- Set the number of rows:
+- Set the number of rows or columns:
 
-`stty rows {{rows}}`
-
-- Set the number of columns:
-
-`stty cols {{cols}}`
+`stty {{rows|cols}} {{count}}`
 
 - Get the actual transfer speed of a device:
 
-`stty -F {{path/to/device_file}} speed`
+`stty --file {{path/to/device_file}} speed`
 
 - Reset all modes to reasonable values for the current terminal:
 

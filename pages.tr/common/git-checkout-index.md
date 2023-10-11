@@ -1,7 +1,7 @@
 # git checkout-index
 
 > Dosyaları indeksten çalışma ağacına kopyala.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-checkout-index>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-checkout-index>.
 
 - Son commit'den beri silinen dosyaları geri döndür:
 

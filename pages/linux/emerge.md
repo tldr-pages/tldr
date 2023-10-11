@@ -1,6 +1,7 @@
 # emerge
 
 > Gentoo Linux package manager utility.
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://wiki.gentoo.org/wiki/Portage#emerge>.
 
 - Synchronize all packages:
@@ -17,11 +18,11 @@
 
 - Install a new package, with confirmation:
 
-`emerge -av {{package_name}}`
+`emerge -av {{package}}`
 
 - Remove a package, with confirmation:
 
-`emerge -Cav {{package_name}}`
+`emerge -Cav {{package}}`
 
 - Remove orphaned packages (that were installed only as dependencies):
 

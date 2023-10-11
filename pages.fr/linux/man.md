@@ -1,7 +1,7 @@
 # man
 
 > Interface de consultation des pages du manuel de référence.
-> Plus d'informations : <https://www.man7.org/linux/man-pages/man1/man.1.html>.
+> Plus d'informations : <https://manned.org/man>.
 
 - Affiche la page de manuel d'une commande :
 

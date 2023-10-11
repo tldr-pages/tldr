@@ -9,7 +9,7 @@
 
 - Install a package:
 
-`sudo port install {{package_name}}`
+`sudo port install {{package}}`
 
 - List installed packages:
 

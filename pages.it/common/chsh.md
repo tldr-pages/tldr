@@ -5,4 +5,4 @@
 
 - Cambia shell:
 
-`chsh -s {{percorso/a/eseguibile_della_shell}} {{nome_utente}}`
+`chsh -s {{percorso/dell/eseguibile_della_shell}} {{nome_utente}}`

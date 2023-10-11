@@ -1,6 +1,6 @@
 # kscreen-doctor
 
-> Change and manipulate the screen setup from the command-line.
+> Change and manipulate the screen setup.
 > More information: <https://invent.kde.org/plasma/libkscreen>.
 
 - Show display output information:

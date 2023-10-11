@@ -1,6 +1,6 @@
 # tb
 
-> CLI for managing tasks and notes across multiple boards.
+> Manage tasks and notes across multiple boards.
 > More information: <https://github.com/klaussinani/taskbook>.
 
 - Add a new task to a board:

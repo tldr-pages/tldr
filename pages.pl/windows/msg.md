@@ -1,13 +1,13 @@
 # msg
 
-> Wyślij wiadomość do wybranego użytnownika lub sesji:
+> Wyślij wiadomość do wybranego użytnownika lub sesji.
 > Więcej informacji: <https://learn.microsoft.com/windows-server/administration/windows-commands/msg>.
 
 - Wysyła wiadomość do użytkownika lub sesji:
 
 `msg {{nazwa_użytkownika|nazwa_sesji|identyfikator_sesji}} {{wiadomość}}`
 
-- Wyślij wiadomość ze standardowego wejścia
+- Wyślij wiadomość ze standardowego wejścia:
 
 `echo "{{wiadomość}}" | msg {{nazwa_użytkownika|nazwa_sesji|identyfikator_sesji}}`
 

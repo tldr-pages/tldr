@@ -3,7 +3,7 @@
 > Query the Chrony NTP daemon.
 > More information: <https://chrony.tuxfamily.org/doc/4.0/chronyc.html>.
 
-- Start chronyc in interactive mode:
+- Start `chronyc` in interactive mode:
 
 `chronyc`
 

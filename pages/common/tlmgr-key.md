@@ -11,7 +11,7 @@
 
 `sudo tlmgr key add {{path/to/key.gpg}}`
 
-- Add a key from stdin:
+- Add a key from `stdin`:
 
 `cat {{path/to/key.gpg}} | sudo tlmgr key add -`
 

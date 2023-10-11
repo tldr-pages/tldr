@@ -29,8 +29,8 @@
 
 - Confronta le versioni di un dato file tra due rami o commit:
 
-`git diff {{ramo_1}}..{{ramo_2}} [--] {{percorso/al/file}}`
+`git diff {{ramo_1}}..{{ramo_2}} [--] {{percorso/del/file}}`
 
 - Confronta le versioni di più file tra il ramo corrente e un altro ramo:
 
-`git diff {{ramo}}:{{percorso/al/file2}} {{percorso/al/file}}`
+`git diff {{ramo}}:{{percorso/del/file2}} {{percorso/del/file}}`

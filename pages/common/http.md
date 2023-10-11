@@ -27,6 +27,6 @@
 
 `http --auth {{username:password}} {{example.org}}`
 
-- Specify raw request body via stdin:
+- Specify raw request body via `stdin`:
 
 `cat {{data.txt}} | http PUT {{example.org}}`

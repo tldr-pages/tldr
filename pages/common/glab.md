@@ -1,6 +1,6 @@
 # glab
 
-> Work seamlessly with GitLab from the command-line.
+> Work seamlessly with GitLab.
 > Some subcommands such as `glab config` have their own usage documentation.
 > More information: <https://github.com/profclems/glab>.
 

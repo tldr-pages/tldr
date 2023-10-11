@@ -25,7 +25,7 @@
 
 - Specify a timeout in seconds to wait before shutting down:
 
-`shutdown /s /t {{seconds}}`
+`shutdown /s /t {{8}}`
 
 - Abort a shutdown sequence whose timeout is yet to expire:
 

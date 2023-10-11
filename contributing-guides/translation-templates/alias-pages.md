@@ -11,6 +11,7 @@ The templates can be changed when necessary.
 [bn](#bn) •
 [bs](#bs) •
 [ca](#ca) •
+[cs](#cs) •
 [da](#da) •
 [de](#de) •
 [es](#es) •
@@ -21,6 +22,7 @@ The templates can be changed when necessary.
 [it](#it) •
 [ja](#ja) •
 [ko](#ko) •
+[lo](#lo) •
 [ml](#ml) •
 [ne](#ne) •
 [nl](#nl) •
@@ -42,6 +44,7 @@ The templates can be changed when necessary.
 [zh_TW](#zh_tw)
 
 ---
+
 ### en
 
 ```markdown
@@ -55,6 +58,7 @@ The templates can be changed when necessary.
 ```
 
 ---
+
 ### ar
 
 ```markdown
@@ -68,11 +72,13 @@ The templates can be changed when necessary.
 ```
 
 ---
+
 ### bn
 
 Not translated yet.
 
 ---
+
 ### bs
 
 ```markdown
@@ -86,6 +92,7 @@ Not translated yet.
 ```
 
 ---
+
 ### ca
 
 ```markdown
@@ -99,11 +106,35 @@ Not translated yet.
 ```
 
 ---
-### da
 
-Not translated yet.
+### cs
+
+```markdown
+# example
+
+> Tento příkaz je aliasem pro `example`.
+
+- Podívejte se na dokumentaci původního příkazu:
+
+`tldr example`
+```
 
 ---
+
+### da
+
+```markdown
+# example
+
+> Denne kommando er et alias af `example`.
+
+- Se dokumentation for den oprindelige kommando:
+
+`tldr example`
+```
+
+---
+
 ### de
 
 ```markdown
@@ -117,6 +148,7 @@ Not translated yet.
 ```
 
 ---
+
 ### es
 
 ```markdown
@@ -130,11 +162,21 @@ Not translated yet.
 ```
 
 ---
+
 ### fa
 
-Not translated yet.
+```markdown
+# example
+
+> این دستور یک نام مستعار از `example` است.
+
+- مشاهده مستندات دستور اصلی :
+
+`tldr example`
+```
 
 ---
+
 ### fr
 
 ```markdown
@@ -148,6 +190,7 @@ Not translated yet.
 ```
 
 ---
+
 ### hi
 
 ```markdown
@@ -161,6 +204,7 @@ Not translated yet.
 ```
 
 ---
+
 ### id
 
 ```markdown
@@ -174,6 +218,7 @@ Not translated yet.
 ```
 
 ---
+
 ### it
 
 ```markdown
@@ -187,12 +232,13 @@ Not translated yet.
 ```
 
 ---
+
 ### ja
 
 ```markdown
 # example
 
-> このコマンドは `example` のエイリアスです.
+> このコマンドは `example` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 
@@ -200,6 +246,7 @@ Not translated yet.
 ```
 
 ---
+
 ### ko
 
 ```markdown
@@ -213,6 +260,21 @@ Not translated yet.
 ```
 
 ---
+
+### lo
+
+```markdown
+# example
+
+> ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `example`.
+
+- ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
+
+`tldr example`
+```
+
+---
+
 ### ml
 
 ```markdown
@@ -226,6 +288,7 @@ Not translated yet.
 ```
 
 ---
+
 ### ne
 
 ```markdown
@@ -239,6 +302,7 @@ Not translated yet.
 ```
 
 ---
+
 ### nl
 
 ```markdown
@@ -252,6 +316,7 @@ Not translated yet.
 ```
 
 ---
+
 ### no
 
 ```markdown
@@ -265,6 +330,7 @@ Not translated yet.
 ```
 
 ---
+
 ### pl
 
 ```markdown
@@ -272,12 +338,13 @@ Not translated yet.
 
 > To polecenie jest aliasem `example`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr example`
 ```
 
 ---
+
 ### pt_BR
 
 ```markdown
@@ -291,6 +358,7 @@ Not translated yet.
 ```
 
 ---
+
 ### pt_PT
 
 ```markdown
@@ -304,11 +372,13 @@ Not translated yet.
 ```
 
 ---
+
 ### ro
 
 Not translated yet.
 
 ---
+
 ### ru
 
 ```markdown
@@ -322,16 +392,19 @@ Not translated yet.
 ```
 
 ---
+
 ### sh
 
 Not translated yet.
 
 ---
+
 ### sr
 
 Not translated yet.
 
 ---
+
 ### sv
 
 ```markdown
@@ -345,6 +418,7 @@ Not translated yet.
 ```
 
 ---
+
 ### ta
 
 ```markdown
@@ -358,12 +432,13 @@ Not translated yet.
 ```
 
 ---
+
 ### th
 
 ```markdown
 # example
 
-> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `example`.
+> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `example`
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
@@ -371,6 +446,7 @@ Not translated yet.
 ```
 
 ---
+
 ### tr
 
 ```markdown
@@ -384,6 +460,7 @@ Not translated yet.
 ```
 
 ---
+
 ### uk
 
 ```markdown
@@ -397,11 +474,13 @@ Not translated yet.
 ```
 
 ---
+
 ### uz
 
 Not translated yet.
 
 ---
+
 ### zh
 
 ```markdown
@@ -415,6 +494,7 @@ Not translated yet.
 ```
 
 ---
+
 ### zh_TW
 
 ```markdown

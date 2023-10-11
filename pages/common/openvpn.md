@@ -17,7 +17,7 @@
 
 - Create a cryptographic key and save it to file:
 
-`openvpn --genkey --secret {{path/to/key}}`
+`openvpn --genkey secret {{path/to/key}}`
 
 - Try to set up a peer-to-peer tunnel on bob.example.com host with a static key:
 

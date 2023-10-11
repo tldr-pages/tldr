@@ -2,11 +2,11 @@
 
  Diese Seite listet alle Regeln für `tldr`-Seiten auf.
 
- ## Layout
+## Layout
 
  Eine Standard-`tldr`-Seite sollte dem folgenden Format entsprechen:
 
- ```
+```md
  # befehl
 
  > Kurze Beschreibung.
@@ -26,21 +26,21 @@
  Er wird automatisch bei jeder Pull Request ausgeführt,
  er kann aber auch manuell installiert werden, um seine Seiten schon vorher zu überprüfen:
 
- ```
+```sh
  npm install --global tldr-lint
  tldr-lint {{seite.md}}
- ```
+```
 
  Für andere Optionen von `tldr-lint`, wie zum Beispiel das Linten eines ganzen Verzeichnisses:
  [`tldr tldr-lint`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldr-lint.md). Alternativ, kann man auch den Alias `tldrl` verwenden.
 
  Viele Clients unterstützen die `--render` Flag zum Anzeigen einer Seite:
 
- ```
+```sh
  tldr --render {{seite.md}}
- ```
+```
 
- ## Token-Syntax
+## Token-Syntax
 
  Eingaben der Nutzer\*innen sollten die `{{Token}}`-Syntax benutzen,
  damit `tldr`-Clients sie hervorheben können.
@@ -77,15 +77,16 @@
  2. Dateiendungen, wie `.dll`.
  3. Befehle, wie `ls`.
 
- ## Serial Comma
+## Serial Comma
 
  Benutze für eine Liste von 3 oder mehr Elementen ein [serial comma](https://en.wikipedia.org/wiki/Serial_comma), um Mehrdeutigkeiten zu verhindern.
 
  > Delete the Git branches, tags and remotes.
 
  Das obige Beispiel nutzt kein serial comma und ist somit mehrdeutig:
- * Lösche die Git Branches namens `tags` und `remotes`.
- * Lösche die Git Branches und die Git Tags und die Git Remotes.
+
+- Lösche die Git Branches namens `tags` und `remotes`.
+- Lösche die Git Branches und die Git Tags und die Git Remotes.
 
  Dies kann durch ein Komma vor "and" oder "or" gelöst werden.
 

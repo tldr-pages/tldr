@@ -2,7 +2,7 @@
 
 > NetworkManager'ı denetlemek için metin tabanlı kullanıcı arayüzü.
 > Gezinmek için ok tuşlarını, seçmek için Enter tuşunu kullanın.
-> Daha fazla bilgi: <https://networkmanager.dev/docs/api/latest/nmtui.html>.
+> Daha fazla bilgi için: <https://networkmanager.dev/docs/api/latest/nmtui.html>.
 
 - Kullanıcı arayüzünü aç:
 

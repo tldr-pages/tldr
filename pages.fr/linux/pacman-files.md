@@ -1,12 +1,8 @@
 # pacman --files
 
 > Interagis avec les bases de données de fichiers.
-> Voir aussi `pkgfile`.
+> Voir aussi: `pacman`, `pkgfile`.
 > Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
-
-- Affiche l'aide :
-
-`pacman --files --help`
 
 - Mets à jour les bases de données des fichiers :
 
@@ -27,3 +23,7 @@
 - Liste les fichiers contenus dans un paquet :
 
 `pacman --files --list {{paquet}}`
+
+- Affiche l'aide :
+
+`pacman --files --help`

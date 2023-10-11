@@ -25,4 +25,4 @@
 
 - Send mail with an attachment:
 
-`mailx -a {{file}} -s "{{subject}}" {{to_addr}}`
+`mailx -a {{path/to/file}} -s "{{subject}}" {{to_addr}}`

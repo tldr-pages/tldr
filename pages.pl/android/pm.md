@@ -11,7 +11,7 @@
 
 `pm list packages -s`
 
-- Listuj wszystkie zainstalowane aplikacje firm trzecich
+- Listuj wszystkie zainstalowane aplikacje firm trzecich:
 
 `pm list packages -3`
 

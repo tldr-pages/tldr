@@ -23,7 +23,7 @@
 
 `aptitude remove {{paquete}}`
 
-- Actualiza todos los paquetes sus nuevas versiones disponibles:
+- Actualiza todos los paquetes a sus nuevas versiones disponibles:
 
 `aptitude upgrade`
 

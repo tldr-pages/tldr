@@ -3,21 +3,21 @@
 > Execute binaries from `npm` packages.
 > More information: <https://github.com/npm/npx>.
 
-- Execute the binary from a given npm module:
+- Execute the command from a local or remote `npm` package:
 
-`npx {{module_name}} {{command_arguments}}`
+`npx {{command}} {{argument1 argument2 ...}}`
 
-- In case a package has multiple binaries, specify the package name along with the binary:
+- In case multiple commands with the same name exist, it is possible to explicitly specify the package:
 
-`npx --package {{package_name}} {{module_name}}`
+`npx --package {{package}} {{command}}`
 
 - Run a command if it exists in the current path or in `node_modules/.bin`:
 
-`npx --no-install {{command}} {{command_arguments}}`
+`npx --no-install {{command}} {{argument1 argument2 ...}}`
 
-- Execute the binary from a given npm module suppressing any output from `npx` itself:
+- Execute a specific command suppressing any output from `npx` itself:
 
-`npx --quiet {{module_name}} {{command_arguments}}`
+`npx --quiet {{command}} {{argument1 argument2 ...}}`
 
 - Display help:
 

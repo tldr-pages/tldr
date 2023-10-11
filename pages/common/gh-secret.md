@@ -1,6 +1,6 @@
 # gh secret
 
-> Manage GitHub secrets from the command-line.
+> Manage GitHub secrets.
 > More information: <https://cli.github.com/manual/gh_secret>.
 
 - List secret keys for the current repository:

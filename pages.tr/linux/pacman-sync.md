@@ -1,13 +1,14 @@
 # pacman --sync
 
 > Arch Linux paket yönetim aracı.
-> Daha fazla bilgi: <https://man.archlinux.org/man/pacman.8>.
+> Ayrıca bakınız: `pacman`.
+> Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
 
-- Yeni bir paket indir::
+- Yeni bir paket indir:
 
 `sudo pacman --sync {{paket_ismi}}`
 
-- Tüm paketleri senkronize et ve güncelle (bahsi geçen paketleri güncellemeden indirmek için `--downloadonly` eki gereklidir)
+- Tüm paketleri senkronize et ve güncelle (bahsi geçen paketleri güncellemeden indirmek için `--downloadonly` eki gereklidir):
 
 `sudo pacman --sync --refresh --sysupgrade`
 

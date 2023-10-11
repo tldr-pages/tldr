@@ -1,12 +1,20 @@
 # head
 
 > Output the first part of files.
-> More information: <https://ss64.com/osx/head.html>.
+> More information: <https://keith.github.io/xcode-man-pages/head.1.html>.
 
 - Output the first few lines of a file:
 
-`head -n {{count_of_lines}} {{filename}}`
+`head --lines {{8}} {{path/to/file}}`
 
 - Output the first few bytes of a file:
 
-`head -c {{number_in_bytes}} {{filename}}`
+`head --bytes {{8}} {{path/to/file}}`
+
+- Output everything but the last few lines of a file:
+
+`head --lines -{{8}} {{path/to/file}}`
+
+- Output everything but the last few bytes of a file:
+
+`head --bytes -{{8}} {{path/to/file}}`

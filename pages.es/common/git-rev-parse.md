@@ -1,6 +1,6 @@
 # git rev-parse
 
-> Muestra metados relativos a revisiones específicas.
+> Muestra metadatos relativos a revisiones específicas.
 > Más información: <https://git-scm.com/docs/git-rev-parse>.
 
 - Obtiene el hash del commit de una rama:

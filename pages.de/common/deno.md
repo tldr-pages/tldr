@@ -1,7 +1,7 @@
 # deno
 
 > Eine sichere JavaScript- und TypeScript-Laufzeit.
-> Weitere Informationen: <https://deno.land/>.
+> Weitere Informationen: <https://deno.land>.
 
 - Führe eine JavaScript oder TypeScript Datei aus:
 

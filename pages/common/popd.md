@@ -15,3 +15,7 @@
 - Remove the Nth directory (starting from zero to the right from the list printed with `dirs`):
 
 `popd -N`
+
+- Remove the 1st directory (starting from zero to the left from the list printed with `dirs`):
+
+`popd -n`

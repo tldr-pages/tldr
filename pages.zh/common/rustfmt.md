@@ -5,12 +5,12 @@
 
 - 格式化文件，就地覆盖原始文件：
 
-`rustfmt {{source.rs}}`
+`rustfmt {{路径/到/源文件.rs}}`
 
 - 检查文件的格式并在控制台上显示所有更改：
 
-`rustfmt --check {{source.rs}}`
+`rustfmt --check {{路径/到/源文件.rs}}`
 
 - 格式化之前，备份所有修改过的文件（原始文件的扩展名为 `.bk`）：
 
-`rustfmt --backup {{source.rs}}`
+`rustfmt --backup {{路径/到/源文件.rs}}`

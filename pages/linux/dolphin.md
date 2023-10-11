@@ -1,29 +1,29 @@
 # dolphin
 
-> KDE file manager.
+> KDE's file manager to manage files and directories.
 > More information: <https://apps.kde.org/dolphin/>.
 
-- Launch Dolphin:
+- Launch the file manager:
 
 `dolphin`
 
-- Launch Dolphin and display a specific directory:
+- Open specific directories:
 
-`dolphin {{path/to/directory}}`
+`dolphin {{path/to/directory1 path/to/directory2 ...}}`
 
-- Launch Dolphin with a specific file or directory selected:
+- Open with specific files or directories selected:
 
-`dolphin --select {{path/to/file_or_directory}}`
+`dolphin --select {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Launch Dolphin in a separated window:
+- Open a new window:
 
 `dolphin --new-window`
 
-- Launch Dolphin in split view:
+- Open specific directories in split view:
 
-`dolphin --split`
+`dolphin --split {{path/to/directory1}} {{path/to/directory2}}`
 
-- Start the Dolphin daemon (only required to use the DBus interface):
+- Launch the daemon (only required to use the DBus interface):
 
 `dolphin --daemon`
 

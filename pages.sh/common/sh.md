@@ -16,6 +16,6 @@
 
 `sh {{datoteka.sh}}`
 
-- Pokreni komande iz stdin-a:
+- Pokreni komande iz `stdin`-a:
 
 `sh -s`

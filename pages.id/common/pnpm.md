@@ -2,7 +2,7 @@
 
 > Manajer paket JavaScript dan Node.js yang cepat dan efisien.
 > Mengelola proyek Node.js dan dependensi modulnya.
-> Informasi lebih lanjut:: <https://pnpm.io>.
+> Informasi lebih lanjut: <https://pnpm.io>.
 
 - Buat file `package.json` file:
 

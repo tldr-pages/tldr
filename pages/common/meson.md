@@ -1,6 +1,6 @@
 # meson
 
-> SCons-like build system that uses python as a front-end language and Ninja as a building backend.
+> SCons-like build system that uses Python as a front-end language and Ninja as a building backend.
 > More information: <https://mesonbuild.com>.
 
 - Generate a C project with a given name and version:

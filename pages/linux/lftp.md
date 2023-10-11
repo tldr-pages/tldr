@@ -5,7 +5,7 @@
 
 - Connect to an FTP server:
 
-`lftp {{ftp.example.com}}`
+`lftp --user {{username}} {{ftp.example.com}}`
 
 - Download multiple files (glob expression):
 

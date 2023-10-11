@@ -3,7 +3,7 @@
 > APK ファイルの解析ツールです。
 > 詳しくはこちら: <https://ibotpeaches.github.io/Apktool/>
 
-- APK ファイルのデコード
+- APK ファイルのデコード:
 
 `apktool d {{APK ファイルのパス}}`
 

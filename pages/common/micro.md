@@ -6,7 +6,7 @@
 
 - Open a file:
 
-`micro {{file}}`
+`micro {{path/to/file}}`
 
 - Save a file:
 

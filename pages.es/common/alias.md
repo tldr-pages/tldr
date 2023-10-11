@@ -1,6 +1,6 @@
 # alias
 
-> Crea alias -- palabras que son remplazadas por una cadena de comando(s).
+> Crea alias -- palabras que son reemplazadas por una cadena de comando(s).
 > Los alias son temporales en la sesión de shell actual, a no ser que estén definidos en el archivo de configuración de la shell, ej. `~/.bashrc`.
 > Más información: <https://tldp.org/LDP/abs/html/aliases.html>.
 

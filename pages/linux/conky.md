@@ -21,7 +21,7 @@
 
 - Align Conky on the desktop:
 
-`conky -a {{{top,bottom,middle}_{left,right,middle}}}`
+`conky -a {{top|bottom|middle}}_{{left|right|middle}}`
 
 - Pause for 5 seconds at startup before launching:
 

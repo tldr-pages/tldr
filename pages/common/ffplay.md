@@ -7,6 +7,14 @@
 
 `ffplay {{path/to/file}}`
 
+- Play audio from a media file without a GUI:
+
+`ffplay -nodisp {{path/to/file}}`
+
+- Play media passed by `ffmpeg` through `stdin`:
+
+`ffmpeg -i {{path/to/file}} -c {{copy}} -f {{media_format}} - | ffplay -`
+
 - Play a video and show motion vectors in real time:
 
 `ffplay -flags2 +export_mvs -vf codecview=mv=pf+bf+bb {{path/to/file}}`

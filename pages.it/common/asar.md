@@ -3,9 +3,9 @@
 > Gestore di archivi per la piattaforma Electron.
 > Maggiori informazioni: <https://github.com/electron/asar>.
 
-- Archivia un file o una cartella:
+- Archivia un file o una directory:
 
-`asar pack {{percorso/al/file}} {{archivio.asar}}`
+`asar pack {{percorso/del/file}} {{archivio.asar}}`
 
 - Estrai un archivio:
 

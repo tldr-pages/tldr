@@ -2,7 +2,7 @@
 
 > Belirtilen söz dizisini bir deponun geçmişi dahil tüm dosyalarında ara.
 > Sıradan `grep` komutundaki birçok ek bu komut için de aynen geçerlidir.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-grep>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-grep>.
 
 - İzlenen dosyalarda belirtilen söz dizisini ara:
 

@@ -14,4 +14,4 @@
 
 - Esegui comandi contenuti in un dato file il prossimo martedì alle 9:30 di sera:
 
-`at -f {{percorso/al/file}} 9:30 PM Tue`
+`at -f {{percorso/del/file}} 9:30 PM Tue`

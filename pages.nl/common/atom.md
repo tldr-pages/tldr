@@ -20,7 +20,7 @@
 
 `atom --safe`
 
-- Voorkom dat Atom zich vertakt in de achtergrond, en houdt Atom in de terminal
+- Voorkom dat Atom zich vertakt in de achtergrond, en houdt Atom in de terminal:
 
 `atom --foreground`
 

@@ -23,7 +23,7 @@
 
 `cmd /e:{{on|off}}`
 
-- Abilita o disabilita l'autocompletamento dei nomi di file e cartelle:
+- Abilita o disabilita l'autocompletamento dei nomi di file e directory:
 
 `cmd /f:{{on|off}}`
 

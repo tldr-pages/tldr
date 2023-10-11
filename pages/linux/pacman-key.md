@@ -1,13 +1,14 @@
 # pacman-key
 
 > Wrapper script for GnuPG used to manage pacman's keyring.
+> See also: `pacman`.
 > More information: <https://man.archlinux.org/man/pacman-key>.
 
 - Initialize the pacman keyring:
 
 `sudo pacman-key --init`
 
-- Add the default ArchLinux keys:
+- Add the default Arch Linux keys:
 
 `sudo pacman-key --populate {{archlinux}}`
 

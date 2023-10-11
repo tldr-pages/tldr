@@ -31,6 +31,6 @@
 
 `grep --only-matching "{{padrão_pesquisado}}" {{caminho/para/arquivo}}`
 
-- Pesquisa stdin para linhas que não correspondem a um padrão:
+- Pesquisa `stdin` para linhas que não correspondem a um padrão:
 
 `cat {{caminho/para/arquivo}} | grep --invert-match "{{padrão_pesquisado}}"`

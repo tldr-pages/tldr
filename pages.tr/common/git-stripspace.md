@@ -1,7 +1,7 @@
 # git stripspace
 
 > Gereksiz boşlukları sil.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-stripspace>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-stripspace>.
 
 - Gereksiz boşlukları dosyadan kırp:
 

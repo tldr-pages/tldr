@@ -24,7 +24,7 @@
 
 `bash -e {{pfad/zu/datei.sh}}`
 
-- Führe Befehle von stdin aus:
+- Führe Befehle von `stdin` aus:
 
 `bash -s`
 

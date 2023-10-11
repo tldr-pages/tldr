@@ -1,7 +1,7 @@
 # git rev-parse
 
 > Belirtilen sürümler için metaveri görüntüle.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-rev-parse>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-rev-parse>.
 
 - Bir dalın commit verisini göster:
 

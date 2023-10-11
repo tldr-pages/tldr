@@ -13,4 +13,4 @@
 
 - Mostra il file system ed contenente il file o directory dato ed il suo utilizzo del disco:
 
-`df {{percorso/a/file_o_directory}}`
+`df {{percorso/del/file_o_directory}}`

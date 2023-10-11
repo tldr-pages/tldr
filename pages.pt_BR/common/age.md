@@ -7,7 +7,7 @@
 
 `age --passphrase --output {{caminho/para/arquivo_criptografado}} {{caminho/para/arquivo_descriptografado}}`
 
-- Gera um par de chaves, salvando a chave privada em um arquivo não criptografado e imprimindo a chave pública para stdout:
+- Gera um par de chaves, salvando a chave privada em um arquivo não criptografado e imprimindo a chave pública para `stdout`:
 
 `age-keygen --output {{caminho/para/arquivo}}`
 

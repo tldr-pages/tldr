@@ -27,6 +27,6 @@
 
 `getprop {{ro.oem_unlock_supported}}`
 
-- Wyświetl adres MAC karty Wi-Fi systemu Android
+- Wyświetl adres MAC karty Wi-Fi systemu Android:
 
 `getprop {{ro.boot.wifimacaddr}}`

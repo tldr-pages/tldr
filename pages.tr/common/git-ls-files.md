@@ -1,7 +1,7 @@
 # git ls-files
 
 > İndex ve mevcut ağaçtaki dosyalar hakkında bilgi göster.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-ls-files>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-ls-files>.
 
 - Silinen dosyaları göster:
 

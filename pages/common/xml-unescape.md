@@ -7,9 +7,9 @@
 
 `xml unescape "{{&lt;a1&gt;}}"`
 
-- Unescape special XML characters from stdin:
+- Unescape special XML characters from `stdin`:
 
-`echo  "{{&lt;a1&gt;}}" | xml unescape`
+`echo "{{&lt;a1&gt;}}" | xml unescape`
 
 - Display help for the `unescape` subcommand:
 

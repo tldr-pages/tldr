@@ -3,7 +3,7 @@
 > Graphical diffing and merging tool.
 > More information: <https://meldmerge.org/>.
 
-- Start meld:
+- Start `meld`:
 
 `meld`
 

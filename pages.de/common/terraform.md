@@ -19,7 +19,7 @@
 
 `terraform plan`
 
-- Infrastruktur aufbauen oder ändern
+- Infrastruktur aufbauen oder ändern:
 
 `terraform apply`
 

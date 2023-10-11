@@ -18,4 +18,4 @@
 
 - Esegui una applicazione dotnet pacchettizzata (solo il runtime è necessario, il resto dei comandi richiedono .NET Core SDK):
 
-`dotnet {{percorso/a/applicazione.dll}}`
+`dotnet {{percorso/della/applicazione.dll}}`

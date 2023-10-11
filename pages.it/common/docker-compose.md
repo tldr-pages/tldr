@@ -9,7 +9,7 @@
 
 - Crea ed avvia tutti i container in background utilizzando il file `docker-compose.yml` nella directory corrente:
 
-`docker compose up -d`
+`docker compose up --detach`
 
 - Avvia tutti i container, buildandoli di nuovo se necessario:
 
@@ -17,7 +17,7 @@
 
 - Avvia tutti i container utilizzando un file compose alternativo:
 
-`docker compose --file {{percorso/a/file}} up`
+`docker compose --file {{percorso/del/file}} up`
 
 - Ferma tutti i container in esecuzione:
 

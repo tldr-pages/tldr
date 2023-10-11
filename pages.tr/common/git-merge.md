@@ -1,7 +1,7 @@
 # git merge
 
 > Dalları birleştir.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-merge>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-merge>.
 
 - Mevcut dal ile belirtilen dalı birleştir:
 

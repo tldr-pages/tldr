@@ -24,6 +24,6 @@
 
 `dumpsys --skip {{service}}`
 
-- Spécifie un temps limite en secondes (10s par défault) :
+- Spécifie un temps limite en secondes (10s par défaut) :
 
 `dumpsys -t {{seconds}}`

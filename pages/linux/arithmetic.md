@@ -1,7 +1,7 @@
 # arithmetic
 
 > Quiz on simple arithmetic problems.
-> More information: <https://manpages.debian.org/bsdgames/arithmetic.6.en.html>.
+> More information: <https://manpages.debian.org/latest/bsdgames/arithmetic.6.en.html>.
 
 - Start an arithmetic quiz:
 

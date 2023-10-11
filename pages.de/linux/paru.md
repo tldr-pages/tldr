@@ -19,7 +19,7 @@
 
 `paru -Si {{paketname}}`
 
-- Herunterladen von `PKGBUILD` und anderen Paket-Quelldateien aus dem AUR oder dem ABS
+- Herunterladen von `PKGBUILD` und anderen Paket-Quelldateien aus dem AUR oder dem ABS:
 
 `paru --getpkgbuild {{paketname}}`
 

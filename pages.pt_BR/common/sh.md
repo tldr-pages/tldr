@@ -16,6 +16,6 @@
 
 `sh {{caminho/para/script.sh}}`
 
-- Leia e execute comandos da entrada stdin (entrada padrão):
+- Leia e execute comandos da entrada `stdin` (entrada padrão):
 
 `sh -s`

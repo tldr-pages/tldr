@@ -4,9 +4,9 @@
 > Certaines commandes comme `amass db` ont leur propre documentation.
 > Plus d'informations : <https://github.com/OWASP/Amass>.
 
-- Affiche la version de Amass :
+- Exécute une sous-commande Amass :
 
-`amass -version`
+`amass {{sous_commande}}`
 
 - Affiche l'aide général :
 
@@ -16,6 +16,6 @@
 
 `amass -help {{sous_commande}}`
 
-- Exécute une sous-commande Amass :
+- Affiche la version :
 
-`amass {{sous_commande}}`
+`amass -version`

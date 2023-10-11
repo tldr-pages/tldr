@@ -1,6 +1,6 @@
 # git pull
 
-> Tarik cabang dari repositori remote and menggabungkan ke repositori lokal
+> Tarik cabang dari repositori remote and menggabungkan ke repositori lokal.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-pull>.
 
 - Unduh perubahan dari bawaan repositori remote dan menggabungkannya:

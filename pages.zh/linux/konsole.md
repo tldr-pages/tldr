@@ -1,7 +1,7 @@
 # konsole
 
 > Konsole: KDE 终端模拟器。
-> 更多信息：<https://konsole.kde.org>.
+> 更多信息：<https://docs.kde.org/trunk5/en/konsole/konsole/command-line-options.html>.
 
 - 在特定目录中打开一个新的 Konsole：
 

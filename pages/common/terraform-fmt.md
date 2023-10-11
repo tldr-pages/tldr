@@ -15,6 +15,6 @@
 
 `terraform fmt -diff`
 
-- Do not list files that were formatted to stdout:
+- Do not list files that were formatted to `stdout`:
 
 `terraform fmt -list=false`

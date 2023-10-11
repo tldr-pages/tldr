@@ -1,6 +1,6 @@
 # bash
 
-> Bourne-Again SHell. 一個與 `sh` 兼容的命令列。
+> Bourne-Again SHell. 一個與 `sh` 相容的命令列。
 > 參照 `histexpand` 以使用 history expansion 特性。
 > 更多資訊：<https://gnu.org/software/bash/>.
 
@@ -24,7 +24,7 @@
 
 `bash -e {{sh檔}}`
 
-- 從標準輸入 (stdin) 讀取並執行指令：
+- 從標準輸入 (`stdin`) 讀取並執行指令：
 
 `bash -s`
 

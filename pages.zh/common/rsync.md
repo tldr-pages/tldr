@@ -1,7 +1,7 @@
 # rsync
 
 > 一种快速，通用，远程（和本地）文件复制工具。
-> 更多信息：<https://manned.org/rsync>.
+> 更多信息：<https://download.samba.org/pub/rsync/rsync.1>.
 
 - 从本地传输文件到远程主机：
 

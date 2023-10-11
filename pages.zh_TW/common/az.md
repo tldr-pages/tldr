@@ -2,7 +2,7 @@
 
 > Microsoft Azure 的官方客戶端工具。
 > 此命令也有關於其子命令的文件，例如：`az login`.
-> 更多資訊：<https://learn.microsoft.com/cli/azure/>.
+> 更多資訊：<https://learn.microsoft.com/cli/azure>.
 
 - 登錄到 Azure：
 

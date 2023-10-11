@@ -15,6 +15,6 @@
 
 `docker login --username {{username}} --password {{password}} {{server}}`
 
-- Log into a registry with password from stdin:
+- Log into a registry with password from `stdin`:
 
 `echo "{{password}}" | docker login --username {{username}} --password-stdin`

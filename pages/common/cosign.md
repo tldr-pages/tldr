@@ -17,7 +17,7 @@
 
 - Sign a blob with a local key pair file:
 
-`cosign sign-blob --key {{cosign.key}} {{file}}`
+`cosign sign-blob --key {{cosign.key}} {{path/to/file}}`
 
 - Verify a container against a public key:
 

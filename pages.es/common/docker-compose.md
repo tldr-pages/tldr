@@ -9,15 +9,15 @@
 
 - Crea e inicia todos los contenedores en segundo plano usando el archivo `docker-compose.yml` en el directorio actual:
 
-`docker compose up -d`
+`docker compose up --detach`
 
 - Inicia todos los contenedores y reconstruye si es ncesario:
 
 `docker compose up --build`
 
-- Inicia todos los contenedores usando un archivo compose alternativo:
+- Inicia todos los contenedores especificando un nombre de proyecto y usando un archivo compose alternativo:
 
-`docker compose --file {{ruta/al/directorio}} up`
+`docker compose  -p {{nombre_de_proyecto}} --file {{ruta/al/directorio}} up`
 
 - Detiene todos los contenedores en ejecución:
 

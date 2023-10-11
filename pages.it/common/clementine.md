@@ -9,7 +9,7 @@
 
 - Avvia la riproduzione di un file musicale:
 
-`clementine {{URL|percorso/a/file}}`
+`clementine {{URL|percorso/del/file}}`
 
 - Pausa o riprendi la riproduzione:
 
@@ -29,7 +29,7 @@
 
 - Carica un file playlist:
 
-`clementine --load {{percorso/a/file_playlist}}`
+`clementine --load {{percorso/del/file_playlist}}`
 
 - Riproduci la quinta traccia nella playlist attualmente caricata:
 

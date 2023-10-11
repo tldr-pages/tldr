@@ -19,10 +19,10 @@
 
 `mosquitto_pub -t {{sensors/temperature}} -f {{data.txt}}`
 
-- Send the contents of a file (`data.txt`), by reading from stdin and send the entire input as a message and publish it to `sensors/temperature` topic:
+- Send the contents of a file (`data.txt`), by reading from `stdin` and send the entire input as a message and publish it to `sensors/temperature` topic:
 
 `mosquitto_pub -t {{sensors/temperature}} -s < {{data.txt}}`
 
-- Read newline delimited data from stdin as a message and publish it to `sensors/temperature` topic:
+- Read newline delimited data from `stdin` as a message and publish it to `sensors/temperature` topic:
 
 `{{echo data.txt}} | mosquitto_pub -t {{sensors/temperature}} -l`

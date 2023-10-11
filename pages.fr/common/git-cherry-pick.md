@@ -18,4 +18,4 @@
 
 - Appliquer les changements d'un commit à la branche courante sans créer de commit :
 
-`git cherry-pick -n {{commit}}`
+`git cherry-pick --no-commit {{commit}}`

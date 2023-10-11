@@ -24,7 +24,7 @@
 
 `bash -e {{caminho/para/script.sh}}`
 
-- Ler e executar comandos do stdin (entrada padrão):
+- Ler e executar comandos do `stdin` (entrada padrão):
 
 `bash -s`
 

@@ -8,7 +8,7 @@
 
 `git prune --dry-run`
 
-- Prune unreachable objects and display what has been pruned to stdout:
+- Prune unreachable objects and display what has been pruned to `stdout`:
 
 `git prune --verbose`
 

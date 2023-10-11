@@ -7,10 +7,6 @@
 
 `arp -a`
 
-- 전체 캐시 삭제:
-
-`sudo arp -a -d`
-
 - 특정 엔트리 삭제:
 
 `arp -d {{address}}`

@@ -1,15 +1,15 @@
 # mount
 
-> Fornisce accesso a un intero filesystem in una cartella specifica.
+> Fornisce accesso a un intero filesystem in una directory specifica.
 > Maggiori informazioni: <https://manned.org/mount.8>.
 
 - Mostra tutti i filesystem montati:
 
 `mount`
 
-- Monta un dispositivo in una cartella:
+- Monta un dispositivo in una directory:
 
-`mount -t {{tipo_di_filesystem}} {{percorso/al/dispositivo}} {{percorso/alla/cartella_desiderata}}`
+`mount -t {{tipo_di_filesystem}} {{percorso/del/dispositivo}} {{percorso/della/directory_desiderata}}`
 
 - Monta un CD-ROM (con il filetypo ISO9660) a `/cdrom` (sola lettura):
 
@@ -23,6 +23,6 @@
 
 `mount {{/my_drive}}`
 
-- Monta una cartella in un'altra cartella:
+- Monta una directory in un'altra directory:
 
-`mount --bind {{percorso/alla/vecchia_cartella}} {{percorso/alla/nuova_cartella}}`
+`mount --bind {{percorso/della/vecchia_directory}} {{percorso/della/nuova_directory}}`

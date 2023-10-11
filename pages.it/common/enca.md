@@ -15,6 +15,6 @@
 
 `enca -L {{linguaggio}} -x {{encoding}} {{file1 file2 ...}}`
 
-- Crea una copia di un file esistente utilizznado un encoding diverso:
+- Crea una copia di un file esistente utilizzando un encoding diverso:
 
 `enca -L {{linguaggio}} -x {{encoding_finale}} < {{file_originale}} > {{nuovo_file}}`

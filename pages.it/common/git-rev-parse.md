@@ -11,6 +11,6 @@
 
 `git rev-parse --abbrev-ref {{HEAD}}`
 
-- Mostra il percorso assoluto della cartella di root:
+- Mostra il percorso assoluto della directory di root:
 
 `git rev-parse --show-toplevel`

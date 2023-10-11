@@ -1,7 +1,7 @@
 # ip address
 
 > IP adresi yönetimi alt komutu.
-> Daha fazla bilgi: <https://manned.org/ip-address>.
+> Daha fazla bilgi için: <https://manned.org/ip-address>.
 
 - Ağ arayüzlerini ve ilişkili IP adreslerini listele:
 

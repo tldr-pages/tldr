@@ -3,7 +3,7 @@
 > Monitor bandwidth usage per process.
 > More information: <https://github.com/raboof/nethogs>.
 
-- Start nethogs as root (default device is eth0):
+- Start NetHogs as root (default device is `eth0`):
 
 `sudo nethogs`
 

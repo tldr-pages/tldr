@@ -9,4 +9,4 @@
 
 - Search for information about multiple keywords:
 
-`whatis {{first_keyword}} {{second_keyword}}`
+`whatis {{keyword1}} {{keyword2}}`

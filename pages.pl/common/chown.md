@@ -3,7 +3,7 @@
 > Zmienia właściciela i grupę właścicieli dla plików i katalogów.
 > Więcej informacji: <https://www.gnu.org/software/coreutils/chown>.
 
-- Zmień  właściciela pliku/katalogu:
+- Zmień właściciela pliku/katalogu:
 
 `chown {{użytkownik}} {{ścieżka/do/pliku_lub_katalogu}}`
 

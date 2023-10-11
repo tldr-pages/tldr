@@ -1,7 +1,7 @@
 # jekyll
 
 > Générateur de site statique simple, adapté aux blogs.
-> Plus d'informations : <https://jekyllrb.com>.
+> Plus d'informations : <https://jekyllrb.com/docs/usage/>.
 
 - Génère un serveur de développement qui tourne en http://localhost:4000/ :
 

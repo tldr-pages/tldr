@@ -8,19 +8,19 @@
 
 `yt-dlp "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Download a video with a defined format. In this case merging the best video format with the best audio format (Default):
+- List the available downloadable formats for a video:
 
-`yt-dlp --format "{{bv*+ba/b}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
+`yt-dlp --list-formats "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Extract audio from videos (required ffmpeg or ffprobe):
+- Download a video with a defined format, in this case the best mp4 video available (default is "bv\*+ba/b"):
+
+`yt-dlp --format "{{bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
+
+- Extract audio from a video (requires ffmpeg or ffprobe):
 
 `yt-dlp --extract-audio "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Specify audio format of extracted audio (best(default), aac, flac, mp3, m4a, opus, vorbis, wav, alac):
-
-`yt-dlp --extract-audio --audio-format {{mp3}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
-
-- Specify audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
+- Specify audio format and audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
 
 `yt-dlp --extract-audio --audio-format {{mp3}} --audio-quality {{0}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 

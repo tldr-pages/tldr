@@ -13,7 +13,7 @@
 
 - Esegui 100 richieste HTTP POST a un dato URL, utilizzando un payload JSON tramite file:
 
-`ab -n {{100}} -T {{application/json}} -p {{percorso/a/file.json}} {{url}}`
+`ab -n {{100}} -T {{application/json}} -p {{percorso/del/file.json}} {{url}}`
 
 - Usa HTTP [K]eep Alive, ovvero esegui richieste multiple in una stessa sessione HTTP:
 

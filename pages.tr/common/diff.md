@@ -1,7 +1,7 @@
 # diff
 
 > Dosyaları ve dizinleri karşılaştırın.
-> Daha fazla bilgi: <https://man7.org/linux/man-pages/man1/diff.1.html>.
+> Daha fazla bilgi için: <https://man7.org/linux/man-pages/man1/diff.1.html>.
 
 - Dosyaları karşılaştır (`eski_dosya`'yı `yeni_dosya`'ya dönüştürmek için yapılan değişiklikleri listeler):
 
