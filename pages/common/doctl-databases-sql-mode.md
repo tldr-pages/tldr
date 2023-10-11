@@ -13,4 +13,4 @@
 
 - Overwrite a MySQL database cluster's SQL modes to the specified modes:
 
-`doctl databases sql-mode set {{database_id}} {{sql_mode_1}} {{sql_mode_x}}`
+`doctl databases sql-mode set {{database_id}} {{sql_mode_1 sql_mode_2 ...}}`
