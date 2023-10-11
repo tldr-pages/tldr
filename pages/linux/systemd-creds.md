@@ -1,0 +1,24 @@
+# systemd-creds
+
+> Lists, shows, encrypts and decrypts service credentials.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemd-creds.html>.
+
+- Encrypt a file and set a specific name:
+
+`systemd-creds encrypt --name={{name}} {{input}} {{output}}`
+
+- Decrypt the file again:
+
+`systemd-creds decrypt {{input}} {{output}}`
+
+- Encrypt some text from `stdin`:
+
+`echo -n {{text}} | systemd-creds encrypt --name={{name}} - {{output}}`
+
+- Encrypt the text and append it to the service file (the credentials will be available in `$CREDENTIALS_DIRECTORY`):
+
+`echo -n {{text}} | systemd-creds encrypt --name={{name}} --pretty - - >> {{service}}`
+
+- Create a credential that is only valid until the given timestamp:
+
+`systemd-creds encrypt --not-after="{{timestamp}}" {{input}} {{output}}`
