@@ -16,11 +16,11 @@
 
 `npm install {{module_name}}@{{version}}`
 
-- Download a package and add it to the list of dev dependencies in `package.json`:
+- Download the latest version of a package and add it to the list of dev dependencies in `package.json`:
 
 `npm install {{module_name}} --save-dev`
 
-- Download a package and install it globally:
+- Download the latest version of a package and install it globally:
 
 `npm install --global {{module_name}}`
 
