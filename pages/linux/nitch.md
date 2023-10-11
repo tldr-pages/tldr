@@ -1,20 +1,20 @@
 # nitch
 
-> Nitch is a small and incredibly fast system fetch written fully.
+> A small and incredibly fast system fetch written fully in Nim.
 > More information: <https://github.com/ssleert/nitch>.
 
-- Return the system information like hostname, kernel, uptime, etc.:
+- Display system information (hostname, kernel, uptime, etc.):
 
 `nitch`
 
-- Fetch the system information:
+- Exactly the same as nitch without arguments:
 
 `nitch -f`
 
-- Display help:
+- Display [h]elp:
 
-`nitch -h`
+`nitch --help`
 
-- Display version:
+- Display [v]ersion:
 
-`nitch -v`
+`nitch --version`
