@@ -4,10 +4,6 @@
 > Execute operations on virtual machines, containers and images.
 > More information: <https://www.freedesktop.org/software/systemd/man/machinectl.html>.
 
-- Create a container:
-
-`sudo machinectl create {{container-name}}`
-
 - Start a machine as a service using `systemd-nspawn`:
 
 `sudo machinectl start {{machine_name}}`
