@@ -29,7 +29,7 @@
 
 - Delete a managed container registry:
 
-`az acr delete -name {{registry_name}} --resource-group {{resource_group}} --yes`
+`az acr delete --name {{registry_name}} --resource-group {{resource_group}} --yes`
 
 - List images within a registry:
 
