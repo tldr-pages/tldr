@@ -1,7 +1,7 @@
 # pstoedit
 
 > Convert PDF files into various image formats.
-> More information: <http://www.pstoedit.net/>
+> More information: <http://www.pstoedit.net/>.
 
 - Convert a PDF page to PNG or JPEG [f]ormat:
 
@@ -10,4 +10,3 @@
 - Convert multiple PDF pages to numbered images:
 
 'pstoedit -f magick {{filename}} page%d.png|page%d.jpg'
-
