@@ -1,7 +1,7 @@
 # az upgrade
 
 > Upgrade Azure CLI and Extensions.
-> Part of `az`, the command-line client for Microsoft Azure.
+> Part of `az`.
 > More information: <https://learn.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-upgrade>.
 
 - Upgrade Azure CLI:

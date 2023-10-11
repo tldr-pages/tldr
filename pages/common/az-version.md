@@ -1,7 +1,7 @@
 # az version
 
 > Shows the current version of Azure CLI modules and extensions.
-> Part of `az`, the command-line client for Microsoft Azure.
+> Part of `az`.
 > More information: <https://learn.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-version>.
 
 - Show the current version of Azure CLI modules and extensions in JSON format:
