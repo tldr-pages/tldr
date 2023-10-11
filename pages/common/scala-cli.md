@@ -15,7 +15,7 @@
 
 `scala-cli test {{path/to/script.scala}}`
 
-- Format a Scala script:
+- Format a Scala script, updating the file in-place:
 
 `scala-cli fmt {{path/to/script.scala}}`
 
