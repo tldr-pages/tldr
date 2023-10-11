@@ -7,10 +7,6 @@
 
 `nitch`
 
-- Exactly the same as nitch without arguments:
-
-`nitch -f`
-
 - Display [h]elp:
 
 `nitch --help`
