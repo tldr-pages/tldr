@@ -1,6 +1,6 @@
 # systemd-cgls
 
-> Shows the contents of the selected Linux control group hierarchy in a tree.
+> Show the contents of the selected Linux control group hierarchy in a tree.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-cgls.html>.
 
 - Display the whole control group hierarchy on your system:
