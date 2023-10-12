@@ -19,11 +19,11 @@
 
 `composer remove {{user/package}}`
 
-- Update all the dependencies in this project's `composer.json` and note a new versions in `composer.lock` file:
+- Update all the dependencies in this project's `composer.json` and note new versions in the `composer.lock` file:
 
 `composer update`
 
-- Update `composer.lock` file only after updating `composer.json` manually:
+- Update the `composer.lock` file only after updating `composer.json` manually:
 
 `composer update --lock`
 
