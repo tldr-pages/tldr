@@ -9,16 +9,16 @@
 
 - 특정 포트에서 iperf3 서버 실행:
 
-`iperf3 -s -p {{port}}`
+`iperf3 -s -p {{포트}}`
 
 - 대역폭 테스트 시작:
 
-`iperf3 -c {{server}}`
+`iperf3 -c {{서버}}`
 
 - 여러 병렬 스트림에서 iperf3 실행:
 
-`iperf3 -c {{server}} -P {{streams}}`
+`iperf3 -c {{서버}} -P {{스트림}}`
 
 - 테스트를 역방향으로 진행합니다. 서버가 클라이언트에 데이터를 전송:
 
-`iperf3 -c {{server}} -R`
+`iperf3 -c {{서버}} -R`
