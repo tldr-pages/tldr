@@ -9,4 +9,4 @@
 
 - Convert multiple PDF pages to numbered images:
 
-`pstoedit -f magick {{filename}} page%d.png|page%d.jpg`
+`pstoedit -f magick {{path/to/file}} {{page%d.png|page%d.jpg}}`
