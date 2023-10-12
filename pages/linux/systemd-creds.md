@@ -5,7 +5,7 @@
 
 - Encrypt a file and set a specific name:
 
-`systemd-creds encrypt --name={{name}} {{input}} {{output}}`
+`systemd-creds encrypt --name={{name}} {{path/to/input_file}} {{path/to/output}}`
 
 - Decrypt the file again:
 
