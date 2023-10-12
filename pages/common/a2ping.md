@@ -9,15 +9,15 @@
 
 - Compress the document using the specified method:
 
-`a2ping --[no]compress {{none|zip|best|flate}} {{path/to/file}}`
+`a2ping --nocompress {{none|zip|best|flate}} {{path/to/file}}`
 
 - Scan HiResBoundingBox if present (Note: It Defaults to yes):
 
-`a2ping --[no]hires {{path/to/file}}`
+`a2ping --nohires {{path/to/file}}`
 
 - Allow page content below and left of the origin (Note: It defaults to no):
 
-`a2ping --[no]below {{path/to/file}}`
+`a2ping --nobelow {{path/to/file}}`
 
 - Pass extra arguments to `gs``:
 
