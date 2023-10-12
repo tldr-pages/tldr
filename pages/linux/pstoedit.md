@@ -3,7 +3,7 @@
 > Convert PDF files into various image formats.
 > More information: <http://www.pstoedit.net/>.
 
-- Convert a PDF page to PNG or JPEG [f]ormat:
+- Convert a PDF page to PNG or JPEG format:
 
 `pstoedit -page {{page_number}}  -f magick {{filename}}  page.png|page.jpg`
 
