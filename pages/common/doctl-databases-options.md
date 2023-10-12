@@ -13,12 +13,12 @@
 
 - Retrieve a list of the available regions for a given database engine:
 
-`doctl databases options regions --engine {{database_engine (pg, mysql, redis, mongodb)}}`
+`doctl databases options regions --engine {{pg|mysql|redis|mongodb}}`
 
 - Retrieve a list of the available slugs for a given database engine:
 
-`doctl databases options slugs --engine {{database_engine (pg, mysql, redis, mongodb)}}`
+`doctl databases options slugs --engine {{pg|mysql|redis|mongodb}}`
 
 - Retrieve a list of the available versions for a given database engine:
 
-`doctl databases options versions --engine {{database_engine (pg, mysql, redis, mongodb)}}`
+`doctl databases options versions --engine {{pg|mysql|redis|mongodb}}`

@@ -13,7 +13,7 @@
 
 - Add a database firewall rule to a given database:
 
-`doctl databases firewalls append {{database_id}} --rule {{type (droplet, k8s, ip_addr, tag, or app)}}:{{value}}`
+`doctl databases firewalls append {{database_id}} --rule {{droplet|k8s|ip_addr|tag|app}}:{{value}}`
 
 - Remove a firewall rule for a given database:
 

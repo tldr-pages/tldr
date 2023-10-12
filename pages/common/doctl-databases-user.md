@@ -17,11 +17,11 @@
 
 - Reset the auth password for a given user:
 
-`doctl databases user reset {{ database id} } {{user_name}}`
+`doctl databases user reset {{database id}} {{user_name}}`
 
 - Reset the MySQL auth plugn for a given user:
 
-`doctl databases user reset {{database_id}} {{user_name}} {{new_auth_mode (cahing, sh2_password, mysql_native_password)}}`
+`doctl databases user reset {{database_id}} {{user_name}} {{caching_sha2_password|mysql_native_password}}`
 
 - Create a user in the given database with a given username:
 
