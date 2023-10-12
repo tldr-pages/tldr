@@ -5,7 +5,7 @@
 
 - JavaScript 또는 TypeScript 파일을 실행:
 
-`deno run {{path/to/file.ts}}`
+`deno run {{경로/대상/파일.ts}}`
 
 - REPL(대화형 쉘)을 시작:
 
@@ -13,7 +13,7 @@
 
 - 네트워크 접근이 가능한 파일을 실행:
 
-`deno run --allow-net {{path/to/file.ts}}`
+`deno run --allow-net {{경로/대상/파일.ts}}`
 
 - URL을 통해 파일을 실행:
 
