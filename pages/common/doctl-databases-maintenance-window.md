@@ -13,4 +13,4 @@
 
 - Update the maintenance window for a database cluster:
 
-`doctl databases maintenance-window update {{database_id}} --day {{day_of_the_week (e.g. monday)}} --hour {{24_hour (e.g. '16:00')}}`
+`doctl databases maintenance-window update {{database_id}} --day {{day_of_the_week}} --hour {{hour_in_24_hours_format}}`

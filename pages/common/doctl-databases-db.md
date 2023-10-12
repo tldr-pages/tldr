@@ -9,7 +9,7 @@
 
 - Retrieve the name of the given database hosted in the given database cluster:
 
-`doctl databases db get {{database_id}} {{db_name}}`
+`doctl databases db get {{database_id}} {{database_name}}`
 
 - List existing databases hosted within a given database cluster:
 
@@ -17,8 +17,8 @@
 
 - Create a database with the given name in the given database cluster:
 
-`doctl databases db create {{database_id}} {{db_name}}`
+`doctl databases db create {{database_id}} {{database_name}}`
 
 - Delete the database with the given name in the given database cluster:
 
-`doctl databases db delete {{database_id}} {{db_name}}`
+`doctl databases db delete {{database_id}} {{database_name}}`
