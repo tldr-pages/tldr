@@ -5,12 +5,12 @@
 
 - 파일이나 디렉터리에 대한 심볼릭 링크 생성:
 
-`ln -s {{/path/to/file_or_directory}} {{path/to/symlink}}`
+`ln -s {{/경로/대상/파일_또는_폴더}} {{경로/대상/심볼릭링크}}`
 
 - 다른 파일을 가리키도록 기존 심볼릭 링크를 덮어쓰기:
 
-`ln -sf {{/path/to/new_file}} {{path/to/symlink}}`
+`ln -sf {{/경로/대상/새로운_파일}} {{경로/대상/심볼릭링크}}`
 
 - 파일에 대한 하드 링크 생성:
 
-`ln {{/path/to/file}} {{path/to/hardlink}}`
+`ln {{/경로/대상/파일}} {{경로/대상/하드링크}}`
