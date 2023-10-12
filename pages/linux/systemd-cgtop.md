@@ -8,9 +8,9 @@
 
 `systemd-cgtop`
 
-- Change the sort order to one of `cpu`, `memory`, `path`, `tasks` or `io`):
+- Change the sort order:
 
-`systemd-cgtop --order={{resource}}`
+`systemd-cgtop --order={{cpu|memory|path|tasks|io}}`
 
 - Show the CPU usage by time instead of percentage:
 
