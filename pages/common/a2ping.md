@@ -17,7 +17,7 @@
 
 - Allow page content below and left of the origin (Note: It defaults to no):
 
-`a2ping --nobelow {{path/to/file}}`
+`a2ping --below {{path/to/file}}`
 
 - Pass extra arguments to `gs``:
 
