@@ -1,7 +1,7 @@
 # pstoedit
 
 > Convert PDF files into various image formats.
-> More information: <http://www.pstoedit.net/>.
+> More information: <http://www.pstoedit.net>.
 
 - Convert a PDF page to PNG or JPEG format:
 
