@@ -14,7 +14,7 @@ The overall process should look somewhat like this:
 3. Create a feature branch, e.g. named after the command you plan to edit:
   `git checkout -b {{branch_name}}`
 
-   > [!IMPORTANT]
+   > [!WARNING]
    > It is bad practice to submit a PR from the `main` branch of your forked repository. Please create pull requests from a well named feature branch.
 
 4. Make your changes (edit existing files or create new ones)
@@ -25,7 +25,7 @@ The overall process should look somewhat like this:
 6. Push the commit(s) to your fork:
   `git push origin {{branch_name}}`
 
-   > [!IMPORTANT]
+   > [!WARNING]
    > Please avoid force-pushing since it makes the review process harder.
 
 7. Go to the GitHub page for your fork and click the green "Compare & pull request" button.
