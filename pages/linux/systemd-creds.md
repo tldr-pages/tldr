@@ -9,7 +9,7 @@
 
 - Decrypt the file again:
 
-`systemd-creds decrypt {{input}} {{output}}`
+`systemd-creds decrypt {{path/to/input_file}} {{path/to/output_file}}`
 
 - Encrypt some text from `stdin`:
 
