@@ -11,9 +11,9 @@
 
 `systemd-creds decrypt {{path/to/input_file}} {{path/to/output_file}}`
 
-- Encrypt some text from `stdin`:
+- Encrypt text from `stdin`:
 
-`echo -n {{text}} | systemd-creds encrypt --name={{name}} - {{output}}`
+`echo -n {{text}} | systemd-creds encrypt --name={{name}} - {{path/to/output}}`
 
 - Encrypt the text and append it to the service file (the credentials will be available in `$CREDENTIALS_DIRECTORY`):
 
