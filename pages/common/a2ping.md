@@ -7,9 +7,9 @@
 
 `a2ping {{filename}} {{outputFilename.pdf}}`
 
-- Compress the document. Possible options: none, zip, best, flate:
+- Compress the document using the specified method:
 
-`a2ping --[no]compress {{option}} {{filename}}`
+`a2ping --[no]compress {{none|zip|best|flate}} {{filename}}`
 
 - Scan HiResBoundingBox. Defaults to yes:
 
