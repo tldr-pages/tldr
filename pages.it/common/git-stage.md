@@ -1,7 +1,7 @@
 # git stage
 
 > Aggiungi file all'area di stage.
-> Sinonimo di `git add`.
+> Alias di `git add`.
 > Maggiori informazioni: <https://git-scm.com/docs/git-stage>.
 
 - Aggiungi un file all'indice:

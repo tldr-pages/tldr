@@ -1,7 +1,7 @@
 # git stage
 
 > Ajouter le contenu du fichier à la zone de préparation.
-> Synonyme de `git add`.
+> Alias de `git add`.
 > Plus d'informations : <https://git-scm.com/docs/git-stage>.
 
 - Ajouter un fichier à l'index :

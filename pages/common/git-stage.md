@@ -1,7 +1,7 @@
 # git stage
 
 > Add file contents to the staging area.
-> Synonym of `git add`.
+> Alias of `git add`.
 > More information: <https://git-scm.com/docs/git-stage>.
 
 - Add a file to the index:

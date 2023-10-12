@@ -1,7 +1,7 @@
 # git stage
 
 > Değiştirilmiş dosyaları indekse ekle.
-> Bu komut `git add`'in eş anlamlısıdır.
+> `git add` takma adı.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-stage>.
 
 - İndekse bir dosya ekle:
