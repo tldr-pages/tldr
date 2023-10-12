@@ -11,6 +11,6 @@
 
 `systemd-cgls {{cpu|memory|io}}`
 
-- Show the hierarchy of a specific systemd unit:
+- Display the hierarchy of a specific systemd unit:
 
 `systemd-cgls --unit {{unit}}`
