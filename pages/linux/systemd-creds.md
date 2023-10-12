@@ -21,4 +21,4 @@
 
 - Create a credential that is only valid until the given timestamp:
 
-`systemd-creds encrypt --not-after="{{timestamp}}" {{input}} {{output}}`
+`systemd-creds encrypt --not-after="{{timestamp}}" {{path/to/input_file}} {{path/to/output_file}}`
