@@ -1,32 +1,32 @@
 # a2ping
 
 > Convert images into EPS or PDF files.
-> More information: <https://www.ctan.org/pkg/a2ping>.
+> More information: <https://manned.org/a2ping>.
 
-- Convert an image to PDF. The output file name is optional:
+- Convert an image to PDF (Note: Specifying an output filename is optional):
 
-`a2ping {{filename}} {{outputFilename.pdf}}`
+`a2ping {{path/to/image.ext}} {{path/to/output.pdf}}`
 
 - Compress the document using the specified method:
 
-`a2ping --[no]compress {{none|zip|best|flate}} {{filename}}`
+`a2ping --[no]compress {{none|zip|best|flate}} {{path/to/file}}`
 
-- Scan HiResBoundingBox. Defaults to yes:
+- Scan HiResBoundingBox if present (Note: It Defaults to yes):
 
-`a2ping --[no]hires {{filename}}`
+`a2ping --[no]hires {{path/to/file}}`
 
-- Allow below or left_from baseline. Defaults to no:
+- Allow page content below and left of the origin (Note: It defaults to no):
 
-`a2ping --[no]below {{filename}}`
+`a2ping --[no]below {{path/to/file}}`
 
-- Pass extra arguments to gs:
+- Pass extra arguments to `gs``:
 
-`a2ping --gsextra {{arguments}} {{filename}}`
+`a2ping --gsextra {{arguments}} {{path/to/file}}`
 
-- Pass extra arguments to external prg:
+- Pass extra arguments to external program (i.e pdftops):
 
-`a2ping --extra {{arguments}} {{filename}}`
+`a2ping --extra {{arguments}} {{path/to/file}}`
 
-- Display the a2ping help:
+- Display help:
 
 `a2ping -h`
