@@ -7,9 +7,9 @@
 
 `systemd-cgls`
 
-- To see a cgroup tree of a specific resource controller (e.g. `cpu` or `memory`), execute:
+- Display a control group tree of a specific resource controller:
 
-`systemd-cgls {{controller}}`
+`systemd-cgls {{cpu|memory|io}}`
 
 - Show the hierarchy of a specific systemd unit:
 
