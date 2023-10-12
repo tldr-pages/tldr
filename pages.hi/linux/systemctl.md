@@ -1,36 +1,36 @@
 # systemctl
 
-> Control the systemd system and service manager.
-> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+> systemd सिस्टम और सेवा प्रबंधक को नियंत्रित करें।
+> अधिक जानकारी: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
 
-- Show all running services:
+- सभी चल रही सेवाएँ दिखाएं:
 
 `systemctl status`
 
-- List failed units:
+- विफल इकाइयों की सूची:
 
 `systemctl --failed`
 
-- Start/Stop/Restart/Reload a service:
+- सेवा को चालना/रोकना/पुनरारंभ करना/रीलोड करना:
 
-`systemctl {{start|stop|restart|reload}} {{unit}}`
+`systemctl {{start|stop|restart|reload}} {{इकाई}}`
 
-- Show the status of a unit:
+- एक इकाई की स्थिति दिखाएं:
 
-`systemctl status {{unit}}`
+`systemctl status {{इकाई}}`
 
-- Enable/Disable a unit to be started on bootup:
+- एक इकाई को बूटअप पर स्वचलित रूप से चालाने/रोकने के लिए सक्षम/अक्षम करें:
 
-`systemctl {{enable|disable}} {{unit}}`
+`systemctl {{enable|disable}} {{इकाई}}`
 
-- Mask/Unmask a unit to prevent enablement and manual activation:
+- एक इकाई को सक्षम/अक्षम करने और मैन्युअल सक्रियण से रोकने/हटाने के लिए मास्क/अनमास्क करें:
 
-`systemctl {{mask|unmask}} {{unit}}`
+`systemctl {{mask|unmask}} {{इकाई}}`
 
-- Reload systemd, scanning for new or changed units:
+- systemd को पुनः लोड करें, नई या बदली गई इकाइयों के लिए स्कैन करें:
 
 `systemctl daemon-reload`
 
-- Check if a unit is enabled:
+- क्या किसी इकाई को सक्षम किया गया है, यह जाँचें:
 
-`systemctl is-enabled {{unit}}`
+`systemctl is-enabled {{इकाई}}`
