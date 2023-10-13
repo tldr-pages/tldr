@@ -3,7 +3,7 @@
 > Das offizielle CLI-Tool für die Google Cloud Platform.
 > Weitere Informationen: https://cloud.google.com/sdk/gcloud.
 
-- Alle Eigenschaften in deiner aktiven Konfiguration auflisten:
+- Liste alle Eigenschaften der aktiven Konfiguration auf:
 
 `gcloud config list`
 
