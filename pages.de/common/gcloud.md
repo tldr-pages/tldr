@@ -19,7 +19,7 @@
 
 `gcloud compute ssh {{Benutzer}}@{{Instanz}}`
 
-- Alle Google Compute Engine-Instanzen in einem Projekt anzeigen. Instanzen aus allen Zonen werden standardmäßig aufgelistet:
+- Zeige alle Google Compute Engine-Instanzen in einem Projekt an. Standardmäßig werden Instanzen aus allen Zonen aufgelistet:
 
 `gcloud compute instances list`
 
