@@ -22,4 +22,4 @@
 
 - Update the minimum tls version setting for a storage account:
 
-`az storage account update --min-tls-version {TLS1_0,TLS1_1,TLS1_2} --resource-group {{group_name}} --name {{account_name}}`
+`az storage account update --min-tls-version {{TLS1_0,TLS1_1,TLS1_2}} --resource-group {{group_name}} --name {{account_name}}`
