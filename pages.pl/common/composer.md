@@ -7,29 +7,29 @@
 
 `composer init`
 
-- Dodaj pakiet do zależności tego projektu, dodając wpis do pliku `composer.json`:
+- Dodaj pakiet do zależności tego projektu, dodając wpis do `composer.json`:
 
-`composer require {{uzytkownik/pakiet}}`
+`composer require {{użytkownik/pakiet}}`
 
 - Zainstaluj wszystkie zależności z projektowego `composer.json` i utwórz `composer.lock`:
 
 `composer install`
 
-- Odinstaluj pakiet z tego projektu, usuń go jako zaleśność z plików `composer.json` i `composer.lock`:
+- Odinstaluj pakiet z tego projektu, usuń go jako zależność z `composer.json` i `composer.lock`:
 
-`composer remove {{uzytkownik/pakiet}}`
+`composer remove {{użytkownik/pakiet}}`
 
-- Zaktualizuj wszystkie pakiety z projektowego `composer.json` i zanotuj nową wersję w pliku `composer.lock`:
+- Zaktualizuj wszystkie pakiety z projektowego `composer.json` i zanotuj nową wersję w `composer.lock`:
 
 `composer update`
 
-- Zaktualizuj tylko plik `composer.lock` po ręcznej aktualizacji `composer.json`:
+- Zaktualizuj tylko `composer.lock` po ręcznej aktualizacji `composer.json`:
 
 `composer update --lock`
 
 - Dowiedz się więcej o powodach dlaczego zależność nie może zostać zainstalowana:
 
-`composer why-not {{uzytkownik/pakiet}}`
+`composer why-not {{użytkownik/pakiet}}`
 
 - Zaktualizuj narzędzie composer do najnowszej wersji:
 
