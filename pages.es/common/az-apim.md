@@ -8,15 +8,15 @@
 
 `az apim list --resource-group {{grupo_de_recursos}}`
 
-- Crear una instancia de servicio de API Management:
+- Crea una instancia de servicio de API Management:
 
 `az apim create --name {{nombre}} --resource-group {{grupo_de_recursos}} --publisher-email {{email}} --publisher-name {{name}}`
 
-- Elimina una instancia de servicio de API Management:
+- Elimina una instancia del servicio de API Management:
 
 `az apim delete --name {{nombre}} --resource-group {{grupo_de_recursos}}`
 
-- Muestra detalles de una instancia de servicio de API Management:
+- Muestra detalles de una instancia del servicio de API Management:
 
 `az apim show --name {{nombre}} --resource-group {{grupo_de_recursos}}`
 
