@@ -23,7 +23,7 @@
 
 `gcloud compute instances list`
 
-- Eine kubeconfig-Datei mit den entsprechenden Anmeldeinformationen aktualisieren, um kubectl auf einen bestimmten Cluster in Google Kubernetes Engine auszurichten:
+- Aktualisiere eine kubeconfig-Datei mit den entsprechenden Anmeldeinformationen, um kubectl auf einen bestimmten Cluster in Google Kubernetes Engine auszurichten:
 
 `gcloud container clusters get-credentials {{Clustername}}`
 
