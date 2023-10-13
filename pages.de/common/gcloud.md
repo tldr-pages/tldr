@@ -11,7 +11,7 @@
 
 `gcloud auth login`
 
-- Das aktive Projekt festlegen:
+- Lege das aktive Projekt fest:
 
 `gcloud config set project {{Projektname}}`
 
