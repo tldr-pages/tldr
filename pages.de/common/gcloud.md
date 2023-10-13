@@ -7,7 +7,7 @@
 
 `gcloud config list`
 
-- Bei deinem Google-Konto anmelden:
+- Mit einem Google-Konto anmelden:
 
 `gcloud auth login`
 
