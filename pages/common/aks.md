@@ -31,7 +31,3 @@
 - Delete an AKS cluster:
 
 `az aks delete --resource-group myResourceGroup --name myAKSCluster`
-
-- Get the credentials for a managed Kubernetes cluster and save to a file:
-
-`az aks get-credentials --resource-group myResourceGroup --name myAKSCluster --file myAKSCluster.kubeconfig`
