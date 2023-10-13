@@ -33,13 +33,12 @@ function upload_assets {
   mv -f "${TLDR_LANG_ARCHIVES_DIRECTORY}"/*.zip "$SITE_HOME/assets/"
   rm -rf "$TLDR_LANG_ARCHIVES_DIRECTORY"
   cp -f "$TLDRHOME/index.json" "$SITE_HOME/assets/"
-  cp -f "${TLDRHOME}/scripts/pdf/tldr-book*.pdf" "${SITE_HOME}/assets/"
-
+  cp -f "${TLDRHOME}/scripts/pdf/tldr-pages.pdf" "${SITE_HOME}/assets/tldr-book.pdf"
 
   sha256sum \
     "${SITE_HOME}/assets/index.json" \
     "${SITE_HOME}/assets/"*.zip \
-    "${SITE_HOME}/assets/tldr-book*.pdf" \
+    "${SITE_HOME}/assets/tldr-book.pdf" \
     > "${SITE_HOME}/assets/tldr.sha256sums"
 
   cd "$SITE_HOME"
