@@ -15,7 +15,7 @@
 
 `composer install`
 
-- Odinstaluj pakiet z tego projektu, usuń go jako zależność z `composer.json` i `composer.lock`:
+- Odinstaluj pakiet z tego projektu, usuwając go jako zależność z `composer.json` i `composer.lock`:
 
 `composer remove {{użytkownik/pakiet}}`
 
