@@ -34,4 +34,3 @@
 - Hilfe für einen bestimmten Befehl anzeigen:
 
 `gcloud help {{Befehl}}`
-
