@@ -31,6 +31,6 @@
 
 `gcloud components update`
 
-- Hilfe für einen bestimmten Befehl anzeigen:
+- Zeige Hilfe für einen bestimmten Befehl an:
 
 `gcloud help {{Befehl}}`
