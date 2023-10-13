@@ -34,4 +34,3 @@
 - Folge Umleitungen und zeige Zwischenanfragen und -antworten:
 
 `http --follow --all {{https://example.com}}`
-
