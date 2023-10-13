@@ -43,7 +43,7 @@ jobs:
     - name: Build PDF
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       working-directory: ./scripts/pdf
-      run: bash build-pdf.sh
+      run: python render.py ../../pages -c solarized-light
 
     - name: Deploy
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
