@@ -15,7 +15,7 @@
 
 `gcloud config set project {{Projektname}}`
 
-- Eine SSH-Verbindung zu einer virtuellen Maschineninstanz herstellen:
+- Stelle eine SSH-Verbindung zu einer virtuellen Maschineninstanz her:
 
 `gcloud compute ssh {{Benutzer}}@{{Instanz}}`
 
