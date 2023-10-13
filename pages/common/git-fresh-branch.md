@@ -1,4 +1,4 @@
-# git fresh branch
+# git fresh-branch
 
 > Creates an empty local branch.
 > Part of `git-extras`.
