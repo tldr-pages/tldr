@@ -1,7 +1,7 @@
 # az advisor
 
 > Manage Azure subscription information.
-> Part of `az`, the command-line client for Microsoft Azure.
+> Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/advisor>.
 
 - List Azure Advisor configuration for the entire subscription:
