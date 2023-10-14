@@ -1,0 +1,36 @@
+# gitui
+
+> Terminal UI for git.
+> More information: <https://github.com/extrawurst/gitui>.
+
+- Print version:
+
+`gitui --version`
+
+- Print help:
+
+`gitui --help`
+
+- Set the color theme (defaults to `theme.ron`):
+
+`gitui --theme {{theme}}`
+
+- Store logging output into a cache directory:
+
+`gitui --logging`
+
+- Use notify-based file system watcher instead of tick-based update:
+
+`gitui --watcher`
+
+- Generate a bug report:
+
+`gitui --bugreport`
+
+- Set the git directory:
+
+`gitui --directory {directory}`
+
+- Set the working directory:
+
+`gitui --workdir {workdir}`
