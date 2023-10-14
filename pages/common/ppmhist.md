@@ -5,11 +5,11 @@
 
 - Generate the histogram for human reading:
 
-`ppmhist -nomap {{path/to/ppmfile}}`
+`ppmhist -nomap {{path/to/image_file.ppm}}`
 
 - Generate a PPM file of the colormap for the image, with the color histogram as comments:
 
-`ppmhist -map {{path/to/ppmfile}}`
+`ppmhist -map {{path/to/image_file.ppm}}`
 
 - Display version:
 
