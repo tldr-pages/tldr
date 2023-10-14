@@ -8,7 +8,7 @@
 
 `az bicep install`
 
-- Crear un archivo de Bicep:
+- Crea un archivo de Bicep:
 
 `az bicep build --file {{ruta/al/archivo.bicep}}`
 

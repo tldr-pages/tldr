@@ -1,6 +1,6 @@
 # az appconfig
 
-> Administra configuraciones de aplicaciones en Azure.
+> Administra las configuraciones de aplicaciones en Azure.
 > Parte de `azure-cli` (también conocido como `az`).
 > Más información: <https://learn.microsoft.com/cli/azure/appconfig>.
 
