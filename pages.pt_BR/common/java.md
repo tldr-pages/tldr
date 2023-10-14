@@ -7,7 +7,6 @@
 
 `java {{nome_da_classe}}`
 
-- Execute a java program and use additional third-party or user-defined classes:
 - Executa um programa Java e usa classes adicionais de terceiros ou definidas pelo usuário:
 
 `java -classpath {{caminho/para/classes1}}:{{caminho/para/classes2}}:. {{nome_da_classe}}`
