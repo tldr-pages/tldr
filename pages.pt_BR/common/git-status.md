@@ -4,7 +4,7 @@
 > Lista os arquivos alterados, adicionados e excluídos em comparação com o atual commit verificado.
 > Mais informações: <https://git-scm.com/docs/git-status>.
 
-- Mostra arquivos alterados que ainda não foram adicionados ao commit:
+- Mostra arquivos alterados que ainda não foram adicionados para commit:
 
 `git status`
 
@@ -16,6 +16,6 @@
 
 `git status --untracked-files=no`
 
-- Mostra a saída em formato curto junto com as informações da [b]ranch:
+- Mostra a saída em formato curto junto com as informações da ramificação:
 
 `git status -sb`

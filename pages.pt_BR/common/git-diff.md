@@ -27,10 +27,10 @@
 
 `git diff --summary {{commit}}`
 
-- Compara um único arquivo entre duas branches ou commits:
+- Compara um único arquivo entre duas ramificações ou commits:
 
-`git diff {{branch_1}}..{{branch_2}} [--] {{caminho/para/arquivo}}`
+`git diff {{ramificação_1}}..{{ramificação_2}} [--] {{caminho/para/arquivo}}`
 
-- COmpara diferentes arquivos da branch atual com outra branch:
+- Compara diferentes arquivos da ramificação atual com outra ramificação:
 
-`git diff {{branch}}:{{caminho/para/arquivo2}} {{caminho/para/arquivo}}`
+`git diff {{ramificação}}:{{caminho/para/arquivo2}} {{caminho/para/arquivo}}`

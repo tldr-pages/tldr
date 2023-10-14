@@ -1,7 +1,7 @@
 # git reset
 
 > Desfaz os commits ou as alterações nào preparadas, redefinindo o Git HEAD atual para o estado especificado.
-> Se um caminho é passado, funcionará como "não preparado"; se um hash de commit ou uma branch é passado, funcionará como "sem commit".
+> Se um caminho é passado, funcionará como "não preparado"; se um hash de commit ou uma ramificação é passado, funcionará como "sem commit".
 > Mais informações: <https://git-scm.com/docs/git-reset>.
 
 - Remove tudo da preparação:
@@ -20,14 +20,14 @@
 
 `git reset HEAD~`
 
-- Desfaz os últimos dois commits, adicionando suas alterações ao índice, isso é, preparando-os para o commit:
+- Desfaz os últimos dois commits, adicionando suas alterações na área de preparação, isso é, preparando-os para o commit:
 
 `git reset --soft HEAD~2`
 
-- Descarta quaisquer alterações não confirmadas, preparadas ou não (para apenas alterações não preparadas, use o `git checkout`):
+- Descarta quaisquer alterações sem commit, preparadas ou não (para apenas alterações não preparadas, use o `git checkout`):
 
 `git reset --hard`
 
-- Redefine o repositório para um determinado commit, descartando as alterações confirmadas, preparadas e não confirmadas desde então:
+- Redefine o repositório para um determinado commit, descartando as alterações com commit, preparadas e sem commit desde então:
 
 `git reset --hard {{commit}}`
