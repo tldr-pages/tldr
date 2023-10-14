@@ -19,7 +19,7 @@
 
 `git branch {{name_da_ramificação}}`
 
--Crua uma nova ramificação baseada em um commit específico:
+- Crua uma nova ramificação baseada em um commit específico:
 
 `git branch {{nome_da_ramificação}} {{hash_do_commit}}`
 
