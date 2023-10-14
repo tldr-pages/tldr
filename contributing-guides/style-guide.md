@@ -295,7 +295,7 @@ The segmentation of these audiences are clearly noted on [Firefox Public Data Re
 
 > For most countries in the top 10, the majority (>90%) of users have their language set to the local language, **with a notable exception in Indonesia, which has about 80% English (US) and 20% Indonesian.**
 
-First, Command and example descriptions on pages in Indonesian must be written **without using active verb forms (i.e. those with `ber-` and `me-` prefixes)**. This means that sentences such as:
+First, command and example descriptions on pages in Indonesian must be written **without using active verb forms (i.e. those with `ber-` and `me-` prefixes)**. This means that sentences such as:
 
 > **Mengunduh** sebuah file ke dalam suatu direktori
 > (i.e. Downloading a file into a directory)
@@ -317,12 +317,12 @@ Second, we recommend to use the following forms of technical terms to make trans
 | Commit (Git) | Commit | |
 | Compile, Compiler | Kompilasikan, Pengompilasi | [`kompilasi`](https://kbbi.kemdikbud.go.id/entri/kompilasi) is officially considered as noun. Requires a `-kan` suffix to convert into a verb.  |
 | Debugger | Debugger | Preferred over `pengawakutu` (`peng`-[`awakutu`](https://kbbi.kemdikbud.go.id/entri/awakutu)) which is unfamiliar to some readers. |
-| Device | Perangkat | Preferred over [`piranti`](https://kbbi.kemdikbud.go.id/entri/piranti) which are used here to describe `hardware` and `software`. |
+| Device | Perangkat | Preferred over [`peranti`](https://kbbi.kemdikbud.go.id/entri/peranti). |
 | Disc | Disc | Preferred over [`cakram`](https://kbbi.kemdikbud.go.id/entri/cakram) which is unfamiliar by some readers. Use specific words if possible (e.g. CD or DVD).  |
 | Execute / Run (a program...) | Jalankan | Preferred over [`eksekusikan`](https://kbbi.kemdikbud.go.id/entri/eksekusikan) which is longer to read and write. |
 | File | File | Preferred over [`berkas`](https://kbbi.kemdikbud.go.id/entri/berkas) which may be unfamiliar by some readers. |
 | Generate | Buat | Preferred over [`hasilkan`](https://kbbi.kemdikbud.go.id/entri/hasilkan). Example context: `Buat laporan baru`. |
-| Hardware | Piranti Keras | [`piranti`](https://kbbi.kemdikbud.go.id/entri/perangkat) is more preferred over [`perangkat`](https://kbbi.kemdikbud.go.id/entri/perangkat), as the latter may also mean `device`. |
+| Hardware | Perangkat Keras | Preferred over [`peranti`](https://kbbi.kemdikbud.go.id/entri/peranti). |
 | Image (as picture or visual image) | Gambar | Do not confuse with `image` as means of storage. |
 | Image (as means of storage, such as CD, ISO, and Docker) | Image | Another recommended word, [`citra`](https://kbbi.kemdikbud.go.id/entri/citra), is not officially recognized for computing. |
 | Initialize, Reinitialize | Inisialisasikan, Inisialisasikan Ulang | The word [`inisialisasi`](https://kbbi.kemdikbud.go.id/entri/inisialisasi) is officially considered as noun. Requires a `-kan` suffix to convert into a verb. |
@@ -333,7 +333,7 @@ Second, we recommend to use the following forms of technical terms to make trans
 | Server | Server | Preferred over [`peladen`](https://kbbi.kemdikbud.go.id/entri/peladen) or [`pelayan`](https://kbbi.kemdikbud.go.id/entri/pelayan), which are less common when used in computing contexts. |
 | Service | Layanan | The Indonesian standard word is acceptable here. |
 | Shell (command-line interface) | Syel | The Indonesian standard word is acceptable here. |
-| Software | Piranti Lunak | [`piranti`](https://kbbi.kemdikbud.go.id/entri/perangkat) is more preferred over [`perangkat`](https://kbbi.kemdikbud.go.id/entri/perangkat), as the latter may also mean `device`. |
+| Software | Perangkat Lunak | Preferred over [`peranti`](https://kbbi.kemdikbud.go.id/entri/peranti). |
 | Start, Restart | Mulai, Mulai Ulang / Nyalakan, Nyalakan Ulang | See notes on the bottom section. |
 | Update | Perbarui | Do not confuse with `upgrade`. |
 | Upgrade | Tingkatkan | Do not confuse with `update`. |
