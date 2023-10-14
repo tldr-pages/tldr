@@ -8,6 +8,6 @@
 
 `git delete-squashed-branches`
 
-- Delete all branches that were "squash-merged" into the main branch:
+- Delete all branches that were "squash-merged" into a specific branch:
 
 `git delete-squashed-branches {{branch_name}}`
