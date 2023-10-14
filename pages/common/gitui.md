@@ -33,4 +33,4 @@
 
 - Set the working directory:
 
-`gitui --workdir {workdir}`
+`gitui --workdir {{path/to/directory}}`
