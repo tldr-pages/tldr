@@ -8,7 +8,7 @@
 
 `uname`
 
-- Exibir informações sobre a arquitetura e o processador:
+- Exibe informações sobre a arquitetura e o processador:
 
 `uname --machine --processor`
 
@@ -16,10 +16,10 @@
 
 `uname --kernel-name --kernel-release --kernel-version`
 
-- Exibir o nome de rede do computador:
+- Exibe o nome de rede do computador:
 
 `uname --nodename`
 
-- Exibir todas as informações disponíveis sobre o sistema:
+- Exibe todas as informações disponíveis sobre o sistema:
 
 `uname --all`

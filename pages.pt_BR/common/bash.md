@@ -20,11 +20,11 @@
 
 `bash {{caminho/para/script.sh}}`
 
-- Executar um script específico exibindo cada comando antes de executá-lo:
+- Executa um script específico exibindo cada comando antes de executá-lo:
 
 `bash -x {{caminho/para/script.sh}}`
 
-- Executar um script específico e para no primeiro [e]rro:
+- Executa um script específico e para no primeiro [e]rro:
 
 `bash -e {{caminho/para/script.sh}}`
 

@@ -3,7 +3,7 @@
 > Cria arquivos e define tempo de acesso/modificação.
 > Mais informações: <https://manned.org/man/freebsd-13.1/touch>.
 
-- Crua arquivos especificados:
+- Cria arquivos especificados:
 
 `touch {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 

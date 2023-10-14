@@ -7,7 +7,7 @@
 
 `gzip {{arquivo.ext}}`
 
-- Descompactar um arquivo, substituindo-o pela versão não compactada original:
+- Descompacta um arquivo, substituindo-o pela versão não compactada original:
 
 `gzip -d {{arquivo.ext}}.gz`
 
