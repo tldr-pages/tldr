@@ -29,7 +29,7 @@
 
 - Set the git directory:
 
-`gitui --directory {directory}`
+`gitui --directory {{path/to/directory}}`
 
 - Set the working directory:
 
