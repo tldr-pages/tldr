@@ -12,7 +12,7 @@
 
 `uname --machine --processor`
 
-- Exibir nome do kernel, lançamento do kernel e versão do kernel:
+- Exibe nome do kernel, lançamento do kernel e versão do kernel:
 
 `uname --kernel-name --kernel-release --kernel-version`
 
