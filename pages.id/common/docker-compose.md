@@ -1,0 +1,36 @@
+# docker compose
+
+> Menjalankan dan mengelola aplikasi Docker dengan beberapa kontainer.
+> Informasi lebih lanjut: https://docs.docker.com/compose/reference/.
+
+- Menampilkan semua kontainer yang sedang berjalan:
+
+`docker compose ps`
+
+- Membuat dan memulai semua kontainer di latar belakang menggunakan file docker-compose.yml dari direktori saat ini:
+
+`docker compose up --detach`
+
+- Memulai semua kontainer, membangun ulang jika diperlukan:
+
+`docker compose up --build`
+
+- Memulai semua kontainer dengan menentukan nama proyek dan menggunakan file compose alternatif:
+
+`docker compose -p {{nama_proyek}} --file {{path/to/file}} up`
+
+- Menghentikan semua kontainer yang sedang berjalan:
+
+`docker compose stop`
+
+- Menghentikan dan menghapus semua kontainer, jaringan, image, dan volume:
+
+`docker compose down --rmi all --volumes`
+
+- Mengikuti log untuk semua kontainer:
+
+`docker compose logs --follow`
+
+- Mengikuti log untuk kontainer tertentu:
+
+`docker compose logs --follow {{container_name}}`
