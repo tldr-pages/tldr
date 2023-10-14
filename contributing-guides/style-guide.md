@@ -334,7 +334,7 @@ Second, we recommend to use the following forms of technical terms to make trans
 | Service | Layanan | The Indonesian standard word is acceptable here. |
 | Shell (command-line interface) | Syel | The Indonesian standard word is acceptable here. |
 | Software | Piranti Lunak | [`piranti`](https://kbbi.kemdikbud.go.id/entri/perangkat) is more preferred over [`perangkat`](https://kbbi.kemdikbud.go.id/entri/perangkat), as the latter may also mean `device`. |
-| Start, Restart | Awali, Awali Ulang | See notes on the bottom section. |
+| Start, Restart | Mulai, Mulai Ulang / Nyalakan, Nyalakan Ulang | See notes on the bottom section. |
 | Update | Perbarui | Do not confuse with `upgrade`. |
 | Upgrade | Tingkatkan | Do not confuse with `update`. |
 
@@ -350,7 +350,14 @@ Add detailed contexts to remove ambiguity (notice the highligted word):
 
 > Muat konfigurasi dari file yang ditentukan setelah **pengguna** memuat ulang **sistem operasi**
 
-When translating the word `start`, use `awali` instead of `mulai` to avoid writing ambiguous descriptions on specific contexts. For example, `mulai proses server web` may either mean `start the web server process` or `start processing the web server`. This could be prevented by using `awali proses server web` to fix the meaning of `start the web server process`.
+Similarly, for the word `start` / `mulai`
+
+> Mulai proses server web
+> (Start the web server process)
+
+To ensure that the sentence may not be confused with `start processing the web server`, you can use other words such as `nyalakan`:
+
+> Nyalakan proses server web
 
 ### French-Specific Rules
 
