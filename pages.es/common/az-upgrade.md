@@ -1,8 +1,8 @@
 # az upgrade
 
 > Actualiza Azure CLI y sus extensiones.
-> Parte de `az`.
-> Más información: <https://learn.microsoft.com/es-mx/cli/azure/reference-index?view=azure-cli-latest#az-upgrade()>.
+> Parte de `azure-cli` (también conocido como `az`).
+> Más información: <https://learn.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-upgrade()>.
 
 - Actualiza Azure CLI:
 
