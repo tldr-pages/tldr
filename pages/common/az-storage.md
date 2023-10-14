@@ -6,20 +6,20 @@
 
 - Create a storage account:
 
-`az storage account create -g {{group_name}} -n {{account_name}} -l {{location}} --sku {{account_sku}}`
+`az storage account create --resource-group {{group_name}} --name {{account_name}} -l {{location}} --sku {{account_sku}}`
 
 - List all storage accounts in a resource group:
 
-`az storage account list -g {{group_name}}`
+`az storage account list --resource-group {{group_name}}`
 
 - List the access keys for a storage account:
 
-`az storage account keys list -g {{group_name}} -n {{account_name}}`
+`az storage account keys list --resource-group {{group_name}} --name {{account_name}}`
 
 - Delete a storage account:
 
-`az storage account delete -g {{group_name}} -n {{account_name}}`
+`az storage account delete --resource-group {{group_name}} --name {{account_name}}`
 
 - Update the minimum tls version setting for a storage account:
 
-`az storage account update --min-tls-version TLS1_2 -g {{group_name}} -n {{account_name}}`
+`az storage account update --min-tls-version {{TLS1_0|TLS1_1|TLS1_2}} --resource-group {{group_name}} --name {{account_name}}`
