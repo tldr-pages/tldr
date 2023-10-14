@@ -1,21 +1,25 @@
 # uname
 
-> Apresenta detalhes sobre o hardware e sistema operacional do computador.
-> Nota: Para maiores detalhes sobre o sistema operacional, utilize o comando `lsb_release`.
+> Exibe detalhes sobre a máquina atual e o sistema operacional em execução nela.
+> Veja também `lsb_release`.
 > Mais informações: <https://www.gnu.org/software/coreutils/uname>.
 
-- Exibir informações relacionadas ao hardware: arquitetura e tipo de processador:
+- Exibe o nome do kernel:
 
-`uname -mp`
+`uname`
 
-- Exibir informações relacionadas ao software: sistema operacional, número da release e versão:
+- Exibir informações sobre a arquitetura e o processador:
 
-`uname -srv`
+`uname --machine --processor`
+
+- Exibir nome do kernel, lançamento do kernel e versão do kernel:
+
+`uname --kernel-name --kernel-release --kernel-version`
 
 - Exibir o nome de rede do computador:
 
-`uname -n`
+`uname --nodename`
 
-- Exibir todas as informações disponíveis do sistema (hardware, software, nome de rede):
+- Exibir todas as informações disponíveis sobre o sistema:
 
-`uname -a`
+`uname --all`
