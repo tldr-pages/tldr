@@ -1,7 +1,7 @@
 # docker compose
 
 > Menjalankan dan mengelola aplikasi Docker dengan beberapa kontainer.
-> Informasi lebih lanjut: https://docs.docker.com/compose/reference/.
+> Informasi lebih lanjut: <https://docs.docker.com/compose/reference/>.
 
 - Menampilkan semua kontainer yang sedang berjalan:
 
