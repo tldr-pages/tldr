@@ -1,8 +1,8 @@
 # az group
 
 > Administra grupos de recursos e implementaciones de plantillas.
-> Parte de `azure-cli`.
-> Más información: <https://docs.microsoft.com/cli/azure/group>.
+> Parte de `azure-cli` (también conocido como `az`).
+> Más información: <https://learn.microsoft.com/cli/azure/group>.
 
 - Crea un nuevo grupo de recursos:
 

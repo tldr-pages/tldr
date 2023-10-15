@@ -1,8 +1,8 @@
 # az apim
 
 > Administra los servicios de Azure API Management.
-> Parte de `az`.
-> Más información: <https://docs.microsoft.com/cli/azure/apim>.
+> Parte de `azure-cli` (también conocido como `az`).
+> Más información: <https://learn.microsoft.com/cli/azure/apim>.
 
 - Enumera las instancias del servicio API Management:
 
