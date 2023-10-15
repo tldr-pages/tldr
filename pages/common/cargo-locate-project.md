@@ -16,6 +16,6 @@
 
 `cargo locate-project --message-format json`
 
-- Print a `Cargo.toml` at the provided path:
+- Print the `Cargo.toml` located at the given path:
 
 `cargo locate-project --manifest-path {{path/to/file.toml}}`
