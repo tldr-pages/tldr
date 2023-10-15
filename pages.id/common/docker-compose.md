@@ -15,7 +15,7 @@
 
 `docker compose up --build`
 
-- Memulai semua kontainer dengan menentukan nama proyek dan menggunakan file compose alternatif:
+- Nyalakan semua kontainer dengan menentukan nama proyek dan menggunakan file compose alternatif:
 
 `docker compose -p {{nama_proyek}} --file {{path/to/file}} up`
 
