@@ -194,7 +194,8 @@ It is also RECOMMENDED to make the language configurable, to not only rely on th
 
 The [`LC_MESSAGES` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) MAY be present. If the client itself is localized and this environment variable is present, it MUST use its value to determine the language in which interface text is shown (separately from the language used for pages). In the absence of `LC_MESSAGES`, then `LANG` and `LANGUAGE` MUST be used for this purpose instead.
 
-**Note that** for page lookup it is highly RECOMMENDED to give precedence to the platform over the language. In other words, look for a platform under each language, before checking the next preferred language. This ensures a meaningful and correct page resolution.
+> [!IMPORTANT]
+> For page lookup it is highly RECOMMENDED to give precedence to the platform over the language. In other words, look for a platform under each language, before checking the next preferred language. This ensures a meaningful and correct page resolution.
 
 Here's an example of how the lookup should be done on `linux` having set `LANG=it` and `LANGUAGE="it:fr:en"`:
 

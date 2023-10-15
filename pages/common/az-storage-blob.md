@@ -1,7 +1,7 @@
 # az storage blob
 
 > Manage blob storage containers and objects in Azure.
-> Part of `azure-cli`.
+> Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/storage/blob>.
 
 - Download a blob to a file path:

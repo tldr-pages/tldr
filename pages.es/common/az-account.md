@@ -1,7 +1,7 @@
 # az account
 
 > Administra la información de una suscripción de Azure.
-> Parte de `az`, el cliente de línea de comandos para Microsoft Azure.
+> Parte de `azure-cli` (también conocido como `az`).
 > Más información: <https://learn.microsoft.com/cli/azure/account>.
 
 - Lista las suscripciones de la cuenta activa:

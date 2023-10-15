@@ -1,7 +1,7 @@
 # az appconfig
 
 > Manage App configurations on Azure.
-> Part of `az`.
+> Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/appconfig>.
 
 - Create an App Configuration:
