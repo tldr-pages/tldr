@@ -16,6 +16,6 @@
 
 `git status --untracked-files=no`
 
-- Mostra a saída em formato curto junto com as informações da ramificação:
+- Mostra a saída em formato curto junto com as informações da branch:
 
 `git status -sb`

@@ -15,11 +15,11 @@
 
 `git log --stat`
 
-- Mostra um grafo dos commits no ramificação atual usando apenas a primera linha de cada mensagem de commit:
+- Mostra um grafo dos commits no branch atual usando apenas a primera linha de cada mensagem de commit:
 
 `git log --oneline --graph`
 
-- Mostra um grafo de todos os commits, etiquetas e ramificações em todo o repositório:
+- Mostra um grafo de todos os commits, etiquetas e branches em todo o repositório:
 
 `git log --oneline --decorate --all --graph`
 

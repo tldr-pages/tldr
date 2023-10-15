@@ -1,27 +1,27 @@
 # git checkout
 
-> Faz checkout de uma ramificação ou caminhos para uma árvore de trabalho.
+> Faz checkout de uma branch ou caminhos para uma árvore de trabalho.
 > Mais informações: <https://git-scm.com/docs/git-checkout>.
 
-- Cria e muda para uma nova ramificação:
+- Cria e muda para uma nova branch:
 
-`git checkout -b {{nome_da_ramificação}}`
+`git checkout -b {{nome_da_branch}}`
 
-- Cria e muda para uma nova ramificação com base em uma referência específica (ramificação, remoto/ramificação, etiqueta são exemplos de referências válidas):
+- Cria e muda para uma nova branch com base em uma referência específica (branch, remoto/branch, etiqueta são exemplos de referências válidas):
 
-`git checkout -b {{nome_da_ramificação}} {{referência}}`
+`git checkout -b {{nome_da_branch}} {{referência}}`
 
-- Muda para uma ramificação local existente:
+- Muda para uma branch local existente:
 
-`git checkout {{nome_da_ramificação}}`
+`git checkout {{nome_da_branch}}`
 
-- Muda para uma ramificação previamente verificada:
+- Muda para uma branch previamente verificada:
 
 `git checkout -`
 
-- Muda para uma ramificação remota existente:
+- Muda para uma branch remota existente:
 
-`git checkout --track {{nome_remoto}}/{{nome_da_ramificação}}`
+`git checkout --track {{nome_remoto}}/{{nome_da_branch}}`
 
 - Descarta todas as alterações não preparadas no diretório atual (consulte `git reset` para mais comandos do tipo desfazer):
 
@@ -31,6 +31,6 @@
 
 `git checkout {{caminho/para/arquivo}}`
 
-- Substitui um arquivo no diretório atual com a versão com commit em uma determinada ramificação:
+- Substitui um arquivo no diretório atual com a versão com commit em uma determinada branch:
 
-`git checkout {{nome_da_ramificação}} -- {{caminho/para/arquivo}}`
+`git checkout {{nome_da_branch}} -- {{caminho/para/arquivo}}`
