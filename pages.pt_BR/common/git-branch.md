@@ -17,7 +17,7 @@
 
 - Cria uma nova branch baseada no commit atual:
 
-`git branch {{name_da_branch}}`
+`git branch {{nome_da_branch}}`
 
 - Crua uma nova branch baseada em um commit específico:
 
@@ -29,8 +29,8 @@
 
 - Exclui a branch local (não precisa fazer checkout para isso):
 
-`git branch -d {{name_da_branch}}`
+`git branch -d {{nome_da_branch}}`
 
 - Exclui uma branch remota:
 
-`git push {{nome_remoto}} --delete {{name_da_branch_remota}}`
+`git push {{nome_remoto}} --delete {{nome_da_branch_remota}}`
