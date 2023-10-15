@@ -27,7 +27,7 @@
 
 `docker compose down --rmi all --volumes`
 
-- Mengikuti log untuk semua kontainer:
+- Ikuti log untuk semua kontainer:
 
 `docker compose logs --follow`
 
