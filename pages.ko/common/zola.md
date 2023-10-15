@@ -5,7 +5,7 @@
 
 - 주어진 디렉토리에 Zola가 사용하는 디렉토리 구조를 생성:
 
-`zola init {{my_site}}`
+`zola init {{내_사이트_이름}}`
 
 - `public` 디렉토리에 전체 사이트를 빌드 (이미 존재하는 디렉토리가 있다면 삭제):
 
@@ -13,7 +13,7 @@
 
 - 별도의 디렉토리에 전체 사이트를 빌드:
 
-`zola build --output-dir {{path/to/output_directory/}}`
+`zola build --output-dir {{경로/대상/폴더/}}`
 
 - 사이트를 빌드하고 로컬 서버를 사용하여 제공 (기본 주소는 `127.0.0.1:1111`):
 
