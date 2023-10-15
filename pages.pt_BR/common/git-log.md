@@ -1,6 +1,6 @@
 # git log
 
-> Mostra um histórico dos commits.
+> Mostra um histórico de commits.
 > Mais informações: <https://git-scm.com/docs/git-log>.
 
 - Mostra a sequência de commits a partir do atual, em ordem cronológica reverse do repositório Git no diretório de trabalho atual:
