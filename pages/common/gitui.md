@@ -3,14 +3,6 @@
 > Terminal UI for git.
 > More information: <https://github.com/extrawurst/gitui>.
 
-- Print version:
-
-`gitui --version`
-
-- Print help:
-
-`gitui --help`
-
 - Set the color theme (defaults to `theme.ron`):
 
 `gitui --theme {{theme}}`
@@ -27,10 +19,18 @@
 
 `gitui --bugreport`
 
-- Set the git directory:
+- Set the Git directory:
 
 `gitui --directory {{path/to/directory}}`
 
 - Set the working directory:
 
 `gitui --workdir {{path/to/directory}}`
+
+- Display help:
+
+`gitui --help`
+
+- Display version:
+
+`gitui --version`
