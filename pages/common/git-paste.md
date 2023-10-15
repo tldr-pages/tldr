@@ -8,6 +8,6 @@
 
 `git paste {{paste_url}}`
 
-- Pass options understood by `git-rev-parse(1)` in order to select a different set of commits:
+- Pass options to `git format-patch` in order to select a different set of commits (`@^` selects the parent of HEAD, and so the currently checked out commit is sent):
 
-`git paste @^ {{paste_url}}`
+`git paste {{@^}}`
