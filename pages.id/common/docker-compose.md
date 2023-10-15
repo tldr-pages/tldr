@@ -31,6 +31,6 @@
 
 `docker compose logs --follow`
 
-- Mengikuti log untuk kontainer tertentu:
+- Ikuti log untuk kontainer tertentu:
 
 `docker compose logs --follow {{container_name}}`
