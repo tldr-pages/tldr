@@ -1,5 +1,4 @@
 # docker build
-
 > Bangun sebuah image dari Dockerfile.
 > Informasi lebih lanjut: https://docs.docker.com/engine/reference/commandline/build/.
 

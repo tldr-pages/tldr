@@ -1,11 +1,7 @@
 # pip3
 
-> Gerenciador de pacotes para Python.
+> Gerenciador de pacotes Python.
 > Mais informações: <https://pip.pypa.io>.
-
-- Encontra pacotes disponíveis:
-
-`pip3 search {{nome_pacote}}`
 
 - Instala um pacote:
 
@@ -13,7 +9,7 @@
 
 - Instala uma versão específica de um pacote:
 
-`pip3 install {{nome_pacote}}=={{versao_pacote}}`
+`pip3 install {{nome_pacote}}=={{versão_pacote}}`
 
 - Atualiza um pacote:
 
