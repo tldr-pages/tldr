@@ -1,7 +1,7 @@
 # az tag
 
 > Administra etiquetas en un recurso de Azure.
-> Parte de `azure-cli`.
+> Parte de `azure-cli` (también conocido como `az`).
 > Más información: <https://learn.microsoft.com/cli/azure/tag>.
 
 - Crea un valor de etiqueta:

@@ -1,7 +1,7 @@
 # az storage
 
 > Administra los recursos de Azure Cloud Storage.
-> Parte de `azure-cli`.
+> Parte de `azure-cli` (también conocido como `az`).
 > Más información: <https://learn.microsoft.com/cli/azure/storage>.
 
 - Crea una cuenta de almacenamiento:
