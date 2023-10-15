@@ -11,7 +11,7 @@
 
 `docker compose up --detach`
 
-- Memulai semua kontainer, membangun ulang jika diperlukan:
+- Nyalakan semua kontainer, dan bangun ulang jika diperlukan:
 
 `docker compose up --build`
 
