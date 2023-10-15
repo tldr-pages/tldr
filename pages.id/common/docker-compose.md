@@ -23,7 +23,7 @@
 
 `docker compose stop`
 
-- Menghentikan dan menghapus semua kontainer, jaringan, image, dan volume:
+- Hentikan dan menghapus semua kontainer, jaringan, image, dan volume:
 
 `docker compose down --rmi all --volumes`
 
