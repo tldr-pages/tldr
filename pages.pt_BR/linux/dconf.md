@@ -1,6 +1,6 @@
 # dconf
 
-> Gerencia bando de dados dconf.
+> Gerencia banco de dados dconf.
 > Veja também: `dconf-read`, `dconf-reset`, `dconf-write`, `gsettings`.
 > Mais informações: <https://manned.org/dconf>.
 
