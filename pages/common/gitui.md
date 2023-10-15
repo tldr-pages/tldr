@@ -1,6 +1,6 @@
 # gitui
 
-> Terminal UI for git.
+> Terminal UI for Git.
 > More information: <https://github.com/extrawurst/gitui>.
 
 - Set the color theme (defaults to `theme.ron`):
