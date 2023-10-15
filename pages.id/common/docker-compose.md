@@ -17,7 +17,7 @@
 
 - Nyalakan semua kontainer dengan menentukan nama proyek dan menggunakan file compose alternatif:
 
-`docker compose -p {{nama_proyek}} --file {{path/to/file}} up`
+`docker compose -p {{nama_proyek}} --file {{jalan/menuju/file}} up`
 
 - Menghentikan semua kontainer yang sedang berjalan:
 
