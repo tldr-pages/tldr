@@ -7,7 +7,7 @@
 
 `docker compose ps`
 
-- Membuat dan memulai semua kontainer di latar belakang menggunakan file docker-compose.yml dari direktori saat ini:
+- Buat dan nyalakan semua kontainer di latar belakang menggunakan file docker-compose.yml dari direktori saat ini:
 
 `docker compose up --detach`
 
