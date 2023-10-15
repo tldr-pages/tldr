@@ -19,7 +19,7 @@
 
 `docker compose -p {{nama_proyek}} --file {{jalan/menuju/file}} up`
 
-- Menghentikan semua kontainer yang sedang berjalan:
+- Hentikan semua kontainer yang sedang berjalan:
 
 `docker compose stop`
 
