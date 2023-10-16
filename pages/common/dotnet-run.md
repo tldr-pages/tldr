@@ -19,6 +19,6 @@
 
 `dotnet run --framework {{net7.0}}`
 
-- Run using target architecture and OS (Don't use `--runtime` with these options):
+- Specify architecture and OS, avaliable since .NET 6 (Don't use `--runtime` with these options):
 
 `dotnet run --arch {{x86|x64|arm|arm64}} --os {{win|win7|osx|linux|ios|android}}`
