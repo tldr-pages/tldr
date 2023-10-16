@@ -9,7 +9,7 @@
 
 - Geef de inhoud weer van een gegeven map:
 
-`dir {{pad\naar\map}}`
+`dir {{pad\naar\directory}}`
 
 - Geef de inhoud weer van de huidige map, inclusief verborgen bestanden:
 
