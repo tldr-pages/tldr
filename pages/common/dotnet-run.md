@@ -9,7 +9,7 @@
 
 - Run a specific project:
 
-`dotnet run {{path/to/file.csproj}}`
+`dotnet run --project {{path/to/file.csproj}}`
 
 - Run the project with specific arguments:
 
