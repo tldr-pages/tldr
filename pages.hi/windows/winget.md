@@ -33,4 +33,4 @@
 
 - विंगेट-पीकेजीएस(winget-pkgs) रिपॉजिटरी में पीआर(PR) सबमिट करने से पहले मैनिफ़ेस्ट को सत्यापित करें:
 
-`winget validate {{path/to/manifest}}`
+`winget validate {{प्रकट/का/पथ}}`
