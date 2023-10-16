@@ -9,15 +9,15 @@
 
 - एक पैकेज निकालें (अनइंस्टॉल करें): (नोट: `uninstall` की जगह `remove` का भी इस्तेमाल किया जा सकता है):
 
-`winget uninstall {{package}}`
+`winget uninstall {{पैकेज}}`
 
 - पैकेज के बारे में जानकारी प्रदर्शित करें:
 
-`winget show {{package}}`
+`winget show {{पैकेज}}`
 
 - पैकेज की खोज करें:
 
-`winget search {{package}}`
+`winget search {{पैकेज}}`
 
 - सभी पैकेज़ को नवीनतम संस्करणों में अपग्रेड करें:
 
