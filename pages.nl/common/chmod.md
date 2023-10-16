@@ -9,7 +9,7 @@
 
 - Geef de gebruiker ([u]ser) het recht om een bestand of map te lezen ([r]ead) en schrijven ([w]rite):
 
-`chmod u+rw {{pad/naar/bestand_of_map}}`
+`chmod u+rw {{pad/naar/bestand_of_directory}}`
 
 - Haal uitvoertoestemming (e[x]ecute) voor een bestand weg van de [g]roep:
 
