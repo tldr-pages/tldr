@@ -18,7 +18,7 @@ jobs:
             pages.*/*/*
             package-lock.json
 
-      - uses: codespell-project/actions-codespell@master
+      - uses: codespell-project/actions-codespell@v2
         with:
           ignore_words_file: .github/codespell-ignore
           # Exit with 0 regardless of typos.
