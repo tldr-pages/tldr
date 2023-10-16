@@ -4,7 +4,7 @@
 
 - Check whether `wget` is properly installed by printing its version number. If this command evaluates into an error, PowerShell may have substituted this command with `Invoke-WebRequest`:
 
-`curl --version`
+`wget --version`
 
 - View documentation for the original `wget` command:
 
