@@ -33,4 +33,4 @@
 
 - Geef recursief alle gebruikers ([a]ll users) toegang om bestanden te lezen ([r]ead) en uitvoertoestemming (e[X]ecute) voor alle onderliggende mappen in een map:
 
-`chmod -R a+rX {{pad/naar/map}}`
+`chmod -R a+rX {{pad/naar/directory}}`
