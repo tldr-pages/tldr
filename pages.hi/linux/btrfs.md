@@ -1,36 +1,25 @@
-# bluetoothctl
+# btrfs
 
-> ब्लूटूथ उपकरणों का प्रबंधन करें।
-> अधिक जानकारी: <https://bitbucket.org/serkanp/bluetoothctl>.
+> लिनक्स के लिए कॉपी-ऑन-राइट (COW) सिद्धांत पर आधारित एक फ़ाइल सिस्टम।
+> कुछ सब-कमांड जैसे `btrfs device`, उनका खुद का उपयोग दस्तावेज़न है।
+> अधिक जानकारी: <https://btrfs.readthedocs.io/en/latest/btrfs.html>.
 
-- `bluetoothctl` शैल में प्रवेश करें:
+- उप-वॉल्यूम बनाएं:
 
-`bluetoothctl`
+`sudo btrfs subvolume create {{पथ/से/उप-वॉल्यूम}}`
 
-- सभी ज्ञात उपकरणों की सूची दिखाएं:
+- उप-वॉल्यूमों की सूची दिखाएं:
 
-`bluetoothctl devices`
+`sudo btrfs subvolume list {{पथ/से/माउंट_बिंदु}}`
 
-- ब्लूटूथ नियंत्रक को चालने या बंद करें:
+- स्थान उपयोग सूचना दिखाएं:
 
-`bluetoothctl power {{on|off}}`
+`sudo btrfs filesystem df {{पथ/से/माउंट_बिंदु}}`
 
-- किसी उपकरण के साथ जोड़ें:
+- कोटा सक्षम करें:
 
-`bluetoothctl pair {{mac_address}}`
+`sudo btrfs quota enable {{पथ/से/उप-वॉल्यूम}}`
 
-- किसी उपकरण को हटाएं:
+- कोटा दिखाएं:
 
-`bluetoothctl remove {{mac_address}}`
-
-- एक जुड़े हुए उपकरण से कनेक्ट करें:
-
-`bluetoothctl connect {{mac_address}}`
-
-- एक जुड़े हुए उपकरण से डिसकनेक्ट करें:
-
-`bluetoothctl disconnect {{mac_address}}`
-
-- मदद दिखाएं:
-
-`bluetoothctl help`
+`sudo btrfs qgroup show {{पथ/से/उप-वॉल्यूम}}`
