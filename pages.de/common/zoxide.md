@@ -24,6 +24,6 @@
 
 `zoxide remove {{path/to/directory}} --interactive`
 
-- Generiere Shell-Konfigurationen für Befehls-Aliase (`z`, `za`, `zi`, `zq`, `zr`):
+- Generiere Shell-Konfigurationen für Befehls-Aliase (`z`, `za`, `zi`, `zq`, `zr`) für die angegebene Shell:
 
 `zoxide init {{bash|fish|zsh}}`
