@@ -1,20 +1,24 @@
 # dir
 
-> Geeft de inhoud weer van een directory.
+> Geeft de inhoud weer van een map.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - Geef de inhoud weer van de huidige map:
 
 `dir`
 
-- Geef de inhoud weer van een gegeven directory:
+- Geef de inhoud weer van een gegeven map:
 
-`dir {{pad/naar/directory}}`
+`dir {{pad\naar\directory}}`
 
-- Geef de inhoud weer van de huidige directory, inclusief verborgen bestanden:
+- Geef de inhoud weer van de huidige map, inclusief verborgen bestanden:
 
-`dir /A`
+`dir /a`
 
-- Geef de inhoud weer van een gegeven directory, inclusief verborgen bestanden:
+- Geef de inhoud weer van een gegeven map, inclusief verborgen bestanden:
 
-`dir {{pad/naar/directory}} /A`
+`dir {{pad\naar\directory}} /A`
+
+- Toon een lijst met mappen en bestanden, zonder extra informatie:
+
+`dir /b`
