@@ -1,26 +1,26 @@
 # zoxide
 
-> Keep track of the most frequently used directories.
-> Uses a ranking algorithm to navigate to the best match.
+> Behält den Überblick über die am häufigsten verwendeten Verzeichnisse.
+> Verwendet einen Ranking-Algorithmus, um zum besten Treffer zu navigieren.
 > Weitere Informationen: <https://github.com/ajeetdsouza/zoxide>.
 
 - Wechsel zu dem Verzeichnis mit dem höchsten Rang, das "foo" im Namen enthält:
 
 `zoxide query {{foo}}`
 
-- Wechsel in das höchstrangige Verzeichnis, das "foo" und dann "bar" enthält:
+- Wechsel in das höchstrangige Verzeichnis, das "foo" und danach "bar" enthält:
 
 `zoxide query {{foo}} {{bar}}`
 
-- Starte eine interaktiven Verzeichnissuche (erfordert `fzf`):
+- Starte eine interaktive Verzeichnissuche (erfordert `fzf`):
 
 `zoxide query --interactive`
 
-- Füge ein Verzeichniss hinzu oder erhöhe seinen Rang:
+- Füge ein Verzeichnis hinzu oder erhöhe seinen Rang:
 
 `zoxide add {{path/to/directory}}`
 
-- Entferne interaktiv ein Verzeichniss aus der Datenbank von `zoxide`:
+- Entferne interaktiv ein Verzeichnis aus der Datenbank von `zoxide`:
 
 `zoxide remove {{path/to/directory}} --interactive`
 
