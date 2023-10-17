@@ -9,7 +9,7 @@
 
 - 刪除一個套件（註：可以用 `remove` 代替 `uninstall`）：
 
--`winget uninstall {{package}}`
+`winget uninstall {{package}}`
 
 - 顯示指定套件的相關資訊：
 
