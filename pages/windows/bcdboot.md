@@ -1,6 +1,6 @@
 # bcdboot
 
-> A system utility to configure boot files or repair them in Windows.
+> A system utility to configure or repair boot files.
 > More information: <https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/bcdboot-command-line-options-techref-di>.
 
 - Initialize the system partition by using BCD files from the source Windows folder:
