@@ -7,7 +7,7 @@
 
 `bmptopnm {{path/to/file.bmp}}`
 
-- Report contents of the BMP header to stderr:
+- Report contents of the BMP header to `stderr`:
 
 `bmptopnm -verbose {{path/to/file.bmp}}`
 
