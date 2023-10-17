@@ -1,21 +1,21 @@
 # cargo locate-project
 
-> Prints the JSON object to stdout with full path to the `Cargo.toml` manifest.
+> Print the full path to the `Cargo.toml` manifest of the current project.
 > If the project is part of a workspace, the manifest of the project is shown, rather than the workspace output.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-locate-project.html>.
 
 - Print the JSON object to stdout with full path to `Cargo.toml` manifest:
 
-`cargo locatte-project`
+`cargo locate-project`
 
-- Print the project path only and not the JSON object:
+- Print the project path in the specified format:
 
-`cargo locate-project --message-format plain`
-
-- Print the project path with JSON object:
-
-`cargo locate-project --message-format json`
+`cargo locate-project --message-format {{plain|json}}`
 
 - Print the `Cargo.toml` located at the given path:
 
-`cargo locate-project --manifest-path {{path/to/file.toml}}`
+`cargo locate-project --manifest-path {{path/to/Cargo.toml}}`
+
+- Print the `Cargo.toml` located at the root of workspace as opposed to current workspace member:
+
+`cargo locate-project --workspace`
