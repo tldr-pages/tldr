@@ -24,7 +24,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | ko    | 경로/대상/파일        | 경로/대상/폴더          | 경로/대상/파일_또는_폴더           | 패키지    |  사용자 명        |
 | ml    |ഫയലിലേക്കുള്ള/പാത   |ഡയറക്ടറിയിലേക്കുള്ള/പാത    |ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത  |പാക്കേജ്    |ഉപയോക്തൃനാമം |
 | ne    | फाइल/को/पथ            | निर्देशिका/को/पथ            | फाइल_वा_निर्देशिका/को/पथ                 | प्याकेज      | प्रयोगकर्ता_नाम        |
-| nl    | pad/naar/bestand     | pad/naar/directory     | pad/naar/bestand_of_directory     |           |                   |
+| nl    | pad/naar/bestand     | pad/naar/map           | pad/naar/bestand_of_map           | pakket    | gebruikersnaam    |
 | no    |                      |                        |                                   |           |                   |
 | pl    | ścieżka/do/pliku     | ścieżka/do/katalogu    | ścieżka/do/pliku_lub_katalogu     | pakiet    | nazwa_użytkownika |
 | pt_BR | caminho/para/arquivo | caminho/para/diretorio | caminho/para/arquivo_ou_diretorio | pacote    | nome_do_usuario   |
