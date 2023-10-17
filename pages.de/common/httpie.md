@@ -11,7 +11,7 @@
 
 `http {{https://example.com}} {{hello=World}}`
 
-- Sende eine POST-Anfrage mit umgeleiteter Eingabe:
+- Sende eine POST-Anfrage mit einer Datei als Eingabe:
 
 `http {{https://example.com}} < {{file.json}}`
 
