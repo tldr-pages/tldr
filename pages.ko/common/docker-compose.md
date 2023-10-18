@@ -9,7 +9,7 @@
 
 - 현재 디렉토리의 `docker-compose.yml` 파일을 사용해 모든 컨테이너를 백그라운드에서 생성하고 실행하기:
 
-`docker compose up -d`
+`docker compose up --detach`
 
 - 모든 컨테이너 실행, 필요 시 재빌드:
 

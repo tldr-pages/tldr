@@ -1,7 +1,7 @@
 # trash
 
 > Çöp / geri dönüşüm kutusunu yönetmek için bir komut satırı arayüzü.
-> Daha fazla bilgi: <https://github.com/andreafrancia/trash-cli>.
+> Daha fazla bilgi için: <https://github.com/andreafrancia/trash-cli>.
 
 - Bir dosyayı sil (çöpe gönder):
 
@@ -23,7 +23,7 @@
 
 `trash-empty {{10}}`
 
-- Çöptw 'foo' ismini taşıyan tüm dosyaları sil:
+- Çöpte 'foo' ismini taşıyan tüm dosyaları sil:
 
 `trash-rm foo`
 

@@ -5,24 +5,24 @@
 
 - Create an archive from a directory:
 
-`yaa archive -d {{path/to/directory}} -o {{path/to/output.yaa}}`
+`yaa archive -d {{path/to/directory}} -o {{path/to/output_file.yaa}}`
 
 - Create an archive from a file:
 
-`yaa archive -i {{path/to/file}} -o {{path/to/output.yaa}}`
+`yaa archive -i {{path/to/file}} -o {{path/to/output_file.yaa}}`
 
 - Extract an archive to the current directory:
 
-`yaa extract -i {{path/to/archive.yaa}}`
+`yaa extract -i {{path/to/archive_file.yaa}}`
 
 - List the contents of an archive:
 
-`yaa list -i {{path/to/archive.yaa}}`
+`yaa list -i {{path/to/archive_file.yaa}}`
 
 - Create an archive with a specific compression algorithm:
 
-`yaa archive -a {{algorithm}} -d {{path/to/directory}} -o {{path/to/output.yaa}}`
+`yaa archive -a {{algorithm}} -d {{path/to/directory}} -o {{path/to/output_file.yaa}}`
 
 - Create an archive with an 8 MB block size:
 
-`yaa archive -b {{8m}} -d {{path/to/directory}} -o {{path/to/output.yaa}}`
+`yaa archive -b {{8m}} -d {{path/to/directory}} -o {{path/to/output_file.yaa}}`

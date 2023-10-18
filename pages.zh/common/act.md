@@ -13,7 +13,7 @@
 
 - 运行指定 event：
 
-`act {{事件类型}}`
+`act {{event_type}}`
 
 - 运行指定 action：
 
@@ -26,3 +26,7 @@
 - 展示详细记录：
 
 `act -v`
+
+- 运行指定 workflow：
+
+`act push -W {{workflow 的路径}}`

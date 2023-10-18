@@ -16,7 +16,7 @@
 
 `tox --listenvs-all`
 
-- Run tests on a specific environment (e.g. python 3.6):
+- Run tests on a specific environment (e.g. Python 3.6):
 
 `tox -e {{py36}}`
 

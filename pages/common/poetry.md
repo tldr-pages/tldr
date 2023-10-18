@@ -13,7 +13,7 @@
 
 - Install a development dependency and its subdependencies:
 
-`poetry add --dev {{dependency}}`
+`poetry add --group dev {{dependency}}`
 
 - Interactively initialize the current directory as a new Poetry project:
 
@@ -30,7 +30,3 @@
 - Bump the minor version of the project in `pyproject.toml`:
 
 `poetry version minor`
-
-- List all poetry subcommands:
-
-`poetry list`

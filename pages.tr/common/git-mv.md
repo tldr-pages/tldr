@@ -1,7 +1,7 @@
 # git mv
 
 > Dosyaları taşı veya yeniden adlandır ve Git indeksini güncelle.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-mv>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-mv>.
 
 - Depo içindeki dosyayı taşı ve bu hareketi sonraki commit'e ekle:
 

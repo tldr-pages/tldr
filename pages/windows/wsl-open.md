@@ -13,7 +13,7 @@
 
 - Open a specific file in the user's default application in Windows:
 
-`wsl-open {{path/to/file}}`
+`wsl-open {{path\to\file}}`
 
 - Set `wsl-open` as the shell's web browser (open links with `wsl-open`):
 

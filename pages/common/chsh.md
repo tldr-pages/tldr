@@ -1,20 +1,20 @@
 # chsh
 
-> Change the user's login shell.
+> Change user's login shell.
 > More information: <https://manned.org/chsh>.
 
-- Change the current user's login shell interactively:
+- Set a specific login shell for the current user interactively:
 
 `chsh`
 
-- Change the login shell of the current user:
+- Set a specific login [s]hell for the current user:
 
 `chsh -s {{path/to/shell}}`
 
-- Change the login shell for a given user:
+- Set a login [s]hell for a specific user:
 
 `chsh -s {{path/to/shell}} {{username}}`
 
-- List available shells:
+- [l]ist available shells:
 
-`chsh --list-shells`
+`chsh -l`

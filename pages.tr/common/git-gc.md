@@ -1,7 +1,7 @@
 # git gc
 
 > Gereksiz dosyaları silerek yerel depoyu optimize et.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-gc>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-gc>.
 
 - Depoyu optimize et:
 

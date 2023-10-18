@@ -1,7 +1,7 @@
 # bzip2
 
 > Compressore di file a blocchi ordinati.
-> Maggiori informazioni: <http://bzip.org>.
+> Maggiori informazioni: <https://manned.org/bzip2>.
 
 - Comprimi un file:
 

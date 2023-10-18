@@ -1,24 +1,33 @@
 # useradd
 
 > Crée un nouvel utilisateur.
+> Voir aussi `users`, `userdel`, `usermod`.
 > Plus d'informations : <https://manned.org/useradd>.
 
 - Crée un nouvel utilisateur :
 
-`useradd {{nom}}`
+`sudo useradd {{nom_utilisateur}}`
 
-- Crée un nouvel utilisateur avec un dossier home par défaut :
+- Crée un nouvel utilisateur en spéficiant un identifiant numérique particulier :
 
-`useradd --create-home {{nom}}`
+`sudo useradd --uid {{identifiant}} {{nom_utilisateur}}`
 
 - Crée un nouvel utilisateur avec le shell spécifié :
 
-`useradd --shell {{/chemin/vers/shell}} {{nom}}`
+`sudo useradd --shell {{chemin/vers/shell}} {{nom_utilisateur}}`
 
 - Crée un nouvel utilisateur qui appartient aux groupes supplémentaires (attention à l'omission des espaces) :
 
-`useradd --groups {{groupe1,groupe2}} {{nom}}`
+`sudo useradd --groups {{groupe1,groupe2,...}} {{nom_utilisateur}}`
 
-- Crée un nouvel utilisateur sans un dossier home :
+- Crée un nouvel utilisateur avec le répertoire personnel par défaut :
 
-`useradd --no-create-home --system {{nom}}`
+`sudo useradd --create-home {{nom_utilisateur}}`
+
+- Crée un nouvel utilisateur avec un répertoire personnel rempli par les fichiers et répertoires d'un répertoire squelette :
+
+`sudo useradd --skel {{chemin/vers/repertoire_squelette}} --create-home {{nom_utilisateur}}`
+
+- Crée un nouvel utilisateur système sans répertoire personnel :
+
+`sudo useradd --system {{nom_utilisateur}}`

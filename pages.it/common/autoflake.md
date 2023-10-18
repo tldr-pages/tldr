@@ -5,15 +5,15 @@
 
 - Rimuovi le variabili inutilizzate da un file e mostra la differenza:
 
-`autoflake --remove-unused-variables {{file.py}}`
+`autoflake --remove-unused-variables {{percorso/del/file.py}}`
 
 - Rimuovi gli import inutilizzati da multipli file mostrando le differenze:
 
-`autoflake --remove-all-unused-imports {{file1.py}} {{file2.py}} {{file3.py}}`
+`autoflake --remove-all-unused-imports {{percorso/del/file1.py percorso/del/file2.py ...}}`
 
 - Rimuovi le variabili inutilizzate da un file, sovrascrivendolo:
 
-`autoflake --remove-unused-variables --in-place {{file.py}}`
+`autoflake --remove-unused-variables --in-place {{percorso/del/file.py}}`
 
 - Rimuovi le variabili inutilizzate da tutti i file in una directory, ricorsivamente e sovrascrivendoli:
 

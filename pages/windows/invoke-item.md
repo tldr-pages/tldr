@@ -6,24 +6,24 @@
 
 - Open a file in its default program:
 
-`Invoke-Item -Path {{path/to/file}}`
+`Invoke-Item -Path {{path\to\file}}`
 
 - Open all files inside a directory:
 
-`Invoke-Item -Path {{path/to/directory/*}}`
+`Invoke-Item -Path {{path\to\directory}}\*`
 
 - Open all PNGs inside a directory:
 
-`Invoke-Item -Path {{path/to/directory/*.png}}`
+`Invoke-Item -Path {{path\to\directory}}\*.png`
 
 - Open all files inside a directory containing a specific keyword:
 
-`Invoke-Item -Path {{path/to/directory/*}} -Include {{*keyword*}}`
+`Invoke-Item -Path {{path\to\directory}}\* -Include {{*keyword*}}`
 
 - Open all files inside a directory except those containing a specific keyword:
 
-`Invoke-Item -Path {{path/to/directory/*}} -Exclude {{*keyword*}}`
+`Invoke-Item -Path {{path\to\directory}}\* -Exclude {{*keyword*}}`
 
 - Perform a dry run to determine which files will be opened inside a directory through `Invoke-Item`:
 
-`Invoke-Item -Path {{path/to/directory/*}} -WhatIf`
+`Invoke-Item -Path {{path\to\directory}}\* -WhatIf`

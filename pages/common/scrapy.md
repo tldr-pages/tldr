@@ -19,7 +19,7 @@
 
 `scrapy crawl {{spider_name}}`
 
-- Fetch a webpage as Scrapy sees it and print the source to stdout:
+- Fetch a webpage as Scrapy sees it and print the source to `stdout`:
 
 `scrapy fetch {{url}}`
 

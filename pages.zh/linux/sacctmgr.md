@@ -17,4 +17,4 @@
 
 - 以指定格式显示用户、账户资源关联、集群、账户的详细信息：
 
-`sacctmgr show {{user|association|cluster|account}} format="Accout%10" format="GrpTRES%30"`
+`sacctmgr show {{user|association|cluster|account}} format="Account%10" format="GrpTRES%30"`

@@ -1,7 +1,7 @@
 # git reflog
 
 > HEAD, dal ve etiketler gibi yerel referansların geçirdiği değişimlerin kaydını göster.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-reflog>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-reflog>.
 
 - HEAD için referans kaydını göster:
 

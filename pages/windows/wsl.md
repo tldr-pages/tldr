@@ -1,6 +1,6 @@
 # wsl
 
-> Manage the Windows Subsystem for Linux from the command-line.
+> Manage the Windows Subsystem for Linux.
 > More information: <https://learn.microsoft.com/windows/wsl/reference>.
 
 - Start a Linux shell (in the default distribution):
@@ -21,11 +21,11 @@
 
 - Export a distribution to a `.tar` file:
 
-`wsl --export {{distribution}} {{path/to/distro_fs.tar}}`
+`wsl --export {{distribution}} {{path\to\distro_file.tar}}`
 
 - Import a distribution from a `.tar` file:
 
-`wsl --import {{distribution}} {{path/to/install_location}} {{path/to/distro_fs.tar}}`
+`wsl --import {{distribution}} {{path\to\install_location}} {{path/to/distro_file.tar}}`
 
 - Change the version of wsl used for the specified distribution:
 

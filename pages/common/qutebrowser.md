@@ -19,6 +19,6 @@
 
 `qutebrowser --target {{auto|tab|tab-bg|tab-silent|tab-bg-silent|window|private-window}}`
 
-- Open qutebrowser with a temporary base directory and print logs to stdout as JSON:
+- Open qutebrowser with a temporary base directory and print logs to `stdout` as JSON:
 
 `qutebrowser --temp-basedir --json-logging`

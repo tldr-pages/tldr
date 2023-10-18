@@ -1,6 +1,6 @@
 # nmcli device
 
-> Hardware device management with NetworkManager.
+> Manage network interfaces and establish new Wi-Fi connections using NetworkManager.
 > This subcommand can also be called with `nmcli d`.
 > More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
@@ -12,10 +12,10 @@
 
 `nmcli device wifi`
 
-- Connect to the Wi-Fi network with a specified name and password:
+- Connect to a Wi-Fi network with the specified SSID (you will be prompted for a password):
 
-`nmcli device wifi connect {{ssid}} password {{password}}`
+`nmcli --ask device wifi connect {{ssid}}`
 
-- Print password and QR code for the current Wi-Fi network:
+- Print the password and QR code for the current Wi-Fi network:
 
 `nmcli device wifi show-password`

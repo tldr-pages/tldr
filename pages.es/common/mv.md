@@ -5,20 +5,20 @@
 
 - Mueve archivos en ubicaciones arbitrarias:
 
-`mv {{origen}} {{destino}}`
+`mv {{ruta/al/origen}} {{ruta/al/destino}}`
 
 - Mueve sin solicitar confirmación antes de sobrescribir archivos existentes:
 
-`mv -f {{origen}} {{destino}}`
+`mv -f {{ruta/al/origen}} {{ruta/al/destino}}`
 
 - Solicita confirmación antes de sobrescribir archivos existentes, independientemente de los permisos del archivo:
 
-`mv -i {{origen}} {{destino}}`
+`mv -i {{ruta/al/origen}} {{ruta/al/destino}}`
 
 - No sobrescribe archivos existentes en el destino:
 
-`mv -n {{origen}} {{destino}}`
+`mv -n {{ruta/al/origen}} {{ruta/al/destino}}`
 
 - Mueve archivos en modo detallado, mostrando los archivos después de moverlos:
 
-`mv -v {{origen}} {{destino}}`
+`mv -v {{ruta/al/origen}} {{ruta/al/destino}}`

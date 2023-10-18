@@ -1,7 +1,7 @@
 # aws configure
 
 > AWS CLI の設定を管理します。
-> 詳しくはこちら: <https://docs.aws.amazon.com/cli/latest/reference/configure/>.
+> 詳しくはこちら: <https://docs.aws.amazon.com/cli/latest/reference/configure/>
 
 - 対話形式で AWS CLI を設定する（新しい設定の作成、または既定の更新）:
 

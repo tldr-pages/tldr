@@ -18,3 +18,7 @@
 - Search man page descriptions with a regular expression:
 
 `whatis --regex '{{wish[0-9]\.[0-9]}}'`
+
+- Display descriptions of a specific language (requires `manpage-{{locale}}` package):
+
+`whatis --locale={{en}} {{command}}`

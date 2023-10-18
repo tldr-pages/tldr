@@ -7,6 +7,6 @@
 
 `factor {{number}}`
 
-- Take the input from stdin if no argument is specified:
+- Take the input from `stdin` if no argument is specified:
 
 `echo {{number}} | factor`

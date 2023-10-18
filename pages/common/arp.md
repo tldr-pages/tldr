@@ -7,10 +7,6 @@
 
 `arp -a`
 
-- Clear the entire cache:
-
-`sudo arp -a -d`
-
 - Delete a specific entry:
 
 `arp -d {{address}}`

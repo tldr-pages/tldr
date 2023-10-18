@@ -21,4 +21,4 @@
 
 - Open a specific file with the cursor at a specific line and column:
 
-`cot --line {{line_number}} --column {{column_number}} {{path/to/file}}`
+`cot --line {{1}} --column {{80}} {{path/to/file}}`

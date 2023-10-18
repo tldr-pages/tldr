@@ -5,11 +5,11 @@
 
 - Join all the lines into a single line, using TAB as delimiter:
 
-`paste -s {{file}}`
+`paste -s {{path/to/file}}`
 
 - Join all the lines into a single line, using the specified delimiter:
 
-`paste -s -d {{delimiter}} {{file}}`
+`paste -s -d {{delimiter}} {{path/to/file}}`
 
 - Merge two files side by side, each in its column, using TAB as delimiter:
 

@@ -2,7 +2,7 @@
 
 > Çok platformlu yapım sistem oluşturucusu.
 > Hedeflenen sisteme göre Makefile, Visual Studio projeleri ve benzerlerini oluşturur.
-> Daha fazla bilgi: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.
+> Daha fazla bilgi için: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.
 
 - Bir Makefile oluştur ve onu aynı dizindeki bir projeyi derlemek için kullan:
 

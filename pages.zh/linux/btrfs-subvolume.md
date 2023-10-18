@@ -1,7 +1,7 @@
 # btrfs subvolume
 
 > 管理 btrfs 子卷和快照。
-> 更多信息：<https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-subvolume>.
+> 更多信息：<https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html>.
 
 - 创建一个新的空子卷：
 

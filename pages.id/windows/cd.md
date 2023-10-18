@@ -1,20 +1,24 @@
 # cd
 
-> Menampilkan nama atau ganti direktori saat ini.
+> Menampilkan direktori kerja saat ini atau pindah ke direktori lain.
 > Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Menuju suatu direktori pada drive yang sama:
-
-`cd {{lokasi/ke/direktori}}`
-
-- Menampilkan nama dari direktori saat ini:
+- Tampilkan nama dari direktori saat ini:
 
 `cd`
 
-- Menuju ke induk direktori dari direktori saat ini:
+- Pergi menuju root dari drive saat ini:
+
+`cd \`
+
+- Pergi menuju induk dari direktori dari saat ini:
 
 `cd ..`
 
-- Menuju direktori di dalam suatu drive:
+- Pergi menuju suatu direktori pada drive yang sama:
 
-`cd {{lokasi/ke/direktori}} /d`
+`cd {{jalan/menuju/direktori}}`
+
+- Pergi menuju direktori tertentu di [d]rive yang berbeda:
+
+`cd /d {{C}}:{{jalan\menuju\direktori}}`

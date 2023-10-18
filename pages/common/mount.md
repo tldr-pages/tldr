@@ -11,6 +11,14 @@
 
 `mount -t {{filesystem_type}} {{path/to/device_file}} {{path/to/target_directory}}`
 
+- Create a specific directory if it does not exist and mount a device to it:
+
+`mount --mkdir {{path/to/device_file}} {{path/to/target_directory}}`
+
+- Mount a device to a directory for a specific user:
+
+`mount -o uid={{user_id}},gid={{group_id}} {{path/to/device_file}} {{path/to/target_directory}}`
+
 - Mount a CD-ROM device (with the filetype ISO9660) to `/cdrom` (readonly):
 
 `mount -t {{iso9660}} -o ro {{/dev/cdrom}} {{/cdrom}}`

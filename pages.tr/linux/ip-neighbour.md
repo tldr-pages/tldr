@@ -1,7 +1,7 @@
 # ip neighbour
 
 > Komşu/ARP tablosu yönetimi IP alt komutu.
-> Daha fazla bilgi: <https://manned.org/ip-neighbour.8>.
+> Daha fazla bilgi için: <https://manned.org/ip-neighbour.8>.
 
 - Komşu/ARP tablosu girdilerini görüntüle:
 

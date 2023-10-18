@@ -2,6 +2,7 @@
 
 > Debian package manager.
 > Some subcommands such as `dpkg deb` have their own usage documentation.
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
 - Install a package:
@@ -10,7 +11,7 @@
 
 - Remove a package:
 
-`dpkg -r {{package_name}}`
+`dpkg -r {{package}}`
 
 - List installed packages:
 
@@ -18,7 +19,7 @@
 
 - List a package's contents:
 
-`dpkg -L {{package_name}}`
+`dpkg -L {{package}}`
 
 - List contents of a local package file:
 
@@ -26,4 +27,4 @@
 
 - Find out which package owns a file:
 
-`dpkg -S {{filename}}`
+`dpkg -S {{path/to/file}}`

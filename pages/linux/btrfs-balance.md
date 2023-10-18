@@ -1,7 +1,7 @@
 # btrfs balance
 
 > Balance block groups on a btrfs filesystem.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-balance>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-balance.html>.
 
 - Show the status of a running or paused balance operation:
 

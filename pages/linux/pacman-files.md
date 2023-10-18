@@ -1,7 +1,7 @@
 # pacman --files
 
 > Arch Linux package manager utility.
-> See also `pkgfile`.
+> See also: `pacman`, `pkgfile`.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Update the package database:
@@ -22,11 +22,7 @@
 
 - List the files owned by a specific package:
 
-`pacman --files --list {{package_name}}`
-
-- List only the absolute path to the files:
-
-`pacman --query --list --quiet {{package_name}}`
+`pacman --files --list {{package}}`
 
 - Display help:
 

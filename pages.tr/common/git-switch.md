@@ -2,7 +2,7 @@
 
 > Git dalları arasında geçiş yap. Gir sürümü 2.23+ olmalıdır.
 > Ayrıca benzer işlev gören `git checkout` komutuna bakılması önerilir.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-switch>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-switch>.
 
 - Varolan bir dala geç:
 

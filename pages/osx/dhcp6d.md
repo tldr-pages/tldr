@@ -10,4 +10,4 @@
 
 - Use a custom configuration:
 
-`dhcp6d {{path/to/config}}`
+`dhcp6d {{path/to/config_file}}`

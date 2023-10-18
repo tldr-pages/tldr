@@ -1,7 +1,7 @@
 # btrfs filesystem
 
 > Gerencia sistemas de arquivos btrfs.
-> Mais informações: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-filesystem>.
+> Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs-filesystem.html>.
 
 - Mostra uso do sistema de arquivos (opcionalmente execute como root para mostrar informações detalhadas):
 

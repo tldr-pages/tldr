@@ -1,7 +1,7 @@
 # git fetch
 
 > Uzak bir depodaki cisim ve referansları indir.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-fetch>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-fetch>.
 
 - (Eğer belirtildiyse) Uzaktaki varsayılan ana akım depodan son değişiklikleri çek:
 

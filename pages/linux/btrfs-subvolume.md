@@ -1,7 +1,7 @@
 # btrfs subvolume
 
 > Manage btrfs subvolumes and snapshots.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-subvolume>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html>.
 
 - Create a new empty subvolume:
 

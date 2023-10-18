@@ -1,7 +1,7 @@
 # git show
 
 > Çeşitli Git nesnelerini (commit'ler, etiketler vs.) görüntüle.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-show>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-show>.
 
 - Son commit'e dair bilgi (değer, mesaj, değişimler ve öbür metaveriler) göster:
 

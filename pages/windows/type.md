@@ -5,4 +5,4 @@
 
 - Display the contents of a specific file:
 
-`type {{path/to/file}}`
+`type {{path\to\file}}`

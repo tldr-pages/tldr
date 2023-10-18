@@ -1,7 +1,7 @@
 # az login
 
 > Melden Sie sich bei Azure an.
-> Teil von `az`, der Befehlszeilenschnittstelle von Azure.
+> Teil von `azure-cli` (auch bekannt als `az`).
 > Weitere Informationen: <https://learn.microsoft.com/cli/azure/reference-index#az_login>.
 
 - Melden Sie sich interaktiv an:
@@ -10,7 +10,7 @@
 
 - Melden Sie sich mit einem Dienstprinzipal mit dem geheimen Clientschlüssel an:
 
-`az login --service-principal --username {{http://azure-cli-service-principal}} --passsword {{secret}} --tenant {{someone.onmicrosoft.com}}`
+`az login --service-principal --username {{http://azure-cli-service-principal}} --password {{secret}} --tenant {{someone.onmicrosoft.com}}`
 
 - Melden Sie sich mit einem Dienstprinzipal mithilfe des Clientzertifikats an:
 

@@ -19,9 +19,9 @@
 
 `node -e "{{code}}"`
 
-- Evaluate and print result, useful to see node's dependencies versions:
+- Evaluate and print the result, useful to print node's dependencies versions:
 
-`node -p "{{process.versions}}"`
+`node -p "process.versions"`
 
 - Activate inspector, pausing execution until a debugger is connected once source code is fully parsed:
 

@@ -1,7 +1,7 @@
 # cp
 
 > 複製檔案與資料夾。
-> 更多資訊可參考：<https://www.gnu.org/software/coreutils/cp>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/cp>.
 
 - 複製一個檔案到新位置，並重新命名：
 

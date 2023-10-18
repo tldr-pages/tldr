@@ -3,7 +3,7 @@
 > A system administrator, tuner, and benchmark tool.
 > More information: <https://manned.org/nmon>.
 
-- Start nmon:
+- Start `nmon`:
 
 `nmon`
 

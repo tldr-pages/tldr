@@ -1,7 +1,7 @@
 # git flow
 
 > Üst seviye depo işlemleri için Git uzantı koleksiyonu.
-> Daha fazla bilgi: <https://github.com/nvie/gitflow>.
+> Daha fazla bilgi için: <https://github.com/nvie/gitflow>.
 
 - Varolan bir git deposu içinde başlat:
 

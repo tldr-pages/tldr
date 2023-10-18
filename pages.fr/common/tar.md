@@ -6,27 +6,31 @@
 
 - Crée une archive à partir de fichiers :
 
-`tar cf {{cible.tar}} {{fichier1 fichier2 fichier3}}`
+`tar cf {{chemin/vers/cible.tar}} {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`
 
-- Crée une archive gzip :
+- Crée une archive gzip à partir de fichiers :
 
-`tar czf {{cible.tar.gz}} {{fichier1 fichier2 fichier3}}`
+`tar czf {{chemin/vers/cible.tar.gz}} {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`
 
-- Extrait une archive (compressée) dans le dossier courant :
+- Crée une archive gzip à partir d'un répertoire en utilisant son chemin relatif :
 
-`tar xf {{source.tar[.gz|.bz2|.xz]}}`
+`tar czf {{chemin/vers/cible.tar.gz}} --directory={{chemin/vers/répertoire}} .`
 
-- Extrait une archive dans un dossier cible :
+- Extrait une archive (compressée) dans le dossier courant en affichant la liste des fichiers traités :
 
-`tar xf {{source.tar}} -C {{dossier}}`
+`tar xvf {{chemin/vers/source.tar[.gz|.bz2|.xz]}}`
+
+- Extrait une archive (compressée) dans un répertoire cible :
+
+`tar xf {{chemin/vers/source.tar[.gz|.bz2|.xz]}} --directory={{répertoire}}`
 
 - Crée une archive compressée, en utilisant le suffixe de l'archive pour déterminer le programme de compression :
 
-`tar caf {{cible.tar.xz}} {{fichier1 fichier2 fichier3}}`
+`tar caf {{chemin/vers/cible.tar.xz}} {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`
 
-- Liste le contenu d'une archive tar :
+- Liste les fichiers contenus dans une archive tar :
 
-`tar tvf {{source.tar}}`
+`tar tvf {{chemin/vers/source.tar}}`
 
 - Extrait les fichiers correspondant au motif :
 

@@ -3,7 +3,7 @@
 > Video game platform by Valve.
 > More information: <https://developer.valvesoftware.com/wiki/Command_Line_Options>.
 
-- Launch Steam, printing debug messages to stdout:
+- Launch Steam, printing debug messages to `stdout`:
 
 `steam`
 

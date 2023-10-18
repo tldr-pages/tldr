@@ -9,7 +9,7 @@
 
 - Use the contents of a file as input of the clipboard:
 
-`cat {{file}} | xsel -ib`
+`cat {{path/to/file}} | xsel -ib`
 
 - Output the clipboard's contents into the terminal (equivalent to `Ctrl + V`):
 
@@ -17,7 +17,7 @@
 
 - Output the clipboard's contents into a file:
 
-`xsel -ob > {{file}}`
+`xsel -ob > {{path/to/file}}`
 
 - Clear the clipboard:
 

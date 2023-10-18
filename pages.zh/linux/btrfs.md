@@ -2,7 +2,7 @@
 
 > 一种基于写时复制（COW）原理的 Linux 文件系统。
 > 此命令也有关于其子命令的文件，例如：`btrfs device`.
-> 更多信息：<https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs>.
+> 更多信息：<https://btrfs.readthedocs.io/en/latest/btrfs.html>.
 
 - 创建子卷：
 

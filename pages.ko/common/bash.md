@@ -2,7 +2,7 @@
 
 > Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터.
 > 참조 : `zsh`, `histexpand` (history expansion).
-> 더 많은 정보:: <https://gnu.org/software/bash/>.
+> 더 많은 정보: <https://gnu.org/software/bash/>.
 
 - 대화형 쉘 시작하기:
 
@@ -28,6 +28,6 @@
 
 `bash -e {{경로/대상/script.sh}}`
 
-- stdin에서 bash 실행하기:
+- `stdin`에서 bash 실행하기:
 
 `{{echo "echo 'bash가 실행되었습니다'"}} | bash`

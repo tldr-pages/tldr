@@ -1,7 +1,7 @@
 # btrfs property
 
 > Obtém, define ou lista propriedades para um determinado objeto de sistema de arquivos btrfs (arquivos, diretórios, subvolumes, sistemas de arquivos ou dispositivos).
-> Mais informações: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-property>.
+> Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs-property.html>.
 
 - Lista as propriedades disponíveis (e descrições) para o objeto btrfs fornecido:
 

@@ -2,7 +2,7 @@
 
 > Système de fichiers basé sur le principe de copie à l’écriture ("copy-on-write", souvent désigné par son sigle anglais COW) pour Linux.
 > Certaines sous-commandes comme `btrfs device` ont leur propre documentation.
-> Plus d'informations : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs>.
+> Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs.html>.
 
 - Créer un sous-volume :
 

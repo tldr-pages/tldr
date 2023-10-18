@@ -3,7 +3,7 @@
 > Persistent key-value database.
 > More information: <https://redis.io>.
 
-- Start Redis server, using the default port (6379), and write logs to stdout:
+- Start Redis server, using the default port (6379), and write logs to `stdout`:
 
 `redis-server`
 

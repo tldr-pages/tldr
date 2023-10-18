@@ -1,6 +1,6 @@
 # scoop
 
-> A command-line installer for Windows.
+> The Scoop package manager.
 > More information: <https://scoop.sh>.
 
 - Install a package:
@@ -13,7 +13,7 @@
 
 - Update all installed packages:
 
-`scoop update *`
+`scoop update --all`
 
 - List installed packages:
 
@@ -29,4 +29,4 @@
 
 - Remove old versions of all packages and clear the download cache:
 
-`scoop cleanup -k *`
+`scoop cleanup --cache --all`

@@ -1,7 +1,7 @@
 # grub-script-check
 
 > The program `grub-script-check` takes a GRUB script file and checks it for syntax errors.
-> It may take a path as a non-option argument. If none is supplied, it will read from standard input.
+> It may take a path as a non-option argument. If none is supplied, it will read from `stdin`.
 > More information: <https://www.gnu.org/software/grub/manual/grub/html_node/Invoking-grub_002dscript_002dcheck.html>.
 
 - Check a specific script file for syntax errors:

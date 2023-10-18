@@ -1,6 +1,6 @@
 # git push
 
-> Invia i commit a un repository remoto.
+> Invia i commit ad un repository remoto.
 > Maggiori informazioni: <https://git-scm.com/docs/git-push>.
 
 - Invia le modifiche fatte nel ramo corrente locale al corrispondente ramo remoto:
@@ -11,11 +11,15 @@
 
 `git push {{nome_repository_remoto}} {{nome_ramo}}`
 
-- Pubblica il ramo corrente in un repository remoto, specificando il nome del ramo remoto:
+- Invia le modifiche fatte in uno specifico ramo locale al corrispondente ramo remoto ed imposta il ramo remoto come destinazione di default per i push/pull del ramo locale:
 
-`git push {{nome_repository_remoto}} -u {{nome_ramo_remoto}}`
+`git push -u {{nome_repository_remoto}} {{nome_ramo}}`
 
-- Invia le modifiche fatte in ogni ramo locale ai corrispondenti rami remoti:
+- Invia le modifiche fatte in uno specifico ramo locale ad uno specifico ramo remoto:
+
+`git push {{nome_repository_remoto}} {{nome_ramo}}:{{nome_ramo_remoto}}`
+
+- Invia le modifiche fatte in ogni ramo locale ai corrispondenti rami remoti in uno specifico repository remoto:
 
 `git push --all {{nome_repository_remoto}}`
 

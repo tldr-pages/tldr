@@ -1,7 +1,8 @@
 # pacman
 
 > Arch Linux paket yönetim aracı.
-> Daha fazla bilgi: <https://man.archlinux.org/man/pacman.8>.
+> Ayrıca bakınız: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
+> Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
 
 - Tüm paketleri senkronize et ve güncelle:
 

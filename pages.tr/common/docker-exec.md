@@ -1,7 +1,7 @@
 # docker exec
 
 > Halihazırda çalışan bir Docker konteyneri üstünde komut çalıştır.
-> Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/exec/>.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/exec/>.
 
 - Halihazırda çalışan bir konteynerin üstünde interaktif bir kabuk oturumunu çalıştır:
 
@@ -15,7 +15,7 @@
 
 `docker exec --interactive -tty --workdir {{örnek/dizin}} {{konteyner_ismi}} {{komut}}`
 
-- Varolan konteyner üstünde arkaplanda çalışmak üzere bir komut çalıştır ancak stdin'i açık tut:
+- Varolan konteyner üstünde arkaplanda çalışmak üzere bir komut çalıştır ancak `stdin`'i açık tut:
 
 `docker exec --interactive --detach {{konteyner_ismi}} {{komut}}`
 

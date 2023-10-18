@@ -1,6 +1,6 @@
 # glab mr create
 
-> Manage GitLab merge requests from the command-line.
+> Manage GitLab merge requests.
 > More information: <https://glab.readthedocs.io/en/latest/mr/create.html>.
 
 - Interactively create a merge request:

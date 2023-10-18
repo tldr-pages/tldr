@@ -1,7 +1,7 @@
 # btrfs version
 
 > Display btrfs-progs version.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs.html>.
 
 - Display btrfs-progs version:
 

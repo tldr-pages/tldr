@@ -5,20 +5,20 @@
 
 - Sposta file:
 
-`mv {{sorgente}} {{destinazione}}`
+`mv {{percorso/del/sorgente}} {{percorso/del/destinazione}}`
 
 - Sposta file senza chiedere conferma prima di sovrascrivere file esistenti:
 
-`mv -f {{sorgente}} {{destinazione}}`
+`mv -f {{percorso/del/sorgente}} {{percorso/del/destinazione}}`
 
 - Sposta file interattivamente, chiedendo conferma prima di sovrascrivere file esistenti:
 
-`mv -i {{sorgente}} {{destinazione}}`
+`mv -i {{percorso/del/sorgente}} {{percorso/del/destinazione}}`
 
 - Sposta file senza sovrascrivere file esistenti:
 
-`mv -n {{sorgente}} {{destinazione}}`
+`mv -n {{percorso/del/sorgente}} {{percorso/del/destinazione}}`
 
 - Sposta file in modalità verbosa, mostrando a schermo ogni file che viene spostato:
 
-`mv -v {{sorgente}} {{destinazione}}`
+`mv -v {{percorso/del/sorgente}} {{percorso/del/destinazione}}`

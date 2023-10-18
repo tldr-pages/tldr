@@ -7,6 +7,10 @@
 
 `objdump -f {{binary}}`
 
+- Display all header information:
+
+`objdump -x {{binary}}`
+
 - Display the disassembled output of executable sections:
 
 `objdump -d {{binary}}`

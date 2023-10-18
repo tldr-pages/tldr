@@ -6,12 +6,12 @@
 
 - Compile an Inno Setup script:
 
-`iscc {{path/to/file.iss}}`
+`iscc {{path\to\file.iss}}`
 
 - Quietly compile an Inno Setup installer:
 
-`iscc /Q {{path/to/file.iss}}`
+`iscc /Q {{path\to\file.iss}}`
 
 - Compile a signed Inno Setup installer:
 
-`iscc /S={{name}}={{command}} {{path/to/file.iss}}`
+`iscc /S={{name}}={{command}} {{path\to\file.iss}}`

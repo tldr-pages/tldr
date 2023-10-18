@@ -1,6 +1,6 @@
 # gh repo
 
-> Work with GitHub repositories on the command-line.
+> Work with GitHub repositories.
 > More information: <https://cli.github.com/manual/gh_repo>.
 
 - Create a new repository (if the repository name is not set, the default name will be the name of the current directory):
@@ -23,9 +23,9 @@
 
 `gh repo list {{owner}}`
 
-- List only non-forks repositories:
+- List only non-forks repositories and limit the number of repositories to list (default: 30):
 
-`gh repo list {{owner}} --non-forks`
+`gh repo list {{owner}} --source -L {{limit}}`
 
 - List repositories with a specific primary coding language:
 

@@ -1,7 +1,7 @@
 # btrfs rescue
 
 > Tenta recuperar um sistema de arquivos btrfs danificado.
-> Mais informações: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-rescue>.
+> Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html>.
 
 - Reconstrói a árvore de metadados do sistema de arquivos (muito lento):
 

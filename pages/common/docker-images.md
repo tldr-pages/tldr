@@ -22,3 +22,7 @@
 - List images that contain a substring in their name:
 
 `docker images "{{*name*}}"`
+
+- Sort images by size:
+
+`docker images --format "{{.ID}}\t{{.Size}}\t{{.Repository}}:{{.Tag}}" | sort -k 2 -h`

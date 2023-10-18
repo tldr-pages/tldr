@@ -14,7 +14,7 @@
 
 - Execute a command remotely and output the result to a file:
 
-`psexec \\{{remote_host}} cmd /c {{command}} -an ^>{{path/to/file.txt}}`
+`psexec \\{{remote_host}} cmd /c {{command}} -an ^>{{path\to\file.txt}}`
 
 - Execute a program to interact with users:
 

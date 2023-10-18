@@ -7,9 +7,9 @@
 
 `xml escape "{{<a1>}}"`
 
-- Escape special XML characters from stdin:
+- Escape special XML characters from `stdin`:
 
-`echo  "{{<a1>}}" | xml escape`
+`echo "{{<a1>}}" | xml escape`
 
 - Display help for the `escape` subcommand:
 

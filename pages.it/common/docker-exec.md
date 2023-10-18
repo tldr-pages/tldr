@@ -15,7 +15,7 @@
 
 `docker exec --interactive -tty --workdir {{percorso/della/directory}} {{nome_container}} {{comando}}`
 
-- Esegui un comando in background su un container esistente, mantenendo aperto stdin:
+- Esegui un comando in background su un container esistente, mantenendo aperto `stdin`:
 
 `docker exec --interactive --detach {{nome_container}} {{comando}}`
 

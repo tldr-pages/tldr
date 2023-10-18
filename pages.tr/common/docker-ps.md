@@ -1,7 +1,7 @@
 # docker ps
 
 > Docker konteynerlerini sırala.
-> Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/ps/>.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/ps/>.
 
 - Halihazırda çalışan docker konteynerlerini listele:
 

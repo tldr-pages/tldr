@@ -23,6 +23,6 @@
 
 `dash -e {{percorso/dello/script.sh}}`
 
-- Leggi ed esegui commandi dal stdin:
+- Leggi ed esegui commandi dal `stdin`:
 
 `dash -s`

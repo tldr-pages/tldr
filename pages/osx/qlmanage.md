@@ -5,7 +5,7 @@
 
 - Display QuickLook for one or multiple files:
 
-`qlmanage -p {{filename}} {{filename2}}`
+`qlmanage -p {{path/to/file1 path/to/file2 ...}}`
 
 - Compute 300px wide PNG thumbnails of all JPEGs in the current directory and put them in a directory:
 

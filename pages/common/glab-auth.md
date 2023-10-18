@@ -1,6 +1,6 @@
 # glab auth
 
-> Authenticate with a GitLab host from the command-line.
+> Authenticate with a GitLab host.
 > More information: <https://glab.readthedocs.io/en/latest/auth>.
 
 - Log in with interactive prompt:

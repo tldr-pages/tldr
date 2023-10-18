@@ -5,13 +5,13 @@
 
 - Compress a file:
 
-`lz4 {{file}}`
+`lz4 {{path/to/file}}`
 
 - Decompress a file:
 
 `lz4 -d {{file.lz4}}`
 
-- Decompress a file and write to stdout:
+- Decompress a file and write to `stdout`:
 
 `lz4 -dc {{file.lz4}}`
 
@@ -25,4 +25,4 @@
 
 - Compress a file using the best compression:
 
-`lz4 -9 {{file}}`
+`lz4 -9 {{path/to/file}}`

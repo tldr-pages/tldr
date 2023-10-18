@@ -1,18 +1,18 @@
 # alias
 
-> Takma adlar/kısayollar oluşturur -- bir komut dizesi ile değiştirilen sözcükler.
+> Takma adlar/kısayollar (bir komut dizesi ile değiştirilen sözcükler) oluşturur.
 > Kısayollar, kabuğun yapılandırma dosyasında (örneğin `~/.bashrc`) tanımlanmadığı sürece geçerli kabuk oturumuyla birlikte sona erer.
-> Daha fazla bilgi: <https://tldp.org/LDP/abs/html/aliases.html>.
+> Daha fazla bilgi için: <https://tldp.org/LDP/abs/html/aliases.html>.
 
 - Tüm kısayolları listele:
 
 `alias`
 
-- Genel bir kısayol olustur:
+- Genel bir kısayol oluştur:
 
 `alias {{kelime}}="{{komut}}"`
 
-- Bir kısayolun verildigi komutu goster:
+- Bir kısayolun verildigi komutu göster:
 
 `alias {{kelime}}`
 

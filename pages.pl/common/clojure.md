@@ -2,6 +2,6 @@
 
 > To polecenie jest aliasem `clj`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr clj`

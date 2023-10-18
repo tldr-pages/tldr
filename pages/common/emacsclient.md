@@ -16,7 +16,7 @@
 
 `emacsclient --create-frame {{path/to/file}}`
 
-- Evaluate a command, printing the output to stdout, and then quit:
+- Evaluate a command, printing the output to `stdout`, and then quit:
 
 `emacsclient --eval '({{command}})'`
 

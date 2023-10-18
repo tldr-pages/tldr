@@ -1,7 +1,7 @@
 # git check-ref-format
 
 > Girilen referans isminin kabul edilebilir olup olmadığını kontrol eder, ve eğer kabul edilemezse sıfır olmayan bir çıktı verir.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-check-ref-format>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-check-ref-format>.
 
 - Belirtilen referans ismini biçimini kontrol et:
 

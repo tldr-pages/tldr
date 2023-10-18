@@ -8,7 +8,7 @@
 
 `samtools view -S -b {{input.sam}} > {{output.bam}}`
 
-- Take input from stdin (-) and print the SAM header and any reads overlapping a specific region to stdout:
+- Take input from `stdin` (-) and print the SAM header and any reads overlapping a specific region to `stdout`:
 
 `{{other_command}} | samtools view -h - chromosome:start-end`
 
@@ -24,7 +24,7 @@
 
 `samtools flagstat {{sorted_input}}`
 
-- Count alignments to each index (chromosome / contig):
+- Count alignments to each index (chromosome/contig):
 
 `samtools idxstats {{sorted_indexed_input}}`
 

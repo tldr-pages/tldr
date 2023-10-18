@@ -11,7 +11,7 @@
 
 `gitlint --commits {{single_refspec_argument}}`
 
-- Path to a directory or python module with extra user-defined rules:
+- Path to a directory or Python module with extra user-defined rules:
 
 `gitlint --extra-path {{path/to/directory}}`
 

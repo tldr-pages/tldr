@@ -1,24 +1,24 @@
 # cat
 
-> Dosyaları yazdırın ve birleştirin.
-> Daha fazla bilgi: <https://www.gnu.org/software/coreutils/cat>.
+> Dosyaları yazdır ve birleştir.
+> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/cat>.
 
-- Bir dosyanın içeriğini standart çıktıya yazdırın:
+- Bir dosyanın içeriğini standart çıktıya yazdır:
 
 `cat {{dosya/yolu}}`
 
-- Birkaç dosyayı bir çıktı dosyasında birleştirin:
+- Birkaç dosyayı bir çıktı dosyasında birleştir:
 
-`cat {{dosya/yolu1}} {{dosya/yolu2}} > {{cikti/dosyasi/yolu}}`
+`cat {{dosya/yolu1}} {{dosya/yolu2}} > {{çıktı/dosyası/yolu}}`
 
-- Birkaç dosyayı bir çıktı dosyasına ekler:
+- Birkaç dosyayı bir çıktı dosyasına ekle:
 
-`cat {{dosya/yolu1}} {{dosya/yolu2}} >> {{cikti/dosyasi/yolu}}`
+`cat {{dosya/yolu1}} {{dosya/yolu2}} >> {{çıktı/dosyası/yolu}}`
 
-- Tüm çıkış satırlarını numaralandırın:
+- Tüm çıkış satırlarını numaralandır:
 
 `cat -n {{dosya/yolu}}`
 
-- Yazdırılamayan ve boşluk karakterleri görüntüleyin (ASCII değilse `M-` önekiyle):
+- Yazdırılamayan ve boşluk karakterleri görüntüle (ASCII değilse `M-` önekiyle):
 
 `cat -v -t -e {{dosya/yolu}}`

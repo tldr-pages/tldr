@@ -1,7 +1,7 @@
 # choco install
 
 > Instal satu paket atau lebih dengan Chocolatey.
-> Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/install>.
+> Informasi lebih lanjut: <https://chocolatey.org/docs/commands-install>.
 
 - Instal satu paket atau lebih paket yang dipisahkan oleh spasi:
 

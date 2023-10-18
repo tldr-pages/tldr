@@ -1,7 +1,7 @@
 # daemonize
 
 > Lance une commande (qui ne se "démonise" pas elle-même) comme démon UNIX.
-> Plus d'informations : <https://software.clapper.org/daemonize/>.
+> Plus d'informations : <http://software.clapper.org/daemonize/>.
 
 - Lance une commande comme démon :
 

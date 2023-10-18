@@ -1,6 +1,6 @@
 # tcsh
 
-> C shell with file name completion and command line editing.
+> C shell with file name completion and command-line editing.
 > See also: `csh`.
 > More information: <https://manned.org/tcsh>.
 
@@ -24,6 +24,6 @@
 
 `tcsh -n {{path/to/script.tcsh}}`
 
-- Execute specific commands from stdin:
+- Execute specific commands from `stdin`:
 
 `{{echo "echo 'tcsh is executed'"}} | tcsh`

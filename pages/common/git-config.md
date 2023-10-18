@@ -8,7 +8,7 @@
 
 `git config --list --local`
 
-- List only global configuration entries (stored in `~/.gitconfig`):
+- List only global configuration entries (stored in `~/.gitconfig` by default or in `$XDG_CONFIG_HOME/git/config` if such a file exists):
 
 `git config --list --global`
 

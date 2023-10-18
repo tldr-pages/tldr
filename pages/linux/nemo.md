@@ -1,16 +1,24 @@
 # nemo
 
-> File manager and graphical shell for Cinnamon.
-> More information: <https://github.com/linuxmint/nemo>.
+> Manages files and directories in Cinnamon desktop environment.
+> More information: <https://manned.org/nemo>.
 
-- Open a new window showing the user's home directory:
+- Open the current user home directory:
 
 `nemo`
 
-- Open a new window showing the current directory:
+- Open specific directories in separate windows:
 
-`nemo .`
+`nemo {{path/to/directory1 path/to/directory2 ...}}`
 
-- Close all open nemo windows:
+- Open specific directories in tabs:
+
+`nemo --tabs {{path/to/directory1 path/to/directory2 ...}}`
+
+- Open a directory with a specific window size:
+
+`nemo --geometry={{600}}x{{400}} {{path/to/directory}}`
+
+- Close all windows:
 
 `nemo --quit`

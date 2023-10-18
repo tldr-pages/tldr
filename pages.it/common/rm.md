@@ -17,7 +17,7 @@
 
 - Rimuovi file interattivamente, chiedendo conferma prima di rimuovere ogni file:
 
-`rm -i {{file(s)}}`
+`rm -i {{percorso/del/file1 percorso/del/file2 ...}}`
 
 - Rimuovi file in modalità verbosa, scrivendo un messaggio a schermo per ogni file rimosso:
 

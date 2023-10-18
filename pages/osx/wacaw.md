@@ -9,11 +9,11 @@
 
 - Record a video:
 
-`wacaw --video {{filename}} --duration {{duration_in_seconds}}`
+`wacaw --video {{filename}} --duration {{10}}`
 
 - Take a picture with custom resolution:
 
-`wacaw --width {{width}} --height {{height}} {{filename}}`
+`wacaw --width {{width}} --height {{100}} {{filename}}`
 
 - Copy image just taken to clipboard:
 

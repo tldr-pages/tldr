@@ -27,6 +27,6 @@
 
 `dnf list --installed`
 
-- Encuentra que paquete provee un archivo determinado:
+- Encuentra qué paquete provee un archivo determinado:
 
 `dnf provides {{archivo}}`

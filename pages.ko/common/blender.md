@@ -1,7 +1,7 @@
 # blender
 
 > Blender 3D 컴퓨터 그래픽스 어플리케이션의 커맨드라인 인터페이스. 인자는 주어진 순서대로 실행.
-> 더 많은 정보: <https://manned.org/blender>.
+> 더 많은 정보: <https://docs.blender.org/manual/en/latest/advanced/command_line/arguments.html>.
 
 - UI를 로드하지 않고 background에서 애니메이션의 모든 프레임을 렌더링.(출력은 `/tmp`에 저장):
 

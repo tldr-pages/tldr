@@ -2,7 +2,7 @@
 
 > Pengarsip file dengan rasio kompresi yang tinggi.
 > Serupa dengan `7z` namun mendukung lebih sedikit format file arsip dan dapat digunakan lintas sistem operasi.
-> Informasi lebih lanjut: <https://www.7-zip.org>.
+> Informasi lebih lanjut: <https://manned.org/7za>.
 
 - Meng[a]rsipkan sebuah file atau direktori:
 
@@ -20,7 +20,7 @@
 
 `7za x {{jalan/menuju/arsip.7z}} -o{{jalan/menuju/direktori}}`
 
-- Mengekstrak sebuah file arsip menuju stdout:
+- Mengekstrak sebuah file arsip menuju `stdout`:
 
 `7za x {{jalan/menuju/arsip.7z}} -so`
 

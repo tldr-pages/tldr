@@ -3,11 +3,11 @@
 > JavaScript bundler and minifier built for speed.
 > More information: <https://esbuild.github.io/>.
 
-- Bundle a JavaScript application and print to stdout:
+- Bundle a JavaScript application and print to `stdout`:
 
 `esbuild --bundle {{path/to/file.js}}`
 
-- Bundle a JSX application from stdin:
+- Bundle a JSX application from `stdin`:
 
 `esbuild --bundle --outfile={{path/to/out.js}} < {{path/to/file.jsx}}`
 

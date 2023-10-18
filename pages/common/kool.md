@@ -1,6 +1,6 @@
 # kool
 
-> Build software development environments from the command-line.
+> Build software development environments.
 > More information: <https://kool.dev/docs/>.
 
 - Create a project using a specific preset:

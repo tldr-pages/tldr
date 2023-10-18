@@ -1,29 +1,29 @@
 # bat
 
-> Dosyaları yazdırın ve birleştirin.
+> Dosyaları yazdır ve birleştir.
 > Sözdizimi vurgulama ve Git entegrasyonuna sahip bir `cat` klonu.
-> Daha fazla bilgi: <https://github.com/sharkdp/bat>.
+> Daha fazla bilgi için: <https://github.com/sharkdp/bat>.
 
-- Bir dosyanın içeriğini standart çıktıya yazdırın:
+- Bir dosyanın içeriğini standart çıktıya yazdır:
 
 `bat {{dosya}}`
 
-- Birkaç dosyayı hedef dosyada birleştirin:
+- Birkaç dosyayı hedef dosyada birleştir:
 
 `bat {{dosya1}} {{dosya2}} > {{hedef_dosya}}`
 
-- Birkaç dosyayı hedef dosyaya ekler:
+- Birkaç dosyayı hedef dosyaya ekle:
 
 `bat {{dosya1}} {{dosya2}} >> {{hedef_dosya}}`
 
-- Tüm çıktı satırlarını numaralandırın:
+- Tüm çıktı satırlarını numaralandır:
 
 `bat -n {{dosya}}`
 
-- Bir JSON dosyasının sözdizimini vurgulayın:
+- Bir JSON dosyasının sözdizimini vurgula:
 
 `bat --language json {{dosya.json}}`
 
-- Desteklenen tüm dilleri görüntüleyin:
+- Desteklenen tüm dilleri görüntüle:
 
 `bat --list-languages`

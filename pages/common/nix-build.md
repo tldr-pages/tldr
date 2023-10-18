@@ -1,12 +1,13 @@
 # nix-build
 
 > Build a Nix expression.
-> More information: <https://nixos.org/releases/nix/latest/manual#sec-nix-build>.
+> See also: `tldr nix3 build`.
+> More information: <https://nixos.org/manual/nix/stable/command-ref/nix-build.html>.
 
 - Build a Nix expression:
 
-`nix-build --attr {{expression_name}}`
+`nix-build '<nixpkgs>' --attr {{firefox}}`
 
 - Build a sandboxed Nix expression (on non-NixOS):
 
-`nix-build --attr {{expression_name}} --option sandbox true`
+`nix-build '<nixpkgs>' --attr {{firefox}} --option sandbox true`

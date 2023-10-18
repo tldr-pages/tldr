@@ -6,8 +6,8 @@
 
 - Calculate a hash for a specified file using the SHA256 algorithm:
 
-`Get-FileHash {{path/to/file}}`
+`Get-FileHash {{path\to\file}}`
 
 - Calculate a hash for a specified file using a specified algorithm:
 
-`Get-FileHash {{path/to/file}} -Algorithm {{SHA1|SHA384|SHA256|SHA512|MD5}}`
+`Get-FileHash {{path\to\file}} -Algorithm {{SHA1|SHA384|SHA256|SHA512|MD5}}`

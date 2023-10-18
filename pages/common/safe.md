@@ -1,6 +1,6 @@
 # safe
 
-> A CLI to interact with HashiCorp Vault.
+> Interact with HashiCorp Vault.
 > More information: <https://github.com/starkandwayne/safe>.
 
 - Add a safe target:
