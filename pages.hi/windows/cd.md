@@ -1,5 +1,3 @@
-Here's the translation of the provided text into Hindi:
-
 # cd
 
 > वर्तमान निर्देशिका के बारे में जानकारी प्रदान करता है और आपको दूसरे में जाने देता है।
