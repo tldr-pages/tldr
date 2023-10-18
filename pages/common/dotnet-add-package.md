@@ -23,6 +23,6 @@
 
 `dotnet add package {{package}} --framework {{net7.0}}`
 
-- Add and specify the directory where to restore packages. (In `~/.nuget/packages` by default):
+- Add and specify the directory where to restore packages (`~/.nuget/packages` by default):
 
 `dotnet add package {{package}} --package-directory {{path/to/directory}}`
