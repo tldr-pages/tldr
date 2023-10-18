@@ -1,6 +1,6 @@
 # dotnet add package
 
-> Add or update .NET package reference in a project file.
+> Add or update a .NET package reference in a project file.
 > More information: <https://learn.microsoft.com/dotnet/core/tools/dotnet-add-package>.
 
 - Add a package to the project in the current directory:
