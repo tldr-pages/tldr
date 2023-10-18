@@ -1,20 +1,32 @@
 # nmcli
 
-> NetworkManager का उपयोग करके नेटवर्क कॉन्फ़िगरेशन का प्रबंधन करें।
-> अधिक जानकारी: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+> Manage the network configuration using NetworkManager.
+> More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
-- NetworkManager सीक्रेट/पॉलकिट एजेंट के रूप में `nmcli` को चलाने के लिए दस्तावेज़ देखें:
+- View documentation for running `nmcli` as a NetworkManager secret/polkit agent:
 
 `tldr nmcli agent`
 
-- नेटवर्क कनेक्शन का प्रबंधन करने के लिए दस्तावेज़ देखें:
+- View documentation for managing network connections:
 
 `tldr nmcli connection`
 
-- नेटवर्क इंटरफेस का प्रबंधन करने और नई Wi-Fi कनेक्शन स्थापित करने के लिए दस्तावेज़ देखें:
+- View documentation for managing network interfaces and establishing new Wi-Fi connections:
 
 `tldr nmcli device`
 
-- NetworkManager की सामान्य सेटिंग्स का प्रबंधन करने के लिए दस्तावेज़ देखें:
+- View documentation for managing general settings of NetworkManager:
 
 `tldr nmcli general`
+
+- View documentation for NetworkManager's activity monitor:
+
+`tldr nmcli monitor`
+
+- View documentation for enabling/disabling and checking the status of networking:
+
+`tldr nmcli networking`
+
+- View documentation for managing radio switches:
+
+`tldr nmcli radio`
