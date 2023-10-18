@@ -7,7 +7,7 @@
 
 `palmtopnm {{path/to/file.palm}}`
 
-- Display various interesting information about the input Palm Bitmap file and process:
+- Display various information about the input Palm Bitmap file and process:
 
 `palmtopnm -verbose {{path/to/file.palm}}`
 
