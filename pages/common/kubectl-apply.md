@@ -18,5 +18,3 @@
 - View the latest last-applied-configuration annotations by type/name or file:
 
 `kubectl apply view-last-applied -f {{resource_filename}}`
-
-
