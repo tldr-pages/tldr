@@ -1,6 +1,6 @@
 # dotnet add reference
 
-> Adds .NET project-to-project references.
+> Add .NET project-to-project references.
 > More information: <https://learn.microsoft.com/dotnet/core/tools/dotnet-add-reference>.
 
 - Add a reference to the project in the current directory:
