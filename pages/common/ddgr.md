@@ -3,7 +3,7 @@
 > Commandline utility to search DuckDuckGo (html version) from the terminal.
 > More information: <https://github.com/jarun/ddg>.
 
-- To initiate an interactive mode:
+- Start interactive mode:
 
 `ddgr`
 
@@ -11,19 +11,19 @@
 
 `ddgr {{keyword}}`
 
-- To limit the search results number:
+- Limit the search results number to N:
 
 `ddgr -n {{N}} {{keyword}}`
 
-- To show complete URL in search results:
+- Show the complete URL in search results:
 
 `ddgr -x {{keyword}}`
 
-- Search DuckDuckGo for a keyword and open the first result in a browser:
+- Search DuckDuckGo for a keyword and open the first result in the browser:
 
 `ddgr !w {{keyword}}`
 
-- Website specific search:
+- Perform a website specific search:
 
 `ddgr -w {{site}} {{keyword}}`
 
@@ -31,6 +31,6 @@
 
 `ddgr {{keyword}} filetype:{{filetype}}`
 
-- For more help in interactive mode:
+- Display help in interactive mode:
 
 `?`
