@@ -9,4 +9,4 @@
 
 - नोलॉगिन लॉगिन शैल वाले उपयोक्ताओं के लिए संविभिन्न संदेश का अनुकूलन करें:
 
-`echo "{{declined_login_message}}" > /etc/nologin.txt`
+`echo "{{अस्वीकृत_लॉगिन_संदेश}}" > /etc/nologin.txt`
