@@ -1,6 +1,6 @@
 # uncompress
 
->Uncompress files compressed using the Unix `compress` command.
+> Uncompress files compressed using the Unix `compress` command.
 >for more information: <https://linux.die.net/man/1/uncompress>.
 
 - Uncompress Specific Files:
