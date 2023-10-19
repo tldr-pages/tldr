@@ -13,7 +13,7 @@
 
 - Write to standard output (no files are changed and no `.Z` files are created):
 
-`uncompress -c {{file1.Z file2.Z ...}}`
+`uncompress -c {{path/to/file1.Z path/to/file2.Z ...}}`
 
 - Verbose Mode (Write to Standard Error About Percentage Reduction or Expansion):
 
