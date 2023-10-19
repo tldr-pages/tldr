@@ -1,33 +1,32 @@
-# compress
+# # compress
+> Compresses files using the Unix `compress` command. For more detailed information, please refer to the [compress manual page] <https://man7.org/linux/man-pages/man1/compress.1p.html>.
 
-> Compress the  files 
-See also: compress
-> More information: <https://man7.org/linux/man-pages/man1/compress.1p.html>.
+**Compress Specific Files:**
 
-- Compress the specific files:
+- `compress {{filename}}`
 
-`compress filename`
+**Compress Specific Files while Ignoring Nonexistent Ones:**
 
-- Compress specific files ignoring nonexistent ones:
+- `compress --force {{filename}}`
 
-`compress --force filename`
+**Set Maximum Compression Bits (9-16 bits):**
 
-- Compress file with Specifies the maximum number of bits to use to replace common substrings in the file. The value of the Bits variable must be in the range from 9 bits through 16 bits, with the default being 16 bits. When compressing data, the algorithm first uses all of the 9-bit codes (257 through 512) to replace as many substrings as possible. Then it uses all 10-bit codes, and so on, continuing until the limit specified by the -b flag is reached:
+- `compress -b`
+    
+The `-b` flag specifies the maximum number of bits to use when replacing common substrings in the file. It must be in the range of 9 to 16 bits, with the default being 16 bits. The algorithm initially uses 9-bit codes and progresses to higher bit codes until the limit is reached.
+    
+**Write to Standard Output (No Files Are Changed):**
 
-`compress -b`
+- `compress -c {{filename}}`
 
-- Writes to standard output. No files are changed:
+**Decompress Files (Function Like uncompress):**
 
-`compress -c filename`
+- `compress -d {{filename}}`
+   
+**Omit Compressed File Header:**
 
-- Causes the compress command to function exactly like the uncompress command :
+- `compress -n {{filename}}`
 
-`compress -d filename`
+**Display Compression Percentage:**
 
-- Omits the compressed file header from the compressed file :
-
-`compress -n filename`
-
-- Writes the percentage of compression :
-  
-`compress -v filename`
+- `compress -v {{filename}}`
