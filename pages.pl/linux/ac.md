@@ -1,24 +1,24 @@
 # ac
 
-> Wyświetla statystyki jak długo użytkownicy byli podłączeni.
+> Wyświetl statystyki dotyczące czasu połączenia użytkowników.
 > Więcej informacji: <https://www.gnu.org/software/acct/manual/accounting.html#ac>.
 
-- Wyświetenie informacji w godzinach jak długo aktualny użytkownik był podłączony:
+- Wyświetl w godzinach jak długo aktualny użytkownik był połączony:
 
 `ac`
 
-- Wyświetlenie ile godzin użytkownicy byli podłączeni:
+- Wyświetl ile godzin użytkownicy byli połączeni:
 
 `ac --individual-totals`
 
-- Wyświetlenie ile godzin konkretny użytkownik był podłączony:
+- Wyświetl ile godzin konkretny użytkownik był połączony:
 
 `ac --individual-totals {{użytkownik}}`
 
-- Wyświetlenie ile godzin per dzień konkretny użytkownik był podłączony (z podsumowaniem):
+- Wyświetl ile godzin na dzień konkretny użytkownik był podłączony (z podsumowaniem):
 
 `ac --daily-totals --individual-totals {{użytkownik}}`
 
-- Także wyświetlaj dodatkowe szczegóły:
+- Wyświetlaj także dodatkowe szczegóły:
 
 `ac --compatibility`
