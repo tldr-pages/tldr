@@ -9,7 +9,7 @@
 
 - Uncompress specific files while ignoring non-existent ones:
 
-`uncompress -force {{file1.Z file2.Z ...}}`
+`uncompress -force {{path/to/file1.Z path/to/file2.Z ...}}`
 
 - Write to standard output (no files are changed and no `.Z` files are created):
 
