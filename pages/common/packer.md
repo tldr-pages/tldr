@@ -13,4 +13,4 @@
 
 - Format a Packer image config:
 
-`packer fmt {{path/to/config.json}}`
+`packer fmt {{path/to/config.pkr.hcl}}`
