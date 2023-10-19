@@ -375,7 +375,15 @@ Not translated yet.
 
 ### ro
 
-Not translated yet.
+```markdown
+# example
+
+> Această comandă este un alias al `example`.
+
+- Vizualizați documentația pentru comanda originală:
+
+`tldr example`
+```
 
 ---
 
