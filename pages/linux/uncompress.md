@@ -11,7 +11,7 @@
 
 `uncompress -force {{file1.Z file2.Z ...}}`
 
-- Write to Standard Output (No Files Are Changed and No `.Z` Files Are Created):
+- Write to standard output (no files are changed and no `.Z` files are created):
 
 `uncompress -c {{file1.Z file2.Z ...}}`
 
