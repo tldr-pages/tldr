@@ -3,22 +3,22 @@
 > Edit Kubernetes resources.
 > More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#edit>.
 
-- Edit a pod:
+- Label a pod:
 
-`kubectl edit pod/{{pod_name}}`
+`kubectl label pod {{pod_name}} {{key}}={{value}}`
 
-- Edit a deployment:
+- Update a pod label by overwriting the existing value:
 
-`kubectl edit deployment/{{deployment_name}}`
+`kubectl label --overwrite {{pod_name}} {{key}}={{value}}`
 
-- Edit a service:
+- Label all pods in the namespace:
 
-`kubectl edit svc/{{service_name}}`
+`kubectl label pods --all {{key}}={{value}}`
 
-- Edit a resource using a specific editor:
+- Label pod identified by pod definition file:
 
-`KUBE_EDITOR={{nano}} kubectl edit {{resource}}/{{resource_name}}`
+`kubectl label -f {{pod_defination_file}} {{key}}={{value}}`
 
-- Edit a resource in JSON format:
+- Remove label from a pod:
 
-`kubectl edit {{resource}}/{{resource_name}} --output json`
+`kubectl label pod {{pod_name}} {{key}}-`
