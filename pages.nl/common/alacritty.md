@@ -7,9 +7,9 @@
 
 `alacritty`
 
-- Uitvoeren in een specifieke directory:
+- Uitvoeren in een specifieke map:
 
-`alacritty --working-directory {{pad/naar/directory}}`
+`alacritty --working-directory {{pad/naar/map}}`
 
 - Voer een opdracht uit in een nieuw Alacritty-venster:
 
