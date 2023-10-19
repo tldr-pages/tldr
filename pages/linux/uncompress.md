@@ -3,7 +3,7 @@
 > Uncompress files compressed using the Unix `compress` command.
 > More information: <https://linux.die.net/man/1/uncompress>.
 
-- Uncompress Specific Files:
+- Uncompress specific files:
 
 `uncompress {{file1.Z file2.Z ...}}`
 
