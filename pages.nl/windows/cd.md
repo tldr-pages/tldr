@@ -3,7 +3,7 @@
 > Geeft de naam van de huidige werkmap weer of wijzigt deze.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Geef de naam van de huidige directory weer:
+- Geef de naam van de huidige map weer:
 
 `cd`
 
@@ -11,14 +11,14 @@
 
 `cd \`
 
-- Ga naar de ouder van de huidige directory:
+- Ga naar de ouder van de huidige map:
 
 `cd ..`
 
-- Ga naar een directory in dezelfde drive:
+- Ga naar een map in dezelfde drive:
 
-`cd {{pad\naar\directory}}`
+`cd {{pad\naar\map}}`
 
-- Ga naar een directory in een andere drive:
+- Ga naar een map in een andere drive:
 
-`cd /d {{C}:{{pad\naar\directory}}`
+`cd /d {{C}:{{pad\naar\map}}`
