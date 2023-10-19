@@ -1,23 +1,32 @@
 # compress
-> Compresses files using the Unix `compress` command. More details: <https://man7.org/linux/man-pages/man1/compress.1p.html>.
 
-Compress Specific Files:
-- `compress {{filename}}`
+> Compresses files using the Unix `compress` command.
+> More details: <https://man7.org/linux/man-pages/man1/compress.1p.html>.
 
-Compress Specific Files, Ignore Nonexistent Ones:
-- `compress --force {{filename}}`
+- Compress Specific Files:
 
-Set Maximum Compression Bits (9-16 bits):
-- `compress -b`: Max bits 9-16, default 16, starting at 9 and increasing as needed.
+`compress {{filename}}`
 
-Write to Standard Output (No Files Are Changed):
-- `compress -c {{filename}}`
+- Compress Specific Files, Ignore Nonexistent Ones:
 
-Decompress Files (Functions Like uncompress):
-- `compress -d {{filename}}`
+`compress -force {{filename}}`
 
-Omit Compressed File Header:
-- `compress -n {{filename}}`
+- Set Maximum Compression Bits (9-16 bits):
 
-Display Compression Percentage:
-- `compress -v {{filename}}`
+`compress -b`
+
+- Write to Standard Output (No Files Are Changed):
+
+`compress -c {{filename}}`
+
+- Decompress Files (Functions Like uncompress):
+
+`compress -d {{filename}}`
+
+- Omit Compressed File Header:
+
+`compress -n {{filename}}`
+
+- Display Compression Percentage:
+
+`compress -v {{filename}}`
