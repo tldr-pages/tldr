@@ -3,7 +3,7 @@
 > Replace a resource by file name or stdin.
 > More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#replace>.
 
-- Replace resource using the resource definition file:
+- Replace the resource using the resource definition file:
 
 `kubectl replace -f {{resource_defination_file}}`
 
