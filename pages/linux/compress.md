@@ -1,6 +1,6 @@
 # compress
 
-> Compresses files using the Unix `compress` command.
+> Compress files using the Unix `compress` command.
 > More details: <https://man7.org/linux/man-pages/man1/compress.1p.html>.
 
 - Compress Specific Files:
