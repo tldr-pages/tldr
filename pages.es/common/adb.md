@@ -12,7 +12,7 @@
 
 `adb kill-server`
 
-- Inicia una terminal remota en la instance del emulador/dispositivo de destino:
+- Inicia una terminal remota en la instancia del emulador/dispositivo de destino:
 
 `adb shell`
 
