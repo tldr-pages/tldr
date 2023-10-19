@@ -21,4 +21,4 @@
 
 - Remove the label from a pod:
 
-`kubectl label pod {{pod_name}} {{key}}`
+`kubectl label pod {{pod_name}} {{key}}-`
