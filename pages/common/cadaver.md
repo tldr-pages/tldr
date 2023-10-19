@@ -3,14 +3,14 @@
 > A command-line WebDAV client for Unix.
 > More information: <https://manned.org/cadaver>.
 
-- Connect to the server myserver.example.com, open the root collection:
+- Connect to the server dav.example.com, open the root collection:
 
 `cadaver http://dav.example.com/`
 
-- Connect to the server zope.example.com use port 8022, open the collection "/Users/fred/":
+- Connect to the server dav.example.com use port 8022 and open the collection "/foo/bar/":
 
-`cadaver http://zope.example.com:8022/Users/fred/`
+`cadaver http://dav.example.com:8022/foo/bar/`
 
-- Connect to a server called secure.example.com use SSL:
+- Connect to a server called davs.example.com use SSL:
 
-`cadaver https://secure.example.com/`
+`cadaver https://davs.example.com/`
