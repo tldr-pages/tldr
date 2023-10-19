@@ -15,7 +15,7 @@
 
 `uncompress -c {{path/to/file1.Z path/to/file2.Z ...}}`
 
-- verbose mode (write to standard error about percentage reduction or expansion):
+- Verbose mode (write to standard error about percentage reduction or expansion):
 
 `uncompress -v {{path/to/file1.Z path/to/file2.Z ...}}`
 
