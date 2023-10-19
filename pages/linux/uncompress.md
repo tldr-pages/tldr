@@ -21,4 +21,4 @@
 
 - Set the upper limit for compression ratio:
 
- `uncompress -b {{path/to/file1.Z path/to/file2.Z ...}}`
+`uncompress -b {{path/to/file1.Z path/to/file2.Z ...}}`
