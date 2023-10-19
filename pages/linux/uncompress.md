@@ -7,7 +7,7 @@
 
 `uncompress {{path/to/file1.Z path/to/file2.Z ...}}`
 
-- Uncompress Specific Files While Ignoring Nonexistent Ones:
+- Uncompress specific files while ignoring non-existent ones:
 
 `uncompress -force {{file1.Z file2.Z ...}}`
 
