@@ -19,6 +19,6 @@
 
 `kubectl label -f {{pod_defination_file}} {{key}}={{value}}`
 
-- Remove label from a pod:
+- Remove the label from a pod:
 
-`kubectl label pod {{pod_name}} {{key}}-`
+`kubectl label pod {{pod_name}} {{key}}`
