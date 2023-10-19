@@ -5,7 +5,7 @@
 
 - Uncompress specific files:
 
-`uncompress {{file1.Z file2.Z ...}}`
+`uncompress {{path/to/file1.Z path/to/file2.Z ...}}`
 
 - Uncompress Specific Files While Ignoring Nonexistent Ones:
 
