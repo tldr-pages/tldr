@@ -2,7 +2,7 @@
 
 > Gera par de chaves `age`.
 > Veja `age` para como criptografar/descriptografar arquivos.
-> Mias informações: <https://manned.org/age-keygen>.
+> Mais informações: <https://manned.org/age-keygen>.
 
 - Gera um par de chaves, salva em um arquivo não criptografado e imprime a chave pública para `stdout`:
 
