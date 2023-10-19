@@ -3,7 +3,7 @@
 > Manages applications through files defining Kubernetes resources. It creates and updates resources in a cluster.
 > More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#apply>.
 
-- Apply a configuration to a resource by file name or stdin.:
+- Apply a configuration to a resource by file name or `stdin`:
 
 `kubectl apply -f {{resource_filename}}`
 
