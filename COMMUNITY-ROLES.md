@@ -81,7 +81,7 @@ exceptions can always be considered, via open community discussion.)
 
 > [!NOTE]
 > This section is aimed at owners in the tldr-pages organization
-> (i.e. the group of people who are able to perform these changes).*
+> (i.e. the group of people who are able to perform these changes).
 
 If you notice a contributor being particularly active,
 review their recent contributions to check whether a role transition is due,
