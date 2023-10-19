@@ -7,15 +7,15 @@
 
 `ugrep --query`
 
-- Zoek recursief met een regex zoekpatroon in de huidige directory naar passende bestanden:
+- Zoek recursief met een regex zoekpatroon in de huidige map naar passende bestanden:
 
 `ugrep "{{zoekpatroon}}"`
 
-- Zoek een gegeven bestand of bestanden in een gegeven directory en laat de passende regelnummers zien:
+- Zoek een gegeven bestand of bestanden in een gegeven map en laat de passende regelnummers zien:
 
-`ugrep --line-number "{{zoekpatroon}}" {{pad/naar/bestand_of_directory}}`
+`ugrep --line-number "{{zoekpatroon}}" {{pad/naar/bestand_of_map}}`
 
-- Zoek recursief in de huidige directory en geef een lijst met passende bestanden:
+- Zoek recursief in de huidige map en geef een lijst met passende bestanden:
 
 `ugrep --files-with-matches "{{zoekpatroon}}"`
 
@@ -23,7 +23,7 @@
 
 `ugrep --fuzzy=3 "{{zoekpatroon}}"`
 
-- Zoek passende gecomprimeerde bestanden, zip en tar archieven recursief in de huidige directory:
+- Zoek passende gecomprimeerde bestanden, zip en tar archieven recursief in de huidige map:
 
 `ugrep --decompress "{{zoekpatroon}}"`
 
