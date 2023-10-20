@@ -7,7 +7,7 @@
 
 `kubectl expose {{resource_type}} {{resource_name}} --port={{node_port}} --target-port={{container_port}}`
 
-- Create a service for a resource identified by defination file, to serve from container port to node port:
+- Create a service for a resource identified by a file:
 
 `kubectl expose -f {{path/to/file.yml}} --port={{node_port}} --target-port={{container_port}}`
 
