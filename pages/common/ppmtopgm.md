@@ -5,7 +5,7 @@
 
 - Generate the PGM file as output, for a PPM file as input:
 
-`ppmtopgm {{path/to/file.ppm}}`
+`ppmtopgm {{path/to/file.ppm}} > {{path/to/file.pgm}}`
 
 - Display version:
 
