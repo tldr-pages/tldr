@@ -12,10 +12,22 @@
 
 `git status -s`
 
-- Don't show untracked files in the output:
+- Show the branch and tracking info even in [s]hort format:
 
-`git status --untracked-files=no`
+`git status -b`
 
 - Show output in [s]hort format along with [b]ranch info:
 
 `git status -sb`
+
+- Show the output in the long-format. This is a the default:
+
+`git status --long`
+
+- Show the number of entries currently stashed away:
+
+`git status --show-stash`
+
+- Don't show untracked files in the output:
+
+`git status --untracked-files=no`
