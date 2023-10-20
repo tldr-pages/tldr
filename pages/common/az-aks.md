@@ -1,8 +1,8 @@
 # az aks
 
 > Manage Azure Kubernetes Service (AKS) clusters.
-> Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/aks>.
+> Part of `azure-cli` (also known as `az`).
+> More information: <https://learn.microsoft.com/cli/azure/aks>.
 
 - List AKS clusters:
 

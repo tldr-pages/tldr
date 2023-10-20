@@ -1,7 +1,8 @@
 # az acr
 
 > Manage private registries with Azure Container Registries.
-> More information: <https://learn.microsoft.com/en-us/cli/azure/acr>.
+> Part of `azure-cli` (also known as `az`).
+> More information: <https://learn.microsoft.com/cli/azure/acr>.
 
 - Create a managed container registry:
 

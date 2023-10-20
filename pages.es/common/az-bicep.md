@@ -1,14 +1,14 @@
 # az bicep
 
 > Grupo de comandos de la CLI de Bicep.
-> Parte de `azure-cli`.
+> Parte de `azure-cli` (también conocido como `az`).
 > Más información: <https://learn.microsoft.com/cli/azure/bicep>.
 
 - Instala la CLI de Bicep.
 
 `az bicep install`
 
-- Crear un archivo de Bicep:
+- Crea un archivo de Bicep:
 
 `az bicep build --file {{ruta/al/archivo.bicep}}`
 

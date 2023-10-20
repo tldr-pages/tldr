@@ -1,21 +1,29 @@
 # gplusplus
 
-> Compilador de arquivos de código fonte C++.
+> Compila arquivos de código fonte C++.
 > Parte do GCC (GNU Compiler Collection).
 > Mais informações: <https://gcc.gnu.org>.
 
 - Compilar um arquivo de código fonte para um binário executável:
 
-`g++ {{arquivo_fonte.cpp}} -o {{arquivo_executável}}`
+`g++ {{caminho/para/fonte.cpp}} -o {{caminho/para/executável_de_saída}}`
 
-- Compilar mostrando todos os erros e avisos:
+- Exibe avisos comuns:
 
-`g++ {{arquivo_fonte.cpp}} -Wall -o {{arquivo_executável}}`
+`g++ {{caminho/para/fonte.cpp}} -Wall -o {{caminho/para/executável_de_saída}}`
 
-- Compilar utilizando um padrão específico da linguagem (C++98/C++11/C++14/C++17):
+- Escolha um padrão de linguagem para o qual compilar (C++98/C++11/C++14/C++17):
 
-`g++ {{arquivo_fonte.cpp}} -std={{standard_linguagem}} -o {{arquivo_executável}}`
+`g++ {{caminho/para/fonte.cpp}} -std={{c++98|c++11|c++14|c++17}} -o {{caminho/para/executável_de_saída}}`
 
-- Compilar incluindo bibliotecas localizadas em um local diferente do arquivo de código fonte:
+- Inclui bibliotecas localizadas em um caminho diferente do arquivo de código fonte:
 
-`g++ {{arquivo_fonte.cpp}} -o {{arquivo_executável}} -I{{caminho/para/header}} -L{{caminho/para/biblioteca}} -l{{nome_biblioteca}}`
+`g++ {{caminho/para/fonte.cpp}} -o {{caminho/para/executável_de_saída}} -I{{caminho/para/cabeçalho}} -L{{caminho/para/biblioteca}} -l{{nome_da_biblioteca}}`
+
+- Compila e vincula múltiplos arquivos de código fonte em um binário executável:
+
+`g++ -c {{caminho/para/fonte_1.cpp caminho/para/fonte_2.cpp ...}} && g++ -o {{caminho/para/executável_de_saída}} {{caminho/para/fonte_1.o caminho/para/fonte_2.o ...}}`
+
+- Exibe versão:
+
+`g++ --version`
