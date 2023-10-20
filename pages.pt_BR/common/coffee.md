@@ -19,6 +19,6 @@
 
 `coffee --interactive`
 
-- Observa script para alterações o executa novamente:
+- Observa script para alterações e o executa novamente:
 
 `coffee --watch {{caminho/para/arquivo.coffee}}`
