@@ -23,9 +23,6 @@
 
 `compress -d {{path/to/file}}`
 
-- Omit compressed file header:
-
-`compress -n {{path/to/file}}`
 
 - Display compression percentage:
 
