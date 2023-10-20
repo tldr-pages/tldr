@@ -12,7 +12,7 @@
 
 `git status -s`
 
-- Show the [b]ranch and tracking info even in short format:
+- Show the [b]ranch and tracking info:
 
 `git status -b`
 
