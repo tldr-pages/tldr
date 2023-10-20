@@ -9,7 +9,7 @@
 
 - Compress specific files, ignore non-existent ones:
 
-`compress -force {{path/to/file}}`
+`compress -f {{path/to/file1 path/to/file2 ...}}`
 
 - Set maximum compression bits (9-16 bits):
 
