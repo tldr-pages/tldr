@@ -1,6 +1,6 @@
 # bugreport
 
-> एंड्रॉयड बग रिपोर्ट दिखाएँ.
+> एंड्रॉयड बग रिपोर्ट दिखाएँ।
 > इस कमांड का उपयोग केवल `adb shell` के माध्यम से किया जा सकता है।
 > अधिक जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>.
 
