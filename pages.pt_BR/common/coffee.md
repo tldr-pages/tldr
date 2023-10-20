@@ -19,7 +19,6 @@
 
 `coffee --interactive`
 
-- Watch script for changes and re-run script:
 - Observa script para alterações o executa novamente:
 
 `coffee --watch {{caminho/para/arquivo.coffee}}`
