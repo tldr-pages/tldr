@@ -5,7 +5,7 @@
 
 - Compress specific files:
 
-`compress {{path/to/file}}`
+`compress {{path/to/file1 path/to/file2 ...}}`
 
 - Compress specific files, ignore non-existent ones:
 
