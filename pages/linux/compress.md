@@ -23,7 +23,6 @@
 
 `compress -d {{path/to/file}}`
 
-
 - Display compression percentage:
 
 `compress -v {{path/to/file}}`
