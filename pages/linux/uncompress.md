@@ -1,7 +1,7 @@
 # uncompress
 
 > Uncompress files compressed using the Unix `compress` command.
-> More information: <https://www.unix.com/man-page/osx/1/compress/>.
+> More information: <https://manned.org/uncompress.1>.
 
 - Uncompress specific files:
 
