@@ -2,12 +2,6 @@
 
 This directory contains the script and related resources to generate a PDF document with all the `tldr` pages.
 
-## Preview
-
-![cryptsetup in the Basic color-scheme.](https://user-images.githubusercontent.com/29029116/35637791-4e42af80-06db-11e8-8b8e-42ce6c905ff4.jpg)
-![cryptsetup in the Solarized Light color-scheme.](https://user-images.githubusercontent.com/29029116/35637798-51e3784a-06db-11e8-9576-6e57ef5c5c20.jpg)
-![cryptsetup in the Solarized Dark color-scheme.](https://user-images.githubusercontent.com/29029116/35637801-54449fce-06db-11e8-93f7-d90cdc34044b.jpg)
-
 ## Highlights
 
 - No LaTeX dependencies for generating the PDF.
@@ -25,14 +19,20 @@ Make sure OS specific dependencies for WeasyPrint are installed by following the
 
 Generating the PDF is as simple as running:
 
-    python3 render.py <path-to-pages-directory> --color <color-scheme>
+    python3 render.py <path-to-pages-directory> [--color <color-scheme>] [--output <filename>]
 
 Complete information about the arguments can be viewed by running:
 
     python3 render.py --help
 
-The color-schemes that can be specified are:
+Available color schemes:
 
-* `basic`
-* `solarized-light`
-* `solarized-dark`
+- `basic`
+- `solarized-light`
+- `solarized-dark`
+
+## Preview
+
+![cryptsetup in the Basic color-scheme.](https://user-images.githubusercontent.com/29029116/35637791-4e42af80-06db-11e8-8b8e-42ce6c905ff4.jpg)
+![cryptsetup in the Solarized Light color-scheme.](https://user-images.githubusercontent.com/29029116/35637798-51e3784a-06db-11e8-9576-6e57ef5c5c20.jpg)
+![cryptsetup in the Solarized Dark color-scheme.](https://user-images.githubusercontent.com/29029116/35637801-54449fce-06db-11e8-93f7-d90cdc34044b.jpg)
