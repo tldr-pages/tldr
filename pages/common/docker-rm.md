@@ -3,10 +3,6 @@
 > Remove one or more containers.
 > More information: <https://docs.docker.com/engine/reference/commandline/rm>.
 
-- Show help:
-
-`docker rm`
-
 - Remove containers:
 
 `docker rm {{container1 container2 ...}}`
@@ -15,6 +11,10 @@
 
 `docker rm --force {{container1 container2 ...}}`
 
-- Remove container and its volumes:
+- Remove a container and its volumes:
 
 `docker rm --volumes {{container}}`
+
+- Display help:
+
+`docker rm`
