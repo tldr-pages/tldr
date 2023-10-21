@@ -9,7 +9,7 @@
 
 - Scale a resource identified by a file:
 
-`kubectl scale --replicas=3 -f {{path/to/file.yml}}`
+`kubectl scale --replicas={{number_of_replicas}} -f {{path/to/file.yml}}`
 
 - Scale a deployment based on current number of replicas:
 
