@@ -1,6 +1,6 @@
 # delpart
 
-> Asks the Linux kernel to forget about a specified partition on a device.
+> Ask the Linux kernel to forget about a partition.
 > More information: <https://manned.org/delpart>.
 
 - Tell the kernel to forget about the partition:
