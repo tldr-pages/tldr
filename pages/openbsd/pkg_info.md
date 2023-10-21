@@ -8,6 +8,6 @@
 
 `pkg_info -Q {{package}}`
 
-- Output list of installed packages for use with `pkg_add -l {{list}}`:
+- Output a list of installed packages for use with `pkg_add -l`:
 
 `pkg_info -mz`

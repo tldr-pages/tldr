@@ -8,7 +8,7 @@
 
 `pkg_delete {{package}}`
 
-- Delete a package, including it's unused dependencies:
+- Delete a package, including its unused dependencies:
 
 `pkg_delete -a {{package}}`
 
