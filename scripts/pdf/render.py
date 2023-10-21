@@ -95,7 +95,7 @@ if __name__ == "__main__":
         "-o",
         "--output",
         default="tldr-book.pdf",
-        help="Custom filename for the output PDF (default is 'tldr-pages.pdf')",
+        help="Custom filename for the output PDF (default is 'tldr-book.pdf')",
     )
     args = parser.parse_args()
 
