@@ -1,7 +1,7 @@
 # docker rename
 
 > Rename a container.
-> More information: <https://docs.docker.com/engine/reference/commandline/rename/>.
+> More information: <https://docs.docker.com/engine/reference/commandline/rename>.
 
 - Show help:
 
