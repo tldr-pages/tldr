@@ -7,6 +7,6 @@
 
 `docker top`
 
-- Remove one or more images given their names:
+- Display the running processes of a container:
 
-`docker top {{CONTAINER}} {{[ps OPTIONS]}}`
+`docker top {{container}} {{[ps OPTIONS]}}`
