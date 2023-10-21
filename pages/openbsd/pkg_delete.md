@@ -1,17 +1,17 @@
 # pkg_delete
 
-> OpenBSD package manager utility.
-> Add packages using `pkg_add`, search for packages using `pkg_info`.
+> Remove packages in OpenBSD.
+> See also: `pkg_add`, `pkg_info`.
 > More information: <https://man.openbsd.org/pkg_delete>.
 
-- Delete package:
+- Delete a package:
 
 `pkg_delete {{package}}`
 
-- Delete package, including unused dependencies:
+- Delete a package, including it's unused dependencies:
 
 `pkg_delete -a {{package}}`
 
-- Dry-run deletion of package:
+- Dry-run deletion of a package:
 
 `pkg_delete -n {{package}}`

@@ -1,10 +1,10 @@
 # pkg_info
 
-> OpenBSD package manager utility.
-> Add packages using `pkg_add`, remove packages using `pkg_delete`.
+> View information about packages in OpenBSD.
+> See also: `pkg_add`, `pkg_delete`.
 > More information: <https://man.openbsd.org/pkg_info>.
 
-- Search for package using package name:
+- Search for a package using the package name:
 
 `pkg_info -Q {{package}}`
 
