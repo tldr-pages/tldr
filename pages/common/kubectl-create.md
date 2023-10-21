@@ -15,11 +15,11 @@
 
 `kubectl create deployment {{deployment_name}} --image={{image}}`
 
-- Create a deployment with 3 replicas:
+- Create a deployment with replicas:
 
 `kubectl create deployment {{deployment_name}} --image={{image}} --replicas={{number_of_replicas}}`
 
-- Create a service named my-cs:
+- Create a service:
 
 `kubectl create service {{service_type}} {{service_name}} --tcp={{port}}:{{target_port}}`
 
