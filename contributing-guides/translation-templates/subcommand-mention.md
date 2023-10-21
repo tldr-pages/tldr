@@ -62,13 +62,18 @@ Some subcommands such as `example command` have their own usage documentation.
 
 ### bn
 
-Not translated yet.
+```markdown
+"কিছু সাবকমান্ড, উদাহরণস্বরূপ `example command`, তাদের নিজের ব্যবহার নির্দেশনা আছে।"
+```
 
 ---
 
 ### bs
 
-Not translated yet.
+```markdown
+"Neki podkomandi, kao što je `example command`, imaju vlastitu dokumentaciju za upotrebu."
+
+```
 
 ---
 
@@ -226,7 +231,9 @@ Alguns subcomandos, como `example command`, tem a sua própria documentação de
 
 ### ro
 
-Not translated yet.
+```markdown
+Unele subcomenzi, cum ar fi `example command`, au documentație proprie de utilizare.
+```
 
 ---
 
