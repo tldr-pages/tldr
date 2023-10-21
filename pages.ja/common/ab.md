@@ -13,7 +13,7 @@
 
 - ファイルからの JSON ペイロードを使って、指定された URL に 100 個の POST リクエストを送信する:
 
-`ab -n {{100}} -T {{application/json}} -p {{path/to/file.json}} {{url}}`
+`ab -n {{100}} -T {{application/json}} -p {{ファイルパス.json}} {{url}}`
 
 - [K]eep Alive を有効化する（１つの HTTP セッションで複数のリクエストを実行する）:
 
