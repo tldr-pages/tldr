@@ -1,6 +1,6 @@
 # slurmctld
 
-> Monitors all other Slurm daemons and resources, accepts work (jobs), and allocates resources to those jobs.
+> Monitor all other Slurm daemons and resources, accept work (jobs), and allocate resources to those jobs.
 > More information: <https://slurm.schedmd.com/slurmctld.html>.
 
 - Clear all previous slurmctld state from its last checkpoint:
