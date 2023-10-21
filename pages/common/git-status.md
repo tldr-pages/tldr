@@ -10,19 +10,15 @@
 
 - Give output in [s]hort format:
 
-`git status -s`
+`git status --short`
 
 - Show the [b]ranch and tracking info:
 
-`git status -b`
+`git status --branch`
 
 - Show output in [s]hort format along with [b]ranch info:
 
-`git status -sb`
-
-- Show the output in the long-format. This is the default:
-
-`git status --long`
+`git status --short --branch`
 
 - Show the number of entries currently stashed away:
 
