@@ -22,4 +22,3 @@
 - Read configuration from the specified file:
 
 `slurmd -f {{file}}`
-
