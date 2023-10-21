@@ -11,7 +11,7 @@
 
 `add-appxpackage -Path {{path\to\package.msix}} -DependencyPath {{path\to\dependencies.msix}}`
 
-- Install an app using the App Installer file:
+- Install an app using the app installer file:
 
 `add-appxpackage -AppInstallerFile {{path\to\app.appinstaller}}`
 
