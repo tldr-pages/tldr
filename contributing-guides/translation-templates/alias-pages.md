@@ -409,7 +409,15 @@ Not translated yet.
 
 ### sr
 
-Not translated yet.
+```markdown
+# example
+
+> Ова наредба је псеудоним `example`.
+
+- Погледајте документацију за оригиналну команду:
+
+`tldr example`
+```
 
 ---
 
