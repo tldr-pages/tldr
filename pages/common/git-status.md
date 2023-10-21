@@ -20,7 +20,7 @@
 
 `git status -sb`
 
-- Show the output in the long-format. This is a the default:
+- Show the output in the long-format. This is the default:
 
 `git status --long`
 
