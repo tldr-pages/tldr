@@ -4,11 +4,11 @@
 > Bagian dari `git-extras`.
 > Informasi lebih lanjut: <https://github.com/tj/git-extras/blob/master/Commands.md#git-alias>.
 
-- Daftar semua alias:
+- Tampilkan daftar semua alias:
 
 `git alias`
 
-- buat alias baru:
+- Buat alias baru:
 
 `git alias "{{nama}}" "{{perintah}}"`
 
