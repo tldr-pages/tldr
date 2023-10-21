@@ -4,18 +4,18 @@
 > The output format is subject to change in future versions of Cargo.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-metadata.html>.
 
-- Print the workspace members and resolved dependencies of current package:
+- Print the workspace members and resolved dependencies of the current package:
 
 `cargo metadata`
 
-- Print only the workspace members and don't fetch dependencies:
+- Print only the workspace members and do not fetch dependencies:
 
 `cargo metadata --no-deps`
 
-- Print metadata in specific format present based on vesrion:
+- Print metadata in a specific format based on the specified version:
 
 `cargo metadata --format-version {{version}}`
 
-- Print metadata with the `resolve` field including depedencies only for the given target triple (Note: the `packages` array will still include the depedencies for all targets):
+- Print metadata with the `resolve` field including dependencies only for the given target triple (Note: the `packages` array will still include the dependencies for all targets):
 
-`cargo metadata --filter-platform {{target-triple}}`
+`cargo metadata --filter-platform {{target_triple}}`
