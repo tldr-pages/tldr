@@ -7,7 +7,7 @@
 
 `kubectl create -f {{path/to/file.yml}}`
 
-- Create a resource from stdin:
+- Create a resource from `stdin`:
 
 `kubectl create -f -`
 
