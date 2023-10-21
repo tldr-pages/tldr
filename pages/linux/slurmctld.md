@@ -7,7 +7,7 @@
 
 `slurmctld -c`
 
-- print a brief summary of command options:
+- Print a brief summary of command options:
 
 `slurmctld -h`
 

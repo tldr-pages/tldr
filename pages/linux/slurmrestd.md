@@ -1,9 +1,9 @@
 # slurmrestd
 
-> Interface to Slurm via REST API. It can be used in two modes: *Inetd Mode* & *Listen Mode*
+> Interface to Slurm via REST API. It can be used in two modes: *Inetd Mode* & *Listen Mode*.
 > More information: <https://slurm.schedmd.com/slurmrestd.html>.
 
-- print a brief summary of command options:
+- Print a brief summary of command options:
 
 `slurmrestd -h`
 

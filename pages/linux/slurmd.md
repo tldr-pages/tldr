@@ -1,6 +1,6 @@
 # slurmd
 
-> slurmd monitors all tasks running on the compute node , accepts tasks, launches tasks, and kills running tasks upon request.
+> Slurmd monitors all tasks running on the compute node , accepts tasks, launches tasks, and kills running tasks upon request.
 > More information: <https://slurm.schedmd.com/slurmd.html>.
 
 - Report node rebooted when daemon restarted. Used for testing purposes:
@@ -15,7 +15,7 @@
 
 `slurmd -L {{file}}`
 
-- print a brief summary of command options:
+- Print a brief summary of command options:
 
 `slurmd -h`
 

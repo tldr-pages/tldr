@@ -1,9 +1,9 @@
 # slurmdbd
 
-> provides a secure enterprise-wide interface to a database for Slurm.
+> Provides a secure enterprise-wide interface to a database for Slurm.
 > More information: <https://slurm.schedmd.com/slurmdbd.html>.
 
-- print a brief summary of command options:
+- Print a brief summary of command options:
 
 `slurmdbd -h`
 
