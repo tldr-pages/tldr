@@ -3,9 +3,9 @@
 > Brighten a PPM image file.
 > More information: <https://netpbm.sourceforge.net/doc/ppmflash.html>.
 
-- Brighten a PPM image by the fraction `flashfactor`:
+- Generate a PPM image as output that is `flashfactor` times brighter than the input PPM image:
 
-`ppmflash {{flashfactor}} {{path/to/file.ppm}}`
+`ppmflash {{flashfactor}} {{path/to/file.ppm}} > {{path/to/file.ppm}}`
 
 - Display version:
 
