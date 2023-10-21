@@ -15,6 +15,6 @@
 
 `docker rm --force {{container1 container2 ...}}`
 
-- Remove container and it's volume:
+- Remove container and its volumes:
 
 `docker rm --volumes {{container}}`
