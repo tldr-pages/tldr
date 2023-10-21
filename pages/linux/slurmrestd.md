@@ -3,26 +3,26 @@
 > Interface to Slurm via REST API. It can be used in two modes: *Inetd Mode* & *Listen Mode*.
 > More information: <https://slurm.schedmd.com/slurmrestd.html>.
 
-- Print a brief summary of command options:
+- Change the group ID (and drop supplemental groups) before processing client requests:
 
-`slurmrestd -h`
-
-- Change group id (and drop supplemental groups) before processing client request:
-
-`slurmrestd --g {{group id}} {{[host]:port | unix:/path/to/socket}}`
+`slurmrestd --g {{group_id}} {{[host]:port | unix:/path/to/socket}}`
 
 - Comma-delimited list of authentication plugins to load:
 
-`slurmrestd -a {{authentication plugins}} {{[host]:port | unix:/path/to/socket}}`
+`slurmrestd -a {{authentication_plugins}} {{[host]:port | unix:/path/to/socket}}`
 
 - Read Slurm configuration from the specified file:
 
-`slurmrestd -f`
+`slurmrestd -f {{path/to/file}}`
 
-- Change user id before processing client request:
+- Change user ID before processing client request:
 
-`slurmrestd -u {{user id}}`
+`slurmrestd -u {{user_id}}`
 
-- Print version information and exit:
+- Display help:
+
+`slurmrestd -h`
+
+- Display version:
 
 `slurmrestd -V`
