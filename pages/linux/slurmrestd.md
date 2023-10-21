@@ -9,16 +9,20 @@
 
 - Change group id (and drop supplemental groups) before processing client request:
 
-`slurmrestd --g <group id>`
-
-- Hostname and port to listen against:
-
-`slurmrestd [host]:port`
-
-- Listen on local UNIX socket:
-
-`slurmrestd unix:/path/to/socket`
+`slurmrestd --g {{group id}} {{[host]:port | unix:/path/to/socket}}`
 
 - Comma-delimited list of authentication plugins to load:
 
-`slurmrestd -a <authentication plugins>`
+`slurmrestd -a {{authentication plugins}} {{[host]:port | unix:/path/to/socket}}`
+
+- Read Slurm configuration from the specified file:
+
+`slurmrestd -f`
+
+- Change user id before processing client request:
+
+`slurmrestd -u {{user id}}`
+
+- Print version information and exit:
+
+`slurmrestd -V`

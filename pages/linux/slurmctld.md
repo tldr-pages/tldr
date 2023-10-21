@@ -13,11 +13,11 @@
 
 - Set the daemon's nice value to the specified value, typically a negative number:
 
-`slurmctld -n <value>`
+`slurmctld -n {{value}}`
 
 - Write log messages to the specified file:
 
-`slurmctld -L <file>`
+`slurmctld -L {{file}}`
 
 - Print version information and exit:
 

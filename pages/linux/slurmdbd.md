@@ -9,7 +9,7 @@
 
 - Set the daemon's nice value to the specified value, typically a negative number:
 
-`slurmdbd -n <value>`
+`slurmdbd -n {{value}}`
 
 - Change working directory of slurmdbd to LogFile path if possible, or to /var/tmp otherwise:
 

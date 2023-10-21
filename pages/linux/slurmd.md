@@ -9,11 +9,11 @@
 
 - Run the daemon with the given nodename:
 
-`slurmd -N <nodename>`
+`slurmd -N {{nodename}}`
 
 - Write log messages to the specified file:
 
-`slurmd -L <file>`
+`slurmd -L {{file}}`
 
 - print a brief summary of command options:
 
@@ -21,4 +21,4 @@
 
 - Read configuration from the specified file:
 
-`slurmd -f <file>`
+`slurmd -f {{file}}`
