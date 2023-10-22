@@ -7,7 +7,7 @@
 
 `omz update`
 
-- Zeige die Änderungen des neuesten Updates von Oh My Zsh an:
+- Zeige die Änderungen im neuesten Update von Oh My Zsh an:
 
 `omz changelog`
 
