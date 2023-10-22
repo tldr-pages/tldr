@@ -72,7 +72,6 @@ Some subcommands such as `example command` have their own usage documentation.
 
 ```markdown
 "Neki podkomandi, kao što je `example command`, imaju vlastitu dokumentaciju za upotrebu."
-
 ```
 
 ---
