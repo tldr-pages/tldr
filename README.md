@@ -45,43 +45,6 @@ How about:
 ![Screenshot of the tldr client displaying the tar command in light mode.](images/tldr-light.png#gh-light-mode-only)
 ![Screenshot of the tldr client displaying the tar command in dark mode.](images/tldr-dark.png#gh-dark-mode-only)
 
-<details>
-<summary>Expand to view "tldr tar" page</summary>
-
-```shell
-  tar
-
-  Archiving utility.
-  Often combined with a compression method, such as gzip or bzip2.
-  More information: https://www.gnu.org/software/tar.
-
-  - [c]reate an archive and write it to a [f]ile:
-    tar cf path/to/target.tar path/to/file1 path/to/file2 ...
-
-  - [c]reate a g[z]ipped archive and write it to a [f]ile:
-    tar czf path/to/target.tar.gz path/to/file1 path/to/file2 ...
-
-  - [c]reate a g[z]ipped archive from a directory using relative paths:
-    tar czf path/to/target.tar.gz --directory=path/to/directory .
-
-  - E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely:
-    tar xvf path/to/source.tar[.gz|.bz2|.xz]
-
-  - E[x]tract a (compressed) archive [f]ile into the target directory:
-    tar xf path/to/source.tar[.gz|.bz2|.xz] --directory=path/to/directory
-
-  - [c]reate a compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program:
-    tar caf path/to/target.tar.xz path/to/file1 path/to/file2 ...
-
-  - Lis[t] the contents of a tar [f]ile [v]erbosely:
-    tar tvf path/to/source.tar
-
-  - E[x]tract files matching a pattern from an archive [f]ile:
-    tar xf path/to/source.tar --wildcards "*.html"
-```
-
-</details>
-
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line tools.
 
