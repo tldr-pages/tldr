@@ -1,7 +1,7 @@
 # mosquitto
 
 > Um broker de MQTT.
-> Mais informaçōes: <https://mosquitto.org/>.
+> Mais informações: <https://mosquitto.org/>.
 
 - Inicia mosquitto:
 

@@ -6,7 +6,7 @@
 
 - Aprire un file:
 
-`zathura {{path/to/file}}`
+`zathura {{percorso/del/file}}`
 
 - Navigare sinistra/sopra/sotto/destra:
 

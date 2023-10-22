@@ -1,8 +1,8 @@
 # az bicep
 
 > Bicep CLI command group.
-> Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/bicep>.
+> Part of `azure-cli` (also known as `az`).
+> More information: <https://learn.microsoft.com/cli/azure/bicep>.
 
 - Install Bicep CLI:
 

@@ -12,6 +12,7 @@ labels = {
     "ar": "لمزيد من التفاصيل:",
     "bn": "আরও তথ্য পাবেন:",
     "bs": "Više informacija:",
+    "cs": "Více informací:",
     "ca": "Més informació:",
     "da": "Mere information:",
     "de": "Weitere Informationen:",
@@ -24,6 +25,7 @@ labels = {
     "it": "Maggiori informazioni:",
     "ja": "詳しくはこちら:",
     "ko": "더 많은 정보:",
+    "lo": "ຂໍ້ມູນເພີ່ມເຕີມ:",
     "ml": "കൂടുതൽ വിവരങ്ങൾ:",
     "ne": "थप जानकारी:",
     "nl": "Meer informatie:",
@@ -37,7 +39,7 @@ labels = {
     "sv": "Mer information:",
     "ta": "மேலும் விவரத்திற்கு:",
     "th": "ข้อมูลเพิ่มเติม:",
-    "tr": "Daha fazla bilgi:",
+    "tr": "Daha fazla bilgi için:",
     "uk": "Більше інформації:",
     "uz": "Ko'proq malumot:",
     "zh_TW": "更多資訊：",
@@ -55,11 +57,10 @@ def get_tldr_root():
 
     if "TLDR_ROOT" in os.environ:
         return os.environ["TLDR_ROOT"]
-    else:
-        print(
-            "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
-        )
-        sys.exit(1)
+    print(
+        "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
+    )
+    sys.exit(1)
 
 
 def set_link(file, link):
@@ -87,9 +88,9 @@ def set_link(file, link):
     # build new line
     if locale == "hi":
         new_line = f"> {labels[locale]} <{link}>।\n"
-    elif locale == "ja":
+    elif locale in ["ja", "th"]:
         new_line = f"> {labels[locale]} <{link}>\n"
-    elif locale == "zh" or locale == "zh_TW":
+    elif locale in ["zh", "zh_TW"]:
         new_line = f"> {labels[locale]}<{link}>.\n"
     else:
         new_line = f"> {labels[locale]} <{link}>.\n"

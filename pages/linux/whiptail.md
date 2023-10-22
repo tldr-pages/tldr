@@ -11,7 +11,7 @@
 
 `whiptail --title "{{title}}" --yesno "{{message}}" {{height_in_chars}} {{width_in_chars}}`
 
-- Customise the text on the yes / no buttons:
+- Customise the text on the yes/no buttons:
 
 `whiptail --title "{{title}}" --yes-button "{{text}}" --no-button "{{text}}" --yesno "{{message}}" {{height_in_chars}} {{width_in_chars}}`
 

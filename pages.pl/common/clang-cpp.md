@@ -1,7 +1,7 @@
 # clang-cpp
 
-> Te polecenie jest aliasem `clang++`.
+> To polecenie jest aliasem `clang++`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr clang++`

@@ -19,7 +19,7 @@
 
 `docker service ps {{service_name|ID}}`
 
-- Skaliere die angegebenen Services auf einen bestimmte Anzahl an Replikaten:
+- Skaliere die angegebenen Services auf eine bestimmte Anzahl an Replikaten:
 
 `docker service scale {{service_name}}={{anzahl_an_replikaten}}`
 

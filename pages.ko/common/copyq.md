@@ -1,7 +1,7 @@
 # copyq
 
 > 고급 기능을 갖춘 클립보드 매니저.
-> 더 많은 정보: <https://hluk.github.io/CopyQ/>.
+> 더 많은 정보: <https://copyq.readthedocs.io/en/latest/command-line.html>.
 
 - copyQ를 시작하여 클립보드 기록 저장:
 

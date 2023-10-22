@@ -15,14 +15,14 @@
 
 `apk del {{package}}`
 
-- Repair package or upgrade it without modifying main dependencies:
+- Repair a package or upgrade it without modifying main dependencies:
 
 `apk fix {{package}}`
 
-- Search package via keyword:
+- Search for a package via keywords:
 
-`apk search {{keyword}}`
+`apk search {{keywords}}`
 
-- Get info about a specific package:
+- Display information about a specific package:
 
 `apk info {{package}}`

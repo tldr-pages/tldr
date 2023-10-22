@@ -9,7 +9,7 @@
 
 - Lint on a given set of files:
 
-`tslint {{filename}}.js {{filename1}}.js`
+`tslint {{path/to/file1.js path/to/file2.js ...}}`
 
 - Fix lint issues:
 

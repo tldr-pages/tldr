@@ -2,7 +2,7 @@
 
 > Command-line shell and scripting language designed especially for system administration.
 > See also: `pwsh`.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/powershell>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
 
 - Start an interactive shell session:
 

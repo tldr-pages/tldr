@@ -1,6 +1,7 @@
 # pacman --sync
 
 > Synchronise les paquets.
+> Voir aussi: `pacman`.
 > Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 
 - Installe un nouveau paquet :

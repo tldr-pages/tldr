@@ -21,7 +21,7 @@
 
 - Esegui i testi e scrivi i risultati in un file:
 
-`behat --out {{percorso/a/file}}`
+`behat --out {{percorso/del/file}}`
 
 - Mostra una lista delle definizioni nelle suite di test:
 

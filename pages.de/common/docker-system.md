@@ -19,7 +19,7 @@
 
 `docker system prune`
 
-- Entferne nicht-verwendete Daten, die älter als die angegeben Zeit sind:
+- Entferne nicht-verwendete Daten, die älter als die angegebene Zeit sind:
 
 `docker system prune --filter="until={{stunden}}h{{minuten}}m"`
 

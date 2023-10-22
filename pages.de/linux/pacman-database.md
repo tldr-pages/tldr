@@ -2,11 +2,8 @@
 
 > Mit der Arch Linux Paketdatenbank arbeiten.
 > Verschiedene Attribute von installierten Paketen bearbeiten.
+> Siehe auch: `pacman`.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
-
-- Zeige Hilfe an:
-
-`pacman --database --help`
 
 - Markiere ein Paket als implizit installiert:
 
@@ -27,3 +24,7 @@
 - Zeige nur Fehlermeldungen:
 
 `pacman --database --check --quiet`
+
+- Zeige Hilfe an:
+
+`pacman --database --help`

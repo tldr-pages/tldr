@@ -1,8 +1,8 @@
 # az storage entity
 
 > Manage Azure Table storage entities.
-> Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/storage/entity>.
+> Part of `azure-cli` (also known as `az`).
+> More information: <https://learn.microsoft.com/cli/azure/storage/entity>.
 
 - Insert an entity into a table:
 

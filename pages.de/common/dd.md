@@ -27,6 +27,6 @@
 
 `dd if={{pfad/zu/datei.img}} of=/dev/{{laufwerk}} status=progress`
 
-- Überprüfe den Fortschritt eines laufenden dd-Prozsses (Führe diesen Befehl von einer anderen Shell aus):
+- Überprüfe den Fortschritt eines laufenden dd-Prozesses (Führe diesen Befehl von einer anderen Shell aus):
 
 `kill -USR1 $(pgrep ^dd)`

@@ -1,0 +1,7 @@
+# gcut
+
+> Ova komanda je pseudonim za `-p linux cut`.
+
+- Pogledaj dokumentaciju za izvornu komandu:
+
+`tldr -p linux cut`

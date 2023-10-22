@@ -8,11 +8,11 @@
 
 `xml --help`
 
-- Execute a subcommand with input from a file or URI, printing to stdout:
+- Execute a subcommand with input from a file or URI, printing to `stdout`:
 
 `xml {{subcommand}} {{options}} {{path/to/input.xml|URI}}`
 
-- Execute a subcommand using stdin and stdout:
+- Execute a subcommand using `stdin` and `stdout`:
 
 `xml {{subcommand}} {{options}}`
 

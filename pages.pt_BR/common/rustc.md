@@ -6,15 +6,15 @@
 
 - Compila um único arquivo:
 
-`rustc {{arquivo.rs}}`
+`rustc {{caminho/para/arquivo.rs}}`
 
 - Compila com alta otimização:
 
-`rustc -O {{arquivo.rs}}`
+`rustc -O {{caminho/para/arquivo.rs}}`
 
 - Compila com informações de depuração:
 
-`rustc -g {{arquivo.rs}}`
+`rustc -g {{caminho/para/arquivo.rs}}`
 
 - Compila com otimizações específicas de arquitetura para a CPU atual:
 

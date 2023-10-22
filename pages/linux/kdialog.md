@@ -15,22 +15,22 @@
 
 `kdialog --warningyesnocancel "{{message}}"`
 
-- Open an input dialog box and print the input to stdout when `OK` is pressed:
+- Open an input dialog box and print the input to `stdout` when `OK` is pressed:
 
 `kdialog --inputbox "{{message}}" "{{optional_default_text}}"`
 
-- Open a dialog to prompt for a specific password and print it to stdout:
+- Open a dialog to prompt for a specific password and print it to `stdout`:
 
 `kdialog --password "{{message}}"`
 
-- Open a dialog containing a specific dropdown menu and print the selected item to stdout:
+- Open a dialog containing a specific dropdown menu and print the selected item to `stdout`:
 
 `kdialog --combobx "{{message}}" "{{item1}}" "{{item2}}" "{{...}}"`
 
-- Open a file chooser dialog and print the selected file's path to stdout:
+- Open a file chooser dialog and print the selected file's path to `stdout`:
 
 `kdialog --getopenfilename`
 
-- Open a progressbar dialog and print a DBUS reference for communication to stdout:
+- Open a progressbar dialog and print a DBUS reference for communication to `stdout`:
 
 `kdialog --progressbar "{{message}}"`

@@ -16,7 +16,7 @@
 
 `aws {{befehl}} help`
 
-- Zeige Informationen über die eigene angenomme Identität (häufig benutzt zur Fehlersuche):
+- Zeige Informationen über die eigene angenommene Identität (häufig benutzt zur Fehlersuche):
 
 `aws sts get-caller-identity`
 
@@ -28,7 +28,7 @@
 
 `aws iam create-user --cli-auto-prompt`
 
-- Öffne einen Assitenten für eine AWS Ressource:
+- Öffne einen Assistenten für eine AWS Ressource:
 
 `aws dynamodb wizard {{neue_tabelle}}`
 

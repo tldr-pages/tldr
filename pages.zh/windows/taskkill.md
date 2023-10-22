@@ -1,7 +1,7 @@
 # taskkill
 
 > 按进程 id 或进程名终止进程。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/taskkill>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill>.
 
 - 通过进程 id 终止进程：
 

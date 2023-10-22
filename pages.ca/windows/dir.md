@@ -1,7 +1,7 @@
 # dir
 
 > Llista els continguts d'un directori.
-> Més informació: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
+> Més informació: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - Mostra els continguts del directori actual:
 

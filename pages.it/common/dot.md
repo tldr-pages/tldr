@@ -5,8 +5,8 @@
 
 - Renderizza un'immagine determinando il nome del file di output dal nome del file di input ed il formato:
 
-`dot -Tpng -O {{percorso/al/file.dot}}`
+`dot -Tpng -O {{percorso/del/file.dot}}`
 
 - Crea una SVG da un file DOT:
 
-`dot -Tsvg -o {{percorso/al/file_output.svg}} {{percorso/al/file.dot}}`
+`dot -Tsvg -o {{percorso/del/file_output.svg}} {{percorso/del/file.dot}}`

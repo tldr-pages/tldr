@@ -1,13 +1,13 @@
 # color
 
 > Setze die Vordergrund- und Hintergrundfarben der Kommandozeile.
-> Weitere Informationen: <https://docs.microsoft.com/windows-server/administration/windows-commands/color>.
+> Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
 
 - Setze die Kommandozeilenfarben auf die Standardwerte:
 
 `color`
 
-- Liste alle verfügbaren Farben und detailierte Informationen auf:
+- Liste alle verfügbaren Farben und detaillierte Informationen auf:
 
 `color /?`
 

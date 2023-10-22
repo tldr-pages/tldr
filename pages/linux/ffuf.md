@@ -23,6 +23,6 @@
 
 `ffuf -w {{path/to/postdata.txt}} -X {{POST}} -d "{{username=admin\&password=FUZZ}}" -u {{https://target/login.php}} -fc {{401}}`
 
-- Discover subdomains using a subdoomain list on a target website:
+- Discover subdomains using a subdomain list on a target website:
 
 `ffuf -w {{subdomains.txt}} -u {{https://website.com}} -H "{{Host: FUZZ.website.com}}"`

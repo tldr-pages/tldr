@@ -1,11 +1,8 @@
 # pacman --upgrade
 
 > Arch Linux package manager utility.
+> See also: `pacman`.
 > More information: <https://man.archlinux.org/man/pacman.8>.
-
-- Display help:
-
-`pacman --upgrade --help`
 
 - Install one or more packages from files:
 
@@ -25,4 +22,8 @@
 
 - List packages that would be affected (does not install any packages):
 
-`pacman --query --print {{path/to/package.pkg.tar.zst}}`
+`pacman --upgrade --print {{path/to/package.pkg.tar.zst}}`
+
+- Display help:
+
+`pacman --upgrade --help`

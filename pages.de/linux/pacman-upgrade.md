@@ -1,11 +1,8 @@
 # pacman --upgrade
 
 > Arch Linux Paketverwaltungs-Werkzeug.
+> Siehe auch: `pacman`.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
-
-- Zeige Hilfe an:
-
-`pacman --upgrade --help`
 
 - Installiere ein oder mehrere Pakete von Dateien:
 
@@ -25,4 +22,8 @@
 
 - Liste Pakete auf, welche betroffen sein würden (installiert keine Pakete):
 
-`pacman --query --print {{pfad/zu/paket.pkg.tar.zst}}`
+`pacman --upgrade --print {{pfad/zu/paket.pkg.tar.zst}}`
+
+- Zeige Hilfe an:
+
+`pacman --upgrade --help`

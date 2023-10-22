@@ -1,7 +1,7 @@
 # reg copy
 
 > Copy keys and their values in the registry.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-copy>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-copy>.
 
 - Copy a registry key to a new registry location:
 

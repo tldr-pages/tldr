@@ -19,6 +19,6 @@
 
 `nbtscan -e {{192.168.0.1/24}}`
 
-- Read IP addresses / networks to scan from a file:
+- Read IP addresses/networks to scan from a file:
 
 `nbtscan -f {{path/to/file.txt}}`

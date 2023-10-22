@@ -2,11 +2,11 @@
 
 > Transfers data from or to a server.
 > Supports most protocols, including HTTP, FTP, and POP3.
-> More information: <https://curl.se>.
+> More information: <https://curl.se/docs/manpage.html>.
 
 - Download the contents of a URL to a file:
 
-`curl {{http://example.com}} --output {{filename}}`
+`curl {{http://example.com}} --output {{path/to/file}}`
 
 - Download a file, saving the output under the filename indicated by the URL:
 

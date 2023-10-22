@@ -11,9 +11,9 @@
 
 `gnome-software --mode {{updates|updated|installed|overview}}`
 
-- Launch the GNOME Software GUI if it's not open, and view the specified package:
+- Launch the GNOME Software GUI if it's not open and view the details of the specified package:
 
-`gnome-software --details {{package_name}}`
+`gnome-software --details {{package}}`
 
 - Display the version:
 

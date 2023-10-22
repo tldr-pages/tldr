@@ -1,7 +1,7 @@
 # findstr
 
 > 在一个或多个文件中查找指定的文本。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/findstr>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>.
 
 - 在所有文件中查找以空格分隔的字符串：
 

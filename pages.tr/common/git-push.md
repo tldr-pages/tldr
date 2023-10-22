@@ -1,7 +1,7 @@
 # git push
 
 > Commit'leri uzak depoya yolla.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-push>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-push>.
 
 - Mevcut daldaki yerel değişiklikleri onun uzak eşine gönder:
 

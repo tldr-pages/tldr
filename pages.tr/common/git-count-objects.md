@@ -1,7 +1,7 @@
 # git count-objects
 
 > Paketlenmemiş cisimlerin miktarını ve disk tüketimlerini hesapla.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-count-objects>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-count-objects>.
 
 - Tüm cisimleri say ve toplam disk tüketimlerini görüntüle:
 

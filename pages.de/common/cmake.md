@@ -1,6 +1,6 @@
 # cmake
 
-> Plattformübergreifndes Build-Automatisierungs-System, das Vorlagen für native Build-Systeme erzeugt.
+> Plattformübergreifendes Build-Automatisierungs-System, das Vorlagen für native Build-Systeme erzeugt.
 > Weitere Informationen: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.
 
 - Erzeuge eine Build-Vorlage im aktuellen Verzeichnis mit `CMakeLists.txt` eines Projektordners:
@@ -15,7 +15,7 @@
 
 `cmake --build {{pfad/zu/build_verzeichnis}}`
 
-- Installiere die Build-Artifakte in `/usr/local/` und enferne Debugsymbole:
+- Installiere die Build-Artifakte in `/usr/local/` und entferne Debugsymbole:
 
 `cmake --install {{pfad/zu/build_verzeichnis}} --strip`
 

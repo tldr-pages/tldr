@@ -1,7 +1,7 @@
 # tree
 
 > Exibe uma árvore gráfica da estrutura do diretório no caminho.
-> Mais informações: <https://docs.microsoft.com/windows-server/administration/windows-commands/tree>.
+> Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/tree>.
 
 - Exibe a árvore para o diretório atual:
 

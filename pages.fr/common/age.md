@@ -7,7 +7,7 @@
 
 `age --passphrase --output {{chemin/vers/fichier_crypté}} {{chemin/vers/fichier_non_crypté}}`
 
-- Générer une paire de clés, en enregistrant la clé privée dans un fichier non crypté et en imprimant la clé publique sur stdout:
+- Générer une paire de clés, en enregistrant la clé privée dans un fichier non crypté et en imprimant la clé publique sur `stdout`:
 
 `age-keygen --output {{chemin/vers/fichier}}`
 

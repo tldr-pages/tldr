@@ -1,7 +1,7 @@
 # btrfs filesystem
 
 > 管理 btrfs 文件系统。
-> 更多信息：<https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-filesystem>.
+> 更多信息：<https://btrfs.readthedocs.io/en/latest/btrfs-filesystem.html>.
 
 - 显示文件系统使用情况（可以选择以 root 身份运行以显示详细信息）：
 

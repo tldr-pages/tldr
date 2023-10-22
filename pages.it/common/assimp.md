@@ -2,7 +2,7 @@
 
 > Client da linea di comando per la Open Asset Import Library.
 > Supporta il caricamento di 40+ formati di file per modelli 3D, e l'espoerazione di diversi formati 3D popolari.
-> Maggiori informazioni: <http://www.assimp.org/>.
+> Maggiori informazioni: <https://assimp-docs.readthedocs.io/>.
 
 - Elenca tutti i formati supportati:
 
@@ -22,7 +22,7 @@
 
 - Mostra un riepilogo del contenuto di un file:
 
-`assimp info {{percordo/al/file}}`
+`assimp info {{percorso/del/file}}`
 
 - Elenca tutti i sottocomandi disponibili (detti "verbs"):
 

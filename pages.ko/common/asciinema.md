@@ -1,7 +1,7 @@
 # asciinema
 
 > 터미널 세션을 녹음하고 재생하며 선택적으로 asciinema.org에서 공유합니다.
-> 더 많은 정보: <https://asciinema.org/>.
+> 더 많은 정보: <https://asciinema.org/docs/usage>.
 
 - `asciinema` 로컬 설치와 with an asciinema.org 계정을 연결하기:
 

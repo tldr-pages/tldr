@@ -5,7 +5,7 @@
 
 - Search a single directory:
 
-`jdupes {{directory}}`
+`jdupes {{path/to/directory}}`
 
 - Search multiple directories:
 
@@ -13,11 +13,11 @@
 
 - Search all directories recursively:
 
-`jdupes --recurse {{directory}}`
+`jdupes --recurse {{path/to/directory}}`
 
 - Search directory recursively and let user choose files to preserve:
 
-`jdupes --delete --recurse {{directory}}`
+`jdupes --delete --recurse {{path/to/directory}}`
 
 - Search multiple directories and follow subdirectores under directory2, not directory1:
 

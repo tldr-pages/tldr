@@ -10,7 +10,6 @@ through CSS, and finally rendering them as PDF. There is no LaTeX dependency for
 import os
 import sys
 import glob
-import re
 import markdown
 import argparse
 from datetime import datetime
@@ -18,8 +17,7 @@ from datetime import datetime
 from weasyprint import HTML
 
 
-def main(loc, colorscheme):
-
+def main(loc, colorscheme, output_filename):
     # Checking correctness of path
     if not os.path.isdir(loc):
         print("Invalid directory. Please try again!", file=sys.stderr)
@@ -28,27 +26,28 @@ def main(loc, colorscheme):
     # Set up css style sheets
     csslist = ["basic.css"]
     if colorscheme != "basic":
-        csslist.append(colorscheme + ".css")
+        csslist.append(f"{colorscheme}.css")
 
     # A string that stores all pages in HTML format
     html = (
         '<!doctype html><html><head><meta charset="utf-8"></head>'
-        + "<body><h1 class=title-main>tldr pages</h1>"
-        + "<h4 class=title-sub>Simplified and community-driven man pages</h4>"
-        + "<h6 class=title-sub><em><small>Generated on "
+        + "<body><h1 class=title-main>tldr pages book</h1>"
+        + "<div class=title-sub>Simplified and community-driven man pages</div>"
+        + "<div class=title-sub><em><small>Generated on "
         + datetime.now().strftime("%c")
-        + "</small></em></h6>"
+        + "</small></em></div><br><br>"
+        + "<div class=title-sub>Website: <a href=https://tldr.sh>https://tldr.sh</a></div><br>"
+        + "<div class=title-sub>GitHub: <a href=https://github.com/tldr-pages/tldr>https://github.com/tldr-pages/tldr</a></div><br>"
         + '<p style="page-break-before: always" ></p>'
     )
 
     # Writing names of all directories inside 'pages' to a list
     for operating_sys in sorted(os.listdir(loc)):
-
         # Required string to create directory title pages
         html += (
-            "<h2 class=title-dir>"
+            "<h1 class=title-dir>"
             + operating_sys.capitalize()
-            + "</h2>"
+            + "</h1>"
             + '<p style="page-break-before: always" ></p>'
         )
 
@@ -58,9 +57,12 @@ def main(loc, colorscheme):
         ):
             with open(md, "r") as inp:
                 text = inp.readlines()
+                # modify our page to have an H2 header, so that it is grouped under
+                # the H1 header for the directory
+                text[0] = "<h2 class='title-page'>" + text[0][2:] + "</h2>"
                 for line in text:
-                    if re.match(r"^>", line):
-                        line = line[:0] + "####" + line[1:]
+                    if line.startswith(">"):
+                        line = "####" + line[1:]
                     html += markdown.markdown(line)
             html += '<p style="page-break-before: always" ></p>'
             print(f"Rendered page {page_number} of the directory {operating_sys}")
@@ -69,14 +71,13 @@ def main(loc, colorscheme):
 
     # Writing the PDF to disk
     print("\nConverting all pages to PDF...")
-    HTML(string=html).write_pdf("tldr-pages.pdf", stylesheets=csslist)
+    HTML(string=html).write_pdf(output_filename, stylesheets=csslist)
 
-    if os.path.exists("tldr-pages.pdf"):
-        print("\nCreated tldr-pages.pdf in the current directory!\n")
+    if os.path.exists(output_filename):
+        print(f"\nCreated {output_filename} in the current directory!\n")
 
 
 if __name__ == "__main__":
-
     # Parsing the arguments
     parser = argparse.ArgumentParser(
         prog="tldr-pages-to-pdf",
@@ -90,6 +91,12 @@ if __name__ == "__main__":
         default="basic",
         help="Color scheme of the PDF",
     )
+    parser.add_argument(
+        "-o",
+        "--output",
+        default="tldr-book.pdf",
+        help="Custom filename for the output PDF (default is 'tldr-book.pdf')",
+    )
     args = parser.parse_args()
 
-    main(args.dir_path, args.color)
+    main(args.dir_path, args.color, args.output)

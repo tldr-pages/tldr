@@ -1,7 +1,7 @@
 # git rev-list
 
 > Değişiklikleri (commit'leri) ters kronolojik sırada sırala.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-rev-list>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-rev-list>.
 
 - Mevcut daldaki tüm commit'leri sırala:
 

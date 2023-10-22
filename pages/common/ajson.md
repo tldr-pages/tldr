@@ -7,7 +7,7 @@
 
 `ajson '{{$..json[?(@.path)]}}' {{path/to/file.json}}`
 
-- Read JSON from stdin and execute a specified JSONPath expression:
+- Read JSON from `stdin` and execute a specified JSONPath expression:
 
 `cat {{path/to/file.json}} | ajson '{{$..json[?(@.path)]}}'`
 

@@ -11,7 +11,7 @@
 
 `git submodule add {{url_del_repositorio}}`
 
-- Añade un repositorio Git como submulo en un directorio específico:
+- Añade un repositorio Git como submódulo en un directorio específico:
 
 `git submodule add {{url_del_repositorio}} {{ruta/al/directorio}}`
 

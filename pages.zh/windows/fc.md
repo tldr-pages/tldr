@@ -2,7 +2,7 @@
 
 > 比较两个文件或文件集之间的差异。
 > 使用通配符（*）来比较文件集。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/fc>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/fc>.
 
 - 比较两个指定的文件：
 

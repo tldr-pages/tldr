@@ -16,7 +16,7 @@
 
 `emacsclient --create-frame {{pfad/zu/datei}}`
 
-- Führe einen Befehl aus und schreibe das Ergebnis in stdout:
+- Führe einen Befehl aus und schreibe das Ergebnis in `stdout`:
 
 `emacsclient --eval '({{befehl}})'`
 

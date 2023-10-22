@@ -1,6 +1,6 @@
 # speed-test
 
-> Test your internet connection speed and ping using speedtest.net from the CLI.
+> Test your internet connection speed and ping using <https://speedtest.net>.
 > More information: <https://github.com/sindresorhus/speed-test>.
 
 - Test your internet connection and ping speed:

@@ -1,7 +1,6 @@
 # enum4linux
 
 > Tool for enumerating Windows and Samba information from remote systems.
-> It attempts to offer similar functionality to enum.exe formerly available from www.bindview.com.
 > More information: <https://labs.portcullis.co.uk/tools/enum4linux/>.
 
 - Try to enumerate using all methods:

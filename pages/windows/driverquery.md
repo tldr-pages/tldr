@@ -1,7 +1,7 @@
 # driverquery
 
 > Display information about installed device drivers.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/driverquery>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/driverquery>.
 
 - Display a list of all installed device drivers:
 

@@ -13,4 +13,4 @@
 
 - Open Windows Explorer in a specific directory:
 
-`explorer {{path/to/directory}}`
+`explorer {{path\to\directory}}`

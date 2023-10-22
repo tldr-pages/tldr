@@ -4,9 +4,9 @@
 > A `cat` clone with syntax highlighting and Git integration.
 > More information: <https://github.com/sharkdp/bat>.
 
-- Print the contents of a file to the standard output:
+- Print the contents of a file to `stdout`:
 
-`bat {{file}}`
+`bat {{path/to/file}}`
 
 - Concatenate several files into the target file:
 
@@ -18,7 +18,7 @@
 
 - Number all output lines:
 
-`bat -n {{file}}`
+`bat --number {{path/to/file}}`
 
 - Syntax highlight a JSON file:
 

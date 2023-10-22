@@ -1,13 +1,13 @@
 # ern
 
-> Electrode Native platform command line client.
+> Electrode Native platform command-line client.
 > More information: <https://native.electrode.io/reference/index-6>.
 
 - Create a new `ern` application (`MiniApp`):
 
 `ern create-miniapp {{application_name}}`
 
-- Run one or more `MiniApps` in the iOS / Android Runner application:
+- Run one or more `MiniApps` in the iOS/Android Runner application:
 
 `ern run-{{ios|android}}`
 

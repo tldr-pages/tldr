@@ -1,6 +1,6 @@
 # launchctl
 
-> A command-line interface to Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs).
+> Control Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs).
 > `launchd` loads XML-based `*.plist` files placed in the appropriate locations, and runs the corresponding commands according to their defined schedule.
 > More information: <https://manned.org/launchctl>.
 
@@ -26,8 +26,8 @@
 
 - Manually run a known (loaded) agent/daemon, even if it is not the right time (note: this command uses the agent's label, rather than the filename):
 
-`launchctl start {{my_script}}`
+`launchctl start {{script_file}}`
 
 - Manually kill the process associated with a known agent/daemon, if it is running:
 
-`launchctl stop {{my_script}}`
+`launchctl stop {{script_file}}`

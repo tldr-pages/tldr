@@ -1,7 +1,7 @@
 # dotnet publish
 
 > Opublikuj aplikację .NET i jej zależności w celu wdrożenia na docelowym systemie.
-> Więcej informacji: <https://docs.microsoft.com/dotnet/core/tools/dotnet-publish>.
+> Więcej informacji: <https://learn.microsoft.com/dotnet/core/tools/dotnet-publish>.
 
 - Opublikuj projekt w konfiguracji wydania:
 

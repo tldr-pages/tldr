@@ -5,12 +5,12 @@
 
 - Calcola la directory genitore di un dato percorso:
 
-`dirname {{percorso/a/file_o_directory}}`
+`dirname {{percorso/del/file_o_directory}}`
 
 - Calcola la directory genitore di più percorsi:
 
-`dirname {{percorso/a/file_a}} {{percorso/a/directory_b}}`
+`dirname {{percorso/del/file_a}} {{percorso/della/directory_b}}`
 
 - Delimita l'output con caratteri NUL invece di newline (utile in combinazione con `xargs`):
 
-`dirname --zero {{percorso/a/directory_a}} {{percorso/a/file_b}}`
+`dirname --zero {{percorso/della/directory_a}} {{percorso/del/file_b}}`

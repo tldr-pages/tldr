@@ -2,7 +2,7 @@
 
 > 显示与搜索模式匹配的文件的位置。
 > 在默认情况下，搜索是在当前目录和 PATH 环境变量指定的路径中执行的。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/where>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/where>.
 
 - 显示匹配的文件的位置：
 

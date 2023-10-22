@@ -2,7 +2,7 @@
 
 > Değiştirilmiş dosyaları indekse ekle.
 > Bu komut `git add`'in eş anlamlısıdır.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-stage>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-stage>.
 
 - İndekse bir dosya ekle:
 

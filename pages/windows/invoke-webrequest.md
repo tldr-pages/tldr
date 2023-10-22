@@ -2,11 +2,11 @@
 
 > Performs a HTTP/HTTPS request to the Web.
 > This command can only be used through PowerShell.
-> More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Download the contents of a URL to a file:
 
-`Invoke-WebRequest {{http://example.com}} -OutFile {{filename}}`
+`Invoke-WebRequest {{http://example.com}} -OutFile {{path\to\file}}`
 
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`):
 
@@ -18,7 +18,7 @@
 
 - Send data in JSON format, specifying the appropriate content-type header:
 
-`Invoke-WebRequest -Body {{'{"name":"bob"}'}}  -ContentType 'application/json' {{http://example.com/users/1234}}`
+`Invoke-WebRequest -Body {{'{"name":"bob"}'}} -ContentType 'application/json' {{http://example.com/users/1234}}`
 
 - Pass a username and password for server authentication:
 

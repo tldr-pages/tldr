@@ -1,7 +1,7 @@
 # takeown
 
 > 取得文件或目录的所有权。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/takeown>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/takeown>.
 
 - 取得指定文件的所有权：
 

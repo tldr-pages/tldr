@@ -1,7 +1,7 @@
 # reboot
 
 > Reinicia la máquina.
-> Más información: <https://www.man7.org/linux/man-pages/man8/reboot.8.html>.
+> Más información: <https://manned.org/reboot.8>.
 
 - Reinicia inmediatamente:
 

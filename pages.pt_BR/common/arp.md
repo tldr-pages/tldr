@@ -7,10 +7,6 @@
 
 `arp -a`
 
-- Limpar toda a cache:
-
-`sudo arp -a -d`
-
 - Eliminar uma entrada específica:
 
 `arp -d {{endereço}}`

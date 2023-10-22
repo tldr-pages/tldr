@@ -8,7 +8,7 @@
 
 `deemix {{https://www.deezer.com/us/track/00000000}}`
 
-- Download track / playlist at a specific bitrate:
+- Download track/playlist at a specific bitrate:
 
 `deemix --bitrate {{FLAC|MP3}} {{url}}`
 

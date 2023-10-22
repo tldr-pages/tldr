@@ -1,32 +1,32 @@
 # nc
 
-> Netcat is a versatile utility for working with TCP or UDP data.
-> More information: <https://nmap.org/ncat>.
+> Netcat is a versatile utility for redirecting IO into a network stream.
+> More information: <https://manned.org/man/nc.1>.
 
-- Listen on a specified port and print any data received:
+- Start a listener on the specified TCP port and send a file into it:
 
-`nc -l {{port}}`
+`nc -l -p {{port}} < {{filename}}`
 
-- Connect to a certain port:
+- Connect to a target listener on the specified port and receive a file from it:
 
-`nc {{ip_address}} {{port}}`
+`nc {{host}} {{port}} > {{received_filename}}`
 
-- Set a timeout:
+- Scan the open TCP ports of a specified host:
 
-`nc -w {{timeout_in_seconds}} {{ipaddress}} {{port}}`
+`nc -v -z -w {{timeout_in_seconds}} {{host}} {{start_port}}-{{end_port}}`
 
-- Keep the server up after the client detaches:
+- Start a listener on the specified TCP port and provide your local shell access to the connected party (this is dangerous and can be abused):
 
-`nc -k -l {{port}}`
+`nc -l -p {{port}} -e {{shell_executable}}`
 
-- Keep the client up even after EOF:
+- Connect to a target listener and provide your local shell access to the remote party (this is dangerous and can be abused):
 
-`nc -q {{timeout}} {{ip_address}}`
+`nc {{host}} {{port}} -e {{shell_executable}}`
 
-- Scan the open ports of a specified host:
+- Act as a proxy and forward data from a local TCP port to the given remote host:
 
-`nc -v -z {{ip_address}} {{port}}`
+`nc -l -p {{local_port}} | nc {{host}} {{remote_port}}`
 
-- Act as proxy and forward data from a local TCP port to the given remote host:
+- Send an HTTP GET request:
 
-`nc -l {{local_port}} | nc {{hostname}} {{remote_port}}`
+`echo -e "GET / HTTP/1.1\nHost: {{host}}\n\n" | nc {{host}} 80`

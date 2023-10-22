@@ -1,7 +1,7 @@
 # dirsearch
 
 > Ağ yolu tarayıcı.
-> Daha fazla bilgi: <https://github.com/maurosoria/dirsearch>.
+> Daha fazla bilgi için: <https://github.com/maurosoria/dirsearch>.
 
 - Bir ağ sunucusunu yaygın eklentiler içeren yaygın yollar için tarayın:
 

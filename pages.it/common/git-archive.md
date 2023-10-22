@@ -13,16 +13,16 @@
 
 - Come sopra, ma scrivi l'archivio zip su file:
 
-`git archive --verbose --output={{percorso/al/file.zip}} HEAD`
+`git archive --verbose --output={{percorso/del/file.zip}} HEAD`
 
 - Crea un archivio tar dell'ultimo commit sul ramo specificato:
 
-`git archive --output={{percorso/al/file.tar}} {{nome_ramo}}`
+`git archive --output={{percorso/del/file.tar}} {{nome_ramo}}`
 
-- Crea un archivio tar del contenuto di una specifica cartella:
+- Crea un archivio tar del contenuto di una specifica directory:
 
-`git archive --output={{percorso/al/file.tar}} HEAD:{{percorso/alla/directory}}`
+`git archive --output={{percorso/del/file.tar}} HEAD:{{percorso/della/directory}}`
 
-- Anteponi un percorso ad ogni file cosí da archiviarlo in una cartella specifica:
+- Anteponi un percorso ad ogni file cosí da archiviarlo in una directory specifica:
 
-`git archive --output={{percorso/al/file.tar}} --prefix={{percorso/da/anteporre}}/ HEAD`
+`git archive --output={{percorso/del/file.tar}} --prefix={{percorso/da/anteporre}}/ HEAD`

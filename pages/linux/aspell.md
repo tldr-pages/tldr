@@ -7,18 +7,18 @@
 
 `aspell check {{path/to/file}}`
 
-- List misspelled words from standard input:
+- List misspelled words from `stdin`:
 
-`cat {{file}} | aspell list`
+`cat {{path/to/file}} | aspell list`
 
 - Show available dictionary languages:
 
 `aspell dicts`
 
-- Run aspell with a different language (takes two-letter ISO 639 language code):
+- Run `aspell` with a different language (takes two-letter ISO 639 language code):
 
 `aspell --lang={{cs}}`
 
-- List misspelled words from standard input and ignore words from personal word list:
+- List misspelled words from `stdin` and ignore words from personal word list:
 
-`cat {{file}} | aspell --personal={{personal-word-list.pws}} {{list}}`
+`cat {{path/to/file}} | aspell --personal={{personal-word-list.pws}} list`

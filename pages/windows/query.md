@@ -1,7 +1,7 @@
 # query
 
 > Displays information about user sessions and process.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/query>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/query>.
 
 - Display all user sessions:
 

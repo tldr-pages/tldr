@@ -24,6 +24,6 @@
 
 `sudo certbot --webroot --webroot-path {{pfad/zu/webroot}} --domain {{subdomain.beispiel.de}} --dry-run`
 
-- Beziehe eine Test-Zertifikat:
+- Beziehe ein Test-Zertifikat:
 
 `sudo certbot --webroot --webroot-path {{pfad/zu/webroot}} --domain {{subdomain.beispiel.de}} --test-cert`

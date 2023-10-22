@@ -1,7 +1,7 @@
 # cd
 
 > 現在の作業ディレクトリの名前を表示するか、現在の作業ディレクトリを変更します。
-> 詳しくはこちら: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>
+> 詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>
 
 - 同じドライブ内のディレクトリに移動します:
 

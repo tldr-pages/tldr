@@ -1,7 +1,7 @@
 # if
 
 > Performs conditional processing in batch scripts.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/if>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/if>.
 
 - Execute the specified commands if the condition is true:
 
@@ -17,7 +17,7 @@
 
 - Check whether `%errorlevel%` is greater than or equal to the specified exit code:
 
-`if errorlevel {{exit_code}} ({{echo Condition is true}})`
+`if errorlevel {{2}} ({{echo Condition is true}})`
 
 - Check whether two strings are equal:
 
@@ -29,4 +29,4 @@
 
 - Check whether a file exist:
 
-`if exist {{path/to/file}} ({{echo Condition is true}})`
+`if exist {{path\to\file}} ({{echo Condition is true}})`

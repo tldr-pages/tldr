@@ -1,20 +1,24 @@
 # cd
 
 > Geeft de naam van de huidige werkmap weer of wijzigt deze.
-> Meer informatie: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+> Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Ga naar een directory in dezelfde drive:
-
-`cd {{pad/naar/directory}}`
-
-- Geef de naam van de huidige directory weer:
+- Geef de naam van de huidige map weer:
 
 `cd`
 
-- Ga naar de ouder van de huidige directory:
+- Ga naar de hoofdmap:
+
+`cd \`
+
+- Ga naar de ouder van de huidige map:
 
 `cd ..`
 
-- Ga naar een directory in een andere drive:
+- Ga naar een map in dezelfde drive:
 
-`cd {{pad/naar/directory}} /d`
+`cd {{pad\naar\map}}`
+
+- Ga naar een map in een andere drive:
+
+`cd /d {{C}:{{pad\naar\map}}`

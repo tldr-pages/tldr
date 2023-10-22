@@ -1,7 +1,7 @@
 # git diff
 
 > İzlenen dosyalara değişiklikleri göster.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-diff>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-diff>.
 
 - Sahnelenmemiş, commit'lenmemiş değişiklikleri göster:
 

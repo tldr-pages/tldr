@@ -1,25 +1,29 @@
 # bat
 
-> Imprimir e concatenar arquivos.
+> Imprime e concatena arquivos.
 > Um clone do `cat` com realce de sintaxe e integração com Git.
 > Mais informações: <https://github.com/sharkdp/bat>.
 
-- Imprimir o conteúdo de um arquivo para a saída padrão:
+- Imprime o conteúdo de um arquivo para a saída padrão:
 
 `bat {{arquivo}}`
 
-- Concatenar vários arquivos em um arquivo de destino:
+- Concatena o conteúdo de vários arquivos em um arquivo destino:
 
-`bat {{caminho/para/arquivo1}} {{caminho/para/arquivo2}} > {{caminho/para/arquivo_destino}}`
+`bat {{arquivo1}} {{arquivo2}} > {{arquivo_destino}}`
 
-- Numerar todas as linhas do output:
+- Acrescenta o conteúdo de vários arquivos ao final de um arquivo destino:
 
-`bat -n {{caminho/para/arquivo}}`
+`bat {{arquivo1}} {{arquivo2}} >> {{arquivo_destino}}`
 
-- Realçar a sintaxe em um arquivo JSON:
+- Numera todas as linhas de saída:
 
-`bat --language json {{caminho/para/arquivo.json}}`
+`bat -n {{arquivo}}`
 
-- Mostrar todas as linguagens suportadas:
+- Realça a sintaxe de um arquivo JSON:
+
+`bat --language json {{arquivo.json}}`
+
+- Mostra todas as linguagens suportadas:
 
 `bat --list-languages`

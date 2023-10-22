@@ -2,7 +2,7 @@
 
 > Etiketleri oluştur, sırala, sil veya doğrula.
 > Bir etiket, belirtilmiş bir commit'e bağlı statik bir referanstır.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-tag>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-tag>.
 
 - Tüm etiketleri sırala:
 

@@ -1,7 +1,7 @@
 # docker-machine
 
 > Docker çalıştıran makineler oluştur ve onları yönet.
-> Daha fazla bilgi: <https://docs.docker.com/machine/reference/>.
+> Daha fazla bilgi için: <https://docs.docker.com/machine/reference/>.
 
 - Halihazırda çalışan docker makinelerini sırala:
 

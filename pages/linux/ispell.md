@@ -1,7 +1,7 @@
 # ispell
 
 > Interactive spell checking.
-> More information: <https://www.cs.hmc.edu/~geoff/ispell.html>.
+> More information: <https://www.cs.hmc.edu/~geoff/ispell-man.html>.
 
 - Start an interactive session:
 

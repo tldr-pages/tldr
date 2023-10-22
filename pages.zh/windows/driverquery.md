@@ -1,7 +1,7 @@
 # driverquery
 
 > 显示已安装设备驱动程序的信息。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/driverquery>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/driverquery>.
 
 - 显示所有已安装设备驱动程序的列表：
 

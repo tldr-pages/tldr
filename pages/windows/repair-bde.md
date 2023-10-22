@@ -1,7 +1,7 @@
 # repair-bde
 
 > Attempt to repair or decrypt a damaged BitLocker-encrypted volume.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/repair-bde>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/repair-bde>.
 
 - Attempt to repair a specified volume:
 
@@ -13,7 +13,7 @@
 
 - Attempt to repair a specified volume using the provided recovery key file:
 
-`repair-bde {{C:}} -RecoveryKey {{path/to/file.bek}}`
+`repair-bde {{C:}} -RecoveryKey {{path\to\file.bek}}`
 
 - Attempt to repair a specified volume using the provided numerical recovery password:
 
@@ -25,11 +25,11 @@
 
 - Attempt to repair a specified volume using the provided key package:
 
-`repair-bde {{C:}} -KeyPackage {{path/to/directory}}`
+`repair-bde {{C:}} -KeyPackage {{path\to\directory}}`
 
 - Log all output to a specific file:
 
-`repair-bde {{C:}} -LogFile {{path/to/file}}`
+`repair-bde {{C:}} -LogFile {{path\to\file}}`
 
 - Display all available options:
 

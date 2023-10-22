@@ -1,4 +1,4 @@
-# adb-logcat
+# adb logcat
 
 > Dump a log of system messages.
 > More information: <https://developer.android.com/studio/command-line/logcat>.
@@ -22,6 +22,14 @@
 - Display logs for all tags with priority level [W]arning and higher:
 
 `adb logcat *:W`
+
+- Display logs for a specific PID:
+
+`adb logcat --pid={{pid}}`
+
+- Display logs for the process of a specific package:
+
+`adb logcat --pid=$(adb shell pidof -s {{package}})`
 
 - Color the log (usually use with filters):
 

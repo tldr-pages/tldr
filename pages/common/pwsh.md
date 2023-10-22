@@ -1,20 +1,7 @@
 # pwsh
 
-> PowerShell Core is a cross-platform automation and configuration tool/framework.
-> More information: <https://docs.microsoft.com/powershell/>.
+> This command is an alias of `powershell`.
 
-- Start an instance of PowerShell:
+- View documentation for the original command:
 
-`pwsh`
-
-- Execute a script and then exit:
-
-`pwsh -File {{path/to/file.ps1}}`
-
-- Set the execution policy for the current session:
-
-`pwsh -ExecutionPolicy {{AllSigned|Bypass|Default|RemoteSigned|Restricted|Undefined|Unrestricted}}`
-
-- Execute a command and then exit:
-
-`pwsh -Command {{command}}`
+`tldr powershell`

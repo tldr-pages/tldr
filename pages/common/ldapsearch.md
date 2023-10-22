@@ -1,6 +1,6 @@
 # ldapsearch
 
-> CLI utility for querying an LDAP directory.
+> Query an LDAP directory.
 > More information: <https://docs.ldap.com/ldap-sdk/docs/tool-usages/ldapsearch.html>.
 
 - Query an LDAP server for all items that are a member of the given group and return the object's displayName value:

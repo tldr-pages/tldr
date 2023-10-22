@@ -3,7 +3,7 @@
 > A text-based calendar and scheduling application for the command-line.
 > More information: <https://lostpackets.de/khal>.
 
-- Start khal on interactive mode:
+- Start Khal on interactive mode:
 
 `ikhal`
 

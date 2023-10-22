@@ -2,7 +2,7 @@
 
 > GitLab API'si için Ruby sarıcı ve CLI aracı.
 > `gitlab ctl` gibi bazı alt komutların kendi kullanım kılavuzları vardır.
-> Daha fazla bilgi: <https://narkoz.github.io/gitlab/>.
+> Daha fazla bilgi için: <https://narkoz.github.io/gitlab/>.
 
 - Yeni bir proje oluştur:
 

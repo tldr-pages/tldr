@@ -1,7 +1,7 @@
 # reboot
 
 > Reboot the system.
-> More information: <https://www.man7.org/linux/man-pages/man8/reboot.8.html>.
+> More information: <https://manned.org/reboot.8>.
 
 - Reboot the system:
 
@@ -11,13 +11,13 @@
 
 `reboot --poweroff`
 
-- Halt the system (same as `halt`):
+- Halt (terminates all processes and shuts down the CPU) the system (same as `halt`):
 
 `reboot --halt`
 
 - Reboot immediately without contacting the system manager:
 
-`reboot --force --force`
+`reboot --force`
 
 - Write the wtmp shutdown entry without rebooting the system:
 

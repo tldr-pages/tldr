@@ -1,12 +1,8 @@
 # pacman --files
 
 > Arch Linux Paketverwaltungs-Werkzeug.
-> Siehe auch `pkgfile`.
+> Siehe auch: `pacman`, `pkgfile`.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
-
-- Zeige Hilfe an:
-
-`pacman --files --help`
 
 - Aktualisiere die Paketdatenbank:
 
@@ -16,7 +12,7 @@
 
 `pacman --files {{dateiname}}`
 
-- Finde das Paket, welches eine bestimmte Datei besitzt, mittels einem regulärem Ausdruck:
+- Finde das Paket, welches eine bestimmte Datei besitzt, mittels eines regulären Ausdrucks:
 
 `pacman --files --regex '{{suchmuster}}'`
 
@@ -28,6 +24,6 @@
 
 `pacman --files --list {{paketname}}`
 
-- Liste nur den absoluten Pfad der Dateien auf:
+- Zeige Hilfe an:
 
-`pacman --query --list --quiet {{paketname}}`
+`pacman --files --help`

@@ -7,10 +7,6 @@
 
 `arp -a`
 
-- Nettoie le cache :
-
-`sudo arp -a -d`
-
 - Supprime une entrée spécifique :
 
 `arp -d {{adresse}}`

@@ -1,7 +1,7 @@
 # whoami
 
 > 显示有关当前用户的详细信息。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/whoami>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/whoami>.
 
 - 显示当前用户的用户名：
 

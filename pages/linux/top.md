@@ -3,7 +3,7 @@
 > Display dynamic real-time information about running processes.
 > More information: <https://manned.org/top>.
 
-- Start top:
+- Start `top`:
 
 `top`
 

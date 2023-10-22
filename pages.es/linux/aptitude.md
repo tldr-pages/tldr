@@ -23,7 +23,7 @@
 
 `aptitude remove {{paquete}}`
 
-- Actualiza todos los paquetes sus nuevas versiones disponibles:
+- Actualiza todos los paquetes a sus nuevas versiones disponibles:
 
 `aptitude upgrade`
 
@@ -31,6 +31,6 @@
 
 `aptitude full-upgrade`
 
-- Mantiente un paquete instalado para que no sea actualizado automáticamente:
+- Mantiene un paquete instalado para que no sea actualizado automáticamente:
 
 `aptitude hold '?installed({{paquete}})'`

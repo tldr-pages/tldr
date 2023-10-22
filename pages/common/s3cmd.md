@@ -1,6 +1,6 @@
 # s3cmd
 
-> Command line tool and client for uploading, retrieveing and managing data in S3 compatible object storage.
+> Command line tool and client for uploading, retrieving and managing data in S3 compatible object storage.
 > More information: <https://s3tools.org/s3cmd>.
 
 - Invoke configuration/reconfiguration tool:

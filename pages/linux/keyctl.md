@@ -15,7 +15,7 @@
 
 `keyctl add {{type_keyring}} {{key_name}} {{key_value}} {{target_keyring}}`
 
-- Store a key with its value from standard input:
+- Store a key with its value from `stdin`:
 
 `echo -n {{key_value}} | keyctl padd {{type_keyring}} {{key_name}} {{target_keyring}}`
 

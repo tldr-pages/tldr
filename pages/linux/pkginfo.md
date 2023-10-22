@@ -9,7 +9,7 @@
 
 - List files owned by a package:
 
-`pkginfo -l {{package_name}}`
+`pkginfo -l {{package}}`
 
 - List the owner(s) of files matching a pattern:
 
@@ -17,4 +17,4 @@
 
 - Print the footprint of a file:
 
-`pkginfo -f {{file}}`
+`pkginfo -f {{path/to/file}}`

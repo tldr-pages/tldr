@@ -1,6 +1,6 @@
 # cut
 
-> Schneide Felder von stdin oder einer Datei aus.
+> Schneide Felder von `stdin` oder einer Datei aus.
 > Weitere Informationen: <https://www.gnu.org/software/coreutils/cut>.
 
 - Schneide bestimmte Zeichen oder einen Feldbereich jeder Zeile aus:

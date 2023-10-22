@@ -1,7 +1,7 @@
 # reboot
 
 > Reinicia la màquina.
-> Més informació: <https://www.man7.org/linux/man-pages/man8/reboot.8.html>.
+> Més informació: <https://manned.org/reboot.8>.
 
 - Reinicia inmediatament:
 
@@ -17,7 +17,7 @@
 
 - Reinicia inmediatament sense contactar l'adminstrador del sistema:
 
-`reboot --force --force`
+`reboot --force`
 
 - Escriu l'entrada wtmp shutdown sense reiniciar el sistema:
 

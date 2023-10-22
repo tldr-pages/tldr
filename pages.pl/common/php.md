@@ -19,7 +19,7 @@
 
 `php -r "{{kod}}"`
 
-- uruchom wbudowany serwer PHP w bieżącym katalogu:
+- Uruchom wbudowany serwer PHP w bieżącym katalogu:
 
 `php -S {{host:port}}`
 
@@ -30,3 +30,7 @@
 - Wyświetl informacje o bieżącej konfiguracji PHP:
 
 `php -i`
+
+- Wyświetl informacje o konkretnej funkcji:
+
+`php --rf {{nazwa_funkcji}}`

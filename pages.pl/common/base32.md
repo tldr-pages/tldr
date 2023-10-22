@@ -11,10 +11,10 @@
 
 `base32 --decode {{nazwapliku}}`
 
-- Enkoduj z stdin:
+- Enkoduj z `stdin`:
 
 `{{jakiespolecenie}} | base32`
 
-- Dekoduj z stdin:
+- Dekoduj z `stdin`:
 
 `{{jakiespolecenie}} | base32 --decode`

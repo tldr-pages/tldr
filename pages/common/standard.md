@@ -9,7 +9,7 @@
 
 - Lint specific JavaScript file(s):
 
-`standard {{path/to/file(s)}}`
+`standard {{path/to/file1 path/to/file2 ...}}`
 
 - Apply automatic fixes during linting:
 

@@ -1,7 +1,7 @@
 # csc
 
 > 마이크로 소프트 사의 C# 컴파일러.
-> 더 많은 정보: <https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
+> 더 많은 정보: <https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
 
 - 하나 이상의 C# 파일을 CIL 실행파일로 컴파일:
 

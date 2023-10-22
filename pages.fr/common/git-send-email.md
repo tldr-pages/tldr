@@ -8,11 +8,11 @@
 
 `git send-email -1`
 
-- envoyer un commit spécifique :
+- Envoyer un commit spécifique :
 
 `git send-email -1 {{commit}}`
 
-- envoyer de multiples commits de la branche courante (ici : 10) :
+- Envoyer de multiples commits de la branche courante (ici : 10) :
 
 `git send-email {{-10}}`
 

@@ -15,7 +15,7 @@
 
 `docker exec --interactive -tty --workdir {{chemin/vers/le/répertoire}} {{nom_du_conteneur}} {{commande}}`
 
-- Exécuter une commande en arrière-plan sur un conteneur existant mais garder stdin ouvert :
+- Exécuter une commande en arrière-plan sur un conteneur existant mais garder `stdin` ouvert :
 
 `docker exec --interactive --detach {{nom_du_conteneur}} {{commande}}`
 

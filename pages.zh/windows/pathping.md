@@ -1,7 +1,7 @@
 # pathping
 
 > 一种结合了`ping`和`tracert`功能的跟踪路由工具。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/pathping>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/pathping>.
 
 - Ping 并追踪主机的路由：
 

@@ -13,9 +13,9 @@
 
 - Seleziona la directory di lavoro in cui eseguire un dato comando:
 
-`docker exec --interactive -tty --workdir {{percorso/alla/directory}} {{nome_container}} {{comando}}`
+`docker exec --interactive -tty --workdir {{percorso/della/directory}} {{nome_container}} {{comando}}`
 
-- Esegui un comando in background su un container esistente, mantenendo aperto stdin:
+- Esegui un comando in background su un container esistente, mantenendo aperto `stdin`:
 
 `docker exec --interactive --detach {{nome_container}} {{comando}}`
 

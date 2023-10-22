@@ -1,8 +1,8 @@
 # az login
 
 > Log in to Azure.
-> Part of `az`, the command-line client for Microsoft Azure.
-> More information: <https://docs.microsoft.com/cli/azure/reference-index#az_login>.
+> Part of `azure-cli` (also known as `az`).
+> More information: <https://learn.microsoft.com/cli/azure/reference-index#az_login>.
 
 - Log in interactively:
 
@@ -10,7 +10,7 @@
 
 - Log in with a service principal using a client secret:
 
-`az login --service-principal --username {{http://azure-cli-service-principal}} --passsword {{secret}} --tenant {{someone.onmicrosoft.com}}`
+`az login --service-principal --username {{http://azure-cli-service-principal}} --password {{secret}} --tenant {{someone.onmicrosoft.com}}`
 
 - Log in with a service principal using a client certificate:
 

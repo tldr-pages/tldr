@@ -1,7 +1,7 @@
 # color
 
 > Set the console foreground and background colors.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/color>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
 
 - Set the console colors to the default values:
 

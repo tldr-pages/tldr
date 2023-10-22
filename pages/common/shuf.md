@@ -5,15 +5,15 @@
 
 - Randomize the order of lines in a file and output the result:
 
-`shuf {{filename}}`
+`shuf {{path/to/file}}`
 
 - Only output the first 5 entries of the result:
 
-`shuf --head-count={{5}} {{filename}}`
+`shuf --head-count={{5}} {{path/to/file}}`
 
 - Write the output to another file:
 
-`shuf {{filename}} --output={{output_filename}}`
+`shuf {{path/to/input}} --output={{path/to/output}}`
 
 - Generate 3 random numbers in the range 1-10 (inclusive):
 

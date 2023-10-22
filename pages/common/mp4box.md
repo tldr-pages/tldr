@@ -5,7 +5,7 @@
 
 - Display information about an existing MP4 file:
 
-`mp4box -info {{filename}}`
+`mp4box -info {{path/to/file}}`
 
 - Add an SRT subtitle file into an MP4 file:
 

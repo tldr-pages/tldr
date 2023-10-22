@@ -5,8 +5,8 @@
 
 - Comparar os arquivos:
 
-`diff3 {{arquivo1}} {{arquivo2}} {{arquivo3}}`
+`diff3 {{caminho/para/arquivo1}} {{caminho/para/arquivo2}} {{caminho/para/arquivo3}}`
 
 - Exibir todas as diferenças, destacando os conflitos:
 
-`diff3 --show-all {{arquivo1}} {{arquivo2}} {{arquivo3}}`
+`diff3 --show-all {{caminho/para/arquivo1}} {{caminho/para/arquivo2}} {{caminho/para/arquivo3}}`

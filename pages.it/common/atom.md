@@ -4,17 +4,17 @@
 > I plugin sono gestiti da `apm`.
 > Maggiori informazioni: <https://atom.io/>.
 
-- Apri un file o una cartella:
+- Apri un file o una directory:
 
-`atom {{percorso/a/file_o_cartella}}`
+`atom {{percorso/del/file_o_directory}}`
 
-- Apri un file o una cartella in una nuova finestra:
+- Apri un file o una directory in una nuova finestra:
 
-`atom -n {{percorso/a/file_o_cartella}}`
+`atom -n {{percorso/del/file_o_directory}}`
 
-- Apri un file o una cartella in una finestra esistente:
+- Apri un file o una directory in una finestra esistente:
 
-`atom --add {{percorso/a/file_o_cartella}}`
+`atom --add {{percorso/del/file_o_directory}}`
 
 - Avvia Atom in safe mode (non carica nessun pacchetto):
 

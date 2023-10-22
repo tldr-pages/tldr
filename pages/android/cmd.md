@@ -1,16 +1,16 @@
 # cmd
 
 > Android service manager.
-> More information: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+> More information: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
-- List every running service:
+- [l]ist all running services:
 
 `cmd -l`
 
 - Call a specific service:
 
-`cmd {{alarm}}`
+`cmd {{service}}`
 
-- Call a service with arguments:
+- Call a service with specific arguments:
 
-`cmd {{vibrator}} {{vibrate 300}}`
+`cmd {{service}} {{argument1 argument2 ...}}`

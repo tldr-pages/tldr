@@ -7,7 +7,7 @@
 
 `xml pyx {{path/to/input.xml|URI}} > {{path/to/output.pyx}}`
 
-- Convert an XML document from stdin to PYX format:
+- Convert an XML document from `stdin` to PYX format:
 
 `cat {{path/to/input.xml}} | xml pyx > {{path/to/output.pyx}}`
 

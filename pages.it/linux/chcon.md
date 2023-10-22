@@ -5,7 +5,7 @@
 
 - Mostra il contesto di sicurezza di un file:
 
-`ls -lZ {{percorso/al/file}}`
+`ls -lZ {{percorso/del/file}}`
 
 - Cambia il contesto di sicurezza di un file usandone un'altro come riferimento:
 

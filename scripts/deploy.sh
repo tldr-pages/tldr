@@ -9,6 +9,8 @@ function initialize {
     export TLDRHOME=${GITHUB_WORKSPACE:-$(pwd)}
   fi
 
+  export TLDR_LANG_ARCHIVES_DIRECTORY="$TLDRHOME/language_archives"
+  export TLDR_PDF_FILES_DIRECTORY="$TLDRHOME/scripts/pdf"
   export TLDR_ARCHIVE="tldr.zip"
   export SITE_HOME="$HOME/site"
   export SITE_REPO_SLUG="tldr-pages/tldr-pages.github.io"
@@ -29,12 +31,17 @@ function initialize {
 function upload_assets {
   git clone --quiet --depth 1 git@github.com:${SITE_REPO_SLUG}.git "$SITE_HOME"
   mv -f "$TLDR_ARCHIVE" "$SITE_HOME/assets/"
+  mv -f "${TLDR_LANG_ARCHIVES_DIRECTORY}"/*.zip "$SITE_HOME/assets/"
+  rm -rf "$TLDR_LANG_ARCHIVES_DIRECTORY"
   cp -f "$TLDRHOME/index.json" "$SITE_HOME/assets/"
+  mv -f "${TLDR_PDF_FILES_DIRECTORY}"/*.pdf "${SITE_HOME}/assets/"
+  rm -rf "$TLDR_PDF_FILES_DIRECTORY"
 
-  # Copy PDF to assets
-  if [[ -f "${TLDRHOME}/scripts/pdf/tldr-pages.pdf" ]]; then
-    cp -f "${TLDRHOME}/scripts/pdf/tldr-pages.pdf" "${SITE_HOME}/assets/tldr-book.pdf"
-  fi
+  sha256sum \
+    "${SITE_HOME}/assets/index.json" \
+    "${SITE_HOME}/assets/"*.zip \
+    "${SITE_HOME}/assets/"*.pdf \
+    > "${SITE_HOME}/assets/tldr.sha256sums"
 
   cd "$SITE_HOME"
   git add -A

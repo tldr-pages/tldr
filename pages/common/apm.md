@@ -4,14 +4,14 @@
 > See `atom`.
 > More information: <https://github.com/atom/apm>.
 
-- Install a package from http://atom.io/packages or a theme from http://atom.io/themes:
+- Install a package from <http://atom.io/packages> or a theme from <http://atom.io/themes>:
 
-`apm install {{package_name}}`
+`apm install {{package}}`
 
 - Remove a package/theme:
 
-`apm remove {{package_name}}`
+`apm remove {{package}}`
 
 - Upgrade a package/theme:
 
-`apm upgrade {{package_name}}`
+`apm upgrade {{package}}`

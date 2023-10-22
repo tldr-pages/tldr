@@ -1,6 +1,6 @@
 # gh ssh-key
 
-> Manage GitHub SSH keys from the command-line.
+> Manage GitHub SSH keys.
 > More information: <https://cli.github.com/manual/gh_ssh-key>.
 
 - Display help:

@@ -15,7 +15,7 @@
 
 `lighthouse --output {{json}} --output-path {{path/to/file.json}} {{https://example.com}}`
 
-- Generate a report using the browser in headless mode without logging to stdout:
+- Generate a report using the browser in headless mode without logging to `stdout`:
 
 `lighthouse --quiet --chrome-flags="{{--headless}}" {{https://example.com}}`
 

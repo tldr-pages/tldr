@@ -1,6 +1,6 @@
 # vifm
 
-> Vifm (VI File Manager) is a command line file manager.
+> Vifm (VI File Manager) is a command-line file manager.
 > More information: <https://github.com/vifm/vifm>.
 
 - Open the current directory:
@@ -9,4 +9,4 @@
 
 - Open specified directories on left or right plane:
 
-`vifm {{path/to/directory_1}} {{path/to/directory_2}}`
+`vifm {{path/to/directory1 path/to/directory2 ...}}`

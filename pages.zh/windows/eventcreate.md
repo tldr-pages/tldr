@@ -2,7 +2,7 @@
 
 > 在事件日志中创建自定义条目。
 > 事件 ID 可以是 1 到 1000 之间的任意数值。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/eventcreate>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/eventcreate>.
 
 - 在日志中创建一个具有给定 id（1-1000）的新事件：
 

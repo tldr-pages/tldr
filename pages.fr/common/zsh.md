@@ -14,12 +14,16 @@
 
 - Exécute un script :
 
-`zsh {{chemin/vers/le/script.zsh}}`
+`zsh {{chemin/vers/script.zsh}}`
 
 - Exécute un script en affichant chaque commande avant de l'exécuter :
 
-`zsh --xtrace {{path/to/script.zsh}}`
+`zsh --xtrace {{chemin/vers/script.zsh}}`
 
 - Démarre une session shell interactive en mode verbeux, qui affiche chaque commande avant de l'exécuter :
 
 `zsh --verbose`
+
+- Exécute une commande spécifique dans `zsh` sans motifs génériques d'expansion des noms de fichier :
+
+`noglob "{{command}}"`

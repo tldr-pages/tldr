@@ -1,7 +1,7 @@
 # gitlab-ctl
 
 > Çok amaçlı GitLab yönetim CLI aracı.
-> Daha fazla bilgi: <https://docs.gitlab.com/omnibus/maintenance/>.
+> Daha fazla bilgi için: <https://docs.gitlab.com/omnibus/maintenance/>.
 
 - Tüm servislerin durumunu görüntüle:
 

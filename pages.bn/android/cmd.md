@@ -1,7 +1,7 @@
 # cmd
 
 > অ্যান্ড্রয়েড সার্ভিস ম্যানেজার।
-> আরও তথ্য পাবেন: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+> আরও তথ্য পাবেন: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - প্রতিটি চলমান পরিষেবা তালিকা করুন:
 

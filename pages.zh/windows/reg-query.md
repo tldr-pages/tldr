@@ -1,7 +1,7 @@
 # reg query
 
 > 显示注册表中键和子键的值。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/reg-query>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query>.
 
 - 显示一个键中的所有值：
 

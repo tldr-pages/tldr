@@ -1,7 +1,7 @@
 # shutdown
 
 > Een tool om een machine af te sluiten, her op te starten of af te melden.
-> Meer informatie: <https://docs.microsoft.com/windows-server/administration/windows-commands/shutdown>.
+> Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown>.
 
 - Sluit de huidige machine af:
 

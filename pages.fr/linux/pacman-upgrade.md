@@ -1,11 +1,8 @@
 # pacman --upgrade
 
 > Mets à jour ou ajoute des paquets au système.
+> Voir aussi: `pacman`.
 > Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
-
-- Affiche l'aide :
-
-`pacman --upgrade --help`
 
 - Installe un ou des paquets depuis le système de fichiers :
 
@@ -25,4 +22,8 @@
 
 - Affiche ce qui se passerait si la commande était exécutée mais sans agir :
 
-`pacman --query --print {{chemin/vers/paquet.pkg.tar.zst}}`
+`pacman --upgrade --print {{chemin/vers/paquet.pkg.tar.zst}}`
+
+- Affiche l'aide :
+
+`pacman --upgrade --help`

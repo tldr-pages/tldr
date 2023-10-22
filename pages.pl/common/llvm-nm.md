@@ -1,7 +1,7 @@
 # llvm-nm
 
-> Te polecenie jest aliasem `nm`.
+> To polecenie jest aliasem `nm`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr nm`

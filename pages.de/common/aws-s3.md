@@ -23,6 +23,6 @@
 
 `aws s3 rm s3://{{bucket}}/{{pfad/zu/datei}}`
 
-- Probelauf eines angegeben Kommandos ohne diesen auszuführen:
+- Probelauf eines angegebenen Kommandos ohne dieses auszuführen:
 
 `aws s3 {{befehl}} --dryrun`

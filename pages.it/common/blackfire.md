@@ -17,19 +17,19 @@
 
 - Lancia il profiler su uno specifico programma:
 
-`blackfire run {{php percorso/al/file.php}}`
+`blackfire run {{php percorso/del/file.php}}`
 
 - Lancia il profiler e raccogli 10 campioni:
 
-`blackfire --samples={{10}} run {{php percorso/al/file.php}}`
+`blackfire --samples={{10}} run {{php percorso/del/file.php}}`
 
 - Lancia il profiler e mostra i risultati in output come JSON:
 
-`blackfire --json run {{php percorso/al/file.php}}`
+`blackfire --json run {{php percorso/del/file.php}}`
 
 - Carica un file del profiler sul servizio web di Blackfire:
 
-`blackfire upload {{percorso/al/file}}`
+`blackfire upload {{percorso/del/file}}`
 
 - Mostra lo stato dei profili sul servizio web di Blackfire:
 

@@ -8,7 +8,7 @@
 
 `graphml2gv -o {{output.gv}} {{input.gml}}`
 
-- Convert a graph using stdin and stdout:
+- Convert a graph using `stdin` and `stdout`:
 
 `cat {{input.gml}} | graphml2gv > {{output.gv}}`
 

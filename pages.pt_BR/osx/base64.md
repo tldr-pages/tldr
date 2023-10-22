@@ -11,10 +11,10 @@
 
 `base64 --decode --input={{arquivo_base64}}`
 
-- Codificar de stdin:
+- Codificar de `stdin`:
 
 `echo -n "{{texto}}" | base64`
 
-- Decodificar de stdin:
+- Decodificar de `stdin`:
 
 `echo -n {{texto_base64}} | base64 --decode`

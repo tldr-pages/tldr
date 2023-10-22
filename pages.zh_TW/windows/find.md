@@ -1,7 +1,7 @@
 # find
 
 > 在一個或多個文件中查詢指定字串。
-> 更多資訊：<https://docs.microsoft.com/windows-server/administration/windows-commands/find>.
+> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/find>.
 
 - 查詢包含指定字串的行：
 

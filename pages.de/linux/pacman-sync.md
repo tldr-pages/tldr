@@ -1,6 +1,7 @@
 # pacman --sync
 
 > Arch Linux Paketverwaltungs-Werkzeug.
+> Siehe auch: `pacman`.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Installiere ein neues Paket:
@@ -15,7 +16,7 @@
 
 `sudo pacman --sync --refresh --sysupgrade --noconfirm {{paketname}}`
 
-- Suche in der Paketdatenbank mit einem regulärem Ausdruck oder Schlüsselwort:
+- Suche in der Paketdatenbank mit einem regulären Ausdruck oder Schlüsselwort:
 
 `pacman --sync --search "{{suchmuster}}"`
 

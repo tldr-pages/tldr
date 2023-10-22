@@ -13,7 +13,7 @@
 
 - Dump a list of all the available processing filters into a file:
 
-`meshlabserver -d {{filename}}`
+`meshlabserver -d {{path/to/file}}`
 
 - Process a 3D file using a filter script created in the MeshLab GUI (Filters > Show current filter script > Save Script):
 

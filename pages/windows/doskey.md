@@ -1,7 +1,7 @@
 # doskey
 
 > Manage macros, windows commands and command-lines.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/doskey>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/doskey>.
 
 - List available macros:
 
@@ -25,8 +25,8 @@
 
 - Save macros to a file for portability:
 
-`doskey /macros > {{macinit}}`
+`doskey /macros > {{path\to\macinit_file}}`
 
 - Load macros from a file:
 
-`doskey /macrofile = {{macinit}}`
+`doskey /macrofile = {{path\to\macinit_file}}`

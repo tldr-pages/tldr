@@ -1,7 +1,7 @@
 # Get-FileHash
 
 > 计算一个文件的 HASH 值。
-> 更多信息：<https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/get-filehash>.
+> 更多信息：<https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-filehash>.
 
 - 使用 SHA256 算法计算给定文件的哈希值：
 

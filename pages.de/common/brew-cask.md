@@ -23,7 +23,7 @@
 
 `brew upgrade --cask {{caskname}}`
 
-- Deinstalliere ein Cask
+- Deinstalliere ein Cask:
 
 `brew cask uninstall {{caskname}}`
 

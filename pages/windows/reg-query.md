@@ -1,7 +1,7 @@
 # reg query
 
 > Display the values of keys and sub keys in the registry.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-query>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query>.
 
 - Display all values of a key:
 

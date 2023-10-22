@@ -11,10 +11,10 @@
 
 `docker start {{container}}`
 
-- Start a container, attaching stdout and stderr and forwarding signals:
+- Start a container, attaching `stdout` and `stderr` and forwarding signals:
 
 `docker start --attach {{container}}`
 
 - Start one or more space-separated containers:
 
-`docker start {{container(s)}}`
+`docker start {{container1 container2 ...}}`

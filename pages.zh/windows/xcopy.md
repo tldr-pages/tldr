@@ -1,7 +1,7 @@
 # xcopy
 
 > 复制文件和目录树。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/xcopy>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>.
 
 - 复制文件到指定的路径：
 

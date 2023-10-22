@@ -19,7 +19,7 @@
 
 `sudo dnf install {{paquete}}`
 
-- Instala un nuevo paquete respondiendo si a todas las preguntas:
+- Instala un nuevo paquete respondiendo sí a todas las preguntas:
 
 `sudo dnf install -y {{paquete}}`
 
@@ -27,6 +27,6 @@
 
 `dnf list --installed`
 
-- Encuentra que paquete provee un archivo determinado:
+- Encuentra qué paquete provee un archivo determinado:
 
 `dnf provides {{archivo}}`

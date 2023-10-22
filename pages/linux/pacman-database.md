@@ -2,19 +2,16 @@
 
 > Operate on the Arch Linux package database.
 > Modify certain attributes of the installed packages.
+> See also: `pacman`.
 > More information: <https://man.archlinux.org/man/pacman.8>.
-
-- Display help:
-
-`pacman --database --help`
 
 - Mark a package as implicitly installed:
 
-`sudo pacman --database --asdeps {{package_name}}`
+`sudo pacman --database --asdeps {{package}}`
 
 - Mark a package as explicitly installed:
 
-`sudo pacman --database --asexplicit {{package_name}}`
+`sudo pacman --database --asexplicit {{package}}`
 
 - Check that all the package dependencies are installed:
 
@@ -27,3 +24,7 @@
 - Display only error messages:
 
 `pacman --database --check --quiet`
+
+- Display help:
+
+`pacman --database --help`

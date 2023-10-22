@@ -99,10 +99,9 @@ def get_alias_page(file):
     if not os.path.isfile(file):
         return ""
     with open(file) as f:
-        lines = f.readlines()
-    for line in lines:
-        if re.search(r"^`tldr ", line):
-            return re.search("`tldr (.+)`", line).group(1)
+        for line in f:
+            if match := re.search(r"^`tldr (.+)`", line):
+                return match[1]
     return ""
 
 

@@ -1,6 +1,6 @@
 # qm
 
-> Qemu/KVM Virtual Machine Manager.
+> QEMU/KVM Virtual Machine Manager.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - List all virtual machines:

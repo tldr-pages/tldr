@@ -1,8 +1,8 @@
 # az tag
 
 > Manage tags on a resource.
-> Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/tag>.
+> Part of `azure-cli` (also known as `az`).
+> More information: <https://learn.microsoft.com/cli/azure/tag>.
 
 - Create a tag value:
 

@@ -31,6 +31,6 @@
 
 `perl -p0e 's/{{recherche}}/{{remplacement}}/g' {{fichier_entrée}} > {{fichier_sortie}}`
 
-- Lancer une expression régulière (RegEx) sur stdin, en affichant le premier groupe capturé pour chaque ligne :
+- Lancer une expression régulière (RegEx) sur `stdin`, en affichant le premier groupe capturé pour chaque ligne :
 
 `cat {{fichier_entrée}} | perl -nle 'if (/{{regex}}/) { print "$1"; last;}'`

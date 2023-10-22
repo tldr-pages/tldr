@@ -5,12 +5,12 @@
 
 - Compress a file into a new file with the `.lzo` suffix:
 
-`lzop {{file}}`
+`lzop {{path/to/file}}`
 
 - Decompress a file:
 
-`lzop -d {{file}}.lzo`
+`lzop -d {{path/to/file}}.lzo`
 
 - Compress a file, while specifying the compression level. 0 = Worst, 9 = Best (Default level is 3):
 
-`lzop -{{level}} {{file}}`
+`lzop -{{level}} {{path/to/file}}`

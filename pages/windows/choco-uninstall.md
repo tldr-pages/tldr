@@ -5,7 +5,7 @@
 
 - Uninstall one or more space-separated packages:
 
-`choco uninstall {{package(s)}}`
+`choco uninstall {{package1 package2 ...}}`
 
 - Uninstall a specific version of a package:
 

@@ -1,7 +1,7 @@
 # nginx
 
 > Nginx web sunucusu.
-> Daha fazla bilgi: <https://nginx.org/en/>.
+> Daha fazla bilgi için: <https://nginx.org/en/>.
 
 - Varsayılan konfigürasyon dosyasıyla sunucuyu başlat:
 

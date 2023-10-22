@@ -1,7 +1,7 @@
 # powershell
 
 > Interface en ligne de commande et langage de script spécialement conçu pour l'administration système.
-> Plus d'informations : <https://docs.microsoft.com/windows-server/administration/windows-commands/powershell>.
+> Plus d'informations : <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
 
 - Démarre une session Windows PowerShell dans une fenêtre d'invite de commande :
 

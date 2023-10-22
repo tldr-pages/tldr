@@ -18,4 +18,4 @@
 
 - Add the changes of a commit to the working directory, without creating a commit:
 
-`git cherry-pick -n {{commit}}`
+`git cherry-pick --no-commit {{commit}}`

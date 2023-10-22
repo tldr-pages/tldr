@@ -1,7 +1,7 @@
 # dotnet
 
 > Wieloplatformowe narzędzia wiersza polecenia .NET dla platformy .NET Core.
-> Więcej informacji: <https://docs.microsoft.com/dotnet/core/tools>.
+> Więcej informacji: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Zainicjuj nowy projekt .NET:
 
