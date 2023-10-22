@@ -7,10 +7,10 @@
 
 `xcodes runtimes --include-betas`
 
-- Descarga un simulator de un tiempo de ejecución:
+- Descarga un simulador de un tiempo de ejecución:
 
 `xcodes runtimes download {{nombre_del_tiempo_de_ejecución}}`
 
-- Descarga e instala un simulador de tiempo de ejecución:
+- Descarga e instala un simulador de un tiempo de ejecución:
 
 `xcodes runtimes install {{nombre_del_tiempo_de_ejecución}}`
