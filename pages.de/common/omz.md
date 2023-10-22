@@ -23,7 +23,7 @@
 
 `omz plugin {{enable|disable}} {{plugin}}`
 
-- Zeige eine Liste aller verfügbaren Themes an:
+- Zeige eine Liste aller verfügbaren Themen an:
 
 `omz theme list`
 
