@@ -67,7 +67,9 @@ If you are an owner of the organization, you can see an automated list
 - **Juri ([@gutjuri](https://github.com/gutjuri))**: 
   [06 October 2023](https://github.com/tldr-pages/tldr/issues/10874) — present
 - **Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck))**:
-  [19 October 2023](https://github.com/tldr-pages/tldr/issues/11075) — present  
+  [19 October 2023](https://github.com/tldr-pages/tldr/issues/11075) — present
+- **Magrid0 ([@Magrid0](https://github.com/Magrid0))**:
+  [22 October 2023](https://github.com/tldr-pages/tldr/issues/11159) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -106,8 +108,6 @@ If you are an owner of the organization, you can see an automated list
   [12 August 2021](https://github.com/tldr-pages/tldr/issues/6330) — [4 January 2023](https://github.com/tldr-pages/tldr/issues/9671)
 - Lena ([@acuteenvy](https://github.com/acuteenvy)):
   [13 May 2023](https://github.com/tldr-pages/tldr/issues/10187) — [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406)
-- Magrid0 ([@Magrid0](https://github.com/Magrid0)):
-  [22 October 2023](https://github.com/tldr-pages/tldr/issues/11159) — present
 
 ## Organization members
 
