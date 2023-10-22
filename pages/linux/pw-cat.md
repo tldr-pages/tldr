@@ -1,6 +1,6 @@
 # pw-cat
 
-> Pipewire tool for playing and recording audio files.
+> Play and record audio files through pipewire.
 > More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
 
 - Play a WAV file over the default target:
