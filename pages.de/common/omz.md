@@ -27,6 +27,6 @@
 
 `omz theme list`
 
-- Setze ein Oh My Zsh-Theme in der Datei `~/.zshrc`:
+- Wähle ein Oh My Zsh-Thema als Standardthema:
 
 `omz theme set {{theme}}`
