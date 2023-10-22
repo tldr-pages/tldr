@@ -11,7 +11,7 @@
 
 `kitty --title "{{Titel}}"`
 
-- Starte den integrierten Theme-Auswähler:
+- Starte die integrierte Theme-Auswahl:
 
 `kitty +kitten themes`
 
