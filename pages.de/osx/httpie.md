@@ -1,4 +1,4 @@
-# HTTPie
+# httpie
 
 > Ein benutzerfreundliches HTTP-Tool.
 > Weitere Informationen: <https://github.com/httpie/httpie>.
