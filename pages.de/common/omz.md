@@ -1,6 +1,6 @@
 # omz
 
-> Oh My Zsh Befehlszeilen Werkzeug.
+> Oh My Zsh Kommandozeilenwerkzeug.
 > Weitere Informationen: <https://github.com/ohmyzsh/ohmyzsh>.
 
 - Aktualisiere Oh My Zsh:
