@@ -8,6 +8,7 @@
 `am start -n {{com.android.settings/.Settings}}`
 
 - एउटा गतिविधि सुरु गर्नुहोस् र यसलाई [d] डाटा पास गर्नुहोस्:
+
 `am start -a {{android.intent.action.VIEW}} -d {{tel:123}}`
 
 - एक विशिष्ट कार्य र [c] श्रेणीसँग (category) मेल खाने गतिविधि सुरु गर्नुहोस्:
