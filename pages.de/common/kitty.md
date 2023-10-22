@@ -17,7 +17,7 @@
 
 - Zeige ein Bild im Terminal an:
 
-`kitty +kitten icat {{Pfad/zum/Bild}}`
+`kitty +kitten icat {{pfad/zum/bild}}`
 
 - Kopiere den Inhalt von `stdin` in die Zwischenablage:
 
