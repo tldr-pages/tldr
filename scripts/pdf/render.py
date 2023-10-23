@@ -17,7 +17,7 @@ from datetime import datetime
 from weasyprint import HTML
 
 
-def main(loc, colorscheme, output_filename, platform=None):
+def main(loc, colorscheme, output_filename, platform):
     # Checking correctness of path
     if not os.path.isdir(loc):
         print("Invalid directory. Please try again!", file=sys.stderr)
