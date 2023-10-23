@@ -1,6 +1,6 @@
 # adig
 
-> Prints information received from Domain Name System (DNS) servers.
+> Print information received from Domain Name System (DNS) servers.
 > More information: <https://manned.org/adig>.
 
 - Display A (default) record from DNS for hostname(s):
