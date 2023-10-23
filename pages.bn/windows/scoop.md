@@ -29,4 +29,4 @@
 
 - সব প্রাচীন সংস্করণ সরানো এবং ডাউনলোড ক্যাশ পরিষ্কার করুন:
 
-`scoop cleanup --cache --all`"
+`scoop cleanup --cache --all`
