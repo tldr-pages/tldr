@@ -3,34 +3,18 @@
 > The Perl 5 language interpreter.
 > More information: <https://www.perl.org>.
 
-- Parse and execute a Perl script:
+- Print lines from stdin [m/] matching regex1 and case insensitive [/i] regex2:
 
-`perl {{script.pl}}`
+`perl -n -e 'print if m/{{regex1}}/ and m/{{regex2}}/i'`
 
-- Check syntax errors on a Perl script:
+- Say [-E] first match group, using a regexp, ignoring space in regex [/x] :
 
-`perl -c {{script.pl}}`
+`perl -n -E 'say $1 if m/{{before}} (  {{group_regex}}  ) {{after}}/x'`
 
-- Parse and execute a Perl statement:
+- [-i]n-place, with backup, [s/] substitute all occurrence [/g] of regex with replacement:
 
-`perl -e {{perl_statement}}`
+`perl -i'.bak' -p -e 's/{{regex}}/{{replacement}}/g' {{path/to/files}}`
 
-- Run a Perl script in debug mode, using `perldebug`:
+- Use perl's inline documentation, some pages also available via man on linux:
 
-`perl -d {{script.pl}}`
-
-- Edit all file lines [i]n-place with a specific replacement [e]xpression, saving a backup with a new extension:
-
-`perl -p -i'.{{extension}}' -e 's/{{regular_expression}}/{{replacement}}/g' {{path/to/file}}`
-
-- Run a multi-line replacement [e]xpression on a file, and save the result in a specific file:
-
-`perl -p -e 's/{{foo\nbar}}/{{foobar}}/g' {{path/to/input_file}} > {{path/to/output_file}}`
-
-- Run a regular [e]xpression on `stdin`, printing matching [l]ines:
-
-`cat {{path/to/file}} | perl -n -l -e 'print if /{{regular_expression}}/'`
-
-- Run a regular [e]xpression on `stdin`, printing only the first capture group for each matching [l]ine:
-
-`cat {{path/to/file}} | perl -n -l -e 'print $1 if /{{before}}({{regular_expression}}){{after}}/'`
+`perldoc perlrun ; perldoc module ; perldoc -f splice; perldoc -q perlfaq1`
