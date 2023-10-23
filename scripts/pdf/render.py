@@ -17,7 +17,7 @@ from datetime import datetime
 from weasyprint import HTML
 
 
-def main(loc, colorscheme, output_filename):
+def main(loc, colorscheme, output_filename, platform):
     # Checking correctness of path
     if not os.path.isdir(loc):
         print("Invalid directory. Please try again!", file=sys.stderr)
@@ -43,6 +43,9 @@ def main(loc, colorscheme, output_filename):
 
     # Writing names of all directories inside 'pages' to a list
     for operating_sys in sorted(os.listdir(loc)):
+        if platform and operating_sys not in platform:
+            continue
+
         # Required string to create directory title pages
         html += (
             "<h1 class=title-dir>"
@@ -70,6 +73,9 @@ def main(loc, colorscheme, output_filename):
     html += "</body></html>"
 
     # Writing the PDF to disk
+    if platform:
+        output_filename = f"{output_filename[:-4]}-{'+'.join(platform)}.pdf"
+
     print("\nConverting all pages to PDF...")
     HTML(string=html).write_pdf(output_filename, stylesheets=csslist)
 
@@ -97,6 +103,12 @@ if __name__ == "__main__":
         default="tldr-book.pdf",
         help="Custom filename for the output PDF (default is 'tldr-book.pdf')",
     )
+    parser.add_argument(
+        "-p",
+        "--platform",
+        nargs="+",
+        help="Specify one or more platforms to generate PDFs for",
+    )
     args = parser.parse_args()
 
-    main(args.dir_path, args.color, args.output)
+    main(args.dir_path, args.color, args.output, args.platform)
