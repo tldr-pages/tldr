@@ -19,6 +19,6 @@
 
 `ac --daily-totals --individual-totals {{nutzername}}`
 
-- Zeigt zusätzliche Details:
+- Zeige zusätzliche Details:
 
 `ac --compatibility`
