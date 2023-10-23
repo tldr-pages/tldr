@@ -19,7 +19,7 @@
 
 `cat tea.txt | speedread -multiword`
 
-## Controls
+# Controls
 - `[`        slow down by 10%
 - `]`        speed up by 10%
 - `<space>`  pause, and show the last few lines as context
