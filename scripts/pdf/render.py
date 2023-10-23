@@ -16,6 +16,7 @@ from datetime import datetime
 
 from weasyprint import HTML
 
+
 def main(loc, colorscheme, output_filename, platform=None):
     # Checking correctness of path
     if not os.path.isdir(loc):
@@ -77,19 +78,22 @@ def main(loc, colorscheme, output_filename, platform=None):
 
     output_filename_with_platform = output_filename
     if platform:
-        output_filename_with_platform = f"{output_filename[:-4]}-{'+'.join(platform)}.pdf"
+        output_filename_with_platform = (
+            f"{output_filename[:-4]}-{'+'.join(platform)}.pdf"
+        )
 
     html += "</body></html>"
 
     # Writing the PDF to disk
     if not html.count("<h2"):
-      print(f"No pages found for platform {', '.join(platform)}. Skipping.")
-      return
+        print(f"No pages found for platform {', '.join(platform)}. Skipping.")
+        return
     print("\nConverting all pages to PDF...")
     HTML(string=html).write_pdf(output_filename_with_platform, stylesheets=csslist)
 
     if os.path.exists(output_filename_with_platform):
         print(f"\nCreated {output_filename_with_platform} in the current directory!\n")
+
 
 if __name__ == "__main__":
     # Parsing the arguments
@@ -114,8 +118,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "-p",
         "--platform",
-        nargs='+',
-        help="Optionally, Specify one or more platforms to generate PDFs for.",
+        nargs="+",
+        help="Specify one or more platforms to generate PDFs for",
     )
     args = parser.parse_args()
 
