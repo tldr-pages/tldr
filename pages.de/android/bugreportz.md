@@ -2,7 +2,7 @@
 
 > Generiere einen gezippten Android-Fehlerbericht.
 > Dieser Befehl kann nur mit `adb shell` verwendet werden.
-> Weitere Informationen: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
+> Weitere Informationen: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
 - Generiere einen vollständigen Fehlerbericht eines Androidgeräts:
 

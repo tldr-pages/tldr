@@ -9,8 +9,8 @@
 
 - Download a Simulator runtime:
 
-`xcodes runtimes download {{runtime-name}}`
+`xcodes runtimes download {{runtime_name}}`
 
 - Download and install a Simulator runtime:
 
-`xcodes runtimes install {{runtime-name}}`
+`xcodes runtimes install {{runtime_name}}`

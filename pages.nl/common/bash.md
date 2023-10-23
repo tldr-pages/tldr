@@ -1,33 +1,37 @@
 # bash
 
-> Bourne-Again SHell.
-> `sh`-ondersteunende commandoregel-interpreteerder.
+> Bourne-Again SHell, `sh`-ondersteunende commandoregel-interpreteerder.
+> Bekijk ook: `zsh`, `histexpand` (history expansion).
 > Meer informatie: <https://gnu.org/software/bash/>.
 
-- Start interactieve shell:
+- Start een interactieve shell sessie:
 
 `bash`
 
-- Voer een commando uit:
+- Start een interactieve shell sessie zonder het laden van startup configuratie:
 
-`bash -c "{{commando}}"`
+`bash --norc`
+
+- Voer een [c]ommando uit:
+
+`bash -c "{{echo 'bash is executed'}}"`
 
 - Voer commando's van bestand uit:
 
-`bash {{bestand.sh}}`
+`bash {{pad/naar/script.sh}}`
 
 - Voer commando's van bestand uit, en print alle uitgevoerde commando's naar de terminal:
 
-`bash -x {{bestand.sh}}`
+`bash -x {{pad/naar/script.sh}}`
 
 - Voer commando's van bestand uit, en stop bij de eerste fout:
 
-`bash -e {{bestand.sh}}`
+`bash -e {{pad/naar/script.sh}}`
 
 - Voer commando's van `stdin` uit:
 
-`bash -s`
+`{{echo "echo 'bash is executed'"}} | bash`
 
-- Print de versieinformatie van bash (gebruik `echo $BASH_VERSION` om alleen de versie te krijgen zonder licentie):
+- Start een beperkte shell sessie:
 
-`bash --version`
+`bash -r`

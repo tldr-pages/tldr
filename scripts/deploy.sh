@@ -10,6 +10,7 @@ function initialize {
   fi
 
   export TLDR_LANG_ARCHIVES_DIRECTORY="$TLDRHOME/language_archives"
+  export TLDR_PDF_FILES_DIRECTORY="$TLDRHOME/scripts/pdf"
   export TLDR_ARCHIVE="tldr.zip"
   export SITE_HOME="$HOME/site"
   export SITE_REPO_SLUG="tldr-pages/tldr-pages.github.io"
@@ -33,12 +34,13 @@ function upload_assets {
   mv -f "${TLDR_LANG_ARCHIVES_DIRECTORY}"/*.zip "$SITE_HOME/assets/"
   rm -rf "$TLDR_LANG_ARCHIVES_DIRECTORY"
   cp -f "$TLDRHOME/index.json" "$SITE_HOME/assets/"
-  cp -f "${TLDRHOME}/scripts/pdf/tldr-pages.pdf" "${SITE_HOME}/assets/tldr-book.pdf"
+  mv -f "${TLDR_PDF_FILES_DIRECTORY}"/*.pdf "${SITE_HOME}/assets/"
+  rm -rf "$TLDR_PDF_FILES_DIRECTORY"
 
   sha256sum \
     "${SITE_HOME}/assets/index.json" \
     "${SITE_HOME}/assets/"*.zip \
-    "${SITE_HOME}/assets/tldr-book.pdf" \
+    "${SITE_HOME}/assets/"*.pdf \
     > "${SITE_HOME}/assets/tldr.sha256sums"
 
   cd "$SITE_HOME"

@@ -3,18 +3,22 @@
 > Exibe e concatena o conteúdo de arquivos.
 > Mais informações: <https://www.gnu.org/software/coreutils/cat>.
 
-- Exibir o conteúdo de um arquivo no terminal:
+- Exibe o conteúdo de um arquivo na `stdout`:
 
-`cat {{arquivo}}`
+`cat {{caminho/para/arquivo}}`
 
-- Concatenar o conteúdo de vários arquivos em um arquivo de destino:
+- Concatena o conteúdo de vários arquivos em um arquivo de saída:
 
-`cat {{arquivo1}} {{arquivo2}} > {{arquivo_de_destino}}`
+`cat {{caminho/para/arquivo1 caminho/para/arquivo2 ...}} > {{caminho/para/arquivo_de_saída}}`
 
-- Adicionar o conteúdo de vários arquivos ao final de um arquivo de destino:
+- Anexa o conteúdo de vários arquivos ao final de um arquivo de saída:
 
-`cat {{arquivo1}} {{arquivo2}} >> {{arquivo_de_destino}}`
+`cat {{caminho/para/arquivo1 caminho/para/arquivo2 ...}} >> {{caminho/para/arquivo_de_saída}}`
 
-- Exibir o conteúdo de um arquivo no terminal numerando as linhas:
+- Copia o conteúdo de um arquivo em um arquivo de saída sem armazenamento em buffer:
 
-`cat -n {{arquivo}}`
+`cat -u {{/dev/tty12}} > {{/dev/tty13}}`
+
+- Escreve a `stdin` em um arquivo:
+
+`cat - > {{caminho/para/arquivo}}`

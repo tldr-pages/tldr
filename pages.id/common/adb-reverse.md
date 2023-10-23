@@ -7,14 +7,14 @@
 
 `adb reverse --list`
 
-- Membalik port TCP dari emulator/perangkat ke localhost:
+- Balikkan port TCP dari emulator/perangkat ke localhost:
 
 `adb reverse tcp:{{port_jarak_jauh}} tcp:{{port_lokal}}`
 
-- Melepas koneksi socket terbalik dari emulator/perangkat:
+- Lepaskan koneksi socket terbalik dari emulator/perangkat:
 
 `adb reverse --remove tcp:{{port_jarak_jauh}}`
 
-- Melepas semua koneksi socket terbalik dari semua emulator dan perangkat:
+- Lepaskan semua koneksi socket terbalik dari semua emulator dan perangkat:
 
 `adb reverse --remove-all`

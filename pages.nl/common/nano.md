@@ -1,28 +1,32 @@
 # nano
 
-> Simpele, makkelijk te gebruiken command-line tekst bewerker. Een verbeterde, gratis Pico kloon.
+> Command-line tekst bewerker. Een verbeterde `Pico` kloon.
 > Meer informatie: <https://nano-editor.org>.
 
-- Open een nieuw bestand in nano:
+- Start de tekst bewerker:
 
 `nano`
 
-- Open een specifiek bestand:
+- Start de tekst bewerker zonder gebruik te maken van configuratiebestanden:
 
-`nano {{pad/naar/bestand}}`
+`nano --ignorercfiles`
 
-- Open een bepaald bestand, met de cursor gezet in een gegeven regel en kolom:
+- Open specifieke bestanden, ga naar het volgende bestand bij het sluiten van de vorige:
+
+`nano {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
+
+- Open een bestand en positioneer de cursor op een specifieke regel en kolom:
 
 `nano +{{regel}},{{kolom}} {{pad/naar/bestand}}`
 
-- Open een bepaald bestand en zet 'soft wrapping' aan:
+- Open een bestand en zet 'soft wrapping' aan:
 
 `nano --softwrap {{pad/naar/bestand}}`
 
-- Open een bepaald bestand en spring nieuwe regels in volgens de inspringing van de vorige regel:
+- Open een bestand en spring nieuwe regels in volgens de inspringing van de vorige regel:
 
 `nano --autoindent {{pad/naar/bestand}}`
 
-- Open nano en maak een reservekopie (`bestand~`) bij het opslaan van veranderingen:
+- Open een bestand en maak een reservekopie (`pad/naar/bestand~`) bij het opslaan:
 
 `nano --backup {{pad/naar/bestand}}`

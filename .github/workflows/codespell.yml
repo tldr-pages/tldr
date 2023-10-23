@@ -9,10 +9,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v39.0.0
+        with:
+          # Ignore all other languages except English
+          files_ignore: |
+            pages.*/*/*
+            package-lock.json
+
       - uses: codespell-project/actions-codespell@v2
         with:
           ignore_words_file: .github/codespell-ignore
           # Exit with 0 regardless of typos.
           only_warn: 1
-          # Only check English files from the pages directory
-          path: pages/*
+          # Only check files in the PR
+          path: ${{ steps.changed-files.outputs.all_changed_files }}
