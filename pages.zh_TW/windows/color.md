@@ -3,7 +3,7 @@
 > 設定主控台前景和背景顏色。
 > 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
 
-- 將主控台顏色設置為默認值：
+- 將主控台顏色設置為預設值：
 
 `color`
 
