@@ -1,6 +1,6 @@
 # hipstopgm
 
-> Reads a HIPS file as input and produces a PGM image as output
+> Reads a HIPS file as input and returns a PGM image as output
 > More information: <https://netpbm.sourceforge.net/doc/hipstopgm.html>.
 > If the HIPS file contains more than one frame in sequence, hipstopgm will concatenate all the frames vertically.
 
