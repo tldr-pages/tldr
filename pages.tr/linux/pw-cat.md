@@ -1,6 +1,6 @@
 # pw-cat
 
-> Ses dosyalarını çalıştırmak ve kayıt etmek için pipewire aracı.
+> Pipewire üzerinden ses dosyalarını çalın ve kaydedin.
 > Daha fazla bilgi için: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
 
 - Varsayılan hedef üzerinden bir WAV dosyası oynat:
