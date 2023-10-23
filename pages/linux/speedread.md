@@ -9,15 +9,15 @@
 
 - Basic example.  Read `tea.txt` at a speed of 250 wpm:
 
-`cat tea.txt | speedread -w 250`
+`cat tea.txt | speedread -wpm 250`
 
 - Resume from line:
 
-`cat tea.txt | speedread -r 5`
+`cat tea.txt | speedread -resume 5`
 
 - Show multiple words at a time:
 
-`cat tea.txt | speedread -m`
+`cat tea.txt | speedread -multiword`
 
 ## Controls
 - `[`        slow down by 10%
