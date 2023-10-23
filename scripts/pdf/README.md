@@ -19,7 +19,7 @@ Make sure OS specific dependencies for WeasyPrint are installed by following the
 
 Generating the PDF is as simple as running:
 
-    python3 render.py <path-to-pages-directory> [--color <color-scheme>] [--output <filename>]
+    python3 render.py <path-to-pages-directory> [--color <color-scheme>] [--output <filename>] [--platform <platform-name>]
 
 Complete information about the arguments can be viewed by running:
 
