@@ -24,7 +24,7 @@
 `hugo --buildDrafts`
 
 - Build a site on your local IP:
- 
+
 `hugo server --bind {{local-ip}} --baseURL {{http://local-ip}}`
 
 - Build a site to a given directory:
