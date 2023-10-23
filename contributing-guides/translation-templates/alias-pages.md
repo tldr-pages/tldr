@@ -493,7 +493,15 @@ Not translated yet.
 
 ### uz
 
-Not translated yet.
+```markdown
+# example
+
+> Ushbu buyruq taxallus `example`.
+
+- Asl buyruq uchun hujjatlarni ko'rish:
+
+`tldr example`
+```
 
 ---
 
