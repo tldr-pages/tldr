@@ -119,7 +119,7 @@ if __name__ == "__main__":
         "-p",
         "--platform",
         nargs="+",
-        help="Specify one or more platforms to generate PDFs for",
+        help="Specify one or more platforms to generate PDFs for (e.g. common, linux, etc)",
     )
     args = parser.parse_args()
 
