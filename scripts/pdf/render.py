@@ -46,12 +46,6 @@ def main(loc, colorscheme, output_filename, platform=None):
         if platform and operating_sys not in platform:
             continue
 
-        # Check if the platform directory exists
-        platform_dir = os.path.join(loc, operating_sys)
-        if not os.path.isdir(platform_dir):
-            print(f"Platform directory '{platform_dir}' doesn't exist. Skipping.")
-            continue
-
         # Required string to create directory title pages
         html += (
             "<h1 class=title-dir>"
@@ -62,7 +56,7 @@ def main(loc, colorscheme, output_filename, platform=None):
 
         # Conversion of Markdown to HTML string
         for page_number, md in enumerate(
-            sorted(glob.glob(os.path.join(platform_dir, "*.md"))), start=1
+            sorted(glob.glob(os.path.join(loc, operating_sys, "*.md"))), start=1
         ):
             with open(md, "r") as inp:
                 text = inp.readlines()
@@ -76,23 +70,17 @@ def main(loc, colorscheme, output_filename, platform=None):
             html += '<p style="page-break-before: always" ></p>'
             print(f"Rendered page {page_number} of the directory {operating_sys}")
 
-    output_filename_with_platform = output_filename
-    if platform:
-        output_filename_with_platform = (
-            f"{output_filename[:-4]}-{'+'.join(platform)}.pdf"
-        )
-
     html += "</body></html>"
 
     # Writing the PDF to disk
-    if not html.count("<h2"):
-        print(f"No pages found for platform {', '.join(platform)}. Skipping.")
-        return
-    print("\nConverting all pages to PDF...")
-    HTML(string=html).write_pdf(output_filename_with_platform, stylesheets=csslist)
+    if platform:
+        output_filename = f"{output_filename[:-4]}-{'+'.join(platform)}.pdf"
 
-    if os.path.exists(output_filename_with_platform):
-        print(f"\nCreated {output_filename_with_platform} in the current directory!\n")
+    print("\nConverting all pages to PDF...")
+    HTML(string=html).write_pdf(output_filename, stylesheets=csslist)
+
+    if os.path.exists(output_filename):
+        print(f"\nCreated {output_filename} in the current directory!\n")
 
 
 if __name__ == "__main__":
@@ -119,7 +107,7 @@ if __name__ == "__main__":
         "-p",
         "--platform",
         nargs="+",
-        help="Specify one or more platforms to generate PDFs for (e.g. common, linux, etc)",
+        help="Specify one or more platforms to generate PDFs for",
     )
     args = parser.parse_args()
 
