@@ -32,7 +32,7 @@ function build_translation_archives {
   local source_directory="$TLDRHOME"
   local target_directory="$TLDR_LANG_ARCHIVES_DIRECTORY"
   mkdir -p "$target_directory"
-  rm -f "$target_directory/*"
+  rm -f "$target_directory"/*
 
   for lang_dir in "$source_directory"/pages*; do
     # Skip symlinks (pages.en) and things that are not directories
