@@ -180,6 +180,7 @@ Use backticks on the following:
 - Paths, e.g. `package.json`, `/etc/package.json`.
 - Extensions, e.g. `.dll`.
 - Commands, e.g. `ls`.
+- Standard streams: `stdout`, `stdin`, `stderr`. **Do not** use the full names (e.g. standard output).
 
 ## Descriptions
 

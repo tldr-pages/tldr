@@ -1,9 +1,9 @@
 # alien
 
-> Konwertuje różne pakiety instalacyjne na inne formaty.
+> Konwertuj różne pakiety instalacyjne na inne formaty.
 > Więcej informacji: <https://manned.org/alien>.
 
-- Konwertuj wskazany plik instalacyjny do formatu Debiana (rozszerenie `.deb`):
+- Konwertuj wskazany plik instalacyjny do formatu Debiana (rozszerzenie `.deb`):
 
 `sudo alien --to-deb {{ścieżka/do/pliku}}`
 
