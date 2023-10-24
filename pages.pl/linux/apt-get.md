@@ -4,7 +4,7 @@
 > Szukaj pakietów używając `apt-cache`.
 > Więcej informacji: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
-- Zaktualizuj listę dostępnych pakietów oraz wersji (zalecane uruchomienie tego polecenia przed innymi poleceniami `apt-get`):
+- Zaktualizuj listę dostępnych pakietów oraz wersji (zalecane jest uruchomienie tego polecenia przed innymi poleceniami `apt-get`):
 
 `apt-get update`
 
