@@ -288,7 +288,7 @@ For more information and examples of Chinese-specific rules, check out [*Chinese
 When translating pages to Indonesian, please keep in mind that we expect `tldr` pages to be easy to read for **both types of Indonesian audiences**, which are:
 
 1. People who prefer to use standard Indonesian technical terms as possible, such as `unduh` for `download`, `awakutu` for `debugging`, and `muat ulang` for `reboot`.
-  - One of the most comprehensive list of technical terms can be found under the [BlankOn Linux project](https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanWiki/KamusBlankOn/).
+  - One of the most comprehensive lists of technical terms can be found under the [BlankOn Linux project](https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanWiki/KamusBlankOn/).
 2. People who prefer to use English words as-is to describe technical terms: `download` for `download`, `debugging` for `debugging`, and `reboot` for `reboot`.
 
 The segmentation of these audiences are clearly noted on [Firefox Public Data Report](https://data.firefox.com/dashboard/usage-behavior):
