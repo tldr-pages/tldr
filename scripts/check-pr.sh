@@ -30,14 +30,14 @@ function check_duplicates {
   case "$platform" in
     common) # check if page already exists in other platforms
       for other in ${PLATFORMS/common/}; do
-        if [ -f "pages/$other/$file" ]; then
+        if [[ -f "pages/$other/$file" ]]; then
           printf "\x2d $MSG_EXISTS" "$page" "$other"
         fi
       done
       ;;
 
     *) # check if page already exists under common
-      if [ -f "pages/common/$file" ]; then
+      if [[ -f "pages/common/$file" ]]; then
         printf "\x2d $MSG_EXISTS" "$page" 'common'
       fi
       ;;
@@ -52,7 +52,7 @@ function check_diff {
 
   git_diff=$(git diff --name-status --find-copies-harder --diff-filter=AC --relative=pages/ remotes/origin/main)
 
-  if [ -n "$git_diff" ]; then
+  if [[ -n $git_diff ]]; then
     echo -e "Check PR: git diff:\n$git_diff" >&2
   else
     echo 'Check PR: git diff looks fine, no interesting changes detected.' >&2
@@ -85,13 +85,13 @@ function check_diff {
 # Recursively check the pages/ folder for anomalies.
 function check_structure {
   for platform in $PLATFORMS; do
-    if [ ! -d "pages/$platform" ]; then
+    if [[ ! -d "pages/$platform" ]]; then
       printf "\x2d $MSG_NOT_DIR" "pages/$platform"
     else
       for page in "pages/$platform"/*; do
-        if [ ! -f "$page" ]; then
+        if [[ ! -f $page ]]; then
           printf "\x2d $MSG_NOT_FILE" "$page"
-        elif [ "${page:(-3)}" != ".md" ]; then
+        elif [[ ${page:(-3)} != ".md" ]]; then
           printf "\x2d $MSG_NOT_MD" "$page"
         fi
       done
@@ -111,7 +111,7 @@ MSG_NOT_MD='The file `%s` does not have a `.md` extension.\n'
 
 PLATFORMS=$(ls pages/)
 
-if [ "$CI" = "true" ] && [ "$GITHUB_REPOSITORY" = "tldr-pages/tldr" ] && [ "$PULL_REQUEST_ID" != "" ]; then
+if [[ $CI == true && $GITHUB_REPOSITORY == "tldr-pages/tldr" && $PULL_REQUEST_ID != "" ]]; then
   check_diff
   check_structure
 else
