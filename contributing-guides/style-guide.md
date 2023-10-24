@@ -304,7 +304,6 @@ is considered incorrect. The correct form of the sentence should be:
 
 > **Unduh** sebuah file ke dalam suatu direktori
 
-If you have seen a translated page with these active verbs, it may be due to a mistake previously made by Indonesian translation maintainers. Of course, we welcome your help to fix them. See https://github.com/tldr-pages/tldr/issues/8576 for details.
 
 Second, we recommend using the following forms of technical terms to make translated pages easier to read for both types of Indonesian audiences. Some of them may be used as-is, but others must be rewritten using Indonesian standard terms.
 
