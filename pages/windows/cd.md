@@ -1,8 +1,12 @@
 # cd
 
 > Display the current working directory or move to a different directory.
-> In PowerShell, this command is an alias of `Set-Location`. This documentation only applies to the Command Prompt (`cmd`) version of `cd`.
+> In PowerShell, this command is an alias of `Set-Location`. This documentation is based on the Command Prompt (`cmd`) version of `cd`.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
+
+- View documentation of the equivalent PowerShell command:
+
+`tldr set-location`
 
 - Display the path of the current directory:
 
