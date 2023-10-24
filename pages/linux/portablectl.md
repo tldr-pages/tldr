@@ -2,6 +2,7 @@
 
 > A systemd utility for managing and deploying portable service images on Linux systems
 > More information: <https://www.freedesktop.org/software/systemd/man/portablectl.html>.
+
 - List available portable service images discovered in the portable image search paths:
 
 `portablectl list`
