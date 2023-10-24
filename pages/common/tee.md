@@ -1,9 +1,9 @@
 # tee
 
-> Read from standard input and write to standard output and files (or commands).
+> Read from `stdin` and write to `stdout` and files (or commands).
 > More information: <https://www.gnu.org/software/coreutils/tee>.
 
-- Copy standard input to each file, and also to standard output:
+- Copy `stdin` to each file, and also to `stdout`:
 
 `echo "example" | tee {{path/to/file}}`
 
@@ -11,7 +11,7 @@
 
 `echo "example" | tee -a {{path/to/file}}`
 
-- Print standard input to the terminal, and also pipe it into another program for further processing:
+- Print `stdin` to the terminal, and also pipe it into another program for further processing:
 
 `echo "example" | tee {{/dev/tty}} | {{xargs printf "[%s]"}}`
 

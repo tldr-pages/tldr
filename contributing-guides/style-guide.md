@@ -29,7 +29,7 @@ Example:
 ```md
 # krita
 
-> Krita is a sketching and painting program designed for digital artists.
+> A sketching and painting program designed for digital artists.
 > See also: `gimp`.
 > More information: <https://docs.krita.org/en/reference_manual/linux_command_line.html>.
 
@@ -54,7 +54,8 @@ Example:
 `krita --fullscreen`
 ```
 
-> :bulb: The help page can be any documentation/project/tutorial page, not just a man page,
+> [!NOTE]
+> The help page can be any documentation/project/tutorial page, not just a man page,
 > but documentation pages are preferred.
 
 There is a linter that enforces the format above.
@@ -109,6 +110,7 @@ Example:
 
 - Use GNU-style **long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
 - In other cases, use short options (like `-h`).
+- Prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`), unless the program does not support it.
 
 ## Placeholder syntax
 
@@ -124,7 +126,7 @@ Keep the following guidelines in mind when choosing placeholders:
 - Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
 - Use a generic placeholder rather than an actual value where a generic placeholder is available (but there is an exception to this listed below). For example, use
   `iostat {{1..infinity}}` rather than `iostat {{2}}`.
- - If there are several consecutive placeholders of the same type
+  - If there are several consecutive placeholders of the same type
   which don't allow adding arbitrary text in them (ranges), then instead of generic placeholders use descriptive ones. For example prefer `input swipe {{x_position}} {{y_position}} {{x_position}} {{y_position}} {{seconds}}`
   instead of `input swipe {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{1..infinity}}`.
 
@@ -175,15 +177,50 @@ to figure out how to use the command and fill it in with values.
 Technical wording on description lines should use the `backtick` syntax.
 Use backticks on the following:
 
-- Paths, ex. `package.json`, `/etc/package.json`.
-- Extensions, ex. `.dll`.
-- Commands, ex. `ls`.
+- Paths, e.g. `package.json`, `/etc/package.json`.
+- Extensions, e.g. `.dll`.
+- Commands, e.g. `ls`.
+- Standard streams: `stdout`, `stdin`, `stderr`. **Do not** use the full names (e.g. standard output).
 
-## Imperative Mood
+## Descriptions
 
-- Example descriptions have to be phrased in imperative mood.
-- For example, use `List all files` instead of `Listing all files` or `File listing`.
+- Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`) unless the program name differs from the executable name (e.g. `rg` and Ripgrep).
+- Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
+
+### Imperative Mood
+
+- **All descriptions must be concise and phrased in the imperative mood.**
 - This also applies to all translations by default unless otherwise specified in the language-specific section below.
+- For example, when writing documentation for `cd`, a tool to check out and work on a specific directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
+
+```md
+> `cd` is a system tool, available in Windows, macOS, and Linux, to check out a specific directory to get things done in the Command Prompt, Terminal, and PowerShell.
+```
+
+It should instead be simplified to make it easier for everyone to read:
+
+```md
+> Change the current working directory.
+```
+
+If you are afraid the commands may differ between platforms or operating systems (e.g. Windows vs macOS), most [tldr pages clients](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients) will choose the most suitable version of the command.
+
+In this case, the information of the Windows version of `cd` (stored in `pages/windows/cd.md`) will be displayed by default to Windows users, and a generic/common version (stored in `pages/common/cd.md`) will be displayed for Linux, macOS, and other platforms.
+
+When writing descriptions for command examples, **check for any grammatical errors**. `Go to the specified directory` is preferred instead of:
+
+- `Going to the specified directory` (should not be in present participle form)
+- `This command will go to the specified directory` (it is clear that this example works for *this* comment)
+- `Let's go to the specified directory!`
+- `Directory change` (use the active form instead of passive, if possible)
+
+For instance, instead of `Listing all files:`, `List all files:` can be be used as the example's description below:
+
+```md
+- Listing all files:
+
+ `ls`
+```
 
 ## Serial Comma
 
@@ -195,8 +232,9 @@ since omitting it can create ambiguity.
 > Delete the Git branches, tags and remotes.
 
 The example above does not use a serial comma, so this could mean one of two things:
-* Delete the Git branches named `tags` and `remotes`.
-* Delete all of the following: Git branches, Git tags, and Git remotes.
+
+- Delete the Git branches named `tags` and `remotes`.
+- Delete all of the following: Git branches, Git tags, and Git remotes.
 
 This can be resolved by inserting a comma before the "and" or "or" in the final element in the list.
 
@@ -206,7 +244,7 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 On the `More information` line, prefer linking to the author's provided documentation.
 
-When not available, use <https://manned.org> as the default fallback. 
+When not available, use <https://manned.org> as the default fallback.
 
 ## Language-Specific Rules
 
@@ -217,19 +255,30 @@ When Chinese words, Latin words and Arabic numerals are written in the same sent
 The following guidelines are applied to Chinese (`zh`) and traditional Chinese (`zh_TW`) pages:
 
 1. Place one space before/after English words and numbers.
-  - For example, use `列出所有 docker 容器` rather than `列出所有docker容器`.
-  - For example, use `宽度为 50 个字` rather than `宽度为50个字`.
+
+ - For example, use `列出所有 docker 容器` rather than `列出所有docker容器`.
+ - For example, use `宽度为 50 个字` rather than `宽度为50个字`.
+
 2. Place one space between numbers and units **except** degrees and percentages.
-  - For example, use `容量 50 MB` rather than `容量 50MB`.
-  - For instances of degree and percentage, use `50°C` and `50%` rather than `50 °C` and `50 %`.
+
+ - For example, use `容量 50 MB` rather than `容量 50MB`.
+ - For instances of degree and percentage, use `50°C` and `50%` rather than `50 °C` and `50 %`.
+
 3. No additional spaces before/after full-width punctuations.
-  - For example, use `开启 shell，进入交互模式` rather than `开启 shell ，进入交互模式`
+
+ - For example, use `开启 shell，进入交互模式` rather than `开启 shell ，进入交互模式`
+
 4. Use full-width punctuations except for long Latin clauses.
-  - For example, use `嗨，你好。` rather than `嗨, 你好.`
+
+ - For example, use `嗨，你好。` rather than `嗨, 你好.`
+
 5. Use a half-width punctuation to end a sentence when the last character is half-width.
+
   - For example, use `将代码转化为 Python 3.` rather than `将代码转化为 Python 3。`
+
 6. Use precise form for technical terms, and do not use unofficial Chinese abbreviations.
-  - For example, use `Facebook` rather than `facebook`, `fb` or `脸书`.
+
+ - For example, use `Facebook` rather than `facebook`, `fb` or `脸书`.
 
 In order to maintain readability and normalization, please comply with the 6 rules above as much as possible when translating pages into Chinese.
 

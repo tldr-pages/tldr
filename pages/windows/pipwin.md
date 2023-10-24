@@ -13,15 +13,15 @@
 
 - Install a package:
 
-`pipwin install {{package_name}}`
+`pipwin install {{package}}`
 
 - Uninstall a package:
 
-`pipwin uninstall {{package_name}}`
+`pipwin uninstall {{package}}`
 
 - Download a package to a specific directory:
 
-`pipwin download --dest {{path\to\directory}} {{package_name}}`
+`pipwin download --dest {{path\to\directory}} {{package}}`
 
 - Install packages according to `requirements.txt`:
 

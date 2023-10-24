@@ -2,7 +2,7 @@
 
 > Transférer des fichiers vers ou depuis un hôte distant (pas entre deux hôtes distants).
 > Peut transférer un ou plusieurs fichiers correspondant à un motif.
-> Plus d'informations : <https://manned.org/rsync>.
+> Plus d'informations : <https://download.samba.org/pub/rsync/rsync.1>.
 
 - Transférer un fichier local vers un serveur distant :
 

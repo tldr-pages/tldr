@@ -7,29 +7,29 @@
 
 `composer init`
 
-- Add a package as a dependency for this project, adding it to `composer.json`:
+- Add a package as a dependency for this project, adding an entry to `composer.json`:
 
-`composer require {{user/package_name}}`
+`composer require {{user/package}}`
 
 - Install all the dependencies in this project's `composer.json` and create `composer.lock`:
 
 `composer install`
 
-- Uninstall a package from this project, removing it as a dependency from `composer.json`:
+- Uninstall a package from this project, removing it as a dependency from `composer.json` and `composer.lock`:
 
-`composer remove {{user/package_name}}`
+`composer remove {{user/package}}`
 
-- Update all the dependencies in this project's `composer.json` and note versions in `composer.lock` file:
+- Update all the dependencies in this project's `composer.json` and note new versions in `composer.lock` file:
 
 `composer update`
 
-- Update composer lock only after updating `composer.json` manually:
+- Update only `composer.lock` after updating `composer.json` manually:
 
 `composer update --lock`
 
 - Learn more about why a dependency can't be installed:
 
-`composer why-not {{user/package_name}}`
+`composer why-not {{user/package}}`
 
 - Update composer to its latest version:
 

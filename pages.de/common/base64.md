@@ -13,8 +13,8 @@
 
 - Kodiere von `stdin`:
 
-`{{ein_kommando}} | base64`
+`{{befehl}} | base64`
 
 - Dekodiere von `stdin`:
 
-`{{ein_kommando}} | base64 --decode`
+`{{befehl}} | base64 --decode`
