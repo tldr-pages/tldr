@@ -15,6 +15,6 @@
 
 `apt-add-repository --update {{specyfikacja_repozytorium}}`
 
-- Włącz pakiety źródłowe:
+- Pozwól na pobieranie pakietów źródłowych z podanego repozytorium:
 
 `apt-add-repository --enable-source {{specyfikacja_repozytorium}}`
