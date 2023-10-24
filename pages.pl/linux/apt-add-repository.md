@@ -11,7 +11,7 @@
 
 `apt-add-repository --remove {{specyfikacja_repozytorium}}`
 
-- Zaktualiuzuj cache pakietów po dodaniu repozytorium:
+- Zaktualizuj pamięć podręczną pakietów po dodaniu repozytorium:
 
 `apt-add-repository --update {{specyfikacja_repozytorium}}`
 
