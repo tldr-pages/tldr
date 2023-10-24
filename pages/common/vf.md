@@ -11,7 +11,7 @@
 
 `vf new --python {{/usr/local/bin/python3.8}} {{virtualenv_name}}`
 
-- Activate or use a different virtual environment:
+- Activate and use the specified virtual environment:
 
 `vf activate {{virtualenv_name}}`
 
@@ -31,6 +31,6 @@
 
 `vf rm {{virtualenv_name}}`
 
-- Get summary of all virtualfish commands:
+- Display help:
 
 `vf help`
