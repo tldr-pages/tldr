@@ -8,7 +8,7 @@
 
 `apt-get update`
 
-- Zainstaluj pakiet lub zaktualizuj do najnowszej dostępnej wersji:
+- Zainstaluj pakiet lub zaktualizuj go do najnowszej dostępnej wersji:
 
 `apt-get install {{pakiet}}`
 
