@@ -291,7 +291,7 @@ When translating pages to Indonesian, please keep in mind that we expect `tldr` 
   - One of the most comprehensive lists of technical terms can be found under the [BlankOn Linux project](https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanWiki/KamusBlankOn/).
 2. People who prefer to use English words as-is to describe technical terms: `download` for `download`, `debugging` for `debugging`, and `reboot` for `reboot`.
 
-The segmentation of these audiences are clearly noted on [Firefox Public Data Report](https://data.firefox.com/dashboard/usage-behavior):
+The segmentation of these audiences is clearly noted on [Firefox Public Data Report](https://data.firefox.com/dashboard/usage-behavior):
 
 > For most countries in the top 10, the majority (>90%) of users have their language set to the local language, **with a notable exception in Indonesia, which has about 80% English (US) and 20% Indonesian.**
 
