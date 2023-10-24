@@ -7,7 +7,7 @@
 
 `apk update`
 
-- Instaluj nowy pakiet:
+- Zainstaluj nowy pakiet:
 
 `apk add {{pakiet}}`
 
@@ -21,7 +21,7 @@
 
 - Szukaj pakietu za pomocą słów kluczowych:
 
-`apk search {{słowo kluczowe}}`
+`apk search {{słowa_kluczowe}}`
 
 - Wyświetl informacje o określonym pakiecie:
 

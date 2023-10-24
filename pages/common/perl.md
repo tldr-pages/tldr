@@ -3,7 +3,7 @@
 > The Perl 5 language interpreter.
 > More information: <https://www.perl.org>.
 
-- Print lines from stdin [m/] matching regex1 and case insensitive [/i] regex2:
+- Print lines from `stdin` [m/] matching regex1 and case insensitive [/i] regex2:
 
 `perl -n -e 'print if m/{{regex1}}/ and m/{{regex2}}/i'`
 
