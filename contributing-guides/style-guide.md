@@ -328,7 +328,7 @@ Second, we recommend using the following forms of technical terms to make transl
 | Initialize, Reinitialize | Inisialisasikan, Inisialisasikan Ulang | The word [`inisialisasi`](https://kbbi.kemdikbud.go.id/entri/inisialisasi) is officially considered as noun. Requires a `-kan` suffix to convert into a verb. |
 | Interpreter | Interpreter | Preferred over [`penerjemah`](https://kbbi.kemdikbud.go.id/entri/penerjemah) which is also commonly used to describe `translator`. |
 | Install, Reinstall | Pasang, Pasang Ulang | Preferred over `instal` [which is not considered a standard word](https://kbbi.kemdikbud.go.id/entri/instal). |
-| Load, Reload | Muat, Muat ulang | These words are the same for `boot` and `reboot`. See notes on the bottom section. |
+| Load, Reload | Muat, Muat ulang | These words are the same for `boot` and `reboot`. See notes in the bottom section. |
 | Options / Preferences (macOS) / Settings | Pengaturan | Preferred over [`opsi`](https://kbbi.kemdikbud.go.id/entri/opsi). |
 | Server | Server | Preferred over [`peladen`](https://kbbi.kemdikbud.go.id/entri/peladen) or [`pelayan`](https://kbbi.kemdikbud.go.id/entri/pelayan), which are less common when used in computing contexts. |
 | Service | Layanan | The Indonesian standard word is acceptable here. |
