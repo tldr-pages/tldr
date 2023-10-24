@@ -10,7 +10,7 @@
 
 - Run a specific screensaver:
 
-`gh screensaver --saver {{fireworks|marquee|pipes|pollock|starfield}}`
+`gh screensaver --saver {{fireworks|marquee|pipes|pollock|starfield|life}}`
 
 - Run the "marquee" screensaver with a specific text and font:
 
