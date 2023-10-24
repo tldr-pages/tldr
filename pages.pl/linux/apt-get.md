@@ -32,6 +32,6 @@
 
 `apt-get autoremove`
 
-- Zaktualizuj zainstalowane pakiety (jak `upgrade`), ale usuń przestarzałe pakiet i zainstaluj dodatkowe pakiety, aby spełnić zależności:
+- Zaktualizuj zainstalowane pakiety (jak `upgrade`), ale usuń przestarzałe pakiety i zainstaluj dodatkowe pakiety, aby spełnić zależności:
 
 `apt-get dist-upgrade`
