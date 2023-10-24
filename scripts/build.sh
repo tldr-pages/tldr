@@ -53,7 +53,7 @@ function build_translation_archives {
   done
 
   cd "$target_directory"
-  cp -r tldr-pages.zip tldr-pages.en.zip
+  cp tldr-pages.zip tldr-pages.en.zip
 }
 
 ###################################
