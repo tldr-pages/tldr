@@ -1,0 +1,20 @@
+# apt-add-repository
+
+> Zarządza definicjami repozytoriów apt.
+> Więcej informacji: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
+
+- Dodaj nowe repozytorium apt:
+
+`apt-add-repository {{specyfikacja_repozytorium}}`
+
+- Usuń repozytorium apt:
+
+`apt-add-repository --remove {{specyfikacja_repozytorium}}`
+
+- Zaktualiuzuj cache pakietów po dodaniu repozytorium:
+
+`apt-add-repository --update {{specyfikacja_repozytorium}}`
+
+- Włącz pakiety źródłowe:
+
+`apt-add-repository --enable-source {{specyfikacja_repozytorium}}`
