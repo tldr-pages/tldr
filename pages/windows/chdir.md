@@ -1,4 +1,4 @@
-# slmgr
+# chdir
 
 > This command is an alias of `cd` in Command Prompt, and subsequently `Set-Location` in PowerShell.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/chdir>.
