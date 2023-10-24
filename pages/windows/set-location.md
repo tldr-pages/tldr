@@ -22,7 +22,7 @@
 
 - Go to the home directory of the current user:
 
-`cd ~`
+`Set-Location ~`
 
 - Go back/forward to the previously chosen directory:
 
