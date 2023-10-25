@@ -3,7 +3,6 @@
 > A simple terminal-based open source Spritz-alike.
 > This command line filter shows input text as a per-word RSVP (rapid serial visual presentation) aligned on optimal reading points.
 > This kind of input mode allows reading text at a much more rapid pace than usual as the eye can stay fixed on a single place.
->
 > More information: <https://github.com/pasky/speedread>
 
 - Basic example.  Read `tea.txt` at a speed of 250 wpm:
