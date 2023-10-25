@@ -1,8 +1,8 @@
 # New-Item
 
-> Create a new file, directory, symbolic link, or a registry entry
+> Create a new file, directory, symbolic link, or a registry entry.
 > This command can only be used through PowerShell.
-> More information: <https:\\learn.microsoft.com\powershell\module\microsoft.powershell.management\new-item>.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
 
 - Create a new blank file (equivalent to `touch`):
 
@@ -30,4 +30,4 @@
 
 - Create a new blank registry entry with specified value:
 
-`New-Item {{path\to\registry_key}}` -Value {{value}}`
+`New-Item {{path\to\registry_key}} -Value {{value}}`

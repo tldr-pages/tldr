@@ -2,7 +2,7 @@
 
 > Delete files, folders, as well as registry keys and subkeys.
 > This command can only be run through PowerShell.
-> More information: <https:\\learn.microsoft.com\powershell\module\microsoft.powershell.management\remove-item>
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/remove-item>
 
 - Remove specific files or registry keys (without subkeys):
 
