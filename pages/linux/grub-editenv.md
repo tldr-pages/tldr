@@ -1,10 +1,11 @@
 # grub-editenv
 
-> Edit GRUB environment variables on Linux.
+> Edit GRUB environment variables.
 > More information: <https://www.gnu.org/software/grub/manual/grub/grub.html>.
-- Set the default boot entry to "Ubuntu" (Assuming the boot entry exists):
+ 
+- Set a default boot entry (Assuming the boot entry already exists):
 
-`grub-editenv /boot/grub/grubenv set default=Ubuntu`
+`grub-editenv /boot/grub/grubenv set default={{Ubuntu}}`
 
 - Display the current value of the `timeout` variable:
 
