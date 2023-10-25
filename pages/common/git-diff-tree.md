@@ -9,7 +9,7 @@
 
 - Show changes between two specific commits:
 
-`git diff-tree -r <commit> <commit>`
+`git diff-tree -r {{commit}} {{commit}}`
 
 - Display changes in patch format:
 
