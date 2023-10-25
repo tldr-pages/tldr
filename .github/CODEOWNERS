@@ -1,5 +1,6 @@
 /pages.de/ @pixelcmtd @marchersimon
 /pages.es/ @navarroaxel @kant
+/pages.hi/ @kbdharun
 /pages.id/ @reinhart1010
 /pages.it/ @mebeim @yutyo @Magrid0
 /pages.nl/ @sebastiaanspeck
@@ -10,9 +11,11 @@
 /pages.tr/ @yutyo
 /pages.zh/ @blueskyson @einverne
 /pages.zh_TW/ @blueskyson
+/pages.ko/ @IMHOJEONG
 
 /contributing-guides/*.de.md @pixelcmtd @marchersimon
 /contributing-guides/*.es.md @navarroaxel @kant
+/contributing-guides/*.hi.md @kbdharun
 /contributing-guides/*.id.md @reinhart1010
 /contributing-guides/*.it.md @mebeim @yutyo @Magrid0
 /contributing-guides/*.nl.md @sebastiaanspeck
