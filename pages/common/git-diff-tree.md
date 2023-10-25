@@ -13,7 +13,7 @@
 
 - Display changes in patch format:
 
-`git diff-tree -p <tree-ish> <tree-ish>`
+`git diff-tree -p {{tree-ish}} {{tree-ish}}`
 
 - Filter changes by a specific path:
 
