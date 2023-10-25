@@ -18,5 +18,4 @@
 
   `grub-editenv /boot/grub/grubenv list kernel_cmdline`
 
-## See Also
 - More information: [GRUB Documentation](https://www.gnu.org/software/grub/manual/grub/grub.html).
