@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: MIT */
 
 @font-face {
-    font-family: "PT Serif";
-    src: url("pt-serif-web-regular.ttf") format("truetype");
+    font-family: "sans-serif";
+    src: url("NotoSans-Regular.ttf") format("truetype");
 }
 
 p {
@@ -14,7 +14,7 @@ code {
 }
 
 h1, h2, h4, ul {
-    font-family: "PT Serif";
+    font-family: "sans-serif";
 }
 
 .title-main {

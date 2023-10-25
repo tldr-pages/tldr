@@ -1,7 +1,7 @@
 # fastboot
 
 > Se comunica com dispositivos Android conectados quando iniciados no modo _fastboot_ (o único lugar em que `adb` não funciona).
-> Mais informações: <https://cs.android.com/android/platform/superproject/+/master:system/core/fastboot>.
+> Mais informações: <https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot>.
 
 - Desbloqueia o bootloader:
 
