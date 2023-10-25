@@ -5,16 +5,16 @@
 
 - `global` नेमस्पेस में सेटिंग्स की एक सूची प्रदर्शित करें:
 
-`settings list {{ग्लोबल}}`
+`settings list {{global}}`
 
 - किसी विशिष्ट सेटिंग का मान प्राप्त करें:
 
-`settings get {{ग्लोबल}} {{विमान_मोड_चालू}}`
+`settings get {{global}} {{airplane_mode_on}}`
 
 - किसी सेटिंग का विशिष्ट मान सेट करें:
 
-`settings put {{सिस्टम}} {{स्क्रीन_ब्राइटनेस}} {{42}}`
+`settings put {{system}} {{screen_brightness}} {{42}}`
 
 - एक विशिष्ट सेटिंग हटाएँ:
 
-`settings delete {{सुरक्षित}} {{स्क्रीनसेवर_सक्रिय}}`
+`settings delete {{secure}} {{screensaver_enabled}}`
