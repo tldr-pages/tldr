@@ -27,19 +27,23 @@ to traditional [man pages](https://en.wikipedia.org/wiki/Man_page).
 
 Maybe you're new to the command-line world? Perhaps you're just a little rusty or can't always recall the arguments for commands like `lsof`, or `tar`?
 
-It certainly doesn't help that the first option explained in `man tar` is:
+It certainly doesn't help that, in the past, the first option explained in `man tar` was:
 
-```
+```console
+$ man tar
+...
 -b blocksize
    Specify the block size, in 512-byte records, for tape drive I/O.
    As a rule, this argument is only needed when reading from or writing to tape drives,
    and usually not even then as the default block size of 20 records (10240 bytes) is very common.
+...
 ```
 
 There seems to be room for simpler help pages, focused on practical examples.
 How about:
 
-![Animated SVG of the tldr client displaying the tar command.](images/tldr.svg)
+![Screenshot of the tldr client displaying the tar command in light mode.](images/tldr-light.png#gh-light-mode-only)
+![Screenshot of the tldr client displaying the tar command in dark mode.](images/tldr-dark.png#gh-dark-mode-only)
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line tools.

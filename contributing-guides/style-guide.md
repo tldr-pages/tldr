@@ -54,7 +54,8 @@ Example:
 `krita --fullscreen`
 ```
 
-> :bulb: The help page can be any documentation/project/tutorial page, not just a man page,
+> [!NOTE]
+> The help page can be any documentation/project/tutorial page, not just a man page,
 > but documentation pages are preferred.
 
 There is a linter that enforces the format above.
@@ -179,6 +180,7 @@ Use backticks on the following:
 - Paths, e.g. `package.json`, `/etc/package.json`.
 - Extensions, e.g. `.dll`.
 - Commands, e.g. `ls`.
+- Standard streams: `stdout`, `stdin`, `stderr`. **Do not** use the full names (e.g. standard output).
 
 ## Descriptions
 
