@@ -1,25 +1,22 @@
-# `grub-editenv` - Edit GRUB Environment Variables
+# grub-editenv
 
-`grub-editenv` is a command-line tool that allows you to manipulate environment variables in the GRUB bootloader configuration. It provides a simpler and more approachable way to edit these variables compared to traditional GRUB configuration files.
+> Edit GRUB environment variables on Linux.
 
-## Usage
-grub-editenv [OPTION] VARNAME=VALUE
+- Set the default boot entry to "Ubuntu" (Assuming the boot entry exists):
 
+  `grub-editenv /boot/grub/grubenv set default=Ubuntu`
 
-## Options
+- Display the current value of the `timeout` variable:
 
-- `-h, --help`: Show help message and exit.
+  `grub-editenv /boot/grub/grubenv list timeout`
 
-## Examples
+- Reset the `saved_entry` variable to the default:
 
-1. **Set Timeout Value:**
-   To set the timeout value for GRUB to 5 seconds, use the following command:
-   ```bash
-   grub-editenv TIMEOUT=5
-   ```
+  `grub-editenv /boot/grub/grubenv unset saved_entry`
 
-2. **Enable Debug Mode:** 
-    To enable debugging in GRUB, you can set the GRUB_CMDLINE_LINUX variable:
-   ```bash
-   grub-editenv GRUB_CMDLINE_LINUX="debug"
-   ```
+- Append "quiet splash" to the kernel command line:
+
+  `grub-editenv /boot/grub/grubenv list kernel_cmdline`
+
+## See Also
+- More information: [GRUB Documentation](https://www.gnu.org/software/grub/manual/grub/grub.html).
