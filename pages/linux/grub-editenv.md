@@ -17,5 +17,3 @@
 - Append "quiet splash" to the kernel command line:
 
   `grub-editenv /boot/grub/grubenv list kernel_cmdline`
-
-- More information: [GRUB Documentation](https://www.gnu.org/software/grub/manual/grub/grub.html).
