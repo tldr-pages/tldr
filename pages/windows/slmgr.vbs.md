@@ -2,7 +2,7 @@
 
 > Install, activate, and manage Windows licenses.
 > This command may override, deactivate, and/or remove your current Windows license. Please proceed with caution.
-> More information: <https://docs.microsoft.com/windows-server/get-started/activation-slmgr-vbs-options>.
+> More information: <https://learn.microsoft.com/windows-server/get-started/activation-slmgr-vbs-options>.
 
 - [d]isplay the current Windows [l]icense [i]nformation:
 
