@@ -9,7 +9,7 @@
 
 - Start a service asynchronously:
 
-`sc.exe create {{service_name}} binpath= {{binary_path_name}}`
+`sc.exe create {{service_name}} binpath= {{path\to\service_binary_file}}`
 
 - Stop a service asynchronously:
 
