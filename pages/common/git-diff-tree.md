@@ -17,4 +17,4 @@
 
 - Filter changes by a specific path:
 
-`git diff-tree <tree-ish> <tree-ish> -- <path/to/file-or-directory>`
+`git diff-tree {{tree-ish}} {{tree-ish}} -- {{path/to/file-or-directory}}`
