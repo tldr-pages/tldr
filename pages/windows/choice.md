@@ -1,7 +1,7 @@
 # choice
 
 > Prompt user to select a choice and return the selected choice index.
-> More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/choice>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/choice>.
 
 - Prompt the current user to select a `Y` or `N` choice:
 
