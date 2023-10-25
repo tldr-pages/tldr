@@ -1,6 +1,6 @@
-# $PSVersionTable
+# PSVersionTable
 
-> A read-only variable to get the current PowerShell version.
+> A read-only variable (as `$PSVersionTable`) to get the current PowerShell version.
 > This command can only be run under PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_automatic_variables#psversiontable>.
 
