@@ -5,7 +5,7 @@
 
 - Compare two tree objects:
 
-`git diff-tree <tree-ish> <tree-ish>`
+`git diff-tree {{tree-ish}} {{tree-ish}}`
 
 - Show changes between two specific commits:
 
