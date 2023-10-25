@@ -24,5 +24,6 @@
 `systemd-socket-activate /path/to/socket.service -l 8080`
 
 # See Also
+
 - `man systemd-socket-activate`: Detailed manual page for `systemd-socket-activate`.
 - [systemd Documentation](https://www.freedesktop.org/wiki/Software/systemd/): Official documentation for systemd.
