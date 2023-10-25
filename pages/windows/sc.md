@@ -1,7 +1,7 @@
 # sc
 
 > Communicate with the Service Control Manager and services.
-> More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/sc-query>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/sc-query>.
 
 - Show the status of a service (no service name will list all services):
 
