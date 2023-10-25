@@ -1,19 +1,16 @@
 # age
 
 > Een eenvoudige, moderne en veilige tool voor het versleutelen van bestanden.
+> Bekijk `age-keygen` hoe je sleutelparen kan genereren.
 > Meer informatie: <https://github.com/FiloSottile/age>.
 
 - Genereer een versleuteld bestand dat kan worden ontsleuteld met een wachtwoordzin:
 
 `age --passphrase --output {{pad/naar/versleuteld_bestand}} {{pad/naar/niet-versleuteld_bestand}}`
 
-- Genereer een sleutelpaar, sla de privésleutel op in een niet-versleuteld bestand en druk de openbare sleutel af naar `stdout`:
+- Versleutel een bestand met een of meer openbare sleutels die als letterlijke waarden worden ingevoerd (herhaal de `--recipient` flag om meerdere openbare sleutels op te geven):
 
-`age-keygen --output {{pad/naar/bestand}}`
-
-- Versleutel een bestand met een of meer openbare sleutels die als letterlijke waarden worden ingevoerd:
-
-`age --recipient {{openbare_sleutel_1}} --recipient {{openbare_sleutel_2}} {{pad/naar/niet-versleuteld_bestand}} --output {{pad/naar/versleuteld_bestand}}`
+`age --recipient {{openbare_sleutel}} --output {{pad/naar/versleuteld_bestand}} {{pad/naar/niet-versleuteld_bestand}}`
 
 - Versleutel een bestand met een of meer openbare sleutels die zijn opgegeven in het bestand van een ontvanger:
 

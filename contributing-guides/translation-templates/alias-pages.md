@@ -75,7 +75,15 @@ The templates can be changed when necessary.
 
 ### bn
 
-Not translated yet.
+```markdown
+# example
+
+> এই কমান্ড একটি উপনাম `example`.
+
+- মূল কমান্ডের জন্য ডকুমেন্টেশন দেখুন:
+
+`tldr example`
+```
 
 ---
 
@@ -375,7 +383,15 @@ Not translated yet.
 
 ### ro
 
-Not translated yet.
+```markdown
+# example
+
+> Această comandă este un alias al `example`.
+
+- Vizualizați documentația pentru comanda originală:
+
+`tldr example`
+```
 
 ---
 
@@ -401,7 +417,15 @@ Not translated yet.
 
 ### sr
 
-Not translated yet.
+```markdown
+# example
+
+> Ова наредба је псеудоним `example`.
+
+- Погледајте документацију за оригиналну команду:
+
+`tldr example`
+```
 
 ---
 
@@ -477,7 +501,15 @@ Not translated yet.
 
 ### uz
 
-Not translated yet.
+```markdown
+# example
+
+> Ushbu buyruq taxallus `example`.
+
+- Asl buyruq uchun hujjatlarni ko'rish:
+
+`tldr example`
+```
 
 ---
 

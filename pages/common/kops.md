@@ -22,3 +22,7 @@
 - Delete a cluster:
 
 `kops delete cluster {{cluster_name}} --yes`
+
+- Validate a cluster:
+
+`kops validate cluster {{cluster_name}} --wait {{wait_time_until_ready}} --count {{num_required_validations}}`
