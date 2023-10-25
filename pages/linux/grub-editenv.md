@@ -2,7 +2,6 @@
 
 > Edit GRUB environment variables on Linux.
 > More information: <https://www.gnu.org/software/grub/manual/grub/grub.html>.
-
 - Set the default boot entry to "Ubuntu" (Assuming the boot entry exists):
 
 `grub-editenv /boot/grub/grubenv set default=Ubuntu`
