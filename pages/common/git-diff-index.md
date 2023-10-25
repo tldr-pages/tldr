@@ -9,7 +9,7 @@
 
 - Compare a specific file or directory in working directory with a commit:
 
-`git diff-index {{commit}} {{path/to/file/or/directory}}`
+`git diff-index {{commit}} {{path/to/file_or_directory}}`
 
 - Compare the working directory with the index (staging area) to check for staged changes:
 
