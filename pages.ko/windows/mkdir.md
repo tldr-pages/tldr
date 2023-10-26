@@ -1,7 +1,7 @@
 # mkdir
 
 > 이 명령은 디렉터리를 생성합니다.
-> 더 많은 정보 : <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>
+> 더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>
 
 - 디렉토리 만들기:
 
