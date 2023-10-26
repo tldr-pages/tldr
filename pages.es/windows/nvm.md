@@ -1,16 +1,16 @@
 # nvm
 
-> Install, uninstall, or switch between Node.js versions.
+> Instalar, desinstalar o cambiar entre versiones de Node.js.
 > Admite números de versión como "12.8" o "v16.13.1", y etiquetas como "stable", "system", etc.
 > Mas información: <https://github.com/coreybutler/nvm-windows>.
 
 - Instala una versión específica de Node.js:
 
-`nvm install {{node_version}}`
+`nvm install {{versión_de_node}}`
 
 - Establecer la versión por defecto de Node.js (debe ejecutarse como Administrador):
 
-`nvm use {{node_version}}`
+`nvm use {{versión_de_node}}`
 
 - Lista todas las versiones disponibles de Node.js y destaca la versión por defecto:
 
@@ -22,4 +22,4 @@
 
 - Desinstalación de una versión determinada de Node.js:
 
-`nvm uninstall {{node_version}}`
+`nvm uninstall {{versión_de_node}}`
