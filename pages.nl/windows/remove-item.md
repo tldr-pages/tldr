@@ -22,7 +22,7 @@
 
 - Verwijder specifieke Windows-registersleutels en al zijn subkeys:
 
-`Remove-Item -Recurse {{path\to\key1 path\to\key2 ...}}`
+`Remove-Item -Recurse {{pad\naar\key1 pad\naar\key2 ...}}`
 
 - Voer een dry-run van het verwijderproces uit:
 
