@@ -1,8 +1,9 @@
-/pages.de/ @pixelcmtd @marchersimon
+/pages.de/ @pixelcmtd @marchersimon @gutjuri
 /pages.es/ @navarroaxel @kant
 /pages.hi/ @kbdharun
 /pages.id/ @reinhart1010
 /pages.it/ @mebeim @yutyo @Magrid0
+/pages.ko/ @IMHOJEONG
 /pages.nl/ @sebastiaanspeck
 /pages.pl/ @acuteenvy
 /pages.pt_BR/ @waldyrious @isaacvicente
@@ -11,13 +12,13 @@
 /pages.tr/ @yutyo
 /pages.zh/ @blueskyson @einverne
 /pages.zh_TW/ @blueskyson
-/pages.ko/ @IMHOJEONG
 
-/contributing-guides/*.de.md @pixelcmtd @marchersimon
+/contributing-guides/*.de.md @pixelcmtd @marchersimon @gutjuri
 /contributing-guides/*.es.md @navarroaxel @kant
 /contributing-guides/*.hi.md @kbdharun
 /contributing-guides/*.id.md @reinhart1010
 /contributing-guides/*.it.md @mebeim @yutyo @Magrid0
+/contributing-guides/*.ko.md @IMHOJEONG
 /contributing-guides/*.nl.md @sebastiaanspeck
 /contributing-guides/*.pl.md @acuteenvy
 /contributing-guides/*.pt_BR.md @waldyrious @isaacvicente
