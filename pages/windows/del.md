@@ -1,7 +1,12 @@
 # del
 
 > Delete one or more files.
+> In PowerShell, this command is an alias of `Remove-Item`. This documentation is based on the Command Prompt (`cmd`) version of `del`.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
+
+- View the documentation of the equivalent PowerShell command:
+
+`tldr remove-item`
 
 - Delete one or more space-separated files or patterns:
 
