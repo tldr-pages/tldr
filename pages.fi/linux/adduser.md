@@ -5,20 +5,20 @@
 
 - Luo uusi käyttäjä oletuskotihakemistolla ja pyydä käyttäjää asettamaan salasana:
 
-`adduser {{username}}`
+`adduser {{tunnus}}`
 
 - Luo uusi käyttäjä ilman kotihakemistoa:
 
-`adduser --no-create-home {{username}}`
+`adduser --no-create-home {{tunnus}}`
 
 - Luo uusi käyttäjä kotihakemistolla määritetyssä polussa:
 
-`adduser --home {{path/to/home}} {{username}}`
+`adduser --home {{polku/kotiin}} {{tunnus}}`
 
 - Luo uusi käyttäjä, jolla on määritetty kuori kirjautumiskuoreksi:
 
-`adduser --shell {{path/to/shell}} {{username}}`
+`adduser --shell {{polku/kuoriin}} {{tunnus}}`
 
 - Luo uusi käyttäjä, joka kuuluu määritettyyn ryhmään:
 
-`adduser --ingroup {{group}} {{username}}`
+`adduser --ingroup {{ryhmä}} {{tunnus}}`
