@@ -15,7 +15,7 @@
 
 `aptitude search {{pakiet}}`
 
-- Wyszukaj zainstalowany pakeit (`?installed` jest wyszukiwanym terminem w `aptitude`):
+- Wyszukaj zainstalowany pakeit (`?installed` jest terminem wyszukiwania w `aptitude`):
 
 `aptitude search '?installed({{pakiet}})'`
 
