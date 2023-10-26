@@ -1,12 +1,16 @@
 # mkdir
 
 > 이 명령은 디렉터리를 생성합니다.
-> 자세한 내용 : <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>
+> 더 많은 정보 : <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>
 
 - 디렉토리 만들기:
 
-`mkdir {{디렉토리 이름}}`
+`mkdir {{경로/대상/파일}}`
 
-- 중첩된 디렉토리 트리를 재귀적으로 만듭니다:
+- 부모 디렉토리도 함께 생성하기:
 
-`mkdir {{서브디렉토리 이름 경로}}`
+`mkdir /p {{경로/대상/파일}}`
+
+- 생성된 디렉토리에 대한 출력 숨기기
+
+`mkdir /q {{경로/대상/파일}}`
