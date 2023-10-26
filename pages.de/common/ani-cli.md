@@ -23,6 +23,6 @@
 
 `ani-cli -c`
 
-- `ani-cli` aktualisieren:
+- Aktualisier `ani-cli`:
 
 `ani-cli -U`

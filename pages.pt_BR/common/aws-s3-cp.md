@@ -3,7 +3,7 @@
 > Copia arquivos locais ou objetos do S3 para outros diretórios locais ou no S3.
 > Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/cp.html>.
 
-- Copia um arquivo local para um bucket específico.
+- Copia um arquivo local para um bucket específico:
 
 `aws s3 cp {{caminho/do/arquivo}} s3://{{nome_do_bucket}}/{{caminho/para/o/arquivo_remoto}}`
 
