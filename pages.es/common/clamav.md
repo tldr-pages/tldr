@@ -4,14 +4,14 @@
 > ClamAV no es un comando, sino un conjunto de comandos.
 > Más información: <https://www.clamav.net>.
 
-- Mostrar la página tldr para escanear archivos usando el demonio `clamd`:
+- Muestra la página tldr para escanear archivos usando el daemon `clamd`:
 
 `tldr clamdscan`
 
-- Mostrar la página tldr para escanear archivos sin que se ejecute el demonio `clamd`:
+- Muestra la página tldr para escanear archivos sin que se ejecute el daemon `clamd`:
 
 `tldr clamscan`
 
-- Mostrar la página tldr para actualizar las definiciones de virus:
+- Muestra la página tldr para actualizar las definiciones de virus:
 
 `tldr freshclam`
