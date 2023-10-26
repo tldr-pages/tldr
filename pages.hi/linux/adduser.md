@@ -11,14 +11,14 @@
 
 `adduser --no-create-home {{उपयोगकर्ता_नाम}}`
 
-- Create a new user with a home directory at the specified path:
+- निर्दिष्ट पथ पर होम निर्देशिका के साथ एक नया उपयोगकर्ता बनाएँ:
 
-`adduser --home {{home/का/पथ}} {{उपयोगकर्ता_नाम}}`
+`adduser --home {{होम/का/पथ}} {{उपयोगकर्ता_नाम}}`
 
-- Create a new user with the specified shell set as the login shell:
+- लॉगिन शेल के रूप में निर्दिष्ट शेल सेट के साथ एक नया उपयोगकर्ता बनाएँ:
 
-`adduser --shell {{shell/का/पथ}} {{उपयोगकर्ता_नाम}}`
+`adduser --shell {{शेल/का/पथ}} {{उपयोगकर्ता_नाम}}`
 
-- Create a new user belonging to the specified group:
+- निर्दिष्ट समूह से संबंधित कोई नया उपयोगकर्ता बनाएँ:
 
-`adduser --ingroup {{group}} {{उपयोगकर्ता_नाम}}`
+`adduser --ingroup {{समूह}} {{उपयोगकर्ता_नाम}}`
