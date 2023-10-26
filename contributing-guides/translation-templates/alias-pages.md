@@ -200,7 +200,6 @@ The templates can be changed when necessary.
 
 ---
 
-
 ### fr
 
 ```markdown
