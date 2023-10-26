@@ -16,6 +16,7 @@ The templates can be changed when necessary.
 [de](#de) •
 [es](#es) •
 [fa](#fa) •
+[fi](#fi) •
 [fr](#fr) •
 [hi](#hi) •
 [id](#id) •
@@ -184,6 +185,21 @@ The templates can be changed when necessary.
 ```
 
 ---
+
+### fi
+
+```markdown
+# example
+
+> Tämä komento on `example`:n alias.
+
+- Katso alkuperäisen komennon dokumentaatiossa:
+
+`tldr example`
+```
+
+---
+
 
 ### fr
 
