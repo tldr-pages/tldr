@@ -25,4 +25,4 @@
 
 - 검색 문자열이 포함된 도움말 페이지 탐색:
 
-`man --apropos {{search_string}}`
+`man --apropos {{검색_문자열}}`
