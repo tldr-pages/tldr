@@ -3,7 +3,7 @@
 > Exibe páginas de ajuda simples para ferramentas de linha de comando do projeto tldr-pages.
 > Mais informações: <https://tldr.sh>.
 
-- Imprime a página do tldr para um comando específico (dica: é assim que você chegou aqui!)
+- Imprime a página do tldr para um comando específico (dica: é assim que você chegou aqui!):
 
 `tldr {{comando}}`
 
