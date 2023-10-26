@@ -13,7 +13,7 @@
 
 - Read a PBM file as input while setting the pixel mapping (defaults to 1x2):
 
-`pbmtoascii -{{2x4}} {{path/to/input_file.pbm}}`
+`pbmtoascii -{{1x2|2x4}} {{path/to/input_file.pbm}}`
 
 - Display version:
 
