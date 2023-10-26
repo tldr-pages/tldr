@@ -1,7 +1,7 @@
 # cmdkey
 
 > संग्रहीत उपयोगकर्ता नाम और पासवर्ड बनाएं, दिखाएं और हटाएं।
-> अधिक जानकारी: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmdkey>.
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmdkey>.
 
 - सभी उपयोगकर्ता क्रेडेंशियल्स की एक सूची दिखाएं:
 
@@ -9,7 +9,7 @@
 
 - सभी उपयोगकर्ता क्रेडेंशियल्स की एक सूची दिखाएं:
 
-`cmdkey /add:{{सर्वर_का_नाम}} /user:{{उपयोगकर्ता _ाम}}`
+`cmdkey /add:{{सर्वर_का_नाम}} /user:{{उपयोगकर्ता_नाम}}`
 
 - किसी विशिष्ट लक्ष्य के लिए क्रेडेंशियल हटाएं:
 
