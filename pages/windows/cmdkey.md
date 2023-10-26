@@ -13,4 +13,4 @@
 
 - Delete credentials for a specific target:
 
-`cmdkey.exe /delete {{target_name}}`
+`cmdkey /delete {{target_name}}`
