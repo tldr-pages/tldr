@@ -1,6 +1,6 @@
 # aireplay-ng
 
-> वायरलेस नेटवर्क में पैकेट इंजेक्ट करें। 
+> वायरलेस नेटवर्क में पैकेट इंजेक्ट करें।
 > `aireplay-ng` का हिस्सा।
 > अधिक जानकारी: <https://www.aircrack-ng.org/doku.php?id=aireplay-ng>.
 
