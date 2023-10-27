@@ -1,7 +1,7 @@
 # systemd-analyze
 
 > Analizuj i debuguj menedżera systemu.
-> Wyświetl szczegóły dotyczące czasiu procesu uruchamiania jednostek (usług, punktów montowania, urządzeń, gniazd):
+> Wyświetl szczegóły dotyczące czasiu procesu uruchamiania jednostek (usług, punktów montowania, urządzeń, gniazd).
 > Więcej informacji: <https://www.freedesktop.org/software/systemd/man/systemd-analyze.html>.
 
 - Wyświetl wszystkie uruchomione jednostki, uporządkowane według czasu ich inicjalizacji:

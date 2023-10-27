@@ -16,6 +16,6 @@
 
 `choco {{komenda}} -?`
 
-- Wyświetlenie zainstalowanej wersji Chocolatey
+- Wyświetlenie zainstalowanej wersji Chocolatey:
 
 `choco --version`

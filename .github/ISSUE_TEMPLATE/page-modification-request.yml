@@ -1,0 +1,25 @@
+name: 📄 Page modification request
+title: "page modification request: "
+description: Page modification request template.
+labels: page edit, help wanted
+body:
+  - type: textarea
+    attributes:
+      label: Command description
+      description: Describe the command you want the page(s) to be modified.
+      placeholder: Tell us about the changes in the command!
+  - type: input
+    attributes:
+      label: Command details
+      description: Describe any details related to a command.
+      placeholder: e.g. command version
+  - type: checkboxes
+    attributes:
+      label: OS
+      description: Select which operating system(s) this command works with.
+      options:
+        - label: Android
+        - label: Linux
+        - label: macOS (osx)
+        - label: sunOS
+        - label: Windows

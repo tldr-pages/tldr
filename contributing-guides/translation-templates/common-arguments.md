@@ -11,10 +11,12 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | bn    |                      |                        |                                   |           |                   |
 | bs    |                      |                        |                                   |           |                   |
 | ca    | camí/al/fitxer       | camí/al/directori      | camí/al/fitxer_o_directori        | paquet    | nom_usuari        |
+| cs    | cesta/k/souboru      | cesta/k/adresari       | cesta/k/souboru_ci_adresari       | balíček   | jmeno_uzivatele   |
 | da    | sti/til/fil          | sti/til/mappe          | sti/til/fil_eller_mappe           | pakke     | brugernavn        |
 | de    | pfad/zu/datei        | pfad/zu/verzeichnis    | pfad/zu/datei_oder_verzeichnis    | paket     | benutzername      |
 | es    | ruta/al/archivo      | ruta/al/directorio     | ruta/al/archivo_o_directorio      | paquete   | nombre_de_usuario |
 | fa    |   مسیر/به/فایل       |          مسیر/به/پوشه        |       مسیر/به/فایل_یا_پوشه                 |    بسته     |        نام کاربری           |
+| fi    | polku/tiedostoon     | polku/hakemistoon      | polku/tiedostoon_vai_hakemistoon  | paketti   | tunnus            |
 | fr    | chemin/vers/fichier  | chemin/vers/dossier    | chemin/vers/fichier_ou_dossier    | paquet    | nom_d_utilisateur |
 | hi    | फ़ाइल/का/पथ            | निर्देशिका/का/पथ            | फ़ाइल_या_निर्देशिका/का/पथ                 | पैकेज      | उपयोगकर्ता_नाम         |
 | id    | jalan/menuju/file    | jalan/menuju/direktori | jalan/menuju/file_atau_direktori  | paket     | nama_pengguna     |
@@ -23,7 +25,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | ko    | 경로/대상/파일        | 경로/대상/폴더          | 경로/대상/파일_또는_폴더           | 패키지    |  사용자 명        |
 | ml    |ഫയലിലേക്കുള്ള/പാത   |ഡയറക്ടറിയിലേക്കുള്ള/പാത    |ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത  |പാക്കേജ്    |ഉപയോക്തൃനാമം |
 | ne    | फाइल/को/पथ            | निर्देशिका/को/पथ            | फाइल_वा_निर्देशिका/को/पथ                 | प्याकेज      | प्रयोगकर्ता_नाम        |
-| nl    | pad/naar/bestand     | pad/naar/directory     | pad/naar/bestand_of_directory     |           |                   |
+| nl    | pad/naar/bestand     | pad/naar/map           | pad/naar/bestand_of_map           | pakket    | gebruikersnaam    |
 | no    |                      |                        |                                   |           |                   |
 | pl    | ścieżka/do/pliku     | ścieżka/do/katalogu    | ścieżka/do/pliku_lub_katalogu     | pakiet    | nazwa_użytkownika |
 | pt_BR | caminho/para/arquivo | caminho/para/diretorio | caminho/para/arquivo_ou_diretorio | pacote    | nome_do_usuario   |
