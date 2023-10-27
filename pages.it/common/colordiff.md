@@ -1,7 +1,7 @@
 # colordiff
 
 > Un'utilità per aggiungere colore all'output diff.
-> colordiff è un wrapper scritto in Perl per `diff` e produce lo stesso output, ma con una bella evidenziazione della sintassi. I colori possono essere personalizzati.
+> Colordiff è un wrapper scritto in Perl per `diff` e produce lo stesso output, ma con una bella evidenziazione della sintassi. I colori possono essere personalizzati.
 > Maggiori informazioni: <https://github.com/kimmel/colordiff>.
 
 - Analisi di due file:
