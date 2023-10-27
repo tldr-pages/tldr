@@ -5,7 +5,7 @@
 
 - Convert a GIF image to a Netpbm image pixel-for-pixel:
 
-`giftopnm {{path/to/input.gif} > {{path/to/output.pnm}}`
+`giftopnm {{path/to/input.gif}} > {{path/to/output.pnm}}`
 
 - Display version:
 
