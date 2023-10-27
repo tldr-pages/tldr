@@ -1,9 +1,9 @@
 # Vite
 
-> Crear un proyecto Vite.
+> Crea un proyecto Vite.
 > Se utiliza para crear proyectos JavaScript.
 > Plantillas disponibles: vanilla, vanilla-ts, vue, vue-ts, react, react-ts, react-swc, react-swc-ts, preact, preact-ts, lit, lit-ts, svelte, svelte-ts.
-> Mas información: <https://vitejs.dev/guide>.
+> Más información: <https://vitejs.dev/guide>.
 
 - Configuración usando `npm` 6.x:
 

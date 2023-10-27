@@ -1,7 +1,7 @@
 # npm
 
 > Gestor de paquetes JavaScript y Node.js.
-> Gestionar proyectos de Node.js y sus módulos de dependencias.
+> Gestiona proyectos de Node.js y sus módulos de dependencias.
 > Más información: <https://www.npmjs.com>.
 
 - Creación interactiva de un archivo `package.json`:
