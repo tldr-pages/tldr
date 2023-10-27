@@ -2,7 +2,7 @@
 
 > Elimina uno o más archivos.
 > En PowerShell, este comando es un alias de `Remove-Item`. Esta documentación se basa en la versión del símbolo del sistema (`cmd`) de `del`.
-> Mas información: <https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
+> Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
 
 - Ver la documentación del comando PowerShell equivalente:
 
@@ -16,7 +16,7 @@
 
 `del {{patrón_del_archivo}} /p`
 
-- Forzar la eliminación de archivos de sólo lectura:
+- Fuerza la eliminación de archivos de sólo lectura:
 
 `del {{patrón_del_archivo}} /f`
 
@@ -28,10 +28,10 @@
 
 `del {{patrón_del_archivo}} /q`
 
-- Mostrar la ayuda y la lista de atributos disponibles:
+- Muestra la ayuda y la lista de atributos disponibles:
 
 `del /?`
 
-- Eliminar archivos en función de los atributos especificados:
+- Elimina archivos en función de los atributos especificados:
 
 `del {{patrón_del_archivo}} /a {{atributo}}`

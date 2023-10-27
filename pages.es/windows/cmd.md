@@ -1,36 +1,36 @@
 # cmd
 
 > El intérprete de comandos de Windows.
-> Mas información: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
+> Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
-- Iniciar una sesión shell interactiva:
+- Inicia una sesión shell interactiva:
 
 `cmd`
 
-- Ejecutar [c]omandos específicos:
+- Ejecuta [c]omandos específicos:
 
 `cmd /c {{echo Hola Mundo}}`
 
-- Ejecutar un script específico:
+- Ejecuta un script específico:
 
 `cmd {{ruta\al\script.bat}}`
 
-- Ejecutar comandos específicos y luego entrar en un shell interactivo:
+- Ejecuta comandos específicos y luego entrar en un shell interactivo:
 
 `cmd /k {{echo Hola Mundo}}`
 
-- Iniciar una sesión shell interactiva donde `echo` está desactivado en la salida de comandos:
+- Inicia una sesión shell interactiva donde `echo` está desactivado en la salida de comandos:
 
 `cmd /q`
 
-- Iniciar una sesión de shell interactiva con la expansión [v]ariable retardada activada o desactivada:
+- Inicia una sesión de shell interactiva con la expansión [v]ariable retardada activada o desactivada:
 
 `cmd /v:{{on|off}}`
 
-- Iniciar una sesión shell interactiva con [e]xtensiones de comando activadas o desactivadas:
+- Inicia una sesión shell interactiva con [e]xtensiones de comando activadas o desactivadas:
 
 `cmd /e:{{on|off}}`
 
-- Iniciar una sesión shell interactiva with con la codificación [u]nicode utilizada:
+- Inicia una sesión shell interactiva with con la codificación [u]nicode utilizada:
 
 `cmd /u`
