@@ -180,6 +180,7 @@ Use backticks on the following:
 - Paths, e.g. `package.json`, `/etc/package.json`.
 - Extensions, e.g. `.dll`.
 - Commands, e.g. `ls`.
+- Standard streams: `stdout`, `stdin`, `stderr`. **Do not** use the full names (e.g. standard output).
 
 ## Descriptions
 
@@ -283,7 +284,81 @@ In order to maintain readability and normalization, please comply with the 6 rul
 
 For more information and examples of Chinese-specific rules, check out [*Chinese Copywriting Guidelines*](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.en.md).
 
+### Indonesian-Specific Rules
+
+When translating pages to Indonesian, please keep in mind that we expect `tldr` pages to be easy to read for **both types of Indonesian audiences**, which are:
+
+1. People who prefer to use standard Indonesian technical terms as possible, such as `unduh` for `download`, `awakutu` for `debugging`, and `muat ulang` for `reboot`.
+  - One of the most comprehensive lists of technical terms can be found under the [BlankOn Linux project](https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanWiki/KamusBlankOn/).
+2. People who prefer to use English words as-is to describe technical terms: `download` for `download`, `debugging` for `debugging`, and `reboot` for `reboot`.
+
+The segmentation of these audiences is clearly noted on [Firefox Public Data Report](https://data.firefox.com/dashboard/usage-behavior):
+
+> For most countries in the top 10, the majority (>90%) of users have their language set to the local language, **with a notable exception in Indonesia, which has about 80% English (US) and 20% Indonesian.**
+
+First, command and example descriptions on pages in Indonesian must be written **without using active verb forms (i.e. those with `ber-` and `me-` prefixes)**. This means that sentences such as:
+
+> **Mengunduh** sebuah file ke dalam suatu direktori
+> (i.e. Downloading a file into a directory)
+
+is considered incorrect. The correct form of the sentence should be:
+
+> **Unduh** sebuah file ke dalam suatu direktori
+
+Second, we recommend using the following forms of technical terms to make translated pages easier to read for both types of Indonesian audiences. Some of them may be used as-is, but others must be rewritten using Indonesian standard terms.
+
+| English | Indonesian | Consideration(s) |
+|---|---|---|
+| App / Application | Aplikasi | The abbreviated word `apl.` is not common to some readers. |
+| Boot, Reboot | Muat, Muat ulang | These words are the same for `load` and `reload`. See notes on the bottom section. |
+| Client | Klien | |
+| Command-line | Command-line | Using the word as-is is preferred over `baris perintah` or `alat berbasis mekanisme baris perintah` (`command-line tool`). |
+| Commit (Git) | Commit | |
+| Compile, Compiler | Kompilasikan, Pengompilasi | [`kompilasi`](https://kbbi.kemdikbud.go.id/entri/kompilasi) is officially considered as noun. Requires a `-kan` suffix to convert into a verb.  |
+| Debugger | Debugger | Preferred over `pengawakutu` (`peng`-[`awakutu`](https://kbbi.kemdikbud.go.id/entri/awakutu)) which is unfamiliar to some readers. |
+| Device | Perangkat | Preferred over [`peranti`](https://kbbi.kemdikbud.go.id/entri/peranti). |
+| Disc | Disc | Preferred over [`cakram`](https://kbbi.kemdikbud.go.id/entri/cakram) which is unfamiliar by some readers. Use specific words if possible (e.g. CD or DVD).  |
+| Execute / Run (a program...) | Jalankan | Preferred over [`eksekusikan`](https://kbbi.kemdikbud.go.id/entri/eksekusikan) which is longer to read and write. |
+| File | File | Preferred over [`berkas`](https://kbbi.kemdikbud.go.id/entri/berkas) which may be unfamiliar by some readers. |
+| Generate | Buat | Preferred over [`hasilkan`](https://kbbi.kemdikbud.go.id/entri/hasilkan). Example context: `Buat laporan baru`. |
+| Hardware | Perangkat Keras | Preferred over [`peranti`](https://kbbi.kemdikbud.go.id/entri/peranti). |
+| Image (as picture or visual image) | Gambar | Do not confuse with `image` as means of storage. |
+| Image (as means of storage, such as CD, ISO, and Docker) | Image | Another recommended word, [`citra`](https://kbbi.kemdikbud.go.id/entri/citra), is not officially recognized for computing. |
+| Initialize, Reinitialize | Inisialisasikan, Inisialisasikan Ulang | The word [`inisialisasi`](https://kbbi.kemdikbud.go.id/entri/inisialisasi) is officially considered as noun. Requires a `-kan` suffix to convert into a verb. |
+| Interpreter | Interpreter | Preferred over [`penerjemah`](https://kbbi.kemdikbud.go.id/entri/penerjemah) which is also commonly used to describe `translator`. |
+| Install, Reinstall | Pasang, Pasang Ulang | Preferred over `instal` [which is not considered a standard word](https://kbbi.kemdikbud.go.id/entri/instal). |
+| Load, Reload | Muat, Muat ulang | These words are the same for `boot` and `reboot`. See notes in the bottom section. |
+| Options / Preferences (macOS) / Settings | Pengaturan | Preferred over [`opsi`](https://kbbi.kemdikbud.go.id/entri/opsi). |
+| Server | Server | Preferred over [`peladen`](https://kbbi.kemdikbud.go.id/entri/peladen) or [`pelayan`](https://kbbi.kemdikbud.go.id/entri/pelayan), which are less common when used in computing contexts. |
+| Service | Layanan | The Indonesian standard word is acceptable here. |
+| Shell (command-line interface) | Syel | The Indonesian standard word is acceptable here. |
+| Software | Perangkat Lunak | Preferred over [`peranti`](https://kbbi.kemdikbud.go.id/entri/peranti). |
+| Start, Restart | Mulai, Mulai Ulang / Nyalakan, Nyalakan Ulang | See notes on the bottom section. |
+| Update | Perbarui | Do not confuse with `upgrade`. |
+| Upgrade | Tingkatkan | Do not confuse with `update`. |
+
+When translating sentences that contain the word `boot` and `load` together, please add the context of the item that is being booted and/or loaded, so the use of the `muat` word may not be ambiguous. For example, when translating:
+
+> Load configuration from a specific file after reboot
+
+Instead of translating the sentence into:
+
+> Muat konfigurasi dari file yang ditentukan setelah muat ulang
+
+Add detailed contexts to remove ambiguity (notice the highligted word):
+
+> Muat konfigurasi dari file yang ditentukan setelah **pengguna** memuat ulang **sistem operasi**
+
+Similarly, for the word `start` / `mulai`
+
+> Mulai proses server web
+> (Start the web server process)
+
+To ensure that the sentence may not be confused with `start processing the web server`, you can use other words such as `nyalakan`:
+
+> Nyalakan proses server web
+
 ### French-Specific Rules
 
-Example descriptions on pages in French must use the third person singular present indicative tense (présent de l'indicatif à la troisième personne du singulier).
+Command and example descriptions on pages in French must use the third person singular present indicative tense (présent de l'indicatif à la troisième personne du singulier).
 For example, use `Extrait une archive` rather than `Extraire une archive` or `Extrais une archive`.

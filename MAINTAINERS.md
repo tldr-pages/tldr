@@ -64,12 +64,10 @@ If you are an owner of the organization, you can see an automated list
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10737) — present
 - **Darío Hereñú ([@kant](https://github.com/kant))**:
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10738) — present
-- **Juri ([@gutjuri](https://github.com/gutjuri))**: 
-  [06 October 2023](https://github.com/tldr-pages/tldr/issues/10874) — present
-- **Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck))**:
-  [19 October 2023](https://github.com/tldr-pages/tldr/issues/11075) — present
 - **Magrid0 ([@Magrid0](https://github.com/Magrid0))**:
   [22 October 2023](https://github.com/tldr-pages/tldr/issues/11159) — present
+- **HoJeong Im ([@IMHOJEONG](https://github.com/IMHOJEONG))**:
+  [24 October 2023](https://github.com/tldr-pages/tldr/issues/11200) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -108,6 +106,10 @@ If you are an owner of the organization, you can see an automated list
   [12 August 2021](https://github.com/tldr-pages/tldr/issues/6330) — [4 January 2023](https://github.com/tldr-pages/tldr/issues/9671)
 - Lena ([@acuteenvy](https://github.com/acuteenvy)):
   [13 May 2023](https://github.com/tldr-pages/tldr/issues/10187) — [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406)
+- Juri ([@gutjuri](https://github.com/gutjuri)):
+  [06 October 2023](https://github.com/tldr-pages/tldr/issues/10874) — [24 October 2023](https://github.com/tldr-pages/tldr/issues/11201)
+- Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck)):
+  [19 October 2023](https://github.com/tldr-pages/tldr/issues/11075) — [24 October 2023](https://github.com/tldr-pages/tldr/issues/11202)
 
 ## Organization members
 
@@ -130,6 +132,10 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149) — present
 - **Lena ([@acuteenvy](https://github.com/acuteenvy))**:
   [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406) — present
+- **Juri ([@gutjuri](https://github.com/gutjuri))**:
+  [24 October 2023](https://github.com/tldr-pages/tldr/issues/11201) — present
+- **Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck))**:
+  [24 October 2023](https://github.com/tldr-pages/tldr/issues/11202) - present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
