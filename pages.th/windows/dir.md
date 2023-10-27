@@ -1,7 +1,7 @@
 # dir
 
 > แสดงรายการเนื้อหาไดเรกทอรี
-> ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/dir>
+> ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>
 
 - แสดงเนื้อหาของไดเร็กทอรีปัจจุบัน:
 
