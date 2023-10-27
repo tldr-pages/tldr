@@ -1,7 +1,7 @@
 # rsync
 
 > Transfira arquivos para ou de um host remote (mas não entre dois hosts remotos), usando SSH por padrão.
-> para especificar um caminho remoto, use `host:caminho/para/arquivo_ou_diretório`.
+> Para especificar um caminho remoto, use `host:caminho/para/arquivo_ou_diretório`.
 > Mais informações: <https://download.samba.org/pub/rsync/rsync.1>.
 
 - Transfere um arquivo:

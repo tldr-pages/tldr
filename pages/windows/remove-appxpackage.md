@@ -1,7 +1,7 @@
 # remove-appxpackage
 
 > A PowerShell utility to remove an app package from one or more user accounts.
-> More information: <https://learn.microsoft.com/en-us/powershell/module/appx/remove-appxpackage>.
+> More information: <https://learn.microsoft.com/powershell/module/appx/remove-appxpackage>.
 
 - Remove an app package:
 
