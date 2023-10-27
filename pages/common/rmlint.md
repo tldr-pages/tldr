@@ -1,7 +1,7 @@
 # rmlint
 
-> Eliminate duplicate files and other file waste.
-> More information: <https://rmlint.readthedocs.io/en/latest/rmlint.1.html>.
+> Find space waste and other broken things on your filesystem.
+> More information: <https://rmlint.readthedocs.io/en/master/rmlint.1.html>.
 
 - Check directories for duplicated, empty and broken files:
 
@@ -9,11 +9,11 @@
 
 - Check for space wasters, preferably keeping files in tagged directories (after the double slash):
 
-`rmlint {{path/to/directory}} // {{path/to/originals_directory}}`
+`rmlint {{path/to/directory}} // {{path/to/original_directory}}`
 
 - Check for space wasters, keeping everything in the untagged directories:
 
-`rmlint --keep-all-untagged {{path/to/directory}} // {{path/to/originals_directory}}`
+`rmlint --keep-all-untagged {{path/to/directory}} // {{path/to/original_directory}}`
 
 - Delete duplicate files found by an execution of `rmlint`:
 
