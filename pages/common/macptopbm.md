@@ -4,7 +4,7 @@
 > More information: <https://netpbm.sourceforge.net/doc/macptopbm.html>.
 
 - Convert a MacPaint file into a PGM image:
-  
+
 `macptopbm {{path/to/file.mac}}`
 
 - Skip over extra N bytes when reading the file:
