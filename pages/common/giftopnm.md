@@ -5,7 +5,7 @@
 
 - Convert a GIF image to a Netpbm image pixel-for-pixel :
 
-`giftopnm [--alphaout={alpha-filename,-}] [-verbose] [-comments] [-image={N,all}] [-repair] [-quitearly] [GIFfile]`
+`giftopnm path/to/input > path/to/output.pnm`
 
 - Display version:
 
