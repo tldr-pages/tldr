@@ -13,7 +13,7 @@
 
 - Select the target architecture and OS:
 
-`ldc -mtriple={{Architecture-OS}} -c {{Source_file}}.d`
+`ldc -mtriple={{architecture_OS}} -c {{path/to/source.d}}`
 
 - Get basic help instruction:
 
