@@ -8,7 +8,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | en    | path/to/file         | path/to/directory      | path/to/file_or_directory         | package   | username          |
 |:------|:---------------------|:-----------------------|:----------------------------------|:----------|:------------------|
 | ar    | المسار/إلى/الملف | المسار/إلى/الدليل | المسار/إلى/الملف_أو_الدليل  |          حزمة         |        اسم_المستخدم |
-| bn    |                      |                        |                                   |           |                   |
+| bn    | পাথ/টু/ফাইল          | পাথ/টু/ডিরেক্টরি          | পথ/থেকে/ফাইল_অথবা_ডিরেক্টরি       | প্যাকেজ    | ইউজারনেম         |
 | bs    |                      |                        |                                   |           |                   |
 | ca    | camí/al/fitxer       | camí/al/directori      | camí/al/fitxer_o_directori        | paquet    | nom_usuari        |
 | cs    | cesta/k/souboru      | cesta/k/adresari       | cesta/k/souboru_ci_adresari       | balíček   | jmeno_uzivatele   |
