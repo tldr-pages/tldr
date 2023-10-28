@@ -1,0 +1,12 @@
+# rage
+
+> A simple, secure and modern file encryption tool (and Rust library) with small explicit keys, no config options, and UNIX-style composability.
+> More information: <https://github.com/str4d/rage>.
+
+- Encrypt a file for <user> and save it to `message.age`:
+
+`echo "Your secret message" | rage --encrypt --recipient <user> --output message.age`
+
+- Decrypt a file with your identity file `identity_file` and save it to `message`:
+
+`rage --decrypt --identity ./identity_file --output message`
