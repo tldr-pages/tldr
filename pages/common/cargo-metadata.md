@@ -1,6 +1,6 @@
 # cargo metadata
 
-> Outputs the workspace members and resolved dependencies of current package.
+> Output the workspace members and resolved dependencies of current package as JSON.
 > Note: The output format is subject to change in future versions of Cargo.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-metadata.html>.
 
