@@ -7,7 +7,7 @@
 
 `dub --help`
 
-- Update the dependencies in D project:
+- Update the dependencies in a D project:
 
 `dub upgrade`
 
