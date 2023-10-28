@@ -1,7 +1,7 @@
 # gdc
 
 > GNU front-end D Compiler.
-> More informations: <https://wiki.dlang.org/Using_GDC>.
+> More information: <https://wiki.dlang.org/Using_GDC>.
 
 - Create an executable:
 
