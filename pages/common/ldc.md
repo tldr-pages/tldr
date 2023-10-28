@@ -9,7 +9,7 @@
 
 - Compile source without linking:
 
-`ldc2 -c {{Source_file}}.d`
+`ldc2 -c {{path/to/source.d}}`
 
 - Select the target architecture and OS:
 
