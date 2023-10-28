@@ -5,7 +5,7 @@
 
 - Compile a source code file into an executable binary:
 
-`ldc2 {{Source_file}}.d -of={{Output_Executable}}`
+`ldc2 {{path/to/source.d}} -of={{path/to/output_executable}}`
 
 - Compile source without linking:
 
