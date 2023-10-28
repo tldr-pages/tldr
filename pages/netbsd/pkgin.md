@@ -1,6 +1,6 @@
 # pkgin
 
-> Manage pkgsrc binary packages on NetBSD.
+> Manage `pkgsrc` binary packages on NetBSD.
 > More information: <https://pkgin.net/#usage>.
 
 - Install a package:
