@@ -9,16 +9,16 @@
 
 - Встановити пакет:
 
-`pkg install {{package}}`
+`pkg install {{пакет}}`
 
 - Видалити пакет:
 
-`pkg uninstall {{package}}`
+`pkg uninstall {{пакет}}`
 
 - Перевстановити пакет:
 
-`pkg reinstall {{package}}`
+`pkg reinstall {{пакет}}`
 
 - Пошук пакету:
 
-`pkg search {{package}}`
+`pkg search {{пакет}}`
