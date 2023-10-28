@@ -17,7 +17,7 @@
 
 - List information on all available checks:
 
-`dmd -check=[h|help|?]`
+`dmd -check={{h|help|?}}`
 
 - Turn colored console output on:
 
