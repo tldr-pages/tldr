@@ -246,6 +246,11 @@ On the `More information` line, prefer linking to the author's provided document
 
 When not available, use <https://manned.org> as the default fallback.
 
+Remove the localization from Microsoft Learn URLs
+
+- ~~https://learn.microsoft.com/en-US/~~
+- https://learn.microsoft.com/
+
 ## Language-Specific Rules
 
 ### Chinese-Specific Rules
