@@ -6,20 +6,20 @@
 
 - Відправити код події для одного знаку на Android девайс:
 
-`input keyevent {{event_code}}`
+`input keyevent {{код_події}}`
 
 - Відправити текст на Android девайс (`%s` визначає пробіли):
 
-`input text "{{text}}"`
+`input text "{{текст}}"`
 
 - Відправити один дотик на Android девайс:
 
-`input tap {{x_position}} {{y_position}}`
+`input tap {{позиція_x}} {{позиція_y}}`
 
 - Відправити жест проведення(свайп) на Android девайс:
 
-`input swipe {{x_start}} {{y_start}} {{x_end}} {{y_end}} {{duration_in_ms}}`
+`input swipe {{x_старт}} {{y_старт}} {{х_кінець}} {{y_кінець}} {{тривалість_в_мс}}`
 
 - Відправити довге натискання на Android девайс, використовуючи жест проведення(свайп):
 
-`input swipe {{x_position}} {{y_position}} {{x_position}} {{y_position}} {{duration_in_ms}}`
+`input swipe {{позиція_x}} {{позиція_y}} {{позиція_x}} {{позиція_y}} {{тривалість_в_мс}}`
