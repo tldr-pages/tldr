@@ -5,7 +5,7 @@
 
 - Display general or command specific help:
 
-`dub -h | --help`
+`dub --help`
 
 - Update the dependencies in D project:
 
