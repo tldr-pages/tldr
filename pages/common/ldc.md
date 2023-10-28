@@ -19,6 +19,6 @@
 
 `ldc2 -h`
 
-- Get complete help instruction:
+- Display complete help:
 
 `ldc2 -help-hidden`
