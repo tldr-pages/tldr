@@ -15,7 +15,7 @@
 
 `dub`
 
-- Install dependencies specified in D project's `dub.json|dub.sdl` file:
+- Install dependencies specified in a D project's `dub.json` or `dub.sdl` file:
 
 `dub fetch`
 
