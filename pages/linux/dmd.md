@@ -1,6 +1,6 @@
 # dmd
 
-> D compiler for Linux.
+> Official D compiler for Linux.
 > More information: <https://dlang.org/dmd-linux.html>.
 
 - Generate code for all template instantiations:
