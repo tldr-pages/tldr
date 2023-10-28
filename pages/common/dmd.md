@@ -13,7 +13,7 @@
 
 - Control if bounds checking is enabled:
 
-`dmd -boundscheck=[on|safeonly|off]`
+`dmd -boundscheck={{on|safeonly|off}}`
 
 - List information on all available checks:
 
