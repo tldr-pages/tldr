@@ -17,7 +17,6 @@
 
 - Install dependencies specified in D project's `dub.json|dub.sdl` file:
 
-
 `dub fetch`
 
 - Create a new Dlang project [iterative mode]:
