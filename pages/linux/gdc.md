@@ -5,7 +5,7 @@
 
 - Create an executable:
 
-`gdc {{Source_Name}}.d -o {{Output_File_Name}}`
+`gdc {{path/to/source.d}} -o {{path/to/output_executable}}`
 
 - Print information about module dependencies:
 
