@@ -7,9 +7,9 @@
 
 `macptopbm {{path/to/file.mac}}`
 
-- Skip over extra N bytes when reading the file:
+- Skip over a specified number of bytes when reading the file:
 
-`macptopbm -extraskip N`
+`macptopbm -extraskip {{N}}`
 
 - Suppress all informational messages:
 
