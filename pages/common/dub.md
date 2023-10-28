@@ -11,7 +11,7 @@
 
 `dub upgrade`
 
-- Build and run D project:
+- Build and run a D project:
 
 `dub`
 
