@@ -15,7 +15,7 @@
 
 `ldc -mtriple={{architecture_OS}} -c {{path/to/source.d}}`
 
-- Get basic help instruction:
+- Display help:
 
 `ldc2 -h`
 
