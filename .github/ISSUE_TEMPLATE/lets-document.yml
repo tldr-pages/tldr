@@ -1,20 +1,15 @@
-name: 📄 Page modification request
-title: "page modification request: "
-description: Request modification of a page.
-labels: page edit, help wanted
+name: 📄 Let's document
+title: "Let's document: "
+description: Request creation of multiple related pages (e.g. a complicated command with multiple subcommands).
+labels: new command, help wanted, Let's document
 body:
   - type: textarea
     attributes:
       label: Command description
-      description: Describe the command you want the page(s) to be modified.
-      placeholder: Tell us about the changes in the command!
+      description: Describe the commands you want to create.
+      placeholder: Tell us about the commands!
     validations:
       required: true
-  - type: input
-    attributes:
-      label: Command details
-      description: Describe any details related to a command.
-      placeholder: e.g. command version
   - type: input
     attributes:
       label: Documentation
@@ -34,5 +29,14 @@ body:
         - Android
         - SunOS
         - Common
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Commands
+      description: List out all the pages you want to create.
+      placeholder: |
+        - [] command1
+        - [] command2
     validations:
       required: true
