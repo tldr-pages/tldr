@@ -7,7 +7,7 @@
 
 `dmd -allinst`
 
-- Controls if bounds checking is enabled:
+- Control if bounds checking is enabled:
 
 `dmd -boundscheck=[on|safeonly|off]`
 
@@ -18,4 +18,3 @@
 - Turn colored console output on:
 
 `dmd -color`
-
