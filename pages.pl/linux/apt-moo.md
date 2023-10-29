@@ -1,8 +1,8 @@
 # apt moo
 
-> Jajo wielkanoce `APT`.
+> Easter egg `APT`.
 > Więcej informacji: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
-- Wyświetl krowę z jajem wielkanocnym:
+- Wyświetl easter egga z krową:
 
 `apt moo`
