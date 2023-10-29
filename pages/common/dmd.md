@@ -1,7 +1,7 @@
 # dmd
 
-> Official D compiler for Linux.
-> More information: <https://dlang.org/dmd-linux.html>.
+> Official D compiler.
+> More information: <https://dlang.org/dmd.html>.
 
 - Build a D source file:
 
@@ -11,7 +11,7 @@
 
 `dmd -allinst`
 
-- Control if bounds checking is enabled:
+- Control bounds checking:
 
 `dmd -boundscheck={{on|safeonly|off}}`
 
@@ -19,6 +19,6 @@
 
 `dmd -check={{h|help|?}}`
 
-- Turn colored console output on:
+- Turn on colored console output:
 
 `dmd -color`

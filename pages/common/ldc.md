@@ -7,7 +7,7 @@
 
 `ldc2 {{path/to/source.d}} -of={{path/to/output_executable}}`
 
-- Compile source without linking:
+- Compile the source code file without linking:
 
 `ldc2 -c {{path/to/source.d}}`
 

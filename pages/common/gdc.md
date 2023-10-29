@@ -1,6 +1,6 @@
 # gdc
 
-> D compiler using gcc as a backend.
+> D compiler using GCC as a backend.
 > More information: <https://wiki.dlang.org/Using_GDC>.
 
 - Create an executable:
@@ -19,6 +19,6 @@
 
 `gdc -fintfc`
 
-- Do not link the standard gcc libraries in the compilation:
+- Do not link the standard GCC libraries in the compilation:
 
 `gdc -nostdlib`

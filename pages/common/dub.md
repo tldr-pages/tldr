@@ -3,13 +3,14 @@
 > Package manager for D packages.
 > More information: <https://dub.pm/commandline>.
 
-- Display general or command specific help:
 
-`dub --help`
+- Interactively create a new D project:
 
-- Update the dependencies in a D project:
+`dub init {{project_name}}`
 
-`dub upgrade`
+- Non-interactively create a new D project:
+
+`dub init {{project_name}} -n`
 
 - Build and run a D project:
 
@@ -19,10 +20,10 @@
 
 `dub fetch`
 
-- Interactively create a new D project:
+- Update the dependencies in a D project:
 
-`dub init {{project_name}}`
+`dub upgrade`
 
-- Non-interactively create a new D project:
+- Display help:
 
-`dub init {{project_name}} -n`
+`dub --help`
