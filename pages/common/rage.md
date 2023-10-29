@@ -4,7 +4,7 @@
 > Rust implementation of `age`.
 > More information: <https://github.com/str4d/rage>.
 
-- Encrypt a file for <user> and save it to `message.age`:
+- Encrypt a file for `user` and save it to `message.age`:
 
 `echo "{{Your secret message}}" | rage --encrypt --recipient {{user}} --output {{path/to/message.age}}`
 
