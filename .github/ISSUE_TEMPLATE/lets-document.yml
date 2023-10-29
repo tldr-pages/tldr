@@ -35,8 +35,6 @@ body:
     attributes:
       label: Additional information
       description: Provide additional information if the command differs between platforms.
-    validations:
-      required: false
   - type: textarea
     attributes:
       label: Commands
