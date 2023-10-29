@@ -3,7 +3,6 @@
 > Package manager for D packages.
 > More information: <https://dub.pm/commandline>.
 
-
 - Interactively create a new D project:
 
 `dub init {{project_name}}`
