@@ -16,8 +16,14 @@
 
 `cat tea.txt | speedread -multiword`
 
-- Controls:
-> [        slow down by 10%
-> ]        speed up by 10%
-> space    pause, and show the last few lines as context
+- Slow down by 10%:
 
+`[`
+
+- Speed up by 10%:
+
+`]`
+
+- Pause, and show the last few lines as context:
+
+`<space>`
