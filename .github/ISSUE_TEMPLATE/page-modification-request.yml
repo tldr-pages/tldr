@@ -1,5 +1,5 @@
 name: 📄 Page modification request
-title: "page modification request: "
+title: "Page modification request: "
 description: Request modification of a page.
 labels: page edit, help wanted
 body:
@@ -23,16 +23,22 @@ body:
   - type: dropdown
     attributes:
       label: Platform
-      description: What OS does the program run on? (Select 'Common' if the program works on more than one OS)
+      description: What platform does the program run on? (Select "Common" if the program works on more than one platform)
       options:
+        - Android
+        - Common
+        - FreeBSD
         - Linux
         - macOS (OS X)
-        - Windows
-        - FreeBSD
-        - OpenBSD
         - NetBSD
-        - Android
+        - OpenBSD
         - SunOS
-        - Common
+        - Windows
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Provide additional information if the command differs between platforms.
+    validations:
+      required: false

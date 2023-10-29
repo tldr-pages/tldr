@@ -1,7 +1,7 @@
 name: 📄 Let's document
 title: "Let's document: "
-description: Request creation of multiple related pages (e.g. a complicated command with multiple subcommands).
-labels: new command, help wanted, Let's document
+description: Request creation of multiple related pages (e.g. a utility with multiple subcommands).
+labels: new command, help wanted, let's document
 body:
   - type: textarea
     attributes:
@@ -18,19 +18,25 @@ body:
   - type: dropdown
     attributes:
       label: Platform
-      description: What OS does the program run on? (Select 'Common' if the program works on more than one OS)
+      description: What platform does the program run on? (Select "Common" if the program works on more than one platform)
       options:
+        - Android
+        - Common
+        - FreeBSD
         - Linux
         - macOS (OS X)
-        - Windows
-        - FreeBSD
-        - OpenBSD
         - NetBSD
-        - Android
+        - OpenBSD
         - SunOS
-        - Common
+        - Windows
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Provide additional information if the command differs between platforms.
+    validations:
+      required: false
   - type: textarea
     attributes:
       label: Commands
