@@ -1,6 +1,6 @@
 # gdc
 
-> GNU front-end D Compiler.
+> D compiler using gcc as a backend.
 > More information: <https://wiki.dlang.org/Using_GDC>.
 
 - Create an executable:

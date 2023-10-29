@@ -19,10 +19,10 @@
 
 `dub fetch`
 
-- Create a new Dlang project [iterative mode]:
+- Interactively create a new D project:
 
-`dub init {{Project_Name}}`
+`dub init {{project_name}}`
 
-- Create a new D project [non-iterative mode]:
+- Non-interactively create a new D project:
 
-`dub init {{Project_Name}} -n`
+`dub init {{project_name}} -n`

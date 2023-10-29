@@ -1,6 +1,6 @@
 # ldc
 
-> LLVM front-end D compiler.
+> D compiler using LLVM as a backend.
 > More information: <https://wiki.dlang.org/Using_LDC>.
 
 - Compile a source code file into an executable binary:
