@@ -1,0 +1,46 @@
+name: 📄 Let's document
+title: "Let's document: "
+description: Request creation of multiple related pages (e.g. a utility with multiple subcommands).
+labels: new command, help wanted, let's document
+body:
+  - type: textarea
+    attributes:
+      label: Command description
+      description: Describe the commands you want to create.
+      placeholder: Tell us about the commands!
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Documentation
+      description: Link to the official documentation.
+      placeholder: https://example.com
+  - type: dropdown
+    attributes:
+      label: Platform
+      description: What platform does the program run on? (Select "Common" if the program works on more than one platform)
+      options:
+        - Android
+        - Common
+        - FreeBSD
+        - Linux
+        - macOS (OS X)
+        - NetBSD
+        - OpenBSD
+        - SunOS
+        - Windows
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Provide additional information if the command differs between platforms.
+  - type: textarea
+    attributes:
+      label: Commands
+      description: List out all the pages you want to create.
+      placeholder: |
+        - [] command1
+        - [] command2
+    validations:
+      required: true

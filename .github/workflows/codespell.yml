@@ -7,18 +7,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v37.5.1
+        uses: tj-actions/changed-files@v39.0.0
         with:
           # Ignore all other languages except English
           files_ignore: |
             pages.*/*/*
             package-lock.json
 
-      - uses: codespell-project/actions-codespell@master
+      - uses: codespell-project/actions-codespell@v2
         with:
           ignore_words_file: .github/codespell-ignore
           # Exit with 0 regardless of typos.

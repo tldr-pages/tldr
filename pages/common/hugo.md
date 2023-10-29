@@ -7,7 +7,7 @@
 
 `hugo new site {{path/to/site}}`
 
-- Create a new Hugo theme (themes may also be downloaded from https://themes.gohugo.io/):
+- Create a new Hugo theme (themes may also be downloaded from <https://themes.gohugo.io/>):
 
 `hugo new theme {{theme_name}}`
 
@@ -22,6 +22,10 @@
 - Build a site including pages that are marked as a "draft":
 
 `hugo --buildDrafts`
+
+- Build a site on your local IP:
+
+`hugo server --bind {{local-ip}} --baseURL {{http://local-ip}}`
 
 - Build a site to a given directory:
 

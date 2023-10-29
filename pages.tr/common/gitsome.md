@@ -12,7 +12,7 @@
 
 `gh configure`
 
-- Mevcut hesap için bildirimleri (https://github.com/notifications adresinde görülebildiği gibi) sırala:
+- Mevcut hesap için bildirimleri (<https://github.com/notifications> adresinde görülebildiği gibi) sırala:
 
 `gh notifications`
 

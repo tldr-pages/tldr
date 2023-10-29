@@ -1,7 +1,7 @@
 # cmd
 
 > Menedżer usług Android.
-> Więcej informacji: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+> Więcej informacji: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - Pokaż wszystkie działające usługi:
 

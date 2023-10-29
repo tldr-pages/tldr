@@ -1,36 +1,36 @@
 # vso
 
-> Utility to perform maintenance tasks on Vanilla OS.
+> Package manager, system updater and a task automator for Vanilla OS.
 > More information: <https://github.com/Vanilla-OS/vanilla-system-operator>.
 
-- Trigger a system update immediately:
+- Check for system updates to the host system:
 
-`sudo vso trigger-update --now`
+`vso sys-upgrade check`
 
-- Check for package updates and list them:
+- Upgrade the host system now:
 
-`sudo vso update-check`
+`vso sys-upgrade upgrade --now`
 
-- Create an automated task upon an application's launch:
+- Initialize the Pico subsystem (used for package management):
 
-`vso create-task --name "{{string}}" --description "{{string}}" --{{command|on-condition-command}} "{{command}}" --on-process {{integer}}`
+`vso pico-init`
 
-- Create an automated task to execute during boot:
+- Install applications inside the subsystem:
 
-`vso create-task --name "{{string}}" --description "{{string}}" --command "{{command}}" --on-boot`
+`vso install {{package1 package2 ...}}`
 
-- Create an automated task to execute during specific battery states:
+- Remove applications from the subsystem:
 
-`vso create-task --name "{{string}}" --description "{{string}}" --command "{{command}}" --{{on-low-battery|on-charge|on-battery|on-full-battery}}`
+`vso remove {{package1 package2 ...}}`
 
-- Create an automated task which asks for a confirmation before execution:
+- Enter the subsystem's shell:
 
-`vso create-task --name "{{string}}" --description "{{string}}" --command "{{command}}" --need-confirm`
+`vso shell`
 
-- Create an automated task to execute during network connection or disconnection:
+- Run an application from the subsystem:
 
-`vso create-task --name "{{string}}" --description "{{string}}" --command "{{command}}" --{{on-network|on-disconnect}}`
+`vso run {{package}}`
 
-- Delete an automated task:
+- Display VSO configuration:
 
-`vso delete-task "{{task}}"`
+`vso config show`

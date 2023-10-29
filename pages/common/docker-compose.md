@@ -15,9 +15,9 @@
 
 `docker compose up --build`
 
-- Start all containers using an alternate compose file:
+- Start all containers by specifying a project name and using an alternate compose file:
 
-`docker compose --file {{path/to/file}} up`
+`docker compose -p {{project_name}} --file {{path/to/file}} up`
 
 - Stop all running containers:
 

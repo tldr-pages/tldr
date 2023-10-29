@@ -1,8 +1,10 @@
 # Maintainers
 
 This file contains a list of the maintainers of the tldr-pages project.
-Note: only the people marked with **bold** are currently in the indicated role.
-The other entries are kept for historical record.
+
+> [!NOTE]
+> Only the people marked with **bold** are currently in the indicated role.
+> The other entries are kept for historical record.
 
 There are three types of maintainers, as described in
 [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md#when-to-change-roles):
@@ -45,7 +47,7 @@ If you are an owner of the organization, you can see an automated list
 - **Patrice Denis ([@patricedenis](https://github.com/patricedenis))**:
   [10 May 2021](https://github.com/tldr-pages/tldr/issues/5919) — present
 - **Reinhart Previano Koentjoro ([@reinhart1010](https://github.com/reinhart1010))**:
-  [23 Nov 2021](https://github.com/tldr-pages/tldr/issues/7404) — present
+  [23 November 2021](https://github.com/tldr-pages/tldr/issues/7404) — present
 - **258204 ([@258204](https://github.com/258204))**:
   [10 December 2021](https://github.com/tldr-pages/tldr/issues/7522) — present
 - **Nicolas Hansse ([@Nico385412](https://github.com/Nico385412))**:
@@ -54,12 +56,22 @@ If you are an owner of the organization, you can see an automated list
   [17 August 2022](https://github.com/tldr-pages/tldr/issues/8321) — present
 - **Cairn ([@CairnThePerson](https://github.com/CairnThePerson))**:
   [1 September 2022](https://github.com/tldr-pages/tldr/issues/8438) — present
+- **Managor ([@Managor](https://github.com/Managor))**:
+  [4 September 2023](https://github.com/tldr-pages/tldr/issues/10611) — present
+- **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
+  [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764), [7 February 2023](https://github.com/tldr-pages/tldr/issues/10674) — present
+- **Isaac Vicente ([@isaacvicente](https://github.com/isaacvicente))**:
+  [20 September 2023](https://github.com/tldr-pages/tldr/issues/10737) — present
+- **Darío Hereñú ([@kant](https://github.com/kant))**:
+  [20 September 2023](https://github.com/tldr-pages/tldr/issues/10738) — present
+- **Magrid0 ([@Magrid0](https://github.com/Magrid0))**:
+  [22 October 2023](https://github.com/tldr-pages/tldr/issues/11159) — present
+- **HoJeong Im ([@IMHOJEONG](https://github.com/IMHOJEONG))**:
+  [24 October 2023](https://github.com/tldr-pages/tldr/issues/11200) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
   [28 January 2019](https://github.com/tldr-pages/tldr/issues/2735) — [8 April 2019](https://github.com/tldr-pages/tldr/issues/2874)
-- Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
-  [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764)
 - Ein Verne ([@einverne](https://github.com/einverne)):
   [27 October 2019](https://github.com/tldr-pages/tldr/issues/3488) — [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738)
 - Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic)):
@@ -85,15 +97,19 @@ If you are an owner of the organization, you can see an automated list
 - Seth Falco ([@SethFalco](https://github.com/SethFalco)):
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5993) - [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149)
 - Pixel Häußler ([@pixelcmtd](https://github.com/pixelcmtd)):
-  [27 Aug 2021](https://github.com/tldr-pages/tldr/issues/6415) — [16 October 2022](https://github.com/tldr-pages/tldr/pull/9072#issuecomment-1279847932)
+  [27 August 2021](https://github.com/tldr-pages/tldr/issues/6415) — [16 October 2022](https://github.com/tldr-pages/tldr/pull/9072#issuecomment-1279847932)
 - Emily Grace Seville ([@EmilySeville7cfg](https://github.com/EmilySeville7cfg)):
   [19 January 2022](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — [24 April 2022](https://github.com/tldr-pages/tldr/issues/8053)
 - K.B.Dharun Krishna ([@kbdharun](https://github.com/kbdharun)):
   [06 August 2022](https://github.com/tldr-pages/tldr/issues/8309) — [14 December 2022](https://github.com/tldr-pages/tldr/issues/9625)
 - Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson)):
-  [12 Aug 2021](https://github.com/tldr-pages/tldr/issues/6330) — [4 Jan 2023](https://github.com/tldr-pages/tldr/issues/9671)
+  [12 August 2021](https://github.com/tldr-pages/tldr/issues/6330) — [4 January 2023](https://github.com/tldr-pages/tldr/issues/9671)
 - Lena ([@acuteenvy](https://github.com/acuteenvy)):
   [13 May 2023](https://github.com/tldr-pages/tldr/issues/10187) — [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406)
+- Juri ([@gutjuri](https://github.com/gutjuri)):
+  [06 October 2023](https://github.com/tldr-pages/tldr/issues/10874) — [24 October 2023](https://github.com/tldr-pages/tldr/issues/11201)
+- Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck)):
+  [19 October 2023](https://github.com/tldr-pages/tldr/issues/11075) — [24 October 2023](https://github.com/tldr-pages/tldr/issues/11202)
 
 ## Organization members
 
@@ -116,6 +132,10 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149) — present
 - **Lena ([@acuteenvy](https://github.com/acuteenvy))**:
   [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406) — present
+- **Juri ([@gutjuri](https://github.com/gutjuri))**:
+  [24 October 2023](https://github.com/tldr-pages/tldr/issues/11201) — present
+- **Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck))**:
+  [24 October 2023](https://github.com/tldr-pages/tldr/issues/11202) - present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -141,7 +161,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - K.B.Dharun Krishna ([@kbdharun](https://github.com/kbdharun)):
   [14 December 2022](https://github.com/tldr-pages/tldr/issues/9625) — [19 June 2023](https://github.com/tldr-pages/tldr/issues/10057)
 - Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson)):
-  [4 Jan 2023](https://github.com/tldr-pages/tldr/issues/9671) — [7 July 2023](https://github.com/tldr-pages/tldr/issues/10054)
+  [4 January 2023](https://github.com/tldr-pages/tldr/issues/9671) — [7 July 2023](https://github.com/tldr-pages/tldr/issues/10054)
 
 ## Organization owners
 
@@ -159,8 +179,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989) — present
 - **Marco Bonelli ([@mebeim](https://github.com/mebeim))**:
   [21 December 2019](https://github.com/tldr-pages/tldr/issues/3672) — present
-- **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
-  [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224) — present
 - **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
   [7 April 2021](https://github.com/tldr-pages/tldr/issues/5703) — present
 - **CleanMachine1 ([@CleanMachine1](https://github.com/CleanMachine1))**:
@@ -193,3 +211,5 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   until [26 August 2018](https://github.com/tldr-pages/tldr/issues/2257)
 - Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic)):
   until [14 December 2021](https://github.com/tldr-pages/tldr/issues/7538)
+- Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
+  until [7 February 2023](https://github.com/tldr-pages/tldr/issues/10674)

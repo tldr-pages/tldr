@@ -19,7 +19,7 @@
 
 `awk '{s+=$1} END {print s}' {{archivo}}`
 
-- Suma los valores en de la primera columna de un archivo e imprime el total de froma bonita:
+- Suma los valores en de la primera columna de un archivo e imprime el total de forma bonita:
 
 `awk '{s+=$1; print $1} END {print "--------"; print s}' {{archivo}}`
 
