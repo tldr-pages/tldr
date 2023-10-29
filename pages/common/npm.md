@@ -8,7 +8,7 @@
 
 `npm init`
 
-- Download all the packages listed as dependencies in package.json:
+- Download all the packages listed as dependencies in `package.json`:
 
 `npm install`
 
@@ -28,7 +28,7 @@
 
 `npm uninstall {{package_name}}`
 
-- Print a tree of locally installed dependencies:
+- List of locally installed dependencies:
 
 `npm list`
 
