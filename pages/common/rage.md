@@ -5,7 +5,7 @@
 
 - Encrypt a file for <user> and save it to `message.age`:
 
-`echo "Your secret message" | rage --encrypt --recipient <user> --output message.age`
+`echo "{{Your secret message}}" | rage --encrypt --recipient {{user}} --output {{path/to/message.age}}`
 
 - Decrypt a file with your identity file `identity_file` and save it to `message`:
 
