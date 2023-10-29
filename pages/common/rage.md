@@ -8,6 +8,6 @@
 
 `echo "{{Your secret message}}" | rage --encrypt --recipient {{user}} --output {{path/to/message.age}}`
 
-- Decrypt a file with your identity file `identity_file` and save it to `message`:
+- Decrypt a file with `identity_file` and save it to `message`:
 
 `rage --decrypt --identity {{path/to/identity_file}} --output {{message}}`
