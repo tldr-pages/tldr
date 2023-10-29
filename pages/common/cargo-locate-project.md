@@ -12,10 +12,6 @@
 
 `cargo locate-project --message-format {{plain|json}}`
 
-- Print the `Cargo.toml` manifest located at the given path:
-
-`cargo locate-project --manifest-path {{path/to/Cargo.toml}}`
-
 - Print the `Cargo.toml` manifest located at the root of the workspace as opposed to the current workspace member:
 
 `cargo locate-project --workspace`
