@@ -9,4 +9,4 @@
 
 - Decrypt a file with your identity file `identity_file` and save it to `message`:
 
-`rage --decrypt --identity ./identity_file --output message`
+`rage --decrypt --identity {{path/to/identity_file}} --output {{message}}`
