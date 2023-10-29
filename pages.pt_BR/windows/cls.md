@@ -1,8 +1,8 @@
 # cls
 
-> Limpar a tela de saída.
+> Este comando é um pseudônimo de `clear-host`.
 > Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
-- Limpar a tela:
+- Ver documentação sobre o comando original:
 
-`cls`
+`tldr clear-host`

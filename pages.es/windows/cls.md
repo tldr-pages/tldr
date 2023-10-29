@@ -1,8 +1,8 @@
 # cls
 
-> Borra la pantalla.
+> Este comando es un alias de `clear-host`.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
-- Borra la pantalla:
+- Ver documentación para el comando original:
 
-`cls`
+`tldr clear-host`

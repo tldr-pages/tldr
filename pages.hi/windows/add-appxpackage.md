@@ -1,7 +1,7 @@
 # add-appxpackage
 
 > उपयोगकर्ता खाते में एक हस्ताक्षरित ऐप पैकेज (`.appx`, `.msix`, `.appxbundle` और `.msixbundle`) जोड़ने के लिए एक PowerShell उपयोगिता।
-> अधिक जानकारी: <https://learn.microsoft.com/powershell/module/appx/add-appxpackage>.
+> अधिक जानकारी: <https://learn.microsoft.com/powershell/module/appx/add-appxpackage>।
 
 - एक ऐप पैकेज जोड़ें:
 

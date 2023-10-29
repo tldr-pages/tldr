@@ -1,7 +1,7 @@
 # docker ps
 
 > Dockerコンテナ一覧を表示します。
-> 詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/ps/>.
+> 詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/ps/>
 
 - 現在実行中のdockerコンテナ一覧を表示する:
 

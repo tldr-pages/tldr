@@ -1,8 +1,8 @@
 # cls
 
-> پاک کردن صفحه.
+> این دستور یک نام مستعار از `clear-host` است.
 > اطلاعات بیشتر: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
-- پاک کردن صفحه:
+- مشاهده مستندات دستور اصلی :
 
-`cls`
+`tldr clear-host`

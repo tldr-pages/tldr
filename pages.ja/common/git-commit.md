@@ -1,7 +1,7 @@
 # git commit
 
 > リポジトリにファイルをコミットします。
-> 詳しくはこちら: <https://git-scm.com/docs/git-commit>.
+> 詳しくはこちら: <https://git-scm.com/docs/git-commit>
 
 - メッセージと共に、ステージ済のファイルをリポジトリにコミットする:
 
