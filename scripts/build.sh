@@ -5,11 +5,11 @@
 set -ex
 
 function initialize {
-  if [ -z "$TLDRHOME" ]; then
+  if [[ -z $TLDRHOME ]]; then
     export TLDRHOME=${GITHUB_WORKSPACE:-$(pwd)}
   fi
 
-  if [ -z "$TLDR_LANG_ARCHIVES_DIRECTORY" ]; then
+  if [[ -z $TLDR_LANG_ARCHIVES_DIRECTORY ]]; then
     export TLDR_LANG_ARCHIVES_DIRECTORY="${GITHUB_WORKSPACE:-$(pwd)}/language_archives"
   fi
 
@@ -32,22 +32,28 @@ function build_translation_archives {
   local source_directory="$TLDRHOME"
   local target_directory="$TLDR_LANG_ARCHIVES_DIRECTORY"
   mkdir -p "$target_directory"
-  rm -f "$target_directory/*"
+  rm -f "$target_directory"/*
 
   for lang_dir in "$source_directory"/pages*; do
-    if [ -d "$lang_dir" ]; then
-      local lang=$(basename "$lang_dir")
-      local archive_name="tldr-$lang.zip"
-
-      # Create the zip archive
-
-      cd "$lang_dir"
-      zip -q -r "$target_directory/$archive_name" .
-      zip -q -j "$target_directory/$archive_name" "$source_directory/LICENSE.md"
-
-      echo "Pages archive of $archive_name successfully created."
+    # Skip symlinks (pages.en) and things that are not directories
+    if [[ ! -d $lang_dir || -h $lang_dir ]]; then
+      continue
     fi
+
+    local lang=$(basename "$lang_dir")
+    local archive_name="tldr-$lang.zip"
+
+    # Create the zip archive
+
+    cd "$lang_dir"
+    zip -q -r "$target_directory/$archive_name" .
+    zip -q -j "$target_directory/$archive_name" "$source_directory/LICENSE.md"
+
+    echo "Pages archive of $archive_name successfully created."
   done
+
+  cd "$target_directory"
+  cp tldr-pages.zip tldr-pages.en.zip
 }
 
 ###################################

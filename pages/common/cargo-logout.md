@@ -7,30 +7,6 @@
 
 `cargo logout`
 
-- Add the name of the registry to use:
+- Specify the name of the registry to use (registry names can be defined in the config - the default is <https://crates.io>):
 
-`cargo logout --registry {{registry}}`
-
-- Display verbose output:
-
-`cargo logout --verbose`
-
-- Do not print Cargo log message:
-
-`cargo logout --quiet`
-
-- Control when colored output is used:
-
-`cargo logout --color {{auto|always|never}}`
-
-- Override a Cargo configuration value:
-
-`cargo logout --config {{KEY=VALUE|PATH}}`
-
-- Change the current directory before executing any specified operation:
-
-`cargo logout -c {{PATH}}`
-
-- Display help:
-
-`cargo logout --help`
+`cargo logout --registry {{name}}`

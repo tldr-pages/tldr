@@ -1,7 +1,7 @@
 # az login
 
 > Log in to Azure.
-> Part of `az`.
+> Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/reference-index#az_login>.
 
 - Log in interactively:
