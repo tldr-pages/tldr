@@ -6,7 +6,7 @@
 
 - ওয়েবরুট মোড ব্যবহার করে একটি সার্টিফিকেট ইস্যু করুন:
 
-`acme.sh --issue --domain {{example.com}} --webroot {{/path/to/webroot}}`
+`acme.sh --issue --domain {{example.com}} --webroot {{/পাথ/টু/ওয়েবরুট}}`
 
 - পোর্ট ৮০ ব্যবহার করে স্ট্যান্ডঅলোন মোড ব্যবহার করে একটি মাল্টিপল ডোমেনের জন্য একটি সার্টিফিকেট ইস্যু করুন:
 
@@ -30,4 +30,4 @@
 
 - নির্দিষ্ট অবস্থানে সার্টিফিকেট ফাইল ইনস্টল করুন (স্বয়ংক্রিয় সার্টিফিকেট পুনরারম্ভের জন্য উপযুক্ত):
 
-`acme.sh --install-cert -d {{example.com}} --key-file {{/path/to/example.com.key}} --fullchain-file {{/path/to/example.com.cer}} --reloadcmd {{"systemctl force-reload nginx"}}`
+`acme.sh --install-cert -d {{example.com}} --key-file {{/পথ/থেকে/উদাহরণ.কম.কি}} --fullchain-file {{/পথ/থেকে/উদাহরণ.কম.সিআর}} --reloadcmd {{"systemctl force-reload nginx"}}`
