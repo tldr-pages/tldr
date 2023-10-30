@@ -1,8 +1,8 @@
 # cls
 
-> Perintah ini merupakan alias dari `clear-host`.
+> Membersihkan layar.
 > Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Bersihkan layar:
 
-`tldr clear-host`
+`cls`
