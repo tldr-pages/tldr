@@ -1,7 +1,7 @@
 # color
 
 > কনসোল পূর্বপরক্ষ এবং পৃষ্ঠভূমির রঙ নির্ধারণ করুন।
-> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
+> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>।
 
 - কনসোল রঙগুলি ডিফল্ট মানে নির্ধারণ করুন:
 
@@ -13,4 +13,4 @@
 
 - হেক্সাডেসিমাল নম্বর (`1-9,a-f`) ব্যবহার করে কনসোল পূর্বপরক্ষ এবং পৃষ্ঠভূমি নির্ধারণ করুন:
 
-`color {{foreground_code}}{{background_code}}`
+`color {{ফোরগ্রাউন্ড_কোড}}{{পটভূমি_কোড}}`
