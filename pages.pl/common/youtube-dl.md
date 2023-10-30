@@ -7,7 +7,7 @@
 
 `youtube-dl '{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}'`
 
-- WYpisz wszystkie formaty dostępne dla filmu lub playlisty:
+- Wypisz wszystkie formaty dostępne dla filmu lub playlisty:
 
 `youtube-dl --list-formats '{{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}'`
 
