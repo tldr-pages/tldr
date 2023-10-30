@@ -242,9 +242,25 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 ## More information links
 
-On the `More information` line, prefer linking to the author's provided documentation.
+On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and some BSD platforms).
 
-When not available, use <https://manned.org> as the default fallback.
+**All links must be enclosed inside angular brackets (`<` and `>`) for proper rendering in clients.**
+
+We prefer translations to use the more information link of the English page by default.
+
+### Versioned links
+
+When a utility or distribution has versioned links for the packages, we prefer linking to the most recent version of documentation (i.e. `latest`) or none if the website automatically redirects to the latest version of the documentation.
+
+For example, use:
+
+- <https://manpages.debian.org/latest/apt/apt.8.html> instead of <https://manpages.debian.org/bookworm/apt/apt.8.en.html>.
+- <https://docs.aws.amazon.com/cdk/latest/guide/cli.html> instead of <https://docs.aws.amazon.com/cdk/v2/guide/cli.html>.
+
+### Microsoft Learn links
+
+When linking pages to the Microsoft Learn links, remove the locale from the address as the website will automatically redirect to the reader's preferred locale setting. For example, Use <https://learn.microsoft.com/windows-server/administration/windows-commands/cd> instead of
+<https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>.
 
 ## Language-Specific Rules
 
