@@ -1,8 +1,8 @@
 # cls
 
-> ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `clear-host`.
+> ລ້າງຕົວອັກສອນທັງໝົດເທິງໜ້າຈໍ
 > ຂໍ້ມູນເພີ່ມເຕີມ: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
-- ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
+- ລ້າງຕົວອັກສອນທັງໝົດເທິງໜ້າຈໍ:
 
-`tldr clear-host`
+`cls`

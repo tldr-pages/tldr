@@ -1,8 +1,20 @@
 # cd
 
-> এই কমান্ড একটি উপনাম `set-location`.
-> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
+> বর্তমান ওয়ার্কিং ডিরেক্টরির নাম প্রদর্শন বা পরিবর্তন করে।
+> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>।
 
-- মূল কমান্ডের জন্য ডকুমেন্টেশন দেখুন:
+- একই ড্রাইভে একটি ডিরেক্টরিতে যান:
 
-`tldr set-location`
+`cd {{গন্তব্য/এর/পথ}}`
+
+- বর্তমান ডিরেক্টরি নাম প্রদর্শন করুন:
+
+`cd`
+
+- বর্তমান ডিরেক্টরিটির প্যারেন্টে পৌঁছান:
+
+`cd ..`
+
+- ভিন্ন ড্রাইভে থাকা একটি ডিরেক্টরিতে যান:
+
+`cd {{গন্তব্য/এর/পথ}} /d`

@@ -1,8 +1,8 @@
 # cls
 
-> このコマンドは `clear-host` のエイリアスです。
+> 画面をクリアします。
 > 詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>
 
-- オリジナルのコマンドのドキュメントを表示する:
+- 画面をクリアします:
 
-`tldr clear-host`
+`cls`
