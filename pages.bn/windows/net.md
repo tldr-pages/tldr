@@ -1,4 +1,4 @@
-# নেট
+# net
 
 > সিস্টেম ইউটিলিটি যাতে নেটওয়ার্ক-সম্পর্কিত সেটিংস দেখা এবং পরিবর্তন করা হয়।
 > আরও তথ্য পাবেন: <https://learn.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155(v=ws.11)>।
