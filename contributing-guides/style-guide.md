@@ -248,11 +248,11 @@ On the `More information` link line, we prefer linking to the author's provided 
 
 We prefer translations to use the more information link of the English page by default.
 
-### Verisioned links
+### Versioned links
 
 When a utility or distribution has versioned links for the packages, we prefer linking to the most recent version of documentation (i.e. `latest`) or none if the website automatically redirects to the latest version of the documentation.
 
-For example, Use:
+For example, use:
 
 - <https://manpages.debian.org/latest/apt/apt.8.html> instead of <https://manpages.debian.org/bookworm/apt/apt.8.en.html>.
 - <https://docs.aws.amazon.com/cdk/latest/guide/cli.html> instead of <https://docs.aws.amazon.com/cdk/v2/guide/cli.html>.
