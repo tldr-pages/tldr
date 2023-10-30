@@ -5,11 +5,11 @@
 
 - Invite the given user or team as an owner:
 
-`cargo owner --add {{login}} {{crate}}`
+`cargo owner --add {{username|github:org_name:team_name}} {{crate}}`
 
 - Remove the given user or team as an owner:
 
-`cargo owner --remove {{login}} {{crate}}`
+`cargo owner --remove {{username|github:org_name:team_name}} {{crate}}`
 
 - List owners of a crate:
 
