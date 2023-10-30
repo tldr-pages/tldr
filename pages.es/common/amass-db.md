@@ -1,6 +1,6 @@
 # amass db
 
-> interactúa con una base de datos Amass.
+> Interactúa con una base de datos Amass.
 > Más información: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-db-subcommand>.
 
 - Lista de todas las enumeraciones realizadas en la base de datos:

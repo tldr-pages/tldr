@@ -8,7 +8,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | en    | path/to/file         | path/to/directory      | path/to/file_or_directory         | package   | username          |
 |:------|:---------------------|:-----------------------|:----------------------------------|:----------|:------------------|
 | ar    | المسار/إلى/الملف | المسار/إلى/الدليل | المسار/إلى/الملف_أو_الدليل  |          حزمة         |        اسم_المستخدم |
-| bn    |                      |                        |                                   |           |                   |
+| bn    | পাথ/টু/ফাইল          | পাথ/টু/ডিরেক্টরি          | পথ/থেকে/ফাইল_অথবা_ডিরেক্টরি       | প্যাকেজ    | ইউজারনেম         |
 | bs    |                      |                        |                                   |           |                   |
 | ca    | camí/al/fitxer       | camí/al/directori      | camí/al/fitxer_o_directori        | paquet    | nom_usuari        |
 | cs    | cesta/k/souboru      | cesta/k/adresari       | cesta/k/souboru_ci_adresari       | balíček   | jmeno_uzivatele   |
@@ -16,6 +16,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | de    | pfad/zu/datei        | pfad/zu/verzeichnis    | pfad/zu/datei_oder_verzeichnis    | paket     | benutzername      |
 | es    | ruta/al/archivo      | ruta/al/directorio     | ruta/al/archivo_o_directorio      | paquete   | nombre_de_usuario |
 | fa    |   مسیر/به/فایل       |          مسیر/به/پوشه        |       مسیر/به/فایل_یا_پوشه                 |    بسته     |        نام کاربری           |
+| fi    | polku/tiedostoon     | polku/hakemistoon      | polku/tiedostoon_vai_hakemistoon  | paketti   | tunnus            |
 | fr    | chemin/vers/fichier  | chemin/vers/dossier    | chemin/vers/fichier_ou_dossier    | paquet    | nom_d_utilisateur |
 | hi    | फ़ाइल/का/पथ            | निर्देशिका/का/पथ            | फ़ाइल_या_निर्देशिका/का/पथ                 | पैकेज      | उपयोगकर्ता_नाम         |
 | id    | jalan/menuju/file    | jalan/menuju/direktori | jalan/menuju/file_atau_direktori  | paket     | nama_pengguna     |
