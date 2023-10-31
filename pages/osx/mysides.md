@@ -1,19 +1,19 @@
 # mysides
 
-> add and remove folders to finder sidebar
+> add, list and remove finder favorites
 > More information: <https://github.com/mosen/mysides>.
 
-- List sidebar favorites items:
+- List sidebar favorites:
 
 `mysides list`
 
 - Add a new item to the end of the sidebar favorites:
 
-`mysides add example file:///Users/Shared/example`
+`mysides add {{example}} {{file:///Users/Shared/example}}`
 
-Remove an item by name:
+- Remove an item by name:
 
-`mysides remove example`
+`mysides remove {{example}}`
 
 - Add the current directory to the sidebar:
 
