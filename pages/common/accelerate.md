@@ -11,7 +11,7 @@
 
 `accelerate config`
 
-- Print estimated GPU memory cost of a huggingface model with different data types:
+- Print the estimated GPU memory cost of running a huggingface model with different data types:
 
 `accelerate estimate-memory {{name/model}}`
 
