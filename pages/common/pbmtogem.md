@@ -6,7 +6,7 @@
 
 - Convert a PBM image into a GEM .img file:
 
-`pbmtogem {{path/to/file.pbm}}`
+`pbmtogem {{path/to/file.pbm}} > {{path/to/file.img}}`
 
 - Suppress all informational messages:
 
