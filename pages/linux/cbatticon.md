@@ -27,6 +27,6 @@
 
 `cbatticon {{BAT0}}`
 
-- Show the battery icon, set critical battery level and command to execute when critical:
+- Show the battery icon, set critical battery level and which command to execute when critical:
 
 `cbatticon --critical-level {{5}} --command-critical-level {{"poweroff"}}`
