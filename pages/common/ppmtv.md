@@ -1,6 +1,6 @@
 # ppmtv
 
-> Make a PPM Image look like taken from an american TV.
+> Make a PPM Image look like taken from an American TV.
 > Dim every other row of image data down by the specified dim factor.
 > More information: <https://netpbm.sourceforge.net/doc/ppmtv.html>.
 
