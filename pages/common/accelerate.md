@@ -1,6 +1,6 @@
 # Accelerate
 
-> Accelerate is a library that enables the same PyTorch code to be run across any distributed configuration by adding just four lines of code.
+> Accelerate is a library that enables the same PyTorch code to be run across any distributed configuration.
 > More information: <https://huggingface.co/docs/accelerate/index>.
 
 - Print environment information:
