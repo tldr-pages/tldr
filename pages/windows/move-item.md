@@ -19,11 +19,7 @@
 
 `Move-Item {{path\to\source1 , path\to\source2 ...}} {{path\to\existing_directory}}`
 
-- Move or rename a registry key:
-
-`Move-Item {{path\to\source_key}} {{path\to\new_or_existing_key}}`
-
-- Move multiple registry keys:
+- Move or rename registry key(s):
 
 `Move-Item {{path\to\source_key1 , path\to\source_key1 ...}} {{path\to\new_or_existing_key}}`
 
