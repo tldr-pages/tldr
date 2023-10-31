@@ -7,7 +7,7 @@
 
 `accelerate env`
 
-- Interactively set `default_config.yaml` config:
+- Interactively create a configuration file:
 
 `accelerate config`
 
