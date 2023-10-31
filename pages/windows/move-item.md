@@ -1,6 +1,7 @@
 # Move-Item
 
-> Move or rename files and directories.
+> Move or rename files, directories, registry keys, and other PowerShell data items.
+> This command can only be run through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/move-item>.
 
 - Rename a file or directory when the target is not an existing directory:
