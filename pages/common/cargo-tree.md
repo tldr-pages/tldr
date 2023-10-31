@@ -16,7 +16,7 @@
 
 `cargo tree --prune {{package_spec}}`
 
-- Show all occurences of repeated dependencies:
+- Show all occurrences of repeated dependencies:
 
 `cargo tree --no-dedupe`
 
