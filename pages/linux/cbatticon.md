@@ -1,6 +1,6 @@
 # cbatticon
 
-> cbatticon is a lightweight and fast battery icon that sits in your system tray.
+> A lightweight and fast battery icon that sits in your system tray.
 > More information: <https://github.com/valr/cbatticon>.
 
 - Show the battery icon in the system tray:
