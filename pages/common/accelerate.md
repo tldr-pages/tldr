@@ -17,7 +17,7 @@
 
 - Test an Accelerate configuration file:
 
-`accelerate test --config_file {{path_to_config.yaml}}`
+`accelerate test --config_file {{path/to/config.yaml}}`
 
 - Run a model on CPU with Accelerate:
 
