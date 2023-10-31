@@ -6,7 +6,7 @@
 
 - Give the PPM image an American TV appearance:
 
-`ppmtv dimfactor {{path/to/file.ppm}}`
+`ppmtv {{dim_factor}} {{path/to/file.ppm}}`
 
 - Suppress all informational messages:
 
