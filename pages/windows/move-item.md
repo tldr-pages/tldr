@@ -21,7 +21,7 @@
 
 - Move or rename registry key(s):
 
-`Move-Item {{path\to\source_key1 , path\to\source_key1 ...}} {{path\to\new_or_existing_key}}`
+`Move-Item {{path\to\source_key1 , path\to\source_key2 ...}} {{path\to\new_or_existing_key}}`
 
 - Do not prompt for confirmation before overwriting existing files or registry keys:
 
