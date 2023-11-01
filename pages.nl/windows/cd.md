@@ -18,7 +18,7 @@
 
 - Ga naar een map in een andere drive:
 
-`cd /d {{C}:{{pad\naar\map}}`
+`cd /d {{C}}:{{pad\naar\map}}`
 
 - Ga naar de bovenliggende map van de huidige map:
 
