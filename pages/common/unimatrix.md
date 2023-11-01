@@ -6,7 +6,7 @@
 
 - Mimic default output of cmatrix (no unicode, works in TTY):
 
-`unimarix -n -s 96 -l o`
+`unimatrix --no-bold --speed={{96}} --character-list={{o}}`
 
 - No bold characters, slowly, with emojis, numbers, and a few symbols:
 
