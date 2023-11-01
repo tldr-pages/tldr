@@ -1,6 +1,6 @@
 # unimatrix
 
-> A script to simulate the "Matrix" look with unicode characters.
+> A script to simulate the Matrix look with Unicode characters.
 > See also: `cmatrix`.
 > More information: <https://github.com/will8211/unimatrix>.
 
