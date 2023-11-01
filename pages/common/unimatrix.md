@@ -1,7 +1,7 @@
 # unimatrix
 
 > A script to simulate the "Matrix" look with unicode characters.
-> See also: `cmatrix`
+> See also: `cmatrix`.
 > More information: <https://github.com/will8211/unimatrix>.
 
 - Mimic default output of cmatrix (no unicode, works in TTY):
