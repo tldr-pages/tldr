@@ -9,7 +9,7 @@
 
 - Show the battery icon and set the update interval to 20 seconds:
 
-`cbatticon --update-interval 20`
+`cbatticon --update-interval {{20}}`
 
 - List available icon types:
 
@@ -27,6 +27,6 @@
 
 `cbatticon {{BAT0}}`
 
-- Show the battery icon, set critical battery level and which command to execute when critical:
+- Show the battery icon and which command to execute when the battery level reaches the set critical level:
 
-`cbatticon --critical-level {{5}} --command-critical-level {{"poweroff"}}`
+`cbatticon --critical-level {{5}} --command-critical-level {{poweroff}}`
