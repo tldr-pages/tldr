@@ -7,7 +7,7 @@
 
 `youtube-dl '{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}'`
 
-- Listuj wszystkie formaty dostępne dla filmu lub playlisty:
+- Wypisz wszystkie formaty dostępne dla filmu lub playlisty:
 
 `youtube-dl --list-formats '{{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}'`
 
@@ -19,7 +19,7 @@
 
 `youtube-dl -x --audio-format {{mp3}} '{{url}}'`
 
-- Pobierz wideo ze ścieżką audio złączone w jendym pliku w najlepszej dostępnej jakości:
+- Pobierz wideo ze ścieżką audio złączone w jednym pliku w najlepszej dostępnej jakości:
 
 `youtube-dl -f bestvideo+bestaudio '{{url}}'`
 
