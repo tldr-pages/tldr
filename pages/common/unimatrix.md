@@ -22,4 +22,4 @@
 
 - Change scrolling speed:
 
-`unimatrix -s {{SPEED}}`
+`unimatrix --speed={{SPEED}}`
