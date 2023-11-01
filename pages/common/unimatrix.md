@@ -4,9 +4,9 @@
 > See also: `cmatrix`.
 > More information: <https://github.com/will8211/unimatrix>.
 
-- Mimic the default output of `cmatrix` (no unicode, works in TTY):
+- Mimic the default output of `cmatrix` (no unicode, works in a TTY):
 
-`unimatrix --no-bold --speed={{96}} --character-list={{o}}`
+`unimatrix --no-bold --speed {{96}} --character-list {{o}}`
 
 - No bold characters, slowly, with emojis, numbers, and a few symbols:
 
