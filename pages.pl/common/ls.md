@@ -1,6 +1,6 @@
 # ls
 
-> Wypisuje zawartość katalogu.
+> Wypisz zawartość katalogu.
 > Więcej informacji: <https://www.gnu.org/software/coreutils/ls>.
 
 - Wypisz po jednym pliku w linijce:
