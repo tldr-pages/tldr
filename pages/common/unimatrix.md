@@ -16,7 +16,7 @@
 
 `unimatrix -c {{COLOR}}`
 
-- Select chracter set(s) using a string over letter codes:
+- Select character set(s) using a string over letter codes:
 
 `unimatrix -l {{CHARACTER_SET}}`
 
