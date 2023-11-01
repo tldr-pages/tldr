@@ -10,7 +10,7 @@
 
 - No bold characters, slowly, with emojis, numbers, and a few symbols:
 
-`unimatrix -n -l ens -s 50`
+`unimatrix --no-bold --character-list={{ens}} --speed={{50}}`
 
 - Change color or characters:
 
