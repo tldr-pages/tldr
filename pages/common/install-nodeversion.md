@@ -16,7 +16,7 @@
 
 `Install-NodeVersion ^20`
 
-- Install the x86 (x86 32-bit) / x64 (x86 64-bit) / arm64 (ARM 64-bit) version of Node.js
+- Install the x86 (x86 32-bit) / x64 (x86 64-bit) / arm64 (ARM 64-bit) version of Node.js:
 
 `Install-NodeVersion {{node_version}} -Architecture {{x86|x64|arm64}}`
 
