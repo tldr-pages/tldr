@@ -12,14 +12,14 @@
 
 `unimatrix --no-bold --speed {{50}} --character-list {{ens}}`
 
-- Change color or characters:
+- Change the color of characters:
 
-`unimatrix -c {{COLOR}}`
+`unimatrix --color {{red|green|blue|white|...}}`
 
-- Select character set(s) using a string over letter codes:
+- Select character set(s) using letter codes (see `unimatrix --help` for available character sets):
 
-`unimatrix --character-list={{CHARACTER_SET}}`
+`unimatrix --character-list {{character_sets}}`
 
-- Change scrolling speed:
+- Change the scrolling speed:
 
-`unimatrix --speed={{SPEED}}`
+`unimatrix --speed {{number}}`
