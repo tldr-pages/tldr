@@ -1,28 +1,32 @@
 # nano
 
-> Editor de texto de linha de comando simples e fácil de usar. Um clone melhorado e gratuito de Pico.
+> Editor de texto de linha de comando. Um clone melhorado de `Pico`.
 > Mais informações: <https://nano-editor.org>.
 
-- Abre um novo arquivo no nano:
+- Inicia o editor:
 
 `nano`
 
-- Abre um arquivo específico:
+- Inicia o editor sem usar arquivos de configuração:
 
-`nano {{caminho/para/arquivo}}`
+`nano --ignorercfiles`
 
-- Abre um arquivo específico, posicionando o cursor na linha e coluna especificadas:
+- Abre arquivos específicos, passando para o próximo arquivos ao fechar o anterior:
+
+`nano {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
+
+- Abre um arquivo e posiciona o cursor na linha e coluna especificadas:
 
 `nano +{{linha}},{{coluna}} {{caminho/para/arquivo}}`
 
-- Abre um arquivo específico e habilita soft wrapping:
+- Abre um arquivo e habilita soft wrapping:
 
 `nano --softwrap {{caminho/para/arquivo}}`
 
-- Abre um arquivo específico e indenta novas linhas para a indentação das linhas anteriores:
+- Abre um arquivo e indenta novas linhas de acordo com a indentação da linha anterior:
 
 `nano --autoindent {{caminho/para/arquivo}}`
 
-- Abre nano e cria um arquivo backup (`file~`) quando salva edições:
+- Abre um arquivo e cria um arquivo de backup (`caminho/para/arquivo~`) ao salvá-lo:
 
 `nano --backup {{caminho/para/arquivo}}`

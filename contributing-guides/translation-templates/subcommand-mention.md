@@ -15,6 +15,7 @@ This file contains the translation templates of this notice.
 [de](#de) •
 [es](#es) •
 [fa](#fa) •
+[fi](#fi) •
 [fr](#fr) •
 [hi](#hi) •
 [id](#id) •
@@ -62,7 +63,9 @@ Some subcommands such as `example command` have their own usage documentation.
 
 ### bn
 
-Not translated yet.
+```markdown
+কিছু উপ-কমান্ড যেমন `example command` স্বতন্ত্র ব্যবহার নির্দেশনা রয়েছে.
+```
 
 ---
 
@@ -116,6 +119,14 @@ Algunos subcomandos, como `example command`, tienen su propia documentación de 
 
 ```markdown
 برخی از دستورات فرعی مانند `example command` سند استفاده خاص خودشون رو دارند.
+```
+
+---
+
+### fi
+
+```markdown
+Joillakin alakomennoilla, kuten `example command`, on omat käyttöoppaansa.
 ```
 
 ---

@@ -24,9 +24,9 @@ function run_black {
     errs=$(python3 -m black scripts --check --required-version ${target_black_version} 2>&1 || true)
   fi
 
-  if [ -z "${errs}" ]; then
+  if [[ -z $errs ]]; then
     # skip black check if command is not available in the system.
-    if [ "$CI" != "true" ] && ! exists black; then
+    if [[ $CI != true ]] && ! exists black; then
       echo "Skipping black check, command not available."
       return 0
     fi
@@ -49,7 +49,7 @@ function run_black {
 
 function run_flake8 {
   # skip flake8 check if command is not available in the system.
-  if [ "$CI" != "true" ] && ! exists flake8; then
+  if [[ $CI != true ]] && ! exists flake8; then
     echo "Skipping flake8 check, command not available."
     return 0
   fi
@@ -73,7 +73,7 @@ function run_tests {
 function run_tests_pr {
   errs=$(run_tests 2>&1)
 
-  if [ -n "$errs" ]; then
+  if [[ -n $errs ]]; then
     echo -e "Test failed!\n$errs\n" >&2
     echo 'Sending errors to tldr-bot.' >&2
     echo -n "$errs" | python3 scripts/send-to-bot.py report-errors
@@ -86,7 +86,7 @@ function run_tests_pr {
 function run_checks_pr {
   msgs=$(bash scripts/check-pr.sh)
 
-  if [ -n "$msgs" ]; then
+  if [[ -n $msgs ]]; then
     echo -e "\nCheck PR reported the following message(s):\n$msgs\n" >&2
     echo 'Sending check results to tldr-bot.' >&2
     echo -n "$msgs" | python3 scripts/send-to-bot.py report-check-results
@@ -97,7 +97,7 @@ function run_checks_pr {
 # MAIN
 ###################################
 
-if [ "$CI" = "true" ] && [ "$GITHUB_REPOSITORY" = "tldr-pages/tldr" ] && [ "$PULL_REQUEST_ID" != "" ]; then
+if [[ $CI == true && $GITHUB_REPOSITORY == "tldr-pages/tldr" && $PULL_REQUEST_ID != "" ]]; then
   run_checks_pr
   run_tests_pr
 else

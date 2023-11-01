@@ -31,6 +31,6 @@
 
 `aptitude full-upgrade`
 
-- Mantiente un paquete instalado para que no sea actualizado automáticamente:
+- Mantiene un paquete instalado para que no sea actualizado automáticamente:
 
 `aptitude hold '?installed({{paquete}})'`

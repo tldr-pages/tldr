@@ -1,7 +1,7 @@
 # cargo run
 
 > Run the current Cargo package.
-> Note: Set the working directory of the binary executed to the current working directory.
+> Note: the working directory of the executed binary will be set to the current working directory.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-run.html>.
 
 - Run the default binary target:
@@ -20,7 +20,7 @@
 
 `cargo run --features {{feature1 feature2 ...}}`
 
-- Disable the default feature:
+- Disable the default features:
 
 `cargo run --no-default-features`
 

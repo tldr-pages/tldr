@@ -14,4 +14,4 @@
 
 - Maak een nieuw APK-archief met bestanden uit de opgegeven map:
 
-`aapt package -F {{pad/naar/app.apk}} {{pad/naar/directory}}`
+`aapt package -F {{pad/naar/app.apk}} {{pad/naar/map}}`
