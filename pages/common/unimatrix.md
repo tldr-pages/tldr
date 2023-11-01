@@ -18,7 +18,7 @@
 
 - Select character set(s) using a string over letter codes:
 
-`unimatrix -l {{CHARACTER_SET}}`
+`unimatrix --character-list={{CHARACTER_SET}}`
 
 - Change scrolling speed:
 
