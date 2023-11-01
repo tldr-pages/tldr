@@ -4,7 +4,7 @@
 > See also: `cmatrix`.
 > More information: <https://github.com/will8211/unimatrix>.
 
-- Mimic default output of cmatrix (no unicode, works in TTY):
+- Mimic the default output of `cmatrix` (no unicode, works in TTY):
 
 `unimatrix --no-bold --speed={{96}} --character-list={{o}}`
 
