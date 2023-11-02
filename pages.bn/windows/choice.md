@@ -1,7 +1,7 @@
 # choice
 
 > ব্যবহারকারীকে একটি চয়েস নির্বাচন করতে উৎসাহিত করুন এবং নির্বাচিত চয়েস ইনডেক্স ফিরিয়ে দিন।
-> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/choice>.
+> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/choice>।
 
 - বর্তমান ব্যবহারকারীকে `Y` বা `N` চয়েস নির্বাচন করতে:
 

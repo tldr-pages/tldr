@@ -1,8 +1,8 @@
 # cls
 
-> ล้างตัวอักษรทั้งหมดที่อยู่บนหน้าต่าง
+> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `clear-host`
 > ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>
 
-- ล้างตัวอักษรทั้งหมดบนหน้าจอ:
+- เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`cls`
+`tldr clear-host`

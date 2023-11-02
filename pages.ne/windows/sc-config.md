@@ -1,0 +1,8 @@
+# sc-config
+
+> यो आदेश `sc` को उपनाम हो |
+> थप जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/sc-config>।
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr sc`

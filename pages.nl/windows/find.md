@@ -3,18 +3,18 @@
 > Vind een gespecificieerde string in een bestand.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>.
 
-- Vind de lijnen dat een specifieke string bevatten:
+- Vind de regels die een specifieke string bevatten:
 
-`find {{string}} {{pad/naar/bestand_of_map}}`
+`find "{{string}}" {{pad/naar/bestand_of_map}}`
 
-- Laat lijnen zie die de string niet bevatten:
+- Laat regels zie die de string niet bevatten:
 
-`find {{string}} {{pad/naar/bestand_of_map}} /v`
+`find "{{string}}" {{pad/naar/bestand_of_map}} /v`
 
-- Toon het aantal lijnen dat de string bevat:
+- Toon het aantal regels dat de string bevat:
 
-`find {{string}} {{pad/naar/bestand_of_map}} /c`
+`find "{{string}}" {{pad/naar/bestand_of_map}} /c`
 
-- Laat het aantal lijnen zien samen met de lijnen:
+- Laat het aantal regels zien samen met de regels:
 
-`find {{string}} {{pad/naar/bestand_of_map}} /n`
+`find "{{string}}" {{pad/naar/bestand_of_map}} /n`
