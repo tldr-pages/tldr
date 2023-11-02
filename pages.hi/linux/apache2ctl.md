@@ -2,7 +2,7 @@
 
 > अपाचे HTTP वेब सर्वर का प्रबंधन करें।
 > यह कमांड डेबियन आधारित ओएस के साथ आता है, आरएचईएल आधारित ओएस के लिए `httpd` देखें।
-> अधिक जानकारी: <https://manpages.debian.org/latest/apache2/apache2ctl.8.en.html>.
+> अधिक जानकारी: <https://manpages.debian.org/latest/apache2/apache2ctl.8.en.html>।
 
 - अपाचे डेमॉन प्रारंभ करें. यदि संदेश पहले से चल रहा हो तो उसे फेंकें:
 

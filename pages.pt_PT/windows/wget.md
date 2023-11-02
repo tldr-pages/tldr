@@ -1,7 +1,7 @@
 # wget
 
 > Este comando é um alias de `wget -p common`.
-> Mais informações: <https://www.gnu.org/software/wget>.
+> Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Ver documentação do comando original:
 

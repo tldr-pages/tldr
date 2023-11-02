@@ -1,7 +1,7 @@
 # docker compose
 
 > बहु कन्टेनर डकर अनुप्रयोगहरू चलाउनुहोस् र व्यवस्थापन गर्नुहोस्।
-> थप जानकारी: <https://docs.docker.com/compose/reference/>.
+> थप जानकारी: <https://docs.docker.com/compose/reference/>।
 
 - सबै चलिरहेको कन्टेनरहरू सूचीबद्ध गर्नुहोस्:
 

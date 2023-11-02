@@ -1,7 +1,7 @@
 # choco upgrade
 
 > चॉकलेटी के साथ एक या अधिक पैकेज अपग्रेड करें।
-> अधिक जानकारी: <https://chocolatey.org/docs/commands-upgrade>.
+> अधिक जानकारी: <https://chocolatey.org/docs/commands-upgrade>।
 
 - एक या अधिक स्थान-पृथक पैकेजों को अपग्रेड करें:
 
