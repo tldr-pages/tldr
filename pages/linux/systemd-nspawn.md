@@ -5,7 +5,7 @@
 
 - Run a command in a container:
 
-`systemd-nspawn -D {{/path/to/container/root}}`
+`systemd-nspawn -D {{path/to/container/root}}`
 
 - Run a full Linux-based OS in a container:
 
