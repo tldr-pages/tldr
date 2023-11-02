@@ -1,7 +1,7 @@
 # docker build
 
 > Dockerfileからイメージを構築します。
-> 詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/build/>.
+> 詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/build/>
 
 - カレントディレクトリ内のDockerfileを使ってDockerイメージを構築する:
 

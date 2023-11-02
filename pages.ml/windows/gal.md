@@ -1,0 +1,8 @@
+# gal
+
+> ഈ കമാൻഡ് `get-alias` എന്നത്തിന്റെ അപരനാമമാണ്.
+> കൂടുതൽ വിവരങ്ങൾ: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-alias>.
+
+- യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
+
+`tldr get-alias`
