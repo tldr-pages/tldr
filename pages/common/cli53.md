@@ -19,7 +19,7 @@
 
 `cli53 {{rc|rrcreate}} {{mydomain.com}} {{'www 300 CNAME lb'}}`
 
-- Create a `www` subdomain pointing an external address (must end with a dot):
+- Create a `www` subdomain pointing to an external address (must end with a dot):
 
 `cli53 {{rc|rrcreate}} {{mydomain.com}} {{'www 300 CNAME lb.externalhost.com.'}}`
 
