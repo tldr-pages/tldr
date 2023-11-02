@@ -3,7 +3,7 @@
 > 소스 코드에서 HTML 형식으로 Java API 문서 생성.
 > 더 많은 정보: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/javadoc.html>.
 
-- Generate documentation for Java source code and save the result in a directory:
+- Java 소스 코드에 대한 문서를 생성하고 결과를 폴더에 저장:
 
 `javadoc -d {{경로/대상/폴더/}} {{경로/대상/자바_소스코드}}`
 
