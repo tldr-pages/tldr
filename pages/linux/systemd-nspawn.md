@@ -9,7 +9,7 @@
 
 - Run a full Linux-based OS in a container:
 
-`systemd-nspawn --boot -D {{/path/to/container/root}}`
+`systemd-nspawn --boot -D {{path/to/container/root}}`
 
 - By default, the command you specify is run as PID 1 (init) in the container. To run it as PID 2 with a stub init process:
 
