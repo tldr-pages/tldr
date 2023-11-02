@@ -17,7 +17,7 @@
 
 - List [a]ttributes of device `/dev/sda`:
 
-`sudo udevadm info -a {{/dev/sda1}}`
+`sudo udevadm info --attribute-walk {{/dev/sda1}}`
 
 - Reload all `udev` rules:
 
