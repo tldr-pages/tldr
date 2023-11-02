@@ -1,7 +1,7 @@
 # ab
 
 > Apache HTTP server のベンチマーク用ツールです。
-> 詳細情報はこちら: <https://httpd.apache.org/docs/current/programs/ab.html>.
+> 詳しくはこちら: <https://httpd.apache.org/docs/current/programs/ab.html>
 
 - 指定された URL に 100 個の GET リクエストを送信する:
 

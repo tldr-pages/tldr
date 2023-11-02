@@ -1,7 +1,7 @@
 # choco outdated
 
 > Vérifiez les packages obsolètes avec Chocolatey.
-> Plus d'information: <https://chocolatey.org/docs/commands-outdated>.
+> Plus d'informations : <https://chocolatey.org/docs/commands-outdated>.
 
 - Afficher une liste des packages obsolètes sous forme de tableau :
 

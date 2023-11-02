@@ -1,7 +1,7 @@
 # abduco
 
 > টার্মিনাল সেশন ম্যানেজার।
-> আরও তথ্য পেতে: <http://www.brain-dump.org/projects/abduco/>.
+> আরও তথ্য পেতে: <http://www.brain-dump.org/projects/abduco/>|
 
 - সেশনগুলির তালিকা:
 

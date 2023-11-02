@@ -1,7 +1,7 @@
 # mkdir
 
 > एक निर्देशिका बनाता है।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>.
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>।
 
 - एक निर्देशिका बनाएं:
 

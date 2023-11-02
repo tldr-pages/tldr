@@ -1,7 +1,7 @@
 # doskey
 
 > मैक्रोज़, विंडोज़ कमांड और कमांड-लाइन प्रबंधित करें।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/doskey>.
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/doskey>।
 
 - उपलब्ध मैक्रोज़ की सूची बनाएं:
 
