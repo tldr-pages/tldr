@@ -17,4 +17,4 @@
 
 - Specify the machine name and hostname:
 
-`systemd-nspawn --machine="{{mycontainer}}" --hostname="{{mycontainerhost}}" -D {{/path/to/container/root}}`
+`systemd-nspawn --machine={{mycontainer}} --hostname={{mycontainerhost}} -D {{path/to/container/root}}`
