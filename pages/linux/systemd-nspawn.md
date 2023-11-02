@@ -11,7 +11,7 @@
 
 `systemd-nspawn --boot -D {{path/to/container/root}}`
 
-- By default, the command you specify is run as PID 1 (init) in the container. To run it as PID 2 with a stub init process:
+- Run the specified command as PID 2 in the container (as opposed to PID 1). Use a stub init process:
 
 `systemd-nspawn -D {{/path/to/container/root}} --as-pid2`
 
