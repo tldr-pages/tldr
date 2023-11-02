@@ -13,7 +13,7 @@
 
 - Run the specified command as PID 2 in the container (as opposed to PID 1). Use a stub init process:
 
-`systemd-nspawn -D {{/path/to/container/root}} --as-pid2`
+`systemd-nspawn -D {{path/to/container/root}} --as-pid2`
 
 - Specify the machine name and hostname:
 
