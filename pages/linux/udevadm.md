@@ -15,7 +15,7 @@
 
 `sudo udevadm monitor --udev`
 
-- List [a]ttributes of device `/dev/sda`:
+- List attributes of device `/dev/sda`:
 
 `sudo udevadm info --attribute-walk {{/dev/sda1}}`
 
