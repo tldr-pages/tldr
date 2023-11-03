@@ -58,16 +58,16 @@ which is supported by the tldr-pages project maintainers:
 npm install -g tldr
 ```
 
-Alternatively, you can also use the [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via `pip3`.
+Alternatively, you can also use the official [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via [pip3](https://pypi.org/project/tldr/).
 
-```sh
+```shell
 pip3 install tldr
 ```
 
-Or Mac users can also install our [C Client](https://github.com/tldr-pages/tldr-c-client) using Homebrew.
+Or Linux and Mac users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc):
 
-```sh
-brew install tldr
+```shell
+brew install tlrc
 ```
 
 Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
