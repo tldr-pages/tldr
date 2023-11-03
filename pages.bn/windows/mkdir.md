@@ -1,7 +1,7 @@
 # mkdir
 
 > একটি নির্দেশিকা তৈরি করে।
-> আরও তথ্যের জন্য: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>.
+> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>।
 
 - একটি নির্দেশিকা তৈরি করুন:
 

@@ -1,7 +1,7 @@
 # git subtree
 
 > Strumento per gestire le dipendenze di un progetto come progetti secondari.
-> Maggiori informazioni: <https://manpages.debian.org/testing/git-man/git-subtree.1.en.html>.
+> Maggiori informazioni: <https://manned.org/git-subtree.1>.
 
 - Aggiungi un repository Git come albero secondario:
 

@@ -2,7 +2,7 @@
 
 > নেটওয়ার্ক প্যাকেট স্নিফার।
 > SunOS এর জন্য tcpdump এর সমতুল্য।
-> আরও তথ্য পাবেন: <https://www.unix.com/man-page/sunos/1m/snoop>.
+> আরও তথ্য পাবেন: <https://www.unix.com/man-page/sunos/1m/snoop>।
 
 - একটি নির্দিষ্ট নেটওয়ার্ক ইন্টারফেসে প্যাকেটগুলি ক্যাপচার করুন:
 
