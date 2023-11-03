@@ -8,13 +8,17 @@
 
 `rsync {{path/to/source}} {{path/to/destination}}`
 
-- Use [a]rchive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership and modification times):
+- Use a]chive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership and modification times):
 
-`rsync -a {{path/to/source}} {{path/to/destination}}`
+`rsync --archive {{path/to/source}} {{path/to/destination}}`
 
 - Compress the data as it is sent to the destination, display verbose and human-readable progress, and keep partially transferred files if interrupted:
 
 `rsync --compress --verbose --human-readable --partial --progress {{path/to/source}} {{path/to/destination}}`
+
+- Recursively copy directories:
+
+`rsync --recursive {{path/to/source}} {{path/to/destination}}`
 
 - Transfer directory contents, but not the directory itself:
 
@@ -30,8 +34,4 @@
 
 - Transfer a file over SSH using a different port than the default (22) and show global progress:
 
-`rsync -rsh 'ssh -p {{port}}' --info=progress2 {{host}}:{{path/to/source}} {{path/to/destination}}`
-
-- Transfer a file in [a]rchive mode [v]erbosely to a remote host via jump server using c:
-
-`rsync -av --rsh='ssh -J {{user@jumpserver1}},{{user@jumpserver2}}' {{path/to/source}} {{user@destinationServer:/path/to/destination/}}`
+`rsync --rsh='ssh -p {{port}}' --info=progress2 {{host}}:{{path/to/source}} {{path/to/destination}}`
