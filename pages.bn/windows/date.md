@@ -1,7 +1,7 @@
 # date
 
 > সিস্টেমের তারিখ প্রদর্শন বা সেট করে।
-> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/date>.
+> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/date>।
 
 - বর্তমান সিস্টেম তারিখ প্রদর্শন এবং নতুন তারিখ সেট করতে (অপরিবর্তিত রাখতে খালি রাখুন):
 

@@ -2,7 +2,7 @@
 
 > 用一系列颜色为有序有向图着色。
 > Graphviz 过滤器: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`。
-> 更多信息: <https://graphviz.org/pdf/gvcolor.1.pdf>.
+> 更多信息：<https://graphviz.org/pdf/gvcolor.1.pdf>.
 
 - 为一个或多个已被 `dot` 处理的有序有向图着色:
 

@@ -1,7 +1,7 @@
 # choco search
 
 > Recherchez un forfait local ou distant avec Chocolatey.
-> Plus d'information: <https://chocolatey.org/docs/commands-search>.
+> Plus d'informations : <https://chocolatey.org/docs/commands-search>.
 
 - Rechercher un forfait :
 

@@ -1,7 +1,7 @@
 # adduser
 
 > उपयोगकर्ता जोड़ने की उपयोगिता।
-> अधिक जानकारी: <https://manpages.debian.org/latest/adduser/adduser.html>.
+> अधिक जानकारी: <https://manpages.debian.org/latest/adduser/adduser.html>।
 
 - डिफ़ॉल्ट होम निर्देशिका के साथ एक नया उपयोगकर्ता बनाएं और उपयोगकर्ता को पासवर्ड सेट करने के लिए संकेत दें:
 

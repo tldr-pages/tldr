@@ -18,6 +18,7 @@ labels = {
     "de": "Weitere Informationen:",
     "es": "Más información:",
     "fa": "اطلاعات بیشتر:",
+    "fi": "Lisätietoja:",
     "fr": "Plus d'informations :",
     "sh": "Više informacija:",
     "hi": "अधिक जानकारी:",
@@ -86,7 +87,7 @@ def set_link(file, link):
         locale = "en"
 
     # build new line
-    if locale == "hi":
+    if locale in ["bn", "hi", "ne"]:
         new_line = f"> {labels[locale]} <{link}>।\n"
     elif locale in ["ja", "th"]:
         new_line = f"> {labels[locale]} <{link}>\n"

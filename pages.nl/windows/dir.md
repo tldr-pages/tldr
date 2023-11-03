@@ -17,7 +17,7 @@
 
 - Geef de inhoud weer van een gegeven map, inclusief verborgen bestanden:
 
-`dir {{pad\naar\map}} /A`
+`dir {{pad\naar\map}} /a`
 
 - Toon een lijst met mappen en bestanden, zonder extra informatie:
 
