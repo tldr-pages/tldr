@@ -1,7 +1,7 @@
 # exit
 
 > वर्तमान सीएमडी इंस्टेंस या वर्तमान बैच फ़ाइल से बाहर निकलें।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/exit>.
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/exit>।
 
 - वर्तमान सीएमडी उदाहरण से बाहर निकलें:
 

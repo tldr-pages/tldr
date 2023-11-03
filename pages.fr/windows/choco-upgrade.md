@@ -1,7 +1,7 @@
 # choco upgrade
 
 > Surclassez un ou plusieurs forfaits avec Chocolatey.
-> Plus d'information: <https://chocolatey.org/docs/commands-upgrade>.
+> Plus d'informations : <https://chocolatey.org/docs/commands-upgrade>.
 
 - Mettre à niveau un ou plusieurs packages séparés par des espaces :
 

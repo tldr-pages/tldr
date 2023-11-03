@@ -1,7 +1,7 @@
 # nix
 
 > Dienstprogramme für die Nix-Sprache und den Nix-Speicher.
-> Weitere Informationen: <https://nixos.org>.
+> Weitere Informationen: <https://nixos.org/manual/nix>.
 
 - Suche nach einem Paket über seinen Namen oder seine Beschreibung:
 
