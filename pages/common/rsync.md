@@ -31,3 +31,7 @@
 - Transfer a file over SSH using a different port than the default (22) and show global progress:
 
 `rsync -rsh 'ssh -p {{port}}' --info=progress2 {{host}}:{{path/to/source}} {{path/to/destination}}`
+
+- Transfer a file in [a]rchive mode [v]erbosely to a remote host via jump server using c:
+
+`rsync -av --rsh='ssh -J {{user@jumpserver1}},{{user@jumpserver2}}' {{path/to/source}} {{user@destinationServer:/path/to/destination/}}` 
