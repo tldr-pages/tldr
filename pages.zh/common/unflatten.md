@@ -2,7 +2,7 @@
 
 > 调整有向图以改善布局的纵横比。
 > Graphviz 过滤器: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, 和 `unflatten`。
-> 更多信息：<https://www.graphviz.org/pdf/unflatten.1.pdf>.
+> 更多信息: <https://www.graphviz.org/pdf/unflatten.1.pdf>.
 
 - 调整一个或多个有向图以改善布局的纵横比:
 

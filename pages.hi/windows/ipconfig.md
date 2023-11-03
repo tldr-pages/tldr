@@ -1,7 +1,7 @@
 # ipconfig
 
 > विंडोज़ के नेटवर्क कॉन्फ़िगरेशन को प्रदर्शित और प्रबंधित करें।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>।
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
 
 - नेटवर्क अडैप्टर की एक सूची दिखाएँ:
 

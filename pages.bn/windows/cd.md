@@ -1,7 +1,7 @@
 # cd
 
 > বর্তমান ওয়ার্কিং ডিরেক্টরির নাম প্রদর্শন বা পরিবর্তন করে।
-> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>।
+> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - একই ড্রাইভে একটি ডিরেক্টরিতে যান:
 

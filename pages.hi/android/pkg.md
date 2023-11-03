@@ -1,7 +1,7 @@
 # pkg
 
 > टर्मक्स के लिए पैकेज प्रबंधन उपयोगिता।
-> अधिक जानकारी: <https://wiki.termux.com/wiki/Package_Management>।
+> अधिक जानकारी: <https://wiki.termux.com/wiki/Package_Management>.
 
 - सभी स्थापित पैकेजों को अपग्रेड करें:
 

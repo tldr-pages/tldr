@@ -1,7 +1,7 @@
 # pm
 
 > Вивести інформацію про застосунки на Android девайсі.
-> Більше інформації: <https://developer.android.com/studio/command-line/adb#pm>.
+> More information: <https://developer.android.com/studio/command-line/adb#pm>.
 
 - Вивести всі встановлені застосунки:
 

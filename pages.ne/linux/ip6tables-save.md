@@ -1,7 +1,0 @@
-# ip6tables-save
-
-> यो आदेश `iptables-save` को उपनाम हो |
-
-- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
-
-`tldr iptables-save`

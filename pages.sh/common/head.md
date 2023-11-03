@@ -1,7 +1,7 @@
 # head
 
 > Prikazuje prvi deo datoteka.
-> Više informacija: <https://manned.org/head.1p>.
+> Više informacija: <https://www.gnu.org/software/coreutils/head>.
 
 - Prikaži prvih nekoliko linija datoteke:
 
