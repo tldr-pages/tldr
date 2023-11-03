@@ -8,7 +8,7 @@
 
 `rsync {{path/to/source}} {{path/to/destination}}`
 
-- Use achive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership and modification times):
+- Use archive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership and modification times):
 
 `rsync --archive {{path/to/source}} {{path/to/destination}}`
 
