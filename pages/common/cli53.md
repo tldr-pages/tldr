@@ -25,7 +25,7 @@
 
 - Create a `www` subdomain pointing to an IP address:
 
-`cli53 {{rc|rrcreate}} {{mydomain.com} {{'www 300 A 150.130.110.1'}}`
+`cli53 {{rc|rrcreate}} {{mydomain.com}} {{'www 300 A 150.130.110.1'}}`
 
 - Replace a `www` subdomain pointing to a different IP:
 
