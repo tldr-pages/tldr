@@ -34,4 +34,4 @@
 
 - Transfer a file in [a]rchive mode [v]erbosely to a remote host via jump server using c:
 
-`rsync -av --rsh='ssh -J {{user@jumpserver1}},{{user@jumpserver2}}' {{path/to/source}} {{user@destinationServer:/path/to/destination/}}` 
+`rsync -av --rsh='ssh -J {{user@jumpserver1}},{{user@jumpserver2}}' {{path/to/source}} {{user@destinationServer:/path/to/destination/}}`
