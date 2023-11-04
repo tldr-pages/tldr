@@ -34,4 +34,4 @@
 
 - Transfer a file over SSH using a different port than the default (22) and show global progress:
 
-`rsync --rsh='ssh -p {{port}}' --info=progress2 {{host}}:{{path/to/source}} {{path/to/destination}}`
+`rsync --rsh 'ssh -p {{port}}' --info=progress2 {{host}}:{{path/to/source}} {{path/to/destination}}`
