@@ -1,7 +1,7 @@
 # wget
 
 > 这是 `wget -p common` 命令的一个别名。
-> 更多信息：<https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+> 更多信息：<https://www.gnu.org/software/wget>.
 
 - 原命令的文档在：
 

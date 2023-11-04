@@ -1,7 +1,7 @@
 # curl
 
 > ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `curl -p common`.
-> ຂໍ້ມູນເພີ່ມເຕີມ: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+> ຂໍ້ມູນເພີ່ມເຕີມ: <https://curl.se>.
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 

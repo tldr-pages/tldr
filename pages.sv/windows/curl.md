@@ -1,7 +1,7 @@
 # curl
 
 > Det här kommandot är ett alias för `curl -p common`.
-> Mer information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+> Mer information: <https://curl.se>.
 
 - Se dokumentationen för orginalkommandot:
 

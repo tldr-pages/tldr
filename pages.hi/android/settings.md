@@ -1,7 +1,7 @@
 # settings
 
 > एंड्रॉइड ओएस के बारे में जानकारी प्राप्त करें।
-> अधिक जानकारी: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>।
+> अधिक जानकारी: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - `global` नेमस्पेस में सेटिंग्स की एक सूची प्रदर्शित करें:
 

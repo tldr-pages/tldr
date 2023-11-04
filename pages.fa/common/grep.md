@@ -1,7 +1,7 @@
 # grep
 
 > یافتن الگو در فایل ها به کمک عبارات با قاعده.
-> اطلاعات بیشتر: <https://www.gnu.org/software/grep/manual/grep.html>.
+> اطلاعات بیشتر : <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - جستجو یک الگو در یک فایل :
 

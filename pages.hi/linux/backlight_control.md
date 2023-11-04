@@ -1,7 +1,7 @@
 # backlight_control
 
 > प्रतिशत मानों का उपयोग करके लिनक्स मशीन की बैकलाइट को नियंत्रित करें।
-> अधिक जानकारी: <https://github.com/Hendrikto/backlight_control>।
+> अधिक जानकारी: <https://github.com/Hendrikto/backlight_control>.
 
 - एक विशिष्ट प्रतिशत गणना द्वारा बैकलाइट बढ़ाएँ/घटाएँ:
 

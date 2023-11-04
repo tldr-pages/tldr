@@ -1,7 +1,7 @@
 # exit
 
 > বর্তমান CMD ইনস্ট্যান্স বা বর্তমান ব্যাচ ফাইল থেকে বাহির হোন।
-> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/exit>।
+> আরও তথ্যের জন্য: https://learn.microsoft.com/windows-server/administration/windows-commands/exit.
 
 - বর্তমান CMD উদাহরণ থেকে বাহির হোন:
 

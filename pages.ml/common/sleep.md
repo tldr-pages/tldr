@@ -1,7 +1,7 @@
 # sleep
 
 > കാലതാമസം വരുത്തുവാനുള്ള പ്രോഗ്രാം.
-> കൂടുതൽ വിവരങ്ങൾ: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>.
+> കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/sleep>.
 
 - നിമിഷങ്ങൾ വൈകിക്കാൻ:
 

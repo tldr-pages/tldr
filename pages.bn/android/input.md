@@ -2,7 +2,7 @@
 
 > একটি Android ডিভাইসে ইভেন্ট কোড বা টাচস্ক্রিন অঙ্গভঙ্গি পাঠান।
 > এই কমান্ডটি শুধুমাত্র `adb shell` এর মাধ্যমে ব্যবহার করা যেতে পারে।
-> আরও তথ্য পাবেন: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>।
+> আরও তথ্য পাবেন: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
 
 - একটি Android ডিভাইসে একটি একক অক্ষরের জন্য একটি ইভেন্ট কোড পাঠান:
 

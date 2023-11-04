@@ -2,7 +2,7 @@
 
 > 将多个具有布局信息的图形布局组合在一起。
 > Graphviz 过滤器: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred` 和 `unflatten`。
-> 更多信息：<https://graphviz.org/pdf/gvpack.1.pdf>.
+> 更多信息: <https://graphviz.org/pdf/gvpack.1.pdf>.
 
 - 将多个具有布局信息的图形布局组合在一起：
 

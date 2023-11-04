@@ -1,7 +1,7 @@
 # docker start
 
 > 1つまたは複数の停止中コンテナを起動します。
-> 詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/start/>
+> 詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/start/>.
 
 - ヘルプを表示する:
 

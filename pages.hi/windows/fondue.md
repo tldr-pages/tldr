@@ -1,7 +1,7 @@
 # fondue
 
 > वैकल्पिक विंडोज़ सुविधाएँ स्थापित करें।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/fondue>।
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/fondue>.
 
 - एक विशिष्ट विंडोज़ सुविधा सक्षम करें:
 

@@ -1,7 +1,7 @@
 # path
 
 > কার্যকর ফাইলগুলির জন্য পথ খোঁজা বা সেট করতে পারেন।
-> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/path>।
+> আরও তথ্যের জন্য: <https://learn.microsoft.com/windows-server/administration/windows-commands/path>.
 
 - বর্তমান পথটি দেখানো:
 

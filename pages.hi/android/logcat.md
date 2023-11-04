@@ -1,7 +1,7 @@
 # logcat
 
 > सिस्टम संदेशों का एक लॉग डंप करें, जिसमें त्रुटि होने पर स्टैक ट्रेस और एप्लिकेशन द्वारा लॉग किए गए सूचना संदेश शामिल हों।
-> अधिक जानकारी: <https://developer.android.com/studio/command-line/logcat>।
+> अधिक जानकारी: <https://developer.android.com/studio/command-line/logcat>.
 
 - सिस्टम लॉग प्रदर्शित करें:
 

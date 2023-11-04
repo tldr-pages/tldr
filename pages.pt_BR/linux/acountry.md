@@ -1,7 +1,7 @@
 # acountry
 
 > Imprime o país onde um endereço IPv4 ou nome do servidor estão localizados.
-> Mais informações: <https://manned.org/acountry>.
+> Mais informação: <https://manned.org/acountry>.
 
 - Imprime um país onde um endereço IPv4 ou host está localizado:
 

@@ -1,7 +1,7 @@
 # pkg
 
 > Termux এর জন্য একটি প্যাকেজ ব্যবস্থাপনা ইউটিলিটি।
-> আরও তথ্য পাবেন: <https://wiki.termux.com/wiki/Package_Management>।
+> আরও তথ্য পাবেন: <https://wiki.termux.com/wiki/Package_Management>.
 
 - সমস্ত ইনস্টল করা প্যাকেজ আপগ্রেড করুন:
 

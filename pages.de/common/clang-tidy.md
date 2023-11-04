@@ -1,7 +1,7 @@
 # clang-tidy
 
 > Ein LLVM-basierter C/C++ Linter zum Finden von Stilverletzungen, Bugs und Sicherheitsmängeln durch statische Codeanalyse.
-> Weitere Informationen: <https://clang.llvm.org/extra/clang-tidy/>.
+> Weitere Information: <https://clang.llvm.org/extra/clang-tidy/>.
 
 - Führe die Standard-Checks für eine Quelldatei aus:
 
