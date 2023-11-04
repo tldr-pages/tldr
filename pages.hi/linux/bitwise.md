@@ -1,7 +1,7 @@
 # bitwise
 
 > गतिशील आधार रूपांतरण और बिट हेरफेर का समर्थन करने वाला मल्टी बेस इंटरैक्टिव कैलकुलेटर।
-> अधिक जानकारी: <https://github.com/mellowcandle/bitwise>।
+> अधिक जानकारी: <https://github.com/mellowcandle/bitwise>.
 
 - इंटरैक्टिव मोड का उपयोग करके चलाएँ:
 

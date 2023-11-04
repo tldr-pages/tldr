@@ -1,7 +1,7 @@
 # age
 
 > Un outil de cryptage de fichiers simple, moderne et sécurisé.
-> Plus d'informations : <https://github.com/FiloSottile/age>.
+> Plus d'informations : <https://age-encryption.org>.
 
 - Générez un fichier crypté qui peut être décrypté avec une mot de passe:
 

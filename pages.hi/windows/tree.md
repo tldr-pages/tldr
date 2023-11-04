@@ -1,7 +1,7 @@
 # tree
 
 > पथ के लिए निर्देशिका संरचना का ग्राफ़िकल ट्री प्रदर्शित करें।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/tree>।
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/tree>.
 
 - वर्तमान निर्देशिका के लिए ट्री प्रदर्शित करें:
 

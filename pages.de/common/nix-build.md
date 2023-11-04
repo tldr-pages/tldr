@@ -1,7 +1,7 @@
 # nix-build
 
 > Erstellen eines Nix-Ausdrucks.
-> Weitere Informationen: <https://nixos.org/manual/nix/stable/command-ref/nix-build.html>.
+> Weitere Informationen: <https://nixos.org/releases/nix/latest/manual#sec-nix-build>.
 
 - Erstelle einen Nix-Ausdruck:
 

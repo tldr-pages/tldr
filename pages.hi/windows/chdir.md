@@ -1,8 +1,0 @@
-# chdir
-
-> यह आदेश `cd` का उपनाम है।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/chdir>।
-
-- मूल आदेश के लिए दस्तावेज़ देखें:
-
-`tldr cd`

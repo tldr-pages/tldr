@@ -2,7 +2,7 @@
 
 > एंड्रॉइड सिस्टम सेवाओं के बारे में जानकारी प्रदान करें।
 > इस कमांड का उपयोग केवल `adb shell` के माध्यम से किया जा सकता है।
-> अधिक जानकारी: <https://developer.android.com/studio/command-line/dumpsys>।
+> अधिक जानकारी: <https://developer.android.com/studio/command-line/dumpsys>.
 
 - सभी सिस्टम सेवाओं के लिए नैदानिक आउटपुट प्राप्त करें:
 

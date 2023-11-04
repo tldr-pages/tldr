@@ -1,7 +1,7 @@
 # sleep
 
 > निर्दिष्ट समय के लिए विलंब जोड़ें।
-> अधिक जानकारी: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>।
+> अधिक जानकारी: <https://www.gnu.org/software/coreutils/sleep>।
 
 - सेकंड में देरी:
 

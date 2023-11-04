@@ -1,7 +1,7 @@
 # curl
 
 > Ця команда є псевдонімом для `curl -p common`.
-> Більше інформації: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+> Більше інформації: <https://curl.se>.
 
 - Дивись документацію для оригінальної команди:
 

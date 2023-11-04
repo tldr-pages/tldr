@@ -1,7 +1,7 @@
 # clamdscan
 
 > Sebuah program pemindai virus berbasis command-line.
-> Informasi lebih lanjut: <https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan>.
+> Informasi lebih lanjut: <https://www.clamav.net>.
 
 - Pindai kerentanan suatu file atau direktori tertentu:
 

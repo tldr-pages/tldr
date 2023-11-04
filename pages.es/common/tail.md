@@ -2,7 +2,7 @@
 
 > Muestra las últimas líneas de un archivo de texto determinado.
 > Ver también: `head`.
-> Más información: <https://www.gnu.org/software/coreutils/tail>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html#tail-invocation>.
 
 - Imprime las últimas líneas de 'recuento' de un archivo:
 

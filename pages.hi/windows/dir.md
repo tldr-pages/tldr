@@ -1,7 +1,7 @@
 # dir
 
 > निर्देशिका सामग्री सूचीबद्ध करें।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>।
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - वर्तमान निर्देशिका की सामग्री दिखाएँ:
 

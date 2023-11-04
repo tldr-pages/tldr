@@ -2,7 +2,7 @@
 
 > Manage Web Applications hosted in Azure Cloud Services.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/webapp>.
+> Mode information: <https://learn.microsoft.com/cli/azure/webapp>.
 
 - List available runtimes for a web application:
 
