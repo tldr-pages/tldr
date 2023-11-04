@@ -5,4 +5,4 @@
 
 - Read a Berkeley YUV file from the specified input file, convert it to a PPM image and store it in the specified output file:
 
-`eyuvtoppm --width {{width}} --heigth {{heigth}} {{path/to/input_file.eyuv}} > {{path/to/output_file.ppm}}`
+`eyuvtoppm --width {{width}} --height {{height}} {{path/to/input_file.eyuv}} > {{path/to/output_file.ppm}}`

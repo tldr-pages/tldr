@@ -5,4 +5,4 @@
 
 - Read Akebas YUV bytes from three files starting with basename, merge them into a single PPM image and store it in the specified output file:
 
-`yuvsplittoppm {{basename}} {{width}} {{heigth}} > {{path/to/output_file.ppm}}`
+`yuvsplittoppm {{basename}} {{width}} {{height}} > {{path/to/output_file.ppm}}`
