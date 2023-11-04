@@ -1,7 +1,7 @@
 # git subtree
 
 > Outil pour gérer les dépendances de projet en tant que sous-projets.
-> Plus d'informations : <https://manned.org/git-subtree.1>.
+> Plus d'informations : <https://manpages.debian.org/latest/git-man/git-subtree.1.en.html>.
 
 - Ajout d'un dépôt Git en tant que sous-arbre :
 

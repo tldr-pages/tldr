@@ -1,7 +1,7 @@
 # colorls
 
 > カラー化と Font Awesome アイコンの使用によりターミナルの ls コマンドを美しくした Ruby の gem です。
-> 詳しくはこちら: <https://github.com/athityakumar/colorls>
+> 詳しくはこちら: <https://github.com/athityakumar/colorls>.
 
 - ファイルを 1 行ずつ表示する:
 

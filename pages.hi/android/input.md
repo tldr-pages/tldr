@@ -2,7 +2,7 @@
 
 > एंड्रॉइड डिवाइस पर इवेंट कोड या टचस्क्रीन जेस्चर भेजें।
 > इस कमांड का उपयोग केवल `adb shell` के माध्यम से किया जा सकता है।
-> अधिक जानकारी: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>।
+> अधिक जानकारी: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
 
 - किसी एकल वर्ण के लिए किसी एंड्रॉइड डिवाइस पर ईवेंट कोड भेजें::
 

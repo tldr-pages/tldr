@@ -1,7 +1,7 @@
 # find
 
 > এক বা একাধিক ফাইলে নির্দিষ্ট স্ট্রিং খোঁজা।
-> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>।
+> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>.
 
 - ঐ স্ট্রিং যুক্ত লাইন গুলি খোঁজা:
 

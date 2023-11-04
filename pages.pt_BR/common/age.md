@@ -1,7 +1,7 @@
 # age
 
 > Uma simples, moderna e segura ferramenta de criptografia de arquivos.
-> Mais informações: <https://github.com/FiloSottile/age>.
+> Mais informações: <https://age-encryption.org>.
 
 - Gera um arquivo criptografado que pode ser descriptografado com uma frase-chave:
 

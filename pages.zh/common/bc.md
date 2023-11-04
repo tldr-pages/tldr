@@ -2,7 +2,7 @@
 
 > 一个任意精度计算器语言。
 > 另请参阅：`dc`.
-> 更多信息：<https://manned.org/man/bc.1>.
+> 更多信息: <https://manned.org/man/bc.1>.
 
 - 启动交互式会话：
 

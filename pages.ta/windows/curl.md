@@ -1,7 +1,6 @@
 # curl
 
 > PowerShell இல், அசல் `curl` நிரல் (<https://curl.se>) சரியாக நிறுவப்படாதபோது இந்தக் கட்டளை `Invoke-WebRequest` என்பதன் மாற்றுப்பெயராக இருக்கலாம்.
-> மேலும் விவரத்திற்கு: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - அதன் பதிப்பு எண்ணை அச்சிட்டு `curl` சரியாக நிறுவப்பட்டுள்ளதா என்பதைச் சரிபார்க்கவும். இந்த கட்டளை பிழையாக மதிப்பிடப்பட்டால், PowerShell இந்த கட்டளையை `Invoke-WebRequest` உடன் மாற்றியிருக்கலாம்:
 

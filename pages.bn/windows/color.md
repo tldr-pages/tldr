@@ -1,7 +1,7 @@
 # color
 
 > কনসোল পূর্বপরক্ষ এবং পৃষ্ঠভূমির রঙ নির্ধারণ করুন।
-> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>।
+> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
 
 - কনসোল রঙগুলি ডিফল্ট মানে নির্ধারণ করুন:
 
