@@ -5,24 +5,24 @@
 
 - Zarchiwizuj 1 lub więcej plików:
 
-`rar a {{sciezka/do/nazwa_archiwum.rar}} {{sciezka/do/plik1}} {{sciezka/do/plik2}} {{sciezka/do/plik3}}`
+`rar a {{ścieżka/do/nazwa_archiwum.rar}} {{ścieżka/do/pliku1}} {{ścieżka/do/pliku2}} {{ścieżka/do/pliku3}}`
 
 - Zarchiwizuj katalog:
 
-`rar a {{sciezka/do/nazwa_archiwum.rar}} {{sciezka/do/katalog}}`
+`rar a {{ścieżka/do/nazwa_archiwum.rar}} {{ścieżka/do/katalogu}}`
 
 - Podziel archiwum na części równej wielkości (50M):
 
-`rar a -v{{50M}} -R {{sciezka/do/nazwa_archiwum.rar}} {{sciezka/do/plik_lub_katalog}}`
+`rar a -v{{50M}} -R {{ścieżka/do/nazwa_archiwum.rar}} {{ścieżka/do/pliku_lub_katalogu}}`
 
-- Chroń hasło wynikowego archiwum:
+- Chroń hasłem powstające archiwum:
 
-`rar a -p{{haslo}} {{sciezka/do/nazwa_archiwum.rar}} {{sciezka/do/plik_lub_katalog}}`
+`rar a -p{{hasło}} {{ścieżka/do/nazwa_archiwum.rar}} {{ścieżka/do/pliku_lub_katalogu}}`
 
-- Szyfruj dane pliku i nagłówki za pomocą hasła:
+- Szyfruj dane pliku i ich nagłówki za pomocą hasła:
 
-`rar a -hp{{haslo}} {{sciezka/do/nazwa_archiwum.rar}} {{sciezka/do/plik_lub_katalog}}`
+`rar a -hp{{hasło}} {{ścieżka/do/nazwa_archiwum.rar}} {{ścieżka/do/pliku_lub_katalogu}}`
 
 - Użyj określonego poziomu kompresji (0-5):
 
-`rar a -m{{poziom_kompresji}} {{sciezka/do/nazwa_archiwum.rar}} {{sciezka/do/plik_lub_katalog}}`
+`rar a -m{{poziom_kompresji}} {{ścieżka/do/nazwa_archiwum.rar}} {{ścieżka/do/pliku_lub_katalogu}}`

@@ -15,7 +15,7 @@
 
 `compress -b {{bits}}`
 
-- Write to standard output (no files are changed):
+- Write to `stdout` (no files are changed):
 
 `compress -c {{path/to/file}}`
 

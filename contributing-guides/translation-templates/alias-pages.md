@@ -16,6 +16,7 @@ The templates can be changed when necessary.
 [de](#de) •
 [es](#es) •
 [fa](#fa) •
+[fi](#fi) •
 [fr](#fr) •
 [hi](#hi) •
 [id](#id) •
@@ -179,6 +180,20 @@ The templates can be changed when necessary.
 > این دستور یک نام مستعار از `example` است.
 
 - مشاهده مستندات دستور اصلی :
+
+`tldr example`
+```
+
+---
+
+### fi
+
+```markdown
+# example
+
+> Tämä komento on `example`:n alias.
+
+- Katso alkuperäisen komennon dokumentaatiossa:
 
 `tldr example`
 ```
@@ -383,7 +398,15 @@ The templates can be changed when necessary.
 
 ### ro
 
-Not translated yet.
+```markdown
+# example
+
+> Această comandă este un alias al `example`.
+
+- Vizualizați documentația pentru comanda originală:
+
+`tldr example`
+```
 
 ---
 
