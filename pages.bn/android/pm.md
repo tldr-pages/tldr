@@ -1,7 +1,7 @@
 # pm
 
 > একটি Android ডিভাইসে অ্যাপ্লিকেশন সম্পর্কে তথ্য দেখান।
-> আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/adb#pm>।
+> আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/adb#pm>.
 
 - সমস্ত ইনস্টল করা অ্যাপের একটি তালিকা প্রিন্ট করুন:
 

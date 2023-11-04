@@ -2,7 +2,7 @@
 
 > उप-प्रक्रियाओं को उस शेल से परे रहने की अनुमति दें जिससे वे जुड़े हुए हैं।
 > `jobs` कमांड भी देखें।
-> अधिक जानकारी: <https://www.gnu.org/software/bash/manual/bash.html#index-disown>।
+> अधिक जानकारी: <https://www.gnu.org/software/bash/manual/bash.html#index-disown>.
 
 - वर्तमान कार्य को अस्वीकार करें:
 

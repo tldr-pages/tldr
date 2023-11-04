@@ -1,7 +1,7 @@
 # set
 
 > CMD-এর বর্তমান ইনস্ট্যান্সের জন্য পরিবেশ চেরা বা সেট করুন।
-> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/set>।
+> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/set>.
 
 - সমস্ত বর্তমান পরিবেশ চেরা তালিকাভুক্ত করুন:
 

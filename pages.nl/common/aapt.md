@@ -2,7 +2,7 @@
 
 > Android Asset Packaging-tool.
 > Compileer en verpak de bronnen van een Android-app.
-> Meer informatie: <https://elinux.org/Android_aapt>.
+> Meer Informatie: <https://elinux.org/Android_aapt>.
 
 - Maak een lijst van bestanden in een APK-archief:
 

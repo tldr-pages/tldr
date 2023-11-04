@@ -1,7 +1,7 @@
 # systemctl
 
 > systemd सिस्टम और सेवा प्रबंधक को नियंत्रित करें।
-> अधिक जानकारी: <https://www.freedesktop.org/software/systemd/man/systemctl.html>।
+> अधिक जानकारी: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
 
 - सभी चल रही सेवाएँ दिखाएं:
 

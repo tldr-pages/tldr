@@ -1,7 +1,7 @@
 # certutil
 
 > सर्टीफिकेट सूचना को प्रबंधित और विन्यसित करने के लिए एक टूल।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/certutil>।
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/certutil>.
 
 - विन्यास सूचना या फ़ाइलों को डंप करें:
 

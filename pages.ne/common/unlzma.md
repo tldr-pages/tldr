@@ -1,7 +1,7 @@
 # unlzma
 
 > यो आदेश `xz` को उपनाम हो |
-> थप जानकारी: <https://manned.org/unlzma>।
+> थप जानकारी: <https://manned.org/unlzma>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

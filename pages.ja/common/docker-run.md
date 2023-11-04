@@ -1,7 +1,7 @@
 # docker run
 
 > 新しいDockerコンテナでコマンドを実行します。
-> 詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/run/>
+> 詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/run/>.
 
 - タグ付けイメージから作成した新しいコンテナでコマンドを実行する:
 

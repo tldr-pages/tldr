@@ -1,7 +1,7 @@
 # cp
 
 > फाइलहरू र डिरेक्टोरीहरू सार्नुहोस।
-> थप जानकारी: <https://www.gnu.org/software/coreutils/cp>।
+> थप जानकारी: <https://www.gnu.org/software/coreutils/cp>.
 
 - एउटा स्थान बाट अर्को स्थानमा फाइलहरु सार्नुहोस:
 

@@ -1,7 +1,7 @@
 # base64
 
 > बेस 64 प्रस्तुतीकरण का उपयोग करके कोड और डिकोड करें।
-> अधिक जानकारी: <https://www.unix.com/man-page/osx/1/base64/>।
+> अधिक जानकारी: <https://www.unix.com/man-page/osx/1/base64/>.
 
 - फ़ाइल को कोड करें:
 

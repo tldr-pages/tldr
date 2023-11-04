@@ -1,7 +1,7 @@
 # ls
 
 > एउटा डिरेक्टोरीमा भएका सबै वस्तुहरुको सुची देखाउँछ।
-> थप जानकारी: <https://www.gnu.org/software/coreutils/ls>।
+> थप जानकारी: <https://www.gnu.org/software/coreutils/ls>.
 
 - एक लाइनमा एउटा वस्तु देखाएर फाइलहरू देखाउनुहोस्:
 

@@ -1,7 +1,7 @@
 # wget
 
 > यह आदेश `wget -p common` का उपनाम है।
-> अधिक जानकारी: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>।
+> अधिक जानकारी: <https://www.gnu.org/software/wget>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 

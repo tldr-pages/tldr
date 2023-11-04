@@ -1,7 +1,7 @@
 # wget
 
 > Aquest comandament és un àlies de `wget -p common`.
-> Més informació: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+> Més informació: <https://www.gnu.org/software/wget>.
 
 - Veure documentació pel comandament original:
 

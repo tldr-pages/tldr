@@ -1,7 +1,7 @@
 # sleep
 
 > ایجاد تاخیر بر اساس زمان.
-> اطلاعات بیشتر: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>.
+> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/sleep>.
 
 - تاخیر به ثانیه:
 

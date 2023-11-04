@@ -1,7 +1,7 @@
 # dark-mode
 
 > MacOS डार्क मोड को नियंत्रित करें।
-> अधिक जानकारी: <https://github.com/sindresorhus/dark-mode>।
+> अधिक जानकारी: <https://github.com/sindresorhus/dark-mode>.
 
 - डार्क मोड टॉगल करें (यदि यह वर्तमान में बंद है तो इसे चालू करें, यदि यह वर्तमान में चालू है तो इसे बंद करें):
 

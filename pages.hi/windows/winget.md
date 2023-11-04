@@ -1,7 +1,7 @@
 # winget
 
 > विंडोज़ पैकेज प्रबंधक।
-> अधिक जानकारी: <https://learn.microsoft.com/windows/package-manager/winget>।
+> अधिक जानकारी: <https://learn.microsoft.com/windows/package-manager/winget>.
 
 - एक पैकेज इनस्टॉल करें:
 

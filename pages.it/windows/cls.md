@@ -1,8 +1,8 @@
 # cls
 
-> Questo comando è un alias per `clear-host`.
+> Pulisce lo schermo del terminale.
 > Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
-- Consulta la documentazione del comando originale:
+- Pulisce lo schermo:
 
-`tldr clear-host`
+`cls`

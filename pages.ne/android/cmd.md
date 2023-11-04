@@ -1,7 +1,7 @@
 # cmd
 
 > एन्ड्रोइड सेवा प्रबन्धक।
-> थप जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>।
+> थप जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - [l] सबै चलिरहेको सेवाहरू छन्:
 

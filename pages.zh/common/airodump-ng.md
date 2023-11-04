@@ -2,7 +2,7 @@
 
 > 捕获数据包并显示有关无线网络的信息。
 > `aircrack-ng` 的一部分。
-> 更多信息：<https://www.aircrack-ng.org/doku.php?id=airodump-ng>.
+> 更多信息： <https://www.aircrack-ng.org/doku.php?id=airodump-ng>.
 
 - 捕获数据包并显示有关无线网络的信息：
 

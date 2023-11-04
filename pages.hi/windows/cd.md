@@ -1,7 +1,7 @@
 # cd
 
 > वर्तमान कार्यशील निर्देशिका प्रदर्शित करें या किसी भिन्न निर्देशिका में ले जाएँ।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>।
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - वर्तमान निर्देशिका का पथ प्रदर्शित करें:
 
