@@ -24,7 +24,7 @@
 
 `rsync --recursive {{path/to/source}}/ {{path/to/destination}}`
 
-- Recursively copy directories, use archive mode, resolve symlinks and skip files that are newer on the destination:
+- Use archive mode, resolve symlinks and skip files that are newer on the destination:
 
 `rsync --archive --update --copy-links {{path/to/source}} {{path/to/destination}}`
 
