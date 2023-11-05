@@ -65,7 +65,7 @@ def get_tldr_root():
 
 
 def set_link(file, link):
-    with open(file, encoding='utf-8') as f:
+    with open(file, encoding="utf-8") as f:
         lines = f.readlines()
 
     desc_start = 0
@@ -109,14 +109,14 @@ def set_link(file, link):
         lines.insert(desc_end + 1, new_line)
         status = "\x1b[36mlink added"
 
-    with open(file, "w", encoding='utf-8') as f:
+    with open(file, "w", encoding="utf-8") as f:
         f.writelines(lines)
 
     return status
 
 
 def get_link(file):
-    with open(file, encoding='utf-8') as f:
+    with open(file, encoding="utf-8") as f:
         lines = f.readlines()
 
     desc_start = 0
