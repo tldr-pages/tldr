@@ -1,7 +1,7 @@
 # checkupdates
 
 > आर्क लिनक्स में लंबित अद्यतनों की जाँच करने के लिए उपकरण।
-> अधिक जानकारी: <https://man.archlinux.org/man/checkupdates.8>.
+> अधिक जानकारी: <https://man.archlinux.org/man/checkupdates.8>।
 
 - लंबित अद्यतनों की सूची बनाएं:
 

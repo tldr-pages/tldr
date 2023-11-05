@@ -1,7 +1,7 @@
 # nc
 
 > Netcat은 TCP 또는 UDP 데이터 작업을 위한 다목적 유틸리티입니다.
-> 더 많은 정보: <https://nmap.org/ncat>.
+> 더 많은 정보: <https://manned.org/man/nc.1>.
 
 - 특정 포트에서 수신대기 및 수신한 데이터 출력:
 

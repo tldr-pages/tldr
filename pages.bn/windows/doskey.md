@@ -1,7 +1,7 @@
 # doskey
 
 > ম্যাক্রোজ, উইন্ডোজ কমান্ড এবং কমান্ড-লাইন পরিচালনা করুন।
-> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/doskey>.
+> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/doskey>।
 
 - উপস্থিত ম্যাক্রোগুলির তালিকা তৈরি করুন:
 
