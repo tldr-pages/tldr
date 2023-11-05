@@ -1,33 +1,37 @@
 # bash
 
 > Bourne-Again SHell, um interpretador de linha de comando compatível com `sh`.
-> Veja também `histexpand` para a expansão do histórico.
+> Veja também: `zsh`, `histexpand` (expansão do histórico).
 > Mais informações: <https://gnu.org/software/bash/>.
 
-- Iniciar uma seção interativa do shell:
+- Inicia uma sessão interativa do shell:
 
 `bash`
 
-- Executar um comando e sair:
+- Inicia uma sessão interativa do shell sem carregar as configurações de inicialização:
 
-`bash -c "{{comando}}"`
+`bash --norc`
 
-- Executar um script:
+- Executa [c]omandos específicos:
+
+`bash -c "{{echo 'bash é executado'}}"`
+
+- Executa um script específico:
 
 `bash {{caminho/para/script.sh}}`
 
-- Executar um script, exibindo cada comando antes de executá-lo:
+- Executa um script específico exibindo cada comando antes de executá-lo:
 
 `bash -x {{caminho/para/script.sh}}`
 
-- Executar os comandos de um script, parando de executar no primeiro erro:
+- Executa um script específico e para no primeiro [e]rro:
 
 `bash -e {{caminho/para/script.sh}}`
 
-- Ler e executar comandos do `stdin` (entrada padrão):
+- Executa comandos específicos da `stdin`:
 
-`bash -s`
+`{{echo "echo 'bash é executado'"}} | bash`
 
-- Exibir a versão do Bash (`$BASH_VERSION` abrange apenas a versão sem informações da licença):
+- Inicia uma sessão do shell [r]estrita:
 
-`bash --version`
+`bash -r`

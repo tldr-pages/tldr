@@ -10,10 +10,12 @@ This file contains the translation templates of this notice.
 [bn](#bn) •
 [bs](#bs) •
 [ca](#ca) •
+[cs](#cs) •
 [da](#da) •
 [de](#de) •
 [es](#es) •
 [fa](#fa) •
+[fi](#fi) •
 [fr](#fr) •
 [hi](#hi) •
 [id](#id) •
@@ -61,7 +63,9 @@ Some subcommands such as `example command` have their own usage documentation.
 
 ### bn
 
-Not translated yet.
+```markdown
+কিছু উপ-কমান্ড যেমন `example command` স্বতন্ত্র ব্যবহার নির্দেশনা রয়েছে.
+```
 
 ---
 
@@ -75,6 +79,14 @@ Not translated yet.
 
 ```markdown
 Alguns subcomandaments com `example command` tenen la seva pròpia documentació.
+```
+
+---
+
+### cs
+
+```markdown
+Některé dílčí příkazy jako je `example command` mají svou vlastní dokumentaci.
 ```
 
 ---
@@ -107,6 +119,14 @@ Algunos subcomandos, como `example command`, tienen su propia documentación de 
 
 ```markdown
 برخی از دستورات فرعی مانند `example command` سند استفاده خاص خودشون رو دارند.
+```
+
+---
+
+### fi
+
+```markdown
+Joillakin alakomennoilla, kuten `example command`, on omat käyttöoppaansa.
 ```
 
 ---
@@ -153,7 +173,9 @@ Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazio
 
 ### ko
 
-Not translated yet.
+```markdown
+`example command`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+```
 
 ---
 
@@ -193,7 +215,9 @@ Not translated yet.
 
 ### pl
 
-Not translated yet.
+```markdown
+Niektóre podkomendy takie jak `example command` mają osobną dokumentację.
+```
 
 ---
 

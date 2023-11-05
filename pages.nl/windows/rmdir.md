@@ -1,16 +1,21 @@
 # rmdir
 
-> Verwijdert een directory en zijn inhoud.
+> Verwijdert een map en zijn inhoud.
+> In PowerShell is deze opdracht een alias van `Remove-Item`. Deze documentatie is gebaseerd op de Command Prompt (`cmd`) versie van `rmdir`.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
 
-- Verwijder een lege directory:
+- Bekijk documentatie van het equivalente PowerShell-commando:
 
-`rmdir {{pad/naar/directory}}`
+`tldr remove-item`
 
-- Verwijder een directory en zen inhoud recursief:
+- Verwijder een lege map:
 
-`rmdir {{pad/naar/directory}} /s`
+`rmdir {{pad/naar/map}}`
 
-- Verwijder een directory en zen inhoud recursief zonder te vragen:
+- Verwijder een map en zen inhoud recursief:
 
-`rmdir {{pad/naar/directory}} /s /q`
+`rmdir {{pad/naar/map}} /s`
+
+- Verwijder een map en zen inhoud recursief zonder te vragen:
+
+`rmdir {{pad/naar/map}} /s /q`

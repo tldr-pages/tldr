@@ -1,6 +1,6 @@
 # cargo add
 
-> Add dependencies to a Rust project's `Cargo.toml` file.
+> Add dependencies to a Rust project's `Cargo.toml` manifest.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-add.html>.
 
 - Add the latest version of a dependency to the current project:
@@ -21,7 +21,7 @@
 
 - Add a local crate as a dependency:
 
-`cargo add --path {{path/to/crate}}`
+`cargo add --path {{path/to/crate_directory}}`
 
 - Add a development or build dependency:
 
