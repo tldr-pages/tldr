@@ -34,4 +34,3 @@
 - Mostrar ayuda para un comando dado:
 
 `gcloud help {{comando}}`
-
