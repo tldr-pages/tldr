@@ -13,7 +13,7 @@
 
 - Establece como proyecto activo:
 
-`gcloud config set project {{nombre_del_proyecto}}
+`gcloud config set project {{nombre_del_proyecto}}`
 
 - SSH en una instancia de máquina virtual:
 
