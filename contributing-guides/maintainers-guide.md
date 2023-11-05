@@ -58,8 +58,7 @@ for the behavior expected of tldr-pages maintainers.
 - PRs should be merged once they
   (1) **pass the automated tests** (GitHub Actions, CLA signing, etc.),
   (2) have the **review comments addressed**,
-  (3) get **approved reviews by two maintainers**, (the second maintainer can merge immediately after approving) and
-  (4) have been open for at least **24 hours** unless the changes are trivial
+  (3) get **approved reviews by two maintainers** (the second maintainer can merge immediately after approving).
 
 - If a PR fails to get a review from a second maintainer after a few days,
   the first maintainer should ping others for review. If it still lingers around
