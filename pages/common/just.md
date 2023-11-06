@@ -1,24 +1,11 @@
 # just
 
-> Save and run project-specific commands.
-> More information: <https://github.com/casey/just>.
+> `just` can refer to multiple commands with the same name.
 
-- Run a recipe specified in the justfile:
+- View documentation for the command runner:
 
-`just {{recipe}}`
+`tldr just.1`
 
-- Initialize new justfile in project root:
+- View documentation for the V8 JavaScript runtime:
 
-`just --init`
-
-- Edit justfile in the default editor:
-
-`just -e`
-
-- List available recipes in the justfile:
-
-`just -l`
-
-- Print justfile:
-
-`just --dump`
+`tldr just.js`

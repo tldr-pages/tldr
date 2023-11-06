@@ -1,24 +1,20 @@
 # touch
 
-> Alterar os timestamps de acesso e de modificação (atime, mtime) de um arquivo.
+> Cria arquivos e define tempo de acesso/modificação.
 > Mais informações: <https://manned.org/man/freebsd-13.1/touch>.
 
-- Criar novo(s) arquivo(s) vazio(s) ou alterar os timestamps do(s) arquivo(s) para o timestamp atual:
+- Cria arquivos especificados:
 
-`touch {{caminho/para/arquivo}}`
+`touch {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
-- Definir os timestamps de um arquivo para uma data e hora específica:
+- Define o tempo de [a]cesso ou [m]odificação do arquivo como o atual e não [c]ria o arquivo se ele não existir:
 
-`touch -t {{YYYYMMDDHHMM.SS}} {{caminho/para/arquivo}}`
+`touch -c -{{a|m}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
-- Definir os timestamps de um arquivo para uma hora no passado:
+- Define o [t]empo do arquivo para um valor especificado e não [c]ria o arquivo se ele não existir:
 
-`touch -d "{{-1 hour}}" {{caminho/para/arquivo}}`
+`touch -c -t {{YYYYMMDDHHMM.SS}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
-- Usar as timestamps de um arquivo para definir as timestamps de um segundo arquivo:
+- Define o tempo de um arquivo específico para o tempo de out[r]o arquivo e não [c]ria o arquivo se ele não existir:
 
-`touch -r {{caminho/para/arquivo1}} {{caminho/para/arquivo2}}`
-
-- Criar múltiplos arquivos:
-
-`touch -c {{caminho/para/arquivo{1,2,3}.txt}}`
+`touch -c -r {{~/.emacs}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`

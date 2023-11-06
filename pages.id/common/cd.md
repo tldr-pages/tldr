@@ -1,20 +1,28 @@
 # cd
 
-> Mengganti direktori yang dikunjungi saat ini.
+> Mengganti direktori kerja saat ini.
 > Informasi lebih lanjut: <https://manned.org/cd>.
 
-- Menuju ke direktori yang telah ditentukan:
+- Pergi menuju direktori yang ditentukan:
 
-`cd {{lokasi/ke/direktori}}`
+`cd {{jalan/menuju/direktori}}`
 
-- Menuju ke direktori pangkal/home milik pengguna:
-
-`cd`
-
-- Menuju ke induk direktori dari direktori saat ini:
+- Pergi menuju induk direktori dari direktori saat ini:
 
 `cd ..`
 
-- Menuju direktori yang telah dikunjungi sebelumnya:
+- Pergi menuju direktori pangkal/home milik pengguna saat ini:
+
+`cd`
+
+- Pergi menuju direktori pangkal/home milik pengguna yang ditentukan:
+
+`cd ~{{username}}`
+
+- Pergi menuju direktori yang dikunjungi sebelumnya:
 
 `cd -`
+
+- Pergi menuju direktori akar (root):
+
+`cd /`

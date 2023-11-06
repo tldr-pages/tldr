@@ -1,7 +1,7 @@
 # fastboot
 
 > Comunica con il dispositivo Android connessione quando in modalità bootloader (la situazione in cui `adb` non funziona).
-> Maggiori informazioni: <https://cs.android.com/android/platform/superproject/+/master:system/core/fastboot>.
+> Maggiori informazioni: <https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot>.
 
 - Sblocca il bootloader:
 
