@@ -18,7 +18,7 @@
 
 - Copy an image:
 
-`wl-copy < ./image.png`
+`wl-copy < {{path/to/image}}`
 
 - Clear the clipboard:
 
