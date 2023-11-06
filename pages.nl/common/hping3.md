@@ -1,7 +1,7 @@
 # hping3
 
 > Geavanceerd pinghulpprogramma dat protocollen ondersteunt zoals TCP, UDP en IP.
-> Best run with elevated privileges.
+> Dit kan het beste uitgevoerd worden met extra priveleges.
 > Meer informatie: <https://github.com/antirez/hping>.
 
 - Ping een bestemming met 4 ICMP ping aanvragen:

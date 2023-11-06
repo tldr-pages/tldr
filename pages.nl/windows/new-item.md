@@ -1,7 +1,7 @@
 # New-Item
 
 > Maak een nieuw bestand, directory, symbolische link of een registerinvoer.
-> This command can only be used through PowerShell.
+> Dit commando kan alleen worden uitgevoerd onder PowerShell.
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
 
 - Maak een nieuw leeg bestand (gelijk aan `touch`):
