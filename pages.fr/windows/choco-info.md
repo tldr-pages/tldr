@@ -1,7 +1,7 @@
 # choco info
 
 > Afficher des informations détaillées sur un forfait avec Chocolatey.
-> Plus d'information : <https://chocolatey.org/docs/commands-info>.
+> Plus d'informations : <https://chocolatey.org/docs/commands-info>.
 
 - Afficher des informations sur un package spécifique :
 

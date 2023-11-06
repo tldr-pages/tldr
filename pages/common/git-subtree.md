@@ -1,7 +1,7 @@
 # git subtree
 
 > Tool to manage project dependencies as subprojects.
-> More information: <https://manpages.debian.org/testing/git-man/git-subtree.1.en.html>.
+> More information: <https://manpages.debian.org/latest/git-man/git-subtree.1.html>.
 
 - Add a Git repository as a subtree:
 

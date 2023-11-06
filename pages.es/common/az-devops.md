@@ -2,7 +2,7 @@
 
 > Administra organizaciones de Azure DevOps.
 > Parte de `azure-cli` (también conocido como `az`).
-> Más información: <https://learn.microsoft.com/cli/azure/devops?view=azure-cli-latest>.
+> Más información: <https://learn.microsoft.com/cli/azure/devops>.
 
 - Configura el Token de Acceso Personal (PAT) para iniciar sesión en una organización específica:
 

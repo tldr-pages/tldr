@@ -2,7 +2,7 @@
 
 > इवेंट लॉग में कस्टम प्रविष्टियाँ बनाएँ।
 > इवेंट आईडी 1 और 1000 के बीच कोई भी संख्या हो सकती है।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/eventcreate>.
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/eventcreate>।
 
 - लॉग में दी गई आईडी (1-1000) के साथ एक नया ईवेंट बनाएं:
 

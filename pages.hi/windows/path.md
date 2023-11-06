@@ -1,7 +1,7 @@
 # path
 
 > निष्पादन योग्य फ़ाइलों के लिए खोज पथ प्रदर्शित या सेट करें।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/path>.
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/path>।
 
 - वर्तमान पथ प्रदर्शित करें:
 

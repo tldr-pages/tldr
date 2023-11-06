@@ -1,7 +1,7 @@
 # brew
 
 > Gestore di pacchetti per macOS.
-> Maggiori informazioni: <https://brew.sh>.
+> Maggiori informazioni: <https://docs.brew.sh/Manpage>.
 
 - Cerca formule e cask:
 

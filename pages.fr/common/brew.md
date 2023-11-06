@@ -1,7 +1,7 @@
 # brew
 
 > Gestionnaire de paquets pour macOS et Linux.
-> Plus d'informations : <https://brew.sh>.
+> Plus d'informations : <https://docs.brew.sh/Manpage>.
 
 - Installe la dernière version stable d'une formule ou d'un cask (ajouter `--devel` pour une version de développement):
 

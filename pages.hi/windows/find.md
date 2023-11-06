@@ -1,7 +1,7 @@
 # find
 
 > एक या अधिक फ़ाइलों में निर्दिष्ट स्ट्रिंग ढूंढें।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>.
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>।
 
 - वे पंक्तियाँ खोजें जिनमें एक निर्दिष्ट स्ट्रिंग हो:
 
