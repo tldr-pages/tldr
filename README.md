@@ -27,19 +27,23 @@ to traditional [man pages](https://en.wikipedia.org/wiki/Man_page).
 
 Maybe you're new to the command-line world? Perhaps you're just a little rusty or can't always recall the arguments for commands like `lsof`, or `tar`?
 
-It certainly doesn't help that the first option explained in `man tar` is:
+It certainly doesn't help that, in the past, the first option explained in `man tar` was:
 
-```
+```console
+$ man tar
+...
 -b blocksize
    Specify the block size, in 512-byte records, for tape drive I/O.
    As a rule, this argument is only needed when reading from or writing to tape drives,
    and usually not even then as the default block size of 20 records (10240 bytes) is very common.
+...
 ```
 
 There seems to be room for simpler help pages, focused on practical examples.
 How about:
 
-![Animated SVG of the tldr client displaying the tar command.](images/tldr.svg)
+![Screenshot of the tldr client displaying the tar command in light mode.](images/tldr-light.png#gh-light-mode-only)
+![Screenshot of the tldr client displaying the tar command in dark mode.](images/tldr-dark.png#gh-dark-mode-only)
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line tools.
@@ -54,16 +58,16 @@ which is supported by the tldr-pages project maintainers:
 npm install -g tldr
 ```
 
-Alternatively, you can also use the [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via `pip3`.
+Alternatively, you can also use the official [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via [pip3](https://pypi.org/project/tldr/).
 
-```sh
+```shell
 pip3 install tldr
 ```
 
-Or Mac users can also install our [C Client](https://github.com/tldr-pages/tldr-c-client) using Homebrew.
+Or Linux and Mac users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc):
 
-```sh
-brew install tldr
+```shell
+brew install tlrc
 ```
 
 Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,

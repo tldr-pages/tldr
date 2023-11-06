@@ -5,16 +5,16 @@
 
 - Konwertuj plik SCSS lub Sass do CSS i wypisz wynik:
 
-`sass {{plikwejsciowy.scss|plikwejsciowy.sass}}`
+`sass {{plik_wejściowy.scss|plik_wejściowy.sass}}`
 
 - Konwertuj plik SCSS lub Sass do CSS i zapisz wynik w pliku:
 
-`sass {{plikwejsciowy.scss|plikwejsciowy.sass}} {{plikwyjsciowy.css}}`
+`sass {{plik_wejściowy.scss|plik_wejściowy.sass}} {{plik_wyjściowy.css}}`
 
 - Obejrzyj zmiany w pliku SCSS lub Sass i wyślij lub zaktualizuj plik CSS o tej samej nazwie:
 
-`sass --watch {{plikwejsciowy.scss|plikwejsciowy.sass}}`
+`sass --watch {{plik_wejściowy.scss|plik_wejściowy.sass}}`
 
 - Obejrzyj zmiany w pliku SCSS lub Sass i wyślij lub zaktualizuj plik CSS o podanej nazwie:
 
-`sass --watch {{plikwejsciowy.scss|plikwejsciowy.sass}}:{{plikwyjsciowy.css}}`
+`sass --watch {{plik_wejściowy.scss|plik_wejściowy.sass}}:{{plik_wyjściowy.css}}`

@@ -17,7 +17,7 @@ from datetime import datetime
 from weasyprint import HTML
 
 
-def main(loc, colorscheme):
+def main(loc, colorscheme, output_filename, platform):
     # Checking correctness of path
     if not os.path.isdir(loc):
         print("Invalid directory. Please try again!", file=sys.stderr)
@@ -31,16 +31,21 @@ def main(loc, colorscheme):
     # A string that stores all pages in HTML format
     html = (
         '<!doctype html><html><head><meta charset="utf-8"></head>'
-        + "<body><h1 class=title-main>tldr pages</h1>"
+        + "<body><h1 class=title-main>tldr pages book</h1>"
         + "<div class=title-sub>Simplified and community-driven man pages</div>"
         + "<div class=title-sub><em><small>Generated on "
         + datetime.now().strftime("%c")
-        + "</small></em></div>"
+        + "</small></em></div><br><br>"
+        + "<div class=title-sub>Website: <a href=https://tldr.sh>https://tldr.sh</a></div><br>"
+        + "<div class=title-sub>GitHub: <a href=https://github.com/tldr-pages/tldr>https://github.com/tldr-pages/tldr</a></div><br>"
         + '<p style="page-break-before: always" ></p>'
     )
 
     # Writing names of all directories inside 'pages' to a list
     for operating_sys in sorted(os.listdir(loc)):
+        if platform and operating_sys not in platform:
+            continue
+
         # Required string to create directory title pages
         html += (
             "<h1 class=title-dir>"
@@ -68,11 +73,14 @@ def main(loc, colorscheme):
     html += "</body></html>"
 
     # Writing the PDF to disk
-    print("\nConverting all pages to PDF...")
-    HTML(string=html).write_pdf("tldr-pages.pdf", stylesheets=csslist)
+    if platform:
+        output_filename = f"{output_filename[:-4]}-{'+'.join(platform)}.pdf"
 
-    if os.path.exists("tldr-pages.pdf"):
-        print("\nCreated tldr-pages.pdf in the current directory!\n")
+    print("\nConverting all pages to PDF...")
+    HTML(string=html).write_pdf(output_filename, stylesheets=csslist)
+
+    if os.path.exists(output_filename):
+        print(f"\nCreated {output_filename} in the current directory!\n")
 
 
 if __name__ == "__main__":
@@ -89,6 +97,18 @@ if __name__ == "__main__":
         default="basic",
         help="Color scheme of the PDF",
     )
+    parser.add_argument(
+        "-o",
+        "--output",
+        default="tldr-book.pdf",
+        help="Custom filename for the output PDF (default is 'tldr-book.pdf')",
+    )
+    parser.add_argument(
+        "-p",
+        "--platform",
+        nargs="+",
+        help="Specify one or more platforms to generate PDFs for",
+    )
     args = parser.parse_args()
 
-    main(args.dir_path, args.color)
+    main(args.dir_path, args.color, args.output, args.platform)

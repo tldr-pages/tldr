@@ -1,7 +1,7 @@
 # ip
 
 > Mostra / manipola routing, dispositivi, criteri di routing e tunnel.
-> Alcuni sottocomandi, come `ip address`, hanno una propria documentazione d'uso. Maggiori informazioni: <https://www.man7.org/linux/man-pages/man8/ip.8.html>
+> Alcuni sottocomandi, come `ip address`, hanno una propria documentazione d'uso. Maggiori informazioni: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
 
 - Elenca le interfacce con informazioni dettagliate:
 
