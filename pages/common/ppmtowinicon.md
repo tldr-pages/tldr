@@ -6,4 +6,3 @@
 - View documentation for the current command:
 
 `tldr pamtowinicon`
-
