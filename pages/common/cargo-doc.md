@@ -1,20 +1,20 @@
 # cargo doc
 
-> Build and view Rust package documentation offline.
+> Build the documentation of Rust packages.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-doc.html>.
 
-- Build and view the default package documentation in the browser:
+- Build the documentation for the current project and all dependencies:
+
+`cargo doc`
+
+- Do not build documentation for dependencies:
+
+`cargo doc --no-deps`
+
+- Build and open the documentation in a browser:
 
 `cargo doc --open`
 
-- Build documentation without accessing the network:
-
-`cargo doc --offline`
-
-- View a particular package's documentation:
+- Build and view the documentation of a particular package:
 
 `cargo doc --open --package {{package}}`
-
-- View a particular package's documentation offline:
-
-`cargo doc --open --offline --package {{package}}`
