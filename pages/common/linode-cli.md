@@ -8,7 +8,7 @@
 
 `linode-cli linodes list`
 
-- View documentation for managing Linode accounts:
+- View docmentation for managing Linode accounts:
 
 `tldr linode-cli account`
 

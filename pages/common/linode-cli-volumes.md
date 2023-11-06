@@ -4,7 +4,7 @@
 > See also: `linode-cli`.
 > More information: <https://www.linode.com/docs/products/tools/cli/guides/block-storage-volumes/>.
 
-- List current Volumes:
+- List current Volumnes:
 
 `linode-cli volumes list`
 

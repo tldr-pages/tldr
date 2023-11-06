@@ -1,17 +1,8 @@
 # xbps
 
-> Het X Binary Package System is de pakketbeheerder die wordt gebruikt door Void Linux.
-> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> Dit commando is een alias van `xbps-install`.
 > Meer informatie: <https://docs.voidlinux.org/xbps/index.html>.
 
-- Bekijk de documentatie voor installeren en bijwerken van pakketten:
+- Bekijk de documentatie van het originele commando:
 
 `tldr xbps-install`
-
-- Bekijk de documentatie voor verwijderen van pakketten:
-
-`tldr xbps-remove`
-
-- Bekijk documentatie om op zoek te gaan naar pakket- en repository-informatie:
-
-`tldr xbps-query`

@@ -1,11 +1,7 @@
 # just
 
-> `just` kan naar meerdere commando's met dezelfde naam verwijzen.
+> Dit commando is een alias van `just.1`.
 
-- Bekijk de documentatie voor het commando:
+- Bekijk de documentatie van het originele commando:
 
 `tldr just.1`
-
-- Bekijk de documentatie voor de V8 JavaScript runtime voor Linux:
-
-`tldr just.js`
