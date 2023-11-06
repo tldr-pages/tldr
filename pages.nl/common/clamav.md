@@ -1,7 +1,7 @@
 # ClamAV
 
 > Open-source anti-virus programma.
-> ClamAV is geen commando, maar een set van commandos.
+> ClamAV is geen commando, maar een set van commando's.
 > Meer informatie: <https://www.clamav.net>.
 
 - Toon de tldr pagina om bestanden te scannen door gebruik te maken van de `clamd` daemon:
