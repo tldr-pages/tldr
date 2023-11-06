@@ -2,7 +2,7 @@
 
 > ACME ক্লায়েন্ট প্রোটোকল প্রয়োজনীয় স্ক্রিপ্ট, certbot এর একটি বিকল্প।
 > `acme.sh dns` দেখুন।
-> আরও তথ্য পেতে: <https://github.com/acmesh-official/acme.sh>.
+> আরও তথ্য পাবেন: <https://github.com/acmesh-official/acme.sh>।
 
 - ওয়েবরুট মোড ব্যবহার করে একটি সার্টিফিকেট ইস্যু করুন:
 

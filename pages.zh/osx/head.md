@@ -1,7 +1,7 @@
 # head
 
 > 输出文件的开头部分。
-> 更多信息：<https://ss64.com/osx/head.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/head.1.html>.
 
 - 输出文件的前几行：
 

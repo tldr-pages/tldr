@@ -1,7 +1,7 @@
 # acme.sh --dns
 
 > TLS সার্টিফিকেট ইস্যু করার জন্য DNS-01 চ্যালেঞ্জ ব্যবহার করুন।
-> আরও তথ্য পেতে: <https://github.com/acmesh-official/acme.sh/wiki>.
+> আরও তথ্য পাবেন: <https://github.com/acmesh-official/acme.sh/wiki>।
 
 - স্বয়ংক্রিয় DNS API মোড ব্যবহার করে একটি সার্টিফিকেট ইস্যু করুন:
 

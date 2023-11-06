@@ -1,7 +1,7 @@
 # brew
 
 > A versão Linux do gerenciador de pacotes Homebrew.
-> Mais informações: <https://brew.sh>.
+> Mais informações: <https://docs.brew.sh/Manpage>.
 
 - Buscar por fórmulas disponíveis:
 

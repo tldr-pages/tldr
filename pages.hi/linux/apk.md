@@ -1,7 +1,7 @@
 # apk
 
 > अल्पाइन लिनक्स पैकेज प्रबंधन उपकरण।
-> अधिक जानकारी: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
+> अधिक जानकारी: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>।
 
 - सभी दूरस्थ रिपॉजिटरी से रिपॉजिटरी इंडेक्स अपडेट करें:
 

@@ -1,7 +1,7 @@
 # curl
 
 > यह आदेश `curl -p common` का उपनाम है।
-> अधिक जानकारी: <https://curl.se>।
+> अधिक जानकारी: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 

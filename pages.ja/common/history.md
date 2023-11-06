@@ -1,7 +1,7 @@
 # history
 
 > コマンドラインの履歴です。
-> 詳しくはこちら: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.
+> 詳しくはこちら: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>
 
 - コマンドの履歴一覧を行番号付きで表示する:
 

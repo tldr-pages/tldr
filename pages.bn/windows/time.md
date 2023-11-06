@@ -1,7 +1,7 @@
 # time
 
 > সিস্টেম সময় প্রদর্শন বা সেট করুন।
-> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/time>.
+> আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/time>।
 
 - বর্তমান সিস্টেম সময় প্রদর্শন এবং একটি নতুন সময় এন্টার করতে প্রম্পট করুন (অপরিবর্তিত রাখতে খালি রাখুন):
 

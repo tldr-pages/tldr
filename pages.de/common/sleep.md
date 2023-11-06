@@ -1,7 +1,7 @@
 # sleep
 
 > Verzögert für einen bestimmten Zeitraum.
-> Weitere Informationen: <https://www.gnu.org/software/coreutils/sleep>.
+> Weitere Informationen: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>.
 
 - Verzögere in Sekunden:
 
