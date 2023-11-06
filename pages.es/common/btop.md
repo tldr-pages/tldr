@@ -4,10 +4,10 @@
 > Versión en C++ de `bpytop`.
 > Más información: <https://github.com/aristocratos/btop>.
 
-- Iniciar `btop`:
+- Inicia `btop`:
 
 `btop`
 
-- Iniciar `btop` con una configuración preestablecida:
+- Inicia `btop` con una configuración preestablecida:
 
 `btop --preset {{0..9}}`
