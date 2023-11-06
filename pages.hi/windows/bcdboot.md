@@ -1,7 +1,7 @@
 # bcdboot
 
 > बूट फ़ाइलों को कॉन्फ़िगर या सुधारें।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-hardware/manufacture/desktop/bcdboot-command-line-options-techref-di>.
+> अधिक जानकारी: <https://learn.microsoft.com/windows-hardware/manufacture/desktop/bcdboot-command-line-options-techref-di>।
 
 - स्रोत विंडोज़ फ़ोल्डर से BCD फ़ाइलों का उपयोग करके सिस्टम विभाजन को प्रारंभ करें:
 
