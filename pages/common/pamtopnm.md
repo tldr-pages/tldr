@@ -1,7 +1,7 @@
 # pamtopnm
 
 > Convert a PAM image to an equivalent PNM image.
-> More information: <hhttps://netpbm.sourceforge.net/doc/pamtopnm.html>.
+> More information: <https://netpbm.sourceforge.net/doc/pamtopnm.html>.
 
 - Convert a PAM image to an equivalent PNM image, i.e. a PBM, PGM or PPM image:
 
