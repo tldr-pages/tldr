@@ -16,6 +16,10 @@
 
 `wl-copy --paste-once "{{text}}"`
 
+- Copy an image:
+
+`wl-copy < ./image.png`
+
 - Clear the clipboard:
 
 `wl-copy --clear`
