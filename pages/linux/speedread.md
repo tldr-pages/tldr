@@ -10,7 +10,7 @@
 
 - Resume from line:
 
-`cat tea.txt | speedread -resume 5`
+`cat tea.txt | speedread -resume {{5}}`
 
 - Show multiple words at a time:
 
