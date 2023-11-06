@@ -6,7 +6,7 @@
 
 - Basic example.  Read `tea.txt` at a speed of 250 wpm:
 
-`cat tea.txt | speedread -wpm 250`
+`cat tea.txt | speedread -wpm {{250}}`
 
 - Resume from line:
 
