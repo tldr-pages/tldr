@@ -3,7 +3,7 @@
 > Convert a GEM image file into a PNM image.
 > More information: <https://netpbm.sourceforge.net/doc/gemtopnm.html>.
 
-- Generate a PNM file as output for a GEM image file as input:
+- Convert a GEM image file to a PNM image:
 
 `gemtopbm {{path/to/file.img}} > {{path/to/output.pbm}}`
 
