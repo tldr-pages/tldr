@@ -1,10 +1,10 @@
 # btop
 
 > Un monitor de recursos que muestra información sobra la CPU, memoria, discos, red y procesos.
-> Versión en C++ de`bpytop`.
+> Versión en C++ de `bpytop`.
 > Más información: <https://github.com/aristocratos/btop>.
 
-- Iniciar`btop`:
+- Iniciar `btop`:
 
 `btop`
 
