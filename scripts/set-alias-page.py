@@ -27,7 +27,7 @@ def get_tldr_root():
 
     # If this script is running from tldr/scripts, the parent's parent is the root
     f = os.path.normpath(__file__)
-    if f.endswith("tldr/scripts/set-more-info-link.py"):
+    if f.endswith("tldr/scripts/set-alias-page.py"):
         return os.path.dirname(os.path.dirname(f))
 
     if "TLDR_ROOT" in os.environ:
