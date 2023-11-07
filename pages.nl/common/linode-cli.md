@@ -1,7 +1,7 @@
 # linode-cli
 
 > Beheer Linode cloud-diensten.
-> Sommige subcommandos zoals `events` hebben hun eigen documentatie.
+> Sommige subcommando's zoals `events` hebben een eigen documentatie pagina.
 > Meer informatie: <https://www.linode.com/docs/products/tools/cli/get-started/>.
 
 - Toon alle Linodes:
