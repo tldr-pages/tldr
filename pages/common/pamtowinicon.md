@@ -3,7 +3,7 @@
 > Convert a PAM image to a Windows ICO file.
 > More information: <https://netpbm.sourceforge.net/doc/pamtowinicon.html>.
 
-- Read a PAM file as input and produce an ICO file as output:
+- Convert a PAM image file to an ICO file:
 
 `pamtowinicon {{path/to/input_file.pam}} > {{path/to/output.ico}}`
 
