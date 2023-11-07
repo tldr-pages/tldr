@@ -1,6 +1,6 @@
 # clear
 
-> Dit commando is een alias van `clear-host`.
+> In PowerShell is dit commando een alias van `Clear-Host`.
 
 - Bekijk de documentatie van het originele commando:
 
