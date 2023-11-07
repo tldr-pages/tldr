@@ -14,4 +14,4 @@
 
 - Installeer pakketten van de onbewerkte uitvoer van `pkg_info`:
 
-`pkg_add -l {{pad/naar/file}}`
+`pkg_add -l {{pad/naar/bestand}}`
