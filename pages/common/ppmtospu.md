@@ -3,7 +3,7 @@
 > Convert a PPM file to an Atari Spectrum 512 image.
 > More information: <https://netpbm.sourceforge.net/doc/ppmtospu.html>.
 
-- Convert a PPM file to an SPU image:
+- Convert a PPM file to an Atari Spectrum 512 image:
 
 `ppmtospu {{path/to/input.ppm}} > {{path/to/output.spu}}`
 

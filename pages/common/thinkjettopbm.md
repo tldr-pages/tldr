@@ -1,6 +1,6 @@
 # thinkjettopbm
 
-> Convert a HP ThinkJet printer commands file to PBM.
+> Convert a HP ThinkJet printer commands file to a PBM file.
 > More information: <https://netpbm.sourceforge.net/doc/thinkjettopbm.html>.
 
 - Convert a HP ThinkJet printer commands file to a PBM file:
