@@ -5,7 +5,7 @@
 
 - Laat het verschil zien tussen de laatste twee opsommingen van een specifiek domein:
 
-`amass track -dir {{pad/naar/database_map}} -d {{domeinnaam}} -last 2`
+`amass track -dir {{pad/naar/database_map}} -d {{domeinnaam}} -last {{2}}`
 
 - Laat het verschil zien tussen een specitiek tijdstip en de laatste opsomming:
 
