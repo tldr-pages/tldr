@@ -4,7 +4,7 @@
 
 - Show general image information about the OS image:
 
-`systemd-dissect {{myimage.raw}}`
+`systemd-dissect {{path/to/image.raw}}`
 
 - Mount an OS image:
 
