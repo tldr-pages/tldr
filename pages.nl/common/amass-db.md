@@ -7,7 +7,7 @@
 
 `amass db -dir {{pad/naar/database_map}} -list`
 
-- Laat de resultaten zien van een specifieke opsommingsindex en domeinnaam:
+- Toon de resultaten van een specifieke opsommingsindex en domeinnaam:
 
 `amass db -dir {{pad/naar/database_map}} -d {{domeinnaam}} -enum {{indexlijst}} -show`
 
