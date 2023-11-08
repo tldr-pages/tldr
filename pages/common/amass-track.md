@@ -5,7 +5,7 @@
 
 - Show the difference between the last two enumerations of the specified domain:
 
-`amass track -dir {{path/to/database_directory}} -d {{domain_name}} -last 2`
+`amass track -dir {{path/to/database_directory}} -d {{domain_name}} -last {{2}}`
 
 - Show the difference between a certain point in time and the last enumeration:
 
