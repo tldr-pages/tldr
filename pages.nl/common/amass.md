@@ -12,7 +12,7 @@
 
 `amass -help`
 
-- Laat de help pagina van een subcommando zien (zoals `intel`, `enum` etc.):
+- Toon de help pagina van een subcommando (zoals `intel`, `enum` etc.):
 
 `amass -help {{subcommando}}`
 
