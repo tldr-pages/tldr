@@ -1,0 +1,25 @@
+# systemd-dissect
+
+
+> Tool for introspecting and interacting with file system OS disk images, specifically Discoverable Disk Images (DDIs).
+> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-dissect.html>.
+
+- Show General Image Information about the OS image:
+
+`systemd-dissect {{myimage.raw}}`
+
+- Mount an OS Image:
+
+`systemd-dissect --mount {{myimage.raw}} {{/mnt/myimage}}`
+
+- Unmount an OS Image:
+
+`systemd-dissect --umount {{/mnt/myimage}}`
+
+- List Files in an Image:
+
+`systemd-dissect --list {{myimage.raw}}`
+
+- Attach an OS Image:
+
+`systemd-dissect --attach {{myimage.raw}}`
