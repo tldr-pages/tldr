@@ -3,7 +3,7 @@
 > Convert a PPM image to an X11 version 3 pixmap.
 > More information: <https://netpbm.sourceforge.net/doc/ppmtoxpm.html>.
 
-- Convert an PPM image to a XPM image:
+- Convert a PPM image to a XPM image:
 
 `ppmtoxpm {{path/to/input_file.ppm}} > {{path/to/output_file.xpm}}`
 
