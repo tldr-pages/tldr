@@ -1,6 +1,6 @@
 # amass viz
 
-> Visualiseer de gevonden informatie in een netwerk grafiek.
+> Visualiseer de verzamelde informatie in een netwerk grafiek.
 > Meer informatie: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-viz-subcommand>.
 
 - Genereer een D3.js visualisatie op basis van databasegegevens:
