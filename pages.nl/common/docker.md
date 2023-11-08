@@ -4,7 +4,7 @@
 > Sommige subcommando's zoals `docker run` hebben hun eigen documentatie.
 > Meer informatie: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Maak een lijst van alle docker containers (actief en gestopte):
+- Toon alle docker containers (actief en gestopte):
 
 `docker ps --all`
 
