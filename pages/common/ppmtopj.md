@@ -7,7 +7,7 @@
 
 `ppmtopj {{path/to/input.ppm}} > {{path/to/output.pj}}`
 
-- Move the image in the x- and y-direction:
+- Move the image in the x and y direction:
 
 `ppmtopj -xpos {{dx}} -ypos {{dy}} {{path/to/input.ppm}} > {{path/to/output.pj}}`
 
