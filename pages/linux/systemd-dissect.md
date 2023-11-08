@@ -15,7 +15,7 @@
 
 `systemd-dissect --umount {{/mnt/image}}`
 
-- List Files in an Image:
+- List files in an image:
 
 `systemd-dissect --list {{myimage.raw}}`
 
