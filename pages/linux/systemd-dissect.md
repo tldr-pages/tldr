@@ -18,6 +18,6 @@
 
 `systemd-dissect --list {{myimage.raw}}`
 
-- Attach an OS Image:
+- Attach an OS image:
 
-`systemd-dissect --attach {{myimage.raw}}`
+`systemd-dissect --attach {{path/to/image.raw}}`
