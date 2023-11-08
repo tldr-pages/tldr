@@ -1,6 +1,6 @@
 # pamtotiff
 
-> Convert a Netpbm image to a TIFF file.
+> Convert a PAM image to a TIFF file.
 > More information: <https://netpbm.sourceforge.net/doc/pamtotiff.html>.
 
 - Convert a PAM image to a TIFF image:

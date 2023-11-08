@@ -1,9 +1,9 @@
 # pnmtotiffcmyk
 
-> Convert a Netpbm image to a CMYK encoded TIFF file.
+> Convert a PNM image to a CMYK encoded TIFF.
 > More information: <https://netpbm.sourceforge.net/doc/pnmtotiffcmyk.html>.
 
-- Convert a PNM image to a CMYK encoded TIFF image:
+- Convert a PNM image to a CMYK encoded TIFF:
 
 `pnmtotiffcmyk {{path/to/input_file.pnm}} > {{path/to/output_file.tiff}}`
 

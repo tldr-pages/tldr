@@ -3,7 +3,7 @@
 > Convert a TIFF image to a PNM image.
 > More information: <https://netpbm.sourceforge.net/doc/tifftopnm.html>.
 
-- Convert a TIFF file to a PNM file:
+- Convert a TIFF to a PNM file:
 
 `tifftopnm {{path/to/input_file.tiff}} > {{path/to/output_file.pnm}}`
 
