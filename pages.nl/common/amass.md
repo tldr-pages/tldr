@@ -8,7 +8,7 @@
 
 `amass {{subcommando}}`
 
-- Laat de generieke help pagina zien:
+- Toon de generieke help pagina:
 
 `amass -help`
 
