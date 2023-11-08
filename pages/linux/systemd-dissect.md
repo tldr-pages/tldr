@@ -10,9 +10,9 @@
 
 `systemd-dissect --mount {{path/to/image.raw}} {{/mnt/image}}`
 
-- Unmount an OS Image:
+- Unmount an OS image:
 
-`systemd-dissect --umount {{/mnt/myimage}}`
+`systemd-dissect --umount {{/mnt/image}}`
 
 - List Files in an Image:
 
