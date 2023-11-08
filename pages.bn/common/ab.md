@@ -1,7 +1,7 @@
 # ab
 
 > এপাচি এইচটিটিপি সার্ভার বেঞ্চমার্কিং টুল।
-> আরও তথ্য পেতে: <https://httpd.apache.org/docs/current/programs/ab.html>.
+> আরও তথ্য পাবেন: <https://httpd.apache.org/docs/current/programs/ab.html>।
 
 - নির্দিষ্ট URL এ ১০০টি HTTP GET অনুরোধ প্রয়ান করুন:
 

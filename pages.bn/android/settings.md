@@ -1,7 +1,7 @@
 # settings
 
 > Android OS সম্পর্কে তথ্য পান।
-> আরও তথ্য পাবেন: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> আরও তথ্য পাবেন: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>।
 
 - `global` নামস্থানে সেটিংসের একটি তালিকা প্রদর্শন করুন:
 

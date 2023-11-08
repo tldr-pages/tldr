@@ -215,7 +215,9 @@ Not translated yet.
 
 ### pl
 
-Not translated yet.
+```markdown
+Niektóre podkomendy takie jak `example command` mają osobną dokumentację.
+```
 
 ---
 
