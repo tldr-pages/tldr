@@ -8,7 +8,7 @@
 
 - Mount an OS image:
 
-`systemd-dissect --mount {{myimage.raw}} {{/mnt/myimage}}`
+`systemd-dissect --mount {{path/to/image.raw}} {{/mnt/image}}`
 
 - Unmount an OS Image:
 
