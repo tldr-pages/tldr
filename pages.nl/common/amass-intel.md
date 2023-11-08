@@ -19,7 +19,7 @@
 
 `amass intel -org {{organisatienaam}}`
 
-- Vind hoofddomeinen die bij een bepaalde Autonomous System nummer horen:
+- Vind hoofddomeinen die bij een bepaald ASN horen:
 
 `amass intel -asn {{asn}}`
 
