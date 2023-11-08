@@ -16,7 +16,7 @@
 
 `docker {{start|stop}} {{container_naam}}`
 
-- Haal een image op uit een docker register:
+- Download een image uit een docker register:
 
 `docker pull {{image}}`
 
