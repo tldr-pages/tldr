@@ -3,7 +3,7 @@
 > Verzamel open source informatie over een organisatie, zoals hoofddomeinen en ASN's.
 > Meer informatie: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
 
-- Vind hoofddeomeinen in een range aan ip adressen:
+- Vind hoofddomeinen in een range van IP adressen:
 
 `amass intel -addr {{192.168.0.1-254}}`
 
