@@ -32,6 +32,6 @@
 
 `docker rm {{container_naam}}`
 
-- Haal en volg de logs van een container:
+- Volg de logs van een container:
 
 `docker logs -f {{container_naam}}`
