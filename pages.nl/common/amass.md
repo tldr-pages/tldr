@@ -16,6 +16,6 @@
 
 `amass -help {{subcommando}}`
 
-- Laat de huidige versie zien:
+- Toon de huidige versie:
 
 `amass -version`
