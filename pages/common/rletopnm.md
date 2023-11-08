@@ -3,7 +3,7 @@
 > Convert a Utah Raster Tools RLE image file to a PNM file.
 > More information: <https://netpbm.sourceforge.net/doc/rletopnm.html>.
 
-- Convert an RLE image to a PNM image:
+- Convert an RLE image to a PNM file:
 
 `rletopnm {{path/to/input.rle}} > {{path/to/output.pnm}}`
 
