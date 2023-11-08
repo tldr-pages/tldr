@@ -7,7 +7,7 @@
 
 `pnmtopclxl {{path/to/input1.pnm path/to/input2.pnm ...}} > {{path/to/output.pclxl}}`
 
-- Specify the resolution of the image aswell as the location of the page from the upper left corner of each image:
+- Specify the resolution of the image as well as the location of the page from the upper left corner of each image:
 
 `pnmtopclxl -dpi {{resolution}} -xoffs {{x_offset}} -yoffs {{y_offset}} {{path/to/input1.pnm path/to/input2.pnm ...}} > {{path/to/output.pclxl}}`
 
