@@ -3,7 +3,7 @@
 > Convert a Sun rasterfile to a PNM file.
 > More information: <https://netpbm.sourceforge.net/doc/rasttopnm.html>.
 
-- Convert an RAST image to a PNM image:
+- Convert a RAST image to a PNM file:
 
 `rasttopnm {{path/to/input.rast}} > {{path/to/output.pnm}}`
 
