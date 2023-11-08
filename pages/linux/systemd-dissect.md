@@ -6,7 +6,7 @@
 
 `systemd-dissect {{myimage.raw}}`
 
-- Mount an OS Image:
+- Mount an OS image:
 
 `systemd-dissect --mount {{myimage.raw}} {{/mnt/myimage}}`
 
