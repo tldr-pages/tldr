@@ -20,7 +20,7 @@
 
 `docker pull {{image}}`
 
-- Geef een lijst met reeds gedownloade images weer:
+- Toon reeds gedownloade images:
 
 `docker images`
 
