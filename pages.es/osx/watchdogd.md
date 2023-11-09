@@ -5,7 +5,7 @@
 
 - Establece una unidad HFS+ como destino de la copia de seguridad:
 
-`sudo tmutil setdestination {{ruta/al/punto_montaje_disco}}
+`sudo tmutil setdestination {{ruta/al/punto_montaje_disco}}`
 
 - Establece un recurso compartido APF o SMB como destino de la copia de seguridad:
 
