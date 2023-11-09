@@ -17,7 +17,7 @@
 
 - List files in an image:
 
-`systemd-dissect --list {{myimage.raw}}`
+`systemd-dissect --list {{path/to/image.raw}}`
 
 - Attach an OS image to an automatically allocated loopback block device and print its path:
 
