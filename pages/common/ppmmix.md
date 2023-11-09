@@ -6,5 +6,3 @@
 - Blend the specified PPM images using fadefactor to control the weight of each image:
 
 `ppmmix {{fadefactor}} {{path/to/input_file1.ppm}} {{path/to/input_file2.ppm}} > {{path/to/output_file.ppm}}`
-
-
