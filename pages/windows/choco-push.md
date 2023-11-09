@@ -7,6 +7,6 @@
 
 `choco push --source {{https://push.chocolatey.org/}}`
 
-- Try to push a compiled nupkg to the specified feed before hitting the timeout:
+- Push a compiled nupkg to the specified feed with a timeout in seconds (default is 2700):
 
 `choco push --source {{"'https://push.chocolatey.org/'"}} --execution-timeout {{500}}`
