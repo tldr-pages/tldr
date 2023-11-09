@@ -10,4 +10,4 @@
 
 - Extract multiple archives:
 
-`unp {{path/to/archive_1.tar.gz}} {{path/to/archive_2.rar}}`
+`unp {{path/to/archive1.tar.gz}} {{path/to/archive2.rar}}`
