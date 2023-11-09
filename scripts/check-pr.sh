@@ -49,8 +49,12 @@ function check_diff {
   local git_diff
   local line
   local entry
+  local source_branch
+  
+  source_branch=$GITHUB_HEAD_REF
 
-  git_diff=$(git diff --name-status --find-copies-harder --diff-filter=AC ${{ github.event.pull_request.head.sha }}..origin/main -- pages/)
+  git fetch origin main
+  git_diff=$(git diff --name-status --find-copies-harder --diff-filter=AC $source_branch..origin/main -- pages/)
 
   if [[ -n $git_diff ]]; then
     echo -e "Check PR: git diff:\n$git_diff" >&2
