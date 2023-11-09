@@ -19,6 +19,10 @@
 
 `systemd-dissect --list {{myimage.raw}}`
 
-- Attach an OS image:
+- Attach an OS image to an automatically allocated loopback block device and print its path:
 
 `systemd-dissect --attach {{path/to/image.raw}}`
+
+- Detach an OS image from a loopback block device:
+
+`systemd-dissect --detach {{path/to/device}}`
