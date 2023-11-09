@@ -50,8 +50,7 @@ function check_diff {
   local line
   local entry
 
-  git fetch origin main:origin/main
-  git_diff=$(git diff --name-status --find-copies-harder --diff-filter=AC origin/main -- pages/)
+  git_diff=$(git diff --name-status --find-copies-harder --diff-filter=AC HEAD origin/main -- pages/)
 
   if [[ -n $git_diff ]]; then
     echo -e "Check PR: git diff:\n$git_diff" >&2
