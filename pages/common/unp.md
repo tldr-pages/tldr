@@ -1,7 +1,7 @@
 # unp
 
 > Extract any archive.
-> Relevant extractors are needed, e.g. `unrar` for RAR.
+> Relevant extractors need to be installed, e.g. `unrar` for RAR.
 > More information: <https://manned.org/unp>.
 
 - Extract an archive:
