@@ -15,6 +15,6 @@
 
 `ppmforge -mesh {{512}} -dimension {{2.5}} -xsize {{1000}} -ysize {{1000}} > {{path/to/image.ppm}}`
 
-- Control the tilt and the angle from which the generated planed is illuminated:
+- Control the tilt and the angle from which the generated planet is illuminated:
 
 `ppmforge -tilt {{-15}} -hour {{12}} > {{path/to/image.ppm}}`

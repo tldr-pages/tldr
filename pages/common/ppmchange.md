@@ -3,7 +3,7 @@
 > Change all pixels of one color in a PPM image to another color.
 > More information: <https://netpbm.sourceforge.net/doc/ppmchange.html>.
 
-- Exchange the first color in each oldcolor - newcolor pair with the second color:
+- Exchange the first color in each `oldcolor` - `newcolor` pair with the second color:
 
 `ppmchange {{oldcolor1 newcolor1 oldcolor2 newcolor2 ...}} {{path/to/input.ppm}} > {{path/to/output.ppm}}`
 
