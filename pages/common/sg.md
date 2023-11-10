@@ -1,6 +1,6 @@
 # ast-grep
 
-> CLI tool for code structural search, lint, and rewriting.
+> Tool for code structural search, lint, and rewriting.
 > More information: <https://ast-grep.github.io/guide/introduction.html>.
 
 - Scan possible queries on interactive mode:
