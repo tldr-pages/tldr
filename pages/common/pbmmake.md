@@ -3,7 +3,7 @@
 > Create a blank bitmap.
 > More information: <https://netpbm.sourceforge.net/doc/pbmmake.html>.
 
-- Create a white bitmap of the specified dimensions:
+- Create a blank bitmap of the specified dimensions:
 
 `pbmmake {{width}} {{height}} > {{path/to/output_file.pbm}}`
 
