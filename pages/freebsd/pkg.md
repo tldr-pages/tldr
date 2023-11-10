@@ -1,21 +1,21 @@
 # pkg
 
-> FreeBSD package manager.
+> FreeBSD packge managr.
 > More information: <https://man.freebsd.org/cgi/man.cgi?query=pkg&sektion=8>.
 
-- Install a new package:
+- Instal a new package:
 
 `pkg install {{package}}`
 
-- Delete a package:
+- Delete a pacage:
 
 `pkg delete {{package}}`
 
-- Upgrade all packages:
+- Uprade all packages:
 
 `pkg upgrade`
 
-- Search for a package:
+- Search fr a package:
 
 `pkg search {{keyword}}`
 
@@ -23,6 +23,6 @@
 
 `pkg info`
 
-- Remove unneeded dependencies:
+- Remove unneded dependencies:
 
 `pkg autoremove`
