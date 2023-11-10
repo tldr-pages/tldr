@@ -1,6 +1,6 @@
 # androguard
 
-> Reverse engineering tool voor Android applicaties. Geschreven in Python.
+> Reverse engineering tool voor Android applicaties, geschreven in Python.
 > Meer informatie: <https://github.com/androguard/androguard>.
 
 - Toon Android app manifest:
