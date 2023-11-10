@@ -9,7 +9,7 @@
 
 - Rewrite code using patterns on current directory:
 
-`sg run --pattern 'foo' --rewrite 'bar' --lang python`
+`sg run --pattern {{'foo'}} --rewrite {{'bar'}} --lang {{python}}`
 
 - Visualize possible changes without applying them:
 
