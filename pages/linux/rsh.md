@@ -5,7 +5,7 @@
 
 - Execute a command on a remote host:
 
-`rsh {{remote_host}} ls -l`
+`rsh {{remote_host}} {{ls -l}}`
 
 - Execute a command on a remote host with a specific username:
 
