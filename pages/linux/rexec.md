@@ -6,16 +6,16 @@
 
 - Execute a command on a remote [h]ost:
 
-`rexec -h={{remote_host}} ls -l`
+`rexec -h={{remote_host}} {{ls -l}}`
 
 - Specify the remote [u]sername on a remote [h]ost:
 
-`rexec -username={{username}} -h={{remote_host}} ps aux`
+`rexec -username={{username}} -h={{remote_host}} {{ps aux}}`
 
 - Redirect `stdin` from `/dev/null` on a remote [h]ost:
 
-`rexec --no-err -h={{remote_host}} ls -l`
+`rexec --no-err -h={{remote_host}} {{ls -l}}`
 
 - Specify the remote [P]ort on a remote [h]ost:
 
-`rexec -P={{1234}} -h={{remote_host}} ls -l`
+`rexec -P={{1234}} -h={{remote_host}} {{ls -l}}`
