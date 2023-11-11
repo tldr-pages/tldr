@@ -11,7 +11,7 @@
 
 `libtool --mode=link gcc -o {{path/to/library.lo}} {{path/to/source.lo}}`
 
-- Automatically set the library path so that another program can use uninstalled Libtool-generated programs or libraries:
+- Automatically set the library path so that another program can use uninstalled `libtool` generated programs or libraries:
 
 `libtool --mode=execute gdb {{path/to/program}}`
 
