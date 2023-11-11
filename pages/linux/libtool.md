@@ -17,7 +17,7 @@
 
 - Install a shared library:
 
-`libtool --mode=install cp {{path/to/library.la}} {{path/to/installation_dir}}`
+`libtool --mode=install cp {{path/to/library.la}} {{path/to/installation_directory}}`
 
 - Complete the installation of libtool libraries on the system:
 
