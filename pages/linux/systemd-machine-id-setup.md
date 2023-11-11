@@ -12,7 +12,7 @@
 
 `systemd-machine-id-setup --image-policy={{your_policy}}`
 
-- Display output as JSON:
+- Display the output as JSON:
 
 `sudo systemd-machine-id-setup --json=pretty`
 
