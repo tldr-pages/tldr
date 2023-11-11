@@ -4,7 +4,7 @@
 > Note: Always use sudo to execute these commands as they require elevated privileges.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemd-machine-id-setup.html>.
 
-- Print the machine ID generated or committed:
+- Print the generated or committed machine ID:
 
 `systemd-machine-id-setup --print`
 
