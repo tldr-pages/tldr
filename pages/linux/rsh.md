@@ -13,4 +13,4 @@
 
 - Redirect `stdin` to `/dev/null` when executing a command on a remote host:
 
-`rsh {{remote_host}} --no-err ls -l`
+`rsh {{remote_host}} --no-err {{ls -l}}`
