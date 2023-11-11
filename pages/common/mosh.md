@@ -20,7 +20,7 @@
 
 `mosh {{remote_host}} -- {{command -with -flags}}`
 
-- Select Mosh UDP port (useful when `{{remote_host}}` is behind a NAT):
+- Select Mosh UDP port (useful when `remote_host` is behind a NAT):
 
 `mosh -p {{124}} {{username}}@{{remote_host}}`
 
