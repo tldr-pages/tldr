@@ -19,7 +19,7 @@
 
 `libtool --mode=install cp {{path/to/library.la}} {{path/to/installation_directory}}`
 
-- Complete the installation of libtool libraries on the system:
+- Complete the installation of `libtool` libraries on the system:
 
 `libtool --mode=finish {{path/to/installation_dir}}`
 
