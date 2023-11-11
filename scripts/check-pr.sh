@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 # This script is executed by GitHub Actions for every pull request opened.
-# It currently accomplishes the following objectives (for English pages only):
+# It currently accomplishes the following objectives:
 #
 #  1. Detect pages that were just copied (i.e. cp pages/{common,linux}/7z.md).
 #  2. Detect pages that were added in a platform specific directory although
@@ -50,7 +50,7 @@ function check_diff {
   local line
   local entry
 
-  git_diff=$(git diff --name-status --find-copies-harder --diff-filter=AC --relative=pages/ remotes/origin/main)
+  git_diff=$(git diff --name-status --find-copies-harder --diff-filter=AC origin/main -- pages*/)
 
   if [[ -n $git_diff ]]; then
     echo -e "Check PR: git diff:\n$git_diff" >&2
