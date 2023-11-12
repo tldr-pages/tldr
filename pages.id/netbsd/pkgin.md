@@ -1,7 +1,7 @@
 # pkgin
 
 > Atur pemasangan paket `pkgsrc` dalam NetBSD.
-> Informasi lebih lanjut: https://pkgin.net/#usage.
+> Informasi lebih lanjut: <https://pkgin.net/#usage>.
 
 - Pasang sebuah paket:
 
