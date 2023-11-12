@@ -44,6 +44,16 @@ function check_duplicates {
   esac
 }
 
+function check_missing_english_page() {
+  local page="$1"
+  local english_page=$(echo "$page" | sed 's/\.[^.]*$//')
+  echo "Checking if $page exists as $english_page"
+
+  if [[ ! -f "$english_page" ]]; then
+    printf "\x2d $MSG_NOT_EXISTS" "$page"
+  fi
+}
+
 # Look at git diff and check for copied/duplicated pages.
 function check_diff {
   local git_diff
@@ -104,6 +114,7 @@ function check_structure {
 ###################################
 
 MSG_EXISTS='The page `%s` already exists under the `%s` platform.\n'
+MSG_NOT_EXISTS='The page `%s` does not exists in English yet.\n'
 MSG_IS_COPY='The page `%s` seems to be a copy of `%s` (%d%% matching).\n'
 MSG_NOT_DIR='The file `%s` does not look like a directory.\n'
 MSG_NOT_FILE='The file `%s` does not look like a regular file.\n'
