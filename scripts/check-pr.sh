@@ -9,7 +9,8 @@
 #     they already exist under 'common'.
 #  3. Detect pages that were added in the 'common' platform although they
 #     already exist under a platform specific directory.
-#  4. Detect other miscellaneous anomalies in the pages folder.
+#  4. Detect pages that do not exist as English pages yet.
+#  5. Detect other miscellaneous anomalies in the pages folder.
 #
 # Results are printed to stdout, logs and errors to stderr.
 #
@@ -47,7 +48,6 @@ function check_duplicates {
 function check_missing_english_page() {
   local page="$1"
   local english_page=$(echo "$page" | sed 's/\.[^.]*$//')
-  echo "Checking if $page exists as $english_page"
 
   if [[ ! -f "$english_page" ]]; then
     printf "\x2d $MSG_NOT_EXISTS" "$page"
