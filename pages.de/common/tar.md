@@ -1,6 +1,6 @@
 # tar
 
-> Archivierungs Tool.
+> Archivierungstool.
 > Häufig kombiniert mit anderen Methoden zur Komprimierung, wie gzip oder bzip2.
 > Weitere Informationen: <https://www.gnu.org/software/tar>.
 
@@ -24,7 +24,7 @@
 
 `tar xf {{pfad/zu/quelle.tar}} -C {{verzeichnis}}`
 
-- Erstelle ein komprimiertes Archiv und benutze den Archiv Suffix um die Kompressionsmethode zu wählen:
+- Erstelle ein komprimiertes Archiv und benutze den die Dateiendung des Archivs um die Kompressionsmethode zu wählen:
 
 `tar caf {{ziel.tar.xz}} {{pfad/zu/datei1}} {{pfad/zu/datei2}} {{pfad/zu/datei3}}`
 
