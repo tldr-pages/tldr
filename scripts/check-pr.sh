@@ -47,7 +47,7 @@ function check_duplicates {
 
 function check_missing_english_page() {
   local page="$1"
-  local english_page=$(echo "$page" | sed 's/\.[^.]*$//')
+  local english_page="${page/pages.*\//}"
 
   if [[ ! -f "$english_page" ]]; then
     printf "\x2d $MSG_NOT_EXISTS" "$page"
