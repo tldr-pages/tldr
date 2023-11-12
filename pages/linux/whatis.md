@@ -19,6 +19,6 @@
 
 `whatis --regex '{{wish[0-9]\.[0-9]}}'`
 
-- Display descriptions of a specific language (requires `manpage-{{locale}}` package):
+- Display descriptions in a specific language:
 
 `whatis --locale={{en}} {{command}}`

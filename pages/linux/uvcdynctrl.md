@@ -15,7 +15,7 @@
 
 `uvcdynctrl -c`
 
-- Set a new control value (for negative values, add -- before {{-value}}):
+- Set a new control value (for negative values, use `-- -value`):
 
 `uvcdynctrl -s {{control_name}} {{value}}`
 

@@ -2,14 +2,15 @@
 # SPDX-License-Identifier: MIT
 
 # This script is executed by GitHub Actions for every pull request opened.
-# It currently accomplishes the following objectives (for English pages only):
+# It currently accomplishes the following objectives:
 #
 #  1. Detect pages that were just copied (i.e. cp pages/{common,linux}/7z.md).
 #  2. Detect pages that were added in a platform specific directory although
 #     they already exist under 'common'.
 #  3. Detect pages that were added in the 'common' platform although they
 #     already exist under a platform specific directory.
-#  4. Detect other miscellaneous anomalies in the pages folder.
+#  4. Detect pages that do not exist as English pages yet.
+#  5. Detect other miscellaneous anomalies in the pages folder.
 #
 # Results are printed to stdout, logs and errors to stderr.
 #
@@ -44,13 +45,22 @@ function check_duplicates {
   esac
 }
 
+function check_missing_english_page() {
+  local page="$1"
+  local english_page="pages/${page#pages*\/}"
+  
+  if [[ ! -f "$english_page" ]]; then
+    printf "\x2d $MSG_NOT_EXISTS" "$page" "$english_page"
+  fi
+}
+
 # Look at git diff and check for copied/duplicated pages.
 function check_diff {
   local git_diff
   local line
   local entry
 
-  git_diff=$(git diff --name-status --find-copies-harder --diff-filter=AC --relative=pages/ remotes/origin/main)
+  git_diff=$(git diff --name-status --find-copies-harder --diff-filter=AC origin/main -- pages*/)
 
   if [[ -n $git_diff ]]; then
     echo -e "Check PR: git diff:\n$git_diff" >&2
@@ -77,6 +87,7 @@ function check_diff {
 
       A) # file1 was newly added
         check_duplicates "$file1"
+        check_missing_english_page "$file1"
         ;;
     esac
   done <<< "$git_diff"
@@ -104,6 +115,7 @@ function check_structure {
 ###################################
 
 MSG_EXISTS='The page `%s` already exists under the `%s` platform.\n'
+MSG_NOT_EXISTS='The page `%s` does not exists as English page `%s` yet.\n'
 MSG_IS_COPY='The page `%s` seems to be a copy of `%s` (%d%% matching).\n'
 MSG_NOT_DIR='The file `%s` does not look like a directory.\n'
 MSG_NOT_FILE='The file `%s` does not look like a regular file.\n'
