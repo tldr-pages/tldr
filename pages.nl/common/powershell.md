@@ -2,7 +2,7 @@
 
 > Command-line shell en scripting taal specifiek ontworpen voor systeemadministratie.
 > Zie ook: `pwsh`.
-> Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
+> Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
 - Start een interactieve shell sessie:
 
