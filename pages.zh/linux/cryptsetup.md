@@ -7,7 +7,7 @@
 
 `cryptsetup luksFormat {{/dev/sda1}}`
 
-- 打开 LUKS 卷并在 `/dev/mapper/{{目标}}` 创建解密映射：
+- 打开 LUKS 卷并在 `/dev/mapper/目标` 创建解密映射：
 
 `cryptsetup luksOpen {{/dev/sda1}} {{目标}}`
 

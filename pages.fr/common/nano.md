@@ -19,6 +19,6 @@
 
 `nano -i {{fichier}}`
 
-- Avant la modification, sauvegarde le fichier actuel sous le format `{{nom_du_fichier_actuel}}~` :
+- Avant la modification, sauvegarde le fichier actuel sous le format `nom_du_fichier_actuel~` :
 
 `nano -B {{fichier}}`
