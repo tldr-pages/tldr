@@ -47,7 +47,7 @@ function check_duplicates {
 
 function check_missing_english_page() {
   local page="$1"
-  local english_page="${page/pages.*\//}"
+  local english_page="${page/pages.*\//pages/}"
 
   echo "Checking if $page exists as $english_page."
   
