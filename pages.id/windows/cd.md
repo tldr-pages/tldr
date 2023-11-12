@@ -1,6 +1,6 @@
 # cd
 
-> Menampilkan direktori kerja saat ini atau pindah ke direktori lain.
+> Tampilkan direktori kerja saat ini atau pindah ke direktori lain.
 > Dalam PowerShell, perintah ini merupakan alias dari `Set-Location`. Dokumentasi ini ditulis menurut perintah `cd` versi Command Prompt (`cmd`).
 > Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
