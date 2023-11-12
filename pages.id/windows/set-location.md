@@ -24,7 +24,7 @@
 
 `Set-Location ~`
 
-- Pergi menuju direktori yang telah dikunjungi sebelumnya/setelahnya
+- Pergi menuju direktori yang telah dikunjungi sebelumnya/setelahnya:
 
 `Set-Location {{-|+}}`
 
