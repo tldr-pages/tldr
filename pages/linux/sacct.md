@@ -18,3 +18,11 @@
 - Display elapsed time, job name, number of requested CPUs, and memory requested of a job:
 
 `sacct --jobs {{job_id}} --format={{elapsed}},{{jobname}},{{reqcpus}},{{reqmem}}`
+
+- Display recent jobs that occurred from one week ago up to the present day.
+
+`sacct --starttime=$(date -d "1 week ago" +'%F')`
+
+- Output a larger number of charachters for an attribute.
+
+`sacct --format=JobID,JobName%100`
