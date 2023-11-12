@@ -1,6 +1,6 @@
 # Set-Location
 
-> Menampilkan direktori kerja saat ini atau pindah ke direktori lain.
+> Tampilkan direktori kerja saat ini atau pindah ke direktori lain.
 > Perintah ini hanya dapat digunakan dalam PowerShell.
 > Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-location>.
 
