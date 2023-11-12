@@ -49,7 +49,7 @@ function check_missing_english_page() {
   local page="$1"
   local english_page="${page/pages.*\//}"
 
-  echo "Checking if $page exists as $english_page.
+  echo "Checking if $page exists as $english_page."
   
   if [[ ! -f "$english_page" ]]; then
     printf "\x2d $MSG_NOT_EXISTS" "$page"
