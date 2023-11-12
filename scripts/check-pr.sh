@@ -87,6 +87,7 @@ function check_diff {
 
       A) # file1 was newly added
         check_duplicates "$file1"
+        check_missing_english_page "$file1"
         ;;
     esac
   done <<< "$git_diff"
