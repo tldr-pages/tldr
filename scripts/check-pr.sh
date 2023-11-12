@@ -9,7 +9,8 @@
 #     they already exist under 'common'.
 #  3. Detect pages that were added in the 'common' platform although they
 #     already exist under a platform specific directory.
-#  4. Detect other miscellaneous anomalies in the pages folder.
+#  4. Detect pages that do not exist as English pages yet.
+#  5. Detect other miscellaneous anomalies in the pages folder.
 #
 # Results are printed to stdout, logs and errors to stderr.
 #
@@ -42,6 +43,15 @@ function check_duplicates {
       fi
       ;;
   esac
+}
+
+function check_missing_english_page() {
+  local page="$1"
+  local english_page="pages/${page#pages*\/}"
+  
+  if [[ ! -f "$english_page" ]]; then
+    printf "\x2d $MSG_NOT_EXISTS" "$page" "$english_page"
+  fi
 }
 
 # Look at git diff and check for copied/duplicated pages.
@@ -77,6 +87,7 @@ function check_diff {
 
       A) # file1 was newly added
         check_duplicates "$file1"
+        check_missing_english_page "$file1"
         ;;
     esac
   done <<< "$git_diff"
@@ -104,6 +115,7 @@ function check_structure {
 ###################################
 
 MSG_EXISTS='The page `%s` already exists under the `%s` platform.\n'
+MSG_NOT_EXISTS='The page `%s` does not exists as English page `%s` yet.\n'
 MSG_IS_COPY='The page `%s` seems to be a copy of `%s` (%d%% matching).\n'
 MSG_NOT_DIR='The file `%s` does not look like a directory.\n'
 MSG_NOT_FILE='The file `%s` does not look like a regular file.\n'
