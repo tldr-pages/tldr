@@ -7,14 +7,22 @@
 
 `kdesrc-build --initial-setup`
 
-- Build a KDE `component_name` and its dependencies from source:
+- Compile a KDE component and its dependencies from source:
 
 `kdesrc-build {{component_name}}`
 
-- Build a component without updating its local code and without compiling its dependencies:
+- Compile a component without updating its local code and without compiling its dependencies:
 
 `kdesrc-build --no-src --no-include-dependencies {{component_name}}`
 
-- Refresh the build directories:
+- Refresh the build directories before compile:
 
 `kdesrc-build --refresh-build {{component_name}}`
+
+- Resume compilation from a specific dependency:
+
+`kdesrc-build --resume-from={{dependency_component}} {{component_name}}`
+
+- Print full compilation info:
+
+`kdesrc-build --debug {{component_name}}`
