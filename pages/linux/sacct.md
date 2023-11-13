@@ -23,6 +23,6 @@
 
 `sacct --starttime=$(date -d "1 week ago" +'%F')`
 
-- Output a larger number of charachters for an attribute:
+- Output a larger number of characters for an attribute:
 
 `sacct --format=JobID,JobName%100`
