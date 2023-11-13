@@ -63,7 +63,7 @@ function run_tests {
   tldr-lint ./pages
   for f in ./pages.*; do
     if [[ $f == *zh* || $f == *zh_TW* ]]; then
-      tldr-lint --ignore "TLDR003,TLDR004,TLDR015,TLDR104,TLDR005" "${f}"
+      tldr-lint --ignore "TLDR003,TLDR004,TLDR005,TLDR015,TLDR104" "${f}"
     else
       tldr-lint --ignore "TLDR003,TLDR004,TLDR015,TLDR104" "${f}"
     fi
