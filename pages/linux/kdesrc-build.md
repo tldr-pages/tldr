@@ -3,7 +3,7 @@
 > Easily build KDE components from its source repositories.
 > More information: <https://invent.kde.org/sdk/kdesrc-build>.
 
-- Initialize kdesrc-build:
+- Initialize `kdesrc-build`:
 
 `kdesrc-build --initial-setup`
 
@@ -15,7 +15,7 @@
 
 `kdesrc-build --no-src --no-include-dependencies {{component_name}}`
 
-- Refresh the build directories before compile:
+- Refresh the build directories before compiling:
 
 `kdesrc-build --refresh-build {{component_name}}`
 
