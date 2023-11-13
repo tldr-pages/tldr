@@ -2,7 +2,7 @@
 
 > குறிப்பாக கணினி நிர்வாகத்திற்காக வடிவமைக்கப்பட்ட கட்டளை வரி ஷெல் மற்றும் ஸ்கிரிப்டிங் மொழி.
 > மேலும் பார்க்கவும்: `pwsh`.
-> மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
+> மேலும் விவரத்திற்கு: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
 - ஊடாடும் ஷெல் அமர்வைத் தொடங்கவும்:
 
