@@ -25,7 +25,7 @@
 
 - Actualiza un pod específico (previamente instalado) a su versión más reciente:
 
-`pod update {{nombre_del_pod}}`.
+`pod update {{nombre_del_pod}}`
 
 - Elimina CocoaPods de un proyecto Xcode:
 
