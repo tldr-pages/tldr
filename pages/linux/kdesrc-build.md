@@ -11,6 +11,6 @@
 
 `kdesrc-build {{component_name}}`
 
-- Build a component without updating its local code
+- Build a component without updating its local code:
 
 `kdesrc-build --no-src {{component_name}}`
