@@ -16,11 +16,11 @@
 
 `cat {{path/to/file.txt}} | speedread -multiword`
 
-- Slow down by 10%:
+- Slow down by 10% during the reading session:
 
 `[`
 
-- Speed up by 10%:
+- Speed up by 10% during the reading session:
 
 `]`
 
