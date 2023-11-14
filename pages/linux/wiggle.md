@@ -6,7 +6,7 @@
 
 - Apply changes from the patch file to the original file:
 
-`wiggle {{my_patch.patch}}`
+`wiggle {{path/to/my_patch.patch}}`
 
 - Apply changes to an [o]utput file:
 
