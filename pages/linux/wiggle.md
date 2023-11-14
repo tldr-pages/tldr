@@ -14,7 +14,7 @@
 
 - Take any changes in file.rej that patch could not apply, and merge them into file:
 
-`wiggle --replace {{file}} {{file.rej}}`
+`wiggle --replace {{path/to/file}} {{path/to/file.rej}}`
 
 - E[x]tract one branch of patch or merge file:
 
