@@ -10,7 +10,7 @@
 
 - Apply changes to an [o]utput file:
 
-`wiggle {{my_patch.patch}} -o {{output_file.txt}}`
+`wiggle {{path/to/my_patch.patch}} -o {{path/to/output_file.txt}}`
 
 - Take any changes in file.rej that patch could not apply, and merge them into file:
 
