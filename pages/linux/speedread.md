@@ -14,7 +14,7 @@
 
 - Show multiple words at a time:
 
-`cat tea.txt | speedread -multiword`
+`cat {{path/to/file.txt}} | speedread -multiword`
 
 - Slow down by 10%:
 
