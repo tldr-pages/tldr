@@ -24,6 +24,6 @@
 
 `wiggle --words {{path/to/my_word_patch.patch}} -o {{path/to/word_patched_code.c}}`
 
-- Get [help] about the [merge] function of wiggle:
+- Display help about the merge function:
 
 `wiggle --merge --help`
