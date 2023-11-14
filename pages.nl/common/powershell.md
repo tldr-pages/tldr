@@ -1,37 +1,17 @@
 # powershell
 
-> Command-line shell en scripting taal specifiek ontworpen voor systeemadministratie.
-> Zie ook: `pwsh`.
+> Dit commando kan verward worden met de cross-platform versie van PowerShell (vroeger bekend als PowerShell Core), welke gebruik maakt van `pwsh` in plaats van `powershell`.
+> Het originele `powershell` commando in Windows is nog steeds beschikbaar om gebruik te maken van de legacy Windows versie van PowerShell (versie 5.1 en lager).
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
-- Start een interactieve shell sessie:
+- Bekijk de documenatie voor het commando dat refereert naar de laatste, cross-platform versie van  PowerShell (versie 6 en hoger):
 
-`powershell`
+`tldr pwsh`
 
-- Start een interactieve shell sessie zonder het laden van startup configuraties:
+- Bekijk de documenatie voor het commando dat refereert naar de legacy Windows PowerShell (versie 5.1 en lager):
 
-`powershell -NoProfile`
+`tldr powershell -p windows`
 
-- Voer specifieke commando's uit:
+- Bekijk de documenatie voor het commando dat refereert naar de legacy Windows PowerShell in oudere versies van de `tldr` command-line client:
 
-`powershell -Command "{{echo 'powershell is uitgevoerd'}}"`
-
-- Voer een specifiek script uit:
-
-`powershell -File {{pad/naar/script.ps1}}`
-
-- Start een sessie met een specifieke versie van PowerShell:
-
-`powershell -Version {{versie}}`
-
-- Voorkom dat een shell uitgaat na het uitvoeren van startup commando's:
-
-`powershell -NoExit`
-
-- Beschrijf het formaat van gegevens die naar PowerShell zijn verzonden:
-
-`powershell -InputFormat {{Text|XML}}`
-
-- Bepaal hoe een output van PowerShell wordt opgemaakt:
-
-`powershell -OutputFormat {{Text|XML}}`
+`tldr powershell -o windows`
