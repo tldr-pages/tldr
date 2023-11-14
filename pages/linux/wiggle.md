@@ -12,7 +12,7 @@
 
 `wiggle {{path/to/my_patch.patch}} -o {{path/to/output_file.txt}}`
 
-- Take any changes in file.rej that patch could not apply, and merge them into file:
+- Take any changes in `file.rej` that could not have been applied and merge them into a file:
 
 `wiggle --replace {{path/to/file}} {{path/to/file.rej}}`
 
