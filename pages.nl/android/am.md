@@ -17,4 +17,4 @@
 
 - Converteer een intentie naar een URI:
 
-`am to-uri -a {{android.intent.action.VIEW}} -d {{tel:123}}`
+`am to-url -a {{android.intent.action.VIEW}} -d {{tel:123}}`
