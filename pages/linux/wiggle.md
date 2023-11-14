@@ -18,7 +18,7 @@
 
 - E[x]tract one branch of patch or merge file:
 
-`wiggle -x {{my_patch.patch}}`
+`wiggle -x {{path/to/my_patch.patch}}`
 
 - Apply patch and the compared [words] are saved to an [o]utput file:
 
