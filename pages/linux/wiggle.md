@@ -20,7 +20,7 @@
 
 `wiggle -x {{path/to/my_patch.patch}}`
 
-- Apply patch and the compared [words] are saved to an [o]utput file:
+- Apply a patch and save the compared words to the [o]utput file:
 
 `wiggle --words {{path/to/my_word_patch.patch}} -o {{path/to/word_patched_code.c}}`
 
