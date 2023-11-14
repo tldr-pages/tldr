@@ -8,7 +8,7 @@
 
 `wiggle {{path/to/my_patch.patch}}`
 
-- Apply changes to an [o]utput file:
+- Apply changes to the [o]utput file:
 
 `wiggle {{path/to/my_patch.patch}} -o {{path/to/output_file.txt}}`
 
