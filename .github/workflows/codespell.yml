@@ -24,6 +24,6 @@ jobs:
           # Exit with 0 regardless of typos.
           only_warn: 1
           # Skip non-English pages
-          skip: pages.*/*.md
+          skip: pages.*/*/*.md
           # Only check files in the PR
           path: ${{ steps.changed-files.outputs.all_changed_files }}
