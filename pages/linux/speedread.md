@@ -4,9 +4,9 @@
 > Shows input text as a per-word RSVP (rapid serial visual presentation) aligned on optimal reading points, which allows reading text at a much more rapid pace than usual as the eye can stay fixed on a single place.
 > More information: <https://github.com/pasky/speedread>.
 
-- Basic example.  Read `tea.txt` at a speed of 250 wpm:
+- Read a text file at a speed of 250 wpm:
 
-`cat tea.txt | speedread -wpm {{250}}`
+`cat {{path/to/file.txt}} | speedread -wpm {{250}}`
 
 - Resume from line:
 
