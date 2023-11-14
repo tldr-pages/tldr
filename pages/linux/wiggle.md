@@ -22,7 +22,7 @@
 
 - Apply patch and the compared [words] are saved to an [o]utput file:
 
-`wiggle --words {{my_word_patch.patch}} -o {{word_patched_code.c}}`
+`wiggle --words {{path/to/my_word_patch.patch}} -o {{path/to/word_patched_code.c}}`
 
 - Get [help] about the [merge] function of wiggle:
 
