@@ -68,6 +68,8 @@ If you are an owner of the organization, you can see an automated list
   [22 October 2023](https://github.com/tldr-pages/tldr/issues/11159) — present
 - **HoJeong Im ([@IMHOJEONG](https://github.com/IMHOJEONG))**:
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11200) — present
+- **Shashank Hebbar ([@quantumflo](https://github.com/quantumflo))**:
+  [13 November 2023](https://github.com/tldr-pages/tldr/issues/11460) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):

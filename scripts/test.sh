@@ -25,7 +25,7 @@ function run_black {
   fi
 
   if [[ -z $errs ]]; then
-    # skip black check if command is not available in the system.
+    # skip the black check if the command is not available in the system.
     if [[ $CI != true ]] && ! exists black; then
       echo "Skipping black check, command not available."
       return 0
@@ -39,7 +39,7 @@ function run_black {
     return 0
   fi
 
-  # we want to ignore the exit code from black on failure, so that we can
+  # We want to ignore the exit code from black on failure so that we can
   # do the conditional printing below
   if [[ ${errs} != "All done!"* ]]; then
      echo -e "${errs}" >&2
@@ -48,7 +48,7 @@ function run_black {
 }
 
 function run_flake8 {
-  # skip flake8 check if command is not available in the system.
+  # skip flake8 check if the command is not available in the system.
   if [[ $CI != true ]] && ! exists flake8; then
     echo "Skipping flake8 check, command not available."
     return 0
@@ -57,12 +57,16 @@ function run_flake8 {
   flake8 scripts
 }
 
-# Default test function, ran by `npm test`.
+# Default test function, run by `npm test`.
 function run_tests {
   find pages* -name '*.md' -exec markdownlint {} +
   tldr-lint ./pages
   for f in ./pages.*; do
-    tldr-lint --ignore "TLDR003,TLDR004,TLDR005,TLDR015,TLDR104" "${f}"
+    if [[ $f == *zh* || $f == *zh_TW* ]]; then
+      tldr-lint --ignore "TLDR003,TLDR004,TLDR005,TLDR015,TLDR104" "${f}"
+    else
+      tldr-lint --ignore "TLDR003,TLDR004,TLDR015,TLDR104" "${f}"
+    fi
   done
   run_black
   run_flake8
