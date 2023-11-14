@@ -16,7 +16,7 @@
 
 `wiggle --replace {{path/to/file}} {{path/to/file.rej}}`
 
-- E[x]tract one branch of patch or merge file:
+- E[x]tract one branch of a patch or merge file:
 
 `wiggle -x {{path/to/my_patch.patch}}`
 
