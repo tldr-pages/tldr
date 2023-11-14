@@ -9,7 +9,7 @@
 
 - Visualize only dialogs starting with INVITE packets with RTP packets from a pcap file:
 
-`sngrep -cr {{path/to/file.pcap}}`
+`sngrep -crI {{path/to/file.pcap}}`
 
 - Real-time interface with only dialogs starting with INVITE packets with RTP packets:
 
