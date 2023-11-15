@@ -1,7 +1,7 @@
 # afconvert
 
 > Convertir entre les formats de fichiers AFF et brut.
-> Plus d'information: <https://manned.org/afconvert.1>.
+> Plus d'informations: <https://manned.org/afconvert.1>.
 
 - Utiliser une extension spécifique (par défaut: `aff`):
 
