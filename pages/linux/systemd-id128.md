@@ -22,5 +22,3 @@
 - Generate a new random identifier and print it in UUID format:
 
 `$ systemd-id128 new -u`
-
-
