@@ -1,6 +1,6 @@
 # ledger
 
-> A powerful, double-entry accounting system..
+> A powerful, double-entry accounting system.
 > More information: <https://www.ledger-cli.org>.
 
 - Print a balance report showing totals:
