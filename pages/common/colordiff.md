@@ -1,7 +1,7 @@
 # colordiff
 
-> A tool to colorize diff output.
-> The Perl script colordiff is a wrapper for `diff` and produces the same output but with pretty syntax highlighting. Color schemes can be customized.
+> A wrapper around `diff` that produces the same output but with pretty syntax highlighting.
+> Color schemes can be customized.
 > More information: <https://github.com/kimmel/colordiff>.
 
 - Compare files:
@@ -20,6 +20,6 @@
 
 `colordiff -s {{file1}} {{file2}}`
 
-- Ignore white spaces:
+- Ignore whitespace:
 
 `colordiff -w {{file1}} {{file2}}`
