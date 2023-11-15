@@ -5,20 +5,20 @@
 
 - Generate a new random identifier:
 
-`$ systemd-id128 new`
+`systemd-id128 new`
 
 - Print the identifier of the current machine:
 
-`$ systemd-id128 {{machine-id}}`
+`systemd-id128 {{machine-id}}`
 
 - Print the identifier of the current boot:
 
-`$ systemd-id128 {{boot-id}}`
+`systemd-id128 {{boot-id}}`
 
 - Print the identifier of the current service invocation:
 
-`$ systemd-id128 {{invocation-id}}`
+`systemd-id128 {{invocation-id}}`
 
 - Generate a new random identifier and print it in UUID format:
 
-`$ systemd-id128 new -u`
+`systemd-id128 new -u`
