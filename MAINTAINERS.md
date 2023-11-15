@@ -72,6 +72,8 @@ If you are an owner of the organization, you can see an automated list
   [13 November 2023](https://github.com/tldr-pages/tldr/issues/11460) — present
 - **Leon ([@leonvsc](https://github.com/leonvsc))**:
   [14 November 2023](https://github.com/tldr-pages/tldr/issues/11495) — present
+- **Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin))**:
+  [9 January 2021](https://github.com/tldr-pages/tldr/issues/5122) — [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473), [15 November 2023](https://github.com/tldr-pages/tldr/issues/11509) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -86,8 +88,6 @@ If you are an owner of the organization, you can see an automated list
   [24 August 2020](https://github.com/tldr-pages/tldr/issues/4291) — [5 October 2020](https://github.com/tldr-pages/tldr/issues/4504)
 - bl-ue ([@bl-ue](https://github.com/bl-ue)):
   [30 December 2020](https://github.com/tldr-pages/tldr/issues/5056) — [2 February 2021](https://github.com/tldr-pages/tldr/issues/5219)
-- Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin)):
-  [9 January 2021](https://github.com/tldr-pages/tldr/issues/5122) — [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473)
 - Tan Siret Akıncı ([@yutyo](https://github.com/yutyo)):
   [3 March 2021](https://github.com/tldr-pages/tldr/issues/5345) — [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702)
 - Marcher Simon ([@marchersimon](https://github.com/marchersimon)):
@@ -126,8 +126,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — present
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
   [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
-- **Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin))**:
-  [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473) — present
 - **Tan Siret Akıncı ([@yutyo](https://github.com/yutyo))**:
   [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702) — present
 - **Florian Benscheidt ([@Waples](https://github.com/Waples))**:
@@ -166,6 +164,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [14 December 2022](https://github.com/tldr-pages/tldr/issues/9625) — [19 June 2023](https://github.com/tldr-pages/tldr/issues/10057)
 - Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson)):
   [4 January 2023](https://github.com/tldr-pages/tldr/issues/9671) — [7 July 2023](https://github.com/tldr-pages/tldr/issues/10054)
+- Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin)):
+  [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473) — [15 November 2023](https://github.com/tldr-pages/tldr/issues/11509)
 
 ## Organization owners
 
