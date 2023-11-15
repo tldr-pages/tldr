@@ -1,7 +1,8 @@
 # pwsh
 
 > Command-line shell and scripting language designed especially for system administration.
-> This command refers to PowerShell version 6 and above (also known as PowerShell Core and cross-platform PowerShell). To use the original Windows version (5.1 and below, also known as the legacy Windows PowerShell), use `powershell` instead of `pwsh`.
+> This command refers to PowerShell version 6 and above (also known as PowerShell Core and cross-platform PowerShell).
+> To use the original Windows version (5.1 and below, also known as the legacy Windows PowerShell), use `powershell` instead of `pwsh`.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
 - Start an interactive shell session:

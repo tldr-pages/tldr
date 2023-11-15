@@ -1,7 +1,7 @@
 # pacman
 
 > ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு.
-> இதையும் பார்க்கவும்: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`..
+> இதையும் பார்க்கவும்: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 > மேலும் விவரத்திற்கு: <https://man.archlinux.org/man/pacman.8>.
 
 - அனைத்து தொகுப்புகளையும் ஒத்திசைத்து புதுப்பிக்கவும்:
@@ -14,11 +14,11 @@
 
 - ஒரு தொகுப்பு மற்றும் அதன் சார்புகளை அகற்றவும்:
 
-`சுடோ பேக்மேன் -ரூ {{நிரல்தொகுப்பு}}`
+`sudo pacman -Rs {{நிரல்தொகுப்பு}}`
 
-- வழக்கமான வெளிப்பாடு அல்லது முக்கிய சொல்லுக்கு தொகுப்பு தரவுத்தளத்தில் தேடவும்:
+- ஒரு குறிப்பிட்ட கோப்பைக் கொண்ட தொகுப்புகளுக்கான தரவுத்தளத்தில் தேடவும்:
 
-`pacman -Ss "{{தேடல்_முறை}}"`
+`pacman -F "{{கோப்பு_பெயர்}}"`
 
 - நிறுவப்பட்ட தொகுப்புகள் மற்றும் பதிப்புகளை பட்டியலிடுங்கள்:
 

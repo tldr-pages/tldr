@@ -1,6 +1,6 @@
 # soupault
 
-> Soupault is a static website generator based on HTML element tree rewriting.
+> A static website generator based on HTML element tree rewriting.
 > It can also be used as an HTML post-processor or metadata extractor.
 > More information: <https://soupault.app>.
 

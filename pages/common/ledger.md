@@ -1,6 +1,6 @@
 # ledger
 
-> Ledger is a powerful, double-entry accounting system that is accessed from the UNIX command-line.
+> A powerful, double-entry accounting system.
 > More information: <https://www.ledger-cli.org>.
 
 - Print a balance report showing totals:

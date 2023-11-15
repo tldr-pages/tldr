@@ -1,6 +1,6 @@
 # cbonsai
 
-> Cbonsai is a beautifully random bonsai tree CLI generator.
+> A beautifully random bonsai tree generator.
 > More information: <https://gitlab.com/jallbrit/cbonsai>.
 
 - Generate a bonsai in live mode:

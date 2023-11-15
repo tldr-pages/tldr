@@ -1,6 +1,6 @@
 # gradle
 
-> Gradle is an open source build automation system.
+> An open source build automation system.
 > More information: <https://gradle.org>.
 
 - Compile a package:
