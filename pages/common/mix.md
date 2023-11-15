@@ -1,6 +1,6 @@
 # mix
 
-> Mix is a build tool that provides tasks for creating, compiling, and testing Elixir projects, managing its dependencies, and more.
+> Build tool that provides tasks for creating, compiling, and testing Elixir projects, managing its dependencies, and more.
 > More information: <https://hexdocs.pm/mix>.
 
 - Execute a particular file:
