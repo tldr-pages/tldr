@@ -8,7 +8,7 @@
 
 `cat {{path/to/file.txt}} | speedread -wpm {{250}}`
 
-- Resume from line:
+- Resume from a specific line:
 
 `cat {{path/to/file.txt}} | speedread -resume {{5}}`
 
