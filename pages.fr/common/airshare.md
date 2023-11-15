@@ -5,7 +5,7 @@
 
 - Partager des fichiers ou des dossiers:
 
-`airshare {{code}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`airshare {{code}} {{chemin/vers/fichier_ou_dossier1 chemin/vers/fichier_ou_dossier2 ...}}`
 
 - Recevoir un fichier:
 
@@ -17,7 +17,7 @@
 
 - Envoyer des fichiers ou des dossiers a un serveur de reception:
 
-`airshare --upload {{code}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`airshare --upload {{code}} {{chemin/vers/fichier_ou_dossier1 chemin/vers/fichier_ou_dossier2 ...}}`
 
 - Envoyer les fichiers dont les chemins ont été copiés dans le presse-papiers:
 

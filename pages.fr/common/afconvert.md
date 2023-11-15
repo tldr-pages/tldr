@@ -5,8 +5,8 @@
 
 - Utiliser une extension spécifique (par défaut: `aff`):
 
-`afconvert -a {{extension}} {{path/to/input_file}} {{path/to/output_file1 path/to/output_file2 ...}}`
+`afconvert -a {{extension}} {{chemin/vers/fichier_source}} {{chemin/vers/fichier_de_sortie1 chemin/vers/fichier_de_sortie2 ...}}`
 
 - Utiliser un niveau de compression spécifique (par défaut: `7`):
 
-`afconvert -X{{0..7}} {{path/to/input_file}} {{path/to/output_file1 path/to/output_file2 ...}}`
+`afconvert -X{{0..7}} {{chemin/vers/fichier_source}} {{chemin/vers/fichier_de_sortie1 chemin/vers/fichier_de_sortie2 ...}}`
