@@ -7,7 +7,7 @@
 
 `am start -n {{com.android.settings/.Settings}}`
 
-- Start an activity and pass [d]ata to it:
+- Start an activity and send [d]ata to it:
 
 `am start -a {{android.intent.action.VIEW}} -d {{tel:123}}`
 
