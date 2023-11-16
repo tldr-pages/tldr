@@ -8,6 +8,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Get changed files
         id: changed-files
@@ -17,6 +19,12 @@ jobs:
           files_ignore: |
             pages.*/*/*
             package-lock.json
+
+      - name: List all changed files
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "$file was changed"
+          done
 
       - uses: codespell-project/actions-codespell@v2
         with:
