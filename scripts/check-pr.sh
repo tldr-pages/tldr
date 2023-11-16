@@ -79,7 +79,7 @@ function check_outdated_page() {
   local commands_as_string=$(printf "%s\n" "${stripped_commands[*]}")
 
   if [[ $english_commands != $commands ]]; then
-    printf "\x2d $MSG_OUTDATED" "$page" "based on number of commands ($english_page: $english_commands VS $page: $commands)"
+    printf "\x2d $MSG_OUTDATED" "$page" "based on number of commands"
   elif [[ "$english_commands_as_string" != "$commands_as_string" ]]; then
     printf "\x2d $MSG_OUTDATED" "$page" "based on the command contents itself"
   fi
