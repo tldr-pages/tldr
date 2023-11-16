@@ -7,7 +7,7 @@
 
 `am start -n {{com.android.settings/.Settings}}`
 
-- Start een activiteit en stuur er gegevens aan mee:
+- Start een activiteit en geef er gegevens aan door:
 
 `am start -a {{android.intent.action.VIEW}} -d {{tel:123}}`
 
@@ -15,6 +15,6 @@
 
 `am start -a {{android.intent.action.MAIN}} -c {{android.intent.category.HOME}}`
 
-- Converteer een intent naar een URI:
+- Converteer een intentie naar een URI:
 
 `am to-uri -a {{android.intent.action.VIEW}} -d {{tel:123}}`
