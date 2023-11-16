@@ -15,9 +15,9 @@
 
 `systemd-id128 boot-id`
 
-- Print the identifier of the current service invocation:
+- Print the identifier of the current service invocation (this is available in systemd services):
 
-`systemd-id128 {{invocation-id}}`
+`systemd-id128 invocation-id`
 
 - Generate a new random identifier and print it in UUID format:
 
