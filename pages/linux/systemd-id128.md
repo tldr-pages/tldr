@@ -21,4 +21,4 @@
 
 - Generate a new random identifier and print it as an UUID (five groups of digits separated by hyphens):
 
-`systemd-id128 new -u`
+`systemd-id128 new --uuid`
