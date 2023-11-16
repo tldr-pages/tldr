@@ -2,8 +2,11 @@ name: Codespell
 
 on: 
   pull_request:
-    paths:
-      - 'pages/*/*.md'
+    # Ignore all other languages except English
+    paths-ignore:
+      - 'pages.*/*/*'
+      - 'contributing-guides/style-guide.*.md'
+      - 'package-lock.json'
 
 jobs:
   build:
@@ -19,13 +22,8 @@ jobs:
           # Ignore all other languages except English
           files_ignore: |
             pages.*/*/*
+            contributing-guides/style-guide.*.md
             package-lock.json
-
-      - name: List all changed files
-        run: |
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo "$file was changed"
-          done
 
       - uses: codespell-project/actions-codespell@v2
         with:
