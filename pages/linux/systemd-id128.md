@@ -9,11 +9,11 @@
 
 - Print the identifier of the current machine:
 
-`systemd-id128 {{machine-id}}`
+`systemd-id128 machine-id`
 
 - Print the identifier of the current boot:
 
-`systemd-id128 {{boot-id}}`
+`systemd-id128 boot-id`
 
 - Print the identifier of the current service invocation:
 
