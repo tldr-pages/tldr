@@ -64,7 +64,7 @@ function check_missing_english_page() {
 function check_outdated_page() {
   local page=$1
   local english_page="pages/${page#pages*\/}"
-  local command_regex='^`.*`$'
+  local command_regex='^`[^`]\+`$'
 
   if [[ "$page" = "$english_page" ]] || [[ ! -f "$english_page" ]]; then
     return 1
