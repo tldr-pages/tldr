@@ -5,4 +5,4 @@
 
 - إعرض التوثيقات للأمر الأصلي:
 
-`tldr bundle`
+`tldr bundler`
