@@ -6,7 +6,7 @@
 
 - Filter aliassen op naam:
 
-`Get-Alias | Where-Object -{{Property}} {{Name}} -{{eq}} {{name}}`
+`Get-Alias | Where-Object -{{Property}} {{Name}} -{{eq}} {{naam}}`
 
 - Toon een lijst van alle services die momenteel zijn gestopt. De `$_` automatische variable representeert ieder object dat word gestuurd naar de `Where-Object` cmdlet:
 
