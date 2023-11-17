@@ -118,7 +118,7 @@ Although this specification is about the interface that clients must provide, it
 
 - `ping {{example.com}}` MUST be rendered as "ping example.com"
 - `docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{container}}` MUST be rendered as "docker inspect --format '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container"
-- `mount \\{{computer_name}}\{{share_name}} Z:` MUST be rendered as "mount \\computer_name\share_name Z:"
+- `mount \\{{computer_name}}\{{share_name}} Z:` MUST be rendered as "mount \\\\computer_name\share_name Z:"
 
 ## Page resolution
 
