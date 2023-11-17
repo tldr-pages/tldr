@@ -14,7 +14,7 @@
 
 - Toon help voor een specifiek commando:
 
-`choco {{command}} -?`
+`choco {{commando}} -?`
 
 - Bekijk de Chocolatey versie:
 
