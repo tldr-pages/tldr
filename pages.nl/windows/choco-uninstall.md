@@ -9,7 +9,7 @@
 
 - Verwijder een specifieke versie van een pakket:
 
-`choco uninstall {{pakket}} --version {{version}}`
+`choco uninstall {{pakket}} --version {{versie}}`
 
 - Bevestig alle prompts automatisch:
 
