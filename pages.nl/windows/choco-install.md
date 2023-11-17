@@ -9,7 +9,7 @@
 
 - Installeer pakketten van een aangepast configuratiebestand:
 
-`choco install {{pad\naar\pakketten_bastand.config}}`
+`choco install {{pad\naar\pakketten_bestand.config}}`
 
 - Installeer een specifiek `nuspec` of `nupkg` bestand:
 
