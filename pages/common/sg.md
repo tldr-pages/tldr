@@ -7,7 +7,7 @@
 
 `sg scan --interactive`
 
-- Rewrite code using patterns on current directory:
+- Rewrite code in the current directory using patterns:
 
 `sg run --pattern {{'foo'}} --rewrite {{'bar'}} --lang {{python}}`
 
