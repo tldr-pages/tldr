@@ -2,6 +2,7 @@
 
 > Programme de cartes mémo-techniques, puissant et intelligent.
 > Plus d'informations : <https://docs.ankiweb.net>.
+
 - Lancer `anki`:
 
 `anki`
