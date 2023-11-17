@@ -3,7 +3,7 @@
 > Ast-grep is a tool for code structural search, lint, and rewriting.
 > More information: <https://ast-grep.github.io/guide/introduction.html>.
 
-- Scan possible queries on interactive mode:
+- Scan possible queries using interactive mode:
 
 `sg scan --interactive`
 
