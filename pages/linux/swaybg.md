@@ -3,14 +3,14 @@
 > Wallpaper tool for Wayland compositors.
 > More information: <https://github.com/swaywm/swaybg>.
 
-- Set an image as wallpaper:
+- Set an [i]mage as wallpaper:
 
-`swaybg -i {{path/to/image}}`
+`swaybg --image {{path/to/image}}`
 
-- Set the wallpaper mode:
+- Set the wallpaper [m]ode:
 
-`swaybg -i {{path/to/image}} -m {{stretch|fit|fill|center|tile|solid_color}}`
+`swaybg --image {{path/to/image}} --mode {{stretch|fit|fill|center|tile|solid_color}}`
 
-- Set a static color as a wallpaper:
+- Set a static [c]olor as a wallpaper:
 
-`swaybg -c {{"#rrggbb"}}`
+`swaybg --color {{"#rrggbb"}}`
