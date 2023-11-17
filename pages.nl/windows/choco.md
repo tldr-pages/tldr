@@ -6,7 +6,7 @@
 
 - Voer een Chocolatey commando uit:
 
-`choco {{command}}`
+`choco {{commando}}`
 
 - Toon algemene hulp:
 
