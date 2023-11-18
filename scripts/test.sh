@@ -67,7 +67,7 @@ function run_tests {
         continue
     fi
     
-    checks="TLDR003,TLDR004,TLDR015TLDR104"
+    checks="TLDR003,TLDR004,TLDR015,TLDR104"
     if [[ $dir == *zh* || $dir == *zh_TW* ]]; then
         checks+=",TLDR005"
     fi
