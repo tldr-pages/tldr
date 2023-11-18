@@ -22,8 +22,8 @@
 
 - Show job status:
 
-`hut builds show [ID]`
+`hut builds show {{job_id}}`
 
 - SSH into a job container:
 
-`hut ssh [ID]`
+`hut ssh {{job_id}}`
