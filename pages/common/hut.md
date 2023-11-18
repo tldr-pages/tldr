@@ -1,6 +1,6 @@
 # hut
 
-> A CLI tool for sr.ht.
+> A CLI tool for sourcehut.
 > Use `hg` in place of `git` below if using mercurial.
 > See `man hut` for more details.
 
