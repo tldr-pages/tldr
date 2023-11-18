@@ -61,12 +61,19 @@ function run_flake8 {
 function run_tests {
   find pages* -name '*.md' -exec markdownlint {} +
   tldr-lint ./pages
-  for f in ./pages.*; do
-    if [[ $f == *zh* || $f == *zh_TW* ]]; then
-      tldr-lint --ignore "TLDR003,TLDR004,TLDR005,TLDR015,TLDR104" "${f}"
-    else
-      tldr-lint --ignore "TLDR003,TLDR004,TLDR015,TLDR104" "${f}"
+  for dir in ./pages*/; do
+    echo "Running on $dir"
+    if [[ ! -dir $dir || -L $dir ]]; then
+        continue
     fi
+    
+    checks="TLDR003,TLDR004,TLDR104"
+    if [[ $dir == *zh* || $dir == *zh_TW* ]]; then
+        options+=",TLDR015"
+    fi
+    
+    echo "executing 'tldr-lint --ignore $options' on $dir"
+    tldr-lint --ignore $options "${dir}"
   done
   run_black
   run_flake8
