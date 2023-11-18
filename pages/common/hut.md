@@ -1,26 +1,26 @@
 # hut
 
 > A CLI tool for sourcehut.
-> Use `hg` in place of `git` below if using mercurial.
-> See `man hut` for more details.
+> Note: Use `hg` in place of `git` below if using Mercurial. See `man hut` for additional details.
+> More information: <https://man.sr.ht>.
 
-- Initialize hut's configuration file:
+- Initialize `hut`'s configuration file:
 
 `hut init`
 
-- List git repositories:
+- List Git/Mercurial repositories:
 
-`hut git list`
+`hut {{git|hg}} list`
 
-- Create a git repository:
+- Create a Git/Mercurial repository:
 
-`hut git create`
+`hut {{git|hg}} create`
 
-- List jobs on builds.sr.ht:
+- List jobs on <builds.sr.ht>:
 
 `hut builds list`
 
-- Show a job's status:
+- Show the status of a job:
 
 `hut builds show {{job_id}}`
 
