@@ -62,6 +62,7 @@ function run_tests {
   find pages* -name '*.md' -exec markdownlint {} +
   tldr-lint ./pages
   for f in ./pages.*; do
+    echo "Running tlr-lint on $f"
     if [[ $f == *zh* || $f == *zh_TW* ]]; then
       tldr-lint --ignore "TLDR003,TLDR004,TLDR005,TLDR015,TLDR104" "${f}"
     else
