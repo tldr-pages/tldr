@@ -20,7 +20,7 @@
 
 `hut builds list`
 
-- Show job status:
+- Show a job's status:
 
 `hut builds show {{job_id}}`
 
