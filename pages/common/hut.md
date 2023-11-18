@@ -12,11 +12,11 @@
 
 `hut {{git|hg}} list`
 
-- Create a Git/Mercurial repository:
+- Create a public Git/Mercurial repository:
 
-`hut {{git|hg}} create`
+`hut {{git|hg}} create {{name}}`
 
-- List jobs on <builds.sr.ht>:
+- List jobs on <https://builds.sr.ht>:
 
 `hut builds list`
 
