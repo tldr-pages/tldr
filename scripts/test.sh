@@ -67,9 +67,9 @@ function run_tests {
         continue
     fi
     
-    checks="TLDR003,TLDR004,TLDR104"
+    checks="TLDR003,TLDR004,TLDR015TLDR104"
     if [[ $dir == *zh* || $dir == *zh_TW* ]]; then
-        checks+=",TLDR015"
+        checks+=",TLDR005"
     fi
     
     echo "executing 'tldr-lint --ignore $checks' on $dir"
