@@ -61,19 +61,20 @@ function run_flake8 {
 function run_tests {
   find pages* -name '*.md' -exec markdownlint {} +
   tldr-lint ./pages
-  for dir in ./pages*/; do
-    echo "Running on $dir"
-    if [[ ! -d $dir || -L $dir ]]; then
+  for f in ./pages*; do
+    echo "Running on $f"
+    if [[ -L $f ]]; then
+        echo "skipping symlinked $f"
         continue
     fi
     
     checks="TLDR003,TLDR004,TLDR015,TLDR104"
-    if [[ $dir == *zh* || $dir == *zh_TW* ]]; then
+    if [[ $f == *zh* || $f == *zh_TW* ]]; then
         checks+=",TLDR005"
     fi
     
-    echo "executing 'tldr-lint --ignore $checks' on $dir"
-    tldr-lint --ignore $checks "${dir}"
+    echo "executing 'tldr-lint --ignore $checks' on $f"
+    tldr-lint --ignore $checks "${f}"
   done
   run_black
   run_flake8
