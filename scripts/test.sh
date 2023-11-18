@@ -63,7 +63,7 @@ function run_tests {
   tldr-lint ./pages
   for dir in ./pages*/; do
     echo "Running on $dir"
-    if [[ ! -dir $dir || -L $dir ]]; then
+    if [[ ! -d $dir || -L $dir ]]; then
         continue
     fi
     
