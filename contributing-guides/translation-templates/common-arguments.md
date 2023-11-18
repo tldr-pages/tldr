@@ -35,7 +35,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | sh    |                      |                        |                                   |           |                   |
 | sr    |                      |                        |                                   |           |                   |
 | sv    | sökväg/till/fil      | sökväg/till/katalog    | sökväg/till/fil_eller_katalog     | paket     | användarnamn      |
-| ta    |பாதை/டு/கோப்பு    |அடைவிற்குப்/பாதை   |பாதை/டு/கோப்பு_அல்லது_அடைவு|நிரல்தொகுப்பு|பயனர்ப்பெயர் |
+| ta    | கோப்பு/பாதை      | அடைவிற்குப்/பாதை   | கோப்பு_அல்லது_அடைவு/பாதை | நிரல்தொகுப்பு | பயனர்ப்பெயர் |
 | th    | ทาง/ไป/ไฟล์         | ทาง/ไป/สารบบ             | ทาง/ไป/สารบบหรือไฟล์                 | แพคเกจ        | ชื่อผู้ใช้        |
 | tr    | dosya/yolu           | dizin/yolu             | dosya_veya_dizin/yolu             | paket     | kullanıcı_adı     |
 | uk    | шлях/до/файлу        | шлях/до/директорії     | шлях/до/файлу_чи_директорії       | пакунок   | ім'я_користувача  |
