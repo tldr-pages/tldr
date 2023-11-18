@@ -69,11 +69,11 @@ function run_tests {
     
     checks="TLDR003,TLDR004,TLDR104"
     if [[ $dir == *zh* || $dir == *zh_TW* ]]; then
-        options+=",TLDR015"
+        checks+=",TLDR015"
     fi
     
-    echo "executing 'tldr-lint --ignore $options' on $dir"
-    tldr-lint --ignore $options "${dir}"
+    echo "executing 'tldr-lint --ignore $checks' on $dir"
+    tldr-lint --ignore $checks "${dir}"
   done
   run_black
   run_flake8
