@@ -61,7 +61,7 @@ function run_flake8 {
 function run_tests {
   find pages* -name '*.md' -exec markdownlint {} +
   tldr-lint ./pages
-  for f in ./pages*; do
+  for f in ./pages.*; do
     echo "Running on $f"
     if [[ -L $f ]]; then
         echo "skipping symlinked $f"
