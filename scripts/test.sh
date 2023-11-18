@@ -62,18 +62,12 @@ function run_tests {
   find pages* -name '*.md' -exec markdownlint {} +
   tldr-lint ./pages
   for f in ./pages.*; do
-    echo "Running on $f"
-    if [[ -L $f ]]; then
-        echo "skipping symlinked $f"
-        continue
-    fi
-    
     checks="TLDR003,TLDR004,TLDR015,TLDR104"
-    if [[ $f == *zh* || $f == *zh_TW* ]]; then
+    if [[ -L $f ]]; then
+        continue
+    elif [[ $f == *zh* || $f == *zh_TW* ]]; then
         checks+=",TLDR005"
     fi
-    
-    echo "executing 'tldr-lint --ignore $checks' on $f"
     tldr-lint --ignore $checks "${f}"
   done
   run_black
