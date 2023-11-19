@@ -15,6 +15,6 @@
 
 `sngrep -cr`
 
-- Only capture package without interface to a file:
+- Only capture packets without interface to a file:
 
 `sngrep -NO {{path/to/file.pcap}}`
