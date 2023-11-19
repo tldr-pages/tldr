@@ -11,10 +11,6 @@
 
 `tldr curl -p common`
 
-- `tldr` কমান্ড-লাইন ক্লায়েন্টের পুরোনো সংস্করণের জন্য `curl` কমান্ডের জন্য নথি:
-
-`tldr curl -o common`
-
 - পাওয়ারশেলের `Invoke-WebRequest` কমান্ডের জন্য নথি:
 
 `tldr invoke-webrequest`
