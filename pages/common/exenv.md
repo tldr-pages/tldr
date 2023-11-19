@@ -1,7 +1,7 @@
 # exenv
 
 > A tool to easily install Elixir versions and manage application environments.
-> More information: <https://github.com/exenv/exenv>.
+> More information: <https://github.com/mururu/exenv>.
 
 - Display a list of installed versions:
 

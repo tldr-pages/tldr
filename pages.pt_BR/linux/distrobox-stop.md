@@ -2,7 +2,7 @@
 
 > Parar um contêiner distrobox.
 > Subcomando de `distrobox`. Veja também: `tldr distrobox`.
-> Mais informações: <https://distrobox.privatedns.org/usage/distrobox-stop.html>.
+> Mais informações: <https://distrobox.it/usage/distrobox-stop>.
 
 - Parar um contêiner distrobox:
 

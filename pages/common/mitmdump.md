@@ -2,7 +2,7 @@
 
 > View, record, and programmatically transform HTTP traffic.
 > The command-line counterpart to mitmproxy.
-> More information: <https://docs.mitmproxy.org/stable/overview-tools/#mitmdump>.
+> More information: <https://docs.mitmproxy.org/stable/#mitmdump>.
 
 - Start a proxy and save all output to a file:
 
