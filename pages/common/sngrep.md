@@ -7,7 +7,7 @@
 
 `sngrep -I {{path/to/file.pcap}}`
 
-- Visualize only dialogs starting with INVITE packets with RTP packets from a pcap file:
+- Visualize only dialogs starting with INVITE packets with RTP packets from a PCAP file:
 
 `sngrep -crI {{path/to/file.pcap}}`
 
