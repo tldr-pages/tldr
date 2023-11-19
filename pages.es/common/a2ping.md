@@ -5,7 +5,7 @@
 
 - Convierte una imagen a PDF (Nota: Especificar un nombre de archivo de salida es opcional):
 
-`a2ping {{ruta/a/imagen.ext}} {{ruta/a/salida.pdf}}`
+`a2ping {{ruta/al/imagen.ext}} {{ruta/al/salida.pdf}}`
 
 - Comprime el documento utilizando el método especificado:
 
