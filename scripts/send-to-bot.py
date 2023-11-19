@@ -28,11 +28,8 @@ Is this intended? If so, just ignore this comment. Otherwise, please double-chec
 ################################################################################
 
 
-def post_comment(pr_id, body, once):
+def post_comment(pr_id, body):
     endpoint = f"{BOT_URL}/comment"
-
-    if once:
-        endpoint += "/once"
 
     data = {"pr_id": pr_id, "body": body}
 
@@ -62,12 +59,10 @@ def main(action):
 
     if action == "report-errors":
         comment_body = COMMENT_ERROR.format(build_id=BUILD_ID, content=content)
-        comment_once = False
     elif action == "report-check-results":
         comment_body = COMMENT_CHECK.format(content=content)
-        comment_once = True
 
-    if post_comment(PR_ID, comment_body, comment_once):
+    if post_comment(PR_ID, comment_body):
         print("Success.")
     else:
         print("Error sending data to tldr-bot!", file=sys.stderr)
