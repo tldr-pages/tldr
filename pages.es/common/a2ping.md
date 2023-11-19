@@ -23,7 +23,7 @@
 
 `a2ping --gsextra {{argumentos}} {{ruta/al/archivo}}`
 
-- Pasa argumentos adicionales a un programa externo (por ejemplo, pdftops):
+- Pasa argumentos adicionales a un programa externo (por ejemplo, `pdftops`):
 
 `a2ping --extra {{argumentos}} {{ruta/al/archivo}}`
 
