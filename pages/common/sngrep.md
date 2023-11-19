@@ -3,7 +3,7 @@
 > Tool for displaying SIP calls message flows from terminal.
 > More information: <https://github.com/irontec/sngrep>.
 
-- Visualize SIP packets from a pcap file:
+- Visualize SIP packets from a PCAP file:
 
 `sngrep -I {{path/to/file.pcap}}`
 
