@@ -6,10 +6,6 @@
 
 `tldr open -p osx`
 
-- View documentation for the macOS command in older versions of `tldr` command-line client:
-
-`tldr open -o osx`
-
 - View documentation for the command available through `fish`:
 
 `tldr open.fish`

@@ -1,6 +1,12 @@
 name: Codespell
 
-on: ['pull_request']
+on: 
+  pull_request:
+    # Ignore all other languages except English
+    paths-ignore:
+      - 'pages.*/*/*'
+      - 'contributing-guides/style-guide.*.md'
+      - 'package-lock.json'
 
 jobs:
   build:
@@ -16,6 +22,7 @@ jobs:
           # Ignore all other languages except English
           files_ignore: |
             pages.*/*/*
+            contributing-guides/style-guide.*.md
             package-lock.json
 
       - uses: codespell-project/actions-codespell@v2
@@ -24,6 +31,6 @@ jobs:
           # Exit with 0 regardless of typos.
           only_warn: 1
           # Skip non-English pages
-          skip: pages.*/*/*.md
+          skip: ./pages.*/*/*.md,./contributing-guides/style-guide.*.md
           # Only check files in the PR
           path: ${{ steps.changed-files.outputs.all_changed_files }}
