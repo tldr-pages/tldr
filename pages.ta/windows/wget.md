@@ -11,10 +11,6 @@
 
 `tldr wget -p common`
 
-- `tldr` கட்டளை வரி கிளையண்டின் பழைய பதிப்புகளில் அசல் `wget` கட்டளைக்கான ஆவணங்களைக் காண்க:
-
-`tldr wget -o common`
-
 - PowerShell இன் `Invoke-WebRequest` கட்டளைக்கான ஆவணங்களைக் காண்க:
 
 `tldr invoke-webrequest`
