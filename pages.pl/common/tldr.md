@@ -2,7 +2,7 @@
 
 > Klient wiersza polecenia dla stron tldr.
 > Wyświetla uproszczone i obsługiwane przez społeczność strony podręcznika man.
-> Więcej informacji: <https://tldr.sh>.
+> Więcej informacji: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Uzyskaj typowe zastosowania polecenia (wskazówka: oto jak się tu dostałeś!):
 
