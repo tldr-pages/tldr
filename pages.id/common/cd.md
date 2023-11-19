@@ -1,6 +1,6 @@
 # cd
 
-> Mengganti direktori kerja saat ini.
+> Ubah direktori kerja saat ini.
 > Informasi lebih lanjut: <https://manned.org/cd>.
 
 - Pergi menuju direktori yang ditentukan:
@@ -15,7 +15,7 @@
 
 `cd`
 
-- Pergi menuju direktori pangkal/home milik pengguna yang ditentukan:
+- Pergi menuju direktori pangkal/home milik pengguna tertentu:
 
 `cd ~{{username}}`
 

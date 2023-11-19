@@ -5,4 +5,4 @@
 
 - View documentation for the original command:
 
-`tldr where-object`
+`tldr select-string`

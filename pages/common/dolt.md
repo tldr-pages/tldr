@@ -4,7 +4,7 @@
 > Some subcommands such as `commit` have their own usage documentation.
 > More information: <https://docs.dolthub.com/cli-reference/cli>.
 
-- Execute a dolt subcommand:
+- Execute a `dolt` subcommand:
 
 `dolt {{subcommand}}`
 

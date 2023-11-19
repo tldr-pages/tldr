@@ -1,37 +1,17 @@
 # powershell
 
-> Command-line shell and scripting language designed especially for system administration.
-> See also: `pwsh`.
-> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
+> This command may be mistaken as the cross-platform version of PowerShell (formerly known as PowerShell Core), which uses `pwsh` instead of `powershell`.
+> The original `powershell` command in Windows is still available to use the legacy Windows version of PowerShell (version 5.1 and below).
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
-- Start an interactive shell session:
+- View the documentation for the command referring to the latest, cross-platform version of PowerShell (version 6 and above):
 
-`powershell`
+`tldr pwsh`
 
-- Start an interactive shell session without loading startup configs:
+- View the documentation for the command referring to the legacy Windows PowerShell (version 5.1 and below):
 
-`powershell -NoProfile`
+`tldr powershell -p windows`
 
-- Execute specific commands:
+- View the documentation for the command referring to the legacy Windows PowerShell in older versions of `tldr` command-line client:
 
-`powershell -Command "{{echo 'powershell is executed'}}"`
-
-- Execute a specific script:
-
-`powershell -File {{path/to/script.ps1}}`
-
-- Start a session with a specific version of PowerShell:
-
-`powershell -Version {{version}}`
-
-- Prevent a shell from exit after running startup commands:
-
-`powershell -NoExit`
-
-- Describe the format of data sent to PowerShell:
-
-`powershell -InputFormat {{Text|XML}}`
-
-- Determine how an output from PowerShell is formatted:
-
-`powershell -OutputFormat {{Text|XML}}`
+`tldr powershell -o windows`

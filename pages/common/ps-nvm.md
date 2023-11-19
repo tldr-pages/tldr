@@ -14,7 +14,7 @@
 
 - View documentation for `Install-NodeVersion`, a tool to install Node.js runtime versions:
 
-`tldr get-nodeversion`
+`tldr install-nodeversion`
 
 - View documentation for `Remove-NodeVersion`, a tool to uninstall an existing Node.js version:
 
