@@ -12,7 +12,7 @@
 
 `rm -f {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
-- Verwijder specifieke bestanden [i]teractief vragen voor iedere verwijdering:
+- Verwijder specifieke bestanden [i]nteractief door vóór elke verwijdering bevestiging te vragen:
 
 `rm -i {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
