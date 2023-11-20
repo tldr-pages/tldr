@@ -3,7 +3,7 @@
 > A CLI tool for sourcehut.
 > More information: <https://manned.org/hut>.
 
-- Initialize `hut`'s configuration file:
+- Initialize `hut`'s configuration file (this will prompt for an OAuth2 access token, which is required to use `hut`):
 
 `hut init`
 
