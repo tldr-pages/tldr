@@ -20,6 +20,18 @@
 
 `ncu -i`
 
+- List minor outdated dependencies:
+
+`ncu --target minor`
+
+- List outdated dependencies that match a regex:
+
+`ncu --filter /react/`
+
+- List only outdated dev dependencies
+
+`ncu --dep dev`
+
 - Display help:
 
 `ncu -h`
