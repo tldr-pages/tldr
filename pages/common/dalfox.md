@@ -14,5 +14,3 @@
 - Scan a list of URLs from a file:
 
 `dalfox file {{path/to/file}}]`
-
-For more detailed usage and options, you can always run `dalfox --help` or refer to the official documentation.
