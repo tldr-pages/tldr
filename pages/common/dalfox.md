@@ -1,6 +1,6 @@
 # dalfox
 
-> DalFox is a powerful open-source tool that focuses on automation, making it ideal for quickly scanning for XSS flaws and analyzing parameters.
+> A powerful open-source XSS scanner focused on automation.
 > More information: <https://dalfox.hahwul.com/docs/usage>.
 
 - Scan a single URL for XSS vulnerabilities:
