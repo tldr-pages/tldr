@@ -17,8 +17,8 @@
 
 - Añade el directorio actual a la barra lateral:
 
-`mysides add $(nombre_base $(pwd)) file:///$(pwd)`
+`mysides add $(basename $(pwd)) file:///$(pwd)`
 
 - Elimina el directorio actual de la barra lateral:
 
-`mysides remove $(nombre_base $(pwd))`
+`mysides remove $(basename $(pwd))`
