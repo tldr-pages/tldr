@@ -11,7 +11,3 @@
 - Bekijk de documenatie voor het commando dat refereert naar de legacy Windows PowerShell (versie 5.1 en lager):
 
 `tldr powershell -p windows`
-
-- Bekijk de documenatie voor het commando dat refereert naar de legacy Windows PowerShell in oudere versies van de `tldr` command-line client:
-
-`tldr powershell -o windows`
