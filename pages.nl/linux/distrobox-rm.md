@@ -2,7 +2,7 @@
 
 > Verwijder een distrobox container.
 > Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.
-> Meer informatie: <https://distrobox.privatedns.org/usage/distrobox-rm.html>.
+> Meer informatie: <https://distrobox.it/usage/distrobox-rm>.
 
 - Verwijder een distrobox container (Tip: Stop the container voordat je hem verwijdert):
 
