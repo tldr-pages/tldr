@@ -1,7 +1,7 @@
 # dolt commit
 
 > Commit staged changes to tables.
-> More information: <https://docs.dolthub.com/interfaces/cli#dolt-commit>.
+> More information: <https://docs.dolthub.com/cli-reference/cli#dolt-commit>.
 
 - Commit all staged changes, opening the editor specified by `$EDITOR` to enter the commit message:
 

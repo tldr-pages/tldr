@@ -2,7 +2,7 @@
 
 > Executar um comando no sistema host a partir do interior de um contêiner distrobox.
 > Subcomando de `distrobox`. Veja também: `tldr distrobox`.
-> Mais informações: <https://distrobox.privatedns.org/usage/distrobox-host-exec.html>.
+> Mais informações: <https://distrobox.it/usage/distrobox-host-exec>.
 
 - Executar um comando no sistema host a partir do interior do contêiner distrobox:
 
