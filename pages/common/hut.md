@@ -1,7 +1,6 @@
 # hut
 
 > A CLI tool for sourcehut.
-> Note: Use `hg` in place of `git` below if using Mercurial. See `man hut` for additional details.
 > More information: <https://manned.org/hut>.
 
 - Initialize `hut`'s configuration file:
