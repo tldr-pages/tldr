@@ -13,4 +13,4 @@
 
 - Scan a list of URLs from a file:
 
-`dalfox file {{path/to/file}}]`
+`dalfox file {{path/to/file}}`
