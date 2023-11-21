@@ -31,6 +31,6 @@
 
 `xz -0 {{pad/naar/bestand}}`
 
-- Comprimeer een bestand gebruik makend van de bestee compressie:
+- Comprimeer een bestand, gebruik makend van de beste compressie:
 
 `xz -9 {{pad/naar/bestand}}`
