@@ -7,7 +7,7 @@
 
 `cgclassify -g {{cpu:student}} {{1234}}`
 
-- Verplaats het proces met een specifiek PID naar de controle groups gebaseerd op het `/etc/cgrules.conf` configuratie bestand:
+- Verplaats het proces met een specifiek PID naar de controle groepen gebaseerd op het `/etc/cgrules.conf` configuratie bestand:
 
 `cgclassify {{1234}}`
 
