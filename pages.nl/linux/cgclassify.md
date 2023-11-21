@@ -11,6 +11,6 @@
 
 `cgclassify {{1234}}`
 
-- Verplaats het proces met een specifiek PID naar de controle group student in de CPU hierarchy. Let op: de daemon van de service `cgred` veranderd `cgroups` van de specifieke PID en zijn children niet (gebaseerd op `/etc/cgrules.conf`):
+- Verplaats het proces met een specifiek PID naar de controle groep student in de CPU hierarchy. Let op: de daemon van de service `cgred` veranderd `cgroups` van de specifieke PID en zijn onderliggende processen niet (gebaseerd op `/etc/cgrules.conf`):
 
 `cgclassify --sticky -g {{cpu:/student}} {{1234}}`
