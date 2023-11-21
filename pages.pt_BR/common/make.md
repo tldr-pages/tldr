@@ -22,7 +22,7 @@
 
 - Execute o make a partir de outro diretório:
 
-`make --directory {{caminho/para/diretorio}`
+`make --directory {{caminho/para/diretorio}}`
 
 - Force a execução de um destino, mesmo que os arquivos de origem não tenham sido alterados:
 
