@@ -14,16 +14,16 @@
 
 - Obtiene nombre de equipo:
 
-`scutil --get NombreOrdenador`
+`scutil --get ComputerName`
 
 - Establece el nombre del equipo:
 
-`sudo scutil --set NombreOrdenador {{nombre_ordenador}}`
+`sudo scutil --set ComputerName {{nombre_ordenador}}`
 
 - Obtiene nombre del host:
 
-`scutil --get NombreHost`
+`scutil --get HostName`
 
 - Establece nombre del host:
 
-`scutil --set NombreHost {{nombre_host}}`
+`scutil --set HostName {{nombre_host}}`
