@@ -27,7 +27,7 @@
 
 `xz --keep {{pad/naar/bestand}}`
 
-- Comprimeer een bestand gebruik makend van de snelste compressie:
+- Comprimeer een bestand, gebruik makend van de snelste compressie:
 
 `xz -0 {{pad/naar/bestand}}`
 
