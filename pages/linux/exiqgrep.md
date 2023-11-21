@@ -26,4 +26,3 @@
 - Display bounced messages count:
 
 `exiqgrep -c -f '^<>$'`
-
