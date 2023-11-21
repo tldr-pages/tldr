@@ -19,6 +19,11 @@
 
 `exiqgrep -i -f '<{{email@somedomain.com}}>' | xargs exim -Mrm`
 
-- Test for bounced messages
+- Test for bounced messages:
 
 `exiqgrep -f '^<>$'`
+
+- Display bounced messages count:
+
+`exiqgrep -c -f '^<>$'`
+
