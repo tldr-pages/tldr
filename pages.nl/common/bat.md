@@ -14,7 +14,7 @@
 
 - Voeg verschillende bestanden toe aan het doelbestand:
 
-`bat {{bestand1}} {{bestand2}} >> {{bestand}}`
+`bat {{bestand1}} {{bestand2}} >> {{doelbestand}}`
 
 - Nummer alle uitvoerregels:
 
