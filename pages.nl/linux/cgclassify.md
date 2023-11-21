@@ -3,7 +3,7 @@
 > Verplaats lopende taken naar opgegeven `cgroups`.
 > Meer informatie: <https://manned.org/cgclassify>.
 
-- Verplaats het proces met een specifiek PID naar de controle group student in de CPU hierarchie:
+- Verplaats het proces met een specifiek PID naar de controle groep student in de CPU hierarchie:
 
 `cgclassify -g {{cpu:student}} {{1234}}`
 
