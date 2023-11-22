@@ -31,3 +31,7 @@
 - Use a specific ssh private key for authentication with the remote host:
 
 `scp -i {{~/.ssh/private_key}} {{local_file}} {{remote_host}}:{{/path/remote_file}}`
+
+- Use a specific proxy when connecting to the remote host:
+
+`scp -J {{proxy_username}}@{{proxy_host}} {{local_file}} {{remote_host}}:{{/path/remote_file}}`
