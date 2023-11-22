@@ -13,7 +13,7 @@
 
 - Get details about a specific table:
 
-`aws dynamodb describe-table --table-name MyTable`
+`aws dynamodb describe-table --table-name {{TableName}}`
 
 - Add an item to a table:
 
