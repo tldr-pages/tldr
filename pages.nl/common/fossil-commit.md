@@ -1,7 +1,7 @@
 # fossil commit
 
 > Commit bestanden naar een Fossil repository.
-> More information: <https://fossil-scm.org/home/help/commit>.
+> Meer informatie: <https://fossil-scm.org/home/help/commit>.
 
 - Maak een nieuwe versie met alle aanpassingen in de huidige checkout; de gebruiker zal gevraagd worden voor een opmerking:
 

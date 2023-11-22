@@ -2,7 +2,7 @@
 
 > Verwijder bestanden of mappen uit Fossil versiebeheer.
 > Zie ook: `fossil forget`.
-> More information: <https://fossil-scm.org/home/help/rm>.
+> Meer informatie: <https://fossil-scm.org/home/help/rm>.
 
 - Verwijder een bestand of map uit Fossil versiebeheer:
 
