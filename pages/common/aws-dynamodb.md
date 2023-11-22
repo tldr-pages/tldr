@@ -5,7 +5,7 @@
 
 - Create a table:
 
-`aws dynamodb create-table --table-name TableName --attribute-definitions AttributeName=S,AttributeType=S --key-schema AttributeName=S,KeyType=HASH --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5`
+`aws dynamodb create-table --table-name {{TableName}} --attribute-definitions AttributeName=S,AttributeType=S --key-schema AttributeName=S,KeyType=HASH --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5`
 
 - List all tables in the DynamoDB:
 
