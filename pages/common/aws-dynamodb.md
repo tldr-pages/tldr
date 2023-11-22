@@ -23,7 +23,7 @@
 
 `aws dynamodb get-item \ --table-name MyTable \ --key '{"ID": {"N": "1"}}'`
 
-- To Update an Item in the Table, you can use `update-item` command:
+- Update an item in the table:
 
 `aws dynamodb update-item --table-name {{TableName}} --key '{"ID": {"N": "1"}}' --update-expression "SET Name = :n" --expression-attribute-values '{":n": {"S": "Jane"}}'`
 
