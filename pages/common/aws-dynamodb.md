@@ -19,7 +19,7 @@
 
 `aws dynamodb put-item --table-name {{TableName}} --item '{"AttributeName": {"S": "value"}}'`
 
-- To retrieve an item from a table, you use the `get-item`command:
+- Retrieve an item from a table:
 
 `aws dynamodb get-item \ --table-name MyTable \ --key '{"ID": {"N": "1"}}'`
 
