@@ -21,7 +21,7 @@
 
 - Retrieve an item from a table:
 
-`aws dynamodb get-item \ --table-name MyTable \ --key '{"ID": {"N": "1"}}'`
+`aws dynamodb get-item \ --table-name {{TableName}} \ --key '{"ID": {"N": "1"}}'`
 
 - Update an item in the table:
 
