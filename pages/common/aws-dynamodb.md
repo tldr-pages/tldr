@@ -33,4 +33,4 @@
 
 - Delete an item from the table:
 
-`aws dynamodb delete-item --table-name MyTable --key '{"ID": {"N": "1"}}'`
+`aws dynamodb delete-item --table-name {{TableName}} --key '{"ID": {"N": "1"}}'`
