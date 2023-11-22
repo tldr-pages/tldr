@@ -34,7 +34,3 @@
 - To Delete an Item from the Table, you can use `delete-item` command:
 
 `aws dynamodb delete-item --table-name MyTable --key '{"ID": {"N": "1"}}'`
-
-- To Delete the Table, you can use `delete-table` command:
-
-`aws dynamodb delete-table --table-name MyTable`
