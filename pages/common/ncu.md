@@ -26,12 +26,12 @@
 
 - List outdated dependencies that match a regex:
 
-`ncu --filter /react/`
+`ncu --filter {{/react/}}`
 
-- List only outdated dev dependencies
+- List only outdated dependencies for a specific section:
 
-`ncu --dep dev`
+`ncu --dep {{dev|optional|peer|prod|packageManager}}`
 
 - Display help:
 
-`ncu -h`
+`ncu --help`
