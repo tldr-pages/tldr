@@ -17,7 +17,7 @@
 
 - Add an item to a table:
 
-`aws dynamodb put-item --table-name TableName --item '{"AttributeName": {"S": "value"}}'`
+`aws dynamodb put-item --table-name {{TableName}} --item '{"AttributeName": {"S": "value"}}'`
 
 - To retrieve an item from a table, you use the `get-item`command:
 
