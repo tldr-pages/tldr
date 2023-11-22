@@ -3,7 +3,7 @@
 > CLI for AWS IAM.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/dynamodb/>.
 
-- To create a table, you use the `create-table` command:
+- Create a table:
 
 `aws dynamodb create-table --table-name TableName --attribute-definitions AttributeName=S,AttributeType=S --key-schema AttributeName=S,KeyType=HASH --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5`
 
