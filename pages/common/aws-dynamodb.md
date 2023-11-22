@@ -11,7 +11,7 @@
 
 `aws dynamodb list-tables`
 
-- To get details about a specific table, you can use the `describe-table` command:
+- Get details about a specific table:
 
 `aws dynamodb describe-table --table-name MyTable`
 
