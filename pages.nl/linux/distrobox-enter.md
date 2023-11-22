@@ -3,7 +3,7 @@
 > Betreed een distrobox container.
 > Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.
 > Standaard commando dat wordt uitgevoerd is je SHELL, maar je kan verschillende shells of hele commando's specificeren. Indien gebruikt in een script/applicatie/service, kunt u de `--headless`-modus gebruiken om de tty en interactiviteit uit te schakelen.
-> Meer informatie: <https://distrobox.privatedns.org/usage/distrobox-enter.html>.
+> Meer informatie: <https://distrobox.it/usage/distrobox-enter>.
 
 - Betreed een distrobox container:
 
