@@ -15,7 +15,7 @@
 
 `aws dynamodb describe-table --table-name MyTable`
 
-- To add an item to a table, you use the `put-item` command:
+- Add an item to a table:
 
 `aws dynamodb put-item --table-name TableName --item '{"AttributeName": {"S": "value"}}'`
 
