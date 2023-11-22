@@ -1,7 +1,7 @@
 # tldr
 
 > ສະແດງໜ້າຊ່ວຍເຫຼືອແບບງ່າຍໆສຳລັບເຄື່ອງມືແຖວຄຳສັ່ງຈາກໂຄງການ tldr-pages.
-> ຂໍ້ມູນເພີ່ມເຕີມ: <https://tldr.sh>.
+> ຂໍ້ມູນເພີ່ມເຕີມ: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - ສະແດງຫນ້າ tldr ສໍາລັບຄໍາສັ່ງສະເພາະ(ຄໍາແນະນໍາ: ນີ້ແມ່ນວິທີທີ່ທ່ານມາຮອດນີ້!):
 
