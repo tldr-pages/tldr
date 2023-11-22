@@ -29,7 +29,7 @@
 
 - Scan items in the table:
 
-`aws dynamodb scan --table-name MyTable`
+`aws dynamodb scan --table-name {{TableName}}`
 
 - To Delete an Item from the Table, you can use `delete-item` command:
 
