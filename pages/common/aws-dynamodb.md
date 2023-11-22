@@ -7,7 +7,7 @@
 
 `aws dynamodb create-table --table-name TableName --attribute-definitions AttributeName=S,AttributeType=S --key-schema AttributeName=S,KeyType=HASH --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5`
 
-- To list all tables in your DynamoDB, you can use the `list-tables` command:
+- List all tables in the DynamoDB:
 
 `aws dynamodb list-tables`
 
