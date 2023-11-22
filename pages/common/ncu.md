@@ -10,15 +10,15 @@
 
 - List outdated global npm packages:
 
-`ncu -g`
+`ncu --global`
 
 - Upgrade all dependencies in the current directory:
 
-`ncu -u`
+`ncu --upgrade`
 
 - Interactively upgrade dependencies in the current directory:
 
-`ncu -i`
+`ncu --interactive`
 
 - List minor outdated dependencies:
 
