@@ -1,7 +1,7 @@
 # tldr
 
 > tldr-pages प्रोजेक्ट से कमांड-लाइन टूल्स के लिए सरल हेल्प पेज प्रदर्शित करता है।
-> अधिक जानकारी: <https://tldr.sh>।
+> अधिक जानकारी: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>।
 
 - एक कमांड के विशिष्ट उपयोग प्राप्त करें (संकेत: इसका उपयोग कर आप यहाँ आए!):
 
