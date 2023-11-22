@@ -25,7 +25,7 @@
 
 - To Update an Item in the Table, you can use `update-item` command:
 
-`aws dynamodb update-item --table-name MyTable --key '{"ID": {"N": "1"}}' --update-expression "SET Name = :n" --expression-attribute-values '{":n": {"S": "Jane"}}'`
+`aws dynamodb update-item --table-name {{TableName}} --key '{"ID": {"N": "1"}}' --update-expression "SET Name = :n" --expression-attribute-values '{":n": {"S": "Jane"}}'`
 
 - To Scan Items in the Table, you can use `scan` command:
 
