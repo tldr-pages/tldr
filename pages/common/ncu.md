@@ -20,15 +20,15 @@
 
 `ncu --interactive`
 
-- List minor outdated dependencies:
+- List outdated dependencies up to the highest minor version:
 
-`ncu --target minor`
+`ncu --target {{minor}}`
 
-- List outdated dependencies that match a regex:
+- List outdated dependencies that match a keyword or regular expression:
 
-`ncu --filter {{/react/}}`
+`ncu --filter {{keyword|/regex/}}`
 
-- List only outdated dependencies for a specific section:
+- List only a specific section of outdated dependencies:
 
 `ncu --dep {{dev|optional|peer|prod|packageManager}}`
 
