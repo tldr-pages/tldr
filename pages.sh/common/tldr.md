@@ -1,7 +1,7 @@
 # tldr
 
 > Pojednostavljene man stranice.
-> Više informacija: <https://tldr.sh>.
+> Više informacija: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Prikaži tipičnu upotrebu komande (pomoć: ovako ste stigli ovde!):
 
