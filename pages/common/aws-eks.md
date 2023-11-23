@@ -27,7 +27,6 @@
 
 `aws eks list-nodegroups --cluster-name {{cluster-name}}`
 
--Describe nodegroup details:
+- Describe nodegroup details:
 
 `aws eks describe-nodegroup --cluster-name {{cluster-name}} --nodegroup-name {{nodegroup-name}}`
-
