@@ -15,6 +15,6 @@
 
 `nm -a {{pad/naar/bestand.o}}`
 
-- Ontwar C++ symbolen (maak ze leesbaar):
+- Transformeer C++ symbolen (maak ze leesbaar):
 
 `nm --demangle {{pad/naar/bestand.o}}`
