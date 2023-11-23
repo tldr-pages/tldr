@@ -1,7 +1,6 @@
 # distrobox-rm
 
-> Remove a distrobox container.
-> Subcommand of `distrobox`. See also: `tldr distrobox`.
+> Remove a distrobox container. Subcommand of `distrobox`. See also: `tldr distrobox`.
 > More information: <https://distrobox.it/usage/distrobox-rm>.
 
 - Remove a distrobox container (Tip: Stop the container before removing it):

@@ -1,7 +1,6 @@
 # distrobox-stop
 
-> Stop a distrobox container.
-> Subcommand of `distrobox`. See also: `tldr distrobox`.
+> Stop a distrobox container. Subcommand of `distrobox`. See also: `tldr distrobox`.
 > More information: <https://distrobox.it/usage/distrobox-stop>.
 
 - Stop a distrobox container:

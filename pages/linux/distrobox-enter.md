@@ -1,6 +1,6 @@
 # distrobox-enter
 
-> Enter a distrobox container. See also: `tldr distrobox`.
+> Enter a distrobox container. Subcommand of `distrobox`. See also: `tldr distrobox`.
 > Default command executed is your SHELL, but you can specify different shells or entire commands to execute. If used inside a script, an application, or a service, you can use the `--headless` mode to disable the tty and interactivity.
 > More information: <https://distrobox.it/usage/distrobox-enter>.
 
