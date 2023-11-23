@@ -5,11 +5,11 @@
 set -ex
 
 function initialize {
-  if [ -z "$TLDRHOME" ]; then
+  if [[ -z $TLDRHOME ]]; then
     export TLDRHOME=${GITHUB_WORKSPACE:-$(pwd)}
   fi
 
-  if [ -z "$TLDR_LANG_ARCHIVES_DIRECTORY" ]; then
+  if [[ -z $TLDR_LANG_ARCHIVES_DIRECTORY ]]; then
     export TLDR_LANG_ARCHIVES_DIRECTORY="${GITHUB_WORKSPACE:-$(pwd)}/language_archives"
   fi
 
@@ -32,11 +32,11 @@ function build_translation_archives {
   local source_directory="$TLDRHOME"
   local target_directory="$TLDR_LANG_ARCHIVES_DIRECTORY"
   mkdir -p "$target_directory"
-  rm -f "$target_directory/*"
+  rm -f "$target_directory"/*
 
   for lang_dir in "$source_directory"/pages*; do
     # Skip symlinks (pages.en) and things that are not directories
-    if [ ! -d "$lang_dir" ] || [ -h "$lang_dir" ]; then
+    if [[ ! -d $lang_dir || -h $lang_dir ]]; then
       continue
     fi
 

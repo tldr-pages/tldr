@@ -5,7 +5,7 @@
 set -ex
 
 function initialize {
-  if [ -z "$TLDRHOME" ]; then
+  if [[ -z $TLDRHOME ]]; then
     export TLDRHOME=${GITHUB_WORKSPACE:-$(pwd)}
   fi
 

@@ -1,6 +1,6 @@
 name: 📄 Page request
-title: "page request: "
-description: Page request template.
+title: "Page request: "
+description: Request creation of a page.
 labels: new command, help wanted
 body:
   - type: textarea
@@ -8,19 +8,35 @@ body:
       label: Command description
       description: Describe a command you want to be summarized.
       placeholder: Tell us about the command!
+    validations:
+      required: true
   - type: input
     attributes:
       label: Command details
       description: Describe any details related to a command.
       placeholder: e.g. command version
-  - type: checkboxes
+  - type: input
     attributes:
-      label: OS
-      description: Select which operating system(s) this command works with.
+      label: Documentation
+      description: Link to the official documentation.
+      placeholder: https://example.com
+  - type: dropdown
+    attributes:
+      label: Platform
+      description: What platform does the program run on? (Select "Common" if the program works on more than one platform)
       options:
-        - label: Android
-        - label: Linux
-        - label: macOS (osx)
-        - label: sunOS
-        - label: Windows
-
+        - Android
+        - Common
+        - FreeBSD
+        - Linux
+        - macOS (OS X)
+        - NetBSD
+        - OpenBSD
+        - SunOS
+        - Windows
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Provide additional information if the command differs between platforms.

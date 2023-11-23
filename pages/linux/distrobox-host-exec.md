@@ -2,7 +2,7 @@
 
 > Execute a command on the host from inside a distrobox container.
 > Subcommand of `distrobox`. See also: `tldr distrobox`.
-> More information: <https://distrobox.privatedns.org/usage/distrobox-host-exec.html>.
+> More information: <https://distrobox.it/usage/distrobox-host-exec>.
 
 - Execute command on the host system from inside the distrobox container:
 

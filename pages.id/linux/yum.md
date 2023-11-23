@@ -4,7 +4,7 @@
 > Untuk perintah-perintah setara dalam pengelola paket lainnya, lihat <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Informasi lebih lanjut: <https://manned.org/yum>.
 
-- Instal sebuah paket baru
+- Instal sebuah paket baru:
 
 `yum install {{nama_paket}}`
 

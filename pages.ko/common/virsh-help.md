@@ -12,7 +12,7 @@
 
 `virsh help | grep "keyword"`
 
-- 카테고리의 명령 나열
+- 카테고리의 명령 나열:
 
 `virsh help {{카테고리_키워드}}`
 

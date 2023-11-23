@@ -13,7 +13,7 @@
 
 - Open specifieke bestanden, ga naar het volgende bestand bij het sluiten van de vorige:
 
-`nano {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
+`nano {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
 - Open een bestand en positioneer de cursor op een specifieke regel en kolom:
 

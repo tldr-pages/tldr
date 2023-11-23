@@ -14,7 +14,7 @@
 
 - Versleutel een bestand met een of meer openbare sleutels die zijn opgegeven in het bestand van een ontvanger:
 
-`age --recipients-file {{pad/naar/ontvangers_bestand}} {{pad/naar/niet-versleuteld_bestand}} --output {{pad/naar/versleuteld_bestand}}`
+`age --recipients-file {{pad/naar/ontvangers_bestand}} --output {{pad/naar/versleuteld_bestand}} {{pad/naar/niet-versleuteld_bestand}}`
 
 - Decodeer een bestand met een wachtwoordzin:
 

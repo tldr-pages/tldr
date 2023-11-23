@@ -1,7 +1,7 @@
 # date
 
 > सिस्टम दिनांक प्रदर्शित या सेट करता है।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/date>.
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/date>।
 
 - वर्तमान सिस्टम तिथि प्रदर्शित करें और नई तिथि दर्ज करने का संकेत दें (अपरिवर्तित रखने के लिए खाली छोड़ें):
 

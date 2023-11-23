@@ -1,7 +1,7 @@
 # w32tm
 
 > Query and control the w32time time synchronization service.
-> More information: <https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings>.
+> More information: <https://learn.microsoft.com/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings>.
 
 - Show the current status of time synchronization:
 

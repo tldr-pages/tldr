@@ -12,6 +12,6 @@
 
 `pushd`
 
-- Rotér mappe-stakken ved at gøre det femte element til det første i mappe-stakken.
+- Rotér mappe-stakken ved at gøre det femte element til det første i mappe-stakken:
 
 `pushd +4`

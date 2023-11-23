@@ -8,7 +8,7 @@
 
 `setcap '{{cap_net_raw}}' {{path/to/file}}`
 
-- Set multiple capabilities on a file (ep behind the capability means "effective permitted"):
+- Set multiple capabilities on a file (`ep` behind the capability means "effective permitted"):
 
 `setcap '{{cap_dac_read_search,cap_sys_tty_config+ep}}' {{path/to/file}}`
 
@@ -20,6 +20,6 @@
 
 `setcap -v '{{cap_net_raw}}' {{path/to/file}}`
 
-- The optional `-n {{rootuid}}` argument can be used to set the file capability for use only in a user namespace with this root user ID owner:
+- The optional `-n root_uid` argument can be used to set the file capability for use only in a user namespace with this root user ID owner:
 
-`setcap -n {{rootuid}} '{{cap_net_admin}}' {{path/to/file}}`
+`setcap -n {{root_uid}} '{{cap_net_admin}}' {{path/to/file}}`

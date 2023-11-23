@@ -1,7 +1,7 @@
 # ab
 
 > Apache HTTP-serverbenchmarktool.
-> Meer Informatie: <https://httpd.apache.org/docs/current/programs/ab.html>.
+> Meer informatie: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - Voer 100 HTTP GET-verzoeken uit naar een bepaalde URL:
 

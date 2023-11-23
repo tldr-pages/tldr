@@ -1,7 +1,7 @@
 # afconvert
 
 > 在 AFF 和 raw 文件格式之间进行转换。
-> 更多信息: <https://manned.org/afconvert.1>.
+> 更多信息：<https://manned.org/afconvert.1>.
 
 - 使用一个特定的扩展名（默认：`aff`）：
 

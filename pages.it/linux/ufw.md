@@ -1,6 +1,6 @@
 # ufw
 
-> ufw (Uncomplicated Firewall) - Firewall Semplice.
+> Ufw (Uncomplicated Firewall) - Firewall Semplice.
 > Frontend per `iptables` per semplificare la configurazione di un firewall.
 > Maggiori informazioni: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 

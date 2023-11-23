@@ -1,7 +1,7 @@
 # docker compose
 
 > 複数コンテナを持つDockerアプリケーションの実行と管理をします。
-> 詳しくはこちら: <https://docs.docker.com/compose/reference/>.
+> 詳しくはこちら: <https://docs.docker.com/compose/reference/>
 
 - 実行中のコンテナ全てをリスト表示する:
 

@@ -9,11 +9,7 @@
 
 - Set the number of simultaneous running test cases:
 
-`cargo test -- --test-threads={{count}}`
-
-- Require that `Cargo.lock` is up to date:
-
-`cargo test --locked`
+`cargo test -- --test-threads {{count}}`
 
 - Test artifacts in release mode, with optimizations:
 
@@ -23,7 +19,7 @@
 
 `cargo test --workspace`
 
-- Run tests for a package:
+- Run tests for a specific package:
 
 `cargo test --package {{package}}`
 

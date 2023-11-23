@@ -3,7 +3,7 @@
 > Debian and Ubuntu package management utility.
 > More information: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
 
-- Synchronize list of packages and versions available. This should be run first, before running subsequent aptitude commands:
+- Synchronize list of packages and versions available. This should be run first, before running subsequent `aptitude` commands:
 
 `aptitude update`
 
@@ -15,7 +15,7 @@
 
 `aptitude search {{package}}`
 
-- Search for an installed package (`?installed` is an aptitude search term):
+- Search for an installed package (`?installed` is an `aptitude` search term):
 
 `aptitude search '?installed({{package}})'`
 

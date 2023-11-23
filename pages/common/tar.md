@@ -24,7 +24,7 @@
 
 `tar xf {{path/to/source.tar[.gz|.bz2|.xz]}} --directory={{path/to/directory}}`
 
-- [c]reate a compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program:
+- [c]reate a compressed archive and write it to a [f]ile, using the file extension to [a]utomatically determine the compression program:
 
 `tar caf {{path/to/target.tar.xz}} {{path/to/file1 path/to/file2 ...}}`
 

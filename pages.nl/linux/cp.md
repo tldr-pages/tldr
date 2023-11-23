@@ -11,7 +11,7 @@
 
 `cp {{pad/naar/bron_bestand.ext}} {{pad/naar/doel_map}}`
 
-- Kopieer de inhoud van een map recursief naar een andere locatie (als de doelmap bestaat, dan wordt de map hierin gekopieerd)
+- Kopieer de inhoud van een map recursief naar een andere locatie (als de doelmap bestaat, dan wordt de map hierin gekopieerd):
 
 `cp -r {{pad/naar/bron_map}} {{pad/naar/doel_map}}`
 

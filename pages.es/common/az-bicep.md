@@ -4,7 +4,7 @@
 > Parte de `azure-cli` (también conocido como `az`).
 > Más información: <https://learn.microsoft.com/cli/azure/bicep>.
 
-- Instala la CLI de Bicep.
+- Instala la CLI de Bicep:
 
 `az bicep install`
 

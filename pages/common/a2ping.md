@@ -19,11 +19,11 @@
 
 `a2ping --below {{path/to/file}}`
 
-- Pass extra arguments to `gs``:
+- Pass extra arguments to `gs`:
 
 `a2ping --gsextra {{arguments}} {{path/to/file}}`
 
-- Pass extra arguments to external program (i.e pdftops):
+- Pass extra arguments to external program (i.e `pdftops`):
 
 `a2ping --extra {{arguments}} {{path/to/file}}`
 

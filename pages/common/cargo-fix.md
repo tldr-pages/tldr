@@ -11,6 +11,10 @@
 
 `cargo fix --allow-dirty`
 
+- Migrate a package to the next Rust edition:
+
+`cargo fix --edition`
+
 - Fix the package’s library:
 
 `cargo fix --lib`
@@ -22,15 +26,3 @@
 - Fix all members in the workspace:
 
 `cargo fix --workspace`
-
-- Set the directory for all generated artifacts and intermediate files:
-
-`cargo fix --target-dir {{path/to/directory}}`
-
-- Restrict Cargo from access to network for any reason:
-
-`cargo fix --offline`
-
-- Run `n` jobs in parallel (default: number of logical CPUs):
-
-`cargo fix --jobs {{n}}`

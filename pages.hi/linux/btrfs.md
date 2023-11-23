@@ -2,7 +2,7 @@
 
 > लिनक्स के लिए कॉपी-ऑन-राइट (COW) सिद्धांत पर आधारित एक फ़ाइल सिस्टम।
 > कुछ सब-कमांड जैसे `btrfs device`, उनका खुद का उपयोग दस्तावेज़न है।
-> अधिक जानकारी: <https://btrfs.readthedocs.io/en/latest/btrfs.html>.
+> अधिक जानकारी: <https://btrfs.readthedocs.io/en/latest/btrfs.html>।
 
 - उप-वॉल्यूम बनाएं:
 
