@@ -1,6 +1,6 @@
 # aws eks
 
-> CLI for AWS eks.
+> CLI for Amazon EKS (Elastic Kubernetes Service).
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/eks/index.html?highlight=eks>.
 
 - Create an EKS Cluster:
