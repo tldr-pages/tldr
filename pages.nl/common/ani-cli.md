@@ -17,7 +17,7 @@
 
 - Specificeer een aflevering om te kijken:
 
-`ani-cli -a {{afleveringnummer}} "{{anime_naam}}"`
+`ani-cli -e {{afleveringnummer}} "{{anime_naam}}"`
 
 - Bekijk anime uit je geschiedenis:
 
