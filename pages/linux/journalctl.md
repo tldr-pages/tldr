@@ -34,3 +34,7 @@
 - Show all messages by a specific executable:
 
 `journalctl {{path/to/executable}}`
+
+- Show logs from last unit start:
+
+`journalctl _SYSTEMD_INVOCATION_ID=$(systemctl show --value --property=InvocationID {{unit}})`
