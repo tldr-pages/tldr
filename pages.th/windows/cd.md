@@ -1,7 +1,7 @@
 # cd
 
 > แสดงชื่อหรือเปลี่ยนไดเร็กทอรีการทำงานปัจจุบัน
-> ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>
+> ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>
 
 - แสดงชื่อของไดเร็กทอรีปัจจุบัน:
 

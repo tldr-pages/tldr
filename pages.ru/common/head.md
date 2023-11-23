@@ -1,7 +1,7 @@
 # head
 
 > Выводит первую часть файлов.
-> Больше информации: <https://www.gnu.org/software/coreutils/head>.
+> Больше информации: <https://manned.org/head.1p>.
 
 - Вывести первые несколько строк из файла:
 

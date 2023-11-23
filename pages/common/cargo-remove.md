@@ -1,36 +1,16 @@
 # cargo remove
 
-> Remove dependencies from a `Cargo.toml` manifest file.
+> Remove dependencies from a Rust project's `Cargo.toml` manifest.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-remove.html>.
 
-- Remove one or more dependencies from the `Cargo.toml` manifest:
+- Remove a dependency from the current project:
 
-`cargo remove {{dependency_name}}`
+`cargo remove {{dependency}}`
 
-- Remove a build dependency:
+- Remove a development or build dependency:
 
-`cargo remove --build {{dependency_name}}`
+`cargo remove --{{dev|build}} {{dependency}}`
 
-- Remove a dependency to the given target platform:
+- Remove a dependency of the given target platform:
 
-`cargo remove --target {{target}} {dependency_name}}`
-
-- Don't actually write to the manifest:
-
-`cargo remove --dry-run {{dependency_name}}`
-
-- Display verbose output:
-
-`cargo remove --verbose {{dependency_name}}`
-
-- Do not print Cargo log message:
-
-`cargo remove --quiet {{dependency_name}}`
-
-- Specify package to remove from:
-
-`cargo remove --package {{specification}} {dependency_name}}`
-
-- Display help:
-
-`cargo remove --help`
+`cargo remove --target {{target}} {{dependency}}`

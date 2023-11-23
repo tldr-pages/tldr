@@ -1,15 +1,20 @@
 # cargo rustdoc
 
-> Generate documentation for the Rust package.
+> Build the documentation of Rust packages.
+> Similar to `cargo doc`, but you can pass options to `rustdoc`. See `rustdoc --help` for all available options.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html>.
 
-- Open the documentation in the browser:
+- Pass options to `rustdoc`:
 
-`cargo rustdoc --open`
+`cargo rustdoc -- {{rustdoc_options}}`
 
-- Specify the package to document:
+- Warn about a documentation lint:
 
-`cargo rustdoc --package {{spec}}`
+`cargo rustdoc -- --warn rustdoc::{{lint_name}}`
+
+- Ignore a documentation lint:
+
+`cargo rustdoc -- --allow rustdoc::{{lint_name}}`
 
 - Document the package's library:
 
@@ -26,7 +31,3 @@
 - Document the specified integration test:
 
 `cargo rustdoc --test {{name}}`
-
-- Display help:
-
-`cargo rustdoc --help`

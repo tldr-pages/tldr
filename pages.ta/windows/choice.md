@@ -1,7 +1,7 @@
 # choice
 
 > ஒரு தேர்வைத் தேர்ந்தெடுத்து, தேர்ந்தெடுக்கப்பட்ட தேர்வுக் குறியீட்டை வழங்க பயனரைத் தூண்டவும்.
-> மேலும் விவரத்திற்கு: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/choice>.
+> மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/choice>.
 
 - தற்போதைய பயனரை `Y` அல்லது `N` தேர்வைத் தேர்ந்தெடுக்கும்படி கேட்கவும்:
 

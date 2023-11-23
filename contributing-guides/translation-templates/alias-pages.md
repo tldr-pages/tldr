@@ -16,6 +16,7 @@ The templates can be changed when necessary.
 [de](#de) •
 [es](#es) •
 [fa](#fa) •
+[fi](#fi) •
 [fr](#fr) •
 [hi](#hi) •
 [id](#id) •
@@ -179,6 +180,20 @@ The templates can be changed when necessary.
 > این دستور یک نام مستعار از `example` است.
 
 - مشاهده مستندات دستور اصلی :
+
+`tldr example`
+```
+
+---
+
+### fi
+
+```markdown
+# example
+
+> Tämä komento on `example`:n alias.
+
+- Katso alkuperäisen komennon dokumentaatiossa:
 
 `tldr example`
 ```
@@ -383,7 +398,15 @@ The templates can be changed when necessary.
 
 ### ro
 
-Not translated yet.
+```markdown
+# example
+
+> Această comandă este un alias al `example`.
+
+- Vizualizați documentația pentru comanda originală:
+
+`tldr example`
+```
 
 ---
 
@@ -409,7 +432,15 @@ Not translated yet.
 
 ### sr
 
-Not translated yet.
+```markdown
+# example
+
+> Ова наредба је псеудоним `example`.
+
+- Погледајте документацију за оригиналну команду:
+
+`tldr example`
+```
 
 ---
 
@@ -485,7 +516,15 @@ Not translated yet.
 
 ### uz
 
-Not translated yet.
+```markdown
+# example
+
+> Ushbu buyruq taxallus `example`.
+
+- Asl buyruq uchun hujjatlarni ko'rish:
+
+`tldr example`
+```
 
 ---
 

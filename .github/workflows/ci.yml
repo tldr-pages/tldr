@@ -13,13 +13,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - uses: actions/setup-python@v4
       with:
         python-version: '3.10'
         cache: 'pip'
 
-    - uses: actions/setup-node@v3
+    - uses: actions/setup-node@v4
       with:
         node-version: 'lts/*'
         cache: 'npm'
@@ -43,7 +45,7 @@ jobs:
     - name: Build PDF
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       working-directory: ./scripts/pdf
-      run: python render.py ../../pages -c solarized-light
+      run: bash build-pdf.sh
 
     - name: Deploy
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'

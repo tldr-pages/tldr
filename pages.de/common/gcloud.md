@@ -1,7 +1,7 @@
 # gcloud
 
 > Das offizielle CLI-Tool für die Google Cloud Platform.
-> Weitere Informationen: https://cloud.google.com/sdk/gcloud.
+> Weitere Informationen: <https://cloud.google.com/sdk/gcloud>.
 
 - Liste alle Eigenschaften der aktiven Konfiguration auf:
 

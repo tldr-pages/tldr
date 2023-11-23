@@ -1,7 +1,7 @@
 # ls
 
 > डायरेक्टरी की सामग्री की सूची दिखाएं।
-> और जानकारी: <https://www.gnu.org/software/coreutils/ls>.
+> अधिक जानकारी: <https://www.gnu.org/software/coreutils/ls>।
 
 - एक प्रति पंक्ति फ़ाइलों की सूची दिखाएं:
 

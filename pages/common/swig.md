@@ -16,6 +16,6 @@
 
 `swig -java {{path/to/swig_file.i}}`
 
-- Generate a binding between C and Ruby and prefix the Ruby module with {{foo::bar::}}:
+- Generate a binding between C and Ruby and prefix the Ruby module with `foo::bar::`:
 
 `swig -ruby -prefix "{{foo::bar::}}" {{path/to/swig_file.i}}`

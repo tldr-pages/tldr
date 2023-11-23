@@ -1,7 +1,7 @@
 # afconvert
 
 > Converteren tussen AFF en onbewerkte bestandsindelingen.
-> More information: <https://manned.org/afconvert.1>.
+> Meer informatie: <https://manned.org/afconvert.1>.
 
 - Gebruik een specifieke extensie (standaard: `aff`):
 

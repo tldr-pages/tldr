@@ -1,7 +1,7 @@
 # dd
 
 > 转换并复制文件。
-> 更多信息：<https://ss64.com/osx/dd.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/dd.1.html>.
 
 - 从 isohybrid 文件（如 archlinux-xxx.iso）制作可用于引导系统启动的 USB 驱动器：
 

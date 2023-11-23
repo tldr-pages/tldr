@@ -1,11 +1,8 @@
 # pw-record
 
-> pw-cat --playback komutu için kısayol aracı.
+> Pipewire aracılığıyla ses dosyalarını kaydedin.
+> pw-cat --record için kısaltma.
 > Daha fazla bilgi için: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
-
-- Tüm erişilebilir kayıt hedeflerini sırala:
-
-`pw-record --list-targets`
 
 - Varsayılan hedefi kullanarak örnek bir ses kaydı al:
 

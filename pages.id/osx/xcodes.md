@@ -11,7 +11,7 @@
 
 `xcodes list`
 
-- Pilih versi Xcode yang hendak digunakan sebagai default, dengan menyertakan versi atau lokasi aplikasi
+- Pilih versi Xcode yang hendak digunakan sebagai default, dengan menyertakan versi atau lokasi aplikasi:
 
 `xcodes select {{versi_xcode|jalan/menuju/Xcode.app}}`
 

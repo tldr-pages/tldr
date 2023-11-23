@@ -1,7 +1,7 @@
 # flatpak
 
 > फ्लैटपैक अनुप्रयोग और रनटाइम बनाएं, स्थापित करें और चलाएं।
-> अधिक जानकारी: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.
+> अधिक जानकारी: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>।
 
 - एक स्थापित अनुप्रयोग चलाएं:
 

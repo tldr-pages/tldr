@@ -4,7 +4,7 @@
 > OSTree is the foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS.
 > More information: <https://ostreedev.github.io/ostree>.
 
-- Initialize a repository of the files in `$PWD` with metadata in `$PWD/{{path/to/repo}}`:
+- Initialize a repository of the files in `$PWD` with metadata in `$PWD/path/to/repo`:
 
 `ostree init --repo {{path/to/repo}}`
 

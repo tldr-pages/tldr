@@ -1,7 +1,7 @@
 # django-admin
 
 > 관리 작업을 위한 Django 유틸리티.
-> 더 많은 정보: <https://docs.djangoproject.com/en/4.1/ref/django-admin/>.
+> 더 많은 정보: <https://docs.djangoproject.com/en/4.2/ref/django-admin/>.
 
 - 새로운 Django 프로젝트를 생성:
 

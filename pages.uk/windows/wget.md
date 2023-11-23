@@ -1,7 +1,7 @@
 # wget
 
 > Ця команда є псевдонімом для `wget -p common`.
-> Більше інформації: <https://www.gnu.org/software/wget>.
+> Більше інформації: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Дивись документацію для оригінальної команди:
 

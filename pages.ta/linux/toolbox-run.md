@@ -12,6 +12,6 @@
 
 `toolbox run --distro {{விநியோகம்}} --release {{வெளியீடு}} {{கட்டளை}}`
 
-- ஃபெடோரா 38க்கான இயல்புநிலை படத்தைப் பயன்படுத்தி `toolbox` கொள்கலனுக்குள் `emacs` ஐ இயக்கவும்:
+- ஃபெடோரா 39க்கான இயல்புநிலை படத்தைப் பயன்படுத்தி `toolbox` கொள்கலனுக்குள் `emacs` ஐ இயக்கவும்:
 
-`toolbox run --distro {{fedora}} --release {{f38}} {{emacs}}`
+`toolbox run --distro {{fedora}} --release {{f39}} {{emacs}}`

@@ -1,7 +1,7 @@
 # netsh interface portproxy
 
 > Configure and display the status of various network components.
-> More information: <https://learn.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-interface-portproxy>.
+> More information: <https://learn.microsoft.com/windows-server/networking/technologies/netsh/netsh-interface-portproxy>.
 
 - Display the current port forwarding setup:
 

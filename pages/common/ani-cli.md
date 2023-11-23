@@ -17,7 +17,7 @@
 
 - Specify episode to watch:
 
-`ani-cli -a {{episode_number}} "{{anime_name}}"`
+`ani-cli -e {{episode_number}} "{{anime_name}}"`
 
 - Continue watching anime from history:
 

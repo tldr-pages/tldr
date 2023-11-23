@@ -1,6 +1,6 @@
 # pm2
 
-> Manajer proses untuk Node.js
+> Manajer proses untuk Node.js.
 > Digunakan untuk manajemen log, pemantauan, dan pengaturan proses.
 > Informasi lebih lanjut: <https://pm2.keymetrics.io>.
 

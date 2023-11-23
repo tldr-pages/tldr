@@ -1,7 +1,7 @@
 # certutil
 
 > A tool to manage and configure certificate information.
-> More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/certutil>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/certutil>.
 
 - Dump the configuration information or files:
 

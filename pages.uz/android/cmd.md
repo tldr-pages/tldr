@@ -1,7 +1,7 @@
 # cmd
 
 > Android xizmatlar boshqaruvchisi.
-> Ko'proq malumot: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+> Ko'proq malumot: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - Barcha bajarilayotgan xizmatlarni ko'rsatish:
 

@@ -1,7 +1,7 @@
 # brew
 
 > macOS와 Linux를 위한 패키지 관리자.
-> 더 많은 정보: <https://brew.sh>.
+> 더 많은 정보: <https://docs.brew.sh/Manpage>.
 
 - 공식(formula) 혹은 캐스크(cask)의 최신 안정 버전을 설치 (개발 버전을 원한다면 `--devel` 사용):
 

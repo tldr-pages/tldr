@@ -1,7 +1,7 @@
 # cmd
 
 > ஆண்ட்ராய்டு சேவை நிர்வாகி.
-> மேலும் விவரத்திற்கு: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+> மேலும் விவரத்திற்கு: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - இயங்கும் ஒவ்வொரு சேவையையும் பட்டியலிடுங்கள்:
 

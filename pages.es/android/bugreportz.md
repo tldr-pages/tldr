@@ -2,7 +2,7 @@
 
 > Genera un informe comprimido de errores de Android.
 > Este comando solo se puede usar a través de `adb shell`.
-> Más información: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
+> Más información: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
 - Genera un informe completo de errores comprimido de un dispositivo Android:
 

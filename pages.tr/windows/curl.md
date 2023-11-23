@@ -1,7 +1,7 @@
 # curl
 
 > Bu komut `curl -p common` için bir takma addır.
-> Daha fazla bilgi için: <https://curl.se>.
+> Daha fazla bilgi için: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

@@ -131,7 +131,7 @@ using one of the template messages below as a base.
    If you accept the invitation, we ask you to make your membership public, and (in case you don't already) start hanging out in our [Matrix chat room](https://matrix.to/#/#tldr-pages:matrix.org).
    Additionally, consider subscribing to the notifications from the various repositories under the [tldr-pages organization](https://github.com/tldr-pages).
    As one of the public faces of the tldr-pages project, it's also especially important that you follow and encourage the [project
-   governance principles](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md).
+   governance principles](https://github.com/tldr-pages/tldr/blob/main/GOVERNANCE.md).
 
    How does that sound? Are you up for it?
    ```

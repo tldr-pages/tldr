@@ -1,7 +1,7 @@
 # cargo
 
 > Beheer Rust projecten en hun afhankelijkheden (crates).
-> Sommige subcommando's zoals `build` hebben hun eigen documentatie.
+> Sommige subcommando's zoals `build` hebben een eigen documentatie pagina.
 > Meer informatie: <https://doc.rust-lang.org/cargo>.
 
 - Zoek naar crates:
