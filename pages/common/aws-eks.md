@@ -30,3 +30,4 @@
 -Describe nodegroup details:
 
 `aws eks describe-nodegroup --cluster-name {{cluster-name}} --nodegroup-name {{nodegroup-name}}`
+
