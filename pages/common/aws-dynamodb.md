@@ -1,6 +1,6 @@
 # aws dynamodb
 
-> CLI for AWS IAM.
+> CLI for AWS dynamodb.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/dynamodb/>.
 
 - Create a table:
