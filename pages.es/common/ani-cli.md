@@ -17,7 +17,7 @@
 
 - Especifica el episodio que desea ver:
 
-`ani-cli -a {{numero_episodio}} "{{nombre_del_anime}}"`
+`ani-cli -e {{numero_episodio}} "{{nombre_del_anime}}"`
 
 - Continúa viendo el anime desde el historial:
 

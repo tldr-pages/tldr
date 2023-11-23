@@ -11,10 +11,6 @@
 
 `tldr wget -p common`
 
-- View documentation for the original `wget` command in older versions of `tldr` command-line client:
-
-`tldr wget -o common`
-
 - View documentation for PowerShell's `Invoke-WebRequest` command:
 
 `tldr invoke-webrequest`

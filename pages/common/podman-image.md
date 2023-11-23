@@ -1,7 +1,7 @@
 # podman image
 
 > Manage Docker images.
-> See also `podman build`, `podman import`, and `podman pull`.
+> See also: `podman build`, `podman import`, and `podman pull`.
 > More information: <https://docs.podman.io/en/latest/markdown/podman-image.1.html>.
 
 - List local Docker images:

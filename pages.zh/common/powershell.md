@@ -1,7 +1,7 @@
 # powershell
 
 > 专为系统管理而设计的命令行 shell 和脚本语言。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
+> 更多信息：<https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
 - 在命令提示符窗口中启动 Windows PowerShell 会话：
 

@@ -71,7 +71,9 @@ Some subcommands such as `example command` have their own usage documentation.
 
 ### bs
 
-Not translated yet.
+```markdown
+Neke podnaredbe kao što je `example command` imaju vlastitu dokumentaciju o korištenju.
+```
 
 ---
 
@@ -181,13 +183,17 @@ Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazio
 
 ### lo
 
-Not translated yet.
+```markdown
+ບາງຄໍາສັ່ງຍ່ອຍເຊັ່ນ `example command` ມີເອກະສານການນໍາໃຊ້ຂອງຕົນເອງ.
+```
 
 ---
 
 ### ml
 
-Not translated yet.
+```markdown
+`example command` പോലുള്ള ചില ഉപകമാൻഡുകൾക്ക് അവരുടേതായ ഉപയോഗ ഡോക്യുമെന്റേഷൻ ഉണ്ട്.
+```
 
 ---
 
@@ -209,7 +215,9 @@ Sommige subcommando's zoals `example command` hebben een eigen documentatie pagi
 
 ### no
 
-Not translated yet.
+```markdown
+Noen underkommandoer som `example command` har sin egen bruksdokumentasjon.
+```
 
 ---
 
@@ -239,7 +247,9 @@ Alguns subcomandos, como `example command`, tem a sua própria documentação de
 
 ### ro
 
-Not translated yet.
+```markdown
+Unele subcomenzi precum `example command` au propria lor documentație de utilizare.
+```
 
 ---
 
@@ -259,7 +269,9 @@ Not translated yet.
 
 ### sr
 
-Not translated yet.
+```markdown
+Неке подкоманде као што је `example command` имају своју документацију о коришћењу.
+```
 
 ---
 
@@ -281,7 +293,9 @@ En del underkommandon som t.ex: `example command` har sin egen användningsdokum
 
 ### th
 
-Not translated yet.
+```markdown
+คำสั่งย่อยบางคำสั่ง เช่น `example command` มีเอกสารการใช้งานของตัวเอง
+```
 
 ---
 
@@ -303,7 +317,9 @@ Not translated yet.
 
 ### uz
 
-Not translated yet.
+```markdown
+`example command` kabi baʼzi kichik buyruqlar oʻzlarining foydalanish hujjatlariga ega.
+```
 
 ---
 

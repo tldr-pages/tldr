@@ -5,7 +5,7 @@
 
 - Search entries:
 
-`keepassxc-cli lookup {{path/to/database_file}} {{name}}`
+`keepassxc-cli search {{path/to/database_file}} {{name}}`
 
 - List the contents of a folder:
 

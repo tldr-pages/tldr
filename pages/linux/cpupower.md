@@ -1,7 +1,6 @@
 # cpupower
 
 > Tools regarding CPU power and tuning options.
-> This command is available as part of the `cpupower` package, or as part of `kernel-tools` on Fedora.
 > More information: <https://manned.org/cpupower>.
 
 - List CPUs:

@@ -2,7 +2,7 @@
 
 > Stop een distrobox container.
 > Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.
-> Meer informatie: <https://distrobox.privatedns.org/usage/distrobox-stop.html>.
+> Meer informatie: <https://distrobox.it/usage/distrobox-stop>.
 
 - Stop een distrobox container:
 

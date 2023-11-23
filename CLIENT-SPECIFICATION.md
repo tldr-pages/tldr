@@ -116,7 +116,13 @@ The structure inside these translation folders is identical to that of the main 
 
 ## Page structure
 
-Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in standard [CommonMark](https://commonmark.org/), which the exception of the non-standard `{{` and `}}` syntax, which surrounds values in an example that users may edit. Clients MUST NOT break if the page format is changed within the _CommonMark_ specification.
+Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in standard [CommonMark](https://commonmark.org/), with the exception of the non-standard `{{` and `}}` placeholder syntax, which surrounds values in an example that users may edit. Clients MAY highlight the placeholders and MUST remove the surrounding curly braces. Clients MUST NOT treat them as the placeholder syntax if they are escaped using `\` (i.e. `\{\{` and `\}\}`) and MUST instead display literal braces, without backslashes. Placeholder escaping applies only when both braces are escaped (e.g. in `\{` or `\{{`, backslashes MUST be displayed). Clients MUST NOT break if the page format is changed within the _CommonMark_ specification.
+
+### Examples
+
+- `ping {{example.com}}` MUST be rendered as "ping example.com"
+- `docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{container}}` MUST be rendered as "docker inspect --format '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container"
+- `mount \\{{computer_name}}\{{share_name}} Z:` MUST be rendered as "mount \\computer_name\share_name Z:"
 
 
 ## Page resolution
