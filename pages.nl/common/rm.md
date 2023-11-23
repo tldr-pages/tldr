@@ -8,7 +8,7 @@
 
 `rm {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
-- Verwijder specifieke bestanden, maar negeer niet-bestaanden:
+- Verwijder specifieke bestanden, maar negeer niet-bestaande bestanden:
 
 `rm -f {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
