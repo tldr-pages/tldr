@@ -1,6 +1,6 @@
 # todoman
 
-> Een simpele, gestandardiseerde, cli todo manager.
+> Een simpele, gestandaardiseerde, cli todo manager.
 > `todoman` is een gebruikelijke naam voor het commando `todo`, maar niet een commando op zichzelf.
 > Meer informatie: <https://todoman.readthedocs.io/>.
 
