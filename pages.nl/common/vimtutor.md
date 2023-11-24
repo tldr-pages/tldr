@@ -6,7 +6,7 @@
 
 - Start de vim tutor voor de opgegeven taal (en, fr, de, ...):
 
-`vimtutor {{language}}`
+`vimtutor {{taal}}`
 
 - Verlaat de tutor:
 
