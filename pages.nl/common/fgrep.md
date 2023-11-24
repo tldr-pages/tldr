@@ -1,29 +1,28 @@
 # fgrep
 
-> Matches fixed strings in files.
-> Equivalent to `grep -F`.
-> More information: <https://www.gnu.org/software/grep/manual/grep.html>.
+> Zoek naar strings in bestanden. Gelijk aan `grep -F`.
+> Meer informatie: <https://www.gnu.org/software/grep/manual/grep.html>.
 
-- Search for an exact string in a file:
+- Zoek naar een string in een bestand:
 
-`fgrep {{search_string}} {{path/to/file}}`
+`fgrep {{zoek_string}} {{pad/naar/bestand}}`
 
-- Search only lines that match entirely in files:
+- Zoek in bestanden, maar alleen in regels die volledig overeenkomen:
 
-`fgrep -x {{path/to/file1}} {{path/to/file2}}`
+`fgrep -x {{zoek_string}} {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
 
-- Count the number of lines that match the given string in a file:
+- Tel het aantal regels in een bestand die overeenkomen met de opgegeven string:
 
-`fgrep -c {{search_string}} {{path/to/file}}`
+`fgrep -c {{zoek_string}} {{pad/naar/bestand}}`
 
-- Show the line number in the file along with the line matched:
+- Toon de regelnummers in het bestand samen met de regel die overeenkomt:
 
-`fgrep -n {{search_string}} {{path/to/file}}`
+`fgrep -n {{zoek_string}} {{pad/naar/bestand}}`
 
-- Display all lines except those that contain the search string:
+- Toon alle regels behalve de regels die de string bevatten:
 
-`fgrep -v {{search_string}} {{path/to/file}}`
+`fgrep -v {{zoek_string}} {{pad/naar/bestand}}`
 
-- Display filenames whose content matches the search string at least once:
+- Toon bestandsnamen waarvan de inhoud minimaal één keer overeenkomt met de string:
 
-`fgrep -l {{search_string}} {{path/to/file1}} {{path/to/file2}}`
+`fgrep -l {{zoek_string}} {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
