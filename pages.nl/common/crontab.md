@@ -7,7 +7,7 @@
 
 `crontab -e`
 
-- Pas het crontab betand aan voor een specifieke gebruiker:
+- Pas het crontab bestand aan voor een specifieke gebruiker:
 
 `sudo crontab -e -u {{gebruiker}}`
 
