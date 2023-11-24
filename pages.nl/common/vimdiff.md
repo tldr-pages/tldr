@@ -1,22 +1,22 @@
 # vimdiff
 
-> Open up two or more files in vim and show the differences between them.
-> See also: `vim`, `vimtutor`, `nvim`.
-> More information: <https://www.vim.org>.
+> Open twee of meer bestanden in `vim` en toon de verschillen tussen ze.
+> Bekijk ook: `vim`, `vimtutor`, `nvim`.
+> Meer informatie: <https://www.vim.org>.
 
-- Open two files and show the differences:
+- Open twee bestanden en toon de verschillen:
 
-`vimdiff {{file1}} {{file2}}`
+`vimdiff {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
 
-- Move the cursor to the window on the left|right:
+- Verplaats de cursor naar het scherm links|rechts:
 
 `Ctrl + w {{h|l}}`
 
-- Jump to the previous difference:
+- Spring naar het vorige verschil:
 
 `[c`
 
-- Jump to the next difference:
+- Spring naar het volgende verschil:
 
 `]c`
 
@@ -28,10 +28,10 @@
 
 `dp`
 
-- Update all highlights and folds:
+- Update alle markeringen en folds:
 
 `:diffupdate`
 
-- Toggle the highlighted code fold:
+- Schakel de gemarkeerde code fold om:
 
 `za`
