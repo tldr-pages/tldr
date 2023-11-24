@@ -11,7 +11,7 @@
 
 `egrep "{{zoekpatroon}}" {{pad/naar/bestand1}} {{pad/naar/bestand2}} {{pad/naar/bestand3}}`
 
-- Zoek in `stdin` voor een patroon:
+- Zoek in `stdin` naar een patroon:
 
 `cat {{pad/naar/bestand}} | egrep {{zoekpatroon}}`
 
