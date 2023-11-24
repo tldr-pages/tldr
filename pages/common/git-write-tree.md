@@ -1,6 +1,6 @@
 # git write-tree
 
-> Low level utility to create a tree object from the current index
+> Low level utility to create a tree object from the current index.
 
 - Create a tree object without checking whether objects referenced by the directory exist in the object database:
 
