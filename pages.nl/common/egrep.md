@@ -3,7 +3,7 @@
 > Vind patronen in bestanden door gebruik te maken van uitgebreidere reguliere expressies (ondersteund `?`, `+`, `{}`, `()` en `|`).
 > Meer informatie: <https://manned.org/egrep>.
 
-- Zoek voor een patroon in een bestand:
+- Zoek naar een patroon in een bestand:
 
 `egrep "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
