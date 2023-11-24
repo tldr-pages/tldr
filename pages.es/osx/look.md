@@ -9,4 +9,4 @@
 
 - Busca líneas ignorando mayúsculas y minúsculas:
 
-`look --ignore-case {{prefijo}}} {{ruta/al/archivo}}`
+`look --ignore-case {{prefijo}} {{ruta/al/archivo}}`
