@@ -1,38 +1,38 @@
 # nvim
 
-> Neovim, a programmer's text editor based on Vim, provides several modes for different kinds of text manipulation.
-> Pressing `i` in normal mode enters insert mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
-> See also: `vim`, `vimtutor`, `vimdiff`.
-> More information: <https://neovim.io>.
+> Neovim, een programmeurs tekstbewerker gebaseerd op Vim, welke verschillende modi aanbied voor verschillende soorten text manipulatie.
+> Op `i` drukken in de normale modus, gaat naar de invoer modus. `<Esc>` gaat terug naar de normale modus, die geen reguliere tekst invoer accepteert.
+> Bekijk ook: `vim`, `vimtutor`, `vimdiff`.
+> Meer informatie: <https://neovim.io>.
 
-- Open a file:
+- Open een bestand:
 
-`nvim {{path/to/file}}`
+`nvim {{pad/naar/bestand}}`
 
-- Enter text editing mode (insert mode):
+- Ga naar de modus om tekst aan te passen (insert mode):
 
 `<Esc>i`
 
-- Copy ("yank") or cut ("delete") the current line (paste it with `P`):
+- Kopieer ("yank") of knip ("delete") de huidige regel (plak het met `P`):
 
 `<Esc>{{yy|dd}}`
 
-- Enter normal mode and undo the last operation:
+- Ga naar de normale modus en maak de laatste operatie ongedaan:
 
 `<Esc>u`
 
-- Search for a pattern in the file (press `n`/`N` to go to next/previous match):
+- Zoek voor een patroon in het bestand (druk op `n`/`N` om naar de volgende/vorige overeenkomst te gaan):
 
-`<Esc>/{{search_pattern}}<Enter>`
+`<Esc>/{{zoek_patroon}}<Enter>`
 
-- Perform a regular expression substitution in the whole file:
+- Voer een reguliere expressie vervanging uit in het volledige bestand:
 
-`<Esc>:%s/{{regular_expression}}/{{replacement}}/g<Enter>`
+`<Esc>:%s/{{reguliere_expressie}}/{{vervanging}}/g<Enter>`
 
-- Enter normal mode and save (write) the file, and quit:
+- Ga naar de normale modus, sla (write) het bestand op en sluit af:
 
 `<Esc>:wq<Enter>`
 
-- Quit without saving:
+- Sluit af zonder op te slaan:
 
 `<Esc>:q!<Enter>`
