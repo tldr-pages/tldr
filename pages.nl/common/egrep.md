@@ -7,7 +7,7 @@
 
 `egrep "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
-- Zoek voor een patroon in meerdere bestanden:
+- Zoek naar een patroon in meerdere bestanden:
 
 `egrep "{{zoekpatroon}}" {{pad/naar/bestand1}} {{pad/naar/bestand2}} {{pad/naar/bestand3}}`
 
