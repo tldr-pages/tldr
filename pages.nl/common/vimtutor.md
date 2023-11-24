@@ -1,13 +1,13 @@
 # vimtutor
 
-> Vim tutor, teaching the basic vim commands.
-> See also: `vim`, `vimdiff`, `nvim`.
-> More information: <https://manned.org/vimtutor>.
+> Vim tutor leert de basis `vim` commando's.
+> Bekijk ook: `vim`, `vimdiff`, `nvim`.
+> Meer informatie: <https://manned.org/vimtutor>.
 
-- Launch the vim tutor using the given language (en, fr, de, ...):
+- Start de vim tutor voor de opgegeven taal (en, fr, de, ...):
 
 `vimtutor {{language}}`
 
-- Exit the tutor:
+- Verlaat de tutor:
 
 `<Esc> :q <Enter>`
