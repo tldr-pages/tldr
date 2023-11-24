@@ -1,36 +1,36 @@
 # crontab
 
-> Schedule cron jobs to run on a time interval for the current user.
-> More information: <https://crontab.guru/>.
+> Regel cron jobs in om in een tijdsinterval te draaien voor de huidige gebruiker.
+> Meer informatie: <https://crontab.guru/>.
 
-- Edit the crontab file for the current user:
+- Pas het crontab bestand aan voor de huidige gebruiker:
 
 `crontab -e`
 
-- Edit the crontab file for a specific user:
+- Pas het crontab betand aan voor een specifieke gebruiker:
 
-`sudo crontab -e -u {{user}}`
+`sudo crontab -e -u {{gebruiker}}`
 
-- Replace the current crontab with the contents of the given file:
+- Vervang de huidige crontab met de inhoud van een opgegeven bestand:
 
-`crontab {{path/to/file}}`
+`crontab {{pad/naar/bestand}}`
 
-- View a list of existing cron jobs for current user:
+- Bekijk een lijst van bestaande cron jobs voor de huidige gebruiker:
 
 `crontab -l`
 
-- Remove all cron jobs for the current user:
+- Verwijder alle cron jobs voor de huidige gebruiker:
 
 `crontab -r`
 
-- Sample job which runs at 10:00 every day (* means any value):
+- Voorbeeld crontab entry, welke iedere dag om 10:00 draait (* betekent elke waarde):
 
-`0 10 * * * {{command_to_execute}}`
+`0 10 * * * {{commando_om_uit_te_voeren}}`
 
-- Sample crontab entry, which runs a command every 10 minutes:
+- Voorbeeld crontab entry, welke iedere 10 minuten een commando uitvoert:
 
-`*/10 * * * * {{command_to_execute}}`
+`*/10 * * * * {{commando_om_uit_te_voeren}}`
 
-- Sample crontab entry, which runs a certain script at 02:30 every Friday:
+- Voorbeeld crontab entry, welke iedere vrijdag om 02:30 een specifiek script draait:
 
-`30 2 * * Fri {{/absolute/path/to/script.sh}}`
+`30 2 * * Fri {{/absoluut/pad/naar/script.sh}}`
