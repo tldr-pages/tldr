@@ -1,28 +1,28 @@
 # egrep
 
-> Find patterns in files using extended regular expression (supports `?`, `+`, `{}`, `()` and `|`).
-> More information: <https://manned.org/egrep>.
+> Vind patronen in bestanden door gebruik te maken van uitgebreidere reguliere expressies (ondersteund `?`, `+`, `{}`, `()` en `|`).
+> Meer informatie: <https://manned.org/egrep>.
 
-- Search for a pattern within a file:
+- Zoek voor een patroon in een bestand:
 
-`egrep "{{search_pattern}}" {{path/to/file}}`
+`egrep "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
-- Search for a pattern within multiple files:
+- Zoek voor een patroon in meerdere bestanden:
 
-`egrep "{{search_pattern}}" {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`
+`egrep "{{zoekpatroon}}" {{pad/naar/bestand1}} {{pad/naar/bestand2}} {{pad/naar/bestand3}}`
 
-- Search `stdin` for a pattern:
+- Zoek in `stdin` voor een patroon:
 
-`cat {{path/to/file}} | egrep {{search_pattern}}`
+`cat {{pad/naar/bestand}} | egrep {{zoekpatroon}}`
 
-- Print file name and line number for each match:
+- Toon de bestandsnaam en het regelnummer voor iedere overeenkomst:
 
-`egrep --with-filename --line-number "{{search_pattern}}" {{path/to/file}}`
+`egrep --with-filename --line-number "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
-- Search for a pattern in all files recursively in a directory, ignoring binary files:
+- Zoek recursief in alle bestanden in een map voor een patroon, maar negeer binaire bestanden:
 
-`egrep --recursive --binary-files={{without-match}} "{{search_pattern}}" {{path/to/directory}}`
+`egrep --recursive --binary-files={{without-match}} "{{zoekpatroon}}" {{pad/naar/map}}`
 
-- Search for lines that do not match a pattern:
+- Zoek voor regels die niet voldoen aan een patroon:
 
-`egrep --invert-match "{{search_pattern}}" {{path/to/file}}`
+`egrep --invert-match "{{zoekpatroon}}" {{pad/naar/bestand}}`
