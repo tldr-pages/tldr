@@ -1,6 +1,6 @@
 # vimdiff
 
-> Open twee of meer bestanden in `vim` en toon de verschillen tussen ze.
+> Open twee of meer bestanden in `vim` en toon de verschillen.
 > Bekijk ook: `vim`, `vimtutor`, `nvim`.
 > Meer informatie: <https://www.vim.org>.
 
@@ -20,11 +20,11 @@
 
 `]c`
 
-- Copy the highlighted difference from the other window to the current window:
+- Kopieer het gemarkeerde verschil van het andere scherm naar het huidige scherm:
 
 `do`
 
-- Copy the highlighted difference from the current window to the other window:
+- Kopieer het gemarkeerde verschil van het huidige scherm naar het andere scherm:
 
 `dp`
 
