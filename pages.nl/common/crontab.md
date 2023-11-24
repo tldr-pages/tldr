@@ -1,6 +1,6 @@
 # crontab
 
-> Regel cron jobs in om in een tijdsinterval te draaien voor de huidige gebruiker.
+> Plan cron jobs zodat deze volgens een tijdsinterval voor de huidige gebruiker worden uitgevoerd.
 > Meer informatie: <https://crontab.guru/>.
 
 - Pas het crontab bestand aan voor de huidige gebruiker:
