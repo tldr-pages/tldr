@@ -9,7 +9,7 @@
 
 - Lee un archivo en voz alta:
 
-`say -input-file={{nombre_de_archivo.txt}}`
+`say --input-file={{nombre_de_archivo.txt}}`
 
 - Di una frase con una voz y un ritmo de voz personalizados:
 
@@ -25,4 +25,4 @@
 
 - Crea un archivo de audio con el texto hablado:
 
-`say --output-file={nombre_de_fichero.aiff}} "{{Aquí están los locos.}}"`
+`say --output-file={{nombre_de_fichero.aiff}} "{{Aquí están los locos.}}"`
