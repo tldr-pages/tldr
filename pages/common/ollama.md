@@ -25,4 +25,4 @@
 
 - Create a model from a `Modelfile`:
 
-`ollama create {{new_model_name}} -f {{path/to/file}}`
+`ollama create {{new_model_name}} -f {{path/to/Modelfile}}`
