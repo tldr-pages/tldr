@@ -6,7 +6,7 @@
 
 - Open two files and show the differences:
 
-`vimdiff {{file1}} {{file2}}`
+`vimdiff {{path/to/file1}} {{path/to/file2}}`
 
 - Move the cursor to the window on the left|right:
 
