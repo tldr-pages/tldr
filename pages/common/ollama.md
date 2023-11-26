@@ -7,9 +7,13 @@
 
 `ollama serve`
 
-- Run a model:
+- Run a model and chat with it:
 
 `ollama run {{model}}`
+
+- Run a model with a single prompt:
+
+`ollama run {{model}} {{prompt}}`
 
 - List downloaded models:
 
