@@ -11,7 +11,8 @@
 
 `VBoxManage clonevm {{vm_name}} --name {{exemple_name}}`
 
-- Indicate the folder where the new VM configuration is saved
+- Indicate the folder where the new VM configuration is saved:
+
 `VBoxManage clonevm {{vm_name}} --basefolder {{path/to/directory}}`
 
 - Store the cloned VM in VirtualBox:
