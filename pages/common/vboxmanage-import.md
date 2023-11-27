@@ -1,37 +1,36 @@
-# VBoxManage-import
+# vboxmanage-import
 
->  Imports a virtual machine (VM) previously exported or created
+> Imports a virtual machine (VM) previously exported or created.
+> More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-import>.
 
->More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-import>.
-
-- Import a VM from a OVF or OVA file.
+- Import a VM from a OVF or OVA file:
 
 `VBoxManage import {{path/to/file.ovf}}`
 
-- Specifies the name of the imported VM.
+- Specifies the name of the imported VM:
 
 `VBoxManage import {{path/to/file.ovf}} --name {{new-vm-name}}`
 
-- Specifies the folder where the configuration of the imported VM will be stored.
+- Specifies the folder where the configuration of the imported VM will be stored:
 
 `VBoxManage import {{path/to/file.ovf}} --basefolder {{path/to/directory}}`
 
-- Register the imported VM in VirtualBox.
+- Register the imported VM in VirtualBox:
 
 `VBoxManage import {{path/to/file.ovf}} --register`
 
-- Perform a dry run to check the import without actually importing.
+- Perform a dry run to check the import without actually importing:
 
 `VBoxManage import {{path/to/file.ovf}} --dry-run`
 
-- Set the guest OS type for the imported VM.
+- Set the guest OS type for the imported VM:
 
 `VBoxManage import {{path/to/file.ovf}} --ostype={{OStype-VBoxManage-list-ostypes}}`
 
-- Set the memory (in megabytes) for the imported VM.
+- Set the memory (in megabytes) for the imported VM:
 
 `VBoxManage import {{path/to/file.ovf}} --memory={{MB}}`
 
-- Set the number of CPUs for the imported VM.
+- Set the number of CPUs for the imported VM:
 
 `VBoxManage import {{path/to/file.ovf}} --cpus={{numbers-CPUs}}`
