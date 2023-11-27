@@ -13,7 +13,7 @@
 
 - Visualize possible changes without applying them:
 
-`sg -p 'useState<number>($A)' -r 'useState($A)' -l ts`
+`sg run --pattern '{{useState<number>($A)}}' --rewrite '{{useState($A)}}' --lang {{typescript}}`
 
 - Output results as JSON, extract information using `jq` and interactively view it using `jless`:
 
