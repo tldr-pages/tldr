@@ -16,7 +16,7 @@
 
 `make -j{{4}} {{destino}}`
 
-- Use um Makefile específico::
+- Usa um Makefile específico:
 
 `make --file {{caminho/para/arquivo}}`
 
