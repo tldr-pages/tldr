@@ -28,7 +28,7 @@
 
 `make --always-make {{destino}}`
 
-- Substitua uma variável definida no Makefile:
+- Substitui uma variável definida no Makefile:
 
 `make {{destino}} {{variavel}}={{novo_valor}}`
 
