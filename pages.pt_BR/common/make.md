@@ -24,7 +24,7 @@
 
 `make --directory {{caminho/para/diretorio}}`
 
-- Force a execução de um destino, mesmo que os arquivos de origem não tenham sido alterados:
+- Força a execução de um destino, mesmo que os arquivos de origem não tenham sido alterados:
 
 `make --always-make {{destino}}`
 
