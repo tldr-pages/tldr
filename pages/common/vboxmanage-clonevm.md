@@ -5,7 +5,7 @@
 
 - Clone the specified VM:
 
-`VBoxManage clonevm {{The-VM}}`
+`VBoxManage clonevm {{vm_name}}`
 
 - Specifies a new name for the new VM:
 
