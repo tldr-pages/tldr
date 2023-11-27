@@ -11,7 +11,7 @@
 
 `dust {{pfad/zum/verzeichnis1}} {{pfad/zum/verzeichnis2}}`
 
-- 30 Verzeichnisse anzeigen (Standardwert: 21):
+- Zeige 30 Verzeichnisse an (Standardwert: 21):
 
 `dust --number-of-lines {{30}}`
 

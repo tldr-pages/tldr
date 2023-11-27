@@ -23,7 +23,7 @@
 
 `trash-empty {{10}}`
 
-- Çöptw 'foo' ismini taşıyan tüm dosyaları sil:
+- Çöpte 'foo' ismini taşıyan tüm dosyaları sil:
 
 `trash-rm foo`
 

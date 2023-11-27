@@ -28,6 +28,6 @@
 
 `apt-get autoremove`
 
-- Actualiza paquetes instalados (como `upgrade`), pero elimina paquete obsoletos e instala paquetes adiciones para satisfacer nuevas dependencias:
+- Actualiza paquetes instalados (como `upgrade`), pero elimina paquetes obsoletos e instala paquetes adiciones para satisfacer nuevas dependencias:
 
 `apt-get dist-upgrade`

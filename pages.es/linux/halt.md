@@ -1,7 +1,7 @@
 # halt
 
 > Detiene, apaga o reinicia la máquina.
-> Más información: <https://www.man7.org/linux/man-pages/man8/halt.8.html>.
+> Más información: <https://manned.org/halt.8>.
 
 - Detiene la máquina:
 

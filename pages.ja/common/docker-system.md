@@ -1,7 +1,7 @@
 # docker system
 
 > Dockerのデータ管理とシステム全体に関わる情報の表示をします。
-> 詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/system/>.
+> 詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/system/>
 
 - ヘルプの表示をする:
 

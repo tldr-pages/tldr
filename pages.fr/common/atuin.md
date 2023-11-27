@@ -2,7 +2,7 @@
 
 > Enregistre votre historique shell dans une base de donnée.
 > Peut également synchroniser votre historique chiffré entre plusieurs machines.
-> Plus d'informations : <https://atuin.sh/docs/overview/introduction/>.
+> Plus d'informations : <https://atuin.sh/docs/commands>.
 
 - Installe atuin dans votre shell :
 

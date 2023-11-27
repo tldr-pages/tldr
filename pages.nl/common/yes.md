@@ -1,6 +1,7 @@
 # yes
 
-> Print herhaaldelijk iets op het scherm.
+> Iets herhaaldelijk uitvoeren.
+> Deze opdracht wordt vaak gebruikt om ja te beantwoorden op elke prompt door installatieopdrachten (zoals apt-get).
 > Meer informatie: <https://www.gnu.org/software/coreutils/yes>.
 
 - Print herhaaldelijk "bericht":
@@ -10,3 +11,7 @@
 - Print herhaaldelijk "y":
 
 `yes`
+
+- Accepteer alles wat wordt gevraagd door het commando `apt-get`:
+
+`yes | sudo apt-get install {{programma}}`

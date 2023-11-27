@@ -23,7 +23,8 @@ Just open an issue or send a pull request and we'll incorporate it as soon as po
 To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 [Contributor License Agreement](https://gist.github.com/waldyrious/e50feec13683e565769fbd58ce503d4e).
 
-*Note*: when submitting a new command, please base your PR against the `main` branch, and check if there's already a pull request in progress for it.
+> [!NOTE]
+> When submitting a new command, please base your PR against the `main` branch, and check if there's already a pull request in progress for it.
 
 ## Guidelines
 

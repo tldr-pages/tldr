@@ -16,6 +16,14 @@
 
 `resolvectl query {{ip_address}}`
 
+- Flush all local DNS caches:
+
+`resolvectl flush-caches`
+
+- Display DNS statistics (transactions, cache, and DNSSEC verdicts):
+
+`resolvectl statistics`
+
 - Retrieve an MX record of a domain:
 
 `resolvectl --legend={{no}} --type={{MX}} query {{domain}}`
@@ -23,10 +31,6 @@
 - Resolve an SRV record, for example _xmpp-server._tcp gmail.com:
 
 `resolvectl service _{{service}}._{{protocol}} {{name}}`
-
-- Retrieve the public key from an email address from an OPENPGPKEY DNS record:
-
-`resolvectl openpgp {{email}}`
 
 - Retrieve a TLS key:
 

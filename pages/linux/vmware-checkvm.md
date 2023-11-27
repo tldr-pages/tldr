@@ -1,6 +1,6 @@
 # vmware-checkvm
 
-> Checks to see if the current host is a VMware VM or not.
+> Check if the current host is a VMware VM or not.
 > More information: <https://manned.org/vmware-checkvm>.
 
 - Return the current VMware software version (exit status determines whether the system is a VM or not):

@@ -2,7 +2,7 @@
 
 > 捆绑图形布局中的边缘。
 > Graphviz 过滤器：`acyclic`、`bcomps`、`comps`、`edgepaint`、`gvcolor`、`gvpack`、`mingle`、`nop`、`sccmap`、`tred` 和 `unflatten`。
-> 更多信息： <https://www.graphviz.org/pdf/mingle.1.pdf>.
+> 更多信息：<https://www.graphviz.org/pdf/mingle.1.pdf>.
 
 - 捆绑一个或多个已经有布局信息的图形布局的边缘：
 

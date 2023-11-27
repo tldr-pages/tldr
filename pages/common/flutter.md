@@ -1,6 +1,7 @@
 # flutter
 
 > Google's free, open source, and cross-platform mobile app SDK.
+> Some subcommands such as `flutter pub` have their own usage documentation.
 > More information: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
 
 - Initialize a new Flutter project in a directory of the same name:
@@ -18,10 +19,6 @@
 - Run Flutter on all started emulators and connected devices:
 
 `flutter run -d all`
-
-- Download all packages specified in `pubspec.yaml`:
-
-`flutter pub get`
 
 - Run tests in a terminal from the root of the project:
 

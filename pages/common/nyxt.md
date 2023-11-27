@@ -1,6 +1,6 @@
 # nyxt
 
-> Nyxt is a keyboard-driven web browser for power users.
+> A keyboard-driven web browser for power users.
 > More information: <https://nyxt.atlas.engineer>.
 
 - List all profiles:

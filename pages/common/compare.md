@@ -1,12 +1,13 @@
 # compare
 
-> View the difference between 2 images.
+> Create a comparison image to visually annotate the difference between two images.
+> Part of ImageMagick.
 > More information: <https://imagemagick.org/script/compare.php>.
 
-- Compare 2 images:
+- Compare two images:
 
-`compare {{image1.png}} {{image2.png}} {{diff.png}}`
+`compare {{path/to/image1.png}} {{path/to/image2.png}} {{path/to/diff.png}}`
 
-- Compare 2 images using a custom metric:
+- Compare two images using the specified metric:
 
-`compare -verbose -metric {{PSNR}} {{image1.png}} {{image2.png}} {{diff.png}}`
+`compare -verbose -metric {{PSNR}} {{path/to/image1.png}} {{path/to/image2.png}} {{path/to/diff.png}}`

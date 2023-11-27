@@ -1,21 +1,28 @@
 # mktemp
 
 > Create a temporary file or directory.
-> Note that examples here all assume `$TMPDIR` is unset.
-> More information: <https://www.gnu.org/software/autogen/mktemp.html>.
+> More information: <https://www.gnu.org/software/coreutils/mktemp>.
 
-- Create an empty temporary file in `/tmp/` and print its absolute path:
+- Create an empty temporary file and print its absolute path:
 
 `mktemp`
 
-- Create a temporary directory in `/tmp/` and print its absolute path:
+- Use a custom directory (defaults to `$TMPDIR`, or `/tmp`):
+
+`mktemp --tmpdir={{/path/to/tempdir}}`
+
+- Use a custom path template (`X`s are replaced with random alphanumeric characters):
+
+`mktemp {{/tmp/example.XXXXXXXX}}`
+
+- Use a custom file name template:
+
+`mktemp -t {{example.XXXXXXXX}}`
+
+- Create an empty temporary file with the given suffix and print its absolute path:
+
+`mktemp --suffix {{.ext}}`
+
+- Create an empty temporary directory and print its absolute path:
 
 `mktemp --directory`
-
-- Create an empty temporary file at the specified path, with `X`s replaced with random alphanumeric characters, and print its path:
-
-`mktemp "{{path/to/file_XXXXX_name}}"`
-
-- Create an empty temporary file in `/tmp/` with the specified name, with `X`s replaced with random alphanumeric characters, and print its path:
-
-`mktemp -t "{{file_XXXXX_name}}"`

@@ -11,6 +11,18 @@
 
 `crystal build {{path/to/file.cr}}`
 
+- Read Crystal source code from the command line or `stdin`, and execute it:
+
+`crystal eval '{{code}}'`
+
+- Generate API documentation from inline docstrings in Crystal files:
+
+`crystal docs`
+
+- Compile and run a Crystal specification suite:
+
+`crystal spec`
+
 - Start a local interactive server for testing the language:
 
 `crystal play`

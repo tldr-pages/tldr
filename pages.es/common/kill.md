@@ -1,7 +1,7 @@
 # kill
 
 > Envía una señal a un proceso, usualmente relacionado a detener el proceso.
-> kill envia una señal para terminar uno o un grupo de procesos.
+> Kill envia una señal para terminar uno o un grupo de procesos.
 > Más información: <https://manned.org/kill>.
 
 - Termina un programa usando la señal SIGTERM (terminar) por defecto:

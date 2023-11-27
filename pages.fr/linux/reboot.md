@@ -1,20 +1,24 @@
 # reboot
 
-> Réinitialisez le système.
+> Redémarre le système.
 > Plus d'informations : <https://manned.org/reboot.8>.
 
-- Réinitialisez le système normalement :
+- Redémarre le système :
 
 `reboot`
 
-- Mettrez le système hors tension :
+- Éteint le système (identique à `poweroff`) :
 
 `reboot --poweroff`
 
-- Arrêtez toutes les fonctions du CPU :
+- Arrête (met fin à tous les processus et arrête le processeur) le système (identique à `halt`) :
 
 `reboot --halt`
 
-- Réinitialisez le système maintenant mais propre :
+- Redémarre immédiatement sans contacter le gestionnaire du système :
 
 `reboot --force`
+
+- Écrit l'entrée wtmp shutdown sans redémarrer le système :
+
+`reboot --wtmp-only`

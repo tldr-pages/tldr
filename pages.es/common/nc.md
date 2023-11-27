@@ -1,7 +1,7 @@
 # nc
 
 > Netcat es una utilidad versátil para trabajar con datos TCP o UDP.
-> Más información: <https://nmap.org/ncat>.
+> Más información: <https://manned.org/man/nc.1>.
 
 - Escucha en un puerto determinado e imprime cualquier dato recibido:
 

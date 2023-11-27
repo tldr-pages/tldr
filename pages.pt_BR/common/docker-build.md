@@ -3,21 +3,25 @@
 > Cria uma imagem a partir de um Dockerfile.
 > Mais informações: <https://docs.docker.com/engine/reference/commandline/build/>.
 
-- Cria uma imagem docker usando o Dockerfile presente no diretório atual:
+- Cria uma imagem docker usando o Dockerfile no diretório atual:
 
 `docker build .`
 
-- Cria uma imagem docker usando o Dockerfile de uma URL específica:
+- Cria uma imagem docker a partir de um Dockerfile em uma URL específica:
 
 `docker build {{github.com/creack/docker-firefox}}`
 
-- Cria uma imagem docker e cria uma tag para ela:
+- Cria uma imagem docker e cria uma etiqueta para ela:
 
-`docker build --tag {{nome:tag}} .`
+`docker build --tag {{nome:etiqueta}} .`
+
+- Cria uma imagem docker sem contexto de criação:
+
+`docker build --tag {{nome:etiqueta}} - < {{Dockerfile}}`
 
 - Não usa o cache na criação da imagem:
 
-`docker build --no-cache --tag {{nome:tag}} .`
+`docker build --no-cache --tag {{nome:etiqueta}} .`
 
 - Cria uma imagem docker usando um Dockerfile específico:
 

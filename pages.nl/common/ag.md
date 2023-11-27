@@ -9,7 +9,7 @@
 
 - Vind bestanden die "foo" bevatten in een specifieke map:
 
-`ag {{foo}} {{pad/naar/directory}}`
+`ag {{foo}} {{pad/naar/map}}`
 
 - Vind bestanden die "foo" bevatten, maar vermeld alleen de bestandsnamen:
 

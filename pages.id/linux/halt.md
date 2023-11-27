@@ -1,7 +1,7 @@
 # halt
 
 > Hentikan sistem.
-> Informasi lebih lanjut: <https://www.man7.org/linux/man-pages/man8/halt.8.html>.
+> Informasi lebih lanjut: <https://manned.org/halt.8>.
 
 - Hentikan sistem:
 

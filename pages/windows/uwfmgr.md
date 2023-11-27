@@ -2,7 +2,7 @@
 
 > Unified Write Filter (UWF).
 > Protect drives by redirecting any writes to the drive to a virtual overlay. Writes are discarded upon reboot unless committed by default.
-> More information: <https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/unified-write-filter>.
+> More information: <https://learn.microsoft.com/windows/iot/iot-enterprise/customize/unified-write-filter>.
 
 - Get the current status:
 

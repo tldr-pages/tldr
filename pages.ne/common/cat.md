@@ -1,7 +1,7 @@
 # cat
 
 > फाइलहरू देखाउनुहोस् र जोड्नुहोस्।
-> थप जानकारी: <https://www.gnu.org/software/coreutils/cat>.
+> थप जानकारी: <https://www.gnu.org/software/coreutils/cat>।
 
 - फाइल भित्रका कुराहरुलाई मानक आउटपुटमा देखाउनुहोस्:
 

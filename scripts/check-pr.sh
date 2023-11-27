@@ -2,14 +2,18 @@
 # SPDX-License-Identifier: MIT
 
 # This script is executed by GitHub Actions for every pull request opened.
-# It currently accomplishes the following objectives (for English pages only):
+# It currently accomplishes the following objectives:
 #
 #  1. Detect pages that were just copied (i.e. cp pages/{common,linux}/7z.md).
 #  2. Detect pages that were added in a platform specific directory although
 #     they already exist under 'common'.
 #  3. Detect pages that were added in the 'common' platform although they
 #     already exist under a platform specific directory.
-#  4. Detect other miscellaneous anomalies in the pages folder.
+#  4. Detect pages that do not exist as English pages yet.
+#  5. Detect outdated pages. A page is marked as outdated when the number of 
+#     commands differ from the number of commands in the English page or the
+#     contents of the commands differ from the English page.
+#  6. Detect other miscellaneous anomalies in the pages folder.
 #
 # Results are printed to stdout, logs and errors to stderr.
 #
@@ -30,18 +34,55 @@ function check_duplicates {
   case "$platform" in
     common) # check if page already exists in other platforms
       for other in ${PLATFORMS/common/}; do
-        if [ -f "pages/$other/$file" ]; then
+        if [[ -f "pages/$other/$file" ]]; then
           printf "\x2d $MSG_EXISTS" "$page" "$other"
         fi
       done
       ;;
 
     *) # check if page already exists under common
-      if [ -f "pages/common/$file" ]; then
+      if [[ -f "pages/common/$file" ]]; then
         printf "\x2d $MSG_EXISTS" "$page" 'common'
       fi
       ;;
   esac
+}
+
+function check_missing_english_page() {
+  local page=$1
+  local english_page="pages/${page#pages*\/}"
+
+  if [[ "$page" = "$english_page" ]]; then
+    return 1
+  fi
+  
+  if [[ ! -f "$english_page" ]]; then
+    printf "\x2d $MSG_NOT_EXISTS" "$page" "$english_page"
+  fi
+}
+
+function check_outdated_page() {
+  local page=$1
+  local english_page="pages/${page#pages*\/}"
+  local command_regex='^`[^`]\+`$'
+
+  if [[ "$page" = "$english_page" ]] || [[ ! -f "$english_page" ]]; then
+    return 1
+  fi
+
+  local english_commands=$(grep -c $command_regex "$english_page")
+  mapfile -t stripped_english_commands < <(grep $command_regex "$english_page" | sed 's/{{[^}]*}}/{{}}/g' | sed 's/"[^"]*"/""/g' | sed "s/'[^']*'//g" | sed 's/`//g')
+  local commands=$(grep -c $command_regex $page)
+  mapfile -t stripped_commands < <(grep $command_regex "$page" | sed 's/{{[^}]*}}/{{}}/g' | sed 's/"[^"]*"/""/g' | sed "s/'[^']*'//g" | sed 's/`//g')
+
+  local english_commands_as_string=$(printf "%s\n" "${stripped_english_commands[*]}")
+  local commands_as_string=$(printf "%s\n" "${stripped_commands[*]}")
+
+  if [[ $english_commands != $commands ]]; then
+    printf "\x2d $MSG_OUTDATED" "$page" "based on number of commands"
+  elif [[ "$english_commands_as_string" != "$commands_as_string" ]]; then
+    printf "\x2d $MSG_OUTDATED" "$page" "based on the command contents itself"
+  fi
 }
 
 # Look at git diff and check for copied/duplicated pages.
@@ -50,9 +91,9 @@ function check_diff {
   local line
   local entry
 
-  git_diff=$(git diff --name-status --find-copies-harder --diff-filter=AC --relative=pages/ remotes/origin/main)
+  git_diff=$(git diff --name-status --find-copies-harder --diff-filter=ACM origin/main -- pages*/)
 
-  if [ -n "$git_diff" ]; then
+  if [[ -n $git_diff ]]; then
     echo -e "Check PR: git diff:\n$git_diff" >&2
   else
     echo 'Check PR: git diff looks fine, no interesting changes detected.' >&2
@@ -75,8 +116,10 @@ function check_diff {
         printf "\x2d $MSG_IS_COPY" "$file2" "$file1" "$percentage"
         ;;
 
-      A) # file1 was newly added
+      A|M) # file1 was newly added or modified
         check_duplicates "$file1"
+        check_missing_english_page "$file1"
+        check_outdated_page "$file1"
         ;;
     esac
   done <<< "$git_diff"
@@ -85,13 +128,13 @@ function check_diff {
 # Recursively check the pages/ folder for anomalies.
 function check_structure {
   for platform in $PLATFORMS; do
-    if [ ! -d "pages/$platform" ]; then
+    if [[ ! -d "pages/$platform" ]]; then
       printf "\x2d $MSG_NOT_DIR" "pages/$platform"
     else
       for page in "pages/$platform"/*; do
-        if [ ! -f "$page" ]; then
+        if [[ ! -f $page ]]; then
           printf "\x2d $MSG_NOT_FILE" "$page"
-        elif [ "${page:(-3)}" != ".md" ]; then
+        elif [[ ${page:(-3)} != ".md" ]]; then
           printf "\x2d $MSG_NOT_MD" "$page"
         fi
       done
@@ -104,6 +147,8 @@ function check_structure {
 ###################################
 
 MSG_EXISTS='The page `%s` already exists under the `%s` platform.\n'
+MSG_NOT_EXISTS='The page `%s` does not exists as English page `%s` yet.\n'
+MSG_OUTDATED='The page `%s` is outdated, %s.\n'
 MSG_IS_COPY='The page `%s` seems to be a copy of `%s` (%d%% matching).\n'
 MSG_NOT_DIR='The file `%s` does not look like a directory.\n'
 MSG_NOT_FILE='The file `%s` does not look like a regular file.\n'
@@ -111,7 +156,7 @@ MSG_NOT_MD='The file `%s` does not have a `.md` extension.\n'
 
 PLATFORMS=$(ls pages/)
 
-if [ "$CI" = "true" ] && [ "$GITHUB_REPOSITORY" = "tldr-pages/tldr" ] && [ "$PULL_REQUEST_ID" != "" ]; then
+if [[ $CI == true && $GITHUB_REPOSITORY == "tldr-pages/tldr" && $PULL_REQUEST_ID != "" ]]; then
   check_diff
   check_structure
 else

@@ -11,9 +11,9 @@
 
 `AdGuardHome --config {{pad/naar/AdGuardHome.yaml}}`
 
-- Stel de werkdirectory in waarin gegevens moeten worden opgeslagen:
+- Stel de werkmap in waarin gegevens moeten worden opgeslagen:
 
-`AdGuardHome --work-dir {{pad/naar/directory}}`
+`AdGuardHome --work-dir {{pad/naar/map}}`
 
 - Installeer of verwijder AdGuard Home als een service:
 

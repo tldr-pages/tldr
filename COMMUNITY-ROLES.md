@@ -46,8 +46,9 @@ exceptions can always be considered, via open community discussion.)
   This means they will be able to
   push commits to all of the organization's repositories,
   merge PRs, label and close issues, among other things.
-  _Note_: All members of the tldr-pages organization
-  must make their membership public.
+  > [!NOTE]
+  > All members of the tldr-pages organization
+  > must make their membership public.
 
 - **Organization members who remain active for a while should become organization owners.**
   Specifically: members of the tldr-pages organization
@@ -78,8 +79,9 @@ exceptions can always be considered, via open community discussion.)
 
 ## How to change roles
 
-*Note: This section is aimed at owners in the tldr-pages organization
-(i.e. the group of people who are able to perform these changes).*
+> [!NOTE]
+> This section is aimed at owners in the tldr-pages organization
+> (i.e. the group of people who are able to perform these changes).
 
 If you notice a contributor being particularly active,
 review their recent contributions to check whether a role transition is due,
@@ -129,7 +131,7 @@ using one of the template messages below as a base.
    If you accept the invitation, we ask you to make your membership public, and (in case you don't already) start hanging out in our [Matrix chat room](https://matrix.to/#/#tldr-pages:matrix.org).
    Additionally, consider subscribing to the notifications from the various repositories under the [tldr-pages organization](https://github.com/tldr-pages).
    As one of the public faces of the tldr-pages project, it's also especially important that you follow and encourage the [project
-   governance principles](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md).
+   governance principles](https://github.com/tldr-pages/tldr/blob/main/GOVERNANCE.md).
 
    How does that sound? Are you up for it?
    ```

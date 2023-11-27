@@ -18,7 +18,7 @@
 
 - Also check any sourced shell scripts:
 
-`shellcheck --checked-sourced {{path/to/script.sh}}`
+`shellcheck --check-sourced {{path/to/script.sh}}`
 
 - Display output in the specified format (defaults to `tty`):
 

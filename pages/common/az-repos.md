@@ -1,8 +1,8 @@
 # az repos
 
 > Manage Azure DevOps repos.
-> Part of `azure-cli`.
-> More information: <https://learn.microsoft.com/en-us/cli/azure/repos?view=azure-cli-latest>.
+> Part of `azure-cli` (also known as `az`).
+> More information: <https://learn.microsoft.com/cli/azure/repos>.
 
 - List all repos in a specific project:
 

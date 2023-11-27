@@ -19,6 +19,10 @@
 
 `echo "{{Hallo Wereld}}" >> {{bestand.txt}}`
 
-- Schakel interpretatie van backslash ontkoming in (speciale karakters):
+- Interpretatie van backslash-escapes (speciale tekens) inschakelen:
 
 `echo -e "{{kolom 1\kolom 2}}"`
+
+- Druk de afsluitstatus van de laatst uitgevoerde opdracht af (Opmerking: in Windows Command Prompt en PowerShell zijn de equivalente opdrachten respectievelijk `echo %errorlevel%` en `$lastexitcode`):
+
+`echo $?`

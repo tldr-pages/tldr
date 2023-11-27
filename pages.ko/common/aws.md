@@ -1,24 +1,37 @@
 # aws
 
 > Amazon Web Services의 공식 CLI tool입니다.
+> `aws s3`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
 > 더 많은 정보: <https://aws.amazon.com/cli>.
 
-- 모든 IAM 사용자 목록:
+- AWS Command-line 설정:
 
-`aws iam list-users`
+`aws configure wizard`
 
-- 특정 지역의 모든 ec2 인스턴스 나열:
+- SSO를 사용해 AWS Command-line 설정:
 
-`aws ec2 describe-instances --region {{us-east-1}}`
+`aws configure sso`
 
-- 특정 SQS 대기열에서 메시지 수신:
-
-`aws sqs receive-message --queue-url {{https://queue.amazonaws.com/546123/Test}}`
-
-- 특정 SNS 주제에 메시지 게시:
-
-`aws sns publish --topic-arn {{arn:aws:sns:us-east-1:54633:testTopic}} --message "Message"`
-
-- AWS 명령어에 대한 도움말을 보려면:
+- AWS 명령에 대한 도움말:
 
 `aws {{command}} help`
+
+- 호출자 ID 가져오기 (권한 문제 해결에 사용됨):
+
+`aws sts get-caller-identity`
+
+- 지역의 AWS 리소스 목록 및 YAML로 출력:
+
+`aws dynamodb list-tables --region {{us-east-1}} --output yaml`
+
+- 명령에 대한 자동 프롬프트 사용:
+
+`aws iam create-user --cli-auto-prompt`
+
+- AWS 리소스에 대한 대화형 마법사 사용:
+
+`aws dynamodb wizard {{new_table}}`
+
+- JSON CLI 스켈레톤 생성 (인프라를 코드로 사용하는 데 유용):
+
+`aws dynamodb update-table --generate-cli-skeleton`

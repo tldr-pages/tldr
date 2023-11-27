@@ -1,7 +1,7 @@
 # fastboot
 
 > Communicate with connected Android devices when in bootloader mode (the one place `adb` doesn't work).
-> More information: <https://cs.android.com/android/platform/superproject/+/master:system/core/fastboot>.
+> More information: <https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot>.
 
 - Unlock the bootloader:
 

@@ -1,6 +1,6 @@
 # alias
 
-> Maakt een alias aan -- Woorden die vervangen woorden door commando's.
+> Maakt een alias aan -- Woorden die vervangen worden door commando's.
 > Een alias blijft bestaan in de huidige shell sessie, tenzij gedefinieerd in de configuratie van de shell, bijvoorbeeld in `~/.bashrc`.
 > Meer informatie: <https://tldp.org/LDP/abs/html/aliases.html>.
 

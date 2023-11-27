@@ -2,7 +2,7 @@
 
 > Shell della riga di comando e linguaggio di scripting progettato appositamente per l'amministrazione dei sistemi.
 > Guarda anche: `pwsh`.
-> Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
+> Maggiori informazioni: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
 - Avvia una sessione di shell interattiva:
 

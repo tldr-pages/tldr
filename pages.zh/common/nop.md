@@ -2,7 +2,7 @@
 
 > 检查有效性并以规范的格式漂亮地打印图形。
 > Graphviz 过滤器：`acyclic`、`bcomps`、`comps`、`edgepaint`、`gvcolor`、`gvpack`、`mingle`、`nop`、`sccmap`、`tred` 和 `unflatten`。
-> 更多信息： <https://www.graphviz.org/pdf/nop.1.pdf>.
+> 更多信息：<https://www.graphviz.org/pdf/nop.1.pdf>.
 
 - 漂亮地打印一个或多个规范格式的图形：
 

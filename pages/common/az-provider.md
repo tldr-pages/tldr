@@ -1,8 +1,8 @@
 # az provider
 
 > Manage resource providers.
-> Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/provider>.
+> Part of `azure-cli` (also known as `az`).
+> More information: <https://learn.microsoft.com/cli/azure/provider>.
 
 - Register a provider:
 

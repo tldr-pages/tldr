@@ -1,6 +1,6 @@
 # zile
 
-> Zile is a lightweight clone of the Emacs text editor.
+> A lightweight clone of the Emacs text editor.
 > More information: <https://www.gnu.org/software/zile/>.
 
 - Start a buffer for temporary notes, which won't be saved:

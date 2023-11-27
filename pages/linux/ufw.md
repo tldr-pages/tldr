@@ -1,7 +1,7 @@
 # ufw
 
 > Uncomplicated Firewall.
-> Frontend for iptables aiming to make configuration of a firewall easier.
+> Frontend for `iptables` aiming to make configuration of a firewall easier.
 > More information: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
 - Enable ufw:

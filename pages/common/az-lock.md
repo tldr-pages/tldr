@@ -1,7 +1,7 @@
 # az lock
 
 > Manage Azure locks.
-> Part of `azure-cli`.
+> Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/lock>.
 
 - Create a read-only subscription level lock:

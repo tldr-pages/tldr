@@ -7,14 +7,22 @@
 
 `cd {{pad/naar/map}}`
 
+- Ga naar de ouder van de huidge map:
+
+`cd ..`
+
 - Ga naar de thuismap van de huidige gebruiker:
 
 `cd`
 
-- Ga naar de ouder van de huidige map:
+- Ga naar de thuismap van de opgegeven gebruiker:
 
-`cd ..`
+`cd ~{{gebruikersnaam}}`
 
 - Ga naar de vorige map:
 
 `cd -`
+
+- Ga naar de hoofdmap:
+
+`cd /`

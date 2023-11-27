@@ -30,3 +30,7 @@
 - Wyświetl informacje o bieżącej konfiguracji PHP:
 
 `php -i`
+
+- Wyświetl informacje o konkretnej funkcji:
+
+`php --rf {{nazwa_funkcji}}`

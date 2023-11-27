@@ -27,7 +27,7 @@
 
 `duckdb {{path/to/dbfile}} -init {{path/to/script.sql}}`
 
-- Read CSV from stdin and write CSV to stdout:
+- Read CSV from `stdin` and write CSV to `stdout`:
 
 `cat {{path/to/source.csv}} | duckdb -c "{{COPY (FROM read_csv_auto('/dev/stdin')) TO '/dev/stdout' WITH (FORMAT CSV, HEADER)}}"`
 

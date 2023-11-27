@@ -12,11 +12,13 @@ labels = {
     "ar": "لمزيد من التفاصيل:",
     "bn": "আরও তথ্য পাবেন:",
     "bs": "Više informacija:",
+    "cs": "Více informací:",
     "ca": "Més informació:",
     "da": "Mere information:",
     "de": "Weitere Informationen:",
     "es": "Más información:",
     "fa": "اطلاعات بیشتر:",
+    "fi": "Lisätietoja:",
     "fr": "Plus d'informations :",
     "sh": "Više informacija:",
     "hi": "अधिक जानकारी:",
@@ -56,15 +58,14 @@ def get_tldr_root():
 
     if "TLDR_ROOT" in os.environ:
         return os.environ["TLDR_ROOT"]
-    else:
-        print(
-            "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
-        )
-        sys.exit(1)
+    print(
+        "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
+    )
+    sys.exit(1)
 
 
 def set_link(file, link):
-    with open(file) as f:
+    with open(file, encoding="utf-8") as f:
         lines = f.readlines()
 
     desc_start = 0
@@ -86,11 +87,11 @@ def set_link(file, link):
         locale = "en"
 
     # build new line
-    if locale == "hi":
+    if locale in ["bn", "hi", "ne"]:
         new_line = f"> {labels[locale]} <{link}>।\n"
-    elif locale == "ja" or locale == "th":
+    elif locale in ["ja", "th"]:
         new_line = f"> {labels[locale]} <{link}>\n"
-    elif locale == "zh" or locale == "zh_TW":
+    elif locale in ["zh", "zh_TW"]:
         new_line = f"> {labels[locale]}<{link}>.\n"
     else:
         new_line = f"> {labels[locale]} <{link}>.\n"
@@ -108,14 +109,14 @@ def set_link(file, link):
         lines.insert(desc_end + 1, new_line)
         status = "\x1b[36mlink added"
 
-    with open(file, "w") as f:
+    with open(file, "w", encoding="utf-8") as f:
         f.writelines(lines)
 
     return status
 
 
 def get_link(file):
-    with open(file) as f:
+    with open(file, encoding="utf-8") as f:
         lines = f.readlines()
 
     desc_start = 0

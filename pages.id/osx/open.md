@@ -1,17 +1,17 @@
 # open
 
-> Membuka file, direktori, dan aplikasi.
+> Buka file, direktori, dan aplikasi.
 > Informasi lebih lanjut: <https://ss64.com/osx/open.html>.
 
-- Membuka sebuah file di dalam aplikasi default:
+- Buka sebuah file di dalam aplikasi default:
 
-`open {{file.ext}}`
+`open {{jalan/menuju/file.ext}}`
 
-- Membuka aplikasi macOS tertentu:
+- Buka aplikasi macOS tertentu:
 
 `open -a "{{Aplikasi}}"`
 
-- Membuka sebuah aplikasi macOS berdasarkan ID pengenal (bundle identifier) tertentu (gunakan `osascript` untuk mencari ID pengenal aplikasi secara mudah dan cepat):
+- Buka sebuah aplikasi macOS berdasarkan ID pengenal (bundle identifier) tertentu (gunakan `osascript` untuk mencari ID pengenal aplikasi secara mudah dan cepat):
 
 `open -b {{com.domain.aplikasi}}`
 

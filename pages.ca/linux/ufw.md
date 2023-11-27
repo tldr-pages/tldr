@@ -1,7 +1,7 @@
 # ufw
 
 > Tallafocs sense complicacions (_Uncomplicated Firewall_).
-> Interfície d'usuari de iptables per facilitar la configuració d'un firewall.
+> Interfície d'usuari de `iptables` per facilitar la configuració d'un firewall.
 > Més informació: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
 - Activa ufw:
