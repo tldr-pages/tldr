@@ -32,6 +32,6 @@
 
 `make {{destino}} {{variavel}}={{novo_valor}}`
 
-- Substitua variáveis definidas no Makefile pelo ambiente:
+- Substitui variáveis definidas no Makefile pelo ambiente:
 
 `make --environment-overrides {{destino}}`
