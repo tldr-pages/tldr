@@ -20,7 +20,7 @@
 
 `make --file {{caminho/para/arquivo}}`
 
-- Execute o make a partir de outro diretório:
+- Executa o make a partir de outro diretório:
 
 `make --directory {{caminho/para/diretorio}}`
 
