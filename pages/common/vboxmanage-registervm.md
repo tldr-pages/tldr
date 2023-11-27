@@ -1,3 +1,5 @@
+# VBoxManage-registervm
+
 > Register a virtual machine (VM).
 
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-registervm>.
