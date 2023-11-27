@@ -1,13 +1,12 @@
 # distrobox-stop
 
-> Stop een distrobox container.
-> Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.
+> Stop een Distrobox container. Bekijk ook: `tldr distrobox`.
 > Meer informatie: <https://distrobox.it/usage/distrobox-stop>.
 
-- Stop een distrobox container:
+- Stop een Distrobox container:
 
 `distrobox-stop {{container_name}}`
 
-- Stop een distrobox container zonder bevestiging:
+- Stop een Distrobox container zonder bevestiging:
 
 `distrobox-stop --name {{container_name}} --yes`
