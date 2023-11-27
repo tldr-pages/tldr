@@ -13,4 +13,4 @@
 
 - Create a tree object that represents a subdirectory (used to write the tree object for a subproject in the named subdirectory):
 
-`git write-tree --prefix={{subdirectory}}/`
+`git write-tree --prefix {{subdirectory}}/`
