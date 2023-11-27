@@ -4,7 +4,7 @@
 > Principalmente utilizada para controlar a compilação de um executável a partir do código-fonte.
 > Mais informações: <https://www.gnu.org/software/make/manual/make.html>.
 
-- Execute o primeiro destino especificado no Makefile (geralmente chamado de "all"):
+- Executa o primeiro destino especificado no Makefile (geralmente chamado de "all"):
 
 `make`
 
