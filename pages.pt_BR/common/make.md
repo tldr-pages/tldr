@@ -12,7 +12,7 @@
 
 `make {{destino}}`
 
-- Execute um destino específico, executando 4 tarefas simultaneamente em paralelo:
+- Executa um destino específico, executando 4 tarefas simultaneamente em paralelo:
 
 `make -j{{4}} {{destino}}`
 
