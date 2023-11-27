@@ -7,11 +7,11 @@
 
 `VBoxManage import {{path/to/file.ovf}}`
 
-- Specifies the name of the imported VM:
+- Set the name of the imported VM:
 
-`VBoxManage import {{path/to/file.ovf}} --name {{new-vm-name}}`
+`VBoxManage import {{path/to/file.ovf}} --name {{new_vm_name}}`
 
-- Specifies the folder where the configuration of the imported VM will be stored:
+- Indicate the folder where the configuration of the imported VM will be stored:
 
 `VBoxManage import {{path/to/file.ovf}} --basefolder {{path/to/directory}}`
 
@@ -25,7 +25,7 @@
 
 - Set the guest OS type for the imported VM:
 
-`VBoxManage import {{path/to/file.ovf}} --ostype={{OStype-VBoxManage-list-ostypes}}`
+`VBoxManage import {{path/to/file.ovf}} --ostype={{OStype_VBoxManage_list_ostypes}}`
 
 - Set the memory (in megabytes) for the imported VM:
 
@@ -33,4 +33,4 @@
 
 - Set the number of CPUs for the imported VM:
 
-`VBoxManage import {{path/to/file.ovf}} --cpus={{numbers-CPUs}}`
+`VBoxManage import {{path/to/file.ovf}} --cpus={{numbers_CPUs}}`

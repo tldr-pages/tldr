@@ -7,10 +7,10 @@
 
 `VBoxManage unregistervm {{uuid|VMname}}`
 
-- Deletes hard disk image files, all saved state files, VM logs, XML VM machine  files:
+- Delete hard disk image files, all saved state files, VM logs, XML VM machine files:
 
 `VBoxManage unregistervm {{uuid|VMname}} --delete`
 
-- Deletes all files from the VM:
+- Delete all files from the VM:
 
 `VBoxManage unregistervm {{uuid|VMname}} --delete-all`

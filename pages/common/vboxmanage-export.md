@@ -5,16 +5,16 @@
 
 - Clone the specified VM:
 
-`VBoxManage clonevm {{The-VM}}`
+`VBoxManage clonevm {{vm_name}}`
 
-- Specifies a new name for the new VM:
+- Set a new name for the new VM:
 
-`VBoxManage clonevm {{The-VM}} --name {{exemple-name}}`
+`VBoxManage clonevm {{vm_name}} --name {{exemple_name}}`
 
-- Indicates the folder where the configuration of the new VM is gonna be stored:
+- Indicate the folder where the configuration of the new VM is gonna be stored:
 
-`VBoxManage clonevm {{The-VM}} --basefolder {{path/to/directory}}`
+`VBoxManage clonevm {{vm_name}} --basefolder {{path/to/directory}}`
 
 - Store the cloned VM in VirtualBox:
 
-`VBoxManage clonevm {{The-VM}} --register`
+`VBoxManage clonevm {{vm_name}} --register`
