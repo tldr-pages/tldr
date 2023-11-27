@@ -1,6 +1,6 @@
 # chatgpt
 
-> Shell script to use OpenAI's ChatGPT and DALL-E from the terminal. 
+> Shell script to use OpenAI's ChatGPT and DALL-E from the terminal.
 > More information: <https://github.com/0xacx/chatGPT-shell-cli>.
 
 - Start ChatGPT in chat mode:
