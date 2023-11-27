@@ -15,6 +15,6 @@
 
 `sg -p 'useState<number>($A)' -r 'useState($A)' -l ts`
 
-- JSON Mode:
+- Output results as JSON, extract information using `jq` and interactively view it using `jless`:
 
-`sg run -p 'Some($A)' -r 'None' --json | jq '.[].replacement' | jless`
+`sg run --pattern '{{Some($A)}}' --rewrite '{{None}}' --json | jq '{{.[].replacement}}' | jless`
