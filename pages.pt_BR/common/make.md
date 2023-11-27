@@ -8,7 +8,7 @@
 
 `make`
 
-- Execute um destino específico:
+- Executa um destino específico:
 
 `make {{destino}}`
 
