@@ -5,12 +5,12 @@
 
 - Unregister an existing VM:
 
-`VBoxManage unregistervm {{uuid|VMname}}`
+`VBoxManage unregistervm {{uuid|vm_name}}`
 
 - Delete hard disk image files, all saved state files, VM logs, XML VM machine files:
 
-`VBoxManage unregistervm {{uuid|VMname}} --delete`
+`VBoxManage unregistervm {{uuid|vm_name}} --delete`
 
 - Delete all files from the VM:
 
-`VBoxManage unregistervm {{uuid|VMname}} --delete-all`
+`VBoxManage unregistervm {{uuid|vm_name}} --delete-all`

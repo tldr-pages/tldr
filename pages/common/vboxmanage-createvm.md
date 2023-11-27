@@ -21,7 +21,7 @@
 
 - Set the VM to the specified groups:
 
-`VBoxManage createvm --name {{new-vm_name}} --group {{group1,group2,...}}`
+`VBoxManage createvm --name {{new_vm_name}} --group {{group1,group2,...}}`
 
 - Set the Universally Unique Identifier (UUID) of the VM:
 
