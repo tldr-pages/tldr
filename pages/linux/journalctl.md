@@ -7,10 +7,6 @@
 
 `journalctl -b --priority={{3}}`
 
-- Show all messages from last [b]oot:
-
-`journalctl -b -1`
-
 - Delete journal logs which are older than 2 days:
 
 `journalctl --vacuum-time={{2d}}`
@@ -23,6 +19,10 @@
 
 `journalctl -u {{unit}}`
 
+- Show logs from last unit start:
+
+`journalctl _SYSTEMD_INVOCATION_ID=$(systemctl show --value --property=InvocationID {{unit}})`
+
 - Filter messages within a time range (either timestamp or placeholders like "yesterday"):
 
 `journalctl --since {{now|today|yesterday|tomorrow}} --until {{YYYY-MM-DD HH:MM:SS}}`
@@ -34,7 +34,3 @@
 - Show all messages by a specific executable:
 
 `journalctl {{path/to/executable}}`
-
-- Show logs from last unit start:
-
-`journalctl _SYSTEMD_INVOCATION_ID=$(systemctl show --value --property=InvocationID {{unit}})`
