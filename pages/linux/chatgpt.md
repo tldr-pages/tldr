@@ -9,7 +9,7 @@
 
 - Give ChatGPT a prompt to answer to:
 
-`chatgpt -p "What is the regex to match an email address?"`
+`chatgpt --prompt "{{What is the regex to match an email address?}}"`
 
 - Start ChatGPT in chat mode using a specific model:
 
