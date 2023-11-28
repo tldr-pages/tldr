@@ -7,7 +7,7 @@
 
 `chatgpt`
 
-- Give ChatGPT a prompt to answer to:
+- Give a [p]rompt to answer to:
 
 `chatgpt --prompt "{{What is the regex to match an email address?}}"`
 
