@@ -21,7 +21,7 @@
 
 - Pipe the result of a command to ChatGPT as a prompt:
 
-`echo "How to view running processes on Ubuntu?" | chatgpt`
+`echo "{{How to view running processes on Ubuntu?}}" | chatgpt`
 
 - Generate an image using DALL-E:
 
