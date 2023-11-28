@@ -17,7 +17,7 @@
 
 - Start ChatGPT in chat mode with an initial prompt:
 
-`chatgpt -i "You are Rick, from Rick and Morty. Respond to questions using his mannerism and include insulting jokes."`
+`chatgpt --init-prompt "{{You are Rick, from Rick and Morty. Respond to questions using his mannerism and include insulting jokes.}}"`
 
 - Pipe the result of a command to ChatGPT as a prompt:
 
