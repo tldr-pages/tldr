@@ -10,8 +10,8 @@
 
 - Ejecuta un comando usando x86_64:
 
-`arch -x86_64 " {{comando}}"`
+`arch -x86_64 "{{comando}}"`
 
 - Ejecuta un comando usando arm:
 
-`arch -arm64 " {{comando}}"`
+`arch -arm64 "{{comando}}"`
