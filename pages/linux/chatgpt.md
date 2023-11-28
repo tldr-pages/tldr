@@ -13,7 +13,7 @@
 
 - Start ChatGPT in chat mode using a specific model:
 
-`chatgpt -m gpt-4`
+`chatgpt --model {{gpt-4}}`
 
 - Start ChatGPT in chat mode with an initial prompt:
 
