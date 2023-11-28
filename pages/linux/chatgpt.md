@@ -25,4 +25,4 @@
 
 - Generate an image using DALL-E:
 
-`chatgpt -p "image: A white cat"`
+`chatgpt --prompt "{{image: A white cat}}"`
