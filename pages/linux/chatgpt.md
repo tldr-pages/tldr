@@ -15,7 +15,7 @@
 
 `chatgpt --model {{gpt-4}}`
 
-- Start ChatGPT in chat mode with an initial prompt:
+- Start in chat mode with an [i]nitial prompt:
 
 `chatgpt --init-prompt "{{You are Rick, from Rick and Morty. Respond to questions using his mannerism and include insulting jokes.}}"`
 
