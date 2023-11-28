@@ -19,7 +19,7 @@
 
 `chatgpt --init-prompt "{{You are Rick, from Rick and Morty. Respond to questions using his mannerism and include insulting jokes.}}"`
 
-- Pipe the result of a command to ChatGPT as a prompt:
+- Pipe the result of a command to `chatgpt` as a prompt:
 
 `echo "{{How to view running processes on Ubuntu?}}" | chatgpt`
 
