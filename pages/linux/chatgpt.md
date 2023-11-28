@@ -11,7 +11,7 @@
 
 `chatgpt --prompt "{{What is the regex to match an email address?}}"`
 
-- Start ChatGPT in chat mode using a specific model:
+- Start in chat mode using a specific [m]odel (default is `gpt-3.5-turbo`):
 
 `chatgpt --model {{gpt-4}}`
 
