@@ -23,6 +23,6 @@
 
 `exiqgrep -f '^<>$'`
 
-- Display bounced messages count:
+- Display the count of bounced messages:
 
 `exiqgrep -c -f '^<>$'`
