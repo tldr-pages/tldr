@@ -11,7 +11,7 @@
 
 `VBoxManage createvm --name {{vm_name}} --basefolder {{path/to/directory}}`
 
-Set the guest OS type (one of `VBoxManage list ostypes`) for the imported VM:
+- Set the guest OS type (one of `VBoxManage list ostypes`) for the imported VM:
 
 `VBoxManage createvm --name {{vm_name}} --ostype {{ostype}}`
 
