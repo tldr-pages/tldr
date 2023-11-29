@@ -3,18 +3,23 @@
 > Export virtual machines to a virtual appliance (ISO) or a cloud service.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-export>.
 
-- Clone the specified VM:
+- Specify the target OVF file:
 
-`VBoxManage clonevm {{vm_name}}`
+`VBoxManage export --output {{path/to/filename.ova}}`
 
-- Set a new name for the new VM:
+- Export in OVF 0.9 legacy mode:
 
-`VBoxManage clonevm {{vm_name}} --name {{example_name}}`
+`VBoxManage export --legacy09`
 
-- Indicate the folder where the configuration of the new VM will be stored:
+- Export in OVF (0.9|1.0|2.0) format:
 
-`VBoxManage clonevm {{vm_name}} --basefolder {{path/to/directory}}`
+`VBoxManage export --{{ovf09|ovf10|ovf20}}`
 
-- Store the cloned VM in VirtualBox:
+- Create manifest of the exported files :
 
-`VBoxManage clonevm {{vm_name}} --register`
+`VBoxManage export --manifest`
+
+- Specify description to the VM:
+
+`VBoxManage export --description "{{description-info}}"`
+
