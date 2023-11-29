@@ -7,7 +7,7 @@
 
 `exiqgrep -f '<{{email@somedomain.com}}>'`
 
-- Match the sender address, display  message ids only:
+- Match the sender address, and display message IDs only:
 
 `exiqgrep -i -f '<{{email@somedomain.com}}>'`
 
@@ -15,7 +15,7 @@
 
 `exiqgrep -r '{{email@somedomain.com}}'`
 
-- Remove from queue all messages, matching sender address:
+- Remove all messages matching the sender address from the queue:
 
 `exiqgrep -i -f '<{{email@somedomain.com}}>' | xargs exim -Mrm`
 
