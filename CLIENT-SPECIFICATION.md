@@ -202,14 +202,14 @@ The [`LC_MESSAGES` environment variable](https://www.gnu.org/software/gettext/ma
 
 Here's an example of how the lookup should be done on `linux` having set `LANG=it` and `LANGUAGE="it:fr:en"`:
 
-```md
-  1. pages.it/linux/some-page.md  -> does not exist
-  2. pages.fr/linux/some-page.md  -> does not exist
-  3. pages/linux/some-page.md     -> does not exist
-  4. pages.it/common/some-page.md -> does not exist
-  5. pages.fr/common/some-page.md -> does not exist
-  6. pages/common/some-page.md    -> FOUND!
-```
+Step	| Path checked					| Outcome
+--------|-------------------------------|-----------------------
+1		| pages.it/linux/some-page.md	| does not exist
+2		| pages.fr/linux/some-page.md	| does not exist
+3		| pages/linux/some-page.md		| does not exist
+4		| pages.it/common/some-page.md	| does not exist
+5		| pages.fr/common/some-page.md	| does not exist
+6		| pages/common/some-page.md		| FOUND!
 
 ## Caching
 
