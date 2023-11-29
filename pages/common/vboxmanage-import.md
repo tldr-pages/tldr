@@ -25,7 +25,7 @@
 
 - Set the guest OS type (one of `VBoxManage list ostypes`) for the imported VM:
 
-`VBoxManage import {{path/to/file.ovf}} --ostype={{OStype_VBoxManage_list_ostypes}}`
+`VBoxManage import {{path/to/file.ovf}} --ostype={{ostype}}`
 
 - Set the memory (in megabytes) for the imported VM:
 
