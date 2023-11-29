@@ -16,10 +16,6 @@
 
 `7za a -t {{zip|gzip|bzip2|tar}} {{archivio.7z}} {{percorso/del/file_o_directory}}`
 
-- Elenca i tipi di archivio supportati:
-
-`7za i`
-
 - Elenca i contenuti in un archivio:
 
 `7za l {{archivio}}`

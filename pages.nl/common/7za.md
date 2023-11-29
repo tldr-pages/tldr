@@ -31,7 +31,3 @@
 - Lijst de inhoud van een archief op:
 
 `7za l {{pad/naar/archief.7z}}`
-
-- Maak een lijst van beschikbare archieftypen:
-
-`7za i`

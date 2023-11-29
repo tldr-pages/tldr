@@ -27,7 +27,3 @@
 - [l]ista el contenido de un archivo:
 
 `7zr l {{ruta/al/archivo.7z}}`
-
-- Lista los tipos de archivo disponibles:
-
-`7zr i`

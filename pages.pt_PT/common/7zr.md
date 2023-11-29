@@ -27,7 +27,3 @@
 - Listar os conteúdos de um arquivo:
 
 `7zr l {{diretório/arquivo_compactado.7z}}`
-
-- Listar todos os tipos de arquivamento/compressão disponíveis:
-
-`7zr i`
