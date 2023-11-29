@@ -27,3 +27,7 @@
 - [l]ist the contents of an archive:
 
 `7zr l {{path/to/archive.7z}}`
+
+- Set the level of compression (higher means more compression, but slower):
+
+`7zr a {{path/to/archive.7z}} -mx={{0|1|3|5|7|9}} {{path/to/file_or_directory}}`
