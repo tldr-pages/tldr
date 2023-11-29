@@ -29,7 +29,7 @@
 
 - Set the memory (in megabytes) for the imported VM:
 
-`VBoxManage import {{path/to/file.ovf}} --memory={{MB}}`
+`VBoxManage import {{path/to/file.ovf}} --memory={{1}}`
 
 - Set the number of CPUs for the imported VM:
 
