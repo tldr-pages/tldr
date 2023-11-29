@@ -23,7 +23,7 @@
 
 `VBoxManage import {{path/to/file.ovf}} --dry-run`
 
-- Set the guest OS type for the imported VM:
+- Set the guest OS type (one of `VBoxManage list ostypes`) for the imported VM:
 
 `VBoxManage import {{path/to/file.ovf}} --ostype={{OStype_VBoxManage_list_ostypes}}`
 
