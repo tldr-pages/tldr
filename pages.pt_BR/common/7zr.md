@@ -27,7 +27,3 @@
 - Exibe o conteúdo de um arquivo:
 
 `7zr l {{caminho/para/arquivo_compactado.7z}}`
-
-- Exibe os tipos de arquivamento/compressão disponíveis:
-
-`7zr i`
