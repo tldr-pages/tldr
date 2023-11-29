@@ -9,7 +9,7 @@
 
 - Set the name of the imported VM:
 
-`VBoxManage import {{path/to/file.ovf}} --name {{new_vm_name}}`
+`VBoxManage import {{path/to/file.ovf}} --name {{vm_name}}`
 
 - Indicate the folder where the configuration of the imported VM will be stored:
 
