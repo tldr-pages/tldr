@@ -1,7 +1,7 @@
 # burpsuite
 
 > A GUI based application mainly used in web application penetration testing.
-> More information: <https://portswigger.net/burp/documentation/desktop/getting-started/launch-from-command-line>.
+> More information: <https://portswigger.net/burp/documentation/desktop/troubleshooting/launch-from-command-line>.
 
 - Start Burp Suite:
 

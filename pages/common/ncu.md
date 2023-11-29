@@ -10,16 +10,28 @@
 
 - List outdated global npm packages:
 
-`ncu -g`
+`ncu --global`
 
 - Upgrade all dependencies in the current directory:
 
-`ncu -u`
+`ncu --upgrade`
 
 - Interactively upgrade dependencies in the current directory:
 
-`ncu -i`
+`ncu --interactive`
+
+- List outdated dependencies up to the highest minor version:
+
+`ncu --target {{minor}}`
+
+- List outdated dependencies that match a keyword or regular expression:
+
+`ncu --filter {{keyword|/regex/}}`
+
+- List only a specific section of outdated dependencies:
+
+`ncu --dep {{dev|optional|peer|prod|packageManager}}`
 
 - Display help:
 
-`ncu -h`
+`ncu --help`
