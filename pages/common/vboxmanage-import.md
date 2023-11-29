@@ -33,4 +33,4 @@
 
 - Set the number of CPUs for the imported VM:
 
-`VBoxManage import {{path/to/file.ovf}} --cpus={{numbers_CPUs}}`
+`VBoxManage import {{path/to/file.ovf}} --cpus={{1}}`
