@@ -151,7 +151,7 @@ Steps #3 and #4 may be done in either order.
 
 It is possible that due to this page resolution logic, the client may show a page which does not belong to the host platform because a page can reside in `common`, and not be present on the host platform. Clients must not assume that a given command is always executable on the host platform.
 
-It is suggested for clients to detect new platforms added to `pages` directory automatically.
+It is RECOMMENDED that clients detect new platforms added to the relevant `pages` directory automatically.
 
 #### If a page is not found
 
@@ -202,7 +202,7 @@ The [`LC_MESSAGES` environment variable](https://www.gnu.org/software/gettext/ma
 
 Here's an example of how the lookup should be done on `linux` having set `LANG=it` and `LANGUAGE="it:fr:en"`:
 
-```txt
+```md
   1. pages.it/linux/some-page.md  -> does not exist
   2. pages.fr/linux/some-page.md  -> does not exist
   3. pages/linux/some-page.md     -> does not exist
