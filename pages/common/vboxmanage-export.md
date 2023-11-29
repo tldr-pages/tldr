@@ -15,11 +15,10 @@
 
 `VBoxManage export --{{ovf09|ovf10|ovf20}}`
 
-- Create manifest of the exported files :
+- Create manifest of the exported files:
 
 `VBoxManage export --manifest`
 
 - Specify description to the VM:
 
 `VBoxManage export --description "{{description-info}}"`
-
