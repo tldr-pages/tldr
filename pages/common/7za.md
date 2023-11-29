@@ -31,7 +31,3 @@
 - [l]ist the contents of an archive:
 
 `7za l {{path/to/archive.7z}}`
-
-- List available archive types:
-
-`7za i`
