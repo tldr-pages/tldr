@@ -3,7 +3,7 @@
 > Imports a virtual machine (VM) previously exported or created.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-import>.
 
-- Import a VM from a OVF or OVA file:
+- Import a VM from an OVF or OVA file:
 
 `VBoxManage import {{path/to/file.ovf}}`
 

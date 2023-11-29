@@ -7,7 +7,7 @@
 
 `VBoxManage clonevm {{vm_name}}`
 
-- Specifie a new name for the new VM:
+- Specify a new name for the new VM:
 
 `VBoxManage clonevm {{vm_name}} --name {{exemple_name}}`
 
