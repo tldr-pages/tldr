@@ -27,7 +27,3 @@
 - [l]ist the contents of an archive:
 
 `7zr l {{path/to/archive.7z}}`
-
-- List available archive types:
-
-`7zr i`

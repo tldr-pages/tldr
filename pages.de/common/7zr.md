@@ -27,7 +27,3 @@
 - [l]iste den Inhalt einer Archivdatei auf:
 
 `7zr l {{pfad/zu/archiv.7z}}`
-
-- Liste alle verfügbaren Archivtypen auf:
-
-`7zr i`
