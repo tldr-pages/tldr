@@ -1,7 +1,7 @@
 # rargs
 
 > Execute a command for each line of standard input like `xargs`, but with pattern-matching support.
-> More information: <https://github.com/lotabout/rargs>
+> More information: <https://github.com/lotabout/rargs>.
 
 - Execute a command for every line of input, just like `xargs` (`{0}` indicates where to substitute in the text):
 
