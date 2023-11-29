@@ -1,7 +1,7 @@
 # arch
 
 > Display the name of the system architecture, or run a command under a different architecture.
-> See also `uname`.
+> See also: `uname`.
 > More information: <https://www.unix.com/man-page/osx/1/arch/>.
 
 - Display the system's architecture:
