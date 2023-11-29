@@ -7,6 +7,10 @@
 
 `VBoxManage registervm {{path/to/filename.vbox}}`
 
-- Supply the encryption password of the VM:
+- Supply the encryption password file of the VM:
 
-`VBoxManage registervm {{path/to/filename.vbox}} --password {{password}}`
+`VBoxManage registervm {{path/to/filename.vbox}} --password {{path/to/password_file}}`
+
+- Prompt for the password on the command line
+
+`VBoxManage registervm {{path/to/filename.vbox}} --password -`

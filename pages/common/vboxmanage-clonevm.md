@@ -9,7 +9,7 @@
 
 - Specify a new name for the new VM:
 
-`VBoxManage clonevm {{vm_name}} --name {{exemple_name}}`
+`VBoxManage clonevm {{vm_name}} --name {{new_vm_name}}`
 
 - Indicate the folder where the new VM configuration is saved:
 
