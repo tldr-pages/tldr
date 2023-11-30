@@ -128,13 +128,7 @@ Example:
 
 Some PowerShell commands may introduce aliases which fall into one these three categories:
 
-**1. Substituting an existing Windows Command Prompt (`cmd`) command,** such as `cd` aliasing to `Set-Location` with different command options. In this case, add the following alias note into the second line of original Command Prompt command's tldr description:
-
-```md
-> In PowerShell, this command is an alias of `PowerShell-Command`. This documentation is based on the Command Prompt (`cmd`) version of `command`.
-```
-
-For example:
+**1. Substituting an existing Windows Command Prompt (`cmd`) command,** such as `cd` aliasing to `Set-Location` with different command options. In this case, add the following alias note into the second line of original Command Prompt command's tldr description, for example:
 
 ```md
 # cd
@@ -149,6 +143,42 @@ For example:
 ```
 
 > [!TIP] The "View documentation of the equivalent PowerShell command" example is optional and may be excluded if the command already has the maximum number (8) of examples.
+
+**2. Provides a new alias but only executable in PowerShell,** such as `ni` for `New-Item`. In this case, use the [standard alias template](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md), but add the word "In Powershell," (or equivalent) to indicate that the command is exclusive to PowerShell. For example,
+
+```md
+# ni
+
+> In PowerShell, this command is an alias of `New-Item`.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
+
+- View documentation for the original command:
+
+`tldr new-item`
+```
+
+**3. Provides a new alias that conflict with other programs,** most notoriously the inclusion of `curl` and `wget` as aliases of `Invoke-WebRequest` (with non-compatible set of command options). Note that PowerShell system aliases that fall into this category are commonly exclusive to Windows.
+
+In this case, provide a note and method to determine whether the command currently refers to a PowerShell command (by alias) or others. For example,
+
+```md
+# curl
+
+> In PowerShell, this command may be an alias of `Invoke-WebRequest` when the original `curl` program (<https://curl.se>) is not properly installed.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+
+- Check whether `curl` is properly installed by printing its version number. If this command evaluates into an error, PowerShell may have substituted this command with `Invoke-WebRequest`:
+
+`curl --version`
+
+- View documentation for the original `curl` command:
+
+`tldr curl -p common`
+
+- View documentation for PowerShell's `Invoke-WebRequest` command:
+
+`tldr invoke-webrequest`
+```
 
 ## Option syntax
 
