@@ -9,4 +9,4 @@
 
 - Automatically approve and perform the update after previewing it:
 
-`pulumi up -y`
+`pulumi up --yes`
