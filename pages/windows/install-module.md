@@ -1,7 +1,7 @@
 # Install-Module
 
 > Install PowerShell modules from PowerShell Gallery, NuGet, and other repositories.
-> More information: <https://learn.microsoft.com/powershell/module/powershellget/install-module>
+> More information: <https://learn.microsoft.com/powershell/module/powershellget/install-module>.
 
 - Install a module, or update it to the latest available version:
 
