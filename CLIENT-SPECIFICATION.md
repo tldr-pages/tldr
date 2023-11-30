@@ -1,6 +1,6 @@
 # tldr-pages client specification
 
-**Current Specification Version:** 2.0
+**Current Specification Version:** 2.1
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#changelog) below.
 
@@ -202,14 +202,14 @@ The [`LC_MESSAGES` environment variable](https://www.gnu.org/software/gettext/ma
 
 Here's an example of how the lookup should be done on `linux` having set `LANG=it` and `LANGUAGE="it:fr:en"`:
 
-Step	| Path checked					| Outcome
--------|--------------------------------|-----------------------
-1		| pages.it/linux/some-page.md	| does not exist
-2		| pages.fr/linux/some-page.md	| does not exist
-3		| pages/linux/some-page.md		| does not exist
-4		| pages.it/common/some-page.md	| does not exist
-5		| pages.fr/common/some-page.md	| does not exist
-6		| pages/common/some-page.md		| FOUND!
+Step  | Path checked         | Outcome
+------|--------------------------------|-----------------------
+1   | pages.it/linux/some-page.md | does not exist
+2   | pages.fr/linux/some-page.md | does not exist
+3   | pages/linux/some-page.md    | does not exist
+4   | pages.it/common/some-page.md | does not exist
+5   | pages.fr/common/some-page.md | does not exist
+6   | pages/common/some-page.md   | FOUND!
 
 ## Caching
 
@@ -232,6 +232,10 @@ the commit hash changes when merging with squash or rebase.
 -->
 
 - Unreleased
+
+- [v2.1, November 30th 2023](https://github.com/tldr-pages/tldr/blob/v2.1/CLIENT-SPECIFICATION.md) ([#11523](https://github.com/tldr-pages/tldr/pull/11523))
+  - Add requirement to add a way to escape placeholder syntax in certain pages ([#10730](https://github.com/tldr-pages/tldr/pull/10730))
+  - Add suggestion to detect new platforms added to the relevant `pages` directory automatically ([#11523](https://github.com/tldr-pages/tldr/pull/11523))
 
 - [v2.0, September 10th 2023](https://github.com/tldr-pages/tldr/blob/v2.0/CLIENT-SPECIFICATION.md) ([#10148](https://github.com/tldr-pages/tldr/pull/10148))
   - Add recommendation to support `macos` alias for `osx` ([#7514](https://github.com/tldr-pages/tldr/pull/7514))
