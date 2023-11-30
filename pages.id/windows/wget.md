@@ -11,10 +11,6 @@
 
 `tldr wget -p common`
 
-- Tampilkan dokumentasi untuk perintah `wget` yang asli dalam program `tldr` versi lawas:
-
-`tldr wget -o common`
-
 - Tampilkan dokumentasi untuk perintah `Invoke-WebRequest`:
 
 `tldr invoke-webrequest`

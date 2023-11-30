@@ -11,7 +11,3 @@
 - View the documentation for the command referring to the legacy Windows PowerShell (version 5.1 and below):
 
 `tldr powershell -p windows`
-
-- View the documentation for the command referring to the legacy Windows PowerShell in older versions of `tldr` command-line client:
-
-`tldr powershell -o windows`

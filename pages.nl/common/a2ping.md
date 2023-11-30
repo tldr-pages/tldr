@@ -23,7 +23,7 @@
 
 `a2ping --gsextra {{arguments}} {{pad/naar/bestand}}`
 
-- Breng extra argumenten door aan het externe programma (bijv. pdftops):
+- Geef extra argumenten mee aan het externe programma (bijv. `pdftops`):
 
 `a2ping --extra {{arguments}} {{pad/naar/bestand}}`
 

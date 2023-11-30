@@ -62,11 +62,13 @@ function run_tests {
   find pages* -name '*.md' -exec markdownlint {} +
   tldr-lint ./pages
   for f in ./pages.*; do
-    if [[ $f == *zh* || $f == *zh_TW* ]]; then
-      tldr-lint --ignore "TLDR003,TLDR004,TLDR005,TLDR015,TLDR104" "${f}"
-    else
-      tldr-lint --ignore "TLDR003,TLDR004,TLDR015,TLDR104" "${f}"
+    checks="TLDR003,TLDR004,TLDR015,TLDR104"
+    if [[ -L $f ]]; then
+        continue
+    elif [[ $f == *zh* || $f == *zh_TW* ]]; then
+        checks+=",TLDR005"
     fi
+    tldr-lint --ignore $checks "${f}"
   done
   run_black
   run_flake8

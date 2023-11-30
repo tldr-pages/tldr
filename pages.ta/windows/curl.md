@@ -11,10 +11,6 @@
 
 `tldr curl -p common`
 
-- `tldr` கட்டளை வரி கிளையண்டின் பழைய பதிப்புகளில் அசல் `curl` கட்டளைக்கான ஆவணங்களைப் பார்க்கவும்:
-
-`tldr curl -o common`
-
 - PowerShell இன் `Invoke-WebRequest` கட்டளைக்கான ஆவணங்களைக் காண்க:
 
 `tldr invoke-webrequest`

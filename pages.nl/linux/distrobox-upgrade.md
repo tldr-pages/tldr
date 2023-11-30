@@ -1,8 +1,7 @@
 # distrobox-upgrade
 
-> Upgrade een of meerdere distrobox containers.
-> Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.
-> Meer informatie: <https://distrobox.privatedns.org/usage/distrobox-upgrade.html>.
+> Upgrade een of meerdere Distrobox containers. Bekijk ook: `tldr distrobox`.
+> Meer informatie: <https://distrobox.it/usage/distrobox-upgrade>.
 
 - Upgrade een container met behulp van de native pakketbeheerder van de container:
 

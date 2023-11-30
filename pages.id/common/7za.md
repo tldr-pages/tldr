@@ -31,7 +31,3 @@
 - Me[l]ihat daftar isi dari sebuah file arsip:
 
 `7za l {{jalan/menuju/arsip.7z}}`
-
-- Mengetahui daftar format file arsip yang didukung:
-
-`7za i`

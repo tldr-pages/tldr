@@ -11,10 +11,6 @@
 
 `tldr curl -p common`
 
-- Tampilkan dokumentasi untuk perintah `curl` yang asli dalam program `tldr` versi lawas:
-
-`tldr curl -o common`
-
 - Tampilkan dokumentasi untuk perintah `Invoke-WebRequest`:
 
 `tldr invoke-webrequest`
