@@ -84,7 +84,7 @@ When documenting PowerShell commands, please take note of the following naming c
 + The title of the command documentation (aka. the `command_name`) must be written as-is (matching the spelling intended by Microsoft or the PowerShell module author), such as `Invoke-WebRequest` instead of `invoke-webrequest`.
 + The command name and options in the examples should also be written as-is, such as `Command-Name {{input}} -CommandParameter {{value}}` instead of `command-name {{input}} -commandparameter {{value}}`.
 
-Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, Ensure that the command works on **PowerShell 5.1** (aka. the "Legacy Windows PowerShell"), and the **latest version of "Cross-Platform PowerShell"** (formerly known as PowerShell Core). If the command or its options is unavailable or contains different behavior between each versions, please kindly note them in the descriptions. For example,
+Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, Ensure that the command works on between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10 and 11), and the **latest version of "Cross-Platform PowerShell"** (formerly known as PowerShell Core). If the command or its options is unavailable or contains different behavior between each versions, please kindly note them in the descriptions. For example,
 
 ```md
 # Clear-RecycleBin
