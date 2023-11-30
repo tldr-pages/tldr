@@ -31,7 +31,3 @@
 - Liste le contenu d'une archive :
 
 `7za l {{chemin/vers/archive.7z}}`
-
-- Liste les types de compression disponible :
-
-`7za i`
