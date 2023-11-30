@@ -76,7 +76,25 @@ Your client may be able to preview a page locally using the `--render` flag:
 tldr --render path/to/tldr_page.md
 ```
 
-### Aliases
+### PowerShell-Specific Rules
+
+When documenting PowerShell commands, please take note of the following naming conventions.
+
++ The documentation file name must be written in lowercase, such as `invoke-webrequest.md` instead of `Invoke-WebRequest.md`.
++ The title of the command documentation (aka. the `command_name`) must be written as-is (matching the spelling intended by Microsoft or the PowerShell module author), such as `Invoke-WebRequest` instead of `invoke-webrequest`.
++ The command name and options in the examples should also be written as-is, such as `Command-Name {{input}} -CommandParameter {{value}}` instead of `command-name {{input}} -commandparameter {{value}}`.
+
+Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, Ensure that the command works on **PowerShell 5.1** (aka. the "Legacy Windows PowerShell"), and the **latest version of "Cross-Platform PowerShell"** (formerly known as PowerShell Core). If the command or its options is unavailable or contains different behavior between each versions, please kindly note them in the descriptions. For example,
+
+```md
+# Clear-RecycleBin
+
+> Clear items from the Recycle Bin.
+> This command can only be used through PowerShell versions 5.1 and below, or 7.1 and above.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/clear-recyclebin>.
+```
+
+## Aliases
 
 If a command can be called with alternative names (like `vim` can be called by `vi`), alias pages can be created to point the user to the original command name.
 
@@ -106,11 +124,56 @@ Example:
 
 - Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
 
+### PowerShell-Specific Aliases
+
+Some PowerShell commands may introduce aliases which fall into one these three categories:
+
+**1. Substituting an existing Windows Command Prompt (`cmd`) command,** such as `cd` aliasing to `Set-Location` with different command options. In this case, add the following alias note into the second line of original Command Prompt command's tldr description:
+
+```md
+> In PowerShell, this command is an alias of `PowerShell-Command`. This documentation is based on the Command Prompt (`cmd`) version of `command`.
+```
+
+For example:
+
+```md
+# cd
+
+> Display the current working directory or move to a different directory.
+> In PowerShell, this command is an alias of `Set-Location`. This documentation is based on the Command Prompt (`cmd`) version of `cd`.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
+
+- View documentation of the equivalent PowerShell command:
+
+`tldr set-location`
+```
+
+> [!TIP] The "View documentation of the equivalent PowerShell command" example is optional and may be excluded if the command already has the maximum number (8) of examples.
+
 ## Option syntax
 
-- Use GNU-style **long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
-- In other cases, use short options (like `-h`).
+- Use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
+- When documenting PowerShell commands, use **PowerShell-style long options** (like `-Help` instead of `-H`) instead.
+- In other cases, use short options (like `/?` in Windows Command Prompt (`cmd`) or `-h` in others).
 - Prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`), unless the program does not support it.
+
+### Short option mnemonics
+
+Short option mnemonics are optional hints which can be added to help English users understand the meaning of these short options. For example:
+
+```md
+- [d]isplay the ins[t]allation [i]D for the current device. Useful for offline license activation:
+
+`slmgr.vbs /dti`
+
+- Display the current license's e[xp]i[r]ation date and time:
+
+`slmgr.vbs /xpr`
+```
+
+Note that, on the first example, the `[d]`, `[t]`, and `[i]` characters are enclosed with square brackets to indicate that the `/dti` option of the command is a commbination of "display", "installation", and "ID", respectively. Consecutive mnemonic characters can be grouped under the same square brackets, such as `e[xp]i[r]ation` instead of `e[x][p]i[r]ation`.
+
+**Mmemonic characters must be written in case-sensitive**, even though it is placed as the first character of the sentence (i.e. `[d]isplay` instead of `[D]isplay`). This is to avoid conflicts with GNU-style command options which may intepret uppercase options differently than the lowercase ones, such as `-v` for displaying the command's `[v]ersion` number and `-V` to run the command in `[V]erbose` mode.
 
 ## Placeholder syntax
 
@@ -143,6 +206,8 @@ Keep the following guidelines in mind when choosing placeholders:
 - In case of a possible reference both to a file or a directory,
   use `{{path/to/file_or_directory}}`.
 
+Note that if the command is specific to Windows, use backslashes (`\`) instead, such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless if the command input requires an absolute path or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
+
 ### Extensions
 
 - If a particular extension is expected for the file, append it.
@@ -156,6 +221,7 @@ Keep the following guidelines in mind when choosing placeholders:
 
 - If a command can take 0 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
   For instance, if multiple paths are expected `{{path/to/directory1 path/to/directory2 ...}}` can be used.
+- If the multiple-argument command refers to a PowerShell command, separate each placeholder and ellipsis with a space-padded comma instead, such as `{{placeholder1 , placeholder2 , ...}}`, not `{{placeholder1, placeholder2, ...}}`.
 - If a command can take 0 or more arguments of different kinds, use an ellipsis: `{{placeholder1|placeholder2|...}}`.
   If there are more than 5 possible values use `|...` after the last item.
 - It's impossible to restrict the minimum or (and) maximum placeholder count via `ellipsis`.
@@ -261,6 +327,8 @@ For example, use:
 
 When linking pages to the Microsoft Learn links, remove the locale from the address as the website will automatically redirect to the reader's preferred locale setting. For example, Use <https://learn.microsoft.com/windows-server/administration/windows-commands/cd> instead of
 <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>.
+
+Additionally, if the link is related to PowerShell command documentaion, remove the **documentation version indicator** (in which the version of PowerShell/module that the documentation is derived from), aka. the part of the address that starts with `?view=`. Use <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> instead of <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>, and <https://learn.microsoft.com/powershell/module/powershellget/install-module> instead of <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
 
 ## Language-Specific Rules
 
