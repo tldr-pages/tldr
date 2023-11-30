@@ -11,7 +11,7 @@
 
 `dotnet publish --self-contained true --runtime {{identificador_del_entorno_en_tiempo_de_ejecución}} {{ruta/al/archivo_del_proyecto}}`
 
-- Empaqueta la aplicación en un archivo ejecutable unico de una plataforma específica:
+- Empaqueta la aplicación en un archivo ejecutable único de una plataforma específica:
 
 `dotnet publish --runtime {{identificador_del_entorno_en_tiempo_de_ejecucución}} -p:PublishSingleFile=true {{ruta/al/archivo_del_proyecto}}`
 
