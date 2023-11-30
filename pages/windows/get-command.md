@@ -24,6 +24,6 @@
 
 `Get-Command -Module {{module}}`
 
-- Get the command information (e.g. version number or module name) by its name
+- Get the command information (e.g. version number or module name) by its name:
 
 `Get-Command {{command}}`
