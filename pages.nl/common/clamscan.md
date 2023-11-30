@@ -5,7 +5,7 @@
 
 - Scan een bestand op kwetsbaarheden:
 
-`clamscan {{pad/naar/file}}`
+`clamscan {{pad/naar/bestand}}`
 
 - Scan alle bestanden recursief in een specifieke map:
 
@@ -17,7 +17,7 @@
 
 - Specificeer een virus database bestand of map van bestanden:
 
-`clamscan --database {{pad/naar/database_bestand_or_map}}`
+`clamscan --database {{pad/naar/database_bestand_of_map}}`
 
 - Scan de huidige map en toon alleen geïnfecteerde bestanden:
 
