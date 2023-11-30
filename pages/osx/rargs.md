@@ -1,6 +1,7 @@
 # rargs
 
-> Execute a command for each line of standard input like `xargs`, but with pattern-matching support.
+> Execute a command for each line of standard input.
+> Like `xargs`, but with pattern matching support.
 > More information: <https://github.com/lotabout/rargs>.
 
 - Execute a command for every line of input, just like `xargs` (`{0}` indicates where to substitute in the text):
@@ -11,7 +12,7 @@
 
 `{{command}} | rargs -e {{command}} {0}`
 
-- Remove the .bak extension for every file in a list:
+- Remove the `.bak` extension from every file in a list:
 
 `{{command}} | rargs -p '(.*).bak mv {0} {1}`
 
@@ -19,6 +20,6 @@
 
 `{{command}} | rargs -w {{max-procs}}`
 
-- Consider each line of input to be separated by a NUL character instead of a `\n` new line:
+- Consider each line of input to be separated by a NUL character (`\0`) instead of a newline (`\n`):
 
 `{{command}} | rargs -0 {{command}} {0}`
