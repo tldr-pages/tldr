@@ -3,7 +3,7 @@
 > Export virtual machines to a virtual appliance (ISO) or a cloud service.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-export>.
 
-- Specify the target OVF file:
+- Specify the target OVA file:
 
 `VBoxManage export --output {{path/to/filename.ova}}`
 
@@ -19,6 +19,6 @@
 
 `VBoxManage export --manifest`
 
-- Specify description to the VM:
+- Specify a description of the VM:
 
-`VBoxManage export --description "{{description-info}}"`
+`VBoxManage export --description "{{vm_description}}"`
