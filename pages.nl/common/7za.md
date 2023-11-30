@@ -28,6 +28,10 @@
 
 `7za a -t{{7z|bzip2|gzip|lzip|tar|...}} {{pad/naar/archief.7z}} {{pad/naar/bestand_of_map}}`
 
-- Lijst de inhoud van een archief op:
+- Geef een [l]ijst met de inhoud van het archiefbestand:
 
 `7za l {{pad/naar/archief.7z}}`
+
+- Zet het niveau van compressie (hoger betekent meer compressie, maar langzamer):
+
+`7za a {{pad/naar/archief.7z}} -mx={{0|1|3|5|7|9}} {{pad/naar/bestand_of_map}}`
