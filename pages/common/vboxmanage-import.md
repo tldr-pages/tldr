@@ -1,6 +1,6 @@
 # vboxmanage-import
 
-> Imports a virtual machine (VM) previously exported or created.
+> Import a previously exported virtual machine (VM).
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-import>.
 
 - Import a VM from an OVF or OVA file:

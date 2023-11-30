@@ -1,13 +1,13 @@
 # exiqgrep
 
-> The `exiqgrep` utility is a Perl script offering possibilities to `grep` in the Exim queue output.
+> Perl script offering possibilities to `grep` in the Exim queue output.
 > More information: <https://www.exim.org/exim-html-current/doc/html/spec_html/ch-exim_utilities.html>.
 
 - Match the sender address using a case-insensitive search:
 
 `exiqgrep -f '<{{email@somedomain.com}}>'`
 
-- Match the sender address, and display message IDs only:
+- Match the sender address and display message IDs only:
 
 `exiqgrep -i -f '<{{email@somedomain.com}}>'`
 
