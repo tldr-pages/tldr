@@ -1,6 +1,6 @@
 # todo
 
-> Een eenvoudige, op standaarden gebaseerde, opdrachtregel todo manger.
+> Een eenvoudige, op standaarden gebaseerde, opdrachtregel todo manager.
 > Meer informatie: <https://todoman.readthedocs.io>.
 
 - Toon startbare taken:
@@ -13,9 +13,9 @@
 
 - Voeg een locatie toe aan een taak met een gegeven ID:
 
-`todo edit --location {{locatie_name}} {{taak_id}}`
+`todo edit --location {{locatie_naam}} {{taak_id}}`
 
-- Toon details over een task:
+- Toon details over een taak:
 
 `todo show {{taak_id}}`
 
