@@ -189,7 +189,7 @@ In this case, provide a note and method to determine whether the command current
 
 ### Short option mnemonics
 
-Short option mnemonics are optional hints which can be added to help users understand the meaning of these short options. For example:
+Short option mnemonics are optional hints which can be added to help users understand the meaning of these short options. The assigned mnemonics should match with the ones in the command's official documentation (e.g. from `man` or `Get-Help`). For example:
 
 ```md
 - [d]isplay the ins[t]allation [i]D for the current device. Useful for offline license activation:
@@ -203,7 +203,7 @@ Short option mnemonics are optional hints which can be added to help users under
 
 Note that, on the first example, the `[d]`, `[t]`, and `[i]` characters are enclosed with square brackets to indicate that the `/dti` option of the command is a combination of "display", "installation", and "ID", respectively. Consecutive mnemonic characters can be grouped under the same square brackets, such as `e[xp]i[r]ation` instead of `e[x][p]i[r]ation`.
 
-**Mmemonic characters must be written in case-sensitive**, even though it is placed as the first character of the sentence (i.e. `[d]isplay` instead of `[D]isplay`). This is to avoid conflicts with GNU-style command options which may interpret uppercase options differently than the lowercase ones, such as `-v` for displaying the command's `[v]ersion` number and `-V` to run the command in `[V]erbose` mode.
+**Mnemonic characters must be written in case-sensitive**, even though it is placed as the first character of the sentence (i.e. `[d]isplay` instead of `[D]isplay`). This is to avoid conflicts with GNU-style command options which may interpret uppercase options differently than the lowercase ones, such as `-v` for displaying the command's `[v]ersion` number and `-V` to run the command in `[V]erbose` mode.
 
 Option mnemonics may also be used in translations as long as the highlighted word contains similar meanings to the language (commonly English) which the command is written for. For example, `[d]ownload` in English may be translated into `[d]escargar` in Spanish, `[i]nstall` in English may be translated to `[i]nstallieren` in German, and `[a]pp` in English may be translated into `[a]plikasi` in Indonesian and Malay.
 
