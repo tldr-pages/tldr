@@ -1,13 +1,16 @@
 # gcloud CLI Help
 
-> The official CLI tool for Google Cloud Platform.
+> gcloud CLI is happy to help.
 > More information: <https://cloud.google.com/sdk/docs/cheatsheet#help>.
 
-Help
-gcloud CLI is happy to help.
+- Search the gcloud CLI reference documents for specific terms:
 
-`gcloud help`: Search the gcloud CLI reference documents for specific terms (https://cloud.google.com/sdk/gcloud/reference/help)
+`gcloud help`
 
-`gcloud feedback`: Provide feedback to the gcloud CLI team (https://cloud.google.com/sdk/gcloud/reference/feedback)
+- Provide feedback to the gcloud CLI team:
 
-`gcloud topic`: Supplementary help material for non-command topics like accessibility, filtering, and formatting (https://cloud.google.com/sdk/gcloud/reference/topic)
+`gcloud feedback`
+
+- Supplementary help material for non-command topics like accessibility, filtering, and formatting:
+
+`gcloud topic`
