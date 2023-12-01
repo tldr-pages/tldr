@@ -201,7 +201,7 @@ Short option mnemonics are optional hints which can be added to help users under
 `slmgr.vbs /xpr`
 ```
 
-Note that, on the first example, the `[d]`, `[t]`, and `[i]` characters are enclosed with square brackets to indicate that the `/dti` option of the command is a commbination of "display", "installation", and "ID", respectively. Consecutive mnemonic characters can be grouped under the same square brackets, such as `e[xp]i[r]ation` instead of `e[x][p]i[r]ation`.
+Note that, on the first example, the `[d]`, `[t]`, and `[i]` characters are enclosed with square brackets to indicate that the `/dti` option of the command is a combination of "display", "installation", and "ID", respectively. Consecutive mnemonic characters can be grouped under the same square brackets, such as `e[xp]i[r]ation` instead of `e[x][p]i[r]ation`.
 
 **Mmemonic characters must be written in case-sensitive**, even though it is placed as the first character of the sentence (i.e. `[d]isplay` instead of `[D]isplay`). This is to avoid conflicts with GNU-style command options which may interpret uppercase options differently than the lowercase ones, such as `-v` for displaying the command's `[v]ersion` number and `-V` to run the command in `[V]erbose` mode.
 
