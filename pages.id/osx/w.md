@@ -1,17 +1,17 @@
 # w
 
-> Show who is logged on and what they are doing.
-> Print user login, TTY, remote host, login time, idle time, current process.
+> Tampilkan siapa dan apa yang sedang dilakukan saat masuk ke dalam akun macOS.
+> Tampilkan informasi seperti nama pengguna, TTY, asal (remote host), waktu login, waktu idle, dan proses saat ini.
 > Informasi lebih lanjut: <https://ss64.com/osx/w.html>.
 
-- Show logged-in users information:
+- Tampilkan daftar pengguna yang sedang masuk/login:
 
 `w`
 
-- Show logged-in users information without a header:
+- Tampilkan daftar pengguna yang sedang masuk/login tanpa teks [h]eader/kop:
 
 `w -h`
 
-- Show information about logged-in users, sorted by their idle time:
+- Tampilkan daftar pengguna yang diurutkan menurut waktu [i]dle:
 
 `w -i`
