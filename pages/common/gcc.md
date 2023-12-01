@@ -22,3 +22,7 @@
 - Compile source code into an object file without linking:
 
 `gcc -c {{path/to/source.c}}`
+
+- Optimize the compiled program for performance:
+
+`gcc {{path/to/source.c}} -O{{1|2|3|fast}}`

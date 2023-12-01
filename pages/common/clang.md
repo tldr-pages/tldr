@@ -22,3 +22,7 @@
 - Compile source code without linking:
 
 `clang -c {{input_source.c}}`
+
+- Optimize the compiled program for performance:
+
+`clang {{path/to/source.c}} -O{{1|2|3|fast}}`
