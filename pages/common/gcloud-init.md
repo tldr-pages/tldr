@@ -1,8 +1,7 @@
-# gcloud-init
+# gcloud init
 
 > This command launches an interactive workflow to setup gcloud or reinitialize configurations.
 > More information: <https://cloud.google.com/sdk/gcloud/reference/init>.
-
 
 - Launch a Getting Started Workflow:
 
