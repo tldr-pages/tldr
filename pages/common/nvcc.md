@@ -7,9 +7,9 @@
 
 `nvcc {{path/to/source.cu}} -o {{path/to/executable}}`
 
-- Generate debug information:
+- Generate debu[g] information:
 
-`nvcc {{path/to/source.cu}} -o {{path/to/executable}} -g -G`
+`nvcc {{path/to/source.cu}} -o {{path/to/executable}} --debug --device-debug`
 
 - Include libraries from a different path:
 
