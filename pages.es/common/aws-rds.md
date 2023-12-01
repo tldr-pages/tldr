@@ -26,7 +26,7 @@
 
 - Modifica un identificador de instancia:
 
-`aws rds modify-db-instance --db-instance-identifier {{antiguo_identificador_instancia}} --new-db-instance-identifier {{nuevo_identificador_instance}}`
+`aws rds modify-db-instance --db-instance-identifier {{antiguo_identificador_instancia}} --new-db-instance-identifier {{nuevo_identificador_instancia}}`
 
 - Reinicia una instancia:
 
