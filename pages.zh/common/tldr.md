@@ -1,7 +1,7 @@
 # tldr
 
 > 简化过的 man 帮助手册。
-> 更多信息：<https://tldr.sh>.
+> 更多信息：<https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - 获取一个命令的用例（提示：这就是你怎么得到本信息的）：
 

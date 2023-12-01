@@ -18,7 +18,7 @@
 
 - E[x]trae un archivo a un directorio específico:
 
-`7zr x {{ruta/al/larchivo.7z}} -o{ruta/de/salida}}`
+`7zr x {{ruta/al/archivo.7z}} -o{ruta/de/salida}}`
 
 - E[x]trae un archivo a `stdout`:
 
@@ -27,7 +27,3 @@
 - [l]ista el contenido de un archivo:
 
 `7zr l {{ruta/al/archivo.7z}}`
-
-- Lista los tipos de archivo disponibles:
-
-`7zr i`

@@ -19,6 +19,6 @@
 
 `systemd-id128 invocation-id`
 
-- Generate a new random identifier and print it as an UUID (five groups of digits separated by hyphens):
+- Generate a new random identifier and print it as a UUID (five groups of digits separated by hyphens):
 
 `systemd-id128 new --uuid`

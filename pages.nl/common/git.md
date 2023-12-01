@@ -1,6 +1,7 @@
 # git
 
 > Gedistribueerd versiebeheersysteem.
+> Sommige subcommando's zoals `commit`, `add`, `branch`, `checkout`, `push`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://git-scm.com/>.
 
 - Controleer de Git versie:
