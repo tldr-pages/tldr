@@ -19,6 +19,6 @@
 
 `ab -k {{url}}`
 
-- Set the maximum number of seconds to spend for benchmarking:
+- Set [t]he maximum number of seconds to spend for benchmarking:
 
 `ab -t {{60}} {{url}}`
