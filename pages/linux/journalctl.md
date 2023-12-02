@@ -19,7 +19,7 @@
 
 `journalctl -u {{unit}}`
 
-- Show logs from last unit start:
+- Show logs for a given unit since the last time it started:
 
 `journalctl _SYSTEMD_INVOCATION_ID=$(systemctl show --value --property=InvocationID {{unit}})`
 
