@@ -383,29 +383,29 @@ The following guidelines are applied to Chinese (`zh`) and traditional Chinese (
 
 1. Place one space before/after English words and numbers.
 
- - For example, use `列出所有 docker 容器` rather than `列出所有docker容器`.
- - For example, use `宽度为 50 个字` rather than `宽度为50个字`.
+- For example, use `列出所有 docker 容器` rather than `列出所有docker容器`.
+- For example, use `宽度为 50 个字` rather than `宽度为50个字`.
 
 2. Place one space between numbers and units **except** degrees and percentages.
 
- - For example, use `容量 50 MB` rather than `容量 50MB`.
- - For instances of degree and percentage, use `50°C` and `50%` rather than `50 °C` and `50 %`.
+- For example, use `容量 50 MB` rather than `容量 50MB`.
+- For instances of degree and percentage, use `50°C` and `50%` rather than `50 °C` and `50 %`.
 
 3. No additional spaces before/after full-width punctuations.
 
- - For example, use `开启 shell，进入交互模式` rather than `开启 shell ，进入交互模式`
+- For example, use `开启 shell，进入交互模式` rather than `开启 shell ，进入交互模式`
 
 4. Use full-width punctuations except for long Latin clauses.
 
- - For example, use `嗨，你好。` rather than `嗨, 你好.`
+- For example, use `嗨，你好。` rather than `嗨, 你好.`
 
 5. Use a half-width punctuation to end a sentence when the last character is half-width.
 
-  - For example, use `将代码转化为 Python 3.` rather than `将代码转化为 Python 3。`
+- For example, use `将代码转化为 Python 3.` rather than `将代码转化为 Python 3。`
 
 6. Use precise form for technical terms, and do not use unofficial Chinese abbreviations.
 
- - For example, use `Facebook` rather than `facebook`, `fb` or `脸书`.
+- For example, use `Facebook` rather than `facebook`, `fb` or `脸书`.
 
 In order to maintain readability and normalization, please comply with the 6 rules above as much as possible when translating pages into Chinese.
 
@@ -417,7 +417,7 @@ When translating pages to Indonesian, please keep in mind that we expect `tldr` 
 
 1. People who prefer to use standard Indonesian technical terms as possible, such as `unduh` for `download`, `awakutu` for `debugging`, and `muat ulang` for `reboot`.
 
-  - One of the most comprehensive lists of technical terms can be found under the [BlankOn Linux project](https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanWiki/KamusBlankOn/).
+- One of the most comprehensive lists of technical terms can be found under the [BlankOn Linux project](https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanWiki/KamusBlankOn/).
 
 2. People who prefer to use English words as-is to describe technical terms: `download` for `download`, `debugging` for `debugging`, and `reboot` for `reboot`.
 
