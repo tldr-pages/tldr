@@ -16,7 +16,7 @@
 
 `bash {{archivo.sh}}`
 
-- Ejecuta comandos desde un archivo, mostrando todos los comando ejecutados en la terminal:
+- Ejecuta comandos desde un archivo, mostrando todos los comandos ejecutados en la terminal:
 
 `bash -x {{archivo.sh}}`
 
@@ -28,6 +28,6 @@
 
 `bash -s`
 
-- Imprime la información de la versión de bash (use `echo $BASH_VERSION` para ver sólo la versión sin la información sobre la licencia):
+- Imprime la información de la versión de bash (usa `echo $BASH_VERSION` para ver sólo la versión sin la información sobre la licencia):
 
 `bash --version`
