@@ -15,7 +15,7 @@
 
 `ab -n {{100}} -T {{application/json}} -p {{path/to/file.json}} {{url}}`
 
-- Use HTTP [K]eep Alive, i.e. perform multiple requests within one HTTP session:
+- Use HTTP [k]eep-Alive, i.e. perform multiple requests within one HTTP session:
 
 `ab -k {{url}}`
 
