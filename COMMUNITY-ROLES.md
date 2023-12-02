@@ -203,3 +203,16 @@ Any member of the community can (and is encouraged to) propose role changes
 by following the process outlined [above](#how-to-change-roles).
 [Owners of the tldr-pages organization](MAINTAINERS.md#organization-owners)
 can then perform the actual role changes.
+
+## CODEOWNERS
+The [`.github/CODEOWNERS` file](https://github.com/tldr-pages/tldr/blob/main/.github/CODEOWNERS) allows contributors with write access to the
+[tldr-pages/tldr repository](https://github.com/tldr-pages/tldr) to get
+automatic review request notifications for given files and directories.
+If they wish to, contributors can open a pull request to add themselves
+to this file as desired.
+
+Example uses include (but are not limited to):
+
+- Contributors who speak a specific language who want to assist with reviewing translations in specific languages
+- Contributors with specific expertise who wish to review pull requests for specific platforms
+- Contributors interested in reviewing [client specification](https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md) updates
