@@ -1,6 +1,6 @@
 # ag
 
-> The Silver Searcher. Parecido com o ack, mas com um foco em ser ainda mais rápido.
+> The Silver Searcher. Parecido com o `ack`, mas com um foco em ser ainda mais rápido.
 > Mais informações: <https://github.com/ggreer/the_silver_searcher>.
 
 - Acha arquivos que contém "foo" e imprime as linhas correspondentes no contexto:
