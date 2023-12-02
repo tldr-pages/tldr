@@ -14,7 +14,7 @@
 
 - Maak een torrent bestand van een specifiek bestand of map:
 
-`transmission-cli --new {{pad/naar/source_bestand_of_map}}`
+`transmission-cli --new {{pad/naar/bron_bestand_of_map}}`
 
 - Zet de download snelheid limiet naar 50 KB/s:
 
@@ -26,7 +26,7 @@
 
 - Gebruik een specifieke poort voor verbindingen:
 
-`transmission-cli --port {{port_number}} {{url|magnet|pad/naar/bestand}}`
+`transmission-cli --port {{poort_nummer}} {{url|magnet|pad/naar/bestand}}`
 
 - Forceer versleuteling voor alle peer-verbindingen:
 
