@@ -9,9 +9,9 @@
 
 - Voer een commando uit in de context van de huidige bundle:
 
-`bundle exec {{command9}} {{argumenten}}`
+`bundle exec {{commando}} {{argumenten}}`
 
-- Update alle gems volgens de regels gedefineerd in de `Gemfile` en regenereer `Gemfile.lock`:
+- Update alle gems volgens de regels gedefineerd in de `Gemfile` en regenereer de `Gemfile.lock`:
 
 `bundle update`
 
