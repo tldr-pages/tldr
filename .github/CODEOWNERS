@@ -13,6 +13,8 @@
 /pages.zh/ @blueskyson @einverne
 /pages.zh_TW/ @blueskyson
 
+/pages/linux/ @sbrl
+
 /*.md @sbrl
 /.github/* @sbrl
 /contributing-guides/maintainers-guide.md @sbrl
