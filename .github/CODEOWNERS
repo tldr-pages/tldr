@@ -13,6 +13,10 @@
 /pages.zh/ @blueskyson @einverne
 /pages.zh_TW/ @blueskyson
 
+/*.md @sbrl
+/.github/* @sbrl
+/contributing-guides/maintainers-guide.md @sbrl
+/contributing-guides/style-guide.md @sbrl
 /contributing-guides/*.de.md @pixelcmtd @gutjuri
 /contributing-guides/*.es.md @navarroaxel @kant
 /contributing-guides/*.hi.md @kbdharun
