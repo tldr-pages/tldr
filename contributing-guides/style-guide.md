@@ -80,11 +80,11 @@ tldr --render path/to/tldr_page.md
 
 When documenting PowerShell commands, please take note of the following naming conventions.
 
-+ The documentation file name must be written in lowercase, such as `invoke-webrequest.md` instead of `Invoke-WebRequest.md`.
-+ The title of the command documentation (aka. the `command_name`) must be written as-is (matching the spelling intended by Microsoft or the PowerShell module author), such as `Invoke-WebRequest` instead of `invoke-webrequest`.
-+ The command name and options in the examples should also be written as-is, such as `Command-Name {{input}} -CommandParameter {{value}}` instead of `command-name {{input}} -commandparameter {{value}}`.
+- The name of the file name must be written in lowercase, such as `invoke-webrequest.md` instead of `Invoke-WebRequest.md`.
+- The page title/heading must be written as-is (matching the spelling intended by Microsoft or the PowerShell module author), such as `Invoke-WebRequest` instead of `invoke-webrequest`.
+- The command name and options in the examples should also be written as-is, such as `Command-Name {{input}} -CommandParameter {{value}}` instead of `command-name {{input}} -commandparameter {{value}}`.
 
-Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, Ensure that the command works on between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10 and 11), and the **latest version of "Cross-Platform PowerShell"** (formerly known as PowerShell Core). If the command or its options is unavailable or contains different behavior between each versions, please kindly note them in the descriptions. For example,
+Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, Ensure that the command works on between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10 and 11), and the **latest version of the Cross-Platform PowerShell** (formerly known as PowerShell Core). If the command or its options is unavailable or contains different behavior between each version, please kindly note them in the descriptions. For example,
 
 ```md
 # Clear-RecycleBin
@@ -126,9 +126,9 @@ Example:
 
 ### PowerShell-Specific Aliases
 
-Some PowerShell commands may introduce aliases which fall into one these three categories:
+Some PowerShell commands may introduce aliases which fall into one of these three categories:
 
-**1. Substituting an existing Windows Command Prompt (`cmd`) command,** such as `cd` aliasing to `Set-Location` with different command options. In this case, add the following alias note into the second line of original Command Prompt command's tldr description, for example:
+**1. Substituting an existing Windows Command Prompt (`cmd`) command**, such as `cd` aliasing to `Set-Location` with different command options. In this case, add the following alias note into the second line of the original Command Prompt command's tldr description, for example:
 
 ```md
 # cd
@@ -142,9 +142,10 @@ Some PowerShell commands may introduce aliases which fall into one these three c
 `tldr set-location`
 ```
 
-> [!TIP] The "View documentation of the equivalent PowerShell command" example is optional and may be excluded if the command already has the maximum number (8) of examples.
+> [!TIP]
+> The "View documentation of the equivalent PowerShell command" example is optional and may be excluded if the page already has the maximum number (8) of examples.
 
-**2. Provides a new alias but only executable in PowerShell,** such as `ni` for `New-Item`. In this case, use the [standard alias template](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md), but add the word "In Powershell," (or equivalent) to indicate that the command is exclusive to PowerShell. For example,
+**2. Provides a new alias but only executable in PowerShell**, such as `ni` for `New-Item`. In this case, use the [standard alias template](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md), but add the word "In Powershell," (or equivalent) to indicate that the command is exclusive to PowerShell. For example,
 
 ```md
 # ni
@@ -157,7 +158,7 @@ Some PowerShell commands may introduce aliases which fall into one these three c
 `tldr new-item`
 ```
 
-**3. Provides a new alias that conflict with other programs,** most notoriously the inclusion of `curl` and `wget` as aliases of `Invoke-WebRequest` (with non-compatible set of command options). Note that PowerShell system aliases that fall into this category are commonly exclusive to Windows.
+**3. Provides a new alias that conflicts with other programs**, most notoriously the inclusion of `curl` and `wget` as aliases of `Invoke-WebRequest` (with a non-compatible set of command options). Note that PowerShell system aliases that fall into this category are commonly exclusive to Windows.
 
 In this case, provide a note and method to determine whether the command currently refers to a PowerShell command (by alias) or others. For example,
 
@@ -183,9 +184,13 @@ In this case, provide a note and method to determine whether the command current
 ## Option syntax
 
 - Use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
-- When documenting PowerShell commands, use **PowerShell-style long options** (like `-Help` instead of `-H`) instead.
-- In other cases, use short options (like `/?` in Windows Command Prompt (`cmd`) or `-h` in others).
-- Prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`), unless the program does not support it.
+- When documenting PowerShell commands, use **PowerShell-style long options** (like `-Help` instead of `-H`).
+- When long options aren't available for a command, use **short options** instead.
+- While we prefer long options, we allow special cases in commands like `pacman` where short options are widely used and preferred over the long options (for cases like these decisions will be made by the maintainers on a case-by-case basis).
+- We prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`) unless the program does not support it.
+
+> [!NOTE]  
+> The goal of using long options is to make the commands easier to read and understand for non-techincal users. While it is ideal for most users, some users prefer short option for better ease of use. If the command supports both the options, we can highlight the short options using mnemonics instead.
 
 ### Short option mnemonics
 
@@ -201,11 +206,14 @@ Short option mnemonics are optional hints which can be added to help users under
 `slmgr.vbs /xpr`
 ```
 
-Note that, on the first example, the `[d]`, `[t]`, and `[i]` characters are enclosed with square brackets to indicate that the `/dti` option of the command is a combination of "display", "installation", and "ID", respectively. Consecutive mnemonic characters can be grouped under the same square brackets, such as `e[xp]i[r]ation` instead of `e[x][p]i[r]ation`.
+Note that, in the first example, the `[d]`, `[t]`, and `[i]` characters are enclosed with square brackets to indicate that the `/dti` option of the command is a combination of "display", "installation", and "ID", respectively. Consecutive mnemonic characters can be grouped under the same square brackets, such as `e[xp]i[r]ation` instead of `e[x][p]i[r]ation`.
 
-**Mnemonic characters must be written in case-sensitive**, even though it is placed as the first character of the sentence (i.e. `[d]isplay` instead of `[D]isplay`). This is to avoid conflicts with GNU-style command options which may interpret uppercase options differently than the lowercase ones, such as `-v` for displaying the command's `[v]ersion` number and `-V` to run the command in `[V]erbose` mode.
+**Mnemonic characters must be written in a case-sensitive manner**, even when it is placed as the first character of the sentence (i.e. use `[d]isplay` instead of `[D]isplay`). This is to avoid conflicts with GNU-style command options which may interpret uppercase options differently than the lowercase ones, such as `-v` for displaying the command's `[v]ersion` number and `-V` to run the command in `[V]erbose` mode.
 
 Option mnemonics may also be used in translations as long as the highlighted word contains similar meanings to the language (commonly English) which the command is written for. For example, `[d]ownload` in English may be translated into `[d]escargar` in Spanish, `[i]nstall` in English may be translated to `[i]nstallieren` in German, and `[a]pp` in English may be translated into `[a]plikasi` in Indonesian and Malay.
+
+> [!NOTE]  
+> In cases where the character isn't present in the translated word, you can highlight the option before/next to the equivalent word or you can add the English work beside the translation inside a bracket. For example, `E[x]tract` in English maybe translated into `[x] ekstrak` or `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
 
 ## Placeholder syntax
 
@@ -238,7 +246,8 @@ Keep the following guidelines in mind when choosing placeholders:
 - In case of a possible reference both to a file or a directory,
   use `{{path/to/file_or_directory}}`.
 
-Note that if the command is specific to Windows, use backslashes (`\`) instead, such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless if the command input requires an absolute path or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
+> [!NOTE]  
+> If the command is specific to Windows, use backslashes (`\`) instead, such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless if the command input requires an absolute path or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
 
 ### Extensions
 
@@ -253,7 +262,6 @@ Note that if the command is specific to Windows, use backslashes (`\`) instead, 
 
 - If a command can take 0 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
   For instance, if multiple paths are expected `{{path/to/directory1 path/to/directory2 ...}}` can be used.
-- If the multiple-argument command refers to a PowerShell command, separate each placeholder and ellipsis with a space-padded comma instead, such as `{{placeholder1 , placeholder2 , ...}}`, not `{{placeholder1, placeholder2, ...}}`.
 - If a command can take 0 or more arguments of different kinds, use an ellipsis: `{{placeholder1|placeholder2|...}}`.
   If there are more than 5 possible values use `|...` after the last item.
 - It's impossible to restrict the minimum or (and) maximum placeholder count via `ellipsis`.
@@ -360,7 +368,10 @@ For example, use:
 When linking pages to the Microsoft Learn links, remove the locale from the address as the website will automatically redirect to the reader's preferred locale setting. For example, Use <https://learn.microsoft.com/windows-server/administration/windows-commands/cd> instead of
 <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>.
 
-Additionally, if the link is related to PowerShell command documentaion, remove the **documentation version indicator** (in which the version of PowerShell/module that the documentation is derived from), aka. the part of the address that starts with `?view=`. Use <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> instead of <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>, and <https://learn.microsoft.com/powershell/module/powershellget/install-module> instead of <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
+Additionally, if the link is related to PowerShell command documentaion, remove the **documentation version indicator** (in which the version of PowerShell/module that the documentation is derived from), aka. the part of the address that starts with `?view=`.
+
+- Use <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> instead of <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>.
+- Use <https://learn.microsoft.com/powershell/module/powershellget/install-module> instead of <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
 
 ## Language-Specific Rules
 
@@ -405,7 +416,9 @@ For more information and examples of Chinese-specific rules, check out [*Chinese
 When translating pages to Indonesian, please keep in mind that we expect `tldr` pages to be easy to read for **both types of Indonesian audiences**, which are:
 
 1. People who prefer to use standard Indonesian technical terms as possible, such as `unduh` for `download`, `awakutu` for `debugging`, and `muat ulang` for `reboot`.
+
   - One of the most comprehensive lists of technical terms can be found under the [BlankOn Linux project](https://dev.blankonlinux.or.id/TimPengembang/Dokumentasi/Panduan/PanduanWiki/KamusBlankOn/).
+
 2. People who prefer to use English words as-is to describe technical terms: `download` for `download`, `debugging` for `debugging`, and `reboot` for `reboot`.
 
 The segmentation of these audiences is clearly noted on [Firefox Public Data Report](https://data.firefox.com/dashboard/usage-behavior):
