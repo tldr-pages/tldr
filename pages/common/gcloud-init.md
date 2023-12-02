@@ -11,7 +11,7 @@
 
 `gcloud init --skip-diagnostics`
 
-- Allow to use console for authentication:
+- Allow using the console for authentication:
 
 `gcloud init --console-only`
 
