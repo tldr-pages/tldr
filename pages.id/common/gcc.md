@@ -5,20 +5,20 @@
 
 - Ubah beberapa sumber kode menjadi program:
 
-`gcc {{sumber1.c}} {{sumber2.c}} --output {{program}}`
+`gcc {{jalan/menuju/sumber1.c}} {{jalan/menuju/sumber2.c}} --output {{jalan/menuju/program}}`
 
 - Izinkan peringatan dan simbol debug dalam output:
 
-`gcc {{sumber.c}} -Wall -Og --output {{program}}`
+`gcc {{jalan/menuju/sumber.c}} -Wall -Og --output {{jalan/menuju/program}}`
 
 - Sertakan pustaka (library) dari direktori yang berbeda:
 
-`gcc {{sumber.c}} --output {{program}} -I{{jalur_header}} -L{{jalur_pustaka}} -l{{nama_pustaka}}`
+`gcc {{sumber.c}} --output {{jalan/menuju/program}} -I{{jalan/menuju/header}} -L{{jalan/menuju/pustaka}} -l{{nama_pustaka}}`
 
 - Susun kode sumber ke dalam bahasa tingkat rendah (assembly):
 
-`gcc -S {{sumber.c}}`
+`gcc -S {{jalan/menuju/sumber.c}}`
 
 - Susun kode sumber tanpa digabungkan:
 
-`gcc -c {{sumber.c}}`
+`gcc -c {{jalan/menuju/sumber.c}}`
