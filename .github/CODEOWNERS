@@ -15,7 +15,7 @@
 
 /pages/linux/ @sbrl
 
-/*.md @sbrl
+/*.md @sbrl @kbdharun
 /.github/* @sbrl
 /contributing-guides/maintainers-guide.md @sbrl
 /contributing-guides/style-guide.md @sbrl
