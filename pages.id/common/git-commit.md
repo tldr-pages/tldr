@@ -7,7 +7,7 @@
 
 `git commit -m "{{pesan}}"`
 
-- Otomatis merubah semua file yang dimodifikasi menjadi ke status stage dan menambahkan sebuah pesan:
+- Ubah secara otomatis semua file yang dimodifikasi menjadi ke status stage dan menambahkan sebuah pesan:
 
 `git commit -a -m "{{pesan}}"`
 
