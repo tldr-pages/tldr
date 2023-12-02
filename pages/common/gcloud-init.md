@@ -15,6 +15,6 @@
 
 `gcloud init --console-only`
 
-- Alternatively,prevent from launching a browser:
+- Do not launch a browser:
 
 `gcloud init --no-launch-browser`
