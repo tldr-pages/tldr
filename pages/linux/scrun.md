@@ -21,4 +21,4 @@
 
 - Delete the specified container:
 
-`scrun delete {{container_id}}` 
+`scrun delete {{container_id}}`
