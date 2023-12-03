@@ -11,11 +11,11 @@
 
 `a2ping --nocompress {{none|zip|best|flate}} {{path/to/file}}`
 
-- Scan HiResBoundingBox if present (Note: It Defaults to yes):
+- Scan HiResBoundingBox if present (defaults to yes):
 
 `a2ping --nohires {{path/to/file}}`
 
-- Allow page content below and left of the origin (Note: It defaults to no):
+- Allow page content below and left of the origin (defaults to no):
 
 `a2ping --below {{path/to/file}}`
 

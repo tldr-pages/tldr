@@ -20,11 +20,11 @@
 
 `docker pull {{imagen}}`
 
-- Muestra la lista de imagenes descargadas:
+- Muestra la lista de imágenes descargadas:
 
 `docker images`
 
-- Inicia una línea de Comandos dentro de un contenedor en ejecución:
+- Inicia una línea de comandos dentro de un contenedor en ejecución:
 
 `docker exec -it {{nombre_de_contenedor}} {{sh}}`
 
