@@ -11,7 +11,7 @@
 
 `accelerate config`
 
-- Druk de geschatte GPU-geheugenkosten af van het uitvoeren van een huggingface model met verschillende gegevenstypen:
+- Druk de geschatte GPU-geheugenkosten af van het uitvoeren van een Hugging Face model met verschillende gegevenstypen:
 
 `accelerate estimate-memory {{name/model}}`
 

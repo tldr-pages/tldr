@@ -14,7 +14,7 @@
 
 - Analyze a specific file:
 
-`alex {{textfile.md}}`
+`alex {{path/to/file.md}}`
 
 - Analyze all Markdown files except `example.md`:
 

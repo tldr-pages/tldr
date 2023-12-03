@@ -1,6 +1,6 @@
 # ack
 
-> A search tool like grep, optimized for developers.
+> A search tool like `grep`, optimized for developers.
 > See also: `rg`, which is much faster.
 > More information: <https://beyondgrep.com/documentation>.
 
