@@ -1,4 +1,4 @@
-# aws-s3-website
+# aws s3 website
 
 > Set the website configuration for a bucket.
 > See also: `aws s3`.
