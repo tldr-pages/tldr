@@ -11,6 +11,6 @@
 
 `sattach --input-filter {{task_number}}`
 
-- Only display `stdin`/`stderr` of the spefified task:
+- Only display `stdin`/`stderr` of the specified task:
 
 `sattach --{{output|error}}-filter {{task_number}}`
