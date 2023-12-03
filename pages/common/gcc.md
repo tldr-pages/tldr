@@ -25,4 +25,4 @@
 
 - Optimize the compiled program for performance:
 
-`gcc {{path/to/source.c}} -O{{1|2|3|fast}}`
+`gcc {{path/to/source.c}} -O{{1|2|3|fast}} -o {{path/to/output_executable}}`
