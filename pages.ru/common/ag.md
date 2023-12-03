@@ -1,6 +1,6 @@
 # ag
 
-> The Silver Searcher. Аналог ack, но имеет цель быть быстрее.
+> The Silver Searcher. Аналог `ack`, но имеет цель быть быстрее.
 > Больше информации: <https://github.com/ggreer/the_silver_searcher>.
 
 - Найти файлы, содержащие "foo", и вывести подходящие строки в контексте:
