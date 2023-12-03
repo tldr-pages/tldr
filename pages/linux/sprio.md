@@ -1,6 +1,6 @@
 # sprio
 
-> View the factors determining a job's scheduling priority
+> View the factors determining a job's scheduling priority.
 > More information: <https://slurm.schedmd.com/sprio.html>.
 
 - View the factors determining all pending job's scheduling priority:
