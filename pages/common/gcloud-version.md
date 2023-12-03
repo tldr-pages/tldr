@@ -7,6 +7,6 @@
 
 `gcloud version`
 
-- For additional flags, run: 
+- For additional flags, run:
 
 `gcloud version --help`
