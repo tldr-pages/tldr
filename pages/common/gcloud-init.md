@@ -14,7 +14,3 @@
 - Use the console for authentication:
 
 `gcloud init --console-only`
-
-- Do not launch a browser:
-
-`gcloud init --no-launch-browser`
