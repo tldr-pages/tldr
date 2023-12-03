@@ -1,7 +1,8 @@
 # pbmtox10bm
 
-> Dit commando is een alias van `pbmtoxbm`.
+> Dit commando is vervangen door `pbmtoxbm -x10`.
+> Meer informatie: <https://netpbm.sourceforge.net/doc/pbmtox10bm.html>.
 
-- Bekijk de documentatie van het originele commando:
+- Bekijk de documentatie van het huidige commando:
 
 `tldr pbmtoxbm`
