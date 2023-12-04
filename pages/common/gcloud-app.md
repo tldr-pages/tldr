@@ -1,7 +1,7 @@
 # gcloud cli serverless and app engine
 
 > Build highly scalable applications on a fully managed serverless platform.
-> More information: <https://cloud.google.com/sdk/docs/cheatsheet#serverless>
+> More information: <https://cloud.google.com/sdk/docs/cheatsheet#serverless>.
 
 - Deploy your app's code and configuration to the App Engine server:
 
