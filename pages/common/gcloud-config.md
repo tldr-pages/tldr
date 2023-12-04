@@ -1,13 +1,14 @@
 # gcloud config
 
-> Personalize your `gcloud` CLI configuration with properties.
+> Personalize your `gcloud` configuration with properties.
+> See also: `gcloud`.
 > More information: <https://cloud.google.com/sdk/gcloud/reference/config>.
 
 - Define a property (like compute/zone) for the current configuration:
 
 `gcloud config set {{property}} {{value}}`
 
-- Fetch the value of a gcloud CLI property:
+- Fetch the value of a `gcloud` property:
 
 `gcloud config get {{property}}`
 
