@@ -1,13 +1,13 @@
-# gcloud cli iam 
+# gcloud iam 
 
-> Configuring Identity and Access Management (IAM) preferences and service accounts.
+> Configure Identity and Access Management (IAM) preferences and service accounts.
 > More information: <https://cloud.google.com/sdk/docs/cheatsheet#iam>.
 
 - List IAM grantable roles for a resource:
 
 `gcloud iam list-grantable-roles`
 
-- Create a custom role for a project or org:
+- Create a custom role for a project or organization:
 
 `gcloud iam roles create`
 
