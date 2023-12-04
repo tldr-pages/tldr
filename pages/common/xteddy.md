@@ -19,6 +19,6 @@
 
 `xteddy -F {{path/to/image}}`
 
-- Set the initial location of the teddy (`width` and `height` are ignored):
+- Set the initial location of the teddy bear (`width` and `height` are ignored):
 
 `xteddy -geometry {{width}}x{{height}}+{{x}}+{{y}}`
