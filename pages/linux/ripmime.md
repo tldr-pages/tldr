@@ -1,7 +1,7 @@
 # ripmime
 
-> Extract attachments out of a MIME encoded email packages.
-> More information: <https://pldaniels.com/ripmime/>.
+> Extract attachments out of a MIME encoded email package.
+> More information: <https://pldaniels.com/ripmime>.
 
 - Extract file contents in the current directory:
 
@@ -15,6 +15,6 @@
 
 `ripmime -i {{path/to/file}} -v`
 
-- To get detailed information about the whole decoding process:
+- Get detailed information about the whole decoding process:
 
 `ripmime -i {{path/to/file}} --debug`
