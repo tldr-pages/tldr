@@ -1,6 +1,6 @@
 # ps-nvm
 
-> PowerShell-based voorzieining voor het beheren van meerdere Node.js versies, geïnspireerd op `nvm`.
+> PowerShell-gebaseerde voorziening voor het beheren van meerdere Node.js versies, geïnspireerd op `nvm`.
 > Deze tool biedt meerdere commando's die allemaal alleen via PowerShell uitgevoerd kunnen worden.
 > Meer informatie: <https://github.com/aaronpowell/ps-nvm>.
 
