@@ -205,6 +205,7 @@ by following the process outlined [above](#how-to-change-roles).
 can then perform the actual role changes.
 
 ## CODEOWNERS
+
 The [`.github/CODEOWNERS` file](https://github.com/tldr-pages/tldr/blob/main/.github/CODEOWNERS) allows contributors with write access to the
 [tldr-pages/tldr repository](https://github.com/tldr-pages/tldr) to get
 automatic review request notifications for given files and directories.
