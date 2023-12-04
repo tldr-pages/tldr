@@ -28,7 +28,7 @@
 
 `gcloud container clusters get-credentials {{cluster_name}}`
 
-- Update all `gcloud` CLI components:
+- Update all `gcloud` components:
 
 `gcloud components update`
 
