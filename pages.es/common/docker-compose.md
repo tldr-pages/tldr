@@ -11,7 +11,7 @@
 
 `docker compose up --detach`
 
-- Inicia todos los contenedores y reconstruye si es ncesario:
+- Inicia todos los contenedores y reconstruye si es necesario:
 
 `docker compose up --build`
 
