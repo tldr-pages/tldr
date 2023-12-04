@@ -1,6 +1,6 @@
-# gcloud CLI Miscellaneous Commands
+# gcloud cli miscellaneous commands
 
-> Commands that might come in handy
+> Commands that might come in handy.
 > More information: <https://cloud.google.com/sdk/docs/cheatsheet#miscellaneous>.
 
 - Decrypt ciphertext (to a plaintext file) using a Cloud Key Management Service key:

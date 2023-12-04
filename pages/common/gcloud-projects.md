@@ -1,4 +1,4 @@
-# gcloud CLI Projects
+# gcloud projects
 
 > Manage project access policies.
 > More information: <https://cloud.google.com/sdk/docs/cheatsheet#projects>.

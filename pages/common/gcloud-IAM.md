@@ -1,4 +1,4 @@
-# gcloud CLI IAM
+# gcloud cli iam
 
 > Configuring Identity and Access Management (IAM) preferences and service accounts.
 > More information: <https://cloud.google.com/sdk/docs/cheatsheet#iam>.

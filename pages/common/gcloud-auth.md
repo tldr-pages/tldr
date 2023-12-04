@@ -1,4 +1,4 @@
-# gcloud CLI Authorization and Credentials
+# gcloud cli authorization and credentials
 
 > Grant and revoke authorization to the gcloud CLI and manage credentials.
 > More information: <https://cloud.google.com/sdk/docs/cheatsheet#authorization_and_credentials>.

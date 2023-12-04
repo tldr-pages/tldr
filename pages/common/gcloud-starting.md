@@ -1,4 +1,4 @@
-# gcloud CLI Getting started
+# gcloud getting started
 
 > Get going with the gcloud CLI.
 > More information: <https://cloud.google.com/sdk/docs/cheatsheet#getting_started>.

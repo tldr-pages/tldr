@@ -1,4 +1,4 @@
-# gcloud CLI Help
+# gcloud cli help
 
 > gcloud CLI is happy to help.
 > More information: <https://cloud.google.com/sdk/docs/cheatsheet#help>.

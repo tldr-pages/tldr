@@ -1,4 +1,4 @@
-# gcloud CLI Docker and Google Kubernetes Engine
+# gcloud cli docker and google kubernetes engine
 
 > Manage containerized applications on Kubernetes.
 > More information: <https://cloud.google.com/sdk/docs/cheatsheet#docker>.

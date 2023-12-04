@@ -1,4 +1,4 @@
-# gcloud CLI Personalization
+# gcloud cli personalization
 
 > Make the gcloud CLI your own; personalize your configuration with properties.
 > More information: <https://cloud.google.com/sdk/docs/cheatsheet#personalization>.

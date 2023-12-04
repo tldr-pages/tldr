@@ -1,4 +1,4 @@
-# gcloud CLI Virtual Machines and Computer Engine
+# gcloud cli virtual machines and computer engine
 
 > Create, run, and manage VMs on Google Cloud infrastructure.
 > More information: <https://cloud.google.com/sdk/docs/cheatsheet#virtual_machines>.
