@@ -1,4 +1,4 @@
-# gcloud help
+# gcloud feedback
 
 > Provide feedback to the Google Cloud team.
 > See also: `gcloud`.

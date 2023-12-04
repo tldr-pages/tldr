@@ -20,7 +20,7 @@
 
 `gcloud compute ssh {{user}}@{{instance}}`
 
-- Display all Google Compute Engine instances in a project (Instances from all zones are listed by default):
+- Display all Google Compute Engine instances in a project (by default instances from all zones are listed):
 
 `gcloud compute instances list`
 
