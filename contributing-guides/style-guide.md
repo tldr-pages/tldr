@@ -361,7 +361,7 @@ Instead of translating the sentence into:
 
 > Muat konfigurasi dari file yang ditentukan setelah muat ulang
 
-Add detailed contexts to remove ambiguity (notice the highligted word):
+Add detailed contexts to remove ambiguity (notice the highlighted word):
 
 > Muat konfigurasi dari file yang ditentukan setelah **pengguna** memuat ulang **sistem operasi**
 

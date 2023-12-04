@@ -1,6 +1,6 @@
 # ag
 
-> The Silver Searcher. 类似 ack, 但是更快。
+> The Silver Searcher. 类似 `ack`, 但是更快。
 > 更多信息：<https://github.com/ggreer/the_silver_searcher>.
 
 - 寻找内容包含"小明"的文件，并列出所在的行数：

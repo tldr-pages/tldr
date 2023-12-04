@@ -1,7 +1,7 @@
 # dolt fetch
 
 > Download objects and refs from another repository.
-> More information: <https://github.com/dolthub/dolt>.
+> More information: <https://docs.dolthub.com/cli-reference/cli#dolt-fetch>.
 
 - Fetch the latest changes from the default remote upstream repository (origin):
 

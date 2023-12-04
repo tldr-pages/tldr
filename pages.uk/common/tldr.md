@@ -1,7 +1,7 @@
 # tldr
 
 > Відображає прості сторінки допомоги для інструментів командного рядка з проекту tldr-pages.
-> Більше інформації: <https://tldr.sh>.
+> Більше інформації: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Показує типове використання команди (підказка: це те, як ви потрапили сюди!):
 

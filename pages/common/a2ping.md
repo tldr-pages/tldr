@@ -11,19 +11,19 @@
 
 `a2ping --nocompress {{none|zip|best|flate}} {{path/to/file}}`
 
-- Scan HiResBoundingBox if present (Note: It Defaults to yes):
+- Scan HiResBoundingBox if present (defaults to yes):
 
 `a2ping --nohires {{path/to/file}}`
 
-- Allow page content below and left of the origin (Note: It defaults to no):
+- Allow page content below and left of the origin (defaults to no):
 
 `a2ping --below {{path/to/file}}`
 
-- Pass extra arguments to `gs``:
+- Pass extra arguments to `gs`:
 
 `a2ping --gsextra {{arguments}} {{path/to/file}}`
 
-- Pass extra arguments to external program (i.e pdftops):
+- Pass extra arguments to external program (i.e `pdftops`):
 
 `a2ping --extra {{arguments}} {{path/to/file}}`
 

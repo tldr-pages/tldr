@@ -3,11 +3,11 @@
 > Un comando integrado de zsh para indicar cómo se interpretaría un comando dado.
 > Más información: <https://www.unix.com/man-page/OpenSolaris/1/whence/>.
 
-- Interpreta {{comando}}, con expansión si se define como un `alias` (similar al `command -v` integrado):
+- Interpreta `comando`, con expansión si se define como un `alias` (similar al `command -v` integrado):
 
 `whence "{{comando}}"`
 
-- Muestra tipo de {{comando}}, con localización si se define como una función, o binario (equivalente a los `type` y `command -V` integrados):
+- Muestra tipo de `comando`, con localización si se define como una función, o binario (equivalente a los `type` y `command -V` integrados):
 
 `whence -v "{{comando}}"`
 
@@ -19,6 +19,6 @@
 
 `whence -ca "{{comando}}"`
 
-- Buscar sólo el `PATH`para {{comando}}, ignorando los buildins, aliases o funciones del shell (equivalente al comando `where`):
+- Buscar sólo el `PATH` para `comando`, ignorando los buildins, aliases o funciones del shell (equivalente al comando `where`):
 
 `whence -p "{{comando}}"`

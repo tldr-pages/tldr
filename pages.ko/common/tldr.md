@@ -1,7 +1,7 @@
 # tldr
 
 > 간단한 매뉴얼 페이지.
-> 더 많은 정보: <https://tldr.sh>.
+> 더 많은 정보: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - 명령어 형식적 사용법 가져오기 (힌트 : 이걸 사용하는 방법입니다!):
 

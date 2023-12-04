@@ -1,9 +1,9 @@
 # choco pack
 
-> Package a NuGet specification into a nupkg file.
+> Package a NuGet specification into a `nupkg` file.
 > More information: <https://chocolatey.org/docs/commands-pack>.
 
-- Package a NuGet specification to a nupkg file:
+- Package a NuGet specification to a `nupkg` file:
 
 `choco pack {{path\to\specification_file}}`
 

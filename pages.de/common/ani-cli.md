@@ -17,7 +17,7 @@
 
 - Anzuschauende Episode angeben:
 
-`ani-cli -a {{episoden_nummer}} "{{anime_name}}"`
+`ani-cli -e {{episoden_nummer}} "{{anime_name}}"`
 
 - Anime aus Verlauf weiterschauen:
 

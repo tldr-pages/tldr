@@ -11,10 +11,6 @@
 
 `tldr curl -p common`
 
-- Bekijk de documentatie van het originele `curl` commando in een oudere versie van de `tldr` command-line client:
-
-`tldr curl -o common`
-
 - Bekijk de documentatie van het PowerShell's `Invoke-WebRequest` commando:
 
 `tldr invoke-webrequest`
