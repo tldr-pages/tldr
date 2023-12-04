@@ -11,7 +11,7 @@
 
 `accelerate config`
 
-- 다양한 데이터 타입을 사용하여 huggingface 모델을 실행하는 데 필요한 예상 GPU 메모리 비용을 출력:
+- 다양한 데이터 타입을 사용하여 Hugging Face 모델을 실행하는 데 필요한 예상 GPU 메모리 비용을 출력:
 
 `accelerate estimate-memory {{이름/모델}}`
 

@@ -1,6 +1,6 @@
 # airdecap-ng
 
-> Decrypt a WEP, WPA or WPA2 encrypted capture file.
+> Decrypt a WEP, WPA, or WPA2 encrypted capture file.
 > Part of Aircrack-ng network software suite.
 > More information: <https://www.aircrack-ng.org/doku.php?id=airdecap-ng>.
 
