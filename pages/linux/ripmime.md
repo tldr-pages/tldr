@@ -9,7 +9,7 @@
 
 - Extract file contents in a specific directory:
 
-`ripmime -i {{path/to/file}} -d {{path/to/dir}}`
+`ripmime -i {{path/to/file}} -d {{path/to/directory}}`
 
 - Extract file contents and print verbose output:
 
