@@ -9,5 +9,5 @@
 `gcloud help`
 
 - View supplementary help material for non-command topics like accessibility, filtering, and formatting:
+
 `gcloud topic {{topic_name}}`
-`gcloud topic`
