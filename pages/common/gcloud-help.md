@@ -1,6 +1,6 @@
 # gcloud cli help
 
-> Google gcloud CLI is happy to help.
+> Display help information and support for `gcloud`.
 > More information: <https://cloud.google.com/sdk/docs/cheatsheet#help>.
 
 - Search the gcloud CLI reference documents for specific terms:

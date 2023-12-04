@@ -1,13 +1,14 @@
-# gcloud cli authorization and credentials
+# gcloud auth
 
-> Grant and revoke authorization to the gcloud CLI and manage credentials.
-> More information: <https://cloud.google.com/sdk/docs/cheatsheet#authorization_and_credentials>.
+> Grant and revoke authorization to `gcloud` and manage credentials.
+> See also: `gcloud`.
+> More information: <https://cloud.google.com/sdk/gcloud/reference/auth>.
 
-- Authorize Google Cloud access for the gcloud CLI with Google Cloud user credentials and set the current account as active:
+- Authorize Google Cloud access for the `gcloud` CLI with Google Cloud user credentials and set the current account as active:
 
 `gcloud auth login`
 
-- Authorize Google Cloud access similar to gcloud auth login but with service account credentials:
+- Authorize Google Cloud access similar to `gcloud auth login` but with service account credentials:
 
 `gcloud auth activate-service-account`
 

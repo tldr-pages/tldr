@@ -2,11 +2,11 @@
 
 > Build highly scalable applications on a fully managed serverless platform.
 > See also: `gcloud`.
-> More information: <https://cloud.google.com/sdk/docs/cheatsheet#serverless>.
+> More information: <https://cloud.google.com/sdk/gcloud/reference/app>.
 
 - Deploy your app's code and configuration to the App Engine server:
 
-`gcloud app deploy`
+`gcloud app deploy {{deployables}}`
 
 - List all versions of all services deployed to the App Engine server:
 

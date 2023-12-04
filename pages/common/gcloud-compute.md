@@ -1,7 +1,8 @@
-# gcloud cli virtual machines and computer engine
+# gcloud compute
 
 > Create, run, and manage VMs on Google Cloud infrastructure.
-> More information: <https://cloud.google.com/sdk/docs/cheatsheet#virtual_machines>.
+> See also: `gcloud`.
+> More information: <https://cloud.google.com/sdk/gcloud/reference/compute>.
 
 - List Compute Engine zones:
 
@@ -9,28 +10,28 @@
 
 - Create a VM instance:
 
-`gcloud compute instances create`
+`gcloud compute instances create {{instance_name}}`
 
 - Display a VM instance's details:
 
-`gcloud compute instances describe`
+`gcloud compute instances describe {{instance_name}}`
 
 - List all VM instances in a project:
 
 `gcloud compute instances list`
 
-- Create snapshot of persistent disks:
+- Create a snapshot of a persistent disk:
 
-`gcloud compute disks snapshot`
+`gcloud compute disks snapshot {{disk_name}} --snapshot-names {{snapshot_name}}`
 
 - Display a snapshot's details:
 
-`gcloud compute snapshots describe`
+`gcloud compute snapshots describe {{snapshot_name}}`
 
 - Delete a snapshot:
 
-`gcloud compute snapshots delete`
+`gcloud compute snapshots delete {{snapshot_name}}`
 
-- Connect to a VM instance by using SSH:
+- Connect to a VM instance using SSH:
 
-`gcloud compute ssh`
+`gcloud compute ssh {{instance_name}}`
