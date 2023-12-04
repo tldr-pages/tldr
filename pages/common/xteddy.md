@@ -1,7 +1,7 @@
 # xteddy
 
 > A cute teddy bear for your X desktop.
-> More Information: <https://manned.org/xteddy.1>.
+> More information: <https://manned.org/xteddy.1>.
 
 - Display a cuddly teddy bear on your X desktop:
 
