@@ -1,17 +1,17 @@
 # xteddy
 
-> A cute teddy bear for your X desktop.
+> A cuddly teddy bear for your X Windows desktop.
 > More information: <https://manned.org/xteddy.1>.
 
 - Display a cuddly teddy bear on your X desktop:
 
 `xteddy`
 
-- Use the window manager to display the teddy and ignore the "quit" (`q`) command:
+- Use the window manager to display the teddy bear and ignore the "quit" (`q`) command:
 
 `xteddy -wm -noquit`
 
-- Make the teddy stay on top of all other windows:
+- Make the teddy bear stay on top of all other windows:
 
 `xteddy -float`
 
