@@ -13,7 +13,7 @@
 
 - Sertakan pustaka (library) dari direktori yang berbeda:
 
-`gcc {{sumber.c}} --output {{jalan/menuju/program}} -I{{jalan/menuju/header}} -L{{jalan/menuju/pustaka}} -l{{nama_pustaka}}`
+`gcc {{sumber.c}} -o {{jalan/menuju/program}} -I{{jalan/menuju/header}} -L{{jalan/menuju/pustaka}} -l{{nama_pustaka}}`
 
 - Susun kode sumber ke dalam bahasa tingkat rendah (assembly):
 
