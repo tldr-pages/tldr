@@ -21,4 +21,4 @@
 
 - Start a vm with an environment variable pair name value:
 
-`VBoxManage startvm  {{name|uuid}} --put-env={{name}}={{value}}`
+`VBoxManage startvm  {{vm_name|uuid}} --put-env={{name}}={{value}}`
