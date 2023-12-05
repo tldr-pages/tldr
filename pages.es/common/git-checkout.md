@@ -1,9 +1,9 @@
 # git checkout
 
-> Comprueba una rama o rutas con el arbol de trabajo.
+> Comprueba una rama o rutas con el árbol de trabajo.
 > Más información: <https://git-scm.com/docs/git-checkout>.
 
-- Crea una nueva rama y cambiarse a esta:
+- Crea una nueva rama y se cambia a la misma:
 
 `git checkout -b {{nombre_de_la_rama}}`
 
@@ -27,7 +27,7 @@
 
 `git checkout .`
 
-- Decarta los cambios no marcados de un archivo específico:
+- Descarta los cambios no marcados de un archivo específico:
 
 `git checkout {{nombre_del_archivo}}`
 
