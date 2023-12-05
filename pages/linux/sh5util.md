@@ -1,9 +1,9 @@
 # sh5util
 
-> Merge HDF5 files (produced by the `sacct_gather_profile` plugin).
+> Merge HDF5 files produced by the `sacct_gather_profile` plugin.
 > More information: <https://slurm.schedmd.com/sh5util.html>.
 
-- Merge HDF5 files produced on each allocated node for the specified job (-step):
+- Merge HDF5 files produced on each allocated node for the specified job or step:
 
 `sh5util --jobs={{job_id|job_id.step_id}}`
 
