@@ -13,7 +13,7 @@
 
 - Perform a cold reset on the virtual machine:
 
-`VBoxManage controlvm {{uuid|vmname}} reset`
+`VBoxManage controlvm {{uuid|vm_name}} reset`
 
 - Poweroff a virtual machine with the same effect as pulling the power cable of a computer:
 
