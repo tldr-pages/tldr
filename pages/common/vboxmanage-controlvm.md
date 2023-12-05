@@ -3,7 +3,7 @@
 > Change the state and the settings of a currently running virtual machine.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-controlvm>.
 
-- Temporary stops the execution of a virtual machine:
+- Temporarily stop the execution of a virtual machine:
 
 `VBoxManage controlvm {{uuid|vmname}}  pause`
 
