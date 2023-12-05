@@ -7,7 +7,7 @@
 
 `gcc {{jalan/menuju/sumber1.c}} {{jalan/menuju/sumber2.c}} --output {{jalan/menuju/program}}`
 
-- Izinkan peringatan dan simbol debug dalam output:
+- Izinkan peringatan dan simbol debug dalam [o]utput:
 
 `gcc {{jalan/menuju/sumber.c}} -Wall -Og --output {{jalan/menuju/program}}`
 
