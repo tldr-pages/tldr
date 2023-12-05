@@ -32,6 +32,6 @@
 
 `kill -{{17|STOP}} {{id_del_proceso}}`
 
-- Envia una señal `SIGUSR1` a todos los procesos con un GID (id de grupo) dado:
+- Envía una señal `SIGUSR1` a todos los procesos con un GID (id de grupo) dado:
 
 `kill -{{SIGUSR1}} -{{id_de_grupo}}`
