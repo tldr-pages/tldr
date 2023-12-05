@@ -4,9 +4,10 @@
 > Includes all the functionality of the GUI and more.
 > Some subcommands such as `vboxmanage startvm` have their own usage documentation.
 > Some subcommands such as `vboxmanage startvm` have their own usage documentation.
+> Some subcommands such as `vboxmanage startvm` have their own usage documentation.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-intro>.
 
-- Check the VBoxManage version:
+- Display version:
 
 `VBoxManage --version`
 
