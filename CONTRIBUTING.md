@@ -201,7 +201,7 @@ Where `<command>` is the name of the command being modified, and `<type of chang
 - For a modification to the translation of an existing page: `cp: fix typo in Tamil translation`
 - For related changes to several pages: `grep, find, locate: synchronize format of wildcards`
 - For multiple subcommand page additions: `git-{add, push, ...}: add page`
-- For modfiying multiple pages in a language: `pages.<locale>/*: update pages`
+- For modifying multiple pages in a language: `pages.<locale>/*: update pages`
 
 ---
 
