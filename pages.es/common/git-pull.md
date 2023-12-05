@@ -1,16 +1,16 @@
 # git pull
 
-> Obtener rama de un repositorio remoto y fusionarlo con el repositorio local.
+> Obtiene rama de un repositorio remoto y lo fusiona con el repositorio local.
 > Más información: <https://git-scm.com/docs/git-pull>.
 
-- Descargar cambios del repositorio remoto por defecto y fusionarlo:
+- Descarga cambios del repositorio remoto por defecto y lo fusiona:
 
 `git pull`
 
-- Descargar cambios del repositorio remoto por defecto y usar avance rápido (*fast forward*):
+- Descarga cambios del repositorio remoto por defecto y usa avance rápido (*fast forward*):
 
 `git pull --rebase`
 
-- Descargar cambios de un repositorio remoto y una rama específica para fusionarlos en HEAD:
+- Descarga cambios de un repositorio remoto y una rama específica para fusionarlos en HEAD:
 
 `git pull {{nombre_remoto}} {{rama}}`
