@@ -1,7 +1,7 @@
 # vboxmanage-startvm
 
-> Start registered virtual machine with name or uuid.
-> More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-import>.
+> Start a virtual machine.
+> More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-startvm>.
 
 - Start a virtual machine:
 
@@ -9,7 +9,7 @@
 
 - Start a virtual machine with the specified UI mode:
 
-`VBoxManage startvm {{name|uuid}} --type {{headless|gui|sdl|seperate}}`
+`VBoxManage startvm {{name|uuid}} --type {{headless|gui|sdl|separate}}`
 
 - Specify a password file to start an encrypted virtual machine:
 

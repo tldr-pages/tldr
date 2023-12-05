@@ -1,7 +1,7 @@
 # vboxmanage-list
 
 > List information about the Oracle VM VirtualBox software and associated service.
-> More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-import>.
+> More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-list>.
 
 - List all VirtualBox virtual machines:
 
