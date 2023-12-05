@@ -5,11 +5,11 @@
 
 - Ubah beberapa sumber kode menjadi program:
 
-`gcc {{jalan/menuju/sumber1.c}} {{jalan/menuju/sumber2.c}} --output {{jalan/menuju/program}}`
+`gcc {{jalan/menuju/sumber1.c}} {{jalan/menuju/sumber2.c}} -o {{jalan/menuju/program}}`
 
 - Izinkan peringatan dan simbol debug dalam [o]utput:
 
-`gcc {{jalan/menuju/sumber.c}} -Wall -Og --output {{jalan/menuju/program}}`
+`gcc {{jalan/menuju/sumber.c}} -Wall -Og -o {{jalan/menuju/program}}`
 
 - Sertakan pustaka (library) dari direktori yang berbeda:
 
@@ -22,3 +22,7 @@
 - Susun kode sumber tanpa digabungkan:
 
 `gcc -c {{jalan/menuju/sumber.c}}`
+
+- [O]ptimalkan progam yang disusun agar dapat dijalankan lebih cepat:
+
+`gcc {{path/to/source.c}} -O{{1|2|3|fast}} -o {{path/to/output_executable}}`

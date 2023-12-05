@@ -17,7 +17,7 @@
 
 - Unggah kumpulan file atau direktori menuju server penerima:
 
-`airshare --upload {{jalan/menuju/file_atau_direktori1 jalan/menuju/file_atau_direktori2 ...}}`
+`airshare --upload {{kode_berbagi}} {{jalan/menuju/file_atau_direktori1 jalan/menuju/file_atau_direktori2 ...}}`
 
 - Kirim file dengan alamat-alamat yang disalin pada papan klip (clipboard):
 

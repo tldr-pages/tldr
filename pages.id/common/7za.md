@@ -10,7 +10,7 @@
 
 - Enkripsi file arsip saat ini (termasuk nama-nama file yang terkandung di dalamnya):
 
-`7za a {{jalan/menuju/arsip_terenkripsi.7z}} -p{{kata sandi}} -mhe=on {{jalan/menuju/arsip.7z}}`
+`7za a {{jalan/menuju/arsip_terenkripsi.7z}} -p {{kata sandi}} -mhe=on {{jalan/menuju/arsip.7z}}`
 
 - E[x]trak file arsip dengan mempertahankan struktur direktori asli:
 
