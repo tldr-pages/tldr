@@ -26,7 +26,7 @@
 
 - [a]rsipkan file atau direktori menggunakan format file arsip tertentu:
 
-`7za a -t{{7z|bzip2|gzip|lzip|tar|zip}} {{jalan/menuju/arsip.7z}} {{jalan/menuju/file_atau_direktori}}`
+`7za a -t{{7z|bzip2|gzip|lzip|tar|...}} {{jalan/menuju/arsip.7z}} {{jalan/menuju/file_atau_direktori}}`
 
 - [l]ihat daftar isi dari sebuah file arsip:
 
