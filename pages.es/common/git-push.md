@@ -1,13 +1,13 @@
 # git push
 
-> Enviar (*push*) los commits al repositorio remoto.
+> Envía (*push*) los commits al repositorio remoto.
 > Más información: <https://git-scm.com/docs/git-push>.
 
-- Envia los cambios locales en la rama actual a la misma rama en el remoto:
+- Envía los cambios locales en la rama actual a la misma rama en el remoto:
 
 `git push`
 
-- Envia los cambios locales de una rama específica a la misma rama en el remoto:
+- Envía los cambios locales de una rama específica a la misma rama en el remoto:
 
 `git push {{nombre_remoto}} {{rama_local}}`
 
@@ -15,11 +15,11 @@
 
 `git push {{nombre_remoto}} -u {{rama_remota}}`
 
-- Envia los cambios locales de una rama específica a una rama específica en el remoto:
+- Envía los cambios locales de una rama específica a una rama específica en el remoto:
 
 `git push {{nombre_remoto}} {{rama_local}}:{{rama_remota}}`
 
-- Envia los cambios de todas las ramas locales a sus respectivas ramas en el repositorio remoto:
+- Envía los cambios de todas las ramas locales a sus respectivas ramas en el repositorio remoto:
 
 `git push --all {{nombre_remoto}}`
 
