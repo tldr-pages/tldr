@@ -15,11 +15,11 @@
 
 `VBoxManage list extpacks`
 
-- Show all VM groups:
+- Show all virtual machine groups:
 
 `VBoxManage list groups`
 
-- Show virtual disk settings that are currently in use by VBOX:
+- Show virtual disk settings that are currently in use by VirtualBox:
 
 `VBoxManage list hdds`
 
@@ -27,10 +27,10 @@
 
 `VBoxManage list hostonlyifs`
 
-- Show the list of currently running VM:
+- Show the list of currently running virtual machines:
 
 `VBoxManage list runningvms`
 
-- Show host system info:
+- Show host system information:
 
 `VBoxManage list hostinfo`

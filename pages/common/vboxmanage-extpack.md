@@ -1,24 +1,24 @@
 # vboxmanage-extpack
 
 > Manage extension packs for Oracle VirtualBox.
-> More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-import>.
+> More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-extpack>.
 
-- Install extension packs to VirtualBox:
+- Install extension packs to VirtualBox (Note: you need to remove the existing version of the extension pack before installing a new version.):
 
-`VBoxManage extpack install {{VboxExtensionPackFileName}}`
+`VBoxManage extpack install {{path/to/file.vbox-extpack}}`
 
-- Update VBox extension packs:
+- Remove the existing version of the VirtualBox extension pack:
 
-`VBoxManage extpack install --replace {{VboxExtensionPackFileName}}`
+`VBoxManage extpack install --replace`
 
 - Uninstall extension packs from VirtualBox:
 
-`VBoxManage extpack uninstall {{VboxExtensionPackFileName}}`
+`VBoxManage extpack uninstall {{extension_pack_name}}`
 
-- Uninstall extension packs and skip most uninstallation refusal:
+- Uninstall extension packs and skip most uninstallation refusals:
 
-`VBoxManage extpack uninstall --force {{VboxExtensionPackFileName}}`
+`VBoxManage extpack uninstall --force {{extension_pack_name}}`
 
-- Clean up temporary file and directory left by extension packs:
+- Clean up temporary files and directories left by extension packs:
 
 `VBoxManage extpack cleanup`

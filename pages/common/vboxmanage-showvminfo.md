@@ -1,7 +1,7 @@
 # vboxmanage-showvminfo
 
 > Show information about registered virtual machine.
-> More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-import>.
+> More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-showvminfo>.
 
 - Show information about a particular virtual machine:
 
