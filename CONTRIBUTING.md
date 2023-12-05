@@ -33,7 +33,7 @@ The basic format of a `tldr` page is a set of concrete usage examples.
 
 Here are a few guidelines to get started:
 
-1. Try to keep pages at around five examples. Pages can be longer or shorter when appropriate, but don't exceed a maximum of eight examples.
+1. Try to keep pages at around five examples. Pages can be longer or shorter when appropriate, but don't exceed the maximum of eight examples.
    Remember, it's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
    For example, commands that require `sudo` should include it directly in the examples.
