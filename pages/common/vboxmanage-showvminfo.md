@@ -5,24 +5,24 @@
 
 - Show information about a particular virtual machine:
 
-`VBoxManage showvminfo {{name|uuid}}`
+`VBoxManage showvminfo {{vm_name|uuid}}`
 
 - Show more detailed information about a particular virtual machine:
 
-`VBoxManage showvminfo --details {{name|uuid}}`
+`VBoxManage showvminfo --details {{vm_name|uuid}}`
 
-- Information is displayed in a machine readable format:
+- Show information in a machine readable format:
 
-`VBoxManage showvminfo --machinereadable {{name|uuid}}`
+`VBoxManage showvminfo --machinereadable {{vm_name|uuid}}`
 
-- Specify password id if the virtual machine is encrypted:
+- Specify password ID if the virtual machine is encrypted:
 
-`VBoxManage showvminfo --password-id {{passwordid}} {{name|uuid}}`
+`VBoxManage showvminfo --password-id {{password_id}} {{vm_name|uuid}}`
 
 - Specify the password file if the virtual machine is encrypted:
 
-`VBoxManage showvminfo --password {{path/to/passwordfile}} {{name|uuid}}`
+`VBoxManage showvminfo --password {{path/to/password_file}} {{vm_name|uuid}}`
 
 - Show the logs of a specific virtual machine:
 
-`VBoxManage showvminfo --log {{name|uuid}}`
+`VBoxManage showvminfo --log {{vm_name|uuid}}`
