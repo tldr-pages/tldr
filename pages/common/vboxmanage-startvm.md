@@ -13,7 +13,7 @@
 
 - Specify a password file to start an encrypted virtual machine:
 
-`VBoxManage startvm {{vm_name|uuid}} --password {{path/to/passwordfile}}`
+`VBoxManage startvm {{vm_name|uuid}} --password {{path/to/password_file}}`
 
 - Specify a password id to start an encrypted virtual machine:
 
