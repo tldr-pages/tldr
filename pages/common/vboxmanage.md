@@ -13,7 +13,7 @@
 
 `VBoxManage --help`
 
-- Display help for  a VBoxManage subcommand (like `starvm`, `clonevm`, `import`, `export`, etc.):
+- Display help for a VBoxManage subcommand (like `starvm`, `clonevm`, `import`, `export`, etc.):
 
 `VBoxManage --help {{subcommand}}`
 
