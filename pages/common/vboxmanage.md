@@ -4,30 +4,18 @@
 > Includes all the functionality of the GUI and more.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-intro>.
 
-- List all VirtualBox virtual machines:
+- Check the VBoxManage version:
 
-`VBoxManage list vms`
+`VBoxManage --version`
 
-- Show information about a particular virtual machine:
+- Show general help:
 
-`VBoxManage showvminfo {{name|uuid}}`
+`VBoxManage --help`
 
-- Start a virtual machine:
+- Show help on a VBoxManage subcommand (like `starvm`, `clonevm`, `import`, `export`, etc.):
 
-`VBoxManage startvm {{name|uuid}}`
+`VBoxManage --help {{subcommand}}`
 
-- Start a virtual machine in headless mode:
+- Execute a VboxManage subcommand:
 
-`VBoxManage startvm {{name|uuid}} --type headless`
-
-- Shutdown the virtual machine and save its current state:
-
-`VBoxManage controlvm {{name|uuid}} savestate`
-
-- Shutdown down the virtual machine without saving its state:
-
-`VBoxManage controlvm {{name|uuid}} poweroff`
-
-- Update VBox extension packs:
-
-`VBoxManage extpack install --replace {{VboxExtensionPackFileName}}`
+`VBoxManage {{subcommand}}`
