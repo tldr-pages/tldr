@@ -23,3 +23,4 @@
 - Update components without confirmation (useful for automation scripts):
 
   `gcloud components update --quiet`
+  
