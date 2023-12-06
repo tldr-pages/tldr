@@ -148,7 +148,7 @@ Of course, this shouldn't sacrifice content clarity, such as when documenting to
 
 ### Testing pages locally
 
-Once you have written a `tldr` page, you can test it's syntax locally using [`tldr-lint`](https://github.com/tldr-pages/tldr-lint).
+Once you have written a `tldr` page, you can test its syntax locally using [`tldr-lint`](https://github.com/tldr-pages/tldr-lint).
 
 The latest version of [NodeJS](https://nodejs.org) is required to install `tldr-lint` with the following command:
 
@@ -163,6 +163,9 @@ tldr-lint <path/to/page.md>
 ```
 
 Now, you are ready to submit a pull request!
+
+> [!TIP]
+> Additionally, inside the `tldr` directory you can install the dependencies using `npm install` command and now when you commit your changes, the tests will run automatically via the pre-commit hook.
 
 ### Submitting changes
 
