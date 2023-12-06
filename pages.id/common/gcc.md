@@ -5,7 +5,7 @@
 
 - Ubah beberapa sumber kode menjadi program:
 
-`gcc {{jalan/menuju/sumber1.c}} {{jalan/menuju/sumber2.c}} -o {{jalan/menuju/program}}`
+`gcc {{jalan/menuju/sumber1.c jalan/menuju/sumber2.c ...}} -o {{jalan/menuju/program}}`
 
 - Izinkan peringatan dan simbol debug dalam [o]utput:
 
