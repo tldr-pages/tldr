@@ -10,7 +10,3 @@
 - Decrypt a file with additional authenticated data (AAD) and write the decrypted plaintext to stdout:
 
 `gcloud kms decrypt --key=frodo --keyring=fellowship --location=global --additional-authenticated-data-file=path/to/aad --ciphertext-file=path/to/input/ciphertext --plaintext-file=-`
-
----
-
-**Note:** Ensure that you have the necessary permissions and roles (e.g., roles/cloudkms.cryptoKeyDecrypter, roles/cloudkms.cryptoKeyEncrypterDecrypter) for decryption. The `--skip-integrity-verification` flag can be used to disable integrity verification if needed.
