@@ -24,6 +24,10 @@
 
 `g++ -c {{path/to/source_1.cpp path/to/source_2.cpp ...}} && g++ -o {{path/to/output_executable}} {{path/to/source_1.o path/to/source_2.o ...}}`
 
+- Optimize the compiled program for performance:
+
+`g++ {{path/to/source.cpp}} -O{{1|2|3|fast}} -o {{path/to/output_executable}}`
+
 - Display version:
 
 `g++ --version`

@@ -22,3 +22,7 @@
 - Compileer broncode naar een objectbestand zonder te koppelen:
 
 `gcc -c {{pad/naar/bron.c}}`
+
+- Optimaliseer het gecompileerde programma voor prestaties:
+
+`gcc {{pad/naar/bron.c}} -O{{1|2|3|fast}} -o {{pad/naar/uitvoerbaar_bestand}}`

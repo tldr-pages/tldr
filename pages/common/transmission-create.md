@@ -1,6 +1,7 @@
 # transmission-create
 
 > Create BitTorrent `.torrent` files.
+> See also: `transmission`.
 > More information: <https://manned.org/transmission-create>.
 
 - Create a torrent with 2048 KB as the piece size:

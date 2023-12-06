@@ -1,6 +1,6 @@
 # acme.sh
 
-> Script shell script que implementa o protocolo cliente ACME, ma alternativa para o certbot.
+> Script shell script que implementa o protocolo cliente ACME, ma alternativa para o `certbot`.
 > Veja também `acme.sh dns`.
 > Mais informações: <https://github.com/acmesh-official/acme.sh>.
 
