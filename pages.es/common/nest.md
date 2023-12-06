@@ -11,7 +11,7 @@
 
 `nest new {{nombre_del_proyecto}}`
 
-- Construye un a proyecto NestJS específico:
+- Construye un proyecto NestJS específico:
 
 `nest build {{nombre_del_proyecto}}`
 
