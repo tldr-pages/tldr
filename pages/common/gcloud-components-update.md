@@ -1,8 +1,8 @@
 # gcloud components update
 
-> Update all installed components of Google Cloud CLI to the latest version or a specified version.
+- Update all installed components of Google Cloud CLI to the latest version or a specified version.
 
->More information: [Google Cloud CLI Documentation](https://cloud.google.com/sdk/gcloud/reference/components/update)
+- More information: [Google Cloud CLI Documentation](https://cloud.google.com/sdk/gcloud/reference/components/update)
 
 - Update all components to the latest version:
 
