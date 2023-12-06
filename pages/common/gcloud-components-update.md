@@ -33,5 +33,3 @@ More information: [Google Cloud CLI Documentation](https://cloud.google.com/sdk/
   ```bash
   gcloud components update --quiet
   ```
-
-Remember to check the documentation for more details and options.
