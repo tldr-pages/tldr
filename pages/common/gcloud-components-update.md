@@ -4,7 +4,7 @@
 > Installs components at the current version of the Google Cloud CLI without upgrading the existing installation.
 > More information: <https://cloud.google.com/sdk/gcloud/reference/components/update>.
 
-- Update all components to the latest version: 
+- Update all components to the latest version:
 
 `gcloud components update`
 
