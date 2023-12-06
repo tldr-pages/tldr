@@ -9,7 +9,7 @@
 
 - Izinkan peringatan dan simbol debug dalam [o]utput:
 
-`gcc {{jalan/menuju/sumber.c}} -Wall -Og -o {{jalan/menuju/program}}`
+`gcc {{jalan/menuju/sumber.c}} -Wall -g -Og -o {{jalan/menuju/program}}`
 
 - Sertakan pustaka (library) dari direktori yang berbeda:
 
