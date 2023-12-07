@@ -1,9 +1,9 @@
 # gcloud info
 
-> Display information about the current gcloud environment.
+> Display information about the current `gcloud` environment.
 > More information: <https://cloud.google.com/sdk/gcloud/reference/topic/info>.
 
-- Display gcloud environment information:
+- Display `gcloud` environment information:
 
 `gcloud info`
 
