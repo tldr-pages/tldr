@@ -16,10 +16,10 @@
 `llm keys set openai`
 
 - Run a Prompt:
-  
+
 `llm "Ten fun names for a pet pelican"`
 
-- Run a system prompt against a file
+- Run a system prompt against a file:
 
 `cat myfile.py | llm -s "Explain this code"`
 
@@ -27,10 +27,10 @@
 
 `llm install llm-gpt4all`
 
-- Download and run a prompt against the Orca Mini 7B model
+- Download and run a prompt against the Orca Mini 7B model:
 
 `llm -m orca-mini-3b-gguf2-q4_0 'What is the capital of France?'`
-  
+
 - Interactive Chat:
 
 `llm chat -m chatgpt`
