@@ -24,10 +24,10 @@
 
 `gcloud config unset {{property_name}}`
 
-- Switch between different configuration profiles:
-
-`gcloud config configurations activate {{configuration_name}}`
-
 - Create a new configuration profile:
 
 `gcloud config configurations create {{configuration_name}}`
+
+- Switch between different configuration profiles:
+
+`gcloud config configurations activate {{configuration_name}}`
