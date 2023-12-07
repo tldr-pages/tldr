@@ -12,7 +12,7 @@
 `pipx install llm`
 
 - Set up OpenAI API Key:
- 
+
 `llm keys set openai`
 
 - Run a Prompt:
