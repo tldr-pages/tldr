@@ -28,6 +28,6 @@
 
 `abroot --help`
 
-- Muestra la version:
+- Muestra la versión:
 
 `abroot --version`
