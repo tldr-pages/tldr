@@ -1,20 +1,29 @@
 # ykman
 
-> The YubiKey Manager can be used to configure all aspects of the YubiKey.
+> YubiKey Manager - configure YubiKeys.
+> If there are multiple YubiKeys connected, you have to add `--device serial_number` before a subcommand.
 > More information: <https://docs.yubico.com/software/yubikey/tools/ykman/index.html>.
 
-- Get information from YubiKey:
+- Display general information about a YubiKey (serial number, firmware version, capabilities, etc.):
 
 `ykman info`
 
-- Get information for a given application from YubiKey:
+- List connected YubiKeys with short, one-line descriptions (including the serial number):
 
-`ykman {{fido|oath|openpgp|otp|piv}} info`
+`ykman list`
 
-- Get a list of enabled applications over NFC from YubiKey:
+- View documentation for enabling and disabling applications:
 
-`ykman config nfc --list`
+`tldr ykman config`
 
-- Enable application over USB on YubiKey:
+- View documentation for managing the FIDO applications:
 
-`ykman config usb --enable {{OTP|U2F|FIDO2|OATH|PIV|OPENPGP|HSMAUTH}}`
+`tldr ykman fido`
+
+- View documentation for managing the OATH application:
+
+`tldr ykman oath`
+
+- View documentation for managing the OpenPGP application:
+
+`tldr ykman openpgp`
