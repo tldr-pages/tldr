@@ -19,7 +19,7 @@
 
 Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!
 
-All `tldr` pages are stored in Markdown right here on GitHub. Just open an issue or send a pull request, we'll incorporate it as soon as possible.
+All `tldr` pages are stored in Markdown right here on GitHub. Just open an issue or send a pull request, and we'll incorporate it as soon as possible.
 
 To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 [Contributor License Agreement](https://gist.github.com/waldyrious/e50feec13683e565769fbd58ce503d4e).
@@ -33,11 +33,11 @@ The basic format of a `tldr` page is a set of concrete usage examples.
 
 Here are a few guidelines to get started:
 
-1. Try to keep pages at around five examples. Pages can be longer or shorter when appropriate, but don't exceed the maximum of eight examples.
+1. Try to keep pages at around 5 examples. Pages can be longer or shorter when appropriate, but don't exceed the maximum of eight examples.
    Remember, it's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
    For example, commands that require `sudo` should include it directly in the examples.
-3. Try incorporating the spelled-out version of single-letter options in the example's description.
+3. Try to incorporate the spelled-out version of single-letter options in the example's description.
    The goal is to allow people to *understand* the syntax of the commands, not just *memorize* it.
 4. Introduce options gradually, starting with the simplest command invocations and using more complex examples progressively.
 5. Focus on details specific to the command and avoid explaining general UNIX concepts that could apply to any command
@@ -68,7 +68,7 @@ As a quick reference, the format of each page should match the following templat
 `command --option1 --option2 {{arg_value}}`
 ```
 
-For page descriptions, you can additionally use ``See also: `command`.`` and [subcommand mention](#subcommands).
+For page descriptions, you can additionally use ``See also: `command`.`` and [subcommand reference](#subcommands).
 
 > [!NOTE]
 > While we suggest only two lines for the page description, it is acceptable to have more than two lines if it necessary to add additional information (i.e. [`pacman`](https://github.com/tldr-pages/tldr/blob/main/pages/linux/pacman.md)).
@@ -159,7 +159,7 @@ npm install --global tldr-lint
 Once its installed, you can test your page by running the following command:
 
 ```sh
-tldr-lint <path/to/page.md>
+tldr-lint {{path/to/page.md}}
 ```
 
 Now, you are ready to submit a pull request!
@@ -188,15 +188,15 @@ To commit a suggestion to your pull request, click on `Commit suggestion`:
 
 ![Commit suggestion button in Github](./images/commit-suggestion-button.png)
 
-When you want to commit multiple suggestions, go to the "Files changed" tab and batch all suggestions. Now, click `Commit suggestions` button and enter a commit message to create a single commit.
+If you want to commit multiple suggestions, go to the "Files changed" tab and batch all suggestions. Now, click `Commit suggestions` button and enter a commit message to create a single commit.
 
 ### Commit message
 
 For the commit message of page changes, use the following format:
 
-`<command>: type of change`
+`{{command}}: type of change`
 
-Where `<command>` is the name of the command being modified, and `<type of change>` is one of the following examples:
+Where `{{command}}` is the name of the command being modified, and `type of change` can be (but not limited to) one of the following examples:
 
 - For a new page addition: `ls: add page`, `docker-container-rm: add alias page`
 - For a page edit: `cat: fix typo`, `git-push: add --force example`
