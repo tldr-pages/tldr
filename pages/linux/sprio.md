@@ -11,9 +11,13 @@
 
 `sprio --jobs={{job_id_1,job_id_2,...}}`
 
-- View information for the jobs of specified users and output additional information:
+- Output additional information:
 
-`sprio --user={{user_name_1,user_name_2,...}} --long`
+`sprio --long`
+
+- View information for the jobs of specified users:
+
+`sprio --user={{user_name_1,user_name_2,...}}`
 
 - Print the weights for each factor determining job scheduling priority:
 

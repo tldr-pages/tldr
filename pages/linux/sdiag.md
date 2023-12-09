@@ -3,7 +3,7 @@
 > Show information about the execution of `slurmctld`.
 > More information: <https://slurm.schedmd.com/sdiag.html>.
 
-- Show several performance counters related to the execution of `slurmctld`:
+- Show all performance counters related to the execution of `slurmctld`:
 
 `sdiag --all`
 
