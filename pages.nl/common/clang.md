@@ -1,6 +1,6 @@
 # clang
 
-> Compiler voor C, C++, en Objective-C bronbestanden. Can be used as a drop-in replacement for GCC.
+> Compiler voor C, C++, en Objective-C bronbestanden. Kan gebruikt worden als een vervanger van GCC.
 > Meer informatie: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.
 
 - Compileer een broncodebestand naar een uitvoerbaar binair bestand:
