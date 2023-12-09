@@ -7,6 +7,10 @@
 
 `scrontab {{path/to/file}}`
 
+- [e]dit the crontab of the current user:
+
+`scrontab -e`
+
 - [e]dit the crontab of the specified user:
 
 `scrontab --user={{user_id}} -e`
