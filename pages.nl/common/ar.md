@@ -12,7 +12,7 @@
 
 `ar t {{pad/naar/bestand.ar}}`
 
-- Ver[r]vang of voeg specifieke bestanden toe aan een archief:
+- Ve[r]vang of voeg specifieke bestanden toe aan een archief:
 
 `ar r {{pad/naar/bestand.deb}} {{pad/naar/debian-binary pad/naar/control.tar.gz pad/naar/data.tar.xz ...}}`
 
