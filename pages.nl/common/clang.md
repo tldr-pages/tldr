@@ -19,7 +19,7 @@
 
 `clang -S -emit-llvm {{bestand.c}} -o {{bestand.ll}}`
 
-- Compile source code without linking:
+- Compileer broncode zonder deze te linken:
 
 `clang -c {{invoer_bron.c}}`
 
