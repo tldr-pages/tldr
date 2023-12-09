@@ -19,6 +19,6 @@
 
 `scrontab -r`
 
-- [l]ist the current crontab to `stdout`:
+- Print the crontab of the current user to `stdout`:
 
 `scrontab -l`
