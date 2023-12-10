@@ -11,7 +11,7 @@
 
 `ykman fido access change-pin`
 
-- Toon resident credentials opgeslagen op de YubiKey:
+- Toon een lijst van inloggegevens die opgeslagen zijn op de YubiKey:
 
 `ykman fido credentials list`
 
