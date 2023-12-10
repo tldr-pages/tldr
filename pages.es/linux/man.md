@@ -27,6 +27,6 @@
 
 `man --locale={{locale}} {{comando}}`
 
-- Busca las páginas del manual que contienen la string indicada:
+- Busca las páginas del manual que contienen la cadena indicada:
 
 `man --apropos "{{cadena_a_buscar}}"`
