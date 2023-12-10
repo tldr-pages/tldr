@@ -2,7 +2,7 @@
 
 > Interfaz de línea de comandos (CLI) para AWS EC2.
 > Provee capacidad de computacion segura y redimensionable en la nube de AWS, permitiendo mayor velociddad en el desarrollo e implementación de aplicaciones.
-> Mayor información: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html>.
+> Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html>.
 
 - Muestra información acerca de una instancia específica:
 
