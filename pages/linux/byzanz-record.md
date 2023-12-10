@@ -7,9 +7,9 @@
 
 `byzanz-record {{path/to/file.[byzanz|flv|gif|ogg|ogv|webm]}}`
 
-- Send a desktop notification after recording:
+- Show information while and after recording:
 
-`byzanz-record {{path/to/file.[byzanz|flv|gif|ogg|ogv|webm]}} && notify-send "Reminder" "Finished recording"`
+`byzanz-record --verbose {{path/to/file.[byzanz|flv|gif|ogg|ogv|webm]}}`
 
 - Record the screen for a minute:
 
