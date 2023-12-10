@@ -15,7 +15,7 @@
 
 `ykman fido credentials list`
 
-- Verwijder een resident credential van de YubiKey:
+- Verwijder specifieke inloggegevens van de YubiKey:
 
 `ykman fido credentials delete {{id}}`
 
