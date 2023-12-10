@@ -19,7 +19,7 @@
 
 `shutdown -r +{{5}} &`
 
-- Apaga a la 1:00 PM (formato 24h):
+- Apaga a las 1:00 PM (formato 24h):
 
 `shutdown -h 13:00`
 
