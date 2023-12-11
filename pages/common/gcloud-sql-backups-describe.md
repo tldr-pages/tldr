@@ -5,9 +5,4 @@
 
 - Code description:
 
-  `gcloud sql backups describe ID --instance=INSTANCE, -i INSTANCE [GCLOUD_WIDE_FLAG …]`
-
-- Variants:
-
-`gcloud alpha sql backups describe`
-`gcloud beta sql backups describe`
+`gcloud sql backups describe ID --instance=INSTANCE, -i INSTANCE [GCLOUD_WIDE_FLAG …]`
