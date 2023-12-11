@@ -21,7 +21,7 @@
 
 - Describe Configuration:
 
-`aws kafka describe-configuration --arn <configuration-arn>`
+`aws kafka describe-configuration --arn {{configuration_arn}}`
 
 - List Configurations:
 
