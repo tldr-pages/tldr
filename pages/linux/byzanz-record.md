@@ -1,7 +1,7 @@
 # byzanz-record
 
 > Record the screen.
-> More information: <https://linux.die.net/man/1/byzanz-record>.
+> More information: <https://manned.org/byzanz-record>.
 
 - Record the screen and write the recording to a file (by default, `byzanz-record` will only record for 10 seconds):
 
