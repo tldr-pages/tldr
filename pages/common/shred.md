@@ -7,9 +7,13 @@
 
 `shred {{path/to/file}}`
 
-- Overwrite a file, leaving zeroes instead of random data:
+- Overwrite a file and show progress on the screen:
 
-`shred --zero {{path/to/file}}`
+`shred -v {{path/to/file}}`
+
+- Overwrite a file, leaving zeros instead of random data:
+
+`shred -z {{path/to/file}}`
 
 - Overwrite a file 25 times:
 
@@ -17,4 +21,8 @@
 
 - Overwrite a file and remove it:
 
-`shred --remove {{path/to/file}}`
+`shred -u {{path/to/file}}`
+
+- Overwrite a file 100 times, add a final overwrite with zeros, remove the file after overwriting it and show progress on the screen:
+
+`shred -vzun100 {{path/to/file}}`
