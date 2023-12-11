@@ -1,6 +1,6 @@
 # LLM
 
-> A CLI utility and Python library for interacting with Large Language Models, both via remote APIs and models that can be installed and run on your own machine.
+> A utility and Python library for interacting with Large Language Models (LLMs) via remote APIs and models that can be installed and run on your machine.
 > More information: <https://llm.datasette.io/en/stable/>.
 
 - Install LLM using pip:
