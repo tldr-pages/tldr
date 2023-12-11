@@ -9,7 +9,7 @@
 
 - Run a Prompt:
 
-`llm "Ten fun names for a pet pelican"`
+`llm "{{Ten fun names for a pet pelican}}"`
 
 - Run a system prompt against a file:
 
