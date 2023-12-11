@@ -9,7 +9,7 @@
 
 - Describe a Kafka Cluster:
 
-`aws kafka describe-cluster --cluster-arn <cluster-arn>`
+`aws kafka describe-cluster --cluster-arn {{cluster_arn}}`
 
 - List Kafka Clusters:
 
