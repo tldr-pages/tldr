@@ -17,7 +17,7 @@
 
 - Create a Configuration:
 
-`aws kafka create-configuration --name <configuration-name> --server-properties file://<path-to-server-properties-file>`
+`aws kafka create-configuration --name {{configuration_name}} --server-properties {{file://{{path_to_server_properties_file}}`
 
 - Describe Configuration:
 
