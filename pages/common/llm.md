@@ -11,9 +11,9 @@
 
 `llm "{{Ten fun names for a pet pelican}}"`
 
-- Run a system prompt against a file:
+- Run a [s]ystem prompt against a file:
 
-`cat myfile.py | llm -s "Explain this code"`
+`cat {{path/to/file.py}} | llm -s "{{Explain this code}}"`
 
 - Install Plugin and Local Models:
 
