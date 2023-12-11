@@ -33,4 +33,4 @@
 
 - Delete a Kafka Cluster:
 
-`aws kafka delete-cluster --cluster-arn <cluster-arn>`
+`aws kafka delete-cluster --cluster-arn {{cluster_arn}}`
