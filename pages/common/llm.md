@@ -15,9 +15,9 @@
 
 `cat {{path/to/file.py}} | llm -s "{{Explain this code}}"`
 
-- Install Plugin and Local Models:
+- Install packages from PyPI into the same environment as LLM:
 
-`llm install llm-gpt4all`
+`llm install {{package1 package2 ...}}`
 
 - Download and run a prompt against the Orca Mini 7B model:
 
