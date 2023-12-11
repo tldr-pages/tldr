@@ -23,6 +23,6 @@
 
 `llm -m {{orca-mini-3b-gguf2-q4_0}} '{{What is the capital of France?}}'`
 
-- Interactive Chat:
+- Have an interactive chat with a specific [m]odel:
 
-`llm chat -m chatgpt`
+`llm chat -m {{chatgpt}}`
