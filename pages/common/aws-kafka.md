@@ -29,7 +29,7 @@
 
 - Update a Kafka Cluster Configuration:
 
-`aws kafka update-cluster-configuration --cluster-arn <cluster-arn> --configuration-info arn=<configuration-arn>,revision=<configuration-revision>`
+`aws kafka update-cluster-configuration --cluster-arn {{cluster_arn}} --configuration-info arn={{configuration_arn}},revision={{configuration_revision}}`
 
 - Delete a Kafka Cluster:
 
