@@ -1,7 +1,7 @@
 # LLM
 
 > A utility and Python library for interacting with Large Language Models (LLMs) via remote APIs and models that can be installed and run on your machine.
-> More information: <https://llm.datasette.io/en/stable/>.
+> More information: <https://llm.datasette.io/en/stable/help.html>.
 
 - Set up OpenAI API Key:
 
