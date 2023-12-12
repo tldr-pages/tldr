@@ -25,4 +25,4 @@
 
 - Have an interactive chat with a specific [m]odel:
 
-`llm chat -m {{chatgpt}}`
+`llm chat --model {{chatgpt}}`
