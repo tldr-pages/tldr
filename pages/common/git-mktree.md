@@ -1,7 +1,7 @@
 # git mktree
 
 > Build a tree-object using ls-tree formatted text.
-> More information: <hhttps://git-scm.com/docs/git-mktree>.
+> More information: <https://git-scm.com/docs/git-mktree>.
 
 - Allows for missing objects bypassing the default behavior which usually verifies each tree entry has an existing object:
 
