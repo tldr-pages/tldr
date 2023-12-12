@@ -21,7 +21,7 @@
 
 - Download and run a prompt against a [m]odel:
 
-`llm -m {{orca-mini-3b-gguf2-q4_0}} '{{What is the capital of France?}}'`
+`llm --model {{orca-mini-3b-gguf2-q4_0}} "{{What is the capital of France?}}"`
 
 - Have an interactive chat with a specific [m]odel:
 
