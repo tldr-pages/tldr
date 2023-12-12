@@ -5,4 +5,4 @@
 
 - Code description:
 
-`gcloud sql backups describe ID --instance=INSTANCE, -i INSTANCE [GCLOUD_WIDE_FLAG …]`
+`gcloud sql backups describe {{backup-id}} --instance={{instance-id}}{{GCLOUD_WIDE_FLAG …}}`
