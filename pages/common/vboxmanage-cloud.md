@@ -9,7 +9,7 @@
 
 - Create Instance:
 
-`VBoxManage cloud {{--provider=name}} {{--profile=name}} instance create {{--domain-name=name}} {{--image-id=id}} | {{--boot-volume-id=id}} {{--display-name=name}} {{--shape=type}} {{--subnet=id}} {{--options...}}`
+`VBoxManage cloud {{--provider=name}} {{--profile=name}} instance create {{--domain-name=name}} {{--image-id=id}} | {{--options...}}`
 
 - Instance Information:
 
