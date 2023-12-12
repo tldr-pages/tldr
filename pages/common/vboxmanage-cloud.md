@@ -9,7 +9,7 @@
 
 - Create Instance:
 
-`VBoxManage cloud {{--provider=name}} {{--profile=name}} instance create {{--domain-name=name}} <<--image-id=id>> | <<--boot-volume-id=id>> {{--display-name=name}} {{--shape=type}} {{--subnet=id}} {{--boot-disk-size=size in GB}} {{--publicip=true/false}} {{--privateip=IP address}} {{--public-ssh-key=key string...}} {{--launch-mode=NATIVE/EMULATED/PARAVIRTUALIZED}} {{--cloud-init-script-path=path to a script}}`
+`VBoxManage cloud {{--provider=name}} {{--profile=name}} instance create {{--domain-name=name}} {{--image-id=id}} | {{--boot-volume-id=id}} {{--display-name=name}} {{--shape=type}} {{--subnet=id}} {{--options...}}`
 
 - Instance Information:
 
