@@ -13,7 +13,7 @@
 
 - Instala un chart de helm desde una URL:
 
-`helm install {{nombre_del_paquete}} {{https://ejemplo.com/charts/packagename-1.2.3.tgz}}`
+`helm install {{nombre_del_paquete}} {{https://example.com/charts/packagename-1.2.3.tgz}}`
 
 - Instala un chart de helm y genera un nombre:
 
