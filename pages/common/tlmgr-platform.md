@@ -1,4 +1,4 @@
-# tldr platform
+# tlmgr platform
 
 > Manage TeX Live platforms.
 > More information: <https://www.tug.org/texlive/tlmgr.html>.
