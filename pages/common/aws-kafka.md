@@ -24,7 +24,7 @@
 
 `aws kafka describe-configuration --arn {{configuration_arn}}`
 
-- List Configurations:
+- List all MSK configurations in the current region:
 
 `aws kafka list-configurations`
 
