@@ -4,7 +4,7 @@
 > See also: `aws`.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/kafka/index.html>.
 
-- Create a Kafka Cluster:
+- Create a new MSK cluster:
 
 `aws kafka create-cluster --cluster-name {{cluster_name}} --broker-node-group-info instanceType={{instance_type}},clientSubnets={{subnet_id1 subnet_id2 ...}} --kafka-version {{version}} --number-of-broker-nodes {{number}}`
 
