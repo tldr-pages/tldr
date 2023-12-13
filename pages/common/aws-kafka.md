@@ -6,7 +6,7 @@
 
 - Create a Kafka Cluster:
 
-`aws kafka create-cluster --cluster-name {{cluster_name}} --broker-node-group-info instanceType={{instance_type}},clientSubnets={{subnet_ids}} --kafka-version {{kafka_version}} --number-of-broker-nodes {{number_of_broker_nodes}}`
+`aws kafka create-cluster --cluster-name {{cluster_name}} --broker-node-group-info instanceType={{instance_type}},clientSubnets={{subnet_id1 subnet_id2 ...}} --kafka-version {{version}} --number-of-broker-nodes {{number}}`
 
 - Describe a Kafka Cluster:
 
