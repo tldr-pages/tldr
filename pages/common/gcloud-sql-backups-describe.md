@@ -1,8 +1,9 @@
 # gcloud sql backups describe
 
-> Retrieves information about a backup.
+> Retrieve information about a backup.
+> See also: `gcloud`.
 > More information: <https://cloud.google.com/sdk/gcloud/reference/sql/backups/describe>.
 
-- Code description:
+- Retrieve information about a backup:
 
 `gcloud sql backups describe {{backup-id}} --instance={{instance-id}}{{GCLOUD_WIDE_FLAG …}}`
