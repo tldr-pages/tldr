@@ -32,6 +32,6 @@
 
 `aws kafka update-cluster-configuration --cluster-arn {{cluster_arn}} --configuration-info arn={{configuration_arn}},revision={{configuration_revision}}`
 
-- Delete a Kafka Cluster:
+- Delete the MSK cluster:
 
 `aws kafka delete-cluster --cluster-arn {{cluster_arn}}`
