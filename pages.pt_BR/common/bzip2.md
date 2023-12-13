@@ -9,11 +9,11 @@
 
 - Descompactar um arquivo:
 
-`bzip2 -d {{arquivo.bz2}}`
+`bzip2 -d {{arquivo_compactado.bz2}}`
 
 - Descompactar um arquivo exibindo o conteúdo no terminal:
 
-`bzip2 -dc {{arquivo.bz2}}`
+`bzip2 -dc {{arquivo_compactado.bz2}}`
 
 - Testar a integridade de cada arquivo dentro do arquivo compactado:
 
