@@ -1,4 +1,4 @@
-# AWS Kafka CLI Commands
+# aws kafka
 
 > Manage an Amazon MSK (Managed Streaming for Apache Kafka) cluster.
 > See also: `aws`.
