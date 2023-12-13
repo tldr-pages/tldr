@@ -20,7 +20,7 @@
 
 `aws kafka create-configuration --name {{configuration_name}} --server-properties {{file://{{path_to_server_properties_file}}`
 
-- Describe Configuration:
+- Describe a MSK configuration:
 
 `aws kafka describe-configuration --arn {{configuration_arn}}`
 
