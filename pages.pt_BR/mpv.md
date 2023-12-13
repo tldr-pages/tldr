@@ -17,7 +17,7 @@
 
 - Aumentar ou diminuir a velocidade de reprodução em 10%:
 
-`[ <or> ]`
+`[ <ou> ]`
 
 - Capturar a imagem atual (salva em `mpv-shotNNNN.jpg` por padrão):
 
