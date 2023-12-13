@@ -3,13 +3,9 @@
 > A audio/video player based on MPlayer.
 > More information: <https://mpv.io>.
 
-- Play a video or audio file:
+- Play a video or audio from a URL or file:
 
-`mpv {{path/to/file}}`
-
-- Play a video or audio file from a URL:
-
-`mpv '{{https://www.youtube.com/watch?v=dQw4w9WgXcQ}}'`
+`mpv {{https://www.youtube.com/watch?v=dQw4w9WgXcQ|path/to/file}}'`
 
 - Jump backward/forward 5 seconds:
 
