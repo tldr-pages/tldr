@@ -19,6 +19,10 @@
 
 `[ <or> ]`
 
+- Take a screenshot of the current frame (saved to `mpv-shotNNNN.jpg` by default):
+
+`s`
+
 - Play a file at a specified speed (0.01 to 100, default 1):
 
 `mpv --speed {{speed}} {{path/to/file}}`
