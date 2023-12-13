@@ -12,7 +12,7 @@
 
 `aws kafka describe-cluster --cluster-arn {{cluster_arn}}`
 
-- List Kafka Clusters:
+- List all MSK clusters in the current region:
 
 `aws kafka list-clusters`
 
