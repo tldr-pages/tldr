@@ -8,7 +8,7 @@
 
 `aws kafka create-cluster --cluster-name {{cluster_name}} --broker-node-group-info instanceType={{instance_type}},clientSubnets={{subnet_id1 subnet_id2 ...}} --kafka-version {{version}} --number-of-broker-nodes {{number}}`
 
-- Describe a Kafka Cluster:
+- Describe a MSK cluster:
 
 `aws kafka describe-cluster --cluster-arn {{cluster_arn}}`
 
