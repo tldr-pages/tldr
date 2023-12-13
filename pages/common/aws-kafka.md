@@ -16,9 +16,9 @@
 
 `aws kafka list-clusters`
 
-- Create a Configuration:
+- Create a new MSK configuration:
 
-`aws kafka create-configuration --name {{configuration_name}} --server-properties {{file://{{path_to_server_properties_file}}`
+`aws kafka create-configuration --name {{configuration_name}} --server-properties file://{{path/to/configuration_file.txt}}`
 
 - Describe a MSK configuration:
 
