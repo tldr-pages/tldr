@@ -28,7 +28,7 @@
 
 `aws kafka list-configurations`
 
-- Update a Kafka Cluster Configuration:
+- Update the MSK cluster configuration:
 
 `aws kafka update-cluster-configuration --cluster-arn {{cluster_arn}} --configuration-info arn={{configuration_arn}},revision={{configuration_revision}}`
 
