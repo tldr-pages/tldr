@@ -5,32 +5,32 @@
 
 - List the instances in the specified state belonging to the specified compartment:
 
-`VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} list instances --state={{running|terminated|paused}} --compartment-id={{compartment_id}}`
+`VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} list instances --state={{running|terminated|paused}} --compartment-id={{compartment_id}`
 
 - Create Instance:
 
-`VBoxManage cloud {{--provider=name}} {{--profile=name}} instance create {{--domain-name=name}} {{--image-id=id}} | {{--options...}}`
+`VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} instance create --domain-name={{domain_name}} --image-id={{image_id}} | {{--options...}}`
 
 - Instance Information:
 
-`VBoxManage cloud {{--provider=name}} {{--profile=name}} instance info {{--id=unique id}}`
+`VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} instance info --id={{unique_id}}`
 
 - Terminate Instance:
 
-`VBoxManage cloud {{--provider=name}} {{--profile=name}} instance terminate {{--id=unique id}}`
+`VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} instance terminate --id={{unique_id}}`
 
 - List Images:
 
-`VBoxManage cloud {{--provider=name}} {{--profile=name}} list images {{--compartment-id=string}} {{--state=string}}`
+`VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} list images --compartment-id={{compartment_id}} --state={{state_name}}`
 
 - Create Image:
 
-`VBoxManage cloud {{--provider=name}} {{--profile=name}} image create {{--instance-id=id}} {{--display-name=name}} {{--compartment-id=id}}`
+`VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} image create --instance-id={{instance_id}} --display-name={{display_name}} --compartment-id={{compartmet_id}}`
 
 - Image Information:
 
-`VBoxManage cloud {{--provider=name}} {{--profile=name}} image info {{--id=unique id}}`
+`VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} image info --id={{unique_id}}`
 
 - Delete Image:
 
-`VBoxManage cloud {{--provider=name}} {{--profile=name}} image delete {{--id=unique id}}`
+`VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} image delete --id={{unique_id}}`
