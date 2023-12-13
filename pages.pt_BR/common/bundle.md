@@ -3,7 +3,7 @@
 > Gerenciador de dependências da linguagem de programação Ruby.
 > Mais informações: <https://bundler.io/man/bundle.1.html>.
 
-- Instalar todas as gemas definidas no `Gemfile`:
+- Instalar todas as gemas definidas no `Gemfile` esperadas no diretório de trabalho:
 
 `bundle install`
 
