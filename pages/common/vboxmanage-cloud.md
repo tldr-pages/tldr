@@ -5,7 +5,7 @@
 
 - List Instances:
 
-`VBoxManage cloud {{provider=name}} {{profile=name}} list instances {{--state=string}} {{--compartment-id=string}}`
+`VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} list instances --state={{running|terminated|paused}} --compartment-id={{compartment_id}}`
 
 - Create Instance:
 
