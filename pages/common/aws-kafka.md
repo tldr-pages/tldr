@@ -1,6 +1,7 @@
 # AWS Kafka CLI Commands
 
-> AWS CLI commands for managing Amazon Managed Streaming for Apache Kafka (Amazon MSK).
+> Manage an Amazon MSK (Managed Streaming for Apache Kafka) cluster.
+> See also: `aws`.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/kafka/index.html>.
 
 - Create a Kafka Cluster:
