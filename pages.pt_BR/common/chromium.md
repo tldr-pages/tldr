@@ -7,7 +7,7 @@
 
 `chromium {{https://exemplo.com|caminho/para/arquivo.html}}`
 
-- Abre no modo de navegação anônima (icognito):
+- Abre no modo de navegação anônima (incógnito):
 
 `chromium --incognito {{exemplo.com}}`
 
