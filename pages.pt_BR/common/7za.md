@@ -32,7 +32,6 @@
 
 `7za l {{caminho/para/arquivo_compactado.7z}}`
 
-- Set the level of compression (higher means more compression, but slower):
 - Define o nível de compressão (maior significa mais compressão, porém mais lento):
 
-`7za a {{path/to/archive.7z}} -mx={{0|1|3|5|7|9}} {{path/to/file_or_directory}}`
+`7za a {{caminho/para/arquivo_compactado.7z}} -mx={{0|1|3|5|7|9}} {{caminho/para/arquivo_ou_diretório}}`
