@@ -3,9 +3,9 @@
 > Manage links between ports in PipeWire.
 > More information: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
 
-- List all audio output and input ports:
+- List all audio output and input ports with their ids:
 
-`pw-link --output --input`
+`pw-link --output --input --ids`
 
 - Create a link between an output and an input port:
 
