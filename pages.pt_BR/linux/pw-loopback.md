@@ -7,7 +7,7 @@
 
 `pw-loopback`
 
-- Criar um dispositivo de loopback que se conecta automaticamente aos alto-falantes
+- Criar um dispositivo de loopback que se conecta automaticamente aos alto-falantes:
 
 `pw-loopback -m '{{[FL FR]}}' --capture-props='{{media.class=Audio/Sink}}'`
 

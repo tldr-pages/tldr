@@ -1,6 +1,6 @@
 # pw-cat
 
-> Tocar e gravar arquivos de áudio através do pipewire. 
+> Tocar e gravar arquivos de áudio através do pipewire.
 > Mais informações: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
 
 - Tocar um arquivo WAV no alvo padrão:
