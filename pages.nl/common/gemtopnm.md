@@ -7,7 +7,7 @@
 
 `gemtopnm {{pad/naar/bestand.img}} > {{pad/naar/uitvoer.pnm}}`
 
-- Beschrijf de inhoud van een gespecificeerd GEM plaatje:
+- Beschrijf de inhoud van een gespecificeerde GEM afbeelding:
 
 `gemtopnm -d {{pad/naar/bestand.img}}`
 
