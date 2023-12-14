@@ -15,6 +15,10 @@
 
 `pw-link --disconnect {{output_port_name}} {{input_port_name}}`
 
+- List all links with their ids:
+
+`pw-link --links --ids`
+
 - Display help:
 
 `pw-link -h`
