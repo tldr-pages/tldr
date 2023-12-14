@@ -16,7 +16,7 @@
 /pages/linux/ @sbrl
 
 /*.md @sbrl @kbdharun
-/.github/* @sbrl @kbdharun @sebastiaanspeck
+/.github/workflows/* @sbrl @kbdharun @sebastiaanspeck
 /scripts/* @sebastiaanspeck
 
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun
