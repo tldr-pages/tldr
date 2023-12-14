@@ -5,7 +5,7 @@
 
 - Tocar um vídeo ou áudio de uma URL ou arquivo:
 
-`mpv {{https://www.youtube.com/watch?v=dQw4w9WgXcQ|caminho/para/arquivo}}'`
+`mpv {{url|caminho/para/arquivo}}'`
 
 - Avançar/retroceder 5 segundos:
 
