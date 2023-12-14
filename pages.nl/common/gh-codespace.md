@@ -3,7 +3,7 @@
 > Verbind en beheer je codespaces in GitHub.
 > Meer informatie: <https://cli.github.com/manual/gh_codespace>.
 
-- Maak interactief een codespace in GitHub:
+- Maak interactief een codespace aan in GitHub:
 
 `gh codespace create`
 
