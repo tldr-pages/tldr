@@ -7,7 +7,7 @@
 
 `git mktree --missing`
 
-- Read the NUL-terminated output of the tree-object:
+- Read the NUL terminated output of the tree object:
 
 `git mktree -z`
 
