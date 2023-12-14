@@ -13,4 +13,4 @@
 
 - Allow for the creation of multiple tree object:
 
-`git mktree -- batch`
+`git mktree --batch`
