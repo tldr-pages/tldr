@@ -11,6 +11,6 @@
 
 `git mktree -z`
 
-- Allow for the creation of multiple tree object:
+- Allow for the creation of multiple tree objects:
 
 `git mktree --batch`
