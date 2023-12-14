@@ -1,6 +1,6 @@
 # git cola
 
-> Een krachtige Git GUI met een gladde en intuitieve gebruikersinterface.
+> Een krachtige Git GUI met een gelikte en intuïtieve gebruikersinterface.
 > Meer informatie: <https://git-cola.readthedocs.io>.
 
 - Start git cola:
