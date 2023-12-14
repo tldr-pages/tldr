@@ -9,15 +9,15 @@
 
 - Avançar/retroceder 5 segundos:
 
-`ESQUERDA <ou> DIREITA`
+`LEFT <or> RIGHT`
 
 - Avançar/retroceder 1 minuto:
 
-`BAIXO <ou> CIMA`
+`DOWN <or> UP`
 
 - Aumentar ou diminuir a velocidade de reprodução em 10%:
 
-`[ <ou> ]`
+`[ <or> ]`
 
 - Capturar a imagem atual (salva em `mpv-shotNNNN.jpg` por padrão):
 
