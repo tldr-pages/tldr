@@ -1,6 +1,6 @@
 # gemtopnm
 
-> Converteer een GEM plaatje naar een PNM plaatje.
+> Converteer een GEM afbeelding naar een PNM afbeelding.
 > Meer informatie: <https://netpbm.sourceforge.net/doc/gemtopnm.html>.
 
 - Converteer een GEM plaatje naar een PNM plaatje:
