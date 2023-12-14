@@ -3,7 +3,7 @@
 > Gerenciar conexões entre portas no PipeWire.
 > Mais informações: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
 
-- Listar todos as saídas e entradas de áudio com seus ids:
+- Listar todos as saídas e entradas de áudio com seus IDs:
 
 `pw-link --output --input --ids`
 
@@ -15,7 +15,7 @@
 
 `pw-link --disconnect {{output_port_name}} {{input_port_name}}`
 
-- Listar todas as conexões com seus ids:
+- Listar todas as conexões com seus IDs:
 
 `pw-link --links --ids`
 

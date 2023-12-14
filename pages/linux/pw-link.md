@@ -3,7 +3,7 @@
 > Manage links between ports in PipeWire.
 > More information: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
 
-- List all audio output and input ports with their ids:
+- List all audio output and input ports with their IDs:
 
 `pw-link --output --input --ids`
 
@@ -15,7 +15,7 @@
 
 `pw-link --disconnect {{output_port_name}} {{input_port_name}}`
 
-- List all links with their ids:
+- List all links with their IDs:
 
 `pw-link --links --ids`
 
