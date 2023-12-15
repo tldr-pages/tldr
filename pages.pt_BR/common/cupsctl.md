@@ -11,7 +11,7 @@
 
 `cupsctl -h {{servidor[:porta]}}`
 
-- Exibir os valores de configuração atuais criptografando a conexão ao scheduler:
+- Ativar a criptografia na conexão ao scheduler:
 
 `cupsctl -E`
 
