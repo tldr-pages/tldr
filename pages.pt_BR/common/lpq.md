@@ -1,0 +1,24 @@
+# lpq
+
+> Mostra o estado da fila de impressão.
+> Mais informações: <https://www.cups.org/doc/man-lpq.html>.
+
+- Mostrar os trabalhos na flila do destino padrão:
+
+`lpq`
+
+- Mostrar os trabalhos na flila de todas as impressoras usando criptografia:
+
+`lpq -a -E`
+
+- Mostrar os trabalhos da fila em um formato [l]ongo:
+
+`lpq -l`
+
+- Mostrar os trabalhos da fila de uma impressora ou classe específica:
+
+`lpq -P {{destino[/instância]}}`
+
+- Mostrar os trabalhos na fila a cada n segundos até que a fila esteja vazia
+
+`lpq +{{intervalo}}`
