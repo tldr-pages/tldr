@@ -15,6 +15,6 @@
 
 `pw-mon --color={{never|always|auto}}`
 
-- Show help:
+- Display help:
 
 `pw-mon --help`
