@@ -15,7 +15,7 @@
 
 `scrot --select`
 
-- Capture a screenshot interactively preventing accidental exits:
+- Capture a screenshot interactively without exiting on keyboard input, press `ESC` to exit:
 
 `scrot --select --ignorekeyboard`
 
