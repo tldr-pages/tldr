@@ -3,11 +3,11 @@
 > Convert a compressed FIASCO file to a PNM image.
 > More information: <https://netpbm.sourceforge.net/doc/fiascotopnm.html>.
 
-- Convert a compressed FIASCO file to one or (in the case of video streams) multiple PNM files:
+- Convert a compressed FIASCO file to a PNM file or in the case of video streams multiple PNM files:
 
 `fiascotopnm {{path/to/file.fiasco}} -o {{output_file_basename}}`
 
-- Use fast decompression, resulting in a slightly descreased quality of the output file(s):
+- Use fast decompression, resulting in a slightly decreased quality of the output file(s):
 
 `fiascotopnm --fast {{path/to/file.fiasco}} -o {{output_file_basename}}`
 
