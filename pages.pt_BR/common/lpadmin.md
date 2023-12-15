@@ -1,6 +1,6 @@
 # lpadmin
 
-> Configura impressoras e classes do cups.
+> Configura impressoras e classes do CUPS.
 > Veja também: `lpoptions`.
 > Mais informações: <https://www.cups.org/doc/man-lpadmin.html>.
 
