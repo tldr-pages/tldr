@@ -8,7 +8,7 @@
 
 `lpadmin -d {{impressora}}`
 
-- E[x]cluir uma impressora ou classe específica:
+- Excluir uma impressora ou classe específica:
 
 `lpadmin -x {{impressora|classe}}`
 
