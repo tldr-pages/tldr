@@ -1,6 +1,6 @@
 # laravel
 
-> Pemasang Laravel framework berbasis command-line.
+> Pasang framework Laravel framework dari command-line.
 > Informasi lebih lanjut: <https://laravel.com>.
 
 - Buat aplikasi Laravel baru:
@@ -27,6 +27,6 @@
 
 `laravel new {{nama}} --jet --teams`
 
-- Lis perintah yang tersedia:
+- Tampilkan daftar perintah yang tersedia:
 
 `laravel list`
