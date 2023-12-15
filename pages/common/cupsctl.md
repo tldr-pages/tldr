@@ -11,7 +11,7 @@
 
 `cupsctl -h {{server[:port]}}`
 
-- Display current configuration values [E]ncrypting the connection to the scheduler:
+- Enable encryption on the connection to the scheduler:
 
 `cupsctl -E`
 
