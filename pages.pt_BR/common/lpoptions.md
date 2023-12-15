@@ -8,14 +8,14 @@
 
 `lpoptions -d {{impressora[/instância]}}`
 
-- [l]istar opções específicas de uma impressora:
+- Listar opções específicas de uma impressora:
 
 `lpoptions -d {{impressora}} -l`
 
-- Definir uma nova [o]pção em uma impressora:
+- Definir uma nova opção em uma impressora:
 
 `lpoptions -d {{impressora}} -o {{opção[=valor]}}`
 
-- E[x]cluir as opções de uma impressora específica:
+- Excluir as opções de uma impressora específica:
 
 `lpoptions -d {{impressora}} -x`
