@@ -15,7 +15,7 @@
 
 `cupsctl -E`
 
-- Enable or disable debug logging to the error_log file:
+- Enable or disable debug logging to the `error_log` file:
 
 `cupsctl {{--debug-logging|--no-debug-loging}}`
 
