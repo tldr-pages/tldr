@@ -7,11 +7,11 @@
 
 `lpq`
 
-- Mostrar os trabalhos na flila de todas as impressoras usando criptografia:
+- Mostrar os trabalhos na fila de todas as impressoras usando criptografia:
 
 `lpq -a -E`
 
-- Mostrar os trabalhos da fila em um formato [l]ongo:
+- Mostrar os trabalhos da fila em um formato longo:
 
 `lpq -l`
 
