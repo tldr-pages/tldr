@@ -17,11 +17,11 @@
 
 - Enable or disable debug logging to the error_log file:
 
-`cupsctl --debug-logging|--no-debug-loging`
+`cupsctl {{--debug-logging|--no-debug-loging}}`
 
 - Enable or disable remote administration:
 
-`cupsctl --remote-admin|--no-remote-admin`
+`cupsctl {{--remote-admin|--no-remote-admin}}`
 
 - Parse the current debug logging state:
 

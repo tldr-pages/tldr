@@ -14,7 +14,7 @@
 
 - Set a new [o]ption on a specific printer:
 
-`lpoptions -d {{printer}} -o option[=value]`
+`lpoptions -d {{printer}} -o {{option[=value]}}`
 
 - Remove the options of a specific printer:
 

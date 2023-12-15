@@ -17,11 +17,11 @@
 
 - Ativar ou desativar o registro de depuração para o arquivo error_log:
 
-`cupsctl --debug-logging|--no-debug-loging`
+`cupsctl {{--debug-logging|--no-debug-loging}}`
 
 - Ativar ou desativar a administração remota:
 
-`cupsctl --remote-admin|--no-remote-admin`
+`cupsctl {{--remote-admin|--no-remote-admin}}`
 
 - Exibir o estado atual do registro de depuração:
 
