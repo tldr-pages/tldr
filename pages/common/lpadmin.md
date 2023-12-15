@@ -8,14 +8,14 @@
 
 `lpadmin -d {{printer}}`
 
-- [d]elete a specific printer or class:
+- Delete a specific printer or class:
 
 `lpadmin -x {{printer|class}}`
 
-- Add a printer to a [c]lass:
+- Add a printer to a class:
 
 `lpadmin -p {{printer}} -c {{class}}`
 
-- [r]emove a printer from a class:
+- Remove a printer from a class:
 
 `lpadmin -p {{printer}} -r {{class}}`

@@ -8,11 +8,11 @@
 
 `lpoptions -d {{printer[/instance]}}`
 
-- [l]ist printer-specific options of a specific printer:
+- List printer-specific options of a specific printer:
 
 `lpoptions -d {{printer}} -l`
 
-- Set a new [o]ption on a specific printer:
+- Set a new option on a specific printer:
 
 `lpoptions -d {{printer}} -o {{option[=value]}}`
 

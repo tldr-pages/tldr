@@ -7,11 +7,11 @@
 
 `lpq`
 
-- Show the queued jobs of [a]ll printers enforcing [E]ncryption:
+- Show the queued jobs of all printers enforcing encryption:
 
 `lpq -a -E`
 
-- Show the queued jobs in a [l]ong format:
+- Show the queued jobs in a long format:
 
 `lpq -l`
 
