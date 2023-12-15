@@ -1,6 +1,6 @@
 # palmtopnm
 
-> Convert Palm bitmap file to a PNM image.
+> Convert a Palm bitmap file to a PNM image.
 > More information: <https://netpbm.sourceforge.net/doc/palmtopnm.html>.
 
 - Convert a Palm bitmap to a PNM image:
