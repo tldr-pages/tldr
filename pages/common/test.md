@@ -6,7 +6,7 @@
 
 - Test if a given variable is equal to a given string:
 
-`test "{{$MY_VAR}}" == "{{/bin/zsh}}"`
+`test "{{$MY_VAR}}" = "{{/bin/zsh}}"`
 
 - Test if a given variable is empty:
 
