@@ -19,6 +19,6 @@
 
 `lpq -P {{destino[/instância]}}`
 
-- Mostrar os trabalhos na fila a cada n segundos até que a fila esteja vazia
+- Mostrar os trabalhos na fila a cada n segundos até que a fila esteja vazia:
 
 `lpq +{{intervalo}}`
