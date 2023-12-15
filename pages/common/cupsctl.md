@@ -3,7 +3,7 @@
 > Update or query a server's `cupsd.conf`.
 > More information: <https://www.cups.org/doc/man-cupsctl.html>.
 
-- Display current configuration values:
+- Display the current configuration values:
 
 `cupsctl`
 
