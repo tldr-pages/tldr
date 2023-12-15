@@ -3,7 +3,7 @@
 > Convert a PNM image to a Palm bitmap.
 > More information: <https://netpbm.sourceforge.net/doc/pnmtopalm.html>.
 
-- Convert PNM image to a Palm bitmap:
+- Convert a PNM image to a Palm bitmap:
 
 `pnmtopalm {{path/to/file.pnm}} > {{path/to/file.palm}}`
 
