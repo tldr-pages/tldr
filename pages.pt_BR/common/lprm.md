@@ -14,7 +14,7 @@
 
 - Cancelar múltiplos trabalhos com uma conexão criprografada com o servidor:
 
-`lprm -E {{id_do_trabalho_1 id_do_trabalho_2 ...}}`
+`lprm -E {{id_do_trabalho1 id_do_trabalho2 ...}}`
 
 - Cancelar todos os trabalhos:
 
