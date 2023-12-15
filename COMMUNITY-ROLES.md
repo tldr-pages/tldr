@@ -211,9 +211,9 @@ If they wish to, contributors can open a pull request to add themselves to this 
 
 Example uses include (but are not limited to):
 
-- Contributors who speak a specific language who want to assist with reviewing translations in specific languages
-- Contributors with specific expertise who wish to review pull requests for specific platforms
-- Contributors interested in reviewing [client specification](https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md) updates
+- Contributors who speak a specific language and want to assist with reviewing translations in those specific languages.
+- Contributors with specific expertise who wish to review pull requests for specific platforms.
+- Contributors interested in reviewing [client specification](https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md) updates.
 
 > [!NOTE]
 > This mechanism is purely for automatic review requests for PRs and doesn't grant collaborators additional copyright over the code-owned files. View the [LICENSE](https://github.com/tldr-pages/tldr/blob/main/LICENSE.md) file for more information.
