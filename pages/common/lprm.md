@@ -14,7 +14,7 @@
 
 - Cancel multiple jobs with a [E]ncrypted connection to the server:
 
-`lprm -E {{job_id1 job_2_id ...}}`
+`lprm -E {{job_id1 job_id2 ...}}`
 
 - Cancel all jobs:
 
