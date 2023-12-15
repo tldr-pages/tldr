@@ -9,7 +9,7 @@
 
 - Monitorar uma instância remota específica:
 
-`pw-mon --remote={{remote_name}}`
+`pw-mon --remote={{nome_do_remoto}}`
 
 - Monitorar a instância padrão especificando uma configuração de cor:
 
