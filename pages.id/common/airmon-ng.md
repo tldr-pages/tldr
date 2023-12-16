@@ -1,6 +1,6 @@
 # airmon-ng
 
-> Nyalakan mode pengawasan pada perangkat jaringan nirkabel/wireless
+> Nyalakan mode pengawasan pada perangkat jaringan nirkabel/wireless.
 > Bagian dari paket perangkat lunak jaringan Aircrack-ng.
 > Informasi lebih lanjut: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
 
