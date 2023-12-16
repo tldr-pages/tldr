@@ -3,7 +3,7 @@
 > Envia notificaciones de usuario en macOS.
 > Más información: <https://github.com/julienXX/terminal-notifier>.
 
-- Envia una notificación (sólo se requiere el mensaje):
+- Envía una notificación (sólo se requiere el mensaje):
 
 `terminal-notifier -group {{tldr-info}} -title {{TLDR}} -mensaje '{{TLDR mola}}'`
 
