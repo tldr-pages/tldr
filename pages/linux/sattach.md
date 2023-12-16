@@ -3,7 +3,7 @@
 > Attach to a Slurm job step.
 > More information: <https://slurm.schedmd.com/sattach.html>.
 
-- Make available the IO streams (`stdout`, `stderr`, and `stdin`) of a Slurm job step:
+- Redirect the IO streams (`stdout`, `stderr`, and `stdin`) of a Slurm job step to the current terminal:
 
 `sattach {{jobid}}.{{stepid}}`
 
