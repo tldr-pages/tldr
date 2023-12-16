@@ -9,7 +9,7 @@
 
 - Specify the [i]nput files through a pattern:
 
-`pnmtofiasco --image-name {{img[01-09+1].pnm}} > {{path/to/file.fiasco}}`
+`pnmtofiasco --image-name "{{img[01-09+1].pnm}}" > {{path/to/file.fiasco}}`
 
 - Specify the compression quality:
 
