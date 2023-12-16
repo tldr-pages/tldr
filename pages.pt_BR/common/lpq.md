@@ -3,7 +3,7 @@
 > Mostra o estado da fila de impressão.
 > Mais informações: <https://www.cups.org/doc/man-lpq.html>.
 
-- Mostrar os trabalhos na flila do destino padrão:
+- Mostra os trabalhos na fila do destino padrão:
 
 `lpq`
 
@@ -15,10 +15,10 @@
 
 `lpq -l`
 
-- Mostrar os trabalhos da fila de uma impressora ou classe específica:
+- Mostra os trabalhos da fila de uma impressora ou classe específica:
 
 `lpq -P {{destino[/instância]}}`
 
-- Mostrar os trabalhos na fila a cada n segundos até que a fila esteja vazia:
+- Mostra os trabalhos na fila a cada n segundos até que a fila esteja vazia:
 
 `lpq +{{intervalo}}`

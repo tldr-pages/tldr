@@ -4,22 +4,22 @@
 > Veja também: `lpq`.
 > Mais informações: <https://www.cups.org/doc/man-lprm.html>.
 
-- Cancelar o trabalho atual na impressora padrão:
+- Cancela o trabalho atual na impressora padrão:
 
 `lprm`
 
-- Cancelar um trabalho de um servidor específico:
+- Cancela um trabalho de um servidor específico:
 
 `lprm -h {{servidor[:porta]}} {{id_do_trabalho}}`
 
-- Cancelar múltiplos trabalhos com uma conexão criprografada com o servidor:
+- Cancela múltiplos trabalhos com uma conexão criptografada com o servidor:
 
 `lprm -E {{id_do_trabalho1 id_do_trabalho2 ...}}`
 
-- Cancelar todos os trabalhos:
+- Cancela todos os trabalhos:
 
 `lprm -`
 
-- Cancelar o trabalho atual de uma impressora ou classe específica:
+- Cancela o trabalho atual de uma impressora ou classe específica:
 
 `lprm -P {{destino[/instância]}}`
