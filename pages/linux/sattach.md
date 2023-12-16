@@ -7,7 +7,7 @@
 
 `sattach {{jobid}}.{{stepid}}`
 
-- Transmit `stdin` to the specified task only:
+- Use the current console's input as `stdin` to the specified task:
 
 `sattach --input-filter {{task_number}}`
 
