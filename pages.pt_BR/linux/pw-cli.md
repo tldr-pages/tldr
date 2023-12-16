@@ -3,14 +3,14 @@
 > A interface de linha de comando do PipeWire.
 > Mais informações: <https://docs.pipewire.org/page_man_pw_cli_1.html>.
 
-- Exibir todos os nós (dispositivos de entrada e saída) com os seus IDs:
+- Exibe todos os nós (dispositivos de entrada e saída) com os seus IDs:
 
 `pw-cli list-objects Node`
 
-- Exibir informação sobre um objeto com um ID específico:
+- Exibe informação sobre um objeto com um ID específico:
 
 `pw-cli info {{4}}`
 
-- Exibir as informações de todo os objetos:
+- Exibe as informações de todo os objetos:
 
 `pw-cli info all`
