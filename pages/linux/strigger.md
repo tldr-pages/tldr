@@ -10,7 +10,7 @@
 
 - Execute the specified program when the specified job terminated:
 
-`strigger --set --jobid={{job_id}} --fini --program={{path/to/executable}}`
+`strigger --set --jobid={{job_id}} --fini --program="{{path/to/executable}} {{argument1 argument2 ...}}"`
 
 - View active triggers:
 
