@@ -7,7 +7,7 @@
 
 `m battery status`
 
-- Desactivar Bluetooth:
+- Desactiva Bluetooth:
 
 `m bluetooth off`
 
