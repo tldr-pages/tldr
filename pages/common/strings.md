@@ -9,7 +9,7 @@
 
 - Limit results to strings at least n characters long:
 
-`strings -n {{length}} {{path/to/file}}`
+`strings -n {{n}} {{path/to/file}}`
 
 - Prefix each result with its offset within the file:
 
