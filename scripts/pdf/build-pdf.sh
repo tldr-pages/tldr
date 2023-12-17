@@ -7,7 +7,6 @@ set -ex
 function process_page {
   pageDir="$1"
   folder=$(basename "${pageDir}")
-  language="${folder##*.}"
   case $folder in
     pages.bn | pages.ja | pages.ko | pages.ml | pages.ta | pages.th | pages.zh | pages.zh_TW)
       ;;
@@ -15,6 +14,7 @@ function process_page {
       python3 render.py "${pageDir}" -c solarized-light
       ;;
     *)
+      language="${folder##*.}"
       python3 render.py "${pageDir}" -c basic -o "tldr-book-${language}.pdf"
       ;;
   esac
