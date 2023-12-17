@@ -7,7 +7,7 @@
 
 `kcat -C -t {{onderwerp}} -b {{makelaars}}`
 
-- Consummeer berichten startend met de oudste offset en sluit af nadat het laatste bericht is ontvangen:
+- Consumeer berichten startend met de oudste offset en sluit af nadat het laatste bericht is ontvangen:
 
 `kcat -C -t {{onderwerp}} -b {{makelaars}} -o beginning -e`
 
