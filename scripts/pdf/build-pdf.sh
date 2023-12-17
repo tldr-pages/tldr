@@ -21,13 +21,27 @@ function process_page {
 }
 
 function main {
-  for pageDir in ../../pages*; do
-    process_page "${pageDir}"
-  done
+  type="$1"
+  case $type in
+    "all")
+      for pageDir in ../../pages*; do
+        process_page "${pageDir}"
+      done
+      ;;
+    *)
+      changedFiles=$(git diff-tree --no-commit-id --name-only -r "$(git rev-parse HEAD)")
+      changedPageDirs=$(echo "$changedFiles" | awk -F/ '/^(pages[^\/]+|pages)\//{print $1}' | sort -u)
+      mapfile -t pageDirs <<< "$changedPageDirs"
+
+      for pageDir in "${pageDirs[@]}"; do
+          process_page "../../${pageDir}"
+      done
+      ;;
+  esac
 }
 
 ###################################
 # MAIN
 ###################################
 
-main
+main $1
