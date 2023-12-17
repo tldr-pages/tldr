@@ -19,6 +19,6 @@
 
 `pnmtopalm -colormap {{path/to/file.pnm}} > {{path/to/file.palm}}`
 
-- Specify the bitpap's density:
+- Specify the bitmap's density:
 
 `pnmtopalm -density {{72|108|144|216|288}} {{path/to/file.pnm}} > {{path/to/file.palm}}`
