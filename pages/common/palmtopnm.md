@@ -1,20 +1,24 @@
 # palmtopnm
 
-> Convert a Palm Bitmap file to a PNM image.
+> Convert a Palm bitmap file to a PNM image.
 > More information: <https://netpbm.sourceforge.net/doc/palmtopnm.html>.
 
-- Generate the PNM image as output, for a Palm Bitmap file as input:
+- Convert a Palm bitmap to a PNM image:
 
-`palmtopnm {{path/to/file.palm}}`
+`palmtopnm {{path/to/file.palm}} > {{path/to/file.pnm}}`
 
-- Display various information about the input Palm Bitmap file and process:
+- Display information about the input file:
 
-`palmtopnm -verbose {{path/to/file.palm}}`
+`palmtopnm -verbose {{path/to/file.palm}} > {{path/to/file.pnm}}`
 
-- Generate a histogram of colours in the input Palm Bitmap file to `stderr`:
+- Convert the n'th rendition of the image contained in the input file:
 
-`palmtopnm -showhist {{path/to/file.palm}}`
+`palmtopnm -rendition {{n}} {{path/to/file.palm}} > {{path/to/file.pnm}}`
 
-- Display version:
+- Write a histogram of the colors in the input file to `stdout`:
 
-`palmtopnm -version`
+`palmtopnm -showhist {{path/to/file.palm}} > {{path/to/file.pnm}}`
+
+- Output the transparent color of the input image if set:
+
+`palmtopnm -transparent {{path/to/file.palm}}`
