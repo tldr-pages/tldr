@@ -28,6 +28,6 @@
 
 `/{{zoek_patroon}}<Enter>`
 
-- Format the file:
+- Formateer het bestand:
 
 `:format`
