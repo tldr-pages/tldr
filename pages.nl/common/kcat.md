@@ -3,7 +3,7 @@
 > Apache Kafka produceer en consumeer tool.
 > Meer informatie: <https://github.com/edenhill/kcat>.
 
-- Consummeer berichten startend met de nieuwste offset:
+- Consumeer berichten startend met de nieuwste offset:
 
 `kcat -C -t {{onderwerp}} -b {{makelaars}}`
 
