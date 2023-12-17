@@ -9,15 +9,15 @@
 
 - Ausführen eines Befehls (Command):
 
-`cmd /c "{{Befehl}}"`
+`cmd /c {{echo Hallo Welt}}`
 
 - Ausführen eines Skripts:
 
-`cmd {{Pfad/zur/Datei.bat}}`
+`cmd {{Pfad\zur\Datei.bat}}`
 
 - Ausführen eines Befehls und anschließendes Aufrufen einer interaktiven Shell:
 
-`cmd /k "{{Befehl}}"`
+`cmd /k {{echo Hallo Welt}}`
 
 - Starten einer interaktiven Shell-Sitzung, bei der `echo` in der Befehlsausgabe deaktiviert ist:
 

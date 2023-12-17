@@ -21,7 +21,7 @@
 
 - Alinea conky en el escritorio:
 
-`conky -a {{{arriba,abajo,en_medio}_{izquierda,derecha,en_medio}}}`
+`conky -a {{top|bottom|middle}}_{{left|right|middle}}`
 
 - Pausa de 5 segundos al iniciar antes de ejecutarlo:
 
