@@ -20,7 +20,7 @@
 
 `aria2c {{url_1}} {{url_2}}`
 
-- Télécharge les URIs listées dans un fichier avec un nombre limité de téléchargements en parallèle:
+- Télécharge les URIs listées dans un fichier avec un nombre limité de téléchargements en parallèle :
 
 `aria2c --input-file={{nom_de_fichier}} --max-concurrent-downloads={{nombre_de_téléchargements}}`
 

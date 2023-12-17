@@ -7,11 +7,11 @@
 
 `docker system`
 
-- Afficher l'utilisation du disque par docker:
+- Afficher l'utilisation du disque par docker :
 
 `docker system df`
 
-- Afficher des informations détaillées sur l'utilisation du disque par docker:
+- Afficher des informations détaillées sur l'utilisation du disque par docker :
 
 `docker system df --verbose`
 
