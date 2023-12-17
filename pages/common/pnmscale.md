@@ -6,5 +6,3 @@
 - View documentation for `pamscale`:
 
 `tldr pamscale`
-
-
