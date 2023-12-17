@@ -11,7 +11,7 @@
 
 `kcat -C -t {{onderwerp}} -b {{makelaars}} -o beginning -e`
 
-- Consummeer berichten als een Kafka consumeer groep:
+- Consumeer berichten als een Kafka consumeer groep:
 
 `kcat -G {{groep_id}} {{onderwerp}} -b {{makelaars}}`
 
