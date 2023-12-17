@@ -11,7 +11,7 @@
 
 `mv -f {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
-- Meminta konfirmasi sebelum menimpa file yang sudah ada, apapun *file permissions*-nya:
+- Meminta konfirmasi sebelum menimpa file yang sudah ada, apapun file permissions-nya:
 
 `mv -i {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
@@ -19,6 +19,6 @@
 
 `mv -n {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
-- Memindahkan file dalam mode *verbose*, menampilkan file-file yang dipindahkan:
+- Memindahkan file dalam mode verbose, menampilkan file-file yang dipindahkan:
 
 `mv -v {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`

@@ -7,7 +7,7 @@
 
 `strings {{path/to/file}}`
 
-- Limit results to strings at least *length* characters long:
+- Limit results to strings at least n characters long:
 
 `strings -n {{length}} {{path/to/file}}`
 

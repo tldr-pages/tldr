@@ -7,7 +7,7 @@
 
 `gradle build`
 
-- Excluye la tarea *test*:
+- Excluye la tarea test:
 
 `gradle build -x {{test}}`
 

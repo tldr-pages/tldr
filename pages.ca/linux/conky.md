@@ -15,7 +15,7 @@
 
 `conky -c {{ruta/a/la/configuració}}`
 
-- Executa en segon pla (*daemon*):
+- Executa en segon pla (daemon):
 
 `conky -d`
 

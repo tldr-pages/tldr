@@ -7,7 +7,7 @@
 
 `cmd`
 
-- Ausführen eines Befehls (**C**ommand):
+- Ausführen eines Befehls (Command):
 
 `cmd /c "{{Befehl}}"`
 

@@ -15,7 +15,7 @@
 
 `conky -c {{ruta/a/la/configuración}}`
 
-- Ejecuta en segundo plano (*daemon*):
+- Ejecuta en segundo plano (daemon):
 
 `conky -d`
 
