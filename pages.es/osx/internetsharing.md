@@ -1,4 +1,4 @@
-# Compartir Internet
+# InternetSharing
 
 > Configura Internet Sharing.
 > No debe invocarse manualmente.
