@@ -491,3 +491,9 @@ To ensure that the sentence may not be confused with `start processing the web s
 
 Command and example descriptions on pages in French must use the third person singular present indicative tense (présent de l'indicatif à la troisième personne du singulier).
 For example, use `Extrait une archive` rather than `Extraire une archive` or `Extrais une archive`.
+
+### Portuguese-Specific Rules
+
+Example descriptions on pages in Portuguese (for both European and Brazilian Portuguese) must start with verbs in the third person singular present indicative tense. This is because the descriptions must explain what the commands do, making this the correct form to express the intended meaning.
+
+For example, use `Lista os arquivos` instead of `Listar os arquivos`, `Listando os arquivos` or any other form.
