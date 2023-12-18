@@ -10,7 +10,7 @@
 
 - Criptografa um arquivo existente (incluindo cabeçalhos):
 
-`7za a {{caminho/para/arquivo_criptografado.7z}} -p{{senha}} -mhe=on {{caminho/para/arquivo_compactado.7z}}`
+`7za a {{caminho/para/arquivo_criptografado.7z}} -p{{senha}} -mhe={{on}} {{caminho/para/arquivo_compactado.7z}}`
 
 - Descompactar um arquivo mantendo a estrutura de diretórios original:
 
@@ -26,8 +26,12 @@
 
 - Compacta utilizando um tipo específico de arquivamento/compressão:
 
-`7za a -t{{zip|gzip|bzip2|tar}} {{caminho/para/arquivo_compactado.7z}} {{caminho/arquivo_ou_diretório}}`
+`7za a -t{{zip|gzip|bzip2|tar}} {{caminho/para/arquivo_compactado.7z}} {{caminho/para/arquivo_ou_diretório}}`
 
 - Exibe o conteúdo de um arquivo:
 
 `7za l {{caminho/para/arquivo_compactado.7z}}`
+
+- Define o nível de compressão (maior significa mais compressão, porém mais lento):
+
+`7za a {{caminho/para/arquivo_compactado.7z}} -mx={{0|1|3|5|7|9}} {{caminho/para/arquivo_ou_diretório}}`

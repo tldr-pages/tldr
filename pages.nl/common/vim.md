@@ -17,7 +17,7 @@
 
 `:help<Enter>`
 
-- Opslaan en Afsluiten:
+- Opslaan en afsluiten:
 
 `:wq<Enter>`
 

@@ -7,6 +7,10 @@
 
 `pw-cat --playback {{path/to/file.wav}}`
 
+- Play a WAV file with a specified resampler quality (4 by default):
+
+`pw-cat --quality {{0..15}} --playback {{path/to/file.wav}}`
+
 - Record a sample recording at a different volume level:
 
 `pw-cat --record --volume={{0.1}} {{path/to/file.wav}}`
