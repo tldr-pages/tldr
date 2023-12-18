@@ -1,7 +1,7 @@
 # pamtotga
 
 > Converteer een Netpbm afbeelding naar een TrueVision Targa bestand.
-> More information: <https://netpbm.sourceforge.net/doc/pamtotga.html>.
+> Meer informatie: <https://netpbm.sourceforge.net/doc/pamtotga.html>.
 
 - Converteer een Netpbm afbeelding naar een TrueVision Targa bestand:
 
