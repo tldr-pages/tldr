@@ -1,6 +1,6 @@
 # terminal-notifier
 
-> Envia notificaciones de usuario en macOS.
+> Envía notificaciones de usuario en macOS.
 > Más información: <https://github.com/julienXX/terminal-notifier>.
 
 - Envía una notificación (sólo se requiere el mensaje):
@@ -13,7 +13,7 @@
 
 - Abre una URL al hacer clic en la notificación:
 
-`terminal-notifier -message '{{¡Comprueba tus acciones de Apple!}}' -open '{{! -open '{{http://finance.yahoo.com/q?s=AAPL}}'`
+terminal-notifier -message '{{¡Comprueba tus acciones de Apple!}}' -open '{{! -open '{{http://finance.yahoo.com/q?s=AAPL}}'`
 
 - Abre una aplicación al hacer clic en la notificación:
 
