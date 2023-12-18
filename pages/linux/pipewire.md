@@ -1,7 +1,7 @@
 # pipewire
 
 > Starts the PipeWite daemon.
-> More information: https://docs.pipewire.org/page_man_pipewire_1.html.
+> More information: <https://docs.pipewire.org/page_man_pipewire_1.html>.
 
 - Start the PipeWire daemon:
 
