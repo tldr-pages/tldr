@@ -9,7 +9,7 @@
 
 - Limiteer resultaten van strings met minimaal n karakters lang:
 
-`strings -n {{lengte}} {{pad/naar/bestand}}`
+`strings -n {{n}} {{pad/naar/bestand}}`
 
 - Prefix ieder resultaat met de offset in het bestand:
 
