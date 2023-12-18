@@ -23,7 +23,7 @@
 
 `chmod o=g {{ruta/al/archivo}}`
 
-- Remove all rights from [o]thers:
+- Quitar todos los derechos a [o]tros:
 
 `chmod o= {{ruta/al/archivo}}`
 
@@ -31,6 +31,6 @@
 
 `chmod -R g+w,o+w {{ruta/al/directorio}}`
 
-- Recursively give [a]ll users [r]ead permissions to files and e[X]ecute permissions to sub-directories within a directory:
+- Concede de forma recursiva [a] todos los usuarios permisos de lectu[r]a a los archivos y permisos de e[X]ecución a los subdirectorios dentro de un directorio:
 
 `chmod -R a+rX {{ruta/al/directorio}}`
