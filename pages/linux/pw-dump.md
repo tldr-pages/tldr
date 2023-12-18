@@ -18,7 +18,7 @@
 
 - Set a [C]olor configuration:
 
-`pw-dump --color {{never|always|auto}}` 
+`pw-dump --color {{never|always|auto}}`
 
 - Display help:
 
