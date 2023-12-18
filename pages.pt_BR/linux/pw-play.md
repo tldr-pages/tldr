@@ -4,10 +4,10 @@
 > Atalho para pw-cat --playback.
 > Mais informações: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
 
-- Toca um som wav no alvo padrão:
+- Toca um som em formato WAV no alvo padrão:
 
 `pw-play {{caminho/para/arquivo.wav}}`
 
-- Toca um arquivo de som wav com um volume diferente:
+- Toca um arquivo em formato WAV com um volume específico:
 
 `pw-play --volume={{0.1}} {{caminho/para/arquivo.wav}}`
