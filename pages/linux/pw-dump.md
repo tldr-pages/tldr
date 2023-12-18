@@ -4,7 +4,7 @@
 > See also: `pw-mon`.
 > More information: <https://docs.pipewire.org/page_man_pw-dump_1.html>.
 
-- Print a JSON representation of the default PipeWire instance current state:
+- Print a JSON representation of the default PipeWire instance's current state:
 
 `pw-dump`
 
