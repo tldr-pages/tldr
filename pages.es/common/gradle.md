@@ -7,7 +7,7 @@
 
 `gradle build`
 
-- Excluye la compilación test
+- Excluye la compilación test:
 
 `gradle build -x {{test}}`
 
