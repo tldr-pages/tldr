@@ -13,7 +13,7 @@
 
 - Profile a remote instance:
 
-`pw-profiler --remote={{remote_name}}`
+`pw-profiler --remote {{remote_name}}`
 
 - Display help:
 
