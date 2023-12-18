@@ -1,7 +1,7 @@
 # pw-profiler
 
-> Profile a local or remote instance
-> More information: <https://docs.pipewire.org/page_man_pw-profiler_1.html>
+> Profile a local or remote instance.
+> More information: <https://docs.pipewire.org/page_man_pw-profiler_1.html>.
 
 - Profile the default instance, logging to profile.log (gnuplot files and a .html file for result visualizing are also generated):
 
