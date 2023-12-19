@@ -1,6 +1,6 @@
 # pw-dump
 
-> Dump PipeWire current state as JSON, including the information on nodes, devices, modules, ports, and other objects.
+> Dump PipeWire's current state as JSON, including the information on nodes, devices, modules, ports, and other objects.
 > See also: `pw-mon`.
 > More information: <https://docs.pipewire.org/page_man_pw-dump_1.html>.
 
