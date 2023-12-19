@@ -4,11 +4,11 @@
 > Veja também: `dc`.
 > Mais informações: <https://manned.org/man/freebsd-13.0/bc.1>.
 
-- Iniciar uma sessão interativa:
+- Inicia uma sessão interativa:
 
 `bc`
 
-- Iniciar uma sessão interativa com a biblioteca matemática padrão habilitada:
+- Inicia uma sessão interativa com a biblioteca matemática padrão habilitada:
 
 `bc --mathlib`
 
@@ -16,7 +16,7 @@
 
 `bc --expression='{{5 / 3}}'`
 
-- Executar um script:
+- Executa um script:
 
 `bc {{caminho/para/script.bc}}`
 

@@ -11,6 +11,6 @@
 
 `docker tag {{imagem}}:{{tag_atual}} {{imagem}}:{{nova_tag}}`
 
-- Exibir ajuda:
+- Exibe ajuda:
 
 `docker tag`

@@ -12,11 +12,11 @@
 
 `dumpsys {{servico}}`
 
-- Listar todos os serviços dos quais o `dumpsys` pode obter informações:
+- Lista todos os serviços dos quais o `dumpsys` pode obter informações:
 
 `dumpsys -l`
 
-- Listar argumentos específicos de um serviço para um serviço:
+- Lista argumentos específicos de um serviço para um serviço:
 
 `dumpsys {{servico}} -h`
 

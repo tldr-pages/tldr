@@ -16,7 +16,7 @@
 
 `ssh {{nome_do_usuário}}@{{host_remoto}} -p {{2222}}`
 
-- Executar um comando em um servidor remoto com uma alocação de [t]ty permitindo interação com o comando remoto:
+- Executa um comando em um servidor remoto com uma alocação de [t]ty permitindo interação com o comando remoto:
 
 `ssh {{nome_do_usuário}}@{{host_remoto}} -t {{comando}} {{argumentos_do_comando}}`
 

@@ -3,11 +3,11 @@
 > Exibir informações detalhadas de um pacote com Chocolatey.
 > Mais informações: <https://chocolatey.org/docs/commands-info>.
 
-- Exibir informações sobre um pacote específico:
+- Exibe informações sobre um pacote específico:
 
 `choco info {{pacote}}`
 
-- Exibir informação para um pacote local:
+- Exibe informação para um pacote local:
 
 `choco info {{pacote}} --local-only`
 

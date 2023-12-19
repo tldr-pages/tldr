@@ -3,7 +3,7 @@
 > Ferramenta de conversão de imagens da ImageMagick.
 > Mais informações: <https://imagemagick.org/script/convert.php>.
 
-- Converter uma imagem do formato JPG para o formato PNG:
+- Converte uma imagem do formato JPG para o formato PNG:
 
 `convert {{imagem.jpg}} {{imagem.png}}`
 
@@ -19,10 +19,10 @@
 
 `convert {{imagem1.png}} {{imagem2.png}} {{imagem3.png}} +append {{nova_imagem.png}}`
 
-- Criar um GIF a partir de uma série de imagens, com um intervalo de 100ms entre elas:
+- Cria um GIF a partir de uma série de imagens, com um intervalo de 100ms entre elas:
 
 `convert {{imagem1.png}} {{imagem2.png}} {{imagem3.png}} -delay {{100}} {{nova_imagem.gif}}`
 
-- Criar uma nova imagem de tamanho 800x600 com apenas um fundo sólido vermelho:
+- Cria uma nova imagem de tamanho 800x600 com apenas um fundo sólido vermelho:
 
 `convert -size {{800x600}} "xc:{{#ff0000}}" {{imagem.png}}`

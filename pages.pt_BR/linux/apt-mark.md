@@ -15,10 +15,10 @@
 
 `sudo apt-mark unhold {{nome_do_pacote}}`
 
-- Listar os pacotes instalados manualmente:
+- Lista os pacotes instalados manualmente:
 
 `apt-mark showmanual`
 
-- Listar os pacotes bloqueados:
+- Lista os pacotes bloqueados:
 
 `apt-mark showhold`

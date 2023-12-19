@@ -15,6 +15,6 @@
 
 `xcv v {{arquivo_a_ser_colado}}`
 
-- Listar todos os arquivos disponíveis para serem colados:
+- Lista todos os arquivos disponíveis para serem colados:
 
 `xcv l`

@@ -11,10 +11,10 @@
 
 `cargo doc --offline`
 
-- Visualizar a documentação de um pacote específico:
+- Visualiza a documentação de um pacote específico:
 
 `cargo doc --open --package {{pacote}}`
 
-- Visualizar a documentação de um pacote específico sem acessar a rede:
+- Visualiza a documentação de um pacote específico sem acessar a rede:
 
 `cargo doc --open --offline --package {{pacote}}`

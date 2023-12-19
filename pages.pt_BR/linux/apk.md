@@ -3,15 +3,15 @@
 > Gerenciador de pacotes da distribuição Alpine.
 > Mais informações: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
 
-- Atualizar os índices dos pacotes disponíveis:
+- Atualiza os índices dos pacotes disponíveis:
 
 `apk update`
 
-- Instalar um pacote:
+- Instala um pacote:
 
 `apk add {{pacote}}`
 
-- Remover um pacote:
+- Remove um pacote:
 
 `apk del {{pacote}}`
 
@@ -19,10 +19,10 @@
 
 `apk fix {{pacote}}`
 
-- Procurar um pacote especificando alguma palavra-chave:
+- Procura um pacote especificando alguma palavra-chave:
 
 `apk search {{palavra_chave}}`
 
-- Exibir informações sobre um pacote:
+- Exibe informações sobre um pacote:
 
 `apk info {{pacote}}`

@@ -15,6 +15,6 @@
 
 `ssh-keyscan -t {{rsa,dsa,ecdsa,ed25519}} {{host}}`
 
-- Atualizar manualmente o arquivo known_hosts do SSH com a impressão digital de um determinado host:
+- Atualiza manualmente o arquivo known_hosts do SSH com a impressão digital de um determinado host:
 
 `ssh-keyscan -H {{host}} >> ~/.ssh/known_hosts`

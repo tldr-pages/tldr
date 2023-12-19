@@ -16,15 +16,15 @@
 
 `curl --remote-name --location --continue-at - {{http://example.com/arquivo}}`
 
-- Enviar dados codificados por formulário (pedido POST do tipo `application/x-www-form-urlencoded`):
+- Envia dados codificados por formulário (pedido POST do tipo `application/x-www-form-urlencoded`):
 
 `curl --data {{'nome=maria'}} {{http://example.com/formulario}}`
 
-- Enviar um pedido com um cabeçalho adicional, usando um método HTTP personalizado:
+- Envia um pedido com um cabeçalho adicional, usando um método HTTP personalizado:
 
 `curl --header {{'X-Meu-Cabecalho: 123'}} --request {{PUT}} {{http://example.com}}`
 
-- Enviar dados no formato JSON, especificando o cabeçalho de tipo de conteúdo (content-type) apropriado:
+- Envia dados no formato JSON, especificando o cabeçalho de tipo de conteúdo (content-type) apropriado:
 
 `curl --data {{'{"nome":"maria"}'}} --header {{'Content-Type: application/json'}} {{http://example.com/usuarios/123}}`
 

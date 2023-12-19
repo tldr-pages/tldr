@@ -8,7 +8,7 @@
 
 `virsh connect {{qemu:///system}}`
 
-- Listar todos os domínios:
+- Lista todos os domínios:
 
 `virsh list --all`
 
@@ -16,7 +16,7 @@
 
 `virsh dumpxml {{guest_id}} > {{caminho/para/convidado.xml}}`
 
-- Criar um convidado a partir de um arquivo de configuração:
+- Cria um convidado a partir de um arquivo de configuração:
 
 `virsh create {{caminho/para/arquivo_de_configuracao.xml}}`
 
@@ -24,11 +24,11 @@
 
 `virsh edit {{guest_id}}`
 
-- Iniciar/reiniciar/desligar/suspender/resumir um convidado:
+- Inicia/reiniciar/desligar/suspender/resumir um convidado:
 
 `virsh {{comando}} {{guest_id}}`
 
-- Salvar o estado atual de um convidado em um arquivo:
+- Salva o estado atual de um convidado em um arquivo:
 
 `virsh save {{guest_id}} {{nome_do_arquivo}}`
 

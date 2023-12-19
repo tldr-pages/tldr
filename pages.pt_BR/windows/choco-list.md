@@ -3,19 +3,19 @@
 > Exibir uma lista de pacotes com Chocolatey.
 > Mais informações: <https://chocolatey.org/docs/commands-list>.
 
-- Exibir todos pacotes disponíveis:
+- Exibe todos pacotes disponíveis:
 
 `choco list`
 
-- Exibir todos pacotes instalados localmente:
+- Exibe todos pacotes instalados localmente:
 
 `choco list --local-only`
 
-- Exibir uma lista incluindo programas locais:
+- Exibe uma lista incluindo programas locais:
 
 `choco list --include-programs`
 
-- Exibir apenas pacotes aprovados:
+- Exibe apenas pacotes aprovados:
 
 `choco list --approved-only`
 

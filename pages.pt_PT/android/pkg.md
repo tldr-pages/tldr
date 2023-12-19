@@ -3,11 +3,11 @@
 > Gestor de pacotes para o Termux.
 > Mais informações: <https://wiki.termux.com/wiki/Package_Management>.
 
-- Atualizar todos os pacotes instalados:
+- Atualiza todos os pacotes instalados:
 
 `pkg upgrade`
 
-- Instalar um pacote:
+- Instala um pacote:
 
 `pkg install {{pacote}}`
 
@@ -19,6 +19,6 @@
 
 `pkg reinstall {{pacote}}`
 
-- Procurar um pacote:
+- Procura um pacote:
 
 `pkg search {{pacote}}`

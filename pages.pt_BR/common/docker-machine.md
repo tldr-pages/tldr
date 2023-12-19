@@ -3,11 +3,11 @@
 > Criar e gerenciar máquinas que executam o Docker.
 > Mais informações: <https://docs.docker.com/machine/reference/>.
 
-- Listar as máquinas Docker em execução no momento:
+- Lista as máquinas Docker em execução no momento:
 
 `docker-machine ls`
 
-- Criar uma nova máquina Docker com um nome específico:
+- Cria uma nova máquina Docker com um nome específico:
 
 `docker-machine create {{nome}}`
 
@@ -15,7 +15,7 @@
 
 `docker-machine status {{nome}}`
 
-- Iniciar uma máquina:
+- Inicia uma máquina:
 
 `docker-machine start {{nome}}`
 

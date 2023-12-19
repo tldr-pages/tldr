@@ -3,22 +3,22 @@
 > Compartilhar mensagens e arquivos na mesma rede.
 > Mais informações: <https://github.com/mafintosh/airpaste>.
 
-- Esperar por mensagens e mostrá-las quando recebidas:
+- Espera por mensagens e mostrá-las quando recebidas:
 
 `airpaste`
 
-- Enviar texto:
+- Envia texto:
 
 `echo {{texto}} | airpaste`
 
-- Enviar arquivo:
+- Envia arquivo:
 
 `airpaste < {{caminho/para/arquivo}}`
 
-- Receber arquivo:
+- Recebe arquivo:
 
 `airpaste > {{caminho/para/arquivo}}`
 
-- Criar/Entrar em canal:
+- Cria/Entra em canal:
 
 `airpaste {{nome_do_canal}}`

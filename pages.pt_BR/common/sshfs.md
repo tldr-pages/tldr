@@ -15,7 +15,7 @@
 
 `sshfs {{nome_do_usuário}}@{{host_remoto}}:{{diretório_remoto}} -p {{2222}}`
 
-- Usar compressão:
+- Usa compressão:
 
 `sshfs {{nome_do_usuário}}@{{host_remoto}}:{{diretório_remoto}} -C`
 

@@ -8,30 +8,30 @@
 
 `sudo pacman -Syu`
 
-- Instalar um novo pacote:
+- Instala um novo pacote:
 
 `sudo pacman -S {{package_name}}`
 
-- Remover um pacote e todas as dependencias:
+- Remove um pacote e todas as dependencias:
 
 `sudo pacman -Rs {{nome_do_pacote}}`
 
-- Procurar um pacote na base de dados por palavra chave ou expressão regular (regex):
+- Procura um pacote na base de dados por palavra chave ou expressão regular (regex):
 
 `pacman -Ss "{{search_pattern}}"`
 
-- Listar versão dos pactotes instalados:
+- Lista versão dos pactotes instalados:
 
 `pacman -Q`
 
-- Listar versão dos pactotes instalados explicitamente:
+- Lista versão dos pactotes instalados explicitamente:
 
 `pacman -Qe`
 
-- Listar pacotes órfãos (instalados como dependencia mas não exigidos por nenhum pacote):
+- Lista pacotes órfãos (instalados como dependencia mas não exigidos por nenhum pacote):
 
 `pacman -Qtdq`
 
-- Remover memória armazenada (cache) do `pacman`:
+- Remove memória armazenada (cache) do `pacman`:
 
 `sudo pacman -Scc`

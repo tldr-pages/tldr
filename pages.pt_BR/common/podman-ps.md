@@ -3,15 +3,15 @@
 > Listar contêineres do Podman.
 > Mais informações: <https://docs.podman.io/en/latest/markdown/podman-ps.1.html>.
 
-- Listar contêineres do Podman em execução atualmente:
+- Lista contêineres do Podman em execução atualmente:
 
 `podman ps`
 
-- Listar todos os contêineres do Podman (em execução e parados):
+- Lista todos os contêineres do Podman (em execução e parados):
 
 `podman ps --all`
 
-- Mostrar o contêiner mais recente criado (inclui todos os estados):
+- Mostra o contêiner mais recente criado (inclui todos os estados):
 
 `podman ps --latest`
 

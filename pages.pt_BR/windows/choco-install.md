@@ -3,19 +3,19 @@
 > Instalar um pacote ou mais com Chocolatey.
 > Mais informações: <https://chocolatey.org/docs/commands-install>.
 
-- Instalar um ou mais pacotes separado por espaço:
+- Instala um ou mais pacotes separado por espaço:
 
 `choco install {{pacote(s)}}`
 
-- Instalar pacotes a partir de um aquivo de configuração personalizado:
+- Instala pacotes a partir de um aquivo de configuração personalizado:
 
 `choco install {{caminho/para/pacotes.config}}`
 
-- Instalar um arquivo específico `nuspec` ou `nupkg`:
+- Instala um arquivo específico `nuspec` ou `nupkg`:
 
 `choco install {{caminho/para/arquivo}}`
 
-- Instalar uma versão específica de um pacote:
+- Instala uma versão específica de um pacote:
 
 `choco install {{pacote}} --version {{versão}}`
 

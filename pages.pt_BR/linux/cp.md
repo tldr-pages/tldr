@@ -27,6 +27,6 @@
 
 `cp -L {{link}} {{caminho/para/diretório_alvo}}`
 
-- Usar todo o caminho dos arquivos fonte, criando quaisquer diretórios intermediários ausentes quando copia:
+- Usa todo o caminho dos arquivos fonte, criando quaisquer diretórios intermediários ausentes quando copia:
 
 `cp --parents {{fonte/caminho/para/arquivo}} {{caminho/para/arquivo_alvo}}`

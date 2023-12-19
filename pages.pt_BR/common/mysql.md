@@ -19,6 +19,6 @@
 
 `mysql --socket {{caminho/para/socket.sock}}`
 
-- Executar todos os comandos de um arquivo SQL em um banco de dados:
+- Executa todos os comandos de um arquivo SQL em um banco de dados:
 
 `mysql -e "source {{nome_do_arquivo.sql}}" {{nome_do_banco_de_dados}}`

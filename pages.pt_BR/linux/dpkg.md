@@ -4,15 +4,15 @@
 > Alguns subcomandos como `dpkg deb` tem sua própia documentação de uso.
 > Mais informações: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
-- Instalar um pacote:
+- Instala um pacote:
 
 `dpkg -i {{arquivo.deb}}`
 
-- Remover um pacote:
+- Remove um pacote:
 
 `dpkg -r {{nome_do_pacote}}`
 
-- Exibir os pacotes correspondentes ao critério de busca:
+- Exibe os pacotes correspondentes ao critério de busca:
 
 `dpkg -l {{criterio_de_busca}}`
 
@@ -20,7 +20,7 @@
 
 `dpkg -L {{nome_do_pacote}}`
 
-- Exibir o conteúdo do arquivo de um pacote:
+- Exibe o conteúdo do arquivo de um pacote:
 
 `dpkg -c {{arquivo.deb}}`
 

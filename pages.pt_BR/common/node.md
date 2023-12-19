@@ -3,7 +3,7 @@
 > Plataforma de JavaScript para o lado do Servidor (Node.js).
 > Mais informações: <https://nodejs.org>.
 
-- Executar um arquivo JavaScript:
+- Executa um arquivo JavaScript:
 
 `node {{arquivo}}.js`
 
@@ -11,11 +11,11 @@
 
 `node`
 
-- Executar JavaScript, passando-o no comando:
+- Executa JavaScript, passando-o no comando:
 
 `node -e "{{código}}"`
 
-- Executar um arquivo JavaScript, imprimindo o resultado:
+- Executa um arquivo JavaScript, imprimindo o resultado:
 
 `node -p "{{script}}"`
 

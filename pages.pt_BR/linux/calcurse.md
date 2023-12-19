@@ -3,11 +3,11 @@
 > Um calendário e agenda baseados em texto para a linha de comando.
 > Mais informações: <https://calcurse.org>.
 
-- Iniciar o calcurse em modo interativo:
+- Inicia o calcurse em modo interativo:
 
 `calcurse`
 
-- Mostrar os agendamentos e eventos para o presente dia:
+- Mostra os agendamentos e eventos para o presente dia:
 
 `calcurse --appointment`
 

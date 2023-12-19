@@ -12,7 +12,7 @@
 
 `virsh connect qemu:///system`
 
-- Iniciar uma nova instância do hipervisor e conectar-se a ela como usuário local:
+- Inicia uma nova instância do hipervisor e conectar-se a ela como usuário local:
 
 `virsh connect qemu:///session`
 

@@ -3,7 +3,7 @@
 > Exibe, edita e apaga configurações do sistema Android.
 > Mais informações: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
-- Exibir a lista de configurações no namespace `global`:
+- Exibe a lista de configurações no namespace `global`:
 
 `settings list {{global}}`
 

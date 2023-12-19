@@ -7,7 +7,7 @@
 
 `ffmpeg -i {{vídeo}} -vn {{som}}.mp3`
 
-- Converter quadros de um vídeo ou GIF para imagens numeradas individuais:
+- Converte quadros de um vídeo ou GIF para imagens numeradas individuais:
 
 `ffmpeg -i {{vídeo|gif}} {{quadro_%d.png}}`
 
@@ -23,7 +23,7 @@
 
 `ffmpeg -ss {{mm:ss}} -to {{mm2:ss2}} -i {{vídeo_entrada}} -codec copy {{vídeo_saída}}`
 
-- Converter um vídeo AVI para MP4. AAC Áudio @ 128kbit, h264 Vídeo @ CRF 23:
+- Converte um vídeo AVI para MP4. AAC Áudio @ 128kbit, h264 Vídeo @ CRF 23:
 
 `ffmpeg -i {{vídeo_entrada}}.avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 {{vídeo_saída}}.mp4`
 
@@ -31,6 +31,6 @@
 
 `ffmpeg -i {{vídeo_entrada}}.mkv -codec copy {{vídeo_saída}}.mp4`
 
-- Converter vídeo MP4 para o codec VP9. Para a melhor qualidade, use um valor CRF (faixa recomendada 15-35) e -b:video DEVE ser 0:
+- Converte vídeo MP4 para o codec VP9. Para a melhor qualidade, use um valor CRF (faixa recomendada 15-35) e -b:video DEVE ser 0:
 
 `ffmpeg -i {{vídeo_entrada}}.mp4 -codec:video libvpx-vp9 -crf {{30}} -b:video 0 -codec:audio libopus -vbr on -threads {{número_de_threads}} {{vídeo_saída}}.webm`

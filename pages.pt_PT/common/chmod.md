@@ -11,7 +11,7 @@
 
 `chmod u+rw {{ficheiro_ou_diretorio}}`
 
-- Remover direitos de execução de um [g]rupo:
+- Remove direitos de execução de um [g]rupo:
 
 `chmod g-x {{ficheiro}}`
 
@@ -23,10 +23,10 @@
 
 `chmod o=g {{ficheiro}}`
 
-- Remover todos os direitos dos [o]utros:
+- Remove todos os direitos dos [o]utros:
 
 `chmod o= {{ficheiro}}`
 
-- Mudar as permissões, recursivamente, dando ao [g]rupo e [o]utros a possibilidade de escrever ([w]):
+- Muda as permissões, recursivamente, dando ao [g]rupo e [o]utros a possibilidade de escrever ([w]):
 
 `chmod -R g+w,o+w {{diretorio}}`

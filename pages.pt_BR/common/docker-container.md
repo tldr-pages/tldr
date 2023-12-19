@@ -3,15 +3,15 @@
 > Gerenciar contêineres Docker.
 > Mais informações: <https://docs.docker.com/engine/reference/commandline/container/>.
 
-- Listar os contêineres Docker em execução:
+- Lista os contêineres Docker em execução:
 
 `docker container ls`
 
-- Iniciar um ou mais contêineres parados:
+- Inicia um ou mais contêineres parados:
 
 `docker container start {{nome_do_contêiner1}} {{nome_do_contêiner2}}`
 
-- Encerrar um ou mais contêineres em execução:
+- Encerra um ou mais contêineres em execução:
 
 `docker container kill {{nome_do_contêiner}}`
 
@@ -23,7 +23,7 @@
 
 `docker container pause {{nome_do_contêiner}}`
 
-- Exibir informações detalhadas sobre um ou mais contêineres:
+- Exibe informações detalhadas sobre um ou mais contêineres:
 
 `docker container inspect {{nome_do_contêiner}}`
 
@@ -31,6 +31,6 @@
 
 `docker container export {{nome_do_contêiner}}`
 
-- Criar uma nova imagem a partir das alterações em um contêiner:
+- Cria uma nova imagem a partir das alterações em um contêiner:
 
 `docker container commit {{nome_do_contêiner}}`

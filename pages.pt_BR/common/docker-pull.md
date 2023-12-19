@@ -19,6 +19,6 @@
 
 `docker pull --platform {{linux/amd64}} {{imagem}}:{{tag}}`
 
-- Exibir ajuda:
+- Exibe ajuda:
 
 `docker pull --help`

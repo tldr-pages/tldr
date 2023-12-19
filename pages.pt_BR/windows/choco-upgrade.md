@@ -3,19 +3,19 @@
 > Atualizar um ou mais pacotes com Chocolatey.
 > Mais informações: <https://chocolatey.org/docs/commands-upgrade>.
 
-- Atualizar um ou mais pacotes separados por espaço:
+- Atualiza um ou mais pacotes separados por espaço:
 
 `choco upgrade {{pacote(s)}}`
 
-- Atualizar para uma versão específica de um pacote:
+- Atualiza para uma versão específica de um pacote:
 
 `choco upgrade {{pacote}} --version {{versão}}`
 
-- Atualizar todos pacotes:
+- Atualiza todos pacotes:
 
 `choco upgrade all`
 
-- Atualizar todos os pacotes, exceto os especificados separados por virgula:
+- Atualiza todos os pacotes, exceto os especificados separados por virgula:
 
 `choco upgrade all --except "{{pacote(s)}}"`
 

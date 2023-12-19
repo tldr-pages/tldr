@@ -3,7 +3,7 @@
 > Utilitário de configuração de rede sem fio.
 > Mais informações: <https://ss64.com/osx/airport.html>.
 
-- Mostrar informações de status da rede sem fio atual:
+- Mostra informações de status da rede sem fio atual:
 
 `airport --getinfo`
 
@@ -11,7 +11,7 @@
 
 `airport sniff {{1}}`
 
-- Procurar redes sem fio disponíveis:
+- Procura redes sem fio disponíveis:
 
 `airport --scan`
 

@@ -4,7 +4,7 @@
 > Frontend para `iptables` com o objetivo de facilitar a configuração de um firewall.
 > Mais informações: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
-- Habilitar ufw:
+- Habilita ufw:
 
 `ufw enable`
 
@@ -12,7 +12,7 @@
 
 `ufw disable`
 
-- Mostrar regras ufw, juntamente com seus números:
+- Mostra regras ufw, juntamente com seus números:
 
 `ufw status numbered`
 

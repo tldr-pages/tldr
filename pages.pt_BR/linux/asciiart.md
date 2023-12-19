@@ -15,7 +15,7 @@
 
 `asciiart --width {{50}} {{caminho/para/imagem.jpg}}`
 
-- Imprimir com cor:
+- Imprime com cor:
 
 `asciiart --color {{caminho/para/imagem.jpg}}`
 

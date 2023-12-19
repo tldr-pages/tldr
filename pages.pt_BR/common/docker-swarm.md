@@ -7,7 +7,7 @@
 
 `docker swarm init`
 
-- Exibir o token para ingressar como gerenciador ou trabalhador:
+- Exibe o token para ingressar como gerenciador ou trabalhador:
 
 `docker swarm join-token {{worker|manager}}`
 
@@ -15,11 +15,11 @@
 
 `docker swarm join --token {{token}} {{url_do_nó_gerenciador:2377}}`
 
-- Remover um trabalhador do Swarm (executado dentro do nó trabalhador):
+- Remove um trabalhador do Swarm (executado dentro do nó trabalhador):
 
 `docker swarm leave`
 
-- Exibir o certificado CA atual no formato PEM:
+- Exibe o certificado CA atual no formato PEM:
 
 `docker swarm ca`
 

@@ -3,7 +3,7 @@
 > Analisar e otimizar imagens Docker.
 > Mais informações: <https://github.com/docker-slim/docker-slim>.
 
-- Iniciar o DockerSlim no modo interativo:
+- Inicia o DockerSlim no modo interativo:
 
 `docker-slim`
 
@@ -11,7 +11,7 @@
 
 `docker-slim xray --target {{imagem:tag}}`
 
-- Verificar um Dockerfile:
+- Verifica um Dockerfile:
 
 `docker-slim lint --target {{caminho/para/Dockerfile}}`
 
@@ -19,6 +19,6 @@
 
 `docker-slim build {{imagem:tag}}`
 
-- Exibir ajuda para um subcomando:
+- Exibe ajuda para um subcomando:
 
 `docker-slim {{subcomando}} --help`

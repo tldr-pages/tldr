@@ -15,7 +15,7 @@
 
 `choco uninstall {{pacote}} --yes`
 
-- Remover todas dependências ao desinstalar:
+- Remove todas dependências ao desinstalar:
 
 `choco uninstall {{pacote}} --remove-dependencies`
 

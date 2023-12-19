@@ -4,11 +4,11 @@
 > Alguns subcomandos como `docker run` tem sua própia documentação de uso.
 > Mais informações: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Listar os containers Docker que se encontram em execução:
+- Lista os containers Docker que se encontram em execução:
 
 `docker ps`
 
-- Listar todos os containers Docker:
+- Lista todos os containers Docker:
 
 `docker ps -a`
 
@@ -24,11 +24,11 @@
 
 `docker pull {{imagem}}`
 
-- Abrir um terminal dentro de um container em execução:
+- Abre um terminal dentro de um container em execução:
 
 `docker exec -it {{nome_container}} {{sh}}`
 
-- Remover um container parado:
+- Remove um container parado:
 
 `docker rm {{nome_container}}`
 
