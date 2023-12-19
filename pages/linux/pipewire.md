@@ -1,6 +1,6 @@
 # pipewire
 
-> Starts the PipeWite daemon.
+> Start the PipeWite daemon.
 > More information: <https://docs.pipewire.org/page_man_pipewire_1.html>.
 
 - Start the PipeWire daemon:
