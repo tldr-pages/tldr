@@ -32,11 +32,18 @@ function main {
     fi
   else
     case $languageId in
-      "all")
+      all)
         pageDirs=(../../pages*)
+        ;;
+      bn | ja | ko | ml | ta | th | zh | zh_TW)
+        echo "${languageId} is not supported to build a PDF"
+        ;;
+      en)
+        pageDirs=("pages")
         ;;
       *)
         pageDirs=("pages.${languageId}")
+        ;;
     esac
   fi
   
