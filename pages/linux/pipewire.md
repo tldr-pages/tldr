@@ -13,7 +13,7 @@
 
 - Set a verbosity level (error, warn, info, debug or trace):
 
-`pipewire -{{v|vv|...|vvvvv}`
+`pipewire -{{v|vv|...|vvvvv}}`
 
 - Display help:
 
