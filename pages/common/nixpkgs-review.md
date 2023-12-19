@@ -1,10 +1,10 @@
 # nixpkgs-review
 
 > Review pull requests in the NixOS packages repository (nixpkgs).
-> After a successful build, a `nix-shell` with all built packages will be started.
+> After a successful build, a `nix-shell` with all built packages is started.
 > More information: <https://github.com/Mic92/nixpkgs-review#usage>.
 
-- Build changed packages in the specified PR:
+- Build changed packages in the specified pull request:
 
 `nixpkgs-review pr {{pr_number|pr_url}}`
 
