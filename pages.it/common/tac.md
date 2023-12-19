@@ -3,7 +3,7 @@
 > Stampa e concatena file al contrario.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/tac>.
 
-- Stampa il contenuto di *file1* al contrario su standard output:
+- Stampa il contenuto di file1 al contrario su standard output:
 
 `tac {{file1}}`
 

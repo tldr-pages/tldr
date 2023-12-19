@@ -11,6 +11,6 @@
 
 `mongod --port {{port}}`
 
-- Menentukan tingkat pencatatan perilaku (*profiling*) database. 0 mati, 1 hanya operasi lambat, 2 semuanya:
+- Menentukan tingkat pencatatan perilaku (profiling) database. 0 mati, 1 hanya operasi lambat, 2 semuanya:
 
 `mongod --profile {{0|1|2}}`
