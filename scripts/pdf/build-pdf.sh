@@ -21,22 +21,24 @@ function process_page {
 }
 
 function main {
-  type="$1"
-  case $type in
-    "all")
-      pageDirs=(../../pages*)
-      ;;
-    *)
-      changedFiles=$(git diff-tree --no-commit-id --name-only -r "$(git rev-parse HEAD)")
-      changedPageDirs=$(echo "$changedFiles" | awk -F/ '/^(pages[^\/]+|pages)\//{print $1}' | sort -u)
-      
-      if [ -z "$changedPageDirs" ]; then
-        pageDirs=()
-      else
-        mapfile -t pageDirs <<< "$changedPageDirs"
-      fi
-      ;;
-  esac
+  languageId="$1"
+  if [ -z "$languageId" ]; then
+    changedFiles=$(git diff-tree --no-commit-id --name-only -r "$(git rev-parse HEAD)")
+    changedPageDirs=$(echo "$changedFiles" | awk -F/ '/^(pages[^\/]+|pages)\//{print $1}' | sort -u)
+    if [ -z "$changedPageDirs" ]; then
+      pageDirs=()
+    else
+      mapfile -t pageDirs <<< "$changedPageDirs"
+    fi
+  else
+    case $languageId in
+      "all")
+        pageDirs=(../../pages*)
+        ;;
+      *)
+        pageDirs=("pages.${languageId}")
+    esac
+  fi
   
   for pageDir in "${pageDirs[@]}"; do
     process_page "../../${pageDir}"
