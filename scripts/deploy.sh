@@ -31,10 +31,10 @@ function initialize {
 function upload_assets {
   git clone --quiet --depth 1 git@github.com:${SITE_REPO_SLUG}.git "$SITE_HOME"
   mv -f "$TLDR_ARCHIVE" "$SITE_HOME/assets/"
-  mv -f "${TLDR_LANG_ARCHIVES_DIRECTORY}"/*.zip "$SITE_HOME/assets/"
+  find "$TLDR_LANG_ARCHIVES_DIRECTORY" -maxdepth 1 -name "*.zip" -exec mv -f {} "$SITE_HOME/assets/" \;
   rm -rf "$TLDR_LANG_ARCHIVES_DIRECTORY"
   cp -f "$TLDRHOME/index.json" "$SITE_HOME/assets/"
-  mv -f "${TLDR_PDF_FILES_DIRECTORY}"/*.pdf "${SITE_HOME}/assets/"
+  find "$TLDR_PDF_FILES_DIRECTORY" -maxdepth 1 -name "*.pdf" -exec mv -f {} "$SITE_HOME/assets/" \;
   rm -rf "$TLDR_PDF_FILES_DIRECTORY"
 
   sha256sum \
