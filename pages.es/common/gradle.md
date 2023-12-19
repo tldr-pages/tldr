@@ -1,24 +1,32 @@
 # gradle
 
-> Gradle es un sistema de código abierto para automatizar la compilación de proyectos.
+> Un sistema de automatización de construcción de código abierto.
 > Más información: <https://gradle.org>.
 
-- Compila un proyecto:
+- Compila un paquete:
 
 `gradle build`
 
-- Excluye la tarea *test*:
+- Excluye la compilación test:
 
 `gradle build -x {{test}}`
 
-- Ejecuta en modo offline para prevenir que Gradle acceda a la red durante una compilación:
+- Ejecuta en modo sin conexión para evitar que Gradle acceda a la red durante la compilación:
 
 `gradle build --offline`
 
-- Limpia el directorio de compilación:
+- Limpiar el directorio de compilación:
 
 `gradle clean`
 
-- Compila un paquete Android (APK) en modo lanzamiento:
+- Construye un paquete Android (APK) en modo release:
 
 `gradle assembleRelease`
+
+- Lista las tareas principales:
+
+`gradle tasks`
+
+- Lista todas las tareas:
+
+`gradle tasks --all`
