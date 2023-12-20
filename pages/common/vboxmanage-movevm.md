@@ -7,6 +7,6 @@
 
 `VBoxManage movevm {{vm_name}}`
 
-- Specify the new location (full or relative pathname) of the VM:
+- Specify the new location (full or relative pathname) of the virtual machine:
 
 `VBoxManage movevm {{vm_name}} --folder {{path/to/new_location}}`
