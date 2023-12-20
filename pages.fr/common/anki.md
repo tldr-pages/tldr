@@ -11,7 +11,7 @@
 
 `anki -p {{nom_de_profile}}`
 
-- Lancer `anki` dans une langue spécifique:
+- Lancer `anki` dans une langue spécifique :
 
 `anki -l {{langue}}`
 
