@@ -1,9 +1,9 @@
 # pamflip
 
-> Flip or aotate a PAM or PNM image.
+> Flip or rotate a PAM or PNM image.
 > More information: <https://netpbm.sourceforge.net/doc/pamflip.html>.
 
-- Rotate the input image counter-clockwise by 90/180/270 degrees:
+- Rotate the input image counter-clockwise for a specific degree:
 
 `pamflip -rotate{{90|180|270}} {{path/to/input.pam}} > {{path/to/output.pam}}`
 
