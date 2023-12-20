@@ -1,7 +1,7 @@
 # pio remote
 
 > Helper commando voor PlatformIO Remote Development.
-> `pio remote [command]` accepteert dezelfde argumenten als de lokale tegenhanger `pio [command]`.
+> `pio remote [commando]` accepteert dezelfde argumenten als de lokale tegenhanger `pio [commando]`.
 > Meer informatie: <https://docs.platformio.org/en/latest/core/userguide/remote/index.html>.
 
 - Toon alle actieve Remote Agents:
