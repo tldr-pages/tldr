@@ -11,6 +11,6 @@
 
 `arp -d {{adresse}}`
 
-- Crée une entré dans la table ARP:
+- Crée une entré dans la table ARP :
 
 `arp -s {{adresse}} {{adresse_mac}}`
