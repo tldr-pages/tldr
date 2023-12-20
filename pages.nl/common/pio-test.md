@@ -15,7 +15,7 @@
 
 `pio test --filter "{{patroon}}"`
 
-- Negeer testen die qua naam name overeenkomen met een specifiek glob patroon:
+- Negeer testen die qua naam overeenkomen met een specifiek glob patroon:
 
 `pio test --ignore "{{patroon}}"`
 
