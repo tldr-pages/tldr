@@ -29,8 +29,8 @@
 
 - Debug interactief een Python script:
 
-`python -m {{pdb}} {{pad/naar/bestand.py}}`
+`python -m pdb {{pad/naar/bestand.py}}`
 
 - Start de ingebouwde HTTP server op poort 8000 in de huidige map:
 
-`python -m {{http.server}}`
+`python -m http.server`
