@@ -32,6 +32,6 @@
 
 `pio package unpublish {{pakket}}@{{version}}`
 
-- Maak de verwijdering ongedaan en zet alle versies of een sepcifieke versie van het pakket terug in het register:
+- Maak de verwijdering ongedaan en zet alle versies of een specifieke versie van het pakket terug in het register:
 
 `pio package unpublish --undo {{pakket}}@{{version}}`
