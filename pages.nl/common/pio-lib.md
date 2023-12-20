@@ -13,7 +13,7 @@
 
 - Zoek naar bestaande bibliotheken:
 
-`pio lib search {{keyword}}`
+`pio lib search {{trefwoord}}`
 
 - Toon details over een bibliotheek:
 
