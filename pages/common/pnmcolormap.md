@@ -7,7 +7,7 @@
 
 `pnmcolormap {{n_colors}} {{path/to/input.pnm}} > {{path/to/output.ppm}}`
 
-- Use the splitspread startegy for dermining the output colors, possibly producing a better result for images with small details:
+- Use the splitspread strategy for determining the output colors, possibly producing a better result for images with small details:
 
 `pnmcolormap -splitspread {{n_colors}} {{path/to/input.pnm}} > {{path/to/output.ppm}}`
 
