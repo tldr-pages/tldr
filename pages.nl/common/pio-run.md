@@ -21,7 +21,7 @@
 
 - Voer gespecificeerde doelen uit:
 
-`pio run --target {{target1}} --target {{target2}}`
+`pio run --target {{doel1}} --target {{doel2}}`
 
 - Voer de doelen uit van een specifiek configuratiebestand:
 
