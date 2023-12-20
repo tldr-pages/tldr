@@ -1,8 +1,9 @@
 # systemd-resolve
 
-> This command is an alias of `resolvectl`.
-> More information: <https://manpages.ubuntu.com/manpages/xenial/en/man1/systemd-resolve.1.html>.
+> Resolve domain names, IPV4 and IPv6 addresses, DNS resource records, and services.
+> Note: this tool has been renamed to `resolvectl` in new versions of `systemd`.
+> More information: <https://manned.org/systemd-resolve>.
 
-- View documentation for the original command:
+- View documentation for `resolvectl`:
 
 `tldr resolvectl`
