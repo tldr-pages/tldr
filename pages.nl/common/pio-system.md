@@ -1,6 +1,6 @@
 # pio system
 
-> Gemengde systeem commando's for PlatformIO.
+> Gemengde systeem commando's voor PlatformIO.
 > Meer informatie: <https://docs.platformio.org/en/latest/core/userguide/system/>.
 
 - Installeer shell completion voor de huidige shell (ondersteund Bash, Fish, Zsh en PowerShell):
