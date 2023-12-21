@@ -11,7 +11,7 @@
 
 `pipewire --config={{path/to/file.conf}}`
 
-- Set a verbosity level (error, warn, info, debug or trace):
+- Set the verbosity level (error, warn, info, debug or trace):
 
 `pipewire -{{v|vv|...|vvvvv}}`
 
