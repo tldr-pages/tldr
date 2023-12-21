@@ -3,13 +3,31 @@
 
 """
 A Python script to generate or update alias pages.
-Call the script with --help to get more information.
 
-For example, add 'vi' as an alias page of 'vim':
-python3 script/set-alias-page.py -p common/vi vim
+Disclaimer: This script generates a lot of false positives so it
+isn't suggested to use the sync option. If used, only stage changes
+and commit verified changes for your language.
 
-Read English alias pages and synchronize them into all translations:
-python3 script/set-alias-page.py -S
+Note: If there is a symlink error when using the stage flag remove the `pages.en`
+directory temporarily and try executing it again.
+
+Usage:
+    python3 scripts/set-alias-page.py [-p PAGE] [-s] [-S] [COMMAND]
+
+Options:
+    -p, --page PAGE
+        Specify the alias page in the format "platform/alias_command.md".
+    -s, --stage
+        Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
+    -S, --sync
+        Synchronize each translation's alias page (if exists) with that of the English page.
+
+Examples:
+    1. Add 'vi' as an alias page of 'vim':
+    python3 scripts/set-alias-page.py -p common/vi vim
+
+    2. Read English alias pages and synchronize them into all translations:
+    python3 scripts/set-alias-page.py -S
 """
 
 import argparse
