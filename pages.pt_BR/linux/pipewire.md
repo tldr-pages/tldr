@@ -11,7 +11,7 @@
 
 `pipewire --config={{caminho/para/arquivo.conf}}`
 
-- Define um nível de verbosidade (erros, avisos, informações, depuração or rastreamento):
+- Define o nível de verbosidade (erros, avisos, informações, depuração or rastreamento):
 
 `pipewire -{{v|vv|...|vvvvv}`
 
