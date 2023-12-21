@@ -13,8 +13,8 @@
 
 - Faz uma gravação com o volume em 125%:
 
-`pw-cat --record --volume={{1.25}} {{caminho/para/arquivo.wav}}`
+`pw-cat --record --volume {{1.25}} {{caminho/para/arquivo.wav}}`
 
 - Faz uma gravação com uma taxa de amostragem diferente:
 
-`pw-cat --record --rate={{6000}} {{caminho/para/arquivo.wav}}`
+`pw-cat --record --rate {{6000}} {{caminho/para/arquivo.wav}}`
