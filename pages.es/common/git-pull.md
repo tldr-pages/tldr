@@ -7,7 +7,7 @@
 
 `git pull`
 
-- Descarga cambios del repositorio remoto por defecto y usa avance rápido (*fast forward*):
+- Descarga cambios del repositorio remoto por defecto y usa avance rápido (fast forward):
 
 `git pull --rebase`
 
