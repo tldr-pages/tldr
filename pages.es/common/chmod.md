@@ -7,7 +7,7 @@
 
 `chmod u+x {{ruta/al/archivo}}`
 
-- Otorga al usuario derechos para leer (r) y escribir (w) un archivo o directorio:
+- Otorga al [u]suario derechos para leer (r) y escribir (w) un archivo o directorio:
 
 `chmod u+rw {{ruta/al/archivo_o_directorio}}`
 
