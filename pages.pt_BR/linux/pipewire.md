@@ -9,7 +9,7 @@
 
 - Usa um arquivo de configuração diferente:
 
-`pipewire --config={{path/to/file.conf}}`
+`pipewire --config={{caminho/para/arquivo.conf}}`
 
 - Define um nível de verbosidade (erros, avisos, informações, depuração or rastreamento):
 
