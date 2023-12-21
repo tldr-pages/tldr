@@ -1,4 +1,4 @@
-# Nix classic interface
+# nix classic
 
 > Una interfaz clásica y estable para un potente gestor de paquetes que hace la gestión de paquetes fiable, reproducible y declarativa.
 > Algunos comandos Nix como `nix-build`, `nix-shell`, `nix-env`, y `nix-store` tienen sus propias páginas. Ver también: `tldr nix`.
