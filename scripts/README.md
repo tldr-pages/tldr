@@ -4,8 +4,7 @@ The current directory contains useful scripts used/to use with `tldr` pages.
 
 ## Summary
 
-This section contains a summary of the scripts available in this directory. For more information about each script, please refer to the
-header of each script.
+This section contains a summary of the scripts available in this directory. For more information about each script, please refer to the header of each script.
 
 - [pdf](pdf/README.md) directory contains the `render.py` and `build-pdf.sh` script and related resources to generate a PDF document of tldr-pages for a specific language or platform (or both).
 - [build.sh](build.sh) script builds the ZIP archives of the `pages` directory.

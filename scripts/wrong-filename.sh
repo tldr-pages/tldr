@@ -24,5 +24,3 @@ for path in $(find pages* -name '*.md' -type f); do
     echo "Inconsistency found in file: $path: $COMMAND_NAME_PAGE should be $COMMAND_NAME_FILE" >> "$OUTPUT_FILE"
   fi
 done
-
-echo "Filename consistency check completed. Output written to: $OUTPUT_FILE"
