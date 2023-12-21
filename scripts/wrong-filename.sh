@@ -12,7 +12,7 @@ rm -f "$OUTPUT_FILE"
 set -e
 
 # Iterate through all Markdown files in the 'pages' directories
-for path in $(find pages* -name '*.md' -type f); do
+find pages* -name '*.md' -type f | while read -r path; do
   # Extract the expected command name from the filename
   COMMAND_NAME_FILE=$(basename "$path" | head -c-4 | tr '-' ' ' | tr '[:upper:]' '[:lower:]')
 
