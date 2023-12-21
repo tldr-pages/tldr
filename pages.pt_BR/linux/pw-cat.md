@@ -11,9 +11,9 @@
 
 `pw-cat --quality {{0..15}} --playback {{caminho/para/arquivo.wav}}`
 
-- Faz uma gravação com um volume diferente:
+- Faz uma gravação com o volume em 125%:
 
-`pw-cat --record --volume={{0.1}} {{caminho/para/arquivo.wav}}`
+`pw-cat --record --volume={{1.25}} {{caminho/para/arquivo.wav}}`
 
 - Faz uma gravação com uma taxa de amostragem diferente:
 
