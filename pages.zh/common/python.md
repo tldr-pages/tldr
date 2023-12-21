@@ -29,8 +29,8 @@
 
 - 互动调试 Python 脚本：
 
-`python -m {{pdb}} {{路径/到/文件.py}}`
+`python -m pdb {{路径/到/文件.py}}`
 
 - 在当前目录中的端口 8000 上启动内置的 HTTP 服务器：
 
-`python -m {{http.server}}`
+`python -m http.server`
