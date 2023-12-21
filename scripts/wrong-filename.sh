@@ -5,7 +5,7 @@
 # Usage: ./scripts/wrong-filename.sh
 
 # Output file for recording inconsistencies
-OUTPUT_FILE="filename-consistency-check-output.txt"
+OUTPUT_FILE="inconsistent-filenames.txt"
 # Remove existing output file (if any)
 rm -f "$OUTPUT_FILE"
 
