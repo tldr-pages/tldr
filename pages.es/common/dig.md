@@ -15,10 +15,6 @@
 
 `dig +short {{example.com}} {{A|MX|TXT|CNAME|NS}}`
 
-- Obtiene todos los tipos de registros para un dominio determinado:
-
-`dig {{example.com}} ANY`
-
 - Especifica un servidor DNS alterno a consultar:
 
 `dig @{{8.8.8.8}} {{example.com}}`
