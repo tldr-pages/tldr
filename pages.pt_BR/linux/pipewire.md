@@ -13,7 +13,7 @@
 
 - Define o nível de verbosidade (erros, avisos, informações, depuração or rastreamento):
 
-`pipewire -{{v|vv|...|vvvvv}`
+`pipewire -{{v|vv|...|vvvvv}}`
 
 - Exibir ajuda:
 
