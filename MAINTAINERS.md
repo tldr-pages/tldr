@@ -76,6 +76,7 @@ If you are an owner of the organization, you can see an automated list
   [9 January 2021](https://github.com/tldr-pages/tldr/issues/5122) — [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473), [15 November 2023](https://github.com/tldr-pages/tldr/issues/11509) — present
 - **Marcher Simon ([@marchersimon](https://github.com/marchersimon))**:
   [9 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722), [20 November 2023](https://github.com/tldr-pages/tldr/issues/11381) — present
+- **Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl))**: [18 December 2023](https://github.com/tldr-pages/tldr/issues/11771) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
