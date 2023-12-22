@@ -17,7 +17,7 @@
 
 - Detecteer automatisch en wissel naar het huidige platform:
 
-`sudo tlmgr platform set {{auto}}`
+`sudo tlmgr platform set auto`
 
 - Wissel naar een specifiek platform:
 
