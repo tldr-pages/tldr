@@ -19,15 +19,15 @@
 
 `cmd /q`
 
-- Habilita ou desabilitar extensão de comandos:
+- Habilita ou desabilita extensão de comandos:
 
 `cmd /e:{{on|off}}`
 
-- Habilita ou desabilitar a ferramenta que completa automaticamente o nome de arquivos ou diretórios:
+- Habilita ou desabilita a ferramenta que completa automaticamente o nome de arquivos ou diretórios:
 
 `cmd /f:{{on|off}}`
 
-- Habilita ou desabilitar a expansão de variáveis de ambiente:
+- Habilita ou desabilita a expansão de variáveis de ambiente:
 
 `cmd /v:{{on|off}}`
 

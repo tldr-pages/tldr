@@ -15,7 +15,7 @@
 
 `apk del {{pacote}}`
 
-- Reparar ou atualizar um pacote sem modificar as principais dependências:
+- Repara ou atualiza um pacote sem modificar as principais dependências:
 
 `apk fix {{pacote}}`
 

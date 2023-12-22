@@ -19,6 +19,6 @@
 
 `sudo chage --expiredate {{YYYY-MM-DD}} {{nome_do_usuario}}`
 
-- Obrigar o usuário a alterar sua senha no próximo login:
+- Obriga o usuário a alterar sua senha no próximo login:
 
 `sudo chage --lastday {{0}} {{nome_do_usuario}}`
