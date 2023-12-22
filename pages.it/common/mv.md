@@ -3,22 +3,30 @@
 > Sposta o rinomina file e directory.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/mv>.
 
-- Sposta file:
+- Rinomina un file o una directory quando la destinazione non è una directory esistente:
 
-`mv {{percorso/del/sorgente}} {{percorso/del/destinazione}}`
+`mv {{percorso/del/file}} {{percorso/di/destinazione}}`
 
-- Sposta file senza chiedere conferma prima di sovrascrivere file esistenti:
+- Sposta un file o una directory in una directory esistente:
 
-`mv -f {{percorso/del/sorgente}} {{percorso/del/destinazione}}`
+`mv {{percorso/di/origine}} {{percorso/della/directory_esistente}}`
 
-- Sposta file interattivamente, chiedendo conferma prima di sovrascrivere file esistenti:
+- Sposta più file in una directory esistente, mantenendo i nomi dei file invariati:
 
-`mv -i {{percorso/del/sorgente}} {{percorso/del/destinazione}}`
+`mv {{percorso/di/origine1 percorso/di/origine2 ...}} {{percorso/della/directory_esistente}}`
 
-- Sposta file senza sovrascrivere file esistenti:
+- Non richiedere conferma prima di sovrascrivere i file esistenti:
 
-`mv -n {{percorso/del/sorgente}} {{percorso/del/destinazione}}`
+`mv -f {{percorso/di/origine}} {{percorso/di/destinazione}}`
 
-- Sposta file in modalità verbosa, mostrando a schermo ogni file che viene spostato:
+- Richiedi conferma prima di sovrascrivere i file esistenti, indipendentemente dalle autorizzazioni dei file:
 
-`mv -v {{percorso/del/sorgente}} {{percorso/del/destinazione}}`
+`mv -i {{percorso/di/origine}} {{percorso/di/destinazione}}`
+
+- Non sovrascrivere i file esistenti nella destinazione:
+
+`mv -n {{percorso/di/origine}} {{percorso/di/destinazione}}`
+
+- Sposta i file in modalità dettagliata, mostrando i file dopo che sono stati spostati:
+
+`mv -v {{percorso/di/origine}} {{percorso/di/destinazione}}`
