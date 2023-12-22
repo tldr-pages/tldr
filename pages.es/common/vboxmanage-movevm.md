@@ -9,4 +9,4 @@
 
 - Especifica la nueva ubicación (nombre de ruta completo o relativo) de la máquina virtual:
 
-`VBoxManage movevm {{nombre_vm}} --folder {{ruta/a/la/nueva_ubicación}}`
+`VBoxManage movevm {{nombre_vm}} --folder {{ruta/a/nueva_ubicación}}`
