@@ -19,7 +19,7 @@
 
 `docker-machine start {{nome}}`
 
-- Parar uma máquina:
+- Para uma máquina:
 
 `docker-machine stop {{nome}}`
 

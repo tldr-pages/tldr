@@ -7,11 +7,11 @@
 
 `arduino --verify {{caminho/para/arquivo.ino}}`
 
-- Compila e enviar sketch:
+- Compila e envia sketch:
 
 `arduino --upload {{caminho/para/arquivo.ino}}`
 
-- Compila e enviar sketch para um Arduino Nano com uma CPU Atmega328p, conectada na porta `/dev/ttyACM0`:
+- Compila e envia sketch para um Arduino Nano com uma CPU Atmega328p, conectada na porta `/dev/ttyACM0`:
 
 `arduino --board {{arduino:avr:nano:cpu=atmega328p}} --port {{/dev/ttyACM0}} --upload {{caminho/para/arquivo.ino}}`
 
@@ -19,7 +19,7 @@
 
 `arduino --pref {{nome}}={{valor}}`
 
-- Compila um sketch, colocar o resultado da compilação no diretório de compilação, e reutilizar qualquer resultado pre-existente neste diretório:
+- Compila um sketch, coloca o resultado da compilação no diretório de compilação, e reutiliza qualquer resultado pre-existente neste diretório:
 
 `arduino --pref build.path={{caminho/para/diretório}} --verify {{caminho/para/arquivo.ino}}`
 

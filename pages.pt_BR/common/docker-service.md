@@ -19,7 +19,7 @@
 
 `docker service ps {{nome_do_serviço|ID}}`
 
-- Escalar para um número específico de réplicas para uma lista separada por espaços de serviços:
+- Escala para um número específico de réplicas para uma lista separada por espaços de serviços:
 
 `docker service scale {{nome_do_serviço}}={{quantidade_de_réplicas}}`
 

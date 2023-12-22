@@ -23,7 +23,7 @@
 
 `choco source enable --name {{nome}}`
 
-- Desabilitar uma fonte de pacotes:
+- Desabilita uma fonte de pacotes:
 
 `choco source disable --name {{nome}}`
 

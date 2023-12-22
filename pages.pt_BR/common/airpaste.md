@@ -7,15 +7,15 @@
 
 `airpaste`
 
-- Envia texto:
+- Envia um texto:
 
 `echo {{texto}} | airpaste`
 
-- Envia arquivo:
+- Envia um arquivo:
 
 `airpaste < {{caminho/para/arquivo}}`
 
-- Recebe arquivo:
+- Recebe um arquivo:
 
 `airpaste > {{caminho/para/arquivo}}`
 

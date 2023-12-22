@@ -4,7 +4,7 @@
 > Alguns subcomandos, como `virsh list`, têm sua própria documentação de uso.
 > Mais informações: <https://libvirt.org/virshcmdref.html>.
 
-- Conectar-se a uma sessão do hipervisor:
+- Conecta a uma sessão do hipervisor:
 
 `virsh connect {{qemu:///system}}`
 
@@ -12,7 +12,7 @@
 
 `virsh list --all`
 
-- Despejar arquivo de configuração do convidado:
+- Despeja arquivo de configuração do convidado:
 
 `virsh dumpxml {{guest_id}} > {{caminho/para/convidado.xml}}`
 
@@ -20,11 +20,11 @@
 
 `virsh create {{caminho/para/arquivo_de_configuracao.xml}}`
 
-- Editar o arquivo de configuração de um convidado (o editor pode ser alterado com $EDITOR):
+- Edita o arquivo de configuração de um convidado (o editor pode ser alterado com $EDITOR):
 
 `virsh edit {{guest_id}}`
 
-- Inicia/reiniciar/desligar/suspender/resumir um convidado:
+- Inicia/reinicia/desliga/suspende/resume um convidado:
 
 `virsh {{comando}} {{guest_id}}`
 
@@ -32,6 +32,6 @@
 
 `virsh save {{guest_id}} {{nome_do_arquivo}}`
 
-- Excluir um convidado em execução:
+- Exclui um convidado em execução:
 
 `virsh destroy {{guest_id}} && virsh undefine {{guest_id}}`

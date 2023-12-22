@@ -11,11 +11,11 @@
 
 `docker exec --detach {{nome_do_contêiner}} {{comando}}`
 
-- Selecionar o diretório de trabalho para a execução de um determinado comando:
+- Seleciona o diretório de trabalho para a execução de um determinado comando:
 
 `docker exec --interactive --tty --workdir {{caminho/para/diretório}} {{nome_do_contêiner}} {{comando}}`
 
-- Executa um comando em segundo plano em um contêiner existente, mas manter o `stdin` aberto:
+- Executa um comando em segundo plano em um contêiner existente, mas mantém o `stdin` aberto:
 
 `docker exec --interactive --detach {{nome_do_contêiner}} {{comando}}`
 

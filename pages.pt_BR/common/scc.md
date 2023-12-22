@@ -23,7 +23,7 @@
 
 `scc --include-ext {{go, java, js}}`
 
-- Excluir diretórios da contagem:
+- Exclui diretórios da contagem:
 
 `scc --exclude-dir {{.git,.hg}}`
 

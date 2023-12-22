@@ -15,7 +15,7 @@
 
 `cmd /k "{{comando}}"`
 
-- Desabilitar o uso do comando `echo` na saída dos comandos:
+- Desabilita o uso do comando `echo` na saída dos comandos:
 
 `cmd /q`
 

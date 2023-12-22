@@ -15,22 +15,22 @@
 
 `podman ps --latest`
 
-- Filtrar contêineres que contenham uma substring em seus nomes:
+- Filtra contêineres que contêm uma substring em seus nomes:
 
 `podman ps --filter "name={{nome}}"`
 
-- Filtrar contêineres que compartilhem uma determinada imagem como ancestral:
+- Filtra contêineres que compartilham uma determinada imagem como ancestral:
 
 `podman ps --filter "ancestor={{imagem}}:{{tag}}"`
 
-- Filtrar contêineres pelo código de status de saída:
+- Filtra contêineres pelo código de status de saída:
 
 `podman ps --all --filter "exited={{código}}"`
 
-- Filtrar contêineres pelo status (criado, em execução, removendo, pausado, encerrado e morto):
+- Filtra contêineres pelo status (criado, em execução, removendo, pausado, encerrado e morto):
 
 `podman ps --filter "status={{status}}"`
 
-- Filtrar contêineres que montam um volume específico ou têm um volume montado em um caminho específico:
+- Filtra contêineres que montam um volume específico ou têm um volume montado em um caminho específico:
 
 `podman ps --filter "volume={{caminho/para/diretório}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`

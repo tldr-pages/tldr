@@ -7,7 +7,7 @@
 
 `podman-compose ps`
 
-- Cria e iniciar todos os contêineres em segundo plano usando um arquivo `docker-compose.yml` local:
+- Cria e inicia todos os contêineres em segundo plano usando um arquivo `docker-compose.yml` local:
 
 `podman-compose up -d`
 
@@ -19,7 +19,7 @@
 
 `podman-compose {{caminho/para/arquivo}} up`
 
-- Parar todos os contêineres em execução:
+- Para todos os contêineres em execução:
 
 `podman-compose stop`
 
@@ -27,7 +27,7 @@
 
 `podman-compose down --volumes`
 
-- Acompanhar logs de um contêiner (omitir todos os nomes de contêineres):
+- Acompanha logs de um contêiner (omite todos os nomes de contêineres):
 
 `podman-compose logs --follow {{nome_do_contêiner}}`
 

@@ -7,10 +7,10 @@
 
 `apachectl start`
 
-- Parar o job launchd:
+- Para o job launchd:
 
 `apachectl stop`
 
-- Parar, e então iniciar o job launchd:
+- Para, e então inicia o job launchd:
 
 `apachectl restart`

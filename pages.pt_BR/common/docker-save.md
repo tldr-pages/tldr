@@ -15,6 +15,6 @@
 
 `docker save --output {{caminho/para/arquivo.tar}} {{nome_da_imagem}}`
 
-- Selecionar tags específicas de uma imagem para salvar:
+- Seleciona tags específicas de uma imagem para salvar:
 
 `docker save --output {{caminho/para/arquivo.tar}} {{nome_da_imagem:tag1 nome_da_imagem:tag2 ...}}`

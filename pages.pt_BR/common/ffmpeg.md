@@ -19,7 +19,7 @@
 
 `ffmpeg -ss {{mm:ss}} -i {{vídeo}} -frames 1 -s {{128x128}} -f image2 {{quadro.png}}`
 
-- Cortar um vídeo de um dado tempo inicial mm:ss até um tempo final mm2:ss2 (omita a opção -to para cortar o vídeo até o final):
+- Corta um vídeo de um dado tempo inicial mm:ss até um tempo final mm2:ss2 (omita a opção -to para cortar o vídeo até o final):
 
 `ffmpeg -ss {{mm:ss}} -to {{mm2:ss2}} -i {{vídeo_entrada}} -codec copy {{vídeo_saída}}`
 
@@ -27,7 +27,7 @@
 
 `ffmpeg -i {{vídeo_entrada}}.avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 {{vídeo_saída}}.mp4`
 
-- Remuxar um vídeo MKV para MP4 sem recodificar áudio ou vídeo:
+- Remuxa um vídeo MKV para MP4 sem recodificar áudio ou vídeo:
 
 `ffmpeg -i {{vídeo_entrada}}.mkv -codec copy {{vídeo_saída}}.mp4`
 

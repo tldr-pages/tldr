@@ -11,7 +11,7 @@
 
 `choco info {{pacote}} --local-only`
 
-- Especificar uma fonte personalizada para receber as informações de um pacote:
+- Especifica uma fonte personalizada para receber as informações de um pacote:
 
 `choco info {{pacote}} --source {{url_da_fonte|apelido}}`
 

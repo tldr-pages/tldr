@@ -27,7 +27,7 @@
 
 `choco install {{pacote}} --yes`
 
-- Especificar uma fonte personalizada para receber pacotes:
+- Especifica uma fonte personalizada para receber pacotes:
 
 `choco install {{pacote}} --source {{url_do_pacote|apelido}}`
 

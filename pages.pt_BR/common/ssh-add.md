@@ -16,11 +16,11 @@
 
 `ssh-add -l`
 
-- Excluir uma chave do ssh-agent:
+- Exclui uma chave do ssh-agent:
 
 `ssh-add -d {{caminho/para/chave_privada}}`
 
-- Excluir todas as chaves carregadas atualmente do ssh-agent:
+- Exclui todas as chaves carregadas atualmente do ssh-agent:
 
 `ssh-add -D`
 

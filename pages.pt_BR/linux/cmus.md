@@ -12,7 +12,7 @@
 
 `:add {{caminho_para_arquivo_ou_diretorio}}`
 
-- Parar/reiniciar a música atual:
+- Para/reinicia a música atual:
 
 `c`
 

@@ -8,11 +8,11 @@
 
 `podman image ls`
 
-- Excluir imagens Docker locais não utilizadas:
+- Exclui imagens Docker locais não utilizadas:
 
 `podman image prune`
 
-- Excluir todas as imagens não utilizadas (não apenas aquelas sem uma tag):
+- Exclui todas as imagens não utilizadas (não apenas aquelas sem uma tag):
 
 `podman image prune --all`
 

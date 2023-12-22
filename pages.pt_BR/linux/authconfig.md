@@ -15,7 +15,7 @@
 
 `authconfig --update --enableldapauth`
 
-- Desabilitar a autenticação via LDAP:
+- Desabilita a autenticação via LDAP:
 
 `authconfig --update --disableldapauth`
 

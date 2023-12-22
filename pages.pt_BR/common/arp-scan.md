@@ -11,7 +11,7 @@
 
 `arp-scan {{192.168.1.1}}/{{24}}`
 
-- Verifica as máquinas de uma rede IP que estejam em uma faixa de valores:
+- Verifica as máquinas de uma rede IP que estão em uma faixa de valores:
 
 `arp-scan {{127.0.0.0}}-{{127.0.0.31}}`
 

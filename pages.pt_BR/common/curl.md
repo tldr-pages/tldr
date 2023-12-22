@@ -28,10 +28,10 @@
 
 `curl --data {{'{"nome":"maria"}'}} --header {{'Content-Type: application/json'}} {{http://example.com/usuarios/123}}`
 
-- Passar ao pedido o nome de usuário e senha para autenticação no servidor:
+- Passa ao pedido o nome de usuário e senha para autenticação no servidor:
 
 `curl -u usuario:senha {{http://example.com}}`
 
-- Passar ao pedido o certificado do cliente e a chave para um recurso, omitindo a validação do certificado:
+- Passa ao pedido o certificado do cliente e a chave para um recurso, omitindo a validação do certificado:
 
 `curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://example.com}}`

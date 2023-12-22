@@ -4,11 +4,11 @@
 > Nota: Privilégios de administrador (ou sudo) são necessários para listar arquivos abertos por outros.
 > Mais informações: <https://manned.org/lsof>.
 
-- Localizar os processos que têm um certo arquivo aberto:
+- Localiza os processos que têm um certo arquivo aberto:
 
 `lsof {{caminho/para/arquivo}}`
 
-- Localizar o processo que abriu uma porta de internet local:
+- Localiza o processo que abriu uma porta de internet local:
 
 `lsof -i :{{porta}}`
 
@@ -32,6 +32,6 @@
 
 `lsof +D {{caminho/para/diretório}}`
 
-- Encontrar o processo que está ouvindo uma porta de TCP local:
+- Encontra o processo que está ouvindo uma porta de TCP local:
 
 `lsof -iTCP:{{porta}} -sTCP:LISTEN`

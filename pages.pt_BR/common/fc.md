@@ -7,7 +7,7 @@
 
 `fc`
 
-- Especificar o editor de texto que será utilizado ao executar o comando:
+- Especifica o editor de texto que será utilizado ao executar o comando:
 
 `fc -e {{'emacs'}}`
 

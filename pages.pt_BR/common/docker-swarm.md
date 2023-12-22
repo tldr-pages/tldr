@@ -3,7 +3,7 @@
 > Uma ferramenta de orquestração de contêineres.
 > Mais informações: <https://docs.docker.com/engine/swarm/>.
 
-- Inicializar um cluster do Swarm:
+- Inicializa um cluster do Swarm:
 
 `docker swarm init`
 
@@ -23,7 +23,7 @@
 
 `docker swarm ca`
 
-- Rotacionar o certificado CA atual e exibir o novo certificado:
+- Rotacionar o certificado CA atual e exibe o novo certificado:
 
 `docker swarm ca --rotate`
 

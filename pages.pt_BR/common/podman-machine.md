@@ -20,14 +20,14 @@
 
 `podman machine init --cpus={{4}} --memory={{4096}} --disk-size={{50}}`
 
-- Inicia ou parar uma máquina:
+- Inicia ou para uma máquina:
 
 `podman machine {{start|stop}} {{nome}}`
 
-- Conectar-se a uma máquina em execução via SSH:
+- Conecta-se a uma máquina em execução via SSH:
 
 `podman machine ssh {{nome}}`
 
-- Inspecionar informações sobre uma máquina:
+- Inspeciona informações sobre uma máquina:
 
 `podman machine inspect {{nome}}`

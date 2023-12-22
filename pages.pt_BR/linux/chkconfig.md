@@ -19,10 +19,10 @@
 
 `chkconfig --level {{2345}} {{sshd}} on`
 
-- Desabilitar a inicialização de um determinado serviço durante o processo de boot:
+- Desabilita a inicialização de um determinado serviço durante o processo de boot:
 
 `chkconfig {{ntpd}} off`
 
-- Desabilitar a inicialização de um determinado serviço durante o processo de boot para o runlevel 3:
+- Desabilita a inicialização de um determinado serviço durante o processo de boot para o runlevel 3:
 
 `chkconfig --level {{3}} {{ntpd}} off`

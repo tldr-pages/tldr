@@ -11,7 +11,7 @@
 
 `sudo chage --maxdays {{10}} {{nome_do_usuario}}`
 
-- Desabilitar a expiração da senha do usuário:
+- Desabilita a expiração da senha do usuário:
 
 `sudo chage --maxdays {{-1}} {{nome_do_usuario}}`
 

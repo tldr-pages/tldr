@@ -7,15 +7,15 @@
 
 `convert {{imagem.jpg}} {{imagem.png}}`
 
-- Escalar uma imagem para 50% do seu tamanho original:
+- Escala uma imagem para 50% do seu tamanho original:
 
 `convert {{imagem.png}} -resize 50% {{nova_imagem.png}}`
 
-- Escalar uma imagem, mantendo as suas proporções originais, para uma dimensão máxima de 640x480:
+- Escala uma imagem, mantendo as suas proporções originais, para uma dimensão máxima de 640x480:
 
 `convert {{imagem.png}} -resize 640x480 {{nova_imagem.png}}`
 
-- Juntar várias imagens horizontalmente:
+- Junta várias imagens horizontalmente:
 
 `convert {{imagem1.png}} {{imagem2.png}} {{imagem3.png}} +append {{nova_imagem.png}}`
 

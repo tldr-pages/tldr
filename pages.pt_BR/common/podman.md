@@ -12,11 +12,11 @@
 
 `podman run --name {{nome_do_contêiner}} {{imagem}}`
 
-- Inicia ou parar um contêiner existente:
+- Inicia ou para um contêiner existente:
 
 `podman {{start|stop}} {{nome_do_contêiner}}`
 
-- Baixar uma imagem de um registro (por padrão, Docker Hub):
+- Baixa uma imagem de um registro (por padrão, Docker Hub):
 
 `podman pull {{imagem}}`
 
@@ -32,6 +32,6 @@
 
 `podman rm {{nome_do_contêiner}}`
 
-- Exibe os logs de um ou mais contêineres e acompanhar a saída do log:
+- Exibe os logs de um ou mais contêineres e acompanha a saída do log:
 
 `podman logs --follow {{nome_do_contêiner}} {{id_do_contêiner}}`

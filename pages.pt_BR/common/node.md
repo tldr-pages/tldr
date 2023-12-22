@@ -7,7 +7,7 @@
 
 `node {{arquivo}}.js`
 
-- Inicializar a REPL (shell interativa):
+- Inicializr a REPL (shell interativa):
 
 `node`
 
