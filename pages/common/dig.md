@@ -15,10 +15,6 @@
 
 `dig +short {{example.com}} {{A|MX|TXT|CNAME|NS}}`
 
-- Get all types of records for a given domain name:
-
-`dig {{example.com}} ANY`
-
 - Specify an alternate DNS server to query:
 
 `dig @{{8.8.8.8}} {{example.com}}`
