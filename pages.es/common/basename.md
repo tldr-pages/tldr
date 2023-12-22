@@ -9,7 +9,7 @@
 
 - Imprime el componente terminal de la ruta de un directorio:
 
-`basename {{ruta/de/directorio}}`
+`basename {{ruta/al/directorio}}`
 
 - Imprime el nombre de un fichero sin un sufijo:
 
