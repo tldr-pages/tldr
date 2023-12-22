@@ -3,7 +3,7 @@
 > Een set van reverse engineering tools.
 > Meer informatie: <https://www.radare.org/r/docs.html>.
 
-- Open een bestand schrijfbaar zonder het parsen van de bestandsformaat headers:
+- Open een schrijfbaar bestand zonder het parsen van de bestandsformaat headers:
 
 `radare2 -nw {{pad/naar/binary}}`
 
