@@ -8,7 +8,7 @@
 
 `autossh -M {{porta_de_monitoramento}} "{{comando_ssh}}"`
 
-- Redirecionar uma porta local para uma porta remota, reiniciando quando necessário:
+- Redireciona uma porta local para uma porta remota, reiniciando quando necessário:
 
 `autossh -M {{porta_de_monitoramento}} -L {{porta_local}}:localhost:{{porta_remota}} {{usuário}}@{{host}}`
 

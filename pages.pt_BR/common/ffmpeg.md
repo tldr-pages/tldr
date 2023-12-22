@@ -3,7 +3,7 @@
 > Ferramenta de conversão de vídeo.
 > Mais informações: <https://ffmpeg.org>.
 
-- Extrair o som de um vídeo e salvá-lo como MP3:
+- Extrai o som de um vídeo e salva-o como MP3:
 
 `ffmpeg -i {{vídeo}} -vn {{som}}.mp3`
 
@@ -11,11 +11,11 @@
 
 `ffmpeg -i {{vídeo|gif}} {{quadro_%d.png}}`
 
-- Combinar imagens numeradas (`quadro_1.jpg`, `quadro_2.jpg`, etc) em um vídeo ou GIF:
+- Combina imagens numeradas (`quadro_1.jpg`, `quadro_2.jpg`, etc) em um vídeo ou GIF:
 
 `ffmpeg -i {{quadro_%d.jpg}} -f image2 {{vídeo|gif}}`
 
-- Extrair um único quadro de um vídeo no tempo mm:ss e salvá-lo como uma imagem de resolução 128x128:
+- Extrai um único quadro de um vídeo no tempo mm:ss e salva-o como uma imagem de resolução 128x128:
 
 `ffmpeg -ss {{mm:ss}} -i {{vídeo}} -frames 1 -s {{128x128}} -f image2 {{quadro.png}}`
 
@@ -31,6 +31,6 @@
 
 `ffmpeg -i {{vídeo_entrada}}.mkv -codec copy {{vídeo_saída}}.mp4`
 
-- Converte vídeo MP4 para o codec VP9. Para a melhor qualidade, use um valor CRF (faixa recomendada 15-35) e -b:video DEVE ser 0:
+- Converte um vídeo MP4 para o codec VP9. Para a melhor qualidade, use um valor CRF (faixa recomendada 15-35) e -b:video DEVE ser 0:
 
 `ffmpeg -i {{vídeo_entrada}}.mp4 -codec:video libvpx-vp9 -crf {{30}} -b:video 0 -codec:audio libopus -vbr on -threads {{número_de_threads}} {{vídeo_saída}}.webm`

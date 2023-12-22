@@ -7,7 +7,7 @@
 
 `history`
 
-- Apagar o histórico da linha de comandos:
+- Apaga o histórico da linha de comandos:
 
 `history -c`
 

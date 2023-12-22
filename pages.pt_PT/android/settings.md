@@ -7,14 +7,14 @@
 
 `settings list {{global}}`
 
-- Obter o valor de uma configuração específica:
+- Obtém o valor de uma configuração específica:
 
 `settings get {{global}} {{airplane_mode_on}}`
 
-- Editar o valor de uma configuração:
+- Edita o valor de uma configuração:
 
 `settings put {{system}} {{screen_brightness}} {{42}}`
 
-- Apagar uma configuração:
+- Apaga uma configuração:
 
 `settings delete {{secure}} {{screensaver_enabled}}`

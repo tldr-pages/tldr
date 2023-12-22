@@ -15,7 +15,7 @@
 
 `bzip2 -dc {{arquivo_compactado.bz2}}`
 
-- Testar a integridade de cada arquivo dentro do arquivo compactado:
+- Testa a integridade de cada arquivo dentro do arquivo compactado:
 
 `bzip2 --test {{caminho/para/arquivo_compactado.bz2}}`
 

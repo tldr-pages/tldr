@@ -7,7 +7,7 @@
 
 `logcat`
 
-- Escrever as mensagens de sistema num ficheiro:
+- Escreve as mensagens de sistema num ficheiro:
 
 `logcat -f {{caminho/para/arquivo}}`
 

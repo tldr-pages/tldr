@@ -8,7 +8,7 @@
 
 `7za a {{diretório/arquivo_compactado.7z}} {{diretório/ficheiro_ou_diretório}}`
 
-- Encriptar um arquivo existente (incluindo os nomes dos ficheiros):
+- Encripta um arquivo existente (incluindo os nomes dos ficheiros):
 
 `7za a {{diretório/ficheiro_encriptado.7z}} -p{{palavra-passe}} -mhe={{on}} {{diretório/arquivo_compactado.7z}}`
 

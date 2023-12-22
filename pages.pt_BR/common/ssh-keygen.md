@@ -19,18 +19,18 @@
 
 `ssh-keygen -R {{host_remoto}}`
 
-- Obter a impressão digital de uma chave em MD5 Hex:
+- Obtém a impressão digital de uma chave em MD5 Hex:
 
 `ssh-keygen -l -E {{md5}} -f {{~/.ssh/nome_do_arquivo}}`
 
-- Alterar a senha de uma chave:
+- Altera a senha de uma chave:
 
 `ssh-keygen -p -f {{~/.ssh/nome_do_arquivo}}`
 
-- Alterar o tipo de formato da chave (por exemplo, de formato OPENSSH para PEM), o arquivo será reescrito no local:
+- Altera o tipo de formato da chave (por exemplo, de formato OPENSSH para PEM), o arquivo será reescrito no local:
 
 `ssh-keygen -p -N "" -m {{PEM}} -f {{~/.ssh/chave_privada_OpenSSH}}`
 
-- Obter a chave pública a partir da chave secreta:
+- Obtém a chave pública a partir da chave secreta:
 
 `ssh-keygen -y -f {{~/.ssh/chave_privada_OpenSSH}}`

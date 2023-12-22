@@ -23,7 +23,7 @@
 
 `tmux attach-session -t {{nome}}`
 
-- Sair da sessão atual (com o prefixo Ctrl-B):
+- Sai da sessão atual (com o prefixo Ctrl-B):
 
 `Ctrl-B d`
 

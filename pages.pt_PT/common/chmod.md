@@ -3,11 +3,11 @@
 > Alterar as permissões de acesso a um ficheiro ou diretório.
 > Mais informações: <https://www.gnu.org/software/coreutils/chmod>.
 
-- Dar a um [u]tilizador que possui um ficheiro o direito a e[x]ecutá-lo:
+- Dá a um [u]tilizador que possui um ficheiro o direito a e[x]ecutá-lo:
 
 `chmod u+x {{ficheiro}}`
 
-- Dar a um [u]tilizador direitos para le[r] e escrever ([w]) num ficheiro/diretório:
+- Dá a um [u]tilizador direitos para le[r] e escrever ([w]) num ficheiro/diretório:
 
 `chmod u+rw {{ficheiro_ou_diretorio}}`
 
@@ -15,11 +15,11 @@
 
 `chmod g-x {{ficheiro}}`
 
-- Dar a todos ([a]) os utilizadores o direito de le[r] e e[x]ecutar:
+- Dá a todos ([a]) os utilizadores o direito de le[r] e e[x]ecutar:
 
 `chmod a+rx {{ficheiro}}`
 
-- Dar a [o]utros (que não estão no grupo do dono do ficheiro) os mesmos direitos do [g]rupo:
+- Dá a [o]utros (que não estão no grupo do dono do ficheiro) os mesmos direitos do [g]rupo:
 
 `chmod o=g {{ficheiro}}`
 

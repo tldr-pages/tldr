@@ -4,15 +4,15 @@
 > Suporta a maioria dos protocolos de comunicação, incluindo HTTP, FTP e POP3.
 > Mais informações: <https://curl.se/docs/manpage.html>.
 
-- Descarregar os conteúdos de um URL para um arquivo:
+- Descarrega os conteúdos de um URL para um arquivo:
 
 `curl {{http://example.com}} --output {{arquivo}}`
 
-- Descarregar um arquivo, gravando o resultado sob o nome do arquivo indicado pelo URL:
+- Descarrega um arquivo, gravando o resultado sob o nome do arquivo indicado pelo URL:
 
 `curl --remote-name {{http://example.com/arquivo}}`
 
-- Descarregar um arquivo, seguindo redirecionamentos e automaticamente continuando transferências idênticas que tenham sido interrompidas:
+- Descarrega um arquivo, seguindo redirecionamentos e automaticamente continuando transferências idênticas que tenham sido interrompidas:
 
 `curl --remote-name --location --continue-at - {{http://example.com/arquivo}}`
 

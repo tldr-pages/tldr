@@ -11,11 +11,11 @@
 
 `pkg install {{pacote}}`
 
-- Desinstalar um pacote:
+- Desinstala um pacote:
 
 `pkg uninstall {{pacote}}`
 
-- Reinstalar um pacote:
+- Reinstala um pacote:
 
 `pkg reinstall {{pacote}}`
 

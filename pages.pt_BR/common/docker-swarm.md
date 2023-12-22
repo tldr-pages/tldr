@@ -27,6 +27,6 @@
 
 `docker swarm ca --rotate`
 
-- Alterar o período de validade dos certificados dos nós:
+- Altera o período de validade dos certificados dos nós:
 
 `docker swarm update --cert-expiry {{horas}}h{{minutos}}m{{segundos}}s`

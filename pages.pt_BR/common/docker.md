@@ -12,15 +12,15 @@
 
 `docker ps -a`
 
-- Inicializar um container com um nome personalizado a partir de uma imagem:
+- Inicializa um container com um nome personalizado a partir de uma imagem:
 
 `docker run --name {{nome_container}} {{imagem}}`
 
-- Começar ou parar um container existente:
+- Começa ou para um container existente:
 
 `docker {{start|stop}} {{nome_container}}`
 
-- Extrair uma imagem a partir de um Docker Registry:
+- Extrai uma imagem a partir de um Docker Registry:
 
 `docker pull {{imagem}}`
 
@@ -32,6 +32,6 @@
 
 `docker rm {{nome_container}}`
 
-- Obter e acompanhar o histórico de um container:
+- Obtém e acompanha o histórico de um container:
 
 `docker logs -f {{nome_container}}`

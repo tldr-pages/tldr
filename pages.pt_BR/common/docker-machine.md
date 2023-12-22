@@ -11,7 +11,7 @@
 
 `docker-machine create {{nome}}`
 
-- Obter o status de uma máquina:
+- Obtém o status de uma máquina:
 
 `docker-machine status {{nome}}`
 

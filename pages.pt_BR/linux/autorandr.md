@@ -11,7 +11,7 @@
 
 `autorandr`
 
-- Alterar o perfil:
+- Altera o perfil:
 
 `autorandr -l {{nome_do_perfil}}`
 

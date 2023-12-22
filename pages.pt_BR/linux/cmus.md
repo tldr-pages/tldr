@@ -16,7 +16,7 @@
 
 `c`
 
-- Ativar/Desativar o modo aleatório:
+- Ativa/Desativa o modo aleatório:
 
 `s`
 

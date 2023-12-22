@@ -3,11 +3,11 @@
 > Constrói e visualiza a documentação de um pacote Rust, opcionalmente em modo offline.
 > Mais informações: <https://doc.rust-lang.org/cargo/commands/cargo-doc.html>.
 
-- Construir a documentação padrão do pacote e mostrá-la no navegador:
+- Constrói a documentação padrão do pacote e mostrá-la no navegador:
 
 `cargo doc --open`
 
-- Construir a documentação sem acessar a rede:
+- Constrói a documentação sem acessar a rede:
 
 `cargo doc --offline`
 

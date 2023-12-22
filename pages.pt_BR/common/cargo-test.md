@@ -15,11 +15,11 @@
 
 `cargo test --locked`
 
-- Testar os artefatos em modo de publicação (release), com otimizações:
+- Testa os artefatos em modo de publicação (release), com otimizações:
 
 `cargo test --release`
 
-- Testar todos os pacotes no workspace:
+- Testa todos os pacotes no workspace:
 
 `cargo test --workspace`
 

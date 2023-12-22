@@ -7,10 +7,10 @@
 
 `xrdb`
 
-- Carregar valores (p. ex. regras de estilo) de um ficheiro de recursos:
+- Carrega valores (p. ex. regras de estilo) de um ficheiro de recursos:
 
 `xrdb -load {{~/.Xresources}}`
 
-- Consultar base de dados de recursos e mostrar estado actual dos recursos:
+- Consulta base de dados de recursos e mostra estado actual dos recursos:
 
 `xrdb -query`

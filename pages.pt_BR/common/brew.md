@@ -19,7 +19,7 @@
 
 `brew upgrade {{formula}}`
 
-- Recuperar a versão mais recente do Linuxbrew e de todas as fórmulas do GitHub:
+- Recupera a versão mais recente do Linuxbrew e de todas as fórmulas do GitHub:
 
 `brew update`
 

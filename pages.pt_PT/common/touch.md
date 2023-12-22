@@ -16,6 +16,6 @@
 
 `touch -r {{ficheiro1}} {{ficheiro2}}`
 
-- Alterar as timestamps de um ficheiro. Não cria novo ficheiro se não existir:
+- Altera as timestamps de um ficheiro. Não cria novo ficheiro se não existir:
 
 `touch -c {{ficheiro}}`
