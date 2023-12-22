@@ -1,4 +1,4 @@
-# kubctl replace
+# kubectl replace
 
 > Replace a resource by file or `stdin`.
 > More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#replace>.
