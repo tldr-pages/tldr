@@ -13,7 +13,7 @@
 
 - Publica la rama actual en el repositorio remoto y establece el nombre remoto de la rama:
 
-`git push {{nombre_remoto}} -u {{rama_remota}}`
+`git push -u {{nombre_remoto}} {{rama_remota}}`
 
 - Envía los cambios locales de una rama específica a una rama específica en el remoto:
 
