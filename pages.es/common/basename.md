@@ -13,4 +13,4 @@
 
 - Imprime el nombre de un fichero sin un sufijo:
 
-`basename {{ruta/de/fichero}} {{sufijo}}`
+`basename {{ruta/al/archivo}} {{sufijo}}`
