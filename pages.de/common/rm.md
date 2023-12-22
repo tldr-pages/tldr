@@ -5,7 +5,7 @@
 
 - Lösche Dateien an beliebigen Speicherorten:
 
-`rm {{pfad/zu/datei}} {{pfad/zu/anderer/datei}}`
+`rm {{pfad/zu/datei1 pfad/zu/datei2 ...}}`
 
 - Lösche ein Verzeichnis und alle seine Unterverzeichnisse rekursiv:
 

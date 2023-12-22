@@ -18,11 +18,11 @@
 
 - Numera todas as linhas de saída:
 
-`bat -n {{arquivo}}`
+`bat --number {{arquivo}}`
 
 - Realça a sintaxe de um arquivo JSON:
 
-`bat --language json {{arquivo.json}}`
+`bat --language {{json}} {{arquivo.json}}`
 
 - Mostra todas as linguagens suportadas:
 

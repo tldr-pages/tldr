@@ -5,7 +5,7 @@
 
 - Usuń pliki z dowolnej lokalizacji:
 
-`rm {{ścieżka/do/pliku}} {{ścieżka/do/innego/pliku}}`
+`rm {{ścieżka/do/pliku1 ścieżka/do/pliku2 ...}}`
 
 - Rekursywnie usuń folder oraz wszystkie jego podfoldery:
 

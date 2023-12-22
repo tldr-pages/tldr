@@ -5,7 +5,7 @@
 
 - Menghapus berkas dari lokasi manapun:
 
-`rm {{alamat/ke/berkas}} {{alamat/ke/berkas/lainnya}}`
+`rm {{alamat/ke/berkas1 alamat/ke/berkas2 ...}}`
 
 - Menghapus direktori dan semua subdirektorinya secara rekursif:
 

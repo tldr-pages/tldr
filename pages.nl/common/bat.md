@@ -22,7 +22,7 @@
 
 - Highlight de syntax van een JSON-bestand:
 
-`bat --language json {{bestand.json}}`
+`bat --language {{json}} {{bestand.json}}`
 
 - Toon alle ondersteunde talen:
 

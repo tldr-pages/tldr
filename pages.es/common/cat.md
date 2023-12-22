@@ -9,11 +9,11 @@
 
 - Concatena múltiples archivos dentro de un archivo determinado:
 
-`cat {{archivo1}} {{archivo2}} > {{archivo_final}}`
+`cat {{archivo1 archivo2 ...}} > {{archivo_final}}`
 
 - Añade múltiples archivos dentro de un archivo determinado:
 
-`cat {{archivo1}} {{archivo2}} >> {{archivo_final}}`
+`cat {{archivo1 archivo2 ...}} >> {{archivo_final}}`
 
 - Muestra el número de líneas de un archivo:
 

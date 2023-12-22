@@ -17,11 +17,11 @@
 
 - 모든 출력 라인 번호 매기기:
 
-`bat -n {{file}}`
+`bat --number {{file}}`
 
 - json파일 구문 강조:
 
-`bat --language json {{file.json}}`
+`bat --language {{json}} {{file.json}}`
 
 - 지원되는 모든 언어 표시:
 

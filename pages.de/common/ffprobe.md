@@ -5,7 +5,7 @@
 
 - Zeige alle verfügbaren Stream-Informationen einer Medien-Datei an:
 
-`ffprobe -v error -show_entries {{datei.mp4}}`
+`ffprobe -v error -show_streams {{datei.mp4}}`
 
 - Zeige Spieldauer an:
 

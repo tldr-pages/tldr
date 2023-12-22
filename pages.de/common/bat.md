@@ -18,7 +18,7 @@
 
 - Nummeriere alle ausgegebenen Zeilen:
 
-`bat -n {{pfad/zu/datei}}`
+`bat --number {{pfad/zu/datei}}`
 
 - Hebe die Syntax einer JSON-Datei hervor:
 

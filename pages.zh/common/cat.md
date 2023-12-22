@@ -5,15 +5,15 @@
 
 - 以标准输出，打印文件内容：
 
-`cat {{file}}`
+`cat {{path/to/file}}`
 
 - 多文件合并到目标文件：
 
-`cat {{file1}} {{file2}} > {{target_file}}`
+`cat {{path/to/file1 path/to/file2 ...}} > {{target_file}}`
 
 - 多文件合并，并追加到目标文件：
 
-`cat {{file1}} {{file2}} >> {{target_file}}`
+`cat {{path/to/file1 path/to/file2 ...}} >> {{target_file}}`
 
 - 显示行号：
 

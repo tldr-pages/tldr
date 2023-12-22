@@ -3,13 +3,13 @@
 > Verwalte und Arbeite mit Git Branches.
 > Weitere Informationen: <https://git-scm.com/docs/git-branch>.
 
-- Liste alle lokalen Branches auf. Der momentan aktive (ausgecheckte) Branch wird mit `*` markiert:
+- Liste alle Branches auf (Lokal und Remote). Der momentan aktive (ausgecheckte) Branch wird mit `*` markiert:
 
-`git branch`
+`git branch --all`
 
-- Liste alle Branches auf (Lokal und Remote):
+- Liste alle Branches welche ein spezifisches Git commit in ihre Geschichte enthalten:
 
-`git branch -a`
+`git branch --all --contains {{commit_hash}}`
 
 - Zeige den Namen des aktuellen Branches:
 

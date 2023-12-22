@@ -25,12 +25,12 @@
 
 - Converter um vídeo AVI para MP4. AAC Áudio @ 128kbit, h264 Vídeo @ CRF 23:
 
-`ffmpeg -i {{vídeo_entrada}}.avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 {{vídeo_saída}}.mp4`
+`ffmpeg -i {{vídeo_entrada}}.avi -codec:a aac -b:a 128k -codec:v libx264 -crf 23 {{vídeo_saída}}.mp4`
 
 - Remuxar um vídeo MKV para MP4 sem recodificar áudio ou vídeo:
 
 `ffmpeg -i {{vídeo_entrada}}.mkv -codec copy {{vídeo_saída}}.mp4`
 
-- Converter vídeo MP4 para o codec VP9. Para a melhor qualidade, use um valor CRF (faixa recomendada 15-35) e -b:video DEVE ser 0:
+- Converter vídeo MP4 para o codec VP9. Para a melhor qualidade, use um valor CRF (faixa recomendada 15-35) e -b:v DEVE ser 0:
 
-`ffmpeg -i {{vídeo_entrada}}.mp4 -codec:video libvpx-vp9 -crf {{30}} -b:video 0 -codec:audio libopus -vbr on -threads {{número_de_threads}} {{vídeo_saída}}.webm`
+`ffmpeg -i {{vídeo_entrada}}.mp4 -codec:v libvpx-vp9 -crf {{30}} -b:v 0 -codec:a libopus -vbr on -threads {{número_de_threads}} {{vídeo_saída}}.webm`

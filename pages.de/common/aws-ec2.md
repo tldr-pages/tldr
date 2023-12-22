@@ -16,9 +16,9 @@
 
 `aws ec2 describe-volumes`
 
-- Liste Informationen zu einem bestimmten EC2 Volumen auf:
+- Löschen ein EC2 Volumen:
 
-`aws ec2 describe-volume --volume-id {{volumen_id}}`
+`aws ec2 delete-volume --volume-id {{volumen_id}}`
 
 - Erstelle einen Snapshot, basierend auf einem EC2 Volumen:
 

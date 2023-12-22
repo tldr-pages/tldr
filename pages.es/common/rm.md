@@ -5,7 +5,7 @@
 
 - Elimina archivos de ubicaciones arbitrarias:
 
-`rm {{ruta/al/archivo}} {{ruta/al/otro/archivo}}`
+`rm {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
 - Elimina, de forma recursiva, un directorio y todos sus subdirectorios:
 

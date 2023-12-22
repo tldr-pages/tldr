@@ -14,7 +14,7 @@
 
 - Descarregar um arquivo, seguindo redirecionamentos e automaticamente continuando transferências idênticas que tenham sido interrompidas:
 
-`curl --remote-name --location --continue-at - {{http://example.com/arquivo}}`
+`curl --fail --remote-name --location --continue-at - {{http://example.com/arquivo}}`
 
 - Enviar dados codificados por formulário (pedido POST do tipo `application/x-www-form-urlencoded`):
 
@@ -30,7 +30,7 @@
 
 - Passar ao pedido o nome de usuário e senha para autenticação no servidor:
 
-`curl -u usuario:senha {{http://example.com}}`
+`curl -u {{usuario:senha}} {{http://example.com}}`
 
 - Passar ao pedido o certificado do cliente e a chave para um recurso, omitindo a validação do certificado:
 

@@ -5,7 +5,7 @@
 
 - Extrahiere den Ton eines Videos und speichere ihn als MP3:
 
-`ffmpeg -i {{pfad/zu/video.mp4}} -vn {{pfad/zu/audio.mp3}}`
+`ffmpeg -i {{pfad/zu/video.mp4}} -vn {{pfad/zu/audio}}.mp3`
 
 - Konvertiere Frames eines Videos oder Gifs zu individuellen, nummerierten Bildern:
 
@@ -25,12 +25,12 @@
 
 - Konvertiere ein AVI Video zu MP4. AAC Audio @ 128kbit, h264 Video @ CRF 23:
 
-`ffmpeg -i {{pfad/zu/input_video}}.avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 {{pfad/zu/output_video}}.mp4`
+`ffmpeg -i {{pfad/zu/input_video}}.avi -codec:a aac -b:a 128k -codec:v libx264 -crf 23 {{pfad/zu/output_video}}.mp4`
 
 - Remuxe ein MKV Video zu MP4 ohne Audio oder Video streams neu zu codieren:
 
 `ffmpeg -i {{pfad/zu/input_video}}.mkv -codec copy {{pfad/zu/output_video}}.mp4`
 
-- Konvertiere ein MP4 video zu VP9. Für beste Qualität, nutze einen CRF Wert von 15 bis 35 und -b:video MUSS 0 sein:
+- Konvertiere ein MP4 video zu VP9. Für beste Qualität, nutze einen CRF Wert von 15 bis 35 und -b:v MUSS 0 sein:
 
-`ffmpeg -i {{pfad/zu/input_video}}.mp4 -codec:video libvpx-vp9 -crf {{30}} -b:video 0 -codec:audio libopus -vbr on -threads {{thread_anzahl}} {{pfad/zu/output_video}}.webm`
+`ffmpeg -i {{pfad/zu/input_video}}.mp4 -codec:v libvpx-vp9 -crf {{30}} -b:v 0 -codec:a libopus -vbr on -threads {{thread_anzahl}} {{pfad/zu/output_video}}.webm`

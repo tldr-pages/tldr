@@ -30,7 +30,7 @@
 
 - Fournir un nom d'utilisateur et un mot de passe pour une authentification auprès du serveur :
 
-`curl --user identifiant:motdepasse {{http://exemple.fr}}`
+`curl --user {{identifiant:motdepasse}} {{http://exemple.fr}}`
 
 - Fournir le certificat et la clé du client pour une ressource, en évitant la validation du certificat :
 
