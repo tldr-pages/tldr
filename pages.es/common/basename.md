@@ -5,7 +5,7 @@
 
 - Imprime el nombre de un fichero a partir de su ruta:
 
-`basename {{ruta/de/fichero}}`
+`basename {{ruta/al/archivo}}`
 
 - Imprime el componente terminal de la ruta de un directorio:
 
