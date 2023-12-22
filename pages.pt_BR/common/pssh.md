@@ -7,7 +7,7 @@
 
 `pssh -i -H "{{host1}} {{host2}}" {{hostname -i}}`
 
-- Executa um comando e salvar a saída em arquivos separados:
+- Executa um comando e salva a saída em arquivos separados:
 
 `pssh -H {{host1}} -H {{host2}} -o {{caminho/para/diretório_de_saída}} {{hostname -i}}`
 

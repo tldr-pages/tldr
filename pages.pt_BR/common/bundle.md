@@ -11,7 +11,7 @@
 
 `bundle exec {{comando}} {{argumentos}}`
 
-- Atualiza todas as gemas respeitando as regras definidas no `Gemfile` e recriar o arquivo `Gemfile.lock`:
+- Atualiza todas as gemas respeitando as regras definidas no `Gemfile` e recria o arquivo `Gemfile.lock`:
 
 `bundle update`
 

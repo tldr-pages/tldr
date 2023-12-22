@@ -11,7 +11,7 @@
 
 `cargo add {{dependência}}@{{versão}}`
 
-- Adiciona uma dependência e habilitar uma ou mais funcionalidades específicas:
+- Adiciona uma dependência e habilita uma ou mais funcionalidades específicas:
 
 `cargo add {{dependência}} --features {{funcionalidade_1}},{{funcionalidade_2}}`
 

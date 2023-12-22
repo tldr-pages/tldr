@@ -11,7 +11,7 @@
 
 `cmd /c "{{comando}}"`
 
-- Executa o comando especificado e entrar no shell interativo:
+- Executa o comando especificado e entra no shell interativo:
 
 `cmd /k "{{comando}}"`
 

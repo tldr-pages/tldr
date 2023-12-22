@@ -9,7 +9,7 @@
 
 `distrobox-enter {{nome_do_contêiner}}`
 
-- Entra em um contêiner Distrobox e executar um comando no login:
+- Entra em um contêiner Distrobox e executa um comando no login:
 
 `distrobox-enter {{nome_do_contêiner}} -- {{sh -l}}`
 

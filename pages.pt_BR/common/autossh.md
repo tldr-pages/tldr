@@ -16,7 +16,7 @@
 
 `autossh -f -M {{porta_de_monitoramento}} -N "{{comando_ssh}}"`
 
-- Executa em segundo plano, sem porta de monitoramento, e em vez disso enviar pacotes de keep-alive SSH a cada 10 segundos para detectar falhas:
+- Executa em segundo plano, sem porta de monitoramento, e em vez disso envia pacotes de keep-alive SSH a cada 10 segundos para detectar falhas:
 
 `autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" "{{comando_ssh}}"`
 

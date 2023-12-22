@@ -19,11 +19,11 @@
 
 `sudo !!`
 
-- Abre o shell padrão com privilégios de Superuser e executar arquivos de login (`.profile`, `.bash_profile`, etc.):
+- Abre o shell padrão com privilégios de Superuser e executa arquivos de login (`.profile`, `.bash_profile`, etc.):
 
 `sudo --login`
 
-- Abre o shell padrão com privilégios de Superuser sem alterar o ambiente de execução:
+- Abre o shell padrão com privilégios de Superuser sem altera o ambiente de execução:
 
 `sudo --shell`
 

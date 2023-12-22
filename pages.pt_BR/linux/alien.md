@@ -15,6 +15,6 @@
 
 `sudo alien --to-tgz {{caminho/para/arquivo}}`
 
-- Converte um arquivo de instalação específico para o formato Debian e instalar no sistema:
+- Converte um arquivo de instalação específico para o formato Debian e instala no sistema:
 
 `sudo alien --to-deb --install {{caminho/para/arquivo}}`

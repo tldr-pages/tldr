@@ -11,7 +11,7 @@
 
 `img2pdf {{caminho/do/arquivo.gif}} --first-frame-only --output {{caminho/do/arquivo.pdf}}`
 
-- Auto-orientar a imagem, usar uma página A4 em modo paisagem e uma borda de 2cm horizontalmente e 5.1cm verticalmente:
+- Auto-orientar a imagem, usando uma página A4 em modo paisagem e uma borda de 2cm horizontalmente e 5.1cm verticalmente:
 
 `img2pdf {{caminho/do/arquivo.jpg}} --auto-orient --pagesize {{A4^T}} --border {{2cm}}:{{5.1cm}} --output {{caminho/do/arquivo.pdf}}`
 
@@ -19,6 +19,6 @@
 
 `img2pdf {{caminho/do/arquivo.tiff}} --pagesize {{30cm}}x{{20cm}} --imgsize {{10cm}}x{{15cm}} --fit {{shrink}} --output {{caminho/do/arquivo.pdf}}`
 
-- Converte uma imagem para PDF e especificar os metadados do arquivo resultante:
+- Converte uma imagem para PDF e especifica os metadados do arquivo resultante:
 
 `img2pdf {{caminho/do/arquivo.png}} --title {{título}} --author {{autor}} --creationdate {{1970-01-31}} --keywords {{palavra_chave1 palavra_chave2}} --subject {{assunto}} --output {{caminho/do/arquivo.pdf}}`

@@ -7,7 +7,7 @@
 
 `at {{hh:mm:ss}}`
 
-- Executa os comandos e enviar o resultado por e-mail utilizando algum programa de envio de e-mail local, por exemplo o sendmail:
+- Executa os comandos e envia o resultado por e-mail utilizando algum programa de envio de e-mail local, por exemplo o sendmail:
 
 `at {{hh:mm:ss}} -m`
 

@@ -3,7 +3,7 @@
 > Cria e aplica patches em arquivos IPS e BPS.
 > Mais informações: <https://github.com/Alcaro/Flips>.
 
-- Abre Flips para criar e aplicar um patch:
+- Abre Flips para criar e aplica um patch:
 
 `flips`
 

@@ -7,7 +7,7 @@
 
 `docker-slim`
 
-- Analisar as camadas do Docker a partir de uma imagem específica:
+- Analisa as camadas do Docker a partir de uma imagem específica:
 
 `docker-slim xray --target {{imagem:tag}}`
 
@@ -15,7 +15,7 @@
 
 `docker-slim lint --target {{caminho/para/Dockerfile}}`
 
-- Analisar e gerar uma imagem Docker otimizada:
+- Analisa e gera uma imagem Docker otimizada:
 
 `docker-slim build {{imagem:tag}}`
 

@@ -3,11 +3,11 @@
 > Gera chaves SSH usadas para autenticação, logins sem senha e outras finalidades.
 > Mais informações: <https://man.openbsd.org/ssh-keygen>.
 
-- Gerar uma chave interativamente:
+- Gera uma chave interativamente:
 
 `ssh-keygen`
 
-- Gerar uma chave ed25519 com 32 rounds de função de derivação de chave e salvar a chave em um arquivo específico:
+- Gera uma chave ed25519 com 32 rounds de função de derivação de chave e salva a chave em um arquivo específico:
 
 `ssh-keygen -t {{ed25519}} -a {{32}} -f {{~/.ssh/nome_do_arquivo}}`
 

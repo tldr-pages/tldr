@@ -23,7 +23,7 @@
 
 `cargo clippy -- --deny warnings`
 
-- Executa verificações e ignorar avisos:
+- Executa verificações e ignora avisos:
 
 `cargo clippy -- --allow warnings`
 

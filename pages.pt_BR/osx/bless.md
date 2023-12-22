@@ -3,7 +3,7 @@
 > Define a capacidade de inicialização por volume e as opções de disco de inicialização. Set volume boot capability and startup disk options.
 > Mais informações: <https://ss64.com/osx/bless.html>.
 
-- Define um volume somente com Mac OS X ou Darwin, e criar os arquivos BootX e `boot.efi` se necessário:
+- Define um volume somente com Mac OS X ou Darwin e cria os arquivos BootX e `boot.efi` se necessário:
 
 `bless --folder {{/Volumes/Mac OS X/System/Library/CoreServices}} --bootinfo --bootefi`
 
