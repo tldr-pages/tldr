@@ -19,7 +19,7 @@
 
 `chmod a+rx {{ruta/al/archivo}}`
 
-- Otorga a [o]tros (que no están en el grupo del propietario) los mismos derechos que los del grupo:
+- Otorga a [o]tros (que no están en el grupo del propietario) los mismos derechos que los del [g]rupo:
 
 `chmod o=g {{ruta/al/archivo}}`
 
