@@ -23,6 +23,6 @@
 
 `asciiart --format {{text|html}} {{caminho/para/imagem.jpg}}`
 
-- Inverter o mapeamento dos caracteres:
+- Inverte o mapeamento dos caracteres:
 
 `asciiart --invert-chars {{caminho/para/imagem.jpg}}`

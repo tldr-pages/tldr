@@ -11,7 +11,7 @@
 
 `apt-cache show {{nome_do_pacote}}`
 
-- Informar a situação de um pacote, se ele está instalado e atualizado:
+- Informa a situação de um pacote, se ele está instalado e atualizado:
 
 `apt-cache policy {{nome_do_pacote}}`
 

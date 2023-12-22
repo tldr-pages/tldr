@@ -12,7 +12,7 @@
 
 `bc --mathlib`
 
-- Calcular uma expressão:
+- Calcula uma expressão:
 
 `bc --expression='{{5 / 3}}'`
 
@@ -20,10 +20,10 @@
 
 `bc {{caminho/para/script.bc}}`
 
-- Calcular uma expressão com a escala especificada:
+- Calcula uma expressão com a escala especificada:
 
 `bc --expression='scale = {{10}}; {{5 / 3}}'`
 
-- Calcular uma função sine/cosine/arctangent/natural logarithm/exponential usando `mathlib`:
+- Calcula uma função sine/cosine/arctangent/natural logarithm/exponential usando `mathlib`:
 
 `bc --mathlib --expression='{{s|c|a|l|e}}({{1}})'`

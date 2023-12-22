@@ -23,6 +23,6 @@
 
 `docker-machine stop {{nome}}`
 
-- Inspecionar informações sobre uma máquina:
+- Inspeciona informações sobre uma máquina:
 
 `docker-machine inspect {{nome}}`

@@ -24,6 +24,6 @@
 
 `dpkg -c {{arquivo.deb}}`
 
-- Apresentar o pacote proprietário de um determinado arquivo:
+- Apresenta o pacote proprietário de um determinado arquivo:
 
 `dpkg -S {{nome_do_arquivo}}`

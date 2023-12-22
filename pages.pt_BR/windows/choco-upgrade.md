@@ -19,7 +19,7 @@
 
 `choco upgrade all --except "{{pacote(s)}}"`
 
-- Confirmar todos prompts automaticamente:
+- Confirma todos os prompts automaticamente:
 
 `choco upgrade {{pacote}} --yes`
 
@@ -27,6 +27,6 @@
 
 `choco upgrade {{pacote}} --source {{url_do_pacote|apelido}}`
 
-- Fornecer um nome e uma senha para autenticação:
+- Fornece um nome e uma senha para autenticação:
 
 `choco upgrade {{pacote}} --user {{usuário}} --password {{senha}}`

@@ -7,7 +7,7 @@
 
 `cmd`
 
-- Executa o comando especificado e sair do interpretador:
+- Executa o comando especificado e sai do interpretador:
 
 `cmd /c "{{comando}}"`
 

@@ -7,7 +7,7 @@
 
 `podman run {{imagem:tag}} {{comando}}`
 
-- Executa um comando em um novo contêiner em segundo plano e exibir o ID:
+- Executa um comando em um novo contêiner em segundo plano e exibe o ID:
 
 `podman run --detach {{imagem:tag}} {{comando}}`
 

@@ -7,6 +7,6 @@
 
 `mysqldump -u {{usuário}} --password {{nome_do_banco_de_dados}} -r {{arquivo_de_saida.sql}}`
 
-- Restaurar o conteúdo contido no arquivo de backup em banco de dados específico (será solicitada a senha de acesso do usuário):
+- Restaura o conteúdo contido no arquivo de backup em banco de dados específico (será solicitada a senha de acesso do usuário):
 
 `mysql -u {{usuário}} --password -e "source {{arquivo_de_backup.sql}}" {{nome_do_banco_de_dados}}`

@@ -12,7 +12,7 @@
 
 `sudo btrfs scrub status {{caminho/para/ponto_de_montagem_btrfs}}`
 
-- Cancelar uma varredura em andamento:
+- Cancela uma varredura em andamento:
 
 `sudo btrfs scrub cancel {{caminho/para/ponto_de_montagem_btrfs}}`
 

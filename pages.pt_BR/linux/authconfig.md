@@ -7,7 +7,7 @@
 
 `authconfig --test`
 
-- Configurar o servidor para utilizar diferentes algoritmos de hash para as senhas:
+- Configura o servidor para utilizar diferentes algoritmos de hash para as senhas:
 
 `authconfig --update --passalgo={{algoritmo}}`
 

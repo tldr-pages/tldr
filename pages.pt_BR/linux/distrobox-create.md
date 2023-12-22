@@ -8,6 +8,6 @@
 
 `distrobox-create {{nome_do_contêiner}} --image {{ubuntu:latest}}`
 
-- Clonar um contêiner Distrobox:
+- Clona um contêiner Distrobox:
 
 `distrobox-create --clone {{nome_do_contêiner}} {{nome_do_contêiner_clonado}}`

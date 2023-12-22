@@ -11,7 +11,7 @@
 
 `gcc {{arquivo_fonte.c}} -Wall -Og --output {{arquivo_executável}}`
 
-- Incluir bibliotecas de um local diferente:
+- Inclui bibliotecas de um local diferente:
 
 `gcc {{arquivo_fonte.c}} --output {{arquivo_executável}} -I{{caminho/para/header}} -L{{caminho/para/biblioteca}} -l{{nome_biblioteca}}`
 

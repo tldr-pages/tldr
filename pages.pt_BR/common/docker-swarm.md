@@ -11,7 +11,7 @@
 
 `docker swarm join-token {{worker|manager}}`
 
-- Ingressar um novo nó ao cluster:
+- Ingressa um novo nó ao cluster:
 
 `docker swarm join --token {{token}} {{url_do_nó_gerenciador:2377}}`
 
@@ -23,7 +23,7 @@
 
 `docker swarm ca`
 
-- Rotacionar o certificado CA atual e exibe o novo certificado:
+- Rotaciona o certificado CA atual e exibe o novo certificado:
 
 `docker swarm ca --rotate`
 

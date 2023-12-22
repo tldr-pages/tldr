@@ -11,7 +11,7 @@
 
 `ssh-keygen -t {{ed25519}} -a {{32}} -f {{~/.ssh/nome_do_arquivo}}`
 
-- Gerar uma chave RSA de 4096 bits com um comentário de email:
+- Gera uma chave RSA de 4096 bits com um comentário de email:
 
 `ssh-keygen -t {{rsa}} -b {{4096}} -C "{{comentário|email}}"`
 

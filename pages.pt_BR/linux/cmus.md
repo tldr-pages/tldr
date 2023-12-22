@@ -20,6 +20,6 @@
 
 `s`
 
-- Sair cmus:
+- Sai do cmus:
 
 `q`

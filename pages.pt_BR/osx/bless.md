@@ -11,10 +11,10 @@
 
 `bless --mount {{/Volumes/Mac OS}} --setBoot`
 
-- Define o sistema para NetBoot e transmitir para um servidor disponível:
+- Define o sistema para NetBoot e transmite para um servidor disponível:
 
 `bless --netboot --server {{bsdp://255.255.255.255}}`
 
-- Coletar informações sobre o volume atualmente selecionado (conforme determinado pelo firmware), adequado para piping para um programa capaz de analisar listas de propriedades:
+- Coleta informações sobre o volume atualmente selecionado (conforme determinado pelo firmware), adequado para piping para um programa capaz de analisar listas de propriedades:
 
 `bless --info --plist`

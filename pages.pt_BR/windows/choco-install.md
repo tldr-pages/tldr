@@ -19,11 +19,11 @@
 
 `choco install {{pacote}} --version {{versão}}`
 
-- Permitir a instalação de múltiplas versões de um pacote:
+- Permite a instalação de múltiplas versões de um pacote:
 
 `choco install {{pacote}} --allow-multiple`
 
-- Confirmar todos prompts automaticamente:
+- Confirma todos prompts automaticamente:
 
 `choco install {{pacote}} --yes`
 
@@ -31,6 +31,6 @@
 
 `choco install {{pacote}} --source {{url_do_pacote|apelido}}`
 
-- Fornecer um nome e uma senha para autenticação:
+- Fornece um nome e uma senha para autenticação:
 
 `choco install {{pacote}} --user {{usuario}} --password {{senha}}`

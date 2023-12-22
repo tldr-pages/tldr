@@ -15,7 +15,7 @@
 
 `img2pdf {{caminho/do/arquivo.jpg}} --auto-orient --pagesize {{A4^T}} --border {{2cm}}:{{5.1cm}} --output {{caminho/do/arquivo.pdf}}`
 
-- Encolher apenas imagens maiores para um retângulo de 10cm por 15cm dentro de uma página de 30x20cm:
+- Encolhe apenas imagens maiores para um retângulo de 10cm por 15cm dentro de uma página de 30x20cm:
 
 `img2pdf {{caminho/do/arquivo.tiff}} --pagesize {{30cm}}x{{20cm}} --imgsize {{10cm}}x{{15cm}} --fit {{shrink}} --output {{caminho/do/arquivo.pdf}}`
 

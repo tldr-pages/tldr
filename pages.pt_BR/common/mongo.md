@@ -15,6 +15,6 @@
 
 `mongo --username {{usuário}} {{base_de_dados}} --password`
 
-- Avaliar JavaScript na base de dados:
+- Avalia JavaScript na base de dados:
 
 `mongo --eval '{{JSON.stringify(db.foo.findOne())}}' {{base_de_dados}}`

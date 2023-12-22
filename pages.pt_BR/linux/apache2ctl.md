@@ -12,7 +12,7 @@
 
 `sudo apache2ctl stop`
 
-- Reiniciar o Apache:
+- Reinicia o Apache:
 
 `sudo apache2ctl restart`
 

@@ -19,6 +19,6 @@
 
 `dockerd --debug`
 
-- Executa e definir um nível de log específico:
+- Executa e define um nível de log específico:
 
 `dockerd --log-level={{debug|info|warn|error|fatal}}`

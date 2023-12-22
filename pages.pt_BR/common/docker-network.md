@@ -19,7 +19,7 @@
 
 `docker network connect {{nome_da_rede}} {{nome_do_contêiner|ID}}`
 
-- Desconectar um contêiner de uma rede:
+- Desconecta um contêiner de uma rede:
 
 `docker network disconnect {{nome_da_rede}} {{nome_do_contêiner|ID}}`
 

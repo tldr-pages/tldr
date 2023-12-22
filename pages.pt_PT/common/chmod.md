@@ -7,7 +7,7 @@
 
 `chmod u+x {{ficheiro}}`
 
-- Dá a um [u]tilizador direitos para le[r] e escrever ([w]) num ficheiro/diretório:
+- Dá a um [u]tilizador direitos para le[r] e escreve ([w]) num ficheiro/diretório:
 
 `chmod u+rw {{ficheiro_ou_diretorio}}`
 

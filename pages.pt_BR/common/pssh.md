@@ -3,7 +3,7 @@
 > Programa de SSH paralelo.
 > Mais informações: <https://manned.org/pssh>.
 
-- Executa um comando em dois hosts e imprimir a saída em cada servidor em linha:
+- Executa um comando em dois hosts e imprime a saída em cada servidor em linha:
 
 `pssh -i -H "{{host1}} {{host2}}" {{hostname -i}}`
 

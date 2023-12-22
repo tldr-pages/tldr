@@ -15,6 +15,6 @@
 
 `choco info {{pacote}} --source {{url_da_fonte|apelido}}`
 
-- Fornecer um nome e uma senha para autenticação:
+- Fornece um nome e uma senha para autenticação:
 
 `choco info {{pacote}} --user {{apelido}} --password {{senha}}`

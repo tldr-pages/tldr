@@ -7,7 +7,7 @@
 
 `airport --getinfo`
 
-- Farejar tráfego de rede sem fio no canal 1:
+- Fareja tráfego de rede sem fio no canal 1:
 
 `airport sniff {{1}}`
 
@@ -15,6 +15,6 @@
 
 `airport --scan`
 
-- Desassociar da rede airport atual:
+- Desassocia da rede airport atual:
 
 `sudo airport --disassociate`

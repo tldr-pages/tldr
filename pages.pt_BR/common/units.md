@@ -3,7 +3,7 @@
 > Realiza a conversão entre duas unidades de medida.
 > Mais informações: <https://www.gnu.org/software/units/>.
 
-- Rodar no modo interativo:
+- Roda no modo interativo:
 
 `units`
 

@@ -19,7 +19,7 @@
 
 `mvn install`
 
-- Apagar artefatos gerados no diretório `target`:
+- Apaga artefatos gerados no diretório `target`:
 
 `mvn clean`
 

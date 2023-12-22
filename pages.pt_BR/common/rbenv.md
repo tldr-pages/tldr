@@ -11,11 +11,11 @@
 
 `rbenv versions`
 
-- Determinar uma versão específica para ser a instalação padrão:
+- Determina uma versão específica para ser a instalação padrão:
 
 `rbenv global {{versao}}`
 
-- Determinar uma versão específica para um projeto. Este comando deve ser executado no diretório do projeto:
+- Determina uma versão específica para um projeto. Este comando deve ser executado no diretório do projeto:
 
 `rbenv local {{versao}}`
 
