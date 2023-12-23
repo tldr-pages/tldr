@@ -26,3 +26,7 @@
 - Renombra un remoto:
 
 `git remote rename {{nombre_antiguo}} {{nombre_nuevo}}`
+
+- Muestra la URL de un remoto:
+
+`git remote get-url {{nombre_del_remoto}}`
