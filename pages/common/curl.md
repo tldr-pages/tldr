@@ -30,7 +30,7 @@
 
 - Pass a username and prompt for a password to authenticate to the server:
 
-`curl --user {{myusername:mypassword}} {{http://example.com}}`
+`curl --user {{username}} {{http://example.com}}`
 
 - Pass client certificate and key for a resource, skipping certificate validation:
 
