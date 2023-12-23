@@ -1,7 +1,7 @@
 # cupsreject
 
 > Reject jobs sent to one or more printers.
-> See also: `cupsaccept`.
+> See also: `cupsaccept`, `cupsenable`, `cupsdisable`, `lpstat`.
 > More information: <https://www.cups.org/doc/man-cupsaccept.html>.
 
 - Reject print jobs to the specified destinations:

@@ -1,7 +1,7 @@
 # cupsaccept
 
 > Accept jobs sent to one or more destinations.
-> See also: `cupsreject`.
+> See also: `cupsreject`, `cupsenable`, `cupsdisable`, `lpstat`.
 > More information: <https://www.cups.org/doc/man-cupsaccept.html>.
 
 - Accept print jobs to the specified destinations:

@@ -1,7 +1,7 @@
 # cupsaccept
 
 > Aceita trabalhos enviados para um ou mais destinos.
-> Veja também: `cupsreject`.
+> Veja também: `cupsreject`, `cupsenable`, `cupsdisable`, `lpstat`.
 > Mais informações: <https://www.cups.org/doc/man-cupsaccept.html>.
 
 - Aceita trabalhos de impressão para os destinos especificados:
