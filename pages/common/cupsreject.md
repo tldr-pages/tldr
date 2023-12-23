@@ -6,8 +6,12 @@
 
 - Reject print jobs to the specified destinations:
 
-`cupsaccept {{destination1 destination2 ...}}`
+`cupsreject {{destination1 destination2 ...}}`
+
+- Specify a different server:
+
+`cupsreject -h {{server}} {{destination1 destination2 ...}}`
 
 - Specify a reason string ("Reason Unknown" by default):
 
-`cupsaccept -r {{reason}} {{destination1 destination2 ...}}`
+`cupsreject -r {{reason}} {{destination1 destination2 ...}}`

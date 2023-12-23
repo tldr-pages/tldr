@@ -7,3 +7,7 @@
 - Accept print jobs to the specified destinations:
 
 `cupsaccept {{destination1 destination2 ...}}`
+
+- Specify a different server:
+
+`cupsaccept -h {{server}} {{destination1 destination2 ...}}`
