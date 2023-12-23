@@ -19,6 +19,10 @@ function initialize {
 }
 
 function build_index {
+  if ! grep -xq "pages.*" <<< "$DIFF"; then
+    return
+  fi
+
   npm run build-index
   echo "Pages index successfully built."
 }
