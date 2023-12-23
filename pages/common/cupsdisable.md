@@ -6,8 +6,8 @@
 
 - Stop one or more destination(s):
 
-`cupsenable {destination1 destination2 ...}`
+`cupsdisable {destination1 destination2 ...}`
 
 - Cancel all jobs of the specified destination(s):
 
-`cupsenable -c {{destination1 destination2 ...}}`
+`cupsdisable -c {{destination1 destination2 ...}}`
