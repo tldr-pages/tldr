@@ -30,7 +30,7 @@
 
 - Memberikan nama pengguna dan kata sandi untuk otentikasi server:
 
-`curl --user {{myusername:mypassword}} {{http://contoh.com}}`
+`curl --user {{myusername}} {{http://contoh.com}}`
 
 - Memberikan sertifikat klien dan kunci untuk sumber daya, melewati validasi sertifikat:
 
