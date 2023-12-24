@@ -22,7 +22,7 @@
 
 - Podświetl składnię pliku JSON:
 
-`bat --language {{json}} {{plik.json}}`
+`bat --language json {{plik.json}}`
 
 - Wyświetl wszystkie obsługiwane języki:
 
