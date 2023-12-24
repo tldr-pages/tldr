@@ -40,11 +40,15 @@ function upload_assets {
   cd "$SITE_HOME/assets"
   sha256sum -- index.json *.zip > tldr.sha256sums
 
-  git add -A
-  git commit -m "[GitHub Actions] uploaded assets after commit tldr-pages/tldr@${GITHUB_SHA}"
-  git push -q
-
-  echo "Assets (pages archive, index) deployed to static site."
+  # Check if there are changes before committing and pushing.
+  if git diff --quiet; then
+    echo "No changes to deploy."
+  else
+    git add -A
+    git commit -m "[GitHub Actions] uploaded assets after commit tldr-pages/tldr@${GITHUB_SHA}"
+    git push -q
+    echo "Assets (pages archive, index) deployed to the static site."
+  fi
 }
 
 ###################################
