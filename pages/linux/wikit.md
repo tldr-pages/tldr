@@ -11,10 +11,10 @@
 
 `wikit linux -l {{langCode}}`
 
-- Open full Wikipedia article in default browser:
+- Open the full Wikipedia article in the default browser:
 
 `wikit linux -b`
 
-- Open disambiguation CLI menu:
+- Open a disambiguation CLI menu:
 
 `wikit linux -d`
