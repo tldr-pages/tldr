@@ -27,6 +27,6 @@
 
 `flutter build apk --target-platform {{android-arm}},{{android-arm64}}`
 
-- Zeige hilfe für einen bestimmten Befehl:
+- Zeige Hilfe für einen bestimmten Befehl:
 
 `flutter help {{befehl}}`
