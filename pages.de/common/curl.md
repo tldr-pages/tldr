@@ -28,9 +28,9 @@
 
 `curl --data {{'{"name":"karl-dieter"}'}} --header {{'Content-Type: application/json'}} {{http://beispiel.de/benutzer/1234}}`
 
-- Übergib einen Benutzernamen und Passwort für die Server-Authentifizierung:
+- Übergib einen Benutzernamen und frage  für ein Passwort für die Server-Authentifizierung:
 
-`curl --user {{benutzername:passwort}} {{http://beispiel.de}}`
+`curl --user {{benutzername}} {{http://beispiel.de}}`
 
 - Übergib Client-Zertifikat und -Schlüssel für eine Ressource und überspringe die Zertifikatsüberprüfung:
 
