@@ -1,13 +1,13 @@
 # cupsdisable
 
-> Stop printers and classes.
-> See also: `cupsenable`, `cupsaccept`, `cupsreject`, `lpstat`.
-> More information: <https://www.cups.org/doc/man-cupsenable.html>.
+> Para impressoras e classes.
+> Veja também: `cupsenable`, `cupsaccept`, `cupsreject`, `lpstat`.
+> Mais informações: <https://www.cups.org/doc/man-cupsenable.html>.
 
-- Stop one or more destination(s):
+- Para um ou mais destino(s):
 
-`cupsdisable {{destination1 destination2 ...}}`
+`cupsdisable {{destino1 destino2 ...}}`
 
-- Cancel all jobs of the specified destination(s):
+- Cancela todos os trabalhos do(s) destino(s) especificado(s):
 
 `cupsdisable -c {{destination1 destination2 ...}}`

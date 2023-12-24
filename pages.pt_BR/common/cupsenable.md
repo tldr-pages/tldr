@@ -8,10 +8,10 @@
 
 `cupsenable {{destino1 destino2 ...}}`
 
-- Resumir impressão de trabalhos pendentes de um destino (usar depois de `cupsdisable` com `--hold`):
+- Resume a impressão de trabalhos pendentes de um destino (use após `cupsdisable` com `--hold`):
 
-`cupsenable --release {{destino}}`
+`cupsenable --release {{destination}}`
 
-- Cancelar todos os trabalhos dos destinos especificados:
+- Cancela todos os trabalhos do(s) destino(s) especificado(s):
 
-`cupsenable -c {{destino1 destino2 ...}}`
+`cupsenable -c {{destination1 destination2 ...}}`
