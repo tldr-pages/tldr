@@ -7,7 +7,7 @@
 
 `ffprobe -v error -show_streams {{datei.mp4}}`
 
-- Zeige Spieldauer an:
+- Zeige die Spieldauer an:
 
 `ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 {{datei.mp4}}`
 
