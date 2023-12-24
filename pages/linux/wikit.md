@@ -9,7 +9,7 @@
 
 - Specify a language:
 
-`wikit linux -l {{langCode}}`
+`wikit linux -l {{lang_code}}`
 
 - Open the full Wikipedia article in the default browser:
 
