@@ -21,7 +21,7 @@
 
 - json파일 구문 강조:
 
-`bat --language {{json}} {{file.json}}`
+`bat --language json {{file.json}}`
 
 - 지원되는 모든 언어 표시:
 
