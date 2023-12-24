@@ -16,7 +16,7 @@
 
 `aws ec2 describe-volumes`
 
-- Löschen ein EC2 Volumen:
+- Lösche ein EC2 Volumen:
 
 `aws ec2 delete-volume --volume-id {{volumen_id}}`
 
