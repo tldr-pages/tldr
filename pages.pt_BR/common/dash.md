@@ -29,4 +29,4 @@
 
 - Executa comandos específicos de `stdin`:
 
-`{{echo "echo 'dash executado'"}} | dash -s`
+`{{echo "echo 'dash executado'"}} | dash`
