@@ -22,7 +22,7 @@
 
 - Realça a sintaxe de um arquivo JSON:
 
-`bat --language {{json}} {{arquivo.json}}`
+`bat --language json {{arquivo.json}}`
 
 - Mostra todas as linguagens suportadas:
 
