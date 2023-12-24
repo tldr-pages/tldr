@@ -12,7 +12,7 @@
 
 `csvcut -c {{1,3}} {{data.csv}}`
 
-- Extract all columns **except** the fourth one:
+- Extract all columns except the fourth one:
 
 `csvcut -C {{4}} {{data.csv}}`
 

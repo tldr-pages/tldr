@@ -1,4 +1,4 @@
-# pwsh-where
+# pwsh where
 
 > यो आदेश `Where-Object` को उपनाम हो |
 > थप जानकारी: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>।

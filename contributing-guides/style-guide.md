@@ -263,7 +263,7 @@ Keep the following guidelines in mind when choosing placeholders:
 - If a command can take 0 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
   For instance, if multiple paths are expected `{{path/to/directory1 path/to/directory2 ...}}` can be used.
 - If a command can take 0 or more arguments of different kinds, use an ellipsis: `{{placeholder1|placeholder2|...}}`.
-  If there are more than 5 possible values use `|...` after the last item.
+  If there are more than 5 possible values, you can use `|...` after the last item.
 - It's impossible to restrict the minimum or (and) maximum placeholder count via `ellipsis`.
 
 It's up to the program to decide how to handle duplicating values, provided syntax
@@ -491,3 +491,9 @@ To ensure that the sentence may not be confused with `start processing the web s
 
 Command and example descriptions on pages in French must use the third person singular present indicative tense (présent de l'indicatif à la troisième personne du singulier).
 For example, use `Extrait une archive` rather than `Extraire une archive` or `Extrais une archive`.
+
+### Portuguese-Specific Rules
+
+Example descriptions on pages in Portuguese (for both European and Brazilian Portuguese) must start with verbs in the third person singular present indicative tense. This is because the descriptions must explain what the commands do, making this the correct form to express the intended meaning.
+
+For example, use `Lista os arquivos` instead of `Listar os arquivos`, `Listando os arquivos` or any other form.
