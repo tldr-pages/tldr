@@ -26,3 +26,7 @@
 - Mostra a conversão entre unidades de diferentes dimensões:
 
 `units "{{acres}}" "{{ft^2}}"`
+
+- Mostra a conversão entre multiplicadores de bytes:
+
+`units "{{15 megabytes}}" {{bytes}}`
