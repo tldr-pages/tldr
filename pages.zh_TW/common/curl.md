@@ -30,7 +30,7 @@
 
 - 透過使用者名稱和密碼訪問伺服器：
 
-`curl --user {{myusername:mypassword}} {{http://example.com}}`
+`curl --user {{myusername}} {{http://example.com}}`
 
 - 爲指定資源使用客戶端憑證和密鑰，並且跳過憑證驗證：
 
