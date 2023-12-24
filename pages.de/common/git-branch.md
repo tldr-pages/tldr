@@ -7,7 +7,7 @@
 
 `git branch --all`
 
-- Liste alle Branches welche ein spezifisches Git commit in ihre Geschichte enthalten:
+- Liste alle Branches auf, welche einen spezifischen Git-Commit in ihrer Historie enthalten:
 
 `git branch --all --contains {{commit_hash}}`
 
