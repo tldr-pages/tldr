@@ -3,7 +3,7 @@
 > Committe Dateien in ein Repository.
 > Weitere Informationen: <https://git-scm.com/docs/git-commit>.
 
-- Committe gestagten Dateien zum Repository mit einer Nachricht:
+- Committe die gestagten Dateien mit einer Nachricht in das Repository:
 
 `git commit --message "{{nachricht}}"`
 
