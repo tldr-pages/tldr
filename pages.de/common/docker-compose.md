@@ -15,7 +15,7 @@
 
 `docker compose up --build`
 
-- Starte alle Container durch Angabe eines Projektnamens unter Verwendung einer alternativen Compose Datei:
+- Starte alle Container durch Angabe eines Projektnamens unter Verwendung einer alternativen Compose-Datei:
 
 `docker compose -p {{Projectnamens}} --file {{pfad/zu/verzeichnis}} up`
 
