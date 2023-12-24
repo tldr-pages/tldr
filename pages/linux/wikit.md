@@ -11,7 +11,7 @@
 
 `wikit {{topic}} --lang {{language_code}}`
 
-- Open the full Wikipedia article in the default [b]rowser:
+- Open the full Wikipedia article in the default browser:
 
 `wikit {{topic}} --browser`
 
