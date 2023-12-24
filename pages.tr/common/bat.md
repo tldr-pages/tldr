@@ -22,7 +22,7 @@
 
 - Bir JSON dosyasının sözdizimini vurgula:
 
-`bat --language {{json}} {{dosya.json}}`
+`bat --language json {{dosya.json}}`
 
 - Desteklenen tüm dilleri görüntüle:
 
