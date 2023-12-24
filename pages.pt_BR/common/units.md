@@ -17,7 +17,7 @@
 
 - Converte entre unidades com quantidades definidas:
 
-`units {{15 pounds}} {{kilograms}}`
+`units "{{15 pounds}}" {{kilograms}}`
 
 - Mostra a conversão entre duas unidades compostas:
 
