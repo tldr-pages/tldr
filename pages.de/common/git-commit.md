@@ -15,7 +15,7 @@
 
 `git commit --all --message "{{nachricht}}"`
 
-- Committe gestagten Dateien und signiere sie mit dem definierten GPG Schlüssel (oder die in der Konfigurationsdatei definierte, wenn kein Argument angegeben ist):
+- Committe gestagten Dateien und signiere sie mit dem definierten GPG Schlüssel (oder mit dem in der Konfigurationsdatei definierten, wenn kein Argument angegeben ist):
 
 `git commit --gpg-sign {{key_id}} --message "{{nachricht}}"`
 
