@@ -20,7 +20,7 @@
 
 `docker pull {{image}}`
 
-- Liste der bereits heruntergeladenen Imagen an:
+- Zeige eine Liste der bereits heruntergeladenen Images an:
 
 `docker images`
 
