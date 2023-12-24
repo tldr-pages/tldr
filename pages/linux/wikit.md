@@ -3,18 +3,18 @@
 > A command line program for getting Wikipedia summaries easily.
 > More information: <https://github.com/KorySchneider/wikit>.
 
-- Show a short introduction of Linux on Wikipedia:
+- Show a short summary of a specific topic on Wikipedia:
 
-`wikit linux`
+`wikit {{topic}}`
 
-- Specify a language:
+- Specify a [l]anguage:
 
-`wikit linux -l {{lang_code}}`
+`wikit {{topic}} --lang {{language_code}}`
 
-- Open the full Wikipedia article in the default browser:
+- Open the full Wikipedia article in the default [b]rowser:
 
-`wikit linux -b`
+`wikit {{topic}} --browser`
 
 - Open a disambiguation CLI menu:
 
-`wikit linux -d`
+`wikit {{topic}} -d`
