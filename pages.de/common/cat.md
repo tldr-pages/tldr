@@ -15,7 +15,7 @@
 
 `cat {{pfad/zu/datei1 pfad/zu/datei2 ...}} >> {{pfad/zu/ziel_datei}}`
 
-- Kopieren den Inhalt einer Datei ohne Pufferung in eine Ausgabedatei:
+- Kopiere den Inhalt einer Datei in eine Ausgabedatei ohne zu puffern:
 
 `cat -u {{/dev/tty12}} > {{/dev/tty13}}`
 
