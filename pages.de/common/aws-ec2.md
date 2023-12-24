@@ -20,7 +20,7 @@
 
 `aws ec2 delete-volume --volume-id {{volumen_id}}`
 
-- Erstelle einen Snapshot, basierend auf einem EC2 Volumen:
+- Erstelle einen Snapshot basierend auf einem EC2 Volumen:
 
 `aws ec2 create-snapshot --volume-id {{volumen_id}}`
 
