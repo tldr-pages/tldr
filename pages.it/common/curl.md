@@ -30,8 +30,8 @@
 
 - Utilizza un nome utente ed una password per l'autenticazione con il server:
 
-`curl --user {{utente:password}} {{http://example.com}}`
+`curl --user {{utente}} {{http://example.com}}`
 
-- Utilizza un certificato ed una chiave per una risorsa, ignorando la validazione dei certificati:
+- Utilizza un certificato ed richiedere per una chiave per una risorsa, ignorando la validazione dei certificati:
 
 `curl --cert {{client.pem}} --key {{chiave.pem}} --insecure {{https://example.com}}`
