@@ -19,6 +19,10 @@
 
 `git remote set-url {{nombre_remoto}} {{nueva_url}}`
 
+- Muestra la URL de un remoto:
+
+`git remote get-url {{nombre_del_remoto}}`
+
 - Elimina un remoto:
 
 `git remote remove {{nombre_remoto}}`
@@ -26,7 +30,3 @@
 - Renombra un remoto:
 
 `git remote rename {{nombre_antiguo}} {{nombre_nuevo}}`
-
-- Muestra la URL de un remoto:
-
-`git remote get-url {{nombre_del_remoto}}`
