@@ -3,7 +3,7 @@
 > Googles Cross-Platform Open-Source SDK.
 > Weitere Informationen: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
 
-- Initialisieren ein neues Flutter Projekt in einem gleichnamigen Verzeichnis:
+- Initialisiere ein neues Flutter-Projekt in einem gleichnamigen Verzeichnis:
 
 `flutter create {{Projektname}}`
 
