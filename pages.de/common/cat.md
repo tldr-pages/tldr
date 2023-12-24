@@ -19,6 +19,6 @@
 
 `cat -u {{/dev/tty12}} > {{/dev/tty13}}`
 
-- Schreib `stdin` in eine Datei:
+- Schreibe `stdin` in eine Datei:
 
 `cat - > {{pfad/zu/datei}}`
