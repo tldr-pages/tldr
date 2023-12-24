@@ -22,7 +22,7 @@
 
 - 高亮一个 `json` 文件：
 
-`bat --language {{json}} {{文件.json}}`
+`bat --language json {{文件.json}}`
 
 - 受支持的语言清单：
 
