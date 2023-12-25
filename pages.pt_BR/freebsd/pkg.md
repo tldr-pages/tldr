@@ -17,7 +17,7 @@
 
 - Procura um pacote:
 
-`pkg search {{keyword}}`
+`pkg search {{palavra_chave}}`
 
 - Lista os pacotes instalados:
 
