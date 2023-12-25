@@ -13,7 +13,7 @@
 
 - Add FileVault enabled user:
 
-`sudo fdesetup add -usertoadd user1`
+`sudo fdesetup add -usertoadd {{user1}}`
 
 - Enable FileVault:
 
