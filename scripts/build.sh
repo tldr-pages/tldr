@@ -14,14 +14,24 @@ function initialize {
   fi
 
   export TLDR_ARCHIVE="tldr.zip"
+  DIFF="$(git diff --name-only @^ @ | cut -d'/' -f1)"
+  export DIFF
 }
 
 function build_index {
+  if ! grep -xq "pages.*" <<< "$DIFF"; then
+    return
+  fi
+
   npm run build-index
   echo "Pages index successfully built."
 }
 
 function build_archive {
+  if ! grep -xq "pages.*" <<< "$DIFF"; then
+    return
+  fi
+
   rm -f "$TLDR_ARCHIVE"
   cd "$TLDRHOME/"
   zip -q -r "$TLDR_ARCHIVE" pages* LICENSE.md index.json
@@ -29,19 +39,20 @@ function build_archive {
 }
 
 function build_translation_archives {
-  local source_directory="$TLDRHOME"
-  local target_directory="$TLDR_LANG_ARCHIVES_DIRECTORY"
+  local source_directory target_directory lang archive_name
+  source_directory="$TLDRHOME"
+  target_directory="$TLDR_LANG_ARCHIVES_DIRECTORY"
   mkdir -p "$target_directory"
   rm -f "$target_directory"/*
 
   for lang_dir in "$source_directory"/pages*; do
-    # Skip symlinks (pages.en) and things that are not directories
-    if [[ ! -d $lang_dir || -h $lang_dir ]]; then
+    lang=$(basename "$lang_dir")
+    # Skip symlinks (pages.en), files outside pages* and directories that haven't been changed.
+    if [[ ! -d $lang_dir || -h $lang_dir ]] || ! grep -Fxq "$lang" <<< "$DIFF"; then
       continue
     fi
 
-    local lang=$(basename "$lang_dir")
-    local archive_name="tldr-$lang.zip"
+    archive_name="tldr-$lang.zip"
 
     # Create the zip archive
 
@@ -53,7 +64,9 @@ function build_translation_archives {
   done
 
   cd "$target_directory"
-  cp tldr-pages.zip tldr-pages.en.zip
+  if grep -Fxq pages <<< "$DIFF"; then
+    cp tldr-pages.zip tldr-pages.en.zip
+  fi
 }
 
 ###################################
