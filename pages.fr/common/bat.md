@@ -22,7 +22,7 @@
 
 - Affiche le contenu d'un fichier JSON sur la sortie standard avec mise en valeur de la syntaxe :
 
-`bat --language {{json}} {{fichier.json}}`
+`bat --language json {{chemin/vers/fichier.json}}`
 
 - Affiche tous les langages pris en charge :
 
