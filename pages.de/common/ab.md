@@ -11,7 +11,7 @@
 
 `ab -n {{100}} -c {{10}} {{url}}`
 
-- Sende 100 HTTP POST Anfragen an eine URL, wobei eine JSON Belastung aus einer Datei verwendet wird:
+- Sende 100 HTTP POST Anfragen mit der in der angegebenen Datei gespeicherten Payload an eine URL:
 
 `ab -n {{100}} -T {{application/json}} -p {{pfad/zu/datei.json}} {{url}}`
 
