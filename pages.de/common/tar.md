@@ -6,11 +6,11 @@
 
 - Erstelle ein Archiv von Dateien:
 
-`tar cf {{pfad/zu/ziel.tar}} {{pfad/zu/datei1}} {{pfad/zu/datei2}} {{pfad/zu/datei3}}`
+`tar cf {{pfad/zu/ziel.tar}} {{pfad/zu/datei1 pfad/zu/datei2 ...}}`
 
 - Erstelle ein mit gzip komprimiertes Archiv:
 
-`tar czf {{ziel.tar.gz}} {{pfad/zu/datei1}} {{pfad/zu/datei2}} {{pfad/zu/datei3}}`
+`tar czf {{ziel.tar.gz}} {{pfad/zu/datei1 pfad/zu/datei2 ...}}`
 
 - Erstelle ein mit gzip komprimiertes Archiv mit relativen Pfaden:
 
@@ -26,7 +26,7 @@
 
 - Erstelle ein komprimiertes Archiv und benutze den die Dateiendung des Archivs um die Kompressionsmethode zu wählen:
 
-`tar caf {{ziel.tar.xz}} {{pfad/zu/datei1}} {{pfad/zu/datei2}} {{pfad/zu/datei3}}`
+`tar caf {{ziel.tar.xz}} {{pfad/zu/datei1 pfad/zu/datei2 ...}}`
 
 - Führe die Inhalte eines tar Archivs auf:
 

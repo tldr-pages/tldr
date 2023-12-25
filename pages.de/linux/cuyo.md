@@ -9,7 +9,7 @@
 
 - Verschiebe die Teile horizontal:
 
-`{{A|D}} oder Pfeiltaste {{Links|Rechts}}`
+`{{A|D}} OR {{Pfeiltaste Links|Rechts}}`
 
 - Drehe die Teile:
 

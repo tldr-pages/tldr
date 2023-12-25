@@ -9,23 +9,23 @@
 
 - Frage alle Nodes in einem bestimmten Namespace ab:
 
-`kubectl get nodes --namespace {{namespace}}`
+`kubectl get nodes -n {{namespace}}`
 
 - Frage alle Pods in einem bestimmten Namespace ab:
 
-`kubectl get pods --namespace {{namespace}}`
+`kubectl get pods -n {{namespace}}`
 
 - Frage alle Deployments in einem bestimmten Namespace ab:
 
-`kubectl get deployments --namespace {{namespace}}`
+`kubectl get deployments -n {{namespace}}`
 
 - Frage alle Services in einem bestimmten Namespace ab:
 
-`kubectl get services --namespace {{namespace}}`
+`kubectl get services -n {{namespace}}`
 
 - Frage alle Resourcen in einem bestimmten Namespace ab:
 
-`kubectl get all --namespace {{namespace}}`
+`kubectl get all -n {{namespace}}`
 
 - Frage alle Ressourcen ab, die in einer YAML Datei definiert sind:
 

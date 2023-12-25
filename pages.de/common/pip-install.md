@@ -13,12 +13,12 @@
 
 - Installiere die Pakete aus einer Datei:
 
-`pip install -r {{requirements.txt}}`
+`pip install --requirement {{requirements.txt}}`
 
 - Installiere die Pakete von einer URL oder einem lokalen Archiv (.tar.gz | .whl):
 
-`pip install -f {{url|pfad/zur/datei}}`
+`pip install --find-links {{url|pfad/zur/datei}}`
 
 - Installiere das lokale Paket im aktuellen Verzeichnis im Entwicklungs-/Bearbeitungsmodus:
 
-`pip install -e .`
+`pip install --editable {{.}}`
