@@ -18,7 +18,7 @@
 
 - Invert Colors:
 
-`{{Ctrl + R}}`
+`Ctrl + R`
 
 - Search for text by a given string:
 
