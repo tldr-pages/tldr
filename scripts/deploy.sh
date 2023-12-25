@@ -43,12 +43,13 @@ function upload_assets {
   # Check if there are changes before committing and pushing.
   if git diff --quiet; then
     echo "No changes to deploy."
-  else
-    git add -A
-    git commit -m "[GitHub Actions] uploaded assets after commit tldr-pages/tldr@${GITHUB_SHA}"
-    git push -q
-    echo "Assets (pages archive, index) deployed to the static site."
+    return
   fi
+
+  git add -A
+  git commit -m "[GitHub Actions] uploaded assets after commit tldr-pages/tldr@${GITHUB_SHA}"
+  git push -q
+  echo "Assets (pages archive, index and checksum) deployed to the static site."
 }
 
 ###################################
