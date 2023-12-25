@@ -18,7 +18,7 @@
 
 - Invertiere die Farben:
 
-`{{Strg + R}}`
+`Ctrl + R`
 
 - Durchsuche den Text nach einem gegebenen String:
 
