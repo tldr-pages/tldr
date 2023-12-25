@@ -37,12 +37,9 @@ function upload_assets {
   find "$TLDR_PDF_FILES_DIRECTORY" -maxdepth 1 -name "*.pdf" -exec mv -f {} "$SITE_HOME/assets/" \;
   rm -rf "$TLDR_PDF_FILES_DIRECTORY"
 
-  sha256sum \
-    "${SITE_HOME}/assets/index.json" \
-    "${SITE_HOME}/assets/"*.zip \
-    > "${SITE_HOME}/assets/tldr.sha256sums"
+  cd "$SITE_HOME/assets"
+  sha256sum -- index.json *.zip > tldr.sha256sums
 
-  cd "$SITE_HOME"
   git add -A
   git commit -m "[GitHub Actions] uploaded assets after commit tldr-pages/tldr@${GITHUB_SHA}"
   git push -q
