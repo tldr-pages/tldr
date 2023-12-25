@@ -22,7 +22,7 @@
 
 - Mencetak konten JSON dengan sintaks berwarna:
 
-`bat --language {{json}} {{berkas.json}}`
+`bat --language json {{jalan/menuju/berkas.json}}`
 
 - Menampilkan semua bahasa yang didukung:
 
