@@ -22,7 +22,7 @@
 
 - Hebe die Syntax einer JSON-Datei hervor:
 
-`bat --language {{json}} {{pfad/zu/datei.json}}`
+`bat --language json {{pfad/zu/datei.json}}`
 
 - Zeige alle unterstützten Sprachen an:
 
