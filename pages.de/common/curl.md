@@ -28,7 +28,7 @@
 
 `curl --data {{'{"name":"karl-dieter"}'}} --header {{'Content-Type: application/json'}} {{http://beispiel.de/benutzer/1234}}`
 
-- Übergib einen Benutzernamen und frage  für ein Passwort für die Server-Authentifizierung:
+- Übergib einen Benutzernamen und frage nach einem Passwort für die Server-Authentifizierung:
 
 `curl --user {{benutzername}} {{http://beispiel.de}}`
 
