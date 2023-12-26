@@ -7,26 +7,26 @@
 
 `kubectl get namespaces`
 
-- Frage alle Nodes in einem bestimmten Namespace ab:
+- Frage alle Nodes in einem bestimmten [n]amespace ab:
 
-`kubectl get nodes -n {{namespace}}`
+`kubectl get nodes --namespace {{namespace}}`
 
-- Frage alle Pods in einem bestimmten Namespace ab:
+- Frage alle Pods in einem bestimmten [n]amespace ab:
 
-`kubectl get pods -n {{namespace}}`
+`kubectl get pods --namespace {{namespace}}`
 
-- Frage alle Deployments in einem bestimmten Namespace ab:
+- Frage alle Deployments in einem bestimmten [n]amespace ab:
 
-`kubectl get deployments -n {{namespace}}`
+`kubectl get deployments --namespace {{namespace}}`
 
-- Frage alle Services in einem bestimmten Namespace ab:
+- Frage alle Services in einem bestimmten [n]amespace ab:
 
-`kubectl get services -n {{namespace}}`
+`kubectl get services --namespace {{namespace}}`
 
-- Frage alle Resourcen in einem bestimmten Namespace ab:
+- Frage alle Resourcen in einem bestimmten [n]amespace ab:
 
-`kubectl get all -n {{namespace}}`
+`kubectl get all --namespace {{namespace}}`
 
 - Frage alle Ressourcen ab, die in einer YAML Datei definiert sind:
 
-`kubectl get -f {{pfad/zu/manifest.yaml}}`
+`kubectl get --file {{pfad/zu/manifest.yaml}}`
