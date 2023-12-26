@@ -5,7 +5,7 @@
 
 - 애플리케이션 목록 보여주기:
 
-`argocd app list --output {{json|yaml|wide}} `
+`argocd app list --output {{json|yaml|wide}}`
 
 - 애플리케이션 세부사항 가져오기:
 

@@ -13,7 +13,7 @@
 
 - Turn the piece:
 
-`{{W|Up arrow key}} `
+`{{W|Up arrow key}}`
 
 - Hard drop the piece:
 
