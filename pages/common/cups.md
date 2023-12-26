@@ -12,7 +12,7 @@
 
 `tldr lpadmin`
 
-- Show the tldr page for printing pages:
+- Show the tldr page for printing files:
 
 `tldr lp`
 
