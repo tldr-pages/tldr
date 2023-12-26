@@ -23,7 +23,7 @@
 
 `nix-env -i {{paket_name}} --file {{beispiel.com}}`
 
-- Deinstalliere Paket:
+- Deinstalliere ein Paket:
 
 `nix-env -e {{paket_name}}`
 
