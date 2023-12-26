@@ -6,7 +6,7 @@
 
 - Print a file to `stdout` (status and progress messages are sent to `stderr`):
 
-`ippeveps path/to/file`
+`ippeveps {{path/to/file}}`
 
 - Print a file from `stdin` to `stdout`:
 
