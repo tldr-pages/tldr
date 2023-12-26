@@ -14,4 +14,4 @@
 
 - Beende Alpine:
 
-`'q' then 'y'`
+`'q', dann 'y'`

@@ -9,11 +9,11 @@
 
 - Scrolle eine Seite runter / hoch:
 
-`<Space> (down), b (up)`
+`<Leertaste> (runter), b (hoch)`
 
 - Springe zum Ende / Anfang der Datei:
 
-`G (end), g (start)`
+`G (Ende), g (Pos1)`
 
 - Suche nach einer Zeichenkette vorwärts (n/N um zur nächsten/vorherigen Übereinstimmung zu springen):
 

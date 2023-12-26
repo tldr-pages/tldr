@@ -25,7 +25,7 @@
 
 - Schalte ein bestimmtes Interface ein oder aus:
 
-`ip link set {{interface}} up/down`
+`ip link set {{interface}} {{up|down}}`
 
 - Entferne oder füge eine IP zu einem Interface hinzu:
 
