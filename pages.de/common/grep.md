@@ -28,7 +28,7 @@
 
 `grep -Hn "{{ausdruck}}" {{pfad/zu/datei}}`
 
-- Benutze STDIN, anstatt einer Datei:
+- Benutze `stdin` anstatt einer Datei:
 
 `echo "input" | grep {{ausdruck}}`
 
