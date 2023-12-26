@@ -6,7 +6,7 @@
 
 - Run the server with a specific service name:
 
-`ippeveprinter {{"My fake Printer"}}`
+`ippeveprinter {{"My Fake Printer"}}`
 
 - Load printer attributes from a PPD file:
 
