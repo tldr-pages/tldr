@@ -4,7 +4,7 @@
 > See also: `ippeveps`, `ippevepcl`.
 > More information: <https://www.cups.org/doc/man-ippeveprinter.html>.
 
-- Run the server with a service name of "My Fake Printer":
+- Run the server with a specific service name:
 
 `ippeveprinter {{"My fake Printer"}}`
 
@@ -14,7 +14,7 @@
 
 - Run the `file` command whenever a job is sent to the server:
 
-`ippeveprinter -c {{/usr/bin/file}} {{"My fake Printer"}}`
+`ippeveprinter -c {{/usr/bin/file}} {{"My Fake Printer"}}`
 
 - Specify the directory that will hold the print files (by default, a directory under the user's temporary directory):
 
@@ -22,7 +22,7 @@
 
 - Keep the print documents in the spool directory rather than deleting them:
 
-`ippeveprinter -k {{"My fake Printer"}}`
+`ippeveprinter -k {{"My Fake Printer"}}`
 
 - Specify the printer speed in pages/min (10 by default):
 
