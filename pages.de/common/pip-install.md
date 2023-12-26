@@ -13,7 +13,7 @@
 
 - Installiere die Pakete aus einer Datei:
 
-`pip install --requirement {{requirements.txt}}`
+`pip install -r {{requirements.txt}}`
 
 - Installiere die Pakete von einer URL oder einem lokalen Archiv (.tar.gz | .whl):
 
