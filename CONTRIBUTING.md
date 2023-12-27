@@ -191,7 +191,7 @@ tldr-lint {{path/to/page.md}}
 Now, you are ready to submit a pull request!
 
 > [!TIP]
-> Additionally, inside the `tldr` directory you can install the dependencies using the `npm install` command and now when you commit your changes, the tests will run automatically via the pre-commit hook.
+> Additionally, inside the `tldr` directory you can install the dependencies using the `npm install` command and now when you commit your changes, the tests will run automatically via the pre-commit hook. (To skip the pre-commit hook and immediately commit your changes use the `git commit --no-verify` command).
 
 ### Submitting changes
 
