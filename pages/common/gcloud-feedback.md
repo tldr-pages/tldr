@@ -8,6 +8,6 @@
 
 `gcloud feedback`
 
-- Provide feedback to the `gcloud` team, including a log file:
+- Provide feedback to the `gcloud` team and attach a log file:
 
 `gcloud feedback --log-file {{log_file}}`

@@ -1,6 +1,6 @@
 # gcloud config
 
-> Personalize your `gcloud` configuration with properties.
+> Manage different configurations of `gcloud`. 
 > See also: `gcloud`.
 > More information: <https://cloud.google.com/sdk/gcloud/reference/config>.
 
@@ -24,6 +24,6 @@
 
 `gcloud config configurations list`
 
-- Switch to an existing named configuration:
+- Switch to an existing configuration with a given name:
 
 `gcloud config configurations activate {{configuration_name}}`

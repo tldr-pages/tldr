@@ -12,7 +12,7 @@
 
 `gcloud auth activate-service-account`
 
-- Manage your Application Default Credentials (ADC) for Cloud Client Libraries:
+- Manage Application Default Credentials (ADC) for Cloud Client Libraries:
 
 `gcloud auth application-default`
 

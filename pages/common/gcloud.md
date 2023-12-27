@@ -1,14 +1,14 @@
 # gcloud
 
 > The official CLI tool for Google Cloud Platform.
-> Some subcommands such as `gcloud iam` have their own usage documentation.
+> Note: `gcloud` subcommands have their own usage documentation.
 > More information: <https://cloud.google.com/sdk/gcloud>.
 
 - List all properties in one's active configuration:
 
 `gcloud config list`
 
-- Login to Google account:
+- Login to a Google account:
 
 `gcloud auth login`
 
