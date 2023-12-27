@@ -33,7 +33,7 @@ The basic format of a `tldr` page is a set of concrete usage examples.
 
 Here are a few guidelines to get started:
 
-1. Try to keep pages at around 5 examples. Pages can be longer or shorter when appropriate, but don't exceed the maximum of eight examples.
+1. Try to keep pages at around 5 examples. Pages can be longer or shorter when appropriate but don't exceed the maximum of eight examples.
    Remember, it's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
    For example, commands that require `sudo` should include it directly in the examples.
@@ -71,7 +71,7 @@ As a quick reference, the format of each page should match the following templat
 For page descriptions, you can additionally use ``See also: `command`.`` and [subcommand reference](#subcommands).
 
 > [!NOTE]
-> While we suggest only two lines for the page description, it is acceptable to have more than two lines if it necessary to add additional information (i.e. [`pacman`](https://github.com/tldr-pages/tldr/blob/main/pages/linux/pacman.md)).
+> While we suggest only two lines for the page description, it is acceptable to have more than two lines if it is necessary to add additional information (i.e. [`pacman`](https://github.com/tldr-pages/tldr/blob/main/pages/linux/pacman.md)).
 
 To see some examples of preexisting pages, you can look at:
 
@@ -135,7 +135,7 @@ See these examples for reference:
 Translation of pages can be done by simply creating the corresponding page within the appropriate language-specific directory, creating that as well if it does not already exist.
 
 > [!IMPORTANT]
-> Translations of pages should be done based on the English (US) page in the `pages` directory. If the English pages doesn't exist for the command, it should be added first in a PR before creating a translation.
+> Translations of pages should be done based on the English (US) page in the `pages` directory. If the English pages don't exist for the command, it should be added first in a PR before creating a translation.
 
 Language specific directories must follow the pattern `pages.<locale>`, where `<locale>` is a [POSIX Locale Name](https://www.gnu.org/software/gettext/manual/html_node/Locale-Names.html#Locale-Names) in the form of `<language>[_<country>]`, where:
 
@@ -148,7 +148,7 @@ The `<country>` code is optional and should only be added when it is needed. In 
 > When adding a new language to `tldr`, it is suggested to add it to the [translation templates](contributing-guides/translation-templates) along with any page additions.
 
 > [!TIP]
-> When fixing errors in an existing translation, it is suggested to update the page to match with the latest version of the English page.
+> When fixing errors in an existing translation, it is suggested to update the page to match the latest version of the English page.
 
 To see the current progress of all translations, you can visit <https://lukwebsforge.github.io/tldri18n/>, which provides a dynamically updated table of all pages and their translations.
 
@@ -163,7 +163,7 @@ A list of translated templates for alias pages can be found [here](contributing-
 
 It is acceptable for several pages to get translated in one pull request.
 
-For more information about language specific rules, refer to the [style guide](contributing-guides/style-guide.md#language-specific-rules).
+For more information about language-specific rules, refer to the [style guide](contributing-guides/style-guide.md#language-specific-rules).
 
 ## Inclusive language
 
@@ -191,7 +191,7 @@ tldr-lint {{path/to/page.md}}
 Now, you are ready to submit a pull request!
 
 > [!TIP]
-> Additionally, inside the `tldr` directory you can install the dependencies using `npm install` command and now when you commit your changes, the tests will run automatically via the pre-commit hook.
+> Additionally, inside the `tldr` directory you can install the dependencies using the `npm install` command and now when you commit your changes, the tests will run automatically via the pre-commit hook.
 
 ### Submitting changes
 
@@ -214,7 +214,7 @@ To commit a suggestion to your pull request, click on `Commit suggestion`:
 
 ![Commit suggestion button in Github](./images/commit-suggestion-button.png)
 
-If you want to commit multiple suggestions, go to the "Files changed" tab and batch all suggestions. Now, click `Commit suggestions` button and enter a commit message to create a single commit.
+If you want to commit multiple suggestions, go to the "Files changed" tab and batch all suggestions. Now, click the `Commit suggestions` button and enter a commit message to create a single commit.
 
 ### Commit message
 
