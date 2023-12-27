@@ -7,6 +7,6 @@
 
 `pueue help`
 
-- Show help for a specific subcommand:
+- Display help for a specific subcommand:
 
 `pueue help {{subcommand}}`

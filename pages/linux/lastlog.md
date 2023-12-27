@@ -17,4 +17,4 @@
 
 - Display records more recent than 3 days:
 
-`lastlog -time {{3}}`
+`lastlog --time {{3}}`
