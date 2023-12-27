@@ -7,9 +7,9 @@
 
 `alacritty`
 
-- Executar na directoria especificada:
+- Executar no diretório especificado:
 
-`alacritty --working-directory {{caminho/para/directoria}}`
+`alacritty --working-directory {{caminho/para/diretório}}`
 
 - Executar commando numa nova janela de Alacritty:
 

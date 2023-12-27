@@ -9,7 +9,7 @@
 
 - Escrever as mensagens de sistema num ficheiro:
 
-`logcat -f {{caminho/para/arquivo}}`
+`logcat -f {{caminho/para/ficheiro}}`
 
 - Mostrar mensagens que correspondem a uma expressão regular:
 
