@@ -18,7 +18,7 @@
 
 - Crea un nuevo proyecto Rust binario o de biblioteca en el directorio especificado (o en el directorio de trabajo actual por defecto):
 
-`cargo init --{{bin|lib}} {{ruta/a/directorio}}`
+`cargo init --{{bin|lib}} {{ruta/al/directorio}}`
 
 - Añade una dependencia a `Cargo.toml` en el directorio actual:
 
