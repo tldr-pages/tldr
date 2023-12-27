@@ -13,7 +13,7 @@
 
 - Imprime la última columna de cada línea de un archivo, utilizando una coma (en lugar de un espacio) como separador de campos:
 
-`awk -F ',' '{print $NF}' {{ruta/a/archivo}}`
+`awk -F ',' '{print $NF}' {{ruta/al/archivo}}`
 
 - Suma los valores de la primera columna de un fichero e imprime el total:
 
