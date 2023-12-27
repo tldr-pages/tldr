@@ -7,7 +7,7 @@
 
 `wikit {{topic}}`
 
-- Specify a [l]anguage:
+- Specify a [l]anguage (ISO 639-1 language code):
 
 `wikit {{topic}} --lang {{language_code}}`
 
