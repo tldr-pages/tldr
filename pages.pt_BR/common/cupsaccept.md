@@ -6,8 +6,8 @@
 
 - Aceita trabalhos de impressão para os destinos especificados:
 
-`cupsaccept {{destination1 destination2 ...}}`
+`cupsaccept {{destino1 destino2 ...}}`
 
 - Especificar um servidor diferente:
 
-`cupsaccept -h {{server}} {{destination1 destination2 ...}}`
+`cupsaccept -h {{server}} {{destino1 destino2 ...}}`
