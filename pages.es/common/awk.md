@@ -25,7 +25,7 @@
 
 - Imprime diferentes valores basados en condiciones:
 
-`awk '{if ($1 == "foo") print "Coincidencia exacta foo"; else if ($1 ~ "bar") print "Coincidencia parcial bar"; else print "Baz"}' {{ruta/a/archivo}}`
+`awk '{if ($1 == "foo") print "Coincidencia exacta foo"; else if ($1 ~ "bar") print "Coincidencia parcial bar"; else print "Baz"}' {{ruta/al/archivo}}`
 
 - Imprime todas las líneas en las que el valor de la 10ª columna sea igual al valor especificado:
 
