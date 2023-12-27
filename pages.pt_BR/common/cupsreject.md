@@ -8,10 +8,10 @@
 
 `cupsreject {{destino1 destino2 ...}}`
 
-- Especificar um servidor diferente:
+- Especifica um servidor diferente:
 
 `cupsreject -h {{servidor}} {{destino1 destino2 ...}}`
 
-- Especificar uma mensagem de motivo ("Reason Unknown" por padrão):
+- Especifica uma mensagem de motivo ("Reason Unknown" por padrão):
 
 `cupsreject -r {{motivo}} {{destino1 destino2 ...}}`
