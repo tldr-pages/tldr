@@ -7,7 +7,7 @@
 
 `docker compose ps`
 
-- Crea e inicia todos los contenedores en segundo plano usando el archivo `docker-compose.yml` en el directorio actual:
+- Crea e inicia todos los contenedores en segundo plano usando el archivo `docker-compose.yml` en el archivo actual:
 
 `docker compose up --detach`
 
