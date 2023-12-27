@@ -46,7 +46,7 @@ Community members are requested to abide by the following principles:
    nor that decisions result automatically from vote counts.
    What it means is that
    all interested members of the community are welcome to voice their thoughts,
-    and incompatible positions, which will ideally get resolved
+    and incompatible positions will ideally be resolved
    with participants either agreeing with the final decision or voluntarily
    [consenting](https://en.wikipedia.org/wiki/Sociocracy#Consent_vs._consensus)
    to accept it as "good enough for now, safe enough to try".
