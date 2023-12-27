@@ -7,6 +7,10 @@
 
 `unrar x {{arquivo.rar}}`
 
+- Descompacta o arquivo para um caminho especificado mantendo a estrutura de diretórios original:
+
+`unrar x {{arquivo.rar}} {{caminho/para/extrair}}`
+
 - Descompacta o arquivo sem manter a estrutura de diretórios original:
 
 `unrar e {{arquivo.rar}}`
