@@ -1,6 +1,6 @@
 # CUPS
 
-> Open-source printing system.
+> Open source printing system.
 > CUPS isn't a single command, but a set of commands.
 > More information: <https://www.cups.org/index.html>.
 
