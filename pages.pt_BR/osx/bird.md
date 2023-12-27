@@ -4,6 +4,6 @@
 > Não deve ser invocado manualmente.
 > Mais informações: <https://www.unix.com/man-page/mojave/8/bird/>.
 
-- Iniciar o daemon:
+- Inicia o daemon:
 
 `bird`

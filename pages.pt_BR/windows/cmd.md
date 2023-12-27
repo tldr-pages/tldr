@@ -3,31 +3,31 @@
 > O interpretador de comandos do Windows.
 > Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
-- Iniciar nova instância do interpretador de comandos:
+- Inicia nova instância do interpretador de comandos:
 
 `cmd`
 
-- Executar o comando especificado e sair do interpretador:
+- Executa o comando especificado e sai do interpretador:
 
 `cmd /c "{{comando}}"`
 
-- Executar o comando especificado e entrar no shell interativo:
+- Executa o comando especificado e entra no shell interativo:
 
 `cmd /k "{{comando}}"`
 
-- Desabilitar o uso do comando `echo` na saída dos comandos:
+- Desabilita o uso do comando `echo` na saída dos comandos:
 
 `cmd /q`
 
-- Habilitar ou desabilitar extensão de comandos:
+- Habilita ou desabilita extensão de comandos:
 
 `cmd /e:{{on|off}}`
 
-- Habilitar ou desabilitar a ferramenta que completa automaticamente o nome de arquivos ou diretórios:
+- Habilita ou desabilita a ferramenta que completa automaticamente o nome de arquivos ou diretórios:
 
 `cmd /f:{{on|off}}`
 
-- Habilitar ou desabilitar a expansão de variáveis de ambiente:
+- Habilita ou desabilita a expansão de variáveis de ambiente:
 
 `cmd /v:{{on|off}}`
 

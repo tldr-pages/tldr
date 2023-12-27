@@ -27,6 +27,6 @@
 
 `flutter test {{test/example_test.dart}}`
 
-- Buildar APK de release direcionado aos mais modernos smartphones:
+- Builda APK de release direcionado aos mais modernos smartphones:
 
 `flutter build apk --target-platform {{android-arm}},{{android-arm64}}`
