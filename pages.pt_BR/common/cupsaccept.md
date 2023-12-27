@@ -8,6 +8,6 @@
 
 `cupsaccept {{destino1 destino2 ...}}`
 
-- Especificar um servidor diferente:
+- Especifica um servidor diferente:
 
 `cupsaccept -h {{server}} {{destino1 destino2 ...}}`
