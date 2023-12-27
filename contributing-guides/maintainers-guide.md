@@ -60,6 +60,8 @@ for the behavior expected of tldr-pages maintainers.
   (2) have the **review comments addressed**,
   (3) get **approved reviews by two maintainers** (the second maintainer can merge immediately after approving).
 
+- It is suggested to wait for a few hours before merging a PR having new additions to English pages. This is to allow other maintainers to review the changes and provide feedback.
+
 - If a PR fails to get a review from a second maintainer after a few days,
   the first maintainer should ping others for review. If it still lingers around
   for **over a week without a second maintainer’s approval**,
@@ -80,6 +82,8 @@ for the behavior expected of tldr-pages maintainers.
   Be mindful of signs of fatigue (less enthusiastic responses, slower reactions),
   and relax review standards if necessary — minor issues can always be fixed later.
 
+- For PRs with major/breaking/architectural changes that are **not ready to be merged**, it is suggested to label them with the `decision` label and discuss the changes with the other maintainers in the chatroom.
+
 - When merging PRs, use the **merge strategy that produces a clean Git history**:
   If there's a single commit in the PR,
   or if the multiple commits are not semantically independent changes,
@@ -92,6 +96,8 @@ for the behavior expected of tldr-pages maintainers.
   For less clear-cut cases, a simple heuristic you can follow
   is that if there are more "dirty" commits than "clean" commits,
   then prefer squash, else do a rebase.
+
+- It is suggested to preserve the coauthored by message when cleaning the body of squashed commit message unless the change done was trivial.
 
 - Although having push access allows committing directly to the repository to all branches (except main),
   please **create pull requests for all of your changes**.
@@ -109,3 +115,10 @@ for the behavior expected of tldr-pages maintainers.
  should be documented as an issue with the [archive](https://github.com/tldr-pages/tldr/issues?q=label%3Aarchive) label
   and must be communicated with other maintainers.
 - All repository/organization settings changes must be documented as an issue with the [archive](https://github.com/tldr-pages/tldr/issues?q=label%3Aarchive) label.
+
+## IV. Handling failing actions and CLA checks
+
+- While merging multiple pull requests at the same time there is a change that the deploy step might fail in the GitHub Actions workflow. In such cases, the maintainer should **re-run** the worklflow of the commit which was last merged (to prevent overwriting of assets).
+- If the CLA check is frozen at the message "Status waiting to be reported", it is recommended to close and reopen the pull requests to retrigger the check (and notify the contributor about the same).
+
+For reference to see if a contributor has signed the CLA, visit the  dashboard at <https://cla-assistant.io/>.
