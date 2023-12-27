@@ -4,7 +4,7 @@
 > CUPS isn't a command, but a set of commands. See the pages below.
 > More information: <https://www.cups.org/index.html>.
 
-- Show the tldr page for running the CUPS daemon:
+- Show the tldr page for running the `CUPS` daemon:
 
 `tldr cupsd`
 
