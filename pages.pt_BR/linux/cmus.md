@@ -4,22 +4,22 @@
 > Use as setas para navegar, `<enter/return>` para selecionar, e números 1-8 para alterar as telas de opções.
 > Mais informações: <https://cmus.github.io>.
 
-- Iniciar o cmus em um diretório específico:
+- Inicia o cmus em um diretório específico:
 
 `cmus {{caminho_do_diretorio}}`
 
-- Adicionar arquivo/diretório a biblioteca:
+- Adiciona arquivo/diretório a biblioteca:
 
 `:add {{caminho_para_arquivo_ou_diretorio}}`
 
-- Parar/reiniciar a música atual:
+- Para/reinicia a música atual:
 
 `c`
 
-- Ativar/Desativar o modo aleatório:
+- Ativa/Desativa o modo aleatório:
 
 `s`
 
-- Sair cmus:
+- Sai do cmus:
 
 `q`

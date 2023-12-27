@@ -4,26 +4,26 @@
 > Comando nativo do OS X.
 > Mais informações: <https://ss64.com/osx/afinfo.html>.
 
-- Exibir informações de um determinado arquivo de áudio:
+- Exibe informações de um determinado arquivo de áudio:
 
 `afinfo {{caminho/para/arquivo}}`
 
-- Imprimir uma descrição de uma linha do arquivo de áudio:
+- Imprime uma descrição de uma linha do arquivo de áudio:
 
 `afinfo --brief {{caminho/para/arquivo}}`
 
-- Imprimir informações de metadados e conteúdo do InfoDictionary do arquivo de áudio:
+- Imprime informações de metadados e conteúdo do InfoDictionary do arquivo de áudio:
 
 `afinfo --info {{caminho/para/arquivo}}`
 
-- Imprimir saída em formato XML:
+- Imprime saída em formato XML:
 
 `afinfo --xml {{caminho/para/arquivo}}`
 
-- Imprimir avisos para o arquivo de áudio, se houver:
+- Imprime avisos para o arquivo de áudio, se houver:
 
 `afinfo --warnings {{caminho/para/arquivo}}`
 
-- Exibir ajuda sobre o uso completo:
+- Exibe ajuda sobre o uso completo:
 
 `afinfo --help`

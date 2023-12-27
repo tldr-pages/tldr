@@ -4,18 +4,18 @@
 > Alguns subcomandos como `choco install` tem sua própia documentação de uso.
 > Mais informações: <https://chocolatey.org>.
 
-- Executar o comando Chocolatey:
+- Executa o comando Chocolatey:
 
 `choco {{comando}}`
 
-- Exibir ajuda generalizada:
+- Exibe ajuda generalizada:
 
 `choco -?`
 
-- Exibir ajuda em um comando específico:
+- Exibe ajuda em um comando específico:
 
 `choco {{comando}} -?`
 
-- Exibir a versão do Chocolatey:
+- Exibe a versão do Chocolatey:
 
 `choco --version`

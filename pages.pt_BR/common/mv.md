@@ -11,7 +11,7 @@
 
 `mv {{percorso/del/arquivo_1 percorso/del/arquivo_2 ...}} {{percorso/del/destino}}`
 
-- Não requisitar confirmação para sobrescrição de arquivos:
+- Não requisita confirmação para sobrescrição de arquivos:
 
 `mv -f {{percorso/del/arquivo}} {{percorso/del/destino}}`
 
