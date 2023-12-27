@@ -5,7 +5,7 @@
 
 - Lista aplicaciones:
 
-`argocd app list --output {{json|yaml|wide}} `
+`argocd app list --output {{json|yaml|wide}}`
 
 - Obtiene detalles de la aplicación:
 

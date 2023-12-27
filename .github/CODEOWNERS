@@ -16,7 +16,7 @@
 /pages/linux/ @sbrl
 
 /*.md @sbrl @kbdharun
-/.github/* @sbrl @kbdharun @sebastiaanspeck
+/.github/workflows/* @sbrl @kbdharun @sebastiaanspeck
 /scripts/* @sebastiaanspeck
 
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun
@@ -29,7 +29,7 @@
 /contributing-guides/*.ko.md @IMHOJEONG
 /contributing-guides/*.nl.md @sebastiaanspeck @leonvsc @Waples
 /contributing-guides/*.pl.md @acuteenvy
-/contributing-guides/*.pt_BR.md @waldyrious @isaacvicente
+/contributing-guides/*.pt_BR.md @isaacvicente
 /contributing-guides/*.pt_PT.md @waldyrious
 /contributing-guides/*.ta.md @kbdharun
 /contributing-guides/*.tr.md @yutyo

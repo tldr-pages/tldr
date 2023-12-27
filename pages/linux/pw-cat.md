@@ -7,10 +7,14 @@
 
 `pw-cat --playback {{path/to/file.wav}}`
 
-- Record a sample recording at a different volume level:
+- Play a WAV file with a specified resampler quality (4 by default):
 
-`pw-cat --record --volume={{0.1}} {{path/to/file.wav}}`
+`pw-cat --quality {{0..15}} --playback {{path/to/file.wav}}`
+
+- Record a sample recording at a volume level of 125%:
+
+`pw-cat --record --volume {{1.25}} {{path/to/file.wav}}`
 
 - Record a sample recording using a different sample rate:
 
-`pw-cat --record --rate={{6000}} {{path/to/file.wav}}`
+`pw-cat --record --rate {{6000}} {{path/to/file.wav}}`
