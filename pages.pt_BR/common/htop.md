@@ -15,6 +15,10 @@
 
 `htop --sort {{item_de_ordenação}}`
 
+- Inicializa `htop` com um atraso especificado entre atualizações, em décimos de segundo (p. ex. 50 = 5 segundos):
+
+`htop --delay {{50}}`
+
 - Vê comandos interativos enquanto roda `htop`:
 
 `?`
