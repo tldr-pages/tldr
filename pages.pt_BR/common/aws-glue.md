@@ -20,7 +20,7 @@
 
 `aws glue list-triggers`
 
-- Iniciar um gatilho:
+- Inicia um gatilho:
 
 `aws glue start-trigger --name {{nome_do_gatilho}}`
 
