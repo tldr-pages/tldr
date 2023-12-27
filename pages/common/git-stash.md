@@ -21,7 +21,7 @@
 
 - Show the changes as a patch between the stash (default is stash@{0}) and the commit back when stash entry was first created:
 
-`git stash show -p {{stash@{0}}`
+`git stash show -p {{stash@{0}}}`
 
 - Apply a stash (default is the latest, named stash@{0}):
 
