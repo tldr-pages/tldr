@@ -346,6 +346,27 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 > Delete the Git branches, tags, and remotes.
 
+## See also section
+
+- If the page has a "See also" section, if it has 1 recommendation, it must follow the follow template:
+
+```md
+> See also `command`.
+```
+
+- If it has 2 or more recommendations, it must follow the follow template:
+
+```md
+> See also: `command1`, `command2`, `command3`.
+```
+
+- **Do not** write it in another way like:
+
+```md
+> See also `command1`, `command2` and `command3`.
+```
+
+
 ## More information links
 
 On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and some BSD platforms).
