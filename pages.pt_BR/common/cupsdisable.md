@@ -2,7 +2,7 @@
 
 > Stop printers and classes.
 > See also: `cupsenable`, `cupsaccept`, `cupsreject`, `lpstat`.
-> More information: <https://www.cups.org/doc/man-cupsenable.html>.
+> More information: <https://openprinting.github.io/cups/doc/man-cupsenable.html>.
 
 - Stop one or more destination(s):
 

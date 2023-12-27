@@ -2,7 +2,7 @@
 
 > Inicia impressoras e classes.
 > Veja também: `cupsdisable`, `cupsaccept`, `cupsreject`, `lpstat`.
-> Mais informações: <https://www.cups.org/doc/man-cupsenable.html>.
+> Mais informações: <https://openprinting.github.io/cups/doc/man-cupsenable.html>.
 
 - Inicia um ou mais destino(s):
 

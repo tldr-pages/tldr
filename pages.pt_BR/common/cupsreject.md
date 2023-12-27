@@ -2,7 +2,7 @@
 
 > Rejeita trabalhos enviados para uma ou mais impressoras.
 > Veja também: `cupsaccept`, `cupsenable`, `cupsdisable`, `lpstat`.
-> Mais informações: <https://www.cups.org/doc/man-cupsaccept.html>.
+> Mais informações: <https://openprinting.github.io/cups/doc/man-cupsaccept.html>.
 
 - Rejeita trabalhos para os destinos especificados:
 
