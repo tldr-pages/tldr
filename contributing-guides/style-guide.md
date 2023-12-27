@@ -348,24 +348,17 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 ## See also section
 
-- If the page has a "See also" section, if it has 1 recommendation, it must follow the follow template:
+- To reference a related command or subcommand, use:
 
 ```md
-> See also `command`.
+> See also: `command`.
 ```
 
-- If it has 2 or more recommendations, it must follow the follow template:
+- To reference related commands or subcommands, use:
 
 ```md
 > See also: `command1`, `command2`, `command3`.
 ```
-
-- **Do not** write it in another way like:
-
-```md
-> See also `command1`, `command2` and `command3`.
-```
-
 
 ## More information links
 
