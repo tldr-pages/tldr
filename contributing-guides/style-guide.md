@@ -293,7 +293,7 @@ Use backticks on the following:
 - Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
 - Brand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
 - Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
-- When documenting keycaps or a keyboard shortcut for a utility it is suggested to wrap them in backticks to make them stand out in description (i.e. "Print the last lines of a given file and keep reading file until `Ctrl + C`"). Alternatively, you can document them as a seperate command and optionally highlight them as placeholders (i.e. `:wq{{Enter}}`).
+- When documenting keycaps or a keyboard shortcut for a utility it is suggested to wrap them in backticks to make them stand out in the description (i.e. "Print the last lines of a given file and keep reading file until `Ctrl + C`"). Alternatively, you can document them as a separate command and optionally highlight them as placeholders (i.e. `:wq{{Enter}}`).
 
 ### Imperative Mood
 
