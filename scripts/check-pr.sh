@@ -78,6 +78,7 @@ function strip_commands() {
     grep "$regex" "$file" | 
     sed 's/{{[^}]*}}/{{}}/g' | 
     sed 's/<[^>]*>//g' | 
+    sed 's/([^)]*)//g' | 
     sed 's/"[^"]*"/""/g' | 
     sed "s/'[^']*'//g" | 
     sed 's/`//g'
