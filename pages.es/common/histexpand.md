@@ -5,7 +5,7 @@
 
 - Ejecuta el comando anterior como root (`!!` se sustituye por el comando anterior):
 
-`¡sudo!`
+`sudo !!`
 
 - Ejecuta un comando con el último argumento del comando anterior:
 
