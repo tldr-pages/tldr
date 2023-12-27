@@ -166,7 +166,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin)):
   [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473) — [15 November 2023](https://github.com/tldr-pages/tldr/issues/11509)
 - Lena ([@acuteenvy](https://github.com/acuteenvy)):
-  [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406) — [25 December 2023](https://github.com/tldr-pages/tldr/issues/11839)
+  [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406) — [27 December 2023](https://github.com/tldr-pages/tldr/issues/11839)
 
 ## Organization owners
 
@@ -197,7 +197,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson))**:
   [7 July 2023](https://github.com/tldr-pages/tldr/issues/10054) — present
 - **Lena ([@acuteenvy](https://github.com/acuteenvy))**:
-  [25 December 2023](https://github.com/tldr-pages/tldr/issues/11839) — present
+  [27 December 2023](https://github.com/tldr-pages/tldr/issues/11839) — present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
