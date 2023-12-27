@@ -20,6 +20,6 @@
 
 `transmission-create -o {{path/to/example.torrent}} --tracker {{tracker_url1}} --tracker {{tracker_url2}} {{path/to/file_or_directory}}`
 
-- Show help page:
+- Display help page:
 
 `transmission-create --help`

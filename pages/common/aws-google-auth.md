@@ -15,6 +15,6 @@
 
 `aws-google-auth -u {{example@example.com}} -I {{$GOOGLE_IDP_ID}} -S {{$GOOGLE_SP_ID}} -d {{3600}} -a --resolve-aliases`
 
-- Show help information:
+- Display help:
 
 `aws-google-auth -h`

@@ -20,6 +20,6 @@
 
 `shopt -p`
 
-- Show help for the command:
+- Display help for the command:
 
 `help shopt`

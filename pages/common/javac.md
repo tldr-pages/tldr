@@ -5,11 +5,11 @@
 
 - Compile a `.java` file:
 
-`javac {{file.java}}`
+`javac {{path/to/file.java}}`
 
 - Compile several `.java` files:
 
-`javac {{file1.java}} {{file2.java}} {{file3.java}}`
+`javac {{path/to/file1.java}} {{path/to/file2.java}} {{path/to/file3.java}}`
 
 - Compile all `.java` files in current directory:
 
@@ -17,4 +17,4 @@
 
 - Compile a `.java` file and place the resulting class file in a specific directory:
 
-`javac -d {{path/to/directory}} {{file.java}}`
+`javac -d {{path/to/directory}} {{path/to/file.java}}`
