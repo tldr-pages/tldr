@@ -29,7 +29,7 @@
 
 - Busca líneas que coincidan con un patrón e imprime sólo el texto coincidente:
 
-`grep --only-matching "{{patrón_de_búsqueda}}" {{ruta/a/archivo}}`
+`grep --only-matching "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
 - Busca `stdin` en las líneas que no coincidan con un patrón:
 
