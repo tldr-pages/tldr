@@ -373,6 +373,11 @@ Additionally, if the link is related to PowerShell command documentation, remove
 - Use <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> instead of <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>.
 - Use <https://learn.microsoft.com/powershell/module/powershellget/install-module> instead of <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
 
+## Help and version commands
+
+- We generally place the help and version commands at the **last part of the page** to highlight more practical commands at the beginning of the page.
+- For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
+
 ## Language-Specific Rules
 
 ### Chinese-Specific Rules
