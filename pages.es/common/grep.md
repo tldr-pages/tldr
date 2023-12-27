@@ -33,4 +33,4 @@
 
 - Busca `stdin` en las líneas que no coincidan con un patrón:
 
-`cat {{ruta/a/archivo}} | grep --invert-match "{{patrón_de_busqueda}}"`
+`cat {{ruta/al/archivo}} | grep --invert-match "{{patrón_de_busqueda}}"`
