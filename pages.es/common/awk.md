@@ -9,7 +9,7 @@
 
 - Imprime la segunda columna de las líneas que contienen "foo" en un archivo separado por espacios:
 
-`awk '/{{foo}}/ {print $2}' {{ruta/a/archivo}}`
+`awk '/{{foo}}/ {print $2}' {{ruta/al/archivo}}`
 
 - Imprime la última columna de cada línea de un archivo, utilizando una coma (en lugar de un espacio) como separador de campos:
 
