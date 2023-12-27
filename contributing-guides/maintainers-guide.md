@@ -60,7 +60,7 @@ for the behavior expected of tldr-pages maintainers.
   (2) have the **review comments addressed**,
   (3) get **approved reviews by two maintainers** (the second maintainer can merge immediately after approving).
 
-- It is suggested to wait for a few hours before merging a pull request having new additions to English pages. This is to allow other maintainers to review the changes and provide feedback.
+- It is suggested to wait for a few hours before merging a pull request with new additions to English pages. This is to allow other maintainers to review the changes and provide feedback.
 
 - If a PR fails to get a review from a second maintainer after a few days,
   the first maintainer should ping others for review. If it still lingers around
@@ -97,7 +97,25 @@ for the behavior expected of tldr-pages maintainers.
   is that if there are more "dirty" commits than "clean" commits,
   then prefer squash, else do a rebase.
 
-- It is suggested to preserve the coauthored by message when cleaning the body of the squashed commit message unless the change done was trivial.
+- It is suggested to clean up the commit message when merging a PR. For small commits, use:
+  ```
+  page-name: short description of the change
+
+  Co-authored-by: ...
+  ```
+  if you think a more descriptive message is needed, use asterisks:
+  ```
+  page-name: short description of the change
+
+  * some more information
+  * ...
+
+  ---------
+
+  Co-authored-by: ...
+  ```
+
+- It is suggested to preserve the `Co-authored-by` message when cleaning the body of a squashed commit message unless the change done was trivial.
 
 - Although having push access allows committing directly to the repository to all branches (except main),
   please **create pull requests for all of your changes**.
