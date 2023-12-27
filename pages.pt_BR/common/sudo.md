@@ -13,7 +13,7 @@
 
 - Executa um comando como outro usuário e/ou grupo:
 
-`sudo --user={{usuário}} --group={{grupo}} {{id -a}}}`
+`sudo --user={{usuário}} --group={{grupo}} {{id -a}}`
 
 - Executa um comando anterior com o prefixo `sudo` (apenas em `bash`, `zsh`, etc.):
 

@@ -6,7 +6,7 @@
 /pages.ko/ @IMHOJEONG
 /pages.nl/ @sebastiaanspeck @leonvsc @Waples
 /pages.pl/ @acuteenvy
-/pages.pt_BR/ @waldyrious @isaacvicente
+/pages.pt_BR/ @isaacvicente
 /pages.pt_PT/ @waldyrious
 /pages.ta/ @kbdharun
 /pages.tr/ @yutyo
@@ -29,7 +29,7 @@
 /contributing-guides/*.ko.md @IMHOJEONG
 /contributing-guides/*.nl.md @sebastiaanspeck @leonvsc @Waples
 /contributing-guides/*.pl.md @acuteenvy
-/contributing-guides/*.pt_BR.md @waldyrious @isaacvicente
+/contributing-guides/*.pt_BR.md @isaacvicente
 /contributing-guides/*.pt_PT.md @waldyrious
 /contributing-guides/*.ta.md @kbdharun
 /contributing-guides/*.tr.md @yutyo

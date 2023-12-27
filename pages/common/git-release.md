@@ -14,4 +14,4 @@
 
 - Create and push a release with a message:
 
-`git release {{{tag_name}}} -m "{{message}}"`
+`git release {{tag_name}} -m "{{message}}"`
