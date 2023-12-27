@@ -10,7 +10,7 @@
 
 - Navigare sinistra/sopra/sotto/destra:
 
-`<H|J|K|L> or arrow keys`
+`<H|J|K|L> OR arrow keys`
 
 - Ruotare:
 

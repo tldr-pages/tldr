@@ -13,12 +13,12 @@
 
 - Son alt ağaca kadar olan değişiklikleri alt ağaca commit'le:
 
-`git subtree merge --prefix={{dizin/konumu}}} --squash {{depo_url'si}} {{dal_ismi}}`
+`git subtree merge --prefix={{dizin/konumu}} --squash {{depo_url'si}} {{dal_ismi}}`
 
 - Commit'leri bir alt ağaç deposuna yolla:
 
-`git subtree push --prefix={{dizin/konumu}}} {{depo_url'si}} {{dal_ismi}}`
+`git subtree push --prefix={{dizin/konumu}} {{depo_url'si}} {{dal_ismi}}`
 
 - Bir alt ağacın geçmişinden yeni bir proje geçmişi dışa aktar:
 
-`git subtree split --prefix={{dizin/konumu}}} {{depo_url'si}} -b {{dal_ismi}}`
+`git subtree split --prefix={{dizin/konumu}} {{depo_url'si}} -b {{dal_ismi}}`

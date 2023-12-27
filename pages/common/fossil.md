@@ -12,7 +12,7 @@
 
 `fossil help`
 
-- Show help on a Fossil subcommand (like `add`, `commit`, etc.):
+- Display help on a Fossil subcommand (like `add`, `commit`, etc.):
 
 `fossil help {{subcommand}}`
 
