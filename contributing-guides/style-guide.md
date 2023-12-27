@@ -189,7 +189,7 @@ In this case, provide a note and method to determine whether the command current
 - We prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`) unless the program does not support it.
 
 > [!NOTE]  
-> The goal of using long options is to make the commands easier to read and understand for non-techincal users. While it is ideal for most users, some users prefer short option for better ease of use. If the command supports both the options, we can highlight the short options using mnemonics instead.
+> The goal of using long options is to make the commands easier to read and understand for non-technical users. While it is ideal for most users, some users prefer the short option for better ease of use. If the command supports both options, we can highlight the short options using mnemonics instead.
 
 ### Short option mnemonics
 
@@ -234,7 +234,7 @@ Keep the following guidelines in mind when choosing placeholders:
 
 ### Paths
 
-- Use `{{filename}}` when just file name is expected.
+- Use `{{filename}}` when just the file name is expected.
 - For any reference to paths of files or directories,
   use the format `{{path/to/<placeholder>}}`,
   except when the location is implicit.
@@ -246,7 +246,7 @@ Keep the following guidelines in mind when choosing placeholders:
   use `{{path/to/file_or_directory}}`.
 
 > [!NOTE]  
-> If the command is specific to Windows, use backslashes (`\`) instead, such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless if the command input requires an absolute path or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
+> If the command is specific to Windows, use backslashes (`\`) instead, such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless the command input requires an absolute path or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
 
 ### Extensions
 
@@ -322,7 +322,7 @@ When writing descriptions for command examples, **check for any grammatical erro
 - `Let's go to the specified directory!`
 - `Directory change` (use the active form instead of passive, if possible)
 
-For instance, instead of `Listing all files:`, `List all files:` can be be used as the example's description below:
+For instance, instead of `Listing all files:`, `List all files:` can be used as the example's description below:
 
 ```md
 - Listing all files:
@@ -382,7 +382,7 @@ Additionally, if the link is related to PowerShell command documentation, remove
 
 ## Language-Specific Rules
 
-The below section contains additional language specific rules for translating pages:
+The below section contains additional language-specific rules for translating pages:
 
 ### Chinese-Specific Rules
 
@@ -460,7 +460,7 @@ Second, we recommend using the following forms of technical terms to make transl
 | File | File | Preferred over [`berkas`](https://kbbi.kemdikbud.go.id/entri/berkas) which may be unfamiliar by some readers. |
 | Generate | Buat | Preferred over [`hasilkan`](https://kbbi.kemdikbud.go.id/entri/hasilkan). Example context: `Buat laporan baru`. |
 | Hardware | Perangkat Keras | Preferred over [`peranti`](https://kbbi.kemdikbud.go.id/entri/peranti). |
-| Image (as picture or visual image) | Gambar | Do not confuse with `image` as means of storage. |
+| Image (as picture or visual image) | Gambar | Do not confuse with `image` as a means of storage. |
 | Image (as means of storage, such as CD, ISO, and Docker) | Image | Another recommended word, [`citra`](https://kbbi.kemdikbud.go.id/entri/citra), is not officially recognized for computing. |
 | Initialize, Reinitialize | Inisialisasikan, Inisialisasikan Ulang | The word [`inisialisasi`](https://kbbi.kemdikbud.go.id/entri/inisialisasi) is officially considered as noun. Requires a `-kan` suffix to convert into a verb. |
 | Interpreter | Interpreter | Preferred over [`penerjemah`](https://kbbi.kemdikbud.go.id/entri/penerjemah) which is also commonly used to describe `translator`. |
