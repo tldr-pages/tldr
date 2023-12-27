@@ -13,7 +13,7 @@
 
 - Open the full Wikipedia article in the default browser:
 
-`wikit {{topic}} --browser`
+`wikit {{topic}} -b`
 
 - Open a disambiguation CLI menu:
 
