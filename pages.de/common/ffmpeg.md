@@ -7,21 +7,17 @@
 
 `ffmpeg -i {{pfad/zu/video.mp4}} -vn {{pfad/zu/audio}}.mp3`
 
-- Konvertiere Frames eines Videos oder Gifs zu individuellen, nummerierten Bildern:
-
-`ffmpeg -i {{video.mpg|video.gif}} {{pfad/zu/frame_%d.png}}`
-
 - Kombiniere nummerierte Bilder (`frame_1.jpg`, `frame_2.jpg`, etc) in ein Video oder Gif:
 
-`ffmpeg -i {{pfad/zu/frame_%d.jpg}} -f bild2 {{video.mpg|video.gif}}`
+`ffmpeg -i {{pfad/zu/frame_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
 
 - Extrahiere einen einzelnen Frame von einem Video bei mm:ss and speichere als 128x128 Bild:
 
-`ffmpeg -ss {{mm:ss}} -i {{pfad/zu/video.mp4}} -frames 1 -s {{128x128}} -f bild2 {{pfad/zu/bild.png}}`
+`ffmpeg -ss {{mm:ss}} -i {{pfad/zu/video.mp4}} -frames 1 -s {{128x128}} -f image2 {{pfad/zu/bild.png}}`
 
 - Trimme ein Video von mm:ss bis mm2:ss2 (Ohne -to bis zum Ende des Videos):
 
-`ffmpeg -ss {{mm1:ss1}} -to {{mm2:ss2}} -i {{video.mp4}} -codec copy {{pfad/zu/output.mp4}}`
+`ffmpeg -ss {{mm:ss}} -to {{mm2:ss2}} -i {{pfad/zu/video/video.mp4}} -codec copy {{pfad/zu/output.mp4}}`
 
 - Konvertiere ein AVI Video zu MP4. AAC Audio @ 128kbit, h264 Video @ CRF 23:
 

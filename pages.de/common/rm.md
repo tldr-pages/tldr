@@ -7,14 +7,6 @@
 
 `rm {{pfad/zu/datei1 pfad/zu/datei2 ...}}`
 
-- Lösche ein Verzeichnis und alle seine Unterverzeichnisse rekursiv:
-
-`rm -r {{pfad/zu/verzeichnis}}`
-
-- Erzwinge das Löschen eines Verzeichnisses, ohne Eingabeaufforderung zur Bestätigung oder Anzeigen von Fehlermeldungen:
-
-`rm -rf {{pfad/zu/verzeichnis}}`
-
 - Lösche mehrere Dateien mit Eingabeaufforderung zur Bestätigung für jede Datei:
 
 `rm -i {{pfad/zu/datei1 pfad/zu/datei2 ...}}`
@@ -22,3 +14,7 @@
 - Liste jede Datei auf, wenn sie gelöscht wird:
 
 `rm -v {{pfad/zu/verzeichnis/*}}`
+
+- Lösche ein Verzeichnis und alle seine Unterverzeichnisse rekursiv:
+
+`rm -r {{pfad/zu/verzeichnis}}`
