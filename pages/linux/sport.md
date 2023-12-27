@@ -23,7 +23,7 @@
 
 `sport cat {{package}}`
 
-- Install package once the dependencies are resolved:
+- Install a package once the dependencies are resolved:
 
 `sudo sport install {{package}}`
 
