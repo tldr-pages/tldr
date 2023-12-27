@@ -1,6 +1,6 @@
 # ippeveps
 
-> Command for `ippeveprinter` to print to Adobe PostScript printers.
+> Print to Adobe PostScript printers.
 > Supports PDF, PostScript, JPEG, PWG Raster or Apple Raster files.
 > See also: `ippevepcl`, `ippeveprinter`.
 > More information: <https://www.cups.org/doc/man-ippevepcl.html>.

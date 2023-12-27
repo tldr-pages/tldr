@@ -1,6 +1,6 @@
 # ippevepcl
 
-> Command for `ippeveprinter` to print to B&W HP PCL laser printers.
+> Print to B&W HP PCL laser printers.
 > Supports HP PCL, PWG Raster and Apple Raster files.
 > See also: `ippevepcl`, `ippeveprinter`.
 > More information: <https://www.cups.org/doc/man-ippevepcl.html>.
