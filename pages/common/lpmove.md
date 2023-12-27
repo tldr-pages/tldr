@@ -10,7 +10,7 @@
 
 - Move a job from `old_printer` to `new_printer`:
 
-`lpmove {{old_printer-job_id}} {{new_printer}}`
+`lpmove {{old_printer}}-{{job_id}} {{new_printer}}`
 
 - Move all jobs from `old_printer` to `new_printer`:
 

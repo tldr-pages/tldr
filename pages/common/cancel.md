@@ -18,7 +18,7 @@
 
 - Cancel a specific job from a specific printer:
 
-`cancel {{printer-job_id}}`
+`cancel {{printer}}-{{job_id}}`
 
 - Cancel all jobs of all printers:
 

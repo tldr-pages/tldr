@@ -10,7 +10,7 @@
 
 - Move um trabalho de `antiga_impressora` para `nova_impressora`:
 
-`lpmove {{antiga_impressora-id_do_trabalho}} {{nova_impressora}}`
+`lpmove {{antiga_impressora}}-{{id_do_trabalho}} {{nova_impressora}}`
 
 - Move todos os trabalhos de `antiga_impressora` para `nova_impressora`:
 

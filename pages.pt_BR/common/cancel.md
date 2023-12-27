@@ -18,7 +18,7 @@
 
 - Cancela um trabalho específico de uma impressora específica:
 
-`cancel {{impressora-id_do_trabalho}}`
+`cancel {{impressora}}-{{id_do_trabalho}}`
 
 - Cancela todos os trabalhos de todas as impressoras:
 
