@@ -16,10 +16,6 @@
 
 `ssh {{benutzer}}@{{externer_server}} -p {{2222}}`
 
-- Führen einen Befehl auf einem externen Server aus:
-
-`ssh {{externer_server}} {{befehl}}`
-
 - SSH Tunneln: Leite Ports dynamische Port weiter (SOCKS proxy auf localhost:1080):
 
 `ssh -D {{1080}} {{benutzer}}@{{externer_server}}`

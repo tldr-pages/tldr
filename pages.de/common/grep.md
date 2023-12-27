@@ -12,10 +12,6 @@
 
 `grep --fixed-strings "{{exakter_ausdruck}}" {{pfad/zu/datei}}`
 
-- Suche nach Ausdrücken [R]ekursiv im aktuellen Verzeichnis, zeige zugehörige Zeilen[n]ummern und [I]gnoriere Binärdateien:
-
-`grep -RIn "{{ausdruck}}" .`
-
 - Benutze erweiterte reguläre Ausdrücke (unterstützt `?`, `+`, `{}`, `()` und `|`) ohne Beachtung der Groß-, Kleinschreibung:
 
 `grep --extended-regexp --ignore-case "{{ausdruck}}" {{pfad/zu/datei}}`
@@ -23,15 +19,3 @@
 - Zeige 3 Zeilen Kontext um [C], vor [B] oder nach [A] jedem Ergebnis:
 
 `grep --{{context|before-context|after-context}}={{3}} "{{ausdruck}}" {{pfad/zu/datei}}`
-
-- Gib den Dateinamen mit zugehöriger Zeilennummer für jedes Ergebnis aus:
-
-`grep -Hn "{{ausdruck}}" {{pfad/zu/datei}}`
-
-- Benutze `stdin` anstatt einer Datei:
-
-`echo "input" | grep {{ausdruck}}`
-
-- In[v]ertiere das Ergebnis um bestimmte Ausdrücke auszuschließen:
-
-`grep -v {{ausdruck}}`
