@@ -30,7 +30,7 @@
 
 - 서버 인증을 위한 사용자 이름 및 비밀번호 전달:
 
-`curl --user {{username}} {{http://example.com}}`
+`curl --user {{사용자 명}} {{http://example.com}}`
 
 - 리소스에 대한 클라이언트 인증서 및 키 전달, 인증서 유효성 검사 스킵:
 

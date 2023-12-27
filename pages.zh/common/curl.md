@@ -30,7 +30,7 @@
 
 - 使用用户名和密码，授权访问服务器：
 
-`curl --user {{username}} {{http://example.com}}`
+`curl --user {{用户名}} {{http://example.com}}`
 
 - 为指定资源使用客户端证书和密钥，并且跳过证书验证：
 
