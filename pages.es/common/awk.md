@@ -21,7 +21,7 @@
 
 - Imprime una de cada tres líneas a partir de la primera:
 
-`awk 'NR%3==1' {{ruta/a/archivo}}`
+`awk 'NR%3==1' {{ruta/al/archivo}}`
 
 - Imprime diferentes valores basados en condiciones:
 
