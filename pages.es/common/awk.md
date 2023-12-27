@@ -5,7 +5,7 @@
 
 - Imprime la quinta columna (también conocida como campo) de un archivo separado por espacios:
 
-`awk '{print $5}' {{ruta/a/archivo}}`
+`awk '{print $5}' {{ruta/al/archivo}}`
 
 - Imprime la segunda columna de las líneas que contienen "foo" en un archivo separado por espacios:
 
