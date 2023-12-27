@@ -17,11 +17,11 @@
 
 - Flash a given image:
 
-`fastboot flash {{file.img}}`
+`fastboot flash {{path/to/file.img}}`
 
 - Flash a custom recovery image:
 
-`fastboot flash recovery {{file.img}}`
+`fastboot flash recovery {{path/to/file.img}}`
 
 - Display connected devices:
 

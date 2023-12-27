@@ -4,7 +4,7 @@
 > Create and manage relational databases.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/rds/index.html>.
 
-- Show help for specific RDS subcommand:
+- Display help for specific RDS subcommand:
 
 `aws rds {{subcommand}} help`
 
