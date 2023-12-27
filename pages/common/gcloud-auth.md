@@ -16,7 +16,7 @@
 
 `gcloud auth application-default`
 
-- List all credentialed accounts:
+- Display a list of Google Cloud accounts currently authenticated on your system:
 
 `gcloud auth list`
 

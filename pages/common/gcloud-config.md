@@ -1,6 +1,6 @@
 # gcloud config
 
-> Manage different configurations of `gcloud`. 
+> Manage different configurations of `gcloud`.
 > See also: `gcloud`.
 > More information: <https://cloud.google.com/sdk/gcloud/reference/config>.
 
@@ -16,7 +16,7 @@
 
 `gcloud config list`
 
-- Create a new named configuration:
+- Create a new configuration with a given name:
 
 `gcloud config configurations create {{configuration_name}}`
 
