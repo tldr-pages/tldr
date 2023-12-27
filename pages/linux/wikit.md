@@ -15,6 +15,6 @@
 
 `wikit {{topic}} -b`
 
-- Open a disambiguation CLI menu:
+- Open a disambiguation menu:
 
 `wikit {{topic}} -d`
