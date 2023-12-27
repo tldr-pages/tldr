@@ -232,8 +232,6 @@ Where `{{command}}` is the name of the command being modified, and `type of chan
 - For multiple subcommand page additions: `git-{add, push, ...}: add page`
 - For modifying multiple pages in a language: `pages.<locale>/*: update pages`
 
----
-
 For other cases, its suggested to follow <https://www.conventionalcommits.org/> as much as possible.
 
 ## Name collisions
