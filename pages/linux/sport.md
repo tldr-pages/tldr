@@ -27,6 +27,6 @@
 
 `sudo sport install {{package}}`
 
-- Install a list of packages from a file:
+- Install a list of packages from a file (format: packages separated by spaces):
 
 `sudo sport install $(< path/to/list)`
