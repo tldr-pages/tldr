@@ -20,6 +20,6 @@
 
 `aws codeartifact help`
 
-- Show help for specific EC2 subcommand:
+- Display help for specific EC2 subcommand:
 
 `aws ec2 {{subcommand}} help`

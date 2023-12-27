@@ -5,7 +5,7 @@
 
 - Ir para um dado diretório:
 
-`cd {{caminho/para/diretorio}}`
+`cd {{caminho/para/diretório}}`
 
 - Ir para o diretório base do utilizador atual:
 

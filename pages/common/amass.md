@@ -12,7 +12,7 @@
 
 `amass -help`
 
-- Show help on an Amass subcommand (like `intel`, `enum`, etc.):
+- Display help on an Amass subcommand (like `intel`, `enum`, etc.):
 
 `amass -help {{subcommand}}`
 
