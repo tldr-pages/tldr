@@ -24,7 +24,7 @@ Community members are requested to abide by the following principles:
    Avoid making assumptions about the other's intentions,
    and make your intentions clear.
    When in doubt, provide additional context or ask for clarification.
-   Remember, its very hard to convey meaning in a purely written medium,
+   Remember, it's very hard to convey meaning in a purely written medium,
    especially between people from different cultures, technical backgrounds,
    English proficiency levels, etc.
    Use inclusive language whenever possible and reasonable — for example,
