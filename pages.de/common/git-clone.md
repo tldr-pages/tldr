@@ -21,7 +21,7 @@
 
 - Klone ohne Meldungen:
 
-`git clone -quiet {{url_zu_repository}}`
+`git clone --quiet {{url_zu_repository}}`
 
 - Klone ein existierendes Repository und rufe nur die neuesten 10 Commits im Standard-Branch ab (spart Zeit):
 
