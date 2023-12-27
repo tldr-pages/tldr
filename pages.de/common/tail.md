@@ -25,4 +25,4 @@
 
 - Zeige die letzten Zeilen einer Datei an und lade alle paar Sekunden neu:
 
-`tail --lines {{anzahl_an_zeilen}} --sleep-interval {{anzahl_an_sekunden}} -f {{datei}}`
+`tail --lines {{anzahl_an_zeilen}} --sleep-interval {{anzahl_an_sekunden}} --follow {{datei}}`
