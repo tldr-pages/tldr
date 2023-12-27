@@ -98,14 +98,15 @@ for the behavior expected of tldr-pages maintainers.
   then prefer squash, else do a rebase.
 
 - It is suggested to clean up the commit message when merging a PR. For small commits, use:
+
   ```
-  page-name: short description of the change
+  page-name: a short description of the change
 
   Co-authored-by: ...
   ```
   if you think a more descriptive message is needed, use asterisks:
   ```
-  page-name: short description of the change
+  page-name: a short description of the change
 
   * some more information
   * ...
@@ -117,7 +118,7 @@ for the behavior expected of tldr-pages maintainers.
 
 - It is suggested to preserve the `Co-authored-by` message when cleaning the body of a squashed commit message unless the change done was trivial.
 
-- Although having push access allows committing directly to the repository to all branches (except main),
+- Although having push access allows committing directly to the repository to all branches (except the main branch),
   please **create pull requests for all of your changes**.
   This ensures that the entire process that regular contributors go through
   is also exposed to maintainers,
@@ -125,7 +126,7 @@ for the behavior expected of tldr-pages maintainers.
   Similarly, **avoid merging your own PRs** unless approved by other maintainers.
 
 - At the last week of October, all applicable PRs that wouldn't get merged
- in time can be labeled as `hacktoberfest-accepted`.
+ in time can be labelled as `hacktoberfest-accepted`.
 
 ## III. Transparency
 
