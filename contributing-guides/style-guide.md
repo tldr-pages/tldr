@@ -375,8 +375,8 @@ Additionally, if the link is related to PowerShell command documentation, remove
 
 ## Help and version commands
 
-- We generally place the help and version commands at the **last part of the page** to highlight more pratical commands at the beginning of the page.
-- Also, for consistency, we prefer to use generic wording to these commands: `Display help` and `Display version`.
+- We generally place the help and version commands at the **last part of the page** to highlight more practical commands at the beginning of the page.
+- For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
 
 ## Language-Specific Rules
 
