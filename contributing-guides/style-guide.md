@@ -55,8 +55,7 @@ Example:
 ```
 
 > [!NOTE]
-> The help page can be any documentation/project/tutorial page, not just a man page,
-> but documentation pages are preferred.
+> The filename and page title must match the command name exactly. Page title can use any case, whereas the filenames must be lowercase.
 
 There is a linter that enforces the format above.
 It is run automatically on every pull request,
@@ -292,6 +291,9 @@ Use backticks on the following:
 
 - Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`) unless the program name differs from the executable name (e.g. `rg` and Ripgrep).
 - Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
+- Brand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
+- Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
+- When documenting keycaps or a keyboard shortcut for a utility it is suggested to wrap them in backticks to make them stand out in description (i.e. "Print the last lines of a given file and keep reading file until `Ctrl + C`"). Alternatively, you can document them as a seperate command and optionally highlight them as placeholders (i.e. `:wq{{Enter}}`).
 
 ### Imperative Mood
 
@@ -348,11 +350,11 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 ## More information links
 
-On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and some BSD platforms).
+- On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and some BSD platforms). Alternatively, you can link to the author's website or a tutorial page if the command doesn't have a documentation page.
 
-**All links must be enclosed inside angular brackets (`<` and `>`) for proper rendering in clients.**
+- **All links must be enclosed inside angular brackets (`<` and `>`) for proper rendering in clients.**
 
-We prefer translations to use the more information link of the English page by default.
+- We prefer translations to use the more information link of the English page by default.
 
 ### Versioned links
 
@@ -379,6 +381,8 @@ Additionally, if the link is related to PowerShell command documentation, remove
 - For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
 
 ## Language-Specific Rules
+
+The below section contains additional language specific rules for translating pages:
 
 ### Chinese-Specific Rules
 
@@ -494,8 +498,8 @@ To ensure that the sentence may not be confused with `start processing the web s
 
 ### French-Specific Rules
 
-Command and example descriptions on pages in French must use the third person singular present indicative tense (présent de l'indicatif à la troisième personne du singulier).
-For example, use `Extrait une archive` rather than `Extraire une archive` or `Extrais une archive`.
+- Command and example descriptions on pages in French must use the third person singular present indicative tense (présent de l'indicatif à la troisième personne du singulier). For example, use `Extrait une archive` rather than `Extraire une archive` or `Extrais une archive`.
+- There must be a single blank space between the special character in the descriptions. For example, use `Plus d'informations : https://example.com.` instead of `Plus d'informations: https://example.com.` and use `Crée une archive à partir de fichiers :` instead of `Crée une archive à partir de fichiers:`.
 
 ### Portuguese-Specific Rules
 
