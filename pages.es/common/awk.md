@@ -17,7 +17,7 @@
 
 - Suma los valores de la primera columna de un fichero e imprime el total:
 
-`awk '{s+=$1} END {print s}' {{ruta/a/archivo}}`
+`awk '{s+=$1} END {print s}' {{ruta/al/archivo}}`
 
 - Imprime una de cada tres líneas a partir de la primera:
 
