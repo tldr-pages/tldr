@@ -2,7 +2,7 @@
 
 > Cancela trabalhos de impressão.
 > Veja também: `lp`, `lpmove`, `lpstat`.
-> Mais informações: <https://www.cups.org/doc/man-cancel.html>.
+> Mais informações: <https://openprinting.github.io/cups/doc/man-cancel.html>.
 
 - Cancela o trabalho atual da impressora padrão (definida com `lpoptions -d {{impressora}}`):
 

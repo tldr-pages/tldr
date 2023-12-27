@@ -2,7 +2,7 @@
 
 > Cancel print jobs.
 > See also: `lp`, `lpmove`, `lpstat`.
-> More information: <https://www.cups.org/doc/man-cancel.html>.
+> More information: <https://openprinting.github.io/cups/doc/man-cancel.html>.
 
 - Cancel the current job of the default printer (set with `lpoptions -d {{printer}}`):
 
