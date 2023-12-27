@@ -1,6 +1,6 @@
 # nmap
 
-> Herramienta de exploración de redes y escáner de seguridad/puertos.
+> Herramienta de exploración de redes y escáner de seguridad / puertos.
 > Algunas características solo funcionan si ejecutamos Nmap con privilegios.
 > Más información: <https://nmap.org>.
 
