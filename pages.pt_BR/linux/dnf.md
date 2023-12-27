@@ -7,7 +7,7 @@
 
 `sudo dnf install {{nome_do_pacote}}`
 
-- Instala um novo pacote e responder sim para todas as questões:
+- Instala um novo pacote e responde sim para todos os prompts:
 
 `sudo dnf -y install {{nome_do_pacote}}`
 

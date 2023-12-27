@@ -8,7 +8,7 @@
 
 `abbr --add {{nome_abreviacao}} {{comando}} {{orgumentos_comando}}`
 
-- Renomea uma abreviação existente:
+- Renomeia uma abreviação existente:
 
 `abbr --rename {{nome_antigo}} {{novo_nome}}`
 

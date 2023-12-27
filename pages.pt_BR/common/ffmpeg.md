@@ -15,7 +15,7 @@
 
 `ffmpeg -i {{quadro_%d.jpg}} -f image2 {{vídeo|gif}}`
 
-- Extrai um único quadro de um vídeo no tempo mm:ss e salva-o como uma imagem de resolução 128x128:
+- Extrai um único quadro de um vídeo no tempo mm:ss e o salva como uma imagem de resolução 128x128:
 
 `ffmpeg -ss {{mm:ss}} -i {{vídeo}} -frames 1 -s {{128x128}} -f image2 {{quadro.png}}`
 
@@ -27,7 +27,7 @@
 
 `ffmpeg -i {{vídeo_entrada}}.avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 {{vídeo_saída}}.mp4`
 
-- Remuxa um vídeo MKV para MP4 sem recodificar áudio ou vídeo:
+- Remixa um vídeo MKV para MP4 sem recodificar áudio ou vídeo:
 
 `ffmpeg -i {{vídeo_entrada}}.mkv -codec copy {{vídeo_saída}}.mp4`
 
