@@ -6,24 +6,24 @@
 
 - Run the server with a specific service name:
 
-`ippeveprinter {{"My Fake Printer"}}`
+`ippeveprinter "{{service_name}}"`
 
 - Load printer attributes from a PPD file:
 
-`ippeveprinter -P {{path/to/file.ppd}} {{"My Fake Printer"}}`
+`ippeveprinter -P {{path/to/file.ppd}} "{{service_name}}"`
 
 - Run the `file` command whenever a job is sent to the server:
 
-`ippeveprinter -c {{/usr/bin/file}} {{"My Fake Printer"}}`
+`ippeveprinter -c {{/usr/bin/file}} "{{service_name}}"`
 
 - Specify the directory that will hold the print files (by default, a directory under the user's temporary directory):
 
-`ippeveprinter -d {{spool_directory}} {{"My Fake Printer"}}`
+`ippeveprinter -d {{spool_directory}} "{{service_name}}"`
 
 - Keep the print documents in the spool directory rather than deleting them:
 
-`ippeveprinter -k {{"My Fake Printer"}}`
+`ippeveprinter -k "{{service_name}}"`
 
-- Specify the printer speed in pages/min (10 by default):
+- Specify the printer speed in pages/minute unit (10 by default):
 
-`ippeveprinter -s {{speed}} {{"My Fake Printer"}}`
+`ippeveprinter -s {{speed}} "{{service_name}}"`
