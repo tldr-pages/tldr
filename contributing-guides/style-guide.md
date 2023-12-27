@@ -55,7 +55,7 @@ Example:
 ```
 
 > [!NOTE]
-> The filename and page title must match the command name exactly. Page title can use any case, whereas the filenames must be lowercase.
+> The filename and page title must match the command name exactly. The page title can be present in any case, whereas the filenames must be lowercase.
 
 There is a linter that enforces the format above.
 It is run automatically on every pull request,
@@ -499,7 +499,7 @@ To ensure that the sentence may not be confused with `start processing the web s
 ### French-Specific Rules
 
 - Command and example descriptions on pages in French must use the third person singular present indicative tense (présent de l'indicatif à la troisième personne du singulier). For example, use `Extrait une archive` rather than `Extraire une archive` or `Extrais une archive`.
-- There must be a single blank space between the special character in the descriptions. For example, use `Plus d'informations : https://example.com.` instead of `Plus d'informations: https://example.com.` and use `Crée une archive à partir de fichiers :` instead of `Crée une archive à partir de fichiers:`.
+- There must be a single blank space between special characters in the descriptions. For example, use `Plus d'informations : https://example.com.` instead of `Plus d'informations: https://example.com.` and use `Crée une archive à partir de fichiers :` instead of `Crée une archive à partir de fichiers:`.
 
 ### Portuguese-Specific Rules
 
