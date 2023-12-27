@@ -6,7 +6,7 @@
 
 - Imprime los contenidos de un archivo a la salida estándar:
 
-`bat {{ruta/al/archivo}}`
+`bat {{archivo}}`
 
 - Concatena varios archivos creando un nuevo archivo:
 
