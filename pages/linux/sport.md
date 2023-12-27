@@ -3,7 +3,7 @@
 > Search and install SlackBuilds.
 > More information: <http://slackermedia.info/handbook/doku.php?id=slackbuilds>.
 
-- Pull the list of SlackBuilds to run sport for the first time:
+- Pull the list of SlackBuilds to run `sport` for the first time:
 
 `sudo mkdir -p /usr/ports && sudo rsync -av rsync://slackbuilds.org /slackbuilds/$(awk '{print $2}' /etc/slackware-version)/ /usr/ports/`
 
