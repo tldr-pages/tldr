@@ -29,7 +29,7 @@
 
 - Go back to the previously displayed page:
 
-`Left arrow key or u`
+`Left arrow key OR u`
 
 - Exit:
 

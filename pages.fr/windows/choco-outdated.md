@@ -17,4 +17,4 @@
 
 - Fournir un nom d'utilisateur et un mot de passe pour l'authentification :
 
-`choco outdated --user {{nom_d_utilisateur}} --password {{mot_de_passe}}}`
+`choco outdated --user {{nom_d_utilisateur}} --password {{mot_de_passe}}`

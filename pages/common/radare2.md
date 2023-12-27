@@ -15,7 +15,7 @@
 
 `radare2 -i {{path/to/script.r2}} {{path/to/binary}}`
 
-- Show help text for any command in the interactive CLI:
+- Display help text for any command in the interactive CLI:
 
 `> {{radare2_command}}?`
 

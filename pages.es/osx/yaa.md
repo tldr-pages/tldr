@@ -25,4 +25,4 @@
 
 - Crea un archivo con un tamaño de bloque de 8 MB:
 
-`yaa archive -b {{8m}}} -d {{ruta/al/directorio}} -o {{ruta/al/archivo_de_salida.yaa}}`
+`yaa archive -b {{8m}} -d {{ruta/al/directorio}} -o {{ruta/al/archivo_de_salida.yaa}}`
