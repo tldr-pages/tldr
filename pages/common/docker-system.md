@@ -3,7 +3,7 @@
 > Manage Docker data and display system-wide information.
 > More information: <https://docs.docker.com/engine/reference/commandline/system/>.
 
-- Show help:
+- Display help:
 
 `docker system`
 

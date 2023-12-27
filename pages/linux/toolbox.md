@@ -8,14 +8,14 @@
 
 `toolbox {{subcommand}}`
 
-- Show help for a `toolbox` subcommand (such as `create`, `enter`, `rm`, `rmi`, etc.):
+- Display help for a `toolbox` subcommand (such as `create`, `enter`, `rm`, `rmi`, etc.):
 
 `toolbox help {{subcommand}}`
 
-- Show general help:
+- Display help:
 
 `toolbox --help`
 
-- Show the `toolbox` version:
+- Display version:
 
 `toolbox --version`

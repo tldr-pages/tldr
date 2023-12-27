@@ -5,7 +5,7 @@
 
 - List the last 10 issues with the `bug` label:
 
-`hub issue list --limit {{10}} --labels "{{bug}}" `
+`hub issue list --limit {{10}} --labels "{{bug}}"`
 
 - Display a specific issue:
 
