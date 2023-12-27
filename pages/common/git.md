@@ -12,7 +12,7 @@
 
 `git --help`
 
-- Show help on a Git subcommand (like `clone`, `add`, `push`, `log`, etc.):
+- Display help on a Git subcommand (like `clone`, `add`, `push`, `log`, etc.):
 
 `git help {{subcommand}}`
 

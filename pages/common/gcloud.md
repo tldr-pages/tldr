@@ -31,6 +31,6 @@
 
 `gcloud components update`
 
-- Show help for a given command:
+- Display help for a given command:
 
 `gcloud help {{command}}`

@@ -13,7 +13,7 @@
 
 - Esegui il login al director:
 
-`bosh login -e {{ambiente}} `
+`bosh login -e {{ambiente}}`
 
 - Elenca deployment (distribuzioni):
 
