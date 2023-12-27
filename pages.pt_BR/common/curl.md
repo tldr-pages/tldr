@@ -30,7 +30,7 @@
 
 - Passar ao pedido o nome de usuário e senha para autenticação no servidor:
 
-`curl -u {{usuario}} {{http://example.com}}`
+`curl --user {{usuario}} {{http://example.com}}`
 
 - Passar ao pedido o certificado do cliente e a chave para um recurso, omitindo a validação do certificado:
 

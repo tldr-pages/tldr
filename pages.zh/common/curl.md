@@ -10,11 +10,11 @@
 
 - 将文件从 URL 保存到由 URL 指示的文件名中：
 
-`curl --fail --remote-name {{http://example.com/filename}}`
+`curl --remote-name {{http://example.com/filename}}`
 
 - 下载文件，跟随 重定向，并且自动 续传（恢复）前序文件传输：
 
-`curl --remote-name --location --continue-at - {{http://example.com/filename}}`
+`curl --fail --remote-name --location --continue-at - {{http://example.com/filename}}`
 
 - 发送表单编码数据（`application/x-www-form-urlencoded` 的 POST 请求）：
 
