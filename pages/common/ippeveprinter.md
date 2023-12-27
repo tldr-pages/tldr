@@ -2,7 +2,7 @@
 
 > A simple IPP Everywhere printer server.
 > See also: `ippeveps`, `ippevepcl`.
-> More information: <https://www.cups.org/doc/man-ippeveprinter.html>.
+> More information: <https://openprinting.github.io/cups/doc/man-ippeveprinter.html>.
 
 - Run the server with a specific service name:
 
