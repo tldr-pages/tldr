@@ -17,15 +17,15 @@
 
 - Utiliza expresiones regulares extendidas (admite `?`, `+`, `{}`, `()` y `|`), sin distinguir entre mayúsculas y minúsculas:
 
-`grep --extended-regexp --ignore-case " {{patrón_de_búsqueda}}" {{ruta/a/archivo}}`
+`grep --extended-regexp --ignore-case " {{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
 - Imprime 3 líneas de contexto alrededor, antes o después de cada coincidencia:
 
-`grep --{{context|before-context|after-context}}={{3}} "{{patrón_de_búsqueda}}" {{ruta/a/archivo}}`
+`grep --{{context|before-context|after-context}}={{3}} "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
 - Imprime el nombre del archivo y el número de línea de cada coincidencia con salida en color:
 
-`grep --with-filename --line-number --color=always "{{patrón_de_búsqueda}}" {{ruta/a/archivo}}`
+`grep --with-filename --line-number --color=always "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
 - Busca líneas que coincidan con un patrón e imprime sólo el texto coincidente:
 
