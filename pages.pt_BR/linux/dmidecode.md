@@ -4,26 +4,26 @@
 > Requer privilégio de super usuário.
 > Mais informações: <https://manned.org/dmidecode>.
 
-- Exibir o sumário do DMI:
+- Exibe o sumário do DMI:
 
 `sudo dmidecode`
 
-- Exibir a versão da BIOS:
+- Exibe a versão da BIOS:
 
 `sudo dmidecode -s bios-version`
 
-- Exibir o número de série do sistema:
+- Exibe o número de série do sistema:
 
 `sudo dmidecode -s system-serial-number`
 
-- Exibir as informações da BIOS:
+- Exibe as informações da BIOS:
 
 `sudo dmidecode -t bios`
 
-- Exibir as informações da CPU:
+- Exibe as informações da CPU:
 
 `sudo dmidecode -t processor`
 
-- Exibir as informações da memória:
+- Exibe as informações da memória:
 
 `sudo dmidecode -t memory`

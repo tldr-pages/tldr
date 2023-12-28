@@ -1,36 +1,36 @@
 # git stash
 
-> Guarda cambios locales de Git en un área temporal.
+> Almacena los cambios locales de Git en un área temporal.
 > Más información: <https://git-scm.com/docs/git-stash>.
 
-- Guarda cambios actuales, excepto los archivos nuevos (sin rastrear):
+- Almacena los cambios actuales, excepto los archivos nuevos (sin seguimiento):
 
-`git stash [push -m {{mensaje_opcional_del_guardado}}]`
+`git stash push -m {{mensaje_opcional_stash}}`
 
-- Guarda cambios actuales, incluyendo los archivos nuevos (sin rastrear):
+- Almacena los cambios actuales, incluyendo los archivos nuevos (sin seguimiento):
 
 `git stash -u`
 
-- Selecciona interactivamente las partes de archivos cambiados que deben ser guardadas:
+- Selecciona interactivamente partes de los archivos modificados para almacenarlos:
 
 `git stash -p`
 
-- Muestra todos los guardados (muestra el nombre del guardado, la rama relacionada y el mensaje):
+- Lista todos los stashes (muestra el nombre del stash, la rama relacionada y el mensaje):
 
 `git stash list`
 
-- Aplica un guardado (por defecto aplica el último, llamado stash@{0}):
+- Muestra los cambios como un parche entre el stash (por defecto es stash@{0}) y el commit de cuando se creó la entrada stash por primera vez:
 
-`git stash apply {{nombre_opcional_del_guardado_o_commit}}`
+`git stash show -p {{stash@{0}}}`
 
-- Aplica un guardado (por defecto es stash@{0} y lo traslada desde la lista de guardado si no causa conflictos:
+- Aplica un stash (por defecto es el último, llamado stash@{0}):
 
-`git stash pop {{nombre_opcional_del_guardado}}`
+`git stash apply {{nombre_opcional_del_stash_o_commit}}`
 
-- Elimina un guardado (por defecto es stash@{0}):
+- Suelta o aplica un stash (por defecto es stash@{0}) y lo elimina de la lista de stash si su aplicación no causa conflictos:
 
-`git stash drop {{nombre_opcional_del_guardado}}`
+`git stash pop {{nombre_opcional_stash}}`
 
-- Elimina todos los guardados:
+- Elimina todos los stashes:
 
 `git stash clear`
