@@ -1,6 +1,6 @@
 # df
 
-> Gives an overview of the filesystem disk space usage.
+> Display an overview of the filesystem disk space usage.
 > More information: <https://man.freebsd.org/cgi/man.cgi?df>.
 
 - Display all filesystems and their disk usage using 512-byte units:
@@ -13,7 +13,7 @@
 
 - Display all filesystems and their disk usage in human-readable form (based on powers of 1000):
 
-`df --si|-H`
+`df -{{-si|H}}`
 
 - Display the filesystem and its disk usage containing the given file or directory:
 

@@ -1,6 +1,6 @@
 # df
 
-> Gives an overview of the filesystem disk space usage.
+> Display an overview of the filesystem disk space usage.
 > More information: <https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/utilities/df.html>.
 
 - Display all filesystems and their disk usage using 512-byte units:
