@@ -1,6 +1,6 @@
 # lpmove
 
-> Move a job or all jobs to another printer
+> Move a job or all jobs to another printer.
 > See also: `cancel`, `lp`, `lpr`, `lprm`.
 > More information: <https://openprinting.github.io/cups/doc/man-lpmove.html>.
 
