@@ -2,7 +2,7 @@
 
 > Configura impressoras e classes do CUPS.
 > Veja também: `lpoptions`.
-> Mais informações: <https://www.cups.org/doc/man-lpadmin.html>.
+> Mais informações: <https://openprinting.github.io/cups/doc/man-lpadmin.html>.
 
 - Define a impressora padrão:
 

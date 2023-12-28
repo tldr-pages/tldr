@@ -1,7 +1,7 @@
 # lpq
 
 > Mostra o estado da fila de impressão.
-> Mais informações: <https://www.cups.org/doc/man-lpq.html>.
+> Mais informações: <https://openprinting.github.io/cups/doc/man-lpq.html>.
 
 - Mostra os trabalhos na fila do destino padrão:
 

@@ -1,7 +1,7 @@
 # lpq
 
 > Show printer queue status.
-> More information: <https://www.cups.org/doc/man-lpq.html>.
+> More information: <https://openprinting.github.io/cups/doc/man-lpq.html>.
 
 - Show the queued jobs of the default destination:
 
