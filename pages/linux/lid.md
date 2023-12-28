@@ -1,12 +1,9 @@
 # lid
 
-> Display a user's groups or a group's users.
-> More information: <https://manned.org/lid.8>.
+> Query ID database and report results.
+> On Fedora and Arch Linux, the binary name `lid` is taken by another program. See `tldr libuser-lid`.
+> More information: <https://example.org/>.
 
-- List primary and secondary groups of a specific user:
+- This page is currently a redirection stub:
 
-`sudo lid {{username}}`
-
-- List users of a specific group:
-
-`sudo lid --group {{name}}`
+`tldr libuser-lid`
