@@ -2,7 +2,7 @@
 
 > Annuleer wachtende printtaken van een server.
 > Bekijk ook: `lpq`.
-> Meer informatie: <https://www.cups.org/doc/man-lprm.html>.
+> Meer informatie: <https://openprinting.github.io/cups/doc/man-lprm.html>.
 
 - Annuleer de huidige taak op de standaard printer:
 

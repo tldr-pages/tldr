@@ -2,7 +2,7 @@
 
 > Configureer CUPS printers en klasses.
 > Bekijk ook: `lpoptions`.
-> Meer informatie: <https://www.cups.org/doc/man-lpadmin.html>.
+> Meer informatie: <https://openprinting.github.io/cups/doc/man-lpadmin.html>.
 
 - Stel de standaard printer in:
 
