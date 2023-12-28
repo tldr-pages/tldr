@@ -10,15 +10,11 @@
 
 - Installiere ein neues Paket:
 
-`sudo pacman -S {{paketname}}`
+`sudo pacman -S {{paket}}`
 
 - Entferne ein Paket und dessen Abhängigkeiten:
 
-`sudo pacman -Rs {{paketname}}`
-
-- Suche in der Paketdatenbank nach einem regulären Ausdruck oder Schlüsselwort:
-
-`pacman -Ss "{{suchmuster}}"`
+`sudo pacman -Rs {{paket}}`
 
 - Liste alle installierten Pakete und dessen Versionen auf:
 
