@@ -177,7 +177,9 @@ def set_alias_page(file, command, dry_run=False):
     if not dry_run:  # Only write to the file during a non-dry-run
         alias_name = os.path.basename(file[:-3])
         text = (
-        templates[locale].replace("example", alias_name, 1).replace("example", command)
+            templates[locale]
+            .replace("example", alias_name, 1)
+            .replace("example", command)
         )
         os.makedirs(os.path.dirname(file), exist_ok=True)
         with open(file, "w") as f:
@@ -209,6 +211,7 @@ def sync(root, pages_dirs, alias_name, orig_command, dry_run=False):
             rel_paths.append(rel_path)
             print(f"\x1b[32m{rel_path} {status}\x1b[0m")
     return rel_paths
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -284,11 +287,14 @@ def main():
             for command in commands:
                 orig_command = get_alias_page(os.path.join(root, "pages", command))
                 if orig_command != "":
-                    rel_paths += sync(root, pages_dirs, command, orig_command, args.dry_run)
+                    rel_paths += sync(
+                        root, pages_dirs, command, orig_command, args.dry_run
+                    )
 
     # Use '--stage' option
     if args.stage and not args.dry_run:
-            subprocess.call(["git", "add", *rel_paths], cwd=root)
+        subprocess.call(["git", "add", *rel_paths], cwd=root)
+
 
 if __name__ == "__main__":
     main()

@@ -139,7 +139,7 @@ def set_link(file, link, dry_run=False):
     if lines[desc_end] == new_line:
         # return empty status to indicate that no changes were made
         return ""
-    
+
     status_prefix = "\x1b[36m"  # Color code for pages
 
     if re.search(r"^>.*<.+>", lines[desc_end]):
