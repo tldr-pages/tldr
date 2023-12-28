@@ -10,7 +10,7 @@
 
 - Write analyzer to `s`[`t`]`dout`:
 
-`lex -{-stdout|t} {{analyzer.l}}`
+`lex -t {{analyzer.l}}`
 
 - Specify the output file:
 
