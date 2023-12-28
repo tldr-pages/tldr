@@ -1,6 +1,6 @@
 # lprm
 
-> Annuleer queued printtaken van de wachtrij van een server.
+> Annuleer wachtende printtaken van een server.
 > Bekijk ook: `lpq`.
 > Meer informatie: <https://www.cups.org/doc/man-lprm.html>.
 

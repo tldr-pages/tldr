@@ -1,6 +1,6 @@
 # lpstat
 
-> Bekijk status informatie over printers.
+> Bekijk de status informatie over printers.
 > Meer informatie: <https://manned.org/lpstat>.
 
 - Toon alle printers op de machine en of deze ingeschakeld zijn om te printen:
