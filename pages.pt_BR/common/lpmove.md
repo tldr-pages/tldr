@@ -1,6 +1,6 @@
 # lpmove
 
-> Mova um ou todos os trabalhos para outra impressora.
+> Move um ou todos os trabalhos para outra impressora.
 > Veja também: `cancel`, `lp`, `lpr`, `lprm`.
 > Mais informações: <https://openprinting.github.io/cups/doc/man-lpmove.html>.
 

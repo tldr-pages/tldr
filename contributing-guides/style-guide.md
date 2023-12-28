@@ -55,8 +55,7 @@ Example:
 ```
 
 > [!NOTE]
-> The help page can be any documentation/project/tutorial page, not just a man page,
-> but documentation pages are preferred.
+> The filename and page title must match the command name exactly. The page title can be present in any case, whereas the filenames must be lowercase.
 
 There is a linter that enforces the format above.
 It is run automatically on every pull request,
@@ -190,7 +189,7 @@ In this case, provide a note and method to determine whether the command current
 - We prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`) unless the program does not support it.
 
 > [!NOTE]  
-> The goal of using long options is to make the commands easier to read and understand for non-techincal users. While it is ideal for most users, some users prefer short option for better ease of use. If the command supports both the options, we can highlight the short options using mnemonics instead.
+> The goal of using long options is to make the commands easier to read and understand for non-technical users. While it is ideal for most users, some users prefer the short option for better ease of use. If the command supports both options, we can highlight the short options using mnemonics instead.
 
 ### Short option mnemonics
 
@@ -235,7 +234,7 @@ Keep the following guidelines in mind when choosing placeholders:
 
 ### Paths
 
-- Use `{{filename}}` when just file name is expected.
+- Use `{{filename}}` when just the file name is expected.
 - For any reference to paths of files or directories,
   use the format `{{path/to/<placeholder>}}`,
   except when the location is implicit.
@@ -247,7 +246,7 @@ Keep the following guidelines in mind when choosing placeholders:
   use `{{path/to/file_or_directory}}`.
 
 > [!NOTE]  
-> If the command is specific to Windows, use backslashes (`\`) instead, such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless if the command input requires an absolute path or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
+> If the command is specific to Windows, use backslashes (`\`) instead, such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless the command input requires an absolute path or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
 
 ### Extensions
 
@@ -292,6 +291,9 @@ Use backticks on the following:
 
 - Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`) unless the program name differs from the executable name (e.g. `rg` and Ripgrep).
 - Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
+- Brand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
+- Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
+- When documenting keycaps or a keyboard shortcut for a utility it is suggested to wrap them in backticks to make them stand out in the description (i.e. ``Print the last lines of a given file and keep reading file until `Ctrl + C`:``). Alternatively, you can document them as a separate command and optionally highlight them as placeholders (i.e. `:wq{{Enter}}` or `:wq<Enter>` or `:wq(Enter)`).
 
 ### Imperative Mood
 
@@ -320,7 +322,7 @@ When writing descriptions for command examples, **check for any grammatical erro
 - `Let's go to the specified directory!`
 - `Directory change` (use the active form instead of passive, if possible)
 
-For instance, instead of `Listing all files:`, `List all files:` can be be used as the example's description below:
+For instance, instead of `Listing all files:`, `List all files:` can be used as the example's description below:
 
 ```md
 - Listing all files:
@@ -348,11 +350,11 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 ## More information links
 
-On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and some BSD platforms).
+- On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and some BSD platforms). Alternatively, you can link to the author's website or a tutorial page if the command doesn't have a documentation page.
 
-**All links must be enclosed inside angular brackets (`<` and `>`) for proper rendering in clients.**
+- **All links must be enclosed inside angular brackets (`<` and `>`) for proper rendering in clients.**
 
-We prefer translations to use the more information link of the English page by default.
+- We prefer translations to use the more information link of the English page by default.
 
 ### Versioned links
 
@@ -379,6 +381,8 @@ Additionally, if the link is related to PowerShell command documentation, remove
 - For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
 
 ## Language-Specific Rules
+
+The below section contains additional language-specific rules for translating pages:
 
 ### Chinese-Specific Rules
 
@@ -456,7 +460,7 @@ Second, we recommend using the following forms of technical terms to make transl
 | File | File | Preferred over [`berkas`](https://kbbi.kemdikbud.go.id/entri/berkas) which may be unfamiliar by some readers. |
 | Generate | Buat | Preferred over [`hasilkan`](https://kbbi.kemdikbud.go.id/entri/hasilkan). Example context: `Buat laporan baru`. |
 | Hardware | Perangkat Keras | Preferred over [`peranti`](https://kbbi.kemdikbud.go.id/entri/peranti). |
-| Image (as picture or visual image) | Gambar | Do not confuse with `image` as means of storage. |
+| Image (as picture or visual image) | Gambar | Do not confuse with `image` as a means of storage. |
 | Image (as means of storage, such as CD, ISO, and Docker) | Image | Another recommended word, [`citra`](https://kbbi.kemdikbud.go.id/entri/citra), is not officially recognized for computing. |
 | Initialize, Reinitialize | Inisialisasikan, Inisialisasikan Ulang | The word [`inisialisasi`](https://kbbi.kemdikbud.go.id/entri/inisialisasi) is officially considered as noun. Requires a `-kan` suffix to convert into a verb. |
 | Interpreter | Interpreter | Preferred over [`penerjemah`](https://kbbi.kemdikbud.go.id/entri/penerjemah) which is also commonly used to describe `translator`. |
@@ -494,8 +498,8 @@ To ensure that the sentence may not be confused with `start processing the web s
 
 ### French-Specific Rules
 
-Command and example descriptions on pages in French must use the third person singular present indicative tense (présent de l'indicatif à la troisième personne du singulier).
-For example, use `Extrait une archive` rather than `Extraire une archive` or `Extrais une archive`.
+- Command and example descriptions on pages in French must use the third person singular present indicative tense (présent de l'indicatif à la troisième personne du singulier). For example, use `Extrait une archive` rather than `Extraire une archive` or `Extrais une archive`.
+- There must be a single blank space between special characters in the descriptions. For example, use `Plus d'informations : https://example.com.` instead of `Plus d'informations: https://example.com.` and use `Crée une archive à partir de fichiers :` instead of `Crée une archive à partir de fichiers:`.
 
 ### Portuguese-Specific Rules
 
