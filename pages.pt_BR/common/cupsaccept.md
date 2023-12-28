@@ -1,6 +1,7 @@
 # cupsaccept
 
 > Aceita trabalhos enviados para um ou mais destinos.
+> NOTA: destino se refere a uma impressora ou uma classe de impressoras.
 > Veja também: `cupsreject`, `cupsenable`, `cupsdisable`, `lpstat`.
 > Mais informações: <https://openprinting.github.io/cups/doc/man-cupsaccept.html>.
 
