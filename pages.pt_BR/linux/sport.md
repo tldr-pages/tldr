@@ -11,13 +11,13 @@
 
 `sudo sport rsync`
 
-- Procura um pacote com "texto" em seu nome:
+- Procura um pacote pelo nome:
 
-`sport search "{{texto}}"`
+`sport search "{{palavra_chave}}"`
 
 - Checa se um pacote está instalado:
 
-`sport check {{package}}`
+`sport check {{pacote}}`
 
 - Exibe os arquivos README e .info de um pacote:
 

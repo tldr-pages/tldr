@@ -11,9 +11,9 @@
 
 `sudo sport rsync`
 
-- Search for a package with "substring" in its name:
+- Search for a package by name:
 
-`sport search "{{substring}}"`
+`sport search "{{keyword}}"`
 
 - Check if a package is installed:
 
