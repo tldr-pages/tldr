@@ -2,7 +2,7 @@
 
 > Lexical analyzer generator.
 > Given the specification for a lexical analyzer, generates C code implementing it.
-> More information: <https://keith.github.io/xcode-man-pages/lex.1.html>.
+> More information: <https://man.openbsd.org/flex>.
 
 - Generate an analyzer from a Lex file to the file `lex.yy.c`:
 
