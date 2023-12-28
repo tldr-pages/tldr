@@ -15,6 +15,6 @@
 
 `chsh -s {{ruta/al/intérprete}} {{nombre_de_usuario}}`
 
-- En[l]ista los intérpretes disponibles:
+- [l]ista los intérpretes disponibles:
 
 `chsh -l`
