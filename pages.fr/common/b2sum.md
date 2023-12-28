@@ -9,7 +9,7 @@
 
 - Calcule les sommes de contrôle BLAKE2 pour plusieurs fichiers :
 
-`b2sum {{chemin/vers/fichier1}} {{chemin/vers/fichier2}}`
+`b2sum {{chemin/vers/fichier1 chemin/vers/fichier2 ...}} > {{chemin/vers/fichier.b2}}`
 
 - Calcule la somme de contrôle BLAKE2 depuis `stdin` :
 
