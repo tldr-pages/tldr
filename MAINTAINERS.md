@@ -13,8 +13,7 @@ In general terms, all maintainers are expected to follow the [Maintainer's guide
 ## Repository collaborators
 
 Repository collaborators have write access to the tldr repository, which allows them to label, edit and close issues/pull requests, as well as review and merge pull requests from other contributors.
-If you are an owner of the organization, you can see an automated list
-[here](https://github.com/tldr-pages/tldr/settings/collaboration).
+If you are an owner of the organization, you can see an automated list [here](https://github.com/tldr-pages/tldr/settings/collaboration).
 
 - **Jeef ([@jeeftor](https://github.com/jeeftor))**:
   [12 March 2017](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — present
