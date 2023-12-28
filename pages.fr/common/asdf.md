@@ -5,15 +5,15 @@
 
 - Liste toutes les extensions disponibles :
 
-`asdf plugin-list-all`
+`asdf plugin list all`
 
 - Installe une extension :
 
-`asdf plugin-add {{nom}}`
+`asdf plugin add {{nom}}`
 
 - Liste toutes les versions disponible d'un paquet :
 
-`asdf list-all {{nom}}`
+`asdf list all {{nom}}`
 
 - Installe une version spécifique d'un paquet :
 
