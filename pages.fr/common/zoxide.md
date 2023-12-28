@@ -20,9 +20,9 @@
 
 `zoxide add {{chemin/du/répertoire}}`
 
-- Supprime un répertoire de la base de données de `zoxide` :
+- Supprime un répertoire interactive de la base de données de `zoxide` :
 
-`zoxide remove {{chemin/du/répertoire}}`
+`zoxide remove {{chemin/du/répertoire}} --interactive`
 
 - Génère la configuration du shell pour la mise en place des alias de commandes (`z`, `za`, `zi`, `zq`, `zr`) :
 

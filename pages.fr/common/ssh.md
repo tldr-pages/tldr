@@ -18,7 +18,7 @@
 
 - Exécuter une commande sur un serveur distant :
 
-`ssh {{hote_distant}} {{commande -avec -options}}`
+`ssh {{utilisateur}}@{{hote_distant}} -t {{commande}} {{commande_options}}`
 
 - Tunnel SSH : Transfert par port dynamique (le SOCKS proxy se trouve sur localhost:1080) :
 

@@ -5,7 +5,7 @@
 
 - Vérifier l'état des interfaces actuellement actives :
 
-`wg`
+`sudo wg`
 
 - Générer une clé privée :
 
@@ -21,4 +21,4 @@
 
 - Afficher la configuration actuelle d'une interface wireguard :
 
-`wg showconf {{wg0}}`
+`sudo wg showconf {{wg0}}`
