@@ -9,16 +9,8 @@
 
 - Sammenføy flere filer til en målfil:
 
-`cat {{fil1}} {{fil2}} > {{målfil}}`
+`cat {{fil1 fil2 ...}} > {{målfil}}`
 
 - Legg til flere filer til målfilen:
 
-`cat {{fil1}} {{fil2}} >> {{målfil}}`
-
-- Nummerer alle utgangslinjer:
-
-`cat -n {{fil}}`
-
-- Vis tegn som ikke kan skrives ut og mellomrom (med `M-` prefiks hvis det ikke er ASCII-tegn):
-
-`cat -v -t -e {{fil}}`
+`cat {{fil1 fil2 ...}} >> {{målfil}}`
