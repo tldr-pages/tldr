@@ -11,7 +11,7 @@
 
 `cupsctl -h {{servidor[:porta]}}`
 
-- Ativar a criptografia na conexão ao scheduler:
+- Ativa a criptografia na conexão ao scheduler:
 
 `cupsctl -E`
 

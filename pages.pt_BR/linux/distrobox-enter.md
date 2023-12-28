@@ -5,14 +5,14 @@
 > Se usado dentro de um script, um aplicativo ou um serviço, você pode usar o modo `--headless` para desabilitar o tty e a interatividade.
 > Mais informações: <https://distrobox.it/usage/distrobox-enter>.
 
-- Entrar em um contêiner Distrobox:
+- Entra em um contêiner Distrobox:
 
 `distrobox-enter {{nome_do_contêiner}}`
 
-- Entrar em um contêiner Distrobox e executar um comando no login:
+- Entra em um contêiner Distrobox e executa um comando no login:
 
 `distrobox-enter {{nome_do_contêiner}} -- {{sh -l}}`
 
-- Entrar em um contêiner Distrobox sem instanciar um tty:
+- Entra em um contêiner Distrobox sem instanciar um tty:
 
 `distrobox-enter --name {{nome_do_contêiner}} -- {{uptime -p}}`

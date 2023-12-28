@@ -3,18 +3,18 @@
 > Codifica e decodifica usando a representação Base64.
 > Mais informações: <https://www.unix.com/man-page/osx/1/base64/>.
 
-- Codificar um arquivo:
+- Codifica um arquivo:
 
 `base64 --input={{arquivo}}`
 
-- Decodificar um arquivo:
+- Decodifica um arquivo:
 
 `base64 --decode --input={{arquivo_base64}}`
 
-- Codificar de `stdin`:
+- Codifica de `stdin`:
 
 `echo -n "{{texto}}" | base64`
 
-- Decodificar de `stdin`:
+- Decodifica de `stdin`:
 
 `echo -n {{texto_base64}} | base64 --decode`
