@@ -17,7 +17,7 @@
 
 - Öffne eine URL im Anwendungsmodus (ohne Symbolleisten, Suchleiste, Schaltflächen usw.):
 
-`chromium --app='{{https://beispiel.com}}'`
+`chromium --app={{https://beispiel.com}}`
 
 - Öffne eine URL und verwende einen Proxy-Server:
 
@@ -33,4 +33,4 @@
 
 - Öffne Chromium mit einem `DevTools`-Fenster für jeden geöffneten Tab:
 
-`chromium --auto-open--devtools-for-tabs`
+`chromium --auto-open-devtools-for-tabs`
