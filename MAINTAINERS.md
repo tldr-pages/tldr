@@ -16,9 +16,7 @@ In general terms, all maintainers are expected to follow the
 
 ## Repository collaborators
 
-Repository collaborators have write access to the tldr repository,
-which allows them to label, edit and close issues/pull requests,
-as well as review and merge pull requests from other contributors.
+Repository collaborators have write access to the tldr repository, which allows them to label, edit and close issues/pull requests, as well as review and merge pull requests from other contributors.
 If you are an owner of the organization, you can see an automated list
 [here](https://github.com/tldr-pages/tldr/settings/collaboration).
 
@@ -118,9 +116,7 @@ If you are an owner of the organization, you can see an automated list
 
 ## Organization members
 
-In addition to everything that repository collaborators can do, organization members
-have write access to all the repositories in the tldr-pages organization,
-and [a few extra maintenance capabilities](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization).
+In addition to everything that repository collaborators can do, organization members have write access to all the repositories in the tldr-pages organization, and [a few extra maintenance capabilities](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization).
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
 - **Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz))**:
@@ -170,8 +166,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 
 ## Organization owners
 
-Owners of the tldr-pages organization have admin access to all of its repositories,
-and are responsible for performing role changes in the community.
+Owners of the tldr-pages organization have admin access to all of its repositories, and are responsible for performing role changes in the community.
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
 - **Romain Prieto ([@rprieto](https://github.com/rprieto))**:
