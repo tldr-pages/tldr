@@ -1,7 +1,7 @@
 # cupsctl
 
 > Update or query a server's `cupsd.conf`.
-> More information: <https://www.cups.org/doc/man-cupsctl.html>.
+> More information: <https://openprinting.github.io/cups/doc/man-cupsctl.html>.
 
 - Display the current configuration values:
 

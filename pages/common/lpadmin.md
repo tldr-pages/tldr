@@ -2,7 +2,7 @@
 
 > Configure CUPS printers and classes.
 > See also: `lpoptions`.
-> More information: <https://www.cups.org/doc/man-lpadmin.html>.
+> More information: <https://openprinting.github.io/cups/doc/man-lpadmin.html>.
 
 - Set the default printer:
 
