@@ -13,7 +13,7 @@
 
 - Search for a package with "substring" in its name:
 
-`sport search {{substring}}`
+`sport search "{{substring}}"`
 
 - Check if a package is installed:
 

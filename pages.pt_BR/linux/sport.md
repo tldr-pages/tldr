@@ -13,7 +13,7 @@
 
 - Procura um pacote com "texto" em seu nome:
 
-`sport search {{texto}}`
+`sport search "{{texto}}"`
 
 - Checa se um pacote está instalado:
 
