@@ -5,7 +5,7 @@
 
 - Installiere ein oder mehrere Pakete, deren Namen mit Leerzeichen getrennt sind:
 
-`choco install {{paket1}} {{paket2}}`
+`choco install {{paket1 paket2 ...}}`
 
 - Installiere Pakete aus einer Konfigurationsdatei:
 

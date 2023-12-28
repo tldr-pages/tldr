@@ -18,7 +18,7 @@
 
 - Numera tutte le linee stampate:
 
-`bat -n {{file}}`
+`bat --number {{file}}`
 
 - Evidenzia la sintassi di un file JSON:
 

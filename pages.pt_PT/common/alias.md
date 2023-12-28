@@ -4,26 +4,26 @@
 > Alias expiram com a sessão da shell atual, a menos que sejam definidos no ficheiro de configuração da shell, por exemplo `~/.bashrc`.
 > Mais informações: <https://tldp.org/LDP/abs/html/aliases.html>.
 
-- Listar todos os alias:
+- Lista todos os alias:
 
 `alias`
 
-- Criar um alias genérico:
+- Cria um alias genérico:
 
 `alias {{palavra}}="{{comando}}"`
 
-- Visualizar o comando associado a um dado alias:
+- Visualiza o comando associado a um dado alias:
 
 `alias {{palavra}}`
 
-- Remover um alias de um comando:
+- Remove um alias de um comando:
 
 `unalias {{palavra}}`
 
-- Tornar `rm` num comando interativo:
+- Torna `rm` num comando interativo:
 
 `alias {{rm}}="{{rm -i}}"`
 
-- Criar `la` como um atalho para `ls -a`:
+- Cria `la` como um atalho para `ls -a`:
 
 `alias {{la}}="{{ls -a}}"`

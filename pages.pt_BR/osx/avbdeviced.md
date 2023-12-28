@@ -4,6 +4,6 @@
 > Não deve ser invocado manualmente.
 > Mais informações: <https://www.manpagez.com/man/1/avbdeviced/>.
 
-- Iniciar o daemon:
+- Inicia o daemon:
 
 `avbdeviced`
