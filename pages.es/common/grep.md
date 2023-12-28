@@ -13,7 +13,7 @@
 
 - Busca un patrón en todos los archivos de forma recursiva en un directorio, mostrando los números de línea de las coincidencias, ignorando los archivos binarios:
 
-`grep --recursive --line-number --binary-files={{sin-parejamiento}} "{{patrón_de_búsqueda}}" {{ruta/a/directorio}}`
+`grep --recursive --line-number --binary-files={{sin-parejamiento}} "{{patrón_de_búsqueda}}" {{ruta/al/directorio}}`
 
 - Utiliza expresiones regulares extendidas (admite `?`, `+`, `{}`, `()` y `|`), sin distinguir entre mayúsculas y minúsculas:
 
