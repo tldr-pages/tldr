@@ -33,4 +33,4 @@
 
 - Sigue los registros de un contenedor específico:
 
-`docker compose logs --follow {{nombre_del_contenedor}}`.
+`docker compose logs --follow {{nombre_del_contenedor}}`
