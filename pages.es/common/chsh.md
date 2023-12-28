@@ -7,7 +7,7 @@
 
 `chsh`
 
-- Cambia el intérprete del usuario actual por otro en específico:
+- Cambia el intérprete del usuario actual por otro específico:
 
 `chsh -s {{ruta/al/intérprete}}`
 
