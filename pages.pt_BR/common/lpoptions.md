@@ -2,7 +2,7 @@
 
 > Exibe ou define opções e padrões de uma impressora.
 > Veja também: `lpadmin`.
-> Mais informações: <https://www.cups.org/doc/man-lpoptions.html>.
+> Mais informações: <https://openprinting.github.io/cups/doc/man-lpoptions.html>.
 
 - Define a impressora padrão:
 
