@@ -25,4 +25,4 @@
 
 - Liste die menschenlesbare Größe aller `.jpg`-Dateien in Unterverzeichnissen des aktuellen Verzeichnisses auf und zeige am Ende die kumulierte Gesamtsumme an:
 
-`du -ch */*.jpg`
+`du -ch {{*/*.jpg}}`

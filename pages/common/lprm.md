@@ -2,7 +2,7 @@
 
 > Cancel queued print jobs of a server.
 > See also: `lpq`.
-> More information: <https://www.cups.org/doc/man-lprm.html>.
+> More information: <https://openprinting.github.io/cups/doc/man-lprm.html>.
 
 - Cancel current job on the default printer:
 

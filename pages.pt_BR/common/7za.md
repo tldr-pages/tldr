@@ -4,7 +4,7 @@
 > Versão compacta do `7z`, com suporte para menos tipos de arquivamento/compressão.
 > Mais informações: <https://manned.org/7za>.
 
-- Compactar um arquivo ou diretório:
+- Compacta um arquivo ou diretório:
 
 `7za a {{caminho/para/arquivo_compactado.7z}} {{caminho/para/arquivo_ou_diretório}}`
 
@@ -12,7 +12,7 @@
 
 `7za a {{caminho/para/arquivo_criptografado.7z}} -p{{senha}} -mhe={{on}} {{caminho/para/arquivo_compactado.7z}}`
 
-- Descompactar um arquivo mantendo a estrutura de diretórios original:
+- Descompacta um arquivo mantendo a estrutura de diretórios original:
 
 `7za x {{caminho/para/arquivo_compactado.7z}}`
 
