@@ -13,7 +13,7 @@
 
 - Display all filesystems and their disk usage in human-readable form (based on powers of 1000):
 
-`df --si|-h`
+`df --si|-H`
 
 - Display the filesystem and its disk usage containing the given file or directory:
 
