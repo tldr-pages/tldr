@@ -10,11 +10,11 @@
 
 - Wähle einen bestimmten Pfad als aktives Entwicklerverzeichnis aus:
 
-`sudo xcode-select --switch {{pfad/zu/Xcode.app/Contents/Developer}}`
+`xcode-select --switch {{pfad/zu/Xcode.app/Contents/Developer}}`
 
 - Wähle eine Xcode Version aus und ändere das aktive Entwicklerverzeichnis dahin:
 
-`sudo xcode-select --switch {{pfad/zu/Xcode.app}}`
+`xcode-select --switch {{pfad/zu/Xcode.app}}`
 
 - Gib das derzeit aktive Entwicklerverzeichnis aus:
 
