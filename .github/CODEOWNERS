@@ -4,6 +4,7 @@
 /pages.hi/ @kbdharun
 /pages.id/ @reinhart1010
 /pages.it/ @mebeim @yutyo @Magrid0
+/pages.ja/ @Kumamoto-Hamachi
 /pages.ko/ @IMHOJEONG
 /pages.nl/ @sebastiaanspeck @leonvsc @Waples
 /pages.pl/ @acuteenvy
@@ -28,6 +29,7 @@
 /contributing-guides/*.hi.md @kbdharun
 /contributing-guides/*.id.md @reinhart1010
 /contributing-guides/*.it.md @mebeim @yutyo @Magrid0
+/contributing-guides/*.ja.md @Kumamoto-Hamachi
 /contributing-guides/*.ko.md @IMHOJEONG
 /contributing-guides/*.nl.md @sebastiaanspeck @leonvsc @Waples
 /contributing-guides/*.pl.md @acuteenvy
