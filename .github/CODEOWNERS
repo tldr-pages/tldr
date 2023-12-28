@@ -13,7 +13,7 @@
 /pages.zh/ @blueskyson @einverne
 /pages.zh_TW/ @blueskyson
 
-/pages/linux/ @sbrl
+/pages/linux/ @sbrl @cyqsimon
 
 /*.md @sbrl @kbdharun
 /.github/workflows/* @sbrl @kbdharun @sebastiaanspeck
