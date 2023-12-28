@@ -21,7 +21,7 @@
 
 - Prévisualise la valeur de la propriété `Name` de DesktopEntry :
 
-`dex -- property {{Name}} {{chemin/vers/fichier.desktop}}`
+`dex --property {{Name}} {{chemin/vers/fichier.desktop}}`
 
 - Crée une DesktopEntry pour un programme dans le dossier courant :
 
