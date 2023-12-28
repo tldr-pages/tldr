@@ -2,6 +2,6 @@
 
 > Este comando é um alias de `helix`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr helix`

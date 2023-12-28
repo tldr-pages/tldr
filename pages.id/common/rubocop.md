@@ -1,17 +1,17 @@
 # rubocop
 
-> Menganalisa file Ruby.
+> Analisa file Ruby.
 > Informasi lebih lanjut: <https://docs.rubocop.org/rubocop/usage/basic_usage.html>.
 
-- Memeriksa semua file dalam direktori saat ini (termasuk direktori-direktori di dalamnya):
+- Periksa semua file dalam direktori saat ini (termasuk direktori-direktori di dalamnya):
 
 `rubocop`
 
-- Memeriksa satu atau lebih file atau direktori secara khusus:
+- Periksa satu atau lebih file atau direktori secara khusus:
 
 `rubocop {{jalan/menuju/file}} {{jalan/menuju/direktori}}`
 
-- Menulis output ke file:
+- Tulis output ke file:
 
 `rubocop --out {{jalan/menuju/file}}`
 

@@ -1,7 +1,7 @@
 # cups-config
 
 > Show technical information about your CUPS print server installation.
-> More information: <https://www.cups.org/doc/man-cups-config.html>.
+> More information: <https://openprinting.github.io/cups/doc/man-cups-config.html>.
 
 - Show the currently installed version of CUPS:
 
