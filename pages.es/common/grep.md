@@ -9,7 +9,7 @@
 
 - Busca una cadena exacta (desactiva las expresiones regulares):
 
-`grep --fixed-strings "{{cadena_exacta}}" {{ruta/a/archivo}}`
+`grep --fixed-strings "{{cadena_exacta}}" {{ruta/al/archivo}}`
 
 - Busca un patrón en todos los archivos de forma recursiva en un directorio, mostrando los números de línea de las coincidencias, ignorando los archivos binarios:
 
