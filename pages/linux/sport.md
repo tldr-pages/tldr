@@ -7,7 +7,7 @@
 
 `sudo mkdir -p /usr/ports && sudo rsync -av rsync://slackbuilds.org /slackbuilds/$(awk '{print $2}' /etc/slackware-version)/ /usr/ports/`
 
-- Pull in any updates to the system's tree via rsync:
+- Pull in any updates to the system's tree via `rsync`:
 
 `sudo sport rsync`
 
@@ -19,7 +19,7 @@
 
 `sport check {{package}}`
 
-- Display README and .info files of a package:
+- Display README and `.info` files of a package:
 
 `sport cat {{package}}`
 

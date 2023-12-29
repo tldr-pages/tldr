@@ -7,7 +7,7 @@
 
 `sudo mkdir -p /usr/ports && sudo rsync -av rsync://slackbuilds.org /slackbuilds/$(awk '{print $2}' /etc/slackware-version)/ /usr/ports/`
 
-- Puxa qualquer atualização para a árvore do sistema via rsync:
+- Puxa qualquer atualização para a árvore do sistema via `rsync`:
 
 `sudo sport rsync`
 
@@ -19,7 +19,7 @@
 
 `sport check {{pacote}}`
 
-- Exibe os arquivos README e .info de um pacote:
+- Exibe os arquivos README e `.info` de um pacote:
 
 `sport cat {{pacote}}`
 
@@ -29,4 +29,4 @@
 
 - Instala uma lista de pacotes de um arquivo (formato: pacotes separados por espaço):
 
-`sudo sport install $(< caminho/para/lista)`
+`sudo sport install $(< {{caminho/para/lista}})`
