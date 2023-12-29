@@ -22,3 +22,7 @@
 - Set the maximum number of seconds ([t]imeout) to spend for benchmarking:
 
 `ab -t {{60}} {{url}}`
+
+- Write the results to a CSV file:
+
+`ab -e {{path/to/file.csv}}`
