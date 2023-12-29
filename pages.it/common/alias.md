@@ -16,10 +16,6 @@
 
 `unalias {{parola}}`
 
-- Elenca tutti gli alias correntemente in uso:
-
-`alias -p`
-
 - Rendi il comando rm interattivo:
 
 `alias {{rm}}="{{rm -i}}"`
