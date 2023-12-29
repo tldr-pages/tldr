@@ -5,19 +5,19 @@
 
 - Instala un nuevo paquete:
 
-`yum install {{package}}`
+`yum install {{paquete}}`
 
 - Instala un nuevo paquete respondiendo sí a todas las preguntas (también trabaja con actualizaciones, útil para actualizaciones automáticas):
 
-`yum -y install {{package}}`
+`yum -y install {{paquete}}`
 
 - Encuentra que paquete provee un archivo determinado:
 
-`yum provides {{command}}`
+`yum provides {{comando}}`
 
 - Elimina un paquete:
 
-`yum remove {{package}}`
+`yum remove {{paquete}}`
 
 - Muestra las actualizaciones disponibles para los paquetes instalados:
 

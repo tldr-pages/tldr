@@ -9,7 +9,7 @@
 
 - Editer le message de fusion (`merge commit`) :
 
-`git merge -e {{nom_de_branche}}`
+`git merge --edit {{nom_de_branche}}`
 
 - Fusionner une branche et créer un commit de fusion (`merge commit`) :
 
@@ -18,7 +18,3 @@
 - Annuler une fusion en cas de conflit :
 
 `git merge --abort`
-
-- Continuer une fusion après une résolution de conflit :
-
-`git merge --continue`

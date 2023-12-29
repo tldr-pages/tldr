@@ -10,7 +10,7 @@
 
 - Display a custom inventory:
 
-`ansbile-inventory --list --inventory {{path/to/file_or_script_or_directory}}`
+`ansible-inventory --list --inventory {{path/to/file_or_script_or_directory}}`
 
 - Display the default inventory in YAML:
 

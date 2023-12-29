@@ -15,6 +15,6 @@
 
 `apt-add-repository --update {{repositorio}}`
 
-- Activar las fuentes de paquetes:
+- Activa las fuentes de paquetes:
 
 `apt-add-repository --enable-source {{repositorio}}`

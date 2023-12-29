@@ -13,7 +13,7 @@
 
 - Log in to the director:
 
-`bosh login -e {{environment}} `
+`bosh login -e {{environment}}`
 
 - List deployments:
 

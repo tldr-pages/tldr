@@ -5,15 +5,18 @@
 set -ex
 
 function initialize {
+  export TLDR_ARCHIVE="tldr.zip"
+
+  if [[ ! -f $TLDR_ARCHIVE ]]; then
+    echo "No changes to deploy."
+    exit 0
+  fi
+
   if [[ -z $TLDRHOME ]]; then
     export TLDRHOME=${GITHUB_WORKSPACE:-$(pwd)}
   fi
 
-  export TLDR_LANG_ARCHIVES_DIRECTORY="$TLDRHOME/language_archives"
-  export TLDR_PDF_FILES_DIRECTORY="$TLDRHOME/scripts/pdf"
-  export TLDR_ARCHIVE="tldr.zip"
   export SITE_HOME="$HOME/site"
-  export SITE_REPO_SLUG="tldr-pages/tldr-pages.github.io"
 
   # Configure git.
   git config --global user.email "tldrbotgithub@gmail.com"
@@ -23,32 +26,26 @@ function initialize {
 
   # Decrypt and add deploy key.
   eval "$(ssh-agent -s)"
-  echo "${DEPLOY_KEY}"> id_ed25519
+  echo "$DEPLOY_KEY"> id_ed25519
   chmod 600 id_ed25519
   ssh-add id_ed25519
 }
 
 function upload_assets {
-  git clone --quiet --depth 1 git@github.com:${SITE_REPO_SLUG}.git "$SITE_HOME"
+  git clone --quiet --depth 1 "git@github.com:tldr-pages/tldr-pages.github.io.git" "$SITE_HOME"
+
   mv -f "$TLDR_ARCHIVE" "$SITE_HOME/assets/"
-  mv -f "${TLDR_LANG_ARCHIVES_DIRECTORY}"/*.zip "$SITE_HOME/assets/"
-  rm -rf "$TLDR_LANG_ARCHIVES_DIRECTORY"
+  find "$TLDRHOME/language_archives" -maxdepth 1 -name "*.zip" -exec mv -f {} "$SITE_HOME/assets/" \;
   cp -f "$TLDRHOME/index.json" "$SITE_HOME/assets/"
-  mv -f "${TLDR_PDF_FILES_DIRECTORY}"/*.pdf "${SITE_HOME}/assets/"
-  rm -rf "$TLDR_PDF_FILES_DIRECTORY"
+  find "$TLDRHOME/scripts/pdf" -maxdepth 1 -name "*.pdf" -exec mv -f {} "$SITE_HOME/assets/" \;
 
-  sha256sum \
-    "${SITE_HOME}/assets/index.json" \
-    "${SITE_HOME}/assets/"*.zip \
-    "${SITE_HOME}/assets/"*.pdf \
-    > "${SITE_HOME}/assets/tldr.sha256sums"
+  cd "$SITE_HOME/assets"
+  sha256sum -- index.json *.zip > tldr.sha256sums
 
-  cd "$SITE_HOME"
   git add -A
-  git commit -m "[GitHub Actions] uploaded assets after commit tldr-pages/tldr@${GITHUB_SHA}"
+  git commit -m "[GitHub Actions] uploaded assets after commit tldr-pages/tldr@$GITHUB_SHA"
   git push -q
-
-  echo "Assets (pages archive, index) deployed to static site."
+  echo "Assets (pages archive, index and checksums) deployed to the static site."
 }
 
 ###################################

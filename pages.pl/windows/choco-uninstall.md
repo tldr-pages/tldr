@@ -5,7 +5,7 @@
 
 - Odinstalowanie jednego lub więcej pakietów (oddzielonych spacją):
 
-`choco uninstall {{{pakiet(pakietów)}}`
+`choco uninstall {{pakiet(pakietów)}}`
 
 - Odinstalowanie konkretnej wersji pakietu:
 

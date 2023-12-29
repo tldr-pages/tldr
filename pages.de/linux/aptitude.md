@@ -17,7 +17,7 @@
 
 - Suche nach einem installierten Paket (`?installed` ist ein aptitude Suchbegriff):
 
-`aptitude search ?installed ({{paket}})`
+`aptitude search '?installed ({{paket}})'`
 
 - Entferne ein Paket und alle Abhängigkeiten:
 

@@ -6,7 +6,7 @@
 
 - Pinge einen Host mit ARP Request Paketen:
 
-`arping {{host_adresse}`
+`arping {{host_adresse}}`
 
 - Pinge einen Host auf einem spezifizierten Interface:
 
