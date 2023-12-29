@@ -3,10 +3,6 @@
 > Clone un dépôt existant.
 > Plus d'informations : <https://git-scm.com/docs/git-clone>.
 
-- Clone un dépôt existant :
-
-`git clone {{emplacement_du_depot_distant}}`
-
 - Clone un dépôt existant dans un répertoire spécifique :
 
 `git clone {{emplacement_du_depot_distant}} {{chemin/vers/repertoire}}`
@@ -17,11 +13,11 @@
 
 - Clone un dépôt local :
 
-`git clone -l {{chemin/vers/depot/local}}`
+`git clone --local {{chemin/vers/depot/local}}`
 
 - Clone silencieusement :
 
-`git clone -q {{emplacement_du_depot_distant}}`
+`git clone --quiet {{emplacement_du_depot_distant}}`
 
 - Clone un dépôt existant en ne récupérant que les 10 commits les plus récents sur la branche par défaut (plus rapide) :
 
