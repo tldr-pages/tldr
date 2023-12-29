@@ -4,11 +4,11 @@
 > Given the specification for a lexical analyzer, generates C code implementing it.
 > More information: <https://man.openbsd.org/flex>.
 
-- Generate an analyzer from a Lex file to the file `lex.yy.c`:
+- Generate an analyzer from a Lex file, storing it to the file `lex.yy.c`:
 
 `lex {{analyzer.l}}`
 
-- Write analyzer to `s`[`t`]`dout`:
+- Write the analyzer to `stdout`:
 
 `lex -t {{analyzer.l}}`
 

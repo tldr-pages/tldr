@@ -4,7 +4,7 @@
 > Given the specification for a lexical analyzer, generates C code implementing it.
 > More information: <https://manned.org/lex.1>.
 
-- Generate an analyzer from a Lex file to the file `lex.yy.c`:
+- Generate an analyzer from a Lex file, storing it to the file `lex.yy.c`:
 
 `lex {{analyzer.l}}`
 
