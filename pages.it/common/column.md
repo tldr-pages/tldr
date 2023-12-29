@@ -8,13 +8,13 @@
 
 `printf "intestazione1 intestazione2\nbar foo\n" | column --output-width {{30}}`
 
-- Specifica un diverso separatore di colonna (e.g. "," per csv) (il predefinito è lo spazio):
-
-`printf "intestazione1 intestazione2\nbar foo\n" | column --separator {{,}}`
-
 - Separa colonne ed allinea automaticamente in un formato tabulare:
 
 `printf "intestazione1 intestazione2\nbar foo\n" | column --table`
+
+- Specifica un diverso separatore di colonna (e.g. "," per csv) (il predefinito è lo spazio):
+
+`printf "intestazione1 intestazione2\nbar foo\n" | column --table --separator {{,}}`
 
 - Riempi le righe prima delle colonne:
 

@@ -17,7 +17,7 @@
 
 - SSH into a virtual machine instance:
 
-`gcloud compute ssh {{user}}@{{instance}} `
+`gcloud compute ssh {{user}}@{{instance}}`
 
 - Display all Google Compute Engine instances in a project. Instances from all zones are listed by default:
 
@@ -31,6 +31,6 @@
 
 `gcloud components update`
 
-- Show help for a given command:
+- Display help for a given command:
 
 `gcloud help {{command}}`

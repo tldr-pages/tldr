@@ -21,4 +21,4 @@
 
 - Invia un commit a un repository SVN:
 
-`git svn dcommit`
+`git svn commit`

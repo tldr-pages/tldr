@@ -4,7 +4,7 @@
 > Não deve ser invocado manualmente.
 > Mais informações: <https://www.manpagez.com/man/8/automountd/>.
 
-- Iniciar o daemon:
+- Inicia o daemon:
 
 `automountd`
 

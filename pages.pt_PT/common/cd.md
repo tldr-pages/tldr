@@ -3,18 +3,18 @@
 > Mudar o diretório atual.
 > Mais informações: <https://manned.org/cd>.
 
-- Ir para um dado diretório:
+- Vai para um dado diretório:
 
-`cd {{caminho/para/diretorio}}`
+`cd {{caminho/para/diretório}}`
 
-- Ir para o diretório base do utilizador atual:
+- Vai para o diretório base do utilizador atual:
 
 `cd`
 
-- Ir para o diretório pai do diretório atual:
+- Vai para o diretório pai do diretório atual:
 
 `cd ..`
 
-- Ir para o diretório anteriormente escolhido:
+- Vai para o diretório anteriormente escolhido:
 
 `cd -`

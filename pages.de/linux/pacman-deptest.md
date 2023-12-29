@@ -6,7 +6,7 @@
 
 - Zeige Paketnamen von Abhängigkeiten an, welche nicht installiert sind:
 
-`pacman --deptest {{paketname1}} {{paketname2}}`
+`pacman --deptest {{paket1 paket2 ...}}`
 
 - Überprüfe ob ein installiertes Paket eine Minimalversion erfüllt:
 

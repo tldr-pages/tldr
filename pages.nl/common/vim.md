@@ -23,7 +23,7 @@
 
 - Terug naar normale modues en maak de laatste verandering ongedaan:
 
-`<ESC>u`
+`<Esc>u`
 
 - Zoek een patroon in het bestand (druk op `n`/`N` om naar de volgende/vorige overeenkomst te gaan):
 

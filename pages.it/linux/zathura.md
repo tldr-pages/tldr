@@ -10,7 +10,7 @@
 
 - Navigare sinistra/sopra/sotto/destra:
 
-`<H|J|K|L> or arrow keys`
+`{{H|J|K|L|arrow keys}}`
 
 - Ruotare:
 
@@ -18,7 +18,7 @@
 
 - Invertire i colori:
 
-`Ctrl + R`
+`<Ctrl> + R`
 
 - Ricercare all'interno del testo una stringa:
 

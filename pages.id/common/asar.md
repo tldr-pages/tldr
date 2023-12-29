@@ -13,7 +13,7 @@
 
 - Mengekstrak berkas tertentu dari sebuah arsip:
 
-`asar extract-file {{arsip.asar}} {berkas}}`
+`asar extract-file {{arsip.asar}} {{berkas}}`
 
 - Mendapatkan daftar konten dari berkas arsip:
 

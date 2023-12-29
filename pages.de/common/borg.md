@@ -18,7 +18,7 @@
 
 - Extrahiere ein bestimmtes Verzeichnis aus dem "Montag"-Archiv in einem entfernten Repository, unter Ausschluss aller `*.ext`-Dateien:
 
-`borg extract {{benutzer}}@{{host}}:{{pfad/zu/repo_verzeichnis}}::{{Montag}} {{pfad/zu/ziel_verzeichnis} --exclude '{{*.ext}}'`
+`borg extract {{benutzer}}@{{host}}:{{pfad/zu/repo_verzeichnis}}::{{Montag}} {{pfad/zu/ziel_verzeichnis}} --exclude '{{*.ext}}'`
 
 - Bereinige ein Repository, indem alle Archive gelöscht werden, die älter als 7 Tage sind und Änderungen aufweisen:
 

@@ -17,7 +17,7 @@
 
 - Keluar dari sesi:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - Buk[A] sesi saat ini dalam mode non-interaktif alias [r]ead-only:
 

@@ -10,15 +10,15 @@
 
 - Mostra una breve descrizione del file audio:
 
-`afinfo -b {{percorso/del/file}}`
+`afinfo --brief {{percorso/del/file}}`
 
 - Mostra i metadati ed i contenuti dell'InfoDictionary del file audio:
 
-`afinfo -i {{percorso/del/file}}`
+`afinfo --info {{percorso/del/file}}`
 
 - Mostra l'output in formato xml:
 
-`afinfo -x {{percorso/del/file}}`
+`afinfo --xml {{percorso/del/file}}`
 
 - Mostra i problemi del file audio (se ce ne sono):
 
@@ -26,4 +26,4 @@
 
 - Mostra la pagina di aiuto:
 
-`afinfo -h`
+`afinfo --help`
