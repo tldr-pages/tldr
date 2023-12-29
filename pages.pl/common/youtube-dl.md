@@ -25,7 +25,7 @@
 
 - Pobierz wideo jako pliki MP4 i nazwij wedle schematu:
 
-`youtube-dl --format {{mp4}} -o "{{%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s}}" '{{url}}'`
+`youtube-dl --format {{mp4}} -o "{{%(playlist_index)s-%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s}}" '{{url}}'`
 
 - Pobierz plik razem z napisami:
 
