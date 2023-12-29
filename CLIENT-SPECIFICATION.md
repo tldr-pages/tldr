@@ -38,10 +38,13 @@ Option             | Required?   | Meaning
 `-u`, `--update`   | Conditional | Updates the offline cache of pages. MUST be implemented if caching is supported.
 `-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output.
 `-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
+`-t`, `--auto-translate` | No          | Uses automatic translation if the requested page doesn't exist in the system's language.
 
 Clients MUST implement both the short and long versions of an option.
 
 Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example, a page list MUST be formatted with one page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
+
+If the argument auto-translation is implemented, it's up to the client to decide which method is used to achieve this, like a LLM (Large Language Model) or a translation service API (like LibreTranslate).
 
 Clients MAY support additional custom arguments and syntax not documented here.
 
