@@ -21,4 +21,4 @@
 
 - Save and Quit:
 
-`Ctrl + X`
+`<Ctrl> + X`

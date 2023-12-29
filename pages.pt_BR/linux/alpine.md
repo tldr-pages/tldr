@@ -14,4 +14,4 @@
 
 - Encerra o alpine:
 
-`'q' e 'y'`
+`q + y`

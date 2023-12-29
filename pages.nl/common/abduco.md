@@ -17,7 +17,7 @@
 
 - Loskoppelen van een sessie:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - Voeg toe aan een sessie in alleen-lezen modus:
 
