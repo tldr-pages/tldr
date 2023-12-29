@@ -3,10 +3,6 @@
 > Gandakan repositori dari lokasi luar/remote menuju lokal.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-clone>.
 
-- Gandakan repositori yang ada:
-
-`git clone {{lokasi_repositori_remote}}`
-
 - Gandakan repositori yang ada ke direktori tertentu:
 
 `git clone {{lokasi_repositori_remote}} {{jalan/menuju/direktori}}`
@@ -17,11 +13,11 @@
 
 - Gandakan repositori lokal:
 
-`git clone -l {{jalan/menuju/repositori/lokal}}`
+`git clone --local {{jalan/menuju/repositori/lokal}}`
 
 - Gandakan dengan senyap:
 
-`git clone -q {{lokasi_repositori_remote}}`
+`git clone --quiet {{lokasi_repositori_remote}}`
 
 - Gandakan repositori yang sudah ada dengan hanya mengambil 10 komit paling baru pada branch bawaan (berguna untuk menghemat waktu):
 

@@ -9,7 +9,7 @@
 
 - Quit:
 
-`alt + q or ctrl + c`
+`alt + q OR ctrl + c`
 
 - Show actions menu:
 

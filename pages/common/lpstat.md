@@ -15,6 +15,6 @@
 
 `lpstat -t`
 
-- Show a list of print jobs queued by the specified user:
+- Show a list of print jobs queued by a specific user:
 
 `lpstat -u {{user}}`

@@ -1,6 +1,6 @@
-# kubectl edit
+# kubectl label
 
-> Edit Kubernetes resources.
+> Label Kubernetes resources.
 > More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#label>.
 
 - Label a pod:

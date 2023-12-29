@@ -18,4 +18,4 @@
 
 - Sostituisci in un file input le variabili di ambiente specificate in una lista separata da spazi:
 
-`envsubst {{$USER $HOME $SHELL}} < {{percorso/del/file_input}}`
+`envsubst '{{$USER $HOME $SHELL}}' < {{percorso/del/file_input}}`

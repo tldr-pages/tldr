@@ -3,7 +3,7 @@
 > Linha de comando para obter credenciais (STS) temporárias AWS usando o Google Apps como um provedor (Single Sign-On) federado.
 > Mais informações: <https://github.com/cevoaustralia/aws-google-auth>.
 
-- Loga com o Google SSO usando identificadores IDP e SP e criar credenciais com duração de uma hora:
+- Loga com o Google SSO usando identificadores IDP e SP e cria credenciais com duração de uma hora:
 
 `aws-google-auth -u {{exemplo@example.com}} -I {{$GOOGLE_IDP_ID}} -S {{$GOOGLE_SP_ID}} -d {{3600}}`
 

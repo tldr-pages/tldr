@@ -9,7 +9,7 @@
 
 - Setze eine APF-Freigabe oder SMB-Freigabe als Backupziel:
 
-`sudo tmutil setdestination {{protocol://benutzer[:passwort]@host/share}}`
+`sudo tmutil setdestination "{{protocol://benutzer[:passwort]@host/share}}"`
 
 - Hänge das angegebene Ziel an die Liste der Backupziele an:
 
