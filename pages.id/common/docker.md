@@ -4,13 +4,9 @@
 > Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `docker run`.
 > Informasi lebih lanjut: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Menampilkan semua daftar kontainer docker yang sedang berjalan:
-
-`docker ps`
-
 - Menampilkan semua daftar kontainer docker (yang sedang berjalan dan berhenti):
 
-`docker ps -a`
+`docker ps --all`
 
 - Memulai sebuah kontainer dari image, dengan nama kustom:
 

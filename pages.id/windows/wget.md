@@ -5,7 +5,7 @@
 
 - Cari tahu apakah `wget` sudah terpasang dengan benar dengan menampilkan versi program tersebut. Jika perintah ini memunculkan pesan galat/error, maka PowerShell berkemungkinan sedang menggantinya dengan `Invoke-WebRequest`:
 
-`curl --version`
+`wget --version`
 
 - Tampilkan dokumentasi untuk perintah `wget` yang asli:
 

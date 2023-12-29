@@ -1,20 +1,20 @@
 # lpstat
 
-> Mostra informação de estado sobre impressoras.
+> Exibe informações sobre o estado de impressoras.
 > Mais informações: <https://manned.org/lpstat>.
 
-- Lista impressoras presentes na máquina e se eles estão habilitados para impressão:
+- Lista impressoras presentes na máquina e se estão habilitadas para impressão:
 
 `lpstat -p`
 
-- Mostra a impressora padrão:
+- Exibe a impressora padrão:
 
 `lpstat -d`
 
-- Mostra todos os estados de informação:
+- Exibe todas as informações de estado disponíveis:
 
 `lpstat -t`
 
-- Mostra uma lista de trabalhos de impressão colocados na fila por um usuário específico:
+- Mostra uma lista de trabalhos de impressão que foram colocados na fila por um usuário específico:
 
 `lpstat -u {{usuário}}`

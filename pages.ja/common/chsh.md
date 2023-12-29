@@ -17,4 +17,4 @@
 
 - 使用可能なシェルの一覧を表示する:
 
-`chsh --list-shells`
+`chsh -l`
