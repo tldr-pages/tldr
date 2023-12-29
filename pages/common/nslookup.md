@@ -17,7 +17,7 @@
 
 - Query for ANY available records using TCP protocol:
 
-`nslookup -vc -type=ANY {{example.com}} `
+`nslookup -vc -type=ANY {{example.com}}`
 
 - Query a given name server for the whole zone file (zone transfer) of the domain using TCP protocol:
 

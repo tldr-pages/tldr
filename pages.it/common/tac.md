@@ -1,12 +1,25 @@
 # tac
 
-> Stampa e concatena file al contrario.
+> Visualizza e concatena file con righe in ordine inverso.
+> Guarda anche: `cat`.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/tac>.
 
-- Stampa il contenuto di file1 al contrario su standard output:
+- Concatena file specifici in ordine inverso:
 
-`tac {{file1}}`
+`tac {{percorso/del/file1 percorso/del/file2 ...}}`
 
-- Concatena multipli file al contrario in un nuovo file:
+- Visualizza 'stdin' in ordine inverso:
 
-`tac {{file1}} {{file2}} > {{nuovo_file}}`
+`{{cat percorso/del/file}} | tac`
+
+- Usa un [s]riparatore specifico:
+
+`tac -s {{separatore}} {{percorso/del/file1 percorso/del/file2 ...}}`
+
+- Usa un [r]egex specifico come [s]eparatore:
+
+`tac -r -s {{separatore}} {{percorso/del/file1 percorso/del/file2 ...}}`
+
+- Utilizzare un separatore [b]prima di ciascun file:
+
+`tac -b {{percorso/del/file1 percorso/del/file2 ...}}`

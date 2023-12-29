@@ -29,4 +29,4 @@
 
 - Ga naar het menu van de interactieve apparaat monitor:
 
-`Ctrl + T`
+`<Ctrl> + T`

@@ -3,34 +3,34 @@
 > Multiplexador do terminal. Permite várias sessões com janelas, painéis e muito mais.
 > Mais informações: <https://github.com/tmux/tmux>.
 
-- Iniciar uma nova sessão:
+- Inicia uma nova sessão:
 
 `tmux`
 
-- Iniciar uma sessão com nome:
+- Inicia uma sessão com nome:
 
 `tmux new-session -s {{nome}}`
 
-- Listar sessões existentes:
+- Lista sessões existentes:
 
 `tmux ls`
 
-- Entrar na última sessão utilizada:
+- Entra na última sessão utilizada:
 
 `tmux attach-session`
 
-- Entrar numa sessão com nome:
+- Entra numa sessão com nome:
 
 `tmux attach-session -t {{nome}}`
 
-- Sair da sessão atual (com o prefixo Ctrl-B):
+- Sai da sessão atual (com o prefixo Ctrl-B):
 
-`Ctrl-B d`
+`<Ctrl>-B d`
 
-- Eliminar uma sessão com nome:
+- Elimina uma sessão com nome:
 
 `tmux kill-session -t {{nome}}`
 
-- Eliminar a sessão atual (com o prefixo Ctrl-B):
+- Elimina a sessão atual (com o prefixo Ctrl-B):
 
-`Ctrl-B :kill-session<Enter>`
+`<Ctrl>-B :kill-session<Enter>`

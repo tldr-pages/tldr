@@ -4,7 +4,7 @@
 > Versão do `7z` com suporte apenas para o formato `.7z`.
 > Mais informações: <https://manned.org/7zr>.
 
-- Compactar um arquivo ou diretório:
+- Compacta um arquivo ou diretório:
 
 `7zr a {{caminho/para/arquivo_compactado.7z}} {{caminho/para/arquivo_ou_diretorio}}`
 

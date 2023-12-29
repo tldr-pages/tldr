@@ -1,36 +1,38 @@
 # tmux
 
-> Multiplexa varias consolas virtuales.
+> Multiplexor de terminal.
+> Permite múltiples sesiones con ventanas, paneles y más.
+> Ver también: `zellij`, `screen`.
 > Más información: <https://github.com/tmux/tmux>.
 
-- Inicia una nueva sesión de tmux:
+- Inicia una nueva sesión:
 
 `tmux`
 
-- Inicia una nueva sesión de tmux y le asigna un nombre:
+- Inicia una nueva sesión con nombre:
 
 `tmux new -s {{nombre}}`
 
-- Muestra las sesiones:
+- Lista las sesiones existentes:
 
 `tmux ls`
 
-- Adjunta a una sesión:
+- Adjunta a la última sesión utilizada:
 
-`tmux a`
+`tmux attach`
 
-- Adjunta a una sesión con un nombre específico:
+- Separa la sesión actual (dentro de una sesión tmux):
 
-`tmux a -t {{nombre}}`
+`<Ctrl>-B d`
 
-- Desconecta de la sesión:
+- Crea una nueva ventana (dentro de una sesión tmux):
 
-`Ctrl + B, D`
+`<Ctrl>-B c`
 
-- Elimina una sesión con un nombre específico:
+- Cambia entre sesiones y ventanas (dentro de una sesión tmux):
+
+`<Ctrl>-B w`
+
+- Da de baja una sesión por su nombre:
 
 `tmux kill-session -t {{nombre}}`
-
-- Elimina una sesión cuando se adjunta:
-
-`Ctrl + B, x (luego se pulsa 'y' para confirmar que sí)`

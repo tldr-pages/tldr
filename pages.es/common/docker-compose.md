@@ -1,23 +1,23 @@
 # docker compose
 
-> Ejecuta y gestiona múltiples contenedores Docker.
+> Ejecuta y gestiona aplicaciones docker multicontenedor.
 > Más información: <https://docs.docker.com/compose/reference/>.
 
-- Lista los contenedores en ejecución:
+- Lista todos los contenedores en ejecución:
 
 `docker compose ps`
 
-- Crea e inicia todos los contenedores en segundo plano usando el archivo `docker-compose.yml` en el directorio actual:
+- Crea e inicia todos los contenedores en segundo plano usando un archivo `docker-compose.yml` desde el directorio actual:
 
 `docker compose up --detach`
 
-- Inicia todos los contenedores y reconstruye si es ncesario:
+- Inicia todos los contenedores, y se reconstruye si es necesario:
 
 `docker compose up --build`
 
-- Inicia todos los contenedores especificando un nombre de proyecto y usando un archivo compose alternativo:
+- Inicia todos los contenedores especificando un nombre de proyecto y utilizando un archivo de composición alternativo:
 
-`docker compose  -p {{nombre_de_proyecto}} --file {{ruta/al/directorio}} up`
+`docker compose -p {{nombre_proyecto}} --file {{ruta/al/archivo}} up`
 
 - Detiene todos los contenedores en ejecución:
 
@@ -33,4 +33,4 @@
 
 - Sigue los registros de un contenedor específico:
 
-`docker compose logs --follow {{nombre_de_contenedor}}`
+`docker compose logs --follow {{nombre_del_contenedor}}`

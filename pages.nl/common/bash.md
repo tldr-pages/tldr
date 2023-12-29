@@ -2,7 +2,7 @@
 
 > Bourne-Again SHell, `sh`-ondersteunende commandoregel-interpreteerder.
 > Bekijk ook: `zsh`, `histexpand` (history expansion).
-> Meer informatie: <https://gnu.org/software/bash/>.
+> Meer informatie: <https://www.gnu.org/software/bash/>.
 
 - Start een interactieve shell sessie:
 
