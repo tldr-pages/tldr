@@ -18,7 +18,7 @@
 
 - Numera todas as linhas de saída:
 
-`bat -n {{arquivo}}`
+`bat --number {{arquivo}}`
 
 - Realça a sintaxe de um arquivo JSON:
 

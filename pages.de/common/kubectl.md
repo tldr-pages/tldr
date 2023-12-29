@@ -6,7 +6,7 @@
 
 - Liste Informationen über eine Ressource mit weiteren Details auf:
 
-`kubectl get {{pod|service|deployment|ingress|...}} --output wide`
+`kubectl get {{pod|service|deployment|ingress|...}} -o wide`
 
 - Aktualisiere die angegebenen Pods mit dem Label 'unhealthy' und dem Wert 'true':
 

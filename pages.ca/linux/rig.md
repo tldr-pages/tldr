@@ -19,6 +19,6 @@
 
 `rig -c {{numero}}`
 
-- Especifica el número d'identitats amb el gènere escollit a generar:
+- Especifica el número d'identitats femininas a generar:
 
-`rig -{{m|f}} -c {{numero}}`
+`rig -f -c {{numero}}`

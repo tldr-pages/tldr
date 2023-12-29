@@ -10,7 +10,7 @@
 
 - Überprüfe nur ob die angegebenen Hosts online sind (Ping Scan) und ihre Domain-Namen:
 
-`nmap -sn {{ip_oder_hostname}} {{optional_noch_eine_addresse}}`
+`sudo nmap -sn {{ip_oder_hostname}} {{optional_noch_eine_addresse}}`
 
 - Scanne zusätzlich mit Skripten, Service-Erkennung, Betriebssystem-Fingerprinting und Traceroute:
 

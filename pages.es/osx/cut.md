@@ -1,4 +1,4 @@
-# cortar
+# cut
 
 > Cortar campos sean `stdin` o archivos.
 > Más información: <https://manned.org/man/freebsd-13.0/cut.1>.

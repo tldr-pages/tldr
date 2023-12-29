@@ -17,4 +17,4 @@
 
 - Show available toilet filters:
 
-`toilet --filter list `
+`toilet --filter list`

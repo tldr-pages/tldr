@@ -7,22 +7,26 @@
 
 `dash`
 
-- Executa um comando e sai:
+- Executa [c]omandos específicos:
 
-`dash -c "{{comando}}"`
+`dash -c "{{echo 'dash executado'}}"`
 
-- Executa um script:
+- Executa um script específico:
 
 `dash {{caminho/para/script.sh}}`
+
+- Checar erros de sintaxe em um script específico:
+
+`dash -n {{caminho/para/script.sh}}`
 
 - Executa comandos de um script, imprimindo cada comando antes de executá-lo:
 
 `dash -x {{caminho/para/script.sh}}`
 
-- Executa comandos de um script, parando no primeiro erro:
+- Executa comandos de um script, parando no primeiro [e]rro:
 
 `dash -e {{caminho/para/script.sh}}`
 
-- Lê e executa comandos de `stdin`:
+- Executa comandos específicos de `stdin`:
 
-`dash -s`
+`{{echo "echo 'dash executado'"}} | dash`

@@ -3,9 +3,9 @@
 > Committe Dateien in ein Repository.
 > Weitere Informationen: <https://git-scm.com/docs/git-commit>.
 
-- Committe gestagten Dateien zum Repository mit einer Nachricht:
+- Committe die gestagten Dateien mit einer Nachricht in das Repository:
 
-`git commit -m "{{nachricht}}"`
+`git commit --message "{{nachricht}}"`
 
 - Committe alle gestagten Dateien zum Repository mit einer Nachricht aus einer Datei:
 
@@ -13,11 +13,11 @@
 
 - Stage alle modifizierten Dateien und committe sie mit einer Nachricht:
 
-`git commit -a -m "{{nachricht}}"`
+`git commit --all --message "{{nachricht}}"`
 
-- Committe alle gestagten Dateien und [S]igniere sie mit dem in `~/.gitconfig` definierten GPG Schlüssel:
+- Committe gestagten Dateien und signiere sie mit dem definierten GPG Schlüssel (oder mit dem in der Konfigurationsdatei definierten, wenn kein Argument angegeben ist):
 
-`git commit -S -m "{{nachricht}}"`
+`git commit --gpg-sign {{key_id}} --message "{{nachricht}}"`
 
 - Ersetze den letzten Commit mit den gerade auf dem Stage liegenden Änderungen:
 
@@ -29,4 +29,4 @@
 
 - Erzeuge einen Commit, auch wenn keine Dateien auf dem Stage liegen:
 
-`git commit -m "{{nachricht}}" --allow-empty`
+`git commit --message "{{nachricht}}" --allow-empty`
