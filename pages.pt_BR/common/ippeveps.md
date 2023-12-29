@@ -7,7 +7,7 @@
 
 - Imprime um arquivo para `stdout` (mensagens de estado e progresso são enviadas para `stderr`):
 
-`ippeveps {{path/to/file}}`
+`ippeveps {{caminho/para/arquivo}}`
 
 - Imprime um arquivo de `stdin` para `stdout`:
 
