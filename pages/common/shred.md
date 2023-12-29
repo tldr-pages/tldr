@@ -9,15 +9,15 @@
 
 - Overwrite a file and show progress on the screen:
 
-`shred -v {{path/to/file}}`
+`shred --verbose {{path/to/file}}`
 
-- Overwrite a file, leaving zeros instead of random data:
+- Overwrite a file, leaving [z]eros instead of random data:
 
-`shred -z {{path/to/file}}`
+`shred --zero {{path/to/file}}`
 
-- Overwrite a file 25 times:
+- Overwrite a file a specific [n]umber of times:
 
-`shred -n25 {{path/to/file}}`
+`shred --iterations {{25}} {{path/to/file}}`
 
 - Overwrite a file and remove it:
 
