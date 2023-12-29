@@ -9,7 +9,7 @@
 
 - Ativa o serviço de hora de rede com um fuso horário e servidor específico:
 
-`systemsetup -settimezone {{Europe/Lisbon}} -setnetworktimeserver {{2.pt.pool.ntp.org}} -setusingnetworktime on`
+`systemsetup -settimezone "{{Europe/Lisbon}}" -setnetworktimeserver {{2.pt.pool.ntp.org}} -setusingnetworktime on`
 
 - Colaca a máquina sem dormir, reiniciando automaticamente em falta de energia ou pânico do núcleo do sistema:
 

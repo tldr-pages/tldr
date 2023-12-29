@@ -6,16 +6,8 @@
 
 - Cria um novo ficheiro vazio, ou atualizar as timestamps para a hora atual:
 
-`touch {{ficheiro}}`
+`touch {{caminho/para/ficheiro1 caminho/para/ficheiro2 ...}}`
 
 - Define as timestamps de um ficheiro para a hora especificada:
 
-`touch -t {{YYYYMMDDHHMM.SS}} {{ficheiro}}`
-
-- Usa as timestamps do ficheiro1 para definir as timestamps do ficheiro2:
-
-`touch -r {{ficheiro1}} {{ficheiro2}}`
-
-- Altera as timestamps de um ficheiro. Não cria novo ficheiro se não existir:
-
-`touch -c {{ficheiro}}`
+`touch -t {{YYYYMMDDHHMM.SS}} {{caminho/para/ficheiro1 caminho/para/ficheiro2 ...}}`
