@@ -7,10 +7,6 @@
 
 `journalctl -b --priority={{3}}`
 
-- Wyświetl wszystkie wiadomości z ostatniego rozruchu:
-
-`journalctl -b -1`
-
 - Usuń dzienniki starsze niż 2 dni:
 
 `journalctl --vacuum-time={{2d}}`

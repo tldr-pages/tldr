@@ -19,10 +19,6 @@
 
 `awk '{s+=$1} END {print s}' {{nazwapliku}}`
 
-- Zsumuj wartości w pierwszej kolumnie i wydrukuj wartości, a następnie sumę:
-
-`awk '{s+=$1; print $1} END {print "--------"; print s}' {{nazwapliku}}`
-
 - Drukuj co trzeci wiersz, zaczynając od pierwszego wiersza:
 
 `awk 'NR%3==1' {{nazwapliku}}`

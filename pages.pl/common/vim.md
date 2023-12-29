@@ -16,17 +16,13 @@
 
 `:help<Enter>`
 
-- Zapisz plik:
-
-`:write<Enter>`
-
 - Wyjdź bez zapisywania:
 
-`:quit!<Enter>`
+`:wq<Enter>`
 
 - Cofnij ostatnią operację:
 
-`u`
+`<Esc>u`
 
 - Wyszukaj wzorzec w pliku (naciśnij `n`/`N` przejść do następnego/poprzedniego dopasowania):
 

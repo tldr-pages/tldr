@@ -13,7 +13,7 @@
 
 - Dodanie nowego źródła z użyciem poświadczeń:
 
-`choco source add --name {{nazwa}} --source {{adres_url}} --user {{nazwa_użytkownika}}} --password {{hasło}}`
+`choco source add --name {{nazwa}} --source {{adres_url}} --user {{nazwa_użytkownika}} --password {{hasło}}`
 
 - Dodanie nowego źródła z użyciem certyfikatu:
 

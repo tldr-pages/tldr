@@ -11,15 +11,11 @@
 
 - Zainstaluj nowy pakiet:
 
-`sudo pacman -S {{nazwa_pakietu}}`
+`sudo pacman -S {{pakietu}}`
 
 - Usuń pakiet i jego zależności:
 
-`sudo pacman -Rs {{nazwa_pakietu}}`
-
-- Przeszukaj bazę danych pakietów używając wyrażenia regularnego lub słowa klucz:
-
-`pacman -Ss "{{zapytanie}}"`
+`sudo pacman -Rs {{pakietu}}`
 
 - Wyświetl zainstalowane pakiety i ich wersje:
 

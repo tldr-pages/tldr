@@ -5,11 +5,11 @@
 
 - Aktualizacja jednego lub więcej pakietów (oddzielonych spacją):
 
-`choco upgrade {{pakiet(pakietów)}}`
+`choco upgrade {{pakietu1 pakietu2 ...}}`
 
 - Aktualizacja pakietu do konkretnej wersji:
 
-`choco upgrade {{pakiet}}`
+`choco upgrade {{pakiet}} --version {{wersji}}`
 
 - Aktualizacja wszystkich pakietów zarządzanych przez Chocolatey:
 
@@ -17,7 +17,7 @@
 
 - Uaktualnij wszystkie pakiety z wyjątkiem określonych pakietów rozdzielanych przecinkami:
 
-`choco upgrade all --except "{{pakiet(pakietów)}}"`
+`choco upgrade all --except "{{pakietu1 pakietu2 ...}}"`
 
 - Automatyczna akceptacja wszystkich monitów podczas aktualizacji pakietu (--yes):
 
