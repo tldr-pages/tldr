@@ -8,10 +8,10 @@
 
 `consul --version`
 
-- Show general help:
+- Display help:
 
 `consul --help`
 
-- Show help for a sub-command:
+- Display help for a sub-command:
 
 `consul {{sub-command}} --help`

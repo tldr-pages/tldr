@@ -17,7 +17,7 @@
 
 - Halt immediately without contacting the system manager:
 
-`halt --force --force`
+`halt --force`
 
 - Write the wtmp shutdown entry without halting the system:
 

@@ -12,7 +12,7 @@
 
 `bpytop -m`
 
-- Show version:
+- Display version:
 
 `bpytop -v`
 

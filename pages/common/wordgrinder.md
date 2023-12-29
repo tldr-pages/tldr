@@ -9,7 +9,7 @@
 
 - Open a given file:
 
-`wordgrinder {{filename}}`
+`wordgrinder {{path/to/file}}`
 
 - Show the menu:
 

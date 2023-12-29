@@ -61,6 +61,32 @@ function check_missing_english_page() {
   fi
 }
 
+function count_commands() {
+  local file="$1"
+  local regex="$2"
+
+  grep -c "$regex" "$file"
+}
+
+function strip_commands() {
+  local file="$1"
+  local regex="$2"
+
+  local stripped_commands=()
+
+  mapfile -t stripped_commands < <(
+    grep "$regex" "$file" | 
+    sed 's/{{[^}]*}}/{{}}/g' | 
+    sed 's/<[^>]*>//g' | 
+    sed 's/([^)]*)//g' | 
+    sed 's/"[^"]*"/""/g' | 
+    sed "s/'[^']*'//g" | 
+    sed 's/`//g'
+  )
+
+  printf "%s\n" "${stripped_commands[*]}"
+}
+
 function check_outdated_page() {
   local page=$1
   local english_page="pages/${page#pages*\/}"
@@ -70,15 +96,17 @@ function check_outdated_page() {
     return 1
   fi
 
-  local english_commands=$(grep -c $command_regex "$english_page")
-  mapfile -t stripped_english_commands < <(grep $command_regex "$english_page" | sed 's/{{[^}]*}}/{{}}/g' | sed 's/"[^"]*"/""/g' | sed "s/'[^']*'//g" | sed 's/`//g')
-  local commands=$(grep -c $command_regex $page)
-  mapfile -t stripped_commands < <(grep $command_regex "$page" | sed 's/{{[^}]*}}/{{}}/g' | sed 's/"[^"]*"/""/g' | sed "s/'[^']*'//g" | sed 's/`//g')
+  local english_commands
+  english_commands=$(count_commands "$english_page" "$command_regex")
+  local commands
+  commands=$(count_commands "$page" "$command_regex")
 
-  local english_commands_as_string=$(printf "%s\n" "${stripped_english_commands[*]}")
-  local commands_as_string=$(printf "%s\n" "${stripped_commands[*]}")
-
-  if [[ $english_commands != $commands ]]; then
+  local english_commands_as_string
+  english_commands_as_string=$(strip_commands "$english_page" "$command_regex")
+  local commands_as_string
+  commands_as_string=$(strip_commands "$page" "$command_regex")
+  
+  if [[ "$english_commands" != "$commands" ]]; then
     printf "\x2d $MSG_OUTDATED" "$page" "based on number of commands"
   elif [[ "$english_commands_as_string" != "$commands_as_string" ]]; then
     printf "\x2d $MSG_OUTDATED" "$page" "based on the command contents itself"

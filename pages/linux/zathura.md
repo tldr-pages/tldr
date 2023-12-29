@@ -10,7 +10,7 @@
 
 - Navigate left/up/down/right:
 
-`<H|J|K|L> or arrow keys`
+`{{H|J|K|L}} OR {{arrow keys}}`
 
 - Rotate:
 
