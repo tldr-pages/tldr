@@ -129,6 +129,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11201) — present
 - **Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck))**:
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11202) - present
+- **Isaac Vicente ([@isaacvicente](https://github.com/isaacvicente))**:
+  [29 December 2023](https://github.com/tldr-pages/tldr/issues/11918) - present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
