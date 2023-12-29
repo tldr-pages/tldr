@@ -9,7 +9,7 @@
 
 - Inicia uma sessão com nome:
 
-`tmux new- -s {{nome}}`
+`tmux new -s {{nome}}`
 
 - Lista sessões existentes:
 
