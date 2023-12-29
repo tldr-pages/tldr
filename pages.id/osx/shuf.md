@@ -9,12 +9,12 @@
 
 - Hanya mengoutputkan 5 entri dari hasil:
 
-`shuf -n {{5}} {{nama_file}}`
+`shuf --head-count={{5}} {{nama_file}}`
 
 - Menuliskan output ke file lain:
 
-`shuf {{nama_file}} -o {{nama_file_output}}`
+`shuf {{nama_file}} --output={{nama_file_output}}`
 
 - Men-generate angka acak dari 1-10:
 
-`shuf -i {{1-10}}`
+`shuf --input-range={{1-10}}`

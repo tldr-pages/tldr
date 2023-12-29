@@ -10,15 +10,11 @@
 
 - Instal paket baru:
 
-`sudo pacman -S {{nama_paket}}`
+`sudo pacman -S {{paket}}`
 
 - Hapus paket beserta dependensinya:
 
-`sudo pacman -Rs {{nama_paket}}`
-
-- Cari paket dalam database berdasarkan regular expression atau kata kunci:
-
-`pacman -Ss "{{pola_pencarian}}"`
+`sudo pacman -Rs {{paket}}`
 
 - Tampilkan daftar paket dan versi yang diinstal:
 
