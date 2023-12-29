@@ -3,10 +3,6 @@
 > Clona un repositorio existente.
 > Más información: <https://git-scm.com/docs/git-clone>.
 
-- Clona un repositorio existente:
-
-`git clone {{ubicacion_remota_del_repositorio}}`
-
 - Clona un repositorio existente en un directorio específico:
 
 `git clone {{ubicacion_remota_del_repositorio}} {{ruta/al/directorio}}`
@@ -17,11 +13,11 @@
 
 - Clona un repositorio local:
 
-`git clone -l {{ruta/al/repositorio/local}}`
+`git clone --local {{ruta/al/repositorio/local}}`
 
 - Clona silenciosamente:
 
-`git clone -q {{ubicacion_remota_del_repositorio}}`
+`git clone --quiet {{ubicacion_remota_del_repositorio}}`
 
 - Clona un repositorio existente solo descargando los 10 commits más recientes de la rama por defecto (útil para ahorrar tiempo):
 
