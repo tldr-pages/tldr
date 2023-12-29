@@ -31,6 +31,6 @@
 
 `jest --watch`
 
-- Show help:
+- Display help:
 
 `jest --help`

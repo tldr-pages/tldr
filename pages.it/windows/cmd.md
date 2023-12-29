@@ -9,11 +9,11 @@
 
 - Esegue il comando specificato e poi esce:
 
-`cmd /c "{{comando}}"`
+`cmd /c {{echo Ciao mondo}}`
 
 - Esegue il comando specificato e poi apre una shell interattiva:
 
-`cmd /k "{{comando}}"`
+`cmd /k {{echo Ciao mondo}}`
 
 - Disabilita l'uso di `echo` nell'output di un comando:
 
@@ -22,10 +22,6 @@
 - Abilita o disabilita le estensioni ai comandi:
 
 `cmd /e:{{on|off}}`
-
-- Abilita o disabilita l'autocompletamento dei nomi di file e directory:
-
-`cmd /f:{{on|off}}`
 
 - Abilita o disabilita l'espansione delle variabili d'ambiente:
 

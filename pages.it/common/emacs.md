@@ -13,4 +13,4 @@
 
 - Esci da emacs (salva i buffer e termina):
 
-`Ctrl + X, Ctrl + C`
+`<Ctrl> + X, <Ctrl> + C`

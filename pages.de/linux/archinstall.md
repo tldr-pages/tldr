@@ -5,7 +5,7 @@
 
 - Starte den interaktiven Installer:
 
-`àrchinstall`
+`archinstall`
 
 - Starte einen voreingestellten Installer:
 

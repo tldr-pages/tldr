@@ -15,13 +15,13 @@
 
 `conky -c {{ruta/a/la/configuració}}`
 
-- Executa en segon pla (*daemon*):
+- Executa en segon pla (daemonize):
 
 `conky -d`
 
 - Posiciona conky en l'escriptori:
 
-`conky -a {{{top,bottom,middle}_{left,right,middle}}}`
+`conky -a {{top|bottom|middle}}_{{left|right|middle}}`
 
 - Pausa de 5 segons al iniciar abans d'executar-lo:
 

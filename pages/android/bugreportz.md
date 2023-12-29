@@ -12,7 +12,7 @@
 
 `bugreportz -p`
 
-- Show the version of `bugreportz`:
+- Display version:
 
 `bugreportz -v`
 

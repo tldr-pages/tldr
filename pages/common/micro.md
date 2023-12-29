@@ -10,24 +10,24 @@
 
 - Save a file:
 
-`Ctrl + S`
+`<Ctrl> + S`
 
 - Cut the entire line:
 
-`Ctrl + K`
+`<Ctrl> + K`
 
 - Search for a pattern in the file (press `Ctrl + N`/`Ctrl + P` to go to next/previous match):
 
-`Ctrl + F "{{pattern}}" <Enter>`
+`<Ctrl> + F "{{pattern}}" <Enter>`
 
 - Execute a command:
 
-`Ctrl + E {{command}} <Enter>`
+`<Ctrl> + E {{command}} <Enter>`
 
 - Perform a substitution in the whole file:
 
-`Ctrl + E replaceall "{{pattern}}" "{{replacement}}" <Enter>`
+`<Ctrl> + E replaceall "{{pattern}}" "{{replacement}}" <Enter>`
 
 - Quit:
 
-`Ctrl + Q`
+`<Ctrl> + Q`

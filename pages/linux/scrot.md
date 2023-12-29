@@ -15,6 +15,14 @@
 
 `scrot --select`
 
+- Capture a screenshot interactively without exiting on keyboard input, press `ESC` to exit:
+
+`scrot --select --ignorekeyboard`
+
+- Capture a screenshot interactively delimiting the region with a colored line:
+
+`scrot --select --line color={{x11_color|rgb_color}}`
+
 - Capture a screenshot from the currently focused window:
 
 `scrot --focused`

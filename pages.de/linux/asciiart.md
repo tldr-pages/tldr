@@ -13,7 +13,7 @@
 
 - Wähle die Breite der Ausgabe (standardmäßig 100):
 
-`asciiart -width {{50}} {{pfad/zum/bild.jpg}}`
+`asciiart --width {{50}} {{pfad/zum/bild.jpg}}`
 
 - Zeige die Ausgabe in Farbe:
 

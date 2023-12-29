@@ -3,14 +3,14 @@
 > Processador de texto em linha de comando.
 > Mais informações: <https://cowlark.com/wordgrinder>.
 
-- Iniciar o wordgrinder (carrega um documento vazio por padrão):
+- Inicia o wordgrinder (carrega um documento vazio por padrão):
 
 `wordgrinder`
 
-- Abrir um arquivo específico:
+- Abre um arquivo específico:
 
 `wordgrinder {{nome_do_arquivo}}`
 
-- Mostrar o menu:
+- Mostra o menu:
 
-`Alt + M`
+`<Alt> + M`

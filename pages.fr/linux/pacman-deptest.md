@@ -6,7 +6,7 @@
 
 - Affiche les noms des paquets qui ne sont pas installés dans la liste :
 
-`pacman --deptest {{paquet1}} {{paquet2}}`
+`pacman --deptest {{paquet1 paquet2 ...}}`
 
 - Vérifie que le paquet installé a une version supérieure ou égale :
 

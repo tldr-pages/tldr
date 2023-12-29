@@ -4,7 +4,7 @@
 > Accès aux entrées QuickSight.
 > Plus d'informations : <https://docs.aws.amazon.com/cli/latest/reference/quicksight/>.
 
-- Liste les datasets:
+- Liste les datasets :
 
 `aws quicksight list-data-sets --aws-account-id {{id_compte_aws}}`
 

@@ -13,12 +13,12 @@
 
 - Send an HTTP request:
 
-`Ctrl + R`
+`<Ctrl> + R`
 
 - Switch to the next view:
 
-`Ctrl + J, Tab`
+`<Ctrl> + J, <Tab>`
 
 - Switch to the previous view:
 
-`Ctrl + K, Shift + Tab`
+`<Ctrl> + K, <Shift> + <Tab>`

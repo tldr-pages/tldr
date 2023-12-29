@@ -9,28 +9,28 @@
 
 - Copy the result of the most recent calculation:
 
-`Ctrl + R`
+`<Ctrl> + R`
 
 - Open the formula book:
 
-`Ctrl + 1`
+`<Ctrl> + 1`
 
 - Clear the calculator of recent calculations:
 
-`Ctrl + N`
+`<Ctrl> + N`
 
 - Wrap highlighted in parentheses (defaults to wrapping all if nothing selected):
 
-`Ctrl + P`
+`<Ctrl> + P`
 
 - Load a speedcrunch session:
 
-`Ctrl + L`
+`<Ctrl> + L`
 
 - Save a speedcrunch session:
 
-`Ctrl + S`
+`<Ctrl> + S`
 
 - Toggle keypad:
 
-`Ctrl + K`
+`<Ctrl> + K`

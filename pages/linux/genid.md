@@ -9,7 +9,7 @@
 
 - Generate a UUIDv5 using a namespace UUID and a specific name:
 
-`genid uuidv5 {{{ce598faa-8dd0-49ee-8525-9e24fff71dca}}} {{name}}`
+`genid uuidv5 {{ce598faa-8dd0-49ee-8525-9e24fff71dca}} {{name}}`
 
 - Generate a Discord Snowflake, without a trailing newline (useful in shell scripts):
 

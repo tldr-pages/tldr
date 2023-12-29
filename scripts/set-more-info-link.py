@@ -1,6 +1,41 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
 
+"""
+This script sets the "More information" link for all translations of a page.
+It can be used to add or update the links in translations.
+
+Note: Before running this script, ensure that TLDR_ROOT is set to the location
+of a clone of https://github.com/tldr-pages/tldr, and 'git' is available.
+If there is a symlink error when using the stage flag remove the `pages.en`
+directory temporarily and try executing it again.
+
+Usage: python3 scripts/set-more-info-link.py [-p PAGE] [-s] [-S] [LINK]
+
+Supported Arguments:
+    -p, --page    Specify the page name in the format "platform/command.md".
+                  This option allows setting the link for a specific page.
+    -s, --stage   Stage modified pages for commit. This option requires 'git'
+                  to be on the $PATH and TLDR_ROOT to be a Git repository.
+    -S, --sync    Synchronize each translation's more information link (if
+                  exists) with that of the English page. This is useful to
+                  ensure consistency across translations.
+
+Positional Argument:
+    LINK          The link to be set as the "More information" link.
+
+Examples:
+    1. Set the link for a specific page:
+       python3 scripts/set-more-info-link.py -p common/tar.md https://example.com
+
+    2. Synchronize more information links across translations:
+       python3 scripts/set-more-info-link.py -S
+
+    3. Synchronize more information links across translations and stage modified pages for commit:
+       python3 scripts/set-more-info-link.py -Ss
+       python3 scripts/set-more-info-link.py --sync --stage
+"""
+
 import argparse
 import os
 import re

@@ -31,6 +31,6 @@
 
 `sqlite-utils drop-table {{path/to/database.db}} {{table_name}}`
 
-- Show help information:
+- Display help:
 
 `sqlite-utils -h`
