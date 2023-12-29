@@ -5,16 +5,16 @@
 
 - Mencari baris-baris dalam file yang mengandung teks tertentu:
 
-`find {{teks}} {{jalan/menuju/file_atau_direktori}}`
+`find "{{teks}}" {{jalan/menuju/file_atau_direktori}}`
 
 - Menunjukkan baris-baris dalam file yang tidak mengandung teks tertentu:
 
-`find {{teks}} {{jalan/menuju/file_atau_direktori}} /v`
+`find "{{teks}}" {{jalan/menuju/file_atau_direktori}} /v`
 
 - Menghitung jumlah baris dalam file yang mengandung teks tertentu:
 
-`find {{teks}} {{jalan/menuju/file_atau_direktori}} /c`
+`find "{{teks}}" {{jalan/menuju/file_atau_direktori}} /c`
 
 - Mencari baris-baris dalam file yang mengandung teks tertentu beserta nomor barisnya:
 
-`find {{teks}} {{jalan/menuju/file_atau_direktori}} /n`
+`find "{{teks}}" {{jalan/menuju/file_atau_direktori}} /n`

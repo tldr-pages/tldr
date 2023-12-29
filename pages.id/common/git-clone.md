@@ -3,10 +3,6 @@
 > Klon repositori yang ada.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-clone>.
 
-- Klon repositori yang ada:
-
-`git clone {{lokasi_repositori_remote}}`
-
 - Klon repositori yang ada ke direktori tertentu:
 
 `git clone {{lokasi_repositori_remote}} {{jalan/menuju/direktori}}`
@@ -17,11 +13,11 @@
 
 - Klon repositori lokal:
 
-`git clone -l {{jalan/menuju/repositori/lokal}}`
+`git clone --local {{jalan/menuju/repositori/lokal}}`
 
 - Klon dengan senyap:
 
-`git clone -q {{lokasi_repositori_remote}}`
+`git clone --quiet {{lokasi_repositori_remote}}`
 
 - Klon repositori yang sudah ada dengan hanya mengambil 10 komit paling baru pada branch bawaan (berguna untuk menghemat waktu):
 

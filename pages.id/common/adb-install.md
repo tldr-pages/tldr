@@ -25,4 +25,4 @@
 
 - Perbarui langsung paket terinstal dengan hanya memperbarui bagian dari APK yang berubah:
 
-`Adb install --fastdeploy {{jalan/menuju/berkas.apk}}`
+`adb install --fastdeploy {{jalan/menuju/berkas.apk}}`

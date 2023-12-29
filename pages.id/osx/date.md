@@ -5,11 +5,11 @@
 
 - Menampilkan tanggal saat ini menggunakan format _locale_:
 
-`date +"%c"`
+`date +%c`
 
 - Menampilkan tanggal saat ini dalam format UTC and ISO 8601:
 
-`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+`date -u +%Y-%m-%dT%H:%M:%SZ`
 
 - Menampilkan tanggal saat ini sebagai _Unix timestamp_ (detik sejak jaman Unix):
 
