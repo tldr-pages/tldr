@@ -1,10 +1,10 @@
 # pw-top
 
-> View the pipewire nodes and devices statistics in real-time.
+> View the PipeWire nodes and devices statistics in real-time.
 > See also: `pipewire`, `pw-dump`, `pw-cli`, `pw-profiler`.
 > More information: <https://docs.pipewire.org/page_man_pw-top_1.html>.
 
-- Display an interactive view of pipewire nodes and devices:
+- Display an interactive view of PipeWire nodes and devices:
 
 `pw-top`
 
