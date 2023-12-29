@@ -13,16 +13,16 @@
 
 - Open a new tab:
 
-`Ctrl+Shift+T`
+`<Ctrl> + <Shift> +T`
 
 - Close the terminal:
 
-`Super+X`
+`<Super> + X`
 
 - Go to the previous tab:
 
-`Ctrl+PageUp`
+`<Ctrl> + <PageUp>`
 
 - Search the selected text in the browser:
 
-`Shift+Ctrl+L`
+`<Shift> + <Ctrl> + L`

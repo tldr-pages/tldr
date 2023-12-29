@@ -17,8 +17,8 @@
 
 - Clear text on both terminal screens:
 
-`Ctrl+D`
+`<Ctrl>+D`
 
 - Exit the talk session:
 
-`Ctrl+C`
+`<Ctrl>+C`
