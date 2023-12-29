@@ -4,7 +4,7 @@
 > Veja também: `pipewire`, `pw-dump`, `pw-cli`, `pw-profiler`.
 > Mais informações: <https://docs.pipewire.org/page_man_pw-top_1.html>.
 
-- Mostra uma visualização interativa de nós e dispositivos pipewire:
+- Mostra uma visualização interativa de nós e dispositivos PipeWire:
 
 `pw-top`
 
