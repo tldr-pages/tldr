@@ -12,7 +12,7 @@
 
 `{{command}} | sed -f {{path/to/script.sed}}`
 
-- Delay opening each file until a command containing the related w function or flag is applied to a line of input:
+- Delay opening each file until a command containing the related `w` function or flag is applied to a line of input:
 
 `{{command}} | sed -fa {{path/to/script.sed}}`
 
