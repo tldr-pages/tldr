@@ -4,11 +4,11 @@
 > See also: `pipewire`, `pw-dump`, `pw-cli`, `pw-profiler`.
 > More information: <https://docs.pipewire.org/page_man_pw-top_1.html>.
 
-- Display an interactive view of pipewire nodes and devices.
+- Display an interactive view of pipewire nodes and devices:
 
 `pw-top`
 
-- Specify a remote instance to monitor:
+- Monitor a remote instance:
 
 `pw-top --remote {{remote_name}}`
 
