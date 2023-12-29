@@ -6,21 +6,14 @@ This file contains a list of the maintainers of the tldr-pages project.
 > Only the people marked with **bold** are currently in the indicated role.
 > The other entries are kept for historical record.
 
-There are three types of maintainers, as described in
-[COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md#when-to-change-roles):
-repository collaborators, organization members, and organization owners
-— each having specific roles in maintaining the project, as outlined below.
+There are three types of maintainers, as described in [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md#when-to-change-roles): repository collaborators, organization members, and organization owners — each having specific roles in maintaining the project, as outlined below.
 
-In general terms, all maintainers are expected to follow the
-[Maintainer's guide](contributing-guides/maintainers-guide.md).
+In general terms, all maintainers are expected to follow the [Maintainer's guide](contributing-guides/maintainers-guide.md).
 
 ## Repository collaborators
 
-Repository collaborators have write access to the tldr repository,
-which allows them to label, edit and close issues/pull requests,
-as well as review and merge pull requests from other contributors.
-If you are an owner of the organization, you can see an automated list
-[here](https://github.com/tldr-pages/tldr/settings/collaboration).
+Repository collaborators have write access to the tldr repository, which allows them to label, edit and close issues/pull requests, as well as review and merge pull requests from other contributors.
+If you are an owner of the organization, you can see an automated list [here](https://github.com/tldr-pages/tldr/settings/collaboration).
 
 - **Jeef ([@jeeftor](https://github.com/jeeftor))**:
   [12 March 2017](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — present
@@ -77,6 +70,7 @@ If you are an owner of the organization, you can see an automated list
 - **Marcher Simon ([@marchersimon](https://github.com/marchersimon))**:
   [9 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722), [20 November 2023](https://github.com/tldr-pages/tldr/issues/11381) — present
 - **Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl))**: [18 December 2023](https://github.com/tldr-pages/tldr/issues/11771) — present
+- **cyqsimon ([@cyqsimon](https://github.com/cyqsimon))**: [28 December 2023](https://github.com/tldr-pages/tldr/issues/11864) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -103,7 +97,7 @@ If you are an owner of the organization, you can see an automated list
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5993) - [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149)
 - Pixel Häußler ([@pixelcmtd](https://github.com/pixelcmtd)):
   [27 August 2021](https://github.com/tldr-pages/tldr/issues/6415) — [16 October 2022](https://github.com/tldr-pages/tldr/pull/9072#issuecomment-1279847932)
-- Emily Grace Seville ([@EmilySeville7cfg](https://github.com/EmilySeville7cfg)):
+- Emily Grace Seville ([@EmilyGraceSeville7cf](https://github.com/EmilyGraceSeville7cf)):
   [19 January 2022](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — [24 April 2022](https://github.com/tldr-pages/tldr/issues/8053)
 - K.B.Dharun Krishna ([@kbdharun](https://github.com/kbdharun)):
   [06 August 2022](https://github.com/tldr-pages/tldr/issues/8309) — [14 December 2022](https://github.com/tldr-pages/tldr/issues/9625)
@@ -118,9 +112,7 @@ If you are an owner of the organization, you can see an automated list
 
 ## Organization members
 
-In addition to everything that repository collaborators can do, organization members
-have write access to all the repositories in the tldr-pages organization,
-and [a few extra maintenance capabilities](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization).
+In addition to everything that repository collaborators can do, organization members have write access to all the repositories in the tldr-pages organization, and [a few extra maintenance capabilities](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization).
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
 - **Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz))**:
@@ -133,8 +125,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5989) — present
 - **Seth Falco ([@SethFalco](https://github.com/SethFalco))**:
   [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149) — present
-- **Lena ([@acuteenvy](https://github.com/acuteenvy))**:
-  [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406) — present
 - **Juri ([@gutjuri](https://github.com/gutjuri))**:
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11201) — present
 - **Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck))**:
@@ -155,7 +145,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [14 June 2021](https://github.com/tldr-pages/tldr/issues/6123) — [14 December 2021](https://github.com/tldr-pages/tldr/issues/7541)
 - Marcher Simon ([@marchersimon](https://github.com/marchersimon)):
   [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722) — [9 August 2022](https://github.com/tldr-pages/tldr/issues/7540)
-- Emily Grace Seville ([@EmilySeville7cfg](https://github.com/EmilySeville7cfg)):
+- Emily Grace Seville ([@EmilyGraceSeville7cf](https://github.com/EmilyGraceSeville7cf)):
   [25 April 2022](https://github.com/tldr-pages/tldr/issues/8053) — [12 January 2022](https://matrix.to/#/!zXiOpjSkFTvtMpsenJ:gitter.im/$n3Jk7mhIzG6edTVUv6MkAoX_1N5z5MPRj2hclyrfKBI)
 - Pixel Häußler ([@pixelcmtd](https://github.com/pixelcmtd)):
   [16 October 2022](https://github.com/tldr-pages/tldr/pull/9072#issuecomment-1279847932) — [10 May 2023](https://github.com/tldr-pages/tldr/pull/10056)
@@ -167,11 +157,12 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [4 January 2023](https://github.com/tldr-pages/tldr/issues/9671) — [7 July 2023](https://github.com/tldr-pages/tldr/issues/10054)
 - Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin)):
   [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473) — [15 November 2023](https://github.com/tldr-pages/tldr/issues/11509)
+- Lena ([@acuteenvy](https://github.com/acuteenvy)):
+  [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406) — [27 December 2023](https://github.com/tldr-pages/tldr/issues/11839)
 
 ## Organization owners
 
-Owners of the tldr-pages organization have admin access to all of its repositories,
-and are responsible for performing role changes in the community.
+Owners of the tldr-pages organization have admin access to all of its repositories, and are responsible for performing role changes in the community.
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
 - **Romain Prieto ([@rprieto](https://github.com/rprieto))**:
@@ -196,6 +187,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [19 June 2023](https://github.com/tldr-pages/tldr/issues/10057) — present
 - **Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson))**:
   [7 July 2023](https://github.com/tldr-pages/tldr/issues/10054) — present
+- **Lena ([@acuteenvy](https://github.com/acuteenvy))**:
+  [27 December 2023](https://github.com/tldr-pages/tldr/issues/11839) — present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
@@ -208,7 +201,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Arvid Gerstmann ([@Leandros](https://github.com/Leandros)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
-- Leandro Ostera ([@ostera](https://github.com/ostera)):
+- Leandro Ostera ([@leostera](https://github.com/leostera)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Waldir Pimenta ([@waldyrious](https://github.com/waldyrious)):
   until [26 August 2018](https://github.com/tldr-pages/tldr/issues/2257)

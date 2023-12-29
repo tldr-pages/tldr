@@ -4,22 +4,22 @@
 > Veja também `xephyr`.
 > Mais informações: <https://github.com/mviereck/x11docker>.
 
-- Iniciar o VLC em um contêiner:
+- Inicia o VLC em um contêiner:
 
 `x11docker --pulseaudio --share={{$HOME/Videos}} {{jess/vlc}}`
 
-- Iniciar o Xfce em uma janela:
+- Inicia o Xfce em uma janela:
 
 `x11docker --desktop {{x11docker/xfce}}`
 
-- Iniciar o GNOME em uma janela:
+- Inicia o GNOME em uma janela:
 
 `x11docker --desktop --gpu --init={{systemd}} {{x11docker/gnome}}`
 
-- Iniciar o KDE Plasma em uma janela:
+- Inicia o KDE Plasma em uma janela:
 
 `x11docker --desktop --gpu --init={{systemd}} {{x11docker/kde-plasma}}`
 
-- Exibir ajuda:
+- Exibe ajuda:
 
 `x11docker --help`

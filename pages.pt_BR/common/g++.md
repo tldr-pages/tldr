@@ -4,7 +4,7 @@
 > Parte do GCC (GNU Compiler Collection).
 > Mais informações: <https://gcc.gnu.org>.
 
-- Compilar um arquivo de código fonte para um binário executável:
+- Compila um arquivo de código fonte para um binário executável:
 
 `g++ {{caminho/para/fonte.cpp}} -o {{caminho/para/executável_de_saída}}`
 
