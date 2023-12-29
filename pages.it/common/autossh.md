@@ -6,7 +6,7 @@
 
 - Apri una sessione SSH, riavviandola quando una porta monitorata smette di rispondere:
 
-`autossh -M {{porta_monitorata}} {{comando_ssh}}`
+`autossh -M {{porta_monitorata}} "{{comando_ssh}}"`
 
 - Apri una sessione ssh che forwarda una porta locale verso una remota, riavviandola se necessario:
 
@@ -14,11 +14,11 @@
 
 - Forka prima di eseguire il comando ssh (si avvia in background) e non aprire una shell remota:
 
-`autossh -f -M {{porta_monitorata}} -N {{comando_ssh}}`
+`autossh -f -M {{porta_monitorata}} -N "{{comando_ssh}}"`
 
 - Esegui autossh in background, senza una porta da monitorare, utilizzando i keep-alive di SSH ogni 10 secondi per rilevare una disconnessione:
 
-`autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" {{comando_ssh}}`
+`autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" "{{comando_ssh}}"`
 
 - Esegui autossh in background, senza una porta da monitorare, senza una shell remota, uscendo se il port forwarding fallisce:
 
