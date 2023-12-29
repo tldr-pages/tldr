@@ -29,4 +29,4 @@
 
 - Install a list of packages from a file (format: packages separated by spaces):
 
-`sudo sport install $(< path/to/list)`
+`sudo sport install $(< {{path/to/list}})`
