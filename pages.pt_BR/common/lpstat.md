@@ -15,6 +15,6 @@
 
 `lpstat -t`
 
-- Mostra uma lista de trabalhos de impressão que foram colocados na fila pelo usuário especificado:
+- Mostra uma lista de trabalhos de impressão que foram colocados na fila por um usuário específico:
 
 `lpstat -u {{usuário}}`
