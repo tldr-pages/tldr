@@ -2,7 +2,7 @@
 
 > CUPS-Programm zum Drucken von Dateien.
 > Siehe auch: `lpstat` und `lpadmin`.
-> Weitere Informationen: <https://www.cups.org/doc/man-lpr.html>.
+> Weitere Informationen: <https://openprinting.github.io/cups/doc/man-lpr.html>.
 
 - Drucke eine Datei mit dem Standarddrucker:
 
