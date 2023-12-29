@@ -12,11 +12,11 @@
 
 `pw-top --remote {{remote_name}}`
 
-- Print information multiple times instead of running in interactive mode:
+- Print information periodically instead of running in interactive mode:
 
 `pw-top --batch-mode`
 
-- Print information a specific number of times:
+- Print information periodically for a specific number of times:
 
 `pw-top --batch-mode --iterations {{3}}`
 
