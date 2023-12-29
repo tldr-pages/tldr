@@ -2,7 +2,7 @@
 
 > Bourne-Again SHell.
 > Interprete da linea di comando compatibile con `sh`.
-> Maggiori informazioni: <https://gnu.org/software/bash/>.
+> Maggiori informazioni: <https://www.gnu.org/software/bash/>.
 
 - Avvia una shell interattiva:
 

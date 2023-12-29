@@ -2,7 +2,7 @@
 
 > Bourne-Again SHell, un interpréteur de ligne de commande compatible avec `sh`.
 > Voir aussi `histexpand` pour l'expansion de l'historique.
-> Plus d'informations : <https://gnu.org/software/bash/>.
+> Plus d'informations : <https://www.gnu.org/software/bash/>.
 
 - Démarre une session shell interactive :
 
