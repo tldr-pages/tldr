@@ -4,13 +4,9 @@
 > 此命令也有關於其子命令的文件，例如：`docker run`.
 > 更多資訊：<https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- 列出目前正在運行的 docker 容器：
-
-`docker ps`
-
 - 列出所有 docker 容器（包括停止的容器）：
 
-`docker ps -a`
+`docker ps --all`
 
 - 透過映像檔啟動容器，並為容器命名：
 
