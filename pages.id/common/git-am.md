@@ -19,4 +19,3 @@
 - Lakukan perubahan-perubahan dari file patch sebisa mungkin, dan tolak file patch jika proses tersebut gagal:
 
 `git am --reject {{jalan/menuju/file.patch}}`
-
