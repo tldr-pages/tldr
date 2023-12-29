@@ -28,9 +28,9 @@
 
 `curl --data {{'{"name":"bob"}'}} --header {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
-- Pass a username and password for server authentication:
+- Pass a username and prompt for a password to authenticate to the server:
 
-`curl --user myusername:mypassword {{http://example.com}}`
+`curl --user {{username}} {{http://example.com}}`
 
 - Pass client certificate and key for a resource, skipping certificate validation:
 

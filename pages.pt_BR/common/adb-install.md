@@ -7,9 +7,17 @@
 
 `adb install {{caminho/para/arquivo.apk}}`
 
+- Instala um app Android em um emulador/dispositivo específico (sobrepõe `$ANDROID_SERIAL`):
+
+`adb -s {{numero_de_serie}} install {{caminho/para/arquivo.apk}}`
+
 - Reinstala um app existente, mantendo seus dados:
 
 `adb install -r {{caminho/para/arquivo.apk}}`
+
+- Instala um app Android permitindo um downgrade de versão de código (apenas pacotes depuráveis):
+
+`adb install -d {{path/to/file.apk}}`
 
 - Concede todas as permissões listadas no manifesto do app:
 
