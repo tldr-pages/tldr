@@ -8,21 +8,13 @@
 
 `rustc {{caminho/para/arquivo.rs}}`
 
-- Compila com alta otimização:
-
-`rustc -O {{caminho/para/arquivo.rs}}`
-
 - Compila com informações de depuração:
 
 `rustc -g {{caminho/para/arquivo.rs}}`
 
 - Compila com otimizações específicas de arquitetura para a CPU atual:
 
-`rustc -C target-cpu=native {{caminho/para/arquivo.rs}}`
-
-- Exibe otimizações específicas de arquitetura para a CPU atual:
-
-`rustc -C target-cpu=native --print cfg`
+`rustc -C target-cpu={{native}} {{caminho/para/arquivo.rs}}`
 
 - Exibe lista de targets:
 

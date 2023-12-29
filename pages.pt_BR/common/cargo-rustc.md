@@ -5,7 +5,7 @@
 
 - Compila o pacote ou pacotes definidos pelo arquivo `Cargo.toml` no diretório de trabalho atual:
 
-`cargo rustc`
+`cargo rustc -- {{rustc_options}}`
 
 - Compila os artefatos em modo de publicação (release), com otimizações:
 

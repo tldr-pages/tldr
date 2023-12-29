@@ -9,27 +9,23 @@
 
 - Executa o comando especificado e sai do interpretador:
 
-`cmd /c "{{comando}}"`
+`cmd /c {{echo Olá Mundo}}`
 
 - Executa o comando especificado e entra no shell interativo:
 
-`cmd /k "{{comando}}"`
+`cmd /k {{echo Olá Mundo}}`
 
 - Desabilita o uso do comando `echo` na saída dos comandos:
 
 `cmd /q`
 
-- Habilita ou desabilita extensão de comandos:
-
-`cmd /e:{{on|off}}`
-
-- Habilita ou desabilita a ferramenta que completa automaticamente o nome de arquivos ou diretórios:
-
-`cmd /f:{{on|off}}`
-
 - Habilita ou desabilita a expansão de variáveis de ambiente:
 
 `cmd /v:{{on|off}}`
+
+- Habilita ou desabilita extensão de comandos:
+
+`cmd /e:{{on|off}}`
 
 - Forçar que a saída de comandos use o padrão Unicode:
 

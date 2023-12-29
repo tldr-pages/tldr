@@ -9,4 +9,4 @@
 
 - Retoma a execução, em segundo plano, de um processo especifico (utilizando `jobs -l` para obter o seu ID):
 
-`bg {{id_processo}}`
+`bg %{{id_processo}}`

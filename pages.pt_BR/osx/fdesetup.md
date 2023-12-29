@@ -13,7 +13,7 @@
 
 - Adiciona usuário habilitado para o FileVault:
 
-`sudo fdesetup add -usertoadd user1`
+`sudo fdesetup add -usertoadd {{user1}}`
 
 - Ativa o FileVault:
 

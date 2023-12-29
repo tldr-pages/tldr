@@ -5,7 +5,7 @@
 
 - Conecta a uma base de dados:
 
-`mongo {{base_de_dados}}`
+`mongo`
 
 - Conecta a uma base de dados em um host e porta específicos:
 
@@ -13,7 +13,7 @@
 
 - Conecta a uma base de dados com um usuário específico, uma senha será pedida ao usuário:
 
-`mongo --username {{usuário}} {{base_de_dados}} --password`
+`mongo --host {{host}} --port {{porta}} --username {{usuário}} --authenticationDatabase {{auth_base_de_dados}} {{base_de_dados}}`
 
 - Avalia JavaScript na base de dados:
 
