@@ -26,8 +26,8 @@
 
 - Salva um arquivo em Emacs:
 
-`Ctrl + X, Ctrl + S`
+`<Ctrl> + X, <Ctrl> + S`
 
 - Deixa o Emacs:
 
-`Ctrl + X, Ctrl + C`
+`<Ctrl> + X, <Ctrl> + C`

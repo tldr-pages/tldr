@@ -10,7 +10,7 @@
 
 - Bewege den Cursor zum linken|rechten Fenster:
 
-`Ctrl + w {{h|l}}`
+`<Ctrl> + w {{h|l}}`
 
 - Springe zum vorigen Unterschied:
 
