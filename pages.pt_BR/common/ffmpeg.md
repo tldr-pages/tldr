@@ -7,10 +7,6 @@
 
 `ffmpeg -i {{caminho/para/vídeo.mp4}} -vn {{caminho/para/som}}.mp3`
 
-- Converte quadros de um vídeo ou GIF para imagens numeradas individuais:
-
-`ffmpeg -i {{vídeo|gif}} {{quadro_%d.png}}`
-
 - Combina imagens numeradas (`quadro_1.jpg`, `quadro_2.jpg`, etc) em um vídeo ou GIF:
 
 `ffmpeg -i {{caminho/para/quadro_%d.jpg}} -f image2 {{vídeo|gif}}`

@@ -15,10 +15,6 @@
 
 `docker compose up --build`
 
-- Inicia todos os containers que estão usando um arquivo compose alternativo:
-
-`docker compose --file {{caminho/para/arquivo}} up`
-
 - Encerra todos os containers em execução:
 
 `docker compose stop`
