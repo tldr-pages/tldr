@@ -8,9 +8,9 @@
 
 `Set-Location {{jalan\menuju\direktori}}`
 
-- Pergi menuju direktori tertentu pada [d]rive yang berbeda:
+- Pergi menuju direktori tertentu pada drive yang berbeda:
 
-`Set-Location /d {{C}}:{{jalan\menuju\direktori}}`
+`Set-Location {{C}}:{{jalan\menuju\direktori}}`
 
 - Pergi dan tampilkan lokasi lengkap (absolute path) atas direktori yang dituju:
 

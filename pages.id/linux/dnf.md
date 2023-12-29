@@ -9,23 +9,19 @@
 
 - Mencari paket yang tersedia dengan kata kunci tertentu:
 
-`dnf search {{kata_kunci}}`
+`dnf search {{kata_kunci1 kata_kunci2 ...}}`
 
 - Memperlihatkan informasi tentang suatu paket:
 
-`dnf info {{nama_paket}}`
+`dnf info {{paket}}`
 
-- Menginstal sebuah paket:
+- Menginstal sebuah paket (gunakan `-y` jawab untuk ya semua pertanyaan):
 
-`sudo dnf install {{nama_paket}}`
-
-- Menginstal sebuah paket dan jawab ya untuk semua pertanyaan:
-
-`sudo dnf -y install {{nama_paket}}`
+`sudo dnf install {{paket1 paket2 ...}}`
 
 - Menghapus sebuah paket:
 
-`sudo dnf remove {{nama_paket}}`
+`sudo dnf remove {{paket1 paket2 ...}}`
 
 - Memperlihatkan daftar semua paket yang telah terpasang:
 
