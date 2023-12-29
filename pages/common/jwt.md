@@ -18,4 +18,4 @@
 
 - Encode key pair payload to JWT:
 
-`jwt encode --alg {{HS256}} --secret {{1234567890}} -P key=value`
+`jwt encode --alg {{HS256}} --secret {{1234567890}} -P {{key=value}}`
