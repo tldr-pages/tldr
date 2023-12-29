@@ -8,7 +8,7 @@
 
 `pw-top`
 
-- Monitora uma instância remota:=
+- Monitora uma instância remota:
 
 `pw-top --remote {{nome_do_remoto}}`
 
