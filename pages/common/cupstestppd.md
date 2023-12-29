@@ -8,11 +8,11 @@
 
 - Test the conformance of one or more files in quiet mode:
 
-`cupstestppd -q {path/to/file1.ppd path/to/file2.ppd ...}`
+`cupstestppd -q {{path/to/file1.ppd path/to/file2.ppd ...}}`
 
 - Get the PPD file from `stdin`, showing detailed conformance testing results:
 
-`cupstestppd -v - < path/to/file.ppd`
+`cupstestppd -v - < {{path/to/file.ppd}}`
 
 - Test all PPD files under the current directory, printing the names of each file that does not conform:
 
