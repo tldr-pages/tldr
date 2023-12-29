@@ -31,6 +31,6 @@
 
 `youtube-dl --sub-lang {{en}} --write-sub '{{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}'`
 
-- Pobierz playlisty i wyodrębnij z niej pliki MP3:
+- Pobierz playlistę i wyodrębnij z niej pliki MP3:
 
 `youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '{{adres_url_playlisty}}'`

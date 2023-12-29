@@ -1,16 +1,16 @@
 # vim
 
 > Vim (Vi IMproved), edytor tekstu wiersza polecenia, oferuje kilka trybów dla różnych rodzajów manipulacji tekstem.
-> Naciśnięcie przycisku `i` powoduje przejście do trybu edycji. `<Esc>` wraca do normalnego trybu, który nie pozwala na zwykłe wstawianie tekstu.
+> Naciśnięcie `i` powoduje przejście do trybu edycji. `<Esc>` wraca do normalnego trybu, który pozwala na używanie komend.
 > Więcej informacji: <https://www.vim.org>.
 
 - Otwórz plik:
 
-`vim {{sciezka/do/plik}}`
+`vim {{scieżka/do/pliku}}`
 
 - Otwórz plik pod określonym numerem wiersza:
 
-`vim +{{numer_linii}} {{sciezka/do/plik}}`
+`vim +{{numer_linii}} {{scieżka/do/pliku}}`
 
 - Zobacz instrukcję pomocy Vim:
 
@@ -31,3 +31,7 @@
 - Wykonaj podstawienie wyrażenia regularnego w całym pliku:
 
 `:%s/{{wzorzec}}/{{zastąpienie}}/g<Enter>`
+
+- Wyświetlaj numery linii:
+
+`:set nu<Enter>`
