@@ -15,7 +15,7 @@ The overall process should look somewhat like this:
   `git checkout -b {{branch_name}}`
 
 > [!WARNING]
-  > It is bad practice to submit a PR from the `main` branch of your forked repository. Please create pull requests from a well-named feature branch.
+> It is bad practice to submit a PR from the `main` branch of your forked repository. Please create pull requests from a well-named feature branch.
 
 4. Make your changes (edit existing files or create new ones)
 
@@ -40,7 +40,7 @@ Typically a pull request will include changes in a single file **unless the pull
 
 # Updating your fork
 
-Forks of GitHub repositories aren't updated automatically. You should update your fork regularly to keep your fork up-to-date with the latest changes and avoid merge conflicts.
+Forks of GitHub repositories aren't updated automatically. You should update your fork regularly to keep it up-to-date with the latest changes and avoid merge conflicts.
 
 There are two ways to update your fork.
 
