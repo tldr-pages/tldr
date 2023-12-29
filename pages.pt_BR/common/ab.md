@@ -11,6 +11,10 @@
 
 `ab -n {{100}} -c {{10}} {{url}}`
 
+- Executa 100 requisições HTTP do tipo POST para uma determinada URL, usando um payload JSON de um arquivo:
+
+`ab -n {{100}} -T {{application/json}} -p {{caminho/para/arquivo.json}} {{url}}`
+
 - Utiliza a funcionalidade HTTP Keep Alive, permitindo que várias requisições sejam feitas em uma sessão HTTP:
 
 `ab -k {{url}}`
@@ -18,3 +22,7 @@
 - Define o tempo total do benchmarking, em segundos:
 
 `ab -t {{60}} {{url}}`
+
+- Escreve os resultados em um arquivo CSV:
+
+`ab -e {{caminho/para/arquivo.csv}}`
