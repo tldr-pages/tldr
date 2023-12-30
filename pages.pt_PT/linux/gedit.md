@@ -17,4 +17,4 @@
 
 - Abre um ficheiro de texto com uma formatação específica:
 
-`gedit --encoding={{encoding}} {{ficheiro}}`
+`gedit --encoding {{encoding}} {{ficheiro}}`

@@ -18,11 +18,11 @@
 
 - Limit search to files of a specific type:
 
-`ack --type={{ruby}} "{{search_pattern}}"`
+`ack --type {{ruby}} "{{search_pattern}}"`
 
 - Do not search in files of a specific type:
 
-`ack --type=no{{ruby}} "{{search_pattern}}"`
+`ack --type no{{ruby}} "{{search_pattern}}"`
 
 - Count the total number of matches found:
 

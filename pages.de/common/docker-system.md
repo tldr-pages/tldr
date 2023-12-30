@@ -21,7 +21,7 @@
 
 - Entferne nicht-verwendete Daten, die älter als die angegebene Zeit sind:
 
-`docker system prune --filter="until={{stunden}}h{{minuten}}m"`
+`docker system prune --filter "until={{stunden}}h{{minuten}}m"`
 
 - Zeige Echtzeit-Events vom Docker Daemon:
 

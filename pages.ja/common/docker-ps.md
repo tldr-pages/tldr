@@ -17,7 +17,7 @@
 
 - コンテナ名に指定の部分文字列を含むコンテナのみになるようにフィルタリングする:
 
-`docker ps --filter="name={{コンテナ名}}"`
+`docker ps --filter "name={{コンテナ名}}"`
 
 - 指定したイメージを原型(ancestor)として共有するコンテナのみになるようにフィルタリングする:
 
@@ -25,12 +25,12 @@
 
 - 終了コードでコンテナをフィルタリングする:
 
-`docker ps --all --filter="exited={{コード}}"`
+`docker ps --all --filter "exited={{コード}}"`
 
 - 以下のいずれかのステータスでフィルタリングする(created, running, removing, paused, exited, dead):
 
-`docker ps --filter="status={{ステータス}}"`
+`docker ps --filter "status={{ステータス}}"`
 
 - 特定のボリュームをマウントしている、または特定のパスにボリュームがマウントされているコンテナをフィルタリングする:
 
-`docker ps --filter="volume={{ディレクトリパス}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker ps --filter "volume={{ディレクトリパス}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`

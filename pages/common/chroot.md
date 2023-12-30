@@ -9,4 +9,4 @@
 
 - Specify user and group (ID or name) to use:
 
-`chroot --userspec={{user:group}}`
+`chroot --userspec {{user:group}}`

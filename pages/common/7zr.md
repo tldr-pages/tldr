@@ -10,7 +10,7 @@
 
 - Encrypt an existing archive (including file names):
 
-`7zr a {{path/to/encrypted.7z}} -p{{password}} -mhe={{on}} {{path/to/archive.7z}}`
+`7zr a {{path/to/encrypted.7z}} -p {{password}} -mhe {{on}} {{path/to/archive.7z}}`
 
 - E[x]tract an archive preserving the original directory structure:
 
@@ -18,7 +18,7 @@
 
 - E[x]tract an archive to a specific directory:
 
-`7zr x {{path/to/archive.7z}} -o{{path/to/output}}`
+`7zr x {{path/to/archive.7z}} -o {{path/to/output}}`
 
 - E[x]tract an archive to `stdout`:
 
@@ -30,4 +30,4 @@
 
 - Set the level of compression (higher means more compression, but slower):
 
-`7zr a {{path/to/archive.7z}} -mx={{0|1|3|5|7|9}} {{path/to/file_or_directory}}`
+`7zr a {{path/to/archive.7z}} -mx {{0|1|3|5|7|9}} {{path/to/file_or_directory}}`

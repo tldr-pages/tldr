@@ -14,7 +14,7 @@
 
 - Check a given file, specifying which tests to perform (by default only errors are shown):
 
-`cppcheck --enable={{error|warning|style|performance|portability|information|all}} {{path/to/file.cpp}}`
+`cppcheck --enable {{error|warning|style|performance|portability|information|all}} {{path/to/file.cpp}}`
 
 - List available tests:
 
@@ -22,7 +22,7 @@
 
 - Check a given file, ignoring specific tests:
 
-`cppcheck --suppress={{test_id1}} --suppress={{test_id2}} {{path/to/file.cpp}}`
+`cppcheck --suppress {{test_id1}} --suppress {{test_id2}} {{path/to/file.cpp}}`
 
 - Check the current directory, providing paths for include files located outside it (e.g. external libraries):
 
@@ -30,4 +30,4 @@
 
 - Check a Microsoft Visual Studio project (`*.vcxproj`) or solution (`*.sln`):
 
-`cppcheck --project={{path/to/project.sln}}`
+`cppcheck --project {{path/to/project.sln}}`

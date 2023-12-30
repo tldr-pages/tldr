@@ -22,4 +22,4 @@
 
 - Configure the Azure DevOps CLI behavior by setting a default project and a default organization:
 
-`az devops configure --defaults project={{project_name}} organization={{organization_url}}`
+`az devops configure --defaults project {{project_name}} organization {{organization_url}}`

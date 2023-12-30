@@ -17,7 +17,7 @@
 
 - Öffne eine URL im Anwendungsmodus (ohne Symbolleisten, Suchleiste, Schaltflächen usw.):
 
-`chromium --app={{https://beispiel.com}}`
+`chromium --app {{https://beispiel.com}}`
 
 - Öffne eine URL und verwende einen Proxy-Server:
 
@@ -25,11 +25,11 @@
 
 - Öffne Chromium mit einem eigenen Profil-Verzeichnis:
 
-`chromium --user-data-dir={{pfad/zu/verzeichnis}}`
+`chromium --user-data-dir {{pfad/zu/verzeichnis}}`
 
 - Öffne Chromium ohne CORS-Verifizierung (nützlich, um eine API zu testen):
 
-`chromium --user-data-dir={{pfad/zu/verzeichnis}} --disable-web-security`
+`chromium --user-data-dir {{pfad/zu/verzeichnis}} --disable-web-security`
 
 - Öffne Chromium mit einem `DevTools`-Fenster für jeden geöffneten Tab:
 

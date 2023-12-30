@@ -21,7 +21,7 @@
 
 - Run the profiler and collect 10 samples:
 
-`blackfire --samples={{10}} run {{php path/to/file.php}}`
+`blackfire --samples {{10}} run {{php path/to/file.php}}`
 
 - Run the profiler and output results as JSON:
 

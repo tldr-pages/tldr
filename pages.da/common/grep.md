@@ -13,7 +13,7 @@
 
 - Søg efter et mønster i alle filer, pånær binære, rekursivt i en mappe. Vis linjenumre der matcher til mønstret:
 
-`grep --recursive --line-number --binary-files={{without-match}} "{{søgemønster}}" {{sti/til/mappe}}`
+`grep --recursive --line-number --binary-files {{without-match}} "{{søgemønster}}" {{sti/til/mappe}}`
 
 - Brug udvidede regulære udtryk (understøtter `?`, `+`, `{}`, `()` og `|`), i case-insensitive modus:
 
@@ -21,7 +21,7 @@
 
 - Print 3 linjer af kontekst omkring, før eller efter hvert match:
 
-`grep --{{context|before-context|after-context}}={{3}} "{{søgemønster}}" {{sti/til/fil}}`
+`grep --{{context|before-context|after-context}} {{3}} "{{søgemønster}}" {{sti/til/fil}}`
 
 - Print, filnavn og linjenummer for hvert match, med farveoutput:
 

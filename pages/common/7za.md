@@ -10,7 +10,7 @@
 
 - Encrypt an existing archive (including file names):
 
-`7za a {{path/to/encrypted.7z}} -p{{password}} -mhe={{on}} {{path/to/archive.7z}}`
+`7za a {{path/to/encrypted.7z}} -p{{password}} -mhe {{on}} {{path/to/archive.7z}}`
 
 - E[x]tract an archive preserving the original directory structure:
 
@@ -34,4 +34,4 @@
 
 - Set the level of compression (higher means more compression, but slower):
 
-`7za a {{path/to/archive.7z}} -mx={{0|1|3|5|7|9}} {{path/to/file_or_directory}}`
+`7za a {{path/to/archive.7z}} -mx {{0|1|3|5|7|9}} {{path/to/file_or_directory}}`

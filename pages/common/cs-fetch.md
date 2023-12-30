@@ -21,7 +21,7 @@
 
 - Fetch dependency with javadoc jars and source jars:
 
-`cs fetch --default={{true}} --sources --javadoc {{group_id}}:{{artifact_id}}:{{artifact_version}}`
+`cs fetch --default {{true}} --sources --javadoc {{group_id}}:{{artifact_id}}:{{artifact_version}}`
 
 - Fetch jars coming from dependency files:
 

@@ -17,7 +17,7 @@
 
 - Open in application mode (without toolbars, URL bar, buttons, etc.):
 
-`chromium --app={{https://example.com}}`
+`chromium --app {{https://example.com}}`
 
 - Use a proxy server:
 
@@ -25,11 +25,11 @@
 
 - Open with a custom profile directory:
 
-`chromium --user-data-dir={{path/to/directory}}`
+`chromium --user-data-dir {{path/to/directory}}`
 
 - Open without CORS validation (useful to test an API):
 
-`chromium --user-data-dir={{path/to/directory}} --disable-web-security`
+`chromium --user-data-dir {{path/to/directory}} --disable-web-security`
 
 - Open with a DevTools window for each tab opened:
 
