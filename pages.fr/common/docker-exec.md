@@ -13,7 +13,7 @@
 
 - Sélectionner le répertoire de travail pour une commande donnée à exécuter :
 
-`docker exec --interactive -tty --workdir {{chemin/vers/le/répertoire}} {{nom_du_conteneur}} {{commande}}`
+`docker exec --interactive --tty --workdir {{chemin/vers/le/répertoire}} {{nom_du_conteneur}} {{commande}}`
 
 - Exécuter une commande en arrière-plan sur un conteneur existant mais garder `stdin` ouvert :
 
