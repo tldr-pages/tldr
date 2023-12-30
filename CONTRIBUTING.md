@@ -85,6 +85,14 @@ Other examples but not limited to of our placeholder syntax are:
 - `{{path/to/directory}}`
 - `{{path/to/directory1 path/to/directory2 ...}}`
 
+However, if the description doesn't suggest that the user can choose the value, leave it as part of the command, and NOT as a placeholder, for example:
+
+```md
+- Display records more recent than 3 days:
+
+`lastlog --time 3`
+```
+
 For more detailed formatting guidelines,
 refer to the [style guide](contributing-guides/style-guide.md).
 
