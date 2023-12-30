@@ -7,10 +7,6 @@
 
 `mkdir {{direktorijum}}`
 
-- Kreira više direktorijuma u trenutnom direktorijumu:
-
-`mkdir {{direktorijum_1 direktorijum_2 ...}}`
-
 - Kreira direktorijum koristeći rekurziju:
 
-`mkdir -p {{putanja/do/direktorijuma}}`
+`mkdir -p {{putanja/do/direktorijuma1 putanja/do/direktorijuma2 ...}}`
