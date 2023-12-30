@@ -13,11 +13,11 @@
 
 - Compress a file using lzma:
 
-`xz --format={{lzma}} {{path/to/file}}`
+`xz --format=lzma {{path/to/file}}`
 
 - Decompress an lzma file:
 
-`xz --decompress --format={{lzma}} {{path/to/file.lzma}}`
+`xz --decompress --format=lzma {{path/to/file.lzma}}`
 
 - Decompress a file and write to `stdout` (implies `--keep`):
 
