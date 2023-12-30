@@ -4,7 +4,7 @@
 > See also: `xprop`, `xkill`.
 > More information: <https://www.x.org/releases/current/doc/man/man1/xwininfo.1.xhtml>.
 
-- Display a cursor to select a window to display its attributes (id, name, size, position...):
+- Display a cursor to select a window to display its attributes (id, name, size, position, ...):
 
 `xwininfo`
 
@@ -12,7 +12,7 @@
 
 `xwininfo -tree -root`
 
-- Display the attributes of a window with a specific id:
+- Display the attributes of a window with a specific ID:
 
 `xwininfo -id {{id}}`
 
@@ -20,6 +20,6 @@
 
 `xwininfo -name {{name}}`
 
-- Display the id of a window searching by name:
+- Display the ID of a window searching by name:
 
 `xwininfo -tree -root | grep {{keyword}} | head -1 | perl -ne 'print $1 if /(0x[\da-f]+)/ig;'`
