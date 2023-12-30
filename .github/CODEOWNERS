@@ -14,7 +14,7 @@
 /pages.zh/ @blueskyson @einverne
 /pages.zh_TW/ @blueskyson
 
-/pages/linux/ @sbrl @cyqsimon
+/pages/linux/ @cyqsimon
 
 /*.md @sbrl @kbdharun
 /.github/workflows/* @sbrl @kbdharun @sebastiaanspeck
