@@ -25,7 +25,7 @@
 
 - Sai da sessão atual (com o prefixo Ctrl-B):
 
-`Ctrl-B d`
+`<Ctrl>-B d`
 
 - Elimina uma sessão com nome:
 
@@ -33,4 +33,4 @@
 
 - Elimina a sessão atual (com o prefixo Ctrl-B):
 
-`Ctrl-B :kill-session<Enter>`
+`<Ctrl>-B :kill-session<Enter>`

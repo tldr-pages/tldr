@@ -26,7 +26,7 @@
 
 - Attiva/disattiva un'interfaccia:
 
-`ip link set {{interfaccia}} up/down`
+`ip link set {{interfaccia}} {{up|down}}`
 
 - Aggiungi/elimina un indirizzo IP a/da un'interfaccia:
 

@@ -23,7 +23,7 @@
 
 - Enter normal mode and undo the last operation:
 
-`<ESC>u`
+`<Esc>u`
 
 - Search for a pattern in the file (press `n`/`N` to go to next/previous match):
 

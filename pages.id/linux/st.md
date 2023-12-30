@@ -17,8 +17,8 @@
 
 - Membesarkan/mengecilkan ukuran font:
 
-`Ctrl + Shift + {{Page Up|Page Down}}`
+`<Ctrl> + <Shift> + {{Page Up|Page Down}}`
 
 - Copy/paste dari clipboard:
 
-`Ctrl + Shift + {{C|V}}`
+`<Ctrl> + <Shift> + {{C|V}}`

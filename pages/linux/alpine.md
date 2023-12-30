@@ -14,4 +14,4 @@
 
 - Quit alpine:
 
-`'q' then 'y'`
+`q + y`

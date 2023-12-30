@@ -2,7 +2,7 @@
 
 > Cancela trabalhos de impressão na fila de um servidor.
 > Veja também: `lpq`.
-> Mais informações: <https://www.cups.org/doc/man-lprm.html>.
+> Mais informações: <https://openprinting.github.io/cups/doc/man-lprm.html>.
 
 - Cancela o trabalho atual na impressora padrão:
 

@@ -5,12 +5,12 @@
 
 - Controlla il filesystem `/dev/sdX`, riportando eventuali blocchi danneggiati:
 
-`fsck {{/dev/sdX}}`
+`sudo fsck {{/dev/sdX}}`
 
 - Controlla il filesystem `/dev/sdX`, riportando eventuali blocchi danneggiati e per ognuno consente all'utente di scegliere interattivamente se ripararlo:
 
-`fsck -r {{/dev/sdX}}`
+`sudo fsck -r {{/dev/sdX}}`
 
 - Controlla il filesystem `/dev/sdX`, riportando eventuali blocchi danneggiati e riparandoli automaticamente:
 
-`fsck -a {{/dev/sdX}}`
+`sudo fsck -a {{/dev/sdX}}`
