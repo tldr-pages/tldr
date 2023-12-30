@@ -1,4 +1,4 @@
-# cortar
+# cut
 
 > Corta campos de `stdin` o archivos.
 > Más información: <https://www.gnu.org/software/coreutils/cut>.
