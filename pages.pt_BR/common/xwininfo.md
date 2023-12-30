@@ -16,6 +16,10 @@
 
 `xwininfo -id {{id}}`
 
+- Mostra os atributos de uma janela com um nome específico:
+
+`xwininfo -name {{nome}}`
+
 - Mostra o id de uma janela buscando pelo nome:
 
 `xwininfo -tree -root | grep {{palavra_chave}} | head -1 | perl -ne 'print $1 if /(0x[\da-f]+)/ig;'`
