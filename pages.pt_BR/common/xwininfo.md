@@ -4,7 +4,7 @@
 > Veja também: `xprop`, `xkill`.
 > Mais informações: <https://www.x.org/releases/current/doc/man/man1/xwininfo.1.xhtml>.
 
-- Mostra um cursor para selecionar uma janela para mostrar seus atributos (id, nome, tamanho, posição...):
+- Mostra um cursor para selecionar uma janela para mostrar seus atributos (ID, nome, tamanho, posição...):
 
 `xwininfo`
 
@@ -12,7 +12,7 @@
 
 `xwininfo -tree -root`
 
-- Mostra os atributos de uma janela com um id específico:
+- Mostra os atributos de uma janela com um ID específico:
 
 `xwininfo -id {{id}}`
 
@@ -20,6 +20,6 @@
 
 `xwininfo -name {{nome}}`
 
-- Mostra o id de uma janela buscando pelo nome:
+- Mostra o ID de uma janela buscando pelo nome:
 
 `xwininfo -tree -root | grep {{palavra_chave}} | head -1 | perl -ne 'print $1 if /(0x[\da-f]+)/ig;'`
