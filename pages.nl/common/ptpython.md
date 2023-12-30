@@ -29,4 +29,4 @@
 
 - Sluit af:
 
-`Ctrl + D`
+`<Ctrl> + D`

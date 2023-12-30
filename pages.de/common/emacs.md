@@ -26,8 +26,8 @@
 
 - Tastenkombination zum Speichern einer Datei:
 
-`Ctrl + X, Ctrl + S`
+`<Ctrl> + X, <Ctrl> + S`
 
 - Tastenkombination zum Beenden von Emacs:
 
-`Ctrl + X, Ctrl + C`
+`<Ctrl> + X, <Ctrl> + C`

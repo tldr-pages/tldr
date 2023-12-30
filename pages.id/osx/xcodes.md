@@ -25,4 +25,4 @@
 
 - Unduh Xcode versi tertentu ke sebuah direktori tanpa memasangnya ke dalam perangkat:
 
-`xcodes-download {{versi_xcode}} --directory {{jalan/menuju/direktori}}`
+`xcodes download {{versi_xcode}} --directory {{jalan/menuju/direktori}}`

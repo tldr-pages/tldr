@@ -18,7 +18,7 @@
 
 - Kirim data dalam format JSON, Menentukan jenis konten yang sesuai header:
 
-`Invoke-WebRequest -Body {{'{"name":"bob"}'}}  -ContentType 'application/json' {{http://example.com/users/1234}}`
+`Invoke-WebRequest -Body {{'{"name":"bob"}'}} -ContentType 'application/json' {{http://example.com/users/1234}}`
 
 - Berikan nama pengguna dan kata sandi untuk otentikasi server:
 

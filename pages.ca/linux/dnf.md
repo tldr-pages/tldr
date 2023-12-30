@@ -9,7 +9,7 @@
 
 - Busca un paquet fent servir paraules clau:
 
-`dnf search {{palabra_clau}}`
+`dnf search {{palabra_clau1 palabra_clau2 ...}}`
 
 - Mostra informació sobre un paquet:
 
@@ -17,15 +17,11 @@
 
 - Instal·la un nou paquet:
 
-`sudo dnf install {{paquet}}`
-
-- Instal·la un nou paquet responent si a totes les preguntes:
-
-`sudo dnf install -y {{paquet}}`
+`sudo dnf install {{paquet1 paquet2 ...}}`
 
 - Desinstal·la un paquet:
 
-`sudo dnf remove {{paquet}}`
+`sudo dnf remove {{paquet1 paquet2 ...}}`
 
 - Llista tots els paquets instal·lats:
 

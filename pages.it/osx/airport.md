@@ -5,7 +5,7 @@
 
 - Mostra le informazioni relative allo stato attuale delle connessioni senza fili:
 
-`airport -I`
+`airport --getinfo`
 
 - Intercetta il traffico delle connessioni senza fili sul primo canale:
 
@@ -13,8 +13,8 @@
 
 - Ricerca le reti senza fili disponibili:
 
-`airport -s`
+`airport --scan`
 
 - Disassocia dalla rete airport corrente:
 
-`sudo airport -z`
+`sudo airport --disassociate`
