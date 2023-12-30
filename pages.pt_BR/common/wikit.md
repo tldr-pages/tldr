@@ -2,6 +2,7 @@
 
 > Um programa de linha de comando para obter resumos da Wikipédia facilmente.
 > Mais informações: <https://github.com/KorySchneider/wikit>.
+
 - Mostra um pequeno resumo de um tópico específico da Wikipédia:
 
 `wikit {{tópico}}`
