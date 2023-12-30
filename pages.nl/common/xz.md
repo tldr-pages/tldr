@@ -15,7 +15,7 @@
 
 `xz --format=lzma {{pad/naar/bestand}}`
 
-- Decomprimer een lzm bestand:
+- Decomprimer een lzma bestand:
 
 `xz --decompress --format=lzma {{pad/naar/bestand.lzma}}`
 
