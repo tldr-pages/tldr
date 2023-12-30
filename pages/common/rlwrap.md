@@ -1,9 +1,9 @@
 # rlwrap
 
-> Add line editing, persistent history and prompt completion to an REPL command.
+> Add line editing, persistent history and prompt completion to a REPL command.
 > More information: <https://github.com/hanslub42/rlwrap>.
 
-- Run an REPL command with line editing, persistent history and prompt completion:
+- Run a REPL command with line editing, persistent history and prompt completion:
 
 `rlwrap {{command}}`
 
