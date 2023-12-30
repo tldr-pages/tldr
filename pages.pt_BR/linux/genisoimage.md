@@ -9,4 +9,4 @@
 
 - Cria uma imagem ISO com arquivos maiores que 2GiB, relatando um tamanho aparente menor para o sistema de arquivos ISO9660:
 
-`genisoimage -o -allow-limited-size {{minhaimagem.iso}} {{caminho/para/diretório_origem}}`
+`genisoimage -o -allow-limited-size {{minha_imagem.iso}} {{caminho/para/diretório_origem}}`
