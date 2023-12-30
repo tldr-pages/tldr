@@ -21,8 +21,8 @@
 
 - Overwrite a file and remove it:
 
-`shred -u {{path/to/file}}`
+`shred --remove {{path/to/file}}`
 
-- Overwrite a file 100 times, add a final overwrite with zeros, remove the file after overwriting it and show progress on the screen:
+- Overwrite a file 100 times, add a final overwrite with [z]eros, remove the file after overwriting it and show [v]erbose progress on the screen:
 
-`shred -vzun100 {{path/to/file}}`
+`shred -vzun 100 {{path/to/file}}`
