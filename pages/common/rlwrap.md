@@ -19,6 +19,6 @@
 
 `rlwrap --complete-filenames {{command}}`
 
-- Add coloured prompts - one of *black*, *red*, *green*, *yellow*, *blue*, *cyan*, *purple (=magenta)* or *white*, or an ANSI-conformant `colour_spec`. An uppercase colour name (Yellow or YELLOW) gives a bold prompt:
+- Color prompts: black | red | green | yellow | blue | cyan | purple (=magenta) | white | `colour_spec`. Uppercase colour (Yellow | YELLOW) means bold prompt:
 
 `rlwrap --prompt-colour {{colour}} {{command}}`
