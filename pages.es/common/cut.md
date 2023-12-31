@@ -5,7 +5,7 @@
 
 - Imprime un rango específico de caracteres/campos de cada línea:
 
-`{{comando}} | cut --{{caracteres|campos}}={{1|1,10|1-10|1-|-10}}`
+`{{comando}} | cut --{{characters|field}}={{1|1,10|1-10|1-|-10}}`
 
 - Imprime un rango de cada línea con un delimitador específico:
 
