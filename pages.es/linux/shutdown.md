@@ -19,6 +19,6 @@
 
 `shutdown -h 13:00`
 
-- c]ancela una operación pendiente de apagado/reinicio:
+- [c]ancela una operación pendiente de apagado/reinicio:
 
 `shutdown -c`
