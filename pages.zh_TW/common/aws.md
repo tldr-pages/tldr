@@ -30,7 +30,7 @@
 
 - 取得 AWS 互動式精靈：
 
-`aws {{指令}} wizard {{精靈名稱}}`
+`aws dynamodb wizard {{精靈名稱}}`
 
 - 產生 JSON CLI 骨架（對於基礎設施即程式碼有用）：
 
