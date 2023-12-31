@@ -25,4 +25,4 @@
 
 - 2대의 머신을 사용하고, Accelerate로 다중 GPU에서 모델을 실행:
 
-`accelerate launch {{경로/대상/스크립트.py}} --multi_gpu --num_machines {{2}}`
+`accelerate launch {{경로/대상/스크립트.py}} --multi_gpu --num_machines 2`
