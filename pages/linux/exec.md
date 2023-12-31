@@ -1,6 +1,6 @@
 # exec
 
-> Replace the current process with another process.
+> Execute a command without creating a child process.
 > More information: <https://linuxcommand.org/lc3_man_pages/exech.html>.
 
 - Replace with the specified command using the current environment variables:

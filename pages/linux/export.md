@@ -1,6 +1,6 @@
 # export
 
-> Command to mark shell variables in the current environment to be exported with any newly forked child processes.
+> Export shell variables to new processes.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-export>.
 
 - Set a new environment variable:
