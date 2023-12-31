@@ -5,15 +5,15 @@
 
 - Esegui 100 richieste HTTP GET ad un dato URL:
 
-`ab -n {{100}} {{url}}`
+`ab -n 100 {{url}}`
 
 - Esegui 100 richieste HTTP GET ad un dato URL, processandone fino a 10 contemporaneamente:
 
-`ab -n {{100}} -c {{10}} {{url}}`
+`ab -n 100 -c 10 {{url}}`
 
 - Esegui 100 richieste HTTP POST a un dato URL, utilizzando un payload JSON tramite file:
 
-`ab -n {{100}} -T {{application/json}} -p {{percorso/del/file.json}} {{url}}`
+`ab -n 100 -T {{application/json}} -p {{percorso/del/file.json}} {{url}}`
 
 - Usa HTTP [K]eep Alive, ovvero esegui richieste multiple in una stessa sessione HTTP:
 
