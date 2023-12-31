@@ -3,7 +3,7 @@
 > Set read-only shell variables.
 > More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#readonly>.
 
-- Create a read-only variable:
+- Set a read-only variable:
 
 `readonly {{variable_name}}={{value}}`
 

@@ -3,14 +3,14 @@
 > Execute a command upon an event.
 > More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#trap>.
 
-- List active traps for the current shell:
+- List the commands and the names of the expected events:
 
 `trap`
 
-- Set a trap to execute commands when one or more signals are detected:
+- Execute a command when a signal is received:
 
 `trap 'echo "Caught signal {{SIGHUP}}"' {{SIGHUP}}`
 
-- Remove active traps:
+- Remove commands:
 
 `trap - {{SIGHUP}} {{SIGINT}}`

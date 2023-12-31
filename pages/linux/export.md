@@ -3,18 +3,18 @@
 > Export shell variables to new processes.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-export>.
 
-- Set a new environment variable:
+- Set an environment variable:
 
 `export {{VARIABLE}}={{value}}`
 
-- Remove an environment variable:
+- Unset an environment variable:
 
 `export -n {{VARIABLE}}`
 
-- Mark a shell function for export:
+- Export a function to new processes:
 
 `export -f {{FUNCTION_NAME}}`
 
-- Append something to the PATH variable:
+- Append a pathname to the environment variable `PATH`:
 
 `export PATH=$PATH:{{path/to/append}}`

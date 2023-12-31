@@ -3,10 +3,10 @@
 > Move positional parameters.
 > More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#shift>.
 
-- Move arguments by one place dropping the first argument:
+- Remove the first positional parameter:
 
 `shift`
 
-- Move arguments by N places dropping the first N arguments:
+- Remove the first `N` positional parameters:
 
 `shift {{N}}`
