@@ -1,7 +1,7 @@
 # trap
 
 > Execute a command upon an event.
-> More information: <https://manned.org/trap>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-trap>.
 
 - List the available event names (e.g. `SIGWINCH`):
 

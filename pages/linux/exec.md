@@ -1,7 +1,7 @@
 # exec
 
 > Execute a command without creating a child process.
-> More information: <https://linuxcommand.org/lc3_man_pages/exech.html>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-exec>.
 
 - Execute a specific command:
 
