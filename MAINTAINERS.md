@@ -54,7 +54,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
   [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764), [7 February 2023](https://github.com/tldr-pages/tldr/issues/10674) — present
 - **Isaac Vicente ([@isaacvicente](https://github.com/isaacvicente))**:
-  [20 September 2023](https://github.com/tldr-pages/tldr/issues/10737) — present
+  [20 September 2023](https://github.com/tldr-pages/tldr/issues/10737) — [29 December 2023](https://github.com/tldr-pages/tldr/issues/11918)
 - **Darío Hereñú ([@kant](https://github.com/kant))**:
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10738) — present
 - **Magrid0 ([@Magrid0](https://github.com/Magrid0))**:
