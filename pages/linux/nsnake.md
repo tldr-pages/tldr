@@ -9,7 +9,7 @@
 
 - Navigate the snake:
 
-`{{Up|Down|Left|Right}} arrow key`
+`{{Up|Down|Left|Right arrow key}}`
 
 - Pause/unpause the game:
 
