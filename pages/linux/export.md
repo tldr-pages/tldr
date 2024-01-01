@@ -1,6 +1,6 @@
 # export
 
-> Export shell variables to new processes.
+> Export shell variables to child processes.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-export>.
 
 - Set an environment variable:
