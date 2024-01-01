@@ -7,7 +7,7 @@
 
 `set`
 
-- Export newly initialized variables to new processes:
+- Export newly initialized variables to child processes:
 
 `set -a`
 
