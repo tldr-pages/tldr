@@ -17,7 +17,7 @@
 
 - Desanexa de uma sessão:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - Anexa à uma sessão no modo read-only (somente leitura):
 

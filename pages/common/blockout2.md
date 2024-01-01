@@ -9,7 +9,7 @@
 
 - Navigate the current piece on a 2D plane:
 
-`{{Up|Down|Left|Right}} arrow key`
+`{{Up|Down|Left|Right arrow key}}`
 
 - Rotate the piece on its axis:
 
@@ -17,7 +17,7 @@
 
 - Hard drop the current piece:
 
-`Spacebar`
+`<Spacebar>`
 
 - Pause/unpause the game:
 

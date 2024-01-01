@@ -1,7 +1,7 @@
 # export
 
 > 命令为当前 shell 中的子进程进行环境变量设置。
-> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-export>.
+> 更多信息：<https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#export>.
 
 - 设置为新的环境变量：
 

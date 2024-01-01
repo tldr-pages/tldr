@@ -10,11 +10,11 @@
 
 - Installa pacchetti nella directory bower_components:
 
-`bower install {{pacchetto1}} {{pacchetto2}} ...`
+`bower install {{pacchetto}} {{pacchetto}}`
 
 - Disinstalla pacchetti localmente rimuovendolo dalla directory bower_components:
 
-`bower uninstall {{pacchetto1}} {{pacchetto2}}`
+`bower uninstall {{pacchetto}} {{pacchetto}}`
 
 - Elenca pacchetti locali e possibili aggiornamenti:
 

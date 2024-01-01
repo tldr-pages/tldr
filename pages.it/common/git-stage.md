@@ -5,4 +5,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr git-add`
+`tldr git add`

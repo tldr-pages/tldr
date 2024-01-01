@@ -13,7 +13,7 @@
 
 - Bestimme das Arbeitsverzeichnis, in dem der Befehl ausgeführt werden soll:
 
-`docker exec --interactive -tty --workdir {{pfad/zum/verzeichnis}} {{container_name}} {{befehl}}`
+`docker exec --interactive --tty --workdir {{pfad/zum/verzeichnis}} {{container_name}} {{befehl}}`
 
 - Führe einen Befehl im Hintergrund in einem laufenden Container aus, aber lies von der Standardeingabe:
 

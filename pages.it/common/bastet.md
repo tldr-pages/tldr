@@ -21,7 +21,7 @@
 
 - Caduta veloce:
 
-`Invio`
+`<Invio>`
 
 - Pausa:
 
@@ -29,4 +29,4 @@
 
 - Lasciare il gioco:
 
-`Ctrl + C`
+`<Ctrl> + C`
