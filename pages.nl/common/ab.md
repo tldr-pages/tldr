@@ -22,3 +22,7 @@
 - Stel het maximale aantal seconden in dat je wil besteden aan benchmarking:
 
 `ab -t {{60}} {{url}}`
+
+- Schrijf de resultaten naar een CSV bestand:
+
+`ab -e {{pad/naar/bestand.csv}}`
