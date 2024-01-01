@@ -3,7 +3,7 @@
 > Establece y recupera información relacionada con FileVault.
 > Más información: <https://www.unix.com/man-page/mojave/8/fdesetup/>.
 
-- Lista los usuarios actuales habilitados por FileVault:
+- Lista los usuarios actuales habilitados para FileVault:
 
 `sudo fdesetup list`
 
