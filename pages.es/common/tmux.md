@@ -23,15 +23,15 @@
 
 - Separa la sesión actual (dentro de una sesión tmux):
 
-`Ctrl-B d`
+`<Ctrl>-B d`
 
 - Crea una nueva ventana (dentro de una sesión tmux):
 
-`Ctrl-B c`
+`<Ctrl>-B c`
 
 - Cambia entre sesiones y ventanas (dentro de una sesión tmux):
 
-`Ctrl-B w`
+`<Ctrl>-B w`
 
 - Da de baja una sesión por su nombre:
 

@@ -1,7 +1,7 @@
 # exit
 
 > Выйти из оболочки.
-> Больше информации: <https://manned.org/exit>.
+> Больше информации: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#exit>.
 
 - Выход из оболочки с кодом выхода последней выполненной команды:
 

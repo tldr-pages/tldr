@@ -5,7 +5,7 @@
 
 - Visualizza tutte le informazioni disponibili sui flussi di un file multimediale (audio, video, immagini, etc):
 
-`ffprobe -v error -show_entries {{file.mp4}}`
+`ffprobe -v error -show_streams {{file.mp4}}`
 
 - Visualizza la durata del contenuto:
 

@@ -1,28 +1,24 @@
 # shutdown
 
-> Detiene, apaga o reinicia la máquina.
+> Apaga y reinicia el sistema.
 > Más información: <https://manned.org/shutdown.8>.
 
-- Detiene inmediatamente:
-
-`shutdown -H now`
-
-- Apaga inmediatamente:
+- Apaga ([h]alt) inmediatamente:
 
 `shutdown -h now`
 
-- Reinicia inmediatamente:
+- [r]einicia inmediatamente:
 
 `shutdown -r now`
 
-- Reinicia dentro de 5 minutos:
+- [r]einicia en 5 minutos:
 
 `shutdown -r +{{5}} &`
 
-- Apaga a la 1:00 PM (formato 24h):
+- Apaga a las 01:00 pm (Usa el reloj de 24[h]):
 
 `shutdown -h 13:00`
 
-- Cancela una operación de apagado/reinicio pendiente:
+- [c]ancela una operación pendiente de apagado/reinicio:
 
 `shutdown -c`

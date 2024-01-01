@@ -21,7 +21,7 @@
 
 - Se détacher de la session actuelle (avec le préfixe Ctrl-B) :
 
-`Ctrl-B d`
+`<Ctrl>-B d`
 
 - Détruire une session nommée :
 

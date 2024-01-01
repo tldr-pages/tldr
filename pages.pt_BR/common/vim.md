@@ -22,7 +22,7 @@
 
 - Entra em modo normal e desfaz a última operação:
 
-`<ESC>u`
+`<Esc>u`
 
 - Procura por um sequência padrão dentro de um arquivo (aperte `n`/`N` para ir para próxima/anterior sequência padrão):
 

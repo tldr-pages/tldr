@@ -15,10 +15,6 @@
 
 `docker compose up --build`
 
-- 代替composeファイルを使って全てのコンテナを起動する:
-
-`docker compose --file {{ファイルパス}} up`
-
 - 実行中の全てのコンテナを停止する:
 
 `docker compose stop`

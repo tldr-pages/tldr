@@ -1,32 +1,32 @@
 # choco source
 
-> Zarządzanie źrółami/repozytorium pakietów Chocolatey.
+> Zarządzaj źródłami/repozytoriami pakietów Chocolatey.
 > Więcej informacji: <https://chocolatey.org/docs/commands-source>.
 
-- Wylistowanie aktualnie dostępmnych źródeł:
+- Wyświetl aktualnie dostępne źródła:
 
 `choco source list`
 
-- Dodanie nowego źródła:
+- Dodaj nowe źródło:
 
 `choco source add --name {{nazwa}} --source {{adres_url}}`
 
-- Dodanie nowego źródła z użyciem poświadczeń:
+- Dodaj nowe źródło z użyciem poświadczeń:
 
-`choco source add --name {{nazwa}} --source {{adres_url}} --user {{nazwa_użytkownika}}} --password {{hasło}}`
+`choco source add --name {{nazwa}} --source {{adres_url}} --user {{nazwa_użytkownika}} --password {{hasło}}`
 
-- Dodanie nowego źródła z użyciem certyfikatu:
+- Dodaj nowe źródło z użyciem certyfikatu:
 
 `choco source add --name {{nazwa}} --source {{adres_url}} --cert {{ścieżka/do/certyfikatu}}`
 
-- Włączenie danego źródła/repozytorium pakietów:
+- Włącz dane źródło/repozytorium pakietów:
 
 `choco source enable --name {{nazwa}}`
 
-- Wyłączenie danego źródła/repozytorium pakietów:
+- Wyłącz dane źródło/repozytorium pakietów:
 
 `choco source disable --name {{nazwa}}`
 
-- Usunięcie danego źródła/repozytorium:
+- Usuń dane źródło/repozytorium:
 
 `choco source remove --name {{nazwa}}`
