@@ -22,14 +22,14 @@
 
 # Check for duplicated pages.
 function check_duplicates {
-  local page=$1 # page path in the format 'platform/pagename.md'
+  local page=$1 # page path in the format 'pages<.language_code>/platform/pagename.md'
   local parts
   local other
 
   readarray -td'/' parts < <(echo -n "$page")
 
-  local platform=${parts[0]}
-  local file=${parts[1]}
+  local platform=${parts[1]}
+  local file=${parts[2]}
 
   case "$platform" in
     common) # check if page already exists in other platforms
