@@ -9,7 +9,7 @@
 
 - Sposta il pezzo a sinistra o a destra:
 
-`{{Sinistra|Destra}} freccia`
+`{{tasto freccia sinistra|destra}}`
 
 - Ruota in senso orario o inverso:
 
@@ -17,7 +17,7 @@
 
 - Caduta lenta:
 
-`tasto freccia giù`
+`<tasto freccia giù>`
 
 - Caduta veloce:
 
