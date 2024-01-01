@@ -25,7 +25,7 @@
 
 - Clona un repositorio existente obteniendo sólo los 10 commits más recientes de la rama por defecto (útil para ahorrar tiempo):
 
-`git clone --depth {{10}}} {{ubicación_repositorio_remoto}}`
+`git clone --depth {{10}} {{ubicación_repositorio_remoto}}`
 
 - Clona un repositorio existente buscando sólo una rama específica:
 
