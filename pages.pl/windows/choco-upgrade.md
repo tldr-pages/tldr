@@ -1,32 +1,32 @@
 # choco upgrade
 
-> Aktualizacja jednej lub więcej paczek zarządzanych przez Chocolatey.
+> Zaktualizuj jeden lub więcej pakietów Chocolatey.
 > Więcej informacji: <https://chocolatey.org/docs/commands-upgrade>.
 
-- Aktualizacja jednego lub więcej pakietów (oddzielonych spacją):
+- Zaktualizuj jeden lub więcej pakietów (oddzielonych spacją):
 
-`choco upgrade {{pakiet(pakietów)}}`
+`choco upgrade {{pakiet1 pakiet2 ...}}`
 
-- Aktualizacja pakietu do konkretnej wersji:
+- Zaktualizuj pakiet do konkretnej wersji:
 
-`choco upgrade {{pakiet}}`
+`choco upgrade {{pakiet}} --version {{wersja}}`
 
-- Aktualizacja wszystkich pakietów zarządzanych przez Chocolatey:
+- Zaktualizuj wszystkie pakiety:
 
 `choco upgrade all`
 
-- Uaktualnij wszystkie pakiety z wyjątkiem określonych pakietów rozdzielanych przecinkami:
+- Zaktualizuj wszystkie pakiety z wyjątkiem tych podanych, rozdzielanych przecinkami:
 
-`choco upgrade all --except "{{pakiet(pakietów)}}"`
+`choco upgrade all --except "{{pakiet1 pakiet2 ...}}"`
 
-- Automatyczna akceptacja wszystkich monitów podczas aktualizacji pakietu (--yes):
+- Automatycznie akceptuj wszystkie monity podczas aktualizacji pakietu:
 
 `choco upgrade {{pakiet}} --yes`
 
-- Ustawienie określonego źródła/repozytorium pakietów:
+- Ustaw określone źródło/repozytorium pakietów:
 
 `choco upgrade {{pakiet}} --source {{adres_url|alias}}`
 
-- Podanie nazwy użytkownika i hasła do uwierzytelnienia:
+- Podaj nazwę użytkownika i hasło do uwierzytelnienia:
 
 `choco upgrade {{pakiet}} --user {{nazwa_użytkownika}} --password {{hasło}}`
