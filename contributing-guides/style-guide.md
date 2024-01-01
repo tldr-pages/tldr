@@ -330,6 +330,11 @@ For instance, instead of `Listing all files:`, `List all files:` can be used as 
  `ls`
 ```
 
+## Emphasis
+
+- Don't use *itallics* and **bold** in the pages. These are reserved for client emphasis of placeholders.
+- Don't uppercase words unnecessarily. These are reserved to special cases like acronyms, brand names and notes on a description.
+
 ## Serial Comma
 
 - When declaring a list of 3 or more items,
