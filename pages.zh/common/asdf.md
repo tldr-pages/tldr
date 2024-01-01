@@ -5,15 +5,15 @@
 
 - 可用插件清单：
 
-`asdf plugin-list-all`
+`asdf plugin list all`
 
 - 安装插件：
 
-`asdf plugin-add {{插件名}}`
+`asdf plugin add {{插件名}}`
 
 - 软件包的可用版本清单：
 
-`asdf list-all {{软件包名}}`
+`asdf list all {{软件包名}}`
 
 - 安装指定版本的软件包：
 

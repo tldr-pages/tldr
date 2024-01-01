@@ -6,15 +6,15 @@
 
 - 将磁盘映像复制到目标卷：
 
-`sudo asr restore --source {{映像名}}.dmg --target {{卷路径}}`
+`sudo asr restore --source {{映像名.dmg}} --target {{卷路径}}`
 
 - 在复制之前擦除目标卷：
 
-`sudo asr restore --source {{映像名}}.dmg --target {{卷路径}} --erase`
+`sudo asr restore --source {{映像名.dmg}} --target {{卷路径}} --erase`
 
 - 恢复后跳过验证步骤：
 
-`sudo asr restore --source {{映像名}}.dmg --target {{卷路径}} --noverify`
+`sudo asr restore --source {{映像名.dmg}} --target {{卷路径}} --noverify`
 
 - 不使用中间磁盘映像直接复制卷中的数据：
 

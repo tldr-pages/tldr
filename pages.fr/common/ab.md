@@ -5,15 +5,15 @@
 
 - Exécute 100 requêtes HTTP GET sur une URL donnée :
 
-`ab -n {{100}} {{url}}`
+`ab -n 100 {{url}}`
 
 - Exécute 100 requêtes HTTP GET en parallèle par groupe de 10, sur une URL :
 
-`ab -n {{100}} -c {{10}} {{url}}`
+`ab -n 100 -c 10 {{url}}`
 
 - Exécute 100 requêtes HTTP POST sur une URL, en utilisant un contenu JSON depuis un fichier :
 
-`ab -n {{100}} -T {{application/json}} -p {{chemin/vers/le/fichier.json}} {{url}}`
+`ab -n 100 -T {{application/json}} -p {{chemin/vers/le/fichier.json}} {{url}}`
 
 - Utilise la fonctionalitée HTTP Keep Alive pour exécuter plusieurs requêtes dans la même session HTTP :
 
