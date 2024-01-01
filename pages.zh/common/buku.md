@@ -13,12 +13,12 @@
 
 - 删除一个书签：
 
-`buku --delete "{{书签 id}}"`
+`buku --delete {{书签 id}}`
 
 - 打开编辑器，修改书签：
 
-`buku --write "{{书签 id}}"`
+`buku --write {{书签 id}}`
 
 - 移除一个书签中的标签“搜索引擎”：
 
-`buku --update "{{书签 id}}" --tag {{-}} {{搜索引擎}}`
+`buku --update {{书签 id}} --tag {{-}} {{搜索引擎}}`

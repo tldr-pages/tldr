@@ -16,14 +16,10 @@
 
 `unalias {{别名}}`
 
-- 列出所有的别名：
+- 将 `rm` 转换为交互式命令：
 
-`alias -p`
+`alias {{rm}}="{{rm --interactive}}"`
 
-- 将 rm 转换为交互式命令：
+- 创建别名 `la` 来指代 `ls --all`：
 
-`alias {{rm}}="{{rm -i}}"`
-
-- 创建别名 `la` 来指代 `ls -a`：
-
-`alias {{la}}="{{ls -a}}"`
+`alias {{la}}="{{ls --all}}"`

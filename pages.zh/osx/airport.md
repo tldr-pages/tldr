@@ -5,7 +5,7 @@
 
 - 显示当前的无线状态信息：
 
-`airport -I`
+`airport --getinfo`
 
 - 在通道 1 上监察（嗅探）无线流量：
 
@@ -13,8 +13,8 @@
 
 - 扫描可用的无线网络：
 
-`airport -s`
+`airport --scan`
 
 - 与当前的 Airport 网络脱离连接：
 
-`sudo airport -z`
+`sudo airport --disassociate`
