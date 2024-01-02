@@ -113,6 +113,7 @@ def update_page(
     old_common_part: str,
     new_common_part: str,
     place_placeholders_function,
+    dry_run: bool,
 ) -> None:
     with page_path.open("r", encoding="utf-8") as file:
         page_text = file.read()
@@ -123,18 +124,19 @@ def update_page(
 
     if not command:
         logger.warning(f"Common part '{old_common_part}' not found in '{page_path}'.")
-        return
+        return False
 
     logger.info(f"Found command: {command}")
-    new_page_text = page_text.replace(
-        command,
-        add_backticks(
-            place_placeholders_function(new_common_part, parse_placeholders(command))
-        ),
+    new_command = add_backticks(
+        place_placeholders_function(new_common_part, parse_placeholders(command))
     )
+    print(f"{command} -> {new_command}")
+    if not dry_run:
+        new_page_text = page_text.replace(command, new_command)
 
-    with page_path.open("w", encoding="utf-8") as file:
-        file.write(new_page_text)
+        with page_path.open("w", encoding="utf-8") as file:
+            file.write(new_page_text)
+    return True
 
 
 def parse_arguments() -> argparse.Namespace:
@@ -147,7 +149,13 @@ def parse_arguments() -> argparse.Namespace:
         "-c", "--common-part", help="Common part to be modified", required=False
     )
     parser.add_argument(
-        "-n", "--new-common-part", help="Common part to be modified", required=False
+        "-u", "--updated-common-part", help="Updated common part", required=False
+    )
+    parser.add_argument(
+        "-n",
+        "--dry-run",
+        action="store_true",
+        help="Show what changes would be made without actually modifying the pages",
     )
     parser.add_argument(
         "-v",
@@ -176,12 +184,17 @@ def update_pages(
     filename: str,
     locales: list[str],
     common_part: str,
-    new_common_part: str,
+    updated_common_part: str,
+    dry_run: bool,
 ) -> None:
     for locale in locales:
         page_path = get_page_path(tldr_root, locale, platform, filename)
         if page_path.exists() and page_path.is_file():
-            update_page(page_path, common_part, new_common_part, place_placeholders)
+            exists = update_page(
+                page_path, common_part, updated_common_part, place_placeholders, dry_run
+            )
+            if not exists and locale == '':
+                logger.warning(f"Common part '{old_common_part}' not found in '{page_path}'.")
 
 
 def clean_command(command: str) -> str:
@@ -213,9 +226,9 @@ def main():
         if args.common_part
         else clean_command(input("Enter the common part to modify: "))
     )
-    new_common_part = (
-        args.new_common_part
-        if args.new_common_part
+    updated_common_part = (
+        args.updated_common_part
+        if args.updated_common_part
         else clean_command(input("Enter the change to be made: "))
     )
 
@@ -224,7 +237,13 @@ def main():
     locales.extend(get_locales(tldr_root))
 
     update_pages(
-        tldr_root, args.platform, args.filename, locales, common_part, new_common_part
+        tldr_root,
+        args.platform,
+        args.filename,
+        locales,
+        common_part,
+        updated_common_part,
+        args.dry_run,
     )
 
 
