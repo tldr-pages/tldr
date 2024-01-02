@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+
 from pathlib import Path
 import os
 import re
