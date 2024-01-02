@@ -1,10 +1,10 @@
 # wpexec
 
-> Run WirePumbler Lua scripts.
-> See also: `wpctl`, `wirepumbler`.
+> Run WirePlumber Lua scripts.
+> See also: `wpctl`, `wireplumber`.
 > More information: <https://pipewire.pages.freedesktop.org/wireplumber/lua_api/lua_introduction.html>.
 
-- Run a WirePumbler script:
+- Run a WirePlumber script:
 
 `wpexec {{path/to/file.lua}}`
 

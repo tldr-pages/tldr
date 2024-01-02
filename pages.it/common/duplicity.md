@@ -22,7 +22,7 @@
 
 - Elenca i file in un backup salvato su una macchina remota, via SSH:
 
-`duplicity list-current-files --time {{YYYY-MM-DD}} scp://{{utente@hostname}}/percorso/della/directory/backup`
+`duplicity list-current-files --time {{YYYY-MM-DD}} scp://{{utente@hostname}}/{{percorso/della/directory/backup}}`
 
 - Ripristina una sotto-directory da un backup locale cifrato con GnuPG in una posizione precisa:
 

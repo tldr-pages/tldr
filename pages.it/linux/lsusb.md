@@ -15,10 +15,6 @@
 
 `lsusb --verbose`
 
-- Elenca informazioni dettagliate riguardo ad un dispositivo USB:
-
-`lsusb -D {{dispositivo}}`
-
 - Elenca solamente i dispositivi con un certo id fornitore e id prodotto:
 
 `lsusb -d {{fornitore}}:{{prodotto}}`

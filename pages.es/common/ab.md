@@ -5,15 +5,15 @@
 
 - Ejecuta 100 solicitudes HTTP GET a una URL dada:
 
-`ab -n {{100}} {{url}}`
+`ab -n 100 {{url}}`
 
 - Ejecuta 100 solicitudes HTTP GET, en lotes simultáneos de a 10, a una URL:
 
-`ab -n {{100}} -c {{10}} {{url}}`
+`ab -n 100 -c 10 {{url}}`
 
 - Ejecuta 100 solicitudes HTTP POST a una URL, utilizando la carga JSON de un archivo:
 
-`ab -n {{100}} -T {{application/json}} -p {{ruta/al/archivo.json}} {{url}}`
+`ab -n 100 -T {{application/json}} -p {{ruta/al/archivo.json}} {{url}}`
 
 - Utiliza HTTP [K]eep Alive, es decir, realiza múltiples solicitudes dentro de una sesión HTTP:
 

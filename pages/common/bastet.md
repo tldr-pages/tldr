@@ -17,7 +17,7 @@
 
 - Soft drop the piece:
 
-`{{Down arrow key}}`
+`<Down arrow key>`
 
 - Hard drop the piece:
 
