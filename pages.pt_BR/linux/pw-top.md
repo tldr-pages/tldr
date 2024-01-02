@@ -19,11 +19,3 @@
 - Imprime informações um número específico de vezes:
 
 `pw-top --batch-mode --iterations {{3}}`
-
-- Exibe ajuda:
-
-`pw-top --help`
-
-- Exibe versão:
-
-`pw-top --version`
