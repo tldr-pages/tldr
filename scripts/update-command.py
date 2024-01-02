@@ -36,20 +36,16 @@ ch.setFormatter(MyFormatter())
 logger.addHandler(ch)
 
 
-def get_languages(base_path: Path) -> list[str]:
+def get_locales(base_path: Path) -> list[str]:
     return [
-        d for d in base_path.iterdir() if d.is_dir() and d.name.startswith("pages.")
+        d.name.split(".")[1]
+        for d in base_path.iterdir()
+        if d.is_dir() and d.name.startswith("pages.")
     ]
 
 
 def get_tldr_pages(platform_path: Path) -> list[Path]:
     return [f for f in platform_path.iterdir() if f.is_file() and f.suffix == ".md"]
-
-
-def extract_platform_and_command_name(page_path: Path) -> tuple[str, str]:
-    platform = page_path.parts[-2]
-    command_name = page_path.parts[-1]
-    return platform, command_name
 
 
 def take_command_with_common_part(commands: list[str], common_part: str) -> str:
@@ -71,6 +67,19 @@ def get_commands_of_page(page_text: str) -> list[str]:
 def find_command_with_common_part(common_part: str, page_text: str) -> list[str]:
     commands = get_commands_of_page(page_text)
     return take_command_with_common_part(commands, common_part)
+
+
+def get_page_path(tldr_root: Path, locale: str, platform: str, filename: str):
+    if locale == "":
+        return tldr_root / "pages" / platform / filename
+    return tldr_root / f"pages.{locale}" / platform / filename
+
+
+def get_common_parts_from_english_page(tldr_root: Path, platform: str, filename: str):
+    page_path = get_page_path(tldr_root, platform, filename)
+    with page_path.open("r", encoding="utf-8") as file:
+        page_text = file.read()
+    return [remove_placeholders(command) for command in get_commands_of_page()]
 
 
 def split_by_curly_brackets(s: str) -> list[str]:
@@ -138,7 +147,6 @@ def parse_arguments() -> argparse.Namespace:
         "platform", help="Relative path to the page from the repository root"
     )
     parser.add_argument("filename", help="Page file name (with .md extension)")
-    # parser.add_argument("-S", "--sync", help="Sync with English page", required=False)
     parser.add_argument(
         "-c", "--common-part", help="Common part to be modified", required=False
     )
@@ -150,7 +158,7 @@ def parse_arguments() -> argparse.Namespace:
         "--verbose",
         action="count",
         default=0,
-        help="Increase verbosity level (use -v, -vv, -vvv)",
+        help="Increase verbosity level (use -v, -vv)",
     )
 
     args = parser.parse_args()
@@ -159,11 +167,25 @@ def parse_arguments() -> argparse.Namespace:
         log_levels = [logging.WARNING, logging.INFO]
         log_level = log_levels[min(args.verbose, len(log_levels) - 1)]
     else:
-        log_level = logging.ERROR  # Default to WARNING if not provided
+        log_level = logging.ERROR
 
     logging.basicConfig(level=log_level)
 
     return args
+
+
+def update_pages(
+    tldr_root: str,
+    platform: str,
+    filename: str,
+    locales: list[str],
+    common_part: str,
+    new_common_part: str,
+) -> None:
+    for locale in locales:
+        page_path = get_page_path(tldr_root, locale, platform, filename)
+        if page_path.exists() and page_path.is_file():
+            update_page(page_path, common_part, new_common_part, place_placeholders)
 
 
 def clean_command(command: str) -> str:
@@ -179,7 +201,7 @@ def get_tldr_root() -> Path:
     if "TLDR_ROOT" in os.environ:
         return Path(os.environ["TLDR_ROOT"])
     logger.error(
-        "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
+        "Please set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
     )
     sys.exit(1)
 
@@ -201,14 +223,13 @@ def main():
         else clean_command(input("Enter the change to be made: "))
     )
 
-    base_path = get_tldr_root()
-    lang_paths = [Path(base_path / "pages")]
-    lang_paths.extend(get_languages(base_path))
+    tldr_root = get_tldr_root()
+    locales = [""]
+    locales.extend(get_locales(tldr_root))
 
-    for lang_path in lang_paths:
-        page_path = lang_path / args.platform / args.filename
-        if page_path.exists() and page_path.is_file():
-            update_page(page_path, common_part, new_common_part, place_placeholders)
+    update_pages(
+        tldr_root, args.platform, args.filename, locales, common_part, new_common_part
+    )
 
 
 if __name__ == "__main__":
