@@ -1,6 +1,29 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
 
+"""
+A Python script to update the common part of a command on all languages.
+
+Usage:
+    python3 scripts/set-alias-page.py [-c] [-u] [-n] PLATFORM FILENAME [COMMAND]
+
+Options:
+    -c, --common-part COMMON_PART
+        Specify the common part to be modified (any content between double brackets will be ignored).
+    -u, --updated-common-part UPDATED_COMMON_PART
+        Specify the updated common part (any content between double brackets will be ignored).
+    -n, --dry-run
+        Show what changes would be made without actually modifying the page.
+
+
+Examples:
+    1. Update 'cargo' page interactively:
+       python3 scripts/update-command.py common cargo.md
+
+    2. Show what changes would be made by updating `sudo apt install {{}}` in 'apt' page to `sudo apt install {{}} --no-confirm`:
+       python3 scripts/update-command.py --dry-run -c `sudo apt install {{}}` -u `sudo apt install {{}} --no-confirm` linux apt.md
+"""
+
 from pathlib import Path
 import os
 import re
