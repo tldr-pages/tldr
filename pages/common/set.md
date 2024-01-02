@@ -1,7 +1,7 @@
 # set
 
 > Toggle shell options or set the values of positional parameters.
-> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#set>.
+> More information: <https://manned.org/set.1posix>.
 
 - Display the names and values of shell variables:
 
