@@ -6,7 +6,7 @@
 
 - Executa comandos da standard input em 5 minutos (pressionar `Ctrl + D`quando acabar):
 
-`at now + {{5}} minutes`
+`at now + 5 minutes`
 
 - Executa um comando da standard input às 10:00 da manhã de hoje:
 
