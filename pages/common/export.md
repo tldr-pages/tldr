@@ -1,7 +1,7 @@
 # export
 
 > Export shell variables to child processes.
-> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#export>.
+> More information: <https://manned.org/export.1posix>.
 
 - Set an environment variable:
 
