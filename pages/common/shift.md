@@ -1,7 +1,7 @@
 # shift
 
 > Move positional parameters.
-> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#shift>.
+> More information: <https://manned.org/shift.1posix>.
 
 - Remove the first positional parameter:
 
