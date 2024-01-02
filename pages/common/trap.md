@@ -1,7 +1,7 @@
 # trap
 
 > Execute a command upon an event.
-> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#trap>.
+> More information: <https://manned.org/trap.1posix>.
 
 - List the commands and the names of the expected events:
 
