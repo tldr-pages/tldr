@@ -7,6 +7,14 @@
 
 `cargo doc --open`
 
+- Constrói a documentação sem acessar a rede:
+
+`cargo doc --offline`
+
 - Visualiza a documentação de um pacote específico:
 
 `cargo doc --open --package {{pacote}}`
+
+- Visualiza a documentação de um pacote específico sem acessar a rede:
+
+`cargo doc --open --offline --package {{pacote}}`

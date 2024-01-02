@@ -5,16 +5,24 @@
 
 - Extrai arquivos zip:
 
-`unzip {{caminho/para/arquivo1.zip caminho/para/arquivo2.zip ...}}`
+`unzip {{arquivo.zip}}`
 
 - Extrai arquivos zip para caminhos específicos:
 
-`unzip {{caminho/para/arquivo1.zip caminho/para/arquivo2.zip ...}} -d {{caminho/para}}`
+`unzip {{arquivo.zip}} -d {{caminho/para}}`
 
 - Lista conteúdos de arquivos zip:
 
-`unzip -l {{caminho/para/arquivo.zip}}`
+`unzip -l {{arquivo.zip}}`
+
+- Extrai arquivos zip sobrescrevendo outros arquivos:
+
+`unzip -o {{arquivo.zip}}`
+
+- Extrai arquivos zip não sobrescrevendo outros arquivos:
+
+`unzip -n {{arquivo.zip}}`
 
 - Extrai arquivos zip sem a estrutura dos diretórios:
 
-`unzip -j {{caminho/para/arquivo.zip}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
+`unzip -j {{arquivo.zip}}`

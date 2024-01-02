@@ -10,11 +10,15 @@
 
 - Instala um novo pacote:
 
-`sudo pacman -S {{pacote}}`
+`sudo pacman -S {{nome_do_pacote}}`
 
 - Remove um pacote e suas dependências:
 
-`sudo pacman -Rs {{pacote}}`
+`sudo pacman -Rs {{nome_do_pacote}}`
+
+- Procura no banco de dados de pacotes por uma expressão regular ou palavra-chave:
+
+`pacman -Ss "{{padrao_buscado}}"`
 
 - Lista pacotes instalados e versões:
 

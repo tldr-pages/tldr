@@ -3,18 +3,30 @@
 > Ferramenta de compressão de arquivos em arquivos zip.
 > Mais informações: <https://manned.org/zip>.
 
+- Compacta arquivos em um arquivo zip:
+
+`zip {{output.zip}} {{arquivo1}} {{arquivo2}} {{arquivo3}}`
+
+- Compacta todos os arquivos de um diretório:
+
+`zip {{output.zip}} {{caminho/do/diretorio/*}}`
+
+- Adiciona arquivos a um arquivo zip existente:
+
+`zip {{arquivo_existente.zip}} {{caminho/do/diretorio}}`
+
 - Compacta todos os arquivos de um diretório mantendo estruturas de diretórios:
 
-`zip -r {{caminho/para/output.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
-
-- Deleta arquivos de um arquivo zip:
-
-`zip -d {{caminho/para/output.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
+`zip -r {{output.zip}} {{caminho/do/diretorio}}`
 
 - Compacta arquivos de um diretório excluindo arquivos específicos:
 
-`zip -r {{caminho/para/output.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}} -x {{caminho/a/ser/excluido}}`
+`zip -r {{output.zip}} {{caminho/do/diretorio}} -x {{caminho/a/ser/excluido}}`
 
 - Compacta arquivos definindo o nível de compressão [9]:
 
-`zip -r -{{0-9}} {{caminho/para/output.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
+`zip -r -{{9}} {{output.zip}} {{caminho/do/diretorio}}`
+
+- Deleta arquivos de um arquivo zip:
+
+`zip -d {{output.zip}} "{{foo/*.ext}}"`
