@@ -9,7 +9,7 @@
 
 - Muestra datos transmitidos con un sonido:
 
-`echo '{{Datos de mensajes transmitidos!}}'' | terminal-notifier -sound {{default}}`
+`echo '{{Datos de mensajes transmitidos!}}' | terminal-notifier -sound {{default}}`
 
 - Abre una URL al hacer clic en la notificación:
 
