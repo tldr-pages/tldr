@@ -33,6 +33,12 @@ from functools import reduce
 import logging
 
 
+# Backporting Python 3.9 feature
+class str(str):
+    def removesuffix(self, suffix: str) -> str:
+        return self[: -len(suffix)] if suffix and self.endswith(suffix) else self
+
+
 class MyFormatter(logging.Formatter):
     grey = "\x1b[0;30m"
     yellow = "\x1b[33;20m"
@@ -167,7 +173,7 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument(
         "platform", help="Relative path to the page from the repository root"
     )
-    parser.add_argument("filename", help="Page file name (with .md extension)")
+    parser.add_argument("filename", help="Page file name (without .md)")
     parser.add_argument(
         "-c", "--common-part", help="Common part to be modified", required=False
     )
@@ -268,7 +274,7 @@ def main():
     update_pages(
         tldr_root,
         args.platform,
-        args.filename,
+        args.filename + ".md",
         locales,
         common_part,
         updated_common_part,
