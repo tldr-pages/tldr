@@ -21,4 +21,4 @@
 
 - SVN deposuna geri commit'le:
 
-`git svn dcommit`
+`git svn commit`

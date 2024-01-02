@@ -22,7 +22,7 @@
 
 - Deshace la última operación:
 
-`u`
+`<ESC>u`
 
 - Busca un patrón en el archivo (pulsa `n`/`N` para ir a la próxima/previa coincidencia):
 

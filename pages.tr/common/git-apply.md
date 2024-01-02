@@ -13,7 +13,7 @@
 
 - Uzak yama dosyası uygula:
 
-`curl {{https://ornek.com/dosya.patch}} | git apply`
+`curl -L {{https://ornek.com/dosya.patch}} | git apply`
 
 - Çıktı için fark statistiği çıkar ve yamayı uygula:
 

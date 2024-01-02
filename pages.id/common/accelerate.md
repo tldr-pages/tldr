@@ -25,4 +25,4 @@
 
 - Jalankan model dengan Accelerate, menggunakan GPU dari 2 perangkat yang berbeda:
 
-`accelerate launch {{jalan/menuju/script.py}} --multi_gpu --num_machines {{2}}`
+`accelerate launch {{jalan/menuju/script.py}} --multi_gpu --num_machines 2`

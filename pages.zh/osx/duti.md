@@ -13,7 +13,7 @@
 
 - 将 Finder 设置为 ftp:// URL 访问的应用：
 
-`duti -s {{com.apple.Finder}} {{ftp}}`
+`duti -s {{com.apple.Finder}} "{{ftp}}"`
 
 - 显示有关给定扩展名的默认应用程序的信息：
 

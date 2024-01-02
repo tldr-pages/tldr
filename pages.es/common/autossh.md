@@ -22,7 +22,7 @@
 
 - Ejecuta en segundo plano, sin puerto de monitorización y sin shell remoto, saliendo si falla el reenvío de puerto:
 
-`autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -o ExitOnForwardFailure=yes -L {{local_port}}:localhost:{{puerto_remoto}}} {{usuario}}@{{host}}`
+`autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -o ExitOnForwardFailure=yes -L {{local_port}}:localhost:{{puerto_remoto}} {{usuario}}@{{host}}`
 
 - Se ejecuta en segundo plano, registrando la salida de depuración `autossh` y la salida detallada `ssh` en archivos:
 

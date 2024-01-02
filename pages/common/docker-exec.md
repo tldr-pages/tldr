@@ -13,7 +13,7 @@
 
 - Select the working directory for a given command to execute into:
 
-`docker exec --interactive -tty --workdir {{path/to/directory}} {{container_name}} {{command}}`
+`docker exec --interactive --tty --workdir {{path/to/directory}} {{container_name}} {{command}}`
 
 - Run a command in background on existing container but keep `stdin` open:
 

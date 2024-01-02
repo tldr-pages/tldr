@@ -1,7 +1,7 @@
 # exit
 
 > शेल से बाहर निकलें।
-> अधिक जानकारी: <https://manned.org/exit>।
+> अधिक जानकारी: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#exit>।
 
 - निष्पादित अंतिम कमांड के निकास कोड के साथ शेल से बाहर निकलें:
 
