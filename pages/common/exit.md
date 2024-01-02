@@ -1,7 +1,7 @@
 # exit
 
 > Exit the shell.
-> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#exit>.
+> More information: <https://manned.org/exit.1posix>.
 
 - Exit with the exit status of the most recently executed command:
 
