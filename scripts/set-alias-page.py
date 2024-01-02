@@ -175,7 +175,7 @@ def set_alias_page(file, command, dry_run=False):
     status = f"{status_prefix}{status}\x1b[0m"
 
     if not dry_run:  # Only write to the file during a non-dry-run
-        alias_name = os.path.basename(file[:-3])
+        alias_name, _ = os.path.splitext(os.path.basename(file))
         text = (
             templates[locale]
             .replace("example", alias_name, 1)
