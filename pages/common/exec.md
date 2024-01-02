@@ -1,7 +1,7 @@
 # exec
 
 > Execute a command without creating a child process.
-> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#exec>.
+> More information: <https://manned.org/exec.1posix>.
 
 - Execute a specific command:
 
