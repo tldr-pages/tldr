@@ -78,13 +78,6 @@ def get_page_path(tldr_root: Path, locale: str, platform: str, filename: str):
     return tldr_root / f"pages.{locale}" / platform / filename
 
 
-def get_common_parts_from_english_page(tldr_root: Path, platform: str, filename: str):
-    page_path = get_page_path(tldr_root, platform, filename)
-    with page_path.open("r", encoding="utf-8") as file:
-        page_text = file.read()
-    return [remove_placeholders(command) for command in get_commands_of_page()]
-
-
 def split_by_curly_brackets(s: str) -> list[str]:
     return re.split(r"(\{\{.*?\}\})", s)
 
