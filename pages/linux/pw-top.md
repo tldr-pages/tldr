@@ -19,11 +19,3 @@
 - Print information periodically for a specific number of times:
 
 `pw-top --batch-mode --iterations {{3}}`
-
-- Display help:
-
-`pw-top --help`
-
-- Display version:
-
-`pw-top --version`
