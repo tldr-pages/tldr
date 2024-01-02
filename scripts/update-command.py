@@ -206,7 +206,7 @@ def update_pages(
     platform: str,
     filename: str,
     locales: list[str],
-    common_part: str,
+    old_common_part: str,
     updated_common_part: str,
     dry_run: bool,
 ) -> None:
@@ -214,10 +214,16 @@ def update_pages(
         page_path = get_page_path(tldr_root, locale, platform, filename)
         if page_path.exists() and page_path.is_file():
             exists = update_page(
-                page_path, common_part, updated_common_part, place_placeholders, dry_run
+                page_path,
+                old_common_part,
+                updated_common_part,
+                place_placeholders,
+                dry_run,
             )
-            if not exists and locale == '':
-                logger.warning(f"Common part '{old_common_part}' not found in '{page_path}'.")
+            if not exists and locale == "":
+                logger.warning(
+                    f"Common part '{old_common_part}' not found in '{page_path}'."
+                )
 
 
 def clean_command(command: str) -> str:
