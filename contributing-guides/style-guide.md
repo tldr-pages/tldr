@@ -332,8 +332,8 @@ For instance, instead of `Listing all files:`, `List all files:` can be used as 
 
 ## Emphasis
 
-- Don't use *itallics* and **bold** in the pages. These are reserved for client emphasis of placeholders.
-- Don't uppercase words unnecessarily. These are reserved to special cases like acronyms, brand names and notes on a description.
+- Do not use *italics* and **boldface** in the pages. These are reserved for client emphasis of placeholders.
+- Do not uppercase words unnecessarily. These are reserved to special cases like acronyms, brand names and notes on a description.
 
 ## Serial Comma
 
