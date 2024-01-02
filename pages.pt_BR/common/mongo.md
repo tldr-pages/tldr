@@ -3,7 +3,7 @@
 > Cliente shell interativo de MongoDB.
 > Mais informações: <https://docs.mongodb.com/manual/reference/program/mongo>.
 
-- Conecta a uma base de dados local na porta padrão (mongodb://localhost:27017):
+- Conecta a uma base de dados:
 
 `mongo {{base_de_dados}}`
 
@@ -11,7 +11,7 @@
 
 `mongo --host {{host}} --port {{porta}} {{base_de_dados}}`
 
-- Autentica usando, na base de dados especificada, o nome de usuário especificado (uma senha será solicitada):
+- Conecta a uma base de dados com um usuário específico, uma senha será pedida ao usuário:
 
 `mongo --username {{usuário}} {{base_de_dados}} --password`
 
