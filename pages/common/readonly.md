@@ -1,7 +1,7 @@
 # readonly
 
 > Set read-only shell variables.
-> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#readonly>.
+> More information: <https://manned.org/readonly.1posix>.
 
 - Set a read-only variable:
 
