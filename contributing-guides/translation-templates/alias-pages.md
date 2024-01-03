@@ -235,7 +235,7 @@ The templates can be changed when necessary.
 
 > Perintah ini merupakan alias dari `example`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr example`
 ```
