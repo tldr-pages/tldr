@@ -8,7 +8,6 @@
 `mv {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
 - Pindahkan file atau direktori ke dalam direktori lain yang telah ada:
-- Move a file or directory into an existing directory:
 
 `mv {{jalan/menuju/sumber}} {{jalan/menuju/direktori}}`
 
