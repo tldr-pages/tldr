@@ -16,6 +16,11 @@
 
 `sudo pacman -Rs {{pacote}}`
 
+- Procura pacotes no banco de dados que contenham um arquivo específico:
+
+`pacman -F "{{nome_do_arquivo}}"`
+
+
 - Lista pacotes instalados e versões:
 
 `pacman -Q`
