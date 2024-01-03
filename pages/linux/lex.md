@@ -8,7 +8,7 @@
 
 `lex {{analyzer.l}}`
 
-- Write analyzer to `s`[`t`]`dout`:
+- Write analyzer to `stdout`:
 
 `lex -{{-stdout|t}} {{analyzer.l}}`
 
