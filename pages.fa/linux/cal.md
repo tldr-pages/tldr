@@ -20,6 +20,5 @@
 `cal {{year}}`
 
 - نمایش تقویم ماه و سال مورد نظر:
-- Display a calendar for a specific month and year:
 
 `cal {{month}} {{year}}`
