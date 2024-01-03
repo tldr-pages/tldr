@@ -46,7 +46,7 @@ exceptions can always be considered through open community discussion.)
   merge PRs, label and close issues, among other things.
 
 > [!NOTE]
-> All members of the tldr-pages organization **must make their membership public**.
+> All members of the tldr-pages organization **must** make their membership public.
 
 - **Organization members who remain active for a while should become organization owners.**
   Specifically: members of the tldr-pages organization
