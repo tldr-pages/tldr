@@ -13,7 +13,7 @@
 
 - Constrói e visualiza a documentação em um navegador:
 
-`cargo doc --open --package`
+`cargo doc --open`
 
 - Constrói e visualiza a documentação de um pacote específico:
 
