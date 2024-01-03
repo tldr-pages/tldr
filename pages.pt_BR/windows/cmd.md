@@ -7,13 +7,13 @@
 
 `cmd`
 
-- Executa um script específico:
-
-`cmd {{caminho/para/script.bat}}`
-
 - Executa os [c]omandos especificados:
 
 `cmd /c {{echo Olá Mundo}}`
+
+- Executa um script específico:
+
+`cmd {{caminho/para/script.bat}}`
 
 - Executa o comando especificado e entra em um shell interativo:
 
