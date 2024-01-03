@@ -5,4 +5,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr git-add`
+`tldr git add`

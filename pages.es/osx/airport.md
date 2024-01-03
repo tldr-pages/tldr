@@ -5,7 +5,7 @@
 
 - Muestra la información del estado actual de la red inalámbrica:
 
-`airport -I`
+`airport --getinfo`
 
 - Detecta tráfico inalámbrico en el canal 1:
 
@@ -13,8 +13,8 @@
 
 - Busca redes inalámbricas disponibles:
 
-`airport -s`
+`airport --scan`
 
 - Desasociarse de la red actual:
 
-`sudo airport -z`
+`sudo airport --disassociate`

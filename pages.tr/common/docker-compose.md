@@ -17,7 +17,7 @@
 
 - Tüm konteynerleri alternatif bir beste dosyasıyla başlatın:
 
-`docker compose --file {{yoldan/dosyaya}} up`
+`docker compose -p {{proje Adı}} --file {{yoldan/dosyaya}} up`
 
 - Çalışan tüm konteynerleri durdurun:
 
