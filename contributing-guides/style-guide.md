@@ -332,7 +332,7 @@ For instance, instead of `Listing all files:`, `List all files:` can be used as 
 
 ## Emphasis
 
-Do not use *italics* and **boldface** in the pages. These are reserved for client emphasis of placeholders.
+Do not use *italics*, **boldface** or any other text styling in the pages. These are reserved for client emphasis of placeholders.
 
 ## Serial Comma
 
