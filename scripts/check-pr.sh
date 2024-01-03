@@ -142,8 +142,11 @@ function check_diff {
         printf "\x2d $MSG_IS_COPY" "$file2" "$file1" "$percentage"
         ;;
 
-      A|M) # file1 was newly added or modified
+      A) # file1 was newly added
         check_duplicates "$file1"
+        check_missing_english_page "$file1"
+        check_outdated_page "$file1"
+      M) # file1 was modified
         check_missing_english_page "$file1"
         check_outdated_page "$file1"
         ;;
