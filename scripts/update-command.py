@@ -18,10 +18,10 @@ Options:
 
 Examples:
     1. Update 'cargo' page interactively:
-       python3 scripts/update-command.py common cargo.md
+       python3 scripts/update-command.py common cargo
 
     2. Show what changes would be made by updating `sudo apt install {{}}` in 'apt' page to `sudo apt install {{}} --no-confirm`:
-       python3 scripts/update-command.py --dry-run -c `sudo apt install {{}}` -u `sudo apt install {{}} --no-confirm` linux apt.md
+       python3 scripts/update-command.py --dry-run -c `sudo apt install {{}}` -u `sudo apt install {{}} --no-confirm` linux apt
 """
 
 from pathlib import Path
