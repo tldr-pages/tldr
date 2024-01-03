@@ -4,7 +4,7 @@
 > Alguns subcomandos como `docker run` tem sua própia documentação de uso.
 > Mais informações: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Lista todos os containers Docker:
+- Lista todos os containers Docker (em execução e parados):
 
 `docker ps --all`
 
