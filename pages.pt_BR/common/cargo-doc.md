@@ -11,10 +11,10 @@
 
 `cargo doc --no-deps`
 
-- Visualiza a documentação de um pacote específico:
+- Constrói e visualiza a documentação em um navegador:
 
-`cargo doc --open --package {{pacote}}`
+`cargo doc --open --package`
 
-- Constrói e visualiza a documentação de um pacote particular:
+- Constrói e visualiza a documentação de um pacote específico:
 
 `cargo doc --open --package {{pacote}}`
