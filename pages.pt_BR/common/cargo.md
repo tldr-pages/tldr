@@ -16,6 +16,14 @@
 
 `cargo install --list`
 
+- Cria um novo binário ou projeyo Rust de biblioteca no diretório especificado (ou o diretório atual por padrão):
+
+`cargo init --{{bin|lib}} {{caminho/para/diretório}}`
+
+- Adiciona uma dependência ao Cargo.toml no diretório atual:
+
+`cargo add {{dependência}}`
+
 - Constrói o projeto Rust no diretório atual utilizando o nightly compilador:
 
 `cargo +nightly build`
