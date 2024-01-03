@@ -15,10 +15,6 @@
 
 `cat {{caminho/para/arquivo1 caminho/para/arquivo2 ...}} >> {{caminho/para/arquivo_de_saída}}`
 
-- Copia o conteúdo de um arquivo para um arquivo de saída no modo sem buffer:
-
-`cat -u {{/dev/tty12}} > {{/dev/tty13}}`
-
 - Escreve a `stdin` em um arquivo:
 
 `cat - > {{caminho/para/arquivo}}`
