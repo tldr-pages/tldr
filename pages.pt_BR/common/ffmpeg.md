@@ -9,7 +9,7 @@
 
 - Salva um vídeo como GIF, escalando a altura para 1000px e definindo a taxa de quadros para 15:
 
-`ffmpeg -i {{caminho/para/vídeo.mp4}} -vf 'scale=-1:1000' -r 15 {{caminho/para/saída.gif}}`
+`ffmpeg -i {{caminho/para/vídeo.mp4}} -vf 'scale=-1:1000' -r {{15}} {{caminho/para/saída.gif}}`
 
 - Combina imagens numeradas (`quadro_1.jpg`, `quadro_2.jpg`, etc) em um vídeo ou GIF:
 
