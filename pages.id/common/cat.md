@@ -1,16 +1,24 @@
 # cat
 
-> Mencetak dan menggabungkan berkas.
+> Cetak dan menggabungkan berkas.
 > Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/cat>.
 
-- Mencetak konten berkas ke keluaran standar:
+- Cetak konten berkas menuju `stdout`:
 
-`cat {{berkas}}`
+`cat {{jalan/menuju/file}}`
 
-- Menggabungkan konten beberapa berkas ke berkas tujuan:
+- Gabungkan konten beberapa berkas ke berkas tujuan:
 
-`cat {{berkas1 berkas2 ...}} > {{berkas_tujuan}}`
+`cat {{jalan/menuju/file1 jalan/menuju/file2 ...}} > {{jalan/menuju/file_tujuan}}`
 
-- Menambahkan konten beberapa berkas ke berkas tujuan:
+- Tambahkan konten beberapa berkas ke berkas tujuan:
 
-`cat {{berkas1 berkas2 ...}} >> {{berkas_tujuan}}`
+`cat {{jalan/menuju/file1 jalan/menuju/file2 ...}} >> {{jalan/menuju/file_tujuan}}`
+
+- Salin isi suatu file menuju file tujuan tanpa proses buffering:
+
+`cat -u {{/dev/tty12}} > {{/dev/tty13}}`
+
+- Tulis isi `stdin` menuju suatu file:
+
+`cat - > {{jalan/menuju/file}}`

@@ -1,17 +1,26 @@
 # mv
 
-> Memindah atau menamai-ulang file dan direktori.
+> Pindahkan atau namai-ulang file dan direktori.
 > Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/mv>.
 
-- Memindahkan file ke lokasi yang baru:
+- Pindahkan file ke lokasi yang baru:
 
 `mv {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
-- Memindah tanpa meminta konfirmasi sebelum menimpa file yang sudah ada:
+- Pindahkan file atau direktori ke dalam direktori lain yang telah ada:
+- Move a file or directory into an existing directory:
+
+`mv {{jalan/menuju/sumber}} {{jalan/menuju/direktori}}`
+
+- Pindahkan file majemuk ke dalam direktori lain yang telah ada, dengan menyimpan nama masing-masing file secara utuh:
+
+`mv {{jalan/menuju/sumber1 jalan/menuju/sumber2 ...}} {{jalan/menuju/direktori}}`
+
+- Pindahkan tanpa meminta konfirmasi sebelum menimpa file yang sudah ada:
 
 `mv -f {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
-- Meminta konfirmasi sebelum menimpa file yang sudah ada, apapun file permissions-nya:
+- Minta konfirmasi sebelum menimpa file yang sudah ada, tanpa memerhatikan hak akses hedua file tersebut:
 
 `mv -i {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
@@ -19,6 +28,6 @@
 
 `mv -n {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
-- Memindahkan file dalam mode verbose, menampilkan file-file yang dipindahkan:
+- Pindahkan file dalam mode [v]erbose, tampilkan file-file yang dipindahkan:
 
 `mv -v {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`

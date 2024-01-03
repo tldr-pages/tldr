@@ -1,20 +1,25 @@
 # rm
 
-> Menghapus berkas atau direktori.
+> Hapus file atau direktori.
+> Lihat juga: `rmdir`.
 > Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/rm>.
 
-- Menghapus berkas dari lokasi manapun:
+- Hapus file dari lokasi manapun:
 
-`rm {{alamat/ke/berkas1 alamat/ke/berkas2 ...}}`
+`rm {{alamat/ke/file1 alamat/ke/file2 ...}}`
 
-- Menghapus banyak berkas secara [i]nteraktif, dengan meminta konfirmasi sebelum setiap penghapusan:
+- Hapus file dari lokasi manapun dengan mengabaikan nama-nama file yang tidak ditemukan:
 
-`rm -i {{(beberapa)_berkas}}`
+`rm -f {{alamat/ke/file1 alamat/ke/file2 ...}}`
 
-- Menghapus berkas dengan mode verbose, mencetak pesan untuk setiap berkas yang terhapus:
+- Hapus banyak file secara [i]nteraktif, dengan meminta konfirmasi sebelum setiap penghapusan:
 
-`rm -v {{alamat/ke/directori/*}}`
+`rm -i {{alamat/ke/file1 alamat/ke/file2 ...}}`
 
-- Menghapus direktori dan semua subdirektorinya secara [r]ekursif:
+- Hapus file dengan mode [v]erbose, mencetak pesan untuk setiap file yang terhapus:
 
-`rm -r {{alamat/ke/direktori}}`
+`rm -v {{alamat/ke/file1 alamat/ke/file2 ...}}`
+
+- Hapus direktori dan semua subdirektorinya secara [r]ekursif:
+
+`rm -{{alamat/ke/file1 alamat/ke/file2 ...}}`
