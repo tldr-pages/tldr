@@ -28,6 +28,12 @@ function check_duplicates {
 
   readarray -td'/' parts < <(echo -n "$page")
 
+  local language_folder=${parts[0]}
+  
+  if [[ "$language_folder" != "pages" ]]; then # only check for duplicates in English
+    return 1
+  fi
+
   local platform=${parts[1]}
   local file=${parts[2]}
 
