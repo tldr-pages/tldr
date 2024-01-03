@@ -3,7 +3,7 @@
 > Control and query CoreApplicationServices about the app state on the system.
 > More information: <https://keith.github.io/xcode-man-pages/lsappinfo.8.html>.
 
-- List all running applications:
+- List all running applications with their details:
 
 `lsappinfo list`
 
