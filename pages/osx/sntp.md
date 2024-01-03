@@ -3,7 +3,7 @@
 > A very Simple Network Time Protocol client program.
 > More information: <https://keith.github.io/xcode-man-pages/sntp.1>.
 
-- Query the SNTP server `pool.ntp.org` and display the time:
+- Query a specified SNTP server and display the time:
 
 `sntp {{pool.ntp.org}}`
 
