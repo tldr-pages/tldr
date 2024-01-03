@@ -34,4 +34,4 @@
 
 - Show all ORCA operators inside of ORCA:
 
-`Ctrl + g`
+`<Ctrl> + g`

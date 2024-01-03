@@ -17,7 +17,7 @@
 
 - Detach from a session:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - [A]ttach to a session in [r]ead-only mode:
 

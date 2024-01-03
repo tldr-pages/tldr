@@ -6,19 +6,19 @@
 
 - Unduh URI ke sebuah file:
 
-`aria2c {{url}}`
+`aria2c "{{url}}"`
 
 - Unduh file yang ditunjuk oleh URI yang ditentukan dengan nama keluaran yang ditentukan:
 
-`aria2c --out={{nama_file}} {{url}}`
+`aria2c --out={{nama_file}} "{{url}}"`
 
 - Unduh beberapa file (berbeda) secara paralel:
 
-`aria2c --force-sequential {{false}} {{url_1}} {{url_2}}`
+`aria2c --force-sequential {{false}} "{{url1 url2 ...}}"`
 
 - Unduh dari berbagai sumber dengan setiap URI menunjuk ke file yang sama:
 
-`aria2c {{url_1}} {{url_2}}`
+`aria2c "{{url1 url2 ...}}"`
 
 - Unduh URI yang tercantum dalam file dengan unduhan paralel terbatas:
 
@@ -26,12 +26,12 @@
 
 - Unduh dengan banyak koneksi:
 
-`aria2c --split={{jumlah_koneksi}} {{url}}`
+`aria2c --split={{jumlah_koneksi}} "{{url}}"`
 
 - Unduhan FTP dengan nama pengguna dan kata sandi:
 
-`aria2c --ftp-user={{nama_pengguna}} --ftp-passwd={{kata_sandi}} {{url}}`
+`aria2c --ftp-user={{nama_pengguna}} --ftp-passwd={{kata_sandi}} "{{url}}"`
 
 - Batasi kecepatan unduh dalam bytes/detik:
 
-`aria2c --max-download-limit={{kecepatan}} {{url}}`
+`aria2c --max-download-limit={{kecepatan}} "{{url}}"`

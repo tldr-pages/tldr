@@ -6,16 +6,16 @@
 
 - Crea un nuevo grupo de recursos:
 
-`az group create --nombre {{nombre}} --ubicación {{ubicación}}`
+`az group create --name {{nombre}} --location {{ubicación}}`
 
 - Comprueba si existe un grupo de recursos:
 
-`az group exists --nombre {{nombre}}`
+`az group exists --name {{nombre}}`
 
 - Elimina un grupo de recursos:
 
-`az group delete --nombre {{nombre}}`
+`az group delete --name {{nombre}}`
 
 - Coloca un grupo de recursos en estado de espera hasta que se cumpla una condición:
 
-`az group wait --nombre {{nombre}} --{{created|deleted|exists|updated}}`
+`az group wait --name {{nombre}} --{{created|deleted|exists|updated}}`

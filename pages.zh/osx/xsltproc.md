@@ -9,4 +9,4 @@
 
 - 将值传递给样式表中的参数：
 
-`xsltproc --output {{输出.html}} --stringparam {{键名}} {{值}} {{样式表.xslt}} {{xml 文件.xml}}`
+`xsltproc --output {{输出.html}} --stringparam "{{键名}}" "{{值}}" {{样式表.xslt}} {{xml 文件.xml}}`

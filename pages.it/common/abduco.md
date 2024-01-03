@@ -17,7 +17,7 @@
 
 - Esci da una sessione:
 
-`CTRL + \`
+`<Ctrl> + \`
 
 - Entra in una sessione in modalità sola lettura:
 

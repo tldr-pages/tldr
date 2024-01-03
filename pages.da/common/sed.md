@@ -1,7 +1,7 @@
 # sed
 
 > Rediger tekst, programmatisk.
-> Mere information: <https://www.gnu.org/software/sed/manual/sed.html>.
+> Mere information: <https://manned.org/man/sed.1posix>.
 
 - Erstat den første forekomst af et regulært udtryk (regular expression) i hver linje af en fil, og print resultatet:
 
