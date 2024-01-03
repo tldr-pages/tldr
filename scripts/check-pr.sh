@@ -28,21 +28,26 @@ function check_duplicates {
 
   readarray -td'/' parts < <(echo -n "$page")
 
-  local language=${parts[0]}
+  local language_folder=${parts[0]}
+  
+  if [[ "$language_folder" != "pages" ]]; then # only check for duplicates in English
+    return 1
+  fi
+
   local platform=${parts[1]}
   local file=${parts[2]}
 
   case "$platform" in
     common) # check if page already exists in other platforms
       for other in ${PLATFORMS/common/}; do
-        if [[ -f "$language/$other/$file" ]]; then
+        if [[ -f "pages/$other/$file" ]]; then
           printf "\x2d $MSG_EXISTS" "$page" "$other"
         fi
       done
       ;;
 
     *) # check if page already exists under common
-      if [[ -f "$language/common/$file" ]]; then
+      if [[ -f "pages/common/$file" ]]; then
         printf "\x2d $MSG_EXISTS" "$page" 'common'
       fi
       ;;
