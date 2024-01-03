@@ -20,7 +20,6 @@
 
 `pacman -F "{{nome_do_arquivo}}"`
 
-
 - Lista pacotes instalados e versões:
 
 `pacman -Q`
