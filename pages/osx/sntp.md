@@ -7,7 +7,7 @@
 
 `sntp {{pool.ntp.org}}`
 
-- Synchronize the system clock with the SNTP server at `pool.ntp.org`:
+- Synchronize the system clock with a specified SNTP server:
 
 `sudo sntp -S {{pool.ntp.org}}`
 
