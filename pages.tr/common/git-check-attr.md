@@ -17,4 +17,4 @@
 
 - Bir veya birden fazla dosyadaki belirtilmiş atıfın değerini kontrol et:
 
-`git check-attr {{atıf}} {{örnek/dosya1 örnek/dosya2...}}`
+`git check-attr {{atıf}} {{örnek/dosya1 örnek/dosya2 ...}}`
