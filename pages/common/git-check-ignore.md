@@ -9,7 +9,7 @@
 
 - Check whether multiple files or directories are ignored:
 
-`git check-ignore {{path/to/file}} {{path/to/directory}}`
+`git check-ignore {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Use pathnames, one per line, from `stdin`:
 
@@ -17,8 +17,8 @@
 
 - Do not check the index (used to debug why paths were tracked and not ignored):
 
-`git check-ignore --no-index {{path/to/files_or_directories}}`
+`git check-ignore --no-index {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Include details about the matching pattern for each path:
 
-`git check-ignore --verbose {{path/to/files_or_directories}}`
+`git check-ignore --verbose {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
