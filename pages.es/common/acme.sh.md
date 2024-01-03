@@ -22,7 +22,7 @@
 
 - Emite un certificado utilizando una configuración de Apache operativa:
 
-`acme.sh --issue --apache --dominio {{ejemplo.com}}`
+`acme.sh --issue --apache --domain {{ejemplo.com}}`
 
 - Emite un certificado comodín (\*) utilizando un modo API DNS automático:
 

@@ -4,13 +4,9 @@
 > `docker run` gibi bazı alt komutların kendi dökümantasyonu bulunmaktadır.
 > Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Şuan çalışan docker konteynerlerini listele:
-
-`docker ps`
-
 - Tüm (çalışan veya duran) docker konteynerlerini listele:
 
-`docker ps -a`
+`docker ps --all`
 
 - Bir imgeden özel bir isimle konteyner başlat:
 

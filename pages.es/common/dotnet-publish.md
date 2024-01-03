@@ -5,7 +5,7 @@
 
 - Compila un proyecto .NET en modo de lanzamiento:
 
-`dotnet publish --configuration {{Release}} {{ruta/al/archivo_del_proyecto}}`
+`dotnet publish --configuration Release {{ruta/al/archivo_del_proyecto}}`
 
 - Publica el entorno de ejecución de .NET Core con la aplicación para un entorno de ejecución específico:
 
@@ -17,7 +17,7 @@
 
 - Recorta las bibliotecas no usadas para reducir el tamaño de la aplicación:
 
-`dotnet publish --self-contained true --runtime {{identificador_del_entorno_de_tiempo_de_ejecución}} -p:PublishTrimmed={{true}} {{ruta/al/archivo_del_proyecto}}`
+`dotnet publish --self-contained true --runtime {{identificador_del_entorno_de_tiempo_de_ejecución}} -p:PublishTrimmed=true {{ruta/al/archivo_del_proyecto}}`
 
 - Compila un proyecto .NET sin restaurar las dependencias:
 

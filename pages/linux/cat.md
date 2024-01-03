@@ -15,10 +15,6 @@
 
 `cat {{path/to/file1 path/to/file2 ...}} >> {{path/to/output_file}}`
 
-- Copy the contents of a file into an output file in [u]nbuffered mode:
-
-`cat -u {{/dev/tty12}} > {{/dev/tty13}}`
-
 - Write `stdin` to a file:
 
 `cat - > {{path/to/file}}`

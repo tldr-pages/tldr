@@ -26,7 +26,7 @@
 
 - Bir arayüzü etkinleştir/devre dışı bırak:
 
-`ip link set {{arayüz}} up/down`
+`ip link set {{arayüz}} {{up|down}}`
 
 - Bir arayüze IP adresi ekle/sil:
 
