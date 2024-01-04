@@ -1,33 +1,37 @@
 # tar
 
-> Herramienta para archivos.
-> A veces combinada con un método de compresión, como gzip o bzip2.
+> Utilidad de archivado.
+> A menudo se combina con un método de compresión, como gzip o bzip2.
 > Más información: <https://www.gnu.org/software/tar>.
 
-- Crear un archivo a partir de otros archivos:
+- [c]rea un archivo y lo escribe en un [f]ile:
 
-`tar cf {{archivo_destino.tar}} {{archivo1}} {{archivo2}} {{archivo3}}`
+`tar cf {{ruta/al/objetivo.tar}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
-- Crear un archivo comprimido con gzip:
+- [c]rea un archivo g[z]ipado y lo escribe en un [f]ile:
 
-`tar czf {{archivo_destino.tar.gz}} {{archivo1}} {{archivo2}} {{archivo3}}`
+`tar czf {{ruta/al/objetivo.tar.gz}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
-- Extraer un archivo (comprimido) en el directorio actual:
+- [c]rea un archivo g[z]ipado desde un directorio utilizando rutas relativas:
 
-`tar xf {{archivo.tar[.gz|.bz2|.xz]}}`
+`tar czf {{ruta/al/objetivo.tar.gz}} --directory={{ruta/al/directorio}} .`
 
-- Extraer un archivo en un directorio:
+- E[x]trae un [f]ile (comprimido) al directorio actual [v]erbosamente:
 
-`tar xf {{archivo.tar}} -C {{directorio}}`
+`tar xvf {{ruta/a/fuente.tar[.gz|.bz2|.xz]}}`
 
-- Crear un archivo comprimido usando el sufijo para determinar el programa de compresión:
+- E[x]trae un [f]ile (comprimido) al directorio de destino:
 
-`tar caf {{archivo_destino.tar.xz}} {{archivo1}} {{archivo2}} {{archivo3}}`
+`tar xf {{ruta/al/fuente.tar[.gz|.bz2|.xz]}} --directory={{ruta/al/directorio}}`
 
-- Mostrar el contenido de un archivo tar:
+- Crea un archivo comprimido y lo escribe en una carpeta, utilizando la extensión del archivo para determinar automáticamente el programa de compresión:
 
-`tar tvf {{archivo.tar}}`
+`tar caf {{ruta/al/objetivo.tar.xz}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
-- Extraer archivos que coinciden con un patrón:
+- Lis[t]a el contenido de un [f]ile tar [v]erbosamente:
 
-`tar xf {{archivo.tar}} --wildcards "{{*.html}}"`
+`tar tvf {{ruta/al/fuente.tar}}`
+
+- E[x]trae ficheros que coincidan con un patrón de un [f]ile:
+
+`tar xf {{ruta/al/fuente.tar}} --wildcards "{{*.html}}"`
