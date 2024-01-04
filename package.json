@@ -7,7 +7,7 @@
   "homepage": "https://tldr.sh/",
   "dependencies": {
     "glob": "10.3.10",
-    "markdownlint-cli": "^0.37.0",
+    "markdownlint-cli": "^0.38.0",
     "tldr-lint": "^0.0.13"
   },
   "devDependencies": {

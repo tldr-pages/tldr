@@ -6,11 +6,11 @@
 
 - 创建存档并将其写入文件：
 
-`tar cf {{target.tar}} {{file1}} {{file2}} {{file3}}`
+`tar cf {{目标.tar}} {{文件1 文件2 ...}}`
 
 - 创建一个 gzip 压缩文件并将其写入文件：
 
-`tar czf {{target.tar.gz}} {{file1}} {{file2}} {{file3}}`
+`tar czf {{target.tar.gz}} {{file1 file2 ...}}`
 
 - 使用相对路径从目录创建一个 gzip 压缩文件：
 
@@ -26,7 +26,7 @@
 
 - 创建压缩存档并将其写入文件，使用存档后缀确定压缩程序：
 
-`tar caf {{target.tar.xz}} {{file1}} {{file2}} {{file3}}`
+`tar caf {{target.tar.xz}} {{file1 file2 ...}}`
 
 - 详细列出 tar 文件的内容：
 
