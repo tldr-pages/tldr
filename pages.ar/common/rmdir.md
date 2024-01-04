@@ -1,21 +1,13 @@
 # rmdir
 
-> إزالة الدليل ومحتوياته.
-> في PowerShell، هذا الأمر هو اسم مستعار لـ "إزالة العنصر". تعتمد هذه الوثائق على إصدار موجه الأوامر (`cmd`) من `rmdir`.
-> مزيد من المعلومات: <https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
+> إزالة الدلائل بدون ملفات.
+> أنظر أيضاً: `rm`.
+> مزيد من المعلومات: <https://www.gnu.org/software/coreutils/rmdir>.
 
-- عرض وثائق أمر PowerShell المكافئ:
+- إزالة أدلة محددة:
 
-`tldr remove-item`
+`rmdir {{path/to/directory1 path/to/directory2 ...}}`
 
-- إزالة دليل فارغ:
+- إزالة أدلة متداخلة محددة بشكل متكرر:
 
-`rmdir {{path\to\directory}}`
-
-- إزالة الدليل ومحتوياته بشكل متكرر:
-
-`rmdir {{path\to\directory}} /s`
-
-- إزالة الدليل ومحتوياته بشكل متكرر دون مطالبة:
-
-`rmdir {{path\to\directory}} /s /q`
+`rmdir -p {{path/to/directory1 path/to/directory2 ...}}`
