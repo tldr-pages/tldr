@@ -7,7 +7,7 @@
 
 `chatgpt`
 
-- Dar un [p]rompt para responder:
+- Da un [p]rompt para responder:
 
 `chatgpt --prompt "{{¿Cuál es la expresión regular para emparejar una dirección de correo electrónico?}}"`
 

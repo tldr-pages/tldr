@@ -2,6 +2,6 @@
 
 > Este comando es un alias de `python`.
 
-- Ver documentación para el comando original:
+- Ve documentación del comando original:
 
 `tldr python`

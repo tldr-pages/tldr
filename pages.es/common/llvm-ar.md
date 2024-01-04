@@ -2,6 +2,6 @@
 
 > Este comando es un alias de `ar`.
 
-- Ver documentación para el comando original:
+- Ve documentación del comando original:
 
 `tldr ar`

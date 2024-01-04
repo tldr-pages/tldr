@@ -12,7 +12,7 @@
 
 `vim +{{número_de_línea}} {{ruta/al/archivo}}`
 
-- Ver el manual de Vim:
+- Ve el manual de Vim:
 
 `:help<Enter>`
 
