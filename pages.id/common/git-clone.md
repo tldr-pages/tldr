@@ -11,6 +11,10 @@
 
 `git clone --recursive {{lokasi_repositori_remote}}`
 
+- Gandakan hanya direktori `.git` pada repositori saat ini:
+
+`git clone --no-checkout {{lokasi_repositori_remote}}`
+
 - Gandakan repositori lokal:
 
 `git clone --local {{jalan/menuju/repositori/lokal}}`
