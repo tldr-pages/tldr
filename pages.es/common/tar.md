@@ -22,7 +22,7 @@
 
 - E[x]trae un [f]ile (comprimido) al directorio de destino:
 
-`tar xf {{ruta/a/fuente.tar[.gz|.bz2|.xz]}}} --directory={{ruta/a/directorio}}`
+`tar xf {{ruta/al/fuente.tar[.gz|.bz2|.xz]}} --directory={{ruta/al/directorio}}`
 
 - Crea un archivo comprimido y lo escribe en una carpeta, utilizando la extensión del archivo para determinar automáticamente el programa de compresión:
 
@@ -30,8 +30,8 @@
 
 - Lis[t]a el contenido de un [f]ile tar [v]erbosamente:
 
-`tar tvf {{ruta/a/fuente.tar}}`
+`tar tvf {{ruta/al/fuente.tar}}`
 
 - E[x]trae ficheros que coincidan con un patrón de un [f]ile:
 
-`tar xf {{ruta/a/fuente.tar}} --wildcards "{{*.html}}"`
+`tar xf {{ruta/al/fuente.tar}} --wildcards "{{*.html}}"`
