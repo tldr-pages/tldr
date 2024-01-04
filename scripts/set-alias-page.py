@@ -3,13 +3,38 @@
 
 """
 A Python script to generate or update alias pages.
-Call the script with --help to get more information.
 
-For example, add 'vi' as an alias page of 'vim':
-python3 script/set-alias-page.py -p common/vi vim
+Disclaimer: This script generates a lot of false positives so it
+isn't suggested to use the sync option. If used, only stage changes
+and commit verified changes for your language.
 
-Read English alias pages and synchronize them into all translations:
-python3 script/set-alias-page.py -S
+Note: If there is a symlink error when using the stage flag remove the `pages.en`
+directory temporarily and try executing it again.
+
+Usage:
+    python3 scripts/set-alias-page.py [-p PAGE] [-s] [-S] [-n] [COMMAND]
+
+Options:
+    -p, --page PAGE
+        Specify the alias page in the format "platform/alias_command.md".
+    -s, --stage
+        Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
+    -S, --sync
+        Synchronize each translation's alias page (if exists) with that of the English page.
+    -n, --dry-run
+        Show what changes would be made without actually modifying the page.
+
+
+Examples:
+    1. Add 'vi' as an alias page of 'vim':
+       python3 scripts/set-alias-page.py -p common/vi vim
+
+    2. Read English alias pages and synchronize them into all translations:
+       python3 scripts/set-alias-page.py -S
+
+    3. Read English alias pages and show what changes would be made:
+       python3 scripts/set-alias-page.py -Sn
+       python3 scripts/set-alias-page.py --sync --dry-run
 """
 
 import argparse
@@ -105,13 +130,14 @@ def get_alias_page(file):
     return ""
 
 
-def set_alias_page(file, command):
+def set_alias_page(file, command, dry_run=False):
     """
     Write an alias page to disk.
 
     Parameters:
     file (string): Path to an alias page
     command (string): The command that the alias stands for.
+    dry_run (bool): Whether to perform a dry-run.
 
     Returns:
     str: Execution status
@@ -133,45 +159,57 @@ def set_alias_page(file, command):
     orig_command = get_alias_page(file)
     if orig_command == command:
         return ""
-    elif orig_command == "":
-        status = "\x1b[36mpage added"
-    else:
-        status = "\x1b[34mpage updated"
 
-    alias_name = os.path.basename(file[:-3])
-    text = (
-        templates[locale].replace("example", alias_name, 1).replace("example", command)
-    )
-    os.makedirs(os.path.dirname(file), exist_ok=True)
-    with open(file, "w") as f:
-        f.write(text)
+    if orig_command == "":
+        status_prefix = "\x1b[36m"
+        action = "added"
+    else:
+        status_prefix = "\x1b[34m"
+        action = "updated"
+
+    if dry_run:
+        status = f"page will be {action}"
+    else:
+        status = f"page {action}"
+
+    status = f"{status_prefix}{status}\x1b[0m"
+
+    if not dry_run:  # Only write to the file during a non-dry-run
+        alias_name, _ = os.path.splitext(os.path.basename(file))
+        text = (
+            templates[locale]
+            .replace("example", alias_name, 1)
+            .replace("example", command)
+        )
+        os.makedirs(os.path.dirname(file), exist_ok=True)
+        with open(file, "w") as f:
+            f.write(text)
 
     return status
 
 
-def sync(root, pages_dirs, alias_name, orig_command):
+def sync(root, pages_dirs, alias_name, orig_command, dry_run=False):
     """
-    Synchronize an alias page into all translations:
+    Synchronize an alias page into all translations.
 
     Parameters:
     root (str): TLDR_ROOT
     pages_dirs (list of str): Strings of page entry and platform, e.g. "page.fr/common".
     alias_name (str): An alias command with .md extension like "vi.md".
     orig_command (string): An Original command like "vim".
+    dry_run (bool): Whether to perform a dry-run.
 
     Returns:
-    str: a list of paths to be staged into git, using by --stage option.
+    list: A list of paths to be staged into git, using by --stage option.
     """
-
     rel_paths = []
     for page_dir in pages_dirs:
         path = os.path.join(root, page_dir, alias_name)
-        status = set_alias_page(path, orig_command)
+        status = set_alias_page(path, orig_command, dry_run)
         if status != "":
             rel_path = path.replace(f"{root}/", "")
             rel_paths.append(rel_path)
             print(f"\x1b[32m{rel_path} {status}\x1b[0m")
-
     return rel_paths
 
 
@@ -200,6 +238,13 @@ def main():
         action="store_true",
         default=False,
         help="synchronize each translation's alias page (if exists) with that of English page",
+    )
+    parser.add_argument(
+        "-n",
+        "--dry-run",
+        action="store_true",
+        default=False,
+        help="show what changes would be made without actually modifying the pages",
     )
     parser.add_argument("command", type=str, nargs="?", default="")
     args = parser.parse_args()
@@ -242,9 +287,12 @@ def main():
             for command in commands:
                 orig_command = get_alias_page(os.path.join(root, "pages", command))
                 if orig_command != "":
-                    rel_paths += sync(root, pages_dirs, command, orig_command)
+                    rel_paths += sync(
+                        root, pages_dirs, command, orig_command, args.dry_run
+                    )
 
-    if args.stage:
+    # Use '--stage' option
+    if args.stage and not args.dry_run:
         subprocess.call(["git", "add", *rel_paths], cwd=root)
 
 

@@ -10,7 +10,7 @@
 
 - Verplaats de cursor naar het scherm links|rechts:
 
-`Ctrl + w {{h|l}}`
+`<Ctrl> + w {{h|l}}`
 
 - Spring naar het vorige verschil:
 

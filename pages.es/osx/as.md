@@ -12,7 +12,7 @@
 
 `as {{archivo.s}} -o {{salida.o}}`
 
-- Genera resultados más rápido omitiendo los espacios en blanco y el preprocesamiento de comentarios. (Solo debe usarse para compiladores de confianza):
+- Genera resultados más rápidos omitiendo los espacios en blanco y el preprocesamiento de comentarios. (Solo debe usarse para compiladores de confianza):
 
 `as -f {{archivo.s}}`
 

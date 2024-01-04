@@ -25,4 +25,4 @@
 
 - Voer een model uit op multi-GPU met Accelerate, met 2 machines:
 
-`accelerate launch {{pad/naar/script.py}} --multi_gpu --num_machines {{2}}`
+`accelerate launch {{pad/naar/script.py}} --multi_gpu --num_machines 2`

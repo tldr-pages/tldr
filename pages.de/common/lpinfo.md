@@ -1,7 +1,7 @@
 # lpinfo
 
 > Liste verbundene Drucker und installierte Treiber für den CUPS Druckserver.
-> Weitere Informationen: <https://www.cups.org/doc/man-lpinfo.html>.
+> Weitere Informationen: <https://openprinting.github.io/cups/doc/man-lpinfo.html>.
 
 - Liste alle aktuell verbundenen Drucker auf:
 

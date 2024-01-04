@@ -1,4 +1,4 @@
-# gplusplus
+# g++
 
 > Kompiliere C++ Quelldateien.
 > Teil der GCC (GNU Compiler Collection).

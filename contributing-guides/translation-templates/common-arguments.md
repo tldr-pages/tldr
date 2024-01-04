@@ -20,16 +20,16 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | fr    | chemin/vers/fichier  | chemin/vers/dossier    | chemin/vers/fichier_ou_dossier    | paquet    | nom_d_utilisateur |
 | hi    | फ़ाइल/का/पथ            | निर्देशिका/का/पथ            | फ़ाइल_या_निर्देशिका/का/पथ                 | पैकेज      | उपयोगकर्ता_नाम         |
 | id    | jalan/menuju/file    | jalan/menuju/direktori | jalan/menuju/file_atau_direktori  | paket     | nama_pengguna     |
-| it    | percorso/del/file    | percorso/della/directory | percorso/del/file_o_directory     | pacchetto |                   |
+| it    | percorso/del/file    | percorso/della/directory | percorso/del/file_o_directory     | pacchetto | nome_utente       |
 | ja    | ファイルパス         | ディレクトリパス         | ファイルパスまたはディレクトリパス | パッケージ  | ユーザー名        |
 | ko    | 경로/대상/파일        | 경로/대상/폴더          | 경로/대상/파일_또는_폴더           | 패키지    |  사용자 명        |
-| ml    |ഫയലിലേക്കുള്ള/പാത   |ഡയറക്ടറിയിലേക്കുള്ള/പാത    |ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത  |പാക്കേജ്    |ഉപയോക്തൃനാമം |
+| ml    | ഫയലിലേക്കുള്ള/പാത   | ഡയറക്ടറിയിലേക്കുള്ള/പാത    | ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത  | പാക്കേജ്    | ഉപയോക്തൃനാമം |
 | ne    | फाइल/को/पथ            | निर्देशिका/को/पथ            | फाइल_वा_निर्देशिका/को/पथ                 | प्याकेज      | प्रयोगकर्ता_नाम        |
 | nl    | pad/naar/bestand     | pad/naar/map           | pad/naar/bestand_of_map           | pakket    | gebruikersnaam    |
 | no    |                      |                        |                                   |           |                   |
 | pl    | ścieżka/do/pliku     | ścieżka/do/katalogu    | ścieżka/do/pliku_lub_katalogu     | pakiet    | nazwa_użytkownika |
 | pt_BR | caminho/para/arquivo | caminho/para/diretorio | caminho/para/arquivo_ou_diretorio | pacote    | nome_do_usuario   |
-| pt_PT | diretório/ficheiro                     | diretório/ficheiro_ou_diretório    |    pacote      |                   |
+| pt_PT | caminho/para/ficheiro | caminho/para/diretório | caminho/para/ficheiro_ou_diretório | pacote  | nome_de_utilizador |
 | ro    |                      |                        |                                   |           |                   |
 | ru    | путь/до/файла        | путь/до/папки          | путь/до/файла_или_папки           | пакет     | имя_пользователя  |
 | sh    |                      |                        |                                   |           |                   |

@@ -10,7 +10,7 @@
 
 - Navigiere nach links/oben/unten/rechts:
 
-`<H|J|K|L> oder Pfeiltasten`
+`{{H|J|K|L|Pfeiltasten}}`
 
 - Rotiere:
 
@@ -18,7 +18,7 @@
 
 - Invertiere die Farben:
 
-`Strg + R`
+`<Strg> + R`
 
 - Durchsuche den Text nach einem gegebenen String:
 

@@ -19,7 +19,7 @@
 
 `aws secretsmanager describe-secret --secret-id {{nome_ou_arn}}`
 
-- Obtẽm o valor do secret (para pegar a última versão do secret não use `--version-stage`):
+- Obtém o valor do secret (para pegar a última versão do secret não use `--version-stage`):
 
 `aws secretsmanager get-secret-value --secret-id {{nome_ou_arn}} --version-stage {{versão_do_secret}}`
 

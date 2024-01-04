@@ -9,7 +9,7 @@
 
 - Schneide einen bestimmten Bereich jeder Zeile mit einem bestimmten Trennzeichen aus:
 
-`{{befehl}} | cut --delimiter="{{,}} --{{characters}}={{1}}"`
+`{{befehl}} | cut --delimiter="{{,}}" --{{characters}}={{1}}`
 
 - Schneide einen bestimmten Bereich jeder Zeile einer bestimmten Datei aus:
 

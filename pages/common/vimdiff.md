@@ -10,7 +10,7 @@
 
 - Move the cursor to the window on the left|right:
 
-`Ctrl + w {{h|l}}`
+`<Ctrl> + w {{h|l}}`
 
 - Jump to the previous difference:
 

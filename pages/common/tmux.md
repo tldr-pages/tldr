@@ -1,7 +1,8 @@
 # tmux
 
-> Terminal multiplexer. It allows multiple sessions with windows, panes, and more.
-> See also `zellij` and `screen`.
+> Terminal multiplexer.
+> It allows multiple sessions with windows, panes, and more.
+> See also: `zellij`, `screen`.
 > More information: <https://github.com/tmux/tmux>.
 
 - Start a new session:
@@ -22,15 +23,15 @@
 
 - Detach from the current session (inside a tmux session):
 
-`Ctrl-B d`
+`<Ctrl>-B d`
 
 - Create a new window (inside a tmux session):
 
-`Ctrl-B c`
+`<Ctrl>-B c`
 
 - Switch between sessions and windows (inside a tmux session):
 
-`Ctrl-B w`
+`<Ctrl>-B w`
 
 - Kill a session by name:
 

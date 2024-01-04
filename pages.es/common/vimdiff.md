@@ -10,7 +10,7 @@
 
 - Mueve el cursor a la ventana de la izquierda|derecha:
 
-`Ctrl + w {{h|l}}`
+`<Ctrl> + w {{h|l}}`
 
 - Salta a la diferencia previa:
 

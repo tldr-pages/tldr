@@ -11,7 +11,7 @@
 
 `gpg-tui --style {{colored}} --armor`
 
-- Show help in `gpg-tui`:
+- Display help in `gpg-tui`:
 
 `?`
 

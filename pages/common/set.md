@@ -1,7 +1,7 @@
 # set
 
 > Display, set or unset values of shell attributes and positional parameters.
-> More information: <https://manned.org/set>.
+> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#set>.
 
 - Display the names and values of shell variables:
 

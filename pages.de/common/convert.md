@@ -17,15 +17,15 @@
 
 - Hänge Bilder horizontal aneinander:
 
-`convert {{pfad/zu/bild1.png}} {{pfad/zu/bild2.png}} {{pfad/zu/bild3.png}} +append {{pfad/zu/bild123.png}}`
+`convert {{pfad/zu/bild1.png pfad/zu/bild2.png ...}} +append {{pfad/zu/bild.png}}`
 
 - Hänge Bilder vertikal aneinander:
 
-`convert {{pfad/zu/bild1.png}} {{pfad/zu/bild2.png}} {{pfad/zu/bild3.png}} -append {{pfad/zu/bild123.png}}`
+`convert {{pfad/zu/bild1.png pfad/zu/bild2.png ...}} -append {{pfad/zu/bild.png}}`
 
 - Erstelle ein animiertes GIF aus einer Serie von Bildern mit einer Verzögerung von 100 ms zwischen den Bildern:
 
-`convert {{pfad/zu/bild1.png}} {{pfad/zu/bild2.png}} {{pfad/zu/bild3.png}} -delay {{10}} {{pfad/zu/animation.gif}}`
+`convert {{pfad/zu/bild1.png pfad/zu/bild2.png ...}} -delay {{10}} {{pfad/zu/animation.gif}}`
 
 - Erstelle ein Bild mit nichts als einem festen Hintergrund:
 
@@ -33,4 +33,4 @@
 
 - Erstelle ein Favicon aus mehreren Bildern verschiedener Größe:
 
-`convert {{pfad/zu/bild1.png}} {{pfad/zu/bild2.png}} {{pfad/zu/bild3.png}} {{pfad/zu/bild.ico}}`
+`convert {{pfad/zu/bild1.png pfad/zu/bild2.png ...}} {{pfad/zu/bild.ico}}`

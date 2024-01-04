@@ -13,7 +13,7 @@
 
 - 更新所有已安装的包：
 
-`scoop update *`
+`scoop update --all`
 
 - 列出所有已安装的包：
 
@@ -29,4 +29,4 @@
 
 - 移除所有包的旧版本并清理下载缓存：
 
-`scoop cleanup -k *`
+`scoop cleanup --cache --all`
