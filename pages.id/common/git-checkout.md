@@ -1,25 +1,25 @@
 # git checkout
 
-> Lihat isi cabang atau alamat ke dalam direktori kerja.
+> Periksa isi (checkout) cabang atau alamat ke direktori kerja.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-checkout>.
 
-- Buat dan lihat isi cabang baru:
+- Buat cabang baru, kemudian lihat isinya:
 
 `git checkout -b {{nama_cabang}}`
 
-- Buat dan lihat isi cabang baru berdasarkan referensi tertentu (misal cabang, remote, cabang remote, dan tag):
+- Buat ke cabang baru berdasarkan referensi tertentu (misal cabang, remote, cabang remote, dan tag), kemudian lihat isinya:
 
-`git checkout -b {{nama_cabang}} {{referense}}`
+`git checkout -b {{nama_cabang}} {{referensi}}`
 
-- Alih dan lihat isi cabang lokal yang ada:
+- Lihat isi suatu cabang lokal:
 
 `git checkout {{nama_cabang}}`
 
-- Alih dan lihat isi cabang yang sebelumnya di checkout:
+- Lihat kembali cabang yang terakhir kali dilihat sebelum cabang saat ini:
 
 `git checkout -`
 
-- Alih dan lihat isi cabang remote yang ada:
+- Lihat isi cabang yang bersumber dari sumber jauh (remote):
 
 `git checkout --track {{nama_remote}}/{{nama_cabang}}`
 
@@ -31,6 +31,6 @@
 
 `git checkout {{nama_berkas}}`
 
-- Ubah berkas pada direktori saat ini dengan versi pada cabang lain:
+- Ganti berkas pada direktori saat ini dengan versi pada cabang lain:
 
 `git checkout {{nama_cabang}} -- {{nama_berkas}}`
