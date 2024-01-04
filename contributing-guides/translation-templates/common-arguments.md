@@ -6,7 +6,7 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 Only the left-alignment of the header gets lost and has to be re-added again (`|----` → `|:---`).
 
 > [!NOTE]
-> Placeholders in Arabian (`pages.ar`) and Farsi (`pages.fa`) shouldn't be translated to prevent flipped text when reading.
+> Placeholders in Arabian (`ar`) and Farsi (`fa`) pages shouldn't be translated to prevent flipped text when reading.
 
 | en    | path/to/file         | path/to/directory      | path/to/file_or_directory         | package   | username          |
 |:------|:---------------------|:-----------------------|:----------------------------------|:----------|:------------------|
