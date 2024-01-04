@@ -1,13 +1,21 @@
 # rmdir
 
-> حذف دایرکتوری ها بدون فایل.
-> همچنین ببینید: `rm`.
-> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/rmdir>.
+> إزالة الدليل ومحتوياته.
+> في PowerShell، هذا الأمر هو اسم مستعار لـ "إزالة العنصر". تعتمد هذه الوثائق على إصدار موجه الأوامر (`cmd`) من `rmdir`.
+> مزيد من المعلومات: <https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
 
-- حذف دایرکتوری های خاص:
+- عرض وثائق أمر PowerShell المكافئ:
 
-`rmdir {{path/to/directory1 path/to/directory2 ...}}`
+`tldr remove-item`
 
-- دایرکتوری های تو در تو خاص را به صورت بازگشتی حذف کنید:
+- إزالة دليل فارغ:
 
-`rmdir -p {{path/to/directory1 path/to/directory2 ...}}`
+`rmdir {{path\to\directory}}`
+
+- إزالة الدليل ومحتوياته بشكل متكرر:
+
+`rmdir {{path\to\directory}} /s`
+
+- إزالة الدليل ومحتوياته بشكل متكرر دون مطالبة:
+
+`rmdir {{path\to\directory}} /s /q`
