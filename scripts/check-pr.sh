@@ -175,7 +175,7 @@ function check_structure {
 # MAIN
 ###################################
 
-MSG_EXISTS='The page `%s` already exists in the `%s`-folder.\n'
+MSG_EXISTS='The page `%s` already exists in the `%s` directory.\n'
 MSG_NOT_EXISTS='The page `%s` does not exists as English page `%s` yet.\n'
 MSG_OUTDATED='The page `%s` is outdated, %s.\n'
 MSG_IS_COPY='The page `%s` seems to be a copy of `%s` (%d%% matching).\n'
