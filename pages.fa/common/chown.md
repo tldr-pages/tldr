@@ -5,20 +5,20 @@
 
 - تغییر مالک یه فایل یا پوشه:
 
-`chown {{کاربر}} {{مسیر/به/فایل_یا_پوشه}}`
+`chown {{user}} {{path/to/file_or_directory}}`
 
 - تغییر کاربر و گروه مالک فایل:
 
-`chown {{کاربر}}:{{گروه}} {{مسیر/به/فایل_یا_پوشه}}`
+`chown {{user}}:{{group}} {{path/to/file_or_directory}}`
 
 - تغییر بازگشتی مالک یه پوشه و محتویات آن:
 
-`chown -R {{کاربر}} {{مسیر/به/پوشه}}`
+`chown -R {{user}} {{path/to/directory}}`
 
 - تغییر مالک یک فایل میانبر(به فایل دیگری اشاره میکند) :
 
-`chown -h {{کاربر}} {{مسیر/به/فایل_میانبر}}`
+`chown -h {{user}} {{path/to/symlink}}`
 
 - تغییر مالک یک فایل/پوشه برای همسان شدن با فایل مرجع:
 
-`chown --reference={{مسیر/به/فایل_مرجع}} {{مسیر/به/فایل_یا_پوشه}}`
+`chown --reference={{path/to/reference_file}} {{path/to/file_or_directory}}`
