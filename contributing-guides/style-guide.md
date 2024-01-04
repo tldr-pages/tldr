@@ -536,6 +536,6 @@ For example, use `Lista os arquivos` instead of `Listar os arquivos`, `Listando 
 > Crea archivos.
 ```
 
-```markdown
+```md
 - Crea un archivo en un directorio:
 ```
