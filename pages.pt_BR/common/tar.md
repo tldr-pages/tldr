@@ -10,7 +10,7 @@
 
 - [C]ria um arquivo g[z]ip e o escreve para um arquivo:
 
-`tar czvf {{alvo.tar.gz}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
+`taf czf {{alvo.tar.gz}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
 - [C]ria um arquivo g[z]ip a partir de um diretório usando caminhos relativos:
 
