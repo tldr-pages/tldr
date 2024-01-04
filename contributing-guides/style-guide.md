@@ -330,6 +330,10 @@ For instance, instead of `Listing all files:`, `List all files:` can be used as 
  `ls`
 ```
 
+## Emphasis
+
+Do not use *italics*, **boldface** or any other text styling in the pages. These are reserved for client emphasis of placeholders.
+
 ## Serial Comma
 
 - When declaring a list of 3 or more items,

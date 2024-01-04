@@ -4,7 +4,7 @@
 > Alguns subcomandos tais como `adb shell` possuem sua própria documentação de uso.
 > Mais informações: <https://developer.android.com/studio/command-line/adb>.
 
-- Checa se o servidor adb está em execução e o iniciar:
+- Checa se o servidor adb está em execução e o inicia:
 
 `adb start-server`
 
