@@ -1,20 +1,20 @@
 # git blame
 
-> Tampilkan informasi kode hash dan pelaku komit terakhir pada setiap baris dalam suatu file teks.
+> Tampilkan informasi kode hash dan pelaku komit terakhir pada setiap baris dalam suatu berkas teks.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-blame>.
 
-- Tampilkan file teks beserta informasi nama pelaku dan kode hash komit terakhir pada akhir setiap baris teks:
+- Tampilkan berkas teks beserta informasi nama pelaku dan kode hash komit terakhir pada akhir setiap baris teks:
 
-`git blame {{jalan/menuju/file}}`
+`git blame {{jalan/menuju/berkas}}`
 
-- Tampilkan file dengan informasi komit menggunakan alamat surel/[e]mail daripada nama pelaku:
+- Tampilkan berkas dengan informasi komit menggunakan alamat surel/[e]mail daripada nama pelaku:
 
-`git blame -e {{jalan/menuju/file}}`
+`git blame -e {{jalan/menuju/berkas}}`
 
-- Tampilkan informasi nama pelaku dan kode hash komit terakhir pada file yang disimpan dalam komit tertentu:
+- Tampilkan informasi nama pelaku dan kode hash komit terakhir pada berkas yang disimpan dalam komit tertentu:
 
-`git blame {{komit}} {{jalan/menuju/file}}`
+`git blame {{komit}} {{jalan/menuju/berkas}}`
 
-- Tampilkan informasi nama pelaku dan kode hash komit terakhir pada file yang disimpan sebelum komit tertentu:
+- Tampilkan informasi nama pelaku dan kode hash komit terakhir pada berkas yang disimpan sebelum komit tertentu:
 
-`git blame {{komit}}~ {{jalan/menuju/file}}`
+`git blame {{komit}}~ {{jalan/menuju/berkas}}`
