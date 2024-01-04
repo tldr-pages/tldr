@@ -13,4 +13,4 @@
 
 - Search GitHub for topics that match the search string.:
 
-`wami --list-topics pentest`
+`wami --list-topics <search-string>`
