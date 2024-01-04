@@ -27,10 +27,10 @@
 
 `awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' {{pad/naar/bestand}}`
 
-- Toon alle regels waarbij de 10e kolom waarde gelijk is aan de gespecificeerde waarde:
+- Toon alle regels waarbij de waarde van de 10e kolom gelijk is aan de gespecificeerde waarde:
 
 `awk '($10 == {{value}})'`
 
-- Toon alle regels waarbij de 10e kolom waarde tussen een min en een max zit:
+- Toon alle regels waarbij de waarde van de 10e kolom tussen een min en een max zit:
 
 `awk '($10 >= {{min_value}} && $10 <= {{max_value}})'`
