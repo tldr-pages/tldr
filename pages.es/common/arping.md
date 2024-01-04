@@ -1,6 +1,6 @@
 # arping
 
-> Descubrir y sondear hosts en una red utilizando el protocolo ARP.
+> Descubre y sondea hosts en una red utilizando el protocolo ARP.
 > Útil para el descubrimiento de direcciones MAC.
 > Más información: <https://github.com/ThomasHabets/arping>.
 
