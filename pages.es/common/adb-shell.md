@@ -29,7 +29,7 @@
 
 - Inicia una actividad en el emulador o dispositivo:
 
-`adb shell am start -n {{paquete}}/{activity}}`
+`adb shell am start -n {{paquete}}/{{activity}}`
 
 - Inicia la actividad de inicio en un emulador o dispositivo:
 

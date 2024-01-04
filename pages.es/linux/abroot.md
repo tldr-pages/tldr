@@ -1,33 +1,37 @@
 # abroot
 
-> La utilidad ABRoot proporciona inmutabilidad y atomicidad completas al realizar transacciones entre 2 estados de partición raíz (A⟺B).
-> También permite transacciones bajo demanda a través de un shell transaccional.
+> Utilidad que proporciona completa inmutabilidad y atomicidad mediante transacciones entre 2 estados de partición de la raíz (A⟺B).
+> Las actualizaciones se realizan utilizando imágenes OCI, para asegurar que el sistema está siempre en un estado consistente.
 > Más información: <https://github.com/Vanilla-OS/ABRoot>.
 
-- Muestra el estado actual o futuro de la partición raíz:
+- Añade paquetes a la imagen local (Nota: después de ejecutar este comando, se necesita aplicar estos cambios):
 
-`sudo abroot get {{present|future}}`
+`sudo abroot pkg add {{paquete}}`
 
-- Ingresa el shell transaccional en la partición raíz futura y cambia la raíz en el próximo arranque:
+- Elimina paquetes de la imagen local (Nota: después de ejecutar este comando, debe aplicar estos cambios):
 
-`sudo abroot shell`
+`sudo abroot pkg remove {{paquete}}`
 
-- Ejecuta un comando específico en el shell transaccional en la futura partición raíz y cambia a él en el siguiente arranque:
+- Lista paquetes en la imagen local:
 
-`sudo abroot exec "{{comando}}"`
+`sudo abroot pkg list`
 
-- Instala paquetes específicos en el host dentro del shell transaccional en la partición raíz futura y cambia a él en el próximo arranque:
+- Aplica los cambios en la imagen local (Nota: es necesario reiniciar el sistema para que estos cambios sean aplicados):
 
-`sudo abroot exec apt install {{paquete1 paquete2 ...}}`
+`sudo abroot pkg apply`
 
-- Actualiza la partición de arranque (solo para usuarios avanzados):
+- Retrocede su sistema al estado anterior:
 
-`sudo abroot _update-boot`
+`sudo abroot rollback`
 
-- Muestra la ayuda:
+- Edita/Visualiza los parámetros del kernel:
+
+`sudo abroot kargs {{edit|show}}`
+
+- Muestra estado:
+
+`sudo abroot status`
+
+- Muestra ayuda:
 
 `abroot --help`
-
-- Muestra la version:
-
-`abroot --version`

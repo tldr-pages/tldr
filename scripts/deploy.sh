@@ -35,9 +35,9 @@ function upload_assets {
   git clone --quiet --depth 1 "git@github.com:tldr-pages/tldr-pages.github.io.git" "$SITE_HOME"
 
   mv -f "$TLDR_ARCHIVE" "$SITE_HOME/assets/"
-  find "$TLDRHOME/language_archives" -maxdepth 1 -name "*.zip" -exec mv -f {} "$SITE_HOME/assets/" \;
+  find "$TLDRHOME/language_archives" -maxdepth 1 -name '*.zip' -exec mv -f {} "$SITE_HOME/assets/" \;
   cp -f "$TLDRHOME/index.json" "$SITE_HOME/assets/"
-  find "$TLDRHOME/scripts/pdf" -maxdepth 1 -name "*.pdf" -exec mv -f {} "$SITE_HOME/assets/" \;
+  find "$TLDRHOME/scripts/pdf" -maxdepth 1 -name '*.pdf' -exec mv -f {} "$SITE_HOME/assets/" \;
 
   cd "$SITE_HOME/assets"
   sha256sum -- index.json *.zip > tldr.sha256sums
