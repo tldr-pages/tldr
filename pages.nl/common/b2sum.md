@@ -23,6 +23,6 @@
 
 `b2sum --check --quiet {{pad/naar/bestand.b2}}`
 
--  Toon alleen een melding als een verificatie faalt en negeer missende bestanden:
+- Toon alleen een melding als een verificatie faalt en negeer missende bestanden:
 
 `b2sum --ignore-missing --check --quiet {{pad/naar/bestand.b2}}`
