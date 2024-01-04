@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 """
-A Python script to update the common part of a command on all languages.
+A Python script to update the common contents of a command across all languages.
 
 Usage:
     python3 scripts/update-command.py [-c] [-u] [-n] <PLATFORM> <FILENAME> [COMMAND]
