@@ -532,7 +532,7 @@ For example, use `Lista os arquivos` instead of `Listar os arquivos`, `Listando 
 
 - The descriptions of commands and examples must be conjugated in the third person singular indicative tense. Here are a couple of examples:
 
-```markdown
+```md
 > Crea archivos.
 ```
 
