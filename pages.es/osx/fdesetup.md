@@ -7,7 +7,7 @@
 
 `sudo fdesetup list`
 
-- Obtiene el estado actual de FileVault:
+- Obtén el estado actual de FileVault:
 
 `fdesetup status`
 

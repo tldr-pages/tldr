@@ -16,7 +16,7 @@
 
 `git config --list --system --show-origin`
 
-- Obtiene el valor de una entrada de configuración dada:
+- Obtén el valor de una entrada de configuración dada:
 
 `git config alias.unstage`
 
