@@ -6,4 +6,4 @@
 
 - ضبط یک اسکرین شات :
 
-`screencap {{مسیر/به/فایل}}`
+`screencap {{path/to/file}}`
