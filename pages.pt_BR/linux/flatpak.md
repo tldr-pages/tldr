@@ -27,6 +27,10 @@
 
 `flatpak remove {{nome}}`
 
+- Remove todos as aplicações não usadas:
+
+`flatpak remove --unused`
+
 - Mostra informações sobre uma aplicação instalada:
 
 `flatpak info {{nome}}`
