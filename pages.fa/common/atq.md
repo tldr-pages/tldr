@@ -12,12 +12,5 @@
 `atq -q {{a}}`
 
 - نمایش کارهای تمام کاربرها (با دسترسی سوپریوزر اجرا کنید):
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- Show jobs of all users (run as superuser):
->>>>>>> 7f6810fc5 (calendar, atq, catimg: add Farsi translation)
-=======
->>>>>>> 651f2a047 (remove extra line)
 
 `sudo atq`
