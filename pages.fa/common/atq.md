@@ -12,6 +12,5 @@
 `atq -q {{a}}`
 
 - نمایش کارهای تمام کاربرها (با دسترسی سوپریوزر اجرا کنید):
-- Show jobs of all users (run as superuser):
 
 `sudo atq`
