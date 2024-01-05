@@ -6,16 +6,16 @@
 
 - اضافه کردن مخفف جدید:
 
-`abbr --add {{نام_اختصاری}} {{دستور}} {{آرگومان_های_دستور}}`
+`abbr --add {{abbreviation_name}} {{command}} {{command_arguments}}`
 
 - تغییر نام یک مخفف موجود:
 
-`abbr --rename {{نام_قدیمی}} {{نام_جدید}}`
+`abbr --rename {{old_name}} {{new_name}}`
 
 - پاک کردن یک مخفف موجود:
 
-`abbr --erase {{نام_مخفف}}`
+`abbr --erase {{abbreviation_name}}`
 
 - وارد کردن یک مخفف وارد شده در یک میزبان دیگر از طریق ssh:
 
-`ssh {{نام_میزبان}} abbr --show | source`
+`ssh {{host_name}} abbr --show | source`
