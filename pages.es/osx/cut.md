@@ -9,8 +9,8 @@
 
 - Imprime un rango de cada línea con un delimitador específico:
 
-`{{command}} | cut -d "{{,}}" -{{c}} {{1}}`
+`{{command}} | cut -d "{{,}}" -c {{1}}`
 
 - Imprime un rango de cada línea de un archivo específico:
 
-`cut -{{c}} {{1}} {{ruta/al/archivo}}`
+`cut -c {{1}} {{ruta/al/archivo}}`

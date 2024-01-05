@@ -9,8 +9,8 @@
 
 - Toon een bereik voor iedere regel met een specifieke scheiding:
 
-`{{commando}} | cut --delimiter="{{,}}" --{{fields}}={{1}}`
+`{{commando}} | cut --delimiter="{{,}}" --fields={{1}}`
 
 - Toon een bereik van iedere regel voor een specifiek bestand:
 
-`cut --{{characters}}={{1}} {{pad/naar/bestand}}`
+`cut --characters={{1}} {{pad/naar/bestand}}`

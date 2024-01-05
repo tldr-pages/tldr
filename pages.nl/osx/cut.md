@@ -9,8 +9,8 @@
 
 - Toon een bereik voor iedere regel met een specifieke scheiding:
 
-`{{commando}} | cut -d "{{,}}" -{{c}} {{1}}`
+`{{commando}} | cut -d "{{,}}" -c {{1}}`
 
 - Toon een bereik van iedere regel voor een specifiek bestand:
 
-`cut -{{c}} {{1}} {{pad/naar/bestand}}`
+`cut -c {{1}} {{pad/naar/bestand}}`
