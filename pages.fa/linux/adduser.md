@@ -5,20 +5,20 @@
 
 - ایجاد یک کاربر جدید با دایرکتوری خانگی پیش‌فرض و درخواست از کاربر برای تنظیم رمز عبور:
 
-`adduser {{نام‌ کاربری}}`
+`adduser {{username}}`
 
 - ایجاد یک کاربر جدید بدون دایرکتوری خانگی:
 
-`adduser --no-create-home {{نام‌ کاربری}}`
+`adduser --no-create-home {{username}}`
 
 - ایجاد یک کاربر جدید با دایرکتوری خانگی در مسیر مشخص:
 
-`adduser --home {{مسیر/به/خانه}} {{نام‌ کاربری}}`
+`adduser --home {{path/to/home}} {{username}}`
 
 - ایجاد یک کاربر جدید با تنظیم پوسته (shell) مشخص به عنوان پوسته ورود:
 
-`adduser --shell {{مسیر/به/پوسته}} {{نام‌ کاربری}}`
+`adduser --shell {{path/to/shell}} {{username}}`
 
 - ایجاد یک کاربر جدید که به گروه مشخصی تعلق دارد:
 
-`adduser --ingroup {{گروه}} {{نام‌ کاربری}}`
+`adduser --ingroup {{group}} {{username}}`

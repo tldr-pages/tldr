@@ -1,12 +1,13 @@
 # rmdir
 
-> يزيل الدليل.
-> لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/rmdir>.
+> إزالة الدلائل بدون ملفات.
+> أنظر أيضاً: `rm`.
+> مزيد من المعلومات: <https://www.gnu.org/software/coreutils/rmdir>.
 
-- إزالة الدليل الفارغ. استخدم `rm -r` لإزالة الدلائل الغير فارغة:
+- إزالة أدلة محددة:
 
-`rmdir {{المسار/إلى/الدليل}}`
+`rmdir {{path/to/directory1 path/to/directory2 ...}}`
 
-- إزالة الدليل المحدد ودلائله الأصلية (مفيد للدلائل المتداخلة):
+- إزالة أدلة متداخلة محددة بشكل متكرر:
 
-`rmdir -p {{المسار/إلى/الدليل}}`
+`rmdir -p {{path/to/directory1 path/to/directory2 ...}}`
