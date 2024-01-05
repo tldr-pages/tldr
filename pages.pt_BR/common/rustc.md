@@ -16,6 +16,10 @@
 
 `rustc -g {{caminho/para/arquivo.rs}}`
 
+- Explica uma mensagem de erro:
+
+`rustc --explain {{código_de_erro}}`
+
 - Compila com otimizações específicas de arquitetura para a CPU atual:
 
 `rustc -C target-cpu={{native}} {{caminho/para/arquivo.rs}}`
