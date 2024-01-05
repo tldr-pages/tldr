@@ -7,14 +7,14 @@
 
 `wami -a -S desc -s <search-string>`
 
-- Search GitHub to find expanded results, displayed in descending order.:
+- Search GitHub to find expanded results, displayed in descending order:
 
 `wami -a -S desc --github <search-string>`
 
-- Search GitHub for topics that match the search string.:
+- Search GitHub for topics that match the search string:
 
 `wami --list-topics <search-string>`
 
-- Search the lake for a tool used in pentests to query for default credentials and order desc to get the first match at the bottom
+- Search the lake for a tool used in pentests to query for default credentials and order desc to get the first match at the bottom:
 
 `wami -S desc -s pentest credential default`
