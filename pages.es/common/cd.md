@@ -19,10 +19,10 @@
 
 `cd ~{{nombredeusuario}}`
 
-- Ve al directorio elegido anteriormente:
+- Cambia al directorio elegido anteriormente:
 
 `cd -`
 
-- Ve al directorio raíz:
+- Cambia al directorio raíz:
 
 `cd /`

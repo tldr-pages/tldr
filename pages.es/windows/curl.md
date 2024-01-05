@@ -3,6 +3,6 @@
 > Este comando es un alias de `curl -p common`.
 > Más información: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- Ve documentación del comando original:
+- Muestra la documentación del comando original:
 
 `tldr curl -p common`

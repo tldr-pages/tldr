@@ -11,7 +11,7 @@
 
 `valet park`
 
-- Ve las rutas 'aparcadas':
+- Muestra las rutas 'aparcadas':
 
 `valet paths`
 

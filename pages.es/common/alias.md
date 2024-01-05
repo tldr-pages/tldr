@@ -12,7 +12,7 @@
 
 `alias {{nombre}}="{{comando}}"`
 
-- Ve el comando asociado a un alias:
+- Muestra el comando asociado a un alias:
 
 `alias {{nombre}}`
 

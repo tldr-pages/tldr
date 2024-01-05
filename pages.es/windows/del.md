@@ -4,7 +4,7 @@
 > En PowerShell, este comando es un alias de `Remove-Item`. Esta documentación se basa en la versión del símbolo del sistema (`cmd`) de `del`.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
 
-- Ve la documentación del comando PowerShell equivalente:
+- Muestra la documentación del comando PowerShell equivalente:
 
 `tldr remove-item`
 

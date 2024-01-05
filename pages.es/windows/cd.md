@@ -7,7 +7,7 @@
 
 `cd`
 
-- Ve a la raíz de la unidad actual:
+- Cambia a la raíz de la unidad actual:
 
 `cd \`
 

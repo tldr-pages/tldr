@@ -23,11 +23,11 @@
 
 `calc -m {{modo}}`
 
-- Ve una introducción a `calc`:
+- Muestra una introducción a `calc`:
 
 `calc help intro`
 
-- Ve una visión general de `calc`:
+- Muestra una visión general de `calc`:
 
 `calc help overview`
 
