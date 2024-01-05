@@ -527,3 +527,15 @@ To ensure that the sentence may not be confused with `start processing the web s
 Example descriptions on pages in Portuguese (for both European and Brazilian Portuguese) must start with verbs in the third person singular present indicative tense. This is because the descriptions must explain what the commands do, making this the correct form to express the intended meaning.
 
 For example, use `Lista os arquivos` instead of `Listar os arquivos`, `Listando os arquivos` or any other form.
+
+### Spanish-Specific Rules
+
+- The descriptions of commands and examples must be conjugated in the third person singular indicative tense. Here are a couple of examples:
+
+```md
+> Crea archivos.
+```
+
+```md
+- Crea un archivo en un directorio:
+```
