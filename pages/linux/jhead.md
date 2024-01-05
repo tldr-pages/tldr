@@ -15,11 +15,11 @@
 
 `jhead -dsft {{path/to/image.jpg}}`
 
-- Rename all jpeg files based on the EXIF create date to `YYYY_MM_DD-HH_MM_SS.jpg`:
+- Rename all JPEG files based on the EXIF create date to `YYYY_MM_DD-HH_MM_SS.jpg`:
 
 `jhead -n%Y_%m_%d-%H_%M_%S *.jpg`
 
-- Rotate losslessly of all JPEG images by 90, 180 or 270 based on the EXIF orientation tag:
+- Rotate losslessly all JPEG images by 90, 180 or 270 based on the EXIF orientation tag:
 
 `jhead -autorot *.jpg`
 
