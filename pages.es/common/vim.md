@@ -20,7 +20,7 @@
 
 `:wq<Enter>`
 
-- Deshace la última operación:
+- Deshaz la última operación:
 
 `<ESC>u`
 
