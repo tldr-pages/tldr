@@ -7,7 +7,7 @@
 
 `top`
 
-- No muestra ningún proceso inactivo o zombie:
+- Oculta los procesos inactivos o zombies:
 
 `top -i`
 

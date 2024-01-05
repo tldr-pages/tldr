@@ -20,7 +20,7 @@
 
 `ack --type={{ruby}} "{{patrón_de_búsqueda}}"`
 
-- No buscar en archivos dado un tipo específico:
+- Busca archivos que no sean de un cierto tipo:
 
 `ack --type=no{{ruby}} "{{patrón_de_búsqueda}}"`
 
