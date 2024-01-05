@@ -3,6 +3,10 @@
 > SDK livre e open source do Google para desenvolvimento de aplicativos mobile cross-platform.
 > Mais informações: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
 
+- Inicializa um novo projeto Flutter em um diretório de mesmo nome:
+
+`flutter create {{nome_do_projeto}}`
+
 - Verifica se todas as ferramentas externas necessárias estão instaladas:
 
 `flutter doctor`
