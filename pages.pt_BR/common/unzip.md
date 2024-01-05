@@ -9,7 +9,15 @@
 
 - Extrai arquivos zip para caminhos específicos:
 
-`unzip {{caminho/para/arquivo1.zip caminho/para/arquivo2.zip ...}} -d {{caminho/para}}`
+`unzip {{caminho/para/arquivo1.zip caminho/para/arquivo2.zip ...}} -d {{caminho/para/saída}}`
+
+- Extrai arquivos/diretórios de arquivos para `stdout`:
+
+`unzip {{caminho/para/arquivo1.zip caminho/para/arquivo2.zip ...}}`
+
+- Extrai o conteúdo do(s) arquivo(s) para `stdout` ao lado dos nomes dos arquivos extraídos:
+
+`unzip -O gbk {{caminho/para/arquivo1.zip caminho/para/arquivo2.zip ...}}`
 
 - Lista conteúdos de arquivos zip:
 
