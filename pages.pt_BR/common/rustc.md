@@ -1,12 +1,16 @@
 # rustc
 
 > O compilador Rust.
-> Processa, compila e vincula arquivos fonte da linguagem Rust.
+> Projetos Rust geralmente usam o `cargo` em vez de chamar `rustc` diretamente.
 > Mais informações: <https://doc.rust-lang.org/rustc>.
 
-- Compila um único arquivo:
+- Compila uma crate binária:
 
 `rustc {{caminho/para/arquivo.rs}}`
+
+- Compila com otimizações (s significa otimizar o tamanho do binário; z é o mesmo com ainda mais otimizações):
+
+`rustc -C lto -C opt-level={{0|1|2|3|s|z}} {{caminho/para/arquivo.rs}}`
 
 - Compila com informações de depuração:
 
