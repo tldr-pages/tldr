@@ -3,7 +3,7 @@
 > An open-source and easy-to-use tool that recommends suitable programs for for specific tasks.
 > More information: <https://github.com/evait-security/wami>.
 
-- Find expanded results in all categories from the lake and [S]sort them in the specified order:
+- Find expanded results in all categories from the lake and [S]ort them in the specified order:
 
 `wami --show-all -S {{asc|desc}} --search-all {{search_string}}`
 
