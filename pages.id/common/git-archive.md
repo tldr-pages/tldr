@@ -21,8 +21,8 @@
 
 - Buat arsip tar berdasaran subdirektori tertentu pada suatu repositori Git:
 
-`git archive --output={{jalan/menuju/file.tar}} HEAD:{{jalan/menuju/direktori}}`
+`git archive --output {{jalan/menuju/file.tar}} HEAD:{{jalan/menuju/direktori}}`
 
 - Bubuhkan nama jalur pada awal nama setiap file, untuk diarsipkan di dalam direktori tertentu:
 
-`git archive --output={{jalan/menuju/file.tar}} --prefix={{jalan/untuk/dibubuhkan}}/ HEAD`
+`git archive --output {{jalan/menuju/file.tar}} --prefix={{jalan/untuk/dibubuhkan}}/ HEAD`
