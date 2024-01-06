@@ -24,6 +24,10 @@
 
 `cargo add {{dependência}}`
 
+- Constrói o projeto Rust no diretório atual usando o perfil de lançamento:
+
+`cargo build --release`
+
 - Constrói o projeto Rust no diretório atual utilizando o nightly compilador:
 
 `cargo +nightly build`
