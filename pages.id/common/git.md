@@ -1,29 +1,29 @@
 # git
 
 > Sistem kontrol versi terdistribusi.
-> Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `git commit`.
+> Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `commit`, `add`, `branch`, `checkout`, `push`, dsb.
 > Informasi lebih lanjut: <https://git-scm.com/>.
 
-- Memeriksa versi Git:
+- Periksa versi Git:
 
 `git --version`
 
-- Menunjukkan bantuan umum:
+- Tampilkan bantuan umum:
 
 `git --help`
 
-- Menampilkan bantuan pada sub perintah Git (seperti `commit`,` log`, dll.):
+- Tampilkan bantuan pada sub perintah Git (seperti `commit`,` log`, dll.):
 
 `git help {{subcommand}}`
 
-- Menjalankan subperintah Git:
+- Jalankan subperintah Git:
 
 `git {{subcommand}}`
 
-- Menjalankan subperintah Git di jalur root repositori kustom:
+- Jalankan subperintah Git di jalur root repositori kustom:
 
 `git -C {{alamat/ke/repositori}} {{subcommand}}`
 
-- Menjalankan subperintah Git dengan set konfigurasi yang diberikan:
+- Jalankan subperintah Git dengan set konfigurasi yang diberikan:
 
 `git -c '{{config.key}}={{value}}' {{subcommand}}`
