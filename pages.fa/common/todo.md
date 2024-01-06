@@ -7,7 +7,7 @@
 
 `todo list --startable`
 
--  اضافه کردن یک وظیفه به فهرست کارها :
+- اضافه کردن یک وظیفه به فهرست کارها :
 
 `todo new {{thing_to_do}} --list {{work}}`
 
