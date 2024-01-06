@@ -35,7 +35,6 @@ exceptions can always be considered through open community discussion.)
   (Maintenance work means facilitating contributions by other people,
   which in this project typically consists of reviewing and/or merging PRs.)
   Specifically: once a repository collaborator has _merged at least 10 PRs_
-  (see `https://github.com/tldr-pages/tldr/commits?committer=<username>`)
   and submitted at least _5 non-trivial reviews to PRs_
   (see `https://github.com/tldr-pages/tldr/pulls?q=reviewed-by:<username>`),
   which can overlap with the 10 they merged themselves,
@@ -46,9 +45,8 @@ exceptions can always be considered through open community discussion.)
   push commits to all of the organization's repositories,
   merge PRs, label and close issues, among other things.
 
-  > [!NOTE]
-  > All members of the tldr-pages organization
-  > must make their membership public.
+> [!NOTE]
+> All members of the tldr-pages organization **must** make their membership public.
 
 - **Organization members who remain active for a while should become organization owners.**
   Specifically: members of the tldr-pages organization

@@ -5,32 +5,32 @@
 
 - جستجو یک الگو در یک فایل :
 
-`grep "{{الگو_جستجو}}" {{مسیر/به/فایل}}`
+`grep "{{search_pattern}}" {{path/to/file}}`
 
 - جستجو یک عبارت خاص (معادل مقایسه رشته ای) :
 
-`grep --fixed-strings "{{رشته_مورد_نظر}}" {{مسیر/به/فایل}}`
+`grep --fixed-strings "{{exact_string}}" {{path/to/file}}`
 
 - جستجو بازگشتی یک الگو در تمامی فایل های یک پوشه، نمایش تمامی خطوط منطبق، فایل های باینری را رد میکند:
 
-`grep --recursive --line-number --binary-files={{without-match}} "{{الگو_جستجو}}" {{مسیر/به/پوشه}}`
+`grep --recursive --line-number --binary-files={{without-match}} "{{search_pattern}}" {{path/to/directory}}`
 
 - استفاده از عبارات با قاعده توسعه یافته (با پشتیبانی از `?`، `+`، `{}`، `()` و `|`)، در حالت حساس به بزرگی کوچکی کاراکتر ها :
 
-`grep --extended-regexp --ignore-case "{{الگو_جستجو}}" {{مسیر/به/فایل}}`
+`grep --extended-regexp --ignore-case "{{search_pattern}}" {{path/to/file}}`
 
 - چاپ 3 خط از قبل و بعد محل انطباق:
 
-`grep --{{context|before-context|after-context}}={{3}} "{{الگو_جستجو}}" {{مسیر/به/فایل}}`
+`grep --{{context|before-context|after-context}}={{3}} "{{search_pattern}}" {{path/to/file}}`
 
 - چاپ نام فایل و شماره خط برای هر انطباق با رنگبندی :
 
-`grep --with-filename --line-number --color=always "{{الگو_جستجو}}" {{مسیر/به/فایل}}`
+`grep --with-filename --line-number --color=always "{{search_pattern}}" {{path/to/file}}`
 
 - جستجوی خطوط منطبق، چاپ متن منطبق :
 
-`grep --only-matching "{{الگو_جستجو}}" {{مسیر/به/فایل}}`
+`grep --only-matching "{{search_pattern}}" {{path/to/file}}`
 
 - ورودی استاندارد (stdin) رو برای الگوهایی که منطبق نیستند جستجو میکند :
 
-`cat {{مسیر/به/فایل}} | grep --invert-match "{{الگوی_جستجو}}"`
+`cat {{path/to/file}} | grep --invert-match "{{search_pattern}}"`
