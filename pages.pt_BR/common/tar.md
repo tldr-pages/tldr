@@ -10,11 +10,11 @@
 
 - [C]ria um arquivo g[z]ip e o escreve para um arquivo:
 
-`taf czf {{alvo.tar.gz}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
+`tar czf {{alvo.tar.gz}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
 - [C]ria um arquivo g[z]ip a partir de um diretório usando caminhos relativos:
 
-`tar czf {{caminho/para/alvo.tar.xz}} --directoy={{caminho/para/diretório}} .`
+`tar czf {{caminho/para/alvo.tar.xz}} --directory={{caminho/para/diretório}} .`
 
 - E[x]trai arquivos de um arquivo (compactado):
 
@@ -22,7 +22,7 @@
 
 - E[x]trai um arquivo (compactado) para um diretório alvo:
 
-`tar xf {{caminho/para/origem.tar[.gz|.bz2|.xz]}} --directoy={{caminho/para/diretório}}`
+`tar xf {{caminho/para/origem.tar[.gz|.bz2|.xz]}} --directory={{caminho/para/diretório}}`
 
 - [C]ria um arquivo compactado e o escreve para um arquivo, usando a extensão de arquivo para determinar automaticamente a compressão do programa:
 

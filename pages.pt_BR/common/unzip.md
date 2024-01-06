@@ -13,7 +13,7 @@
 
 - Extrai arquivos/diretórios de arquivos para `stdout`:
 
-`unzip {{caminho/para/arquivo1.zip caminho/para/arquivo2.zip ...}}`
+`unzip -c {{caminho/para/arquivo1.zip caminho/para/arquivo2.zip ...}}`
 
 - Extrai o conteúdo do(s) arquivo(s) para `stdout` ao lado dos nomes dos arquivos extraídos:
 

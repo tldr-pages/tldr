@@ -21,11 +21,11 @@
 
 - Cria um zip encriptado com uma senha específica:
 
-`zip -r -e {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
+`zip -r -e {{caminho/para/comprimido.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
 
 - Compacta arquivos/diretórios para um zip dividido em múltiplas partes (p. ex. partes de 3 GB):
 
-`zip -r -s {{3g}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
+`zip -r -s {{3g}} {{caminho/para/comprimido.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
 
 - Print a specific archive contents:
 
