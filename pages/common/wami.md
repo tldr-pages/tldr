@@ -15,6 +15,6 @@
 
 `wami --list-topics {{search_string}}`
 
-- Search the lake for a tool used in pentests to query for default credentials and [s]ort the results in descending order:
+- Search the lake for a tool used in pentests to query for default credentials and [S]ort the results in descending order:
 
 `wami -S desc --search-all pentest credential default`
