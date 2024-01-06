@@ -22,7 +22,7 @@
 
 - E[x]trai um arquivo (compactado) para um diretório alvo:
 
-`tar xf {{caminho/para/origem.tar[.gz|.bz2|.xz]}} --directoy={{caminho/para/diretório}} .`
+`tar xf {{caminho/para/origem.tar[.gz|.bz2|.xz]}} --directoy={{caminho/para/diretório}}`
 
 - [C]ria um arquivo compactado e o escreve para um arquivo, usando a extensão de arquivo para determinar automaticamente a compressão do programa:
 

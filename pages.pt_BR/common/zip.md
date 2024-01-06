@@ -17,7 +17,7 @@
 
 - Compacta arquivos com um nível de compressão específico (0 - o mais baixo, 9 - o mais alto):
 
-`zip -r -{{0..9}} {{caminho/para/comprimido.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
+`zip -r -{{0-9}} {{caminho/para/comprimido.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
 
 - Cria um zip encriptado com uma senha específica:
 
@@ -25,7 +25,7 @@
 
 - Compacta arquivos/diretórios para um zip dividido em múltiplas partes (p. ex. partes de 3 GB):
 
-`zip -r -e {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
+`zip -r -s {{3g}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
 
 - Print a specific archive contents:
 

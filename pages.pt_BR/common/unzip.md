@@ -17,7 +17,7 @@
 
 - Extrai o conteúdo do(s) arquivo(s) para `stdout` ao lado dos nomes dos arquivos extraídos:
 
-`unzip -O gbk {{caminho/para/arquivo1.zip caminho/para/arquivo2.zip ...}}`
+`unzip -O {{gbk}} {{caminho/para/arquivo1.zip caminho/para/arquivo2.zip ...}}`
 
 - Lista conteúdos de arquivos zip:
 
