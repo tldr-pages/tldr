@@ -25,4 +25,4 @@
 
 - Bubuhkan nama jalur pada awal nama setiap file, untuk diarsipkan di dalam direktori tertentu:
 
-`git archive --output {{jalan/menuju/file.tar}} --prefix={{jalan/untuk/dibubuhkan}}/ HEAD`
+`git archive --output {{jalan/menuju/file.tar}} --prefix {{jalan/untuk/dibubuhkan}}/ HEAD`
