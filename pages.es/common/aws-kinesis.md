@@ -19,7 +19,7 @@
 
 `aws kinesis list-shards --stream-name {{nombre}}`
 
-- Obtiene un iterador de fragmentos para leer el mensaje más antiguo de un fragmento de flujo:
+- Obtén un iterador de fragmentos para leer el mensaje más antiguo de un fragmento de flujo:
 
 `aws kinesis get-shard-iterator --shard-iterator-type TRIM_HORIZON --stream-name {{nombre}} --shard-id {{id}}`
 

@@ -7,7 +7,7 @@
 
 `hcloud`
 
-- Show help for `hcloud`:
+- Display help:
 
 `hcloud -h`
 

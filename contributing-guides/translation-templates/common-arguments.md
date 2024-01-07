@@ -5,9 +5,11 @@ The best way to edit this file is by using [tableconvert.com](https://tableconve
 There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.  
 Only the left-alignment of the header gets lost and has to be re-added again (`|----` → `|:---`).
 
+> [!NOTE]
+> Placeholders in Arabian (`ar`) and Farsi (`fa`) pages shouldn't be translated to prevent flipped text when reading.
+
 | en    | path/to/file         | path/to/directory      | path/to/file_or_directory         | package   | username          |
 |:------|:---------------------|:-----------------------|:----------------------------------|:----------|:------------------|
-| ar    | المسار/إلى/الملف | المسار/إلى/الدليل | المسار/إلى/الملف_أو_الدليل  |          حزمة         |        اسم_المستخدم |
 | bn    | পাথ/টু/ফাইল          | পাথ/টু/ডিরেক্টরি          | পথ/থেকে/ফাইল_অথবা_ডিরেক্টরি       | প্যাকেজ    | ইউজারনেম         |
 | bs    |                      |                        |                                   |           |                   |
 | ca    | camí/al/fitxer       | camí/al/directori      | camí/al/fitxer_o_directori        | paquet    | nom_usuari        |
@@ -15,21 +17,20 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | da    | sti/til/fil          | sti/til/mappe          | sti/til/fil_eller_mappe           | pakke     | brugernavn        |
 | de    | pfad/zu/datei        | pfad/zu/verzeichnis    | pfad/zu/datei_oder_verzeichnis    | paket     | benutzername      |
 | es    | ruta/al/archivo      | ruta/al/directorio     | ruta/al/archivo_o_directorio      | paquete   | nombre_de_usuario |
-| fa    |   مسیر/به/فایل       |          مسیر/به/پوشه        |       مسیر/به/فایل_یا_پوشه                 |    بسته     |        نام کاربری           |
 | fi    | polku/tiedostoon     | polku/hakemistoon      | polku/tiedostoon_vai_hakemistoon  | paketti   | tunnus            |
 | fr    | chemin/vers/fichier  | chemin/vers/dossier    | chemin/vers/fichier_ou_dossier    | paquet    | nom_d_utilisateur |
 | hi    | फ़ाइल/का/पथ            | निर्देशिका/का/पथ            | फ़ाइल_या_निर्देशिका/का/पथ                 | पैकेज      | उपयोगकर्ता_नाम         |
 | id    | jalan/menuju/file    | jalan/menuju/direktori | jalan/menuju/file_atau_direktori  | paket     | nama_pengguna     |
-| it    | percorso/del/file    | percorso/della/directory | percorso/del/file_o_directory     | pacchetto |                   |
+| it    | percorso/del/file    | percorso/della/directory | percorso/del/file_o_directory     | pacchetto | nome_utente       |
 | ja    | ファイルパス         | ディレクトリパス         | ファイルパスまたはディレクトリパス | パッケージ  | ユーザー名        |
 | ko    | 경로/대상/파일        | 경로/대상/폴더          | 경로/대상/파일_또는_폴더           | 패키지    |  사용자 명        |
-| ml    |ഫയലിലേക്കുള്ള/പാത   |ഡയറക്ടറിയിലേക്കുള്ള/പാത    |ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത  |പാക്കേജ്    |ഉപയോക്തൃനാമം |
+| ml    | ഫയലിലേക്കുള്ള/പാത   | ഡയറക്ടറിയിലേക്കുള്ള/പാത    | ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത  | പാക്കേജ്    | ഉപയോക്തൃനാമം |
 | ne    | फाइल/को/पथ            | निर्देशिका/को/पथ            | फाइल_वा_निर्देशिका/को/पथ                 | प्याकेज      | प्रयोगकर्ता_नाम        |
 | nl    | pad/naar/bestand     | pad/naar/map           | pad/naar/bestand_of_map           | pakket    | gebruikersnaam    |
 | no    |                      |                        |                                   |           |                   |
 | pl    | ścieżka/do/pliku     | ścieżka/do/katalogu    | ścieżka/do/pliku_lub_katalogu     | pakiet    | nazwa_użytkownika |
 | pt_BR | caminho/para/arquivo | caminho/para/diretorio | caminho/para/arquivo_ou_diretorio | pacote    | nome_do_usuario   |
-| pt_PT | diretório/ficheiro                     | diretório/ficheiro_ou_diretório    |    pacote      |                   |
+| pt_PT | caminho/para/ficheiro | caminho/para/diretório | caminho/para/ficheiro_ou_diretório | pacote  | nome_de_utilizador |
 | ro    |                      |                        |                                   |           |                   |
 | ru    | путь/до/файла        | путь/до/папки          | путь/до/файла_или_папки           | пакет     | имя_пользователя  |
 | sh    |                      |                        |                                   |           |                   |

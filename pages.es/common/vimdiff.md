@@ -1,7 +1,7 @@
 # vimdiff
 
 > Abre dos o más archivos en Vim y muestra las diferencias entre ellos.
-> Ver también `vim`.
+> Vea también `vim`.
 > Más información: <https://www.vim.org>.
 
 - Abre dos archivos y muestra las diferencias:
@@ -10,7 +10,7 @@
 
 - Mueve el cursor a la ventana de la izquierda|derecha:
 
-`Ctrl + w {{h|l}}`
+`<Ctrl> + w {{h|l}}`
 
 - Salta a la diferencia previa:
 

@@ -7,13 +7,9 @@
 
 `rm {{percorso/del/file1 percorso/del/file2 ...}}`
 
-- Rimuovi ricorsivamente una directory e tutti i suoi contenuti:
+- Rimuovi file, senza chiedere conferma o mostrare messaggi di errore:
 
-`rm -r {{percorso/della/directory}}`
-
-- Rimuovi ricorsivamente una directory, senza chiedere conferma o mostrare messaggi di errore:
-
-`rm -rf {{percorso/della/directory}}`
+`rm -f {{percorso/della/directory}}`
 
 - Rimuovi file interattivamente, chiedendo conferma prima di rimuovere ogni file:
 
@@ -22,3 +18,7 @@
 - Rimuovi file in modalità verbosa, scrivendo un messaggio a schermo per ogni file rimosso:
 
 `rm -v {{percorso/del/file}}`
+
+- Rimuovi ricorsivamente una directory e tutti i suoi contenuti:
+
+`rm -r {{percorso/della/directory}}`

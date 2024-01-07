@@ -1,20 +1,12 @@
 # export
 
 > دستور تغییر متغییرهای محلی سیستم موجود برای پروسه های جدید.
-> اطلاعات بیشتر: <https://www.gnu.org/software/bash/manual/bash.html#index-export>.
+> اطلاعات بیشتر: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#export>.
 
 - ایجاد و تعیین مقدار یک متغییر جدید:
 
-`export {{متغییر}}={{مقدار}}`
-
-- حذف یک متغییر سیستمی:
-
-`export -n {{متغییر}}`
-
-- افزودن یک تابع شل به متغییر سیستمی:
-
-`export -f {{نام تابع}}`
+`export {{VARIABLE}}={{value}}`
 
 - افزودن یک مسیر به متغییر $PATH:
 
-`export PATH=$PATH:{{مسیر/برای/افزودن}}`
+`export PATH=$PATH:{{path/to/append}}`

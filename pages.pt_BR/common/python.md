@@ -29,8 +29,8 @@
 
 - Depura interativamente um script de Python:
 
-`python -m {{pdb}} {{caminho/para/arquivo.py}}`
+`python -m pdb {{caminho/para/arquivo.py}}`
 
 - Inicia o servidor HTTP integrado na porta 8000 no diretório atual:
 
-`python -m {{http.server}}`
+`python -m http.server`

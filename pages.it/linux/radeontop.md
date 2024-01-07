@@ -5,16 +5,16 @@
 
 - Mostra utilizzo del AMD GPU principale:
 
-`sudo radeontop`
+`radeontop`
 
 - Inizia output con colore:
 
-`sudo radeontop --colour`
+`radeontop --color`
 
 - Scegli un GPU specifico (il numero del bus è il primo numero nell'output di `lspci`):
 
-`sudo radeontop --bus {{bus_numero}}`
+`radeontop --bus {{bus_numero}}`
 
 - Specifica la frequenza di aggiornamento del display (più alto aggiunge più sovraccarico al GPU):
 
-`sudo radeontop --ticks {{aggiornamenti_per_secondo}}`
+`radeontop --ticks {{aggiornamenti_per_secondo}}`

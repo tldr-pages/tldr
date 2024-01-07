@@ -4,26 +4,26 @@
 > Apelidos expiram ao final da sessão atual do shell de comando, a menos que sejam definidos no arquivo de configuração do shell, por exemplo `~/.bashrc`.
 > Mais informações: <https://tldp.org/LDP/abs/html/aliases.html>.
 
-- Criar um apelido:
+- Cria um apelido:
 
 `alias {{apelido}}="{{comando}}"`
 
-- Visualizar o comando associado a um determinado apelido:
+- Visualiza o comando associado a um determinado apelido:
 
 `alias {{apelido}}`
 
-- Remover um apelido:
+- Remove um apelido:
 
 `unalias {{apelido}}`
 
-- Exibir todos os apelidos definidos:
+- Exibe todos os apelidos definidos:
 
 `alias -p`
 
-- Tornar o comando `rm` interativo:
+- Torna o comando `rm` interativo:
 
 `alias {{rm}}="{{rm -i}}"`
 
-- Criar o apelido `la` como um atalho para `ls -a`:
+- Cria o apelido `la` como um atalho para `ls -a`:
 
 `alias {{la}}="{{ls -a}}"`

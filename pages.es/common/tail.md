@@ -1,7 +1,7 @@
 # tail
 
 > Muestra las últimas líneas de un archivo de texto determinado.
-> Ver también: `head`.
+> Vea también: `head`.
 > Más información: <https://www.gnu.org/software/coreutils/tail>.
 
 - Imprime las últimas líneas de 'recuento' de un archivo:

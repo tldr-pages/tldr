@@ -1,37 +1,37 @@
 # nmap
 
-> Herramienta de exploración de redes y escáner de seguridad / puertos.
-> Algunas características solo funcionan si ejecutamos Nmap con privilegios.
+> Herramienta de exploración de redes y escáner de seguridad/puertos.
+> Algunas funciones sólo se activan cuando Nmap se ejecuta con privilegios de root.
 > Más información: <https://nmap.org>.
 
-- Comprueba si una dirección IP está activa, e intenta averiguar el sistema operativo del servidor correspondiente:
+- Comprueba si una dirección IP está activa y adivina el sistema operativo del host remoto:
 
-`nmap -O {{ip_o_hostname}}`
+`nmap -O {{ip_o_nombre_del_host}}`
 
-- Intenta determinar si los hosts están activos y cuáles son sus nombres:
+- Intenta determinar si los hosts especificados están activos (exploración ping) y cuáles son sus nombres y direcciones MAC:
 
-`nmap -sn {{ip_o_hostname}} {{opcional_otra_direccion}}`
+`sudo nmap -sn {{ip_o_nombre_del_host}} {{opcional_otra_dirección}}`
 
-- Como el anterior, pero también ejecuta un escaneo de 1000 puertos TCP por defecto, si el host está activo:
+- Habilita también los scripts, la detección de servicios, la huella digital del SO y el traceroute:
 
-`nmap {{ip_o_hostname}} {{opcional_otra_direccion}}`
+`nmap -A {{dirección_o_direcciones}}`
 
-- Detecta también scripts, servicios, sistema operativo y traceroute:
+- Escanea una lista específica de puertos (usa '-p-' para todos los puertos desde 1 al 65535):
 
-`nmap -A {{direccion_o_direcciones}}`
+`nmap -p {{port1,port2,...,portN}} {{dirección_o_direcciones}}`
 
-- Asume una buena conexión y acelera la ejecución:
+- Realiza la detección de servicios y versiones de los 1000 puertos principales utilizando los scripts por defecto de NSE; escribiendo los resultados ('-oN') en el fichero de salida:
 
-`nmap -T4 {{direccion_o_direcciones}}`
+`nmap -sC -sV -oN {{top-1000-puertos.txt}} {{dirección_o_direcciones}}`
 
-- Escanea una lista específica de puertos (para todos los puertos `1-65535` usar `-p-`):
+- Escanea objetivo(s) cuidadosamente utilizando los scripts NSE "default and safe":
 
-`nmap -p {{puerto1,puerto2,…,puertoN}} {{direccion_o_direcciones}}`
+`nmap --script "default and safe" {{dirección_o_direcciones}}`
 
-- Realiza un escaneo TCP y UDP (usar `-sU` para solo UDP, `-sZ` para SCTP, `-sO` para IP):
+- Escanea el servidor web que se ejecuta en los puertos estándar 80 y 443 utilizando todos los scripts de NSE 'http-*' disponibles:
 
-`nmap -sSU {{direccion_o_direcciones}}`
+`nmap --script "http-*" {{dirección_o_direcciones}} -p 80,443`
 
-- Realiza un escaneo total de puertos, servicios, detección de versiones con todos los scripts NSE por defecto contra un host para determinar debilidades e información:
+- Realiza un escaneo sigiloso muy lento ('-T0') intentando evitar la detección por parte de IDS/IPS y utiliza direcciones IP de origen con señuelo ('-D'):
 
-`nmap -sC -sV {{direccion_o_direcciones}}`
+`nmap -T0 -D {{decoy1_direcciónip,decoy2_direcciónip,...,decoyN_direcciónip}} {{dirección_o_direcciones}}`

@@ -11,10 +11,6 @@
 
 `dig +short {{example.com}} MX`
 
-- 주어진 도메인 이름에 대한 모든 유형의 레코드들 가져오기:
-
-`dig {{example.com}} ANY`
-
 - 쿼리할 대체 DNS 서버를 지정하기:
 
 `dig @{{8.8.8.8}} {{example.com}}`

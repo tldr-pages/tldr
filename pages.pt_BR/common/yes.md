@@ -1,12 +1,16 @@
 # yes
 
-> Exibe algo na tela repetidamente.
+> Exibe algo repetidamente.
 > Mais informações: <https://www.gnu.org/software/coreutils/yes>.
 
-- Exibir na tela a palavra "mensagem" repetidamente:
+- Exibir a palavra "mensagem" repetidamente:
 
 `yes {{mensagem}}`
 
-- Exibir na tela a letra "y" repetidamente:
+- Exibir a letra "y" repetidamente:
 
 `yes`
+
+- Aceitar tudo solicitado pelo comando apt-get:
+
+`yes | sudo apt-get install {{programa}}`

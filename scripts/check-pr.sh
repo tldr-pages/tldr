@@ -5,11 +5,9 @@
 # It currently accomplishes the following objectives:
 #
 #  1. Detect pages that were just copied (i.e. cp pages/{common,linux}/7z.md).
-#  2. Detect pages that were added in a platform specific directory although
+#  2. Detect English pages that were added in a platform specific directory although
 #     they already exist under 'common'.
-#  3. Detect pages that were added in the 'common' platform although they
-#     already exist under a platform specific directory.
-#  4. Detect pages that do not exist as English pages yet.
+#  4. Detect translated pages that do not exist as English pages yet.
 #  5. Detect outdated pages. A page is marked as outdated when the number of 
 #     commands differ from the number of commands in the English page or the
 #     contents of the commands differ from the English page.
@@ -22,24 +20,24 @@
 
 # Check for duplicated pages.
 function check_duplicates {
-  local page=$1 # page path in the format 'platform/pagename.md'
+  local page=$1 # page path in the format 'pages<.language_code>/platform/pagename.md'
   local parts
   local other
 
   readarray -td'/' parts < <(echo -n "$page")
 
-  local platform=${parts[0]}
-  local file=${parts[1]}
+  local language_folder=${parts[0]}
+  
+  if [[ "$language_folder" != "pages" ]]; then # only check for duplicates in English
+    return 1
+  fi
+
+  local platform=${parts[1]}
+  local file=${parts[2]}
 
   case "$platform" in
-    common) # check if page already exists in other platforms
-      for other in ${PLATFORMS/common/}; do
-        if [[ -f "pages/$other/$file" ]]; then
-          printf "\x2d $MSG_EXISTS" "$page" "$other"
-        fi
-      done
+    common) # skip common-platform
       ;;
-
     *) # check if page already exists under common
       if [[ -f "pages/common/$file" ]]; then
         printf "\x2d $MSG_EXISTS" "$page" 'common'
@@ -61,6 +59,32 @@ function check_missing_english_page() {
   fi
 }
 
+function count_commands() {
+  local file="$1"
+  local regex="$2"
+
+  grep -c "$regex" "$file"
+}
+
+function strip_commands() {
+  local file="$1"
+  local regex="$2"
+
+  local stripped_commands=()
+
+  mapfile -t stripped_commands < <(
+    grep "$regex" "$file" | 
+    sed 's/{{[^}]*}}/{{}}/g' | 
+    sed 's/<[^>]*>//g' | 
+    sed 's/([^)]*)//g' | 
+    sed 's/"[^"]*"/""/g' | 
+    sed "s/'[^']*'//g" | 
+    sed 's/`//g'
+  )
+
+  printf "%s\n" "${stripped_commands[*]}"
+}
+
 function check_outdated_page() {
   local page=$1
   local english_page="pages/${page#pages*\/}"
@@ -70,15 +94,17 @@ function check_outdated_page() {
     return 1
   fi
 
-  local english_commands=$(grep -c $command_regex "$english_page")
-  mapfile -t stripped_english_commands < <(grep $command_regex "$english_page" | sed 's/{{[^}]*}}/{{}}/g' | sed 's/"[^"]*"/""/g' | sed "s/'[^']*'//g" | sed 's/`//g')
-  local commands=$(grep -c $command_regex $page)
-  mapfile -t stripped_commands < <(grep $command_regex "$page" | sed 's/{{[^}]*}}/{{}}/g' | sed 's/"[^"]*"/""/g' | sed "s/'[^']*'//g" | sed 's/`//g')
+  local english_commands
+  english_commands=$(count_commands "$english_page" "$command_regex")
+  local commands
+  commands=$(count_commands "$page" "$command_regex")
 
-  local english_commands_as_string=$(printf "%s\n" "${stripped_english_commands[*]}")
-  local commands_as_string=$(printf "%s\n" "${stripped_commands[*]}")
-
-  if [[ $english_commands != $commands ]]; then
+  local english_commands_as_string
+  english_commands_as_string=$(strip_commands "$english_page" "$command_regex")
+  local commands_as_string
+  commands_as_string=$(strip_commands "$page" "$command_regex")
+  
+  if [[ "$english_commands" != "$commands" ]]; then
     printf "\x2d $MSG_OUTDATED" "$page" "based on number of commands"
   elif [[ "$english_commands_as_string" != "$commands_as_string" ]]; then
     printf "\x2d $MSG_OUTDATED" "$page" "based on the command contents itself"
@@ -116,8 +142,11 @@ function check_diff {
         printf "\x2d $MSG_IS_COPY" "$file2" "$file1" "$percentage"
         ;;
 
-      A|M) # file1 was newly added or modified
+      A) # file1 was newly added
         check_duplicates "$file1"
+        check_missing_english_page "$file1"
+        check_outdated_page "$file1"
+      M) # file1 was modified
         check_missing_english_page "$file1"
         check_outdated_page "$file1"
         ;;
@@ -146,7 +175,7 @@ function check_structure {
 # MAIN
 ###################################
 
-MSG_EXISTS='The page `%s` already exists under the `%s` platform.\n'
+MSG_EXISTS='The page `%s` already exists in the `%s` directory.\n'
 MSG_NOT_EXISTS='The page `%s` does not exists as English page `%s` yet.\n'
 MSG_OUTDATED='The page `%s` is outdated, %s.\n'
 MSG_IS_COPY='The page `%s` seems to be a copy of `%s` (%d%% matching).\n'

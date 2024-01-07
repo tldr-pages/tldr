@@ -2,6 +2,6 @@
 
 > Este comando es un alias de `clang++`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr clang++`
