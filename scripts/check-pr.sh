@@ -5,11 +5,9 @@
 # It currently accomplishes the following objectives:
 #
 #  1. Detect pages that were just copied (i.e. cp pages/{common,linux}/7z.md).
-#  2. Detect pages that were added in a platform specific directory although
+#  2. Detect English pages that were added in a platform specific directory although
 #     they already exist under 'common'.
-#  3. Detect pages that were added in the 'common' platform although they
-#     already exist under a platform specific directory.
-#  4. Detect pages that do not exist as English pages yet.
+#  4. Detect translated pages that do not exist as English pages yet.
 #  5. Detect outdated pages. A page is marked as outdated when the number of 
 #     commands differ from the number of commands in the English page or the
 #     contents of the commands differ from the English page.
@@ -38,14 +36,8 @@ function check_duplicates {
   local file=${parts[2]}
 
   case "$platform" in
-    common) # check if page already exists in other platforms
-      for other in ${PLATFORMS/common/}; do
-        if [[ -f "pages/$other/$file" ]]; then
-          printf "\x2d $MSG_EXISTS" "$page" "$other"
-        fi
-      done
+    common) # skip common-platform
       ;;
-
     *) # check if page already exists under common
       if [[ -f "pages/common/$file" ]]; then
         printf "\x2d $MSG_EXISTS" "$page" 'common'
@@ -150,8 +142,11 @@ function check_diff {
         printf "\x2d $MSG_IS_COPY" "$file2" "$file1" "$percentage"
         ;;
 
-      A|M) # file1 was newly added or modified
+      A) # file1 was newly added
         check_duplicates "$file1"
+        check_missing_english_page "$file1"
+        check_outdated_page "$file1"
+      M) # file1 was modified
         check_missing_english_page "$file1"
         check_outdated_page "$file1"
         ;;
@@ -180,7 +175,7 @@ function check_structure {
 # MAIN
 ###################################
 
-MSG_EXISTS='The page `%s` already exists under the `%s` platform.\n'
+MSG_EXISTS='The page `%s` already exists in the `%s` directory.\n'
 MSG_NOT_EXISTS='The page `%s` does not exists as English page `%s` yet.\n'
 MSG_OUTDATED='The page `%s` is outdated, %s.\n'
 MSG_IS_COPY='The page `%s` seems to be a copy of `%s` (%d%% matching).\n'

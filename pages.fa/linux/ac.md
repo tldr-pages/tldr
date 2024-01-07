@@ -13,11 +13,11 @@
 
 - چاپ تعداد ساعات اتصال یک کاربر خاص:
 
-`ac --individual-totals {{نام_کاربری}}`
+`ac --individual-totals {{username}}`
 
 - چاپ تعداد ساعات اتصال یک کاربر خاص (به همراه مجموع آن):
 
-`ac --daily-totals --individual-totals {{نام_کاربری}}`
+`ac --daily-totals --individual-totals {{username}}`
 
 - نمایش اطلاعات بیشتر:
 
