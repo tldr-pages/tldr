@@ -15,7 +15,7 @@
 
 `ps aux | grep {{cadena}}`
 
-- Obtiene el PID principal de un proceso:
+- Obtén el PID principal de un proceso:
 
 `ps -o ppid= -p {{pid}}`
 

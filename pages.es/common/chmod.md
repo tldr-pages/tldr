@@ -23,7 +23,7 @@
 
 `chmod o=g {{ruta/al/archivo}}`
 
-- Quitar todos los derechos a [o]tros:
+- Quita todos los derechos a [o]tros:
 
 `chmod o= {{ruta/al/archivo}}`
 

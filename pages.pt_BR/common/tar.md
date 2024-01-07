@@ -4,34 +4,34 @@
 > Utilizado com metodos de compressão como o de gzip ou bzip2.
 > Mais informações: <https://www.gnu.org/software/tar>.
 
-- Compacta arquivos em um arquivo tar:
+- [C]ria um arquivo compactado e o escreve para um arquivo:
 
-`tar -cvf {{output.tar}} {{arquivo1}} {{arquivo2}} {{arquivo3}}`
+`tar cf {{caminho/para/alvo.tar}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
-- Compacta arquivos em arquivo gzip:
+- [C]ria um arquivo g[z]ip e o escreve para um arquivo:
 
-`tar -czvf {{output.tar.gz}} {{arquivo1}} {{arquivo2}} {{arquivo3}}`
+`tar czf {{alvo.tar.gz}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
-- Compacta arquivos definindo tipo de compressão automaticamente por extensão:
+- [C]ria um arquivo g[z]ip a partir de um diretório usando caminhos relativos:
 
-`tar -cavf {{output.tar.xz}} {{arquivo1}} {{arquivo2}} {{arquivo3}}`
+`tar czf {{caminho/para/alvo.tar.xz}} --directory={{caminho/para/diretório}} .`
 
-- Extrai arquivos de um arquivo compactado:
+- E[x]trai arquivos de um arquivo (compactado):
 
-`tar -xvf {{input.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{origem.tar[.gz|.bz2|.xz]}}`
 
-- Extrai arquivos de um arquivo compactado filtrando por gzip:
+- E[x]trai um arquivo (compactado) para um diretório alvo:
 
-`tar -xzvf {{input.tar[.gz|.bz2|.xz]}}`
+`tar xf {{caminho/para/origem.tar[.gz|.bz2|.xz]}} --directory={{caminho/para/diretório}}`
 
-- Extrai arquivos de um arquivo compactado para um diretório específico:
+- [C]ria um arquivo compactado e o escreve para um arquivo, usando a extensão de arquivo para determinar automaticamente a compressão do programa:
 
-`tar -xvf {{input.tar[.gz|.bz2|.xz]}} -C {{diretório}}`
-
-- Extrai arquivos seguindo um padrão:
-
-`tar -xvf {{input.tar}} --wildcards "{{*.html}}"`
+`tar caf {{caminho/para/alvo.tar.xz}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
 - Lista arquivos de um arquivo tar:
 
-`tar -tvf {{input.tar}}`
+`tar tvf {{input.tar}}`
+
+- Extrai arquivos que correspondam a um padrão de um arquivo compactado:
+
+`tar xf {{caminho/para/alvo.tar}} --wildcards "{{*.html}}"`

@@ -4,13 +4,9 @@
 > Alguns subcomandos como `docker run` tem sua própia documentação de uso.
 > Mais informações: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Lista os containers Docker que se encontram em execução:
+- Lista todos os containers Docker (em execução e parados):
 
-`docker ps`
-
-- Lista todos os containers Docker:
-
-`docker ps -a`
+`docker ps --all`
 
 - Inicializa um container com um nome personalizado a partir de uma imagem:
 
@@ -23,6 +19,10 @@
 - Extrai uma imagem a partir de um Docker Registry:
 
 `docker pull {{imagem}}`
+
+- Mostra a lista de imagens já baixadas:
+
+`docker images`
 
 - Abre um terminal dentro de um container em execução:
 

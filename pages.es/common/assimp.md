@@ -4,11 +4,11 @@
 > Admite la carga de más de 40 formatos de archivo 3D y la exportación a varios formatos 3D populares.
 > Más información: <https://assimp-docs.readthedocs.io/>.
 
-- Lista de todos los formatos de importación soportados:
+- Lista todos los formatos de importación soportados:
 
 `assimp listext`
 
-- Lista de todos los formatos de exportación compatibles:
+- Lista todos los formatos de exportación compatibles:
 
 `assimp listexport`
 
@@ -28,6 +28,6 @@
 
 `assimp help`
 
-- Obtener ayuda sobre un subcomando concreto (por ejemplo, los parámetros específicos del mismo):
+- Muestra información de ayuda sobre un subcomando concreto (por ejemplo, los parámetros específicos del mismo):
 
 `assimp {{subcomando}} --help`
