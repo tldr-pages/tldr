@@ -7,30 +7,30 @@
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} list instances --state={{running|terminated|paused}} --compartment-id={{compartment_id}`
 
-- To create a new instance, employ the command:
+- Create a new instance:
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} instance create --domain-name={{domain_name}} --image-id={{image_id}} | {{--options...}}`
 
-- To gather information about a particular instance, use:
+- Gather information about a particular instance:
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} instance info --id={{unique_id}}`
 
-- To terminate an instance, execute:
+- Terminate an instance:
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} instance terminate --id={{unique_id}}`
 
-- To list images within a specific compartment and state, utilize:
+- list images within a specific compartment and state:
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} list images --compartment-id={{compartment_id}} --state={{state_name}}`
 
-- To create a new image involves the command:
+- Create a new image:
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} image create --instance-id={{instance_id}} --display-name={{display_name}} --compartment-id={{compartmet_id}}`
 
-- To retrieve information about a particular image:
+- Retrieve information about a particular image:
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} image info --id={{unique_id}}`
 
-- To delete an image, use:
+- Delete an image:
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} image delete --id={{unique_id}}`
