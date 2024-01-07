@@ -7,6 +7,6 @@
 
 `sudo a2dissite {{host_virtual}}`
 
-- No muestra mensajes informativos:
+- Deshabilita un host virtual sin mostrar mensajes informativos:
 
 `sudo a2dissite --quiet {{host_virtual}}`

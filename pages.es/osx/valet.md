@@ -11,7 +11,7 @@
 
 `valet park`
 
-- Ver las rutas 'aparcadas':
+- Muestra las rutas 'aparcadas':
 
 `valet paths`
 
@@ -19,6 +19,6 @@
 
 `valet link {{nombre_aplicacion}}`
 
-- Compartir un proyecto a través de un túnel Ngrok:
+- Comparte un proyecto a través de un túnel Ngrok:
 
 `valet share`

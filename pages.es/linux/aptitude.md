@@ -7,15 +7,15 @@
 
 `aptitude update`
 
-- Instalar un nuevo paquete y sus dependencias:
+- Instala un nuevo paquete y sus dependencias:
 
 `aptitude install {{paquete}}`
 
-- Buscar un paquete:
+- Busca un paquete:
 
 `aptitude search {{paquete}}`
 
-- Buscar un paquete instalado (`?installed` es un término de búsqueda de `aptitude`):
+- Busca un paquete instalado (`?installed` es un término de búsqueda de `aptitude`):
 
 `aptitude search '?installed({{paquete}})'`
 
