@@ -7,7 +7,7 @@
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} list instances --state={{running|terminated|paused}} --compartment-id={{compartment_id}`
 
-- For creating a new instance, employ the command:
+- To create a new instance, employ the command:
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} instance create --domain-name={{domain_name}} --image-id={{image_id}} | {{--options...}}`
 
@@ -15,7 +15,7 @@
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} instance info --id={{unique_id}}`
 
-- For terminating an instance, execute:
+- To terminate an instance, execute:
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} instance terminate --id={{unique_id}}`
 
@@ -23,7 +23,7 @@
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} list images --compartment-id={{compartment_id}} --state={{state_name}}`
 
-- Creating a new image involves the command:
+- To create a new image involves the command:
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} image create --instance-id={{instance_id}} --display-name={{display_name}} --compartment-id={{compartmet_id}}`
 
