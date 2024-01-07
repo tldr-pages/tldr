@@ -19,7 +19,7 @@
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} instance terminate --id={{unique_id}}`
 
-- list images within a specific compartment and state:
+- List images within a specific compartment and state:
 
 `VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} list images --compartment-id={{compartment_id}} --state={{state_name}}`
 
