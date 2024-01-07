@@ -3,7 +3,7 @@
 > Schneide Felder von `stdin` oder einer Datei aus.
 > Weitere Informationen: <https://www.gnu.org/software/coreutils/cut>.
 
-- Schneide bestimmte Zeichen oder einen Feldbereich jeder Zeile aus:
+- Schneide bestimmte Zeichen oder einen Bereich von Feldern jeder Zeile aus:
 
 `{{befehl}} | cut --{{characters|fields}}={{1|1,10|1-10|1-|-10}}`
 
