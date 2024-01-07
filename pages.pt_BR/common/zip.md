@@ -3,30 +3,30 @@
 > Ferramenta de compressão de arquivos em arquivos zip.
 > Mais informações: <https://manned.org/zip>.
 
-- Compacta arquivos em um arquivo zip:
+- Adiciona arquivos/diretórios a um arquivo zip específico ([r]ecusivamente):
 
-`zip {{output.zip}} {{arquivo1}} {{arquivo2}} {{arquivo3}}`
+`zip -r {{caminho/para/comprimido.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
 
-- Compacta todos os arquivos de um diretório:
+- Remove arquivos de um arquivo zip ([d]eleta):
 
-`zip {{output.zip}} {{caminho/do/diretorio/*}}`
+`zip -d {{caminho/para/comprimido.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
 
-- Adiciona arquivos a um arquivo zip existente:
+- Compacta arquivos/diretórios e[x]cluindo arquivos específicos:
 
-`zip {{arquivo_existente.zip}} {{caminho/do/diretorio}}`
+`zip -r {{caminho/para/comprimido.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}} -x {{caminho/a/ser/excluido}}`
 
-- Compacta todos os arquivos de um diretório mantendo estruturas de diretórios:
+- Compacta arquivos com um nível de compressão específico (0 - o mais baixo, 9 - o mais alto):
 
-`zip -r {{output.zip}} {{caminho/do/diretorio}}`
+`zip -r -{{0-9}} {{caminho/para/comprimido.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
 
-- Compacta arquivos de um diretório excluindo arquivos específicos:
+- Cria um zip encriptado com uma senha específica:
 
-`zip -r {{output.zip}} {{caminho/do/diretorio}} -x {{caminho/a/ser/excluido}}`
+`zip -r -e {{caminho/para/comprimido.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
 
-- Compacta arquivos definindo o nível de compressão [9]:
+- Compacta arquivos/diretórios para um zip dividido em múltiplas partes (p. ex. partes de 3 GB):
 
-`zip -r -{{9}} {{output.zip}} {{caminho/do/diretorio}}`
+`zip -r -s {{3g}} {{caminho/para/comprimido.zip}} {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
 
-- Deleta arquivos de um arquivo zip:
+- Print a specific archive contents:
 
-`zip -d {{output.zip}} "{{foo/*.ext}}"`
+`zip -sf {{caminho/para/comprimido.zip}}`

@@ -23,13 +23,13 @@
 
 `flatpak remote-add --if-not-exists {{nome_remoto}} {{url_remoto}}`
 
-- Lista todas fontes remotas configuradas:
-
-`flatpak remote-list`
-
 - Remove uma aplicação instalada:
 
 `flatpak remove {{nome}}`
+
+- Remove todos as aplicações não usadas:
+
+`flatpak remove --unused`
 
 - Mostra informações sobre uma aplicação instalada:
 
