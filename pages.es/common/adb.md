@@ -28,6 +28,6 @@
 
 `adb push {{ruta/al/archivo_o_directorio_local}} {{ruta/al/directorio_de_destino_en_el_dispositivo}}`
 
-- Obtiene una lista de dispositivos conectados:
+- Obtén una lista de dispositivos conectados:
 
 `adb devices`

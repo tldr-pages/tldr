@@ -11,7 +11,7 @@
 
 `ani-cli -d "{{nombre_del_anime}}"`
 
-- Usar VLC como reproductor multimedia:
+- Usa VLC como reproductor multimedia:
 
 `ani-cli -v "{{nombre_del_anime}}"`
 

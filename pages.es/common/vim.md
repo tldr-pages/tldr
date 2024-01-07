@@ -12,7 +12,7 @@
 
 `vim +{{número_de_línea}} {{ruta/al/archivo}}`
 
-- Ver el manual de Vim:
+- Muestra el manual de Vim:
 
 `:help<Enter>`
 
@@ -20,7 +20,7 @@
 
 `:wq<Enter>`
 
-- Deshace la última operación:
+- Deshaz la última operación:
 
 `<ESC>u`
 

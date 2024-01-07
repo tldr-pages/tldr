@@ -15,7 +15,7 @@
 
 `git check-ignore --stdin < {{ruta/al/archivo_lista}}`
 
-- No comprueba el índice (se utiliza para depurar por qué las rutas fueron rastreadas y no ignoradas):
+- Comprueba sin leer el índice (se utiliza para depurar por qué las rutas fueron rastreadas y no ignoradas):
 
 `git check-ignore --no-index {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
