@@ -23,7 +23,7 @@
 
 `df -iY`
 
-- Gebruik 1024-byte eenheden voor het schrijven van de ruimte figuren::
+- Gebruik 1024-byte eenheden voor het schrijven van de ruimte figuren:
 
 `df -k`
 
