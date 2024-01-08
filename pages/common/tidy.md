@@ -8,7 +8,7 @@
 
 `tidy {{path/to/file.html}}`
 
-- Enable identation, wrapping lines in 100, saving to `output.html`:
+- Enable [i]ndentation, [w]rapping lines in 100, saving to `output.html`:
 
 `tidy --indent y --wrap 100 -output {{path/to/output.html}} {{path/to/file.html}}`
 
