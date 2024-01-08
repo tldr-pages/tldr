@@ -28,7 +28,7 @@
 
 `nmap --script "default and safe" {{addresse_oder_addressen}}`
 
-- Scanne einen Web-Server, der auf den Standard Ports 80 und 443 läuft, mit allen verfügbaren 'http-*' NSE Scripts:
+- Scanne einen Web-Server, der auf den Standard Ports 80 und 443 läuft, mit allen verfügbaren 'http-*' NSE Skripten:
 
 `nmap --script "http-*" {{addresse_oder_addressen}} -p 80,443`
 

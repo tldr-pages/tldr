@@ -14,8 +14,8 @@ The overall process should look somewhat like this:
 3. Create a feature branch, e.g. named after the command you plan to edit:
   `git checkout -b {{branch_name}}`
 
-   > [!WARNING]
-   > It is bad practice to submit a PR from the `main` branch of your forked repository. Please create pull requests from a well named feature branch.
+> [!WARNING]
+> It is bad practice to submit a PR from the `main` branch of your forked repository. Please create pull requests from a well-named feature branch.
 
 4. Make your changes (edit existing files or create new ones)
 
@@ -25,13 +25,13 @@ The overall process should look somewhat like this:
 6. Push the commit(s) to your fork:
   `git push origin {{branch_name}}`
 
-   > [!WARNING]
-   > Please avoid force-pushing since it makes the review process harder.
+> [!WARNING]
+> Please avoid force-pushing since it makes the review process harder.
 
 7. Go to the GitHub page for your fork and click the green "Compare & pull request" button.
 
 Please only send related changes in the same pull request.
-Typically a pull request will include changes in a single file **unless the pull request is introducing translations**.
+Typically a pull request will include changes in a single file **unless the pull request introduces translations**.
 (Exceptions are [occasionally acceptable][mass-changes])
 
 [pr-howto]: ../CONTRIBUTING.md#submitting-a-pull-request
@@ -40,7 +40,7 @@ Typically a pull request will include changes in a single file **unless the pull
 
 # Updating your fork
 
-Forks of GitHub repositories aren't updated automatically. To keep your fork up-to-date with the latest changes and avoid merge conflicts, you should update it regularly.
+Forks of GitHub repositories aren't updated automatically. You should update your fork regularly to keep it up-to-date with the latest changes and avoid merge conflicts.
 
 There are two ways to update your fork.
 
@@ -76,9 +76,9 @@ git push --force-with-lease
 git rebase --interactive HEAD~6
 ```
 
-2. You'll see a list of commits starting from the referenced commit to `HEAD`. All of them will default to the instruction `pick`, this means use the commit as-is when replaying them. For the commits you want to edit, replace the word `pick` for `edit`, then save and exit the editor.
+2. You'll see a list of commits starting from the referenced commit to `HEAD`. All of them will default to the instruction `pick`, this means using the commit as-is when replaying them. For the commits you want to edit, replace the word `pick` with `edit`, then save and exit the editor.
 
-3. The branch will rewind to the referenced commit, then replay them until it reaches a commit with the `edit` instruction. Amend the commit for the correct email address, then continue rebasing. Repeat this step until you've successfully finishing rebasing and replayed all commits.
+3. The branch will rewind to the referenced commit, then replay them until it reaches a commit with the `edit` instruction. Amend the commit for the correct email address, then continue rebasing. Repeat this step until you've successfully finished rebasing and replayed all commits.
 
 ```bash
 git commit --amend --author "Your Name <correct@example.org>"

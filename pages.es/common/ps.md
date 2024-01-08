@@ -23,7 +23,7 @@
 
 `ps --user $(id -u) f`
 
-- Obtiene el PID del proceso padre:
+- Obtén el PID del proceso padre:
 
 `ps -o ppid= -p {{pid}}`
 

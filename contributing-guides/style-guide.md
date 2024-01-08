@@ -330,6 +330,10 @@ For instance, instead of `Listing all files:`, `List all files:` can be used as 
  `ls`
 ```
 
+## Emphasis
+
+Do not use *italics*, **boldface** or any other text styling in the pages. These are reserved for client emphasis of placeholders.
+
 ## Serial Comma
 
 - When declaring a list of 3 or more items,
@@ -348,6 +352,23 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 > Delete the Git branches, tags, and remotes.
 
+## See also section
+
+- To reference a related command or subcommand, use:
+
+```md
+> See also: `command`.
+```
+
+- To reference related commands or subcommands, use:
+
+```md
+> See also: `command1`, `command2`, `command3`.
+```
+
+- Optionally, you can add a short description beside the referenced pages:
+
+``See also: `date`, for Unix information; `umount`, for unmounting partitions.``
 ## More information links
 
 - On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and some BSD platforms). Alternatively, you can link to the author's website or a tutorial page if the command doesn't have a documentation page.
@@ -506,3 +527,15 @@ To ensure that the sentence may not be confused with `start processing the web s
 Example descriptions on pages in Portuguese (for both European and Brazilian Portuguese) must start with verbs in the third person singular present indicative tense. This is because the descriptions must explain what the commands do, making this the correct form to express the intended meaning.
 
 For example, use `Lista os arquivos` instead of `Listar os arquivos`, `Listando os arquivos` or any other form.
+
+### Spanish-Specific Rules
+
+- The descriptions of commands and examples must be conjugated in the third person singular indicative tense. Here are a couple of examples:
+
+```md
+> Crea archivos.
+```
+
+```md
+- Crea un archivo en un directorio:
+```

@@ -1,20 +1,20 @@
 # exec
 
-> Replace the current process with another process.
-> More information: <https://linuxcommand.org/lc3_man_pages/exech.html>.
+> Execute a command without creating a child process.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-exec>.
 
-- Replace with the specified command using the current environment variables:
+- Execute a specific command:
 
 `exec {{command -with -flags}}`
 
-- Replace with the specified command, clearing environment variables:
+- Execute a command with a (mostly) empty environment:
 
 `exec -c {{command -with -flags}}`
 
-- Replace with the specified command and login using the default shell:
+- Execute a command as a login shell:
 
 `exec -l {{command -with -flags}}`
 
-- Replace with the specified command and change the process name:
+- Execute a command with a different name:
 
-`exec -a {{process_name}} {{command -with -flags}}`
+`exec -a {{name}} {{command -with -flags}}`

@@ -12,7 +12,7 @@
 
 `git status -s`
 
-- No muestra los archivos sin rastrear en la salida:
+- Muestra los archivos rastreados:
 
 `git status --untracked-files=no`
 
