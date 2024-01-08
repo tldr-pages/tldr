@@ -26,7 +26,7 @@
 
 - Run command line application:
 
-`jbang {{path/to/file.java}} {{command}} {{arg1 arg2...}}`
+`jbang {{path/to/file.java}} {{command}} {{arg1 arg2 ...}}`
 
 - Install a script on the user's $PATH:
 
