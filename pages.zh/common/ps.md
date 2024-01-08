@@ -15,7 +15,7 @@
 
 `ps aux | grep {{字符串}}`
 
-- 以 extra full 格式列出当前用户的所有进程:
+- 以 extra full 格式列出当前用户的所有进程：
 
 `ps --user $(id -u) -F`
 
