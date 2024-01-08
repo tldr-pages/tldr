@@ -1,6 +1,6 @@
 # perlbrew
 
-> Manage perl instalations in the home directory.
+> Manage perl installations in the home directory.
 > See also: `asdf`.
 > More information: <https://github.com/gugod/App-perlbrew>.
 
