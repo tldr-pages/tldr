@@ -13,7 +13,7 @@
 
 `sudo urpmi.addmedia --distrib HD file:/{{/path/to/repo}}`
 
-- Add important media from a chosen mirror
+- Add important media from a chosen mirror:
 
 `sudo urpmi.addmedia --distrib ftp://{{mirror_website}/mirror/mageia/distrib/{{version}}/{{arch}}`
 
