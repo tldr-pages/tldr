@@ -1,6 +1,6 @@
 # urpmq
 
-> Mageia's command for querying information about packages and medias.
+> Mageia's command for querying information about packages and media.
 > See also: `urpmi`, `urpmi.update`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpme`.
 > More information: <https://wiki.mageia.org/en/URPMI#urpmq>.
 
@@ -8,11 +8,11 @@
 
 `urpmq -i {{package}}`
 
-- Display direct dependecies of a package:
+- Display direct dependencies of a package:
 
 `urpmq --requires {{package}}`
 
-- Display direct and indirect dependecies of a package:
+- Display direct and indirect dependencies of a package:
 
 `urpmq --requires-recursive {{package}}`
 

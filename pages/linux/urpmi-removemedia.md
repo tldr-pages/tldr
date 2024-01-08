@@ -1,18 +1,18 @@
 # urpmi.removemedia
 
-> Mageia's command for removing medias.
-> NOTE: Mageia documentation uses media and repository as synonymous.
+> Mageia's command for removing media.
+> NOTE: Mageia documentation uses medium and repository as synonymous.
 > See also: `urpmi`, `urpme`, `urpmi.addmedia`, `urpmi.update`, `urpmf`, `urpmq`.
 > More information: <https://wiki.mageia.org/en/URPMI#urpmi.removemedia>.
 
-- Remove a media:
+- Remove a medium:
 
-`sudo urpmi.removemedia {{media}}`
+`sudo urpmi.removemedia {{medium}}`
 
-- Remove all medias:
+- Remove all media:
 
 `sudo urpmi.removemedia -a`
 
-- Remove medias fuzz[y] matching on media names:
+- Remove media fuzz[y] matching on media names:
 
 `sudo urpmi.removemedia -y {{keyword}}`

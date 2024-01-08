@@ -5,11 +5,11 @@
 > See also: `urpmi`, `urpmi.update`, `urpme`, `urpmi.removemedia`, `urpmf`, `urpmq`.
 > More information: <https://wiki.mageia.org/en/URPMI#urpme>.
 
-- Add a media:
+- Add a medium:
 
-`sudo urpmi.addmedia {{media}} {{ftp://ftp.site.com/path/to/Mageia/RPMS}}`
+`sudo urpmi.addmedia {{medium}} {{ftp://ftp.site.com/path/to/Mageia/RPMS}}`
 
-- Add a media from a hard drive (run `genhdlist2` in the directory first):
+- Add a medium from a hard drive (run `genhdlist2` in the directory first):
 
 `sudo urpmi.addmedia --distrib HD file:/{{/path/to/repo}}`
 

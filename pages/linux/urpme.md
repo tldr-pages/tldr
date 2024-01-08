@@ -12,6 +12,6 @@
 
 `sudo urpme --auto-orphans`
 
-- Uninstall a package and its dependecies:
+- Uninstall a package and its dependencies:
 
 `sudo urpme --auto-orphans {{package}}`
