@@ -15,3 +15,7 @@
 - Update a package of one or more machines on the network according to `/etc/urpmi/parallel.cfg`:
 
 `sudo urpmi --parallel local {{package}}`
+
+- Mark all orphaned packages as manually installed:
+
+`sudo urpmi $(urpmq --auto-orphans -f)`
