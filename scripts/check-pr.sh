@@ -146,6 +146,7 @@ function check_diff {
         check_duplicates "$file1"
         check_missing_english_page "$file1"
         check_outdated_page "$file1"
+        ;;
       M) # file1 was modified
         check_missing_english_page "$file1"
         check_outdated_page "$file1"
