@@ -2,7 +2,7 @@
 
 > Lakukan operasi yang sama dalam lebih dari satu repositori Git.
 > Bagian dari `git-extras`.
-> Informasi lebih lanjut:  <https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk>.
+> Informasi lebih lanjut: <https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk>.
 
 - Daftarkan direktori saat ini sebagai tempat kerja (workspace):
 
