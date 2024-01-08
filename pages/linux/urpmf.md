@@ -17,6 +17,6 @@
 
 `urpmf --description {{keyword1}} -o {{keyword2}}`
 
-- Search for packages that not contain a keyword in their name ignoring case distinction using "|" as the [F]ield separator (":" by default):
+- Search for packages that do not contain a keyword in their name ignoring case distinction using "|" as the [F]ield separator (":" by default):
 
 `urpmf --description ! {{keyword}} -F'|'`
