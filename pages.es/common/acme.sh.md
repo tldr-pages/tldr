@@ -1,7 +1,7 @@
 # acme.sh
 
 > Shell script implementando el protocolo cliente ACME, una alternativa a `certbot`.
-> Ver también `acme.sh dns`.
+> Vea también `acme.sh dns`.
 > Más información: <https://github.com/acmesh-official/acme.sh>.
 
 - Emite un certificado usando el modo webroot:
@@ -22,7 +22,7 @@
 
 - Emite un certificado utilizando una configuración de Apache operativa:
 
-`acme.sh --issue --apache --dominio {{ejemplo.com}}`
+`acme.sh --issue --apache --domain {{ejemplo.com}}`
 
 - Emite un certificado comodín (\*) utilizando un modo API DNS automático:
 

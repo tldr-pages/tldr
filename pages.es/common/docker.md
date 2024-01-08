@@ -32,6 +32,6 @@
 
 `docker rm {{nombre_de_contenedor}}`
 
-- Obtiene y sigue los registros de un contenedor:
+- Obtén y sigue los registros de un contenedor:
 
 `docker logs -f {{nombre_de_contenedor}}`

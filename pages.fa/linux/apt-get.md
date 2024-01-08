@@ -10,15 +10,15 @@
 
 - نصب یک بسته یا به روزرسانی آن به آخرین نسخه موجود:
 
-`apt-get install {{بسته}}`
+`apt-get install {{package}}`
 
 - حذف یک بسته:
 
-`apt-get remove {{بسته}}`
+`apt-get remove {{package}}`
 
 - حذف یک بسته و فایل‌های پیکربندی آن:
 
-`apt-get purge {{بسته}}`
+`apt-get purge {{package}}`
 
 - ارتقاء تمامی بسته‌های نصب شده به آخرین نسخه‌های موجود:
 

@@ -13,7 +13,7 @@
 
 - Elimina un atributo de un archivo determinado:
 
-`xattr -d {{com.apple.quarantine}}} {{archivo}}`
+`xattr -d {{com.apple.quarantine}} {{archivo}}`
 
 - Elimina todos los atributos extendidos de un archivo determinado:
 

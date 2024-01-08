@@ -3,34 +3,34 @@
 > O interpretador de comandos do Windows.
 > Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
-- Inicia nova instância do interpretador de comandos:
+- Inicia uma sessão do interpretador de comandos:
 
 `cmd`
 
-- Executa o comando especificado e sai do interpretador:
+- Executa os [c]omandos especificados:
 
-`cmd /c "{{comando}}"`
+`cmd /c {{echo Olá Mundo}}`
 
-- Executa o comando especificado e entra no shell interativo:
+- Executa um script específico:
 
-`cmd /k "{{comando}}"`
+`cmd {{caminho/para/script.bat}}`
 
-- Desabilita o uso do comando `echo` na saída dos comandos:
+- Executa o comando especificado e entra em um shell interativo:
+
+`cmd /k {{echo Olá Mundo}}`
+
+- Entra em um shell interativo e desabilita o uso do comando `echo` na saída dos comandos:
 
 `cmd /q`
 
-- Habilita ou desabilita extensão de comandos:
-
-`cmd /e:{{on|off}}`
-
-- Habilita ou desabilita a ferramenta que completa automaticamente o nome de arquivos ou diretórios:
-
-`cmd /f:{{on|off}}`
-
-- Habilita ou desabilita a expansão de variáveis de ambiente:
+- Entra em um shell interativo com ou a expansão de [v]ariáveis de ambiente habilitada ou desabilitada:
 
 `cmd /v:{{on|off}}`
 
-- Forçar que a saída de comandos use o padrão Unicode:
+- Entra em um shell interativo com a extensão de comandos habilitada ou desabilitada:
+
+`cmd /e:{{on|off}}`
+
+- Entra em um shell interativo com a saída de comandos no padrão Unicode:
 
 `cmd /u`

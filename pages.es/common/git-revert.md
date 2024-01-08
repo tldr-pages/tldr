@@ -15,6 +15,6 @@
 
 `git revert {{rama~5..rama~2}}`
 
-- No crea nuevos commits, solo cambia el árbol de trabajo:
+- Revierte commits sin crear nuevos commits:
 
 `git revert -n {{0c01a9..9a1743}}`

@@ -1,7 +1,7 @@
 # ansible-inventory
 
 > Muestra o vuelca un inventario de Ansible.
-> Ver también: `ansible`.
+> Vea también: `ansible`.
 > Más información: <https://docs.ansible.com/ansible/latest/cli/ansible-inventory.html>.
 
 - Muestra el inventario por defecto:
