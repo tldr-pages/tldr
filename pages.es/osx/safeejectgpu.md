@@ -15,7 +15,7 @@
 
 `SafeEjectGPU gpuid {{GPU_ID}} apps`
 
-- Obtiene el estado de una GPU:
+- Obtén el estado de una GPU:
 
 `SafeEjectGPU gpuid {{GPU_ID}} status`
 

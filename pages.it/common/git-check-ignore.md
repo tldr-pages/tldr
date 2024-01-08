@@ -9,7 +9,7 @@
 
 - Verifica se più file o directory sono ignorati:
 
-`git check-ignore {{percorso/del/file}} {{percorso/della/directory}}`
+`git check-ignore {{percorso/del/file_o_directory1 percorso/del/file_o_directory2 ...}}`
 
 - Leggi i percorsi di file o directory da `stdin` (uno per riga) invece che dalla riga di comando:
 
@@ -17,8 +17,8 @@
 
 - Non controllare nell'indice (usato per determinare il motivo per cui alcuni percorsi non sono ignorati):
 
-`git check-ignore --no-index {{percorsi/dei/file_o_directory}}`
+`git check-ignore --no-index {{percorso/del/file_o_directory1 percorso/del/file_o_directory2 ...}}`
 
 - Includi dettagli sul pattern corrispondente per ogni percorso specificato:
 
-`git check-ignore --verbose {{percorsi/dei/file_o_directory}}`
+`git check-ignore --verbose {{percorso/del/file_o_directory1 percorso/del/file_o_directory2 ...}}`

@@ -32,6 +32,6 @@
 
 `aws rds reboot-db-instance --db-instance-identifier {{identificador_de_instancia}}`
 
-- Eliminar una instancia:
+- Elimina una instancia:
 
 `aws rds delete-db-instance --db-instance-identifier {{identificador_de_instancia}} --final-db-snapshot-identifier {{identificador_snapshot}} --delete-automated-backups`

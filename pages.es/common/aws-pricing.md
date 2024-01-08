@@ -1,6 +1,6 @@
 # aws pricing
 
-> Consultar servicios, productos e información de precios de Amazon Web Services.
+> Consulta servicios, productos e información de precios de Amazon Web Services.
 > Más información: <https://docs.aws.amazon.com/cli/latest/reference/pricing/>.
 
 - Lista códigos de servicio de una región específica:

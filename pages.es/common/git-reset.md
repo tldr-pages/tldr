@@ -16,11 +16,11 @@
 
 `git reset --patch {{ruta/al/archivo}}`
 
-- Deshace el último commit, manteniendo sus cambios, y cualquier otro cambio sin commit, en el sistema de archivo:
+- Deshaz el último commit, manteniendo sus cambios, y cualquier otro cambio sin commit, en el sistema de archivo:
 
 `git reset HEAD~`
 
-- Deshace los últimos dos commits al añadir sus cambios al índice (por ej., marcado para commit):
+- Deshaz los últimos dos commits al añadir sus cambios al índice (por ej., marcado para commit):
 
 `git reset --soft HEAD~2`
 
