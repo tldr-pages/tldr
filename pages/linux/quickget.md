@@ -29,6 +29,6 @@
 
 `quickget --test-iso-url nixos {{edition}} {{plasma5}}`
 
-- Open an OS distribution homepage in a browser (do not work for Windows):
+- Open an OS distribution homepage in a browser (does not work for Windows):
 
 `quickget --open-distro-homepage {{os}}`

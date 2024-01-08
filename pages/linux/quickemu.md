@@ -8,11 +8,11 @@
 
 `quickemu --vm {{path/to/file.conf}}`
 
-- Do not commit any changes to disk/snapshot, writing any changes to temporary files:
+- Do not commit any changes to disk/snapshot but write any changes to temporary files:
 
 `quickemu --status-quo --vm {{path/to/file.conf}}`
 
-- Start the VM in full screen mode (<Ctrl>+<Alt>+f to exit) and select the display backend ('sdl' by default):
+- Start the VM in full screen mode (<Ctrl> + <Alt> + f to exit) and select the display backend ('sdl' by default):
 
 `quickemu --fullscreen --display {{sdl|gtk|spice|spice-app|none}} --vm {{path/to/file.conf}}`
 
