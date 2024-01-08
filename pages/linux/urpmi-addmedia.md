@@ -1,7 +1,7 @@
 # urpmi.addmedia
 
 > Mageia's command for adding media.
-> NOTE: Mageia documentation uses media and repository as synonymous.
+> NOTE: Mageia documentation uses medium and repository as synonymous.
 > See also: `urpmi`, `urpmi.update`, `urpme`, `urpmi.removemedia`, `urpmf`, `urpmq`.
 > More information: <https://wiki.mageia.org/en/URPMI#urpme>.
 
