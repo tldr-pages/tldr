@@ -21,6 +21,6 @@
 
 `sockstat -n`
 
-- Only list sockets of the specified address family:
+- Only list sockets of the specified address [f]amily:
 
 `sockstat -f {{inet|inet6|local|unix}}`
