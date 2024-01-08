@@ -7,7 +7,7 @@
 
 `df`
 
-- Display all filesystems and their disk usage in human-readable form (based on powers of 1024):
+- Display all filesystems and their disk usage in [h]uman-readable form (based on powers of 1024):
 
 `df -h`
 
@@ -23,6 +23,6 @@
 
 `df -k`
 
-- Display information in a portable way:
+- Display information in a [P]ortable way:
 
 `df -P`
