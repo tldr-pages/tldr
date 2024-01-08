@@ -1,7 +1,7 @@
 # df
 
 > 概述檔案系統的磁碟空間的使用情況。
-> 更多資訊：<https://www.gnu.org/software/coreutils/df>.
+> 更多資訊：<https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/utilities/df.html>.
 
 - 顯示所有檔案系統及磁碟使用情況：
 

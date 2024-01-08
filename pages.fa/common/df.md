@@ -1,7 +1,7 @@
 # df
 
 > یک نمای کلی از میزان استفاده فضای دیسک و سیستم فایل ارائه می‌دهد.
-> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/df>.
+> اطلاعات بیشتر: <https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/utilities/df.html>.
 
 - نمایش تمامی سیستم‌های فایل و فضای دیسک آن‌ها :
 
