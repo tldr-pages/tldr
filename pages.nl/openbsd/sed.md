@@ -4,7 +4,7 @@
 > Bekijk ook: `awk`, `ed`.
 > Meer informatie: <https://man.openbsd.org/sed.1>.
 
-- Vervang alle `apple` (basis regex) met `mango` (basis regex) in alle invoerregels en toon het resultaat in `stdout`::
+- Vervang alle `apple` (basis regex) met `mango` (basis regex) in alle invoerregels en toon het resultaat in `stdout`:
 
 `{{commando}} | sed 's/apple/mango/g'`
 
@@ -12,7 +12,7 @@
 
 `{{commando}} | sed -f {{pad/naar/script.sed}}`
 
-- Vertraag het openen van elk bestand tot een commando met de gerelateerde `w`-functie of vlag wordt toegepast op een regel invoer::
+- Vertraag het openen van elk bestand tot een commando met de gerelateerde `w`-functie of vlag wordt toegepast op een regel invoer:
 
 `{{commando}} | sed -fa {{pad/naar/script.sed}}`
 

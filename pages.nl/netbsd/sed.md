@@ -12,7 +12,7 @@
 
 `{{commando}} | sed -f {{pad/naar/script.sed}}`
 
-- Vertraag het openen van elk bestand tot een commando met de gerelateerde `w`-functie of vlag wordt toegepast op een regel invoer::
+- Vertraag het openen van elk bestand tot een commando met de gerelateerde `w`-functie of vlag wordt toegepast op een regel invoer:
 
 `{{commando}} | sed -fa {{pad/naar/script.sed}}`
 

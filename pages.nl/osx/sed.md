@@ -4,7 +4,7 @@
 > Bekijk ook: `awk`, `ed`.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/sed.1.html>.
 
-- Vervang alle `apple` (basis regex) met `mango` (basis regex) in alle invoerregels en toon het resultaat in `stdout`::
+- Vervang alle `apple` (basis regex) met `mango` (basis regex) in alle invoerregels en toon het resultaat in `stdout`:
 
 `{{commando}} | sed 's/apple/mango/g'`
 
