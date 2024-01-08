@@ -1,7 +1,7 @@
 # git changelog
 
 > Buat laporan riwayat perubahan (changelog) dari daftar komit dan tag yang terkandung dalam repositori Git.
-> Bagian dari `git-extras`:
+> Bagian dari `git-extras`.
 > Informasi lebih lanjut: <https://github.com/tj/git-extras/blob/master/Commands.md#git-changelog>.
 
 - Buat atau mutakhirkan file `History.md` berisikan riwayat komit sejak tag komit Git terkini:

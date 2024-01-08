@@ -7,10 +7,10 @@
 
 `{{comando}} | cut --{{characters|field}}={{1|1,10|1-10|1-|-10}}`
 
-- Imprime un rango de cada línea con un delimitador específico:
+- Imprime un rango de campos de cada línea con un delimitador específico:
 
-`{{comando}} | cut --delimiter="{{,}}" --{{campos}}={{1}}`
+`{{comando}} | cut --delimiter="{{,}}" --fields={{1}}`
 
-- Imprime un rango de cada línea de un archivo específico:
+- Imprime un rango de caracteres de cada línea de un archivo específico:
 
-`cut --{{caracteres}}={{1}} {{ruta/al/archivo}}`
+`cut --characters={{1}} {{ruta/al/archivo}}`
