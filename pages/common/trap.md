@@ -1,17 +1,16 @@
 # trap
 
-> Automatically execute commands after receiving signals by processes or the operating system.
-> Can be used to perform cleanups for interruptions by the user or other actions.
-> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#trap>.
+> Execute a command upon an event.
+> More information: <https://manned.org/trap.1posix>.
 
-- List active traps for the current shell:
+- List the commands and the names of the expected events:
 
 `trap`
 
-- Set a trap to execute commands when one or more signals are detected:
+- Execute a command when a signal is received:
 
-`trap 'echo "Caught signal {{SIGHUP}}"' {{SIGHUP}}`
+`trap 'echo "Caught signal {{SIGHUP}}"' {{HUP}}`
 
-- Remove active traps:
+- Remove commands:
 
-`trap - {{SIGHUP}} {{SIGINT}}`
+`trap - {{HUP}} {{INT}}`

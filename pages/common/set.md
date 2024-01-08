@@ -1,24 +1,24 @@
 # set
 
-> Display, set or unset values of shell attributes and positional parameters.
-> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#set>.
+> Toggle shell options or set the values of positional parameters.
+> More information: <https://manned.org/set.1posix>.
 
 - Display the names and values of shell variables:
 
 `set`
 
-- Mark variables that are modified or created for export:
+- Export newly initialized variables to child processes:
 
 `set -a`
 
-- Notify of job termination immediately:
+- Write formatted messages to `stderr` when jobs finish:
 
 `set -b`
 
-- Set various options, e.g. enable `vi` style line editing:
+- Write and edit text in the command line with `vi`-like keybindings (e.g. `yy`):
 
 `set -o {{vi}}`
 
-- Set the shell to exit as soon as the first error is encountered (mostly used in scripts):
+- Exit the shell when (some) commands fail:
 
 `set -e`

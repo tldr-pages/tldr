@@ -19,7 +19,7 @@
 
 `act -a {{action_id}}`
 
-- No ejecuta las acciones (p.e. simular una ejecución):
+- Simula una acción:
 
 `act -n`
 

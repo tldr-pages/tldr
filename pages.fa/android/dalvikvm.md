@@ -5,4 +5,4 @@
 
 - اجرای یک برنامه جاوا :
 
-`dalvikvm -classpath {{مسیر/به/فایل.jar}} {{classname}}`
+`dalvikvm -classpath {{path/to/file.jar}} {{classname}}`
