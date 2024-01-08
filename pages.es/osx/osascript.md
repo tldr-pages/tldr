@@ -15,7 +15,7 @@
 
 `osascript {{ruta/al/apple.scpt}}`
 
-- Obtiene el identificador del paquete de una aplicación (útil para `open -b`):
+- Obtén el identificador del paquete de una aplicación (útil para `open -b`):
 
 `osascript -e 'id of app "{{Application}}"'`
 

@@ -7,7 +7,7 @@
 
 `cd {{ruta/al/directorio}}`
 
-- Subir al directorio padre respecto del directorio actual:
+- Cambia al directorio padre:
 
 `cd ..`
 
@@ -19,10 +19,10 @@
 
 `cd ~{{nombredeusuario}}`
 
-- Ir al directorio elegido anteriormente:
+- Cambia al directorio elegido anteriormente:
 
 `cd -`
 
-- Ir al directorio raíz:
+- Cambia al directorio raíz:
 
 `cd /`
