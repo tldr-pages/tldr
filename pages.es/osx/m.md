@@ -3,7 +3,7 @@
 > Navaja suiza para macOS.
 > Más información: <https://github.com/rgcr/m-cli>.
 
-- Obtener el estado de la batería:
+- Obtén el estado de la batería:
 
 `m battery status`
 

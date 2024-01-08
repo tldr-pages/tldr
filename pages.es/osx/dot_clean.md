@@ -7,7 +7,7 @@
 
 `dot_clean {{ruta/al/directorio}}`
 
-- No fusiona recursivamente todos los `._*` en un directorio (fusión plana):
+- Fusiona todos los `._*` en un directorio sin leer subdirectorios (fusión plana):
 
 `dot_clean -f {{ruta/al/directorio}}`
 

@@ -23,7 +23,7 @@
 
 `git branch {{nombre_de_rama}} {{commit_hash}}`
 
-- Cambiar el nombre de una rama (para ello no debes tenerla controlada):
+- Renombra una rama (para ello no debes tenerla controlada):
 
 `git branch -m {{nombre_de_rama_antigua}} {{nuevo_nombre_rama}}`
 

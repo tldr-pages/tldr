@@ -1,12 +1,12 @@
 # exit
 
 > Exit the shell.
-> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#exit>.
+> More information: <https://manned.org/exit.1posix>.
 
-- Exit the shell with the exit code of the last command executed:
+- Exit with the exit status of the most recently executed command:
 
 `exit`
 
-- Exit the shell with the specified exit code:
+- Exit with a specific exit status:
 
 `exit {{exit_code}}`
