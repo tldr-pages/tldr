@@ -12,6 +12,6 @@
 
 `tidy --indent y --wrap 100 -output {{path/to/output.html}} {{path/to/file.html}}`
 
-- Modify an HTML file in-place using a config file:
+- Modify an HTML file in-place using a configuration file:
 
-`tidy -config {{path/to/config}} -modify {{path/to/file.html}}`
+`tidy -config {{path/to/configuration}} -modify {{path/to/file.html}}`
