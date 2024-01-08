@@ -3,6 +3,6 @@
 > Este comando es un alias de `bat`.
 > Más información: <https://github.com/sharkdp/bat>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr bat`

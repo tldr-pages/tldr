@@ -15,7 +15,7 @@
 
 `gradle build --offline`
 
-- Limpiar el directorio de compilación:
+- Limpia el directorio de compilación:
 
 `gradle clean`
 
