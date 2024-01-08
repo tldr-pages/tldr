@@ -19,4 +19,4 @@
 
 - Automatically select mirrors from a mirorrlist:
 
-`sudo urpmi.addmedia --distrib --mirrorlist $MIRRORLIST`
+`sudo urpmi.addmedia --distrib --mirrorlist {{mirrorlist}}`
