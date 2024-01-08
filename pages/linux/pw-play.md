@@ -1,6 +1,6 @@
 # pw-play
 
-> Record audio files through pipewire.
+> Play audio files through pipewire.
 > Shorthand for pw-cat --playback.
 > More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
 
