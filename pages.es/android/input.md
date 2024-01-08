@@ -20,6 +20,6 @@
 
 `input swipe {{x_start}} {{y_start}} {{x_end}} {{y_end}} {{duracion_en_ms}}`
 
-- Enviar una pulsación larga a un dispositivo Android mediante un gesto de deslizamiento:
+- Envía una pulsación larga a un dispositivo Android mediante un gesto de deslizamiento:
 
 `input swipe {{x_pos}} {{y_pos}} {{x_pos}} {{y_pos}} {{duracion_en_ms}}`

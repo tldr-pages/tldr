@@ -6,15 +6,15 @@
 
 - Restaura una imagen de disco en un volumen:
 
-`sudo asr restore --source {{nombre_de_imagen}}.dmg --target {{ruta/al/volumen}}`
+`sudo asr restore --source {{nombre_de_imagen.dmg}} --target {{ruta/al/volumen}}`
 
 - Borra el volumen deseado antes de restaurar:
 
-`sudo asr restore --source {{nombre_de_imagen}}.dmg --target {{ruta/al/volumen}} --erase`
+`sudo asr restore --source {{nombre_de_imagen.dmg}} --target {{ruta/al/volumen}} --erase`
 
 - Omite la verificación después de restaurar:
 
-`sudo asr restore --source {{nombre_de_imagen}}.dmg --target {{ruta/al/volumen}} --noverify`
+`sudo asr restore --source {{nombre_de_imagen.dmg}} --target {{ruta/al/volumen}} --noverify`
 
 - Clona volúmenes sin el uso de una imagen de disco intermedia:
 

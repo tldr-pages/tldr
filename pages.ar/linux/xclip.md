@@ -18,11 +18,11 @@
 
 - إنسخ محتوي ملف إلي حافظة النظام:
 
-`xclip -sel clip {{اسم_الملف.txt}}`
+`xclip -sel clip {{input_file.txt}}`
 
 - إنسخ محتوي صورة بصيغة PNG إلي حافظة النظام (يمكن أن تستخدم في أي برنامج عن طريق لصق):
 
-`xclip -sel clip -t image/png {{اسم_الملف.png}}`
+`xclip -sel clip -t image/png {{input_file.png}}`
 
 - إنسخ إدخال المستخدم في الطرفية أو الكونسول إلي حافظة النظام:
 

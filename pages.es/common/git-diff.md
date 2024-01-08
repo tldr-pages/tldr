@@ -17,7 +17,7 @@
 
 - Muestra los cambios de todos los commits a partir de una fecha/tiempo específico (una expresión de fecha, por ej., "1 week 2 days" o una fecha ISO):
 
-`git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}`
+`git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
 
 - Muestra solo los nombres de los archivos cambiados con un commit específico:
 

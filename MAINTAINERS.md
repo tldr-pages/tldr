@@ -69,6 +69,9 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [9 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722), [20 November 2023](https://github.com/tldr-pages/tldr/issues/11381) — present
 - **Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl))**: [18 December 2023](https://github.com/tldr-pages/tldr/issues/11771) — present
 - **cyqsimon ([@cyqsimon](https://github.com/cyqsimon))**: [28 December 2023](https://github.com/tldr-pages/tldr/issues/11864) — present
+- **Jongwon Youn ([@korECM](https://github.com/korECM))**: [29 December 2023](https://github.com/tldr-pages/tldr/issues/11892) — present
+- **Alejandro Cervera ([@tricantivu](https://github.com/tricantivu))**: [4 January 2024](https://github.com/tldr-pages/tldr/issues/11989) — present
+- **Mohammad Reza Soleimani ([@MrMw3](https://github.com/MrMw3))**: [07 January 2024](https://github.com/tldr-pages/tldr/issues/12011) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
