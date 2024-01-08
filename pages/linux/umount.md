@@ -23,5 +23,3 @@
 - Unmount all mounted filesystems (except the `proc` filesystem):
 
 `umount -a`
-
-
