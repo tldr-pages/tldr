@@ -12,7 +12,7 @@
 
 `scutil --proxy`
 
-- Obtiene nombre de equipo:
+- Obtén el nombre del equipo:
 
 `scutil --get ComputerName`
 
@@ -20,7 +20,7 @@
 
 `sudo scutil --set ComputerName {{nombre_ordenador}}`
 
-- Obtiene nombre del host:
+- Obtén el nombre del host:
 
 `scutil --get HostName`
 

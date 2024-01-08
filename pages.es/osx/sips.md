@@ -10,11 +10,11 @@
 
 - Remuestrea la imagen al tamaño especificado, la relación de aspecto de la imagen puede verse alterada:
 
-`sips --resampleHeightWidth {{1920}}} {{300}} {{archivo_imagen.ext}}`
+`sips --resampleHeightWidth {{1920}} {{300}} {{archivo_imagen.ext}}`
 
 - Remuestrea la imagen para que la altura y la anchura no superen el tamaño especificado (fíjate en la Z mayúscula):
 
-`sips --resampleHeightWidthMax {{1920}}} {{300}} {{archivo_imagen.ext}}`
+`sips --resampleHeightWidthMax {{1920}} {{300}} {{archivo_imagen.ext}}`
 
 - Remuestrea todas las imágenes de un directorio para que se ajusten a una anchura de 960px (respetando la relación de aspecto):
 

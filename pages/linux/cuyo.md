@@ -9,7 +9,7 @@
 
 - Navigate the piece horizontally:
 
-`{{A|D}} OR {{Left|Right arrow key}}`
+`{{A|D|Left arrow key|Right arrow key}}`
 
 - Turn the piece:
 

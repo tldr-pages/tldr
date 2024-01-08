@@ -10,7 +10,7 @@
 
 - Anzeigen eines Benutzerdefinierten Inventars:
 
-`ansible-inventory --list --inventory {{pfad/zu/deiner_datei_oder_deinem_script_oder_deinem_verzeichnis}}`
+`ansible-inventory --list --inventory {{pfad/zu/datei_oder_skript_oder_verzeichnis}}`
 
 - Anzeigen des Standardinventars in YAML:
 

@@ -14,11 +14,11 @@
 
 - Lade eine Umgebung:
 
-`conda {{activate umgebungs_name}}`
+`conda activate {{umgebungs_name}}`
 
 - Entlade eine Umgebung:
 
-`conda {{deactivate}}`
+`conda deactivate`
 
 - Lösche eine Umgebung (entferne alle Pakete):
 

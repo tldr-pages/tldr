@@ -13,7 +13,7 @@
 
 - Memperbarui semua paket yang terpasang:
 
-`scoop update *`
+`scoop update --all`
 
 - Menampilkan daftar paket yang terpasang:
 
@@ -29,4 +29,4 @@
 
 - Menghapus versi lama dari semua paket dan membersihkan cache unduhan:
 
-`scoop cleanup -k *`
+`scoop cleanup --cache --all`

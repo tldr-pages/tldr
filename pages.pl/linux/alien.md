@@ -9,7 +9,7 @@
 
 - Konwertuj wskazany plik instalacyjny do formatu Red Hata (rozszerzenie `.rpm`):
 
-`sudo alien --to-rpm {{ścieżka/do/pliku}`
+`sudo alien --to-rpm {{ścieżka/do/pliku}}`
 
 - Konwertuj wskazany plik instalacyjny do formatu plików instalacyjnych Slackware (rozszerzenie `.tgz`):
 

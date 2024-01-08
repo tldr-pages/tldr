@@ -1,7 +1,7 @@
 # bc
 
 > Un lenguaje de calculadora de precisión arbitraria.
-> Ver también: `dc`.
+> Vea también: `dc`.
 > Más información: <https://manned.org/man/freebsd-13.0/bc.1>.
 
 - Inicia una sesión interactiva:

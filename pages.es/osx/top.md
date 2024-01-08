@@ -19,6 +19,6 @@
 
 `top -user {{nombre_usuario}}`
 
-- Obtener ayuda sobre comandos interactivos:
+- Muestra información de ayuda sobre comandos interactivos:
 
 `?`

@@ -7,10 +7,10 @@
 
 `{{command}} | cut -{{c|f}} {{1|1,10|1-10|1-|-10}}`
 
-- Print a range of each line with a specific delimiter:
+- Print a field range of each line with a specific delimiter:
 
-`{{command}} | cut -d "{{,}}" -{{c}} {{1}}`
+`{{command}} | cut -d "{{,}}" -f {{1}}`
 
-- Print a range of each line of a specific file:
+- Print a character range of each line of a specific file:
 
-`cut -{{c}} {{1}} {{path/to/file}}`
+`cut -c {{1}} {{path/to/file}}`

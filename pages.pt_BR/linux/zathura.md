@@ -10,7 +10,7 @@
 
 - Navega esquerda/baixo/cima/direita:
 
-`<H|J|K|L> ou teclas direcionais`
+`{{H|J|K|L|teclas direcionais}}`
 
 - Rotaciona:
 
@@ -18,7 +18,7 @@
 
 - Inverte cores:
 
-`Ctrl + R`
+`<Ctrl> + R`
 
 - Procura por uma string no documento:
 

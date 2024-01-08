@@ -7,7 +7,7 @@
 
 `adb shell`
 
-- Obtiene todas las propiedades del emulador o dispositivo:
+- Obtén todas las propiedades del emulador o dispositivo:
 
 `adb shell getprop`
 
@@ -29,7 +29,7 @@
 
 - Inicia una actividad en el emulador o dispositivo:
 
-`adb shell am start -n {{paquete}}/{activity}}`
+`adb shell am start -n {{paquete}}/{{activity}}`
 
 - Inicia la actividad de inicio en un emulador o dispositivo:
 

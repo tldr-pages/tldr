@@ -1,12 +1,12 @@
 # shift
 
-> Shell built-in command that shifts the arguments passed to the calling function or script by a specified number of places.
-> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-shift>.
+> Move positional parameters.
+> More information: <https://manned.org/shift.1posix>.
 
-- Move arguments by one place dropping the first argument:
+- Remove the first positional parameter:
 
 `shift`
 
-- Move arguments by N places dropping the first N arguments:
+- Remove the first `N` positional parameters:
 
 `shift {{N}}`
