@@ -24,7 +24,7 @@
 
 `sockstat -sU`
 
-- Display the protocol [S]tack and the [C]ongestion control module, if applicable (these are currently only implemented for TCP):
+- Display the [C]ongestion control module and the protocol [S]tack, if applicable (these are currently only implemented for TCP):
 
 `sockstat -CS`
 
