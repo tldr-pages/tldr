@@ -1,7 +1,7 @@
 # df
 
 > یک نمای کلی از میزان استفاده فضای دیسک و سیستم فایل ارائه می‌دهد.
-> اطلاعات بیشتر: <https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/utilities/df.html>.
+> اطلاعات بیشتر: <https://manned.org/df.1posix>.
 
 - نمایش تمامی سیستم‌های فایل و فضای دیسک آن‌ها :
 
