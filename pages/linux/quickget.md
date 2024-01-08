@@ -21,14 +21,14 @@
 
 `quickget macos {{high-sierra|mojave|catalina|big-sur|monterey|ventura}}`
 
-- Show an ISO URL for an OS (do not work for Windows):
+- Show an ISO URL for an OS (does not work for Windows):
 
 `quickget --show-iso-url fedora {{release}} {{edition}}`
 
-- Test if and OS ISO is available for an OS:
+- Test if an OS ISO is available for an OS:
 
 `quickget --test-iso-url nixos {{edition}} {{plasma5}}`
 
-- Open an OS distribution homepage in a browser (does not work for Windows):
+- Open an OS distribution's homepage in a browser (does not work for Windows):
 
 `quickget --open-distro-homepage {{os}}`
