@@ -9,7 +9,7 @@
 
 - Suche nach Dateien mit dem exakten Dateinamen. (Ein Muster ohne Platzhalterzeichen wird als `*muster*` interpretiert):
 
-`locate */{{dateiname}}`
+`locate '*/{{dateiname}}'`
 
 - Aktualisiere die Datenbank. Dies ist nötig, falls kürzlich hinzugefügte Dateien gefunden werden sollen:
 

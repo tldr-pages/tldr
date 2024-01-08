@@ -25,12 +25,12 @@
 
 - Pobierz wideo jako pliki MP4 i nazwij wedle schematu:
 
-`youtube-dl --format {{mp4}} -o "{{%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s}}" '{{url}}'`
+`youtube-dl --format {{mp4}} -o "{{%(playlist_index)s-%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s}}" '{{url}}'`
 
 - Pobierz plik razem z napisami:
 
 `youtube-dl --sub-lang {{en}} --write-sub '{{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}'`
 
-- Pobierz ścieżkę dźwiękową ze wszystkich filmów z playlisty:
+- Pobierz playlistę i wyodrębnij z niej pliki MP3:
 
-`youtube-dl -i --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '{{adres_url_playlisty}}'`
+`youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '{{adres_url_playlisty}}'`

@@ -33,4 +33,4 @@
 
 - Hapus file-file yang terinfeksi:
 
-`clamscan --remove`
+`clamscan --remove yes`

@@ -10,7 +10,7 @@
 
 - Sprawdź czy podane hosty odpowiadają na skanowanie i zgadnij ich nazwy:
 
-`nmap -sn {{ip_lub_nazwa_hosta}} {{opcjonalny_kolejny_adres_ip}}`
+`sudo nmap -sn {{ip_lub_nazwa_hosta}} {{opcjonalny_kolejny_adres_ip}}`
 
 - Poza tym, uruchom domyśle skrypty, wykrywanie działających serwisów, OS fingerprinting oraz komendę traceroute:
 

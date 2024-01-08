@@ -10,7 +10,7 @@
 
 - Enter a string into the current cell:
 
-`< or >`
+`{{<|>}}`
 
 - Enter a numeric constant into the current cell:
 

@@ -1,4 +1,4 @@
-# kubectl edit
+# kubectl expose
 
 > Expose a resource as a new Kubernetes service.
 > More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#expose>.

@@ -13,7 +13,7 @@
 
 - Belirtilen ad ve parola ile kablosuz ağa bağlan:
 
-`nmcli device wifi connect {{ssid}} password {{parola}}`
+`nmcli --ask device wifi connect {{ssid}}`
 
 - Geçerli kablosuz ağ için parola ve QR kodunu yazdır:
 

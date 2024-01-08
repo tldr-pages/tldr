@@ -24,7 +24,7 @@
 
 `git tag -d {{nombre_de_la_etiqueta}}`
 
-- Obtiene las etiquetas actualizadas de upstreams:
+- Obtén las etiquetas actualizadas de upstreams:
 
 `git fetch --tags`
 

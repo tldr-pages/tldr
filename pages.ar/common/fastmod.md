@@ -6,24 +6,24 @@
 
 - استبدال بالتعبيرات النمطية في كل ملفات المسار الحالي وأبنائه في الملفات غير المُتجاهلة بـ .ignore أو .gitignore:
 
-`fastmod {{تعبير_نمطي}} {{بديل}}`
+`fastmod {{regex_pattern}} {{replacement}}`
 
 - استبدال متجاهلا حالة الحرف في ملف أو في ملفات مسار:
 
-`fastmod --ignore-case {{تعبير_نمطي}} {{بديل}} -- {{مسار/الـ/ملف مسار/الـ/السجل ...}}`
+`fastmod --ignore-case {{regex_pattern}} {{replacement}} -- {{path/to/file path/to/directory ...}}`
 
 - استبدال بالتعبيرات النمطية مع تحديد المكان الذي يُستبدل فيه:
 
-`fastmod {{تعبير_نمطي}} {{بديل}} --dir {{مسار/للـ/سجل}} --iglob {{'**/*.{js,json}'}}`
+`fastmod {{regex}} {{replacement}} --dir {{path/to/directory}} --iglob {{'**/*.{js,json}'}}`
 
 - استبدال بالنص مُطابقةً (وليس التعبيرات النمطية)، في ملفات امتداداتهم إما js أو json فحسب:
 
-`fastmod --fixed-strings {{نص_مطابِق}} {{بديل}} -e {{json,js}}`
+`fastmod --fixed-strings {{exact_string}} {{replacement}} --extensions {{json,js}}`
 
 - استبدال بجميع النصوص مُطابقةً، مباشرة دون مِحَثِّ تأكيد (prompt):
 
-`fastmod --accept-all --fixed-strings {{نص_مطابِق}} {{بديل}}`
+`fastmod --accept-all --fixed-strings {{exact_string}} {{replacement}}`
 
 - استبدال بجميع النصوص مُطابقةً، مباشرة دون تأكيد، مع طباعة الملفات المُستبدل فيها:
 
-`fastmod --accept-all --print-changed-files --fixed-strings {{نص_مطابِق}} {{بديل}}`
+`fastmod --accept-all --print-changed-files --fixed-strings {{exact_string}} {{replacement}}`

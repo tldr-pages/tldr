@@ -33,4 +33,4 @@
 
 - İki tarih arasında yapılmış commit'leri göster:
 
-`git log --before={{tarih}} --after={{tarih}}`
+`git log --before="{{tarih}}" --after="{{tarih}}"`

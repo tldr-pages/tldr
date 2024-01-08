@@ -13,20 +13,20 @@
 
 - Bir konteynerin IP adresini görüntüle:
 
-`docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' {{konteyner}}`
+`docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{konteyner}}`
 
 - Konteynerin log dosyasının yolunu görüntüle:
 
-`docker inspect --format='{{.LogPath}}' {{konteyner}}`
+`docker inspect --format='\{\{.LogPath\}\}' {{konteyner}}`
 
 - Konteynerin imge ismini görüntüle:
 
-`docker inspect --format='{{.Config.Image}}' {{konteyner}}`
+`docker inspect --format='\{\{.Config.Image\}\}' {{konteyner}}`
 
 - Konfigürasyon bilgisini JSON olarak görüntüle:
 
-`docker inspect --format='{{json .Config}}' {{konteyner}}`
+`docker inspect --format='\{\{json .Config\}\}' {{konteyner}}`
 
 - Tüm port limanlayıcıları görüntüle:
 
-`docker inspect --format='{{range $p, $conf := .NetworkSettings.Ports}} {{$p}} -> {{(index $conf 0).HostPort}} {{end}}' {{konteyner}}`
+`docker inspect --format='\{\{range $p, $conf := .NetworkSettings.Ports\}\} \{\{$p\}\} -> \{\{(index $conf 0).HostPort\}\} \{\{end\}\}' {{konteyner}}`

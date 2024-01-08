@@ -11,10 +11,10 @@
 
 `git check-attr {{attribute}} {{path/to/file}}`
 
-- Check the value of a specific attribute on files:
+- Check the values of all attributes on specific files:
 
-`git check-attr --all {{path/to/file1}} {{path/to/file2}}`
+`git check-attr --all {{path/to/file1 path/to/file2 ...}}`
 
 - Check the value of a specific attribute on one or more files:
 
-`git check-attr {{attribute}} {{path/to/file1}} {{path/to/file2}}`
+`git check-attr {{attribute}} {{path/to/file1 path/to/file2 ...}}`

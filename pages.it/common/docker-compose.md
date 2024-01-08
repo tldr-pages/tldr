@@ -15,9 +15,9 @@
 
 `docker compose up --build`
 
-- Avvia tutti i container utilizzando un file compose alternativo:
+- Avvia tutti i contenitori specificando un nome di progetto e utilizzando un file compose alternativo:
 
-`docker compose --file {{percorso/del/file}} up`
+`docker compose -p {{nome_di_progetto}} --file {{percorso/del/file}} up`
 
 - Ferma tutti i container in esecuzione:
 
@@ -25,7 +25,7 @@
 
 - Ferma e rimuovi tutti i container, reti, immagini e volumi:
 
-`docker compose down`
+`docker compose down --rmi all --volumes`
 
 - Segui i log di tutti i container:
 

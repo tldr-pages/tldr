@@ -1,6 +1,6 @@
 # helm install
 
-> Instalar un chart de helm.
+> Instala un chart de helm.
 > Más información: <https://helm.sh/docs/intro/using_helm/#helm-install-installing-a-package>.
 
 - Instala un chart de helm:
@@ -15,7 +15,7 @@
 
 `helm install {{nombre_del_paquete}} {{https://example.com/charts/packagename-1.2.3.tgz}}`
 
-- Instalar un chart de helm y genera un nombre:
+- Instala un chart de helm y genera un nombre:
 
 `helm install {{nombre_del_repositorio}}/{{nombre_del_chart}} --generate-name`
 
