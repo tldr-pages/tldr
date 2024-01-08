@@ -6,12 +6,12 @@
 
 - Uninstall a package:
 
-`urpme {{package}}`
+`sudo urpme {{package}}`
 
 - Uninstall orphan packages (warning: it's very easy to unintentionally remove important packages):
 
-`urpme --auto-orphans`
+`sudo urpme --auto-orphans`
 
 - Uninstall a package and its dependecies:
 
-`urpme --auto-orphans {{package}}`
+`sudo urpme --auto-orphans {{package}}`
