@@ -1,6 +1,6 @@
 # sntp
 
-> Un programa cliente dedicado al Simple Network Time Protocol.
+> Un cliente para Simple Network Time Protocol.
 > Más información: <https://keith.github.io/xcode-man-pages/sntp.1>.
 
 - Consulta un servidor SNTP especificado y muestra la hora:
