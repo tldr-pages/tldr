@@ -4,7 +4,7 @@
 > En PowerShell, este comando es un alias de `Remove-Item`. Esta documentación se basa en la versión del símbolo del sistema (`cmd`) de `del`.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
 
-- Ver la documentación del comando PowerShell equivalente:
+- Muestra la documentación del comando PowerShell equivalente:
 
 `tldr remove-item`
 
@@ -20,11 +20,11 @@
 
 `del {{patrón_del_archivo}} /f`
 
-- Eliminar de forma recursiva archivos de todos los subdirectorios:
+- Elimina recursivamente archivos de todos los subdirectorios:
 
 `del {{patrón_del_archivo}} /s`
 
-- No generar una solicitud de confirmación al eliminar archivos basados en un comodín global:
+- Elimina archivos que coincidan con un comodín sin confirmación:
 
 `del {{patrón_del_archivo}} /q`
 

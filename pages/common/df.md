@@ -1,24 +1,20 @@
 # df
 
-> Gives an overview of the filesystem disk space usage.
-> More information: <https://www.gnu.org/software/coreutils/df>.
+> Display an overview of the filesystem disk space usage.
+> More information: <https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/utilities/df.html>.
 
-- Display all filesystems and their disk usage:
+- Display all filesystems and their disk usage using 512-byte units:
 
 `df`
-
-- Display all filesystems and their disk usage in human-readable form:
-
-`df -h`
 
 - Display the filesystem and its disk usage containing the given file or directory:
 
 `df {{path/to/file_or_directory}}`
 
-- Display statistics on the number of free inodes:
+- Use 1024-byte units when writing space figures:
 
-`df -i`
+`df -k`
 
-- Display filesystems but exclude the specified types:
+- Display information in a portable way:
 
-`df -x {{squashfs}} -x {{tmpfs}}`
+`df -P`

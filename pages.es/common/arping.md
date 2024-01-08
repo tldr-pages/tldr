@@ -1,22 +1,22 @@
 # arping
 
-> Descubrir y sondear hosts en una red utilizando el protocolo ARP.
+> Descubre y sondea hosts en una red utilizando el protocolo ARP.
 > Útil para el descubrimiento de direcciones MAC.
 > Más información: <https://github.com/ThomasHabets/arping>.
 
-- Hace ping a un host mediante paquetes de petición ARP:
+- Haz ping a un host mediante paquetes de petición ARP:
 
 `arping {{host_ip}}`
 
-- Hace ping a un host en una interfaz específica:
+- Haz ping a un host en una interfaz específica:
 
 `arping -I {{interfaz}} {{host_ip}}`
 
-- Hace ping a un host y detenerse en la primera respuesta:
+- Haz ping a un host y detenerse en la primera respuesta:
 
 `arping -f {{host_ip}}`
 
-- Hace ping a un host un determinado número de veces:
+- Haz ping a un host un determinado número de veces:
 
 `arping -c {{cuenta}} {{host_ip}}`
 

@@ -7,7 +7,7 @@
 
 `adb shell`
 
-- Obtiene todas las propiedades del emulador o dispositivo:
+- Obtén todas las propiedades del emulador o dispositivo:
 
 `adb shell getprop`
 

@@ -3,6 +3,6 @@
 > Este comando es un alias de `xz`.
 > Más información: <https://manned.org/lzcat>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr xz`
