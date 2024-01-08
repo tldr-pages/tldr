@@ -20,7 +20,6 @@
 `ddgr -x {{keyword}}`
 
 - جستجو برای یک کلیدواژه و باز کردن اولین نتیجه در مرورگر:
-- Search DuckDuckGo for a keyword and open the first result in the browser:
 
 `ddgr !w {{keyword}}`
 
