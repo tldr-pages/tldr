@@ -8,6 +8,10 @@
 
 `sudo urpmi {{package|path/to/file.rpm}}`
 
+- Download a package without installing it:
+
+`urpmi --no-install {{package}}`
+
 - Update all installed packages (run `urpmi.update -a` to get the available updates):
 
 `sudo urpmi --auto-select`
