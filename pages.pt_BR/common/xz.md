@@ -5,32 +5,32 @@
 
 - Compacta um arquivo no formato xz:
 
-`xz {{arquivo}}`
+`xz {{caminho/para/arquivo}}`
 
 - Descompacta um arquivo no formato xz:
 
-`xz -d {{arquivo.xz}}`
+`xz --decompress {{caminho/para/arquivo.xz}}`
 
 - Compacta um arquivo no formato lzma:
 
-`xz --format=lzma {{arquivo}}`
+`xz --format=lzma {{caminho/para/arquivo}}`
 
 - Descompacta um arquivo no formato lzma:
 
-`xz -d --format=lzma {{arquivo.lzma}}`
+`xz --decompress --format=lzma {{caminho/para/arquivo.lzma}}`
 
-- Descompacta um arquivo e escrever a saída no terminal:
+- Descompacta um arquivo e escrever a saída no terminal (implica `--keep`):
 
-`xz -dc {{arquivo.xz}}`
+`xz --decompress --stdout {{caminho/para/arquivo.xz}}`
 
 - Compacta um arquivo sem apagar o arquivo original:
 
-`xz -k {{arquivo}}`
+`xz --keep {{caminho/para/arquivo}}`
 
 - Compacta um arquivo utilizando a compactação mais rápida:
 
-`xz -0 {{arquivo}}`
+`xz -0 {{caminho/para/arquivo}}`
 
 - Compacta um arquivo utilizando a compactação mais eficiente:
 
-`xz -9 {{arquivo}}`
+`xz -9 {{caminho/para/arquivo}}`

@@ -26,7 +26,7 @@
 
 - Ativa / desativa uma interface:
 
-`ip link set {{interface}} up/down`
+`ip link set {{interface}} {{up|down}}`
 
 - Adiciona / remove um endereço de IP a uma interface:
 

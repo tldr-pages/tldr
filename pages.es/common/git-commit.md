@@ -1,28 +1,28 @@
 # git commit
 
-> Realiza commits de los archivos al repositorio.
+> Realiza confirmaciones de los archivos al repositorio.
 > Más información: <https://git-scm.com/docs/git-commit>.
 
-- Realiza un commit de los archivos marcados al repositorio con un mensaje:
+- Realiza una confirmación de los archivos marcados al repositorio con un mensaje:
 
 `git commit -m "{{mensaje}}"`
 
-- Realiza un commit de los archivos marcados con un mensaje leído desde un archivo:
+- Realiza una confirmación de los archivos marcados con un mensaje leído desde un archivo:
 
-`git commit --file {{ruta/al/archivo_del_mensaje_del_commit}}`
+`git commit --file {{ruta/al/archivo_con_mensaje_de_la_confirmación}}`
 
-- Marca automáticamente todos los archivos modificados y realiza un commit con un mensaje:
+- Marca automáticamente todos los archivos modificados y realiza una confirmación con un mensaje:
 
 `git commit -a -m "{{mensaje}}"`
 
-- Sustituye el último commit con los cambios marcados actualmente, cambiando el hash del commit:
+- Sustituye la última confirmación con los cambios marcados actualmente, cambiando el hash de la confirmación:
 
 `git commit --amend`
 
-- Realiza un commit para archivos específicos (marcados previamente):
+- Realiza una confirmación para archivos específicos (marcados previamente):
 
 `git commit {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
-- Crea un commit, incluso si no hay archivos marcados:
+- Crea una confirmación, incluso si no hay archivos marcados:
 
 `git commit -m "{{mensaje}}" --allow-empty`

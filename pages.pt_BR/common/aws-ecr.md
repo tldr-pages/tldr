@@ -25,7 +25,7 @@
 
 - Apaga uma imagem de um repositório:
 
-`aws ecr batch-delete-image  --repository-name {{repositório}} --image-ids imageTag={{latest}}`
+`aws ecr batch-delete-image --repository-name {{repositório}} --image-ids imageTag={{latest}}`
 
 - Apaga um repositório:
 
