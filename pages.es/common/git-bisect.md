@@ -16,6 +16,6 @@
 
 `git bisect reset`
 
-- Salta una confirmación durante una sesión de bisecado (p. ej. una que falla las pruebas debido a un problema diferente):
+- Omite una confirmación durante una sesión de bisecado (p. ej. una que falla las pruebas debido a un problema diferente):
 
 `git bisect skip`
