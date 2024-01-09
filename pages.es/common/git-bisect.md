@@ -6,7 +6,7 @@
 
 - Comienza un sesión de bisecado en un rango de confirmaciones delimitada por una confirmación erróneo conocido y por uno sano conocido (normalmente más antiguo):
 
-`git bisect start {{confirmacion_erroneo}} {{confirmacion_bueno}}`
+`git bisect start {{confirmación_errónea}} {{confirmación_buena}}`
 
 - Por cada confirmación que `git bisect` selecciona, lo marca como "malo" o "bueno" después de probarlo:
 
