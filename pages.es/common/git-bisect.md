@@ -1,7 +1,7 @@
 # git bisect
 
 > Utiliza la búsqueda binaria para encontrar la confirmación que introdujo un error.
-> Git salta de un lado a otro del gráfico de confirmaciones para hasta alcanzar progresivamente la confirmación defectuosa.
+> Git salta de un lado a otro del gráfico de confirmaciones hasta alcanzar progresivamente la confirmación defectuosa.
 > Más información: <https://git-scm.com/docs/git-bisect>.
 
 - Comienza una sesión de bisecado en un rango de confirmaciones delimitado por una confirmación errónea conocida y por una sana conocida (normalmente más antigua):
