@@ -32,6 +32,6 @@
 
 `lsof +D {{caminho/para/diretório}}`
 
-- Encontra o processo que está ouvindo uma porta de TCP local:
+- Encontra o processo que está ouvindo uma porta de IPv6 TCP local:
 
-`lsof -iTCP:{{porta}} -sTCP:LISTEN`
+`lsof -i6TCP:{{porta}} -sTCP:LISTEN -n -P`

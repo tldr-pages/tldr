@@ -3,10 +3,6 @@
 > A versão Linux do gerenciador de pacotes Homebrew.
 > Mais informações: <https://docs.brew.sh/Manpage>.
 
-- Busca por fórmulas disponíveis:
-
-`brew search {{termo_da_busca}}`
-
 - Instala a última versão estável de uma fórmula (utilizar `--devel` para versões de desenvolvimento):
 
 `brew install {{formula}}`
@@ -26,6 +22,10 @@
 - Exibe as fórmulas que possuem novas versões disponíveis:
 
 `brew outdated`
+
+- Busca por fórmulas disponíveis:
+
+`brew search {{termo_da_busca}}`
 
 - Exibe informações sobre uma fórmula (versão, caminho de instalação, dependências, etc.):
 

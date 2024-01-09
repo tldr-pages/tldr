@@ -9,7 +9,7 @@
 
 - Realiza una confirmación de los archivos marcados con un mensaje leído desde un archivo:
 
-`git commit --file {{ruta/al/archivo_del_mensaje_de_la_confirmacion}}`
+`git commit --file {{ruta/al/archivo_con_mensaje_de_la_confirmación}}`
 
 - Marca automáticamente todos los archivos modificados y realiza una confirmación con un mensaje:
 

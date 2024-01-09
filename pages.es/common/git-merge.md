@@ -11,7 +11,7 @@
 
 `git merge -e {{nombre_de_la_rama}}`
 
-- Fusiona una rama y crea un commit para la fusión:
+- Fusiona una rama y crea una confirmación para la fusión:
 
 `git merge --no-ff {{nombre_de_la_rama}}`
 

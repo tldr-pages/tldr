@@ -1,20 +1,20 @@
 # git revert
 
-> Crea nuevos commits que revierten el efecto de los anteriores.
+> Crea nuevas confirmaciones que revierten el efecto de los anteriores.
 > Más información: <https://git-scm.com/docs/git-revert>.
 
-- Revierte el commit más reciente:
+- Revierte la confirmación más reciente:
 
 `git revert {{HEAD}}`
 
-- Revierte el quinto último commit:
+- Revierte la quinta confirmación más reciente:
 
 `git revert HEAD~{{4}}`
 
-- Revierte múltiples commits:
+- Revierte múltiples confirmaciones:
 
 `git revert {{rama~5..rama~2}}`
 
-- Revierte commits sin crear nuevos commits:
+- Revierte confirmaciones sin crear nuevas confirmaciones:
 
 `git revert -n {{0c01a9..9a1743}}`
