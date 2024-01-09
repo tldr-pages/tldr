@@ -24,9 +24,9 @@
 
 `rsync --recursive {{caminho/para/origem}}/ {{caminho/para/destino}}`
 
-- Copia recursivamente diretórios, usa o modo de arquivamento, resolve links simbólicos e ignora arquivos que são mais recentes no destino:
+- Copia diretórios, usa o modo de arquivamento, resolve links simbólicos e ignora arquivos que são mais recentes no destino:
 
-`rsync --recursive --archive --update --copy-links {{caminho/para/origem}} {{caminho/para/destino}}`
+`rsync --archive --update --copy-links {{caminho/para/origem}} {{caminho/para/destino}}`
 
 - Transfere um diretório para um host remoto executando o `rsyncd` and exclui arquivos no destino que não existem na origem:
 
