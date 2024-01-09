@@ -29,7 +29,7 @@
 
 - Executa as fases `clean` e `package` em um projeto utilizando um perfil:
 
-`mvn clean -P{{perfil}} package`
+`mvn clean -P {{perfil}} package`
 
 - Executa uma classe que possua o método `main`:
 
