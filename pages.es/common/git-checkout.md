@@ -31,6 +31,6 @@
 
 `git checkout {{nombre_del_archivo}}`
 
-- Reemplaza un archivo en el directorio actual con la versión de este en un commit de una rama específica:
+- Reemplaza un archivo en el directorio actual con la versión de este en la confirmación de una rama específica:
 
 `git checkout {{nombre_de_la_rama}} -- {{nombre_del_archivo}}`

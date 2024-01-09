@@ -1,7 +1,7 @@
 # git reset
 
-> Deshace commits o desmarca cambios mediante el restablecimiento del actual HEAD de Git al estado especificado.
-> Si se pasa una ruta, funciona como "desmarcar", si se pasa el hash de un commit o una rama, funciona como "deshacer" el commit.
+> Deshaz confirmaciones o desmarca cambios mediante el restablecimiento del actual HEAD de Git al estado especificado.
+> Si se pasa una ruta, funciona como "desmarcar", si se pasa el hash de una confirmación o una rama, funciona como "deshacer" la confirmación.
 > Más información: <https://git-scm.com/docs/git-reset>.
 
 - Desmarca todo:
@@ -16,18 +16,18 @@
 
 `git reset --patch {{ruta/al/archivo}}`
 
-- Deshaz el último commit, manteniendo sus cambios, y cualquier otro cambio sin commit, en el sistema de archivo:
+- Deshaz la última confirmación, manteniendo sus cambios, y cualquier otro cambio sin confirmación, en el sistema de archivos:
 
 `git reset HEAD~`
 
-- Deshaz los últimos dos commits al añadir sus cambios al índice (por ej., marcado para commit):
+- Deshaz las últimas dos confirmaciones al añadir sus cambios al índice (p. ej. marcado para confirmación):
 
 `git reset --soft HEAD~2`
 
-- Descarta cualquier cambio sin commit, marcado o no (se puede `git checkout` solo para los cambios sin marcar):
+- Descarta cualquier cambio sin confirmación, marcado o no (se puede `git checkout` solo para los cambios sin marcar):
 
 `git reset --hard`
 
-- Restablece el repositorio a un commit específico y descarta a partir de este los cambios con y sin commit, y los marcados:
+- Restablece el repositorio a una confirmación específica y descarta a partir de esta los cambios con y sin confirmación, y los marcados:
 
-`git reset --hard {{commit}}`
+`git reset --hard {{confirmación}}`
