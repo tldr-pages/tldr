@@ -1,7 +1,7 @@
 # df
 
 > Fornisce una panoramica dello spazio utilizzato dai file system sui dischi.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/df>.
+> Maggiori informazioni: <https://manned.org/df.1posix>.
 
 - Mostra tutti i file system ed il loro utilizzo del disco:
 
