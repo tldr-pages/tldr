@@ -1,6 +1,6 @@
 # cksum
 
-> Berekn de CRC checksums en het aantal bytes van een bestand.
+> Bereken de CRC checksums en het aantal bytes van een bestand.
 > Opmerking: op oudere UNIX systemen kan de CRC implementatie verschillen.
 > Meer informatie: <https://www.gnu.org/software/coreutils/cksum>.
 
