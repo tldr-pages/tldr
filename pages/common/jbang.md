@@ -4,11 +4,11 @@
 > See also: `java`.
 > More information: <https://www.jbang.dev/documentation/guide/latest/cli/jbang.html>.
 
-- Initialize a simple "Hello world" Java class:
+- Initialize a simple Java class:
 
 `jbang init {{path/to/file.java}}`
 
-- Initialize a java class useful for scripting:
+- Initialize a Java class useful for scripting:
 
 `jbang init --template={{cli}} {{path/to/file.java}}`
 
@@ -28,10 +28,10 @@
 
 `jbang {{path/to/file.java}} {{command}} {{arg1 arg2 ...}}`
 
-- Install a script on the user's $PATH:
+- Install a script on the user's `$PATH`:
 
 `jbang app install --name {{command_name}} {{path/to/script.java}}`
 
-- Install a JDK to be used with jbang:
+- Install a specific version of JDK to be used with `jbang`:
 
 `jbang jdk install {{version}}`
