@@ -1,21 +1,21 @@
 # git bisect
 
-> Utiliza la búsqueda binaria para encontrar el commit que introdujo un error.
-> Git salta de un lado a otro del gráfico de commits para hasta alcanzar progresivamente el commit defectuoso.
+> Utiliza la búsqueda binaria para encontrar la confirmación que introdujo un error.
+> Git salta de un lado a otro del gráfico de confirmaciones hasta alcanzar progresivamente la confirmación defectuosa.
 > Más información: <https://git-scm.com/docs/git-bisect>.
 
-- Comienza un sesión de bisecado en un rango de commits delimitada por un commit erróneo conocido y por uno sano conocido (normalmente más antiguo):
+- Comienza una sesión de bisecado en un rango de confirmaciones delimitado por una confirmación errónea conocida y por una sana conocida (normalmente más antigua):
 
-`git bisect start {{commit_erroneo}} {{commit_bueno}}`
+`git bisect start {{confirmación_errónea}} {{confirmación_buena}}`
 
-- Para cada commit que `git bisect` selecciona, marcarlo como "malo" o "bueno" después de probarlo para el problema:
+- Para cada confirmación que `git bisect` seleccione, marcala como "mala" o "buena" después de probarla para el problema:
 
 `git bisect {{bueno|malo}}`
 
-- Después de que `git bisect` determine con precisión el commit defectuoso, termina la sesión de bisecado y vuelve a la rama anterior:
+- Termina la sesión de bisecado y vuelve a la rama anterior después de que `git-bisect` determine con precisión la confirmación defectuosa:
 
 `git bisect reset`
 
-- Salta un commit durante una sesión de bisecado (p. ej., uno que falla las pruebas debido a un problema diferente):
+- Omite una confirmación durante una sesión de bisecado (p. ej. una que falla las pruebas debido a un problema diferente):
 
 `git bisect skip`
