@@ -1,13 +1,13 @@
 # renice
 
-> Alters the scheduling priority/niceness of one or more running processes.
+> Alter the scheduling priority/niceness of one or more running processes.
 > Niceness values range from -20 (most favorable to the process) to 19 (least favorable to the process).
 > See also: `nice`.
 > More information: <https://manned.org/renice>.
 
 - Set the absolute priority of a running [p]rocess:
 
-`renice {{3}} -p {{pid}}`
+`renice {{+3}} -p {{pid}}`
 
 - Increase/decrease the priority of all processes owned by a [u]ser:
 
