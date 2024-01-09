@@ -1,14 +1,14 @@
 # perlbrew
 
-> Manage perl installations in the home directory.
+> Manage Perl installations in the home directory.
 > See also: `asdf`.
 > More information: <https://github.com/gugod/App-perlbrew>.
 
-- Initialize a perlbrew environment:
+- Initialize a `perlbrew` environment:
 
 `perlbrew init`
 
-- List available perl versions:
+- List available Perl versions:
 
 `perlbrew available`
 
@@ -24,7 +24,7 @@
 
 `perlbrew switch perl-{{version}}`
 
-- Use the system perl again:
+- Use the system Perl again:
 
 `perlbrew off`
 
