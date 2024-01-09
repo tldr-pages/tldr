@@ -25,7 +25,7 @@
 
 - Instala um chart helm:
 
-`helm install {{nome_do_repositório}}/{{nome_do_chart}}`
+`helm install {{nome}} {{nome_do_repositório}}/{{nome_do_chart}}`
 
 - Obtém um chart helm chart como um arquivo tar:
 

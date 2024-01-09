@@ -9,11 +9,11 @@
 
 - Inicializa o Dolphin em um diretório específico:
 
-`dolphin {{caminho/para/diretorio}}`
+`dolphin {{caminho/para/diretorio1 caminho/para/diretorio2 ...}}`
 
 - Inicializa o Dolphin com um arquivo ou diretório específico:
 
-`dolphin --select {{caminho/para/arquivo_ou_diretorio}}`
+`dolphin --select {{caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...}}`
 
 - Inicializa o Dolphin em uma janela separada:
 
@@ -21,7 +21,7 @@
 
 - Inicializa o Dolphin no modo de divisão de tela:
 
-`dolphin --split`
+`dolphin --split {{caminho/para/diretorio1}} {{caminho/para/diretorio2}}`
 
 - Inicializa o daemon do Dolphin (necessário apenas para usar a interface do DBus):
 
