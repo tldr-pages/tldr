@@ -10,7 +10,7 @@
 
 - Por cada confirmación que `git bisect` selecciona, lo marca como "malo" o "bueno" después de probarlo:
 
-`git bisect {{bueno|malo}}`
+`git bisect {{good|bad}}`
 
 - Después de que `git bisect` determina con precisión la confirmación defectuosa, termina la sesión de bisecado y vuelve a la rama anterior:
 
