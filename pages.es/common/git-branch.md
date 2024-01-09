@@ -7,7 +7,7 @@
 
 `git branch --all`
 
-- Lista las ramas que incluyen un commit Git específico en su historial:
+- Lista las ramas que incluyen una confirmación específica en su historial:
 
 `git branch --all --contains {{commit_hash}}`
 
@@ -15,11 +15,11 @@
 
 `git branch --show-current`
 
-- Crea una nueva rama basada en el commit actual:
+- Crea una nueva rama basada en la confirmación actual:
 
 `git branch {{nombre_rama}}`
 
-- Crea una nueva rama basada en un commit específico:
+- Crea una nueva rama basada en una confirmación específica:
 
 `git branch {{nombre_de_rama}} {{commit_hash}}`
 
