@@ -1,7 +1,7 @@
 # exit
 
 > Avsluta shell.
-> Mer information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#exit>.
+> Mer information: <https://manned.org/exit.1posix>.
 
 - Avsluta shell med utgångskoden från det senast utförda kommandot:
 
