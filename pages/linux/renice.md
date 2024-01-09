@@ -5,14 +5,14 @@
 > See also: `nice`.
 > More information: <https://manned.org/renice>.
 
-- Increase/decrease the priority of a running [p]rocess:
+- Set the absolute priority of a running [p]rocess:
 
-`renice -n {{3}} -p {{pid}}`
+`renice {{+3}} -p {{pid}}`
 
 - Increase/decrease the priority of all processes owned by a [u]ser:
 
-`renice -n {{-4}} -u {{uid|user}}`
+`renice --relative {{-4}} -u {{uid|user}}`
 
-- Increase/decrease the priority of all processes that belong to a process [g]roup:
+- Set the priority of all processes that belong to a process [g]roup:
 
-`renice -n {{5}} -g {{process_group}}`
+`renice --absolute {{5}} -g {{process_group}}`
