@@ -14,7 +14,7 @@
 
 - Crea una etiqueta con el nombre especificado a partir de la confirmación señalada:
 
-`git tag {{nombre_de_la_etiqueta}} {{commit}}`
+`git tag {{nombre_de_la_etiqueta}} {{confirmación}}`
 
 - Crea una etiqueta anotada con el mensaje especificado:
 
@@ -30,4 +30,4 @@
 
 - Muestra todas las etiquetas cuyos ancestros incluyan una confirmación específica:
 
-`git tag --contains {{commit}}`
+`git tag --contains {{confirmación}}`

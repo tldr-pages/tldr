@@ -10,7 +10,7 @@
 
 - Restaura un archivo sin marcar a la versión de una confirmación específica:
 
-`git restore --source {{commit}} {{ruta/al/archivo}}`
+`git restore --source {{confirmación}} {{ruta/al/archivo}}`
 
 - Descarta los cambios sin confirmación para los archivos rastreados:
 

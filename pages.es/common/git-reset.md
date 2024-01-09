@@ -30,4 +30,4 @@
 
 - Restablece el repositorio a una confirmación específica y descarta a partir de esta los cambios con y sin confirmación, y los marcados:
 
-`git reset --hard {{commit}}`
+`git reset --hard {{confirmación}}`

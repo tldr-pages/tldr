@@ -25,7 +25,7 @@
 
 - Aplica un stash (por defecto es el último, llamado `stash@{0}`):
 
-`git stash apply {{nombre_opcional_del_stash_o_commit}}`
+`git stash apply {{nombre_opcional_del_stash_o_confirmación}}`
 
 - Suelta o aplica un stash (por defecto es `stash@{0}`) y lo elimina de la lista de stash si su aplicación no causa conflictos:
 

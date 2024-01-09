@@ -21,11 +21,11 @@
 
 - Muestra solo los nombres de los archivos cambiados en una confirmación específica:
 
-`git diff --name-only {{commit}}`
+`git diff --name-only {{confirmación}}`
 
 - Muestra un resumen de los cambios hecho en una confirmación (p. ej. permisos de un archivo):
 
-`git diff --summary {{commit}}`
+`git diff --summary {{confirmación}}`
 
 - Compara un único archivo entre dos ramas o confirmaciones:
 

@@ -14,7 +14,7 @@
 
 - Crea y cambia a una nueva rama basada en una confirmación específica:
 
-`git switch --create {{nombre_de_la_rama}} {{commit}}`
+`git switch --create {{nombre_de_la_rama}} {{confirmación}}`
 
 - Cambia a la rama anterior:
 

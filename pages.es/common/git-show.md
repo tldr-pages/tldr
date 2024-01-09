@@ -9,7 +9,7 @@
 
 - Muestra información de una confirmación específica:
 
-`git show {{commit}}`
+`git show {{confirmación}}`
 
 - Muestra información de la confirmación asociada a una determinada etiqueta:
 
@@ -21,15 +21,15 @@
 
 - Muestra el mensaje de una confirmación en una única línea, eliminando el resultado de la diferencia:
 
-`git show --oneline -s {{commit}}`
+`git show --oneline -s {{confirmación}}`
 
 - Muestra solo estadísticas (caracteres agregados o removidos) de los archivos modificados:
 
-`git show --stat {{commit}}`
+`git show --stat {{confirmación}}`
 
 - Muestra solo la lista de archivos agregados, renombrados o eliminados:
 
-`git show --summary {{commit}}`
+`git show --summary {{confirmación}}`
 
 - Muestra el contenido de un archivo en una revisión específica (por ej., una rama, una etiqueta o una confirmación):
 

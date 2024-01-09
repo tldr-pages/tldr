@@ -10,7 +10,7 @@
 
 - Inicia un rebase interactivo que permite reordenar, omitir, combinar o modificar confirmaciones:
 
-`git rebase -i {{rama_base_objetivo_o_hash_del_commit}}`
+`git rebase -i {{rama_base_objetivo_o_hash_de_la_confirmación}}`
 
 - Continúa un rebase que fue interrumpido por una fusión fallida después de editar los archivos con conflictos:
 

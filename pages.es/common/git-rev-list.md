@@ -17,7 +17,7 @@
 
 - Muestra todas las confirmaciones fusionadas en una confirmación específica:
 
-`git rev-list --merges {{commit}}`
+`git rev-list --merges {{confirmación}}`
 
 - Imprime el número de confirmaciones desde una etiqueta específica:
 
