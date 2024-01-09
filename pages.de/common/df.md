@@ -1,7 +1,7 @@
 # df
 
 > Verschafft einen Überblick über verfügbaren Speicherplatz im Dateisystem.
-> Weitere Informationen: <https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/utilities/df.html>.
+> Weitere Informationen: <https://manned.org/df.1posix>.
 
 - Zeige verfügbaren Platz auf allen eingehängten Dateisystemen:
 
