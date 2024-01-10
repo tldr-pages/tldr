@@ -12,7 +12,7 @@
 
 `poetry add {{dependency}}`
 
-- Install the project dependencies:
+- Install the project dependencies using the `pyproject.toml` in the current directory:
 
 `poetry install`
 
