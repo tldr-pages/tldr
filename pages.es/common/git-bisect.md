@@ -8,7 +8,7 @@
 
 `git bisect start {{confirmación_errónea}} {{confirmación_buena}}`
 
-- Para cada confirmación que `git bisect` seleccione, marcala como "mala" o "buena" después de probarla para el problema:
+- Para cada confirmación que `git bisect` seleccione, marcala como "mala" (`bad`) o "buena" (`good`) después de probarla para el problema:
 
 `git bisect {{good|bad}}`
 
