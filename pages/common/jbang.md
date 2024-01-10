@@ -8,7 +8,7 @@
 
 `jbang init {{path/to/file.java}}`
 
-- Initialize a Java class useful for scripting:
+- Initialize a Java class (useful for scripting):
 
 `jbang init --template={{cli}} {{path/to/file.java}}`
 
