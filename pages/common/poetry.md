@@ -8,7 +8,7 @@
 
 `poetry new {{project_name}}`
 
-- Install and add a dependency to pyproject.toml:
+- Install and add a dependency and its subdependencies to `pyproject.toml` in the current directory:
 
 `poetry add {{dependency}}`
 
