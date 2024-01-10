@@ -26,4 +26,4 @@
 
 - Ripristina una sotto-directory da un backup locale cifrato con GnuPG in una posizione precisa:
 
-`PASSPHRASE={{password_chiave_gpg}} duplicity restore --encrypt-key {{id_chiave_gpg}} --file-to-restore {{percorso/relativo/sotto_directory}} file://{{percorso/assoluto/della/directory/di/backup}} {{percorso/della/directory/dove/ripristinare}}`
+`PASSPHRASE={{password_chiave_gpg}} duplicity restore --encrypt-key {{id_chiave_gpg}} --path-to-restore {{percorso/relativo/sotto_directory}} file://{{percorso/assoluto/della/directory/di/backup}} {{percorso/della/directory/dove/ripristinare}}`
