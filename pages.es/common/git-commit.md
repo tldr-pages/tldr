@@ -15,7 +15,7 @@
 
 `git commit --all --message "{{mensaje}}"`
 
-- Confirma todos los archivos preparados y firmalos con una llave de GPG (o la que este definida en el archivo de configuración si no se especifica un argumento):
+- Confirma todos los archivos preparados y firmalos con una llave de GPG (o la llave en el archivo de configuración si no se especifica un argumento):
 
 `git commit --gpg-sign {{identificador_de_llave}} --message "{{mensaje}}"`
 
