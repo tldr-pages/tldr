@@ -13,7 +13,7 @@
 
 - Same as above, but write the zip archive to file:
 
-`git archive --verbose --output {{path/to/file.zip}} HEAD`
+`git archive -v --output {{path/to/file.zip}} HEAD`
 
 - Create a tar archive from the contents of the latest commit on a specific branch:
 
@@ -21,7 +21,7 @@
 
 - Create a tar archive from the contents of a specific directory:
 
-`git archive --output {{path/to/file.tar}} HEAD:{{path/to/directory}}`
+`git archive -o {{path/to/file.tar}} HEAD:{{path/to/directory}}`
 
 - Prepend a path to each file to archive it inside a specific directory:
 
