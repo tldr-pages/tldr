@@ -10,7 +10,7 @@
 
 - Backup a directory to Amazon S3, doing a full backup every month:
 
-`duplicity --full-if-older-than {{1M}} --use-new-style s3://{{bucket_name[/prefix]}}`
+`duplicity --full-if-older-than {{1M}} s3://{{bucket_name[/prefix]}}`
 
 - Delete versions older than 1 year from a backup stored on a WebDAV share:
 
@@ -26,4 +26,4 @@
 
 - Restore a subdirectory from a GnuPG-encrypted local backup to a given location:
 
-`PASSPHRASE={{gpg_key_password}} duplicity restore --encrypt-key {{gpg_key_id}} --file-to-restore {{relative/path/restoredirectory}} file://{{absolute/path/to/backup/directory}} {{path/to/directory/to/restore/to}}`
+`PASSPHRASE={{gpg_key_password}} duplicity restore --encrypt-key {{gpg_key_id}} --path-to-restore {{relative/path/restoredirectory}} file://{{absolute/path/to/backup/directory}} {{path/to/directory/to/restore/to}}`
