@@ -1,6 +1,6 @@
 # ipptool
 
-> Send an IPP request and tests, displaying the results.
+> Issue IPP requests and receive printer's/server's responses.
 > See also: `ippfind`, `ippeveprinter`.
 > More information: <https://openprinting.github.io/cups/doc/man-ipptool.html>.
 
