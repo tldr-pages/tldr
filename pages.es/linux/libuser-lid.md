@@ -6,7 +6,7 @@
 
 - Lista los grupos primarios y secundarios de un usuario específico:
 
-`sudo lid {{nombredeusuario}}`
+`sudo lid {{nombre_de_usuario}}`
 
 - Lista los usuarios de un grupo específico:
 
