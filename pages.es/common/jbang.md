@@ -6,7 +6,7 @@
 
 - Inicializa una clase Java simple:
 
-"jbang init {{ruta/a/archivo.java}}"
+`jbang init {{ruta/al/archivo.java}}`
 
 - Inicializar una clase Java (útil para scripts):
 
