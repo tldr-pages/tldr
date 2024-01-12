@@ -1,0 +1,31 @@
+name: Copy assets to the new release
+
+on:
+  release:
+    types: published
+
+permissions:
+  contents: write
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  release:
+    name: Copy assets to the new release
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download and upload
+        run: |
+          LATEST="$(git describe --tags --abbrev=0)"
+          PREVIOUS="$(git describe --tags --abbrev=0 "$LATEST"^)"
+
+          mkdir release-assets && cd release-assets
+
+          gh release download "$PREVIOUS"
+          gh release upload "$LATEST" -- *
