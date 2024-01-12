@@ -8,9 +8,9 @@
 
 `git bisect start {{confirmación_errónea}} {{confirmación_buena}}`
 
-- Para cada confirmación que `git bisect` seleccione, marcala como "mala" o "buena" después de probarla para el problema:
+- Para cada confirmación que `git bisect` seleccione, marcala como "mala" (`bad`) o "buena" (`good`) después de probarla para el problema:
 
-`git bisect {{bueno|malo}}`
+`git bisect {{good|bad}}`
 
 - Termina la sesión de bisecado y vuelve a la rama anterior después de que `git-bisect` determine con precisión la confirmación defectuosa:
 
@@ -19,3 +19,7 @@
 - Omite una confirmación durante una sesión de bisecado (p. ej. una que falla las pruebas debido a un problema diferente):
 
 `git bisect skip`
+
+- Muestra un registro de lo que se ha hecho hasta el momento:
+
+`git bisect log`

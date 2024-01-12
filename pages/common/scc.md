@@ -21,7 +21,7 @@
 
 - Only count files with specific file extensions:
 
-`scc --include-ext {{go, java, js}}`
+`scc --include-ext {{go,java,js}}`
 
 - Exclude directories from being counted:
 
