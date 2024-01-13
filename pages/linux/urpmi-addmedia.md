@@ -1,6 +1,6 @@
 # urpmi.addmedia
 
-> Mageia's command for adding media.
+> Add media in Mageia.
 > NOTE: Mageia documentation uses medium and repository as synonymous.
 > See also: `urpmi`, `urpmi.update`, `urpme`, `urpmi.removemedia`, `urpmf`, `urpmq`.
 > More information: <https://wiki.mageia.org/en/URPMI#urpme>.
@@ -17,6 +17,6 @@
 
 `sudo urpmi.addmedia --distrib ftp://{{mirror_website}/mirror/mageia/distrib/{{version}}/{{arch}}`
 
-- Automatically select mirrors from a mirorrlist:
+- Automatically select mirrors from a mirror list:
 
 `sudo urpmi.addmedia --distrib --mirrorlist {{mirrorlist}}`

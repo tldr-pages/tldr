@@ -1,6 +1,6 @@
 # urpmq
 
-> Mageia's command for querying information about packages and media.
+> Query information about packages and media in Mageia.
 > See also: `urpmi`, `urpmi.update`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpme`.
 > More information: <https://wiki.mageia.org/en/URPMI#urpmq>.
 

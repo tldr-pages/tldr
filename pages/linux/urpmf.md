@@ -1,7 +1,6 @@
 # urpmf
 
-> Mageia's command for finding files in packages and querying information about them.
-> NOTE: Mageia documentation uses medium and repository as synonymous.
+> Find files in packages and query information about them in Mageia.
 > See also: `urpmi`, `urpme`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmi.update`, `urpmq`.
 > More information: <https://wiki.mageia.org/en/URPMI#urpmi.removemedia>.
 
