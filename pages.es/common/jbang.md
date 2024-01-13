@@ -1,6 +1,6 @@
 # jbang
 
-> Crea, edita y ejecuta fácilmente programas Java autocontenidos de sólo código fuente.
+> Crea, edita y ejecuta fácilmente programas en Java autocontenidos de sólo código fuente.
 > Ver también: `java`.
 > Más información: <https://www.jbang.dev/documentation/guide/latest/cli/jbang.html>.
 
