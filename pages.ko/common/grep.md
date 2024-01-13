@@ -25,7 +25,7 @@
 
 - 각각의 일치하는 문자열의 파일 이름과 줄 번호 출력:
 
-`grep --with-filename --line-number "{{검색_패턴}}" {{파일/의/경로}}`
+`grep --with-filename --line-number --color=always "{{검색_패턴}}" {{파일/의/경로}}`
 
 - 패턴과 일치하는 줄을 검색하고, 일치하는 문자만 출력:
 

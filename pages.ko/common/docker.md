@@ -3,13 +3,9 @@
 > 도커 컨테이너들과 이미지들을 관리한다.
 > 더 많은 정보: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- 현재 실행중인 도커 컨테이너들 목록보기:
-
-`docker ps`
-
 - 모든 도커 컨테이너들(실행중이고 중지된) 목록 보기:
 
-`docker ps -a`
+`docker ps --all`
 
 - 사용자 정의 이름으로 이미지로부터 컨테이너 실행:
 
