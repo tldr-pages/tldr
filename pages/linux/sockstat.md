@@ -1,7 +1,6 @@
 # sockstat
 
-> List open Internet or UNIX domain sockets. Ported from FreeBSD.
-> Some of the displayed informations: USER, COMMAND, PID, FD (file descriptor), PROTO (protocol).
+> List open Internet or UNIX domain sockets.
 > See also: `netstat`.
 > More information: <https://manned.org/sockstat>.
 

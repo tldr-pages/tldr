@@ -1,10 +1,9 @@
 # sockstat
 
 > List open Internet or UNIX domain sockets.
-> Some of the displayed informations: USER, COMMAND, PID, FD (file descriptor), PROTO (protocol).
 > More information: <https://man.freebsd.org/cgi/man.cgi?sockstat>.
 
-- View which users/processes are [l]istening to which ports:
+- View which users/processes are [l]istening on which ports:
 
 `sockstat -l`
 
@@ -12,7 +11,7 @@
 
 `sockstat -{{4|6}} -l -P {{tcp|udp|sctp|divert}} -p {{port1,port2...}}`
 
-- Also show [c]onnected sockets, not resolving numeric UIDs to user [n]ames and using a [w]ider field size:
+- Also show [c]onnected sockets, not resolving [n]umeric UIDs to user names and using a [w]ider field size:
 
 `sockstat -cnw`
 

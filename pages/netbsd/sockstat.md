@@ -1,7 +1,7 @@
 # sockstat
 
-> List open Internet or UNIX domain sockets. Rewrite for NetBSD 3.0 from FreeBSD's `sockstat`.
-> Some of the displayed informations: USER, COMMAND, PID, FD (file descriptor), PROTO (protocol).
+> List open Internet or UNIX domain sockets.
+> Note: this program is a rewrite for NetBSD 3.0 from FreeBSD's `sockstat`.
 > See also: `netstat`.
 > More information: <https://man.freebsd.org/cgi/man.cgi?sockstat>.
 
