@@ -18,4 +18,4 @@
 
 - 커밋의 변경내역을 커밋 없이 디렉토리에 추가:
 
-`git cherry-pick -n {{커밋}}`
+`git cherry-pick --no-commit {{커밋}}`
