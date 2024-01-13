@@ -1,7 +1,7 @@
 # df
 
 > 提供文件系统磁盘空间使用情况的概览。
-> 更多信息：<https://www.gnu.org/software/coreutils/df>.
+> 更多信息：<https://manned.org/df.1posix>.
 
 - 显示所有文件系统和它们的磁盘使用情况：
 

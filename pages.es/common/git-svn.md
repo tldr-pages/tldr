@@ -19,6 +19,6 @@
 
 `git svn fetch`
 
-- Realiza un commit al repositorio SVN:
+- Realiza una confirmación en un repositorio SVN:
 
 `git svn commit`

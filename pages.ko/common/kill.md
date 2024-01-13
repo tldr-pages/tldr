@@ -2,7 +2,7 @@
 
 > 보통 프로세스를 정지시키는 것과 관련된 시그널을 전송합니다.
 > SIGKILL과 SIGSTOP을 제외한 모든 시그널들은 깔끔한 종료를 위해 프로세스에게 뺏길 수 있습니다.
-> 더 많은 정보: <https://manned.org/kill>.
+> 더 많은 정보: <https://manned.org/kill.1posix>.
 
 - 기본 SIGTERM ("terminate") 시그널을 보내 프로그램을 종료:
 
