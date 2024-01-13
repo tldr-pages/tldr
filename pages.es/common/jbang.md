@@ -26,7 +26,7 @@
 
 - Ejecuta aplicación de línea de comandos:
 
-`jbang {{ruta/al/archivo.java}} {{command}} {{arg1 arg2 ...}}`
+`jbang {{ruta/al/archivo.java}} {{comando}} {{arg1 arg2 ...}}`
 
 - Instala un script en el `$PATH` del usuario:
 
@@ -34,4 +34,4 @@
 
 - Instala una versión específica de JDK para utilizarla con `jbang`:
 
-`jbang jdk install {{version}}`
+`jbang jdk install {{versión}}`
