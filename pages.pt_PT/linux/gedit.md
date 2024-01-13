@@ -5,16 +5,16 @@
 
 - Abre um ficheiro de texto:
 
-`gedit {{ficheiro}}`
+`gedit {{caminho/para/ficheiro}}`
 
 - Abre múltiplos ficheiros de texto:
 
-`gedit {{ficheiro1 ficheiro2}}`
+`gedit {{caminho/para/ficheiro1 caminho/para/ficheiro2 ...}}`
+
+- Abre um ficheiro de texto com uma formatação específica:
+
+`gedit --encoding={{UTF-8}} {{caminho/para/ficheiro}}`
 
 - Mostra a lista de formatações de texto disponíveis:
 
 `gedit --list-encodings`
-
-- Abre um ficheiro de texto com uma formatação específica:
-
-`gedit --encoding={{encoding}} {{ficheiro}}`
