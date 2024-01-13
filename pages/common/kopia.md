@@ -32,18 +32,6 @@
 
 `kopia policy set --global --keep-latest {{number_of_snapshots_to_keep}} --compression {{compression_algorithm}}`
 
-- Mount a snapshot to a local directory:
-
-`kopia mount {{snapshot_id}} {{path/to/mount_point}}`
-
 - Ignore a specific file or folder from backups:
 
 `kopia policy set --global --add-ignore {{path/to/file_or_folder}}`
-
-- Change the password of a repository:
-
-`kopia repository set-parameters --password {{new_password}}`
-
-- Show the difference between two snapshots:
-
-`kopia diff {{snapshot_id_1}} {{snapshot_id_2}}`
