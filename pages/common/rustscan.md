@@ -1,21 +1,21 @@
 # rustscan
 
-> Fast Port Scanner written in Rust with nmap built in.
+> Fast Port Scanner written in Rust with `nmap` built in.
 > More information: <https://github.com/RustScan/RustScan>.
 
-- Ping Scan (one or more comma-delimited addresses):
+- Scan all ports of one or more comma-delimited addresses using the default values:
 
 `rustscan --addresses {{ip_or_hostname}}`
 
-- Top 1000 ports scan with service and version detection:
+- Scan the top 1000 ports with service and version detection:
 
 `rustscan --top --addresses {{address_or_addresses}}`
 
-- Scan specific ports:
+- Scan a specific list of ports:
 
 `rustscan --ports {{port1,port2,...,portN}} --addresses {{address_or_addresses}}`
 
-- Scan specific range of ports:
+- Scan a specific range of ports:
 
 `rustscan --range {{start-end}} --addresses {{address_or_addresses}}`
 
@@ -31,6 +31,6 @@
 
 `rustscan --scan-order random --addresses {{address_or_addresses}}`
 
-- Greppable mode:
+- Scan in greppable mode (only output of the ports, no `nmap`):
 
 `rustscan --greppable --addresses {{address_or_addresses}}`
