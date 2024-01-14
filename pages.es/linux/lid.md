@@ -5,6 +5,6 @@
 > En Fedora y Arch Linux, el nombre binario `lid` es tomado por otro programa. Ver `tldr libuser-lid`.
 > Más información: <https://www.gnu.org/software/idutils/>.
 
-- Ver documentación de `libuser-lid`:
+- Ve documentación de `libuser-lid`:
 
 `tldr libuser-lid`
