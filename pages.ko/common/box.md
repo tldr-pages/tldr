@@ -5,11 +5,11 @@
 
 - 새 Phar 파일 작성:
 
-`box build`
+`box compile`
 
 - 특정 구성 파일을 사용하여 새 Phar 파일 작성:
 
-`box build -c {{config/의/경로}}`
+`box compile -c {{config/의/경로}}`
 
 - PHAR PHP 확장에 대한 정보 표시:
 

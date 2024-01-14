@@ -5,7 +5,7 @@
 
 - Analisa um diretório específico:
 
-`dua {{caminho/para/diretorio}`
+`dua {{caminho/para/diretorio}}`
 
 - Exibe o tamanho aparente ao invés do uso do disco:
 

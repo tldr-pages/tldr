@@ -1,7 +1,7 @@
 # exec
 
 > Sostituisci il processo corrente con un altro.
-> Maggiori informazioni: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#exec>.
+> Maggiori informazioni: <https://manned.org/exec.1posix>.
 
 - Sostituisci con il comando specificato utilizzando le variabili di ambiente correnti:
 
