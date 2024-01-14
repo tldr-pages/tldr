@@ -4,11 +4,11 @@
 > Peut transférer un ou plusieurs fichiers correspondant à un motif.
 > Plus d'informations : <https://download.samba.org/pub/rsync/rsync.1>.
 
-- Transférer un fichier :
+- Transfère un fichier :
 
 `rsync {{chemin/vers/origine}} {{chemin/vers/destination}}`
 
-- Utiliser le mode archive (copier récursivement les répertoires, copier les liens symboliques sans résolution et conserver les autorisations, la propriété et les délais de modification) :
+- Utilise le mode archive (copier récursivement les répertoires, copier les liens symboliques sans résolution et conserver les autorisations, la propriété et les délais de modification) :
 
 `rsync --archive {{chemin/vers/origine}} {{chemin/vers/destination}}`
 
