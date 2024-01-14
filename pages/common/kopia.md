@@ -2,7 +2,7 @@
 
 > Fast, secure open-source backup tool.
 > Supports encryption, compression, deduplication, and incremental snapshots.
-> More information: <https://kopia.io>.
+> More information: <https://kopia.io/docs/reference/command-line/>.
 
 - Create a repository in the local filesystem:
 
@@ -14,7 +14,7 @@
 
 - Connect to a repository:
 
-`kopia repository connect <repository_type> --path {{path/to/repository}}`
+`kopia repository connect {{repository_type}} --path {{path/to/repository}}`
 
 - Create a snapshot of a directory:
 
