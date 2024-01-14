@@ -17,7 +17,7 @@
 
 `sockstat -cu`
 
-- Only show [n]umeric output, not looking symbolic names for addresses and ports:
+- Only show [n]umeric output, without resolving symbolic names for addresses and ports:
 
 `sockstat -n`
 
