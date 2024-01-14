@@ -3,9 +3,9 @@
 > Compila um pacote Rust.
 > Mais informações: <https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>.
 
-- Compila o pacote ou pacotes definidos pelo arquivo `Cargo.toml` no diretório de trabalho atual:
+- Compila o pacote e passa opções para `rustc`:
 
-`cargo rustc`
+`cargo rustc -- {{rustc_options}}`
 
 - Compila os artefatos em modo de publicação (release), com otimizações:
 

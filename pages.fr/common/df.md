@@ -1,7 +1,7 @@
 # df
 
 > Montre un aperçu de l'utilisation de l'espace disque.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/df>.
+> Plus d'informations : <https://manned.org/df.1posix>.
 
 - Afficher tous les systèmes de fichiers et leur utilisation d'espace disque :
 

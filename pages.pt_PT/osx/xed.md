@@ -9,8 +9,8 @@
 
 - Abre um ou mais ficheiros no Xcode, cria o ficheiro se o mesmo não existir:
 
-`xed -c {{ficheiro1}}`
+`xed --create {{ficheiro1}}`
 
-- Abre um ficheiro no Xcode e foca na linha 88:
+- Abre um ficheiro no Xcode e foca na linha 75:
 
-`xed -l 88 {{ficheiro}}`
+`xed --line 75 {{ficheiro}}`

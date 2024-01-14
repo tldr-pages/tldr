@@ -3,7 +3,7 @@
 > Muestra metadatos relativos a revisiones específicas.
 > Más información: <https://git-scm.com/docs/git-rev-parse>.
 
-- Obtén el hash del commit de una rama:
+- Obtén el hash de la confirmación de una rama:
 
 `git rev-parse {{nombre_de_la_rama}}`
 
