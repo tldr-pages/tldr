@@ -11,7 +11,7 @@
 
 `dockutil --add {{/path/to/application}} --replacing '{{dock_item_label_name}}'`
 
-- Add a directory as a with view options and display as a folder icon or stack:
+- Add a directory with view options and display it as a folder icon or stack:
 
 `dockutil --add '{{/path/to/directory}}' --view {{grid|fan|list|auto}} --display {{folder|stack}}`
 
