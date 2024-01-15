@@ -1,7 +1,7 @@
 # df
 
 > Toon een overzicht van het gebruik van het bestandssysteem op het gebied van schijfruimte.
-> Meer informatie: <https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/utilities/df.html>.
+> Meer informatie: <https://manned.org/df.1posix>.
 
 - Toon alle bestandssystemen en hun schijfgebruik met behulp van 512-byte eenheden:
 

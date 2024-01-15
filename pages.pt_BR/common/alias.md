@@ -16,14 +16,10 @@
 
 `unalias {{apelido}}`
 
-- Exibe todos os apelidos definidos:
-
-`alias -p`
-
 - Torna o comando `rm` interativo:
 
-`alias {{rm}}="{{rm -i}}"`
+`alias {{rm}}="{{rm --interactive}}"`
 
-- Cria o apelido `la` como um atalho para `ls -a`:
+- Cria o apelido `la` como um atalho para `ls --all`:
 
-`alias {{la}}="{{ls -a}}"`
+`alias {{la}}="{{ls --all}}"`
