@@ -5,7 +5,7 @@
 
 - Add an application to the end of the current user's dock:
 
-`dockutil --add {{/path/to/application}}`
+`dockutil --add {{path/to/application}}`
 
 - Replace one application with another in the current user's dock:
 
