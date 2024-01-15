@@ -13,7 +13,7 @@
 
 - Add a directory with view options and display it as a folder icon or stack:
 
-`dockutil --add '{{/path/to/directory}}' --view {{grid|fan|list|auto}} --display {{folder|stack}}`
+`dockutil --add {{/path/to/directory}} --view {{grid|fan|list|auto}} --display {{folder|stack}}`
 
 - Add a url dock item after the Downloads dock item:
 
