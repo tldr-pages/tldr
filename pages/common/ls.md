@@ -23,9 +23,9 @@
 
 `ls -lh`
 
-- Long format list sorted by size (descending):
+- Long format list sorted by size (descending) recursively:
 
-`ls -lS`
+`ls -lSR`
 
 - Long format list of all files, sorted by modification date (oldest first):
 

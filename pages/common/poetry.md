@@ -8,13 +8,13 @@
 
 `poetry new {{project_name}}`
 
-- Install a dependency and its subdependencies:
+- Install and add a dependency and its sub-dependencies to the `pyproject.toml` file in the current directory:
 
 `poetry add {{dependency}}`
 
-- Install a development dependency and its subdependencies:
+- Install the project dependencies using the `pyproject.toml` file in the current directory:
 
-`poetry add --group dev {{dependency}}`
+`poetry install`
 
 - Interactively initialize the current directory as a new Poetry project:
 
