@@ -15,7 +15,7 @@
 
 `dockutil --add {{/path/to/directory}} --view {{grid|fan|list|auto}} --display {{folder|stack}}`
 
-- Add a url dock item after the Downloads dock item:
+- Add a URL dock item after the "Downloads" dock item:
 
 `dockutil --add {{vnc://example_server.local}} --label '{{Example VNC}}' --after {{Downloads}}`
 
