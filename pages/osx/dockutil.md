@@ -23,7 +23,7 @@
 
 `dockutil --remove '{{dock_item_label_name}}'`
 
-- Add a spacer tile in the apps section after an Application:
+- Add a spacer tile in the apps section after an application:
 
 `dockutil --add '' --type {{spacer}} --section {{apps}} --after {{dock_item_label_name}}`
 
