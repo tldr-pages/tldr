@@ -3,7 +3,7 @@
 > Escáner rápido de puertos escrito en Rust integrado con `nmap`.
 > Más información: <https://github.com/RustScan/RustScan>.
 
-- Escanea todos los puertos de una o más direcciones delimitadas por comas usando los valores por defecto:
+- Escanea todos los puertos de una o más direcciones delimitadas por comas usando los valores predeterminados:
 
 `rustscan --addresses {{ip_o_nombreHost}}`
 
