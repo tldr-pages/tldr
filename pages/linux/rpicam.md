@@ -9,7 +9,7 @@
 
 - Tune the configuration for a particular camera sensor:
 
-`rpicam-hello --tuning-file {{tuning/file}}`
+`rpicam-hello --tuning-file {{/usr/share/libcamera/ipa/rpi/path/to/config.json}}`
 
 - Capture a JPEG image:
 
