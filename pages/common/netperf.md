@@ -10,7 +10,7 @@
 
 - Specify port:
 
-`netperf {{address}} -p 12345`
+`netperf {{address}} -p {{port}}`
 
 - Specify number of seconds to run sampling (default is 10 seconds):
 

@@ -14,7 +14,7 @@
 
 - Specify port:
 
-`netserver -p 12345`
+`netserver -p {{port}}`
 
 - Force IPv4 (or IPv6):
 
