@@ -1,11 +1,11 @@
 # rpicam-hello
 
-> View and store footage from connected Raspberry Pi cameras.
+> View a live camera stream.
 > More information: <https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-hello>.
 
 - Start a camera preview stream for 5 seconds:
 
-`rpicam-hello -t {{5}}`
+`rpicam-hello -t {{5000}}`
 
 - Tune the configuration for a particular camera sensor:
 
