@@ -27,7 +27,7 @@
 
 `rustscan --batch-size {{tamaño_lote}} --timeout {{timeout}} --addresses {{dirección_o_direcciones}}`
 
-- Escanea con un orden de puertos específico:
+- Escanea puertos en un orden específico:
 
 `rustscan --scan-order {{serial|aleatorio}} --addresses {{dirección_o_direcciones}}`
 
