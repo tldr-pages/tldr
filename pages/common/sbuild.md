@@ -29,4 +29,4 @@
 
 - Build for the given native architecture:
 
-`sbuild --arch={{architecture}}`
+`sbuild --arch {{architecture}}`
