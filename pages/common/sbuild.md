@@ -17,7 +17,7 @@
 
 - Build using custom dependencies:
 
-`sbuild --extra-package={{path/to/deb/files}}`
+`sbuild --extra-package {{path/to/deb_files}}`
 
 - Run a shell in case of build failure to further investigate:
 
