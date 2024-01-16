@@ -29,7 +29,7 @@
 
 - Escanea puertos en un orden específico:
 
-`rustscan --scan-order {{serial|aleatorio}} --addresses {{dirección_o_direcciones}}`
+`rustscan --scan-order {{serial|random}} --addresses {{dirección_o_direcciones}}`
 
 - Escanea en modo "greppable" (solo imprime los puertos y no usa `nmap`):
 
