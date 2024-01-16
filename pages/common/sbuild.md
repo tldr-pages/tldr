@@ -13,7 +13,7 @@
 
 - Build for a certain distribution:
 
-`sbuild --dist={{distribution}}`
+`sbuild --dist {{distribution}}`
 
 - Build using custom dependencies:
 
