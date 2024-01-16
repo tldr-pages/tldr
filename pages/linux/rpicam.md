@@ -15,7 +15,7 @@
 
 `rpicam-jpeg {{file.jpeg}}`
 
-- Capture a video:
+- Capture a video for the specified duration:
 
 `rpicam-vid -t {{duration}} -o {{file.h264}}`
 
