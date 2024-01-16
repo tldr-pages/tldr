@@ -21,4 +21,4 @@
 
 - Capture a RAW video:
 
-`rpicam-raw -t {{duration}} -o {{file.raw}}`
+`rpicam-raw -t {{duration_in_ms}} -o {{path/to/file.raw}}`
