@@ -17,7 +17,7 @@
 
 - Capture a video for the specified duration:
 
-`rpicam-vid -t {{duration}} -o {{file.h264}}`
+`rpicam-vid -t {{duration_in_ms}} -o {{path/to/file.h264}}`
 
 - Capture a RAW video:
 
