@@ -23,7 +23,7 @@
 
 `rustscan --addresses {{dirección_o_direcciones}} -- -A -sC`
 
-- Escanea con tamaño de [b]atch personalizado (por defecto: 4500) y [t]imeout (por defecto: 1500ms):
+- Escanea con un tamaño de lote ([b]atch) (por defecto: 4500) y [t]iempo de espera personalizado (por defecto: 1500ms):
 
 `rustscan --batch-size {{tamaño_lote}} --timeout {{timeout}} --addresses {{dirección_o_direcciones}}`
 
