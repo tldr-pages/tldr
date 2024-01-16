@@ -15,7 +15,7 @@
 
 `dockutil --add {{/path/to/directory}} --view {{grid|fan|list|auto}} --display {{folder|stack}}`
 
-- Add a URL dock item after the "Downloads" dock item:
+- Add a URL dock item after another item:
 
 `dockutil --add {{vnc://example_server.local}} --label '{{Example VNC}}' --after {{Downloads}}`
 
@@ -23,9 +23,9 @@
 
 `dockutil --remove '{{dock_item_label_name}}'`
 
-- Add a spacer tile in the apps section after an application:
+- Add a spacer in a section after an application:
 
-`dockutil --add '' --type {{spacer}} --section {{apps}} --after {{dock_item_label_name}}`
+`dockutil --add '' --type {{spacer|small-spacer|flex-spacer}} --section {{apps}} --after {{dock_item_label_name}}`
 
 - Remove all spacer tiles:
 
