@@ -25,7 +25,7 @@
 
 - Cross build for a certain architecture:
 
-`sbuild --host={{architecture}}`
+`sbuild --host {{architecture}}`
 
 - Build for the given native architecture:
 
