@@ -13,7 +13,7 @@
 
 - Capture a JPEG image:
 
-`rpicam-jpeg {{file.jpeg}}`
+`rpicam-jpeg {{path/to/file.jpeg}}`
 
 - Capture a video for the specified duration:
 
