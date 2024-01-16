@@ -2,7 +2,7 @@
 
 > Capture a video using a Raspberry Pi camera.
 > Some subcommands such as `vlc` have their own usage documentation.
-> More information: <https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-vid>
+> More information: <https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-vid>.
 
 - Capture a 10 second video:
 
