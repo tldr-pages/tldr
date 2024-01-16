@@ -1,6 +1,6 @@
 # sbuild
 
-> Build a Debian binary package in a clean `schroot`.
+> Build a Debian binary package in a clean `chroot` environment.
 > More information: <https://wiki.debian.org/sbuild>.
 
 - Build the package in the current directory:
