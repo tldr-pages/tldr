@@ -10,4 +10,3 @@
 - Tune the configuration for a particular camera sensor:
 
 `rpicam-hello --tuning-file {{/usr/share/libcamera/ipa/rpi/path/to/config.json}}`
-
