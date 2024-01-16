@@ -31,6 +31,6 @@
 
 `rustscan --scan-order {{serial|aleatorio}} --addresses {{dirección_o_direcciones}}`
 
-- Escanea en modo greppable (modalidad solo salida de los puertos, sin `nmap`):
+- Escanea en modo "greppable" (solo imprime los puertos y no usa `nmap`):
 
 `rustscan --greppable --addresses {{dirección_o_direcciones}}`
