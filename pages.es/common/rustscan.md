@@ -5,7 +5,7 @@
 
 - Escanea todos los puertos de una o más direcciones delimitadas por comas usando los valores predeterminados:
 
-`rustscan --addresses {{ip_o_nombreHost}}`
+`rustscan --addresses {{ip_o_nombrehost}}`
 
 - Escanea los [t]op 1000 puertos con detección de servicio y versión:
 
