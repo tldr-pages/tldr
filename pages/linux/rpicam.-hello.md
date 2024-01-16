@@ -1,6 +1,6 @@
 # rpicam-hello
 
-> View a live camera stream.
+> View a live camera stream using a Raspberry Pi camera.
 > More information: <https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-hello>.
 
 - Start a camera preview stream for 5 seconds:
