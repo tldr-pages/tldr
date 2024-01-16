@@ -1,7 +1,7 @@
 # rpicam-raw
 
 > Capture a raw video on a Raspberry Pi camera.
-> More information: <https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-raw>
+> More information: <https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-raw>.
 
 - Capture a 2 second video:
 
