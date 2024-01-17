@@ -2,7 +2,7 @@
 
 > Server-side command for `netperf`, the benchmarking application that measures network throughput.
 > See also: `netperf` for the client-side command.
-> Homepage: <https://hewlettpackard.github.io/netperf/>.
+> More information: <https://manned.org/netserver.1>.
 
 - Start a server on the default port (12865) and fork to background:
 
@@ -12,10 +12,10 @@
 
 `netserver -D`
 
-- Specify port:
+- Specify [p]ort:
 
 `netserver -p {{port}}`
 
-- Force IPv4 (or IPv6):
+- Force IPv[4] or IPv[6]:
 
-`netserver -4`
+`netserver -{{4|6}}`

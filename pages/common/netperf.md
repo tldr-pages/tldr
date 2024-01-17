@@ -2,20 +2,20 @@
 
 > Client-side command for `netperf`, the benchmarking application that measures network throughput. Similar to `iperf`.
 > See also: `netserver` for the server-side command.
-> Homepage: <https://hewlettpackard.github.io/netperf/>.
+> More information: <https://hewlettpackard.github.io/netperf/doc/netperf.html#Global-Command_002dline-Options>
 
 - Connect to server on a specific IP address via default port (12865):
 
 `netperf {{address}}`
 
-- Specify port:
+- Specify [p]ort:
 
 `netperf {{address}} -p {{port}}`
 
-- Specify number of seconds to run sampling (default is 10 seconds):
+- Specify the sampling [l]ength in seconds (default is 10):
 
 `netperf {{address}} -l {{seconds}}`
 
-- Force IPv4 (or IPv6):
+- Force IPv[4] or IPv[6]:
 
-`netperf {{address}} -4`
+`netperf {{address}} -{{4|6}}`
