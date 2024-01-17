@@ -10,4 +10,4 @@
 
 - Play the video using `vlc`:
 
-`vlc path/to/file.h264`
+`vlc {{path/to/file.h264}}`
