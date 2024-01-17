@@ -5,7 +5,7 @@
 
 - Capture a photo with different encoding:
 
-`rpicam-still -e {{bmp|png|rgb|yuv420}} -o name/of/file.bmp`
+`rpicam-still -e {{bmp|png|rgb|yuv420}} -o {{path/to/file.{{bmp|png|rgb|yuv420}}}}`
 
 - Capture a raw image:
 
