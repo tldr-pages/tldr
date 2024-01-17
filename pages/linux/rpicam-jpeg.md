@@ -13,4 +13,4 @@
 
 - Capture an image with an exposure of 20 ms and a gain of 150%:
 
-`rpicam-jpeg -o name/of/file.jpg --shutter {{20000}} --gain {{1.5}}`
+`rpicam-jpeg -o {{path/to/file.jpg}} --shutter 20000 --gain 1.5`
