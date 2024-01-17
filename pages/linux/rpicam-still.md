@@ -9,7 +9,7 @@
 
 - Capture a raw image:
 
-`rpicam-still -r -o name/of/file.jpg`
+`rpicam-still -r -o {{path/to/file.jpg}}`
 
 - Capture a 100 second exposure image:
 
