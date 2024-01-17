@@ -25,7 +25,7 @@
 
 - Copy all files with a specific extension to another location, in interactive mode (prompts user before overwriting):
 
-`cp -i {{path/to/source_file.ext}} {{path/to/target_directory}}`
+`cp -i {{*.ext}} {{path/to/target_directory}}`
 
 - Follow symbolic links before copying:
 
