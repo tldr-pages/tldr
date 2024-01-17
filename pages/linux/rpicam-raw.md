@@ -9,4 +9,4 @@
 
 - Change video dimensions and framerate:
 
-`rpicam-raw -t 5000 --width {{4056}} --height {{3040}} -o name/of/file.raw --framerate {{8}}`
+`rpicam-raw -t {{5000}} --width {{4056}} --height {{3040}} -o {{path/to/file.raw}} --framerate {{8}}`
