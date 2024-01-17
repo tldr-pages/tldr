@@ -3,9 +3,9 @@
 > Capture a raw video on a Raspberry Pi camera.
 > More information: <https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-raw>.
 
-- Capture a 2 second video:
+- Capture a video for a specific amount of seconds:
 
-`rpicam-raw -t {{2000}}} -o name/of/file.raw`
+`rpicam-raw -t {{2000}}} -o {{path/to/file.raw}}`
 
 - Change video dimensions and framerate:
 
