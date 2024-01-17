@@ -5,7 +5,7 @@
 
 - Capture an image and name the file:
 
-`rpicam-jpeg -o name/of/file.jpg`
+`rpicam-jpeg -o {{path/to/file.jpg}}`
 
 - Capture an image with set dimensions:
 
