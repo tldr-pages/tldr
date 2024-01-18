@@ -15,9 +15,9 @@
 
 `sbuild --dist {{distribution}}`
 
-- Build using custom dependencies:
+- Build using custom dependencies (if a directory is passed, all files ending with `.deb` are used):
 
-`sbuild --extra-package {{path/to/deb_files}}`
+`sbuild --extra-package {{path/to/file_or_directory}}`
 
 - Run a shell in case of build failure to further investigate:
 
