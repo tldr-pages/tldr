@@ -1,7 +1,7 @@
 # ffuf
 
 > A fast web fuzzer written in Go.
-> The `“FUZZ”` keyword is used as a placeholder. `ffuf` will try to hit the URL by replacing the word `“FUZZ”` with every word in the wordlist.
+> The `FUZZ` keyword is used as a placeholder. `ffuf` will try to hit the URL by replacing the word `FUZZ` with every word in the wordlist.
 > More information: <https://github.com/ffuf/ffuf>.
 
 - Enumerate directories using [c]olored output and a [w]ordlist:
