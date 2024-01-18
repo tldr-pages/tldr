@@ -22,4 +22,4 @@
 
 - Hapus direktori dan semua subdirektorinya secara [r]ekursif:
 
-`rm -{{alamat/ke/file1 alamat/ke/file2 ...}}`
+`rm -r {{alamat/ke/file1 alamat/ke/file2 ...}}`
