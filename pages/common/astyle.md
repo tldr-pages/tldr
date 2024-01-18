@@ -18,8 +18,8 @@
 
 - Apply a custom indent using spaces. Choose between 2 and 20 spaces:
 
-`astyle --indent=spaces {{number_of_spaces}} {{path/to/file}}`
+`astyle --indent=spaces={{number_of_spaces}} {{path/to/file}}`
 
 - Apply a custom indent using tabs. Choose between 2 and 20 tabs:
 
-`astyle --indent=tab {{number_of_tabs}} {{path/to/file}}`
+`astyle --indent=tab={{number_of_tabs}} {{path/to/file}}`
