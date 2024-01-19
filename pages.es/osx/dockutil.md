@@ -15,7 +15,7 @@
 
 `dockutil --add {{/ruta/al/directorio}} --view {{grill|fan|list|auto}} --display {{folder|stack}}`
 
-- Añade la URL de un elemento del dock tras otro elemento:
+- Añade la URL de un elemento del dock después de otro elemento:
 
 `dockutil --add {{vnc://ejemplo_servidor.local}} --label '{{VNC de ejemplo}}' --after {{etiqueta_de_elemento_del_dock}}`
 
