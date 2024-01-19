@@ -29,8 +29,8 @@
 
 - Pilah kontainer berdasarkan status (created, running, removing, paused, exited, dan dead):
 
-`docker ps --filter="status={{status}}"`
+`docker ps --filter "status={{status}}"`
 
 - Pilah kontainer yang mengaitkan suatu volume tertentu atau memiliki volume yang terpasang pada jalur tertentu:
 
-`docker ps --filter="volume={{jalan/menuju/direktori}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker ps --filter "volume={{jalan/menuju/direktori}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
