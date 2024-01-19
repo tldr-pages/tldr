@@ -17,7 +17,7 @@
 
 - Öffne eine URL im Anwendungsmodus (ohne Symbolleisten, Suchleiste, Schaltflächen usw.):
 
-`chromium --app {{https://beispiel.com}}`
+`chromium --app={{https://beispiel.com}}`
 
 - Öffne eine URL und verwende einen Proxy-Server:
 
