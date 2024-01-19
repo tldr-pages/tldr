@@ -2,7 +2,7 @@
 
 > A GUI tool for browsing for SSH/VNC servers on the local network.
 > See also: `bssh` and `bvnc`.
-> More information: <https://manned.org/bshell.1>.
+> More information: <https://manned.org/bshell>.
 
 - Browse for both SSH and VNC servers:
 
