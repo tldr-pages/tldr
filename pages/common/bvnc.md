@@ -7,7 +7,7 @@
 - Browse for VNC servers:
 
 `bvnc`
- 
+
 - Browse for SSH servers:
 
 `bvnc --ssh`
