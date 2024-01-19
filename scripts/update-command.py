@@ -76,10 +76,6 @@ def get_locales(base_path: Path) -> list[str]:
     ]
 
 
-def get_tldr_pages(platform_path: Path) -> list[Path]:
-    return [f for f in platform_path.iterdir() if f.is_file() and f.suffix == ".md"]
-
-
 def take_command_with_common_part(commands: list[str], common_part: str) -> str:
     return next(
         (
@@ -117,10 +113,6 @@ def parse_placeholders(command: str) -> list[str]:
         for part in split_by_curly_brackets(command)
         if part.startswith("{{") and part.endswith("}}")
     ]
-
-
-def is_placeholder(s: str) -> bool:
-    return s.startswith("{{") and s.endswith("}}")
 
 
 def place_placeholders(command: str, placeholders: list[str]) -> str:
