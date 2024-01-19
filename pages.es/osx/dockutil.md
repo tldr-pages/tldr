@@ -7,7 +7,7 @@
 
 `dockutil --add {{ruta/a/la/aplicación}}`
 
-- Sustituye una aplicación por otra en el dock del usuario actual:
+- Reemplaza una aplicación por otra en el dock del usuario actual:
 
 `dockutil --add {{ruta/a/la/aplicación}}} --replacing '{{etiqueta_de_elemento_del_dock}}'`
 
