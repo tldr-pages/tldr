@@ -21,4 +21,4 @@
 
 - Executa e define um nível de log específico:
 
-`dockerd --log-level={{debug|info|warn|error|fatal}}`
+`dockerd --log-level {debug|info|warn|error|fatal}}`
