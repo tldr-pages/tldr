@@ -23,7 +23,7 @@
 
 `dockutil --remove '{{etiqueta_de_elemento_del_dock}}'`
 
-- Añade un espaciador en una sección tras una aplicación:
+- Añade un espaciador en una sección después de una aplicación:
 
 `dockutil --add '' --type {{spacer|small-spacer|flex-spacer}} --section {{apps}} --after {{etiqueta_de_elemento_del_dock}}`
 
