@@ -478,7 +478,7 @@ Second, we recommend using the following forms of technical terms to make transl
 | Device | Perangkat | Preferred over [`peranti`](https://kbbi.kemdikbud.go.id/entri/peranti). |
 | Disc | Disc | Preferred over [`cakram`](https://kbbi.kemdikbud.go.id/entri/cakram) which is unfamiliar by some readers. Use specific words if possible (e.g. CD or DVD).  |
 | Execute / Run (a program...) | Jalankan | Preferred over [`eksekusikan`](https://kbbi.kemdikbud.go.id/entri/eksekusikan) which is longer to read and write. |
-| File | File | Preferred over [`berkas`](https://kbbi.kemdikbud.go.id/entri/berkas) which may be unfamiliar by some readers. |
+| File | Berkas | [`berkas`](https://kbbi.kemdikbud.go.id/entri/berkas) is an official term. Additionally, `jalan/menuju/file(_atau_direktori)` is deprecated in favor of `jalan/menuju/berkas(_atau_direktori)`. |
 | Generate | Buat | Preferred over [`hasilkan`](https://kbbi.kemdikbud.go.id/entri/hasilkan). Example context: `Buat laporan baru`. |
 | Hardware | Perangkat Keras | Preferred over [`peranti`](https://kbbi.kemdikbud.go.id/entri/peranti). |
 | Image (as picture or visual image) | Gambar | Do not confuse with `image` as a means of storage. |
