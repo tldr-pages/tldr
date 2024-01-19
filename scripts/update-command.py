@@ -133,7 +133,6 @@ def update_page(
     page_path: Path,
     old_common_part: str,
     new_common_part: str,
-    place_placeholders_function,
     dry_run: bool,
 ) -> None:
     with page_path.open("r", encoding="utf-8") as file:
@@ -149,7 +148,7 @@ def update_page(
 
     logger.info(f"Found command: {command}")
     new_command = add_backticks(
-        place_placeholders_function(new_common_part, parse_placeholders(command))
+        place_placeholders(new_common_part, parse_placeholders(command))
     )
     print(f"{command} -> {new_command}")
     if not dry_run:
@@ -215,7 +214,6 @@ def update_pages(
                 page_path,
                 old_common_part,
                 updated_common_part,
-                place_placeholders,
                 dry_run,
             )
             if not exists and locale == "":
