@@ -229,10 +229,8 @@ def clean_command(command: str) -> str:
 
 
 def get_tldr_root() -> Path:
-    # if this script is running from tldr/scripts, the parent's parent is the root
     f = Path("update-command.py").resolve()
-    if (f.parents[1].name, f.parents[0].name) == ("tldr", "scripts"):
-        return f.parents[1]
+    return next(path for path in f.parents if path.name == "tldr")
 
     if "TLDR_ROOT" in os.environ:
         return Path(os.environ["TLDR_ROOT"])
