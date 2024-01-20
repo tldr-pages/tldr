@@ -7,7 +7,7 @@
 
 `qc configure`
 
-- Search and print command snippets stored in the `Commands.md` note and all notes tagged with `commands`:
+- Search and print command snippets stored in your `Commands.md` note and all your notes tagged with `commands`:
 
 `qc search`
 
