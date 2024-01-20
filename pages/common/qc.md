@@ -1,6 +1,7 @@
 # qc
 
 > CLI snippet manager to execute command snippets stored in notes in QOwnNotes.
+> See also: `qownnotes`.
 > More information: <https://www.qownnotes.org/getting-started/command-line-snippet-manager.html>.
 
 - Configure the snippet manager, e.g. to set the security token from QOwnNotes:
