@@ -1,6 +1,6 @@
 # qownnotes
 
-> Markdown note taking application.
+> Markdown note-taking application.
 > Optionally integrates with the notes application of Nextcloud and ownCloud.
 > More information: <https://www.qownnotes.org/getting-started/cli-parameters.html>.
 
