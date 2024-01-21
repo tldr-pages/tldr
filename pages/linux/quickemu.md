@@ -16,7 +16,7 @@
 
 `quickemu --fullscreen --display {{sdl|gtk|spice|spice-app|none}} --vm {{path/to/file.conf}}`
 
-- Select a virtual audio emulation and create a desktop shortcut:
+- Select a virtual audio device to emulate and create a desktop shortcut:
 
 `quickemu --sound-card {{intel-hda|ac97|es1370|sb16|none}} --shortcut --vm {{path/to/file.conf}}`
 
