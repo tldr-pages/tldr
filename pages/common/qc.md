@@ -1,6 +1,6 @@
 # qc
 
-> CLI snippet manager to execute command snippets stored in notes in QOwnNotes.
+> Manage and execute command snippets stored in QOwnNotes notes.
 > See also: `qownnotes`.
 > More information: <https://www.qownnotes.org/getting-started/command-line-snippet-manager.html>.
 
