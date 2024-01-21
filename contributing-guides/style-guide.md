@@ -373,6 +373,8 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 - On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and some BSD platforms). Alternatively, you can link to the author's website or a tutorial page if the command doesn't have a documentation page.
 
+- For `osx`: Apple distributes the builtin man pages [in Xcode](https://developer.apple.com/documentation/os/reading_unix_manual_pages). For commands documented there, we recommend the use of https://keith.github.io/xcode-man-pages/, an HTML export of all Apple's man pages that are bundled with Xcode.
+
 - **All links must be enclosed inside angular brackets (`<` and `>`) for proper rendering in clients.**
 
 - We prefer translations to use the more information link of the English page by default.
