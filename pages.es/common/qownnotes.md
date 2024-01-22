@@ -18,4 +18,4 @@
 
 - Activa una acción de menú después de iniciar la aplicación:
 
-`QOwnNotes --action {{acciónMostrar_Lista_Quehacer}}`
+`QOwnNotes --action {{actionShow_Todo_List}}`
