@@ -8,11 +8,11 @@
 
 `fossil version`
 
-- Show general help (list available subcommands):
+- Display help:
 
 `fossil help`
 
-- Display help on a Fossil subcommand (like `add`, `commit`, etc.):
+- Display help for a specific subcommand (like `add`, `commit`, etc.):
 
 `fossil help {{subcommand}}`
 

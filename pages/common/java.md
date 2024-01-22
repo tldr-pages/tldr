@@ -23,6 +23,6 @@
 
 `java -version`
 
-- Display usage information for the java command:
+- Display help:
 
 `java -help`

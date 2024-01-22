@@ -19,6 +19,6 @@
 
 `cups-config --datadir`
 
-- Display all available options:
+- Display help:
 
 `cups-config --help`

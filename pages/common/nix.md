@@ -9,7 +9,7 @@
 
 `mkdir -p ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
 
-- Display help for the `nix` subcommand:
+- Display help for a specific subcommand:
 
 `nix help {{subcommand}}`
 

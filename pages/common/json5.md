@@ -23,6 +23,6 @@
 
 `json5 --space {{indent_amount}}`
 
-- View available options:
+- Display help:
 
 `json5 --help`
