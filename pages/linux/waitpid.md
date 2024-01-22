@@ -1,6 +1,7 @@
 # waitpid
 
 > Wait for the termination of arbitrary processes.
+> See also: `wait`.
 > More information: <https://manned.org/waitpid.1>.
 
 - Sleep until all processes whose PIDs have been specified have exited:

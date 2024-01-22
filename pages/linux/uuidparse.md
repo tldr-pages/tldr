@@ -23,6 +23,10 @@
 
 `uuidparse --raw {{uuid1 uuid2 ...}}`
 
+- Specify which of the four output columns to print:
+
+`uuidparse --output {{UUID,VARIANT,TYPE,TIME}}`
+
 - Display help:
 
 `uuidparse -h`
