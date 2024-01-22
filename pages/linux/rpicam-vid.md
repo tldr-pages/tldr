@@ -6,7 +6,7 @@
 
 - Capture a 10 second video:
 
-`rpicam-vid -t {{10000}} -o {{path/to/file.h264}}`
+`rpicam-vid -t 10000 -o {{path/to/file.h264}}`
 
 - Play the video using `vlc`:
 

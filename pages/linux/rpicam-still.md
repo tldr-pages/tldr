@@ -13,4 +13,4 @@
 
 - Capture a 100 second exposure image:
 
-`rpicam-still -o {{path/to/file.jpg}} --shutter {{100000}}`
+`rpicam-still -o {{path/to/file.jpg}} --shutter 100000`
