@@ -4,10 +4,6 @@
 > Some subcommands such as `commit`, `add`, `branch`, `checkout`, `push`, etc. have their own usage documentation.
 > More information: <https://git-scm.com/>.
 
-- Check the Git version:
-
-`git --version`
-
 - Execute a Git subcommand:
 
 `git {{subcommand}}`
@@ -27,3 +23,7 @@
 - Display help for a specific subcommand (like `clone`, `add`, `push`, `log`, etc.):
 
 `git help {{subcommand}}`
+
+- Display version:
+
+`git --version`

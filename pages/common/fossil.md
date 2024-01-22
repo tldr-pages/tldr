@@ -4,9 +4,9 @@
 > Some subcommands such as `fossil commit` have their own usage documentation.
 > More information: <https://fossil-scm.org/>.
 
-- Check the Fossil version:
+- Execute a Fossil subcommand:
 
-`fossil version`
+`fossil {{subcommand}}`
 
 - Display help:
 
@@ -16,6 +16,6 @@
 
 `fossil help {{subcommand}}`
 
-- Execute a Fossil subcommand:
+- Display version:
 
-`fossil {{subcommand}}`
+`fossil version`

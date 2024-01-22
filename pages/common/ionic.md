@@ -15,10 +15,6 @@
 
 `ionic g {{page}}`
 
-- Show versions of Ionic, Cordova, environment, etc.:
-
-`ionic info`
-
 - Run app on an Android/iOS device:
 
 `ionic cordova run {{android|ios}} --device`
@@ -26,3 +22,7 @@
 - Check the health of an Ionic app:
 
 `ionic doctor {{check}}`
+
+- Display versions of Ionic, Cordova, environment, etc.:
+
+`ionic info`
