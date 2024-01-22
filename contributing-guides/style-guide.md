@@ -371,7 +371,7 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 ``See also: `date`, for Unix information; `umount`, for unmounting partitions.``
 ## More information links
 
-- On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and some BSD platforms). Alternatively, you can link to the author's website or a tutorial page if the command doesn't have a documentation page.
+- On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and BSD platforms other than FreeBSD). Alternatively, you can link to the author's website or a tutorial page if the command doesn't have a documentation page.
 
 - **All links must be enclosed inside angular brackets (`<` and `>`) for proper rendering in clients.**
 
