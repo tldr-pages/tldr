@@ -7,7 +7,7 @@
 
 `AdGuardHome`
 
-- Run AdGuard Home with a specific config:
+- Specify a different config file:
 
 `AdGuardHome --config {{path/to/AdGuardHome.yaml}}`
 

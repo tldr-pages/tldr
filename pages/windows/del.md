@@ -8,9 +8,9 @@
 
 `tldr remove-item`
 
-- Delete one or more space-separated files or patterns:
+- Delete one or more files or patterns:
 
-`del {{file_pattern}}`
+`del {{file_pattern file_pattern}}`
 
 - Prompt for confirmation before deleting each file:
 

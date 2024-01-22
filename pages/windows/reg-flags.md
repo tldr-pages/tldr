@@ -11,10 +11,10 @@
 
 `reg flags /?`
 
-- Set specified space-separated flags, and unset unmentioned flags, for a specific key:
+- Set one or more flags, and unset unmentioned flags, for a specific key:
 
-`reg flags {{key_name}} set {{flag_names}}`
+`reg flags {{key_name}} set {{flag_name1 flag_name2 ...}}`
 
-- Set specified flags for a specific key and its sub keys:
+- Set one or more flags for a specific key and its [s]ub keys:
 
-`reg flags {{key_name}} set {{flag_names}} /s`
+`reg flags {{key_name}} set {{flag_name1 flag_name2 ...}} /s`

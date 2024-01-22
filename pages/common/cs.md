@@ -9,7 +9,7 @@
 
 `cs version`
 
-- Show a list of the installed applications:
+- List installed applications:
 
 `cs list`
 
