@@ -27,6 +27,6 @@
 
 `bq cp {{dataset}}.{{OLD_TABLE}} {{dataset}}.{{new_table}}`
 
-- Print help:
+- Display help:
 
 `bq help`
