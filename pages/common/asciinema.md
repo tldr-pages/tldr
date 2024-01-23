@@ -13,11 +13,11 @@
 
 - Make a new recording and save it to a local file:
 
-`asciinema rec {{path/to/file}}.cast`
+`asciinema rec {{path/to/file.cast}}`
 
 - Replay a terminal recording from a local file:
 
-`asciinema play {{path/to/file}}.cast`
+`asciinema play {{path/to/file.cast}}`
 
 - Replay a terminal recording hosted on asciinema.org:
 
@@ -29,8 +29,8 @@
 
 - Print the full output of a locally saved recording:
 
-`asciinema cat {{path/to/file}}.cast`
+`asciinema cat {{path/to/file.cast}}`
 
 - Upload a locally saved terminal session to asciinema.org:
 
-`asciinema upload {{path/to/file}}.cast`
+`asciinema upload {{path/to/file.cast}}`
