@@ -93,7 +93,7 @@ using one of the template messages below as a base.
 
    ```
    Hi, @username! You seem to be enjoying contributing to the tldr-pages project.
-   You now have had five distinct pull requests [merged](<!-- REPLACE THIS WITH LINK TO THE RELEVANT PRs -->)!
+   You now have had five distinct pull requests [merged](<!-- REPLACE THIS WITH THE LINKS TO THE RELEVANT PRs -->)!
    That qualifies you to become a collaborator in this repository, as explained in our [community roles documentation](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md).
 
    As a collaborator, you will have commit access to the repository.
@@ -121,7 +121,7 @@ using one of the template messages below as a base.
 1. Open an issue with the following message template (edit it as appropriate):
 
    ```
-   Hi, @username! After joining as a collaborator in the repository, you have been regularly performing [maintenance tasks](<!-- REPLACE THIS WITH LINKS TO THE RELEVANT ISSUES AND/OR PRs -->).
+   Hi, @username! After joining as a collaborator in the repository, you have been regularly performing [maintenance tasks](<!-- REPLACE THIS WITH THE LINKS TO THE RELEVANT ISSUES AND/OR PRs -->).
 
    Thank you for that!
 
