@@ -15,7 +15,7 @@
 
 `inkmake --svg {{path/to/file.svg}} --out {{path/to/output_image}} {{path/to/Inkfile}}`
 
-- Specify a custom Inkscape binary to use as the backend:
+- Use a custom Inkscape binary as the backend:
 
 `inkmake --inkscape {{/Applications/Inkscape.app/Contents/Resources/bin/inkscape}} {{path/to/Inkfile}}`
 
