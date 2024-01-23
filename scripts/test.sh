@@ -21,7 +21,7 @@ function run_black {
   target_black_version=$(awk -F '==' '$1 == "black" { print $2 }' < requirements.txt)
 
   if grep -qw black <<< "$(pip3 --disable-pip-version-check list)"; then
-    errs=$(python3 -m black scripts --check --required-version ${target_black_version} 2>&1 || true)
+    errs=$(python3 -m black scripts -q --check --required-version ${target_black_version} 2>&1 || true)
   fi
 
   if [[ -z $errs ]]; then
@@ -30,21 +30,21 @@ function run_black {
       echo "Skipping black check, command not available."
       return 0
     fi
+    for script in $1; do
+      errs="$(black scripts --check --required-version ${target_black_version} 2>&1 || true)"
+      if [[ ${errs} == *"does not match the running version"* ]]; then
+        echo -e "Skipping black check, required version not available, try running: pip3 install -r requirements.txt"
+        return 0
+      fi
 
-    errs=$(black scripts --check --required-version ${target_black_version} 2>&1 || true)
-  fi
-
-  if [[ ${errs} == *"does not match the running version"* ]]; then
-    echo -e "Skipping black check, required version not available, try running: pip3 install -r requirements.txt"
-    return 0
-  fi
-
-  # We want to ignore the exit code from black on failure so that we can
-  # do the conditional printing below
-  if [[ ${errs} != "All done!"* ]]; then
-     echo -e "${errs}" >&2
-     return 1
-  fi
+      # We want to ignore the exit code from black on failure so that we can
+      # do the conditional printing below
+      if [[ ${errs} != "All done!"* ]]; then
+        echo -e "${errs}" >&2
+        return 1
+      fi
+    done
+  fi  
 }
 
 function run_flake8 {
@@ -54,14 +54,13 @@ function run_flake8 {
     return 0
   fi
 
-  flake8 scripts
+  for script in $1; do
+    flake8 $script
+  done
 }
 
-# Default test function, run by `npm test`.
-function run_tests {
-  find pages* -name '*.md' -exec markdownlint {} +
-  tldr-lint ./pages
-  for f in ./pages.*; do
+function test_pages {
+  for f in $1; do
     checks="TLDR003,TLDR004,TLDR015,TLDR104"
     if [[ -L $f ]]; then
         continue
@@ -70,8 +69,32 @@ function run_tests {
     fi
     tldr-lint --ignore $checks "${f}"
   done
-  run_black
-  run_flake8
+}
+
+function test_python_scripts {
+    run_black $1
+    run_flake8 $1
+}
+
+# Default test function, run by `npm test`.
+function run_tests {
+  find pages* -name '*.md' -exec markdownlint {} +
+  tldr-lint ./pages
+  test_pages "./pages.*"
+  test_python_scripts "scripts/*.py"
+}
+
+# Special test function for changes staged for a commit.
+# Run by 'npm test' if $COMMIT is set to true.
+function run_tests_commit {
+  pages="$(git diff --cached --name-only | grep '^pages/' || true)"
+  if [[ $pages != "" ]]; then
+    test_pages "$pages"
+  fi
+  scripts="$(git diff --cached --name-only | awk '/^scripts/ && /.py$/')"
+  if [[ $scripts != "" ]]; then
+    test_python_scripts "$scripts"
+  fi
 }
 
 # Special test function for GitHub Actions pull request builds.
@@ -108,7 +131,16 @@ if [[ $CI == true && $GITHUB_REPOSITORY == "tldr-pages/tldr" && $PULL_REQUEST_ID
   run_tests_pr
 else
   set -e
-  run_tests
+  if [[ $COMMIT == true ]]; then
+    if [[ $(git diff --cached --name-only) != "" ]]; then
+      run_tests_commit
+    else
+      echo 'No files to test, add files to test them.'
+      exit 0
+    fi
+  else
+    run_tests
+  fi
 fi
 
 echo 'Test ran successfully!'
