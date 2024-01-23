@@ -44,7 +44,7 @@ function run_black {
         return 1
       fi
     done
-  fi  
+  fi
 }
 
 function run_flake8 {
