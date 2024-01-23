@@ -1,6 +1,6 @@
 # docker start
 
-> Start one or more stopped containers.
+> Start stopped containers.
 > More information: <https://docs.docker.com/engine/reference/commandline/start/>.
 
 - Display help:
