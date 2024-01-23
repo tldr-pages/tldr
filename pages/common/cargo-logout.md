@@ -8,6 +8,6 @@
 
 `cargo logout`
 
-- Specify the name of the registry to use (registry names can be defined in the config - the default is <https://crates.io>):
+- Specify the name of the registry to use (registry names can be defined in the configuration - <https://crates.io> by default):
 
 `cargo logout --registry {{name}}`

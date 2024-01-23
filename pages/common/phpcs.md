@@ -23,7 +23,7 @@
 
 `phpcs {{path/to/directory}} --report {{format}}`
 
-- Set config variables to be used during the process:
+- Set configuration variables to be used during the process:
 
 `phpcs {{path/to/directory}} --config-set {{key}} {{value}}`
 

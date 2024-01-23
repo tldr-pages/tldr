@@ -19,7 +19,7 @@
 
 `phan --directory {{path/to/directory}} --directory {{path/to/another_directory}}`
 
-- Specify a config file (defaults to `.phan/config.php`):
+- Specify a configuration file (defaults to `.phan/config.php`):
 
 `phan --config-file {{path/to/config.php}}`
 
