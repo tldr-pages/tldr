@@ -17,4 +17,4 @@
 
 - Set the import prefix string after 3rd-party packages (comma-separated list):
 
-`goimports -local {{path/to/package1,path/to/package2,...}} {{path/to/file}}.go`
+`goimports -local {{path/to/package1,path/to/package2,...}} {{path/to/file.go}}`
