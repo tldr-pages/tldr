@@ -25,4 +25,4 @@
 
 - Upload assets to a specific release:
 
-`glab release upload {{tag}} {{path/to/file1}} {{path/to/file2}}`
+`glab release upload {{tag}} {{path/to/file1 path/to/file2 ...}}`
