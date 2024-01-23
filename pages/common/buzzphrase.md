@@ -11,6 +11,6 @@
 
 `buzzphrase {{'{i} {v} {a} {N}'}}`
 
-- Print `n` phrases formatted as present participle [V]erb + [a]djective + singular [n]oun + [f]inal:
+- Print `k` phrases formatted as present participle [V]erb + [a]djective + singular [n]oun + [f]inal:
 
-`buzzphrase {{4}} {{'{V} {a} {n} {f}'}}`
+`buzzphrase {{k}} {{'{V} {a} {n} {f}'}}`
