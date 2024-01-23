@@ -11,6 +11,6 @@
 
 `{{command1}} | vipe --suffix {{json}} | {{command2}}`
 
-- Open the specified text editor:
+- Use the specified text editor:
 
 `{{command1}} | EDITOR={{vim}} vipe | {{command2}}`
