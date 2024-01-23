@@ -2,6 +2,7 @@
 
 > Perform set operations on lines of two files.
 > The order of the output lines is determined by the order of the lines in the first file.
+> See also: `diff`.
 > More information: <https://joeyh.name/code/moreutils/>.
 
 - Output lines that are in both specified files:
