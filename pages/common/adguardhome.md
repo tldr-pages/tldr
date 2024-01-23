@@ -7,7 +7,7 @@
 
 `AdGuardHome`
 
-- Specify a different config file:
+- Specify a non-default config file:
 
 `AdGuardHome --config {{path/to/AdGuardHome.yaml}}`
 
