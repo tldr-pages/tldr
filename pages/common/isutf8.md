@@ -7,6 +7,9 @@
 
 `isutf8 {{path/to/file1 path/to/file2 ...}}`
 
+- Print errors using multiple lines:
+
+`isutf8 --verbose {{path/to/file1 path/to/file2 ...}}`
 - Do not print anything to `stdout`, indicate the result merely with the exit code:
 
 `isutf8 --quiet {{path/to/file1 path/to/file2 ...}}`
