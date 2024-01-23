@@ -1,4 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-COMMIT=true npm test
+COMMIT=true 
+npm test
