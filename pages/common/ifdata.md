@@ -18,3 +18,7 @@
 - Display the [N]etwork adress, the [b]roadcast adress, and the MTU of the specified interface:
 
 `ifdata -pN -pb -pm {{eth0}}`
+
+- Display help:
+
+`ifdata`

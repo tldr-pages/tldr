@@ -7,7 +7,7 @@
 
 `chronic {{command options ...}}`
 
-- Display `stdout` and `stderr` of the specified command if and only if it produces a non-empty `std[e]rr`:
+- Display `stdout` and `stderr` of the specified command if and only if it produces a non-empty `stderr`:
 
 `chronic -e {{command options ...}}`
 
