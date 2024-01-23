@@ -4,11 +4,11 @@
 > ClamAV isn't a command, but a set of commands.
 > More information: <https://www.clamav.net>.
 
-- View documentation for scan files using the `clamd` daemon:
+- View documentation for scanning files using the `clamd` daemon:
 
 `tldr clamdscan`
 
-- View documentation for scan files without the `clamd` daemon running:
+- View documentation for scanning files without the `clamd` daemon running:
 
 `tldr clamscan`
 
