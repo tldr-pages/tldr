@@ -8,7 +8,7 @@
 
 `{{comando}} | rargs {{comando}} {0}`
 
-- Realiza una ejecución en seco, lo cual imprime los comandos que se ejecutarían en lugar de ejecutarlos:
+- Imprime los comandos que se ejecutarían en vez de ejecutarlos:
 
 `{{comando}} | rargs -e {{comando}} {0}`
 
