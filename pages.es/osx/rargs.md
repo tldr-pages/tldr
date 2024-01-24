@@ -22,4 +22,4 @@
 
 - Lee líneas de entrada separadas por el caracter `NUL` (`\0`) en vez de `LF` (`\n`):
 
-`{{command}} | rargs -0 {{command}} {0}`
+`{{comando}} | rargs -0 {{comando}} {0}`
