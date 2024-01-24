@@ -3,19 +3,19 @@
 > A multi-machine dotfile manager, written in Go.
 > More information: <https://chezmoi.io>.
 
-- Initialize chezmoi on your machine:
+- Setup the destination directory:
 
 `chezmoi init`
 
-- Tell chezmoi to manage a dotfile:
+- Track a specific dotfile:
 
-`chezmoi add {{path/to/file}}`
+`chezmoi add {{path/to/dotfile}}`
 
 - Edit the source state of a tracked dotfile:
 
-`chezmoi edit {{path/to/file}}`
+`chezmoi edit {{path/to/dotfile_or_symlink}}`
 
-- See changes chezmoi would make:
+- See pending changes:
 
 `chezmoi diff`
 
@@ -23,9 +23,9 @@
 
 `chezmoi -v apply`
 
-- Set chezmoi up on another machine by downloading existing dotfiles from a Git repository:
+- Set up a destination directory from existing dotfiles of a Git repository:
 
-`chezmoi init {{https://example.com/path/to/repository.git}}`
+`chezmoi init {{site}}/{{user}}/{{repo}}`
 
 - Fetch the latest changes from a remote repository:
 
