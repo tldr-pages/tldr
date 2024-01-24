@@ -14,6 +14,31 @@ function exists {
   command -v "$1" >/dev/null 2>&1
 }
 
+function check_for_unstaged_changes {
+  if [[ $(git ls-files --modified) != "" ]]; then
+    echo 'There are unstaged changes!'
+    read -n1 -p '[a]dd, [d]iscard, [s]tash them or [q]uit? ' resp && echo ''
+    case ${resp} in
+      a)
+        git add .
+        ;;
+      d)
+        git restore .
+        ;;
+      s)
+        git stash -k --include-untracked
+        ;;
+      q)
+        exit 1
+        ;;
+      *)
+        echo 'Unknown option! Quitting...'
+        exit 1
+        ;;
+    esac
+  fi
+}
+
 # Wrapper around black as it outputs everything to stderr,
 # but we want to only print if there are actual errors, and not
 # the "All done!" success message.
@@ -133,6 +158,7 @@ else
   set -e
   if [[ $COMMIT == true ]]; then
     if [[ $(git diff --cached --name-only) != "" ]]; then
+      check_for_unstaged_changes
       run_tests_commit
     else
       echo 'No files to test, add files to test them.'
