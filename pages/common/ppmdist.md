@@ -7,6 +7,6 @@
 
 `ppmdist {{path/to/input.ppm}} > {{path/to/output.pgm}}`
 
-- Specify the method used to map colors to graylevels:
+- Use the specified method to map colors to graylevels:
 
 `ppmdist -{{frequency|intensity}} {{path/to/input.ppm}} > {{path/to/output.pgm}}`
