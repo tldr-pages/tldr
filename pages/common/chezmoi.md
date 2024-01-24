@@ -27,6 +27,6 @@
 
 `chezmoi init {{site}}/{{user}}/{{repo}}`
 
-- Fetch the latest changes from a remote repository:
+- Update from a remote repository:
 
 `chezmoi update`
