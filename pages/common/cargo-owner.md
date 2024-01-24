@@ -15,6 +15,6 @@
 
 `cargo owner --list {{crate}}`
 
-- Specify the name of the registry to use (registry names can be defined in the configuration - <https://crates.io> by default):
+- Use the specified registry (registry names can be defined in the configuration - the default is <https://crates.io>):
 
 `cargo owner --registry {{name}}`
