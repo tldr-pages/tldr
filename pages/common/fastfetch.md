@@ -7,7 +7,7 @@
 
 `fastfetch`
 
-- Set the structure of the fetch:
+- Fetch a specific structure:
 
 `fastfetch --structure {{structure}}`
 
@@ -15,7 +15,7 @@
 
 `fastfetch --load-config {{path/to/config_file}}`
 
-- Set the logo to use:
+- Use a specific logo:
 
 `fastfetch --logo {{logo}}`
 

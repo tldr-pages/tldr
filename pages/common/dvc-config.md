@@ -30,4 +30,4 @@
 
 - Set a local, global, or system level config value:
 
-`dvc config --local/global/system {{key}} {{value}}`
+`dvc config --{{local|global|system}} {{key}} {{value}}`
