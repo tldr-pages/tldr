@@ -6,7 +6,7 @@
 
 - Ejecuta un comando por cada línea de entrada, como `xargs` (`{0}` indica dónde sustituir en el texto):
 
-`{{command}} | rargs {{command}} {0}`
+`{{comando}} | rargs {{comando}} {0}`
 
 - Realiza una ejecución en seco, lo cual imprime los comandos que se ejecutarían en lugar de ejecutarlos:
 
