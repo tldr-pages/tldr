@@ -10,7 +10,7 @@
 
 - Realiza una ejecución en seco, lo cual imprime los comandos que se ejecutarían en lugar de ejecutarlos:
 
-`{{command}} | rargs -e {{command}} {0}`
+`{{comando}} | rargs -e {{comando}} {0}`
 
 - Elimina la extensión `.bak` de todos los archivos de una lista:
 
