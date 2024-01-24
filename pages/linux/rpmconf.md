@@ -5,8 +5,8 @@
 
 - Search for all leftover files and interactively choose what to do with each of them:
 
-`sudo rpmconf -a`
+`sudo rpmconf --all`
 
 - Delete orphaned RPMNEW or RPMSAVE files:
 
-`sudo rpmconf -ac`
+`sudo rpmconf --all --clean`
