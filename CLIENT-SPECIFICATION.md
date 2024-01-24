@@ -232,6 +232,7 @@ the commit hash changes when merging with squash or rebase.
 -->
 
 - Unreleased
+  - Removed redirect text from the [caching section](#caching)
 
 - [v2.1, November 30th 2023](https://github.com/tldr-pages/tldr/blob/v2.1/CLIENT-SPECIFICATION.md) ([#11523](https://github.com/tldr-pages/tldr/pull/11523))
   - Add requirement to support escaping the placeholder syntax in certain pages ([#10730](https://github.com/tldr-pages/tldr/pull/10730))
