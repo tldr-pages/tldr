@@ -20,6 +20,6 @@
 
 `{{comando}} | rargs -w {{máxima_cantidad_de_procesos}}`
 
-- Considera cada línea de entrada separada por un carácter NUL (`\0`) en lugar de una nueva línea (`\n`):
+- Lee líneas de entrada separadas por el caracter `NUL` (`\0`) en vez de `LF` (`\n`):
 
 `{{command}} | rargs -0 {{command}} {0}`
