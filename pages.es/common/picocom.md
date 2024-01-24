@@ -3,7 +3,7 @@
 > Programa minimalista para emular consolas serie.
 > Más información: <https://manned.org/picocom>.
 
-- Conecta a una consola serie con una velocidad en baudios especificada:
+- Conecta a una consola serie con una velocidad en baudios específica:
 
 `picocom {{/dev/ttyXYZ}} --baud {{baud_rate}}`
 
