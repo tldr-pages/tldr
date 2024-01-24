@@ -7,7 +7,7 @@
 
 `uvcdynctrl -l`
 
-- Specify the device to use (defaults to `video0`):
+- Use a specific device (defaults to `video0`):
 
 `uvcdynctrl -d {{device_name}}`
 

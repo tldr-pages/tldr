@@ -11,6 +11,6 @@
 
 `ppmtobmp -{{windows|os2}} {{path/to/file.ppm}} > {{path/to/file.bmp}}`
 
-- Specify the number of bits to use for each pixel:
+- Use a specific number of bits for each pixel:
 
 `ppmtobmp -bbp {{1|4|8|24}} {{path/to/file.ppm}} > {{path/to/file.bmp}}`
