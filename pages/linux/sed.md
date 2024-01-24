@@ -24,7 +24,7 @@
 
 `{{command}} | sed -n '1p'`
 
-- [D]elete the first line of a file:
+- [d]elete the first line of a file:
 
 `sed -i 1d {{/path/to/file}}`
 
