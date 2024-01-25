@@ -26,7 +26,7 @@
 
 - Restaura una instantánea en un directorio específico:
 
-`kopia snapshot restore {{id_instantánea}} {{ruta/al/directorio_objetivo}}`
+`kopia snapshot restore {{identificador_de_instantánea}} {{ruta/al/directorio_objetivo}}`
 
 - Crea una nueva política:
 
