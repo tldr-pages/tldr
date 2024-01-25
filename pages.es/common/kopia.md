@@ -34,4 +34,4 @@
 
 - Ignora un archivo o carpeta específicos de las copias de seguridad:
 
-`kopia policy set --global --add-ignore {{ruta/al/archivo_o_carpeta}}`
+`kopia policy set --global --add-ignore {{ruta/al/archivo_o_directorio}}`
