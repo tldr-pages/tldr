@@ -11,6 +11,6 @@
 
 `ppmtomitsu -enlarge {{1|2|3}} -sharpness {{1|2|3|4}} -copy {{n}} {{path/to/file.ppm}} > {{path/to/file.mitsu}}`
 
-- Use the given media for the printing process:
+- Use the given medium for the printing process:
 
 `ppmtomitsu -media {{A|A4|AS|A4S}} {{path/to/file.ppm}} > {{path/to/file.mitsu}}`
