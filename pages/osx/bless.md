@@ -3,11 +3,11 @@
 > Set volume boot capability and startup disk options.
 > More information: <https://ss64.com/osx/bless.html>.
 
-- Bless a volume with only Mac OS X or Darwin, and create the BootX and `boot.efi` files as needed:
+- Bless a volume with only macOS X or Darwin, and create the BootX and `boot.efi` files as needed:
 
 `bless --folder {{/Volumes/Mac OS X/System/Library/CoreServices}} --bootinfo --bootefi`
 
-- Set a volume containing either Mac OS 9 and Mac OS X to be the active volume:
+- Set a volume containing either macOS 9 and macOS X to be the active volume:
 
 `bless --mount {{/Volumes/Mac OS}} --setBoot`
 

@@ -15,6 +15,6 @@
 
 `perl -i'.bak' -p -e 's/{{regex}}/{{replacement}}/g' {{path/to/files}}`
 
-- Use perl's inline documentation, some pages also available via man on linux:
+- Use perl's inline documentation, some pages also available via man on Linux:
 
 `perldoc perlrun ; perldoc module ; perldoc -f splice; perldoc -q perlfaq1`
