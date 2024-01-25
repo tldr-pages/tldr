@@ -24,6 +24,6 @@
 
 `supervisorctl tail -f {{process_name}} stdout`
 
-- Reload process config file to add/remove processes as necessary:
+- Reload process configuration file to add/remove processes as necessary:
 
 `supervisorctl update`

@@ -3,7 +3,7 @@
 > OpenVPN client and daemon binary.
 > More information: <https://openvpn.net/>.
 
-- Connect to server using a config file:
+- Connect to server using a configuration file:
 
 `sudo openvpn {{path/to/client.conf}}`
 
