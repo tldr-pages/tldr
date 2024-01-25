@@ -6,7 +6,7 @@
 
 - Add specific files to trash:
 
-`gio trash {{path/to/file/or/folder}}`
+`gio trash {{path/to/file_or_folder1 path/to/file_or_folder2 ...}}`
 
 - List itens in trash:
 
