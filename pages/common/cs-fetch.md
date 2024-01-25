@@ -1,6 +1,6 @@
 # cs fetch
 
-> Fetch fetches the JARs of one or more dependencies.
+> Fetch fetches the JARs of dependencies.
 > More information: <https://get-coursier.io/docs/cli-fetch>.
 
 - Fetch a specific version of a jar:

@@ -1,6 +1,6 @@
 # find
 
-> Find a specified string in one or more files.
+> Find a specified string in files.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>.
 
 - Find lines that contain a specified string:
