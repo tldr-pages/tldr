@@ -104,6 +104,8 @@ If it's your first time contributing, have a look at the [contributing guideline
 If you'd like to contribute to translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
 to see the overall progress of all translations, and which translations are missing or outdated.
 
+You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tldr-pages:matrix.org)!
+
 ## Similar projects
 
 - [Command Line Interface Pages](https://github.com/command-line-interface-pages)
