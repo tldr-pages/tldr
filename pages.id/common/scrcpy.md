@@ -17,7 +17,7 @@
 
 - Putarkan tampilan layar perangkat dalam kelipatan 90 derajat (berlawanan arah jarum jam):
 
-`scrcpy --rotation {{0|1|2|3}}`
+`scrcpy --rotation {{0..3}}`
 
 - Tunjukkan indikator sentuhan pada perangkat fisik:
 

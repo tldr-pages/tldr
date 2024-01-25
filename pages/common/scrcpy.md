@@ -17,7 +17,7 @@
 
 - Rotate the display screen. Each incremental value adds a 90 degree counterclockwise rotation:
 
-`scrcpy --rotation {{0|1|2|3}}`
+`scrcpy --rotation {{0..3}}`
 
 - Show touches on physical device:
 
