@@ -7,6 +7,6 @@
 
 `fc-pattern --default '{{DejaVu Serif}}'`
 
-- Display config information about a font:
+- Display configuration information about a font:
 
 `fc-pattern --config '{{DejaVu Serif}}'`
