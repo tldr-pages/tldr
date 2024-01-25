@@ -11,7 +11,7 @@
 
 `alacritty --working-directory {{path/to/directory}}`
 
-- Run a command in a new Alacritty window:
+- [e]xecute a command in a new Alacritty window:
 
 `alacritty -e {{command}}`
 

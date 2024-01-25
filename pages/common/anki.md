@@ -3,18 +3,18 @@
 > Powerful, intelligent flashcard program.
 > More information: <https://docs.ankiweb.net>.
 
-- Launch `anki`:
+- Launch the GUI:
 
 `anki`
 
-- Launch `anki` with a specific profile:
+- Use a specific profile:
 
 `anki -p {{profile_name}}`
 
-- Launch `anki` in a specific language:
+- Use specific language:
 
 `anki -l {{language}}`
 
-- Launch `anki` from a specific directory instead of the default (`~/Anki`):
+- Use a non-default directory (`~/Anki` for default):
 
 `anki -b {{path/to/directory}}`
