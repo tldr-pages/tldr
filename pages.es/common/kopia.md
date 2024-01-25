@@ -32,6 +32,6 @@
 
 `kopia policy set --global --keep-latest {{número_de_instantáneas_a_mantener}} --compression {{algoritmo_de_compresión}}`
 
-- Ignora un archivo o carpeta específicos de las copias de seguridad:
+- Excluye un archivo o directorio específico de las copias de seguridad:
 
 `kopia policy set --global --add-ignore {{ruta/al/archivo_o_directorio}}`
