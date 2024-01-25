@@ -9,7 +9,7 @@
 
 - Create a tunnel and give it a name:
 
-`cloudflared tunnel create <NAME>`
+`cloudflared tunnel create {{NAME}}`
 
 - Establish a tunnel to a host in Cloudflare from the local server:
 
