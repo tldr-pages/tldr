@@ -7,7 +7,7 @@
 
 `cloudflared tunnel login`
 
-- Create a tunnel and give it a name:
+- Create a tunnel with a specific name:
 
 `cloudflared tunnel create {{NAME}}`
 
