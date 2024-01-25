@@ -4,7 +4,7 @@
 > Library `glib` is used by `gnome` to handle trash.
 > More information: <https://gitlab.gnome.org/GNOME/glib>.
 
-- Add to trash:
+- Add specific files to trash:
 
 `gio trash {{path/to/file/or/folder}}`
 
