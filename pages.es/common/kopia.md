@@ -10,7 +10,7 @@
 
 - Crea un repositorio en Amazon S3:
 
-`kopia repository create s3 --bucket {{nombre_del_bucket}} --access-key {{id_clave_acceso_AWS}} --secret-access-key {{clave_de_acceso_secreta_AWS}}`
+`kopia repository create s3 --bucket {{nombre_del_bucket}} --access-key {{identificador_de_clave_de_acceso_AWS}} --secret-access-key {{clave_de_acceso_secreta_AWS}}`
 
 - Conecta a un repositorio:
 
