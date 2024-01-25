@@ -14,7 +14,7 @@
 
 - Conecta a un repositorio:
 
-`kopia repository connect {{tipo_repositorio}} --path {{ruta/al/repositorio}}`
+`kopia repository connect {{tipo_de_repositorio}} --path {{ruta/al/repositorio}}`
 
 - Crea una instantánea de un directorio:
 
