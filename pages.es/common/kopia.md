@@ -12,7 +12,7 @@
 
 `kopia repository create s3 --bucket {{nombre_del_bucket}} --access-key {{id_clave_acceso_AWS}} --secret-access-key {{clave_de_acceso_secreta_AWS}}`
 
-- Se conecta a un repositorio:
+- Conecta a un repositorio:
 
 `kopia repository connect {{tipo_repositorio}} --path {{ruta/al/repositorio}}`
 
