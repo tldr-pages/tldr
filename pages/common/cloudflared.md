@@ -1,5 +1,5 @@
 # cloudflared
- 
+
 > Command-line tool to create a persistent connection to the Cloudflare network.
 > More information: <https://developers.cloudflare.com/argo-tunnel/>.
 
@@ -7,7 +7,7 @@
 
 `cloudflared tunnel login`
 
-- Create a tunnel and give it a name
+- Create a tunnel and give it a name:
 
 `cloudflared tunnel create <NAME>`
 
