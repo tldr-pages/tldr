@@ -27,6 +27,6 @@
 
 `feh --bg-{{center|fill|max|scale|tile}} {{path/to/image}}`
 
-- Create a montage of all images within a directory, outputing as a new image:
+- Create a montage of all images within a directory, outputting as a new image:
 
 `feh --montage --thumb-height {{150}} --thumb-width {{150}} --index-info "{{%nn%wx%h}}" --output {{path/to/montage_image.png}}`
