@@ -1,12 +1,13 @@
 # rpmconf
 
 > Handle RPMNEW, RPMSAVE and RPMORIG files left over by package upgrades.
-> More information: <https://docs.fedoraproject.org/en-US/quick-docs/upgrading-fedora-offline/#sect-optional-post-upgrade-tasks>.
+> See also: `rpm`.
+> More information: <https://github.com/xsuchy/rpmconf>.
 
-- Search for all leftover files and interactively choose what to do with each of them:
+- List leftover files and interactively choose what to do with each of them:
 
 `sudo rpmconf --all`
 
-- Delete orphaned RPMNEW or RPMSAVE files:
+- Delete orphaned RPMNEW and RPMSAVE files:
 
 `sudo rpmconf --all --clean`
