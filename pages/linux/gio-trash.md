@@ -1,7 +1,7 @@
 # gio trash
 
 > Package to manager trash bin.
-> Library glib used by gnome to handle trash.
+> Library `glib` is used by `gnome` to handle trash.
 > More information: <https://gitlab.gnome.org/GNOME/glib>.
 
 - Add to trash:
