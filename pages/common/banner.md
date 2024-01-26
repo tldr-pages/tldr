@@ -7,9 +7,9 @@
 
 `banner "{{Hello World}}"`
 
-- Print the text message as a banner with a width of 50 characters:
+- Use a 50 characters banner [w]idth:
 
-`banner -w {{50}} "{{Hello World}}"`
+`banner -w 50 "{{Hello World}}"`
 
 - Read text from `stdin`:
 
