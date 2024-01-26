@@ -5,7 +5,7 @@
 A Python script to update the common contents of a command example across all languages.
 
 Usage:
-    python3 scripts/update-command.py [-c] [-u] [-n] <PLATFORM> <FILENAME> [COMMAND]
+    python3 scripts/update-command.py [-c] [-u] [-n] <PLATFORM> <FILENAME>
 
 Options:
     -c, --common-part COMMON_PART
