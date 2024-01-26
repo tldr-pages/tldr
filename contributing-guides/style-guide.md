@@ -304,7 +304,7 @@ Additionally, if the link is related to PowerShell command documentation, remove
 - Use <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> instead of <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>.
 - Use <https://learn.microsoft.com/powershell/module/powershellget/install-module> instead of <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
 
-## See also section
+### See also section
 
 - To reference a related command or subcommand, use:
 
