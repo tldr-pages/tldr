@@ -33,12 +33,6 @@ from functools import reduce
 import logging
 
 
-# Backporting Python 3.9 feature
-class str(str):
-    def removesuffix(self, suffix: str) -> str:
-        return self[: -len(suffix)] if suffix and self.endswith(suffix) else self
-
-
 class MyFormatter(logging.Formatter):
     grey = "\x1b[0;30m"
     yellow = "\x1b[33;20m"
