@@ -1,6 +1,6 @@
 # ptargrep
 
-> Find regular expression patterns in one or more tar archive files.
+> Find regular expression patterns in tar archive files.
 > More information: <https://manned.org/ptargrep>.
 
 - Search for a pattern within a tar file:

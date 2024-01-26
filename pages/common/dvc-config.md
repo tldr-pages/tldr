@@ -16,18 +16,18 @@
 
 `dvc config --unset core.remote`
 
-- Get the config value for a specified key for the current project:
+- Get the configuration value for a specified key for the current project:
 
 `dvc config {{key}}`
 
-- Set the config value for a key on a project level:
+- Set the configuration value for a key on a project level:
 
 `dvc config {{key}} {{value}}`
 
-- Unset a project level config value for a given key:
+- Unset a project level configuration value for a given key:
 
 `dvc config --unset {{key}}`
 
-- Set a local, global, or system level config value:
+- Set a local, global, or system level configuration value:
 
 `dvc config --local/global/system {{key}} {{value}}`

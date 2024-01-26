@@ -23,7 +23,7 @@
 
 `phing -b {{path/to/log_file}} {{task_name}}`
 
-- Specify custom properties to use in the build:
+- Use custom properties in the build:
 
 `phing -D{{property}}={{value}} {{task_name}}`
 

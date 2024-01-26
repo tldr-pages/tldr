@@ -11,7 +11,7 @@
 
 `fastfetch --structure {{structure}}`
 
-- Load a custom config file:
+- Load a custom configuration file:
 
 `fastfetch --load-config {{path/to/config_file}}`
 

@@ -15,7 +15,7 @@
 
 `flite -f {{path/to/file.txt}}`
 
-- Specify which voice to use:
+- Use the specified voice:
 
 `flite -voice {{file://path/to/filename.flitevox|url}}`
 

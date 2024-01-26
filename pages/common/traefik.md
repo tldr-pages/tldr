@@ -7,7 +7,7 @@
 
 `traefik`
 
-- Start server with a custom config file:
+- Start server with a custom configuration file:
 
 `traefik --c {{config_file}}.toml`
 

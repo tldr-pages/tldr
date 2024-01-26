@@ -1,6 +1,6 @@
 # identify
 
-> Describe the format and characteristics of one or more image files.
+> Describe the format and characteristics of image files.
 > Part of ImageMagick.
 > More information: <https://imagemagick.org/script/identify.php>.
 

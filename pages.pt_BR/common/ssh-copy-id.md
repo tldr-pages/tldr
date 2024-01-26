@@ -5,7 +5,7 @@
 
 - Copia suas chaves para a máquina remota:
 
-`ssh-copy-id {{nome_de_usuário@host_remoto}}`
+`ssh-copy-id {{nome_de_usuário}}@{{host_remoto}}`
 
 - Copia a chave pública fornecida para o remoto:
 

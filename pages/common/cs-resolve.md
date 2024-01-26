@@ -1,6 +1,6 @@
 # cs resolve
 
-> Resolve lists the transitive dependencies of one or more other dependencies.
+> Resolve lists the transitive dependencies of other dependencies.
 > More information: <https://get-coursier.io/docs/cli-resolve>.
 
 - Resolve lists of transitive dependencies of two dependencies:

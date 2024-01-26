@@ -15,7 +15,7 @@
 
 `pint --test`
 
-- Execute code style fixes using a specific config file:
+- Execute code style fixes using a specific configuration file:
 
 `pint --config {{path/to/pint.json}}`
 

@@ -1,6 +1,6 @@
 # cs launch
 
-> Launch an application from the name directly from one or more Maven dependencies without the need of installing it.
+> Launch an application from the name directly from Maven dependencies without the need of installing it.
 > More information: <https://get-coursier.io/docs/cli-launch>.
 
 - Launch a specific application with arguments:
