@@ -11,7 +11,7 @@
 
 `atool --extract {{path/to/archive.tar.gz}}`
 
-- Create a new `7zip` archive with two files:
+- Create a new `7z` archive with two files:
 
 `atool --add {{path/to/archive.7z}} {{path/to/file1 path/to/file2 ...}}`
 
