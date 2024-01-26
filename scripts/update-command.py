@@ -144,7 +144,7 @@ def update_page(
     new_command = add_backticks(
         place_placeholders(new_common_part, parse_placeholders(command))
     )
-    print(f"{command} -> {new_command}")
+    logger.info(f"{command} -> {new_command}")
     if not dry_run:
         new_page_text = page_text.replace(command, new_command)
 
