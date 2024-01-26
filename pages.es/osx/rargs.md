@@ -4,7 +4,7 @@
 > Similar a `xargs`, pero con soporte de coincidencia de patrones.
 > Más información: <https://github.com/lotabout/rargs>.
 
-- Ejecuta un comando por cada línea de entrada, como `xargs` (`{0}` indica dónde sustituir en el texto):
+- Ejecuta un comando por cada línea de entrada, como `xargs` (`{0}` indica donde sustituir en el texto):
 
 `{{comando}} | rargs {{comando}} {0}`
 
