@@ -15,7 +15,7 @@
 
 `qpdf --empty --pages {{path/to/file1.pdf}} {{1,6-8}} {{path/to/file2.pdf}} {{3,4,5}} -- {{path/to/output.pdf}}`
 
-- Write each group of n pages to a separate output file with a given filename pattern:
+- Write each group of `n` pages to a separate output file with a given filename pattern:
 
 `qpdf --split-pages={{n}} {{path/to/input.pdf}} {{path/to/out_%d.pdf}}`
 
