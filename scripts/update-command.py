@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 """
-A Python script to update the common contents of a command across all languages.
+A Python script to update the common contents of a command example across all languages.
 
 Usage:
     python3 scripts/update-command.py [-c] [-u] [-n] <PLATFORM> <FILENAME> [COMMAND]
@@ -70,25 +70,25 @@ def get_locales(base_path: Path) -> list[str]:
     ]
 
 
-def take_command_with_common_part(commands: list[str], common_part: str) -> str:
+def take_cmd_example_with_common_part(cmd_examples: list[str], common_part: str) -> str:
     return next(
         (
-            f"`{command}`"
-            for command in commands
-            if remove_placeholders(command) == common_part
+            f"`{cmd_example}`"
+            for cmd_example in cmd_examples
+            if remove_placeholders(cmd_example) == common_part
         ),
         None,
     )
 
 
-def get_commands_of_page(page_text: str) -> list[str]:
+def get_cmd_examples_of_page(page_text: str) -> list[str]:
     command_pattern = re.compile(r"`([^`]+)`")
     return re.findall(command_pattern, page_text)
 
 
-def find_command_with_common_part(common_part: str, page_text: str) -> list[str]:
-    commands = get_commands_of_page(page_text)
-    return take_command_with_common_part(commands, common_part)
+def find_cmd_example_with_common_part(common_part: str, page_text: str) -> list[str]:
+    cmd_examples = get_cmd_examples_of_page(page_text)
+    return take_cmd_example_with_common_part(cmd_examples, common_part)
 
 
 def get_page_path(tldr_root: Path, locale: str, platform: str, filename: str):
@@ -101,26 +101,26 @@ def split_by_curly_brackets(s: str) -> list[str]:
     return re.split(r"(\{\{.*?\}\})", s)
 
 
-def parse_placeholders(command: str) -> list[str]:
+def parse_placeholders(cmd_example: str) -> list[str]:
     return [
         part.strip("{}")
-        for part in split_by_curly_brackets(command)
+        for part in split_by_curly_brackets(cmd_example)
         if part.startswith("{{") and part.endswith("}}")
     ]
 
 
-def place_placeholders(command: str, placeholders: list[str]) -> str:
+def place_placeholders(cmd_example: str, placeholders: list[str]) -> str:
     return reduce(
-        lambda cmd, ph: cmd.replace("{{}}", "{{" + ph + "}}", 1), placeholders, command
+        lambda cmd, ph: cmd.replace("{{}}", "{{" + ph + "}}", 1), placeholders, cmd_example
     )
 
 
-def remove_placeholders(command: str) -> str:
-    return re.sub(r"\{\{.*?\}\}", "{{}}", command)
+def remove_placeholders(cmd_example: str) -> str:
+    return re.sub(r"\{\{.*?\}\}", "{{}}", cmd_example)
 
 
-def add_backticks(command: str) -> str:
-    return "`" + command.strip("`") + "`"
+def add_backticks(cmd_example: str) -> str:
+    return "`" + cmd_example.strip("`") + "`"
 
 
 def update_page(
@@ -134,19 +134,19 @@ def update_page(
 
     logger.info(f"Processing page: {page_path}")
 
-    command = find_command_with_common_part(old_common_part, page_text)
+    cmd_example = find_cmd_example_with_common_part(old_common_part, page_text)
 
-    if not command:
+    if not cmd_example:
         logger.warning(f"Common part '{old_common_part}' not found in '{page_path}'.")
         return False
 
-    logger.info(f"Found command: {command}")
-    new_command = add_backticks(
-        place_placeholders(new_common_part, parse_placeholders(command))
+    logger.info(f"Found command example: {cmd_example}")
+    new_cmd_example = add_backticks(
+        place_placeholders(new_common_part, parse_placeholders(cmd_example))
     )
-    logger.info(f"{command} -> {new_command}")
+    logger.info(f"{cmd_example} -> {new_cmd_example}")
     if not dry_run:
-        new_page_text = page_text.replace(command, new_command)
+        new_page_text = page_text.replace(cmd_example, new_cmd_example)
 
         with page_path.open("w", encoding="utf-8") as file:
             file.write(new_page_text)
@@ -216,8 +216,8 @@ def update_pages(
                 )
 
 
-def clean_command(command: str) -> str:
-    return remove_placeholders(command).strip("`")
+def clean_cmd_example(cmd_example: str) -> str:
+    return remove_placeholders(cmd_example).strip("`")
 
 
 def get_tldr_root() -> Path:
@@ -236,17 +236,17 @@ def main():
     args = parse_arguments()
 
     print(
-        "Enter the commands (any content between double curly brackets will be ignored):"
+        "Enter the command examples (any content between double curly brackets will be ignored):"
     )
     common_part = (
         args.common_part
         if args.common_part
-        else clean_command(input("Enter the common part to modify: "))
+        else clean_cmd_example(input("Enter the common part to modify: "))
     )
     updated_common_part = (
         args.updated_common_part
         if args.updated_common_part
-        else clean_command(input("Enter the change to be made: "))
+        else clean_cmd_example(input("Enter the change to be made: "))
     )
 
     tldr_root = get_tldr_root()
