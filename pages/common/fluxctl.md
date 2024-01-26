@@ -11,7 +11,7 @@
 
 `fluxctl list-images`
 
-- Synchronize the cluster with the git repository:
+- Synchronize the cluster with the `git` repository:
 
 `fluxctl sync`
 
