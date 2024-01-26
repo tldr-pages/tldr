@@ -22,7 +22,7 @@
 
 - Ejecuta un fragmento de código Java (Java 9 y posteriores):
 
-`{{echo 'Files.list(Paths.get("/etc")).forEach(System.out::println);'}}} | jbang -`
+`{{echo 'Files.list(Paths.get("/etc")).forEach(System.out::println);'}} | jbang -`
 
 - Ejecuta aplicación de línea de comandos:
 
