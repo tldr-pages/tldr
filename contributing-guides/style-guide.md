@@ -2,7 +2,17 @@
 
 This page lists specific formatting instructions for `tldr` pages.
 
-## Layout
+## Contents
+
+1. [General layout](#generallayout)
+2. [Pages](#pages)
+3. [General writing](#writing)
+4. [Heading](#heading)
+5. [Example descriptions](#exdescriptions)
+6. [Example commands](#excommands)
+7. [Language-specific rules](#langrules)
+
+## <a name="generallayout"></a>General layout
 
 The basic format of each page should match the following template and have at most 8 command examples:
 
@@ -93,7 +103,15 @@ Due to [various compatibility differences](https://learn.microsoft.com/powershel
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/clear-recyclebin>.
 ```
 
-## Aliases
+## <a name="pages"></a>Pages
+
+### Platform differences
+
+If you are afraid the commands may differ between platforms or operating systems (e.g. Windows vs macOS), most [tldr pages clients](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients) will choose the most suitable version of the command.
+
+In this case, the information of the Windows version of `cd` (stored in `pages/windows/cd.md`) will be displayed by default to Windows users, and a generic/common version (stored in `pages/common/cd.md`) will be displayed for Linux, macOS, and other platforms.
+
+### Aliases
 
 If a command can be called with alternative names (like `vim` can be called by `vi`), alias pages can be created to point the user to the original command name.
 
@@ -123,7 +141,7 @@ Example:
 
 - Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
 
-### PowerShell-Specific Aliases
+#### PowerShell-Specific Aliases
 
 Some PowerShell commands may introduce aliases which fall into one of these three categories:
 
@@ -180,16 +198,137 @@ In this case, provide a note and method to determine whether the command current
 `tldr invoke-webrequest`
 ```
 
-## Option syntax
+## <a name="generalwriting"></a>General writing
 
-- Use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
-- When documenting PowerShell commands, use **PowerShell-style long options** (like `-Help` instead of `-H`).
-- When long options aren't available for a command, use **short options** instead.
-- While we prefer long options, we allow special cases in commands like `pacman` where short options are widely used and preferred over the long options (for cases like these decisions will be made by the maintainers on a case-by-case basis).
-- We prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`) unless the program does not support it.
+### Emphasis
 
-> [!NOTE]  
-> The goal of using long options is to make the commands easier to read and understand for non-technical users. While it is ideal for most users, some users prefer the short option for better ease of use. If the command supports both options, we can highlight the short options using mnemonics instead.
+Do not use *italics*, **boldface** or any other text styling in the pages. These are reserved for client emphasis of placeholders.
+
+
+### Imperative Mood
+
+- **All descriptions must be concise and phrased in the imperative mood.**
+- This also applies to all translations by default unless otherwise specified in the language-specific section below.
+- For example, when writing documentation for `cd`, a tool to check out and work on a specific directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
+
+```md
+> `cd` is a system tool, available in Windows, macOS, and Linux, to check out a specific directory to get things done in the Command Prompt, Terminal, and PowerShell.
+```
+
+It should instead be simplified to make it easier for everyone to read:
+
+```md
+> Change the current working directory.
+```
+
+When writing descriptions for command examples, **check for any grammatical errors**. `Go to the specified directory` is preferred instead of:
+
+- `Going to the specified directory` (should not be in present participle form)
+- `This command will go to the specified directory` (it is clear that this example works for *this* comment)
+- `Let's go to the specified directory!`
+- `Directory change` (use the active form instead of passive, if possible)
+
+For instance, instead of `Listing all files:`, `List all files:` can be used as the example's description below:
+
+```md
+- Listing all files:
+
+ `ls`
+```
+
+### Serial Comma
+
+- When declaring a list of 3 or more items,
+use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma),
+also known as the Oxford comma,
+since omitting it can create ambiguity.
+
+> Delete the Git branches, tags and remotes.
+
+The example above does not use a serial comma, so this could mean one of two things:
+
+- Delete the Git branches named `tags` and `remotes`.
+- Delete all of the following: Git branches, Git tags, and Git remotes.
+
+This can be resolved by inserting a comma before the "and" or "or" in the final element in the list.
+
+> Delete the Git branches, tags, and remotes.
+
+### Special cases
+
+- If a command performs irreversible changes to a file system or devices,
+  write every example in a way that cannot be copy pasted thoughtlessly.
+  For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
+  write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
+  and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
+
+In general, placeholders should make it as intuitive as possible
+to figure out how to use the command and fill it in with values.
+
+Technical wording on description lines should use the `backtick` syntax.
+Use backticks on the following:
+
+- Paths, e.g. `package.json`, `/etc/package.json`.
+- Extensions, e.g. `.dll`.
+- Commands, e.g. `ls`.
+- Standard streams: `stdout`, `stdin`, `stderr`. **Do not** use the full names (e.g. standard output).
+
+## <a name="heading"></a>Heading
+
+### More information links
+
+- On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and BSD platforms other than FreeBSD). Alternatively, you can link to the author's website or a tutorial page if the command doesn't have a documentation page.
+
+- For `osx`: Apple distributes the built-in man pages [in Xcode](https://developer.apple.com/documentation/os/reading_unix_manual_pages). For commands documented there, we recommend using https://keith.github.io/xcode-man-pages/, an HTML export of all Apple's man pages bundled with Xcode.
+
+- **All links must be enclosed inside angular brackets (`<` and `>`) for proper rendering in clients.**
+
+- We prefer translations to use the more information link of the English page by default.
+
+#### Versioned links
+
+When a utility or distribution has versioned links for the packages, we prefer linking to the most recent version of documentation (i.e. `latest`) or none if the website automatically redirects to the latest version of the documentation.
+
+For example, use:
+
+- <https://manpages.debian.org/latest/apt/apt.8.html> instead of <https://manpages.debian.org/bookworm/apt/apt.8.en.html>.
+- <https://docs.aws.amazon.com/cdk/latest/guide/cli.html> instead of <https://docs.aws.amazon.com/cdk/v2/guide/cli.html>.
+
+#### Microsoft Learn links
+
+When linking pages to the Microsoft Learn links, remove the locale from the address as the website will automatically redirect to the reader's preferred locale setting. For example, Use <https://learn.microsoft.com/windows-server/administration/windows-commands/cd> instead of
+<https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>.
+
+Additionally, if the link is related to PowerShell command documentation, remove the **documentation version indicator** (in which the version of PowerShell/module that the documentation is derived from), aka. the part of the address that starts with `?view=`.
+
+- Use <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> instead of <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>.
+- Use <https://learn.microsoft.com/powershell/module/powershellget/install-module> instead of <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
+
+## See also section
+
+- To reference a related command or subcommand, use:
+
+```md
+> See also: `command`.
+```
+
+- To reference related commands or subcommands, use:
+
+```md
+> See also: `command1`, `command2`, `command3`.
+```
+
+- Optionally, you can add a short description beside the referenced pages:
+
+``See also: `date`, for Unix information; `umount`, for unmounting partitions.``
+
+## <a name="exdescriptions"></a>Example descriptions
+
+- Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`) unless the program name differs from the executable name (e.g. `rg` and Ripgrep).
+- Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
+- Brand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
+- Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
+- When documenting keycaps or a keyboard shortcut for a utility it is suggested to wrap them in backticks to make them stand out in the description (i.e. ``Print the last lines of a given file and keep reading file until `Ctrl + C`:``). Alternatively, you can document them as a separate command and optionally highlight them as placeholders (i.e. `:wq{{Enter}}` or `:wq<Enter>` or `:wq(Enter)`).
 
 ### Short option mnemonics
 
@@ -214,14 +353,27 @@ Option mnemonics may also be used in translations as long as the highlighted wor
 > [!NOTE]  
 > In cases where the character isn't present in the translated word, you can highlight the option before/next to the equivalent word or you can add the English work beside the translation inside a bracket. For example, `E[x]tract` in English maybe translated into `[x] ekstrak` or `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
 
-## Placeholder syntax
+## <a name="excommands"></a>Example commands
+
+### Option syntax
+
+- Use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
+- When documenting PowerShell commands, use **PowerShell-style long options** (like `-Help` instead of `-H`).
+- When long options aren't available for a command, use **short options** instead.
+- While we prefer long options, we allow special cases in commands like `pacman` where short options are widely used and preferred over the long options (for cases like these decisions will be made by the maintainers on a case-by-case basis).
+- We prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`) unless the program does not support it.
+
+> [!NOTE]  
+> The goal of using long options is to make the commands easier to read and understand for non-technical users. While it is ideal for most users, some users prefer the short option for better ease of use. If the command supports both options, we can highlight the short options using mnemonics instead.
+
+### Placeholder syntax
 
 User-provided values should use the `{{placeholder}}` syntax
 in order to allow `tldr` clients to highlight them.
 
 Keep the following guidelines in mind when choosing placeholders:
 
-### Naming
+#### Naming
 
 - Use short but descriptive placeholders,
   such as `{{path/to/source_file}}` or `{{path/to/wallet.txt}}`.
@@ -232,7 +384,7 @@ Keep the following guidelines in mind when choosing placeholders:
   which don't allow adding arbitrary text in them (ranges), then instead of generic placeholders use descriptive ones. For example prefer `input swipe {{x_position}} {{y_position}} {{x_position}} {{y_position}} {{seconds}}`
   instead of `input swipe {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{1..infinity}}`.
 
-### Paths
+#### Paths
 
 - Use `{{filename}}` when just the file name is expected.
 - For any reference to paths of files or directories,
@@ -248,7 +400,7 @@ Keep the following guidelines in mind when choosing placeholders:
 > [!NOTE]  
 > If the command is specific to Windows, use backslashes (`\`) instead, such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless the command input requires an absolute path or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
 
-### Extensions
+#### Extensions
 
 - If a particular extension is expected for the file, append it.
   For example, `unrar x {{path/to/compressed.rar}}`.
@@ -257,7 +409,7 @@ Keep the following guidelines in mind when choosing placeholders:
   using `{{*.ext}}` explains the command without being unnecessarily specific;
   while in `wc -l {{path/to/file}}` using `{{path/to/file}}` (without extension) is sufficient.
 
-### Grouping placeholders
+#### Grouping placeholders
 
 - If a command can take 0 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
   For instance, if multiple paths are expected `{{path/to/directory1 path/to/directory2 ...}}` can be used.
@@ -268,142 +420,12 @@ Keep the following guidelines in mind when choosing placeholders:
 It's up to the program to decide how to handle duplicating values, provided syntax
 tells no info about whether items are mutually exclusive or not.
 
-### Special cases
-
-- If a command performs irreversible changes to a file system or devices,
-  write every example in a way that cannot be copy pasted thoughtlessly.
-  For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
-  write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
-  and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
-
-In general, placeholders should make it as intuitive as possible
-to figure out how to use the command and fill it in with values.
-
-Technical wording on description lines should use the `backtick` syntax.
-Use backticks on the following:
-
-- Paths, e.g. `package.json`, `/etc/package.json`.
-- Extensions, e.g. `.dll`.
-- Commands, e.g. `ls`.
-- Standard streams: `stdout`, `stdin`, `stderr`. **Do not** use the full names (e.g. standard output).
-
-## Descriptions
-
-- Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`) unless the program name differs from the executable name (e.g. `rg` and Ripgrep).
-- Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
-- Brand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
-- Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
-- When documenting keycaps or a keyboard shortcut for a utility it is suggested to wrap them in backticks to make them stand out in the description (i.e. ``Print the last lines of a given file and keep reading file until `Ctrl + C`:``). Alternatively, you can document them as a separate command and optionally highlight them as placeholders (i.e. `:wq{{Enter}}` or `:wq<Enter>` or `:wq(Enter)`).
-
-### Imperative Mood
-
-- **All descriptions must be concise and phrased in the imperative mood.**
-- This also applies to all translations by default unless otherwise specified in the language-specific section below.
-- For example, when writing documentation for `cd`, a tool to check out and work on a specific directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
-
-```md
-> `cd` is a system tool, available in Windows, macOS, and Linux, to check out a specific directory to get things done in the Command Prompt, Terminal, and PowerShell.
-```
-
-It should instead be simplified to make it easier for everyone to read:
-
-```md
-> Change the current working directory.
-```
-
-If you are afraid the commands may differ between platforms or operating systems (e.g. Windows vs macOS), most [tldr pages clients](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients) will choose the most suitable version of the command.
-
-In this case, the information of the Windows version of `cd` (stored in `pages/windows/cd.md`) will be displayed by default to Windows users, and a generic/common version (stored in `pages/common/cd.md`) will be displayed for Linux, macOS, and other platforms.
-
-When writing descriptions for command examples, **check for any grammatical errors**. `Go to the specified directory` is preferred instead of:
-
-- `Going to the specified directory` (should not be in present participle form)
-- `This command will go to the specified directory` (it is clear that this example works for *this* comment)
-- `Let's go to the specified directory!`
-- `Directory change` (use the active form instead of passive, if possible)
-
-For instance, instead of `Listing all files:`, `List all files:` can be used as the example's description below:
-
-```md
-- Listing all files:
-
- `ls`
-```
-
-## Emphasis
-
-Do not use *italics*, **boldface** or any other text styling in the pages. These are reserved for client emphasis of placeholders.
-
-## Serial Comma
-
-- When declaring a list of 3 or more items,
-use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma),
-also known as the Oxford comma,
-since omitting it can create ambiguity.
-
-> Delete the Git branches, tags and remotes.
-
-The example above does not use a serial comma, so this could mean one of two things:
-
-- Delete the Git branches named `tags` and `remotes`.
-- Delete all of the following: Git branches, Git tags, and Git remotes.
-
-This can be resolved by inserting a comma before the "and" or "or" in the final element in the list.
-
-> Delete the Git branches, tags, and remotes.
-
-## See also section
-
-- To reference a related command or subcommand, use:
-
-```md
-> See also: `command`.
-```
-
-- To reference related commands or subcommands, use:
-
-```md
-> See also: `command1`, `command2`, `command3`.
-```
-
-- Optionally, you can add a short description beside the referenced pages:
-
-``See also: `date`, for Unix information; `umount`, for unmounting partitions.``
-## More information links
-
-- On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and BSD platforms other than FreeBSD). Alternatively, you can link to the author's website or a tutorial page if the command doesn't have a documentation page.
-
-- For `osx`: Apple distributes the built-in man pages [in Xcode](https://developer.apple.com/documentation/os/reading_unix_manual_pages). For commands documented there, we recommend using https://keith.github.io/xcode-man-pages/, an HTML export of all Apple's man pages bundled with Xcode.
-
-- **All links must be enclosed inside angular brackets (`<` and `>`) for proper rendering in clients.**
-
-- We prefer translations to use the more information link of the English page by default.
-
-### Versioned links
-
-When a utility or distribution has versioned links for the packages, we prefer linking to the most recent version of documentation (i.e. `latest`) or none if the website automatically redirects to the latest version of the documentation.
-
-For example, use:
-
-- <https://manpages.debian.org/latest/apt/apt.8.html> instead of <https://manpages.debian.org/bookworm/apt/apt.8.en.html>.
-- <https://docs.aws.amazon.com/cdk/latest/guide/cli.html> instead of <https://docs.aws.amazon.com/cdk/v2/guide/cli.html>.
-
-### Microsoft Learn links
-
-When linking pages to the Microsoft Learn links, remove the locale from the address as the website will automatically redirect to the reader's preferred locale setting. For example, Use <https://learn.microsoft.com/windows-server/administration/windows-commands/cd> instead of
-<https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>.
-
-Additionally, if the link is related to PowerShell command documentation, remove the **documentation version indicator** (in which the version of PowerShell/module that the documentation is derived from), aka. the part of the address that starts with `?view=`.
-
-- Use <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> instead of <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>.
-- Use <https://learn.microsoft.com/powershell/module/powershellget/install-module> instead of <https://learn.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershellget-1.x>.
-
 ## Help and version commands
 
 - We generally place the help and version commands at the **last part of the page** to highlight more practical commands at the beginning of the page.
 - For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
 
-## Language-Specific Rules
+## <a name="langrules"></a>Language-Specific Rules
 
 The below section contains additional language-specific rules for translating pages:
 
