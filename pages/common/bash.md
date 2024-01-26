@@ -20,7 +20,7 @@
 
 `bash {{path/to/script.sh}}`
 
-- Execute a specific script while printing each command before executing it:
+- E[x]ecute a specific script, printing each command before executing it:
 
 `bash -x {{path/to/script.sh}}`
 
