@@ -19,6 +19,9 @@ Options:
 Examples:
     1. Update 'cargo' page interactively:
        python3 scripts/update-command.py common cargo
+       Enter the command examples (any content between double curly brackets will be ignored):
+       Enter the common part to modify: cargo search {{}}
+       Enter the change to be made: cargo search --limit 1 {{}}
 
     2. Show what changes would be made by updating `sudo apt install {{}}` in 'apt' page to `sudo apt install {{}} --no-confirm`:
        python3 scripts/update-command.py --dry-run -c "sudo apt install {{}}" -u "sudo apt install {{}} --no-confirm" linux apt
