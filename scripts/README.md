@@ -16,7 +16,7 @@ This section contains a summary of the scripts available in this directory. For 
 - [set-more-info-link.py](set-more-info-link.py) is a Python script to generate or update more information links across pages.
 - [test.sh](test.sh) script runs some basic tests on every PR/commit to make sure that the pages are valid and that the code is formatted correctly.
 - [wrong-filename.sh](wrong-filename.sh) script checks the consistency between the filenames and the page title.
-- [update-command.py](update-command.py) is a Python script to update the common contents of a command across all languages.
+- [update-command.py](update-command.py) is a Python script to update the common contents of a command example across all languages.
 
 ## Compatibility
 
