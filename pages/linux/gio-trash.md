@@ -1,7 +1,7 @@
 # gio trash
 
 > Move files to the trash bin.
-> Used by `gnome` to handle trash.
+> Used by GNOME to handle trash.
 > More information: <https://gitlab.gnome.org/GNOME/glib>.
 
 - Move specific files to trash:
