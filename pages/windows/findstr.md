@@ -3,15 +3,15 @@
 > Find specified text within one or more files.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>.
 
-- Find one or more in all files:
+- Find one or more strings in all files:
 
 `findstr "{{string1 string2 ...}}" *`
 
-- Find one or more string(s) in a piped command's output:
+- Find one or more strings in a piped command's output:
 
 `{{dir}} | findstr "{{string1 string2 ...}}"`
 
-- Find one or more string(s) in all files recur[s]ively:
+- Find one or more strings in all files recur[s]ively:
 
 `findstr /s "{{string1 string2 ...}}" *`
 

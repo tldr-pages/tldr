@@ -10,7 +10,7 @@
 
 - Delete one or more files or patterns:
 
-`del {{file_pattern file_pattern}}`
+`del {{file_pattern1 file_pattern2 ...}}`
 
 - Prompt for confirmation before deleting each file:
 

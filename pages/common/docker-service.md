@@ -11,7 +11,7 @@
 
 `docker service create --name {{service_name}} {{image}}:{{tag}}`
 
-- Display detailed information of one or more services:
+- Display detailed information about one or more services:
 
 `docker service inspect {{service_name_or_ID1 service_name_or_ID2}}`
 

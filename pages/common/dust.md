@@ -7,7 +7,7 @@
 
 `dust`
 
-- Display information for one or more directories:
+- Display information about one or more directories:
 
 `dust {{path/to/directory1 path/to/directory2 ...}}`
 

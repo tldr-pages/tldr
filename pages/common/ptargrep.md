@@ -3,7 +3,7 @@
 > Find regular expression patterns in one or more tar archive files.
 > More information: <https://manned.org/ptargrep>.
 
-- Search for a pattern within one or more files:
+- Search for a pattern within one or more `tar` archives:
 
 `ptargrep "{{search_pattern}}" {{path/to/file1 path/to/file2 ...}}`
 

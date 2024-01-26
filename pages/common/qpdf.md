@@ -17,7 +17,7 @@
 
 - Write each group of n pages to a separate output file with a given filename pattern:
 
-`qpdf --split-pages=n {{path/to/input.pdf}} {{path/to/out_%d.pdf}}`
+`qpdf --split-pages={{n}} {{path/to/input.pdf}} {{path/to/out_%d.pdf}}`
 
 - Rotate certain pages of a PDF with a given angle:
 

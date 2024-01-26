@@ -7,7 +7,7 @@
 
 `grunt`
 
-- Run one or more task(s):
+- Run one or more tasks:
 
 `grunt {{task1 task2 ...}}`
 

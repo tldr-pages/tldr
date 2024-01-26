@@ -11,7 +11,7 @@
 
 `docker network create --driver {{driver_name}} {{network_name}}`
 
-- Display detailed information of one or more networks:
+- Display detailed information about one or more networks:
 
 `docker network inspect {{network_name1 network_name2 ...}}`
 
