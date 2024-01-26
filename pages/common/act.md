@@ -27,6 +27,6 @@
 
 `act -v`
 
-- Run a specific [W]orkflow with the "push" event:
+- Run a specific [W]orkflow with the push event:
 
 `act push -W {{path/to/workflow}}`
