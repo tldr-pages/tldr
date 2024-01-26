@@ -420,7 +420,7 @@ Keep the following guidelines in mind when choosing placeholders:
 It's up to the program to decide how to handle duplicating values, provided syntax
 tells no info about whether items are mutually exclusive or not.
 
-## Help and version commands
+### Help and version commands
 
 - We generally place the help and version commands at the **last part of the page** to highlight more practical commands at the beginning of the page.
 - For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
