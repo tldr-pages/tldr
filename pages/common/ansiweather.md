@@ -7,7 +7,7 @@
 
 `ansiweather -u metric -f 7 -l {{Rzeszow,PL}}`
 
-- Display a [F]orecast for the five days showing [s]ymbols and [d]aylight data for your current location:
+- Display a [F]orecast for the next five days showing [s]ymbols and [d]aylight data for your current location:
 
 `ansiweather -F -s true -d true`
 
