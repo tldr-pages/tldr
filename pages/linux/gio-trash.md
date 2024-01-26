@@ -12,6 +12,6 @@
 
 `gio trash --list`
 
-- Restore from trash using id:
+- Restore a specific item from trash using its id:
 
 `gio trash trash:///{{id}}`
