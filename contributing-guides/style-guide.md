@@ -6,7 +6,7 @@ This page lists specific formatting instructions for `tldr` pages.
 
 1. [General layout](#generallayout)
 2. [Pages](#pages)
-3. [General writing](#writing)
+3. [General writing](#generalwriting)
 4. [Heading](#heading)
 5. [Example descriptions](#exdescriptions)
 6. [Example commands](#excommands)
