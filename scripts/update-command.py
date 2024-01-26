@@ -114,7 +114,9 @@ def parse_placeholders(cmd_example: str) -> list[str]:
 
 def place_placeholders(cmd_example: str, placeholders: list[str]) -> str:
     return reduce(
-        lambda cmd, ph: cmd.replace("{{}}", "{{" + ph + "}}", 1), placeholders, cmd_example
+        lambda cmd, ph: cmd.replace("{{}}", "{{" + ph + "}}", 1),
+        placeholders,
+        cmd_example,
     )
 
 
