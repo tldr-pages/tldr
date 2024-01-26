@@ -3,7 +3,7 @@
 > Execute des GitHub Actions en local avec Docker.
 > Plus d'informations : <https://github.com/nektos/act>.
 
-- Liste les actions disponibles :
+- Liste les jobs disponibles :
 
 `act -l`
 
@@ -15,9 +15,9 @@
 
 `act {{type_d_événement}}`
 
-- Execute une action spécifique :
+- Execute un job spécifique :
 
-`act -a {{id_action}}`
+`act -j {{id_job}}`
 
 - Ne pas lancer les actions maintenant (e.g un essai) :
 
