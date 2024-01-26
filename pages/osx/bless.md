@@ -7,7 +7,7 @@
 
 `bless --folder {{/Volumes/Mac OS X/System/Library/CoreServices}} --bootinfo --bootefi`
 
-- Set a volume containing either macOS 9 and macOS X to be the active volume:
+- Set a volume containing either Mac OS 9 and Mac OS X to be the active volume:
 
 `bless --mount {{/Volumes/Mac OS}} --setBoot`
 
