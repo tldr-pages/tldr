@@ -3,7 +3,7 @@
 > Live reload utility for Go programs.
 > More information: <https://github.com/acoshift/goreload>.
 
-- Watch a non-default binary file (defaults to `.goreload`):
+- Watch a binary file (defaults to `.goreload`):
 
 `goreload -b {{path/to/binary}} {{path/to/file}}.go`
 
