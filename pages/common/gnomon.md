@@ -15,7 +15,7 @@
 
 `{{npm test}} | gnomon --type=absolute`
 
-- Use a 0.5 second high threshold for the elapsed time; exceeding which the timestamp will be colored bright red:
+- Use a high threshold of 0.5 seconds, exceeding which the timestamp will be colored bright red:
 
 `{{npm test}} | gnomon --high 0.5`
 
