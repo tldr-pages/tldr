@@ -15,7 +15,7 @@
 
 `csslint --list-rules`
 
-- Treat certain rules as errors (which result in a non-zero exit code):
+- Treat certain rules as errors (which results in a non-zero exit code):
 
 `csslint --errors={{errors,universal-selector,imports}} {{file.css}}`
 
