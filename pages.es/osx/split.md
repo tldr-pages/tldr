@@ -5,7 +5,7 @@
 
 - Divide un archivo, cada división tiene 10 líneas (excepto la última división):
 
-`split -l {{10}} {{nombredearchivo}}`
+`split -l {{10}} {{nombre_de_archivo}}`
 
 - Divide un fichero mediante una expresión regular. La línea que coincida será la primera línea del siguiente archivo de salida:
 
