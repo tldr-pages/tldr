@@ -1,7 +1,7 @@
 # mkswap
 
 > Set up a Linux swap area on a device or in a file.
-> Note: `path/to/file` can either point to a regular file or a swap partition.
+> NOTE: `path/to/file` can either point to a regular file or a swap partition.
 > More information: <https://manned.org/mkswap>.
 
 - Set up a given swap area:

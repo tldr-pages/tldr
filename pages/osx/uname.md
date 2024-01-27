@@ -1,7 +1,7 @@
 # uname
 
 > Print details about the current machine and the operating system running on it.
-> Note: for additional information about the operating system, try the `sw_vers` command.
+> NOTE: for additional information about the operating system, try the `sw_vers` command.
 > More information: <https://ss64.com/osx/uname.html>.
 
 - Print kernel name:

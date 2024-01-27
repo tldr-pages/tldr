@@ -1,7 +1,7 @@
 # strigger
 
 > View or modify Slurm trigger information.
-> Triggers are actions that are automatically run when a given event occurs on a Slurm cluster.
+> Triggers are actions that are automatically run when an event occurs on a Slurm cluster.
 > More information: <https://slurm.schedmd.com/strigger.html>.
 
 - Register a new trigger. Execute the specified program when the specified event occurs:

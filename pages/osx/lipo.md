@@ -1,6 +1,6 @@
 # lipo
 
-> Tool for handling Mach-O Universal Binaries.
+> Handle Mach-O Universal Binaries.
 > More information: <https://ss64.com/osx/lipo.html>.
 
 - Create a universal file from two single-architecture files:

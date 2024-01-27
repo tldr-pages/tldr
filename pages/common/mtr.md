@@ -1,6 +1,6 @@
 # mtr
 
-> Matt's Traceroute: combined traceroute and ping tool.
+> Matt's Traceroute: Combined traceroute and ping tool.
 > More information: <https://www.bitwizard.nl/mtr/>.
 
 - Traceroute to a host and continuously ping all intermediary hops:

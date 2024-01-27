@@ -1,6 +1,6 @@
 # dirname
 
-> Calculates the parent directory of a given file or directory path.
+> Calculates the parent directory of a file or directory path.
 > More information: <https://www.gnu.org/software/coreutils/dirname>.
 
 - Calculate the parent directory of a given path:

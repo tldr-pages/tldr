@@ -2,6 +2,7 @@
 
 > X11 clipboard manipulation tool, similar to `xsel`.
 > Handles the X primary and secondary selections, plus the system clipboard (`Ctrl + C`/`Ctrl + V`).
+> See also: `wl-copy`.
 > More information: <https://manned.org/xclip>.
 
 - Copy the output from a command to the X11 primary selection area (clipboard):

@@ -1,7 +1,7 @@
 # wiggle
 
 > A patch application tool resolving conflicts in patches that `patch` cannot handle.
-> Note: Wiggle forcefully applies all changes, merging when conflicts arise, and reporting unresolvable issues.
+> NOTE: Wiggle forcefully applies all changes, merging when conflicts arise, and reporting unresolvable issues.
 > More information: <https://manned.org/wiggle>.
 
 - Apply changes from the patch file to the original file:

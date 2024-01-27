@@ -1,7 +1,7 @@
 # kinit
 
 > Authenticate a principal with a Kerberos server to gain and cache a ticket.
-> Note: A Kerberos principal can be either a user, service, or application.
+> NOTE: A Kerberos principal can be either a user, service, or application.
 > More information: <https://web.mit.edu/kerberos/krb5-1.12/doc/user/user_commands/kinit.html>.
 
 - Authenticate a user and obtain a ticket-granting ticket:

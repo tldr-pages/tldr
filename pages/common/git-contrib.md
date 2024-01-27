@@ -1,6 +1,6 @@
 # git contrib
 
-> Display commits from a specific author.
+> Display commits from a author.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-contrib>.
 

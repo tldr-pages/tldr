@@ -1,6 +1,6 @@
 # grub-file
 
-> Check if a file is of a specific bootable image type.
+> Check if a file is of a bootable image type.
 > More information: <https://manned.org/grub-file>.
 
 - Check if a file is an ARM EFI image:

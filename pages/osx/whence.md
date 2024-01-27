@@ -1,6 +1,6 @@
 # whence
 
-> A zsh builtin to indicate how a given command would be interpreted.
+> A zsh builtin to indicate how a command would be interpreted.
 > More information: <https://www.unix.com/man-page/OpenSolaris/1/whence/>.
 
 - Interpret `command`, with expansion if defined as an `alias` (similar to the `command -v` builtin):
