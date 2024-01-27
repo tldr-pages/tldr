@@ -17,4 +17,4 @@
 
 - Divide un archivo en 5 archivos. El archivo se divide de forma que cada división tenga el mismo tamaño (excepto la última división):
 
-`split -n {{5}} {{nombrearchivo}}`
+`split -n {{5}} {{nombre_de_archivo}}`
