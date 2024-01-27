@@ -23,6 +23,6 @@
 
 `ani-cli -c`
 
-- [u]pdate `ani-cli`:
+- [U]pdate `ani-cli`:
 
 `ani-cli -U`
