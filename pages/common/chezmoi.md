@@ -25,7 +25,7 @@
 
 - Set up a destination directory from existing dotfiles of a Git repository:
 
-`chezmoi init {{site}}/{{user}}/{{repo}}`
+`chezmoi init {{repository_url}}`
 
 - Update from a remote repository:
 
