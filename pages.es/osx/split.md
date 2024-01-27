@@ -13,7 +13,7 @@
 
 - Divide un archivo con 512 bytes en cada división (excepto en la última; utiliza 512k para kilobytes y 512m para megabytes):
 
-`split -b {{512}} {{nombrearchivo}}`
+`split -b {{512}} {{nombre_de_archivo}}`
 
 - Divide un archivo en 5 archivos. El archivo se divide de forma que cada división tenga el mismo tamaño (excepto la última división):
 
