@@ -1,6 +1,6 @@
 # cavif
 
-> PNG/JPEG to AVIF converter. Written in almost pure rust.
+> PNG/JPEG to AVIF converter. Written in Rust.
 > See also: `convert`.
 > More information: <https://github.com/kornelski/cavif-rs>.
 
