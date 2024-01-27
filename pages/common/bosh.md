@@ -1,6 +1,6 @@
 # bosh
 
-> Deploy and manage the `bosh` directory.
+> Deploy and manage the BOSH director.
 > More information: <https://bosh.io/docs/cli-v2/>.
 
 - Create local alias for director:
