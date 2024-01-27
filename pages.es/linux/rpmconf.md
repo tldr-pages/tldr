@@ -1,6 +1,6 @@
 # rpmconf
 
-> Gestiona los archivos RPMNEW, RPMSAVE y RPMORIG dejados por las actualizaciones de paquetes.
+> Gestiona los archivos RPMNEW, RPMSAVE y RPMORIG creados por las actualizaciones de paquetes.
 > Vea también: `rpm`.
 > Más información: <https://github.com/xsuchy/rpmconf>.
 
