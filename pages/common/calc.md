@@ -11,7 +11,7 @@
 
 `calc '{{85 * (36 / 4)}}'`
 
-- Perform a calculation without any output formatting (for use with pipes):
+- Don't format the output (for use with [p]ipes):
 
 `calc -p '{{4/3 * pi() * 5^3}}'`
 

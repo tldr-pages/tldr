@@ -7,7 +7,7 @@
 
 `box compile`
 
-- Compile a new Phar file using a specific configuration file:
+- Compile a new Phar file using a specific [c]onfiguration file:
 
 `box compile -c {{path/to/config}}`
 

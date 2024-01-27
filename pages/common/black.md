@@ -7,7 +7,7 @@
 
 `black {{path/to/file_or_directory}}`
 
-- Format the code passed in as a string:
+- Format the [c]ode passed in as a string:
 
 `black -c "{{code}}"`
 

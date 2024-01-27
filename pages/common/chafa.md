@@ -2,7 +2,7 @@
 
 > Image printing in the terminal.
 > See also: `catimg`, `pixterm`.
-> More information: <https://hpjansson.org/chafa>.
+> More information: <https://hpjansson.org/chafa/man>.
 
 - Render an image directly in the terminal:
 
