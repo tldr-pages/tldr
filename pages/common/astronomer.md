@@ -1,6 +1,6 @@
 # astronomer
 
-> Detects illegitimate stars from bot accounts on GitHub projects.
+> Detect illegitimate stars from bot accounts on GitHub projects.
 > More information: <https://github.com/Ullaakut/astronomer>.
 
 - Scan a repository:
