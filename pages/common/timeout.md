@@ -7,6 +7,6 @@
 
 `timeout 3s sleep 10`
 
-- Send a non-default signal to the command after the time limit expires (SIGTERM is the default signal):
+- Send a signal to the command after the time limit expires (SIGTERM by default):
 
 `timeout --signal {{INT}} {{5s}} {{sleep 10}}`
