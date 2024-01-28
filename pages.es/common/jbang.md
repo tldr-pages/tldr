@@ -8,7 +8,7 @@
 
 `jbang init {{ruta/al/archivo.java}}`
 
-- Inicializa una clase Java (útil para scripts):
+- Inicializa una clase en Java (útil para scripts):
 
 `jbang init --template={{cli}} {{ruta/al/archivo.java}}`
 
