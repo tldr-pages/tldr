@@ -20,7 +20,7 @@
 
 `jbang edit --open={{codium|code|eclipse|idea|netbeans|gitpod}} {{ruta/al/script.java}}`
 
-- Ejecuta un fragmento de código Java (Java 9 y posteriores):
+- Ejecuta un fragmento de código en Java (Java 9 y posteriores):
 
 `{{echo 'Files.list(Paths.get("/etc")).forEach(System.out::println);'}} | jbang -`
 
