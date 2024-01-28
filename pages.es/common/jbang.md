@@ -4,7 +4,7 @@
 > Ver también: `java`.
 > Más información: <https://www.jbang.dev/documentation/guide/latest/cli/jbang.html>.
 
-- Inicializa una clase Java simple:
+- Inicializa una clase en Java simple:
 
 `jbang init {{ruta/al/archivo.java}}`
 
