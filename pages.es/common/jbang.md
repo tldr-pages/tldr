@@ -16,7 +16,7 @@
 
 `jbang run --interactive`
 
-- Configura un proyecto temporal para editar un script en un IDE:
+- Configura un proyecto temporal para editar un script en un entorno de desarrollo integrado:
 
 `jbang edit --open={{codium|code|eclipse|idea|netbeans|gitpod}} {{ruta/al/script.java}}`
 
