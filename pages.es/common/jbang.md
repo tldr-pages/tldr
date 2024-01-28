@@ -28,7 +28,7 @@
 
 `jbang {{ruta/al/archivo.java}} {{comando}} {{arg1 arg2 ...}}`
 
-- Instala un script en el `$PATH` del usuario:
+- Instala un script en un directorio en el valor de la variable de entorno `PATH` del usuario actual:
 
 `jbang app install --name {{nombre_del_comando}} {{ruta/al/script.java}}`
 
