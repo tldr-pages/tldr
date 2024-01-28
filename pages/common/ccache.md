@@ -1,17 +1,17 @@
 # ccache
 
 > C/C++ compiler cache.
-> More information: <https://linux.die.net/man/1/ccache>.
+> More information: <https://ccache.dev/manual/4.9.html#_command_line_options>.
 
-- Show current cache statistics:
+- Show current cache [s]tatistics:
 
 `ccache -s`
 
-- Clear all cache:
+- Clear all [C]ache:
 
 `ccache -C`
 
-- Reset statistics (but not cache itself):
+- Reset ([z]ero) statistics (but not cache itself):
 
 `ccache -z`
 
