@@ -26,7 +26,7 @@
 
 - Imprime sólo la primera línea en `stdout`:
 
-`{comando}} | sed -n '1p'`
+`{{comando}} | sed -n '1p'`
 
 - Sustituye todas las apariciones de `apple` (expresión regular básica) por `mango` (expresión regular básica) en un archivo específico y sobrescribe el archivo original en su lugar:
 
