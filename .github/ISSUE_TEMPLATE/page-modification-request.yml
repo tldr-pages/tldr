@@ -38,5 +38,10 @@ body:
       required: true
   - type: textarea
     attributes:
+      label: VCS repository link (e.g. GitHub, GitLab)
+      description: Link to the Version Control System if the project is open source.
+      placeholder: https://github.com/user/repo
+  - type: textarea
+    attributes:
       label: Additional information
       description: Provide additional information if the command differs between platforms.
