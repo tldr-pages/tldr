@@ -32,6 +32,6 @@
 
 `jbang app install --name {{nombre_del_comando}} {{ruta/al/script.java}}`
 
-- Instala una versión específica de JDK para utilizarla con `jbang`:
+- Instala una versión específica del JDK para utilizarla con `jbang`:
 
 `jbang jdk install {{versión}}`
