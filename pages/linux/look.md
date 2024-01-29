@@ -3,7 +3,7 @@
 > Display lines beginning with a prefix in a file.
 > NOTE: the lines in the file must be sorted.
 > See also: `grep`, `sort`.
-> More information: <https://manned.org/look>.
+> More information: <https://manned.org/look>.
 
 - Search for lines beginning with a specific prefix in a specific file:
 
