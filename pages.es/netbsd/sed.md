@@ -24,7 +24,7 @@
 
 `{{comando}} | sed -E 's/(apple)/\U\1/g'`
 
-- Imprime sólo la primera línea en `stdout`:
+- Imprime solo la primera línea en `stdout`:
 
 `{{comando}} | sed -n '1p'`
 
