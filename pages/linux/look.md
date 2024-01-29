@@ -15,7 +15,7 @@
 
 - Specify a string termination character (space by default):
 
-`look --terminate ,`
+`look --terminate {{,}}`
 
 - Search in `/usr/share/dict/words` (`--ignore-case` and `--alphanum` are assumed):
 
