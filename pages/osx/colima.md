@@ -1,36 +1,36 @@
 # colima
 
-> Container runtimes on macOS (and Linux) with minimal setup. 
+> Container runtimes for macOS and Linux with minimal setup.
 > More information: <https://github.com/abiosoft/colima>.
 
 - Start Colima:
 
-  `colima start`
+`colima start`
 
 - Use a config file:
 
-  `colima start --edit`
-
-- Start and setup Containerd. You can use colima nerdctl to interact with Containerd using nerdctl. It is recommended to run colima nerdctl install to install nerdctl alias script in $PATH:
-
-  `colima start --runtime containerd`
-
-- Start with Kubernetes. `kubectl` is required. `brew install kubectl`:
-
-  `colima start --kubernetes`
-
-- Customize runtime:
-
-  `colima start --cpu 4 --memory 8 --disk 100`
-
-- Start Colima and use Docker:
-
-  `brew install docker && colima start && docker run hello-world`
+`colima start --edit`
   
-- Show status of various containers:
+- Start and setup Containerd. Install nerdctl to use Containerd via nerdctl:
 
-  `colima list`
+`colima start --runtime containerd`
 
-- Run time status:
+- Start with Kubernetes. `kubectl` is required:  
 
-  `colima status`
+`colima start --kubernetes`
+
+- Customize CPU, memory, disk:
+
+`colima start --cpu {{4}} --memory {{8}} --disk {{100}}`
+  
+- Use Docker via Colima:
+
+`brew install docker && colima start && docker run hello-world`
+
+- Show container status:
+
+`colima list`
+  
+- Show runtime status:
+
+`colima status`
