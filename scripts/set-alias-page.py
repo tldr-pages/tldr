@@ -51,7 +51,7 @@ def get_tldr_root():
     """
 
     # If this script is running from tldr/scripts, the parent's parent is the root
-    f = os.path.normpath(__file__)
+    f = os.path.normpath(__file__).replace('\\', '/')
     if f.endswith("tldr/scripts/set-alias-page.py"):
         return os.path.dirname(os.path.dirname(f))
 
