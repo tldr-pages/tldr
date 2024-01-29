@@ -9,7 +9,7 @@
 
 `QOwnNotes --portable`
 
-- Vuelca la configuración y cualquier otra información sobre la aplicación y su entorno en formato GitHub Markdown:
+- Muestra la configuración y cualquier otra información sobre la aplicación y su entorno en formato GitHub Markdown:
 
 `QOwnNotes --dump-settings`
 
