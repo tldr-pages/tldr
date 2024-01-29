@@ -19,7 +19,7 @@
 
 `df {{ruta/al/archivo_o_directorio}}`
 
-- Incluye estadísticas sobre el número de [i]nodos libres y utilizados:
+- Incluye estadísticas sobre el número de nodos-[i] libres y utilizados:
 
 `df -i`
 
