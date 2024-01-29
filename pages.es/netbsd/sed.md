@@ -4,7 +4,7 @@
 > Vea también: `awk`, `ed`.
 > Más información: <https://man.netbsd.org/sed.1>.
 
-- Reemplaza todas las apariciones de `apple` (expresión regular básica) por `mango` (expresión regular básica) en todas las líneas de entrada e imprime el resultado en `stdout`:
+- Reemplaza todas las ocurrencias de `apple` (expresión regular básica) por `mango` (expresión regular básica) en todas las líneas de entrada e imprime el resultado en `stdout`:
 
 `{{comando}} | sed 's/apple/mango/g'`
 
