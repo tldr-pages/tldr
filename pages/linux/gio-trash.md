@@ -8,7 +8,7 @@
 
 `gio trash {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- List items in trash:
+- List trash bin items:
 
 `gio trash --list`
 
