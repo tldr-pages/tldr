@@ -15,6 +15,6 @@
 
 `cmatrix -r`
 
-- Use a 1 second screen [u]pdate delay:
+- Use a screen [u]pdate delay of 100 centiseconds (1 second):
 
 `cmatrix -u 100`
