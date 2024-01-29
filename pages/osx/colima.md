@@ -23,14 +23,10 @@
 - Customize runtime.
   
 `colima start --cpu 4 --memory 8 --disk 100`
-`colima start --dns 1.1.1.1 --dns 8.8.8.8`
-`colima start --dns-host example.com=1.2.3.4`
   
 - Start Colima and use Docker:
 
-`colima start`
-`docker pull hello-world`
-`docker run hello-world`
+`colima start && docker run hello-world`
 
 - Show status of various containers
 
