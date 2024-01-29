@@ -1,12 +1,21 @@
 # look
 
-> Look for lines in sorted file.
-> More information: <https://manned.org/look>.
+> Display lines beginning with a prefix in a sorted file.
+> See also: `grep`, `sort`.
+> More information: <https://keith.github.io/xcode-man-pages/look.1.html>.
 
-- Look for lines which begins with the given prefix:
+- Search for lines beginning with a specific prefix in a specific file:
 
 `look {{prefix}} {{path/to/file}}`
 
-- Look for lines ignoring case:
+- Case-insensitively search only on alphanumeric characters:
 
-`look --ignore-case {{prefix}} {{path/to/file}}`
+`look -{{f|-ignore-case}} -{{d|-alphanum}} {{prefix}} {{path/to/file}}`
+
+- Specify a string [t]ermination character (space by default):
+
+`look -{{t|-terminate}} {{,}}`
+
+- Search in `/usr/share/dict/words` (`--ignore-case` and `--alphanum` are assumed):
+
+`look {{prefix}}`
