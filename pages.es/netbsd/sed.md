@@ -12,7 +12,7 @@
 
 `{{comando}} | sed -f {{ruta/al/script.sed}}`
 
-- Retrasa la apertura de cada archivo hasta que se aplique a una línea de entrada un comando que contenga la función o bandera `w` relacionada:
+- Retrasa abrir cada archivo hasta que se aplique a una línea de entrada un comando que contenga la función `w` u otra similar:
 
 `{{comando}} | sed -fa {{ruta/al/script.sed}}`
 
