@@ -2,7 +2,6 @@
 
 > Container runtimes on macOS (and Linux) with minimal setup.
 > More information: <https://github.com/abiosoft/colima>.
-> `brew install docker` to use Colima as an interface to Docker. You can use the docker client on macOS after colima start with no additional setup.
 
 - Start Colima
   
@@ -16,7 +15,7 @@
 
 `colima start --runtime containerd`
 
-- Start with Kubernetes. `kubectl` is required. `brew install kubectl` on macOS.
+- Start with Kubernetes. `kubectl` is required. `brew install kubectl`.
 
 `colima start --kubernetes`
 
@@ -26,7 +25,7 @@
   
 - Start Colima and use Docker:
 
-`colima start && docker run hello-world`
+`brew install docker && colima start && docker run hello-world`
 
 - Show status of various containers
 
