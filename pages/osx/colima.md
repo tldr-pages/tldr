@@ -11,13 +11,13 @@
 
 `colima start --edit`
 
-- Start and setup Containerd. Install nerdctl to use Containerd via nerdctl: 
+- Start and setup Containerd. Install nerdctl to use Containerd via nerdctl:
 
 `colima start --runtime containerd`
 
 - Start with Kubernetes. `kubectl` is required:
 
-`colima start --kubernetes`  
+`colima start --kubernetes`
 
 - Customize CPU, memory, disk:
 
