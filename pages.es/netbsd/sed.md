@@ -16,7 +16,7 @@
 
 `{{comando}} | sed -fa {{ruta/al/script.sed}}`
 
-- Activa la extensión GNU re[g]ex:
+- Activa la extensión de GNU de expresiones re[g]ulares:
 
 `{{comando}} | sed -fg {{ruta/al/script.sed}}`
 
