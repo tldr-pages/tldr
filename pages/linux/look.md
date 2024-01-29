@@ -1,6 +1,6 @@
 # look
 
-> Display lines in a beginning with a prefix.
+> Display lines beginning with a prefix in a file.
 > NOTE: the lines in the file must be sorted.
 > See also: `grep`, `sort`.
 > More information: <https://manned.org/look>.
