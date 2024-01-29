@@ -1,7 +1,6 @@
 # look
 
-> Display lines beginning with a prefix in a file.
-> NOTE: the lines in the file must be sorted.
+> Display lines beginning with a prefix in a sorted file.
 > See also: `grep`, `sort`.
 > More information: <https://man.freebsd.org/cgi/man.cgi?look>.
 
