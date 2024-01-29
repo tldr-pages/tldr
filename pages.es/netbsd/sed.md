@@ -20,7 +20,7 @@
 
 `{{comando}} | sed -fg {{ruta/al/script.sed}}`
 
-- Sustituye todas las apariciones de `apple` (expresión regular extendida) por `APPLE` (expresión regular extendida) en todas las líneas de entrada e imprime el resultado en `stdout`:
+- Sustituye todas las ocurrencias de `apple` (expresión regular extendida) por `APPLE` (expresión regular extendida) en todas las líneas de entrada e imprime el resultado en `stdout`:
 
 `{{comando}} | sed -E 's/(apple)/\U\1/g'`
 
