@@ -21,6 +21,6 @@
 
 `sockstat -n`
 
-- Lista sólo sockets de una [f]amilia de direcciones determinada: 
+- Lista sólo sockets de una [f]amilia de direcciones determinada:
 
 `sockstat -f {{inet|inet6|local|unix}}`
