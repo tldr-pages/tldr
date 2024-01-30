@@ -1,6 +1,6 @@
 # moreutils
 
-> A collection of the UNIX tools that nobody thought to write long ago when UNIX was young.
+> A collection of UNIX tools.
 > moreutils isn't a command, but a set of commands.
 > More information: <https://joeyh.name/code/moreutils/>.
 
