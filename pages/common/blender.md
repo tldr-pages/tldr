@@ -28,6 +28,6 @@
 
 `blender --background {{path/to/file}}.blend --python-expr '{{import bpy; bpy.data.scenes[0].render.resolution_percentage = 25}}' --render-anim`
 
-- Start an interactive Blender session in the terminal with a python console (do `import bpy` after starting):
+- Start an interactive Blender session in the terminal with a Python console (do `import bpy` after starting):
 
 `blender --background --python-console`

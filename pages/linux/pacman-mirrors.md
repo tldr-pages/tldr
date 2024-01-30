@@ -1,7 +1,7 @@
 # pacman-mirrors
 
-> Generate a pacman mirrorlist for Manjaro Linux.
-> Every run of pacman-mirrors requires you to synchronize your database and update your system using `sudo pacman -Syyu`.
+> Generate a `pacman` mirrorlist for Manjaro Linux.
+> Every run of `pacman-mirrors` requires you to synchronize your database and update your system using `sudo pacman -Syyu`.
 > See also: `pacman`.
 > More information: <https://wiki.manjaro.org/index.php?title=Pacman-mirrors>.
 

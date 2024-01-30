@@ -3,7 +3,7 @@
 > Find regular expression patterns in tar archive files.
 > More information: <https://manned.org/ptargrep>.
 
-- Search for a pattern within a tar file:
+- Search for a pattern within a `tar` archive:
 
 `ptargrep "{{search_pattern}}" {{path/to/file}}`
 
@@ -15,6 +15,6 @@
 
 `ptargrep --basename "{{search_pattern}}" {{path/to/file}}`
 
-- Search for a case-insensitive pattern matching within a tar file:
+- Search for a case-insensitive pattern matching within a `tar` archive:
 
 `ptargrep --ignore-case "{{search_pattern}}" {{path/to/file}}`

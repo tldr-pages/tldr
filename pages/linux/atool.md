@@ -3,7 +3,7 @@
 > Manage archives of various formats.
 > More information: <https://www.nongnu.org/atool/>.
 
-- List files in a zip archive:
+- List files in a `zip` archive:
 
 `atool --list {{path/to/archive.zip}}`
 
@@ -11,10 +11,10 @@
 
 `atool --extract {{path/to/archive.tar.gz}}`
 
-- Create a new 7zip archive with two files:
+- Create a new `7z` archive with two files:
 
 `atool --add {{path/to/archive.7z}} {{path/to/file1 path/to/file2 ...}}`
 
-- Extract all zip and rar archives in the current directory:
+- Extract all `zip` and rar archives in the current directory:
 
 `atool --each --extract {{*.zip *.rar}}`

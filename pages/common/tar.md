@@ -1,7 +1,7 @@
 # tar
 
 > Archiving utility.
-> Often combined with a compression method, such as gzip or bzip2.
+> Often combined with a compression method, such as `gzip` or `bzip2`.
 > More information: <https://www.gnu.org/software/tar>.
 
 - [c]reate an archive and write it to a [f]ile:
@@ -28,7 +28,7 @@
 
 `tar caf {{path/to/target.tar.xz}} {{path/to/file1 path/to/file2 ...}}`
 
-- Lis[t] the contents of a tar [f]ile [v]erbosely:
+- Lis[t] the contents of a `tar` [f]ile [v]erbosely:
 
 `tar tvf {{path/to/source.tar}}`
 
