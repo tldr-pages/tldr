@@ -27,6 +27,6 @@
 
 `grunt --no-write`
 
-- List all available options:
+- Display help:
 
 `grunt --help`

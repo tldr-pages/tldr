@@ -24,6 +24,6 @@
 
 `afinfo --warnings {{path/to/file}}`
 
-- Display help for full usage:
+- Display help:
 
 `afinfo --help`

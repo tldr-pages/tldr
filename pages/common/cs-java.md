@@ -1,13 +1,13 @@
 # cs java
 
-> The java and java-home commands fetch and install JVMs. The java command runs them too.
+> The `java` and `java-home` commands fetch and install JVMs. The `java` command runs them too.
 > More information: <https://get-coursier.io/docs/cli-java>.
 
-- Call the java version by using coursier:
+- Display Java version by using coursier:
 
 `cs java -version`
 
-- Call a specific java version with custom properties using coursier:
+- Call a specific Java version with custom properties using coursier:
 
 `cs java --jvm {{jvm_name}}:{{jvm_version}} -Xmx32m -X{{another_jvm_opt}} -jar {{path/to/jar_name.jar}}`
 

@@ -16,6 +16,6 @@
 
 `bcomps -x -o {{path/to/output.gv}} {{path/to/input1.gv}} {{path/to/input2.gv ...}}`
 
-- Display help for `bcomps`:
+- Display help:
 
 `bcomps -?`

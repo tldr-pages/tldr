@@ -1,6 +1,6 @@
 # gunzip
 
-> Extract file(s) from a gzip (.gz) archive.
+> Extract file(s) from a `gzip` (`.gz`) archive.
 > More information: <https://manned.org/gunzip>.
 
 - Extract a file from an archive, replacing the original file if it exists:

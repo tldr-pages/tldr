@@ -20,10 +20,10 @@
 
 `xml {{subcommand}} {{options}} {{path/to/input.xml|URI}} > {{path/to/output}}`
 
-- Display help for a subcommand:
+- Display help for a specific subcommand:
 
 `xml {{subcommand}} --help`
 
-- Display the version of the XMLStarlet Toolkit:
+- Display version:
 
 `xml --version`

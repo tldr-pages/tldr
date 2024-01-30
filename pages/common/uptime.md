@@ -15,6 +15,6 @@
 
 `uptime --since`
 
-- Show version information:
+- Display version:
 
 `uptime --version`
