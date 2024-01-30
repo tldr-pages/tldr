@@ -13,24 +13,24 @@
 
 - Number [a]ll [b]ody lines including blank lines or do not [n]umber [b]ody lines:
 
-`nl -b {{a|n}} {{path/to/file}}`
+`nl --body-numbering {{a|n}} {{path/to/file}}`
 
 - Number only the [b]ody lines that match a basic regular expression (BRE) [p]attern:
 
-`nl -b p'FooBar[0-9]' {{path/to/file}}`
+`nl --body-numbering p'FooBar[0-9]' {{path/to/file}}`
 
 - Use a specific [i]ncrement for line numbering:
 
-`nl -i {{increment}} {{path/to/file}}`
+`nl --line-increment {{increment}} {{path/to/file}}`
 
 - Specify the line numbering format to [r]ight or [l]eft justified, keeping leading [z]eros or [n]ot:
 
-`nl -n {{rz|ln|rn}}`
+`nl --number-format {{rz|ln|rn}}`
 
-- Specify the line numbering's [w]idth (6 by default):
+- Specify the line numbering's width (6 by default):
 
-`nl -w {{col_width}} {{path/to/file}}`
+`nl --number-width {{col_width}} {{path/to/file}}`
 
-- Use a specific string to [s]epare the line numbers from the lines (TAB by default):
+- Use a specific string to separe the line numbers from the lines (6 by default):
 
-`nl -s {{separator}} {{path/to/file}}`
+`nl --number-separator {{separator}} {{path/to/file}}`
