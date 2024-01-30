@@ -11,6 +11,6 @@
 
 `cat {{path/to/input.xml}} | xml pyx > {{path/to/output.pyx}}`
 
-- Display help for the `pyx` subcommand:
+- Display help:
 
 `xml pyx --help`

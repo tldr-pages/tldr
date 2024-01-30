@@ -19,6 +19,6 @@
 
 `cbonsai -v`
 
-- Display cbonsai help:
+- Display help:
 
 `cbonsai -h`

@@ -23,6 +23,6 @@
 
 `sudo iftop -n`
 
-- Get help about interactive commands:
+- Display help:
 
 `?`
