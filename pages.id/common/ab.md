@@ -23,6 +23,6 @@
 
 `ab -t {{60}} {{url}}`
 
-- Simpan hasil pengujian menuju suatu file CSV:
+- Simpan hasil pengujian menuju suatu berkas CSV:
 
 `ab -e {{jalan/menuju/berkas.csv}}`
