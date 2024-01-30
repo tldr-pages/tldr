@@ -1,6 +1,6 @@
 # colorls
 
-> A Ruby gem that beautifies the terminal's ls command, with color and font-awesome icons.
+> A Ruby gem that beautifies the terminal's `ls` command, with color and font-awesome icons.
 > More information: <https://github.com/athityakumar/colorls>.
 
 - List files one per line:

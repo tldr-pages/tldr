@@ -1,6 +1,6 @@
 # zip
 
-> Package and compress (archive) files into zip file.
+> Package and compress (archive) files into `zip` archive.
 > See also: `unzip`.
 > More information: <https://manned.org/zip>.
 
@@ -24,7 +24,7 @@
 
 `zip -r -e {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Archive files/directories to a multi-part [s]plit zip file (e.g. 3 GB parts):
+- Archive files/directories to a multi-part [s]plit `zip` archive (e.g. 3 GB parts):
 
 `zip -r -s {{3g}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 

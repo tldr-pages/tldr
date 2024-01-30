@@ -1,9 +1,9 @@
 # paccache
 
-> A pacman cache cleaning utility.
+> A `pacman` cache cleaning utility.
 > More information: <https://manned.org/paccache>.
 
-- Remove all but the 3 most recent package versions from the pacman cache:
+- Remove all but the 3 most recent package versions from the `pacman` cache:
 
 `paccache -r`
 

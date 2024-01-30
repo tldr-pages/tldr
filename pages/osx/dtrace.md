@@ -28,7 +28,7 @@
 
 `dtrace -f {{function}}`
 
-- Grad the specified  [p]rocess ID, cache its symbol table, and exit upon completion:
+- Grad the specified [p]rocess ID, cache its symbol table, and exit upon completion:
 
 `dtrace -p {{pid}}`
 
