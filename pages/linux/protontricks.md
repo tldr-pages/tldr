@@ -23,6 +23,6 @@
 
 `protontricks -s {{game_name}}`
 
-- Show the protontricks help message:
+- Display help:
 
 `protontricks --help`

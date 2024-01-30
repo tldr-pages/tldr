@@ -7,10 +7,10 @@
 
 `lci {{path/to/file}}`
 
-- Display version:
-
-`lci -v`
-
 - Display help:
 
 `lci -h`
+
+- Display version:
+
+`lci -v`

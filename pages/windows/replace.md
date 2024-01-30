@@ -32,6 +32,6 @@
 
 `replace {{path\to\file_or_directory}} {{path\to\destination_directory}} /u`
 
-- Display detailed usage information:
+- Display help:
 
 `replace /?`

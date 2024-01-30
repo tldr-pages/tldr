@@ -15,10 +15,6 @@
 
 `phar delete -f {{path/to/phar_file}} -e {{file_or_directory}}`
 
-- Display full usage information and available hashing/compression algorithms:
-
-`phar help`
-
 - Compress or uncompress files and directories in a Phar file:
 
 `phar compress -f {{path/to/phar_file}} -c {{algorithm}}`
@@ -34,3 +30,7 @@
 - Sign a Phar file with an OpenSSL private key:
 
 `phar sign -f {{path/to/phar_file}} -h openssl -y {{path/to/private_key}}`
+
+- Display help and available hashing/compression algorithms:
+
+`phar help`

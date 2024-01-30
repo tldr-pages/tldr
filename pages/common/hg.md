@@ -8,11 +8,11 @@
 
 `hg {{command}}`
 
-- Call general help:
+- Display help:
 
 `hg help`
 
-- Call help on a command:
+- Display help for a specific command:
 
 `hg help {{command}}`
 

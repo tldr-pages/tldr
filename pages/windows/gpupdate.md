@@ -15,6 +15,6 @@
 
 `gpupdate /force`
 
-- Display detailed usage information:
+- Display help:
 
 `gpupdate /?`

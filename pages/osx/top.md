@@ -19,6 +19,6 @@
 
 `top -user {{user_name}}`
 
-- Get help about interactive commands:
+- Display help about interactive commands:
 
 `?`
