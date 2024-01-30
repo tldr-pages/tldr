@@ -17,9 +17,9 @@
 
 `sudo pacman -Rs {{paket}}`
 
-- Cari pangkalan data untuk nama-nama paket yang mengandung suatu file secara spesifik:
+- Cari pangkalan data untuk nama-nama paket yang mengandung suatu berkas secara spesifik:
 
-`pacman -F "{{nama_file}}"`
+`pacman -F "{{nama_berkas}}"`
 
 - Tampilkan daftar paket dan versi yang diinstal:
 

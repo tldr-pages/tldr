@@ -25,4 +25,4 @@
 
 - Simpan hasil pengujian menuju suatu file CSV:
 
-`ab -e {{jalan/menuju/file.csv}}`
+`ab -e {{jalan/menuju/berkas.csv}}`
