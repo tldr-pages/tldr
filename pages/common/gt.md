@@ -27,6 +27,6 @@
 
 `gt log short`
 
-- Print help for a specified subcommand:
+- Display help for a specified subcommand:
 
 `gt {{subcommand}} --help`

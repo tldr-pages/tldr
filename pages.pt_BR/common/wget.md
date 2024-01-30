@@ -14,7 +14,7 @@
 
 - Baixa uma única página web e todo os seus recursos com intervalos de 3 segundos entre requisições (scripts, stylesheets, imagens, etc.):
 
-`wget --page-requisites --convert-links --wait={{3}} {{https://exemplo.com/algumapagina.html}}`
+`wget --page-requisites --convert-links --wait=3 {{https://exemplo.com/algumapagina.html}}`
 
 - Baixa todos os arquivos listados dentro de um diretório e seus sub-diretórios (não baixa elementos de página incorporados):
 

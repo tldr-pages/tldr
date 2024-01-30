@@ -8,14 +8,14 @@
 
 `choco {{command}}`
 
-- Call general help:
+- Display help:
 
 `choco -?`
 
-- Call help on a specific command:
+- Display help for a specific command:
 
 `choco {{command}} -?`
 
-- Check the Chocolatey version:
+- Display version:
 
 `choco --version`

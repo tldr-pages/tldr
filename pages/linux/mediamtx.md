@@ -7,7 +7,7 @@
 
 `mediamtx`
 
-- Run MediaMTX with a custom config location:
+- Run MediaMTX with a custom configuration location:
 
 `mediamtx {{path/to/config}}.yml`
 

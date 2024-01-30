@@ -5,15 +5,15 @@
 
 - 사용 가능한 모든 플러그인을 나열:
 
-`asdf plugin-list-all`
+`asdf plugin list all`
 
 - 플러그인 설치:
 
-`asdf plugin-add {{이름}}`
+`asdf plugin add {{이름}}`
 
 - 모든 사용 가능한 패키지 버전 나열:
 
-`asdf list-all {{이름}}`
+`asdf list all {{이름}}`
 
 - 특정 패키지 버전 설치:
 

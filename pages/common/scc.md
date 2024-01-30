@@ -21,7 +21,7 @@
 
 - Only count files with specific file extensions:
 
-`scc --include-ext {{go, java, js}}`
+`scc --include-ext {{go,java,js}}`
 
 - Exclude directories from being counted:
 
@@ -31,6 +31,6 @@
 
 `scc --sort {{files|name|lines|blanks|code|comments|complexity}}`
 
-- Print help for scc:
+- Display help:
 
 `scc -h`

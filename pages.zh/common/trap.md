@@ -2,7 +2,7 @@
 
 > 在进程或操作系统接收到信号后自动执行命令。
 > 可用于对用户中断或其他操作执行清理。
-> 更多信息：<https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#trap>.
+> 更多信息：<https://manned.org/trap.1posix>.
 
 - 列出设置 trap 的可用信号：
 

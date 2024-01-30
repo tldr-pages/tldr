@@ -33,6 +33,6 @@
 
 `pacman -Qtdq`
 
-- Empty the entire pacman cache:
+- Empty the entire `pacman` cache:
 
 `sudo pacman -Scc`

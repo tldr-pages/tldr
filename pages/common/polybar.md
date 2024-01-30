@@ -11,6 +11,6 @@
 
 `polybar --config={{path/to/config.ini}} {{bar_name}}`
 
-- Start Polybar and reload the bar when the config file is modified:
+- Start Polybar and reload the bar when the configuration file is modified:
 
 `polybar --reload {{bar_name}}`

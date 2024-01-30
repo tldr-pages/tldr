@@ -1,7 +1,7 @@
 # nala
 
-> Package management Utility.
-> Wrapper for the `apt` package manager.
+> Package management utility with better formatting.
+> Front-end for the `python-apt` API.
 > More information: <https://gitlab.com/volian/nala>.
 
 - Install a package, or update it to the latest available version:

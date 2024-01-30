@@ -3,10 +3,6 @@
 > File indexing and searching framework for KDE Plasma.
 > More information: <https://wiki.archlinux.org/index.php/Baloo>.
 
-- Display help:
-
-`balooctl`
-
 - Display the status of the indexer:
 
 `balooctl status`
@@ -34,3 +30,7 @@
 - Check for any unindexed files and index them:
 
 `balooctl check`
+
+- Display help:
+
+`balooctl --help`

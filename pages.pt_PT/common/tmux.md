@@ -9,7 +9,7 @@
 
 - Inicia uma sessão com nome:
 
-`tmux new-session -s {{nome}}`
+`tmux new -s {{nome}}`
 
 - Lista sessões existentes:
 
@@ -17,11 +17,7 @@
 
 - Entra na última sessão utilizada:
 
-`tmux attach-session`
-
-- Entra numa sessão com nome:
-
-`tmux attach-session -t {{nome}}`
+`tmux attach`
 
 - Sai da sessão atual (com o prefixo Ctrl-B):
 
@@ -30,7 +26,3 @@
 - Elimina uma sessão com nome:
 
 `tmux kill-session -t {{nome}}`
-
-- Elimina a sessão atual (com o prefixo Ctrl-B):
-
-`<Ctrl>-B :kill-session<Enter>`

@@ -1,6 +1,6 @@
 # docker rmi
 
-> Remove one or more Docker images.
+> Remove Docker images.
 > More information: <https://docs.docker.com/engine/reference/commandline/rmi/>.
 
 - Display help:

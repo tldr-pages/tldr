@@ -1,6 +1,6 @@
 # podman rmi
 
-> Remove one or more Podman images.
+> Remove Podman images.
 > More information: <https://docs.podman.io/en/latest/markdown/podman-rmi.1.html>.
 
 - Remove one or more images given their names:

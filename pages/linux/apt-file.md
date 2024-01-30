@@ -1,6 +1,6 @@
 # apt-file
 
-> Search for files in apt packages, including ones not yet installed.
+> Search for files in `apt` packages, including ones not yet installed.
 > More information: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
 
 - Update the metadata database:

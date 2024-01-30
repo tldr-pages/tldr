@@ -1,7 +1,7 @@
 # export
 
 > دستور تغییر متغییرهای محلی سیستم موجود برای پروسه های جدید.
-> اطلاعات بیشتر: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#export>.
+> اطلاعات بیشتر: <https://manned.org/export.1posix>.
 
 - ایجاد و تعیین مقدار یک متغییر جدید:
 

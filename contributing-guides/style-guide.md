@@ -371,7 +371,9 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 ``See also: `date`, for Unix information; `umount`, for unmounting partitions.``
 ## More information links
 
-- On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and some BSD platforms). Alternatively, you can link to the author's website or a tutorial page if the command doesn't have a documentation page.
+- On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and BSD platforms other than FreeBSD). Alternatively, you can link to the author's website or a tutorial page if the command doesn't have a documentation page.
+
+- For `osx`: Apple distributes the built-in man pages [in Xcode](https://developer.apple.com/documentation/os/reading_unix_manual_pages). For commands documented there, we recommend using https://keith.github.io/xcode-man-pages/, an HTML export of all Apple's man pages bundled with Xcode.
 
 - **All links must be enclosed inside angular brackets (`<` and `>`) for proper rendering in clients.**
 
@@ -478,7 +480,7 @@ Second, we recommend using the following forms of technical terms to make transl
 | Device | Perangkat | Preferred over [`peranti`](https://kbbi.kemdikbud.go.id/entri/peranti). |
 | Disc | Disc | Preferred over [`cakram`](https://kbbi.kemdikbud.go.id/entri/cakram) which is unfamiliar by some readers. Use specific words if possible (e.g. CD or DVD).  |
 | Execute / Run (a program...) | Jalankan | Preferred over [`eksekusikan`](https://kbbi.kemdikbud.go.id/entri/eksekusikan) which is longer to read and write. |
-| File | File | Preferred over [`berkas`](https://kbbi.kemdikbud.go.id/entri/berkas) which may be unfamiliar by some readers. |
+| File | Berkas | [`berkas`](https://kbbi.kemdikbud.go.id/entri/berkas) is an official term. Additionally, `jalan/menuju/file(_atau_direktori)` is deprecated in favor of `jalan/menuju/berkas(_atau_direktori)`. |
 | Generate | Buat | Preferred over [`hasilkan`](https://kbbi.kemdikbud.go.id/entri/hasilkan). Example context: `Buat laporan baru`. |
 | Hardware | Perangkat Keras | Preferred over [`peranti`](https://kbbi.kemdikbud.go.id/entri/peranti). |
 | Image (as picture or visual image) | Gambar | Do not confuse with `image` as a means of storage. |
