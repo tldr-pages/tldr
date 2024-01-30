@@ -5,15 +5,15 @@
 
 - Cetak konten berkas menuju `stdout`:
 
-`cat {{jalan/menuju/file}}`
+`cat {{jalan/menuju/berkas}}`
 
 - Gabungkan konten beberapa berkas ke berkas tujuan:
 
-`cat {{jalan/menuju/file1 jalan/menuju/file2 ...}} > {{jalan/menuju/file_tujuan}}`
+`cat {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}} > {{jalan/menuju/berkas_tujuan}}`
 
 - Tambahkan konten beberapa berkas ke berkas tujuan:
 
-`cat {{jalan/menuju/file1 jalan/menuju/file2 ...}} >> {{jalan/menuju/file_tujuan}}`
+`cat {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}} >> {{jalan/menuju/berkas_tujuan}}`
 
 - Salin isi suatu file menuju file tujuan tanpa proses buffering:
 
@@ -21,4 +21,4 @@
 
 - Tulis isi `stdin` menuju suatu file:
 
-`cat - > {{jalan/menuju/file}}`
+`cat - > {{jalan/menuju/berkas}}`

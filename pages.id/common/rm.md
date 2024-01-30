@@ -6,15 +6,15 @@
 
 - Hapus file dari lokasi manapun:
 
-`rm {{jalan/menuju/file1 jalan/menuju/file2 ...}}`
+`rm {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}}`
 
 - Hapus file dari lokasi manapun dengan mengabaikan nama-nama file yang tidak ditemukan:
 
-`rm -f {{jalan/menuju/file1 jalan/menuju/file2 ...}}`
+`rm -f {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}}`
 
 - Hapus banyak file secara [i]nteraktif, dengan meminta konfirmasi sebelum setiap penghapusan:
 
-`rm -i {{jalan/menuju/file1 jalan/menuju/file2 ...}}`
+`rm -i {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}}`
 
 - Hapus file dengan mode [v]erbose, mencetak pesan untuk setiap file yang terhapus:
 
@@ -22,4 +22,4 @@
 
 - Hapus direktori dan semua subdirektorinya secara [r]ekursif:
 
-`rm -r {{jalan/menuju/file_atau_direktori1 jalan/menuju/file_atau_direktori2 ...}}`
+`rm -r {{jalan/menuju/berkas_atau_direktori1 jalan/menuju/berkas_atau_direktori2 ...}}`

@@ -5,11 +5,11 @@
 
 - Tentukan direktori penyimpanan basis data (default: `/data/db` dalam Linux dan macOS, `C:\data\db` dalam Windows):
 
-`mongod --dbpath {{jalan/menuju/directory}}`
+`mongod --dbpath {{jalan/menuju/direktori}}`
 
 - Tentukan berkas konfigurasi basis data:
 
-`mongod --config {{jalan/menuju/file}}`
+`mongod --config {{jalan/menuju/berkas}}`
 
 - Tentukan port yang akan digunakan (default: 27017):
 
