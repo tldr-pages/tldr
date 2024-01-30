@@ -1,0 +1,26 @@
+# sockstat
+
+> Lista sockets abiertos de Internet o dominios UNIX.
+> Nota: este programa es una reescritura para NetBSD 3.0 del `sockstat` de FreeBSD.
+> Vea también: `netstat`.
+> Más información: <https://man.freebsd.org/cgi/man.cgi?sockstat>.
+
+- Muestra información para sockets IPv4, IPv6 y Unix sea tanto para sockets escuchando como conectados:
+
+`sockstat`
+
+- Muestra información para sockets IPv[4]/IPv[6] escuchando [l] sobre [p]uertos específicos usando un [P]rotocolo específico:
+
+`sockstat -{{4|6}} -l -P {{tcp|udp|sctp|divert}} -p {{puerto1,puerto2...}}`
+
+- También muestra sockets [c]onectados, mostrando sockets [u]nix:
+
+`sockstat -cu`
+
+- Sólo muestra salida [n]umérica, sin resolver nombres simbólicos para direcciones y puertos:
+
+`sockstat -n`
+
+- Lista sólo sockets de una [f]amilia de direcciones determinada: 
+
+`sockstat -f {{inet|inet6|local|unix}}`
