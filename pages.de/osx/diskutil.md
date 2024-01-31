@@ -1,7 +1,7 @@
 # diskutil
 
 > Dienstprogramm zur Verwaltung lokaler Festplatten und Volumes.
-> Weitere Informationen: <https://ss64.com/osx/diskutil.html>.
+> Weitere Informationen: <https://keith.github.io/xcode-man-pages/diskutil.8.html>.
 
 - Auflisten aller aktuell verfügbaren Festplatten, Partitionen und gemounteten Volumes:
 

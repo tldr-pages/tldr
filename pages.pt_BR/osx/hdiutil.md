@@ -1,7 +1,7 @@
 # hdiutil
 
 > Utilitário para criar e gerenciar imagens de disco.
-> Mais informações: <https://ss64.com/osx/hdiutil.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/hdiutil.1.html>.
 
 - Monta uma imagem:
 

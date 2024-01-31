@@ -1,7 +1,7 @@
 # pbpaste
 
 > Sende den Inhalt der Zwischenablage zum Standardoutput.
-> Weitere Informationen: <https://ss64.com/osx/pbpaste.html>.
+> Weitere Informationen: <https://keith.github.io/xcode-man-pages/pbpaste.1.html>.
 
 - Schreibe den Inhalt der Zwischenablage in eine Datei:
 

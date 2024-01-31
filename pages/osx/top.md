@@ -1,7 +1,7 @@
 # top
 
 > Display dynamic real-time information about running processes.
-> More information: <https://ss64.com/osx/top.html>.
+> More information: <https://keith.github.io/xcode-man-pages/top.1.html>.
 
 - Start `top`, all options are available in the interface:
 

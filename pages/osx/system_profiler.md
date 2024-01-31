@@ -1,7 +1,7 @@
 # system_profiler
 
 > Report system hardware and software configuration.
-> More information: <https://ss64.com/osx/system_profiler.html>.
+> More information: <https://keith.github.io/xcode-man-pages/system_profiler.8.html>.
 
 - Display a report with specific details level (mini [no personal information], basic or full):
 
