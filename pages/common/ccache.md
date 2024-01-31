@@ -1,7 +1,7 @@
 # ccache
 
 > C/C++ compiler cache.
-> More information: <https://ccache.dev/manual/4.9.html#_command_line_options>.
+> More information: <https://ccache.dev/manual/latest.html>.
 
 - Show current cache [s]tatistics:
 
