@@ -11,7 +11,7 @@
 
 `flatpak install {{remote}} {{name}}`
 
-- List installed applications (ignores runtimes):
+- List installed applications, ignoring runtimes:
 
 `flatpak list --app`
 
