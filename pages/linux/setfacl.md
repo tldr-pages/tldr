@@ -5,16 +5,16 @@
 
 - Modify ACL of a file for user with read and write access:
 
-`setfacl -m u:{{username}}:rw {{file}}`
+`setfacl --modify u:{{username}}:rw {{path/to/file_or_directory}}`
 
 - Modify default ACL of a file for all users:
 
-`setfacl -d -m u::rw {{file}}`
+`setfacl --modify --default u::rw {{path/to/file_or_directory}}`
 
 - Remove ACL of a file for a user:
 
-`setfacl -x u:{{username}} {{file}}`
+`setfacl --remove u:{{username}} {{path/to/file_or_directory}}`
 
 - Remove all ACL entries of a file:
 
-`setfacl -b {{file}}`
+`setfacl --remove-all {{path/to/file_or_directory}}`
