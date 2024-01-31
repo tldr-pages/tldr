@@ -5,19 +5,19 @@
 
 - Show current cache [s]tatistics:
 
-`ccache -s`
+`ccache --show-stats`
 
-- Clear all [C]ache:
+- [C]lear all cache:
 
-`ccache -C`
+`ccache --clear`
 
 - Reset ([z]ero) statistics (but not cache itself):
 
-`ccache -z`
+`ccache --zero-stats`
 
-- Compile a file and cache compiled output:
+- Compile C code and cache compiled output:
 
-`ccache gcc main.c`
+`ccache gcc {{path/to/file.c}}`
 
 - Create a symlink to ccache to automatically act as the given compiler (note: some symlinked files may already exist in `/usr/lib/ccache/bin/`):
 
