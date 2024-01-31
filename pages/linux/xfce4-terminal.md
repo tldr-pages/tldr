@@ -25,4 +25,4 @@
 
 - Open multiple new tabs, executing a command in each:
 
-`xfce4-terminal --tab --command "{{command_a}}" --tab --command "{{command_b}}"`
+`xfce4-terminal --tab --command "{{command1}}" --tab --command "{{command2}}"`

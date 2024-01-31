@@ -21,7 +21,7 @@
 
 - Ignore specified comma-separated files in a directory:
 
-`babel {{path/to/input_directory}} --ignore {{ignored_files}}`
+`babel {{path/to/input_directory}} --ignore {{ignored_file1,ignored_file2,...}}`
 
 - Transpile and output as minified JavaScript:
 
@@ -29,7 +29,7 @@
 
 - Choose a set of presets for output formatting:
 
-`babel {{path/to/input_file}} --presets {{presets}}`
+`babel {{path/to/input_file}} --presets {{preset1,preset2,...}}`
 
 - Display help:
 

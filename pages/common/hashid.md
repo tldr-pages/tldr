@@ -7,9 +7,9 @@
 
 `hashid`
 
-- Identify hashes passed as arguments (multiple hashes can be passed):
+- Identify one or more hashes:
 
-`hashid {{hash}}`
+`hashid {{hash1 hash2 ...}}`
 
 - Identify hashes on a file (one hash per line):
 

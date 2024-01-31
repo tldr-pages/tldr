@@ -5,7 +5,7 @@
 > Some subcommands such as `install`, `launch`, `java`, `fetch`, `resolve`, `complete-dep`, etc. have their own usage documentation.
 > More information: <https://get-coursier.io/docs/overview>.
 
-- Show a list of the installed applications:
+- List installed applications:
 
 `cs list`
 

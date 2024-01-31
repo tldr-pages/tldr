@@ -13,7 +13,7 @@
 
 - Open the diff viewer to compare up to 3 files:
 
-`idea diff {{path/to/file1}} {{path/to/file2}}`
+`idea diff {{path/to/file1 path/to/file2 path/to/optional_file3}}`
 
 - Open the merge dialog to perform a two-way file merge:
 
