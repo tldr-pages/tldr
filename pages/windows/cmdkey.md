@@ -3,7 +3,7 @@
 > Create, show, and delete stored user names and passwords.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmdkey>.
 
-- Show a list of all user credentials:
+- List all user credentials:
 
 `cmdkey /list`
 

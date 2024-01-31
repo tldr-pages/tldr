@@ -7,14 +7,10 @@
 
 `reg flags {{key_name}} query`
 
-- Set specified space-separated flags, and unset unmentioned flags, for a specific key:
+- Set one or more flags, and unset unmentioned flags, for a specific key:
 
-`reg flags {{key_name}} set {{flag_names}}`
+`reg flags {{key_name}} set {{flag_name1 flag_name2 ...}}`
 
-- Set specified flags for a specific key and its sub keys:
+- Set one or more flags for a specific key and its [s]ub keys:
 
-`reg flags {{key_name}} set {{flag_names}} /s`
-
-- Display help and available flag types:
-
-`reg flags /?`
+`reg flags {{key_name}} set {{flag_name1 flag_name2 ...}} /s`

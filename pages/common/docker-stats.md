@@ -7,9 +7,9 @@
 
 `docker stats`
 
-- Display a live stream of statistics for a space-separated list of containers:
+- Display a live stream of statistics for one or more containers:
 
-`docker stats {{container_name}}`
+`docker stats {{container1 container2 ...}}`
 
 - Change the columns format to display container's CPU usage percentage:
 

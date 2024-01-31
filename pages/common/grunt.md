@@ -7,9 +7,9 @@
 
 `grunt`
 
-- Run one or more specific space-separated task(s):
+- Run one or more tasks:
 
-`grunt {{task_name}}`
+`grunt {{task1 task2 ...}}`
 
 - Specify an alternative configuration file:
 

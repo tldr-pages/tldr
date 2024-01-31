@@ -9,7 +9,7 @@
 
 - Decompress a file:
 
-`lzop -d {{path/to/file}}.lzo`
+`lzop -d {{path/to/file.lzo}}`
 
 - Compress a file, while specifying the compression level. 0 = Worst, 9 = Best (Default level is 3):
 
