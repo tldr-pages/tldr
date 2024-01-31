@@ -27,6 +27,6 @@
 
 `dua --format {{metric|binary|bytes|GB|GiB|MB|MiB}}`
 
-- Use a specific number of threads (defaults to the process' number of threads):
+- Use a specific number of threads (defaults to the process number of threads):
 
 `dua --threads {{count}}`
