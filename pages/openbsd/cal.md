@@ -1,0 +1,32 @@
+# cal
+
+> Prints calendar information, with the current day highlighted.
+> More information: <https://man.openbsd.org/cal>.
+
+- Display a calendar for the current month:
+
+`cal`
+
+- Display a calendar for a specific year (4 digits):
+
+`cal {{year}}`
+
+- Display a calendar for a specific month and year:
+
+`cal {{month}} {{year}}`
+
+- Display a calendar for the current [y]ear:
+
+`cal -y`
+
+- Display [j]ulian days (one-based, numbered from January 1):
+
+`cal -j`
+
+- Use [m]onday as week start instead of Sunday:
+
+`cal -m`
+
+- Number [w]eek numbers (incompatible with `-j`):
+
+`cal -w`

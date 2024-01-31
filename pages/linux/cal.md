@@ -7,9 +7,17 @@
 
 `cal`
 
-- Display previous, current and next month:
+- Display [3] months spanning the date:
 
 `cal -3`
+
+- Display the whole calendar for the current [y]ear:
+
+`cal --year`
+
+- Display the next twelve months:
+
+`cal --twelve`
 
 - Use Monday as the first day of the week:
 
