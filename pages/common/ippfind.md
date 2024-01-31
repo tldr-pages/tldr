@@ -8,10 +8,10 @@
 
 `ippfind --ls`
 
-- Send a PostScript test page for every PostScript printer on the network:
+- Send a PostScript test page to every PostScript printer on the network:
 
 `ippfind --txt-pdl application/postscript --exec ipptool -f onepage-letter.ps '{}' print-job.test \;`
 
-- Send a PostScript test page for every PostScript printer on the network which name matches a regex:
+- Send a PostScript test page to every PostScript printer on the network, whose name matches a regular expression:
 
 `ippfind --txt-pdl application/postscript --host {{regex}} --exec ipptool -f onepage-letter.ps '{}' print-job.test \;`
