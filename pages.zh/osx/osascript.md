@@ -1,7 +1,7 @@
 # osascript
 
 > 在命令行中运行指定的 AppleScript 或 JavaScript 脚本程序。
-> 更多信息：<https://ss64.com/osx/osascript.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/osascript.1.html>.
 
 - 运行一个 AppleScript 命令：
 

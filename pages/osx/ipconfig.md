@@ -1,7 +1,7 @@
 # ipconfig
 
 > View and control IP configuration state.
-> More information: <https://ss64.com/osx/ipconfig.html>.
+> More information: <https://keith.github.io/xcode-man-pages/ipconfig.8.html>.
 
 - List all network interfaces:
 

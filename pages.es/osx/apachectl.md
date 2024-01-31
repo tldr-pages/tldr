@@ -1,7 +1,7 @@
 # apachectl
 
 > Interfaz de control de Apache HTTP Server para macOS.
-> Más información: <https://www.unix.com/man-page/osx/8/apachectl/>.
+> Más información: <https://keith.github.io/xcode-man-pages/apachectl.8.html>.
 
 - Inicia la tarea launchd `org.apache.httpd`:
 

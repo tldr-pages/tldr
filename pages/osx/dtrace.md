@@ -2,7 +2,7 @@
 
 > A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility.
 > Generic front-end to DTrace facility, requiring root privileges.
-> More information: <https://www.unix.com/man-page/osx/1/dtrace/>.
+> More information: <https://keith.github.io/xcode-man-pages/dtrace.1.html>.
 
 - Set target data model for a specific architecture:
 

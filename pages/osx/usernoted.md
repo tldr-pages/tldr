@@ -2,7 +2,7 @@
 
 > Provides notification services.
 > It should not be invoked manually.
-> More information: <https://www.unix.com/man-page/mojave/8/usernoted>.
+> More information: <https://keith.github.io/xcode-man-pages/usernoted.8.html>.
 
 - Start the daemon:
 
