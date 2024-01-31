@@ -8,7 +8,7 @@
 
 `bedtools intersect -a {{path/to/file_A}} -b {{path/to/file_B1 path/to/file_B2 ...}} -s > {{path/to/output_file}}`
 
-- Intersect two files with a [l]eft [o]uter join, i.e. report each feature from `file1` and NULL if no overlap with `file2`:
+- Intersect two files with a [l]eft [o]uter [j]oin, i.e. report each feature from `file1` and NULL if no overlap with `file2`:
 
 `bedtools intersect -a {{path/to/file1}} -b {{path/to/file2}} -loj > {{path/to/output_file}}`
 
