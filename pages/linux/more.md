@@ -2,15 +2,11 @@
 
 > Interactively read a file, allowing scrolling and search.
 > See also: `less`.
-> More information: <https://manned.org/more.1p>.
+> More information: <https://manned.org/more>.
 
 - Open a file:
 
 `more {{path/to/file}}`
-
-- Search case-[i]nsensitively when pressing "/":
-
-`more -i {{path/to/file}}`
 
 - Open a file displaying from a specific line:
 
