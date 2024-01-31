@@ -27,6 +27,6 @@
 
 `chezmoi init {{repository_url}}`
 
-- Update from a remote repository:
+- Pull changes from a remote repository and apply them:
 
 `chezmoi update`
