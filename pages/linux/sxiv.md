@@ -5,7 +5,7 @@
 
 - Open an image:
 
-`sxiv {{path/to/file}}`
+`sxiv {{path/to/image}}`
 
 - Open an image in fullscreen mode:
 
@@ -15,10 +15,10 @@
 
 `echo {{path/to/file}} | sxiv -i`
 
-- Open a space-separated list of images as a slideshow:
+- Open one or more images as a slideshow:
 
-`sxiv -S {{seconds}} {{path/to/file}}`
+`sxiv -S {{seconds}} {{path/to/image1 path/to/image2}}`
 
-- Open a space-separated list of images in thumbnail mode:
+- Open one or more images in thumbnail mode:
 
-`sxiv -t {{path/to/file}}`
+`sxiv -t {{path/to/image1 path/to/image2}}`

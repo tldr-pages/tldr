@@ -4,14 +4,14 @@
 > Cgroups however is not a command, but rather a collection of commands, see the relevant pages below.
 > More information: <https://www.kernel.org/doc/Documentation/cgroup-v2.txt>.
 
-- Show the tldr page for `cgclassify`:
+- View documentation for `cgclassify`:
 
 `tldr cgclassify`
 
-- Show the tldr page for `cgcreate`:
+- View documentation for `cgcreate`:
 
 `tldr cgcreate`
 
-- Show the tldr page for `cgexec`:
+- View documentation for `cgexec`:
 
 `tldr cgexec`

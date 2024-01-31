@@ -9,7 +9,7 @@
 
 - Recompress multiple files and display the achieved size reduction % per file:
 
-`znew -v {{path/to/file1.Z}} {{path/to/file2.Z}} {{path/to/file3.Z}}`
+`znew -v {{path/to/file1.Z path/to/file2.Z ...}}`
 
 - Recompress a file using the slowest compression method (for optimal compression):
 

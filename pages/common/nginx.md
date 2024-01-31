@@ -3,7 +3,7 @@
 > Nginx web server.
 > More information: <https://nginx.org/en/>.
 
-- Start server with the default config file:
+- Start server with the default configuration file:
 
 `nginx`
 

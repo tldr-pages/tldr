@@ -19,6 +19,6 @@
 
 `getconf CHILD_MAX`
 
-- List every configuration value and then find patterns with the grep command (i.e every value with MAX in it):
+- List every configuration value and then find patterns with the `grep` command (i.e every value with MAX in it):
 
 `getconf -a | grep MAX`

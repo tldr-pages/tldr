@@ -2,7 +2,7 @@
 
 > 将剪贴板的内容发送到标准输出。
 > 相当于在键盘上按下 Cmd + V.
-> 更多信息：<https://ss64.com/osx/pbpaste.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/pbpaste.1.html>.
 
 - 将剪贴板的内容写入文件：
 

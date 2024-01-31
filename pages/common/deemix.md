@@ -16,6 +16,6 @@
 
 `deemix --bitrate {{bitrate}} --path {{path}} {{url}}`
 
-- Create a portable deemix config in the current directory:
+- Create a portable deemix configuration file in the current directory:
 
 `deemix --portable --bitrate {{bitrate}} --path {{path}} {{url}}`

@@ -7,11 +7,11 @@
 
 `gitmoji --commit`
 
-- Initialize the git hook (so `gitmoji` will be run every time `git commit` is run):
+- Initialize the Git hook (so `gitmoji` will be run every time `git commit` is run):
 
 `gitmoji --init`
 
-- Remove the git hook:
+- Remove the Git hook:
 
 `gitmoji --remove`
 

@@ -2,7 +2,7 @@
 
 > Display the name of the system architecture, or run a command under a different architecture.
 > See also: `uname`.
-> More information: <https://www.unix.com/man-page/osx/1/arch/>.
+> More information: <https://keith.github.io/xcode-man-pages/arch.1.html>.
 
 - Display the system's architecture:
 

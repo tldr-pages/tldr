@@ -5,7 +5,7 @@
 
 - Gzip several files at once, using all cores:
 
-`parallel gzip ::: {{file1}} {{file2}} {{file3}}`
+`parallel gzip ::: {{path/to/file1 path/to/file2 ...}}`
 
 - Read arguments from `stdin`, run 4 jobs at once:
 

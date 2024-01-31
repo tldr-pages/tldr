@@ -25,11 +25,11 @@
 
 - Run a command for each file (use `{}` within the command to access the filename):
 
-`find {{root_path}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
+`find {{root_path}} -name '{{*.ext}}' -exec {{wc -l}} {} \;`
 
-- Find files modified in the last 7 days:
+- Find all files modified today and pass the results to a single command as arguments:
 
-`find {{root_path}} -daystart -mtime -{{7}}`
+`find {{root_path}} -daystart -mtime {{-1}} -exec {{tar -cvf archive.tar}} {} \+`
 
 - Find empty (0 byte) files and delete them:
 

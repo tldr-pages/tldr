@@ -1,7 +1,7 @@
 # softwareupdate
 
 > Update macOS App Store apps.
-> More information: <https://ss64.com/osx/softwareupdate.html>.
+> More information: <https://keith.github.io/xcode-man-pages/softwareupdate.8.html>.
 
 - List all available updates:
 

@@ -19,6 +19,6 @@
 
 `alacritty --config-file {{path/to/config.yml}}`
 
-- Run with live config reload enabled (can also be enabled by default in `alacritty.yml`):
+- Run with live configuration reload enabled (can also be enabled by default in `alacritty.yml`):
 
 `alacritty --live-config-reload --config-file {{path/to/config.yml}}`

@@ -7,10 +7,6 @@
 
 `pyats {{subcommand}}`
 
-- Display version:
-
-`pyats version check`
-
 - Display help:
 
 `pyats --help`
@@ -18,3 +14,7 @@
 - Display help about a specific subcommand:
 
 `pyats {{subcommand}} --help`
+
+- Display version:
+
+`pyats version check`

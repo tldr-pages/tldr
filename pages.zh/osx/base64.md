@@ -1,7 +1,7 @@
 # base64
 
 > 使用 Base64 来进行编码和解码。
-> 更多信息：<https://www.unix.com/man-page/osx/1/base64/>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/base64.1.html>.
 
 - 编码目标文件：
 

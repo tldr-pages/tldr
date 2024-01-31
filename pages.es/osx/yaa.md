@@ -1,7 +1,7 @@
 # yaa
 
 > Crea y manipula archivos YAA.
-> Más información: <https://www.manpagez.com/man/1/yaa/>.
+> Más información: <https://keith.github.io/xcode-man-pages/yaa.1.html>.
 
 - Crea un archivo a partir de un directorio:
 

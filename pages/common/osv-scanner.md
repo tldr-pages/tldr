@@ -19,7 +19,7 @@
 
 `osv-scanner -r {{directory1 directory2 ...}}`
 
-- Skip scanning git repositories:
+- Skip scanning Git repositories:
 
 `osv-scanner --skip-git {{-r|-D}} {{target}}`
 

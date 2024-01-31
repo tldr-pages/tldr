@@ -1,9 +1,9 @@
 # choco uninstall
 
-> Uninstall one or more packages with Chocolatey.
+> Uninstall packages with Chocolatey.
 > More information: <https://chocolatey.org/docs/commands-uninstall>.
 
-- Uninstall one or more space-separated packages:
+- Uninstall one or more packages:
 
 `choco uninstall {{package1 package2 ...}}`
 

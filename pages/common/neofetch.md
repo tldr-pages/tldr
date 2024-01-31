@@ -7,7 +7,7 @@
 
 `neofetch`
 
-- Trigger an info line from appearing in the output, where 'infoname' is the function name in the config file, e.g. memory:
+- Trigger an info line from appearing in the output, where 'infoname' is the function name in the configuration file, e.g. memory:
 
 `neofetch --{{enable|disable}} {{infoname}}`
 

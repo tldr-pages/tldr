@@ -17,7 +17,7 @@
 
 - Add the contents of a space-separated list of directories to a changelist:
 
-`svn changelist --recursive {{changelist_name}} {{path/to/directory1}} {{path/to/directory2}}`
+`svn changelist --recursive {{changelist_name}} {{path/to/directory1 path/to/directory2 ...}}`
 
 - Commit a changelist:
 
