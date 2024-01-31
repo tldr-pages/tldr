@@ -2,7 +2,7 @@
 
 > 配置 macOS 电源管理设置，就像在系统首选项 > 节能程序中一样。
 > 修改设置的命令必须以 `sudo` 开头。
-> 更多信息：<https://ss64.com/osx/pmset.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/pmset.1.html>.
 
 - 显示当前电源管理设置：
 

@@ -1,7 +1,7 @@
 # csrutil
 
 > Gerencia a configuração do System Integrity Protection (SIP).
-> Mais informações: <https://ss64.com/osx/csrutil.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/csrutil.8.html>.
 
 - Exibe o status do System Integrity Protection:
 

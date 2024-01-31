@@ -1,7 +1,7 @@
 # lipo
 
 > Tool for handling Mach-O Universal Binaries.
-> More information: <https://ss64.com/osx/lipo.html>.
+> More information: <https://keith.github.io/xcode-man-pages/lipo.1.html>.
 
 - Create a universal file from two single-architecture files:
 

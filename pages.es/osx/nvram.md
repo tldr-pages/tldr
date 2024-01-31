@@ -1,7 +1,7 @@
 # nvram
 
 > Manipula variables del firmware.
-> Más información: <https://ss64.com/osx/nvram.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/nvram.8.html>.
 
 - Im[p]rime todas las variables almacenadas en la NVRAM:
 
