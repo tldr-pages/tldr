@@ -3,10 +3,6 @@
 > A PHP static analysis tool to discover bugs in code.
 > More information: <https://github.com/phpstan/phpstan>.
 
-- Display available options for analysis:
-
-`phpstan analyse --help`
-
 - Analyze one or more directories:
 
 `phpstan analyse {{path/to/directory1 path/to/directory2 ...}}`
@@ -26,3 +22,7 @@
 - Specify a memory limit during analysis:
 
 `phpstan analyse {{path/to/directory}} --memory-limit {{memory_limit}}`
+
+- Display available options for analysis:
+
+`phpstan analyse --help`

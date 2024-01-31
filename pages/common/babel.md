@@ -31,6 +31,6 @@
 
 `babel {{path/to/input_file}} --presets {{preset1,preset2,...}}`
 
-- Output all available options:
+- Display help:
 
 `babel --help`

@@ -31,6 +31,6 @@
 
 `pathping {{hostname}} -6`
 
-- Display detailed usage information:
+- Display help:
 
 `pathping /?`

@@ -11,10 +11,6 @@
 
 `more +{{line_number}} {{path/to/file}}`
 
-- Display help:
-
-`more --help`
-
 - Go to the next page:
 
 `<Space>`
@@ -30,3 +26,7 @@
 - Display help about interactive commands:
 
 `h`
+
+- Display help:
+
+`more --help`

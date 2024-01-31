@@ -28,6 +28,6 @@
 
 `robocopy {{path\to\source_directory}} {{path\to\destination_directory}} /Z /R:5 /W:15`
 
-- Display detailed usage information:
+- Display help:
 
 `robocopy /?`

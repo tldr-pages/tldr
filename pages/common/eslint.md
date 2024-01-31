@@ -3,7 +3,7 @@
 > A pluggable linting utility for JavaScript and JSX.
 > More information: <https://eslint.org>.
 
-- Create the ESLint config file:
+- Create the ESLint configuration file:
 
 `eslint --init`
 
@@ -15,6 +15,6 @@
 
 `eslint --fix`
 
-- Lint using the specified config:
+- Lint using the specified configuration file:
 
 `eslint -c {{path/to/config_file}} {{path/to/file1.js path/to/file2.js}}`

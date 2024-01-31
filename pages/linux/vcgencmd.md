@@ -19,10 +19,10 @@
 
 `vcgencmd get_throttled`
 
-- Print the bootloader config (only available on Raspberry Pi 4 models):
+- Print the bootloader configuration (only available on Raspberry Pi 4 models):
 
 `vcgencmd bootloader_config`
 
-- Display Help:
+- Display help:
 
 `vcgencmd --help`

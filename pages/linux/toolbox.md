@@ -8,7 +8,7 @@
 
 `toolbox {{subcommand}}`
 
-- Display help for a `toolbox` subcommand (such as `create`, `enter`, `rm`, `rmi`, etc.):
+- Display help for a specific subcommand (such as `create`, `enter`, `rm`, `rmi`, etc.):
 
 `toolbox help {{subcommand}}`
 

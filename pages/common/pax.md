@@ -7,7 +7,7 @@
 
 `pax -f {{archive.tar}}`
 
-- List the contents of a gzipped archive:
+- List the contents of a `gzip` archive:
 
 `pax -zf {{archive.tar.gz}}`
 

@@ -15,7 +15,7 @@
 
 `doas -s`
 
-- Parse a config file and check if the execution of a command as another user is allowed:
+- Parse a configuration file and check if the execution of a command as another user is allowed:
 
 `doas -C {{config_file}} {{command}}`
 

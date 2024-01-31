@@ -7,10 +7,6 @@
 
 `reg flags {{key_name}} query`
 
-- Display help and available flag types:
-
-`reg flags /?`
-
 - Set one or more flags, and unset unmentioned flags, for a specific key:
 
 `reg flags {{key_name}} set {{flag_name1 flag_name2 ...}}`

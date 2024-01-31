@@ -11,6 +11,6 @@
 
 `echo "{{<a1>}}" | xml escape`
 
-- Display help for the `escape` subcommand:
+- Display help:
 
 `xml escape --help`

@@ -12,6 +12,6 @@
 
 `dot {{path/to/input.gv}} | mingle | dot -T {{png}} > {{path/to/output.png}}`
 
-- Display help for `mingle`:
+- Display help:
 
 `mingle -?`

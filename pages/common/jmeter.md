@@ -1,6 +1,6 @@
 # jmeter
 
-> Open source java application designed for load testing functional behavior and measure performance.
+> Open source Java application designed for load testing functional behavior and measure performance.
 > More information: <https://jmeter.apache.org>.
 
 - Run a specific test plan in nongui mode:

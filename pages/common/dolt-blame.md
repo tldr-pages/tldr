@@ -11,6 +11,6 @@
 
 `dolt blame {{commit}} {{table}}`
 
-- View help:
+- Display help:
 
 `dolt blame --help`
