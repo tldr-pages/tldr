@@ -11,9 +11,9 @@
 
 `softwareupdate --install --all`
 
-- Download and install all recommended updates:
+- Download and install all [r]ecommended updates:
 
-`softwareupdate --install --req`
+`softwareupdate --install --recommended`
 
 - Download and install a specific app:
 
