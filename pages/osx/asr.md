@@ -16,6 +16,6 @@
 
 `sudo asr restore --source {{image_file.dmg}} --target {{path/to/volume_file}} --noverify`
 
-- Clone volumes without the use of an intermediate disk image:
+- Clone volumes without using an intermediate disk image:
 
 `sudo asr restore --source {{path/to/volume_file}} --target {{path/to/volume_file}}`

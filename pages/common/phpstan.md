@@ -3,9 +3,9 @@
 > A PHP static analysis tool to discover bugs in code.
 > More information: <https://github.com/phpstan/phpstan>.
 
-- Analyze the specified space-separated directories:
+- Analyze one or more directories:
 
-`phpstan analyse {{path/to/directory}}`
+`phpstan analyse {{path/to/directory1 path/to/directory2 ...}}`
 
 - Analyze a directory using a configuration file:
 
