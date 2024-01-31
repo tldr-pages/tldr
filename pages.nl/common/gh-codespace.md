@@ -31,6 +31,6 @@
 
 `gh codespace delete`
 
-- Toon hulp voor een subcommando:
+- Toon de help voor een subcommando:
 
 `gh codespace {{code|cp|create|delete|edit|...}} --help`
