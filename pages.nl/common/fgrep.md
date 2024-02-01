@@ -10,7 +10,7 @@
 
 - Zoek in bestanden, maar alleen in regels die volledig overeenkomen:
 
-`fgrep -x {{zoek_string}} {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
+`fgrep -x {{zoek_string}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
 - Tel het aantal regels in een bestand die overeenkomen met de opgegeven string:
 
@@ -26,4 +26,4 @@
 
 - Toon bestandsnamen waarvan de inhoud minimaal één keer overeenkomt met de string:
 
-`fgrep -l {{zoek_string}} {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
+`fgrep -l {{zoek_string}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
