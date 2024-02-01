@@ -255,8 +255,7 @@ def main():
             page_path = pages_dir / arg_platform / arg_page
             if not page_path.exists():
                 continue
-            if page_path != None:
-                target_paths.append(page_path)
+            target_paths.append(page_path)
 
         target_paths.sort()
 
