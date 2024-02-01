@@ -252,19 +252,9 @@ def main():
         arg_platform, arg_page = args.page.split("/")
 
         for pages_dir in pages_dirs:
-            platform_path = pages_dir / arg_platform
-            if not platform_path.exists():
+            page_path = pages_dir / arg_platform / arg_page
+            if not page_path.exists():
                 continue
-            page_path = next(
-                (
-                    i_page_path
-                    for i_page_path in platform_path.iterdir()
-                    if i_page_path.name not in IGNORE_FILES
-                    and i_page_path.name == arg_page
-                    and i_page_path.parents[0].name == arg_platform
-                ),
-                None,
-            )
             if page_path != None:
                 target_paths.append(page_path)
 
