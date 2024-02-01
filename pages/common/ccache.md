@@ -1,7 +1,7 @@
 # ccache
 
 > C/C++ compiler cache.
-> Note: ccache can also mock a compiler by changing the executable's name. Packages usually provide symlinks for common compilers at `/usr/lib/ccache/bin`. Prepend this directory to `$PATH` to automatically use ccache for these compilers.
+> Note: packages usually provide symlinks for compilers in `/usr/lib/ccache/bin`. Prepend this directory to `$PATH` to automatically use `ccache` for them.
 > More information: <https://ccache.dev/manual/latest.html>.
 
 - Show current cache [s]tatistics:
