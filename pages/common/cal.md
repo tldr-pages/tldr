@@ -1,13 +1,13 @@
 # cal
 
-> Prints calendar information, with the current day highlighted.
+> Print a calendar with the current day highlighted.
 > More information: <https://manned.org/cal.1p>.
 
 - Display a calendar for the current month:
 
 `cal`
 
-- Display a calendar for a specific year (4 digits):
+- Display a calendar for a specific year:
 
 `cal {{year}}`
 
