@@ -11,7 +11,7 @@
     "tldr-lint": "^0.0.13"
   },
   "devDependencies": {
-    "husky": "^8.0.3"
+    "husky": "^9.0.7"
   },
   "scripts": {
     "lint-markdown": "markdownlint pages*/**/*.md",
