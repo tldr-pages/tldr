@@ -16,6 +16,6 @@
 
 `ccache --zero-stats`
 
-- Compile C code and cache compiled output (for better usage, see note above):
+- Compile C code and cache compiled output (to use `ccache` on all `gcc` invocations, see the note above):
 
 `ccache gcc {{path/to/file.c}}`
