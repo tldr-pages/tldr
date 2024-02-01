@@ -31,10 +31,10 @@ body:
         - Windows
     validations:
       required: true
-  - type: textarea
+  - type: input
     attributes:
       label: VCS repository link (e.g. GitHub, GitLab)
-      description: Link to the Version Control System if the project is open source.
+      description: Link to the Version Control System repository if the project is open source.
       placeholder: https://github.com/user/repo
   - type: textarea
     attributes:
@@ -45,7 +45,7 @@ body:
       label: Commands
       description: List out all the pages you want to create.
       placeholder: |
-        - [] command1 → <SPACE_FOR_PR_NUMBER>
-        - [] command2 → <SPACE_FOR_PR_NUMBER>
+        - [] command1 → <PR_NUMBER>
+        - [] command2 → <PR_NUMBER>
     validations:
       required: true
