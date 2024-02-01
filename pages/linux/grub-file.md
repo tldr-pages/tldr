@@ -23,6 +23,6 @@
 
 `grub-file --is-x86-linux {{path/to/file}}`
 
-- Check if a file is an x86_64 XNU image (Mac OS X kernel):
+- Check if a file is an x86_64 XNU image (macOS kernel):
 
 `grub-file --is-x86_64-xnu {{path/to/file}}`
