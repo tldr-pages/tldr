@@ -1,7 +1,7 @@
 # shuf
 
 > Generate random permutations.
-> More information: <https://www.unix.com/man-page/linux/1/shuf/>.
+> More information: <https://keith.github.io/xcode-man-pages/shuf.1.html>.
 
 - Randomize the order of lines in a file and output the result:
 

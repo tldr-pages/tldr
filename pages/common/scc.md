@@ -31,6 +31,6 @@
 
 `scc --sort {{files|name|lines|blanks|code|comments|complexity}}`
 
-- Print help for scc:
+- Display help:
 
 `scc -h`

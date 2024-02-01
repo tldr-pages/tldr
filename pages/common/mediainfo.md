@@ -11,6 +11,6 @@
 
 `mediainfo --Logfile={{out.txt}} {{file}}`
 
-- Display the list of metadata attributes that can be extracted:
+- List metadata attributes that can be extracted:
 
 `mediainfo --Info-Parameters`

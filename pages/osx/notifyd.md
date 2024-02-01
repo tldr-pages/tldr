@@ -2,7 +2,7 @@
 
 > Notification server.
 > It should not be invoked manually.
-> More information: <https://www.manpagez.com/man/8/notifyd/>.
+> More information: <https://keith.github.io/xcode-man-pages/notifyd.8.html>.
 
 - Start the daemon:
 

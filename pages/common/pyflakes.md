@@ -5,7 +5,7 @@
 
 - Check a single Python file:
 
-`pyflakes check {{path/to/file}}.py`
+`pyflakes check {{path/to/file.py}}`
 
 - Check Python files in a specific directory:
 

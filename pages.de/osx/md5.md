@@ -1,7 +1,7 @@
 # md5
 
 > Berechne kryptografische MD5-Prüfsummen.
-> Weitere Informationen: <https://ss64.com/osx/md5.html>.
+> Weitere Informationen: <https://keith.github.io/xcode-man-pages/md5.1.html>.
 
 - Berechne die MD5-Prüfsumme einer Datei und gib sie mit Dateinamen auf der Konsole aus:
 

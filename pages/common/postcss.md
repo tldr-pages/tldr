@@ -31,6 +31,6 @@
 
 `postcss {{path/to/file}} --watch`
 
-- Display available options and examples:
+- Display help:
 
 `postcss --help`

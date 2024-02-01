@@ -2,7 +2,7 @@
 
 > Servicio de Monitor de Eventos que acepta eventos de varios servicios, los ejecuta a través de un simple motor de reglas, y toma acciones.
 > Las acciones pueden ejecutar comandos, enviar correos electrónicos o mensajes SMS.
-> Más información: <https://www.manpagez.com/man/8/emond/>.
+> Más información: <https://keith.github.io/xcode-man-pages/emond.8.html>.
 
 - Inicia el daemon:
 

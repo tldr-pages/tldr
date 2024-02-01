@@ -12,6 +12,6 @@
 
 `reg /?`
 
-- Call help on a specific command:
+- Display help for a specific command:
 
 `reg {{command}} /?`

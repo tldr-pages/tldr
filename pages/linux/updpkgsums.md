@@ -8,10 +8,10 @@
 
 `updpkgsums`
 
-- Display Version:
-
-`updpkgsums -v`
-
 - Display help:
 
 `updpkgsums -h`
+
+- Display version:
+
+`updpkgsums -v`

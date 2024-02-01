@@ -7,6 +7,10 @@
 
 `cloudflared tunnel login`
 
+- Create a tunnel with a specific name:
+
+`cloudflared tunnel create {{name}}`
+
 - Establish a tunnel to a host in Cloudflare from the local server:
 
 `cloudflared tunnel --hostname {{hostname}} localhost:{{port_number}}`

@@ -31,6 +31,6 @@
 
 `cs list`
 
-- Pass specific java options to an installed application:
+- Pass specific Java options to an installed application:
 
 `{{application_name}} {{-Jjava_option_name1=value1 -Jjava_option_name2=value2 ...}}`

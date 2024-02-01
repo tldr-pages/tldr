@@ -1,7 +1,7 @@
 # wc
 
 > Count lines, words, or bytes.
-> More information: <https://ss64.com/osx/wc.html>.
+> More information: <https://keith.github.io/xcode-man-pages/wc.1.html>.
 
 - Count lines in file:
 

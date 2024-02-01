@@ -7,7 +7,7 @@
 
 `mongod --dbpath {{path/to/directory}}`
 
-- Specify a config file:
+- Specify a configuration file:
 
 `mongod --config {{path/to/file}}`
 

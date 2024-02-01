@@ -19,7 +19,7 @@
 
 `DIFFPROG={{editor}} pacdiff`
 
-- Scan for configuration files with `locate` instead of using pacman database:
+- Scan for configuration files with `locate` instead of using `pacman` database:
 
 `pacdiff --locate`
 

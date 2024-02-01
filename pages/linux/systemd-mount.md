@@ -11,7 +11,7 @@
 
 `systemd-mount {{path/to/file_or_device}} {{path/to/mount_point}}`
 
-- Show a list of all local, known block devices with file systems that may be mounted:
+- List all local, known block devices with file systems that may be mounted:
 
 `systemd-mount --list`
 

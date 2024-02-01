@@ -11,13 +11,13 @@
 
 `cdk synth {{stack_name}}`
 
-- Deploy a space-separated list of stacks:
+- Deploy one or more stacks:
 
-`cdk deploy {{stack_name}}`
+`cdk deploy {{stack_name1 stack_name2 ...}}`
 
-- Destroy a space-separated list of stacks:
+- Destroy one or more stacks:
 
-`cdk destroy {{stack_name}}`
+`cdk destroy {{stack_name1 stack_name2 ...}}`
 
 - Compare the specified stack with the deployed stack or a local CloudFormation template:
 
@@ -25,7 +25,7 @@
 
 - Create a new CDK project in the current directory for a specified language:
 
-`cdk init -l {{language_name}}`
+`cdk init -l {{language}}`
 
 - Open the CDK API reference in your browser:
 

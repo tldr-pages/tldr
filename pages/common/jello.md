@@ -23,9 +23,9 @@
 
 `cat {{file.json}} | jello '[i.{{key_name}} for i in _]'`
 
-- Output the value of multiple keys as a new JSON object (assuming the input JSON has the keys `key_name` and `other_key_name`):
+- Output the value of multiple keys as a new JSON object (assuming the input JSON has the keys `key_name1` and `key_name2`):
 
-`cat {{file.json}} | jello '{"{{my_new_key}}": _.{{key_name}}, "{{my_other_key}}": _.{{other_key_name}}}'`
+`cat {{file.json}} | jello '{"{{key1}}": _.{{key_name1}}, "{{key_name}}": _.{{key_name2}}}'`
 
 - Output the value of a given key to a string (and disable JSON output):
 

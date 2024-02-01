@@ -1,7 +1,7 @@
 # wc
 
 > Zlicza linie, słowa, i bajty.
-> Więcej informacji: <https://ss64.com/osx/wc.html>.
+> Więcej informacji: <https://keith.github.io/xcode-man-pages/wc.1.html>.
 
 - Policz linie w pliku:
 

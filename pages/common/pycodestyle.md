@@ -9,7 +9,7 @@
 
 - Check the style of multiple files:
 
-`pycodestyle {{file1.py}} {{file2.py}} {{file3.py}}`
+`pycodestyle {{file1.py file2.py ...}}`
 
 - Show only the first occurrence of an error:
 

@@ -1,7 +1,7 @@
 # caffeinate
 
 > Evita que macOS entre en modo de reposo.
-> Más información: <https://ss64.com/osx/caffeinate.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
 - Evita entrar en modo reposo por 1 hora (3600 segundos):
 
