@@ -1,7 +1,7 @@
 # reboot
 
 > Reinicia el sistema.
-> Más información: <https://ss64.com/osx/reboot.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/reboot.8.html>.
 
 - Reinicia inmediatamente:
 

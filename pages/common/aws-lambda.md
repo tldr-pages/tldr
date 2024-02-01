@@ -5,11 +5,11 @@
 
 - Run a function:
 
-`aws lambda invoke --function-name {{name}} {{path/to/response}}.json`
+`aws lambda invoke --function-name {{name}} {{path/to/response.json}}`
 
 - Run a function with an input payload in JSON format:
 
-`aws lambda invoke --function-name {{name}} --payload {{json}} {{path/to/response}}.json`
+`aws lambda invoke --function-name {{name}} --payload {{json}} {{path/to/response.json}}`
 
 - List functions:
 

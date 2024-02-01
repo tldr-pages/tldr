@@ -15,6 +15,6 @@
 
 `docker start --attach {{container}}`
 
-- Start one or more space-separated containers:
+- Start one or more containers:
 
 `docker start {{container1 container2 ...}}`

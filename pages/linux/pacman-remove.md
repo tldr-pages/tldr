@@ -28,6 +28,6 @@
 
 `pacman --remove --print {{package}}`
 
-- Display help for this subcommand:
+- Display help:
 
 `pacman --remove --help`

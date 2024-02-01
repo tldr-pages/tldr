@@ -2,7 +2,7 @@
 
 > Display the last part of a file.
 > See also: `head`.
-> More information: <https://manned.org/man/freebsd-13.0/tail.1>.
+> More information: <https://keith.github.io/tail.1.html>.
 
 - Show last 'count' lines in file:
 

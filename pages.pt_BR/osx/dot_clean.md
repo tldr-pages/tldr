@@ -1,7 +1,7 @@
 # dot_clean
 
 > Mescla ._* arquivos com arquivos nativos correspondentes.
-> Mais informações: <https://ss64.com/osx/dot_clean.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/dot_clean.1.html>.
 
 - Mescla todos os `._*` arquivos recursivamente:
 

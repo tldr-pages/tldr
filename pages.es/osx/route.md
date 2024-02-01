@@ -2,7 +2,7 @@
 
 > Manipula manualmente las tablas de enrutamiento.
 > Necesita ser root.
-> Más información: <https://www.manpagez.com/man/8/route/>.
+> Más información: <https://keith.github.io/xcode-man-pages/route.8.html>.
 
 - Añade una ruta a un destino a través de una puerta de enlace:
 

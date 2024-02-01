@@ -23,7 +23,7 @@
 
 `pacstrap -c {{path/to/new/root}} {{packages}}`
 
-- Install packages without copy the host's pacman keyring to the target:
+- Install packages without copy the host's `pacman` keyring to the target:
 
 `pacstrap -G {{path/to/new/root}} {{packages}}`
 

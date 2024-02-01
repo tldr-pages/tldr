@@ -3,10 +3,6 @@
 > System statistics collection daemon.
 > More information: <https://collectd.org/>.
 
-- Show usage help, including the program version:
-
-`collectd -h`
-
 - Test the configuration file and then exit:
 
 `collectd -t`
@@ -30,3 +26,7 @@
 - Don't fork into the background:
 
 `collectd -f`
+
+- Display help and version:
+
+`collectd -h`

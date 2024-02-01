@@ -1,7 +1,7 @@
 # textutil
 
 > Used to manipulate text files of various formats.
-> More information: <https://ss64.com/osx/textutil.html>.
+> More information: <https://keith.github.io/xcode-man-pages/textutil.1.html>.
 
 - Display information about `foo.rtf`:
 

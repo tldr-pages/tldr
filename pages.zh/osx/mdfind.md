@@ -1,7 +1,7 @@
 # mdfind
 
 > 列出与给定查询匹配的文件。
-> 更多信息：<https://ss64.com/osx/mdfind.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/mdfind.1.html>.
 
 - 按文件名查找文件：
 
