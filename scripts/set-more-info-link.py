@@ -46,6 +46,7 @@ import os
 import re
 import subprocess
 import sys
+from pathlib import Path
 
 labels = {
     "en": "More information:",
@@ -90,22 +91,20 @@ labels = {
 IGNORE_FILES = (".DS_Store",)
 
 
-def get_tldr_root():
-    # if this script is running from tldr/scripts, the parent's parent is the root
-    f = os.path.normpath(__file__)
-    if f.endswith("tldr/scripts/set-more-info-link.py"):
-        return os.path.dirname(os.path.dirname(f))
+def get_tldr_root() -> Path:
+    f = Path(__file__).resolve()
+    return next(path for path in f.parents if path.name == "tldr")
 
     if "TLDR_ROOT" in os.environ:
-        return os.environ["TLDR_ROOT"]
+        return Path(os.environ["TLDR_ROOT"])
     print(
-        "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
+        "Please set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
     )
     sys.exit(1)
 
 
-def set_link(file, link, dry_run=False):
-    with open(file, encoding="utf-8") as f:
+def set_link(path: Path, link: str, dry_run=False) -> str:
+    with path.open(encoding="utf-8") as f:
         lines = f.readlines()
 
     desc_start = 0
@@ -120,9 +119,9 @@ def set_link(file, link, dry_run=False):
             break
 
     # compute locale
-    pages_dir = os.path.basename(os.path.dirname(os.path.dirname(file)))
-    if "." in pages_dir:
-        _, locale = pages_dir.split(".")
+    pages_dirname = path.parents[1].name
+    if "." in pages_dirname:
+        _, locale = pages_dirname.split(".")
     else:
         locale = "en"
 
@@ -161,14 +160,14 @@ def set_link(file, link, dry_run=False):
     status = f"{status_prefix}{status}\x1b[0m"
 
     if not dry_run:
-        with open(file, "w", encoding="utf-8") as f:
+        with path.open("w", encoding="utf-8") as f:
             f.writelines(lines)
 
     return status
 
 
-def get_link(file):
-    with open(file, encoding="utf-8") as f:
+def get_link(path: Path) -> str:
+    with path.open(encoding="utf-8") as f:
         lines = f.readlines()
 
     desc_start = 0
@@ -189,12 +188,14 @@ def get_link(file):
         return ""
 
 
-def sync(root, pages_dirs, command, link, dry_run=False):
+def sync(
+    root: Path, pages_dirs: list[str], command: str, link: str, dry_run=False
+) -> list[str]:
     rel_paths = []
     for page_dir in pages_dirs:
-        path = os.path.join(root, page_dir, command)
-        if os.path.exists(path):
-            rel_path = path.replace(f"{root}/", "")
+        path = root / page_dir / command
+        if path.exists():
+            rel_path = path.name.replace(f"{root}/", "")
             rel_paths.append(rel_path)
             status = set_link(path, link, dry_run)
             if status != "":
@@ -239,7 +240,7 @@ def main():
     args = parser.parse_args()
 
     root = get_tldr_root()
-    pages_dirs = [d for d in os.listdir(root) if d.startswith("pages")]
+    pages_dirs = [d for d in root.iterdir() if d.name.startswith("pages")]
 
     rel_paths = []
 
@@ -247,27 +248,30 @@ def main():
     if args.page != "":
         target_paths = []
 
-        if not args.page.lower().endswith(".md"):
-            args.page = f"{args.page}.md"
+        args.page = f"{args.page.rstrip('.md')}.md"
+        arg_platform, arg_page = args.page.split("/")
 
         for pages_dir in pages_dirs:
-            pages_dir_path = os.path.join(root, pages_dir)
-            platforms = [i for i in os.listdir(pages_dir_path) if i not in IGNORE_FILES]
-            for platform in platforms:
-                platform_path = os.path.join(pages_dir_path, platform)
-                commands = [
-                    f"{platform}/{p}"
-                    for p in os.listdir(platform_path)
-                    if p not in IGNORE_FILES
-                ]
-                if args.page in commands:
-                    path = os.path.join(pages_dir_path, args.page)
-                    target_paths.append(path)
+            platform_path = pages_dir / arg_platform
+            if not platform_path.exists():
+                continue
+            page_path = next(
+                (
+                    i_page_path
+                    for i_page_path in platform_path.iterdir()
+                    if i_page_path.name not in IGNORE_FILES
+                    and i_page_path.name == arg_page
+                    and i_page_path.parents[0].name == arg_platform
+                ),
+                None,
+            )
+            if page_path != None:
+                target_paths.append(page_path)
 
         target_paths.sort()
 
         for path in target_paths:
-            rel_path = path.replace(f"{root}/", "")
+            rel_path = path.name.replace(f"{root}/", "")
             rel_paths.append(rel_path)
             status = set_link(path, args.link)
             if status != "":
@@ -275,18 +279,18 @@ def main():
 
     # Use '--sync' option
     elif args.sync:
-        pages_dirs.remove("pages")
-        en_page = os.path.join(root, "pages")
-        platforms = [i for i in os.listdir(en_page) if i not in IGNORE_FILES]
+        pages_dirs.remove(root / "pages")
+        en_path = root / "pages"
+        platforms = [i.name for i in en_path.iterdir() if i.name not in IGNORE_FILES]
         for platform in platforms:
-            platform_path = os.path.join(en_page, platform)
+            platform_path = en_path / platform
             commands = [
-                f"{platform}/{p}"
-                for p in os.listdir(platform_path)
-                if p not in IGNORE_FILES
+                f"{platform}/{page.name}"
+                for page in platform_path.iterdir()
+                if page not in IGNORE_FILES
             ]
             for command in commands:
-                link = get_link(os.path.join(root, "pages", command))
+                link = get_link(root / "pages" / command)
                 if link != "":
                     rel_paths += sync(root, pages_dirs, command, link, args.dry_run)
 
