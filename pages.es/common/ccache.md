@@ -1,7 +1,7 @@
 # ccache
 
 > Caché del compilador C/C++.
-> Nota: los paquetes suelen proporcionar enlaces simbólicos para los compiladores en `/usr/lib/ccache/bin`. Anteponga este directorio a `$PATH` para utilizar automáticamente `ccache` para los mismos.
+> Nota: los paquetes suelen proporcionar enlaces simbólicos para los compiladores en `/usr/lib/ccache/bin`. Anteponga este directorio en `$PATH` para utilizar automáticamente `ccache` con los compiladores.
 > Más información: <https://ccache.dev/manual/latest.html>.
 
 - Muestra las e[s]tadísticas de la caché actual:
