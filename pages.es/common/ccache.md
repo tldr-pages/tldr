@@ -16,6 +16,6 @@
 
 `ccache --zero-stats`
 
-- Compila código C y cachea la salida compilada (para usar `ccache` en todas las invocaciones `gcc`, lea la nota anterior):
+- Compila código C y almacena la salida compilada en la caché (para usar `ccache` en todas las invocaciones de `gcc`, lea la nota anterior):
 
 `ccache gcc {{ruta/al/archivo.c}}`
