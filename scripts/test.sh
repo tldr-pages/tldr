@@ -103,9 +103,9 @@ function test_python_scripts {
 
 # Default test function, run by `npm test`.
 function run_tests {
-  : find pages* -name '*.md' -exec markdownlint {} +
-  : tldr-lint ./pages
-  : test_pages "./pages.*"
+  find pages* -name '*.md' -exec markdownlint {} +
+  tldr-lint ./pages
+  test_pages "./pages.*"
   test_python_scripts "scripts/*.py"
 }
 
