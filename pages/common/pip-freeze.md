@@ -1,6 +1,7 @@
 # pip freeze
 
-> Output installed packages. By using `>` the output can be written in a text file.<br>
+> Output installed packages. By using `>` the output can be written in a text file.
+> 
 > More information: <https://pip.pypa.io/en/stable/cli/pip_freeze/>
 
 - Output installed packages:
