@@ -7,18 +7,18 @@
 
 `python -m pip freeze`
 
-- Output installed packages and write the list in {{requirements}}.txt file:
+- Output installed packages and write the list in requirements.txt file:
 
-`python -m pip freeze > {{requirements}}.txt`
+`python -m pip freeze > requirements.txt`
 
 - Output packages installed in a virtual environment, excluding globally-installed packages:
 
-`python -m pip freeze --local > {{requirements}}.txt`
+`python -m pip freeze --local > requirements.txt`
 
 - Output packages installed in the user-site:
 
-`python -m pip freeze --user > {{requirements}}.txt`
+`python -m pip freeze --user > requirements.txt`
 
 - Output all packages, including pip, distribute, setuptools, and wheel:
 
-`python -m pip freeze --all > {{requirements}}.txt`
+`python -m pip freeze --all > requirements.txt`
