@@ -37,7 +37,7 @@ jobs:
       run: pip install -r requirements.txt -r scripts/pdf/requirements.txt
 
     - name: Test
-      run: npm test
+      run: npm run test-ci
 
     - name: Build
       run: bash scripts/build.sh

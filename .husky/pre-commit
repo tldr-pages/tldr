@@ -1,2 +1,1 @@
-COMMIT=true 
-npm test
+COMMIT=true npm test
