@@ -11,6 +11,6 @@
 
 `ispell {{path/to/file}}`
 
-- Display the version:
+- Display version:
 
 `ispell -v`

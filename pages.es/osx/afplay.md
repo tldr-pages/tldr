@@ -1,7 +1,7 @@
 # afplay
 
 > Reproductor de audio de línea de comandos.
-> Más información: <https://ss64.com/osx/afplay.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/afplay.1.html>.
 
 - Reproduce un archivo de audio (espera hasta que finalice la reproducción):
 

@@ -3,21 +3,21 @@
 > Find specified text within one or more files.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>.
 
-- Find space-separated string(s) in all files:
+- Find one or more strings in all files:
 
-`findstr "{{query}}" *`
+`findstr "{{string1 string2 ...}}" *`
 
-- Find space-separated string(s) in a piped command's output:
+- Find one or more strings in a piped command's output:
 
-`{{dir}} | findstr "{{query}}"`
+`{{dir}} | findstr "{{string1 string2 ...}}"`
 
-- Find space-separated string(s) in all files recur[s]ively:
+- Find one or more strings in all files recur[s]ively:
 
-`findstr /s "{{query}}" *`
+`findstr /s "{{string1 string2 ...}}" *`
 
 - Find strings using a case-insensitive search:
 
-`findstr /i "{{query}}" *"`
+`findstr /i "{{string1 string2 ...}}" *"`
 
 - Find strings in all files using regular expressions:
 
@@ -25,12 +25,12 @@
 
 - Find a literal string (containing spaces) in all text files:
 
-`findstr /c:"{{query}}" *.txt`
+`findstr /c:"{{string1 string2 ...}}" *.txt`
 
 - Display the line number before each matching line:
 
-`findstr /n "{{query}}" *`
+`findstr /n "{{string1 string2 ...}}" *`
 
 - Display only the filenames that contain a match:
 
-`findstr /m "{{query}}" *`
+`findstr /m "{{string1 string2 ...}}" *`

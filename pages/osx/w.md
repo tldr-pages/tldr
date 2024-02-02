@@ -2,7 +2,7 @@
 
 > Show who is logged on and what they are doing.
 > Print user login, TTY, remote host, login time, idle time, current process.
-> More information: <https://ss64.com/osx/w.html>.
+> More information: <https://keith.github.io/xcode-man-pages/w.1.html>.
 
 - Show logged-in users information:
 

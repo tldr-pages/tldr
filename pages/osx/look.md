@@ -1,7 +1,7 @@
 # look
 
 > Look for lines in sorted file.
-> More information: <https://manned.org/look>.
+> More information: <https://keith.github.io/xcode-man-pages/look.1.html>.
 
 - Look for lines which begins with the given prefix:
 

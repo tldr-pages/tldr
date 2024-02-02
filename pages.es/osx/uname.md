@@ -2,7 +2,7 @@
 
 > Imprime detalles sobre la máquina actual y el sistema operativo que se ejecuta en ella.
 > Nota: para obtener información adicional sobre el sistema operativo, pruebe el comando `sw_vers`.
-> Más información: <https://ss64.com/osx/uname.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/uname.1.html>.
 
 - Imprime el nombre del kernel:
 

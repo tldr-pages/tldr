@@ -9,10 +9,6 @@
 
 `mkdir -p ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
 
-- Display help for the `nix` subcommand:
-
-`nix help {{subcommand}}`
-
 - Search for a package in nixpkgs via its name or description:
 
 `nix search nixpkgs {{search_term}}`
@@ -32,3 +28,7 @@
 - Start an interactive environment for evaluating Nix expressions:
 
 `nix repl`
+
+- Display help for a specific subcommand:
+
+`nix help {{subcommand}}`

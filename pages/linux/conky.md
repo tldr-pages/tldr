@@ -11,7 +11,7 @@
 
 `conky -C > ~/.conkyrc`
 
-- Launch Conky with a given config file:
+- Launch Conky with a given configuration file:
 
 `conky -c {{path/to/config}}`
 

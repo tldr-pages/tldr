@@ -19,10 +19,10 @@
 
 `git mergetool --no-prompt`
 
-- Explicitly use the GUI merge tool (see the `merge.guitool` config variable):
+- Explicitly use the GUI merge tool (see the `merge.guitool` configuration variable):
 
 `git mergetool --gui`
 
-- Explicitly use the regular merge tool (see the `merge.tool` config variable):
+- Explicitly use the regular merge tool (see the `merge.tool` configuration variable):
 
 `git mergetool --no-gui`

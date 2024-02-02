@@ -1,7 +1,7 @@
 # date
 
 > Mengatur atau menampilkan tanggal sistem.
-> Informasi lebih lanjut: <https://ss64.com/osx/date.html>.
+> Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/date.1.html>.
 
 - Menampilkan tanggal saat ini menggunakan format _locale_:
 

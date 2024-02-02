@@ -1,7 +1,7 @@
 # nettop
 
 > Muestra información actualizada sobre la red.
-> Más información: <https://www.manpagez.com/man/1/nettop/>.
+> Más información: <https://keith.github.io/xcode-man-pages/nettop.1.html>.
 
 - Monitoriza los sockets TCP y UDP de todas las interfaces:
 

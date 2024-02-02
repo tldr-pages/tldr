@@ -12,10 +12,10 @@
 
 `bugreportz -p`
 
-- Display version:
-
-`bugreportz -v`
-
 - Display help:
 
 `bugreportz -h`
+
+- Display version:
+
+`bugreportz -v`

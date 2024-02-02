@@ -12,10 +12,10 @@
 
 `grub-script-check --verbose`
 
-- Display version:
-
-`grub-script-check --version`
-
 - Display help:
 
 `grub-script-check --help`
+
+- Display version:
+
+`grub-script-check --version`

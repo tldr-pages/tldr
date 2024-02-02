@@ -11,6 +11,6 @@
 
 `xml list {{path/to/directory}} > {{path/to/dir_list.xml}}`
 
-- Display help for the `list` subcommand:
+- Display help:
 
 `xml list --help`

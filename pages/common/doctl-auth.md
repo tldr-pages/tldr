@@ -1,6 +1,6 @@
 # doctl auth
 
-> Authenticate doctl with one or more API tokens.
+> Authenticate `doctl` with API tokens.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/auth/>.
 
 - Open a prompt to enter an API token and label its context:

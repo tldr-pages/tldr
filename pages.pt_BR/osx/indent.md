@@ -1,7 +1,7 @@
 # indent
 
 > Altera a aparência de um programa C/C++ inserindo ou excluindo espaços em branco.
-> Mais informações: <https://www.freebsd.org/cgi/man.cgi?query=indent>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/indent.1.html>.
 
 - Formata código fonte C/C++ de acordo com o estilo Berkeley:
 

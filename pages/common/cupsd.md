@@ -31,6 +31,6 @@
 
 `cupsd -t -s {{path/to/cups-files.conf}}`
 
-- Display all available options:
+- Display help:
 
 `cupsd -h`

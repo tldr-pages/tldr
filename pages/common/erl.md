@@ -5,7 +5,7 @@
 
 - Compile and run sequential Erlang program as a common script and then exit:
 
-`erlc {{files}} && erl -noshell '{{mymodule:myfunction(arguments)}}, init:stop().'`
+`erlc {{path/to/file1 path/to/file2 ...}} && erl -noshell '{{mymodule:myfunction(arguments)}}, init:stop().'`
 
 - Connect to a running Erlang node:
 
@@ -13,4 +13,4 @@
 
 - Tell the Erlang shell to load modules from a directory:
 
-`erl -pa {{directory_with_beam_files}}`
+`erl -pa {{path/to/directory_with_beam_files}}`

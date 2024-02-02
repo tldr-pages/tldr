@@ -1,7 +1,7 @@
 # bless
 
 > Define a capacidade de inicialização por volume e as opções de disco de inicialização. Set volume boot capability and startup disk options.
-> Mais informações: <https://ss64.com/osx/bless.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/bless.1.html>.
 
 - Define um volume somente com Mac OS X ou Darwin e cria os arquivos BootX e `boot.efi` se necessário:
 

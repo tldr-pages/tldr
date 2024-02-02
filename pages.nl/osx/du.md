@@ -1,7 +1,7 @@
 # du
 
 > Disk gebruik: schat en groepeer bestand en map ruimte gebruik.
-> Meer informatie: <https://ss64.com/osx/du.html>.
+> Meer informatie: <https://keith.github.io/xcode-man-pages/du.1.html>.
 
 - Toont de grootte van een map en mogelijke sub-mappen, met een gegeven eenheid (KiB/MiB/GiB):
 

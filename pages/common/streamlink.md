@@ -15,7 +15,7 @@
 
 `streamlink {{example.com/stream}} {{best|worst}}`
 
-- Specify which player to use to feed stream data to (VLC is used by default if found):
+- Use a specific player to feed stream data to (VLC is used by default if found):
 
 `streamlink --player={{mpv}} {{example.com/stream}} {{best}}`
 

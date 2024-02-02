@@ -4,13 +4,9 @@
 > Transformations must be provided for all examples.
 > More information: <https://github.com/lebab/lebab>.
 
-- Display a list of the available transformations:
-
-`lebab --help`
-
 - Transpile using one or more comma-separated transformations:
 
-`lebab --transform {{transformation}}`
+`lebab --transform {{transformation1,transformation2,...}}`
 
 - Transpile a file to `stdout`:
 
@@ -23,3 +19,7 @@
 - Replace all `.js` files in-place in the specified directory, glob or file:
 
 `lebab --replace {{directory|glob|file}}`
+
+- Display help:
+
+`lebab --help`

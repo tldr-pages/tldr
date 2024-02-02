@@ -4,11 +4,11 @@
 > See also: `warp-cli`.
 > More information: <https://developers.cloudflare.com/warp-client/>.
 
-- Generate a zip file with information about the system configuration and the WARP connection:
+- Generate a `zip` file with information about the system configuration and the WARP connection:
 
 `warp-diag`
 
-- Generate a zip file with debug information including a timestamp to the output filename:
+- Generate a `zip` file with debug information including a timestamp to the output filename:
 
 `warp-diag --add-ts`
 

@@ -19,6 +19,6 @@
 
 `rga --rga-accurate {{regular_expression}}`
 
-- Display detailed help:
+- Display help:
 
 `rga --help`
