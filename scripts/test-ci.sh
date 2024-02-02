@@ -17,7 +17,7 @@ function exists {
 # Special test function for GitHub Actions pull request builds.
 # Runs run_tests collecting errors for tldr-bot.
 function run_tests_pr {
-  errs=$(run_pages_tests 2>&1)
+  errs=$(run_all_tests 2>&1)
 
   if [[ -n $errs ]]; then
     echo -e "Test failed!\n$errs\n" >&2
