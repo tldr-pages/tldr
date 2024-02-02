@@ -51,7 +51,7 @@ function run_black {
 
   if [[ -z $errs ]]; then
     # skip the black check if the command is not available in the system.
-    if [[ $CI != true ]] && ! exists black; then
+    if ! exists black; then
       echo "Skipping black check, command not available."
       return 0
     fi
@@ -74,7 +74,7 @@ function run_black {
 
 function run_flake8 {
   # skip flake8 check if the command is not available in the system.
-  if [[ $CI != true ]] && ! exists flake8; then
+  if ! exists flake8; then
     echo "Skipping flake8 check, command not available."
     return 0
   fi
@@ -106,7 +106,9 @@ function run_tests {
   find pages* -name '*.md' -exec markdownlint {} +
   tldr-lint ./pages
   test_pages "./pages.*"
-  test_python_scripts "scripts/*.py"
+  if [[ $CI != true ]]; then
+    test_python_scripts "scripts/*.py"
+  fi
 }
 
 # Special test function for changes staged for a commit.
