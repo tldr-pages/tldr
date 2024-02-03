@@ -1,7 +1,7 @@
 # sockstat
 
 > Lista sockets abiertos de Internet o dominios UNIX.
-> Nota: este programa es una reescritura para NetBSD 3.0 del `sockstat` de FreeBSD.
+> Nota: este programa es una reescritura para NetBSD 3.0 de `sockstat` de FreeBSD.
 > Vea también: `netstat`.
 > Más información: <https://man.freebsd.org/cgi/man.cgi?sockstat>.
 
