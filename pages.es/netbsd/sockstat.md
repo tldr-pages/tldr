@@ -5,7 +5,7 @@
 > Vea también: `netstat`.
 > Más información: <https://man.freebsd.org/cgi/man.cgi?sockstat>.
 
-- Muestra información para sockets IPv4, IPv6 y Unix sea tanto para sockets escuchando como conectados:
+- Muestra información de sockets IPv4, IPv6 y Unix que estén escuchando y conectados:
 
 `sockstat`
 
