@@ -19,6 +19,6 @@
 
 `python -m pip freeze --user > requirements.txt`
 
-- Output all packages, including pip, distribute, setuptools, and wheel:
+- Output all packages, including `pip`, `distribute`, `setuptools`, and `wheel` (they are skipped by default):
 
 `python -m pip freeze --all > requirements.txt`
