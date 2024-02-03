@@ -12,6 +12,6 @@
 
 `gio trash --list`
 
-- Restaura un elemento específico de la papelera utilizando su ID:
+- Restaura un elemento específico de la papelera utilizando su identificador:
 
 `gio trash trash://{{id}}`
