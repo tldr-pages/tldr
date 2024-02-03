@@ -3,7 +3,7 @@
 > Output installed packages in requirements format.
 > More information: <https://pip.pypa.io/en/stable/cli/pip_freeze>.
 
-- Output installed packages:
+- List installed packages:
 
 `pip freeze`
 
