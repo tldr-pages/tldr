@@ -7,7 +7,7 @@
 
 `pip freeze`
 
-- Output installed packages and write the list in `requirements.txt` file:
+- Output installed packages and write the list to the `requirements.txt` file:
 
 `python -m pip freeze > requirements.txt`
 
