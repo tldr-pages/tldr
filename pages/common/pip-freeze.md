@@ -5,7 +5,7 @@
 
 - Output installed packages:
 
-`python -m pip freeze`
+`pip freeze`
 
 - Output installed packages and write the list in `requirements.txt` file:
 
