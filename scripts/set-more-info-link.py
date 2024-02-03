@@ -189,16 +189,16 @@ def get_link(path: Path) -> str:
 def sync(
     root: Path, pages_dirs: list[str], command: str, link: str, dry_run=False
 ) -> list[str]:
-    rel_paths = []
+    paths = []
     for page_dir in pages_dirs:
         path = root / page_dir / command
         if path.exists():
-            rel_path = path.name.replace(f"{root}/", "")
-            rel_paths.append(rel_path)
+            rel_path = "/".join(path.parts[-3:])
             status = set_link(path, link, dry_run)
             if status != "":
+                paths.append(path)
                 print(f"\x1b[32m{rel_path} {status}\x1b[0m")
-    return rel_paths
+    return paths
 
 
 def main():
@@ -240,12 +240,10 @@ def main():
     root = get_tldr_root()
     pages_dirs = [d for d in root.iterdir() if d.name.startswith("pages")]
 
-    rel_paths = []
+    target_paths = []
 
     # Use '--page' option
     if args.page != "":
-        target_paths = []
-
         args.page = f"{args.page.rstrip('.md')}.md"
         arg_platform, arg_page = args.page.split("/")
 
@@ -258,8 +256,7 @@ def main():
         target_paths.sort()
 
         for path in target_paths:
-            rel_path = path.name.replace(f"{root}/", "")
-            rel_paths.append(rel_path)
+            rel_path = "/".join(path.parts[-3:])
             status = set_link(path, args.link)
             if status != "":
                 print(f"\x1b[32m{rel_path} {status}\x1b[0m")
@@ -279,10 +276,10 @@ def main():
             for command in commands:
                 link = get_link(root / "pages" / command)
                 if link != "":
-                    rel_paths += sync(root, pages_dirs, command, link, args.dry_run)
+                    target_paths += sync(root, pages_dirs, command, link, args.dry_run)
 
-    if args.stage and not args.dry_run:
-        subprocess.call(["git", "add", *rel_paths], cwd=root)
+    if args.stage and not args.dry_run and len(target_paths) > 0:
+        subprocess.call(["git", "add", *target_paths], cwd=root)
 
 
 if __name__ == "__main__":
