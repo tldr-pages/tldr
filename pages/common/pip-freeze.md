@@ -9,7 +9,7 @@
 
 - Output installed packages and write the list to the `requirements.txt` file:
 
-`python -m pip freeze > requirements.txt`
+`pip freeze > requirements.txt`
 
 - Output packages installed in a virtual environment, excluding globally installed packages:
 
