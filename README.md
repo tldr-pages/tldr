@@ -83,11 +83,9 @@ There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
 For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients).
 
-## How do I contribute to tldr-pages?
+## Copyright to tldr-pages?
 
-All contributions are welcome!
 
-Some ways to contribute include:
 
 - Adding your favorite command which isn't covered.
 - Adding examples or improving the content of an existing page.
