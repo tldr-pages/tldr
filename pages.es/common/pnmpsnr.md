@@ -24,6 +24,5 @@
 `pnmpsnr {{ruta/al/archivo1.pnm}} {{ruta/al/archivo2.pnm}} -rgb -target1 {{umbral_rojo}} -target2 {{umbral_verde}} -target3 {{umbral_azul}}`
 
 - Produce salida legible para máquinas:
-``
 
 `pnmpsnr {{ruta/al/archivo1.pnm}} {{ruta/al/archivo2.pnm}} -machine`
