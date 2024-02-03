@@ -11,7 +11,7 @@
 
 `pnmpsnr {{ruta/al/archivo1.pnm}} {{ruta/al/archivo2.pnm}} -rgb`
 
-- Ejecuta en modo de comparación, es decir, sólo la salida `nomatch` o `match` dependiendo de si el cálculo PSNR supera `n` o no:
+- Ejecuta en modo de comparación, es decir, solo la salida `nomatch` o `match` dependiendo de si el cálculo PSNR supera `n` o no:
 
 `pnmpsnr {{ruta/al/archivo1.pnm}} {{ruta/al/archivo2.pnm}} -target {{n}}`
 
