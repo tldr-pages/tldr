@@ -17,7 +17,7 @@
 
 - Output packages installed in the user-site:
 
-`python -m pip freeze --user > requirements.txt`
+`pip freeze --user > requirements.txt`
 
 - Output all packages, including `pip`, `distribute`, `setuptools`, and `wheel` (they are skipped by default):
 
