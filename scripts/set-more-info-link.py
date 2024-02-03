@@ -97,10 +97,9 @@ def get_tldr_root() -> Path:
 
     if "TLDR_ROOT" in os.environ:
         return Path(os.environ["TLDR_ROOT"])
-    print(
-        "Please set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
+    raise SystemError(
+        "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
     )
-    sys.exit(1)
 
 
 def set_link(path: Path, link: str, dry_run=False) -> str:
