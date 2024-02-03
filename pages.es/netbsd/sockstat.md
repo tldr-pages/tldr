@@ -9,7 +9,7 @@
 
 `sockstat`
 
-- Muestra información para sockets IPv[4]/IPv[6] escuchando [l] sobre [p]uertos específicos usando un [P]rotocolo específico:
+- Muestra información para sockets IPv[4]/IPv[6] escuchando ([l]istening) sobre [p]uertos específicos usando un [P]rotocolo específico:
 
 `sockstat -{{4|6}} -l -P {{tcp|udp|sctp|divert}} -p {{puerto1,puerto2...}}`
 
