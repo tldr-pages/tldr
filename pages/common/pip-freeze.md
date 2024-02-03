@@ -11,7 +11,7 @@
 
 `python -m pip freeze > requirements.txt`
 
-- Output packages installed in a virtual environment, excluding globally-installed packages:
+- Output packages installed in a virtual environment, excluding globally installed packages:
 
 `python -m pip freeze --local > requirements.txt`
 
