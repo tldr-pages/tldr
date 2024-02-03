@@ -17,7 +17,7 @@
 
 `sockstat -cu`
 
-- Sólo muestra salida [n]umérica, sin resolver nombres simbólicos para direcciones y puertos:
+- Solo muestra salida [n]umérica, sin resolver nombres simbólicos para direcciones y puertos:
 
 `sockstat -n`
 
