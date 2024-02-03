@@ -13,7 +13,7 @@
 
 - Output packages installed in a virtual environment, excluding globally installed packages:
 
-`python -m pip freeze --local > requirements.txt`
+`pip freeze --local > requirements.txt`
 
 - Output packages installed in the user-site:
 
