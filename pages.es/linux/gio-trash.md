@@ -14,4 +14,4 @@
 
 - Restaura un elemento específico de la papelera utilizando su identificador:
 
-`gio trash trash://{{id}}`
+`gio trash trash://{{identificador}}`
