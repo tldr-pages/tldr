@@ -21,4 +21,4 @@
 
 - Output all packages, including `pip`, `distribute`, `setuptools`, and `wheel` (they are skipped by default):
 
-`python -m pip freeze --all > requirements.txt`
+`pip freeze --all > requirements.txt`
