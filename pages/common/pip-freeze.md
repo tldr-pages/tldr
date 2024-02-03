@@ -15,7 +15,7 @@
 
 `pip freeze --local > requirements.txt`
 
-- Output packages installed in the user-site:
+- List installed packages in the user-side:
 
 `pip freeze --user > requirements.txt`
 
