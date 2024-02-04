@@ -11,7 +11,7 @@
 
 `bash --norc`
 
-- `-c` Wywołaj określoną komendę w powłoce Bash:
+-`-c` Wywołaj określoną komendę w powłoce Bash:
 
 `bash -c "{{komenda powłoki systemowej}}"`
 
