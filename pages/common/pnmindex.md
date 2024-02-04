@@ -10,7 +10,7 @@
 
 - Specify the size of the (quadratic) thumbnails:
 
-`pnmindex -size {{50} {{path/to/input1.pnm path/to/input2.pnm ...}} > {{path/to/output.pnm}}`
+`pnmindex -size {{50}} {{path/to/input1.pnm path/to/input2.pnm ...}} > {{path/to/output.pnm}}`
 
 - Specify the number of thumbnails per row:
 
