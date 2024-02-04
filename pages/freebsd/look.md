@@ -2,7 +2,7 @@
 
 > Display lines beginning with a prefix in a sorted file.
 > See also: `grep`, `sort`.
-> More information: <https://keith.github.io/xcode-man-pages/look.1.html>.
+> More information: <https://man.freebsd.org/cgi/man.cgi?look>.
 
 - Search for lines beginning with a specific prefix in a specific file:
 
