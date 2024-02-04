@@ -23,7 +23,7 @@
 
 `pacstrap -c {{path/to/new/root}} {{packages}}`
 
-- Initialize an empty pacman keyring in the target without copying the host's `pacman` keyring
+- Initialize an empty pacman keyring in the target without copying the host's `pacman` keyring:
 
 `pacstrap -K {{path/to/new/root}} {{packages}}`
 
