@@ -31,6 +31,6 @@
 
   `{{echo "echo 'bash uruchomiony'"}} | bash`
 
-- `-r` Uruchom sesję Bash w trybie [r]estrykcyjnym (więcej o trybie restrykcyjnym na stronie <https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell.html>).
+- `-r` Uruchom sesję Bash w trybie [r]estrykcyjnym (więcej o trybie restrykcyjnym na stronie <https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell.html>):
 
   `bash -r`
