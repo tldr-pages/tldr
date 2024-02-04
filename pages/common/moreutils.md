@@ -1,7 +1,7 @@
 # moreutils
 
 > A collection of UNIX tools.
-> moreutils isn't a command, but a set of commands.
+> Note: moreutils isn't a command, but a set of commands.
 > More information: <https://joeyh.name/code/moreutils/>.
 
 - View the tldr page for pages related to standard streams:
