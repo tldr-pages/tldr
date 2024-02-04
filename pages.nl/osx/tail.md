@@ -2,7 +2,7 @@
 
 > Toon het laatste deel van een bestand.
 > Bekijk ook: `head`.
-> Meer informatie: <https://manned.org/man/freebsd-13.0/tail.1>.
+> Meer informatie: <https://keith.github.io/tail.1.html>.
 
 - Toon laatste aantal regels in een bestand:
 
