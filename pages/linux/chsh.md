@@ -1,17 +1,21 @@
 # chsh
 
 > Change user's login shell.
-> See platform-specific pages for more options.
+> Part of `util-linux`.
 > More information: <https://manned.org/chsh>.
 
 - Set a specific login shell for the current user interactively:
 
-`chsh`
+`sudo chsh`
 
 - Set a specific login [s]hell for the current user:
 
-`chsh -s {{path/to/shell}}`
+`sudo chsh --shell {{path/to/shell}}`
 
 - Set a login [s]hell for a specific user:
 
-`chsh -s {{path/to/shell}} {{username}}`
+`sudo chsh --shell {{path/to/shell}} {{username}}`
+
+- [l]ist available shells:
+
+`sudo chsh --list-shells`
