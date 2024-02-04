@@ -23,9 +23,9 @@
 
 `pacstrap -c {{path/to/new/root}} {{packages}}`
 
-- Install packages without copy the host's `pacman` keyring to the target:
+- Initialize an empty pacman keyring in the target without copying the host's `pacman` keyring
 
-`pacstrap -G {{path/to/new/root}} {{packages}}`
+`pacstrap -K {{path/to/new/root}} {{packages}}`
 
 - Install packages in interactive mode (prompts for confirmation):
 
