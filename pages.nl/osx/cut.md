@@ -1,7 +1,7 @@
 # cut
 
 > Snij velden eruit vanuit `stdin` of bestanden.
-> Meer informatie: <https://manned.org/man/freebsd-13.0/cut.1>.
+> Meer informatie: <https://keith.github.io/xcode-man-pages/cut.1.html>.
 
 - Toon een specifiek karakter/veldbereik voor iedere regel:
 

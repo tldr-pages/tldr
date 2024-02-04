@@ -1,7 +1,7 @@
 # caffeinate
 
 > Evita que o macOS entre em suspensão (repouso).
-> Mais informações: <https://ss64.com/osx/caffeinate.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
 - Evita a suspensão por uma hora (3600 segundos):
 

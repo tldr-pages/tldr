@@ -1,6 +1,6 @@
 # asciinema
 
-> Neemt en speelt terminal sessies af, en deelt hem optioneel op asciinema.org.
+> Neemt op en speelt terminal sessies af en deelt hem optioneel op asciinema.org.
 > Meer informatie: <https://asciinema.org/docs/usage>.
 
 - Associeer de lokale installatie van `asciinema` met het asciinema.org account:
@@ -13,11 +13,11 @@
 
 - Maak een nieuwe opname en sla het op in een lokaal bestand:
 
-`asciinema rec {{pad/naar/bestand}}.cast`
+`asciinema rec {{pad/naar/bestand.cast}}`
 
 - Speelt een terminal opname of vanaf een lokaal bestand:
 
-`asciinema play {{pad/naar/bestand}}.cast`
+`asciinema play {{pad/naar/bestand.cast}}`
 
 - Speelt een terminal opname of vanaf asciinema.org:
 
@@ -29,8 +29,8 @@
 
 - Laat de volledige inhoud zien van een lokaal opgeslagen opname:
 
-`asciinema cat {{pad/naar/bestand}}.cast`
+`asciinema cat {{pad/naar/bestand.cast}}`
 
 - Slaat een lokaal opgeslagen terminal sessie op bij asciinema.org:
 
-`asciinema upload {{pad/naar/bestand}}.cast`
+`asciinema upload {{pad/naar/bestand.cast}}`

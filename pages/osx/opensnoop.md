@@ -1,7 +1,7 @@
 # opensnoop
 
 > Tool that tracks file opens on your system.
-> More information: <https://ss64.com/osx/opensnoop.html>.
+> More information: <https://keith.github.io/xcode-man-pages/opensnoop.1m.html>.
 
 - Print all file opens as they occur:
 

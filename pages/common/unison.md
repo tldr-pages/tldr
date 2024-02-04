@@ -15,6 +15,6 @@
 
 `unison {{path/to/directory_1}} {{path/to/directory_2}} -ignore {{pattern}}`
 
-- Show documentation:
+- View documentation:
 
 `unison -doc {{topics}}`

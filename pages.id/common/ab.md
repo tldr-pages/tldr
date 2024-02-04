@@ -22,3 +22,7 @@
 - Alokasikan wak[t]u maksimum (dalam hitungan detik) untuk mengujinya:
 
 `ab -t {{60}} {{url}}`
+
+- Simpan hasil pengujian menuju suatu berkas CSV:
+
+`ab -e {{jalan/menuju/berkas.csv}}`

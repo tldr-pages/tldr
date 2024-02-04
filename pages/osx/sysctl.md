@@ -1,7 +1,7 @@
 # sysctl
 
 > Access kernel state information.
-> More information: <https://ss64.com/osx/sysctl.html>.
+> More information: <https://keith.github.io/xcode-man-pages/sysctl.8.html>.
 
 - Show all available variables and their values:
 

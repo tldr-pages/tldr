@@ -8,7 +8,7 @@
 
 `Get-Alias | Where-Object -{{Property}} {{Name}} -{{eq}} {{name}}`
 
-- Get a list of all services that are currently stopped. The `$_` automatic variable represents each object that is passed to the `Where-Object` cmdlet:
+- List all services that are currently stopped. The `$_` automatic variable represents each object that is passed to the `Where-Object` cmdlet:
 
 `Get-Service | Where-Object {$_.Status -eq "Stopped"}`
 

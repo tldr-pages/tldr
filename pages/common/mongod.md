@@ -3,7 +3,7 @@
 > The MongoDB database server.
 > More information: <https://docs.mongodb.com/manual/reference/program/mongod>.
 
-- Specify the storage directory (default: `/data/db` on Linux and MacOS, `C:\data\db` on Windows):
+- Specify the storage directory (default: `/data/db` on Linux and macOS, `C:\data\db` on Windows):
 
 `mongod --dbpath {{path/to/directory}}`
 

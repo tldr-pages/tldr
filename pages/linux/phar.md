@@ -3,9 +3,9 @@
 > Create, update or extract PHP archives (PHAR).
 > More information: <https://manned.org/phar>.
 
-- Add space-separated files or directories to a Phar file:
+- Add one or more files or directories to a Phar file:
 
-`phar add -f {{path/to/phar_file}} {{files_or_directories}}`
+`phar add -f {{path/to/phar_file}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Display the contents of a Phar file:
 
@@ -14,10 +14,6 @@
 - Delete the specified file or directory from a Phar file:
 
 `phar delete -f {{path/to/phar_file}} -e {{file_or_directory}}`
-
-- Display full usage information and available hashing/compression algorithms:
-
-`phar help`
 
 - Compress or uncompress files and directories in a Phar file:
 
@@ -34,3 +30,7 @@
 - Sign a Phar file with an OpenSSL private key:
 
 `phar sign -f {{path/to/phar_file}} -h openssl -y {{path/to/private_key}}`
+
+- Display help and available hashing/compression algorithms:
+
+`phar help`

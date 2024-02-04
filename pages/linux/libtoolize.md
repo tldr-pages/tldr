@@ -1,6 +1,6 @@
 # libtoolize
 
-> A tool used in the autotools build system to prepare a package for the use of `libtool`.
+> A tool used in the autotools build system to prepare a package for using `libtool`.
 > It performs various tasks, including generating necessary files and directories to integrate `libtool` seamlessly into a project.
 > More information: <https://www.gnu.org/software/libtool/manual/libtool.html#Invoking-libtoolize>.
 

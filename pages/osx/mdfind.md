@@ -1,7 +1,7 @@
 # mdfind
 
 > List files matching a given query.
-> More information: <https://ss64.com/osx/mdfind.html>.
+> More information: <https://keith.github.io/xcode-man-pages/mdfind.1.html>.
 
 - Find a file by its name:
 

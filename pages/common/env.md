@@ -23,6 +23,6 @@
 
 `env {{variable}}={{value}} {{program}}`
 
-- Set multiple variables and run a program:
+- Set one or more variables and run a program:
 
 `env {{variable1}}={{value}} {{variable2}}={{value}} {{variable3}}={{value}} {{program}}`

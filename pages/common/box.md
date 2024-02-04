@@ -27,6 +27,6 @@
 
 `box verify {{path/to/phar_file}}`
 
-- Display all available commands and options:
+- Display help:
 
 `box help`
