@@ -5,32 +5,32 @@
 
 - Rozpocznij interaktywną sesję terminalu Bash:
 
-  `bash`
+`bash`
 
 - Rozpocznij interaktywną sesję terminalu bash bez ładowania startowej konfiguracji:
 
-  `bash --norc`
+`bash --norc`
 
 - `-c` Wywołaj określoną komendę w powłoce Bash:
 
-  `bash -c "{{komenda powłoki systemowej}}"`
+`bash -c "{{komenda powłoki systemowej}}"`
 
 - Uruchom przekazany jako argument skrypt shella:
 
-  `bash {{sciezka/do/skrypt.sh}}`
+`bash {{sciezka/do/skrypt.sh}}`
 
 - `-x` Wykonaj przekazany jako argument skrypt, wypisując wszystkie wykonane w procesie komendy na standardowe wyjście `stdout`:
 
-  `bash -x {{sciezka/do/skrypt.sh}}`
+`bash -x {{sciezka/do/skrypt.sh}}`
 
 - `-e` Wykonaj przekazany skrypt do pojawienia się pierwszego błędu:
 
-  `bash -e {{sciezka/do/skrypt.sh}}`
+`bash -e {{sciezka/do/skrypt.sh}}`
 
 - Wykonaj komendę przekazaną przez strumień wejścia `stdin`:
 
-  `{{echo "echo 'bash uruchomiony'"}} | bash`
+`{{echo "echo 'bash uruchomiony'"}} | bash`
 
 - `-r` Uruchom sesję Bash w trybie [r]estrykcyjnym (więcej o trybie restrykcyjnym na stronie <https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell.html>):
 
-  `bash -r`
+`bash -r`
