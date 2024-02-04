@@ -7,7 +7,7 @@
 
 `pnmpaste {{x}} {{y}} {{path/to/image1.pnm}} {{path/to/image2.pnm}} > {{path/to/output.pnm}}`
 
-- Paste the image read from stdin into the specified image:
+- Paste the image read from `stdin` into the specified image:
 
 `{{command}} | pnmpaste {{x}} {{y}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
 
