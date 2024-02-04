@@ -6,7 +6,7 @@
 
 - Add borders of the specified sizes to the image:
 
-`pnmpad -left {{100}} -right {{150}} -top {{123} -bottom {{456}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
+`pnmpad -left {{100}} -right {{150}} -top {{123}} -bottom {{456}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
 
 - Pad the image to the specified size:
 
