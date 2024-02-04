@@ -1,6 +1,6 @@
 # pnmnlfilt
 
-> Apply a nonlinear filter onto a PNM image.
+> Apply a non-linear filter onto a PNM image.
 > More information: <https://netpbm.sourceforge.net/doc/pnmnlfilt.html>.
 
 - Apply the "alpha trimmed mean" filter with the specified alpha and radius values onto the PNM image:
