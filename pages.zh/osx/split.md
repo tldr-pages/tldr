@@ -1,7 +1,7 @@
 # split
 
 > 把一个文件拆分成几块。
-> 更多信息：<https://ss64.com/osx/split.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/split.1.html>.
 
 - 分割一个文件，每个分割部分有 10 行（除了最后一个）：
 

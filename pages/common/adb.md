@@ -28,6 +28,6 @@
 
 `adb push {{path/to/local_file_or_directory}} {{path/to/device_destination_directory}}`
 
-- Get a list of connected devices:
+- List all connected devices:
 
 `adb devices`

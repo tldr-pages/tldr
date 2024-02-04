@@ -1,7 +1,7 @@
 # say
 
 > Convierte texto a voz.
-> Más información: <https://ss64.com/osx/say.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/say.1.html>.
 
 - Di una frase en voz alta:
 

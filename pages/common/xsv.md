@@ -17,7 +17,7 @@
 
 - Select a few columns:
 
-`xsv select {{column_a,column_b}} {{path/to/file.csv}}`
+`xsv select {{column1,column2}} {{path/to/file.csv}}`
 
 - Show 10 random entries:
 
@@ -25,4 +25,4 @@
 
 - Join a column from one file to another:
 
-`xsv join --no-case {{column_a}} {{path/to/file/a.csv}} {{column_b}} {{path/to/file/b.csv}} | xsv table`
+`xsv join --no-case {{column1}} {{path/to/file1.csv}} {{column2}} {{path/to/file2.csv}} | xsv table`

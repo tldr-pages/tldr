@@ -7,7 +7,7 @@
 
 `cake`
 
-- Display a list of available routes:
+- List available routes:
 
 `cake routes`
 

@@ -27,6 +27,6 @@
 
 `a2ping --extra {{arguments}} {{pad/naar/bestand}}`
 
-- Hulp weergeven:
+- Toon de help:
 
 `a2ping -h`

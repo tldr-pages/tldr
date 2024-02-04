@@ -15,6 +15,6 @@
 
 `docker rm --volumes {{container}}`
 
-- Hulp weergeven:
+- Toon de help:
 
 `docker rm`

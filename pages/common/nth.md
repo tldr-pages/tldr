@@ -11,7 +11,7 @@
 
 `nth -f {{path/to/hashes}}`
 
-- Output in json format:
+- Print in JSON format:
 
 `nth -t {{5f4dcc3b5aa765d61d8327deb882cf99}} -g`
 

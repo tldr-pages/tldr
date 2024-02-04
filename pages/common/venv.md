@@ -7,7 +7,7 @@
 
 ` python -m venv {{path/to/virtual_environment}}`
 
-- Activate the virtual environment (Linux and Mac OS):
+- Activate the virtual environment (Linux and macOS):
 
 `source {{path/to/virtual_environment}}/bin/activate`
 

@@ -1,7 +1,7 @@
 # du
 
 > 硬碟使用量：估算每個檔案以及目錄所佔用的硬碟容量。
-> 更多資訊：<https://ss64.com/osx/du.html>.
+> 更多資訊：<https://keith.github.io/xcode-man-pages/du.1.html>.
 
 - 以給定單位（KiB/MiB/GiB）列出目錄和所有子目錄的大小：
 

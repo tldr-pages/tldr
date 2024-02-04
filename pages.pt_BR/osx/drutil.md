@@ -1,7 +1,7 @@
 # drutil
 
 > Interage com gravadores de DVD.
-> Mais informações: <https://ss64.com/osx/drutil.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/drutil.1.html>.
 
 - Ejeta um disco da unidade:
 

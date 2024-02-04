@@ -17,4 +17,4 @@
 
 - Render multiple inputs into one picture:
 
-`obabel {{path/to/file1}} {{path/to/file2}} -O {{path/to/output_file.png}}`
+`obabel {{path/to/file1 path/to/file2 ...}} -O {{path/to/output_file.png}}`

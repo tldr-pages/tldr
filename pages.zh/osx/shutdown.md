@@ -1,7 +1,7 @@
 # shutdown
 
 > 关闭并重新启动系统。
-> 更多信息：<https://ss64.com/osx/shutdown.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/shutdown.8.html>.
 
 - 立即关机：
 
