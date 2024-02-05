@@ -11,7 +11,7 @@
 
 `rclone lsf {{remote_name}}:{{path/to/directory}}`
 
-- Copy file or directory from the local machine to remote destination:
+- Copy file or directory from the local machine to the remote destination:
 
 `rclone copy {{path/to/source_file_or_directory}} {{remote_name}}:{{path/to/directory}}`
 
