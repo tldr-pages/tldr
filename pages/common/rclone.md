@@ -23,7 +23,7 @@
 
 `rclone sync {{path/to/file_or_directory}} {{remote_name}}:{{path/to/directory}}`
 
-- Delete remote file or directory (`--dry-run` means test, remove it from the command to actually delete):
+- Delete remote file or directory (Note: `--dry-run` means test, remove it from the command to actually delete):
 
 `rclone --dry-run delete {{remote_name}}:{{path/to/file_or_directory}}`
 
