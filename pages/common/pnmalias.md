@@ -3,7 +3,7 @@
 > Apply antialiasing onto a PNM image.
 > More information: <https://netpbm.sourceforge.net/doc/pnmalias.html>.
 
-- Antialias a PNM image, taking black pixels as background and white pixels as foreground:
+- Perform antialiasing on a PNM image, taking black pixels as background and white pixels as foreground:
 
 `pnmalias {{path/to/input.pnm}} > {{path/to/output.ppm}}`
 
