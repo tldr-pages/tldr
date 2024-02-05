@@ -1,7 +1,7 @@
 # chpass
 
 > Add or change user database information, including login shell and password.
-> NOTE: it's not possible to change the user's password on Open Directory systems, use `passwd` instead.
+> Note: it's not possible to change the user's password on Open Directory systems, use `passwd` instead.
 > See also: `passwd`.
 > More information: <https://man.freebsd.org/cgi/man.cgi?chpass>.
 

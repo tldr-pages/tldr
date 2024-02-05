@@ -1,7 +1,7 @@
 # quickget
 
 > Download and prepare materials for building a Quickemu virtual machine.
-> NOTE: the parameter "edition" is always optional.
+> Note: the parameter "edition" is always optional.
 > See also: `quickemu`.
 > More information: <https://github.com/quickemu-project/quickemu>.
 
