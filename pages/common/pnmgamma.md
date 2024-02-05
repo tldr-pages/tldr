@@ -13,8 +13,8 @@
 
 - Specify the gamma value used for the gamma transfer function:
 
-`pnmgamma -gamma {{gamma}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
+`pnmgamma -gamma {{value}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
 
 - Specify the gamma value used for the gamma transfer function per color component:
 
-`pnmgamma -rgamma {{rgamma}} -ggamma {{ggamma}} -bgamma {{bgamma}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
+`pnmgamma -rgamma {{value}} -ggamma {{value}} -bgamma {{value}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
