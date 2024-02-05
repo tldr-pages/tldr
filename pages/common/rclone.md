@@ -15,7 +15,7 @@
 
 `rclone copy {{path/to/source_file_or_directory}} {{remote_name}}:{{path/to/directory}}`
 
-- Copy files changed within the past 24 hours to a remote to the local machine, asking user to confirm each file:
+- Copy files changed within the past 24 hours to a remote from the local machine, asking the user to confirm each file:
 
 `rclone copy --interactive --max-age 24h {{remote_name}}:{{path/to/directory}} {{path/to/local_directory}} `
 
