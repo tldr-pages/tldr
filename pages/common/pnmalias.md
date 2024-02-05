@@ -11,7 +11,7 @@
 
 `pnmalias -bcolor {{background_color}} -fcolor {{foreground_color}} {{path/to/input.pnm}} > {{path/to/output.ppm}}`
 
-- Only apply altialiasing to foreground pixels:
+- Apply altialiasing to foreground pixels only:
 
 `pnmalias -fonly {{path/to/input.pnm}} > {{path/to/output.ppm}}`
 
