@@ -7,6 +7,10 @@
 
 `man {{command}}`
 
+- Open the man page for a command in a browser:
+
+`man --html {{command}}`
+
 - Display the man page for a command from section 7:
 
 `man {{7}} {{command}}`
