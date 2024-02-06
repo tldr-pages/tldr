@@ -9,7 +9,7 @@
 
 - Run a single request from the current directory by specifying its filename:
 
-`bru run {{*.bru}}`
+`bru run {{file.bru}}`
 
 - Run requests using an environment:
 
