@@ -23,6 +23,6 @@
 
 `bru run --output {{path/to/output.json}}`
 
-- Show help:
+- Display help:
 
 `bru run --help`
