@@ -31,6 +31,6 @@
 
 `man --apropos "{{search_string}}"`
 
-- Open the manpage in a browser
+- Open the manpage in a browser:
 
 `man --html {{command}}`
