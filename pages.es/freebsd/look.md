@@ -8,7 +8,7 @@
 
 `look {{prefijo}} {{ruta/al/archivo}}`
 
-- Búsqueda insensible a mayúsculas y minúsculas sólo en caracteres alfanuméricos:
+- Busca caracteres alfanuméricos sin tomar en cuenta las mayúsculas o minúsculas:
 
 `look -{{f|-ignore-case}} -{{d|-alphanum}} {{prefijo}} {{ruta/al/archivo}}`
 
