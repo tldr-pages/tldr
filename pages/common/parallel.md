@@ -26,3 +26,11 @@
 - Run on multiple machines via SSH:
 
 `parallel -S {{machine1}},{{machine2}} {{command}} ::: {{arg1}} {{arg2}}`
+
+- Download 4 files simultaneously from a text file containing links showing progress:
+
+`parallel -j4 --bar --eta wget -q {} :::: links.txt`
+
+- Print the jobs parallel is running in stderr:
+
+`parallel -t {{command}}`
