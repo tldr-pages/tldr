@@ -213,7 +213,7 @@ Step  | Path checked         | Outcome
 
 ## Caching
 
-If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the entire archive either as a whole from **<https://tldr.sh/assets/tldr.zip>** or download language-specific archives in the format `https://tldr.sh/assets/tldr-pages.{{language-code}}.zip` (e.g. the English archive can also be downloaded from **<https://tldr.sh/assets/tldr-pages.zip>**).
+If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the entire archive either as a whole from **<https://tldr.sh/assets/tldr.zip>** or download language-specific archives in the format `https://tldr.sh/assets/tldr-pages.{{language-code}}.zip` (e.g. **<https://tldr.sh/assets/tldr-pages.en.zip>**). The English archive can also be downloaded from **<https://tldr.sh/assets/tldr-pages.zip>**.
 
 Caching SHOULD be done according to the user's language configuration (if any), to not waste unneeded space for unused languages. Additionally, clients MAY automatically update the cache regularly.
 
