@@ -7,7 +7,7 @@
 
 `cal`
 
-- Display a calendar for a specific year (4 digits):
+- Display a calendar for a specific year:
 
 `cal {{year}}`
 
