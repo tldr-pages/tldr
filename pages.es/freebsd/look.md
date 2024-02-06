@@ -12,7 +12,7 @@
 
 `look -{{f|-ignore-case}} -{{d|-alphanum}} {{prefijo}} {{ruta/al/archivo}}`
 
-- Especifica un carácter de [t]erminación de cadena (espacio por defecto):
+- Especifica un carácter de [t]erminación de cadena (un espacio por defecto):
 
 `look -{{t|-terminate}} {{,}}`
 
