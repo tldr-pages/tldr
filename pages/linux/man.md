@@ -30,3 +30,7 @@
 - Search for manpages containing a search string:
 
 `man --apropos "{{search_string}}"`
+
+- Open the manpage in a browser
+
+`man --html {{command}}`
