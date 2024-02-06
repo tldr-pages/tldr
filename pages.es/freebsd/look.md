@@ -1,6 +1,6 @@
 # look
 
-> Muestra las líneas que empiezan por un prefijo en un archivo ordenado.
+> Muestra las líneas que empiezan con un prefijo en un archivo ordenado.
 > Vea también: `grep`, `sort`.
 > Más información: <https://man.freebsd.org/cgi/man.cgi?look>.
 
