@@ -1,4 +1,4 @@
- # look
+# look
 
 > Muestra las líneas que empiezan por un prefijo en un archivo ordenado.
 > Vea también: `grep`, `sort`.
