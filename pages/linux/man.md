@@ -7,6 +7,10 @@
 
 `man {{command}}`
 
+- Open the man page for a command in a browser:
+
+`man --html {{command}}`
+
 - Display the man page for a command from section 7:
 
 `man {{7}} {{command}}`
@@ -30,7 +34,3 @@
 - Search for manpages containing a search string:
 
 `man --apropos "{{search_string}}"`
-
-- Open the manpage in a browser:
-
-`man --html {{command}}`
