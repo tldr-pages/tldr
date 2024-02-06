@@ -21,7 +21,7 @@
 
 - Run request and collect the results in an output file:
 
-`bru run --output {{output_file}}.json`
+`bru run --output {{path/to/output.json}}`
 
 - Show help:
 
