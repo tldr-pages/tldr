@@ -8,7 +8,7 @@
 
 `sudo naabu -host {{host}}`
 
-- Display available network interfaces and public ip of local host:
+- Display available network interfaces and public IP address of the local host:
 
 `naabu -interface-list`
 
