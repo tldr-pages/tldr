@@ -244,7 +244,8 @@ def main():
 
     # Use '--page' option
     if args.page != "":
-        args.page = f"{args.page.rstrip('.md')}.md"
+        if not args.page.lower().endswith(".md"):
+            args.page = f"{args.page}.md"
         arg_platform, arg_page = args.page.split("/")
 
         for pages_dir in pages_dirs:
