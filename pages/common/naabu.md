@@ -24,6 +24,6 @@
 
 `naabu -p 80,443,u:53 -host {{host}}`
 
-- Show CDN type remote host is using, if any:
+- Show CDN type the remote host is using, if any:
 
 `naabu -p 80,443 -cdn -host {{host}}`
