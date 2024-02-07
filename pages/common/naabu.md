@@ -1,7 +1,7 @@
 # naabu
 
-> A fast port scanner written in go with a focus on reliability and simplicity.
-> Some features only activate when naabu is run with root privileges such as SYN scan.
+> A fast port scanner written in Go with a focus on reliability and simplicity.
+> Note: Some features are only activated when `naabu` is run with root privileges such as SYN scan.
 > More information: <https://github.com/projectdiscovery/naabu>.
 
 - Run a SYN scan against default (top 100) ports of remote host:
