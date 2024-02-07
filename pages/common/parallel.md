@@ -29,7 +29,7 @@
 
 - Download 4 files simultaneously from a text file containing links showing progress:
 
-`parallel -j4 --bar --eta wget -q {} :::: links.txt`
+`parallel -j4 --bar --eta wget -q {} :::: {{path/to/links.txt}}`
 
 - Print the jobs parallel is running in stderr:
 
