@@ -31,6 +31,6 @@
 
 `parallel -j4 --bar --eta wget -q {} :::: {{path/to/links.txt}}`
 
-- Print the jobs parallel is running in `stderr`:
+- Print the jobs which `parallel` is running in `stderr`:
 
 `parallel -t {{command}}`
