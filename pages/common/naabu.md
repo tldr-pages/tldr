@@ -12,7 +12,7 @@
 
 `naabu -interface-list`
 
-- Scan all ports of remote host (CONNECT scan without sudo):
+- Scan all ports of the remote host (CONNECT scan without `sudo`):
 
 `naabu -p - -host {{host}}`
 
