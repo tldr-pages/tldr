@@ -16,7 +16,7 @@
 
 `naabu -p - -host {{host}}`
 
-- Scan top 1000 ports of remote host:
+- Scan the top 1000 ports of the remote host:
 
 `naabu -top-ports 1000 -host {{host}}`
 
