@@ -15,6 +15,6 @@
 
 `kosmorro --latitude={{48.7996}} --longitude={{2.3511}} --date={{2020-06-09}}`
 
-- Generate a PDF (note: TeXLive must be installed):
+- Generate a PDF (Note: TeXLive must be installed):
 
 `kosmorro --format={{pdf}} --output={{path/to/file.pdf}}`
