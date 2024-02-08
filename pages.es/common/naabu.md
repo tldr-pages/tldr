@@ -4,7 +4,7 @@
 > Nota: Algunas características sólo se activan cuando `naabu` se ejecuta con privilegios de root, como el escaneo SYN.
 > Más información: <https://github.com/projectdiscovery/naabu>.
 
-- Ejecuta un escaneo SYN contra los puertos por defecto (top 100) del host remoto:
+- Ejecuta un escaneo SYN contra los puertos predeterminados (top 100) del host remoto:
 
 `sudo naabu -host {{host}}`
 
