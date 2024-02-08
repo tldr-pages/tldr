@@ -5,7 +5,7 @@
 > See also: `tarsnap-keygen`.
 > More information: <https://www.tarsnap.com/man-tarsnap.1.html>.
 
-- [c]reate a backup archive of one or more files or direcotries, specifying the cryptographic key and the cache directory:
+- [c]reate a backup archive of one or more files or directories, specifying the cryptographic key and the cache directory:
 
 `tarsnap -c --keyfile {{path/to/key_file}} --cachedir {{path/to/cache_directory}} -f {{archive_name}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
