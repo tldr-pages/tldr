@@ -33,4 +33,4 @@
 
 - Print the jobs which `parallel` is running in `stderr`:
 
-`parallel -t {{command}}`
+`parallel -t {{command}} ::: {{args}}`
