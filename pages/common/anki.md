@@ -7,11 +7,11 @@
 
 `anki`
 
-- Use a specific profile:
+- Use a specific [p]rofile:
 
 `anki -p {{profile_name}}`
 
-- Use specific language:
+- Use a specific [l]anguage:
 
 `anki -l {{language}}`
 
