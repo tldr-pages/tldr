@@ -15,7 +15,7 @@
 
 `ag -l {{foo}}`
 
-- Find files containing "FOO" case-[i]nsensitively, and print only the match, rather than the whole line:
+- Find files containing "FOO" case-[i]nsensitively, and print [o]nly the match, rather than the whole line:
 
 `ag -i -o {{FOO}}`
 
