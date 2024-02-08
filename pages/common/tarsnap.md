@@ -1,7 +1,7 @@
 # tarsnap
 
 > Manipulate remote Tarsnap encrypted backups.
-> NOTE: you don't need to specify the key file and the cache directory if you configure them on `/usr/local/etc/tarsnap.conf` and/or `~/.tarsnaprc`.
+> Note: you don't need to specify the key file and the cache directory if you configure them on `/usr/local/etc/tarsnap.conf` and/or `~/.tarsnaprc`.
 > See also: `tarsnap-keygen`.
 > More information: <https://www.tarsnap.com/man-tarsnap.1.html>.
 
