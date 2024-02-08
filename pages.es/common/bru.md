@@ -1,0 +1,28 @@
+# bru
+
+> CLI para Bruno, un IDE Opensource para explorar y probar APIs.
+> Más información: <https://docs.usebruno.com/cli/overview.html>.
+
+- Ejecuta todos los archivos de petición desde el directorio actual:
+
+`bru run`
+
+- Ejecuta una única petición del directorio actual especificando su nombre de archivo:
+
+`bru run {{archivo.bru}}`
+
+- Ejecuta peticiones utilizando un entorno:
+
+`bru run --env {{nombre_entorno}}`
+
+- Ejecuta peticiones utilizando un entorno con una variable:
+
+`bru run --env {{nombre_entorno}} --env-var {{nombre_variable}}={{valor_variable}}`
+
+- Ejecuta la solicitud y recoge los resultados en un archivo de salida:
+
+`bru run --output {{ruta/a/salida.json}}`
+
+- Muestra ayuda:
+
+`bru run --help`
