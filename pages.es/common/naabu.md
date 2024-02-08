@@ -16,7 +16,7 @@
 
 `naabu -p - -host {{host}}`
 
-- Escanea los 1000 puertos principales del host remoto:
+- Escanea los top 1000 puertos del host remoto:
 
 `naabu -top-ports 1000 -host {{host}}`
 
