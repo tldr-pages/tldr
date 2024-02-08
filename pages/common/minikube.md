@@ -1,7 +1,7 @@
 # minikube
 
 > Tool to run Kubernetes locally.
-> More information: <https://github.com/kubernetes/minikube>.
+> More information: <https://minikube.sigs.k8s.io/docs/>.
 
 - Start the cluster:
 
