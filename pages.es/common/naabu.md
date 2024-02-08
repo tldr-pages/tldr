@@ -1,7 +1,7 @@
 # naabu
 
 > Un rápido escáner de puertos escrito en Go con un enfoque en la fiabilidad y la simplicidad.
-> Nota: Algunas características sólo se activan cuando `naabu` se ejecuta con privilegios de root, como el escaneo SYN.
+> Nota: Algunas características solo se activan cuando `naabu` se ejecuta con privilegios del superusuario, como el escaneo SYN.
 > Más información: <https://github.com/projectdiscovery/naabu>.
 
 - Ejecuta un escaneo SYN contra los puertos predeterminados (top 100) del host remoto:
