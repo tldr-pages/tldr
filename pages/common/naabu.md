@@ -20,7 +20,7 @@
 
 `naabu -top-ports 1000 -host {{host}}`
 
-- Scan TCP ports 80,443 and UDP port 53 of the remote host:
+- Scan TCP ports 80, 443 and UDP port 53 of the remote host:
 
 `naabu -p 80,443,u:53 -host {{host}}`
 
