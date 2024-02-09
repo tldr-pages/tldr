@@ -24,6 +24,6 @@
 
 `sudo badblocks -o {{path/to/file}} -w {{/dev/sdX}}`
 
-- In destructive mode, use improved speed using 4K [b]lock size and 64K block [c]ount:
+- Use the destructive mode with improved speed using 4K [b]lock size and 64K block [c]ount:
 
 `sudo badblocks -w -b {{4096}} -c {{65536}} {{/dev/sdX}}`
