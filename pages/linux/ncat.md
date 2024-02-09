@@ -1,7 +1,7 @@
 # ncat
 
 > Read, write, redirect, and encrypt data across a network.
-> An alternative implementation of a similar utility called netcat/nc.
+> An alternative implementation of a similar utility called `netcat`/`nc`.
 > More information: <https://nmap.org/ncat/guide/index.html>.
 
 - Listen for input on the specified port and write it to the specified file:
