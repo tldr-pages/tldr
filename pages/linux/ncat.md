@@ -14,3 +14,15 @@
 - Write output of specified file to the specified host on the specified port:
 
 `ncat {{address}} {{port}} < {{path/to/file}}`
+
+- Accept multiple incoming connections on an encrypted channel evading detection of traffic content:
+
+`ncat --ssl -k -l {{port}}`
+
+- Connect to an open ncat connection over ssl:
+
+`ncat --ssl {{host}} {{port}}`
+
+- Check connectivity to a remote host on a particular port with timeout:
+
+`ncat -w {{seconds}} -vz {{host}} {{port}}`
