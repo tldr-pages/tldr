@@ -1,6 +1,6 @@
 # ncat
 
-> Ncat is a general-purpose command-line tool for reading, writing, redirecting, and encrypting data across a network.
+> Read, write, redirect, and encrypt data across a network.
 > Ncat is an alternative implementation of a similar utility called netcat/nc.
 > More information: <https://nmap.org/ncat/guide/index.html>.
 
