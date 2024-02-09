@@ -11,7 +11,7 @@
 
 `gammastep -l {{latitud}}:{{longitud}}`
 
-- Activa Gammastep con un [b]rillo de pantalla específico durante el día (por ejemplo, 70%) y la noche (por ejemplo, 40%), con un brillo mínimo del 10% y un brillo máximo del 100%:
+- Activa Gammastep con un [b]rillo de pantalla específico durante el día (por ejemplo, 70%) y la noche (por ejemplo, 40%), con un brillo mínimo del 10% y uno máximo del 100%:
 
 `gammastep -b {{0.7}}:{{0.4}}`
 
