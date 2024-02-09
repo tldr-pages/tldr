@@ -7,7 +7,7 @@
 
 `logcat`
 
-- Write system logs to a file:
+- Write system logs to a [f]ile:
 
 `logcat -f {{path/to/file}}`
 
