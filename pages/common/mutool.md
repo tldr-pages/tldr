@@ -3,9 +3,9 @@
 > Convert, query information and extract data from PDF files.
 > More information: <https://mupdf.readthedocs.io/en/latest/mupdf-command-line.html>.
 
-- Convert pages 1 to 10 into 10 PNGs (Note: `%nd` in the output placeholder must be replaced with a print modifier like `%d` or `%2d`):
+- Convert a range of pages into PNGs (Note: `%nd` in the output placeholder must be replaced with a print modifier like `%d` or `%2d`):
 
-`mutool convert -o {{path/to/output%nd.png}} {{path/to/input.pdf}} 1-10`
+`mutool convert -o {{path/to/output%nd.png}} {{path/to/input.pdf}} {{1-10}}`
 
 - Convert one or more pages of a PDF into text in `stdout`:
 
