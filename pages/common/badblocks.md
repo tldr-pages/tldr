@@ -16,7 +16,7 @@
 
 `sudo badblocks -w {{/dev/sdX}}`
 
-- Use destructive write test and [s]how progress and [v]erbose status:
+- Use the destructive [w]rite test and [s]how [v]erbose progress:
 
 `sudo badblocks -svw {{/dev/sdX}}`
 
