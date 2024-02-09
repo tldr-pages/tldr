@@ -30,4 +30,3 @@
 - Pull changes from a remote repository and apply them:
 
 `chezmoi update`
-
