@@ -19,7 +19,7 @@
 
 `bru run --env {{nombre_entorno}} --env-var {{nombre_variable}}={{valor_variable}}`
 
-- Ejecuta la solicitud y recoge los resultados en un archivo de salida:
+- Ejecuta la solicitud y guarda los resultados en un archivo de salida:
 
 `bru run --output {{ruta/a/salida.json}}`
 
