@@ -1,6 +1,6 @@
 # more
 
-> Interactively read a file, allowing scrolling and search.
+> Interactively display a file, allowing scrolling and searching.
 > See also: `less`.
 > More information: <https://manned.org/more.1p>.
 
@@ -12,7 +12,7 @@
 
 `more -i {{path/to/file}}`
 
-- Open a file displaying from a specific line:
+- Display a specific line:
 
 `more +{{line_number}} {{path/to/file}}`
 
