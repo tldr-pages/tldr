@@ -21,7 +21,7 @@
 
 - Ejecuta la solicitud y guarda los resultados en un archivo de salida:
 
-`bru run --output {{ruta/a/salida.json}}`
+`bru run --output {{ruta/a/archivo_de_salida.json}}`
 
 - Muestra ayuda:
 
