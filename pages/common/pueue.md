@@ -8,10 +8,10 @@
 
 `pueue --help`
 
-- Check the version of pueue:
-
-`pueue --version`
-
 - Execute a pueue subcommand:
 
 `pueue {{subcommand}}`
+
+- Check the version of pueue:
+
+`pueue --version`

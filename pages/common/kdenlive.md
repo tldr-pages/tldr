@@ -9,7 +9,7 @@
 
 - Open a specific file:
 
-`kdenlive {{path/to/file}}.kdenlive`
+`kdenlive {{path/to/file.kdenlive}}`
 
 - Use a specific path for an MLT environment:
 

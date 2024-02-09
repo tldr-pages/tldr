@@ -4,7 +4,7 @@
 > See also: `pacman`.
 > More information: <https://man.archlinux.org/man/pacman-key>.
 
-- Initialize the pacman keyring:
+- Initialize the `pacman` keyring:
 
 `sudo pacman-key --init`
 

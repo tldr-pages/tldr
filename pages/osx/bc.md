@@ -2,7 +2,7 @@
 
 > An arbitrary precision calculator language.
 > See also: `dc`.
-> More information: <https://manned.org/man/freebsd-13.0/bc.1>.
+> More information: <https://keith.github.io/xcode-man-pages/bc.1.html>.
 
 - Start an interactive session:
 

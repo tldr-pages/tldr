@@ -1,7 +1,7 @@
 # caffeinate
 
 > Nie pozwól aby macOS się uśpił.
-> Więcej informacji: <https://ss64.com/osx/caffeinate.html>.
+> Więcej informacji: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
 - Nie usypiaj przez 1 godzinę (3600 sekund):
 

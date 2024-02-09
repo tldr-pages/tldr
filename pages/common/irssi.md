@@ -11,7 +11,7 @@
 
 `irssi -c {{irc.example.com}} -p {{port}}`
 
-- View the help:
+- Display help:
 
 `irssi --help`
 

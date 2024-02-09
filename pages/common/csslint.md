@@ -9,7 +9,7 @@
 
 - Lint multiple CSS files:
 
-`csslint {{file1.css}} {{file2.css}} {{file3.css}}`
+`csslint {{file1.css file2.css ...}}`
 
 - List all possible style rules:
 

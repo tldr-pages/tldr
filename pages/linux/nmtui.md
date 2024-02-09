@@ -8,7 +8,7 @@
 
 `nmtui`
 
-- Show a list of available connections, with the option to activate or deactivate them:
+- List available connections, with the option to activate or deactivate them:
 
 `nmtui connect`
 

@@ -11,6 +11,6 @@
 
 `echo {{1337}} | pretty-bytes`
 
-- Display help and usage information:
+- Display help:
 
 `pretty-bytes --help`

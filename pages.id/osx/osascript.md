@@ -1,7 +1,7 @@
 # osascript
 
 > Jalankan AppleScript atau JavaScript for Automation (JXA) dari command-line.
-> Informasi lebih lanjut: <https://ss64.com/osx/osascript.html>.
+> Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/osascript.1.html>.
 
 - Menjalankan sebuah perintah AppleScript:
 

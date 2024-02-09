@@ -1,7 +1,7 @@
 # lipo
 
 > Herramienta para el manejo de binarios universales Mach-O.
-> Más información: <https://ss64.com/osx/lipo.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/lipo.1.html>.
 
 - Crea un archivo universal a partir de dos archivos de una sola arquitectura:
 

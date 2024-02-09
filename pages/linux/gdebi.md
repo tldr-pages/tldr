@@ -7,10 +7,6 @@
 
 `gdebi {{path/to/package.deb}}`
 
-- Display the program version:
-
-`gdebi --version`
-
 - Do not show progress information:
 
 `gdebi {{path/to/package.deb}} --quiet`
@@ -22,3 +18,7 @@
 - Use alternative root dir:
 
 `gdebi {{path/to/package.deb}} --root={{path/to/root_dir}}`
+
+- Display version:
+
+`gdebi --version`

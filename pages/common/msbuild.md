@@ -27,6 +27,6 @@
 
 `msbuild {{path/to/project_file}} /detailedsummary`
 
-- Display detailed help information:
+- Display help:
 
 `msbuild /help`

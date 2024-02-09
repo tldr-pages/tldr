@@ -7,7 +7,7 @@
 
 `git merge-base {{commit_1}} {{commit_2}}`
 
-- Output all best common ancestors of two commits:
+- Print all best common ancestors of two commits:
 
 `git merge-base --all {{commit_1}} {{commit_2}}`
 

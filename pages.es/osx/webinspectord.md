@@ -2,7 +2,7 @@
 
 > Transmite comandos entre Web Inspector y objetos remotos como WKWebView.
 > No debe invocarse manualmente.
-> Más información: <https://www.manpagez.com/man/8/webinspectord/>.
+> Más información: <https://keith.github.io/xcode-man-pages/webinspectord.8.html>.
 
 - Inicia el daemon:
 

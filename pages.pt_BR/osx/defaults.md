@@ -1,7 +1,7 @@
 # defaults
 
 > Lê e grava a configuração do usuário do macOS para aplicativos.
-> Mais informações: <https://ss64.com/osx/defaults.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/defaults.1.html>.
 
 - Lê os padrões do sistema para uma opção do aplicativo:
 

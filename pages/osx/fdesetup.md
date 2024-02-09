@@ -1,7 +1,7 @@
 # fdesetup
 
 > Set and retrieve FileVault related information.
-> More information: <https://www.unix.com/man-page/mojave/8/fdesetup/>.
+> More information: <https://keith.github.io/xcode-man-pages/fdesetup.8.html>.
 
 - List current FileVault enabled users:
 

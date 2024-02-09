@@ -15,7 +15,7 @@
 
 `aws backup delete-backup-plan --backup-plan-id {{id}}`
 
-- Return a list of all active backup plans for the current account:
+- List all active backup plans for the current account:
 
 `aws backup list-backup-plans`
 

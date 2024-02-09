@@ -5,6 +5,6 @@
 > See also `dvs unfreeze`.
 > More information: <https://dvc.org/doc/command-reference/freeze>.
 
-- Freeze 1 or more specified stages:
+- Freeze one or more specified stages:
 
-`dvc freeze {{stage_name_a}} [{{stage_name_b}} ...]`
+`dvc freeze {{stage_name1 stage_name2 ...}}`

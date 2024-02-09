@@ -1,7 +1,7 @@
 # screencapture
 
 > Utility to take screenshots and screen recordings.
-> More information: <https://ss64.com/osx/screencapture.html>.
+> More information: <https://keith.github.io/xcode-man-pages/screencapture.1.html>.
 
 - Take a screenshot and save it to a file:
 

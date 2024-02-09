@@ -1,7 +1,7 @@
 # vm_stat
 
 > Muestra estadísticas de memoria virtual.
-> Más información: <https://www.unix.com/man-page/osx/1/vm_stat>.
+> Más información: <https://keith.github.io/xcode-man-pages/vm_stat.1.html>.
 
 - Muestra estadísticas de memoria virtual:
 
