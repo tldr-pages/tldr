@@ -1,7 +1,7 @@
 # whence
 
 > A zsh builtin to indicate how a given command would be interpreted.
-> More information: <https://www.unix.com/man-page/OpenSolaris/1/whence/>.
+> More information: <https://keith.github.io/xcode-man-pages/whence.1.html>.
 
 - Interpret `command`, with expansion if defined as an `alias` (similar to the `command -v` builtin):
 

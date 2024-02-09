@@ -1,7 +1,7 @@
 # open
 
 > Öffne Dateien, Verzeichnisse und Anwendungen.
-> Weitere Informationen: <https://ss64.com/osx/open.html>.
+> Weitere Informationen: <https://keith.github.io/xcode-man-pages/open.1.html>.
 
 - Öffne eine Datei in der zugehörigen Anwendung:
 

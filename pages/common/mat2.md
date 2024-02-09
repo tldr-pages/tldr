@@ -22,3 +22,7 @@
 - Partially remove metadata from a file:
 
 `mat2 --lightweight {{path/to/file}}`
+
+- Remove metadata from a file in place, without creating a backup:
+
+`mat2 --inplace {{path/to/file}}`

@@ -13,4 +13,4 @@
 
 - Monitor Clockwork logs for multiple projects:
 
-`clockwork-cli {{path/to/directory1 path/to/directory2 …}}`
+`clockwork-cli {{path/to/directory1 path/to/directory2 ...}}`

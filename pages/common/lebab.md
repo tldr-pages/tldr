@@ -6,7 +6,7 @@
 
 - Transpile using one or more comma-separated transformations:
 
-`lebab --transform {{transformation}}`
+`lebab --transform {{transformation1,transformation2,...}}`
 
 - Transpile a file to `stdout`:
 

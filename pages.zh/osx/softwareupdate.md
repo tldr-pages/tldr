@@ -1,7 +1,7 @@
 # softwareupdate
 
 > 通过命令行更新 macOS 应用商店中应用程序的工具。
-> 更多信息：<https://ss64.com/osx/softwareupdate.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/softwareupdate.8.html>.
 
 - 列出所有可用的更新：
 

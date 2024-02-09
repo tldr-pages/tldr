@@ -1,7 +1,7 @@
 # codesign
 
 > Create and manipulate code signatures for macOS.
-> More information: <https://www.unix.com/man-page/osx/1/codesign/>.
+> More information: <https://keith.github.io/xcode-man-pages/codesign.1.html>.
 
 - Sign an application with a certificate:
 

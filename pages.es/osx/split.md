@@ -1,7 +1,7 @@
 # split
 
 > Divide un archivo en trozos.
-> Más información: <https://ss64.com/osx/split.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/split.1.html>.
 
 - Divide un archivo, cada división tiene 10 líneas (excepto la última división):
 
