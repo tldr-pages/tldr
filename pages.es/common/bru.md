@@ -3,7 +3,7 @@
 > CLI para Bruno, un IDE de código abierto para explorar y probar APIs.
 > Más información: <https://docs.usebruno.com/cli/overview.html>.
 
-- Ejecuta todos los archivos de petición desde el directorio actual:
+- Ejecuta todos los archivos de petición en el directorio actual:
 
 `bru run`
 
