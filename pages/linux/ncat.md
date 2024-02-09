@@ -20,7 +20,7 @@
 
 `ncat --ssl -k -l {{port}}`
 
-- Connect to an open ncat connection over ssl:
+- Connect to an open `ncat` connection over SSL:
 
 `ncat --ssl {{host}} {{port}}`
 
