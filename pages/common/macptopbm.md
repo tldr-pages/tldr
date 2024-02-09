@@ -1,7 +1,7 @@
 # macptopbm
 
 > Read a MacPaint file as input and produce a PBM image as output.
-> See also: `pbmtomacp`
+> See also: `pbmtomacp`.
 > More information: <https://netpbm.sourceforge.net/doc/macptopbm.html>.
 
 - Convert a MacPaint file into a PGM image:
