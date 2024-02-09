@@ -9,7 +9,7 @@
 
 - Specify the quality of the packing (Note: larger values produce smaller packings but take longer to compute.):
 
-`pnmmontage -{{0-9}} {{path/to/image1.pnm path/to/image2.pnm ...}} > {{path/to/output.pnm}}`
+`pnmmontage -{{0..9}} {{path/to/image1.pnm path/to/image2.pnm ...}} > {{path/to/output.pnm}}`
 
 - Produce a packing that is not larger than `p` percent of the optimal packing:
 
