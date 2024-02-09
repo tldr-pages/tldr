@@ -4,11 +4,11 @@
 > Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/storage/blob>.
 
-- Download a blob to a file path:
+- Download a blob to a [f]ile path specifying a [s]ource container:
 
 `az storage blob download --account-name {{storage_account_name}} --account-key {{storage_account_key}} -c {{container_name}} -n {{path/to/blob}} -f {{path/to/local_file}}`
 
-- Download blobs from a blob container recursively:
+- [d]ownload blobs from a blob container recursively:
 
 `az storage blob download-batch --account-name {{storage_account_name}} --account-key {{storage_account_key}} -s {{container_name}} -d {{path/to/remote}} --pattern {{filename_regex}} --destination {{path/to/destination}}`
 

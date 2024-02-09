@@ -7,7 +7,7 @@
 
 `adb logcat`
 
-- Display lines that match a regular expression:
+- Display lines that match a regular [e]xpression:
 
 `adb logcat -e {{regular_expression}}`
 

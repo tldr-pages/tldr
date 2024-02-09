@@ -7,11 +7,11 @@
 
 `pm list packages`
 
-- List all installed system apps:
+- List all installed [s]ystem apps:
 
 `pm list packages -s`
 
-- List all installed 3rd-Party apps:
+- List all installed [3]rd-party apps:
 
 `pm list packages -3`
 
