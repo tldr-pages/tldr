@@ -7,7 +7,7 @@
 
 `bru run`
 
-- Ejecuta una única petición del directorio actual especificando su nombre de archivo:
+- Ejecuta una única petición en el directorio actual especificando su nombre de archivo:
 
 `bru run {{archivo.bru}}`
 
