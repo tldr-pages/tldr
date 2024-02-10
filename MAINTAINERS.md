@@ -112,6 +112,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - Isaac Vicente ([@isaacvicente](https://github.com/isaacvicente)):
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10737) — [29 December 2023](https://github.com/tldr-pages/tldr/issues/11918)
 - Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl)): [18 December 2023](https://github.com/tldr-pages/tldr/issues/11771) — [21 January 2024](https://github.com/tldr-pages/tldr/issues/12094)
+- **Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin))**:
+  [10 February 2024](https://github.com/tldr-pages/tldr/issues/12227) — present
 
 ## Organization members
 
