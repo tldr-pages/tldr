@@ -1,6 +1,7 @@
 # terminalizer
 
-> Utility program which records the terminal and generate animated GIFs or share a video.
+> Record the terminal, generate animated GIFs and a web player, and optionally upload to terminalizer.com.
+> See also: `asciinema`.
 > More information: <https://terminalizer.com>.
 
 - Create the global configuration directory:
