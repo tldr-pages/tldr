@@ -1,6 +1,6 @@
 # pbmtopgm
 
-> Convert PBM image to PGM by averaging areas surrounding individual pixels.
+> Convert a PBM image to PGM by averaging areas surrounding individual pixels.
 > See also: `pnmconvol`, `pamditherbw`.
 > More information: <https://netpbm.sourceforge.net/doc/pbmtopgm.html>.
 
