@@ -7,6 +7,6 @@
 
 `pbmupc {{product_type}} {{manufacturer_code}} {{product_code}} > {{path/to/output.pbm}}`
 
-- Use an alternative style that doesn not display the checksum:
+- Use an alternative style that does not display the checksum:
 
 `pbmupc -s2 {{product_type}} {{manufacturer_code}} {{product_code}} > {{path/to/output.pbm}}`
