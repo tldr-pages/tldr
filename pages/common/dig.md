@@ -30,3 +30,7 @@
 - Perform iterative queries and display the entire trace path to resolve a domain name:
 
 `dig +trace {{example.com}}`
+
+- Query DNS server over non-standard port and using tcp protocol:
+
+`dig +tcp -p {{port}} @{{dns_server_ip}} {{example.com}}`
