@@ -1,6 +1,6 @@
 # pbmupc
 
-> Generate an image of a Universal Product Code (UPC).
+> Generate a PBM image of a Universal Product Code (UPC).
 > More information: <https://netpbm.sourceforge.net/doc/pbmupc.html>.
 
 - Generate a UPC for the specified product type, manufacturer code, and product code:
