@@ -8,6 +8,6 @@
 
 `pgmenhance {{path/to/image.pgm}} > {{path/to/output.pgm}}`
 
-- Select the level of enhancement:
+- Specify the level of enhancement:
 
 `pgmenhance -{{1..9}} {{path/to/image.pgm}} > {{path/to/output.pgm}}`
