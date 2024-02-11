@@ -1,6 +1,6 @@
 # pbmtobbnbg
 
-> Convert a PBM image into a BitGraph graphic.
+> Convert a PBM image to a BitGraph graphic.
 > More information: <https://netpbm.sourceforge.net/doc/pbmtobbnbg.html>.
 
 - Convert a PBM image into a BitGraph terminal Display Pixel Data sequence:
