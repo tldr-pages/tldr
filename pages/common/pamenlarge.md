@@ -1,6 +1,6 @@
 # pamenlarge
 
-> Enlarge a PAM image N times by duplicating pixels.
+> Enlarge a PAM image by duplicating pixels.
 > See also: `pbmreduce`, `pamditherbw`, `pbmpscale`.
 > More information: <https://netpbm.sourceforge.net/doc/pamenlarge.html>.
 
