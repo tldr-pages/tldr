@@ -1,10 +1,10 @@
 # pbmtoepson
 
-> Convert a PBM image into an Epson printer graphic.
+> Convert a PBM image to an Epson printer graphic.
 > See also: `pbmtoescp2`.
 > More information: <https://netpbm.sourceforge.net/doc/pbmtoepson.html>.
 
-- Convert a PBM image into an Epson printer graphic:
+- Convert a PBM image to an Epson printer graphic:
 
 `pbmtoepson {{path/to/image.pbm}} > {{path/to/output.epson}}`
 

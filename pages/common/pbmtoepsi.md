@@ -1,9 +1,9 @@
 # pbmtoepsi
 
-> Convert a PBM image into an encapsulated PostScript style preview bitmap.
+> Convert a PBM image to an encapsulated PostScript style preview bitmap.
 > More information: <https://netpbm.sourceforge.net/doc/pbmtoepsi.html>.
 
-- Convert a PBM image into an encapsulated PostScript style preview bitmap:
+- Convert a PBM image to an encapsulated PostScript style preview bitmap:
 
 `pbmtoepsi {{path/to/image.pbm}} > {{path/to/output.bmp}}`
 

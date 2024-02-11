@@ -8,7 +8,7 @@
 
 `pbmtoescp2 {{path/to/image.pbm}} > {{path/to/output.escp2}}`
 
-- Control the compression of the output:
+- Specify the compression of the output:
 
 `pbmtoescp2 -compression {{0|1}} {{path/to/image.pbm}} > {{path/to/output.escp2}}`
 
