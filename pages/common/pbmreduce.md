@@ -1,6 +1,6 @@
 # pbmreduce
 
-> Reduce a PBM image N times.
+> Proportionally reduce a PBM image.
 > See also: `pamenlarge`, `pamditherbw`.
 > More information: <https://netpbm.sourceforge.net/doc/pbmreduce.html>.
 
