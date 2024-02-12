@@ -2,7 +2,7 @@
 
 > Record and replay terminal sessions, and optionally share them on <asciinema.org>.
 > See also: `terminalizer`.
-> More information: <https://asciinema.org/docs/usage>.
+> More information: <https://docs.asciinema.org/manual/cli/usage>.
 
 - Associate the local install of `asciinema` with an asciinema.org account:
 
