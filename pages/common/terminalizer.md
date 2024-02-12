@@ -1,6 +1,6 @@
 # terminalizer
 
-> Record the terminal, generate animated GIFs and a web player, and optionally upload to <terminalizer.com>.
+> Record the terminal, generate animated GIFs and a web player, and optionally upload to <https://terminalizer.com>.
 > See also: `asciinema`.
 > More information: <https://terminalizer.com>.
 
