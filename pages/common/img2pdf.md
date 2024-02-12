@@ -1,7 +1,7 @@
 # img2pdf
 
 > Losslessly convert raster images to a PDF file.
-> Some supported image formats are: JPEG, JPEG2000, PNG, GIF and TIFF.
+> Some supported image formats are: GIF, JPEG, JPEG2000, PNG, GIF and TIFF.
 > More information: <https://gitlab.mister-muffin.de/josch/img2pdf>.
 
 - Convert one or more images to a single PDF, each image being on its own page:
