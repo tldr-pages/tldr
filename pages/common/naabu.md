@@ -27,3 +27,7 @@
 - Show CDN type the remote host is using, if any:
 
 `naabu -p 80,443 -cdn -host {{host}}`
+
+- Run `nmap` from `naabu` for additional functionalities (`nmap` must be installed):
+
+`sudo naabu -v -host {{host}} -nmap-cli 'nmap {{-v -T5 -sC}}'`
