@@ -1,6 +1,6 @@
 # fio
 
-> Flexible I/O tester: Does an I/O action spawning multiple threads or processes.
+> Flexible I/O tester: do an I/O action spawning multiple threads or processes.
 > More information: <https://fio.readthedocs.io/en/latest/fio_doc.html>.
 
 - Test random reads:

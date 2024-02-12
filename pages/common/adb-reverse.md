@@ -1,6 +1,6 @@
 # adb reverse
 
-> Android Debug Bridge Reverse: Reverse socket connections from an Android emulator instance or connected Android devices.
+> Android Debug Bridge Reverse: reverse socket connections from an Android emulator instance or connected Android devices.
 > More information: <https://developer.android.com/studio/command-line/adb>.
 
 - List all reverse socket connections from emulators and devices:

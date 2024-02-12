@@ -1,6 +1,6 @@
 # mvn
 
-> Apache Maven: Build and manage Java-based projects.
+> Apache Maven: build and manage Java-based projects.
 > More information: <https://maven.apache.org>.
 
 - Compile a project:
