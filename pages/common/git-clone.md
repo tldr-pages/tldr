@@ -15,13 +15,9 @@
 
 `git clone --no-checkout {{remote_repository_location}}`
 
-- Clone a local repository:
+- Clone a local repository quietly:
 
-`git clone --local {{path/to/local/repository}}`
-
-- Clone quietly:
-
-`git clone --quiet {{remote_repository_location}}`
+`git clone --local --quiet {{path/to/local/repository}}`
 
 - Clone an existing repository only fetching the 10 most recent commits on the default branch (useful to save time):
 
