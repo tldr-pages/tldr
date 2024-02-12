@@ -10,4 +10,4 @@
 
 - Scale up a PAM image by the specified factors in the horizontal and vertical directions:
 
-`pamstretch -xscale {{XN}} -xscale {{YN}} {{path/to/image.pam}} > {{path/to/output.pam}}`
+`pamstretch -xscale {{XN}} -yscale {{YN}} {{path/to/image.pam}} > {{path/to/output.pam}}`
