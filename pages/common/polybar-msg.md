@@ -1,7 +1,7 @@
 # polybar-msg
 
 > Control `polybar` using inter-process-messaging (IPC).
-> NOTE: IPC is disabled by default and can be enabled by setting `enable-ipc = true` in the Polybar config.
+> Note: IPC is disabled by default and can be enabled by setting `enable-ipc = true` in the Polybar config.
 > More information: <https://polybar.rtfd.io/en/stable/user/ipc.html>.
 
 - Quit the bar:

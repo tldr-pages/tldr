@@ -1,7 +1,7 @@
 # instaloader
 
 > Download pictures, videos, captions, and other metadata from Instagram.
-> NOTE: You will need to provide Instagram login information if you want high-quality media downloads.
+> Note: You will need to provide Instagram login information if you want high-quality media downloads.
 > More information: <https://instaloader.github.io>.
 
 - Download a profile:

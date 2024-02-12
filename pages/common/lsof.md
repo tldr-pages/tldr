@@ -1,7 +1,7 @@
 # lsof
 
 > Lists open files and the corresponding processes.
-> NOTE: Root privileges (or sudo) is required to list files opened by others.
+> Note: Root privileges (or sudo) is required to list files opened by others.
 > More information: <https://manned.org/lsof>.
 
 - Find the processes that have a given file open:

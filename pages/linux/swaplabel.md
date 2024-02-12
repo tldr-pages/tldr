@@ -1,7 +1,7 @@
 # swaplabel
 
 > Print or change the label or UUID of a swap area.
-> NOTE: `path/to/file` can either point to a regular file or a swap partition.
+> Note: `path/to/file` can either point to a regular file or a swap partition.
 > More information: <https://manned.org/swaplabel>.
 
 - Display the current label and UUID of a swap area:

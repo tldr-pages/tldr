@@ -1,7 +1,7 @@
 # systemd-stdio-bridge
 
 > Implement a proxy between `stdin`/`stdout` and a D-Bus.
-> NOTE: It expects to receive an open connection via `stdin`/`stdout` when started, and will create a new connection to the specified bus.
+> Note: It expects to receive an open connection via `stdin`/`stdout` when started, and will create a new connection to the specified bus.
 > More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-stdio-bridge.html>.
 
 - Forward `stdin`/`stdout` to the local system bus:

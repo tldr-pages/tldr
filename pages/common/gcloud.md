@@ -1,7 +1,7 @@
 # gcloud
 
 > The official CLI tool for Google Cloud Platform.
-> NOTE: `gcloud` subcommands have their own usage documentation.
+> Note: `gcloud` subcommands have their own usage documentation.
 > More information: <https://cloud.google.com/sdk/gcloud>.
 
 - List all properties in one's active configuration:

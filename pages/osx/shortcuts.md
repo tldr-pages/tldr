@@ -1,7 +1,7 @@
 # shortcuts
 
 > Manage shortcuts.
-> NOTE: you can also use the `Shortcuts` app.
+> Note: you can also use the `Shortcuts` app.
 > More information: <https://support.apple.com/guide/shortcuts-mac/run-shortcuts-from-the-command-line-apd455c82f02/mac>.
 
 - Run the specified shortcut (`Count holidays`):

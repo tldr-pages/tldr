@@ -1,7 +1,7 @@
 # xmlstarlet
 
 > A command-line XML/XSLT toolkit.
-> NOTE: You will likely need to know XPath: <https://developer.mozilla.org/en-US/docs/Web/XPath>.
+> Note: You will likely need to know XPath: <https://developer.mozilla.org/en-US/docs/Web/XPath>.
 > More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Format an XML document and print to `stdout`:
