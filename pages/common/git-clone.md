@@ -34,3 +34,7 @@
 - Clone an existing repository using a specific SSH command:
 
 `git clone --config core.sshCommand="{{ssh -i path/to/private_ssh_key}}" {{remote_repository_location}}`
+
+- Automatically initialize and update each submodule in the repository:
+
+`git clone --recurse-submodules`
