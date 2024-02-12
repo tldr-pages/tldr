@@ -1,7 +1,7 @@
 # tarsnap
 
 > Manipulate remote Tarsnap encrypted backups.
-> Note: you don't need to specify the key file and the cache directory if you configure them on `/usr/local/etc/tarsnap.conf` and/or `~/.tarsnaprc`.
+> Note: you don't need to specify the key file and the cache directory if you configure them in `/usr/local/etc/tarsnap.conf` or `~/.tarsnaprc`.
 > See also: `tarsnap-keygen`.
 > More information: <https://www.tarsnap.com/man-tarsnap.1.html>.
 
@@ -19,7 +19,7 @@
 
 - [d]elete a specific archive:
 
-`tarsnap -d --keyfile /usr/tarsnap.key --cachedir /usr/tarsnap-cache -f backup-2008-04-24`
+`tarsnap -d --keyfile {{path/to/key_file}} --cachedir {{path/to/cache_directory}} -f {{archive_name}}`
 
 - Lis[t] the contents of a specific archive in [v]erbose mode:
 
@@ -27,7 +27,7 @@
 
 - Restore specific one or more files or directories from an specific archive:
 
-`tarsnap -x --keyfile {{path/to/key_file}} -f {{archive_name}} usr/home/auser usr/home/anotheruser`
+`tarsnap -x --keyfile {{path/to/key_file}} -f {{archive_name}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Copy an archive:
 
