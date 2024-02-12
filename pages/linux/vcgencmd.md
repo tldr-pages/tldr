@@ -23,6 +23,6 @@
 
 `vcgencmd bootloader_config`
 
-- Display Help:
+- Display help:
 
 `vcgencmd --help`

@@ -19,6 +19,6 @@
 
 `xml validate --relaxng {{path/to/schema.rng}} {{path/to/input1.xml|URI}} {{input2.xml ...}}`
 
-- Display help for the `validate` subcommand:
+- Display help:
 
 `xml validate --help`

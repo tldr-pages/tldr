@@ -8,7 +8,7 @@
 
 `amass {{subcommand}}`
 
-- Show general help:
+- Display help:
 
 `amass -help`
 

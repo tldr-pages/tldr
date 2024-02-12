@@ -22,4 +22,4 @@
 
 - Use a given comma-separated list of resolvers:
 
-`subfinder -r {{8.8.8.8}},{{1.1.1.1}} -d {{example.com}}`
+`subfinder -r {{8.8.8.8,1.1.1.1,...}} -d {{example.com}}`

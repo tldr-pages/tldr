@@ -8,13 +8,9 @@
 
 `gcloud components list`
 
-- Install a specific component (installs any dependencies as well):
+- Install one or more components (installs any dependencies as well):
 
-`gcloud components install {{component_id}}`
-
-- Install multiple specific components:
-
-`gcloud components install {{component_id1}} {{component_id2}}`
+`gcloud components install {{component_id1 component_id2 ...}}`
 
 - Check the current version of Google Cloud CLI:
 

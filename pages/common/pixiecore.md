@@ -11,6 +11,6 @@
 
 `pixiecore {{quick}} ubuntu --dhcp-no-bind`
 
-- Get a list of all available boot images for quick mode:
+- List all available boot images for quick mode:
 
 `pixiecore quick --help`

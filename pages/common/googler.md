@@ -31,6 +31,6 @@
 
 `googler -u`
 
-- For more help in interactive mode:
+- Display help in interactive mode:
 
 `?`

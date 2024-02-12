@@ -2,7 +2,7 @@
 
 > Um agente de sistema que fornece o framework `LocalAuthentication`.
 > Não deve ser invocado manualmente. Veja também: `coreauthd`.
-> Mais informações: <https://www.manpagez.com/man/8/coreautha/>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/coreautha.8.html>.
 
 - Inicia o agente:
 

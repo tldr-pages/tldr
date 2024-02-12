@@ -9,11 +9,11 @@
 
 - Include only specific files from a comma-separated list (globs are allowed):
 
-`phploc {{path/to/directory}} --names {{files}}`
+`phploc {{path/to/directory}} --names '{{path/to/file1,path/to/file2,...}}'`
 
 - Exclude specific files from a comma-separated list (globs are allowed):
 
-`phploc {{path/to/directory}} --names-exclude {{files}}`
+`phploc {{path/to/directory}} --names-exclude '{{path/to/file1,path/to/file2,...}}'`
 
 - Exclude a specific directory from analysis:
 

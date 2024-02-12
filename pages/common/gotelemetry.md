@@ -19,6 +19,6 @@
 
 `gotelemetry env`
 
-- Show details about any subcommand:
+- Display help for a specific subcommand:
 
 `gotelemetry help {{subcommand}}`

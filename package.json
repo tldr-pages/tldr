@@ -7,18 +7,18 @@
   "homepage": "https://tldr.sh/",
   "dependencies": {
     "glob": "10.3.10",
-    "markdownlint-cli": "^0.38.0",
+    "markdownlint-cli": "^0.39.0",
     "tldr-lint": "^0.0.13"
   },
   "devDependencies": {
-    "husky": "^8.0.3"
+    "husky": "^9.0.7"
   },
   "scripts": {
     "lint-markdown": "markdownlint pages*/**/*.md",
     "lint-tldr-pages": "tldr-lint ./pages",
     "test": "bash scripts/test.sh",
     "build-index": "node ./scripts/build-index.js > index.json",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "private": true
 }

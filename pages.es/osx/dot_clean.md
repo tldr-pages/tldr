@@ -1,7 +1,7 @@
 # dot_clean
 
 > Fusiona los archivos ._* con los archivos nativos correspondientes.
-> Más información: <https://ss64.com/osx/dot_clean.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/dot_clean.1.html>.
 
 - Fusiona todos los ficheros `._*` recursivamente:
 

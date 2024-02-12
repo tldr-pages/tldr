@@ -15,6 +15,6 @@
 
 `sublist3r --domain {{domain_name}} --output {{path/to/output_file}}`
 
-- Output all available options:
+- Display help:
 
 `sublist3r --help`

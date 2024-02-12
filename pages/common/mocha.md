@@ -11,7 +11,7 @@
 
 `mocha {{directory/with/tests}}`
 
-- Run tests that match a specific grep pattern:
+- Run tests that match a specific `grep` pattern:
 
 `mocha --grep {{regular_expression}}`
 

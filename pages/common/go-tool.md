@@ -16,6 +16,6 @@
 
 `go tool -n {{command}} {{arguments}}`
 
-- Display documentation for a specified tool:
+- View documentation for a specified tool:
 
 `go tool {{command}} --help`

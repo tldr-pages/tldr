@@ -11,7 +11,7 @@
 
 `amass intel -active -addr {{192.168.0.1-254}}`
 
-- Find root domains related to a domain:
+- Find root domains related to a [d]omain:
 
 `amass intel -whois -d {{domain_name}}`
 

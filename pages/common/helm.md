@@ -28,7 +28,7 @@
 
 `helm install {{name}} {{repository_name}}/{{chart_name}}`
 
-- Download helm chart as a tar archive:
+- Download helm chart as a `tar` archive:
 
 `helm get {{chart_release_name}}`
 

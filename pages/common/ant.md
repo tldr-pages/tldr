@@ -7,7 +7,7 @@
 
 `ant`
 
-- Build a project using build file other than `build.xml`:
+- Build a project using build [f]ile other than `build.xml`:
 
 `ant -f {{buildfile.xml}}`
 

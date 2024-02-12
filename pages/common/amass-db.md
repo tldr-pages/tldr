@@ -7,11 +7,11 @@
 
 `amass db -dir {{path/to/database_directory}} -list`
 
-- Show results for a specified enumeration index and domain name:
+- Show results for a specified enumeration index and [d]omain name:
 
 `amass db -dir {{path/to/database_directory}} -d {{domain_name}} -enum {{index_from_list}} -show`
 
-- List all found subdomains of a domain within an enumeration:
+- List all found subdomains of a [d]omain within an enumeration:
 
 `amass db -dir {{path/to/database_directory}} -d {{domain_name}} -enum {{index_from_list}} -names`
 

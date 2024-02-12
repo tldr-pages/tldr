@@ -17,4 +17,4 @@
 
 - Create a new version containing changes from the specified files; user will be prompted for a comment:
 
-`fossil commit {{path/to/file1}} {{path/to/file2}}`
+`fossil commit {{path/to/file1 path/to/file2 ...}}`

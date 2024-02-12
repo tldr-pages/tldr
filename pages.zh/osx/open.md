@@ -1,7 +1,7 @@
 # open
 
 > 打开文件、目录和应用程序。
-> 更多信息：<https://ss64.com/osx/open.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/open.1.html>.
 
 - 使用系统关联的应用程序打开文件：
 

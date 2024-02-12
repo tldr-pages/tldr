@@ -26,8 +26,8 @@
 
 - [d]elete the first line of a file:
 
-`sed -i 1d {{/path/to/file}}`
+`sed -i 1d {{path/to/file}}`
 
 - [i]nsert a new line at the first line of a file:
 
-`sed -i '1i\your new line text\' {{/path/to/file}}`
+`sed -i '1i\your new line text\' {{path/to/file}}`

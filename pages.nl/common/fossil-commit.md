@@ -17,4 +17,4 @@
 
 - Maak een nieuwe versie met aanpassingen van de gespecificeerde bestanden; de gebruiker zal gevraagd worden voor een opmerking:
 
-`fossil commit {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
+`fossil commit {{pad/naar/bestand1 pad/naar/bestand2 ...}}`

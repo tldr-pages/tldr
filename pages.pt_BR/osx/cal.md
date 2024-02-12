@@ -1,7 +1,7 @@
 # cal
 
 > Exibe informações de calendário.
-> Mais informações: <https://ss64.com/osx/cal.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/cal.1.html>.
 
 - Exibe um calendário para o mês atual:
 

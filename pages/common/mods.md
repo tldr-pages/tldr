@@ -27,6 +27,6 @@
 
 `curl "{{https://api.open-meteo.com/v1/forecast?latitude=29.00&longitude=-90.00&current_weather=true&hourly=temperature_2m,relativehumidity_2m,windspeed_10m}}" | mods --format "{{summarize this weather data for a human}}"`
 
-- Display help and exit:
+- Display help:
 
 `mods --help`

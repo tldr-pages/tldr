@@ -5,7 +5,7 @@
 
 - Gzip several files at once, using all cores:
 
-`parallel gzip ::: {{file1}} {{file2}} {{file3}}`
+`parallel gzip ::: {{path/to/file1 path/to/file2 ...}}`
 
 - Read arguments from `stdin`, run 4 jobs at once:
 
@@ -26,3 +26,11 @@
 - Run on multiple machines via SSH:
 
 `parallel -S {{machine1}},{{machine2}} {{command}} ::: {{arg1}} {{arg2}}`
+
+- Download 4 files simultaneously from a text file containing links showing progress:
+
+`parallel -j4 --bar --eta wget -q {} :::: {{path/to/links.txt}}`
+
+- Print the jobs which `parallel` is running in `stderr`:
+
+`parallel -t {{command}} ::: {{args}}`

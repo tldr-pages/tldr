@@ -8,10 +8,10 @@
 
 `pio --help`
 
-- Print the version number and exit:
-
-`pio --version`
-
 - Display help for a specific subcommand:
 
 `pio {{subcommand}} --help`
+
+- Display version:
+
+`pio --version`

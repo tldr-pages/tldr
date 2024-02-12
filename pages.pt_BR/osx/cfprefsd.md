@@ -2,7 +2,7 @@
 
 > Fornece serviços de preferências (`CFPreferences`, `NSUserDefaults`).
 > Não deve ser invocado manualmente.
-> Mais informações: <https://www.unix.com/man-page/osx/8/cfprefsd/>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/cfprefsd.8.html>.
 
 - Inicia o daemon:
 
