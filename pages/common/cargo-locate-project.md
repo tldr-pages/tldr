@@ -8,7 +8,7 @@
 
 `cargo locate-project`
 
-- Print the project path in the specified format:
+- Display the project path in the specified format:
 
 `cargo locate-project --message-format {{plain|json}}`
 
