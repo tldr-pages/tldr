@@ -16,6 +16,6 @@
 
 `yes | sudo apt-get install {{program}}`
 
-- Repeatedly output newline to always accept the default option:
+- Repeatedly output a newline to always accept the default option of a prompt:
 
 `yes ''`
