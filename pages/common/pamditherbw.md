@@ -1,6 +1,7 @@
 # pamditherbw
 
 > Apply dithering to a greyscale image, i.e. turn it into a pattern of black and white pixels that look the same as the original greyscale.
+> See also: `pbmreduce`.
 > More information: <https://netpbm.sourceforge.net/doc/pamditherbw.html>.
 
 - Read a PGM image, apply dithering and save it to a file:
