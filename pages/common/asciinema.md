@@ -20,7 +20,7 @@
 
 `asciinema play {{path/to/recording.cast}}`
 
-- Replay a terminal recording hosted on asciinema.org:
+- Replay a terminal recording hosted on <https://asciinema.org>:
 
 `asciinema play https://asciinema.org/a/{{cast_id}}`
 
