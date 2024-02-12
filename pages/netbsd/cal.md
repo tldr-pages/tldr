@@ -1,6 +1,6 @@
 # cal
 
-> Display a calendar with the current day highlighted.
+> Display a calendar.
 > More information: <https://man.freebsd.org/cgi/man.cgi?cal>.
 
 - Display a calendar for the current month:
@@ -19,7 +19,7 @@
 
 `cal -y -j`
 
-- Don't [h]ighlight today and display [3] months spanning the date:
+- [h]ighlight today and display [3] months spanning the date:
 
 `cal -h -3 {{month}} {{year}}`
 
