@@ -15,3 +15,8 @@
 - Display the `Cargo.toml` manifest located at the root of the workspace as opposed to the current workspace member:
 
 `cargo locate-project --workspace`
+
+- Display the `Cargo.toml` manifest of a specific directory:
+
+`cargo locate-project --manifest-path {{path/to/Cargo.toml}}`
+
