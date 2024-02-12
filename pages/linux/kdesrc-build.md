@@ -26,3 +26,7 @@
 - Print full compilation info:
 
 `kdesrc-build --debug {{component_name}}`
+
+- Build all configured components:
+
+`kdesrc-build`

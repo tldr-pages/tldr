@@ -7,10 +7,10 @@
 
 `arp -a`
 
-- Delete a specific entry:
+- [d]elete a specific entry:
 
 `arp -d {{address}}`
 
-- Create an entry in the ARP table:
+- [s]et up a new entry in the ARP table:
 
 `arp -s {{address}} {{mac_address}}`

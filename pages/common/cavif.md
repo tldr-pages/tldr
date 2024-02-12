@@ -1,9 +1,10 @@
 # cavif
 
-> PNG/JPEG to AVIF converter.
+> PNG/JPEG to AVIF converter. Written in Rust.
+> See also: `convert`.
 > More information: <https://github.com/kornelski/cavif-rs>.
 
-- Convert a JPEG file to AVIF:
+- Convert a JPEG file to AVIF, saving it to `file.avif`:
 
 `cavif {{path/to/file.jpg}}`
 
@@ -11,7 +12,7 @@
 
 `cavif --quality {{60}} {{path/to/file.png}}`
 
-- Set the output location explicitly:
+- Specify the output location:
 
 `cavif {{path/to/file.jpg}} --output {{path/to/file.avif}}`
 

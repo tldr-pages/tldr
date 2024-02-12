@@ -11,11 +11,11 @@
 
 `alacritty --working-directory {{path/to/directory}}`
 
-- Run a command in a new Alacritty window:
+- [e]xecute a command in a new Alacritty window:
 
 `alacritty -e {{command}}`
 
-- Specify alternative configuration file (defaults to `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- Use an alternative configuration file (defaults to `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
 
 `alacritty --config-file {{path/to/config.yml}}`
 
