@@ -20,6 +20,6 @@
 
 `terminalizer render {{path/to/recording.gif}}`
 
-- Upload a video to terminalizer.com:
+- Upload a video to <https://terminalizer.com>:
 
 `terminalizer share {{path/to/recording.gif}}`
