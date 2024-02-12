@@ -19,4 +19,3 @@
 - Display the `Cargo.toml` manifest of a specific directory:
 
 `cargo locate-project --manifest-path {{path/to/Cargo.toml}}`
-
