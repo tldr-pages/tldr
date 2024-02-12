@@ -27,6 +27,6 @@
 
 `cal -A 3 -B 2 {{month}}`
 
-- Display [j]ulian days (one-based, numbered from January 1):
+- Display [j]ulian days (starting from one, numbered from January 1):
 
 `cal -j`
