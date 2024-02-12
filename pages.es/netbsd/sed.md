@@ -8,7 +8,7 @@
 
 `{{comando}} | sed 's/apple/mango/g'`
 
-- Ejecuta un script de archivo [f] específico e imprime el resultado en `stdout`:
+- Ejecuta un [f]ichero con un script e imprime el resultado en `stdout`:
 
 `{{comando}} | sed -f {{ruta/al/script.sed}}`
 
