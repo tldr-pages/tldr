@@ -1,6 +1,6 @@
 # cal
 
-> Print a calendar with the current day highlighted.
+> Display a calendar with the current day highlighted.
 > More information: <https://man.openbsd.org/cal>.
 
 - Display a calendar for the current month:
