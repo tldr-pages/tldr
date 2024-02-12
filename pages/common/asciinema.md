@@ -1,6 +1,6 @@
 # asciinema
 
-> Record and replay terminal sessions, and optionally share them on asciinema.org.
+> Record and replay terminal sessions, and optionally share them on <asciinema.org>.
 > See also: `terminalizer`.
 > More information: <https://asciinema.org/docs/usage>.
 
