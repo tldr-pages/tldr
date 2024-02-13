@@ -31,6 +31,6 @@
 
 `git clone --config core.sshCommand="{{ssh -i path/to/private_ssh_key}}" {{remote_repository_location}}`
 
-- Automatically initialize and clone each submodule in the repository:
+- Automatically initialize and clone each submodule in the repository recursively:
 
 `git clone --recurse-submodules`
