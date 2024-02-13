@@ -8,11 +8,11 @@
 
 `ansible {{group}} --list-hosts`
 
-- Ping a group of hosts by invoking the ping module:
+- Ping a group of hosts by invoking the ping [m]odule:
 
 `ansible {{group}} -m ping`
 
-- Display facts about a group of hosts by invoking the setup module:
+- Display facts about a group of hosts by invoking the setup [m]odule:
 
 `ansible {{group}} -m setup`
 

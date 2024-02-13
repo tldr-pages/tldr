@@ -4,15 +4,15 @@
 > Auto-reconnects to keep port forwarding tunnels up. Accepts all `ssh` flags.
 > More information: <https://www.harding.motd.ca/autossh>.
 
-- Start an SSH session, restarting when a monitoring port fails to return data:
+- Start an SSH session, restarting when the [M]onitoring port fails to return data:
 
 `autossh -M {{monitor_port}} "{{ssh_command}}"`
 
-- Forward a local port to a remote one, restarting when necessary:
+- Forward a [L]ocal port to a remote one, restarting when necessary:
 
 `autossh -M {{monitor_port}} -L {{local_port}}:localhost:{{remote_port}} {{user}}@{{host}}`
 
-- Fork `autossh` into the background before executing `ssh` and don't open a remote shell:
+- Fork `autossh` into the background before executing `ssh` and do [N]ot open a remote shell:
 
 `autossh -f -M {{monitor_port}} -N "{{ssh_command}}"`
 

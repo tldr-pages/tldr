@@ -15,6 +15,6 @@
 
 `ac -p {{username}}`
 
-- Print how long a particular user has been connected in hours per day (with total):
+- Print how long a particular user has been connected in hours per [d]ay (with total):
 
 `ac -dp {{username}}`

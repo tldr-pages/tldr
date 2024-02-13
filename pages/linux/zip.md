@@ -18,7 +18,7 @@
 
 - Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest):
 
-`zip -r -{{0-9}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`zip -r -{{0..9}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Create an encrypted archive with a specific password:
 

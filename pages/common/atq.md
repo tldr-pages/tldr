@@ -7,7 +7,7 @@
 
 `atq`
 
-- Show jobs from queue named 'a' (queues have single-character names):
+- Show jobs from the 'a' [q]ueue (queues have single-character names):
 
 `atq -q {{a}}`
 
