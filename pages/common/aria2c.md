@@ -32,6 +32,6 @@
 
 `aria2c --ftp-user={{username}} --ftp-passwd={{password}} "{{url}}"`
 
-- Automatically verify checksum of file upon finishing download:
+- Automatically verify the checksum of the file upon finishing the download:
 
 `aria2c --checksum={{sha-256}}={{hash}} "{{url}}"`
