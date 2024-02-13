@@ -11,7 +11,7 @@
 
  > Kurze Beschreibung.
  > Möglichst nur eine Zeile; wenn nötig, sind zwei akzeptabel.
- > More information: <https://example.com>.
+ > Weitere Informationen: <https://example.com>.
 
  - Beispielbeschreibung:
 
