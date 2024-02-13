@@ -1,4 +1,5 @@
-# Opening a Pull Request
+# Using Git
+## Opening a Pull Request
 
 Most people submit pull requests to the tldr-pages project
 [using GitHub's web interface][pr-howto].
@@ -38,7 +39,7 @@ Typically a pull request will include changes in a single file **unless the pull
 [commit-msg]: ../CONTRIBUTING.md#commit-message
 [mass-changes]: https://github.com/tldr-pages/tldr/pulls?&q=is:pr+is:merged+label:"mass+changes"
 
-# Updating your fork
+## Updating your fork
 
 Forks of GitHub repositories aren't updated automatically. You should update your fork regularly to keep it up-to-date with the latest changes and avoid merge conflicts.
 
@@ -59,7 +60,7 @@ git push --force-with-lease  # not needed if you only want to update your local 
 ```
 [How to resolve merge conflicts](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
 
-# Changing the email of your last commit
+## Changing the email of your last commit
 
 If the email that you used for the last commit isn't associated with your GitHub account, you can either add it [here](https://github.com/settings/emails) or change the email of the commit with the following commands:
 
@@ -68,7 +69,7 @@ git commit --amend --author="Your Name <new.email@example.com>"
 git push --force-with-lease
 ```
 
-# Changing the email of any commit(s)
+## Changing the email of any commit(s)
 
 1. Perform an [interactive rebase](https://git-scm.com/docs/git-rebase#Documentation/git-rebase.txt--i), specifying the reference of the earliest commit to modify as the argument. For example, if the earliest commit with the wrong email address was 6 commits ago, you can specify the commit hash or just `HEAD~6`.
 
