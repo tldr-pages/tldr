@@ -51,7 +51,7 @@ There are two ways to update your fork.
 2. Using Git in the terminal:
 
 ```bash
-git checkout main
+git switch main
 git remote add upstream https://github.com/tldr-pages/tldr.git  # only run if you don't already have the upstream remote (check with "git remote -v")
 git fetch upstream main
 git rebase upstream/main     # in case you have any merge conflicts, click the link below to see how to resolve them
