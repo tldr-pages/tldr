@@ -7,7 +7,7 @@
 
 `df`
 
-- Utiliza unidades legibles por el ser [h]umano (basadas en potencias de 1024):
+- Utiliza palabras [h]umanas para indicar unidades (basadas en potencias de 1024):
 
 `df -h`
 
