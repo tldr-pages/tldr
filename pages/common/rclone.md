@@ -19,7 +19,7 @@
 
 `rclone copy --interactive --max-age 24h {{remote_name}}:{{path/to/directory}} {{path/to/local_directory}} `
 
-- Mirror file or directory (Note: Unlike copy, sync removes files from the remote if it does not exist locally):
+- Mirror a specific file or directory (Note: Unlike copy, sync removes files from the remote if it does not exist locally):
 
 `rclone sync {{path/to/file_or_directory}} {{remote_name}}:{{path/to/directory}}`
 
