@@ -24,7 +24,7 @@ The overall process should look somewhat like this:
   `git commit --all -m "{{commit_message}}"`
 
 6. Push the commit(s) to your fork:
-  `git push origin HEAD`
+  `git push -u origin HEAD`
 
 > [!WARNING]
 > Please avoid force-pushing since it makes the review process harder.
