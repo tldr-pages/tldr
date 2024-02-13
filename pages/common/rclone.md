@@ -3,27 +3,27 @@
 > Copy, synchronize or move files and directories to and from many cloud services.
 > More information: <https://rclone.org>.
 
+- Launch an interactive menu to setup rclone:
+
+`rclone config`
+
 - List contents of a directory on an rclone remote:
 
 `rclone lsf {{remote_name}}:{{path/to/directory}}`
 
-- Copy file or directory from local source to remote destination:
+- Copy a file or directory from the local machine to the remote destination:
 
-`rclone copy {{path/to/source_file_or_directory}} {{remote_name}}:{{path/to/destination_directory}}`
+`rclone copy {{path/to/source_file_or_directory}} {{remote_name}}:{{path/to/directory}}`
 
-- Copy file or directory from remote source to local destination:
+- Copy files changed within the past 24 hours to a remote from the local machine, asking the user to confirm each file:
 
-`rclone copy {{remote_name}}:{{path/to/source_file_or_directory}} {{path/to/destination_directory}}`
+`rclone copy --interactive --max-age 24h {{remote_name}}:{{path/to/directory}} {{path/to/local_directory}} `
 
-- Sync local source to remote destination, changing the destination only:
+- Mirror a specific file or directory (Note: Unlike copy, sync removes files from the remote if it does not exist locally):
 
 `rclone sync {{path/to/file_or_directory}} {{remote_name}}:{{path/to/directory}}`
 
-- Move file or directory from local source to remote destination:
-
-`rclone move {{path/to/file_or_directory}} {{remote_name}}:{{path/to/directory}}`
-
-- Delete remote file or directory (use `--dry-run` to test, remove it to actually delete):
+- Delete a remote file or directory (Note: `--dry-run` means test, remove it from the command to actually delete):
 
 `rclone --dry-run delete {{remote_name}}:{{path/to/file_or_directory}}`
 
