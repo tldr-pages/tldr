@@ -1,7 +1,7 @@
 # bless
 
 > Set volume boot capability and startup disk options.
-> More information: <https://keith.github.io/xcode-man-pages/bless.1.html>.
+> More information: <https://keith.github.io/xcode-man-pages/bless.8.html>.
 
 - Bless a volume with only Mac OS X or Darwin, and create the BootX and `boot.efi` files as needed:
 
