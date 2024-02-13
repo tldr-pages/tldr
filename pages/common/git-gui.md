@@ -12,23 +12,23 @@
 
 `git gui blame {{path/to/file}}`
 
-- Show a specific file with author name and commit hash on each line in a specific revision:
+- Open `git gui blame` in a specific revision:
 
 `git gui blame {{revision}} Makefile`
 
-- Show a specific file with author name and commit hash on each line scrolling the view to center on a specific line:
+- Open `git gui blame` scrolling the view to center on a specific line:
 
 `git gui blame --line={{line}} Makefile`
 
-- Make one commit and return to the shell when it is complete:
+- Open a window to make one commit and return to the shell when it is complete:
 
 `git gui citool`
 
-- Make one commit entering the Amend Last Commit mode of the interface:
+- Open `git gui citool` in the Amend Last Commit mode:
 
 `git gui citool --amend`
 
-- Check if the index does not contain any unmerged entries:
+- Open `git gui citool` in a read-only mode:
 
 `git gui citool --nocommit`
 
