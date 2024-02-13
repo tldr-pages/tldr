@@ -32,6 +32,6 @@
 
 `aria2c --ftp-user={{username}} --ftp-passwd={{password}} "{{url}}"`
 
-- Limit download speed in bytes/s:
+- Automatically verify checksum of file upon finishing download:
 
-`aria2c --max-download-limit={{speed}} "{{url}}"`
+`aria2c --checksum={{sha-256}}={{hash}} "{{url}}"`
