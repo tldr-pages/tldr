@@ -29,4 +29,4 @@
 
 - Checa o progresso de um processo dd rodando (rode esse comando de outro shell):
 
-`kill -USR1 $(pgrep ^dd)`
+`kill -USR1 $(pgrep -x dd)`

@@ -29,4 +29,4 @@
 
 - Überprüfe den Fortschritt eines laufenden dd-Prozesses (Führe diesen Befehl von einer anderen Shell aus):
 
-`kill -USR1 $(pgrep ^dd)`
+`kill -USR1 $(pgrep -x dd)`
