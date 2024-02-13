@@ -27,6 +27,6 @@
 
 `gifsicle -b {{path/to/input.gif}} --delete '#{{0-9}}' '#{{20-}}'`
 
-- Modify all frames by cropping them to a rectangle, changing thir scale, flipping them, and rotating them:
+- Modify all frames by cropping them to a rectangle, changing their scale, flipping them, and rotating them:
 
 `gifsicle -b --crop {{starting_x}},{{starting_y}}+{{rect_width}}x{{rect_height}} --scale {{0.25}} --flip-horizontal --rotate-{{90|180|270}} {{path/to/input.gif}}`
