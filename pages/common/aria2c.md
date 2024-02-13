@@ -16,7 +16,7 @@
 
 `aria2c --force-sequential {{false}} "{{url1 url2 ...}}"`
 
-- Download the same file from mirrors and verify checksum of downloaded file:
+- Download the same file from different mirrors and verify the checksum of the downloaded file:
 
 `aria2c --checksum={{sha-256}}={{hash}} "{{url1}}" "{{url2}}" "{{urlN}}"`
 
