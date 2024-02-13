@@ -24,7 +24,7 @@
 
 `git gui citool`
 
-- Make one commit entering the Amend Last Commit mode of the interface.
+- Make one commit entering the Amend Last Commit mode of the interface:
 
 `git gui citool --amend`
 
