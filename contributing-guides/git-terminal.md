@@ -12,7 +12,7 @@ The overall process should look somewhat like this:
   `git clone https://github.com/{{your_username}}/tldr.git && cd tldr`
 
 3. Create a feature branch, e.g. named after the command you plan to edit:
-  `git checkout -b {{branch_name}}`
+  `git switch -c {{branch_name}}`
 
 > [!WARNING]
 > It is bad practice to submit a PR from the `main` branch of your forked repository. Please create pull requests from a well-named feature branch.
@@ -23,7 +23,7 @@ The overall process should look somewhat like this:
   `git commit --all -m "{{commit_message}}"`
 
 6. Push the commit(s) to your fork:
-  `git push origin {{branch_name}}`
+  `git push origin HEAD`
 
 > [!WARNING]
 > Please avoid force-pushing since it makes the review process harder.
