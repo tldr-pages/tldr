@@ -12,11 +12,11 @@
 
 `img2pdf {{path/to/file.gif}} --first-frame-only --output {{path/to/file.pdf}}`
 
-- Auto orient the image, use a page size of A4 in landscape mode, and set a border of 2cm horizontally and 5.1cm vertically:
+- Auto orient the image, use a specific  page size in landscape mode, and set a border of specific sizes horizontally and vertically:
 
 `img2pdf {{path/to/image.ext}} --auto-orient --pagesize A4^T --border 2cm:5.1cm --output {{path/to/file.pdf}}`
 
-- Shrink only larger images to a 10cm by 15cm rectangle inside a 30x20cm page:
+- Shrink only larger images to a rectangle of specified dimensions inside a page with a specific size:
 
 `img2pdf {{path/to/image.ext}} --pagesize 30cmx20cm --imgsize 10cmx15cm --fit shrink --output {{path/to/file.pdf}}`
 
