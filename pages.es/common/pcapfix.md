@@ -5,7 +5,7 @@
 
 - Repara un archivo `pcap`/`pcapng` (Nota: para los archivos `pcap`, sólo se escanean los primeros 262144 bytes de cada paquete):
 
-`pcapfix {{ruta/al/archivo.pcapng}}`.
+`pcapfix {{ruta/al/archivo.pcapng}}`
 
 - Repara un archivo `pcap` completo:
 
