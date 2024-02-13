@@ -12,7 +12,7 @@
 
 `montage {{path/to/image1.jpg path/to/image2.jpg ...}} -geometry {{+0+0}} {{path/to/montage.jpg}}`
 
-- Set the grid cell size and resize images to fit it before tiling:
+- Specify the grid cell size and resize images to fit it before tiling:
 
 `montage {{path/to/image1.jpg path/to/image2.jpg ...}} -geometry {{640x480+0+0}} {{path/to/montage.jpg}}`
 

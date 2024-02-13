@@ -16,11 +16,11 @@
 
 `transmission-cli --new {{path/to/source_file_or_directory}}`
 
-- Set the download speed limit to 50 KB/s:
+- Specify the download speed limit (in KB/s):
 
 `transmission-cli --downlimit {{50}} {{url|magnet|path/to/file}}`
 
-- Set the upload speed limit to 50 KB/s:
+- Specify the upload speed limit (in KB/s):
 
 `transmission-cli --uplimit {{50}} {{url|magnet|path/to/file}}`
 

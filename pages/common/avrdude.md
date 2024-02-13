@@ -3,13 +3,13 @@
 > Driver program for Atmel AVR microcontrollers programming.
 > More information: <https://www.nongnu.org/avrdude/>.
 
-- Read AVR microcontroller:
+- [r]ead the flash ROM of a AVR microcontroller with a specific [p]art id:
 
-`avrdude -p {{AVR_device}} -c {{programmer}} -U flash:r:{{file.hex}}:i`
+`avrdude -p {{part_no}} -c {{programmer_id}} -U flash:r:{{file.hex}}:i`
 
-- Write AVR microcontroller:
+- [w]rite to the flash ROM AVR microcontroller:
 
-`avrdude -p {{AVR_device}} -c {{programmer}} -U flash:w:{{file.hex}}`
+`avrdude -p {{part_no}} -c {{programmer}} -U flash:w:{{file.hex}}`
 
 - List available AVR devices:
 

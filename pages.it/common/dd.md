@@ -21,4 +21,4 @@
 
 - Mostra il progresso di un'operazione dd in corso (comando da eseguire in un'altra shell):
 
-`kill -USR1 $(pgrep ^dd)`
+`kill -USR1 $(pgrep -x dd)`

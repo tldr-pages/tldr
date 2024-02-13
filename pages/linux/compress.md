@@ -11,7 +11,7 @@
 
 `compress -f {{path/to/file1 path/to/file2 ...}}`
 
-- Set maximum compression bits (9-16 bits):
+- Specify the maximum compression bits (9-16 bits):
 
 `compress -b {{bits}}`
 
