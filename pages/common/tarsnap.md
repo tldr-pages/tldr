@@ -25,7 +25,7 @@
 
 `tarsnap -tv --keyfile {{path/to/key_file}} -f {{archive_name}}`
 
-- Restore specific one or more files or directories from an specific archive:
+- Restore one or more files or directories from a specific archive:
 
 `tarsnap -x --keyfile {{path/to/key_file}} -f {{archive_name}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
