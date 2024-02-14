@@ -14,24 +14,24 @@
 
 - Maak een nieuwe opname en sla het op in een lokaal bestand:
 
-`asciinema rec {{pad/naar/bestand.cast}}`
+`asciinema rec {{pad/naar/opname.cast}}`
 
-- Speelt een terminal opname of vanaf een lokaal bestand:
+- Speel een terminal opname af vanaf een lokaal bestand:
 
-`asciinema play {{pad/naar/bestand.cast}}`
+`asciinema play {{pad/naar/opname.cast}}`
 
-- Speelt een terminal opname of vanaf asciinema.org:
+- Speel een terminal opname af vanaf asciinema.org:
 
 `asciinema play https://asciinema.org/a/{{cast_id}}`
 
-- Maakt een nieuwe opname met een [i]nactieve tijd van maximaal 2,5 seconden:
+- Maak een nieuwe opname met een [i]nactieve tijd van maximaal 2,5 seconden:
 
 `asciinema rec -i 2.5`
 
 - Laat de volledige inhoud zien van een lokaal opgeslagen opname:
 
-`asciinema cat {{pad/naar/bestand.cast}}`
+`asciinema cat {{pad/naar/opname.cast}}`
 
-- Slaat een lokaal opgeslagen terminal sessie op bij asciinema.org:
+- Sla een lokaal opgeslagen terminal sessie op bij asciinema.org:
 
-`asciinema upload {{pad/naar/bestand.cast}}`
+`asciinema upload {{pad/naar/opname.cast}}`
