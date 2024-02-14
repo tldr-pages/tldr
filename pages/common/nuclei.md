@@ -23,7 +23,7 @@
 
 `nuclei -rl {{150}} -bs {{25}} -c {{25}} -silent -u {{http://scanme.sh}}`
 
-- Run (wordpress) [w]orkflow against a (wordpress) site:
+- Run the WordPress [w]orkflow against a WordPress site:
 
 `nuclei -w {{path/to/nuclei-templates/workflows/wordpress-workflow.yaml}} -u {{https://sample.wordpress.site}}`
 
