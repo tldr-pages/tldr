@@ -1,7 +1,8 @@
 # asciinema
 
 > Neemt op en speelt terminal sessies af en deelt hem optioneel op asciinema.org.
-> Meer informatie: <https://asciinema.org/docs/usage>.
+> Bekijk ook: `terminalizer`.
+> Meer informatie: <https://docs.asciinema.org/manual/cli/usage>.
 
 - Associeer de lokale installatie van `asciinema` met het asciinema.org account:
 
@@ -23,9 +24,9 @@
 
 `asciinema play https://asciinema.org/a/{{cast_id}}`
 
-- Maakt een nieuwe opname met een inactieve tijd van maximaal 2,5 seconden:
+- Maakt een nieuwe opname met een [i]nactieve tijd van maximaal 2,5 seconden:
 
-`asciinema rec -i {{2.5}}`
+`asciinema rec -i 2.5`
 
 - Laat de volledige inhoud zien van een lokaal opgeslagen opname:
 
