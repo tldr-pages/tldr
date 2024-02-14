@@ -1,6 +1,6 @@
 # git gui
 
-> A GUI for making new commits, amending existing ones, creating branches, performing local merges, and fetching/pushing to remote repositories.
+> A GUI for Git to manage branches, commits, and remotes, and perform local merges.
 > See also: `git-cola`, `gitk`.
 > More information: <https://git-scm.com/docs/git-gui>.
 
