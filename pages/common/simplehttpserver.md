@@ -16,7 +16,7 @@
 
 `sudo simplehttpserver -https -domain {{*.selfsigned.com}} -listen 0.0.0.0:443`
 
-- Start the http server with custom response [h]eaders and [u]pload capability:
+- Start the HTTP server with custom response [h]eaders and [u]pload capability:
 
 `simplehttpserver -upload -header '{{X-Powered-By: Go}}' -header '{{Server: SimpleHTTPServer}}'`
 
