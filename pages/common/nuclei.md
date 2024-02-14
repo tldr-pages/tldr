@@ -11,7 +11,7 @@
 
 `nuclei -tl -pt {{dns|file|http|headless|tcp|workflow|ssl|websocket|whois|code|javascript}}`
 
-- Run automatic web scan using wappalyzer technology detection:
+- Run an [a]utomatic web [s]can using wappalyzer technology detection specifying a target [u]RL/host to scan:
 
 `nuclei -as -u {{scanme.nmap.org}}`
 
