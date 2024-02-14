@@ -27,7 +27,7 @@
 
 `nuclei -w {{path/to/nuclei-templates/workflows/wordpress-workflow.yaml}} -u {{https://sample.wordpress.site}}`
 
-- Run one or more specific [t]emplate or directory with [t]emplates with [v]erbose output in `stderr` and [o]utput detected issues/vulns to a file:
+- Run one or more specific [t]emplate or directory with [t]emplates with [v]erbose output in `stderr` and [o]utput detected issues/vulnerabilities to a file:
 
 `nuclei -t {{path/to/nuclei-templates/http}} -u {{http://scanme.sh}} -v -o {{results}}`
 
