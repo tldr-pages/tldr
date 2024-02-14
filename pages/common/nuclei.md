@@ -1,6 +1,6 @@
 # nuclei
 
-> Fast and customizable vulnerability scanner based on simple YAML based DSL.
+> Fast and customizable vulnerability scanner based on a simple YAML based DSL.
 > More information: <https://github.com/projectdiscovery/nuclei>.
 
 - [u]pdate nuclei [t]emplates to the latest released version:
