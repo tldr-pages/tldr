@@ -1,6 +1,6 @@
 # crystal
 
-> Tool for managing Crystal source code.
+> Manage Crystal source code.
 > More information: <https://crystal-lang.org/reference/using_the_compiler>.
 
 - Run a Crystal file:

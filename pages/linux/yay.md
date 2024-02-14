@@ -1,6 +1,6 @@
 # yay
 
-> Yet Another Yogurt: A utility for Arch Linux to build and install packages from the Arch User Repository.
+> Yet Another Yogurt: build and install packages from the Arch User Repository.
 > Also see `pacman`.
 > More information: <https://github.com/Jguer/yay>.
 

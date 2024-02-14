@@ -1,6 +1,6 @@
 # electron-packager
 
-> A tool used to build Electron app executables for Windows, Linux and macOS.
+> Build Electron app executables for Windows, Linux and macOS.
 > Requires a valid package.json in the application directory.
 > More information: <https://github.com/electron/electron-packager>.
 

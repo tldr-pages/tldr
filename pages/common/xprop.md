@@ -1,6 +1,6 @@
 # xprop
 
-> A tool for displaying window and font properties in an X server.
+> Display window and font properties in an X server.
 > More information: <https://manned.org/xprop>.
 
 - Display the name of the root window:

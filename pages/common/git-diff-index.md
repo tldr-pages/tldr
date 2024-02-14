@@ -1,6 +1,6 @@
 # git diff-index
 
-> Compare the working directory with a specific commit or tree object.
+> Compare the working directory with a commit or tree object.
 > More information: <https://git-scm.com/docs/git-diff-index>.
 
 - Compare the working directory with a specific commit:

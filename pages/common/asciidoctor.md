@@ -1,6 +1,6 @@
 # asciidoctor
 
-> A processor that converts AsciiDoc files to a publishable format.
+> Convert AsciiDoc files to a publishable format.
 > More information: <https://docs.asciidoctor.org>.
 
 - Convert a specific `.adoc` file to HTML (the default output format):

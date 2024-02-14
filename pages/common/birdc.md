@@ -1,18 +1,18 @@
 # birdc
 
-> Bird remote control.
-> Command tool to retrieve information like routes from bird and perform configurations during runtime.
+> BIRD remote control.
+> Retrieve information like routes from bird and perform configurations during runtime.
 > More information: <https://bird.network.cz/>.
 
 - Open the remote control console:
 
 `birdc`
 
-- Reload the configuration without restarting Bird:
+- Reload the configuration without restarting BIRD:
 
 `birdc configure`
 
-- Show the current status of Bird:
+- Show the current status of BIRD:
 
 `birdc show status`
 

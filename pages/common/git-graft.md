@@ -1,6 +1,6 @@
 # git graft
 
-> Merge commits from a specific branch into another branch and delete the source branch.
+> Merge commits from a branch into another branch and delete the source branch.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-graft>.
 
