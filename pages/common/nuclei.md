@@ -31,6 +31,6 @@
 
 `nuclei -t {{path/to/nuclei-templates/http}} -u {{http://scanme.sh}} -v -o {{results}}`
 
-- Run scan based on multiple template conditions:
+- Run scan based on one or more [t]emplate [c]onditions:
 
 `nuclei -tc {{"contains(tags, 'xss') && contains(tags, 'cve')"}} -u {{https://vulnerable.website}}`
