@@ -13,11 +13,11 @@
 
 - Crée un nouvel enregistrement et l'enregistre dans un fichier local :
 
-`asciinema rec {{chemin/vers/fichier}}.cast`
+`asciinema rec {{chemin/vers/enregistrement.cast}}`
 
 - Rejoue un enregistrement depuis un fichier local :
 
-`asciinema play {{chemin/vers/fichier}}.cast`
+`asciinema play {{chemin/vers/enregistrement.cast}}`
 
 - Rejoue un enregistrement depuis asciinema.org :
 
@@ -29,8 +29,8 @@
 
 - Affiche la sortie complète d'un enregistrement local :
 
-`asciinema cat {{chemin/vers/fichier}}.cast`
+`asciinema cat {{chemin/vers/enregistrement.cast}}`
 
 - Envoie un enregistrement local vers asciinema.org :
 
-`asciinema upload {{chemin/vers/fichier}}.cast`
+`asciinema upload {{chemin/vers/enregistrement.cast}}`
