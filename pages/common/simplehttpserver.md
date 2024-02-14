@@ -4,7 +4,7 @@
 > A Go alternative to Python's http.server.
 > More information: <https://github.com/projectdiscovery/simplehttpserver>.
 
-- Start the http server serving the current directory with [v]erbose output (listen on all interfaces and port 8000 by default):
+- Start the HTTP server serving the current directory with [v]erbose output (listen on all interfaces and port 8000 by default):
 
 `simplehttpserver -verbose`
 
