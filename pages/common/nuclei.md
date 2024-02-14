@@ -7,9 +7,9 @@
 
 `nuclei -ut`
 
-- List all templates (of protocol type dns):
+- [l]ist all [t]emplates with a specific [p]rotocol [t]ype:
 
-`nuclei -tl {{-pt dns}}`
+`nuclei -tl -pt {{dns|file|http|headless|tcp|workflow|ssl|websocket|whois|code|javascript}}`
 
 - Run automatic web scan using wappalyzer technology detection:
 
