@@ -13,15 +13,15 @@
 
 - Crea una nueva grabación y la guarda en un archivo local:
 
-`asciinema rec {{ruta/hacia/archivo}}.cast`
+`asciinema rec {{ruta/hacia/grabación.cast}}`
 
 - Reproduce una grabación desde un archivo local:
 
-`asciinema play {{ruta/hacia/archivo}}.cast`
+`asciinema play {{ruta/hacia/grabación.cast}}`
 
 - Reproduce una grabación desde asciinema.org:
 
-`asciinema play https://asciinema.org/a/{{cast_id}}`
+`asciinema play https://asciinema.org/a/{{grabación_id}}`
 
 - Crea una nueva grabación, limitando el tiempo de espera máximo a 2.5 segundos:
 
@@ -29,8 +29,8 @@
 
 - Imprime la salida completa de un archivo local de grabación:
 
-`asciinema cat {{ruta/hacia/archivo}}.cast`
+`asciinema cat {{ruta/hacia/grabación.cast}}`
 
 - Sube un archivo local de grabación a asciinema.org:
 
-`asciinema upload {{ruta/hacia/archivo}}.cast`
+`asciinema upload {{ruta/hacia/grabación.cast}}`
