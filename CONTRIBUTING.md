@@ -241,7 +241,10 @@ Where `{{command}}` is the name of the command being modified, and `type of chan
 - For multiple subcommand page additions: `git-{add, push, ...}: add page`
 - For modifying multiple pages in a language: `pages.<locale>/*: update pages`
 
-For script changes, use the format `scripts/{{script_name}}: type of change`.
+For script changes, the commit message/PR title can be (but not limited to) one of the following examples:
+
+- For a script edit: `scripts/set-alias-page: fix performance issue`
+- For changes that affect multiple scripts: `scripts: replace insecure library`
 
 For other cases, it is suggested to follow <https://www.conventionalcommits.org/> as much as possible.
 
