@@ -16,7 +16,7 @@
 
 `git gui blame {{revision}} {{path/to/file}}`
 
-- Open `git gui blame` by scrolling the view to center on a specific line:
+- Open `git gui blame` and scroll the view to center on a specific line:
 
 `git gui blame --line={{line}} {{path/to/file}}`
 
