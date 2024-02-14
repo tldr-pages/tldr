@@ -14,11 +14,11 @@
 
 - Open `git gui blame` in a specific revision:
 
-`git gui blame {{revision}} {{filename}}`
+`git gui blame {{revision}} {{path/to/file}}`
 
 - Open `git gui blame` by scrolling the view to center on a specific line:
 
-`git gui blame --line={{line}} {{filename}}`
+`git gui blame --line={{line}} {{path/to/file}}`
 
 - Open a window to make one commit and return to the shell when it is complete:
 
