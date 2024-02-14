@@ -18,3 +18,19 @@
 - List databases available on the server:
 
 `usql --list-databases`
+
+- Run an SQL command in the `usql` prompt:
+
+`{{prompt}}=> {{command}}`
+
+- Display the database schema:
+
+`{{prompt}}=> \d`
+
+- Export query results to a specific file:
+
+`{{prompt}}=> \g {{/path/to/results.txt}}`
+
+- Import data from a CSV file into a specific table:
+
+`{{prompt}}=> \copy /path/to/data.csv my_table`
