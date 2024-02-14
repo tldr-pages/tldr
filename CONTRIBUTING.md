@@ -224,7 +224,7 @@ To commit a suggestion to your pull request, click on `Commit suggestion`:
 
 If you want to commit multiple suggestions, go to the "Files changed" tab and batch all suggestions. Now, click the `Commit suggestions` button and enter a commit message to create a single commit.
 
-### Commit message/PR title
+### Commit message and PR title
 
 For the commit message and PR title of page changes, use the following format:
 
@@ -241,7 +241,7 @@ Where `{{command}}` is the name of the command being modified, and `type of chan
 - For multiple subcommand page additions: `git-{add, push, ...}: add page`
 - For modifying multiple pages in a language: `pages.<locale>/*: update pages`
 
-For script changes, the commit message/PR title can be (but not limited to) one of the following examples:
+For script changes, the commit message and the PR title can be (but not limited to) one of the following examples:
 
 - For a new script addition: `scripts/{{script_name}}: add script`
 - For a script edit: `scripts/set-alias-page: fix performance issue`
