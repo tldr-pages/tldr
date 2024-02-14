@@ -1,7 +1,7 @@
 # asciinema
 
 > Graba y reproduce sesiones de terminal, y opcionalmente compártelas en asciinema.org.
-> Más información: <https://asciinema.org/docs/usage>.
+> Más información: <https://docs.asciinema.org/manual/cli/usage>.
 
 - Asocia el programa local de `asciinema` con una cuenta de asciinema.org:
 
@@ -25,7 +25,7 @@
 
 - Crea una nueva grabación, limitando el tiempo de espera máximo a 2.5 segundos:
 
-`asciinema rec -i {{2.5}}`
+`asciinema rec -i 2.5`
 
 - Imprime la salida completa de un archivo local de grabación:
 
