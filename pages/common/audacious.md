@@ -1,11 +1,15 @@
 # audacious
 
-> An open-source audio player.
+> An open-source audio player. Descendant of XMMS.
 > More information: <https://audacious-media-player.org>.
 
-- Launch the program:
+- Launch the GUI:
 
 `audacious`
+
+- Start a new instance and play an audio:
+
+`audacious --new-instance {{path/to/audio}}`
 
 - Enqueue a specific directory of audio files:
 
@@ -15,7 +19,7 @@
 
 `audacious --play-pause`
 
-- Skip forwards or backwards in the playlist:
+- Skip [f]or[w]ar[d]s or backwards in the playlist:
 
 `audacious --{{fwd|rew}}`
 
@@ -23,7 +27,7 @@
 
 `audacious --stop`
 
-- Start a headless version:
+- Start in CLI mode (headless):
 
 `audacious --headless`
 
