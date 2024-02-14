@@ -1,5 +1,5 @@
 # aws sns
- 
+
 > Create topics and subscriptions, send and receiving messages, and monitor events and logs for the Amazon Simple Notification Service.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sns/index.html>.
 
@@ -27,7 +27,7 @@
 
 `aws sns create-platform-endpoint --platform-application-arn {{platform_application_ARN}} --token {{token}}`
 
-- Adds a statement to a topic's access control policy:
+- Add a statement to a topic's access control policy:
 
 `aws sns add-permission --topic-arn {{topic_ARN}} --label {{topic_label}} --aws-account-id {{account_id}} --action-name {{AddPermission|CreatePlatformApplication|DeleteEndpoint|GetDataProtectionPolicy|GetEndpointAttributes|Subscribe|...}}`
 
