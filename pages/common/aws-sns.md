@@ -1,11 +1,11 @@
 # aws sns
 
-> Create topics and subscriptions, send and receiving messages, and monitor events and logs for the Amazon Simple Notification Service.
+> Create topics and subscriptions, send and receive messages, and monitor events and logs for the Amazon Simple Notification Service.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sns/index.html>.
 
 - List all objects of a specific type:
 
-`aws sns list-{{origination-numbers|phone-numbers-opted-out|platform-applications|sms-sandbox-phone-numbers|subscriptions||topics}}`
+`aws sns list-{{origination-numbers|phone-numbers-opted-out|platform-applications|sms-sandbox-phone-numbers|subscriptions|topics}}`
 
 - Create a topic with a specific name and show its Amazon Resource Name (ARN):
 
