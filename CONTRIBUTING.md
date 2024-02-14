@@ -243,6 +243,7 @@ Where `{{command}}` is the name of the command being modified, and `type of chan
 
 For script changes, the commit message/PR title can be (but not limited to) one of the following examples:
 
+- For a new script addition: `scripts/{{script_name}}: add script`
 - For a script edit: `scripts/set-alias-page: fix performance issue`
 - For changes that affect multiple scripts: `scripts: replace insecure library`
 
