@@ -17,7 +17,7 @@
 
 - Run HTTP [p]rotocol [t]ype templates of high and critical severity, [e]xporting results to [m]arkdown files inside a specific directory:
 
-`nuclei -severity high,critical -pt http -u {{http://scanme.sh}} -me {{markdown_dir}}`
+`nuclei -severity high,critical -pt http -u {{http://scanme.sh}} -me {{markdown_directory}}`
 
 - Run all templates using a different [r]ate [l]imit and maximum [b]ulk [s]ize with silent output (only showing the findings):
 
