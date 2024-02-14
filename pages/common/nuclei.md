@@ -19,7 +19,7 @@
 
 `nuclei -severity high,critical -pt http -u {{http://scanme.sh}} -me {{markdown_dir}}`
 
-- Run all templates using rate limiting options with reduced silent output:
+- Run all templates using a different [r]ate [l]imit and maximum [b]ulk [s]ize with silent output (only showing the findings):
 
 `nuclei -rl {{150}} -bs {{25}} -c {{25}} -silent -u {{http://scanme.sh}}`
 
