@@ -1,6 +1,7 @@
 # simplehttpserver
 
-> A Go alternative of python's SimpleHTTPServer with additional functionalities.
+> A simple HTTP/S server that support file upload, basic auth, and YAML rules for custom responses.
+> A Go alternative to Python's http.server.
 > More information: <https://github.com/projectdiscovery/simplehttpserver>.
 
 - Start the http server serving the current directory with [v]erbose output (listen on all interfaces and port 8000 by default):
