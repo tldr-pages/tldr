@@ -4,7 +4,7 @@
 > Note: moreutils isn't a command, but a set of commands.
 > More information: <https://joeyh.name/code/moreutils/>.
 
-- View the tldr page for pages related to standard streams:
+- View documentation for pages related to standard streams:
 
 `tldr {{ifne|mispipe|pee|sponge|vipe|vidir}}`
 
