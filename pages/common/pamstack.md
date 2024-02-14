@@ -7,6 +7,6 @@
 
 `pamstack {{path/to/image1.pam path/to/image2.pam ...}} > {{path/to/output.pam}}`
 
-- Specify the tuple type name of the output PAM file:
+- Specify the tuple type name of the output PAM file (maximum of 255 characters):
 
 `pamstack -tupletype {{SOME_STRING}} {{path/to/image1.pam path/to/image2.pam ...}} > {{path/to/output.pam}}`
