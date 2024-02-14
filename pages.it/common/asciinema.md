@@ -13,11 +13,11 @@
 
 - Avvia una nuova registrazione e salvala come file locale:
 
-`asciinema rec {{nome_registrazione}}.cast`
+`asciinema rec {{percorso/del/registrazione.cast}}`
 
 - Riproduci una sessione da un file locale:
 
-`asciinema play {{percorso/del/file}}.cast`
+`asciinema play {{percorso/del/registrazione.cast}}`
 
 - Riproducei una sessione da asciinema.org:
 
@@ -29,8 +29,8 @@
 
 - Stampa l'output completo di una sessione locale:
 
-`asciinema cat {{percorso/del/file}}.cast`
+`asciinema cat {{percorso/del/registrazione.cast}}`
 
 - Carica una sessione locale su asciinama.org:
 
-`asciinema upload {{percorso/del/file}}.cast`
+`asciinema upload {{percorso/del/registrazione.cast}}`
