@@ -15,7 +15,7 @@
 
 `nuclei -as -u {{scanme.nmap.org}}`
 
-- Run http protocol type templates of high and critical severity; write results to markdown files:
+- Run HTTP [p]rotocol [t]ype templates of high and critical severity, [e]xporting results to [m]arkdown files inside a specific directory:
 
 `nuclei -severity high,critical -pt http -u {{http://scanme.sh}} -me {{markdown_dir}}`
 
