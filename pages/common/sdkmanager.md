@@ -1,6 +1,6 @@
 # sdkmanager
 
-> Tool to install packages for the Android SDK.
+> Install packages for the Android SDK.
 > More information: <https://developer.android.com/studio/command-line/sdkmanager>.
 
 - List available packages:

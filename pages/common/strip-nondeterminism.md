@@ -1,6 +1,6 @@
 # strip-nondeterminism
 
-> A tool to remove non-deterministic information (e.g. timestamps) from files.
+> Remove non-deterministic information (e.g. timestamps) from files.
 > More information: <https://salsa.debian.org/reproducible-builds/strip-nondeterminism>.
 
 - Strip nondeterministic information from a file:

@@ -1,6 +1,6 @@
 # skaffold
 
-> A tool that facilitates continuous development for Kubernetes applications.
+> Facilitate continuous development for Kubernetes applications.
 > More information: <https://skaffold.dev>.
 
 - Build the artifacts:

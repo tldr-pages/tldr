@@ -1,6 +1,6 @@
 # scala-cli
 
-> Tool to interact with the Scala programming language.
+> Interact with the Scala programming language.
 > More information: <https://scala-cli.virtuslab.org/docs/overview/>.
 
 - Start a REPL (interactive shell) using a specific Scala and JVM version:

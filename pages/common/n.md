@@ -1,6 +1,6 @@
 # n
 
-> Tool to manage multiple node versions.
+> Manage multiple node versions.
 > More information: <https://github.com/tj/n>.
 
 - Install a given version of node. If the version is already installed, it will be activated:

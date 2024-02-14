@@ -1,6 +1,6 @@
 # createrepo
 
-> Initializes an RPM repository in the given directory, including all XML and SQLite files.
+> Initializes an RPM repository in a directory, including all XML and SQLite files.
 > More information: <https://manned.org/createrepo>.
 
 - Initialize a basic repository in a directory:

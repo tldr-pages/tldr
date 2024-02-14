@@ -1,6 +1,6 @@
 # debuild
 
-> Tool to build a Debian package from source.
+> Build a Debian package from source.
 > More information: <https://manpages.debian.org/latest/devscripts/debuild.1.en.html>.
 
 - Build the package in the current directory:

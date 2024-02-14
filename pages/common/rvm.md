@@ -1,6 +1,6 @@
 # rvm
 
-> A tool for easily installing, managing, and working with multiple ruby environments.
+> Easily installing, managing, and working with multiple ruby environments.
 > More information: <https://rvm.io>.
 
 - Install one or more versions of Ruby:

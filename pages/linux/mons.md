@@ -1,6 +1,6 @@
 # mons
 
-> A tool to quickly manage two displays.
+> Quickly manage two displays.
 > More information: <https://github.com/Ventto/mons>.
 
 - Enable only the primary monitor:
