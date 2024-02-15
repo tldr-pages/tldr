@@ -4,11 +4,11 @@
 > A Go alternative to Python's `http.server`.
 > More information: <https://github.com/projectdiscovery/simplehttpserver>.
 
-- Start the HTTP server serving the current directory with [v]erbose output (listen on all interfaces and port 8000 by default):
+- Start the HTTP server serving the current directory with verbose output (listen on all interfaces and port 8000 by default):
 
 `simplehttpserver -verbose`
 
-- Start the HTTP server with [b]asic authentication serving a specific [p]ath over port 80 on all interfaces:
+- Start the HTTP server with basic authentication serving a specific path over port 80 on all interfaces:
 
 `sudo simplehttpserver -basic-auth {{username}}:{{password}} -path {{/var/www/html}} -listen 0.0.0.0:80`
 
@@ -16,10 +16,10 @@
 
 `sudo simplehttpserver -https -domain {{*.selfsigned.com}} -listen 0.0.0.0:443`
 
-- Start the HTTP server with custom response [h]eaders and [u]pload capability:
+- Start the HTTP server with custom response headers and upload capability:
 
 `simplehttpserver -upload -header '{{X-Powered-By: Go}}' -header '{{Server: SimpleHTTPServer}}'`
 
-- Start the HTTP server with customizable [r]ules in YAML (see documentation for DSL):
+- Start the HTTP server with customizable rules in YAML (see documentation for DSL):
 
 `simplehttpserver -rules {{rules.yaml}}`
