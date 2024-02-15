@@ -7,9 +7,17 @@
 
 `cal`
 
-- Toon vorige, huidige en volgende maand:
+- Toon [3] maanden (vorige, huidige en volgende):
 
 `cal -3`
+
+- Toon de volledige kalender voor het huidige jaar:
+
+`cal --year`
+
+- Toon de volgende twaalf maanden:
+
+`cal --twelve`
 
 - Gebruik maandag als de eerste dag van de week:
 
