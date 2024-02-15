@@ -4,7 +4,7 @@
 > Let op: moreutils is geen commando, maar een set van commando's.
 > More information: <https://joeyh.name/code/moreutils/>.
 
-- Bekijk de tldr pagina voor pagina's gerelateerd aan standaard streams:
+- Bekijk de documentatie voor pagina's gerelateerd aan standaard streams:
 
 `tldr {{ifne|mispipe|pee|sponge|vipe|vidir}}`
 
