@@ -1,6 +1,6 @@
 # simplehttpserver
 
-> A simple HTTP/S server that support file upload, basic auth, and YAML rules for custom responses.
+> A simple HTTP/S server that supports file upload, basic authentication, and YAML rules for custom responses.
 > A Go alternative to Python's http.server.
 > More information: <https://github.com/projectdiscovery/simplehttpserver>.
 
