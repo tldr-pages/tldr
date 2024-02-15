@@ -33,4 +33,4 @@
 
 - Import data from a CSV file into a specific table:
 
-`{{prompt}}=> \copy /path/to/data.csv my_table`
+`{{prompt}}=> \copy {{/path/to/data.csv}} {{table_name}}`
