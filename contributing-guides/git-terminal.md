@@ -26,6 +26,9 @@ The overall process should look somewhat like this:
 6. Push the commit(s) to your fork:
   `git push -u origin HEAD`
 
+7. If you want to avoid setting the upstream every time and just run `git push`:
+  `git config push.autoSetupRemote true`
+
 > [!WARNING]
 > Please avoid force-pushing since it makes the review process harder.
 
