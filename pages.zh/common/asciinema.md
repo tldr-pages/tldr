@@ -1,7 +1,7 @@
 # asciinema
 
 > 录制和播放终端会话，也可以把他们分享到 asciinema.org.
-> 更多信息：<https://asciinema.org/docs/usage>.
+> 更多信息：<https://docs.asciinema.org/manual/cli/usage>.
 
 - 将本地安装的`asciinema`与 asciinema.org 账号关联：
 
@@ -25,7 +25,7 @@
 
 - 进行新的录制，将闲置时间设置为最多 2.5 秒：
 
-`asciinema rec -i {{2.5}}`
+`asciinema rec -i 2.5`
 
 - 打印本地保存的录像的完整输出：
 
