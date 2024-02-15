@@ -8,7 +8,7 @@
 
 `simplehttpserver -verbose`
 
-- Start the http server with [b]asic auth serving a specific [p]ath over port 80 on all interfaces:
+- Start the HTTP server with [b]asic authentication serving a specific [p]ath over port 80 on all interfaces:
 
 `sudo simplehttpserver -basic-auth {{username}}:{{password}} -path {{/var/www/html}} -listen 0.0.0.0:80`
 
