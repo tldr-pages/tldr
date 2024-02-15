@@ -2,7 +2,7 @@
 
 > Een collectie van UNIX tools.
 > Let op: moreutils is geen commando, maar een set van commando's.
-> More information: <https://joeyh.name/code/moreutils/>.
+> Meer informatie: <https://joeyh.name/code/moreutils/>.
 
 - Bekijk de documentatie voor pagina's gerelateerd aan standaard streams:
 
