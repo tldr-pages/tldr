@@ -20,6 +20,6 @@
 
 `simplehttpserver -upload -header '{{X-Powered-By: Go}}' -header '{{Server: SimpleHTTPServer}}'`
 
-- Start the HTTP server with customizable [r]ules in yaml (see documentation for DSL):
+- Start the HTTP server with customizable [r]ules in YAML (see documentation for DSL):
 
 `simplehttpserver -rules {{rules.yaml}}`
