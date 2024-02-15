@@ -12,7 +12,7 @@
 
 `sudo simplehttpserver -basic-auth {{username}}:{{password}} -path {{/var/www/html}} -listen 0.0.0.0:80`
 
-- Start the HTTP server enabling HTTPS protocol using a self-signed certificate with custom SAN on all interfaces:
+- Start the HTTP server, enabling HTTPS using a self-signed certificate with custom SAN on all interfaces:
 
 `sudo simplehttpserver -https -domain {{*.selfsigned.com}} -listen 0.0.0.0:443`
 
