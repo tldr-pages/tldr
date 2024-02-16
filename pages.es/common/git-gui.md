@@ -10,7 +10,7 @@
 
 - Muestra un archivo específico con el nombre del autor y el hash de confirmación en cada línea:
 
-`git gui culpa {{ruta/al/archivo}}`
+`git gui blame {{ruta/al/archivo}}`
 
 - Abre `git gui blame` en una revisión específica:
 
