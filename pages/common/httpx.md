@@ -32,6 +32,6 @@
 
 `httpx -u {{host1}},{{host2}},{{hostN}} -mc {{200,301,304}}`
 
-- Run a probe against a URL [s]aving [s]creenshots of certain paths, with [s]creenshot [t]imeouts (assets are saved in ./output):
+- Run a probe against a URL [s]aving [s]creenshots of certain paths, with [s]creenshot [t]imeouts (assets are saved in `./output`):
 
 `httpx -u {{https://www.github.com}} -path {{/tldr-pages/tldr,/projectdiscovery/httpx}} -ss -st {{10}}`
