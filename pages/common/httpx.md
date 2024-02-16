@@ -22,15 +22,15 @@
 
 - Run a probe against a list of hosts with custom defined [p]orts and timeout after certain seconds:
 
-`httpx -probe -u {{host1}},{{host2}},{{hostN}} -p http:{{80,8000-8080}},https:{{443,8443}} -timeout {{10}}`
+`httpx -probe -u {{host1,host2,...}} -p http:{{80,8000-8080}},https:{{443,8443}} -timeout {{10}}`
 
 - Run a probe against a list of hosts [f]iltering out [c]odes of certain responses:
 
-`httpx -u {{host1}},{{host2}},{{hostN}} -fc {{400,401,404}}`
+`httpx -u {{host1,host2,...}} -fc {{400,401,404}}`
 
 - Run a probe against a list of hosts [m]atching [c]odes of certain responses:
 
-`httpx -u {{host1}},{{host2}},{{hostN}} -mc {{200,301,304}}`
+`httpx -u {{host1,host2,...}} -mc {{200,301,304}}`
 
 - Run a probe against a URL [s]aving [s]creenshots of certain paths, with [s]creenshot [t]imeouts (assets are saved in `./output`):
 
