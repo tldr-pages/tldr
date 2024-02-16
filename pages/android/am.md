@@ -3,7 +3,7 @@
 > Android activity manager.
 > More information: <https://developer.android.com/studio/command-line/adb#am>.
 
-- Start an activity with the specific component and package [n]ames:
+- Start the activity with a specific component and package [n]ame:
 
 `am start -n {{com.android.settings/.Settings}}`
 
