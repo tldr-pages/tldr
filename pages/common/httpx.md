@@ -16,7 +16,7 @@
 
 `httpx -rl {{150}} -l {{file_containing_newline_separate_hosts}} -td -rt`
 
-- Run a probe against a URL showing webpage title, CDN/WAF in use, and page content hash:
+- Run a probe against a [u]RL showing its webpage title, CDN/WAF in use, and page content hash:
 
 `httpx -u {{url}} -title -cdn -hash {{sha256}}`
 
