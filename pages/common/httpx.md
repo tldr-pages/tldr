@@ -4,7 +4,7 @@
 > (Note that this is not the Python HTTPX which has the exact same command name).
 > More information: <https://github.com/projectdiscovery/httpx>.
 
-- Run a probe against a URL, host, IP Address or subnet (CIDR notation) showing probe status:
+- Run a probe against a [u]RL, host, IP Address or subnet (CIDR notation) showing probe status:
 
 `httpx -probe -u {{url|host|ipaddress|subnet_with_cidr}}`
 
