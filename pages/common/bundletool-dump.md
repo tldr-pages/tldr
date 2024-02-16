@@ -1,7 +1,7 @@
 # bundletool dump
 
 > Manipulate Android Application Bundles.
-> More information: <https://developer.android.com/studio/command-line/bundletool>.
+> More information: <https://developer.android.com/tools/bundletool>.
 
 - Display the `AndroidManifest.xml` of the base module:
 
