@@ -14,7 +14,7 @@
 
 - Run a [r]ate [l]imited probe against a [l]ist of hosts from a file showing [t]echnology [d]etected and [r]esponse [t]ime:
 
-`httpx -rl {{150}} -l {{file_containing_newline_separate_hosts}} -td -rt`
+`httpx -rl {{150}} -l {{path/to/newline_separated_hosts_list}} -td -rt`
 
 - Run a probe against a [u]RL showing its webpage title, CDN/WAF in use, and page content hash:
 
