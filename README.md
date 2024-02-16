@@ -70,6 +70,12 @@ Or Linux and Mac users can also install the official [Rust Client](https://githu
 brew install tlrc
 ```
 
+On Fedora, you can install the official [Python client](https://github.com/tldr-pages/tldr-python-client) from the Fedora official repository:
+
+```shell
+dnf install tldr
+```
+
 Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
 accessible through typing `tldr tar` instead of the standard `man tar`.
 
