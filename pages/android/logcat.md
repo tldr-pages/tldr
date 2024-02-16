@@ -1,7 +1,7 @@
 # logcat
 
 > Dump a log of system messages, including stack traces when an error occurred, and information messages logged by applications.
-> More information: <https://developer.android.com/studio/command-line/logcat>.
+> More information: <https://developer.android.com/tools/logcat>.
 
 - Display system logs:
 
