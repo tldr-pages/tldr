@@ -1,6 +1,6 @@
 # httpx
 
-> A fast and multi-purpose HTTP toolkit written in Go that allows running multiple probes.
+> A fast and multi-purpose HTTP toolkit written in Go to run multiple probes at once.
 > (Note that this is not the Python HTTPX which has the exact same command name).
 > More information: <https://github.com/projectdiscovery/httpx>.
 
