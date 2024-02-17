@@ -22,11 +22,11 @@
 
 - Install the right combination of APKs to an emulator or device:
 
-`bundletool install-apks --apks  {{path/to/file.apks}}`
+`bundletool install-apks --apks {{path/to/file.apks}}`
 
 - Estimate the download size of an application:
 
-`bundletool get-size total --apks  {{path/to/file.apks}}`
+`bundletool get-size total --apks {{path/to/file.apks}}`
 
 - Generate a device specification JSON file for an emulator or device:
 
