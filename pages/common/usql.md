@@ -3,9 +3,9 @@
 > Universal CLI interface for SQL databases.
 > More information: <https://github.com/xo/usql>.
 
-- Connect to a specific database with SSL disabled:
+- Connect to a specific database:
 
-`usql {{sqlserver|mysql|postgres|sqlite3|...}}://{{username}}:{{password}}@{{host}}:{{port}}/{{database_name}}?sslmode=disable`
+`usql {{sqlserver|mysql|postgres|sqlite3|...}}://{{username}}:{{password}}@{{host}}:{{port}}/{{database_name}}`
 
 - Execute commands from a file:
 
