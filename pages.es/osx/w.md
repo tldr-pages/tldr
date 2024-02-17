@@ -2,7 +2,7 @@
 
 > Muestra quién está conectado y qué está haciendo.
 > Imprime el inicio de sesión del usuario, TTY, host remoto, tiempo de inicio de sesiòn, tiempo de inactividad, proceso actual.
-> Más información: <https://ss64.com/osx/w.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/w.1.html>.
 
 - Muestra información de los usuarios conectados:
 

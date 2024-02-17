@@ -8,18 +8,18 @@
 
 `axel {{url}}`
 
-- Download and specify filename:
+- Download and specify an [o]utput file:
 
 `axel {{url}} -o {{path/to/file}}`
 
-- Download with multiple connections:
+- Download with a specific [n]umber connections:
 
 `axel -n {{connections_num}} {{url}}`
 
-- Search for mirrors:
+- [S]earch for mirrors:
 
 `axel -S {{mirrors_num}} {{url}}`
 
-- Limit download speed (bytes per second):
+- Limit download [s]peed (bytes per second):
 
 `axel -s {{speed}} {{url}}`

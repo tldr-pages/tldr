@@ -2,7 +2,7 @@
 
 > Zip archive alignment tool.
 > Part of the Android SDK build tools.
-> More information: <https://developer.android.com/studio/command-line/zipalign>.
+> More information: <https://developer.android.com/tools/zipalign>.
 
 - Align the data of a ZIP file on 4-byte boundaries:
 

@@ -1,6 +1,6 @@
 # tye
 
-> Developer tool that makes developing, testing, and deploying microservices and distributed applications easier.
+> Develop, test, and deploy microservices and distributed applications easily.
 > More information: <https://github.com/dotnet/tye>.
 
 - Scaffold a `tye.yaml` file representing the application:

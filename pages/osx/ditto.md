@@ -1,7 +1,7 @@
 # ditto
 
 > Copy files and directories.
-> More information: <https://ss64.com/osx/ditto.html>.
+> More information: <https://keith.github.io/xcode-man-pages/ditto.1.html>.
 
 - Overwrite contents of destination directory with contents of source directory:
 

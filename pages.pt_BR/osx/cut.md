@@ -1,7 +1,7 @@
 # cut
 
 > Recorta campos de `stdin` ou arquivos.
-> Mais informações: <https://manned.org/man/freebsd-13.0/cut.1>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/cut.1.html>.
 
 - Imprime um intervalo específico de caracteres/campos de cada linha:
 

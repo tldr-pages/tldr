@@ -4,26 +4,26 @@
 > Transmission isn't a command, but a set of commands. See the pages below.
 > More information: <https://transmissionbt.com/>.
 
-- Show the tldr page for running Transmission's daemon:
+- View documentation for running Transmission's daemon:
 
 `tldr transmission-daemon`
 
-- Show the tldr page for interacting with the daemon:
+- View documentation for interacting with the daemon:
 
 `tldr transmission-remote`
 
-- Show the tldr page for creating torrent files:
+- View documentation for creating torrent files:
 
 `tldr transmission-create`
 
-- Show the tldr page for modifying torrent files:
+- View documentation for modifying torrent files:
 
 `tldr transmission-edit`
 
-- Show the tldr page for getting info about torrent files:
+- View documentation for getting info about torrent files:
 
 `tldr transmission-show`
 
-- Show the tldr page for the deprecated method for interacting with the daemon:
+- View documentation for the deprecated method for interacting with the daemon:
 
 `tldr transmission-cli`

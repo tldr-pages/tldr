@@ -1,7 +1,7 @@
 # ul
 
 > Performs the underlining of a text.
-> Each character in a given string must be underlined separately.
+> Each character in a string must be underlined separately.
 > More information: <https://manned.org/ul>.
 
 - Display the contents of the file with underlines where applicable:

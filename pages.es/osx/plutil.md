@@ -1,7 +1,7 @@
 # plutil
 
 > Ve, convierte, valida o edita archivos de listas de propiedades ("plist").
-> Más información: <https://www.manpagez.com/man/1/plutil/>.
+> Más información: <https://keith.github.io/xcode-man-pages/plutil.1.html>.
 
 - Muestra el contenido de uno o más archivos plist en un formato legible por humanos:
 

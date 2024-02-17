@@ -31,6 +31,6 @@
 
 `repair-bde {{C:}} -LogFile {{path\to\file}}`
 
-- Display all available options:
+- Display help:
 
 `repair-bde /?`

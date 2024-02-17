@@ -1,6 +1,6 @@
 # git obliterate
 
-> Delete specific files and erase their history from a Git repository.
+> Delete files and erase their history from a Git repository.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-obliterate>.
 

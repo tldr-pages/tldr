@@ -21,4 +21,4 @@
 
 - Start a REPL with a colon-separated list of directories for finding source files:
 
-`ghci -i{{path/to/directory1}}:{{path/to/directory2}}`
+`ghci -i{{path/to/directory1:path/to/directory2:...}}`

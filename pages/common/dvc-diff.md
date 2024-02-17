@@ -9,7 +9,7 @@
 
 - Compare the changes in DVC tracked files from 1 Git commit to another:
 
-`dvc diff {{revision_b}} {{revision_a}}`
+`dvc diff {{revision1}} {{revision2}}`
 
 - Compare DVC tracked files, along with their latest hash:
 

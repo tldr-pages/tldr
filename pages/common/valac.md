@@ -8,10 +8,10 @@
 
 `valac {{path/to/file.vala}} --pkg {{gtk+-3.0}}`
 
-- Display version info:
-
-`valac --version`
-
-- Display helper message:
+- Display help:
 
 `valac --help`
+
+- Display version:
+
+`valac --version`

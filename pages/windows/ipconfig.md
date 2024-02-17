@@ -3,7 +3,7 @@
 > Display and manage the network configuration of Windows.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
 
-- Show a list of network adapters:
+- List all network adapters:
 
 `ipconfig`
 

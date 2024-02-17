@@ -1,6 +1,6 @@
 # bpftool
 
-> Tool for inspection and simple manipulation of eBPF programs and maps.
+> Inspect and manipulate eBPF programs and maps in a simple way.
 > Some subcommands such as `bpftool prog` have their own usage documentation.
 > More information: <https://manned.org/bpftool>.
 

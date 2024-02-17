@@ -1,7 +1,7 @@
 # cupsdisable
 
 > Stop printers and classes.
-> NOTE: destination is referred as a printer or a class of printers.
+> Note: destination is referred as a printer or a class of printers.
 > See also: `cupsenable`, `cupsaccept`, `cupsreject`, `lpstat`.
 > More information: <https://openprinting.github.io/cups/doc/man-cupsenable.html>.
 

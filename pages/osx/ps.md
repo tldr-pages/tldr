@@ -1,7 +1,7 @@
 # ps
 
 > Information about running processes.
-> More information: <https://www.unix.com/man-page/osx/1/ps/>.
+> More information: <https://keith.github.io/xcode-man-pages/ps.1.html>.
 
 - List all running processes:
 

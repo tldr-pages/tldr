@@ -1,6 +1,6 @@
 # doctl apps
 
-> Used to manage digitalocean apps.
+> Manage DigitalOcean apps.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/apps>.
 
 - Create an app:

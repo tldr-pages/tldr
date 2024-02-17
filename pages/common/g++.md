@@ -22,7 +22,7 @@
 
 - Compile and link multiple source code files into an executable binary:
 
-`g++ -c {{path/to/source_1.cpp path/to/source_2.cpp ...}} && g++ -o {{path/to/output_executable}} {{path/to/source_1.o path/to/source_2.o ...}}`
+`g++ -c {{path/to/source1.cpp path/to/source2.cpp ...}} && g++ -o {{path/to/output_executable}} {{path/to/source1.o path/to/source2.o ...}}`
 
 - Optimize the compiled program for performance:
 

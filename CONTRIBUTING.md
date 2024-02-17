@@ -190,7 +190,7 @@ The latest version of [NodeJS](https://nodejs.org) is required to install `tldr-
 npm install --global tldr-lint
 ```
 
-Once its installed, you can test your page by running the following command:
+Once it is installed, you can test your page by running the following command:
 
 ```sh
 tldr-lint {{path/to/page.md}}
@@ -224,9 +224,9 @@ To commit a suggestion to your pull request, click on `Commit suggestion`:
 
 If you want to commit multiple suggestions, go to the "Files changed" tab and batch all suggestions. Now, click the `Commit suggestions` button and enter a commit message to create a single commit.
 
-### Commit message
+### Commit message and PR title
 
-For the commit message of page changes, use the following format:
+For the commit message and PR title of page changes, use the following format:
 
 `{{command}}: type of change`
 
@@ -236,11 +236,18 @@ Where `{{command}}` is the name of the command being modified, and `type of chan
 - For a page edit: `cat: fix typo`, `git-push: add --force example`
 - For a new translation of an existing page: `cp: add Tamil translation`
 - For a modification to the translation of an existing page: `cp: fix typo in Tamil translation`
-- For related changes to several pages: `grep, find, locate: synchronize format of wildcards`
+- For related changes to some pages: `grep, find, locate: synchronize format of wildcards`
+- For related changes to several unrelated pages: `pages*: fix Linux casing`
 - For multiple subcommand page additions: `git-{add, push, ...}: add page`
 - For modifying multiple pages in a language: `pages.<locale>/*: update pages`
 
-For other cases, its suggested to follow <https://www.conventionalcommits.org/> as much as possible.
+For script changes, the commit message and the PR title can be (but not limited to) one of the following examples:
+
+- For a new script addition: `scripts/{{script_name}}: add script`
+- For a script edit: `scripts/set-alias-page: fix performance issue`
+- For changes that affect multiple scripts: `scripts: replace insecure library`
+
+For other cases, it is suggested to follow <https://www.conventionalcommits.org/> as much as possible.
 
 ## Name collisions
 

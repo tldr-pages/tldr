@@ -1,6 +1,6 @@
 # yacc
 
-> Generate an LALR parser (in C) with a given formal grammar specification file.
+> Generate an LALR parser (in C) with a formal grammar specification file.
 > See also: `bison`.
 > More information: <https://manned.org/man/yacc.1p>.
 

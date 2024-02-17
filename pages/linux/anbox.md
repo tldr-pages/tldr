@@ -1,6 +1,6 @@
 # anbox
 
-> Run Android applications on any GNU/Linux operating system.
+> Run Android applications on any Linux operating system.
 > More information: <https://manned.org/anbox>.
 
 - Launch Anbox into the app manager:

@@ -23,7 +23,7 @@
 
 `monodis --method {{path/to/assembly.exe}}`
 
-- Show a list of resources embedded within an assembly:
+- List resources embedded within an assembly:
 
 `monodis --manifest {{path/to/assembly.dll}}`
 

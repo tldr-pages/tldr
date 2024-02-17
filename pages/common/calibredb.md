@@ -1,6 +1,6 @@
 # calibredb
 
-> Tool to manipulate the your e-book database.
+> Manipulate an e-book database.
 > Part of the Calibre e-book library.
 > More information: <https://manual.calibre-ebook.com/generated/en/calibredb.html>.
 

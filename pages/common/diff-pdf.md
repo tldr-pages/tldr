@@ -1,6 +1,6 @@
 # diff-pdf
 
-> Tool for comparing two PDFs.
+> Compare two PDFs.
 > More information: <https://github.com/vslavik/diff-pdf>.
 
 - Compare PDFs, indicating changes using return codes (`0` = no difference, `1` = PDFs differ):

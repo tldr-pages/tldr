@@ -16,6 +16,6 @@
 
 `dot {{path/to/input.gv}} | edgepaint | dot -T {{png}} > {{path/to/output.png}}`
 
-- Display help for `edgepaint`:
+- Display help:
 
 `edgepaint -?`

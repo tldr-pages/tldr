@@ -8,10 +8,10 @@
 
 `vala {{path/to/file.vala}} --pkg {{gtk+-3.0}}`
 
-- Display version info:
-
-`vala --version`
-
-- Display helper message:
+- Display help:
 
 `vala --help`
+
+- Display version:
+
+`vala --version`

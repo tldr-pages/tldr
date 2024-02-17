@@ -2,7 +2,7 @@
 
 > Provides distributed notification services.
 > It should not be invoked manually.
-> More information: <https://www.manpagez.com/man/8/distnoted/>.
+> More information: <https://keith.github.io/xcode-man-pages/distnoted.8.html>.
 
 - Start the daemon:
 

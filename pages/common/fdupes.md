@@ -1,6 +1,6 @@
 # fdupes
 
-> Finds duplicate files in a given set of directories.
+> Finds duplicate files in a set of directories.
 > More information: <https://github.com/adrianlopezroche/fdupes>.
 
 - Search a single directory:

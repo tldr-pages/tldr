@@ -34,4 +34,4 @@
 
 - Generate a Dot graph of a specific task execution (the output file format can be controlled with the filename):
 
-`turbo run {{task_name}} --graph={{path/to/file}}.{{html|jpg|json|pdf|png|svg}}`
+`turbo run {{task_name}} --graph={{path/to/file.html|jpg|json|pdf|png|svg}}`

@@ -15,6 +15,6 @@
 
 `cs launch {{group_id}}:{{artifact_id}}:{{artifact_version}} --main-class {{path/to/main_class_file}}`
 
-- Launch an application with specific java options and a jvm memory ones:
+- Launch an application with specific Java options and JVM memory ones:
 
 `cs launch --java-opt {{-Doption_name1:option_value1 -Doption_name2:option_value2 ...}} --java-opt {{-Xjvm_option1 -Xjvm_option2 ...}} {{application_name}}`

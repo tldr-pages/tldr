@@ -5,7 +5,7 @@
 
 - Extract the sound from a video and save it as MP3:
 
-`ffmpeg -i {{path/to/video.mp4}} -vn {{path/to/sound}}.mp3`
+`ffmpeg -i {{path/to/video.mp4}} -vn {{path/to/sound.mp3}}`
 
 - Save a video as GIF, scaling the height to 1000px and setting framerate to 15:
 

@@ -1,6 +1,6 @@
 # virsh
 
-> virsh 게스트 도메인을 관리합니다. (NOTE: 'guest_id'는 게스트의 아이디, 이름 또는 UUID일 수 있습니다).
+> virsh 게스트 도메인을 관리합니다. (Note: 'guest_id'는 게스트의 아이디, 이름 또는 UUID일 수 있습니다).
 > `virsh list`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
 > 더 많은 정보: <https://libvirt.org/virshcmdref.html>.
 

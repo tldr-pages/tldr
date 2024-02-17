@@ -1,6 +1,6 @@
 # banner
 
-> Print the given argument as a large ASCII art.
+> Print the argument as a large ASCII art.
 > More information: <https://manned.org/banner>.
 
 - Print the text message as a large banner (quotes are optional):

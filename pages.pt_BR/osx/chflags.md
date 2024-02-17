@@ -1,7 +1,7 @@
 # chflags
 
 > Altera flags de arquivo ou diretório.
-> Mais informações: <https://ss64.com/osx/chflags.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/chflags.1.html>.
 
 - Define a flag `hidden` para um arquivo:
 
