@@ -30,3 +30,7 @@
 - Build all configured components:
 
 `kdesrc-build`
+
+- If a component fails to build, use system libraries in its place:
+
+`kdesrc-build --no-stop-on-failure {{component_name}}`
