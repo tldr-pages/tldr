@@ -53,7 +53,7 @@ for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line 
 A popular and convenient way to access these pages on your computer
 is to install the official [Node.js client](https://github.com/tldr-pages/tldr-node-client):
 
-```sh
+```shell
 npm install -g tldr
 ```
 
