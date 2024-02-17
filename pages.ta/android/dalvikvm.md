@@ -1,7 +1,7 @@
 # dalvikvm
 
 > ஆண்ட்ராய்டு ஜாவா மெய்நிகர் இயந்திரம்.
-> மேலும் விவரத்திற்கு: <https://source.android.com/devices/tech/dalvik>.
+> மேலும் விவரத்திற்கு: <https://developer.android.com/tools/#art_and_dalvik>.
 
 - ஒரு குறிப்பிட்ட ஜாவா நிரலைத் தொடங்கவும்:
 

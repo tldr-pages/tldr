@@ -1,7 +1,7 @@
 # am
 
 > एंड्रॉइड गतिविधि प्रबंधक।
-> अधिक जानकारी: <https://developer.android.com/studio/command-line/adb#am>।
+> अधिक जानकारी: <https://developer.android.com/tools/adb#am>।
 
 - एक विशिष्ट गतिविधि प्रारंभ करें:
 

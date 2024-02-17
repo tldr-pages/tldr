@@ -1,7 +1,7 @@
 # am
 
 > Manajer aktivitas untuk Android.
-> Informasi lebih lanjut: <https://developer.android.com/studio/command-line/adb#am>.
+> Informasi lebih lanjut: <https://developer.android.com/tools/adb#am>.
 
 - Mulaikan aktivitas tertentu:
 

@@ -1,7 +1,7 @@
 # logcat
 
 > Zrzut dziennika komunikatów systemowych.
-> Więcej informacji: <https://developer.android.com/studio/command-line/logcat>.
+> Więcej informacji: <https://developer.android.com/tools/logcat>.
 
 - Wyświetl logi systemowe:
 

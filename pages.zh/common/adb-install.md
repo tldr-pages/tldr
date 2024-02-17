@@ -1,7 +1,7 @@
 # adb install
 
 > 安卓调试桥 -Install: 将应用安装包推送到 Android 模拟器或已连接的安卓设备。
-> 更多信息：<https://developer.android.com/studio/command-line/adb>.
+> 更多信息：<https://developer.android.com/tools/adb>.
 
 - 向模拟器/设备推送安卓 app：
 

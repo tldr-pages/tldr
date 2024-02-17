@@ -1,7 +1,7 @@
 # pm
 
 > Executa ações e consultas em pacotes de apps instalados no dispositivo.
-> Mais informações: <https://developer.android.com/studio/command-line/adb#pm>.
+> Mais informações: <https://developer.android.com/tools/adb#pm>.
 
 - Exibe uma lista com todos os apps instalados:
 

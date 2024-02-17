@@ -1,7 +1,7 @@
 # adb
 
 > Android Debug Bridge: komunikuj się z instancją emulatora Androida lub podłączonym urządzeniem z Androidem.
-> Więcej informacji: <https://developer.android.com/studio/command-line/adb>.
+> Więcej informacji: <https://developer.android.com/tools/adb>.
 
 - Sprawdź czy proces serwera adb działa, jeśli nie, uruchom go:
 

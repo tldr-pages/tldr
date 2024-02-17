@@ -1,7 +1,7 @@
 # pm
 
 > Tampilkan daftar pemasangan aplikasi di dalam sebuah perangkat Android.
-> Informasi lebih lanjut: <https://developer.android.com/studio/command-line/adb#pm>.
+> Informasi lebih lanjut: <https://developer.android.com/tools/adb#pm>.
 
 - Tampilkan daftar seluruh aplikasi yang terpasang:
 

@@ -1,7 +1,7 @@
 # dalvikvm
 
 > Macchina virtuale Java per Android.
-> Maggiori informazioni: <https://source.android.com/devices/tech/dalvik>.
+> Maggiori informazioni: <https://developer.android.com/tools/#art_and_dalvik>.
 
 - Lancia un programma Java:
 

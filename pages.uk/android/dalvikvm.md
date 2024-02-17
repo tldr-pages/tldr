@@ -1,7 +1,7 @@
 # dalvikvm
 
 > Віртуальна машина Android Java.
-> Більше інформації: <https://source.android.com/devices/tech/dalvik>.
+> Більше інформації: <https://developer.android.com/tools/#art_and_dalvik>.
 
 - Запустити конкретну Java програму:
 

@@ -1,7 +1,7 @@
 # dalvikvm
 
 > ماشین مجازی اندروید.
-> اطلاعات بیشتر: <https://source.android.com/devices/tech/dalvik>.
+> اطلاعات بیشتر: <https://developer.android.com/tools/#art_and_dalvik>.
 
 - اجرای یک برنامه جاوا :
 

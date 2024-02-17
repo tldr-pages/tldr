@@ -1,7 +1,7 @@
 # am
 
 > Android faoliyat boshqaruvi.
-> Ko'proq malumot: <https://developer.android.com/studio/command-line/adb#am>.
+> Ko'proq malumot: <https://developer.android.com/tools/adb#am>.
 
 - Anniq bir faoliyatni boshlash:
 
