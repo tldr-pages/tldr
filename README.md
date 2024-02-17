@@ -50,6 +50,10 @@ for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line 
 
 ## How do I use it?
 
+> [!TIP]
+> For browsing without installing a client to your computer,
+> see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
+
 A popular and convenient way to access these pages on your computer
 is to install the official [Node.js client](https://github.com/tldr-pages/tldr-node-client):
 
@@ -74,9 +78,6 @@ accessible through typing `tldr tar` instead of the standard `man tar`.
 
 If you don't want to install any software,
 check out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
-
-For browsing without installing a client to your computer,
-see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
 
 There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
