@@ -1,6 +1,6 @@
 # pamtofits
 
-> Convert a Netpbm image into the Flexible Image Transport System (FITS) format.
+> Convert a Netpbm image to the Flexible Image Transport System (FITS) format.
 > See also: `fitstopnm`.
 > More information: <https://netpbm.sourceforge.net/doc/pamtofits.html>.
 

@@ -1,6 +1,6 @@
 # fitstopnm
 
-> Convert a Flexible Image Transport System (FITS) file into a PNM image.
+> Convert a Flexible Image Transport System (FITS) file to a PNM image.
 > See also: `pamtofits`.
 > More information: <https://netpbm.sourceforge.net/doc/fitstopnm.html>.
 

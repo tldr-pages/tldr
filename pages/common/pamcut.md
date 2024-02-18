@@ -1,6 +1,6 @@
 # pamcut
 
-> Cur out a rectangular region from a Netpbm image.
+> Cut out a rectangular region from a Netpbm image.
 > See also: `pamcrop`, `pamdice`, `pamcomp`.
 > More information: <https://netpbm.sourceforge.net/doc/pamcut.html>.
 
