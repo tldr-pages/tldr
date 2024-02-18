@@ -7,7 +7,7 @@
 
 `banner "{{Hello World}}"`
 
-- Use a 50 characters banner [w]idth:
+- Use a banner [w]idth of 50 characters:
 
 `banner -w 50 "{{Hello World}}"`
 
