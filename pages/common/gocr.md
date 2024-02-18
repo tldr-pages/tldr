@@ -1,6 +1,7 @@
 # gocr
 
 >  Optical Character Recognition tool
+> Recognize characters using its engine, and prompt the user for unknown patterns to store them in a daabase
 > More information: <https://manned.org/gocr.1>.
 
 - Recognize characters in the [i]nput image and [o]utput it in the given file. Put the database [p] in {{./existing/db/folder/}} (verify that the folder exists or db usage will silently be skipped). [m]ode 130 means create + use + extend database:
