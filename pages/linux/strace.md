@@ -26,3 +26,7 @@
 - Start tracing file operations of a program:
 
 `strace -e trace=file {{program}}`
+
+- Start tracing network operations of a program as well as all its [f]orked and child processes, saving the [o]utput to a file:
+
+`strace -f -e trace=network -o {{trace.txt}} {{program}}`
