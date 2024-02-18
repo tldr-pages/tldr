@@ -31,6 +31,6 @@
 
 `kdesrc-build`
 
-- If a component fails to build, use system libraries in its place:
+- Use system libraries in its place if a component fails to build:
 
 `kdesrc-build --no-stop-on-failure {{component_name}}`
