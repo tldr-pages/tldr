@@ -1,6 +1,6 @@
 # vcpkg
 
-> C/C++ package manager.
+> Package manager for C/C++ libraries.
 > Note: packages are not installed in the system. To use them, you need to tell your build system (e.g. cmake) to use vckg.
 > More information: <https://learn.microsoft.com/en-us/vcpkg/>.
 
@@ -14,8 +14,8 @@
 
 - Search for a package:
 
-`vcpkg search {pkg_name}`
+`vcpkg search {{pkg_name}}`
 
 - Configure a cmake project to use vcpkg packages (replace $VCPKG_ROOT with the install folder of vcpkg):
 
-`cmake -B build -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake`
+`cmake -B build -DCMAKE_TOOLCHAIN_FILE={{path/to/vcpkg_install_directory}}/scripts/buildsystems/vcpkg.cmake`
