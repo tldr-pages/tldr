@@ -12,7 +12,7 @@
 
 `bedtools intersect -a {{path/to/file1}} -b {{path/to/file2}} -loj > {{path/to/output_file}}`
 
-- Using more efficient algorithm to intersect two pre-[sorted] files:
+- Using more efficient algorithm to intersect two pre-sorted files:
 
 `bedtools intersect -a {{path/to/file1}} -b {{path/to/file2}} -sorted > {{path/to/output_file}}`
 
