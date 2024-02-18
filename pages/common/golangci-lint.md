@@ -1,7 +1,7 @@
 # golangci-lint
 
 > Smart, fast linters runner for Go.
-> More information: <https://golangci-lint.run/>.
+> More information: <https://golangci-lint.run/usage/quick-start/>.
 
 - Run linters in current folder
 
