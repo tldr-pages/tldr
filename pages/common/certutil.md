@@ -21,4 +21,4 @@
 
 - Add subject alternative names to a given [c]ertificate with a specific key size ([g]):
 
-`certutil -S -f {{path/to/password_file.txt}} -d . -t ",," -c "{{server_certificate}}" -n "{{server_name}}" -g {{512..16384}} -s "CN={{common_name}},O={{organization}}"`
+`certutil -S -f {{path/to/password_file.txt}} -d . -t ",," -c "{{server_certificate}}" -n "{{server_name}}" -g {{2048}} -s "CN={{common_name}},O={{organization}}"`
