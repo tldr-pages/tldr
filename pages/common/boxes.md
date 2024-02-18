@@ -27,6 +27,6 @@
 
 `echo "{{string}}" | boxes -a v{{t|c|b}}`
 
-- [j]ustificate the box text (at [l]eft, [c]enter or [r]ight):
+- [j]ustify the box text (at [l]eft, [c]enter or [r]ight):
 
 `echo "{{string}}" | boxes -a j{{l|c|r}}{{vt}}`
