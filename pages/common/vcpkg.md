@@ -16,6 +16,6 @@
 
 `vcpkg search {pkg_name}`
 
-- Configure a cmake project to use vcpkg (replace $VCPKG_ROOT with the install folder of vcpkg):
+- Configure a cmake project to use vcpkg packages (replace $VCPKG_ROOT with the install folder of vcpkg):
 
 `cmake -B build -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake`
