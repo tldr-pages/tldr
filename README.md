@@ -51,7 +51,7 @@ for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line 
 ## How do I use it?
 
 > [!TIP]
-> For browsing without installing a client to your computer,
+> For browsing without installing a client on your computer,
 > see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
 
 A popular and convenient way to access these pages on your computer
