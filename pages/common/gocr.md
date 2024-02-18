@@ -6,7 +6,7 @@
 
 - Recognize characters in the [i]nput image and [o]utput it in the given file. Put the database ([p]) in {{./existing/db/folder/}} (verify that the folder exists or db usage will silently be skipped). [m]ode 130 means create + use + extend database:
 
-`gocr -m 130 -p {{./exising/db/folder/}} -i {{input/image.png}} -o {{output/file.txt}}`
+`gocr -m 130 -p {{path/to/existing_db_folder}} -i {{path/to/input_image.png}} -o {{path/to/output_file.txt}}`
 
 - Recognize characters, and assume all characters are numbers [C]:
 
