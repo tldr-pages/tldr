@@ -16,7 +16,7 @@
 
 `bedtools intersect -a {{path/to/file1}} -b {{path/to/file2}} -sorted > {{path/to/output_file}}`
 
-- [g]roup file `path/to/file` based on the first three and the fifth [c]olumn and apply the sum [o]peration on the sixth column:
+- [g]roup a file based on the first three and the fifth [c]olumn and apply the sum [o]peration on the sixth column:
 
 `bedtools groupby -i {{path/to/file}} -c 1-3,5 -g 6 -o sum`
 
