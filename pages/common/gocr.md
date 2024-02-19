@@ -8,7 +8,7 @@
 
 `gocr -m 130 -p {{path/to/db_directory}} -i {{path/to/input_image.png}} -o {{path/to/output_file.txt}}`
 
-- Recognize characters, and assume all [C]haracters are numbers:
+- Recognize characters and assume all [C]haracters are numbers:
 
 `gocr -m 130 -p {{path/to/db_directory}} -i {{path/to/input_image.png}} -o {{path/to/output_file.txt}} -C "{{0..9}}"`
 
