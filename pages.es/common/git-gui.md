@@ -32,6 +32,6 @@
 
 `git gui citool --nocommit`
 
-- Muestra un navegador para el árbol de una rama específica, abriendo la herramienta de autoría al pulsar sobre los archivos:
+- Muestra un navegador para el árbol de una rama específica, abriendo la herramienta de autoría al hacer clic en los archivos:
 
 `git gui browser maint`
