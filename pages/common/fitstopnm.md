@@ -4,7 +4,7 @@
 > See also: `pamtofits`.
 > More information: <https://netpbm.sourceforge.net/doc/fitstopnm.html>.
 
-- Convert a FITS file into a PNM image:
+- Convert a FITS file to a PNM image:
 
 `fitstopnm {{path/to/file.fits}} > {{path/to/output.pnm}}`
 
