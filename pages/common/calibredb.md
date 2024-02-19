@@ -20,7 +20,7 @@
 
 `calibredb add {{file1 file2 …}}`
 
-- Recursively add all e-books under a directory to the library:
+- [r]ecursively add all e-books under a directory to the library:
 
 `calibredb add -r {{path/to/directory}}`
 
