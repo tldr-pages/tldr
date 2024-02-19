@@ -214,6 +214,8 @@ Option mnemonics may also be used in translations as long as the highlighted wor
 > [!NOTE]  
 > In cases where the character isn't present in the translated word, you can highlight the option before/next to the equivalent word or you can add the English work beside the translation inside a bracket. For example, `E[x]tract` in English maybe translated into `[x] ekstrak` or `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
 
+- Optionally, mnemonics and their enclosed terms can be separated with brackets from the rest of the description (i.e. `([a]ll)`) in translations and specific pages to provide additional context or mention a word not present in the description.
+
 ## Placeholder syntax
 
 User-provided values should use the `{{placeholder}}` syntax
@@ -287,8 +289,6 @@ Use backticks on the following:
 - Commands, e.g. `ls`.
 - Standard streams: `stdout`, `stdin`, `stderr`. **Do not** use the full names (e.g. standard output).
 - Compression algorithms, e.g. `zip`, `7z`, `xz`.
-
-- Optionally, Mnemonics and their enclosed terms can be separated with brackets from the rest of the description (i.e. `([a]ll)`) in translations and specific pages to provide additional context or mention a word not present in the description.
 
 ## Descriptions
 
