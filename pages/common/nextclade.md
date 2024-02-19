@@ -1,11 +1,15 @@
 # nextclade
 
 > Bioinformatics tool for virus genome alignment, clade assignment and qc checks.
-> More information: <https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextclade-cli.html>.
+> More information: <https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextclade-cli/index.html>.
 
-- Create a TSV report, auto-downloading the latest [d]ataset:
+- Align sequences to user provided [r]eference, [o]utputting the alignment to a file:
 
-`nextclade run -d {{dataset_name}} {{path/to/fasta}} -t {{path/to/output_tsv}}`
+`nextclade run {{path/to/sequences.fa}} -r {{path/to/reference.fa}} -o {{path/to/alignment.fa}}`
+
+- Create a [t]SV report, auto-downloading the latest [d]ataset:
+
+`nextclade run {{path/to/fasta}} -d {{dataset_name}} -t {{path/to/report.tsv}}`
 
 - List all available datasets:
 
@@ -17,7 +21,7 @@
 
 - Use a downloaded [D]ataset, producing all [O]utputs:
 
-`nextclade run -D {{path/to/dataset_dir}} -O {{path/to/output_dir}} {{path/to/dataset_dir/sequences.fasta}}`
+`nextclade run -D {{path/to/dataset_dir}} -O {{path/to/output_dir}} {{path/to/sequences.fasta}}`
 
 - Run on multiple files:
 
