@@ -50,21 +50,24 @@ for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line 
 
 ## How do I use it?
 
-A popular and convenient way to access these pages on your computer
-is to install the [Node.js client](https://github.com/tldr-pages/tldr-node-client),
-which is supported by the tldr-pages project maintainers:
+> [!TIP]
+> For browsing without installing a client on your computer,
+> see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
 
-```sh
+A popular and convenient way to access these pages on your computer
+is to install the official [Node.js client](https://github.com/tldr-pages/tldr-node-client):
+
+```shell
 npm install -g tldr
 ```
 
-Alternatively, you can also use the official [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via [pip3](https://pypi.org/project/tldr/).
+Alternatively, you can also use the official [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via [pip3](https://pypi.org/project/tldr/) (or [other package managers](https://github.com/tldr-pages/tldr-python-client#installation)):
 
 ```shell
 pip3 install tldr
 ```
 
-Or Linux and Mac users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc):
+Linux and Mac users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc) (or [other package managers](https://github.com/tldr-pages/tlrc#installation) on other operating systems):
 
 ```shell
 brew install tlrc
@@ -73,11 +76,8 @@ brew install tlrc
 Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
 accessible through typing `tldr tar` instead of the standard `man tar`.
 
-If you want an offline version without installing any software,
+If you don't want to install any software,
 check out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
-
-For browsing without installing a client to your computer,
-see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
 
 There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
