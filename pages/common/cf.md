@@ -1,6 +1,6 @@
 # cf
 
-> Command-line tool to manage apps and services on Cloud Foundry.
+> Manage apps and services on Cloud Foundry.
 > More information: <https://docs.cloudfoundry.org>.
 
 - Log in to the Cloud Foundry API:

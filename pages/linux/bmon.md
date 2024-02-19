@@ -11,10 +11,10 @@
 
 `bmon -b`
 
-- Set policy to define which network interface(s) is/are displayed:
+- Specify the policy to define which network interface(s) is/are displayed:
 
 `bmon -p {{interface_1,interface_2,interface_3}}`
 
-- Set interval (in seconds) in which rate per counter is calculated:
+- Specify the interval (in seconds) in which rate per counter is calculated:
 
 `bmon -R {{2.0}}`

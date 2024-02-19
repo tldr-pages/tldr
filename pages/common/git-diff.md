@@ -3,7 +3,7 @@
 > Show changes to tracked files.
 > More information: <https://git-scm.com/docs/git-diff>.
 
-- Show unstaged, uncommitted changes:
+- Show unstaged changes:
 
 `git diff`
 

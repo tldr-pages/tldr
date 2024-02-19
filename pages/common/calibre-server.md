@@ -1,6 +1,6 @@
 # calibre-server
 
-> A server application that can be used to distribute e-books over a network.
+> A server application to distribute e-books over a network.
 > Note: e-books must already be imported into the library using the GUI or the `calibredb` CLI.
 > More information: <https://manual.calibre-ebook.com/generated/en/calibre-server.html>.
 

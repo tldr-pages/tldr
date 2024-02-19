@@ -1,6 +1,6 @@
 # rustup which
 
-> Display which binary will be run for a given command managed by `rustup`.
+> Display which binary will be run for a command managed by `rustup`.
 > Like `which`, but searches a Rust toolchain instead of `$PATH`.
 > More information: <https://rust-lang.github.io/rustup>.
 

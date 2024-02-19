@@ -1,6 +1,6 @@
 # faketime
 
-> Fake the system time for a given command.
+> Fake the system time for a command.
 > More information: <https://manned.org/faketime>.
 
 - Fake the time to this evening, before printing the result of `date`:

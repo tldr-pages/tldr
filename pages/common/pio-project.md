@@ -1,6 +1,6 @@
 # pio project
 
-> Tool to manage PlatformIO projects.
+> Manage PlatformIO projects.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/project/>.
 
 - Initialize a new PlatformIO project:

@@ -1,6 +1,6 @@
 # wami
 
-> An open-source and easy-to-use tool that recommends suitable programs for specific tasks.
+> An open-source and easy-to-use tool that recommends suitable programs for tasks.
 > More information: <https://github.com/evait-security/wami>.
 
 - Find expanded results in all categories from the lake and [S]ort them in the specified order:

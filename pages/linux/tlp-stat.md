@@ -1,6 +1,6 @@
 # tlp-stat
 
-> A tool to generate TLP status reports.
+> Generate TLP status reports.
 > See also `tlp`.
 > More information: <https://linrunner.de/tlp/usage/tlp-stat>.
 

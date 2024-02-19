@@ -1,6 +1,6 @@
 # kompose
 
-> A tool to convert docker-compose applications to Kubernetes.
+> Convert docker-compose applications to Kubernetes.
 > More information: <https://github.com/kubernetes/kompose>.
 
 - Deploy a dockerized application to Kubernetes:

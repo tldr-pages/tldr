@@ -1,6 +1,6 @@
 # textutil
 
-> Used to manipulate text files of various formats.
+> Manipulate text files of various formats.
 > More information: <https://keith.github.io/xcode-man-pages/textutil.1.html>.
 
 - Display information about `foo.rtf`:

@@ -1,6 +1,6 @@
 # printenv
 
-> Print values of all or specific environment variables.
+> Print values of all or environment variables.
 > More information: <https://www.gnu.org/software/coreutils/printenv>.
 
 - Display key-value pairs of all environment variables:

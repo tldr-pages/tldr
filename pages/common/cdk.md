@@ -23,7 +23,7 @@
 
 `cdk diff {{stack_name}}`
 
-- Create a new CDK project in the current directory for a specified language:
+- Create a new CDK project in the current directory for a specified [l]anguage:
 
 `cdk init -l {{language}}`
 
