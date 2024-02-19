@@ -4,7 +4,7 @@
 > See also: `pamdice`.
 > More information: <https://netpbm.sourceforge.net/doc/pamundice.html>.
 
-- Combine the images whose names match the `printf`-style filename expression. Assume a grid of size `x_value` times `y_value`:
+- Combine the images whose names match the `printf`-style filename expression. Assume a grid with a specific size:
 
 `pamundice {{filename_%1d_%1a.ppm}} -across {{x_value}} -down {{y_value}} > {{path/to/output.ppm}}`
 
