@@ -3,7 +3,7 @@
 > Create or copy block maps intelligently (designed to be faster than `cp` or `dd`).
 > More information: <https://source.tizen.org/documentation/reference/bmaptool>.
 
-- Create a blockmap from image file:
+- [o]utput a blockmap file from image file:
 
 `bmaptool create -o {{blockmap.bmap}} {{source.img}}`
 

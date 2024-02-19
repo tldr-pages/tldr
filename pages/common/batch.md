@@ -12,6 +12,6 @@
 
 `echo "{{./make_db_backup.sh}}" | batch`
 
-- Execute commands from a given file:
+- Execute commands from a given [f]ile:
 
 `batch -f {{path/to/file}}`
