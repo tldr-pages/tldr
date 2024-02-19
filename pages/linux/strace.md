@@ -7,7 +7,7 @@
 
 `strace -p {{pid}}`
 
-- Trace a [p]rocess and filter output by system call:
+- Trace a [p]rocess and filt[e]r output by system call:
 
 `strace -p {{pid}} -e {{system_call_name}}`
 
