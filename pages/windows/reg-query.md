@@ -19,6 +19,6 @@
 
 `reg query {{key_name}} /f "{{query_pattern}}"`
 
-- Display a value of a key matching a specified data type:
+- Display a value of a key matching a specified data [t]ype:
 
 `reg query {{key_name}} /t {{type}}`

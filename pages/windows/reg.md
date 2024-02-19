@@ -8,7 +8,27 @@
 
 `reg {{command}}`
 
-- Display general information and list all available commands:
+- View documentation for adding existing and new keys and subkeys:
+
+`tldr reg {{add|copy|load}}`
+
+- View documentation for deleting keys and subkeys:
+
+`tldr reg {{delete|unload}}`
+
+- View documentation for searching, viewing, and comparing keys:
+
+`tldr reg {{compare|flags|query}}`
+
+- View documentation for exporting and importing registry keys preserving the key ownerhips and ACL:
+
+`tldr reg {{export|import}}`
+
+- View documentation for saving and restoring registry keys not preserving the key ownerhips and ACL:
+
+`tldr reg {{save|restore}}`
+
+- Display help:
 
 `reg /?`
 
