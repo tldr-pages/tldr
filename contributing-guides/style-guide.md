@@ -182,14 +182,11 @@ In this case, provide a note and method to determine whether the command current
 
 ## Option syntax
 
-- Use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
+- For commonly/frequently used commands (e.g. `grep`, `tar`, `etc`), we prefer using short options along with[mnemonics](#short-option-mnemonics).
+- For highlighting, both long and short options combine them within a placeholder i.e. `-{{o|-output}}`.
+- Use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in `common` directory.
 - When documenting PowerShell commands, use **PowerShell-style long options** (like `-Help` instead of `-H`).
-- When long options aren't available for a command, use **short options** instead.
-- While we prefer long options, we allow special cases in commands like `pacman` where short options are widely used and preferred over the long options (for cases like these decisions will be made by the maintainers on a case-by-case basis).
 - We prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`) unless the program does not support it.
-
-> [!NOTE]  
-> The goal of using long options is to make the commands easier to read and understand for non-technical users. While it is ideal for most users, some users prefer the short option for better ease of use. If the command supports both options, we can highlight the short options using mnemonics instead.
 
 ### Short option mnemonics
 
@@ -211,10 +208,10 @@ Note that, in the first example, the `[d]`, `[t]`, and `[i]` characters are encl
 
 Option mnemonics may also be used in translations as long as the highlighted word contains similar meanings to the language (commonly English) which the command is written for. For example, `[d]ownload` in English may be translated into `[d]escargar` in Spanish, `[i]nstall` in English may be translated to `[i]nstallieren` in German, and `[a]pp` in English may be translated into `[a]plikasi` in Indonesian and Malay.
 
+- Optionally, mnemonics and their enclosed terms can be separated with brackets from the rest of the description (i.e. `([a]ll)`) in translations and specific pages to provide additional context or mention a word not present in the description.
+
 > [!NOTE]  
 > In cases where the character isn't present in the translated word, you can highlight the option before/next to the equivalent word or you can add the English work beside the translation inside a bracket. For example, `E[x]tract` in English maybe translated into `[x] ekstrak` or `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
-
-- Optionally, mnemonics and their enclosed terms can be separated with brackets from the rest of the description (i.e. `([a]ll)`) in translations and specific pages to provide additional context or mention a word not present in the description.
 
 ## Placeholder syntax
 
