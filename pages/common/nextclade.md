@@ -7,9 +7,9 @@
 
 `nextclade run {{path/to/sequences.fa}} -r {{path/to/reference.fa}} -o {{path/to/alignment.fa}}`
 
-- Create a TSV report, auto-downloading the latest [d]ataset:
+- Create a [t]SV report, auto-downloading the latest [d]ataset:
 
-`nextclade run {{path/to/fasta}} -d {{dataset_name}} -t {{path/to/output_tsv}}`
+`nextclade run {{path/to/fasta}} -d {{dataset_name}} -t {{path/to/report.tsv}}`
 
 - List all available datasets:
 
