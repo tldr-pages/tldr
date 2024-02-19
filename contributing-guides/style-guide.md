@@ -287,13 +287,15 @@ Use backticks on the following:
 - Commands, e.g. `ls`.
 - Standard streams: `stdout`, `stdin`, `stderr`. **Do not** use the full names (e.g. standard output).
 
+- Optionally, Mnemonics and their enclosed terms can be separated with brackets from the rest of the description (i.e. `([a]ll)`) in translations and specific pages to provide additional context or mention a word not present in the description.
+
 ## Descriptions
 
 - Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`) unless the program name differs from the executable name (e.g. `rg` and Ripgrep).
 - Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
 - Brand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
 - Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
-- When documenting keycaps or a keyboard shortcut for a utility it is suggested to wrap them in backticks to make them stand out in the description (i.e. ``Print the last lines of a given file and keep reading file until `Ctrl + C`:``). Alternatively, you can document them as a separate command and optionally highlight them as placeholders (i.e. `:wq{{Enter}}` or `:wq<Enter>` or `:wq(Enter)`).
+- When documenting keycaps or a keyboard shortcut for a utility it is suggested to wrap them in backticks to make them stand out in the description (i.e. ``Print the last lines of a given file and keep reading the file until `Ctrl + C`:``). Alternatively, you can document them as a separate command and optionally highlight them as placeholders (i.e. `:wq{{Enter}}` or `:wq<Enter>` or `:wq(Enter)`).
 
 ### Imperative Mood
 
@@ -332,7 +334,7 @@ For instance, instead of `Listing all files:`, `List all files:` can be used as 
 
 ## Emphasis
 
-Do not use *italics*, **boldface** or any other text styling in the pages. These are reserved for client emphasis of placeholders.
+Do not use *italics*, **boldface** or any other text styling on the pages. These are reserved for client emphasis of placeholders.
 
 ## Serial Comma
 
@@ -369,6 +371,7 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 - Optionally, you can add a short description beside the referenced pages:
 
 ``See also: `date`, for Unix information; `umount`, for unmounting partitions.``
+
 ## More information links
 
 - On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and BSD platforms other than FreeBSD). Alternatively, you can link to the author's website or a tutorial page if the command doesn't have a documentation page.
@@ -431,7 +434,7 @@ The following guidelines are applied to Chinese (`zh`) and traditional Chinese (
 
 - For example, use `嗨，你好。` rather than `嗨, 你好.`
 
-5. Use a half-width punctuation to end a sentence when the last character is half-width.
+5. Use half-width punctuation to end a sentence when the last character is half-width.
 
 - For example, use `将代码转化为 Python 3.` rather than `将代码转化为 Python 3。`
 
@@ -439,7 +442,7 @@ The following guidelines are applied to Chinese (`zh`) and traditional Chinese (
 
 - For example, use `Facebook` rather than `facebook`, `fb` or `脸书`.
 
-In order to maintain readability and normalization, please comply with the 6 rules above as much as possible when translating pages into Chinese.
+To maintain readability and normalization, please comply with the 6 rules above as much as possible when translating pages into Chinese.
 
 For more information and examples of Chinese-specific rules, check out [*Chinese Copywriting Guidelines*](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.en.md).
 
@@ -453,7 +456,7 @@ When translating pages to Indonesian, please keep in mind that we expect `tldr` 
 
 2. People who prefer to use English words as-is to describe technical terms: `download` for `download`, `debugging` for `debugging`, and `reboot` for `reboot`.
 
-The segmentation of these audiences is clearly noted on [Firefox Public Data Report](https://data.firefox.com/dashboard/usage-behavior):
+The segmentation of these audiences is noted on [Firefox Public Data Report](https://data.firefox.com/dashboard/usage-behavior):
 
 > For most countries in the top 10, the majority (>90%) of users have their language set to the local language, **with a notable exception in Indonesia, which has about 80% English (US) and 20% Indonesian.**
 
