@@ -15,6 +15,6 @@
 
 `reg delete {{key_name}} /va`
 
-- [f]orcefully delete [a]ll [v]alues recursively under a key without a prompt:
+- [f]orcefully (without a prompt) delete [a]ll [v]alues recursively under a key:
 
 `reg delete {{key_name}} /f /va`
