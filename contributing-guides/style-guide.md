@@ -286,6 +286,7 @@ Use backticks on the following:
 - Extensions, e.g. `.dll`.
 - Commands, e.g. `ls`.
 - Standard streams: `stdout`, `stdin`, `stderr`. **Do not** use the full names (e.g. standard output).
+- Compression algorithms, e.g. `zip`, `7z`, `xz`.
 
 - Optionally, Mnemonics and their enclosed terms can be separated with brackets from the rest of the description (i.e. `([a]ll)`) in translations and specific pages to provide additional context or mention a word not present in the description.
 
