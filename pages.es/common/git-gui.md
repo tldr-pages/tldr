@@ -28,7 +28,7 @@
 
 `git gui citool --amend`
 
-- Abre `git gui citool` en modo sólo lectura:
+- Abre `git gui citool` en modo de solo lectura:
 
 `git gui citool --nocommit`
 
