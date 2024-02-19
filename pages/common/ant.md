@@ -1,14 +1,13 @@
 # ant
 
-> Apache Ant.
-> Tool for building and managing Java-based projects.
+> Apache Ant: build and manage Java-based projects.
 > More information: <https://ant.apache.org>.
 
 - Build a project with default build file `build.xml`:
 
 `ant`
 
-- Build a project using build file other than `build.xml`:
+- Build a project using build [f]ile other than `build.xml`:
 
 `ant -f {{buildfile.xml}}`
 

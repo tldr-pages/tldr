@@ -7,7 +7,7 @@
 
 `po4a-updatepo --format {{text}} --master {{path/to/master.txt}} --po {{path/to/result.po}}`
 
-- Get a list of available formats:
+- List available formats:
 
 `po4a-updatepo --help-format`
 

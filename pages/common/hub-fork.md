@@ -1,6 +1,6 @@
 # hub fork
 
-> Fork the given GitHub repo. Like `git fork` from `git-extras`.
+> Fork a GitHub repo. Like `git fork` from `git-extras`.
 > More information: <https://hub.github.com/hub-fork.1.html>.
 
 - Fork a GitHub repository by its slug:

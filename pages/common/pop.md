@@ -11,6 +11,6 @@
 
 `pop < {{path/to/message.md}} --from {{me@example.com}} --to {{you@example.com}} --subject "{{On the Subject of Ducks...}}" --attach {{path/to/attachment}}`
 
-- Display help and exit:
+- Display help:
 
 `pop --help`

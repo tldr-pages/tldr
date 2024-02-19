@@ -26,3 +26,11 @@
 - Print full compilation info:
 
 `kdesrc-build --debug {{component_name}}`
+
+- Build all configured components:
+
+`kdesrc-build`
+
+- Use system libraries in place of a component if it fails to build:
+
+`kdesrc-build --no-stop-on-failure {{component_name}}`

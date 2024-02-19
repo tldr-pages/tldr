@@ -1,6 +1,6 @@
 # enum4linux
 
-> Tool for enumerating Windows and Samba information from remote systems.
+> Enumerate Windows and Samba information from remote systems.
 > More information: <https://labs.portcullis.co.uk/tools/enum4linux/>.
 
 - Try to enumerate using all methods:

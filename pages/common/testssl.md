@@ -22,3 +22,7 @@
 - Only check HTTP security headers:
 
 `testssl --headers {{example.com}}`
+
+- Test other STARTTLS enabled protocols:
+
+`testssl --starttls {{ftp|smtp|pop3|imap|xmpp|sieve|xmpp-server|telnet|ldap|irc|lmtp|nntp|postgres|mysql}} {{example.com}}:{{port}}`

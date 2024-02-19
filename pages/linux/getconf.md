@@ -11,7 +11,7 @@
 
 `getconf -a {{path/to/directory}}`
 
-- Check if your linux system is a 32-bit or 64-bit:
+- Check if the system is 32-bit or 64-bit:
 
 `getconf LONG_BIT`
 
@@ -19,6 +19,6 @@
 
 `getconf CHILD_MAX`
 
-- List every configuration value and then find patterns with the grep command (i.e every value with MAX in it):
+- List every configuration value and then find patterns with the `grep` command (i.e every value with MAX in it):
 
 `getconf -a | grep MAX`

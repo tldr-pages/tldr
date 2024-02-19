@@ -2,7 +2,7 @@
 
 > Um daemon de montagem/desmontagem automática para `autofs`. Iniciado sob demanda por `launchd`.
 > Não deve ser invocado manualmente.
-> Mais informações: <https://www.manpagez.com/man/8/automountd/>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/automountd.8.html>.
 
 - Inicia o daemon:
 

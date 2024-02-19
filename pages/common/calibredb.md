@@ -1,6 +1,6 @@
 # calibredb
 
-> Tool to manipulate the your e-book database.
+> Manipulate an e-book database.
 > Part of the Calibre e-book library.
 > More information: <https://manual.calibre-ebook.com/generated/en/calibredb.html>.
 
@@ -20,7 +20,7 @@
 
 `calibredb add {{file1 file2 …}}`
 
-- Recursively add all e-books under a directory to the library:
+- [r]ecursively add all e-books under a directory to the library:
 
 `calibredb add -r {{path/to/directory}}`
 

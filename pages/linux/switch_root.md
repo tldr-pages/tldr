@@ -1,7 +1,7 @@
 # switch_root
 
 > Use a different filesystem as the root of the mount tree.
-> NOTE: switch_root will fail to function if the new root is not the root of a mount. Use bind-mounting as a workaround.
+> Note: switch_root will fail to function if the new root is not the root of a mount. Use bind-mounting as a workaround.
 > See also: `chroot`, `mount`.
 > More information: <https://manned.org/switch_root.8>.
 

@@ -31,6 +31,6 @@
 
 `gmssl zuc -d -in {{path/to/file.zuc}}`
 
-- Print version:
+- Display version:
 
 `gmssl version`

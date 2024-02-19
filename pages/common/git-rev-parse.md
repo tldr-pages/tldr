@@ -1,6 +1,6 @@
 # git rev-parse
 
-> Display metadata related to specific revisions.
+> Display metadata related to revisions.
 > More information: <https://git-scm.com/docs/git-rev-parse>.
 
 - Get the commit hash of a branch:

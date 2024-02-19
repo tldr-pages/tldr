@@ -19,6 +19,6 @@
 
 `sudo netselect -s {{N}} {{host_1}} {{host_2}} {{host_3}}`
 
-- List available options:
+- Display help:
 
 `netselect`

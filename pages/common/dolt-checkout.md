@@ -1,6 +1,6 @@
 # dolt checkout
 
-> Checkout the work tree or tables to a specific branch or commit.
+> Checkout the work tree or tables to a branch or commit.
 > More information: <https://docs.dolthub.com/cli-reference/cli#dolt-checkout>.
 
 - Switch to a branch:

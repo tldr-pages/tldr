@@ -1,6 +1,6 @@
 # xctool
 
-> Tool for building Xcode projects.
+> Build Xcode projects.
 > More information: <https://github.com/facebookarchive/xctool>.
 
 - Build a single project without any workspace:

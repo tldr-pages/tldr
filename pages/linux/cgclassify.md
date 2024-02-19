@@ -1,6 +1,6 @@
 # cgclassify
 
-> Move running task(s) to given `cgroups`.
+> Move running tasks to `cgroups`.
 > More information: <https://manned.org/cgclassify>.
 
 - Move the process with a specific PID to the control group student in the CPU hierarchy:

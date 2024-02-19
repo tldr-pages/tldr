@@ -18,7 +18,7 @@
 
 - Clone repositories from a newline-separated list of remote locations then register them as workspaces:
 
-`git bulk --addworkspace {{workspace-name}} {{absolute/path/to/root/directory}} --from {{absolute/path/to/file}}`
+`git bulk --addworkspace {{workspace-name}} {{/path/to/root/directory}} --from {{/path/to/file}}`
 
 - List all registered workspaces:
 

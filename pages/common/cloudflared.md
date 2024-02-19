@@ -1,11 +1,15 @@
 # cloudflared
 
-> Command-line tool to create a persistent connection to the Cloudflare network.
+> Create a persistent connection to the Cloudflare network.
 > More information: <https://developers.cloudflare.com/argo-tunnel/>.
 
 - Authenticate and associate the connection to a domain in the Cloudflare account:
 
 `cloudflared tunnel login`
+
+- Create a tunnel with a specific name:
+
+`cloudflared tunnel create {{name}}`
 
 - Establish a tunnel to a host in Cloudflare from the local server:
 
