@@ -3,11 +3,11 @@
 > Troubleshooting tool for tracing system calls.
 > More information: <https://manned.org/strace>.
 
-- Start tracing a specific process by its PID:
+- Start tracing a specific [p]rocess by its PID:
 
 `strace -p {{pid}}`
 
-- Trace a process and filter output by system call:
+- Trace a [p]rocess and filter output by system call:
 
 `strace -p {{pid}} -e {{system_call_name}}`
 
@@ -15,7 +15,7 @@
 
 `strace -p {{pid}} -c`
 
-- Show the time spent in every system call:
+- Show the [T]ime spent in every system call:
 
 `strace -p {{pid}} -T`
 
