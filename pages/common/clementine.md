@@ -25,7 +25,7 @@
 
 - Create a new playlist with one or more music files or URLs:
 
-`clementine --create {{url_or_path/to/music1.ext url_or_path/to/music2.ext ...}}`
+`clementine --create {{url1 url2 ... | path/to/music1.ext path/to/music2.ext ...}}`
 
 - Load a playlist file:
 
