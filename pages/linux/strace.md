@@ -9,7 +9,7 @@
 
 - Trace a [p]rocess and filt[e]r output by system call:
 
-`strace -p {{pid}} -e {{system_call_name}}`
+`strace -p {{pid}} -e {{system_call,system_call2,...}}`
 
 - Count time, calls, and errors for each system call and report a summary on program exit:
 
