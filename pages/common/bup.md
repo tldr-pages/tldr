@@ -19,6 +19,6 @@
 
 `bup -d {{path/to/repository}} ls`
 
-- Restore a specific backup snapshot to a target directory ([-C]):
+- Restore a specific backup snapshot to a target dire[C]tory:
 
 `bup -d {{path/to/repository}} restore -C {{path/to/target_directory}} {{backup_name}}`
