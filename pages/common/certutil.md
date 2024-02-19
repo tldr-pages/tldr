@@ -11,7 +11,7 @@
 
 `certutil -L -d .`
 
-- List all private [K]eys in a database specifying the passwords [f]ile:
+- List all private [K]eys in a database specifying the password [f]ile:
 
 `certutil -K -d . -f {{path/to/password_file.txt}}`
 
