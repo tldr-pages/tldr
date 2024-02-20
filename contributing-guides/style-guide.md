@@ -401,8 +401,9 @@ Additionally, if the link is related to PowerShell command documentation, remove
 
 ## Help and version commands
 
-- We generally place the help and version commands at the **last part of the page** to highlight more practical commands at the beginning of the page.
+- We generally place the help and version commands at the **last part of the page** to highlight more practical commands at the beginning of the page. They can be replaced to accommodate other useful examples if required.
 - For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
+- It is suggested to document the help and version examples if the command follows unconventional flags in platforms like Windows.
 
 ## Language-Specific Rules
 
