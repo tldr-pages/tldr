@@ -12,11 +12,11 @@
 
 `searchsploit sudo 1.8.27`
 
-- Show the exploit-db link to the found resources:
+- Show the exploit-db link (--[w]ww) to the found resources:
 
 `searchsploit --www {{search_terms}}`
 
-- Make a copy of the resource to the current directory (requires the number of the exploit):
+- Copy ([m]irror) the resource to the current directory (requires the number of the exploit):
 
 `searchsploit --mirror {{exploit_number}}`
 
