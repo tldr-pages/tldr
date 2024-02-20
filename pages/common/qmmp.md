@@ -1,9 +1,9 @@
 # qmmp
 
-> An audio player.
+> An audio player with an interface similar to Winamp or XMMS.
 > More information: <http://qmmp.ylsoftware.com>.
 
-- Launch qmmp:
+- Launch the GUI:
 
 `qmmp`
 
@@ -11,7 +11,7 @@
 
 `qmmp --play-pause`
 
-- Seek forwards or backward a specific amount of time in seconds:
+- Seek [f]or[w]ar[d]s or [b]ack[w]ar[d]s a specific amount of time in seconds:
 
 `qmmp --seek-{{fwd|bwd}} {{time_in_seconds}}`
 
@@ -23,10 +23,10 @@
 
 `qmmp --previous`
 
-- Print the current volume:
+- Display the current volume:
 
 `qmmp --volume-status`
 
-- Increase or decrease the volume of the currently playing audio by 5 steps:
+- [inc]rease or [dec]rease the volume of the currently playing audio by 5%:
 
 `qmmp --volume-{{inc|dec}}`
