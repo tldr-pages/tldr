@@ -1,6 +1,6 @@
 # searchsploit
 
-> Searchsploit searches exploit database's database for exploits, shellcodes and/or papers.
+> Search Exploit Database's database for exploits, shellcodes and/or papers.
 > If known version numbers are used as search terms, exploits for both the exact version and others whose version range covers the one specified are shown.
 > More information: <https://www.exploit-db.com/searchsploit>.
 
