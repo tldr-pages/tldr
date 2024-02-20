@@ -183,7 +183,7 @@ In this case, provide a note and method to determine whether the command current
 ## Option syntax
 
 - For commonly/frequently used commands (e.g. `grep`, `tar`, `etc`), we prefer using short options along with [mnemonics](#short-option-mnemonics).
-- For highlighting both long and short options, combine them within a placeholder i.e. `-{{o|-output}}`.
+- For highlighting both long and short options, combine them within a placeholder i.e. `{{-o|--output}}`.
 - For user-friendliness, use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in `common` directory.
 - When documenting PowerShell commands, use **PowerShell-style long options** (like `-Help` instead of `-H`).
 - We prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`) unless the program does not support it.
