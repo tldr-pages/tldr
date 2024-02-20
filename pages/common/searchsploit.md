@@ -22,7 +22,7 @@
 
 - Open the resource to read with the pager defined in the `$PAGER` environment variable:
 
-`searchsploit --explore {{exploit_number}}`
+`searchsploit --examine {{exploit_number}}`
 
 - Update the local exploit database:
 
