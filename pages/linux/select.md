@@ -7,9 +7,13 @@
 
 `select {{word}} in {{apple}} {{orange}} {{pear}} {{banana}}; do echo ${{word}}; done`
 
-- Create a menu for picking a file or folder from the current directory:
+- Create a menu from the output of another program:
 
-`select {{file}} in *; do echo ${{file}}; done`
+`select {{line}} in $({{program_to_run}}); do echo ${{line}}; done`
+
+- Set the select prompt and create a menu for picking a file or folder from the current directory:
+
+`PS3="{{Select a file: }}"; select {{file}} in *; do echo ${{file}}; done`
 
 - Create a menu from a Bash array:
 
