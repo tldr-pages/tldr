@@ -27,3 +27,11 @@
 - Update the local exploit database:
 
 `searchsploit --update`
+
+- Search for [c]ommon [v]ulnerabilities and [e]xposures (CVE) value:
+
+`searchsploit --cve {{2021-44228}}`
+
+- Check results in `nmap`'s XML output with service version (`nmap -sV -oX nmap-output.xml`) for known exploits:
+
+`searchsploit --nmap {{path/to/nmap-output.xml}}`
