@@ -20,7 +20,7 @@
 
 `tldr reg {{compare|flags|query}}`
 
-- View documentation for exporting and importing registry keys preserving the key ownerhips and ACL:
+- View documentation for exporting and importing registry keys preserving the key ownerships and ACLs:
 
 `tldr reg {{export|import}}`
 
