@@ -23,6 +23,6 @@
 
 `reg compare {{key_name1}} {{key_name2}} /oa`
 
-- Compare [o]utputting [n]othing:
+- Compare two keys, [o]utputting [n]othing:
 
 `reg compare {{key_name1}} {{key_name2}} /on`
