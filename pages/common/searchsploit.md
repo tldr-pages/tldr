@@ -12,7 +12,7 @@
 
 `searchsploit sudo 1.8.27`
 
-- Show the exploit-db link (--[w]ww) to the found resources:
+- Show the exploit-db link to the found resources:
 
 `searchsploit --www {{search_terms}}`
 
