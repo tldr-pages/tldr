@@ -1,4 +1,4 @@
-#cargo clean
+# cargo clean
 
 > 删除 `target` 目录中生成的构建产物
 > 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-clean.html>.
