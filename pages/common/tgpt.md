@@ -1,10 +1,10 @@
 # tgpt
 
-> A terminal-based AI chatbot without the need for API keys.
+> Talk to an AI chatbot without the need for API keys.
 > Available providers: `openai`, `opengpts`, `koboldai`, `phind`, `llama2`, `blackboxai`.
 > More information: <https://github.com/aandrew-me/tgpt>.
 
-- Prompt with default provider (GPT-3.5-turbo):
+- Chat with the default provider (GPT-3.5-turbo):
 
 `tgpt "{{prompt}}"`
 
@@ -12,15 +12,15 @@
 
 `tgpt --multiline`
 
-- Generate images and save to current directory:
+- Generate [i]mages and save to current directory:
 
 `tgpt --image "{{prompt}}"`
 
-- Generate [c]ode using the default provider:
+- Generate [c]ode with the default provider (GPT-3.5-turbo):
 
 `tgpt --code "{{prompt}}"`
 
-- Prompt a specific provider without animations [q]uitely:
+- Chat with a specific provider without animations [q]uitely:
 
 `tgpt --provider {{openai|opengpts|koboldai|phind|llama2|blackboxai}} --quiet --whole "{{prompt}}"`
 
@@ -34,4 +34,4 @@
 
 - Feed a file as additional pre-prompt input:
 
-`cat {{path/to/file.ext}} | tgpt --provider {{blackboxai}} "{{prompt_string}}"`
+`tgpt --provider {{blackboxai}} "{{prompt}}" < {{path/to/file}}`
