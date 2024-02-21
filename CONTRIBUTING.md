@@ -48,7 +48,7 @@ Use proper judgement, keeping simplicity and user-friendliness as the top priori
 
 When in doubt, have a look at a few existing pages :).
 
-## Pages directory
+## Directory structure
 
 The English pages directory is `pages`, under which are the platform directory. Language specific directories must follow the pattern `pages.<locale>`, where `<locale>` is a [POSIX Locale Name](https://www.gnu.org/software/gettext/manual/html_node/Locale-Names.html#Locale-Names) in the form of `<language>[_<country>]`, where:
 
