@@ -1,7 +1,7 @@
 # dalvikvm
 
 > Android Java 虚拟机。
-> 更多信息：<https://developer.android.com/tools/#art_and_dalvik>.
+> 更多信息：<https://source.android.com/docs/core/runtime>.
 
 - 启动一个 Java 程序：
 
