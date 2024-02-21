@@ -15,7 +15,7 @@
 
 `cargo clippy --workspace`
 
-- 对某个包进行检查： 
+- 对某个包进行检查：
 
 `cargo clippy --package {{包名}}`
 

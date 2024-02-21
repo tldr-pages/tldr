@@ -1,4 +1,4 @@
- cargo clean
+#cargo clean
 
 > 删除 `target` 目录中生成的构建产物
 > 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-clean.html>.
@@ -15,6 +15,6 @@
 
 `cargo clean --release`
 
-- 删除给定配置文件的目录中的构建产物（在本例中为 `target/debug`) ：
+- 删除给定配置文件的目录中的构建产物（在本例中为 `target/debug`)：
 
 `cargo clean --profile {{dev}}`
