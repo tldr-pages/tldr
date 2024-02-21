@@ -24,7 +24,7 @@
 
 `tldr reg {{export|import}}`
 
-- View documentation for saving and restoring registry keys not preserving the key ownerhips and ACL:
+- View documentation for saving and restoring registry keys not preserving the key ownerships and ACLs:
 
 `tldr reg {{save|restore}}`
 
