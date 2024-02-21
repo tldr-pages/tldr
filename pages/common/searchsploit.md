@@ -28,7 +28,7 @@
 
 `searchsploit --update`
 
-- Search for a [c]ommon [v]ulnerabilities and [e]xposures (CVE) value:
+- Search for the [c]ommon [v]ulnerabilities and [e]xposures (CVE) value:
 
 `searchsploit --cve {{2021-44228}}`
 
