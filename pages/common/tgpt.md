@@ -6,7 +6,7 @@
 
 - Prompt with default provider (GPT-3.5-turbo):
 
-`tgpt "{{prompt_string}}"`
+`tgpt "{{prompt}}"`
 
 - Start [m]ulti-line interactive mode:
 
@@ -14,24 +14,24 @@
 
 - Generate images and save to current directory:
 
-`tgpt --image "{{prompt_string}}"`
+`tgpt --image "{{prompt}}"`
 
 - Generate [c]ode using the default provider:
 
-`tgpt --code "{{prompt_string}}"`
+`tgpt --code "{{prompt}}"`
 
 - Prompt a specific provider without animations [q]uitely:
 
-`tgpt --provider {{phind}} --quiet --whole "{{prompt_string}}"`
+`tgpt --provider {{openai|opengpts|koboldai|phind|llama2|blackboxai}} --quiet --whole "{{prompt}}"`
 
 - Generate and execute [s]hell commands using a specific provider (will be prompted for confirmation):
 
-`tgpt --provider {{phind}} --shell "{{prompt_string}}"`
+`tgpt --provider {{llama2}} --shell "{{prompt}}"`
 
-- Prompt with an API key, model, max-length, temperature, and  (required when using `openai` provider):
+- Prompt with an API key, model, max response length, temperature, and `top_p` (required when using `openai` provider):
 
-`tgpt --provider openai --key "{{api_key}}" --model "{{gpt-3.5-turbo}}" --max-length {{10}} --temperature {{0.7}} --top_p {{0.9}} "{{prompt_string}}"`
+`tgpt --provider openai --key "{{api_key}}" --model "{{gpt-3.5-turbo}}" --max-length {{10}} --temperature {{0.7}} --top_p {{0.9}} "{{prompt}}"`
 
-- Feed a file as additional input pre-prompt:
+- Feed a file as additional pre-prompt input:
 
 `cat {{path/to/file.ext}} | tgpt --provider {{blackboxai}} "{{prompt_string}}"`
