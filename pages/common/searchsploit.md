@@ -24,7 +24,7 @@
 
 `searchsploit --examine {{exploit_number}}`
 
-- [u]pdate the local exploit database:
+- [u]pdate the local Exploit Database:
 
 `searchsploit --update`
 
