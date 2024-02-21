@@ -7,7 +7,7 @@
 
 `clementine`
 
-- Start playing a music:
+- Start playing music:
 
 `clementine {{url|path/to/music.ext}}`
 
