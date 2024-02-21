@@ -76,8 +76,10 @@ brew install tlrc
 Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
 accessible through typing `tldr tar` instead of the standard `man tar`.
 
-If you don't want to install any software,
-check out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
+If you don't want to install any software, check out the [PDF version](https://github.com/tldr-pages/tldr/releases/latest/download/tldr-book.pdf) instead.
+
+> [!NOTE]
+> PDFs for translations are available for most languages. You can find them in the releases assets of the [latest release](https://github.com/tldr-pages/tldr/releases/latest).
 
 There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
