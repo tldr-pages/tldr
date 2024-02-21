@@ -8,7 +8,7 @@
 
 `reg {{command}}`
 
-- View documentation for adding existing and new keys and subkeys:
+- View documentation for adding and copying subkeys:
 
 `tldr reg {{add|copy}}`
 
