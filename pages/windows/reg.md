@@ -10,7 +10,7 @@
 
 - View documentation for adding existing and new keys and subkeys:
 
-`tldr reg {{add|copy|load}}`
+`tldr reg {{add|copy}}`
 
 - View documentation for deleting keys and subkeys:
 
@@ -24,9 +24,9 @@
 
 `tldr reg {{export|import}}`
 
-- View documentation for saving and restoring registry keys preserving the key ownerships and ACLs:
+- View documentation for saving, restoring registry and unloading keys preserving the key ownerships and ACLs:
 
-`tldr reg {{save|restore}}`
+`tldr reg {{save|restore|load|unload}}`
 
 - Display help:
 
