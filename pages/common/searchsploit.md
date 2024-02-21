@@ -20,7 +20,7 @@
 
 `searchsploit --mirror {{exploit_number}}`
 
-- Open the resource to read with the pager defined in the `$PAGER` environment variable:
+- E[x]amine the resource, using the pager defined in the `$PAGER` environment variable:
 
 `searchsploit --examine {{exploit_number}}`
 
