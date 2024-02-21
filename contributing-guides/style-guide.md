@@ -330,7 +330,7 @@ It should instead be simplified to make it easier for everyone to read:
 > Change the current working directory.
 ```
 
-### Style
+### Formatting
 
 - Brand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
 - Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
