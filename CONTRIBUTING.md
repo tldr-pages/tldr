@@ -74,7 +74,7 @@ The platform directories and their respective pages that need to be put in it ar
 - `netbsd`: NetBSD
 - `sunos`: SunOS
 - `windows`: Windows
-- `common`: Available for 2 or more platforms
+- `common`: available for 2 or more platforms
 
 ## Markdown format
 
