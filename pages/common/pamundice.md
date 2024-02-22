@@ -6,7 +6,7 @@
 
 - Combine the images whose names match the `printf`-style filename expression. Assume a grid with a specific size:
 
-`pamundice {{filename_%1d_%1a.ppm}} -across {{x_value}} -down {{y_value}} > {{path/to/output.ppm}}`
+`pamundice {{filename_%1d_%1a.ppm}} -across {{grid_width}} -down {{grid_height}} > {{path/to/output.ppm}}`
 
 - Assume that the tiles overlap horizontally and vertically by the specified amount:
 
