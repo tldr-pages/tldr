@@ -1,6 +1,6 @@
 # gfold
 
-> Este comando é um pseudônimo de `-p linux fold`.
+> Este comando é um apelido de `-p linux fold`.
 
 - Exibe documentação sobre o comando original:
 

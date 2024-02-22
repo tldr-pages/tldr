@@ -1,6 +1,6 @@
 # gyes
 
-> Este comando é um pseudônimo de `-p linux yes`.
+> Este comando é um apelido de `-p linux yes`.
 
 - Exibe documentação sobre o comando original:
 
