@@ -16,7 +16,7 @@
 
 `tgpt --image "{{prompt}}"`
 
-- Genera [c]ódigo con el proveedor por defecto (GPT-3.5-turbo):
+- Genera código [c]ode con el proveedor por defecto (GPT-3.5-turbo):
 
 `tgpt --code "{{prompt}}"`
 
