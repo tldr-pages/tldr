@@ -16,7 +16,7 @@
 
 `find {{chemin/vers/répertoire}} -type f | fzf --multi > {{chemin/vers/fichier}}`
 
-- Lance `fzf` avec une requête spécifiée :
+- Lance `fzf` avec une requête donnée :
 
 `fzf --query "{{query}}"`
 
