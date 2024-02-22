@@ -12,6 +12,6 @@
 
 `gocr -m 130 -p {{ruta/al/directorio_db}} -i {{ruta/a/imagen_entrada.png}} -o {{ruta/al/archivo_salida.txt}} -C "{{0..9}}"`
 
-- Reconoce caracteres con una certez[a] del 100% (los caracteres tienen una mayor probabilidad de ser tratados como desconocidos):
+- Reconoce caracteres con certez[a] del 100% (los caracteres tienen una mayor probabilidad de ser tratados como desconocidos):
 
 `gocr -m 130 -p {{ruta/al/directorio_db}} -i {{ruta/a/imagen_entrada.png}} -o {{ruta/al/archivo_salida.txt}} -a 100`
