@@ -1,7 +1,7 @@
 # pm
 
 > ஆண்ட்ராய்டு சாதனத்தில் பயன்பாடுகள் பற்றிய தகவலைக் காண்பி.
-> மேலும் விவரத்திற்கு: <https://developer.android.com/studio/command-line/adb#pm>.
+> மேலும் விவரத்திற்கு: <https://developer.android.com/tools/adb#pm>.
 
 - நிறுவப்பட்ட அனைத்து பயன்பாடுகளையும் பட்டியலிடுங்கள்:
 

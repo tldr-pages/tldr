@@ -1,7 +1,7 @@
 # am
 
 > Android 活动管理器。
-> 更多信息：<https://developer.android.com/studio/command-line/adb#am>.
+> 更多信息：<https://developer.android.com/tools/adb#am>.
 
 - 启动一个指定的活动：
 

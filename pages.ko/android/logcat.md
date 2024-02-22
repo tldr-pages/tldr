@@ -1,7 +1,7 @@
 # logcat
 
 > 오류 발생 시, 스택 추적을 포함한 시스템 메시지 로그와 애플리케이션에서 기록한 정보 메시지를 덤프합니다.
-> 더 많은 정보: <https://developer.android.com/studio/command-line/logcat>.
+> 더 많은 정보: <https://developer.android.com/tools/logcat>.
 
 - 시스템 로그 표시:
 

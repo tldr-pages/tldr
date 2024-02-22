@@ -1,7 +1,7 @@
 # dalvikvm
 
 > Mesin virtual Java untuk Android.
-> Informasi lebih lanjut: <https://source.android.com/devices/tech/dalvik>.
+> Informasi lebih lanjut: <https://source.android.com/docs/core/runtime>.
 
 - Jalankan sebuah program Java:
 
