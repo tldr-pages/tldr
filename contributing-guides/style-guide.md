@@ -330,7 +330,16 @@ For instance, instead of `Listing all files:`, `List all files:` can be used as 
  `ls`
 ```
 
-## Emphasis
+## Not rendered syntax
+
+Any syntax not documented on this guide or in the client specification will **not** be rendered in our clients. See common cases below.
+
+### Links and images
+
+- Do not use Markdown links (\[link text\](link url)) or images in the pages, they are not supported by our clients.
+- If you want to use a link in a page, write it normally, either outside or inside parenthesis.
+
+### Emphasis
 
 Do not use *italics*, **boldface** or any other text styling in the pages. These are reserved for client emphasis of placeholders.
 
