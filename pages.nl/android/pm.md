@@ -1,7 +1,7 @@
 # pm
 
 > Toon informatie over apps op een Android-apparaat.
-> Meer informatie: <https://developer.android.com/studio/command-line/adb#pm>.
+> Meer informatie: <https://developer.android.com/tools/adb#pm>.
 
 - Maak een lijst van alle geïnstalleerde apps:
 

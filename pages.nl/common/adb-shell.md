@@ -1,7 +1,7 @@
 # adb shell
 
 > Android Debug Bridge Shell: Voer externe shell-opdrachten uit op een Android-emulatorinstantie of aangesloten Android-apparaten.
-> Meer informatie: <https://developer.android.com/studio/command-line/adb>.
+> Meer informatie: <https://developer.android.com/tools/adb>.
 
 - Start een externe interactieve shell op de emulator of het apparaat:
 

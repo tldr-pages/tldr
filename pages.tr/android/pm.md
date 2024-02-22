@@ -1,7 +1,7 @@
 # pm
 
 > Android cihazındaki uygulamalar ile ilgili bilgi göster.
-> Daha fazla bilgi için: <https://developer.android.com/studio/command-line/adb#pm>.
+> Daha fazla bilgi için: <https://developer.android.com/tools/adb#pm>.
 
 - İndirilen tüm uygulamaların sırala:
 

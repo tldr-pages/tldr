@@ -1,7 +1,7 @@
 # pm
 
 > एंड्रॉइड डिवाइस पर ऐप्स के बारे में जानकारी प्रदर्शित करें।
-> अधिक जानकारी: <https://developer.android.com/studio/command-line/adb#pm>।
+> अधिक जानकारी: <https://developer.android.com/tools/adb#pm>।
 
 - सभी इंस्टॉल किए गए ऐप्स की सूची बनाएं:
 

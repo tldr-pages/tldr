@@ -1,7 +1,7 @@
 # pm
 
 > Mostra informações sobre aplicações num dispositivo Android.
-> Mais informações: <https://developer.android.com/studio/command-line/adb#pm>.
+> Mais informações: <https://developer.android.com/tools/adb#pm>.
 
 - Exibe uma lista com todas as aplicações instaladas:
 

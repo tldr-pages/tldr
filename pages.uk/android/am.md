@@ -1,7 +1,7 @@
 # am
 
 > Менеджер активності Android.
-> Більше інформації: <https://developer.android.com/studio/command-line/adb#am>.
+> Більше інформації: <https://developer.android.com/tools/adb#am>.
 
 - Почати специфічну активність:
 

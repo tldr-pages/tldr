@@ -2,7 +2,7 @@
 
 > Отримати інформацію про системні сервіси Android.
 > Ця команда може бути виконана тільки за допомогою `adb shell`.
-> Більше інформації: <https://developer.android.com/studio/command-line/dumpsys>.
+> Більше інформації: <https://developer.android.com/tools/dumpsys>.
 
 - Отримати дані діагностики для всіх системних сервісів:
 

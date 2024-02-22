@@ -1,7 +1,7 @@
 # adb install
 
 > Android Debug Bridge Install: wysyłaj pakiety do instancji emulatora Androida lub podłączonych urządzeń z systemem Android.
-> Więcej informacji: <https://developer.android.com/studio/command-line/adb>.
+> Więcej informacji: <https://developer.android.com/tools/adb>.
 
 - Wyślij aplikację na Androida do emulatora / urządzenia:
 

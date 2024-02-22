@@ -1,7 +1,7 @@
 # adb logcat
 
 > Vuelca un registro de mensajes del sistema.
-> Más información: <https://developer.android.com/studio/command-line/logcat>.
+> Más información: <https://developer.android.com/tools/logcat>.
 
 - Muestra registros del sistema:
 
