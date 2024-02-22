@@ -31,6 +31,6 @@
 
 `reg query {{key_name}} /e`
 
-- Search [c]ase-sensetively:
+- Search [c]ase-sensitively:
 
 `reg query {{key_name}} /c`
