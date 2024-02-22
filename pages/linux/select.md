@@ -11,7 +11,7 @@
 
 `select {{line}} in $({{program_to_run}}); do echo ${{line}}; done`
 
-- Set the prompt string for select and create a menu for picking a file or folder from the current directory:
+- Specify the prompt string for select and create a menu for picking a file or folder from the current directory:
 
 `PS3="{{Select a file: }}"; select {{file}} in *; do echo ${{file}}; done`
 
