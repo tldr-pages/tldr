@@ -337,7 +337,7 @@ Any syntax not documented on this guide or in the client specification will **no
 ### Links and images
 
 - Do not use Markdown links (\[link text\](link url)) or images in the pages, they are not supported by our clients.
-- If you want to use a link in a page, write it normally, either outside or inside parenthesis.
+- If you want to use a link in a page, enclose it within angled brackets (e.g. <https://example.org>).
 
 ### Emphasis
 
