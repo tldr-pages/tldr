@@ -1,7 +1,7 @@
 # am
 
 > Менеджер активностей Android.
-> Больше информации: <https://developer.android.com/studio/command-line/adb#am>.
+> Больше информации: <https://developer.android.com/tools/adb#am>.
 
 - Начать определённую активность:
 

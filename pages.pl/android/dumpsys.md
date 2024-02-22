@@ -2,7 +2,7 @@
 
 > Dostarczanie informacji o usługach systemu Android.
 > Ta komenda może być używana tylko poprzez `adb shell`.
-> Więcej informacji: <https://developer.android.com/studio/command-line/dumpsys>.
+> Więcej informacji: <https://developer.android.com/tools/dumpsys>.
 
 - Uzyskaj dane diagnostyczne dla wszystkich usług systemowych:
 

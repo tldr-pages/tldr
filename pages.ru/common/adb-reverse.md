@@ -1,7 +1,7 @@
 # adb reverse
 
 > Android Debug Bridge Reverse: обратное соединение от эмулятора Android или подключенного устройства Android.
-> Больше информации: <https://developer.android.com/studio/command-line/adb>.
+> Больше информации: <https://developer.android.com/tools/adb>.
 
 - Вывести список всех обратных соединений от эмуляторов и устройств:
 
