@@ -64,8 +64,8 @@ The `<country>` code is optional and should only be added when it there is a sub
 
 The `pages` directory contain the platform directories, as well as the language-specific directories, if they have at least one page of that platform.
 
-The platform directories and their respective pages that need to be put in it are:
-
+1. If the command is available for **two or more** platforms, put it **under `common`**
+2. If the command is **only** available for **one** platform, these are the directories followed by their right platform:
 - `android`: Android
 - `freebsd`: FreeBSD
 - `openbsd`: OpenBSD
@@ -74,7 +74,6 @@ The platform directories and their respective pages that need to be put in it ar
 - `netbsd`: NetBSD
 - `sunos`: SunOS
 - `windows`: Windows
-- `common`: available for 2 or more platforms
 
 ## Markdown format
 
