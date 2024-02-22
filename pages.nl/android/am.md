@@ -1,7 +1,7 @@
 # am
 
 > Android-activiteitenmanager.
-> Meer informatie: <https://developer.android.com/studio/command-line/adb#am>.
+> Meer informatie: <https://developer.android.com/tools/adb#am>.
 
 - Start een specifieke activiteit:
 

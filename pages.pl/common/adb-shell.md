@@ -1,7 +1,7 @@
 # adb shell
 
 > Android Debug Bridge Shell: uruchamiaj zdalne polecenia powłoki na instancji emulatora Androida lub podłączonych urządzeniach z Androidem.
-> Więcej informacji: <https://developer.android.com/studio/command-line/adb>.
+> Więcej informacji: <https://developer.android.com/tools/adb>.
 
 - Uruchom interaktywną zdalną powłokę na emulatorze / urządzeniu:
 

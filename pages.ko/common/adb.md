@@ -1,7 +1,7 @@
 # adb
 
 > 안드로이드 디버그 브릿지: 안드로이드 에뮬레이터 객체 또는 연결된 안드로이드 장치와 통신.
-> 더 많은 정보: <https://developer.android.com/studio/command-line/adb>.
+> 더 많은 정보: <https://developer.android.com/tools/adb>.
 
 - adb 서버 프로세스가 실행되고 있고, 시작하는지 확인:
 

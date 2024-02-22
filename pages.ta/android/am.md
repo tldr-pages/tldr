@@ -1,7 +1,7 @@
 # am
 
 > ஆண்ட்ராய்டு செயல்பாட்டு மேலாளர்.
-> மேலும் விவரத்திற்கு: <https://developer.android.com/studio/command-line/adb#am>.
+> மேலும் விவரத்திற்கு: <https://developer.android.com/tools/adb#am>.
 
 - ஒரு குறிப்பிட்ட செயல்பாட்டைத் தொடங்கவும்:
 
