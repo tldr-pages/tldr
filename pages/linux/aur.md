@@ -10,3 +10,7 @@
 - Download a package and its dependencies from AUR, build them and add them to a local repository:
 
 `aur sync {{package}}`
+
+- List packages that are in your local repository:
+
+`aur repo -l`
