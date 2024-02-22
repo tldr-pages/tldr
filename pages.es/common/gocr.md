@@ -8,7 +8,7 @@
 
 `gocr -m 130 -p {{ruta/al/directorio_db}} -i {{ruta/a/imagen_entrada.png}} -o {{ruta/al/archivo_salida.txt}}`
 
-- Reconoce caracteres y asume que todos los [C]aracteres son números:
+- Reconoce caracteres y asume que todos son números:
 
 `gocr -m 130 -p {{ruta/al/directorio_db}} -i {{ruta/a/imagen_entrada.png}} -o {{ruta/al/archivo_salida.txt}} -C "{{0..9}}"`
 
