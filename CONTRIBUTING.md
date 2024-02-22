@@ -58,7 +58,7 @@ The English pages directory is `pages`, under which are the platform directories
 [!NOTE]
 > Do not put any page directly inside the English pages directory or language specific directories.
 
-The `<country>` code is optional and should only be added when it is needed. In other words, only when there is a valid reason to distinguish between a language (`ll`) and its regional dialects (`ll_CC1`, `ll_CC2`, etc.). For example, both `fr_FR` and `fr_BE` should fall under the same `pages.fr` directory since there virtually is no difference in writing between standard French and Belgian French.
+The `<country>` code is optional and should only be added when it there is a substancial difference between a language (`ll`) and its regional dialects (`ll_CC1`, `ll_CC2`, etc.). For example, both `fr_FR` and `fr_BE` should fall under the same `pages.fr` directory since there virtually is no difference in writing between standard French and Belgian French.
 
 ### Platform directories
 
