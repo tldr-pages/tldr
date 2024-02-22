@@ -3,7 +3,7 @@
 > Build packages from AUR and manage local repositories.
 > More information: <https://github.com/aurutils/aurutils>.
 
-- Search the package database for a keyword from the AUR:
+- Search the AUR database for a keyword:
 
 `aur search {{package}}`
 
