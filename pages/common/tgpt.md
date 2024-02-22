@@ -20,7 +20,7 @@
 
 `tgpt --code "{{prompt}}"`
 
-- Chat with a specific provider without animations [q]uietly:
+- Chat with a specific provider [q]uietly (without animations):
 
 `tgpt --provider {{openai|opengpts|koboldai|phind|llama2|blackboxai}} --quiet --whole "{{prompt}}"`
 
