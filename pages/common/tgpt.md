@@ -12,7 +12,7 @@
 
 `tgpt --multiline`
 
-- Generate [i]mages and save to current directory:
+- Generate [i]mages and save them to the current directory:
 
 `tgpt --image "{{prompt}}"`
 
@@ -20,11 +20,11 @@
 
 `tgpt --code "{{prompt}}"`
 
-- Chat with a specific provider without animations [q]uitely:
+- Chat with a specific provider without animations [q]uietly:
 
 `tgpt --provider {{openai|opengpts|koboldai|phind|llama2|blackboxai}} --quiet --whole "{{prompt}}"`
 
-- Generate and execute [s]hell commands using a specific provider (will be prompted for confirmation):
+- Generate and execute [s]hell commands using a specific provider (with a confirmation prompt):
 
 `tgpt --provider {{llama2}} --shell "{{prompt}}"`
 
