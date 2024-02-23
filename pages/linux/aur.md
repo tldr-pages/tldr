@@ -16,6 +16,6 @@
 
 `aur repo -l`
 
-- Upgrade local repository packages:
+- [u]pgrade local repository packages:
 
 `aur sync -u`
