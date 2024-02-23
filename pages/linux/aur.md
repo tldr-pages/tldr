@@ -1,6 +1,7 @@
 # aur
 
 > Build packages from AUR and manage local repositories.
+> A locar repository needs to be set in /etc/pacman.conf and vifm needs to be installed for this to fully function.
 > More information: <https://github.com/aurutils/aurutils>.
 
 - Search the AUR database for a keyword:
