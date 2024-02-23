@@ -15,7 +15,7 @@
 
 `duckdb -c "{{SELECT * FROM 'data_source.[csv|csv.gz|json|json.gz|parquet]'}}"`
 
-- Run a SQL script:
+- Run an SQL script:
 
 `duckdb -c ".read {{path/to/script.sql}}"`
 

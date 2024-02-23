@@ -1,6 +1,6 @@
 # dolt sql
 
-> Run a SQL query. Multiple SQL statements must be separated by semicolons.
+> Run an SQL query. Multiple SQL statements must be separated by semicolons.
 > More information: <https://docs.dolthub.com/cli-reference/cli#dolt-sql>.
 
 - Run a single query:
