@@ -1,6 +1,6 @@
 # aur
 
-> Build packages from AUR and manage local repositories.
+> Build packages from the AUR and manage local repositories.
 > Note: A local repository needs to be set in `/etc/pacman.conf` and `vifm` needs to be installed for this to fully function.
 > More information: <https://github.com/aurutils/aurutils>.
 
