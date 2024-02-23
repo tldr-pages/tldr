@@ -15,6 +15,6 @@
 
 `bats --recursive {{path/to/directory}}`
 
-- Run BATS tests in test script and output results in desired format:
+- Output results in a specific format:
 
 `bats --formatter {{pretty|tap|junit}} {{path/to/test.bats}}`
