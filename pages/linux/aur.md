@@ -11,6 +11,6 @@
 
 `aur sync {{package}}`
 
-- List packages that are in your local repository:
+- List packages that are available in your local repository:
 
 `aur repo -l`
