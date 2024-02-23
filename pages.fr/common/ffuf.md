@@ -20,6 +20,6 @@
 
 `ffuf -w {{chemin/vers/liste.txt}} -u {{http://cible.com}} -H "{{Host: FUZZ}}" -mc {{200}}`
 
-- Énumère en spécifiant une méthode HTTP spécifiée et des [d]onnées, tout en [f]iltrant les [c]odes d'état séparées par des virgules :
+- Énumère en spécifiant une méthode HTTP spécifiée et des [d]onnées, tout en [f]iltrant les [c]odes d'état séparés par des virgules :
 
 `ffuf -w {{chemin/vers/postdata.txt}} -X {{POST}} -d "{{username=admin\&password=FUZZ}}" -u {{http://cible/login.php}} -fc {{401,403}}`
