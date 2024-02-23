@@ -14,8 +14,8 @@
 
 - [l]ist packages available in your local repository:
 
-`aur repo -l`
+`aur repo --list`
 
 - [u]pgrade local repository packages:
 
-`aur sync -u`
+`aur sync --upgrades`
