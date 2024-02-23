@@ -182,14 +182,11 @@ In this case, provide a note and method to determine whether the command current
 
 ## Option syntax
 
-- Use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
+- For commonly/frequently used commands (e.g. `grep`, `tar`, `etc`), we prefer using short options along with [mnemonics](#short-option-mnemonics) or both inside a placeholder.
+- For highlighting both long and short options in commands (instead of using mnemonics), combine them within a placeholder i.e. `{{-o|--output}}`.
+- For user-friendliness, use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in `common` directory.
 - When documenting PowerShell commands, use **PowerShell-style long options** (like `-Help` instead of `-H`).
-- When long options aren't available for a command, use **short options** instead.
-- While we prefer long options, we allow special cases in commands like `pacman` where short options are widely used and preferred over the long options (for cases like these decisions will be made by the maintainers on a case-by-case basis).
 - We prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`) unless the program does not support it.
-
-> [!NOTE]  
-> The goal of using long options is to make the commands easier to read and understand for non-technical users. While it is ideal for most users, some users prefer the short option for better ease of use. If the command supports both options, we can highlight the short options using mnemonics instead.
 
 ### Short option mnemonics
 
@@ -210,6 +207,8 @@ Note that, in the first example, the `[d]`, `[t]`, and `[i]` characters are encl
 **Mnemonic characters must be written in a case-sensitive manner**, even when it is placed as the first character of the sentence (i.e. use `[d]isplay` instead of `[D]isplay`). This is to avoid conflicts with GNU-style command options which may interpret uppercase options differently than the lowercase ones, such as `-v` for displaying the command's `[v]ersion` number and `-V` to run the command in `[V]erbose` mode.
 
 Option mnemonics may also be used in translations as long as the highlighted word contains similar meanings to the language (commonly English) which the command is written for. For example, `[d]ownload` in English may be translated into `[d]escargar` in Spanish, `[i]nstall` in English may be translated to `[i]nstallieren` in German, and `[a]pp` in English may be translated into `[a]plikasi` in Indonesian and Malay.
+
+- Optionally, mnemonics and their enclosed terms can be separated with brackets from the rest of the description (i.e. `([a]ll)`) in translations and specific pages to provide additional context or mention a word not present in the description.
 
 > [!NOTE]  
 > In cases where the character isn't present in the translated word, you can highlight the option before/next to the equivalent word or you can add the English work beside the translation inside a bracket. For example, `E[x]tract` in English maybe translated into `[x] ekstrak` or `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
@@ -286,6 +285,7 @@ Use backticks on the following:
 - Extensions, e.g. `.dll`.
 - Commands, e.g. `ls`.
 - Standard streams: `stdout`, `stdin`, `stderr`. **Do not** use the full names (e.g. standard output).
+- Compression algorithms, e.g. `zip`, `7z`, `xz`.
 
 ## Descriptions
 
@@ -293,7 +293,7 @@ Use backticks on the following:
 - Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
 - Brand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
 - Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
-- When documenting keycaps or a keyboard shortcut for a utility it is suggested to wrap them in backticks to make them stand out in the description (i.e. ``Print the last lines of a given file and keep reading file until `Ctrl + C`:``). Alternatively, you can document them as a separate command and optionally highlight them as placeholders (i.e. `:wq{{Enter}}` or `:wq<Enter>` or `:wq(Enter)`).
+- When documenting keycaps or a keyboard shortcut for a utility it is suggested to wrap them in backticks to make them stand out in the description (i.e. ``Print the last lines of a given file and keep reading it until `Ctrl + C`:``). Alternatively, you can document them as a separate command and optionally highlight them as placeholders (i.e. `:wq{{Enter}}` or `:wq<Enter>` or `:wq(Enter)`).
 
 ### Imperative Mood
 
@@ -332,7 +332,7 @@ For instance, instead of `Listing all files:`, `List all files:` can be used as 
 
 ## Emphasis
 
-Do not use *italics*, **boldface** or any other text styling in the pages. These are reserved for client emphasis of placeholders.
+Do not use *italics*, **boldface** or any other text styling on the pages. These are reserved for client emphasis of placeholders.
 
 ## Serial Comma
 
@@ -369,6 +369,7 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 - Optionally, you can add a short description beside the referenced pages:
 
 ``See also: `date`, for Unix information; `umount`, for unmounting partitions.``
+
 ## More information links
 
 - On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms (except `osx` and BSD platforms other than FreeBSD). Alternatively, you can link to the author's website or a tutorial page if the command doesn't have a documentation page.
@@ -400,8 +401,9 @@ Additionally, if the link is related to PowerShell command documentation, remove
 
 ## Help and version commands
 
-- We generally place the help and version commands at the **last part of the page** to highlight more practical commands at the beginning of the page.
+- We generally put, **in this order**, the help and version commands as the **last two** examples of the page to highlight more practical commands at the beginning of the page. They can be replaced to accommodate other useful examples if required.
 - For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
+- It is suggested to document the help and version examples if the command follows unconventional flags in platforms like Windows.
 
 ## Language-Specific Rules
 
@@ -431,7 +433,7 @@ The following guidelines are applied to Chinese (`zh`) and traditional Chinese (
 
 - For example, use `嗨，你好。` rather than `嗨, 你好.`
 
-5. Use a half-width punctuation to end a sentence when the last character is half-width.
+5. Use half-width punctuation to end a sentence when the last character is half-width.
 
 - For example, use `将代码转化为 Python 3.` rather than `将代码转化为 Python 3。`
 
@@ -439,7 +441,7 @@ The following guidelines are applied to Chinese (`zh`) and traditional Chinese (
 
 - For example, use `Facebook` rather than `facebook`, `fb` or `脸书`.
 
-In order to maintain readability and normalization, please comply with the 6 rules above as much as possible when translating pages into Chinese.
+To maintain readability and normalization, please comply with the 6 rules above as much as possible when translating pages into Chinese.
 
 For more information and examples of Chinese-specific rules, check out [*Chinese Copywriting Guidelines*](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.en.md).
 
@@ -453,7 +455,7 @@ When translating pages to Indonesian, please keep in mind that we expect `tldr` 
 
 2. People who prefer to use English words as-is to describe technical terms: `download` for `download`, `debugging` for `debugging`, and `reboot` for `reboot`.
 
-The segmentation of these audiences is clearly noted on [Firefox Public Data Report](https://data.firefox.com/dashboard/usage-behavior):
+The segmentation of these audiences is noted on [Firefox Public Data Report](https://data.firefox.com/dashboard/usage-behavior):
 
 > For most countries in the top 10, the majority (>90%) of users have their language set to the local language, **with a notable exception in Indonesia, which has about 80% English (US) and 20% Indonesian.**
 
