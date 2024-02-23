@@ -23,7 +23,7 @@
 
 `{{cat path/to/file.json}} | jq '{{.[index1], .[index2], ...}}'`
 
-- Print all array items/object keys:
+- Print all array/object values:
 
 `{{cat path/to/file.json}} | jq '.[]'`
 
