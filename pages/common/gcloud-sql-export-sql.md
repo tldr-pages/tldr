@@ -1,10 +1,10 @@
 # gcloud sql export sql
 
-> Export data from a Cloud SQL instance to a SQL file in Google Cloud Storage.
+> Export data from a Cloud SQL instance to an SQL file in Google Cloud Storage.
 > Useful for creating backups or migrating data. See also: `gcloud`.
 > More information: <https://cloud.google.com/sdk/gcloud/reference/sql/export/sql>.
 
-- Export data from a specific Cloud SQL instance to a Google Cloud Storage bucket as a SQL dump file:
+- Export data from a specific Cloud SQL instance to a Google Cloud Storage bucket as an SQL dump file:
 
 `gcloud sql export sql {{instance}} gs://{{bucket_name}}/{{file_name}}`
 
