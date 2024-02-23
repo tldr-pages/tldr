@@ -4,9 +4,9 @@
 > A locar repository needs to be set in /etc/pacman.conf and vifm needs to be installed for this to fully function.
 > More information: <https://github.com/aurutils/aurutils>.
 
-- Search the AUR database for a keyword:
+- Search the AUR database for a package:
 
-`aur search {{package}}`
+`aur search {{keyword}}`
 
 - Download a package and its dependencies from AUR, build them and add them to a local repository:
 
