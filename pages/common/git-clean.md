@@ -19,7 +19,7 @@
 
 `git clean -f`
 
-- [f]orcefully [d]elete untracked directories:
+- [f]orcefully delete untracked [d]irectories:
 
 `git clean -fd`
 
