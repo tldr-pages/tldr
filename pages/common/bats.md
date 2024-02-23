@@ -7,7 +7,7 @@
 
 `bats --tap {{path/to/test.bats}}`
 
-- Count test cases without running any tests in the test script:
+- Count test cases of a test script without running any tests:
 
 `bats --count {{path/to/test.bats}}`
 
