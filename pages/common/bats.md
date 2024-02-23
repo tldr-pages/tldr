@@ -1,7 +1,7 @@
 # bats
 
 > Bash Automated Testing System: a TAP (<https://testanything.org/>) compliant testing framework for Bash.
-> More information: <https://github.com/bats-core/bats-core>.
+> More information: <https://bats-core.readthedocs.io/en/stable/usage.html>.
 
 - Run a BATS test script and output results in the TAP (Test Anything Protocol) format:
 
