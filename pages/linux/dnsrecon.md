@@ -3,7 +3,7 @@
 > DNS enumeration tool.
 > More information: <https://github.com/darkoperator/dnsrecon>.
 
-- Scan a domain and save the results to a SQLite database:
+- Scan a domain and save the results to an SQLite database:
 
 `dnsrecon --domain {{example.com}} --db {{path/to/database.sqlite}}`
 

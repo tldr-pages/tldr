@@ -1,7 +1,7 @@
 # logcat
 
 > সিস্টেম বার্তার একটি লগ ডাম্প করুন, যখন একটি ত্রুটি ঘটেছে স্ট্যাক ট্রেস সহ, এবং অ্যাপ্লিকেশন দ্বারা লগ করা তথ্য বার্তা।
-> আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/logcat>।
+> আরও তথ্য পাবেন: <https://developer.android.com/tools/logcat>।
 
 - সিস্টেম লগগুলি প্রদর্শন করুন:
 

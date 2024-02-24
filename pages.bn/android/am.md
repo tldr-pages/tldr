@@ -1,7 +1,7 @@
 # am
 
 > অ্যান্ড্রয়েড অ্যাক্টিভিটি ম্যানেজার।
-> আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/adb#am>।
+> আরও তথ্য পাবেন: <https://developer.android.com/tools/adb#am>।
 
 - একটি নির্দিষ্ট কার্যকলাপ শুরু করুন:
 

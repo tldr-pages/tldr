@@ -2,7 +2,7 @@
 
 > Stelle Informationen über Android-Systemservices bereit.
 > Dieser Befehl kann nur mit `adb shell` verwendet werden.
-> Weitere Informationen: <https://developer.android.com/studio/command-line/dumpsys>.
+> Weitere Informationen: <https://developer.android.com/tools/dumpsys>.
 
 - Erhalte diagnostische Informationen über alle Systemservices:
 

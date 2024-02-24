@@ -1,7 +1,7 @@
 # adb install
 
 > Android Debug Bridge-installatie: push pakketten naar een Android-emulatorinstantie of aangesloten Android-apparaten.
-> Meer informatie: <https://developer.android.com/studio/command-line/adb>.
+> Meer informatie: <https://developer.android.com/tools/adb>.
 
 - Push een Android-applicatie naar een emulator/apparaat:
 
