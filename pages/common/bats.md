@@ -11,7 +11,7 @@
 
 `bats --count {{path/to/test.bats}}`
 
-- Run BATS test cases contained in a directory and subdirectories with file extension `.bats`:
+- Run BATS test cases contained in a directory and its subdirectories (files with a `.bats` extension):
 
 `bats --recursive {{path/to/directory}}`
 
