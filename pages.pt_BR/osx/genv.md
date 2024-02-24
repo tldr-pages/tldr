@@ -1,6 +1,6 @@
 # genv
 
-> Este comando é um pseudônimo de `-p linux env`.
+> Este comando é um apelido de `-p linux env`.
 
 - Exibe documentação sobre o comando original:
 

@@ -1,6 +1,6 @@
 # nm-classic
 
-> Este comando é um pseudônimo de `nm`.
+> Este comando é um apelido de `nm`.
 
 - Exibe documentação sobre o comando original:
 

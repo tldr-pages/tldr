@@ -1,6 +1,6 @@
 # gtouch
 
-> Este comando é um pseudônimo de `-p linux touch`.
+> Este comando é um apelido de `-p linux touch`.
 
 - Exibe documentação sobre o comando original:
 
