@@ -1,6 +1,6 @@
 # blackfire
 
-> A command-line profiling tool for PHP.
+> Monitor, profile and test a PHP application.
 > More information: <https://blackfire.io>.
 
 - Initialize and configure the Blackfire client:
