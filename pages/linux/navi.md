@@ -15,7 +15,7 @@
 
 `navi --print`
 
-- Output shell widget source code. Automatically detects your shell if possible, but can be specified:
+- Output shell widget source code (It automatically detects your shell if possible, but can also be specified manually):
 
 `navi widget {{shell}}`
 
