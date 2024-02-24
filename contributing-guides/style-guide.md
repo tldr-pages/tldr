@@ -318,10 +318,10 @@ For instance, instead of `Listing all files:`, `List all files:` can be used as 
 - All descriptions **must be concise**.
 - Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`) unless the program name differs from the executable name (e.g. `rg` and Ripgrep).
 - Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
-- For example, when writing documentation for `cd`, a tool to check out and work on a specific directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
+- For example, when writing documentation for `cd`, a tool to change the current working directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
 
 ```md
-> `cd` is a system tool, available in Windows, macOS, and Linux, to check out a specific directory to get things done in the Command Prompt, Terminal, and PowerShell.
+> `cd` is a system tool, available in Windows, macOS, and Linux, to change the current working directory to get things done in the Command Prompt, Terminal, and PowerShell.
 ```
 
 It should instead be simplified to make it easier for everyone to read:
