@@ -3,34 +3,34 @@
 > Exploit Development Library designed for rapid prototyping.
 > More information: <https://docs.pwntools.com/en/stable/commandline.html>.
 
-- Convert given assembly code to `bytes`:
+- Convert  the given assembly code to `bytes`:
 
-`pwn asm {{'xor edi, edi'}}`
+`pwn asm "{{xor edi, edi}}"`
 
-- Create a cyclic pattern of `100` characters:
+- Create a cyclic pattern of 100 characters:
 
 `pwn cyclic {{100}}`
 
-- Print `bytes` for the given `hex-encoded` data:
+- Encode the given data into the hexadecimal system:
 
 `pwn hex {{deafbeef}}`
 
-- Print `hex-encoded` data for the given `bytes`:
+- Decode the given data from hexadecimal:
 
 `pwn unhex {{6c4f7645}}`
 
-- Print `x64 Linux Shellcode` in bytes that runs a `shell`:
+- Print a x64 Linux shellcode for running a shell:
 
 `pwn shellcraft {{amd64.linux.sh}}`
 
-- Check binary security settings for the given `ELF file`:
+- Check the binary security settings for the given ELF file:
 
-`pwn checksec {{program}}`
+`pwn checksec {{path/to/file}}`
 
-- Check for pwntools updates:
+- Check for Pwntools updates:
 
 `pwn update`
 
-- Print Pwntools help menu:
+- Display version:
 
 `pwn version`
