@@ -1,7 +1,7 @@
 # setcap
 
 > Set capabilities of specified file.
-> See also: `tldr getcap`.
+> See also: `getcap`.
 > More information: <https://manned.org/setcap>.
 
 - Set capability `cap_net_raw` (to use RAW and PACKET sockets) for a given file:
