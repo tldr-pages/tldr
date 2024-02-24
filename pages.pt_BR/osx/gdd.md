@@ -1,6 +1,6 @@
 # gdd
 
-> Este comando é um pseudônimo de `-p linux dd`.
+> Este comando é um apelido de `-p linux dd`.
 
 - Exibe documentação sobre o comando original:
 

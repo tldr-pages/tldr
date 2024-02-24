@@ -1,6 +1,6 @@
 # gping6
 
-> Este comando é um pseudônimo de `-p linux ping6`.
+> Este comando é um apelido de `-p linux ping6`.
 
 - Exibe documentação sobre o comando original:
 

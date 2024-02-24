@@ -1,6 +1,6 @@
 # grsh
 
-> Este comando é um pseudônimo de `-p linux rsh`.
+> Este comando é um apelido de `-p linux rsh`.
 
 - Exibe documentação sobre o comando original:
 
