@@ -1,6 +1,6 @@
 # hx
 
-> Este comando é um pseudônimo de `helix`.
+> Este comando é um apelido de `helix`.
 
 - Exibe documentação sobre o comando original:
 

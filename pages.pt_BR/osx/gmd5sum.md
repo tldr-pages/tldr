@@ -1,6 +1,6 @@
 # gmd5sum
 
-> Este comando é um pseudônimo de `-p linux md5sum`.
+> Este comando é um apelido de `-p linux md5sum`.
 
 - Exibe documentação sobre o comando original:
 

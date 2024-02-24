@@ -1,6 +1,6 @@
 # grm
 
-> Este comando é um pseudônimo de `-p linux rm`.
+> Este comando é um apelido de `-p linux rm`.
 
 - Exibe documentação sobre o comando original:
 
