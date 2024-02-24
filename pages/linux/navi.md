@@ -7,7 +7,7 @@
 
 `navi`
 
-- Browse the cheatsheet for navi itself:
+- Browse the cheatsheet for `navi` itself:
 
 `navi fn welcome`
 
