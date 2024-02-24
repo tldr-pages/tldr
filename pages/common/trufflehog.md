@@ -29,7 +29,7 @@
 
 - Scan individual files or directories:
 
-`trufflehog filesystem {{path/to/file1.txt path/to/file2.txt path/to/dir ...}}`
+`trufflehog filesystem {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Scan a Docker image for verified secrets:
 
