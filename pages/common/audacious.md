@@ -1,6 +1,6 @@
 # audacious
 
-> An open-source audio player. Descendant of XMMS.
+> An open-source audio player. Indirectly based of XMMS.
 > More information: <https://audacious-media-player.org>.
 
 - Launch the GUI:
