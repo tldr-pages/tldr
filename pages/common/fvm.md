@@ -1,6 +1,6 @@
 # fvm
 
-> Flutter version manager
+> Flutter version manager.
 > More information: <https://fvm.app/documentation/guides/basic-commands>.
 
 - Install a version of the Flutter SDK. Use without `version` for project settings:
