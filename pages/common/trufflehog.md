@@ -15,7 +15,7 @@
 
 `trufflehog git https://github.com/trufflesecurity/test_keys --only-verified --json`
 
-- Scan a GitHub Repo along with its Issues and Pull Requests:
+- Scan a GitHub repository along with its Issues and Pull Requests:
 
 `trufflehog github --repo=https://github.com/trufflesecurity/test_keys --issue-comments --pr-comments`
 
