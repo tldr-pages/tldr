@@ -7,7 +7,7 @@
 
 `trufflehog git {{https://github.com/trufflesecurity/test_keys}} --only-verified`
 
-- Scan a GitHub Org for only verified secrets:
+- Scan a GitHub organization for verified secrets:
 
 `trufflehog github --org={{trufflesecurity}} --only-verified`
 
