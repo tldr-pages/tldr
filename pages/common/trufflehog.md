@@ -11,9 +11,9 @@
 
 `trufflehog github --org={{trufflesecurity}} --only-verified`
 
-- Scan a GitHub Repo for only verified keys and get JSON output:
+- Scan a GitHub repository for verified keys and get JSON output:
 
-`trufflehog git https://github.com/trufflesecurity/test_keys --only-verified --json`
+`trufflehog git {{https://github.com/trufflesecurity/test_keys}} --only-verified --json`
 
 - Scan a GitHub repository along with its Issues and Pull Requests:
 
