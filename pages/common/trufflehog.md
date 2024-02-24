@@ -17,11 +17,11 @@
 
 - Scan a GitHub repository along with its Issues and Pull Requests:
 
-`trufflehog github --repo=https://github.com/trufflesecurity/test_keys --issue-comments --pr-comments`
+`trufflehog github --repo={{https://github.com/trufflesecurity/test_keys}} --issue-comments --pr-comments`
 
 - Scan an S3 bucket for verified keys:
 
-`trufflehog s3 --bucket=<bucket name> --only-verified`
+`trufflehog s3 --bucket={{bucket name}} --only-verified`
 
 - Scan S3 buckets using IAM Roles:
 
