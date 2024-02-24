@@ -50,30 +50,27 @@ When in doubt, have a look at a few existing pages :).
 
 ## Directory structure
 
-The English pages directory is `pages`, under which are the platform directories. Language specific directories must follow the pattern `pages.<locale>`, where `<locale>` is a [POSIX Locale Name](https://www.gnu.org/software/gettext/manual/html_node/Locale-Names.html#Locale-Names) in the form of `<language>[_<country>]`, where:
+The English pages directory is called `pages`, under which the platform directories are present. Language-specific directories must follow the pattern `pages.<locale>`, where `<locale>` is a [POSIX Locale Name](https://www.gnu.org/software/gettext/manual/html_node/Locale-Names.html#Locale-Names) in the form of `<language>[_<country>]`, where:
 
 - `<language>` is the shortest [ISO 639](https://en.wikipedia.org/wiki/ISO_639) language code for the chosen language (see [here](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) for a complete list).
 - `<country>` is the two-letter [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) country code for the chosen region (see [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) for a complete list).
 
-[!NOTE]
-> Do not put any page directly inside the English pages directory or language specific directories.
-
-The `<country>` code is optional and should only be added when it there is a substancial difference between a language (`ll`) and its regional dialects (`ll_CC1`, `ll_CC2`, etc.). For example, both `fr_FR` and `fr_BE` should fall under the same `pages.fr` directory since there virtually is no difference in writing between standard French and Belgian French.
+The `<country>` code is optional and should only be added when there is a substantial difference between a language (`ll`) and its regional dialects (`ll_CC1`, `ll_CC2`, etc.). For example, both `fr_FR` and `fr_BE` should fall under the same `pages.fr` directory since there virtually is no difference in writing between standard French and Belgian French.
 
 ### Platform directories
 
-The `pages` directory contain the platform directories, as well as the language-specific directories, if they have at least one page of that platform.
+The `pages` directory and `pages.*` language-specific directories contain the platform directories, if they have at least one page of that platform.
 
-1. If the command is available for **two or more** platforms, put it **under `common`**
-2. If the command is **only** available for **one** platform, these are the directories followed by their right platform:
-- `android`: Android
-- `freebsd`: FreeBSD
-- `openbsd`: OpenBSD
-- `osx`: OSX/Mac OS/macOS (will be replaced by `macos`)
-- `linux`: any Linux distro
-- `netbsd`: NetBSD
-- `sunos`: SunOS
-- `windows`: Windows
+1. If the command is available for **two or more** platforms, put it **under the `common` directory**.
+2. If the command is **only** available for **one** platform, these are the available directories followed by their right platform:
+  - `android`: Android
+  - `freebsd`: FreeBSD
+  - `openbsd`: OpenBSD
+  - `osx`: OSX/Mac OS/macOS (will be replaced by `macos`)
+  - `linux`: any Linux distro
+  - `netbsd`: NetBSD
+  - `sunos`: SunOS
+  - `windows`: Windows
 
 ## Markdown format
 
