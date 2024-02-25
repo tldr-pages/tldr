@@ -10,15 +10,15 @@
 
 - Menginstal sebuah paket, atau memperbaruinya ke versi terbaru yang tersedia:
 
-`apt-get install {{package}}`
+`apt-get install {{paket}}`
 
 - Menghapus sebuah paket:
 
-`apt-get remove {{package}}`
+`apt-get remove {{paket}}`
 
 - Menghapus sebuah paket dan file konfigurasinya:
 
-`apt-get purge {{package}}`
+`apt-get purge {{paket}}`
 
 - Memperbarui semua paket yang terinstal ke versi terbaru yang tersedia:
 
