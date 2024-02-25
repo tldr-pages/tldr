@@ -16,8 +16,7 @@
 
 `npm install {{pacote}}@{{versão}}`
 
-- Baixa a última versão de um pacote e o adiciona à lista de dependências de desenvolvimento em `p
-ackage.json`:
+- Baixa a última versão de um pacote e o adiciona à lista de dependências de desenvolvimento em `package.json`:
 
 `npm install {{pacote}} --save-dev`
 
