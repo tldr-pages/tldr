@@ -9,12 +9,12 @@
 
 - Mencari paket yang berisi nama file atau path yang diinputkan:
 
-`apt-file {{search|find}} {{partial_path/to/file}}`
+`apt-file {{search|find}} {{path/ke/sebuah/file}}`
 
 - Menampilkan daftar konten dari sebuah paket:
 
-`apt-file {{show|list}} {{package}}`
+`apt-file {{show|list}} {{paket}}`
 
-- Mencari paket yang yang sesuai dengan `regular_expression`:
+- Mencari paket yang yang sesuai dengan `ekspresi_reguler`:
 
-`apt-file {{search|find}} --regexp {{regular_expression}}`
+`apt-file {{search|find}} --regexp {{ekspresi_reguler}}`
