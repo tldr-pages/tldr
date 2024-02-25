@@ -7,7 +7,7 @@
 
 `select {{word}} in {{apple}} {{orange}} {{pear}} {{banana}}; do echo ${{word}}; done`
 
-- Create a menu from the output of another program:
+- Create a menu from the output of another command:
 
 `select {{line}} in $({{program_to_run}}); do echo ${{line}}; done`
 
