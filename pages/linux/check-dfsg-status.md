@@ -1,7 +1,7 @@
 # check-dfsg-status
 
 > Report non-free packages installed on Debian-based OSes.
-> More information: <https://debian.pages.debian.net/vrms/>.
+> More information: <https://debian.pages.debian.net/check-dfsg-status/>.
 
 - List non-free and contrib packages (and their description):
 
