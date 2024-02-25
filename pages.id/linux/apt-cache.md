@@ -9,16 +9,16 @@
 
 - Menampilkan informasi tentang sebuah paket:
 
-`apt-cache show {{package}}`
+`apt-cache show {{nama-paket}}`
 
 - Menampilkan apakah sebuah paket sudah terinstal dan paling terbaru:
 
-`apt-cache policy {{package}}`
+`apt-cache policy {{nama-paket}}`
 
 - Menampilkan dependensi sebuah paket:
 
-`apt-cache depends {{package}}`
+`apt-cache depends {{nama-paket}}`
 
 - Menampilkan paket yang bergantung pada paket tertentu:
 
-`apt-cache rdepends {{package}}`
+`apt-cache rdepends {{nama-paket}}`
