@@ -10,8 +10,8 @@
 
 - Print which files would have been modified and return a non-zero exit code if there are files to reformat, and zero otherwise:
 
-`ruff format --check {{path/to/file_or_directory}}`
+`ruff format --check`
 
 - Print what changes would be made, without modifying the files:
 
-`ruff format --diff {{path/to/file_or_directory}}`
+`ruff format --diff`

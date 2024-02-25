@@ -10,11 +10,11 @@
 
 - Apply suggested fixes:
 
-`ruff check --fix {{path/to/file_or_directory}}`
+`ruff check --fix`
 
 - Run the linter and re-lint on change:
 
-`ruff check --watch {{path/to/file_or_directory}}`
+`ruff check --watch`
 
 - Only enable the specified rules (or all rules), ignoring the configuration file:
 
@@ -30,4 +30,4 @@
 
 - Ignore all existing violations of a rule by adding `# noqa` directives to all lines that violate it:
 
-`ruff check --select {{rule_code}} --add-noqa {{path/to/file_or_directory}}`
+`ruff check --select {{rule_code}} --add-noqa`
