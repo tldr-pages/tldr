@@ -1,6 +1,6 @@
 # gdebi
 
-> Simple tool to install `.deb` files.
+> Easily install `.deb` files.
 > More information: <https://www.commandlinux.com/man-page/man1/gdebi.1.html>.
 
 - Install local `.deb` packages resolving and installing its dependencies:
