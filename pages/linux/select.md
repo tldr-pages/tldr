@@ -9,7 +9,7 @@
 
 - Create a menu from the output of another command:
 
-`select {{line}} in $({{program_to_run}}); do echo ${{line}}; done`
+`select {{line}} in $({{command}}); do echo ${{line}}; done`
 
 - Specify the prompt string for `select` and create a menu for picking a file or folder from the current directory:
 
