@@ -1,6 +1,6 @@
 # makepkg
 
-> Monta um pacote que pode ser usado com o `pacman`.
+> Monta um pacote que pode ser usado junto ao `pacman`.
 > Utiliza por padrão o arquivo `PKGBUILD` no diretório de trabalho atual.
 > Mais informações: <https://man.archlinux.org/man/makepkg.8>.
 
