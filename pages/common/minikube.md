@@ -30,3 +30,7 @@
 - Connect to LoadBalancer services:
 
 `minikube tunnel`
+
+- Web-based Kubernetes user interface
+
+`minikube dashboard`
