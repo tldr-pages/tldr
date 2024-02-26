@@ -1,6 +1,6 @@
 # add-apt-repository
 
-> Mengelola definisi repositori `apt`.
+> Kelola definisi repositori `apt`.
 > Informasi lebih lanjut: <https://manned.org/apt-add-repository>.
 
 - Menambah repositori `apt` baru:
