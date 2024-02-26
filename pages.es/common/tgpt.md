@@ -24,7 +24,7 @@
 
 `tgpt --provider {{openai|opengpts|koboldai|phind|llama2|blackboxai}}} --quiet --whole "{{prompt}}"`
 
-- Genera y ejecuta comandos [s]hell utilizando un proveedor específico (con un prompt de confirmación):
+- Genera y ejecuta comandos de intérprete utilizando un proveedor específico (con confirmación):
 
 `tgpt --provider {{llama2}}} --shell "{{prompt}}"`
 
