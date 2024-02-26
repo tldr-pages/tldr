@@ -4,7 +4,7 @@
 > Nota: Es necesario establecer un repositorio local en `/etc/pacman.conf` e instalar `vifm` para que esto funcione completamente.
 > Más información: <https://github.com/aurutils/aurutils>.
 
-- Busca un paquete en la base de datos AUR:
+- Busca un paquete en la base de datos del AUR:
 
 `aur search {{palabra_clave}}`
 
