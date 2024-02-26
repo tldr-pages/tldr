@@ -12,6 +12,6 @@
 
 `ruff format --check`
 
-- Print what changes would be made, without modifying the files:
+- Print what changes would be made without modifying the files:
 
 `ruff format --diff`
