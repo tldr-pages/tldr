@@ -8,7 +8,7 @@
 
 `aur search {{palabra_clave}}`
 
-- Descarga un paquete y sus dependencias desde AUR, los compila y los añade a un repositorio local:
+- Descarga un paquete y sus dependencias desde el AUR, los compila y añade a un repositorio local:
 
 `aur sync {{paquete}}`
 
