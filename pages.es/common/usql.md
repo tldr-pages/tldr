@@ -3,7 +3,7 @@
 > Interfaz de línea de comandos universal para bases de datos SQL.
 > Más información: <https://github.com/xo/usql>.
 
-- Conectarse a una base de datos específica:
+- Conecta a una base de datos específica:
 
 `usql {{sqlserver|mysql|postgres|sqlite3|...}}://{{nombre_usuario}}:{{contraseña}}@{{host}}:{{puerto}}/{{nombre_base_de_datos}}`
 
