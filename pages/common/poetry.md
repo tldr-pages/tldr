@@ -27,6 +27,10 @@
 
 `poetry run {{command}}`
 
-- Bump the minor version of the project in `pyproject.toml`:
+- Bump the major/minor version of the project in `pyproject.toml`:
 
-`poetry version minor`
+`poetry version {{major|minor}}`
+
+- Spawn a shell within the project's virtual environment:
+
+`poetry shell`
