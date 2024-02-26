@@ -7,7 +7,7 @@
 
 `hexyl {{ruta/al/archivo}}`
 
-- Imprime la representación hexadecimal de los n primeros bytes de un archivo:
+- Imprime la representación hexadecimal de los primeros `n` bytes de un archivo:
 
 `hexyl -n {{n}} {{ruta/al/archivo}}`
 
