@@ -2,7 +2,7 @@
 
 > Gestor de paquetes para librerías C/C++.
 > Nota: los paquetes no se instalan en el sistema. Para usarlos, necesitas decirle a tu sistema de compilación (por ejemplo CMake) que use `vckg`.
-> Más información: <https://learn.microsoft.com/en-us/vcpkg/>.
+> Más información: <https://learn.microsoft.com/vcpkg/>.
 
 - Construye y añade el paquete `libcurl` al entorno `vcpkg`:
 
