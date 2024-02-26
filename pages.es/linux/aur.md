@@ -1,7 +1,7 @@
 # aur
 
 > Construye paquetes desde el AUR y gestiona repositorios locales.
-> Nota: Es necesario establecer un repositorio local en `/etc/pacman.conf` e instalar `vifm` para que esto funcione completamente.
+> Nota: Es necesario establecer un repositorio local en `/etc/pacman.conf` e instalar `vifm` para que funcione completamente.
 > Más información: <https://github.com/aurutils/aurutils>.
 
 - Busca un paquete en la base de datos del AUR:
