@@ -7,7 +7,7 @@
 
 `bats --tap {{ruta/a/prueba.bats}}`
 
-- Cuenta los casos de prueba de un script de prueba sin ejecutar ninguna prueba:
+- Cuenta los casos de prueba de un guión de prueba sin ejecutar ninguna prueba:
 
 `bats --count {{ruta/a/prueba.bats}}`
 
