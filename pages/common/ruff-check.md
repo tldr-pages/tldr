@@ -8,7 +8,7 @@
 
 `ruff check {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Apply suggested fixes:
+- Apply the suggested fixes, modifying the files in-place:
 
 `ruff check --fix`
 
