@@ -15,6 +15,6 @@
 
 `bats --recursive {{ruta/al/directorio}}`
 
-- Obtiene resultados en un formato específico:
+- Obtén resultados en un formato específico:
 
 `bats --formatter {{pretty|tap|junit}} {{ruta/a/prueba.bats}}`
