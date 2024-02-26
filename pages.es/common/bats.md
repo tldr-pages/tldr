@@ -3,7 +3,7 @@
 > Bash Automated Testing System: un marco de pruebas compatible con TAP (<https://testanything.org/>) para Bash.
 > Más información: <https://bats-core.readthedocs.io/en/stable/usage.html>.
 
-- Ejecuta un script de prueba BATS y emite los resultados en el formato TAP (Test Anything Protocol):
+- Ejecuta un guión de prueba BATS y emite los resultados en el formato TAP (Test Anything Protocol):
 
 `bats --tap {{ruta/a/prueba.bats}}`
 
