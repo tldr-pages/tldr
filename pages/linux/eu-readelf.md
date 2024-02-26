@@ -3,6 +3,10 @@
 > Displays information about ELF files.
 > More information: <https://manned.org/eu-readelf>.
 
-- Displays the contents of the NOTE segments and sections of a file:
+- Display all extractable information contained in the ELF file:
 
-`eu-readelf -n {{path/to/file}}`
+`eu-readelf --all {{path/to/file}}`
+
+- Display the contents of all NOTE segments/sections, or of a particular segment/section:
+
+`eu-readelf --notes[={{.note.ABI-tag}}] {{path/to/file}}`
