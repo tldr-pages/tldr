@@ -11,7 +11,7 @@
 
 `bats --count {{ruta/a/prueba.bats}}`
 
-- Ejecuta casos de prueba BATS contenidos en un directorio y sus subdirectorios (archivos con extensión `.bats`):
+- Ejecuta casos de prueba BATS en un directorio y sus subdirectorios (archivos con extensión `.bats`):
 
 `bats --recursive {{ruta/al/directorio}}`
 
