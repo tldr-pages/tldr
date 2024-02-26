@@ -20,7 +20,7 @@
 
 `tgpt --code "{{prompt}}"`
 
-- Chatea con un proveedor específico [q]uietamente (sin animaciones):
+- Chatea con un proveedor específico silenciosamente (sin animaciones):
 
 `tgpt --provider {{openai|opengpts|koboldai|phind|llama2|blackboxai}}} --quiet --whole "{{prompt}}"`
 
