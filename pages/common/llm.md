@@ -19,10 +19,10 @@
 
 `llm install {{package1 package2 ...}}`
 
-- Download and run a prompt against a model:
+- Download and run a prompt against a [model]:
 
 `llm --model {{orca-mini-3b-gguf2-q4_0}} "{{What is the capital of France?}}"`
 
-- Have an interactive chat with a specific model:
+- Have an interactive chat with a specific [model]:
 
 `llm chat --model {{chatgpt}}`
