@@ -34,4 +34,4 @@
 
 - Alimenta un archivo como pre-entrada adicional:
 
-`tgpt --provider {{blackboxai}}} "{{prompt}}" < {{ruta/al/archivo}}`
+`tgpt --provider {{blackboxai}} "{{prompt}}" < {{ruta/al/archivo}}`
