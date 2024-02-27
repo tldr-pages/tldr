@@ -19,11 +19,11 @@
 
 `fvm destroy`
 
-- Remove a specific Flutter SDK:
+- Remove a specific version of the Flutter SDK:
 
 `fvm remove {{version}}`
 
-- List all versions of the Flutter SDK that have been installed:
+- List all installed versions of the Flutter SDK:
 
 `fvm list`
 
