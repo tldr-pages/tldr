@@ -30,7 +30,7 @@
 
 - Pregunta con una clave de API, modelo, longitud máxima de respuesta, temperatura y `top_p` (necesario cuando se utiliza el proveedor `openai`):
 
-`tgpt --provider openai --key "{{api_key}}" --model "{{gpt-3.5-turbo}}" --max_length {{10}} --temperature {{0.7}} --top_p {{0.9}} "{{prompt}}"`
+`tgpt --provider openai --key "{{api_key}}" --model "{{gpt-3.5-turbo}}" --max-length {{10}} --temperature {{0.7}} --top_p {{0.9}} "{{prompt}}"`
 
 - Alimenta un archivo como pre-entrada adicional:
 
