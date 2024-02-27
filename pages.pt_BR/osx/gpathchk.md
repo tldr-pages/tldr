@@ -1,6 +1,6 @@
 # gpathchk
 
-> Este comando é um pseudônimo de `-p linux pathchk`.
+> Este comando é um apelido de `-p linux pathchk`.
 
 - Exibe documentação sobre o comando original:
 

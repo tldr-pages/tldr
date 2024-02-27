@@ -1,6 +1,6 @@
 # convert
 
-> Image conversion tool.
+> Convert between image formats, scale, join, and create images, and much more.
 > Part of ImageMagick.
 > More information: <https://imagemagick.org/script/convert.php>.
 

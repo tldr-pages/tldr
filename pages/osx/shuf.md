@@ -15,6 +15,6 @@
 
 `shuf {{filename}} --output={{output_filename}}`
 
-- Generate random numbers in range 1-10:
+- Generate random numbers in the range 1 to 10:
 
 `shuf --input-range={{1-10}}`

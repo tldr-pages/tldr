@@ -1,6 +1,6 @@
 # grmdir
 
-> Este comando é um pseudônimo de `-p linux rmdir`.
+> Este comando é um apelido de `-p linux rmdir`.
 
 - Exibe documentação sobre o comando original:
 

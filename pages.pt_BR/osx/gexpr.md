@@ -1,6 +1,6 @@
 # gexpr
 
-> Este comando é um pseudônimo de `-p linux expr`.
+> Este comando é um apelido de `-p linux expr`.
 
 - Exibe documentação sobre o comando original:
 

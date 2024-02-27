@@ -1,6 +1,6 @@
 # gunits
 
-> Este comando é um pseudônimo de `-p linux units`.
+> Este comando é um apelido de `-p linux units`.
 
 - Exibe documentação sobre o comando original:
 
