@@ -17,7 +17,7 @@
 
 - Escanea un repositorio GitHub junto con sus incidencias y solicitudes de extracción:
 
-`trufflehog github --repo={https://github.com/trufflesecurity/test_keys}} --issue-comments --pr-comments`
+`trufflehog github --repo={{https://github.com/trufflesecurity/test_keys}} --issue-comments --pr-comments`
 
 - Escanea un cubo S3 en busca de claves verificadas:
 
