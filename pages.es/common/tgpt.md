@@ -22,11 +22,11 @@
 
 - Chatea con un proveedor específico silenciosamente (sin animaciones):
 
-`tgpt --provider {{openai|opengpts|koboldai|phind|llama2|blackboxai}}} --quiet --whole "{{prompt}}"`
+`tgpt --provider {{openai|opengpts|koboldai|phind|llama2|blackboxai}} --quiet --whole "{{prompt}}"`
 
 - Genera y ejecuta comandos de intérprete utilizando un proveedor específico (con confirmación):
 
-`tgpt --provider {{llama2}}} --shell "{{prompt}}"`
+`tgpt --provider {{llama2}} --shell "{{prompt}}"`
 
 - Pregunta con una clave de API, modelo, longitud máxima de respuesta, temperatura y `top_p` (necesario cuando se utiliza el proveedor `openai`):
 
