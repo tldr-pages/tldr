@@ -10,7 +10,7 @@
 
 - Trim an audio file to the specified times:
 
-`sox {{path/to/input_audio}} {{path/to/output_audio}} trim {{start}} {{end}}`
+`sox {{path/to/input_audio}} {{path/to/output_audio}} trim {{start}} {{duration}}`
 
 - Normalize an audio file (adjust volume to the maximum peak level, without clipping):
 
