@@ -7,9 +7,9 @@
 
 `pwn asm "{{xor edi, edi}}"`
 
-- Create a cyclic pattern of 100 characters:
+- Create a cyclic pattern of the specific number of characters:
 
-`pwn cyclic {{100}}`
+`pwn cyclic {{number}}`
 
 - Encode the given data into the hexadecimal system:
 
