@@ -3,7 +3,7 @@
 > Herramienta para configurar los gestores de arranque `grub` y `zipl`.
 > Más información: <https://manned.org/man/grubby.8>.
 
-- Añade argumentos de arranque del kernel a todas las entradas del menú del kernel:
+- Añade argumentos de arranque del núcleo a todas las entradas del menú del núcleo:
 
 `sudo grubby --update-kernel=ALL --args '{{quiet console=ttyS0}}'`
 
