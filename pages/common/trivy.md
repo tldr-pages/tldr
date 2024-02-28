@@ -1,20 +1,28 @@
 # trivy
 
-> Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues.
-> More information: <https://github.com/aquasecurity/trivy>.
+> Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues and hard-coded secrets.
+> More information: <https://aquasecurity.github.io/trivy>.
 
-- Scan an image:
+- Scan a Docker image for vulnerabilities:
 
-`trivy image {{image:tag}}`
+`trivy image {{alpine:latest}}`
 
-- Scan the filesystem for vulnerabilities and misconfigurations:
+- Scan a Docker image filtering by severities:
 
-`trivy fs --security-checks {{vuln,config}} {{path/to/project_directory}}`
+`trivy image --severity {{HIGH,CRITICAL}} {{alpine:3.15}}`
 
-- Scan a directory for misconfigurations:
+- Scan a Docker image ignoring any unfixed/unpatched vulnerabilities:
 
-`trivy config {{path/to/iac_directory}}`
+`trivy image --ignore-unfixed {{alpine:3.15}}`
 
-- Generate output with a SARIF template:
+- Scan a local development project for vulnerabilities:
 
-`trivy image --format {{template}} --template {{"@sarif.tpl"}} -o {{path/to/report.sarif}} {{image:tag}}`
+`trivy fs {{path/to/project}}`
+
+- Scan a remote git repository for vulnerabilities:
+
+`trivy repo {{https://github.com/knqyf263/trivy-ci-test}}`
+
+- Scan a IaC (Terraform, CloudFormation, ARM, Helm and Dockerfile) directory for misconfigurations:
+
+`trivy config {{path/to/directory}}`
