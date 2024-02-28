@@ -27,7 +27,7 @@
 
 `trivy repo {{path/to/local_repository_directory|remote_repository_URL}}`
 
-- Scan a git repository upto a specific commit hash:
+- Scan a git repository up to a specific commit hash:
 
 `trivy repo --commit {{commit_hash}} {{repository}}`
 
