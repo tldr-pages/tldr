@@ -7,7 +7,7 @@
 
 `sudo grubby --update-kernel=ALL --args '{{quiet console=ttyS0}}'`
 
-- Elimina los argumentos existentes de la entrada para el kernel por defecto:
+- Elimina los argumentos existentes de la entrada para el núcleo por defecto:
 
 `sudo grubby --update-kernel=DEFAULT --remove-args {{quiet}}`
 
