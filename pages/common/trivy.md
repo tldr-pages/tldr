@@ -7,7 +7,7 @@
 
 `trivy image {{image:tag}}`
 
-- Scan a Docker image filtering by severities:
+- Scan a Docker image filtering the output by severity:
 
 `trivy image --severity {{HIGH,CRITICAL}} {{alpine:3.15}}`
 
