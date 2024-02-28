@@ -6,7 +6,7 @@
 
 - Scan a directory containing IaC (Terraform, Cloudformation, ARM, Ansible, Bicep, Dockerfile, etc):
 
-`checkov --directory {{path/to/IaC_dir}}`
+`checkov --directory {{path/to/IaC_directory}}`
 
 - Scan a IaC file and omit any code block in output:
 
