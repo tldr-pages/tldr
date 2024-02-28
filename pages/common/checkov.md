@@ -10,7 +10,7 @@
 
 - Scan a IaC file and omit any code block in output:
 
-`checkov --compact --file {{path/to/iac_code_file}}`
+`checkov --compact --file {{path/to/IaC_file}}`
 
 - List all checks for all IaC types:
 
