@@ -4,7 +4,7 @@
 > It is also a software composition analysis (SCA) tool for images and open source packages.
 > More information: <https://www.checkov.io/1.Welcome/Quick%20Start.html>.
 
-- Scan a directory containing IaC code (Terraform, Cloudformation, ARM, Ansible, Bicep, Dockerfile, etc):
+- Scan a directory containing IaC (Terraform, Cloudformation, ARM, Ansible, Bicep, Dockerfile, etc):
 
 `checkov --directory {{path/to/IaC_dir}}`
 
