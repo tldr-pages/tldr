@@ -11,6 +11,6 @@
 
 `sudo grubby --update-kernel=DEFAULT --remove-args {{quiet}}`
 
-- Lista todas las entradas del menú del kernel:
+- Lista todas las entradas del menú del núcleo:
 
 `sudo grubby --info=ALL`
