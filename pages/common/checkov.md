@@ -8,7 +8,7 @@
 
 `checkov --directory {{path/to/IaC_directory}}`
 
-- Scan a IaC file and omit any code block in output:
+- Scan a IaC file, omitting code blocks in the output:
 
 `checkov --compact --file {{path/to/IaC_file}}`
 
