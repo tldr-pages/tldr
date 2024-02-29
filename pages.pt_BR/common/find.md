@@ -7,19 +7,19 @@
 
 `find {{caminho_raiz}} -name '{{*.ext}}'`
 
-- Procura por arquivos que correspondem a padrões de caminho ou nome específico:
+- Procura por arquivos que correspondam a padrões de caminho ou nome específico:
 
 `find {{caminho_raiz}} -path '{{**/caminho/**/*.ext}}' -or -name '{{*nome*}}'`
 
-- Procura por diretórios que correspondem a um nome específico, sem o uso de case-sensitive:
+- Procura por diretórios que correspondam a um nome específico, sem o uso de case-sensitive:
 
 `find {{caminho_raiz}} -type d -iname '{{*nome*}}'`
 
-- Procura por arquivos que correspondem a um nome específico, excluindo certos caminhos:
+- Procura por arquivos que correspondam a um nome específico, excluindo certos caminhos:
 
 `find {{caminho_raiz}} -name '{{*.py}}' -not -path '{{*/caminho/*}}'`
 
-- Procura por arquivos que correspondem a uma faixa de tamanho específica, limitando a profundidade recursiva para "1":
+- Procura por arquivos que correspondam a uma faixa de tamanho específica, limitando a profundidade recursiva para "1":
 
 `find {{caminho_raiz}} -maxdepth 1 -size {{+500k}} -size {{-10M}}`
 
