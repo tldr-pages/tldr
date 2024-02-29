@@ -27,6 +27,6 @@
 
 `cat {{caminho/para/arquivo}} | kate --stdin`
 
-- Exibe a ajuda:
+- Exibe ajuda:
 
 `kate --help`
