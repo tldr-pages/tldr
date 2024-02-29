@@ -1,6 +1,6 @@
 # eza
 
-> Substituição moderna e mantida para `ls`, construída sobre `exa`.
+> Substituto moderno e mantido para o `ls`, construída sobre o `exa`.
 > Mais informações: <https://github.com/eza-community/eza>.
 
 - Lista os arquivos um por linha:
