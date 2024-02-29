@@ -5,7 +5,7 @@
 
 - Exécuter un fichier JavaScript ou TypeScript:
 
-`deno run {{path/to/file.ts}}`
+`deno run {{chemin/du/fichier.ts}}`
 
 - Démarrer un REPL (shell interactif):
 
@@ -13,7 +13,7 @@
 
 - Exécuter un fichier avec l'accès au réseau activé:
 
-`deno run --allow-net {{path/to/file.ts}}`
+`deno run --allow-net {{chemin/du/fichier.ts}}`
 
 - Exécuter un fichier à partir d’une URL:
 
