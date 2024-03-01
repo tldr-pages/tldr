@@ -15,7 +15,7 @@
 
 `exa --long --all`
 
-- Répertorier les fichiers avec le plus gros en haut :
+- Liste les fichiers avec le plus volumineux en haut :
 
 `exa --reverse --sort={{taille}}`
 
