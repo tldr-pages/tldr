@@ -1,6 +1,6 @@
 # jenv
 
-> Command-line tool to manage the "JAVA_HOME" environment variable.
+> Manage the "JAVA_HOME" environment variable.
 > More information: <https://www.jenv.be/>.
 
 - Add a Java version to jEnv:
