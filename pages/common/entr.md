@@ -27,6 +27,6 @@
 
 `{{find src/}} | entr -s {{'make | sed 10q'}}`
 
-- Launch and auto-[r]eload a node.js server:
+- Launch and auto-[r]eload a Node.js server:
 
 `{{ls *.js}} | entr -r {{node app.js}}`
