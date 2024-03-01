@@ -31,3 +31,7 @@
 - Ignore registry errors during the audit process:
 
 `pnpm audit --ignore-registry-errors`
+
+- Filter advisories by severity(low, moderate, high, critical):
+
+`pnpm audit --audit-level <severity>`
