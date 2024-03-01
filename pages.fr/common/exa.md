@@ -31,6 +31,6 @@
 
 `exa --long --header --icons --git`
 
-- Ne listez pas les fichiers mentionnés dans `.gitignore` :
+- Lister les fichiers sauf ceux mentionnés dans `.gitignore` :
 
 `exa --git-ignore`
