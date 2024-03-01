@@ -31,6 +31,6 @@
 
 `trufflehog filesystem {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
-- Escanea una imagen Docker en busca de secretos verificados:
+- Escanea una imagen de Docker en busca de secretos verificados:
 
 `trufflehog docker --image {{trufflesecurity/secrets}} --only-verified`
