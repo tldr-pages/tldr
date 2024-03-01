@@ -1,9 +1,9 @@
 # colorls
 
-> Embellissez la sortie de la commande `ls` avec des icônes de couleurs et des polices impressionnantes. Disponible sous forme de gemme Ruby.
+> Embellit la sortie de la commande `ls`, avec des icônes coloreés ou provenant de font-awesome. Disponible sous forme de gemme Ruby.
 > Plus d'informations : <https://github.com/athityakumar/colorls>.
 
-- Lister les fichiers, un par ligne :
+- Liste les fichiers, un par ligne :
 
 `colorls -1`
 
