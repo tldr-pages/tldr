@@ -15,7 +15,7 @@
 
 `trufflehog git {{https://github.com/trufflesecurity/test_keys}} --only-verified --json`
 
-- Escanea un repositorio GitHub junto con sus incidencias y solicitudes de extracción:
+- Escanea un repositorio de GitHub junto con sus incidencias y solicitudes de extracción:
 
 `trufflehog github --repo={{https://github.com/trufflesecurity/test_keys}} --issue-comments --pr-comments`
 
