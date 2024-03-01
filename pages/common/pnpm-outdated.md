@@ -16,7 +16,7 @@
 
 `pnpm outdated --filter <package_selector>`
 
-- List outdated global packages:
+- List outdated packages [g]lobally:
 
 `pnpm outdated -g`
 
@@ -32,6 +32,6 @@
 
 `pnpm outdated --compatible`
 
-- Check only outdated `devDependencies`:
+- Check only outdated [D]ev dependencies:
 
 `pnpm outdated -D`
