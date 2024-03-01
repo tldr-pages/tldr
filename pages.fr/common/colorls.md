@@ -15,6 +15,6 @@
 
 `colorls --long --all`
 
-- Ne lister que les répertoires :
+- Ne liste que les répertoires :
 
 `colorls --dirs`
