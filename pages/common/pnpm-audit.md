@@ -16,15 +16,15 @@
 
 `pnpm audit --json > audit-report.json`
 
-- Only audit [D]ev dependencies:
+- Audit only [D]ev dependencies:
 
 `pnpm audit -D`
 
-- Only audit [P]roduction dependencies:
+- Audit only production dependencies:
 
 `pnpm audit -P`
 
-- Don't audit optionalDependencies:
+- Exclude optionalDependencies from the audit:
 
 `pnpm audit --no-optional`
 
@@ -32,6 +32,6 @@
 
 `pnpm audit --ignore-registry-errors`
 
-- Filter advisories by severity(low, moderate, high, critical):
+- Filter advisories by severity (low, moderate, high, critical):
 
 `pnpm audit --audit-level <severity>`
