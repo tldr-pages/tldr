@@ -19,7 +19,7 @@
 
 `exa --reverse --sort={{taille}}`
 
-- Afficher une arborescence de fichiers, sur trois niveaux de profondeur :
+- Affiche une arborescence de fichiers, sur trois niveaux de profondeur :
 
 `exa --long --tree --level={{3}}`
 
