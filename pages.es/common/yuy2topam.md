@@ -1,6 +1,6 @@
 # yuy2topam
 
-> Convierte YUY2 bytes a PAM.
+> Convierte bytes YUY2 a PAM.
 > Más información: <https://netpbm.sourceforge.net/doc/yuy2topam.html>.
 
 - Convierte YUY2 bytes a PAM:
