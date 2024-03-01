@@ -23,11 +23,11 @@
 
 `trivy config {{path/to/iac_directory}}`
 
-- Scan a local or remote git repository for vulnerabilities:
+- Scan a local or remote Git repository for vulnerabilities:
 
 `trivy repo {{path/to/local_repository_directory|remote_repository_URL}}`
 
-- Scan a git repository up to a specific commit hash:
+- Scan a Git repository up to a specific commit hash:
 
 `trivy repo --commit {{commit_hash}} {{repository}}`
 
