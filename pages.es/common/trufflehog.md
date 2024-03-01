@@ -11,7 +11,7 @@
 
 `trufflehog github --org={{trufflesecurity}} --only-verified`
 
-- Escanea un repositorio de GitHub en busca de claves verificadas y generar un archivo de salida JSON:
+- Escanea un repositorio de GitHub en busca de claves verificadas y genera un archivo de salida JSON:
 
 `trufflehog git {{https://github.com/trufflesecurity/test_keys}} --only-verified --json`
 
