@@ -23,7 +23,7 @@
 
 `{{echo my.sql}} | entr -cp {{psql -f}} /_`
 
-- Rebuild a project if source files change, limiting output to the first few lines:
+- Rebuild the project if source files change, limiting output to the first few lines:
 
 `{{find src/}} | entr -s {{'make | sed 10q'}}`
 
