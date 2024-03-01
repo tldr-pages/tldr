@@ -27,7 +27,7 @@
 
 `exa --long --sort={{modifié}}`
 
-- Répertorier les fichiers avec leur en-tête, leur icône et leur statut Git :
+- Liste les fichiers avec leur en-tête, leur icône et leur statut Git :
 
 `exa --long --header --icons --git`
 
