@@ -1,0 +1,13 @@
+# check-dfsg-status
+
+> Informa de los paquetes no liberados instalados en sistemas operativos basados en Debian.
+> Este comando se conocía anteriormente como `vrms`.
+> Más información: <https://debian.pages.debian.net/check-dfsg-status/>.
+
+- Lista los paquetes no liberados y sus contribuciones (más la descripción):
+
+`check-dfsg-status`
+
+- Muestra sólo los nombres de los paquetes:
+
+`check-dfsg-status --sparse`
