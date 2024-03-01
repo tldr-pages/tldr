@@ -3,7 +3,7 @@
 > Une alternative moderne à `ls` (pour lister le contenu de répertoires).
 > Plus d'information : <https://the.exa.website>.
 
-- Lister les fichiers un par ligne :
+- Liste les fichiers, un par ligne :
 
 `exa --oneline`
 
