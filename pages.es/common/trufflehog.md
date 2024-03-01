@@ -7,7 +7,7 @@
 
 `trufflehog git {{https://github.com/trufflesecurity/test_keys}} --only-verified`
 
-- Escanea una organización GitHub en busca de secretos verificados:
+- Escanea una organización de GitHub en busca de secretos verificados:
 
 `trufflehog github --org={{trufflesecurity}} --only-verified`
 
