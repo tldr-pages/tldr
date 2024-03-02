@@ -18,7 +18,7 @@
 
 - List outdated packages [g]lobally:
 
-`pnpm outdated -g`
+`pnpm outdated --global`
 
 - Print details of outdated packages:
 
@@ -34,4 +34,4 @@
 
 - Check only outdated [D]ev dependencies:
 
-`pnpm outdated -D`
+`pnpm outdated --dev`

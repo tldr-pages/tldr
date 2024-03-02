@@ -18,11 +18,11 @@
 
 - Audit only [D]ev dependencies:
 
-`pnpm audit -D`
+`pnpm audit --dev`
 
 - Audit only [P]roduction dependencies:
 
-`pnpm audit -P`
+`pnpm audit --prod`
 
 - Exclude optional dependencies from the audit:
 
