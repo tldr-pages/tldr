@@ -8,7 +8,7 @@
 
 `nmap -v{{1|2|3}} {{ip_or_hostname}}`
 
-- Run a ping sweep over an entire subnet or individual hosts very aggresively:
+- Run a ping sweep over an entire subnet or individual hosts very aggressively:
 
 `nmap -T5 -sn {{192.168.0.0/24|ip_or_hostname1,ip_or_hostname2...}}`
 
