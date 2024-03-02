@@ -7,7 +7,7 @@
 
 `dd status=progress if={{path/to/file.iso}} of=/dev/{{usb_drive}}`
 
-- Clone a drive to another drive with 4 MiB block and flush writes before command terminates:
+- Clone a drive to another drive with 4 MiB block size and flush writes before the command terminates:
 
 `dd if=/dev/{{source_drive}} of=/dev/{{dest_drive}} bs={{4M}} conv={{fsync}}`
 
