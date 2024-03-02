@@ -19,4 +19,3 @@
 - Start `btop` with 256-color instead of 24-bit color:
 
 `btop --low-color`
-
