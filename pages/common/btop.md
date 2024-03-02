@@ -16,6 +16,6 @@
 
 `btop --tty_on`
 
-- Start `btop` with 256-color instead of 24-bit color:
+- Start `btop` with in 256-color mode instead of 24-bit color mode:
 
 `btop --low-color`
