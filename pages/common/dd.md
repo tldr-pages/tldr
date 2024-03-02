@@ -15,7 +15,7 @@
 
 `dd if=/dev/urandom of={{path/to/random_file}} bs={{100}} count={{1}}`
 
-- Benchmark the write performance of a disk:
+- Benchmark the sequential write performance of a disk:
 
 `dd if=/dev/zero of={{path/to/file_1GB}} bs={{1024}} count={{1000000}}`
 
