@@ -5,7 +5,7 @@
 
 - Create a menu out of individual words:
 
-`select {{word}} in {{apple}} {{orange}} {{pear}} {{banana}}; do echo ${{word}}; done`
+`select {{word}} in {{apple orange pear banana}}; do echo ${{word}}; done`
 
 - Create a menu from the output of another command:
 
@@ -17,4 +17,4 @@
 
 - Create a menu from a Bash array:
 
-`{{fruits}}=({{apple}} {{orange}} {{pear}} {{banana}}); select {{word}} in ${{{fruits}}[@]}; do echo ${{word}}; done`
+`{{fruits}}=({{apple orange pear banana}}); select {{word}} in ${{{fruits[@]}}}; do echo ${{word}}; done`
