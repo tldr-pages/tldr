@@ -7,7 +7,7 @@
 
 `ffmpeg -i {{path/to/video.mp4}} -vn {{path/to/sound.mp3}}`
 
-- Transcode any FLAC file to Red Book CD format (44100kHz, 16bit)
+- Transcode any FLAC file to Red Book CD format (44100kHz, 16bit):
 
 `ffmpeg -i audio_file.flac -ar 44100 -sample_fmt s16 audio_file.wav`
 
