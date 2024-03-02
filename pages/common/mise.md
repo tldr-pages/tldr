@@ -1,6 +1,6 @@
 # mise
 
-> Command-line interface for managing versions of different packages.
+> Manage versions of different packages.
 > More information: <https://mise.jdx.dev>.
 
 - List all available plugins:
