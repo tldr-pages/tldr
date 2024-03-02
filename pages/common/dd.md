@@ -7,9 +7,9 @@
 
 `dd status=progress if={{path/to/file.iso}} of=/dev/{{usb_drive}}`
 
-- Clone a drive to another drive with 4 MiB block and ignore error:
+- Clone a drive to another drive with 4 MiB block and flush writes before command terminates:
 
-`dd if=/dev/{{source_drive}} of=/dev/{{dest_drive}} bs={{4194304}} conv={{noerror}}`
+`dd if=/dev/{{source_drive}} of=/dev/{{dest_drive}} bs={{4M}} conv={{fsync}}`
 
 - Generate a file of 100 random bytes by using kernel random driver:
 
