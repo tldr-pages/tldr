@@ -1,6 +1,6 @@
 # pnpm outdated
 
-> Checks for outdated packages.
+> Check for outdated packages.
 > The check can be limited to a subset of the installed packages by providing arguments (patterns are supported).
 > More information: <https://pnpm.io/cli/outdated>.
 
@@ -8,13 +8,13 @@
 
 `pnpm outdated`
 
-- Check for outdated dependencies in every package found in every workspace package:
+- Check for outdated dependencies found in every workspace package:
 
 `pnpm outdated -r`
 
 - Filter outdated packages using a package selector:
 
-`pnpm outdated --filter <package_selector>`
+`pnpm outdated --filter {{package_selector}}`
 
 - List outdated packages [g]lobally:
 
@@ -26,7 +26,7 @@
 
 - Print outdated dependencies in a specific format:
 
-`pnpm outdated --format <format>`
+`pnpm outdated --format {{format}}`
 
 - Print only versions that satisfy specifications in `package.json`:
 

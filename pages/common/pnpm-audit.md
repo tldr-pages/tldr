@@ -1,7 +1,7 @@
 # pnpm audit
 
-> Scans project dependencies.
-> Checks for known security issues with the installed packages.
+> Scan project dependencies.
+> Check for known security issues with the installed packages.
 > More information: <https://pnpm.io/cli/audit>.
 
 - Identify vulnerabilities in the project:
@@ -14,17 +14,17 @@
 
 - Generate a security report in JSON format:
 
-`pnpm audit --json > audit-report.json`
+`pnpm audit --json > {{path/to/audit-report.json}}`
 
 - Audit only [D]ev dependencies:
 
 `pnpm audit -D`
 
-- Audit only production dependencies:
+- Audit only [P]roduction dependencies:
 
 `pnpm audit -P`
 
-- Exclude optionalDependencies from the audit:
+- Exclude optional dependencies from the audit:
 
 `pnpm audit --no-optional`
 
@@ -34,4 +34,4 @@
 
 - Filter advisories by severity (low, moderate, high, critical):
 
-`pnpm audit --audit-level <severity>`
+`pnpm audit --audit-level {{severity}}`
