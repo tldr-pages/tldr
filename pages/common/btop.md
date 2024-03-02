@@ -11,3 +11,12 @@
 - Start `btop` with the specified settings preset:
 
 `btop --preset {{0..9}}`
+
+- Start `btop` in  tty mode using 16 colors and tty friendly graph symbols:
+
+`btop --tty_on`
+
+- Start `btop` with 256-color instead of 24-bit color:
+
+`btop --low-color`
+
