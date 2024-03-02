@@ -27,6 +27,6 @@
 
 `mise use {{name}}@{{version}}`
 
-- Set environment variable in config:
+- Set environment variable in configuration:
 
 `mise set {{variable}}={{value}}`
