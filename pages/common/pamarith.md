@@ -6,4 +6,4 @@
 
 - Apply the specified binary function pixel-wise on the two specified images (which must be of the same size):
 
-`pamarith -{{add|subtract|multiply|divide|difference|minimum|maximum|...}} {{path/to/image1.pam}} {{path/to/image2.pam}}`
+`pamarith -{{add|subtract|multiply|divide|difference|minimum|maximum|...}} {{path/to/image1.pam|pbm|pgm|ppm}} {{path/to/image2.pam|pbm|pgm|ppm}}`
