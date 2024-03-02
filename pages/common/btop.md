@@ -12,7 +12,7 @@
 
 `btop --preset {{0..9}}`
 
-- Start `btop` in  tty mode using 16 colors and tty friendly graph symbols:
+- Start `btop` in tty mode using 16 colors and tty friendly graph symbols:
 
 `btop --tty_on`
 
