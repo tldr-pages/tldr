@@ -23,7 +23,7 @@
 
 `pwn shellcraft {{amd64.linux.sh}}`
 
-- Comprueba la configuración de seguridad binaria para el archivo ELF dado:
+- Comprueba la configuración de seguridad binaria del archivo ELF dado:
 
 `pwn checksec {{ruta/al/archivo}}`
 
