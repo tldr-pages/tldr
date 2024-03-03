@@ -11,7 +11,7 @@
 
 `pwn cyclic {{número}}`
 
-- Codifica los datos dados en el sistema hexadecimal:
+- Codifica datos en el sistema hexadecimal:
 
 `pwn hex {{deafbeef}}`
 
