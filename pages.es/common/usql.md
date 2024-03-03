@@ -25,7 +25,7 @@
 
 - Muestra el esquema de la base de datos:
 
-`{{prompt}}=> {\d`
+`{{prompt}}=> {{\d}}`
 
 - Exporta los resultados de la consulta a un archivo específico:
 
