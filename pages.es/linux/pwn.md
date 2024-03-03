@@ -31,6 +31,6 @@
 
 `pwn update`
 
-- Muestra versión:
+- Muestra la versión:
 
 `pwn version`
