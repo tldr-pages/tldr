@@ -7,7 +7,7 @@
 
 `pwn asm "{{xor edi, edi}}"`
 
-- Crea un patrón cíclico dado un número específico de caracteres:
+- Crea un patrón cíclico con un número específico de caracteres:
 
 `pwn cyclic {{número}}`
 
