@@ -4,7 +4,7 @@
 > Some features (e.g. SYN scan) activate only when `nmap` is run with root privileges.
 > More information: <https://nmap.org/book/man.html>.
 
-- Scan (the top 1000) ports of a remote host with various [v]erbosity levels:
+- Scan the top 1000 ports of a remote host with various [v]erbosity levels:
 
 `nmap -v{{1|2|3}} {{ip_or_hostname}}`
 
