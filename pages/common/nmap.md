@@ -34,4 +34,4 @@
 
 - Attempt evading IDS/IPS detection by using an extremely slow scan (`-T0`), decoy source addresses (`-D`), [f]ragmented packets, random data and other methods:
 
-`sudo nmap -T0 -D {{decoy_ip1,decoy_ip2...}} --source-port {{53}} -f --data-length {{16}} -Pn {{ip_or_host}}`
+`sudo nmap -T0 -D {{decoy_ip1,decoy_ip2,...}} --source-port {{53}} -f --data-length {{16}} -Pn {{ip_or_host}}`
