@@ -11,7 +11,7 @@
 
 `dd bs={{4194304}} conv={{fsync}} if=/dev/{{source_drive}} of=/dev/{{dest_drive}}`
 
-- Generate a file of 100 random bytes by using kernel random driver:
+ - Generate a file with a specific number of random bytes by using kernel random driver:
 
 `dd bs={{100}} count={{1}} if=/dev/urandom of={{path/to/random_file}}`
 
