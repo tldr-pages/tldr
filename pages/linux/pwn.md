@@ -3,7 +3,7 @@
 > Exploit Development Library designed for rapid prototyping.
 > More information: <https://docs.pwntools.com/en/stable/commandline.html>.
 
-- Convert  the given assembly code to `bytes`:
+- Convert the given assembly code to `bytes`:
 
 `pwn asm "{{xor edi, edi}}"`
 
