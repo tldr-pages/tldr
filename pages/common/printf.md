@@ -25,4 +25,4 @@
 
 - Print a hexadecimal, octal and scientific number:
 
-`printf "{{string=%s integer=%d float=%f octal=%o hex=%x scientific=%e}}" "{{string}}" {{69}} {{69.69}} 0{{377}} 0x{{FF}} {{100000}}`
+`printf "{{hex=%x octal=%o scientific=%e}}" 0x{{FF}} 0{{377}} {{100000}}`
