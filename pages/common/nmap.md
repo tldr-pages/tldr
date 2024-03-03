@@ -20,7 +20,7 @@
 
 `nmap -p {{port1,port2...}} {{ip_or_host1,ip_or_host2...}}`
 
-- Perform service and version detection of the top 1000 ports using default NSE scripts; writing results (`-oA`) to output files:
+- Perform service and version detection of the top 1000 ports using default NSE scripts, writing results (`-oA`) to output files:
 
 `nmap -sC -sV -oA {{top-1000-ports}} {{ip_or_host1,ip_or_host2...}}`
 
