@@ -9,7 +9,7 @@
 
 - Clone a drive to another drive with 4 MiB block size and flush writes before the command terminates:
 
-`dd if=/dev/{{source_drive}} of=/dev/{{dest_drive}} bs={{4M}} conv={{fsync}}`
+`dd if=/dev/{{source_drive}} of=/dev/{{dest_drive}} bs={{4194304}} conv={{fsync}}`
 
 - Generate a file of 100 random bytes by using kernel random driver:
 
