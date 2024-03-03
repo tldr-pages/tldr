@@ -19,7 +19,7 @@
 
 `pwn unhex {{6c4f7645}}`
 
-- Imprime un shellcode de Linux x64 para ejecutar un intérprete de comandos:
+- Imprime código de intérprete de Linux x64 para ejecutar en un intérprete:
 
 `pwn shellcraft {{amd64.linux.sh}}`
 
