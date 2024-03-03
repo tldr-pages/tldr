@@ -22,3 +22,7 @@
 - Store a formatted message in a variable (does not work on zsh):
 
 `printf -v {{myvar}} {{"This is %s = %d\n" "a year" 2016}}`
+
+- Try printing other format types:
+
+`printf "{{string=%s integer=%d float=%f octal=%o hex=%x scientific=%e}}" "{{string}}" {{69}} {{69.69}} 0{{377}} 0x{{FF}} {{100000}}`
