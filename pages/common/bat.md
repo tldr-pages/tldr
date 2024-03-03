@@ -14,24 +14,24 @@
 
 - Remove decorations and auto paging:
 
-`bat --style=plain --pager=never {{path/to/file}}`
+`bat {{--style=plain --pager=never|-pp}} {{path/to/file}}`
 
 - Highlight specific line or range of lines with different background color:
 
-`bat --highlight-line {{10|5:10|:10|10:|10:+5}} {{path/to/file}}`
+`bat {{--highlight-line|-H}} {{10|5:10|:10|10:|10:+5}} {{path/to/file}}`
 
 - Show non-printable characters like space, tab or newline:
 
-`bat --show-all {{path/to/file}}`
+`bat {{--show-all|-A}} {{path/to/file}}`
 
 - Remove decorations except line numbers in output:
 
-`bat --number {{path/to/file}}`
+`bat {{--number|-n}} {{path/to/file}}`
 
 - Syntax highlight a JSON file by explicitly setting the language:
 
-`bat --language json {{path/to/file.json}}`
+`bat {{--language|-l}} json {{path/to/file.json}}`
 
 - Display all supported languages:
 
-`bat --list-languages`
+`bat {{--list-languages|-L}}`
