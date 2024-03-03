@@ -15,7 +15,7 @@
 
 `pwn hex {{deafbeef}}`
 
-- Decodifica los datos dados en hexadecimal:
+- Decodifica datos en hexadecimal:
 
 `pwn unhex {{6c4f7645}}`
 
