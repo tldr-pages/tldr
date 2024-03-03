@@ -22,3 +22,7 @@
 - Store a formatted message in a variable (does not work on zsh):
 
 `printf -v {{myvar}} {{"This is %s = %d\n" "a year" 2016}}`
+
+- Print a hexadecimal, octal and scientific number:
+
+`printf "{{hex=%x octal=%o scientific=%e}}" 0x{{FF}} 0{{377}} {{100000}}`
