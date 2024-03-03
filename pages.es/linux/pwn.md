@@ -3,7 +3,7 @@
 > Biblioteca de desarrollo de exploits diseñada para la creación rápida de prototipos.
 > Más información: <https://docs.pwntools.com/en/stable/commandline.html>.
 
-- Convierte el código ensamblador dado a `bytes`:
+- Convierte código ensamblador a `bytes`:
 
 `pwn asm "{{xor edi, edi}}"`
 
