@@ -3,7 +3,7 @@
 > Gestor de versiones de Flutter.
 > Más información: <https://fvm.app/documentation/guides/basic-commands>.
 
-- Instala una versión del SDK de Flutter. Usa sin `versión` para la configuración del proyecto:
+- Instala una versión del SDK de Flutter. Invoca el programa sin el argumento `version` para la configuración del proyecto:
 
 `fvm install {{versión}}`
 
