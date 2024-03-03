@@ -7,7 +7,7 @@
 
 `fvm install {{versión}}`
 
-- Establece una versión específica de Flutter SDK en un proyecto:
+- Establece una versión específica del Flutter SDK en un proyecto:
 
 `fvm use {{versión}} {{opciones}}`
 
