@@ -15,6 +15,6 @@
 
 `pamslice -row {{n}} -plane {{m}} {{path/to/image.pam}}`
 
-- Produce ouput in a format suitable for input to an `xmgr` for visualisation:
+- Produce output in a format suitable for input to an `xmgr` for visualisation:
 
 `pamslice -row {{n}} -xmgr {{path/to/image.pam}}`
