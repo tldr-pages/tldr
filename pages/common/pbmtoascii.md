@@ -1,6 +1,7 @@
 # pbmtoascii
 
 > Convert a PBM image to ASCII graphics.
+> See also: `ppmtoascii`, `asciitopgm`, `ppmtoterm`.
 > More information: <https://netpbm.sourceforge.net/doc/pbmtoascii.html>.
 
 - Read a PBM file as input and produce an ASCII output:
