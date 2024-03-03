@@ -3,9 +3,9 @@
 > Convert and copy a file.
 > More information: <https://manned.org/man/dd.1p>.
 
-- Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`) and show progress:
+- Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`):
 
-`dd status=progress if={{path/to/file.iso}} of=/dev/{{usb_drive}}`
+`dd if={{path/to/file.iso}} of=/dev/{{usb_drive}}`
 
 - Clone a drive to another drive with 4 MiB block size and flush writes before the command terminates:
 
