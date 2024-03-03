@@ -9,7 +9,7 @@
 
 - Transcode any FLAC file to Red Book CD format (44100kHz, 16bit):
 
-`ffmpeg -i audio_file.flac -ar 44100 -sample_fmt s16 audio_file.wav`
+`ffmpeg -i {{path/to/input_audio.flac}} -ar 44100 -sample_fmt s16 {{path/to/output_audio.wav}}`
 
 - Save a video as GIF, scaling the height to 1000px and setting framerate to 15:
 
