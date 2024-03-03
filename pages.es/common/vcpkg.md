@@ -16,6 +16,6 @@
 
 `vcpkg search {{nombre_del_paquete}}`
 
-- Configura un proyecto CMake para utilizar los paquetes `vcpkg`:
+- Configura un proyecto CMake para utilizar los paquetes de `vcpkg`:
 
 `cmake -B build -DCMAKE_TOOLCHAIN_FILE={{ruta/al/directorio_de_instalación_vcpkg}}/scripts/buildsystems/vcpkg.cmake`
