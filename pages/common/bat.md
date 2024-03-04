@@ -16,7 +16,7 @@
 
 `bat {{--style=plain --pager=never|-pp}} {{path/to/file}}`
 
-- Highlight specific line or range of lines with different background color:
+- Highlight a specific line or a range of lines with a different background color:
 
 `bat {{--highlight-line|-H}} {{10|5:10|:10|10:|10:+5}} {{path/to/file}}`
 
