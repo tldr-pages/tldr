@@ -1,7 +1,7 @@
 # cargo add
 
-> 向 Rust 项目的 `Cargo.toml` 文件添加依赖项
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-add.html>.
+> 向 Rust 项目的 `Cargo.toml` 文件添加依赖项。
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-add.html>.
 
 - 将最新版本的依赖项添加到当前项目：
 
