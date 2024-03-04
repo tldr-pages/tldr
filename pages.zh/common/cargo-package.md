@@ -1,6 +1,6 @@
 # cargo package
 
-> 将本地包装成一个可分发的 tarball 文件 (.crate 文件)
+> 将本地包装成一个可分发的 tarball 文件（`.crate` 文件）。
 > 类似于 `cargo publish --dry-run`，但具有更多选项。
 > 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-package.html>.
 
