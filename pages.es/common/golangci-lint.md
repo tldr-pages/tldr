@@ -1,0 +1,16 @@
+# golangci-lint
+
+> Corredor de linters Go paralelizado, inteligente y rápido que se integra con los principales IDEs y soporta configuración YAML.
+> Más información: <https://golangci-lint.run/usage/quick-start/>.
+
+- Ejecuta linters en la carpeta actual:
+
+`golangci-lint run`
+
+- Lista de linters habilitados y deshabilitados (Nota: los linters deshabilitados se muestran en último lugar, no los confundas con los habilitados):
+
+`golangci-lint linters`
+
+- Habilita un linter específico para esta ejecución:
+
+`golangci-lint run --enable {{linter}}`
