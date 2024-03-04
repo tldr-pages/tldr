@@ -15,7 +15,7 @@
 
 `cargo build --locked`
 
-- 构建工作区中的所有包
+- 构建工作区中的所有包：
 
 `cargo build --workspace`
 
