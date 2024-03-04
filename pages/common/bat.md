@@ -14,7 +14,7 @@
 
 - Remove decorations and auto paging:
 
-`bat {{--style=plain --pager=never|-pp}} {{path/to/file}}`
+`bat --style=plain --pager=never {{path/to/file}}`
 
 - Highlight a specific line or a range of lines with a different background color:
 
