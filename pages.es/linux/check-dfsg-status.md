@@ -8,6 +8,6 @@
 
 `check-dfsg-status`
 
-- Muestra sólo los nombres de los paquetes:
+- Muestra solo los nombres de los paquetes:
 
 `check-dfsg-status --sparse`
