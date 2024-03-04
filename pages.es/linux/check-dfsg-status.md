@@ -4,7 +4,7 @@
 > Este comando se conocía anteriormente como `vrms`.
 > Más información: <https://debian.pages.debian.net/check-dfsg-status/>.
 
-- Lista los paquetes no liberados y sus contribuciones (más la descripción):
+- Lista los paquetes no libres y `contrib` (más la descripción):
 
 `check-dfsg-status`
 
