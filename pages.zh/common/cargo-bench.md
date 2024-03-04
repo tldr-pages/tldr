@@ -1,7 +1,7 @@
 # cargo bench
 
-> 编译并执行基准测试
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-bench.html>.
+> 编译并执行基准测试。
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-bench.html>.
 
 - 执行包的所有基准测试：
 
