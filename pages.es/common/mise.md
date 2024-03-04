@@ -11,7 +11,7 @@
 
 `mise plugins add {{nombre}}`
 
-- Lista las versiones disponibles a instalar:
+- Lista las versiones disponibles para instalación:
 
 `mise ls-remote {{nombre}}`
 
