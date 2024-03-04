@@ -1,7 +1,7 @@
 # cargo check
 
-> 检查本地软件包及其所有依赖包是否有错误
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-check.html>.
+> 检查本地软件包及其所有依赖包是否有错误。
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-check.html>.
 
 - 检查当前包：
 

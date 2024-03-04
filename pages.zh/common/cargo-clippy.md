@@ -1,7 +1,7 @@
 # cargo clippy
 
 > 一系列 lint 工具，用于捕获常见错误并改进 Rust 代码。
-> 更多信息: <https://github.com/rust-lang/rust-clippy>.
+> 更多信息：<https://github.com/rust-lang/rust-clippy>.
 
 - 对当前目录中的代码运行检查：
 

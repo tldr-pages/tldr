@@ -1,8 +1,8 @@
 # cargo publish
 
-> 将包上传到注册表
-> 注意：在发布包之前，您必须使用 `cargo login` 添加身份验证令牌
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-publish.html>.
+> 将包上传到注册表。
+> 注意：在发布包之前，您必须使用 `cargo login` 添加身份验证令牌。
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-publish.html>.
 
 - 执行检查，创建一个 `.crate` 文件并将其上传到注册表：
 

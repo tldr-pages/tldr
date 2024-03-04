@@ -1,8 +1,8 @@
 # cargo init
 
-> 创建一个新的 Cargo 包
-> 相当于 `cargo new`，但是指定目录是可选的
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-init.html>.
+> 创建一个新的 Cargo 包。
+> 相当于 `cargo new`，但是指定目录是可选的。
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-init.html>.
 
 - 在当前目录中初始化一个带有二进制目标的 Rust 项目：
 

@@ -1,7 +1,7 @@
 # cargo remove
 
-> 从 Rust 项目的 `Cargo.toml` 清单中移除依赖关系
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-remove.html>.
+> 从 Rust 项目的 `Cargo.toml` 清单中移除依赖关系。
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-remove.html>.
 
 - 从当前项目中移除一个依赖项：
 

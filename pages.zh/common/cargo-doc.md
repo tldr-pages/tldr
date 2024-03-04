@@ -1,7 +1,7 @@
 # cargo doc
 
-> 构建 Rust 包的文档
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-doc.html>.
+> 构建 Rust 包的文档。
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-doc.html>.
 
 - 为当前项目及所有依赖项构建文档：
 

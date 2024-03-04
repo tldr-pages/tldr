@@ -1,8 +1,8 @@
 # cargo metadata
 
-> 以 JSON 格式输出当前包的工作空间成员和已解析的依赖关系
-> 注意：输出格式可能在未来的 Cargo 版本中发生变化
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-metadata.html>.
+> 以 JSON 格式输出当前包的工作空间成员和已解析的依赖关系。
+> 注意：输出格式可能在未来的 Cargo 版本中发生变化。
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-metadata.html>.
 
 - 打印当前包的工作空间成员和已解析的依赖关系：
 

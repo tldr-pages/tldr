@@ -1,7 +1,7 @@
 # cargo build
 
-> 编译本地包及其所有依赖项
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-build.html>.
+> 编译本地包及其所有依赖项。
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-build.html>.
 
 - 在本地路径中构建由 `Cargo.toml` 清单文件定义的一个或多个包：
 

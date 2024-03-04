@@ -1,8 +1,8 @@
 # cargo run
 
-> 运行当前的 Cargo 包
-> 注意: 执行的二进制文件的工作目录将设置为当前工作目录
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-run.html>.
+> 运行当前的 Cargo 包。
+> 注意: 执行的二进制文件的工作目录将设置为当前工作目录。
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-run.html>.
 
 - 运行默认的二进制目标：
 

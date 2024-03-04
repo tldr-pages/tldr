@@ -1,7 +1,7 @@
 # cargo install
 
-> 构建并安装一个 Rust 二进制文件
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-install.html>.
+> 构建并安装一个 Rust 二进制文件。
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-install.html>.
 
 - 从 <https://crates.io> 安装一个包 (版本是可选的，默认为最新版本)：
 

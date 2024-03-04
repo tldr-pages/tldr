@@ -1,7 +1,7 @@
 # cargo fmt
 
-> 在 Rust 项目中对所有源文件运行 `rustfmt`
-> 更多信息: <https://github.com/rust-lang/rustfmt>.
+> 在 Rust 项目中对所有源文件运行 `rustfmt`。
+> 更多信息：<https://github.com/rust-lang/rustfmt>.
 
 - 格式化所有源文件：
 

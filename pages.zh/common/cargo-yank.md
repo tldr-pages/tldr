@@ -1,8 +1,8 @@
 # cargo yank
 
-> 从索引中移除发布的包。应该只在意外发布了一个严重错误的包时使用
+> 从索引中移除发布的包。应该只在意外发布了一个严重错误的包时使用。
 > 注意：这不会删除任何数据。包在被撤回后仍然存在，只是阻止新项目使用它。
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-yank.html>.
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-yank.html>.
 
 - 撤回指定版本的包：
 

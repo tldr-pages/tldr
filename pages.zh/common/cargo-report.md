@@ -1,7 +1,7 @@
 # cargo report
 
 > 显示各种类型的报告。
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-report.html>.
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-report.html>.
 
 - 显示一个报告：
 

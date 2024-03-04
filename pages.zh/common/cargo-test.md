@@ -1,7 +1,7 @@
 # cargo test
 
-> 执行 Rust 包的单元测试和集成测试
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-test.html>.
+> 执行 Rust 包的单元测试和集成测试。
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-test.html>.
 
 - 仅运行包含特定字符串在其名称中的测试：
 

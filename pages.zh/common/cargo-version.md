@@ -1,7 +1,7 @@
 # cargo version
 
 > 显示 `cargo` 版本信息。
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-version.html>.
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-version.html>.
 
 - 显示版本：
 

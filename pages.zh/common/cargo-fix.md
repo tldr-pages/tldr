@@ -1,7 +1,7 @@
 # cargo fix
 
 > 自动修复 `rustc` 报告的 lint 警告。
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-fix.html>.
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-fix.html>.
 
 - 即使已经有编译器错误，也要修复代码：
 

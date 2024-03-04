@@ -1,7 +1,7 @@
 # cargo owner
 
-> 管理包在注册表上的所有者
-> 更多信息: <https://doc.rust-lang.org/cargo/commands/cargo-owner.html>.
+> 管理包在注册表上的所有者。
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-owner.html>.
 
 - 邀请指定的用户或团队作为所有者：
 
