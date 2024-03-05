@@ -31,6 +31,6 @@
 
 `iwlist {{wireless_interface}} power`
 
-- List the Generic Information Elements set in the device (used for WPA support):
+- List generic information elements set in the device (used for WPA support):
 
 `iwlist {{wireless_interface}} genie`
