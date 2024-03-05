@@ -23,7 +23,7 @@
 
 `macchanger --mac {{XX:XX:XX:XX:XX:XX}} {{interface}}`
 
-- Print identification (first 3 pairs of MAC) of all known vendors:
+- Print the identifications (the first three bytes of a MAC address) of all known vendors:
 
 `macchanger --list`
 
