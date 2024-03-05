@@ -7,7 +7,7 @@
 
 `iwlist {{wireless_interface}} scan`
 
-- Give the list of available frequencies in the device:
+- Display available frequencies in the device:
 
 `iwlist {{wireless_interface}} frequency`
 
