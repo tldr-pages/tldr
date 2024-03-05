@@ -27,7 +27,7 @@
 
 `iwlist {{wireless_interface}} keys`
 
-- List the various Power Management attributes and modes of the device:
+- List the various power management attributes and modes of the device:
 
 `iwlist {{wireless_interface}} power`
 
