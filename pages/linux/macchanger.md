@@ -15,7 +15,7 @@
 
 `macchanger --random --bia {{interface}}`
 
-- Set interface to a specific MAC address:
+- Set an interface to a specific MAC address:
 
 `macchanger --mac {{XX:XX:XX:XX:XX:XX}} {{interface}}`
 
