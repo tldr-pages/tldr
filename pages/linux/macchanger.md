@@ -19,7 +19,7 @@
 
 `macchanger -{{a|A}} {{interface}}`
 
-- Set interface to a specific MAC:
+- Set interface to a specific MAC address:
 
 `macchanger --mac {{XX:XX:XX:XX:XX:XX}} {{interface}}`
 
