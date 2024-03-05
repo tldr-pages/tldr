@@ -11,7 +11,7 @@
 
 `macchanger --random {{interface}}`
 
-- Set interface to a random MAC, and pretend to be a [b]urned-[i]n-[a]ddress:
+- Set an interface to a random MAC address, and pretend to be a [b]urned-[i]n-[a]ddress:
 
 `macchanger --random --bia {{interface}}`
 
