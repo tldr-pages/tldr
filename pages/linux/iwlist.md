@@ -3,7 +3,7 @@
 > Get more detailed wireless information from a wireless wireless_interface.
 > More information: <https://manned.org/iwlist.8>.
 
-- Give the list of Access Points and Ad-Hoc cells in range:
+- Display the list of access points and ad-hoc cells in range:
 
 `iwlist {{wireless_interface}} scan`
 
