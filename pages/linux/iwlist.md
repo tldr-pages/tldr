@@ -15,7 +15,7 @@
 
 `iwlist {{wireless_interface}} rate`
 
-- List the WPA authentication parametes curently set:
+- List the WPA authentication parameters currently set:
 
 `iwlist {{wireless_interface}} auth`
 
