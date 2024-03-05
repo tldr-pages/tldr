@@ -27,6 +27,6 @@
 
 `macchanger --list`
 
-- Reset interface to its permanent hardware MAC:
+- Reset an interface to its permanent hardware MAC address:
 
 `macchanger --permanent {{interface}}`
