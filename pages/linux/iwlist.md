@@ -1,6 +1,6 @@
 # iwlist
 
-> Get more detailed wireless information from a wireless wireless_interface.
+> Get detailed information from a wireless interface.
 > More information: <https://manned.org/iwlist.8>.
 
 - Display the list of access points and ad-hoc cells in range:
