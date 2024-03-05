@@ -12,7 +12,7 @@
 
 `bat {{path/to/file1 path/to/file2 ...}} > {{path/to/target_file}}`
 
-- Remove decorations and auto paging:
+- Remove decorations and disable paging (`--style plain` can be replaced with `-p`, or both options with `-pp`):
 
 `bat --style plain --pager never {{path/to/file}}`
 
