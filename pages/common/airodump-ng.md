@@ -12,7 +12,7 @@
 
 `sudo airodump-ng {{interface}} --band a`
 
-- Capture packets and display information about wireless network(s) on both the 2.4GHz and the 5GHz band:
+- Capture packets and display information about wireless network(s) on both 2.4GHz and 5GHz bands:
 
 `sudo airodump-ng {{interface}} --band abg`
 
