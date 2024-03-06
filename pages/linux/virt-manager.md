@@ -1,6 +1,6 @@
 # virt-manager
 
-> CLI launcher for virt-manager, a desktop user interface for managing KVM and Xen virtual machines and LXC containers.
+> A desktop user interface for managing KVM and Xen virtual machines and LXC containers.
 > More information: <https://manpages.ubuntu.com/manpages/man1/virt-manager.1.html>.
 
 - Launch virt-manager:
