@@ -23,14 +23,14 @@
 
 `reg query {{key_name}} /t REG_{{SZ|MULTI_SZ|EXPAND_SZ|DWORD|BINARY|NONE}}`
 
-- Only search in [k]ey names or in [d]ata:
+- Only search in [d]ata:
 
-`reg query {{key_name}} /{{k|d}}`
+`reg query {{key_name}} /d`
 
-- Search for an [e]xact match:
+- Only search in [k]ey names:
 
-`reg query {{key_name}} /e`
+`reg query {{key_name}} /f /k`
 
-- Search [c]ase-sensitively:
+- [c]ase-sensitively search for an [e]xact match:
 
-`reg query {{key_name}} /c`
+`reg query {{key_name}} /c /e`
