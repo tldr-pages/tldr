@@ -9,15 +9,15 @@
 
 `diskutil partitionDisk {{/dev/disk_device}} 0 {{APM|MBR|GPT}}`
 
-- Reformat a volume using APM/MBR/GPT partitioning scheme, then create a single partition using a specific filesystem filling up all free space:
+- Reformat a volume, then create a single partition using a specific filesystem filling up all free space:
 
 `diskutil partitionDisk {{/dev/disk_device}} 1 {{APM|MBR|GPT}} {{partition_filesystem}} {{partition_name}}`
 
-- Reformat a volume using APM/MBR/GPT partitioning scheme, then create a single partition using a specific filesystem under specific size (e.g. `16G` for 16GB):
+- Reformat a volume, then create a single partition using a specific filesystem under specific size (e.g. `16G` for 16GB or `50%` to fill half of total volume size):
 
 `diskutil partitionDisk {{/dev/disk_device}} 1 {{APM|MBR|GPT}} {{partition_filesystem}} {{partition_name}} {{partition_size}}`
 
-- Reformat a volume using APM/MBR/GPT partitioning scheme, then create multiple partitions:
+- Reformat a volume, then create multiple partitions:
 
 `diskutil partitionDisk {{/dev/disk_device}} {{number_of_partitions}} {{APM|MBR|GPT}} {{partition_filesystem1}} {{partition_name1}} {{partition_size1}} {{partition_filesystem2}} {{partition_name2}} {{partition_size2}} ...`
 
