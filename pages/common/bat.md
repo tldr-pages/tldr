@@ -24,7 +24,7 @@
 
 `bat {{--show-all|-A}} {{path/to/file}}`
 
-- Remove decorations except line numbers in the output:
+- Remove all decorations except line numbers in the output:
 
 `bat {{--number|-n}} {{path/to/file}}`
 
