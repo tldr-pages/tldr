@@ -7,7 +7,7 @@
 
 `golangci-lint run`
 
-- Lista los linters habilitados y deshabilitados (Nota: los linters deshabilitados se muestran en último lugar, no los confundas con los habilitados):
+- Lista los linters habilitados y deshabilitados (Nota: los linters deshabilitados se muestran en el último lugar, no los confundas con los habilitados):
 
 `golangci-lint linters`
 
