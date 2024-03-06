@@ -25,7 +25,7 @@
 
 - Establece una versión local de un paquete:
 
-`mise use {{nombre}}@{versión}}`
+`mise use {{nombre}}@{{versión}}`
 
 - Establece una variable de entorno en la configuración:
 
