@@ -19,6 +19,6 @@
 
 `apt-cache depends {{paket}}`
 
-- Menampilkan paket yang bergantung pada paket tertentu:
+- Tampilkan paket yang bergantung pada paket tertentu:
 
 `apt-cache rdepends {{paket}}`
