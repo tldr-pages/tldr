@@ -11,7 +11,7 @@
 
 `apt-cache show {{paket}}`
 
-- Menampilkan apakah sebuah paket sudah terinstal dan paling terbaru:
+- Tampilkan apakah sebuah paket sudah terinstal dan paling terbaru:
 
 `apt-cache policy {{paket}}`
 
