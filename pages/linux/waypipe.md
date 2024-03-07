@@ -7,6 +7,6 @@
 
 `waypipe ssh {{user}}@{{server}} {{program}}`
 
-- Open an ssh tunnel to run any program remotely and display it locally:
+- Open an SSH tunnel to run any program remotely and display it locally:
 
 `waypipe ssh {{user}}@{{server}}`
