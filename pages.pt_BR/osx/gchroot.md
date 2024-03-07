@@ -1,6 +1,6 @@
 # gchroot
 
-> Este comando é um pseudônimo de `-p linux chroot`.
+> Este comando é um apelido de `-p linux chroot`.
 
 - Exibe documentação sobre o comando original:
 

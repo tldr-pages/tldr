@@ -7,10 +7,10 @@
 
 `reg copy {{old_key_name}} {{new_key_name}}`
 
-- Copy a registry key recursively to a new registry location:
+- Copy a registry key recursively (with all [s]ubkeys) to a new registry location:
 
 `reg copy {{old_key_name}} {{new_key_name}} /s`
 
-- Forcefully copy a registry key without a prompt:
+- [f]orcefully (without a prompt) copy a registry key:
 
 `reg copy {{old_key_name}} {{new_key_name}} /f`

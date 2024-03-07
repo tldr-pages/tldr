@@ -1,6 +1,6 @@
 # ghead
 
-> Este comando é um pseudônimo de `-p linux head`.
+> Este comando é um apelido de `-p linux head`.
 
 - Exibe documentação sobre o comando original:
 

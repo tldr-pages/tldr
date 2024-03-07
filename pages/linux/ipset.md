@@ -1,6 +1,6 @@
 # ipset
 
-> A tool to create IP sets for firewall rules.
+> Create IP sets for firewall rules.
 > More information: <https://manned.org/ipset>.
 
 - Create an empty IP set which will contain IP addresses:

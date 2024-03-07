@@ -1,7 +1,7 @@
 # pm
 
 > نمایش اطلاعات مربوط به برنامه های یک دستگاه اندروید.
-> اطلاعات بیشتر: <https://developer.android.com/studio/command-line/adb#pm>.
+> اطلاعات بیشتر: <https://developer.android.com/tools/adb#pm>.
 
 - فهرست تمامی برنامه های نصب شده :
 

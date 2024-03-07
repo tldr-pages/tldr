@@ -1,6 +1,6 @@
 # glibtool
 
-> Este comando é um pseudônimo de `-p linux libtool`.
+> Este comando é um apelido de `-p linux libtool`.
 
 - Exibe documentação sobre o comando original:
 

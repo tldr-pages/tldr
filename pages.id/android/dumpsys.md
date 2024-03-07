@@ -2,7 +2,7 @@
 
 > Berikan informasi tentang layanan (daemon) sistem milik Android.
 > Perintah ini hanya dapat dijalankan melalui `adb shell`.
-> Informasi lebih lanjut: <https://developer.android.com/studio/command-line/dumpsys>.
+> Informasi lebih lanjut: <https://developer.android.com/tools/dumpsys>.
 
 - Tampilkan informasi diagnostik terhadap seluruh layanan sistem Android:
 

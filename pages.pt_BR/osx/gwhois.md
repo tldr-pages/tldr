@@ -1,6 +1,6 @@
 # gwhois
 
-> Este comando é um pseudônimo de `-p linux whois`.
+> Este comando é um apelido de `-p linux whois`.
 
 - Exibe documentação sobre o comando original:
 

@@ -1,7 +1,7 @@
 # adb shell
 
 > 安卓调试桥-Shell: 运行安卓模拟器或者连接设备上的远程终端命令。
-> 更多信息：<https://developer.android.com/studio/command-line/adb>.
+> 更多信息：<https://developer.android.com/tools/adb>.
 
 - 启动模拟器/设备上的远程终端：
 

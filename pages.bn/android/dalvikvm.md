@@ -1,7 +1,7 @@
 # dalvikvm
 
 > অ্যান্ড্রয়েড জাভা ভার্চুয়াল মেশিন।
-> আরও তথ্য পাবেন: <https://source.android.com/devices/tech/dalvik>।
+> আরও তথ্য পাবেন: <https://source.android.com/docs/core/runtime>।
 
 - একটি নির্দিষ্ট জাভা প্রোগ্রাম শুরু করুন:
 

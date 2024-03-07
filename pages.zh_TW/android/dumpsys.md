@@ -2,7 +2,7 @@
 
 > 提供關於 Android 系統服務的資訊。
 > 此命令只能透過 `adb shell` 使用。
-> 更多資訊：<https://developer.android.com/studio/command-line/dumpsys>.
+> 更多資訊：<https://developer.android.com/tools/dumpsys>.
 
 - 獲取所有系統服務的診斷輸出：
 

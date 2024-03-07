@@ -1,6 +1,6 @@
 # gnice
 
-> Este comando é um pseudônimo de `-p linux nice`.
+> Este comando é um apelido de `-p linux nice`.
 
 - Exibe documentação sobre o comando original:
 
