@@ -335,9 +335,7 @@ For instance, instead of `Listing all files:`, `List all files:` can be used as 
 Any syntax not documented in this guide or the client specification will **not** be rendered in most of our clients. See common cases below.
 
 ### Links and images
-
-- Do not use Markdown links (\[link text\](link url)) or images in the pages, they are not part of the tldr client specification and thus not supported by most of our clients.
-- If you want to use a link in a page, enclose it within angled brackets (e.g. <https://example.org>).
+Use angled brackets (e.g. <https://example.org>) when including links in pages.
 
 ### Emphasis
 
