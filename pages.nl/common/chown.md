@@ -11,6 +11,10 @@
 
 `chown {{gebruiker}}:{{groep}} {{pad/naar/bestand_of_map}}`
 
+- Verander de gebruikersbeheerder en -groep zodat beiden de naam `user` krijgen:
+
+`chown {{user}}: {{path/to/file_or_directory}}`
+
 - Verander recursief de beheerder van een map en alle inhoud:
 
 `chown -R {{gebruiker}} {{pad/naar/bestand_of_map}}`

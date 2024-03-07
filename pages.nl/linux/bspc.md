@@ -22,3 +22,7 @@
 - Schakel de modus volledig scherm in voor het geselecteerde knooppunt:
 
 `bspc node --state ~fullscreen`
+
+- Zet de waarde van een specifieke instelling:
+
+`bspc config {{instelling}} {{waarde}}`
