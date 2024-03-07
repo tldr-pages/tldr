@@ -24,7 +24,7 @@
 
 `apt-get upgrade`
 
-- Membersihkan repositori lokal - menghapus file paket (`.deb`) yang sebelumnya gagal didownload dan tidak bisa di download lagi:
+- Bersihkan repositori lokal, hapus file paket (`.deb`) yang sebelumnya gagal diunduh dan tidak bisa diunduh kembali:
 
 `apt-get autoclean`
 
