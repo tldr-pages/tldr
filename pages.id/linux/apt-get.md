@@ -8,7 +8,7 @@
 
 `apt-get update`
 
-- Menginstal sebuah paket, atau memperbaruinya ke versi terbaru yang tersedia:
+- Pasang sebuah paket, atau perbarui ke versi terbaru yang tersedia:
 
 `apt-get install {{paket}}`
 
