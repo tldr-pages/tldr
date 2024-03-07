@@ -9,20 +9,20 @@
 
 - Install a package [g]lobally:
 
-`bpkg install --global {{package_name}}`
+`bpkg install --global {{package}}`
 
 - Install a package in a subdirectory of the current directory:
 
-`bpkg install {{package_name}}`
+`bpkg install {{package}}`
 
-- Install a specific version of a package:
+- Install a specific version of a package globally:
 
-`bpkg install {{package_name}}@{{version}} -g`
+`bpkg install {{package}}@{{version}} -g`
 
 - Show details about a specific package:
 
-`bpkg show {{package_name}}`
+`bpkg show {{package}}`
 
 - Run a command, optionally specifying its arguments:
 
-`bpkg run {{command}} {{command_arg1 command_arg2 ...}}`
+`bpkg run {{command}} {{argument1 argument2 ...}}`
