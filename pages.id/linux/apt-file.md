@@ -15,6 +15,6 @@
 
 `apt-file {{show|list}} {{paket}}`
 
-- Mencari paket yang yang sesuai dengan `ekspresi_reguler`:
+- Cari paket yang sesuai dengan `ekspresi_reguler`:
 
 `apt-file {{search|find}} --regexp {{ekspresi_reguler}}`
