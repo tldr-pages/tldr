@@ -334,7 +334,8 @@ For instance, instead of `Listing all files:`, `List all files:` can be used as 
 
 Any syntax not documented in this guide or the client specification will **not** be rendered in most of our clients. See common cases below.
 
-### Links and images
+### Links
+
 Use angled brackets (e.g. <https://example.org>) when including links in pages.
 
 ### Emphasis
