@@ -16,7 +16,7 @@
 
 `apt-get remove {{paket}}`
 
-- Menghapus sebuah paket dan file konfigurasinya:
+- Hapus sebuah paket dan file konfigurasinya:
 
 `apt-get purge {{paket}}`
 
