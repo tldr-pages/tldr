@@ -3,7 +3,7 @@
 > Kelola definisi repositori `apt`.
 > Informasi lebih lanjut: <https://manned.org/apt-add-repository>.
 
-- Menambah repositori `apt` baru:
+- Tambah repositori `apt` baru:
 
 `add-apt-repository {{repositori}}`
 
