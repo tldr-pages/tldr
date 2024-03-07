@@ -20,7 +20,7 @@
 
 `apt-get purge {{paket}}`
 
-- Memperbarui semua paket yang terinstal ke versi terbaru yang tersedia:
+- Perbarui semua paket yang terpasang ke versi terbaru yang tersedia:
 
 `apt-get upgrade`
 
