@@ -23,11 +23,11 @@
 
 `virt-manager --show-domain-creator`
 
-- Show domain details window:
+- Show domain details window for a specific virtual machine/container:
 
 `virt-manager --show-domain-editor {{name|id|uuid}}`
 
-- Show domain performance window:
+- Show domain performance window for a specific virtual machine/container:
 
 `virt-manager --show-domain-performance {{name|id|uuid}}`
 
