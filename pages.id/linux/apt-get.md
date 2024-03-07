@@ -28,7 +28,7 @@
 
 `apt-get autoclean`
 
-- Menghapus semua paket yang tidak diperlukan lagi:
+- Hapus semua paket yang tidak diperlukan kembali:
 
 `apt-get autoremove`
 
