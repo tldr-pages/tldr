@@ -32,6 +32,6 @@
 
 `apt-get autoremove`
 
-- Memperbarui paket yang terinstal (mirip `upgrade`), tapi bedanya ini menghapus paket yang tidak dipakai lagi dan menginstal paket tambahan untuk memenuhi dependensi baru:
+- Perbarui paket yang terinstal (mirip `upgrade`), namun hapus paket yang tidak dipakai kembali dan pasang paket tambahan untuk memenuhi dependensi baru:
 
 `apt-get dist-upgrade`
