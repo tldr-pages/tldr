@@ -15,6 +15,6 @@
 
 `add-apt-repository --update {{repositori}}`
 
-- Mengizinkan sumber paket untuk didownload dari repositori:
+- Izinkan sumber paket untuk diunduh dari repositori:
 
 `add-apt-repository --enable-source {{repositori}}`
