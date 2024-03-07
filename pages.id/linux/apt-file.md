@@ -7,7 +7,7 @@
 
 `sudo apt update`
 
-- Mencari paket yang berisi nama file atau path yang diinputkan:
+- Cari paket yang berisi nama file atau path yang diinputkan:
 
 `apt-file {{search|find}} {{path/ke/sebuah/file}}`
 
