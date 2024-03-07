@@ -12,7 +12,7 @@
 
 `apt-get install {{paket}}`
 
-- Menghapus sebuah paket:
+- Hapus sebuah paket:
 
 `apt-get remove {{paket}}`
 
