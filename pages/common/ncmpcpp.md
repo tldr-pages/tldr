@@ -1,6 +1,6 @@
 # ncmpcpp
 
-> A command-line music player client for the Music Player Daemon.
+> A music player client for the Music Player Daemon.
 > More information: <https://rybczak.net/ncmpcpp>.
 
 - Connect to a music player daemon on a given host and port:
