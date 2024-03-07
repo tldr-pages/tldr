@@ -7,7 +7,7 @@
 
 `apt-cache search {{query}}`
 
-- Menampilkan informasi tentang sebuah paket:
+- Tampilkan informasi tentang sebuah paket:
 
 `apt-cache show {{paket}}`
 
