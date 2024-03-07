@@ -19,3 +19,7 @@
 - View documentation for a specified tool:
 
 `go tool {{command}} --help`
+
+- List all available cross-compilation targets:
+
+`go tool dist list`
