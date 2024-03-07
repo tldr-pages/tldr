@@ -15,7 +15,7 @@
 
 `apt-cache policy {{paket}}`
 
-- Menampilkan dependensi sebuah paket:
+- Tampilkan dependensi sebuah paket:
 
 `apt-cache depends {{paket}}`
 
