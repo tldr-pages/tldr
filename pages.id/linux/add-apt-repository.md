@@ -11,7 +11,7 @@
 
 `add-apt-repository --remove {{repositori}}`
 
-- Memperbarui cache paket setelah menambahkan sebuah repositori:
+- Perbarui cache paket setelah menambahkan sebuah repositori:
 
 `add-apt-repository --update {{repositori}}`
 
