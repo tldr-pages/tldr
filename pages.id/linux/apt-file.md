@@ -11,7 +11,7 @@
 
 `apt-file {{search|find}} {{path/ke/sebuah/file}}`
 
-- Menampilkan daftar konten dari sebuah paket:
+- Tampilkan daftar konten dari sebuah paket:
 
 `apt-file {{show|list}} {{paket}}`
 
