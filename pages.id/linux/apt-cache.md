@@ -3,7 +3,7 @@
 > Pencari paket untuk Debian dan Ubuntu.
 > Informasi lebih lanjut: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
 
-- Mencari paket di sumber yang sudah kamu miliki:
+- Cari paket di sumber yang sudah dimiliki:
 
 `apt-cache search {{query}}`
 
