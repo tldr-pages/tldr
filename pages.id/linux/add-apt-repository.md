@@ -7,7 +7,7 @@
 
 `add-apt-repository {{repositori}}`
 
-- Menghilangkan sebuah repositori `apt`:
+- Hilangkan sebuah repositori `apt`:
 
 `add-apt-repository --remove {{repositori}}`
 
