@@ -1,6 +1,6 @@
 # iwlist
 
-> Obtiene información detallada de una interfaz inalámbrica.
+> Obtén información detallada de una interfaz inalámbrica.
 > Más información: <https://manned.org/iwlist.8>.
 
 - Muestra la lista de puntos de acceso y células ad-hoc dentro del alcance:
