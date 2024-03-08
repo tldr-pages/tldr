@@ -5,7 +5,7 @@
 > برای دیدن دستور های معادل در سایر پکیج منیجر ها <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > اطلاعات بیشتر : <https://man.archlinux.org/man/pacman.8>.
 
-- همگام سازی و بروز رسانی تمام پکیج ها
+- همگام سازی و بروز رسانی تمام پکیج ها:
 
 `sudo pacman -Syu`
 
