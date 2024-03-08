@@ -13,7 +13,7 @@
 
 - Verander de gebruikersbeheerder en -groep zodat beiden de naam `user` krijgen:
 
-`chown {{user}}: {{path/to/file_or_directory}}`
+`chown {{user}}: {{pad/naar/bestand_of_map}}`
 
 - Verander recursief de beheerder van een map en alle inhoud:
 
