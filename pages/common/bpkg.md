@@ -7,7 +7,7 @@
 
 `bpkg update`
 
-- Install a package [g]lobally:
+- Install a package globally:
 
 `bpkg install --global {{package}}`
 
