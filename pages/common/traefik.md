@@ -3,7 +3,7 @@
 > An HTTP reverse proxy and load balancer.
 > More information: <https://traefik.io>.
 
-- Start the server with default config:
+- Start the server with the default configuration:
 
 `traefik`
 
