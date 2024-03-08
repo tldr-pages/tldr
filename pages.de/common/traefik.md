@@ -9,7 +9,7 @@
 
 - Starte den Server mit einer benutzerdefinierten Konfigurationsdatei:
 
-`traefik --c {{konfigurationsdatei.toml}}`
+`traefik --ConfigFile {{konfigurationsdatei.toml}}`
 
 - Starte den Server mit aktiviertem Cluster-Modus:
 
