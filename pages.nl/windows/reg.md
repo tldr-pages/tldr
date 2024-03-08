@@ -4,7 +4,7 @@
 > Sommige subcommando's zoals `reg add` hebben hun eigen documentatie.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg>.
 
-- Execute a registry command:
+- Voer een registry commando uit:
 
 `reg {{commando}}`
 
