@@ -3,15 +3,15 @@
 > An HTTP reverse proxy and load balancer.
 > More information: <https://traefik.io>.
 
-- Start server with default config:
+- Start the server with the default configuration:
 
 `traefik`
 
-- Start server with a custom configuration file:
+- Start the server with a custom configuration file:
 
-`traefik --c {{config_file.toml}}`
+`traefik --ConfigFile {{config_file.toml}}`
 
-- Start server with cluster mode enabled:
+- Start the server with cluster mode enabled:
 
 `traefik --cluster`
 
