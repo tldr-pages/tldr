@@ -17,4 +17,4 @@
 
 - Toon de help:
 
-`docker rm`
+`docker rm --help`
