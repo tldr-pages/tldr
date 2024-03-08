@@ -1,6 +1,6 @@
 # dolt gc
 
-> Busca en el repositorio los datos que ya no se referencian ni se necesitan.
+> Busca en el repositorio los datos que ya no se referencian ni necesitan.
 > Más información: <https://docs.dolthub.com/cli-reference/cli#dolt-gc>.
 
 - Limpia datos no referenciados del repositorio:
