@@ -1,6 +1,6 @@
 # abbr
 
-> Gère les abréviations pour le shell Fish.
+> Gère les abréviations pour le shell fish.
 > Les mots définis par l'utilisateur sont remplacés par des phrases plus longues après leur saisie.
 > Plus d'informations : <https://fishshell.com/docs/current/cmds/abbr.html>.
 
