@@ -1,8 +1,8 @@
 # pgmtopbm
 
-> This command is superseded by `pamditherbw`.
-> More information: <https://netpbm.sourceforge.net/doc/pgmtopbm.html>.
+> Dit commando is vervangen door `pamditherbw`.
+> Meer informatie: <https://netpbm.sourceforge.net/doc/pgmtopbm.html>.
 
-- View documentation for the current command:
+- Bekijk de documentatie van het huidige commando:
 
 `tldr pamditherbw`
