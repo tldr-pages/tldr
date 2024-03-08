@@ -9,7 +9,7 @@
 
 - Muestra las frecuencias disponibles en el dispositivo:
 
-`iwlist {{interfaz_inalámbrica}} frecuency`
+`iwlist {{interfaz_inalámbrica}} frequency`
 
 - Lista las tasas de bits soportadas por el dispositivo:
 
