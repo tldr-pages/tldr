@@ -2,7 +2,7 @@
 
 > Beheer sleutels en de waardes in een Windows registry.
 > Sommige subcommando's zoals `reg add` hebben hun eigen documentatie.
-> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg>.
+> Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg>.
 
 - Execute a registry command:
 
