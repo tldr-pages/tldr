@@ -15,7 +15,7 @@
 
 `sudo -u {{utente}} -g {{gruppo}} {{id -a}}`
 
-- Ripeti l'ultimo comando prefissandolo con "sudo" (funziona solo in bash, zsh, ecc):
+- Ripeti l'ultimo comando prefissandolo con "sudo" (funziona solo in Bash, Zsh, ecc):
 
 `sudo !!`
 
