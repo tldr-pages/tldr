@@ -16,6 +16,6 @@
 
 `waymore -mode R -oR {{path/to/example.com-url-responses}} -i {{example.com}}`
 
-- Limit search to limit results within specific dates:
+- Filter the results by specifying date ranges:
 
 `waymore -from {{YYYYMMDD|YYYYMM|YYYY}} -to {{YYYYMMDD|YYYYMM|YYYY}} -i {{example.com}}`
