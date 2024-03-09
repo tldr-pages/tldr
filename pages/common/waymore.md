@@ -8,7 +8,7 @@
 
 `waymore -i {{example.com}}`
 
-- Limit search results to only include list of URLs for a domain, with outputs sent to a specific file:
+- Limit search results to only include a list of URLs for a domain and store outputs to the specified file:
 
 `waymore -mode U -oU {{path/to/example.com-urls.txt}} -i {{example.com}}`
 
