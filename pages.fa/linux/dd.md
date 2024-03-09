@@ -12,6 +12,7 @@
 `dd bs={{4M}} conv={{fsync}} if={{/dev/source_drive}} of={{/dev/dest_drive}}`
 
 - ایجاد یک فایل با تعداد مشخصی بایت تصادفی با استفاده از درایور random کرنل:
+
 `dd bs={{100}} count={{1}} if=/dev/urandom of={{path/to/random_file}}`
 
 - ارزیابی عملکرد نوشتن روی یک دیسک:
