@@ -4,7 +4,7 @@
 > Note: Unless specified, output is dumped into `results/` directory where waymore `config.yml` resides (by default in `~/.config/waymore/`).
 > More information: <https://github.com/xnl-h4ck3r/waymore>.
 
-- Search for URLs of a domain (output will typically be in `~/.config/waymore/results/`)
+- Search for URLs of a domain (output will typically be in `~/.config/waymore/results/`):
 
 `waymore -i {{example.com}}`
 
