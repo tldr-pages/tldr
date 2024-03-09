@@ -19,6 +19,6 @@
 
 `packwiz refresh`
 
-- Export as a Modrinth (`.mrpack`) or Curseforge (`.zip`) file:
+- Export as a Modrinth (`.mrpack`) or Curseforge (ZIP) file:
 
 `packwiz {{modrinth|curseforge}} export`

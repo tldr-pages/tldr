@@ -31,6 +31,6 @@
 
 `kdialog --getopenfilename`
 
-- Open a progressbar dialog and print a DBUS reference for communication to `stdout`:
+- Open a progressbar dialog and print a D-Bus reference for communication to `stdout`:
 
 `kdialog --progressbar "{{message}}"`

@@ -16,6 +16,6 @@
 
 `virsh connect qemu:///session`
 
-- Conecta como root a um hipervisor remoto usando ssh:
+- Conecta como root a um hipervisor remoto usando SSH:
 
 `virsh connect qemu+ssh://{{nome_do_usuário@nome_do_host}}/system`

@@ -7,7 +7,7 @@
 
 `webpack {{app.js}} {{bundle.js}}`
 
-- Load CSS files too from the JavaScript file (this uses the CSS loader for `.css` files):
+- Load CSS files too from the JavaScript file (this uses the CSS loader for CSS files):
 
 `webpack {{app.js}} {{bundle.js}} --module-bind '{{css=css}}'`
 

@@ -7,7 +7,7 @@
 
 `browser-sync start --server {{路径/到/目录}} --files {{路径/到/目录}}`
 
-- 启动当前目录服务，同时监听指定目录下 `css` 文件的变动：
+- 启动当前目录服务，同时监听指定目录下 CSS 文件的变动：
 
 `browser-sync start --server --files '{{路径/到/目录/*.css}}'`
 

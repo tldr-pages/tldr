@@ -12,7 +12,7 @@
 
 `ssh -i {{path/to/key_file}} {{username}}@{{remote_host}}`
 
-- Connect to a remote server using a specific port:
+- Connect to a remote server using a specific [p]ort:
 
 `ssh {{username}}@{{remote_host}} -p {{2222}}`
 
@@ -20,7 +20,7 @@
 
 `ssh {{username}}@{{remote_host}} -t {{command}} {{command_arguments}}`
 
-- SSH tunneling: Dynamic port forwarding (SOCKS proxy on `localhost:1080`):
+- SSH tunneling: [D]ynamic port forwarding (SOCKS proxy on `localhost:1080`):
 
 `ssh -D {{1080}} {{username}}@{{remote_host}}`
 
@@ -28,7 +28,7 @@
 
 `ssh -L {{9999}}:{{example.org}}:{{80}} -N -T {{username}}@{{remote_host}}`
 
-- SSH jumping: Connect through a jumphost to a remote server (Multiple jump hops may be specified separated by comma characters):
+- SSH [J]umping: Connect through a jumphost to a remote server (Multiple jump hops may be specified separated by comma characters):
 
 `ssh -J {{username}}@{{jump_host}} {{username}}@{{remote_host}}`
 

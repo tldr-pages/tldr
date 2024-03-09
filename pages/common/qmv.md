@@ -7,7 +7,7 @@
 
 `qmv {{source_file}}`
 
-- Move multiple JPG files:
+- Move multiple JPEG files:
 
 `qmv {{*.jpg}}`
 

@@ -4,7 +4,7 @@
 > Part of ImageMagick.
 > More information: <https://imagemagick.org/script/convert.php>.
 
-- Convert an image from JPG to PNG:
+- Convert an image from JPEG to PNG:
 
 `convert {{path/to/input_image.jpg}} {{path/to/output_image.png}}`
 

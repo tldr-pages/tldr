@@ -16,7 +16,7 @@
 
 `fastmod {{regex}} {{replacement}} --dir {{path/to/directory}} --iglob {{'**/*.{js,json}'}}`
 
-- استبدال بالنص مُطابقةً (وليس التعبيرات النمطية)، في ملفات امتداداتهم إما js أو json فحسب:
+- استبدال بالنص مُطابقةً (وليس التعبيرات النمطية)، في ملفات امتداداتهم إما js أو JSON فحسب:
 
 `fastmod --fixed-strings {{exact_string}} {{replacement}} --extensions {{json,js}}`
 

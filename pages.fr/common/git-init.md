@@ -7,6 +7,6 @@
 
 `git init`
 
-- Initialiser un référentiel barebones, adapté à une utilisation distante via ssh :
+- Initialiser un référentiel barebones, adapté à une utilisation distante via SSH :
 
 `git init --bare`

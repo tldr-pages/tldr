@@ -12,7 +12,7 @@
 
 `magick {{path/to/input_image.jpg}} -resize {{100x100}} {{path/to/output_image.jpg}}`
 
-- Create a GIF out of all JPG images in the current directory:
+- Create a GIF out of all JPEG images in the current directory:
 
 `magick {{*.jpg}} {{path/to/images.gif}}`
 
@@ -20,6 +20,6 @@
 
 `magick -size {{640x480}} pattern:checkerboard {{path/to/checkerboard.png}}`
 
-- Create a PDF file out of all JPG images in the current directory:
+- Create a PDF file out of all JPEG images in the current directory:
 
 `magick {{*.jpg}} -adjoin {{path/to/file.pdf}}`

@@ -15,7 +15,7 @@
 
 `httpflow -u '{{regular_expression}}'`
 
-- Read packets from pcap format binary file:
+- Read packets from PCAP format binary file:
 
 `httpflow -r {{out.cap}}`
 

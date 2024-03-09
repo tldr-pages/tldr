@@ -20,7 +20,7 @@
 
 `bat --number {{文件}}`
 
-- 高亮一个 `json` 文件：
+- 高亮一个 JSON 文件：
 
 `bat --language json {{文件.json}}`
 

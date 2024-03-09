@@ -1,6 +1,6 @@
 # ssh-keygen
 
-> Generate ssh keys used for authentication, password-less logins, and other things.
+> Generate SSH keys used for authentication, password-less logins, and other things.
 > More information: <https://man.openbsd.org/ssh-keygen>.
 
 - Generate a key interactively:

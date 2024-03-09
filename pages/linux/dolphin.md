@@ -23,7 +23,7 @@
 
 `dolphin --split {{path/to/directory1}} {{path/to/directory2}}`
 
-- Launch the daemon (only required to use the DBus interface):
+- Launch the daemon (only required to use the D-Bus interface):
 
 `dolphin --daemon`
 

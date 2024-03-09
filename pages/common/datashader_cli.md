@@ -3,7 +3,7 @@
 > Quick visualization of large datasets using CLI based on datashader.
 > More information: <https://github.com/wybert/datashader-cli>.
 
-- Create a shaded scatter plot of points and save it to a png file and set the background color:
+- Create a shaded scatter plot of points and save it to a PNG file and set the background color:
 
 `datashader_cli points {{path/to/input.parquet}} --x {{pickup_x}} --y {{pickup_y}} {{path/to/output.png}} --background {{black|white|#rrggbb}}`
 

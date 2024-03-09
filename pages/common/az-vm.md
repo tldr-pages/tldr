@@ -8,7 +8,7 @@
 
 `az vm list`
 
-- Create a virtual machine using the default Ubuntu image and generate ssh keys:
+- Create a virtual machine using the default Ubuntu image and generate SSH keys:
 
 `az vm create --resource-group {{rg}} --name {{vm_name}} --image {{UbuntuLTS}} --admin-user {{azureuser}} --generate-ssh-keys`
 

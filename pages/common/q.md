@@ -1,13 +1,13 @@
 # q
 
-> Execute SQL-like queries on .csv and .tsv files.
+> Execute SQL-like queries on CSV and TSV files.
 > More information: <https://harelba.github.io/q>.
 
-- Query `.csv` file by specifying the delimiter as ',':
+- Query a CSV file by specifying the delimiter as ',':
 
 `q -d',' "SELECT * from {{path/to/file}}"`
 
-- Query `.tsv` file:
+- Query a TSV file:
 
 `q -t "SELECT * from {{path/to/file}}"`
 

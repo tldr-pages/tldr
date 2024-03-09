@@ -3,7 +3,7 @@
 > Outil de conversion d'image d'ImageMagick.
 > Plus d'informations : <https://imagemagick.org/script/convert.php>.
 
-- Convertir une image JPG en PNG :
+- Convertir une image JPEG en PNG :
 
 `convert {{image.jpg}} {{image.png}}`
 

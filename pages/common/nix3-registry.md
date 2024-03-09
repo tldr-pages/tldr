@@ -8,11 +8,11 @@
 
 `nix registry pin {{nixpkgs}}`
 
-- Pin an entry to the latest version of the branch, or a particular reivision of a github repository:
+- Pin an entry to the latest version of the branch, or a particular reivision of a GitHub repository:
 
 `nix registry pin {{entry}} {{github:owner/repo/branch_or_revision}}`
 
-- Add a new entry that always points to the latest version of a github repository, updating automatically:
+- Add a new entry that always points to the latest version of a GitHub repository, updating automatically:
 
 `nix registry add {{entry}} {{github:owner/repo}}`
 

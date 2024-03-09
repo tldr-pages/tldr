@@ -19,7 +19,7 @@
 
 `ss -lt src :{{8080}}`
 
-- Show all TCP sockets along with processes connected to a remote ssh port:
+- Show all TCP sockets along with processes connected to a remote SSH port:
 
 `ss -pt dst :{{ssh}}`
 
