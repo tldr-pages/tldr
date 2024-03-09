@@ -12,7 +12,7 @@
 
 `waymore -mode U -oU {{path/to/example.com-urls.txt}} -i {{example.com}}`
 
-- Limit search results to only include content body of URLs of a domain, with outputs sent to a specific directory:
+- Only output the content bodies of URLs and store outputs to the specified directory:
 
 `waymore -mode R -oR {{path/to/example.com-url-responses}} -i {{example.com}}`
 
