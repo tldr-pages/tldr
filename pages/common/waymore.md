@@ -1,7 +1,7 @@
 # waymore
 
 > Fetch URLs of a domain from Wayback Machine, Common Crawl, Alien Vault OTX, URLScan, and VirusTotal.
-> Note: Unless specified, output is dumped into `results/` directory where waymore `config.yml` resides (by default in `~/.config/waymore/`).
+> Note: Unless specified, output is dumped into the `results/` directory where waymore's `config.yml` resides (by default in `~/.config/waymore/`).
 > More information: <https://github.com/xnl-h4ck3r/waymore>.
 
 - Search for URLs of a domain (output will typically be in `~/.config/waymore/results/`):
