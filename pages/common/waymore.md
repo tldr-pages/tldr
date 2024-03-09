@@ -10,7 +10,7 @@
 
 - Limit search results to only include list of URLs for a domain, with outputs sent to a specific file:
 
-`waymore -mode U  -oU {{path/to/example.com-urls.txt}} -i {{example.com}}`
+`waymore -mode U -oU {{path/to/example.com-urls.txt}} -i {{example.com}}`
 
 - Limit search results to only include content body of URLs of a domain, with outputs sent to a specific directory:
 
