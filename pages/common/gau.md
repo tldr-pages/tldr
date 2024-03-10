@@ -30,4 +30,3 @@
 - Search for URLs within specific date range:
 
 `gau --from {{YYYYMM}} --to {{YYYYMM}} {{example.com}}`
-
