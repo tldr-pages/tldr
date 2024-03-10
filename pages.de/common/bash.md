@@ -28,6 +28,6 @@
 
 `bash -s`
 
-- Gib die Version von bash aus (verwende `echo $BASH_VERSION`, um nur die Versionszeichenkette anzuzeigen):
+- Gib die Version von Bash aus (verwende `echo $BASH_VERSION`, um nur die Versionszeichenkette anzuzeigen):
 
 `bash --version`

@@ -11,7 +11,7 @@
 
 `omz changelog`
 
-- Starte die aktuelle zsh-Sitzung und Oh My Zsh neu:
+- Starte die aktuelle Zsh-Sitzung und Oh My Zsh neu:
 
 `omz reload`
 

@@ -15,7 +15,7 @@
 
 `sudo --user={{user}} --group={{group}} {{id -a}}`
 
-- Repeat the last command prefixed with `sudo` (only in `bash`, `zsh`, etc.):
+- Repeat the last command prefixed with `sudo` (only in Bash, Zsh, etc.):
 
 `sudo !!`
 
