@@ -7,15 +7,15 @@
 
 `history`
 
-- Exibe os últimos 20 comandos (em `zsh` ele exibe todos os comandos a partir do 20º):
+- Exibe os últimos 20 comandos (em Zsh ele exibe todos os comandos a partir do 20º):
 
 `history {{20}}`
 
-- Limpa a lista do histórico de comandos (apenas para o shell `bash` atual):
+- Limpa a lista do histórico de comandos (apenas para o shell Bash atual):
 
 `history -c`
 
-- Sobrescreve o arquivo de histórico com o histórico do shell `bash` atual (frequentemente combinado com `history -c` para limpar o histórico):
+- Sobrescreve o arquivo de histórico com o histórico do shell Bash atual (frequentemente combinado com `history -c` para limpar o histórico):
 
 `history -w`
 

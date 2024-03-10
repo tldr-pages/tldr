@@ -1,6 +1,6 @@
 # whence
 
-> A zsh builtin to indicate how a command would be interpreted.
+> A Zsh builtin to indicate how a command would be interpreted.
 > More information: <https://keith.github.io/xcode-man-pages/whence.1.html>.
 
 - Interpret `command`, with expansion if defined as an `alias` (similar to the `command -v` builtin):

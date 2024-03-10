@@ -6,6 +6,6 @@
 
 `tldr open -p osx`
 
-- Bekijk de documentatie voor het command beschikbaar via `fish`:
+- Bekijk de documentatie voor het command beschikbaar via fish:
 
 `tldr open.fish`

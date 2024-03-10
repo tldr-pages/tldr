@@ -19,7 +19,7 @@
 
 `printf "{{var1: %s\tvar2: %s\n}}" "{{$VAR1}}" "{{$VAR2}}"`
 
-- Store a formatted message in a variable (does not work on zsh):
+- Store a formatted message in a variable (does not work on Zsh):
 
 `printf -v {{myvar}} {{"This is %s = %d\n" "a year" 2016}}`
 
