@@ -32,6 +32,6 @@
 
 `isort --help`
 
-- Display version:
+- Display [V]ersion:
 
 `isort --version`
