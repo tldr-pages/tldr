@@ -10,7 +10,7 @@
 
 - Sort imports in multiple Python files, modifying the files in-place:
 
-`isort {{path/to/file1.py}} {{path/to/file2.py}} ...`
+`isort {{path/to/file1.py path/to/file2.py ...}}`
 
 - Show the changes `isort` would make without applying them:
 
