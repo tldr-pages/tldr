@@ -28,7 +28,7 @@
 
 `isort --skip {{file_or_directory_to_skip}} {{path/to/directory}}`
 
-- Display help:
+- Display [h]elp:
 
 `isort --help`
 
