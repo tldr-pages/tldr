@@ -2,7 +2,7 @@
 
 > Utilidad para gestionar particiones dentro de discos y volúmenes.
 > Parte de `diskutil`.
-> APM sólo es compatible con macOS, MBR está optimizado para DOS, mientras que GPT es compatible con la mayoría de los sistemas operativos modernos.
+> APM solo es compatible con macOS, MBR está optimizado para DOS, mientras que GPT es compatible con la mayoría de los sistemas operativos modernos.
 > Más información: <https://keith.github.io/xcode-man-pages/diskutil.8.html>.
 
 - Reformatea un volumen usando el esquema de particionado APM/MBR/GPT, sin dejar particiones en su interior (esto borrará todos los datos del volumen):
