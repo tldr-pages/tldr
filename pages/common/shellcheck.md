@@ -1,7 +1,6 @@
 # shellcheck
 
-> Shell script static analysis tool.
-> Check shell scripts for errors, usage of deprecated/insecure features, and bad practices.
+> Statically check shell scripts for errors, usage of deprecated/insecure features, and bad practices.
 > More information: <https://www.shellcheck.net>.
 
 - Check a shell script:
