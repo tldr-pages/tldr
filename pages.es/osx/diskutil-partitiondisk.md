@@ -7,7 +7,7 @@
 
 - Reformatea un volumen usando el esquema de particionado APM/MBR/GPT, sin dejar particiones en su interior (esto borrará todos los datos del volumen):
 
-`diskutil partitionDisk {{/dev/disco_dispositivo}} 0 {{APM|MBR|GPT}}`
+`diskutil partitionDisk {{/dev/dispositivo_de_disco}} 0 {{APM|MBR|GPT}}`
 
 - Reformatea un volumen, luego crea una única partición usando un sistema de archivos específico llenando todo el espacio libre:
 
