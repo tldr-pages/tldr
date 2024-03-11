@@ -11,7 +11,7 @@
 
 - Reformatea un volumen, luego crea una única partición usando un sistema de archivos específico llenando todo el espacio libre:
 
-`diskutil partitionDisk {{/dev/disco_dispositivo}} 1 {{APM|MBR|GPT}} {{sistema_archivos_partición}} {{nombre_partición}}`
+`diskutil partitionDisk {{/dev/dispositivo_de_disco}} 1 {{APM|MBR|GPT}} {{partición_con_sistema_de_archivos}} {{nombre_de_partición}}`
 
 - Reformatea un volumen, luego crea una única partición usando un sistema de archivos específico bajo un tamaño específico (ej. `16G` para 16GB o `50%` para llenar la mitad del tamaño total del volumen):
 
