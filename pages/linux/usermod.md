@@ -8,7 +8,7 @@
 
 `sudo usermod --login {{new_username}} {{username}}`
 
-- Change a user id:
+- Change a user ID:
 
 `sudo usermod --uid {{id}} {{username}}`
 

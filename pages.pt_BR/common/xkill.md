@@ -12,6 +12,6 @@
 
 `xkill -button any`
 
-- Fecha uma janela com um id específico (use `xwininfo` para obter informações sobre janelas):
+- Fecha uma janela com um ID específico (use `xwininfo` para obter informações sobre janelas):
 
 `xkill -id {{id}}`

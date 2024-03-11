@@ -1,6 +1,6 @@
 # docker compose
 
-> Ejecuta y gestiona aplicaciones docker multicontenedor.
+> Ejecuta y gestiona aplicaciones Docker multicontenedor.
 > Más información: <https://docs.docker.com/compose/reference/>.
 
 - Lista todos los contenedores en ejecución:

@@ -1,7 +1,7 @@
 # nsenter
 
 > Run a new command in a running process' namespace.
-> Particularly useful for docker images or chroot jails.
+> Particularly useful for Docker images or chroot jails.
 > More information: <https://manned.org/nsenter>.
 
 - Run a specific command using the same namespaces as an existing process:
