@@ -7,15 +7,15 @@
 
 `history`
 
-- Tampilkan 20 perintah-perintah terakhir (di `zsh` perintah ini menampilkan semua perintah-perintah sejak dari baris ke-20):
+- Tampilkan 20 perintah-perintah terakhir (di Zsh perintah ini menampilkan semua perintah-perintah sejak dari baris ke-20):
 
 `history {{20}}`
 
-- Hapus sejarah perintah-perintah (hanya untuk sesi shell `bash` saat ini):
+- Hapus sejarah perintah-perintah (hanya untuk sesi shell Bash saat ini):
 
 `history -c`
 
-- Tulis ulang file sejarah dengan sejarah sesi shell `bash` saat ini (seringkali dikombinasikan dengan `history -c` untuk menghapus sejarah):
+- Tulis ulang file sejarah dengan sejarah sesi shell Bash saat ini (seringkali dikombinasikan dengan `history -c` untuk menghapus sejarah):
 
 `history -w`
 
