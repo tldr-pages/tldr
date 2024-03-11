@@ -26,7 +26,7 @@
 
 - Exclude files or directories from being sorted:
 
-`isort --skip {{file_or_directory_to_skip}} {{path/to/directory}}`
+`isort --skip {{path/to/file1 path/to/directory1 ...}}`
 
 - Display [h]elp:
 
