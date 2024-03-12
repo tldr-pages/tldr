@@ -14,7 +14,7 @@
 
 - Fetch all URLs of several domains from an input file, running multiple threads:
 
-`cat {{path/to/domain.txt}} | gau --threads {{4}}`
+`gau --threads {{4}} < {{path/to/domains.txt}}`
 
 - Write output results to a file:
 
