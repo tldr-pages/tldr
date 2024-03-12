@@ -7,14 +7,14 @@
 
 `reg delete {{key_name}}`
 
-- Delete a value under a specific key:
+- Delete a [v]alue under a specific key:
 
 `reg delete {{key_name}} /v {{value}}`
 
-- Delete all values recursively under the specified key:
+- Delete [a]ll [v]alues recursively under the specified key:
 
 `reg delete {{key_name}} /va`
 
-- Forcefully delete all values recursively under a key without a prompt:
+- [f]orcefully (without a prompt) delete [a]ll [v]alues recursively under a key:
 
 `reg delete {{key_name}} /f /va`
