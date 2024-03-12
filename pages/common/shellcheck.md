@@ -31,6 +31,6 @@
 
 `shellcheck --list-optional`
 
-- Adjust the level of [S]everity to consider (default severity is `style`):
+- Adjust the level of [S]everity to consider (defaults to `style`):
 
 `shellcheck --severity {{error|warning|info|style}} {{path/to/script.sh}}`
