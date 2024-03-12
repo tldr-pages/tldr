@@ -1,7 +1,7 @@
 # shellcheck
 
 > Statically check shell scripts for errors, usage of deprecated/insecure features, and bad practices.
-> More information: <https://www.shellcheck.net>.
+> More information: <https://github.com/koalaman/shellcheck/wiki>.
 
 - Check a shell script:
 
