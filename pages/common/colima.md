@@ -19,13 +19,13 @@
 
 `colima start --kubernetes`
 
-- Customize CPU, memory, disk:
+- Customize CPU numbers, memory and disk space (in GiB):
 
-`colima start --cpu {{4}} --memory {{8}} --disk {{100}}`
+`colima start --cpu {{number}} --memory {{storage_space}} --disk {{storage_space}}`
 
-- Use Docker via Colima:
+- Use Docker via Colima (Note: this requires Docker to be preinstalled):
 
-`brew install docker && colima start`
+`colima start`
 
 - List containers, showing their information and status:
 
