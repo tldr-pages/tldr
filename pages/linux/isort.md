@@ -24,7 +24,7 @@
 
 `isort --skip {{path/to/file1}} --skip {{path/to/directory1}}`
 
-- Shows verbose output, such as when files are skipped or when a check is successful:
+- Show verbose output, such as when files are skipped or when a check is successful:
 
 `isort --verbose`
 
