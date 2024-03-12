@@ -1,7 +1,7 @@
 # isort
 
 > Sort Python import statements alphabetically within sections and by type.
-> `isort` can be run on multiple files or an entire project, simplifying import management.
+> It can be run on multiple files or an entire project, simplifying import management.
 > More information: <https://pycqa.github.io/isort/>.
 
 - Sort imports in a Python file, modifying the file in-place:
