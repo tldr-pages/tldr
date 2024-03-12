@@ -20,7 +20,7 @@
 
 `gau {{example.com}} --o {{path/to/found_urls.txt}}`
 
-- Search for URLs from a specific provider only:
+- Search for URLs from only one specific provider:
 
 `gau --providers {{wayback|commoncrawl|otx|urlscan}} {{example.com}}`
 
