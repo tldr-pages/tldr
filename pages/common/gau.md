@@ -1,7 +1,6 @@
 # gau
 
 > Get All URLs: fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl for any domains.
-> GAU stands for Get All URLs.
 > More information: <https://github.com/lc/gau>.
 
 - Fetch all URLs of a domain from AlienVault's Open Threat Exchange, the Wayback Machine, Common Crawl, and URLScan:
