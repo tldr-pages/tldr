@@ -20,13 +20,13 @@
 
 `isort --diff {{path/to/file.py}}`
 
-- Recursively sort imports in all Python files within a directory:
+- Exclude files or directories from being sorted. If you want to skip multiple files you should specify --skip twice:
 
-`isort --add-import "from __future__ import division" {{path/to/file.py}}`
+`isort --skip {{path/to/file1}} --skip {{path/to/directory1}}`
 
-- Exclude files or directories from being sorted:
+- Shows verbose output, such as when files are skipped or when a check is successful.:
 
-`isort --skip {{path/to/file1 path/to/directory1 ...}}`
+`isort --verbose`
 
 - Display [h]elp:
 
