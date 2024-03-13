@@ -3,7 +3,7 @@
 > Utilitas penambahan pengguna.
 > Informasi lebih lanjut: <https://manpages.debian.org/latest/adduser/adduser.html>.
 
-- Buat seorang pengguna baru dengan sebuah direktori home bawaan dan mendesak pengguna untuk mengatur sebuah password:
+- Buat seorang pengguna baru dengan sebuah direktori pangkal/home bawaan dan mendesak pengguna untuk mengatur sebuah kata sandi:
 
 `adduser {{nama_pengguna}}`
 
