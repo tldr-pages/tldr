@@ -4,11 +4,7 @@
 > It can be run on multiple files or an entire project, simplifying import management.
 > More information: <https://pycqa.github.io/isort/>.
 
-- Sort imports in a Python file, modifying the file in-place:
-
-`isort {{path/to/file.py}}`
-
-- Sort imports in multiple Python files, modifying the files in-place:
+- Sort imports in one or more Python files, modifying them in-place:
 
 `isort {{path/to/file1.py path/to/file2.py ...}}`
 
