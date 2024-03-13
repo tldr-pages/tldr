@@ -7,7 +7,7 @@
 
 `adduser {{nama_pengguna}}`
 
-- Buat seorang pengguna baru tanpa sebuah direktori home:
+- Buat seorang pengguna baru tanpa sebuah direktori pangkal/home:
 
 `adduser --no-create-home {{nama_pengguna}}`
 
