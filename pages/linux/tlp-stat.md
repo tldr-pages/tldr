@@ -24,7 +24,7 @@
 
 `sudo tlp-stat {{-P|--pev}}`
 
-- Show power supply diagonistics:
+- Show [p]ower [sup]ply diagonistics:
 
 `sudo tlp-stat --psup`
 
