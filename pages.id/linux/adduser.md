@@ -11,7 +11,7 @@
 
 `adduser --no-create-home {{nama_pengguna}}`
 
-- Buat seorang pengguna baru dengan sebuah direktori home di jalur yang telah dispesifikasikan:
+- Buat seorang pengguna baru dengan sebuah direktori pangkal/home di jalur yang telah dispesifikasikan:
 
 `adduser --home {{jalur/ke/home}} {{nama_pengguna}}`
 
