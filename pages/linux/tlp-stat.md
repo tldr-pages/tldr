@@ -20,7 +20,7 @@
 
 `sudo tlp-stat {{-c|--config}}`
 
-- Monitor power supply `udev` events:
+- Monitor [p]ower supply `udev` [ev]ents:
 
 `sudo tlp-stat {{-P|--pev}}`
 
