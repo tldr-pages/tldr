@@ -6,6 +6,7 @@
 - ایجاد یک ارتباط نمادین (symbolic link) به یک فایل یا پوشه:
 
 `ln -s {{/path/to/file_or_directory}} {{path/to/symlink}}`
+
 - جایگزینی یک ارتباط نمادین موجود، برای اشاره به یک فایل متفاوت:
 
 `ln -sf {{/path/to/new_file}} {{path/to/symlink}}`
