@@ -1,6 +1,6 @@
 # a2ensite
 
-> Izinkan sebuah host maya Apache pada OS berbasis Debian.
+> Izinkan sebuah host maya (virtual host) Apache pada OS berbasis Debian.
 > Informasi lebih lanjut: <https://manpages.debian.org/latest/apache2/a2ensite.8.en.html>.
 
 - Izinkan sebuah host maya:
