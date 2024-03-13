@@ -19,6 +19,6 @@
 
 `adduser --shell {{jalur/ke/shell}} {{nama_pengguna}}`
 
-- Buat seorang pengguna baru yang masuk ke grup yang dispesifikasikan:
+- Buat seorang pengguna baru yang masuk ke grup pengguna yang dispesifikasikan:
 
 `adduser --ingroup {{grup}} {{nama_pengguna}}`
