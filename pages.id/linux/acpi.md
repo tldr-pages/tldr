@@ -23,6 +23,6 @@
 
 `acpi -V`
 
-- Esktrak informasi dari `/proc` daripada `/sys`:
+- Ekstrak informasi dari `/proc` daripada `/sys`:
 
 `acpi -p`
