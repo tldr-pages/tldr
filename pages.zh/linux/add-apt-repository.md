@@ -3,11 +3,11 @@
 > apt 仓库管理。
 > 更多信息：<https://manned.org/apt-add-repository>.
 
-- 添加一个新的 apt 仓库：
+- 添加一个新的 APT 仓库：
 
 `add-apt-repository {{指定仓库}}`
 
-- 移除一个 apt 仓库：
+- 移除一个 APT 仓库：
 
 `add-apt-repository --remove {{指定仓库}}`
 

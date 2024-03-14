@@ -7,6 +7,6 @@
 
 `pueue send {{task_id}} "{{input}}"`
 
-- Send confirmation to a task expecting y/N (e.g. apt, cp):
+- Send confirmation to a task expecting y/N (e.g. APT, cp):
 
 `pueue send {{task_id}} {{y}}`

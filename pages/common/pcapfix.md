@@ -1,21 +1,21 @@
 # pcapfix
 
-> Repair damaged or corrupted `pcap` and `pcapng` files.
+> Repair damaged or corrupted PCAP and PcapNG files.
 > More information: <https://f00l.de/pcapfix/>.
 
-- Repair a `pcap`/`pcapng` file (Note: for `pcap` files, only the first 262144 bytes of each packet are scanned):
+- Repair a PCAP/PCapNG file (Note: for PCAP files, only the first 262144 bytes of each packet are scanned):
 
 `pcapfix {{path/to/file.pcapng}}`
 
-- Repair an entire `pcap` file:
+- Repair an entire PCAP file:
 
 `pcapfix --deep-scan {{path/to/file.pcap}}`
 
-- Repair a `pcap`/`pcapng` file and write the repaired file to the specified location:
+- Repair a PCAP/PcapNG file and write the repaired file to the specified location:
 
 `pcapfix --outfile {{path/to/repaired.pcap}} {{path/to/file.pcap}}`
 
-- Repair a `pcapng` file and treat it as a `pcapng` file, ignoring the automatic recognition:
+- Repair a PcapNG file and treat it as a PcapNG file, ignoring the automatic recognition:
 
 `pcapfix --pcapng {{path/to/file.pcapng}}`
 

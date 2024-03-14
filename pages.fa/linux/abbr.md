@@ -16,6 +16,6 @@
 
 `abbr --erase {{abbreviation_name}}`
 
-- وارد کردن یک مخفف وارد شده در یک میزبان دیگر از طریق ssh:
+- وارد کردن یک مخفف وارد شده در یک میزبان دیگر از طریق SSH:
 
 `ssh {{host_name}} abbr --show | source`
