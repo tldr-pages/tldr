@@ -26,3 +26,7 @@
 - Save results to a text file:
 
 `amass intel -o {{output_file}} -whois -d {{domain_name}}`
+
+- List all available data sources:
+
+`amass intel -list`
