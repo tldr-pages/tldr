@@ -22,3 +22,7 @@
 - Save the results to a database:
 
 `amass enum -o {{output_file}} -dir {{path/to/database_directory}}`
+
+- List all available data sources:
+
+`amass enum -list`
