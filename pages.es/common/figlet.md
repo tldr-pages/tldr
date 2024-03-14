@@ -24,7 +24,7 @@
 
 `showfigfonts {{texto_opcional_para_mostrar}}`
 
-- Utiliza el ancho total de tu [t]erminal y [c]entra el texto de entrada:
+- Utiliza el ancho total del [t]erminal y [c]entra el texto de entrada:
 
 `figlet -t -c {{texto_de_entrada}}`
 
