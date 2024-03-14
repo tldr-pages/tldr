@@ -27,6 +27,6 @@
 
 `amass intel -o {{output_file}} -whois -d {{domain_name}}`
 
-- [list] all available data sources:
+- List all available data sources:
 
 `amass intel -list`
