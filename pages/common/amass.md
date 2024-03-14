@@ -8,7 +8,7 @@
 
 `amass {{intel|enum}} {{options}}`
 
-- Display [help]:
+- Display help:
 
 `amass -help`
 
