@@ -330,7 +330,15 @@ For instance, instead of `Listing all files:`, `List all files:` can be used as 
  `ls`
 ```
 
-## Emphasis
+## Not rendered syntax
+
+Any syntax not documented in this guide or the client specification will **not** be rendered in most of our clients. See common cases below.
+
+### Links
+
+Use angled brackets (e.g. <https://example.org>) when including links in pages.
+
+### Emphasis
 
 Do not use *italics*, **boldface** or any other text styling on the pages. These are reserved for client emphasis of placeholders.
 
