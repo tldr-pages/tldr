@@ -16,6 +16,6 @@
 
 `amass {{intel|enum}} -help`
 
-- Display [version]:
+- Display version:
 
 `amass -version`
