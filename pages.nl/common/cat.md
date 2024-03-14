@@ -1,7 +1,7 @@
 # cat
 
 > Toon en voeg bestanden samen.
-> Meer informatie: <https://www.gnu.org/software/coreutils/cat>.
+> Meer informatie: <https://manned.org/cat.1posix>.
 
 - Toon de inhoud van een bestand in `stdout`:
 

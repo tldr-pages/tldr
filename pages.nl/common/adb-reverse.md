@@ -1,7 +1,7 @@
 # adb reverse
 
 > Android Debug Bridge Reverse: omgekeerde socketverbindingen van een Android-emulatorinstantie of verbonden Android-apparaten.
-> Meer informatie: <https://developer.android.com/studio/command-line/adb>.
+> Meer informatie: <https://developer.android.com/tools/adb>.
 
 - Maak een lijst van alle omgekeerde socketverbindingen van emulators en apparaten:
 

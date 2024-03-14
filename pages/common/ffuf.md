@@ -20,6 +20,6 @@
 
 `ffuf -w {{path/to/wordlist.txt}} -u {{http://target.com}} -H "{{Host: FUZZ}}" -mc {{200}}`
 
-- Fuzz with specified HTTP method and payloa[d], while [f]iltering out comma separated status [c]odes:
+- Fuzz with specified HTTP method and [d]ata, while [f]iltering out comma separated status [c]odes:
 
 `ffuf -w {{path/to/postdata.txt}} -X {{POST}} -d "{{username=admin\&password=FUZZ}}" -u {{http://target/login.php}} -fc {{401,403}}`

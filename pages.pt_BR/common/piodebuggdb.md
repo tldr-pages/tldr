@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> Este comando é um pseudônimo de `pio debug`.
+> Este comando é um apelido de `pio debug`.
 
 - Exibe documentação sobre o comando original:
 

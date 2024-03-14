@@ -1,6 +1,6 @@
 # ptpython3
 
-> Este comando é um pseudônimo de `ptpython`.
+> Este comando é um apelido de `ptpython`.
 
 - Exibe documentação sobre o comando original:
 

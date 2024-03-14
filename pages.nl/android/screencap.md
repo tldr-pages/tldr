@@ -2,7 +2,7 @@
 
 > Maak een screenshot van een mobiel scherm.
 > Dit commando kan alleen worden gebruikt via `adb shell`.
-> Meer informatie: <https://developer.android.com/studio/command-line/adb#screencap>.
+> Meer informatie: <https://developer.android.com/tools/adb#screencap>.
 
 - Maak een screenshot:
 

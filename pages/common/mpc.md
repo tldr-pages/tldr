@@ -1,8 +1,8 @@
 # mpc
 
 > Music Player Client.
-> Program for controlling the Music Player Daemon (MPD).
-> More information: <https://www.musicpd.org/clients/mpc>.
+> Control the Music Player Daemon (MPD).
+> More information: <https://www.musicpd.org/doc/mpc/html>.
 
 - Toggle play/pause:
 
@@ -16,14 +16,14 @@
 
 `mpc status`
 
-- Play next song:
+- Play the next song:
 
 `mpc next`
 
-- Play previous song:
+- Play the previous song:
 
 `mpc prev`
 
-- Forward or rewind the currently playing song:
+- Seek `n` seconds forward (`+`) or backward (`-`):
 
-`mpc [+-]{{seconds}}`
+`mpc {{+n|-n}}`

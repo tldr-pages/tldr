@@ -1,6 +1,6 @@
 # pio-init
 
-> Este comando é um pseudônimo de `pio project`.
+> Este comando é um apelido de `pio project`.
 
 - Exibe documentação sobre o comando original:
 

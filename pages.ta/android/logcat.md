@@ -1,7 +1,7 @@
 # logcat
 
 > கணினி செய்திகளின் பதிவை டம்ப் செய்யவும்.
-> மேலும் விவரத்திற்கு: <https://developer.android.com/studio/command-line/logcat>.
+> மேலும் விவரத்திற்கு: <https://developer.android.com/tools/logcat>.
 
 - கணினி பதிவுகளைக் காண்பி:
 

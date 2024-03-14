@@ -1,6 +1,6 @@
 # gchgrp
 
-> Este comando é um pseudônimo de `-p linux chgrp`.
+> Este comando é um apelido de `-p linux chgrp`.
 
 - Exibe documentação sobre o comando original:
 

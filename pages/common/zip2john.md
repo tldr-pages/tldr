@@ -1,6 +1,6 @@
 # zip2john
 
-> A tool to extract password hashes from `zip` archives for use with John the Ripper password cracker.
+> Extract password hashes from `zip` archives for use with John the Ripper password cracker.
 > This is a utility tool usually installed as part of the John the Ripper installation.
 > More information: <https://www.openwall.com/john/>.
 

@@ -72,6 +72,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - **Alejandro Cervera ([@tricantivu](https://github.com/tricantivu))**: [4 January 2024](https://github.com/tldr-pages/tldr/issues/11989) — present
 - **Mohammad Reza Soleimani ([@MrMw3](https://github.com/MrMw3))**: [07 January 2024](https://github.com/tldr-pages/tldr/issues/12011) — present
 - **Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin))**: [09 February 2024](https://github.com/tldr-pages/tldr/issues/12227) — present
+- **Alexandre ZANNI ([@noraj](https://github.com/noraj))**: [22 February 2024](https://github.com/tldr-pages/tldr/issues/12324) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):

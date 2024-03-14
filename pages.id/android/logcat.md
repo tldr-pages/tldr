@@ -1,7 +1,7 @@
 # logcat
 
 > Tampilkan dan simpan log sistem.
-> Informasi lebih lanjut: <https://developer.android.com/studio/command-line/logcat>.
+> Informasi lebih lanjut: <https://developer.android.com/tools/logcat>.
 
 - Tampilkan log sistem:
 

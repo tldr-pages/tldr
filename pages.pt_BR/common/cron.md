@@ -1,6 +1,6 @@
 # cron
 
-> Este comando é um pseudônimo de `crontab`.
+> Este comando é um apelido de `crontab`.
 
 - Exibe documentação sobre o comando original:
 

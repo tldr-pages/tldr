@@ -2,7 +2,7 @@
 
 > Android sistem servisleri ile ilgili bilgi sağla.
 > Bu komut yalnızca `adb shell` ile kullanılabilir.
-> Daha fazla bilgi için: <https://developer.android.com/studio/command-line/dumpsys>.
+> Daha fazla bilgi için: <https://developer.android.com/tools/dumpsys>.
 
 - Tüm sistem servisleri için tanısal bir çıktı al:
 

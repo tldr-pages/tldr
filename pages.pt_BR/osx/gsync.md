@@ -1,6 +1,6 @@
 # gsync
 
-> Este comando é um pseudônimo de `-p linux sync`.
+> Este comando é um apelido de `-p linux sync`.
 
 - Exibe documentação sobre o comando original:
 
