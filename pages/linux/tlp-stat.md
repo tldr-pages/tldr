@@ -28,7 +28,7 @@
 
 `sudo tlp-stat --psup`
 
-- Show temperatures and fan speed:
+- Show [temp]eratures and fan speed:
 
 `sudo tlp-stat {{-t|--temp}}`
 
