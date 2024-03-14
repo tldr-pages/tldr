@@ -7,7 +7,7 @@
 
 `amass intel -addr {{192.168.0.1-254}}`
 
-- Use [active] recon methods:
+- Use active recon methods:
 
 `amass intel -active -addr {{192.168.0.1-254}}`
 
