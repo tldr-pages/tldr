@@ -289,27 +289,10 @@ Use backticks on the following:
 
 ## Descriptions
 
-- Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`) unless the program name differs from the executable name (e.g. `rg` and Ripgrep).
-- Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
-- Brand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
-- Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
-- When documenting keycaps or a keyboard shortcut for a utility it is suggested to wrap them in backticks to make them stand out in the description (i.e. ``Print the last lines of a given file and keep reading it until `Ctrl + C`:``). Alternatively, you can document them as a separate command and optionally highlight them as placeholders (i.e. `:wq{{Enter}}` or `:wq<Enter>` or `:wq(Enter)`).
-
 ### Imperative Mood
 
-- **All descriptions must be concise and phrased in the imperative mood.**
+- **All descriptions must be phrased in the imperative mood.**
 - This also applies to all translations by default unless otherwise specified in the language-specific section below.
-- For example, when writing documentation for `cd`, a tool to check out and work on a specific directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
-
-```md
-> `cd` is a system tool, available in Windows, macOS, and Linux, to check out a specific directory to get things done in the Command Prompt, Terminal, and PowerShell.
-```
-
-It should instead be simplified to make it easier for everyone to read:
-
-```md
-> Change the current working directory.
-```
 
 If you are afraid the commands may differ between platforms or operating systems (e.g. Windows vs macOS), most [tldr pages clients](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients) will choose the most suitable version of the command.
 
@@ -329,6 +312,29 @@ For instance, instead of `Listing all files:`, `List all files:` can be used as 
 
  `ls`
 ```
+
+### Wording
+
+- All descriptions **must be concise**.
+- Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`) unless the program name differs from the executable name (e.g. `rg` and Ripgrep).
+- Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
+- For example, when writing documentation for `cd`, a tool to change the current working directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
+
+```md
+> `cd` is a system tool, available in Windows, macOS, and Linux, to change the current working directory to get things done in the Command Prompt, Terminal, and PowerShell.
+```
+
+It should instead be simplified to make it easier for everyone to read:
+
+```md
+> Change the current working directory.
+```
+
+### Formatting
+
+- Proper names should be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
+- Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
+- When documenting keycaps or a keyboard shortcut for a utility it is suggested to wrap them in backticks to make them stand out in the description (i.e. ``Print the last lines of a given file and keep reading it until `Ctrl + C`:``). Alternatively, you can document them as a separate command and optionally highlight them as placeholders (i.e. `:wq{{Enter}}` or `:wq<Enter>` or `:wq(Enter)`).
 
 ## Emphasis
 
