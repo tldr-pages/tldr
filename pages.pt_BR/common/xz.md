@@ -1,6 +1,6 @@
 # xz
 
-> Compactar ou descompactar arquivos com a extensão .xz ou .lzma.
+> Compactar ou descompactar arquivos XZ ou LZMA.
 > Mais informações: <https://manned.org/xz>.
 
 - Compacta um arquivo no formato xz:
@@ -11,11 +11,11 @@
 
 `xz --decompress {{caminho/para/arquivo.xz}}`
 
-- Compacta um arquivo no formato lzma:
+- Compacta um arquivo no formato LZMA:
 
 `xz --format=lzma {{caminho/para/arquivo}}`
 
-- Descompacta um arquivo no formato lzma:
+- Descompacta um arquivo no formato LZMA:
 
 `xz --decompress --format=lzma {{caminho/para/arquivo.lzma}}`
 

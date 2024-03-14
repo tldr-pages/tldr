@@ -12,6 +12,6 @@
 
 `xkill -button any`
 
-- Kill a window with a specific id (use `xwininfo` to get info about windows):
+- Kill a window with a specific ID (use `xwininfo` to get info about windows):
 
 `xkill -id {{id}}`

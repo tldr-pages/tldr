@@ -1,9 +1,9 @@
 # znew
 
-> Recompress files from `.Z` to `.gz` format.
+> Recompress files from `.Z` to gzip format.
 > More information: <https://manned.org/znew>.
 
-- Recompress a file from `.Z` to `.gz` format:
+- Recompress a file from `.Z` to gzip format:
 
 `znew {{path/to/file1.Z}}`
 
@@ -15,6 +15,6 @@
 
 `znew -9 {{path/to/file1.Z}}`
 
-- Recompress a file, [K]eeping the `.Z` file if it is smaller than the `.gz` file:
+- Recompress a file, [K]eeping the `.Z` file if it is smaller than the gzip file:
 
 `znew -K {{path/to/file1.Z}}`

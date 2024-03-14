@@ -15,6 +15,6 @@
 
 `xprop -font "{{font_name}}" POINT_SIZE`
 
-- Display all the properties of the window with the id 0x200007:
+- Display all the properties of the window with the ID 0x200007:
 
 `xprop -id {{0x200007}}`

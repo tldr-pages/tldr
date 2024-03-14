@@ -15,7 +15,7 @@
 
 `docker build --tag {{nom:etiquette}} .`
 
-- Construit une image docker sans contexte de construction :
+- Construit une image Docker sans contexte de construction :
 
 `docker build --tag {{nom:etiquette}} - < {{Dockerfile}}`
 

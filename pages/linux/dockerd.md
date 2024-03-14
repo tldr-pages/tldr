@@ -1,13 +1,13 @@
 # dockerd
 
-> A persistent process to start and manage docker containers.
+> A persistent process to start and manage Docker containers.
 > More information: <https://docs.docker.com/engine/reference/commandline/dockerd/>.
 
-- Run docker daemon:
+- Run Docker daemon:
 
 `dockerd`
 
-- Run docker daemon and configure it to listen to specific sockets (UNIX and TCP):
+- Run Docker daemon and configure it to listen to specific sockets (UNIX and TCP):
 
 `dockerd --host unix://{{path/to/tmp.sock}} --host tcp://{{ip}}`
 

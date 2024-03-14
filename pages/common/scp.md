@@ -28,7 +28,7 @@
 
 `scp {{path/to/local_file}} {{remote_username}}@{{remote_host}}:{{path/to/remote_directory}}`
 
-- Use a specific ssh private key for authentication with the remote host:
+- Use a specific SSH private key for authentication with the remote host:
 
 `scp -i {{~/.ssh/private_key}} {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}`
 

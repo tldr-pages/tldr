@@ -1,7 +1,7 @@
 # ect
 
 > Efficient Compression Tool.
-> File optimizer written in C++. It supports `.png`, `.jpg`, `.gzip` and `.zip` files.
+> File optimizer written in C++. It supports PNG, JPEG, gzip and Zip files.
 > More information: <https://github.com/fhanau/Efficient-Compression-Tool>.
 
 - Compress a file:
