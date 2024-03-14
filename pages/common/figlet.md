@@ -24,7 +24,7 @@
 
 `showfigfonts {{optional_string_to_display}}`
 
-- Use the full width of your [t]erminal and [c]enter the inputting text:
+- Use the full width of the [t]erminal and [c]enter the input text:
 
 `figlet -t -c {{input_text}}`
 
