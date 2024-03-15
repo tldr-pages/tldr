@@ -15,6 +15,7 @@ MAX_CONCURRENCY = 500
 
 sem = asyncio.Semaphore(MAX_CONCURRENCY)
 
+
 async def find_md_files(search_path: AsyncPath) -> list[AsyncPath]:
     """Find all .md files in the specified search path."""
     md_files = set()
@@ -125,4 +126,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
