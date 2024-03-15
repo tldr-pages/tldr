@@ -8,7 +8,7 @@
 `colima start`
 
 - Crea un archivo de configuración y lo usa:
- 
+
 `colima start --edit`
 
 - Inicia y configura containerd (instala `nerdctl` para usar containerd a través de `nerdctl`):
