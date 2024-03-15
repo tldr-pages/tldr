@@ -1,6 +1,6 @@
 # simplehttpserver
 
-> Un simple servidor HTTP/S que soporta subida de ficheros, autenticación básica, y reglas YAML para respuestas personalizadas.
+> Un simple servidor HTTP/S que soporta subida de ficheros, autenticación básica y reglas YAML para respuestas personalizadas.
 > Una alternativa Go a `http.server` de Python.
 > Más información: <https://github.com/projectdiscovery/simplehttpserver>.
 
