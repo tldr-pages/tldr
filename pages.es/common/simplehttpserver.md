@@ -4,7 +4,7 @@
 > Una alternativa Go a `http.server` de Python.
 > Más información: <https://github.com/projectdiscovery/simplehttpserver>.
 
-- Inicia el servidor HTTP que sirve el directorio actual con salida verbose (escucha en todas las interfaces y puerto 8000 por defecto):
+- Inicia el servidor HTTP que sirve el directorio actual con salida verbosa (escucha en todas las interfaces y puerto 8000 por defecto):
 
 `simplehttpserver -verbose`
 
