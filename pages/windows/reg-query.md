@@ -29,7 +29,7 @@
 
 - Only search in [k]ey names:
 
-`reg query {{key_name}} /f /k`
+`reg query {{key_name}} /f "{{query_pattern}}" /k`
 
 - [c]ase-sensitively search for an [e]xact match:
 
