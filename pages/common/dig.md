@@ -17,7 +17,7 @@
 
 - Specify an alternate DNS server to query:
 
-`dig @{{8.8.8.8}} {{example.com}}`
+`dig @{{1.1.1.1|8.8.8.8|9.9.9.9|...}} {{example.com}}`
 
 - Perform a reverse DNS lookup on an IP address (PTR record):
 
