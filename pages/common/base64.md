@@ -7,6 +7,10 @@
 
 `base64 {{path/to/file}}`
 
+- Wrap encoded output at a specific width (`0` disables wrapping):
+
+`base64 --wrap {{0|76|...}} {{path/to/file}}`
+
 - Decode the base64 contents of a file and write the result to `stdout`:
 
 `base64 --decode {{path/to/file}}`
