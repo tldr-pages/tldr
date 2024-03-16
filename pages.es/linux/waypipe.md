@@ -1,6 +1,6 @@
 # waypipe
 
-> Ejecuta remotamente aplicaciones gráficas bajo un compositor de Wayland.
+> Ejecuta remotamente aplicaciones gráficas bajo un compositor para Wayland.
 > Más información: <https://gitlab.freedesktop.org/mstoeckl/waypipe>.
 
 - Ejecuta un programa gráfico remotamente y lo muestra localmente:
