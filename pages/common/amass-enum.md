@@ -11,7 +11,7 @@
 
 `amass enum -active -d {{domain_name}} -p {{80,443,8080}}`
 
-- Do a [brute] force search for sub[d]omains:
+- Do a brute force search for sub[d]omains:
 
 `amass enum -brute -d {{domain_name}}`
 
