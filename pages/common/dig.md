@@ -15,7 +15,7 @@
 
 `dig +short {{example.com}} {{A|MX|TXT|CNAME|NS}}`
 
-- Specify an alternate DNS server to query and optinally use DNS over TLS (DoT):
+- Specify an alternate DNS server to query and optionally use DNS over TLS (DoT):
 
 `dig {{+tls}} @{{1.1.1.1|8.8.8.8|9.9.9.9|...}} {{example.com}}`
 
