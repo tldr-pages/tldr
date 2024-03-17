@@ -3,14 +3,22 @@
 > Build a tree object using `ls-tree` formatted text.
 > More information: <https://git-scm.com/docs/git-mktree>.
 
-- Allow missing objects which bypass the default behavior that verifies each tree entry has an existing object:
+- Build a tree object and verify that each tree entry’s hash identifies an existing object:
+
+`git mktree`
+
+- Allow missing objects:
 
 `git mktree --missing`
 
-- Read the NUL terminated output of the tree object:
+- Read the NUL terminated output of the tree object (`ls-tree -z`):
 
 `git mktree -z`
 
-- Allow for the creation of multiple tree objects:
+- Allow the creation of multiple tree objects:
 
 `git mktree --batch`
+
+- Sort and build a tree from `stdin` (non-recursive `git ls-tree` output format is required):
+
+`git mktree < {{path/to/file}}`
