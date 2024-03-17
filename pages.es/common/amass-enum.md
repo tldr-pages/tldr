@@ -1,7 +1,7 @@
 # amass enum
 
 > Busca subdominios de un dominio.
-> Más información: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-enum-subcommand>.
+> Más información: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-enum-subcommand>.
 
 - Búsqueda pasiva de subdominios de un dominio:
 

@@ -2,7 +2,7 @@
 
 > Herramienta de mapeo de superficie de ataque en profundidad y descubrimiento de activos.
 > Algunos subcomandos como `amass db` tienen su propia documentación de uso.
-> Más información: <https://github.com/OWASP/Amass>.
+> Más información: <https://github.com/owasp-amass/amass>.
 
 - Ejecuta un subcomando Amass:
 

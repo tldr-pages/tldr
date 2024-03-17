@@ -1,7 +1,7 @@
 # amass enum
 
 > Vind subdomeinen van een domein.
-> Meer informatie: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-enum-subcommand>.
+> Meer informatie: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-enum-subcommand>.
 
 - Vind, passief, subdomeinen van een domein:
 

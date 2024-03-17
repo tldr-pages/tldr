@@ -2,7 +2,7 @@
 
 > Outil de Cartographie des Attaques de Surface et découverte de ressource.
 > Certaines commandes comme `amass db` ont leur propre documentation.
-> Plus d'informations : <https://github.com/OWASP/Amass>.
+> Plus d'informations : <https://github.com/owasp-amass/amass>.
 
 - Exécute une sous-commande Amass :
 
