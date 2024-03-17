@@ -8,7 +8,7 @@
 
 `pamfix -truncate {{path/to/corrupted.[pam|pbm|pgm|ppm]}} > {{path/to/output.[pam|pbm|pgm|ppm]}}`
 
-- Fix a Netpbm file where pixel values exceed the image's maxval by lowering the offending pixels' values:
+- Fix a Netpbm file where pixel values exceed the image's `maxval` by lowering the offending pixels' values:
 
 `pamfix -clip {{path/to/corrupted.[pam|pbm|pgm|ppm]}} > {{path/to/output.[pam|pbm|pgm|ppm]}}`
 
