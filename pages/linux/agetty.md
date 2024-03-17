@@ -1,6 +1,7 @@
 # agetty
 
 > Alternative `getty`: Open a `tty` port, prompt for a login name, and invoke the `/bin/login` command.
+> Note: The baud rate is the speed of data transfer between a terminal and a device over a serial connection.
 > It is normally invoked by `init`.
 > More information: <https://manned.org/agetty>.
 
