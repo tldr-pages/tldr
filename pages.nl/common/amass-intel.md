@@ -15,7 +15,7 @@
 
 `amass intel -whois -d {{domeinnaam}}`
 
-- Vind ASN's die bij een organisatie horen:
+- Vind ASN's die bij een [org]anisatie horen:
 
 `amass intel -org {{organisatienaam}}`
 
@@ -26,3 +26,7 @@
 - Sla de resultaten op in een tekstbestand:
 
 `amass intel -o {{uitvoer_bestand}} -whois -d {{domeinnaam}}`
+
+- Toon alle beschikbare databronnen:
+
+`amass intel -list`
