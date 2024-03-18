@@ -11,7 +11,7 @@
 
 `gau {{dominio1 dominio2 ...}}`
 
-- Trae todas las URLs de varios dominios desde un archivo de entrada, ejecutando varios subprocesos:
+- Obtén todas las URLs de varios dominios en un archivo de entrada, ejecutando varios subprocesos:
 
 `gau --threads {{4}} < {{ruta/a/dominios.txt}}}`
 
