@@ -1,6 +1,6 @@
 # gau
 
-> Obtiene todas las URLs: trae las URLs conocidas de Open Threat Exchange de AlienVault, de Wayback Machine y de Common Crawl para cualquier dominio.
+> Obtén todas las URLs: obtén las URLs conocidas de Open Threat Exchange de AlienVault, Wayback Machine y Common Crawl para cualquier dominio.
 > Más información: <https://github.com/lc/gau>.
 
 - Obtiene todas las URLs de un dominio de Open Threat Exchange de AlienVault, Wayback Machine, Common Crawl y URLScan:
