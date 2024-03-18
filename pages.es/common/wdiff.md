@@ -11,6 +11,6 @@
 
 `wdiff --ignore-case {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
-- Muestra cuántas palabras se han eliminado, insertado o sustituido:
+- Muestra cuantas palabras se han eliminado, insertado o sustituido:
 
 `wdiff --statistics {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
