@@ -1,20 +1,20 @@
 # amass
 
 > Herramienta de mapeo de superficie de ataque en profundidad y descubrimiento de activos.
-> Algunos subcomandos como `amass db` tienen su propia documentación de uso.
-> Más información: <https://github.com/OWASP/Amass>.
+> Algunos subcomandos como `amass intel` tienen su propia documentación de uso.
+> Más información: <https://github.com/owasp-amass/amass>.
 
 - Ejecuta un subcomando Amass:
 
-`amass {{subcommand}}`
+`amass {{intel|enum}} {{options}}`
 
 - Muestra ayuda:
 
 `amass -help`
 
-- Muestra ayuda sobre un subcomando de Amass (como `intel`, `enum`, etc.):
+- Muestra ayuda sobre un subcomando de Amass:
 
-`amass -help {{subcommand}}`
+`amass {{intel|enum}} -help`
 
 - Muestra la versión:
 
