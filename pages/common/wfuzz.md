@@ -19,6 +19,6 @@
 
 `wfuzz -w {{path/to/file}} -H {{"Host: FUZZ.example.com"}} --hc {{301}} --hw {{222}} -t {{100}} {{example.com}}`
 
-- Brute force Basic Authentication using a list of usernames and passwords from files:
+- Brute force Basic Authentication using a list of usernames and passwords from files, [h]iding response [c]odes of unsuccessful attempts:
 
-`wfuzz -c -s {{delay_between_requests_in_seconds}} -z file,{{path/to/usernames}} -z file,{{path/to/passwords}} --basic 'FUZZ:FUZ2Z' {{URL}}`
+`wfuzz -c --hc {{401}} -s {{delay_between_requests_in_seconds}} -z file,{{path/to/usernames}} -z file,{{path/to/passwords}} --basic 'FUZZ:FUZ2Z' {{URL}}`
