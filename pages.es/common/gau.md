@@ -29,4 +29,4 @@
 
 - Busca las URLs dentro de un intervalo de fechas específico:
 
-`gau --del {{AAAAMM}} --to {{YYYYMM}} {{ejemplo.com}}`
+`gau --from {{AAAAMM}} --to {{YYYYMM}} {{ejemplo.com}}`
