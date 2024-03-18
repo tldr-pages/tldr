@@ -23,7 +23,7 @@
 
 `gau --providers {{wayback|commoncrawl|otx|urlscan}} {{ejemplo.com}}`
 
-- Busca las URL de varios proveedores:
+- Busca las URLs de varios proveedores:
 
 `gau --providers {{wayback,otx,...}} {{ejemplo.com}}`
 
