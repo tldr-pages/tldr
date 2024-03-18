@@ -3,7 +3,7 @@
 > Muestra y cambia el ajuste del OOM-killer.
 > Más información: <https://manned.org/choom>.
 
-- Muestra la puntuación OOM-killer del proceso con un ID específico:
+- Muestra la puntuación OOM-killer del proceso con un identificador específico:
 
 `choom -p {{pid}}`
 
