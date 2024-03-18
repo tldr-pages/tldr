@@ -7,7 +7,7 @@
 
 `gau {{ejemplo.com}}`
 
-- Trae URLs de varios dominios:
+- Obtén URLs de varios dominios:
 
 `gau {{dominio1 dominio2 ...}}`
 
