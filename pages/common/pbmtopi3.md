@@ -1,6 +1,6 @@
 # pbmtopi3
 
-> Convert a PBM image into an Atari Degas PI3 image.
+> Convert a PBM image to an Atari Degas PI3 image.
 > See also: `pi3topbm`.
 > More information: <https://netpbm.sourceforge.net/doc/pbmtopi3.html>.
 
