@@ -1,6 +1,6 @@
 # diskutil partitionDisk
 
-> Utilidad para gestionar particiones dentro de discos y volúmenes.
+> Utilidad para gestionar particiones en discos y volúmenes.
 > Parte de `diskutil`.
 > APM solo es compatible con macOS, MBR está optimizado para DOS, mientras que GPT es compatible con la mayoría de los sistemas operativos modernos.
 > Más información: <https://keith.github.io/xcode-man-pages/diskutil.8.html>.
