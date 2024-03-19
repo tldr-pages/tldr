@@ -15,7 +15,7 @@
 
 `wfuzz -c -w {{path/to/file}} --sc {{200,301,302}} {{http://example.com/FUZZ}}`
 
-- Use a custom [H]eader to fuzz subdomains while hiding specific response codes and word counts. Increase the [t]hreads to 100 and include the target ip/domain:
+- Use a custom [H]eader to fuzz subdomains while [h]iding specific response [c]odes and word counts. Increase the [t]hreads to 100 and include the target ip/domain:
 
 `wfuzz -w {{path/to/file}} -H {{"Host: FUZZ.example.com"}} --hc {{301}} --hw {{222}} -t {{100}} {{example.com}}`
 
