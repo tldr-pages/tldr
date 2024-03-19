@@ -6,4 +6,4 @@
 
 - Convert an Atari Degas PI3 image to PBM image:
 
-`pi1topbm {{path/to/file.pi3}} > {{path/to/output.pbm}}`
+`pi1topbm {{path/to/atari_image.pi3}} > {{path/to/output_image.pbm}}`
