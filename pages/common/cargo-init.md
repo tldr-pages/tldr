@@ -1,7 +1,7 @@
 # cargo init
 
 > Create a new Cargo package.
-> Equivalent of `cargo new`, but specifiying a directory is optional.
+> Equivalent of `cargo new`, but specifying a directory is optional.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-init.html>.
 
 - Initialize a Rust project with a binary target in the current directory:
