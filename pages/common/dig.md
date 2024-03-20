@@ -15,9 +15,9 @@
 
 `dig +short {{example.com}} {{A|MX|TXT|CNAME|NS}}`
 
-- Specify an alternate DNS server to query:
+- Specify an alternate DNS server to query and optionally use DNS over TLS (DoT):
 
-`dig @{{8.8.8.8}} {{example.com}}`
+`dig {{+tls}} @{{1.1.1.1|8.8.8.8|9.9.9.9|...}} {{example.com}}`
 
 - Perform a reverse DNS lookup on an IP address (PTR record):
 

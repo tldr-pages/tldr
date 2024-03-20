@@ -15,6 +15,6 @@
 
 `git init --object-format={{sha256}}`
 
-- Inizializza un repository di soli dati, adatto per essere usato come server remoto accessibile via ssh:
+- Inizializza un repository di soli dati, adatto per essere usato come server remoto accessibile via SSH:
 
 `git init --bare`

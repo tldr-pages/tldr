@@ -7,7 +7,7 @@
 
 `sudo pueue completions bash {{/usr/share/bash-completion/completions/pueue.bash}}`
 
-- Generate completions for zsh:
+- Generate completions for Zsh:
 
 `sudo pueue completions zsh {{/usr/share/zsh/site-functions}}`
 

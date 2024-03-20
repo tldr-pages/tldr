@@ -7,7 +7,7 @@
 
 `browser-sync start --server {{디렉토리/의/경로}} --files {{디렉토리/의/경로}}`
 
-- 로컬 디렉토리에서 서버 시작, 일부 디렉토리에서 모든 css파일 확인:
+- 로컬 디렉토리에서 서버 시작, 일부 디렉토리에서 모든 CSS파일 확인:
 
 `browser-sync start --server --files '{{디렉토리/의/경로/*.css}}'`
 

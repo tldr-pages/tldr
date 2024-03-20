@@ -1,6 +1,6 @@
 # youtube-viewer
 
-> Command-line application for searching and playing videos from YouTube.
+> Search and play videos from YouTube.
 > More information: <https://github.com/trizen/youtube-viewer>.
 
 - Search for a video:

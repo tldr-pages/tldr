@@ -11,7 +11,7 @@
 
 `pidstat -r`
 
-- Show input/output usage per process id:
+- Show input/output usage per process ID:
 
 `pidstat -d`
 

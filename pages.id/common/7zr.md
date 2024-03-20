@@ -1,7 +1,7 @@
 # 7zr
 
 > Pengarsip file dengan rasio kompresi yang tinggi.
-> Serupa dengan `7z` namun mendukung format file arsip `.7z` saja.
+> Serupa dengan `7z` namun mendukung format file arsip 7z saja.
 > Informasi lebih lanjut: <https://manned.org/7zr>.
 
 - T[a]mbahkan sebuah file atau direktori ke dalam arsip baru atau saat ini:

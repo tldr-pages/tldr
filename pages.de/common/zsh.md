@@ -24,6 +24,6 @@
 
 `zsh --verbose`
 
-- Führe einen Befehl innerhalb von `zsh` mit ausgeschalteten Glob-Mustern aus:
+- Führe einen Befehl innerhalb von Zsh mit ausgeschalteten Glob-Mustern aus:
 
 `noglob {{befehl}}`

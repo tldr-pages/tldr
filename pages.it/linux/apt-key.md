@@ -19,6 +19,6 @@
 
 `wget -qO - {{https://indirizzo.tld/filename.key}} | apt-key add -`
 
-- Aggiunge una chiave da un server di chiavi con il solo id della chiave:
+- Aggiunge una chiave da un server di chiavi con il solo ID della chiave:
 
 `apt-key adv --keyserver {{pgp.mit.edu}} --recv {{ID_DELLA_CHIAVE}}`

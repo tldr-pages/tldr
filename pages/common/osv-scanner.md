@@ -3,7 +3,7 @@
 > Scan various mediums for dependencies and matches them against the OSV database.
 > More information: <https://osv.dev/about>.
 
-- Scan a docker image:
+- Scan a Docker image:
 
 `osv-scanner -D {{docker_image_name}}`
 
