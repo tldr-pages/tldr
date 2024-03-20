@@ -1,6 +1,6 @@
 # tldr-pages client specification
 
-**Current Specification Version:** 2.1
+**Current Specification Version:** 2.2
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#changelog) below.
 
@@ -216,6 +216,9 @@ Step  | Path checked         | Outcome
 
 If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the entire archive either as a whole from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr.zip>** or download language-specific archives in the format `https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.{{language-code}}.zip` (e.g. **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.en.zip>**). The English archive is also available from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.zip>**.
 
+> [!CAUTION]
+> Prior to version 2.2, the client specification stated that clients MUST download archives from <https://tldr.sh/assets>. This method is now deprecated, and **_will be removed_** in the future.
+
 Caching SHOULD be done according to the user's language configuration (if any), to not waste unneeded space for unused languages. Additionally, clients MAY automatically update the cache regularly.
 
 ## Changelog
@@ -232,10 +235,11 @@ the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
 
-- Unreleased
+- [v2.2, March 20th 2024](https://github.com/tldr-pages/tldr/blob/v2.2/CLIENT-SPECIFICATION.md) ([#12452](https://github.com/tldr-pages/tldr/pull/12452))
   - Removed redirect text from the [caching section](#caching) ([#12133](https://github.com/tldr-pages/tldr/pull/12133))
   - Updated asset URLs to use GitHub releases ([#12158](https://github.com/tldr-pages/tldr/pull/12158))
   - Add requirement to disambiguate triple-brace placeholders ([#12158](https://github.com/tldr-pages/tldr/pull/12158))
+  - Add notice to deprecate the old asset URL ([#12452](https://github.com/tldr-pages/tldr/pull/12452))
 
 - [v2.1, November 30th 2023](https://github.com/tldr-pages/tldr/blob/v2.1/CLIENT-SPECIFICATION.md) ([#11523](https://github.com/tldr-pages/tldr/pull/11523))
   - Add requirement to support escaping the placeholder syntax in certain pages ([#10730](https://github.com/tldr-pages/tldr/pull/10730))
