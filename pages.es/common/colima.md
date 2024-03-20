@@ -19,7 +19,7 @@
 
 `colima start --kubernetes`
 
-- Personaliza el recuento de CPU, memoria RAM y espacio en disco (en GiB):
+- Personaliza el número de CPUs, memoria RAM y espacio en disco (en GiB):
 
 `colima start --cpu {{número}} --memory {{memoria}} --disk {{espacio_almacenamiento}}`
 
