@@ -11,7 +11,7 @@
 
 `git mktree --missing`
 
-- Lee la salida terminada en NUL (carácter [z]ero) del objeto árbol (`ls-tree -z`):
+- Lee la salida terminada en NUL (carácter cero) del objeto árbol (`ls-tree -z`):
 
 `git mktree -z`
 
