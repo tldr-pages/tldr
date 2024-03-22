@@ -17,7 +17,7 @@
 
 - Copy files changed within the past 24 hours to a remote from the local machine, asking the user to confirm each file:
 
-`rclone copy --interactive --max-age 24h {{remote_name}}:{{path/to/directory}} {{path/to/local_directory}} `
+`rclone copy --interactive --max-age 24h {{remote_name}}:{{path/to/directory}} {{path/to/local_directory}}`
 
 - Mirror a specific file or directory (Note: Unlike copy, sync removes files from the remote if it does not exist locally):
 
