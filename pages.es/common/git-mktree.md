@@ -19,6 +19,6 @@
 
 `git mktree --batch`
 
-- Ordena y construye un árbol a partir de `stdin` (se requiere un formato de salida `git ls-tree` no recursivo):
+- Ordena y construye un árbol a partir de `stdin` (se requiere un formato de salida de `git ls-tree` no recursivo):
 
 `git mktree < {{ruta/a/árbol.txt}}`
