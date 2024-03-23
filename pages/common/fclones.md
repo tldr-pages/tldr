@@ -19,9 +19,9 @@
 
 `fclones move {{path/to/target_directory}} < {{path/to/file.txt}}`
 
-- Perform a dry run for soft links  in a `dupes.txt` file without actually linking:
+- Perform a dry run for soft links  in a TXT file without actually linking:
 
-`fclones link --soft <dupes.txt --dry-run 2>/dev/null`
+`fclones link --soft < {{path/to/file.txt}} --dry-run 2 > /dev/null`
 
 - Delete the newest duplicates from the current directory without storing them in a file:
 
