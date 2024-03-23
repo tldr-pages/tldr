@@ -1,6 +1,6 @@
 # zipsplit
 
-> Read a Zip archive and split it into smaller Zip archives.
+> Split a Zip archive into smaller Zip archives.
 > More information: <https://manned.org/zipsplit>.
 
 - Split Zip archive into pieces that are no larger than 36000 bytes:
