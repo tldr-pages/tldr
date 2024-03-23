@@ -15,6 +15,6 @@
 
 `xml canonic --exc-with-comments {{path/to/input.xml|URI}} {{path/to/c14n.xpath}}`
 
-- Display help for the `canonic` subcommand:
+- Display help:
 
 `xml canonic --help`

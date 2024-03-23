@@ -1,7 +1,7 @@
 # mdls
 
 > Display the metadata attributes for a file.
-> More information: <https://ss64.com/osx/mdls.html>.
+> More information: <https://keith.github.io/xcode-man-pages/mdls.1.html>.
 
 - Display the list of metadata attributes for file:
 

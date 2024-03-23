@@ -27,6 +27,6 @@
 
 `driverquery /v`
 
-- Display detailed usage information:
+- Display help:
 
 `driverquery /?`

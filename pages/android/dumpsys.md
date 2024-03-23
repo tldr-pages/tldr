@@ -2,7 +2,7 @@
 
 > Provide information about Android system services.
 > This command can only be used through `adb shell`.
-> More information: <https://developer.android.com/studio/command-line/dumpsys>.
+> More information: <https://developer.android.com/tools/dumpsys>.
 
 - Get diagnostic output for all system services:
 
@@ -24,6 +24,6 @@
 
 `dumpsys --skip {{service}}`
 
-- Specify a timeout period in seconds (defaults to 10s):
+- Specify a [t]imeout period in seconds (defaults to 10s):
 
 `dumpsys -t {{8}}`

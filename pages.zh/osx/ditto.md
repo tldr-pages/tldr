@@ -1,7 +1,7 @@
 # ditto
 
 > 复制文件和目录。
-> 更多信息：<https://ss64.com/osx/ditto.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/ditto.1.html>.
 
 - 用源目录的内容覆盖目标目录的内容：
 

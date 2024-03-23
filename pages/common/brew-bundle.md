@@ -23,6 +23,6 @@
 
 `brew bundle check`
 
-- Output a list of all entries in the Brewfile:
+- List all entries in the Brewfile:
 
 `brew bundle list --all`

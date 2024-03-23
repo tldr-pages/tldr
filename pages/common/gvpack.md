@@ -20,6 +20,6 @@
 
 `gvpack -u {{path/to/layout1.gv}} {{path/to/layout2.gv ...}} > {{path/to/output.gv}}`
 
-- Display help for `gvpack`:
+- Display help:
 
 `gvpack -?`

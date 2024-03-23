@@ -11,7 +11,7 @@
 
 `handlr open {{path/to/file.pdf}}`
 
-- Set imv as the default application for PNG files:
+- Set `imv` as the default application for PNG files:
 
 `handlr set {{.png}} {{imv.desktop}}`
 

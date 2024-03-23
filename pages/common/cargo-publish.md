@@ -12,6 +12,6 @@
 
 `cargo publish --dry-run`
 
-- Specify the name of the registry to use (registry names can be defined in the config - the default is <https://crates.io>):
+- Use the specified registry (registry names can be defined in the configuration - the default is <https://crates.io>):
 
 `cargo publish --registry {{name}}`

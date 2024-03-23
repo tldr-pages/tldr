@@ -1,6 +1,6 @@
 # loc
 
-> Tool written in Rust that counts lines of code.
+> Count lines of code. Written in Rust.
 > More information: <https://github.com/cgag/loc>.
 
 - Print lines of code in the current directory:

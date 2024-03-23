@@ -23,7 +23,7 @@
 
 `clamscan --infected`
 
-- Output the scan report to a log file:
+- Print the scan report to a log file:
 
 `clamscan --log {{path/to/log_file}}`
 

@@ -3,11 +3,11 @@
 > Java application launcher.
 > More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html>.
 
-- Execute a java `.class` file that contains a main method by using just the class name:
+- Execute a Java `.class` file that contains a main method by using just the class name:
 
 `java {{classname}}`
 
-- Execute a java program and use additional third-party or user-defined classes:
+- Execute a Java program and use additional third-party or user-defined classes:
 
 `java -classpath {{path/to/classes1}}:{{path/to/classes2}}:. {{classname}}`
 
@@ -23,6 +23,6 @@
 
 `java -version`
 
-- Display usage information for the java command:
+- Display help:
 
 `java -help`

@@ -4,7 +4,7 @@
 > `docker run` gibi bazı alt komutların kendi dökümantasyonu bulunmaktadır.
 > Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Tüm (çalışan veya duran) docker konteynerlerini listele:
+- Tüm (çalışan veya duran) Docker konteynerlerini listele:
 
 `docker ps --all`
 
@@ -16,7 +16,7 @@
 
 `docker {{start|stop}} {{konteyner_ismi}}`
 
-- Bir docker kaydından imge çek:
+- Bir Docker kaydından imge çek:
 
 `docker pull {{imge}}`
 

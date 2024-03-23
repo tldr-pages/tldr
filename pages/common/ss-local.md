@@ -7,7 +7,7 @@
 
 `ss-local -s {{host}} -p {{server_port}} -l {{local port}} -k {{password}} -m {{encrypt_method}}`
 
-- Run a Shadowsocks proxy by specifying the config file:
+- Run a Shadowsocks proxy by specifying the configuration file:
 
 `ss-local -c {{path/to/config/file.json}}`
 

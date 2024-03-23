@@ -2,7 +2,7 @@
 
 > Alteração manual da tabela de rotas.
 > Necessita de root.
-> Mais informações: <https://www.manpagez.com/man/8/route/>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/route.8.html>.
 
 - Adiciona uma rota para um destino passando por um gateway:
 

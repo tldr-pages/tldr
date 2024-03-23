@@ -1,7 +1,7 @@
 # diskutil
 
 > Strumento per gestire i dischi locali e i volumi.
-> Maggiori informazioni: <https://ss64.com/osx/diskutil.html>.
+> Maggiori informazioni: <https://keith.github.io/xcode-man-pages/diskutil.8.html>.
 
 - Mostra tutti i dischi correnti, le partizioni e i volumi montati:
 

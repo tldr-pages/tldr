@@ -1,7 +1,7 @@
 # 7zr
 
 > File archiver with a high compression ratio.
-> Similar to `7z` except that it only supports `.7z` files.
+> Similar to `7z` except that it only supports 7z files.
 > More information: <https://manned.org/7zr>.
 
 - [a]rchive a file or directory:

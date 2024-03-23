@@ -2,7 +2,7 @@
 
 > Display the last part of a file.
 > See also: `head`.
-> More information: <https://manned.org/man/freebsd-13.0/tail.1>.
+> More information: <https://keith.github.io/tail.1.html>.
 
 - Show last 'count' lines in file:
 
@@ -16,7 +16,7 @@
 
 `tail -c {{8}} {{path/to/file}}`
 
-- Print the last lines of a given file and keep reading file until `Ctrl + C`:
+- Print the last lines of a given file and keep reading it until `Ctrl + C`:
 
 `tail -f {{path/to/file}}`
 

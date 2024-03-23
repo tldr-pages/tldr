@@ -19,10 +19,10 @@
 
 `sudo envycontrol --reset`
 
-- Display version:
-
-`envycontrol --version`
-
 - Display help:
 
 `envycontrol --help`
+
+- Display version:
+
+`envycontrol --version`

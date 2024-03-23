@@ -23,6 +23,6 @@
 
 `behat --out {{path/to/file}}`
 
-- Display a list of definitions in your test suites:
+- List the definitions in your test suites:
 
 `behat --definitions`

@@ -3,22 +3,18 @@
 > Routing daemon for Babel which uses firewall-style filters.
 > More information: <https://www.irif.fr/~jch/software/babel/babeld.html>.
 
-- Start `babeld` with a specific configuration file:
-
-`babeld -c {{path/to/babeld.conf}}`
-
-- Start `babeld` with multiple configuration files (read in order):
+- Start the daemon with one or more [c]onfiguration files (read in order):
 
 `babeld -c {{path/to/ports.conf}} -c {{path/to/filters.conf}} -c {{path/to/interfaces.conf}}`
 
-- Start `babeld` and daemonise afterwards:
+- [D]eamonize after startup:
 
 `babeld -D`
 
-- Start `babeld` and pass a configuration command:
+- Specify a [C]onfiguration command:
 
 `babeld -C {{'redistribute metric 256'}}`
 
-- Start `babeld` and specify on which interfaces to operate:
+- Specify on which interfaces to operate:
 
 `babeld {{eth0}} {{eth1}} {{wlan0}}`

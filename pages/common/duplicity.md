@@ -20,7 +20,7 @@
 
 `duplicity collection-status "file://{{absolute/path/to/backup/directory}}"`
 
-- List the files in a backup stored on a remote machine, via ssh:
+- List the files in a backup stored on a remote machine, via SSH:
 
 `duplicity list-current-files --time {{YYYY-MM-DD}} scp://{{user@hostname}}/{{path/to/backup/dir}}`
 

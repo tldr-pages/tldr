@@ -15,7 +15,7 @@
 
 `git commit --all --message "{{message}}"`
 
-- Commit staged files and sign them with the specified GPG key (or the one defined in the config file if no argument is specified):
+- Commit staged files and sign them with the specified GPG key (or the one defined in the configuration file if no argument is specified):
 
 `git commit --gpg-sign {{key_id}} --message "{{message}}"`
 

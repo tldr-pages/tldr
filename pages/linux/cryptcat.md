@@ -11,11 +11,11 @@
 
 `cryptcat -k {{password}} {{ip_address}} {{port}}`
 
-- Set a timeout [w]:
+- Specify the timeout ([w]):
 
 `cryptcat -k {{password}} -w {{timeout_in_seconds}} {{ip_address}} {{port}}`
 
-- Scan [z] the open ports of a specified host:
+- Scan ([z]) the open ports of a specified host:
 
 `cryptcat -v -z {{ip_address}} {{port}}`
 

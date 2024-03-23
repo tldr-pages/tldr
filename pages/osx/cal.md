@@ -1,7 +1,7 @@
 # cal
 
 > Prints calendar information.
-> More information: <https://ss64.com/osx/cal.html>.
+> More information: <https://keith.github.io/xcode-man-pages/cal.1.html>.
 
 - Display a calendar for the current month:
 

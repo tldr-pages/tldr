@@ -1,9 +1,9 @@
 # git check-ref-format
 
-> Check if a given refname is acceptable, and exit with a non-zero status if it is not.
+> Check if a reference name is acceptable, and exit with a non-zero status if it is not.
 > More information: <https://git-scm.com/docs/git-check-ref-format>.
 
-- Check the format of the specified refname:
+- Check the format of the specified reference name:
 
 `git check-ref-format {{refs/head/refname}}`
 

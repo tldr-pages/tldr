@@ -10,11 +10,11 @@
 
 - Search for a given package:
 
-`sudo deb-get search {{package}}`
+`deb-get search {{package}}`
 
 - Show information about a package:
 
-`sudo deb-get show {{package}}`
+`deb-get show {{package}}`
 
 - Install a package, or update it to the latest available version:
 

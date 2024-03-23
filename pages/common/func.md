@@ -1,6 +1,6 @@
 # func
 
-> Azure Functions Core Tools: Develop and test Azure Functions locally.
+> Azure Functions Core Tools: develop and test Azure Functions locally.
 > Local functions can connect to live Azure services, and can deploy a function app to an Azure subscription.
 > More information: <https://learn.microsoft.com/azure/azure-functions/functions-run-local>.
 

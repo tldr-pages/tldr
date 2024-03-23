@@ -1,7 +1,7 @@
 # sw_vers
 
 > 打印 macOS 操作系统的版本信息。
-> 更多信息：<https://ss64.com/osx/sw_vers.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/sw_vers.1.html>.
 
 - 打印所有可用信息（操作系统名称、版本号和构建版本）：
 

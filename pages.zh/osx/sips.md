@@ -2,7 +2,7 @@
 
 > 苹果的处理文件脚本系统。
 > 光栅 / 查询图像 和 颜色同步 ICC 配置文件。
-> 更多信息：<https://ss64.com/osx/sips.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/sips.1.html>.
 
 - S 指定一个输出目录，这样原始文件就不会被修改：
 

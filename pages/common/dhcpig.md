@@ -24,7 +24,7 @@
 
 `sudo ./pig.py -c --verbosity=1 {{eth1}}`
 
-- Set debug verbosity and scan network of neighboring devices using ARP packets:
+- Use a debug verbosity of 100 and scan network of neighboring devices using ARP packets:
 
 `sudo ./pig.py -c --verbosity=100 --neighbors-scan-arp {{eth1}}`
 

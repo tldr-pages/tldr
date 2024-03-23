@@ -2,7 +2,7 @@
 
 > অ্যান্ড্রয়েড সিস্টেম পরিষেবা সম্পর্কে তথ্য প্রদান করে।
 > এই কমান্ডটি শুধুমাত্র `adb shell` এর মাধ্যমে ব্যবহার করা যেতে পারে।
-> আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/dumpsys>।
+> আরও তথ্য পাবেন: <https://developer.android.com/tools/dumpsys>।
 
 - সমস্ত সিস্টেম পরিষেবার জন্য ডায়াগনস্টিক আউটপুট পান:
 

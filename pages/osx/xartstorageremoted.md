@@ -2,7 +2,7 @@
 
 > The xART Remote Storage Daemon. Receives save/fetch requests from the CoProcessor.
 > It should not be invoked manually.
-> More information: <http://www.manpagez.com/man/8/xartstorageremoted/>.
+> More information: <https://keith.github.io/xcode-man-pages/xartstorageremoted.8.html>.
 
 - Start the daemon:
 

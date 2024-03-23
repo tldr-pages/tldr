@@ -11,6 +11,6 @@
 
 `laptop-detect --verbose`
 
-- Display the version:
+- Display version:
 
 `laptop-detect --version`

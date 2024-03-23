@@ -28,6 +28,6 @@
 
 `az pipelines update --org {{organization_url}} --project {{project_name}} --name {{pipeline_name}} --new-name {{pipeline_new_name}} --new-folder-path {{user1/production_pipelines}}`
 
-- Get a list of agents in a pool:
+- List all agents in a pool:
 
 `az pipelines agent list --org {{organization_url}} --pool-id {{agent_pool}}`

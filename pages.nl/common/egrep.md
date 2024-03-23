@@ -9,7 +9,7 @@
 
 - Zoek naar een patroon in meerdere bestanden:
 
-`egrep "{{zoekpatroon}}" {{pad/naar/bestand1}} {{pad/naar/bestand2}} {{pad/naar/bestand3}}`
+`egrep "{{zoekpatroon}}" {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
 - Zoek in `stdin` naar een patroon:
 

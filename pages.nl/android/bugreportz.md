@@ -12,10 +12,10 @@
 
 `bugreportz -p`
 
-- Toon de versie van `bugreportz`:
-
-`bugreportz -v`
-
-- Help weergeven:
+- Toon de help:
 
 `bugreportz -h`
+
+- Toon de versie:
+
+`bugreportz -v`

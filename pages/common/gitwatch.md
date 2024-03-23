@@ -1,6 +1,6 @@
 # gitwatch
 
-> Automatically commit file or directory changes to a git repository.
+> Automatically commit file or directory changes to a Git repository.
 > More information: <https://github.com/gitwatch/gitwatch>.
 
 - Automatically commit any changes made to a file or directory:

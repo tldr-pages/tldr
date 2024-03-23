@@ -5,19 +5,19 @@
 
 - Join two files on the first (default) field:
 
-`join {{file1}} {{file2}}`
+`join {{path/to/file1}} {{path/to/file2}}`
 
 - Join two files using a comma (instead of a space) as the field separator:
 
-`join -t {{','}} {{file1}} {{file2}}`
+`join -t {{','}} {{path/to/file1}} {{path/to/file2}}`
 
 - Join field3 of file1 with field1 of file2:
 
-`join -1 {{3}} -2 {{1}} {{file1}} {{file2}}`
+`join -1 {{3}} -2 {{1}} {{path/to/file1}} {{path/to/file2}}`
 
 - Produce a line for each unpairable line for file1:
 
-`join -a {{1}} {{file1}} {{file2}}`
+`join -a {{1}} {{path/to/file1}} {{path/to/file2}}`
 
 - Join a file from `stdin`:
 

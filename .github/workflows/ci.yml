@@ -3,7 +3,7 @@ name: CI
 on: ['push', 'pull_request']
 
 permissions:
-  contents: read # to fetch code (actions/checkout)
+  contents: write # to upload assets to releases
 
 jobs:
   ci:
@@ -52,3 +52,4 @@ jobs:
       run: bash scripts/deploy.sh
       env:
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

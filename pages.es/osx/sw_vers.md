@@ -1,7 +1,7 @@
 # sw_vers
 
 > Imprime información sobre la versión del sistema operativo macOS.
-> Más información: <https://ss64.com/osx/sw_vers.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/sw_vers.1.html>.
 
 - Imprime toda la información disponible (nombre del sistema operativo, número de versión y compilación):
 

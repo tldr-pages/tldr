@@ -23,9 +23,9 @@
 
 `cp -t {{path/to/destination_directory}} {{path/to/file1 path/to/file2 ...}}`
 
-- Copy text files to another location, in interactive mode (prompts user before overwriting):
+- Copy all files with a specific extension to another location, in interactive mode (prompts user before overwriting):
 
-`cp -i {{*.txt}} {{path/to/target_directory}}`
+`cp -i {{*.ext}} {{path/to/target_directory}}`
 
 - Follow symbolic links before copying:
 

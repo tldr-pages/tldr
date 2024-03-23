@@ -2,7 +2,7 @@
 
 > ارائه اطلاعات درباره سیستم سرویس اندروید.
 > این دستور فقط از طریق `adb shell` قابل اجراست.
-> اطلاعات بیشتر: <https://developer.android.com/studio/command-line/dumpsys>.
+> اطلاعات بیشتر: <https://developer.android.com/tools/dumpsys>.
 
 - دریافت اطلاعات عیب بای تمامی سرویس های سیستمی :
 

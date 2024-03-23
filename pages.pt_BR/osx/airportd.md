@@ -2,7 +2,7 @@
 
 > Gerencia interfaces sem fio.
 > Não deve ser invocado manualmente.
-> Mais informações: <https://www.manpagez.com/man/8/airportd/>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/airportd.8.html>.
 
 - Inicia o daemon:
 

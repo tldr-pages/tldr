@@ -2,7 +2,7 @@
 
 > Backs the CloudKit feature.
 > It should not be invoked manually.
-> More information: <https://www.manpagez.com/man/8/cloudd/>.
+> More information: <https://keith.github.io/xcode-man-pages/cloudd.8.html>.
 
 - Start the daemon:
 

@@ -23,6 +23,6 @@
 
 `xml format --omit-decl {{path\to\input.xml|URI}} > {{path/to/output.xml}}`
 
-- Display help for the `format` subcommand:
+- Display help:
 
 `xml format --help`

@@ -8,11 +8,11 @@
 
 `choco {{commando}}`
 
-- Toon algemene hulp:
+- Toon de algemene help:
 
 `choco -?`
 
-- Toon help voor een specifiek commando:
+- Toon de help voor een specifiek commando:
 
 `choco {{commando}} -?`
 

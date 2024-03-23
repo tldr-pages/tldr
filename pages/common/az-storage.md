@@ -4,7 +4,7 @@
 > Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/storage>.
 
-- Create a storage account:
+- Create a storage account specifying a [l]ocation:
 
 `az storage account create --resource-group {{group_name}} --name {{account_name}} -l {{location}} --sku {{account_sku}}`
 

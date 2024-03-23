@@ -7,7 +7,7 @@
 
 `git archive --verbose HEAD`
 
-- Crée une archive `.zip` avec le contenu de la HEAD et l'affiche sur la sortie standard :
+- Crée une archive Zip avec le contenu de la HEAD et l'affiche sur la sortie standard :
 
 `git archive --verbose --format zip HEAD`
 

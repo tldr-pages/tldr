@@ -1,7 +1,7 @@
 # vm_stat
 
 > Show virtual memory statistics.
-> More information: <https://www.unix.com/man-page/osx/1/vm_stat>.
+> More information: <https://keith.github.io/xcode-man-pages/vm_stat.1.html>.
 
 - Display virtual memory statistics:
 

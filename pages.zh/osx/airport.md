@@ -1,7 +1,7 @@
 # airport
 
 > 无线网络配置工具。
-> 更多信息：<https://ss64.com/osx/airport.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/airport.1.html>.
 
 - 显示当前的无线状态信息：
 

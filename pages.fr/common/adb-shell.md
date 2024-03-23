@@ -1,7 +1,7 @@
 # adb shell
 
 > Android Debug Bridge Shell: Exécute une commande shell sur une instance d'émulateur Android ou un appareil Android.
-> Plus d'informations : <https://developer.android.com/studio/command-line/adb>.
+> Plus d'informations : <https://developer.android.com/tools/adb>.
 
 - Démarre une session shell interactive sur l'émulateur/l'appareil :
 

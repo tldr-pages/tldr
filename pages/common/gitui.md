@@ -3,7 +3,7 @@
 > Terminal UI for Git.
 > More information: <https://github.com/extrawurst/gitui>.
 
-- Set the color theme (defaults to `theme.ron`):
+- Specify the color theme (defaults to `theme.ron`):
 
 `gitui --theme {{theme}}`
 
@@ -19,11 +19,11 @@
 
 `gitui --bugreport`
 
-- Set the Git directory:
+- Use a specific Git directory:
 
 `gitui --directory {{path/to/directory}}`
 
-- Set the working directory:
+- Use a specific working directory:
 
 `gitui --workdir {{path/to/directory}}`
 

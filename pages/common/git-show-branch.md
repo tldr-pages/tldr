@@ -9,7 +9,7 @@
 
 - Compare commits in the history of multiple commits or branches:
 
-`git show-branch {{branch_name|ref|commit}}`
+`git show-branch {{branch_name1|ref1|commit1 branch_name2|ref2|commit2 ...}}`
 
 - Compare all remote tracking branches:
 

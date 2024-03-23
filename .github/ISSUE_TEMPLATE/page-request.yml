@@ -36,6 +36,11 @@ body:
         - Windows
     validations:
       required: true
+  - type: input
+    attributes:
+      label: VCS repository link (e.g. GitHub, GitLab)
+      description: Link to the Version Control System repository if the project is open source.
+      placeholder: https://github.com/user/repo
   - type: textarea
     attributes:
       label: Additional information

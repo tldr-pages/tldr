@@ -11,6 +11,6 @@
 
 `backlight_control {{90}}`
 
-- Print the help:
+- Display help:
 
 `backlight_control`

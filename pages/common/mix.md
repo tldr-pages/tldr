@@ -19,6 +19,6 @@
 
 `mix test`
 
-- List all mix commands:
+- Display help:
 
 `mix help`

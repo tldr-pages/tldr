@@ -2,7 +2,7 @@
 
 > A system daemon providing the `LocalAuthentication` framework.
 > It should not be invoked manually. See also: `coreautha`.
-> More information: <https://www.manpagez.com/man/8/coreauthd/>.
+> More information: <https://keith.github.io/xcode-man-pages/coreauthd.8.html>.
 
 - Start the agent:
 

@@ -7,6 +7,6 @@
 
 `docker rename {{container}} {{nieuwe_naam}}`
 
-- Hulp weergeven:
+- Toon de help:
 
 `docker rename --help`

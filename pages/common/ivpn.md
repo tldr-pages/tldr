@@ -7,6 +7,6 @@
 
 `ivpn status`
 
-- Print a list of available servers to connect to:
+- List available servers to connect to:
 
 `ivpn servers`

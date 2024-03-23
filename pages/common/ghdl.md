@@ -23,6 +23,6 @@
 
 `ghdl -s {{filename.vhdl}}`
 
-- Display the help page:
+- Display help:
 
 `ghdl --help`

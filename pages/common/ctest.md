@@ -7,7 +7,7 @@
 
 `ctest -j{{4}} --output-on-failure`
 
-- Show a list of available tests:
+- List available tests:
 
 `ctest -N`
 

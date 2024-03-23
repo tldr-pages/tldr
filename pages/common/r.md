@@ -7,10 +7,6 @@
 
 `R`
 
-- Check R version:
-
-`R --version`
-
 - Start R in vanilla mode (i.e. a blank session that doesn't save the workspace at the end):
 
 `R --vanilla`
@@ -30,3 +26,7 @@
 - Check R packages from package sources:
 
 `R CMD check {{path/to/package_source}}`
+
+- Display version:
+
+`R --version`

@@ -3,7 +3,7 @@
 > 적절한 저장소 정의를 관리합니다.
 > 더 많은 정보: <https://manned.org/apt-add-repository>.
 
-- 새로운 apt 레포지토리 추가:
+- 새로운 APT 레포지토리 추가:
 
 `add-apt-repository {{레포지토리_스펙}}`
 

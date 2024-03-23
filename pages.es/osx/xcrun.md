@@ -1,7 +1,7 @@
 # xcrun
 
 > Ejecuta o localiza herramientas de desarrollo y propiedades.
-> Más información: <https://www.unix.com/man-page/osx/1/xcrun/>.
+> Más información: <https://keith.github.io/xcode-man-pages/xcrun.1.html>.
 
 - Localiza y ejecuta una herramienta desde el directorio activo de desarrolladores:
 

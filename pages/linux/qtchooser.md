@@ -19,6 +19,6 @@
 
 `qtchooser --install {{version_name}} {{path/to/qmake}}`
 
-- Display all available options:
+- Display help:
 
 `qtchooser --help`

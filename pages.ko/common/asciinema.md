@@ -1,7 +1,7 @@
 # asciinema
 
 > 터미널 세션을 녹음하고 재생하며 선택적으로 asciinema.org에서 공유합니다.
-> 더 많은 정보: <https://asciinema.org/docs/usage>.
+> 더 많은 정보: <https://docs.asciinema.org/manual/cli/usage>.
 
 - `asciinema` 로컬 설치와 with an asciinema.org 계정을 연결하기:
 
@@ -25,7 +25,7 @@
 
 - 새로운 녹음을 만들어 유휴 시간을 최대 2.5초로 제한:
 
-`asciinema rec -i {{2.5}}`
+`asciinema rec -i 2.5`
 
 - 로컬 저장 기록의 전체 출력을 인쇄:
 

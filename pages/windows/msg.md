@@ -1,6 +1,6 @@
 # msg
 
-> Send a message to a specific user or session.
+> Send a message to a user or session.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/msg>.
 
 - Send a message to a specified user or session:

@@ -12,7 +12,7 @@
 
 `ffe --output={{path/to/output}} -c {{path/to/config.ffe}} {{path/to/input}}`
 
-- Select input structure and print format from definitions in `~/.fferc` config file:
+- Select input structure and print format from definitions in `~/.fferc` configuration file:
 
 `ffe --structure={{structure}} --print={{format}} {{path/to/input}}`
 

@@ -7,10 +7,10 @@
 
 `ppmtomitsu {{path/to/file.ppm}} > {{path/to/file.mitsu}}`
 
-- Enlarge the image by the specified factor, use the specified sharpness and produce n copies:
+- Enlarge the image by the specified factor, use the specified sharpness and produce `n` copies:
 
 `ppmtomitsu -enlarge {{1|2|3}} -sharpness {{1|2|3|4}} -copy {{n}} {{path/to/file.ppm}} > {{path/to/file.mitsu}}`
 
-- Specify the media that will be used for the printing process:
+- Use the given medium for the printing process:
 
 `ppmtomitsu -media {{A|A4|AS|A4S}} {{path/to/file.ppm}} > {{path/to/file.mitsu}}`

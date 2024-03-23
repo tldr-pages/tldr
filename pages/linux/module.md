@@ -29,4 +29,4 @@
 
 - Specify user-created modules:
 
-`module use {{path/to/modulefiles}}`
+`module use {{path/to/module_file1 path/to/module_file2 ...}}`

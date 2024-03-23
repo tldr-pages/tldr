@@ -16,6 +16,6 @@
 
 `dracut --kver {{kernel_version}}`
 
-- Show a list of available modules:
+- List available modules:
 
 `dracut --list-modules`

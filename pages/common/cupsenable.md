@@ -1,7 +1,7 @@
 # cupsenable
 
 > Start printers and classes.
-> NOTE: destination is referred as a printer or a class of printers.
+> Note: destination is referred as a printer or a class of printers.
 > See also: `cupsdisable`, `cupsaccept`, `cupsreject`, `lpstat`.
 > More information: <https://www.cups.org/doc/man-cupsenable.html>.
 

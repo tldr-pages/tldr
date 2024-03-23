@@ -2,7 +2,7 @@
 
 > 显示谁登录以及他们在做什么。
 > 打印用户登录、tty、远程主机、登录时间、空闲时间、当前进程。
-> 更多信息：<https://ss64.com/osx/w.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/w.1.html>.
 
 - 显示登录用户信息：
 

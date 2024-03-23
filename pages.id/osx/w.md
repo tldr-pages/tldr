@@ -2,7 +2,7 @@
 
 > Tampilkan siapa dan apa yang sedang dilakukan saat masuk ke dalam akun macOS.
 > Tampilkan informasi seperti nama pengguna, TTY, asal (remote host), waktu login, waktu idle, dan proses saat ini.
-> Informasi lebih lanjut: <https://ss64.com/osx/w.html>.
+> Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/w.1.html>.
 
 - Tampilkan daftar pengguna yang sedang masuk/login:
 

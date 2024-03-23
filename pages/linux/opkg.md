@@ -15,10 +15,6 @@
 
 `opkg update`
 
-- Upgrade all the installed packages:
-
-`opkg upgrade`
-
 - Upgrade one or more specific package(s):
 
 `opkg upgrade {{package(s)}}`

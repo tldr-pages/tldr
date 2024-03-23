@@ -2,7 +2,7 @@
 
 > Parser de metadados de arquivos de áudio para OS X.
 > Comando nativo do OS X.
-> Mais informações: <https://ss64.com/osx/afinfo.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/afinfo.1.html>.
 
 - Exibe informações de um determinado arquivo de áudio:
 

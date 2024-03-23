@@ -15,3 +15,7 @@
 - Accept everything prompted by the `apt-get` command:
 
 `yes | sudo apt-get install {{program}}`
+
+- Repeatedly output a newline to always accept the default option of a prompt:
+
+`yes ''`

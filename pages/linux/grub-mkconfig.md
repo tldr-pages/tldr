@@ -11,6 +11,6 @@
 
 `sudo grub-mkconfig --output={{/boot/grub/grub.cfg}}`
 
-- Print the help page:
+- Display help:
 
 `grub-mkconfig --help`

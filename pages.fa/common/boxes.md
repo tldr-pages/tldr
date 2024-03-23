@@ -1,7 +1,7 @@
 # boxes
 
 > کشیدن، حذف و تعمیر جعبه های هنری اسکی.
-> اطلاعات بیشتر: <https://boxes.thomasjensen.com>.
+> اطلاعات بیشتر: <https://boxes.thomasjensen.com/boxes-man-1.html>.
 
 - کشیدن یک جعبه در اطراف یک رشته:
 

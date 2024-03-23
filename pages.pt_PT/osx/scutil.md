@@ -2,7 +2,7 @@
 
 > Gere parametros da configuração do sistema.
 > Necessita de permissões de root para modificar configurações.
-> Mais informações: <https://ss64.com/osx/scutil.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/scutil.8.html>.
 
 - Mostra as configurações de DNS:
 

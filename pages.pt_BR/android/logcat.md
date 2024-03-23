@@ -1,7 +1,7 @@
 # logcat
 
 > Despeja um registro de mensagens do sistema.
-> Mais informações: <https://developer.android.com/studio/command-line/logcat>.
+> Mais informações: <https://developer.android.com/tools/logcat>.
 
 - Exibe a saída do registro:
 

@@ -11,6 +11,6 @@
 
 `termusic -c {path/to/music_file}`
 
-- View termusic's usage info:
+- Display help:
 
 `termusic --help`

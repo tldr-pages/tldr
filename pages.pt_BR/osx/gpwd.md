@@ -1,6 +1,6 @@
 # gpwd
 
-> Este comando é um pseudônimo de `-p linux pwd`.
+> Este comando é um apelido de `-p linux pwd`.
 
 - Exibe documentação sobre o comando original:
 

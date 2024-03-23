@@ -1,7 +1,7 @@
 # du
 
 > Uso do Disco: estima e resume o uso do espaço de arquivos e diretórios.
-> Mais informações: <https://ss64.com/osx/du.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/du.1.html>.
 
 - Lista os tamanhos de um diretório e quaisquer subdiretórios, na unidade fornecida (KiB/MiB/GiB):
 

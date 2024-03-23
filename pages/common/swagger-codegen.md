@@ -15,6 +15,6 @@
 
 `swagger-codegen langs`
 
-- Display help options for the generate command:
+- Display help for a specific command:
 
-`swagger-codegen help {{generate}}`
+`swagger-codegen {{generate|config-help|meta|langs|version}} --help`

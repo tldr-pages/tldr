@@ -1,15 +1,11 @@
 # wuzz
 
-> Tool to interactively inspect HTTP requests and responses.
+> Interactively inspect HTTP requests and responses.
 > More information: <https://github.com/asciimoo/wuzz>.
 
 - Start `wuzz`:
 
 `wuzz`
-
-- Display help information:
-
-`F1`
 
 - Send an HTTP request:
 
@@ -22,3 +18,7 @@
 - Switch to the previous view:
 
 `<Ctrl> + K, <Shift> + <Tab>`
+
+- Display help:
+
+`F1`

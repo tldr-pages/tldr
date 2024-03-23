@@ -1,6 +1,6 @@
 # btrfs property
 
-> Get, set, or list properties for a given btrfs filesystem object (files, directories, subvolumes, filesystems, or devices).
+> Get, set, or list properties for a BTRFS filesystem object (files, directories, subvolumes, filesystems, or devices).
 > More information: <https://btrfs.readthedocs.io/en/latest/btrfs-property.html>.
 
 - List available properties (and descriptions) for the given btrfs object:

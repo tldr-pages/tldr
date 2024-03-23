@@ -1,6 +1,6 @@
 # sup
 
-> A tool for managing an RSS feed contained in the current directory.
+> Manage a RSS feed in the current directory.
 > See also: `lb`.
 > More information: <https://github.com/LukeSmithxyz/lb>.
 

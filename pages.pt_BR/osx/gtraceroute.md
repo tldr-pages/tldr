@@ -1,6 +1,6 @@
 # gtraceroute
 
-> Este comando é um pseudônimo de `-p linux traceroute`.
+> Este comando é um apelido de `-p linux traceroute`.
 
 - Exibe documentação sobre o comando original:
 

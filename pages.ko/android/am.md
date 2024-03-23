@@ -1,7 +1,7 @@
 # am
 
 > Android 활동 관리자.
-> 더 많은 정보: <https://developer.android.com/studio/command-line/adb#am>.
+> 더 많은 정보: <https://developer.android.com/tools/adb#am>.
 
 - 특정 활동 시작:
 

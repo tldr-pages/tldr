@@ -23,6 +23,6 @@
 
 `mixxx --controllerDebug --resourcePath {{path/to/mapping-directory}}`
 
-- Show command-line help:
+- Display help:
 
 `mixxx --help`

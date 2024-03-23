@@ -12,10 +12,6 @@
 
 `bpytop -m`
 
-- Display version:
-
-`bpytop -v`
-
 - Toggle minimal mode:
 
 `m`
@@ -27,3 +23,7 @@
 - Change settings:
 
 `M`
+
+- Display version:
+
+`bpytop -v`

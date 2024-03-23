@@ -1,6 +1,6 @@
 # lastlog
 
-> Show the most recent login of all users or of a given user.
+> Show the most recent login of all users or of a user.
 > More information: <https://manned.org/lastlog>.
 
 - Display the most recent login of all users:

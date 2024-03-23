@@ -1,7 +1,7 @@
 # adb-logcat
 
 > Jeter une log des messages systèmes.
-> Plus d'informations : <https://developer.android.com/studio/command-line/logcat>.
+> Plus d'informations : <https://developer.android.com/tools/logcat>.
 
 - Affiche les logs systèmes :
 

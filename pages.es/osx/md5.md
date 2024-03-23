@@ -1,7 +1,7 @@
 # md5
 
 > Calcula sumas de comprobación criptográficas MD5.
-> Más información: <https://ss64.com/osx/md5.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/md5.1.html>.
 
 - Calcula la suma de comprobación MD5 de un archivo:
 

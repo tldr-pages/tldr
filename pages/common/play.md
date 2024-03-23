@@ -6,16 +6,16 @@
 
 - Play the given audio file:
 
-`play {{audiofile}}`
+`play {{path/to/audio_file}}`
 
 - Play the given audio files:
 
-`play {{audiofile1}} {{audiofile2}}`
+`play {{path/to/audio_file1 path/to/audio_file2 ...}}`
 
 - Play the given audio at twice the speed:
 
-`play {{audiofile}} speed 2.0`
+`play {{path/to/audio_file}} speed 2.0`
 
 - Play the given audio in reverse:
 
-`play {{audiofile}} reverse`
+`play {{path/to/audio_file}} reverse`

@@ -3,7 +3,7 @@
 > Upgrade one or more packages with Chocolatey.
 > More information: <https://chocolatey.org/docs/commands-upgrade>.
 
-- Upgrade one or more space-separated packages:
+- Upgrade one or more packages:
 
 `choco upgrade {{package1 package2 ...}}`
 
@@ -17,7 +17,7 @@
 
 - Upgrade all except specified comma-separated packages:
 
-`choco upgrade all --except "{{package1 package2 ...}}"`
+`choco upgrade all --except "{{package1,package2,...}}"`
 
 - Confirm all prompts automatically:
 

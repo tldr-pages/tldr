@@ -1,7 +1,7 @@
 # csrutil
 
 > Manage the System Integrity Protection configuration.
-> More information: <https://ss64.com/osx/csrutil.html>.
+> More information: <https://keith.github.io/xcode-man-pages/csrutil.8.html>.
 
 - Display the System Integrity Protection status:
 

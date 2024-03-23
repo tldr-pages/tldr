@@ -12,11 +12,12 @@ function initialize {
     exit 0
   fi
 
-  if [[ -z $TLDRHOME ]]; then
-    export TLDRHOME=${GITHUB_WORKSPACE:-$(pwd)}
-  fi
-
   export SITE_HOME="$HOME/site"
+  export LANG_ARCHIVES="$GITHUB_WORKSPACE/language_archives"
+  export PDFS="$GITHUB_WORKSPACE/scripts/pdf"
+  export INDEX="$GITHUB_WORKSPACE/index.json"
+  RELEASE_TAG="$(git describe --tags --abbrev=0)"
+  export RELEASE_TAG
 
   # Configure git.
   git config --global user.email "tldrbotgithub@gmail.com"
@@ -26,7 +27,7 @@ function initialize {
 
   # Decrypt and add deploy key.
   eval "$(ssh-agent -s)"
-  echo "$DEPLOY_KEY"> id_ed25519
+  echo "$DEPLOY_KEY" > id_ed25519
   chmod 600 id_ed25519
   ssh-add id_ed25519
 }
@@ -34,18 +35,27 @@ function initialize {
 function upload_assets {
   git clone --quiet --depth 1 "git@github.com:tldr-pages/tldr-pages.github.io.git" "$SITE_HOME"
 
-  mv -f "$TLDR_ARCHIVE" "$SITE_HOME/assets/"
-  find "$TLDRHOME/language_archives" -maxdepth 1 -name '*.zip' -exec mv -f {} "$SITE_HOME/assets/" \;
-  cp -f "$TLDRHOME/index.json" "$SITE_HOME/assets/"
-  find "$TLDRHOME/scripts/pdf" -maxdepth 1 -name '*.pdf' -exec mv -f {} "$SITE_HOME/assets/" \;
+  cp -f "$TLDR_ARCHIVE" "$SITE_HOME/assets/"
+  find "$LANG_ARCHIVES" -maxdepth 1 -name "*.zip" -exec cp -f {} "$SITE_HOME/assets/" \;
+  cp -f "$INDEX" "$SITE_HOME/assets/"
+  find "$PDFS" -maxdepth 1 -name "*.pdf" -exec cp -f {} "$SITE_HOME/assets/" \;
 
   cd "$SITE_HOME/assets"
   sha256sum -- index.json *.zip > tldr.sha256sums
 
+  # Old way of distributing assets. This needs to be deleted later.
   git add -A
   git commit -m "[GitHub Actions] uploaded assets after commit tldr-pages/tldr@$GITHUB_SHA"
   git push -q
   echo "Assets (pages archive, index and checksums) deployed to the static site."
+
+  gh release --repo tldr-pages/tldr upload --clobber "$RELEASE_TAG" -- \
+    tldr.sha256sums \
+    "$TLDR_ARCHIVE" \
+    "$INDEX" \
+    "$LANG_ARCHIVES/"*.zip \
+    "$PDFS/"*.pdf
+  echo "Assets deployed to GitHub releases."
 }
 
 ###################################

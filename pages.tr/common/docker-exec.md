@@ -19,7 +19,7 @@
 
 `docker exec --interactive --detach {{konteyner_ismi}} {{komut}}`
 
-- Çalışmakta olan bir bash oturumu içinde bir çevre değişkeni belirle:
+- Çalışmakta olan bir Bash oturumu içinde bir çevre değişkeni belirle:
 
 `docker exec --interactive --tty --env {{değişken_ismi}}={{value}} {{konteyner_ismi}} {{/bin/bash}}`
 

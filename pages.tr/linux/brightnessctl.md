@@ -1,6 +1,6 @@
 # brightnessctl
 
-> GNU/Linux işletim sistemlerinde cihaz parlaklığını okumak ve kontrol etmek için yardımcı program.
+> Linux işletim sistemlerinde cihaz parlaklığını okumak ve kontrol etmek için yardımcı program.
 > Daha fazla bilgi için: <https://github.com/Hummer12007/brightnessctl>.
 
 - Değiştirilebilir parlaklığa sahip cihazları listele:

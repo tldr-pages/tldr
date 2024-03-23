@@ -1,7 +1,7 @@
 # opensnoop
 
 > 跟踪系统中打开的文件标识符。
-> 更多信息：<https://ss64.com/osx/opensnoop.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/opensnoop.1m.html>.
 
 - 输出当前系统内被打开的所有文件：
 

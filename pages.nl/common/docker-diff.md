@@ -7,6 +7,6 @@
 
 `docker diff {{container}}`
 
-- Hulp weergeven:
+- Toon de help:
 
 `docker diff --help`

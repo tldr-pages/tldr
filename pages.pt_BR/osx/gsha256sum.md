@@ -1,6 +1,6 @@
 # gsha256sum
 
-> Este comando é um pseudônimo de `-p linux sha256sum`.
+> Este comando é um apelido de `-p linux sha256sum`.
 
 - Exibe documentação sobre o comando original:
 
