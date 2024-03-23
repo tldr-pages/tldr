@@ -3,21 +3,21 @@
 > Efficient duplicate file finder and remover.
 > More information: <https://github.com/pkolaczk/fclones>.
 
-- Search a current directory:
+- Search for duplicate files in the current directory:
 
 `fclones group .`
 
-- Search multiple directories and cache results:
+- Search multiple directories for duplicate files and cache the results:
 
-`fclones group --cache {{directory1}} {{directory2}}`
+`fclones group --cache {{path/to/directory1 path/to/directory2}}`
 
-- Search only the specified directory skipping the subdirectory and save the results into a file:
+- Search only the specified directory for duplicate files, skipping subdirectories and save the results into a file:
 
-`fclones group {{path/to/directory}} --depth 1 > dupes.txt`
+`fclones group {{path/to/directory}} --depth 1 > {{path/to/file.txt}}`
 
-- Move the duplicates  in a `dupes.txt` to a different directory:
+- Move the duplicate files in a TXT file to a different directory:
 
-`fclones move {{path/to/target_directory}} <dupes.txt`
+`fclones move {{path/to/target_directory}} < {{path/to/file.txt}}`
 
 - Perform a dry run for soft links  in a `dupes.txt` file without actually linking:
 
