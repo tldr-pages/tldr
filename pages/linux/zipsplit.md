@@ -15,6 +15,6 @@
 
 `zipsplit -p -n {{size}} {{path/to/archive.zip}}`
 
-- Output the split Zip archives into a given directory:
+- Output the smaller Zip archives into a given directory:
 
 `zipsplit -b {{path/to/output_directory}} -n {{size}} {{path/to/archive.zip}}`
