@@ -15,7 +15,7 @@
 
 `gau --threads {{4}} < {{ruta/a/dominios.txt}}}`
 
-- Escribe los resultados de salida en un archivo:
+- Escribe los resultados en un archivo:
 
 `gau {{ejemplo.com}} --o {{ruta/a/urls_encontradas.txt}}`
 
