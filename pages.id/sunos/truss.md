@@ -12,7 +12,7 @@
 
 `truss -p {{pid}}`
 
-- Mulia menelusuri sebuah program dengan mengeksekusinya, tampilkan argumen-argumen dan variabel-variabel lingkungan:
+- Mulai menelusuri sebuah program dengan mengeksekusinya, tampilkan argumen-argumen dan variabel-variabel lingkungan:
 
 `truss -a -e {{program}}`
 
@@ -20,6 +20,6 @@
 
 `truss -c -p {{pid}}`
 
-- Trace a process filtering output by system call:
+- Telusuri proses berdasarkan keluaran dari panggilan sistem:
 
-`truss -p {{pid}} -t {{system_call_name}}`
+`truss -p {{pid}} -t {{nama_panggilan_sistem}}`
