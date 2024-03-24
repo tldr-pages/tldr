@@ -5,7 +5,7 @@
 
 - Validasi berkas konfigurasi:
 
-`svccfg validate {{jalur/ke/berkas_smf.xml}}`
+`svccfg validate {{jalan/menuju/berkas_smf.xml}}`
 
 - Ekspor konfigurasi servis kedalam sebuah berkas:
 
