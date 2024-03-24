@@ -13,4 +13,4 @@
 
 - Impor/perbarui konfigurasi servis dari berkas:
 
-`svccfg import {{jalur/ke/berkas_smf.xml}}`
+`svccfg import {{jalan/menuju/berkas_smf.xml}}`
