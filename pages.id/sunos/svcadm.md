@@ -1,6 +1,6 @@
 # svcadm
 
-> Instansi untuk manipulasi servis.
+> Instansi untuk manipulasi hak akses layanan.
 > Informasi lebih lanjut: <https://www.unix.com/man-page/linux/1m/svcadm>.
 
 - Izinkan sebuah servis yang ada dalam basis data servis:
