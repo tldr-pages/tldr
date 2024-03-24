@@ -19,6 +19,6 @@
 
 `prstat -m`
 
-- Cetak sebuah daftar penggunaan CPU 5 proses teratas tiap detik:
+- Cetak daftar penggunaan CPU 5 proses teratas tiap detik:
 
 `prstat -c -n {{5}} -s cpu {{1}}`
