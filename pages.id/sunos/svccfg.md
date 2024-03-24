@@ -9,7 +9,7 @@
 
 - Ekspor konfigurasi servis kedalam sebuah berkas:
 
-`svccfg export {{namaservis}} > {{jalur/ke/berkas_smf.xml}}`
+`svccfg export {{nama_servis}} > {{jalur/ke/berkas_smf.xml}}`
 
 - Impor/perbarui konfigurasi servis dari berkas:
 
