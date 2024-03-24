@@ -3,7 +3,7 @@
 > Laporkan statistik proses aktif.
 > Informasi lebih lanjut: <https://www.unix.com/man-page/sunos/1m/prstat>.
 
-- Periksa semua proses dan laporan statistik yang disortir berdasarkan penggunaan CPU:
+- Periksa semua proses dan laporan statistik yang diurutkan berdasarkan tingkat penggunaan CPU:
 
 `prstat`
 
