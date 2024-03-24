@@ -5,7 +5,7 @@
 
 - Izinkan sebuah servis yang ada dalam basis data servis:
 
-`svcadm enable {{nama servis}}`
+`svcadm enable {{nama_servis}}`
 
 - Larang servis:
 
