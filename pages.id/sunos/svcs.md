@@ -1,6 +1,6 @@
 # svcs
 
-> Daftar informasi tentang servis-servis yang berjalan.
+> Ambil atau atur sumber daya dari proses, tugas dan projek yang berjalan.
 > Informasi lebih lanjut: <https://www.unix.com/man-page/linux/1/svcs>.
 
 - Daftar semua servis yang berjalan:
