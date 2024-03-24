@@ -18,7 +18,7 @@
 
 - Tangkap paket jaringan yang datang dari sebuah nama host dan pergi ke port yang ditentukan:
 
-`snoop to port {{port}} from host {{nama host}}`
+`snoop to port {{port}} from host {{nama_host}}`
 
 - Tangkap dan tampilkan sebuah hex-dump dari pertukaran paket jaringan di antara 2 alamat IP:
 
