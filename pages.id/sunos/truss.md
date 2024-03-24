@@ -4,7 +4,7 @@
 > strace untuk SunOS.
 > Informasi lebih lanjut: <https://www.unix.com/man-page/linux/1/truss>.
 
-- Mulai menelusuri sebuah program dengan mengeksekusinya, ikuti semua proses turunan:
+- Telusuri sebuah program dengan mengeksekusinya dan mengawasi semua proses turunan:
 
 `truss -f {{program}}`
 
