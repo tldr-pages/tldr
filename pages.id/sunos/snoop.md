@@ -10,7 +10,7 @@
 
 - Simpan paket yang tertangkap pada sebuah berkas dari pada menampilkannya:
 
-`snoop -o {{jalur/ke/berkas}}`
+`snoop -o {{jalan/menuju/berkas}}`
 
 - Tampilkan rangkuman lapisan protokol paket-paket dari sebuah berkas dengan rinci:
 
