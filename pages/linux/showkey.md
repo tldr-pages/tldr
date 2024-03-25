@@ -1,24 +1,24 @@
 # showkey
 
-> Displays the keycode of pressed keys on the keyboard, helpful for debugging keyboard-related issues and key remapping.
+> Display the keycode of pressed keys on the keyboard, helpful for debugging keyboard-related issues and key remapping.
 > More information: <https://man7.org/linux/man-pages/man1/showkey.1.html>.
 
-- View keycodes(decimal):
+- View keycodes in decimal:
 
 `sudo showkey`
 
-- Display scancodes in hexadecimal:
+- Display [s]cancodes in hexadecimal:
 
-`sudo showkey -s`
+`sudo showkey {{-s|--scancodes}}`
 
-- Display keycodes in decimal (default):
+- Display [k]eycodes in decimal (default):
 
-`sudo showkey -k`
+`sudo showkey {{-k|--keycodes}}`
 
-- Display keycodes in ascii, decimal, and hexadecimal:
+- Display keycodes in [a]SCII, decimal, and hexadecimal:
 
-`sudo showkey -a`
+`sudo showkey {{-a|--ascii}}`
 
 - Exit the program:
 
-`Press Ctrl + d`
+`Ctrl + d`
