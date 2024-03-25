@@ -15,7 +15,7 @@
 
 - Asume que `tty` es de [8]-bit, anulando la variable de entorno `TERM` establecida por `init`:
 
-`agetty -8 - {{term_var}}``
+`agetty -8 - {{term_var}}`
 
 - Omite el inicio de sesión ([n]o login) e invoca, como root, otro programa [l]ogin en lugar de `/bin/login`:
 
