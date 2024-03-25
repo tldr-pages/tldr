@@ -15,7 +15,7 @@
 
 `pcapfix --outfile {{path/to/repaired.pcap}} {{path/to/file.pcap}}`
 
-- Repair a PcapNG file and treat it as a PcapNG file, ignoring the automatic recognition:
+- Treat the specified file as a PcapNG file, ignoring automatic recognition:
 
 `pcapfix --pcapng {{path/to/file.pcapng}}`
 
