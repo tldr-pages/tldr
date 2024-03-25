@@ -8,7 +8,7 @@
 
 `waymore -i {{ejemplo.com}}`
 
-- Limita los resultados de la búsqueda para que sólo incluyan una lista de URLs de un dominio y almacena los resultados en el archivo especificado:
+- Limita los resultados de la búsqueda para que solo incluyan una lista de URLs de un dominio y almacena los resultados en el archivo especificado:
 
 `waymore -mode U -oU {{ruta/a/ejemplo.com-urls.txt}} -i {{ejemplo.com}}`
 
