@@ -27,6 +27,6 @@
 
 `ipcs -t`
 
-- Show [o]utstanding usage for active message queues, and shared memory segments.
+- Show [o]utstanding usage for active message queues, and shared memory segments:
 
 `ipcs -o`
