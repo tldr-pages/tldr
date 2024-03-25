@@ -9,4 +9,4 @@
 
 - Enable or disable Tor in this shell:
 
-`. torsocks {{on/off}}`
+`. torsocks {{on|off}}`
