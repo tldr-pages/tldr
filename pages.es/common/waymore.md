@@ -1,6 +1,6 @@
 # waymore
 
-> Obtiene las URLs de un dominio desde Wayback Machine, Common Crawl, Alien Vault OTX, URLScan y VirusTotal.
+> Obtén las URLs de un dominio desde Wayback Machine, Common Crawl, Alien Vault OTX, URLScan y VirusTotal.
 > Nota: A menos que se especifique lo contrario, la salida se vuelca en el directorio `results/` donde reside el archivo `config.yml` de waymore (por defecto en `~/.config/waymore/`).
 > Más información: <https://github.com/xnl-h4ck3r/waymore>.
 
