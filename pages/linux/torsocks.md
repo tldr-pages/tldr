@@ -7,6 +7,6 @@
 
 `torsocks {{command}}`
 
-- Toggle your shell in/out of Tor mode:
+- Enable or disable Tor in this shell:
 
 `. torsocks {{on/off}}`
