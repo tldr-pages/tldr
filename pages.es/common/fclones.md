@@ -1,0 +1,32 @@
+# fclones
+
+> Eficaz buscador y eliminador de archivos duplicados.
+> Más información: <https://github.com/pkolaczk/fclones>.
+
+- Busca ficheros duplicados en el directorio actual:
+
+`fclones group .`
+
+- Busca archivos duplicados en varios directorios y almacena los resultados en caché:
+
+`fclones group --cache {{ruta/a/directorio1 ruta/a/directorio2}}`
+
+- Busca archivos duplicados sólo en el directorio especificado, omitiendo los subdirectorios, y guardar los resultados en un archivo:
+
+`fclones group {{ruta/a/directorio}} --depth 1 > {{ruta/al/archivo.txt}}`
+
+- Mueve los archivos duplicados en un archivo TXT en un directorio diferente:
+
+`fclones move {{ruta/a/directorio_objetivo}} < {{ruta/al/archivo.txt}}`
+
+- Realiza un simulacro de enlaces blandos en un archivo TXT sin enlazarlo realmente:
+
+`fclones link --soft < {{ruta/al/archivo.txt}} --dry-run 2 > /dev/null`
+
+- Elimina los duplicados más recientes del directorio actual sin almacenarlos en un archivo:
+
+`fclones group . | fclones remove --priority newest`
+
+- Preprocesa los archivos JPEG del directorio actual utilizando un comando externo para eliminar sus datos EXIF antes de buscar duplicados:
+
+`fclones group . --name '*.jpg' -i --transform 'exiv2 -d a $IN' --in-place`
