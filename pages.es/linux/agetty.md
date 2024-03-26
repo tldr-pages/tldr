@@ -19,7 +19,7 @@
 
 - Omite el inicio de sesión ([n]o login) e invoca, como root, otro programa [l]ogin en lugar de `/bin/login`:
 
-`agetty {{n|--skip-login}} {{-l|--login-program}} {{login_program}} {{tty}}`
+`agetty {{-n|--skip-login}} {{-l|--login-program}} {{login_program}} {{tty}}`
 
 - No muestra el archivo de pre-inicio de sesión ([i]ssue) (`/etc/issue` por predeterminado) antes de escribir el mensaje de inicio de sesión:
 
