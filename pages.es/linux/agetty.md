@@ -1,6 +1,6 @@
 # agetty
 
-> Alternativa `getty`: Abre un puerto `tty`, pide un nombre de usuario, e invoca el comando `/bin/login`.
+> Alternativa a `getty`: Abre un puerto `tty`, pide un nombre de usuario, e invoca el comando `/bin/login`.
 > Normalmente es invocado por `init`.
 > Nota: la tasa de baudios es la velocidad de transferencia de datos entre un terminal y un dispositivo a través de una conexión serie.
 > Más información: <https://manned.org/agetty>.
