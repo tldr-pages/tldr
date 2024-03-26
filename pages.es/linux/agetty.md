@@ -9,7 +9,7 @@
 
 `agetty {{tty}} {{115200}}`
 
-- Asume que `stdin` ya está conectado a un `tty` y establece un [t]iempo de espera para el inicio de sesión:
+- Asume que `stdin` ya está conectado a una `tty` y establece un [t]iempo de espera para el inicio de sesión:
 
 `agetty {{-t|--timeout}} {{tiempo_de_espera_en_segundos}} -`
 
