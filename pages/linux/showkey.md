@@ -1,7 +1,7 @@
 # showkey
 
 > Display the keycode of pressed keys on the keyboard, helpful for debugging keyboard-related issues and key remapping.
-> More information: <https://man7.org/linux/man-pages/man1/showkey.1.html>.
+> More information: <https://manned.org/showkey>.
 
 - View keycodes in decimal:
 
