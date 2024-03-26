@@ -2,7 +2,7 @@
 
 > Alternativa a `getty`: Abre un puerto `tty`, pide un nombre de usuario, e invoca el comando `/bin/login`.
 > Normalmente es invocado por `init`.
-> Nota: la tasa de baudios es la velocidad de transferencia de datos entre un terminal y un dispositivo a través de una conexión serie.
+> Nota: la tasa de baudios es la velocidad de transferencia de datos entre una terminal y un dispositivo a través de una conexión serie.
 > Más información: <https://manned.org/agetty>.
 
 - Conecta `stdin` a un puerto (relativo a `/dev`) y especifica opcionalmente una tasa de baudios (por predeterminado 9600):
