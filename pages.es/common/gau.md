@@ -13,7 +13,7 @@
 
 - Obtén todas las URLs de varios dominios en un archivo de entrada, ejecutando varios subprocesos:
 
-`gau --threads {{4}} < {{ruta/a/dominios.txt}}}`
+`gau --threads {{4}} < {{ruta/a/dominios.txt}}`
 
 - Escribe los resultados en un archivo:
 
