@@ -1,6 +1,6 @@
 # gitk
 
-> A graphical Git repository browser.
+> Browse Git repositories graphically.
 > More information: <https://git-scm.com/docs/gitk>.
 
 - Show the repository browser for the current Git repository:
