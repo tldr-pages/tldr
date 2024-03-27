@@ -3,7 +3,7 @@
 > Upload code to https://gist.github.com.
 > More information: <https://github.com/defunkt/gist>.
 
-- Log in in gist on this computer:
+- Log in to gist on this computer:
 
 `gist --login`
 
