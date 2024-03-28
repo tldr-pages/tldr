@@ -17,8 +17,8 @@
 
 - Display logs for a specific PID:
 
-`logcat --pid={{pid}}`
+`logcat --pid {{pid}}`
 
 - Display logs for the process of a specific package:
 
-`logcat --pid=$(pidof -s {{package}})`
+`logcat --pid $(pidof -s {{package}})`

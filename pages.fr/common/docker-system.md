@@ -21,7 +21,7 @@
 
 - Supprimer les données non utilisées de plus d'un temps donné dans le passé :
 
-`docker system prune --filter="until={{heures}}h{{minutes}}m"`
+`docker system prune --filter "until={{heures}}h{{minutes}}m"`
 
 - Afficher les événements du démon Docker en temps réel :
 

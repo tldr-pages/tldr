@@ -21,7 +21,7 @@
 
 - Remove dados não utilizados criados há mais de um período específico no passado:
 
-`docker system prune --filter="until={{horas}}h{{minutos}}m"`
+`docker system prune --filter "until={{horas}}h{{minutos}}m"`
 
 - Exibe eventos em tempo real do daemon do Docker:
 

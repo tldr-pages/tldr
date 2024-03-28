@@ -29,8 +29,8 @@
 
 - Konteynerleri mevcut durumlarına (oluşturulma, çalışma, silinme, durma, çıkma ve ölme) göre sırala:
 
-`docker ps --filter="status={{mevcut_durum}}"`
+`docker ps --filter "status={{mevcut_durum}}"`
 
 - Belirtilmiş bir hacmi gömen veya belirtilmiş bir yola gömülmüş hacmi içeren konteynerleri filtrele:
 
-`docker ps --filter="volume={{örnek/dizin}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker ps --filter "volume={{örnek/dizin}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`

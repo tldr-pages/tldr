@@ -21,4 +21,4 @@
 
 - Muda o dono de um arquivo/diretório para ficar igual a um arquivo de referência:
 
-`chown --reference={{caminho/para/arquivo_de_referencia}} {{caminho/para/arquivo_ou_diretorio}}`
+`chown --reference {{caminho/para/arquivo_de_referencia}} {{caminho/para/arquivo_ou_diretorio}}`

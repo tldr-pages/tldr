@@ -9,7 +9,7 @@
 
 - Define o número de casos de teste para execução simultânea:
 
-`cargo test -- --test-threads={{quantidade}}`
+`cargo test -- --test-threads {{quantidade}}`
 
 - Executa os testes garantindo que o `Cargo.lock` esteja atualizado:
 

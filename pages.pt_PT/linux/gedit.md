@@ -13,7 +13,7 @@
 
 - Abre um ficheiro de texto com uma formatação específica:
 
-`gedit --encoding={{UTF-8}} {{caminho/para/ficheiro}}`
+`gedit --encoding {{UTF-8}} {{caminho/para/ficheiro}}`
 
 - Mostra a lista de formatações de texto disponíveis:
 

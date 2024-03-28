@@ -21,4 +21,4 @@
 
 - قم بتشغيل دوكر وحدد له مستوي سجل معين:
 
-`dockerd --log-level={{debug|info|warn|error|fatal}}`
+`dockerd --log-level {{debug|info|warn|error|fatal}}`

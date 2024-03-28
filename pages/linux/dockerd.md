@@ -21,4 +21,4 @@
 
 - Run and set a specific log level:
 
-`dockerd --log-level={{debug|info|warn|error|fatal}}`
+`dockerd --log-level {{debug|info|warn|error|fatal}}`
