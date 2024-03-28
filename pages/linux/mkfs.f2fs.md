@@ -7,6 +7,6 @@
 
 `sudo mkfs.f2fs {{/dev/sdb1}}`
 
-- Create an F2FS filesystem with a volume-label:
+- Create an F2FS filesystem with a volume label:
 
 `sudo mkfs.f2fs -l {{volume_label}} {{/dev/sdb1}}`
