@@ -10,4 +10,3 @@
 - Create an F2FS filesystem with a volume-label:
 
 `sudo mkfs.f2fs -l {{volume_label}} {{/dev/sdb1}}`
-
