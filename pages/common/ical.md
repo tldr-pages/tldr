@@ -1,6 +1,6 @@
 # ical
 
-> A Hirji/Islamic calendar and converter for the terminal.
+> Convert Hirji/Islamic calendars.
 > More information: <https://manned.org/ical>.
 
 - Display the current month's calendar:

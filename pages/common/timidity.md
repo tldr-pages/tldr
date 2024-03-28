@@ -1,6 +1,6 @@
 # timidity
 
-> A MIDI file player and converter.
+> Play and convert MIDI files.
 > More information: <http://timidity.sourceforge.net>.
 
 - Play a MIDI file:

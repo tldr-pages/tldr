@@ -1,6 +1,6 @@
 # doctum
 
-> A PHP API documentation generator.
+> Generate documentation for a PHP API.
 > More information: <https://github.com/code-lts/doctum>.
 
 - Parse a project:

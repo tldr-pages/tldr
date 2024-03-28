@@ -1,6 +1,6 @@
 # st-info
 
-> Provides information about connected STLink and STM32 devices.
+> Get information about connected STLink and STM32 devices.
 > More information: <https://github.com/texane/stlink>.
 
 - Display amount of program memory available:

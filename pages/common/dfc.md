@@ -1,6 +1,6 @@
 # dfc
 
-> Gives an overview of the filesystem disk space usage with colors and graphs.
+> Get an overview of the filesystem disk space usage with colors and graphs.
 > More information: <https://github.com/Rolinh/dfc>.
 
 - Display filesystems and their disk usage in human-readable form with colors and graphs:

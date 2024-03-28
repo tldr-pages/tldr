@@ -1,6 +1,6 @@
 # toolbox help
 
-> Displays help information about `toolbox`.
+> Display help information about `toolbox`.
 > More information: <https://manned.org/toolbox-help.1>.
 
 - Display the `toolbox` manual:

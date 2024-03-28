@@ -1,6 +1,6 @@
 # complete
 
-> Provides argument autocompletion to shell commands.
+> Get argument autocompletion to shell commands.
 > More information: <https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html>.
 
 - Apply a function that performs autocompletion to a command:

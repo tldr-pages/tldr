@@ -1,6 +1,6 @@
 # pnmtopng
 
-> Converts a PNM image file to PNG image format.
+> Convert a PNM image file to PNG image format.
 > More information: <https://netpbm.sourceforge.net/doc/pnmtopng.html>.
 
 - Read a PNM image as input and produce a PNG image as output:

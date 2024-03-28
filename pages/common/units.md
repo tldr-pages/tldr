@@ -1,6 +1,6 @@
 # units
 
-> Provide the conversion between two units of measure.
+> Convert between two units of measure.
 > More information: <https://www.gnu.org/software/units/>.
 
 - Run in interactive mode:

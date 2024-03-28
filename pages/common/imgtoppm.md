@@ -1,6 +1,6 @@
 # imgtoppm
 
-> Converts various image file formats to the PPM (Portable Pixmap) format.
+> Convert various image file formats to the PPM (Portable Pixmap) format.
 > More information: <https://netpbm.sourceforge.net/doc/imgtoppm.html>.
 
 - Convert an input image to PPM format:

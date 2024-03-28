@@ -1,6 +1,6 @@
 # say
 
-> Converts text to speech.
+> Convert text to speech.
 > More information: <https://keith.github.io/xcode-man-pages/say.1.html>.
 
 - Say a phrase aloud:
