@@ -1,8 +1,8 @@
 # apt-key
 
-> Key management utility for the APT Package Manager on Debian and Ubuntu.
-> Note: `apt-key` is now deprecated (except for the use of `apt-key del` in maintainer scripts).
-> More information: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
+> Утиліта керування ключами для диспетчера пакетів APT в Debian та Ubuntu.
+> Примітка: `apt-key` застарілий (за винятком використання `apt-key del` у сценаріях підтримки).
+> Більше інформації: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
 
 - Список довірених ключів:
 
