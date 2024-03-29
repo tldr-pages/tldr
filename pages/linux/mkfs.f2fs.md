@@ -1,6 +1,6 @@
 # mkfs.f2fs
 
-> Creates a F2FS filesystem inside a partition.
+> Creates an F2FS filesystem inside a partition.
 > More information: <https://manned.org/mkfs.f2fs>.
 
 - Create an F2FS filesystem inside partition 1 on device b (`sdb1`):
