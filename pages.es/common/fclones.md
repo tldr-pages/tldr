@@ -19,7 +19,7 @@
 
 `fclones move {{ruta/a/directorio_objetivo}} < {{ruta/al/archivo.txt}}`
 
-- Realiza un simulacro de enlaces blandos en un archivo TXT sin enlazarlo realmente:
+- Simula un enlace simbólico a un archivo de texto sin realmente enlazarlo:
 
 `fclones link --soft < {{ruta/al/archivo.txt}} --dry-run 2 > /dev/null`
 
