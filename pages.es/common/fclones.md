@@ -11,7 +11,7 @@
 
 `fclones group --cache {{ruta/a/directorio1 ruta/a/directorio2}}`
 
-- Busca archivos duplicados sólo en el directorio especificado, omitiendo los subdirectorios, y guardar los resultados en un archivo:
+- Busca archivos duplicados sólo en el directorio especificado, omitiendo los subdirectorios y guarda los resultados en un archivo:
 
 `fclones group {{ruta/a/directorio}} --depth 1 > {{ruta/al/archivo.txt}}`
 
