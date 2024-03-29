@@ -1,6 +1,6 @@
 # print
 
-> Вывод на печать простого текстового файла.
+> Вывод на печать текстового файла.
 > Больше информации: <https://learn.microsoft.com/windows-server/administration/windows-commands/print>.
 
 - Печать текстового файла используя локальный принтер:
