@@ -15,7 +15,7 @@
 
 `fclones group {{ruta/a/directorio}} --depth 1 > {{ruta/al/archivo.txt}}`
 
-- Mueve los archivos duplicados en un archivo TXT en un directorio diferente:
+- Mueve los archivos duplicados en un archivo de texto en un directorio diferente:
 
 `fclones move {{ruta/a/directorio_objetivo}} < {{ruta/al/archivo.txt}}`
 
