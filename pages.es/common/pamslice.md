@@ -1,0 +1,20 @@
+# pamslice
+
+> Extrae una línea de valores de una imagen PAM.
+> Más información: <https://netpbm.sourceforge.net/doc/pamslice.html>.
+
+- Imprime los valores de los píxeles de la fila n en una tabla:
+
+`pamslice -row {{n}} {{ruta/a/imagen.pam}}`
+
+- Imprime los valores de los píxeles de la columna n de una tabla:
+
+`pamslice -column {{n}} {{ruta/a/imagen.pam}}`
+
+- Considera sólo el plano m de la imagen de entrada:
+
+`pamslice -row {{n}} -plane {{m}} {{ruta/a/imagen.pam}}`
+
+- Produce la salida en un formato adecuado para la entrada a un `xmgr` para la visualización:
+
+`pamslice -row {{n}} -xmgr {{ruta/a/imagen.pam}}`
