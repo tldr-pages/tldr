@@ -27,3 +27,7 @@
 - Start in stash view, displaying all saved stashes:
 
 `tig stash`
+
+- Display help in TUI:
+
+`h`
