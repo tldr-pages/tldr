@@ -27,6 +27,6 @@
 
 `fclones group . | fclones remove --priority newest`
 
-- Preprocesa los archivos JPEG del directorio actual utilizando un comando externo para eliminar sus datos EXIF antes de buscar duplicados:
+- Preprocesa los archivos JPEG en el directorio actual utilizando un comando externo para eliminar sus datos EXIF antes de buscar duplicados:
 
 `fclones group . --name '*.jpg' -i --transform 'exiv2 -d a $IN' --in-place`
