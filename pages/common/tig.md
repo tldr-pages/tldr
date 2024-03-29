@@ -2,7 +2,7 @@
 
 > A configurable `ncurses`-based TUI for Git.
 > See also: `gitui`, `git-gui`.
-> More information: <https://github.com/jonas/tig>.
+> More information: <https://jonas.github.io/tig/doc/manual.html>.
 
 - Show the sequence of commits starting from the current one in reverse chronological order:
 
