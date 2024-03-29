@@ -7,7 +7,7 @@
 
 `fclones group .`
 
-- Busca archivos duplicados en varios directorios y almacena los resultados en caché:
+- Busca archivos duplicados en varios directorios y almacena los resultados en la caché:
 
 `fclones group --cache {{ruta/a/directorio1 ruta/a/directorio2}}`
 
