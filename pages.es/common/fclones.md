@@ -21,7 +21,7 @@
 
 - Simula un enlace simbólico a un archivo de texto sin realmente enlazarlo:
 
-`fclones link --soft < {{ruta/al/archivo.txt}} --dry-run 2 > /dev/null`
+`fclones link --soft < {{ruta/al/archivo.txt}} --dry-run 2> /dev/null`
 
 - Elimina los archivos duplicados más recientes en el directorio actual sin almacenarlos en un archivo:
 
