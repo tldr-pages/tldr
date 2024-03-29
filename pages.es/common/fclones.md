@@ -23,7 +23,7 @@
 
 `fclones link --soft < {{ruta/al/archivo.txt}} --dry-run 2 > /dev/null`
 
-- Elimina los duplicados más recientes del directorio actual sin almacenarlos en un archivo:
+- Elimina los archivos duplicados más recientes en el directorio actual sin almacenarlos en un archivo:
 
 `fclones group . | fclones remove --priority newest`
 
