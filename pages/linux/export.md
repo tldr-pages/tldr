@@ -18,3 +18,7 @@
 - Append a pathname to the environment variable `PATH`:
 
 `export PATH=$PATH:{{path/to/append}}`
+
+- Display a list of all exported variables and functions:
+
+`export -p`
