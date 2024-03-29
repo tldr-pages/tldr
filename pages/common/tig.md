@@ -1,6 +1,6 @@
 # tig
 
-> A text-mode interface for Git.
+> A configurable `ncurses`-based TUI for Git.
 > See also: `gitui`, `git-gui`.
 > More information: <https://github.com/jonas/tig>.
 
