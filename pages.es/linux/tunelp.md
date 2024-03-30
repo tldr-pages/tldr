@@ -20,6 +20,6 @@
 
 `tunelp --chars {{veces}} --time {{tiempo_en_centisegundos}} {{/dev/lp0}}`
 
-- Activa o desactiva el [a]bortaje por error (desactivado por defecto):
+- Activa o desactiva el [a]bortar por error (desactivado por defecto):
 
 `tunelp --abort {{on|off}}`
