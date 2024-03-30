@@ -11,6 +11,6 @@
 
 `cacaclock -f {{font}}`
 
-- Change the format using strftime:
+- Change the format using an `strftime` format specification:
 
 `cacaclock -d {{strftime_arguments}}`
