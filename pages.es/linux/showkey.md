@@ -7,7 +7,7 @@
 
 `sudo showkey`
 
-- Visualiza [s]cancodes en hexadecimal:
+- Visualiza códigos de ra[s]treo en hexadecimal:
 
 `sudo showkey {{-s|--scancodes}}`
 
