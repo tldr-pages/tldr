@@ -3,7 +3,7 @@
 > Extrae una línea de valores de una imagen PAM.
 > Más información: <https://netpbm.sourceforge.net/doc/pamslice.html>.
 
-- Imprime los valores de los píxeles de la fila n en una tabla:
+- Imprime los valores de los píxeles de la n-ésima fila en una tabla:
 
 `pamslice -row {{n}} {{ruta/a/imagen.pam}}`
 
