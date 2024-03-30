@@ -1,6 +1,6 @@
 # mkfs.f2fs
 
-> Crea un sistema de archivos F2FS dentro de una partición.
+> Crea un sistema de archivos F2FS en una partición.
 > Más información: <https://manned.org/mkfs.f2fs>.
 
 - Crea un sistema de archivos F2FS dentro de la partición 1 en el dispositivo b (`sdb1`):
