@@ -7,7 +7,7 @@
 
 `pamslice -row {{n}} {{ruta/a/imagen.pam}}`
 
-- Imprime los valores de los píxeles de la columna n de una tabla:
+- Imprime los valores de los píxeles de la n-ésima columna de una tabla:
 
 `pamslice -column {{n}} {{ruta/a/imagen.pam}}`
 
