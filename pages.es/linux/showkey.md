@@ -11,7 +11,7 @@
 
 `sudo showkey {{-s|--scancodes}}`
 
-- Muestra [k]eycodes en decimal (por defecto):
+- Muestra códigos de teclas en decimal (por defecto):
 
 `sudo showkey {{-k|--keycodes}}`
 
