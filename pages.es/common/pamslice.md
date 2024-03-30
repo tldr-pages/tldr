@@ -11,7 +11,7 @@
 
 `pamslice -column {{n}} {{ruta/a/imagen.pam}}`
 
-- Considera sólo el plano m de la imagen de entrada:
+- Considera solo el m-ésimo plano de la imagen de entrada:
 
 `pamslice -row {{n}} -plane {{m}} {{ruta/a/imagen.pam}}`
 
