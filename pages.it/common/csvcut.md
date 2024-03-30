@@ -12,7 +12,7 @@
 
 `csvcut -c {{1,3}} {{dati.csv}}`
 
-- Estrai tutte le colonne **eccetto** la quarta:
+- Estrai tutte le colonne eccetto la quarta:
 
 `csvcut -C {{4}} {{dati.csv}}`
 

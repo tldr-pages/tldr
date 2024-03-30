@@ -25,7 +25,7 @@
 
 - Imprime o nome do arquivo e o número da linha para cada correspondência:
 
-`grep --with-filename --line-number "{{padrão_pesquisado}}" {{caminho/para/arquivo}}`
+`grep --with-filename --line-number --color=always "{{padrão_pesquisado}}" {{caminho/para/arquivo}}`
 
 - Pesquisa por linhas que correspondem a um padrão, imprimindo apenas o texto correspondido:
 

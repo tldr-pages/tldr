@@ -1,7 +1,7 @@
 # tldr
 
 > 由 tldr-pages 專案所提供的簡單版指令簡介。
-> 更多資訊：<https://tldr.sh>.
+> 更多資訊：<https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - 顯示指令的常用用法：
 

@@ -2,7 +2,7 @@
 
 > Предоставляет информацию о системных службах Android.
 > Эту команду можно использовать только через `adb shell`.
-> Больше информации: <https://developer.android.com/studio/command-line/dumpsys>.
+> Больше информации: <https://developer.android.com/tools/dumpsys>.
 
 - Получить диагностическу для всех системных сервисов:
 

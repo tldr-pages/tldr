@@ -12,6 +12,6 @@
 
 `acyclic -v -n {{pad/naar/invoer.gv}}`
 
-- Hulp weergeven voor `acyclic`:
+- Toon de help:
 
 `acyclic -?`

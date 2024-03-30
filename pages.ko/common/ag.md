@@ -1,7 +1,7 @@
 # ag
 
 > The Silver Searcher.
-> ack과 비슷하지만, 더 빠르다.
+> `ack` 과 비슷하지만, 더 빠르다.
 > 더 많은 정보: <https://github.com/ggreer/the_silver_searcher>.
 
 - "foo"를 포함하고 있는 파일들을 찾고, 내용에서 일치하는 행을 출력:

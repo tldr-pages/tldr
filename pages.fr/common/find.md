@@ -19,17 +19,17 @@
 
 `find {{racine}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
 
-- Trouve des fichiers dans une fourchette de tailles :
+- Trouve des fichiers dans une fourchette de tailles et limite la profondeur récursive à "1" :
 
-`find {{racine}} -size {{+500k}} -size {{-10M}}`
+`find {{racine}} -maxdepth 1 -size {{+500k}} -size {{-10M}}`
 
 - Exécute une commande pour chaque fichier (utiliser `{}` dans la commande pour utiliser le nom des fichiers) :
 
 `find {{racine}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
 
-- Trouve les fichiers modifiés dans les 7 derniers jours et les supprimer :
+- Trouve les fichiers modifiés dans les 7 derniers jours :
 
-`find {{racine}} -daystart -mtime -{{7}} -delete`
+`find {{racine}} -daystart -mtime -{{7}}`
 
 - Trouve les fichiers vides (de taille nulle) et les supprimer :
 

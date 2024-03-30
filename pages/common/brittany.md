@@ -19,6 +19,6 @@
 
 `brittany --indent {{4}} --columns {{100}} {{path/to/file.hs}}`
 
-- Format a Haskell source file according to the style defined in the specified config file:
+- Format a Haskell source file according to the style defined in the specified configuration file:
 
 `brittany --config-file {{path/to/config.yaml}} {{path/to/file.hs}}`

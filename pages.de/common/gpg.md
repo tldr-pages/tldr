@@ -12,9 +12,9 @@
 
 `gpg --clearsign {{doc.txt}}`
 
-- Verschlüssle `doc.txt` für alice@beispiel.de (Ausgabe nach `doc.txt.gpg`):
+- Verschlüssle und signiere `doc.txt` für alice@beispiel.de und bob@example.org (Ausgabe nach `doc.txt.gpg`):
 
-`gpg --encrypt --recipient {{alice@beispiel.de}} {{doc.txt}}`
+`gpg --encrypt --sign --recipient {{alice@beispiel.de}} --recipient {{bob@example.com}} {{doc.txt}}`
 
 - Verschlüssle `doc.txt` nur mit Passwort (Ausgabe nach `doc.txt.gpg`):
 

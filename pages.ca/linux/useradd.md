@@ -30,4 +30,4 @@
 
 - Crea un usuari nou del sistema sense directori home:
 
-`sudo useradd --no-create-home --system {{nom_usuari}}`
+`sudo useradd --system {{nom_usuari}}`

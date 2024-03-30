@@ -3,22 +3,22 @@
 > Utilidad de línea de comandos para imprimir eventos y tareas desde la base de datos del calendario de macOS.
 > Más información: <https://hasseg.org/icalBuddy/>.
 
-- Mostrar los eventos de hoy más tarde:
+- Muestra los eventos de hoy más tarde:
 
-`icalBuddy -n eventsToday`
+`icalBuddy --includeOnlyEventsFromNowOn eventsToday`
 
-- Mostrar tareas no completadas:
+- Muestra tareas no completadas:
 
 `icalBuddy uncompletedTasks`
 
-- Mostrar una lista formateada y discriminada de acuerdo al calendario de todos los eventos en el día de hoy:
+- Muestra una lista formateada y discriminada de acuerdo al calendario de todos los eventos en el día de hoy:
 
-`icalBuddy -f -sc eventsToday`
+`icalBuddy --formatOutput --separateByCalendar eventsToday`
 
-- Mostrar las tareas para un número determinado de días:
+- Muestra las tareas para un número determinado de días:
 
-`icalBuddy -n "tasksDueBefore:today+{{days}}"`
+`icalBuddy --includeOnlyEventsFromNowOn "tasksDueBefore:today+{{days}}"`
 
-- Mostrar los eventos en un rango de tiempo:
+- Muestra los eventos en un rango de tiempo:
 
 `icalBuddy eventsFrom:{{start_date}} to:{{end_date}}`

@@ -16,10 +16,6 @@
 
 `7za a -t{{zip|gzip|bzip2|tar}} {{archiwum}} {{scieżka/do/pliku_lub_katalogu}}`
 
-- Wypisz dostępe typy archiwów:
-
-`7za i`
-
 - Wypisz zawartość pliku archiwum:
 
 `7za l {{archiwum}}`

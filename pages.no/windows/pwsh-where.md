@@ -1,4 +1,4 @@
-# pwsh-where
+# pwsh where
 
 > Denne kommandoen er et alias for `Where-Object`.
 > Mer informasjon: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.

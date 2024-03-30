@@ -1,6 +1,6 @@
 # reflex
 
-> Tool to watch a directory and rerun a command when certain files change.
+> Watch a directory and rerun a command when certain files change.
 > More information: <https://github.com/cespare/reflex>.
 
 - Rebuild with `make` if any file changes:

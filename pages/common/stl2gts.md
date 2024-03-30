@@ -19,6 +19,6 @@
 
 `stl2gts --verbose < {{path/to/file.stl}} > {{path/to/file.gts}}`
 
-- Print help for `stl2gts`:
+- Display help:
 
 `stl2gts --help`

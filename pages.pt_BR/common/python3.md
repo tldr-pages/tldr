@@ -1,7 +1,7 @@
 # python3
 
-> Este comando é um pseudônimo de `python`.
+> Este comando é um apelido de `python`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr python`

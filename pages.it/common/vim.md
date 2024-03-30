@@ -8,30 +8,14 @@
 
 `vim {{file}}`
 
-- Vai in insert mode (per inserire testo):
-
-`<Esc>i`
-
-- Copia ("yank") o taglia ("delete") la linea corrente (per incollarla poi con `P`):
-
-`<Esc>{{yy|dd}}`
-
 - Annulla l'ultima operazione:
 
 `<Esc>u`
 
 - Cerca un pattern nel file (usa `n`/`N` per spostarti al risultato successivo/precedente):
 
-`<Esc>/{{espressione_regolare}}<Invio>`
+`/{{espressione_regolare}}<Invio>`
 
 - Effettua una sostituzione tramite espressione regolare nell'intero file:
 
-`<Esc>:%s/{{espressione_regolare}}/{{sostituzione}}/g<Invio>`
-
-- Salva modifiche al file ed esci:
-
-`<Esc>:wq<Invio>`
-
-- Esci senza salvare:
-
-`<Esc>:q!<Invio>`
+`:%s/{{espressione_regolare}}/{{sostituzione}}/g<Invio>`

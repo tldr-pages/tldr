@@ -27,7 +27,7 @@
 
 `tart list`
 
-- Obtiene la dirección IP de una máquina virtual en ejecución:
+- Obtén la dirección IP de una máquina virtual en ejecución:
 
 `tart ip {{nombre-de-la-vm}}`
 

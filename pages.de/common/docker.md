@@ -4,17 +4,13 @@
 > Manche Unterbefehle wie `docker run` sind separat dokumentiert.
 > Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Liste zur Zeit laufende Container auf:
-
-`docker ps`
-
 - Liste laufende und gestoppte Container auf:
 
-`docker ps -a`
+`docker ps --all`
 
 - Erzeuge einen Container aus einem Image und benenne ihn:
 
-`docker run --name {{container_name}} {{pfad/zu/image}}`
+`docker run --name {{container_name}} {{image}}`
 
 - Stoppe oder starte einen existierenden Container:
 
@@ -22,7 +18,11 @@
 
 - Lade ein Image herunter:
 
-`docker pull {{pfad/zu/image}}`
+`docker pull {{image}}`
+
+- Zeige eine Liste der bereits heruntergeladenen Images an:
+
+`docker images`
 
 - Öffne eine Konsole innerhalb eines bereits laufenden Containers:
 

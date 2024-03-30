@@ -3,6 +3,6 @@
 > Este comando es un alias de `netlify`.
 > Más información: <https://cli.netlify.com>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr netlify`

@@ -1,6 +1,6 @@
 # update-alternatives
 
-> A convenient tool for maintaining symbolic links to determine default commands.
+> Convenientily maintain symbolic links to determine default commands.
 > More information: <https://manned.org/update-alternatives>.
 
 - Add a symbolic link:

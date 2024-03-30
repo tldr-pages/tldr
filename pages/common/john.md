@@ -13,7 +13,7 @@
 
 - Display users' cracked passwords by user identifier from multiple files:
 
-`john --show --users={{user_ids}} {{path/to/hashes*}} {{path/to/other/hashes*}}`
+`john --show --users={{user_ids}} {{path/to/hashes1.txt path/to/hashes2.txt ...}}`
 
 - Crack password hashes, using a custom wordlist:
 

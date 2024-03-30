@@ -27,6 +27,6 @@
 
 `scrcpy --record {{path/to/file.mp4}}`
 
-- Set target directory for pushing files to device by drag and drop (non-APK):
+- Specify the target directory for pushing files to device by drag and drop (non-APK):
 
 `scrcpy --push-target {{path/to/directory}}`

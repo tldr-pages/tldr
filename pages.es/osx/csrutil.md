@@ -1,9 +1,9 @@
 # csrutil
 
-> Gestionar la configuración de la Protección de Integridad del Sistema.
-> Más información: <https://ss64.com/osx/csrutil.html>.
+> Gestiona la configuración de la Protección de Integridad del Sistema.
+> Más información: <https://keith.github.io/xcode-man-pages/csrutil.8.html>.
 
-- Mstra el estado de la Protección de Integridad del Sistema:
+- Muestra el estado de la Protección de Integridad del Sistema:
 
 `csrutil status`
 

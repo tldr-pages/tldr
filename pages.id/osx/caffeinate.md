@@ -1,7 +1,7 @@
 # caffeinate
 
 > Menghindari macOS dari sleep (mode tidur).
-> Informasi lebih lanjut: <https://ss64.com/osx/caffeinate.html>.
+> Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
 - Menghindari mode sleep selama 1 jam (3600 detik):
 

@@ -7,6 +7,6 @@
 
 `sudo a2ensite {{host_virtual}}`
 
-- No muestra mensajes informativos:
+- Habilita un host virtual sin mostrar mensajes informativos:
 
 `sudo a2ensite --quiet {{host_virtual}}`

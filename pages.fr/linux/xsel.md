@@ -5,7 +5,7 @@
 
 - Utilise la sortie d'une commande comme entrée du presse-papiers (équivalent de `Ctrl + C`) :
 
-`echo {{123}} | xsel -ib`
+`echo 123 | xsel -ib`
 
 - Utilise le contenu d'un fichier comme entrée du presse-papiers :
 

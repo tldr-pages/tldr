@@ -2,6 +2,6 @@
 
 > Perintah ini merupakan alias dari `python`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr python`

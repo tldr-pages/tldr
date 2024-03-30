@@ -16,7 +16,7 @@
 
 `supervisorctl {{start|stop|restart}} {{group_name}}:*`
 
-- Show last 100 **bytes** of process `stderr`:
+- Show last 100 bytes of process `stderr`:
 
 `supervisorctl tail -100 {{process_name}} stderr`
 
@@ -24,6 +24,6 @@
 
 `supervisorctl tail -f {{process_name}} stdout`
 
-- Reload process config file to add/remove processes as necessary:
+- Reload process configuration file to add/remove processes as necessary:
 
 `supervisorctl update`

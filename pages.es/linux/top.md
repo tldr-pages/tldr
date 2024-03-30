@@ -7,7 +7,7 @@
 
 `top`
 
-- No muestra ningún proceso inactivo o zombie:
+- Oculta los procesos inactivos o zombies:
 
 `top -i`
 
@@ -27,6 +27,6 @@
 
 `top -p $(pgrep -d ',' {{nombre_proceso}})`
 
-- Obtiene ayuda acerca de los comandos interactivos:
+- Obtén ayuda acerca de los comandos interactivos:
 
 `?`

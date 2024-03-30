@@ -1,7 +1,7 @@
 # konsole
 
 > KDE's terminal emulator.
-> More information: <https://docs.kde.org/trunk5/en/konsole/konsole/command-line-options.html>.
+> More information: <https://docs.kde.org/stable5/en/konsole/konsole/command-line-options.html>.
 
 - Open the terminal in a specific directory:
 

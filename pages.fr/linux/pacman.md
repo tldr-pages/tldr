@@ -28,10 +28,6 @@
 
 `pacman -Qe`
 
-- Trouve à quel paquet un certain fichier appartient :
-
-`pacman -Qo {{fichier}}`
-
 - Vide le cache des paquets pour libérer de l'espace :
 
 `sudo pacman -Scc`

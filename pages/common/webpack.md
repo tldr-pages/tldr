@@ -7,11 +7,11 @@
 
 `webpack {{app.js}} {{bundle.js}}`
 
-- Load CSS files too from the JavaScript file (this uses the CSS loader for `.css` files):
+- Load CSS files too from the JavaScript file (this uses the CSS loader for CSS files):
 
 `webpack {{app.js}} {{bundle.js}} --module-bind '{{css=css}}'`
 
-- Pass a config file (with e.g. the entry script and the output filename) and show compilation progress:
+- Pass a configuration file (with e.g. the entry script and the output filename) and show compilation progress:
 
 `webpack --config {{webpack.config.js}} --progress`
 

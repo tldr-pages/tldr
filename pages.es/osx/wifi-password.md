@@ -3,11 +3,11 @@
 > Obtiene la contraseña del Wi-Fi.
 > Más información: <https://github.com/rauchg/wifi-password>.
 
-- Obtiene la contraseña de la red Wi-Fi en la que está conectado actualmente:
+- Obtén la contraseña de la red Wi-Fi en la que está conectado actualmente:
 
 `wifi-password`
 
-- Obtiene la contraseña para el Wi-Fi con un SSID específico:
+- Obtén la contraseña para el Wi-Fi con un SSID específico:
 
 `wifi-password {{ssid}}`
 

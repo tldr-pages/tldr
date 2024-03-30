@@ -14,7 +14,7 @@
 
 - 下載檔案，跟隨重新導向，並且自動續傳（恢復）前序檔案傳輸：
 
-`curl --remote-name --location --continue-at - {{http://example.com/filename}}`
+`curl --fail --remote-name --location --continue-at - {{http://example.com/filename}}`
 
 - 發送表單編碼數據（`application/x-www-form-urlencoded` 的 POST 請求）：
 
@@ -30,7 +30,7 @@
 
 - 透過使用者名稱和密碼訪問伺服器：
 
-`curl --user myusername:mypassword {{http://example.com}}`
+`curl --user {{使用者名稱}} {{http://example.com}}`
 
 - 爲指定資源使用客戶端憑證和密鑰，並且跳過憑證驗證：
 

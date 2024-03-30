@@ -1,7 +1,7 @@
 # ping
 
 > Send ICMP ECHO_REQUEST packets to network hosts.
-> More information: <https://ss64.com/osx/ping.html>.
+> More information: <https://keith.github.io/xcode-man-pages/ping.8.html>.
 
 - Ping the specified host:
 

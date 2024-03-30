@@ -18,4 +18,4 @@
 
 - Codifica dados (payload) de um par de chaves (key pair) em um JWT:
 
-`jwt encode --alg {{HS256}} --secret {{1234567890}} -P chave=valor`
+`jwt encode --alg {{HS256}} --secret {{1234567890}} -P {{chave=valor}}`

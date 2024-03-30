@@ -1,24 +1,32 @@
 # man
 
-> Utilitário para exibir páginas do manual.
+> Formata e exibe páginas de manual.
 > Mais informações: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
 
-- Visualizar o manual de um comando:
+- Exibe a página de manual de um comando:
 
 `man {{comando}}`
 
-- Visualizar a página da seção 7 do manual de um comando:
+- Exibe a página de manual de um comando da seção 7:
 
 `man {{7}} {{comando}}`
 
-- Visualizar o caminho procurado pelas páginas do manual:
+- Lista todas as seções disponíveis para um comando:
+
+`man -f {{comando}}`
+
+- Exibe o caminho procurado pelas páginas de manual:
 
 `man --path`
 
-- Visualizar o caminho do manual de um comando:
+- Exibe a localização de uma página de manual em vez da própria página de manual:
 
 `man -w {{comando}}`
 
-- Procurar manuais contendo um termo de pesquisa:
+- Exibe a página de manual usando uma localidade específica:
+
+`man {{comando}} --locale={{localidade}}`
+
+- Procura páginas de manual contendo um termo de pesquisa:
 
 `man -k "{{termo_de_pesquisa}}"`

@@ -13,7 +13,7 @@
 
 - Springe zum Ende / Anfang der Datei:
 
-`G (Ende), g (Anfang)`
+`G (Ende), g (Pos1)`
 
 - Suche nach einer Zeichenkette vorwärts (n/N um zur nächsten/vorherigen Übereinstimmung zu springen):
 

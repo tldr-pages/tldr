@@ -7,6 +7,6 @@
 
 `xml transform {{path/to/stylesheet.xsl}} -p "{{Count='count(/xml/table/rec)'}}" -s {{Text="Count="}} {{path/to/input.xml|URI}}`
 
-- Display help for the `transform` subcommand:
+- Display help:
 
 `xml transform --help`

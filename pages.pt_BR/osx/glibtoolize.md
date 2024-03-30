@@ -1,7 +1,7 @@
 # glibtoolize
 
-> Este comando é um pseudônimo de `-p linux libtoolize`.
+> Este comando é um apelido de `-p linux libtoolize`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux libtoolize`

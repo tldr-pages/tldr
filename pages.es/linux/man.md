@@ -7,11 +7,11 @@
 
 `man {{comando}}`
 
-- Mostrar la página del manual para un comando de la sección 7:
+- Muestra la página del manual para un comando de la sección 7:
 
 `man {{7}} {{comando}}`
 
-- Listar todas las secciones disponibles para un comando:
+- Lista todas las secciones disponibles para un comando:
 
 `man --whatis {{comando}}`
 
@@ -27,6 +27,6 @@
 
 `man --locale={{locale}} {{comando}}`
 
-- Busca las páginas del manual que contienen la string indicada:
+- Busca las páginas del manual que contienen la cadena indicada:
 
 `man --apropos "{{cadena_a_buscar}}"`

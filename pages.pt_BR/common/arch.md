@@ -4,6 +4,6 @@
 > Veja também `uname`.
 > Mais informações: <https://www.gnu.org/software/coreutils/arch>.
 
-- Exibir a arquitetura do sistema:
+- Exibe a arquitetura do sistema:
 
 `arch`

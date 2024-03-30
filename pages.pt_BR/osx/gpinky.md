@@ -1,7 +1,7 @@
 # gpinky
 
-> Este comando é um pseudônimo de `-p linux pinky`.
+> Este comando é um apelido de `-p linux pinky`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux pinky`

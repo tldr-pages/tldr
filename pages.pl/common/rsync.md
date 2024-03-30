@@ -26,7 +26,7 @@
 
 - Rekursywnie kopiuj katalogi, użyj trybu archiwum, rozwiąż dowiązania symboliczne i pomiń pliki, które są nowsze w miejscu docelowym:
 
-`rsync --recursive --archive --update --copy-links {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
+`rsync --archive --update --copy-links {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
 
 - Prześlij katalog do zdalnego hosta, na którym działa `rsyncd` i usuń pliki w miejscu docelowym które nie istnieją w źródle:
 

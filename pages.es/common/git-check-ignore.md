@@ -9,16 +9,16 @@
 
 - Comprueba si varios archivos o directorios son ignorados:
 
-`git check-ignore {{ruta/al/archivo}} {{ruta/al/directorio}}`
+`git check-ignore {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
 - Usa nombres de rutas, uno por línea, a partir de la entrada estandar (`stdin`):
 
 `git check-ignore --stdin < {{ruta/al/archivo_lista}}`
 
-- No comprueba el índice (se utiliza para depurar por qué las rutas fueron rastreadas y no ignoradas):
+- Comprueba sin leer el índice (se utiliza para depurar por qué las rutas fueron rastreadas y no ignoradas):
 
-`git check-ignore --no-index {{ruta/de_los/archivos_o_directorios}}`
+`git check-ignore --no-index {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
 - Incluye detalles sobre el patrón de coincidencia para cada ruta:
 
-`git check-ignore --verbose {{ruta/de_los/archivos_o_directorios}}`
+`git check-ignore --verbose {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`

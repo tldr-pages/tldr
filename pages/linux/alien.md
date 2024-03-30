@@ -1,6 +1,7 @@
 # alien
 
 > Convert different installation packages to other formats.
+> See also: `debtap`, for `.deb` conversion on Arch Linux.
 > More information: <https://manned.org/alien>.
 
 - Convert a specific installation file to Debian format (`.deb` extension):

@@ -7,7 +7,7 @@
 
 `yum install {{package}}`
 
-- Instala um novo pacote e assumir sim para todas as questões (também funciona com atualizações, ótimo para atualizações automáticas):
+- Instala um novo pacote assumindo sim para todas as perguntas (também funciona com atualizações, ótimo para atualizações automáticas):
 
 `yum -y install {{package}}`
 

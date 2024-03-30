@@ -1,7 +1,7 @@
 # brew
 
 > Administrador de paquetes para macOS y Linux.
-> Más información: <https://brew.sh>.
+> Más información: <https://docs.brew.sh/Manpage>.
 
 - Instala la última versión estable de una fórmula (usar `--devel` para versiones de desarrollo):
 

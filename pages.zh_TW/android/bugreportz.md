@@ -2,7 +2,7 @@
 
 > 生成一個壓縮的 Android 錯誤報告。
 > 此命令只能透過 `adb shell` 使用。
-> 更多資訊：<https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
+> 更多資訊：<https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
 - 生成一個完整的 Android 裝置壓縮錯誤報告：
 

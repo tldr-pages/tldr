@@ -5,14 +5,19 @@
 set -ex
 
 function initialize {
-  if [ -z "$TLDRHOME" ]; then
-    export TLDRHOME=${GITHUB_WORKSPACE:-$(pwd)}
+  export TLDR_ARCHIVE="tldr.zip"
+
+  if [[ ! -f $TLDR_ARCHIVE ]]; then
+    echo "No changes to deploy."
+    exit 0
   fi
 
-  export TLDR_LANG_ARCHIVES_DIRECTORY="$TLDRHOME/language_archives"
-  export TLDR_ARCHIVE="tldr.zip"
   export SITE_HOME="$HOME/site"
-  export SITE_REPO_SLUG="tldr-pages/tldr-pages.github.io"
+  export LANG_ARCHIVES="$GITHUB_WORKSPACE/language_archives"
+  export PDFS="$GITHUB_WORKSPACE/scripts/pdf"
+  export INDEX="$GITHUB_WORKSPACE/index.json"
+  RELEASE_TAG="$(git describe --tags --abbrev=0)"
+  export RELEASE_TAG
 
   # Configure git.
   git config --global user.email "tldrbotgithub@gmail.com"
@@ -22,31 +27,35 @@ function initialize {
 
   # Decrypt and add deploy key.
   eval "$(ssh-agent -s)"
-  echo "${DEPLOY_KEY}"> id_ed25519
+  echo "$DEPLOY_KEY" > id_ed25519
   chmod 600 id_ed25519
   ssh-add id_ed25519
 }
 
 function upload_assets {
-  git clone --quiet --depth 1 git@github.com:${SITE_REPO_SLUG}.git "$SITE_HOME"
-  mv -f "$TLDR_ARCHIVE" "$SITE_HOME/assets/"
-  mv -f "${TLDR_LANG_ARCHIVES_DIRECTORY}"/*.zip "$SITE_HOME/assets/"
-  rm -rf "$TLDR_LANG_ARCHIVES_DIRECTORY"
-  cp -f "$TLDRHOME/index.json" "$SITE_HOME/assets/"
-  cp -f "${TLDRHOME}/scripts/pdf/tldr-pages.pdf" "${SITE_HOME}/assets/tldr-book.pdf"
+  git clone --quiet --depth 1 "git@github.com:tldr-pages/tldr-pages.github.io.git" "$SITE_HOME"
 
-  sha256sum \
-    "${SITE_HOME}/assets/index.json" \
-    "${SITE_HOME}/assets/"*.zip \
-    "${SITE_HOME}/assets/tldr-book.pdf" \
-    > "${SITE_HOME}/assets/tldr.sha256sums"
+  cp -f "$TLDR_ARCHIVE" "$SITE_HOME/assets/"
+  find "$LANG_ARCHIVES" -maxdepth 1 -name "*.zip" -exec cp -f {} "$SITE_HOME/assets/" \;
+  cp -f "$INDEX" "$SITE_HOME/assets/"
+  find "$PDFS" -maxdepth 1 -name "*.pdf" -exec cp -f {} "$SITE_HOME/assets/" \;
 
-  cd "$SITE_HOME"
+  cd "$SITE_HOME/assets"
+  sha256sum -- index.json *.zip > tldr.sha256sums
+
+  # Old way of distributing assets. This needs to be deleted later.
   git add -A
-  git commit -m "[GitHub Actions] uploaded assets after commit tldr-pages/tldr@${GITHUB_SHA}"
+  git commit -m "[GitHub Actions] uploaded assets after commit tldr-pages/tldr@$GITHUB_SHA"
   git push -q
+  echo "Assets (pages archive, index and checksums) deployed to the static site."
 
-  echo "Assets (pages archive, index) deployed to static site."
+  gh release --repo tldr-pages/tldr upload --clobber "$RELEASE_TAG" -- \
+    tldr.sha256sums \
+    "$TLDR_ARCHIVE" \
+    "$INDEX" \
+    "$LANG_ARCHIVES/"*.zip \
+    "$PDFS/"*.pdf
+  echo "Assets deployed to GitHub releases."
 }
 
 ###################################

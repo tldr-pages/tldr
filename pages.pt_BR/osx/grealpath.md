@@ -1,7 +1,7 @@
 # grealpath
 
-> Este comando é um pseudônimo de `-p linux realpath`.
+> Este comando é um apelido de `-p linux realpath`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux realpath`

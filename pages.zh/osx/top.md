@@ -1,7 +1,7 @@
 # top
 
 > 显示运行进程的动态实时信息。
-> 更多信息：<https://ss64.com/osx/top.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/top.1.html>.
 
 - 执行 top 命令，界面中提供所有选项：
 

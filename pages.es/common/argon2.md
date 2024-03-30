@@ -5,7 +5,7 @@
 
 - Calcula un hash con una contraseña y un salt con los parámetros por defecto:
 
-`echo "{{contraseña}} | argon2 "{{texto_salt}}"`
+`echo "{{contraseña}}" | argon2 "{{texto_salt}}"`
 
 - Calcula un hash con el algoritmo especificado:
 

@@ -1,4 +1,4 @@
-# pwsh-where
+# pwsh where
 
 > このコマンドは `Where-Object` のエイリアスです。
 > 詳しくはこちら: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>

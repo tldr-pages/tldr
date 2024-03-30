@@ -17,7 +17,7 @@
 
 - Spécifie un épisode à regarder :
 
-`ani-cli -a {{numéro_de_l_épisode}} "{{nom_de_l_animé}}"`
+`ani-cli -e {{numéro_de_l_épisode}} "{{nom_de_l_animé}}"`
 
 - Continue de regarder l'animé depuis l'historique :
 

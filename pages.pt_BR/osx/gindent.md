@@ -1,7 +1,7 @@
 # gindent
 
-> Este comando é um pseudônimo de `-p linux indent`.
+> Este comando é um apelido de `-p linux indent`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux indent`

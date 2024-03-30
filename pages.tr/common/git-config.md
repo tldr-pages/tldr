@@ -12,10 +12,6 @@
 
 `git config --list --global`
 
-- Yerel veya evrensel olarak tanımlanan tüm konfigürasyon kayıtlarını sırala:
-
-`git config --list`
-
 - Belirtilen bir konfigürasyon kaydının değerini öğren:
 
 `git config alias.unstage`

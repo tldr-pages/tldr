@@ -2,7 +2,7 @@
 
 > データをサーバーから転送、もしくはサーバーへ転送します。
 > HTTP、FTP、POP3を含むほとんどのプロトコルをサポートしています。
-> 詳しくはこちら: <https://curl.se>.
+> 詳しくはこちら: <https://curl.se/docs/manpage.html>
 
 - URLのコンテンツをファイルにダウンロードする:
 
@@ -30,7 +30,7 @@
 
 - サーバー認証のためユーザー名とパスワードを送る:
 
-`curl --user myusername:mypassword {{http://example.com}}`
+`curl --user {{ユーザー名}} {{http://example.com}}`
 
 - リソースのクライアント証明書とキーを送り、証明書の検証をスキップする:
 

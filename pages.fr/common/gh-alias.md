@@ -13,7 +13,7 @@
 
 - Crée un alias de sous-commande pour `gh` :
 
-`gh alias set {{alias}} '{{commande_gh}}`
+`gh alias set {{alias}} '{{commande_gh}}'`
 
 - Définit une commande shell comme sous-commande de `gh` :
 

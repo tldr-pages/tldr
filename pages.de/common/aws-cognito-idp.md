@@ -1,7 +1,7 @@
 # aws cognito-idp
 
 > Verwalten des Amazon Cognito-Benutzerpools, seiner Benutzer und Gruppen mit der CLI.
-> Weitere Informationen: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cognito-idp/index.html>
+> Weitere Informationen: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cognito-idp/index.html>.
 
 - Erstelle einen neuen Cognito-Benutzerpool:
 

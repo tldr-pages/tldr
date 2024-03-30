@@ -7,7 +7,7 @@
 
 `box compile`
 
-- Compile a new Phar file using a specific config file:
+- Compile a new Phar file using a specific [c]onfiguration file:
 
 `box compile -c {{path/to/config}}`
 
@@ -19,7 +19,7 @@
 
 `box info {{path/to/phar_file}}`
 
-- Validate the first found config file in the working directory:
+- Validate the first found configuration file in the working directory:
 
 `box validate`
 
@@ -27,6 +27,6 @@
 
 `box verify {{path/to/phar_file}}`
 
-- Display all available commands and options:
+- Display help:
 
 `box help`

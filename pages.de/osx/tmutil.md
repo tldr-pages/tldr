@@ -1,7 +1,7 @@
 # tmutil
 
 > Dienstprogramm zum Verwalten von Time Machine-Backups. Die meisten Befehle erfordern Root-Rechte.
-> Weitere Informationen: <https://ss64.com/osx/tmutil.html>.
+> Weitere Informationen: <https://keith.github.io/xcode-man-pages/tmutil.8.html>.
 
 - Setze ein HFS+ Laufwerk als Backupziel:
 
@@ -9,7 +9,7 @@
 
 - Setze eine APF-Freigabe oder SMB-Freigabe als Backupziel:
 
-`sudo tmutil setdestination {{protocol://benutzer[:passwort]@host/share}}`
+`sudo tmutil setdestination "{{protocol://benutzer[:passwort]@host/share}}"`
 
 - Hänge das angegebene Ziel an die Liste der Backupziele an:
 

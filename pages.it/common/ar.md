@@ -3,22 +3,22 @@
 > Crea, modifica ed estrai da archivi (`.a`, `.so`, `.o`).
 > Maggiori informazioni: <https://manned.org/ar>.
 
-- Estrai tutti i membri da un archivio:
+- Estrai ([x]) tutti i membri da un archivio:
 
-`ar -x {{libfoo.a}}`
+`ar x {{percorso/del/file.a}}`
 
-- Lista tutti i membri di un archivio:
+- Lis[t]a tutti i membri di un archivio:
 
-`ar -t {{libfoo.a}}`
+`ar t {{percorso/del/file.ar}}`
 
-- Sostituisci o aggiungi file ad un archvio:
+- Sostituisci ([r]) o aggiungi file ad un archvio:
 
-`ar -r {{libfoo.a}} {{foo.o}} {{bar.o}} {{baz.o}}`
+`ar r {{percorso/del/file.deb}} {{percorso/del/debian-binary percorso/del/control.tar.gz percorso/del/data.tar.xz ...}}`
 
-- Inserisci o sostituisci un indice in un archivio (equivalente ad usare `ranlib`):
+- In[s]erisci o sostituisci un indice in un archivio (equivalente ad usare `ranlib`):
 
-`ar -s {{libfoo.a}}`
+`ar s {{percorso/del/file.a}}`
 
 - Crea un archivio con dei file creando anche il relativo indice:
 
-`ar -rs {{libfoo.a}} {{foo.o}} {{bar.o}} {{baz.o}}`
+`ar rs {{percorso/del/file.a}} {{percorso/del/file1.o percorso/del/file2.o ...}}`

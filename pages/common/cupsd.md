@@ -1,7 +1,7 @@
 # cupsd
 
 > Server daemon for the CUPS print server.
-> More information: <https://www.cups.org/doc/man-cupsd.html>.
+> More information: <https://openprinting.github.io/cups/doc/man-cupsd.html>.
 
 - Start `cupsd` in the background, aka. as a daemon:
 
@@ -31,6 +31,6 @@
 
 `cupsd -t -s {{path/to/cups-files.conf}}`
 
-- Display all available options:
+- Display help:
 
 `cupsd -h`

@@ -5,7 +5,7 @@
 
 - Yeni (izlenmeyen) dosyalar hariç mevcut değişiklikleri sakla:
 
-`git stash [push -m {{keyfi_saklama_mesajı}}]`
+`git stash push -m {{keyfi_saklama_mesajı}}`
 
 - Yeni (izlenmeyen) dosyalar dahil mevcut değişiklikleri sakla:
 
@@ -26,10 +26,6 @@
 - Bir saklananı uygula (varsayılan stash@{0}), ve eğer uygulanması sıkıntı çıkarmıyorsa onu saklanan listesinden kaldır:
 
 `git stash pop {{keyfi_saklanan_ismi}}`
-
-- Bir saklananı bırak (varsayılan stash@{0}):
-
-`git stash drop {{keyfi_saklanan_ismi}}`
 
 - Tüm saklananları bırak:
 

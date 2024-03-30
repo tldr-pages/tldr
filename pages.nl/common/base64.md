@@ -1,17 +1,21 @@
 # base64
 
-> Codeer of decodeer bestand of standaardinvoer van/naar Base64 naar standaarduitvoer.
+> Encodeer of decodeer een bestand of `stdin` van/naar Base64 naar `stdout`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/base64>.
 
-- Codeer een bestand:
+- Encodeer een bestand:
 
 `base64 {{bestandsnaam}}`
+
+- Zet gecodeerde uitvoer naar een specifieke breedte (`0` schakelt het uit):
+
+`base64 --wrap {{0|76|...}} {{path/to/file}}`
 
 - Decodeer een bestand:
 
 `base64 --decode {{bestandsnaam}}`
 
-- Codeer `stdin`:
+- Encodeer `stdin`:
 
 `{{eencommando}} | base64`
 

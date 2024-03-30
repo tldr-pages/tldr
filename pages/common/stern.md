@@ -1,7 +1,7 @@
 # stern
 
 > Tail multiple pods and containers from Kubernetes.
-> More information: <https://github.com/wercker/stern/>.
+> More information: <https://github.com/stern/stern>.
 
 - Tail all pods within a current namespace:
 

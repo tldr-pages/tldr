@@ -9,7 +9,7 @@
 
 - Run the test suites from the given files:
 
-`jest {{path/to/file1}} {{path/to/file2}}`
+`jest {{path/to/file1 path/to/file2 ...}}`
 
 - Run the test suites from files within the current and subdirectories, whose paths match the given regular expression:
 
@@ -31,6 +31,6 @@
 
 `jest --watch`
 
-- Show help:
+- Display help:
 
 `jest --help`

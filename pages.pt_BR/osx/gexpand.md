@@ -1,7 +1,7 @@
 # gexpand
 
-> Este comando é um pseudônimo de `-p linux expand`.
+> Este comando é um apelido de `-p linux expand`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux expand`

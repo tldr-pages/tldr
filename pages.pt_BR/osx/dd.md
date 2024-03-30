@@ -1,7 +1,7 @@
 # dd
 
 > Converte e copia um arquivo.
-> Mais informações: <https://ss64.com/osx/dd.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/dd.1.html>.
 
 - Cria uma unidade USB inicializável a partir de um arquivo isohybrid (tal como `archlinux-xxx.iso`):
 

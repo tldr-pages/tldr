@@ -15,11 +15,11 @@
 
 `streamlink {{example.com/stream}} {{best|worst}}`
 
-- Specify which player to use to feed stream data to (VLC is used by default if found):
+- Use a specific player to feed stream data to (VLC is used by default if found):
 
 `streamlink --player={{mpv}} {{example.com/stream}} {{best}}`
 
-- Specify the amount of time to skip from the beginning of the stream. For live streams, this is a negative offset from the end of the stream (rewind):
+- Skip a specific amount of time from the beginning of the stream. For live streams, this is a negative offset from the end of the stream (rewind):
 
 `streamlink --hls-start-offset {{[HH:]MM:SS}} {{example.com/stream}} {{best}}`
 

@@ -6,11 +6,11 @@
 
 - Encontra recursivamente arquivos que correspondam ao padrão fornecido no diretório atual:
 
-`fd {{padrão}}`
+`fd "{{padrão|regex}}"`
 
 - Encontra arquivos que começam com `foo`:
 
-`fd '^foo'`
+`fd "^foo"`
 
 - Encontra arquivos com uma extensão específica:
 
@@ -18,12 +18,12 @@
 
 - Encontra arquivos em um diretório específico:
 
-`fd '{{padrão}}' {{caminho/para/diretório}}`
+`fd "{{padrão|regex}}" {{caminho/para/diretório}}`
 
 - Inclui arquivos ignorados e ocultos na pesquisa:
 
-`fd --hidden --no-ignore '{{padrão}}'`
+`fd --hidden --no-ignore "{{padrão|regex}}"`
 
 - Executa um comando em cada resultado de pesquisa retornado:
 
-`fd '{{padrão}}' --exec {{comando}}`
+`fd "{{padrão|regex}}" --exec {{comando}}`

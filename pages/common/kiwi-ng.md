@@ -1,6 +1,6 @@
 # kiwi-ng
 
-> KIWI NG is an OS image and appliance builder.
+> An OS image and appliance builder.
 > More information: <https://osinside.github.io/kiwi/>.
 
 - Build an appliance:

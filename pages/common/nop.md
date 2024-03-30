@@ -12,6 +12,6 @@
 
 `nop -p {{path/to/input1.gv}} {{path/to/input2.gv ...}}`
 
-- Display help for `nop`:
+- Display help:
 
 `nop -?`

@@ -1,7 +1,7 @@
 # say
 
 > 将文本转换为语音。
-> 更多信息：<https://ss64.com/osx/say.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/say.1.html>.
 
 - 大声说出一个句子：
 

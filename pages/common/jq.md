@@ -1,9 +1,9 @@
 # jq
 
-> A command-line JSON processor that uses a domain-specific language.
-> More information: <https://stedolan.github.io/jq/manual/>.
+> A command-line JSON processor that uses a domain-specific language (DSL).
+> More information: <https://jqlang.github.io/jq/manual/>.
 
-- Execute a specific expression (print a colored and formatted json):
+- Execute a specific expression (print a colored and formatted JSON output):
 
 `{{cat path/to/file.json}} | jq '.'`
 
@@ -23,7 +23,7 @@
 
 `{{cat path/to/file.json}} | jq '{{.[index1], .[index2], ...}}'`
 
-- Print all array items/object keys:
+- Print all array/object values:
 
 `{{cat path/to/file.json}} | jq '.[]'`
 

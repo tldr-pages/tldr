@@ -1,7 +1,7 @@
 # lpinfo
 
 > List connected printers and installed drivers for the CUPS print server.
-> More information: <https://www.cups.org/doc/man-lpinfo.html>.
+> More information: <https://openprinting.github.io/cups/doc/man-lpinfo.html>.
 
 - List all the currently connected printers:
 

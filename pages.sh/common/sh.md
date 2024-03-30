@@ -10,7 +10,7 @@
 
 - Izvrši komandu:
 
-`sh -c {{komanda}}`
+`sh -c "{{komanda}}"`
 
 - Pokreni komande iz datoteke:
 

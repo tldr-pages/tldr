@@ -14,7 +14,7 @@
 
 - [L]위치 리다이렉션 후 파일을 다운로드 하고, 자동으로 이전 파일 [C]전송(재시작):
 
-`curl --remote-name --location --continue-at - {{http://example.com/filename}}`
+`curl --fail --remote-name --location --continue-at - {{http://example.com/filename}}`
 
 - 양식 인코딩 데이터 전송(`application/x-www-form-urlencoded`유형의 POST 요청):
 
@@ -30,7 +30,7 @@
 
 - 서버 인증을 위한 사용자 이름 및 비밀번호 전달:
 
-`curl --user myusername:mypassword {{http://example.com}}`
+`curl --user {{사용자 명}} {{http://example.com}}`
 
 - 리소스에 대한 클라이언트 인증서 및 키 전달, 인증서 유효성 검사 스킵:
 

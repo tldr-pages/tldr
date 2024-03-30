@@ -1,6 +1,6 @@
 # soupault
 
-> Soupault is a static website generator based on HTML element tree rewriting.
+> A static website generator based on HTML element tree rewriting.
 > It can also be used as an HTML post-processor or metadata extractor.
 > More information: <https://soupault.app>.
 
@@ -12,7 +12,7 @@
 
 `soupault`
 
-- Override default config file and directory locations:
+- Override default configuration file and directory locations:
 
 `soupault --config {{config_path}} --site-dir {{input_dir}} --build-dir {{output_dir}}`
 
@@ -20,6 +20,6 @@
 
 `soupault --index-only --dump-index-json {{path/to/file.json}}`
 
-- Show the effective config (values from `soupault.toml` plus defaults):
+- Show the effective configuration (values from `soupault.toml` plus defaults):
 
 `soupault --show-effective-config`

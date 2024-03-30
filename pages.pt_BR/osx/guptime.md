@@ -1,7 +1,7 @@
 # guptime
 
-> Este comando é um pseudônimo de `-p linux uptime`.
+> Este comando é um apelido de `-p linux uptime`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux uptime`

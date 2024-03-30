@@ -1,7 +1,7 @@
 # SafeEjectGPU
 
 > Expulsa una GPU de forma segura.
-> Más información: <https://www.unix.com/man-page/mojave/8/safeejectgpu>.
+> Más información: <https://keith.github.io/xcode-man-pages/safeejectgpu.8.html>.
 
 - Expulsa todas las GPUs:
 
@@ -15,7 +15,7 @@
 
 `SafeEjectGPU gpuid {{GPU_ID}} apps`
 
-- Obtiene el estado de una GPU:
+- Obtén el estado de una GPU:
 
 `SafeEjectGPU gpuid {{GPU_ID}} status`
 

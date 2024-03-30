@@ -8,17 +8,17 @@
 
 `gimp`
 
-- Démarre sans l'écran de démarrage :
-
-`gimp --no-splash`
-
 - Ouvre les fichiers spécifiés :
 
 `gimp {{chemin/vers/image1 chemin/vers/image2 ...}}`
 
-- Démarre une nouvelle instance, même si une instance est déjà en cours d'exécution :
+- Ouvre les fichiers spécifiés avec une nouvelle Démarre une nouvelle cadre :
 
-`gimp --new-instance`
+`gimp --new-instance {{chemin/vers/image1 chemin/vers/image2 ...}}`
+
+- Démarre sans l'écran de démarrage :
+
+`gimp --no-splash`
 
 - Affiche les erreurs et les avertissements sur la console au lieu de les afficher dans une boîte de dialogue :
 

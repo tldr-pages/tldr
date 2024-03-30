@@ -1,36 +1,36 @@
 # git branch
 
-> Comando Git principal para trabajar con ramas.
+> Comando principal de Git para trabajar con ramas.
 > Más información: <https://git-scm.com/docs/git-branch>.
 
-- Muestra las ramas locales. La rama actual está resaltada por `*`:
+- Lista todas las ramas (locales y remotas; la rama actual se resalta con `*`):
 
-`git branch`
+`git branch --all`
 
-- Muestra todas las ramas (locales y remotas):
+- Lista las ramas que incluyen una confirmación específica en su historial:
 
-`git branch -a`
+`git branch --all --contains {{hash_de_la_confirmación}}`
 
 - Muestra el nombre de la rama actual:
 
 `git branch --show-current`
 
-- Crea una nueva rama basada en el commit actual:
+- Crea una nueva rama basada en la confirmación actual:
 
-`git branch {{nombre_de_la_rama}}`
+`git branch {{nombre_rama}}`
 
-- Crea una nueva rama basada en un commit específico:
+- Crea una nueva rama basada en una confirmación específica:
 
-`git branch {{nombre_de_rama}} {{hash_del_commit}}`
+`git branch {{nombre_de_rama}} {{hash_de_la_confirmación}}`
 
-- Renombra una rama (no debe haber sido fusionada para hacer esto):
+- Renombra una rama (para ello no debes tenerla controlada):
 
-`git branch -m {{antiguo_nombre_de_la_rama}} {{nuevo_nombre_de_la_rama}}`
+`git branch -m {{nombre_de_rama_antigua}} {{nuevo_nombre_rama}}`
 
-- Borra una rama local (no debe haber sido fusionada para hacer esto):
+- Elimina una rama local (no debes tenerla controlada para hacerlo):
 
-`git branch -d {{nombre_de_la_rama}}`
+`git branch -d {{nombre_de_rama}}`
 
-- Borra una rama remota:
+- Elimina una rama remota:
 
-`git push {{nombre_remoto}} --delete {{nombre_de_la_rama_remota}}`
+`git push {{nombre_remoto}} --delete {{nombre_de_rama_remota}}`

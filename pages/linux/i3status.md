@@ -12,6 +12,6 @@
 
 `i3status -c {{path/to/i3status.conf}}`
 
-- Display the `i3status` version and help:
+- Display help and version:
 
 `i3status -h`

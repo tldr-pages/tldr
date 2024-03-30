@@ -25,7 +25,7 @@
 
 - Enmascara/Desenmascara una unitat per evitar la seva habilitació i activació manual:
 
-`systemctl {{mask|unmask}} {{unida`
+`systemctl {{mask|unmask}} {{unida}}`
 
 - Recarrega systemd, buscant unitats noves o modificades:
 

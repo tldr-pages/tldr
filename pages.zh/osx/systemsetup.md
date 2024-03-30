@@ -9,7 +9,7 @@
 
 - 指定时区、NTP 服务器并启用网络时间：
 
-`systemsetup -settimezone {{美国 / 太平洋}} -setnetworktimeserver {{us.pool.ntp.org}} -setusingnetworktime on`
+`systemsetup -settimezone "{{美国 / 太平洋}}" -setnetworktimeserver {{us.pool.ntp.org}} -setusingnetworktime on`
 
 - 使机器从不休眠，并在电源故障或内核死机时自动重新启动：
 

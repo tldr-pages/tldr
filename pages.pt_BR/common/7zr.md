@@ -1,10 +1,10 @@
 # 7zr
 
 > Um compactador de arquivos com alta taxa de compressão.
-> Versão do `7z` com suporte apenas para o formato `.7z`.
+> Versão do `7z` com suporte apenas para o formato 7z.
 > Mais informações: <https://manned.org/7zr>.
 
-- Compactar um arquivo ou diretório:
+- Compacta um arquivo ou diretório:
 
 `7zr a {{caminho/para/arquivo_compactado.7z}} {{caminho/para/arquivo_ou_diretorio}}`
 
@@ -28,6 +28,6 @@
 
 `7zr l {{caminho/para/arquivo_compactado.7z}}`
 
-- Exibe os tipos de arquivamento/compressão disponíveis:
+- Define o nível de compressão (maior significa mais compressão, porém mais lento):
 
-`7zr i`
+`7zr a {{caminho/para/arquivo_compactado.7z}} -mx={{0|1|3|5|7|9}} {{caminho/para/diretório}}`

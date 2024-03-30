@@ -7,7 +7,7 @@
 
 `kops create cluster -f {{cluster_name.yaml}}`
 
-- Create a new ssh public key:
+- Create a new SSH public key:
 
 `kops create secret sshpublickey {{key_name}} -i {{~/.ssh/id_rsa.pub}}`
 
@@ -22,3 +22,7 @@
 - Delete a cluster:
 
 `kops delete cluster {{cluster_name}} --yes`
+
+- Validate a cluster:
+
+`kops validate cluster {{cluster_name}} --wait {{wait_time_until_ready}} --count {{num_required_validations}}`

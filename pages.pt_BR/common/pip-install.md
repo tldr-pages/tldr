@@ -13,7 +13,7 @@
 
 - Instala pacotes listados em um arquivo:
 
-`pip install --requirement {{requirements.txt}}`
+`pip install -r {{requirements.txt}}`
 
 - Instala pacotes a partir de uma URL ou arquivo local (.tar.gz | .whl):
 

@@ -10,3 +10,7 @@
 - Check the syntax of a Packer image config:
 
 `packer validate {{path/to/config.json}}`
+
+- Format a Packer image config:
+
+`packer fmt {{path/to/config.pkr.hcl}}`

@@ -1,13 +1,9 @@
 # javap
 
-> Disassemble one or more class files and list them.
+> Disassemble class files and list them.
 > More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/javap.html>.
 
-- Disassemble and list a `.class` file:
-
-`javap {{path/to/file.class}}`
-
-- Disassemble and list multiple `.class` files:
+- Disassemble and list one or more `.class` files:
 
 `javap {{path/to/file1.class path/to/file2.class ...}}`
 

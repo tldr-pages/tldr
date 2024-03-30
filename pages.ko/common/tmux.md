@@ -22,15 +22,15 @@
 
 - 현재 세션에서 나가기 (tmux 세션 안에서 사용):
 
-`Ctrl-B d`
+`<Ctrl>-B d`
 
 - 새 창 만들기 (tmux 세션 안에서 사용):
 
-`Ctrl-B c`
+`<Ctrl>-B c`
 
 - 세션 혹은 창 변경 (tmux 세션 안에서 사용):
 
-`Ctrl-B w`
+`<Ctrl>-B w`
 
 - 세션 이름으로 종료:
 

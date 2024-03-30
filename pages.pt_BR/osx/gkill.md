@@ -1,7 +1,7 @@
 # gkill
 
-> Este comando é um pseudônimo de `-p linux kill`.
+> Este comando é um apelido de `-p linux kill`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux kill`

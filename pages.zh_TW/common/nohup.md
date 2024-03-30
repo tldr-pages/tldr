@@ -1,7 +1,7 @@
 # nohup
 
 > 當終端被關閉時允許程序繼續存在運作。
-> 更多資訊： <https://www.gnu.org/software/coreutils/nohup>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/nohup>.
 
 - 執行一個可以在終端機之外繼續執行的程序：
 

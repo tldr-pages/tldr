@@ -18,7 +18,7 @@
 
 - Tüm çıktı satırlarını numaralandır:
 
-`bat -n {{dosya}}`
+`bat --number {{dosya}}`
 
 - Bir JSON dosyasının sözdizimini vurgula:
 

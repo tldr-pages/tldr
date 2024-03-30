@@ -1,7 +1,7 @@
 # fdesetup
 
 > Define e recupera informações relacionadas ao FileVault.
-> Mais informações: <https://www.unix.com/man-page/mojave/8/fdesetup/>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/fdesetup.8.html>.
 
 - Lista os usuários atuais habilitados para o FileVault:
 
@@ -13,7 +13,7 @@
 
 - Adiciona usuário habilitado para o FileVault:
 
-`sudo fdesetup add -usertoadd user1`
+`sudo fdesetup add -usertoadd {{usuário1}}`
 
 - Ativa o FileVault:
 

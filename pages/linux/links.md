@@ -17,12 +17,12 @@
 
 - Navigate forwards and backwards through the links on a page:
 
-`Up arrow key, Down arrow key`
+`{{Up arrow key|Down arrow key}}`
 
 - Go forwards and backwards one page:
 
-`Left arrow key, Right arrow key`
+`{{Left arrow key|Right arrow key}}`
 
 - Exit:
 
-`q then y`
+`q + y`

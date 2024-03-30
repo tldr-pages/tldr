@@ -3,30 +3,30 @@
 > Obtém informações sobre propriedades do sistema (system props) Android.
 > Mais informações: <https://manned.org/getprop>.
 
-- Mostrar todas as propriedades do sistema:
+- Mostra todas as propriedades do sistema:
 
 `getprop`
 
-- Mostrar o valor de uma propriedade específica:
+- Mostra o valor de uma propriedade específica:
 
 `getprop {{prop}}`
 
-- Mostrar o nível de API:
+- Mostra o nível de API:
 
 `getprop {{ro.build.version.sdk}}`
 
-- Mostrar a versão do Android:
+- Mostra a versão do Android:
 
 `getprop {{ro.build.version.release}}`
 
-- Mostrar o modelo do dispositivo:
+- Mostra o modelo do dispositivo:
 
 `getprop {{ro.vendor.product.model}}`
 
-- Mostrar o status de desbloqueio OEM:
+- Mostra o status de desbloqueio OEM:
 
 `getprop {{ro.oem_unlock_supported}}`
 
-- Mostrar o endereço MAC da placa de Wi-Fi do dispositivo:
+- Mostra o endereço MAC da placa de Wi-Fi do dispositivo:
 
 `getprop {{ro.boot.wifimacaddr}}`

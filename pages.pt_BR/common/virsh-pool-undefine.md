@@ -4,6 +4,6 @@
 > Veja também: `virsh`, `virsh-pool-destroy`.
 > Mais informações: <https://manned.org/virsh>.
 
-- Excluir a configuração do pool de armazenamento pelo nome ou UUID especificado (determinado usando `virsh pool-list`):
+- Exclui a configuração do pool de armazenamento pelo nome ou UUID especificado (determinado usando `virsh pool-list`):
 
 `virsh pool-undefine --pool {{nome|uuid}}`

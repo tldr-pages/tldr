@@ -6,7 +6,7 @@
 
 - Aplica el estilo por defecto de 4 espacios por sangría y sin cambios de formato:
 
-`estilo {{archivo_de_origen}}`
+`astyle {{archivo_de_origen}}`
 
 - Aplica el estilo Java con llaves adjuntas:
 

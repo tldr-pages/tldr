@@ -1,6 +1,6 @@
 # zip
 
-> Package and compress (archive) files into zip file.
+> Package and compress (archive) files into a Zip archive.
 > See also: `unzip`.
 > More information: <https://manned.org/zip>.
 
@@ -18,13 +18,13 @@
 
 - Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest):
 
-`zip -r -{{0-9}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`zip -r -{{0..9}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Create an [e]ncrypted archive with a specific password:
 
 `zip -r -e {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Archive files/directories to a multi-part [s]plit zip file (e.g. 3 GB parts):
+- Archive files/directories to a multi-part [s]plit Zip archive (e.g. 3 GB parts):
 
 `zip -r -s {{3g}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 

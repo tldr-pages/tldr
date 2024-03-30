@@ -21,4 +21,4 @@
 
 - Show at most 100 changes in all branches:
 
-` gitk --max-count={{100}} --all`
+`gitk --max-count=100 --all`

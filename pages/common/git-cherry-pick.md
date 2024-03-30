@@ -14,7 +14,7 @@
 
 - Apply multiple (non-sequential) commits to the current branch:
 
-`git cherry-pick {{commit_1}} {{commit_2}}`
+`git cherry-pick {{commit1 commit2 ...}}`
 
 - Add the changes of a commit to the working directory, without creating a commit:
 

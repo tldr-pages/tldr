@@ -13,7 +13,7 @@
 
 - Aktualisiere alle installierten Pakete:
 
-`scoop update *`
+`scoop update --all`
 
 - Zeige alle installierten Pakete an:
 
@@ -29,4 +29,4 @@
 
 - Entferne die alten Versionen aller Pakete und lösche den Download-Zwischenspeicher:
 
-`scoop cleanup -k *`
+`scoop cleanup --cache --all`

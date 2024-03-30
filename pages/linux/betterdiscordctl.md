@@ -1,6 +1,6 @@
 # betterdiscordctl
 
-> A program for managing BetterDiscord on Linux.
+> Manage BetterDiscord on Linux.
 > More information: <https://github.com/bb010g/betterdiscordctl#manual>.
 
 - Install BetterDiscord on Discord Stable:

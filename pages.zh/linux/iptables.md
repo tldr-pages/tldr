@@ -1,7 +1,7 @@
 # iptables
 
 > 可用于配置 Linux 内核防火墙提供的过滤表、规则链和规则的程序。
-> 更多信息：<https://www.netfilter.org/projects/iptables/>.
+> 更多信息：<https://manned.org/iptables>.
 
 - 查看过滤表的规则链、规则以及数据包/字节计数器：
 

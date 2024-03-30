@@ -2,7 +2,7 @@
 
 > Bourne-Again SHell.
 > `sh`-kompatibler Kommandozeilen-Interpreter.
-> Weitere Informationen: <https://gnu.org/software/bash/>.
+> Weitere Informationen: <https://www.gnu.org/software/bash/>.
 
 - Interaktive Shell starten:
 
@@ -28,6 +28,6 @@
 
 `bash -s`
 
-- Gib die Version von bash aus (verwende `echo $BASH_VERSION`, um nur die Versionszeichenkette anzuzeigen):
+- Gib die Version von Bash aus (verwende `echo $BASH_VERSION`, um nur die Versionszeichenkette anzuzeigen):
 
 `bash --version`

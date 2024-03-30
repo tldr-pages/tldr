@@ -1,7 +1,7 @@
 # osascript
 
 > Run AppleScript or JavaScript for Automation (JXA).
-> More information: <https://ss64.com/osx/osascript.html>.
+> More information: <https://keith.github.io/xcode-man-pages/osascript.1.html>.
 
 - Run an AppleScript command:
 

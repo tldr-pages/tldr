@@ -1,7 +1,7 @@
 # ged
 
-> Este comando é um pseudônimo de `-p linux ed`.
+> Este comando é um apelido de `-p linux ed`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux ed`

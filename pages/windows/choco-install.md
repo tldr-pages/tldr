@@ -3,7 +3,7 @@
 > Install one or more packages with Chocolatey.
 > More information: <https://chocolatey.org/docs/commands-install>.
 
-- Install one or more space-separated packages:
+- Install one or more packages:
 
 `choco install {{package1 package2 ...}}`
 
@@ -11,7 +11,7 @@
 
 `choco install {{path\to\packages_file.config}}`
 
-- Install a specific nuspec or nupkg file:
+- Install a specific `nuspec` or `nupkg` file:
 
 `choco install {{path\to\file}}`
 

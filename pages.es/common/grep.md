@@ -1,37 +1,36 @@
 # grep
 
-> Encuentra coincidencias en el texto introducido.
-> Soporta patrones simples y expresiones regulares.
+> Encuentra patrones en archivos usando expresiones regulares.
 > Más información: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Busca un patrón dentro de un archivo:
 
-`grep {{patron}} {{ruta/al/archivo}}`
+`grep "{{patrón_de_busqueda}}" {{ruta/al/archivo}}`
 
-- Busca un patrón exacto:
+- Busca una cadena exacta (desactiva las expresiones regulares):
 
-`grep -F {{patron_exacto}} {{ruta/al/archivo}}`
+`grep --fixed-strings "{{cadena_exacta}}" {{ruta/al/archivo}}`
 
-- Busca un patrón [R]ecursivamente en el directorio actual, mostrando los correspondientes [n]úmeros de línea, [I]gnorando archivos binarios:
+- Busca un patrón en todos los archivos de forma recursiva en un directorio, mostrando los números de línea de las coincidencias, ignorando los archivos binarios:
 
-`grep -RIn {{patron}} .`
+`grep --recursive --line-number --binary-files={{sin-parejamiento}} "{{patrón_de_búsqueda}}" {{ruta/al/directorio}}`
 
-- Usa expresiones regulares extendidas (soportando `?`, `+`, `{}`, `()` y `|`), sin importar mayúsculas o minúsculas:
+- Utiliza expresiones regulares extendidas (admite `?`, `+`, `{}`, `()` y `|`), sin distinguir entre mayúsculas y minúsculas:
 
-`grep -Ei {{patron}} {{ruta/al/archivo}}`
+`grep --extended-regexp --ignore-case " {{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
-- Imprime 3 líneas de [C]ontexto alrededor, anteriores ([B]), o posteriores ([A]) tras la coincidencia:
+- Imprime 3 líneas de contexto alrededor, antes o después de cada coincidencia:
 
-`grep -{{C|B|A}} 3 {{patron}} {{ruta/al/archivo}}`
+`grep --{{context|before-context|after-context}}={{3}} "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
-- Imprime el nombre del archivo con la línea correspondiente a cada coincidencia:
+- Imprime el nombre del archivo y el número de línea de cada coincidencia con salida en color:
 
-`grep -Hn {{patron}} {{ruta/al/archivo}}`
+`grep --with-filename --line-number --color=always "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
-- Usa la entrada estándar en vez de un archivo:
+- Busca líneas que coincidan con un patrón e imprime sólo el texto coincidente:
 
-`cat {{ruta/al/archivo}} | grep {{patron}}`
+`grep --only-matching "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
-- Encuentra coincidencias in[v]ersas al patrón (aquellas líneas que no lo contengan):
+- Busca `stdin` en las líneas que no coincidan con un patrón:
 
-`grep -v {{patron}}`
+`cat {{ruta/al/archivo}} | grep --invert-match "{{patrón_de_busqueda}}"`

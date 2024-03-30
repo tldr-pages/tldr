@@ -19,10 +19,6 @@
 
 `sudo dnf install {{paket}}`
 
-- Installiere ein neues Paket und antworte "ja" auf alle Fragen:
-
-`sudo dnf -y install {{paket}}`
-
 - Entferne ein Paket:
 
 `sudo dnf remove {{paket}}`

@@ -21,7 +21,7 @@
 
 - Mettre à jour les dépendances d'un projet pour supporter null-safety :
 
-`dart pun upgrade --null-safety`
+`dart pub upgrade --null-safety`
 
 - Compiler un fichier Dart vers un binaire natif :
 

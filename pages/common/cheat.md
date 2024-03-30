@@ -19,6 +19,6 @@
 
 `cheat -s {{command}}`
 
-- Get the current cheat version:
+- Display version:
 
 `cheat -v`

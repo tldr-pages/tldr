@@ -1,7 +1,7 @@
 # gtftp
 
-> Este comando é um pseudônimo de `-p linux tftp`.
+> Este comando é um apelido de `-p linux tftp`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux tftp`

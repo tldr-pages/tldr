@@ -1,7 +1,7 @@
 # gshred
 
-> Este comando é um pseudônimo de `-p linux shred`.
+> Este comando é um apelido de `-p linux shred`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux shred`

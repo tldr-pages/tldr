@@ -1,6 +1,6 @@
 # parallel-lint
 
-> A tool to check the syntax of PHP files in parallel.
+> Check the syntax of PHP files in parallel.
 > More information: <https://github.com/JakubOnderka/PHP-Parallel-Lint>.
 
 - Lint a specific directory:

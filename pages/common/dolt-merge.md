@@ -1,7 +1,7 @@
 # dolt merge
 
 > Join two or more development histories together.
-> More information: <https://github.com/dolthub/dolt>.
+> More information: <https://docs.dolthub.com/cli-reference/cli#dolt-merge>.
 
 - Incorporate changes from the named commits into the current branch:
 

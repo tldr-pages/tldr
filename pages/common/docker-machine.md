@@ -3,11 +3,11 @@
 > Create and manage machines running Docker.
 > More information: <https://docs.docker.com/machine/reference/>.
 
-- List currently running docker machines:
+- List currently running Docker machines:
 
 `docker-machine ls`
 
-- Create a new docker machine with specific name:
+- Create a new Docker machine with specific name:
 
 `docker-machine create {{name}}`
 

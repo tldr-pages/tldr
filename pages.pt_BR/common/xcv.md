@@ -3,18 +3,18 @@
 > Corta, copia e cola na linha de comando.
 > Mais informações: <https://github.com/busterc/xcv>.
 
-- Cortar um arquivo:
+- Corta um arquivo:
 
 `xcv x {{arquivo_a_ser_cortado}}`
 
-- Copiar um arquivo:
+- Copia um arquivo:
 
 `xcv c {{arquivo_a_ser_copiado}}`
 
-- Colar um arquivo:
+- Cola um arquivo:
 
 `xcv v {{arquivo_a_ser_colado}}`
 
-- Listar todos os arquivos disponíveis para serem colados:
+- Lista todos os arquivos disponíveis para serem colados:
 
 `xcv l`

@@ -17,4 +17,4 @@
 
 - Linte mit einer Konfigurationsdatei:
 
-`eslint -c {{pfad/zu/konfigurationsdatei}} {{pfad/zu/datei1.js pfad/zu/datei2.js ...}`
+`eslint -c {{pfad/zu/konfigurationsdatei}} {{pfad/zu/datei1.js pfad/zu/datei2.js ...}}`

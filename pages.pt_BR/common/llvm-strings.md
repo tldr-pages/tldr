@@ -1,7 +1,7 @@
 # llvm-strings
 
-> Este comando é um pseudônimo de `strings`.
+> Este comando é um apelido de `strings`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr strings`

@@ -1,7 +1,7 @@
 # xattr
 
 > Utilidad para trabajar con atributos extendidos del sistema de ficheros.
-> Más información: <https://ss64.com/osx/xattr.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/xattr.1.html>.
 
 - Lista atributos extendidos clave:valor para un archivo dado:
 
@@ -13,7 +13,7 @@
 
 - Elimina un atributo de un archivo determinado:
 
-`xattr -d {{com.apple.quarantine}}} {{archivo}}`
+`xattr -d {{com.apple.quarantine}} {{archivo}}`
 
 - Elimina todos los atributos extendidos de un archivo determinado:
 

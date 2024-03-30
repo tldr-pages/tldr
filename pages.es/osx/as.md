@@ -2,7 +2,7 @@
 
 > Ensamblador portable GNU.
 > Principalmente destinado a ensamblar la salida de `gcc` para ser utilizada por` ld`.
-> Más información: <https://www.unix.com/man-page/osx/1/as/>.
+> Más información: <https://keith.github.io/xcode-man-pages/as.1.html>.
 
 - Ensambla un archivo, escribiendo la salida en `a.out`:
 
@@ -12,7 +12,7 @@
 
 `as {{archivo.s}} -o {{salida.o}}`
 
-- Genera resultados más rápido omitiendo los espacios en blanco y el preprocesamiento de comentarios. (Solo debe usarse para compiladores de confianza):
+- Genera resultados más rápidos omitiendo los espacios en blanco y el preprocesamiento de comentarios. (Solo debe usarse para compiladores de confianza):
 
 `as -f {{archivo.s}}`
 

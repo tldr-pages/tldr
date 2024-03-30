@@ -12,6 +12,6 @@
 
 `acyclic -v -n {{path/to/input.gv}}`
 
-- Display help for `acyclic`:
+- Display help:
 
 `acyclic -?`

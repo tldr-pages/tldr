@@ -1,6 +1,6 @@
 # pueue start
 
-> Resume operation of specific tasks or groups of tasks.
+> Resume operation of tasks or groups of tasks.
 > See also: `pueue pause`.
 > More information: <https://github.com/Nukesor/pueue>.
 

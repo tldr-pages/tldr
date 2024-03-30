@@ -1,7 +1,7 @@
 # az storage account
 
 > Manage storage accounts in Azure.
-> Part of `azure-cli`.
+> Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/storage/account>.
 
 - Create an storage account:

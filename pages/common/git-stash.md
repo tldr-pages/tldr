@@ -19,7 +19,7 @@
 
 `git stash list`
 
-- Show the changes as a patch between the stash (default is stash@{0}) and the commit back when stash entry was first created:
+- Show the changes as a patch between the stash (default is `stash@{0}`) and the commit back when stash entry was first created:
 
 `git stash show -p {{stash@{0}}}`
 

@@ -13,7 +13,7 @@
 
 - 編輯一個已管理的 dotfile：
 
-`chezmoi edit {檔案/完整/路徑}}`
+`chezmoi edit {{檔案/完整/路徑}}`
 
 - 檢視 chezmoi 所做的更動：
 

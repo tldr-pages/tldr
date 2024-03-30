@@ -7,14 +7,14 @@
 
 `bindkey "{{^k}}" {{kill-line}}`
 
-- Bind a hotkey to a specific key sequence:
+- Bind a hotkey to a specific key [s]equence:
 
 `bindkey -s '^o' 'cd ..\n'`
 
-- View keymaps:
+- [l]ist keymaps:
 
 `bindkey -l`
 
-- View the hotkey in a keymap:
+- View the hotkey in a key[M]ap:
 
 `bindkey -M main`

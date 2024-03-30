@@ -6,8 +6,8 @@
 
 - Display the physical size of an Android device's screen:
 
-`wm {{size}}`
+`wm size`
 
 - Display the physical density of an Android device's screen:
 
-`wm {{density}}`
+`wm density`

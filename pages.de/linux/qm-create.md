@@ -21,4 +21,4 @@
 
 - Lege ein Skript fest, welches automatisch abhängig vom Zustand der virtuellen Maschine ausgelöst werden soll:
 
-`qm create {{100}} --hookscript {{pfad/zu/script.pl}}`
+`qm create {{100}} --hookscript {{pfad/zu/skript.pl}}`

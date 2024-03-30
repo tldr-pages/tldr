@@ -1,7 +1,7 @@
 # pyenv
 
 > 複数バージョンのPythonを容易に切り替えします。
-> 詳しくはこちら: <https://github.com/pyenv/pyenv>.
+> 詳しくはこちら: <https://github.com/pyenv/pyenv>
 
 - 利用可能なコマンド全てをリスト表示する:
 

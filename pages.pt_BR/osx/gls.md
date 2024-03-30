@@ -1,7 +1,7 @@
 # gls
 
-> Este comando é um pseudônimo de `-p linux ls`.
+> Este comando é um apelido de `-p linux ls`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux ls`

@@ -5,4 +5,4 @@
 
 - Borra un grupo existente:
 
-`groupdel {{nombre_del_grupo}}`
+`sudo groupdel {{nombre_del_grupo}}`

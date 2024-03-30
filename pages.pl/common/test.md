@@ -6,7 +6,7 @@
 
 - Sprawdź czy podana zmienna jest równa łańcuchowi znaków:
 
-`test "{{$ZMIENNA}}" == "{{/bin/zsh}}"`
+`test "{{$ZMIENNA}}" = "{{/bin/zsh}}"`
 
 - Sprawdź czy zmienna jest pusta:
 

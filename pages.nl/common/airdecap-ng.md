@@ -2,7 +2,7 @@
 
 > Decodeer een WEP-, WPA- of WPA2-gecodeerd opnamebestand.
 > Onderdeel van Aircrack-ng netwerksoftwaresuite.
-> Meer Informatie: <https://www.aircrack-ng.org/doku.php?id=airdecap-ng>.
+> Meer informatie: <https://www.aircrack-ng.org/doku.php?id=airdecap-ng>.
 
 - Verwijder draadloze headers uit een open netwerkopnamebestand en gebruik het MAC-adres van het toegangspunt om te filteren:
 

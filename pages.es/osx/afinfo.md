@@ -2,7 +2,7 @@
 
 > Analizador de metadatos de archivos de audio para OS X.
 > Comando nativo de OS X.
-> Más información: <https://ss64.com/osx/afinfo.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/afinfo.1.html>.
 
 - Muestra información de un archivo de audio dado:
 
@@ -10,15 +10,15 @@
 
 - Muestra una descripción de una línea del archivo de audio:
 
-`afinfo -b {{ruta/al/archivo}}`
+`afinfo --brief {{ruta/al/archivo}}`
 
 - Muestra información de metadatos y contenido del InfoDictionary del archivo de audio:
 
-`afinfo -i {{ruta/al/archivo}}`
+`afinfo --info {{ruta/al/archivo}}`
 
 - Imprime la salida en formato XML:
 
-`afinfo -x {{ruta/al/archivo}}`
+`afinfo --xml {{ruta/al/archivo}}`
 
 - Muestra advertencias para el archivo de audio, si las hubiera:
 
@@ -26,4 +26,4 @@
 
 - Muestra ayuda para un uso completo:
 
-`afinfo -h`
+`afinfo --help`

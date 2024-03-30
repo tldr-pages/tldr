@@ -7,15 +7,15 @@
 
 `ansible-playbook {{playbook}}`
 
-- Run tasks in playbook with custom host inventory:
+- Run tasks in playbook with custom host [i]nventory:
 
 `ansible-playbook {{playbook}} -i {{inventory_file}}`
 
-- Run tasks in playbook with extra variables defined via the command-line:
+- Run tasks in playbook with [e]xtra variables defined via the command-line:
 
 `ansible-playbook {{playbook}} -e "{{variable1}}={{value1}} {{variable2}}={{value2}}"`
 
-- Run tasks in playbook with extra variables defined in a JSON file:
+- Run tasks in playbook with [e]xtra variables defined in a JSON file:
 
 `ansible-playbook {{playbook}} -e "@{{variables.json}}"`
 

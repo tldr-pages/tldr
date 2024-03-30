@@ -23,6 +23,6 @@
 
 `install-tl -portable`
 
-- Show help for `install-tl`:
+- Display help:
 
 `install-tl -help`

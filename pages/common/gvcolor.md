@@ -12,6 +12,6 @@
 
 `dot {{path/to/input.gv}} | gvcolor | dot -T {{png}} > {{path/to/output.png}}`
 
-- Display help for `gvcolor`:
+- Display help:
 
 `gvcolor -?`

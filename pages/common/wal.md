@@ -1,6 +1,6 @@
 # wal
 
-> A tool to create color schemes based on the dominant colors of a wallpaper.
+> Create color schemes based on the dominant colors of a wallpaper.
 > More information: <https://github.com/dylanaraps/pywal>.
 
 - Preview color scheme:

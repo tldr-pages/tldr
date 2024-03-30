@@ -3,10 +3,6 @@
 > Klone ein existierendes Repository.
 > Weitere Informationen: <https://git-scm.com/docs/git-clone>.
 
-- Klone ein existierendes Repository:
-
-`git clone {{url_zu_repository}}`
-
 - Klone ein existierendes Repository in ein bestimmtes Verzeichnis:
 
 `git clone {{url_zu_repository}} {{pfad/zu/verzeichnis}}`
@@ -15,13 +11,17 @@
 
 `git clone --recursive {{url_zu_repository}}`
 
+- Klone nur das  `.git` Verzeichnis für ein existierendes repository:
+
+`git clone --no-checkout {{url_zu_repository}}`
+
 - Klone ein lokales Repository:
 
-`git clone -l {{pfad/zu/lokalem_repository}}`
+`git clone --local {{pfad/zu/lokalem_repository}}`
 
 - Klone ohne Meldungen:
 
-`git clone -q {{url_zu_repository}}`
+`git clone --quiet {{url_zu_repository}}`
 
 - Klone ein existierendes Repository und rufe nur die neuesten 10 Commits im Standard-Branch ab (spart Zeit):
 

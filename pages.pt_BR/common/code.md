@@ -1,28 +1,36 @@
 # code
 
-> Visual Studio Code.
+> Editor de código extensível e multi plataforma.
 > Mais informações: <https://github.com/microsoft/vscode>.
 
-- Abrir o VS Code:
+- Inicia Visual Studio Code:
 
 `code`
 
-- Abrir o diretório atual no VS Code:
+- Abre arquivos/diretórios específicos:
 
-`code .`
+`code {{caminho/para/arquivo_ou_diretório1 caminho/para/arquivo_ou_diretório2 ...}}`
 
-- Abrir um arquivo ou diretório no VS Code:
+- Compara dois arquivos específicos:
 
-`code {{caminho/para/arquivo-ou-diretório}}`
+`code --diff {{caminho/para/arquivo1}} {{caminho/para/arquivo2}}`
 
-- Abrir um arquivo ou diretório numa janela já aberta do VS Code:
+- Abre arquivos/diretórios específicos em uma nova janela:
 
-`code --reuse-window {{caminho/para/arquivo-ou-diretório}}`
+`code --new-window {{caminho/para/arquivo_ou_diretório1 caminho/para/arquivo_ou_diretório2 ...}}`
 
-- Comparar o conteúdo de dois arquivos no VS Code:
+- Instala/desinstala uma extensão específica:
 
-`code -d {{arquivo1}} {{arquivo2}}`
+`code --{{install|uninstall}}-extension {{editor.extensão}}`
 
-- Iniciar o VS Code com permissão de super usuário (sudo):
+- Imprime as extensões instaladas:
 
-`sudo code {{path/to/file_or_directory}} --user-data-dir`
+`code --list-extensions`
+
+- Imprime extensões instaladas com suas versões:
+
+`code --list-extensions --show-versions`
+
+- Inicia o editor como um superusuário (root) enquanto armazena dados do usuário em um diretório específico:
+
+`sudo code --user-data-dir {{caminho/para/diretório}}`

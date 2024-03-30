@@ -1,9 +1,9 @@
 # gzip
 
-> Compress/uncompress files with gzip compression (LZ77).
+> Compress/uncompress files with `gzip` compression (LZ77).
 > More information: <https://www.gnu.org/software/gzip/manual/gzip.html>.
 
-- Compress a file, replacing it with a gzipped compressed version:
+- Compress a file, replacing it with a `gzip` archive:
 
 `gzip {{file.ext}}`
 
@@ -19,7 +19,7 @@
 
 `gzip -c {{file.ext}} > {{compressed_file.ext.gz}}`
 
-- Decompress a gzipped file specifying the output filename:
+- Decompress a `gzip` archive specifying the output filename:
 
 `gzip -c -d {{file.ext}}.gz > {{uncompressed_file.ext}}`
 

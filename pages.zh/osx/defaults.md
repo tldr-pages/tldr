@@ -1,7 +1,7 @@
 # defaults
 
 > 读取和写入 macOS 应用程序的用户配置。
-> 更多信息：<https://ss64.com/osx/defaults.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/defaults.1.html>.
 
 - 读取应用程序选项的系统默认值：
 

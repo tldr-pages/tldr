@@ -1,7 +1,7 @@
 # cmd
 
 > Administrador de servicios Android.
-> Más información: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+> Más información: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - Enumera todos los servicios en ejecución:
 

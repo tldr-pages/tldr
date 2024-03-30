@@ -1,6 +1,6 @@
 # docker compose
 
-> Çoklu konteynerli docker uygulamalarını çalıştırın ve yönetin.
+> Çoklu konteynerli Docker uygulamalarını çalıştırın ve yönetin.
 > Daha fazla bilgi için: <https://docs.docker.com/compose/reference/>.
 
 - Tüm konteynerleri listele:
@@ -17,7 +17,7 @@
 
 - Tüm konteynerleri alternatif bir beste dosyasıyla başlatın:
 
-`docker compose --file {{yoldan/dosyaya}} up`
+`docker compose -p {{proje Adı}} --file {{yoldan/dosyaya}} up`
 
 - Çalışan tüm konteynerleri durdurun:
 

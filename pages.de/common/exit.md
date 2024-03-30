@@ -1,7 +1,7 @@
 # exit
 
 > Verlasse die Shell.
-> Weitere Informationen: <https://manned.org/exit>.
+> Weitere Informationen: <https://manned.org/exit.1posix>.
 
 - Beende die Shell mit dem Exitcode des zuletzt ausgeführten Befehls:
 

@@ -1,6 +1,6 @@
 # dex
 
-> DesktopEntry Execution est un programme servant à générer et à exécuter des fichiers DesktopEntry de type Application
+> DesktopEntry Execution est un programme servant à générer et à exécuter des fichiers DesktopEntry de type Application.
 > Plus d'informations : <https://github.com/jceb/dex>.
 
 - Exécute tous les programmes dans les dossiers de démarrage automatique :
@@ -21,7 +21,7 @@
 
 - Prévisualise la valeur de la propriété `Name` de DesktopEntry :
 
-`dex -- property {{Name}} {{chemin/vers/fichier.desktop}}`
+`dex --property {{Name}} {{chemin/vers/fichier.desktop}}`
 
 - Crée une DesktopEntry pour un programme dans le dossier courant :
 

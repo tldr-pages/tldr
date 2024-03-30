@@ -1,7 +1,7 @@
 # age
 
 > 一个简单、现代、安全的文件加密工具。
-> 更多信息：<https://age-encryption.org>.
+> 更多信息：<https://github.com/FiloSottile/age>.
 
 - 生成一个可以用密码短语（passphrase）解密的加密文件：
 

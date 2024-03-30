@@ -6,7 +6,7 @@
 
 - Zainstaluj nowy pakiet:
 
-`sudo pacman -S {{nazwa_pakietu}}`
+`sudo pacman --sync {{nazwa_pakietu}}`
 
 - Zsynchronizuj i zaktualizuj wszystkie pakiety (użyj `--downloadonly` aby pobrać pakiety i ich nie zaktualizować):
 
@@ -18,7 +18,7 @@
 
 - Przeszukaj bazę danych pakietów używając wyrażenia regularnego lub słowa klucz:
 
-`pacman -Ss "{{zapytanie}}"`
+`pacman --sync --search "{{zapytanie}}"`
 
 - Wyświetl informacje o pakiecie:
 

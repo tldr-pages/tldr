@@ -7,6 +7,6 @@
 
 `sudo a2dismod {{módulo}}`
 
-- No muestra mensajes informativos:
+- Deshabilita un módulo sin mostrar mensajes informativos:
 
 `sudo a2dismod --quiet {{módulo}}`

@@ -3,26 +3,26 @@
 > Ferramenta de descompactação de arquivos zip.
 > Mais informações: <https://manned.org/unzip>.
 
-- Extraindo arquivos zip:
+- Extrai arquivos zip:
 
-`unzip {{arquivo.zip}}`
+`unzip {{caminho/para/arquivo1.zip caminho/para/arquivo2.zip ...}}`
 
-- Extraindo arquivos zip para caminhos específicos:
+- Extrai arquivos zip para caminhos específicos:
 
-`unzip {{arquivo.zip}} -d {{caminho/para}}`
+`unzip {{caminho/para/arquivo1.zip caminho/para/arquivo2.zip ...}} -d {{caminho/para/saída}}`
 
-- Listando conteúdos de arquivos zip:
+- Extrai arquivos/diretórios de arquivos para `stdout`:
 
-`unzip -l {{arquivo.zip}}`
+`unzip -c {{caminho/para/arquivo1.zip caminho/para/arquivo2.zip ...}}`
 
-- Extraindo arquivos zip sobrescrevendo outros arquivos:
+- Extrai o conteúdo do(s) arquivo(s) para `stdout` ao lado dos nomes dos arquivos extraídos:
 
-`unzip -o {{arquivo.zip}}`
+`unzip -O {{gbk}} {{caminho/para/arquivo1.zip caminho/para/arquivo2.zip ...}}`
 
-- Extraindo arquivos zip não sobrescrevendo outros arquivos:
+- Lista conteúdos de arquivos zip:
 
-`unzip -n {{arquivo.zip}}`
+`unzip -l {{caminho/para/arquivo.zip}}`
 
-- Extraindo arquivos zip sem a estrutura dos diretórios:
+- Extrai arquivos zip sem a estrutura dos diretórios:
 
-`unzip -j {{arquivo.zip}}`
+`unzip -j {{caminho/para/arquivo.zip}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`

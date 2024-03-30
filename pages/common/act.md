@@ -3,7 +3,7 @@
 > Execute GitHub Actions locally using Docker.
 > More information: <https://github.com/nektos/act>.
 
-- List the available actions:
+- [l]ist the available jobs:
 
 `act -l`
 
@@ -15,18 +15,18 @@
 
 `act {{event_type}}`
 
-- Run a specific action:
+- Run a specific [j]ob:
 
-`act -a {{action_id}}`
+`act -j {{job_id}}`
 
-- Do not actually run the actions (i.e. a dry run):
+- Do [n]ot actually run the actions (i.e. a dry run):
 
 `act -n`
 
-- Show verbose logs:
+- Show [v]erbose logs:
 
 `act -v`
 
-- Run a specific workflow:
+- Run a specific [W]orkflow with the push event:
 
 `act push -W {{path/to/workflow}}`

@@ -11,10 +11,6 @@
 
 `dig +short {{esempio.com}} MX`
 
-- Richiedi tutti i tipi di record per un dato dominio:
-
-`dig {{esempio.com}} ANY`
-
 - Specifica un server DNS alternativo a cui fare richiesta:
 
 `dig @{{8.8.8.8}} {{esempio.com}}`

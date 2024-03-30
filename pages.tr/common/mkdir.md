@@ -7,10 +7,6 @@
 
 `mkdir {{dizin}}`
 
-- Mevcut dizinde birden çok dizin oluştur:
-
-`mkdir {{dizin_1 dizin_2 ...}}`
-
 - Özyinelemeli şekilde dizin oluştur (iç içe klasörler oluşturmak için kullanışlıdır):
 
-`mkdir -p {{dizin/yolu}}`
+`mkdir -p {{dizin/yolu1 dizin/yolu2 ...}}`

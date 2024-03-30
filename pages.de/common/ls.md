@@ -33,4 +33,4 @@
 
 - Liste nur Verzeichnisse auf:
 
-`ls -d {{*/}}`
+`ls -d */`

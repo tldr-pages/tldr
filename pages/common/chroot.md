@@ -7,6 +7,6 @@
 
 `chroot {{path/to/new/root}} {{command}}`
 
-- Specify user and group (ID or name) to use:
+- Use a specific user and group:
 
-`chroot --userspec={{user:group}}`
+`chroot --userspec={{username_or_id:group_name_or_id}}`

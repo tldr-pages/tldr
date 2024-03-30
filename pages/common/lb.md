@@ -1,6 +1,6 @@
 # lb
 
-> A tool for managing a blog contained in the current directory.
+> Manage a blog contained in the current directory.
 > Drafts and posts to operate on are selected interactively when running the commands.
 > More information: <https://github.com/LukeSmithxyz/lb>.
 

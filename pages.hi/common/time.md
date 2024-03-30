@@ -3,6 +3,6 @@
 > देखें कि एक कमांड में कितना समय लगता है।
 > अधिक जानकारी: <https://manned.org/time>।
 
-- समय "ls":
+- समय `command`:
 
-`time ls`
+`time {{command}}`

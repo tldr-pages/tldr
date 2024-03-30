@@ -7,6 +7,6 @@
 
 `hakyll-init {{path/to/directory}}`
 
-- Show help for `hakyll-init`:
+- Display help:
 
 `hakyll-init --help`

@@ -1,8 +1,8 @@
 # cgroups
 
-> Este comando é um pseudônimo de `cgclassify`.
+> Este comando é um apelido de `cgclassify`.
 > Mais informações: <https://www.kernel.org/doc/Documentation/cgroup-v2.txt>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr cgclassify`

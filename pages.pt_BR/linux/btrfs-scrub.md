@@ -8,22 +8,22 @@
 
 `sudo btrfs scrub start {{caminho/para/ponto_de_montagem_btrfs}}`
 
-- Mostrar o status de uma varredura em andamento ou concluída:
+- Mostra o status de uma varredura em andamento ou concluída:
 
 `sudo btrfs scrub status {{caminho/para/ponto_de_montagem_btrfs}}`
 
-- Cancelar uma varredura em andamento:
+- Cancela uma varredura em andamento:
 
 `sudo btrfs scrub cancel {{caminho/para/ponto_de_montagem_btrfs}}`
 
-- Retomar uma varredura cancelada anteriormente:
+- Retoma uma varredura cancelada anteriormente:
 
 `sudo btrfs scrub resume {{caminho/para/ponto_de_montagem_btrfs}}`
 
-- Iniciar uma varredura, mas espera até que a varredura termine antes de sair:
+- Inicia uma varredura, mas espera até que a varredura termine antes de sair:
 
 `sudo btrfs scrub start -B {{caminho/para/ponto_de_montagem_btrfs}}`
 
-- Iniciar uma varredura no modo silencioso (não imprime erros ou estatísticas):
+- Inicia uma varredura no modo silencioso (não imprime erros ou estatísticas):
 
 `sudo btrfs scrub start -q {{caminho/para/ponto_de_montagem_btrfs}}`

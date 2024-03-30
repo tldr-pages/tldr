@@ -8,7 +8,7 @@
 
 `echo {{Zijn netwerk ziet er goed uit}} | alex --stdin`
 
-- Analyseer alle bestanden in de huidige directory:
+- Analyseer alle bestanden in de huidige map:
 
 `alex`
 

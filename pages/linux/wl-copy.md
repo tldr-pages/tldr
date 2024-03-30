@@ -1,7 +1,7 @@
 # wl-copy
 
-> Wayland clipboard manipulation tool.
-> See also: `wl-paste`.
+> Clear and copy to Wayland clipboard.
+> See also: `wl-paste`, `xclip`.
 > More information: <https://github.com/bugaevc/wl-clipboard>.
 
 - Copy the text to the clipboard:
@@ -15,6 +15,10 @@
 - Copy for only one paste and then clear it:
 
 `wl-copy --paste-once "{{text}}"`
+
+- Copy an image:
+
+`wl-copy < {{path/to/image}}`
 
 - Clear the clipboard:
 

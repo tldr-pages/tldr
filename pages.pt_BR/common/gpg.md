@@ -1,21 +1,26 @@
 # gpg
 
 > GNU Privacy Guard.
+> Veja `gpg2` para o GNU Privacy Guard 2. A maioria dos sistemas operacionais criam link simbólico entre `gpg` e `gpg2`.
 > Mais informações: <https://gnupg.org>.
 
-- Assina doc.txt, sem criptografá-lo (cria um arquivo de saída doc.txt.asc):
+- Cria uma chave GPG pública e privada interativamente:
+
+`gpg --full-generate-key`
+
+- Assina doc.txt sem criptografia (cria um arquivo de saída `doc.txt.asc`):
 
 `gpg --clearsign {{doc.txt}}`
 
-- Criptografa doc.txt para alice@example.com (cria um arquivo de saída `doc.txt.gpg`):
+- Criptografa e assina `doc.txt` para alice@example.com e bob@example.com (cria um arquivo de saída `doc.txt.gpg`):
 
-`gpg --encrypt --recipient {{alice@example.com}} {{doc.txt}}`
+`gpg --encrypt --sign --recipient {{alice@example.com}} --recipient {{bob@example.com}} {{doc.txt}}`
 
-- Criptografa doc.txt apenas com uma senha simétrica (cria um arquivo de sadída `doc.txt.gpg`):
+- Criptografa `doc.txt` apenas com uma senha simétrica (cria um arquivo de saída `doc.txt.gpg`):
 
 `gpg --symmetric {{doc.txt}}`
 
-- Descriptografa doc.txt.gpg (envia saída para `stdout`):
+- Descriptografa `doc.txt.gpg` (envia saída para `stdout`):
 
 `gpg --decrypt {{doc.txt.gpg}}`
 

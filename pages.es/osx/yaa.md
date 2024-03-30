@@ -1,7 +1,7 @@
 # yaa
 
 > Crea y manipula archivos YAA.
-> Más información: <https://www.manpagez.com/man/1/yaa/>.
+> Más información: <https://keith.github.io/xcode-man-pages/yaa.1.html>.
 
 - Crea un archivo a partir de un directorio:
 
@@ -25,4 +25,4 @@
 
 - Crea un archivo con un tamaño de bloque de 8 MB:
 
-`yaa archive -b {{8m}}} -d {{ruta/al/directorio}} -o {{ruta/al/archivo_de_salida.yaa}}`
+`yaa archive -b {{8m}} -d {{ruta/al/directorio}} -o {{ruta/al/archivo_de_salida.yaa}}`

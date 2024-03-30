@@ -10,7 +10,7 @@
 
 - Navigate left/up/down/right:
 
-`<H|J|K|L> or arrow keys`
+`{{H|J|K|L|arrow keys}}`
 
 - Rotate:
 
@@ -18,7 +18,7 @@
 
 - Invert Colors:
 
-`Ctrl + R`
+`<Ctrl> + R`
 
 - Search for text by a given string:
 

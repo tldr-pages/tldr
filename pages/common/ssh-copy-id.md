@@ -5,7 +5,7 @@
 
 - Copy your keys to the remote machine:
 
-`ssh-copy-id {{username@remote_host}}`
+`ssh-copy-id {{username}}@{{remote_host}}`
 
 - Copy the given public key to the remote:
 

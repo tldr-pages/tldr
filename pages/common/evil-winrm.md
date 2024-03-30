@@ -24,7 +24,7 @@
 
 `PS > upload {{path/to/local/file}} {{path/to/remote/file}}`
 
-- Get a list of loaded PowerShell functions:
+- List all loaded PowerShell functions:
 
 `PS > menu`
 

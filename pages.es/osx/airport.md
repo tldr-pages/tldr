@@ -1,11 +1,11 @@
 # airport
 
 > Utilidad de configuración de red inalámbrica.
-> Más información: <https://ss64.com/osx/airport.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/airport.1.html>.
 
 - Muestra la información del estado actual de la red inalámbrica:
 
-`airport -I`
+`airport --getinfo`
 
 - Detecta tráfico inalámbrico en el canal 1:
 
@@ -13,8 +13,8 @@
 
 - Busca redes inalámbricas disponibles:
 
-`airport -s`
+`airport --scan`
 
 - Desasociarse de la red actual:
 
-`sudo airport -z`
+`sudo airport --disassociate`

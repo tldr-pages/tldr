@@ -12,6 +12,6 @@
 
 `sccmap -v -s {{path/to/input1.gv}} {{path/to/input2.gv ...}}`
 
-- Display help for `sccmap`:
+- Display help:
 
 `sccmap -?`

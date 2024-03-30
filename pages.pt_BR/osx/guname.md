@@ -1,7 +1,7 @@
 # guname
 
-> Este comando é um pseudônimo de `-p linux uname`.
+> Este comando é um apelido de `-p linux uname`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux uname`

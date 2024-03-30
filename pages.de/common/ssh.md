@@ -16,10 +16,6 @@
 
 `ssh {{benutzer}}@{{externer_server}} -p {{2222}}`
 
-- Führen einen Befehl auf einem externen Server aus:
-
-`ssh {{externer_server}} {{befehl}}`
-
 - SSH Tunneln: Leite Ports dynamische Port weiter (SOCKS proxy auf localhost:1080):
 
 `ssh -D {{1080}} {{benutzer}}@{{externer_server}}`
@@ -30,7 +26,7 @@
 
 - SSH Springen: Verbinde über einen Spring-Server zu einem externen Server (Es können auch mehrere Spring-Server über eine Komma-separierte Liste angegeben werden):
 
-`ssh -J {{benutzer@sring_server}} {{benutzer}}@{{externer_server}}`
+`ssh -J {{benutzer}}@{{sring_server}} {{benutzer}}@{{externer_server}}`
 
 - Agenten Weiterleitung: Leite die eigenen Authentifizierungs-Informationen an den externen Server weiter (siehe `man ssh_config` für mehr Optionen):
 

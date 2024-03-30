@@ -9,11 +9,11 @@
 
 - Query the device state at multiple paths:
 
-`gnmic -a {{ip:port}} get --path {{path1}} --path {{path2}}`
+`gnmic -a {{ip:port}} get --path {{path/to/file_or_directory1}} --path {{path/to/file_or_directory2}}`
 
 - Query the device state at multiple paths with a common prefix:
 
-`gnmic -a {{ip:port}} get --prefix {{prefix}} --path {{path1}} --path {{path2}}`
+`gnmic -a {{ip:port}} get --prefix {{prefix}} --path {{path/to/file_or_directory1}} --path {{path/to/file_or_directory2}}`
 
 - Query the device state and specify response encoding (json_ietf):
 

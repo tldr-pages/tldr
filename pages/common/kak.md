@@ -14,11 +14,11 @@
 
 - Escape insert mode, to go back to normal mode:
 
-`<Escape>`
+`<Esc>`
 
 - Replace all instances of "foo" in the current file with "bar":
 
-`%s{{foo}}<Enter>c{{bar}}<Escape>`
+`%s{{foo}}<Enter>c{{bar}}<Esc>`
 
 - Unselect all secondary selections, and keep only the main one:
 

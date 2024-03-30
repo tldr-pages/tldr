@@ -1,7 +1,7 @@
 # smbclient
 
 > Programma client simile ad FTP per server SMB/CIFS.
-> Maggiori informazioni: <https://manned.org/man.it/smbclient.1>.
+> Maggiori informazioni: <https://manned.org/smbclient>.
 
 - Connettiti ad una share (all'utente verrà richiesta la password; `exit` per uscire dalla sessione):
 

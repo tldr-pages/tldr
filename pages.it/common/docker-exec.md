@@ -13,13 +13,13 @@
 
 - Seleziona la directory di lavoro in cui eseguire un dato comando:
 
-`docker exec --interactive -tty --workdir {{percorso/della/directory}} {{nome_container}} {{comando}}`
+`docker exec --interactive --tty --workdir {{percorso/della/directory}} {{nome_container}} {{comando}}`
 
 - Esegui un comando in background su un container esistente, mantenendo aperto `stdin`:
 
 `docker exec --interactive --detach {{nome_container}} {{comando}}`
 
-- Imposta una variabile d'ambiente in una sessione bash in esecuzione:
+- Imposta una variabile d'ambiente in una sessione Bash in esecuzione:
 
 `docker exec --interactive --tty --env {{nome_variabile}}={{valore}} {{nome_container}} {{/bin/bash}}`
 

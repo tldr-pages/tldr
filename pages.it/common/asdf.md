@@ -5,15 +5,15 @@
 
 - Elenca tutti i plugin disponibili:
 
-`asdf plugin-list-all`
+`asdf plugin list all`
 
 - Installa un plugin:
 
-`asdf plugin-add {{nome}}`
+`asdf plugin add {{nome}}`
 
 - Elenca tutte le versioni disponibili per un pacchetto:
 
-`asdf list-all {{nome}}`
+`asdf list all {{nome}}`
 
 - Installa una specifica versione di un pacchetto:
 

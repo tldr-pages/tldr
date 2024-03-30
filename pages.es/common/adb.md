@@ -2,7 +2,7 @@
 
 > Android Debug Bridge: comunica con una instancia de un emulador Android o conecta dispositivos Android.
 > Algunos subcomandos, como `adb shell`, tienen su propia documentación de uso.
-> Más información: <https://developer.android.com/studio/command-line/adb>.
+> Más información: <https://developer.android.com/tools/adb>.
 
 - Verifica si el proceso del servidor adb está ejecutandose y lo inicia:
 
@@ -12,7 +12,7 @@
 
 `adb kill-server`
 
-- Inicia una terminal remota en la instance del emulador/dispositivo de destino:
+- Inicia una terminal remota en la instancia del emulador/dispositivo de destino:
 
 `adb shell`
 
@@ -28,6 +28,6 @@
 
 `adb push {{ruta/al/archivo_o_directorio_local}} {{ruta/al/directorio_de_destino_en_el_dispositivo}}`
 
-- Obtiene una lista de dispositivos conectados:
+- Obtén una lista de dispositivos conectados:
 
 `adb devices`

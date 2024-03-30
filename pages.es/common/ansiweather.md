@@ -7,7 +7,7 @@
 
 `ansiweather -u {{metric}} -f {{5}} -l {{Rzeszow,PL}}`
 
-- Mostrar una previsión con símbolos y datos de la luz del día dada tu ubicación actual:
+- Muestra una previsión con símbolos y datos de la luz del día dada tu ubicación actual:
 
 `ansiweather -s {{true}} -d {{true}}`
 

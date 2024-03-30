@@ -21,4 +21,4 @@
 
 - Prueba la resolución DNS por parte de los servidores de Amazon de una zona determinada:
 
-`aws route53 test-dns-answer --hosted-zone-id {{zone_id}}  --record-name {{nombre}} --record-type {{tipo}}`
+`aws route53 test-dns-answer --hosted-zone-id {{zone_id}} --record-name {{nombre}} --record-type {{tipo}}`

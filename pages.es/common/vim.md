@@ -12,7 +12,7 @@
 
 `vim +{{número_de_línea}} {{ruta/al/archivo}}`
 
-- Ver el manual de Vim:
+- Muestra el manual de Vim:
 
 `:help<Enter>`
 
@@ -20,9 +20,9 @@
 
 `:wq<Enter>`
 
-- Deshace la última operación:
+- Deshaz la última operación:
 
-`u`
+`<ESC>u`
 
 - Busca un patrón en el archivo (pulsa `n`/`N` para ir a la próxima/previa coincidencia):
 

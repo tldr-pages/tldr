@@ -2,7 +2,7 @@
 
 > Bourne-Again SHell, an `sh`-compatible command-line interpreter.
 > See also: `zsh`, `histexpand` (history expansion).
-> More information: <https://gnu.org/software/bash/>.
+> More information: <https://www.gnu.org/software/bash/>.
 
 - Start an interactive shell session:
 
@@ -20,7 +20,7 @@
 
 `bash {{path/to/script.sh}}`
 
-- Execute a specific script while printing each command before executing it:
+- E[x]ecute a specific script, printing each command before executing it:
 
 `bash -x {{path/to/script.sh}}`
 

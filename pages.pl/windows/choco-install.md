@@ -33,4 +33,4 @@
 
 - Podanie nazwy użytkownika i hasła do uwierzytelnienia:
 
-`choco install {{pakiet}} --user {{nazwa_użytkownika}}} --password {{hasło}}`
+`choco install {{pakiet}} --user {{nazwa_użytkownika}} --password {{hasło}}`

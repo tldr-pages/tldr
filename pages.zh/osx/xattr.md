@@ -1,7 +1,7 @@
 # xattr
 
 > 用于扩展文件系统属性的实用程序。
-> 更多信息：<https://ss64.com/osx/xattr.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/xattr.1.html>.
 
 - 列出 键：值 列表，显示指定文件的值扩展属性：
 

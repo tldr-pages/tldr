@@ -21,4 +21,4 @@
 
 - Saniye başı en çok CPU kullanan 5 işlemin listesini yazdır:
 
-`prstat -c -n 5 -s cpu 1`
+`prstat -c -n {{5}} -s cpu {{1}}`

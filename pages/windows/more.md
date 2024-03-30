@@ -27,6 +27,6 @@
 
 `more {{path\to\file}} /e`
 
-- Display full usage information:
+- Display help:
 
 `more /?`

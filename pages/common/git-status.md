@@ -10,12 +10,20 @@
 
 - Give output in [s]hort format:
 
-`git status -s`
+`git status --short`
+
+- Show the [b]ranch and tracking info:
+
+`git status --branch`
+
+- Show output in [s]hort format along with [b]ranch info:
+
+`git status --short --branch`
+
+- Show the number of entries currently stashed away:
+
+`git status --show-stash`
 
 - Don't show untracked files in the output:
 
 `git status --untracked-files=no`
-
-- Show output in [s]hort format along with [b]ranch info:
-
-`git status -sb`

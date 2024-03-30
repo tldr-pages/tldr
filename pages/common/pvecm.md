@@ -11,7 +11,7 @@
 
 `pvecm addnode {{node}}`
 
-- Return the version of the cluster join API available on this node:
+- Display the version of the cluster join API available on this node:
 
 `pvecm apiver`
 

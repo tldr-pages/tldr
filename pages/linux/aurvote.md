@@ -20,6 +20,6 @@
 
 `aurvote --check {{package1 package2 ...}}`
 
-- Show help for `aurvote`:
+- Display help:
 
 `aurvote --help`

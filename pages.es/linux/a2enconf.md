@@ -7,6 +7,6 @@
 
 `sudo a2enconf {{archivo_de_configuración}}`
 
-- No muestra mensajes informativos:
+- Habilita un archivo de configuración sin mostrar mensajes informativos:
 
 `sudo a2enconf --quiet {{archivo_de_configuración}}`

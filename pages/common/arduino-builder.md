@@ -1,7 +1,7 @@
 # arduino-builder
 
 > Compile arduino sketches.
-> DEPRECATION WARNING: This tool is being phased out in favor of `arduino`.
+> DEPRECATION WARNING: this tool is being phased out in favor of `arduino`.
 > More information: <https://github.com/arduino/arduino-builder>.
 
 - Compile a sketch:

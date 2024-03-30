@@ -1,7 +1,7 @@
 # kafkacat
 
-> Este comando é um pseudônimo de `kcat`.
+> Este comando é um apelido de `kcat`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr kcat`

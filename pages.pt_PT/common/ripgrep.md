@@ -2,6 +2,6 @@
 
 > Este comando é um alias de `rg`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr rg`

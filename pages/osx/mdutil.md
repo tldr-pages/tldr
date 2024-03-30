@@ -1,7 +1,7 @@
 # mdutil
 
 > Manage the metadata stores used by Spotlight for indexing.
-> More information: <https://ss64.com/osx/mdutil.html>.
+> More information: <https://keith.github.io/xcode-man-pages/mdutil.1.html>.
 
 - Show the indexing status of the startup volume:
 

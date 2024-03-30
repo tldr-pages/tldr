@@ -2,7 +2,7 @@
 
 > Android Asset Packaging-tool.
 > Compileer en verpak de bronnen van een Android-app.
-> Meer Informatie: <https://elinux.org/Android_aapt>.
+> Meer informatie: <https://elinux.org/Android_aapt>.
 
 - Maak een lijst van bestanden in een APK-archief:
 
@@ -14,4 +14,4 @@
 
 - Maak een nieuw APK-archief met bestanden uit de opgegeven map:
 
-`aapt package -F {{pad/naar/app.apk}} {{pad/naar/directory}}`
+`aapt package -F {{pad/naar/app.apk}} {{pad/naar/map}}`

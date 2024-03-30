@@ -1,4 +1,4 @@
-# snap
+# esa snap
 
 > Sentinel Application Platform (SNAP) for processing satellite data from the European Space Agency (ESA).
 > More information: <http://step.esa.int/main/download/snap-download/>.

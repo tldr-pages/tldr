@@ -1,17 +1,13 @@
 # chromium
 
-> Navegador código aberto do Google.
+> Navegador código aberto desenvolvido principalmente e mantido pela Google.
 > Mais informações: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
-- Abre um arquivo:
+- Abre uma URL ou arquivo específico:
 
-`chromium {{caminho/para/arquivo.html}}`
+`chromium {{https://exemplo.com|caminho/para/arquivo.html}}`
 
-- Abre uma URL:
-
-`chromium {{exemplo.com}}`
-
-- Abre no modo de navegação anônima (icognito):
+- Abre no modo de navegação anônima (incógnito):
 
 `chromium --incognito {{exemplo.com}}`
 
@@ -19,10 +15,22 @@
 
 `chromium --new-window {{exemplo.com}}`
 
-- Abre no modo app (Sem barra de tarefas, barra de URL, botões, etc.):
+- Abre no modo aplicativo (Sem barra de tarefas, barra de URL, botões, etc.):
 
-`chromium --app='{{https://example.com}}'`
+`chromium --app={{https://exemplo.com}}`
 
 - Usa um servidor proxy:
 
 `chromium --proxy-server="{{socks5://hostname:66}}" {{exemplo.com}}`
+
+- Abre com um diretório de perfil customizado:
+
+`chromium --user-data-dir={{caminho/para/arquivo}}`
+
+- Abre sem validação CORS (útil para testar uma API):
+
+`chromium --user-data-dir={{caminho/para/arquivo}} --disable-web-security`
+
+- Abre com uma janela DevTools para cada aba aberta:
+
+`chromium --auto-open-devtools-for-tabs`

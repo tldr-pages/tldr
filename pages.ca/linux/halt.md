@@ -17,7 +17,7 @@
 
 - Deté la màquina inmediatament sense contactar l'administrador de sistemes:
 
-`halt --force --force`
+`halt --force`
 
 - Escriu l'entrada de wtpm shutdown sense aturar el sistema:
 

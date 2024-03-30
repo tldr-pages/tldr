@@ -1,7 +1,7 @@
 # md5
 
 > Calculate MD5 cryptographic checksums.
-> More information: <https://ss64.com/osx/md5.html>.
+> More information: <https://keith.github.io/xcode-man-pages/md5.1.html>.
 
 - Calculate the MD5 checksum for a file:
 

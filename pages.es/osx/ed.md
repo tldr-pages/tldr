@@ -1,7 +1,7 @@
 # ed
 
 > El editor de texto original de Unix.
-> Ver también: `awk`, `sed`.
+> Vea también: `awk`, `sed`.
 > Más información: <https://www.gnu.org/software/ed/manual/ed_manual.html>.
 
 - Inicia una sesión de edición interactiva con un documento vacío:

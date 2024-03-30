@@ -12,6 +12,6 @@
 
 `unflatten {{path/to/input.gv}} | dot -T {{png}} {{path/to/output.png}}`
 
-- Display help for `unflatten`:
+- Display help:
 
 `unflatten -?`

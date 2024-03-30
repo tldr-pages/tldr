@@ -15,7 +15,7 @@
 
 `mv -i {{ruta/al/origen}} {{ruta/al/destino}}`
 
-- No sobrescribe archivos existentes en el destino:
+- Mueve un archivo sin sobreescribir otro archivo:
 
 `mv -n {{ruta/al/origen}} {{ruta/al/destino}}`
 

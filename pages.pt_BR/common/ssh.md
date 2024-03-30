@@ -4,19 +4,19 @@
 > Ele pode ser usado para fazer login ou executar comandos em um servidor remoto.
 > Mais informações: <https://man.openbsd.org/ssh>.
 
-- Conectar-se a um servidor remoto:
+- Conecta a um servidor remoto:
 
 `ssh {{nome_do_usuário}}@{{host_remoto}}`
 
-- Conectar-se a um servidor remoto com uma identidade específica (chave privada):
+- Conecta a um servidor remoto com uma identidade específica (chave privada):
 
 `ssh -i {{caminho/para/arquivo_de_chave}} {{nome_do_usuário}}@{{host_remoto}}`
 
-- Conectar-se a um servidor remoto usando uma porta específica:
+- Conecta a um servidor remoto usando uma porta específica:
 
 `ssh {{nome_do_usuário}}@{{host_remoto}} -p {{2222}}`
 
-- Executar um comando em um servidor remoto com uma alocação de [t]ty permitindo interação com o comando remoto:
+- Executa um comando em um servidor remoto com uma alocação de [t]ty permitindo interação com o comando remoto:
 
 `ssh {{nome_do_usuário}}@{{host_remoto}} -t {{comando}} {{argumentos_do_comando}}`
 
@@ -24,11 +24,11 @@
 
 `ssh -D {{1080}} {{nome_do_usuário}}@{{host_remoto}}`
 
-- Tunelamento SSH: Encaminhar uma porta específica (`localhost:9999` para `example.org:80`), desativar alocação de pseudo-[t]ty e execução de comandos remotos:
+- Tunelamento SSH: Encaminha uma porta específica (`localhost:9999` para `example.org:80`), desativa a alocação de pseudo-[t]ty e execução de comandos remotos:
 
 `ssh -L {{9999}}:{{example.org}}:{{80}} -N -T {{nome_do_usuário}}@{{host_remoto}}`
 
-- Saltar com SSH: Conectar-se a um servidor remoto através de um host intermediário (vários saltos intermediários podem ser especificados separados por vírgula):
+- Salta com SSH: Conecta a um servidor remoto através de um host intermediário (vários saltos intermediários podem ser especificados separados por vírgula):
 
 `ssh -J {{nome_do_usuário}}@{{host_intermediário}} {{nome_do_usuário}}@{{host_remoto}}`
 

@@ -5,7 +5,7 @@
 
 - Bestanden of mappen delen:
 
-`airshare {{code}} {{pad/naar/bestand_of_directory1 pad/naar/bestand_of_directory2 ...}}`
+`airshare {{code}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
 - Ontvang een bestand:
 
@@ -17,7 +17,7 @@
 
 - Stuur bestanden of mappen naar een ontvangende server:
 
-`airshare --upload {{code}} {{pad/naar/bestand_of_directory1 pad/naar/bestand_of_directory2 ...}}`
+`airshare --upload {{code}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
 - Bestanden verzenden waarvan de paden naar het klembord zijn gekopieerd:
 

@@ -1,7 +1,7 @@
 # ditto
 
 > Copia arquivos e diretórios.
-> Mais informações: <https://ss64.com/osx/ditto.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/ditto.1.html>.
 
 - Sobrescreve o conteúdo do diretório de destino pelo conteúdo do diretório de origem:
 

@@ -1,24 +1,24 @@
 # lsusb
 
-> Muestra información sobre puertos y dispositivos USB.
+> Muestra información sobre los buses USB y los dispositivos conectados a ellos.
 > Más información: <https://manned.org/lsusb>.
 
-- Lista todos los dispositivos USB disponibles:
+- Muestra todos los dispositivos USB disponibles:
 
 `lsusb`
 
-- Lista la jerarquía de dispositivos USB en forma de árbol:
+- Lista la jerarquía USB como un árbol:
 
 `lsusb -t`
 
-- Lista los dispositivos USB de forma verbosa:
+- Muestra información detallada sobre los dispositivos USB:
 
 `lsusb --verbose`
 
-- Lista información detallada acerca de un dispositivo USB determinado:
+- Muestra información detallada sobre un dispositivo USB:
 
-`lsusb -D {{dispositivo}}`
+`lsusb --verbose -s {{bus}}:{{número de dispositivo}}`
 
-- Lista solo dispositivos con un ID de ensamblador y producto determinado:
+- Muestra sólo los dispositivos con un ID de proveedor y producto determinados:
 
-`lsusb -d {{ensamblador}}:{{producto}}`
+`lsusb -d {{vendedor}}:{{producto}}`

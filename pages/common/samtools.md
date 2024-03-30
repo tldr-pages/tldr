@@ -16,7 +16,7 @@
 
 `samtools sort {{input}} -o {{output.bam}}`
 
-- Index a sorted BAM file (creates {{sorted_input.bam.bai}}):
+- Index a sorted BAM file (creates `sorted_input.bam.bai`):
 
 `samtools index {{sorted_input.bam}}`
 
@@ -30,7 +30,7 @@
 
 - Merge multiple files:
 
-`samtools merge {{output}} {{input1 input2 …}}`
+`samtools merge {{output}} {{input1 input2 ...}}`
 
 - Split input file according to read groups:
 

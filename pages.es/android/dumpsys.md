@@ -2,13 +2,13 @@
 
 > Suministra información sobre los servicios del sistema Android.
 > Este comando solo se puede usar a través de `adb shell`.
-> Más información: <https://developer.android.com/studio/command-line/dumpsys>.
+> Más información: <https://developer.android.com/tools/dumpsys>.
 
-- Obtiene resultados de diagnóstico para todos los servicios del sistema:
+- Obtén los resultados de diagnóstico para todos los servicios del sistema:
 
 `dumpsys`
 
-- Obtiene resultados de diagnóstico para un servicio de sistema específico:
+- Obtén los resultados de diagnóstico para un servicio de sistema específico:
 
 `dumpsys {{service}}`
 

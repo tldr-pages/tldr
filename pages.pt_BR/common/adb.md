@@ -2,9 +2,9 @@
 
 > Android Debug Bridge: Comunica com uma instância do emulador Android emulator ou dispositivos conectados.
 > Alguns subcomandos tais como `adb shell` possuem sua própria documentação de uso.
-> Mais informações: <https://developer.android.com/studio/command-line/adb>.
+> Mais informações: <https://developer.android.com/tools/adb>.
 
-- Checa se o servidor adb está em execução e o iniciar:
+- Checa se o servidor adb está em execução e o inicia:
 
 `adb start-server`
 

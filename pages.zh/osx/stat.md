@@ -1,7 +1,7 @@
 # stat
 
 > 显示文件状态。
-> 更多信息：<https://ss64.com/osx/stat.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/stat.1.html>.
 
 - 显示文件属性，如大小、权限、创建和访问日期等：
 

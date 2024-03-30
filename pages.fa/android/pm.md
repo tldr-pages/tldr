@@ -1,7 +1,7 @@
 # pm
 
 > نمایش اطلاعات مربوط به برنامه های یک دستگاه اندروید.
-> اطلاعات بیشتر: <https://developer.android.com/studio/command-line/adb#pm>.
+> اطلاعات بیشتر: <https://developer.android.com/tools/adb#pm>.
 
 - فهرست تمامی برنامه های نصب شده :
 
@@ -17,7 +17,7 @@
 
 - فهرست برنامه های منطبق با کلید واژه(ها) :
 
-`pm list packages {{کلمه کلیدی 1 کلمه کلیدی 2 ...}}`
+`pm list packages {{keyword1 keyword2 ...}}`
 
 - نمایش مسیر فایل APK یک برنامه مشخص :
 

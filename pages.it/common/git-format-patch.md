@@ -10,7 +10,7 @@
 
 - Scrivi su `stdout` un file `.patch` per l'intervallo di commit definito dai due commit dati:
 
-`git format-patch --stdout {{commit_1}}..{{commit_2}}`
+`git format-patch {{commit_1}}..{{commit_2}}`
 
 - Scrivi un file `.patch` per gli ultimi 3 commit:
 

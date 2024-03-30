@@ -19,7 +19,7 @@
 
 `aws iam list-groups`
 
-- Obtiene los usuarios de un grupo:
+- Obtén los usuarios de un grupo:
 
 `aws iam get-group --group-name {{nombre_grupo}}`
 

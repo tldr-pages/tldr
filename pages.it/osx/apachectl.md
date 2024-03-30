@@ -1,7 +1,7 @@
 # apachectl
 
 > Interfaccia di controllo del server HTTP Apache per macOS.
-> Maggiori informazioni: <https://www.unix.com/man-page/osx/8/apachectl/>.
+> Maggiori informazioni: <https://keith.github.io/xcode-man-pages/apachectl.8.html>.
 
 - Avvia il demone `org.apache.httpd`:
 

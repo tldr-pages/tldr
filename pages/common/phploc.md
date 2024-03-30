@@ -1,6 +1,6 @@
 # phploc
 
-> A tool for quickly measuring the size and analyzing the structure of a PHP project.
+> Quickly measure the size and analyzing the structure of a PHP project.
 > More information: <https://github.com/sebastianbergmann/phploc>.
 
 - Analyze a directory and print the result:
@@ -9,11 +9,11 @@
 
 - Include only specific files from a comma-separated list (globs are allowed):
 
-`phploc {{path/to/directory}} --names {{files}}`
+`phploc {{path/to/directory}} --names '{{path/to/file1,path/to/file2,...}}'`
 
 - Exclude specific files from a comma-separated list (globs are allowed):
 
-`phploc {{path/to/directory}} --names-exclude {{files}}`
+`phploc {{path/to/directory}} --names-exclude '{{path/to/file1,path/to/file2,...}}'`
 
 - Exclude a specific directory from analysis:
 

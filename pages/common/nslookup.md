@@ -1,6 +1,6 @@
 # nslookup
 
-> Query name server(s) for various domain records.
+> Query name servers for various domain records.
 > More information: <https://manned.org/nslookup>.
 
 - Query your system's default name server for an IP address (A record) of the domain:
@@ -17,7 +17,7 @@
 
 - Query for ANY available records using TCP protocol:
 
-`nslookup -vc -type=ANY {{example.com}} `
+`nslookup -vc -type=ANY {{example.com}}`
 
 - Query a given name server for the whole zone file (zone transfer) of the domain using TCP protocol:
 

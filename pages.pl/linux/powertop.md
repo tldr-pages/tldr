@@ -3,7 +3,7 @@
 > Optymalizuje zużycie energii akumulatora.
 > Więcej informacji: <https://github.com/fenrus75/powertop>.
 
-- Kalibracja pomiarów zużycia energii
+- Kalibracja pomiarów zużycia energii:
 
 `sudo powertop --calibrate`
 

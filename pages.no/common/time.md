@@ -3,6 +3,6 @@
 > See hvor lang en kommand tar.
 > Mer informasjon: <https://manned.org/time>.
 
-- Tid "ls":
+- Tid `command`:
 
-`time ls`
+`time {{command}}`

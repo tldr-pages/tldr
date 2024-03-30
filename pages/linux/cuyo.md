@@ -9,11 +9,11 @@
 
 - Navigate the piece horizontally:
 
-`{{A|D}} OR {{Left|Right}} arrow key`
+`{{A|D|Left arrow key|Right arrow key}}`
 
 - Turn the piece:
 
-`{{W|Up arrow key}} `
+`{{W|Up arrow key}}`
 
 - Hard drop the piece:
 

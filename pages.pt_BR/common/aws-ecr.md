@@ -3,7 +3,7 @@
 > Enviar, buscar, e gerenciar imagens de container.
 > Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html>.
 
-- Autentica o docker com o registro default (nome do usuário na AWS):
+- Autentica o Docker com o registro default (nome do usuário na AWS):
 
 `aws ecr get-login-password --region {{region}} | {{docker login}} --username AWS --password-stdin {{aws_account_id}}.dkr.ecr.{{region}}.amazonaws.com`
 
@@ -25,7 +25,7 @@
 
 - Apaga uma imagem de um repositório:
 
-`aws ecr batch-delete-image  --repository-name {{repositório}} --image-ids imageTag={{latest}}`
+`aws ecr batch-delete-image --repository-name {{repositório}} --image-ids imageTag={{latest}}`
 
 - Apaga um repositório:
 

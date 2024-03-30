@@ -27,7 +27,7 @@
 
 `r sel`
 
-- Display detailed help:
+- Display help:
 
 `?`
 

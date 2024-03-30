@@ -16,6 +16,6 @@
 
 `virsh help {{category_keyword}}`
 
-- Show help for a command:
+- Display help for a command:
 
 `virsh help {{command}}`

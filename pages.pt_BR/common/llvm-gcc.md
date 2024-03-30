@@ -1,7 +1,7 @@
 # llvm-gcc
 
-> Este comando é um pseudônimo de `clang`.
+> Este comando é um apelido de `clang`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr clang`

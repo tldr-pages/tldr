@@ -4,13 +4,9 @@
 > Alcuni comandi aggiuntivi, come `docker run`, hanno la propria documentazione.
 > Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Elenca i container Docker attualmente in esecuzione:
-
-`docker ps`
-
 - Elenca tutti i container Docker (in esecuzione e arrestati):
 
-`docker ps -a`
+`docker ps --all`
 
 - Avvia un container da una immagine, con un nome personalizzato:
 

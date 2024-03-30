@@ -1,7 +1,7 @@
 # aws backup
 
 > Amazon Web Services와 관련 데이터를 보호하기 위해 설계된 통합 백업 서비스.
-> 더 많은 정보: https://docs.aws.amazon.com/cli/latest/reference/backup/index.html.
+> 더 많은 정보: <https://docs.aws.amazon.com/cli/latest/reference/backup/index.html>.
 
 - 특정 BackupPlanId에 대한 백업 계획 세부 정보 반환:
 

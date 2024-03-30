@@ -1,7 +1,7 @@
 # apt-key
 
 > Schlüssel-Management-Tool für den APT-Paket-Manager auf Debian und Ubuntu.
-> Notiz: `apt-key` ist deprecated (außer für `apt-key del` in Maintainer Scripts).
+> Notiz: `apt-key` ist veraltet (außer für `apt-key del` in Maintainerskripten).
 > Weitere Informationen: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
 
 - Liste alle vertrauten Schlüssel auf:

@@ -13,11 +13,11 @@
 
 - Navigate the snake:
 
-`{{Up|Down|Left|Right}} arrow key`
+`{{Up|Down|Left|Right arrow key}}`
 
 - Pause game:
 
-`Spacebar`
+`<Spacebar>`
 
 - Quit game:
 

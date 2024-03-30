@@ -14,7 +14,7 @@
 
 - Lade eine Datei herunter, folge Weiterleitungen und setze vergangene Dateitransfers automatisch fort:
 
-`curl --remote-name --location --continue-at - {{http://beispiel.de/datei}}`
+`curl --fail --remote-name --location --continue-at - {{http://beispiel.de/datei}}`
 
 - Sende formular-codierte Daten (POST Anfragen des Typs `application/x-www-form-urlencoded`). Benutze `--data @dateiname` oder `--data @'-'`, um von STDIN zu lesen:
 
@@ -28,9 +28,9 @@
 
 `curl --data {{'{"name":"karl-dieter"}'}} --header {{'Content-Type: application/json'}} {{http://beispiel.de/benutzer/1234}}`
 
-- Übergib einen Benutzernamen und Passwort für die Server-Authentifizierung:
+- Übergib einen Benutzernamen und frage nach einem Passwort für die Server-Authentifizierung:
 
-`curl --user benutzername:passwort {{http://beispiel.de}}`
+`curl --user {{benutzername}} {{http://beispiel.de}}`
 
 - Übergib Client-Zertifikat und -Schlüssel für eine Ressource und überspringe die Zertifikatsüberprüfung:
 

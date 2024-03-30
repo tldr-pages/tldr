@@ -1,7 +1,7 @@
 # exec
 
 > Sostituisci il processo corrente con un altro.
-> Maggiori informazioni: <https://linuxcommand.org/lc3_man_pages/exech.html>.
+> Maggiori informazioni: <https://manned.org/exec.1posix>.
 
 - Sostituisci con il comando specificato utilizzando le variabili di ambiente correnti:
 

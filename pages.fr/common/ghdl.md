@@ -7,7 +7,7 @@
 
 `ghdl -a {{fichier.vhdl}}`
 
-- Élabore un design (où `{{design}}` est le nom d'une unité de configuration, d'entité, ou d'architecture) :
+- Élabore un design (où `design` est le nom d'une unité de configuration, d'entité, ou d'architecture) :
 
 `ghdl -e {{design}}`
 

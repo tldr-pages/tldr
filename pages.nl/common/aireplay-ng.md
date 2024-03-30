@@ -2,7 +2,7 @@
 
 > Injecteer pakketten in een draadloos netwerk.
 > Deel van `aircrack-ng`.
-> Meer Informatie: <https://www.aircrack-ng.org/doku.php?id=aireplay-ng>.
+> Meer informatie: <https://www.aircrack-ng.org/doku.php?id=aireplay-ng>.
 
 - Stuur een specifiek aantal losgekoppelde pakketten op basis van het MAC-adres van een toegangspunt, het MAC-adres van een cliënt en een interface:
 

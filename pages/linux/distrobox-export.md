@@ -1,8 +1,7 @@
 # distrobox-export
 
-> Export app/service/binary from container to host OS.
-> Subcommand of `distrobox`. See also: `tldr distrobox`.
-> More information: <https://distrobox.privatedns.org/usage/distrobox-export.html>.
+> Export app/service/binary from container to host OS. See also: `tldr distrobox`.
+> More information: <https://distrobox.it/usage/distrobox-export>.
 
 - Export an app from the container to the host (the desktop entry/icon will show up in your host system's application list):
 

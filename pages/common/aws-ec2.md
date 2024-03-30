@@ -1,7 +1,7 @@
 # aws ec2
 
-> CLI for AWS EC2.
-> Provides secure and resizable computing capacity in the AWS cloud to enable faster development and deployment of applications.
+> Manage AWS EC2 instances and volumes.
+> AWS EC2 provides secure and resizable computing capacity in the AWS cloud for faster development and deployment of applications.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html>.
 
 - Display information about a specific instance:
@@ -32,6 +32,6 @@
 
 `aws ec2 help`
 
-- Show help for specific EC2 subcommand:
+- Display help for specific EC2 subcommand:
 
 `aws ec2 {{subcommand}} help`

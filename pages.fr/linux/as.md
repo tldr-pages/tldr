@@ -9,7 +9,7 @@
 
 - Assemble la sortie vers un fichier donné :
 
-`as {{fichier.s}} -p {{sortie.o}}`
+`as {{fichier.s}} -o {{sortie.o}}`
 
 - Génère la sortie plus vite en évitant le preprocess des espaces et des commentaires (doit seulement être utilisé sur des compilateurs sûrs) :
 

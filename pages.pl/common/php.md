@@ -3,7 +3,7 @@
 > Interfejs wiersza poleceń PHP.
 > Więcej informacji: <https://php.net>.
 
-- Parsuj i uruchom skrypt php:
+- Parsuj i uruchom skrypt PHP:
 
 `php {{plik}}`
 
@@ -30,3 +30,7 @@
 - Wyświetl informacje o bieżącej konfiguracji PHP:
 
 `php -i`
+
+- Wyświetl informacje o konkretnej funkcji:
+
+`php --rf {{nazwa_funkcji}}`

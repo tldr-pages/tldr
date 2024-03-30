@@ -3,7 +3,7 @@
 > Copier fichiers et répertoires.
 > Plus d'informations : <https://www.gnu.org/software/coreutils/cp>.
 
-- Copier un fichier vers un autre emplacement:
+- Copier un fichier vers un autre emplacement :
 
 `cp {{chemin/vers/fichier_original.ext}} {{chemin/vers/fichier_cible.ext}}`
 

@@ -1,7 +1,7 @@
 # diskutil
 
 > Utilidad para gestionar discos y volúmenes locales.
-> Más información: <https://ss64.com/osx/diskutil.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/diskutil.8.html>.
 
 - Lista todos los discos, particiones y volúmenes montados actualmente disponibles:
 

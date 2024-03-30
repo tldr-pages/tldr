@@ -17,4 +17,4 @@
 
 - Liste alle verfügbaren Shells auf:
 
-`chsh --list-shells`
+`chsh -l`

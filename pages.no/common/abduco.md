@@ -17,7 +17,7 @@
 
 - Koble fra en økt:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - Legg ved en økt i skrivebeskyttet modus:
 

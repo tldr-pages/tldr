@@ -1,7 +1,7 @@
 # az logout
 
 > Cierra la sesión de una suscripción de Azure.
-> Parte de `azure-cli`.
+> Parte de `azure-cli` (también conocido como `az`).
 > Más información: <https://learn.microsoft.com/cli/azure/reference-index#az_logout>.
 
 - Cierra la sesión de la cuenta activa:

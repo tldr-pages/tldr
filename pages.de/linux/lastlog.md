@@ -13,8 +13,8 @@
 
 - Zeige Datensätze älter als 7 Tage an:
 
-`lastlog --before {{7}}`
+`lastlog --before 7`
 
 - Zeige Datensätze jünger als 3 Tage an:
 
-`lastlog --time {{3}}`
+`lastlog --time 3`

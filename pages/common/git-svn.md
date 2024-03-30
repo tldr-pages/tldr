@@ -21,4 +21,4 @@
 
 - Commit back to the SVN repository:
 
-`git svn dcommit`
+`git svn commit`

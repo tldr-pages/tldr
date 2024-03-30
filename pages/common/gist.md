@@ -1,9 +1,9 @@
 # gist
 
-> Upload code to https://gist.github.com.
+> Upload code to <https://gist.github.com>.
 > More information: <https://github.com/defunkt/gist>.
 
-- Log in in gist on this computer:
+- Log in to gist on this computer:
 
 `gist --login`
 
@@ -13,7 +13,7 @@
 
 - Create a private gist with a description:
 
-`gist --private --description "{{A meaningful description}}" {{file.txt}} `
+`gist --private --description "{{A meaningful description}}" {{file.txt}}`
 
 - Read contents from `stdin` and create a gist from it:
 

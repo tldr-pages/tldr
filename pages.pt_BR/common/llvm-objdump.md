@@ -1,7 +1,7 @@
 # llvm-objdump
 
-> Este comando é um pseudônimo de `objdump`.
+> Este comando é um apelido de `objdump`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr objdump`

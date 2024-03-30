@@ -1,7 +1,7 @@
 # gdate
 
-> Este comando é um pseudônimo de `-p linux date`.
+> Este comando é um apelido de `-p linux date`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux date`

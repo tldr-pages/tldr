@@ -5,4 +5,4 @@
 
 - Convert an RPM package to a `cpio` archive and save it as `file.cpio` in the current directory:
 
-`rpm2cpio {{path/to/file.rpm}}}`
+`rpm2cpio {{path/to/file.rpm}}`

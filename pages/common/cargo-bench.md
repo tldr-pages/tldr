@@ -7,13 +7,13 @@
 
 `cargo bench`
 
+- Don't stop when a benchmark fails:
+
+`cargo bench --no-fail-fast`
+
 - Compile, but don’t run benchmarks:
 
 `cargo bench --no-run`
-
-- Benchmark only the specified packages:
-
-`cargo bench --package {{package}}`
 
 - Benchmark the specified benchmark:
 

@@ -16,7 +16,7 @@
 
 `axel -n {{num_conexiones}} {{url}}`
 
-- Busca copias espejo.
+- Busca copias espejo:
 
 `axel -S {{num_de_espejos}} {{url}}`
 

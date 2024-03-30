@@ -5,11 +5,11 @@
 
 - Installa un ruolo:
 
-`ansible-galaxy install {{utente.ruolo}}`
+`ansible-galaxy install {{nome_utente}}.{{ruolo}}`
 
 - Rimuovi un ruolo:
 
-`ansible-galaxy remove {{utente.ruolo}}`
+`ansible-galaxy remove {{nome_utente}}.{{ruolo}}`
 
 - Elenca i ruoli installati:
 
@@ -21,7 +21,7 @@
 
 - Crea un nuovo ruolo:
 
-`ansible-galaxy init {{nome_nuovo_ruolo}}`
+`ansible-galaxy init {{nome_ruolo}}`
 
 - Acquisisci informazioni su un ruolo di un utente:
 

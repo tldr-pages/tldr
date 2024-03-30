@@ -11,6 +11,6 @@
 
 `cat {{path/to/input.pyx}} | xml depyx > {{path/to/output.xml}}`
 
-- Display help for the `depyx` subcommand:
+- Display help:
 
 `xml depyx --help`

@@ -1,7 +1,7 @@
 # gtimeout
 
-> Este comando é um pseudônimo de `-p linux timeout`.
+> Este comando é um apelido de `-p linux timeout`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux timeout`

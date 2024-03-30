@@ -7,7 +7,7 @@
 
 `ascii {{a}}`
 
-- Zeige ASCII-Aliase im kurzen script-freundlichen Modus:
+- Zeige ASCII-Aliase im kurzen, skriptfreundlichen Modus:
 
 `ascii -t {{a}}`
 

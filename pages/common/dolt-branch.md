@@ -1,7 +1,7 @@
 # dolt branch
 
 > Manage Dolt branches.
-> More information: <https://github.com/dolthub/dolt>.
+> More information: <https://docs.dolthub.com/cli-reference/cli#dolt-branch>.
 
 - List local branches (current branch is highlighted by `*`):
 

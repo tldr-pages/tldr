@@ -1,16 +1,16 @@
 # apachectl
 
 > Interface de controle do Servidor HTTP Apache para macOS.
-> Mais informações: <https://www.unix.com/man-page/osx/8/apachectl/>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/apachectl.8.html>.
 
-- Iniciar o job launchd `org.apache.httpd`:
+- Inicia o job launchd `org.apache.httpd`:
 
 `apachectl start`
 
-- Parar o job launchd:
+- Para o job launchd:
 
 `apachectl stop`
 
-- Parar, e então iniciar o job launchd:
+- Para, e então inicia o job launchd:
 
 `apachectl restart`

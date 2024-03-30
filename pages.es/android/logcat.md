@@ -1,7 +1,7 @@
 # logcat
 
 > Vuelca un registro de mensajes del sistema, incluyendo seguimientos de pila cuando ocurren errores, y mensajes informativos enviados por las aplicaciones.
-> Más información: <https://developer.android.com/studio/command-line/logcat>.
+> Más información: <https://developer.android.com/tools/logcat>.
 
 - Muestra registros del sistema:
 

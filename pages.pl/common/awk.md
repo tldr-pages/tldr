@@ -19,18 +19,18 @@
 
 `awk '{s+=$1} END {print s}' {{nazwapliku}}`
 
-- Zsumuj wartości w pierwszej kolumnie i wydrukuj wartości, a następnie sumę:
-
-`awk '{s+=$1; print $1} END {print "--------"; print s}' {{nazwapliku}}`
-
 - Drukuj co trzeci wiersz, zaczynając od pierwszego wiersza:
 
 `awk 'NR%3==1' {{nazwapliku}}`
 
-- Wydrukuj wszystkie wartości, zaczynając od trzeciej kolumny:
-
-`awk '{for (i=3; i <= NF; i++) printf $i""FS; print""}' {{nazwapliku}}`
-
 - Wydrukuj różne wartości w zależności od warunków:
 
 `awk '{if ($1 == "foo") print "Dokładne dopasowanie foo"; else if ($1 ~ "bar") print "Częściowe dopasowanie bar"; else print "Baz"}' {{nazwapliku}}`
+
+- Wydrukuj wszystkie linie gdzie wartość 10-tej kolumny jest równa podanej wartości:
+
+`awk '($10 == {{wartość}})'`
+
+- Wydrukuj wszystkie linie, w których wartość 10-tej kolumny jest pomiędzy podanymi wartościami:
+
+`awk '($10 >= {{wartość_minimalna}} && $10 <= {{wartość_maksymalna}})'`

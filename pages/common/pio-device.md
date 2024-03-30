@@ -29,4 +29,4 @@
 
 - Go to the menu of the interactive device monitor:
 
-`Ctrl + T`
+`<Ctrl> + T`

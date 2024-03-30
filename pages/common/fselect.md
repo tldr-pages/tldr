@@ -3,7 +3,7 @@
 > Find files with SQL-like queries.
 > More information: <https://github.com/jhspetersson/fselect>.
 
-- Select full path and size from temporary or config files in a given directory:
+- Select full path and size from temporary or configuration files in a given directory:
 
 `fselect size, path from {{path/to/directory}} where name = {{'*.cfg'}} or name = {{'*.tmp'}}`
 

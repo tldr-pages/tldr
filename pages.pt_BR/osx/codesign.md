@@ -1,7 +1,7 @@
 # codesign
 
 > Cria e manipula assinaturas de código para macOS.
-> Mais informações: <https://www.unix.com/man-page/osx/1/codesign/>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/codesign.1.html>.
 
 - Assina um aplicativo com um certificado:
 

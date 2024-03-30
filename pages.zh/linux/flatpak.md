@@ -23,10 +23,6 @@
 
 `flatpak remote-add --if-not-exists {{远程源名}} {{远程源网址}}`
 
-- 列出所有已配置的远程源：
-
-`flatpak remote-list`
-
 - 移除一个已安装的应用程序：
 
 `flatpak remove {{应用名}}`

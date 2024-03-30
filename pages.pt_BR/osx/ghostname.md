@@ -1,7 +1,7 @@
 # ghostname
 
-> Este comando é um pseudônimo de `-p linux hostname`.
+> Este comando é um apelido de `-p linux hostname`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux hostname`

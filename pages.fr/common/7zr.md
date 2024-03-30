@@ -1,7 +1,7 @@
 # 7zr
 
 > Un archiveur de fichiers avec un haut taux de compression.
-> Similaire à `7z` sauf qu'il supporte que les fichiers `.7z`.
+> Similaire à `7z` sauf qu'il supporte que les fichiers 7z.
 > Plus d'informations : <https://manned.org/7zr>.
 
 - Compresse un fichier ou un dossier :
@@ -27,7 +27,3 @@
 - Liste le contenu d'une archive :
 
 `7zr l {{chemin/vers/archive.7z}}`
-
-- Liste les types de compression disponible :
-
-`7zr i`

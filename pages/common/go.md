@@ -1,6 +1,6 @@
 # go
 
-> Tool for managing go source code.
+> Manage Go source code.
 > Some subcommands such as `go build` have their own usage documentation.
 > More information: <https://golang.org>.
 

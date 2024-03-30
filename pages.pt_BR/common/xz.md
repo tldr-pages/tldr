@@ -1,36 +1,36 @@
 # xz
 
-> Compactar ou descompactar arquivos com a extensão .xz ou .lzma.
-> Mais informações: <https://tukaani.org/xz/format.html>.
+> Compactar ou descompactar arquivos XZ ou LZMA.
+> Mais informações: <https://manned.org/xz>.
 
-- Compactar um arquivo no formato xz:
+- Compacta um arquivo no formato xz:
 
-`xz {{arquivo}}`
+`xz {{caminho/para/arquivo}}`
 
-- Descompactar um arquivo no formato xz:
+- Descompacta um arquivo no formato xz:
 
-`xz -d {{arquivo.xz}}`
+`xz --decompress {{caminho/para/arquivo.xz}}`
 
-- Compactar um arquivo no formato lzma:
+- Compacta um arquivo no formato LZMA:
 
-`xz --format=lzma {{arquivo}}`
+`xz --format=lzma {{caminho/para/arquivo}}`
 
-- Descompactar um arquivo no formato lzma:
+- Descompacta um arquivo no formato LZMA:
 
-`xz -d --format=lzma {{arquivo.lzma}}`
+`xz --decompress --format=lzma {{caminho/para/arquivo.lzma}}`
 
-- Descompactar um arquivo e escrever a saída no terminal:
+- Descompacta um arquivo e escrever a saída no terminal (implica `--keep`):
 
-`xz -dc {{arquivo.xz}}`
+`xz --decompress --stdout {{caminho/para/arquivo.xz}}`
 
-- Compactar um arquivo sem apagar o arquivo original:
+- Compacta um arquivo sem apagar o arquivo original:
 
-`xz -k {{arquivo}}`
+`xz --keep {{caminho/para/arquivo}}`
 
-- Compactar um arquivo utilizando a compactação mais rápida:
+- Compacta um arquivo utilizando a compactação mais rápida:
 
-`xz -0 {{arquivo}}`
+`xz -0 {{caminho/para/arquivo}}`
 
-- Compactar um arquivo utilizando a compactação mais eficiente:
+- Compacta um arquivo utilizando a compactação mais eficiente:
 
-`xz -9 {{arquivo}}`
+`xz -9 {{caminho/para/arquivo}}`

@@ -9,4 +9,4 @@
 
 - Riprendi uno specifico job (usa `jobs -l` per trovare l'ID) ed eseguilo in background:
 
-`bg {{id_job}}`
+`bg %{{id_job}}`

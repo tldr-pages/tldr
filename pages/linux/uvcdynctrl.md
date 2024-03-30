@@ -7,7 +7,7 @@
 
 `uvcdynctrl -l`
 
-- Specify the device to use (defaults to `video0`):
+- Use a specific device (defaults to `video0`):
 
 `uvcdynctrl -d {{device_name}}`
 
@@ -15,7 +15,7 @@
 
 `uvcdynctrl -c`
 
-- Set a new control value (for negative values, add -- before {{-value}}):
+- Set a new control value (for negative values, use `-- -value`):
 
 `uvcdynctrl -s {{control_name}} {{value}}`
 

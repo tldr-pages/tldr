@@ -15,13 +15,9 @@
 
 `dig +short {{example.com}} {{A|MX|TXT|CNAME|NS}}`
 
-- Get all types of records for a given domain name:
+- Specify an alternate DNS server to query and optionally use DNS over TLS (DoT):
 
-`dig {{example.com}} ANY`
-
-- Specify an alternate DNS server to query:
-
-`dig @{{8.8.8.8}} {{example.com}}`
+`dig {{+tls}} @{{1.1.1.1|8.8.8.8|9.9.9.9|...}} {{example.com}}`
 
 - Perform a reverse DNS lookup on an IP address (PTR record):
 
@@ -34,3 +30,7 @@
 - Perform iterative queries and display the entire trace path to resolve a domain name:
 
 `dig +trace {{example.com}}`
+
+- Query a DNS server over a non-standard [p]ort using the TCP protocol:
+
+`dig +tcp -p {{port}} @{{dns_server_ip}} {{example.com}}`

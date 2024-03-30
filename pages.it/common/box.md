@@ -5,11 +5,11 @@
 
 - Crea un nuovo file Phar:
 
-`box build`
+`box compile`
 
 - Crea un nuovo file Phar usando uno specifico file di configurazione:
 
-`box build -c {{percorso/della/configurazione}}`
+`box compile -c {{percorso/della/configurazione}}`
 
 - Mostra informazioni sulla estensione PHP PHAR:
 

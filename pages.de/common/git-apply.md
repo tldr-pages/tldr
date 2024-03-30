@@ -13,7 +13,7 @@
 
 - Integriere eine externe Patch-Datei:
 
-`curl {{https://beispiel.de/datei.patch}} | git apply`
+`curl -L {{https://beispiel.de/datei.patch}} | git apply`
 
 - Gib diffstat des Inputs aus und integriere die Patch-Datei:
 

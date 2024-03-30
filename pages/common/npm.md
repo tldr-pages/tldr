@@ -8,30 +8,30 @@
 
 `npm init`
 
-- Download all the packages listed as dependencies in package.json:
+- Download all the packages listed as dependencies in `package.json`:
 
 `npm install`
 
 - Download a specific version of a package and add it to the list of dependencies in `package.json`:
 
-`npm install {{module_name}}@{{version}}`
+`npm install {{package_name}}@{{version}}`
 
-- Download a package and add it to the list of dev dependencies in `package.json`:
+- Download the latest version of a package and add it to the list of dev dependencies in `package.json`:
 
-`npm install {{module_name}} --save-dev`
+`npm install {{package_name}} --save-dev`
 
-- Download a package and install it globally:
+- Download the latest version of a package and install it globally:
 
-`npm install --global {{module_name}}`
+`npm install --global {{package_name}}`
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
-`npm uninstall {{module_name}}`
+`npm uninstall {{package_name}}`
 
-- Print a tree of locally installed dependencies:
+- List of locally installed dependencies:
 
 `npm list`
 
-- List top-level globally installed modules:
+- List top-level globally installed packages:
 
 `npm list --global --depth={{0}}`

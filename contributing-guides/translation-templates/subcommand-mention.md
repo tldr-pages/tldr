@@ -10,10 +10,12 @@ This file contains the translation templates of this notice.
 [bn](#bn) •
 [bs](#bs) •
 [ca](#ca) •
+[cs](#cs) •
 [da](#da) •
 [de](#de) •
 [es](#es) •
 [fa](#fa) •
+[fi](#fi) •
 [fr](#fr) •
 [hi](#hi) •
 [id](#id) •
@@ -61,13 +63,17 @@ Some subcommands such as `example command` have their own usage documentation.
 
 ### bn
 
-Not translated yet.
+```markdown
+কিছু উপ-কমান্ড যেমন `example command` স্বতন্ত্র ব্যবহার নির্দেশনা রয়েছে.
+```
 
 ---
 
 ### bs
 
-Not translated yet.
+```markdown
+Neke podnaredbe kao što je `example command` imaju vlastitu dokumentaciju o korištenju.
+```
 
 ---
 
@@ -75,6 +81,14 @@ Not translated yet.
 
 ```markdown
 Alguns subcomandaments com `example command` tenen la seva pròpia documentació.
+```
+
+---
+
+### cs
+
+```markdown
+Některé dílčí příkazy jako je `example command` mají svou vlastní dokumentaci.
 ```
 
 ---
@@ -107,6 +121,14 @@ Algunos subcomandos, como `example command`, tienen su propia documentación de 
 
 ```markdown
 برخی از دستورات فرعی مانند `example command` سند استفاده خاص خودشون رو دارند.
+```
+
+---
+
+### fi
+
+```markdown
+Joillakin alakomennoilla, kuten `example command`, on omat käyttöoppaansa.
 ```
 
 ---
@@ -161,13 +183,17 @@ Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazio
 
 ### lo
 
-Not translated yet.
+```markdown
+ບາງຄໍາສັ່ງຍ່ອຍເຊັ່ນ `example command` ມີເອກະສານການນໍາໃຊ້ຂອງຕົນເອງ.
+```
 
 ---
 
 ### ml
 
-Not translated yet.
+```markdown
+`example command` പോലുള്ള ചില ഉപകമാൻഡുകൾക്ക് അവരുടേതായ ഉപയോഗ ഡോക്യുമെന്റേഷൻ ഉണ്ട്.
+```
 
 ---
 
@@ -189,13 +215,17 @@ Sommige subcommando's zoals `example command` hebben een eigen documentatie pagi
 
 ### no
 
-Not translated yet.
+```markdown
+Noen underkommandoer som `example command` har sin egen bruksdokumentasjon.
+```
 
 ---
 
 ### pl
 
-Not translated yet.
+```markdown
+Niektóre podkomendy takie jak `example command` mają osobną dokumentację.
+```
 
 ---
 
@@ -217,7 +247,9 @@ Alguns subcomandos, como `example command`, tem a sua própria documentação de
 
 ### ro
 
-Not translated yet.
+```markdown
+Unele subcomenzi precum `example command` au propria lor documentație de utilizare.
+```
 
 ---
 
@@ -237,7 +269,9 @@ Not translated yet.
 
 ### sr
 
-Not translated yet.
+```markdown
+Неке подкоманде као што је `example command` имају своју документацију о коришћењу.
+```
 
 ---
 
@@ -259,7 +293,9 @@ En del underkommandon som t.ex: `example command` har sin egen användningsdokum
 
 ### th
 
-Not translated yet.
+```markdown
+คำสั่งย่อยบางคำสั่ง เช่น `example command` มีเอกสารการใช้งานของตัวเอง
+```
 
 ---
 
@@ -281,7 +317,9 @@ Not translated yet.
 
 ### uz
 
-Not translated yet.
+```markdown
+`example command` kabi baʼzi kichik buyruqlar oʻzlarining foydalanish hujjatlariga ega.
+```
 
 ---
 

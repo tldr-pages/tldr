@@ -11,6 +11,6 @@
 
 `git mv {{nombre_de_archivo}} {{nuevo_nombre_de_archivo}}`
 
-- Sobrescribir el archivo en la ruta objetivo si existe:
+- Sobrescribe el archivo en la ruta objetivo si existe:
 
 `git mv --force {{archivo}} {{objetivo}}`

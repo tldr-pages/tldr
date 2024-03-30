@@ -17,7 +17,7 @@
 
 - Separarse de una sesión:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - Adjunta a una sesión en modo solo-lectura:
 

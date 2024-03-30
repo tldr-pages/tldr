@@ -13,7 +13,7 @@
 
 - 选择输出宽度（默认为 100）：
 
-`asciiart -width {{50}} {{路径/到/图片.jpg}}`
+`asciiart --width {{50}} {{路径/到/图片.jpg}}`
 
 - 对 ASCII 输出进行着色：
 

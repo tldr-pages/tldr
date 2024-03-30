@@ -9,16 +9,16 @@
 
 - نصب یک بسته :
 
-`pkg install {{بسته}}`
+`pkg install {{package}}`
 
 - حذف یک بسته :
 
-`pkg uninstall {{بسته}}`
+`pkg uninstall {{package}}`
 
 - نصب دوباره یک بسته :
 
-`pkg reinstall {{بسته}}`
+`pkg reinstall {{package}}`
 
 - جستجوی یک بسته :
 
-`pkg search {{بسته}}`
+`pkg search {{package}}`

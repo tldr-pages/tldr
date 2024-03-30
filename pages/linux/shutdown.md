@@ -3,22 +3,22 @@
 > Shutdown and reboot the system.
 > More information: <https://manned.org/shutdown.8>.
 
-- Power off (halt) immediately:
+- Power off ([h]alt) immediately:
 
 `shutdown -h now`
 
-- Reboot immediately:
+- [r]eboot immediately:
 
 `shutdown -r now`
 
-- Reboot in 5 minutes:
+- [r]eboot in 5 minutes:
 
 `shutdown -r +{{5}} &`
 
-- Shutdown at 1:00 pm (Uses 24h clock):
+- Shutdown at 1:00 pm (Uses 24[h] clock):
 
 `shutdown -h 13:00`
 
-- Cancel a pending shutdown/reboot operation:
+- [c]ancel a pending shutdown/reboot operation:
 
 `shutdown -c`

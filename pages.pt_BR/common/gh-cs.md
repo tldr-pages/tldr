@@ -1,8 +1,8 @@
 # gh-cs
 
-> Este comando é um pseudônimo de `gh-codespace`.
+> Este comando é um apelido de `gh-codespace`.
 > Mais informações: <https://cli.github.com/manual/gh_codespace>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr gh-codespace`

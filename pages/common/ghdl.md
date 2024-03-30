@@ -7,7 +7,7 @@
 
 `ghdl -a {{filename.vhdl}}`
 
-- Elaborate a design (where `{{design}}` is the name of a configuration unit, entity unit or architecture unit):
+- Elaborate a design (where `design` is the name of a configuration unit, entity unit or architecture unit):
 
 `ghdl -e {{design}}`
 
@@ -23,6 +23,6 @@
 
 `ghdl -s {{filename.vhdl}}`
 
-- Display the help page:
+- Display help:
 
 `ghdl --help`

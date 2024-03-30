@@ -2,7 +2,7 @@
 
 > Analizzatore dei metadata dei file audio per macOS.
 > Comando integrato di macOS.
-> Maggiori informazioni: <https://ss64.com/osx/afinfo.html>.
+> Maggiori informazioni: <https://keith.github.io/xcode-man-pages/afinfo.1.html>.
 
 - Mostra le informazioni relative ad un file audio specificato:
 
@@ -10,15 +10,15 @@
 
 - Mostra una breve descrizione del file audio:
 
-`afinfo -b {{percorso/del/file}}`
+`afinfo --brief {{percorso/del/file}}`
 
 - Mostra i metadati ed i contenuti dell'InfoDictionary del file audio:
 
-`afinfo -i {{percorso/del/file}}`
+`afinfo --info {{percorso/del/file}}`
 
 - Mostra l'output in formato xml:
 
-`afinfo -x {{percorso/del/file}}`
+`afinfo --xml {{percorso/del/file}}`
 
 - Mostra i problemi del file audio (se ce ne sono):
 
@@ -26,4 +26,4 @@
 
 - Mostra la pagina di aiuto:
 
-`afinfo -h`
+`afinfo --help`

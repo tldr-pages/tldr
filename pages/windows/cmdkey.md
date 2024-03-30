@@ -1,9 +1,9 @@
 # cmdkey
 
 > Create, show, and delete stored user names and passwords.
-> More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmdkey>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmdkey>.
 
-- Show a list of all user credentials:
+- List all user credentials:
 
 `cmdkey /list`
 
@@ -13,4 +13,4 @@
 
 - Delete credentials for a specific target:
 
-`cmdkey.exe /delete {{target_name}}`
+`cmdkey /delete {{target_name}}`

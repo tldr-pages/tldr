@@ -5,7 +5,7 @@
 
 - Stocker les changements courants, sauf les fichiers non-suivis :
 
-`git stash [push -m {{nom_de_stash_optionel}}]`
+`git stash push -m {{nom_de_stash_optionel}}`
 
 - Stocker les changements courants, incluant les fichiers non-suivis :
 
@@ -26,10 +26,6 @@
 - Applique un stash (par défaut le dernier, stash@{0}), et le supprimer de la liste des stashs s'il n'y a pas de conflit :
 
 `git stash pop {{nom_de_stash_optionel}}`
-
-- Supprime un stash (par défaut le dernier, stash@{0}) :
-
-`git stash drop {{nom_de_stash_optionel}}`
 
 - Supprime tous les stashs :
 

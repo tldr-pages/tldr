@@ -1,6 +1,6 @@
 # dua
 
-> Dua (Disk Usage Analyzer) is a tool to conveniently learn about the usage of disk space of a given directory.
+> Dua (Disk Usage Analyzer): get the disk space usage of a directory.
 > More information: <https://github.com/Byron/dua-cli>.
 
 - Analyze specific directory:
@@ -27,6 +27,6 @@
 
 `dua --format {{metric|binary|bytes|GB|GiB|MB|MiB}}`
 
-- Set the number of threads to be used:
+- Use a specific number of threads (defaults to the process number of threads):
 
 `dua --threads {{count}}`

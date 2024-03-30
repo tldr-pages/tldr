@@ -9,7 +9,7 @@
 
 - Navigate the snake:
 
-`{{Up|Down|Left|Right}} arrow key`
+`{{Up|Down|Left|Right arrow key}}`
 
 - Pause/unpause the game:
 
@@ -19,6 +19,6 @@
 
 `q`
 
-- Show help during the game:
+- Display help during the game:
 
 `h`

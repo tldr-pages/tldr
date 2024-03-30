@@ -1,9 +1,9 @@
 # reboot
 
-> Reboot sistem.
+> Nyalakan ulang sistem komputer.
 > Informasi lebih lanjut: <https://manned.org/reboot.8>.
 
-- Reboot sistem:
+- Nyalakan ulang sistem komputer:
 
 `reboot`
 
@@ -15,10 +15,10 @@
 
 `reboot --halt`
 
-- Reboot segera tanpa menghubungi manajer sistem:
+- Nyalakan ulang segera tanpa menghubungi manajer sistem:
 
-`reboot --force --force`
+`reboot --force`
 
-- Tulis entri wtmp shutdown tanpa me-reboot sistem:
+- Tulis entri wtmp shutdown tanpa menyalakan ulang sistem:
 
 `reboot --wtmp-only`

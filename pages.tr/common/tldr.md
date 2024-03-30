@@ -1,7 +1,7 @@
 # tldr
 
 > Komut satırı araçları için tldr-pages projesinden basit yardım sayfaları görüntüler.
-> Daha fazla bilgi için: <https://tldr.sh>.
+> Daha fazla bilgi için: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Bir komutun tipik kullanımını göster (ipucu: burayı görüntülemek için kullandığınız komutun aynısı!):
 

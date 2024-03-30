@@ -11,14 +11,14 @@
 
 `lsns --json`
 
-- List namespaces associated with {{pid}}:
+- List namespaces associated with the specified process:
 
 `lsns --task {{pid}}`
 
 - List the specified type of namespaces only:
 
-`lsns --type <mnt|net|ipc|user|pid|uts|cgroup|time>`
+`lsns --type {{mnt|net|ipc|user|pid|uts|cgroup|time}}`
 
 - List namespaces, only showing the namespace ID, type, PID, and command:
 
-`lsns --output NS,TYPE,PID,COMMAND`
+`lsns --output {{NS,TYPE,PID,COMMAND}}`

@@ -18,12 +18,12 @@
 
 - Open a new browser tab:
 
-`Shift + T`
+`<Shift> + T`
 
 - Display your browser history:
 
-`Ctrl + H`
+`<Ctrl> + H`
 
 - Quit w3m:
 
-`'q' followed by 'y'`
+`q + y`

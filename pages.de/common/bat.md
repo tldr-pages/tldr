@@ -18,11 +18,11 @@
 
 - Nummeriere alle ausgegebenen Zeilen:
 
-`bat -n {{pfad/zu/datei}}`
+`bat --number {{pfad/zu/datei}}`
 
 - Hebe die Syntax einer JSON-Datei hervor:
 
-`bat --language {{json}} {{pfad/zu/datei.json}}`
+`bat --language json {{pfad/zu/datei.json}}`
 
 - Zeige alle unterstützten Sprachen an:
 

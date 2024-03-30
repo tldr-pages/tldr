@@ -1,7 +1,7 @@
 # age
 
 > Ein einfaches, modernes und sicheres Dateiverschlüsselungswerkzeug.
-> Weitere Informationen: <https://age-encryption.org>.
+> Weitere Informationen: <https://github.com/FiloSottile/age>.
 
 - Generiere eine verschlüsselte Datei, die mit einer Passphrase entschlüsselt werden kann:
 

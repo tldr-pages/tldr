@@ -15,7 +15,7 @@
 
 `asciiart --width {{50}} {{caminho/para/imagem.jpg}}`
 
-- Imprimir com cor:
+- Imprime com cor:
 
 `asciiart --color {{caminho/para/imagem.jpg}}`
 
@@ -23,6 +23,6 @@
 
 `asciiart --format {{text|html}} {{caminho/para/imagem.jpg}}`
 
-- Inverter o mapeamento dos caracteres:
+- Inverte o mapeamento dos caracteres:
 
 `asciiart --invert-chars {{caminho/para/imagem.jpg}}`

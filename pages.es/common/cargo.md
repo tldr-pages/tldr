@@ -1,37 +1,37 @@
 # cargo
 
 > Gestiona proyectos Rust y sus dependencias de módulos (crates).
-> Algunos subcomandos como `cargo build` tienen su propia documentación de uso.
+> Algunos subcomandos como `build` tienen su propia documentación de uso.
 > Más información: <https://doc.rust-lang.org/cargo>.
 
 - Busca crates:
 
-`cargo search {{texto_de_búsqueda}}`
+`cargo search {{cadena_de_busqueda}}`
 
-- Instala un crate:
+- Instala un crate binario:
 
-`cargo install {{nombre_del_módulo}}`
+`cargo install {{nombre_crate}}`
 
-- Lista crates instalados:
+- Lista los crates binarios instalados:
 
 `cargo install --list`
 
-- Crea un nuevo proyecto Rust binario o biblioteca en el directorio actual:
+- Crea un nuevo proyecto Rust binario o de biblioteca en el directorio especificado (o en el directorio de trabajo actual por defecto):
 
-`cargo init --{{bin|lib}}`
+`cargo init --{{bin|lib}} {{ruta/al/directorio}}`
 
-- Crea un nuevo proyecto Rust binario o biblioteca en el directorio especificado:
+- Añade una dependencia a `Cargo.toml` en el directorio actual:
 
-`cargo new {{ruta/al/directorio}} --{{bin|lib}}`
+`cargo add {{dependencia}}`
 
-- Compila el proyecto Rust en el directorio actual:
+- Construye el proyecto Rust en el directorio actual utilizando el perfil de lanzamiento:
 
-`cargo build`
+`cargo build --release`
 
-- Compila el proyecto Rust en el directorio actual usando el compilador nightly:
+- Construye el proyecto Rust en el directorio actual utilizando el compilador nightly (requiere `rustup`):
 
 `cargo +nightly build`
 
-- Compila el proyecto Rust en el directorio actual usando un número específico de hilos (por defecto es el número de núcleos de la CPU):
+- Construye usando un número específico de hilos (por defecto es el número de CPUs lógicas):
 
 `cargo build --jobs {{numero_de_hilos}}`

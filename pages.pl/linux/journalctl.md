@@ -7,10 +7,6 @@
 
 `journalctl -b --priority={{3}}`
 
-- Wyświetl wszystkie wiadomości z ostatniego rozruchu:
-
-`journalctl -b -1`
-
 - Usuń dzienniki starsze niż 2 dni:
 
 `journalctl --vacuum-time={{2d}}`
@@ -19,9 +15,13 @@
 
 `journalctl -f`
 
-- Pokaż wszystkie wiadomości podanej jednostki:
+- Wyświetl wszystkie wiadomości podanej jednostki:
 
 `journalctl -u {{jednostka}}`
+
+- Wyświetl wiadomości podanej jednostki od czasu jej ostatniego uruchomienia:
+
+`journalctl _SYSTEMD_INVOCATION_ID=$(systemctl show --value --property=InvocationID {{jednostka}})`
 
 - Filtruj wiadomości w zakresie czasu (znacznik czasu lub symbol zastępczy, np. "yesterday"):
 

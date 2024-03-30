@@ -12,10 +12,6 @@
 
 `git config --list --global`
 
-- Liste toutes les entrées de configuration, globales et locales :
-
-`git config --list`
-
 - Récupère la valeur d'une entrée de configuration :
 
 `git config alias.unstage`

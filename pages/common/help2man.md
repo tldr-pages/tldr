@@ -19,6 +19,6 @@
 
 `help2man {{executable}} --output {{path/to/file}}`
 
-- Display detailed help:
+- Display help:
 
 `help2man --help`

@@ -1,7 +1,7 @@
 # cmd
 
 > Manajer layanan (daemon) untuk Android.
-> Informasi lebih lanjut: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+> Informasi lebih lanjut: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - Lihat daftar layanan yang sedang berjalan:
 

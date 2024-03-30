@@ -1,22 +1,22 @@
 # git rebase
 
-> Vuelve a aplicar commits de una rama en lo más alto de otra rama.
-> Se utiliza comúnmente para "mover" una rama entera a otra base, ya que crea copias de los commits en una nueva ubicación.
+> Vuelve a aplicar confirmaciones de una rama en lo más alto de otra rama.
+> Se utiliza comúnmente para "mover" una rama entera a otra base, ya que crea copias de las confirmaciones en una nueva ubicación.
 > Más información: <https://git-scm.com/docs/git-rebase>.
 
 - Reorganiza la rama actual en lo más alto de otra rama:
 
 `git rebase {{rama_de_reorganización}}`
 
-- Inicia un rebase interactivo que permite reordenar los commits, omitirlos, combinarlos o modificarlos:
+- Inicia un rebase interactivo que permite reordenar, omitir, combinar o modificar confirmaciones:
 
-`git rebase -i {{rama_base_objetivo_o_hash_del_commit}}`
+`git rebase -i {{rama_base_objetivo_o_hash_de_la_confirmación}}`
 
 - Continúa un rebase que fue interrumpido por una fusión fallida después de editar los archivos con conflictos:
 
 `git rebase --continue`
 
-- Continúa un rebase que fue pausado para fusionar conflictos saltando el commit conflictivo:
+- Continúa un rebase que fue pausado para fusionar conflictos saltando la confirmación conflictiva:
 
 `git rebase --skip`
 
@@ -28,7 +28,7 @@
 
 `git rebase --onto {{base_nueva}} {{base_antigua}}`
 
-- Reaplica los últimos 5 commits en su lugar, evita que puedan ser reordenados, omitidos, combinados o modificados:
+- Reaplica las últimas cinco confirmaciones en su lugar, evita que puedan ser reordenadas, omitidas, combinadas o modificadas:
 
 `git rebase -i {{HEAD~5}}`
 

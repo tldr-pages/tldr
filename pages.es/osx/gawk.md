@@ -2,6 +2,6 @@
 
 > Este comando es un alias de `-p linux awk`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux awk`

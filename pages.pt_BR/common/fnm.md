@@ -10,7 +10,7 @@
 
 - Lista todas as versões disponíveis do Node.js e destaca a padrão:
 
-`fnm ls`
+`fnm list`
 
 - Usa uma versão específica do Node.js no shell atual:
 

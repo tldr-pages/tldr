@@ -17,7 +17,7 @@
 
 - Quitte la session courante :
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - Rejoint une session en mode lecture seule :
 

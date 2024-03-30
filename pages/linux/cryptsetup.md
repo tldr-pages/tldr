@@ -7,7 +7,7 @@
 
 `cryptsetup luksFormat {{/dev/sda1}}`
 
-- Open a LUKS volume and create a decrypted mapping at `/dev/mapper/{{target}}`:
+- Open a LUKS volume and create a decrypted mapping at `/dev/mapper/target`:
 
 `cryptsetup luksOpen {{/dev/sda1}} {{target}}`
 

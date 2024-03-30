@@ -7,10 +7,10 @@
 
 `git extras update`
 
-- Display help and subcommands:
+- Display help:
 
 `git extras --help`
 
-- Print the version of installed `git-extras`:
+- Display version:
 
 `git extras --version`

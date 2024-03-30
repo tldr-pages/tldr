@@ -1,6 +1,7 @@
 # pulumi
 
 > Define infrastructure on any cloud using familiar programming languages.
+> Some subcommands such as `pulumi up` have their own usage documentation.
 > More information: <https://www.pulumi.com/docs/reference/cli>.
 
 - Create a new project using a template:

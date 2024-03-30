@@ -1,7 +1,7 @@
 # mdutil
 
 > 管理 Spotlight（聚焦搜索）用于搜索的索引数据。
-> 更多信息：<https://ss64.com/osx/mdutil.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/mdutil.1.html>.
 
 - 显示指定卷（'/'）的索引状态：
 

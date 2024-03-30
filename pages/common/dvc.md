@@ -4,9 +4,9 @@
 > Some subcommands such as `dvc commit` have their own usage documentation.
 > More information: <https://dvc.org/>.
 
-- Check the DVC version:
+- Execute a DVC subcommand:
 
-`dvc --version`
+`dvc {{subcommand}}`
 
 - Display general help:
 
@@ -16,6 +16,6 @@
 
 `dvc {{subcommand}} --help`
 
-- Execute a DVC subcommand:
+- Display version:
 
-`dvc {{subcommand}}`
+`dvc --version`

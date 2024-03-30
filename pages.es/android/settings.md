@@ -7,7 +7,7 @@
 
 `settings list {{global}}`
 
-- Obtiene el valor de una configuración específica:
+- Obtén el valor de una configuración específica:
 
 `settings get {{global}} {{airplane_mode_on}}`
 

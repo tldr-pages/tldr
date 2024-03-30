@@ -4,6 +4,6 @@
 > Não deve ser invocado manualmente.
 > Mais informações: <https://keith.github.io/xcode-man-pages/appsleepd.8.html>.
 
-- Iniciar o daemon:
+- Inicia o daemon:
 
 `appsleepd`

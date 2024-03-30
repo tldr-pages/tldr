@@ -18,9 +18,9 @@
 
 - 打印时，显示行号：
 
-`bat -n {{文件}}`
+`bat --number {{文件}}`
 
-- 高亮一个 `json` 文件：
+- 高亮一个 JSON 文件：
 
 `bat --language json {{文件.json}}`
 

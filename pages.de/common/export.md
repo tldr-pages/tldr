@@ -1,7 +1,7 @@
 # export
 
 > Befehl zum Markieren von Shell-Variablen in der aktuellen Umgebung, die mit allen neu abgezweigten Unterprozessen exportiert werden sollen.
-> Weitere Informationen: <https://www.gnu.org/software/bash/manual/bash.html#index-export>.
+> Weitere Informationen: <https://manned.org/export.1posix>.
 
 - Lege eine neue Umgebungsvariable fest:
 

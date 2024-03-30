@@ -11,6 +11,10 @@
 
 `pi {{number}}`
 
+- Display recommended readings:
+
+`pi --bibliography`
+
 - Display help:
 
 `pi --help`
@@ -18,7 +22,3 @@
 - Display version:
 
 `pi --version`
-
-- Display recommended readings:
-
-`pi --bibliography`

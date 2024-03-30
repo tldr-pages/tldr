@@ -19,6 +19,6 @@
 
 `theHarvester --domain {{domain_name}} --source {{google}} --file {{output_file_name}}`
 
-- Output all available options:
+- Display help:
 
 `theHarvester --help`

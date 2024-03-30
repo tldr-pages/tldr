@@ -1,7 +1,7 @@
 # glink
 
-> Este comando é um pseudônimo de `-p linux link`.
+> Este comando é um apelido de `-p linux link`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux link`

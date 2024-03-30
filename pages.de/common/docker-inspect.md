@@ -13,20 +13,20 @@
 
 - Zeige die IP Adresse eines Containers an:
 
-`docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' {{container}}`
+`docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{container}}`
 
 - Zeige den Pfad zur Logdatei eines Containers:
 
-`docker inspect --format='{{.LogPath}}' {{container}}`
+`docker inspect --format='\{\{.LogPath\}\}' {{container}}`
 
 - Zeige den Namen des Images eines Containers:
 
-`docker inspect --format='{{.Config.Image}}' {{container}}`
+`docker inspect --format='\{\{.Config.Image\}\}' {{container}}`
 
 - Zeige die Konfiguration als JSON an:
 
-`docker inspect --format='{{json .Config}}' {{container}}`
+`docker inspect --format='\{\{json .Config\}\}' {{container}}`
 
 - Zeige alle Port Bindings:
 
-`docker inspect --format='{{range $p, $conf := .NetworkSettings.Ports}} {{$p}} -> {{(index $conf 0).HostPort}} {{end}}' {{container}}`
+`docker inspect --format='\{\{range $p, $conf := .NetworkSettings.Ports\}\} \{\{$p\}\} -> \{\{(index $conf 0).HostPort\}\} \{\{end\}\}' {{container}}`

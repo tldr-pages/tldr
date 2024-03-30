@@ -3,10 +3,10 @@
 > Run a command with a time limit.
 > More information: <https://www.gnu.org/software/coreutils/timeout>.
 
-- Run `sleep 10` and terminate it, if it runs for more than 3 seconds:
+- Run `sleep 10` and terminate it after 3 seconds:
 
-`timeout {{3s}} {{sleep 10}}`
+`timeout 3s sleep 10`
 
-- Specify the signal to be sent to the command after the time limit expires. (By default, TERM is sent):
+- Send a signal to the command after the time limit expires (SIGTERM by default):
 
 `timeout --signal {{INT}} {{5s}} {{sleep 10}}`

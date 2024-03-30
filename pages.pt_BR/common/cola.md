@@ -1,7 +1,7 @@
 # cola
 
-> Este comando é um pseudônimo de `git-cola`.
+> Este comando é um apelido de `git-cola`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr git-cola`

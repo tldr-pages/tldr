@@ -3,15 +3,15 @@
 > O depurador GNU.
 > Mais informações: <https://www.gnu.org/software/gdb>.
 
-- Depurar um executável:
+- Depura um executável:
 
 `gdb {{executável}}`
 
-- Vincular um processo ao gdb:
+- Vincula um processo ao gdb:
 
 `gdb -p {{PID}}`
 
-- Depurar usando um arquivo de "core dump":
+- Depura usando um arquivo de "core dump":
 
 `gdb -c {{core}} {{executável}}`
 

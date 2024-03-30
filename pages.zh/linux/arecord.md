@@ -1,4 +1,4 @@
-# arecored
+# arecord
 
 > ALSA 声卡驱动的声音录制器。
 > 更多信息：<https://manned.org/arecord>.

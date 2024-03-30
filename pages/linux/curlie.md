@@ -1,6 +1,6 @@
 # curlie
 
-> Curlie is a frontend to curl that adds the ease of use of httpie.
+> A frontend to `curl` that adds the ease of use of `httpie`.
 > More information: <https://github.com/rs/curlie>.
 
 - Send a GET request:

@@ -1,7 +1,7 @@
 # docker cp
 
 > ホスト、コンテナのファイルシステム間でファイルやディレクトリをコピーします。
-> 詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/cp>.
+> 詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/cp>
 
 - ホストからコンテナへファイルやディレクトリをコピーする:
 

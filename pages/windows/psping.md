@@ -19,6 +19,6 @@
 
 `psping {{hostname}}:{{port}} -q -n {{50}} -h`
 
-- Display usage information:
+- Display help:
 
 `psping /?`

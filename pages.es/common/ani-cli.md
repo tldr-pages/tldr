@@ -11,13 +11,13 @@
 
 `ani-cli -d "{{nombre_del_anime}}"`
 
-- Usar VLC como reproductor multimedia:
+- Usa VLC como reproductor multimedia:
 
 `ani-cli -v "{{nombre_del_anime}}"`
 
 - Especifica el episodio que desea ver:
 
-`ani-cli -a {{numero_episodio}} "{{nombre_del_anime}}"`
+`ani-cli -e {{numero_episodio}} "{{nombre_del_anime}}"`
 
 - Continúa viendo el anime desde el historial:
 

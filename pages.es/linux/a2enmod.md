@@ -7,6 +7,6 @@
 
 `sudo a2enmod {{módulo}}`
 
-- No muestra mensajes informativos:
+- Habilita un módulo sin mostrar mensajes informativos:
 
 `sudo a2enmod --quiet {{módulo}}`

@@ -1,7 +1,8 @@
 # iwr
 
-> Este comando é um pseudônimo de `invoke-webrequest`.
+> Este comando é um apelido de `invoke-webrequest`.
+> Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr invoke-webrequest`

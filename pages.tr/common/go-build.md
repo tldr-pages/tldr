@@ -15,6 +15,6 @@
 
 `go build -o {{örnek/konum/binary}} {{örnek/konum/paket}}`
 
-- Bir ana paketi veri yarış tanımlayıcısını etkinleştirerek çalıştırılabilir olarak derle.
+- Bir ana paketi veri yarış tanımlayıcısını etkinleştirerek çalıştırılabilir olarak derle:
 
 `go build -race -o {{örnek/konum/çalıştırılabilir}} {{örnek/konum/ana_paket}}`

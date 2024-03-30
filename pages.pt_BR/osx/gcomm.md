@@ -1,7 +1,7 @@
 # gcomm
 
-> Este comando é um pseudônimo de `-p linux comm`.
+> Este comando é um apelido de `-p linux comm`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux comm`

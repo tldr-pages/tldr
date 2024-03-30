@@ -2,7 +2,7 @@
 
 > Envoie un signal à un processus, généralement pour l'interrompre.
 > Tous les signaux sauf SIGKILL et SIGSTOP peuvent être interceptés par le processus pour pouvoir se terminer proprement.
-> Plus d'informations : <https://manned.org/kill>.
+> Plus d'informations : <https://manned.org/kill.1posix>.
 
 - Termine un processus avec le signal SIGTERM (terminaison) par défaut :
 

@@ -1,7 +1,7 @@
 # gcat
 
-> Este comando é um pseudônimo de `-p linux cat`.
+> Este comando é um apelido de `-p linux cat`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux cat`

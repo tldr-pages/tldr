@@ -31,7 +31,3 @@
 - Colle le contenu du presse-papier système à la console :
 
 `xclip -o -sel clip`
-
-- Colle le contenu du presse-papier système à un fichier :
-
-`xclip -o -sel clip > {{fichier_sortie.txt}}`

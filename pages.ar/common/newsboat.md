@@ -5,11 +5,11 @@
 
 - إستيراد روابط الخلاصات من ملف OPML:
 
-`newsboat -i {{الخلاصات.xml}}`
+`newsboat -i {{my-feeds.xml}}`
 
 - إضافة روابط الخلاصات يدوياً:
 
-`echo {{http://مثال.com/الخلاصة/إلي/المسار}} >> "${HOME}/.newsboat/urls"`
+`echo {{http://example.com/path/to/feed}} >> "${HOME}/.newsboat/urls"`
 
 - إبدأ newsboat وقم بتحديث كل الخلاصات عند بدء التشغيل:
 

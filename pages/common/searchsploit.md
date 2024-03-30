@@ -1,6 +1,6 @@
 # searchsploit
 
-> Searchsploit searches exploit database's database for exploits, shellcodes and/or papers.
+> Search Exploit Database for exploits, shellcodes and/or papers.
 > If known version numbers are used as search terms, exploits for both the exact version and others whose version range covers the one specified are shown.
 > More information: <https://www.exploit-db.com/searchsploit>.
 
@@ -16,14 +16,22 @@
 
 `searchsploit --www {{search_terms}}`
 
-- Make a copy of the resource to the current directory (requires the number of the exploit):
+- Copy ([m]irror) the resource to the current directory (requires the number of the exploit):
 
 `searchsploit --mirror {{exploit_number}}`
 
-- Open the resource to read with the pager defined in the `$PAGER` environment variable:
+- E[x]amine the resource, using the pager defined in the `$PAGER` environment variable:
 
-`searchsploit --explore {{exploit_number}}`
+`searchsploit --examine {{exploit_number}}`
 
-- Update the local exploit database:
+- [u]pdate the local Exploit Database:
 
 `searchsploit --update`
+
+- Search for the [c]ommon [v]ulnerabilities and [e]xposures (CVE) value:
+
+`searchsploit --cve {{2021-44228}}`
+
+- Check results in `nmap`'s XML output with service version (`nmap -sV -oX nmap-output.xml`) for known exploits:
+
+`searchsploit --nmap {{path/to/nmap-output.xml}}`

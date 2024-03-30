@@ -1,36 +1,37 @@
 # dnf
 
 > Manajer paket untuk distribusi Linux RHEL, Fedora, dan CentOS (pengganti yum).
+> Lihat <https://wiki.archlinux.org/title/Pacman/Rosetta> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah `dnf`.
 > Informasi lebih lanjut: <https://dnf.readthedocs.io>.
 
-- Memperbarui seluruh paket yang terpasang ke versi terbaru:
+- Perbarui seluruh paket yang terpasang ke versi terbaru:
 
 `sudo dnf upgrade`
 
-- Mencari paket yang tersedia dengan kata kunci tertentu:
+- Cari paket yang tersedia dengan kata kunci tertentu:
 
-`dnf search {{kata_kunci}}`
+`dnf search {{kata_kunci1 kata_kunci2 ...}}`
 
-- Memperlihatkan informasi tentang suatu paket:
+- Tampilkan informasi tentang suatu paket:
 
-`dnf info {{nama_paket}}`
+`dnf info {{paket}}`
 
-- Menginstal sebuah paket:
+- Pasang sebuah paket (gunakan `-y` jawab untuk ya semua pertanyaan):
 
-`sudo dnf install {{nama_paket}}`
+`sudo dnf install {{paket1 paket2 ...}}`
 
-- Menginstal sebuah paket dan jawab ya untuk semua pertanyaan:
+- Hapus sebuah paket:
 
-`sudo dnf -y install {{nama_paket}}`
+`sudo dnf remove {{paket1 paket2 ...}}`
 
-- Menghapus sebuah paket:
-
-`sudo dnf remove {{nama_paket}}`
-
-- Memperlihatkan daftar semua paket yang telah terpasang:
+- Tampilkan daftar semua paket yang telah terpasang:
 
 `dnf list --installed`
 
-- Temukan paket mana yang menyediakan file tertentu:
+- Temukan paket mana yang menyediakan perintah tertentu:
 
-`dnf provides {{file}}`
+`dnf provides {{perintah}}`
+
+- Lihat informasi riwayat penugasan `dnf`:
+
+`dnf history`

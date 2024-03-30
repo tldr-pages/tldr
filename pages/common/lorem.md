@@ -1,6 +1,6 @@
 # lorem
 
-> Create more or less random lorem ipsum text.
+> Create some random Latin looking placeholder text.
 > More information: <https://manned.org/lorem>.
 
 - Print the specified number of words:

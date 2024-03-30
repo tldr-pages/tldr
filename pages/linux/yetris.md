@@ -9,7 +9,7 @@
 
 - Navigate the piece horizontally:
 
-`{{Left|Right}} arrow key`
+`{{Left|Right arrow key}}`
 
 - Rotate the piece clockwise or counterclockwise:
 
@@ -21,11 +21,11 @@
 
 - Soft drop the piece:
 
-`Down arrow key`
+`<Down arrow key>`
 
 - Hard drop the piece:
 
-`Spacebar`
+`<Spacebar>`
 
 - Pause/unpause the game:
 

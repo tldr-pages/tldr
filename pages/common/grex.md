@@ -5,7 +5,7 @@
 
 - Generate a simple regular expression:
 
-` grex {{space_separated_strings}}`
+`grex {{space_separated_strings}}`
 
 - Generate a case-insensitive regular expression:
 

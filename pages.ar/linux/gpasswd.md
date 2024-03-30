@@ -5,20 +5,20 @@
 
 - عرّف مديرين المجموعة المسماة:
 
-`sudo gpasswd -A {{مدير 2, مدير 1}} {{مجموعة}}`
+`sudo gpasswd -A {{user1,user2}} {{group}}`
 
 - عين أعضاء المجموعة المسماة:
 
-`sudo gpasswd -M {{عضو 2, عضو 1}} {{مجموعة}}`
+`sudo gpasswd -M {{user1,user2}} {{group}}`
 
 - إنشئ رقم سري للمجموعة المسماة:
 
-`gpasswd {{مجموعة}}`
+`gpasswd {{group}}`
 
 - أضف عضو إلي المجموعة المسماة:
 
-`gpasswd -a {{عضو}} {{مجموعة}}`
+`gpasswd -a {{user}} {{group}}`
 
 - إحذف عضو من المجموعة المسماة:
 
-`gpasswd -d {{عضو}} {{مجموعة}}`
+`gpasswd -d {{user}} {{group}}`

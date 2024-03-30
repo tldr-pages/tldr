@@ -3,11 +3,11 @@
 > Manage Docker data and display system-wide information.
 > More information: <https://docs.docker.com/engine/reference/commandline/system/>.
 
-- Show help:
+- Display help:
 
 `docker system`
 
-- Show docker disk usage:
+- Show Docker disk usage:
 
 `docker system df`
 

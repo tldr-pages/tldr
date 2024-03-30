@@ -2,8 +2,8 @@
 
 > Serviço para gerenciar dispositivos Audio Video Bridging (AVB).
 > Não deve ser invocado manualmente.
-> Mais informações: <https://www.manpagez.com/man/1/avbdeviced/>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/avbdeviced.1.html>.
 
-- Iniciar o daemon:
+- Inicia o daemon:
 
 `avbdeviced`

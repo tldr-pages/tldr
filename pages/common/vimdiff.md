@@ -1,16 +1,16 @@
 # vimdiff
 
 > Open up two or more files in vim and show the differences between them.
-> See also `vim`, `vimtutor`, `nvim`.
+> See also: `vim`, `vimtutor`, `nvim`.
 > More information: <https://www.vim.org>.
 
 - Open two files and show the differences:
 
-`vimdiff {{file1}} {{file2}}`
+`vimdiff {{path/to/file1}} {{path/to/file2}}`
 
 - Move the cursor to the window on the left|right:
 
-`Ctrl + w {{h|l}}`
+`<Ctrl> + w {{h|l}}`
 
 - Jump to the previous difference:
 

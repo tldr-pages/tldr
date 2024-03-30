@@ -3,7 +3,7 @@
 > Display `cargo` version information.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-version.html>.
 
-- Display the version of `cargo`:
+- Display version:
 
 `cargo version`
 

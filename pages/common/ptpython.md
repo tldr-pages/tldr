@@ -29,4 +29,4 @@
 
 - Quit:
 
-`Ctrl + D`
+`<Ctrl> + D`

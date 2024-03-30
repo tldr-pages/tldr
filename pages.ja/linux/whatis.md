@@ -1,7 +1,7 @@
 # whatis
 
 > マニュアルページから、一行の説明文を表示します。
-> 詳しくはこちら: <https://manned.org/whatis>.
+> 詳しくはこちら: <https://manned.org/whatis>
 
 - manページの説明文を表示する:
 
@@ -19,6 +19,6 @@
 
 `whatis --regex '{{wish[0-9]\.[0-9]}}'`
 
-- 言語を指定して説明文で表示する (`manpage-{{ja}}` パッケージが必要です):
+- 言語を指定して説明文で表示する:
 
 `whatis --locale={{ja}} {{コマンド}}`

@@ -1,8 +1,9 @@
 # bspwm
 
-> Dit commando is een alias van `bspc`.
+> Een tegelvensterbeheerder gebaseerd op binaire ruimtepartitionering.
+> Bekijk ook: `bspc`, voor het aansturen.
 > Meer informatie: <https://github.com/baskerville/bspwm>.
 
-- Bekijk de documentatie van het originele commando:
+- Start `bspwm` (houd er rekening mee dat een reeds bestaande vensterbeheerder niet geopend mag zijn wanneer dit commando wordt uitgevoerd):
 
-`tldr bspc`
+`bspwm -c {{pad/naar/config}}`

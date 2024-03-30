@@ -1,7 +1,7 @@
 # gmknod
 
-> Este comando é um pseudônimo de `-p linux mknod`.
+> Este comando é um apelido de `-p linux mknod`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux mknod`

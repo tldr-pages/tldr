@@ -26,12 +26,12 @@
 
 - Modifica un identificador de instancia:
 
-`aws rds modify-db-instance --db-instance-identifier {{antiguo_identificador_instancia}} --new-db-instance-identifier {{nuevo_identificador_instance}}`
+`aws rds modify-db-instance --db-instance-identifier {{antiguo_identificador_instancia}} --new-db-instance-identifier {{nuevo_identificador_instancia}}`
 
 - Reinicia una instancia:
 
 `aws rds reboot-db-instance --db-instance-identifier {{identificador_de_instancia}}`
 
-- Eliminar una instancia:
+- Elimina una instancia:
 
 `aws rds delete-db-instance --db-instance-identifier {{identificador_de_instancia}} --final-db-snapshot-identifier {{identificador_snapshot}} --delete-automated-backups`

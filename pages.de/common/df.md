@@ -1,7 +1,7 @@
 # df
 
 > Verschafft einen Überblick über verfügbaren Speicherplatz im Dateisystem.
-> Weitere Informationen: <https://www.gnu.org/software/coreutils/df>.
+> Weitere Informationen: <https://manned.org/df.1posix>.
 
 - Zeige verfügbaren Platz auf allen eingehängten Dateisystemen:
 

@@ -1,6 +1,6 @@
 # bzfgrep
 
-> Find any fixed strings separated by new lines in bzip2 compressed files using fgrep.
+> Find any fixed strings separated by new lines in `bzip2` compressed files using `fgrep`.
 > More information: <https://manned.org/bzfgrep>.
 
 - Search for lines matching the list of search strings separated by new lines in a compressed file (case-sensitive):

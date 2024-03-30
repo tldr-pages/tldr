@@ -3,11 +3,11 @@
 > A simple and generic work-queue server.
 > More information: <https://beanstalkd.github.io/>.
 
-- Start Beanstalk, listening on port 11300:
+- Start the server, listening on port 11300:
 
 `beanstalkd`
 
-- Start Beanstalk listening on a custom port and address:
+- Listen on a specific [p]ort and address:
 
 `beanstalkd -l {{ip_address}} -p {{port_number}}`
 

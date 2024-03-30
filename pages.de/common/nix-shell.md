@@ -1,7 +1,7 @@
 # nix-shell
 
 > Startet eine interaktive Shell, die auf einem Nix-Ausdruck basiert.
-> Weitere Informationen: <https://nixos.org/manual/nix/stable/#sec-nix-shell>.
+> Weitere Informationen: <https://nixos.org/manual/nix/stable/command-ref/nix-shell.html>.
 
 - Starte mit Nix-Ausdruck in `shell.nix` oder `default.nix` im aktuellen Verzeichnis:
 

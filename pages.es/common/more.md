@@ -1,7 +1,7 @@
 # more
 
 > Abre un archivo para lectura interactiva, permitiendo navegar y buscar.
-> Más información: <https://manned.org/more>.
+> Más información: <https://manned.org/more.1p>.
 
 - Abre un archivo:
 
@@ -17,7 +17,7 @@
 
 - Avanza hacia la siguiente página:
 
-`<Espacio>`
+`<Space>`
 
 - Busca una cadena (presione `n` para ir a la siguiente coincidencia):
 

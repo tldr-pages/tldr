@@ -1,7 +1,7 @@
 # gwc
 
-> Este comando é um pseudônimo de `-p linux wc`.
+> Este comando é um apelido de `-p linux wc`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux wc`

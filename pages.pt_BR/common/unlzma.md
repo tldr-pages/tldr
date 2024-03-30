@@ -1,8 +1,8 @@
 # unlzma
 
-> Este comando é um pseudônimo de `xz`.
+> Este comando é um apelido de `xz`.
 > Mais informações: <https://manned.org/unlzma>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr xz`

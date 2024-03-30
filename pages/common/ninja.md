@@ -19,6 +19,6 @@
 
 `ninja -t targets`
 
-- Show help:
+- Display help:
 
 `ninja -h`

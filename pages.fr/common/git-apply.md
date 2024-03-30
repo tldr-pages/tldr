@@ -13,7 +13,7 @@
 
 - Applique un correctif depuis une source distante :
 
-`curl {{https://example.com/file.patch}} | git apply`
+`curl -L {{https://example.com/file.patch}} | git apply`
 
 - Affiche les différences résultantes et applique le correctif :
 

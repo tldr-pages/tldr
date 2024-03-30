@@ -1,7 +1,8 @@
 # diskutil
 
 > Utility to manage local disks and volumes.
-> More information: <https://ss64.com/osx/diskutil.html>.
+> Some subcommands such as `diskutil partitiondisk` have their own usage documentation.
+> More information: <https://keith.github.io/xcode-man-pages/diskutil.8.html>.
 
 - List all currently available disks, partitions and mounted volumes:
 

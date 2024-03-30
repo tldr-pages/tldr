@@ -1,7 +1,7 @@
 # lrunzip
 
 > A large file decompression program.
-> See also `lrzip`, `lrztar`, `lrzuntar`.
+> See also: `lrzip`, `lrztar`, `lrzuntar`.
 > More information: <https://manned.org/lrunzip>.
 
 - Decompress a file:

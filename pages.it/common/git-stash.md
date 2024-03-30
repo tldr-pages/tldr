@@ -5,7 +5,7 @@
 
 - Salva in un'area temporanea modifiche locali, tranne i file nuovi e non tracciati:
 
-`git stash [push -m {{messaggio_di_stash_opzionale}}]`
+`git stash push -m {{messaggio_di_stash_opzionale}}`
 
 - Includi nello stash anche i file nuovi e non tracciati:
 
@@ -26,10 +26,6 @@
 - Applica uno stash (il predefinito è stash@{0}) e rimuovilo dalla lista degli stash se non ha causato conflitti:
 
 `git stash pop {{nome_stash_opzionale}}`
-
-- Rimuovi uno stash (il predefinito è stash@{0}):
-
-`git stash drop {{nome_stash_opzionale}}`
 
 - Rimuovi tutti gli stash:
 

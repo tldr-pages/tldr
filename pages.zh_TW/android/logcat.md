@@ -1,7 +1,7 @@
 # logcat
 
 > 轉存系統訊息日誌。
-> 更多資訊：<https://developer.android.com/studio/command-line/logcat>.
+> 更多資訊：<https://developer.android.com/tools/logcat>.
 
 - 顯示系統日誌：
 

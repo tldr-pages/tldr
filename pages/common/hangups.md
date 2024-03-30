@@ -7,7 +7,7 @@
 
 `hangups`
 
-- View troubleshooting information and help:
+- Display troubleshooting information and help:
 
 `hangups -h`
 

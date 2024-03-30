@@ -1,11 +1,11 @@
 # airport
 
 > Strumento di configurazione delle reti senza fili.
-> Maggiori informazioni: <https://ss64.com/osx/airport.html>.
+> Maggiori informazioni: <https://keith.github.io/xcode-man-pages/airport.1.html>.
 
 - Mostra le informazioni relative allo stato attuale delle connessioni senza fili:
 
-`airport -I`
+`airport --getinfo`
 
 - Intercetta il traffico delle connessioni senza fili sul primo canale:
 
@@ -13,8 +13,8 @@
 
 - Ricerca le reti senza fili disponibili:
 
-`airport -s`
+`airport --scan`
 
 - Disassocia dalla rete airport corrente:
 
-`sudo airport -z`
+`sudo airport --disassociate`

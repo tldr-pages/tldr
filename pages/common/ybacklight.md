@@ -7,14 +7,14 @@
 
 `ybacklight Sc/Sm`
 
-- Set the brightness to 420:
+- Specify the brightness:
 
 `ybacklight s{{420}}`
 
 - Increase the brightness by 42 big steps (4200 by default):
 
-`ybacklight Si{{42}}`
+`ybacklight Si42`
 
 - Decrease the brightness by 300:
 
-`ybacklight d{{300}}`
+`ybacklight d300`

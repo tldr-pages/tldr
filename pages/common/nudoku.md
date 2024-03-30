@@ -13,7 +13,7 @@
 
 - Navigate the board:
 
-`{{h|j|k|l}} OR {{Left|Down|Up|Right}} arrow key`
+`{{h|j|k|l}} OR {{Left|Down|Up|Right arrow key}}`
 
 - Delete a number:
 

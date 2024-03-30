@@ -1,6 +1,6 @@
 # history expansion
 
-> Reuse and expand the shell history in `sh`, `bash`, `zsh`, `rbash` and `ksh`.
+> Reuse and expand the shell history in `sh`, Bash, Zsh, `rbash` and `ksh`.
 > More information: <https://www.gnu.org/software/bash/manual/html_node/History-Interaction>.
 
 - Run the previous command as root (`!!` is replaced by the previous command):

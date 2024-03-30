@@ -1,20 +1,20 @@
 # GetFileInfo
 
 > Get information about a file in an HFS+ directory.
-> More information: <https://www.unix.com/man-page/osx/1/GetFileInfo/>.
+> More information: <https://keith.github.io/xcode-man-pages/GetFileInfo.1.html>.
 
 - Display information about a given file:
 
-`GetFileInfo {{path/to/filename}}`
+`GetFileInfo {{path/to/file}}`
 
-- Display the date and time a given file was created:
+- Display the [d]ate and time a given file was created:
 
-`GetFileInfo -d {{path/to/filename}}`
+`GetFileInfo -d {{path/to/file}}`
 
-- Display the date and time a given file was last modified:
+- Display the date and time a given file was last [m]odified:
 
-`GetFileInfo -m {{path/to/filename}}`
+`GetFileInfo -m {{path/to/file}}`
 
-- Display the creator of a given file:
+- Display the [c]reator of a given file:
 
-`GetFileInfo -c {{path/to/filename}}`
+`GetFileInfo -c {{path/to/file}}`

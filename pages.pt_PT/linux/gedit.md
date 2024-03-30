@@ -3,18 +3,18 @@
 > Editor de texto para Desktop do GNOME.
 > Mais informações: <https://help.gnome.org/users/gedit/stable/>.
 
-- Abrir ficheiro de texto:
+- Abre um ficheiro de texto:
 
-`gedit {{ficheiro}}`
+`gedit {{caminho/para/ficheiro}}`
 
-- Abrir múltiplos ficheiros de texto:
+- Abre múltiplos ficheiros de texto:
 
-`gedit {{ficheiro1 ficheiro2}}`
+`gedit {{caminho/para/ficheiro1 caminho/para/ficheiro2 ...}}`
 
-- Mostrar a lista de formatações de texto disponíveis:
+- Abre um ficheiro de texto com uma formatação específica:
+
+`gedit --encoding={{UTF-8}} {{caminho/para/ficheiro}}`
+
+- Mostra a lista de formatações de texto disponíveis:
 
 `gedit --list-encodings`
-
-- Abrir um ficheiro de texto com uma formatação específica:
-
-`gedit --encoding={{encoding}} {{ficheiro}}`

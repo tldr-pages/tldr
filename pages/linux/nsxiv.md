@@ -21,7 +21,7 @@
 
 - Switch to thumbnail mode or open selected image in image mode:
 
-`Return`
+`<Return>`
 
 - Count images forward in image mode:
 

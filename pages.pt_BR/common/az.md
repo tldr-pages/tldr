@@ -3,26 +3,26 @@
 > A interface de linha de comando oficial do Microsoft Azure.
 > Mais informações: <https://learn.microsoft.com/cli/azure>.
 
-- Fazer log in no Azure:
+- Faz log in no Azure:
 
 `az login`
 
-- Gerenciar informações de assinatura do Microsoft Azure:
+- Gerencia informações de assinatura do Microsoft Azure:
 
 `az account`
 
-- Listar todos os discos gerenciados pelo Azure:
+- Lista todos os discos gerenciados pelo Azure:
 
 `az disk list`
 
-- Listar todas as máquinas virtuais do Azure:
+- Lista todas as máquinas virtuais do Azure:
 
 `az vm list`
 
-- Gerenciar os serviços do Azure Kubernetes:
+- Gerencia os serviços do Azure Kubernetes:
 
 `az aks`
 
-- Gerenciar recursos de rede do Azure:
+- Gerencia recursos de rede do Azure:
 
 `az network`

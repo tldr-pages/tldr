@@ -1,7 +1,7 @@
 # llvm-nm
 
-> Este comando é um pseudônimo de `nm`.
+> Este comando é um apelido de `nm`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr nm`

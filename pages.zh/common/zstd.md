@@ -9,11 +9,11 @@
 
 - 解压缩一个文件：
 
-`zstd -d {{file}}.zst`
+`zstd --decompress {{file.zst}}`
 
 - 将文件解压缩到标准输出（`stdout`）：
 
-`zstd -dc {{file}}.zst`
+`zstd --decompress --stdout {{file.zst}}`
 
 - 使用指定的压缩等级来压缩一个文件.0 = 最差，19 = 最好（默认等级是 3）：
 

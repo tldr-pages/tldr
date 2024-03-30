@@ -1,7 +1,7 @@
 # say
 
 > Czyta na głos.
-> Więcej informacji: <https://ss64.com/osx/say.html>.
+> Więcej informacji: <https://keith.github.io/xcode-man-pages/say.1.html>.
 
 - Powiedz na głos:
 

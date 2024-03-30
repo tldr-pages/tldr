@@ -8,14 +8,14 @@
 
 `abbr --add {{nome_abreviacao}} {{comando}} {{orgumentos_comando}}`
 
-- Renomear uma abreviação existente:
+- Renomeia uma abreviação existente:
 
 `abbr --rename {{nome_antigo}} {{novo_nome}}`
 
-- Apagar uma abreviação existente:
+- Apaga uma abreviação existente:
 
 `abbr --erase {{nome_abreviacao}}`
 
-- Importar abreviações definidas em outro host via SSH:
+- Importa abreviações definidas em outro host via SSH:
 
 `ssh {{nome_host}} abbr --show | source`

@@ -11,7 +11,7 @@
 
 `trawl -f wi`
 
-- Get a list of available interfaces:
+- List available interfaces:
 
 `trawl -i`
 

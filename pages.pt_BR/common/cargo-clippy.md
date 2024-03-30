@@ -3,30 +3,30 @@
 > Conjunto de validadores para identificar erros comuns e melhorar código em Rust.
 > Mais informações: <https://github.com/rust-lang/rust-clippy>.
 
-- Executar verificações no código no diretório atual:
+- Executa verificações no código no diretório atual:
 
 `cargo clippy`
 
-- Executar verificações garantindo que o `Cargo.lock` esteja atualizado:
+- Executa verificações garantindo que o `Cargo.lock` esteja atualizado:
 
 `cargo clippy --locked`
 
-- Executar verificações em todos os pacotes no workspace:
+- Executa verificações em todos os pacotes no workspace:
 
 `cargo clippy --workspace`
 
-- Executar verificações para um pacote específico:
+- Executa verificações para um pacote específico:
 
 `cargo clippy --package {{pacote}}`
 
-- Executar validações tratando avisos como erros:
+- Executa validações tratando avisos como erros:
 
 `cargo clippy -- --deny warnings`
 
-- Executar verificações e ignorar avisos:
+- Executa verificações e ignora avisos:
 
 `cargo clippy -- --allow warnings`
 
-- Aplicar automaticamente as sugestões do Clippy:
+- Aplica automaticamente as sugestões do Clippy:
 
 `cargo clippy --fix`

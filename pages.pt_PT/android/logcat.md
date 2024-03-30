@@ -1,16 +1,16 @@
 # logcat
 
 > Exibe um conjunto de mensagens de sistema, incluindo a stack de execução do programa em caso de erro, e mensagens de informação criadas por aplicações.
-> Mais informações: <https://developer.android.com/studio/command-line/logcat>.
+> Mais informações: <https://developer.android.com/tools/logcat>.
 
-- Mostrar mensagens de sistema:
+- Mostra mensagens de sistema:
 
 `logcat`
 
-- Escrever as mensagens de sistema num ficheiro:
+- Escreve as mensagens de sistema num ficheiro:
 
-`logcat -f {{caminho/para/arquivo}}`
+`logcat -f {{caminho/para/ficheiro}}`
 
-- Mostrar mensagens que correspondem a uma expressão regular:
+- Mostra mensagens que correspondem a uma expressão regular:
 
 `logcat --regex {{expressao_regular}}`

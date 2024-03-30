@@ -1,7 +1,7 @@
 # clojure
 
-> Este comando é um pseudônimo de `clj`.
+> Este comando é um apelido de `clj`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr clj`

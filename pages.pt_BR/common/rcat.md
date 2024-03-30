@@ -1,7 +1,7 @@
 # rcat
 
-> Este comando é um pseudônimo de `rc`.
+> Este comando é um apelido de `rc`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr rc`

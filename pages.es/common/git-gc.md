@@ -11,7 +11,7 @@
 
 `git gc --aggressive`
 
-- No elimina objetos sueltos (por defecto los elimina):
+- Optimiza sin eliminar objetos sueltos (por defecto los elimina):
 
 `git gc --no-prune`
 

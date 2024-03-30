@@ -1,7 +1,7 @@
 # head
 
 > Stampa a schermo le prime linee di un file.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/head>.
+> Maggiori informazioni: <https://manned.org/head.1p>.
 
 - Stampa a schermo le prime linee di un file:
 

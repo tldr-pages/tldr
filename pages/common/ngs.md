@@ -11,6 +11,6 @@
 
 `ngs {{path/to/script.ngs}}`
 
-- Print the version:
+- Display version:
 
 `ngs --version`

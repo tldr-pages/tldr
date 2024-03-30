@@ -7,17 +7,13 @@
 
 `dig +short {{example.com}}`
 
-- Obtiene una respuesta detallada para un dominio determinado (registros A):
+- Obtén una respuesta detallada para un dominio determinado (registros A):
 
 `dig +noall +answer {{example.com}}`
 
 - Consulta un tipo de registro DNS específico asociado a un dominio determinado:
 
 `dig +short {{example.com}} {{A|MX|TXT|CNAME|NS}}`
-
-- Obtiene todos los tipos de registros para un dominio determinado:
-
-`dig {{example.com}} ANY`
 
 - Especifica un servidor DNS alterno a consultar:
 

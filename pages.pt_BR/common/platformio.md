@@ -1,8 +1,8 @@
 # platformio
 
-> Este comando é um pseudônimo de `pio`.
+> Este comando é um apelido de `pio`.
 > Mais informações: <https://docs.platformio.org/en/latest/core/userguide/>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr pio`

@@ -1,11 +1,11 @@
 # docker save
 
-> Bir veya daha fazla docker imgesini arşivlemek için dışa aktar.
+> Bir veya daha fazla Docker imgesini arşivlemek için dışa aktar.
 > Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/save/>.
 
 - Bir imgeyi, `stdout`'u tar arşivine yönlendirerek kaydet:
 
-`docker save {{imge}}:{{etiket}} > {örnek/dosya.tar}}`
+`docker save {{imge}}:{{etiket}} > {{örnek/dosya.tar}}`
 
 - Bir imgeyi, bir tar arşivine kaydet:
 

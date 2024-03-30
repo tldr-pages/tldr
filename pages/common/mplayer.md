@@ -21,8 +21,8 @@
 
 - Quit mplayer:
 
-`<Escape>`
+`<Esc>`
 
 - Seek backward or forward 10 seconds:
 
-`<Left> or <Right>`
+`{{Left|Right}}`

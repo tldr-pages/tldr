@@ -15,10 +15,6 @@
 
 `dig +short {{example.com}} {{A|MX|TXT|CNAME|NS}}`
 
-- 指定したドメイン名のすべてのタイプのレコードを取得する:
-
-`dig {{example.com}} ANY`
-
 - 問い合わせる別の DNS サーバーを指定する:
 
 `dig @{{8.8.8.8}} {{example.com}}`

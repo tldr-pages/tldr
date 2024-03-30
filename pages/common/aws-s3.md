@@ -1,6 +1,7 @@
 # aws s3
 
 > CLI for AWS S3 - provides storage through web services interfaces.
+> Some subcommands such as `aws s3 cp` have their own usage documentation.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html>.
 
 - Show files in a bucket:
@@ -9,7 +10,7 @@
 
 - Sync files and directories from local to bucket:
 
-`aws s3 sync {{path/to/files}} s3://{{bucket_name}}`
+`aws s3 sync {{path/to/file1 path/to/file2 ...}} s3://{{bucket_name}}`
 
 - Sync files and directories from bucket to local:
 
@@ -17,7 +18,7 @@
 
 - Sync files and directories with exclusions:
 
-`aws s3 sync {{path/to/files}} s3://{{bucket_name}} --exclude {{path/to/file}} --exclude {{path/to/directory}}/*`
+`aws s3 sync {{path/to/file1 path/to/file2 ...}} s3://{{bucket_name}} --exclude {{path/to/file}} --exclude {{path/to/directory}}/*`
 
 - Remove file from bucket:
 

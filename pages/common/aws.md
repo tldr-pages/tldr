@@ -12,10 +12,6 @@
 
 `aws configure sso`
 
-- See help text for the AWS command:
-
-`aws {{command}} help`
-
 - Get the caller identity (used to troubleshoot permissions):
 
 `aws sts get-caller-identity`
@@ -35,3 +31,7 @@
 - Generate a JSON CLI Skeleton (useful for infrastructure as code):
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- Display help for a specific command:
+
+`aws {{command}} help`

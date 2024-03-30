@@ -2,7 +2,7 @@
 
 > Kraak WEP- en WPA/WPA2-sleutels van handshake in vastgelegde pakketten.
 > Onderdeel van Aircrack-ng netwerksoftwaresuite.
-> Meer Informatie: <https://www.aircrack-ng.org/doku.php?id=aircrack-ng>.
+> Meer informatie: <https://www.aircrack-ng.org/doku.php?id=aircrack-ng>.
 
 - Kraak-sleutel uit opnamebestand met behulp van woordenlijst:
 

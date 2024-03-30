@@ -3,34 +3,34 @@
 > Interface de linha comandos para configurar o sistema de autenticação.
 > Mais informações: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/authconfig-install>.
 
-- Exibir as configurações atuais (ou dry run):
+- Exibe as configurações atuais (ou dry run):
 
 `authconfig --test`
 
-- Configurar o servidor para utilizar diferentes algoritmos de hash para as senhas:
+- Configura o servidor para utilizar diferentes algoritmos de hash para as senhas:
 
 `authconfig --update --passalgo={{algoritmo}}`
 
-- Habilitar a autenticação via LDAP:
+- Habilita a autenticação via LDAP:
 
 `authconfig --update --enableldapauth`
 
-- Desabilitar a autenticação via LDAP:
+- Desabilita a autenticação via LDAP:
 
 `authconfig --update --disableldapauth`
 
-- Habilitar o Network Information Service (NIS):
+- Habilita o Network Information Service (NIS):
 
 `authconfig --update --enablenis`
 
-- Habilitar Kerberos:
+- Habilita Kerberos:
 
 `authconfig --update --enablekrb5`
 
-- Habilitar a autenticação Winbind (Active Directory):
+- Habilita a autenticação Winbind (Active Directory):
 
 `authconfig --update --enablewinbindauth`
 
-- Habilitar a autorização local:
+- Habilita a autorização local:
 
 `authconfig --update --enablelocauthorize`

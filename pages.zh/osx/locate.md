@@ -1,11 +1,11 @@
 # locate
 
 > 快速查找文件名。
-> 更多信息：<https://manned.org/locate>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/locate.1.html>.
 
 - 在数据库中查找关键字。注意：数据库定期重新更新（通常每周或每天）：
 
-`locate {{关键字}}`
+`locate "{{关键字}}"`
 
 - 按文件名查找文件（不包含填充字符的模式被解释为 `*关键字*`）：
 

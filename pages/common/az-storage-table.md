@@ -1,7 +1,7 @@
 # az storage table
 
 > Manage NoSQL key-value storage in Azure.
-> Part of `azure-cli`.
+> Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/storage/table>.
 
 - Create a new table in the storage account:

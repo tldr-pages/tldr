@@ -27,53 +27,59 @@ to traditional [man pages](https://en.wikipedia.org/wiki/Man_page).
 
 Maybe you're new to the command-line world? Perhaps you're just a little rusty or can't always recall the arguments for commands like `lsof`, or `tar`?
 
-It certainly doesn't help that the first option explained in `man tar` is:
+It certainly doesn't help that, in the past, the first option explained in `man tar` was:
 
-```
+```console
+$ man tar
+...
 -b blocksize
    Specify the block size, in 512-byte records, for tape drive I/O.
    As a rule, this argument is only needed when reading from or writing to tape drives,
    and usually not even then as the default block size of 20 records (10240 bytes) is very common.
+...
 ```
 
 There seems to be room for simpler help pages, focused on practical examples.
 How about:
 
-![Animated SVG of the tldr client displaying the tar command.](images/tldr.svg)
+![Screenshot of the tldr client displaying the tar command in light mode.](images/tldr-light.png#gh-light-mode-only)
+![Screenshot of the tldr client displaying the tar command in dark mode.](images/tldr-dark.png#gh-dark-mode-only)
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line tools.
 
 ## How do I use it?
 
-A popular and convenient way to access these pages on your computer
-is to install the [Node.js client](https://github.com/tldr-pages/tldr-node-client),
-which is supported by the tldr-pages project maintainers:
+> [!TIP]
+> For browsing without installing a client on your computer,
+> see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
 
-```sh
+A popular and convenient way to access these pages on your computer
+is to install the official [Node.js client](https://github.com/tldr-pages/tldr-node-client):
+
+```shell
 npm install -g tldr
 ```
 
-Alternatively, you can also use the [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via `pip3`.
+Alternatively, you can also use the official [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via [pip3](https://pypi.org/project/tldr/) (or [other package managers](https://github.com/tldr-pages/tldr-python-client#installation)):
 
-```sh
+```shell
 pip3 install tldr
 ```
 
-Or Mac users can also install our [C Client](https://github.com/tldr-pages/tldr-c-client) using Homebrew.
+Linux and Mac users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc) (or [other package managers](https://github.com/tldr-pages/tlrc#installation) on other operating systems):
 
-```sh
-brew install tldr
+```shell
+brew install tlrc
 ```
 
 Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
 accessible through typing `tldr tar` instead of the standard `man tar`.
 
-If you want an offline version without installing any software,
-check out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
+If you don't want to install any software, check out the [PDF version](https://github.com/tldr-pages/tldr/releases/latest/download/tldr-book.pdf) instead.
 
-For browsing without installing a client to your computer,
-see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
+> [!NOTE]
+> PDFs for translations are available for most languages. You can find them in the releases assets of the [latest release](https://github.com/tldr-pages/tldr/releases/latest).
 
 There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
@@ -99,6 +105,8 @@ If it's your first time contributing, have a look at the [contributing guideline
 
 If you'd like to contribute to translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
 to see the overall progress of all translations, and which translations are missing or outdated.
+
+You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tldr-pages:matrix.org)!
 
 ## Similar projects
 

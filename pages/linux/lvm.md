@@ -7,10 +7,6 @@
 
 `sudo lvm`
 
-- List the Logical Volume Manager commands:
-
-`sudo lvm help`
-
 - Initialize a drive or partition to be used as a physical volume:
 
 `sudo lvm pvcreate {{/dev/sdXY}}`
@@ -34,3 +30,7 @@
 - Display information about logical volumes:
 
 `sudo lvm lvdisplay`
+
+- Display help for a specific command:
+
+`lvm help {{command}}`

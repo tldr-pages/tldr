@@ -3,7 +3,7 @@
 > Administração de pontes de rede.
 > Mais informações: <https://manned.org/brctl>.
 
-- Exibir uma lista com informações das pontes de rede existentes:
+- Exibe uma lista com informações das pontes de rede existentes:
 
 `sudo brctl show`
 
@@ -11,14 +11,14 @@
 
 `sudo brctl add {{nome_da_ponte}}`
 
-- Remover uma ponte de rede:
+- Remove uma ponte de rede:
 
 `sudo brctl del {{nome_da_ponte}}`
 
-- Adicionar uma interface de rede em uma ponte de rede existente:
+- Adiciona uma interface de rede em uma ponte de rede existente:
 
 `sudo brctl addif {{nome_da_ponte}} {{nome_da_interface_de_rede}}`
 
-- Remover uma interface de rede de uma ponte de rede existente:
+- Remove uma interface de rede de uma ponte de rede existente:
 
 `sudo brctl delif {{nome_da_ponte}} {{nome_da_interface_de_rede}}`

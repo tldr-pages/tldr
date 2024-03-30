@@ -1,6 +1,6 @@
 # postcss
 
-> PostCSS is a tool for transforming styles with JS plugins.
+> Transform styles with JS plugins.
 > More information: <https://postcss.org>.
 
 - Parse and transform a CSS file:
@@ -31,6 +31,6 @@
 
 `postcss {{path/to/file}} --watch`
 
-- Display available options and examples:
+- Display help:
 
 `postcss --help`

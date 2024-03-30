@@ -25,12 +25,12 @@
 
 - Navigate forwards and backwards through the links on a page:
 
-`Up arrow key, Down arrow key`
+`{{Up arrow key|Down arrow key}}`
 
 - Go back to the previously displayed page:
 
-`Left arrow key or u`
+`{{Left arrow key|u}}`
 
 - Exit:
 
-`q then y`
+`q + y`

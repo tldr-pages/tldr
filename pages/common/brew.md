@@ -1,7 +1,8 @@
 # brew
 
-> Package manager for macOS and Linux.
-> More information: <https://brew.sh>.
+> Homebrew - a package manager for macOS and Linux.
+> Some subcommands such as `install` have their own usage documentation.
+> More information: <https://docs.brew.sh/Manpage>.
 
 - Install the latest stable version of a formula or cask (use `--devel` for development versions):
 
@@ -23,7 +24,7 @@
 
 `brew outdated`
 
-- Search for available formulae (i.e. packages) and casks (i.e. native packages):
+- Search for available formulae (i.e. packages) and casks (i.e. native macOS `.app` packages):
 
 `brew search {{text}}`
 

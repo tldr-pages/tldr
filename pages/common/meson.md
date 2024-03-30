@@ -23,6 +23,6 @@
 
 `meson --help`
 
-- Show version info:
+- Display version:
 
 `meson --version`

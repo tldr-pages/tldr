@@ -1,7 +1,7 @@
 # osascript
 
 > Ejecuta AppleScript o JavaScript for Automation (JXA) desde la línea de comandos.
-> Más información: <https://ss64.com/osx/osascript.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/osascript.1.html>.
 
 - Ejecuta un comando AppleScript:
 
@@ -15,7 +15,7 @@
 
 `osascript {{ruta/al/apple.scpt}}`
 
-- Obtiene el identificador del paquete de una aplicación (útil para `open -b`):
+- Obtén el identificador del paquete de una aplicación (útil para `open -b`):
 
 `osascript -e 'id of app "{{Application}}"'`
 

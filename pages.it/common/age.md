@@ -1,7 +1,7 @@
 # age
 
 > Uno strumento semplice, moderno e sicuro per la cifratura di file.
-> Maggiori informazioni: <https://age-encryption.org>.
+> Maggiori informazioni: <https://github.com/FiloSottile/age>.
 
 - Generare un file cifrato che può essere decifrato con una passphrase:
 

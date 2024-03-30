@@ -1,7 +1,7 @@
 # docker compose
 
 > 複数コンテナを持つDockerアプリケーションの実行と管理をします。
-> 詳しくはこちら: <https://docs.docker.com/compose/reference/>.
+> 詳しくはこちら: <https://docs.docker.com/compose/reference/>
 
 - 実行中のコンテナ全てをリスト表示する:
 
@@ -14,10 +14,6 @@
 - 全てのコンテナを起動し、必要に応じて再ビルドする:
 
 `docker compose up --build`
-
-- 代替composeファイルを使って全てのコンテナを起動する:
-
-`docker compose --file {{ファイルパス}} up`
 
 - 実行中の全てのコンテナを停止する:
 

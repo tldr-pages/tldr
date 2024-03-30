@@ -1,7 +1,7 @@
 # radare2
 
 > A set of reverse engineering tools.
-> More information: <https://radare.gitbooks.io/radare2book/>.
+> More information: <https://www.radare.org/r/docs.html>.
 
 - Open a file in write mode without parsing the file format headers:
 
@@ -15,7 +15,7 @@
 
 `radare2 -i {{path/to/script.r2}} {{path/to/binary}}`
 
-- Show help text for any command in the interactive CLI:
+- Display help text for any command in the interactive CLI:
 
 `> {{radare2_command}}?`
 

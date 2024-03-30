@@ -1,6 +1,6 @@
 # nload
 
-> A tool for visualizing network usage in the terminal.
+> Visualize network usage in the terminal.
 > More information: <https://github.com/rolandriegel/nload>.
 
 - View all network traffic (use the arrow keys to switch interfaces):
