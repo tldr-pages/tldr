@@ -16,7 +16,7 @@
 
 `tunelp -i 5 {{/dev/lp0}}`
 
-- Intenta un número determinado de veces imprimir un [c]arácter en la impresora antes de permanecer inactiva durante un [t]iempo determinado:
+- Intenta imprimir varias veces un [c]arácter en la impresora antes de permanecer inactiva durante un [t]iempo determinado:
 
 `tunelp --chars {{veces}} --time {{tiempo_en_centisegundos}} {{/dev/lp0}}`
 
