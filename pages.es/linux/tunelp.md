@@ -8,7 +8,7 @@
 
 `tunelp --status {{/dev/lp0}}`
 
-- Restablece un puerto paralelo determinado:
+- Restablece un puerto paralelo:
 
 `tunelp --reset {{/dev/lp0}}`
 
