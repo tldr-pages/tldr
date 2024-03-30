@@ -1,6 +1,6 @@
 # mkdir
 
-> Создает каталог или подкаталог.
+> Создает каталог или подкаталог в файловой системе.
 > Больше информации: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>.
 
 - Создать новый каталог:
