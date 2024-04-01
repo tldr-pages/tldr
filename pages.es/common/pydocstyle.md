@@ -9,7 +9,7 @@
 
 - Muestra una [e]xplicación de cada error:
 
-`pydocstyle {{-e|--explain}}} {{archivo.py|ruta/al/directorio}}`
+`pydocstyle {{-e|--explain}} {{archivo.py|ruta/al/directorio}}`
 
 - Muestra información de [d]ebug:
 
