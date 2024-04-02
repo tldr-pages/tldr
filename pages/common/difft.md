@@ -20,7 +20,7 @@
 
 `difft --ignore-comments {{path/to/original_file}} {{path/to/new_file}}`
 
-- Turn on syntax highlighting of source code on or off (default is `on`):
+- Enable/Disable syntax highlighting of source code (default is `on`):
 
 `difft --syntax-highlight {{on|off}} {{path/to/original_file}} {{path/to/new_file}}`
 
