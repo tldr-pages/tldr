@@ -8,7 +8,7 @@
 
 `difft {{path/to/original_file_or_directory}} {{path/to/new_file_or_directory}}`
 
-- Only report if there are changes between the source code files:
+- Only report the presence of differences between the files:
 
 `difft --check-only {{path/to/original_file}} {{path/to/new_file}}`
 
