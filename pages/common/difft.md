@@ -16,7 +16,7 @@
 
 `difft --display {{side-by-side|side-by-side-show-both|inline|json}} {{path/to/original_file}} {{path/to/new_file}}`
 
-- Ignore comments when diffing:
+- Ignore comments when comparing:
 
 `difft --ignore-comments {{path/to/original_file}} {{path/to/new_file}}`
 
