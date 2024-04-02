@@ -12,7 +12,7 @@
 
 `. torsocks {{on|off}}`
 
-- Spawn a new tor enabled shell (traffic from any command from spawned shell will route through tor):
+- Spawn a new Tor enabled shell:
 
 `torsocks --shell`
 
