@@ -4,7 +4,7 @@
 > See also: `delta`, `diff`.
 > More information: <https://difftastic.wilfred.me.uk/introduction.html>.
 
-- Check files or directories for changes:
+- Compare two files or directories:
 
 `difft {{path/to/original_file_or_directory}} {{path/to/new_file_or_directory}}`
 
