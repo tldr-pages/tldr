@@ -20,7 +20,7 @@
 
 `torsocks show`
 
-- [i]solate traffic through a different tor circuit, improving anonymity:
+- [i]solate traffic through a different Tor circuit, improving anonymity:
 
 `torsocks --isolate {{curl https://check.torproject.org/api/ip}}`
 
