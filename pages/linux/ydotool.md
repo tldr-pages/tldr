@@ -3,7 +3,7 @@
 > Display server agnostic input automator.
 > More information: <https://github.com/ReimuNotMoe/ydotool>.
 
-- Left click with a mouse:
+- Perform a left click input:
 
 `ydotool click 0xC0`
 
