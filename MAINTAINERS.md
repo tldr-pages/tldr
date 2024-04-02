@@ -109,12 +109,12 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - Isaac Vicente ([@isaacvicente](https://github.com/isaacvicente)):
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10737) — [29 December 2023](https://github.com/tldr-pages/tldr/issues/11918)
 - Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl)): [18 December 2023](https://github.com/tldr-pages/tldr/issues/11771) — [21 January 2024](https://github.com/tldr-pages/tldr/issues/12094)
-- Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin)): [09 February 2024](https://github.com/tldr-pages/tldr/issues/12227) — [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595#issuecomment-2031015230)
 - Geipro/Proscream ([@Geipro)](https://github.com/Geipro)):
   [19 November 2019](https://github.com/tldr-pages/tldr/issues/3592) — [27 March 2024](https://github.com/tldr-pages/tldr/issues/12209) (Removed during 2FA enforcement)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)): [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454) — [27 March 2024](https://github.com/tldr-pages/tldr/issues/12209) (Removed during 2FA enforcement)
 - Shashank Hebbar ([@quantumflo](https://github.com/quantumflo)):
   [13 November 2023](https://github.com/tldr-pages/tldr/issues/11460) — [27 March 2024](https://github.com/tldr-pages/tldr/issues/12209) (Removed during 2FA enforcement)
+- Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin)): [09 February 2024](https://github.com/tldr-pages/tldr/issues/12227) — [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595#issuecomment-2031015230)
 
 ## Organization members
 
