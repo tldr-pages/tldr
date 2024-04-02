@@ -28,6 +28,6 @@
 
 `difft --skip-unchanged {{path/to/original_file_or_directory}} {{path/to/new_file_or_directory}}`
 
-- Print all the languages supported by difftastic, along with their extensions:
+- Print all the languages supported by the tool, along with their extensions:
 
 `difft --list-languages`
