@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -s "$NVS_HOME/nvs.sh" ]; then
+if [[ -s "$NVS_HOME/nvs.sh" ]]; then
     . "$NVS_HOME/nvs.sh"
     # Uses the standard version of NodeJS
     nvs use
