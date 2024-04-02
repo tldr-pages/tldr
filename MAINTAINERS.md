@@ -68,6 +68,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - **Alejandro Cervera ([@tricantivu](https://github.com/tricantivu))**: [4 January 2024](https://github.com/tldr-pages/tldr/issues/11989) — present
 - **Mohammad Reza Soleimani ([@MrMw3](https://github.com/MrMw3))**: [07 January 2024](https://github.com/tldr-pages/tldr/issues/12011) — present
 - **Alexandre ZANNI ([@noraj](https://github.com/noraj))**: [22 February 2024](https://github.com/tldr-pages/tldr/issues/12324) — present
+- **Shashank Hebbar ([@quantumflo](https://github.com/quantumflo))**:
+  [13 November 2023](https://github.com/tldr-pages/tldr/issues/11460) — [27 March 2024](https://github.com/tldr-pages/tldr/issues/12209), [30 March 2024](https://github.com/tldr-pages/tldr/pull/11622#issuecomment-2027932865) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -112,8 +114,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - Geipro/Proscream ([@Geipro)](https://github.com/Geipro)):
   [19 November 2019](https://github.com/tldr-pages/tldr/issues/3592) — [27 March 2024](https://github.com/tldr-pages/tldr/issues/12209) (Removed during 2FA enforcement)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)): [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454) — [27 March 2024](https://github.com/tldr-pages/tldr/issues/12209) (Removed during 2FA enforcement)
-- Shashank Hebbar ([@quantumflo](https://github.com/quantumflo)):
-  [13 November 2023](https://github.com/tldr-pages/tldr/issues/11460) — [27 March 2024](https://github.com/tldr-pages/tldr/issues/12209) (Removed during 2FA enforcement)
 - Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin)): [09 February 2024](https://github.com/tldr-pages/tldr/issues/12227) — [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595#issuecomment-2031015230)
 
 ## Organization members
