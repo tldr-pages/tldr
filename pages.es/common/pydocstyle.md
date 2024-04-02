@@ -11,7 +11,7 @@
 
 `pydocstyle {{-e|--explain}} {{archivo.py|ruta/al/directorio}}`
 
-- Muestra información de [d]ebug:
+- Muestra información de [d]epuración:
 
 `pydocstyle {{-d|--debug}} {{archivo.py|ruta/al/directorio}}`
 
