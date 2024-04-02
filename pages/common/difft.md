@@ -26,7 +26,7 @@
 
 - Do not output anything at all if there are no changes between files:
 
-`difft --skip-unchanged {{path/to/original_file}} {{path/to/new_file}}`
+`difft --skip-unchanged {{path/to/original_file_or_directory}} {{path/to/new_file_or_directory}}`
 
 - Print all the languages supported by difftastic, along with their extensions:
 
