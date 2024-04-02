@@ -12,7 +12,7 @@
 
 `difft --check-only {{path/to/original_file}} {{path/to/new_file}}`
 
-- Show changes in different display modes (default mode is `side-by-side`):
+- Specify the display mode (default is `side-by-side`):
 
 `difft --display {{side-by-side|side-by-side-show-both|inline|json}} {{path/to/original_file}} {{path/to/new_file}}`
 
