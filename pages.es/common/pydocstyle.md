@@ -3,7 +3,7 @@
 > Comprueba estáticamente que los scripts de Python cumplen con las convenciones de documentación de Python.
 > Más información: <https://www.pydocstyle.org/en/latest/>.
 
-- Analiza un script Python o todos los scripts Python de un directorio específico:
+- Analiza un script de Python o todos los scripts de Python en un directorio específico:
 
 `pydocstyle {{archivo.py|ruta/al/directorio}}`
 
