@@ -1,6 +1,6 @@
 # ydotool
 
-> Control keyboard and mouse inputs via commands.
+> Control keyboard and mouse inputs via commands in a way that is display server agnostic.
 > More information: <https://github.com/ReimuNotMoe/ydotool>.
 
 - Perform a left click input:
