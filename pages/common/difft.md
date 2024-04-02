@@ -24,7 +24,7 @@
 
 `difft --syntax-highlight {{on|off}} {{path/to/original_file}} {{path/to/new_file}}`
 
-- Do not output anything at all if there are no changes between files:
+- Do not output anything at all if there are no differences between files:
 
 `difft --skip-unchanged {{path/to/original_file_or_directory}} {{path/to/new_file_or_directory}}`
 
