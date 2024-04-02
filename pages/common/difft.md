@@ -1,6 +1,6 @@
 # difft
 
-> Difftastic is a structural diff that understands syntax.
+> Compare files or directories based on the syntax of the programming language.
 > More information: <https://difftastic.wilfred.me.uk/introduction.html>.
 
 - Check files or directories for changes:
