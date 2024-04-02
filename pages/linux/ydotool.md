@@ -7,7 +7,7 @@
 
 `ydotool click 0xC0`
 
-- Right click with a mouse:
+- Perform a right click input:
 
 `ydotool click 0xC1`
 
