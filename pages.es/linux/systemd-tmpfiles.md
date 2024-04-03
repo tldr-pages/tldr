@@ -4,7 +4,7 @@
 > Este comando es invocado automáticamente en el arranque por los servicios de systemd, ejecutarlo manualmente tiende a ser innecesario.
 > Más información: <https://www.freedesktop.org/software/systemd/man/systemd-tmpfiles.html>.
 
-- Crea los archivos y directorios especificados en la configuración:
+- Crea los archivos y directorios especificados en el archivo de configuración:
 
 `systemd-tmpfiles --create`
 
