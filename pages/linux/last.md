@@ -4,7 +4,7 @@
 > See also: `lastb`, `tac`.
 > More information: <https://manned.org/last.1>.
 
-- List login information (e.g., username, terminal, boot time, kernel):
+- List login information (e.g., username, terminal, boot time, kernel) of all users:
 
 `last`
 
