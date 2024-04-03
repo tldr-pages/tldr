@@ -1,6 +1,6 @@
 # last
 
-> List information of user logins.
+> List information of last user logins.
 > See also: `lastb`, `tac`.
 > More information: <https://manned.org/last.1>.
 
