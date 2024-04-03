@@ -12,7 +12,7 @@
 
 `systemd-tmpfiles --clean`
 
-- Elimina archivos y directorios según lo especificado en la configuración:
+- Elimina archivos y directorios según lo especificado en el archivo de configuración:
 
 `systemd-tmpfiles --remove`
 
