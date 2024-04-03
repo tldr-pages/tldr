@@ -16,7 +16,7 @@
 
 `systemd-tmpfiles --remove`
 
-- Aplica operaciones para configuraciones específicas de usuario:
+- Aplica operaciones en archivos de configuración específicos de usuario:
 
 `systemd-tmpfiles --create --user`
 
