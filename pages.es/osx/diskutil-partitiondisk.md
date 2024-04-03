@@ -19,7 +19,7 @@
 
 - Reformatea un volumen y crea múltiples particiones:
 
-`diskutil partitionDisk {{/dev/dispositivo_de_disco}} {{número_de_particiones}} {{APM|MBR|GPT}} {{partición_con_sistema_de_archivos1}} {{nombre_de_partición1}} {{tamaño_de_partición1}} {{partición_con_sistema_de_archivos2}} {{nombre_de_partición2}} {{tamaño_de_partición2}} ...`
+`diskutil partitionDisk {{/dev/dispositivo_disco}} {{número_particiones}} {{APM|MBR|GPT}} {{partición_sistema_archivos1}} {{nombre_partición1}} {{tamaño_partición1}} {{partición_sistema_archivos2}} {{nombre_partición2}} {{tamaño_partición2}} ...`
 
 - Lista todos los sistemas de ficheros soportados para particionar:
 
