@@ -30,7 +30,7 @@
 
 - List information [s]ince a specific time and date:
 
-`last --since -7days`
+`last --since {{-7days}}`
 
 - List information (i.e., hostname and IP) of remote hosts:
 
