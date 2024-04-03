@@ -28,7 +28,7 @@ The below table shows the compatibility of user-executable scripts with differen
 | [render.py](pdf/render.py) | ✅ | ✅ | ✅ |
 | [build-pdf.sh](pdf/build-pdf.sh) | ✅ | ✅ | ❌ |
 | [build.sh](build.sh) | ✅ | ✅ | ❌ |
-| [check-more-info-links.py](check-more-info-links.py) | ✅ | ? | ✅ |
+| [check-more-info-links.py](check-more-info-links.py) | ✅ | ✅ | ✅ |
 | [set-alias-pages.py](set-alias-pages.py) | ✅ | ✅ | ✅ |
 | [set-more-info-link.py](set-more-info-link.py) | ✅ | ✅ | ✅ |
 | [wrong-filename.sh](wrong-filename.sh) | ✅ | ❌ | ❌ |
