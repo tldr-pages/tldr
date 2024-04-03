@@ -19,7 +19,7 @@
 
 - Skip the login ([n]o login) and invoke, as root, another [l]ogin program instead of `/bin/login`:
 
-`agetty {{n|--skip-login}} {{-l|--login-program}} {{login_program}} {{tty}}`
+`agetty {{-n|--skip-login}} {{-l|--login-program}} {{login_program}} {{tty}}`
 
 - Do not display the pre-login ([i]ssue) file (`/etc/issue` by default) before writing the login prompt:
 
