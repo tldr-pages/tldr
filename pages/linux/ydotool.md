@@ -3,6 +3,10 @@
 > Control keyboard and mouse inputs via commands in a way that is display server agnostic.
 > More information: <https://github.com/ReimuNotMoe/ydotool>.
 
+- Start the ydotool daemon in the background:
+
+`ydotoold`
+
 - Perform a left click input:
 
 `ydotool click 0xC0`
