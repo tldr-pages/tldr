@@ -139,6 +139,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [29 December 2023](https://github.com/tldr-pages/tldr/issues/11918) — present
 - **Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl))**: [21 January 2024](https://github.com/tldr-pages/tldr/issues/12094) — present
 - **Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin))**: [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595#issuecomment-2031015230) — present
+-**Alejandro Cervera ([@tricantivu](https://github.com/tricantivu))**: [2 April 2024](https://github.com/tldr-pages/tldr/issues/12594) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
