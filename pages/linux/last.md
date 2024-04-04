@@ -1,7 +1,7 @@
 # last
 
 > List information of last user logins.
-> See also: `lastb`, `tac`.
+> See also: `lastb`, `login`.
 > More information: <https://manned.org/last.1>.
 
 - List login information (e.g., username, terminal, boot time, kernel) of all users:
