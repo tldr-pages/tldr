@@ -30,3 +30,4 @@
 - Erstelle die Konfiguration und öffne diese in einer virtuellen Maschine:
 
 `sudo nixos-rebuild build-vm`
+
