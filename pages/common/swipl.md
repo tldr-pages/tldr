@@ -19,6 +19,6 @@
 
 `swipl --dump-runtime-variables`
 
-- Print the version:
+- Display version:
 
 `swipl --version`

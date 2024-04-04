@@ -1,7 +1,7 @@
 # date
 
 > Ustaw bądź wyświetl datę systemową.
-> Więcej informacji: <https://ss64.com/osx/date.html>.
+> Więcej informacji: <https://keith.github.io/xcode-man-pages/date.1.html>.
 
 - Wyświetl aktualną datę w domyślnym formacie:
 

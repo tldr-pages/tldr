@@ -1,6 +1,6 @@
 # stack
 
-> Tool for managing Haskell projects.
+> Manage Haskell projects.
 > More information: <https://github.com/commercialhaskell/stack>.
 
 - Create a new package:

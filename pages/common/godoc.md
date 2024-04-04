@@ -1,9 +1,9 @@
 # godoc
 
-> Show documentation for go packages.
+> View documentation for go packages.
 > More information: <https://godoc.org/>.
 
-- Display help for package "fmt":
+- Display help for a specific package:
 
 `godoc {{fmt}}`
 

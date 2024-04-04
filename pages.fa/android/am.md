@@ -1,7 +1,7 @@
 # am
 
 > مدیر فعالیت های اندروید
-> اطلاعات بیشتر: <https://developer.android.com/studio/command-line/adb#am>.
+> اطلاعات بیشتر: <https://developer.android.com/tools/adb#am>.
 
 - یک فعالیت خاص رو شروع کن :
 

@@ -12,7 +12,7 @@
 
 `minetestserver --world list`
 
-- Specify the world name to load:
+- Load the specified world:
 
 `minetestserver --world {{world_name}}`
 
@@ -20,7 +20,7 @@
 
 `minetestserver --gameid list`
 
-- Specify a game to use:
+- Use the specified game:
 
 `minetestserver --gameid {{game_id}}`
 

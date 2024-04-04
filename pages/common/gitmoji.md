@@ -1,17 +1,17 @@
 # gitmoji
 
-> An interactive command-line tool for using emojis on commits.
+> Interactively insert emojis on commits.
 > More information: <https://github.com/carloscuesta/gitmoji-cli>.
 
 - Start the commit wizard:
 
 `gitmoji --commit`
 
-- Initialize the git hook (so `gitmoji` will be run every time `git commit` is run):
+- Initialize the Git hook (so `gitmoji` will be run every time `git commit` is run):
 
 `gitmoji --init`
 
-- Remove the git hook:
+- Remove the Git hook:
 
 `gitmoji --remove`
 

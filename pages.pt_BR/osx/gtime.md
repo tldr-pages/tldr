@@ -1,6 +1,6 @@
 # gtime
 
-> Este comando é um pseudônimo de `-p linux time`.
+> Este comando é um apelido de `-p linux time`.
 
 - Exibe documentação sobre o comando original:
 

@@ -27,6 +27,6 @@
 
 `mysqld --port={{port}}`
 
-- Show all help options and exit:
+- Display help:
 
 `mysqld --verbose --help`

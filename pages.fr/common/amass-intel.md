@@ -1,7 +1,7 @@
 # amass intel
 
 > Collecte des renseignements open source sur une organisation comme les noms de domaines racine et les ASNs.
-> Plus d'informations : <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
+> Plus d'informations : <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
 
 - Recherche les domaines racines inclus dans une plage d'adresse IP :
 

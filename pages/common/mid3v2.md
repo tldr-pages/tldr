@@ -2,7 +2,7 @@
 
 > Edit audio tags.
 > See also: `id3v2`.
-> More information: <https://manned.org/mid3v2.1>.
+> More information: <https://mutagen.readthedocs.io/en/latest/man/mid3v2.html>.
 
 - List all supported ID3v2.3 or ID3v2.4 frames and their meanings:
 

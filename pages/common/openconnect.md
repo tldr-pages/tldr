@@ -15,7 +15,7 @@
 
 `killall -SIGINT openconnect`
 
-- Connect to a server, reading options from a config file:
+- Connect to a server, reading options from a configuration file:
 
 `openconnect --config={{path/to/file}} {{vpn.example.org}}`
 

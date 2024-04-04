@@ -23,7 +23,7 @@
 
 `php -S {{host:port}}`
 
-- Get a list of installed PHP extensions:
+- List installed PHP extensions:
 
 `php -m`
 

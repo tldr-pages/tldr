@@ -2,7 +2,7 @@
 
 > Test conformance of PPD files to the version 4.3 of the specification.
 > Error codes (1, 2, 3 and 4, respectively): bad CLI arguments, unable to open file, unskippable format errors and non-conformance with PPD specification.
-> NOTE: this command is deprecated.
+> Note: this command is deprecated.
 > See also: `lpadmin`.
 > More information: <https://openprinting.github.io/cups/doc/man-cupstestppd.html>.
 

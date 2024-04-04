@@ -1,6 +1,6 @@
 # quilt
 
-> Tool to manage a series of patches.
+> Manage a series of patches.
 > More information: <https://savannah.nongnu.org/projects/quilt>.
 
 - Import an existing patch from a file:

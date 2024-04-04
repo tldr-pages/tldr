@@ -24,6 +24,6 @@
 
 `u`
 
-- Open the help screen:
+- Display help:
 
 `?`

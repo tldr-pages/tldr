@@ -2,16 +2,12 @@
 
 > A powerful package manager that makes package management reliable, reproducible, and declarative.
 > `nix` is experimental and requires enabling experimental features. For a classic, stable interface, see `tldr nix classic`.
-> Some `nix` subcommands such as `build`, `develop`, `flake`, `registry`, `profile`, `search`, `repl`, `store`, `edit`, `why-depends`, etc. have their own usage documentation.
+> Some subcommands such as `build`, `develop`, `flake`, `registry`, `profile`, `search`, `repl`, `store`, `edit`, `why-depends`, etc. have their own usage documentation.
 > More information: <https://nixos.org/manual/nix>.
 
 - Enable the `nix` command:
 
 `mkdir -p ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
-
-- Display help for the `nix` subcommand:
-
-`nix help {{subcommand}}`
 
 - Search for a package in nixpkgs via its name or description:
 
@@ -32,3 +28,7 @@
 - Start an interactive environment for evaluating Nix expressions:
 
 `nix repl`
+
+- Display help for a specific subcommand:
+
+`nix help {{subcommand}}`

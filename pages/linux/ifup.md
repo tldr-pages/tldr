@@ -1,6 +1,6 @@
 # ifup
 
-> Tool used to enable network interfaces.
+> Enable network interfaces.
 > More information: <https://manpages.debian.org/latest/ifupdown/ifup.8.html>.
 
 - Enable interface eth0:

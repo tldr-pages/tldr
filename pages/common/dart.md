@@ -1,6 +1,6 @@
 # dart
 
-> The tool for managing Dart projects.
+> Manage Dart projects.
 > More information: <https://dart.dev/tools/dart-tool>.
 
 - Initialize a new Dart project in a directory of the same name:

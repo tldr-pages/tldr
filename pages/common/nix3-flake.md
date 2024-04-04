@@ -3,10 +3,6 @@
 > Manage Nix flakes.
 > More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake.html>.
 
-- See documentation about what Nix flakes are:
-
-`nix flake --help`
-
 - Create a new flake (just the `flake.nix` file) from the default template, in the current directory:
 
 `nix flake init`
@@ -22,3 +18,7 @@
 - Show all the outputs of a flake on github:
 
 `nix flake show {{github:owner/repo}}`
+
+- Display help:
+
+`nix flake --help`

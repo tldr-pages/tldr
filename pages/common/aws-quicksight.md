@@ -1,7 +1,6 @@
 # aws quicksight
 
-> CLI for AWS QuickSight.
-> Access QuickSight entities.
+> Create, delete, list, search and update AWS QuickSight entities.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/quicksight/>.
 
 - List datasets:

@@ -1,6 +1,6 @@
 # grub-file
 
-> Check if a file is of a specific bootable image type.
+> Check if a file is of a bootable image type.
 > More information: <https://manned.org/grub-file>.
 
 - Check if a file is an ARM EFI image:
@@ -23,6 +23,6 @@
 
 `grub-file --is-x86-linux {{path/to/file}}`
 
-- Check if a file is an x86_64 XNU image (Mac OS X kernel):
+- Check if a file is an x86_64 XNU image (macOS kernel):
 
 `grub-file --is-x86_64-xnu {{path/to/file}}`

@@ -11,14 +11,14 @@
 
 `alacritty --working-directory {{path/to/directory}}`
 
-- Run a command in a new Alacritty window:
+- [e]xecute a command in a new Alacritty window:
 
 `alacritty -e {{command}}`
 
-- Specify alternative configuration file (defaults to `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- Use an alternative configuration file (defaults to `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
 
 `alacritty --config-file {{path/to/config.yml}}`
 
-- Run with live config reload enabled (can also be enabled by default in `alacritty.yml`):
+- Run with live configuration reload enabled (can also be enabled by default in `alacritty.yml`):
 
 `alacritty --live-config-reload --config-file {{path/to/config.yml}}`

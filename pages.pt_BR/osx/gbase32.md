@@ -1,6 +1,6 @@
 # gbase32
 
-> Este comando é um pseudônimo de `-p linux base32`.
+> Este comando é um apelido de `-p linux base32`.
 
 - Exibe documentação sobre o comando original:
 

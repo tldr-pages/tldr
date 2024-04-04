@@ -3,11 +3,11 @@
 > List Docker containers.
 > More information: <https://docs.docker.com/engine/reference/commandline/ps/>.
 
-- List currently running docker containers:
+- List currently running Docker containers:
 
 `docker ps`
 
-- List all docker containers (running and stopped):
+- List all Docker containers (running and stopped):
 
 `docker ps --all`
 

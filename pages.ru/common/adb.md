@@ -2,7 +2,7 @@
 
 > Android Debug Bridge: управление запущенным эмулятором Android или подключенным устройством Android.
 > Некоторые подкоманды, такие как `adb shell`, имеют собственную документацию по использованию.
-> Больше информации: <https://developer.android.com/studio/command-line/adb>.
+> Больше информации: <https://developer.android.com/tools/adb>.
 
 - Проверить, запущен ли процесс сервера adb и запустить его:
 

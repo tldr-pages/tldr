@@ -1,6 +1,6 @@
 # kind
 
-> Tool for running local Kubernetes clusters using Docker container "nodes".
+> Run local Kubernetes clusters using Docker container "nodes".
 > Designed for testing Kubernetes itself, but may be used for local development or continuous integration.
 > More information: <https://github.com/kubernetes-sigs/kind>.
 

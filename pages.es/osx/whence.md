@@ -1,7 +1,7 @@
 # whence
 
 > Un comando integrado de zsh para indicar cómo se interpretaría un comando dado.
-> Más información: <https://www.unix.com/man-page/OpenSolaris/1/whence/>.
+> Más información: <https://keith.github.io/xcode-man-pages/whence.1.html>.
 
 - Interpreta `comando`, con expansión si se define como un `alias` (similar al `command -v` integrado):
 

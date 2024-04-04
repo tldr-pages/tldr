@@ -1,7 +1,7 @@
 # codesign
 
 > 为 macOS 的应用程序签名。
-> 更多信息：<https://www.unix.com/man-page/osx/1/codesign/>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/codesign.1.html>.
 
 - 用证书签名：
 

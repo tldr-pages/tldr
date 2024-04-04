@@ -23,6 +23,6 @@
 
 `svn log -vl {{10}}`
 
-- Show detailed help:
+- Display help:
 
 `svn help`

@@ -15,6 +15,6 @@
 
 `cryfs --unmount-idle {{10}} {{path/to/cipher_dir}} {{path/to/mount_point}}`
 
-- Show a list of supported ciphers:
+- List supported ciphers:
 
 `cryfs --show-ciphers`

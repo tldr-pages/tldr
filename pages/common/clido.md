@@ -27,10 +27,10 @@
 
 `clido edit {{text_editor}}`
 
-- Display version:
-
-`clido -v`
-
 - Display help:
 
 `clido -h`
+
+- Display version:
+
+`clido -v`

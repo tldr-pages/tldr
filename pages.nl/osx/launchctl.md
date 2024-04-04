@@ -2,7 +2,7 @@
 
 > Beheer Apple's `launchd` manager voor launch daemons (systeembrede diensten) en launch agents (programma's per gebruiker).
 > `launchd` laadt op XML gebaseerde `*.plist`-bestanden die op de juiste locaties zijn geplaatst, en voert de corresponderende commando's uit volgens hun gedefinieerde schema.
-> Meer informatie: <https://manned.org/launchctl>.
+> Meer informatie: <https://keith.github.io/xcode-man-pages/launchctl.1.html>.
 
 - Activeer een gebruikersspecifieke agent die in `launchd` moet worden geladen wanneer de gebruiker inlogt:
 

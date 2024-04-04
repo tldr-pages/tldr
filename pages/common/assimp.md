@@ -24,10 +24,10 @@
 
 `assimp info {{path/to/file}}`
 
-- List all supported subcommands ("verbs"):
+- Display help:
 
 `assimp help`
 
-- Get help on a specific subcommand (e.g. the parameters specific to it):
+- Display help for a specific subcommand:
 
 `assimp {{subcommand}} --help`

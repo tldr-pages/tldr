@@ -1,20 +1,20 @@
 # amass
 
 > Outil de Cartographie des Attaques de Surface et découverte de ressource.
-> Certaines commandes comme `amass db` ont leur propre documentation.
-> Plus d'informations : <https://github.com/OWASP/Amass>.
+> Certaines commandes comme `amass intel` ont leur propre documentation.
+> Plus d'informations : <https://github.com/owasp-amass/amass>.
 
 - Exécute une sous-commande Amass :
 
-`amass {{sous_commande}}`
+`amass {{intel|enum}} {{options}}`
 
 - Affiche l'aide général :
 
 `amass -help`
 
-- Affiche l'aide sur une sous-commande de Amass ( comme `intel`, `enum`, etc.) :
+- Affiche l'aide sur une sous-commande de Amass :
 
-`amass -help {{sous_commande}}`
+`amass {{intel|enum}} -help`
 
 - Affiche la version :
 

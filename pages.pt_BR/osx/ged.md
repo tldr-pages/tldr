@@ -1,6 +1,6 @@
 # ged
 
-> Este comando é um pseudônimo de `-p linux ed`.
+> Este comando é um apelido de `-p linux ed`.
 
 - Exibe documentação sobre o comando original:
 

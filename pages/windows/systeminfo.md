@@ -15,6 +15,6 @@
 
 `systeminfo /s {{remote_name}} /u {{username}} /p {{password}}`
 
-- Display detailed usage information:
+- Display help:
 
 `systeminfo /?`

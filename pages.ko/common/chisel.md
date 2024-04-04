@@ -6,7 +6,7 @@
 
 - chisel 서버 실행:
 
-`chisel`
+`chisel server`
 
 - 특정 포트를 수신하는 chisel 서버 실행:
 

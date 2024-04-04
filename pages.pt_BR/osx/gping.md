@@ -1,6 +1,6 @@
 # gping
 
-> Este comando é um pseudônimo de `-p linux ping`.
+> Este comando é um apelido de `-p linux ping`.
 
 - Exibe documentação sobre o comando original:
 

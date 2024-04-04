@@ -28,7 +28,7 @@
 
 `del {{file_pattern}} /q`
 
-- Geef de beschikbare hulp en lijst met attributen weer:
+- Geef de beschikbare help en lijst met attributen weer:
 
 `del /?`
 

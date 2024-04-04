@@ -1,7 +1,7 @@
 # dalvikvm
 
 > Android Java virtual mashinasi.
-> Ko'proq malumot: <https://source.android.com/devices/tech/dalvik>.
+> Ko'proq malumot: <https://source.android.com/docs/core/runtime>.
 
 - Java dasturini ishga tushirish:
 

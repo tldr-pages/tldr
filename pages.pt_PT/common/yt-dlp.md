@@ -16,10 +16,6 @@
 
 `yt-dlp --extract-audio "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Especifica o formato de áudio extraído (a predefinição é "best"):
-
-`yt-dlp --extract-audio --audio-format {{mp3}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
-
 - Especifica a qualidade do áudio extraído, entre 0 (melhor) e 10 (pior), sendo 5 a predefinição:
 
 `yt-dlp --extract-audio --audio-format {{mp3}} --audio-quality {{0}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`

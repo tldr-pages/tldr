@@ -25,7 +25,7 @@
 
 - Do not check the specified words:
 
-`codespell --ignore-words-list {{words,to,ignore}}`
+`codespell --ignore-words-list {{ignored_word1,ignored_word2,...}}`
 
 - Print 3 lines of context around, before or after each match:
 

@@ -8,14 +8,14 @@
 
 `cradle connect {{server_name}}`
 
-- Display general help:
+- Execute a Cradle command:
+
+`cradle {{command}}`
+
+- Display help:
 
 `cradle help`
 
 - Display help for a specific command:
 
 `cradle {{command}} help`
-
-- Execute a Cradle command:
-
-`cradle {{command}}`

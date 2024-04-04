@@ -1,6 +1,6 @@
 # gotelemetry
 
-> A tool for managing Go telemetry data and settings.
+> Manage Go telemetry data and settings.
 > More information: <https://telemetry.go.dev/privacy#collection>.
 
 - Enable telemetry uploading:
@@ -19,6 +19,6 @@
 
 `gotelemetry env`
 
-- Show details about any subcommand:
+- Display help for a specific subcommand:
 
 `gotelemetry help {{subcommand}}`

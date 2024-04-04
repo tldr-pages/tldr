@@ -1,7 +1,7 @@
 # base64
 
 > Encode and decode using Base64 representation.
-> More information: <https://www.unix.com/man-page/osx/1/base64/>.
+> More information: <https://keith.github.io/xcode-man-pages/base64.1.html>.
 
 - Encode a file:
 

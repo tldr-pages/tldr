@@ -2,7 +2,7 @@
 
 > Pokazuje kto jest zalogowany i co aktualnie robi.
 > Wyświetla login, TTY, zdalny host, czas zalogowania, czas bezczynności i aktualny proces.
-> Więcej informacji: <https://ss64.com/osx/w.html>.
+> Więcej informacji: <https://keith.github.io/xcode-man-pages/w.1.html>.
 
 - Pokazuje informacje o aktualnie zalogowanych użytkownikach:
 

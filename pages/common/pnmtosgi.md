@@ -7,7 +7,7 @@
 
 `pnmtosgi {{path/to/input.pnm}} > {{path/to/output.sgi}}`
 
-- Specify whether or not compression should be used:
+- Disable or enable compression:
 
 `pnmtosgi -{{verbatim|rle}} {{path/to/input.pnm}} > {{path/to/output.sgi}}`
 

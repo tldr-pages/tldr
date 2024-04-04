@@ -2,7 +2,7 @@
 
 > 显示音频文件元数据（Metadata）详细信息（OS X）。
 > OS X 自带命令。
-> 更多信息：<https://ss64.com/osx/afinfo.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/afinfo.1.html>.
 
 - 显示给定音频文件的详细信息：
 

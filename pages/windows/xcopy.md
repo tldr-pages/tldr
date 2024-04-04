@@ -31,6 +31,6 @@
 
 `xcopy {{path\to\file_or_directory}} {{path\to\destination_directory}} /y`
 
-- Display detailed usage information:
+- Display help:
 
 `xcopy /?`

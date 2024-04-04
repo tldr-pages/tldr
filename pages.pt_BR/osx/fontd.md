@@ -2,7 +2,7 @@
 
 > Disponibiliza fontes para o sistema.
 > Não deve ser invocado manualmente.
-> Mais informações: <https://www.manpagez.com/man/8/fontd/>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/fontd.8.html>.
 
 - Inicia o daemon:
 

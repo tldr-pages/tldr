@@ -1,6 +1,6 @@
 # docker compose
 
-> Çoklu konteynerli docker uygulamalarını çalıştırın ve yönetin.
+> Çoklu konteynerli Docker uygulamalarını çalıştırın ve yönetin.
 > Daha fazla bilgi için: <https://docs.docker.com/compose/reference/>.
 
 - Tüm konteynerleri listele:

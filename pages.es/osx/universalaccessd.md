@@ -2,7 +2,7 @@
 
 > Proporciona servicios de acceso universal.
 > No debe invocarse manualmente.
-> Más información: <https://www.manpagez.com/man/8/universalaccessd/>.
+> Más información: <https://keith.github.io/xcode-man-pages/universalaccessd.8.html>.
 
 - Inicia el daemon:
 

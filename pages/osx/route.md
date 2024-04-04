@@ -2,7 +2,7 @@
 
 > Manually manipulate the routing tables.
 > Necessitates to be root.
-> More information: <https://www.manpagez.com/man/8/route/>.
+> More information: <https://keith.github.io/xcode-man-pages/route.8.html>.
 
 - Add a route to a destination through a gateway:
 

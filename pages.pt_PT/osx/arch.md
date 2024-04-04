@@ -2,7 +2,7 @@
 
 > Mostra o nome da arquitetura do sistema, ou executa um comando utilizando uma arquitetura escolhida.
 > Ver também: `uname`.
-> Mais informações: <https://www.unix.com/man-page/osx/1/arch/>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/arch.1.html>.
 
 - Mostra o nome da arquitetura do sistema:
 

@@ -23,6 +23,6 @@
 
 `xml elements -d{{3}} {{path/to/input.xml|URI}}`
 
-- Display help for the `elements` subcommand:
+- Display help:
 
 `xml elements --help`

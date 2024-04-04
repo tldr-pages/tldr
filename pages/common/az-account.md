@@ -4,7 +4,7 @@
 > Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/account>.
 
-- Print a list of subscriptions for the logged in account:
+- List all subscriptions for the logged in account:
 
 `az account list`
 

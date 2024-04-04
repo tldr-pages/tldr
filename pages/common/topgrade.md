@@ -23,6 +23,6 @@
 
 `topgrade --only {{operation}}`
 
-- Edit the config file with default editor:
+- Edit the configuration file with default editor:
 
 `topgrade --edit-config`

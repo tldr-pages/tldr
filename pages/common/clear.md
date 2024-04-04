@@ -15,6 +15,6 @@
 
 `clear -T {{type_of_terminal}}`
 
-- Show the version of `ncurses` used by `clear`:
+- Display the version of `ncurses` used by `clear`:
 
 `clear -V`

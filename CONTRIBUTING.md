@@ -48,6 +48,30 @@ Use proper judgement, keeping simplicity and user-friendliness as the top priori
 
 When in doubt, have a look at a few existing pages :).
 
+## Directory structure
+
+The English pages directory is called `pages`, under which the platform directories are present. Language-specific directories must follow the pattern `pages.<locale>`, where `<locale>` is a [POSIX Locale Name](https://www.gnu.org/software/gettext/manual/html_node/Locale-Names.html#Locale-Names) in the form of `<language>[_<country>]`, where:
+
+- `<language>` is the shortest [ISO 639](https://en.wikipedia.org/wiki/ISO_639) language code for the chosen language (see [here](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) for a complete list).
+- `<country>` is the two-letter [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) country code for the chosen region (see [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) for a complete list).
+
+The `<country>` code is optional and should only be added when there is a substantial difference between a language (`ll`) and its regional dialects (`ll_CC1`, `ll_CC2`, etc.). For example, both `fr_FR` and `fr_BE` should fall under the same `pages.fr` directory since there virtually is no difference in writing between standard French and Belgian French.
+
+### Platform directories
+
+The `pages` directory and `pages.*` language-specific directories contain the platform directories, if they have at least one page of that platform.
+
+1. If the command is available for **two or more** platforms, put it **under the `common` directory**.
+2. If the command is **only** available for **one** platform, these are the available directories followed by their right platform:
+  - `android`: Android
+  - `freebsd`: FreeBSD
+  - `openbsd`: OpenBSD
+  - `osx`: OSX/Mac OS/macOS (will be replaced by `macos`)
+  - `linux`: any Linux distro
+  - `netbsd`: NetBSD
+  - `sunos`: SunOS
+  - `windows`: Windows
+
 ## Markdown format
 
 As a quick reference, the format of each page should match the following template:
@@ -140,17 +164,10 @@ See these examples for reference:
 
 ## Translations
 
-Translation of pages can be done by simply creating the corresponding page within the appropriate language-specific directory, creating that as well if it does not already exist.
-
 > [!IMPORTANT]
 > Translations of pages should be done based on the English (US) page in the `pages` directory. If the English pages don't exist for the command, it should be added first in a PR before creating a translation.
 
-Language specific directories must follow the pattern `pages.<locale>`, where `<locale>` is a [POSIX Locale Name](https://www.gnu.org/software/gettext/manual/html_node/Locale-Names.html#Locale-Names) in the form of `<language>[_<country>]`, where:
-
-- `<language>` is the shortest [ISO 639](https://en.wikipedia.org/wiki/ISO_639) language code for the chosen language (see [here](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) for a complete list).
-- `<country>` is the two-letter [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) country code for the chosen region (see [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) for a complete list).
-
-The `<country>` code is optional and should only be added when it is needed. In other words, only when there is a valid reason to distinguish between a language (`ll`) and its regional dialects (`ll_CC1`, `ll_CC2`, etc.). For example, both `fr_FR` and `fr_BE` should fall under the same `pages.fr` directory since there virtually is no difference in writing between standard French and Belgian French.
+Translation of pages can be done by simply creating the corresponding page within the appropriate [language-specific directory](#pages-directory), creating that as well if it does not already exist.
 
 > [!IMPORTANT]  
 > When adding a new language to `tldr`, it is suggested to add it to the [translation templates](contributing-guides/translation-templates) along with any page additions.
@@ -190,7 +207,7 @@ The latest version of [NodeJS](https://nodejs.org) is required to install `tldr-
 npm install --global tldr-lint
 ```
 
-Once its installed, you can test your page by running the following command:
+Once it is installed, you can test your page by running the following command:
 
 ```sh
 tldr-lint {{path/to/page.md}}
@@ -224,9 +241,9 @@ To commit a suggestion to your pull request, click on `Commit suggestion`:
 
 If you want to commit multiple suggestions, go to the "Files changed" tab and batch all suggestions. Now, click the `Commit suggestions` button and enter a commit message to create a single commit.
 
-### Commit message
+### Commit message and PR title
 
-For the commit message of page changes, use the following format:
+For the commit message and PR title of page changes, use the following format:
 
 `{{command}}: type of change`
 
@@ -236,11 +253,18 @@ Where `{{command}}` is the name of the command being modified, and `type of chan
 - For a page edit: `cat: fix typo`, `git-push: add --force example`
 - For a new translation of an existing page: `cp: add Tamil translation`
 - For a modification to the translation of an existing page: `cp: fix typo in Tamil translation`
-- For related changes to several pages: `grep, find, locate: synchronize format of wildcards`
+- For related changes to some pages: `grep, find, locate: synchronize format of wildcards`
+- For related changes to several unrelated pages: `pages*: fix Linux casing`
 - For multiple subcommand page additions: `git-{add, push, ...}: add page`
 - For modifying multiple pages in a language: `pages.<locale>/*: update pages`
 
-For other cases, its suggested to follow <https://www.conventionalcommits.org/> as much as possible.
+For script changes, the commit message and the PR title can be (but not limited to) one of the following examples:
+
+- For a new script addition: `scripts/{{script_name}}: add script`
+- For a script edit: `scripts/set-alias-page: fix performance issue`
+- For changes that affect multiple scripts: `scripts: replace insecure library`
+
+For other cases, it is suggested to follow <https://www.conventionalcommits.org/> as much as possible.
 
 ## Name collisions
 

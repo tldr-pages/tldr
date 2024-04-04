@@ -11,10 +11,6 @@
 
 `boot jar`
 
-- Learn about a command:
-
-`boot cljs --help`
-
 - Generate scaffolding for a new project based on a template:
 
 `boot --dependencies boot/new new --template {{template_name}} --name {{project_name}}`
@@ -26,3 +22,7 @@
 - Build for production (if using the boot/new template):
 
 `boot prod`
+
+- Display help for a specific task:
+
+`boot {{task}} --help`

@@ -1,6 +1,6 @@
 # wondershaper
 
-> Allows the user to limit the bandwidth of one or more network adapters.
+> Allows the user to limit the bandwidth of network adapters.
 > More information: <https://github.com/magnific0/wondershaper#usage>.
 
 - Display [h]elp:

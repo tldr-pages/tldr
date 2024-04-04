@@ -1,7 +1,7 @@
 # opensnoop
 
 > Herramienta que rastrea las aperturas de archivos en tu sistema.
-> Más información: <https://ss64.com/osx/opensnoop.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/opensnoop.1m.html>.
 
 - Imprime todos los archivos abiertos a medida que ocurren:
 

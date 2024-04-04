@@ -1,6 +1,6 @@
 # ausyscall
 
-> Program that allows mapping syscall names and numbers.
+> Map syscall names and numbers.
 > More information: <https://manned.org/ausyscall>.
 
 - Display syscall number of a specific system call:

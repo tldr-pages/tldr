@@ -12,7 +12,7 @@
 
 `$PSVersionTable.PSVersion`
 
-- Get a list of supported PowerShell script versions that this PowerShell version supports:
+- List all supported PowerShell script versions that this PowerShell version supports:
 
 `$PSVersionTable.PSCompatibleVersions`
 

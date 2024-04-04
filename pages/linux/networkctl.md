@@ -4,7 +4,7 @@
 > Manage the network configuration using `systemd-networkd`.
 > More information: <https://www.freedesktop.org/software/systemd/man/networkctl.html>.
 
-- Show a list of existing links and their status:
+- List existing links with their status:
 
 `networkctl list`
 

@@ -4,14 +4,14 @@
 > Some subcommands such as `consul kv` have their own usage documentation.
 > More information: <https://www.consul.io/commands>.
 
-- Check the Consul version:
-
-`consul --version`
-
 - Display help:
 
 `consul --help`
 
-- Display help for a sub-command:
+- Display help for a subcommand:
 
-`consul {{sub-command}} --help`
+`consul {{subcommand}} --help`
+
+- Display version:
+
+`consul --version`

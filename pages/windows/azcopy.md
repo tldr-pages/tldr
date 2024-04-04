@@ -23,6 +23,6 @@
 
 `azcopy sync '{{path\to\source_directory}}' 'https://{{storage_account_name}}.blob.core.windows.net/{{container_name}}' --recursive --delete-destination=true`
 
-- Display detailed usage information:
+- Display help:
 
 `azcopy --help`

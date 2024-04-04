@@ -2,7 +2,7 @@
 
 > Montador (assembler) GNU portável.
 > Principalmente destinado a montar a saída do `gcc` para ser usada pelo `ld`.
-> Mais informações: <https://www.unix.com/man-page/osx/1/as/>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/as.1.html>.
 
 - Monta (compilar) um arquivo, escrevendo a saída para `a.out`:
 

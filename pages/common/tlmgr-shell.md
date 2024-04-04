@@ -7,9 +7,9 @@
 
 `tlmgr shell`
 
-- Run any `tlmgr` sub-command in the interactive shell:
+- Run any `tlmgr` subcommand in the interactive shell:
 
-`{{sub_command}} {{arguments}}`
+`{{subcommand}} {{arguments}}`
 
 - Quit the interactive shell:
 
@@ -31,6 +31,6 @@
 
 `restart`
 
-- Print the version of the current protocol:
+- Display the version of the current protocol:
 
 `protocol`

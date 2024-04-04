@@ -1,6 +1,6 @@
 # gdir
 
-> Este comando é um pseudônimo de `-p linux dir`.
+> Este comando é um apelido de `-p linux dir`.
 
 - Exibe documentação sobre o comando original:
 

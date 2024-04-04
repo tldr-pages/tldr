@@ -1,7 +1,7 @@
 # SafeEjectGPU
 
 > Eject a GPU safely.
-> More information: <https://www.unix.com/man-page/mojave/8/safeejectgpu>.
+> More information: <https://keith.github.io/xcode-man-pages/safeejectgpu.8.html>.
 
 - Eject all GPUs:
 

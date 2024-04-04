@@ -2,7 +2,7 @@
 
 > Escucha las conexiones VPN entrantes.
 > No debe invocarse manualmente.
-> Más información: <https://www.unix.com/man-page/osx/8/vpnd/>.
+> Más información: <https://keith.github.io/xcode-man-pages/vpnd.8.html>.
 
 - Inicia el daemon:
 

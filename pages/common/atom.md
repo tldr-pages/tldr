@@ -8,7 +8,7 @@
 
 `atom {{path/to/file_or_directory}}`
 
-- Open a file or directory in a new window:
+- Open a file or directory in a [n]ew window:
 
 `atom -n {{path/to/file_or_directory}}`
 

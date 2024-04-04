@@ -1,6 +1,7 @@
 # clifm
 
 > The command-line file manager.
+> See also: `vifm`, `ranger`, `mc`, `nautilus`.
 > More information: <https://github.com/leo-arch/clifm>.
 
 - Start CliFM:
@@ -27,7 +28,7 @@
 
 `r sel`
 
-- Display detailed help:
+- Display help:
 
 `?`
 

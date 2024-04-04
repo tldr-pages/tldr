@@ -15,6 +15,6 @@
 
 `cat {{input_file}} | httprobe -p {{https:2222}}`
 
-- Output all available options:
+- Display help:
 
 `httprobe --help`

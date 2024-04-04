@@ -1,7 +1,7 @@
 # defaults
 
 > Read and write macOS user configuration for applications.
-> More information: <https://ss64.com/osx/defaults.html>.
+> More information: <https://keith.github.io/xcode-man-pages/defaults.1.html>.
 
 - Read system defaults for an application option:
 

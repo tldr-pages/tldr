@@ -1,6 +1,7 @@
 # termusic
 
 > A terminal music player written in Rust that uses vim-like key bindings.
+> See also: `cmus`, `ncmpcpp`, `audacious`.
 > More information: <https://github.com/tramhao/termusic>.
 
 - Open termusic to a specific directory. (It can be set permanently in `~/.config/termusic/config.toml`):
@@ -11,6 +12,6 @@
 
 `termusic -c {path/to/music_file}`
 
-- View termusic's usage info:
+- Display help:
 
 `termusic --help`

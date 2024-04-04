@@ -20,10 +20,6 @@
 
 `bower list`
 
-- Display help information about a bower command:
-
-`bower help {{command}}`
-
 - Create a `bower.json` file for your package:
 
 `bower init`
@@ -31,3 +27,7 @@
 - Install a specific dependency version, and add it to `bower.json`:
 
 `bower install {{local_name}}={{package}}#{{version}} --save`
+
+- Display help for a specific command:
+
+`bower help {{command}}`

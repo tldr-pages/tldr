@@ -1,7 +1,7 @@
 # cut
 
 > Cut out fields from `stdin` or files.
-> More information: <https://manned.org/man/freebsd-13.0/cut.1>.
+> More information: <https://keith.github.io/xcode-man-pages/cut.1.html>.
 
 - Print a specific character/field range of each line:
 

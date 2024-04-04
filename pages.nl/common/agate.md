@@ -11,6 +11,6 @@
 
 `agate {{pad/naar/bestand}}`
 
-- Help weergeven:
+- Toon de help:
 
 `agate -h`

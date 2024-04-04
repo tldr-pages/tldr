@@ -11,10 +11,6 @@
 
 `gpg-tui --style {{colored}} --armor`
 
-- Display help in `gpg-tui`:
-
-`?`
-
 - Quit `gpg-tui`:
 
 `q`
@@ -34,3 +30,7 @@
 - Refresh `gpg-tui`:
 
 `r`
+
+- Display help in `gpg-tui`:
+
+`?`

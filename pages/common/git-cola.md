@@ -3,11 +3,11 @@
 > A powerful Git GUI with a slick and intuitive user interface.
 > More information: <https://git-cola.readthedocs.io>.
 
-- Start git cola:
+- Start the GUI:
 
 `git cola`
 
-- Start git cola in amend mode:
+- Start the GUI in amend mode:
 
 `git cola --amend`
 

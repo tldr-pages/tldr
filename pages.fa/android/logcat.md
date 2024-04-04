@@ -1,7 +1,7 @@
 # logcat
 
 > تخلیه یک لاگ از پیاهم های سیستمی، شامل پشته رهگیری زمان وقوع خطا، و اطلاعات پیام های لاگ شده توسط برنامه ها.
-> اطلاعات بیشتر: <https://developer.android.com/studio/command-line/logcat>.
+> اطلاعات بیشتر: <https://developer.android.com/tools/logcat>.
 
 - نمایش لاگ سیستمی :
 

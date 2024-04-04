@@ -27,6 +27,6 @@
 
 `top -p $(pgrep -d ',' {{process_name}})`
 
-- Get help about interactive commands:
+- Display help about interactive commands:
 
 `?`

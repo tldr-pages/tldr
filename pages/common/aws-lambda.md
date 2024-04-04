@@ -1,15 +1,15 @@
 # aws lambda
 
-> CLI for AWS lambda.
+> Use AWS Lambda, a compute service for running code without provisioning or managing servers.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/lambda/>.
 
 - Run a function:
 
-`aws lambda invoke --function-name {{name}} {{path/to/response}}.json`
+`aws lambda invoke --function-name {{name}} {{path/to/response.json}}`
 
 - Run a function with an input payload in JSON format:
 
-`aws lambda invoke --function-name {{name}} --payload {{json}} {{path/to/response}}.json`
+`aws lambda invoke --function-name {{name}} --payload {{json}} {{path/to/response.json}}`
 
 - List functions:
 

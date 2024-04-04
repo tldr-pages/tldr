@@ -15,7 +15,7 @@
 
 `clamdscan --infected`
 
-- Output the scan report to a log file:
+- Print the scan report to a log file:
 
 `clamdscan --log {{path/to/log_file}}`
 

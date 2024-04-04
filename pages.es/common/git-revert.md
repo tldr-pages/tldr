@@ -11,6 +11,10 @@
 
 `git revert HEAD~{{4}}`
 
+- Revierte una confirmación específica:
+
+`git revert {{0c01a9}}`
+
 - Revierte múltiples confirmaciones:
 
 `git revert {{rama~5..rama~2}}`

@@ -1,7 +1,7 @@
 # chflags
 
 > 更改文件或文件夹的标志。
-> 更多信息：<https://ss64.com/osx/chflags.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/chflags.1.html>.
 
 - 给文件设置 hidden（隐藏）标签：
 

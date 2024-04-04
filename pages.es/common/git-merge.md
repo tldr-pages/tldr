@@ -9,7 +9,7 @@
 
 - Edita el mensaje de fusión:
 
-`git merge -e {{nombre_de_la_rama}}`
+`git merge --edit {{nombre_de_la_rama}}`
 
 - Fusiona una rama y crea una confirmación para la fusión:
 
@@ -18,3 +18,7 @@
 - Cancela una fusión en caso de conflictos:
 
 `git merge --abort`
+
+- Fusiona usando una estrategia específica:
+
+`git merge --strategy {{estrategia}} --strategy-option {{opción_de_estrategia}} {{nombre_de_la_rama}}`

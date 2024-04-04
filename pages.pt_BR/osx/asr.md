@@ -2,7 +2,7 @@
 
 > Restaurar (copiar) uma imagem de disco em um volume.
 > O nome do comando significa Apple Software Restore.
-> Mais informações: <https://www.unix.com/man-page/osx/8/asr/>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/asr.8.html>.
 
 - Restaura uma imagem de disco para um volume de destino:
 

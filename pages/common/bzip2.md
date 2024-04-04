@@ -7,11 +7,11 @@
 
 `bzip2 {{path/to/file_to_compress}}`
 
-- Decompress a file:
+- [d]ecompress a file:
 
 `bzip2 -d {{path/to/compressed_file.bz2}}`
 
-- Decompress a file to `stdout`:
+- [d]ecompress a file to `stdout`:
 
 `bzip2 -dc {{path/to/compressed_file.bz2}}`
 

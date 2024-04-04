@@ -7,6 +7,6 @@
 
 `docker top {{container}}`
 
-- Hulp weergeven:
+- Toon de help:
 
 `docker top --help`

@@ -1,6 +1,6 @@
 # secrethub
 
-> A tool to keep secrets out of config files.
+> Keep secrets out of config files.
 > More information: <https://secrethub.io>.
 
 - Print a secret to `stdout`:

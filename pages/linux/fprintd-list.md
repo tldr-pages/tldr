@@ -7,7 +7,7 @@
 
 `fprintd-list {{username}}`
 
-- List enrolled fingerprints for a space-separated list of users:
+- List enrolled fingerprints for one or more users:
 
 `fprintd-list {{username1 username2 ...}}`
 

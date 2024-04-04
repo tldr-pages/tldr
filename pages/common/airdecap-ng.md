@@ -8,7 +8,7 @@
 
 `airdecap-ng -b {{ap_mac}} {{path/to/capture.cap}}`
 
-- Decrypt a WEP encrypted capture file using the key in hex format:
+- Decrypt a [w]EP encrypted capture file using the key in hex format:
 
 `airdecap-ng -w {{hex_key}} {{path/to/capture.cap}}`
 

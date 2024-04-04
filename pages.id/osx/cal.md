@@ -1,7 +1,7 @@
 # cal
 
 > Menampilkan informasi kalender.
-> Informasi lebih lanjut: <https://ss64.com/osx/cal.html>.
+> Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/cal.1.html>.
 
 - Menampilkan kalender pada bulan ini:
 

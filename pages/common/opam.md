@@ -32,6 +32,6 @@
 
 `opam upgrade`
 
-- Display all commands:
+- Display help:
 
 `opam help`

@@ -19,7 +19,7 @@
 
 `ab -k {{url}}`
 
-- Set the maximum number of seconds ([t]imeout) to spend for benchmarking:
+- Set the maximum number of seconds ([t]imeout) to spend for benchmarking (30 by default):
 
 `ab -t {{60}} {{url}}`
 

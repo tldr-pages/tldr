@@ -1,13 +1,13 @@
 # q
 
-> Execute SQL-like queries on .csv and .tsv files.
+> Execute SQL-like queries on CSV and TSV files.
 > More information: <https://harelba.github.io/q>.
 
-- Query `.csv` file by specifying the delimiter as ',':
+- Query a CSV file by specifying the delimiter as ',':
 
 `q -d',' "SELECT * from {{path/to/file}}"`
 
-- Query `.tsv` file:
+- Query a TSV file:
 
 `q -t "SELECT * from {{path/to/file}}"`
 
@@ -23,6 +23,6 @@
 
 `q "SELECT * FROM {{path/to/file}} f1 JOIN {{path/to/other_file}} f2 ON (f1.c1 = f2.c1)"`
 
-- Format output using an output delimiter with an output header line (note: command will output column names based on the input file header or the column aliases overridden in the query):
+- Format output using an output delimiter with an output header line (Note: command will output column names based on the input file header or the column aliases overridden in the query):
 
 `q -D{{delimiter}} -O "SELECT {{column}} as {{alias}} from {{path/to/file}}"`

@@ -15,6 +15,6 @@
 
 `django-admin --version`
 
-- Display more information for the given command:
+- Display help for a specific command:
 
 `django-admin help {{command}}`

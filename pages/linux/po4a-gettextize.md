@@ -7,7 +7,7 @@
 
 `po4a-gettextize --format {{text}} --master {{path/to/master.txt}} --po {{path/to/result.po}}`
 
-- Get a list of available formats:
+- List all available formats:
 
 `po4a-gettextize --help-format`
 

@@ -3,10 +3,6 @@
 > Manage GitHub CLI command aliases.
 > More information: <https://cli.github.com/manual/gh_alias>.
 
-- Display the subcommand help:
-
-`gh alias`
-
 - List all the aliases `gh` is configured to use:
 
 `gh alias list`
@@ -22,3 +18,7 @@
 - Delete a command shortcut:
 
 `gh alias delete {{alias_name}}`
+
+- Display the subcommand help:
+
+`gh alias`

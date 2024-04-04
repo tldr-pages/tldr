@@ -5,18 +5,18 @@
 > Some subcommands such as `vboxmanage startvm` have their own usage documentation.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-intro>.
 
-- Display version:
+- Execute a VboxManage subcommand:
 
-`VBoxManage --version`
+`VBoxManage {{subcommand}}`
 
 - Display help:
 
 `VBoxManage --help`
 
-- Display help for a VBoxManage subcommand (like `starvm`, `clonevm`, `import`, `export`, etc.):
+- Display help for a specific subcommand:
 
-`VBoxManage --help {{subcommand}}`
+`VBoxManage --help {{clonevm|import|export|startvm|...}}`
 
-- Execute a VboxManage subcommand:
+- Display version:
 
-`VBoxManage {{subcommand}}`
+`VBoxManage --version`

@@ -11,10 +11,10 @@
 
 `sonar-scanner -D{{project.settings=myproject.properties}}`
 
-- Print help information:
-
-`sonar-scanner -h`
-
 - Print debugging information:
 
 `sonar-scanner -X`
+
+- Display help:
+
+`sonar-scanner -h`

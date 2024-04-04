@@ -1,7 +1,7 @@
 # open
 
 > Buka file, direktori, dan aplikasi.
-> Informasi lebih lanjut: <https://ss64.com/osx/open.html>.
+> Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/open.1.html>.
 
 - Buka sebuah file di dalam aplikasi default:
 

@@ -1,7 +1,7 @@
 # split
 
 > Split a file into pieces.
-> More information: <https://ss64.com/osx/split.html>.
+> More information: <https://keith.github.io/xcode-man-pages/split.1.html>.
 
 - Split a file, each split having 10 lines (except the last split):
 

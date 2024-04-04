@@ -4,7 +4,7 @@
 > See also: `linode-cli`.
 > More information: <https://www.linode.com/docs/products/tools/cli/guides/events/>.
 
-- View a list of events on your account:
+- List the events on your account:
 
 `linode-cli events list`
 

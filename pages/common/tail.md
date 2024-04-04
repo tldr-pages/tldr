@@ -16,7 +16,7 @@
 
 `tail --bytes {{count}} {{path/to/file}}`
 
-- Print the last lines of a given file and keep reading file until `Ctrl + C`:
+- Print the last lines of a given file and keep reading it until `Ctrl + C`:
 
 `tail --follow {{path/to/file}}`
 

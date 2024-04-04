@@ -1,7 +1,7 @@
 # du
 
 > 磁盘使用率：估计和汇总文件和目录空间使用率。
-> 更多信息：<https://ss64.com/osx/du.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/du.1.html>.
 
 - 以给定单位（KiB/MiB/GiB）列出目录和所有子目录的大小：
 

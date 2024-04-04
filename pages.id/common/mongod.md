@@ -1,16 +1,20 @@
 # mongod
 
-> Server database MongoDB.
+> Peladen basis data MongoDB.
 > Informasi lebih lanjut: <https://docs.mongodb.com/manual/reference/program/mongod>.
 
-- Menentukan berkas konfigurasi:
+- Tentukan direktori penyimpanan basis data (default: `/data/db` dalam Linux dan macOS, `C:\data\db` dalam Windows):
 
-`mongod --config {{nama_berkas}}`
+`mongod --dbpath {{jalan/menuju/direktori}}`
 
-- Menentukan port yang digunakan:
+- Tentukan berkas konfigurasi basis data:
+
+`mongod --config {{jalan/menuju/berkas}}`
+
+- Tentukan port yang akan digunakan (default: 27017):
 
 `mongod --port {{port}}`
 
-- Menentukan tingkat pencatatan perilaku (profiling) database. 0 mati, 1 hanya operasi lambat, 2 semuanya:
+- Tentukan tingkat pencatatan perilaku (profiling) peladen basis data. 0 mati, 1 hanya operasi lambat, 2 semuanya (default: 0):
 
 `mongod --profile {{0|1|2}}`

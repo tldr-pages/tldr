@@ -1,6 +1,6 @@
 # pathchk
 
-> Check the validity and portability of one or more pathnames.
+> Check the validity and portability of pathnames.
 > More information: <https://www.gnu.org/software/coreutils/pathchk>.
 
 - Check pathnames for validity in the current system:

@@ -7,14 +7,14 @@
 
 `speed-test`
 
-- Output the results as JSON:
+- Print the results as JSON:
 
 `speed-test --json`
 
-- Output the results in megabytes per second (MBps):
+- Print the results in megabytes per second (MBps):
 
 `speed-test --bytes`
 
-- Output more detailed information:
+- Print more detailed information:
 
 `speed-test --verbose`

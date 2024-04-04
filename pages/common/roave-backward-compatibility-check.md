@@ -1,6 +1,6 @@
 # roave-backward-compatibility-check
 
-> A tool that can be used to verify backward compatibility breaks between two versions of a PHP library.
+> Verify backward compatibility breaks between two versions of a PHP library.
 > More information: <https://github.com/Roave/BackwardCompatibilityCheck>.
 
 - Check for breaking changes since the last tag:

@@ -5,7 +5,7 @@
 
 - Dépose toutes les clés publiques sur la machine distante :
 
-`ssh-copy-id {{nom_utilisateur@hote_distant}}`
+`ssh-copy-id {{nom_utilisateur}}@{{hote_distant}}`
 
 - Dépose une clé publique spécifique sur la machine distante :
 

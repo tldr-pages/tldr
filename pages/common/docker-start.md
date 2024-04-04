@@ -1,13 +1,13 @@
 # docker start
 
-> Start one or more stopped containers.
+> Start stopped containers.
 > More information: <https://docs.docker.com/engine/reference/commandline/start/>.
 
 - Display help:
 
 `docker start`
 
-- Start a docker container:
+- Start a Docker container:
 
 `docker start {{container}}`
 
@@ -15,6 +15,6 @@
 
 `docker start --attach {{container}}`
 
-- Start one or more space-separated containers:
+- Start one or more containers:
 
 `docker start {{container1 container2 ...}}`

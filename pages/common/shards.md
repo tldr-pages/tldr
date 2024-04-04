@@ -19,6 +19,6 @@
 
 `shards list`
 
-- List version of dependency:
+- Display version of dependency:
 
 `shards version {{path/to/dependency_directory}}`

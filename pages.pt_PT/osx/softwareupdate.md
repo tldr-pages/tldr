@@ -1,20 +1,20 @@
 # softwareupdate
 
 > Ferramenta de atualização de aplicativos da App Store via linha de comandos.
-> Mais informações: <https://ss64.com/osx/softwareupdate.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/softwareupdate.8.html>.
 
 - Lista todos as atualizações disponíveis:
 
-`softwareupdate -l`
+`softwareupdate --list`
 
 - Descarrega e instala todas as atualizações disponíveis:
 
-`softwareupdate -ia`
+`softwareupdate --install --all`
 
 - Descarrega e instala todas as atualizações recomendadas:
 
-`softwareupdate -ir`
+`softwareupdate --install --req`
 
 - Descarrega e instala um aplicativo específico:
 
-`softwareupdate -i {{nome_atulizacao}}`
+`softwareupdate --install {{nome_atulizacao}}`

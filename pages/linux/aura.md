@@ -1,6 +1,6 @@
 # aura
 
-> The Aura Package Manager: A secure, multilingual package manager for Arch Linux and the AUR.
+> The Aura Package Manager: a secure, multilingual package manager for Arch Linux and the AUR.
 > More information: <https://github.com/fosskers/aura>.
 
 - Search for packages from the official repositories and AUR:

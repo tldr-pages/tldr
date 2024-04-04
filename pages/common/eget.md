@@ -15,7 +15,7 @@
 
 `eget {{zyedidia/micro}} --to={{path/to/directory}}`
 
-- Specify a `git` tag instead of using the latest version:
+- Specify a Git tag instead of using the latest version:
 
 `eget {{zyedidia/micro}} --tag={{v2.0.10}}`
 

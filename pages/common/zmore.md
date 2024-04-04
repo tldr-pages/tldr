@@ -1,6 +1,6 @@
 # zmore
 
-> View gzip compressed files with `more`.
+> View `gzip` compressed files with `more`.
 > More information: <https://manned.org/zmore>.
 
 - Open a compressed file:

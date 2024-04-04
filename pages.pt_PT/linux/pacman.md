@@ -16,10 +16,6 @@
 
 `sudo pacman -Rs {{nome_do_pacote}}`
 
-- Procura um pacote na base de dados por palavra chave ou expressão regular (regex):
-
-`pacman -Ss "{{search_pattern}}"`
-
 - Lista versão dos pactotes instalados:
 
 `pacman -Q`

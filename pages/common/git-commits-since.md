@@ -1,6 +1,6 @@
 # git commits-since
 
-> Display commits since a specific time or date.
+> Display commits since a time or date.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-commits-since>.
 

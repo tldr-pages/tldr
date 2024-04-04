@@ -20,6 +20,6 @@
 
 `wget -qO - {{https://host.tld/nazwa_pliku.key}} | apt-key add -`
 
-- Dodaj klucz z serwera kluczy na podstawie id klucza:
+- Dodaj klucz z serwera kluczy na podstawie ID klucza:
 
 `apt-key adv --keyserver {{pgp.mit.edu}} --recv {{id_klucza}}`

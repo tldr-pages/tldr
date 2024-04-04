@@ -4,7 +4,7 @@
 > It converts LaTeX formulas to images.
 > More information: <https://manned.org/gladtex.1>.
 
-- Convert to html:
+- Convert to HTML:
 
 `gladtex {{path/to/input.htex}}`
 

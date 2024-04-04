@@ -8,6 +8,6 @@
 
 `po4a-translate --format {{text}} --master {{path/to/master.doc}} --po {{path/to/result.po}} --localized {{path/to/translated.txt}}`
 
-- Get a list of available formats:
+- List all available formats:
 
 `po4a-translate --help-format`

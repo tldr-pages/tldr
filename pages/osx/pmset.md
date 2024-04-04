@@ -2,7 +2,7 @@
 
 > Configure macOS power management settings, as one might do in System Preferences > Energy Saver.
 > Commands that modify settings must begin with `sudo`.
-> More information: <https://ss64.com/osx/pmset.html>.
+> More information: <https://keith.github.io/xcode-man-pages/pmset.1.html>.
 
 - Display the current power management settings:
 

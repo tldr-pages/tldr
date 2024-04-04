@@ -1,7 +1,7 @@
 # mdfind
 
 > Lista los archivos que coinciden con una consulta dada.
-> Más información: <https://ss64.com/osx/mdfind.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/mdfind.1.html>.
 
 - Busca un archivo por su nombre:
 
