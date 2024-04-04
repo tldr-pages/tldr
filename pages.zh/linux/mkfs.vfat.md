@@ -15,6 +15,6 @@
 
 `mkfs.vfat -i {{volume_id}} {{/dev/sdb1}}`
 
-- 使用5个而不是2个文件分配表:
+- 使用 5 个而不是 2 个文件分配表：
 
 `mkfs.vfat -f 5 {{/dev/sdb1}}`
