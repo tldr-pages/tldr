@@ -7,6 +7,6 @@
 
 `mkfs.cramfs {{/dev/sdb1}}`
 
-- 创建一个带有卷名的ROM文件系统:
+- 创建一个带有卷名的 ROM 文件系统：
 
 `mkfs.cramfs -n {{volume_name}} {{/dev/sdb1}}`
