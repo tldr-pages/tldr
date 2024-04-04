@@ -1,6 +1,7 @@
 # youtube-viewer
 
 > Search and play videos from YouTube.
+> See also: `you-get`, `ytfzf`, `yt-dlp`.
 > More information: <https://github.com/trizen/youtube-viewer>.
 
 - Search for a video:
