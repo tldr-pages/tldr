@@ -9,11 +9,11 @@
 
 - Use the `zip` format and report progress [v]erbosely:
 
-`git archive -{{v|-verbose}} --format zip HEAD`
+`git archive {{-v|--verbose}} --format zip HEAD`
 
 - [o]utput the zip archive to a specific file:
 
-`git archive -v -{{o|-output}} {{path/to/file.zip}} HEAD`
+`git archive -v {{-o|--output}} {{path/to/file.zip}} HEAD`
 
 - Create a `tar` archive from the contents of the latest commit of a specific branch:
 
