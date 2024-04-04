@@ -63,11 +63,15 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [9 January 2021](https://github.com/tldr-pages/tldr/issues/5122) — [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473), [15 November 2023](https://github.com/tldr-pages/tldr/issues/11509) — present
 - **Marcher Simon ([@marchersimon](https://github.com/marchersimon))**:
   [9 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722), [20 November 2023](https://github.com/tldr-pages/tldr/issues/11381) — present
-- **cyqsimon ([@cyqsimon](https://github.com/cyqsimon))**: [28 December 2023](https://github.com/tldr-pages/tldr/issues/11864) — present
-- **Jongwon Youn ([@korECM](https://github.com/korECM))**: [29 December 2023](https://github.com/tldr-pages/tldr/issues/11892) — present
-- **Mohammad Reza Soleimani ([@MrMw3](https://github.com/MrMw3))**: [07 January 2024](https://github.com/tldr-pages/tldr/issues/12011) — present
-- **Alexandre ZANNI ([@noraj](https://github.com/noraj))**: [22 February 2024](https://github.com/tldr-pages/tldr/issues/12324) — present
-- **Shashank Hebbar ([@quantumflo](https://github.com/quantumflo))**:
+- **cyqsimon ([@cyqsimon](https://github.com/cyqsimon))**:
+  [28 December 2023](https://github.com/tldr-pages/tldr/issues/11864) — present
+- **Jongwon Youn ([@korECM](https://github.com/korECM))**:
+  [29 December 2023](https://github.com/tldr-pages/tldr/issues/11892) — present
+- **Mohammad Reza Soleimani ([@MrMw3](https://github.com/MrMw3))**:
+  [07 January 2024](https://github.com/tldr-pages/tldr/issues/12011) — present
+- **Alexandre ZANNI ([@noraj](https://github.com/noraj))**:
+  [22 February 2024](https://github.com/tldr-pages/tldr/issues/12324) — present
+- Shashank Hebbar ([@quantumflo](https://github.com/quantumflo)):
   [13 November 2023](https://github.com/tldr-pages/tldr/issues/11460) — [27 March 2024](https://github.com/tldr-pages/tldr/issues/12209), [30 March 2024](https://github.com/tldr-pages/tldr/pull/11622#issuecomment-2027932865) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
@@ -109,12 +113,16 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [19 October 2023](https://github.com/tldr-pages/tldr/issues/11075) — [24 October 2023](https://github.com/tldr-pages/tldr/issues/11202)
 - Isaac Vicente ([@isaacvicente](https://github.com/isaacvicente)):
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10737) — [29 December 2023](https://github.com/tldr-pages/tldr/issues/11918)
-- Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl)): [18 December 2023](https://github.com/tldr-pages/tldr/issues/11771) — [21 January 2024](https://github.com/tldr-pages/tldr/issues/12094)
+- Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl)):
+  [18 December 2023](https://github.com/tldr-pages/tldr/issues/11771) — [21 January 2024](https://github.com/tldr-pages/tldr/issues/12094)
 - Geipro/Proscream ([@Geipro)](https://github.com/Geipro)):
   [19 November 2019](https://github.com/tldr-pages/tldr/issues/3592) — [27 March 2024](https://github.com/tldr-pages/tldr/issues/12209) (Removed during 2FA enforcement)
-- Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)): [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454) — [27 March 2024](https://github.com/tldr-pages/tldr/issues/12209) (Removed during 2FA enforcement)
-- Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin)): [09 February 2024](https://github.com/tldr-pages/tldr/issues/12227) — [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595#issuecomment-2031015230)
-- Alejandro Cervera ([@tricantivu](https://github.com/tricantivu)): [4 January 2024](https://github.com/tldr-pages/tldr/issues/11989) — [3 April 2024](https://github.com/tldr-pages/tldr/issues/12594)
+- Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
+  [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454) — [27 March 2024](https://github.com/tldr-pages/tldr/issues/12209) (Removed during 2FA enforcement)
+- Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin)):
+  [09 February 2024](https://github.com/tldr-pages/tldr/issues/12227) — [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595)
+- Alejandro Cervera ([@tricantivu](https://github.com/tricantivu)):
+  [4 January 2024](https://github.com/tldr-pages/tldr/issues/11989) — [3 April 2024](https://github.com/tldr-pages/tldr/issues/12594)
 
 ## Organization members
 
@@ -137,9 +145,12 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11202) — present
 - **Isaac Vicente ([@isaacvicente](https://github.com/isaacvicente))**:
   [29 December 2023](https://github.com/tldr-pages/tldr/issues/11918) — present
-- **Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl))**: [21 January 2024](https://github.com/tldr-pages/tldr/issues/12094) — present
-- **Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin))**: [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595#issuecomment-2031015230) — present
-- **Alejandro Cervera ([@tricantivu](https://github.com/tricantivu))**: [3 April 2024](https://github.com/tldr-pages/tldr/issues/12594) — present
+- **Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl))**:
+  [21 January 2024](https://github.com/tldr-pages/tldr/issues/12094) — present
+- **Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin))**:
+  [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595) — present
+- **Alejandro Cervera ([@tricantivu](https://github.com/tricantivu))**:
+  [3 April 2024](https://github.com/tldr-pages/tldr/issues/12594) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
