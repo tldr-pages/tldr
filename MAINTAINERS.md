@@ -120,7 +120,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
   [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454) — [27 March 2024](https://github.com/tldr-pages/tldr/issues/12209) (Removed during 2FA enforcement)
 - Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin)):
-  [09 February 2024](https://github.com/tldr-pages/tldr/issues/12227) — [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595#issuecomment-2031015230)
+  [09 February 2024](https://github.com/tldr-pages/tldr/issues/12227) — [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595)
 - Alejandro Cervera ([@tricantivu](https://github.com/tricantivu)):
   [4 January 2024](https://github.com/tldr-pages/tldr/issues/11989) — [3 April 2024](https://github.com/tldr-pages/tldr/issues/12594)
 
@@ -148,7 +148,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl))**:
   [21 January 2024](https://github.com/tldr-pages/tldr/issues/12094) — present
 - **Fazle Arefin ([@fazlearefin](https://github.com/fazlearefin))**:
-  [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595#issuecomment-2031015230) — present
+  [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595) — present
 - **Alejandro Cervera ([@tricantivu](https://github.com/tricantivu))**:
   [3 April 2024](https://github.com/tldr-pages/tldr/issues/12594) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
