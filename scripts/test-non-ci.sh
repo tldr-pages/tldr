@@ -2,6 +2,8 @@
 # SPDX-License-Identifier: MIT
 
 # This script is the entrypoint for test.sh.
+# It is intended to be run on non-CI environments, mainly when committing,
+# to test modified pages and/or scripts.
 #
 # NOTE: must be run from the repository root directory to correctly work!
 # NOTE: `set -e` is applied conditionally only if needed.
