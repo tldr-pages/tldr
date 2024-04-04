@@ -11,6 +11,6 @@
 
 `cacaclock -f {{fuente}}`
 
-- Cambia el formato usando una especificación de formato `strftime`:
+- Cambia el formato usando una especificación de formato de `strftime`:
 
 `cacaclock -d {{argumentos_strftime}}`
