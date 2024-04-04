@@ -26,4 +26,3 @@
 - Starte und wechsle in eine interaktive Shell innerhalb eines laufenden Containers:
 
 `sudo nixos-container root-login {{container_name}}`
-
