@@ -9,7 +9,7 @@
 
 - Cambia la fuente:
 
-`cacaclock -f {{font}}`
+`cacaclock -f {{fuente}}`
 
 - Cambia el formato usando una especificación de formato `strftime`:
 
