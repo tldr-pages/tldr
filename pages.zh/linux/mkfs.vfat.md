@@ -3,7 +3,7 @@
 > 在分区内创建一个 MS-DOS 文件系统。
 > 更多信息：<https://manned.org/mkfs.vfat>.
 
-- 在设备b的分区1内创建一个vfat文件系统 (`sdb1`):
+- 在设备b的分区1内创建一个 vfat 文件系统（`sdb1`）：
 
 `mkfs.vfat {{/dev/sdb1}}`
 
