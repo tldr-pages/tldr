@@ -8,7 +8,7 @@
 
 `sudo mkfs.btrfs --metadata single --data single {{/dev/sda}}`
 
-- 在多个设备上使用raid1创建一个btrfs文件系统：
+- 在多个设备上使用 raid1 创建一个 btrfs 文件系统：
 
 `sudo mkfs.btrfs --metadata raid1 --data raid1 {{/dev/sda}} {{/dev/sdb}} {{/dev/sdN}}`
 
