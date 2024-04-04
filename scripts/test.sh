@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # SPDX-License-Identifier: MIT
 
-# This script has some basic tests on pages. If the build is also a PR, additional
+# This script has some basic tests for pages and scripts. If the build is also a PR, additional
 # checks are run through the check-pr script, and any message or error is sent
 # to tldr-bot to be commented on the PR.
 #
