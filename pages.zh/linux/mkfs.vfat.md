@@ -11,7 +11,7 @@
 
 `mkfs.vfat -n {{volume_name}} {{/dev/sdb1}}`
 
-- 创建一个带有卷ID的文件系统:
+- 创建一个带有卷 ID 的文件系统：
 
 `mkfs.vfat -i {{volume_id}} {{/dev/sdb1}}`
 
