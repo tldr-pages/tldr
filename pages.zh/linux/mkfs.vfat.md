@@ -7,7 +7,7 @@
 
 `mkfs.vfat {{/dev/sdb1}}`
 
-- 创建一个带有卷名的文件系统:
+- 创建一个带有卷名的文件系统：
 
 `mkfs.vfat -n {{volume_name}} {{/dev/sdb1}}`
 
