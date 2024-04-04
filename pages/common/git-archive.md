@@ -7,15 +7,15 @@
 
 `git archive --verbose HEAD`
 
-- Use the `zip` format and report progress [v]erbosely:
+- Use the Zip format and report progress [v]erbosely:
 
 `git archive {{-v|--verbose}} --format zip HEAD`
 
-- [o]utput the zip archive to a specific file:
+- [o]utput the Zip archive to a specific file:
 
 `git archive -v {{-o|--output}} {{path/to/file.zip}} HEAD`
 
-- Create a `tar` archive from the contents of the latest commit of a specific branch:
+- Create a tar archive from the contents of the latest commit of a specific branch:
 
 `git archive -o {{path/to/file.tar}} {{branch_name}}`
 
