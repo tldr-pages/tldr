@@ -26,4 +26,3 @@
 - Zeige rekursiv alle Werte eines Benutzers:
 
 `nixos-option -r users.users.{{user}}`
-
