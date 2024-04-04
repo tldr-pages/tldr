@@ -1,6 +1,6 @@
 # cpufreq-info
 
-> A tool to show CPU frequency information.
+> Show CPU frequency information.
 > More information: <https://manned.org/cpufreq-info>.
 
 - Show CPU frequency information for all CPUs:

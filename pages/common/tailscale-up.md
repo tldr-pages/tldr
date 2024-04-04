@@ -1,6 +1,6 @@
 # tailscale up
 
-> Connects the client to the Tailscale network.
+> Connect the client to the Tailscale network.
 > In version 1.8 and above, command-line arguments are stored and reused until they're overwritten or `--reset` is called.
 > More information: <https://tailscale.com/kb/1080/cli/#up>.
 
@@ -22,11 +22,11 @@
 
 - Connect and don't accept DNS configuration from the admin panel (defaults to `true`):
 
-`sudo tailscale up --accept-dns={{false}}`
+`sudo tailscale up --accept-dns=false`
 
 - Connect and configure Tailscale as a subnet router:
 
-`sudo tailscale up --advertise-routes={{10.0.0.0/24}},{{10.0.1.0/24}}`
+`sudo tailscale up --advertise-routes={{10.0.0.0/24,10.0.1.0/24,...}}`
 
 - Connect and accept subnet routes from Tailscale:
 

@@ -15,6 +15,6 @@
 
 `git init --object-format={{sha256}}`
 
-- Inicializa un repositorio vacío, adecuado para usarlo como remoto a través de ssh:
+- Inicializa un repositorio vacío, adecuado para usarlo como remoto a través de SSH:
 
 `git init --bare`

@@ -1,7 +1,7 @@
 # open
 
 > Buka file, direktori, dan alamat URI dengan aplikasi-aplikasi default yang dapat membukanya.
-> Perintah ini tersedia melalui `fish` dalam sistem operasi yang tidak menawarkan perintah `open` secara bawaan (seperti Haiku dan macOS).
+> Perintah ini tersedia melalui fish dalam sistem operasi yang tidak menawarkan perintah `open` secara bawaan (seperti Haiku dan macOS).
 > Informasi lebih lanjut: <https://fishshell.com/docs/current/cmds/open.html>.
 
 - Buka sebuah file di dalam aplikasi default:

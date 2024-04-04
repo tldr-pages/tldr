@@ -1,6 +1,6 @@
 # gfactor
 
-> Este comando é um pseudônimo de `-p linux factor`.
+> Este comando é um apelido de `-p linux factor`.
 
 - Exibe documentação sobre o comando original:
 

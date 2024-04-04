@@ -1,6 +1,6 @@
 # pycodestyle
 
-> A tool to check Python code against PEP 8 style conventions.
+> Check Python code against PEP 8 style conventions.
 > More information: <https://pycodestyle.readthedocs.io>.
 
 - Check the style of a single file:

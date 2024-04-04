@@ -2,7 +2,7 @@
 
 > Linguagem e calculadora com precisão arbitrária.
 > Veja também: `dc`.
-> Mais informações: <https://manned.org/man/freebsd-13.0/bc.1>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/bc.1.html>.
 
 - Inicia uma sessão interativa:
 

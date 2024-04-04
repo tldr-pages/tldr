@@ -29,4 +29,4 @@
 
 - 진행 중인 dd 작업의 진행 상황을 확인 (다른 셸에서 이 명령어 실행):
 
-`kill -USR1 $(pgrep ^dd)`
+`kill -USR1 $(pgrep -x dd)`

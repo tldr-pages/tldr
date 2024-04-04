@@ -1,6 +1,6 @@
 # minifab
 
-> Utility tool that automates the setup and deployment of Hyperledger Fabric networks.
+> Automate the setup and deployment of Hyperledger Fabric networks.
 > More information: <https://github.com/hyperledger-labs/minifabric>.
 
 - Bring up the default Hyperledger Fabric network:

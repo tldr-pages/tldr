@@ -19,7 +19,7 @@
 
 `docker exec --interactive --detach {{nome_container}} {{comando}}`
 
-- Imposta una variabile d'ambiente in una sessione bash in esecuzione:
+- Imposta una variabile d'ambiente in una sessione Bash in esecuzione:
 
 `docker exec --interactive --tty --env {{nome_variabile}}={{valore}} {{nome_container}} {{/bin/bash}}`
 

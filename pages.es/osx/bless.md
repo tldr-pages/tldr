@@ -1,7 +1,7 @@
 # bless
 
 > Establece la capacidad de arranque del volumen y las opciones del disco de arranque.
-> Más información: <https://keith.github.io/xcode-man-pages/bless.1.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/bless.8.html>.
 
 - Bendice un volumen sólo con Mac OS X o Darwin, y crea los archivos BootX y `boot.efi` según sea necesario:
 

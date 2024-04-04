@@ -11,23 +11,23 @@
 
 `atoum`
 
-- Run tests using the specified configuration file:
+- Run tests using the specified [c]onfiguration file:
 
 `atoum -c {{path/to/file}}`
 
-- Run a specific test file:
+- Run a specific test [f]ile:
 
 `atoum -f {{path/to/file}}`
 
-- Run a specific directory of tests:
+- Run a specific [d]irectory of tests:
 
 `atoum -d {{path/to/directory}}`
 
-- Run all tests under a specific namespace:
+- Run all tests under a specific name[s]pace:
 
 `atoum -ns {{namespace}}`
 
-- Run all tests with a specific tag:
+- Run all tests with a specific [t]ag:
 
 `atoum -t {{tag}}`
 

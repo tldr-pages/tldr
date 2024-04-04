@@ -16,7 +16,7 @@
 
 `fastmod {{regex}} {{replacement}} --dir {{path/to/directory}} --iglob {{'**/*.{js,json}'}}`
 
-- Replace for an exact string in .js or .json files:
+- Replace for an exact string in `.js` or JSON files:
 
 `fastmod --fixed-strings {{exact_string}} {{replacement}} --extensions {{json,js}}`
 

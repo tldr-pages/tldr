@@ -1,7 +1,7 @@
 # GetFileInfo
 
 > Dapatkan informasi sebuah file dalam direktori yang terkandung dalam penyimpanan berbasis HFS+.
-> Informasi lebih lanjut: <https://www.unix.com/man-page/osx/1/GetFileInfo/>.
+> Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/GetFileInfo.1.html>.
 
 - Tampilkan informasi mengenai suatu file:
 

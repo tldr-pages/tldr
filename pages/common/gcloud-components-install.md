@@ -1,6 +1,6 @@
 # gcloud components install
 
-> Install specific components of the Google Cloud CLI, along with their dependencies.
+> Install components of the Google Cloud CLI, along with their dependencies.
 > Installs components at the current version of the Google Cloud CLI without upgrading the existing installation.
 > More information: <https://cloud.google.com/sdk/gcloud/reference/components/install>.
 

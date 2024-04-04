@@ -1,6 +1,6 @@
 # bq
 
-> A Python-based tool for BigQuery.
+> A Python-based tool for BigQuery, Google Cloud's fully managed and completely serverless enterprise data warehouse.
 > More information: <https://cloud.google.com/bigquery/docs/reference/bq-cli-reference>.
 
 - Run query against a BigQuery table using standard SQL, add `--dry_run` flag to estimate the number of bytes read by the query:

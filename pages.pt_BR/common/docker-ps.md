@@ -3,11 +3,11 @@
 > Lista os containers Docker.
 > Mais informações: <https://docs.docker.com/engine/reference/commandline/ps/>.
 
-- Lista containers docker em execução:
+- Lista containers Docker em execução:
 
 `docker ps`
 
-- Lista todos containers docker (em execução e parados):
+- Lista todos containers Docker (em execução e parados):
 
 `docker ps --all`
 

@@ -24,6 +24,6 @@
 
 `sudo zeek --watchdog --iface {{interface}}`
 
-- Analyze traffic from a `pcap` file:
+- Analyze traffic from a PCAP file:
 
 `zeek --readfile {{path/to/file.trace}}`

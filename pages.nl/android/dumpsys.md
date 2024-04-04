@@ -2,7 +2,7 @@
 
 > Geef informatie over Android system services.
 > Dit commando kan alleen worden gebruikt via `adb shell`.
-> Meer informatie: <https://developer.android.com/studio/command-line/dumpsys>.
+> Meer informatie: <https://developer.android.com/tools/dumpsys>.
 
 - Krijg diagnostische output voor alle systeemservices:
 

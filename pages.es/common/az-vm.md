@@ -8,7 +8,7 @@
 
 `az vm list`
 
-- Crea una máquina virtual usando la imagen por defecto de Ubuntu y genera claves ssh:
+- Crea una máquina virtual usando la imagen por defecto de Ubuntu y genera claves SSH:
 
 `az vm create --resource-group {{grupo_de_recursos}} --name {{nombre}} --image {{UbuntuLTS}} --admin-user {{usuario_azure}} --generate-ssh-keys`
 

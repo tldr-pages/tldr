@@ -1,6 +1,6 @@
 # find
 
-> Find files or directories under the given directory tree, recursively.
+> Find files or directories under a directory tree, recursively.
 > More information: <https://manned.org/find>.
 
 - Find files by extension:

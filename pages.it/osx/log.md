@@ -1,7 +1,7 @@
 # log
 
 > Visualizza, esporta e configura i sistemi di log.
-> Maggiori informazioni: <https://www.dssw.co.uk/reference/log.html>.
+> Maggiori informazioni: <https://keith.github.io/xcode-man-pages/log.1.html>.
 
 - Mostra i log di sistema in diretta:
 

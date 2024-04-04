@@ -4,7 +4,7 @@
 > Some subcommands such as `docker run` have their own usage documentation.
 > More information: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- List all docker containers (running and stopped):
+- List all Docker containers (running and stopped):
 
 `docker ps --all`
 
@@ -16,7 +16,7 @@
 
 `docker {{start|stop}} {{container_name}}`
 
-- Pull an image from a docker registry:
+- Pull an image from a Docker registry:
 
 `docker pull {{image}}`
 

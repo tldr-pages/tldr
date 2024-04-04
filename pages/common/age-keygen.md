@@ -8,6 +8,6 @@
 
 `age-keygen --output {{path/to/file}}`
 
-- Convert an identity to a recipient and print the public key to `stdout`:
+- Convert an identit[y] to a recipient and print the public key to `stdout`:
 
 `age-keygen -y {{path/to/file}}`

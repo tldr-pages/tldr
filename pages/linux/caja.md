@@ -1,6 +1,7 @@
 # caja
 
 > Manages files and directories in MATE desktop environment.
+> See also: `nautilus`, `dolphin`, `thunar`, `ranger`.
 > More information: <https://manned.org/caja>.
 
 - Open the current user home directory:

@@ -1,6 +1,6 @@
 # gbasename
 
-> Este comando é um pseudônimo de `-p linux basename`.
+> Este comando é um apelido de `-p linux basename`.
 
 - Exibe documentação sobre o comando original:
 

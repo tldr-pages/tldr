@@ -1,6 +1,6 @@
 # gcut
 
-> Este comando é um pseudônimo de `-p linux cut`.
+> Este comando é um apelido de `-p linux cut`.
 
 - Exibe documentação sobre o comando original:
 

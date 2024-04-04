@@ -11,6 +11,10 @@
 
 `chown {{user}}:{{group}} {{path/to/file_or_directory}}`
 
+- Change the owner user and group to both have the name `user`:
+
+`chown {{user}}: {{path/to/file_or_directory}}`
+
 - Recursively change the owner of a directory and its contents:
 
 `chown -R {{user}} {{path/to/directory}}`

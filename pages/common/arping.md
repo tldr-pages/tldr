@@ -12,18 +12,18 @@
 
 `arping -I {{interface}} {{host_ip}}`
 
-- Ping a host and stop at the first reply:
+- Ping a host and [f]inish after the first reply:
 
 `arping -f {{host_ip}}`
 
-- Ping a host a specific number of times:
+- Ping a host a specific number ([c]ount) of times:
 
 `arping -c {{count}} {{host_ip}}`
 
-- Broadcast ARP request packets to update neighbours' ARP caches:
+- Broadcast ARP request packets to update neighbours' ARP caches ([U]nsolicited ARP mode):
 
 `arping -U {{ip_to_broadcast}}`
 
-- Detect duplicated IP addresses in the network by sending ARP requests with a 3 second timeout:
+- [D]etect duplicated IP addresses in the network by sending ARP requests with a 3 second timeout:
 
 `arping -D -w {{3}} {{ip_to_check}}`

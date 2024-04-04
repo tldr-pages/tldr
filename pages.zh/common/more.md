@@ -1,7 +1,7 @@
 # more
 
 > 打开一个文件进行交互式阅读，允许滚动和搜索。
-> 更多信息：<https://manned.org/more>.
+> 更多信息：<https://manned.org/more.1p>.
 
 - 打开一个文件：
 

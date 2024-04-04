@@ -1,7 +1,7 @@
 # prosodyctl
 
 > The control tool for the Prosody XMPP server.
-> NOTE: process management through `prosodyctl` is discouraged. Instead, use the tools provided by your system (e.g. `systemctl`).
+> Note: process management through `prosodyctl` is discouraged. Instead, use the tools provided by your system (e.g. `systemctl`).
 > More information: <https://prosody.im/doc/prosodyctl>.
 
 - Show the status of the Prosody server:

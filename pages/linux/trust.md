@@ -1,6 +1,6 @@
 # trust
 
-> Tool for operating on the trust policy store.
+> Operate on the trust policy store.
 > More information: <https://manned.org/trust>.
 
 - List trust policy store items:

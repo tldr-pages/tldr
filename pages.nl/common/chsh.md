@@ -1,6 +1,7 @@
 # chsh
 
 > Wijzig de login-shell van de gebruiker.
+> Bekijk platform-specifieke pagina's voor meer opties.
 > Meer informatie: <https://manned.org/chsh>.
 
 - Stel interactief een specifieke login-shell in voor de huidige gebruiker:
@@ -14,7 +15,3 @@
 - Stel een login-[s]hell in voor een specifieke gebruiker:
 
 `chsh -s {{pad/naar/shell}} {{gebruikersnaam}}`
-
-- Toon [l]ist met beschikbare shells:
-
-`chsh -l`

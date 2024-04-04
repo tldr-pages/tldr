@@ -16,11 +16,11 @@
 
 `nkf -w --overwrite {{path/to/file.txt}}`
 
-- Set new line code to LF and overwrite (UNIX type):
+- Use LF as the new line code and overwrite (UNIX type):
 
 `nkf -d --overwrite {{path/to/file.txt}}`
 
-- Set new line code to CRLF and overwrite (windows type):
+- Use CRLF as the new line code and overwrite (windows type):
 
 `nkf -c --overwrite {{path/to/file.txt}}`
 

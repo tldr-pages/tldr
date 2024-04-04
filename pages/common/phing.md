@@ -15,13 +15,13 @@
 
 `phing {{task_name}}`
 
-- Specify a custom build file path:
+- Use the given build file path:
 
 `phing -f {{path/to/build.xml}} {{task_name}}`
 
-- Specify a log file to output to:
+- Log to the given file:
 
-`phing -b {{path/to/log_file}} {{task_name}}`
+`phing -logfile {{path/to/log_file}} {{task_name}}`
 
 - Use custom properties in the build:
 

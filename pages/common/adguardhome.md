@@ -11,7 +11,7 @@
 
 `AdGuardHome --config {{path/to/AdGuardHome.yaml}}`
 
-- Set the work directory for data to be stored in:
+- Store the data in a specific work directory:
 
 `AdGuardHome --work-dir {{path/to/directory}}`
 

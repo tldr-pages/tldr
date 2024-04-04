@@ -17,8 +17,8 @@
 
 - Sostituisci i tab con un determinato numero di spazi, non 8 (default):
 
-`expand -t={{numero_spazi}} {{file}}`
+`expand -t {{numero_spazi}} {{file}}`
 
 - Utilizza una lista separata da virgole di posizioni esplicite di tab:
 
-`expand -t={{1,4,6}}`
+`expand -t {{1,4,6}}`

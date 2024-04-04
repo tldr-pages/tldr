@@ -11,7 +11,7 @@
 
 `ls *.txt | parallel -j4 gzip`
 
-- Convert JPG images to PNG using replacement strings:
+- Convert JPEG images to PNG using replacement strings:
 
 `parallel convert {} {.}.png ::: *.jpg`
 
@@ -26,3 +26,11 @@
 - Run on multiple machines via SSH:
 
 `parallel -S {{machine1}},{{machine2}} {{command}} ::: {{arg1}} {{arg2}}`
+
+- Download 4 files simultaneously from a text file containing links showing progress:
+
+`parallel -j4 --bar --eta wget -q {} :::: {{path/to/links.txt}}`
+
+- Print the jobs which `parallel` is running in `stderr`:
+
+`parallel -t {{command}} ::: {{args}}`

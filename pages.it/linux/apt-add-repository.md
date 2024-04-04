@@ -1,13 +1,13 @@
 # apt-add-repository
 
-> Gestisce le definizioni di repository apt.
+> Gestisce le definizioni di repository APT.
 > Maggiori informazioni: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
 
-- Aggiunge un nuovo repository apt:
+- Aggiunge un nuovo repository APT:
 
 `apt-add-repository {{identificativo_del_repository}}`
 
-- Rimuove un repository apt:
+- Rimuove un repository APT:
 
 `apt-add-repository --remove {{identificativo_del_repository}}`
 

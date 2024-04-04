@@ -1,6 +1,6 @@
 # gmknod
 
-> Este comando é um pseudônimo de `-p linux mknod`.
+> Este comando é um apelido de `-p linux mknod`.
 
 - Exibe documentação sobre o comando original:
 

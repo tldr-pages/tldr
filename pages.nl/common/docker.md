@@ -4,7 +4,7 @@
 > Sommige subcommando's zoals `docker run` hebben hun eigen documentatie.
 > Meer informatie: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Toon alle docker containers (actief en gestopte):
+- Toon alle Docker containers (actief en gestopte):
 
 `docker ps --all`
 
@@ -16,7 +16,7 @@
 
 `docker {{start|stop}} {{container_naam}}`
 
-- Download een image uit een docker register:
+- Download een image uit een Docker register:
 
 `docker pull {{image}}`
 

@@ -1,7 +1,7 @@
 # tidy
 
 > Clean up and pretty print HTML, XHTML and XML files.
-> NOTE: `tidy` cannot preserve original indentation.
+> Note: `tidy` cannot preserve original indentation.
 > More information: <https://api.html-tidy.org/tidy/tidylib_api_5.2.0/tidy_cmd.html>.
 
 - Pretty print an HTML file:

@@ -1,6 +1,6 @@
 # rbenv
 
-> A tool to easily install Ruby versions and manage application environments.
+> Easily install Ruby versions and manage application environments.
 > See also: `asdf`.
 > More information: <https://github.com/rbenv/rbenv>.
 

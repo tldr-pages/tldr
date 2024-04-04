@@ -19,7 +19,7 @@
 
 `cs java --installed`
 
-- Set the a specific JVM as one-off "default" for the shell instance:
+- Set a specific JVM as one-off default for the shell instance:
 
 `cs java --jvm {{jvm_name}}:{{jvm_version}} --env`
 

@@ -7,7 +7,7 @@
 
 `docker system`
 
-- Show docker disk usage:
+- Show Docker disk usage:
 
 `docker system df`
 

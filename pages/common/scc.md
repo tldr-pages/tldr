@@ -1,6 +1,6 @@
 # scc
 
-> Tool written in Go that counts lines of code.
+> Count lines of code. Written in Go.
 > More information: <https://github.com/boyter/scc>.
 
 - Print lines of code in the current directory:

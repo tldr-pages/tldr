@@ -1,6 +1,6 @@
 # gum
 
-> A tool for making glamorous shell scripts.
+> Make glamorous shell scripts.
 > More information: <https://github.com/charmbracelet/gum>.
 
 - Interactively pick a specific option to print to `stdout`:

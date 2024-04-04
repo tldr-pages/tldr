@@ -20,6 +20,9 @@ straightforward, transparent, predictable, and impartial,
 the metrics used are objective, easy to check, and explicitly described below. (That's not to say they're hard-set rules:
 exceptions can always be considered through open community discussion.)
 
+> [!IMPORTANT]
+> It is required to have [two factor authentication](https://github.com/settings/security) (2FA) enabled for your GitHub account to be added as a outside collaborator or a member to the tldr-pages organization.
+
 ## When to change roles
 
 - **Regular contributors should be added as collaborators in the repository.**
@@ -74,7 +77,6 @@ exceptions can always be considered through open community discussion.)
   Indeed, if they return to active participation in the project,
   they should be added back to the organization, to reflect that fact.
 
-
 ## How to change roles
 
 > [!NOTE]
@@ -91,7 +93,7 @@ using one of the template messages below as a base.
 
 1. Open an issue with the following message template (edit it as appropriate):
 
-   ```
+   ```md
    Hi, @username! You seem to be enjoying contributing to the tldr-pages project.
    You now have had five distinct pull requests [merged](<!-- REPLACE THIS WITH THE LINKS TO THE RELEVANT PRs -->)!
    That qualifies you to become a collaborator in this repository, as explained in our [community roles documentation](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md).
@@ -105,6 +107,9 @@ using one of the template messages below as a base.
    So, what do you say? Can we add you as a collaborator?
 
    Either way, thanks for all your work so far!
+
+   > [!NOTE]
+   > It is required to have [two factor authentication](https://github.com/settings/security) (2FA) enabled for your GitHub account to be added as a collaborator the tldr-pages/tldr repository.
    ```
 
 2. Once they acknowledge the message and if they accept the invitation,
@@ -120,7 +125,7 @@ using one of the template messages below as a base.
 
 1. Open an issue with the following message template (edit it as appropriate):
 
-   ```
+   ```md
    Hi, @username! After joining as a collaborator in the repository, you have been regularly performing [maintenance tasks](<!-- REPLACE THIS WITH THE LINKS TO THE RELEVANT ISSUES AND/OR PRs -->).
 
    Thank you for that!
@@ -152,7 +157,7 @@ using one of the template messages below as a base.
 
 1. Open an issue with the following message template (edit it as appropriate):
 
-   ```
+   ```md
    Hi, @username! You've been an active tldr-pages organization member for over 6 months.
 
    Thanks for sticking around this far and helping out!
@@ -180,7 +185,7 @@ using one of the template messages below as a base.
 
 1. Open an issue with the following message template (edit it as appropriate):
 
-   ```
+   ```md
    Hi, @username! As you know, our [community roles documentation](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md) defines processes for keeping the list of organization members in sync with the actual maintenance team.
    Since you haven't been active in the project for a while now, we'll be relieving you from the maintainer responsibilities.
 

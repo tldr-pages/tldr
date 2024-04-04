@@ -1,7 +1,7 @@
 # logcat
 
 > 转储系统消息日志。
-> 更多信息：<https://developer.android.com/studio/command-line/logcat>.
+> 更多信息：<https://developer.android.com/tools/logcat>.
 
 - 显示系统日志：
 

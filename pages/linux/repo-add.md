@@ -3,6 +3,10 @@
 > Package database maintenance utility which enables installation of said package via Pacman.
 > More information: <https://man.archlinux.org/man/repo-add>.
 
+- Create an empty repository:
+
+`repo-add {{path/to/database.db.tar.gz}}`
+
 - Add all package binaries in the current directory and remove the old database file:
 
 `repo-add --remove {{path/to/database.db.tar.gz}} {{*.pkg.tar.zst}}`

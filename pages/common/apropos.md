@@ -7,10 +7,10 @@
 
 `apropos {{regular_expression}}`
 
-- Search without restricting the output to the terminal width:
+- Search without restricting the output to the terminal width ([l]ong output):
 
 `apropos -l {{regular_expression}}`
 
-- Search for pages that contain all the expressions given:
+- Search for pages that match [a]ll the expressions given:
 
 `apropos {{regular_expression_1}} -a {{regular_expression_2}} -a {{regular_expression_3}}`

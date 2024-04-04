@@ -1,6 +1,6 @@
 # go tool
 
-> Run a specific Go tool or command.
+> Run a Go tool or command.
 > Execute a Go command as a stand-alone binary, typically for debugging.
 > More information: <https://pkg.go.dev/cmd/go#hdr-Run_specified_go_tool>.
 
@@ -19,3 +19,7 @@
 - View documentation for a specified tool:
 
 `go tool {{command}} --help`
+
+- List all available cross-compilation targets:
+
+`go tool dist list`

@@ -10,20 +10,28 @@
 
 - Voeg verschillende bestanden samen in het doelbestand:
 
-`bat {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{doelbestand}}`
+`bat {{pad/naar/bestand1 pad/naar/bestand2 ...}} > {{pad/naar/doelbestand}}`
 
-- Voeg verschillende bestanden toe aan het doelbestand:
+- Verwijder decoraties en schakel paging uit (`--style plain` kan vervangen worden met `-p` of beide opties met `-pp`):
 
-`bat {{pad/naar/bestand1 pad/naar/bestand2 ...}} >> {{doelbestand}}`
+`bat --style plain --pager never {{pad/naar/bestand}}`
+
+- Highlight een specifieke regel of een reeks van regels met een andere achtergrondkleur:
+
+`bat {{--highlight-line|-H}} {{10|5:10|:10|10:|10:+5}} {{pad/naar/bestand}}`
+
+- Toon niet-printbare karakters zoals spatie, tab of witregel:
+
+`bat {{--show-all|-A}} {{pad/naar/bestand}}`
 
 - Nummer alle uitvoerregels:
 
-`bat --number {{pad/naar/bestand}}`
+`bat {{--number|-n}} {{pad/naar/bestand}}`
 
 - Highlight de syntax van een JSON-bestand:
 
-`bat --language json {{pad/naar/bestand.json}}`
+`bat {{--language|-l}} json {{pad/naar/bestand.json}}`
 
 - Toon alle ondersteunde talen:
 
-`bat --list-languages`
+`bat {{--list-languages|-L}}`

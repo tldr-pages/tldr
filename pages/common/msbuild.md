@@ -11,15 +11,15 @@
 
 `msbuild {{path/to/project_file}}`
 
-- Set one or more semicolon-separated targets to build:
+- Specify one or more semicolon-separated targets to build:
 
 `msbuild {{path/to/project_file}} /target:{{targets}}`
 
-- Set one or more semicolon-separated properties:
+- Specify one or more semicolon-separated properties:
 
 `msbuild {{path/to/project_file}} /property:{{name=value}}`
 
-- Set the build tools version to use:
+- Specify the build tools version to use:
 
 `msbuild {{path/to/project_file}} /toolsversion:{{version}}`
 

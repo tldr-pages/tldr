@@ -1,7 +1,7 @@
 # adb logcat
 
 > Dump een logboek met systeemberichten.
-> Meer informatie: <https://developer.android.com/studio/command-line/logcat>.
+> Meer informatie: <https://developer.android.com/tools/logcat>.
 
 - Geef systeemlogboeken weer:
 
