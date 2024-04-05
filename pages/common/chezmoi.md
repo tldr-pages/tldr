@@ -1,6 +1,7 @@
 # Chezmoi
 
 > A multi-machine dotfile manager, written in Go.
+> See also: `stow`, `tuckr`, `vcsh`, `homeshick`.
 > More information: <https://chezmoi.io>.
 
 - Setup up `chezmoi`, creating a Git repository in `~/.local/share/chezmoi`:
