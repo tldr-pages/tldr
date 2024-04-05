@@ -1,6 +1,7 @@
 # gitk
 
 > A graphical Git repository browser.
+> See also: `git-gui`, `git-cola`, `tig`.
 > More information: <https://git-scm.com/docs/gitk>.
 
 - Show the repository browser for the current Git repository:
