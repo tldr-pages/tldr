@@ -3,7 +3,7 @@
 > Startet NixOS Container basierend auf Linux Containern.
 > Mehr Informationen: <https://nixos.org/manual/nixos/stable/#ch-containers>.
 
-- Gestartete Container listen:
+- Gibt eine Liste der gestarteten Container aus:
 
 `sudo nixos-container list`
 
@@ -11,15 +11,15 @@
 
 `sudo nixos-container create {{container_name}} --config-file {{nix_config_file_path}}`
 
-- Start, Stoppe, Terminiere oder zerstöre einen spezifischen Container:
+- Starte, stoppe, terminiere oder zerstöre den angegebenen Container:
 
 `sudo nixos-container {{start|stop|terminate|destroy|status}} {{container_name}}`
 
-- Starte einen Command in einem laufenden Container:
+- Führe ein Kommando in einem laufenden Container aus:
 
 `sudo nixos-container run {{container_name}} -- {{command}} {{command_arguments}}`
 
-- Aktualisiere eine Container Konfiguration:
+- Aktualisiere eine Containerkonfiguration:
 
 `sudo $EDITOR /var/lib/container/{{container_name}}/etc/nixos/configuration.nix && sudo nixos-container update {{container_name}}`
 
