@@ -20,6 +20,6 @@
 
 `systemd-tmpfiles --create --user`
 
-- Ejecuta las líneas marcadas para el arranque anticipado:
+- Ejecuta las líneas marcadas para el inicio del arranque:
 
 `systemd-tmpfiles --create --boot`
