@@ -15,6 +15,6 @@
 
 `ydotool click 0xC1`
 
-- Ingresa un Alt+F4:
+- Ingresa la combinación de teclas Alt+F4:
 
 `ydotool key 56:1 62:1 62:0 56:0`
