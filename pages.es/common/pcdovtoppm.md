@@ -17,4 +17,4 @@
 
 - Utiliza la [f]uente especificada para las anotaciones y pinta el fondo blanco [w]:
 
-`pcdovtoppm -a {{número}}} -w {{ruta/al/archivo.pcd}} > {{ruta/al/archivo.ppm}}`
+`pcdovtoppm -a {{número}} -w {{ruta/al/archivo.pcd}} > {{ruta/al/archivo.ppm}}`
