@@ -19,7 +19,7 @@
 
 `nixos-option nix.buildMachines`
 
-- Liste alle Unterschlüssel eines angegebenen Options-Schlüssels innerhalb einer angegebenen Konfigurations-Datei
+- Liste alle Unterschlüssel eines angegebenen Options-Schlüssels innerhalb einer angegebenen Konfigurations-Datei:
 
 `NIXOS_CONFIG={{path_to_configuration.nix}} nixos-option {{option_key}}`
 
