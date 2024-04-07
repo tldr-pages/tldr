@@ -24,7 +24,7 @@
 
 `echo {{example.com}} | dnsx -{{debug|raw}} -resolver {{1.1.1.1,8.8.8.8,...}} -retry {{number}}`
 
-- Brute force DNS records using `FUZZ` placeholder:
+- Brute force DNS records using a placeholder:
 
 `dnsx -domain {{FUZZ.example.com}} -wordlist {{path/to/wordlist.txt}} -re`
 
