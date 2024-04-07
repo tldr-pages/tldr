@@ -1,7 +1,7 @@
 # dnsx
 
 > A fast and multi-purpose DNS toolkit allow to run multiple DNS queries.
-> Input to `dnsx` needs to be passed through a pipe (`|`) in some cases.
+> Note: input to `dnsx` needs to be passed through `stdin` (pipe `|`) in some cases.
 > More information: <https://github.com/projectdiscovery/dnsx>.
 
 - Query the A record of a (sub)domain:
