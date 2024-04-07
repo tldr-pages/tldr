@@ -1,0 +1,28 @@
+# katana
+
+> A next-generation crawling and spidering tool.
+> More information: <https://github.com/projectdiscovery/katana>.
+
+- Crawl a [u]RL or a list of URLs:
+
+`katana -list {{https://example.com,https://google.com,...}}`
+
+- Crawl using [h]ead[l]ess mode using Chromium:
+
+`katana -u {{https://example.com}} -headless`
+
+- Use [p]a[s]sive sources (waybackarchive, commoncrawl, and alienvault) for URL discovery:
+
+`cat {{example.com}} | katana -passive`
+
+- Pass requests through a proxy (http/socks5) and use custom [H]eaders from a file:
+
+`katana -proxy {{http://127.0.0.1:8080}} -headers {{path/to/headers.txt}} -u {{https://example.com}}`
+
+- Specify crawling [s]trategy, [d]epth of subdirectories to crawl, and rate limiting (requests per second):
+
+`katana -strategy {{depth-first|breadth-first}} -depth {{value}} -rate-limit {{value}} -u {{https://example.com}}`
+
+- Crawl a list of domains, each for a specific amount of seconds, and write results to an [o]utput file:
+
+`cat {{path/to/domains.txt}} | katana -crawl-duration {{value}} -output {{path/to/output.txt}}`
