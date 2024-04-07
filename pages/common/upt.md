@@ -1,7 +1,7 @@
 # upt
 
 > Unified interface for managing packages across various operating systems, like Windows, many Linux distributions, Android, macOS, FreeBSD and even Haiku.
-> It requires the OS package manager to be installed.
+> It requires the native OS package manager to be installed.
 > See also: `flatpak`, `brew`, `scoop`, `apt`.
 > More information: <https://github.com/sigoden/upt>.
 
