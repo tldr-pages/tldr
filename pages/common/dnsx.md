@@ -32,6 +32,6 @@
 
 `dnsx -domain {{path/to/domain.txt}} -wordlist {{path/to/wordlist.txt}} -re -output {{path/to/output.txt}} -no-color`
 
-- Extract CNAME records for the given list of subdomains, with [r]ate [l]imiting dns queries per second:
+- Extract `CNAME` records for the given list of subdomains, with [r]ate [l]imiting DNS queries per second:
 
 `subfinder -silent -d {{example.com}} | dnsx -cname -re -rl {{number}}`
