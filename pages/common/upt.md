@@ -2,7 +2,7 @@
 
 > Unified interface for managing packages across various operating systems, like Windows, many Linux distributions, macOS, FreeBSD and even Haiku.
 > It requires the native OS package manager to be installed.
-> See also: `flatpak`, `brew`, `scoop`, `apt`.
+> See also: `flatpak`, `brew`, `scoop`, `apt`, `dnf`.
 > More information: <https://github.com/sigoden/upt>.
 
 - Update the list of available packages:
