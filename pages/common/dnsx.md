@@ -8,7 +8,7 @@
 
 `echo {{example.com}} | dnsx -a -re`
 
-- Query all the dns records (A,AAAA,CNAME,NS,TXT,SRV,PTR,MX,SOA,AXFR,CAA):
+- Query all the DNS records (A,AAAA,CNAME,NS,TXT,SRV,PTR,MX,SOA,AXFR,CAA):
 
 `dnsx -recon -re <<< {{example.com}}`
 
