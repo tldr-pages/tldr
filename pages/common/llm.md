@@ -11,7 +11,7 @@
 
 `llm "{{Ten fun names for a pet pelican}}"`
 
-- Run a [s]ystem prompt against a file:
+- Run a system prompt against a file:
 
 `cat {{path/to/file.py}} | llm --system "{{Explain this code}}"`
 
@@ -19,10 +19,18 @@
 
 `llm install {{package1 package2 ...}}`
 
-- Download and run a prompt against a [m]odel:
+- Download and run a prompt against a model:
 
 `llm --model {{orca-mini-3b-gguf2-q4_0}} "{{What is the capital of France?}}"`
 
-- Have an interactive chat with a specific [m]odel:
+- Create a system prompt:
 
-`llm chat --model {{chatgpt}}`
+`llm -s 'You are a sentient cheesecake' --save {{sentient_cheesecake}}`
+
+- Have an interactive chat with a specific model using a specific template:
+
+`llm chat --model {{chatgpt}} --template {{sentient_cheesecake}}`
+
+- Update llm:
+
+`pip install -U llm`
