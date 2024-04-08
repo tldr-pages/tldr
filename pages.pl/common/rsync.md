@@ -1,7 +1,7 @@
 # rsync
 
 > Przesyłaj pliki do lub ze zdalnego hosta (ale nie pomiędzy dwoma zdalnymi hostami), domyślnie używając SSH.
-> Aby wskazać na ścieżkę zdalną, użyj `host:ścieżka/do/pliku_lub_katalogu`.
+> Aby wskazać na ścieżkę zdalną, użyj `user@host:ścieżka/do/pliku_lub_katalogu`.
 > Więcej informacji: <https://download.samba.org/pub/rsync/rsync.1>.
 
 - Prześlij plik:
@@ -28,7 +28,7 @@
 
 `rsync --archive --update --copy-links {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
 
-- Prześlij katalog do zdalnego hosta, na którym działa `rsyncd` i usuń pliki w miejscu docelowym które nie istnieją w źródle:
+- Prześlij katalog ze zdalnego hosta, na którym działa `rsyncd` i usuń pliki w miejscu docelowym, które nie istnieją w źródle:
 
 `rsync --recursive --delete rsync://{{host}}:{{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
 
