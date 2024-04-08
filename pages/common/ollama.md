@@ -19,6 +19,14 @@
 
 `ollama list`
 
+- Update pulled models (Referenced from <https://github.com/ollama/ollama/issues/1890#issuecomment-1885381713>):
+
+`ollama list | tail -n +2 | awk '{print $1}' | while read -r model; do  sudo ollama pull $model; done`
+
+- Update Ollama:
+
+`curl -fsSL https://ollama.com/install.sh | sh`
+
 - Delete a model:
 
 `ollama rm {{model}}`
