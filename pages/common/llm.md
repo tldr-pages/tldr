@@ -25,7 +25,7 @@
 
 - Create a system prompt:
 
-`llm -s 'You are a sentient cheesecake' --save {{sentient_cheesecake}}`
+`llm --system '{{You are a sentient cheesecake}}' --save {{sentient_cheesecake}}`
 
 - Have an interactive chat with a specific model using a specific template:
 
