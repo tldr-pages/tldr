@@ -16,6 +16,10 @@
 
 `latexmk -pdf {{source.tex}}`
 
+- Open the document in a viewer and continuously update it whenever source files change:
+
+`latexmk -pvc {{source.tex}}`
+
 - Force the generation of a document even if there are errors:
 
 `latexmk -f {{source.tex}}`
