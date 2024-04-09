@@ -30,7 +30,3 @@
 - Have an interactive chat with a specific [m]odel using a specific [t]emplate:
 
 `llm chat --model {{chatgpt}} --template {{sentient_cheesecake}}`
-
-- Update llm:
-
-`pip install -U llm`
