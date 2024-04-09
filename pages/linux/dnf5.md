@@ -1,6 +1,6 @@
 # dnf5
 
-> Package management utility for RHEL, Fedora, and CentOS (replaces dnf, wich in turn replaced yum).
+> Package management utility for RHEL, Fedora, and CentOS (it replaces dnf, which in turn replaced yum).
 > DNF5 is a complete rewrite of the DNF package manager, written in C++ for improved performance and a smaller size.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://dnf5.readthedocs.io/>.
