@@ -23,7 +23,7 @@
 
 `ollama list | tail -n +2 | awk '{print $1}' | while read -r model; do  sudo ollama pull $model; done`
 
-- Update Ollama:
+- Upgrade Ollama on Linux:
 
 `curl -fsSL https://ollama.com/install.sh | sh`
 
