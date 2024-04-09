@@ -11,9 +11,9 @@
 
 `history {{20}}`
 
-- Display history with timestamps (Only available in Zsh. Use `-E` or `-f` for different time formats.):
+- Display history with timestamps in different formats (only available in Zsh):
 
-`history -i`
+`history -{{d|f|i|E}}`
 
 - Clear the commands history list (only for current Bash shell):
 
