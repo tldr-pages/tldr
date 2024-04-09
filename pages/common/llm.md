@@ -11,7 +11,7 @@
 
 `llm "{{Ten fun names for a pet pelican}}"`
 
-- Run a system prompt against a file:
+- Run a [s]ystem prompt against a file:
 
 `cat {{path/to/file.py}} | llm --system "{{Explain this code}}"`
 
