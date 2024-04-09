@@ -27,7 +27,7 @@
 
 `llm --system '{{You are a sentient cheesecake}}' --save {{sentient_cheesecake}}`
 
-- Have an interactive chat with a specific model using a specific template:
+- Have an interactive chat with a specific [m]odel using a specific [t]emplate:
 
 `llm chat --model {{chatgpt}} --template {{sentient_cheesecake}}`
 
