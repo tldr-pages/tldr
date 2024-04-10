@@ -1,6 +1,6 @@
 # dnsx
 
-> A fast and multi-purpose DNS toolkit allow to run multiple DNS queries.
+> A fast and multi-purpose DNS toolkit to run multiple DNS queries.
 > Note: input to `dnsx` needs to be passed through `stdin` (pipe `|`) in some cases.
 > More information: <https://github.com/projectdiscovery/dnsx>.
 
