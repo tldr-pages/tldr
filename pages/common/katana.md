@@ -11,7 +11,7 @@
 
 `katana -u {{https://example.com}} -headless`
 
-- Use [p]a[s]sive sources (Wayback Machine, Common Crawl, and alienvault) for URL discovery:
+- Use [p]a[s]sive sources (Wayback Machine, Common Crawl, and AlienVault) for URL discovery:
 
 `cat {{example.com}} | katana -passive`
 
