@@ -23,7 +23,7 @@
 
 `llm --model {{orca-mini-3b-gguf2-q4_0}} "{{What is the capital of France?}}"`
 
-- Create a system prompt:
+- Create a [s]ystem prompt and save it with a [t]emplate name:
 
 `llm --system '{{You are a sentient cheesecake}}' --save {{sentient_cheesecake}}`
 
