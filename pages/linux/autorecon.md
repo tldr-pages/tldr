@@ -8,7 +8,7 @@
 
 `sudo autorecon {{host_or_ip1,host_or_ip2,...}}`
 
-- Perform reconnaisance on [t]arget(s) from a file:
+- Perform reconnaissance on [t]arget(s) from a file:
 
 `sudo autorecon --target-file {{path/to/file}}`
 
