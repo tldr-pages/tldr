@@ -4,6 +4,7 @@
 > DNF5 is a complete rewrite of the DNF package manager, written in C++ for improved performance and a smaller size.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://dnf5.readthedocs.io/>.
+
 - Upgrade installed packages to the newest available versions:
 
 `sudo dnf5 upgrade`
