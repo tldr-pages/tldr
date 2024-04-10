@@ -35,4 +35,4 @@
 
 - Remove or expire cached data:
 
-`sudo dnf clean all`
+`sudo dnf5 clean all`
