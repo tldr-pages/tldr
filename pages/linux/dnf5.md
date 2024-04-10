@@ -17,7 +17,7 @@
 
 `dnf5 info {{package}}`
 
-- Install a new package (use `-y` to confirm all prompts automatically):
+- Install a new package (Note: use `-y` to confirm all prompts automatically):
 
 `sudo dnf5 install {{package1 package2 ...}}`
 
