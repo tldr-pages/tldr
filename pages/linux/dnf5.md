@@ -21,7 +21,7 @@
 
 `sudo dnf5 install {{package1 package2 ...}}`
 
-- Remove a package:
+- Remove packages:
 
 `sudo dnf5 remove {{package1 package2 ...}}`
 
