@@ -1,7 +1,6 @@
 # autorecon
 
 > A multi-threaded network reconnaissance tool which performs automated enumeration of services.
-> Note: dependency packages need to be installed for `autorecon` to function properly.
 > More information: <https://github.com/Tib3rius/AutoRecon>.
 
 - Perform reconnaissance on target host(s) (detailed scan results will be dumped in `./results`):
