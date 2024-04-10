@@ -19,9 +19,9 @@
 
 `ollama list`
 
-- Update pulled models (Referenced from <https://github.com/ollama/ollama/issues/1890#issuecomment-1885381713>):
+- Pull/Update a specific model:
 
-`ollama list | tail -n +2 | awk '{print $1}' | while read -r model; do  sudo ollama pull $model; done`
+`ollama pull {{model}}`
 
 - Upgrade Ollama on Linux:
 
