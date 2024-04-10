@@ -7,7 +7,7 @@
 
 `llm keys set openai`
 
-- Run a [p]rompt:
+- Run a prompt:
 
 `llm "{{Ten fun names for a pet pelican}}"`
 
