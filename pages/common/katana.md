@@ -19,7 +19,7 @@
 
 `katana -proxy {{http://127.0.0.1:8080}} -headers {{path/to/headers.txt}} -u {{https://example.com}}`
 
-- Specify crawling [s]trategy, [d]epth of subdirectories to crawl, and rate limiting (requests per second):
+- Specify the crawling [s]trategy, [d]epth of subdirectories to crawl, and rate limiting (requests per second):
 
 `katana -strategy {{depth-first|breadth-first}} -depth {{value}} -rate-limit {{value}} -u {{https://example.com}}`
 
