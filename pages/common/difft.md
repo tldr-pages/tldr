@@ -6,27 +6,27 @@
 
 - Compare two files or directories:
 
-`difft {{path/to/original_file_or_directory}} {{path/to/new_file_or_directory}}`
+`difft {{path/to/file_or_directory1}} {{path/to/file_or_directory2}}`
 
 - Only report the presence of differences between the files:
 
-`difft --check-only {{path/to/original_file}} {{path/to/new_file}}`
+`difft --check-only {{path/to/file1}} {{path/to/file2}}`
 
 - Specify the display mode (default is `side-by-side`):
 
-`difft --display {{side-by-side|side-by-side-show-both|inline|json}} {{path/to/original_file}} {{path/to/new_file}}`
+`difft --display {{side-by-side|side-by-side-show-both|inline|json}} {{path/to/file1}} {{path/to/file2}}`
 
 - Ignore comments when comparing:
 
-`difft --ignore-comments {{path/to/original_file}} {{path/to/new_file}}`
+`difft --ignore-comments {{path/to/file1}} {{path/to/file2}}`
 
 - Enable/Disable syntax highlighting of source code (default is `on`):
 
-`difft --syntax-highlight {{on|off}} {{path/to/original_file}} {{path/to/new_file}}`
+`difft --syntax-highlight {{on|off}} {{path/to/file1}} {{path/to/file2}}`
 
 - Do not output anything at all if there are no differences between files:
 
-`difft --skip-unchanged {{path/to/original_file_or_directory}} {{path/to/new_file_or_directory}}`
+`difft --skip-unchanged {{path/to/file_or_directory1}} {{path/to/file_or_directory2}}`
 
 - Print all programming languages supported by the tool, along with their extensions:
 
