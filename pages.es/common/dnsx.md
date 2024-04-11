@@ -27,7 +27,7 @@
 
 - Fuerza bruta de registros DNS utilizando un marcador de posición:
 
-`dnsx -dominio {{FUZZ.ejemplo.com}} -wordlist {{ruta/a/wordlist.txt}} -re`
+`dnsx -dominio {{FUZZ.ejemplo.com}} -wordlist {{ruta/a/lista_palabras.txt}} -re`
 
 - Registros DNS de fuerza bruta a partir de una lista de [d]ominios y listas de palabras, adjuntando la salida [o] a un archivo sin códigos de [c]olor:
 
