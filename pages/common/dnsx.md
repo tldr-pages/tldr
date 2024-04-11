@@ -4,7 +4,7 @@
 > Note: input to `dnsx` needs to be passed through `stdin` (pipe `|`) in some cases.
 > More information: <https://github.com/projectdiscovery/dnsx>.
 
-- Query the A record of a (sub)domain:
+- Query the A record of a (sub)domain and show [re]sponse received:
 
 `echo {{example.com}} | dnsx -a -re`
 
@@ -20,7 +20,7 @@
 
 `echo {{example.com}} | dnsx -ro`
 
-- Display raw response of a query (`dig` style output), specifying [r]esolvers to use and retry attempts for failures:
+- Display raw response of a query, specifying [r]esolvers to use and retry attempts for failures:
 
 `echo {{example.com}} | dnsx -{{debug|raw}} -resolver {{1.1.1.1,8.8.8.8,...}} -retry {{number}}`
 
