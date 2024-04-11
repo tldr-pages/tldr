@@ -17,7 +17,7 @@
 
 `upt info {{paquete}}`
 
-- Instala un paquete determinado:
+- Instala un paquete:
 
 `upt install {{paquete}}`
 
