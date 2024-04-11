@@ -32,6 +32,6 @@
 
 `last --since {{-7days}}`
 
-- Muestra información (es decir, nombre de host e IP) de hosts remotos:
+- Muestra información (es decir, nombre e IP) de hosts remotos:
 
 `last --dns`
