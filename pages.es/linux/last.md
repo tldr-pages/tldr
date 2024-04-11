@@ -28,7 +28,7 @@
 
 `last --time-format {{notime|full|iso}}`
 
-- Lista información desde una fecha y hora específicas:
+- Lista información desde una fecha y hora específica:
 
 `last --since {{-7days}}`
 
