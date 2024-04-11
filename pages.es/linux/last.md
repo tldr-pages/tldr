@@ -10,7 +10,7 @@
 
 - Lista la información de inicio de sesión de un usuario específico:
 
-`last {{nombredeusuario}}`
+`last {{nombre_de_usuario}}`
 
 - Mostra la información de un TTY específico:
 
