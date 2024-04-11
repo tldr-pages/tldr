@@ -5,7 +5,7 @@
 
 - Crea un archivo de paridad con un nivel de porcentaje de redundancia establecido:
 
-`par2 create -r{{1..100}} -- {{ruta/al/archivo}}`
+`par2 create -r {{1..100}} -- {{ruta/al/archivo}}`
 
 - Crea un archivo de paridad con un número determinado de archivos de volumen (además del archivo de índice):
 
