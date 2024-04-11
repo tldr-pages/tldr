@@ -9,7 +9,7 @@
 
 - Crea un archivo de paridad con un número determinado de archivos de volumen (además del archivo de índice):
 
-`par2 create -n{{1..32768}} -- {{ruta/al/archivo}}`
+`par2 create -n {{1..32768}} -- {{ruta/al/archivo}}`
 
 - Verifica un fichero con un archivo de paridad:
 
