@@ -21,7 +21,7 @@
 
 `upt install {{paquete}}`
 
-- Elimina un paquete determinado:
+- Elimina un paquete:
 
 `upt {{remove|uninstall}} {{paquete}}`
 
