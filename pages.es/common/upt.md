@@ -29,7 +29,7 @@
 
 `upt upgrade`
 
-- Actualiza un paquete determinado:
+- Actualiza un paquete:
 
 `upt upgrade {{paquete}}`
 
