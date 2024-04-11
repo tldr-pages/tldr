@@ -29,7 +29,7 @@
 
 `dnsx -domain {{FUZZ.example.com}} -wordlist {{path/to/wordlist.txt}} -re`
 
-- Brute force DNS records from a list of [d]omains and wordlists, appending [o]utput to a file wih [n]o [c]olor codes:
+- Brute force DNS records from a list of [d]omains and wordlists, appending [o]utput to a file with [n]o [c]olor codes:
 
 `dnsx -domain {{path/to/domain.txt}} -wordlist {{path/to/wordlist.txt}} -re -output {{path/to/output.txt}} -no-color`
 
