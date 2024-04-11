@@ -12,7 +12,7 @@
 
 `last {{nombre_de_usuario}}`
 
-- Mostra la información de un TTY específico:
+- Muestra la información de una terminal específica:
 
 `last {{tty1}}`
 
