@@ -2,7 +2,7 @@
 
 > Interfaz unificada para gestionar paquetes en varios sistemas operativos, tales como Windows, diversas distribuciones de Linux, macOS, FreeBSD e incluso Haiku.
 > Requiere que el gestor de paquetes nativo del sistema operativo esté instalado.
-> Véase también: `flatpak`, `brew`, `scoop`, `apt`, `dnf`.
+> Vea también: `flatpak`, `brew`, `scoop`, `apt`, `dnf`.
 > Más información: <https://github.com/sigoden/upt>.
 
 - Actualiza la lista de paquetes disponibles:
