@@ -1,7 +1,7 @@
 # last
 
 > Lista la información de los últimos inicios de sesión de usuario.
-> Véase también: `lastb`, `login`.
+> Vea también: `lastb`, `login`.
 > Más información: <https://manned.org/last.1>.
 
 - Lista la información de inicio de sesión (por ejemplo, nombre de usuario, terminal, tiempo de arranque, kernel) de todos los usuarios:
