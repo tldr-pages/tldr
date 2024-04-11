@@ -24,7 +24,7 @@
 
 `last "{{system boot}}"`
 
-- Lista información con un formato específico de marca de [t]iempo:
+- Lista información con un formato de [t]iempo específico:
 
 `last --time-format {{notime|full|iso}}`
 
