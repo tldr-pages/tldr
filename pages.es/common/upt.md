@@ -9,7 +9,7 @@
 
 `upt update`
 
-- Busca un paquete determinado:
+- Busca un paquete:
 
 `upt search {{término_de_búsqueda}}`
 
