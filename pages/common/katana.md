@@ -7,7 +7,7 @@
 
 `katana -list {{https://example.com,https://google.com,...}}`
 
-- Crawl using headless mode using Chromium:
+- Crawl a [u]RL using headless mode using Chromium:
 
 `katana -u {{https://example.com}} -headless`
 
