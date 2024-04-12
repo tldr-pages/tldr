@@ -3,7 +3,7 @@
 > A next-generation crawling and spidering tool.
 > More information: <https://github.com/projectdiscovery/katana>.
 
-- Crawl a [u]RL or a list of URLs:
+- Crawl a list of URLs:
 
 `katana -list {{https://example.com,https://google.com,...}}`
 
