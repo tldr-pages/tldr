@@ -7,11 +7,11 @@
 
 `blkpr {{-c|--command}} register --key {{reservation_key}} {{path/to/device}}`
 
-- Set the [t]ype an existing reservation to exclusive access:
+- Set the [t]ype of an existing reservation to exclusive access:
 
 `blkpr -c reserve -k {{reservation_key}} {{-t|--type}} exclusive-access {{path/to/device}}`
 
-- Preempt the existing reservation with a specific [K]ey and replaces it with a new reservation:
+- Preempt the existing reservation with a specific [K]ey and replace it with a new reservation:
 
 `blkpr -c preempt {{-K|--oldkey}} {{old_key}} --key {{new_key}} -t write-exclusive {{path/to/device}}`
 
