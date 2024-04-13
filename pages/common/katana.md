@@ -14,7 +14,7 @@
 
 - Use [p]a[s]sive sources (Wayback Machine, Common Crawl, and AlienVault) for URL discovery:
 
-`cat {{example.com}} | katana -passive`
+`cat {{path/to/domains.txt}} | katana -passive`
 
 - Pass requests through a proxy (http/socks5) and use custom [H]eaders from a file:
 
