@@ -15,6 +15,6 @@
 
 `pcdovtoppm -a {{n_imágenes}} -c {{n_colores}} {{ruta/al/archivo.pcd}} > {{ruta/al/archivo_salida.ppm}}`
 
-- Utiliza la [f]uente especificada para las anotaciones y pinta el fondo blanco [w]:
+- Utiliza la [f]uente especificada para las anotaciones y pinta el fondo blanco ([w]hite en inglés):
 
 `pcdovtoppm -a {{número}} -w {{ruta/al/archivo.pcd}} > {{ruta/al/archivo.ppm}}`
