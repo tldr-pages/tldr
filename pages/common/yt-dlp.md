@@ -6,19 +6,19 @@
 
 - Download a video or playlist (with the default options from command below):
 
-`yt-dlp "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
+`yt-dlp "{{url}}"`
 
 - List all formats that a video or playlist is available in:
 
-`yt-dlp --list-formats "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
+`yt-dlp --list-formats "{{url}}"`
 
 - Download a video or playlist at a specific quality:
 
-`yt-dlp --format "{{bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
+`yt-dlp --format "{{bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]}}" "{{url}}"`
 
 - Extract audio from a video (requires ffmpeg or ffprobe):
 
-`yt-dlp --extract-audio "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
+`yt-dlp --extract-audio "{{url}}"`
 
 - Specify audio format and audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
 
