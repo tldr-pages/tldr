@@ -15,7 +15,7 @@
 
 `nixos-option users.users.{{username}}.openssh.authorizedKeys.{{keyFiles|keys}}`
 
-- Liste alle Remote-Builders:
+- Liste alle Remote-Builder-Maschinen:
 
 `nixos-option nix.buildMachines`
 
