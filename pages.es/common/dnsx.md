@@ -9,7 +9,7 @@
 
 `echo {{ejemplo.com}} | dnsx -a -re`
 
-- Consulta todos los registros DNS (A,AAAA,CNAME,NS,TXT,SRV,PTR,MX,SOA,AXFR,CAA):
+- Consulta todos los registros DNS (A, AAAA, CNAME, NS, TXT, SRV, PTR, MX, SOA, AXFR y CAA):
 
 `dnsx -recon -re <<< {{ejemplo.com}}`
 
