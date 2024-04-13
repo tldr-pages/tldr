@@ -17,7 +17,7 @@
 
 `echo {{ejemplo.com}} | dnsx -re -{{a|aaaa|cname|ns|txt|srv|ptr|mx|soa|any|axfr|caa}}`
 
-- Salida s[o]lo [r]espuesta (no muestra el dominio o subdominio consultado):
+- Muestra s[o]lo la [r]espuesta (no muestra el dominio o subdominio consultado):
 
 `echo {{ejemplo.com}} | dnsx -ro`
 
