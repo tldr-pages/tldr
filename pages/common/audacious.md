@@ -1,6 +1,7 @@
 # audacious
 
 > An open-source audio player. Indirectly based on XMMS.
+> See also: `clementine`, `mpc`, `ncmpcpp`.
 > More information: <https://audacious-media-player.org>.
 
 - Launch the GUI:
