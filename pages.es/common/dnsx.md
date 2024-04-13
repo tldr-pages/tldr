@@ -21,7 +21,7 @@
 
 `echo {{ejemplo.com}} | dnsx -ro`
 
-- Muestra la respuesta sin procesar de una consulta, especificando los solucionado[r]es a utilizar y los intentos de reintentos en caso de error:
+- Muestra la respuesta sin procesar una consulta, especificando los solucionado[r]es a utilizar y el número de intentos en caso de haber errores:
 
 `echo {{ejemplo.com}} | dnsx -{{debug|raw}} -resolver {{1.1.1.1,8.8.8.8,...}} -retry {{número}}`
 
