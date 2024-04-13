@@ -25,7 +25,7 @@
 
 `echo {{ejemplo.com}} | dnsx -{{debug|raw}} -resolver {{1.1.1.1,8.8.8.8,...}} -retry {{número}}`
 
-- Fuerza bruta de registros DNS utilizando un marcador de posición:
+- Aplica fuerza bruta a registros DNS utilizando un marcador de posición:
 
 `dnsx -dominio {{FUZZ.ejemplo.com}} -wordlist {{ruta/a/lista_de_palabras.txt}} -re`
 
