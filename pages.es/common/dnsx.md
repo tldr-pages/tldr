@@ -1,7 +1,7 @@
 # dnsx
 
 > Un equipo de herramientas DNS rápido y multipropósito para ejecutar múltiples consultas DNS.
-> Nota: la entrada a `dnsx` necesita ser pasada a través de `stdin` (pipe `|`) en algunos casos.
+> Nota: la entrada a `dnsx` necesita ser pasada a través de `stdin` (tubería `|`) en algunos casos.
 > Ver también: `dig`, `dog`, `dnstracer`.
 > Más información: <https://github.com/projectdiscovery/dnsx>.
 
