@@ -33,6 +33,6 @@
 
 `dnsx -dominio {{ruta/a/dominio.txt}} -wordlist {{ruta/a/lista_palabras.txt}} -re -output {{ruta/a/salida.txt}} -no-color`
 
-- Extrae registros `CNAME` desde la lista dada de subdominios, con una velocidad [l]imitante de consultas DNS por segundo:
+- Extrae registros `CNAME` desde una lista de subdominios, con una velocidad [l]ímite de consultas DNS por segundo:
 
 `subfinder -silent -d {{ejemplo.com}} | dnsx -cname -re -rl {{número}}`
