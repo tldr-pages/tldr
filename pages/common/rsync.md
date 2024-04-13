@@ -28,7 +28,7 @@
 
 `rsync --archive --update --copy-links {{path/to/source}} {{path/to/destination}}`
 
-- Transfer a directory to a remote host running `rsyncd` and delete files on the destination that do not exist on the source:
+- Transfer a directory from a remote host running `rsyncd` and delete files on the destination that do not exist on the source:
 
 `rsync --recursive --delete rsync://{{host}}:{{path/to/source}} {{path/to/destination}}`
 
