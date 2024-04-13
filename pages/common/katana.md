@@ -1,6 +1,7 @@
 # katana
 
-> A next-generation crawling and spidering tool.
+> A fast crawler focused on execution in automation pipelines offering both headless and non-headless crawling.
+> See also: `gau`, `scrapy`, `waymore`.
 > More information: <https://github.com/projectdiscovery/katana>.
 
 - Crawl a list of URLs:
