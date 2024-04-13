@@ -28,10 +28,10 @@
 
 `yt-dlp -o "{{%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}}" "{{url}}"`
 
-- Download Udemy course keeping each chapter in separate directory under MyVideos directory in your home:
+- Download Udemy course keeping each chapter in separate directory under path/to/directory directory in your home:
 
-`yt-dlp -u {{user}} -p {{password}} -P "{{~/MyVideos}}" -o "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{url}}"`
+`yt-dlp -u {{user}} -p {{password}} -P "{{path/to/directory}}" -o "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{url}}"`
 
-- Download entire series season keeping each series and each season in separate directory under C:/MyVideos:
+- Download entire series season keeping each series and each season in separate directory under path/to/directory:
 
-`yt-dlp -P "{{C:/MyVideos}}" -o "{{%(series)s/%(season_number)s - %(season)s/%(episode_number)s - %(episode)s.%(ext)s}}" "{{url}}"`
+`yt-dlp -P "{{path/to/directory}}" -o "{{%(series)s/%(season_number)s - %(season)s/%(episode_number)s - %(episode)s.%(ext)s}}" "{{url}}"`
