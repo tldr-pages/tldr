@@ -5,7 +5,7 @@
 > Ver también: `dig`, `dog`, `dnstracer`.
 > Más información: <https://github.com/projectdiscovery/dnsx>.
 
-- Consulta el registro A de un (sub)dominio y muestra la [re]spuesta recibida:
+- Consulta el registro A de un subdominio y muestra la [re]spuesta recibida:
 
 `echo {{ejemplo.com}} | dnsx -a -re`
 
