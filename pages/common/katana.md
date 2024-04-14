@@ -12,9 +12,9 @@
 
 `katana -u {{https://example.com}} -headless`
 
-- Use [p]a[s]sive sources (Wayback Machine, Common Crawl, and AlienVault) for URL discovery:
+- Use `subfinder` to find subdomains, and then use [p]a[s]sive sources (Wayback Machine, Common Crawl, and AlienVault) for URL discovery:
 
-`cat {{example.com}} | katana -passive`
+`subfinder -list {{path/to/domains.txt}} | katana -passive`
 
 - Pass requests through a proxy (http/socks5) and use custom [H]eaders from a file:
 
@@ -24,6 +24,6 @@
 
 `katana -strategy {{depth-first|breadth-first}} -depth {{value}} -rate-limit {{value}} -u {{https://example.com}}`
 
-- Crawl a list of domains, each for a specific amount of seconds, and write results to an [o]utput file:
+- Find subdomains using `subfinder`, crawl each for a maximum number of seconds, and write results to an [o]utput file:
 
-`cat {{path/to/domains.txt}} | katana -crawl-duration {{value}} -output {{path/to/output.txt}}`
+`subfinder -list {{path/to/domains.txt}} | katana -crawl-duration {{value}} -output {{path/to/output.txt}}`
