@@ -12,6 +12,9 @@
 
 `convert {{path/to/input_image.png}} -resize 50% {{path/to/output_image.png}}`
 
+- Scalte an image to have a certain filesize
+`convert {{path/to/input_image.png}} -define jpeg:extent=512kb {{path/to/output_image.jpg}}`
+
 - Scale an image keeping the original aspect ratio to a maximum dimension of 640x480:
 
 `convert {{path/to/input_image.png}} -resize 640x480 {{path/to/output_image.png}}`
