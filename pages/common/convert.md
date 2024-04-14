@@ -19,10 +19,6 @@
 
 `convert {{path/to/input_image.png}} -resize 640x480 {{path/to/output_image.png}}`
 
-- Horizontally append images:
-
-`convert {{path/to/image1.png path/to/image2.png ...}} +append {{path/to/output_image.png}}`
-
 - Vertically append images:
 
 `convert {{path/to/image1.png path/to/image2.png ...}} -append {{path/to/output_image.png}}`
