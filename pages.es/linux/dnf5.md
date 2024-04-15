@@ -1,0 +1,38 @@
+# dnf5
+
+> Utilidad de gestión de paquetes para RHEL, Fedora y CentOS (sustituye a dnf, que a su vez sustituyó a yum).
+> DNF5 es una reescritura en C++ del gestor de paquetes DNF que presenta un rendimiento mejorado y un tamaño más pequeño.
+> Para comandos equivalentes en otros gestores de paquetes, vea <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> Más información: <https://dnf5.readthedocs.io/>.
+
+- Actualiza los paquetes instalados a las versiones más recientes disponibles:
+
+`sudo dnf5 upgrade`
+
+- Busca paquetes mediante palabras clave:
+
+`dnf5 search {{palabra_clave1 palabra_clave2 ...}}`
+
+- Muestra detalles sobre un paquete:
+
+`dnf5 info {{paquete}}`
+
+- Instala nuevos paquetes (Nota: utiliza `-y` para confirmar todas las indicaciones automáticamente):
+
+`sudo dnf5 install {{paquete1 paquete2 ...}}`
+
+- Elimina paquetes:
+
+`sudo dnf5 remove {{paquete1 paquete2 ...}}`
+
+- Lista los paquetes instalados:
+
+`dnf5 list --installed`
+
+- Busca qué paquetes proporcionan un comando determinado:
+
+`dnf5 provides {{comando}}`
+
+- Elimina o caduca los datos almacenados en caché:
+
+`sudo dnf5 clean all`
