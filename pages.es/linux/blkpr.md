@@ -17,7 +17,7 @@
 
 - Libera una reserva con una clave y [t]ipo dados en un dispositivo determinado:
 
-`blkpr -c release --key {{clave_reserva}} -t {{tipo_reserva}} {{ruta/al/dispositivo}}`
+`blkpr -c release --key {{clave_de_reserva}} -t {{tipo_de_reserva}} {{ruta/al/dispositivo}}`
 
 - Borra todas las reservas de un dispositivo determinado:
 
