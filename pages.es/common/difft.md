@@ -24,7 +24,7 @@
 
 `difft --syntax-highlight {{on|off}} {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
-- No muestra nada si no hay diferencias entre los archivos:
+- Silenciosamente omite los archivos que no hayan cambiado:
 
 `difft --skip-unchanged {{ruta/al/archivo_o_directorio1}} {{ruta/al/archivo_o_directorio2}}`
 
