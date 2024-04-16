@@ -1,6 +1,6 @@
 # difft
 
-> Compara archivos o directorios basándose en la sintaxis del lenguaje de programación.
+> Compara archivos o directorios en base de la sintaxis del lenguaje de programación.
 > Vea también: `delta`, `diff`.
 > Más información: <https://difftastic.wilfred.me.uk/introduction.html>.
 
