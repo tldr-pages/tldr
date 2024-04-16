@@ -8,7 +8,7 @@
 
 `difft {{ruta/al/archivo_o_directorio1}} {{ruta/al/archivo_o_directorio2}}`
 
-- Informa únicamente la presencia de diferencias entre los archivos:
+- Informa únicamente diferencias entre los archivos:
 
 `difft --check-only {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
