@@ -25,7 +25,7 @@
 
 `sudo dnf5 remove {{paquete1 paquete2 ...}}`
 
-- Lista los paquetes instalados:
+- Lista paquetes instalados:
 
 `dnf5 list --installed`
 
