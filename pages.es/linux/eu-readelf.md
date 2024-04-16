@@ -7,6 +7,6 @@
 
 `eu-readelf --all {{ruta/al/archivo}}`
 
-- Muestra el contenido de todos los segmentos/secciones de NOTE, o de un segmento/sección en particular:
+- Muestra el contenido de todos los segmentos y secciones de NOTE, o de un segmento o sección en particular:
 
 `eu-readelf --notes[={{.note.ABI-tag}}] {{ruta/al/fichero}}`
