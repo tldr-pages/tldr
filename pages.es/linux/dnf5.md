@@ -29,7 +29,7 @@
 
 `dnf5 list --installed`
 
-- Busca qué paquetes proporcionan un comando determinado:
+- Busca que paquetes proporcionan un comando determinado:
 
 `dnf5 provides {{comando}}`
 
