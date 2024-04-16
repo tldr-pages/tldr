@@ -33,6 +33,6 @@
 
 `dnf5 provides {{comando}}`
 
-- Elimina o caduca los datos almacenados en caché:
+- Elimina o expira los datos almacenados en caché:
 
 `sudo dnf5 clean all`
