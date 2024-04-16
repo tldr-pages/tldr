@@ -28,6 +28,6 @@
 
 `difft --skip-unchanged {{ruta/al/archivo_o_directorio1}} {{ruta/al/archivo_o_directorio2}}`
 
-- Imprime todos los lenguajes de programación admitidos por la herramienta, junto con sus extensiones:
+- Lista todos los lenguajes de programación soportados por la herramienta, junto con sus extensiones:
 
 `difft --list-languages`
