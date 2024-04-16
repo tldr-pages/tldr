@@ -3,7 +3,7 @@
 > Muestra información sobre archivos ELF.
 > Más información: <https://manned.org/eu-readelf>.
 
-- Muestra toda la información extraíble contenida en el archivo ELF:
+- Muestra toda la información extraíble en un archivo ELF:
 
 `eu-readelf --all {{ruta/al/archivo}}`
 
