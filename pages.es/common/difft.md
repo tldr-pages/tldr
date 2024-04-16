@@ -20,7 +20,7 @@
 
 `difft --ignore-comments {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
-- Activa/desactiva el resaltado sintáctico del código fuente (por defecto está activado):
+- Activa o desactiva el resaltado sintáctico del código fuente (por defecto está activado):
 
 `difft --syntax-highlight {{on|off}} {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
