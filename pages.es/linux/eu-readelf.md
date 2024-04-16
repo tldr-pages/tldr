@@ -1,0 +1,12 @@
+# eu-readelf
+
+> Muestra información sobre archivos ELF.
+> Más información: <https://manned.org/eu-readelf>.
+
+- Muestra toda la información extraíble contenida en el archivo ELF:
+
+`eu-readelf --all {{ruta/al/archivo}}`
+
+- Muestra el contenido de todos los segmentos/secciones de NOTE, o de un segmento/sección en particular:
+
+`eu-readelf --notes[={{.note.ABI-tag}}] {{ruta/al/fichero}}`
