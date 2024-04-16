@@ -17,7 +17,7 @@
 
 `dnf5 info {{paquete}}`
 
-- Instala nuevos paquetes (Nota: utiliza `-y` para confirmar todas las indicaciones automáticamente):
+- Instala nuevos paquetes (Nota: usa la opción `-y` para saltar todas las confirmaciones):
 
 `sudo dnf5 install {{paquete1 paquete2 ...}}`
 
