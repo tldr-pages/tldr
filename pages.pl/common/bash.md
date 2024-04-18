@@ -1,36 +1,37 @@
 # bash
 
-> Bourne-Again SHell, interpreter komend powłoki systemowej kompatybilny z tradycyjnym `sh`.
-> Więcej informacji na stronie: <https://www.gnu.org/software/bash/>.
+> Bourne-Again SHell, interpreter komend powłoki systemowej kompatybilny z `sh`.
+> Zobacz także: `zsh`, `histexpand`.
+> Więcej informacji: <https://www.gnu.org/software/bash/>.
 
-- Rozpocznij interaktywną sesję terminalu Bash:
+- Rozpocznij interaktywną sesję powłoki:
 
 `bash`
 
-- Rozpocznij interaktywną sesję terminalu bash bez ładowania startowej konfiguracji:
+- Rozpocznij interaktywną sesję powłoki bez ładowania konfiguracji:
 
 `bash --norc`
 
-- `-c` Wywołaj określoną komendę w powłoce Bash:
+- Wywołaj określone komendy:
 
-`bash -c "{{komenda powłoki systemowej}}"`
+`bash -c "{{echo 'bash jest uruchomiony'}}"`
 
-- Uruchom przekazany jako argument skrypt shella:
+- Uruchom podany skrypt:
 
-`bash {{sciezka/do/skrypt.sh}}`
+`bash {{scieżka/do/skryptu.sh}}`
 
-- `-x` Wykonaj przekazany jako argument skrypt, wypisując wszystkie wykonane w procesie komendy na standardowe wyjście `stdout`:
+- Wykonaj podany skrypt, wypisując wszystkie komendy przed ich wykonaniem:
 
-`bash -x {{sciezka/do/skrypt.sh}}`
+`bash -x {{scieżka/do/skryptu.sh}}`
 
-- `-e` Wykonaj przekazany skrypt do pojawienia się pierwszego błędu:
+- Wykonaj podany skrypt do wystąpienia pierwszego błędu:
 
-`bash -e {{sciezka/do/skrypt.sh}}`
+`bash -e {{scieżka/do/skryptu.sh}}`
 
-- Wykonaj komendę przekazaną przez strumień wejścia `stdin`:
+- Wykonaj komendy ze `stdin`:
 
-`{{echo "echo 'bash uruchomiony'"}} | bash`
+`{{echo "echo 'bash jest uruchomiony'"}} | bash`
 
-- `-r` Uruchom sesję Bash w trybie [r]estrykcyjnym (więcej o trybie restrykcyjnym na stronie <https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell.html>):
+- Uruchom sesję w trybie [r]estrykcyjnym:
 
 `bash -r`
