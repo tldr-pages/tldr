@@ -1,6 +1,6 @@
 # Get-Date
 
-> Gets the current date and time.
+> Get the current date and time.
 > This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-date>.
 

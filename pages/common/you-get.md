@@ -1,6 +1,7 @@
 # you-get
 
 > Download media contents (videos, audios, images) from the Web.
+> See also: `yt-dlp`, `youtube-viewer`, `instaloader`.
 > More information: <https://you-get.org>.
 
 - Print media information about a specific media on the web:

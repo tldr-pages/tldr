@@ -1,6 +1,7 @@
 # qmmp
 
 > An audio player with an interface similar to Winamp or XMMS.
+> See also: `clementine`, `ncmpcpp`, `cmus`.
 > More information: <http://qmmp.ylsoftware.com>.
 
 - Launch the GUI:
