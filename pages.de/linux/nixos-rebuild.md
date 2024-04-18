@@ -3,15 +3,15 @@
 > Rekonfiguriere eine NixOS-Maschine.
 > Mehr Information: <https://nixos.org/nixos/manual/#sec-changing-config>.
 
-- Erstelle und wechsele zu einer neuen Konfiguration und starte diese zukünftig direkt:
+- Erstelle und wechsle zu einer neuen Konfiguration und nutze diese künftig als Standardkonfiguration:
 
 `sudo nixos-rebuild switch`
 
-- Erstelle und wechsele zu einer neuen Konfiguration und starte diese zukünftig direkt und bename diesen Start-Eintrag:
+- Gib der neu erstellten Standardkonfiguration einen Namen:
 
 `sudo nixos-rebuild switch -p {{name}}`
 
-- Erstelle und wechsele zu einer neuen Konfiguration und starte diese zukünftig direkt und installiere Updates:
+- Erstelle und wechsle zu einer neuen Konfiguration, nutze diese künftig als Standardkonfiguration und installiere Updates:
 
 `sudo nixos-rebuild switch --upgrade`
 
@@ -23,7 +23,7 @@
 
 `sudo nixos-rebuild boot`
 
-- Erstelle und wechsle direkt zu einer neuen Konfiguration, ändere den Standard-Start-Eintrag nicht (im Testfall):
+- Erstelle und wechsle direkt zu einer neuen Konfiguration, ändere den Standard-Start-Eintrag nicht (dieses Kommando ist für Testzwecke gedacht):
 
 `sudo nixos-rebuild test`
 

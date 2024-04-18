@@ -7,11 +7,11 @@
 
 `nixos-option {{option_key}}`
 
-- Liste aktuelle Boot-Kernel Module:
+- Liste aktuelle Boot-Kernelmodule:
 
 `nixos-option boot.kernelModules`
 
-- Liste Authorisierungs-Schlüssel für einen spezifischen Benutzer:
+- Liste Authorisierungsschlüssel für einen spezifischen Benutzer:
 
 `nixos-option users.users.{{username}}.openssh.authorizedKeys.{{keyFiles|keys}}`
 
