@@ -23,6 +23,6 @@
 
 `sudo $EDITOR /var/lib/container/{{container_name}}/etc/nixos/configuration.nix && sudo nixos-container update {{container_name}}`
 
-- Starte und wechsle in eine interaktive Shell innerhalb eines laufenden Containers:
+- Starte eine interaktive Shell innerhalb eines laufenden Containers:
 
 `sudo nixos-container root-login {{container_name}}`
