@@ -1,6 +1,6 @@
 # netstat
 
-> Displays active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics.
+> Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/netstat>.
 
 - Display active TCP connections:
