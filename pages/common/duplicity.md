@@ -1,6 +1,6 @@
 # duplicity
 
-> Creates incremental, compressed, encrypted and versioned backups.
+> Create incremental, compressed, encrypted and versioned backups.
 > Can also upload the backups to a variety of backend services.
 > More information: <http://duplicity.nongnu.org>.
 
