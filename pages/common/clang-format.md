@@ -13,7 +13,7 @@
 
 - Format a file using a predefined coding style:
 
-`clang-format --style={{LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit}} {{path/to/file}}`
+`clang-format --style {{LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit}} {{path/to/file}}`
 
 - Format a file using the `.clang-format` file in one of the parent directories of the source file:
 
@@ -21,4 +21,4 @@
 
 - Generate a custom `.clang-format` file:
 
-`clang-format --style={{LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit}} --dump-config > {{.clang-format}}`
+`clang-format --style {{LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit}} --dump-config > {{.clang-format}}`
