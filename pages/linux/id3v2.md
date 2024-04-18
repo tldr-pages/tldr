@@ -1,6 +1,6 @@
 # id3v2
 
-> Manages id3v2 tags, converts and lists id3v1.
+> Manage id3v2 tags, converts and lists id3v1.
 > More information: <https://manned.org/id3v2.1>.
 
 - List all genres:
