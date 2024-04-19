@@ -3,8 +3,6 @@
 > A scanner for detecting secrets and API keys leaked in Git repositories.
 > For more information, see: <https://github.com/gitleaks/gitleaks>
 
-## Basic Usage
-
 - Scan a remote repository:
 
 `gitleaks detect --repo-url {{https://github.com/username/repository.git}}`
