@@ -10,4 +10,4 @@
 
 - Test a connection to a remote host using the specified port number:
 
-`Test-NetConnection -ComputerName {{IP or Host Name}} -Port {{Port Number}}`
+`Test-NetConnection -ComputerName {{ip_or_hostname}} -Port {{port_number}}`
