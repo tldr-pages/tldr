@@ -1,6 +1,6 @@
 # Test-NetConnection
 
-> Displays diagnostic information for a connection.
+> Display diagnostic information for a connection.
 > This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/nettcpip/test-netconnection>.
 
