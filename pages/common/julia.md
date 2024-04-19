@@ -27,6 +27,6 @@
 
 `julia -E '{{(1 - cos(pi/4))/2}}'`
 
-- Start Julia in parallel mode, using N worker processes:
+- Start Julia in multithreaded mode, using N threads:
 
-`julia -p {{N}}`
+`julia -t {{N}}`
