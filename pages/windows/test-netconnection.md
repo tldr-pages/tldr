@@ -4,7 +4,6 @@
 > This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/nettcpip/test-netconnection>.
 
-
 - Test a connection and display detailed results:
 
 `Test-NetConnection -InformationLevel Detailed`
