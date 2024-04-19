@@ -8,6 +8,6 @@
 
 `Test-NetConnection -InformationLevel Detailed`
 
-- Test a connection to a remote host with port number:
+- Test a connection to a remote host using the specified port number:
 
 `Test-NetConnection -ComputerName {{IP or Host Name}} -Port {{Port Number}}`
