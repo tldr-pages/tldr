@@ -394,6 +394,9 @@ If the command supports both options, we can highlight the short options using m
 User-provided values should use the `{{placeholder}}` syntax
 in order to allow `tldr` clients to highlight them.
 
+> [!TIP]
+> It is suggest to enclose placeholders accepting strings as input within quotes. i.e. Use `"{{placeholder}}"` instead of `{{"placeholder"}}`.
+
 Keep the following guidelines in mind when choosing placeholders:
 
 #### Naming
@@ -411,7 +414,7 @@ Keep the following guidelines in mind when choosing placeholders:
 
 - Use `{{filename}}` when just the file name is expected.
 - For any reference to paths of files or directories,
-  use the format `{{path/to/<placeholder>}}`,
+  use the format `{{path/to/placeholder}}`,
   except when the location is implicit.
 - When the path cannot be relative,
   but has to start at the root of the filesystem,
@@ -443,6 +446,12 @@ Keep the following guidelines in mind when choosing placeholders:
 
 It's up to the program to decide how to handle duplicating values, provided syntax
 tells no info about whether items are mutually exclusive or not.
+
+#### Optional placeholders
+
+When documenting optional placeholders likes paths or file extensions, it is suggested to specify them in the page or example descriptions instead of the placeholder itself. For example:
+
+- Use `{{path/to/source.ext}}` instead of `{{path/to/source.tar[.gz|.bz2|.xz]}}`.
 
 ### Help and version commands
 
