@@ -1,6 +1,6 @@
 # date
 
-> Displays or sets the system date.
+> Display or set the system date.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/date>.
 
 - Display the current system date and prompt to enter a new date (leave empty to keep unchanged):

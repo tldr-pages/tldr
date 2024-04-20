@@ -1,6 +1,6 @@
 # gtalk
 
-> Este comando é um pseudônimo de `-p linux talk`.
+> Este comando é um apelido de `-p linux talk`.
 
 - Exibe documentação sobre o comando original:
 

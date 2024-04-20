@@ -17,7 +17,7 @@
 
 - Abre no modo aplicativo (Sem barra de tarefas, barra de URL, botões, etc.):
 
-`chromium --app={{https://exemplo.com}}`
+`chromium --app {{https://exemplo.com}}`
 
 - Usa um servidor proxy:
 
@@ -25,11 +25,11 @@
 
 - Abre com um diretório de perfil customizado:
 
-`chromium --user-data-dir={{caminho/para/arquivo}}`
+`chromium --user-data-dir {{caminho/para/arquivo}}`
 
 - Abre sem validação CORS (útil para testar uma API):
 
-`chromium --user-data-dir={{caminho/para/arquivo}} --disable-web-security`
+`chromium --user-data-dir {{caminho/para/arquivo}} --disable-web-security`
 
 - Abre com uma janela DevTools para cada aba aberta:
 

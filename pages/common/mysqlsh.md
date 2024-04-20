@@ -12,7 +12,7 @@
 
 `mysqlsh --user {{username}} --host {{hostname}} --port {{port}}`
 
-- Execute a SQL statement on the server and exit:
+- Execute an SQL statement on the server and exit:
 
 `mysqlsh --user {{username}} --execute '{{sql_statement}}'`
 

@@ -1,6 +1,6 @@
 # lpr
 
-> CUPS tool for printing files.
+> Print files.
 > See also: `lpstat` and `lpadmin`.
 > More information: <https://openprinting.github.io/cups/doc/man-lpr.html>.
 

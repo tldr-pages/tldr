@@ -11,10 +11,18 @@
 
 `macchanger --random {{interface}}`
 
-- Set interface to a specific MAC:
+- Set an interface to a random MAC address, and pretend to be a [b]urned-[i]n-[a]ddress:
+
+`macchanger --random --bia {{interface}}`
+
+- Set an interface to a specific MAC address:
 
 `macchanger --mac {{XX:XX:XX:XX:XX:XX}} {{interface}}`
 
-- Reset interface to its permanent hardware MAC:
+- Print the identifications (the first three bytes of a MAC address) of all known vendors:
+
+`macchanger --list`
+
+- Reset an interface to its permanent hardware MAC address:
 
 `macchanger --permanent {{interface}}`

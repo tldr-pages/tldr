@@ -1,6 +1,6 @@
 # gstty
 
-> Este comando é um pseudônimo de `-p linux stty`.
+> Este comando é um apelido de `-p linux stty`.
 
 - Exibe documentação sobre o comando original:
 

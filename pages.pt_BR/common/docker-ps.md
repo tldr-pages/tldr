@@ -3,11 +3,11 @@
 > Lista os containers Docker.
 > Mais informações: <https://docs.docker.com/engine/reference/commandline/ps/>.
 
-- Lista containers docker em execução:
+- Lista containers Docker em execução:
 
 `docker ps`
 
-- Lista todos containers docker (em execução e parados):
+- Lista todos containers Docker (em execução e parados):
 
 `docker ps --all`
 
@@ -29,8 +29,8 @@
 
 - Filtra containers por estado (criado, execução, removendo, pausado, finalizado e morto):
 
-`docker ps --filter="status={{estado}}"`
+`docker ps --filter "status={{estado}}"`
 
 - Filtra containers que contenham um volume específico ou montado em um caminho específico:
 
-`docker ps --filter="volume={{caminho/para/diretório}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker ps --filter "volume={{caminho/para/diretório}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`

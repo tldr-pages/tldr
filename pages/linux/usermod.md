@@ -1,6 +1,6 @@
 # usermod
 
-> Modifies a user account.
+> Modify a user account.
 > See also: `users`, `useradd`, `userdel`.
 > More information: <https://manned.org/usermod>.
 
@@ -8,7 +8,7 @@
 
 `sudo usermod --login {{new_username}} {{username}}`
 
-- Change a user id:
+- Change a user ID:
 
 `sudo usermod --uid {{id}} {{username}}`
 

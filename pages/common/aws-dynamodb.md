@@ -1,6 +1,6 @@
 # aws dynamodb
 
-> CLI for AWS dynamodb.
+> Manipulate an AWS Dynamodb database, a fast NoSQL database with predictable performance and seamless scalability.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/dynamodb/>.
 
 - Create a table:

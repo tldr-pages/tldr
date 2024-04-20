@@ -7,7 +7,7 @@
 
 `logoff`
 
-- Termina una sessione con il suo nome o id:
+- Termina una sessione con il suo nome o ID:
 
 `logoff {{nome_sessione|id_sessione}}`
 

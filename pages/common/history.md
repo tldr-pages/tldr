@@ -7,15 +7,19 @@
 
 `history`
 
-- Display the last 20 commands (in `zsh` it displays all commands starting from the 20th):
+- Display the last 20 commands (in Zsh it displays all commands starting from the 20th):
 
 `history {{20}}`
 
-- Clear the commands history list (only for current `bash` shell):
+- Display history with timestamps in different formats (only available in Zsh):
+
+`history -{{d|f|i|E}}`
+
+- Clear the commands history list (only for current Bash shell):
 
 `history -c`
 
-- Overwrite history file with history of current `bash` shell (often combined with `history -c` to purge history):
+- Overwrite history file with history of current Bash shell (often combined with `history -c` to purge history):
 
 `history -w`
 

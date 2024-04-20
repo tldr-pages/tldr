@@ -1,6 +1,6 @@
 # ln
 
-> Creates links to files and directories.
+> Create links to files and directories.
 > More information: <https://www.gnu.org/software/coreutils/ln>.
 
 - Create a symbolic link to a file or directory:

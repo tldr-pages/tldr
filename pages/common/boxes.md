@@ -7,18 +7,26 @@
 
 `echo "{{string}}" | boxes`
 
-- Remove a box from a string:
+- [r]emove a box from a string:
 
 `echo "{{string}}" | boxes -r`
 
-- Draw a box with a specific design around a string:
+- Specify the box [d]esign:
 
 `echo "{{string}}" | boxes -d {{parchment}}`
 
-- Draw a box with a width of 10 and a height of 5:
+- Specify the box [s]ize (in columns by lines):
 
 `echo "{{string}}" | boxes -s {{10}}x{{5}}`
 
-- Draw a box with centered text:
+- [a]lign the box text [h]orizonally (at [l]eft, [c]enter or [r]ight):
 
-`echo "{{string}}" | boxes -a c`
+`echo "{{string}}" | boxes -a h{{l|c|r}}`
+
+- [a]lign the box text [v]ertically (at [t]op, [c]enter or [b]ottom):
+
+`echo "{{string}}" | boxes -a v{{t|c|b}}`
+
+- [j]ustify the box text (at [l]eft, [c]enter or [r]ight):
+
+`echo "{{string}}" | boxes -a j{{l|c|r}}{{vt}}`

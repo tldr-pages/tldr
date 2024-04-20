@@ -11,23 +11,23 @@
 
 `carbon-now --from-clipboard`
 
-- Create an image from `stdin` using default settings:
+- Create an image from `stdin` using default settings and copy to the clipboard:
 
-`{{input}} | carbon-now`
+`{{input}} | carbon-now --to-clipboard`
 
-- Create images interactively for custom settings and optionally save a preset:
+- Create images [i]nteractively for custom settings and optionally save a preset:
 
 `carbon-now -i {{path/to/file}}`
 
-- Create images from previously saved preset:
+- Create images from a previously saved [p]reset:
 
 `carbon-now -p {{preset}} {{path/to/file}}`
 
-- Start at a specified line of text:
+- [s]tart at a specified line of text:
 
 `carbon-now -s {{line}} {{path/to/file}}`
 
-- End at a specific line of text:
+- [e]nd at a specific line of text:
 
 `carbon-now -e {{line}} {{path/to/file}}`
 

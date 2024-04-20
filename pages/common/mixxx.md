@@ -1,6 +1,7 @@
 # mixxx
 
 > Free and open source cross-platform DJ software.
+> See also: `lmms`.
 > More information: <https://mixxx.org/manual/latest/chapters/appendix.html#command-line-options>.
 
 - Start the Mixxx GUI in fullscreen:

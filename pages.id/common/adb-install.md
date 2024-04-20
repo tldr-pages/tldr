@@ -1,7 +1,7 @@
 # adb install
 
 > Android Debug Bridge Install: Memasang paket ke emulator Android atau perangkat Android terhubung.
-> Informasi lebih lanjut: <https://developer.android.com/studio/command-line/adb>.
+> Informasi lebih lanjut: <https://developer.android.com/tools/adb>.
 
 - Pasang aplikasi Android ke emulator/perangkat:
 

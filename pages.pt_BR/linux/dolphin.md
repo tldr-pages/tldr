@@ -23,7 +23,7 @@
 
 `dolphin --split {{caminho/para/diretorio1}} {{caminho/para/diretorio2}}`
 
-- Inicializa o daemon do Dolphin (necessário apenas para usar a interface do DBus):
+- Inicializa o daemon do Dolphin (necessário apenas para usar a interface do D-Bus):
 
 `dolphin --daemon`
 

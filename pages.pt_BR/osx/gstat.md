@@ -1,6 +1,6 @@
 # gstat
 
-> Este comando é um pseudônimo de `-p linux stat`.
+> Este comando é um apelido de `-p linux stat`.
 
 - Exibe documentação sobre o comando original:
 

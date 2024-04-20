@@ -3,7 +3,7 @@
 > Interfejs wiersza poleceń PHP.
 > Więcej informacji: <https://php.net>.
 
-- Parsuj i uruchom skrypt php:
+- Parsuj i uruchom skrypt PHP:
 
 `php {{plik}}`
 

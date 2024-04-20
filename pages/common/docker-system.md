@@ -7,7 +7,7 @@
 
 `docker system`
 
-- Show docker disk usage:
+- Show Docker disk usage:
 
 `docker system df`
 
@@ -21,7 +21,7 @@
 
 - Remove unused data created more than a specified amount of time in the past:
 
-`docker system prune --filter="until={{hours}}h{{minutes}}m"`
+`docker system prune --filter "until={{hours}}h{{minutes}}m"`
 
 - Display real-time events from the Docker daemon:
 

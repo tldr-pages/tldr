@@ -1,13 +1,13 @@
 # apt-add-repository
 
-> Gestiona les definicions del repositori apt.
+> Gestiona les definicions del repositori APT.
 > Més informació: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
 
-- Afegeix un nou repositori apt:
+- Afegeix un nou repositori APT:
 
 `apt-add-repository {{repositori}}`
 
-- Elimina un repositori apt:
+- Elimina un repositori APT:
 
 `apt-add-repository --remove {{repositori}}`
 

@@ -1,7 +1,7 @@
 # adb shell
 
 > Android Debug Bridge Shell: Запуск удалённой командной оболочки на эмуляторе Android или подключенном устройстве Android.
-> Больше информации: <https://developer.android.com/studio/command-line/adb>.
+> Больше информации: <https://developer.android.com/tools/adb>.
 
 - Запустить удалённую интерактивную оболочку на эмуляторе или устройстве:
 

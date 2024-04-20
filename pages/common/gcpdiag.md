@@ -1,7 +1,7 @@
 # gcpdiag
 
 > Google Cloud Platform troubleshooting and diagnostics tool.
-> Run in a docker container or in GCP Cloudshell.
+> Run in a Docker container or in GCP Cloudshell.
 > More information: <https://github.com/GoogleCloudPlatform/gcpdiag>.
 
 - Run `gcpdiag` on your project, returning all rules:

@@ -1,7 +1,7 @@
 # logcat
 
 > Despeja um registro de mensagens do sistema.
-> Mais informações: <https://developer.android.com/studio/command-line/logcat>.
+> Mais informações: <https://developer.android.com/tools/logcat>.
 
 - Exibe a saída do registro:
 
@@ -17,8 +17,8 @@
 
 - Exibe logs para um PID específico:
 
-`logcat --pid={{pid}}`
+`logcat --pid {{pid}}`
 
 - Exibe logs de processo de um pacote específico:
 
-`logcat --pid=$(pidof -s {{pacote}})`
+`logcat --pid $(pidof -s {{pacote}})`

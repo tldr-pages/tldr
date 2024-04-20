@@ -1,7 +1,7 @@
 # 7zr
 
 > Ein Dateiarchivierer mit hoher Kompressionsrate.
-> Eine alleinstehende Version von `7z`, die nur `.7z` Dateien unterstützt.
+> Eine alleinstehende Version von `7z`, die nur 7z Dateien unterstützt.
 > Weitere Informationen: <https://manned.org/7zr>.
 
 - [a]rchiviere eine Datei oder ein Verzeichnis:

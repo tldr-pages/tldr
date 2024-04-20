@@ -1,17 +1,17 @@
 # fdroidcl
 
-> F-Droid CLI client.
+> Manage F-Droid apps of devices connected via ADB.
 > More information: <https://github.com/mvdan/fdroidcl>.
 
 - Fetch the F-Droid index:
 
 `fdroidcl update`
 
-- Display info about an app:
+- Display information about an app:
 
 `fdroidcl show {{app_id}}`
 
-- Download an APK file:
+- Download the APK file of an app:
 
 `fdroidcl download {{app_id}}`
 
@@ -22,3 +22,11 @@
 - Install an app on a connected device:
 
 `fdroidcl install {{app_id}}`
+
+- Add a repository:
+
+`fdroidcl repo add {{repo_name}} {{url}}`
+
+- Remove, enable or disable a repository:
+
+`fdroidcl repo {{remove|enable|disable}} {{repo_name}}`

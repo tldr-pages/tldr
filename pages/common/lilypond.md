@@ -1,6 +1,7 @@
 # lilypond
 
 > Typeset music and/or produce MIDI from file.
+> See also: `musescore`.
 > More information: <https://lilypond.org>.
 
 - Compile a lilypond file into a PDF:

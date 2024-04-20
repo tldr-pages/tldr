@@ -7,11 +7,11 @@
 
 `bzip3 {{path/to/file_to_compress}}`
 
-- Decompress a file:
+- [d]ecompress a file:
 
 `bzip3 -d {{path/to/compressed_file.bz3}}`
 
-- Decompress a file to `stdout`:
+- Decompress a file to `stdout` ([c]):
 
 `bzip3 -dc {{path/to/compressed_file.bz3}}`
 
@@ -25,7 +25,7 @@
 
 - Decompress a file overwriting existing files:
 
-`bzip3 --force {{path/to/compressed_file.bz3}}`
+`bzip3 -d --force {{path/to/compressed_file.bz3}}`
 
 - Display help:
 

@@ -1,6 +1,6 @@
 # az sshkey
 
-> Manage ssh public keys with virtual machines.
+> Manage SSH public keys with virtual machines.
 > Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/sshkey>.
 

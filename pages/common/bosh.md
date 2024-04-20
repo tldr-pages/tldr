@@ -3,9 +3,9 @@
 > Deploy and manage the BOSH director.
 > More information: <https://bosh.io/docs/cli-v2/>.
 
-- Create local alias for director:
+- Create local alias for director in a specific [e]nvironment:
 
-`bosh alias-env {{environment_name}} -e {{ip_address|url}} --ca-cert {{ca_certificate}}`
+`bosh alias-env {{environment_name}} -e {{ip_address|URL}} --ca-cert {{ca_certificate}}`
 
 - List environments:
 
@@ -19,11 +19,11 @@
 
 `bosh -e {{environment}} deployments`
 
-- List environment virtual machines:
+- List environment virtual machines in a [d]eployment:
 
 `bosh -e {{environment}} vms -d {{deployment}}`
 
-- Ssh into virtual machine:
+- SSH into virtual machine:
 
 `bosh -e {{environment}} ssh {{virtual_machine}} -d {{deployment}}`
 

@@ -1,7 +1,7 @@
 # logcat
 
 > Dump een logboek van systeemberichten, inclusief stacktraces wanneer er een fout is opgetreden, en informatieberichten die door applicaties zijn vastgelegd.
-> Meer informatie: <https://developer.android.com/studio/command-line/logcat>.
+> Meer informatie: <https://developer.android.com/tools/logcat>.
 
 - Toon systeemlogs:
 

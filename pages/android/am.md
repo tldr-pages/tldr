@@ -3,11 +3,11 @@
 > Android activity manager.
 > More information: <https://developer.android.com/tools/adb#am>.
 
-- Start a specific activity:
+- Start the activity with a specific component and package [n]ame:
 
 `am start -n {{com.android.settings/.Settings}}`
 
-- Start an activity and pass [d]ata to it:
+- Start an intent [a]ction and pass [d]ata to it:
 
 `am start -a {{android.intent.action.VIEW}} -d {{tel:123}}`
 

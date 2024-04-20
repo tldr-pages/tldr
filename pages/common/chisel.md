@@ -1,6 +1,7 @@
 # chisel
 
-> Create TCP tunnels. Includes both client and server.
+> Create TCP/UDP tunnels, transported over HTTP, secured via SSH.
+> Includes both client and server in the same `chisel` executable.
 > More information: <https://github.com/jpillora/chisel>.
 
 - Run a Chisel server:
@@ -26,3 +27,11 @@
 - Connect to a Chisel server using username and password authentication:
 
 `chisel client --auth {{username}}:{{password}} {{server_ip}}:{{server_port}} {{local_port}}:{{remote_server}}:{{remote_port}}`
+
+- Initialize a Chisel server in reverse mode on a specific port, also enabling SOCKS5 proxy (on port 1080) functionality:
+
+`chisel server -p {{server_port}} --reverse --socks5`
+
+- Connect to a Chisel server at specific IP and port, creating a reverse tunnel mapped to a local SOCKS proxy:
+
+`chisel client {{server_ip}}:{{server_port}} R:socks`

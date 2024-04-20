@@ -11,7 +11,7 @@
 
 `cat {{index.html}} | pup '{{tag}}'`
 
-- Filter HTML by id:
+- Filter HTML by ID:
 
 `cat {{index.html}} | pup '{{div#id}}'`
 
