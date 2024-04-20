@@ -21,6 +21,9 @@ Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!
 
 All `tldr` pages are stored in Markdown right here on GitHub. Just open an issue or send a pull request, and we'll incorporate it as soon as possible.
 
+> [!IMPORTANT]
+> While this file contains general instructions to get started, it is suggested to read the [style guide](contributing-guides/style-guide.md) and [translation templates](contributing-guides/translation-templates) for more detailed information about the syntax and commonly used translation terms.
+
 To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 [Contributor License Agreement](https://gist.github.com/waldyrious/e50feec13683e565769fbd58ce503d4e).
 
