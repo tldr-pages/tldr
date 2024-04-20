@@ -292,7 +292,8 @@ Alternatively, you can link to the author's website or a tutorial page if the co
 - For `osx`: Apple distributes the built-in man pages [in Xcode](https://developer.apple.com/documentation/os/reading_unix_manual_pages).
 For commands documented there, we recommend using <https://keith.github.io/xcode-man-pages/>, an HTML export of all Apple's man pages bundled with Xcode.
 
-- **All links must be enclosed inside angular brackets (`<` and `>`) for proper rendering in clients.**
+> [!IMPORTANT]
+> All links must be enclosed inside angular brackets (`<` and `>`).
 
 - We prefer translations to use the more information link of the English page by default.
 
@@ -342,8 +343,10 @@ unless the program name differs from the executable name (e.g. `rg` and Ripgrep)
 - Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
 - Brand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
 - Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
-- When documenting keycaps or a keyboard shortcut for a utility it is suggested to wrap them in backticks to make them stand out in the description (i.e. ``Print the last lines of a given file and keep reading file until `Ctrl + C`:``).
-Alternatively, you can document them as a separate command and optionally highlight them as placeholders (i.e. `:wq{{Enter}}` or `:wq<Enter>` or `:wq(Enter)`).
+-  When documenting keycaps or a keyboard shortcut for a utility, to make it stand out in the description:
+
+1. If it is not translatable, enclose it with backticks (i.e. ``Print the last lines of a given file and keep reading it until `Ctrl + C`:``)
+2. If it is translatable, enclose it with double angled brackets inside a placeholder (i.e. ``:wq{{<<Enter>>}}``).
 
 ### Short option mnemonics
 
