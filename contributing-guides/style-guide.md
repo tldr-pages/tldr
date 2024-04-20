@@ -210,23 +210,12 @@ In this case, provide a note and method to determine whether the command current
 
 ### Emphasis
 
-Do not use *italics*, **boldface** or any other text styling in the pages. These are reserved for client emphasis of placeholders.
+Do not use *italics*, **boldface** or any other text styling on the pages. These are reserved for client emphasis of placeholders.
 
 ### Imperative Mood
 
-- **All descriptions must be concise and phrased in the imperative mood.**
+- **All descriptions must be phrased in the imperative mood.**
 - This also applies to all translations by default unless otherwise specified in the language-specific section below.
-- For example, when writing documentation for `cd`, a tool to check out and work on a specific directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
-
-```md
-> `cd` is a system tool, available in Windows, macOS, and Linux, to check out a specific directory to get things done in the Command Prompt, Terminal, and PowerShell.
-```
-
-It should instead be simplified to make it easier for everyone to read:
-
-```md
-> Change the current working directory.
-```
 
 When writing descriptions for command examples, **check for any grammatical errors**. `Go to the specified directory` is preferred instead of:
 
@@ -259,7 +248,7 @@ The example above does not use a serial comma, so this could mean one of two thi
 
 This can be resolved by inserting a comma before the "and" or "or" in the final element in the list.
 
-> Delete the Git branches, tags, and remotes.
+> Delete the Git branches, tags, andBrand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``). remotes.
 
 ### Special cases
 
@@ -338,10 +327,26 @@ the part of the address that starts with `?view=`.
 
 ## Example descriptions
 
+### Wording
+
 - Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`)
 unless the program name differs from the executable name (e.g. `rg` and Ripgrep).
 - Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
-- Brand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
+- For example, when writing documentation for `cd`, a tool to check out and work on a specific directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
+
+```md
+> `cd` is a system tool, available in Windows, macOS, and Linux, to check out a specific directory to get things done in the Command Prompt, Terminal, and PowerShell.
+```
+
+It should instead be simplified to make it easier for everyone to read:
+
+```md
+> Change the current working directory.
+```
+
+### Formatting
+
+- Proper names should be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
 - Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
 -  When documenting keycaps or a keyboard shortcut for a utility, to make it stand out in the description:
 
@@ -371,6 +376,8 @@ This is to avoid conflicts with GNU-style command options which may interpret up
 Option mnemonics may also be used in translations as long as the highlighted word contains similar meanings to the language (commonly English) which the command is written for.
 For example, `[d]ownload` in English may be translated into `[d]escargar` in Spanish, `[i]nstall` in English may be translated to `[i]nstallieren` in German, and `[a]pp` in English may be translated into `[a]plikasi` in Indonesian and Malay.
 
+- Optionally, mnemonics and their enclosed terms can be separated with brackets from the rest of the description (i.e. `([a]ll)`) in translations and specific pages to provide additional context or mention a word not present in the description.
+
 > [!NOTE]  
 > In cases where the character isn't present in the translated word, you can highlight the option before/next to the equivalent word or you can add the English work beside the translation inside a bracket.
 > For example, `E[x]tract` in English maybe translated into `[x] ekstrak` or `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
@@ -379,15 +386,9 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 
 ### Option syntax
 
-- Use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
-- When documenting PowerShell commands, use **PowerShell-style long options** (like `-Help` instead of `-H`).
-- When long options aren't available for a command, use **short options** instead.
-- While we prefer long options, we allow special cases in commands like `pacman` where short options are widely used and preferred over the long options (for cases like these decisions will be made by the maintainers on a case-by-case basis).
-- We prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`) unless the program does not support it.
-
-> [!NOTE]  
-> The goal of using long options is to make the commands easier to read and understand for non-technical users. While it is ideal for most users, some users prefer the short option for better ease of use. 
-If the command supports both options, we can highlight the short options using mnemonics instead.
+- For commonly/frequently used commands (e.g. `grep`, `tar`, `etc`), we prefer using short options along with [mnemonics](#short-option-mnemonics) or both inside a placeholder.
+- For highlighting both long and short options in commands (instead of using mnemonics), combine them within a placeholder i.e. `{{-o|--output}}`.
+- For user-friendliness, use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in `common` directory.
 
 ### Placeholder syntax
 
