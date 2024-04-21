@@ -10,7 +10,7 @@
 
 - Download a file from a URI with a specific output name:
 
-`aria2c --out={{path/to/file}} "{{url}}"`
+`aria2c --out {{path/to/file}} "{{url}}"`
 
 - Download multiple different files in parallel:
 
@@ -22,16 +22,16 @@
 
 - Download the URIs listed in a file with a specific number of parallel downloads:
 
-`aria2c --input-file={{path/to/file}} --max-concurrent-downloads={{number_of_downloads}}`
+`aria2c --input-file {{path/to/file}} --max-concurrent-downloads {{number_of_downloads}}`
 
 - Download with multiple connections:
 
-`aria2c --split={{number_of_connections}} "{{url}}"`
+`aria2c --split {{number_of_connections}} "{{url}}"`
 
 - FTP download with username and password:
 
-`aria2c --ftp-user={{username}} --ftp-passwd={{password}} "{{url}}"`
+`aria2c --ftp-user {{username}} --ftp-passwd {{password}} "{{url}}"`
 
 - Limit download speed in bytes/s:
 
-`aria2c --max-download-limit={{speed}} "{{url}}"`
+`aria2c --max-download-limit {{speed}} "{{url}}"`

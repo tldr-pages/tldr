@@ -21,7 +21,7 @@
 
 - 不使用データのうち指定時間より前に作成されたものを削除する:
 
-`docker system prune --filter="until={{時}}h{{分}}m"`
+`docker system prune --filter "until={{時}}h{{分}}m"`
 
 - Dockerデーモンからのリアルタイムイベントを表示する:
 
