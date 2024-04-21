@@ -10,4 +10,4 @@
 
 - Prueba una conexión a un host remoto utilizando el número de puerto especificado:
 
-Test-NetConnection -ComputerName {{ip_o_nombre_del_host}} -Port {{número_de_puerto}}`
+`Test-NetConnection -ComputerName {{ip_o_nombre_del_host}} -Port {{número_de_puerto}}`
