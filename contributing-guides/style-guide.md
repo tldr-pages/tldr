@@ -285,7 +285,7 @@ For commands documented there, we recommend using <https://keith.github.io/xcode
 > [!IMPORTANT]
 > All links must be enclosed inside angular brackets (`<` and `>`).
 
-- We prefer translations to use the more information link of the English page by default.
+- It is suggested to use a more information link with English content in both translations and English pages. That's because the links can eventually change, but the translations are often out of sync with the English pages.
 
 #### Versioned links
 
