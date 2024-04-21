@@ -77,7 +77,7 @@ git push --force-with-lease
 ## Changing the email of any commit(s)
 
 1. Perform an [interactive rebase](https://git-scm.com/docs/git-rebase#Documentation/git-rebase.txt--i), specifying the reference of the earliest commit to modify as the argument.
-For example, if the earliest commit with the wrong email address was 6 commits ago, you can specify the commit hash or just `HEAD~6`.
+For example, if the earliest commit with the wrong email address was 6 commits ago, you can specify the commit hash (check it with `git log`) or just `HEAD~6`.
 
 ```bash
 git rebase --interactive HEAD~6

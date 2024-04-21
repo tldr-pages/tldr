@@ -93,10 +93,11 @@ When documenting PowerShell commands, please take note of the following naming c
 - The page title/heading must be written as-is (matching the spelling intended by Microsoft or the PowerShell module author), such as `Invoke-WebRequest` instead of `invoke-webrequest`.
 - The command name and options in the examples should also be written as-is, such as `Command-Name {{input}} -CommandParameter {{value}}` instead of `command-name {{input}} -commandparameter {{value}}`.
 
-Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, Ensure that 
+Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, ensure that 
 the command works on between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10 
 and 11), and the **latest version of the Cross-Platform PowerShell** (formerly known as PowerShell Core).
-If the command or its options is unavailable or contains different behavior between each version, please kindly note them in the descriptions. For example,
+
+Thus, if the command or its options is unavailable or contains different behavior between each version, please kindly note them in the descriptions. For example:
 
 ```md
 # Clear-RecycleBin
@@ -150,7 +151,7 @@ Example:
 
 Some PowerShell commands may introduce aliases which fall into one of these three categories:
 
-1. **Substituting an existing Windows Command Prompt (`cmd`) command**, such as `cd` aliasing to `Set-Location` with different command options. In this case, add the following alias note into the second line of the original
+1. **Replaces an existing Windows Command Prompt (`cmd`) command**, such as `cd` aliasing to `Set-Location` with different command options. In this case, add the following alias note into the second line of the original
 Command Prompt command's tldr description, for example:
 
 ```md
@@ -165,8 +166,8 @@ Command Prompt command's tldr description, for example:
 `tldr set-location`
 ```
 
-> [!TIP]
-> The "View documentation of the equivalent PowerShell command" example is optional and may be excluded if the page already has the maximum number (8) of examples.
+> [!NOTE]
+> The "View documentation of the equivalent PowerShell command" example is optional and must be excluded if the page already has the maximum number (8) of examples.
 
 2. **Provides a new alias but only executable in PowerShell**, such as `ni` for `New-Item`. In this case, use the [standard alias template](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md),
 but add the word "In Powershell," (or equivalent) to indicate that the command is exclusive to PowerShell. For example,
@@ -288,7 +289,7 @@ For commands documented there, we recommend using <https://keith.github.io/xcode
 
 #### Versioned links
 
-When a utility or distribution has versioned links for the packages, we prefer linking to the most recent version of documentation (i.e. `latest`) or none if the website automatically redirects to the latest version of the documentation.
+When a utility or distribution has versioned links for the packages, link to the most recent version of documentation (i.e. `latest`) or none if the website automatically redirects to the latest version of the documentation.
 
 For example, use:
 
@@ -396,7 +397,7 @@ User-provided values should use the `{{placeholder}}` syntax
 in order to allow `tldr` clients to highlight them.
 
 > [!TIP]
-> It is suggest to enclose placeholders accepting strings as input within quotes. i.e. Use `"{{placeholder}}"` instead of `{{"placeholder"}}`.
+> It is suggested to enclose placeholders accepting strings as input within quotes. i.e. Use `"{{placeholder}}"` instead of `{{"placeholder"}}`.
 
 Keep the following guidelines in mind when choosing placeholders:
 
@@ -439,9 +440,9 @@ Keep the following guidelines in mind when choosing placeholders:
 
 #### Grouping placeholders
 
-- If a command can take 0 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
-  For instance, if multiple paths are expected `{{path/to/directory1 path/to/directory2 ...}}` can be used.
-- If a command can take 0 or more arguments of different kinds, use an ellipsis: `{{placeholder1|placeholder2|...}}`.
+- If a command can optionally take 1 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
+  For instance, if multiple paths are expected, use `{{path/to/directory1 path/to/directory2 ...}}`.
+- If a command can optionally take 1 or more arguments of different kinds, use an ellipsis: `{{placeholder1|placeholder2|...}}`.
   If there are more than 5 possible values, you can use `|...` after the last item.
 - It's impossible to restrict the minimum or (and) maximum placeholder count via `ellipsis`.
 

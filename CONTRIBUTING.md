@@ -238,7 +238,7 @@ Alternatively, you can do most of the process
 
 > [!TIP]
 > After creating a pull request, it is suggested to enable the "Allow edits by maintainers" option (This only needs to be done once the first time you create a PR).
-> It allows maintainers to make changes to your pull request and assist you in getting it merged.
+> It allows maintainers to make changes to your pull request and assist you in getting it merged, in addition to facilitate the contribution to go on if you can no longer work on it soon for any reason.
 
 ### Accepting suggestions within a pull request
 
