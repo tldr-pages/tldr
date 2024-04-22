@@ -220,7 +220,9 @@ can then perform the actual role changes.
 
 ## CODEOWNERS
 
-The [`.github/CODEOWNERS` file](https://github.com/tldr-pages/tldr/blob/main/.github/CODEOWNERS) allows contributors with write access to the [tldr-pages/tldr repository](https://github.com/tldr-pages/tldr) to get automatic review request notifications for given files and directories.
+The [`.github/CODEOWNERS` file](https://github.com/tldr-pages/tldr/blob/main/.github/CODEOWNERS) allows contributors with write access to the [tldr-pages/tldr repository](https://github.com/tldr-pages/tldr)
+to get automatic review request notifications for given files and directories.
+
 If they wish to, contributors can open a pull request to add themselves to this file as desired.
 
 Example uses include (but are not limited to):

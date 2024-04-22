@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD041 -->
 Copyright © 2014—present the [tldr-pages team](https://github.com/orgs/tldr-pages/people)
 and [contributors](https://github.com/tldr-pages/tldr/graphs/contributors).
 
