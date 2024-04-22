@@ -35,3 +35,11 @@
 - Fetch and follow the logs of a container:
 
 `docker logs -f {{container_name}}`
+
+- Export / Import docker container (compressed format: tar):
+
+`docker export {{container_id}} -o {{output_filename}}` 
+
+- Import file to docker image via STDIN
+
+`cat {{compressed_file}} | docker import - {{image_name}}`
