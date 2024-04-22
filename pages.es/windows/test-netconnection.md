@@ -8,6 +8,6 @@
 
 `Test-NetConnection -InformationLevel Detailed`
 
-- Prueba una conexión a un host remoto utilizando el número de puerto especificado:
+- Prueba una conexión a un host remoto con un número de puerto específico:
 
 `Test-NetConnection -ComputerName {{ip_o_nombre_del_host}} -Port {{número_de_puerto}}`
