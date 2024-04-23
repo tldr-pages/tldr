@@ -10,7 +10,7 @@
 
 - Uninstall an installed product key with the last five digits of the product key:
 
-`cscript ospp.vbs /unpkey:{{last_five_digits_of_the_product_key}}`
+`cscript ospp.vbs /unpkey:{{product_key}}`
 
 - Set a KMS host name:
 
