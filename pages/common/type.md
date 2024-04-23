@@ -15,6 +15,6 @@
 
 `type -p {{command}}`
 
-- Output a single word saying if a command is an alias/keyword/function/builtin/file:
+- Output a single word saying if a command is an alias/keyword/function/builtin/file (works in `bash` only):
 
 `type -t {{command}}`
