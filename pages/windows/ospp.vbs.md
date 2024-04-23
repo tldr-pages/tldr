@@ -14,7 +14,7 @@
 
 - Set a KMS host name:
 
-`cscript ospp.vbs /sethst:{{kms_server_ip_or_host_name}}`
+`cscript ospp.vbs /sethst:{{ip|hostname}}`
 
 - Set a KMS port:
 
