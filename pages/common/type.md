@@ -14,3 +14,7 @@
 - Display the name of the disk file that would be executed:
 
 `type -p {{command}}`
+
+- Output a single word saying if a command is an alias/keyword/function/builtin/file:
+
+`type -t {{command}}`
