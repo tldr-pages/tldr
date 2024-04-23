@@ -18,7 +18,7 @@
 
 - Set a KMS port:
 
-`cscript ospp.vbs /setprt:{{port_number}}`
+`cscript ospp.vbs /setprt:{{port}}`
 
 - Activate installed Office product keys:
 
