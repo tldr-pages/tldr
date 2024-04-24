@@ -21,7 +21,7 @@
 
 - Start scanning from a specific commit:
 
-`gitleaks detect --source {{path/to/repo}} --log-opts {{--since=commit_id}}`
+`gitleaks detect --source {{path/to/repository}} --log-opts {{--since=commit_id}}`
 
 - Scan uncommitted changes before a commit:
 
