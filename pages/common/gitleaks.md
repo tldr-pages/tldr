@@ -1,6 +1,6 @@
 # gitleaks
 
-> A scanner for detecting secrets and API keys leaked in Git repositories.
+> Detect secrets and API keys leaked in Git repositories.
 > More information: <https://github.com/gitleaks/gitleaks>.
 
 - Scan a remote repository:
