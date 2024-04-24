@@ -9,7 +9,7 @@
 
 - Scan a local directory:
 
-`gitleaks detect --source {{path/to/repo}}`
+`gitleaks detect --source {{path/to/repository}}`
 
 - Output scan results to a JSON file:
 
