@@ -1,6 +1,6 @@
 # ospp.vbs
 
-> Install, activate, and manage volume licensed versions of Office products.
+> Install, activate, and manage volume licensed versions of Microsoft Office products.
 > Note: this command may override, deactivate, and/or remove your current volume of licensed Office product versions, so please proceed cautiously.
 > More information: <https://learn.microsoft.com/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office>.
 
