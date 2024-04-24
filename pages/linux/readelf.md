@@ -15,6 +15,10 @@
 
 `readelf --symbols {{path/to/binary}}`
 
-- Display the information contained in the ELF header at the start of the file:
+- Display ELF header information:
 
 `readelf --file-header {{path/to/binary}}`
+
+- Display ELF section header information:
+
+`readelf --section-headers {{path/to/binary}}`
