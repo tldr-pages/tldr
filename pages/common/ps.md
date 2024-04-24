@@ -13,7 +13,7 @@
 
 - Search for a process that matches a string (the brackets filter out `grep` itself):
 
-`ps aux | grep [s]tring`
+`ps aux | grep {{[s]tring}}`
 
 - List all processes of the current user in extra full format:
 
