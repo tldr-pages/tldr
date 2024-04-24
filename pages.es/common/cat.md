@@ -11,7 +11,7 @@
 
 `cat {{ruta/al/archivo1 ruta/al/archivo2 ...}} > {{ruta/al/archivo_salida}}`
 
-- Añade varios archivos a un archivo de salida:
+- Añade el contenido de varios archivos a un archivo de salida:
 
 `cat {{ruta/al/archivo1 ruta/al/archivo2 ...}} >> {{ruta/al/archivo_salida}}`
 
