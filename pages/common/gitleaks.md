@@ -13,7 +13,7 @@
 
 - Output scan results to a JSON file:
 
-`gitleaks detect --source {{path/to/repo}} --report {{path/to/report.json}}`
+`gitleaks detect --source {{path/to/repository}} --report {{path/to/report.json}}`
 
 - Use a custom rules file:
 
