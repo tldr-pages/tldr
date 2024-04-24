@@ -17,7 +17,7 @@
 
 - Use a custom rules file:
 
-`gitleaks detect --source {{path/to/repo}} --config-path {{path/to/config.toml}}`
+`gitleaks detect --source {{path/to/repository}} --config-path {{path/to/config.toml}}`
 
 - Start scanning from a specific commit:
 
