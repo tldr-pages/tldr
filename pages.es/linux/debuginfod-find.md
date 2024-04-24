@@ -3,6 +3,6 @@
 > Solicita datos relacionados con debuginfo.
 > Más información: <https://manned.org/debuginfod-find>.
 
-- Solicita datos basados en `build_id`.
+- Solicita datos basados en `build_id`:
 
 `debuginfod-find -vv debuginfo {{build_id}}`
