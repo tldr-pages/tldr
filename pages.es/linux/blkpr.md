@@ -3,7 +3,7 @@
 > Registra, reserva, libera, anticipa y borra reservas persistentes en un dispositivo de bloque que soporte Reservas Persistentes.
 > Más información: <https://manned.org/blkpr>.
 
-- Registra ([c]ommand) a una nueva reserva con una clave dada en un dispositivo determinado:
+- Registra ([c]omando) una nueva reserva con una clave dada en un dispositivo determinado:
 
 `blkpr {{-c|--command}} register --key {{clave_de_reserva}} {{ruta/al/dispositivo}}`
 
