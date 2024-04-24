@@ -7,6 +7,6 @@
 
 `pambrighten -saturation {{valor_porcentual}} {{ruta/a/imagen.pam}} > {{ruta/a/salida.pam}}`
 
-- Aumenta el valor (del espacio de color HSV) de cada píxel en el porcentaje especificado:
+- Aumenta el valor (del espacio de color HSV) de cada píxel con un porcentaje específico:
 
 `pambrighten -value {{valor_porcentual}} {{ruta/a/imagen.pam}} > {{ruta/a/salida.pam}}`
