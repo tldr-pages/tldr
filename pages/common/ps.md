@@ -11,7 +11,7 @@
 
 `ps auxww`
 
-- Search for a process that matches a string (Note: This will also match the `grep` process itself when using a simple string.):
+- Search for a process that matches a string (the brackets filter out `grep` itself):
 
 `ps aux | grep {{string}}`
 
