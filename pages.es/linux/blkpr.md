@@ -1,6 +1,6 @@
 # blkpr
 
-> Registra, reserva, libera, anticipa y borra reservas persistentes en un dispositivo de bloque que soporte Reservas Persistentes.
+> Registra, reserva, libera, anticipa y borra reservas persistentes en un dispositivo de bloque que soporte "Persistent Reservations".
 > Más información: <https://manned.org/blkpr>.
 
 - Registra ([c]omando) una nueva reserva con una clave dada en un dispositivo determinado:
