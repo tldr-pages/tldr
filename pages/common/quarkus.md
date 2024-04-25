@@ -3,7 +3,7 @@
 > Create Quarkus projects, manage extensions and perform essential build and development tasks.
 > More information: <https://quarkus.io/guides/cli-tooling>.
 
-- Create a new application project:
+- Create a new application project in a new directory:
 
 `quarkus create app {{project_name}}`
 
