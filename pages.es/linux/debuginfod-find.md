@@ -5,4 +5,4 @@
 
 - Solicita datos basados en `build_id`:
 
-`debuginfod-find -vv debuginfo {{build_id}}`
+`debuginfod-find -vv debuginfo {{identificador_de_build}}`
