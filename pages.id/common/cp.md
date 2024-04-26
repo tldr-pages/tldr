@@ -3,7 +3,7 @@
 > Salin berkas dan direktori.
 > Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/cp>.
 
-- Salinberkas ke lokasi lain:
+- Salin berkas ke lokasi lain:
 
 `cp {{jalan/menuju/berkas_sumber.ext}} {{jalan/menuju/berkas_tujuan.ext}}`
 
