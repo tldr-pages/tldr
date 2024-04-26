@@ -15,7 +15,7 @@
 
 `git cola --prompt`
 
--  Jalankan dengan membuka repositori Git dengan alamat yang ditentukan:
+- Jalankan dengan membuka repositori Git dengan alamat yang ditentukan:
 
 `git cola --repo {{jalan/menuju/repositori-git}}`
 
