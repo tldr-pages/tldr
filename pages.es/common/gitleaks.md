@@ -17,7 +17,7 @@
 
 - Utiliza un archivo de reglas personalizado:
 
-`gitleaks detect --source {{ruta/al/repositorio}} --config-path {{ruta/a/config.toml}}`
+`gitleaks detect --source {{ruta/al/repositorio}} --config-path {{ruta/a/archivo_de_configuración.toml}}`
 
 - Inicia la búsqueda a partir de una confirmación específica:
 
