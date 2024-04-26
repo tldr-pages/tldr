@@ -27,6 +27,6 @@
 
 `gitleaks protect --staged`
 
-- Muestra una salida detallada que indica qué partes se identificaron como fugas durante el análisis:
+- Muestra información detallada que indica que partes se identificaron como fugas durante el análisis:
 
 `gitleaks protect --staged --verbose`
