@@ -11,7 +11,7 @@
 
 `gitleaks detect --source {{ruta/al/repositorio}}`
 
-- Envia los resultados del análisis a un archivo JSON:
+- Crea un archivo JSON con los resultados del análisis:
 
 `gitleaks detect --source {{ruta/al/repositorio}} --report {{ruta/a/informe.json}}`
 
