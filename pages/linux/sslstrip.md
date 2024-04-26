@@ -3,7 +3,7 @@
 > The sslstrip is a tool that transparently hijacks HTTP traffic on a network.
 > More information: <https://www.kali.org/tools/sslstrip/>.
 
-- Listen to a port:
+- Listen on a port:
 
 `sslstrip --listen={{target_port}}`
 
