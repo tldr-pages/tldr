@@ -1,6 +1,6 @@
 # sslstrip
 
-> The sslstrip is a tool that transparently hijacks HTTP traffic on a network.
+> Perform Moxie Marlinspike's SSL stripping attacks with this MITM tool.
 > More information: <https://www.kali.org/tools/sslstrip/>.
 
 - Listen on a port:
