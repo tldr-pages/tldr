@@ -1,4 +1,4 @@
-# git komit-grafik
+# git commit-graph
 
 > Tulis dan verifikasi file grafik komit Git.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-commit-graph>.
