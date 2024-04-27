@@ -3,7 +3,7 @@
 > Perform Moxie Marlinspike's Secure Sockets Layer (SSL) stripping attacks with this Man-in-the-Middle (MITM) tool.
 > More information: <https://www.kali.org/tools/sslstrip/>.
 
-- Listen on a port:
+- Listen on a specific port:
 
 `sslstrip --listen={{target_port}}`
 
@@ -11,10 +11,10 @@
 
 `sslstrip --ssl --listen={{target_port}}`
 
-- Log all SSL and HTTP traffic to and from server:
+- Log all SSL and HTTP traffic to and from the server:
 
 `sslstrip --listen={{target_port}} --all`
 
-- Specify output filename:
+- Specify the file path to store the logs:
 
 `sslstrip --listen={{target_port}} --write={{path/to/file}}`
