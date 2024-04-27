@@ -1,6 +1,15 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
 
+"""
+A Python script to check for bad (HTTP status code different than 200) "More information" URLs accross all pages.
+
+These bad codes tipically indicate a not found page or a redirection. They are written to bad-urls.txt with their respective URLs.
+
+Usage:
+    python3 scripts/check-more-info-urls.py
+"""
+
 import random
 import re
 import asyncio
