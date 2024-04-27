@@ -9,7 +9,7 @@
 
 - List all tags of specific files:
 
-`id3v2 --list-tags {{path/to/file1 path/to/file2 ...}}`
+`id3v2 --list {{path/to/file1 path/to/file2 ...}}`
 
 - Delete all `id3v2` or `id3v1` tags of specific files:
 
