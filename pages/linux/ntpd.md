@@ -1,7 +1,7 @@
 # ntpd
 
 > The official NTP (Network Time Protocol) daemon to synchronize the system clock to remote time servers or local reference clocks.
-> More information: <https://www.ntp.org/documentation/4.2.8-series/ntpd/>.
+> More information: <https://manned.org/ntpd>.
 
 - Start the daemon:
 
