@@ -17,4 +17,4 @@
 
 - Specify output filename:
 
-`sslstrip --listen={{target_port}} --write={{file_name}}`
+`sslstrip --listen={{target_port}} --write={{path/to/file}}`
