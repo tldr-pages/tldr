@@ -1,6 +1,6 @@
 # sslstrip
 
-> Perform Moxie Marlinspike's Secure Sockets Layer (SSL) stripping attacks with this Man-in-the-Middle (MITM) tool.
+> Perform Moxie Marlinspike's Secure Sockets Layer (SSL) stripping attacks. Users should perform arpspoofing before using this tool.
 > More information: <https://www.kali.org/tools/sslstrip/>.
 
 - Listen on a specific port:
