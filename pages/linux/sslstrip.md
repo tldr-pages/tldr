@@ -1,6 +1,6 @@
 # sslstrip
 
-> Perform Moxie Marlinspike's Secure Sockets Layer (SSL) stripping attacks. Users should perform ARPspoofing before using this tool.
+> Perform Moxie Marlinspike's Secure Sockets Layer (SSL) stripping attacks. Perform an ARP spoofing before using this tool.
 > More information: <https://www.kali.org/tools/sslstrip/>.
 
 - Listen on a specific port:
@@ -18,3 +18,7 @@
 - Specify the file path to store the logs:
 
 `sslstrip --listen={{target_port}} --write={{path/to/file}}`
+
+- Display help:
+
+`sslstrip --help`
