@@ -6,6 +6,7 @@
 - Start the daemon:
 
 `sudo ntpd`
+
 - Synchronize system time with remote servers a single time (quit after synchronizing):
 
 `sudo ntpd --quit`
