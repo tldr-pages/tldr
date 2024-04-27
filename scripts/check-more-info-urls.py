@@ -56,7 +56,7 @@ async def process_file(
     output_file: AsyncPath,
     session: aiohttp.ClientSession,
 ) -> None:
-    """Extract the link of a single .md file and check it."""
+    """Extract the URL of a single .md file and check it."""
     async with sem:
         async with file.open("r") as f:
             try:
@@ -65,14 +65,14 @@ async def process_file(
                 await aprint(file.parts[-3:])
                 return
 
-    url = extract_link(content)
+    url = extract_url(content)
 
     if url is not None:
         await check_url_and_write_if_bad(url, writer, output_file, session)
 
 
-def extract_link(content: str) -> list[str]:
-    """Extract the link of '> More information: '."""
+def extract_url(content: str) -> list[str]:
+    """Extract the URL of '> More information: '."""
     return next(
         (
             match.group(1)
