@@ -7,7 +7,7 @@
 
 `sslstrip --listen={{target_port}}`
 
-- Log all SSL traffic to and from server:
+- Log all SSL traffic to and from the server:
 
 `sslstrip --ssl --listen={{target_port}}`
 
