@@ -8,7 +8,7 @@
 
 `type {{command}}`
 
-- Display all locations containing the specified executable (works only in Bash/Fish/Zsh shells):
+- Display all locations containing the specified executable (works only in Bash/fish/Zsh shells):
 
 `type -a {{command}}`
 
