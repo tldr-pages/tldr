@@ -2,22 +2,19 @@
 # SPDX-License-Identifier: MIT
 
 """
-A Python script to check for bad (HTTP status code different than 200) "More information" URLs accross all pages.
+A Python script to check for bad (HTTP status code different than 200) "More information" URLs across all pages.
 
-These bad codes tipically indicate a not found page or a redirection. They are written to bad-urls.txt with their respective URLs.
+These bad codes typically indicate a page not found or a redirection. They are written to bad-urls.txt with their respective URLs.
 
 Usage:
     python3 scripts/check-more-info-urls.py
 """
 
-import random
 import re
 import asyncio
-import sys
-from aiofile import AIOFile, Reader, Writer
 import aiohttp.client_exceptions
 from aioconsole import aprint
-from aiofile import async_open
+from aiofile import AIOFile, Writer
 from aiopath import AsyncPath
 
 MAX_CONCURRENCY = 500
@@ -62,7 +59,7 @@ async def process_file(
             try:
                 content = await f.read()
             except Exception as e:
-                await aprint(file.parts[-3:])
+                await aprint(f"Error: {e}, File: {file.parts[-3:]}")
                 return
 
     url = extract_url(content)

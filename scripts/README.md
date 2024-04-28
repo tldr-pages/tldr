@@ -26,10 +26,10 @@ The below table shows the compatibility of user-executable scripts with differen
 | Script | Linux | macOS (`osx`) | Windows |
 | ------ | ----- | ----- | ------- |
 | [render.py](pdf/render.py) | ✅ | ✅ | ✅ |
-| [build-pdf.sh](pdf/build-pdf.sh) | ✅ | ✅ | ❌ |
-| [build.sh](build.sh) | ✅ | ✅ | ❌ |
-| [check-more-info-links.py](check-more-info-links.py) | ✅ | ✅ | ✅ |
+| [build-pdf.sh](pdf/build-pdf.sh) | ✅ | ✅ | ❌ (WSL ✅)|
+| [build.sh](build.sh) | ✅ | ✅ | ❌ (WSL ✅)|
+| [check-more-info-urls.py](check-more-info-urls.py) | ✅ | ✅ | ✅ |
 | [set-alias-pages.py](set-alias-pages.py) | ✅ | ✅ | ✅ |
 | [set-more-info-link.py](set-more-info-link.py) | ✅ | ✅ | ✅ |
-| [wrong-filename.sh](wrong-filename.sh) | ✅ | ❌ | ❌ |
+| [wrong-filename.sh](wrong-filename.sh) | ✅ | ❌ | ❌ (WSL ✅)|
 | [update-command.py](update-command.py) | ✅ | ✅ | ✅ |
