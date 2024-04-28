@@ -2,6 +2,7 @@
 
 > Free, open source, cross-platform digital audio workstation.
 > Render a `.mmp` or `.mmpz` project file, dump a `.mmpz` as XML, or start the GUI.
+> See also: `mixxx`.
 > More information: <https://lmms.io>.
 
 - Start the GUI:

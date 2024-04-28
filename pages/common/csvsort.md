@@ -1,6 +1,6 @@
 # csvsort
 
-> Sorts CSV files.
+> Sort CSV files.
 > Included in csvkit.
 > More information: <https://csvkit.readthedocs.io/en/latest/scripts/csvsort.html>.
 

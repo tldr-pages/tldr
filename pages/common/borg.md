@@ -1,7 +1,7 @@
 # borg
 
 > Deduplicating backup tool.
-> Creates local or remote backups that are mountable as filesystems.
+> Create local or remote backups that are mountable as filesystems.
 > More information: <https://borgbackup.readthedocs.io/en/stable/usage/general.html>.
 
 - Initialize a (local) repository:

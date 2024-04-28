@@ -25,7 +25,7 @@
 
 - Zeige das aktuelle Datum im RFC-3339 Format (`YYYY-MM-DD hh:mm:ss TZ`) an:
 
-`date --rfc-3339=s`
+`date --rfc-3339 s`
 
 - Setze das aktuelle Datum im Format `MMDDhhmmYYYY.ss` (`YYYY` und `.ss` sind optional):
 

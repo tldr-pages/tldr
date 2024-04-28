@@ -1,6 +1,7 @@
 # ncmpcpp
 
 > A music player client for the Music Player Daemon.
+> See also: `mpd`, `mpc`, `qmmp`, `termusic`.
 > More information: <https://rybczak.net/ncmpcpp>.
 
 - Connect to a music player daemon on a given host and port:

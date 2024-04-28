@@ -1,6 +1,6 @@
 # nc
 
-> A versatile utility for redirecting IO into a network stream.
+> Redirect I/O into a network stream through this versatile tool.
 > More information: <https://manned.org/man/nc.1>.
 
 - Start a listener on the specified TCP port and send a file into it:

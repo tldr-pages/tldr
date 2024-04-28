@@ -1,7 +1,7 @@
 # sa
 
-> Summarizes accounting information. Part of the acct package.
-> Shows commands called by users, including basic info on CPU time spent processing and I/O rates.
+> Summarize accounting information about commands called by users, including basic information on CPU time spent processing and I/O rates.
+> Part of the `acct` package.
 > More information: <https://manned.org/man/sa.8>.
 
 - Display executable invocations per user (username not displayed):

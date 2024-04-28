@@ -19,6 +19,14 @@
 
 `ollama list`
 
+- Pull/Update a specific model:
+
+`ollama pull {{model}}`
+
+- Upgrade Ollama on Linux:
+
+`curl -fsSL https://ollama.com/install.sh | sh`
+
 - Delete a model:
 
 `ollama rm {{model}}`

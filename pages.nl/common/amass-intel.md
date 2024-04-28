@@ -1,7 +1,7 @@
 # amass intel
 
 > Verzamel open source informatie over een organisatie, zoals hoofddomeinen en ASN's.
-> Meer informatie: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
+> Meer informatie: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
 
 - Vind hoofddomeinen in een range van IP adressen:
 
@@ -15,7 +15,7 @@
 
 `amass intel -whois -d {{domeinnaam}}`
 
-- Vind ASN's die bij een organisatie horen:
+- Vind ASN's die bij een [org]anisatie horen:
 
 `amass intel -org {{organisatienaam}}`
 
@@ -26,3 +26,7 @@
 - Sla de resultaten op in een tekstbestand:
 
 `amass intel -o {{uitvoer_bestand}} -whois -d {{domeinnaam}}`
+
+- Toon alle beschikbare databronnen:
+
+`amass intel -list`
