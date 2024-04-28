@@ -12,7 +12,7 @@
 
 `type -a {{command}}`
 
-- Display the name of the disk file that would be executed (works only in Bash/Fish/Zsh shells):
+- Display the name of the disk file that would be executed (works only in Bash/fish/Zsh shells):
 
 `type -p {{command}}`
 
