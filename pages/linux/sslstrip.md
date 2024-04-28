@@ -4,11 +4,11 @@
 > Perform an ARP spoofing attack in conjunction.
 > More information: <https://www.kali.org/tools/sslstrip/>.
 
-- Log only SSL POST traffic on port 10000 by default:
+- Log only HTTPS POST traffic on port 10000 by default:
 
 `sslstrip`
 
-- Log only SSL POST traffic on specific port (e.g. 8080):
+- Log only HTTPS POST traffic on specific port (e.g. 8080):
 
 `sslstrip --listen={{8080}}`
 
