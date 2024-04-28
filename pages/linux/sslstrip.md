@@ -1,23 +1,30 @@
 # sslstrip
 
-> Perform Moxie Marlinspike's Secure Sockets Layer (SSL) stripping attacks. Perform an ARP spoofing before using this tool.
+> Perform Moxie Marlinspike's Secure Sockets Layer (SSL) stripping attacks.
+> 
+> Perform an ARP spoofing attack in conjunction.
+> 
 > More information: <https://www.kali.org/tools/sslstrip/>.
 
-- Listen on a specific port:
+- Log only SSL POST traffic on default port 10000:
 
-`sslstrip --listen={{target_port}}`
+`sslstrip`
+
+- Log traffic on specific port (e.g. 8080):
+
+`sslstrip --listen={{8080}}`
 
 - Log all SSL traffic to and from the server:
 
-`sslstrip --ssl --listen={{target_port}}`
+`sslstrip --ssl --listen={{8080}}`
 
 - Log all SSL and HTTP traffic to and from the server:
 
-`sslstrip --listen={{target_port}} --all`
+`sslstrip --listen={{8080}} --all`
 
 - Specify the file path to store the logs:
 
-`sslstrip --listen={{target_port}} --write={{path/to/file}}`
+`sslstrip --listen={{8080}} --write={{path/to/file}}`
 
 - Display help:
 
