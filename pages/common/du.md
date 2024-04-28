@@ -29,4 +29,4 @@
 
 - List all files (including hidden) above a certain [t]hreshold size (useful for investingating which files are taking up space):
 
-`du --all --human-readable --threshold {{1G}} .[^.]* *`
+`du --all --human-readable --threshold {{1G|1024M|1048576K}} .[^.]* *`
