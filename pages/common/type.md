@@ -16,6 +16,6 @@
 
 `type -p {{command}}`
 
-- Display the type of a specific command, alias/keyword/function/builtin/file (works only in Bash/Fish shells):
+- Display the type of a specific command, alias/keyword/function/builtin/file (works only in Bash/fish shells):
 
 `type -t {{command}}`
