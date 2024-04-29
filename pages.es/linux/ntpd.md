@@ -1,6 +1,6 @@
 # ntpd
 
-> El daemon oficial NTP (Network Time Protocol) para sincronizar el reloj del sistema con servidores de tiempo remotos o relojes de referencia locales.
+> El daemon oficial de NTP (Network Time Protocol) para sincronizar el reloj del sistema con servidores de tiempo remotos o relojes de referencia locales.
 > Más información: <https://manned.org/ntpd>.
 
 - Inicia el daemon:
