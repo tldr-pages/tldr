@@ -16,6 +16,6 @@
 
 `type -p {{comando}}`
 
-- Muestra el tipo de un comando específico, alias/palabra clave/función/builtin/archivo (sólo funciona en intérpretes de comandos Bash/fish):
+- Muestra el tipo de un comando específico, alias/palabra clave/función/integrado/archivo (solo funciona en intérpretes de comandos Bash/fish):
 
 `type -t {{comando}}`
