@@ -8,7 +8,7 @@
 
 `type {{comando}}`
 
-- Muestra todas las ubicaciones que contienen el ejecutable especificado (sólo funciona en los intérpretes de comandos Bash/fish/Zsh):
+- Muestra todas las rutas con el ejecutable especificado (solo funciona en los intérpretes de comandos Bash/fish/Zsh):
 
 `type -a {{comando}}`
 
