@@ -603,7 +603,7 @@ For example, use `Lista os arquivos` instead of `Listar os arquivos`, `Listando 
 - Crea un archivo en un directorio:
 ```
 
-- Preferably, use the word `identificador` in the placeholders of command examples. For example:
+- Preferably, use the word `identificador` instead of `id` in the placeholders of command examples. For example:
 
 ```md
 {{identificador_de_usuario}}
