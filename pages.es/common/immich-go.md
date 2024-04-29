@@ -1,0 +1,25 @@
+# immich-go
+
+> Immich-Go es una herramienta abierta diseñada para subir colecciones grandes de fotos a tu servidor Immich autoalojado.
+> Véase también: `immich-cli`.
+> Más información: <https://github.com/simulot/immich-go>.
+
+- Sube un archivo takeout de Google al servidor Immich:
+
+`immich-go -server={{http://mynas:2283}} -key={{M1Cl4v3}} upload {{ruta/a/takeout.zip}}`
+
+- Importa fotos capturadas en junio del 2019, mientras se generan los álbumes automáticamente:
+
+`immich-go -server={{http://mynas:2283}} -key={{M1Cl4v3}} upload -create-albums -google-photos -date={{2019-06}} {{ruta/a/takeout.zip}}`
+
+- Sube un archivo usando servidor y clave de un archivo de configuración:
+
+`immich-go -use-configuration={{$HOME/.immich-go/immich-go.json}} upload {{ruta/a/takeout.zip}}`
+
+- Examina el contenido del servidor Immich, elimina las imágenes de menor calidad, y preserva álbumes:
+
+`immich-go -server={{http://mynas:2283}} -key={{M1Cl4v3}} duplicate -yes`
+
+- Elimina todos loa álbumes creados con el patrón "YYYY-MM-DD":
+
+`immich-go -server={{http://mynas:2283}} -key={{M1Cl4v3}} tool album delete {{\d{4}-\d{2}-\d{2}}}`
