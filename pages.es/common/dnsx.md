@@ -27,11 +27,11 @@
 
 - Aplica fuerza bruta a registros DNS utilizando un marcador de posición:
 
-`dnsx -dominio {{FUZZ.ejemplo.com}} -wordlist {{ruta/a/lista_de_palabras.txt}} -re`
+`dnsx -domain {{FUZZ.ejemplo.com}} -wordlist {{ruta/a/lista_de_palabras.txt}} -re`
 
 - Aplica fuerza bruta a registros DNS a partir de una lista de [d]ominios y listas de palabras, adjuntando la salida a un archivo sin códigos de [c]olor:
 
-`dnsx -dominio {{ruta/a/dominio.txt}} -wordlist {{ruta/a/lista_de_palabras.txt}} -re -output {{ruta/a/salida.txt}} -no-color`
+`dnsx -domain {{ruta/a/dominio.txt}} -wordlist {{ruta/a/lista_de_palabras.txt}} -re -output {{ruta/a/salida.txt}} -no-color`
 
 - Extrae registros `CNAME` desde una lista de subdominios, con una velocidad [l]ímite de consultas DNS por segundo:
 
