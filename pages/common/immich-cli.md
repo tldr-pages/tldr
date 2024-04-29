@@ -1,0 +1,29 @@
+# immich-cli
+
+> Immich has a command line interface (CLI) that allows you to perform certain actions from the command line.
+> See also: `immich-go`.
+> More information: <https://immich.app/docs/features/command-line-interface/>.
+
+- Authenticate to Immich server:
+
+`immich login {{http://192.168.1.69:2283/api}} {{HFEJ38DNSDUEG}}`
+
+- Upload some image files:
+
+`immich upload {{file1.jpg file2.jpg}}`
+
+- Upload a directory including subdirectories:
+
+`immich upload --recursive {{directory/}}`
+
+- Create an album based on a directory:
+
+`immich upload --album-name {{"My summer holiday"}} --recursive {{directory/}}`
+
+- Skip assets matching a glob pattern:
+
+`immich upload --ignore {{**/Raw/** **/*.tif}} --recursive {{directory/}}`
+
+- Include hidden files:
+
+`immich upload --include-hidden --recursive {{directory/}}`
