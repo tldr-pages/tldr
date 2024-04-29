@@ -20,6 +20,6 @@
 
 `aur sync --upgrades`
 
-- Install a package without viewing changes in vim:
+- Install a package without viewing changes in Vim:
 
 `aur sync --noview {{package}}`
