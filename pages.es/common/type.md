@@ -12,7 +12,7 @@
 
 `type -a {{comando}}`
 
-- Muestra el nombre del archivo de disco que se ejecutaría (sólo funciona en intérpretes de comandos Bash/fish/Zsh):
+- Muestra el nombre del archivo en disco que se ejecutaría (solo funciona en intérpretes de comandos Bash/fish/Zsh):
 
 `type -p {{comando}}`
 
