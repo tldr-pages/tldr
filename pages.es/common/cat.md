@@ -17,8 +17,8 @@
 
 - Copia el contenido de un archivo en un archivo de salida sin almacenamiento en el búfer:
 
-`cat -u {{/dev/tty12}}} > {{/dev/tty13}}`
+`cat -u {{/dev/tty12}} > {{/dev/tty13}}`
 
 - Copia `stdin` en un archivo:
 
-`cat - > {{ruta/a/archivo}}`
+`cat - > {{ruta/al/archivo}}`
