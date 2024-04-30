@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD041 -->
 <div align="center">
   <h1><a href="https://tldr.sh/"><img alt="tldr-pages" src="images/banner.png" width=600/></a></h1>
 
@@ -67,7 +68,8 @@ Alternatively, you can also use the official [Python client](https://github.com/
 pip3 install tldr
 ```
 
-Linux and Mac users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc) (or [other package managers](https://github.com/tldr-pages/tlrc#installation) on other operating systems):
+Linux and Mac users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc)
+(or [other package managers](https://github.com/tldr-pages/tlrc#installation) on other operating systems):
 
 ```shell
 brew install tlrc

@@ -6,7 +6,8 @@ This file contains a list of the maintainers of the tldr-pages project.
 > Only the people marked with **bold** are currently in the indicated role.
 > The other entries are kept for historical record.
 
-There are three types of maintainers, as described in [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md#when-to-change-roles): repository collaborators, organization members, and organization owners — each having specific roles in maintaining the project, as outlined below.
+There are three types of maintainers, as described in [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md#when-to-change-roles): repository collaborators, organization members,
+and organization owners — each having specific roles in maintaining the project, as outlined below.
 
 In general terms, all maintainers are expected to follow the [Maintainer's guide](contributing-guides/maintainers-guide.md).
 
@@ -141,8 +142,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149) — present
 - **Juri ([@gutjuri](https://github.com/gutjuri))**:
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11201) — present
-- **Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck))**:
-  [24 October 2023](https://github.com/tldr-pages/tldr/issues/11202) — present
 - **Isaac Vicente ([@isaacvicente](https://github.com/isaacvicente))**:
   [29 December 2023](https://github.com/tldr-pages/tldr/issues/11918) — present
 - **Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl))**:
@@ -181,6 +180,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473) — [15 November 2023](https://github.com/tldr-pages/tldr/issues/11509)
 - Lena ([@acuteenvy](https://github.com/acuteenvy)):
   [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406) — [27 December 2023](https://github.com/tldr-pages/tldr/issues/11839)
+- Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck)):
+  [24 October 2023](https://github.com/tldr-pages/tldr/issues/11202) — [28 April 2024](https://github.com/tldr-pages/tldr/issues/12687)
 
 ## Organization owners
 
@@ -211,6 +212,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [7 July 2023](https://github.com/tldr-pages/tldr/issues/10054) — present
 - **Lena ([@acuteenvy](https://github.com/acuteenvy))**:
   [27 December 2023](https://github.com/tldr-pages/tldr/issues/11839) — present
+- **Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck))**:
+  [28 April 2024](https://github.com/tldr-pages/tldr/issues/12687) - present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
