@@ -26,4 +26,4 @@
 
 - Incluye archivos ocultos:
 
-`immich upload --include-hidden --recursive {{directorio/}}`
+`immich upload --include-hidden --recursive {{ruta/al/directorio}}`
