@@ -34,4 +34,4 @@
 
 - E[x]trae ficheros que coincidan con un patrón de un [f]ile:
 
-`tar xf {{ruta/a/fuente.tar}} --wildcards "{{*.html}}"`
+`tar xf {{ruta/al/archivo_de_entrada.tar}} --wildcards "{{*.html}}"`
