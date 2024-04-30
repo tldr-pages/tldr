@@ -12,7 +12,7 @@
 
 `immich upload {{archivo1.jpg archivo2.jpg}}`
 
-- Sube un directorio incluyendo subdirectorios:
+- Sube un directorio y sus subdirectorios:
 
 `immich upload --recursive {{directorio/}}`
 
