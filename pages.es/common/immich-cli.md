@@ -6,7 +6,7 @@
 
 - Autentica en el servidor de Immich:
 
-`immich login {{http://192.168.1.69:2283/api}} {{HFEJ38DNSDUEG}}`
+`immich login {{http://dominio_o_ip_de_servidor:2283/api}} {{clave_de_servidor}}`
 
 - Sube unas imágenes:
 
