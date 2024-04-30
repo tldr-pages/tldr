@@ -16,7 +16,7 @@
 
 `immich-go -use-configuration={{~/.immich-go/immich-go.json}} upload {{ruta/a/archivo_takeout.zip}}`
 
-- Examina el contenido del servidor Immich, elimina las imágenes de menor calidad, y preserva álbumes:
+- Examina el contenido del servidor Immich, elimina las imágenes de menor calidad y preserva álbumes:
 
 `immich-go -server={{http://dominio_o_ip_de_servidor:2283}} -key={{clave_del_servidor}} duplicate -yes`
 
