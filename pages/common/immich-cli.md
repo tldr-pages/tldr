@@ -14,16 +14,16 @@
 
 - Upload a directory including subdirectories:
 
-`immich upload --recursive {{directory/}}`
+`immich upload --recursive {{path/to/directory}}`
 
 - Create an album based on a directory:
 
-`immich upload --album-name {{"My summer holiday"}} --recursive {{directory/}}`
+`immich upload --album-name "{{My summer holiday}}" --recursive {{path/to/directory}}`
 
 - Skip assets matching a glob pattern:
 
-`immich upload --ignore {{**/Raw/** **/*.tif}} --recursive {{directory/}}`
+`immich upload --ignore {{**/Raw/** **/*.tif}} --recursive {{path/to/directory}}`
 
 - Include hidden files:
 
-`immich upload --include-hidden --recursive {{directory/}}`
+`immich upload --include-hidden --recursive {{path/to/directory}}`

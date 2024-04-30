@@ -10,7 +10,7 @@
 
 - Import photos captured on June 2019, while auto-generating albums:
 
-`immich-go -server={{http://mynas:2283}} -key={{MyL0NgK3y}} upload -create-albums -google-photos -date={{2019-06}} {{path/to/takeout-.zip`
+`immich-go -server={{http://mynas:2283}} -key={{MyL0NgK3y}} upload -create-albums -google-photos -date={{2019-06}} {{path/to/takeout-.zip}}`
 
 - Upload a takeout file using server and key from a config file:
 
