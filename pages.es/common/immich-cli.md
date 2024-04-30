@@ -4,7 +4,7 @@
 > Vea también: `immich-go`.
 > Más información: <https://immich.app/docs/features/command-line-interface/>.
 
-- Autenticarse en el servidor de Immich:
+- Autentica en el servidor de Immich:
 
 `immich login {{http://192.168.1.69:2283/api}} {{HFEJ38DNSDUEG}}`
 
