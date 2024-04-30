@@ -1,0 +1,30 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+  "name": "tldr-pages",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+
+  "onCreateCommand": [
+    "sudo apt update",
+    "pip install -r requirements.txt",
+    "npm install"
+  ],
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "resmon.show.battery": false,
+        "resmon.show.cpufreq": false
+      },
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "DavidAnson.vscode-markdownlint"
+      ]
+    }
+  }
+}
