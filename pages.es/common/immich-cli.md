@@ -14,7 +14,7 @@
 
 - Sube un directorio y sus subdirectorios:
 
-`immich upload --recursive {{directorio/}}`
+`immich upload --recursive {{ruta/al/directorio}}`
 
 - Crea un álbum basado en un directorio:
 
