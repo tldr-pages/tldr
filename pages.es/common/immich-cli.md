@@ -8,7 +8,7 @@
 
 `immich login {{http://192.168.1.69:2283/api}} {{HFEJ38DNSDUEG}}`
 
-- Sube algunas imágenes:
+- Sube unas imágenes:
 
 `immich upload {{archivo1.jpg archivo2.jpg}}`
 
