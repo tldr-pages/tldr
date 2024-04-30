@@ -9,6 +9,8 @@
     "ghcr.io/devcontainers/features/python:1": {}
   },
 
+  "privileged": true,
+
   "onCreateCommand": [
     "sudo apt update",
     "pip install -r requirements.txt",
