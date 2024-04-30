@@ -1,20 +1,20 @@
 # archwiki-rs
 
-> A CLI tool to read pages from the ArchWiki.
+> Read, search and download pages from the ArchWiki.
 > More information: <https://gitlab.com/lucifayr/archwiki-rs>.
 
 - Read a page from the ArchWiki:
 
-`archwiki-rs read-page {{page-title}}`
+`archwiki-rs read-page {{page_title}}`
 
 - Read a page from the ArchWiki in the specified format:
 
-`archwiki-rs read-page {{page-title}} --format {{plain-text|markdown|html}}`
+`archwiki-rs read-page {{page_title}} --format {{plain-text|markdown|html}}`
 
-- Search the ArchWiki for pages containing the text "/usr/share":
+- Search the ArchWiki for pages containing the provided text:
 
-`archwiki-rs search "/usr/share" --text-search`
+`archwiki-rs search "{{search_text}}" --text-search`
 
-- Download a local copy of all ArchWiki pages:
+- Download a local copy of all ArchWiki pages into a specific directory:
 
-`archwiki-rs local-wiki ~/archwiki-html --format html`
+`archwiki-rs local-wiki {{/path/to/local_wiki}} --format {{plain-text|markdown|html}}`
