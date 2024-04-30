@@ -11,7 +11,11 @@
 
   "privileged": true,
 
-  "onCreateCommand": "sudo apt update && pip install -r requirements.txt && npm install",
+  "onCreateCommand": {
+    "update-apt-packages": "sudo apt update && sudo apt upgrade -y",
+    "install-python-packages": "pip install -r requirements.txt",
+    "install-node-packages": "npm install"
+  },
 
   "customizations": {
     "vscode": {
