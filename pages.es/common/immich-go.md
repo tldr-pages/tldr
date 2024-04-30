@@ -14,7 +14,7 @@
 
 - Sube un archivo usando servidor y clave de un archivo de configuración:
 
-`immich-go -use-configuration={{$HOME/.immich-go/immich-go.json}} upload {{ruta/a/takeout.zip}}`
+`immich-go -use-configuration={{~/.immich-go/immich-go.json}} upload {{ruta/a/archivo_takeout.zip}}`
 
 - Examina el contenido del servidor Immich, elimina las imágenes de menor calidad, y preserva álbumes:
 
