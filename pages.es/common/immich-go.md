@@ -20,6 +20,6 @@
 
 `immich-go -server={{http://dominio_o_ip_de_servidor:2283}} -key={{clave_del_servidor}} duplicate -yes`
 
-- Elimina todos loa álbumes creados con el patrón "YYYY-MM-DD":
+- Elimina todos los álbumes creados con el patrón "YYYY-MM-DD":
 
 `immich-go -server={{http://dominio_o_ip_de_servidor:2283}} -key={{clave_del_servidor}} tool album delete {{\d{4}-\d{2}-\d{2}}}`
