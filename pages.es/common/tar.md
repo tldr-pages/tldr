@@ -30,7 +30,7 @@
 
 - Lis[t]a el contenido de un [f]ile tar [v]erbosamente:
 
-`tar tvf {{ruta/a/fuente.tar}}`
+`tar tvf {{ruta/al/archivo_de_entrada.tar}}`
 
 - E[x]trae ficheros que coincidan con un patrón de un [f]ile:
 
