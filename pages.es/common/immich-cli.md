@@ -18,7 +18,7 @@
 
 - Crea un álbum basado en un directorio:
 
-`immich upload --album-name {{"Vacaciones de verano"}} --recursive {{directorio/}}`
+`immich upload --album-name "{{Vacaciones de verano}}" --recursive {{ruta/al/directorio}}`
 
 - Omite recursos que coincidan con un patrón global:
 
