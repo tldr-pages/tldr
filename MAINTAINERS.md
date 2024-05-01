@@ -140,8 +140,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5989) — present
 - **Seth Falco ([@SethFalco](https://github.com/SethFalco))**:
   [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149) — present
-- **Juri ([@gutjuri](https://github.com/gutjuri))**:
-  [24 October 2023](https://github.com/tldr-pages/tldr/issues/11201) — present
 - **Isaac Vicente ([@isaacvicente](https://github.com/isaacvicente))**:
   [29 December 2023](https://github.com/tldr-pages/tldr/issues/11918) — present
 - **Vitor Henrique ([@vitorhcl](https://github.com/vitorhcl))**:
@@ -182,6 +180,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [21 June 2023](https://github.com/tldr-pages/tldr/issues/10406) — [27 December 2023](https://github.com/tldr-pages/tldr/issues/11839)
 - Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck)):
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11202) — [28 April 2024](https://github.com/tldr-pages/tldr/issues/12687)
+- Juri ([@gutjuri](https://github.com/gutjuri)):
+  [24 October 2023](https://github.com/tldr-pages/tldr/issues/11201) — [29 April 2024](https://github.com/tldr-pages/tldr/issues/12686)
 
 ## Organization owners
 
@@ -213,7 +213,9 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Lena ([@acuteenvy](https://github.com/acuteenvy))**:
   [27 December 2023](https://github.com/tldr-pages/tldr/issues/11839) — present
 - **Sebastiaan Speck ([@sebastiaanspeck](https://github.com/sebastiaanspeck))**:
-  [28 April 2024](https://github.com/tldr-pages/tldr/issues/12687) - present
+  [28 April 2024](https://github.com/tldr-pages/tldr/issues/12687) — present
+- **Juri ([@gutjuri](https://github.com/gutjuri))**:
+  [29 April 2024](https://github.com/tldr-pages/tldr/issues/12686) — present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
