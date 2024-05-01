@@ -23,6 +23,6 @@
 
 `arecord --interactive`
 
-- Test your microphone:
+- Test your microphone by recording a 5 second sample and playing it back:
 
 `arecord -d 5 test-mic.wav && aplay test-mic.wav && rm test-mic.wav`
