@@ -15,11 +15,11 @@
 
 `compseq {{example_dna.fasta}} -word {{6}} {{result2.comp}} -nozero`
 
-- Count observed frequencies of codons frame-shifted by 1 position; ignoring any overlapping counts (i.e. moving window across by word-length 3).  
+- Count observed frequencies of codons frame-shifted by 1 position; ignoring any overlapping counts (i.e. moving window across by word-length 3):
 
 `compseq -sequence {{example_rna.fasta}} -word {{3}} {{result3.comp}} -nozero -frame {{1}}`
 
-- Count observed frequencies of codons frame-shifted by 3 positions; ignoring any overlapping counts (should report all codons except the first one).
+- Count observed frequencies of codons frame-shifted by 3 positions; ignoring any overlapping counts (should report all codons except the first one):
 
 `compseq -sequence {{example_rna.fasta}} -word {{3}} {{result4.comp}} -nozero -frame {{3}}`
 
@@ -27,13 +27,10 @@
 
 `compseq -sequence {{human_proteome.fasta}} -word {{3}} {{result5.comp}} -nozero -infile {{prev.comp}}`
 
-- Approximate the above command without a previously prepared file, by calculating expected frequencies using the single base/residue frequencies in the supplied input sequence(s): 
+- Approximate the above command without a previously prepared file, by calculating expected frequencies using the single base/residue frequencies in the supplied input sequence(s):
 
 `compseq -sequence {{human_proteome.fasta}} -word {{3}} {{result6.comp}} -nozero -calcfreq`
 
 - Display help (use `-help -verbose` for more information on associated and general qualifiers):
 
 `compseq -help`
-
-
-
