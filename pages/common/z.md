@@ -31,10 +31,6 @@
 
 `z -c {{foo}}`
 
-- Interactive selection of the directories (Needs `fzf` v0.33.0 and above):
-
-`zi`
-
-- Enter partial name or if there are more than one directories with similar names, it will allow you to interactively select the one:
+- Interactive selection of the directories (Needs `fzf` v0.33.0 and above), none, partial or full directory name is supported:
 
 `zi {{foo}}`
