@@ -30,6 +30,7 @@
 - Restrict matches to subdirectories of the current directory:
 
 `z -c {{foo}}`
+
 - Interactive selection of the directories (Needs `fzf` v0.33.0 and above):
 
 `zi`
