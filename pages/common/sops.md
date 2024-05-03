@@ -13,7 +13,7 @@
 
 - Update the declared keys in .sops.yaml:
 
-`sops updatekeys ./path/file.yaml`
+`sops updatekeys {{/path/to/file.yaml}}`
 
 - Rotate data keys for a sops file:
 
