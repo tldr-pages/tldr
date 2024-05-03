@@ -21,7 +21,7 @@
 
 - Create a distributable package for the specified target:
 
-`pants package {{path/to/folder:target-name}}`
+`pants package {{path/to/directory:target-name}}`
 
 - Auto-generate BUILD file targets for new source files:
 
