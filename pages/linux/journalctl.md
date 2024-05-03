@@ -11,7 +11,7 @@
 
 `journalctl --vacuum-time={{2d}}`
 
-- show only the last N li[n]es and [f]ollow new messages (like `tail -f` for traditional syslog):
+- Show only the last N li[n]es and [f]ollow new messages (like `tail -f` for traditional syslog):
 
 `journalctl --lines {{N}} --follow`
 
