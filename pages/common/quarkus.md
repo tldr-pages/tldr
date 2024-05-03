@@ -21,7 +21,7 @@
 
 - Add one or more extensions to the current project:
 
-`quarkus extension add {{extension_name_1 extension_name_2 ...}}`
+`quarkus extension add {{extension_name1 extension_name2 ...}}`
 
 - Build a container image using Docker:
 
