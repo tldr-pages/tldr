@@ -11,6 +11,10 @@
 
 `sops -d {{path/to/myfile.enc.json}}`
 
+- Update the declared keys in .sops.yaml
+
+`sops updatekeys ./path/file.yaml`
+
 - Rotate data keys for a sops file:
 
 `sops -r {{path/to/myfile.enc.yaml}}`
