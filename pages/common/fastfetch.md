@@ -11,7 +11,6 @@
 
 `fastfetch --pipe`
 
-
 - Fetch a specific structure:
 
 `fastfetch --structure {{structure}}`
