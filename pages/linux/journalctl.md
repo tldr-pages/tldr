@@ -11,9 +11,9 @@
 
 `journalctl --vacuum-time={{2d}}`
 
-- [f]ollow new messages (like `tail -f` for traditional syslog):
+- [f]ollow new messages (like `tail -f` for traditional syslog) and define initial li[n]es printed:
 
-`journalctl -f`
+`journalctl --follow --lines {{number}}`
 
 - Show all messages by a specific [u]nit:
 
