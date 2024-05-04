@@ -1,7 +1,7 @@
 # cat
 
 > 파일 출력 및 연결.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/cat>.
+> 더 많은 정보: <https://manned.org/cat.1posix>.
 
 - 표준출력으로 파일 내용 출력:
 
