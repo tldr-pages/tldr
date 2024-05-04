@@ -17,7 +17,7 @@
 
 - Lista zawartości archiwum:
 
-`yaa list -i {{sciezka/do/pliku_wyjscia.yaa}}`
+`yaa list -i {{sciezka/do/pliku_archiwum.yaa}}`
 
 - Tworzenie archiwum z określonym algorytmem kompresji:
 
