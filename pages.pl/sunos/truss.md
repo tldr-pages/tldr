@@ -20,6 +20,6 @@
 
 `truss -c -p {{pid}}`
 
-Śledzenie procesu filtrując dane wyjściowe według wywołania systemowego:
+- Śledzenie procesu filtrując dane wyjściowe według wywołania systemowego:
 
 `truss -p {{pid}} -t {{nazwa_wywolania_systemowego}}`
