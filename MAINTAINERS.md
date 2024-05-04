@@ -123,7 +123,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - Alejandro Cervera ([@tricantivu](https://github.com/tricantivu)):
   [4 January 2024](https://github.com/tldr-pages/tldr/issues/11989) — [3 April 2024](https://github.com/tldr-pages/tldr/issues/12594)
 - Magrid0 ([@Magrid0](https://github.com/Magrid0)):
-  [22 October 2023](https://github.com/tldr-pages/tldr/issues/11159) — [03 May 2024](https://github.com/tldr-pages/tldr/issues/12717)
+  [22 October 2023](https://github.com/tldr-pages/tldr/issues/11159) — [3 May 2024](https://github.com/tldr-pages/tldr/issues/12717)
 
 ## Organization members
 
