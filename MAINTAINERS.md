@@ -55,7 +55,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - **Darío Hereñú ([@kant](https://github.com/kant))**:
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10738) — present
 - **Magrid0 ([@Magrid0](https://github.com/Magrid0))**:
-  [22 October 2023](https://github.com/tldr-pages/tldr/issues/11159) — present
+  [22 October 2023](https://github.com/tldr-pages/tldr/issues/11159) — [03 May 2024](https://github.com/tldr-pages/tldr/issues/12717)
 - **HoJeong Im ([@IMHOJEONG](https://github.com/IMHOJEONG))**:
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11200) — present
 - **Leon ([@leonvsc](https://github.com/leonvsc))**:
@@ -148,6 +148,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [2 April 2024](https://github.com/tldr-pages/tldr/issues/12595) — present
 - **Alejandro Cervera ([@tricantivu](https://github.com/tricantivu))**:
   [3 April 2024](https://github.com/tldr-pages/tldr/issues/12594) — present
+- **Magrid0 ([@Magrid0](https://github.com/magrid0))**:
+  [3 Mag 2024](https://github.com/tldr-pages/tldr/issues/12717) - present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
