@@ -21,4 +21,4 @@
 
 - Wyświetl logi dla procesu określonego pakietu:
 
-`logcat --pid $(pidof -s {{package}})`
+`logcat --pid $(pidof -s {{pakiet}})`
