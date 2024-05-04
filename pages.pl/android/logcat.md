@@ -19,6 +19,6 @@
 
 `logcat --pid {{pid}}`
 
-- Wyświetl logi dla określonego pakietu:
+- Wyświetl logi dla procesu określonego pakietu:
 
 `logcat --pid $(pidof -s {{package}})`
