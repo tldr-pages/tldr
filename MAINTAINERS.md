@@ -54,8 +54,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764), [7 February 2023](https://github.com/tldr-pages/tldr/issues/10674) — present
 - **Darío Hereñú ([@kant](https://github.com/kant))**:
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10738) — present
-- Magrid0 ([@Magrid0](https://github.com/Magrid0)):
-  [22 October 2023](https://github.com/tldr-pages/tldr/issues/11159) — [03 May 2024](https://github.com/tldr-pages/tldr/issues/12717)
 - **HoJeong Im ([@IMHOJEONG](https://github.com/IMHOJEONG))**:
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11200) — present
 - **Leon ([@leonvsc](https://github.com/leonvsc))**:
@@ -130,6 +128,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
 In addition to everything that repository collaborators can do, organization members have write access to all the repositories in the tldr-pages organization, and [a few extra maintenance capabilities](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization).
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
+- Magrid0 ([@Magrid0](https://github.com/Magrid0)):
+  [22 October 2023](https://github.com/tldr-pages/tldr/issues/11159) — [03 May 2024](https://github.com/tldr-pages/tldr/issues/12717)
 - **Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz))**:
   [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — present
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
