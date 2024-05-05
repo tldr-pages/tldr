@@ -19,7 +19,7 @@ find pages* -name '*.md' -type f | while read -r path; do
   COMMAND_NAME_FILE=$(basename "$path" | head -c-4 | sed 's/nix3/nix/' | sed 's/\.fish//' | sed 's/\.js//' | sed 's/\.1//' | tr '-' ' '  | tr '[:upper:]' '[:lower:]')
 
   # Extract the command name from the first line of the Markdown file
-  COMMAND_NAME_PAGE=$(head -n1 "$path" | tail -c+3 | sed 's/--//' | tr '.' ' ' | tr '-' ' ' | tr '[:upper:]' '[:lower:]')
+  COMMAND_NAME_PAGE=$(head -n1 "$path" | tail -c+3 | sed 's/--//' | tr '-' ' ' | tr '[:upper:]' '[:lower:]')
 
   # Check if there is a mismatch between filename and content command names
   if [[ "$COMMAND_NAME_FILE" != "$COMMAND_NAME_PAGE" && ! ${IGNORE_LIST[*]} =~ $COMMAND_NAME_PAGE ]]; then
