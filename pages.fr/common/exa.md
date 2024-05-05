@@ -1,7 +1,7 @@
 # exa
 
 > Une alternative moderne à `ls` (pour lister le contenu de répertoires).
-> Plus d'information : <https://the.exa.website>.
+> Plus d'informations : <https://the.exa.website>.
 
 - Liste les fichiers, un par ligne :
 

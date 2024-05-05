@@ -1,7 +1,7 @@
 # cat
 
 > Skriv ut og sammenføy filer.
-> Mer informasjon: <https://www.gnu.org/software/coreutils/cat>.
+> Mer informasjon: <https://manned.org/cat.1posix>.
 
 - Skriv ut innholdet i en fil til standard utgang:
 

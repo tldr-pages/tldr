@@ -2,7 +2,7 @@
 
 > Netzwerk-Erkundungs-Werkzeug und Security / Port Scanner.
 > Manche Funktionen können nur benutzt werden, wenn Nmap mit Root Rechten ausgeführt wird.
-> Weitere Informationen: <https://nmap.org>.
+> Weitere Informationen: <https://nmap.org/book/man.html>.
 
 - Überprüfe ob eine IP-Adresse online ist und versuche, das Betriebssystem herauszufinden:
 
