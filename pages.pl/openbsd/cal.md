@@ -1,6 +1,6 @@
 # cal
 
-> Wyświetlanie kalendarza z wyróżnionym bieżącym dniem.
+> Wyświetl kalendarz z wyróżnionym bieżącym dniem.
 > Więcej informacji: <https://man.openbsd.org/cal>.
 
 - Wyświetl kalendarz dla obecnego miesiąca:
@@ -13,7 +13,7 @@
 
 - Wyświetl kalendarz dla określonego miesiąca i roku:
 
-`cal {{miesiac}} {{rok}}`
+`cal {{miesiąc}} {{rok}}`
 
 - Wyświetl kalendarz dla obecnego roku (z ang. [y]ear):
 
