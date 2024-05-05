@@ -18,11 +18,11 @@
 
 - Beperk het zoeken tot bestanden van een specifiek type:
 
-`ack --type={{ruby}} "{{zoekpatroon}}"`
+`ack --type {{ruby}} "{{zoekpatroon}}"`
 
 - Zoek niet in bestanden van een specifiek type:
 
-`ack --type=no{{ruby}} "{{zoekpatroon}}"`
+`ack --type no{{ruby}} "{{zoekpatroon}}"`
 
 - Tel het totaal aantal gevonden matches:
 
