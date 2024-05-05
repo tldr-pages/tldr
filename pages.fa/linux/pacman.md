@@ -3,7 +3,7 @@
 > واحد مدیریت پکیج آرچ لینوکس
 > همچنین : `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 > برای دیدن دستور های معادل در سایر پکیج منیجر ها <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> اطلاعات بیشتر : <https://man.archlinux.org/man/pacman.8>.
+> اطلاعات بیشتر: <https://man.archlinux.org/man/pacman.8>.
 
 - همگام سازی و بروز رسانی تمام پکیج ها:
 

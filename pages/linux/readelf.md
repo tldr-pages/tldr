@@ -1,6 +1,6 @@
 # readelf
 
-> Displays information about ELF files.
+> Display information about ELF files.
 > More information: <http://man7.org/linux/man-pages/man1/readelf.1.html>.
 
 - Display all information about the ELF file:
@@ -15,6 +15,10 @@
 
 `readelf --symbols {{path/to/binary}}`
 
-- Display the information contained in the ELF header at the start of the file:
+- Display ELF header information:
 
 `readelf --file-header {{path/to/binary}}`
+
+- Display ELF section header information:
+
+`readelf --section-headers {{path/to/binary}}`

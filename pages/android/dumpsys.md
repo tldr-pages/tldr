@@ -1,6 +1,6 @@
 # dumpsys
 
-> Provide information about Android system services.
+> Get information about Android system services.
 > This command can only be used through `adb shell`.
 > More information: <https://developer.android.com/tools/dumpsys>.
 

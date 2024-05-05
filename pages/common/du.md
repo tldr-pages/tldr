@@ -26,3 +26,7 @@
 - List the human-readable size of all `.jpg` files in subdirectories of the current directory, and show a cumulative total at the end:
 
 `du -ch {{*/*.jpg}}`
+
+- List all files and directories (including hidden ones) above a certain [t]hreshold size (useful for investigating what is actually taking up the space):
+
+`du --all --human-readable --threshold {{1G|1024M|1048576K}} .[^.]* *`
