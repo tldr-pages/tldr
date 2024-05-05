@@ -1,17 +1,17 @@
 # svcs
 
-> Lista informacji o uruchomionych usługach.
+> Wyświetl informację o uruchomionych usługach.
 > Więcej informacji: <https://www.unix.com/man-page/linux/1/svcs>.
 
-- Lista wszystkich uruchomionych usług:
+- Wyświetl wszystkie uruchomione usługi:
 
 `svcs`
 
-- Lista wszystkich usług, które nie są uruchomione:
+- Wyświetl wszystkie usługi, które nie są uruchomione:
 
 `svcs -vx`
 
-- Lista informacji o usługach:
+- Wyświetl informację o usłudze:
 
 `svcs apache`
 
@@ -19,6 +19,6 @@
 
 `svcs -L apache`
 
-- Wyświetlenie końca pliku dziennika usługi:
+- Wyświetl koniec pliku dziennika usługi:
 
 `tail $(svcs -L apache)`
