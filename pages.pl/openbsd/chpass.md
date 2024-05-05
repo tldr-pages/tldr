@@ -1,6 +1,6 @@
 # chpass
 
-> Dodawanie lub zmiana informacji o użytkowniku w bazie danych, w tym powłoki logowania i hasła.
+> Dodaj lub zmień informacje o użytkowniku w bazie danych, w tym powłoki logowania i hasła.
 > Zobacz także: `passwd`.
 > Więcej informacji: <https://man.openbsd.org/chsh>.
 
@@ -10,12 +10,12 @@
 
 - Ustaw określoną powłokę (z ang. [s]hell) logowania dla bieżącego użytkownika:
 
-`doas chsh -s {{sciezka/do/powloki}}`
+`doas chsh -s {{ścieżka/do/powłoki}}`
 
-- Ustawia określoną powłokę (z ang. [s]hell) logowania dla określonego użytkownika:
+- Ustaw określoną powłokę (z ang. [s]hell) logowania dla określonego użytkownika:
 
-`doas chsh -s {{sciezka/do/powloki}} {{nazwa_uzytkownika}}`
+`doas chsh -s {{ścieżka/do/powłoki}} {{nazwa_użytkownika}}`
 
-- Określa wpis bazy danych użytkownika w formacie pliku `passwd`:
+- Określ wpis bazy danych użytkownika w formacie pliku `passwd`:
 
-`doas chsh -a {{nazwa_uzytkownika:zaszyfrowane_haslo:uid:gid:...}}`
+`doas chsh -a {{nazwa_użytkownika:zaszyfrowane_hasło:uid:gid:...}}`
