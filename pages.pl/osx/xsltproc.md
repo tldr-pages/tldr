@@ -9,4 +9,4 @@
 
 - Przekaż wartość do parametru w arkuszu stylów:
 
-`xsltproc --output {{ścieżka/do/pliku_wyjścia.html}} --stringparam "{{nazwa}}" "{{wartosc}}" {{ścieżka/do/arkusza_stylów.xslt}} {{ścieżka/do/pliku.xml}}`
+`xsltproc --output {{ścieżka/do/pliku_wyjścia.html}} --stringparam "{{nazwa}}" "{{wartość}}" {{ścieżka/do/arkusza_stylów.xslt}} {{ścieżka/do/pliku.xml}}`
