@@ -1,16 +1,16 @@
 # svccfg
 
-> Importowanie, eksportowanie i modyfikowanie konfiguracji usług.
+> Importuj, eksportuj i modyfikuj konfigurację usług.
 > Więcej informacji: <https://www.unix.com/man-page/linux/1m/svccfg>.
 
-- Sprawdzenie poprawności pliku konfiguracyjnego:
+- Sprawdź poprawność pliku konfiguracyjnego:
 
-`svccfg validate {{sciezka/do/pliku_smf.xml}}`
+`svccfg validate {{ścieżka/do/pliku_smf.xml}}`
 
-- Eksport konfiguracji usług do pliku:
+- Eksportuj konfigurację usług do pliku:
 
-`svccfg export {{nazwauslugi}} > {{sciezka/do/pliku_smf.xml}}`
+`svccfg export {{nazwa_usługi}} > {{ścieżka/do/pliku_smf.xml}}`
 
-- Importowanie/aktualizowanie konfiguracji usług z pliku:
+- Importuj/aktualizuj konfigurację usług z pliku:
 
-`svccfg import {{sciezka/do/pliku_smf.xml}}`
+`svccfg import {{ścieżka/do/pliku_smf.xml}}`
