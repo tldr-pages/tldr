@@ -1,4 +1,4 @@
-# fossil-new
+# fossil new
 
 > Dieser Befehl ist ein Alias von `fossil-init`.
 > Weitere Informationen: <https://fossil-scm.org/home/help/new>.

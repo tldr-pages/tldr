@@ -1,4 +1,4 @@
-# ip-route-list
+# ip route list
 
 > このコマンドは `ip-route-show` のエイリアスです。
 

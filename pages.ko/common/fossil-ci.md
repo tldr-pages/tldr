@@ -1,4 +1,4 @@
-# fossil-ci
+# fossil ci
 
 > 이 명령은 `fossil-commit` 의 에일리어스 (별칭) 입니다.
 > 더 많은 정보: <https://fossil-scm.org/home/help/commit>.

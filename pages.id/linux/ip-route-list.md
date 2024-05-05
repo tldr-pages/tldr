@@ -1,4 +1,4 @@
-# ip-route-list
+# ip route list
 
 > Perintah ini merupakan alias dari `ip-route-show`.
 

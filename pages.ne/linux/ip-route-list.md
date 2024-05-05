@@ -1,4 +1,4 @@
-# ip-route-list
+# ip route list
 
 > यो आदेश `ip-route-show` को उपनाम हो |
 

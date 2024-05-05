@@ -1,4 +1,4 @@
-# ip-route-list
+# ip route list
 
 > هذا الأمر هو اسم مستعار لـ `ip-route-show`.
 

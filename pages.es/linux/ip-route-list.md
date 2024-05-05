@@ -1,4 +1,4 @@
-# ip-route-list
+# ip route list
 
 > Este comando es un alias de `ip-route-show`.
 

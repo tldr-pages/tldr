@@ -1,4 +1,4 @@
-# gh-cs
+# gh cs
 
 > Dieser Befehl ist ein Alias von `gh-codespace`.
 > Weitere Informationen: <https://cli.github.com/manual/gh_codespace>.

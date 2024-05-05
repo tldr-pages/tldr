@@ -1,4 +1,4 @@
-# ip-route-list
+# ip route list
 
 > Эта команда — псевдоним для `ip-route-show`.
 

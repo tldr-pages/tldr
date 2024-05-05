@@ -1,4 +1,4 @@
-# fossil-ci
+# fossil ci
 
 > Bu komut `fossil-commit` için bir takma addır.
 > Daha fazla bilgi için: <https://fossil-scm.org/home/help/commit>.

@@ -1,4 +1,4 @@
-# ip-route-list
+# ip route list
 
 > ഈ കമാൻഡ് `ip-route-show` എന്നത്തിന്റെ അപരനാമമാണ്.
 

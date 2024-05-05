@@ -1,4 +1,4 @@
-# docker-build
+# docker build
 
 > Construit une image à partir d'un Dockerfile.
 > Plus d'informations : <https://docs.docker.com/engine/reference/commandline/build/>.

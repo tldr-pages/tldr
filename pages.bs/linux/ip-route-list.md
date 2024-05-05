@@ -1,4 +1,4 @@
-# ip-route-list
+# ip route list
 
 > Ova komanda je pseudonim za `ip-route-show`.
 

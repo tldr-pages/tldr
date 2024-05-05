@@ -1,4 +1,4 @@
-# fossil-ci
+# fossil ci
 
 > यह आदेश `fossil-commit` का उपनाम है।
 > अधिक जानकारी: <https://fossil-scm.org/home/help/commit>।

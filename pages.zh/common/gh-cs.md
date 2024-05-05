@@ -1,4 +1,4 @@
-# gh-cs
+# gh cs
 
 > 这是 `gh-codespace` 命令的一个别名。
 > 更多信息：<https://cli.github.com/manual/gh_codespace>.

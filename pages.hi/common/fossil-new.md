@@ -1,4 +1,4 @@
-# fossil-new
+# fossil new
 
 > यह आदेश `fossil-init` का उपनाम है।
 > अधिक जानकारी: <https://fossil-scm.org/home/help/new>।

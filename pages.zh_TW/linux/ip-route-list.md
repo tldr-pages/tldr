@@ -1,4 +1,4 @@
-# ip-route-list
+# ip route list
 
 > 這是 `ip-route-show` 命令的一個別名。
 

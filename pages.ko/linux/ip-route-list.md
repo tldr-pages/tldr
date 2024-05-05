@@ -1,4 +1,4 @@
-# ip-route-list
+# ip route list
 
 > 이 명령은 `ip-route-show` 의 에일리어스 (별칭) 입니다.
 
