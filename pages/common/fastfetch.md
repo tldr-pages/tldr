@@ -7,7 +7,7 @@
 
 `fastfetch`
 
-- Display system information without a logo:
+- Display system information without a logo and escape sequences:
 
 `fastfetch --pipe`
 
