@@ -1,6 +1,6 @@
 # pkg_add
 
-> Instalacja/aktualizacja pakietów w OpenBSD.
+> Instaluj/aktualizuj pakiety w OpenBSD.
 > Zobacz także: `pkg_info`, `pkg_delete`.
 > Więcej informacji: <https://man.openbsd.org/pkg_add>.
 
@@ -14,4 +14,4 @@
 
 - Zainstaluj pakiety z surowego wyjścia `pkg_info`:
 
-`pkg_add -l {{sciezka/do/pliku}}`
+`pkg_add -l {{ścieżka/do/pliku}}`
