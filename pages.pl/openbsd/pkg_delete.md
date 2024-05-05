@@ -1,6 +1,6 @@
 # pkg_delete
 
-> Usuwanie pakietów w OpenBSD.
+> Usuwaj pakiety w OpenBSD.
 > Zobacz także: `pkg_add`, `pkg_info`.
 > Więcej informacji: <https://man.openbsd.org/pkg_delete>.
 
@@ -12,6 +12,6 @@
 
 `pkg_delete -a {{pakiet}}`
 
-- Usuwanie pakietu "na sucho":
+- Usuń pakiet "na sucho":
 
 `pkg_delete -n {{pakiet}}`
