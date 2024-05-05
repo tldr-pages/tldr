@@ -1,7 +1,7 @@
 # nixos-container
 
 > Startet NixOS Container basierend auf Linux Containern.
-> Mehr Informationen: <https://nixos.org/manual/nixos/stable/#ch-containers>.
+> Weitere Informationen: <https://nixos.org/manual/nixos/stable/#ch-containers>.
 
 - Gibt eine Liste der gestarteten Container aus:
 
