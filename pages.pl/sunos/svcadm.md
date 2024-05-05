@@ -1,24 +1,24 @@
 # svcadm
 
-> Manipulowanie instancjami usług.
+> Manipuluj instancjami usług.
 > Więcej informacji: <https://www.unix.com/man-page/linux/1m/svcadm>.
 
-- Włączenie usługi w bazie danych usług:
+- Włącz usługę w bazie danych usług:
 
-`svcadm enable {{nazwa_uslugi}}`
+`svcadm enable {{nazwa_usługi}}`
 
-- Wyłączenie usługi:
+- Wyłącz usługę:
 
-`svcadm disable {{nazwa_uslugi}}`
+`svcadm disable {{nazwa_usługi}}`
 
-- Ponowne uruchomienie aktywnej usługi:
+- Ponownie uruchom aktywną usługę:
 
-`svcadm restart {{nazwa_uslugi}}`
+`svcadm restart {{nazwa_usługi}}`
 
-- Usługa poleceń do ponownego odczytu plików konfiguracyjnych:
+- Ponownie odczytaj pliki konfiguracyjne:
 
-`svcadm refresh {{nazwa_uslugi}}`
+`svcadm refresh {{nazwa_usługi}}`
 
-- Usunięcie usługi ze stanu konserwacji i polecenie jej uruchomienia:
+- Usuń usługę ze stanu konserwacji i ją uruchom:
 
-`svcadm clear {{nazwa_uslugi}}`
+`svcadm clear {{nazwa_usługi}}`
