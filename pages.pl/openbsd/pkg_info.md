@@ -1,6 +1,6 @@
 # pkg_info
 
-> Wyświetlanie informacji o pakietach w OpenBSD.
+> Wyświetl informację o pakietach w OpenBSD.
 > Zobacz także: `pkg_add`, `pkg_delete`.
 > Więcej informacji: <https://man.openbsd.org/pkg_info>.
 
@@ -8,6 +8,6 @@
 
 `pkg_info -Q {{pakiet}}`
 
-- Wyświetla listę zainstalowanych pakietów do użycia z `pkg_add -l`:
+- Wyświetl listę zainstalowanych pakietów do użycia z `pkg_add -l`:
 
 `pkg_info -mz`
