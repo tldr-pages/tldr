@@ -1,29 +1,29 @@
 # sed
 
-> Edycja tekstu w sposób skryptowalny.
+> Edytuj tekst w sposób skryptowalny.
 > Zobacz także: `awk`, `ed`.
 > Więcej informacji: <https://man.openbsd.org/sed.1>.
 
-- Zastąp wszystkie wystąpienia `jablko` (podstawowe wyrażenie regularne) przez `mango` (podstawowe wyrażenie regularne) we wszystkich liniach wejściowych i wypisuje wynik do `stdout`:
+- Zastąp wszystkie wystąpienia `jabłko` (podstawowe wyrażenie regularne) przez `mango` (podstawowe wyrażenie regularne) we wszystkich liniach wejściowych i wypisuje wynik do `stdout`:
 
-`{{komenda}} | sed 's/jablko/mango/g'`
+`{{komenda}} | sed 's/jabłko/mango/g'`
 
-- Wykonuje określony plik (z ang. [f]ile) skryptu i wypisuje wynik do `stdout`:
+- Wykonaj określony plik (z ang. [f]ile) skryptu i wypisz jego wynik do `stdout`:
 
-`{{komenda}} | sed -f {{sciezka/do/skryptu.sed}}`
+`{{komenda}} | sed -f {{ścieżka/do/skryptu.sed}}`
 
-- Opóźnia otwarcie każdego pliku do momentu, gdy polecenie zawierające powiązaną funkcję lub flagę `w` zostanie zastosowane do linii wejścia:
+- Opóźnij otwarcie każdego pliku do momentu, gdy polecenie zawierające powiązaną funkcję lub flagę `w` zostanie zastosowane do linii wejścia:
 
-`{{komenda}} | sed -fa {{sciezka/do/skryptu.sed}}`
+`{{komenda}} | sed -fa {{ścieżka/do/skryptu.sed}}`
 
-- Zastąp wszystkie wystąpienia `jablko` (rozszerzone wyrażenie regularne) przez `JABLKO` (rozszerzone wyrażenie regularne) we wszystkich liniach wejściowych i wypisuje wynik do `stdout`:
+- Zastąp wszystkie wystąpienia `jabłko` (rozszerzone wyrażenie regularne) przez `JABŁKO` (rozszerzone wyrażenie regularne) we wszystkich liniach wejściowych i wypisuje wynik do `stdout`:
 
-`{{komenda}} | sed -E 's/(jablko)/\U\1/g'`
+`{{komenda}} | sed -E 's/(jabłko)/\U\1/g'`
 
 - Wypisz tylko pierwszą linię do `stdout`:
 
 `{{komenda}} | sed -n '1p'`
 
-- Zastąp wszystkie wystąpienia `jablko` (podstawowe wyrażenie regularne) przez `mango` (podstawowe wyrażenie regularne) w określonym pliku i nadpisuje oryginalny plik:
+- Zastąp wszystkie wystąpienia `jabłko` (podstawowe wyrażenie regularne) przez `mango` (podstawowe wyrażenie regularne) w określonym pliku i nadpisuje oryginalny plik:
 
-`sed -i 's/jablko/mango/g' {{sciezka/do/pliku}}`
+`sed -i 's/jabłko/mango/g' {{ścieżka/do/pliku}}`
