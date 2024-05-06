@@ -14,7 +14,7 @@
 
 - Upload a takeout file using server and key from a config file:
 
-`immich-go -use-configuration={{$HOME/.immich-go/immich-go.json}} upload {{path/to/takeout.zip}}`
+`immich-go -use-configuration={{~/.immich-go/immich-go.json}} upload {{path/to/takeout_file.zip}}`
 
 - Examine Immich server content, remove less quality images, and preserve albums:
 
