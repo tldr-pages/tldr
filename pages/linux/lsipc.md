@@ -24,6 +24,6 @@
 
 `lsipc {{--raw|--json|--list|--export}}`
 
-- Don't truncate output:
+- Don't truncate the output:
 
 `lsipc --notruncate`
