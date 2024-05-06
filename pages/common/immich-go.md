@@ -22,4 +22,4 @@
 
 - Delete all albums created with the pattern "YYYY-MM-DD":
 
-`immich-go -server={{http://mynas:2283}} -key={{MyL0NgK3y}} tool album delete {{\d{4}-\d{2}-\d{2}}}`
+`immich-go -server={{server_url}} -key={{server_key}} tool album delete {{\d{4}-\d{2}-\d{2}}}`
