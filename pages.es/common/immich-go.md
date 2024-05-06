@@ -10,7 +10,7 @@
 
 - Importa fotos capturadas en junio del 2019, mientras se generan los álbumes automáticamente:
 
-`immich-go -server={{http://dominio_o_ip_de_servidor:2283}} -key={{clave_de_servidor}} upload -create-albums -google-photos -date={{2019-06}} {{ruta/a/archivo_takeout.zip}}`
+`immich-go -server={{url_del_servidor}} -key={{clave_del_servidor}} upload -create-albums -google-photos -date={{2019-06}} {{ruta/a/archivo_takeout.zip}}`
 
 - Sube un archivo usando servidor y clave de un archivo de configuración:
 
