@@ -18,7 +18,7 @@
 
 - Examina el contenido del servidor Immich, elimina las imágenes de menor calidad y preserva álbumes:
 
-`immich-go -server={{http://dominio_o_ip_de_servidor:2283}} -key={{clave_del_servidor}} duplicate -yes`
+`immich-go -server={{url_del_servidor}} -key={{clave_del_servidor}} duplicate -yes`
 
 - Elimina todos los álbumes creados con el patrón "YYYY-MM-DD":
 
