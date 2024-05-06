@@ -4,7 +4,7 @@
 """
 A Python script to check for bad (HTTP status code different than 200) "More information" URLs across all pages.
 
-These bad codes typically indicate a page not found or a redirection. They are written to bad-urls.txt with their respective URLs.
+These bad codes typically indicate a page not found or a redirection. They are written to bad-urls.csv with their respective URLs.
 
 Usage:
     python3 scripts/check-more-info-urls.py
@@ -22,32 +22,26 @@ MAX_CONCURRENCY = 500
 sem = asyncio.Semaphore(MAX_CONCURRENCY)
 
 
-async def find_md_files(search_path: AsyncPath) -> list[AsyncPath]:
-    """Find all .md files in the specified search path."""
-    md_files = set()
-    async for path_dir in search_path.glob("*"):
-        await aprint(path_dir.name)
-        async for file in search_path.glob("*/*.md"):
-            md_files.add(file)
+class CodeColors:
+    OK = "\033[92m"  # green
+    WARNING = "\033[93m"  # yellow
+    ERROR = "\033[91m"  # red
+    TOO_MANY_REQUESTS = "\033[35m"  # bold
+    UNKNOWN = "\033[4m"  # underline
+    RESET = "\033[0m"  # reset to no formatting
+
+
+async def find_md_files(pages_path: AsyncPath) -> list[AsyncPath]:
+    """Find all .md files in the specified pages path."""
+    md_files = []
+    async for path_dir in pages_path.glob("*"):
+        await aprint(f"  {path_dir.name}: got pages")
+        async for file in pages_path.glob("*/*.md"):
+            md_files.append(file)
     return md_files
 
 
-async def append_if_is_file(path_list: list[AsyncPath], path: AsyncPath):
-    """Append the file to the list if it exists"""
-    if await path.is_file():
-        path_list.add(path)
-
-
-async def filter_files(md_files: list[AsyncPath]) -> list[AsyncPath]:
-    """Filter out non-file paths from the list."""
-    filtered_files = set()
-    await asyncio.gather(
-        *(append_if_is_file(filtered_files, path) for path in md_files)
-    )
-    return filtered_files
-
-
-async def process_file(
+async def extract_and_check_url(
     file: AsyncPath,
     writer: Writer,
     output_file: AsyncPath,
@@ -59,7 +53,9 @@ async def process_file(
             try:
                 content = await f.read()
             except Exception as e:
-                await aprint(f"Error: {e}, File: {file.parts[-3:]}")
+                await aprint(
+                    f"{CodeColors.ERROR}Error: {e}, File: {file.parts[-3:]}{CodeColors.RESET}"
+                )
                 return
 
     url = extract_url(content)
@@ -79,6 +75,23 @@ def extract_url(content: str) -> list[str]:
     )
 
 
+async def aprint_colored_status_code_and_url(code: int, url: str):
+    """Print the properly colored status code along with its URL."""
+    color = CodeColors.RESET
+    match code:
+        case 200:
+            color = CodeColors.OK
+        case 404:
+            color = CodeColors.ERROR
+        case 301:
+            color = CodeColors.WARNING
+        case 301 | 429 | 504 | -1:
+            color = CodeColors.TOO_MANY_REQUESTS
+        case _:
+            color = CodeColors.UNKNOWN
+    await aprint(f"{color}{code}{CodeColors.RESET} {url}")
+
+
 async def check_url_and_write_if_bad(
     url: str, writer: Writer, output_file: AsyncPath, session: aiohttp.ClientSession
 ) -> None:
@@ -86,7 +99,7 @@ async def check_url_and_write_if_bad(
     await aprint(f"??? {url}")
     code = -1
     try:
-        code = await check_url(url, session)
+        code = await get_url_status_code(url, session)
     except aiohttp.ClientError as exc:
         if hasattr(exc, "strerr"):
             await aprint(f"\033[31m{exc.strerr}\033[0m")
@@ -94,25 +107,25 @@ async def check_url_and_write_if_bad(
             await aprint(f"\033[31m{exc.message}\033[0m")
         else:
             await aprint(f"\033[31m{exc}\033[0m")
-    await aprint(f"{code} {url}")
+    await aprint_colored_status_code_and_url(code, url)
 
-    if 200 > code or code >= 400:
-        await writer(f"{code}|{url}\n")
+    if code != 200:
+        await writer(f'{code},"{url}"\n')
 
 
-async def check_url(url: str, session: aiohttp.ClientSession) -> int:
+async def get_url_status_code(url: str, session: aiohttp.ClientSession) -> int:
     """Get the status code of a URL."""
     async with session.head(url) as response:
         return response.status
 
 
 async def find_and_write_bad_urls(
-    output_file: AsyncPath, search_path: str = "."
+    output_file: AsyncPath, pages_path: str = "./pages"
 ) -> None:
-    """Find and write bad URLs to a specified file."""
-    search_path = AsyncPath(search_path)
-    await aprint("Getting pages...")
-    md_files = await filter_files(await find_md_files(search_path))
+    """Find and write URLs with bad status codes (!= 200) to a CSV file."""
+    pages_path = AsyncPath(pages_path)
+    await aprint("Getting the pages of all platforms...")
+    md_files = await find_md_files(pages_path)
     await aprint("Found all pages!")
 
     async with AIOFile(output_file.name, "a") as afp:
@@ -121,13 +134,16 @@ async def find_and_write_bad_urls(
             trust_env=True, timeout=aiohttp.ClientTimeout(total=500)
         ) as session:
             await asyncio.gather(
-                *(process_file(file, writer, output_file, session) for file in md_files)
+                *(
+                    extract_and_check_url(file, writer, output_file, session)
+                    for file in md_files
+                )
             )
         await afp.fsync()
 
 
 async def main():
-    await find_and_write_bad_urls(AsyncPath("bad-urls.txt"), search_path="./pages")
+    await find_and_write_bad_urls(AsyncPath("bad-urls.csv"))
 
 
 if __name__ == "__main__":
