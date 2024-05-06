@@ -1,7 +1,7 @@
 # cat
 
 > چاپ و ترکیب کردن فایل ها.
-> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/cat>.
+> اطلاعات بیشتر: <https://manned.org/cat.1posix>.
 
 - چاپ محتویات فایل بر روی صفحه نمایش:
 

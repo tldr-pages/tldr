@@ -1,7 +1,7 @@
 # nixos-rebuild
 
 > Rekonfiguriere eine NixOS-Maschine.
-> Mehr Information: <https://nixos.org/nixos/manual/#sec-changing-config>.
+> Weitere Informationen: <https://nixos.org/nixos/manual/#sec-changing-config>.
 
 - Erstelle und wechsle zu einer neuen Konfiguration und nutze diese künftig als Standardkonfiguration:
 

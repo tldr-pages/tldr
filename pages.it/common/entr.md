@@ -1,7 +1,7 @@
 # entr
 
 > Esegui comandi arbitrari al cambiamento di file.
-> Maggiori informazioni: <https://manned.org/entr>.
+> Maggiori informazioni: <http://eradman.com/entrproject/>.
 
 - Ricompila con `make` se qualsiasi file in quasiasi sottodirectory cambia:
 
