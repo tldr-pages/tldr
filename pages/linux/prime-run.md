@@ -9,4 +9,4 @@
 
 - Validate whether the Nvidia card is being used:
 
-` prime-run glxinfo | grep "OpenGL renderer"`
+`prime-run glxinfo | grep "OpenGL renderer"`
