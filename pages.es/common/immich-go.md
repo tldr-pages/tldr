@@ -6,7 +6,7 @@
 
 - Sube un archivo takeout de Google al servidor Immich:
 
-`immich-go -server={{http://dominio_o_ip_de_servidor:2283}} -key={{clave_de_servidor}} upload {{ruta/a/archivo_takeout.zip}}`
+`immich-go -server={{url_del_servidor}} -key={{clave_de_servidor}} upload {{ruta/a/archivo_takeout.zip}}`
 
 - Importa fotos capturadas en junio del 2019, mientras se generan los álbumes automáticamente:
 
