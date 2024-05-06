@@ -18,7 +18,7 @@
 
 - Examine Immich server content, remove less quality images, and preserve albums:
 
-`immich-go -server={{http://mynas:2283}} -key={{MyL0NgK3y}} duplicate -yes`
+`immich-go -server={{server_url}} -key={{server_key}} duplicate -yes`
 
 - Delete all albums created with the pattern "YYYY-MM-DD":
 
