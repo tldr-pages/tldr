@@ -1,6 +1,6 @@
 # prime-run
 
-> Run a program using alternative Nvidia graphics.
+> Run a program using an alternative Nvidia graphics card.
 > More information: <https://wiki.archlinux.org/title/PRIME#PRIME_render_offload>.
 
 - Run a program using an Nvidia dedicated GPU:
