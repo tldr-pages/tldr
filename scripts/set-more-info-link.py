@@ -5,7 +5,7 @@
 This script sets the "More information" link for all translations of a page.
 It can be used to add or update the links in translations.
 
-Note: Before running this script, ensure that TLDR_ROOT is set to the location
+Note: Before running this script from another directory as tldr, ensure that TLDR_ROOT is set to the location
 of a clone of https://github.com/tldr-pages/tldr, and 'git' is available.
 If there is a symlink error when using the stage flag remove the `pages.en`
 directory temporarily and try executing it again.
@@ -13,14 +13,14 @@ directory temporarily and try executing it again.
 Usage: python3 scripts/set-more-info-link.py [-p PAGE] [-s] [-S] [-n] [LINK]
 
 Supported Arguments:
-    -p, --page    Specify the page name in the format "platform/command.md".
-                  This option allows setting the link for a specific page.
-    -s, --stage   Stage modified pages for commit. This option requires 'git'
-                  to be on the $PATH and TLDR_ROOT to be a Git repository.
-    -S, --sync    Synchronize each translation's more information link (if
-                  exists) with that of the English page. This is useful to
-                  ensure consistency across translations.
-    -n, --dry-run Show what changes would be made without actually modifying the page.
+    -p, --page PAGE
+        Specify the page name in the format "platform/command.md". This option allows setting the link for a specific page.
+    -s, --stage
+        Stage modified pages for commit. This option requires 'git' to be on the $PATH and TLDR_ROOT to be a Git repository.
+    -S, --sync
+        Synchronize each translation's more information link (if exists) with that of the English page. This is useful to ensure consistency across translations.
+    -n, --dry-run
+        Show what changes would be made without actually modifying the page.
 
 Positional Argument:
     LINK          The link to be set as the "More information" link.
@@ -91,12 +91,13 @@ IGNORE_FILES = (".DS_Store",)
 
 
 def get_tldr_root() -> Path:
+    # If this script is running from tldr/scripts, the parent's parent is the root
     f = Path(__file__).resolve()
-    return next(path for path in f.parents if path.name == "tldr")
-
-    if "TLDR_ROOT" in os.environ:
+    if "tldr" in str(f):
+        return next(path for path in f.parents if path.name == "tldr")
+    elif "TLDR_ROOT" in os.environ:
         return Path(os.environ["TLDR_ROOT"])
-    raise SystemError(
+    raise SystemExit(
         "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
     )
 

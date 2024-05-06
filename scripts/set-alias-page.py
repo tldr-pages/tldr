@@ -8,7 +8,9 @@ Disclaimer: This script generates a lot of false positives so it
 isn't suggested to use the sync option. If used, only stage changes
 and commit verified changes for your language.
 
-Note: If there is a symlink error when using the stage flag remove the `pages.en`
+Note: Before running this script from another directory as tldr, ensure that TLDR_ROOT is set to the location
+of a clone of https://github.com/tldr-pages/tldr, and 'git' is available.
+If there is a symlink error when using the stage flag remove the `pages.en`
 directory temporarily and try executing it again.
 
 Usage:
@@ -24,15 +26,23 @@ Options:
     -n, --dry-run
         Show what changes would be made without actually modifying the page.
 
+Positional Argument:
+    COMMAND          The command to be set as the alias command.
 
 Examples:
     1. Add 'vi' as an alias page of 'vim':
        python3 scripts/set-alias-page.py -p common/vi vim
+       python3 scripts/set-alias-page.py --page common/vi vim
 
     2. Read English alias pages and synchronize them into all translations:
        python3 scripts/set-alias-page.py -S
+       python3 scripts/set-alias-page.py --sync
 
-    3. Read English alias pages and show what changes would be made:
+    3. Read English alias pages, synchronize them into all translations and stage modified pages for commit:
+       python3 scripts/set-more-info-link.py -Ss
+       python3 scripts/set-more-info-link.py --sync --stage
+
+    4. Read English alias pages and show what changes would be made:
        python3 scripts/set-alias-page.py -Sn
        python3 scripts/set-alias-page.py --sync --dry-run
 """
@@ -41,6 +51,7 @@ import argparse
 import os
 import re
 import subprocess
+from pathlib import Path
 
 IGNORE_FILES = (".DS_Store", "tldr.md", "aria2.md")
 
@@ -51,16 +62,14 @@ def get_tldr_root():
     """
 
     # If this script is running from tldr/scripts, the parent's parent is the root
-    f = os.path.normpath(__file__)
-    if f.endswith("tldr/scripts/set-alias-page.py"):
-        return os.path.dirname(os.path.dirname(f))
-
-    if "TLDR_ROOT" in os.environ:
-        return os.environ["TLDR_ROOT"]
-    else:
-        raise SystemExit(
-            "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr.\x1b[0m"
-        )
+    f = Path(__file__).resolve()
+    if "tldr" in str(f):
+        return next(path for path in f.parents if path.name == "tldr")
+    elif "TLDR_ROOT" in os.environ:
+        return Path(os.environ["TLDR_ROOT"])
+    raise SystemExit(
+        "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
+    )
 
 
 def get_templates(root):
