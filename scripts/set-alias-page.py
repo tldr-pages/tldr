@@ -18,7 +18,7 @@ Options:
     -p, --page PAGE
         Specify the alias page in the format "platform/alias_command.md".
     -l, --language LANGUAGE
-        Specify the language, in the format "fr", for which you want to sync or show any changes.
+        Specify the language, in the format "fr" or "pt_BR", for which you want to sync or show any changes.
     -s, --stage
         Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
     -S, --sync
