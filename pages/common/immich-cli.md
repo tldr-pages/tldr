@@ -6,7 +6,7 @@
 
 - Authenticate to Immich server:
 
-`immich login {{http://192.168.1.69:2283/api}} {{HFEJ38DNSDUEG}}`
+`immich login {{server_url/api}} {{server_key}}`
 
 - Upload some image files:
 
