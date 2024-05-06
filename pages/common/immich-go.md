@@ -6,7 +6,7 @@
 
 - Upload a Google Photos takeout file to Immich server:
 
-`immich-go -server={{http://mynas:2283}} -key={{MyL0NgK3y}} upload {{path/to/takeout.zip}}`
+`immich-go -server={{server_url}} -key={{server_key}} upload {{path/to/takeout_file.zip}}`
 
 - Import photos captured on June 2019, while auto-generating albums:
 
