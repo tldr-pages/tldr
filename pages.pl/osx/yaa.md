@@ -1,28 +1,28 @@
 # yaa
 
-> Tworzenie archiwów YAA i manipulowanie nimi.
+> Twórz i manipuluj archiwami YAA.
 > Więcej informacji: <https://keith.github.io/xcode-man-pages/yaa.1.html>.
 
-- Tworzenie archiwum z katalogu:
+- Utwórz archiwum z katalogu:
 
-`yaa archive -d {{sciezka/do/katalogu}} -o {{sciezka/do/pliku_wyjscia.yaa}}`
+`yaa archive -d {{ścieżka/do/katalogu}} -o {{ścieżka/do/pliku_wyjścia.yaa}}`
 
-- Tworzenie archiwum z pliku:
+- Utwórz archiwum z pliku:
 
-`yaa archive -i {{sciezka/do/pliku}} -o {{sciezka/do/pliku_wyjscia.yaa}}`
+`yaa archive -i {{ścieżka/do/pliku}} -o {{ścieżka/do/pliku_wyjścia.yaa}}`
 
-- Wypakowanie archiwum do obecnego folderu:
+- Wypakuj archiwum do obecnego folderu:
 
-`yaa extract -i {{sciezka/do/pliku_archiwum.yaa}}`
+`yaa extract -i {{ścieżka/do/pliku_archiwum.yaa}}`
 
-- Lista zawartości archiwum:
+- Wyświetl zawartość archiwum:
 
-`yaa list -i {{sciezka/do/pliku_archiwum.yaa}}`
+`yaa list -i {{ścieżka/do/pliku_archiwum.yaa}}`
 
-- Tworzenie archiwum z określonym algorytmem kompresji:
+- Utwórz archiwum z określonym algorytmem kompresji:
 
-`yaa archive -a {{algorytm}} -d {{sciezka/do/folderu}} -o {{sciezka/do/pliku_wyjscia.yaa}}`
+`yaa archive -a {{algorytm}} -d {{ścieżka/do/folderu}} -o {{ścieżka/do/pliku_wyjścia.yaa}}`
 
 - Utwórz archiwum o rozmiarze bloku 8 MB:
 
-`yaa archive -b {{8m}} -d {{sciezka/do/folderu}} -o {{sciezka/do/pliku_wyjscia.yaa}}`
+`yaa archive -b {{8m}} -d {{ścieżka/do/folderu}} -o {{ścieżka/do/pliku_wyjścia.yaa}}`
