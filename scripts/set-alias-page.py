@@ -18,7 +18,7 @@ Options:
     -p, --page PAGE
         Specify the alias page in the format "platform/alias_command.md".
     -l, --language LANGUAGE
-        Specify the language, in the format "fr" or "pt_BR", for which you want to sync or show any changes.
+        Specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
     -s, --stage
         Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
     -S, --sync
@@ -136,7 +136,7 @@ def get_alias_page(file):
     return ""
 
 
-def set_alias_page(file, command, dry_run=False, language=""):
+def set_alias_page(file, command, dry_run=False, language_to_update=""):
     """
     Write an alias page to disk.
 
@@ -144,7 +144,7 @@ def set_alias_page(file, command, dry_run=False, language=""):
     file (string): Path to an alias page
     command (string): The command that the alias stands for.
     dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
-    language (string): Optionally the language we want to update.
+    language_to_update (string): Optionally, the language of the translation to be updated.
 
     Returns:
     str: Execution status
@@ -159,7 +159,9 @@ def set_alias_page(file, command, dry_run=False, language=""):
         _, locale = pages_dir.split(".")
     else:
         locale = "en"
-    if locale not in templates or (language != "" and locale != language):
+    if locale not in templates or (
+        language_to_update != "" and locale != language_to_update
+    ):
         return ""
 
     # Test if the alias page already exists
@@ -195,7 +197,9 @@ def set_alias_page(file, command, dry_run=False, language=""):
     return status
 
 
-def sync(root, pages_dirs, alias_name, orig_command, dry_run=False, language=""):
+def sync(
+    root, pages_dirs, alias_name, orig_command, dry_run=False, language_to_update=""
+):
     """
     Synchronize an alias page into all translations.
 
@@ -205,7 +209,7 @@ def sync(root, pages_dirs, alias_name, orig_command, dry_run=False, language="")
     alias_name (str): An alias command with .md extension like "vi.md".
     orig_command (string): An Original command like "vim".
     dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
-    language (string): Optionally the language we want to update.
+    language_to_update (string): Optionally, the language of the translation to be updated.
 
     Returns:
     list: A list of paths to be staged into git, using by --stage option.
@@ -213,7 +217,7 @@ def sync(root, pages_dirs, alias_name, orig_command, dry_run=False, language="")
     rel_paths = []
     for page_dir in pages_dirs:
         path = os.path.join(root, page_dir, alias_name)
-        status = set_alias_page(path, orig_command, dry_run, language)
+        status = set_alias_page(path, orig_command, dry_run, language_to_update)
         if status != "":
             rel_path = path.replace(f"{root}/", "")
             rel_paths.append(rel_path)
@@ -239,7 +243,7 @@ def main():
         type=str,
         required=False,
         default="",
-        help='language in the format "ll" or "ll_CC" as in "fr" or "pt_BR"',
+        help='language in the format "ll" or "ll_CC" (e.g. "fr" or "pt_BR")',
     )
     parser.add_argument(
         "-s",
