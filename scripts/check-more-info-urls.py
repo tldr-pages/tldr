@@ -32,13 +32,8 @@ class CodeColors:
 
 
 async def find_all_pages(pages_path: AsyncPath) -> list[AsyncPath]:
-    """Find all pages (*.md files) in the specified pages path."""
-    pages = []
-    async for path_dir in pages_path.glob("*"):
-        await aprint(f"  {path_dir.name}: got pages")
-        async for page in pages_path.glob("*/*.md"):
-            pages.append(page)
-    return pages
+    """Find all pages (*.md files) of all platforms in the given pages path."""
+    return [page async for page in pages_path.glob("*/*.md")]
 
 
 async def parse_and_make_request(
