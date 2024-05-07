@@ -205,7 +205,7 @@ def sync_alias(
         if status != "":
             rel_path = "/".join(path.parts[-3:])
             rel_paths.append(rel_path)
-            #print(f"\x1b[32m{rel_path} {status}\x1b[0m")
+            print(f"\x1b[32m{rel_path} {status}\x1b[0m")
     return rel_paths
 
 
