@@ -49,7 +49,6 @@ from _common import (
     get_pages_dir,
     get_locale,
     get_status,
-    sync,
     stage,
     create_colored_line,
     create_argument_parser,
@@ -167,10 +166,19 @@ def get_link(path: Path) -> str:
         return ""
 
 
-def sync_link(
+def sync(
     root: Path, pages_dirs: list[str], command: str, link: str, dry_run=False
 ) -> list[str]:
-    return sync(root, pages_dirs, command, link, set_link, dry_run)
+    paths = []
+    for page_dir in pages_dirs:
+        path = root / page_dir / command
+        if path.exists():
+            rel_path = "/".join(path.parts[-3:])
+            status = set_link(path, link, dry_run)
+            if status != "":
+                paths.append(path)
+                print(f"\x1b[32m{rel_path} {status}\x1b[0m")
+    return paths
 
 
 def main():
@@ -220,9 +228,7 @@ def main():
             for command in commands:
                 link = get_link(root / "pages" / command)
                 if link != "":
-                    target_paths += sync_link(
-                        root, pages_dirs, command, link, args.dry_run
-                    )
+                    target_paths += sync(root, pages_dirs, command, link, args.dry_run)
 
     # Use '--stage' option
     if args.stage and not args.dry_run and len(target_paths) > 0:

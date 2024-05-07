@@ -53,21 +53,16 @@ import os
 import re
 from pathlib import Path
 from _common import (
-    IGNORE_FILES,
     get_tldr_root,
     get_pages_dir,
     get_locale,
     get_status,
-    sync,
     stage,
     create_colored_line,
     create_argument_parser,
 )
 
-IGNORE_FILES = IGNORE_FILES + (
-    "tldr.md",
-    "aria2.md",
-)
+IGNORE_FILES = (".DS_Store", "tldr.md", "aria2.md")
 
 
 def get_templates(root):
@@ -197,13 +192,21 @@ def sync_alias(
     root (str): TLDR_ROOT
     pages_dirs (list of str): Strings of page entry and platform, e.g. "page.fr/common".
     alias_name (str): An alias command with .md extension like "vi.md".
-    original_command (string): A command like "vim".
+    original_command: (str): An Original command like "vim".
     dry_run (bool): Whether to perform a dry-run.
 
     Returns:
     list: A list of paths to be staged into git, using by --stage option.
     """
-    return sync(root, pages_dirs, alias_name, original_command, set_alias_page, dry_run)
+    rel_paths = []
+    for page_dir in pages_dirs:
+        path = root / page_dir / alias_name
+        status = set_alias_page(path, original_command, dry_run)
+        if status != "":
+            rel_path = "/".join(path.parts[-3:])
+            rel_paths.append(rel_path)
+            #print(f"\x1b[32m{rel_path} {status}\x1b[0m")
+    return rel_paths
 
 
 def main():
