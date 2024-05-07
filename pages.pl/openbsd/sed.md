@@ -24,6 +24,6 @@
 
 `{{komenda}} | sed -n '1p'`
 
-- Zastąp wszystkie wystąpienia `jabłko` (podstawowe wyrażenie regularne) przez `mango` (podstawowe wyrażenie regularne) w określonym pliku i nadpisuje oryginalny plik:
+- Zastąp wszystkie wystąpienia `jabłko` (podstawowe wyrażenie regularne) przez `mango` (podstawowe wyrażenie regularne) w określonym pliku i nadpisz oryginalny plik:
 
 `sed -i 's/jabłko/mango/g' {{ścieżka/do/pliku}}`
