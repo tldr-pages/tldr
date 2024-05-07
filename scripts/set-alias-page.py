@@ -8,8 +8,8 @@ Disclaimer: This script generates a lot of false positives so it
 isn't suggested to use the sync option. If used, only stage changes
 and commit verified changes for your language.
 
-Note: If the current directory or one of its parents is called "tldr", the script will assume it is the tldr root, i.e., the directory that contains a clone of https://github.com/tldr-pages/tldr. If you aren't, the script will use TLDR_ROOT as the tldr
-root. Also, ensure 'git' is available.
+Note: If the current directory or one of its parents is called "tldr", the script will assume it is the tldr root, i.e., the directory that contains a clone of https://github.com/tldr-pages/tldr. 
+If you aren't, the script will use TLDR_ROOT as the tldr root. Also, ensure 'git' is available.
 If there is a symlink error when using the stage flag remove the `pages.en`
 directory temporarily and try executing it again.
 
