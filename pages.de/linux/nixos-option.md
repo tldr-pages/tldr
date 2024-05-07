@@ -1,7 +1,7 @@
 # nixos-option
 
 > Prüfe eine NixOS Konfiguration.
-> Mehr Informationen: <https://nixos.org/manual/nixos/stable/index.html#sec-modularity>.
+> Weitere Informationen: <https://nixos.org/manual/nixos/stable/index.html#sec-modularity>.
 
 - Liste alle Unterschlüssel eines angegebenen Options-Schlüssels:
 

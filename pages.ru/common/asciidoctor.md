@@ -9,7 +9,7 @@
 
 - Преобразовать данный `.adoc` файл в HTML и привязать к таблице стилей CSS:
 
-`asciidoctor -a stylesheet={{путь/до/таблицы-стилей.css}} {{путь/до/файла.adoc}}`
+`asciidoctor -a stylesheet {{путь/до/таблицы-стилей.css}} {{путь/до/файла.adoc}}`
 
 - Преобразовать данный `.adoc` файл во встраиваемый HTML, убрав всё кроме самого текста:
 
@@ -17,4 +17,4 @@
 
 - Преобразовать данный `.adoc` файл в PDF с помощью библиотеки `asciidoctor-pdf`:
 
-`asciidoctor --backend={{pdf}} --require={{asciidoctor-pdf}} {{путь/до/файла.adoc}}`
+`asciidoctor --backend {{pdf}} --require {{asciidoctor-pdf}} {{путь/до/файла.adoc}}`

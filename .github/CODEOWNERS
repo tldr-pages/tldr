@@ -17,7 +17,8 @@
 
 /pages/linux/ @cyqsimon
 
-/*.md @sbrl @kbdharun
+/*.md @sbrl @kbdharun @sebastiaanspeck
+/.devcontainer/* @kbdharun @sebastiaanspeck
 /.github/workflows/* @sbrl @kbdharun @sebastiaanspeck
 /scripts/* @sebastiaanspeck
 

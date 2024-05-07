@@ -2,7 +2,7 @@
 
 > Herramienta de exploración de redes y escáner de seguridad/puertos.
 > Algunas funciones sólo se activan cuando Nmap se ejecuta con privilegios de root.
-> Más información: <https://nmap.org>.
+> Más información: <https://nmap.org/book/man.html>.
 
 - Comprueba si una dirección IP está activa y adivina el sistema operativo del host remoto:
 
