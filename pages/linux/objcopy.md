@@ -1,7 +1,7 @@
 # objcopy
 
 > The GNU objcopy utility copies the contents of an object file to another.
-> More Information: <https://manned.org/objcopy>.
+> More information: <https://manned.org/objcopy>.
 
 - Copy data to another file:
 
