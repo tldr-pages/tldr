@@ -176,7 +176,7 @@ def set_alias_page(file, command, dry_run=False):
         action = "updated"
 
     if dry_run:
-        status = f"page will be {action}"
+        status = f"page would be {action}"
     else:
         status = f"page {action}"
 

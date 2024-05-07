@@ -151,7 +151,7 @@ def set_link(path: Path, link: str, dry_run=False) -> str:
         action = "added"
 
     if dry_run:
-        status = f"link will be {action}"
+        status = f"link would be {action}"
     else:
         status = f"link {action}"
 
