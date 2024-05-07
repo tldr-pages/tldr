@@ -189,7 +189,7 @@ def sync_alias(
     Synchronize an alias page into all translations.
 
     Parameters:
-    root (str): TLDR_ROOT
+    root (Path): TLDR_ROOT
     pages_dirs (list of str): Strings of page entry and platform, e.g. "page.fr/common".
     alias_name (str): An alias command with .md extension like "vi.md".
     original_command: (str): An Original command like "vim".
