@@ -4,7 +4,7 @@
 > Zobacz także: `awk`, `ed`.
 > Więcej informacji: <https://man.openbsd.org/sed.1>.
 
-- Zastąp wszystkie wystąpienia `jabłko` (podstawowe wyrażenie regularne) przez `mango` (podstawowe wyrażenie regularne) we wszystkich liniach wejściowych i wypisuje wynik do `stdout`:
+- Zastąp wszystkie wystąpienia `jabłko` (podstawowe wyrażenie regularne) przez `mango` (podstawowe wyrażenie regularne) we wszystkich liniach wejściowych i wypisz wynik do `stdout`:
 
 `{{komenda}} | sed 's/jabłko/mango/g'`
 
