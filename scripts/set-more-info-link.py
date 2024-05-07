@@ -7,8 +7,7 @@ It can be used to add or update the links in translations.
 
 Note: If the current directory or one of its parents is called "tldr", the script will assume it is the tldr root, i.e., the directory that contains a clone of https://github.com/tldr-pages/tldr
 If you aren't, the script will use TLDR_ROOT as the tldr root. Also, ensure 'git' is available.
-If there is a symlink error when using the stage flag remove the `pages.en`
-directory temporarily and try executing it again.
+If there is a symlink error when using the stage flag remove the `pages.en` directory temporarily and try executing it again.
 
 Usage: python3 scripts/set-more-info-link.py [-p PAGE] [-s] [-S] [-n] [LINK]
 
