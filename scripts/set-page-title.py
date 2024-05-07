@@ -73,7 +73,7 @@ def set_title(path: Path, title: str, dry_run=False) -> str:
         return ""
 
     if dry_run:
-        status = "title will be updated"
+        status = "title would be updated"
     else:
         status = "title updated"
 
