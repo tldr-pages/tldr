@@ -19,7 +19,7 @@
 
 `cal -y`
 
-- Wyświetl dni [j]uliańskie (zaczynając od jednego, numerowane od 1 stycznia):
+- Wyświetl dni [j]uliańskie (zaczynając od jeden, numerowane od 1 stycznia):
 
 `cal -j`
 
