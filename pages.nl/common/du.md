@@ -27,6 +27,6 @@
 
 `du -ch {{*/*.jpg}}`
 
-- Toont alle bestanden en mappen (inclusief verborgen) boven een bepaalde drempelwaarde ([t]hreshold) (bruikbaar voor het onderzoeken wat veel ruimte in neem):
+- Toont alle bestanden en mappen (inclusief verborgen) boven een bepaalde drempelwaarde ([t]hreshold) (bruikbaar om te onderzoeken wat veel ruimte in neemt):
 
 `du --all --human-readable --threshold {{1G|1024M|1048576K}} .[^.]* *`
