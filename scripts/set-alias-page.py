@@ -38,9 +38,9 @@ Examples:
        python3 scripts/set-alias-page.py -Sn
        python3 scripts/set-alias-page.py --sync --dry-run
 
-    4. Read English alias pages and synchronize them for French pages only:
-       python3 scripts/set-alias-page.py -S -l fr
-       python3 scripts/set-alias-page.py --sync --language fr
+    4. Read English alias pages and synchronize them for Brazilian Portuguese pages only:
+       python3 scripts/set-alias-page.py -S -l pt_BR
+       python3 scripts/set-alias-page.py --sync --language pt_BR
 """
 
 import argparse
@@ -143,7 +143,7 @@ def set_alias_page(file, command, dry_run=False, language=""):
     Parameters:
     file (string): Path to an alias page
     command (string): The command that the alias stands for.
-    dry_run (bool): Whether to perform a dry-run.
+    dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
     language (string): Optionally the language we want to update.
 
     Returns:
@@ -204,7 +204,7 @@ def sync(root, pages_dirs, alias_name, orig_command, dry_run=False, language="")
     pages_dirs (list of str): Strings of page entry and platform, e.g. "page.fr/common".
     alias_name (str): An alias command with .md extension like "vi.md".
     orig_command (string): An Original command like "vim".
-    dry_run (bool): Whether to perform a dry-run.
+    dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
     language (string): Optionally the language we want to update.
 
     Returns:
@@ -239,7 +239,7 @@ def main():
         type=str,
         required=False,
         default="",
-        help='language in the format "fr" or "pt_BR"',
+        help='language in the format "ll" or "ll_CC" as in "fr" or "pt_BR"',
     )
     parser.add_argument(
         "-s",
