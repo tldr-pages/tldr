@@ -23,7 +23,7 @@
 
 `dart pub upgrade --null-safety`
 
-- Kompiluj plik Dart do natywnego pliku binarnego:
+- Skompiluj plik Dart do natywnego pliku binarnego:
 
 `dart compile exe {{ścieżka/do/pliku.dart}}`
 
