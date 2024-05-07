@@ -50,12 +50,13 @@ IGNORE_FILES = (".DS_Store",)
 
 
 def get_tldr_root() -> Path:
+    # If this script is running from tldr/scripts, the parent's parent is the root
     f = Path(__file__).resolve()
-    return next(path for path in f.parents if path.name == "tldr")
-
-    if "TLDR_ROOT" in os.environ:
+    if "tldr" in str(f):
+        return next(path for path in f.parents if path.name == "tldr")
+    elif "TLDR_ROOT" in os.environ:
         return Path(os.environ["TLDR_ROOT"])
-    raise SystemError(
+    raise SystemExit(
         "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
     )
 
