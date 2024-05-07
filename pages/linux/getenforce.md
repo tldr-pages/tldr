@@ -1,7 +1,7 @@
 # getenforce
 
 > Get the current mode of SELinux (i.e. enforcing, permissive, or disabled).
-> More information: <https://man7.org/linux/man-pages/man8/getenforce.8.html>.
+> More information: <https://manned.org/man/getenforce>.
 
 - Display the current mode of SELinux:
 
