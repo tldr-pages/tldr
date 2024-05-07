@@ -19,7 +19,7 @@
 
 `dart test`
 
-- Aktualizuj przestażałe zależności projektu w celu obsługi null-safety:
+- Aktualizuj przestarzałe zależności projektu w celu obsługi null-safety:
 
 `dart pub upgrade --null-safety`
 
