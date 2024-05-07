@@ -52,7 +52,9 @@ IGNORE_FILES = (".DS_Store",)
 def get_tldr_root() -> Path:
     # If this script is running from tldr/scripts, the parent's parent is the root
     f = Path(__file__).resolve()
-    if (tldr_root := next(path for path in f.parents if path.name == "tldr", None)) is not None:
+    if (
+        tldr_root := next((path for path in f.parents if path.name == "tldr"), None)
+    ) is not None:
         return tldr_root
     elif "TLDR_ROOT" in os.environ:
         return Path(os.environ["TLDR_ROOT"])
