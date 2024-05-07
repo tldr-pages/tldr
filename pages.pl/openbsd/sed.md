@@ -16,7 +16,7 @@
 
 `{{komenda}} | sed -fa {{ścieżka/do/skryptu.sed}}`
 
-- Zastąp wszystkie wystąpienia `jabłko` (rozszerzone wyrażenie regularne) przez `JABŁKO` (rozszerzone wyrażenie regularne) we wszystkich liniach wejściowych i wypisuje wynik do `stdout`:
+- Zastąp wszystkie wystąpienia `jabłko` (rozszerzone wyrażenie regularne) przez `JABŁKO` (rozszerzone wyrażenie regularne) we wszystkich liniach wejściowych i wypisz wynik do `stdout`:
 
 `{{komenda}} | sed -E 's/(jabłko)/\U\1/g'`
 
