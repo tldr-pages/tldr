@@ -4,7 +4,7 @@
 > Bekijk ook: `passwd`.
 > Meer informatie: <https://man.openbsd.org/chsh>.
 
-- Stel interactief een specifieke login shell in voor de huidige gebruiker :
+- Stel interactief een specifieke login shell in voor de huidige gebruiker:
 
 `doas chsh`
 
