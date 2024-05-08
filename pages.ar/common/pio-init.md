@@ -1,4 +1,4 @@
-# pio-init
+# pio init
 
 > هذا الأمر هو اسم مستعار لـ `pio project`.
 

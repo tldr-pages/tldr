@@ -1,4 +1,4 @@
-# clamav
+# ClamAV
 
 > このコマンドは `clamdscan` のエイリアスです。
 > 詳しくはこちら: <https://www.clamav.net>
