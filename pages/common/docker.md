@@ -24,7 +24,7 @@
 
 `docker images`
 
-- Open a shell inside a running container:
+- Open an [i]nteractive [t]ty with Bourne shell (`sh`) inside a running container:
 
 `docker exec -it {{container_name}} {{sh}}`
 

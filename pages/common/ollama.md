@@ -31,6 +31,6 @@
 
 `ollama rm {{model}}`
 
-- Create a model from a `Modelfile`:
+- Create a model from a `Model[f]ile`:
 
 `ollama create {{new_model_name}} -f {{path/to/Modelfile}}`
