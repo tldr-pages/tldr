@@ -5,10 +5,8 @@
 This script sets the title for all translations of a page.
 It can be used to update the titles in translations.
 
-Note: Before running this script, ensure that TLDR_ROOT is set to the location
-of a clone of https://github.com/tldr-pages/tldr, and 'git' is available.
-If there is a symlink error when using the stage flag remove the `pages.en`
-directory temporarily and try executing it again.
+Note: If the current directory or one of its parents is called "tldr", the script will assume it is the tldr root, i.e., the directory that contains a clone of https://github.com/tldr-pages/tldr
+If you aren't, the script will use TLDR_ROOT as the tldr root. Also, ensure 'git' is available.
 
 Usage: python3 scripts/set-page-title.py [-p PAGE] [-s] [-S] [-n] [TITLE]
 
