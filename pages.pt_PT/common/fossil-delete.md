@@ -1,4 +1,4 @@
-# fossil-delete
+# fossil delete
 
 > Este comando é um alias de `fossil rm`.
 > Mais informações: <https://fossil-scm.org/home/help/delete>.

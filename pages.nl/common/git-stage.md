@@ -1,4 +1,4 @@
-# git-stage
+# git stage
 
 > Dit commando is een alias van `git add`.
 > Meer informatie: <https://git-scm.com/docs/git-stage>.
