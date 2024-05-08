@@ -150,6 +150,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [3 April 2024](https://github.com/tldr-pages/tldr/issues/12594) — present
 - **Magrid0 ([@Magrid0](https://github.com/Magrid0))**:
   [3 May 2024](https://github.com/tldr-pages/tldr/issues/12717) — present
+- **Darío Hereñú ([@kant](https://github.com/kant))**:
+  [3 May 2024](https://github.com/tldr-pages/tldr/issues/12718) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
