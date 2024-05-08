@@ -1,7 +1,7 @@
 # dd
 
 > Converti e copia un file.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/dd>.
+> Maggiori informazioni: <https://manned.org/man/dd.1p>.
 
 - Crea un disco USB avviabile da un file ISO e mostra il progresso:
 

@@ -1,7 +1,7 @@
 # dockerd
 
 > A persistent process to start and manage Docker containers.
-> More information: <https://docs.docker.com/engine/reference/commandline/dockerd/>.
+> More information: <https://docs.docker.com/reference/cli/dockerd/>.
 
 - Run Docker daemon:
 

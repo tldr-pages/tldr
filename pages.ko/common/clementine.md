@@ -1,7 +1,7 @@
 # clementine
 
 > 현대적인 음악 플레이어이자 라이브러리 생성자.
-> 더 많은 정보: <https://www.clementine-player.org>.
+> 더 많은 정보: <https://github.com/clementine-player/Clementine/wiki>.
 
 - Clementine 열기:
 

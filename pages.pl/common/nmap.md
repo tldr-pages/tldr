@@ -2,7 +2,7 @@
 
 > Narzędzie do enumeracji sieci oraz skanowania portów.
 > Niektóre funkcję są tylko aktywne gdy Nmap uruchamiany jest z przywilejami root'a.
-> Więcej informacji: <https://nmap.org>.
+> Więcej informacji: <https://nmap.org/book/man.html>.
 
 - Sprawdź czy host odpowiada na skanowanie oraz zgadnij system operacyjny:
 
