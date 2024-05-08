@@ -1,24 +1,24 @@
 # objcopy
 
-> The GNU objcopy utility copies the contents of an object file to another.
+> Copy the contents of an object file to another.
 > More information: <https://manned.org/objcopy>.
 
-- Copy data to another file:
+- Copy all data from a specific file to another one:
 
-`objcopy {{/your/path/to/file/src}} {{/your/path/to/file/destination}}`
+`objcopy {{path/to/file/source_file}} {{path/to/file/target_file}}`
 
 - Translate object files from one format to another:
 
-`objcopy --input-target={{inputformat}} --output-target={{output_format}} {{/path/to/your/src}} {{path/to/your/destination}}`
+`objcopy --input-target={{inputformat}} --output-target={{output_format}} {{path/to/your/source_file}} {{path/to/your/target_file}}`
 
-- Strip all symbol information from file:
+- Strip all symbol information from a specific file:
 
-`objcopy --strip-all {{/path/to/your/src}} {{path/to/your/destination}}`
+`objcopy --strip-all {{path/to/your/source_file}} {{path/to/your/target_file}}`
 
 - Strip debugging information from file:
 
-`objcopy --strip-debug {{/path/to/your/src}} {{path/to/your/destination}}`
+`objcopy --strip-debug {{/path/to/your/source_file}} {{path/to/your/target_file}}`
 
-- Copy a specific section from the source to destination:
+- Copy a specific section of the source file to the destination file:
 
-`objcopy --only-section={{section}} {{/path/to/your/src}} {{path/to/your/destination}}`
+`objcopy --only-section={{section}} {{path/to/your/source_file}} {{path/to/your/target_file}}`
