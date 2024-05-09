@@ -16,7 +16,7 @@
 
 `truss -a -e {{program}}`
 
-- Zlicz czas, wywołania i błędy dla każdego wywołania systemowego i raportowanie podsumowania po zakończeniu programu:
+- Zlicz czas, wywołania i błędy dla każdego wywołania systemowego i raportuj podsumowanie po zakończeniu programu:
 
 `truss -c -p {{pid}}`
 
