@@ -25,7 +25,7 @@ Positional Argument:
 
 Examples:
     1. Set the title for a specific page:
-       python3 scripts/set-page-title.py -p common/tar.md https://example.com
+       python3 scripts/set-page-title.py -p common/tar.md tar.1
 
     2. Synchronize titles across translations:
        python3 scripts/set-page-title.py -S
