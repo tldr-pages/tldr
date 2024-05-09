@@ -602,3 +602,13 @@ For example, use `Lista os arquivos` instead of `Listar os arquivos`, `Listando 
 ```md
 - Crea un archivo en un directorio:
 ```
+
+- Preferably, use the word `identificador` instead of `id` in the placeholders of command examples. For example:
+
+```md
+{{identificador_de_usuario}}
+```
+
+*Writing prepositions is optional*
+
+  However, if the line of a command example exceeds the [maximum length](https://github.com/tldr-pages/tldr/blob/main/.markdownlint.json#L5), choose the word `identificador` or `id` and use it across all placeholders in the page.

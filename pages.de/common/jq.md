@@ -1,7 +1,7 @@
 # jq
 
 > Ein JSON-Verarbeiter für die Kommandozeile mit einer domänenspezifischen Sprache.
-> Weitere Informationen: <https://stedolan.github.io/jq/manual/>.
+> Weitere Informationen: <https://jqlang.github.io/jq/manual/>.
 
 - Führe den angegebenen Ausdruck aus (gib farbiges und formatiertes JSON aus):
 

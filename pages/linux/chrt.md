@@ -15,6 +15,10 @@
 
 `chrt --max`
 
-- Set the scheduling policy for a process:
+- Set the scheduling priority of a process:
 
-`chrt --pid {{PID}} --{{deadline|idle|batch|rr|fifo|other}}`
+`chrt --pid {{priority}} {{PID}}`
+
+- Set the scheduling policy of a process:
+
+`chrt --{{deadline|idle|batch|rr|fifo|other}} --pid {{priority}} {{PID}}`

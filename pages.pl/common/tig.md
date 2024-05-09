@@ -1,7 +1,7 @@
 # tig
 
 > Interfejs tekstowy dla Gita.
-> Więcej informacji: <https://github.com/jonas/tig>.
+> Więcej informacji: <https://jonas.github.io/tig/doc/manual.html>.
 
 - Pokaż listę commitów w odwrotnej kolejności chronologicznej, zaczynając od najnowszego:
 

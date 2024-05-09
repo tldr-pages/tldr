@@ -26,3 +26,7 @@
 - Toont de grootte in leesbare vorm van alle `.jpg` bestanden in sub-mappen van de huidige map en laat een cumulatief totaal zien op het eind:
 
 `du -ch {{*/*.jpg}}`
+
+- Toont alle bestanden en mappen (inclusief verborgen) boven een bepaalde drempelwaarde ([t]hreshold) (bruikbaar om te onderzoeken wat veel ruimte in neemt):
+
+`du --all --human-readable --threshold {{1G|1024M|1048576K}} .[^.]* *`

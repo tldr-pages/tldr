@@ -15,6 +15,7 @@ This section contains a summary of the scripts available in this directory. For 
 - [send-to-bot.py](send-to-bot.py) is a Python script that send the build or tests output to tldr-bot.
 - [set-alias-page.py](set-alias-page.py) is a Python script to generate or update alias pages.
 - [set-more-info-link.py](set-more-info-link.py) is a Python script to generate or update more information links across pages.
+- [set-page-title.py](set-page-title.py) is a Python script to update the title across pages.
 - [test.sh](test.sh) script runs some basic tests on every PR/commit to make sure that the pages are valid and that the code is formatted correctly.
 - [wrong-filename.sh](wrong-filename.sh) script checks the consistency between the filenames and the page title.
 - [update-command.py](update-command.py) is a Python script to update the common contents of a command example across all languages.
@@ -31,5 +32,6 @@ The below table shows the compatibility of user-executable scripts with differen
 | [check-more-info-urls.py](check-more-info-urls.py) | ✅ | ✅ | ✅ |
 | [set-alias-pages.py](set-alias-pages.py) | ✅ | ✅ | ✅ |
 | [set-more-info-link.py](set-more-info-link.py) | ✅ | ✅ | ✅ |
+| [set-page-title.py](set-page-title.py) | ✅ | ✅ | ✅ |
 | [wrong-filename.sh](wrong-filename.sh) | ✅ | ❌ | ❌ (WSL ✅)|
 | [update-command.py](update-command.py) | ✅ | ✅ | ✅ |

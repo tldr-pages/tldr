@@ -1,7 +1,7 @@
 # dd
 
 > تبدیل و کپی یک فایل.
-> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/dd>.
+> اطلاعات بیشتر: <https://manned.org/man/dd.1p>.
 
 - یک حافظه قابل حمل با قابلیت بوت شدن میسازد، برای مثال `archlinux-xxx.iso` :
 
