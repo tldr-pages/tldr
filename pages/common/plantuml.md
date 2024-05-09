@@ -23,7 +23,7 @@
 
 `plantuml -nometadata {{diagram.png}} > {{diagram.puml}}`
 
-- Retrieve source from a plantuml diagram's metadata:
+- Retrieve source from a `plantuml` diagram's metadata:
 
 `plantuml -metadata {{diagram.png}} > {{diagram.puml}}`
 
