@@ -1,4 +1,4 @@
-# clamav
+# ClamAV
 
 > ഈ കമാൻഡ് `clamdscan` എന്നത്തിന്റെ അപരനാമമാണ്.
 > കൂടുതൽ വിവരങ്ങൾ: <https://www.clamav.net>.

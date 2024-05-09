@@ -1,4 +1,4 @@
-# clamav
+# ClamAV
 
 > Ova komanda je pseudonim za `clamdscan`.
 > Više informacija: <https://www.clamav.net>.

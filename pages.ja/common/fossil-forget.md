@@ -1,4 +1,4 @@
-# fossil-forget
+# fossil forget
 
 > このコマンドは `fossil rm` のエイリアスです。
 > 詳しくはこちら: <https://fossil-scm.org/home/help/forget>

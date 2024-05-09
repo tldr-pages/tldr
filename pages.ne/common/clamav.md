@@ -1,4 +1,4 @@
-# clamav
+# ClamAV
 
 > यो आदेश `clamdscan` को उपनाम हो |
 > थप जानकारी: <https://www.clamav.net>।

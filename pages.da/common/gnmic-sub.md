@@ -1,4 +1,4 @@
-# gnmic-sub
+# gnmic sub
 
 > Denne kommando er et alias af `gnmic subscribe`.
 > Mere information: <https://gnmic.kmrd.dev/cmd/subscribe>.
