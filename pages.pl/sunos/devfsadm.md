@@ -11,6 +11,6 @@
 
 `devfsadm -C -v`
 
-- Próbne uruchomienie - wypisanie tego, co zostanie zmienione, ale bez wprowadzania modyfikacji:
+- Próbne uruchomienie - wypisz to, co zostanie zmienione, ale bez wprowadzania modyfikacji:
 
 `devfsadm -C -v -n`
