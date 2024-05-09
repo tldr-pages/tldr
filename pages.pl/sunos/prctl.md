@@ -3,7 +3,7 @@
 > Pobieraj lub ustawiaj kontrolę zasobów uruchomionych procesów, zadań i projektów.
 > Więcej informacji: <https://www.unix.com/man-page/sunos/1/prctl>.
 
-- Sprawdż limity procesów i uprawnienia:
+- Sprawdź limity procesów i uprawnienia:
 
 `prctl {{pid}}`
 
