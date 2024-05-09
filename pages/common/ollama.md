@@ -1,7 +1,7 @@
 # ollama
 
 > A large language model runner.
-> More information: <https://github.com/jmorganca/ollama>.
+> More information: <https://github.com/ollama/ollama>.
 
 - Start the daemon required to run other commands:
 
