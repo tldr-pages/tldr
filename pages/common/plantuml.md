@@ -19,7 +19,7 @@
 
 `plantuml -o {{path/to/output}} {{diagram.puml}}`
 
-- Render a diagram without storing diagram's source code (stored by default without `-nometadata`):
+- Render a diagram without storing the diagram's source code (Note: It's stored by default when the `-nometadata` option isn't specified):
 
 `plantuml -nometadata {{diagram.png}} > {{diagram.puml}}`
 
