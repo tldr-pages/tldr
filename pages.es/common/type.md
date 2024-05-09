@@ -1,4 +1,4 @@
-# Type
+# type
 
 > Muestra el tipo de comando que ejecutará el intérprete de comandos.
 > Nota: todos los ejemplos no son compatibles con POSIX.

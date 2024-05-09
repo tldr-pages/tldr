@@ -1,12 +1,12 @@
 # xsltproc
 
-> Przekształcanie XML z XSLT w celu uzyskania wyjścia (zwykle HTML lub XML).
+> Przekształć XML z XSLT w celu uzyskania wyjścia (zwykle HTML lub XML).
 > Więcej informacji: <http://www.xmlsoft.org/xslt/xsltproc.html>.
 
-- Przekształcenie pliku XML za pomocą określonego arkusza stylów XSLT:
+- Przekształć plik XML za pomocą określonego arkusza stylów XSLT:
 
-`xsltproc --output {{sciezka/do/pliku_wyjscia.html}} {{sciezka/do/arkusza_stylow.xslt}} {{sciezka/do/pliku.xml}}`
+`xsltproc --output {{ścieżka/do/pliku_wyjścia.html}} {{ścieżka/do/arkusza_stylów.xslt}} {{ścieżka/do/pliku.xml}}`
 
 - Przekaż wartość do parametru w arkuszu stylów:
 
-`xsltproc --output {{sciezka/do/pliku_wyjscia.html}} --stringparam "{{nazwa}}" "{{wartosc}}" {{sciezka/do/arkusza_stylow.xslt}} {{sciezka/do/pliku.xml}}`
+`xsltproc --output {{ścieżka/do/pliku_wyjścia.html}} --stringparam "{{nazwa}}" "{{wartość}}" {{ścieżka/do/arkusza_stylów.xslt}} {{ścieżka/do/pliku.xml}}`
