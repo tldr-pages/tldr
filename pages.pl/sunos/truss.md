@@ -12,7 +12,7 @@
 
 `truss -p {{pid}}`
 
-- Rozpocznij śledzenia programu, wykonując go, pokazując argumenty i zmienne środowiskowe:
+- Rozpocznij śledzenie programu, wykonując go, pokazując argumenty i zmienne środowiskowe:
 
 `truss -a -e {{program}}`
 
