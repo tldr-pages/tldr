@@ -324,7 +324,9 @@ the part of the address that starts with `?view=`.
 
 - Optionally, you can add a short description beside the referenced pages:
 
-``See also: `date`, for Unix information; `umount`, for unmounting partitions.``
+```md
+> See also: `date` for Unix information, `uname` for system information and `umount` for unmounting partitions.
+```
 
 ## Example descriptions
 
