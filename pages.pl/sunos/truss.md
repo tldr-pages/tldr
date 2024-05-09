@@ -8,7 +8,7 @@
 
 `truss -f {{program}}`
 
-- Rozpocznij śledzenia określonego procesu według jego PID:
+- Rozpocznij śledzenie określonego procesu według jego PID:
 
 `truss -p {{pid}}`
 
