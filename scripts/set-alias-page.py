@@ -84,7 +84,7 @@ def get_templates(root):
     template_file = os.path.join(
         root, "contributing-guides/translation-templates/alias-pages.md"
     )
-    with open(template_file, encoding='utf-8') as f:
+    with open(template_file, encoding="utf-8") as f:
         lines = f.readlines()
 
     # Parse alias-pages.md
@@ -129,7 +129,7 @@ def get_alias_page(file):
 
     if not os.path.isfile(file):
         return ""
-    with open(file, "r", encoding='utf-8') as f:
+    with open(file, "r", encoding="utf-8") as f:
         for line in f:
             if match := re.search(r"^`tldr (.+)`", line):
                 return match[1]
@@ -191,7 +191,7 @@ def set_alias_page(file, command, dry_run=False, language_to_update=""):
             .replace("example", command)
         )
         os.makedirs(os.path.dirname(file), exist_ok=True)
-        with open(file, "w", encoding='utf-8') as f:
+        with open(file, "w", encoding="utf-8") as f:
             f.write(text)
 
     return status
