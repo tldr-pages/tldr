@@ -12,7 +12,7 @@
 
 `cheatshh --edit-command`
 
-- Delete ([dc)]) an existing command from the cheatshheet:
+- Delete ([dc]) an existing command from the cheatshheet:
 
 `cheatshh --delete-command`
 
@@ -24,7 +24,7 @@
 
 `cheatshh --edit-group`
 
-- Delete ([dg)]) an existing group and it's sub commands from commands.json file:
+- Delete ([dg]) an existing group and it's sub commands from commands.json file:
 
 `cheatshh --delete-group`
 
