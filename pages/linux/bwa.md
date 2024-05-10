@@ -4,7 +4,7 @@
 > Short, low-divergent DNA sequences mapper against a large reference genome, such as the human genome.
 > More information: <https://github.com/lh3/bwa>.
 
-- Index reference genome:
+- Index the reference genome:
 
 `bwa index {{path/to/reference.fa}}`
 
