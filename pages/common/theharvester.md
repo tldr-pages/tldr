@@ -9,7 +9,7 @@
 
 - Gather information on a domain using multiple sources:
 
-`theHarvester --domain {{domain_name}} --source {{google,bing,crtsh}}`
+`theHarvester --domain {{domain_name}} --source {{duckduckgo,bing,crtsh}}`
 
 - Change the limit of results to work with:
 
