@@ -9,7 +9,7 @@
 
 - Translate object files from one format to another:
 
-`objcopy --input-target={{input_format}} --output-target={{output_format}} {{path/to/source_file}} {{path/to/target_file}}`
+`objcopy --input-target={{input_format}} --output-target {{output_format}} {{path/to/source_file}} {{path/to/target_file}}`
 
 - Strip all symbol information from the file:
 
