@@ -10,11 +10,11 @@
 
 - Edit ([ec]) an existing command's description or group in the cheatshheet:
 
-`cheatshh --edit`
+`cheatshh --edit-command`
 
-- Delete ([dc)] a command from the cheatshheet:
+- Delete ([dc)] an existing command from the cheatshheet:
 
-`cheatshh --delete`
+`cheatshh --delete-command`
 
 - Create a new [g]roup:
 
@@ -24,7 +24,7 @@
 
 `cheatshh --edit-group`
 
-- Delete([dg)]  a group and it's sub commands from commands.json file:
+- Delete ([dg)] an existing group and it's sub commands from commands.json file:
 
 `cheatshh --delete-group`
 
