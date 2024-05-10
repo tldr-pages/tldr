@@ -1,6 +1,7 @@
 # bwa
 
-> BWA is a short, low-divergent DNA sequences mapper against a large reference genome, such as the human genome.
+> Burrows-Wheeler Alignment tool.
+> Short, low-divergent DNA sequences mapper against a large reference genome, such as the human genome.
 > More information: <https://github.com/lh3/bwa>.
 
 - Index reference genome:
