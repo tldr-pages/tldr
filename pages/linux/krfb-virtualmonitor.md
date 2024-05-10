@@ -1,7 +1,7 @@
 # krfb-virtualmonitor
 
 > Create a virtual monitor and allow that monitor to be used with VNC.
-> More information: <https://github.com/KDE/krfb/blob/master/krfb/main-virtualmonitor.cpp>.
+> More information: <https://invent.kde.org/network/krfb>.
 
 - Create a virtual monitor:
 
