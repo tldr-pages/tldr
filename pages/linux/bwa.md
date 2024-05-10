@@ -7,7 +7,7 @@
 
 `bwa index {{path/to/reference.fa}}`
 
-- Map single-end reads (sequences) to indexed genome using 32 [t]*hreads and compress the result to save space:
+- Map single-end reads (sequences) to indexed genome using 32 [t]hreads and compress the result to save space:
 
 `bwa mem -t 32 {{path/to/reference.fa}} {{path/to/read_single_end.fq.gz}} | gzip -3 > {{path/to/alignment_single_end.sam.gz}}`
 
