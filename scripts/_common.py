@@ -253,7 +253,6 @@ def stage(paths: list[str]):
 @patch("subprocess.call")
 def test_stage(mock_subprocess_call):
     paths = ["/path/to/file1", "/path/to/file2"]
-    cwd = Path("/path/to/repository")
 
     # Call the stage function
     stage(paths, cwd)
