@@ -246,7 +246,7 @@ def test_create_argument_parser():
         assert action.default == default_value  # Check default value
 
 
-def stage(paths: list[str], cwd: Path):
+def stage(paths: list[str]):
     subprocess.call(["git", "add", *paths], cwd=cwd)
 
 
