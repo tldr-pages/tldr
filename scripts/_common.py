@@ -24,7 +24,7 @@ def get_tldr_root(lookup_path: Path = None) -> Path:
     else:
         absolute_lookup_path = Path(lookup_path).resolve()
     if (
-        tldr_root := next((path for path in f.parents if path.name == "tldr"), None)
+        tldr_root := next((path for path in absolute_lookup_path.parents if path.name == "tldr"), None)
     ) is not None:
         return tldr_root
     elif "TLDR_ROOT" in os.environ:
