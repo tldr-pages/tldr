@@ -279,7 +279,7 @@ def main():
 
     # Use '--stage' option
     if args.stage and not args.dry_run and len(target_paths) > 0:
-        stage(target_paths, root)
+        stage(target_paths)
 
 
 if __name__ == "__main__":
