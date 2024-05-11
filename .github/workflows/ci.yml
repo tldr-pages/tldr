@@ -39,6 +39,11 @@ jobs:
     - name: Test
       run: npm test
 
+    - name: Test with pytest
+      run: |
+        pip install pytest pytest-cov
+        pytest scripts/*.py --junitxml=junit/test-results.xml
+
     - name: Build
       run: bash scripts/build.sh
 
