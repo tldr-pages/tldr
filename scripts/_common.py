@@ -19,7 +19,6 @@ def get_tldr_root(path=None) -> Path:
     Get the path of local tldr repository for environment variable TLDR_ROOT.
     """
 
-    # If this script is running from tldr/scripts, the parent's parent is the root
     if path is None:
         f = Path(__file__).resolve()
     else:
