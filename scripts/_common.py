@@ -247,7 +247,7 @@ def test_create_argument_parser():
 
 
 def stage(paths: list[str]):
-    subprocess.call(["git", "add", *paths], cwd=cwd)
+    subprocess.call(["git", "add", *(path.resolve() for path in paths)])
 
 
 @patch("subprocess.call")
