@@ -16,7 +16,13 @@ IGNORE_FILES = (".DS_Store",)
 
 def get_tldr_root(lookup_path: Path = None) -> Path:
     """
-    Get the path of local tldr repository for environment variable TLDR_ROOT.
+    Get the path of the local tldr repository, looking for it in each part of the given path. If it is not found, the path in the environment variable TLDR_ROOT is returned.
+
+    Parameters:
+    lookup_path (Path): the path to search for the tldr root. By default, the path of the script.
+
+    Returns:
+    Path: the local tldr repository.
     """
 
     if lookup_path is None:
