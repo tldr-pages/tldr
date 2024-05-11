@@ -36,7 +36,15 @@ Examples:
        python3 scripts/set-alias-page.py -S
        python3 scripts/set-alias-page.py --sync
 
-    3. Read English alias pages and synchronize them for Brazilian Portuguese pages only:
+    3. Read English alias pages, synchronize them into all translations and stage modified pages for commit:
+       python3 scripts/set-more-info-link.py -Ss
+       python3 scripts/set-more-info-link.py --sync --stage
+
+    4. Read English alias pages and show what changes would be made:
+       python3 scripts/set-alias-page.py -Sn
+       python3 scripts/set-alias-page.py --sync --dry-run
+
+    4. Read English alias pages and synchronize them for Brazilian Portuguese pages only:
        python3 scripts/set-alias-page.py -S -l pt_BR
        python3 scripts/set-alias-page.py --sync --language pt_BR
 
@@ -49,10 +57,10 @@ Examples:
        python3 scripts/set-alias-page.py --sync --dry-run
 """
 
-import os
 import re
 from pathlib import Path
 from _common import (
+    IGNORE_FILES,
     get_tldr_root,
     get_pages_dir,
     get_locale,
@@ -62,24 +70,22 @@ from _common import (
     create_argument_parser,
 )
 
-IGNORE_FILES = (".DS_Store", "tldr.md", "aria2.md")
+IGNORE_FILES += ("tldr.md", "aria2.md")
 
 
-def get_templates(root):
+def get_templates(root: Path):
     """
     Get all alias page translation templates from
     TLDR_ROOT/contributing-guides/translation-templates/alias-pages.md.
 
     Parameters:
-    root (string): The path of local tldr repository, i.e., TLDR_ROOT.
+    root (Path): The path of local tldr repository, i.e., TLDR_ROOT.
 
     Returns:
     dict of (str, str): Language labels map to alias page templates.
     """
 
-    template_file = os.path.join(
-        root, "contributing-guides/translation-templates/alias-pages.md"
-    )
+    template_file = root / "contributing-guides/translation-templates/alias-pages.md"
     with open(template_file, encoding="utf-8") as f:
         lines = f.readlines()
 
@@ -111,21 +117,21 @@ def get_templates(root):
     return templates
 
 
-def get_alias_page(file):
+def get_alias_page(path: Path):
     """
-    Determine whether the given file is an alias page.
+    Determine whether the given path is an alias page.
 
     Parameters:
-    file (string): Path to a page
+    path (Path): Path to a page
 
     Returns:
-    str: "" If the file doesn't exit or is not an alias page,
+    str: "" If the path doesn't exit or is not an alias page,
          otherwise return what command the alias stands for.
     """
 
-    if not os.path.isfile(file):
+    if not path.exists():
         return ""
-    with open(file, "r", encoding="utf-8") as f:
+    with open(path, "r", encoding="utf-8") as f:
         for line in f:
             if match := re.search(r"^`tldr (.+)`", line):
                 return match[1]
@@ -164,15 +170,15 @@ def set_alias_page(path: Path, command: str, dry_run=False, language_to_update="
         "added" if original_command == "" else "updated", dry_run, "page"
     )
 
-    if not dry_run:  # Only write to the file during a non-dry-run
-        alias_name, _ = os.path.splitext(os.path.basename(path))
+    if not dry_run:  # Only write to the path during a non-dry-run
+        alias_name = path.name.stem
         text = (
             templates[locale]
             .replace("example", alias_name, 1)
             .replace("example", command)
         )
-        os.makedirs(os.path.dirname(path), exist_ok=True)
-        with open(path, "w") as f:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("w", encoding="utf-8") as f:
             f.write(text)
 
     return status
@@ -257,13 +263,18 @@ def main():
             commands = [
                 f"{platform}/{page.name}"
                 for page in platform_path.iterdir()
-                if page not in IGNORE_FILES
+                if page.name not in IGNORE_FILES
             ]
             for command in commands:
                 original_command = get_alias_page(root / "pages" / command)
                 if original_command != "":
                     target_paths += sync_alias(
-                        root, pages_dirs, command, original_command, args.dry_run, args.language
+                        root,
+                        pages_dirs,
+                        command,
+                        original_command,
+                        args.dry_run,
+                        args.language,
                     )
 
     # Use '--stage' option

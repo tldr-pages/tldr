@@ -137,7 +137,7 @@ def set_link(path: Path, link: str, dry_run=False) -> str:
 
     status = get_status(action, dry_run, "link")
 
-    if not dry_run:
+    if not dry_run:  # Only write to the path during a non-dry-run
         with path.open("w", encoding="utf-8") as f:
             f.writelines(lines)
 
@@ -223,12 +223,14 @@ def main():
             commands = [
                 f"{platform}/{page.name}"
                 for page in platform_path.iterdir()
-                if page not in IGNORE_FILES
+                if page.name not in IGNORE_FILES
             ]
             for command in commands:
                 link = get_link(root / "pages" / command)
                 if link != "":
-                    target_paths += sync(root, pages_dirs, command, link, args.dry_run)
+                    target_paths += sync(
+                        root, pages_dirs, command, link, args.dry_run, args.language
+                    )
 
     # Use '--stage' option
     if args.stage and not args.dry_run and len(target_paths) > 0:

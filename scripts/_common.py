@@ -72,7 +72,7 @@ def get_status(action: str, dry_run: bool, type: str) -> str:
             status_prefix = "\x1b[31m"  # Red color (default)
 
     if dry_run:
-        status = f"{type} will be {action}"
+        status = f"{type} would be {action}"
     else:
         status = f"{type} {action}"
 
