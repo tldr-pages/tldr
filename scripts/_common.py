@@ -19,7 +19,7 @@ def get_tldr_root(lookup_path: Path = None) -> Path:
     Get the path of local tldr repository for environment variable TLDR_ROOT.
     """
 
-    if path is None:
+    if lookup_path is None:
         f = Path(__file__).resolve()
     else:
         f = Path(path).resolve()
