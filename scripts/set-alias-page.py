@@ -184,6 +184,7 @@ def sync_alias(
     alias_name: str,
     original_command: str,
     dry_run=False,
+    language_to_update=""
 ) -> list[str]:
     """
     Synchronize an alias page into all translations.
@@ -192,8 +193,9 @@ def sync_alias(
     root (Path): TLDR_ROOT
     pages_dirs (list of str): Strings of page entry and platform, e.g. "page.fr/common".
     alias_name (str): An alias command with .md extension like "vi.md".
-    original_command: (str): An Original command like "vim".
-    dry_run (bool): Whether to perform a dry-run.
+    original_command (str): An Original command like "vim".
+    dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
+    language_to_update (str): Optionally, the language of the translation to be updated.
 
     Returns:
     list: A list of paths to be staged into git, using by --stage option.
@@ -201,7 +203,7 @@ def sync_alias(
     rel_paths = []
     for page_dir in pages_dirs:
         path = root / page_dir / alias_name
-        status = set_alias_page(path, original_command, dry_run)
+        status = set_alias_page(path, original_command, dry_run, language_to_update)
         if status != "":
             rel_path = "/".join(path.parts[-3:])
             rel_paths.append(rel_path)
@@ -261,7 +263,7 @@ def main():
                 original_command = get_alias_page(root / "pages" / command)
                 if original_command != "":
                     target_paths += sync_alias(
-                        root, pages_dirs, command, original_command, args.dry_run
+                        root, pages_dirs, command, original_command, args.dry_run, args.language
                     )
 
     # Use '--stage' option
