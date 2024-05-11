@@ -34,15 +34,13 @@ jobs:
       run: npm ci
 
     - name: Install pip dependencies
-      run: pip install -r requirements.txt -r scripts/pdf/requirements.txt
+      run: pip install -r requirements.txt -r scripts/pdf/requirements.txt -r scripts/test-requirements.txt
 
     - name: Test
       run: npm test
 
     - name: Test with pytest
-      run: |
-        pip install pytest pytest-cov
-        pytest scripts/*.py --junitxml=junit/test-results.xml
+      run: pytest scripts/*.py
 
     - name: Build
       run: bash scripts/build.sh
