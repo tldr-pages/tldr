@@ -255,7 +255,7 @@ def test_stage(mock_subprocess_call):
     paths = ["/path/to/file1", "/path/to/file2"]
 
     # Call the stage function
-    stage(paths, cwd)
+    stage(paths)
 
     # Verify that subprocess.call was called with the correct arguments
     mock_subprocess_call.assert_called_once_with(["git", "add", *paths], cwd=cwd)
