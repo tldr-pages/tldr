@@ -14,7 +14,7 @@ import subprocess
 IGNORE_FILES = (".DS_Store",)
 
 
-def get_tldr_root(path=None) -> Path:
+def get_tldr_root(lookup_path: Path = None) -> Path:
     """
     Get the path of local tldr repository for environment variable TLDR_ROOT.
     """
