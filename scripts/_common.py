@@ -20,7 +20,7 @@ def get_tldr_root(lookup_path: Path = None) -> Path:
     """
 
     if lookup_path is None:
-        f = Path(__file__).resolve()
+        absolute_lookup_path = Path(__file__).resolve()
     else:
         f = Path(path).resolve()
     if (
