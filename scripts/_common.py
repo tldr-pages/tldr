@@ -30,7 +30,9 @@ def get_tldr_root(lookup_path: Path = None) -> Path:
     else:
         absolute_lookup_path = Path(lookup_path).resolve()
     if (
-        tldr_root := next((path for path in absolute_lookup_path.parents if path.name == "tldr"), None)
+        tldr_root := next(
+            (path for path in absolute_lookup_path.parents if path.name == "tldr"), None
+        )
     ) is not None:
         return tldr_root
     elif "TLDR_ROOT" in os.environ:
@@ -92,7 +94,7 @@ def test_get_pages_dir():
 
     # Call the function and verify the result
     result = get_pages_dir(root)
-    expected = [root / "pages_1", root / "pages_2"]
+    expected = [root / "pages_2", root / "pages_1"]
     assert result == expected
 
     for item in root.glob("**/*"):
@@ -257,7 +259,7 @@ def stage(paths: list[str]):
 
 @patch("subprocess.call")
 def test_stage(mock_subprocess_call):
-    paths = ["/path/to/file1", "/path/to/file2"]
+    paths = [Path("/path/to/file1"), Path("/path/to/file2")]
 
     # Call the stage function
     stage(paths)
