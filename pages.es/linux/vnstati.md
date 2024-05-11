@@ -9,7 +9,7 @@
 
 - Genera los 10 días con mayor tráfico de todos los tiempos:
 
-`vnstati --top {{10}} --iface {{interfaz_de_red}} --output {{ruta/a/salida.png}}`
+`vnstati --top 10 --iface {{interfaz_de_red}} --output {{ruta/a/salida.png}}`
 
 - Genera estadísticas de tráfico mensual de los últimos 12 meses:
 
