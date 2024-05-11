@@ -22,7 +22,7 @@ def get_tldr_root(lookup_path: Path = None) -> Path:
     if lookup_path is None:
         absolute_lookup_path = Path(__file__).resolve()
     else:
-        f = Path(path).resolve()
+        absolute_lookup_path = Path(lookup_path).resolve()
     if (
         tldr_root := next((path for path in f.parents if path.name == "tldr"), None)
     ) is not None:
