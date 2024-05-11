@@ -184,7 +184,7 @@ def sync_alias(
     alias_name: str,
     original_command: str,
     dry_run=False,
-    language_to_update=""
+    language_to_update="",
 ) -> list[str]:
     """
     Synchronize an alias page into all translations.
