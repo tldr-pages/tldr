@@ -10,20 +10,19 @@ and commit verified changes for your language by using -l LANGUAGE.
 
 Note: If the current directory or one of its parents is called "tldr", the script will assume it is the tldr root, i.e., the directory that contains a clone of https://github.com/tldr-pages/tldr
 If you aren't, the script will use TLDR_ROOT as the tldr root. Also, ensure 'git' is available.
-If there is a symlink error when using the stage flag remove the `pages.en` directory temporarily and try executing it again.
 
 Usage:
-    python3 scripts/set-alias-page.py [-p PAGE] [-l LANGUAGE] [-s] [-S] [-n] [COMMAND]
+    python3 scripts/set-alias-page.py [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n] [COMMAND]
 
 Options:
     -p, --page PAGE
         Specify the alias page in the format "platform/alias_command.md".
+    -S, --sync
+        Synchronize each translation's alias page (if exists) with that of the English page.
     -l, --language LANGUAGE
         Specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
     -s, --stage
         Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
-    -S, --sync
-        Synchronize each translation's alias page (if exists) with that of the English page.
     -n, --dry-run
         Show what changes would be made without actually modifying the page.
 
@@ -39,17 +38,17 @@ Examples:
        python3 scripts/set-alias-page.py -S
        python3 scripts/set-alias-page.py --sync
 
-    3. Read English alias pages, synchronize them into all translations and stage modified pages for commit:
+    3. Read English alias pages and synchronize them for Brazilian Portuguese pages only:
+       python3 scripts/set-alias-page.py -S -l pt_BR
+       python3 scripts/set-alias-page.py --sync --language pt_BR
+
+    4. Read English alias pages, synchronize them into all translations and stage modified pages for commit:
        python3 scripts/set-more-info-link.py -Ss
        python3 scripts/set-more-info-link.py --sync --stage
 
-    4. Read English alias pages and show what changes would be made:
+    5. Read English alias pages and show what changes would be made:
        python3 scripts/set-alias-page.py -Sn
        python3 scripts/set-alias-page.py --sync --dry-run
-
-    4. Read English alias pages and synchronize them for Brazilian Portuguese pages only:
-       python3 scripts/set-alias-page.py -S -l pt_BR
-       python3 scripts/set-alias-page.py --sync --language pt_BR
 """
 
 import argparse
@@ -248,6 +247,13 @@ def main():
         help='page name in the format "platform/alias_command.md"',
     )
     parser.add_argument(
+        "-S",
+        "--sync",
+        action="store_true",
+        default=False,
+        help="synchronize each translation's alias page (if exists) with that of English page",
+    )
+    parser.add_argument(
         "-l",
         "--language",
         type=str,
@@ -261,13 +267,6 @@ def main():
         action="store_true",
         default=False,
         help="stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository)",
-    )
-    parser.add_argument(
-        "-S",
-        "--sync",
-        action="store_true",
-        default=False,
-        help="synchronize each translation's alias page (if exists) with that of English page",
     )
     parser.add_argument(
         "-n",
