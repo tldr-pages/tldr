@@ -3,7 +3,7 @@
 > Un monitor de tráfico de red basado en consola.
 > Más información: <https://manned.org/vnstat>.
 
-- Muestra resumen de tráfico para todas las interfaces:
+- Muestra un resumen de tráfico de todas las interfaces:
 
 `vnstat`
 
