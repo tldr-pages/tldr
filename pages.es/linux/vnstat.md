@@ -1,6 +1,6 @@
 # vnstat
 
-> Un monitor de tráfico de red basado en consola.
+> Monitor de tráfico de red de línea de comandos.
 > Más información: <https://manned.org/vnstat>.
 
 - Muestra un resumen de tráfico de todas las interfaces:
