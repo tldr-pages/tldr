@@ -11,7 +11,7 @@
 
 `vnstat -i {{interfaz_de_red}}`
 
-- Muestra estadísticas en vivo para una interfaz de red específica:
+- Muestra estadísticas en vivo de una interfaz de red específica:
 
 `vnstat -l -i {{interfaz_de_red}}`
 
