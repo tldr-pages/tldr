@@ -5,7 +5,7 @@
 
 - Recopila información sobre un dominio utilizando Google:
 
-`theHarvester --domain {{nombre_dominio}} --source google`
+`theHarvester --domain {{nombre_de_dominio}} --source google`
 
 - Recopila información sobre un dominio utilizando varias fuentes:
 
