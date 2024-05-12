@@ -9,7 +9,7 @@
 
 - Recopila información sobre un dominio utilizando varias fuentes:
 
-`theHarvester --domain {{nombre_dominio}} --source {{duckduckgo,bing,crtsh}}`
+`theHarvester --domain {{nombre_de_dominio}} --source {{duckduckgo,bing,crtsh}}`
 
 - Cambia el límite de resultados con los que trabajar:
 
