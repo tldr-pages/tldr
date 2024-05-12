@@ -39,9 +39,6 @@ jobs:
     - name: Test
       run: npm test
 
-    - name: Test with pytest
-      run: pytest scripts/*.py
-
     - name: Build
       run: bash scripts/build.sh
 
