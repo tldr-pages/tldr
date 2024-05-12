@@ -9,7 +9,7 @@
 
 - Muestra todas las cabeceras presentes en el archivo ELF:
 
-`readelf --headers {{ruta/al/binario}}`
+`readelf --headers {{ruta/al/archivo_binario}}`
 
 - Muestra las entradas en la sección de la tabla de símbolos del archivo ELF, si tieneff una:
 
