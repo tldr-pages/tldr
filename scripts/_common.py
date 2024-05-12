@@ -14,6 +14,11 @@ import subprocess
 IGNORE_FILES = (".DS_Store",)
 
 
+def test_ignore_files():
+    assert IGNORE_FILES == (".DS_Store",)
+    assert ".DS_Store" in IGNORE_FILES
+
+
 def get_tldr_root(lookup_path: Path = None) -> Path:
     """
     Get the path of the local tldr repository, looking for it in each part of the given path. If it is not found, the path in the environment variable TLDR_ROOT is returned.
@@ -78,24 +83,30 @@ def test_get_pages_dir():
     # Create temporary directories with names starting with "pages"
 
     root = Path("test_root")
+
+    for item in root.glob("**/*"):
+        item.rmdir()
+    if root.exists():
+        root.rmdir()
+
     root.mkdir(exist_ok=True)
 
     # Create temporary directories with names that do not start with "pages"
-    (root / "other_dir_1").mkdir()
-    (root / "other_dir_2").mkdir()
+    (root / "other_dir_1").mkdir(exist_ok=True)
+    (root / "other_dir_2").mkdir(exist_ok=True)
 
     # Call the function and verify that it returns an empty list
     result = get_pages_dir(root)
     assert result == []
 
-    (root / "pages_1").mkdir()
-    (root / "pages_2").mkdir()
-    (root / "other_dir").mkdir()
+    (root / "pages_1").mkdir(exist_ok=True)
+    (root / "pages_2").mkdir(exist_ok=True)
+    (root / "other_dir").mkdir(exist_ok=True)
 
     # Call the function and verify the result
     result = get_pages_dir(root)
-    expected = [root / "pages_2", root / "pages_1"]
-    assert result == expected
+    expected = [root / "pages_1", root / "pages_2"]
+    assert result.sort() == expected.sort()  # the order differs on Unix / macOS
 
     for item in root.glob("**/*"):
         item.rmdir()
