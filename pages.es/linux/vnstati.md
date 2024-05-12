@@ -3,7 +3,7 @@
 > Compatibilidad de salida a imagen PNG para vnStat.
 > Más información: <https://manned.org/vnstati>.
 
-- Genera un resumen de los últimos 2: meses, días y todos los tiempos:
+- Genera un resumen de los últimos dos meses, días, etc:
 
 `vnstati --summary --iface {{interfaz_de_red}} --output {{ruta/a/salida.png}}`
 
