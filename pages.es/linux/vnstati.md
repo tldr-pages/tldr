@@ -1,6 +1,6 @@
 # vnstati
 
-> Compatibilidad de salida a imagen PNG para vnStat.
+> Genera imágenes PNG compatibles con vnStat.
 > Más información: <https://manned.org/vnstati>.
 
 - Genera un resumen de los últimos dos meses, días, etc:
