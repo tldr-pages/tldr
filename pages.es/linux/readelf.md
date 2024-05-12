@@ -3,7 +3,7 @@
 > Muestra información sobre archivos ELF.
 > Más información: <http://man7.org/linux/man-pages/man1/readelf.1.html>.
 
-- Muestra toda la información sobre el archivo ELF:
+- Muestra toda la información de un archivo ELF:
 
 `readelf -all {{ruta/al/binario}}`
 
