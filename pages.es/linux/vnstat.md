@@ -7,7 +7,7 @@
 
 `vnstat`
 
-- Muestra resumen de tráfico para una interfaz de red específica:
+- Muestra un resumen de tráfico de una interfaz de red específica:
 
 `vnstat -i {{interfaz_de_red}}`
 
