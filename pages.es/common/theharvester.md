@@ -13,7 +13,7 @@
 
 - Cambia el límite de resultados con los que trabajar:
 
-`theHarvester --domain {{nombre_dominio}} --source {{google}} --limit {{200}}`
+`theHarvester --domain {{nombre_de_dominio}} --source {{google}} --limit {{200}}`
 
 - Guarda el resultado en dos archivos en formato XML y HTML:
 
