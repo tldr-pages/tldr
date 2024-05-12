@@ -16,7 +16,7 @@
 
 `convert {{path/to/input_image.png}} -resize 640x480 {{path/to/output_image.png}}`
 
-- Scale an image to have a specified filesize:
+- Scale an image to have a specified file size:
 
 `convert {{path/to/input_image.png}} -define jpeg:extent=512kb {{path/to/output_image.jpg}}`
 
