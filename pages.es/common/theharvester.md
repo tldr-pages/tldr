@@ -17,7 +17,7 @@
 
 - Guarda el resultado en dos archivos en formato XML y HTML:
 
-`theHarvester --domain {{nombre_dominio}} --source {{google}} --file {{nombre_archivo_salida}}`
+`theHarvester --domain {{nombre_de_dominio}} --source {{google}} --file {{nombre_de_archivo_de_salida}}`
 
 - Muestra ayuda:
 
