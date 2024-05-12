@@ -7,7 +7,7 @@
 
 `readelf -all {{ruta/al/binario}}`
 
-- Muestra todas las cabeceras presentes en el archivo ELF:
+- Muestra todas las cabeceras presentes en un archivo ELF:
 
 `readelf --headers {{ruta/al/archivo_binario}}`
 
