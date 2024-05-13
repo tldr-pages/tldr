@@ -13,7 +13,7 @@
 
 - Muestra las entradas en la sección de la tabla de símbolos del archivo ELF, si tieneff una:
 
-`readelf --symbols {{ruta/al/binario}}`
+`readelf --symbols {{ruta/al/archivo_binario}}`
 
 - Muestra la información de la cabecera ELF:
 
