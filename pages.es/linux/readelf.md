@@ -11,7 +11,7 @@
 
 `readelf --headers {{ruta/al/archivo_binario}}`
 
-- Muestra las entradas en la sección de la tabla de símbolos del archivo ELF, si tieneff una:
+- Muestra las entradas en la sección de la tabla de símbolos del archivo ELF, si tiene una:
 
 `readelf --symbols {{ruta/al/archivo_binario}}`
 
