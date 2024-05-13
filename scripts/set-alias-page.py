@@ -7,7 +7,7 @@ A Python script to generate or update alias pages.
 Disclaimer: This script generates a lot of false positives so it isn't suggested to use the sync option. If used, only stage changes and commit verified changes for your language by using -l LANGUAGE.
 
 Note: If the current directory or one of its parents is called "tldr", the script will assume it is the tldr root, i.e., the directory that contains a clone of https://github.com/tldr-pages/tldr
-If the script doesn't find it in the current path, the environment variable TLDR_ROOT will be used as the tldr root. Also, ensure 'git' is available.
+If you aren't, the script will use TLDR_ROOT as the tldr root. Also, ensure 'git' is available.
 
 Usage:
     python3 scripts/set-alias-page.py [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n] [COMMAND]
@@ -36,21 +36,13 @@ Examples:
        python3 scripts/set-alias-page.py -S
        python3 scripts/set-alias-page.py --sync
 
-    3. Read English alias pages, synchronize them into all translations and stage modified pages for commit:
-       python3 scripts/set-more-info-link.py -Ss
-       python3 scripts/set-more-info-link.py --sync --stage
-
-    4. Read English alias pages and show what changes would be made:
-       python3 scripts/set-alias-page.py -Sn
-       python3 scripts/set-alias-page.py --sync --dry-run
-
-    4. Read English alias pages and synchronize them for Brazilian Portuguese pages only:
+    3. Read English alias pages and synchronize them for Brazilian Portuguese pages only:
        python3 scripts/set-alias-page.py -S -l pt_BR
        python3 scripts/set-alias-page.py --sync --language pt_BR
 
     4. Read English alias pages, synchronize them into all translations and stage modified pages for commit:
-       python3 scripts/set-more-info-link.py -Ss
-       python3 scripts/set-more-info-link.py --sync --stage
+       python3 scripts/set-alias-page.py -Ss
+       python3 scripts/set-alias-page.py --sync --stage
 
     5. Read English alias pages and show what changes would be made:
        python3 scripts/set-alias-page.py -Sn
@@ -61,8 +53,10 @@ import re
 from pathlib import Path
 from _common import (
     IGNORE_FILES,
+    Colors,
     get_tldr_root,
     get_pages_dir,
+    get_target_paths,
     get_locale,
     get_status,
     stage,
@@ -71,6 +65,16 @@ from _common import (
 )
 
 IGNORE_FILES += ("tldr.md", "aria2.md")
+
+
+def test_ignore_files():
+    assert IGNORE_FILES == (
+        ".DS_Store",
+        "tldr.md",
+        "aria2.md",
+    )
+    assert ".DS_Store" in IGNORE_FILES
+    assert "tldr.md" in IGNORE_FILES
 
 
 def get_templates(root: Path):
@@ -117,6 +121,57 @@ def get_templates(root: Path):
     return templates
 
 
+def set_alias_page(
+    path: Path, command: str, dry_run=False, language_to_update=""
+) -> str:
+    """
+    Write an alias page to disk.
+
+    Parameters:
+    path (string): Path to an alias page
+    command (string): The command that the alias stands for.
+    dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
+    language_to_update (string): Optionally, the language of the translation to be updated.
+
+    Returns:
+    str: Execution status
+         "" if the alias page standing for the same command already exists or if the locale does not match language_to_update.
+         "\x1b[36mpage added"
+         "\x1b[34mpage updated"
+         "\x1b[36mpage would be added"
+         "\x1b[34mpage would updated"
+    """
+
+    locale = get_locale(path)
+    if locale not in templates or (
+        language_to_update != "" and locale != language_to_update
+    ):
+        # return empty status to indicate that no changes were made
+        return ""
+
+    # Test if the alias page already exists
+    original_command = get_alias_page(path)
+    if original_command == command:
+        return ""
+
+    status = get_status(
+        "added" if original_command == "" else "updated", dry_run, "page"
+    )
+
+    if not dry_run:  # Only write to the path during a non-dry-run
+        alias_name = path.stem
+        text = (
+            templates[locale]
+            .replace("example", alias_name, 1)
+            .replace("example", command)
+        )
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("w", encoding="utf-8") as f:
+            f.write(text)
+
+    return status
+
+
 def get_alias_page(path: Path):
     """
     Determine whether the given path is an alias page.
@@ -138,53 +193,7 @@ def get_alias_page(path: Path):
     return ""
 
 
-def set_alias_page(path: Path, command: str, dry_run=False, language_to_update=""):
-    """
-    Write an alias page to disk.
-
-    Parameters:
-    path (string): Path to an alias page
-    command (string): The command that the alias stands for.
-    dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
-    language_to_update (string): Optionally, the language of the translation to be updated.
-
-    Returns:
-    str: Execution status
-         "" if the alias page standing for the same command already exists.
-         "\x1b[36mpage added" if it's a new alias page.
-         "\x1b[34mpage updated" if the command updates.
-    """
-
-    locale = get_locale(path)
-    if locale not in templates or (
-        language_to_update != "" and locale != language_to_update
-    ):
-        return ""
-
-    # Test if the alias page already exists
-    original_command = get_alias_page(path)
-    if original_command == command:
-        return ""
-
-    status = get_status(
-        "added" if original_command == "" else "updated", dry_run, "page"
-    )
-
-    if not dry_run:  # Only write to the path during a non-dry-run
-        alias_name = path.name.stem
-        text = (
-            templates[locale]
-            .replace("example", alias_name, 1)
-            .replace("example", command)
-        )
-        path.parent.mkdir(parents=True, exist_ok=True)
-        with path.open("w", encoding="utf-8") as f:
-            f.write(text)
-
-    return status
-
-
-def sync_alias(
+def sync(
     root: Path,
     pages_dirs: list[str],
     alias_name: str,
@@ -213,7 +222,7 @@ def sync_alias(
         if status != "":
             rel_path = "/".join(path.parts[-3:])
             rel_paths.append(rel_path)
-            print(f"\x1b[32m{rel_path} {status}\x1b[0m")
+            print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
     return rel_paths
 
 
@@ -235,23 +244,13 @@ def main():
 
     # Use '--page' option
     if args.page != "":
-        if not args.page.lower().endswith(".md"):
-            args.page = f"{args.page}.md"
-        arg_platform, arg_page = args.page.split("/")
-
-        for pages_dir in pages_dirs:
-            page_path = pages_dir / arg_platform / arg_page
-            if not page_path.exists():
-                continue
-            target_paths.append(page_path)
-
-        target_paths.sort()
+        target_paths += get_target_paths(args.page, pages_dirs)
 
         for path in target_paths:
             rel_path = "/".join(path.parts[-3:])
-            status = set_alias_page(path, args.command)
+            status = set_alias_page(path, args.command, args.dry_run, args.language)
             if status != "":
-                print(create_colored_line("\x1b[32m", f"{rel_path} {status}"))
+                print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
 
     # Use '--sync' option
     elif args.sync:
@@ -268,7 +267,7 @@ def main():
             for command in commands:
                 original_command = get_alias_page(root / "pages" / command)
                 if original_command != "":
-                    target_paths += sync_alias(
+                    target_paths += sync(
                         root,
                         pages_dirs,
                         command,

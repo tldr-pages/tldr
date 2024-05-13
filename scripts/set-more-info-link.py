@@ -5,16 +5,18 @@
 A Python script to add or update the "More information" link for all translations of a page.
 
 Note: If the current directory or one of its parents is called "tldr", the script will assume it is the tldr root, i.e., the directory that contains a clone of https://github.com/tldr-pages/tldr
-If you aren't, the script will use TLDR_ROOT as the tldr root. Also, ensure 'git' is available.
+If the script doesn't find it in the current path, the environment variable TLDR_ROOT will be used as the tldr root. Also, ensure 'git' is available.
 
 Usage:
-    python3 scripts/set-more-info-link.py [-p PAGE] [-S] [-s] [-n] [LINK]
+    python3 scripts/set-more-info-link.py [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n] [LINK]
 
 Options:
     -p, --page PAGE
-        Specify the alias page in the format "platform/alias_command.md". This option allows setting the link for a specific page.
+        Specify the alias page in the format "platform/alias_command". This option allows setting the link for a specific page.
     -S, --sync
         Synchronize each translation's more information link (if exists) with that of the English page.
+    -l, --language LANGUAGE
+        Specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
     -s, --stage
         Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
     -n, --dry-run
@@ -25,18 +27,22 @@ Positional Argument:
 
 Examples:
     1. Set the link for a specific page:
-       python3 scripts/set-more-info-link.py -p common/tar.md https://example.com
-       python3 scripts/set-more-info-link.py --page common/tar.md https://example.com
+       python3 scripts/set-more-info-link.py -p common/tar https://example.com
+       python3 scripts/set-more-info-link.py --page common/tar https://example.com
 
-    2. Read English pages and synchronize more information links across translations:
+    2. Read English pages and synchronize the "More information" link across translations:
        python3 scripts/set-more-info-link.py -S
        python3 scripts/set-more-info-link.py --sync
 
-    3. Read English pages, synchronize more information links across translations and stage modified pages for commit:
+    3. Read English pages and synchronize the "More information" link for Brazilian Portuguese pages only:
+       python3 scripts/set-more-info-link.py -S -l pt_BR
+       python3 scripts/set-more-info-link.py --sync --language pt_BR
+
+    4. Read English pages, synchronize the "More information" link across translations and stage modified pages for commit:
        python3 scripts/set-more-info-link.py -Ss
        python3 scripts/set-more-info-link.py --sync --stage
 
-    4. Show what changes would be made across translations:
+    5. Show what changes would be made across translations:
        python3 scripts/set-more-info-link.py -Sn
        python3 scripts/set-more-info-link.py --sync --dry-run
 """
@@ -45,8 +51,10 @@ import re
 from pathlib import Path
 from _common import (
     IGNORE_FILES,
+    Colors,
     get_tldr_root,
     get_pages_dir,
+    get_target_paths,
     get_locale,
     get_status,
     stage,
@@ -95,7 +103,30 @@ labels = {
 }
 
 
-def set_link(path: Path, link: str, dry_run=False) -> str:
+def set_link(path: Path, link: str, dry_run=False, language_to_update="") -> str:
+    """
+    Write a "More information" link in a page to disk.
+
+    Parameters:
+    path (string): Path to an alias page
+    link (string): The link to insert.
+    dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
+    language_to_update (string): Optionally, the language of the translation to be updated.
+
+    Returns:
+    str: Execution status
+         "" if the page does not need an update or if the locale does not match language_to_update.
+         "\x1b[36mlink added"
+         "\x1b[34mlink updated"
+         "\x1b[36mlink would be added"
+         "\x1b[34mlink would updated"
+    """
+
+    locale = get_locale(path)
+    if language_to_update != "" and locale != language_to_update:
+        # return empty status to indicate that no changes were made
+        return ""
+
     with path.open(encoding="utf-8") as f:
         lines = f.readlines()
 
@@ -109,8 +140,6 @@ def set_link(path: Path, link: str, dry_run=False) -> str:
         if not lines[i + 1].startswith(">") and desc_start != 0:
             desc_end = i
             break
-
-    locale = get_locale(path)
 
     # build new line
     if locale in ["bn", "hi", "ne"]:
@@ -167,17 +196,22 @@ def get_link(path: Path) -> str:
 
 
 def sync(
-    root: Path, pages_dirs: list[str], command: str, link: str, dry_run=False
+    root: Path,
+    pages_dirs: list[str],
+    command: str,
+    link: str,
+    dry_run=False,
+    language_to_update="",
 ) -> list[str]:
     paths = []
     for page_dir in pages_dirs:
         path = root / page_dir / command
         if path.exists():
             rel_path = "/".join(path.parts[-3:])
-            status = set_link(path, link, dry_run)
+            status = set_link(path, link, dry_run, language_to_update)
             if status != "":
                 paths.append(path)
-                print(f"\x1b[32m{rel_path} {status}\x1b[0m")
+                print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
     return paths
 
 
@@ -195,23 +229,13 @@ def main():
 
     # Use '--page' option
     if args.page != "":
-        if not args.page.lower().endswith(".md"):
-            args.page = f"{args.page}.md"
-        arg_platform, arg_page = args.page.split("/")
-
-        for pages_dir in pages_dirs:
-            page_path = pages_dir / arg_platform / arg_page
-            if not page_path.exists():
-                continue
-            target_paths.append(page_path)
-
-        target_paths.sort()
+        target_paths += get_target_paths(args.page, pages_dirs)
 
         for path in target_paths:
             rel_path = "/".join(path.parts[-3:])
-            status = set_link(path, args.link)
+            status = set_link(path, args.link, args.dry_run)
             if status != "":
-                print(create_colored_line("\x1b[32m", f"{rel_path} {status}"))
+                print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
 
     # Use '--sync' option
     elif args.sync:

@@ -5,8 +5,10 @@
 A Python file that makes some commonly used functions available for other scripts to use.
 """
 
+from enum import Enum
 from pathlib import Path
 from unittest.mock import patch
+import shutil
 import os
 import argparse
 import subprocess
@@ -14,9 +16,23 @@ import subprocess
 IGNORE_FILES = (".DS_Store",)
 
 
+class Colors(str, Enum):
+    def __str__(self):
+        return str(
+            self.value
+        )  # make str(Colors.COLOR) return the ANSI code instead of an Enum object
+
+    RED = "\x1b[31m"
+    GREEN = "\x1b[32m"
+    BLUE = "\x1b[34m"
+    CYAN = "\x1b[36m"
+    RESET = "\x1b[0m"
+
+
 def test_ignore_files():
     assert IGNORE_FILES == (".DS_Store",)
     assert ".DS_Store" in IGNORE_FILES
+    assert "tldr.md" not in IGNORE_FILES
 
 
 def get_tldr_root(lookup_path: Path = None) -> Path:
@@ -43,7 +59,7 @@ def get_tldr_root(lookup_path: Path = None) -> Path:
     elif "TLDR_ROOT" in os.environ:
         return Path(os.environ["TLDR_ROOT"])
     raise SystemExit(
-        "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
+        f"{Colors.RED}Please set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr.{Colors.RESET}"
     )
 
 
@@ -84,10 +100,7 @@ def test_get_pages_dir():
 
     root = Path("test_root")
 
-    for item in root.glob("**/*"):
-        item.rmdir()
-    if root.exists():
-        root.rmdir()
+    shutil.rmtree(root, True)
 
     root.mkdir(exist_ok=True)
 
@@ -99,18 +112,71 @@ def test_get_pages_dir():
     result = get_pages_dir(root)
     assert result == []
 
-    (root / "pages_1").mkdir(exist_ok=True)
-    (root / "pages_2").mkdir(exist_ok=True)
+    (root / "pages").mkdir(exist_ok=True)
+    (root / "pages.fr").mkdir(exist_ok=True)
     (root / "other_dir").mkdir(exist_ok=True)
 
     # Call the function and verify the result
     result = get_pages_dir(root)
-    expected = [root / "pages_1", root / "pages_2"]
+    expected = [root / "pages", root / "pages.fr"]
     assert result.sort() == expected.sort()  # the order differs on Unix / macOS
 
-    for item in root.glob("**/*"):
-        item.rmdir()
-    root.rmdir()
+    shutil.rmtree(root, True)
+
+
+def get_target_paths(page: str, pages_dirs: Path) -> list[Path]:
+    """
+    Get all paths in all languages that match the page.
+
+    Parameters:
+    page (str): the page to search for.
+
+    Returns:
+    list: A list of Path's.
+    """
+
+    target_paths = []
+
+    if not page.lower().endswith(".md"):
+        page = f"{page}.md"
+    arg_platform, arg_page = page.split("/")
+
+    for pages_dir in pages_dirs:
+        page_path = pages_dir / arg_platform / arg_page
+
+        if not page_path.exists():
+            continue
+        target_paths.append(page_path)
+
+    target_paths.sort()
+
+    return target_paths
+
+
+def test_get_target_paths():
+    root = Path("test_root")
+
+    shutil.rmtree(root, True)
+
+    root.mkdir(exist_ok=True)
+
+    shutil.os.makedirs(root / "pages" / "common")
+    shutil.os.makedirs(root / "pages.fr" / "common")
+
+    file_path = root / "pages" / "common" / "tldr.md"
+    with open(file_path, "w"):
+        pass
+
+    file_path = root / "pages.fr" / "common" / "tldr.md"
+    with open(file_path, "w"):
+        pass
+
+    target_paths = get_target_paths("common/tldr", get_pages_dir(root))
+    for path in target_paths:
+        rel_path = "/".join(path.parts[-3:])
+        print(rel_path)
+
+    shutil.rmtree(root, True)
 
 
 def get_locale(path: Path) -> str:
@@ -151,32 +217,44 @@ def get_status(action: str, dry_run: bool, type: str) -> str:
 
     match action:
         case "added":
-            status_prefix = "\x1b[36m"  # Cyan color
+            start_color = Colors.CYAN
         case "updated":
-            status_prefix = "\x1b[34m"  # Blue color
+            start_color = Colors.BLUE
         case _:
-            status_prefix = "\x1b[31m"  # Red color (default)
+            start_color = Colors.RED
 
     if dry_run:
         status = f"{type} would be {action}"
     else:
         status = f"{type} {action}"
 
-    return create_colored_line(status_prefix, status)
+    return create_colored_line(start_color, status)
 
 
 def test_get_status():
     # Test dry run status
-    assert get_status("added", True, "alias") == "\x1b[36malias would be added\x1b[0m"
-    assert get_status("updated", True, "link") == "\x1b[34mlink would be updated\x1b[0m"
+    assert (
+        get_status("added", True, "alias")
+        == f"{Colors.CYAN}alias would be added{Colors.RESET}"
+    )
+    assert (
+        get_status("updated", True, "link")
+        == f"{Colors.BLUE}link would be updated{Colors.RESET}"
+    )
 
     # Test non-dry run status
-    assert get_status("added", False, "alias") == "\x1b[36malias added\x1b[0m"
-    assert get_status("updated", False, "link") == "\x1b[34mlink updated\x1b[0m"
+    assert (
+        get_status("added", False, "alias") == f"{Colors.CYAN}alias added{Colors.RESET}"
+    )
+    assert (
+        get_status("updated", False, "link")
+        == f"{Colors.BLUE}link updated{Colors.RESET}"
+    )
 
     # Test default color for unknown action
     assert (
-        get_status("unknown", True, "alias") == "\x1b[31malias would be unknown\x1b[0m"
+        get_status("unknown", True, "alias")
+        == f"{Colors.RED}alias would be unknown{Colors.RESET}"
     )
 
 
@@ -186,12 +264,14 @@ def create_colored_line(start_color: str, text: str) -> str:
     str: A colored line
     """
 
-    return f"{start_color}{text}\x1b[0m"
+    return f"{start_color}{text}{Colors.RESET}"
 
 
 def test_create_colored_line():
-    assert create_colored_line("\x1b[36m", "TLDR") == "\x1b[36mTLDR\x1b[0m"
-    assert create_colored_line("Hello", "TLDR") == "HelloTLDR\x1b[0m"
+    assert (
+        create_colored_line(Colors.CYAN, "TLDR") == f"{Colors.CYAN}TLDR{Colors.RESET}"
+    )
+    assert create_colored_line("Hello", "TLDR") == f"HelloTLDR{Colors.RESET}"
 
 
 def create_argument_parser(description: str) -> argparse.ArgumentParser:
@@ -208,6 +288,13 @@ def create_argument_parser(description: str) -> argparse.ArgumentParser:
         help='page name in the format "platform/alias_command.md"',
     )
     parser.add_argument(
+        "-S",
+        "--sync",
+        action="store_true",
+        default=False,
+        help="synchronize each translation's alias page (if exists) with that of English page",
+    )
+    parser.add_argument(
         "-l",
         "--language",
         type=str,
@@ -220,13 +307,6 @@ def create_argument_parser(description: str) -> argparse.ArgumentParser:
         action="store_true",
         default=False,
         help="stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository)",
-    )
-    parser.add_argument(
-        "-S",
-        "--sync",
-        action="store_true",
-        default=False,
-        help="synchronize each translation's alias page (if exists) with that of English page",
     )
     parser.add_argument(
         "-n",
