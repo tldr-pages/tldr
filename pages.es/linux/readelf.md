@@ -5,7 +5,7 @@
 
 - Muestra toda la información de un archivo ELF:
 
-`readelf -all {{ruta/al/binario}}`
+`readelf -all {{ruta/al/archivo_binario}}`
 
 - Muestra todas las cabeceras presentes en un archivo ELF:
 
