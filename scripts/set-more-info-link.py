@@ -12,7 +12,7 @@ Usage:
 
 Options:
     -p, --page PAGE
-        Specify the alias page in the format "platform/alias_command.md".
+        Specify the alias page in the format "platform/alias_command.md". This option allows setting the link for a specific page.
     -S, --sync
         Synchronize each translation's more information link (if exists) with that of the English page.
     -s, --stage
@@ -90,7 +90,11 @@ labels = {
 IGNORE_FILES = (".DS_Store",)
 
 
-def get_tldr_root() -> Path:
+def get_tldr_root():
+    """
+    Get the path of local tldr repository for environment variable TLDR_ROOT.
+    """
+
     # If this script is running from tldr/scripts, the parent's parent is the root
     f = Path(__file__).resolve()
     if (
