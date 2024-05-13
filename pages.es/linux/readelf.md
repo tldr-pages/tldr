@@ -17,7 +17,7 @@
 
 - Muestra la información de la cabecera ELF:
 
-`readelf --file-header {{ruta/al/binario}}`
+`readelf --file-header {{ruta/al/archivo_binario}}`
 
 - Muestra información de cabecera de la sección ELF:
 
