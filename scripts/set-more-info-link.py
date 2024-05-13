@@ -2,25 +2,23 @@
 # SPDX-License-Identifier: MIT
 
 """
-This script sets the "More information" link for all translations of a page.
-It can be used to add or update the links in translations.
+A Python script to add or update the "More information" link for all translations of a page.
 
-Note: Before running this script, ensure that TLDR_ROOT is set to the location
-of a clone of https://github.com/tldr-pages/tldr, and 'git' is available.
-If there is a symlink error when using the stage flag remove the `pages.en`
-directory temporarily and try executing it again.
+Note: If the current directory or one of its parents is called "tldr", the script will assume it is the tldr root, i.e., the directory that contains a clone of https://github.com/tldr-pages/tldr
+If you aren't, the script will use TLDR_ROOT as the tldr root. Also, ensure 'git' is available.
 
-Usage: python3 scripts/set-more-info-link.py [-p PAGE] [-s] [-S] [-n] [LINK]
+Usage:
+    python3 scripts/set-more-info-link.py [-p PAGE] [-S] [-s] [-n] [LINK]
 
-Supported Arguments:
-    -p, --page    Specify the page name in the format "platform/command.md".
-                  This option allows setting the link for a specific page.
-    -s, --stage   Stage modified pages for commit. This option requires 'git'
-                  to be on the $PATH and TLDR_ROOT to be a Git repository.
-    -S, --sync    Synchronize each translation's more information link (if
-                  exists) with that of the English page. This is useful to
-                  ensure consistency across translations.
-    -n, --dry-run Show what changes would be made without actually modifying the page.
+Options:
+    -p, --page PAGE
+        Specify the alias page in the format "platform/alias_command.md". This option allows setting the link for a specific page.
+    -S, --sync
+        Synchronize each translation's more information link (if exists) with that of the English page.
+    -s, --stage
+        Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
+    -n, --dry-run
+        Show what changes would be made without actually modifying the page.
 
 Positional Argument:
     LINK          The link to be set as the "More information" link.
@@ -28,11 +26,13 @@ Positional Argument:
 Examples:
     1. Set the link for a specific page:
        python3 scripts/set-more-info-link.py -p common/tar.md https://example.com
+       python3 scripts/set-more-info-link.py --page common/tar.md https://example.com
 
-    2. Synchronize more information links across translations:
+    2. Read English pages and synchronize more information links across translations:
        python3 scripts/set-more-info-link.py -S
+       python3 scripts/set-more-info-link.py --sync
 
-    3. Synchronize more information links across translations and stage modified pages for commit:
+    3. Read English pages, synchronize more information links across translations and stage modified pages for commit:
        python3 scripts/set-more-info-link.py -Ss
        python3 scripts/set-more-info-link.py --sync --stage
 
@@ -90,13 +90,20 @@ labels = {
 IGNORE_FILES = (".DS_Store",)
 
 
-def get_tldr_root() -> Path:
-    f = Path(__file__).resolve()
-    return next(path for path in f.parents if path.name == "tldr")
+def get_tldr_root():
+    """
+    Get the path of local tldr repository for environment variable TLDR_ROOT.
+    """
 
-    if "TLDR_ROOT" in os.environ:
+    # If this script is running from tldr/scripts, the parent's parent is the root
+    f = Path(__file__).resolve()
+    if (
+        tldr_root := next((path for path in f.parents if path.name == "tldr"), None)
+    ) is not None:
+        return tldr_root
+    elif "TLDR_ROOT" in os.environ:
         return Path(os.environ["TLDR_ROOT"])
-    raise SystemError(
+    raise SystemExit(
         "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
     )
 
@@ -151,7 +158,7 @@ def set_link(path: Path, link: str, dry_run=False) -> str:
         action = "added"
 
     if dry_run:
-        status = f"link will be {action}"
+        status = f"link would be {action}"
     else:
         status = f"link {action}"
 
@@ -214,18 +221,18 @@ def main():
         help='page name in the format "platform/command.md"',
     )
     parser.add_argument(
-        "-s",
-        "--stage",
-        action="store_true",
-        default=False,
-        help="stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository)",
-    )
-    parser.add_argument(
         "-S",
         "--sync",
         action="store_true",
         default=False,
         help="synchronize each translation's more information link (if exists) with that of English page",
+    )
+    parser.add_argument(
+        "-s",
+        "--stage",
+        action="store_true",
+        default=False,
+        help="stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository)",
     )
     parser.add_argument(
         "-n",

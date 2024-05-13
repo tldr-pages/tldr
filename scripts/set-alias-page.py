@@ -4,49 +4,56 @@
 """
 A Python script to generate or update alias pages.
 
-Disclaimer: This script generates a lot of false positives so it
-isn't suggested to use the sync option. If used, only stage changes
-and commit verified changes for your language by using -l LANGUAGE.
+Disclaimer: This script generates a lot of false positives so it isn't suggested to use the sync option. If used, only stage changes and commit verified changes for your language by using -l LANGUAGE.
 
-Note: If there is a symlink error when using the stage flag remove the `pages.en`
-directory temporarily and try executing it again.
+Note: If the current directory or one of its parents is called "tldr", the script will assume it is the tldr root, i.e., the directory that contains a clone of https://github.com/tldr-pages/tldr
+If you aren't, the script will use TLDR_ROOT as the tldr root. Also, ensure 'git' is available.
 
 Usage:
-    python3 scripts/set-alias-page.py [-p PAGE] [-l LANGUAGE] [-s] [-S] [-n] [COMMAND]
+    python3 scripts/set-alias-page.py [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n] [COMMAND]
 
 Options:
     -p, --page PAGE
         Specify the alias page in the format "platform/alias_command.md".
+    -S, --sync
+        Synchronize each translation's alias page (if exists) with that of the English page.
     -l, --language LANGUAGE
         Specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
     -s, --stage
         Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
-    -S, --sync
-        Synchronize each translation's alias page (if exists) with that of the English page.
     -n, --dry-run
         Show what changes would be made without actually modifying the page.
 
+Positional Argument:
+    COMMAND          The command to be set as the alias command.
 
 Examples:
     1. Add 'vi' as an alias page of 'vim':
        python3 scripts/set-alias-page.py -p common/vi vim
+       python3 scripts/set-alias-page.py --page common/vi vim
 
     2. Read English alias pages and synchronize them into all translations:
        python3 scripts/set-alias-page.py -S
+       python3 scripts/set-alias-page.py --sync
 
-    3. Read English alias pages and show what changes would be made:
-       python3 scripts/set-alias-page.py -Sn
-       python3 scripts/set-alias-page.py --sync --dry-run
-
-    4. Read English alias pages and synchronize them for Brazilian Portuguese pages only:
+    3. Read English alias pages and synchronize them for Brazilian Portuguese pages only:
        python3 scripts/set-alias-page.py -S -l pt_BR
        python3 scripts/set-alias-page.py --sync --language pt_BR
+
+    4. Read English alias pages, synchronize them into all translations and stage modified pages for commit:
+       python3 scripts/set-more-info-link.py -Ss
+       python3 scripts/set-more-info-link.py --sync --stage
+
+    5. Read English alias pages and show what changes would be made:
+       python3 scripts/set-alias-page.py -Sn
+       python3 scripts/set-alias-page.py --sync --dry-run
 """
 
 import argparse
 import os
 import re
 import subprocess
+from pathlib import Path
 
 IGNORE_FILES = (".DS_Store", "tldr.md", "aria2.md")
 
@@ -57,16 +64,16 @@ def get_tldr_root():
     """
 
     # If this script is running from tldr/scripts, the parent's parent is the root
-    f = os.path.normpath(__file__)
-    if f.endswith("tldr/scripts/set-alias-page.py"):
-        return os.path.dirname(os.path.dirname(f))
-
-    if "TLDR_ROOT" in os.environ:
-        return os.environ["TLDR_ROOT"]
-    else:
-        raise SystemExit(
-            "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr.\x1b[0m"
-        )
+    f = Path(__file__).resolve()
+    if (
+        tldr_root := next((path for path in f.parents if path.name == "tldr"), None)
+    ) is not None:
+        return tldr_root
+    elif "TLDR_ROOT" in os.environ:
+        return Path(os.environ["TLDR_ROOT"])
+    raise SystemExit(
+        "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
+    )
 
 
 def get_templates(root):
@@ -177,7 +184,7 @@ def set_alias_page(file, command, dry_run=False, language_to_update=""):
         action = "updated"
 
     if dry_run:
-        status = f"page will be {action}"
+        status = f"page would be {action}"
     else:
         status = f"page {action}"
 
@@ -238,6 +245,13 @@ def main():
         help='page name in the format "platform/alias_command.md"',
     )
     parser.add_argument(
+        "-S",
+        "--sync",
+        action="store_true",
+        default=False,
+        help="synchronize each translation's alias page (if exists) with that of English page",
+    )
+    parser.add_argument(
         "-l",
         "--language",
         type=str,
@@ -251,13 +265,6 @@ def main():
         action="store_true",
         default=False,
         help="stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository)",
-    )
-    parser.add_argument(
-        "-S",
-        "--sync",
-        action="store_true",
-        default=False,
-        help="synchronize each translation's alias page (if exists) with that of English page",
     )
     parser.add_argument(
         "-n",
