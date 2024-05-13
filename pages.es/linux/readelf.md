@@ -21,4 +21,4 @@
 
 - Muestra información de cabecera de la sección ELF:
 
-`readelf --section-headers {{ruta/al/binario}}`
+`readelf --section-headers {{ruta/al/archivo_binario}}`
