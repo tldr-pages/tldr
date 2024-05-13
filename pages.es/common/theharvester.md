@@ -1,6 +1,6 @@
 # theHarvester
 
-> Una herramienta diseñada para ser utilizada en las primeras etapas de una prueba de penetración.
+> Una herramienta diseñada para las primeras etapas en una prueba de penetración.
 > Más información: <https://github.com/laramies/theHarvester>.
 
 - Recopila información sobre un dominio utilizando Google:
