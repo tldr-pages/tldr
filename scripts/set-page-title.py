@@ -2,23 +2,23 @@
 # SPDX-License-Identifier: MIT
 
 """
-This script sets the title for all translations of a page.
-It can be used to update the titles in translations.
+A Python script to add or update the page title for all translations of a page.
 
 Note: If the current directory or one of its parents is called "tldr", the script will assume it is the tldr root, i.e., the directory that contains a clone of https://github.com/tldr-pages/tldr
 If you aren't, the script will use TLDR_ROOT as the tldr root. Also, ensure 'git' is available.
 
-Usage: python3 scripts/set-page-title.py [-p PAGE] [-s] [-S] [-n] [TITLE]
+Usage:
+    python3 scripts/set-page-title.py [-p PAGE] [-S] [-s] [-n] [TITLE]
 
-Supported Arguments:
-    -p, --page    Specify the page name in the format "platform/command.md".
-                  This option allows setting the title for a specific page.
-    -s, --stage   Stage modified pages for commit. This option requires 'git'
-                  to be on the $PATH and TLDR_ROOT to be a Git repository.
-    -S, --sync    Synchronize each translation's title (if
-                  exists) with that of the English page. This is useful to
-                  ensure consistency across translations.
-    -n, --dry-run Show what changes would be made without actually modifying the page.
+Options:
+    -p, --page PAGE
+        Specify the page in the format "platform/command.md". This option allows setting the title for a specific page.
+    -S, --sync
+        Synchronize each translation's title (if exists) with that of the English page.
+    -s, --stage
+        Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
+    -n, --dry-run
+        Show what changes would be made without actually modifying the page.
 
 Positional Argument:
     TITLE          The title to be set as the title.
@@ -26,9 +26,11 @@ Positional Argument:
 Examples:
     1. Set the title for a specific page:
        python3 scripts/set-page-title.py -p common/tar.md tar.1
+       python3 scripts/set-page-title.py --page common/tar.md tar.1
 
     2. Synchronize titles across translations:
        python3 scripts/set-page-title.py -S
+       python3 scripts/set-page-title.py --sync
 
     3. Synchronize titles across translations and stage modified pages for commit:
        python3 scripts/set-page-title.py -Ss
@@ -47,7 +49,11 @@ from pathlib import Path
 IGNORE_FILES = (".DS_Store",)
 
 
-def get_tldr_root() -> Path:
+def get_tldr_root():
+    """
+    Get the path of local tldr repository for environment variable TLDR_ROOT.
+    """
+
     # If this script is running from tldr/scripts, the parent's parent is the root
     f = Path(__file__).resolve()
     if (
