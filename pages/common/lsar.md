@@ -9,6 +9,7 @@
 `lsar {{archive}}`
 
 - List password protected archive file contents:
+
 `lsar {{archive}} --password {{password}}`
 
 - Print al[L] available information about each file in the archive (it's very long):
