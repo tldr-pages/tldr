@@ -1,7 +1,7 @@
 # gleam
 
 > The compiler, build tool, package manager and code formatter for Gleam, "a friendly language for building type-safe systems that scale!".
-> More information: <https://gleam.run/>.
+> More information: <https://gleam.run/writing-gleam/command-line-reference/>.
 
 - Create a new gleam project:
 
@@ -17,7 +17,7 @@
 
 - Run a project for a particular platform and runtime:
 
-`gleam run {{-t|--target}} javascript --runtime bun`
+`gleam run --target {{platform}} --runtime {{runtime}}`
 
 - Add a hex dependency to your project:
 
