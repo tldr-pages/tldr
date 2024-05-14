@@ -12,9 +12,9 @@ Usage:
 
 Options:
     -p, --page PAGE
-        Specify the alias page in the format "platform/alias_command". This option allows setting the link for a specific page.
+        Specify the page in the format "platform/command". This option allows setting the link for a specific page.
     -S, --sync
-        Synchronize each translation's more information link (if exists) with that of the English page.
+        Synchronize each translation's "More information" link (if exists) with that of the English page.
     -l, --language LANGUAGE
         Specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
     -s, --stage
@@ -103,13 +103,15 @@ labels = {
 }
 
 
-def set_link(path: Path, link: str, dry_run=False, language_to_update="") -> str:
+def set_link(
+    path: Path, link: str, dry_run: bool = False, language_to_update: str = ""
+) -> str:
     """
     Write a "More information" link in a page to disk.
 
     Parameters:
-    path (string): Path to an alias page
-    link (string): The link to insert.
+    path (string): Path to a page
+    link (string): The "More information" link to insert.
     dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
     language_to_update (string): Optionally, the language of the translation to be updated.
 
@@ -174,6 +176,19 @@ def set_link(path: Path, link: str, dry_run=False, language_to_update="") -> str
 
 
 def get_link(path: Path) -> str:
+    """
+    Determine whether the given path has a "More information" link.
+
+    Parameters:
+    path (Path): Path to a page
+
+    Returns:
+    str: "" If the path doesn't exit or does not have a link,
+         otherwise return the "More information" link.
+    """
+
+    if not path.exists():
+        return ""
     with path.open(encoding="utf-8") as f:
         lines = f.readlines()
 
@@ -197,22 +212,36 @@ def get_link(path: Path) -> str:
 
 def sync(
     root: Path,
-    pages_dirs: list[str],
+    pages_dirs: list[Path],
     command: str,
     link: str,
-    dry_run=False,
-    language_to_update="",
-) -> list[str]:
-    paths = []
+    dry_run: bool = False,
+    language_to_update: str = "",
+) -> list[Path]:
+    """
+    Synchronize a "More information" link into all translations.
+
+    Parameters:
+    root (Path): TLDR_ROOT
+    pages_dirs (list of Path's): Path's of page entry and platform, e.g. "page.fr/common".
+    command (str): A command like "tar".
+    link (str): A link like "https://example.com".
+    dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
+    language_to_update (str): Optionally, the language of the translation to be updated.
+
+    Returns:
+    list (list of Path's): A list of Path's to be staged into git, using by --stage option.
+    """
+    rel_paths = []
     for page_dir in pages_dirs:
         path = root / page_dir / command
         if path.exists():
-            rel_path = "/".join(path.parts[-3:])
             status = set_link(path, link, dry_run, language_to_update)
             if status != "":
-                paths.append(path)
+                rel_path = "/".join(path.parts[-3:])
+                rel_paths.append(rel_path)
                 print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
-    return paths
+    return rel_paths
 
 
 def main():
@@ -233,7 +262,7 @@ def main():
 
         for path in target_paths:
             rel_path = "/".join(path.parts[-3:])
-            status = set_link(path, args.link, args.dry_run)
+            status = set_link(path, args.link, args.dry_run, args.language)
             if status != "":
                 print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
 

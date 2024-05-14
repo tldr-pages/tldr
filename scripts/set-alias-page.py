@@ -90,7 +90,7 @@ def get_templates(root: Path):
     """
 
     template_file = root / "contributing-guides/translation-templates/alias-pages.md"
-    with open(template_file, encoding="utf-8") as f:
+    with template_file.open(encoding="utf-8") as f:
         lines = f.readlines()
 
     # Parse alias-pages.md
@@ -122,7 +122,7 @@ def get_templates(root: Path):
 
 
 def set_alias_page(
-    path: Path, command: str, dry_run=False, language_to_update=""
+    path: Path, command: str, dry_run: bool = False, language_to_update: str = ""
 ) -> str:
     """
     Write an alias page to disk.
@@ -172,7 +172,7 @@ def set_alias_page(
     return status
 
 
-def get_alias_page(path: Path):
+def get_alias_page(path: Path) -> str:
     """
     Determine whether the given path is an alias page.
 
@@ -186,8 +186,9 @@ def get_alias_page(path: Path):
 
     if not path.exists():
         return ""
-    with open(path, "r", encoding="utf-8") as f:
+    with path.open(encoding="utf-8") as f:
         for line in f:
+            # match alias (`tldr <alias>`)
             if match := re.search(r"^`tldr (.+)`", line):
                 return match[1]
     return ""
@@ -195,25 +196,25 @@ def get_alias_page(path: Path):
 
 def sync(
     root: Path,
-    pages_dirs: list[str],
+    pages_dirs: list[Path],
     alias_name: str,
     original_command: str,
-    dry_run=False,
-    language_to_update="",
-) -> list[str]:
+    dry_run: bool = False,
+    language_to_update: str = "",
+) -> list[Path]:
     """
     Synchronize an alias page into all translations.
 
     Parameters:
     root (Path): TLDR_ROOT
-    pages_dirs (list of str): Strings of page entry and platform, e.g. "page.fr/common".
+    pages_dirs (list of Path's): Path's of page entry and platform, e.g. "page.fr/common".
     alias_name (str): An alias command with .md extension like "vi.md".
     original_command (str): An Original command like "vim".
     dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
     language_to_update (str): Optionally, the language of the translation to be updated.
 
     Returns:
-    list: A list of paths to be staged into git, using by --stage option.
+    list (list of Path's): A list of Path's to be staged into git, using by --stage option.
     """
     rel_paths = []
     for page_dir in pages_dirs:

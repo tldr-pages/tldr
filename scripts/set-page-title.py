@@ -62,7 +62,9 @@ from _common import (
 )
 
 
-def set_page_title(path: Path, title: str, dry_run=False, language_to_update="") -> str:
+def set_page_title(
+    path: Path, title: str, dry_run: bool = False, language_to_update: str = ""
+) -> str:
     """
     Write a title in a page to disk.
 
@@ -81,22 +83,24 @@ def set_page_title(path: Path, title: str, dry_run=False, language_to_update="")
          "\x1b[34mtitle would updated"
     """
 
+    locale = get_locale(path)
+    if language_to_update != "" and locale != language_to_update:
+        # return empty status to indicate that no changes were made
+        return ""
+
     new_line = f"# {title}\n"
 
     # Read the content of the Markdown file
     with path.open(encoding="utf-8") as f:
         lines = f.readlines()
 
-    locale = get_locale(path)
-    if lines[0] == new_line or (
-        language_to_update != "" and locale != language_to_update
-    ):
+    if lines[0] == new_line:
         # return empty status to indicate that no changes were made
         return ""
 
     status = get_status("updated", dry_run, "title")
 
-    if not dry_run:
+    if not dry_run:  # Only write to the path during a non-dry-run
         lines[0] = new_line
         with path.open("w", encoding="utf-8") as f:
             f.writelines(lines)
@@ -105,6 +109,19 @@ def set_page_title(path: Path, title: str, dry_run=False, language_to_update="")
 
 
 def get_page_title(path: Path) -> str:
+    """
+    Determine whether the given path has a title.
+
+    Parameters:
+    path (Path): Path to a page
+
+    Returns:
+    str: "" If the path doesn't exit or does not have a title,
+         otherwise return the page title.
+    """
+
+    if not path.exists():
+        return ""
     with path.open(encoding="utf-8") as f:
         first_line = f.readline().strip()
 
@@ -113,22 +130,36 @@ def get_page_title(path: Path) -> str:
 
 def sync(
     root: Path,
-    pages_dirs: list[str],
+    pages_dirs: list[Path],
     command: str,
     title: str,
-    dry_run=False,
-    language_to_update="",
+    dry_run: bool = False,
+    language_to_update: str = "",
 ) -> list[str]:
-    paths = []
+    """
+    Synchronize a page title into all translations.
+
+    Parameters:
+    root (Path): TLDR_ROOT
+    pages_dirs (list of Path's): Path's of page entry and platform, e.g. "page.fr/common".
+    command (str): A command like "tar".
+    title (str): A title like "tar".
+    dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
+    language_to_update (str): Optionally, the language of the translation to be updated.
+
+    Returns:
+    list (list of Path's): A list of Path's to be staged into git, using by --stage option.
+    """
+    rel_paths = []
     for page_dir in pages_dirs:
         path = root / page_dir / command
         if path.exists():
-            rel_path = "/".join(path.parts[-3:])
             status = set_page_title(path, title, dry_run, language_to_update)
             if status != "":
-                paths.append(path)
+                rel_path = "/".join(path.parts[-3:])
+                rel_paths.append(rel_path)
                 print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
-    return paths
+    return rel_paths
 
 
 def main():
@@ -161,7 +192,7 @@ def main():
             commands = [
                 f"{platform}/{page.name}"
                 for page in platform_path.iterdir()
-                if page not in IGNORE_FILES
+                if page.name not in IGNORE_FILES
             ]
             for command in commands:
                 title = get_page_title(root / "pages" / command)

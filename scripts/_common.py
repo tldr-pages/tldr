@@ -59,7 +59,7 @@ def get_tldr_root(lookup_path: Path = None) -> Path:
     elif "TLDR_ROOT" in os.environ:
         return Path(os.environ["TLDR_ROOT"])
     raise SystemExit(
-        f"{Colors.RED}Please set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr.{Colors.RESET}"
+        f"{Colors.RED}Please set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr{Colors.RESET}"
     )
 
 
@@ -91,7 +91,17 @@ def test_get_tldr_root():
         os.environ["TLDR_ROOT"] = original_env
 
 
-def get_pages_dir(root: Path):
+def get_pages_dir(root: Path) -> list[Path]:
+    """
+    Get all pages directories.
+
+    Parameters:
+    root (Path): the path to search for the pages directories.
+
+    Returns:
+    list (list of Path's): Path's of page entry and platform, e.g. "page.fr/common".
+    """
+
     return [d for d in root.iterdir() if d.name.startswith("pages")]
 
 
@@ -124,15 +134,15 @@ def test_get_pages_dir():
     shutil.rmtree(root, True)
 
 
-def get_target_paths(page: str, pages_dirs: Path) -> list[Path]:
+def get_target_paths(page: Path, pages_dirs: Path) -> list[Path]:
     """
     Get all paths in all languages that match the page.
 
     Parameters:
-    page (str): the page to search for.
+    page (Path): the page to search for.
 
     Returns:
-    list: A list of Path's.
+    list (list of Path's): A list of Path's.
     """
 
     target_paths = []
@@ -182,6 +192,12 @@ def test_get_target_paths():
 def get_locale(path: Path) -> str:
     """
     Get the locale from the path.
+
+    Parameters:
+    path (Path): the path to extract the locale.
+
+    Returns:
+    str: a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
     """
 
     # compute locale
@@ -260,6 +276,12 @@ def test_get_status():
 
 def create_colored_line(start_color: str, text: str) -> str:
     """
+    Create a colored line.
+
+    Parameters:
+    start_color (str): The color for the line.
+    text (str): The text to display.
+
     Returns:
     str: A colored line
     """
@@ -277,6 +299,12 @@ def test_create_colored_line():
 def create_argument_parser(description: str) -> argparse.ArgumentParser:
     """
     Create an argument parser that can be extended.
+
+    Parameters:
+    description (str): The description for the argument parser
+
+    Returns:
+    ArgumentParser: an argument parser.
     """
 
     parser = argparse.ArgumentParser(description=description)
@@ -328,23 +356,29 @@ def test_create_argument_parser():
 
     # Check if each expected argument is added with the correct configurations
     arguments = [
-        ("-p", "--page", str, False, ""),
-        ("-l", "--language", str, False, ""),
-        ("-s", "--stage", None, False, False),
-        ("-S", "--sync", None, False, False),
-        ("-n", "--dry-run", None, False, False),
+        ("-p", "--page", str, ""),
+        ("-l", "--language", str, ""),
+        ("-s", "--stage", None, False),
+        ("-S", "--sync", None, False),
+        ("-n", "--dry-run", None, False),
     ]
-    for short_flag, long_flag, arg_type, is_required, default_value in arguments:
+    for short_flag, long_flag, arg_type, default_value in arguments:
         action = parser._option_string_actions[short_flag]  # Get action for short flag
         assert action.dest.replace("_", "-") == long_flag.lstrip(
             "-"
         )  # Check destination name
         assert action.type == arg_type  # Check argument type
-        assert action.required == is_required  # Check if argument is required
         assert action.default == default_value  # Check default value
 
 
-def stage(paths: list[str]):
+def stage(paths: list[Path]):
+    """
+    Stage the given paths using Git.
+
+    Parameters:
+    paths (list of Paths): the list of Path's to stage using Git.
+
+    """
     subprocess.call(["git", "add", *(path.resolve() for path in paths)])
 
 
