@@ -1,4 +1,4 @@
-# lshw
+# lstopo
 
 > Show the hardware topology of the system.
 > More information: <https://manned.org/lstopo>.
