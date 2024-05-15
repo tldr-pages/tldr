@@ -1,10 +1,10 @@
 # lsar
 
-> List archive file contents.
+> List an archive file's contents.
 > See also: `unar`, `ar`.
 > More information: <https://manned.org/lsar>.
 
-- List archive file contents:
+- List an archive file's contents:
 
 `lsar {{path/to/archive}}`
 
