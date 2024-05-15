@@ -29,7 +29,7 @@
 
 - Aproxima el comando anterior sin un archivo previamente preparado, calculando las frecuencias esperadas usando las frecuencias de una sola base/residuo en la(s) secuencia(s) de entrada suministrada(s):
 
-`compseq -sequence {{ruta/al/proteoma_humano.fasta}} -palabra 3 {{ruta/al/archivo_de_salida.comp}} -nozero -calcfreq`
+`compseq -sequence {{ruta/al/proteoma_humano.fasta}} -word 3 {{ruta/al/archivo_de_salida.comp}} -nozero -calcfreq`
 
 - Muestra ayuda (utiliza `-help -verbose` para obtener más información sobre los calificadores asociados y generales):
 
