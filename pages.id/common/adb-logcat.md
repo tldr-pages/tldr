@@ -1,4 +1,4 @@
-# adb-logcat
+# adb logcat
 
 > Dapatkan dan simpan log sistem pada perangkat Android.
 > Informasi lebih lanjut: <https://developer.android.com/tools/logcat>.
