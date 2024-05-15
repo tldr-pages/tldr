@@ -15,6 +15,6 @@
 
 `touch -c -t {{YYYYMMDDHHMM.SS}} {{path/to/file1 path/to/file2 ...}}`
 
-- Set the files' timestamp to the [r]ef_file's timestamp, and don't [c]reate file if not exist:
+- Set the files' timestamp to the [r]eference file's timestamp, and do not [c]reate the file if it does not exist:
 
 `touch -c -r {{path/to/ref_file}} {{path/to/file1 path/to/file2 ...}}`
