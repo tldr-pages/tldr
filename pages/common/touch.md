@@ -15,6 +15,6 @@
 
 `touch -c -t {{YYYYMMDDHHMM.SS}} {{path/to/file1 path/to/file2 ...}}`
 
-- Set the file time of a specific file to the time of anothe[r] file and don't [c]reate file if it doesn't exist:
+- update the files' timestamp to the [r]ef_file's timestamp, and don't [c]reate file if not exist:
 
-`touch -c -r {{~/.emacs}} {{path/to/file1 path/to/file2 ...}}`
+`touch -c -r {{path/to/ref_file}} {{path/to/file1 path/to/file2 ...}}`
