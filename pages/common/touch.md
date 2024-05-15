@@ -17,4 +17,4 @@
 
 - Set the files' timestamp to the [r]eference file's timestamp, and do not [c]reate the file if it does not exist:
 
-`touch -c -r {{path/to/ref_file}} {{path/to/file1 path/to/file2 ...}}`
+`touch -c -r {{path/to/reference_file}} {{path/to/file1 path/to/file2 ...}}`
