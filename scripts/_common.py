@@ -59,7 +59,7 @@ def get_tldr_root(lookup_path: Path = None) -> Path:
     elif "TLDR_ROOT" in os.environ:
         return Path(os.environ["TLDR_ROOT"])
     raise SystemExit(
-        f"{Colors.RED}Please set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr{Colors.RESET}"
+        f"{Colors.RED}Please set the environment variable TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr{Colors.RESET}"
     )
 
 
