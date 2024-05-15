@@ -6,24 +6,24 @@
 
 - List archive file contents:
 
-`lsar {{archive}}`
+`lsar {{path/to/archive}}`
 
-- List password protected archive file contents:
+- List a password protected archive file's contents:
 
-`lsar {{archive}} --password {{password}}`
+`lsar {{path/to/archive}} --password {{password}}`
 
 - Print al[L] available information about each file in the archive (it's very long):
 
-`lsar {{-L|--verylong}} {{archive}}`
+`lsar {{-L|--verylong}} {{path/to/archive}}`
 
 - Test the integrity of the files in the archive (if possible):
 
-`lsar --test {{archive}}`
+`lsar --test {{path/to/archive}}`
 
-- List archive file contents in JSON format:
+- List the archive file's contents in JSON format:
 
-`lsar --json {{archive}}`
+`lsar --json {{path/to/archive}}`
 
-- Display help information:
+- Display help:
 
 `lsar --help`
