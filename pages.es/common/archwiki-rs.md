@@ -5,7 +5,7 @@
 
 - Lee una página de la ArchWiki:
 
-`archwiki-rs read-page {{título_página}}`
+`archwiki-rs read-page {{título_de_página}}`
 
 - Lee una página de la ArchWiki en el formato especificado:
 
