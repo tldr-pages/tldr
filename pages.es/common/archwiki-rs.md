@@ -13,7 +13,7 @@
 
 - Busca páginas en ArchWiki con el texto proporcionado:
 
-`archwiki-rs search " {{texto_buscado}}" --text-search`
+`archwiki-rs search "{{texto_a_buscar}}" --text-search`
 
 - Descarga una copia local de todas las páginas de ArchWiki en un directorio específico:
 
