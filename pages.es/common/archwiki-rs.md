@@ -11,7 +11,7 @@
 
 `archwiki-rs read-page {{título_de_página}} --format {{plain-text|markdown|html}}`
 
-- Busca en ArchWiki páginas que contengan el texto proporcionado:
+- Busca páginas en ArchWiki con el texto proporcionado:
 
 `archwiki-rs search " {{texto_buscado}}" --text-search`
 
