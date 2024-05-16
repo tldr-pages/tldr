@@ -5,7 +5,7 @@
 
 - Crea un nuevo proyecto gleam:
 
-`gleam new {{nombre_del_proyecto}}
+`gleam new {{nombre_del_proyecto}}`
 
 - Construye y ejecuta un proyecto gleam:
 
