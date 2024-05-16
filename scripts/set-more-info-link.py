@@ -232,16 +232,16 @@ def sync(
     Returns:
     list (list of Path's): A list of Path's to be staged into git, using by --stage option.
     """
-    rel_paths = []
+    paths = []
     for page_dir in pages_dirs:
         path = root / page_dir / command
         if path.exists():
             status = set_link(path, link, dry_run, language_to_update)
             if status != "":
                 rel_path = "/".join(path.parts[-3:])
-                rel_paths.append(rel_path)
+                paths.append(rel_path)
                 print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
-    return rel_paths
+    return paths
 
 
 def main():
