@@ -9,7 +9,7 @@
 
 - Lee una página de la ArchWiki en el formato especificado:
 
-`archwiki-rs read-page {{título_página}} --format {{plain-text|markdown|html}}`
+`archwiki-rs read-page {{título_de_página}} --format {{plain-text|markdown|html}}`
 
 - Busca en ArchWiki páginas que contengan el texto proporcionado:
 
