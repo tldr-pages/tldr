@@ -3,7 +3,7 @@
 > Display network-related information such as open connections, open socket ports, etc.
 > More information: <https://keith.github.io/xcode-man-pages/netstat.1.html>.
 
-- Displays the PID and program name listening on the given protocol listen:
+- Display the PID and program name listening on a specific protocol:
 
 `netstat -p {{protocol}}`
 
