@@ -1,7 +1,7 @@
 # apkleaks
 
 > An APK file scanner for exposing URIs, endpoints, and secrets.
-> APKLeaks utilizes the `jadx` disassembler to decompile APK files.
+> Note: APKLeaks utilizes the `jadx` disassembler to decompile APK files.
 > More information: <https://github.com/dwisiswant0/apkleaks>.
 
 - Scan an APK [f]ile for URIs, endpoints, and secrets:
