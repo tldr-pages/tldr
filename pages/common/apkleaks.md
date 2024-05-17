@@ -14,4 +14,4 @@
 
 - Pass `jadx` disassembler [a]rguments:
 
-`apkleaks --file {{path/to/file.apk}} --args "--threads-count 5 --deobf"`
+`apkleaks --file {{path/to/file.apk}} --args "{{--threads-count 5 --deobf}}"`
