@@ -1,6 +1,6 @@
 # pw-config
 
-> Debug PipeWire config parsing.
+> Debug PipeWire configuration parsing.
 > More information: <https://docs.pipewire.org/page_man_pw-config_1.html>.
 
 - List all config files that will be used:
