@@ -3,7 +3,7 @@
 > Calcula la composición de palabras únicas en secuencias.
 > Más información: <https://www.bioinformatics.nl/cgi-bin/emboss/help/compseq/>.
 
-- Cuenta frecuencias observadas de palabras en un archivo FASTA, proporcionando valores de parámetros con prompt interactivo:
+- Cuenta frecuencias observadas de palabras en un archivo FASTA, proporcionando valores de parámetros interactivamente:
 
 `compseq {{ruta/al/archivo.fasta}}`
 
