@@ -11,7 +11,7 @@
 
 `sops -d {{path/to/myfile.enc.json}}`
 
-- Update the declared keys in .sops.yaml:
+- Update the declared keys in a sops file:
 
 `sops updatekeys {{path/to/file.enc.yaml}}`
 
