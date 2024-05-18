@@ -7,7 +7,7 @@
 
 `compseq {{ruta/al/archivo.fasta}}`
 
-- Cuenta frecuencias observadas de pares de aminoácidos de un archivo FASTA, y guarda el resultado en un archivo de texto:
+- Cuenta frecuencias observadas de pares de aminoácidos en un archivo FASTA, y guarda el resultado en un archivo de texto:
 
 `compseq {{ruta/al/archivo_proteina.fasta}} -word 2 {{ruta/al/archivo_de_salida.comp}}`
 
