@@ -19,6 +19,6 @@
 
 `lstopo --no-factorize --output-format {{console|ascii|tex|fig|svg|pdf|ps|png|xml}} {{ruta/al/archivo}}`
 
-- Salida en monocromo o escala de grises:
+- Muestra datos en monocromo o escala de grises:
 
 `lstopo --palette {{none|grey}}`
