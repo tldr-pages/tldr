@@ -1,6 +1,6 @@
 # pw-config
 
-> Debug PipeWire configuration parsing.
+> List configuration paths and sections that will be used by the PipeWire server and clients.
 > More information: <https://docs.pipewire.org/page_man_pw-config_1.html>.
 
 - List all configuration files that will be used:
