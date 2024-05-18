@@ -11,7 +11,7 @@
 
 `compseq {{ruta/al/archivo_proteina.fasta}} -word 2 {{ruta/al/archivo_de_salida.comp}}`
 
-- Cuenta las frecuencias observadas de hexanucleótidos de un archivo FASTA, luego guarda el resultado en un archivo de texto e ignora los recuentos cero:
+- Cuenta las frecuencias observadas de hexanucleótidos en un archivo FASTA, luego guarda el resultado en un archivo de texto e ignora los recuentos cero:
 
 `compseq {{ruta/al/archivo_de_entrada.fasta}} -word 6 {{ruta/al/archivo_de_salida.comp}} -nozero`
 
