@@ -15,10 +15,10 @@
 
 `alacritty -e {{command}}`
 
-- Use an alternative configuration file (defaults to `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- Use an alternative configuration file (defaults to `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
-`alacritty --config-file {{path/to/config.yml}}`
+`alacritty --config-file {{path/to/config.toml}}`
 
-- Run with live configuration reload enabled (can also be enabled by default in `alacritty.yml`):
+- Run with live configuration reload enabled (can also be enabled by default in `alacritty.toml`):
 
-`alacritty --live-config-reload --config-file {{path/to/config.yml}}`
+`alacritty --live-config-reload --config-file {{path/to/config.toml}}`
