@@ -11,7 +11,7 @@
 
 `lstopo --no-factorize`
 
-- Muestra la topología resumida del sistema sólo con índices [físicos] (es decir, tal y como la ve el sistema operativo):
+- Muestra la topología resumida del sistema sólo con índices físicos (es decir, tal y como la ve el sistema operativo):
 
 `lstopo --physical`
 
