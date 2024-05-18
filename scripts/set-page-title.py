@@ -5,16 +5,18 @@
 A Python script to add or update the page title for all translations of a page.
 
 Note: If the current directory or one of its parents is called "tldr", the script will assume it is the tldr root, i.e., the directory that contains a clone of https://github.com/tldr-pages/tldr
-If you aren't, the script will use TLDR_ROOT as the tldr root. Also, ensure 'git' is available.
+If the script doesn't find it in the current path, the environment variable TLDR_ROOT will be used as the tldr root. Also, ensure 'git' is available.
 
 Usage:
-    python3 scripts/set-page-title.py [-p PAGE] [-S] [-s] [-n] [TITLE]
+    python3 scripts/set-page-title.py [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n] [TITLE]
 
 Options:
     -p, --page PAGE
-        Specify the page in the format "platform/command.md". This option allows setting the title for a specific page.
+        Specify the page in the format "platform/command". This option allows setting the title for a specific page.
     -S, --sync
         Synchronize each translation's title (if exists) with that of the English page.
+    -l, --language LANGUAGE
+        Specify the language, a POSIX Locale Name in the form of "ll" or "ll_CC" (e.g. "fr" or "pt_BR").
     -s, --stage
         Stage modified pages (requires 'git' on $PATH and TLDR_ROOT to be a Git repository).
     -n, --dry-run
@@ -25,49 +27,67 @@ Positional Argument:
 
 Examples:
     1. Set the title for a specific page:
-       python3 scripts/set-page-title.py -p common/tar.md tar.1
-       python3 scripts/set-page-title.py --page common/tar.md tar.1
+       python3 scripts/set-page-title.py -p common/tar tar
+       python3 scripts/set-page-title.py --page common/tar tar
 
     2. Synchronize titles across translations:
        python3 scripts/set-page-title.py -S
        python3 scripts/set-page-title.py --sync
 
-    3. Synchronize titles across translations and stage modified pages for commit:
+    3. Read English pages and synchronize the title for Brazilian Portuguese pages only:
+       python3 scripts/set-page-title.py -S -l pt_BR
+       python3 scripts/set-page-title.py --sync --language pt_BR
+
+    4. Synchronize titles across translations and stage modified pages for commit:
        python3 scripts/set-page-title.py -Ss
        python3 scripts/set-page-title.py --sync --stage
 
-    4. Show what changes would be made across translations:
+    5. Show what changes would be made across translations:
        python3 scripts/set-page-title.py -Sn
        python3 scripts/set-page-title.py --sync --dry-run
 """
 
-import argparse
-import os
-import subprocess
 from pathlib import Path
+from _common import (
+    IGNORE_FILES,
+    Colors,
+    get_tldr_root,
+    get_pages_dir,
+    get_target_paths,
+    get_locale,
+    get_status,
+    stage,
+    create_colored_line,
+    create_argument_parser,
+)
 
-IGNORE_FILES = (".DS_Store",)
 
-
-def get_tldr_root():
+def set_page_title(
+    path: Path, title: str, dry_run: bool = False, language_to_update: str = ""
+) -> str:
     """
-    Get the path of local tldr repository for environment variable TLDR_ROOT.
+    Write a title in a page to disk.
+
+    Parameters:
+    path (string): Path to a page
+    title (string): The title to insert.
+    dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
+    language_to_update (string): Optionally, the language of the translation to be updated.
+
+    Returns:
+    str: Execution status
+         "" if the page does not need an update or if the locale does not match language_to_update.
+         "\x1b[36mtitle added"
+         "\x1b[34mtitle updated"
+         "\x1b[36mtitle would be added"
+         "\x1b[34mtitle would updated"
     """
 
-    # If this script is running from tldr/scripts, the parent's parent is the root
-    f = Path(__file__).resolve()
-    if (
-        tldr_root := next((path for path in f.parents if path.name == "tldr"), None)
-    ) is not None:
-        return tldr_root
-    elif "TLDR_ROOT" in os.environ:
-        return Path(os.environ["TLDR_ROOT"])
-    raise SystemExit(
-        "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
-    )
+    locale = get_locale(path)
+    if language_to_update != "" and locale != language_to_update:
+        # return empty status to indicate that no changes were made
+        return ""
 
-
-def set_title(path: Path, title: str, dry_run=False) -> str:
     new_line = f"# {title}\n"
 
     # Read the content of the Markdown file
@@ -78,14 +98,9 @@ def set_title(path: Path, title: str, dry_run=False) -> str:
         # return empty status to indicate that no changes were made
         return ""
 
-    if dry_run:
-        status = "title would be updated"
-    else:
-        status = "title updated"
+    status = get_status("updated", dry_run, "title")
 
-    status = f"\x1b[34m{status}\x1b[0m"
-
-    if not dry_run:
+    if not dry_run:  # Only write to the path during a non-dry-run
         lines[0] = new_line
         with path.open("w", encoding="utf-8") as f:
             f.writelines(lines)
@@ -93,7 +108,20 @@ def set_title(path: Path, title: str, dry_run=False) -> str:
     return status
 
 
-def get_title(path: Path) -> str:
+def get_page_title(path: Path) -> str:
+    """
+    Determine whether the given path has a title.
+
+    Parameters:
+    path (Path): Path to a page
+
+    Returns:
+    str: "" If the path doesn't exit or does not have a title,
+         otherwise return the page title.
+    """
+
+    if not path.exists():
+        return ""
     with path.open(encoding="utf-8") as f:
         first_line = f.readline().strip()
 
@@ -101,80 +129,58 @@ def get_title(path: Path) -> str:
 
 
 def sync(
-    root: Path, pages_dirs: list[str], command: str, title: str, dry_run=False
+    root: Path,
+    pages_dirs: list[Path],
+    command: str,
+    title: str,
+    dry_run: bool = False,
+    language_to_update: str = "",
 ) -> list[str]:
+    """
+    Synchronize a page title into all translations.
+
+    Parameters:
+    root (Path): TLDR_ROOT
+    pages_dirs (list of Path's): Path's of page entry and platform, e.g. "page.fr/common".
+    command (str): A command like "tar".
+    title (str): A title like "tar".
+    dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
+    language_to_update (str): Optionally, the language of the translation to be updated.
+
+    Returns:
+    list (list of Path's): A list of Path's to be staged into git, using by --stage option.
+    """
     paths = []
     for page_dir in pages_dirs:
         path = root / page_dir / command
         if path.exists():
-            rel_path = "/".join(path.parts[-3:])
-            status = set_title(path, title, dry_run)
+            status = set_page_title(path, title, dry_run, language_to_update)
             if status != "":
-                paths.append(path)
-                print(f"\x1b[32m{rel_path} {status}\x1b[0m")
+                rel_path = "/".join(path.parts[-3:])
+                paths.append(rel_path)
+                print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
     return paths
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Sets the title for all translations of a page"
-    )
-    parser.add_argument(
-        "-p",
-        "--page",
-        type=str,
-        required=False,
-        default="",
-        help='page name in the format "platform/command.md"',
-    )
-    parser.add_argument(
-        "-s",
-        "--stage",
-        action="store_true",
-        default=False,
-        help="stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository)",
-    )
-    parser.add_argument(
-        "-S",
-        "--sync",
-        action="store_true",
-        default=False,
-        help="synchronize each translation's title (if exists) with that of English page",
-    )
-    parser.add_argument(
-        "-n",
-        "--dry-run",
-        action="store_true",
-        default=False,
-        help="show what changes would be made without actually modifying the pages",
-    )
+    parser = create_argument_parser("Sets the title for all translations of a page")
     parser.add_argument("title", type=str, nargs="?", default="")
     args = parser.parse_args()
 
     root = get_tldr_root()
-    pages_dirs = [d for d in root.iterdir() if d.name.startswith("pages")]
+    pages_dirs = get_pages_dir(root)
 
     target_paths = []
 
     # Use '--page' option
     if args.page != "":
-        if not args.page.lower().endswith(".md"):
-            args.page = f"{args.page}.md"
-        arg_platform, arg_page = args.page.split("/")
-
-        for pages_dir in pages_dirs:
-            page_path = pages_dir / arg_platform / arg_page
-            if not page_path.exists():
-                continue
-            target_paths.append(page_path)
-
-        target_paths.sort()
+        target_paths += get_target_paths(args.page, pages_dirs)
 
         for path in target_paths:
             rel_path = "/".join(path.parts[-3:])
-            status = set_title(path, args.title)
+            status = set_page_title(path, args.title)
             if status != "":
-                print(f"\x1b[32m{rel_path} {status}\x1b[0m")
+                print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
 
     # Use '--sync' option
     elif args.sync:
@@ -186,15 +192,18 @@ def main():
             commands = [
                 f"{platform}/{page.name}"
                 for page in platform_path.iterdir()
-                if page not in IGNORE_FILES
+                if page.name not in IGNORE_FILES
             ]
             for command in commands:
-                title = get_title(root / "pages" / command)
+                title = get_page_title(root / "pages" / command)
                 if title != "":
-                    target_paths += sync(root, pages_dirs, command, title, args.dry_run)
+                    target_paths += sync(
+                        root, pages_dirs, command, title, args.dry_run, args.language
+                    )
 
+    # Use '--stage' option
     if args.stage and not args.dry_run and len(target_paths) > 0:
-        subprocess.call(["git", "add", *target_paths], cwd=root)
+        stage(target_paths)
 
 
 if __name__ == "__main__":
