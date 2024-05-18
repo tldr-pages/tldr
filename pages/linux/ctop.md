@@ -7,14 +7,14 @@
 
 `ctop -a`
 
-- Reverse container sort order:
+- Reverse the container sort order:
 
 `ctop -r`
 
-- Invert default colors:
+- Invert the default colors:
 
 `ctop -i`
 
-- Display help dialog:
+- Display help:
 
 `ctop -h`
