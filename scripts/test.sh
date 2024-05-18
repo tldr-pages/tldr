@@ -57,6 +57,20 @@ function run_flake8 {
   flake8 scripts
 }
 
+function run_pytest {
+  # skip pytest check if the command is not available in the system.
+  if [[ $CI != true ]] && ! exists pytest; then
+    echo "Skipping pytest check, command not available."
+    return 0
+  fi
+
+  errs=$(pytest scripts/*.py 2>&1 || true)
+  if [[ ${errs} == *"failed"* ]]; then
+    echo -e "${errs}" >&2
+    return 1
+  fi
+}
+
 # Default test function, run by `npm test`.
 function run_tests {
   find pages* -name '*.md' -exec markdownlint {} +
@@ -74,6 +88,7 @@ function run_tests {
   done
   run_black
   run_flake8
+  run_pytest
 }
 
 # Special test function for GitHub Actions pull request builds.
