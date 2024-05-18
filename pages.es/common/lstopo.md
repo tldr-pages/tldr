@@ -3,7 +3,7 @@
 > Muestra la topología de hardware del sistema.
 > Más información: <https://manned.org/lstopo>.
 
-- Muestra la topología resumida del sistema en una ventana gráfica (o imprime en consola si no se dispone de pantalla gráfica):
+- Muestra la topología resumida del sistema en una ventana gráfica (o imprime en consola si no se dispone de una sesión gráfica):
 
 `lstopo`
 
