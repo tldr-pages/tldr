@@ -1,7 +1,7 @@
 # readelf
 
 > Display information about ELF files.
-> More information: <http://man7.org/linux/man-pages/man1/readelf.1.html>.
+> More information: <https://manned.org/readelf.1>.
 
 - Display all information about the ELF file:
 
