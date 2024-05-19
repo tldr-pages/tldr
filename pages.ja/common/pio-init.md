@@ -1,4 +1,4 @@
-# pio-init
+# pio init
 
 > このコマンドは `pio project` のエイリアスです。
 
