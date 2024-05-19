@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 """
-A Python file that makes some commonly used functions available for other scripts to use.
+A Python file that makes some commonly used functions available for the other scripts to use.
 """
 
 from enum import Enum
