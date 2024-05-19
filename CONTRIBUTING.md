@@ -35,7 +35,7 @@ To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 
 The basic format of a `tldr` page is a set of concrete usage examples.
 
-Here are a few guidelines to get started:
+Here are a few guidelines to get started:-
 
 1. Try to keep pages at around 5 examples. Pages can be longer or shorter when appropriate but don't exceed the maximum of eight examples.
    Remember, it's OK if the page doesn't cover everything; that's what `man` is for.
