@@ -15,7 +15,7 @@ Everyone is encouraged to get involved
 and contribute to the project in whatever way they prefer,
 and we will strive to **get barriers out of the way** of these contributions.
 
-To ensure that these role-transitioning processes are
+To ensure that these role transitioning processes are
 straightforward, transparent, predictable, and impartial,
 the metrics used are objective, easy to check, and explicitly described below. (That's not to say they're hard-set rules:
 exceptions can always be considered through open community discussion.)
