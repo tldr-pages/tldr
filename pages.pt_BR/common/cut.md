@@ -9,7 +9,7 @@
 
 - Imprime um intervalo de campos de cada linha com um delimitador específico:
 
-`{{comando}} | cut --delimiter="{{,}}" --fields {{1}}`
+`{{comando}} | cut --delimiter "{{,}}" --fields {{1}}`
 
 - Imprime um intervalo de caracteres de cada linha de um arquivo específico:
 

@@ -7,7 +7,7 @@
 /pages.it/ @mebeim @yutyo @Magrid0
 /pages.ko/ @IMHOJEONG
 /pages.nl/ @sebastiaanspeck @leonvsc @Waples
-/pages.pl/ @acuteenvy
+/pages.pl/ @acuteenvy @spageektti
 /pages.pt_BR/ @isaacvicente @vitorhcl
 /pages.pt_PT/ @waldyrious
 /pages.ta/ @kbdharun
@@ -15,11 +15,14 @@
 /pages.zh/ @blueskyson @einverne
 /pages.zh_TW/ @blueskyson
 
-/pages/linux/ @cyqsimon
+/pages/common/ @spageektti
+/pages/linux/ @cyqsimon @spageektti
+/pages/windows/ @spageektti
 
-/*.md @sbrl @kbdharun
+/*.md @sbrl @kbdharun @sebastiaanspeck
+/.devcontainer/* @kbdharun @sebastiaanspeck
 /.github/workflows/* @sbrl @kbdharun @sebastiaanspeck
-/scripts/* @sebastiaanspeck
+/scripts/* @sebastiaanspeck @kbdharun
 
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun
 /contributing-guides/style-guide.md @sbrl @kbdharun
@@ -32,7 +35,7 @@
 /contributing-guides/*.it.md @mebeim @yutyo @Magrid0
 /contributing-guides/*.ko.md @IMHOJEONG
 /contributing-guides/*.nl.md @sebastiaanspeck @leonvsc @Waples
-/contributing-guides/*.pl.md @acuteenvy
+/contributing-guides/*.pl.md @acuteenvy @spageektti
 /contributing-guides/*.pt_BR.md @isaacvicente @vitorhcl
 /contributing-guides/*.pt_PT.md @waldyrious
 /contributing-guides/*.ta.md @kbdharun

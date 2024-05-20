@@ -1,7 +1,7 @@
 # dockerd
 
 > Um processo persistente para iniciar e gerenciar contêineres Docker.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/dockerd/>.
+> Mais informações: <https://docs.docker.com/reference/cli/dockerd/>.
 
 - Executa o daemon do Docker:
 
@@ -21,4 +21,4 @@
 
 - Executa e define um nível de log específico:
 
-`dockerd --log-level {debug|info|warn|error|fatal}}`
+`dockerd --log-level {{debug|info|warn|error|fatal}}`

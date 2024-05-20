@@ -19,3 +19,7 @@
 - [u]pgrade local repository packages:
 
 `aur sync --upgrades`
+
+- Install a package without viewing changes in Vim and do not confirm dependency installation:
+
+`aur sync --noview --noconfirm {{package}}`

@@ -1,7 +1,7 @@
 # cat
 
 > ファイルの出力と連結を行います。
-> 詳しくはこちら: <https://www.gnu.org/software/coreutils/cat>
+> 詳しくはこちら: <https://manned.org/cat.1posix>
 
 - ファイルの内容を標準出力に出力する:
 
