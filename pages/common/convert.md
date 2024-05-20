@@ -22,7 +22,7 @@
 
 - Vertically/Horizontally append images:
 
-`convert {{path/to/image1.png path/to/image2.png ...}} -append/+append {{path/to/output_image.png}}`
+`convert {{path/to/image1.png path/to/image2.png ...}} {{-append|+append}} {{path/to/output_image.png}}`
 
 - Create a GIF from a series of images with 100ms delay between them:
 
