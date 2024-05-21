@@ -7,7 +7,7 @@
 
 `arp -a`
 
-- Borra una entrada especifica:
+- Borra una entrada específica:
 
 `arp -d {{dirección}}`
 
