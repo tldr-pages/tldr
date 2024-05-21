@@ -8,9 +8,17 @@
 
 `chezmoi init`
 
+- Set up `chezmoi` from existing dotfiles of a Git repository:
+
+`chezmoi init {{repository_url}}`
+
 - Start tracking one or more dotfiles:
 
 `chezmoi add {{path/to/dotfile1 path/to/dotfile2 ...}}`
+
+- Update repository with local changes:
+
+`chezmoi re-add {{path/to/dotfile1 path/to/dotfile2 ...}}`
 
 - Edit the source state of a tracked dotfile:
 
@@ -23,10 +31,6 @@
 - Apply the changes:
 
 `chezmoi -v apply`
-
-- Set up `chezmoi` from existing dotfiles of a Git repository:
-
-`chezmoi init {{repository_url}}`
 
 - Pull changes from a remote repository and apply them:
 
