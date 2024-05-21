@@ -1,6 +1,6 @@
 # gleam
 
-> El compilador, la herramienta de compilación, el gestor de paquetes y el formateador de código para Gleam, "un lenguaje amigable para construir sistemas de tipo seguro que escala".
+> El compilador, la herramienta de compilación, el gestor de paquetes y el formateador de código para Gleam, "un lenguaje amigable para construir sistemas de tipo seguro escalables".
 > Más información: <https://gleam.run/writing-gleam/command-line-reference/>.
 
 - Crea un nuevo proyecto gleam:
@@ -15,7 +15,7 @@
 
 `gleam build`
 
-- Ejecuta un proyecto para una plataforma y un tiempo de ejecución determinados:
+- Ejecuta un proyecto para una plataforma y un tiempo de ejecución específico:
 
 `gleam run --target {{plataforma}} --runtime {{tiempo_de_ejecución}}`
 
