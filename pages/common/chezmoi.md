@@ -16,7 +16,7 @@
 
 `chezmoi add {{path/to/dotfile1 path/to/dotfile2 ...}}`
 
-- Update repository witih local changes:
+- Update repository with local changes:
 
 `chezmoi re-add {{path/to/dotfile1 path/to/dotfile2 ...}}`
 
