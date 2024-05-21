@@ -15,12 +15,14 @@
 /pages.zh/ @blueskyson @einverne
 /pages.zh_TW/ @blueskyson
 
-/pages/linux/ @cyqsimon
+/pages/common/ @spageektti
+/pages/linux/ @cyqsimon @spageektti
+/pages/windows/ @spageektti
 
 /*.md @sbrl @kbdharun @sebastiaanspeck
 /.devcontainer/* @kbdharun @sebastiaanspeck
 /.github/workflows/* @sbrl @kbdharun @sebastiaanspeck
-/scripts/* @sebastiaanspeck
+/scripts/* @sebastiaanspeck @kbdharun
 
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun
 /contributing-guides/style-guide.md @sbrl @kbdharun
