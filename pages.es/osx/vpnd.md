@@ -26,4 +26,4 @@
 
 - Ejecuta el daemon para una configuración de servidor específica:
 
-`vpnd -i {{server_id}}`
+`vpnd -i {{identificador_de_servidor}}`
