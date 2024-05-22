@@ -1,7 +1,7 @@
 # bru
 
 > CLI for Bruno, an Opensource IDE for exploring and testing APIs.
-> More information: <https://docs.usebruno.com/cli/overview.html>.
+> More information: <https://docs.usebruno.com/bru-cli/overview>.
 
 - Run all request files from the current directory:
 
