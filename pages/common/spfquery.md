@@ -1,7 +1,7 @@
 # spfquery
 
 > Query Sender Policy Framework records to validate e-mail senders.
-> More information: <https://www.libspf2.org/>.
+> More information: <https://manned.org/spfquery>.
 
 - Check if an IP address is allowed to send an e-mail from the specified e-mail address:
 
