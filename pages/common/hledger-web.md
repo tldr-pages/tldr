@@ -1,7 +1,8 @@
 # hledger-web
 
-> A robust, friendly plain text accounting app (the web UI & API).
-> More information: <https://hledger.org>.
+> Web interface and API to `hledger`.
+> A robust, friendly plain text accounting app.
+> More information: <https://hledger.org/hledger-web.html>.
 
 - Start the web app, and a browser if possible, for local viewing and adding:
 
@@ -11,7 +12,7 @@
 
 `hledger-web --file {{path/to/file.journal}} --allow edit`
 
-- Start the web app only, allowing incoming connections to this host & port:
+- Start the web app only, allowing incoming connections to a specific host and port:
 
 `hledger-web --serve --host {{my.host.name}} --port 8000`
 
