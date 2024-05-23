@@ -12,7 +12,7 @@
 
 `hledger-ui --theme {{terminal|greenterm|dark}}`
 
-- Start in the balance sheet accounts screen, showing hierarchy, to level 3:
+- Start in the balance sheet accounts screen, showing hierarchy down to level 3:
 
 `hledger-ui --bs --tree --depth 3`
 
@@ -24,10 +24,10 @@
 
 `hledger-ui --file {{path/to/2024.journal}} --file {{path/to/2024-prices.journal}} --value now`
 
-- Display the manual in Info format, if possible:
+- Show the manual in Info format, if possible:
 
 `hledger-ui --info`
 
-- Display help:
+- Show options:
 
 `hledger-ui --help`

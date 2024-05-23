@@ -24,10 +24,10 @@
 
 `hledger-web --value now --infer-market-prices`
 
-- Show command-line help:
-
-`hledger-web --help`
-
 - Show the manual in Info format if possible:
 
 `hledger-web --info`
+
+- Show options:
+
+`hledger-web --help`
