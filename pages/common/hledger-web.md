@@ -28,6 +28,6 @@
 
 `hledger-web --info`
 
-- Show options:
+- Display help:
 
 `hledger-web --help`

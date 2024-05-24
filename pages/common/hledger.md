@@ -8,7 +8,7 @@
 
 `hledger add`
 
-- Import new transactions from bank.csv, using bank.csv.rules to convert:
+- Import new transactions from `bank.csv`, using `bank.csv.rules` to convert:
 
 `hledger import {{path/to/bank.csv}}`
 

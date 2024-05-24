@@ -28,6 +28,6 @@
 
 `hledger-ui --info`
 
-- Show options:
+- Display help:
 
 `hledger-ui --help`
