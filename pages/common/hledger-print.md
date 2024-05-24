@@ -13,7 +13,7 @@
 
 - Show transactions from two specified files, with amounts converted to cost:
 
-`hledger print --file 2023.journal --file 2024.journal --cost`
+`hledger print --file {{path/to/2023.journal}} --file {{path/to/2024.journal}} --cost`
 
 - Show `$` transactions in `*food*` but not `*groceries*` accounts this month:
 
@@ -27,6 +27,6 @@
 
 `hledger print --cleared --commodity '1000, EUR' --round hard`
 
-- Write transactions from foo.journal as a CSV file:
+- Write transactions from `foo.journal` as a CSV file:
 
-`hledger print --file {{foo.journal}} --output-file {{txns.csv}}`
+`hledger print --file {{path/to/foo.journal}} --output-file {{path/to/output_file.csv}}`

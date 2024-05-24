@@ -13,7 +13,7 @@
 
 - Show the checking account's cleared transactions, with a specified width:
 
-`hledger aregister checking --cleared --width 120`
+`hledger aregister checking --cleared --width {{120}}`
 
 - Show the checking register, including transactions from forecast rules:
 

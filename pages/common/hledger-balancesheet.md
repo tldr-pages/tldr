@@ -15,11 +15,11 @@
 
 `hledger balancesheet --empty --tree`
 
-- Show the balances at end of each month:
+- Show the balances at the end of each month:
 
 `hledger balancesheet --monthly`
 
-- Show the balances' market value in home currency at end of each month:
+- Show the balances' market value in home currency at the end of each month:
 
 `hledger balancesheet --monthly -V`
 
@@ -27,6 +27,6 @@
 
 `hledger balancesheet --quarterly --tree --depth 2`
 
-- Short form of the above, and generate HTML output in bs.html:
+- Short form of the above, and generate HTML output in `bs.html`:
 
 `hledger bs -Qt -2 -o bs.html`
