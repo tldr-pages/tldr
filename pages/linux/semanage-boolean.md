@@ -1,7 +1,7 @@
 # semanage boolean
 
 > Manage persistent SELinux boolean settings.
-> See also: `semanage`, `getsebool`, `setsebool`.
+> See also: `semanage` for managing SELinux policies, `getsebool` for checking boolean values, and `setsebool` for applying non-persistent boolean settings.
 > More information: <https://manned.org/man/semanage-boolean>.
 
 - List all booleans settings:
@@ -11,10 +11,6 @@
 - List all user-defined boolean settings without headings:
 
 `sudo semanage boolean {{-l|--list}} {{-C|--locallist}} {{-n|--noheading}}`
-
-- Set or unset a boolean temporarily (non-persistent across reboot):
-
-`sudo setsebool {{httpd_can_network_connect}} {{1|true|on|0|false|off}}`
 
 - Set or unset a boolean persistently:
 
