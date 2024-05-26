@@ -7,32 +7,32 @@
 
 - Download a video or playlist (with the default options from command below):
 
-`yt-dlp "{{url}}"`
+`yt-dlp "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
 - List all formats that a video or playlist is available in:
 
-`yt-dlp --list-formats "{{url}}"`
+`yt-dlp --list-formats "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Download a video or playlist at a specific quality:
+- Download a video or playlist using best MP4 video available (default is "bv\*+ba/b"):
 
-`yt-dlp --format "{{bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]}}" "{{url}}"`
+`yt-dlp --format "{{bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
 - Extract audio from a video (requires ffmpeg or ffprobe):
 
-`yt-dlp --extract-audio "{{url}}"`
+`yt-dlp --extract-audio "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
 - Specify audio format and audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
 
-`yt-dlp --extract-audio --audio-format {{mp3}} --audio-quality {{0}} "{{url}}"`
+`yt-dlp --extract-audio --audio-format {{mp3}} --audio-quality {{0}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
 - Download all playlists of YouTube channel/user keeping each playlist in separate directory:
 
-`yt-dlp -o "{{%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}}" "{{url}}"`
+`yt-dlp -o "{{%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
 - Download Udemy course keeping each chapter in separate directory under path/to/directory directory in your home:
 
-`yt-dlp -u {{user}} -p {{password}} -P "{{path/to/directory}}" -o "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{url}}"`
+`yt-dlp -u {{user}} -p {{password}} -P "{{path/to/directory}}" -o "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}"`
 
 - Download entire series season keeping each series and each season in separate directory under path/to/directory:
 
-`yt-dlp -P "{{path/to/directory}}" -o "{{%(series)s/%(season_number)s - %(season)s/%(episode_number)s - %(episode)s.%(ext)s}}" "{{url}}"`
+`yt-dlp -P "{{path/to/directory}}" -o "{{%(series)s/%(season_number)s - %(season)s/%(episode_number)s - %(episode)s.%(ext)s}}" "{{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}"`
