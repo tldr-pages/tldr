@@ -57,21 +57,38 @@ function run_flake8 {
   flake8 scripts
 }
 
+function run_pytest {
+  # skip pytest check if the command is not available in the system.
+  if [[ $CI != true ]] && ! exists pytest; then
+    echo "Skipping pytest check, command not available."
+    return 0
+  fi
+
+  errs=$(pytest scripts/*.py 2>&1 || true)
+  if [[ ${errs} == *"failed"* ]]; then
+    echo -e "${errs}" >&2
+    return 1
+  fi
+}
+
 # Default test function, run by `npm test`.
 function run_tests {
   find pages* -name '*.md' -exec markdownlint {} +
   tldr-lint ./pages
   for f in ./pages.*; do
-    checks="TLDR003,TLDR004,TLDR015,TLDR104"
+    checks="TLDR104"
     if [[ -L $f ]]; then
         continue
+    elif [[ $f == *ar* || $f == *bn* || $f == *fa* || $f == *hi* || $f == *ja* || $f == *ko* || $f == *lo* || $f == *ml* || $f == *ne* || $f == *ta* || $f == *th* || $f == *tr* ]]; then
+        checks+=",TLDR003,TLDR004,TLDR015"
     elif [[ $f == *zh* || $f == *zh_TW* ]]; then
-        checks+=",TLDR005"
+        checks+=",TLDR003,TLDR004,TLDR005,TLDR015"
     fi
     tldr-lint --ignore $checks "${f}"
   done
   run_black
   run_flake8
+  run_pytest
 }
 
 # Special test function for GitHub Actions pull request builds.

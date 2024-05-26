@@ -18,11 +18,11 @@
 
 - Limita la ricerca ai file di un tipo specifico:
 
-`ack --type={{ruby}} "{{pattern_di_ricerca}}"`
+`ack --type {{ruby}} "{{pattern_di_ricerca}}"`
 
 - Non cercare nei file di un tipo specifico:
 
-`ack --type=no{{ruby}} "{{pattern_di_ricerca}}"`
+`ack --type no{{ruby}} "{{pattern_di_ricerca}}"`
 
 - Conta il numero totale di corrispondenze trovate:
 

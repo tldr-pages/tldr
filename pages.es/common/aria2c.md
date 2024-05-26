@@ -10,7 +10,7 @@
 
 - Descarga un archivo de una URI con un nombre de salida específico:
 
-`aria2c --out={{ruta/al/archivo}} "{{url}}"`
+`aria2c --out {{ruta/al/archivo}} "{{url}}"`
 
 - Descarga varios archivos diferentes en paralelo:
 
@@ -26,7 +26,7 @@
 
 - Descarga con varias conexiones:
 
-`aria2c --split={{numero_de_conexiones}} "{{url}}"`
+`aria2c --split {{numero_de_conexiones}} "{{url}}"`
 
 - Descarga FTP con nombre de usuario y contraseña:
 

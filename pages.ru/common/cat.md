@@ -1,7 +1,7 @@
 # cat
 
 > Выводит и объединяет файлы.
-> Больше информации: <https://www.gnu.org/software/coreutils/cat>.
+> Больше информации: <https://manned.org/cat.1posix>.
 
 - Выводит содержимое файла:
 

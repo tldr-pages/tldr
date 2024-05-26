@@ -1,6 +1,6 @@
 # apt-add-repository
 
-> Manages `apt` repository definitions.
+> Manage `apt` repository definitions.
 > More information: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
 
 - Add a new `apt` repository:

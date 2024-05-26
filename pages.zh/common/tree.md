@@ -1,7 +1,7 @@
 # tree
 
 > 以树的形式显示当前目录的内容。
-> 更多信息：<http://mama.indstate.edu/users/ice/tree/>.
+> 更多信息：<https://manned.org/man/tree>.
 
 - 显示深度达到 “级数” 级的文件和目录（其中 1 表示当前目录）：
 

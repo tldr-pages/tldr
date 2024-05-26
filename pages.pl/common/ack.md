@@ -18,11 +18,11 @@
 
 - Ogranicz wyszukiwanie do plików wyłącznie określonego typu:
 
-`ack --type={{ruby}} "{{wzorzec}}"`
+`ack --type {{ruby}} "{{wzorzec}}"`
 
 - Wyszukaj z pominięciem plików określonego typu:
 
-`ack --type=no{{ruby}} "{{wzorzec}}"`
+`ack --type no{{ruby}} "{{wzorzec}}"`
 
 - Policz całkowitą liczbę dopasowań:
 

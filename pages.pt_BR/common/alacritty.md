@@ -15,10 +15,10 @@
 
 `alacritty -e {{comando}}`
 
-- Especifica um arquivo de configuração alternativo (`$XDG_CONFIG_HOME/alacritty/alacritty.yml` por padrão):
+- Especifica um arquivo de configuração alternativo (`$XDG_CONFIG_HOME/alacritty/alacritty.toml` por padrão):
 
-`alacritty --config-file {{caminho/para/config.yml}}`
+`alacritty --config-file {{caminho/para/config.toml}}`
 
-- Executa com configuração ao vivo habilitada (pode também ser habilitada por padrão no `alacritty.yml`):
+- Executa com configuração ao vivo habilitada (pode também ser habilitada por padrão no `alacritty.toml`):
 
-`alacritty --live-config-reload --config-file {{caminho/para/config.yml}}`
+`alacritty --live-config-reload --config-file {{caminho/para/config.toml}}`

@@ -1,4 +1,4 @@
-# gnmic-sub
+# gnmic sub
 
 > Ova komanda je pseudonim za `gnmic subscribe`.
 > Više informacija: <https://gnmic.kmrd.dev/cmd/subscribe>.

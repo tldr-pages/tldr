@@ -6,6 +6,6 @@ jobs:
   labeler:
     runs-on: ubuntu-latest
     steps:
-    - uses: tldr-pages/tldr-labeler-action@v0
+    - uses: tldr-pages/tldr-labeler-action@v0.4.0
       with:
         token: "${{ secrets.GITHUB_TOKEN }}"

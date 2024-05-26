@@ -18,4 +18,4 @@
 
 - Browse for VNC servers in a specified domain:
 
-`bvnc --domain={{domain}}`
+`bvnc --domain {{domain}}`
