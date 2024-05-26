@@ -11,7 +11,7 @@
 
 `torify {{on|off}}`
 
-- Crea un intérprete de órdenes habilitado para Tor:
+- Crea un intérprete de órdenes con Tor activado:
 
 `torify --shell`
 
