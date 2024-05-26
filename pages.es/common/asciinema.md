@@ -21,7 +21,7 @@
 
 - Reproduce una grabación desde asciinema.org:
 
-`asciinema play https://asciinema.org/a/{{grabación_id}}`
+`asciinema play https://asciinema.org/a/{{identificador_de_grabación}}`
 
 - Crea una nueva grabación, limitando el tiempo de espera máximo a 2.5 segundos:
 

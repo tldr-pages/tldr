@@ -22,3 +22,7 @@
 - Allow interactive interface (e.g. use space-bar or enter to play or pause):
 
 `arecord --interactive`
+
+- Test your microphone by recording a 5 second sample and playing it back:
+
+`arecord -d 5 test-mic.wav && aplay test-mic.wav && rm test-mic.wav`

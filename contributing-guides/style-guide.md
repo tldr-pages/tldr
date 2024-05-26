@@ -249,7 +249,10 @@ The example above does not use a serial comma, so this could mean one of two thi
 
 This can be resolved by inserting a comma before the "and" or "or" in the final element in the list.
 
-> Delete the Git branches, tags, andBrand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``). remotes.
+> Delete the Git branches, tags, and remotes.
+
+> [!NOTE]
+> Brand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
 
 ### Special cases
 

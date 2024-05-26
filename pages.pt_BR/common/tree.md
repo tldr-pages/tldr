@@ -1,7 +1,7 @@
 # tree
 
 > Exibe o conteúdo do diretório atual em formato de árvore.
-> Mais informações: <http://mama.indstate.edu/users/ice/tree/>.
+> Mais informações: <https://manned.org/man/tree>.
 
 - Exibe os arquivos e diretórios de acordo com o nível de profundidade 'num' informado (onde 1 significa o diretório atual):
 
