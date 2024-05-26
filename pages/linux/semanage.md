@@ -1,6 +1,7 @@
 # semanage
 
 > SELinux persistent policy management tool.
+> Some subcommands such as `boolean`, `fcontext`, `port`, etc. have their own usage documentation.
 > More information: <https://manned.org/semanage>.
 
 - Set or unset a SELinux boolean. Booleans allow the administrator to customize how policy rules affect confined process types (a.k.a domains):
