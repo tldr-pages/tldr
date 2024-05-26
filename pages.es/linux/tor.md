@@ -3,7 +3,7 @@
 > Habilita la comunicación anónima a través de la red Tor.
 > Más información: <https://manned.org/man/tor>.
 
-- Conectarse a la red Tor:
+- Conecta a la red Tor:
 
 `tor`
 
