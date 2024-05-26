@@ -19,7 +19,7 @@
 
 `tor --status`
 
-- Ejecuta solo como cliente:
+- Ejecuta como cliente:
 
 `tor --client`
 
