@@ -15,7 +15,7 @@
 
 `torify --shell`
 
-- Comprueba si hay un intérprete de órdenes habilitado para Tor:
+- Checa si hay un intérprete de órdenes con Tor activado:
 
 `torify show`
 
