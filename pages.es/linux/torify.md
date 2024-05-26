@@ -21,7 +21,7 @@
 
 - Especifica el archivo de configuración de Tor:
 
-`torify -c {{archivo-configuración}} {{comando}}`
+`torify -c {{archivo_de_configuración}} {{comando}}`
 
 - Usa un proxy Tor SOCKS específico:
 
