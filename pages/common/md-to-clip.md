@@ -14,7 +14,7 @@
 
 - Convert a tldr-page file to `stdout`:
 
-`md-to-clip --no-file-save <(echo '{{page-content}}')`
+`md-to-clip --no-file-save < {{path/to/page.md}}`
 
 - Convert tldr-pages files while recognizing additional placeholders from a specific config:
 
