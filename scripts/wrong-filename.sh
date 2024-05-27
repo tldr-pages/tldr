@@ -8,6 +8,7 @@
 OUTPUT_FILE="inconsistent-filenames.txt"
 # Remove existing output file (if any)
 rm -f "$OUTPUT_FILE"
+touch "$OUTPUT_FILE"
 
 IGNORE_LIST=("exclamation mark" "caret" "history expansion" "qm move disk" "umount" "rename")
 
