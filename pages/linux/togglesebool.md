@@ -1,7 +1,7 @@
 # togglesebool
 
 > Flip the current (non-persistent) values of SELinux booleans.
-> This tool has been deprecated and often removed in favor of `setsebool`.
+> Note: This tool has been deprecated and often removed in favor of `setsebool`.
 > More information: <https://manned.org/man/togglesebool>.
 
 - Flip the current (non-persistent) values of the specified booleans:
