@@ -35,4 +35,4 @@
 
 - Download the entire series season keeping each series and each season in a separate directory:
 
-`yt-dlp -P "{{path/to/directory}}" -o "{{%(series)s/%(season_number)s - %(season)s/%(episode_number)s - %(episode)s.%(ext)s}}" "{{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}"`
+`yt-dlp -P "{{path/to/directory}}" -o "{{%(series)s/%(season_number)s - %(season)s/%(episode_number)s - %(episode)s.%(ext)s}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
