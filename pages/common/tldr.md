@@ -12,7 +12,7 @@
 
 `tldr {{command}} {{subcommand}}`
 
-- Print the tldr page for a command in the given [l]anguage (if available, otherwise fall back to English):
+- Print the tldr page for a command in the given [L]anguage (if available, otherwise fall back to English):
 
 `tldr --language {{language_code}} {{command}}`
 
