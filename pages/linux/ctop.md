@@ -3,18 +3,18 @@
 > Instantly visualize container performance and health with real-time metrics on CPU, memory, and block IO usage.
 > More information: <https://github.com/bcicen/ctop>.
 
-- Show only active containers:
+- Show only [a]ctive containers:
 
 `ctop -a`
 
-- Reverse the container sort order:
+- [r]everse the container sort order:
 
 `ctop -r`
 
-- Invert the default colors:
+- [i]nvert the default colors:
 
 `ctop -i`
 
-- Display help:
+- Display [h]elp:
 
 `ctop -h`
