@@ -29,7 +29,7 @@
 
 `yt-dlp -o "{{%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Download Udemy course keeping each chapter in separate directory under path/to/directory directory in your home:
+- Download a Udemy course keeping each chapter in a separate directory:
 
 `yt-dlp -u {{user}} -p {{password}} -P "{{path/to/directory}}" -o "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}"`
 
