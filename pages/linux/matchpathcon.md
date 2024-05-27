@@ -4,7 +4,7 @@
 > See also: `semanage-fcontext`, `secon`, `chcon`, `restorecon`.
 > More information: <https://manned.org/man/matchpathcon.8>.
 
-- Lookup the persistent security context setting of a path:
+- Lookup the persistent security context setting of an absolute path:
 
 `matchpathcon {{/path/to/file}}`
 
