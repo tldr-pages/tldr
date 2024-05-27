@@ -21,4 +21,4 @@
 
 - Print lines only found in second file, when the files aren't sorted:
 
-`comm -13 <(sort {{file1}}) <(sort {{file2}})`
+`comm -13 {{path/to/sorted_file1}} {{path/to/sorted_file2}}`
