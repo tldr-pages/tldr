@@ -31,7 +31,7 @@
 
 - Download a Udemy course keeping each chapter in a separate directory:
 
-`yt-dlp -u {{user}} -p {{password}} -P "{{path/to/directory}}" -o "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}"`
+`yt-dlp -u {{user}} -p {{password}} -P "{{path/to/directory}}" -o "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{https://www.udemy.com/java-tutorial}}"`
 
 - Download the entire series season keeping each series and each season in a separate directory:
 
