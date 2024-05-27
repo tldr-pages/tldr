@@ -17,4 +17,4 @@
 
 - Create a directory called "example", count the number of characters in "example" and write "example" to the terminal:
 
-`echo "example" | tee >(xargs mkdir) >(wc -c)`
+`dir_name="{{example}}"; echo "${dir_name}"; mkdir -- "${dir_name}"; echo "${#dir_name}"`
