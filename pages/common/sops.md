@@ -29,4 +29,4 @@
 
 - Show the difference between two `sops` files:
 
-`diff <(sops -d {{path/to/secret1.enc.yaml}}) <(sops -d {{path/to/secret2.enc.yaml}})`
+`diff {{path/to/sops_file1}} {{path/to/sops_file2}}`
