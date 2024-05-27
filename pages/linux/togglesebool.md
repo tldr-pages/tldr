@@ -6,4 +6,4 @@
 
 - Flip the current (non-persistent) values of the specified booleans:
 
-`togglesebool {{virt_use_samba virt_use_usb ...}}`
+`sudo togglesebool {{virt_use_samba virt_use_usb ...}}`
