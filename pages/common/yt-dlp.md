@@ -9,7 +9,7 @@
 
 `yt-dlp "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- List all formats that a video or playlist is available in:
+- List the available downloadable formats for a video:
 
 `yt-dlp --list-formats "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
