@@ -6,7 +6,7 @@
 
 - Replace a sensitive string in all files:
 
-`git filter-repo --replace-text <(echo '{{find}}==>{{replacement}}')`
+`git filter-repo --replace-text {{path/to/file_with_string}}`
 
 - Extract a single folder, keeping history:
 
