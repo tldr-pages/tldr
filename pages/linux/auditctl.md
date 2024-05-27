@@ -1,4 +1,5 @@
 # auditctl
+
 > Utility to control the behavior, get status and manage rules of the Linux Auditing System.
 > More information: <https://manned.org/auditctl>.
 
