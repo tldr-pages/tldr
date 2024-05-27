@@ -25,7 +25,7 @@
 
 `yt-dlp --extract-audio --audio-format {{mp3}} --audio-quality {{0}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Download all playlists of YouTube channel/user keeping each playlist in separate directory:
+- Download all playlists of a YouTube channel/user keeping each playlist in a separate directory:
 
 `yt-dlp -o "{{%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
