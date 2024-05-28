@@ -17,7 +17,7 @@
 
 - Type check a string of code:
 
-`mypy -c "{{program_text}}"`
+`mypy -c "{{code}}"`
 
 - Ignore missing imports:
 
