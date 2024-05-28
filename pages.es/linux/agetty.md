@@ -17,7 +17,7 @@
 
 `agetty -8 - {{variable_term}}`
 
-- Omite el inicio de sesión ([n]o inicio de sesión) e invoca, como superusuario, otro programa de inicio de sesión en lugar de `/bin/login`:
+- Omite el inicio de sesión e invoca, como superusuario, otro programa de inicio de sesión en lugar de `/bin/login`:
 
 `agetty {{-n|--skip-login}} {{-l|--login-program}} {{programa_de_inicio_de_sesión}} {{tty}}`
 
