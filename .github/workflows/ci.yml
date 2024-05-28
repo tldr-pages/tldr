@@ -2,14 +2,14 @@ name: CI
 
 on: ['push', 'pull_request']
 
-permissions:
-  contents: write # to upload assets to releases
-
 jobs:
   ci:
-    runs-on: ubuntu-latest
-
     name: CI
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # to upload assets to releases
+      attestations: write # to upload assets attestation for build provenance
+      id-token: write # grant additional permission to attestation action to mint the OIDC token permission
 
     steps:
     - uses: actions/checkout@v4
@@ -53,3 +53,35 @@ jobs:
       env:
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Check for generated files
+      id: check-files
+      run: |
+        echo "zip_exists=$(if [[ $(find language_archives -name '*.zip' | wc -l) -gt 0 ]]; then echo true; else echo false; fi)" >> $GITHUB_ENV
+        echo "pdf_exists=$(if [[ $(find scripts/pdf -name '*.pdf' | wc -l) -gt 0 ]]; then echo true; else echo false; fi)" >> $GITHUB_ENV
+        echo "checksums_exists=$(if [[ -f 'tldr.sha256sums' ]]; then echo true; else echo false; fi)" >> $GITHUB_ENV
+
+    - name: Construct subject-path for attest action
+      id: construct-subject-path
+      run: |
+        subject_path=""
+        if [[ ${{ env.zip_exists }} == 'true' ]]; then
+          zip_files=$(find language_archives -name '*.zip' -printf '%p,')
+          subject_path+="${zip_files::-1}"
+        fi
+        if [[ ${{ env.pdf_exists }} == 'true' ]]; then
+          if [[ -n $subject_path ]]; then subject_path+=","; fi
+          pdf_files=$(find scripts/pdf -name '*.pdf' -printf '%p,')
+          subject_path+="${pdf_files::-1}"
+        fi
+        if [[ ${{ env.checksums_exists }} == 'true' ]]; then
+          if [[ -n $subject_path ]]; then subject_path+=","; fi
+          subject_path+='tldr.sha256sums'
+        fi
+        echo "subject_path=$subject_path" >> $GITHUB_ENV
+
+    - name: Attest generated files
+      uses: actions/attest-build-provenance@v1
+      continue-on-error: true # prevent failing when no pages are modified
+      with:
+        subject-path: ${{ env.subject_path }}
