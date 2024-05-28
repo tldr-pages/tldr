@@ -1,7 +1,7 @@
 # tor
 
 > Habilita la comunicación anónima a través de la red Tor.
-> Más información: <https://manned.org/man/tor>.
+> Más información: <https://manned.org/tor>.
 
 - Conecta a la red Tor:
 
@@ -18,10 +18,6 @@
 - Comprueba el estado de Tor:
 
 `tor --status`
-
-- Ejecuta como cliente:
-
-`tor --client`
 
 - Ejecuta como relé:
 
