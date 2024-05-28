@@ -1,7 +1,7 @@
 # ntpdate
 
 > Synchronize and set the date and time via NTP.
-> More information: <https://manned.org/man/ntpdate>.
+> More information: <https://manned.org/ntpdate>.
 
 - Synchronize and set date and time:
 
