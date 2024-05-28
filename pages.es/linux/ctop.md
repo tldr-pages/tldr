@@ -11,7 +11,7 @@
 
 `ctop -r`
 
-- [i]nvierte los colores por defecto:
+- [i]nvierte los colores predeterminados:
 
 `ctop -i`
 
