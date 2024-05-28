@@ -23,9 +23,9 @@
 
 `hledger accounts asset --types`
 
-- Show accounts of the Asset type:
+- Show accounts of the `Asset` type:
 
-`hledger accounts type:a`
+`hledger accounts type:A`
 
 - Show the first two levels of the accounts hierarchy:
 

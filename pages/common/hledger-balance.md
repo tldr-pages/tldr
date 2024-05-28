@@ -16,7 +16,7 @@
 
 `hledger balance {{expenses}} --monthly --row-total --average --sort-amount --budget`
 
-- Similar to the above, shorter form, matching accounts by Expense type and summarising to two levels, without compression:
+- Similar to the above, shorter form, matching accounts by `Expense` type and summarising to two levels, without compression:
 
 `hledger bal type:{{X}} -MTAS --budget -t -{{2}} --no-elide`
 

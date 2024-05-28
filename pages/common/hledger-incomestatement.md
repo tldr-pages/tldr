@@ -3,7 +3,7 @@
 > Show revenue inflows and expense outflows during the report period.
 > More information: <https://hledger.org/hledger.html#incomestatement>.
 
-- Show revenues and expenses (changes in Revenue and Expense accounts):
+- Show revenues and expenses (changes in `Revenue` and `Expense` accounts):
 
 `hledger incomestatement`
 
