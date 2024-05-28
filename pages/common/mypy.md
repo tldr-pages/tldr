@@ -15,7 +15,7 @@
 
 `mypy -p {{package_name}}`
 
-- Type check a string of program text:
+- Type check a string of code:
 
 `mypy -c "{{program_text}}"`
 
