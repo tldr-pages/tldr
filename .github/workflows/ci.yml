@@ -55,6 +55,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Check for generated files
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       id: check-files
       run: |
         echo "zip_exists=$(if [[ $(find language_archives -name '*.zip' | wc -l) -gt 0 ]]; then echo true; else echo false; fi)" >> $GITHUB_ENV
@@ -62,6 +63,7 @@ jobs:
         echo "checksums_exists=$(if [[ -f 'tldr.sha256sums' ]]; then echo true; else echo false; fi)" >> $GITHUB_ENV
 
     - name: Construct subject-path for attest action
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       id: construct-subject-path
       run: |
         subject_path=""
@@ -81,6 +83,8 @@ jobs:
         echo "subject_path=$subject_path" >> $GITHUB_ENV
 
     - name: Attest generated files
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
+      id: attest
       uses: actions/attest-build-provenance@v1
       continue-on-error: true # prevent failing when no pages are modified
       with:

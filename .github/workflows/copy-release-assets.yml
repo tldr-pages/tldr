@@ -9,7 +9,7 @@ env:
 
 jobs:
   release:
-    name: copy-release-assets
+    name: Copy release assets
     runs-on: ubuntu-latest
     permissions:
       contents: write # to upload assets to releases
@@ -32,6 +32,7 @@ jobs:
           gh release download "$PREVIOUS"
 
       - name: Construct subject-path for attest action
+        if: github.repository == 'tldr-pages/tldr'
         id: construct-subject-path
         run: |
           zip_files=$(find release-assets -name '*.zip' -printf '%p,')
@@ -40,10 +41,13 @@ jobs:
           echo "subject_path=$subject_path" >> $GITHUB_ENV
 
       - name: Attest copied assets
+        if: github.repository == 'tldr-pages/tldr'
+        id: attest
         uses: actions/attest-build-provenance@v1
         with:
           subject-path: ${{ env.subject_path }}
 
       - name: Upload assets
+        if: github.repository == 'tldr-pages/tldr'
         working-directory: release-assets
         run: gh release upload "$LATEST" -- *
