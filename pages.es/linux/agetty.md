@@ -21,7 +21,7 @@
 
 `agetty {{-n|--skip-login}} {{-l|--login-program}} {{programa_de_inicio_de_sesión}} {{tty}}`
 
-- No muestra el archivo de pre-inicio de sesión ([i]ssue) (`/etc/issue` por predeterminado) antes de escribir el mensaje de inicio de sesión:
+- Escribe el mensaje de inicio de sesión sin mostrar el contenido del archivo de pre-inicio de sesión (`/etc/issue` por predeterminado):
 
 `agetty {{-i|--noissue}} -`
 
