@@ -1,7 +1,7 @@
 # tor
 
 > Enable anonymous communication through the Tor network.
-> More information: <https://manned.org/man/tor>.
+> More information: <https://manned.org/tor>.
 
 - Connect to the Tor network:
 
@@ -18,10 +18,6 @@
 - Check Tor status:
 
 `tor --status`
-
-- Run as client only:
-
-`tor --client`
 
 - Run as relay:
 
