@@ -1,7 +1,7 @@
 # rpmbuild
 
 > RPM Package Build tool.
-> More information: <https://docs.fedoraproject.org/en-US/quick-docs/creating-rpm-packages/>.
+> More information: <https://manned.org/man/rpmbuild>.
 
 - Build binary and source packages:
 

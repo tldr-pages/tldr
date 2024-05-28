@@ -1,7 +1,7 @@
 # lxterminal
 
 > Terminal emulator for LXDE.
-> More information: <https://wiki.lxde.org/en/LXTerminal>.
+> More information: <https://github.com/lxde/lxterminal>.
 
 - Open an LXTerminal window:
 
