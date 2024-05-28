@@ -15,6 +15,10 @@
 
 `tor --status`
 
+- Run as client only:
+
+`tor --client`
+
 - Run as relay:
 
 `tor --relay`
