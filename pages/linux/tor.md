@@ -7,10 +7,6 @@
 
 `tor`
 
-- Start a Tor relay:
-
-`tor --relay`
-
 - View Tor configuration:
 
 `tor --config`
