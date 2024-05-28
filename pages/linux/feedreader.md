@@ -1,7 +1,7 @@
 # feedreader
 
 > A GUI desktop RSS client.
-> More information: <https://jangernert.github.io/FeedReader/>.
+> More information: <https://github.com/jangernert/FeedReader>.
 
 - Print the count of unread articles:
 

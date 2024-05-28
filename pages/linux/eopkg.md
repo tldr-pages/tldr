@@ -1,7 +1,7 @@
 # eopkg
 
 > Package manager for Solus.
-> More information: <https://getsol.us/articles/package-management/basics/en/>.
+> More information: <https://help.getsol.us/docs/user/package-management/basics>.
 
 - Install a specific package:
 
