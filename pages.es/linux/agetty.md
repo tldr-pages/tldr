@@ -25,6 +25,6 @@
 
 `agetty {{-i|--noissue}} -`
 
-- Cambia el directorio [r]aíz y escribe un falso [H]ost específico en el archivo `utmp`:
+- Cambia el directorio [r]aíz y escribe un [H]ost falso en el archivo `utmp`:
 
 `agetty {{-r|--chroot}} {{/ruta/a/raíz_directorio}} {{-H|--host}} {{host_falso}} -`
