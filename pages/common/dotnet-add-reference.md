@@ -7,6 +7,14 @@
 
 `dotnet add reference {{path/to/reference.csproj}}`
 
+- Add multiple references to the project in the current directory:
+
+`dotnet add reference {{path/to/reference1.csproj path/to/reference2.csproj ...}}`
+
 - Add a reference to the specific project:
 
 `dotnet add {{path/to/project.csproj}} reference {{path/to/reference.csproj}}`
+
+- Add multiple references to the specific project:
+
+`dotnet add {{path/to/project.csproj}} reference {{path/to/reference1.csproj path/to/reference2.csproj ...}}`
