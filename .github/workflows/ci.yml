@@ -76,7 +76,7 @@ jobs:
             echo "checksums_exist=false" >> $GITHUB_ENV
         fi
 
-    - name: Construct subject-path for attest action
+    - name: Construct subject-path for attest
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       id: construct-subject-path
       run: |
