@@ -11,7 +11,7 @@
 
 `virt-qemu-run --root={{path/to/directory}} {{path/to/guest.xml}}`
 
-- Run a QEMU virtual machine and display verbose information about startup:
+- Run a QEMU virtual machine and display verbose information about the startup:
 
 `virt-qemu-run --verbose {{path/to/guest.xml}}`
 
