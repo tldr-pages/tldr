@@ -58,9 +58,23 @@ jobs:
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       id: check-files
       run: |
-        echo "zip_exists=$(if [[ $(find language_archives -name '*.zip' | wc -l) -gt 0 ]]; then echo true; else echo false; fi)" >> $GITHUB_ENV
-        echo "pdf_exists=$(if [[ $(find scripts/pdf -name '*.pdf' | wc -l) -gt 0 ]]; then echo true; else echo false; fi)" >> $GITHUB_ENV
-        echo "checksums_exists=$(if [[ -f 'tldr.sha256sums' ]]; then echo true; else echo false; fi)" >> $GITHUB_ENV
+if [[ -n $(find language_archives -name "*.zip" -print -quit) ]]; then
+    echo "zip_exists=true" >> $GITHUB_ENV
+else
+    echo "zip_exists=false" >> $GITHUB_ENV
+fi
+
+if [[ -n $(find scripts/pdf -name "*.pdf" -print -quit) ]]; then
+    echo "pdf_exists=true" >> $GITHUB_ENV
+else
+    echo "pdf_exists=false" >> $GITHUB_ENV
+fi
+
+if [[ -f tldr.sha256sums ]]; then
+    echo "checksums_exist=true" >> $GITHUB_ENV
+else
+    echo "checksums_exist=false" >> $GITHUB_ENV
+fi
 
     - name: Construct subject-path for attest action
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
@@ -76,7 +90,7 @@ jobs:
           pdf_files=$(find scripts/pdf -name '*.pdf' -printf '%p,')
           subject_path+="${pdf_files::-1}"
         fi
-        if [[ ${{ env.checksums_exists }} == 'true' ]]; then
+        if [[ ${{ env.checksums_exist }} == 'true' ]]; then
           if [[ -n $subject_path ]]; then subject_path+=","; fi
           subject_path+='tldr.sha256sums'
         fi
