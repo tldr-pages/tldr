@@ -7,6 +7,14 @@
 
 `pylint {{path/to/file.py}}`
 
+- Lint a package or module (must be importable; no `.py` suffix):
+
+`pylint {{package_or_module}}`
+
+- Lint a package from a directory path (must contain an `__init__.py` file):
+
+`pylint {{path/to/directory}}`
+
 - Lint a file and use a configuration file (usually named `pylintrc`):
 
 `pylint --rcfile {{path/to/pylintrc}} {{path/to/file.py}}`
