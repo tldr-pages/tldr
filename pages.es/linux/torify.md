@@ -8,7 +8,7 @@
 
 `torify {{comando}}`
 
-- Activa Tor en el intérprete de comandos:
+- Activa o desactiva Tor en el intérprete de comandos:
 
 `torify {{on|off}}`
 
