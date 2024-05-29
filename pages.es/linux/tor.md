@@ -15,6 +15,10 @@
 
 `tor --status`
 
+- Ejecuta como cliente:
+
+`tor --client`
+
 - Ejecuta como relé:
 
 `tor --relay`
