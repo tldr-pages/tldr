@@ -7,10 +7,6 @@
 
 `tor`
 
-- Inicia un repetidor Tor:
-
-`tor --relay`
-
 - Vea la configuración de Tor:
 
 `tor --config`
