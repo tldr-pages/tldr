@@ -31,7 +31,7 @@ jobs:
           mkdir release-assets && cd release-assets
           gh release download "$PREVIOUS"
 
-      - name: Construct subject-path for attest action
+      - name: Construct subject-path for attest
         if: github.repository == 'tldr-pages/tldr'
         id: construct-subject-path
         run: |
