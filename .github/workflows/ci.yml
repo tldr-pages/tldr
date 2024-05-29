@@ -58,23 +58,23 @@ jobs:
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       id: check-files
       run: |
-if [[ -n $(find language_archives -name "*.zip" -print -quit) ]]; then
-    echo "zip_exists=true" >> $GITHUB_ENV
-else
-    echo "zip_exists=false" >> $GITHUB_ENV
-fi
+        if [[ -n $(find language_archives -name "*.zip" -print -quit) ]]; then
+            echo "zip_exists=true" >> $GITHUB_ENV
+        else
+            echo "zip_exists=false" >> $GITHUB_ENV
+        fi
 
-if [[ -n $(find scripts/pdf -name "*.pdf" -print -quit) ]]; then
-    echo "pdf_exists=true" >> $GITHUB_ENV
-else
-    echo "pdf_exists=false" >> $GITHUB_ENV
-fi
+        if [[ -n $(find scripts/pdf -name "*.pdf" -print -quit) ]]; then
+            echo "pdf_exists=true" >> $GITHUB_ENV
+        else
+            echo "pdf_exists=false" >> $GITHUB_ENV
+        fi
 
-if [[ -f tldr.sha256sums ]]; then
-    echo "checksums_exist=true" >> $GITHUB_ENV
-else
-    echo "checksums_exist=false" >> $GITHUB_ENV
-fi
+        if [[ -f tldr.sha256sums ]]; then
+            echo "checksums_exist=true" >> $GITHUB_ENV
+        else
+            echo "checksums_exist=false" >> $GITHUB_ENV
+        fi
 
     - name: Construct subject-path for attest action
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
