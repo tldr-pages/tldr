@@ -7,7 +7,7 @@
 
 `virt-qemu-run {{path/to/guest.xml}}`
 
-- Run a QEMU virtual machine and store the state in a specified directory:
+- Run a QEMU virtual machine and store the state in a specific directory:
 
 `virt-qemu-run --root={{path/to/directory}} {{path/to/guest.xml}}`
 
