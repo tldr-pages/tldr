@@ -9,7 +9,7 @@
 
 - Iterate over a given range of numbers:
 
-`for {{variable}} in $(seq {from} {to} {step}); do {{echo "Loop is executed"}}; done`
+`for {{variable}} in $(seq {{from}} {{to}} {{step}}); do {{echo "Loop is executed"}}; done`
 
 - Iterate over a given list of files:
 
