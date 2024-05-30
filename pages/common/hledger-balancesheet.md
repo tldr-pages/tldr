@@ -1,15 +1,16 @@
 # hledger balancesheet
 
 > Show the end balances in asset and liability accounts.
+> Amounts are shown with normal positive sign, as in conventional financial statements.
 > More information: <https://hledger.org/hledger.html#balancesheet>.
 
-- Show the current balances in Asset and Liability accounts, excluding zeros:
+- Show the current balances in `Asset` and `Liability` accounts, excluding zeros:
 
 `hledger balancesheet`
 
-- Show just the liquid assets (Cash account type):
+- Show just the liquid assets (`Cash` account type):
 
-`hledger balancesheet type:c`
+`hledger balancesheet type:C`
 
 - Include accounts with zero balances, and show the account hierarchy:
 

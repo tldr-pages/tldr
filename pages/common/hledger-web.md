@@ -1,7 +1,6 @@
 # hledger-web
 
-> Web interface and API to `hledger`.
-> A robust, friendly plain text accounting app.
+> A web interface and API for `hledger`, a robust, friendly plain text accounting app.
 > More information: <https://hledger.org/hledger-web.html>.
 
 - Start the web app, and a browser if possible, for local viewing and adding only:
