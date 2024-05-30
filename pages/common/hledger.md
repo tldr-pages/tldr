@@ -1,6 +1,6 @@
 # hledger
 
-> A robust, friendly plain text accounting app (command line version).
+> A robust, friendly plain text accounting app.
 > See also: `hledger-ui` for TUI, `hledger-web` for web interface.
 > More information: <https://hledger.org/hledger.html>.
 
