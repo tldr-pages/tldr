@@ -1,6 +1,6 @@
 # hledger balance
 
-> Un informe «sumatorio» flexible y de propósito general que muestra cuentas con algún tipo de dato numérico.
+> Un informe "sumatorio" flexible y de propósito general que muestra cuentas con algún tipo de dato numérico.
 > Puede tratarse de cambios de saldo por periodo, saldos finales, rendimiento presupuestario, plusvalías latentes, etc.
 > Más información: <https://hledger.org/hledger.html#balance>.
 
