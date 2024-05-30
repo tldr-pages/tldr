@@ -1,6 +1,7 @@
 # hledger balancesheet
 
 > Show the end balances in asset and liability accounts.
+> Amounts are shown with normal positive sign, as in conventional financial statements.
 > More information: <https://hledger.org/hledger.html#balancesheet>.
 
 - Show the current balances in `Asset` and `Liability` accounts, excluding zeros:
