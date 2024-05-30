@@ -2,14 +2,14 @@ name: CI
 
 on: ['push', 'pull_request']
 
-permissions:
-  contents: write # to upload assets to releases
-
 jobs:
   ci:
-    runs-on: ubuntu-latest
-
     name: CI
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # to upload assets to releases
+      attestations: write # to upload assets attestation for build provenance
+      id-token: write # grant additional permission to attestation action to mint the OIDC token permission
 
     steps:
     - uses: actions/checkout@v4
@@ -53,3 +53,53 @@ jobs:
       env:
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Check for generated files
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
+      id: check-files
+      run: |
+        if [[ -n $(find language_archives -name "*.zip" -print -quit) ]]; then
+            echo "zip_exists=true" >> $GITHUB_ENV
+        else
+            echo "zip_exists=false" >> $GITHUB_ENV
+        fi
+
+        if [[ -n $(find scripts/pdf -name "*.pdf" -print -quit) ]]; then
+            echo "pdf_exists=true" >> $GITHUB_ENV
+        else
+            echo "pdf_exists=false" >> $GITHUB_ENV
+        fi
+
+        if [[ -f tldr.sha256sums ]]; then
+            echo "checksums_exist=true" >> $GITHUB_ENV
+        else
+            echo "checksums_exist=false" >> $GITHUB_ENV
+        fi
+
+    - name: Construct subject-path for attest
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
+      id: construct-subject-path
+      run: |
+        subject_path=""
+        if [[ ${{ env.zip_exists }} == 'true' ]]; then
+          zip_files=$(find language_archives -name '*.zip' -printf '%p,')
+          subject_path+="${zip_files::-1}"
+        fi
+        if [[ ${{ env.pdf_exists }} == 'true' ]]; then
+          if [[ -n $subject_path ]]; then subject_path+=","; fi
+          pdf_files=$(find scripts/pdf -name '*.pdf' -printf '%p,')
+          subject_path+="${pdf_files::-1}"
+        fi
+        if [[ ${{ env.checksums_exist }} == 'true' ]]; then
+          if [[ -n $subject_path ]]; then subject_path+=","; fi
+          subject_path+='tldr.sha256sums'
+        fi
+        echo "subject_path=$subject_path" >> $GITHUB_ENV
+
+    - name: Attest generated files
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
+      id: attest
+      uses: actions/attest-build-provenance@v1
+      continue-on-error: true # prevent failing when no pages are modified
+      with:
+        subject-path: ${{ env.subject_path }}
