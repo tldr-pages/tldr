@@ -16,7 +16,7 @@
 
 `hledger balance {{expenses}} --monthly --row-total --average --sort-amount --budget`
 
-- Similar to the above, shorter form, matching accounts by Expense type and summarising to two levels, without compression:
+- Similar to the above, shorter form, matching accounts by `Expense` type, as a two level tree without squashing boring accounts:
 
 `hledger bal type:{{X}} -MTAS --budget -t -{{2}} --no-elide`
 
@@ -28,10 +28,10 @@
 
 `hledger bal -HQ date:{{2024}} type:{{AL}} -ES -{{3}}`
 
-- Show investment assets' market value in home currency at the end of each quarter:
+- Show investment assets' market value in base currency at the end of each quarter:
 
 `hledger bal -HVQ {{assets:investments}}`
 
-- Show unrealised capital gain/loss from market price changes each quarter, in non-cryptocurrency investment assets:
+- Show unrealised capital gains/losses from market price changes in each quarter, for non-cryptocurrency investment assets:
 
 `hledger bal --gain -Q {{assets:investments}} not:{{cryptocurrency}}`
