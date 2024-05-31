@@ -9,4 +9,4 @@
 
 - Specify a barcode type (list all possible values with `zint --types`) for generation:
 
-`zint --barcode {{barcode_type}} --data {{your_data_in_utf8}} --output {{/path/to/file}}`
+`zint --barcode {{barcode_type}} --data {{your_data_in_utf8}} --output {{path/to/file}}`
