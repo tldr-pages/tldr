@@ -1,6 +1,6 @@
 # zint
 
-> CLI tool to generate various (bar/QR) codes
+> CLI tool to generate various (bar/QR) codes.
 > More information: <https://www.zint.org.uk/manual/chapter/4>.
 
 - Generate a barcode and save it:
