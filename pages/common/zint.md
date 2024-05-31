@@ -5,8 +5,8 @@
 
 - Generate a barcode and save it:
 
-`zint -d {{your_data_in_utf8}} -o {{/path/to/file}}`
+`zint --data {{your_data_in_utf8}} --output {{/path/to/file}}`
 
-- Specify a barcode type (list all possibler values with `zint -t` for generation:
+- Specify a barcode type (list all possible values with `zint --types`) for generation:
 
-`zint -b {{barcode_type}} -d {{your_data_in_utf8}} -o {{/path/to/file}}`
+`zint --barcode {{barcode_type}} --data {{your_data_in_utf8}} --output {{/path/to/file}}`
