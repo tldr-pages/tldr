@@ -25,7 +25,3 @@
 - Delete previous shell generations
 
 `devenv gc`
-
-- Build, copy, or run a container
-
-`devenv container <build|copy|run> {{container_name}}`
