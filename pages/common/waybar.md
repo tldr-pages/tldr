@@ -9,11 +9,11 @@
 
 - Use a different configuration file:
 
-`waybar {{-c|--config}} {{path/to/config}}`
+`waybar {{-c|--config}} {{path/to/config.jsonc}}`
 
 - Use a different stylesheet file:
 
-`waybar {{-s|--style}} {{path/to/stylesheet}}`
+`waybar {{-s|--style}} {{path/to/stylesheet.css}}`
 
 - Set the logging level:
 
