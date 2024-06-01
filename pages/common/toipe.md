@@ -10,12 +10,12 @@
 
 - Use a specific wordlist:
 
-`toipe -w/--wordlist {{wordlist_name}}`
+`toipe {{-w|--wordlist}} {{wordlist_name}}`
 
 - Use a custom wordlist:
 
-`toipe -f/--file {{file_path}}`
+`toipe {{-f|--file}} {{file_path}}`
 
 - Specify number of words on each test:
 
-`toipe -n/--num {{number_of_words}}`
+`toipe {{-n|--num}} {{number_of_words}}`
