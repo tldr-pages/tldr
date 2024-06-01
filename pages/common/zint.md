@@ -7,10 +7,10 @@
 
 `zint --data "{{UTF-8 data}}" --output {{path/to/file}}`
 
-- Specify a barcode type for generation:
+- Specify a code type for generation:
 
-`zint --barcode {{barcode_type}} --data "{{UTF-8 data}}" --output {{path/to/file}}`
+`zint --barcode {{code_type}} --data "{{UTF-8 data}}" --output {{path/to/file}}`
 
-- List all barcode types:
+- List all supported code types:
 
 `zint --types`
