@@ -16,6 +16,6 @@
 
 `toipe {{-f|--file}} {{path/to/file}}`
 
-- Specify number of words on each test:
+- Specify the number of words on each test:
 
 `toipe {{-n|--num}} {{number_of_words}}`
