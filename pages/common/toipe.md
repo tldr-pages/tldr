@@ -4,7 +4,7 @@
 > A trusty terminal typing tester.
 > More information: <https://github.com/Samyak2/toipe>.
 
-- Start typing test with default wordlist:
+- Start the typing test with the default wordlist:
 
 `toipe`
 
@@ -14,7 +14,7 @@
 
 - Use a custom wordlist:
 
-`toipe {{-f|--file}} {{file_path}}`
+`toipe {{-f|--file}} {{path/to/file}}`
 
 - Specify number of words on each test:
 
