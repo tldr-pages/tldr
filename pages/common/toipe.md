@@ -19,3 +19,7 @@
 - Specify the number of words on each test:
 
 `toipe {{-n|--num}} {{number_of_words}}`
+
+- Include punctuation:
+
+`toipe {{-p|--punctuation}}`
