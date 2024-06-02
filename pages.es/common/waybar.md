@@ -13,7 +13,7 @@
 
 - Utiliza un archivo de hoja de estilo diferente:
 
-`waybar {{-s|--style}} {{ruta/a/stylesheet.css}}`
+`waybar {{-s|--style}} {{ruta/a/hoja_de_estilo.css}}`
 
 - Establece el nivel de registro:
 
