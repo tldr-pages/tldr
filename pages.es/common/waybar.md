@@ -3,7 +3,7 @@
 > Barra Wayland altamente personalizable para compositores basados en Sway y Wlroots.
 > Más información: <https://github.com/Alexays/Waybar>.
 
-- Inicia `waybar` con la configuración y hoja de estilos por defecto:
+- Inicia `waybar` con la configuración y hoja de estilos predeterminada:
 
 `waybar`
 
