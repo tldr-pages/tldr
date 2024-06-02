@@ -9,7 +9,7 @@
 
 - Beschrijf iedere afbeelding in ieder invoerbestand (in tegenstelling tot alleen de eerste afbeelding in elk bestand) in een machine-leesbaar formaat:
 
-`pamfile -allafbeeldingen -machine {{pad/naar/bestand}}`
+`pamfile -allimages -machine {{pad/naar/bestand}}`
 
 - Toon hoeveel afbeeldingen de invoerbestanden bevatten:
 

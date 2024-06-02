@@ -6,7 +6,7 @@
 
 - Fix a Netpbm file that is missing its last part:
 
-`pamfix -truncate {{path/to/corrupted.ext} > {{path/to/output.ext}}`
+`pamfix -truncate {{path/to/corrupted.ext}} > {{path/to/output.ext}}`
 
 - Fix a Netpbm file where pixel values exceed the image's `maxval` by lowering the offending pixels' values:
 
