@@ -10,28 +10,28 @@
 
 - Użyj trybu archiwum (rekursywnie kopiuj katalogi, kopiuj dowiązania symboliczne bez rozwiązywania i zachowaj uprawnienia, własność i czasy modyfikacji):
 
-`rsync --archive {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
+`rsync {{-a|--archive}} {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
 
 - Kompresuj dane podczas gdy są wysyłane do miejsca docelowego, wyświetlaj szczegółowy i czytelny dla człowieka postęp i zachowaj częściowo przesłane pliki w przypadku przerwania:
 
-`rsync --compress --verbose --human-readable --partial --progress {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
+`rsync {{-zvhP|--compress --verbose --human-readable --partial --progress}} {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
 
 - Rekursywnie kopiuj katalogi:
 
-`rsync --recursive {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
+`rsync {{-r|--recursive}} {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
 
 - Prześlij zawartość katalogu, ale nie sam katalog:
 
-`rsync --recursive {{ścieżka/do/źródła}}/ {{ścieżka/do/miejsca_docelowego}}`
+`rsync {{-r|--recursive}} {{ścieżka/do/źródła}}/ {{ścieżka/do/miejsca_docelowego}}`
 
 - Rekursywnie kopiuj katalogi, użyj trybu archiwum, rozwiąż dowiązania symboliczne i pomiń pliki, które są nowsze w miejscu docelowym:
 
-`rsync --archive --update --copy-links {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
+`rsync {{-auL|--archive --update --copy-links}} {{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
 
 - Prześlij katalog ze zdalnego hosta, na którym działa `rsyncd` i usuń pliki w miejscu docelowym, które nie istnieją w źródle:
 
-`rsync --recursive --delete rsync://{{host}}:{{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
+`rsync {{-r|--recursive}} --delete rsync://{{host}}:{{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
 
 - Prześlij plik poprzez SSH używając innego portu niż domyślny (22) i wyświetlaj globalny postęp:
 
-`rsync --rsh 'ssh -p {{port}}' --info=progress2 {{host}}:{{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
+`rsync {{-e|--rsh}} 'ssh -p {{port}}' --info=progress2 {{host}}:{{ścieżka/do/źródła}} {{ścieżka/do/miejsca_docelowego}}`
