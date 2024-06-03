@@ -15,10 +15,6 @@
 
 `usql --command="{{comando_sql}}"`
 
-- Lista las bases de datos disponibles en el servidor:
-
-`usql --list-databases`
-
 - Ejecuta un comando SQL en el indicador `usql`:
 
 `{{prompt}}=> {{comando}}`
