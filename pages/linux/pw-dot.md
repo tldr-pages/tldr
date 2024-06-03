@@ -14,7 +14,7 @@
 
 - Specify an [o]utput file, showing [a]ll object types:
 
-`pw-dot --output {{path/to/file.dot}} --all`
+`pw-dot --output {{path/to/file.dot}} {{-a|--all}}`
 
 - Print `.dot` graph to `stdout`, showing all object properties:
 
