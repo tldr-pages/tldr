@@ -15,4 +15,3 @@
 - Calculate hypothetical Typeinc [s]core:
 
 `typeinc --score`
-
