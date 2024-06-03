@@ -20,6 +20,3 @@
 
 `rustup link {{custom_toolchain_name}} {{path/to/directory}}`
 
-- Display help:
-
-`rustup help toolchain`
