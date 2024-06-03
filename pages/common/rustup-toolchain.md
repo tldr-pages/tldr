@@ -19,4 +19,3 @@
 - Create a custom toolchain by symlinking to a directory:
 
 `rustup link {{custom_toolchain_name}} {{path/to/directory}}`
-
