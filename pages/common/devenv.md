@@ -19,7 +19,7 @@
 
 `devenv up --config /{{file}}/{{path}}/`
 
-- Clean environment variables and re-enter shell in offline mode:
+- Clean the environment variables and re-enter the shell in offline mode:
 
 `devenv --clean --offline`
 
