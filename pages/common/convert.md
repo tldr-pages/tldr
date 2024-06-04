@@ -1,37 +1,9 @@
 # convert
 
-> Convert between image formats, scale, join, and create images, and much more.
-> Part of ImageMagick.
-> More information: <https://imagemagick.org/script/convert.php>.
+> This command is an alias of `magick convert`.
+> Note: this alias is deprecated since ImageMagick 7. It has been replaced by `magick`.
+> Use `magick convert` if you need to use the old tool in versions 7+.
 
-- Convert an image from JPEG to PNG:
+- View documentation for the original command:
 
-`convert {{path/to/input_image.jpg}} {{path/to/output_image.png}}`
-
-- Scale an image to 50% of its original size:
-
-`convert {{path/to/input_image.png}} -resize 50% {{path/to/output_image.png}}`
-
-- Scale an image keeping the original aspect ratio to a maximum dimension of 640x480:
-
-`convert {{path/to/input_image.png}} -resize 640x480 {{path/to/output_image.png}}`
-
-- Scale an image to have a specified file size:
-
-`convert {{path/to/input_image.png}} -define jpeg:extent=512kb {{path/to/output_image.jpg}}`
-
-- Vertically/Horizontally append images:
-
-`convert {{path/to/image1.png path/to/image2.png ...}} {{-append|+append}} {{path/to/output_image.png}}`
-
-- Create a GIF from a series of images with 100ms delay between them:
-
-`convert {{path/to/image1.png path/to/image2.png ...}} -delay {{10}} {{path/to/animation.gif}}`
-
-- Create an image with nothing but a solid red background:
-
-`convert -size {{800x600}} "xc:{{#ff0000}}" {{path/to/image.png}}`
-
-- Create a favicon from several images of different sizes:
-
-`convert {{path/to/image1.png path/to/image2.png ...}} {{path/to/favicon.ico}}`
+`tldr magick convert`
