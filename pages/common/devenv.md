@@ -23,6 +23,6 @@
 
 `devenv --clean --offline`
 
-- Delete previous shell generations:
+- Delete the previous shell generations:
 
 `devenv gc`
