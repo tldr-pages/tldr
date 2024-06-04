@@ -7,7 +7,7 @@
 
 `pnmcolormap {{n_kleuren}} {{pad/naar/invoer.pnm}} > {{pad/naar/uitvoer.ppm}}`
 
-- Gebruik de  splitspread strategie voor het bepalen van de uitvoer-kleuren, welke waarschijnlijk een better resultaat oplevert met afbeeldingen met kleine details:
+- Gebruik de splitspread strategie voor het bepalen van de uitvoer-kleuren, welke waarschijnlijk een beter resultaat oplevert met afbeeldingen met kleine details:
 
 `pnmcolormap -splitspread {{n_kleuren}} {{pad/naar/invoer.pnm}} > {{pad/naar/uitvoer.ppm}}`
 
