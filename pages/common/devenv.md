@@ -1,7 +1,7 @@
 # devenv
 
 > Fast, Declarative, Reproducible and Composable Developer Environments using Nix.
-> Website/Docs: <https://devenv.sh/>. GitHub repository: <https://github.com/cachix/devenv>.
+> More information: <https://devenv.sh>.
 
 - Initialise environment:
 
