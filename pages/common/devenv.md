@@ -3,7 +3,7 @@
 > Fast, Declarative, Reproducible and Composable Developer Environments using Nix.
 > More information: <https://devenv.sh>.
 
-- Initialise environment:
+- Initialise the environment:
 
 `devenv init`
 
