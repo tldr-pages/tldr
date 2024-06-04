@@ -13,7 +13,7 @@
 
 `yt-dlp --list-formats "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Download a video or playlist using best MP4 video available (default is "bv\*+ba/b"):
+- Download a video or playlist using the best MP4 video available (default is "bv\*+ba/b"):
 
 `yt-dlp --format "{{bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
