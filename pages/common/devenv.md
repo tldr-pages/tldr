@@ -15,7 +15,7 @@
 
 `devenv info --verbose`
 
-- Start processes with devenv CLI:
+- Start processes with `devenv`:
 
 `devenv up --config /{{file}}/{{path}}/`
 
