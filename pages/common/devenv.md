@@ -7,7 +7,7 @@
 
 `devenv init`
 
-- Enter Development Environment with relaxed hermeticity:
+- Enter the Development Environment with relaxed hermeticity (state of being airtight):
 
 `devenv shell --impure`
 
