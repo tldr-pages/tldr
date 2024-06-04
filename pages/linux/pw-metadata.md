@@ -8,7 +8,7 @@
 
 `pw-metadata`
 
-- Show metadata with id 0 in `settings`:
+- Show metadata with ID 0 in `settings`:
 
 `pw-metadata {{-n|--name}} {{settings}} {{0}}`
 
