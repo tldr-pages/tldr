@@ -2,7 +2,7 @@
 
 > Interface de linha de comando para a infraestrutura de pacote Haskel (Cabal).
 > Gerencia projetos Haskell e pacotes Cabal do repositório de pacotes Hackage.
-> Mais informações: <https://cabal.readthedocs.io/en/latest/intro.html>.
+> Mais informações: <https://cabal.readthedocs.io/en/latest/getting-started.html>.
 
 - Busca e lista pacotes do Hackage:
 

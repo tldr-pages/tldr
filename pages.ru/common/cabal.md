@@ -2,7 +2,7 @@
 
 > Интерфейс командной строки для инфраструктуры пакетов Haskell (Cabal).
 > Управление Haskell-проектами и Cabal-пакетами из репозитория Hackage.
-> Больше информации: <https://cabal.readthedocs.io/en/latest/intro.html>.
+> Больше информации: <https://cabal.readthedocs.io/en/latest/getting-started.html>.
 
 - Искать и вывести список пакетов из Hackage:
 

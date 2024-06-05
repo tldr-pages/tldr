@@ -4,28 +4,50 @@ on:
   release:
     types: published
 
-permissions:
-  contents: write
-
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   release:
-    name: Copy assets to the new release
+    name: Copy release assets
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # to upload assets to releases
+      attestations: write # to upload assets attestation for build provenance
+      id-token: write # grant additional permission to attestation action to mint the OIDC token permission
 
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Download and upload
+      - name: Set tag names
         run: |
-          LATEST="$(git describe --tags --abbrev=0)"
-          PREVIOUS="$(git describe --tags --abbrev=0 "$LATEST"^)"
+          echo "LATEST=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
+          echo "PREVIOUS=$(git describe --tags --abbrev=0 $(git describe --tags --abbrev=0)^)" >> $GITHUB_ENV
 
+      - name: Download assets
+        run: |
           mkdir release-assets && cd release-assets
-
           gh release download "$PREVIOUS"
-          gh release upload "$LATEST" -- *
+
+      - name: Construct subject-path for attest
+        if: github.repository == 'tldr-pages/tldr'
+        id: construct-subject-path
+        run: |
+          zip_files=$(find release-assets -name '*.zip' -printf '%p,')
+          pdf_files=$(find release-assets -name '*.pdf' -printf '%p,')
+          subject_path="${zip_files::-1},${pdf_files::-1},release-assets/tldr.sha256sums"
+          echo "subject_path=$subject_path" >> $GITHUB_ENV
+
+      - name: Attest copied assets
+        if: github.repository == 'tldr-pages/tldr'
+        id: attest
+        uses: actions/attest-build-provenance@v1
+        with:
+          subject-path: ${{ env.subject_path }}
+
+      - name: Upload assets
+        if: github.repository == 'tldr-pages/tldr'
+        working-directory: release-assets
+        run: gh release upload "$LATEST" -- *

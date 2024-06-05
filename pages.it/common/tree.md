@@ -1,7 +1,7 @@
 # tree
 
 > Mostra i contenuti della directory corrente come un albero.
-> Maggiori informazioni: <http://mama.indstate.edu/users/ice/tree/>.
+> Maggiori informazioni: <https://manned.org/man/tree>.
 
 - Stampa file e directory fino al 'num'-esimo livello di profondità (dove 1 significa la directory corrente):
 
