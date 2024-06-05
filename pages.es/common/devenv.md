@@ -11,7 +11,7 @@
 
 `devenv shell --impure`
 
-- Obtiene información detallada sobre el entorno actual:
+- Obtén información detallada sobre el entorno actual:
 
 `devenv info --verbose`
 
