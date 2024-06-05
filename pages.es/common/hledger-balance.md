@@ -8,7 +8,7 @@
 
 `hledger balance`
 
-- Muestra el cambio de saldo en las cuentas denominadas `*gastos*`, como un árbol, resumiendo sólo los dos niveles superiores:
+- Muestra el cambio de saldo en las cuentas denominadas `*gastos*`, como un árbol, resumiendo solo los dos niveles superiores:
 
 `hledger balance {{gastos}} --tree --depth {{2}}`
 
