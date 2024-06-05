@@ -398,7 +398,7 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 
   > IFS (Internal Field Separator) is a special environment variable that defines the delimiter used for word splitting in Unix shells.
   > The default value of IFS is a space, tab, and newline. The three characters serve as delimiters.
-  > Note: Not all shells suport ANSI C quoted strings (i.e., $'...' and $"..."), the dollar sign could be included in the string.
+  > Note: Not all shells support ANSI C quoted strings (i.e., $'...' and $"..."), the dollar sign could be included in the string.
   > More information: <https://www.gnu.org/software/bash/manual/html_node/Word-Splitting.html>.
   ```
 
