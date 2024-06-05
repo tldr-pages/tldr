@@ -19,7 +19,7 @@
 
 `devenv up --config /{{archivo}}/{{ruta}}/`
 
-- Limpia las variables de entorno y vuelve a entrar en el intérprete de comandos en modo sin conexión:
+- Limpia las variables de entorno y vuelve a entrar en el intérprete de comandos en el modo sin conexión:
 
 `devenv --clean --offline`
 
