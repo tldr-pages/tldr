@@ -29,4 +29,4 @@
 
 - Run tasks in a playbook without making any changes (dry-run):
 
-`ansible-playbook {{playbook}} --check --diff
+`ansible-playbook {{playbook}} --check --diff`
