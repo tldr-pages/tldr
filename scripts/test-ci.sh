@@ -49,7 +49,7 @@ function run_all_tests_pr {
 # Special test function for GitHub Actions pull request builds.
 # Runs run_all_tests_pr collecting errors for tldr-bot.
 function run_tldr_bot_tests {
-  errs=$(run_all_tests_pr 2>&1)
+  run_all_tests_pr 2>&1
 
   if [[ -n $errs ]]; then
     echo -e "Test failed!\n$errs\n" >&2
