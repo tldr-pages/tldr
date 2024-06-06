@@ -9,7 +9,7 @@
 
 `magick {{pad/naar/invoer_afbeelding.png}} {{pad/naar/uitvoer_afbeelding.jpg}}`
 
-- Wijzig de grootte van een afbeelding en maak een nieuwe kopie.:
+- Wijzig de grootte van een afbeelding en maak een nieuwe kopie:
 
 `magick {{pad/naar/invoer_afbeelding.png}} -resize {{100x100}} {{pad/naar/uitvoer_afbeelding.jpg}}`
 
