@@ -1,4 +1,4 @@
-# pio-init
+# pio init
 
 > 这是 `pio project` 命令的一个别名。
 

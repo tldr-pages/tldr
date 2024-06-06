@@ -1,7 +1,7 @@
 # dockerd
 
 > هي عملية مستمرة تعمل في الخلفية تبدأها لتتحكم في حاويات الدوكر.
-> لمزيد من التفاصيل: <https://docs.docker.com/engine/reference/commandline/dockerd/>.
+> لمزيد من التفاصيل: <https://docs.docker.com/reference/cli/dockerd/>.
 
 - قم بتشغيل دوكر في الخلفية:
 
@@ -21,4 +21,4 @@
 
 - قم بتشغيل دوكر وحدد له مستوي سجل معين:
 
-`dockerd --log-level={{debug|info|warn|error|fatal}}`
+`dockerd --log-level {{debug|info|warn|error|fatal}}`

@@ -1,7 +1,7 @@
 # jq
 
 > Un processeur JSON en ligne de commande qui utilise un langage dédié (DSL).
-> Plus d'informations : <https://stedolan.github.io/jq/manual/>.
+> Plus d'informations : <https://jqlang.github.io/jq/manual/>.
 
 - Exécute une expression spécifique (affiche une sortie JSON coloré et formaté) :
 

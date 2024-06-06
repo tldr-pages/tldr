@@ -1,6 +1,6 @@
 # md-to-clip
 
-> Converter from tldr-pages to Command Line Interface Pages.
+> Convert tldr-pages to Command Line Interface Pages.
 > See also: `clip-view`.
 > More information: <https://github.com/command-line-interface-pages/v2-tooling/tree/main/md-to-clip>.
 

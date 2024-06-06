@@ -55,27 +55,64 @@ function run_flake8 {
   done
 }
 
-function test_pages {
-  for f in $1; do
-    checks="TLDR003,TLDR004,TLDR015,TLDR104"
+function run_pytest {
+  # skip pytest check if the command is not available in the system.
+  if [[ $CI != true ]] && ! exists pytest; then
+    echo "Skipping pytest check, command not available."
+    return 0
+  fi
+
+  errs=$(pytest $1 2>&1 || true)
+  if [[ ${errs} == *"failed"* ]]; then
+    echo -e "${errs}" >&2
+    return 1
+  fi
+}
+
+# Default test function, run by `npm test`.
+# Default test function, run by `npm test`.
+function run_tests {
+  find pages* -name '*.md' -exec markdownlint {} +
+  tldr-lint ./pages
+  for f in ./pages.*; do
+    checks="TLDR104"
     if [[ -L $f ]]; then
         continue
+    elif [[ $f == *ar* || $f == *bn* || $f == *fa* || $f == *hi* || $f == *ja* || $f == *ko* || $f == *lo* || $f == *ml* || $f == *ne* || $f == *ta* || $f == *th* || $f == *tr* ]]; then
+        checks+=",TLDR003,TLDR004,TLDR015"
     elif [[ $f == *zh* || $f == *zh_TW* ]]; then
-        checks+=",TLDR005"
+        checks+=",TLDR003,TLDR004,TLDR005,TLDR015"
     fi
     tldr-lint --ignore $checks "${f}"
   done
+  run_black
+  run_flake8
+  run_pytest
 }
 
 function test_python_scripts {
     run_black $1
     run_flake8 $1
+    run_pytest $1
 }
 
 function test_all_pages {
   find pages* -name '*.md' -exec markdownlint {} +
   tldr-lint ./pages
   test_pages "./pages.*"
+}
+
+# Special test function for GitHub Actions pull request builds.
+# Runs run_tests collecting errors for tldr-bot.
+function run_tests_pr {
+  errs=$(run_tests 2>&1)
+
+  if [[ -n $errs ]]; then
+    echo -e "Test failed!\n$errs\n" >&2
+    echo 'Sending errors to tldr-bot.' >&2
+    echo -n "$errs" | python3 scripts/send-to-bot.py report-errors
+    exit 1
+  fi
 }
 
 # Default test function, run by `npm test`.
