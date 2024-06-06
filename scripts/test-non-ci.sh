@@ -26,6 +26,7 @@ function check_for_unstaged_changes {
 function test_python_scripts {
     run_black $1
     run_flake8 $1
+    run_pytest $1
 }
 
 # Special test function for changes staged for a commit.
