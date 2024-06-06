@@ -16,8 +16,8 @@ function exists {
 
 # Special test function for GitHub Actions pull request builds.
 # Runs run_tests collecting errors for tldr-bot.
-function run_tests_pr {
-  errs=$(run_all_tests 2>&1)
+function run_all_tests_pr {
+  errs=$(run_all_tests_full_repo 2>&1)
 
   if [[ -n $errs ]]; then
     echo -e "Test failed!\n$errs\n" >&2
@@ -45,7 +45,7 @@ function run_checks_pr {
 
 if [[ $CI == true && $GITHUB_REPOSITORY == "tldr-pages/tldr" && $PULL_REQUEST_ID != "" ]]; then
   run_checks_pr
-  run_tests_pr
+  run_all_tests_pr
 fi
 
 echo 'Test ran successfully!'

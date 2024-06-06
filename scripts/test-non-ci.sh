@@ -23,21 +23,15 @@ function check_for_unstaged_changes {
   return 0
 }
 
-function test_python_scripts {
-    run_black $1
-    run_flake8 $1
-    run_pytest $1
-}
-
 # Special test function for changes staged for a commit.
 # Run by 'npm test' if $COMMIT is set to true.
-function run_tests_commit {
+function run_all_tests_commit {
   pages="$(git diff --cached --name-only | grep '^pages/' || true)"
-  echo "testing pages"
+  echo 'Testing pages...'
   if [[ $pages != "" ]]; then
     test_pages "$pages"
   fi
-  echo 'done pages'
+  echo 'Successfully tested pages!'
   scripts="$(git diff --cached --name-only | awk '/^scripts/ && /.py$/')"
   if [[ $scripts != "" ]]; then
     test_python_scripts "$scripts"
@@ -56,13 +50,13 @@ if [[ $COMMIT == true ]]; then
   if [[ $(git diff --cached --name-only) != "" ]]; then
     check_for_unstaged_changes
     stash_pop=$?
-    run_tests_commit
+    run_all_tests_commit
   else
     echo 'No files to test, add files to test them.'
     exit 0
   fi
 else
-  run_all_tests
+  run_all_tests_full_repo
 fi
 
 if [[ $stash_pop == 0 ]]; then

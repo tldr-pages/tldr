@@ -69,13 +69,13 @@ function run_pytest {
   fi
 }
 
-# Default test function, run by `npm test`.
-# Default test function, run by `npm test`.
-function run_tests {
-  find pages* -name '*.md' -exec markdownlint {} +
-  tldr-lint ./pages
-  for f in ./pages.*; do
-    checks="TLDR104"
+function test_pages {
+  for f in $1; do
+    markdownlint $1
+    if [[ $f != *pages/* ]]; then
+      checks="TLDR104"
+    fi
+  
     if [[ -L $f ]]; then
         continue
     elif [[ $f == *ar* || $f == *bn* || $f == *fa* || $f == *hi* || $f == *ja* || $f == *ko* || $f == *lo* || $f == *ml* || $f == *ne* || $f == *ta* || $f == *th* || $f == *tr* ]]; then
@@ -85,9 +85,6 @@ function run_tests {
     fi
     tldr-lint --ignore $checks "${f}"
   done
-  run_black
-  run_flake8
-  run_pytest
 }
 
 function test_python_scripts {
@@ -96,27 +93,9 @@ function test_python_scripts {
     run_pytest $1
 }
 
-function test_all_pages {
-  find pages* -name '*.md' -exec markdownlint {} +
-  tldr-lint ./pages
-  test_pages "./pages.*"
-}
-
-# Special test function for GitHub Actions pull request builds.
-# Runs run_tests collecting errors for tldr-bot.
-function run_tests_pr {
-  errs=$(run_tests 2>&1)
-
-  if [[ -n $errs ]]; then
-    echo -e "Test failed!\n$errs\n" >&2
-    echo 'Sending errors to tldr-bot.' >&2
-    echo -n "$errs" | python3 scripts/send-to-bot.py report-errors
-    exit 1
-  fi
-}
-
-# Default test function, run by `npm test`.
-function run_all_tests {
-  test_all_pages
+# Default test function, run by `npm test`
+# Tests all pages and scripts in the repository
+function run_all_tests_full_repo {
+  test_pages "./pages" "./pages.*"
   test_python_scripts "scripts/*.py"
 }
