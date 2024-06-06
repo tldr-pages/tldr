@@ -25,8 +25,12 @@ function run_all_tests_pr {
     return 0
   fi
 
+  echo 'Passed tests check'
+
   while read line; do
     readarray -td$'\t' entry < <(echo -n "$line")
+
+    echo 'Read array'
 
     local file1="${entry[1]}"
     local file2="${entry[2]}"
