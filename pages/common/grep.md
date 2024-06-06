@@ -13,11 +13,11 @@
 
 - Search for a pattern in all files recursively in a directory, showing line numbers of matches, ignoring binary files:
 
-`grep {{-rn|--recursive --line-number}} --binary-files {{without-match}} "{{search_pattern}}" {{path/to/directory}}`
+`grep {{-r|--recursive}} {{-n|--line-number}} --binary-files {{without-match}} "{{search_pattern}}" {{path/to/directory}}`
 
 - Use extended regular expressions (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
 
-`grep {{-Ei|--extended-regexp --ignore-case}} "{{search_pattern}}" {{path/to/file}}`
+`grep {{-E|--extended-regexp}} {{-i|--ignore-case}} "{{search_pattern}}" {{path/to/file}}`
 
 - Print 3 lines of context around, before, or after each match:
 
@@ -25,7 +25,7 @@
 
 - Print file name and line number for each match with color output:
 
-`grep {{-Hn|--with-filename --line-number}} --color=always "{{search_pattern}}" {{path/to/file}}`
+`grep {{-H|--with-filename}} {{-n|--line-number}} --color=always "{{search_pattern}}" {{path/to/file}}`
 
 - Search for lines matching a pattern, printing only the matched text:
 
