@@ -20,12 +20,8 @@ function run_all_tests_pr {
   local entry
 
   git_diff=$(git diff --name-status --find-copies-harder --diff-filter=ACM origin/main -- pages/ pages*/ scripts/)
-  echo $git_diff
-  if [[ -n $git_diff ]]; then
-    echo 'No changes were made.' >&2
-    return 0
-  else
-    echo 'Changes were made'
+  if [[ -z $git_diff ]]; then
+    echo 'No test exists for the changes that were made.'
     return 0
   fi
   
