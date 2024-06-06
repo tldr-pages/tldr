@@ -14,10 +14,38 @@ function exists {
   command -v "$1" >/dev/null 2>&1
 }
 
+function run_all_tests_pr {
+  local git_diff
+  local line
+  local entry
+
+  git_diff=$(git diff --name-status --find-copies-harder --diff-filter=ACM origin/main -- pages/ pages*/ scripts/)
+  if [[ -n $git_diff ]]; then
+    echo 'No changes were made.' >&2
+    return 0
+  fi
+  
+  while read line; do
+    readarray -td$'\t' entry < <(echo -n "$line")
+
+    local file1="${entry[1]}"
+    local file2="${entry[2]}"
+
+    echo "Testing $file1 and $file2"
+    if [ $file1 == *.md* ]; then
+      test_pages "$file1 $file2"
+    fi
+    if [ $file1 == *.py* ]; then
+      echo 'Found a script'
+      test_python_scripts "$file1 $file2"
+    fi
+  done <<< "$git_diff"  
+}
+
 # Special test function for GitHub Actions pull request builds.
 # Runs run_tests collecting errors for tldr-bot.
 function run_all_tests_pr {
-  errs=$(run_all_tests_full_repo 2>&1)
+  errs=$(run_all_tests_pr 2>&1)
 
   if [[ -n $errs ]]; then
     echo -e "Test failed!\n$errs\n" >&2
