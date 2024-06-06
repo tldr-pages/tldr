@@ -24,7 +24,7 @@ function run_all_tests_pr {
     echo 'No test exists for the changes that were made.'
     return 0
   fi
-  
+
   while read line; do
     readarray -td$'\t' entry < <(echo -n "$line")
 
@@ -32,11 +32,11 @@ function run_all_tests_pr {
     local file2="${entry[2]}"
 
     echo "Testing $file1 and $file2"
-    if [ $file1 == *.md* ]; then
+    if [[ $file1 == *.md* ]]; then
       test_pages "$file1 $file2"
     fi
-    if [ $file1 == *.py* ]; then
-      echo 'Found a script'
+    if [[ $file1 == *.py* ]]; then
+      echo 'Testing script(s)'
       test_python_scripts "$file1 $file2"
     fi
   done <<< "$git_diff"  
