@@ -25,22 +25,16 @@ function run_all_tests_pr {
     return 0
   fi
 
-  echo 'Passed tests check'
-
   while read line; do
     readarray -td$'\t' entry < <(echo -n "$line")
-
-    echo 'Read array'
 
     local file1="${entry[1]}"
     local file2="${entry[2]}"
 
-    echo "Testing $file1 and $file2"
     if [[ $file1 == *.md* ]]; then
       test_pages "$file1 $file2"
     fi
     if [[ $file1 == *.py* ]]; then
-      echo 'Testing script(s)'
       test_python_scripts "$file1 $file2"
     fi
   done <<< "$git_diff"  
@@ -49,7 +43,7 @@ function run_all_tests_pr {
 # Special test function for GitHub Actions pull request builds.
 # Runs run_all_tests_pr collecting errors for tldr-bot.
 function run_tldr_bot_tests {
-  run_all_tests_pr 2>&1
+  errs=$(run_all_tests_pr 2>&1)
 
   if [[ -n $errs ]]; then
     echo -e "Test failed!\n$errs\n" >&2
