@@ -23,6 +23,9 @@ function run_all_tests_pr {
   if [[ -n $git_diff ]]; then
     echo 'No changes were made.' >&2
     return 0
+  else
+    echo 'Changes were made'
+    return 0
   fi
   
   while read line; do
