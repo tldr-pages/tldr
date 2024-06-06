@@ -46,8 +46,8 @@ function run_all_tests_pr {
 }
 
 # Special test function for GitHub Actions pull request builds.
-# Runs run_tests collecting errors for tldr-bot.
-function run_all_tests_pr {
+# Runs run_all_tests_pr collecting errors for tldr-bot.
+function run_tldr_bot_tests {
   errs=$(run_all_tests_pr 2>&1)
 
   if [[ -n $errs ]]; then
@@ -76,7 +76,7 @@ function run_checks_pr {
 
 if [[ $CI == true && $GITHUB_REPOSITORY == "tldr-pages/tldr" && $PULL_REQUEST_ID != "" ]]; then
   run_checks_pr
-  run_all_tests_pr
+  run_tldr_bot_tests
 fi
 
 echo 'Test ran successfully!'
