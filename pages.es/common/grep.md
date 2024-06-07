@@ -27,7 +27,7 @@
 
 `grep --with-filename --line-number --color=always "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
-- Busca líneas que coincidan con un patrón e imprime sólo el texto coincidente:
+- Busca líneas que coincidan con un patrón e imprime solo el texto coincidente:
 
 `grep --only-matching "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
