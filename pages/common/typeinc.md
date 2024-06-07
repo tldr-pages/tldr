@@ -12,7 +12,7 @@
 
 `typeinc {{-r|--ranklist}} {{difficulty_level}}`
 
-- Get random English words present in our wordlist:
+- Get random English [w]ords present in our wordlist:
 
 `typeinc {{-w|--words}} {{word_count}}`
 
