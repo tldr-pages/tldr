@@ -1,6 +1,7 @@
 # tee
 
 > Read from `stdin` and write to `stdout` and files (or commands).
+> Note: Process substitution (i.e., `<(...)` and `>(...)`) may not be supported by your shell.
 > More information: <https://www.gnu.org/software/coreutils/tee>.
 
 - Copy `stdin` to each file, and also to `stdout`:
