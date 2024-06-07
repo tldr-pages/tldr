@@ -1,6 +1,6 @@
 # turbostat
 
-> Report processor frequency and idle statistics.
+> Report processor topology, frequency, temperature, power, and idle statistics.
 > More information: <https://manned.org/turbostat.8>.
 
 - Display help:
