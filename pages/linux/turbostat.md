@@ -1,9 +1,9 @@
 # turbostat
 
 > Report processor frequency and idle statistics.
-> More information: <https://www.linux.org/docs/man8/turbostat.html>.
+> More information: <https://manned.org/turbostat.8>.
 
-- Display usage for the most common parameters:
+- Display help:
 
 `turbostat --help`
 
@@ -11,9 +11,9 @@
 
 `sudo turbostat`
 
-- Display statistics every i seconds:
+- Display statistics every `interval` seconds:
 
-`sudo turbostat -i {{i}}`
+`sudo turbostat -i {{interval}}`
 
 - Do not decode and print the system configuration header information:
 
