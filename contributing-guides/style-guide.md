@@ -97,7 +97,7 @@ Due to [various compatibility differences](https://learn.microsoft.com/powershel
 the command works on between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10 
 and 11), and the **latest version of the Cross-Platform PowerShell** (formerly known as PowerShell Core).
 
-Thus, if the command or its options is unavailable or contains different behavior between each version, please kindly note them in the descriptions. For example:
+Thus, if the command or its options are unavailable or contain different behaviors between each version, please kindly note them in the descriptions. For example:
 
 ```md
 # Clear-RecycleBin
@@ -112,7 +112,7 @@ Thus, if the command or its options is unavailable or contains different behavio
 ### Platform differences
 
 If you are afraid the commands may differ between platforms or operating systems (e.g. Windows vs macOS),
-most [tldr pages clients](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients) will choose the most suitable version of the command to be displayed to the enduser.
+most [tldr pages clients](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients) will choose the most suitable version of the command to be displayed to the end user.
 
 In this case, the information of the Windows version of `cd` (stored in `pages/windows/cd.md`) will be displayed by default to Windows users, and a generic/common version (stored in `pages/common/cd.md`)
 will be displayed for Linux, macOS, and other platform users.
@@ -240,7 +240,7 @@ use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma),
 also known as the Oxford comma,
 since omitting it can create ambiguity.
 
-> Delete the Git branches, tags and remotes.
+> Delete the Git branches, tags, and remotes.
 
 The example above does not use a serial comma, so this could mean one of two things:
 
@@ -337,7 +337,7 @@ the part of the address that starts with `?view=`.
 
 - Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`)
 unless the program name differs from the executable name (e.g. `rg` and Ripgrep).
-- Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
+- Avoid mentioning that the program is used on the command line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
 - For example, when writing documentation for `cd`, a tool to check out and work on a specific directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
 
 ```md
@@ -354,14 +354,14 @@ It should instead be simplified to make it easier for everyone to read:
 
 - Proper names should be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
 - Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
--  When documenting keycaps or a keyboard shortcut for a utility, to make it stand out in the description:
+- When documenting keycaps or a keyboard shortcut for a utility, make it stand out in the description:
 
 1. If it is not translatable, enclose it with backticks (i.e. ``Print the last lines of a given file and keep reading it until `Ctrl + C`:``)
 2. If it is translatable, enclose it with double angled brackets inside a placeholder (i.e. ``:wq{{<<Enter>>}}``).
 
 ### Short option mnemonics
 
-Short option mnemonics are optional hints which can be added to help users understand the meaning of these short options. The assigned mnemonics should match with the ones in the command's official documentation (e.g. from `man` or `Get-Help`). For example:
+Short option mnemonics are optional hints that can be added to help users understand the meaning of these short options. The assigned mnemonics should match with the ones in the command's official documentation (e.g. from `man` or `Get-Help`). For example:
 
 ```md
 - [d]isplay the ins[t]allation [i]D for the current device. Useful for offline license activation:
@@ -394,7 +394,7 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 
 - For commonly/frequently used commands (e.g. `grep`, `tar`, `etc`), we prefer using short options along with [mnemonics](#short-option-mnemonics) or both inside a placeholder.
 - For highlighting both long and short options in commands (instead of using mnemonics), combine them within a placeholder i.e. `{{-o|--output}}`.
-- For user-friendliness, use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in `common` directory.
+- For user-friendliness, use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
 
 ### Placeholder syntax
 
@@ -456,7 +456,7 @@ tells no info about whether items are mutually exclusive or not.
 
 #### Optional placeholders
 
-When documenting optional placeholders likes paths or file extensions, it is suggested to specify them in the page or example descriptions instead of the placeholder itself. For example:
+When documenting optional placeholders like paths or file extensions, it is suggested to specify them in the page or example descriptions instead of the placeholder itself. For example:
 
 - Use `{{path/to/source.ext}}` instead of `{{path/to/source.tar[.gz|.bz2|.xz]}}`.
 
@@ -472,7 +472,7 @@ The below section contains additional language-specific rules for translating pa
 
 ### Chinese-Specific Rules
 
-When Chinese words, Latin words and Arabic numerals are written in the same sentence, more attention must be paid to copywriting.
+When Chinese words, Latin words, and Arabic numerals are written in the same sentence, more attention must be paid to copywriting.
 
 The following guidelines are applied to Chinese (`zh`) and traditional Chinese (`zh_TW`) pages:
 
@@ -500,7 +500,7 @@ The following guidelines are applied to Chinese (`zh`) and traditional Chinese (
 
 6. Use precise form for technical terms, and do not use unofficial Chinese abbreviations.
 
-- For example, use `Facebook` rather than `facebook`, `fb` or `脸书`.
+- For example, use `Facebook` rather than `facebook`, `fb`, or `脸书`.
 
 To maintain readability and normalization, please comply with the 6 rules above as much as possible when translating pages into Chinese.
 
@@ -561,7 +561,7 @@ Second, we recommend using the following forms of technical terms to make transl
 | Update | Perbarui | Do not confuse with `upgrade`. |
 | Upgrade | Tingkatkan | Do not confuse with `update`. |
 
-When translating sentences that contain the word `boot` and `load` together, please add the context of the item that is being booted and/or loaded, so the use of the `muat` word may not be ambiguous. For example, when translating:
+When translating sentences that contain the words `boot` and `load` together, please add the context of the item that is being booted and/or loaded, so the use of the `muat` word may not be ambiguous. For example, when translating:
 
 > Load configuration from a specific file after reboot
 

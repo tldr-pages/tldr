@@ -23,7 +23,7 @@
 
 `audtool current-song-bitrate-kbps`
 
-- Open audacious in full-screen if hidden:
+- Open Audacious in full-screen if hidden:
 
 `audtool mainwin-show`
 
