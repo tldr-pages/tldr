@@ -9,15 +9,15 @@
 
 - Display statistics every specified amount of seconds:
 
-`sudo turbostat -i {{interval}}`
+`sudo turbostat -i {{n_seconds}}`
 
 - Do not decode and print the system configuration header information:
 
 `sudo turbostat --quiet`
 
-- Display useful information about cpu every 1 second, without header information:
+- Display useful information about CPU every 1 second, without header information:
 
-`sudo turbostat --quiet --interval 1 --cpu 0-{{cpu_thread_count}} --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"`
+`sudo turbostat --quiet --interval 1 --cpu 0-{{CPU_thread_count}} --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"`
 
 - Display help:
 
