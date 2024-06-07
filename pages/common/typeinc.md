@@ -16,6 +16,6 @@
 
 `typeinc {{-w|--words}} {{word_count}}`
 
-- Calculate hypothetical Typeinc score:
+- Calculate hypothetical Typeinc [s]core:
 
 `typeinc {{-s|--score}}`
