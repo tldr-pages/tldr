@@ -410,24 +410,6 @@ However, if you believe the example is hard to read, has little to no use, or is
   - Does the example utilize any [risky](https://unix.stackexchange.com/a/278439) or [inefficient](https://unix.stackexchange.com/a/169765) commands?
   - Does the example return the correct output?
 
-  **Bad example**:
-
-  *Fails with pathnames ending with trailing slashes*
-
-  ```markdown
-  - Get basename of UNIX pathname:
-
-  `echo "${{{pathname}}##*/}"`
-  ```
-
-  **Good example**:
-
-  ```md
-  - Get basename of UNIX pathname:
-
-  `basename "${{{pathname}}}"`
-  ```
-
 ### Option syntax
 
 - For commonly/frequently used commands (e.g. `grep`, `tar`, `etc`), we prefer using short options along with [mnemonics](#short-option-mnemonics) or both inside a placeholder.
