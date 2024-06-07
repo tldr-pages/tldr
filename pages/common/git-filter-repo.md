@@ -2,6 +2,7 @@
 
 > A versatile tool for rewriting Git history.
 > See also: `bfg`.
+> Note: Process substitution (i.e., `<(...)` and `>(...)`) may not be supported in your shell.
 > More information: <https://github.com/newren/git-filter-repo>.
 
 - Replace a sensitive string in all files:
