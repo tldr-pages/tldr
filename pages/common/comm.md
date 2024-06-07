@@ -19,6 +19,6 @@
 
 `comm -23 {{file1}} {{file2}} > {{file1_only}}`
 
-- Print lines only found in second file, when the files aren't sorted:
+- Print lines only found in the second file, when both files are sorted:
 
 `comm -13 {{path/to/sorted_file1}} {{path/to/sorted_file2}}`
