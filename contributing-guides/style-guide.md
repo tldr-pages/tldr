@@ -390,6 +390,8 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 
 ## Example commands
 
+### POSIX-compliant syntax
+
 - The examples of pages in the subdirectory `common` for UNIX-like operating systems (e.g. `pages/common/tar.md`), preferably, should be written with the shell syntax specified by the [latest POSIX standard](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18).
   However, if you believe the example is hard to read, has little to no use, or is impossible to write in POSIX-compliant syntax, use non-POSIX syntax and add a note or warning indicating it and some or all of its consequences concisely and specifically. For example:
 
