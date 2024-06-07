@@ -1,7 +1,7 @@
 # Set-Service
 
 > Starts, stops, and suspends a service, and changes its properties.
-> This command can only be used through PowerShell.
+> Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-service>.
 
 - Change a display name:
