@@ -1,7 +1,7 @@
 # Get-DedupProperties
 
 > Gets Data Deduplication information
-> This command can only be used through Powershell.
+> Note: This command can only be used through PowerShell.
 > More Information: <https://learn.microsoft.com/powershell/module/storage/get-dedupproperties>.
 
 - Get Data Deduplication information of the Drive:
