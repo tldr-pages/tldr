@@ -14,8 +14,7 @@
 
 - Modify the properties of a volume using a volume object:
 
-`$volume = Get-Volume -DriveLetter "E"`
-`Set-Volume -InputObject $volume -NewFileSystemLabel "Backup"`
+`Set-Volume -InputObject $(Get-Volume -DriveLetter "E") -NewFileSystemLabel "Backup"`
 
 - Specify the Data Deduplication mode for the volume:
 
