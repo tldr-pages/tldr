@@ -11,5 +11,4 @@
 `Get-DedupProperties -FileSystemLabel 'Label'`
 
 - Get Data Dedpulication information of the Drive using the input object:
-`$Volume = Get-Volume -DriveLetter 'E'`
-`Get-DedupProperties -InputObject $Volume`
+`Get-DedupProperties -InputObject $(Get-Volume -DriveLetter 'E')`
