@@ -1,7 +1,6 @@
 # hledger-ui
 
-> Terminal UI (TUI) to `hledger`.
-> A robust, friendly plain text accounting app.
+> A terminal interface (TUI) for `hledger`, a robust, friendly plain text accounting app.
 > More information: <https://hledger.org/hledger-ui.html>.
 
 - Start in the main menu screen, reading from the default journal file:

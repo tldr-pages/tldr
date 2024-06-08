@@ -26,7 +26,7 @@
 
 - Play a file at a specified speed (1 by default):
 
-`mpv --speed {{0.01..100}} {{path/to/file}}`
+`mpv --speed={{0.01..100}} {{path/to/file}}`
 
 - Play a file using a profile defined in the `mpv.conf` file:
 

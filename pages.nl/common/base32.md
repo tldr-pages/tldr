@@ -9,7 +9,7 @@
 
 - Zet gecodeerde uitvoer naar een specifieke breedte (`0` schakelt het uit):
 
-`base32 --wrap {{0|76|...}} {{path/to/file}}`
+`base32 --wrap {{0|76|...}} {{pad/naar/bestand}}`
 
 - Decodeer een bestand:
 
