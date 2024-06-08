@@ -20,7 +20,7 @@
 
 `magick convert {{pad/naar/invoer_afbeelding.png}} -define jpeg:extent=512kb {{pad/naar/uitvoer_afbeelding.jpg}}`
 
-- Verticaal/Horizontaal toevoegen van afbeeldingen:
+- Verticaal/horizontaal toevoegen van afbeeldingen:
 
 `magick convert {{pad/naar/afbeelding1.png pad/naar/afbeelding2.png ...}} {{-append|+append}} {{pad/naar/uitvoer_afbeelding.png}}`
 
