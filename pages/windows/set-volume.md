@@ -10,7 +10,7 @@
 
 - Change the file system label of a volume identified by the system label:
 
-`Set-Volume -FileSystemLabel "OldLabel" -NewFileSystemLabel "NewLabel"` 
+`Set-Volume -FileSystemLabel "OldLabel" -NewFileSystemLabel "NewLabel"`
 
 - Modify the properties of a volume using a volume object:
 
