@@ -27,6 +27,6 @@
 
 `dd if={{caminho/para/arquivo.img}} of=/dev/{{dispositivo_drive}} status=progress`
 
-- Checa o progresso de um processo dd rodando (rode esse comando de outro shell):
+- Checa o progresso de um processo `dd` rodando (rode esse comando de outro shell):
 
 `kill -USR1 $(pgrep -x dd)`
