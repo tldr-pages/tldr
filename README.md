@@ -50,7 +50,7 @@ How about:
 </picture>
 
 This repository is just that: an ever-growing collection of examples
-for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line tools.
+for the most common UNIX, Linux, macOS, SunOS, Android, and Windows command-line tools.
 
 ## How do I use it?
 
@@ -87,7 +87,7 @@ If you don't want to install any software, check out the [PDF version](https://g
 > PDFs for translations are available for most languages. You can find them in the releases assets of the [latest release](https://github.com/tldr-pages/tldr/releases/latest).
 
 There are also **various other clients** provided by the community,
-both for the command-line and for other platforms.
+both for the command line and for other platforms.
 For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients).
 
 ## How do I contribute to tldr-pages?
@@ -96,13 +96,13 @@ All contributions are welcome!
 
 Some ways to contribute include:
 
-- Adding your favorite command which isn't covered.
+- Adding your favorite command that isn't covered.
 - Adding examples or improving the content of an existing page.
 - Adding requested pages from our issues with the [help wanted](https://github.com/tldr-pages/tldr/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) label.
 - Translating pages into different languages.
 
 All `tldr` pages are written in markdown, so they can be edited quite easily and changes can be submitted in
-pull requests here using Git on the command-line or
+pull requests here using Git on the command line or
 using the GitHub web interface.
 
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
@@ -116,10 +116,10 @@ You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tl
 ## Similar projects
 
 - [Command Line Interface Pages](https://github.com/command-line-interface-pages)
-  allows you to write standardized help pages for CLI, directories and configs.
+  allows you to write standardized help pages for CLI, directories, and configs.
 
 - [Cheat](https://github.com/cheat/cheat)
-  allows you to create and view interactive cheatsheets on the command-line.
+  allows you to create and view interactive cheatsheets on the command line.
   It was designed to help remind *nix system administrators of options
   for commands that they use frequently, but not frequently enough to remember.
 
@@ -128,11 +128,11 @@ You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tl
   into 1 unified interface.
 
 - [devhints](https://devhints.io/)
-  Rico's cheatsheets are not just focused on the command-line and
+  Rico's cheatsheets are not just focused on the command line and
   include a plethora of other cheatsheets related to programming.
 
 - [eg](https://github.com/srsudar/eg)
-  provides detailed examples with explanations on the command-line.
+  provides detailed examples with explanations on the command line.
   Examples come from the repository, but `eg` supports displaying
   custom examples and commands alongside the defaults.
   
