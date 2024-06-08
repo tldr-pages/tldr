@@ -2,7 +2,7 @@
 
 > Sets or changes the file system label of an existing volume.
 > This command can only be used through Powershell.
-> More Information: <https://learn.microsoft.com/powershell/module/storage/set-volume>.
+> More information: <https://learn.microsoft.com/powershell/module/storage/set-volume>.
 
 - Change the file system label of a volume identified by drive letter:
 
