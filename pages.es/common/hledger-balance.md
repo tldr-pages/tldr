@@ -34,4 +34,4 @@
 
 - Muestra las ganancias/pérdidas de capital no realizadas por cambios en el precio de mercado en cada trimestre, para activos de inversión que no sean criptomonedas:
 
-`hledger bal --gain -Q {{activos:inversiones}} not:{{criptomoneda}}}`
+`hledger bal --gain -Q {{activos:inversiones}} not:{{criptomoneda}}`
