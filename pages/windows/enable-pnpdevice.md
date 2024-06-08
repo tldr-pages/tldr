@@ -1,7 +1,7 @@
 # Enable-PnpDevice
 
 > The Enable-PnpDevice cmdlet enables a Plug and Play (PnP) device. You must use an Administrator account to enable a device.
-> This commnand can only be used through Powershell.
+> This command can only be used through PowerShell.
 > More Information: <https://learn.microsoft.com/powershell/module/pnpdevice/enable-pnpdevice>
 
 - Enable a device:
