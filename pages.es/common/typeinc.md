@@ -8,7 +8,7 @@
 
 `typeinc`
 
-- Muestra la lista de los 10 prime[r]os clasificados por nivel de dificultad de entrada::
+- Muestra la lista de los 10 primeros clasificados por nivel de dificultad de entrada::
 
 `typeinc {{-r|--ranklist}} {{nivel_de_dificultad}}`
 
@@ -16,6 +16,6 @@
 
 `typeinc {{-w|--words}} {{conteo_de_palabras}}`
 
-- Calcula el re[s]ultado hipotético en Typeinc:
+- Calcula el resultado hipotético en Typeinc:
 
 `typeinc {{-s|--score}}`
