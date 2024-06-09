@@ -9,11 +9,11 @@
 
 - Clone a drive to another drive with 4 MB block, ignore error and show the progress:
 
-`dd if={{/dev/source_device}} of={{/dev/dest_device}} bs={{4m}} conv={{noerror}} status=progress`
+`dd if={{/dev/source_device}} of={{/dev/dest_device}} bs=4m conv=noerror status=progress`
 
 - Generate a file of 100 random bytes by using kernel random driver:
 
-`dd if=/dev/urandom of={{path/to/random_file}} bs={{100}} count={{1}}`
+`dd if=/dev/urandom of={{path/to/random_file}} bs=100 count={{1}}`
 
 - Benchmark the write performance of a disk:
 
@@ -27,6 +27,6 @@
 
 `dd if={{path/to/file.img}} of={{/dev/drive_device}} status=progress`
 
-- Check the progress of an ongoing dd operation (run this command from another shell):
+- Check the progress of an ongoing `dd` operation (run this command from another shell):
 
 `kill -USR1 $(pgrep ^dd)`
