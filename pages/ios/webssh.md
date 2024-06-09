@@ -1,6 +1,7 @@
 # webssh
 
 > Manage, import, and export SSH configuration on the WebSSH app through the mashREPL command-line.
+> Some subcommands such as `webssh import` have their own usage documentation.
 > This command can be only run under mashREPL menu on the WebSSH app.
 > More information: <https://webssh.net/documentation/mashREPL/>.
 
@@ -16,14 +17,10 @@
 
 `webssh export sshconfig --apply`
 
-- Apply a new SSH configuration from a `ssh_config` text file in the current directory (remove `--apply` for dry-run):
+- Restore WebSSH in-app purchases from the command-line:
 
-`webssh export sshconfig --apply`
+`webssh store sync`
 
-- Apply a new SSH configuration from a specified text file (remove `--apply` for dry-run):
+- Unregister WebSSH in-app purchases on the device (this does not constitute refunds):
 
-`webssh export sshconfig --from-file {{path/to/file}} --apply`
-
-- Allow overwriting of current SSH connections configuration:
-
-`webssh export sshconfig --from-file {{path/to/file}} --apply --overwrite`
+`webssh store unregister all`
