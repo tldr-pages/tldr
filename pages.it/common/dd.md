@@ -19,6 +19,6 @@
 
 `dd if=/dev/zero of={{file_1GB}} bs=1024 count=1000000`
 
-- Mostra il progresso di un'operazione dd in corso (comando da eseguire in un'altra shell):
+- Mostra il progresso di un'operazione `dd` in corso (comando da eseguire in un'altra shell):
 
 `kill -USR1 $(pgrep -x dd)`
