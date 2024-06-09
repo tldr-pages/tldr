@@ -115,7 +115,7 @@ You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tl
 
 ## Similar projects
 
-- [command-line Interface Pages](https://github.com/command-line-interface-pages)
+- [Command Line Interface Pages](https://github.com/command-line-interface-pages)
   allows you to write standardized help pages for CLI, directories, and configs.
 
 - [Cheat](https://github.com/cheat/cheat)
