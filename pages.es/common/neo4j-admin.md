@@ -21,7 +21,7 @@
 
 - Carga una base de datos desde un archivo llamado `nombre_base_de_datos.dump`:
 
-`neo4j-admin database load --from-path={{ruta/al/directorio}} {{nombre_base_de_datos}} --overwrite-destination=true`
+`neo4j-admin database load --from-path={ruta/al/directorio}} {{nombre_de_base_de_datos}} --overwrite-destination=true`
 
 - Carga una base de datos desde un archivo especificado a través de `stdin`:
 
