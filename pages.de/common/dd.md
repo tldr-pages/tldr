@@ -11,9 +11,9 @@
 
 `dd if={{/dev/quell_laufwerk}} of={{/dev/ziel_laufwerk}} bs=4M conv=noerror status=progress`
 
-- Erstelle eine Datei mit 100 zufälligen Bytes mithilfe des Zufall-Treibers des Kernels:
+- Erstelle eine Datei mit spezifizierte zufälligen Bytes mithilfe des Zufall-Treibers des Kernels:
 
-`dd bs=100 count={{1}} if=/dev/urandom of={{pfad/zu/datei}}`
+`dd bs={{100}} count={{1}} if=/dev/urandom of={{pfad/zu/datei}}`
 
 - Teste die Schreibgeschwindigkeit eines Laufwerks:
 
