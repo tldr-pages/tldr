@@ -11,7 +11,7 @@
 
 `sudo turbostat -i {{n_segundos}}`
 
-- No decodifica ni imprime la información de la cabecera de configuración del sistema:
+- Muestra información sin decodificar ni imprimir la cabecera de configuración del sistema:
 
 `sudo turbostat --quiet`
 
