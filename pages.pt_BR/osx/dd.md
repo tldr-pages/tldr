@@ -7,7 +7,7 @@
 
 `dd if={{caminho/para/arquivo.iso}} of={{/dev/unidade_usb}}`
 
-- Clona uma unidade para outra unidade com bloco de 4 MB e ignora erro:
+- Clona uma unidade para outra unidade com bloco de 4 MB e ignora qualquer erro:
 
 `dd bs=4m conv=noerror if={{/dev/unidade_origem}} of={{/dev/unidade_destino}}`
 
