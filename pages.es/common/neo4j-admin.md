@@ -7,7 +7,7 @@
 
 `neo4j-admin server start`
 
-- Detiene el DBMS:
+- Detén el DBMS:
 
 `neo4j-admin server stop`
 
