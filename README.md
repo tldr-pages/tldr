@@ -120,7 +120,7 @@ You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tl
 
 - [Cheat](https://github.com/cheat/cheat)
   allows you to create and view interactive cheatsheets on the command-line.
-  It was designed to help remind *nix system administrators of options
+  It was designed to help remind Unix system administrators of options
   for commands that they use frequently, but not frequently enough to remember.
 
 - [cheat.sh](https://cheat.sh/)
