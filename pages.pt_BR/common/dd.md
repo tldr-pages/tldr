@@ -11,7 +11,7 @@
 
 `dd bs=4194304 conv=noerror if={{/dev/drive_fonte}} of={{/dev/drive_destino}}`
 
-- Gera um arquivo com 100 bytes aleatórios utilizando o kernel random driver:
+- Gera um arquivo com um número específico de bytes aleatórios utilizando o kernel random driver:
 
 `dd bs=100 count={{1}} if=/dev/urandom of={{caminho/para/arquivo_random}}`
 
