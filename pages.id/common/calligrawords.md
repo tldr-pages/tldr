@@ -1,7 +1,7 @@
 # calligrawords
 
 > Aplikasi pengolah dokumen teks, bagian dari Calligra.
-> Lihat juga: `calligraflow`, `calligrastage`, `calligrasheets`
+> Lihat juga: `calligraflow`, `calligrastage`, `calligrasheets`;
 > Informasi lebih lanjut: <https://manned.org/calligrawords>.
 
 - Buka aplikasi pengolah dokumen teks:

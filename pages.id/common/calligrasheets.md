@@ -1,7 +1,7 @@
 # calligrasheets
 
 > Aplikasi pengolah lembar kerja (spreadsheet), bagian dari Calligra.
-> Lihat juga: `calligraflow`, `calligrastage`, `calligrawords`
+> Lihat juga: `calligraflow`, `calligrastage`, `calligrawords`.
 > Informasi lebih lanjut: <https://manned.org/calligrasheets>.
 
 - Buka aplikasi pengolah lembar kerja (spreadsheet):
