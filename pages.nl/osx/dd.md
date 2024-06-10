@@ -9,23 +9,19 @@
 
 - Kopieer een schijf naar een andere schijf met een blokgrootte van 4 MiB, negeer fouten en toon de voortgang:
 
-`dd if={{/dev/bron_apparaat}} of={{/dev/doel_apparaat}} bs=4m conv=noerror status=progress`
+`dd bs=4m conv=noerror if={{/dev/bron_apparaat}} of={{/dev/doel_apparaat}} status=progress`
 
-- Genereer een bestand met 100 willekeurige bytes met behulp van de kernel random driver:
+- Genereer een bestand met een specifiek aantal willekeurige bytes met behulp van de kernel random driver:
 
-`dd if=/dev/urandom of={{path/to/random_file}} bs=100 count={{1}}`
+`dd bs={{100}} count={{1}} if=/dev/urandom of={{path/to/random_file}}`
 
 - Benchmark de schrijfsnelheid van een schijf:
 
-`dd if=/dev/zero of={{pad/naar/bestand_1GB}} bs={{1024}} count={{1000000}}`
+`dd bs={{1024}} count={{1000000}} if=/dev/zero of={{pad/naar/bestand_1GB}}`
 
-- Maak een systeemback-up en sla deze op in een IMG bestand en toon de voortgang:
+- Maak een systeemback-up, sla deze op in een IMG bestand (kan later worden hersteld door `if` en `of` om te wisselen) en toon de voortgang:
 
-`dd if=/dev/{{schijf_apparaat}} of={{pad/naar/bestand.img}} status=progress`
-
-- Herstel een schijf vanuit een IMG bestand en toon de voortgang:
-
-`dd if={{pad/naar/bestand.img}} of={{/dev/schijf_apparaat}} status=progress`
+`dd if={{/dev/schijf_apparaat}} of={{pad/naar/bestand.img}} status=progress`
 
 - Bekijk de voortgang van een lopende `dd` operatie (voer dit commando uit vanaf een andere shell)::
 
