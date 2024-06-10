@@ -5,7 +5,7 @@
 
 - Maak een opstartbare USB-schijf van een isohybrid-bestand (zoals `archlinux-xxx.iso`) en toon de voortgang:
 
-`dd status=progress if={{pad/naar/bestand.iso}} of={{/dev/usb_schijf}}`
+`dd if={{pad/naar/bestand.iso}} of={{/dev/usb_schijf}} status=progress`
 
 - Kopieer een schijf naar een andere schijf met een blokgrootte van 4 MiB en schrijf alle gegevens voordat het commando eindigt:
 
@@ -19,9 +19,9 @@
 
 `dd bs={{1M}} count={{1000000}} if=/dev/zero of={{pad/naar/bestand_1GB}}`
 
-- Maak een systeemback-up en sla deze op in een IMG bestand (kan later worden hersteld door `if` en `of` om te wisselen):
+- Maak een systeemback-up, sla deze op in een IMG bestand (kan later worden hersteld door `if` en `of` om te wisselen) en toon de voortgang:
 
-`dd if={{/dev/schijf_apparaat}} of={{pad/naar/bestand.img}}`
+`dd if={{/dev/schijf_apparaat}} of={{pad/naar/bestand.img}} status=progress`
 
 - Bekijk de voortgang van een lopende `dd` operatie (voer dit commando uit vanaf een andere shell):
 

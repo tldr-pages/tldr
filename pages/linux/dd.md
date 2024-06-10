@@ -5,7 +5,7 @@
 
 - Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`) and show the progress:
 
-`dd status=progress if={{path/to/file.iso}} of={{/dev/usb_drive}}`
+`dd if={{path/to/file.iso}} of={{/dev/usb_drive}} status=progress`
 
 - Clone a drive to another drive with 4 MiB block size and flush writes before the command terminates:
 
@@ -19,9 +19,9 @@
 
 `dd bs={{1M}} count={{1000000}} if=/dev/zero of={{path/to/file_1GB}}`
 
-- Create a system backup and save it into an IMG file (can be restored later by swapping `if` and `of`):
+- Create a system backup, save it into an IMG file (can be restored later by swapping `if` and `of`), and show the progress:
 
-`dd if={{/dev/drive_device}} of={{path/to/file.img}}`
+`dd if={{/dev/drive_device}} of={{path/to/file.img}} status=progress`
 
 - Check the progress of an ongoing `dd` operation (run this command from another shell):
 
