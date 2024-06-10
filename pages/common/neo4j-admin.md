@@ -17,11 +17,11 @@
 
 - Create an archive (dump) of an offline database to a file named `database_name.dump`:
 
-`neo4j-admin database dump --to-path={{/path/to/folder}} {{database_name}}`
+`neo4j-admin database dump --to-path={{path/to/directory}} {{database_name}}`
 
 - Load a database from an archive named `database_name.dump`:
 
-`neo4j-admin database load --from-path={{/path/to/folder}} {{database_name}} --overwrite-destination=true`
+`neo4j-admin database load --from-path={{path/to/directory}} {{database_name}} --overwrite-destination=true`
 
 - Load a database from a specified archive file through `stdin`:
 
