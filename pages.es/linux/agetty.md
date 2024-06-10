@@ -5,7 +5,7 @@
 > Nota: la tasa de baudios es la velocidad de transferencia de datos entre una terminal y un dispositivo a través de una conexión serie.
 > Más información: <https://manned.org/agetty>.
 
-- Conecta `stdin` a un puerto (relativo a `/dev`) y especifica opcionalmente una tasa de baudios (por predeterminado 9600):
+- Conecta `stdin` a un puerto (relativo a `/dev`) y especifica opcionalmente una tasa de baudios (predeterminado 9600):
 
 `agetty {{tty}} {{115200}}`
 
