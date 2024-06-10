@@ -5,11 +5,11 @@
 
 - Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`):
 
-`dd if={{path/to/file.iso}} of=/dev/{{usb_drive}}`
+`dd if={{path/to/file.iso}} of={{/dev/usb_drive}}`
 
 - Clone a drive to another drive with 4 MiB block size and flush writes before the command terminates:
 
-`dd bs=4194304 conv=fsync if=/dev/{{source_drive}} of=/dev/{{dest_drive}}`
+`dd bs=4194304 conv=fsync if={{/dev/source_drive}} of={{/dev/dest_drive}}`
 
 - Generate a file with a specific number of random bytes by using kernel random driver:
 

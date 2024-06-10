@@ -21,7 +21,7 @@
 
 - Maak een systeemback-up en sla deze op in een IMG bestand en toon de voortgang:
 
-`dd if=/dev/{{schijf_apparaat}} of={{pad/naar/bestand.img}} status=progress`
+`dd if={{/dev/schijf_apparaat}} of={{pad/naar/bestand.img}} status=progress`
 
 - Herstel een schijf vanuit een IMG bestand en toon de voortgang:
 

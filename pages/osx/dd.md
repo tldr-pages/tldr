@@ -21,7 +21,7 @@
 
 - Generate a system backup into an IMG file and show the progress:
 
-`dd if=/dev/{{drive_device}} of={{path/to/file.img}} status=progress`
+`dd if={{/dev/drive_device}} of={{path/to/file.img}} status=progress`
 
 - Restore a drive from an IMG file and show the progress:
 

@@ -5,11 +5,11 @@
 
 - Crea un disco USB avviabile da un file ISO e mostra il progresso:
 
-`dd if={{file.iso}} of=/dev/{{disco_usb}} status=progress`
+`dd if={{file.iso}} of={{/dev/disco_usb}} status=progress`
 
 - Clona un disco in un altro a blocchi di 4MB, ignora gli errori e mostra il progresso:
 
-`dd if=/dev/{{disco_sorgente}} of=/dev/{{disco_destinazione}} bs=4M conv=noerror status=progress`
+`dd if={{/dev/disco_sorgente}} of={{/dev/disco_destinazione}} bs=4M conv=noerror status=progress`
 
 - Genera un file di 100 byte randomici utilizzando il driver random del kernel:
 

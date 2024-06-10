@@ -34,4 +34,4 @@
 
 - Display the output of webcam or other video input device:
 
-`mpv /dev/{{video0}}`
+`mpv {{/dev/video0}}`

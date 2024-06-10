@@ -5,11 +5,11 @@
 
 - Maak een opstartbare USB-schijf van een isohybrid-bestand (zoals `archlinux-xxx.iso`):
 
-`dd if={{pad/naar/bestand.iso}} of=/dev/{{usb_schijf}}`
+`dd if={{pad/naar/bestand.iso}} of={{/dev/usb_schijf}}`
 
 - Kopieer een schijf naar een andere schijf met een blokgrootte van 4 MiB en schrijf alle gegevens voordat het commando eindigt:
 
-`dd bs=4194304 conv=fsync if=/dev/{{bron_schijf}} of=/dev/{{doel_schijf}}`
+`dd bs=4194304 conv=fsync if={{/dev/bron_schijf}} of={{/dev/doel_schijf}}`
 
 - Genereer een bestand met een specifiek aantal willekeurige bytes met behulp van de kernel random driver:
 

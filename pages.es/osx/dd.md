@@ -21,7 +21,7 @@
 
 - Genera una copia de seguridad del sistema en un archivo IMG y muestra el progreso:
 
-`dd if=/dev/{{dispositivo_unidad}} of={{ruta/al/archivo.img}} status=progress`
+`dd if={{/dev/dispositivo_unidad}} of={{ruta/al/archivo.img}} status=progress`
 
 - Restaura una unidad desde un archivo IMG y muestra el progreso:
 
