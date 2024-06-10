@@ -9,12 +9,12 @@
 
 - 将驱动器克隆到具有 4MB 块的另一个驱动器并忽略错误：
 
-`dd if={{/dev/源设备}} of={{/dev/目标设备}} bs=4m conv=noerror`
+`dd bs=4m conv=noerror if={{/dev/源设备}} of={{/dev/目标设备}}`
 
 - 使用内核随机驱动程序生成 100 个随机字节的文件：
 
-`dd if=/dev/urandom of={{目标驱动器，接收随机数据文件名}} bs=100 count=1`
+`dd bs=100 count={{1}} if=/dev/urandom of={{目标驱动器，接收随机数据文件名}}`
 
 - 对磁盘的写入性能进行基准测试：
 
-`dd if=/dev/zero of={{1GB 的文件名}} bs=1024 count=1000000`
+`dd bs={{1024}} count={{1000000}} if=/dev/zero of={{1GB 的文件名}}`

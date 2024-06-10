@@ -9,7 +9,7 @@
 
 - محتویات یک درایو را در مکانی دیگر با بلوک های 4 مگابایتی کپی و همچنین از خطاها صرف نظر میکند:
 
-`dd if={{/dev/source_drive}} of={{/dev/dest_drive}} bs=4194304 conv=noerror`
+`dd bs=4194304 conv=noerror if={{/dev/source_drive}} of={{/dev/dest_drive}}`
 
 - یک فایل ۱۰۰ بایتی تصادفی با استفاده از درایور تصادفی هسته بسازید:
 
