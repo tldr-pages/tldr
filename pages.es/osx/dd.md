@@ -13,7 +13,7 @@
 
 - Genera un fichero de 100 bytes aleatorios utilizando el controlador aleatorio del kernel:
 
-`dd bs=100 count={{1}} if=/dev/urandom of={{ruta/al/archivo_aleatorio}}`
+`dd bs={{100}} count={{1}} if=/dev/urandom of={{ruta/al/archivo_aleatorio}}`
 
 - Compara el rendimiento de escritura de un disco:
 
