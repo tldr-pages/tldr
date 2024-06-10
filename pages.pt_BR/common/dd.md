@@ -13,7 +13,7 @@
 
 - Gera um arquivo com um número específico de bytes aleatórios utilizando o kernel random driver:
 
-`dd bs=100 count={{1}} if=/dev/urandom of={{caminho/para/arquivo_random}}`
+`dd bs={{100}} count={{1}} if=/dev/urandom of={{caminho/para/arquivo_random}}`
 
 - Faz o benchmark da performance de escrita de um disco:
 
