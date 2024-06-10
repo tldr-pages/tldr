@@ -15,7 +15,7 @@
 
 `sudo turbostat --quiet`
 
-- Muestra información útil sobre la CPU cada 1 segundo, sin información de cabecera:
+- Muestra información útil sobre el CPU cada segundo, sin información de cabecera:
 
 `sudo turbostat --quiet --interval 1 --cpu 0-{{cuenta_hilos_CPU}} --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"`
 
