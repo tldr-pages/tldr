@@ -11,7 +11,7 @@
 
 `dd bs=4M conv=noerror if={{/dev/소스_드라이브}} of={{/dev/목적지_드라이브}} status=progress`
 
-- 커널 랜덤 드라이버를 사용하여 랜덤 100바이트의 파일 생성:
+- 커널 랜덤 드라이버를 사용하여, 특정 수의 임의 바이트 크기를 가지는 파일 생성:
 
 `dd bs=100 count={{1}} if=/dev/urandom of={{경로/대상/랜덤_파일}}`
 
