@@ -3,7 +3,7 @@
 > Informa de la topología del procesador, frecuencia, temperatura, potencia y estadísticas de inactividad.
 > Más información: <https://manned.org/turbostat.8>.
 
-- Muestra las estadísticas cada 5 segundos:
+- Muestra las estadísticas cada cinco segundos:
 
 `sudo turbostat`
 
