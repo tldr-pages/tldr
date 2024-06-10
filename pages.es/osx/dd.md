@@ -11,7 +11,7 @@
 
 `dd if={{/dev/dispositivo_de origen}} of={{/dev/dispositivo_de destino}} bs=4m conv=noerror status=progress`
 
-- Genera un fichero de 100 bytes aleatorios utilizando el controlador aleatorio del kernel:
+- Genera un archivo con un número específico de bytes aleatorios utilizando el controlador aleatorio del núcleo:
 
 `dd if=/dev/urandom of={{ruta/al/archivo_aleatorio}} bs=100 count={{1}}`
 
@@ -27,6 +27,6 @@
 
 `dd if={{ruta/al/archivo.img}} of={{/dev/unidad_dispositivo}} status=progress`
 
-- Comprueba el progreso de una operación `dd` en curso (ejecuta este comando desde otro shell):
+- Comprueba el progreso de una operación `dd` en curso (ejecuta este comando desde otro intérprete de comandos):
 
 `kill -USR1 $(pgrep -x dd)`
