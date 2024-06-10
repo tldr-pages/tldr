@@ -6,7 +6,7 @@
 
 - Buat objek komit baru dengan pesan tertentu:
 
-`git commit-tree {{tree}} -m "{{pesan}}"
+`git commit-tree {{tree}} -m "{{pesan}}"`
 
 - Buat objek komit dengan pesan yang disimpan dalam suatu berkas (gunakan `-` untuk membaca dari `stdin`):
 
