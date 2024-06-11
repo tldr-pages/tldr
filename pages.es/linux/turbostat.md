@@ -7,7 +7,7 @@
 
 `sudo turbostat`
 
-- Muestra las estadísticas cada determinado número de segundos:
+- Muestra las estadísticas cada cierto número de segundos:
 
 `sudo turbostat -i {{n_segundos}}`
 
