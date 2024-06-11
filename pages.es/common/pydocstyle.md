@@ -7,11 +7,11 @@
 
 `pydocstyle {{archivo.py|ruta/al/directorio}}`
 
-- Muestra una [e]xplicación de cada error:
+- Muestra una explicación de cada error:
 
 `pydocstyle {{-e|--explain}} {{archivo.py|ruta/al/directorio}}`
 
-- Muestra información de [d]epuración:
+- Muestra información de depuración:
 
 `pydocstyle {{-d|--debug}} {{archivo.py|ruta/al/directorio}}`
 
