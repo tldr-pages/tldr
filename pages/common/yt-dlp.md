@@ -27,7 +27,7 @@
 
 - Download all playlists of a YouTube channel/user keeping each playlist in a separate directory:
 
-`yt-dlp -o "{{%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}}" "{{https://www.youtube.com/user/TheLinuxFoundation/playlists}}"`
+`yt-dlp -o "{{%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}}" "{{https://www.youtube.com/@LinuxFoundationOrg/playlists}}"`
 
 - Download a Udemy course keeping each chapter in a separate directory:
 

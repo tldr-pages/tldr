@@ -22,7 +22,7 @@
 
 - Descarrega todas as playlists de um canal ou utilizador do YouTube, mantendo cada playlist num diretório separado:
 
-`yt-dlp -o "{{%(uploader)s/%(playlist)s/%(indice_playlist)s - %(titulo)s.%(ext)s}}" "{{https://www.youtube.com/user/TheLinuxFoundation/playlists}}"`
+`yt-dlp -o "{{%(uploader)s/%(playlist)s/%(indice_playlist)s - %(titulo)s.%(ext)s}}" "{{https://www.youtube.com/@LinuxFoundationOrg/playlists}}"`
 
 - Descarrega um curso do Udemy, mantendo cada capítulo num diretório em separado, dentro do diretório "MyVideos" na home do utilizador:
 
