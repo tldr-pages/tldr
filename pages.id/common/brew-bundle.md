@@ -1,6 +1,6 @@
 # brew bundle
 
-> Pembungkus untuk Homebrew, Homebrew Cask dan the Mac App Store.
+> Pembungkus untuk Homebrew, Homebrew Cask, dan App Store untuk macOS.
 > Informasi lebih lanjut: <https://github.com/Homebrew/homebrew-bundle>.
 
 - Pasang seluruh paket menurut data Brewfile pada direktori saat ini:
@@ -9,7 +9,7 @@
 
 - Pasang seluruh paket menurut data Brewfile pada lokasi tertentu:
 
-`brew bundle --file={{jalan/menuju/berkas}}`
+`brew bundle --file {{jalan/menuju/berkas}}`
 
 - Buat suatu berkas Brewfile berisikan daftar seluruh paket yang terpasang saat ini:
 
