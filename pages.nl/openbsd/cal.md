@@ -27,6 +27,6 @@
 
 `cal -m`
 
-- Toon [w]eeknummers (niet compatibel met `-j`)
+- Toon [w]eeknummers (niet compatibel met `-j`):
 
 `cal -w`
