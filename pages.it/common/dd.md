@@ -7,7 +7,7 @@
 
 `dd if={{percorso/del/file.iso}} of={{/dev/disco_usb}} status=progress`
 
-- Clona un disco su un altro disco a blocchi con grandezza di 4 MiB e scarica le scritture prima che il comando termini: 
+- Clona un disco su un altro disco a blocchi con grandezza di 4 MiB e scarica le scritture prima che il comando termini:
 
 `dd bs=4194304 conv=fsync if={{/dev/disco_sorgente}} of={{/dev/disco_destinazione}}`
 
