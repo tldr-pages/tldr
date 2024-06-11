@@ -11,7 +11,7 @@
 
 `dd bs=4M conv=noerror status=progress if={{/dev/disco_sorgente}} of={{/dev/disco_destinazione}}`
 
-- Genera un file di ... byte randomici utilizzando il driver random del kernel:
+- Genera un file con un numero specifico di byte randomici utilizzando il driver random del kernel:
 
 `dd bs={{100}} count={{1}} if=/dev/urandom of={{percorso/del/file_random}}`
 
