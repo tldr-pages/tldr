@@ -18,3 +18,7 @@
 - Testa la performance in scrittura di un disco:
 
 `dd bs={{1024}} count={{1000000}} if=/dev/zero of={{percorso/del/file_1GB}}`
+
+- Create a system backup, save it into an IMG file (can be restored later by swapping `if` and `of`), and show the progress:
+
+`dd if={{/dev/drive_device}} of={{path/to/file.img}} status=progress`
