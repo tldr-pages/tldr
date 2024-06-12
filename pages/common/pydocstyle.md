@@ -7,11 +7,11 @@
 
 `pydocstyle {{file.py|path/to/directory}}`
 
-- Show an [e]xplanation of each error:
+- Show an explanation of each error:
 
 `pydocstyle {{-e|--explain}} {{file.py|path/to/directory}}`
 
-- Show [d]ebug information:
+- Show debug information:
 
 `pydocstyle {{-d|--debug}} {{file.py|path/to/directory}}`
 
