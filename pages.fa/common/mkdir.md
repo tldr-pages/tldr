@@ -1,7 +1,7 @@
 # mkdir
 
-> Create directories and set their permissions.
-> More information: <https://www.gnu.org/software/coreutils/mkdir>.
+> ساخت پوشه ها و مجوز تنظیم مجوز آنها.
+> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - ساخت پوشه خاص:
 
