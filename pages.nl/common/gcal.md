@@ -1,7 +1,7 @@
 # gcal
 
 > Toon een kalender.
-> More information: <https://www.gnu.org/software/gcal>.
+> Meer informatie: <https://www.gnu.org/software/gcal>.
 
 - Toon een kalender voor de huidige maand:
 
