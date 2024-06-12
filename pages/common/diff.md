@@ -7,7 +7,7 @@
 
 `diff {{old_file}} {{new_file}}`
 
-- Compare files, ignoring [w]hite spaces:
+- Compare files, ignoring white spaces:
 
 `diff {{-w|--ignore-all-space}} {{old_file}} {{new_file}}`
 
@@ -15,11 +15,11 @@
 
 `diff {{-y|--side-by-side}} {{old_file}} {{new_file}}`
 
-- Compare files, showing the differences in [u]nified format (as used by `git diff`):
+- Compare files, showing the differences in unified format (as used by `git diff`):
 
 `diff {{-u|--unified}} {{old_file}} {{new_file}}`
 
-- Compare directories [r]ecursively (shows names for differing files/directories as well as changes made to files):
+- Compare directories recursively (shows names for differing files/directories as well as changes made to files):
 
 `diff {{-r|--recursive}} {{old_directory}} {{new_directory}}`
 
