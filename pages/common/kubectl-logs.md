@@ -27,6 +27,6 @@
 
 `kubectl logs --tail={{10}} {{pod_name}}`
 
-- Show all pod logs for a given deployment
+- Show all pod logs for a given deployment:
 
 `kubectl logs deployment/{{deployment_name}}`
