@@ -103,7 +103,7 @@ Thus, if the command or its options are unavailable or contain different behavio
 # Clear-RecycleBin
 
 > Clear items from the Recycle Bin.
-> This command can only be used through PowerShell versions 5.1 and below, or 7.1 and above.
+> Note: This command can only be used through PowerShell versions 5.1 and below, or 7.1 and above.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/clear-recyclebin>.
 ```
 

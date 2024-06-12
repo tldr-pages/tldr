@@ -1,7 +1,7 @@
 # New-Item
 
 > Create a new file, directory, symbolic link, or a registry entry.
-> This command can only be used through PowerShell.
+> Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
 
 - Create a new blank file (equivalent to `touch`):
