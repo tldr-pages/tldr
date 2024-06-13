@@ -34,4 +34,4 @@
 
 - Ustaw poziom kompresji (wyższy oznacza wyższą kompresję, ale wolniejszą):
 
-`7z a {{ścieżka/do/archiwum.7z}} -mx={{0|1|3|5|7|9}} {{ścieżka/do/pliku_lub_katalogu}}`
+`7za a {{ścieżka/do/archiwum.7z}} -mx={{0|1|3|5|7|9}} {{ścieżka/do/pliku_lub_katalogu}}`
