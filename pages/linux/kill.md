@@ -10,7 +10,7 @@
 
 - List signal values and their corresponding names (to be used without the `SIG` prefix):
 
-`kill -{{L|-table}}`
+`kill {{-L|--table}}`
 
 - Terminate a background job:
 

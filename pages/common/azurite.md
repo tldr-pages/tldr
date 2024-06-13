@@ -3,7 +3,7 @@
 > Azure Storage API compatible server (emulator) in local environment.
 > More information: <https://www.npmjs.com/package/azurite>.
 
-- Use an existing [l]ocation as workspace path:
+- Use an existing location as workspace path:
 
 `azurite {{-l|--location}} {{path/to/directory}}`
 
@@ -11,7 +11,7 @@
 
 `azurite {{-s|--silent}}`
 
-- Enable [d]ebug log by providing a file path as log destination:
+- Enable debug log by providing a file path as log destination:
 
 `azurite {{-d|--debug}} {{path/to/debug.log}}`
 

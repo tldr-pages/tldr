@@ -1,7 +1,7 @@
 # dd
 
 > Convert and copy a file.
-> More information: <https://manned.org/man/dd.1p>.
+> More information: <https://manned.org/dd.1p>.
 
 - Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`):
 
