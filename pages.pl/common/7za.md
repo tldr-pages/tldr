@@ -31,3 +31,7 @@
 - Wypisz zawartość pliku archiwum:
 
 `7za l {{ścieżka/do/archiwum.7z}}`
+
+- Ustaw poziom kompresji (wyższy oznacza wyższą kompresję, ale wolniejszą):
+
+`7z a {{ścieżka/do/archiwum.7z}} -mx={{0|1|3|5|7|9}} {{ścieżka/do/pliku_lub_katalogu}}`
