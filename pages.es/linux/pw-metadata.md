@@ -16,7 +16,7 @@
 
 `pw-metadata {{-l|--list}}`
 
-- Sigue ejecutando y registrando los cambios en los metadatos:
+- Continua ejecutando y registrando los cambios en los metadatos:
 
 `pw-metadata {{-m|--monitor}}`
 
