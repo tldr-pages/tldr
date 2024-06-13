@@ -1,7 +1,7 @@
 # tree
 
 > Muestra los contenidos del directorio actual en forma de árbol.
-> Más información: <https://manned.org/man/tree>.
+> Más información: <https://manned.org/tree>.
 
 - Imprime archivos y directorios hasta `num` niveles de profundidad (donde 1 significa el directorio actual):
 
