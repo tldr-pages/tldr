@@ -4,7 +4,7 @@
 > Vea también: `pipewire`, `pw-mon`, `pw-cli`.
 > Más información: <https://docs.pipewire.org/page_man_pw-metadata_1.html>.
 
-- Muestra metadatos en formato `predeterminado`:
+- Muestra metadatos en el formato por defecto:
 
 `pw-metadata`
 
