@@ -4,26 +4,26 @@
 > Part of `frp`.
 > More information: <https://github.com/fatedier/frp>.
 
-- Start the service, using the default config file (assumed to be `frps.ini` in the current directory):
+- Start the service, using the default configuration file (assumed to be `frps.ini` in the current directory):
 
 `frpc`
 
-- Start the service, using the newer TOML config file (`frps.toml` instead of `frps.ini`) in the current directory:
+- Start the service, using the newer TOML configuration file (`frps.toml` instead of `frps.ini`) in the current directory:
 
-`frpc --config ./frps.toml`
+`frpc {{-c|--config}} ./frps.toml`
 
-- Start the service, using a specified config file:
+- Start the service, using a specific configuration file:
 
-`frpc --config {{path/to/file}}`
+`frpc {{-c|--config}} {{path/to/file}}`
 
-- Verify that the configuration file is valid:
+- Check if the configuration file is valid:
 
-`frpc verify --config {{path/to/file}}`
+`frpc verify {{-c|--config}} {{path/to/file}}`
 
-- Generate `frpc` command autocompletion setup script for Bash, Fish, PowerShell, or Zsh (printed to `stdout`):
+- Print autocompletion setup script for Bash, Fish, PowerShell, or Zsh:
 
 `frpc completion {{bash|fish|powershell|zsh}}`
 
 - Display version:
 
-`frpc --version`
+`frpc {{-v|--version}}`
