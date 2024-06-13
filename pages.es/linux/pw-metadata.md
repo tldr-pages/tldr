@@ -10,7 +10,7 @@
 
 - Muestra metadatos con ID 0 en `configuración`:
 
-`pw-metadata {{-n|--name}} {{configuración}} {{0}}`
+`pw-metadata {{-n|--name}} {{settings}} {{0}}`
 
 - Lista todos los objetos de metadatos disponibles:
 
