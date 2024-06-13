@@ -1,7 +1,7 @@
 # dd
 
 > Konvertiere und kopiere eine Datei.
-> Weitere Informationen: <https://manned.org/man/dd.1p>.
+> Weitere Informationen: <https://manned.org/dd.1p>.
 
 - Erstelle ein bootbares USB-Laufwerk von einer isohybriden Datei (wie `archlinux-xxxx.iso`) und zeige den Fortschritt an:
 
