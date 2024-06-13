@@ -8,7 +8,7 @@
 
 `pw-metadata`
 
-- Muestra metadatos con el identificador 0 en `configuración`:
+- Muestra metadatos con el identificador 0 en `settings`:
 
 `pw-metadata {{-n|--name}} {{settings}} {{0}}`
 
