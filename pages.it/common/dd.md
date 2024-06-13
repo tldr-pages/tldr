@@ -1,7 +1,7 @@
 # dd
 
 > Converti e copia un file.
-> Maggiori informazioni: <https://manned.org/man/dd.1p>.
+> Maggiori informazioni: <https://manned.org/dd.1p>.
 
 - Crea un disco USB avviabile da un file ISO e mostra il progresso:
 
