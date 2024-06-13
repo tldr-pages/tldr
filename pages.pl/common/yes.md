@@ -16,6 +16,6 @@
 
 `yes | sudo apt-get install {{program}}`
 
-- Wielokrotnie wypisuj znak nowej lini, aby zawsze akceptować domyślne opcje poleceń:
+- Wielokrotnie wypisuj znak nowej linii, aby zawsze akceptować domyślne opcje poleceń:
 
 `yes ''`
