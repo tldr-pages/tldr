@@ -12,7 +12,7 @@
 
 `7za a {{ścieżka/do/zaszyfrowanego.7z}} -p{{hasło}} -mhe={{on}} {{ścieżka/do/archiwum.7z}}`
 
-- Wyodrębnij istniejący plik 7za z oryginalną strukturą katalogów:
+- Wyodrębnij archiwum, zachowując oryginalną strukturę katalogów:
 
 `7za x {{ścieżka/do/archiwum.7z}}`
 
