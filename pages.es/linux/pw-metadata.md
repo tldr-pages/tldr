@@ -28,6 +28,6 @@
 
 `pw-metadata --name {{settings}} {{0}} {{log.level}} {{1}}`
 
-- Muestra la ayuda:
+- Muestra ayuda:
 
 `pw-metadata --help`
