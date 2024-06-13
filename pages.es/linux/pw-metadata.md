@@ -26,7 +26,7 @@
 
 - Ajusta `log.level` a 1 en `configuración`:
 
-`pw-metadata --name {{configuración}} {{0}} {{log.level}} {{1}}`
+`pw-metadata --name {{settings}} {{0}} {{log.level}} {{1}}`
 
 - Muestra la ayuda:
 
