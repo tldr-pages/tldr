@@ -1,7 +1,7 @@
 # dd
 
 > Converteer en kopieer een bestand.
-> Meer informatie: <https://manned.org/man/dd.1p>.
+> Meer informatie: <https://manned.org/dd.1p>.
 
 - Maak een opstartbare USB-schijf van een isohybrid-bestand (zoals `archlinux-xxx.iso`) en toon de voortgang:
 

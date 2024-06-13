@@ -1,7 +1,7 @@
 # dd
 
 > Konvertiere und kopiere eine Datei.
-> Weitere Informationen: <https://manned.org/man/dd.1p>.
+> Weitere Informationen: <https://manned.org/dd.1p>.
 
 - Erstelle ein bootbares USB-Laufwerk von einer isohybriden Datei (wie `archlinux-xxxx.iso`) und zeige den Fortschritt an:
 
@@ -11,9 +11,9 @@
 
 `dd if={{/dev/quell_laufwerk}} of={{/dev/ziel_laufwerk}} bs=4M conv=noerror status=progress`
 
-- Erstelle eine Datei mit 100 zufälligen Bytes mithilfe des Zufall-Treibers des Kernels:
+- Erstelle eine Datei mit spezifizierte zufälligen Bytes mithilfe des Zufall-Treibers des Kernels:
 
-`dd bs=100 count={{1}} if=/dev/urandom of={{pfad/zu/datei}}`
+`dd bs={{100}} count={{1}} if=/dev/urandom of={{pfad/zu/datei}}`
 
 - Teste die Schreibgeschwindigkeit eines Laufwerks:
 
