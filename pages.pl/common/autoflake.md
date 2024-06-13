@@ -3,7 +3,7 @@
 > Usuń nieużywane importy i zmienne z kodu Python.
 > Więcej informacji: <https://github.com/myint/autoflake>.
 
-- Usuń nieużywane zmienne z jednego pliku i wyświetl różnice:
+- Usuń nieużywane zmienne z jednego pliku i wyświetl różnicę:
 
 `autoflake --remove-unused-variables {{ścieżka/do/pliku.py}}`
 
