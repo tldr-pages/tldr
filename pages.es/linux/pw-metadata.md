@@ -24,7 +24,7 @@
 
 `pw-metadata {{-d|--delete}}`
 
-- Ajusta `log.level` a 1 en `configuración`:
+- Ajusta `log.level` a 1 en `settings`:
 
 `pw-metadata --name {{settings}} {{0}} {{log.level}} {{1}}`
 
