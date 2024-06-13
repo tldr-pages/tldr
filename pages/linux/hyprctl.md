@@ -25,7 +25,7 @@
 
 - Call a dispatcher with an argument:
 
-`hyprctl dispatch exec {{App}}`
+`hyprctl dispatch exec {{app}}`
 
 - Set a config keyword dynamically:
 
