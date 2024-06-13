@@ -15,6 +15,14 @@
 
 `kubectx -`
 
+- Rename a named context:
+
+`kubectx {{alias}}={{name}}`
+
+- Show the current named context:
+
+`kubectx -c`
+
 - Delete a named context:
 
 `kubectx -d {{name}}`

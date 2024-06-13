@@ -10,11 +10,11 @@
 
 - Case-insensitively search only on alphanumeric characters:
 
-`look -{{f|-ignore-case}} -{{d|-alphanum}} {{prefix}} {{path/to/file}}`
+`look {{-f|--ignore-case}} {{-d|--alphanum}} {{prefix}} {{path/to/file}}`
 
-- Specify a string [t]ermination character (space by default):
+- Specify a string termination character (space by default):
 
-`look -{{t|-terminate}} {{,}}`
+`look {{-t|--terminate}} {{,}}`
 
 - Search in `/usr/share/dict/words` (`--ignore-case` and `--alphanum` are assumed):
 
