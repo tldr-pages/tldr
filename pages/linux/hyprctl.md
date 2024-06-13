@@ -1,9 +1,9 @@
 # hyprctl
 
-> Utility for controlling parts of Hyprland from a CLI or a script
-> More information: https://wiki.hyprland.org/Configuring/Using-hyprctl
+> Utility for controlling parts of Hyprland from a CLI or a script.
+> More information: <https://wiki.hyprland.org/Configuring/Using-hyprctl>.
 
-- Print the current Hyprland version: 
+- Print the current Hyprland version:
 
 `hyprctl version`
 
