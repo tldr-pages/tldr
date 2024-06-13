@@ -10,7 +10,7 @@
 
 - Zaszyfruj istniejące archiwum (w tym nagłówki):
 
-`7za a {{ścieżka/do/zaszyfrowanego.7z}} -p{{hasło}} -mhe=on {{ścieżka/do/archiwum.7z}}`
+`7za a {{ścieżka/do/zaszyfrowanego.7z}} -p{{hasło}} -mhe={{on}} {{ścieżka/do/archiwum.7z}}`
 
 - Wyodrębnij istniejący plik 7za z oryginalną strukturą katalogów:
 
