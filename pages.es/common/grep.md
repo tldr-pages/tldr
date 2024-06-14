@@ -5,7 +5,7 @@
 
 - Busca un patrón en un archivo:
 
-`grep "{{patrón_de_busqueda}}" {{ruta/al/archivo}}`
+`grep "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
 - Busca una cadena de caracteres específica (la cadena no será interpretada como una expresión regular):
 
