@@ -17,7 +17,7 @@
 
 `rkdeveloptool ul {{ruta/al/bootloader.bin}}`
 
-- Escribe una imagen en una partición flash con formato GPT, especificando el sector de almacenamiento inicial (normalmente `0x0` alias `0`):
+- Escribe una imagen en una partición flash con formato GPT, especificando el sector de almacenamiento inicial (normalmente `0x0`, alias `0`):
 
 `rkdeveloptool wl {{sector_inicial}} {{ruta/a/imagen.img}}`
 
