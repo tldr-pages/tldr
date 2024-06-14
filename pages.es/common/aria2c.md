@@ -22,7 +22,7 @@
 
 - Descarga las URI enumeradas en un archivo con un número determinado de descargas paralelas:
 
-`aria2c --input-file {{ruta/al/archivo}} --max-concurrent-downloads {{numero_de_descargas}}`
+`aria2c --input-file {{ruta/al/archivo}} --max-concurrent-downloads {{número_de_descargas}}`
 
 - Descarga con varias conexiones:
 
