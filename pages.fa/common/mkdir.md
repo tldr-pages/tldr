@@ -1,13 +1,13 @@
 # mkdir
 
-> ساخت پوشه ها و مجوز تنظیم مجوز آنها.
+> ساخت پوشه ها و تنظیم مجوز آنها.
 > اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/mkdir>.
 
-- ساخت پوشه خاص:
+- ساخت پوشه مشخص:
 
 `mkdir {{path/to/directory1 path/to/directory2 ...}}`
 
-- ساخت پوشه های خاص به همراه پوشه های والد در صورت نیاز:
+- ساخت پوشه های مشخص به همراه پوشه های والد در صورت نیاز:
 
 `mkdir -p {{path/to/directory1 path/to/directory2 ...}}`
 
