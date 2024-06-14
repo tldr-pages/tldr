@@ -26,7 +26,7 @@
 
 - Descarga con varias conexiones:
 
-`aria2c --split {{numero_de_conexiones}} "{{url}}"`
+`aria2c --split {{número_de_conexiones}} "{{url}}"`
 
 - Descarga a través de FTP con un nombre de usuario y contraseña:
 
