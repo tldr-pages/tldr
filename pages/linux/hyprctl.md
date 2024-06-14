@@ -1,13 +1,9 @@
 # hyprctl
 
-> Utility for controlling parts of Hyprland from a CLI or a script.
+> Control parts of the Hyprland Wayland compositor.
 > More information: <https://wiki.hyprland.org/Configuring/Using-hyprctl>.
 
-- Print the current Hyprland version:
-
-`hyprctl version`
-
-- Reload Hyprland config:
+- Reload Hyprland configuration:
 
 `hyprctl reload`
 
@@ -27,6 +23,11 @@
 
 `hyprctl dispatch exec {{app}}`
 
-- Set a config keyword dynamically:
+- Set a configuration keyword dynamically:
 
 `hyprctl keyword {{keyword}} {{value}}`
+
+- Print the current Hyprland version:
+
+`hyprctl version`
+
