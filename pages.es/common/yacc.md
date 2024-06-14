@@ -4,7 +4,7 @@
 > Vea también: `bison`.
 > Más información: <https://manned.org/yacc.1p>.
 
-- Crea un fichero `y.tab.c` que contiene el código del analizador en C y compila el fichero de gramática con todas las declaraciones constantes necesarias para los valores. (El fichero de declaraciones constantes `y.tab.h` sólo se crea cuando se utiliza la bandera `-d`):
+- Crea un fichero `y.tab.c` con el código del analizador en C y compila el fichero de gramática con todas las declaraciones constantes necesarias para los valores. El fichero `y.tab.h` con las declaraciones se crea exclusivamente con la opción `-d`:
 
 `yacc -d {{ruta/al/archivo_de_gramática.y}}`
 
