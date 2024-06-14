@@ -27,6 +27,6 @@
 
 `hyprctl keyword {{keyword}} {{value}}`
 
-- Print the current Hyprland version:
+- Display version:
 
 `hyprctl version`
