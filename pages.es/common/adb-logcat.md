@@ -9,7 +9,7 @@
 
 - Muestra las líneas que coincidan con una expresión regular:
 
-`adb logcat -e {{expresion_regular}}`
+`adb logcat -e {{expresión_regular}}`
 
 - Muestra los registros de una etiqueta en un modo específico ([V]erboso, [D]epuración, [I]nformación, [W]arning, [E]rror, [F]atal, [S]ilencioso), filtrando otras etiquetas:
 
