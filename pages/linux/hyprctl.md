@@ -30,4 +30,3 @@
 - Print the current Hyprland version:
 
 `hyprctl version`
-
