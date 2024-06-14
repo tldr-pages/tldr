@@ -1,11 +1,11 @@
 # dd
 
 > Converteer en kopieer een bestand.
-> Meer informatie: <https://manned.org/man/dd.1p>.
+> Meer informatie: <https://manned.org/dd.1p>.
 
-- Maak een opstartbare USB-schijf van een isohybrid-bestand (zoals `archlinux-xxx.iso`):
+- Maak een opstartbare USB-schijf van een isohybrid-bestand (zoals `archlinux-xxx.iso`) en toon de voortgang:
 
-`dd if={{pad/naar/bestand.iso}} of={{/dev/usb_schijf}}`
+`dd if={{pad/naar/bestand.iso}} of={{/dev/usb_schijf}} status=progress`
 
 - Kopieer een schijf naar een andere schijf met een blokgrootte van 4 MiB en schrijf alle gegevens voordat het commando eindigt:
 

@@ -1,11 +1,11 @@
 # dd
 
 > Converte e copia um arquivo.
-> Mais informações: <https://manned.org/man/dd.1p>.
+> Mais informações: <https://manned.org/dd.1p>.
 
-- Cria um USB drive bootável a partir de um arquivo isohybrid (como uma `archlinux-xxx.iso`):
+- Cria um USB drive bootável a partir de um arquivo isohybrid (como uma `archlinux-xxx.iso`) e mostra o progresso:
 
-`dd if={{caminho/para/arquivo.iso}} of={{/dev/usb_drive}}`
+`dd if={{caminho/para/arquivo.iso}} of={{/dev/usb_drive}} status=progress`
 
 - Clona um drive para outro drive com 4 MiB block e ignora erros:
 
