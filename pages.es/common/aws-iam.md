@@ -17,7 +17,7 @@
 
 - Obtén los usuarios en un grupo:
 
-`aws iam get-group --group-name {{nombre_de_grupo}}`
+`aws iam get-group --group-name {{nombre_del_grupo}}`
 
 - Describe una política IAM:
 
