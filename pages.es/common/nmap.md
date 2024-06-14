@@ -32,6 +32,6 @@
 
 `nmap --script "http-*" {{ip_o_host1,ip_o_host2,...}} -p 80,443`
 
-- Intenta evadir los sistemas de detección y prevención de intrusos (o "IDS" e "IPS" en inglés, respectivamente) escaneando extremadamente lento (`-T0`) y usando direcciones de origen de señuelo (`-D`), paquetes [f]ragmentados, datos aleatorios y otros métodos:
+- Intenta evadir los sistemas de detección y prevención de intrusos escaneando extremadamente lento (`-T0`) y usando direcciones de origen de señuelo (`-D`), paquetes [f]ragmentados, datos aleatorios y otros métodos:
 
 `sudo nmap -T0 -D {{ip_de_señuelo1,ip_de_señuelo2,...}} --source-port {{53}} -f --data-length {{16}} -Pn {{ip_o_host}}`
