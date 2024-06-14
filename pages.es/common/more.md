@@ -1,32 +1,33 @@
 # more
 
-> Abre un archivo para lectura interactiva, permitiendo navegar y buscar.
+> Interactivamente muestra el contenido un archivo, permitiendo desplazamiento y búsqueda.
+> Vea también: `less`.
 > Más información: <https://manned.org/more.1p>.
 
 - Abre un archivo:
 
 `more {{ruta/al/archivo}}`
 
-- Abre un archivo mostrando desde una línea específica:
+- Abre un archivo y muestra su contenido desde una línea específica:
 
-`more +{{numero_linea}} {{ruta/al/archivo}}`
+`more +{{número_de_línea}} {{ruta/al/archivo}}`
 
-- Muestra la ayuda:
+- Muestra ayuda:
 
 `more --help`
 
-- Avanza hacia la siguiente página:
+- Avanza a la siguiente página:
 
-`<Space>`
+`<Espacio>`
 
-- Busca una cadena (presione `n` para ir a la siguiente coincidencia):
+- Busca una cadena de caracteres (presione `n` para ir a la siguiente coincidencia):
 
 `/{{cadena}}`
 
-- Salir:
+- Sal del programa:
 
 `q`
 
-- Muestra la ayuda sobre comandos interactivos:
+- Muestra ayuda sobre comandos interactivos:
 
 `h`

@@ -16,9 +16,9 @@
 
 `aria2c --force-sequential {{false}} "{{url1 url2 ...}}"`
 
-- Descarga desde múltiples fuentes con cada URI apuntando al mismo archivo:
+- Descarga el mismo archivo desde diferentes espejos y verifica la suma de comprobación del archivo descargado:
 
-`aria2c "{{url1 url2 ...}}"`
+`aria2c --checksum {{sha-256}}={{suma_de_comprobación}} "{{url1}}" "{{url2}}" "{{urlN}}"`
 
 - Descarga las URI enumeradas en un archivo con un número determinado de descargas paralelas:
 
@@ -28,7 +28,7 @@
 
 `aria2c --split {{numero_de_conexiones}} "{{url}}"`
 
-- Descarga FTP con nombre de usuario y contraseña:
+- Descarga a través de FTP con un nombre de usuario y contraseña:
 
 `aria2c --ftp-user={{nombre_usuario}} --ftp-passwd={{contrasena}} "{{url}}"`
 
