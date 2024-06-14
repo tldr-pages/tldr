@@ -8,7 +8,7 @@
 
 `yacc -d {{ruta/al/archivo_de_gramática.y}}`
 
-- Compila un fichero de gramática que contiene la descripción del analizador sintáctico y un informe de conflictos generados por ambigüedades en la gramática:
+- Compila un fichero de gramática con la descripción del analizador sintáctico y un informe de conflictos generados por ambigüedades en la gramática:
 
 `yacc -d {{ruta/al/archivo_de_gramática.y}} -v`
 
