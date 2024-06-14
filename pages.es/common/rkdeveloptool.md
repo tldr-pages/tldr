@@ -25,6 +25,6 @@
 
 `rkdeveloptool wlx {{nombre_partición}} {{ruta/a/imagen.img}}`
 
-- [r]einicia/repone el [d]ispositivo, sale del modo Maskrom/Bootrom para arrancar en la partición flash seleccionada:
+- [r]einicia/repón el [d]ispositivo, sal del modo Maskrom/Bootrom para arrancar en la partición flash seleccionada:
 
 `rkdeveloptool rd`
