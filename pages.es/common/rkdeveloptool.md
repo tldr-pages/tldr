@@ -9,7 +9,7 @@
 
 `rkdeveloptool ld`
 
-- Inicializa el dispositivo forzándolo a [d]escargar e instalar el [b]ootloader desde el archivo especificado:
+- Inicializa el dispositivo forzándolo a [d]escargar e instalar el gestor de arranque desde un archivo:
 
 `rkdeveloptool db {{ruta/al/bootloader.bin}}`
 
