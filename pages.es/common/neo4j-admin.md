@@ -11,7 +11,7 @@
 
 `neo4j-admin server stop`
 
-- Establece la contraseña inicial del usuario por defecto `neo4j` (requisito para el primer arranque del DBMS):
+- Establece la contraseña inicial del usuario predeterminada `neo4j` (requisito para el primer arranque del DBMS):
 
 `neo4j-admin dbms set-initial-password {{nombre_base_de_datos}}`
 
