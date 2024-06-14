@@ -2,7 +2,7 @@
 
 > Flashea, vacía y gestiona el firmware de arranque en dispositivos informáticos basados en Rockchip.
 > Necesitará encender el dispositivo en modo Maskrom/Bootrom antes de conectarlo a través del USB.
-> Algunos subcomandos pueden requerir ser ejecutados como root.
+> Algunos subcomandos pueden requerir ser ejecutados como el superusuario.
 > Más información: <https://github.com/rockchip-linux/rkdeveloptool>.
 
 - [l]ista todos los [d]ispositivos flash conectados basados en Rockchip:
