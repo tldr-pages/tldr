@@ -11,3 +11,7 @@
 - Pindai dan simpan luaran ([o]utput) ke dalam suatu berkas:
 
 `apkleaks --file {{jalan/menuju/berkas.apk}} --output {{jalan/menuju/berkas_output.txt}}`
+
+- Berikan [a]rgumen perintah tambahan untuk `jadx`:
+
+`apkleaks --file {{jalan/menuju/berkas.apk}} --args "{{--threads-count 5 --deobf}}"`

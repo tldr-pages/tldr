@@ -1,7 +1,7 @@
 # anytopnm
 
 > Ubah format gambar apapun menuju format gambar umum.
-> More information: <https://netpbm.sourceforge.net/doc/anytopnm.html>.
+> Informasi lebih lanjut: <https://netpbm.sourceforge.net/doc/anytopnm.html>.
 
 - Ubah suatu gambar dari format apapun menuju format PBM, PGM, atau PPM:
 
@@ -9,4 +9,4 @@
 
 - Tampilkan informasi versi:
 
-`anytopnm --version`
+`anytopnm -version`
