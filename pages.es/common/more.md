@@ -12,10 +12,6 @@
 
 `more +{{número_de_línea}} {{ruta/al/archivo}}`
 
-- Muestra ayuda:
-
-`more --help`
-
 - Avanza a la siguiente página:
 
 `<Espacio>`
