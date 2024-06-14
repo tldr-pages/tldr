@@ -12,6 +12,6 @@
 
 `yacc -d {{ruta/al/archivo_de_gramática.y}} -v`
 
-- Compila un archivo de gramática, y prefija los nombres de los archivos de salida con un `prefijo` en lugar de `y`:
+- Compila un archivo de gramática, y prefija los nombres de los archivos de salida con un prefijo personalizado en lugar de `y`:
 
 `yacc -d {{ruta/al/archivo_de_gramática.y}} -v -b {{prefijo}}`
