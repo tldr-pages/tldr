@@ -9,4 +9,4 @@
 
 - Abre un túnel SSH para ejecutar cualquier programa de forma remota y visualizalo localmente:
 
-`waypipe ssh {{usuario}}@{servidor}}`
+`waypipe ssh {{usuario}}@{{servidor}}`

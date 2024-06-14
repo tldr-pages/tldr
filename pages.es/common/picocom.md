@@ -9,4 +9,4 @@
 
 - Asigna caracteres especiales (p. ej. `LF` a `CRLF`):
 
-`picocom {{/dev/ttyXYZ}} --imap {{lfcrlf}}}`
+`picocom {{/dev/ttyXYZ}} --imap {{lfcrlf}}`
