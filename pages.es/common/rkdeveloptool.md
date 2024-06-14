@@ -13,7 +13,7 @@
 
 `rkdeveloptool db {{ruta/al/bootloader.bin}}`
 
-- Actualiza el software del boot[l]oader de arranque con uno nuevo:
+- Actualiza un gestor de arranque:
 
 `rkdeveloptool ul {{ruta/al/bootloader.bin}}`
 
