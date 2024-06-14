@@ -22,7 +22,7 @@
 
 - Descarga las URI enumeradas en un archivo con un número determinado de descargas paralelas:
 
-`aria2c --input-file={{ruta/al/archivo}} --max-concurrent-downloads={{numero_de_descargas}}`
+`aria2c --input-file {{ruta/al/archivo}} --max-concurrent-downloads {{numero_de_descargas}}`
 
 - Descarga con varias conexiones:
 
@@ -30,8 +30,8 @@
 
 - Descarga a través de FTP con un nombre de usuario y contraseña:
 
-`aria2c --ftp-user={{nombre_usuario}} --ftp-passwd={{contrasena}} "{{url}}"`
+`aria2c --ftp-user {{nombre_usuario}} --ftp-passwd {{contrasena}} "{{url}}"`
 
 - Limita la velocidad de descarga en bytes por segundo:
 
-`aria2c --max-download-limit={{velocidad}} "{{url}}"`
+`aria2c --max-download-limit {{velocidad}} "{{url}}"`
