@@ -7,6 +7,6 @@
 
 `waypipe ssh {{usuario}}@{{servidor}} {{programa}}`
 
-- Abre un túnel SSH para ejecutar cualquier programa de forma remota y visualizalo localmente:
+- Abre un túnel SSH para ejecutar cualquier programa de forma remota y visualizarlo localmente:
 
 `waypipe ssh {{usuario}}@{{servidor}}`
