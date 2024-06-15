@@ -16,7 +16,7 @@
 
 `vpnd -d`
 
-- Ejecuta el daemon en primer plano, imprime los registros en la terminal y termina después validar los argumentos:
+- Ejecuta el daemon en primer plano, imprime los registros en la terminal y termina después de validar los argumentos:
 
 `vpnd -n`
 
