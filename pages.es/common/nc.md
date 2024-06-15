@@ -1,6 +1,6 @@
 # nc
 
-> Redirije datos de entrada o salida a un flujo de red a través de esta versátil herramienta.
+> Redirige datos de entrada o salida a un flujo de red a través de esta versátil herramienta.
 > Más información: <https://manned.org/man/nc.1>.
 
 - Inicia un escuchador en un puerto TCP y enviale un archivo:
