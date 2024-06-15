@@ -19,7 +19,7 @@
 
 `systemctl {{enable|disable}} {{unidad}}`
 
-- Reincia systemd, lee unidades nuevas o modificadas:
+- Reinicia systemd, lee unidades nuevas o modificadas:
 
 `systemctl daemon-reload`
 
