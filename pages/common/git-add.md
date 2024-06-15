@@ -11,6 +11,10 @@
 
 `git add -A`
 
+- Add all files (It's Add all file in one commend):
+
+`git add .`
+
 - Only add already tracked files:
 
 `git add -u`
