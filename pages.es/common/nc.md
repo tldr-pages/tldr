@@ -27,6 +27,6 @@
 
 `nc -l -p {{puerto_local}} | nc {{host}} {{puerto_remoto}}`
 
-- Send an HTTP GET request:
+- Envía una petición HTTP GET:
 
 `echo -e "GET / HTTP/1.1\nHost: {{host}}\n\n" | nc {{host}} 80`
