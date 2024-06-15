@@ -16,7 +16,7 @@
 
 `sudo nmap -A {{ip_o_nombre_de_host1,ip_o_nombre_de_host2,...}}`
 
-- Escanea una lista de puertos (invoca `nmap` con `-p-` para escanea todos los puertos desde 1 a 65535):
+- Escanea una lista de puertos (invoca `nmap` con `-p-` para escanear todos los puertos desde 1 a 65535):
 
 `nmap -p {{puerto1,puerto2,...}} {{ip_o_host1,ip_o_host2,...}}`
 
