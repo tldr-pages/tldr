@@ -23,7 +23,7 @@
 
 `nc {{host}} {{puerto}} -e {{ejecutable_del_intérprete}}`
 
-- Ejecuta como un proxy y envia información de un puerto TCP local a un host remoto:
+- Ejecuta como un proxy y envía información de un puerto TCP local a un host remoto:
 
 `nc -l -p {{puerto_local}} | nc {{host}} {{puerto_remoto}}`
 
