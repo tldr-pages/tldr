@@ -20,7 +20,7 @@
 
 `frpc verify {{-c|--config}} {{path/to/file}}`
 
-- Print autocompletion setup script for Bash, Fish, PowerShell, or Zsh:
+- Print autocompletion setup script for Bash, fish, PowerShell, or Zsh:
 
 `frpc completion {{bash|fish|powershell|zsh}}`
 
