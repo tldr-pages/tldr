@@ -28,7 +28,7 @@
 
 `nmap --script "default and safe" {{ip_o_host1,ip_o_host2,...}}`
 
-- Escanea servidores web ejecutandose en los puertos estándares 80 y 443 usando todos los guiones `http-*` NSE disponibles:
+- Escanea servidores web ejecutándose en los puertos estándares 80 y 443 usando todos los guiones `http-*` NSE disponibles:
 
 `nmap --script "http-*" {{ip_o_host1,ip_o_host2,...}} -p 80,443`
 
