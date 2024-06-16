@@ -33,4 +33,4 @@
 
 - Pasang pustaka piranti lunak (library) untuk Bridge dan Servo:
 
-`arduino --install-library {{Bridge:1.0.0,Servo:1.2.0}}`
+`arduino --install-library "{{Bridge:1.0.0,Servo:1.2.0}}"`
