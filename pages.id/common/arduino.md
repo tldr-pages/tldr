@@ -13,7 +13,7 @@
 
 - Bangun dan pasang piranti lunak menuju suatu perangkat Arduino Nano dengan prosesor Atmega328p yang terhubung dalam port `/dev/ttyACM0`:
 
-`arduino --board {{arduino:avr:nano:cpu=atmega328p}} --port {{/dev/ttyACM0}} -- upload {{jalan/menuju/berkas.ino}}`
+`arduino --board {{arduino:avr:nano:cpu=atmega328p}} --port {{/dev/ttyACM0}} --upload {{jalan/menuju/berkas.ino}}`
 
 - Atur `nilai` untuk suatu jenis preferensi/konfigurasi berdasarkan `nama` atau kata kunci:
 
