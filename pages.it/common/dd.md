@@ -1,24 +1,24 @@
 # dd
 
 > Converti e copia un file.
-> Maggiori informazioni: <https://manned.org/man/dd.1p>.
+> Maggiori informazioni: <https://manned.org/dd.1p>.
 
 - Crea un disco USB avviabile da un file ISO e mostra il progresso:
 
-`dd if={{file.iso}} of=/dev/{{disco_usb}} status=progress`
+`dd if={{percorso/del/file.iso}} of={{/dev/disco_usb}} status=progress`
 
-- Clona un disco in un altro a blocchi di 4MB, ignora gli errori e mostra il progresso:
+- Clona un disco su un altro disco a blocchi con grandezza di 4 MiB e scarica le scritture prima che il comando termini:
 
-`dd if=/dev/{{disco_sorgente}} of=/dev/{{disco_destinazione}} bs=4M conv=noerror status=progress`
+`dd bs=4194304 conv=fsync if={{/dev/disco_sorgente}} of={{/dev/disco_destinazione}}`
 
-- Genera un file di 100 byte randomici utilizzando il driver random del kernel:
+- Genera un file con un numero specifico di byte randomici utilizzando il driver random del kernel:
 
-`dd if=/dev/urandom of={{file_random}} bs=100 count=1`
+`dd bs={{100}} count={{1}} if=/dev/urandom of={{percorso/del/file_random}}`
 
 - Testa la performance in scrittura di un disco:
 
-`dd if=/dev/zero of={{file_1GB}} bs=1024 count=1000000`
+`dd bs={{1024}} count={{1000000}} if=/dev/zero of={{percorso/del/file_1GB}}`
 
-- Mostra il progresso di un'operazione dd in corso (comando da eseguire in un'altra shell):
+- Crea un backup di sistema, salvalo in un file IMG (può essere ripristinato in seguito scambiando `if` e `of`), e mostra il progresso:
 
-`kill -USR1 $(pgrep -x dd)`
+`dd if={{/dev/disco}} of={{percorso/del/file.img}} status=progress`

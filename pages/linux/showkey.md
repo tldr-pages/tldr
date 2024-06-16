@@ -7,15 +7,15 @@
 
 `sudo showkey`
 
-- Display [s]cancodes in hexadecimal:
+- Display scancodes in hexadecimal:
 
 `sudo showkey {{-s|--scancodes}}`
 
-- Display [k]eycodes in decimal (default):
+- Display keycodes in decimal (default):
 
 `sudo showkey {{-k|--keycodes}}`
 
-- Display keycodes in [a]SCII, decimal, and hexadecimal:
+- Display keycodes in ASCII, decimal, and hexadecimal:
 
 `sudo showkey {{-a|--ascii}}`
 

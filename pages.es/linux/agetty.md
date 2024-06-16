@@ -5,11 +5,11 @@
 > Nota: la tasa de baudios es la velocidad de transferencia de datos entre una terminal y un dispositivo a través de una conexión serie.
 > Más información: <https://manned.org/agetty>.
 
-- Conecta `stdin` a un puerto (relativo a `/dev`) y especifica opcionalmente una tasa de baudios (por predeterminado 9600):
+- Conecta `stdin` a un puerto (relativo a `/dev`) y especifica opcionalmente una tasa de baudios (cuyo valor predeterminado es 9600):
 
 `agetty {{tty}} {{115200}}`
 
-- Asume que `stdin` ya está conectado a una `tty` y establece un [t]iempo de espera para el inicio de sesión:
+- Asume que `stdin` ya está conectado a una `tty` y establece un tiempo de espera para el inicio de sesión:
 
 `agetty {{-t|--timeout}} {{tiempo_de_espera_en_segundos}} -`
 
@@ -25,6 +25,6 @@
 
 `agetty {{-i|--noissue}} -`
 
-- Cambia el directorio [r]aíz y escribe un [H]ost falso en el archivo `utmp`:
+- Cambia el directorio raíz y escribe un host falso en el archivo `utmp`:
 
 `agetty {{-r|--chroot}} {{/ruta/a/raíz_directorio}} {{-H|--host}} {{host_falso}} -`

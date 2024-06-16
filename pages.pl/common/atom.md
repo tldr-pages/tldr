@@ -6,15 +6,15 @@
 
 - Otwórz plik lub katalog:
 
-`atom {{sciezka/do/pliku_lub_katalogu}}`
+`atom {{ścieżka/do/pliku_lub_katalogu}}`
 
-- Otwórz plik lub katalog w nowym oknie:
+- Otwórz plik lub katalog w [n]owym oknie:
 
-`atom -n {{sciezka/do/pliku_lub_katalogu}}`
+`atom -n {{ścieżka/do/pliku_lub_katalogu}}`
 
 - Otwórz plik lub katalog w istniejącym oknie:
 
-`atom --add {{sciezka/do/pliku_lub_katalogu}}`
+`atom --add {{ścieżka/do/pliku_lub_katalogu}}`
 
 - Otwórz Atom w trybie bezpiecznym (nie ładuje żadnych dodatkowych pakietów):
 

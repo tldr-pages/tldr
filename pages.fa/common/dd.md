@@ -1,19 +1,19 @@
 # dd
 
 > تبدیل و کپی یک فایل.
-> اطلاعات بیشتر: <https://manned.org/man/dd.1p>.
+> اطلاعات بیشتر: <https://manned.org/dd.1p>.
 
 - یک حافظه قابل حمل با قابلیت بوت شدن میسازد، برای مثال `archlinux-xxx.iso` :
 
-`dd if={{path/to/file.iso}} of=/dev/{{usb_drive}}`
+`dd if={{path/to/file.iso}} of={{/dev/usb_drive}}`
 
 - محتویات یک درایو را در مکانی دیگر با بلوک های 4 مگابایتی کپی و همچنین از خطاها صرف نظر میکند:
 
-`dd if=/dev/{{source_drive}} of=/dev/{{dest_drive}} bs={{4194304}} conv={{noerror}}`
+`dd bs=4194304 conv=noerror if={{/dev/source_drive}} of={{/dev/dest_drive}}`
 
 - یک فایل ۱۰۰ بایتی تصادفی با استفاده از درایور تصادفی هسته بسازید:
 
-`dd if=/dev/urandom of={{path/to/random_file}} bs={{100}} count={{1}}`
+`dd if=/dev/urandom of={{path/to/random_file}} bs=100 count={{1}}`
 
 - عملکرد نوشتن دیسک را بسنجید:
 

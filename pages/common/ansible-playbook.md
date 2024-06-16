@@ -26,3 +26,7 @@
 - Run tasks in a playbook starting at a specific task:
 
 `ansible-playbook {{playbook}} --start-at {{task_name}}`
+
+- Run tasks in a playbook without making any changes (dry-run):
+
+`ansible-playbook {{playbook}} --check --diff`

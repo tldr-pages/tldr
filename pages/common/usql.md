@@ -15,10 +15,6 @@
 
 `usql --command="{{sql_command}}"`
 
-- List databases available on the server:
-
-`usql --list-databases`
-
 - Run an SQL command in the `usql` prompt:
 
 `{{prompt}}=> {{command}}`
