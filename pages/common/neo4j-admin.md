@@ -1,6 +1,7 @@
 # neo4j-admin
 
 > Manage and administer a Neo4j DBMS (Database Management System).
+> See also: `cypher-shell`, `mysqld`.
 > More information: <https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/>.
 
 - Start the DBMS:
