@@ -17,7 +17,7 @@
 
 - Benchmark de sequentiële schrijfsnelheid van een schijf:
 
-`dd bs={{1M}} count={{1000000}} if=/dev/zero of={{pad/naar/bestand_1GB}}`
+`dd bs={{1M}} count={{1024}} if=/dev/zero of={{pad/naar/bestand_1GB}}`
 
 - Maak een systeemback-up, sla deze op in een IMG bestand (kan later worden hersteld door `if` en `of` om te wisselen) en toon de voortgang:
 

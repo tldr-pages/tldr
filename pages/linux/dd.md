@@ -17,7 +17,7 @@
 
 - Benchmark the write performance of a disk:
 
-`dd bs={{1M}} count={{1000000}} if=/dev/zero of={{path/to/file_1GB}}`
+`dd bs={{1M}} count={{1024}} if=/dev/zero of={{path/to/file_1GB}}`
 
 - Create a system backup, save it into an IMG file (can be restored later by swapping `if` and `of`), and show the progress:
 
