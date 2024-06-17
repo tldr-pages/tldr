@@ -1,7 +1,7 @@
 # arc
 
 > Arcanist: program CLI untuk Phabricator.
-> Informasi lebih lanjut: <https://secure.phabricator.com/book/phabricator/article/arcanist>.
+> Informasi lebih lanjut: <https://secure.phabricator.com/book/phabricator/article/arcanist/>.
 
 - Kirim semua perubahan untuk ditinjau melalui alat Differential:
 
