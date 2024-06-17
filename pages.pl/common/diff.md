@@ -1,7 +1,7 @@
 # diff
 
 > Porównaj pliki i foldery.
-> Więcej informacji: <https://man7.org/linux/man-pages/man1/diff.1.html>.
+> Więcej informacji: <https://manned.org/diff>.
 
 - Porównaj pliki (lista zmian między `stary_plik` a `nowy_plik`):
 
