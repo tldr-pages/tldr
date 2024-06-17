@@ -3,7 +3,7 @@
 > Redirige datos de entrada o salida a un flujo de red a través de esta versátil herramienta.
 > Más información: <https://manned.org/man/nc.1>.
 
-- Inicia un escuchador en un puerto TCP y enviale un archivo:
+- Inicia un escuchador en un puerto TCP y le envía un archivo:
 
 `nc -l -p {{puerto}} < {{nombre_de_archivo}}`
 
