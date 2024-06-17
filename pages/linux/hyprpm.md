@@ -25,7 +25,7 @@
 
 - Force an operation:
 
-`hyprpm {{--force|-f}} {{operation}}`
+`hyprpm {{-f|--force}} {{operation}}`
 
 - List all installed plugins:
 
