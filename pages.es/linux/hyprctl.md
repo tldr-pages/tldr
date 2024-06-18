@@ -7,7 +7,7 @@
 
 `hyprctl reload`
 
-- Devuelve el nombre de la ventana activa:
+- Muestra el nombre de la ventana activa:
 
 `hyprctl activewindow`
 
