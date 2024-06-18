@@ -1,6 +1,6 @@
 # systemctl
 
-> Controla el sistema systemd y el gestor de servicios.
+> Controla el gestor de sistemas y servicios systemd.
 > Más información: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
 
 - Muestra todos los servicios en ejecución:
@@ -11,26 +11,26 @@
 
 `systemctl --failed`
 
-- Inicia/Para/Reinicia/Recarga un servicio:
+- Inicia, para, reinicia, recarga o muestra el estado de una unidad:
 
-`systemctl {{start|stop|restart|reload}} {{unidad}}`
+`systemctl {{start|stop|restart|reload|status}} {{unidad}}`
 
-- Muestra el estado de una unidad:
+- Habilita o deshabilita una unidad para iniciarla al arrancar:
 
-`systemctl status {{unidad}}`
+`systemctl {{enable|disable}} {{unidad}}`
 
-- Habilita/Deshabilita una unidad para que se inicie en el arranque:
-
-`systemctl {{enable/disable}} {{unidad}}`
-
-- Enmascara/Desenmascara una unidad para evitar su habilitación y activación manual:
-
-`systemctl {{mask|unmask}} {{unidad}}`
-
-- Recarga systemd, buscando unidades nuevas o modificadas:
+- Reinicia systemd, lee unidades nuevas o modificadas:
 
 `systemctl daemon-reload`
 
-- Comprueba si una unidad está habilitada:
+- Checa si una unidad está activa, habilitada, o en estado fallido:
 
-`systemctl is-enabled {{unidad}}`
+`systemctl {{is-active|is-enabled|is-failed}} {{unidad}}`
+
+- Lista todos los servicios, sockets, unidades auto-montadas filtradas por estado en ejecución o fallido:
+
+`systemctl list-units --type={{service|socket|automount}} --state={{failed|running}}`
+
+- Muestra los contenidos y la ruta absoluta del archivo de una unidad:
+
+`systemctl cat {{unidad}}`
