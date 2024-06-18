@@ -5,7 +5,7 @@
 
 - Compara archivos (lista los cambios para convertir `archivo_viejo` en `archivo_nuevo`):
 
-`diff {{archivo_antiguo}} {{archivo_nuevo}}`
+`diff {{archivo_viejo}} {{archivo_nuevo}}`
 
 - Compara archivos, ignorando los espacios en blanco:
 
