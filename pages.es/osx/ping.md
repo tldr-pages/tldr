@@ -15,7 +15,7 @@
 
 `ping -i {{segundos}} "{{host}}"`
 
-- Ping a host sin intentar buscar nombres simbólicos para las direcciones:
+- Ping al host sin intentar buscar nombres simbólicos para las direcciones:
 
 `ping -n "{{host}}"`
 
