@@ -11,7 +11,7 @@
 
 `expr substr "{{string}}" {{van}} {{lengte}}`
 
-- Vergelijk Een specifieke substring met een verankerd patroon:
+- Vergelijk een specifieke substring met een verankerd patroon:
 
 `expr match "{{string}}" '{{patroon}}'`
 
