@@ -11,18 +11,18 @@
 
 `ping -c {{aantal}} "{{host}}"`
 
-- Ping host, met een specifiek interval in seconden tussen de verzoeken (standaard is 1 seconde):
+- Ping een host, met een specifiek interval in seconden tussen de verzoeken (standaard is 1 seconde):
 
 `ping -i {{seconden}} "{{host}}"`
 
-- Ping host zonder te proberen symbolische namen voor adressen op te zoeken:
+- Ping een host zonder te proberen symbolische namen voor adressen op te zoeken:
 
 `ping -n "{{host}}"`
 
-- Ping host en laat een bel afgaan wanneer een pakket wordt ontvangen (als je terminal dit ondersteunt):
+- Ping een host en laat een bel afgaan wanneer een pakket wordt ontvangen (als je terminal dit ondersteunt):
 
 `ping -a "{{host}}"`
 
-- Ping host en toon de tijd wanneer een pakket is ontvangen (deze optie is een Apple-toevoeging):
+- Ping een host en toon de tijd wanneer een pakket is ontvangen (deze optie is een Apple-toevoeging):
 
 `ping --apple-time "{{host}}"`
