@@ -15,7 +15,7 @@
 
 `diff {{-y|--side-by-side}} {{archivo_viejo}} {{archivo_nuevo}}`
 
-- Compara archivos, mostrando las diferencias en formato unificado (como el usado por `git diff`):
+- Compara archivos, mostrando las diferencias en formato unificado (como el que usa `git diff`):
 
 `diff {{-u|--unified}} {{archivo_antiguo}} {{archivo_nuevo}}`
 
