@@ -13,7 +13,7 @@
 
 - Compara archivos, mostrando las diferencias lado a lado:
 
-`diff {{-y|--side-by-side}} {{archivo_antiguo}} {{archivo_nuevo}}`
+`diff {{-y|--side-by-side}} {{archivo_viejo}} {{archivo_nuevo}}`
 
 - Compara archivos, mostrando las diferencias en formato unificado (como el usado por `git diff`):
 
