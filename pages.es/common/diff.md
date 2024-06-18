@@ -33,4 +33,4 @@
 
 - Compara archivos, mostrando la salida en color y se esfuerza por encontrar el conjunto más pequeño de cambios:
 
-`diff {{-d|--minimal}} --color=always {{archivo_antiguo}} {{archivo_nuevo}}`
+`diff {{-d|--minimal}} --color=always {{archivo_viejo}} {{archivo_nuevo}}`
