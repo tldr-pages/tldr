@@ -29,7 +29,7 @@
 
 - Pasang piranti pendukung pengembangan untuk perangkat Arduino berbasis SAM (seperti Arduino Due):
 
-`arduino --install-boards {{arduino:sam}}`
+`arduino --install-boards "{{arduino:sam}}"`
 
 - Pasang pustaka piranti lunak (library) untuk Bridge dan Servo:
 
