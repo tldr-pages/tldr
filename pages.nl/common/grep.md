@@ -21,7 +21,7 @@
 
 - Print 3 regels context rondom, voor of na elke overeenkomst:
 
-`grep --{{context|before-context|after-context}} {{3}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`grep {{--context|before-context|after-context}} {{3}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
 - Print bestandsnaam en regelnummers voor elke overeenkomst met kleuruitvoer:
 
