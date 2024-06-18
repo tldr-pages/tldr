@@ -25,4 +25,4 @@
 
 - Utwórz archiwum o rozmiarze bloku 8 MB:
 
-`yaa archive -b {{8m}} -d {{ścieżka/do/folderu}} -o {{ścieżka/do/pliku_wyjścia.yaa}}`
+`yaa archive -b 8m -d {{ścieżka/do/folderu}} -o {{ścieżka/do/pliku_wyjścia.yaa}}`
