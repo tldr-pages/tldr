@@ -7,7 +7,7 @@
 
 `uptime`
 
-Toon alleen de tijd dat het systeem is opgestart:
+- Toon alleen de tijd dat het systeem is opgestart:
 
 `uptime --pretty`
 
