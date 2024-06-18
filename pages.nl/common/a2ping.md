@@ -3,7 +3,7 @@
 > Converteer afbeeldingen in EPS- of PDF-bestanden.
 > Meer informatie: <https://manned.org/a2ping>.
 
-- Converteer een afbeelding naar PDF (Opmerking: het opgeven van een uitvoerbestandsnaam is optioneel):
+- Converteer een afbeelding naar PDF (Let op: het opgeven van een uitvoerbestandsnaam is optioneel):
 
 `a2ping {{pad/naar/afbeelding.ext}} {{pad/naar/uitvoer.pdf}}`
 
@@ -11,11 +11,11 @@
 
 `a2ping --nocompress {{none|zip|best|flate}} {{pad/naar/bestand}}`
 
-- Scan HiResBoundingBox indien aanwezig (Opmerking: de standaard is yes):
+- Scan HiResBoundingBox indien aanwezig (Let op: de standaard is yes):
 
 `a2ping --nohires {{pad/naar/bestand}}`
 
-- Sta pagina-inhoud onder en links van de oorsprong toe (Opmerking: de standaard is no):
+- Sta pagina-inhoud onder en links van de oorsprong toe (Let op: de standaard is no):
 
 `a2ping --below {{pad/naar/bestand}}`
 
