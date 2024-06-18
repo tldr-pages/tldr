@@ -1,37 +1,37 @@
 # kill
 
-> Sends a signal to a process, usually related to stopping the process.
-> All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit.
+> Stuurt een signaal naar een proces, meestal om het proces te stoppen.
+> Alle signalen behalve SIGKILL en SIGSTOP kunnen door het proces worden onderschept om een nette afsluiting uit te voeren.
 > Meer informatie: <https://manned.org/kill>.
 
-- Terminate a program using the default SIGTERM (terminate) signal:
+- Beëindig een programma met behulp van het standaard SIGTERM (terminate) signaal:
 
-`kill {{process_id}}`
+`kill {{proces_id}}`
 
-- List signal values and their corresponding names (to be used without the `SIG` prefix):
+- Lijst signaalwaarden en hun overeenkomstige namen op (te gebruiken zonder het `SIG` voorvoegsel):
 
 `kill {{-L|--table}}`
 
-- Terminate a background job:
+- Beëindig een achtergrondtaak:
 
-`kill %{{job_id}}`
+`kill %{{taak_id}}`
 
-- Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating:
+- Beëindig een programma met behulp van het SIGHUP (hang up) signaal. Veel daemons zullen herladen in plaats van beëindigen:
 
-`kill -{{1|HUP}} {{process_id}}`
+`kill -{{1|HUP}} {{proces_id}}`
 
-- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `Ctrl + C`:
+- Beëindig een programma met behulp van het SIGINT (interrupt) signaal. Dit wordt meestal geïnitieerd door de gebruiker die `Ctrl + C` indrukt:
 
-`kill -{{2|INT}} {{process_id}}`
+`kill -{{2|INT}} {{proces_id}}`
 
-- Signal the operating system to immediately terminate a program (which gets no chance to capture the signal):
+- Signaleer het besturingssysteem om een programma onmiddellijk te beëindigen (het programma krijgt geen kans om het signaal te onderscheppen):
 
-`kill -{{9|KILL}} {{process_id}}`
+`kill -{{9|KILL}} {{proces_id}}`
 
-- Signal the operating system to pause a program until a SIGCONT ("continue") signal is received:
+- Signaleer het besturingssysteem om een programma te pauzeren totdat een SIGCONT ("continue") signaal wordt ontvangen:
 
-`kill -{{17|STOP}} {{process_id}}`
+`kill -{{17|STOP}} {{proces_id}}`
 
-- Send a `SIGUSR1` signal to all processes with the given GID (group id):
+- Stuur een `SIGUSR1` signaal naar alle processen met de gegeven GID (groeps-ID):
 
-`kill -{{SIGUSR1}} -{{group_id}}`
+`kill -{{SIGUSR1}} -{{groep_id}}`
