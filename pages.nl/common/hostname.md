@@ -19,6 +19,6 @@
 
 `hostname --fqdn`
 
-- Stel de huidige hostnaam in:
+- Stel een nieuwe hostnaam in:
 
 `hostname {{nieuwe_hostnaam}}`
