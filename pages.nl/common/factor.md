@@ -1,9 +1,9 @@
 # factor
 
-> Print de priemfactorisatie van een getal.
+> Toon de priemfactor van een getal.
 > Meer informatie: <https://www.gnu.org/software/coreutils/factor>.
 
-- Toon de priemfactorisatie van een getal:
+- Toon de priemfactor van een getal:
 
 `factor {{nummer}}`
 
