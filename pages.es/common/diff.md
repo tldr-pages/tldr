@@ -17,7 +17,7 @@
 
 - Compara archivos, mostrando las diferencias en formato unificado (como el que usa `git diff`):
 
-`diff {{-u|--unified}} {{archivo_antiguo}} {{archivo_nuevo}}`
+`diff {{-u|--unified}} {{archivo_viejo}} {{archivo_nuevo}}`
 
 - Compara directorios de forma recursiva (muestra los nombres de los archivos/directorios que difieren, así como los cambios realizados en los archivos):
 
