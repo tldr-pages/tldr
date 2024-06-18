@@ -18,11 +18,11 @@
 
 - 현재 디렉토리에 새 이진 또는 라이브러리 Rust 프로젝트 생성:
 
-`cargo init --{{bin|lib}}`
+`cargo init {{--bin|lib}}`
 
 - 지정된 디렉토리에 새 이진 또는 라이브러리 Rust 프로젝트 생성:
 
-`cargo new {{경로/디렉토리}} --{{bin|lib}}`
+`cargo new {{경로/디렉토리}} {{--bin|lib}}`
 
 - 현재 디렉토리에 Rust 프로젝트 구축:
 

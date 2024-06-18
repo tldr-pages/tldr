@@ -25,4 +25,4 @@
 
 - Search files owned by a specific user/group:
 
-`mate-search-tool --start --{{user|group}}={{value}} --path={{path/to/directory}}`
+`mate-search-tool --start {{--user|group}}={{value}} --path={{path/to/directory}}`

@@ -18,4 +18,4 @@
 
 - Wait until a condition of the resource group is met:
 
-`az group wait --name {{name}} --{{created|deleted|exists|updated}}`
+`az group wait --name {{name}} {{--created|deleted|exists|updated}}`

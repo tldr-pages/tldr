@@ -18,4 +18,4 @@
 
 - Coloca un grupo de recursos en estado de espera hasta que se cumpla una condición:
 
-`az group wait --name {{nombre}} --{{created|deleted|exists|updated}}`
+`az group wait --name {{nombre}} {{--created|deleted|exists|updated}}`

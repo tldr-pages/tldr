@@ -22,7 +22,7 @@
 
 - Toon 3 regels met context rond, voor of na elke overeenkomst:
 
-`xzgrep --{{context|before-context|after-context}}={{3}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`xzgrep {{--context|before-context|after-context}}={{3}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
 - Toon bestandsnaam en regelnummer voor elke overeenkomst met kleuren:
 

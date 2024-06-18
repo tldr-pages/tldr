@@ -25,7 +25,7 @@
 
 - Adiciona uma dependência de desenvolvimento ou de compilação:
 
-`cargo add {{dependência}} --{{dev|build}}`
+`cargo add {{dependência}} {{--dev|build}}`
 
 - Adiciona uma dependência com todas as funcionalidades padrão desabilitadas:
 

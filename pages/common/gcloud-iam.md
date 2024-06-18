@@ -10,7 +10,7 @@
 
 - Create a custom role for a organization or project:
 
-`gcloud iam roles create {{role_name}} --{{organization|project}} {{organization|project_id}} --file {{path/to/role.yaml}}`
+`gcloud iam roles create {{role_name}} {{--organization|project}} {{organization|project_id}} --file {{path/to/role.yaml}}`
 
 - Create a service account for a project:
 

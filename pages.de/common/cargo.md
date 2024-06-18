@@ -18,11 +18,11 @@
 
 - Erzeuge ein neues Rust-Projekt als Anwendung oder Bibliothek im aktuellen Verzeichnis:
 
-`cargo init --{{bin|lib}}`
+`cargo init {{--bin|lib}}`
 
 - Erzeuge ein neues Rust-Projekt als Anwendung oder Bibliothek im angegebenen Verzeichnis:
 
-`cargo new {{pfad/zu/verzeichnis}} --{{bin|lib}}`
+`cargo new {{pfad/zu/verzeichnis}} {{--bin|lib}}`
 
 - Erstelle (bzw. kompiliere) ein Rust-Projekt im aktuellen Verzeichnis:
 

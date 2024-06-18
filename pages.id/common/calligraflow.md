@@ -14,4 +14,4 @@
 
 - Tampilkan informasi bantuan atau versi aplikasi:
 
-`calligraflow --{{help|version}}`
+`calligraflow {{--help|version}}`

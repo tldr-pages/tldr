@@ -13,7 +13,7 @@
 
 - 从 Git 仓库安装时，根据指定的 branch/tag/commit 构建：
 
-`cargo install --git {{仓库URL}} --{{branch|tag|rev}} {{branch_name|tag|commit_hash}}`
+`cargo install --git {{仓库URL}} {{--branch|tag|rev}} {{branch_name|tag|commit_hash}}`
 
 - 列出所有已安装的包及其版本：
 

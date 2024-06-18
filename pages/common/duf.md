@@ -21,7 +21,7 @@
 
 - Show or hide specific filesystems:
 
-`duf --{{only-fs|hide-fs}} {{tmpfs|vfat|ext4|xfs}}`
+`duf {{--only-fs|hide-fs}} {{tmpfs|vfat|ext4|xfs}}`
 
 - Sort the output by key:
 

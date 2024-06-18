@@ -22,7 +22,7 @@
 
 - Skip forwards ([fwd]) or backwards ([rew]) in the playlist:
 
-`audacious --{{fwd|rew}}`
+`audacious {{--fwd|rew}}`
 
 - Stop playback:
 

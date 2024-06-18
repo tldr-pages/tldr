@@ -21,4 +21,4 @@
 
 - Print the code metrics report in HTML or JSON format:
 
-`mh_metric --{{html|json}} {{path/to/output_file}}`
+`mh_metric {{--html|json}} {{path/to/output_file}}`

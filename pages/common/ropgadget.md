@@ -13,7 +13,7 @@
 
 - List gadgets in the binary file, excluding specified type:
 
-`ROPgadget --binary {{path/to/binary}} --{{norop|nojob|nosys}}`
+`ROPgadget --binary {{path/to/binary}} {{--norop|nojob|nosys}}`
 
 - Exclude bad byte gadgets in the binary file:
 

@@ -14,8 +14,8 @@
 
 - List information about virtual machines with autostart either enabled or disabled:
 
-`virsh list --all --{{autostart|no-autostart}}`
+`virsh list --all {{--autostart|no-autostart}}`
 
 - List information about virtual machines either with or without snapshots:
 
-`virsh list --all --{{with-snapshot|without-snapshot}}`
+`virsh list --all {{--with-snapshot|without-snapshot}}`

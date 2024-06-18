@@ -17,4 +17,4 @@
 
 - Output only legal/illegal/corrected pixels, set other pixels to black:
 
-`ppmntsc --{{legalonly|illegalonly|correctedonly}} {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`
+`ppmntsc {{--legalonly|illegalonly|correctedonly}} {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`

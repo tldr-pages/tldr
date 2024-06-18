@@ -14,4 +14,4 @@
 
 - Display help or version:
 
-`calligrastage --{{help|version}}`
+`calligrastage {{--help|version}}`

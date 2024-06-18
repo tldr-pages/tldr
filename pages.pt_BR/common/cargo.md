@@ -18,7 +18,7 @@
 
 - Cria um novo binário ou projeyo Rust de biblioteca no diretório especificado (ou o diretório atual por padrão):
 
-`cargo init --{{bin|lib}} {{caminho/para/diretório}}`
+`cargo init {{--bin|lib}} {{caminho/para/diretório}}`
 
 - Adiciona uma dependência ao Cargo.toml no diretório atual:
 

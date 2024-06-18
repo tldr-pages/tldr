@@ -22,7 +22,7 @@
 
 - Skip to the next or previous track:
 
-`clementine --{{next|previous}}`
+`clementine {{--next|previous}}`
 
 - Create a new playlist with one or more music files or URLs:
 

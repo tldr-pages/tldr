@@ -29,7 +29,7 @@
 
 - Print 3 lines of context around, before or after each match:
 
-`codespell --{{context|before-context|after-context}} {{3}}`
+`codespell {{--context|before-context|after-context}} {{3}}`
 
 - Check file names for typos, in addition to file contents:
 

@@ -14,4 +14,4 @@
 
 - Display help or version:
 
-`calligraflow --{{help|version}}`
+`calligraflow {{--help|version}}`

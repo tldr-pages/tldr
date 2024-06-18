@@ -13,7 +13,7 @@
 
 - Display data in a machine-readable format:
 
-`peludna-prognoza "{{city}}" --{{json|xml}}`
+`peludna-prognoza "{{city}}" {{--json|xml}}`
 
 - Display the pollen measurement page for a city at <https://plivazdravlje.hr> in the default web browser:
 

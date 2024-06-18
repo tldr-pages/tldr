@@ -9,7 +9,7 @@
 
 - 移除开发或构建依赖项：
 
-`cargo remove --{{dev|build}} {{依赖项}}`
+`cargo remove {{--dev|build}} {{依赖项}}`
 
 - 移除给定目标平台的依赖项：
 

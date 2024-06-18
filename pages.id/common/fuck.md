@@ -13,4 +13,4 @@
 
 - Langsung memilih pilihan pertama (argumen yang benar tergantung dari tingkat kejengkelan):
 
-`fuck --{{yes|yeah|hard}}`
+`fuck {{--yes|yeah|hard}}`

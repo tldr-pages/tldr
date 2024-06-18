@@ -9,7 +9,7 @@
 
 - Print the lines where a specific column is [eq]ual/[n]on [e]qual/[l]ess [t]han/[l]ess than or [e]qual/[g]reater [t]han/[g]reater than or [e]qual to a given number:
 
-`tsv-filter --{{eq|ne|lt|le|gt|ge}} {{column_number}}:{{number}} {{path/to/tsv_file}}`
+`tsv-filter {{--eq|ne|lt|le|gt|ge}} {{column_number}}:{{number}} {{path/to/tsv_file}}`
 
 - Print the lines where a specific column is [eq]ual/[n]ot [e]qual/part of/not part of a given string:
 

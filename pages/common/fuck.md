@@ -13,4 +13,4 @@
 
 - Confirm the first choice immediately (correct argument depends on level of annoyance):
 
-`fuck --{{yes|yeah|hard}}`
+`fuck {{--yes|yeah|hard}}`

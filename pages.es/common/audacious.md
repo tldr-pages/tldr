@@ -17,7 +17,7 @@
 
 - Avanza o retrocede en la lista de reproducción:
 
-`audacious --{{fwd|rew}}`
+`audacious {{--fwd|rew}}`
 
 - Detiene la reproducción:
 

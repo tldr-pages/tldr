@@ -13,7 +13,7 @@
 
 - Export in OVF (0.9|1.0|2.0) format:
 
-`VBoxManage export --{{ovf09|ovf10|ovf20}}`
+`VBoxManage export {{--ovf09|ovf10|ovf20}}`
 
 - Create manifest of the exported files:
 

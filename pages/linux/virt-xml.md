@@ -6,7 +6,7 @@
 
 - List all the suboptions for a specific option:
 
-`virt-xml --{{option}}=?`
+`virt-xml {{--option}}=?`
 
 - List all the suboptions for disk, network, and boot:
 
@@ -14,7 +14,7 @@
 
 - Edit a value for a specific domain:
 
-`virt-xml {{domain}} --edit --{{option}} {{suboption}}={{new_value}}`
+`virt-xml {{domain}} --edit {{--option}} {{suboption}}={{new_value}}`
 
 - Change the description for a specific domain:
 

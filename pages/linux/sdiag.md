@@ -13,7 +13,7 @@
 
 - Specify the output format:
 
-`sdiag --all --{{json|yaml}}`
+`sdiag --all {{--json|yaml}}`
 
 - Specify the cluster to send commands to:
 

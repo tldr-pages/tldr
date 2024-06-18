@@ -5,4 +5,4 @@
 
 - Run `auto-cpufreq` in a specific mode:
 
-`sudo auto-cpufreq --{{monitor|live|update|remove|stats|force=governor}}`
+`sudo auto-cpufreq {{--monitor|live|update|remove|stats|force=governor}}`

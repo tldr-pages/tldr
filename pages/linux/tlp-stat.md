@@ -10,11 +10,11 @@
 
 - Show information about various devices:
 
-`sudo tlp-stat --{{battery|disk|processor|graphics|pcie|rfkill|usb}}`
+`sudo tlp-stat {{--battery|disk|processor|graphics|pcie|rfkill|usb}}`
 
 - Show verbose information about devices that support verbosity:
 
-`sudo tlp-stat --verbose --{{battery|processor|pcie|usb}}`
+`sudo tlp-stat --verbose {{--battery|processor|pcie|usb}}`
 
 - Show configuration:
 

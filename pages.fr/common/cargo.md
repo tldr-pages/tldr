@@ -18,7 +18,7 @@
 
 - Crée un nouveau binaire ou librairie du projet Rust dans les dossiers spécifiés (ou dans le dossier courant par défaut) :
 
-`cargo init --{{bin|lib}} {{chemin/vers/dossier}}`
+`cargo init {{--bin|lib}} {{chemin/vers/dossier}}`
 
 - Compile le projet Rust dans le dossier courant en utilisant le profil release :
 

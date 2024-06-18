@@ -21,7 +21,7 @@
 
 - Install/uninstall a specific extension:
 
-`code --{{install|uninstall}}-extension {{publisher.extension}}`
+`code {{--install|uninstall}}-extension {{publisher.extension}}`
 
 - Print installed extensions:
 

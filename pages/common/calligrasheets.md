@@ -14,4 +14,4 @@
 
 - Display help or version:
 
-`calligrasheets --{{help|version}}`
+`calligrasheets {{--help|version}}`

@@ -6,7 +6,7 @@
 
 - Voeg een URL toe aan of verwijder deze uit de aankondigingslijst van een torrent:
 
-`transmission-edit --{{add|delete}} {{http://example.com}} {{pad/naar/bestand.torrent}}`
+`transmission-edit {{--add|delete}} {{http://example.com}} {{pad/naar/bestand.torrent}}`
 
 - Werk de toegangscode van een tracker bij in een torrentbestand:
 

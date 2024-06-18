@@ -14,4 +14,4 @@
 
 - Tampilkan informasi bantuan atau versi aplikasi:
 
-`calligrawords --{{help|version}}`
+`calligrawords {{--help|version}}`

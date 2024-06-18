@@ -5,7 +5,7 @@
 
 - Schneide bestimmte Zeichen oder einen Bereich von Feldern jeder Zeile aus:
 
-`{{befehl}} | cut --{{characters|fields}} {{1|1,10|1-10|1-|-10}}`
+`{{befehl}} | cut {{--characters|fields}} {{1|1,10|1-10|1-|-10}}`
 
 - Schneide einen bestimmten Bereich von Feldern jeder Zeile mit einem bestimmten Trennzeichen aus:
 

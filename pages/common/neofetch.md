@@ -9,7 +9,7 @@
 
 - Trigger an info line from appearing in the output, where 'infoname' is the function name in the configuration file, e.g. memory:
 
-`neofetch --{{enable|disable}} {{infoname}}`
+`neofetch {{--enable|disable}} {{infoname}}`
 
 - Hide/Show OS architecture:
 

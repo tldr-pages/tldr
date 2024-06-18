@@ -21,7 +21,7 @@
 
 - Installiere oder lösche bestimmte Erweiterung:
 
-`code --{{install|uninstall}}-extension {{herausgeber.erweiterung}}`
+`code {{--install|uninstall}}-extension {{herausgeber.erweiterung}}`
 
 - Liste alle installierten Erweiterungen auf:
 

@@ -21,7 +21,7 @@
 
 - 특정 확장 프로그램 설치/삭제:
 
-`code --{{install|uninstall}}-extension {{publisher.extension}}`
+`code {{--install|uninstall}}-extension {{publisher.extension}}`
 
 - 설치된 확장 프로그램 나열:
 

@@ -18,7 +18,7 @@
 
 - Create a new binary or library Rust project in the specified directory (or the current working directory by default):
 
-`cargo init --{{bin|lib}} {{path/to/directory}}`
+`cargo init {{--bin|lib}} {{path/to/directory}}`
 
 - Add a dependency to `Cargo.toml` in the current directory:
 

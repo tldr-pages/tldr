@@ -21,4 +21,4 @@
 
 - Set the scheduling policy of a process:
 
-`chrt --{{deadline|idle|batch|rr|fifo|other}} --pid {{priority}} {{PID}}`
+`chrt {{--deadline|idle|batch|rr|fifo|other}} --pid {{priority}} {{PID}}`

@@ -9,7 +9,7 @@
 
 - Attiva o disattiva la visualizzazione di una riga di informazioni nell'output, dove 'infoname' è il nome della funzione nel config, e.g. 'memory':
 
-`neofetch --{{enable|disable}} {{infoname}}`
+`neofetch {{--enable|disable}} {{infoname}}`
 
 - Nascondi/mostri l'architettura del OS:
 

@@ -17,7 +17,7 @@
 
 - 재생 목록에서 앞으로 또는 뒤로 건너뛰기:
 
-`audacious --{{fwd|rew}}`
+`audacious {{--fwd|rew}}`
 
 - 재생 중지:
 

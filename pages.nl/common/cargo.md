@@ -18,7 +18,7 @@
 
 - Maak een nieuwe Rust-binary (bin) of -bibliotheek (lib) in de gegeven map. (Standaard is de huidige map):
 
-`cargo init --{{bin|lib}} {{pad/naar/map}}`
+`cargo init {{--bin|lib}} {{pad/naar/map}}`
 
 - Voeg een afhankelijkheid toe aan `Cargo.toml` in de huidge map:
 

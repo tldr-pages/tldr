@@ -14,8 +14,8 @@
 
 - 자동 시작이 활성화되거나 비활성화된 가상 머신에 대한 정보 나열:
 
-`virsh list --all --{{autostart|no-autostart}}`
+`virsh list --all {{--autostart|no-autostart}}`
 
 - 스냅샷 유무에 관계없이 가상 머신에 대한 정보 나열:
 
-`virsh list --all --{{with-snapshot|without-snapshot}}`
+`virsh list --all {{--with-snapshot|without-snapshot}}`

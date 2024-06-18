@@ -18,7 +18,7 @@
 
 - 在指定目录 （或默认情况下在当前工作目录) 中创建一个新的二进制或库 Rust项目：
 
-`cargo init --{{bin|lib}} {{path/to/directory}}`
+`cargo init {{--bin|lib}} {{path/to/directory}}`
 
 - 向当前目录的 `Cargo.toml` 添加一个依赖：
 

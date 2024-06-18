@@ -13,7 +13,7 @@
 
 - Build from the specified branch/tag/commit when installing from a Git repository:
 
-`cargo install --git {{repo_url}} --{{branch|tag|rev}} {{branch_name|tag|commit_hash}}`
+`cargo install --git {{repo_url}} {{--branch|tag|rev}} {{branch_name|tag|commit_hash}}`
 
 - List all installed packages and their versions:
 

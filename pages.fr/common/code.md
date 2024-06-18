@@ -21,7 +21,7 @@
 
 - Installe/désinstalle une extension spécifique :
 
-`code --{{install|uninstall}}-extension {{éditeur.extension}}`
+`code {{--install|uninstall}}-extension {{éditeur.extension}}`
 
 - Affiche les extensions installées :
 

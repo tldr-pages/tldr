@@ -10,7 +10,7 @@
 
 - 활성 및 비활성 또는 비활성 스토리지 풀에 대한 정보 나열:
 
-`virsh pool-list --{{all|inactive}}`
+`virsh pool-list {{--all|inactive}}`
 
 - 활성 스토리지 풀의 지속성, 용량, 할당 및 사용 가능한 공간에 대한 확장 정보 나열:
 
@@ -18,11 +18,11 @@
 
 - 자동 시작이 활성화되거나 비활성화된 활성 스토리지 풀에 대한 정보 나열:
 
-`virsh pool-list --{{autostart|no-autostart}}`
+`virsh pool-list {{--autostart|no-autostart}}`
 
 - 지속적이거나 일시적인 활성 스토리지 풀에 대한 정보 나열:
 
-`virsh pool-list --{{persistent|transient}}`
+`virsh pool-list {{--persistent|transient}}`
 
 - 활성 스토리지 풀의 이름 및 UUID 나열:
 

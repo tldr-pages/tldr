@@ -5,7 +5,7 @@
 
 - Toon een specifiek karakter/veldbereik voor iedere regel:
 
-`{{commando}} | cut --{{characters|fields}} {{1|1,10|1-10|1-|-10}}`
+`{{commando}} | cut {{--characters|fields}} {{1|1,10|1-10|1-|-10}}`
 
 - Toon een bereik voor iedere regel met een specifieke scheiding:
 

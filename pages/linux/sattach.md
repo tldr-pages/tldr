@@ -13,4 +13,4 @@
 
 - Only redirect `stdin`/`stderr` of the specified task:
 
-`sattach --{{output|error}}-filter {{task_number}}`
+`sattach {{--output|error}}-filter {{task_number}}`

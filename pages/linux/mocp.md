@@ -29,7 +29,7 @@
 
 - Play or stop the currently queued song while MOC is in the background:
 
-`mocp --{{play|stop}}`
+`mocp {{--play|stop}}`
 
 - Stop the MOC server while it's in the background:
 

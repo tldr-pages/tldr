@@ -9,7 +9,7 @@
 
 - Remove a development or build dependency:
 
-`cargo remove --{{dev|build}} {{dependency}}`
+`cargo remove {{--dev|build}} {{dependency}}`
 
 - Remove a dependency of the given target platform:
 

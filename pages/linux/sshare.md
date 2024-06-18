@@ -9,7 +9,7 @@
 
 - Control the output format:
 
-`sshare --{{parsable|parsable2|json|yaml}}`
+`sshare {{--parsable|parsable2|json|yaml}}`
 
 - Control the fields to display:
 

@@ -29,4 +29,4 @@
 
 - Search for Bash-it aliases/plugins/completions and enable/disable all found items:
 
-`bash-it search --{{enable|disable}} {{alias|plugin|completion}}`
+`bash-it search {{--enable|disable}} {{alias|plugin|completion}}`

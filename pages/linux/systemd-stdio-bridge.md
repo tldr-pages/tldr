@@ -10,7 +10,7 @@
 
 - Forward `stdin`/`stdout` to a specific user's D-Bus:
 
-`systemd-stdio-bridge --{{user}}`
+`systemd-stdio-bridge {{--user}}`
 
 - Forward `stdin`/`stdout` to the local system bus within a specific container:
 

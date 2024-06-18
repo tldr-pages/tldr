@@ -10,7 +10,7 @@
 
 - List information for active and inactive or just inactive storage pools:
 
-`virsh pool-list --{{all|inactive}}`
+`virsh pool-list {{--all|inactive}}`
 
 - List extended information about persistence, capacity, allocation, and available space for active storage pools:
 
@@ -18,11 +18,11 @@
 
 - List information for active storage pools with either autostart enabled or disabled:
 
-`virsh pool-list --{{autostart|no-autostart}}`
+`virsh pool-list {{--autostart|no-autostart}}`
 
 - List information for active storage pools that are either persistent or transient:
 
-`virsh pool-list --{{persistent|transient}}`
+`virsh pool-list {{--persistent|transient}}`
 
 - List the name and UUID of active storage pools:
 

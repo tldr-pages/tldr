@@ -21,7 +21,7 @@
 
 - 显示或隐藏指定文件系统：
 
-`duf --{{only-fs|hide-fs}} {{tmpfs|vfat|ext4|xfs}}`
+`duf {{--only-fs|hide-fs}} {{tmpfs|vfat|ext4|xfs}}`
 
 - 根据键排序输出：
 

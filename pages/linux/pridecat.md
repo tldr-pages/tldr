@@ -9,7 +9,7 @@
 
 - Print contents of a file in trans colors:
 
-`pridecat {{path/to/file}} --{{transgender|trans}}`
+`pridecat {{path/to/file}} {{--transgender|trans}}`
 
 - Alternate between lesbian and bisexual pride flags:
 
@@ -21,4 +21,4 @@
 
 - List directory contents in pride flag colors:
 
-`ls | pridecat --{{flag}}`
+`ls | pridecat {{--flag}}`

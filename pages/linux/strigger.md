@@ -6,7 +6,7 @@
 
 - Register a new trigger. Execute the specified program when the specified event occurs:
 
-`strigger --set --{{primary_database_failure|primary_slurmdbd_failure|primary_slurmctld_acct_buffer_full|primary_slurmctld_failure|...}} --program={{path/to/executable}}`
+`strigger --set {{--primary_database_failure|primary_slurmdbd_failure|primary_slurmctld_acct_buffer_full|primary_slurmctld_failure|...}} --program={{path/to/executable}}`
 
 - Execute the specified program when the specified job terminated:
 

@@ -14,4 +14,4 @@
 
 - Tampilkan informasi bantuan atau versi aplikasi:
 
-`calligrastage --{{help|version}}`
+`calligrastage {{--help|version}}`

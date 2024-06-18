@@ -25,7 +25,7 @@
 
 - Add a development or build dependency:
 
-`cargo add {{dependency}} --{{dev|build}}`
+`cargo add {{dependency}} {{--dev|build}}`
 
 - Add a dependency with all default features disabled:
 

@@ -5,7 +5,7 @@
 
 - Print a specific [c]haracter/[f]ield range of each line:
 
-`{{command}} | cut --{{characters|fields}} {{1|1,10|1-10|1-|-10}}`
+`{{command}} | cut {{--characters|fields}} {{1|1,10|1-10|1-|-10}}`
 
 - Print a [f]ield range of each line with a specific [d]elimiter:
 

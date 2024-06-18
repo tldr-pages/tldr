@@ -19,11 +19,11 @@
 
 - Crea un nuovo progetto Rust binario o di libreria nella directory corrente:
 
-`cargo init --{{bin|lib}}`
+`cargo init {{--bin|lib}}`
 
 - Crea un nuovo progetto Rust binario o di libreria nella directory specificata:
 
-`cargo new {{percorso/della/directory}} --{{bin|lib}}`
+`cargo new {{percorso/della/directory}} {{--bin|lib}}`
 
 - Builda il progetto Rust nella directory corrente:
 

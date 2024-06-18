@@ -17,7 +17,7 @@
 
 - Include a specific frontend:
 
-`lambo new --{{vue|bootstrap|react}} {{app_name}}`
+`lambo new {{--vue|bootstrap|react}} {{app_name}}`
 
 - Install npm dependencies after the project has been created:
 

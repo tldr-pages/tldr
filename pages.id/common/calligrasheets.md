@@ -14,4 +14,4 @@
 
 - Tampilkan informasi bantuan atau versi aplikasi:
 
-`calligrasheets --{{help|version}}`
+`calligrasheets {{--help|version}}`

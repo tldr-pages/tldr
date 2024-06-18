@@ -9,7 +9,7 @@
 
 - Habilita/Desabilita uma linha de informação da saída, onde 'infoname' é o nome da função no arquivo de configuração, por exemplo, 'memory':
 
-`neofetch --{{enable|disable}} {{infoname}}`
+`neofetch {{--enable|disable}} {{infoname}}`
 
 - Oculta/Mostra arquitetura do SO:
 
