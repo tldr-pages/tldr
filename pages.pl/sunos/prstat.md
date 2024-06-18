@@ -21,4 +21,4 @@
 
 - Wypisz 5 najbardziej obciążających procesor procesów co sekundę:
 
-`prstat -c -n {{5}} -s cpu {{1}}`
+`prstat -c -n 5 -s cpu 1`
