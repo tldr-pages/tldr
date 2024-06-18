@@ -9,17 +9,17 @@
 
 - Focus op het gegeven bureaublad:
 
-`bspc desktop --focus {{number}}`
+`bspc desktop --focus {{nummer}}`
 
-- Sluit de vensters die afgetakt zijn van het geselecteerde knooppunt:
+- Sluit de vensters die afgetakt zijn van de geselecteerde node:
 
 `bspc node --close`
 
-- Stuur het geselecteerde knooppunt naar het opgegeven bureaublad:
+- Stuur de geselecteerde node naar het opgegeven bureaublad:
 
-`bspc node --to-desktop {{number}}`
+`bspc node --to-desktop {{nummer}}`
 
-- Schakel de modus volledig scherm in voor het geselecteerde knooppunt:
+- Schakel de modus volledig scherm in voor de geselecteerde node:
 
 `bspc node --state ~fullscreen`
 
