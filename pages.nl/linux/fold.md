@@ -1,16 +1,16 @@
 # fold
 
-> Folds long lines for fixed-width output devices.
+> Breek lange regels af voor uitvoerapparaten met vaste breedte.
 > Meer informatie: <https://www.gnu.org/software/coreutils/fold>.
 
-- Fold lines in a fixed width:
+- Breek regels af met een vaste breedte:
 
 `fold --width {{breedte}} {{pad/naar/bestand}}`
 
-- Count width in bytes (the default is to count in columns):
+- Tel breedte in bytes (standaard is het tellen in kolommen):
 
 `fold --bytes --width {{breedte_in_bytes}} {{pad/naar/bestand}}`
 
-- Break the line after the rightmost blank within the width limit:
+- Breek de regel na de meest rechtse spatie binnen de breedtelimiet:
 
 `fold --spaces --width {{breedte}} {{pad/naar/bestand}}`
