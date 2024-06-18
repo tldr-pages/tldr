@@ -25,7 +25,7 @@
 
 - Compara directorios, mostrando solo los nombres de los archivos que difieren:
 
-`diff {{-r|--recursive}} {{-q|--brief}} {{directorio_antiguo}} {{directorio_nuevo}}`
+`diff {{-r|--recursive}} {{-q|--brief}} {{directorio_viejo}} {{directorio_nuevo}}`
 
 - Crea un archivo de revisión para Git a partir de las diferencias entre dos archivos de texto, tratando los archivos inexistentes como vacíos:
 
