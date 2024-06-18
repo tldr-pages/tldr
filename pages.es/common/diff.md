@@ -9,7 +9,7 @@
 
 - Compara archivos, ignorando los espacios en blanco:
 
-`diff {{-w|--ignore-all-space}} {{archivo_antiguo}} {{archivo_nuevo}}`
+`diff {{-w|--ignore-all-space}} {{archivo_viejo}} {{archivo_nuevo}}`
 
 - Compara archivos, mostrando las diferencias lado a lado:
 
