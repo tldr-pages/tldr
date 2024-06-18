@@ -22,11 +22,11 @@
 
 - Execute Cypher statements in a file and close:
 
-`cypher-shell --file {{path/to/filename.cypher}}`
+`cypher-shell --file {{path/to/file.cypher}}`
 
 - Enable logging to a file:
 
-`cypher-shell --log {{path/to/filename.log}}`
+`cypher-shell --log {{path/to/file.log}}`
 
 - Display help:
 
