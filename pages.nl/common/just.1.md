@@ -19,6 +19,6 @@
 
 `just -l`
 
-- Print de justfile:
+- Toon de justfile:
 
 `just --dump`

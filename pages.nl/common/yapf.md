@@ -3,11 +3,11 @@
 > Python stijlgidschecker.
 > Meer informatie: <https://github.com/google/yapf>.
 
-- Print de geformateerde diff die zal optreden uit:
+- Toon de geformateerde diff die zal optreden uit:
 
 `yapf --diff {{pad/naar/bestand}}`
 
-- Print de geformateerde diff uit en breng de wijzigingen aan in het bestand:
+- Toon de geformateerde diff uit en breng de wijzigingen aan in het bestand:
 
 `yapf --diff --in-place {{pad/naar/bestand}}`
 
