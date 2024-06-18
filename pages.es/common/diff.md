@@ -29,7 +29,7 @@
 
 - Crea un archivo de revisión para Git a partir de las diferencias entre dos archivos de texto, tratando los archivos inexistentes como vacíos:
 
-`diff {{-a|--text}} {{-u|--unified}} {{-N|--new-file}} {{archivo_antiguo}} {{archivo_nuevo}} > {{diff.patch}}`
+`diff {{-a|--text}} {{-u|--unified}} {{-N|--new-file}} {{archivo_viejo}} {{archivo_nuevo}} > {{diff.patch}}`
 
 - Compara archivos, mostrando la salida en color y se esfuerza por encontrar el conjunto más pequeño de cambios:
 
