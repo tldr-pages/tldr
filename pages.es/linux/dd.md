@@ -19,7 +19,7 @@
 
 `dd bs={{1M}} count={{1024}} if=/dev/zero of={{ruta/al/fichero_1GB}}`
 
-- Crea una copia de seguridad del sistema, lo guarda en un archivo IMG (se puede restaurar más tarde intercambiando `if` y `of`), y muestra el progreso:
+- Crea una copia de seguridad del sistema en un archivo IMG (puede restaurarla más tarde intercambiando `if` y `of`), y muestra el progreso:
 
 `dd if={{/dev/unidad_dispositivo}} of={{ruta/al/archivo.img}} status=progress`
 
