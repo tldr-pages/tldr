@@ -21,7 +21,7 @@
 
 - Llama a un gestor con un argumento:
 
-`hyprctl dispatch exec {{app}}`
+`hyprctl dispatch exec {{aplicación}}`
 
 - Establece una palabra clave de configuración de forma dinámica:
 
