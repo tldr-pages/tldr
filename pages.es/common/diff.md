@@ -19,7 +19,7 @@
 
 `diff {{-u|--unified}} {{archivo_viejo}} {{archivo_nuevo}}`
 
-- Compara directorios de forma recursiva (muestra los nombres de los archivos/directorios que difieren, así como los cambios realizados en los archivos):
+- Compara directorios de forma recursiva (muestra los nombres de los archivos/directorios que difieran y los cambios realizados en los archivos):
 
 `diff {{-r|--recursive}} {{directorio_antiguo}} {{directorio_nuevo}}`
 
