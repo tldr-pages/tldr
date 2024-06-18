@@ -21,4 +21,4 @@
 
 - Cetak daftar penggunaan CPU 5 proses teratas tiap 1 detik:
 
-`prstat -c -n {{5}} -s cpu {{1}}`
+`prstat -c -n 5 -s cpu 1`
