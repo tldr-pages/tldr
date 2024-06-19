@@ -1,7 +1,7 @@
 # pgrep
 
 > Find or signal processes by name.
-> More information: <https://www.man7.org/linux/man-pages/man1/pkill.1.html>.
+> More information: <https://www.manned.org/pgrep>.
 
 - Return PIDs of any running processes with a matching command string:
 

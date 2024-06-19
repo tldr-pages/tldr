@@ -21,7 +21,7 @@
 
 - 일치하는 문자열 주변, 이전 혹은 이후의 3줄을 출력:
 
-`grep --{{context|before-context|after-context}}={{3}} "{{검색_패턴}}" {{파일/의/경로}}`
+`grep --{{context|before-context|after-context}} 3 "{{검색_패턴}}" {{파일/의/경로}}`
 
 - 각각의 일치하는 문자열의 파일 이름과 줄 번호 출력:
 

@@ -21,7 +21,7 @@
 
 - Print 3 linjer af kontekst omkring, før eller efter hvert match:
 
-`grep --{{context|before-context|after-context}} {{3}} "{{søgemønster}}" {{sti/til/fil}}`
+`grep --{{context|before-context|after-context}} 3 "{{søgemønster}}" {{sti/til/fil}}`
 
 - Print, filnavn og linjenummer for hvert match, med farveoutput:
 

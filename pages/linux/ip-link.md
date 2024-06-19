@@ -1,7 +1,7 @@
 # ip link
 
 > Manage network interfaces.
-> More information: <https://man7.org/linux/man-pages/man8/ip-link.8.html>.
+> More information: <https://manned.org/ip-link>.
 
 - Show information about all network interfaces:
 

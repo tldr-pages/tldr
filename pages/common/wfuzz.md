@@ -23,7 +23,7 @@
 
 `wfuzz -c --hc {{401}} -s {{delay_between_requests_in_seconds}} -z file,{{path/to/usernames}} -z file,{{path/to/passwords}} --basic 'FUZZ:FUZ2Z' {{https://example.com}}`
 
-- Provide wordlist directly from the command line and use POST request for fuzzing:
+- Provide wordlist directly from the command-line and use POST request for fuzzing:
 
 `wfuzz -z list,{{word1-word2-...}} {{https://api.example.com}} -d {{"id=FUZZ&showwallet=true"}}`
 
