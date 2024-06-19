@@ -15,19 +15,19 @@
 
 `ls -F`
 
-- Lista todos los archivos con formato largo (permisos, propietario, tamaño y fecha de modificación):
+- Lista todos los archivos en formato largo (permisos, propietarios, tamaño y fecha de última modificación):
 
 `ls -la`
 
-- Lista con formato largo y tamaño legible por humanos (KiB, MiB, GiB):
+- Lista en formato largo y tamaño legible por humanos (i.e., KiB, MiB, GiB, etc.):
 
 `ls -lh`
 
-- Lista con formato largo y tamaño en orden descendente:
+- Lista recursivamente en formato largo y ordena los tamaños de mayor a menor:
 
-`ls -lS`
+`ls -lSR`
 
-- Lista todos los archivos con formato largo, ordenado por fecha de modificación (archivos más viejos en primer lugar):
+- Lista todos los archivos en formato largo y ordenados por fecha de modificación (archivos más viejos en primer lugar):
 
 `ls -ltr`
 

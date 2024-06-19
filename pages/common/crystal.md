@@ -11,7 +11,7 @@
 
 `crystal build {{path/to/file.cr}}`
 
-- Read Crystal source code from the command line or `stdin`, and execute it:
+- Read Crystal source code from the command-line or `stdin`, and execute it:
 
 `crystal eval '{{code}}'`
 

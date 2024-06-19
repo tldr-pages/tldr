@@ -7,11 +7,11 @@
 
 `git archive --verbose HEAD`
 
-- Use the Zip format and report progress [v]erbosely:
+- Use the Zip format and report progress verbosely:
 
 `git archive {{-v|--verbose}} --format zip HEAD`
 
-- [o]utput the Zip archive to a specific file:
+- Output the Zip archive to a specific file:
 
 `git archive -v {{-o|--output}} {{path/to/file.zip}} HEAD`
 
