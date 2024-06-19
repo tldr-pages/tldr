@@ -1,7 +1,7 @@
 # ip rule
 
 > IP routing policy database management.
-> More information: <https://man7.org/linux/man-pages/man8/ip-rule.8.html>.
+> More information: <https://manned.org/ip-rule>.
 
 - Display the routing policy:
 

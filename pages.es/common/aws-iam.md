@@ -1,11 +1,7 @@
 # aws iam
 
-> CLI para AWS IAM.
+> Interactúa con el Manejo de Identidad y Acceso (o "IAM" en inglés), un servicio web para controlar seguramente el acceso a servicios de AWS.
 > Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html>.
-
-- Muestra la página de ayuda de `aws iam` (incluyendo todos los comandos iam disponibles):
-
-`aws iam help`
 
 - Lista usuarios:
 
@@ -19,13 +15,13 @@
 
 `aws iam list-groups`
 
-- Obtén los usuarios de un grupo:
+- Obtén los usuarios en un grupo:
 
-`aws iam get-group --group-name {{nombre_grupo}}`
+`aws iam get-group --group-name {{nombre_del_grupo}}`
 
 - Describe una política IAM:
 
-`aws iam get-policy --policy-arn arn:aws:iam::aws:policy/{{nombre_de_politica}}`
+`aws iam get-policy --policy-arn arn:aws:iam::aws:policy/{{nombre_de_política}}`
 
 - Lista claves de acceso:
 
@@ -33,4 +29,8 @@
 
 - Lista claves de acceso para un usuario específico:
 
-`aws iam list-access-keys --user-name {{nombre_usuario}}`
+`aws iam list-access-keys --user-name {{nombre_de_usuario}}`
+
+- Muestra ayuda:
+
+`aws iam help`

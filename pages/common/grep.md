@@ -21,7 +21,7 @@
 
 - Print 3 lines of context around, before, or after each match:
 
-`grep --{{context|before-context|after-context}} {{3}} "{{search_pattern}}" {{path/to/file}}`
+`grep --{{context|before-context|after-context}} 3 "{{search_pattern}}" {{path/to/file}}`
 
 - Print file name and line number for each match with color output:
 

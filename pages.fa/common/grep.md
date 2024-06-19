@@ -21,7 +21,7 @@
 
 - چاپ 3 خط از قبل و بعد محل انطباق:
 
-`grep --{{context|before-context|after-context}}={{3}} "{{search_pattern}}" {{path/to/file}}`
+`grep --{{context|before-context|after-context}} 3 "{{search_pattern}}" {{path/to/file}}`
 
 - چاپ نام فایل و شماره خط برای هر انطباق با رنگبندی :
 
