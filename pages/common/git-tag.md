@@ -28,6 +28,10 @@
 
 `git fetch --tags`
 
+- Push a tag to upstream:
+
+`git push origin tag {{tagname}}`
+
 - List all tags whose ancestors include a given commit:
 
 `git tag --contains {{commit}}`
