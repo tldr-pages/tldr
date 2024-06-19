@@ -21,7 +21,7 @@
 
 - Imprime 3 líneas alrededor, antes o después de cada coincidencia:
 
-`grep {{--context|before-context|after-context}} {{3}} "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
+`grep --{{context|before-context|after-context}} 3 "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
 - Imprime con colores el nombre del archivo y el número de línea de cada coincidencia:
 
