@@ -1,7 +1,7 @@
 # poweroff
 
 > Apaga la máquina.
-> Más información: <https://www.man7.org/linux/man-pages/man8/poweroff.8.html>.
+> Más información: <https://www.manned.org/poweroff>.
 
 - Apaga la máquina:
 
