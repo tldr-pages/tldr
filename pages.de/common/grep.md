@@ -18,4 +18,4 @@
 
 - Zeige 3 Zeilen Kontext um [C], vor [B] oder nach [A] jedem Ergebnis:
 
-`grep --{{context|before-context|after-context}}={{3}} "{{ausdruck}}" {{pfad/zu/datei}}`
+`grep --{{context|before-context|after-context}} 3 "{{ausdruck}}" {{pfad/zu/datei}}`

@@ -21,7 +21,7 @@
 
 - Imprime 3 linhas de contexto em volta, antes ou depois de cada correspondência:
 
-`grep --{{context|before-context|after-context}}={{3}} "{{padrão_pesquisado}}" {{caminho/para/arquivo}}`
+`grep --{{context|before-context|after-context}} 3 "{{padrão_pesquisado}}" {{caminho/para/arquivo}}`
 
 - Imprime o nome do arquivo e o número da linha para cada correspondência:
 
