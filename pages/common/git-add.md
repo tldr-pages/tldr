@@ -11,7 +11,7 @@
 
 `git add -A`
 
-- Add all files (It's Add all file in one commend):
+- Add all files in the current folder:
 
 `git add .`
 
