@@ -2,7 +2,7 @@
 
 > Display information about volume groups.
 > See also: `lvm`.
-> More information: <https://man7.org/linux/man-pages/man8/vgs.8.html>.
+> More information: <https://manned.org/vgs>.
 
 - Display information about volume groups:
 
