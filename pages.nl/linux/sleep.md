@@ -11,9 +11,9 @@
 
 `sleep {{minuten}}m`
 
-- Wacht 1 [d]ag en 3 [u]ur:
+- Wacht 1 [d]ag en 3 uur ([h]):
 
-`sleep 1d 3u`
+`sleep 1d 3h`
 
 - Voer een specifiek commando uit na een wachttijd van 20 [m]inuten:
 
