@@ -22,7 +22,7 @@
 
 - Affiche 3 lignes de [C]ontexte, avant ([B]efore), ou [A]près chaque concordance :
 
-`grep --{{context|before-context|after-context}}={{3}} "{{chaîne_recherchée}}" {{chemin/vers/fichier}}`
+`grep --{{context|before-context|after-context}} 3 "{{chaîne_recherchée}}" {{chemin/vers/fichier}}`
 
 - Affiche le nom du fichier avec la ligne correspondante pour chaque concordance :
 

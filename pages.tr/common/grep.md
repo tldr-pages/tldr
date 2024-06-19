@@ -21,7 +21,7 @@
 
 - Her eşleşmenin etrafında, öncesinde veya sonrasında 3 satır içerik yazdır:
 
-`grep --{{context|before-context|after-context}}={{3}} "{{aranan_kalıp}}" {{dosya/yolu}}`
+`grep --{{context|before-context|after-context}} 3 "{{aranan_kalıp}}" {{dosya/yolu}}`
 
 - Renkli çıktı ile her eşleşme için dosya adını ve satır numarasını yazdır:
 
