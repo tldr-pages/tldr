@@ -23,6 +23,10 @@
 
 `sort --field-separator={{:}} --key={{3n}} {{/etc/passwd}}`
 
+- As above, but where items in the 3rd field are equal, sort by the 4th field numerically:
+
+`sort -t {{:}} -k {{3,3n}} -k {{4,4n}} {{/etc/passwd}}`
+
 - Sort a file preserving only unique lines:
 
 `sort --unique {{path/to/file}}`
