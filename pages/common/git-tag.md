@@ -30,7 +30,7 @@
 
 - Push a tag to remote:
 
-`git push origin tag {{tagname}}`
+`git push origin tag {{tag_name}}`
 
 - List all tags whose ancestors include a given commit:
 
