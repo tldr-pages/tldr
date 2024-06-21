@@ -23,4 +23,3 @@
 - Incluya signos de puntuación:
 
 `toipe {{-p|--punctuation}}`
-
