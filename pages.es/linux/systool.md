@@ -1,4 +1,4 @@
- # systool
+# systool
 
 > Vea información de dispositivos del sistema por bus, y clases.
 > Este comando es parte del paquete `sysfs`.
