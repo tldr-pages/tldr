@@ -1,7 +1,7 @@
 # ab
 
 > Apache 基准测试工具。
-> 更多信息：<https://httpd.apache.org/docs/current/programs/ab.html>.
+> 更多信息：<https://httpd.apache.org/docs/current/programs/ab.html>。
 
 - 向目标 URL 执行 100 次 HTTP GET 请求：
 
@@ -15,10 +15,14 @@
 
 `ab -n 100 -T {{application/json}} -p {{path/to/file.json}} {{url}}`
 
-- 使用 HTTP [K]eep Alive，即在一个 HTTP 会话中执行多个请求：
+- 使用 HTTP [k]eep Alive，即在一个 HTTP 会话中执行多个请求：
 
 `ab -k {{url}}`
 
 - 为基准测试设置最大的测试时间（单位：秒）：
 
 `ab -t {{60}} {{url}}`
+
+- 将结果写入到一个 CSV 文件中：
+
+`ab -e {{path/to/file.csv}}`
