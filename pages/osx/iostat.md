@@ -23,8 +23,10 @@
 
 `iostat -w 3 -c 10 disk1`
 
-- Display using old-style iostat display. Shows **s**ectors transferred **p**er **s**econd, **t**ransfers **p**er **s**econd, average milliseconds per transaction, and CPU statistics + load averages from default-style display
+- Display using old-style iostat display. Shows **s**ectors transferred **p**er **s**econd, **t**ransfers **p**er **s**econd, average milliseconds per transaction, and CPU statistics + load averages from default-style display:
 
 `iostat -o`
 
-- Display total device statistics (**KB/t**: kilobytes per transfer as before, **xfrs**: total number of transfers, **MB**: total number of megabytes transferred)
+- Display total device statistics (**KB/t**: kilobytes per transfer as before, **xfrs**: total number of transfers, **MB**: total number of megabytes transferred):
+
+`iostat -I`
