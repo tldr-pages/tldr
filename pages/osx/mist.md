@@ -24,7 +24,7 @@
 
 `mist list installer --latest "macOS Sonoma"`
 
-- List + Export macOS Installers to a CSV file:
+- List and export macOS Installers to a CSV file:
 
 `mist list installer --export "{{/path/to/export.csv}}"`
 
