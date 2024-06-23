@@ -5,7 +5,7 @@
 
 - Perform calculations according to an input file (`.mop`, `.dat`, `.arc`):
 
-`mopac {{input_file}}`
+`mopac {{path/to/input_file}}`
 
 - Stream output file:
 
