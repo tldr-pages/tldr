@@ -11,18 +11,18 @@
 
 `xcrun {{herramienta}} {{argumentos}} --verbose`
 
-- Busca una herramienta para un SDK determinado:
+- Busca una herramienta para un SDK:
 
-`xcrun --sdk {{nombre_sdk}}`
+`xcrun --sdk {{nombre_de_sdk}}`
 
-- Busca una herramienta para una cadena de herramientas determinada:
+- Busca una herramienta para una cadena de herramientas:
 
-`xcrun --toolchain {{nombre}}`
-
-- Muestra versión:
-
-`xcrun --version`
+`xcrun --toolchain {{nombre_de_cadena}}`
 
 - Muestra ayuda:
 
 `xcrun --help`
+
+- Muestra la versión:
+
+`xcrun --version`

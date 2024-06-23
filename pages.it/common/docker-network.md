@@ -3,7 +3,7 @@
 > Crea e gestisci reti docker.
 > Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/network/>.
 
-- Elenca le reti disponibili configurate sul docker daemon:
+- Elenca le reti disponibili configurate sul Docker daemon:
 
 `docker network ls`
 

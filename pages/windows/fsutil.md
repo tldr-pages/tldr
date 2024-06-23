@@ -1,6 +1,6 @@
 # fsutil
 
-> Displays information about file system volumes.
+> Display information about file system volumes.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/fsutil>.
 
 - Display a list of volumes:

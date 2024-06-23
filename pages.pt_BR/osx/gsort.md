@@ -1,6 +1,6 @@
 # gsort
 
-> Este comando é um pseudônimo de `-p linux sort`.
+> Este comando é um apelido de `-p linux sort`.
 
 - Exibe documentação sobre o comando original:
 

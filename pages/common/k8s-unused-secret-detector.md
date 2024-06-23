@@ -1,6 +1,6 @@
 # k8s-unused-secret-detector
 
-> Command-line interface tool for detecting unused Kubernetes secrets.
+> Detect unused Kubernetes secrets.
 > More information: <https://github.com/dtan4/k8s-unused-secret-detector>.
 
 - Detect unused secrets:

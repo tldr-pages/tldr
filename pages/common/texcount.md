@@ -16,6 +16,10 @@
 
 `texcount -inc {{file.tex}}`
 
+- Count words in a document and subdocuments, producing subcounts by chapter (instead of subsection):
+
+`texcount -merge -sub=chapter {{file.tex}}`
+
 - Count words with verbose output:
 
 `texcount -v {{path/to/file.tex}}`

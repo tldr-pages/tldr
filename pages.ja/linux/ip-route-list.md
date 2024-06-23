@@ -1,6 +1,6 @@
-# ip-route-list
+# ip route list
 
-> このコマンドは `ip-route-show` のエイリアスです。
+> このコマンドは  `ip route show`.のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

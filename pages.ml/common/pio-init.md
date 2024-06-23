@@ -1,4 +1,4 @@
-# pio-init
+# pio init
 
 > ഈ കമാൻഡ് `pio project` എന്നത്തിന്റെ അപരനാമമാണ്.
 

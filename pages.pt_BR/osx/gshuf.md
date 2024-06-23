@@ -1,6 +1,6 @@
 # gshuf
 
-> Este comando é um pseudônimo de `-p linux shuf`.
+> Este comando é um apelido de `-p linux shuf`.
 
 - Exibe documentação sobre o comando original:
 

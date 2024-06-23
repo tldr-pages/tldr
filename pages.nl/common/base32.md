@@ -7,6 +7,10 @@
 
 `base32 {{pad/naar/bestand}}`
 
+- Zet gecodeerde uitvoer naar een specifieke breedte (`0` schakelt het uit):
+
+`base32 --wrap {{0|76|...}} {{pad/naar/bestand}}`
+
 - Decodeer een bestand:
 
 `base32 --decode {{pad/naar/bestand}}`

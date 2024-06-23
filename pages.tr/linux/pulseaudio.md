@@ -11,7 +11,7 @@
 
 `pulseaudio --start`
 
-- Arkaplanda çalışan tüm pulseaudio uygulamalarını öldür:
+- Arkaplanda çalışan tüm PulseAudio uygulamalarını öldür:
 
 `pulseaudio --kill`
 

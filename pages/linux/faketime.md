@@ -7,7 +7,7 @@
 
 `faketime '{{today 23:30}}' {{date}}`
 
-- Open a new `bash` shell, which uses yesterday as the current date:
+- Open a new Bash shell, which uses yesterday as the current date:
 
 `faketime '{{yesterday}}' {{bash}}`
 

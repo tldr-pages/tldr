@@ -1,4 +1,4 @@
-# clamav
+# ClamAV
 
 > Эта команда — псевдоним для `clamdscan`.
 > Больше информации: <https://www.clamav.net>.

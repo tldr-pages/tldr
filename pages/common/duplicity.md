@@ -1,7 +1,8 @@
 # duplicity
 
-> Creates incremental, compressed, encrypted and versioned backups.
+> Create incremental, compressed, encrypted and versioned backups.
 > Can also upload the backups to a variety of backend services.
+> It is worth mentioning that depending on the version, some options may not be available (e.g. `--gio` in 2.0.0).
 > More information: <http://duplicity.nongnu.org>.
 
 - Backup a directory via FTPS to a remote machine, encrypting it with a password:
@@ -20,7 +21,7 @@
 
 `duplicity collection-status "file://{{absolute/path/to/backup/directory}}"`
 
-- List the files in a backup stored on a remote machine, via ssh:
+- List the files in a backup stored on a remote machine, via SSH:
 
 `duplicity list-current-files --time {{YYYY-MM-DD}} scp://{{user@hostname}}/{{path/to/backup/dir}}`
 

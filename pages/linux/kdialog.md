@@ -1,7 +1,7 @@
 # kdialog
 
 > Show KDE dialog boxes from within shell scripts.
-> More information: <https://develop.kde.org/deploy/kdialog/>.
+> More information: <https://develop.kde.org/docs/administration/kdialog/>.
 
 - Open a dialog box displaying a specific message:
 
@@ -31,6 +31,6 @@
 
 `kdialog --getopenfilename`
 
-- Open a progressbar dialog and print a DBUS reference for communication to `stdout`:
+- Open a progressbar dialog and print a D-Bus reference for communication to `stdout`:
 
 `kdialog --progressbar "{{message}}"`

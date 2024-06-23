@@ -12,7 +12,7 @@
 
 `printf "intestazione1 intestazione2\nbar foo\n" | column --table`
 
-- Specifica un diverso separatore di colonna (e.g. "," per csv) (il predefinito è lo spazio):
+- Specifica un diverso separatore di colonna (e.g. "," per CSV) (il predefinito è lo spazio):
 
 `printf "intestazione1 intestazione2\nbar foo\n" | column --table --separator {{,}}`
 

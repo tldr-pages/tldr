@@ -1,28 +1,32 @@
 # sops
 
-> SOPS (Secrets OPerationS): manage secrets.
+> SOPS (Secrets OPerationS): a simple and flexible tool for managing secrets.
 > More information: <https://github.com/mozilla/sops>.
 
 - Encrypt a file:
 
-`sops -e {{path/to/myfile.json}} > {{path/to/myfile.enc.json}}`
+`sops -e {{path/to/file.json}} > {{path/to/file.enc.json}}`
 
 - Decrypt a file to `stdout`:
 
-`sops -d {{path/to/myfile.enc.json}}`
+`sops -d {{path/to/file.enc.json}}`
 
-- Rotate data keys for a sops file:
+- Update the declared keys in a `sops` file:
 
-`sops -r {{path/to/myfile.enc.yaml}}`
+`sops updatekeys {{path/to/file.enc.yaml}}`
+
+- Rotate data keys for a `sops` file:
+
+`sops -r {{path/to/file.enc.yaml}}`
 
 - Change the extension of the file once encrypted:
 
-`sops -d --input-type json {{path/to/myfile.enc.json}}`
+`sops -d --input-type json {{path/to/file.enc.json}}`
 
 - Extract keys by naming them, and array elements by numbering them:
 
-`sops -d --extract '["an_array"][1]' {{path/to/myfile.enc.json}}`
+`sops -d --extract '["an_array"][1]' {{path/to/file.enc.json}}`
 
-- Show the difference between two sops files:
+- Show the difference between two `sops` files:
 
 `diff <(sops -d {{path/to/secret1.enc.yaml}}) <(sops -d {{path/to/secret2.enc.yaml}})`

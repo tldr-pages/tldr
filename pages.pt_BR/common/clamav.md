@@ -1,4 +1,4 @@
-# clamav
+# ClamAV
 
 > Programa antivírus de código aberto.
 > O ClamAV não é um comando, mas um conjunto de comandos.

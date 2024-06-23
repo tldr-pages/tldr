@@ -12,11 +12,11 @@
 
 `git bug add`
 
-- You can push your new entry to a remote:
+- Push a new bug entry to a remote:
 
 `git bug push`
 
-- You can pull for updates:
+- Pull for updates:
 
 `git bug pull`
 

@@ -1,7 +1,7 @@
 # Sort-Object
 
 > Sorts objects by property values.
-> This command can only be used through PowerShell.
+> Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/sort-object>.
 
 - Sort the current directory by name:

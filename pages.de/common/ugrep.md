@@ -23,7 +23,7 @@
 
 `ugrep --fuzzy={{3}} "{{suchmuster}}"`
 
-- Suche auch in allen komprimierten Dateien und `zip`- und `tar`-Archive:
+- Suche auch in allen komprimierten Dateien und Zip- und tar-Archive:
 
 `ugrep --decompress "{{suchmuster}}"`
 

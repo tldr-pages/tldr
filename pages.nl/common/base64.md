@@ -7,6 +7,10 @@
 
 `base64 {{bestandsnaam}}`
 
+- Zet gecodeerde uitvoer naar een specifieke breedte (`0` schakelt het uit):
+
+`base64 --wrap {{0|76|...}} {{pad/naar/bestand}}`
+
 - Decodeer een bestand:
 
 `base64 --decode {{bestandsnaam}}`

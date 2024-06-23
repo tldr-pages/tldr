@@ -1,6 +1,6 @@
 # readpe
 
-> Displays information about PE files.
+> Display information about PE files.
 > More information: <https://manned.org/readpe>.
 
 - Display all information about a PE file:

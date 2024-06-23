@@ -24,6 +24,6 @@
 
 `tldr --update`
 
-- List all pages for the current platform and `common`:
+- [l]ist all pages for the current platform and `common`:
 
 `tldr --list`
