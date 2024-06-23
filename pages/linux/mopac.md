@@ -9,7 +9,7 @@
 
 - Stream output file:
 
-`tail -f {{output_file}}`
+`tail -f {{path/to/output_file}}`
 
 - Minimal working example with HF that writes to the current directory:
 
