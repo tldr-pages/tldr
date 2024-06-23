@@ -1,7 +1,7 @@
 # mopac
 
 > MOPAC (Molecular Orbital PACkage) is a semiempirical quantum chemistry program based on Dewar and Thiel's NDDO approximation.
-> More information: <http://openmopac.net/>.
+> More information: <https://github.com/openmopac/mopac>.
 
 - Perform calculations according to an input file (`.mop`, `.dat`, and `.arc`):
 
