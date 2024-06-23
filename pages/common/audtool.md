@@ -1,6 +1,7 @@
 # audtool
 
 > Control Audacious using commands.
+> See also: `audacious`.
 > More information: <https://manned.org/audtool>.
 
 - Play/pause audio playback:

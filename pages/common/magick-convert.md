@@ -20,7 +20,7 @@
 
 `magick convert {{path/to/input_image.png}} -define jpeg:extent=512kb {{path/to/output_image.jpg}}`
 
-- Vertically/Horizontally append images:
+- Vertically/horizontally append images:
 
 `magick convert {{path/to/image1.png path/to/image2.png ...}} {{-append|+append}} {{path/to/output_image.png}}`
 

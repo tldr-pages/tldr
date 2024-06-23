@@ -1,7 +1,7 @@
 # tree
 
 > Mevcut dizinin içeriğini ağaç biçiminde göster.
-> Daha fazla bilgi için: <https://manned.org/man/tree>.
+> Daha fazla bilgi için: <https://manned.org/tree>.
 
 - Dosya ve dizinleri `num` değeri kadar derinlikte göster (1 olması durumunda mevcut dizin gösterilir):
 

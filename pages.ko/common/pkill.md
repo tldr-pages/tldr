@@ -2,7 +2,7 @@
 
 > 프로세스 이름에 따라 시그널을 전송합니다.
 > 주로 프로세스를 종료하는데 사용합니다.
-> 더 많은 정보: <https://www.man7.org/linux/man-pages/man1/pkill.1.html>.
+> 더 많은 정보: <https://www.manned.org/pkill>.
 
 - 일치하는 모든 프로세스 종료:
 

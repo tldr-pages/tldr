@@ -2,7 +2,7 @@
 
 > Display information about Logical Volume Manager (LVM) physical volumes.
 > See also: `lvm`.
-> More information: <https://man7.org/linux/man-pages/man8/pvdisplay.8.html>.
+> More information: <https://manned.org/pvdisplay>.
 
 - Display information about all physical volumes:
 

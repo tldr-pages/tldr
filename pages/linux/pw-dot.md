@@ -12,7 +12,7 @@
 
 `pw-dot {{-j|--json}} {{path/to/file.json}}`
 
-- Specify an [o]utput file, showing [a]ll object types:
+- Specify an [o]utput file, showing all object types:
 
 `pw-dot --output {{path/to/file.dot}} {{-a|--all}}`
 
@@ -24,7 +24,7 @@
 
 `pw-dot --remote {{remote_name}} {{-s|--smart}}`
 
-- Lay the graph from [l]eft to [r]ight, instead of dot's default top to bottom:
+- Lay the graph from left to right, instead of dot's default top to bottom:
 
 `pw-dot {{-L|--lr}}`
 

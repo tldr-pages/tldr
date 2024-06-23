@@ -1,7 +1,7 @@
 # poweroff
 
 > Desliga o sistema.
-> Mais informações: <https://www.man7.org/linux/man-pages/man8/poweroff.8.html>.
+> Mais informações: <https://www.manned.org/poweroff>.
 
 - Desliga o sistema:
 

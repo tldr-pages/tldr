@@ -11,7 +11,7 @@
 
 - Open een bestand bij een bepaald regelnummer:
 
-`vim +{{regel_nummer}} {{pad/naar/bestand}}`
+`vim +{{regelnummer}} {{pad/naar/bestand}}`
 
 - Bekijk de handleiding van Vim:
 

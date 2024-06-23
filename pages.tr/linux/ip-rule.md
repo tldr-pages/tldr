@@ -1,7 +1,7 @@
 # ip rule
 
 > IP yönlendirme politikası veri tabanı yönetimi.
-> Daha fazla bilgi için: <https://man7.org/linux/man-pages/man8/ip-rule.8.html>.
+> Daha fazla bilgi için: <https://manned.org/ip-rule>.
 
 - Yönlendirme politikasını göster:
 

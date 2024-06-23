@@ -103,7 +103,7 @@ Thus, if the command or its options are unavailable or contain different behavio
 # Clear-RecycleBin
 
 > Clear items from the Recycle Bin.
-> This command can only be used through PowerShell versions 5.1 and below, or 7.1 and above.
+> Note: This command can only be used through PowerShell versions 5.1 and below, or 7.1 and above.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/clear-recyclebin>.
 ```
 
@@ -278,7 +278,7 @@ Use backticks on the following:
 
 ### More information links
 
-- On the `More information` link line, we prefer linking to the author's provided documentation of the command line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms
+- On the `More information` link line, we prefer linking to the author's provided documentation of the command-line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms
 (except `osx` and BSD platforms other than FreeBSD).
 Alternatively, you can link to the author's website or a tutorial page if the command doesn't have a documentation page.
 
@@ -337,7 +337,7 @@ the part of the address that starts with `?view=`.
 
 - Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`)
 unless the program name differs from the executable name (e.g. `rg` and Ripgrep).
-- Avoid mentioning that the program is used on the command line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
+- Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
 - For example, when writing documentation for `cd`, a tool to check out and work on a specific directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
 
 ```md
