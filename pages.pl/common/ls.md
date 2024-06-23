@@ -23,7 +23,7 @@
 
 `ls -lh`
 
-- Wypisz listę w długim formacie rekurencyjnie posortowaną po rozmiarze (malejąco):
+- Wypisz listę rekurencyjnie w długim formacie, posortowaną po rozmiarze (malejąco):
 
 `ls -lSR`
 
