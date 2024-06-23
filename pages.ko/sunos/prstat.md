@@ -21,4 +21,4 @@
 
 - 매 초마다 상위 5개 CPU 사용 프로세스 목록 출력:
 
-`prstat -c -n {{5}} -s cpu {{1}}`
+`prstat -c -n 5 -s cpu 1`
