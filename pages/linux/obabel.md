@@ -9,7 +9,7 @@
 
 - Convert a SMILES string to a 500x500 picture:
 
-`obabel -:"{{SMILES}} -O {{path/to/output_file.png}} -xp 500`
+`obabel -:"{{SMILES}}" -O {{path/to/output_file.png}} -xp 500`
 
 - Convert a file of SMILES string to separate 3D .mol files:
 
