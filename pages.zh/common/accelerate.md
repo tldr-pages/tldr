@@ -1,7 +1,7 @@
 # Accelerate
 
 > 一个使得可以在任何分布式配置中运行相同的 PyTorch 代码的库。
-> 更多信息： <https://huggingface.co/docs/accelerate/index>。
+> 更多信息： <https://huggingface.co/docs/accelerate/index>.
 
 - 打印环境信息：
 
@@ -13,16 +13,16 @@
 
 - 打印使用不同数据类型运行 Hugging Face 模型的估计 GPU 内存成本：
 
-`accelerate estimate-memory {{name/model}}`
+`accelerate estimate-memory {{名字/模型}}`
 
 - 测试一个 Accelerate 配置文件：
 
-`accelerate test --config_file {{path/to/config.yaml}}`
+`accelerate test --config_file {{路径/到/配置文件.yaml}}`
 
 - 使用 Accelerate 在 CPU 上运行一个模型：
 
-`accelerate launch {{path/to/script.py}} {{--cpu}}`
+`accelerate launch {{路径/到/脚本.py}} {{--cpu}}`
 
 - 使用 Accelerate 在多 GPU 上运行一个模型，使用 2 台机器：
 
-`accelerate launch {{path/to/script.py}} --multi_gpu --num_machines 2`
+`accelerate launch {{路径/到/脚本.py}} --multi_gpu --num_machines 2`
