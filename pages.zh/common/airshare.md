@@ -1,11 +1,11 @@
 # airshare
 
 > 在本地网络中传输数据的工具。
-> 更多信息： <https://airshare.rtfd.io/en/latest/cli.html>。
+> 更多信息： <https://airshare.rtfd.io/en/latest/cli.html>.
 
 - 共享文件或目录：
 
-`airshare {{code}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`airshare {{code}} {{路径/到/文件或目录1 路径/到/文件或目录2 ...}}`
 
 - 接收文件：
 
@@ -17,7 +17,7 @@
 
 - 将文件或目录发送到接收服务器：
 
-`airshare --upload {{code}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`airshare --upload {{code}} {{路径/到/文件或目录1 路径/到/文件或目录2 ...}}`
 
 - 发送已复制到剪贴板的文件路径：
 
