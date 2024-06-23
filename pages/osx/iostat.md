@@ -7,6 +7,14 @@
 
 `iostat`
 
+- Display only device statistics:
+
+`iostat -d`
+
+- Display incremental reports of CPU and disk statistics every 2 seconds:
+
+`iostat 2`
+
 - Display statistics for the first disk every second ad infinitum:
 
 `iostat -w 1 disk0`
@@ -18,13 +26,5 @@
 - Display using old-style iostat display. Shows **s**ectors transferred **p**er **s**econd, **t**ransfers **p**er **s**econd, average milliseconds per transaction, and CPU statistics + load averages from default-style display
 
 `iostat -o`
-
-- Display incremental reports of CPU and disk statistics every 2 seconds:
-
-`iostat 2`
-
-- Display only device statistics:
-
-`iostat -d`
 
 - Display total device statistics (**KB/t**: kilobytes per transfer as before, **xfrs**: total number of transfers, **MB**: total number of megabytes transferred)
