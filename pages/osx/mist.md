@@ -1,7 +1,7 @@
 # mist
 
 > MIST - macOS Installer Super Tool.
-> Automatically download macOS Firmwares / Installers.
+> Automatically download macOS Firmwares/Installers.
 > More information: <https://github.com/ninxsoft/mist-cli>.
 
 - List all available macOS Firmwares for Apple Silicon Macs:
