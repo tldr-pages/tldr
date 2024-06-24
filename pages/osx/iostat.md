@@ -3,7 +3,7 @@
 > Report statistics for devices.
 > More information: <https://ss64.com/mac/iostat.html>.
 
-- Display snapshot device statistics (kilobytes per transfer, transfers per second, megabytes per second), CPU statistics (percentages of time spent in user mode, system mode, and idle mode), and system load averages (for the past 1 minute, 5 minutes, and 15 minutes):
+- Display snapshot device statistics (kilobytes per transfer, transfers per second, megabytes per second), CPU statistics (percentages of time spent in user mode, system mode, and idle mode), and system load averages (for the past 1, 5, and 15 min):
 
 `iostat`
 
