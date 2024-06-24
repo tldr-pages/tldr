@@ -1,7 +1,7 @@
 # airshare
 
 > 在本地网络中传输数据的工具。
-> 更多信息： <https://airshare.rtfd.io/en/latest/cli.html>.
+> 更多信息：<https://airshare.rtfd.io/en/latest/cli.html>.
 
 - 共享文件或目录：
 
