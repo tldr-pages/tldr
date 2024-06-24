@@ -5,7 +5,7 @@
 
 - Muestra los registros de un pod de un contenedor:
 
-`kubectl logs {{nombre_del_pod}}
+`kubectl logs {{nombre_del_pod}}`
 
 - Muestra los registros de un contenedor especificado en un pod:
 
@@ -13,7 +13,7 @@
 
 - Muestra los registros de todos los contenedores de un pod:
 
-`kubectl logs --all-containers={{true}} {{nombre_del_contenedor}}
+`kubectl logs --all-containers={{true}} {{nombre_del_contenedor}}`
 
 - Transmite los registros del pod:
 
