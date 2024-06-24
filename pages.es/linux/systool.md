@@ -1,6 +1,6 @@
 # systool
 
-> Vea información de dispositivos del sistema por bus, y clases.
+> Vea información de dispositivos del sistema por bus y clases.
 > Este comando es parte del paquete `sysfs`.
 > Más información: <https://github.com/linux-ras/sysfsutils>.
 
