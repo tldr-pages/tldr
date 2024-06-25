@@ -3,7 +3,7 @@
 > Framework for creating interactive, data-driven web apps in Python.
 > More information: <https://docs.streamlit.io/>.
 
-- Check Streamlit installation:
+- Check for the Streamlit installation:
 
 `streamlit hello`
 
@@ -11,7 +11,7 @@
 
 `streamlit run {{project_name}}`
 
-- See all supported Streamlit commands:
+- Display help:
 
 `streamlit --help`
 
