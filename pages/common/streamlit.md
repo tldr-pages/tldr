@@ -11,10 +11,10 @@
 
 `streamlit run {{project_name}}`
 
-- Check the current version of Streamlit:
-
-`streamlit --version`
-
 - See all supported Streamlit commands:
 
 `streamlit --help`
+
+- Check the current version of Streamlit:
+
+`streamlit --version`
