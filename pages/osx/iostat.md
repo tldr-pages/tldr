@@ -15,7 +15,7 @@
 
 `iostat 2`
 
-- Display statistics for the first disk every second ad infinitum:
+- Display statistics for the first disk every second indefinitely:
 
 `iostat -w 1 disk0`
 
