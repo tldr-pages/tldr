@@ -23,7 +23,7 @@
 
 `iostat -w 3 -c 10 disk1`
 
-- Display using old-style iostat display. Shows sectors transferred per second, transfers per second, average milliseconds per transaction, and CPU statistics + load averages from default-style display:
+- Display using old-style `iostat` display. Shows sectors transferred per second, transfers per second, average milliseconds per transaction, and CPU statistics + load averages from default-style display:
 
 `iostat -o`
 
