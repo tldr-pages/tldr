@@ -15,6 +15,6 @@
 
 `streamlit --help`
 
-- Check the current version of Streamlit:
+- Display version:
 
 `streamlit --version`
