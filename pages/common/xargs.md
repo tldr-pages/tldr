@@ -14,7 +14,7 @@
 
 - Delete all files with a `.backup` extension (`-print0` uses a null character to split file names, and `-0` uses it as delimiter):
 
-`find . -name {{'*.backup'}} -print0 | xargs -0 rm -v`
+`find . -name '*.backup' -print0 | xargs -0 rm -v`
 
 - Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
 
