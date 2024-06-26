@@ -5,7 +5,7 @@
 
 - Realiza los cálculos a partir de un archivo de entrada (`.mop`, `.dat`, y `.arc`):
 
-`mopac {{ruta/al/archivo_de_entrada}}
+`mopac {{ruta/al/archivo_de_entrada}}`
 
 - Mínimo ejemplo de trabajo con HF que escribe en el directorio actual y transmite el archivo de salida:
 
