@@ -1,0 +1,28 @@
+# fpsync
+
+> Execute several synchronization processes locally or on several remote workers through SSH.
+> More information: <https://www.fpart.org/fpsync/>.
+
+- Recursivly syncronize a directory to another location:
+
+`fpsync -v {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
+
+- Recursivly syncronize a directory with the final pass. Enables rsync's --delete option with each synchronization job:
+
+`fpsync -v -E {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
+
+- Recursivly syncronize a directory to a destination using 8 concurrent synchronization jobs:
+
+`fpsync -v -n 8 -E {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
+
+- Recursivly syncronize a directory to a destination using 8 concurrent synchronization jobs spread over two remote workers (machine1 and machine2):
+
+`fpsync -v -n 8 -E -w login@machine1 -w login@machine2 -d {{/path/to/shared/directory}} {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
+
+- Recursivly syncronize a directory to a destination using 4 local workers, each one transferring at most 1000 files and 100 MB per synchronization job:
+
+`fpsync -v -n 4 -f 1000 -s $((100 * 1024 * 1024)) {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
+
+- Recursivly syncronize any directories but exclude e.g. .snapshot* files. Options and values must be separated by a pipe character:
+
+`fpsync -v -O "-x|.snapshot*" {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
