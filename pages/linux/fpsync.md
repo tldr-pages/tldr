@@ -11,7 +11,7 @@
 
 `fpsync -v -E {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
 
-- Recursivly syncronize a directory to a destination using 8 concurrent synchronization jobs:
+- Recursively synchronize a directory to a destination using 8 concurrent synchronization jobs:
 
 `fpsync -v -n 8 -E {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
 
