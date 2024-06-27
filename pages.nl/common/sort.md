@@ -34,7 +34,3 @@
 - Sorteer een bestand en schrijf de uitvoer naar het opgegeven uitvoerbestand (kan worden gebruikt om een bestand in-place te sorteren):
 
 `sort --output={{pad/naar/bestand}} {{pad/naar/bestand}}`
-
-- Sorteer getallen met exponenten:
-
-`sort --general-numeric-sort {{pad/naar/bestand}}`
