@@ -19,7 +19,7 @@
 
 `fpsync -v -n 8 -E -w login@machine1 -w login@machine2 -d {{/path/to/shared/directory}} {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
 
-- Recursivly syncronize a directory to a destination using 4 local workers, each one transferring at most 1000 files and 100 MB per synchronization job:
+- Recursively synchronize a directory to a destination using 4 local workers, each one transferring at most 1000 files and 100 MB per synchronization job:
 
 `fpsync -v -n 4 -f 1000 -s $((100 * 1024 * 1024)) {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
 
