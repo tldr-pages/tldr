@@ -3,7 +3,7 @@
 > Execute several synchronization processes locally or on several remote workers through SSH.
 > More information: <https://www.fpart.org/fpsync/>.
 
-- Recursivly syncronize a directory to another location:
+- Recursively synchronize a directory to another location:
 
 `fpsync -v {{/path/to/source/}} {{/path/to/destination/}}`
 
