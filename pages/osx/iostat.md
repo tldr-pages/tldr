@@ -19,7 +19,7 @@
 
 `iostat -w 1 disk0`
 
-- Display statistics for the second disk every three seconds, ten times:
+- Display statistics for the second disk every 3 seconds, 10 times:
 
 `iostat -w 3 -c 10 disk1`
 
