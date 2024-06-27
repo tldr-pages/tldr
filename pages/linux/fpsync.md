@@ -15,7 +15,7 @@
 
 `fpsync -v -n 8 -E {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
 
-- Recursivly syncronize a directory to a destination using 8 concurrent synchronization jobs spread over two remote workers (machine1 and machine2):
+- Recursively synchronize a directory to a destination using 8 concurrent synchronization jobs spread over two remote workers (machine1 and machine2):
 
 `fpsync -v -n 8 -E -w login@machine1 -w login@machine2 -d {{/path/to/shared/directory}} {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
 
