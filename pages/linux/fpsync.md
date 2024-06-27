@@ -23,6 +23,6 @@
 
 `fpsync -v -n 4 -f 1000 -s $((100 * 1024 * 1024)) {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
 
-- Recursivly syncronize any directories but exclude e.g. .snapshot* files. Options and values must be separated by a pipe character:
+- Recursively synchronize any directories but exclude specific `.snapshot*` files (Note: options and values must be separated by a pipe character):
 
 `fpsync -v -O "-x|.snapshot*" {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
