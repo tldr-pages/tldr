@@ -7,7 +7,7 @@
 
 `fpsync -v {{/path/to/source/}} {{/path/to/destination/}}`
 
-- Recursivly syncronize a directory with the final pass. Enables rsync's --delete option with each synchronization job:
+- Recursively synchronize a directory with the final pass (It enables rsync's `--delete` option with each synchronization job):
 
 `fpsync -v -E {{/absolute/path/to/source/}} {{/absolute/path/to/destination/}}`
 
