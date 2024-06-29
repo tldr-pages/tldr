@@ -3,7 +3,7 @@
 > Informa las estadísticas de los dispositivos.
 > Más información: <https://ss64.com/mac/iostat.html>.
 
-- Muestra estadísticas instantáneas de dispositivos (kilobytes por transferencia, transferencias por segundo, megabytes por segundo), estadísticas de CPU (porcentajes de tiempo empleado en modo usuario, modo sistema y modo inactivo) y promedios de carga del sistema (para los últimos 1, 5 y 15 min):
+- Muestra estadísticas instantáneas de dispositivos (kilobytes por transferencia, transferencias y megabytes por segundo), estadísticas de CPU (porcentajes de tiempo empleado en modo usuario, modo sistema y modo inactivo) y promedios de carga del sistema (para los últimos 1, 5 y 15 min):
 
 `iostat`
 
