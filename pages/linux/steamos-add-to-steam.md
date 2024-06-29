@@ -5,4 +5,4 @@
 
 - Add a program to Steam library:
 
-`steamos-add-to-steam path/to/file`
+`steamos-add-to-steam {{path/to/file}}`
