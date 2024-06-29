@@ -1,7 +1,7 @@
 # nmap
 
 > Narzędzie do eksploracji sieci oraz skanowania bezpieczeństwa/portów.
-> Niektóre funkcję są tylko aktywne gdy `nmap` uruchamiany jest z przywilejami root'a.
+> Niektóre funkcje (np. skan SYN) aktywują się tylko gdy `nmap` jest uruchamiany z przywilejami root'a.
 > Więcej informacji: <https://nmap.org/book/man.html>.
 
 - Skanuj 1000 najpopularniejszych portów zdalnego hosta z różnymi poziomami szczegółowości ([v]erbosity):
