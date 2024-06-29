@@ -17,7 +17,7 @@
 
 - [t]est for a specific WAF product (run `wafw00f -l` to get list of all supported WAFs):
 
-`wafw00f --test {{Cloudflare|Cloudfront|Fastly|ZScaler}} {{https://www.example.com}}`
+`wafw00f --test {{Cloudflare|Cloudfront|Fastly|ZScaler|...}} {{https://www.example.com}}`
 
 - Pass custom [H]eaders from a file:
 
