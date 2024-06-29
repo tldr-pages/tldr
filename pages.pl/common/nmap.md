@@ -1,6 +1,6 @@
 # nmap
 
-> Narzędzie do eksploracji sieci oraz skanowania bezpieczeństwa/portów.
+> Narzędzie do eksploracji sieci oraz skaner bezpieczeństwa/portów.
 > Niektóre funkcje (np. skan SYN) aktywują się tylko gdy `nmap` jest uruchamiany z przywilejami root'a.
 > Więcej informacji: <https://nmap.org/book/man.html>.
 
