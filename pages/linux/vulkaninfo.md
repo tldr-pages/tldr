@@ -1,0 +1,12 @@
+# vulkaninfo
+
+> Display system Vulkan information.
+> More information: <https://vulkan.lunarg.com/doc/view/latest/windows/vulkaninfo.html>.
+
+- Print full Vulkan information:
+
+`vulkaninfo`
+
+- Print a summary:
+
+`vulkaninfo --summary`
