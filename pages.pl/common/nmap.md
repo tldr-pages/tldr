@@ -1,12 +1,12 @@
 # nmap
 
-> Narzędzie do enumeracji sieci oraz skanowania portów.
-> Niektóre funkcję są tylko aktywne gdy Nmap uruchamiany jest z przywilejami root'a.
+> Narzędzie do eksploracji sieci oraz skanowania bezpieczeństwa/portów.
+> Niektóre funkcję są tylko aktywne gdy `nmap` uruchamiany jest z przywilejami root'a.
 > Więcej informacji: <https://nmap.org/book/man.html>.
 
-- Sprawdź czy host odpowiada na skanowanie oraz zgadnij system operacyjny:
+- Skanuj 1000 najpopularniejszych portów zdalnego hosta z różnymi poziomami szczegółowości ([v]erbosity):
 
-`nmap -O {{ip_lub_nazwa_hosta}}`
+`nmap -v{{1|2|3}} {{ip_lub_nazwa_hosta}}`
 
 - Sprawdź czy podane hosty odpowiadają na skanowanie i zgadnij ich nazwy:
 
