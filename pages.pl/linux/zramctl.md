@@ -22,4 +22,4 @@
 
 - Wyświetlenie aktualnie zainicjalizowanych urządzeń:
 
-`zramctl`
+`sudo zramctl`
