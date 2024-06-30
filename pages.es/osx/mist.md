@@ -4,7 +4,7 @@
 > Descarga automáticamente Firmwares/Instaladores de macOS.
 > Más información: <https://github.com/ninxsoft/mist-cli>.
 
-- Lista todos los Firmwares macOS disponibles para los Mac Silicon de Apple:
+- Lista todos los firmwares de macOS disponibles para los Mac Silicon de Apple:
 
 `mist list firmware`
 
