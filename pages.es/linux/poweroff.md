@@ -15,7 +15,7 @@
 
 `poweroff --reboot`
 
-- Apaga inmediatamente sin contactarse con el administrador del sistema:
+- Apaga inmediatamente el sistema sin contactar al administrador:
 
 `poweroff --force`
 
