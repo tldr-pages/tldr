@@ -7,7 +7,7 @@
 
 `streamlit hello`
 
-- Ejecuta tu aplicación Streamlit:
+- Ejecuta una aplicación Streamlit:
 
 `streamlit run {{nombre_del_proyecto}}`
 
