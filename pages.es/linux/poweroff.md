@@ -19,6 +19,6 @@
 
 `poweroff --force`
 
-- Escribe la entrada wtmp sin apagar el sistema:
+- Escribe una entrada en el archivo wtmp sin apagar el sistema:
 
 `poweroff --wtmp-only`
