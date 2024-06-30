@@ -8,7 +8,7 @@
 
 `mist list firmware`
 
-- Lista de todos los instaladores de macOS disponibles para los Mac Intel, incluidos los instaladores universales para macOS Big Sur y versiones posteriores:
+- Lista todos los instaladores de macOS disponibles para Mac Intel, incluidos los instaladores universales para macOS Big Sur y versiones posteriores:
 
 `mist list installer`
 
