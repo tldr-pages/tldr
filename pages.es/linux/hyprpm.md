@@ -5,7 +5,7 @@
 
 - Añade un complemento:
 
-`hyprpm add {{url_git}}`
+`hyprpm add {{url_de_repositorio_git}}`
 
 - Elimina un complemento:
 
