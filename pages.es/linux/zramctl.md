@@ -20,6 +20,6 @@
 
 `sudo zramctl --find --size {{2GB}} --algorithm {{lz4}}`
 
-- Lista de dispositivos actualmente inicializados:
+- Lista los dispositivos actualmente inicializados:
 
 `sudo zramctl`
