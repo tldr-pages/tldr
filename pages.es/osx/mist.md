@@ -16,7 +16,7 @@
 
 `mist list installer --compatible`
 
-- Lista todos los instaladores de macOS disponibles para los Mac Intel, incluidas las betas tanto como también los instaladores universales para macOS Big Sur y versiones posteriores:
+- Lista todos los instaladores de macOS disponibles para Mac Intel, incluidas las betas tanto como también los instaladores universales para macOS Big Sur y versiones posteriores:
 
 `mist list installer --include-betas`
 
