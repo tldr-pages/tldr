@@ -12,7 +12,7 @@
 
 `mist list installer`
 
-- Lista todos los instaladores de macOS compatibles con este Mac, incluidos los instaladores universales de macOS Big Sur y posteriores:
+- Lista todos los instaladores de macOS compatibles con esta Mac, incluidos los instaladores universales de macOS Big Sur y posteriores:
 
 `mist list installer --compatible`
 
