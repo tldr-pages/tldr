@@ -15,7 +15,7 @@
 
 `knotc zone-commit {{zona}}`
 
-- Obtiene los datos de la zona actual:
+- Obtén los datos de la zona actual:
 
 `knotc zone-read {{zona}}`
 
