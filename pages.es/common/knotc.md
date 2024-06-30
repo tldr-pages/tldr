@@ -19,6 +19,6 @@
 
 `knotc zone-read {{zona}}`
 
-- Obtiene la configuración actual del servidor:
+- Obtén la configuración actual del servidor:
 
 `knotc conf-read server`
