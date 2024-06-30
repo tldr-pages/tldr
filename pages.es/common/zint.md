@@ -3,7 +3,7 @@
 > Genera códigos de barras y códigos QR.
 > Más información: <https://www.zint.org.uk/manual/chapter/4>.
 
-- Genera un código de barras y lo guarda:
+- Crea un archivo con un código de barras:
 
 `zint --data "{{datos_UTF-8}}" --output {{ruta/al/archivo}}`
 
