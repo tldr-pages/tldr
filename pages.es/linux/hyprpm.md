@@ -9,7 +9,7 @@
 
 - Elimina un complemento:
 
-`hyprpm remove {{git_url|nombre_del_complemento}}`
+`hyprpm remove {{url_de_repositorio_git|nombre_del_complemento}}`
 
 - Activa un complemento:
 
