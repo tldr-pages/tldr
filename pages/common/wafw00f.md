@@ -7,7 +7,7 @@
 
 `wafw00f {{https://www.example.com}}`
 
-- Test for [a]ll detectable WAFs without stopping at first match:
+- Test for [a]ll detectable WAFs without stopping at the first match:
 
 `wafw00f --findall {{https://www.example.com}}`
 
