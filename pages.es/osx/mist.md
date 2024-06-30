@@ -20,7 +20,7 @@
 
 `mist list installer --include-betas`
 
-- Lista solo el último instalador de macOS Sonoma para los Macs Intel, incluidos los instaladores universales de macOS Big Sur y posteriores:
+- Lista solo el último instalador de macOS Sonoma para las Macs Intel, incluidos los instaladores universales de macOS Big Sur y posteriores:
 
 `mist list installer --latest "macOS Sonoma"`
 
