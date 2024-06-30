@@ -11,6 +11,6 @@
 
 `zint --barcode {{tipo_de_código}} --data "{{datos_UTF-8}}" --output {{ruta/al/archivo}}`
 
-- Lista todos los tipos de código admitidos:
+- Lista todos los tipos de códigos de barras soportados:
 
 `zint --types`
