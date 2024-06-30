@@ -7,7 +7,7 @@
 
 `poweroff`
 
-- Detiene el sistema (igual que `halt`):
+- Detén el sistema (igual que `halt`):
 
 `poweroff --halt`
 
