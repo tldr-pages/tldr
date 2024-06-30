@@ -7,7 +7,7 @@
 
 `zint --data "{{datos_UTF-8}}" --output {{ruta/al/archivo}}`
 
-- Especifica un tipo de código para su generación:
+- Crea un archivo con otro tipo de código de barras:
 
 `zint --barcode {{tipo_de_código}} --data "{{datos_UTF-8}}" --output {{ruta/al/archivo}}`
 
