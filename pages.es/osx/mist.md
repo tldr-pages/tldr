@@ -28,7 +28,7 @@
 
 `mist list installer --export "{{/ruta/a/exportación.csv}}"`
 
-- Descarga el último Firmware de macOS Sonoma para los Mac Silicon de Apple, con un nombre personalizado:
+- Descarga el último firmware de macOS Sonoma para los Mac Silicon de Apple, con un nombre personalizado:
 
 `mist download firmware "macOS Sonoma" --firmware-name "{{Install %NAME% %VERSION%-%BUILD%.ipsw}}"`
 
