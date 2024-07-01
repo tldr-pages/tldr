@@ -6,7 +6,7 @@
   "repository": "tldr-pages/tldr",
   "homepage": "https://tldr.sh/",
   "dependencies": {
-    "glob": "10.4.1",
+    "glob": "10.4.2",
     "markdownlint-cli": "^0.41.0",
     "tldr-lint": "^0.0.15"
   },
