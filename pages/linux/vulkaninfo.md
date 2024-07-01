@@ -10,3 +10,7 @@
 - Print a summary:
 
 `vulkaninfo --summary`
+
+- Make a HTML document of the full Vulkan information:
+
+`vulkaninfo --html`
