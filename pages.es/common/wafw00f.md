@@ -27,6 +27,6 @@
 
 `wafw00f --input {{ruta/a/urls.txt}} -v{{v}}`
 
-- l]ista todos los WAF que pueden detectarse:
+- [l]ista todos los WAF que pueden detectarse:
 
 `wafw00f --list`
