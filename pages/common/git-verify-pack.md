@@ -6,3 +6,11 @@
 - Verify a packed Git archive file:
 
 `git verify-pack {{path/to/pack-file}}`
+
+- Verify a packed Git archive file and show verbose details:
+
+`git verify-pack --verbose {{path/to/pack-file}}`
+
+- Verify a packed Git archive file and only display statistics:
+
+`git verify-pack --stat-only {{path/to/pack-file}}`
