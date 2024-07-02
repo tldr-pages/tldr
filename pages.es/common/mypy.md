@@ -17,7 +17,7 @@
 
 - Comprueba una cadena de código:
 
-`mypy -c "{{código}}"` 
+`mypy -c "{{código}}"`
 
 - Ignora importaciones faltantes:
 
