@@ -5,7 +5,7 @@
 
 - Apaga el sistema:
 
-`poweroff`
+`sudo poweroff`
 
 - Detén el sistema (igual que `halt`):
 
