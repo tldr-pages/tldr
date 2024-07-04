@@ -8,7 +8,7 @@
 
 `huggingface-cli login`
 
-- See the Username who logged in:
+- Display the name of the logged in user:
 
 `huggingface-cli whoami`
 
