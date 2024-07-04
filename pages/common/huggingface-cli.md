@@ -32,6 +32,6 @@
 
 `huggingface-cli scan-cache`
 
-- Delete cache interactively:
+- Delete the cache interactively:
 
 `huggingface-cli delete-cache`
