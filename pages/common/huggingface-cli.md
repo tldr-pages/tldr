@@ -1,0 +1,41 @@
+# huggingface-cli
+
+> A CLI to interact with Huggingface Hub.
+> Login, manage local cache, download or upload files.
+> More information: <https://huggingface.co/docs/huggingface_hub/guides/cli>.
+
+- Login to Huggingface Hub:
+
+`huggingface-cli login`
+
+- See the Username who logged in:
+
+`huggingface-cli whoami`
+
+- Log out:
+
+`huggingface-cli logout`
+
+- Print information about the environment:
+
+`huggingface-cli env`
+
+- Download an entire repository and print out the path (you can omit repo_type if it is 'model'):
+
+`huggingface-cli download --repo-type {{repo_type}} {{repo_id}}`
+
+- Download number of files from an repository and print out the path:
+
+`huggingface-cli download --repo-type {{repo_type}} {{repo_id}} {{filename1, filename2}}`
+
+- Upload an entire folder or a file to Huggingface:
+
+`huggingface-cli upload --repo-type {{repo_type}} {{repo_id}} {{local_path}} {{path_in_repo}}`
+
+- Scan cache to see downloaded repositories and their disk usage:
+
+`huggingface-cli scan-cache`
+
+- Delete cache interactively:
+
+`huggingface-cli delete-cache`
