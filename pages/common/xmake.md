@@ -15,7 +15,7 @@
 
 `xmake run {{target_name}}`
 
-- Configure an project's build targets:
+- Configure a project's build targets:
 
 `xmake config --plat={{macosx|linux|iphoneos|...}} --arch={{x86_64|i386|arm64|...}} --mode={{debug|release}}`
 
