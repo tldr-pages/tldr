@@ -11,6 +11,6 @@
 
 `git verify-pack --verbose {{path/to/pack-file}}`
 
-- Verify a packed Git archive file and only display statistics:
+- Verify a packed Git archive file and display only the statistics:
 
 `git verify-pack --stat-only {{path/to/pack-file}}`
