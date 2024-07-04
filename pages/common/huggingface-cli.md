@@ -22,7 +22,7 @@
 
 - Download number of files from an repository and print out the path (omit filenames to download entire repository):
 
-`huggingface-cli download --repo-type {{repo_type}} {{repo_id}} {{filename1, filename2}}`
+`huggingface-cli download --repo-type {{repo_type}} {{repo_id}} {{filename1 filename2 ...}}`
 
 - Upload an entire folder or a file to Huggingface:
 
