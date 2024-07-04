@@ -1,10 +1,10 @@
 # huggingface-cli
 
-> Interact with Huggingface Hub.
+> Interact with Hugging Face Hub.
 > Login, manage local cache, download or upload files.
 > More information: <https://huggingface.co/docs/huggingface_hub/guides/cli>.
 
-- Login to Huggingface Hub:
+- Login to Hugging Face Hub:
 
 `huggingface-cli login`
 
@@ -24,7 +24,7 @@
 
 `huggingface-cli download --repo-type {{repo_type}} {{repo_id}} {{filename1 filename2 ...}}`
 
-- Upload an entire folder or a file to Huggingface:
+- Upload an entire folder or a file to Hugging Face:
 
 `huggingface-cli upload --repo-type {{repo_type}} {{repo_id}} {{local_path}} {{path_in_repo}}`
 
