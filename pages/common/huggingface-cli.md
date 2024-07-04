@@ -1,6 +1,6 @@
 # huggingface-cli
 
-> A CLI to interact with Huggingface Hub.
+> Interact with Huggingface Hub.
 > Login, manage local cache, download or upload files.
 > More information: <https://huggingface.co/docs/huggingface_hub/guides/cli>.
 
