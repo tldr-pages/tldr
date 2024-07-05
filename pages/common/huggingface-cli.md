@@ -26,7 +26,7 @@
 
 - Upload an entire folder or a file to Hugging Face:
 
-`huggingface-cli upload --repo-type {{repo_type}} {{repo_id}} {{local_path}} {{path_in_repo}}`
+`huggingface-cli upload --repo-type {{repo_type}} {{repo_id}} {{path/to/local_file_or_directory}} {{path/to/repo_file_or_directory}}`
 
 - Scan cache to see downloaded repositories and their disk usage:
 
