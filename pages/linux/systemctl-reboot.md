@@ -1,0 +1,12 @@
+# systemctl reboot
+
+> Reboot the system.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+
+- Reboot the system:
+
+`systemctl reboot`
+
+- Reboot into BIOS/UEFI menu:
+
+`systemctl reboot --firmware-setup`
