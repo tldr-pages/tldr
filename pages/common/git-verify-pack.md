@@ -1,6 +1,6 @@
 # git verify-pack
 
-> Validate packed Git archive files.
+> Verify packed Git archive files.
 > More information: <https://git-scm.com/docs/git-verify-pack>.
 
 - Verify a packed Git archive file:
