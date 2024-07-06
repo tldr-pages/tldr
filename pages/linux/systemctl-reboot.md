@@ -7,6 +7,6 @@
 
 `systemctl reboot`
 
-- Reboot into BIOS/UEFI menu:
+- Reboot into the BIOS/UEFI menu:
 
 `systemctl reboot --firmware-setup`
