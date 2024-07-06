@@ -1,6 +1,6 @@
 # vulkaninfo
 
-> Display system Vulkan information.
+> Print system Vulkan information.
 > More information: <https://vulkan.lunarg.com/doc/view/latest/linux/vulkaninfo.html>.
 
 - Print full Vulkan information:
