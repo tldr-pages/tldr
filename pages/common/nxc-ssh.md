@@ -6,7 +6,7 @@
 
 - Spray the specified [p]assword against a list of [u]sernames on the specified target:
 
-`nxc ssh {{192.168.178.2}} -u {{path/to/usernames.txt}} -p {{hunter2}}`
+`nxc ssh {{192.168.178.2}} -u {{path/to/usernames.txt}} -p {{password}}`
 
 - Search for valid credentials by trying out every combination in the specified lists of [u]sernames and [p]asswords:
 
