@@ -1,6 +1,6 @@
 # factorio
 
-> Create and start a headless factorio server.
+> Create and start a headless Factorio server.
 > More information: <https://wiki.factorio.com/Multiplayer>.
 
 - Create a new save file:
