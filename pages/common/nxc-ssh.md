@@ -23,4 +23,3 @@
 - Check for `sudo` privileges on a successful login:
 
 `nxc ssh {{192.168.178.2}} -u {{username}} -p {{path/to/passwords.txt}} --sudo-check`
-
