@@ -19,6 +19,6 @@
 
 `nnn -b {{bookmark_name}}`
 
-- Sort files on- [a]pparent disk usage / [d]isk usage / [e]xtension / [r]everse / [s]ize / [t]ime / [v]ersion:
+- Sort files on [a]pparent disk usage / [d]isk usage / [e]xtension / [r]everse / [s]ize / [t]ime / [v]ersion:
 
-`nnn -T {{a/d/e/r/s/t/v}}`
+`nnn -T {{a|d|e|r|s|t|v}}`
