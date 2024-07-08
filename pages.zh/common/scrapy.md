@@ -4,7 +4,7 @@
 > 更多信息：<https://scrapy.org>.
 
 - 创建一个项目
-  
+
 `scrapy startproject {{项目名}}`
 
 - 创建一个爬虫（在项目目录下）
