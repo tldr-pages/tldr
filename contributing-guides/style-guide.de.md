@@ -27,7 +27,7 @@ Er wird automatisch bei jeder Pull Request ausgeführt,
 er kann aber auch manuell installiert werden, um neue Seiten schon vorher zu überprüfen:
 
 ```sh
-npm install --global tldr-lint
+bun install --global tldr-lint
 tldr-lint {{seite.md}}
 ```
 

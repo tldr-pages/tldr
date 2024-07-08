@@ -29,7 +29,7 @@
 你也可以在提交前在本地测试自己的贡献：
 
 ```sh
-npm install --global tldr-lint
+bun install --global tldr-lint
 tldr-lint {{page.md}}
 ```
 

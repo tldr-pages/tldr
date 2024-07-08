@@ -176,7 +176,7 @@ See these examples for reference:
 
 Translation of pages can be done by simply creating the corresponding page within the appropriate [language-specific directory](#directory-structure), creating that as well if it does not already exist.
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > When adding a new language to `tldr`, it is suggested to add it to the [translation templates](contributing-guides/translation-templates) along with any page additions.
 
 > [!TIP]
@@ -208,10 +208,10 @@ Of course, this shouldn't sacrifice content clarity, such as when documenting to
 
 Once you have written a `tldr` page, you can test its syntax locally using [`tldr-lint`](https://github.com/tldr-pages/tldr-lint).
 
-The latest version of [NodeJS](https://nodejs.org) is required to install `tldr-lint` with the following command:
+The latest version of [Bun](https://bun.sh/) is required to install `tldr-lint` with the following command:
 
 ```sh
-npm install --global tldr-lint
+bun install --global tldr-lint
 ```
 
 Once it is installed, you can test your page by running the following command:

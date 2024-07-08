@@ -72,7 +72,7 @@ It is run automatically on every pull request,
 but you may install it to test your contributions locally before submitting them:
 
 ```sh
-npm install --global tldr-lint
+bun install --global tldr-lint
 tldr-lint path/to/tldr_page.md
 ```
 

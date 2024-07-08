@@ -63,7 +63,7 @@
 모든 pull 요청에 대해 자동으로 실행되지만, 제출하기 전 local에서 테스트하기 위해 설치할 수 있습니다.
 
 ```sh
-npm install --global tldr-lint
+bun install --global tldr-lint
 tldr-lint path/to/tldr_page.md
 ```
 

@@ -1,6 +1,6 @@
 name: Codespell
 
-on: 
+on:
   pull_request:
     # Ignore all other languages except English
     paths-ignore:

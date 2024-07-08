@@ -23,7 +23,7 @@ function build_index {
     return
   fi
 
-  npm run build-index
+  bun run build-index
   echo "Pages index successfully built."
 }
 

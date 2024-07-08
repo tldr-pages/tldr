@@ -71,7 +71,7 @@ function run_pytest {
   fi
 }
 
-# Default test function, run by `npm test`.
+# Default test function, run by `bun run test`.
 function run_tests {
   find pages* -name '*.md' -exec markdownlint {} +
   tldr-lint ./pages

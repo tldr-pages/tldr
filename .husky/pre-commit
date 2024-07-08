@@ -1,1 +1,1 @@
-npm test
+bun run test
