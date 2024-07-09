@@ -3,7 +3,7 @@
 > 用于安装 Python 包。
 > 更多信息：<https://pip.pypa.io/>.
 
-- 安装指定包：
+- 安装包：
 
 `pip install {{包名}}`
 
@@ -17,20 +17,12 @@
 
 - 通过指定的依赖文件安装（通常文件名是 requirements.txt）:
 
-`pip install -r requirements.txt`
+`pip install -r {{requirements.txt}}`
 
-- 通过 wheels 文件（扩展名 *.whl）安装：
+- 通过 URL 或源码存档文件安装（如 *.tar.gz 或 *.whl）:
 
-`pip install {{包名-1.0-py2.py3-none-any.whl}}`
+`pip install --find-links {{url|存档文件}}`
 
-- 通过源码存档文件安装（如 *.tar.gz）：
+- 在本地的项目路径下以开发模式（editable）安装（通常是读取 pyproject.toml 或 setup.py 文件）：
 
-`pip install {{源存档文件路径}}`
-
-- 通过版本控制软件提供的项目 URL 安装：
-
-`pip install {{项目仓库URL}}`
-
-- 在本地的项目路径下安装（通常是读取 pyproject.toml 或 setup.py 文件）：
-
-`pip install .`
+`pip install --editable {{.}}`
