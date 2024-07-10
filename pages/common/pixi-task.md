@@ -1,0 +1,20 @@
+# pixi task
+
+> Manage tasks in the project environment.
+> More information: <https://pixi.sh/latest/reference/cli/#task>.
+
+- Create a new task:
+
+`pixi task add {{task-name}} {{task-command}}`
+
+- List all tasks in the project:
+
+`pixi task list`
+
+- Remove a task:
+
+`pixi task remove {{task-name}}`
+
+- Create an alias for a task:
+
+`pixi task alias {{alias-name}} {{task-1 task-2 ...}}`
