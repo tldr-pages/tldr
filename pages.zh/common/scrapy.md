@@ -1,6 +1,6 @@
 # scrapy
 
-> Web爬取框架。
+> Web 爬取框架。
 > 更多信息：<https://scrapy.org>.
 
 - 创建一个项目：
