@@ -1,6 +1,6 @@
 # pixi global
 
-> Pixi global package management actions.
+> Manage global packages.
 > More information: <https://pixi.sh/latest/reference/cli/#global>.
 
 - Install a package globally and add to path:
