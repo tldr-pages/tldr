@@ -5,7 +5,7 @@
 
 - Initialize a new project:
 
-`pixi init {{project-path}}`
+`pixi init {{path/to/project}}`
 
 - Add project dependencies:
 
