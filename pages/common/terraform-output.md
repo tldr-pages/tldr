@@ -11,7 +11,7 @@
 
 `terraform output {{name}}`
 
-- Converr the output value to a raw string (useful for shell scripts):
+- Convert the output value to a raw string (useful for shell scripts):
 
 `terraform output -raw`
 
