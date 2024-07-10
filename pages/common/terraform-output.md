@@ -9,7 +9,7 @@
 
 - A `name` can be specified to output only a value with that name:
 
-`terraform output <name>`
+`terraform output {{name}}`
 
 - Converr the output value to a raw string (useful for shell scripts):
 
