@@ -5,7 +5,7 @@
 
 - Create a new task:
 
-`pixi task add {{task-name}} {{task-command}}`
+`pixi task add {{task_name}} {{task_command}}`
 
 - List all tasks in the project:
 
