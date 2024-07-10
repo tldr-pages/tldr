@@ -7,7 +7,7 @@
 
 `terraform output`
 
-- A `name` can be specified to output only a value with that name:
+- Output only a value with specific name:
 
 `terraform output {{name}}`
 
