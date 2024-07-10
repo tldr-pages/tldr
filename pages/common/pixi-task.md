@@ -13,7 +13,7 @@
 
 - Remove a task:
 
-`pixi task remove {{task-name}}`
+`pixi task remove {{task_name}}`
 
 - Create an alias for a task:
 
