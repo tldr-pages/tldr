@@ -17,4 +17,4 @@
 
 - Create an alias for a task:
 
-`pixi task alias {{alias-name}} {{task-1 task-2 ...}}`
+`pixi task alias {{alias-name}} {{task1 task2 ...}}`
