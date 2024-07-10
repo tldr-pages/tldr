@@ -5,11 +5,11 @@
 
 - Install a package globally and add to path:
 
-`pixi global install {{package-1 package-2 ...}}`
+`pixi global install {{package1 package2 ...}}`
 
 - Uninstall a package globally:
 
-`pixi global remove {{package-1 package-2 ...}}`
+`pixi global remove {{package1 package2 ...}}`
 
 - List all globally installed packages:
 
