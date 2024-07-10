@@ -11,7 +11,7 @@
 
 `bats --count {{path/to/test.bats}}`
 
-- Run BATS test cases [r]ecursively in a directory and its subdirectories (files with a `.bats` extension):
+- Run BATS test cases [r]ecursively (files with a `.bats` extension):
 
 `bats --recursive {{path/to/directory}}`
 
