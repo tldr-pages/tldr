@@ -9,7 +9,7 @@
 
 - Add project dependencies:
 
-`pixi add {{dependency-1 dependency-2 ...}}`
+`pixi add {{dependency1 dependency2 ...}}`
 
 - Start a pixi shell in the project environment:
 
