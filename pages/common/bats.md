@@ -23,6 +23,6 @@
 
 `bats --timing {{path/to/test.bats}}`
 
-- Run multiple [j]obs in parallel (requires GNU `parallel` to be installed):
+- Run specific number of [j]obs in parallel (requires GNU `parallel` to be installed):
 
 `bats --jobs {{number}} {{path/to/test.bats}}`
