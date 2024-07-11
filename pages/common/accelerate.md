@@ -1,4 +1,4 @@
-# Accelerate
+# accelerate
 
 > A library that enables the same PyTorch code to be run across any distributed configuration.
 > More information: <https://huggingface.co/docs/accelerate/index>.
