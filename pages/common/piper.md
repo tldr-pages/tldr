@@ -10,7 +10,7 @@
 
 - Output a WAV [f]ile using a [m]odel and specifying its JSON [c]onfig file:
 
-`echo {{Thing to say}} | piper -m {{path/to/model.onnx}} -c {{path/to/model.onnx.json}} -f {{outputfile.wav}}`
+`echo {{'Thing to say'}} | piper -m {{path/to/model.onnx}} -c {{path/to/model.onnx.json}} -f {{outputfile.wav}}`
 
 - Select a particular speaker in a voice with multiple speakers by specifying the speaker's ID number:
 
