@@ -22,4 +22,4 @@
 
 - Habla el doble de rápido, con grandes espacios entre frases:
 
-`echo {{'Hablando el doble de rápido. Con más drama!'} | piper -m {{foo.onnx}} --length_scale {{0.5}} --sentence_silence {{2}} -f {{drama.wav}}`
+`echo {{'Hablando el doble de rápido. Con más drama!'}} | piper -m {{foo.onnx}} --length_scale {{0.5}} --sentence_silence {{2}} -f {{drama.wav}}`
