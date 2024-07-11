@@ -22,11 +22,11 @@
 
 - Descarga archivos de un repositorio e imprime la ruta (omite los nombres de archivo para descargar todo el repositorio):
 
-`huggingface-cli download --repo-type {{tipo_de_repositorio}} {{id_de_repositorio}} {{nombre_archivo1 nombre_archivo2 ...}}`
+`huggingface-cli download --repo-type {{repo_type}} {{repo_id}} {{nombre_archivo1 nombre_archivo2 ...}}`
 
 - Sube una carpeta entera o un archivo a Hugging Face:
 
-`huggingface-cli upload --repo-type {{tipo_de_repositorio}} {{id_de_repositorio}} {{ruta/a/archivo_de_repositorio_o_directorio_de_repositorio}}`
+`huggingface-cli upload --repo-type {{repo_type}} {{repo_id}} {{ruta/a/archivo_de_repositorio_o_directorio_de_repositorio}}`
 
 - Vea la caché para ver los repositorios descargados y su uso de disco:
 
