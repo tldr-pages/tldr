@@ -5,16 +5,21 @@
 > More information: <https://doggo.mrkaran.dev>.
 
 - Simple DNS lookup:
+
 `doggo {{example.com}}`
 
 - Query MX records using a specific nameserver:
+
 `doggo MX {{codeberg.org}} @{{1.1.1.2}}`
 
 - Use DNS over HTTPS:
+
 `doggo {{example.com}} @{{https://dns.quad9.net/dns-query}}`
 
 - JSON output for scripting:
+
 `doggo {{example.com}} --json | jq '{{.responses[0].answers[].address}}'`
 
 - Reverse DNS lookup:
+
 `doggo --reverse {{8.8.4.4}} --short`
