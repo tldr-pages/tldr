@@ -18,7 +18,7 @@
 
 - Transmite la salida al reproductor multimedia mpv:
 
-`echo {{'Hola mundo'}} | piper -m {{en_GB-northern_english_male-medium.onnx}} --output-raw -f - | mpv -`
+`echo {{'Hello world'}} | piper -m {{en_GB-northern_english_male-medium.onnx}} --output-raw -f - | mpv -`
 
 - Habla el doble de rápido, con grandes espacios entre frases:
 
