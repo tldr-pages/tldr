@@ -16,7 +16,7 @@
 
 `doggo {{example.com}} @{{https://dns.quad9.net/dns-query}}`
 
-- JSON output for scripting:
+- Output in the JSON format:
 
 `doggo {{example.com}} --json | jq '{{.responses[0].answers[].address}}'`
 
