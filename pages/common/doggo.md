@@ -20,6 +20,6 @@
 
 `doggo {{example.com}} --json | jq '{{.responses[0].answers[].address}}'`
 
-- Reverse DNS lookup:
+- Perform a reverse DNS lookup:
 
 `doggo --reverse {{8.8.4.4}} --short`
