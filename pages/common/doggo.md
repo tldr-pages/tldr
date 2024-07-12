@@ -4,7 +4,7 @@
 > Written in Golang.
 > More information: <https://doggo.mrkaran.dev>.
 
-- Simple DNS lookup:
+- Perform a simple DNS lookup:
 
 `doggo {{example.com}}`
 
