@@ -7,7 +7,7 @@
 
 `{{cat path/to/file.json}} | jq '.'`
 
-- Execute a specific expression only using jq binary (print a colored and formatted JSON output):
+- Execute a specific expression only using the `jq` binary (print a colored and formatted JSON output):
 
 `jq '.' {{/path/to/file.json}}`
 
