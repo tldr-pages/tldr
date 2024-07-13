@@ -9,7 +9,7 @@
 
 - Execute a specific expression only using jq binary (print a colored and formatted JSON output):
 
-`jq . '/path/to/file.json'`
+`jq '.' {{/path/to/file.json}}`
 
 - Execute a specific script:
 
