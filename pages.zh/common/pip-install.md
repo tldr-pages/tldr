@@ -11,10 +11,6 @@
 
 `pip install "{{包名}}=={{版本号}}"`
 
-- 安装满足最低版本要求的包：
-
-`pip install "{{包名}}>={{版本号}}"`
-
 - 通过指定的依赖文件安装（通常文件名是 requirements.txt）：
 
 `pip install -r {{requirements.txt}}`
