@@ -65,7 +65,7 @@ Example:
 ```
 
 > [!NOTE]
-> The filename and page title must match the command name exactly. The page title can be present in any case, whereas the filenames must be lowercase.
+> The page's filename and title must match the command name exactly. The page title can be present in any case, whereas the page's Markdown filenames must be lowercase.
 
 There is a linter that enforces the format above.
 It is run automatically on every pull request,
