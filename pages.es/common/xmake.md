@@ -17,7 +17,7 @@
 
 - Configura los objetivos de compilación de un proyecto:
 
-`xmake config --plat={{macosx|linux|iphoneos|...}} --arch={{x86_64|i386|arm64| ..}} --mode={debug|release}}`
+`xmake config --plat={{macosx|linux|iphoneos|...}} --arch={{x86_64|i386|arm64| ..}} --mode={{debug|release}}`
 
 - Instala el objetivo compilado en un directorio:
 
