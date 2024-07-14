@@ -1,6 +1,6 @@
 # doggo
 
-> Command-line DNS client for Humans.
+> DNS client for Humans.
 > Written in Golang.
 > More information: <https://doggo.mrkaran.dev>.
 
