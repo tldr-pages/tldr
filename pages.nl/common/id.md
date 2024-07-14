@@ -7,11 +7,19 @@
 
 `id`
 
+- Toon de identiteit van de huidige gebruiker:
+
+`id -un`
+
 - Toon de identiteit van de huidige gebruiker als een nummer:
 
 `id -u`
 
-- Toon de identiteit van de huidige groep als een nummer:
+- Toon de identiteit van de huidige primaire groepsidentiteit:
+
+`id -gn`
+
+- Toon de identiteit van de huidige primaire groepsidentiteit als een nummer:
 
 `id -g`
 
