@@ -7,9 +7,9 @@
 
 `gdown {{url}}`
 
-- Download using file ID:
+- Download using a file ID:
 
-`gdown {{FILE_ID}}`
+`gdown {{file_id}}`
 
 - Download with fuzzy file ID extraction (also works with `docs.google.com` links):
 
