@@ -11,9 +11,9 @@
 
 `gdown {{file_id}}`
 
-- Download with fuzzy file ID extraction (also works with `docs.google.com` links):
+- Download with fuzzy file ID extraction (also works with <https://docs.google.com> links):
 
-`gdown --fuzzy '{{URL}}'`
+`gdown --fuzzy {{url}}`
 
 - Download a folder:
 
