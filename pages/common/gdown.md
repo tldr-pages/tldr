@@ -5,7 +5,7 @@
 
 - Download a file from a URL:
 
-`gdown https://drive.google.com/uc?id={{FILE_ID}}`
+`gdown {{url}}`
 
 - Download using file ID:
 
