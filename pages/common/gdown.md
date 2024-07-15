@@ -1,7 +1,6 @@
 # gdown
 
 > Download files from Google Drive and other URLs.
-> Install: `pip install gdown`.
 > More information: <https://github.com/wkentaro/gdown>.
 
 - Download a file from a URL:
