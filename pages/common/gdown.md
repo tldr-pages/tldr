@@ -21,4 +21,4 @@
 
 - Write stdout and pipe to extract:
 
-`gdown https://github.com/wkentaro/gdown/archive/refs/tags/v4.0.0.tar.gz -O - --quiet | tar zxvf -`
+`gdown {{tar_url}} -O - --quiet | tar zxvf -`
