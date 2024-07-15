@@ -1,7 +1,7 @@
 # run0
 
 > Elevate privileges interactively.
-> Similar to `sudo`, but it's not a SUID binary, authentication takes place via polkit, and commands are invoked from a systemd service.
+> Similar to `sudo`, but it's not a SUID binary, authentication takes place via polkit, and commands are invoked from a `systemd` service.
 > More information: <https://www.freedesktop.org/software/systemd/man/latest/run0.html>.
 
 - Run a command as root:
