@@ -6,7 +6,7 @@
 
 - Realiza una simple búsqueda DNS:
 
-`doggo {{ejemplo.com}}`
+`doggo {{example.com}}`
 
 - Consulta registros MX usando un servidor de nombres específico:
 
@@ -14,11 +14,11 @@
 
 - Utiliza DNS sobre HTTPS:
 
-`doggo {{ejemplo.com}} @{{https://dns.quad9.net/dns-query}}`
+`doggo {{example.com}} @{{https://dns.quad9.net/dns-query}}`
 
 - Salida en formato JSON:
 
-`doggo {{ejemplo.com}} --json | jq '{{.responses[0].answers[].address}}'`
+`doggo {{example.com}} --json | jq '{{.responses[0].answers[].address}}'`
 
 - Realiza una búsqueda DNS inversa:
 
