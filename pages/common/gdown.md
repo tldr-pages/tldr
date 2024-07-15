@@ -15,9 +15,9 @@
 
 `gdown --fuzzy {{url}}`
 
-- Download a folder:
+- Download a folder using its ID or the full URL:
 
-`gdown https://drive.google.com/drive/folders/{{FOLDER_ID}} -O {{/tmp/folder}} --folder`
+`gdown {{folder_id|url}} -O {{path/to/output_directory}} --folder`
 
 - Write stdout and pipe to extract:
 
