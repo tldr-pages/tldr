@@ -1,6 +1,6 @@
 # gdown
 
-> Сommand-line tool to download files from Google Drive and other URLs.
+> Download files from Google Drive and other URLs.
 > Install: `pip install gdown`.
 > More information: <https://github.com/wkentaro/gdown>.
 
