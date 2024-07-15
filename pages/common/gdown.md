@@ -24,8 +24,6 @@
 
 `gdown https://github.com/wkentaro/gdown/archive/refs/tags/v4.0.0.tar.gz -O - --quiet | tar zxvf -`
 
-- Maxi Command (Most options example): Download folder from https://drive.google.com/drive/folders/FOLDER_ID with [fuzzy] extraction of the file ID from the URL,
-using a specified [proxy] server, cookies disabled, SSL certificate check skipped, resuming partially downloaded files,
-ignoring any missing files within the folder, specifying the output directory, and suppressing output messages for a quieter download process.
+- Maxi Command (Most options example):
 
 `gdown --fuzzy --proxy "http://proxy.example.com:8080" --no-cookies --no-check-certificate --continue --folder --remaining-ok "https://drive.google.com/drive/folders/FOLDER_ID" -O /tmp/folder --quiet`
