@@ -19,6 +19,6 @@
 
 `gdown {{folder_id|url}} -O {{path/to/output_directory}} --folder`
 
-- Write stdout and pipe to extract:
+- Download a tar archive, write it to `stdout` and extract it:
 
-`gdown {{tar_url}} -O - --quiet | tar zxvf -`
+`gdown {{tar_url}} -O - --quiet | tar xvf -`
