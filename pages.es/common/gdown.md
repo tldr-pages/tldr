@@ -11,7 +11,7 @@
 
 `gdown {{id_de_archivo}}`
 
-- Descarga con extracción de ID de archivo difuso (también funciona con enlaces <https://docs.google.com>)
+- Descarga con extracción de ID de archivo difuso (también funciona con enlaces <https://docs.google.com>):
 
 `gdown --fuzzy {{url}}`
 
