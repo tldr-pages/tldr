@@ -27,3 +27,7 @@
 - [l]ist all pages for the current platform and `common`:
 
 `tldr --list`
+
+- [l]ist all available subcommands for the current platform in tldr pages:
+
+`tldr --list | grep {{command}} | column`
