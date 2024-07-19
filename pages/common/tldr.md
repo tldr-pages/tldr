@@ -28,6 +28,6 @@
 
 `tldr --list`
 
-- [l]ist all available subcommands for the current platform in tldr pages:
+- [l]ist all available subcommand pages for a command:
 
 `tldr --list | grep {{command}} | column`
