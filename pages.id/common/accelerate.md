@@ -1,4 +1,4 @@
-# Accelerate
+# accelerate
 
 > Sebuah pustaka/library yang memungkinkan kode PyTorch yang sama dapat dijalankan secara menyebar.
 > Informasi lebih lanjut: <https://huggingface.co/docs/accelerate/index>.
