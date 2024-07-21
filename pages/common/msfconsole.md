@@ -15,7 +15,7 @@
 
 `msfconsole --no-database`
 
-- E[x]ecute console commands (use ; for multiples):
+- E[x]ecute console commands (Note: use `;` for passing multiple commands):
 
 `msfconsole --execute-command "{{use auxiliary/server/capture/ftp; set SRVHOST 0.0.0.0; set SRVPORT 21; run}}"`
 
