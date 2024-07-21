@@ -3,6 +3,14 @@
 > A modular and parallel login brute-forcer for a variety of protocols.
 > More information: <https://jmk-foofus.github.io/medusa/medusa.html>.
 
+- List all installed modules:
+
+`medusa -d`
+
+- Show usage example of a specific module (use `medusa -d` for listing all available modules):
+
+`medusa -M {{ssh|http|web-form|postgres|ftp|mysql|...}} -q`
+
 - Execute brute force against an FTP server using a file containing usernames and a file containing passwords:
 
 `medusa -M ftp -h host -U {{path/to/username_file}} -P {{path/to/password_file}}`
