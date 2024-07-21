@@ -19,6 +19,6 @@
 
 `msfconsole --execute-command "{{use auxiliary/server/capture/ftp; set SRVHOST 0.0.0.0; set SRVPORT 21; run}}"`
 
-- Display [v]ersion information:
+- Display [v]ersion:
 
 `msfconsole --version`
