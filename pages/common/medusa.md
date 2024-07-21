@@ -1,4 +1,4 @@
-# Medusa
+# medusa
 
 > A modular and parallel login brute-forcer for a variety of protocols.
 > More information: <https://jmk-foofus.github.io/medusa/medusa.html>.
@@ -7,7 +7,7 @@
 
 `medusa -d`
 
-- Show usage example of a specific module (use `medusa -d` for listing all available modules):
+- Show usage example of a specific module (use `medusa -d` for listing all installed modules):
 
 `medusa -M {{ssh|http|web-form|postgres|ftp|mysql|...}} -q`
 
