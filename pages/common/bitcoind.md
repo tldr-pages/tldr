@@ -2,7 +2,7 @@
 
 > Bitcoin Core daemon.
 > Uses the configuration defined in `bitcoin.conf`.
-> More information: <https://manned.org/man/bitcoind>.
+> More information: <https://manned.org/bitcoind>.
 
 - Start the Bitcoin Core daemon (in the foreground):
 
