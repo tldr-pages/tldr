@@ -24,6 +24,6 @@
 
 `qalc --{{list-functions|list-prefixes|list-units|list-variables}}`
 
-- Execute commands from a [f]ile first:
+- Execute commands from a [f]ile:
 
 `qalc --file {{path/to/file}}`
