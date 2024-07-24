@@ -32,6 +32,6 @@
 
 `bitcoin-cli getnetworkinfo`
 
-- Stop the bitcoin daemon:
+- Stop the Bitcoin Core daemon:
 
 `bitcoin-cli stop`
