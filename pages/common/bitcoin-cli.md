@@ -23,3 +23,15 @@
 - Export the wallet information to a text file:
 
 `bitcoin-cli dumpwallet "{{path/to/file}}"`
+
+- Get blockchain info:
+
+`bitcoin-cli getblockchaininfo`
+
+- Get network info:
+
+`bitcoin-cli getnetworkinfo`
+
+- Stop the bitcoin daemon:
+
+`bitcoin-cli stop`
