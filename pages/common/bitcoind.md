@@ -12,7 +12,7 @@
 
 `bitcoind -daemon`
 
-- Start Bitcoin Core daemon on a specific network:
+- Start the Bitcoin Core daemon on a specific network:
 
 `bitcoind -chain={{main|test|signet|regtest}}`
 
