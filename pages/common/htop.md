@@ -11,7 +11,7 @@
 
 `htop --user {{username}}`
 
-- Displays processes hierarchically in a tree view to show parent-child relationships:
+- Display processes hierarchically in a tree view to show the parent-child relationships:
 
 `htop --tree`
 
