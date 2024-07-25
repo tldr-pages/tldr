@@ -24,11 +24,11 @@
 
 `bitcoin-cli dumpwallet "{{path/to/file}}"`
 
-- Get blockchain info:
+- Get blockchain information:
 
 `bitcoin-cli getblockchaininfo`
 
-- Get network info:
+- Get network information:
 
 `bitcoin-cli getnetworkinfo`
 
