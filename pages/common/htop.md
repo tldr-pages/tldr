@@ -11,6 +11,10 @@
 
 `htop --user {{username}}`
 
+- Displays processes hierarchically in a tree view to show parent-child relationships:
+
+`htop --tree`
+
 - Sort processes by a specified `sort_item` (use `htop --sort help` for available options):
 
 `htop --sort {{sort_item}}`
