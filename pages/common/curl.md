@@ -16,7 +16,7 @@
 
 `curl --remote-name {{https://example.com/filename.zip}}`
 
-- Send form-encoded [d]ata (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from STDIN:
+- Send form-encoded [d]ata (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from `stdin`:
 
 `curl -X POST --data {{'name=bob'}} {{http://example.com/form}}`
 
