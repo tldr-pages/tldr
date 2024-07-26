@@ -1,7 +1,7 @@
 # bc
 
 > An arbitrary precision calculator language.
-> See also: `dc` and `qalc`.
+> See also: `dc`, `qalc`.
 > More information: <https://manned.org/bc.1>.
 
 - Start an interactive session:
