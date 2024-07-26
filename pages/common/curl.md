@@ -16,13 +16,13 @@
 
 `curl --remote-name {{https://example.com/filename.zip}}`
 
-- Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from STDIN:
+- Send form-encoded [d]ata (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from STDIN:
 
-`curl --data {{'name=bob'}} {{http://example.com/form}}`
+`curl -X POST --data {{'name=bob'}} {{http://example.com/form}}`
 
-- Send a request with an extra header, using a custom HTTP method:
+- Send a request with an extra header, using a custom HTTP method and over a pro[x]y (such as BurpSuite) ignoring insecure self-signed certificate:
 
-`curl --header {{'X-My-Header: 123'}} --request {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
+`curl -k --proxy {{http://127.0.0.1:8080}} --header {{'Authorization: Bearer token'}} --request {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
 
 - Send data in JSON format, specifying the appropriate content-type [H]eader:
 
