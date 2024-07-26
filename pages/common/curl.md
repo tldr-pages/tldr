@@ -20,7 +20,7 @@
 
 `curl -X POST --data {{'name=bob'}} {{http://example.com/form}}`
 
-- Send a request with an extra header, using a custom HTTP method and over a pro[x]y (such as BurpSuite) ignoring insecure self-signed certificate:
+- Send a request with an extra header, using a custom HTTP method and over a pro[x]y (such as BurpSuite), ignoring insecure self-signed certificates:
 
 `curl -k --proxy {{http://127.0.0.1:8080}} --header {{'Authorization: Bearer token'}} --request {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
 
