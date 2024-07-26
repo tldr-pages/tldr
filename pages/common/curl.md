@@ -24,7 +24,7 @@
 
 `curl -k --proxy {{http://127.0.0.1:8080}} --header {{'Authorization: Bearer token'}} --request {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
 
-- Send data in JSON format, specifying the appropriate content-type [H]eader:
+- Send data in JSON format, specifying the appropriate Content-Type [H]eader:
 
 `curl --data {{'{"name":"bob"}'}} --header {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
