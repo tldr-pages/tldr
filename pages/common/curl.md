@@ -4,7 +4,7 @@
 > Supports most protocols, including HTTP, HTTPS, FTP, SCP, etc.
 > More information: <https://curl.se/docs/manpage.html>.
 
-- Make a HTTP GET request and dump the contents in `stdout`:
+- Make an HTTP GET request and dump the contents in `stdout`:
 
 `curl {{https://example.com}}`
 
