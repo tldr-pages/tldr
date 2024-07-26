@@ -26,9 +26,9 @@
 
 - Sube una carpeta entera o un archivo a Hugging Face:
 
-`huggingface-cli upload --repo-type {{repo_type}} {{repo_id}} {{ruta/a/archivo_de_repositorio_o_directorio_de_repositorio}}`
+`huggingface-cli upload --repo-type {{repo_type}} {{repo_id}} {{ruta/al/archivo_de_repositorio_o_directorio_de_repositorio}} {{ruta/al/archivo_de repositorio_o_directorio}}`
 
-- Vea la caché para ver los repositorios descargados y su uso de disco:
+- Escanea la caché para ver los repositorios descargados y su uso de disco:
 
 `huggingface-cli scan-cache`
 
