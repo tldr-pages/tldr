@@ -8,7 +8,7 @@
 
 `curl {{https://example.com}}`
 
-- Make a HTTP GET request, fo[L]low any `3xx` redirects, and [D]ump the reply headers and contents in `stdout`:
+- Make an HTTP GET request, fo[L]low any `3xx` redirects, and [D]ump the reply headers and contents in `stdout`:
 
 `curl --location --dump-header - {{https://example.com}}`
 
