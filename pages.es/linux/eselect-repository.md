@@ -30,4 +30,4 @@
 
 - Crea un repositorio local y lo habilita:
 
-`eselect repository create {{nombre}} {{ruta/a/repo}}`
+`eselect repository create {{nombre}} {{ruta/al/repo}}`
