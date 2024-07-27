@@ -32,6 +32,6 @@
 
 `curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://example.com}}`
 
-- Resolve a hostname to a custom IP address (similar to editing the `/etc/hosts` file for custom DNS resolution):
+- Resolve a hostname to a custom IP address, with [v]erbose output (similar to editing the `/etc/hosts` file for custom DNS resolution):
 
-`curl --resolve {{example.com}}:{{80}}:{{127.0.0.1}} {{http://example.com}}`
+`curl --verbose --resolve {{example.com}}:{{80}}:{{127.0.0.1}} {{http://example.com}}`
