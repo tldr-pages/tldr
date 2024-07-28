@@ -19,7 +19,7 @@
 
 `whatwaf --tor --payloads '{{payload1,payload2,...}}' -u {{https://example.com}}`
 
-- Use random user-agent, set throttling and timeout, use [P]OST request, and force HTTPS connection:
+- Use a random user-agent, set throttling and timeout, send a [P]OST request, and force HTTPS connection:
 
 `whatwaf --ra --throttle {{seconds}} --timeout {{seconds}} --post --force-ssl -u {{http://example.com}}`
 
