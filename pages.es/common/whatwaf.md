@@ -17,7 +17,7 @@
 
 - Envía peticiones a través de Tor (Tor debe estar instalado) utilizando cargas personalizadas (separadas por comas):
 
-`whatwaf --tor --payloads '{{payload1,payload2,...}}'' -u {{https://example.com}}`
+`whatwaf --tor --payloads '{{carga1,carga2,...}}' -u {{https://example.com}}`
 
 - Utiliza un agente de usuario aleatorio, establece el estrangulamiento y el tiempo de espera, envía una solicitud [P]OST y fuerza una conexión HTTPS:
 
