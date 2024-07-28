@@ -15,7 +15,7 @@
 
 `whatwaf --proxy {{http://127.0.0.1:8080}} --pl {{path/to/file}} -u {{https://example.com}}`
 
-- Send requests through tor (tor must be installed) using custom [p]ayloads (comma separated):
+- Send requests through Tor (Tor must be installed) using custom [p]ayloads (comma-separated):
 
 `whatwaf --tor --payloads '{{payload1,payload2,...}}' -u {{https://example.com}}`
 
