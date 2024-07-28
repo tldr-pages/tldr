@@ -11,7 +11,7 @@
 
 `whatwaf --threads {{number}} --list {{path/to/file}}`
 
-- Send requests through a proxy and use custom [p]ayload [l]ist from a file (one payload per line):
+- Send requests through a proxy and use custom payload list from a file (one payload per line):
 
 `whatwaf --proxy {{http://127.0.0.1:8080}} --pl {{path/to/file}} -u {{https://example.com}}`
 
