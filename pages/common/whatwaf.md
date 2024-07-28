@@ -27,6 +27,6 @@
 
 `whatwaf --wafs`
 
-- List all tamper scripts available:
+- List all available tamper scripts:
 
 `whatwaf --tampers`
