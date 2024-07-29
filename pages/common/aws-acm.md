@@ -1,0 +1,36 @@
+# aws acm
+
+> CLI for AWS ACM.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/acm/index.html>.
+
+- Import a certificate:
+
+`aws acm import-certificate --certificate-arn {{certificate-arn}} --certificate {{certificate}} --private-key {{private-key}} [--certificate-chain {{certificate-chain}}]`
+
+- List Certificates:
+
+`aws acm list-certificates`
+
+- Describe a certificate:
+
+`aws acm describe-certificate --certificate-arn {{certificate-arn}}`
+
+- Request a certificate:
+
+`aws acm request-certificate --domain-name {{domain-name}} --validation-method {{validation-method}}`
+
+- Delete a certificate:
+
+`aws acm delete-certificate --certificate-arn {{certificate-arn}}`
+
+- List certificate validations:
+
+`aws acm list-certificates --certificate-statuses {{status}}`
+
+- Get certificate details:
+
+`aws acm get-certificate --certificate-arn {{certificate-arn}}`
+
+- Update certificate options:
+
+`aws acm update-certificate-options --certificate-arn {{certificate-arn}} --options {{options}}`
