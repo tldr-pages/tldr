@@ -1,6 +1,6 @@
 # aws acm
 
-> CLI for AWS ACM.
+> AWS Certificate Manager.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/acm/index.html>.
 
 - Import a certificate:
