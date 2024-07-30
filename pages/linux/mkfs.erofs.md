@@ -1,20 +1,20 @@
 # mkfs.erofs
 
-> Create a erofs filesystem in an image.
+> Create an EROFS filesystem in an image.
 > More information: <https://erofs.docs.kernel.org/en/latest/>.
 
-- Create a erofs filesystem based on a root directory:
+- Create an EROFS filesystem based on the root directory:
 
 `mkfs.erofs image.erofs root/`
 
-- Create a erofs image with a specific uuid:
+- Create an EROFS image with a specific UUID:
 
 `mkfs.erofs -U {{uuid}} image.erofs root/`
 
-- Create a compressed erofs image:
+- Create a compressed EROFS image:
 
 `mkfs.erofs -zlz4hc image.erofs root/`
 
-- Create a erofs image where all files are owned by root:
+- Create an EROFS image where all files are owned by root:
 
 `mkfs.erofs --all-root image.erofs root/`
