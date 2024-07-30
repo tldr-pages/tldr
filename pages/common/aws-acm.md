@@ -13,15 +13,15 @@
 
 - Describe a certificate:
 
-`aws acm describe-certificate --certificate-arn {{certificate-arn}}`
+`aws acm describe-certificate --certificate-arn {{certificate_arn}}`
 
 - Request a certificate:
 
-`aws acm request-certificate --domain-name {{domain-name}} --validation-method {{validation-method}}`
+`aws acm request-certificate --domain-name {{domain_name}} --validation-method {{validation_method}}`
 
 - Delete a certificate:
 
-`aws acm delete-certificate --certificate-arn {{certificate-arn}}`
+`aws acm delete-certificate --certificate-arn {{certificate_arn}}`
 
 - List certificate validations:
 
@@ -29,8 +29,8 @@
 
 - Get certificate details:
 
-`aws acm get-certificate --certificate-arn {{certificate-arn}}`
+`aws acm get-certificate --certificate-arn {{certificate_arn}}`
 
 - Update certificate options:
 
-`aws acm update-certificate-options --certificate-arn {{certificate-arn}} --options {{options}}`
+`aws acm update-certificate-options --certificate-arn {{certificate_arn}} --options {{options}}`
