@@ -17,15 +17,15 @@
 
 - Transfer tez to a different account:
 
-`octez-client transfer {{5}} from {{alias_or_address}} to {{alias_or_address}}`
+`octez-client transfer {{5}} from {{alias|address}} to {{alias|address}}`
 
 - Originate (deploy) a smart contract, assign it a local alias, and set its initial storage as a Michelson-encoded value:
 
-`octez-client originate contract {{alias}} transferring {{0}} from {{alias_or_address}} running {{path/to/source_file.tz}} --init "{{initial_storage}}" --burn_cap {{1}}`
+`octez-client originate contract {{alias}} transferring {{0}} from {{alias|address}} running {{path/to/source_file.tz}} --init "{{initial_storage}}" --burn_cap {{1}}`
 
 - Call a smart contract by its alias or address and pass a Michelson-encoded parameter:
 
-`octez-client transfer {{0}} from {{alias_or_address}} to {{contract}} --entrypoint "{{entrypoint}}" --arg "{{parameter}}" --burn-cap {{1}}`
+`octez-client transfer {{0}} from {{alias|address}} to {{contract}} --entrypoint "{{entrypoint}}" --arg "{{parameter}}" --burn-cap {{1}}`
 
 - Display help:
 
