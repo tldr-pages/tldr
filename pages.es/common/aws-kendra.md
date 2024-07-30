@@ -1,11 +1,11 @@
 # aws kendra
 
 > CLI para AWS Kendra.
-> Más información: <https://docs.aws.amazon.com/cli/latest/reference/kendra/index.html>.
+> Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/kendra/index.html>.
 
 - Crea un índice:
 
-`aws kendra create-index --name {{nombre}} --role-arn {{rol-arn}}`
+`aws kendra create-index --name {{nombre}} --role-arn {{rol_arn}}`
 
 - Lista índices:
 
@@ -13,7 +13,7 @@
 
 - Describe un índice:
 
-`aws kendra describe-index --id {{id-indice}}`
+`aws kendra describe-index --id {{id_indice}}`
 
 - Lista fuentes de datos:
 
@@ -21,8 +21,8 @@
 
 - Describe una fuente de datos:
 
-`aws kendra describe-data-source --id {{id-fuente-datos}}`
+`aws kendra describe-data-source --id {{id_fuente_datos}}`
 
 - Lista consultas de búsqueda:
 
-`aws kendra list-query-suggestions --index-id {{id-indice}} --query-text {{texto-consulta}}`
+`aws kendra list-query-suggestions --index-id {{id_indice}} --query-text {{texto_consulta}}`
