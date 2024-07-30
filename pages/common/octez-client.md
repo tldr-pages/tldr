@@ -21,7 +21,7 @@
 
 - Originate (deploy) a smart contract, assign it a local alias, and set its initial storage as a Michelson-encoded value:
 
-`octez-client originate contract {{alias}} transferring {{0}} from {{alias_or_address}} running {{source_file.tz}} --init "{{initial_storage}}" --burn_cap {{1}}`
+`octez-client originate contract {{alias}} transferring {{0}} from {{alias_or_address}} running {{path/to/source_file.tz}} --init "{{initial_storage}}" --burn_cap {{1}}`
 
 - Call a smart contract by its alias or address and pass a Michelson-encoded parameter:
 
