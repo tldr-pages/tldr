@@ -17,7 +17,7 @@
 
 - Show all messages by a specific [u]nit:
 
-`journalctl -u {{unit}}`
+`journalctl --unit {{unit}}`
 
 - Show logs for a given unit since the last time it started:
 
