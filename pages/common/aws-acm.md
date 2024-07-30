@@ -7,7 +7,7 @@
 
 `aws acm import-certificate --certificate-arn {{certificate_arn}} --certificate {{certificate}} --private-key {{private_key}} --certificate-chain {{certificate_chain}}`
 
-- List Certificates:
+- List certificates:
 
 `aws acm list-certificates`
 
