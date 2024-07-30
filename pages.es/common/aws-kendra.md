@@ -13,7 +13,7 @@
 
 - Describe un índice:
 
-`aws kendra describe-index --id {{id_indice}}`
+`aws kendra describe-index --id {{id_índice}}`
 
 - Lista fuentes de datos:
 
@@ -25,4 +25,4 @@
 
 - Lista consultas de búsqueda:
 
-`aws kendra list-query-suggestions --index-id {{id_indice}} --query-text {{texto_consulta}}`
+`aws kendra list-query-suggestions --index-id {{id_índice}} --query-text {{texto_consulta}}`
