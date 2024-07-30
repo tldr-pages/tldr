@@ -1,6 +1,6 @@
 # octez-client
 
-> Command-line client for interacting with the Tezos blockchain.
+> Interact with the Tezos blockchain.
 > More information: <https://tezos.gitlab.io/user/setup-client.html>.
 
 - Configure the client with a connection to a Tezos RPC node such as `https://rpc.ghostnet.teztnets.com`:
