@@ -12,6 +12,6 @@
 
 `automount -t 300`
 
-- Unmount anything previously mounted by automount and/or defined in /etc/auto_master:
+- Unmount anything previously mounted by automount and/or defined in `/etc/auto_master`:
 
 `automount -u`
