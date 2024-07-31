@@ -1,6 +1,6 @@
 # aws amplify
 
-> AWS Amplify is a development platform for building secure, scalable mobile and web applications.
+> Development platform for building secure, scalable mobile and web applications.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/amplify/index.html>.
 
 - Create a new Amplify app:
