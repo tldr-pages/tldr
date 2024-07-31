@@ -4,11 +4,11 @@
 > Note: You'll most likely need to run with `sudo` if you don't have the necessary permissions.
 > More information: <https://keith.github.io/xcode-man-pages/automount.8.html>.
 
-- Run automount, flush the cache beforehand, and be verbose about it (most common use):
+- Run automount, flush the cache(`-c`) beforehand, and be verbose(`-v`) about it (most common use):
 
 `automount -cv`
 
-- Automatically unmount after 5 minutes of inactivity:
+- Automatically unmount after 5 minutes (300 seconds) of inactivity:
 
 `automount -t 300`
 
