@@ -2,7 +2,7 @@
 
 > Reads the /etc/auto_master file and mounts `autofs` on the appropriate mount points to trigger on-demand mounting of directories. Essentially, it's a way to manually initiate the system's automounting process.
 > Note: You'll most likely need to run with `sudo` if you don't have the necessary permissions.
-> More information: https://keith.github.io/xcode-man-pages/automount.8.html
+> More information: <https://keith.github.io/xcode-man-pages/automount.8.html>
 
 - Run automount, flush the cache beforehand, and be verbose about it (most common use):
 
