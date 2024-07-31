@@ -37,8 +37,5 @@
 
 `apt list --installed`
 
-- Upgrade all installed packages to the latest versions. To remove or install packages to resolve dependencies:
-
-`sudo apt dist-upgrade`
 
  
