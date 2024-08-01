@@ -17,7 +17,7 @@
 
 - Preserve the exit status of the command regardless of timing out:
 
-`timeout --preserve status {{1s|1m|1h|1d|...}} {{command}}`
+`timeout --preserve-status {{1s|1m|1h|1d|...}} {{command}}`
 
 - Send a forceful `KILL` signal after certain duration if the command ignores initial signal upon timeout:
 
