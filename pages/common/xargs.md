@@ -16,7 +16,7 @@
 
 `find . -name '*.backup' -print0 | xargs -0 rm -v`
 
-- Execute the command once per argument.
+- Execute the command once per argument:
 
 `{{arguments_source}} | xargs -n1 {{command}}`
 
