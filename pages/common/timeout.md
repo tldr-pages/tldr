@@ -13,7 +13,7 @@
 
 - Send [v]erbose output to `stderr` showing signal sent upon timeout:
 
-`timout --verbose {{0.5s|1m|1h|1d}} {{command}}`
+`timout --verbose {{0.5s|1m|1h|1d|...}} {{command}}`
 
 - Preserve the exit status of the command regardless of timing out:
 
