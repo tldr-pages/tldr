@@ -1,7 +1,7 @@
 # octez-client
 
 > Interact with the Tezos blockchain.
-> More information: <https://tezos.gitlab.io/user/setup-client.html>.
+> More information: <https://tezos.gitlab.io/introduction/howtouse.html#client>.
 
 - Configure the client with a connection to a Tezos RPC node such as `https://rpc.ghostnet.teztnets.com`:
 
