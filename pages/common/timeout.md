@@ -9,7 +9,7 @@
 
 - Send a [s]ignal to the command after the time limit expires (`TERM` by default, `kill -l` to list all signals):
 
-`timeout --signal {{INT|HUP|KILL ...}} {{5s}} {{sleep 10}}`
+`timeout --signal {{INT|HUP|KILL|...}} {{5s}} {{sleep 10}}`
 
 - Send [v]erbose output to `stderr` showing signal sent upon timeout:
 
