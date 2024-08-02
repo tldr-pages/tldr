@@ -14,7 +14,7 @@
 
 - Enable OS detection, version detection, script scanning, and traceroute of hosts from a file:
 
-`sudo nmap -A -iL {{path/to/file}}`
+`sudo nmap -A -iL {{path/to/file.txt}}`
 
 - Scan a specific list of ports (use `-p-` for all ports from 1 to 65535):
 
