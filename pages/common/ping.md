@@ -29,4 +29,4 @@
 
 - Ping a host with specific number of pings, timeout (`-W`) for each reply, and total time limit (`-w`) of the entire ping run:
 
-`ping -c {{count}} -W {{seconds}} -W {{seconds}} {{host}}`
+`ping -c {{count}} -W {{seconds}} -w {{seconds}} {{host}}`
