@@ -16,6 +16,10 @@
 
 `find . -name '*.backup' -print0 | xargs -0 rm -v`
 
+- Execute the command once per argument:
+
+`{{arguments_source}} | xargs -n1 {{command}}`
+
 - Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
 
 `{{arguments_source}} | xargs -I _ {{command}} _ {{optional_extra_arguments}}`
