@@ -29,7 +29,7 @@
 
 - Elimina un entorno backend de una aplicación Amplify:
 
-`aws amplify delete-backend-environment --app-id {{id_aplicación}} --environment-name {{nombre_del_entorno}}
+`aws amplify delete-backend-environment --app-id {{id_aplicación}} --environment-name {{nombre_del_entorno}}`
 
 - Lista todos los entornos backend de una aplicación Amplify:
 
