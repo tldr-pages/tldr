@@ -13,7 +13,7 @@
 
 - Run a script:
 
-`doppler run {{./location/to/command.sh}}`
+`doppler run {{path/to/command.sh}}`
 
 - Run command with specified project and config:
 
