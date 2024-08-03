@@ -13,7 +13,7 @@
 
 - Upload a secrets file:
 
-`doppler secrets upload {{./path/to/file.env}}`
+`doppler secrets upload {{path/to/file.env}}`
 
 - Delete value(s) of one or more secrets:
 
