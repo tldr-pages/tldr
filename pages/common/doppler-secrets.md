@@ -21,4 +21,4 @@
 
 - Download secrets as `.env`:
 
-`doppler secrets download --format=env --no-file >.env`
+`doppler secrets download --format=env --no-file > {{path/to/.env}}`
