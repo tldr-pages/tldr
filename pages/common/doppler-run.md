@@ -17,7 +17,7 @@
 
 - Run command with specified project and config:
 
-`doppler run -p {{project_name}} -c {{config name}} -- {{command}}`
+`doppler run -p {{project_name}} -c {{config_name}} -- {{command}}`
 
 - Automatically restart process when secrets change:
 
