@@ -19,6 +19,6 @@
 
 `doppler secrets delete {{secrets}}`
 
-- Download secrets as .env:
+- Download secrets as `.env`:
 
 `doppler secrets download --format=env --no-file >.env`
