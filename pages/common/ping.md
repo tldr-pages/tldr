@@ -26,3 +26,7 @@
 - Also display a message if no response was received:
 
 `ping -O {{host}}`
+
+- Ping a host with specific number of pings, timeout (`-W`) for each reply, and total time limit (`-w`) of the entire ping run:
+
+`ping -c {{count}} -W {{seconds}} -w {{seconds}} {{host}}`
