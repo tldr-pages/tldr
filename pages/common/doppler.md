@@ -1,6 +1,6 @@
 # doppler
 
-> A CLI tool by Doppler for managing environment variables across different environments.
+> Manage environment variables across different environments using Doppler.
 > Some subcommands such as `doppler run` and `doppler secrets` have their own usage documentation.
 > More information: <https://docs.doppler.com/docs/cli>.
 
