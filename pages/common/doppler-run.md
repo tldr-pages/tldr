@@ -1,6 +1,6 @@
 # doppler run
 
-> Run a command with doppler secrets injected into the environment.
+> Run a command with Doppler secrets injected into the environment.
 > More information: <https://docs.doppler.com/docs/cli#run-a-command-with-secrets-populated-in-environment>.
 
 - Run a command:
