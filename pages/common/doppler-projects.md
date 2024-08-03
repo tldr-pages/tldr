@@ -17,7 +17,7 @@
 
 - Update a project's name and description:
 
-`doppler projects update {{name/project_id}} --name"{{new name}}" --description"{{new description}}"`
+`doppler projects update {{name/project_id}} --name "{{new_name}}" --description "{{new_description}}"`
 
 - Delete a project:
 
