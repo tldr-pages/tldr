@@ -21,4 +21,4 @@
 
 - Delete a project:
 
-`doppler projects delete {{name/project_id}}`
+`doppler projects delete {{name|project_id}}`
