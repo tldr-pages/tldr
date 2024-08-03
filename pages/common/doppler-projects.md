@@ -9,7 +9,7 @@
 
 - Get info for a project:
 
-`doppler projects get {{name/project_id}}`
+`doppler projects get {{name|project_id}}`
 
 - Create a project:
 
