@@ -24,6 +24,6 @@
 
 `doppler secrets`
 
-- Open doppler dashboard in browser:
+- Open Doppler dashboard in browser:
 
 `doppler open`
