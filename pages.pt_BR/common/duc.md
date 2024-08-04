@@ -1,6 +1,6 @@
 # duc
 
-> Uma coleção de ferramentas para indexar, inspecionar e visualizar uso do disco. 
+> Uma coleção de ferramentas para indexar, inspecionar e visualizar uso do disco.
 > O duc mantém uma base de dados dos tamanhos acumlados dos diretórios do sistema de arquivos, permitindo buscas nessa base, ou a criação de gráficos elegantes.
 > Mais informações: <https://duc.zevv.nl/>.
 

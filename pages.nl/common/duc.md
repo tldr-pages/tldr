@@ -1,6 +1,6 @@
 # duc
 
-> Een verzameling van tools voor het indexeren, inspecteren en visualiseren van schijfgebruik. 
+> Een verzameling van tools voor het indexeren, inspecteren en visualiseren van schijfgebruik.
 > Duc onderhoudt een database van geaccumuleerde groottes van directories van het bestandssysteem, waardoor je deze database kunt raadplegen of mooie grafieken kunt maken om te laten zien waar de data zich bevindt.
 > Meer informatie: <https://duc.zevv.nl/>.
 
