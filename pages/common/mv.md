@@ -31,6 +31,6 @@
 
 `mv -v {{path/to/source}} {{path/to/target}}`
 
-- Specify target directory (convenient in situations where target directory has to be the first argument):
+- Specify target directory (convenient in situations when the target directory has to be the first argument):
 
 `ls | {{parallel|xargs}} mv -t {{path/to/target_directory}}`
