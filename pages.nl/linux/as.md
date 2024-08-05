@@ -16,6 +16,6 @@
 
 `as -f {{pad/naar/bestand.s}}`
 
-- Voeg een specifiek pad toe aan de lijst met directories om te zoeken naar bestanden die zijn opgegeven in `.include`-richtlijnen:
+- Voeg een specifiek pad toe aan de lijst met mappen om te zoeken naar bestanden die zijn opgegeven in `.include`-richtlijnen:
 
 `as -I {{pad/naar/map}} {{pad/naar/bestand.s}}`
