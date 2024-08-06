@@ -35,4 +35,3 @@
 - Open and edit the configuration file:
 
 `ntfyme config`
-
