@@ -2,7 +2,7 @@
 
 > 破解捕获数据包中的握手时段的 WEP 和 WPA/WPA2 密钥。
 > 是 Aircrack-ng 网络软件套件的一部分。
-> 更多信息： <https://www.aircrack-ng.org/doku.php?id=aircrack-ng>.
+> 更多信息：<https://www.aircrack-ng.org/doku.php?id=aircrack-ng>.
 
 - 使用字典文件破解捕获文件中的密钥：
 

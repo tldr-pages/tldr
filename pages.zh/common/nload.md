@@ -1,7 +1,7 @@
 # nload
 
 > 在终端中可视化查看网络流量。
-> 更多信息： <https://github.com/rolandriegel/nload>.
+> 更多信息：<https://github.com/rolandriegel/nload>.
 
 - 查看所有网络接口的流量（使用方向键切换不同网口）：
 
