@@ -15,7 +15,7 @@
 
 `b2 create_bucket {{bucket_name}} {{allPublic|allPrivate}}`
 
-- Upload a file, choose a file, bucket and a folder:
+- Upload a file. Choose a file, bucket, and a folder:
 
 `b2 upload_file {{bucket_name}} {{path/to/file}} {{folder_name}}`
 
