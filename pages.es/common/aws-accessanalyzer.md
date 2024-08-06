@@ -34,4 +34,3 @@
 - Lista todas las reglas de archivo de Access Analyzer:
 
 `aws accessanalyzer list-archive-rules --analyzer-arn {{analizador_arn}}`
- 
