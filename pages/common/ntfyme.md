@@ -6,19 +6,19 @@
 
 - Directly run your command:
 
-`ntfyme exec {{-c|--cmd}} {{COMMAND}}`
+`ntfyme exec {{-c|--cmd}} {{command}}`
 
 - Pipe your command and run:
 
-`echo {{COMMAND}} | ntfyme exec`
+`echo {{command}} | ntfyme exec`
 
 - Run multiple commands by enclosing them in quotes:
 
-`echo "{{COMMAND1; COMMAND2; COMMAND3}}" | ntfyme exec`
+`echo "{{command1; command2; command3}}" | ntfyme exec`
 
 - Track and terminate the process after prolonged suspension:
 
-`ntfyme exec {{-t|--track-process}} {{-c|--cmd}} {{COMMAND}}`
+`ntfyme exec {{-t|--track-process}} {{-c|--cmd}} {{command}}`
 
 - Setup the tool configurations interactively:
 
