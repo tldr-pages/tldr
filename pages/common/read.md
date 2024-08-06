@@ -17,7 +17,7 @@
 
 - Assign multiple values to multiple variables:
 
-`{{echo "The name is Bond"}} | read {{_ variable1 _ variable2}}`
+`read {{_ variable1 _ variable2}} <<< {{"The surname is Bond"}}`
 
 - Do not let backslash (\\) act as an escape character:
 
