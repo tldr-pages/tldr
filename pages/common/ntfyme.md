@@ -1,7 +1,7 @@
 # ntfyme
 
-> A notification tool to track and notify you about your long running process on termination.
-> Send notification with Gmail, Telegram and more with success/error messages.
+> A notification tool to track and notify you about your long-running termination process.
+> Send notifications with success/error messages with Gmail, Telegram, and more.
 > More information: <https://github.com/AnirudhG07/ntfyme>.
 
 - Directly run your command:
@@ -16,7 +16,7 @@
 
 `echo "{{COMMAND1; COMMAND2; COMMAND3}}" | ntfyme exec`
 
-- Track and terminate your process after prolong suspension:
+- Track and terminate the process after prolonged suspension:
 
 `ntfyme exec {{-t|--track-process}} {{-c|--cmd}} {{COMMAND}}`
 
@@ -35,3 +35,4 @@
 - Open and edit the configuration file:
 
 `ntfyme config`
+
