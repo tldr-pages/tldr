@@ -25,7 +25,7 @@
 
 - Copia un archivo de un bucket a otro bucket:
 
-`b2 copy-file-by-id {{ruta/al/archivo_de_origen}}} {{nombre_cubo_destino}} {{ruta/a/archivo/b2}}`
+`b2 copy-file-by-id {{ruta/al/archivo_de_origen}} {{nombre_cubo_destino}} {{ruta/a/archivo/b2}}`
 
 - Muestra los archivos de tu bucket:
 
