@@ -15,7 +15,7 @@
 
 `dysk --filter 'disk = HDD'`
 
-- Filter to exclude SSD disks:
+- Exclude SSD disks:
 
 `dysk --filter 'disk <> SSD'`
 
