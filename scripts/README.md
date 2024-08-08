@@ -14,6 +14,7 @@ This section contains a summary of the scripts available in this directory. For 
 - [build-index.sh](build-index.sh) script builds the index of available pages.
 - [check-pr.sh](check-pr.sh) script checks the page's syntax and performs various checks on the PR.
 - [deploy.sh](deploy.sh) script deploys the ZIP and PDF archives to the static website repository.
+- [check-more-info-urls.py](check-more-info-urls.py) is a Python script to check for "More information" links that are broken or redirect to another one, using asynchronous code for speed.
 - [send-to-bot.py](send-to-bot.py) is a Python script that sends the build or test output to tldr-bot.
 - [set-alias-page.py](set-alias-page.py) is a Python script to generate or update alias pages.
 - [set-more-info-link.py](set-more-info-link.py) is a Python script to generate or update more information links across pages.
@@ -31,6 +32,7 @@ The table below shows the compatibility of user-executable scripts with differen
 | [render.py](pdf/render.py) | ✅ | ✅ | ✅ |
 | [build-pdf.sh](pdf/build-pdf.sh) | ✅ | ✅ | ❌ (WSL ✅)|
 | [build.sh](build.sh) | ✅ | ✅ | ❌ (WSL ✅)|
+| [check-more-info-urls.py](check-more-info-urls.py) | ✅ | ✅ | ✅ |
 | [set-alias-pages.py](set-alias-pages.py) | ✅ | ✅ | ✅ |
 | [set-more-info-link.py](set-more-info-link.py) | ✅ | ✅ | ✅ |
 | [set-page-title.py](set-page-title.py) | ✅ | ✅ | ✅ |
