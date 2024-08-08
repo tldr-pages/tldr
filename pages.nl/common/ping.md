@@ -26,3 +26,7 @@
 - Toon ook een bericht als er geen reactie is ontvangen:
 
 `ping -O {{host}}`
+
+- Ping een host met een specifiek aantal pings, timeout (`-W`) voor elk antwoord, en totale tijdslimiet (`-w`) voor de gehele ping-uitvoering:
+
+`ping -c {{aantal}} -W {{seconden}} -w {{seconden}} {{host}}`
