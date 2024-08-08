@@ -11,7 +11,7 @@
 
 `dysk --sort free`
 
-- Filter to include only HDD disks:
+- Include only HDD disks:
 
 `dysk --filter 'disk = HDD'`
 
