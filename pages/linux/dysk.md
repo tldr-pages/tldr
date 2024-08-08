@@ -19,6 +19,6 @@
 
 `dysk --filter 'disk <> SSD'`
 
-- Filter for high utilization or low free space:
+- Display disks with high utilization or low free space:
 
 `dysk --filter 'use > 65% | free < 50G'`
