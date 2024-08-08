@@ -16,6 +16,10 @@
 
 `find . -name '*.backup' -print0 | xargs -0 rm -v`
 
+- Voer het commando eenmaal per argument uit:
+
+`{{argumenten_bron}} | xargs -n1 {{commando}}`
+
 - Voer het commando één keer uit voor elke invoerregel, waarbij elke plaatsaanduiding (hier gemarkeerd als `_`) wordt vervangen door de invoerregel:
 
 `{{argumenten_bron}} | xargs -I _ {{commando}} _ {{optionele_extra_argumenten}}`
