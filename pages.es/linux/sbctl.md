@@ -8,7 +8,7 @@
 
 `sbctl status`
 
-- Crea claves de arranque seguro personalizadas (todo se almacena en `/usr/share/secureboot`):
+- Crea claves de arranque seguro personalizadas (todo se almacena en `/var/lib/sbctl`):
 
 `sbctl create-keys`
 
