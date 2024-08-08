@@ -1,6 +1,6 @@
 # dysk
 
-> Display filesystem information in a pretty table.
+> Display filesystem information in a table.
 > More information: <https://dystroy.org/dysk>.
 
 - Get a standard overview of your usual disks:
