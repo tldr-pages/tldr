@@ -8,13 +8,17 @@
 
 `sbctl status`
 
-- Create custom secure boot keys (everything is stored in `/usr/share/secureboot`):
+- Create custom secure boot keys (by default, everything is stored in `/var/lib/sbctl`):
 
 `sbctl create-keys`
 
 - Enroll the custom secure boot keys and Microsoft's UEFI vendor certificates:
 
 `sbctl enroll-keys --microsoft`
+
+- Automatically run `create-keys` and `enroll-keys` based on the settings in `/etc/sbctl/sbctl.conf`:
+
+`sbctl setup --setup`
 
 - Sign an EFI binary with the created key and save the file to the database:
 
