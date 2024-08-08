@@ -3,7 +3,7 @@
 > Display filesystem information in a pretty table.
 > More information: <https://dystroy.org/dysk>.
 
-- Standard overview of your usual disks:
+- Get a standard overview of your usual disks:
 
 `dysk`
 
