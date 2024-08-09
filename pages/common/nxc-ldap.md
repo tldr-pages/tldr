@@ -11,7 +11,7 @@
 
 `nxc ldap {{192.168.178.2}} -u {{username}} -p {{password}} --active-users`
 
-- Collect data about the targeted domain and automatically import these data into bloodhound:
+- Collect data about the targeted domain and automatically import these data into BloodHound:
 
 `nxc ldap {{192.168.178.2}} -u {{username}} -p {{password}} --bloodhound --collection {{All}}`
 
