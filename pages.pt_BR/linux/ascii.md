@@ -1,6 +1,6 @@
 # ascii
 
-> Mostra pseudónimos de caractéres ASCII
+> Mostra pseudónimos de caractéres ASCII.
 > Mais informações em: <http://www.catb.org/~esr/ascii/>.
 
 - Mostra pseudónimos ASCII de um carácter:
