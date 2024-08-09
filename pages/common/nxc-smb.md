@@ -11,7 +11,7 @@
 
 `nxc smb {{192.168.178.2}} -u {{path/to/usernames.txt}} -p {{path/to/passwords.txt}} --local-auth`
 
-- Enumerate SMB shares and the specifed users' access rights to them on the target hosts:
+- Enumerate SMB shares and the specified users' access rights to them on the target hosts:
 
 `nxc smb {{192.168.178.0/24}} -u {{username}} -p {{password}} --shares`
 
