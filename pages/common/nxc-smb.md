@@ -21,7 +21,7 @@
 
 - Scan the target hosts for common vulnerabilities:
 
-`nxc smb {{path/to/target_list.txt}} -u '' -p '' -M zerologon -M petitpotam` 
+`nxc smb {{path/to/target_list.txt}} -u '' -p '' -M zerologon -M petitpotam`
 
 - Attempt to execute a command on the target hosts:
 
