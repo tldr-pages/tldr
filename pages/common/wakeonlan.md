@@ -2,7 +2,7 @@
 
 > Send packets to wake-on-lan (WOL) enabled PCs.
 > See also: `wakeonlan`.
-> More information: <https://github.com/jpoliv/wakeonlan>
+> More information: <https://github.com/jpoliv/wakeonlan>.
 
 - Send magic packets to all devices on the local network (255.255.255.255) by specifying a MAC address:
 
