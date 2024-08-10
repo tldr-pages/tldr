@@ -1,6 +1,6 @@
 # wakeonlan
 
-> wakeonlan - sends 'magic packets' to wake-on-lan (WOL) enabled PCs.
+> Send packets to wake-on-lan (WOL) enabled PCs.
 > See also: `wakeonlan`.
 > More information: <https://github.com/jpoliv/wakeonlan>
 
