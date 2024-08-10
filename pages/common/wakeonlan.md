@@ -1,0 +1,21 @@
+# wakeonlan
+
+> wakeonlan - sends 'magic packets' to wake-on-lan (WOL) enabled PCs.
+> See also: `wakeonlan`.
+> More information: <https://github.com/jpoliv/wakeonlan>
+
+- Send magic packets to all devices on the local network (255.255.255.255) by specifying a MAC address:
+
+`wakeonlan {{01:02:03:04:05:06}}`
+
+- Send magic packet to a specific device via IP address:
+
+`wakeonlan {{01:02:03:04:05:06}} -i {{192.168.178.2}}`
+
+- Print the commands, but don't execute them (dry-run):
+
+`wakeonlan -n {{01:02:03:04:05:06}}`
+
+- quiet mode:
+
+`wakeonlan -q {{01:02:03:04:05:06}}`
