@@ -3,7 +3,7 @@
 > Geeft statistieken weer voor apparaten.
 > Meer informatie: <https://ss64.com/mac/iostat.html>.
 
-- Toon momentopname-apparaatstaten (KB/t, transfers per seconde, MB per seconde), CPU-statistieken (percentages van de tijd besteed in gebruikersmodus, systeemmodus en inactieve modus), en systeembelastinggemiddelden (voor de afgelopen 1, 5 en 15 minuten):
+- Toon snapshot-apparaatstatistieken (KB/t, transfers per seconde, MB per seconde), CPU-statistieken (percentages van de tijd besteed in gebruikersmodus, systeemmodus en inactieve modus), en systeembelastinggemiddelden (voor de afgelopen 1, 5 en 15 minuten):
 
 `iostat`
 
