@@ -16,6 +16,6 @@
 
 `wakeonlan -n {{01:02:03:04:05:06}}`
 
-- quiet mode:
+- Run in quiet mode:
 
 `wakeonlan -q {{01:02:03:04:05:06}}`
