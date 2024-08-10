@@ -4,7 +4,7 @@
 > See also: `wakeonlan`.
 > More information: <https://github.com/jpoliv/wakeonlan>.
 
-- Send magic packets to all devices on the local network (255.255.255.255) by specifying a MAC address:
+- Send packets to all devices on the local network (255.255.255.255) by specifying a MAC address:
 
 `wakeonlan {{01:02:03:04:05:06}}`
 
