@@ -5,15 +5,15 @@
 
 - Stash current changes, except new (untracked) files:
 
-`git stash push -m {{optional_stash_message}}`
+`git stash push --message {{optional_stash_message}}`
 
 - Stash current changes, including new (untracked) files:
 
-`git stash -u`
+`git stash --include-untracked`
 
 - Interactively select parts of changed files for stashing:
 
-`git stash -p`
+`git stash --patch`
 
 - List all stashes (shows stash name, related branch and message):
 
@@ -21,7 +21,7 @@
 
 - Show the changes as a patch between the stash (default is `stash@{0}`) and the commit back when stash entry was first created:
 
-`git stash show -p {{stash@{0}}}`
+`git stash show --patch {{stash@{0}}}`
 
 - Apply a stash (default is the latest, named stash@{0}):
 
