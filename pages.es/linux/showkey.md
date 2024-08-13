@@ -7,7 +7,7 @@
 
 `sudo showkey`
 
-- Visualiza códigos de ra[s]treo en hexadecimal:
+- Visualiza códigos de rastreo en hexadecimal:
 
 `sudo showkey {{-s|--scancodes}}`
 
@@ -15,7 +15,7 @@
 
 `sudo showkey {{-k|--keycodes}}`
 
-- Muestra los códigos en [a]SCII, decimal y hexadecimal:
+- Muestra los códigos en ASCII, decimal y hexadecimal:
 
 `sudo showkey {{-a|--ascii}}`
 

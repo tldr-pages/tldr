@@ -1,7 +1,7 @@
 # diff
 
 > Compare deux fichiers ou répertoires.
-> Plus d'informations : <https://man7.org/linux/man-pages/man1/diff.1.html>.
+> Plus d'informations : <https://manned.org/diff>.
 
 - Compare deux fichiers (liste les changements pour transformer `ancien_fichier` en `nouveau_fichier`) :
 

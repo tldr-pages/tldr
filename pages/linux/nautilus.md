@@ -11,7 +11,7 @@
 
 - Launch Nautilus as root user:
 
-`sudo nautilus`
+`nautilus admin:/`
 
 - Launch Nautilus and display a specific directory:
 

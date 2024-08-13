@@ -9,24 +9,20 @@
 
 - Clona una unidad a otra unidad con un bloque de 4 MB, ignora el error y muestra el progreso:
 
-`dd if={{/dev/dispositivo_de origen}} of={{/dev/dispositivo_de destino}} bs={{4m}} conv={{noerror}} status=progress`
+`dd bs=4m conv=noerror if={{/dev/dispositivo_de origen}} of={{/dev/dispositivo_de destino}} status=progress`
 
-- Genera un fichero de 100 bytes aleatorios utilizando el controlador aleatorio del kernel:
+- Genera un archivo con un número específico de bytes aleatorios utilizando el controlador aleatorio del núcleo:
 
-`dd if=/dev/urandom of={{ruta/al/archivo_aleatorio}} bs={{100}} count={{1}}`
+`dd bs={{100}} count={{1}} if=/dev/urandom of={{ruta/al/archivo_aleatorio}}`
 
 - Compara el rendimiento de escritura de un disco:
 
-`dd if=/dev/zero of={{ruta/para/archivo_1GB}} bs={{1024}} count={{1000000}}`
+`dd bs={{1024}} count={{1000000}} if=/dev/zero of={{ruta/para/archivo_1GB}}`
 
 - Genera una copia de seguridad del sistema en un archivo IMG y muestra el progreso:
 
-`dd if=/dev/{{dispositivo_unidad}} of={{ruta/al/archivo.img}} status=progress`
+`dd if={{/dev/dispositivo_unidad}} of={{ruta/al/archivo.img}} status=progress`
 
-- Restaura una unidad desde un archivo IMG y muestra el progreso:
+- Comprueba el progreso de una operación `dd` en curso (ejecuta este comando desde otro intérprete de comandos):
 
-`dd if={{ruta/al/archivo.img}} of={{/dev/unidad_dispositivo}} status=progress`
-
-- Comprueba el progreso de una operación dd en curso (ejecuta este comando desde otro shell):
-
-`kill -USR1 $(pgrep -x dd)`
+`kill -USR1 $(pgrep ^dd)`

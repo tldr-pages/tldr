@@ -22,4 +22,4 @@
 
 - Lista dispositivos atualmente inicializados:
 
-`zramctl`
+`sudo zramctl`

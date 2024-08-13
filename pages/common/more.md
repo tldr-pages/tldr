@@ -8,10 +8,6 @@
 
 `more {{path/to/file}}`
 
-- Search case-[i]nsensitively when pressing "/":
-
-`more -i {{path/to/file}}`
-
 - Display a specific line:
 
 `more +{{line_number}} {{path/to/file}}`

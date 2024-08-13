@@ -22,4 +22,4 @@
 
 - Boot from physical device (e.g. from USB to test bootable medium):
 
-`qemu-system-i386 -hda /dev/{{storage_device}}`
+`qemu-system-i386 -hda {{/dev/storage_device}}`

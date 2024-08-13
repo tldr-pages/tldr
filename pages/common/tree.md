@@ -1,7 +1,7 @@
 # tree
 
 > Show the contents of the current directory as a tree.
-> More information: <https://manned.org/man/tree>.
+> More information: <https://manned.org/tree>.
 
 - Print files and directories up to 'num' levels of depth (where 1 means the current directory):
 

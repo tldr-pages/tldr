@@ -11,7 +11,7 @@
 
 `{{command}} | nl -`
 
-- Number [a]ll [b]ody lines including blank lines or do not [n]umber [b]ody lines:
+- Number [a]ll [b]ody lines including blank lines or do [n]ot number [b]ody lines:
 
 `nl --body-numbering {{a|n}} {{path/to/file}}`
 
@@ -27,10 +27,10 @@
 
 `nl --number-format {{rz|ln|rn}}`
 
-- Specify the line numbering's width (6 by default):
+- Specify the line numbering's [w]idth (6 by default):
 
 `nl --number-width {{col_width}} {{path/to/file}}`
 
-- Use a specific string to separate the line numbers from the lines (TAB by default):
+- Use a specific string to [s]eparate the line numbers from the lines (TAB by default):
 
 `nl --number-separator {{separator}} {{path/to/file}}`
