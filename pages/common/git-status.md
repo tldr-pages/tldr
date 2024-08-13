@@ -12,7 +12,7 @@
 
 `git status --short`
 
-- Show [v]erbose information on changes that have not yet been committed:
+- Show [v]erbose information on changes in both the staging area and working directory:
 
 `git status --verbose --verbose`
 
