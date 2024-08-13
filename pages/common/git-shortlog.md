@@ -9,11 +9,11 @@
 
 - View a summary of all the commits made, sorted by the number of commits made:
 
-`git shortlog -n`
+`git shortlog --numbered`
 
 - View a summary of all the commits made, grouped by the committer identities (name and email):
 
-`git shortlog -c`
+`git shortlog --commiter`
 
 - View a summary of the last 5 commits (i.e. specify a revision range):
 
@@ -21,8 +21,8 @@
 
 - View all users, emails and the number of commits in the current branch:
 
-`git shortlog -sne`
+`git shortlog --summary --numbered --email`
 
 - View all users, emails and the number of commits in all branches:
 
-`git shortlog -sne --all`
+`git shortlog --summary --numbered --email --all`
