@@ -163,7 +163,7 @@ If a page cannot be found in _any_ platform, then it is RECOMMENDED that clients
 https://github.com/tldr-pages/tldr/issues/new?title=page%20request:%20{command_name}
 ```
 
-where `{command_name}` is the name of the command that was not found. Clients that have control over their exit code on the command line (i.e. clients that provide a CLI) MUST exit with a non-zero exit code in addition to showing the above message.
+where `{command_name}` is the name of the command that was not found. Clients that have control over their exit code on the command-line (i.e. clients that provide a CLI) MUST exit with a non-zero exit code in addition to showing the above message.
 
 #### If multiple versions of a page were found
 

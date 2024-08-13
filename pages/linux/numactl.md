@@ -1,7 +1,7 @@
 # numactl
 
 > Control NUMA policy for processes or shared memory.
-> More information: <https://man7.org/linux/man-pages/man8/numactl.8.html>.
+> More information: <https://manned.org/numactl>.
 
 - Run a command on node 0 with memory allocated on node 0 and 1:
 

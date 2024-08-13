@@ -20,11 +20,11 @@
 
 `launchctl list`
 
-- Een momenteel geladen agent ontladen, b.v. om wijzigingen aan te brengen (let op: het plist-bestand wordt automatisch in `launchd` geladen na een herstart en/of inloggen):
+- Een momenteel geladen agent ontladen, b.v. om wijzigingen aan te brengen (Let op: het plist-bestand wordt automatisch in `launchd` geladen na een herstart en/of inloggen):
 
 `launchctl unload ~/Library/LaunchAgents/{{my_script}}.plist`
 
-- Voer handmatig een bekende (geladen) agent/daemon uit, zelfs als dit niet het juiste moment is (opmerking: deze opdracht gebruikt het label van de agent, in plaats van de bestandsnaam):
+- Voer handmatig een bekende (geladen) agent/daemon uit, zelfs als dit niet het juiste moment is (Let op: deze opdracht gebruikt het label van de agent, in plaats van de bestandsnaam):
 
 `launchctl start {{script_bestand}}`
 

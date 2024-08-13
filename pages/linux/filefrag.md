@@ -9,7 +9,11 @@
 
 - Display a report using a 1024 byte blocksize:
 
-`filefrag -b {{path/to/file}}`
+`filefrag -k {{path/to/file}}`
+
+- Display a report using a certain blocksize:
+
+`filefrag -b{{1024|1K|1M|1G|...}} {{path/to/file}}`
 
 - Sync the file before requesting the mapping:
 

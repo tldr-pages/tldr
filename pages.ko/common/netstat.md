@@ -1,7 +1,7 @@
 # netstat
 
 > 열린 연결 및 소켓 포트 등과 같은 네트워크 관련 정보를 표시합니다.
-> 더 많은 정보: <https://man7.org/linux/man-pages/man8/netstat.8.html>.
+> 더 많은 정보: <https://manned.org/netstat>.
 
 - 모든 포트 나열:
 

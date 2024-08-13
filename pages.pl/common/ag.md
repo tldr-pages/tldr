@@ -9,7 +9,7 @@
 
 - Znajdź pliki zawierające „foo” w określonym katalogu:
 
-`ag {{foo}} {{scieżka/do/katalogu}}`
+`ag {{foo}} {{ścieżka/do/katalogu}}`
 
 - Znajdź pliki zawierające „foo”, ale podaj tylko nazwy plików:
 

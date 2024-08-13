@@ -24,9 +24,13 @@
 
 `git tag -d {{tag_name}}`
 
-- Get updated tags from upstream:
+- Get updated tags from remote:
 
 `git fetch --tags`
+
+- Push a tag to remote:
+
+`git push origin tag {{tag_name}}`
 
 - List all tags whose ancestors include a given commit:
 

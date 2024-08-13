@@ -1,6 +1,7 @@
 # audtool
 
 > Control Audacious using commands.
+> See also: `audacious`.
 > More information: <https://manned.org/audtool>.
 
 - Play/pause audio playback:
@@ -23,7 +24,7 @@
 
 `audtool current-song-bitrate-kbps`
 
-- Open audacious in full-screen if hidden:
+- Open Audacious in full-screen if hidden:
 
 `audtool mainwin-show`
 

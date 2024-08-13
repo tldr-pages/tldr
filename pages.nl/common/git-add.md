@@ -11,6 +11,10 @@
 
 `git add -A`
 
+- Voeg alle bestanden toe in de huidige map:
+
+`git add .`
+
 - Voeg alleen al bijgehouden bestanden toe:
 
 `git add -u`
