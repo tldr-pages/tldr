@@ -6,16 +6,16 @@
 
 - Realiza a montagem de um arquivo, o resultado dessa operação será gravado no arquivo a.out:
 
-`as {{arquivo.s}}`
+`as {{caminho/para/arquivo.s}}`
 
 - Realiza a montagem de um arquivo, o resultado dessa operação será gravado em um arquivo específico:
 
-`as {{arquivo.s}} -o {{saida.o}}`
+`as {{caminho/para/arquivo.s}} -o {{caminho/para/saida.o}}`
 
 - Realiza a montagem de um arquivo rapidamente, pois ignora o pré-processamento de comentários e espaços em branco. (Deve ser utilizado apenas em compiladores confiáveis):
 
-`as -f {{arquivo.s}}`
+`as -f {{caminho/para/arquivo.s}}`
 
 - Adiciona um caminho na lista de diretórios onde será realizada a busca por arquivos especificados na diretiva .include:
 
-`as -I {{caminho_para_o_diretorio}} {{arquivo.s}}`
+`as -I {{caminho_para_o_diretorio}} {{caminho/para/arquivo.s}}`
