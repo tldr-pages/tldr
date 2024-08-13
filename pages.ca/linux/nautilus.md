@@ -10,7 +10,7 @@
 
 - Obre Nautilus com a root:
 
-`sudo nautilus`
+`nautilus admin:/`
 
 - Obre Nautilus en un directori específic:
 

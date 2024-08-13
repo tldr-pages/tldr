@@ -1,4 +1,4 @@
-# Accelerate
+# accelerate
 
 > 一个使得可以在任何分布式配置中运行相同的 PyTorch 代码的库。
 > 更多信息：<https://huggingface.co/docs/accelerate/index>.
