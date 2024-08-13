@@ -12,6 +12,10 @@
 
 `git status --short`
 
+- Show [v]erbose information on changes that have not yet been committed:
+
+`git status --verbose --verbose`
+
 - Show the [b]ranch and tracking info:
 
 `git status --branch`
