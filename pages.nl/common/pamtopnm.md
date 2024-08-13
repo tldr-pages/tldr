@@ -7,6 +7,6 @@
 
 `pamtopnm {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.pbm|pgm|ppm}}`
 
-- Toon versie:
+- Toon de versie:
 
 `pamtopnm -version`

@@ -1,7 +1,7 @@
 # chrt
 
 > Manipulate the real-time attributes of a process.
-> More information: <https://man7.org/linux/man-pages/man1/chrt.1.html>.
+> More information: <https://manned.org/chrt>.
 
 - Display attributes of a process:
 

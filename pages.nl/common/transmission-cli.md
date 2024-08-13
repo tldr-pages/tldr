@@ -14,7 +14,7 @@
 
 - Maak een torrent bestand van een specifiek bestand of map:
 
-`transmission-cli --new {{pad/naar/bron_bestand_of_map}}`
+`transmission-cli --new {{pad/naar/bronbestand_of_map}}`
 
 - Zet de download snelheid limiet naar 50 KB/s:
 

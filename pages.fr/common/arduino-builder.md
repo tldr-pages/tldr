@@ -16,7 +16,7 @@
 
 `arduino-builder -build-path {{chemin/vers/dossier/de/construction}}`
 
-- Utilise un fichier d'option de construction, au lieu de spécifier `--hardware`, `--tools`, etc. Manuellement à chaque fois :
+- Utilise un fichier d'option de construction, au lieu de spécifier `-hardware`, `-tools`, etc. Manuellement à chaque fois :
 
 `arduino-builder -build-options-file {{chemin/vers/construction.options.json}}`
 

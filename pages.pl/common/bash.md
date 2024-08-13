@@ -18,15 +18,15 @@
 
 - Uruchom podany skrypt:
 
-`bash {{scieżka/do/skryptu.sh}}`
+`bash {{ścieżka/do/skryptu.sh}}`
 
 - Wykonaj podany skrypt, wypisując wszystkie komendy przed ich wykonaniem:
 
-`bash -x {{scieżka/do/skryptu.sh}}`
+`bash -x {{ścieżka/do/skryptu.sh}}`
 
 - Wykonaj podany skrypt do wystąpienia pierwszego błędu:
 
-`bash -e {{scieżka/do/skryptu.sh}}`
+`bash -e {{ścieżka/do/skryptu.sh}}`
 
 - Wykonaj komendy ze `stdin`:
 

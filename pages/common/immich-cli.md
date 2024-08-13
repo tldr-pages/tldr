@@ -1,6 +1,6 @@
 # immich-cli
 
-> Immich has a command line interface (CLI) that allows you to perform certain actions from the command line.
+> Immich has a command-line interface (CLI) that allows you to perform certain actions from the command-line.
 > See also: `immich-go`.
 > More information: <https://immich.app/docs/features/command-line-interface/>.
 

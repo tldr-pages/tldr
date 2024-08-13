@@ -1,7 +1,7 @@
 # diff
 
 > Vergleiche Dateien und Verzeichnisse.
-> Weitere Informationen: <https://man7.org/linux/man-pages/man1/diff.1.html>.
+> Weitere Informationen: <https://manned.org/diff>.
 
 - Vergleiche Dateien (Listet jene Veränderungen auf, mit denen `datei1` zu `datei2` wird):
 
