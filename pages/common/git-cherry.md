@@ -5,7 +5,7 @@
 
 - Show commits (and their messages) with equivalent commits upstream:
 
-`git cherry -v`
+`git cherry --verbose`
 
 - Specify a different upstream and topic branch:
 
