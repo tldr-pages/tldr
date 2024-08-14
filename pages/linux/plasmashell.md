@@ -10,3 +10,11 @@
 - Restart `plasmashell` without systemd:
 
 `plasmashell --replace & disown`
+
+- Display [h]elp on command-line options:
+
+`plasmashell --help`
+
+- Display help, including Qt options:
+
+`plasmashell --help-all`
