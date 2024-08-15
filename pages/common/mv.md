@@ -19,7 +19,7 @@
 
 `mv --force {{path/to/source}} {{path/to/target}}`
 
-- Prompt for conf[i]rmation before overwriting existing files, regardless of file permissions:
+- Prompt for confirmation [i]nteractively before overwriting existing files, regardless of file permissions:
 
 `mv --interactive {{path/to/source}} {{path/to/target}}`
 
