@@ -33,4 +33,4 @@
 
 - Specify target directory (convenient in situations when the target directory has to be the first argument):
 
-`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv -t {{path/to/target_directory}}`
+`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv --target-directory {{path/to/target_directory}}`
