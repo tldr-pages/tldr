@@ -19,7 +19,7 @@
 
 `mv --force {{path/to/source}} {{path/to/target}}`
 
-- Prompt for confirmation before overwriting existing files, regardless of file permissions:
+- Prompt for conf[i]rmation before overwriting existing files, regardless of file permissions:
 
 `mv --interactive {{path/to/source}} {{path/to/target}}`
 
@@ -27,7 +27,7 @@
 
 `mv --no-clobber {{path/to/source}} {{path/to/target}}`
 
-- Move files in verbose mode, showing files after they are moved:
+- Move files in [v]erbose mode, showing files after they are moved:
 
 `mv --verbose {{path/to/source}} {{path/to/target}}`
 
