@@ -31,6 +31,6 @@
 
 `awk '($10 >= {{min_value}} && $10 <= {{max_value}})'`
 
-- Print table of users with UID >=1000 with header and formatted output, using semicolon as separator (-20 mean: 20 characters left-align, 6 means: 6 characters right-align)
+- Print table of users with UID >=1000 with header and formatted output, using colon as separator (-20 mean: 20 characters left-align, 6 means: 6 characters right-align):
 
 `awk 'BEGIN {FS=":";printf "%-20s %6s %25s\n", "Name", "UID", "Shell"} $4 >= 1000 {printf "%-20s %6d %25s\n", $1, $4, $7}' /etc/passwd`
