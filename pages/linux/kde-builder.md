@@ -26,7 +26,7 @@
 
 - Run a component with a specified executable name:
 
-`kde-builder --run --exec {{executable_name}} {{component_name}}`
+`kde-builder --run {{executable_name}}`
 
 - Build all configured components:
 
