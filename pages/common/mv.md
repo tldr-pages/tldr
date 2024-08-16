@@ -15,7 +15,7 @@
 
 `mv {{path/to/source1 path/to/source2 ...}} {{path/to/existing_directory}}`
 
-- Do not prompt for confirmation before overwriting existing files:
+- Do not prompt ([f]) for confirmation before overwriting existing files:
 
 `mv --force {{path/to/source}} {{path/to/target}}`
 
@@ -23,7 +23,7 @@
 
 `mv --interactive {{path/to/source}} {{path/to/target}}`
 
-- Do not overwrite existing files at the target:
+- Do not overwrite ([n]) existing files at the target:
 
 `mv --no-clobber {{path/to/source}} {{path/to/target}}`
 
