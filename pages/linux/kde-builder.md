@@ -8,7 +8,7 @@
 
 `kde-builder --initial-setup`
 
-- Compile a KDE component and its dependencies from source:
+- Compile a KDE component and its dependencies from the source:
 
 `kde-builder {{component_name}}`
 
