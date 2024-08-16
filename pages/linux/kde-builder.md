@@ -1,7 +1,7 @@
 # kde-builder
 
 > Easily build KDE components from its source repositories.
-> Drop-in replacement for kdesrc-build.
+> Drop-in replacement for `kdesrc-build`.
 > More information: <https://kde-builder.kde.org/en/index.html>.
 
 - Initialize `kde-builder`:
