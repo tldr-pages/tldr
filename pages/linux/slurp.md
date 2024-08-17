@@ -7,7 +7,7 @@
 
 `slurp`
 
-- Show help message and quit:
+- Display help:
 
 `slurp -h`
 
