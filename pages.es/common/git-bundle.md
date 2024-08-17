@@ -25,7 +25,7 @@
 
 - Imprime en `stdout` la lista de referencias contenidas en un bundle:
 
-`git bundle unbundle {{ruta/a/archivo.bundle}}`
+`git bundle unbundle {{ruta/al/archivo.bundle}}`
 
 - Desagrupa una rama específica de un archivo bundle en el repositorio actual:
 
