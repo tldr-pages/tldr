@@ -29,7 +29,7 @@
 
 - Elimina una regla de archivo de Access Control Analyzer:
 
-`awe-ce delete-archive-rule --analyzer-arn {{analyzer_arn}} --rule-name {{nombre_de_regla}} --filter {{filtro}} --rule-name {{nombre_de_regla}}`
+`awe-ce delete-archive-rule --analyzer-arn {{analyzer_arn}} --rule-name {{nombre_de_regla}}`
 
 - Lista todas las reglas de archivo de Access Control Analyzer:
 
