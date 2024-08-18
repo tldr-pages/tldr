@@ -7,10 +7,6 @@
 
 `slurp`
 
-- Display help:
-
-`slurp -h`
-
 - Select a region and print it to `stdout`, while displaying the dimensions of the selection:
 
 `slurp -d`
