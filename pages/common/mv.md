@@ -33,4 +33,4 @@
 
 - Specify target directory (convenient in situations when the target directory has to be the first argument):
 
-`mv -t {{path/to/target_directory}} {{path/to/source}}`
+`mv --target-directory {{path/to/target_directory}} {{path/to/source}}`
