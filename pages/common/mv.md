@@ -33,4 +33,4 @@
 
 - Specify target directory (convenient in situations when the target directory has to be the first argument):
 
-`ls | {{parallel|xargs}} mv -t {{path/to/target_directory}}`
+`mv -t {{path/to/target_directory}} {{path/to/source}}`
