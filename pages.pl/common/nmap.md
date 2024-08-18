@@ -16,7 +16,7 @@
 
 `sudo nmap -A -iL {{ścieżka/do/pliku.txt}}`
 
-- Skanuj podaną listę portów (użyj '-p-' dla wszystkich portów od 1 do 65535):
+- Skanuj podaną listę portów (użyj `-p-` dla wszystkich portów od 1 do 65535):
 
 `nmap -p {{port1,port2,...}} {{ip_lub_host1,ip_lub_host2,...}}`
 
