@@ -20,7 +20,7 @@
 
 `nmap -p {{port1,port2,...}} {{ip_lub_host1,ip_lub_host2,...}}`
 
-- Przeprowadź wykrywanie usług i wersji dla 1000 najpopularniejszych portów używając domyślnych skryptów NSE, Zapisując wynik ('-oA') do plików wyjściowych:
+- Przeprowadź wykrywanie usług i wersji dla 1000 najpopularniejszych portów używając domyślnych skryptów NSE, zapisując wynik (`-oA`) do plików wyjściowych:
 
 `nmap -sC -sV -oA {{top-1000-ports}} {{ip_lub_host1,ip_lub_host2,...}}`
 
