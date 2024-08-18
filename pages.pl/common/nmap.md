@@ -34,4 +34,4 @@
 
 - Spróbuj uniknąć wykrycia przez IDS/IPS, używając bardzo powolnego skanowania (`-T0`), fałszywych adresów źródłowych - wabików (`-D`), [f]ragmentowanych pakietów, losowych danych i innych metod:
 
-`nmap -T0 -D {{ip_wabika1,ip_wabika2,...}} --source-port {{53}} -f --data-length {{16}} -Pn {{ip_lub_host}}`
+`sudo nmap -T0 -D {{ip_wabika1,ip_wabika2,...}} --source-port {{53}} -f --data-length {{16}} -Pn {{ip_lub_host}}`
