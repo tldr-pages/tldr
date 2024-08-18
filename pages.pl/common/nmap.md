@@ -1,37 +1,37 @@
 # nmap
 
-> Narzędzie do enumeracji sieci oraz skanowania portów.
-> Niektóre funkcję są tylko aktywne gdy Nmap uruchamiany jest z przywilejami root'a.
+> Narzędzie do eksploracji sieci oraz skaner bezpieczeństwa/portów.
+> Niektóre funkcje (np. skan SYN) aktywują się tylko gdy `nmap` jest uruchamiany z przywilejami root'a.
 > Więcej informacji: <https://nmap.org/book/man.html>.
 
-- Sprawdź czy host odpowiada na skanowanie oraz zgadnij system operacyjny:
+- Skanuj 1000 najpopularniejszych portów zdalnego hosta z różnymi poziomami szczegółowości ([v]erbosity):
 
-`nmap -O {{ip_lub_nazwa_hosta}}`
+`nmap -v{{1|2|3}} {{ip_lub_nazwa_hosta}}`
 
-- Sprawdź czy podane hosty odpowiadają na skanowanie i zgadnij ich nazwy:
+- Wykonaj bardzo agresywnie ping sweep w całej podsieci lub na poszczególnych hostach:
 
-`sudo nmap -sn {{ip_lub_nazwa_hosta}} {{opcjonalny_kolejny_adres_ip}}`
+`nmap -T5 -sn {{192.168.0.0/24|ip_lub_nazwa_hosta1,ip_lub_nazwa_hosta2,...}}`
 
-- Poza tym, uruchom domyśle skrypty, wykrywanie działających serwisów, OS fingerprinting oraz komendę traceroute:
+- Włącz wykrywanie systemu operacyjnego, wykrywanie wersji, skanowanie skryptów i traceroute hostów z pliku:
 
-`nmap -A {{adres_lub_adresy_ip}}`
+`sudo nmap -A -iL {{ścieżka/do/pliku.txt}}`
 
-- Skanuj podaną listę portów (użyj '-p-' dla wszystkich portów od 1 do 65535):
+- Skanuj podaną listę portów (użyj `-p-` dla wszystkich portów od 1 do 65535):
 
-`nmap -p {{port1,port2,...,portN}} {{adres_lub_adresy_ip}}`
+`nmap -p {{port1,port2,...}} {{ip_lub_host1,ip_lub_host2,...}}`
 
-- Przeprowadź wykrywanie serwisów i ich wersji dla 1000 najczęstrzych portów używając domyślich skryptów NSE; Zapisz rezultat ('-oN') do pliku wyjściowego:
+- Przeprowadź wykrywanie usług i wersji dla 1000 najpopularniejszych portów używając domyślnych skryptów NSE, zapisując wynik (`-oA`) do plików wyjściowych:
 
-`nmap -sC -sV -oN {{top-1000-ports.txt}} {{adres_lub_adresy_ip}}`
+`nmap -sC -sV -oA {{top-1000-ports}} {{ip_lub_host1,ip_lub_host2,...}}`
 
-- Skanuj cel lub cele używając skryptów NSE 'default and safe':
+- Skanuj cel(e) ostrożnie używając skryptów NSE `default and safe`:
 
-`nmap --script "default and safe" {{adres_lub_adresy_ip}}`
+`nmap --script "default and safe" {{ip_lub_host1,ip_lub_host2,...}}`
 
-- Skanuj serwer webowy uruchomiony na standardowych portach 80 i 443 używając wszystkich dostępnych skryptów NSE 'http-*':
+- Skanuj w poszukiwaniu serwerów internetowych działających na standardowych portach 80 i 443 przy użyciu wszystkich dostępnych skryptów NSE `http-*`:
 
-`nmap --script "http-*" {{adres_lub_adresy_ip}} -p 80,443`
+`nmap --script "http-*" {{ip_lub_host1,ip_lub_host2,...}} -p 80,443`
 
-- Wykonaj skryty i bardzo wolny skan ('-T0') próbując uniknąć wykrycia przez IDS/IPS i użyj adresu IP wabika ('-D'):
+- Spróbuj uniknąć wykrycia przez IDS/IPS, używając bardzo powolnego skanowania (`-T0`), fałszywych adresów źródłowych - wabików (`-D`), [f]ragmentowanych pakietów, losowych danych i innych metod:
 
-`nmap -T0 -D {{adres_ip_wabika1,adres_ip_wabika2,...,adres_ip_wabikaN}} {{adres_lub_adresy_ip}}`
+`sudo nmap -T0 -D {{ip_wabika1,ip_wabika2,...}} --source-port {{53}} -f --data-length {{16}} -Pn {{ip_lub_host}}`
