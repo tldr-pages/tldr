@@ -24,7 +24,7 @@
 
 `nmap -sC -sV -oA {{top-1000-ports}} {{ip_lub_host1,ip_lub_host2,...}}`
 
-- Skanuj cel(e) ostrożnie używając skryptów NSE 'default and safe':
+- Skanuj cel(e) ostrożnie używając skryptów NSE `default and safe`:
 
 `nmap --script "default and safe" {{ip_lub_host1,ip_lub_host2,...}}`
 
