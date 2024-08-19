@@ -5,7 +5,7 @@
 
 - Revisa la ortografía de un solo archivo:
 
-`aspell check {{ruta/a/archivo}}`
+`aspell check {{ruta/al/archivo}}`
 
 - Lista las palabras mal escritas de `stdin`:
 
