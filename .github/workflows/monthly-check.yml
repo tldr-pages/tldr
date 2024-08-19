@@ -27,6 +27,8 @@ jobs:
       run: pip install -r requirements.txt -r scripts/check-requirements.txt
 
     - name: Check GitHub Usernames
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         python scripts/check-github-usernames.py
         if [ -s bad-usernames.csv ]; then
