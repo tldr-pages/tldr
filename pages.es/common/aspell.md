@@ -9,7 +9,7 @@
 
 - Lista las palabras mal escritas de `stdin`:
 
-`cat {{ruta/a/archivo}} | aspell list`
+`cat {{ruta/al/archivo}} | aspell list`
 
 - Muestra los idiomas disponibles en el diccionario:
 
@@ -21,4 +21,4 @@
 
 - Lista las palabras mal escritas de `stdin` e ignora las palabras de la lista personal de palabras:
 
-`cat {{ruta/a/archivo}} | aspell --personal={{lista-personal-de-palabras.pws}} list`
+`cat {{ruta/al/archivo}} | aspell --personal={{lista_personal_de_palabras.pws}} list`
