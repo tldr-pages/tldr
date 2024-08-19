@@ -20,7 +20,7 @@
 
 `{ services.xserver.desktopManager.gnome.enable = true; }`
 
-- To enable a window manager such as hyprland or sway:
+- To enable a window manager such as xmonad or i3:
 
 `{ services.xserver.windowManager.xmonad.enable = true; }`
 
