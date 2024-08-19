@@ -128,6 +128,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10738) — [3 May 2024](https://github.com/tldr-pages/tldr/issues/12718)
 - Wiktor ([@spageektti](https://github.com/spageektti)):
   [11 May 2024](https://github.com/tldr-pages/tldr/issues/12776) — [1 June 2024](https://github.com/tldr-pages/tldr/issues/12869)
+- jxu ([@jxu](https://github.com/jxu)):
+  [18 August 2024](https://github.com/tldr-pages/tldr/issues/13451) — present
 
 ## Organization members
 
