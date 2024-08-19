@@ -17,7 +17,7 @@
 
 - Install or update an application using exact numeric identifier:
 
-`mas install {{numeric_product_identifier}}`
+`mas install {{product_id}}`
 
 - Install the first application that would be returned by the respective search:
 
@@ -33,4 +33,4 @@
 
 - Upgrade a specific application:
 
-`mas upgrade "{{numeric_product_identifier}}"`
+`mas upgrade "{{product_id}}"`
