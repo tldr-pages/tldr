@@ -12,6 +12,7 @@ This section contains a summary of the scripts available in this directory. For 
 - [pdf](pdf/README.md) directory contains the `render.py` and `build-pdf.sh` script and related resources to generate a PDF document of tldr-pages for a specific language or platform (or both).
 - [build.sh](build.sh) script builds the ZIP archives of the `pages` directory.
 - [build-index.sh](build-index.sh) script builds the index of available pages.
+- [check-github-usernames.py](check-github-usernames.py) is a Python script to check the [MAINTAINERS.md](../MAINTAINERS.md) and [CODEOWNERS](../.github/CODEOWNERS) if all listed GitHub usernames still exist, using asynchronous code for speed.
 - [check-pr.sh](check-pr.sh) script checks the page's syntax and performs various checks on the PR.
 - [deploy.sh](deploy.sh) script deploys the ZIP and PDF archives to the static website repository.
 - [send-to-bot.py](send-to-bot.py) is a Python script that sends the build or test output to tldr-bot.
@@ -31,6 +32,7 @@ The table below shows the compatibility of user-executable scripts with differen
 | [render.py](pdf/render.py) | ✅ | ✅ | ✅ |
 | [build-pdf.sh](pdf/build-pdf.sh) | ✅ | ✅ | ❌ (WSL ✅)|
 | [build.sh](build.sh) | ✅ | ✅ | ❌ (WSL ✅)|
+| [check-github-usernames.py](check-github-usernames.py) | ✅ | ✅ | ✅ |
 | [set-alias-pages.py](set-alias-pages.py) | ✅ | ✅ | ✅ |
 | [set-more-info-link.py](set-more-info-link.py) | ✅ | ✅ | ✅ |
 | [set-page-title.py](set-page-title.py) | ✅ | ✅ | ✅ |

@@ -1,0 +1,38 @@
+name: Monthly check
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 1 * *"
+
+permissions:
+  contents: read
+
+jobs:
+  check-github-usernames:
+    name: Check GitHub Usernames
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+        cache: 'pip'
+
+    - name: Install pip dependencies
+      run: pip install -r requirements.txt -r scripts/check-requirements.txt
+
+    - name: Check GitHub Usernames
+      run: |
+        python scripts/check-github-usernames.py
+        if [ -s bad-usernames.csv ]; then
+          echo "Found invalid GitHub usernames:"
+          cat bad-usernames.csv
+          exit 1
+        else
+          echo "No invalid usernames found."
+        fi
