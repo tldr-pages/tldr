@@ -9,7 +9,7 @@
 
 - Comprueba si hay erratas en el archivo especificado y aplica sugerencias de forma interactiva:
 
-`ispell {{ruta/a/archivo}}`
+`ispell {{ruta/al/archivo}}`
 
 - Muestra la versión:
 
