@@ -1,7 +1,7 @@
 # git ls-files
 
 > 색인과 작업 트리의 파일 정보를 보여줍니다.
-> 더 자세한 정보: <https://git-scm.com/docs/git-ls-files>.
+> 더 많은 정보: <https://git-scm.com/docs/git-ls-files>.
 
 - 삭제된 파일 보기:
 
