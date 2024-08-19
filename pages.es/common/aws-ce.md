@@ -1,4 +1,4 @@
-# awe-ce
+# aws-ce
 
 > Analiza y gestiona los controles de acceso y la configuración de seguridad en su entorno de nube.
 > Más información: <https://awe-ce-cli.documentation.com/latest/reference/awe-ce/index.html>.
