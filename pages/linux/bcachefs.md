@@ -27,7 +27,7 @@
 
 `sudo bcachefs set-fs-option --metadata_replicas={{2}} --data_replicas={{2}} {{path/to/partition}}`
 
-- Force bcachefs to ensure all files are replicated:
+- Force `bcachefs` to ensure all files are replicated:
 
 `sudo bcachefs data rereplicate {{path/to/mountpoint}}`
 
