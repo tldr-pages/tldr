@@ -31,6 +31,6 @@
 
 `mv -v {{path/to/source}} {{path/to/target}}`
 
-- Specify target directory so that you can use external tools to gather movable files:
+- Specify [t]arget directory so that you can use external tools to gather movable files:
 
 `{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv --target-directory {{path/to/target_directory}}`
