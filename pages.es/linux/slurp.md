@@ -21,8 +21,8 @@
 
 - Selecciona una región determinada y hace una captura de pantalla sin bordes utilizando `grim`:
 
-`grim -g «$(slurp -w 0)»`
+`grim -g "$(slurp -w 0)"`
 
 - Selecciona una región determinada y graba un vídeo sin bordes utilizando `wf-recorder`:
 
-`wf-recorder --geometry «$(slurp -w 0)»`
+`wf-recorder --geometry "$(slurp -w 0)"`
