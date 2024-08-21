@@ -32,6 +32,6 @@
 
 `uv sync`
 
-- Create a lockfile for the project's dependencies:
+- Create a lock file for the project's dependencies:
 
 `uv lock`
