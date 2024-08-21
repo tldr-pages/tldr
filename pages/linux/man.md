@@ -7,7 +7,7 @@
 
 `man {{command}}`
 
-- Open the man page for a command in a browser (requires `BROWSER` variable to be set):
+- Open the man page for a command in a browser (requires the `BROWSER` variable to be set):
 
 `man --html {{command}}`
 
