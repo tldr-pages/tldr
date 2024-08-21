@@ -20,11 +20,11 @@
 
 `uv remove {{package}}`
 
-- Run a script in the project environment:
+- Run a script in the project's environment:
 
 `uv run {{path/to/script.py}}`
 
-- Run a command in the project environment:
+- Run a command in the project's environment:
 
 `uv run {{command}}`
 
