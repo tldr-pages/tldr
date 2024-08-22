@@ -1,13 +1,13 @@
-# ls
+# pacgraph
 
 > Draws a graph of installed packages to PNG/SVG/GUI/console. Good for finding bloat.
-> More information: https://github.com/keenerd/pacgraph.
+> More information: <https://github.com/keenerd/pacgraph>.
 
 - Produce svg and png graph:
 
 `pacgraph`
 
-- Produce svg graph
+- Produce svg graph:
 
 `pacgraph --svg`
 
@@ -23,7 +23,7 @@
 
 `pacgraph --top=COLOR`
 
-- Change color of package dependencies
+- Change color of package dependencies:
 
 `pacgraph --dep=COLOR`
 
