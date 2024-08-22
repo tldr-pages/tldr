@@ -31,6 +31,6 @@
 
 `mv --verbose {{pad/naar/bron}} {{pad/naar/doel}}`
 
-- Specificeer de doelmap (handig in situaties waarin de doelmap het eerste argument moet zijn):
+- Specificeer de doelmap ([t]) (handig in situaties waarin de doelmap het eerste argument moet zijn):
 
-`ls | {{parallel|xargs}} mv -t {{pad/naar/doel_map}}`
+`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv --target-directory {{pad/naar/doel_map}}`
