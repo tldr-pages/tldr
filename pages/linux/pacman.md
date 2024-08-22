@@ -9,9 +9,13 @@
 
 `sudo pacman -Syu`
 
-- Install or update a package:
+- Install a new package:
 
 `sudo pacman -S {{package}}`
+
+- Update a package:
+
+`sudo pacman -Sy {{package}}`
 
 - Remove a package and its dependencies:
 
