@@ -9,7 +9,7 @@
 
 `sudo pacman -Syu`
 
-- Install a new package:
+- Install or update a new package:
 
 `sudo pacman -S {{package}}`
 
