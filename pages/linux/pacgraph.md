@@ -17,20 +17,20 @@
 
 - Override default filename/location. Do not specify extension:
 
-`pacgraph --file=FILENAME`
+`pacgraph --file={{path/to/file}}`
 
 - Change color of packages which are not dependencies:
 
-`pacgraph --top=COLOR`
+`pacgraph --top={{color}}`
 
 - Change color of package dependencies:
 
-`pacgraph --dep=COLOR`
+`pacgraph --dep={{color}}`
 
 - Change background color of a graph:
 
-`pacgraph --background=COLOR`
+`pacgraph --background={{color}}`
 
 - Change color of links between packages:
 
-`pacgraph --link=COLOR`
+`pacgraph --link={{color}}`
