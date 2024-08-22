@@ -31,6 +31,6 @@
 
 `mv --verbose {{path/to/source}} {{path/to/target}}`
 
-- Specify target directory (convenient in situations when the target directory has to be the first argument):
+- Specify [t]arget directory so that you can use external tools to gather movable files:
 
-`ls | {{parallel|xargs}} mv -t {{path/to/target_directory}}`
+`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv --target-directory {{path/to/target_directory}}`
