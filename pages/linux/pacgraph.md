@@ -3,7 +3,7 @@
 > Draw a graph of installed packages to PNG/SVG/GUI/console.
 > More information: <https://github.com/keenerd/pacgraph>.
 
-- Produce SVG and PNG graph:
+- Produce an SVG and PNG graph:
 
 `pacgraph`
 
