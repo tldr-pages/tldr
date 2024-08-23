@@ -7,7 +7,7 @@
 
 `mkfifo {{path/to/pipe}}`
 
-- Send data through a named pipe and send the command to backgroud:
+- Send data through a named pipe and send the command to the background:
 
 `echo {{"Hello World"}} > {{path/to/pipe}} &`
 
