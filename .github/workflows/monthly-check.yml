@@ -1,4 +1,4 @@
-name: Monthly check
+name: Monthly check GitHub usernames
 
 on:
   workflow_dispatch:
