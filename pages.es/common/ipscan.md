@@ -18,7 +18,7 @@
 
 - Escanea IPs con un conjunto específico de puertos:
 
-`ipscan {{192.168.0.1-254}}} -p {{80,443,22}}`
+`ipscan {{192.168.0.1-254}} -p {{80,443,22}}`
 
 - Escanea con un retardo entre peticiones para evitar la congestión de la red:
 
