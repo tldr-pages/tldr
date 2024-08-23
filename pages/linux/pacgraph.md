@@ -15,7 +15,7 @@
 
 `pacgraph --console`
 
-- Override default filename/location. Do not specify extension:
+- Override the default filename/location (Note: Do not specify the file extension):
 
 `pacgraph --file={{path/to/file}}`
 
