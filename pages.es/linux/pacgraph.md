@@ -21,7 +21,7 @@
 
 - Cambia el color de los paquetes que no son dependencias:
 
-`pacgraph --top={color}}`
+`pacgraph --top={{color}}`
 
 - Cambia el color de los paquetes dependientes:
 
