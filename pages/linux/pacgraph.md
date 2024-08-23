@@ -1,6 +1,6 @@
 # pacgraph
 
-> Draw a graph of installed packages to PNG/SVG/GUI/console. Good for finding bloat.
+> Draw a graph of installed packages to PNG/SVG/GUI/console.
 > More information: <https://github.com/keenerd/pacgraph>.
 
 - Produce SVG and PNG graph:
