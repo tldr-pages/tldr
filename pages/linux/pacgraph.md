@@ -7,7 +7,7 @@
 
 `pacgraph`
 
-- Produce SVG graph:
+- Produce an SVG graph:
 
 `pacgraph --svg`
 
