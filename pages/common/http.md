@@ -9,7 +9,7 @@
 
 - Print specific output content (`H`: request headers, `B`: request body, `h`: response headers, `b`: response body, `m`: response metadata):
 
-`http --print {{H|B|h|b|m}} {{https://example.com}}`
+`http --print {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
 
 - Specify HTTP method when sending a request:
 
