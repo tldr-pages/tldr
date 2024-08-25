@@ -13,7 +13,7 @@
 
 - Specify HTTP method when sending a request:
 
-`http {{GET|POST|HEAD|PUT|PATCH|DELTE|...}} {{https://example.com}}`
+`http {{GET|POST|HEAD|PUT|PATCH|DELETE|...}} {{https://example.com}}`
 
 - Specify additional headers in a request:
 
