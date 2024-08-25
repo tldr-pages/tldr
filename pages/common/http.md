@@ -31,6 +31,6 @@
 
 `http --session={{path/to/logged-in-session.json}} {{--auth username:password https://example.com/auth API-KEY:xxx}}`
 
-- Upload a file to a form (example below assumes form field is `<input type="file" name="cv" />`):
+- Upload a file to a form (the example below assumes form field is `<input type="file" name="cv" />`):
 
 `http --form {{POST}} {{https://example.com/upload}} {{cv@path/to/file}}`
