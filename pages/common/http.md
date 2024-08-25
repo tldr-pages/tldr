@@ -1,32 +1,36 @@
 # http
 
-> HTTPie: HTTP client, aims to be easier to use than cURL.
-> More information: <https://httpie.org>.
+> HTTPie: CLI tool designed for testing, debugging, and generally interacting with APIs & HTTP servers.
+> More information: <https://httpie.io/docs/cli/usage>.
 
-- Download a URL to a file:
+- Make a simple GET request (shows response header and content):
 
-`http --download {{example.org}}`
+`http {{https://example.org}}`
 
-- Send form-encoded data:
+- Print specific output content (`H`: request headers, `B`: request body, `h`: response headers, `b`: response body, `m`: response metadata):
 
-`http --form {{example.org}} {{name='bob'}} {{profile_picture@'bob.png'}}`
+`http --print {{H|B|h|b|m}} {{https://example.com}}`
 
-- Send JSON object:
+- Specify HTTP method when sending a request:
 
-`http {{example.org}} {{name='bob'}}`
+`http {{GET|POST|HEAD|PUT|PATCH|DELTE|...}} {{https://example.com}}`
 
-- Specify an HTTP method:
+- Specify additional headers in a request:
 
-`http {{HEAD}} {{example.org}}`
+`http {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
 
-- Include an extra header:
+- Authenticate to a server using different authentication methods:
 
-`http {{example.org}} {{X-MyHeader:123}}`
+`http --auth {{username:password|token}} --auth-type {{basic|digest|bearer}} {{GET|POST|...}} {{https://example.com/auth}}`
 
-- Pass a username and password for server authentication:
+- Construct a request but do not send it (similar to a dry-run):
 
-`http --auth {{username:password}} {{example.org}}`
+`http --offline {{GET|DELETE|...}} {{https://example.com}}`
 
-- Specify raw request body via `stdin`:
+- Use named sessions for persistent requests between requests:
 
-`cat {{data.txt}} | http PUT {{example.org}}`
+`http --session={{path/to/logged-in-session.json}} {{--auth username:password https://example.com/auth API-KEY:xxx}}`
+
+- Upload a file to a form (example below assumes form field is `<input type="file" name="cv" />`):
+
+`http --form {{POST}} {{https://example.com/upload}} {{cv@path/to/file}}
