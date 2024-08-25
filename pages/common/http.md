@@ -27,7 +27,7 @@
 
 `http --offline {{GET|DELETE|...}} {{https://example.com}}`
 
-- Use named sessions for persistent requests between requests:
+- Use named sessions for persistent custom headers, auth credentials and cookies:
 
 `http --session={{path/to/logged-in-session.json}} {{--auth username:password https://example.com/auth API-KEY:xxx}}`
 
