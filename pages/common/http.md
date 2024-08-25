@@ -1,6 +1,6 @@
 # http
 
-> HTTPie: CLI tool designed for testing, debugging, and generally interacting with APIs & HTTP servers.
+> HTTPie: designed for testing, debugging, and generally interacting with APIs & HTTP servers.
 > More information: <https://httpie.io/docs/cli/usage>.
 
 - Make a simple GET request (shows response header and content):
