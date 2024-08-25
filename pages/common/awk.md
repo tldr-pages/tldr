@@ -27,10 +27,10 @@
 
 `awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' {{path/to/file}}`
 
-- Print all lines where the 10th column value equals the specified value:
-
-`awk '($10 == {{value}})'`
-
 - Print all the lines which the 10th column value is between a min and a max:
 
 `awk '($10 >= {{min_value}} && $10 <= {{max_value}})'`
+
+- Print table of users with UID >=1000 with header and formatted output, using colon as separator (`%-20s` mean: 20 left-align string characters, `%6s` means: 6 right-align string characters):
+
+`awk 'BEGIN {FS=":";printf "%-20s %6s %25s\n", "Name", "UID", "Shell"} $4 >= 1000 {printf "%-20s %6d %25s\n", $1, $4, $7}' /etc/passwd`
