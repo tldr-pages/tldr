@@ -1,36 +1,17 @@
 # httpie
 
-> A user friendly HTTP tool.
-> More information: <https://github.com/httpie/httpie>.
+> Management interface for HTTPie.
+> See also: `http`, the tool itself.
+> More information: <https://httpie.io/docs/cli/plugin-manager>.
 
-- Send a GET request (default method with no request data):
+- Check updates for `http`:
 
-`http {{https://example.com}}`
+`httpie cli check-updates`
 
-- Send a POST request (default method with request data):
+- List installed `http` plugins:
 
-`http {{https://example.com}} {{hello=World}}`
+`httpie cli plugins list`
 
-- Send a POST request with redirected input:
+- Install/upgrade/uninstall plugins:
 
-`http {{https://example.com}} < {{file.json}}`
-
-- Send a PUT request with a given JSON body:
-
-`http PUT {{https://example.com/todos/7}} {{hello=world}}`
-
-- Send a DELETE request with a given request header:
-
-`http DELETE {{https://example.com/todos/7}} {{API-Key:foo}}`
-
-- Show the whole HTTP exchange (both request and response):
-
-`http -v {{https://example.com}}`
-
-- Download a file:
-
-`http --download {{https://example.com}}`
-
-- Follow redirects and show intermediary requests and responses:
-
-`http --follow --all {{https://example.com}}`
+`httpie cli plugins {{install|upgrade|uninstall}} {{plugin_name}}`
