@@ -1,7 +1,0 @@
-# gbasename
-
-> यो आदेश `-p linux basename` को उपनाम हो |
-
-- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
-
-`tldr -p linux basename`
