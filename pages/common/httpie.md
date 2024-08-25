@@ -14,4 +14,4 @@
 
 - Install/upgrade/uninstall plugins:
 
-`httpie cli plugins {{install|upgrade|uninstall}} {{plugin-name}}`
+`httpie cli plugins {{install|upgrade|uninstall}} {{plugin_name}}`
