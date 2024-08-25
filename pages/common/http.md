@@ -11,7 +11,7 @@
 
 `http --print {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
 
-- Specify HTTP method when sending a request:
+- Specify the HTTP method when sending a request:
 
 `http {{GET|POST|HEAD|PUT|PATCH|DELETE|...}} {{https://example.com}}`
 
