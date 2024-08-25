@@ -15,9 +15,9 @@
 
 `http {{GET|POST|HEAD|PUT|PATCH|DELETE|...}} {{https://example.com}}`
 
-- Specify additional headers in a request:
+- Follow any `3xx` redirects and specify additional headers in a request:
 
-`http {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
+`http {{--follow|-F}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
 
 - Authenticate to a server using different authentication methods:
 
