@@ -1,6 +1,6 @@
 # httpie
 
-> Managing interface for HTTPie itself.
+> Management interface for HTTPie.
 > See also: `http`, the tool itself.
 > More information: <https://httpie.io/docs/cli/plugin-manager>.
 
