@@ -29,7 +29,7 @@
 
 - Use named sessions for persistent custom headers, auth credentials and cookies:
 
-`http --session={{path/to/logged-in-session.json}} {{--auth username:password https://example.com/auth API-KEY:xxx}}`
+`http --session {{session_name|path/to/session.json}} {{--auth username:password https://example.com/auth API-KEY:xxx}}`
 
 - Upload a file to a form (the example below assumes form field is `<input type="file" name="cv" />`):
 
