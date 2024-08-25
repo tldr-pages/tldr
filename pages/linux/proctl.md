@@ -1,21 +1,69 @@
-[ENV=VAL ...] proctl <flag>
+# proctl
 
--initialize      -i @project_name       initialize a git repo for a project
--list-licenses   -ll                    list available licenses
--list-languages  -lL                    list available languages
--current-license -c                     show current active project license
--pick-license    -pl                    pick a license in a FZF menu
--pick-language   -pL                    pick a language in a FZF menu
--preview-license -P @license_name       preview a license template
--remove-license  -r                     remove all licenses from the current project
--search-license  -sl '<query | patten>' search for license
-    -search-language -sL '<query | patten>' search for language
--template-help   -T                     print help for templating
--new-template    -t                     create a new license template
--delete-license  -R @license_name ...   delete a license from templates
--new-config      -C                     create a default config overwriting current one
--check-conflict  -k                     check if current licene(s) are conflicting
+> Manage, Switch Between templated Licenses, and set Languages
+> More information: <https://github.com/HeCodes2Much/proctl>.
 
--help            -h                     show this helpful list of commands
+- Initialize a git repo for a project:
 
-PROCTL_COLOURS=0|[1]                    turn colour on (1) or off (0) [1]
+`proctl -initialize/-i @project_name`
+
+- List available licenses:
+
+`proctl -list-licenses/-ll`
+
+- List available languages
+
+`proctl -list-languages/-lL`
+
+- Show current active project license
+
+`proctl -current-license/-c`
+
+- Pick a license in a FZF menu
+
+`proctl -pick-license/-pl`
+
+- Pick a language in a FZF menu
+
+`proctl -pick-language/-pL`
+
+- Preview a license template
+  
+`proctl -preview-license/-P @license_name`
+
+- Remove all licenses from the current project
+
+`proctl -remove-license/-r`
+
+- Search for license
+
+`proctl -search-license/-sl '<query | patten>'`
+
+- Search for language
+
+`proctl -search-language/-sL '<query | patten>'`
+
+- Print help for templating
+
+`proctl -template-help/-T`
+
+- Create a new license template
+
+`proctl -new-template/-t`
+
+- Delete a license from templates
+
+`proctl -delete-license/-R @license_name ...`
+
+- Create a default config overwriting current one
+
+`proctl -new-config/-C`
+
+- Check if current licene(s) are conflicting
+
+`proctl -check-conflict/-k`
+
+- Show this helpful list of commands
+
+`proctl -help/-h`
+
