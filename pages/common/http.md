@@ -33,4 +33,4 @@
 
 - Upload a file to a form (example below assumes form field is `<input type="file" name="cv" />`):
 
-`http --form {{POST}} {{https://example.com/upload}} {{cv@path/to/file}}
+`http --form {{POST}} {{https://example.com/upload}} {{cv@path/to/file}}`
