@@ -2,7 +2,7 @@
 
 > 원격 저장소의 브랜치, 태그 등의 정보를 나열하는 Git 명령어입니다.
 > 이름이나 URL이 주어지지 않으면 설정된 업스트림 브랜치를 사용하며, 업스트림이 설정되지 않은 경우 원격 origin을 사용합니다.
-> 더 자세한 정보: <https://git-scm.com/docs/git-ls-remote>.
+> 더 많은 정보: <https://git-scm.com/docs/git-ls-remote>.
 
 - 기본 원격 저장소의 모든 브랜치와 태그 정보 보기:
 
