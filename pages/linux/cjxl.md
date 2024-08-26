@@ -7,7 +7,7 @@
 
 `cjxl {{path/to/image.ext}} {{path/to/output.jxl}}`
 
-- Maximize the quality and compression of the resulting image:
+- Set quality to lossless and maximize compression of the resulting image:
 
 `cjxl --distance 0 --effort 9 {{path/to/image.ext}} {{path/to/output.jxl}}`
 
