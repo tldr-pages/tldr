@@ -9,4 +9,4 @@
 
 - Maximize the quality and compression of the resulting image:
 
-`cjxl --distance 0 --effort 9 {{path/to/image}} {{path/to/target.jxl}}`
+`cjxl --distance 0 --effort 9 {{path/to/image}} {{path/to/output.jxl}}`
