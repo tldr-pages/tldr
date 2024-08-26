@@ -5,11 +5,11 @@
 
 - Convert an image to JPEG XL:
 
-`cjxl {{path/to/image}} {{path/to/output.jxl}}`
+`cjxl {{path/to/image.ext}} {{path/to/output.jxl}}`
 
 - Maximize the quality and compression of the resulting image:
 
-`cjxl --distance 0 --effort 9 {{path/to/image}} {{path/to/output.jxl}}`
+`cjxl --distance 0 --effort 9 {{path/to/image.ext}} {{path/to/output.jxl}}`
 
 - Display an extremely detailed help page:
 
