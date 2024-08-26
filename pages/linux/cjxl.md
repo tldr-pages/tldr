@@ -1,17 +1,13 @@
 # cjxl
 
-> Compress images to JPEG XL.
-> Accepted input extensions are PNG, APNG, GIF, JPEG, EXR, PPM, PFM, PAM, PGX, and JXL.
+> Decompress JPEG XL images
+> Accepted output extensions are PNG, APNG, JPEG, EXR, PGM, PPM, PNM, PFM, PAM, EXIF, XMP and JUMBF.
 > More information: <https://github.com/libjxl/libjxl>.
 
-- Convert an image to JPEG XL:
+- Decompress a JPEG XL image to another format:
 
-`cjxl {{path/to/image.ext}} {{path/to/output.jxl}}`
-
-- Set quality to lossless and maximize compression of the resulting image:
-
-`cjxl --distance 0 --effort 9 {{path/to/image.ext}} {{path/to/output.jxl}}`
+`djxl {{path/to/image.jxl}} {{path/to/output.ext}}`
 
 - Display an extremely detailed help page:
 
-`cjxl --help --verbose --verbose --verbose --verbose`
+`djxl --help --verbose --verbose --verbose --verbose`
