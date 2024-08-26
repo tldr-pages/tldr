@@ -1,6 +1,7 @@
 # cjxl
 
 > Compress images to JPEG XL.
+> Accepted input extensions are PNG, APNG, GIF, JPEG, EXR, PPM, PFM, PAM, PGX, and JXL.
 > More information: <https://github.com/libjxl/libjxl>.
 
 - Convert an image to JPEG XL:
