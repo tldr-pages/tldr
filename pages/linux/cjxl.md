@@ -10,3 +10,7 @@
 - Maximize the quality and compression of the resulting image:
 
 `cjxl --distance 0 --effort 9 {{path/to/image}} {{path/to/output.jxl}}`
+
+- View an extremely detailed help page:
+
+`cjxl --help --verbose --verbose --verbose --verbose`
