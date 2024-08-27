@@ -17,7 +17,7 @@
 
 - Descarga el archivo especificado desde el servidor de destino:
 
-`nxc ftp {{192.168.178.2}} -u {{nombre_de_usuario}} -p {{contraseña}} --get {{ruta/a/archivo}}`
+`nxc ftp {{192.168.178.2}} -u {{nombre_de_usuario}} -p {{contraseña}} --get {{ruta/al/archivo}}`
 
 - Carga el archivo especificado en el servidor de destino en la ubicación especificada:
 
