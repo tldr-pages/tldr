@@ -1,32 +1,36 @@
 # http
 
-> HTTPie: HTTP client, bedoeld om gebruiksvriendelijker te zijn dan cURL.
-> Meer informatie: <https://httpie.org>.
+> HTTPie: een HTTP-client ontworpen voor het testen, debuggen en in het algemeen interactie met API's en HTTP-servers.
+> Meer informatie: <https://httpie.io/docs/cli/usage>.
 
-- Download een URL naar een bestand:
+- Maak een eenvoudige GET-aanvraag (toont response header en inhoud):
 
-`http --download {{example.org}}`
+`http {{https://example.org}}`
 
-- Verstuur formulier-gecodeerde data:
+- Print specifieke uitvoerinhoud (`H`: request headers, `B`: request body, `h`: response headers, `b`: response body, `m`: response metadata):
 
-`http --form {{example.org}} {{naam='bob'}} {{profielfoto@'bob.png'}}`
+`http --print {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
 
-- Verstuur een JSON-object:
+- Specificeer de HTTP-methode bij het verzenden van een aanvraag:
 
-`http {{example.org}} {{naam='bob'}}`
+`http {{GET|POST|HEAD|PUT|PATCH|DELETE|...}} {{https://example.com}}`
 
-- Specificeer een HTTP-methode:
+- Volg eventuele `3xx` redirects en specificeer extra headers in een verzoek:
 
-`http {{HEAD}} {{example.org}}`
+`http {{--follow|-F}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
 
-- Voeg een extra header toe:
+- Authenticeer bij een server met verschillende authenticatiemethoden:
 
-`http {{example.org}} {{X-MyHeader:123}}`
+`http --auth {{gebruikersnaam:wachtwoord|token}} --auth-type {{basic|digest|bearer}} {{GET|POST|...}} {{https://example.com/auth}}`
 
-- Geef een gebruikersnaam en wachtwoord op voor serverauthenticatie:
+- Maak een verzoek maar verzend het niet (vergelijkbaar met een dry-run):
 
-`http --auth {{gebruikersnaam:wachtwoord}} {{example.org}}`
+`http --offline {{GET|DELETE|...}} {{https://example.com}}`
 
-- Specificeer de onbewerkte request body via `stdin`:
+- Gebruik benoemde sessies voor aanhoudende aangepaste headers, auth-referenties en cookies:
 
-`cat {{data.txt}} | http PUT {{example.org}}`
+`http --session {{session_naam|pad/naar/session.json}} {{--auth gebruikersnaam:wachtwoord https://example.com/auth API-KEY:xxx}}`
+
+- Upload een bestand naar een formulier (het onderstaande voorbeeld gaat ervan uit dat het formulier `<input type="file" name="cv" />` is):
+
+`http --form {{POST}} {{https://example.com/upload}} {{cv@pad/naar/bestand}}`
