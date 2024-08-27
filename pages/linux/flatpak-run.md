@@ -9,7 +9,7 @@
 
 - Run an installed application from a specific branch e.g. stable, beta, master:
 
-`flatpak run --branch={{branch}} {{name}}`
+`flatpak run --branch={{stable|beta|master|...}} {{name}}`
 
 - Run an interactive shell inside a flatpak:
 
