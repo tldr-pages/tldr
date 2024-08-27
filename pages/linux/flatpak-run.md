@@ -5,7 +5,7 @@
 
 - Run an installed application:
 
-`flatpak run {{name}}`
+`flatpak run {{com.example.app}}`
 
 - Run an installed application from a specific branch e.g. stable, beta, master:
 
