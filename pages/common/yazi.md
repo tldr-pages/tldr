@@ -4,7 +4,7 @@
 > Efficient, user-friendly, and customizable file management experience.
 > More information: <https://github.com/sxyazi/yazi>.
 
-- Launch yazi from current directory:
+- Launch Yazi from current directory:
 
 `yazi`
 
@@ -14,7 +14,7 @@
 
 - Write the cwd on exit to this file:
 
-`yazi --cwd-file {{CWD_FILE}}`
+`yazi --cwd-file {{path/to/cwd_file}}`
 
 - Clear the cache directory:
 

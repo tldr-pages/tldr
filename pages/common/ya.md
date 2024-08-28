@@ -1,12 +1,11 @@
 # ya
 
-> Yazi command-line interface.
-> Manage yazi packages and plugins.
+> Manage Yazi packages and plugins.
 > More information: <https://github.com/sxyazi/yazi>.
 
 - Add a package:
 
-`ya pack -a {{PACKAGE}}`
+`ya pack -a {{package}}`
 
 - Upgrade all packages:
 
@@ -14,7 +13,7 @@
 
 - Subscribe to messages from all remote instances:
 
-`ya sub {{KINDS}}`
+`ya sub {{kinds}}`
 
 - Publish a message to the current instance with string body:
 
@@ -22,4 +21,4 @@
 
 - Publish a message to the specified instance with string body:
 
-`ya pub-to --str {{STR}} {{RECEIVER}} {{KIND}}`
+`ya pub-to --str {{message}} {{receiver}} {{kind}}`
