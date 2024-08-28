@@ -12,11 +12,11 @@
 
 `kde-builder {{component_name}}`
 
-- Compile a component without updating its local code and without compiling its dependencies:
+- Compile a component without updating its local code and without compiling its [D]ependencies:
 
 `kde-builder --no-src --no-include-dependencies {{component_name}}`
 
-- Refresh the build directories before compiling:
+- [r]efresh the build directories before compiling:
 
 `kde-builder --refresh-build {{component_name}}`
 
