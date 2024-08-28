@@ -17,7 +17,11 @@
 
 - Publish a message to the current instance with string body:
 
-`ya pub --str {{STR}}`
+`ya pub --str {{string_message}}`
+
+- Publish a message to the current instance with json body:
+
+`ya pub --json {{json_message}}`
 
 - Publish a message to the specified instance with string body:
 
