@@ -19,7 +19,7 @@
 
 `ya pub --str {{string_message}}`
 
-- Publish a message to the current instance with json body:
+- Publish a message to the current instance with JSON body:
 
 `ya pub --json {{json_message}}`
 

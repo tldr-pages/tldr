@@ -12,7 +12,7 @@
 
 `yazi --debug`
 
-- Write the cwd on exit to this file:
+- Write the current working directory on exit to the file:
 
 `yazi --cwd-file {{path/to/cwd_file}}`
 
