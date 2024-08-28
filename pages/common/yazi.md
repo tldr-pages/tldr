@@ -4,7 +4,7 @@
 > Efficient, user-friendly, and customizable file management experience.
 > More information: <https://github.com/sxyazi/yazi>.
 
-- Launch Yazi from current directory:
+- Launch Yazi from the current directory:
 
 `yazi`
 
