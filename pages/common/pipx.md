@@ -27,6 +27,6 @@
 
 `pipx install --pip-args='{{pip-args}}' {{package}}`
 
-- Upgrade/reinstall/uninstall all installed pckages:
+- Upgrade/reinstall/uninstall all installed packages:
 
 `pipx {{upgrade-all|uninstall-all|reinstall-all}}`
