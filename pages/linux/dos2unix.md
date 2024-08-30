@@ -1,7 +1,7 @@
 # dos2unix
 
 > Change DOS-style line endings to Unix-style.
-> Replaces CRLF with LF. 
+> Replaces CRLF with LF.
 > See also `unix2dos`, `unix2mac`, and `mac2unix`.
 > More information: <https://manned.org/dos2unix>.
 
