@@ -9,7 +9,7 @@
 
 - [i]nteractively delete untracked files:
 
-`git clean --interactive`
+`git clean {{--interactive|-i}}`
 
 - Show which files would be deleted without actually deleting them:
 
@@ -17,11 +17,11 @@
 
 - [f]orcefully delete untracked files:
 
-`git clean --force`
+`git clean {{--force|-f}}`
 
 - [f]orcefully delete untracked [d]irectories:
 
-`git clean --force -d`
+`git clean {{--force|-f}} -d`
 
 - Delete untracked files, including e[x]cluded files (files ignored in `.gitignore` and `.git/info/exclude`):
 
