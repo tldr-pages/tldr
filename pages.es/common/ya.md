@@ -5,7 +5,7 @@
 
 - Añade un paquete:
 
-`ya pack -a {{paquete}}`.
+`ya pack -a {{paquete}}`
 
 - Actualiza todos los paquetes:
 
