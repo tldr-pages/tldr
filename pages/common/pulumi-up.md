@@ -15,6 +15,6 @@
 
 `pulumi up --stack {{stack}}`
 
-- Don't display stack outputs
+- Don't display stack outputs:
 
 `pulumi up --suppress-outputs`
