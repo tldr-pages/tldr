@@ -31,6 +31,6 @@
 
 `mv --verbose {{ruta/a/origen}} {{ruta/a/destino}}`
 
-- Especifica el directorio de destino (conveniente en situaciones en las que el directorio de destino tiene que ser el primer argumento):
+- Especifica el directorio de destino para poder utilizar herramientas externas para recopilar archivos movibles:
 
-`ls | {{parallel|xargs}} mv -t {{ruta/a/directorio_destino}}`
+`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv --target-directory {{ruta/a/directorio_destino}}`
