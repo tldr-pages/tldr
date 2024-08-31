@@ -9,7 +9,7 @@
 
 - Ejecuta una aplicación instalada desde una rama específica, por ejemplo, stable, beta, master:
 
-`flatpak run --branch={{estable|beta|master|...}} {{com.example.app}}`
+`flatpak run --branch={{stable|beta|master|...}} {{com.example.app}}`
 
 - Ejecuta un shell interactivo dentro de un flatpak:
 
