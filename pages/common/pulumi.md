@@ -27,3 +27,7 @@
 - Destroy a program and its infrastructure:
 
 `pulumi destroy`
+
+- Use Pulumi locally, independent of a Pulumi Cloud:
+
+`pulumi login {{-l|--local}}`
