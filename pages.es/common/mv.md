@@ -31,6 +31,6 @@
 
 `mv --verbose {{ruta/a/origen}} {{ruta/a/destino}}`
 
-- Especifica el directorio de destino para poder utilizar herramientas externas para recopilar archivos movibles:
+- Especifica el directorio de des[t]ino para poder utilizar herramientas externas para recopilar archivos movibles:
 
 `{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv --target-directory {{ruta/a/directorio_destino}}`
