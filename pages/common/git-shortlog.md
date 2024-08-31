@@ -13,7 +13,7 @@
 
 - View a summary of all the commits made, grouped by the committer identities (name and email):
 
-`git shortlog {{--commiter|-c}}`
+`git shortlog {{--committer|-c}}`
 
 - View a summary of the last 5 commits (i.e. specify a revision range):
 

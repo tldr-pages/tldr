@@ -5,15 +5,15 @@
 
 - Create a tar archive from the contents of the current HEAD and print it to `stdout`:
 
-`git archive {{--verbose|-V}} HEAD`
+`git archive {{--verbose|-v}} HEAD`
 
 - Use the Zip format and report progress verbosely:
 
-`git archive {{--verbose|-V}} --format zip HEAD`
+`git archive {{--verbose|-v}} --format zip HEAD`
 
 - Output the Zip archive to a specific file:
 
-`git archive {{--verbose|-V}} {{--output|-o}} {{path/to/file.zip}} HEAD`
+`git archive {{--verbose|-v}} {{--output|-o}} {{path/to/file.zip}} HEAD`
 
 - Create a tar archive from the contents of the latest commit of a specific branch:
 

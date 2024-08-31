@@ -15,11 +15,11 @@
 
 `git clean --dry-run`
 
-- [f]orcefully delete untracked files:
+- Forcefully delete untracked files:
 
 `git clean {{--force|-f}}`
 
-- [f]orcefully delete untracked [d]irectories:
+- Forcefully delete untracked [d]irectories:
 
 `git clean {{--force|-f}} -d`
 
