@@ -5,7 +5,7 @@
 
 - List existing remotes with their names and URLs:
 
-`git remote -v`
+`git remote {{--verbose|-v}}`
 
 - Show information about a remote:
 

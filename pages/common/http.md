@@ -11,9 +11,9 @@
 
 `http --print {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
 
-- Specify the HTTP method when sending a request:
+- Specify the HTTP method when sending a request and use a proxy to intercept the request:
 
-`http {{GET|POST|HEAD|PUT|PATCH|DELETE|...}} {{https://example.com}}`
+`http {{GET|POST|HEAD|PUT|PATCH|DELETE|...}} --proxy {{http|https}}:{{http://localhost:8080|socks5://localhost:9050|...}} {{https://example.com}}`
 
 - Follow any `3xx` redirects and specify additional headers in a request:
 
