@@ -25,7 +25,7 @@
 
 - Ejecuta un comando para cada archivo (utiliza `{}` dentro del comando para acceder al nombre del archivo):
 
-bfs {{ruta_root}} -name '{{*.ext}}' -exec {{wc -l}} {} \;`
+`bfs {{ruta_root}} -name '{{*.ext}}' -exec {{wc -l}} {} \;`
 
 - Busca todos los archivos modificados hoy y pasa los resultados a un único comando como argumentos:
 
