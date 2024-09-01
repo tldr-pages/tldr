@@ -10,7 +10,7 @@
 
 - Run tests for all previous stages and the current stage without committing changes:
 
-`codecrafters test`
+`codecrafters test --previous`
 
 - Commit changes and submit, to move to the next stage:
 
