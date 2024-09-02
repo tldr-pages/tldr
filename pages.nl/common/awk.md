@@ -31,6 +31,6 @@
 
 `awk '($10 == {{value}})'`
 
-- Toon alle regels waarbij de waarde van de 10e kolom tussen een min en een max zit:
+- Print een tabel van gebruikers met UID >= 1000 met header en opgemaakte uitvoer, gebruikmakend van een dubbele punt als scheidingsteken (`%-20s` betekent: 20 links uitgelijnde tekens, `%6s` betekent: 6 rechts uitgelijnde tekens):
 
-`awk '($10 >= {{min_value}} && $10 <= {{max_value}})'`
+`awk 'BEGIN {FS=":"; printf "%-20s %6s %25s\n", "Name", "UID", "Shell"} $3 >= 1000 {printf "%-20s %6d %25s\n", $1, $3, $7}' /etc/passwd`

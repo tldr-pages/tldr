@@ -1,36 +1,17 @@
 # httpie
 
-> Een gebruiksvriendelijke HTTP-tool.
-> Meer informatie: <https://github.com/httpie/httpie>.
+> Beheersinterface voor HTTPie.
+> Zie ook: `http`, de tool zelf.
+> Meer informatie: <https://httpie.io/docs/cli/plugin-manager>.
 
-- Verstuur een GET-verzoek (standaardmethode zonder verzoekgegevens):
+- Controleer op updates voor `http`:
 
-`http {{https://example.com}}`
+`httpie cli check-updates`
 
-- Verstuur een POST-verzoek (standaardmethode met verzoekgegevens):
+- Toon geïnstalleerde `http` plugins:
 
-`http {{https://example.com}} {{hello=World}}`
+`httpie cli plugins list`
 
-- Verstuur een POST-verzoek met omgeleide invoer:
+- Installeer/upgrade/installeer plugins:
 
-`http {{https://example.com}} < {{bestand.json}}`
-
-- Verstuur een PUT-verzoek met een opgegeven JSON-body:
-
-`http PUT {{https://example.com/todos/7}} {{hello=world}}`
-
-- Verstuur een DELETE-verzoek met een opgegeven verzoekheader:
-
-`http DELETE {{https://example.com/todos/7}} {{API-Key:foo}}`
-
-- Toon de hele HTTP-uitwisseling (zowel verzoek als antwoord):
-
-`http -v {{https://example.com}}`
-
-- Download een bestand:
-
-`http --download {{https://example.com}}`
-
-- Volg redirects en toon tussenliggende verzoeken en antwoorden:
-
-`http --follow --all {{https://example.com}}`
+`httpie cli plugins {{install|upgrade|uninstall}} {{plugin_naam}}`
