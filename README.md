@@ -75,7 +75,7 @@ Linux and Mac users can also install the official [Rust Client](https://github.c
 (or [other package managers](https://github.com/tldr-pages/tlrc#installation) on other operating systems):
 
 ```shell
-brew install tlrc
+brew install tldr
 ```
 
 Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
