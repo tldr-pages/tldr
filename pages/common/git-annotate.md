@@ -11,7 +11,7 @@
 
 - Print a file with the author [e]mail and commit hash prepended to each line:
 
-`git annotate -e {{path/to/file}}`
+`git annotate {{--show-email|-e}} {{path/to/file}}`
 
 - Print only rows that match a regular expression:
 
