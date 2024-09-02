@@ -9,7 +9,7 @@
 
 - Voeg alle bestanden toe (bijgehouden en niet bijgehouden):
 
-`git add -A`
+`git add {{--all|-A}}`
 
 - Voeg alle bestanden toe in de huidige map:
 
@@ -17,20 +17,20 @@
 
 - Voeg alleen al bijgehouden bestanden toe:
 
-`git add -u`
+`git add {{--update|-u}}`
 
 - Voeg ook genegeerde bestanden toe:
 
-`git add -f`
+`git add {{--force|-f}}`
 
 - Interactief delen van bestanden toevoegen:
 
-`git add -p`
+`git add {{--patch|-p}}`
 
 - Interactief delen van een opgegeven bestand toevoegen:
 
-`git add -p {{pad/naar/bestand}}`
+`git add {{--patch|-p}} {{pad/naar/bestand}}`
 
 - Interactief een bestand toevoegen:
 
-`git add -i`
+`git add {{--interactive|-i}}`
