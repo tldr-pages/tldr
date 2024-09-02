@@ -1,7 +1,7 @@
 # 7zr
 
 > Archiwizator plików o wysokim współczynniku kompresji.
-> Podobny do `7z` z wyjątkiem tego, że obsługuje tylko pliki `7z`..
+> Podobny do `7z` z wyjątkiem tego, że obsługuje tylko pliki `7z`.
 > Więcej informacji: <https://manned.org/7zr>.
 
 - Z[a]rchiwizuj plik lub katalog:
