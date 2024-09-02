@@ -6,16 +6,16 @@
 
 - Assembla un file, scrivendo l'output su a.out:
 
-`as {{file.s}}`
+`as {{percorso/del/file.s}}`
 
 - Assembla l'output nel file dato:
 
-`as {{file.s}} -o {{out.o}}`
+`as {{percorso/del/file.s}} -o {{percorso/del/out.o}}`
 
 - Genera l'output più velocemente saltando gli spazi e senza preprocessare i commenti. (Questo comando dovrebbe essere utilizzato solo con compilatori fidati):
 
-`as -f {{file.s}}`
+`as -f {{percorso/del/file.s}}`
 
 - Includi un percorso dato alla lista delle directory in cui cercare i file specificati nelle direttive `.include`:
 
-`as -I {{percorso/della/directory}} {{file.s}}`
+`as -I {{percorso/della/directory}} {{percorso/del/file.s}}`

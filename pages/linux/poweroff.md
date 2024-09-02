@@ -17,7 +17,7 @@
 
 - Shut down immediately without contacting the system manager:
 
-`poweroff --force --force`
+`poweroff --force`
 
 - Write the wtmp shutdown entry without shutting down the system:
 

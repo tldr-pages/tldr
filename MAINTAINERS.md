@@ -70,6 +70,10 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [22 February 2024](https://github.com/tldr-pages/tldr/issues/12324) — present
 - **Shashank Hebbar ([@quantumflo](https://github.com/quantumflo))**:
   [13 November 2023](https://github.com/tldr-pages/tldr/issues/11460) — [27 March 2024](https://github.com/tldr-pages/tldr/issues/12209), [30 March 2024](https://github.com/tldr-pages/tldr/pull/11622#issuecomment-2027932865) — present
+- **Debaudh Ghosh ([@debghs](https://github.com/debghs))**:
+  [16 August 2024](https://github.com/tldr-pages/tldr/issues/13450) — present
+- **jxu ([@jxu](https://github.com/jxu))**:
+  [18 August 2024](https://github.com/tldr-pages/tldr/issues/13451) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -84,7 +88,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [24 August 2020](https://github.com/tldr-pages/tldr/issues/4291) — [5 October 2020](https://github.com/tldr-pages/tldr/issues/4504)
 - bl-ue ([@bl-ue](https://github.com/bl-ue)):
   [30 December 2020](https://github.com/tldr-pages/tldr/issues/5056) — [2 February 2021](https://github.com/tldr-pages/tldr/issues/5219)
-- Tan Siret Akıncı ([@yutyo](https://github.com/yutyo)):
+- Tan Siret Akıncı ([@tansiret](https://github.com/tansiret)):
   [3 March 2021](https://github.com/tldr-pages/tldr/issues/5345) — [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702)
 - Florian Benscheidt ([@Waples](https://github.com/Waples)):
   [16 April 2021](https://github.com/tldr-pages/tldr/issues/5774) — [19 May 2021](https://github.com/tldr-pages/tldr/issues/5989)
@@ -136,7 +140,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — present
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
   [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
-- **Tan Siret Akıncı ([@yutyo](https://github.com/yutyo))**:
+- **Tan Siret Akıncı ([@tansiret](https://github.com/tansiret))**:
   [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702) — present
 - **Florian Benscheidt ([@Waples](https://github.com/Waples))**:
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5989) — present

@@ -1,7 +1,7 @@
 # git remote
 
 > 원격 저장소(remote repositories)를 관리하는 명령어입니다.
-> 더 자세한 정보: <https://git-scm.com/docs/git-remote>.
+> 더 많은 정보: <https://git-scm.com/docs/git-remote>.
 
 - 이름과 URL을 포함한 기존 원격 저장소 목록 보기:
 

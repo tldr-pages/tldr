@@ -1,7 +1,0 @@
-# grlogin
-
-> यो आदेश `-p linux rlogin` को उपनाम हो |
-
-- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
-
-`tldr -p linux rlogin`

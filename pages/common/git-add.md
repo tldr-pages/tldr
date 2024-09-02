@@ -9,7 +9,7 @@
 
 - Add all files (tracked and untracked):
 
-`git add -A`
+`git add {{--all|-A}}`
 
 - Add all files in the current folder:
 
@@ -17,20 +17,20 @@
 
 - Only add already tracked files:
 
-`git add -u`
+`git add {{--update|-u}}`
 
 - Also add ignored files:
 
-`git add -f`
+`git add {{--force|-f}}`
 
 - Interactively stage parts of files:
 
-`git add -p`
+`git add {{--patch|-p}}`
 
 - Interactively stage parts of a given file:
 
-`git add -p {{path/to/file}}`
+`git add {{--patch|-p}} {{path/to/file}}`
 
 - Interactively stage a file:
 
-`git add -i`
+`git add {{--interactive|-i}}`
