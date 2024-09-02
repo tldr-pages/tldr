@@ -7,7 +7,7 @@
 
 `git clean`
 
-- interactively delete untracked files:
+- Interactively delete untracked files:
 
 `git clean {{-i|--interactive}}`
 
