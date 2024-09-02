@@ -6,28 +6,28 @@
 
 - Z[a]rchiwizuj plik lub katalog:
 
-`7za a {{ścieżka/do/archiwum.7z}} {{ścieżka/do/pliku_lub_katalogu}}`
+`7zr a {{ścieżka/do/archiwum.7z}} {{ścieżka/do/pliku_lub_katalogu}}`
 
 - Zaszyfruj istniejące archiwum (w tym nazwy plików):
 
-`7za a {{ścieżka/do/zaszyfrowanego.7z}} -p{{hasło}} -mhe={{on}} {{ścieżka/do/archiwum.7z}}`
+`7zr a {{ścieżka/do/zaszyfrowanego.7z}} -p{{hasło}} -mhe={{on}} {{ścieżka/do/archiwum.7z}}`
 
 - Wypakuj archiwum, zachowując oryginalną strukturę katalogów:
 
-`7za x {{ścieżka/do/archiwum.7z}}`
+`7zr x {{ścieżka/do/archiwum.7z}}`
 
 - Wypakuj archiwum do określonego katalogu:
 
-`7za x {{ścieżka/do/archiwum.7z}} -o{{ścieżka/do/wyjścia}}`
+`7zr x {{ścieżka/do/archiwum.7z}} -o{{ścieżka/do/wyjścia}}`
 
 - Wypakuj archiwum do `stdout`:
 
-`7za x {{ścieżka/do/archiwum.7z}} -so`
+`7zr x {{ścieżka/do/archiwum.7z}} -so`
 
 - Wypisz zawartość pliku archiwum:
 
-`7za l {{ścieżka/do/archiwum.7z}}`
+`7zr l {{ścieżka/do/archiwum.7z}}`
 
 - Ustaw poziom kompresji (wyższy oznacza wyższą kompresję, ale wolniejszą):
 
-`7za a {{ścieżka/do/archiwum.7z}} -mx={{0|1|3|5|7|9}} {{ścieżka/do/pliku_lub_katalogu}}`
+`7zr a {{ścieżka/do/archiwum.7z}} -mx={{0|1|3|5|7|9}} {{ścieżka/do/pliku_lub_katalogu}}`
