@@ -11,11 +11,11 @@
 
 `rev {{path/to/file}}`
 
-- Help
+- Help:
 
 `rev -h`
 
-- Display version
+- Display version:
 
 `rev -V`
 
