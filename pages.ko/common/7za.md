@@ -6,7 +6,7 @@
 
 - 파일이나 디렉토리 압축하기:
 
-`7za a {{경로/archived.7z}} {{파일_혹은_디렉토리/의/경로}}`
+`7za a {{경로/archived.7z}} {{경로/대상/파일_혹은_디렉토리}}`
 
 - 압축파일 암호화 (including file names):
 
@@ -18,7 +18,7 @@
 
 - 특정 디렉토리에 압축파일 추출:
 
-`7za x {{경로/archive.7z}} -o{{아웃풋/의/경로}}`
+`7za x {{경로/archive.7z}} -o{{경로/대상/결과물}}`
 
 - `stdout`에 압축파일 추출:
 
@@ -26,7 +26,7 @@
 
 - 특정 압축 타입을 이용하여 추출하기:
 
-`7za a -t{{zip|gzip|bzip2|tar}} {{archived}} {{path/to/file_or_directory}}`
+`7za a -t{{zip|gzip|bzip2|tar}} {{archived}} {{경로/대상/파일명_또는_디렉터리명}}`
 
 - 압축 파일의 내용 목록:
 
