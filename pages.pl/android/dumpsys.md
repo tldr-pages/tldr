@@ -1,6 +1,6 @@
 # dumpsys
 
-> Dostarczanie informacji o usługach systemu Android.
+> Uzyskaj informacje o usługach systemu Android.
 > Ta komenda może być używana tylko poprzez `adb shell`.
 > Więcej informacji: <https://developer.android.com/tools/dumpsys>.
 
@@ -12,18 +12,18 @@
 
 `dumpsys {{usługa}}`
 
-- Lista wszystkich usług, o których `dumpsys` może dać informacje:
+- Wypisz wszystkie usługi, o których `dumpsys` może podać informacje:
 
 `dumpsys -l`
 
-- Lista argumentów specyficznych dla usługi:
+- Wypisz argumenty specyficzne dla danej usługi:
 
 `dumpsys {{usługa}} -h`
 
-- Wykluczenie określonej usługi z wyjścia diagnostycznego:
+- Wyklucz określoną usługę z wyjścia diagnostycznego:
 
 `dumpsys --skip {{usługa}}`
 
-- Określenie czasu oczekiwania w sekundach (domyślnie 10s):
+- Określ czas oczekiwania w sekundach (domyślnie 10s):
 
-`dumpsys -t {{sekundy}}`
+`dumpsys -t {{8}}`
