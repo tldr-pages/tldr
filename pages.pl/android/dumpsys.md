@@ -16,7 +16,7 @@
 
 `dumpsys -l`
 
-- Wypusz argumenty specyficzne dla danej usługi:
+- Wypisz argumenty specyficzne dla danej usługi:
 
 `dumpsys {{usługa}} -h`
 
