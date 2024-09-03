@@ -11,7 +11,7 @@
 
 `ag {{foo}} {{ścieżka/do/katalogu}}`
 
-- Znajdź pliki zawierające „foo”, ale podaj tylko nazwy plików:
+- Znajdź pliki zawierające „foo”, ale wypisz tylko nazwy plików:
 
 `ag -l {{foo}}`
 
