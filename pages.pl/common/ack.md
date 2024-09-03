@@ -1,36 +1,36 @@
 # ack
 
-> Narzędzie wyszukiwania, takie jak grep, zoptymalizowane dla programistów.
+> Narzędzie wyszukiwania, podobne do `grep`, zoptymalizowane dla programistów.
 > Zobacz też: `rg`, który jest znacznie szybszy.
 > Więcej informacji: <https://beyondgrep.com/documentation>.
 
-- Znajdź pliki zawierające ciąg znaków lub wyrażenie regularne rekurencyjnie w bieżącym katalogu:
+- Szukaj rekurencyjnie plików zawierających ciąg znaków lub wyrażenie regularne w bieżącym katalogu:
 
-`ack "{{wzorzec}}"`
+`ack "{{wzorzec_wyszukiwania}}"`
 
 - Szukaj na podstawie wzorca bez uwzględniania wielkości liter:
 
-`ack --ignore-case "{{wzorzec}}"`
+`ack --ignore-case "{{wzorzec_wyszukiwania}}"`
 
-- Szukaj linii zawierających wzorzec, wyświetl wyłącznie pasujący tekst bez pozostałej zawartości linii:
+- Szukaj linii zawierających wzorzec, wyświetlając tylk[o] pasujący tekst bez pozostałej zawartości linii:
 
-`ack -o "{{wzorzec}}"`
+`ack -o "{{wzorzec_wyszukiwania}}"`
 
 - Ogranicz wyszukiwanie do plików wyłącznie określonego typu:
 
-`ack --type {{ruby}} "{{wzorzec}}"`
+`ack --type {{ruby}} "{{wzorzec_wyszukiwania}}"`
 
 - Wyszukaj z pominięciem plików określonego typu:
 
-`ack --type no{{ruby}} "{{wzorzec}}"`
+`ack --type no{{ruby}} "{{wzorzec_wyszukiwania}}"`
 
-- Policz całkowitą liczbę dopasowań:
+- Policz całkowitą liczbę znalezionych dopasowań:
 
-`ack --count --no-filename "{{wzorzec}}"`
+`ack --count --no-filename "{{wzorzec_wyszukiwania}}"`
 
 - Pokaż nazwy plików i liczbę dopasowań w każdym z nich:
 
-`ack --count --files-with-matches "{{wzorzec}}"`
+`ack --count --files-with-matches "{{wzorzec_wyszukiwania}}"`
 
 - Wypisz wszystkie możliwe wartości które mogą być użyte dla `--type`:
 
