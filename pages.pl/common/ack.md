@@ -12,7 +12,7 @@
 
 `ack --ignore-case "{{wzorzec_wyszukiwania}}"`
 
-- Szukaj linii zawierających wzorzec, wyświetl tylk[o] pasujący tekst bez pozostałej zawartości linii:
+- Szukaj linii zawierających wzorzec, wyświetlając tylk[o] pasujący tekst bez pozostałej zawartości linii:
 
 `ack -o "{{wzorzec_wyszukiwania}}"`
 
