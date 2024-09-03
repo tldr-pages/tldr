@@ -17,7 +17,7 @@
 
 - Volg eventuele `3xx` redirects en specificeer extra headers in een verzoek:
 
-`http {{--follow|-F}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
+`http {{-F|--follow}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
 
 - Authenticeer bij een server met verschillende authenticatiemethoden:
 
