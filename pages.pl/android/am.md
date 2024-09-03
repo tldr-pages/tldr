@@ -3,18 +3,18 @@
 > Menedżer aktywności Android.
 > Więcej informacji: <https://developer.android.com/tools/adb#am>.
 
-- Rozpocznij konkretną aktywność:
+- Rozpocznij aktywność z określoną [n]azwą komponentu i pakietu:
 
 `am start -n {{com.android.settings/.Settings}}`
 
-- Rozpocznij aktywność i przekaż do niej dane:
+- Rozpocznij [a]kcję intencji i przekaż do niej [d]ane:
 
 `am start -a {{android.intent.action.VIEW}} -d {{tel:123}}`
 
-- Rozpocznij aktywność dopasowaną do konkretnej akcji i kategorii:
+- Rozpocznij aktywność dopasowaną do konkretnej akcji i kategorii ([c]ategory):
 
 `am start -a {{android.intent.action.MAIN}} -c {{android.intent.category.HOME}}`
 
-- Konwertuj zamiar w URI:
+- Konwertuj intencję na URI:
 
 `am to-uri -a {{android.intent.action.VIEW}} -d {{tel:123}}`
