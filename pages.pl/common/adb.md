@@ -26,7 +26,7 @@
 
 - Skopiuj plik/katalog do urządzenia docelowego:
 
-`adb push {{ścieżka/do/lokalnego_pliku_lub_katalogu}} {{ścieżka/do/docelowego_katalogu_urządzenia}}`
+`adb push {{ścieżka/do/lokalnego_pliku_lub_katalogu}} {{ścieżka/do/docelowego_katalogu_na_urządzeniu}}`
 
 - Wypisz wszystkie połączone urządzenia:
 
