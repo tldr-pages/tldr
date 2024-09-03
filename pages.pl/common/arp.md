@@ -1,9 +1,9 @@
 # arp
 
-> Pokaż i manipuluj pamięcią podręczną ARP systemu.
+> Pokaż i manipuluj systemową pamięcią podręczną ARP.
 > Więcej informacji: <https://manned.org/arp>.
 
-- Pokaż bieżącą tabelę arp:
+- Pokaż bieżącą tabelę ARP:
 
 `arp -a`
 
@@ -11,6 +11,6 @@
 
 `arp -d {{adres}}`
 
-- Utwórz wpis:
+- Utwórz nowy wpis w tabeli ARP:
 
 `arp -s {{adres}} {{adres_mac}}`
