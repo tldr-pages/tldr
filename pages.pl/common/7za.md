@@ -4,19 +4,19 @@
 > Podobny do `7z` z wyjątkiem tego, że obsługuje mniej typów plików, ale jest wieloplatformowy.
 > Więcej informacji: <https://manned.org/7za>.
 
-- Zarchiwizuj plik lub katalog:
+- Z[a]rchiwizuj plik lub katalog:
 
 `7za a {{ścieżka/do/archiwum.7z}} {{ścieżka/do/pliku_lub_katalogu}}`
 
-- Zaszyfruj istniejące archiwum (w tym nagłówki):
+- Zaszyfruj istniejące archiwum (w tym nazwy plików):
 
 `7za a {{ścieżka/do/zaszyfrowanego.7z}} -p{{hasło}} -mhe={{on}} {{ścieżka/do/archiwum.7z}}`
 
-- Wyodrębnij archiwum, zachowując oryginalną strukturę katalogów:
+- Wypakuj archiwum, zachowując oryginalną strukturę katalogów:
 
 `7za x {{ścieżka/do/archiwum.7z}}`
 
-- Wyodrębnij archiwum do określonego katalogu:
+- Wypakuj archiwum do określonego katalogu:
 
 `7za x {{ścieżka/do/archiwum.7z}} -o{{ścieżka/do/wyjścia}}`
 
