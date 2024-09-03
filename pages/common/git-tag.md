@@ -22,7 +22,7 @@
 
 - Delete the tag with the given name:
 
-`git tag -d {{tag_name}}`
+`git tag {{-d|--delete}} {{tag_name}}`
 
 - Get updated tags from remote:
 

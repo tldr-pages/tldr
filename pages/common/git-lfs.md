@@ -13,7 +13,7 @@
 
 - Change the Git LFS endpoint URL (useful if the LFS server is separate from the Git server):
 
-`git config -f .lfsconfig lfs.url {{lfs_endpoint_url}}`
+`git config {{-f|--file}} .lfsconfig lfs.url {{lfs_endpoint_url}}`
 
 - List tracked patterns:
 
