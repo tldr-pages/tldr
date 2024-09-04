@@ -15,7 +15,7 @@
 
 `adb logcat {{태그}}:{{모드}} *:S`
 
-- 다른 태그를 무음으로([S]ilencing), 상세 ([V]erbose) 모드에서 React Native 애플리케이션에 대한 로그를 표시
+- 다른 태그를 무음으로([S]ilencing), 상세 ([V]erbose) 모드에서 React Native 애플리케이션에 대한 로그를 표시:
 
 `adb logcat ReactNative:V ReactNativeJS:V *:S`
 
