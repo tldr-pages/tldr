@@ -25,4 +25,4 @@
 
 - Modifie le propriétaire d'un fichier / dossier pour correspondre à un fichier de référence :
 
-`chown --reference={{chemin/vers/fichier_de_référence}} {{chemin/vers/fichier_ou_dossier}}`
+`chown --reference {{chemin/vers/fichier_de_référence}} {{chemin/vers/fichier_ou_dossier}}`
