@@ -11,13 +11,13 @@
 
 `http --print {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
 
-- Specificeer de HTTP-methode bij het verzenden van een aanvraag:
+- Specificeer de HTTP-methode bij het verzenden van een aanvraag en gebruik een proxy om de aanvraag te onderscheppen:
 
-`http {{GET|POST|HEAD|PUT|PATCH|DELETE|...}} {{https://example.com}}`
+`http {{GET|POST|HEAD|PUT|PATCH|DELETE|...}} --proxy {{http|https}}:{{http://localhost:8080|socks5://localhost:9050|...}} {{https://example.com}}`
 
 - Volg eventuele `3xx` redirects en specificeer extra headers in een verzoek:
 
-`http {{--follow|-F}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
+`http {{-F|--follow}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
 
 - Authenticeer bij een server met verschillende authenticatiemethoden:
 
