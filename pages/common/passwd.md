@@ -13,8 +13,8 @@
 
 - Get the current status of the user:
 
-`passwd -S`
+`passwd {{-S|--status}}`
 
 - Make the password of the account blank (it will set the named account passwordless):
 
-`passwd -d`
+`passwd {{-d|--delete}}`
