@@ -21,7 +21,7 @@
 
 `atom --safe`
 
-- Zapobiegaj rozwidlaniu się w tle, utrzymuj Atom podłączony do terminala:
+- Zapobiegaj rozwidlaniu się w tle, utrzymując Atoma podłączonego do terminala:
 
 `atom --foreground`
 
