@@ -21,7 +21,7 @@
 
 - Busca archivos que coincidan con un rango de tamaño dado, limitando la profundidad recursiva a «1»:
 
-`bfs {{ruta_raíz}} -maxdepth 1 -size {{+500k}} -tamaño {{-10M}}`
+`bfs {{ruta_raíz}} -maxdepth 1 -size {{+500k}} -size {{-10M}}`
 
 - Ejecuta un comando para cada archivo (utiliza `{}` dentro del comando para acceder al nombre del archivo):
 
