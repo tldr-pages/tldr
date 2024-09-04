@@ -25,4 +25,4 @@
 
 - Publica un mensaje en la instancia especificada con una cadena de texto:
 
-`ya pub-to --str {{mensaje}}} {{receptor}} {{tipo}}`
+`ya pub-to --str {{mensaje}} {{receptor}} {{tipo}}`
