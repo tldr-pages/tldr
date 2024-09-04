@@ -25,7 +25,7 @@
 
 - Muestra un indicador antes de la entrada:
 
-`read -p "{{Introduzca aquí su entrada: }}" {{variable}}`
+`read -p "{{Introduce aquí tu entrada: }}" {{variable}}`
 
 - No hacer eco de los caracteres introducidos (modo silencioso):
 
