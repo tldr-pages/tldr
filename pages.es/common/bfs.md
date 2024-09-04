@@ -17,7 +17,7 @@
 
 - Busca archivos que coincidan con un patrón dado, excluyendo rutas específicas:
 
-`bfs {{ruta_raíz}} -name '{{*.py}}' -not -ruta '{{*/paquetes/*}}'`
+`bfs {{ruta_raíz}} -name '{{*.py}}' -not -path '{{*/paquetes/*}}'`
 
 - Busca archivos que coincidan con un rango de tamaño dado, limitando la profundidad recursiva a «1»:
 
