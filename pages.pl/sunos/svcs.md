@@ -11,7 +11,7 @@
 
 `svcs -vx`
 
-- Wypisz informację o usłudze:
+- Wypisz informacje o usłudze:
 
 `svcs apache`
 
