@@ -128,7 +128,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [22 October 2023](https://github.com/tldr-pages/tldr/issues/11159) — [3 May 2024](https://github.com/tldr-pages/tldr/issues/12717)
 - Darío Hereñú ([@kant](https://github.com/kant)):
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10738) — [3 May 2024](https://github.com/tldr-pages/tldr/issues/12718)
-- Wiktor Perskawiec  ([@spageektti](https://github.com/spageektti)):
+- Wiktor Perskawiec ([@spageektti](https://github.com/spageektti)):
   [11 May 2024](https://github.com/tldr-pages/tldr/issues/12776) — [1 June 2024](https://github.com/tldr-pages/tldr/issues/12869)
 
 ## Organization members
