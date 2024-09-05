@@ -22,3 +22,7 @@
 - Sort files on [a]pparent disk usage / [d]isk usage / [e]xtension / [r]everse / [s]ize / [t]ime / [v]ersion:
 
 `nnn -T {{a|d|e|r|s|t|v}}`
+
+- Open a file you have selected
+
+'nnn' then with the file selected press 'o' then Enter. Type the program you want to open the file with i.e vim and press Enter again. Then finally press [C]li or [G]ui.
