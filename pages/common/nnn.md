@@ -25,4 +25,4 @@
 
 - Open a file you have selected: Select file then press [o] , type a program to open the file in.
 
-'o'
+`nnn -o`
