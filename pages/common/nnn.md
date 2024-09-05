@@ -23,6 +23,6 @@
 
 `nnn -T {{a|d|e|r|s|t|v}}`
 
-- Open a file you have selected
+- Open a file you have selected: Select file then press [o] , type a program to open the file in.
 
-'nnn' then with the file selected press 'o' then Enter. Type the program you want to open the file with i.e vim and press Enter again. Then finally press [C]li or [G]ui.
+'o'
