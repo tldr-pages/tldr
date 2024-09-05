@@ -114,7 +114,7 @@ function check_outdated_page() {
 function check_more_info_link() {
   local page=$1
 
-  python3 scripts/set-more-info-link.py -Sn | grep "$page"
+  python3 scripts/set-more-info-link.py -Sn | grep "$page" > /dev/null
 
   if [ $? -eq 0 ]; then
       printf "\x2d $MSG_MORE_INFO" "$page"
