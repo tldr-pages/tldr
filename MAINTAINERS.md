@@ -128,7 +128,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [22 October 2023](https://github.com/tldr-pages/tldr/issues/11159) — [3 May 2024](https://github.com/tldr-pages/tldr/issues/12717)
 - Darío Hereñú ([@kant](https://github.com/kant)):
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10738) — [3 May 2024](https://github.com/tldr-pages/tldr/issues/12718)
-- Wiktor ([@spageektti](https://github.com/spageektti)):
+- Wiktor Perskawiec ([@spageektti](https://github.com/spageektti)):
   [11 May 2024](https://github.com/tldr-pages/tldr/issues/12776) — [1 June 2024](https://github.com/tldr-pages/tldr/issues/12869)
 
 ## Organization members
@@ -158,7 +158,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [3 May 2024](https://github.com/tldr-pages/tldr/issues/12717) — present
 - **Darío Hereñú ([@kant](https://github.com/kant))**:
   [3 May 2024](https://github.com/tldr-pages/tldr/issues/12718) — present
-- **Wiktor ([@spageektti](https://github.com/spageektti))**:
+- **Wiktor Perskawiec ([@spageektti](https://github.com/spageektti))**:
   [1 June 2024](https://github.com/tldr-pages/tldr/issues/12869) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
