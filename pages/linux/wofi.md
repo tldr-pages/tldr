@@ -1,6 +1,6 @@
 # wofi
 
-> An application launcher for wlroots-based wayland compositors, similar to rofi and dmenu.
+> An application launcher for wlroots-based Wayland compositors, similar to `rofi` and `dmenu`.
 > More information: <https://hg.sr.ht/~scoopta/wofi>.
 
 - Show the list of apps:
