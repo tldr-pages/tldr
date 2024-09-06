@@ -22,7 +22,7 @@
 
 - Jalankan subperintah Git di jalur root repositori kustom:
 
-`git -C {{alamat/ke/repositori}} {{subcommand}}`
+`git -C {{jalan/menuju/repositori}} {{subcommand}}`
 
 - Jalankan subperintah Git dengan set konfigurasi yang diberikan:
 

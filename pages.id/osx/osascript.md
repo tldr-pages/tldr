@@ -3,11 +3,11 @@
 > Jalankan AppleScript atau JavaScript for Automation (JXA) dari command-line.
 > Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/osascript.1.html>.
 
-- Menjalankan sebuah perintah AppleScript:
+- Jalankan sebuah perintah AppleScript:
 
 `osascript -e "{{say 'Halo dunia'}}"`
 
-- Menjalankan beberapa perintah AppleScript:
+- Jalankan beberapa perintah AppleScript:
 
 `osascript -e "{{say 'Halo'}}" -e "{{say 'dunia'}}"`
 
@@ -19,7 +19,7 @@
 
 `osascript -e 'id of app "{{Aplikasi}}"'`
 
-- Menjalankan sebuah perintah JavaScript:
+- Jalankan sebuah perintah JavaScript:
 
 `osascript -l JavaScript -e "{{console.log('Halo dunia');}}"`
 

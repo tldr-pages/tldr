@@ -1,32 +1,32 @@
 # git add
 
-> Tambahkan file yang diubah ke indeks.
+> Tambahkan berkas yang diubah ke dalam indeks.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-add>.
 
-- Tambahkan file ke indeks:
+- Tambahkan berkas ke dalam indeks:
 
-`git add {{alamat/ke/file}}`
+`git add {{jalan/menuju/berkas}}`
 
-- Tambahkan semua file (yang terlacak dan tidak terlacak):
+- Tambahkan semua berkas (baik yang terlacak maupun tidak terlacak):
 
 `git add -A`
 
-- Hanya tambahkan file yang sudah terlacak:
+- Hanya tambahkan berkas yang sudah terlacak:
 
 `git add -u`
 
-- Tambahkan juga file yang diabaikan:
+- Tambahkan juga berkas yang diabaikan:
 
 `git add -f`
 
-- Menambahkan file ke status stage secara interaktif:
+- Tambahkan berkas ke status stage secara interaktif:
 
 `git add -p`
 
-- Menambahkan file tertentu ke status stage secara interaktif:
+- Tambahkan berkas tertentu ke status stage secara interaktif:
 
-`git add -p {{alamat/ke/file}}`
+`git add -p {{jalan/menuju/berkas}}`
 
-- Stage file secara interaktif:
+- Stage berkas secara interaktif:
 
 `git add -i`
