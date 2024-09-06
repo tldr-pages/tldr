@@ -25,7 +25,7 @@
 
 - Komit berkas tertentu (yang sudah di status stage):
 
-`git commit {{jalan/menuju/berkas1}} {{jalan/menuju/berkas2}}`
+`git commit {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}}`
 
 - Buat komit kosong, tanpa berkas bertahap:
 

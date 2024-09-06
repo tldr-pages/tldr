@@ -13,11 +13,7 @@
 
 - Jalankan pengujian menurut berkas-berkas spesifikasi dalam direktori khusus:
 
-`rspec {{jalan/menuju/directory}}`
-
-- Jalankan pengujian menurut suatu berkas spesifikasi:
-
-`rspec {{jalan/menuju/berkas}}`
+`rspec {{jalan/menuju/direktori}}`
 
 - Jalankan beberapa pengujian menurut kumpulan berkas spesifikasi:
 
@@ -27,6 +23,6 @@
 
 `rspec {{jalan/menuju/berkas}}:{{83}}`
 
-- Jalankan tes dengan seed khusus:
+- Jalankan tes dengan seed khusus (untuk pengujian berbasis randomisasi):
 
 `rspec --seed {{angka_seed}}`
