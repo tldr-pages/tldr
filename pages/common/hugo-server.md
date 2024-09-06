@@ -11,6 +11,6 @@
 
 `hugo server --port {{port_number}}`
 
-- Build and serve a site while minifying supported output formats (HTML, XML, etc):
+- Build and serve a site while minifying supported output formats (HTML, XML, etc.):
 
 `hugo server --minify`
