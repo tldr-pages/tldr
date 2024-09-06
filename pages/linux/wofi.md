@@ -13,4 +13,4 @@
 
 - Pipe a list of items to `stdin` and print the selected item to `stdout`:
 
-`printf "Choice1\nChoice2\nChoice3" | wofi --dmenu`
+`printf "{{Choice1\nChoice2\nChoice3}}" | wofi --dmenu`
