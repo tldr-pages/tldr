@@ -1,7 +1,7 @@
 # glab
 
 > Work seamlessly with GitLab.
-> Some subcommands such as `glab config` have their own usage documentation.
+> Some subcommands such as `config` have their own usage documentation.
 > More information: <https://github.com/profclems/glab>.
 
 - Clone a GitLab repository locally:

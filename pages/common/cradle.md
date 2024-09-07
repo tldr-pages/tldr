@@ -1,7 +1,7 @@
 # cradle
 
 > The Cradle PHP framework.
-> Some subcommands such as `cradle install` have their own usage documentation.
+> Some subcommands such as `install` have their own usage documentation.
 > More information: <https://cradlephp.github.io>.
 
 - Connect to a server:
