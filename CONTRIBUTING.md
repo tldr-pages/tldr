@@ -141,7 +141,7 @@ You should always add a base page (e.g. `git`) that describes the program and ba
 
 The following methods can be used to reference subcommands:
 
-- You can add a note saying ``Some subcommands such as `example command` have their own usage documentation`` to the main page. (See the [subcommand reference](/contributing-guides/translation-templates/subcommand-mention.md) page for translation templates.)
+- You can add a note saying ``Some subcommands such as `example command` have their own usage documentation`` to the main page. (See the [subcommand reference](/contributing-guides/translation-templates/subcommand-mention.md) page for translation templates). `example command` should only include the subcommand (e.g. `commit` instead of `git commit`).
 - You can use ``See also: `command1`, `command2`.`` template to reference similar commands, aliases and subcommands.
 - Alternatively, the whole page can be converted to reference the main subcommands.
 
