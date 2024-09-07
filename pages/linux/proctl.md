@@ -1,6 +1,6 @@
 # proctl
 
-> Manage, Switch Between templated Licenses, and set Languages.
+> Manage, switch between templated licenses, and set languages.
 > More information: <https://github.com/HeCodes2Much/proctl>.
 
 - List available licenses:
