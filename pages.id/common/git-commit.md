@@ -9,7 +9,7 @@
 
 - Komit berkas bertahap dengan pesan yang disimpan dalam suatu berkas:
 
-`git commit --berkas {{jalan/menuju/berkas_pesan_komit}}`
+`git commit --file {{jalan/menuju/berkas_pesan_komit}}`
 
 - Ubah secara otomatis semua berkas yang dimodifikasi menjadi ke status stage dan menambahkan sebuah pesan:
 
