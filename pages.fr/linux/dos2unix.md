@@ -13,7 +13,7 @@
 
 `dos2unix -n {{chemin/vers/fichier}} {{chemin/vers/nouveau_fichier}}`
 
-- Affiche les informations d'un fichier:
+- Affiche les informations d'un fichier :
 
 `dos2unix -i {{chemin/vers/fichier}}`
 
