@@ -17,6 +17,6 @@
 
 `dos2unix -i {{chemin/vers/fichier}}`
 
-- Conserve/Ecrit/Supprime la marque d'ordre des octets (BOM):
+- Conserve/Ecrit/Supprime la marque d'ordre des octets (BOM) :
 
 `dos2unix --{{keep-bom|add-bom|remove-bom}} {{chemin/vers/fichier}}`
