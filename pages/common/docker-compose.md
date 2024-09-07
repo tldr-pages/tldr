@@ -1,6 +1,6 @@
 # docker compose
 
-> Run and manage multi container docker applications.
+> Run and manage multi container Docker applications.
 > More information: <https://docs.docker.com/compose/reference/>.
 
 - List all running containers:

@@ -1,6 +1,6 @@
 # mkfs.fat
 
-> Creates an MS-DOS filesystem inside a partition.
+> Create an MS-DOS filesystem inside a partition.
 > More information: <https://manned.org/mkfs.fat>.
 
 - Create a fat filesystem inside partition 1 on device b (`sdb1`):

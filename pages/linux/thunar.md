@@ -1,6 +1,7 @@
 # thunar
 
 > Graphical file manager for XFCE desktop environments.
+> See also: `caja`, `dolphin`, `nautilus`, `mc`.
 > More information: <https://docs.xfce.org/xfce/thunar/start>.
 
 - Open a new window showing the current directory:

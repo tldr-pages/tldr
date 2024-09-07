@@ -1,6 +1,6 @@
 # python3
 
-> Este comando é um pseudônimo de `python`.
+> Este comando é um apelido de `python`.
 
 - Exibe documentação sobre o comando original:
 

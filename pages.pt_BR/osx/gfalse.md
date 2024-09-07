@@ -1,6 +1,6 @@
 # gfalse
 
-> Este comando é um pseudônimo de `-p linux false`.
+> Este comando é um apelido de `-p linux false`.
 
 - Exibe documentação sobre o comando original:
 

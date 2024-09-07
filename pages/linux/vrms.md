@@ -1,7 +1,7 @@
 # vrms
 
 > Report non-free packages installed on Debian-based OSes.
-> More information: <https://debian.pages.debian.net/vrms/>.
+> More information: <https://salsa.debian.org/debian/check-dfsg-status>.
 
 - List non-free and contrib packages (and their description):
 

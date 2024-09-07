@@ -7,7 +7,7 @@
 
 `docker start`
 
-- Bir docker konteynerini başlat:
+- Bir Docker konteynerini başlat:
 
 `docker start {{konteyner}}`
 

@@ -1,4 +1,4 @@
-# clamav
+# ClamAV
 
 > هذا الأمر هو اسم مستعار لـ `clamdscan`.
 > لمزيد من التفاصيل: <https://www.clamav.net>.

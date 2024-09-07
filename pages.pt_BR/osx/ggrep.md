@@ -1,6 +1,6 @@
 # ggrep
 
-> Este comando é um pseudônimo de `-p linux grep`.
+> Este comando é um apelido de `-p linux grep`.
 
 - Exibe documentação sobre o comando original:
 

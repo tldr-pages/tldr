@@ -9,11 +9,11 @@
 
 - Erstelle eine neue verschlüsselte Vault-Datei mit einer Vault-Schlüsseldatei, um sie zu verschlüsseln:
 
-`ansible-vault create --vault-password-file={{schlüsseldatei}} {{vault_datei}}`
+`ansible-vault create --vault-password-file {{schlüsseldatei}} {{vault_datei}}`
 
 - Verschlüssle eine vorhandene Datei mit einer optionalen Schlüsseldatei:
 
-`ansible-vault encrypt --vault-password-file={{schlüsseldatei}} {{vault_file}}`
+`ansible-vault encrypt --vault-password-file {{schlüsseldatei}} {{vault_file}}`
 
 - Verschlüssle eine Zeichenfolge mit dem verschlüsselten Zeichenfolgenformat von Ansible, wobei interaktive Eingabeaufforderungen angezeigt werden:
 
@@ -21,8 +21,8 @@
 
 - Zeige eine verschlüsselte Datei an, wobei eine Kennwortdatei zum Entschlüsseln verwendet wird:
 
-`ansible-vault view --vault-password-file={{schlüsseldatei}} {{vault_datei}}`
+`ansible-vault view --vault-password-file {{schlüsseldatei}} {{vault_datei}}`
 
 - Verschlüssle eine bereits verschlüsselte Vault Datei mit einer neuen Kennwortdatei neu:
 
-`ansible-vault rekey --vault-password-file={{alte_schlüsseldatei}} --new-vault-password-file={{neue_schlüsseldatei}} {{vault_datei}}`
+`ansible-vault rekey --vault-password-file {{alte_schlüsseldatei}} --new-vault-password-file {{neue_schlüsseldatei}} {{vault_datei}}`

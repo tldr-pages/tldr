@@ -7,7 +7,7 @@
 
 `webpack {{app.js}} {{bundle.js}}`
 
-- 자바스크립트 파일에서도 CSS 파일을 로드 (이 경우 `.css` 파일에 CSS 로더를 사용합니다):
+- 자바스크립트 파일에서도 CSS 파일을 로드 (이 경우 CSS 파일에 CSS 로더를 사용합니다):
 
 `webpack {{app.js}} {{bundle.js}} --module-bind '{{css=css}}'`
 

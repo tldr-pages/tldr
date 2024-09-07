@@ -1,7 +1,7 @@
 # cat
 
 > Exibe e concatena o conteúdo de arquivos.
-> Mais informações: <https://www.gnu.org/software/coreutils/cat>.
+> Mais informações: <https://manned.org/cat.1posix>.
 
 - Exibe o conteúdo de um arquivo na `stdout`:
 

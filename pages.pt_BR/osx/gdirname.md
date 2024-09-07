@@ -1,6 +1,6 @@
 # gdirname
 
-> Este comando é um pseudônimo de `-p linux dirname`.
+> Este comando é um apelido de `-p linux dirname`.
 
 - Exibe documentação sobre o comando original:
 

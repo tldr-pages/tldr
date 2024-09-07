@@ -1,6 +1,6 @@
 # aws iam
 
-> CLI for AWS IAM.
+> Interact with Identity and Access Management (IAM), a web service for securely controlling access to AWS services.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html>.
 
 - List users:

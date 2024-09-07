@@ -15,7 +15,7 @@
 
 `git instaweb --start --port {{1234}}`
 
-- Belirtilmiş bir http daemon'u kullan:
+- Belirtilmiş bir HTTP daemon'u kullan:
 
 `git instaweb --start --httpd {{lighttpd|apache2|mongoose|plackup|webrick}}`
 

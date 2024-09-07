@@ -17,8 +17,8 @@
 
 - Have tabs a certain number of characters apart, not 8:
 
-`expand -t={{number}} {{path/to/file}}`
+`expand -t {{number}} {{path/to/file}}`
 
 - Use a comma separated list of explicit tab positions:
 
-`expand -t={{1,4,6}}`
+`expand -t {{1,4,6}}`

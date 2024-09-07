@@ -1,6 +1,6 @@
-# ip-route-list
+# ip route list
 
-> Aquest comandament és un àlies de `ip-route-show`.
+> Aquest comandament és un àlies de  `ip route show`.
 
 - Veure documentació pel comandament original:
 

@@ -31,6 +31,6 @@
 
 `dotnet ef migrations list`
 
-- Generate a SQL script from migrations range:
+- Generate an SQL script from migrations range:
 
 `dotnet ef migrations script {{from_migration}} {{to_migration}}`

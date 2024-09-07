@@ -1,7 +1,7 @@
 # secrethub
 
 > Keep secrets out of config files.
-> More information: <https://secrethub.io>.
+> More information: <https://github.com/secrethub/secrethub-cli>.
 
 - Print a secret to `stdout`:
 

@@ -19,6 +19,6 @@
 
 `whoami /upn`
 
-- Menampilkan id logon dari pengguna saat ini:
+- Menampilkan ID logon dari pengguna saat ini:
 
 `whoami /logonid`

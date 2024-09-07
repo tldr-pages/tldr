@@ -1,6 +1,6 @@
 # xz
 
-> Comprimeren of decomprimeren van `.xz` en `.lzma` bestanden.
+> Comprimeren of decomprimeren van XZ en LZMA bestanden.
 > Meer informatie: <https://manned.org/xz>.
 
 - Comprimeer een bestand gebruik makend van xz file:
@@ -15,7 +15,7 @@
 
 `xz --format=lzma {{pad/naar/bestand}}`
 
-- Decomprimer een lzma bestand:
+- Decomprimer een LZMA bestand:
 
 `xz --decompress --format=lzma {{pad/naar/bestand.lzma}}`
 

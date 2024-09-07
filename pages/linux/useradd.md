@@ -8,7 +8,7 @@
 
 `sudo useradd {{username}}`
 
-- Create a new user with the specified user id:
+- Create a new user with the specified user ID:
 
 `sudo useradd --uid {{id}} {{username}}`
 

@@ -1,7 +1,7 @@
 # git lfs
 
 > Travailler dans un registre Git avec des fichiers volumineux.
-> Plus d'informations : <https://git-lfs.github.com>.
+> Plus d'informations : <https://git-lfs.com>.
 
 - Initialise le Git LFS :
 

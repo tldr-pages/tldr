@@ -15,7 +15,7 @@
 
 `duckdb -c "{{SELECT * FROM 'data_source.[csv|csv.gz|json|json.gz|parquet]'}}"`
 
-- Run a SQL script:
+- Run an SQL script:
 
 `duckdb -c ".read {{path/to/script.sql}}"`
 
@@ -29,7 +29,7 @@
 
 - Read CSV from `stdin` and write CSV to `stdout`:
 
-`cat {{path/to/source.csv}} | duckdb -c "{{COPY (FROM read_csv_auto('/dev/stdin')) TO '/dev/stdout' WITH (FORMAT CSV, HEADER)}}"`
+`cat {{path/to/source.csv}} | duckdb -c "{{COPY (FROM read_csv('/dev/stdin')) TO '/dev/stdout' WITH (FORMAT CSV, HEADER)}}"`
 
 - Display help:
 

@@ -1,7 +1,7 @@
 # chrt
 
 > Manipulate the real-time attributes of a process.
-> More information: <https://man7.org/linux/man-pages/man1/chrt.1.html>.
+> More information: <https://manned.org/chrt>.
 
 - Display attributes of a process:
 
@@ -15,6 +15,10 @@
 
 `chrt --max`
 
-- Set the scheduling policy for a process:
+- Set the scheduling priority of a process:
 
-`chrt --pid {{PID}} --{{deadline|idle|batch|rr|fifo|other}}`
+`chrt --pid {{priority}} {{PID}}`
+
+- Set the scheduling policy of a process:
+
+`chrt --{{deadline|idle|batch|rr|fifo|other}} --pid {{priority}} {{PID}}`

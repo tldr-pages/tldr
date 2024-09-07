@@ -6,8 +6,8 @@
 
 - Redefine um valor de chave específico:
 
-`dconf read {{/caminho/para/chave}}`
+`dconf reset {{/caminho/para/chave}}`
 
 - Redefine um diretório específico:
 
-`dconf read -d {{/caminho/para/diretório/}}`
+`dconf reset -f {{/caminho/para/diretório/}}`

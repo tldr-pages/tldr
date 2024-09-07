@@ -49,12 +49,15 @@ function upload_assets {
   git push -q
   echo "Assets (pages archive, index and checksums) deployed to the static site."
 
+  # Suppress errors from unmatched patterns if some files don't exist.
+  shopt -s nullglob
   gh release --repo tldr-pages/tldr upload --clobber "$RELEASE_TAG" -- \
     tldr.sha256sums \
     "$TLDR_ARCHIVE" \
     "$INDEX" \
     "$LANG_ARCHIVES/"*.zip \
     "$PDFS/"*.pdf
+  shopt -u nullglob
   echo "Assets deployed to GitHub releases."
 }
 

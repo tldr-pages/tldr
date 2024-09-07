@@ -1,4 +1,4 @@
-# clamav
+# ClamAV
 
 > Questo comando è un alias per `clamdscan`.
 > Maggiori informazioni: <https://www.clamav.net>.

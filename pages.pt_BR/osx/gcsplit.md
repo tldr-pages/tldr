@@ -1,6 +1,6 @@
 # gcsplit
 
-> Este comando é um pseudônimo de `-p linux csplit`.
+> Este comando é um apelido de `-p linux csplit`.
 
 - Exibe documentação sobre o comando original:
 

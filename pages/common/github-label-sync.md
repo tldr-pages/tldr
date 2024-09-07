@@ -1,6 +1,6 @@
 # github-label-sync
 
-> A command-line interface for synchronizing GitHub labels.
+> Synchronize GitHub labels.
 > More information: <https://github.com/Financial-Times/github-label-sync>.
 
 - Synchronize labels using a local `labels.json` file:

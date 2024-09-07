@@ -16,7 +16,7 @@
 
 `dep rollback`
 
-- Connect to a remote host via ssh:
+- Connect to a remote host via SSH:
 
 `dep ssh {{hostname}}`
 

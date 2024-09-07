@@ -1,7 +1,7 @@
 # swupd
 
 > Package management utility for Clear Linux.
-> More information: <https://docs.01.org/clearlinux/latest/guides/clear/swupd.html>.
+> More information: <https://www.clearlinux.org/clear-linux-documentation/guides/clear/swupd.html>.
 
 - Update to the latest version:
 

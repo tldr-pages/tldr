@@ -1,41 +1,44 @@
 /pages.de/ @pixelcmtd @gutjuri
 /pages.es/ @navarroaxel @kant @tricantivu
 /pages.fa/ @MrMw3
-/pages.fr/ @Nico385412 @nicokosi
-/pages.hi/ @kbdharun
+/pages.fr/ @Nico385412 @nicokosi @noraj
+/pages.hi/ @kbdharun @debghs
 /pages.id/ @reinhart1010
-/pages.it/ @mebeim @yutyo @Magrid0
+/pages.it/ @mebeim @tansiret @Magrid0
 /pages.ko/ @IMHOJEONG
 /pages.nl/ @sebastiaanspeck @leonvsc @Waples
-/pages.pl/ @acuteenvy
+/pages.pl/ @acuteenvy @spageektti
 /pages.pt_BR/ @isaacvicente @vitorhcl
 /pages.pt_PT/ @waldyrious
 /pages.ta/ @kbdharun
-/pages.tr/ @yutyo
+/pages.tr/ @tansiret
 /pages.zh/ @blueskyson @einverne
 /pages.zh_TW/ @blueskyson
 
-/pages/linux/ @cyqsimon
+/pages/common/ @spageektti
+/pages/linux/ @cyqsimon @spageektti
+/pages/windows/ @spageektti
 
-/*.md @sbrl @kbdharun
+/*.md @sbrl @kbdharun @sebastiaanspeck
+/.devcontainer/* @kbdharun @sebastiaanspeck
 /.github/workflows/* @sbrl @kbdharun @sebastiaanspeck
-/scripts/* @sebastiaanspeck
+/scripts/* @sebastiaanspeck @kbdharun
 
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun
 /contributing-guides/style-guide.md @sbrl @kbdharun
 /contributing-guides/*.de.md @pixelcmtd @gutjuri
 /contributing-guides/*.es.md @navarroaxel @kant @tricantivu
 /contributing-guides/*.fa.md @MrMw3
-/contributing-guides/*.fr.md @Nico385412 @nicokosi
+/contributing-guides/*.fr.md @Nico385412 @nicokosi @noraj
 /contributing-guides/*.hi.md @kbdharun
 /contributing-guides/*.id.md @reinhart1010
-/contributing-guides/*.it.md @mebeim @yutyo @Magrid0
+/contributing-guides/*.it.md @mebeim @tansiret @Magrid0
 /contributing-guides/*.ko.md @IMHOJEONG
 /contributing-guides/*.nl.md @sebastiaanspeck @leonvsc @Waples
-/contributing-guides/*.pl.md @acuteenvy
+/contributing-guides/*.pl.md @acuteenvy @spageektti
 /contributing-guides/*.pt_BR.md @isaacvicente @vitorhcl
 /contributing-guides/*.pt_PT.md @waldyrious
 /contributing-guides/*.ta.md @kbdharun
-/contributing-guides/*.tr.md @yutyo
+/contributing-guides/*.tr.md @tansiret
 /contributing-guides/*.zh.md @blueskyson @einverne
 /contributing-guides/*.zh_TW.md @blueskyson

@@ -5,7 +5,7 @@
 
 - Compileer een bestand naar een objectbestand:
 
-`adscript --output {{pad/naar/bestand.o}} {{pad/naar/input_file.adscript}}`
+`adscript --output {{pad/naar/bestand.o}} {{pad/naar/invoer_bestand.adscript}}`
 
 - Compileer en koppel een bestand aan een zelfstandig uitvoerbaar bestand:
 

@@ -1,13 +1,7 @@
 # compare
 
-> Create a comparison image to visually annotate the difference between two images.
-> Part of ImageMagick.
-> More information: <https://imagemagick.org/script/compare.php>.
+> This command is an alias of `magick compare`.
 
-- Compare two images:
+- View documentation for the original command:
 
-`compare {{path/to/image1.png}} {{path/to/image2.png}} {{path/to/diff.png}}`
-
-- Compare two images using the specified metric:
-
-`compare -verbose -metric {{PSNR}} {{path/to/image1.png}} {{path/to/image2.png}} {{path/to/diff.png}}`
+`tldr magick compare`

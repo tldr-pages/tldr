@@ -23,6 +23,6 @@
 
 `bzfgrep --only-matching "{{search_string}}" {{path/to/file}}`
 
-- Recursively search files in a `bzip2` compressed `tar` archive for the given list of strings:
+- Recursively search files in a bzip2 compressed tar archive for the given list of strings:
 
 `bzfgrep --recursive "{{search_string}}" {{path/to/file}}`

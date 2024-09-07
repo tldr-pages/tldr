@@ -1,7 +1,7 @@
 # qemu-img
 
 > Create and manipulate Quick Emulator Virtual HDD images.
-> More information: <https://qemu.readthedocs.io/en/latest/tools/qemu-img.html>.
+> More information: <https://qemu.readthedocs.io/en/master/tools/qemu-img.html>.
 
 - Create disk image with a specific size (in gigabytes):
 

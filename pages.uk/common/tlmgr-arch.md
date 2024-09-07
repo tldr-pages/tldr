@@ -1,4 +1,4 @@
-# tlmgr-arch
+# tlmgr arch
 
 > Ця команда є псевдонімом для `tlmgr platform`.
 > Більше інформації: <https://www.tug.org/texlive/tlmgr.html>.

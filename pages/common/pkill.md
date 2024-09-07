@@ -2,7 +2,7 @@
 
 > Signal process by name.
 > Mostly used for stopping processes.
-> More information: <https://www.man7.org/linux/man-pages/man1/pkill.1.html>.
+> More information: <https://www.manned.org/pkill>.
 
 - Kill all processes which match:
 

@@ -1,6 +1,6 @@
 # sm
 
-> Displays a short message fullscreen.
+> Display a short message fullscreen.
 > More information: <https://github.com/nomeata/screen-message>.
 
 - Display a message in full-screen:

@@ -5,20 +5,20 @@
 
 - Extract an archive to the current directory:
 
-`unar {{archive}}`
+`unar {{path/to/archive}}`
 
 - Extract an archive to the specified directory:
 
-`unar -o {{path/to/directory}} {{archive}}`
+`unar -o {{path/to/directory}} {{path/to/archive}}`
 
 - Force overwrite if files to be unpacked already exist:
 
-`unar -f {{archive}}`
+`unar -f {{path/to/archive}}`
 
 - Force rename if files to be unpacked already exist:
 
-`unar -r {{archive}}`
+`unar -r {{path/to/archive}}`
 
 - Force skip if files to be unpacked already exist:
 
-`unar -s {{archive}}`
+`unar -s {{path/to/archive}}`

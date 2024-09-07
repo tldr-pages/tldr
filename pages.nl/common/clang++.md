@@ -22,7 +22,7 @@
 
 - Compileer broncode naar LLVM Intermediate Representation (IR):
 
-`clang++ -S -emit-llvm {{pad/naar/bron.cpp}} -o {{pad/naar/output.ll}}`
+`clang++ -S -emit-llvm {{pad/naar/bron.cpp}} -o {{pad/naar/uitvoer.ll}}`
 
 - Optimaliseer het gecompileerde programma voor prestaties:
 

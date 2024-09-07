@@ -1,7 +1,7 @@
 # 7zr
 
 > Bestandsarchiver met een hoge compressieverhouding.
-> Vergelijkbaar met `7z`, behalve dat het alleen `.7z`-bestanden ondersteunt.
+> Vergelijkbaar met `7z`, behalve dat het alleen 7z-bestanden ondersteunt.
 > Meer informatie: <https://manned.org/7zr>.
 
 - Archiveer een bestand of map:

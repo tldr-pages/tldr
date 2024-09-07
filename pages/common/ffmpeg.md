@@ -7,6 +7,10 @@
 
 `ffmpeg -i {{path/to/video.mp4}} -vn {{path/to/sound.mp3}}`
 
+- Transcode a FLAC file to Red Book CD format (44100kHz, 16bit):
+
+`ffmpeg -i {{path/to/input_audio.flac}} -ar 44100 -sample_fmt s16 {{path/to/output_audio.wav}}`
+
 - Save a video as GIF, scaling the height to 1000px and setting framerate to 15:
 
 `ffmpeg -i {{path/to/video.mp4}} -vf 'scale=-1:{{1000}}' -r {{15}} {{path/to/output.gif}}`
@@ -15,13 +19,9 @@
 
 `ffmpeg -i {{path/to/frame_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
 
-- Quickly extract a single frame from a video at time mm:ss and save it as a 128x128 resolution image:
-
-`ffmpeg -ss {{mm:ss}} -i {{path/to/video.mp4}} -frames 1 -s {{128x128}} -f image2 {{path/to/image.png}}`
-
 - Trim a video from a given start time mm:ss to an end time mm2:ss2 (omit the -to flag to trim till the end):
 
-`ffmpeg -ss {{mm:ss}} -to {{mm2:ss2}} -i {{path/to/video.mp4}} -codec copy {{path/to/output.mp4}}`
+`ffmpeg -ss {{mm:ss}} -to {{mm2:ss2}} -i {{path/to/input_video.mp4}} -codec copy {{path/to/output_video.mp4}}`
 
 - Convert AVI video to MP4. AAC Audio @ 128kbit, h264 Video @ CRF 23:
 

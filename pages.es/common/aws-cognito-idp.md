@@ -13,16 +13,16 @@
 
 - Elimina un grupo de usuarios específico:
 
-`aws cognito-idp delete-user-pool --user-pool-id {{user_pool_id}}`
+`aws cognito-idp delete-user-pool --user-pool-id {{identificador_de_pool}}`
 
 - Crea un usuario en un grupo específico:
 
-`aws cognito-idp admin-create-user --username {{nombre_usuario}} --user-pool-id {{user_pool_id}}`
+`aws cognito-idp admin-create-user --username {{nombre_usuario}} --user-pool-id {{identificador_de_pool}}`
 
 - Lista los usuarios de un pool específico:
 
-`aws cognito-idp list-users --user-pool-id {{user_pool_id}}`
+`aws cognito-idp list-users --user-pool-id {{identificador_de_pool}}`
 
 - Elimina un usuario de un grupo específico:
 
-`aws cognito-idp admin-delete-user --username {{nombre_usuario}} --user-pool-id {{user_pool_id}}`
+`aws cognito-idp admin-delete-user --username {{nombre_usuario}} --user-pool-id {{identificador_de_pool}}`

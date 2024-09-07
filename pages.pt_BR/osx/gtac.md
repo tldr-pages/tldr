@@ -1,6 +1,6 @@
 # gtac
 
-> Este comando é um pseudônimo de `-p linux tac`.
+> Este comando é um apelido de `-p linux tac`.
 
 - Exibe documentação sobre o comando original:
 

@@ -1,6 +1,6 @@
 # aws lambda
 
-> CLI for AWS lambda.
+> Use AWS Lambda, a compute service for running code without provisioning or managing servers.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/lambda/>.
 
 - Run a function:

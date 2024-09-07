@@ -23,7 +23,7 @@
 
 `ugrep --fuzzy={{3}} "{{search_pattern}}"`
 
-- Also search compressed files, `zip` and `tar` archives recursively:
+- Also search compressed files, Zip and tar archives recursively:
 
 `ugrep --decompress "{{search_pattern}}"`
 

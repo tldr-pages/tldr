@@ -15,6 +15,6 @@
 
 `lsusb --verbose`
 
-- Elenca solamente i dispositivi con un certo id fornitore e id prodotto:
+- Elenca solamente i dispositivi con un certo id fornitore e ID prodotto:
 
 `lsusb -d {{fornitore}}:{{prodotto}}`

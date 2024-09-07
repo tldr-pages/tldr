@@ -2,7 +2,7 @@
 
 > Display information about logical volumes.
 > See also: `lvm`.
-> More information: <https://man7.org/linux/man-pages/man8/lvs.8.html>.
+> More information: <https://manned.org/lvs>.
 
 - Display information about logical volumes:
 

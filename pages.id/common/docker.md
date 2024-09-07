@@ -4,7 +4,7 @@
 > Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `docker run`.
 > Informasi lebih lanjut: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Tampilkan semua daftar kontainer docker (yang sedang berjalan dan berhenti):
+- Tampilkan semua daftar kontainer Docker (yang sedang berjalan dan berhenti):
 
 `docker ps --all`
 
@@ -16,7 +16,7 @@
 
 `docker {{start|stop}} {{nama_kontainer}}`
 
-- Tarik citra dari registri docker:
+- Tarik citra dari registri Docker:
 
 `docker pull {{citra}}`
 

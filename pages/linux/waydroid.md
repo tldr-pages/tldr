@@ -26,3 +26,7 @@
 - Manage the Waydroid container:
 
 `waydroid container {{start|stop|restart|freeze|unfreeze}}`
+
+- Adjust Waydroid window dimensions:
+
+`waydroid prop set persist.waydroid.{{width|height}} {{number}}`

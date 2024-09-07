@@ -1,6 +1,6 @@
 # gpr
 
-> Este comando é um pseudônimo de `-p linux pr`.
+> Este comando é um apelido de `-p linux pr`.
 
 - Exibe documentação sobre o comando original:
 

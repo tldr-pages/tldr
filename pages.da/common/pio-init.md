@@ -1,4 +1,4 @@
-# pio-init
+# pio init
 
 > Denne kommando er et alias af `pio project`.
 

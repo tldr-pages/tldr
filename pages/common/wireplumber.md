@@ -2,7 +2,7 @@
 
 > A modular session/policy manager for PipeWire and a GObject-based high-level library that wraps PipeWire’s API.
 > See also: `wpctl`, `pipewire`.
-> More information: <https://pipewire.pages.freedesktop.org/wireplumber/running-wireplumber-daemon.html>.
+> More information: <https://pipewire.pages.freedesktop.org/wireplumber/>.
 
 - Make WirePlumber start with the user session immediately (for systemd systems):
 

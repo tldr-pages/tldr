@@ -17,4 +17,4 @@
 
 - Display help:
 
-`docker rm`
+`docker rm --help`

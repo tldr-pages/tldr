@@ -1,6 +1,6 @@
 # clang++
 
-> Compiles C++ source files.
+> Compile C++ source files.
 > Part of LLVM.
 > More information: <https://clang.llvm.org>.
 

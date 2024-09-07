@@ -3,7 +3,7 @@
 > Report memory map of a process or processes.
 > More information: <https://manned.org/pmap>.
 
-- Print memory map for a specific process id (PID):
+- Print memory map for a specific process ID (PID):
 
 `pmap {{pid}}`
 

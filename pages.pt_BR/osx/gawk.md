@@ -1,6 +1,6 @@
 # gawk
 
-> Este comando é um pseudônimo de `-p linux awk`.
+> Este comando é um apelido de `-p linux awk`.
 
 - Exibe documentação sobre o comando original:
 

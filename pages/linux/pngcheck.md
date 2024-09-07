@@ -1,6 +1,6 @@
 # pngcheck
 
-> Forensics tool for validating the integrity of PNG based (`.png`, `.jng`, `.mng`) image files.
+> Forensics tool for validating the integrity of PNG based (PNG, JNG, MNG) image files.
 > Can also extract embedded images and text from a file.
 > More information: <http://www.libpng.org/pub/png/apps/pngcheck.html>.
 

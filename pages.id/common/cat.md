@@ -1,7 +1,7 @@
 # cat
 
 > Cetak dan menggabungkan berkas.
-> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/cat>.
+> Informasi lebih lanjut: <https://manned.org/cat.1posix>.
 
 - Cetak konten berkas menuju `stdout`:
 

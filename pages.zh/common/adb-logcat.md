@@ -1,4 +1,4 @@
-# adb-logcat
+# adb logcat
 
 > 转储系统消息日志。
 > 更多信息：<https://developer.android.com/tools/logcat>.

@@ -17,7 +17,7 @@
 
 - Mount a share and retry up to 10 times if it fails:
 
-`mount -o retry={{retries}} \\{{computer_name}}\{{share_name}} {{Z:}}`
+`mount -o retry=10 \\{{computer_name}}\{{share_name}} {{Z:}}`
 
 - Mount a share with forced case sensitivity:
 

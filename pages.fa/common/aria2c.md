@@ -10,7 +10,7 @@
 
 - دانلود یک فایل از لینک موردنظر با اسم خروجی دلخواه:
 
-`aria2c --out={{path/to/file}} "{{url}}"`
+`aria2c --out {{path/to/file}} "{{url}}"`
 
 - دانلود چند فایل مختلف به صورت همزمان:
 
@@ -26,7 +26,7 @@
 
 - دانلود با چندین اتصال مختلف:
 
-`aria2c --split={{number_of_connections}} "{{url}}"`
+`aria2c --split {{number_of_connections}} "{{url}}"`
 
 - دانلود از FTP با نام کاربری و رمزعبور:
 

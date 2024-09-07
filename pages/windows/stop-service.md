@@ -1,7 +1,7 @@
 # Stop-Service
 
 > Stops running services.
-> This command can only be used through PowerShell.
+> Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/stop-service>.
 
 - Stop a service on the local computer:

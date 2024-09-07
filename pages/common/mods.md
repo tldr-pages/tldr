@@ -1,6 +1,6 @@
 # mods
 
-> AI for the command line, built for pipelines.
+> AI for the command-line, built for pipelines.
 > More information: <https://github.com/charmbracelet/mods>.
 
 - Ask a generic question:

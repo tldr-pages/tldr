@@ -10,7 +10,7 @@
 
 - Télécharge un fichier via l'url spécifié en choisissant le nom de ce dernier :
 
-`aria2c --out={{nom_de_fichier}} "{{url}}"`
+`aria2c --out {{nom_de_fichier}} "{{url}}"`
 
 - Télécharge plusieurs fichiers (différents) en parallèle :
 
@@ -26,7 +26,7 @@
 
 - Télécharge avec plusieurs connections :
 
-`aria2c --split={{nombre_de_connections}} "{{url}}"`
+`aria2c --split {{nombre_de_connections}} "{{url}}"`
 
 - Téléchargement FTP avec nom d'utilisateur et mot de passe :
 

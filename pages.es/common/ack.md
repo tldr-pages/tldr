@@ -18,11 +18,11 @@
 
 - Limita la búsqueda a archivos de un tipo específico:
 
-`ack --type={{ruby}} "{{patrón_de_búsqueda}}"`
+`ack --type {{ruby}} "{{patrón_de_búsqueda}}"`
 
 - Busca archivos que no sean de un cierto tipo:
 
-`ack --type=no{{ruby}} "{{patrón_de_búsqueda}}"`
+`ack --type no{{ruby}} "{{patrón_de_búsqueda}}"`
 
 - Cuenta el número total de coincidencias encontradas:
 

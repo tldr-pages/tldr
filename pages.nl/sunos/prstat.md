@@ -19,6 +19,6 @@
 
 `prstat -m`
 
-- Print de 5 meest CPU intensieve processen elke seconde:
+- Toon de 5 meest CPU intensieve processen elke seconde:
 
-`prstat -c -n {{5}} -s cpu {{1}}`
+`prstat -c -n 5 -s cpu 1`

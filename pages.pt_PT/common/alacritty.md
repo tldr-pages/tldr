@@ -15,10 +15,10 @@
 
 `alacritty -e {{comando}}`
 
-- Define um caminho alternativo para o ficheiro de configuração (por omissão `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- Define um caminho alternativo para o ficheiro de configuração (por omissão `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
-`alacritty --config-file {{caminho/para/configuração.yml}}`
+`alacritty --config-file {{caminho/para/configuração.toml}}`
 
-- Executa com carregamento automático de configuração (pode ser definido por omissão em `alacritty.yml`):
+- Executa com carregamento automático de configuração (pode ser definido por omissão em `alacritty.toml`):
 
-`alacritty --live-config-reload --config-file {{caminho/para/configuração.yml}}`
+`alacritty --live-config-reload --config-file {{caminho/para/configuração.toml}}`

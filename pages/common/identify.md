@@ -1,17 +1,7 @@
 # identify
 
-> Describe the format and characteristics of image files.
-> Part of ImageMagick.
-> More information: <https://imagemagick.org/script/identify.php>.
+> This command is an alias of `magick identify`.
 
-- Describe the format and basic characteristics of an image:
+- View documentation for the original command:
 
-`identify {{path/to/image}}`
-
-- Describe the format and verbose characteristics of an image:
-
-`identify -verbose {{path/to/image}}`
-
-- Collect dimensions of all JPEG files in the current directory and save them into a CSV file:
-
-`identify -format "{{%f,%w,%h\n}}" {{*.jpg}} > {{path/to/filelist.csv}}`
+`tldr magick identify`

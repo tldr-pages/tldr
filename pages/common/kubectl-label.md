@@ -9,15 +9,15 @@
 
 - Update a pod label by overwriting the existing value:
 
-`kubectl label --overwrite {{pod_name}} {{key}}={{value}}`
+`kubectl label --overwrite pod {{pod_name}} {{key}}={{value}}`
 
 - Label all pods in the namespace:
 
 `kubectl label pods --all {{key}}={{value}}`
 
-- Label pod identified by pod definition file:
+- Label a pod identified by the pod definition file:
 
-`kubectl label -f {{pod_defination_file}} {{key}}={{value}}`
+`kubectl label -f {{pod_definition_file}} {{key}}={{value}}`
 
 - Remove the label from a pod:
 

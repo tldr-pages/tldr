@@ -15,7 +15,7 @@
 
 `sudo --user={{utilisateur}} --group={{groupe}} {{id -a}}`
 
-- Répéte la dernière commande préfixée de `sudo` (uniquement dans `bash`, `zsh`, etc.) :
+- Répéte la dernière commande préfixée de `sudo` (uniquement dans Bash, Zsh, etc.) :
 
 `sudo !!`
 

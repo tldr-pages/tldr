@@ -1,6 +1,6 @@
 # dolt blame
 
-> Displays commit information for each row of a Dolt table.
+> Display commit information for each row of a Dolt table.
 > More information: <https://docs.dolthub.com/cli-reference/cli#dolt-blame>.
 
 - Display the latest commit for each row of a table:

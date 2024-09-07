@@ -28,7 +28,7 @@
 
 `tar caf {{path/to/target.tar.xz}} {{path/to/file1 path/to/file2 ...}}`
 
-- Lis[t] the contents of a `tar` [f]ile [v]erbosely:
+- Lis[t] the contents of a tar [f]ile [v]erbosely:
 
 `tar tvf {{path/to/source.tar}}`
 

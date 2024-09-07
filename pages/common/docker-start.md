@@ -7,7 +7,7 @@
 
 `docker start`
 
-- Start a docker container:
+- Start a Docker container:
 
 `docker start {{container}}`
 

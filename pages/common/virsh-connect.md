@@ -16,6 +16,6 @@
 
 `virsh connect qemu:///session`
 
-- Connect as root to a remote hypervisor using ssh:
+- Connect as root to a remote hypervisor using SSH:
 
 `virsh connect qemu+ssh://{{user_name@host_name}}/system`

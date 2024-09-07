@@ -1,4 +1,4 @@
-# pio-init
+# pio init
 
 > Bu komut `pio project` için bir takma addır.
 

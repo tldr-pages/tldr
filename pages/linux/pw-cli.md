@@ -1,7 +1,7 @@
 # pw-cli
 
 > Manage a PipeWire instance's modules, objects, nodes, devices, links and much more.
-> More information: <https://docs.pipewire.org/page_man_pw_cli_1.html>.
+> More information: <https://docs.pipewire.org/page_man_pw-cli_1.html>.
 
 - Print all nodes (sinks and sources) along with their IDs:
 

@@ -4,7 +4,7 @@
 > Ta komenda może być używana tylko poprzez `adb shell`.
 > Więcej informacji: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
-- Wygeneruj pełny i skompresowany raport błędów dla urządzenia Android:
+- Wygeneruj pełny i skompresowany raport błędów urządzenia Android:
 
 `bugreportz`
 
@@ -12,10 +12,10 @@
 
 `bugreportz -p`
 
-- Wyświetl wersję `bugreportz`:
-
-`bugreportz -v`
-
 - Wyświetl pomoc:
 
 `bugreportz -h`
+
+- Wyświetl wersję:
+
+`bugreportz -v`

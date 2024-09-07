@@ -7,7 +7,7 @@
 
 `kops create cluster -f {{cluster_name.yaml}}`
 
-- Create a new ssh public key:
+- Create a new SSH public key:
 
 `kops create secret sshpublickey {{key_name}} -i {{~/.ssh/id_rsa.pub}}`
 

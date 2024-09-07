@@ -1,6 +1,6 @@
 # llvm-strings
 
-> Este comando é um pseudônimo de `strings`.
+> Este comando é um apelido de `strings`.
 
 - Exibe documentação sobre o comando original:
 

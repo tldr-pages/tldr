@@ -1,7 +1,7 @@
 # autossh
 
 > Executa, monitora e reinicia conexões SSH.
-> Reconecta automaticamente para manter os túneis de redirecionamento de porta ativos. Aceita todas as flags do `ssh`.
+> Reconecta automaticamente para manter os túneis de redirecionamento de porta ativos. Aceita todas as flags do SSH.
 > Mais informações: <https://www.harding.motd.ca/autossh>.
 
 - Inicia uma sessão SSH, reiniciando quando uma porta de monitoramento falhar em retornar dados:
@@ -12,7 +12,7 @@
 
 `autossh -M {{porta_de_monitoramento}} -L {{porta_local}}:localhost:{{porta_remota}} {{usuário}}@{{host}}`
 
-- Executa o `autossh` em segundo plano antes de executar o `ssh` e não abrir um shell remoto:
+- Executa o `autossh` em segundo plano antes de executar o SSH e não abrir um shell remoto:
 
 `autossh -f -M {{porta_de_monitoramento}} -N "{{comando_ssh}}"`
 
@@ -24,6 +24,6 @@
 
 `autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -o ExitOnForwardFailure=yes -L {{porta_local}}:localhost:{{porta_remota}} {{usuário}}@{{host}}`
 
-- Executa em segundo plano, registrando a saída de depuração do `autossh` e a saída detalhada do `ssh` em arquivos:
+- Executa em segundo plano, registrando a saída de depuração do `autossh` e a saída detalhada do SSH em arquivos:
 
 `AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE={{caminho/para/arquivo_de_log_do_autossh.log}} autossh -f -M {{porta_de_monitoramento}} -v -E {{caminho/para/arquivo_de_log_do_ssh.log}} {{comando_ssh}}`

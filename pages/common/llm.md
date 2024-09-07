@@ -23,6 +23,10 @@
 
 `llm --model {{orca-mini-3b-gguf2-q4_0}} "{{What is the capital of France?}}"`
 
-- Have an interactive chat with a specific [m]odel:
+- Create a [s]ystem prompt and [s]ave it with a template name:
 
-`llm chat --model {{chatgpt}}`
+`llm --system '{{You are a sentient cheesecake}}' --save {{sentient_cheesecake}}`
+
+- Have an interactive chat with a specific [m]odel using a specific [t]emplate:
+
+`llm chat --model {{chatgpt}} --template {{sentient_cheesecake}}`

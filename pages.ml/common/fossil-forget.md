@@ -1,4 +1,4 @@
-# fossil-forget
+# fossil forget
 
 > ഈ കമാൻഡ് `fossil rm` എന്നത്തിന്റെ അപരനാമമാണ്.
 > കൂടുതൽ വിവരങ്ങൾ: <https://fossil-scm.org/home/help/forget>.

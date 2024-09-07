@@ -1,7 +1,7 @@
 # semanage fcontext
 
 > Manage persistent SELinux security context rules on files/directories.
-> See also: `semanage`, `restorecon`.
+> See also: `semanage`, `matchpathcon`, `secon`, `chcon`, `restorecon`.
 > More information: <https://manned.org/semanage-fcontext>.
 
 - List all file labelling rules:

@@ -1,6 +1,6 @@
 # avahi-browse
 
-> Displays services and hosts exposed on the local network via mDNS/DNS-SD.
+> Display services and hosts exposed on the local network via mDNS/DNS-SD.
 > Avahi is compatible with Bonjour (Zeroconf) found in Apple devices.
 > More information: <https://www.avahi.org/>.
 

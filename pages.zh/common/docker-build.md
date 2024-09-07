@@ -3,19 +3,19 @@
 > 从 Dockerfile 打包镜像。
 > 更多信息：<https://docs.docker.com/engine/reference/commandline/build/>.
 
-- 使用当前目录下的 Dockerfile 打包一个 docker 镜像：
+- 使用当前目录下的 Dockerfile 打包一个 Docker 镜像：
 
 `docker build .`
 
-- 从指定 URL 的 Dockerfile 打包 docker 镜像：
+- 从指定 URL 的 Dockerfile 打包 Docker 镜像：
 
 `docker build {{github.com/creack/docker-firefox}}`
 
-- 打包一个 docker 镜像并指定镜像的标签：
+- 打包一个 Docker 镜像并指定镜像的标签：
 
 `docker build --tag {{name:tag}} .`
 
-- 打包一个没有上下文的 docker 镜像：
+- 打包一个没有上下文的 Docker 镜像：
 
 `docker build --tag {{name:tag}} - < {{Dockerfile}}`
 
@@ -23,7 +23,7 @@
 
 `docker build --no-cache --tag {{name:tag}} .`
 
-- 使用指定的 Dockerfile 打包一个 docker 镜像：
+- 使用指定的 Dockerfile 打包一个 Docker 镜像：
 
 `docker build --file {{Dockerfile}} .`
 

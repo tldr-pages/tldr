@@ -1,6 +1,6 @@
 # aws-google-auth
 
-> Command-line tool to acquire AWS temporary (STS) credentials using Google Apps as a federated (Single Sign-On) provider.
+> Acquire AWS temporary (STS) credentials using Google Apps as a federated (Single Sign-On) provider.
 > More information: <https://github.com/cevoaustralia/aws-google-auth>.
 
 - Log in with Google SSO using the specified [u]sername [I]DP and [S]P identifiers and set the credentials [d]uration to one hour:

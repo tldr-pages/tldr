@@ -7,7 +7,7 @@
 
 `androguard axml {{chemin/vers/app.apk}}`
 
-- Affiche les métadonnées de l'application (version et id d'application) :
+- Affiche les métadonnées de l'application (version et ID d'application) :
 
 `androguard apkid {{chemin/vers/app.apk}}`
 

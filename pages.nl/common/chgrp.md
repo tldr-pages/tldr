@@ -17,4 +17,4 @@
 
 - Verander de beheerdersgroep van een bestand/map naar de permissies van een referentiebestand:
 
-`chgrp --reference={{pad/naar/referentiebestand}} {{pad/naar/bestand_of_map}}`
+`chgrp --reference {{pad/naar/referentiebestand}} {{pad/naar/bestand_of_map}}`

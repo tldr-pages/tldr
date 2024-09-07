@@ -1,6 +1,6 @@
 # gchmod
 
-> Este comando é um pseudônimo de `-p linux chmod`.
+> Este comando é um apelido de `-p linux chmod`.
 
 - Exibe documentação sobre o comando original:
 

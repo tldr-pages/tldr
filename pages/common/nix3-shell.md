@@ -1,7 +1,7 @@
 # nix shell
 
 > Start a shell in which the specified packages are available.
-> See also: `tldr nix-shell`. See `tldr nix3 flake` for information about flakes.
+> See also: `nix-shell` for setting up development environments, `nix3 flake` for information about flakes.
 > More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-shell.html>.
 
 - Start an interactive shell with some packages from `nixpkgs`:

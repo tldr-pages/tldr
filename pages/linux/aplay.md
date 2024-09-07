@@ -1,6 +1,6 @@
 # aplay
 
-> Command-line sound player for ALSA soundcard driver.
+> Sound player for ALSA soundcard driver.
 > More information: <https://manned.org/aplay>.
 
 - Play a specific file (sampling rate, bit depth, etc. will be automatically determined for the file format):

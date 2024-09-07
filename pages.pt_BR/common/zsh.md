@@ -32,6 +32,6 @@
 
 `zsh --verbose`
 
-- Executa um comando específico dentro do `zsh` com padrões glob desativados:
+- Executa um comando específico dentro do Zsh com padrões glob desativados:
 
 `noglob {{comando}}`

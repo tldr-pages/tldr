@@ -17,8 +17,8 @@
 
 - Tampilkan log untuk nomor induk (PID) program yang sedang dijalankan:
 
-`logcat --pid={{pid}}`
+`logcat --pid {{pid}}`
 
 - Tampilkan log untuk (kemasan) aplikasi yang sedang dijalankan:
 
-`logcat --pid=$(pidof -s {{nama_kemasan_aplikasi}})`
+`logcat --pid $(pidof -s {{nama_kemasan_aplikasi}})`

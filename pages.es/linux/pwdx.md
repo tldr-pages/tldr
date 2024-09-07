@@ -5,4 +5,4 @@
 
 - Muestra el directorio de trabajo actual de un proceso:
 
-`pwdx {{process_id}}`
+`pwdx {{identificador_de_proceso}}`

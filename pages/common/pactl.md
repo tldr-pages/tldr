@@ -3,6 +3,10 @@
 > Control a running PulseAudio sound server.
 > More information: <https://manned.org/pactl>.
 
+- Show information about the sound server:
+
+`pactl info`
+
 - List all sinks (or other types - sinks are outputs and sink-inputs are active audio streams):
 
 `pactl list {{sinks}} short`

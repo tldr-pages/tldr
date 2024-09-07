@@ -8,7 +8,7 @@
 
 `httpry -o {{path/to/file.log}}`
 
-- Listen on a specific interface and save output to a binary pcap format file:
+- Listen on a specific interface and save output to a binary PCAP format file:
 
 `httpry {{eth0}} -b {{path/to/file.pcap}}`
 

@@ -1,7 +1,7 @@
 # git switch
 
 > Alterna entre ramas Git. Requiere una versión 2.23+ de Git.
-> Véase también `git checkout`.
+> Vea también `git checkout`.
 > Más información: <https://git-scm.com/docs/git-switch>.
 
 - Cambia a una rama existente:

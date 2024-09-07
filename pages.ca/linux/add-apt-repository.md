@@ -1,13 +1,13 @@
 # add-apt-repository
 
-> Gestiona les definicions dels repositoris apt.
+> Gestiona les definicions dels repositoris APT.
 > Més informació: <https://manned.org/apt-add-repository>.
 
-- Afegeix un nou repositori apt:
+- Afegeix un nou repositori APT:
 
 `add-apt-repository {{especificacions_del_respositori}}`
 
-- Elimina un repositori apt:
+- Elimina un repositori APT:
 
 `add-apt-repository --remove {{especificacions_del_repositori}}`
 

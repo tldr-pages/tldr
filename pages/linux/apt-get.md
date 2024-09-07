@@ -2,6 +2,7 @@
 
 > Debian and Ubuntu package management utility.
 > Search for packages using `apt-cache`.
+> It is recommended to use `apt` when used interactively in Ubuntu versions 16.04 and later.
 > More information: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
 - Update the list of available packages and versions (it's recommended to run this before other `apt-get` commands):

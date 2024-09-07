@@ -3,11 +3,11 @@
 > List Podman containers.
 > More information: <https://docs.podman.io/en/latest/markdown/podman-ps.1.html>.
 
-- List currently running podman containers:
+- List currently running Podman containers:
 
 `podman ps`
 
-- List all podman containers (running and stopped):
+- List all Podman containers (running and stopped):
 
 `podman ps --all`
 

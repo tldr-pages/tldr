@@ -1,6 +1,6 @@
 # nest
 
-> Command-line tool to initialize, develop, and maintain Nest applications.
+> Initialize, develop, and maintain Nest applications.
 > More information: <https://docs.nestjs.com/cli/overview>.
 
 - Display information about installed nest version:

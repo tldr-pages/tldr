@@ -4,7 +4,7 @@
 > Use `--skiplock` and `--skiplockstorage` flags with caution, as they may lead to data corruption in certain situations.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- Suspend a virtual machine by id:
+- Suspend a virtual machine by ID:
 
 `qm suspend {{vm_id}} {{integer}}`
 

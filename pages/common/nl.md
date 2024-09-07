@@ -11,7 +11,7 @@
 
 `{{command}} | nl -`
 
-- Number [a]ll [b]ody lines including blank lines or do [n]ot number body lines:
+- Number [a]ll [b]ody lines including blank lines or do [n]ot number [b]ody lines:
 
 `nl -b {{a|n}} {{path/to/file}}`
 

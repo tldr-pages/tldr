@@ -7,7 +7,7 @@
 
 `qcp {{source_file}}`
 
-- Copy multiple JPG files:
+- Copy multiple JPEG files:
 
 `qcp {{*.jpg}}`
 

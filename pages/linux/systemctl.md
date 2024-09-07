@@ -11,26 +11,26 @@
 
 `systemctl --failed`
 
-- Start/Stop/Restart/Reload a service:
+- Start/Stop/Restart/Reload/Show the status a service:
 
-`systemctl {{start|stop|restart|reload}} {{unit}}`
-
-- Show the status of a unit:
-
-`systemctl status {{unit}}`
+`systemctl {{start|stop|restart|reload|status}} {{unit}}`
 
 - Enable/Disable a unit to be started on bootup:
 
 `systemctl {{enable|disable}} {{unit}}`
 
-- Mask/Unmask a unit to prevent enablement and manual activation:
-
-`systemctl {{mask|unmask}} {{unit}}`
-
-- Reload systemd, scanning for new or changed units:
+- Reload systemd, scan for new or changed units:
 
 `systemctl daemon-reload`
 
-- Check if a unit is enabled:
+- Check if a unit is active/enabled/failed:
 
-`systemctl is-enabled {{unit}}`
+`systemctl {{is-active|is-enabled|is-failed}} {{unit}}`
+
+- List all service/socket/automount units filtering by running/failed state:
+
+`systemctl list-units --type={{service|socket|automount}} --state={{failed|running}}`
+
+- Show the contents & absolute path of a unit file:
+
+`systemctl cat {{unit}}`

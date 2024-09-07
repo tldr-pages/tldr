@@ -15,7 +15,7 @@
 
 `set -b`
 
-- Write and edit text in the command line with `vi`-like keybindings (e.g. `yy`):
+- Write and edit text in the command-line with `vi`-like keybindings (e.g. `yy`):
 
 `set -o {{vi}}`
 
