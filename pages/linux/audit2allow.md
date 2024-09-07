@@ -1,7 +1,7 @@
 # audit2allow
 
 > Create an SELinux local policy module to allow rules based on denied operations found in logs.
-> More information: <https://man7.org/linux/man-pages/man1/audit2why.1.html>.
+> More information: <https://manned.org/audit2allow>.
 
 - Generate and install a local policy to allow access for all denied services:
 
