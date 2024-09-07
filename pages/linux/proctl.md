@@ -29,7 +29,7 @@
 
 - Delete a license from templates:
 
-`proctl {{-R @license_name ...|-delete-license @license_name ...}}`
+`proctl {{-R|-delete-license}} {{@license_name1 @license_name2 ...}}`
 
 - Show this helpful list of commands:
 
