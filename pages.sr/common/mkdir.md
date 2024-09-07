@@ -9,4 +9,4 @@
 
 - Kreira direktorijum koristeći rekurziju:
 
-`mkdir -p {{putanja/do/direktorijuma1 putanja/do/direktorijuma2 ...}}`
+`mkdir {{-p|--parents}} {{putanja/do/direktorijuma1 putanja/do/direktorijuma2 ...}}`
