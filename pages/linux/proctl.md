@@ -5,32 +5,32 @@
 
 - List available licenses:
 
-`proctl -list-licenses/-ll`
+`proctl {{-ll|-list-licenses}}`
 
 - List available languages:
 
-`proctl -list-languages/-lL`
+`proctl {{-lL|-list-languages}}`
 
 - Pick a license in a FZF menu:
 
-`proctl -pick-license/-pl`
+`proctl {{-pl|-pick-license}}`
 
 - Pick a language in a FZF menu:
 
-`proctl -pick-language/-pL`
+`proctl {{-pL|-pick-language}}`
 
 - Remove all licenses from the current project:
 
-`proctl -remove-license/-r`
+`proctl {{-r|-remove-license}}`
 
 - Create a new license template:
 
-`proctl -new-template/-t`
+`proctl {{-t|-new-template}}`
 
 - Delete a license from templates:
 
-`proctl -delete-license/-R @license_name ...`
+`proctl {{-R @license_name ...|-delete-license @license_name ...}}`
 
 - Show this helpful list of commands:
 
-`proctl -help/-h`
+`proctl {{-h|-help}}`
