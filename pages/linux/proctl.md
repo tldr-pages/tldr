@@ -8,7 +8,7 @@
 `proctl -list-licenses/-ll`
 
 - List available languages:
-- 
+
 `proctl -list-languages/-lL`
 
 - Pick a license in a FZF menu:
