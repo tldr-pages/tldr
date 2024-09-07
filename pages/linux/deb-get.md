@@ -6,7 +6,7 @@
 
 - Update the list of available packages and versions:
 
-`sudo deb-get update`
+`deb-get update`
 
 - Search for a given package:
 
@@ -18,15 +18,15 @@
 
 - Install a package, or update it to the latest available version:
 
-`sudo deb-get install {{package}}`
+`deb-get install {{package}}`
 
 - Remove a package (using `purge` instead also removes its configuration files):
 
-`sudo deb-get remove {{package}}`
+`deb-get remove {{package}}`
 
 - Upgrade all installed packages to their newest available versions:
 
-`sudo deb-get upgrade`
+`deb-get upgrade`
 
 - List all available packages:
 
