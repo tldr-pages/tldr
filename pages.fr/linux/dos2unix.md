@@ -9,7 +9,7 @@
 
 `dos2unix {{chemin/vers/fichier}}`
 
-- Créer une copie avec des fins de lignes de type Unix:
+- Crée une copie avec des fins de lignes de type Unix :
 
 `dos2unix -n {{chemin/vers/fichier}} {{chemin/vers/nouveau_fichier}}`
 
