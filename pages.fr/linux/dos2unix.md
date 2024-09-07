@@ -5,7 +5,7 @@
 > Voir également `unix2dos`, `unix2mac`, et `mac2unix`.
 > Plus d'informations : <https://manned.org/dos2unix>.
 
-- Remplace les fins de lignes d'un fichier:
+- Remplace les fins de lignes d'un fichier :
 
 `dos2unix {{chemin/vers/fichier}}`
 
