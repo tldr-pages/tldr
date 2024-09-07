@@ -11,6 +11,10 @@
 
 `git add {{-A|-all}}`
 
+- Add all files in the current folder:
+
+`git add .`
+
 - Hanya tambahkan berkas yang sudah terlacak:
 
 `git add {{-u|--update}}`
