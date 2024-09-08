@@ -34,4 +34,4 @@
 
 - 전역적으로 설치된 최상위 패키지 나열:
 
-`npm list {{-g|--global}} --depth={{0}}`
+`npm list {{-g|--global}} --depth {{0}}`
