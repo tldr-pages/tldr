@@ -34,4 +34,4 @@
 
 - Lista os pacotes de nível superior instalados globalmente:
 
-`npm list {{-g|--global}} --depth={{0}}`
+`npm list {{-g|--global}} --depth {{0}}`
