@@ -3,7 +3,7 @@
 > Manage the trashcan/recycling bin.
 > More information: <https://github.com/andreafrancia/trash-cli>.
 
-- Delete a file and send it to the trash:
+- Send a file to the trash:
 
 `trash {{path/to/file}}`
 

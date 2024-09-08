@@ -18,11 +18,11 @@
 
 - Descarga la última versión de un paquete y lo añade a la lista de dependencias de desarrollo en `package.json`:
 
-`npm install {{nombre_paquete}} --save-dev`
+`npm install {{nombre_paquete}} {{-D|--save-dev}}`
 
 - Descarga la última versión de un paquete y lo instala globalmente:
 
-`npm install --global {{nombre_paquete}}`
+`npm install {{-g|--global}} {{nombre_paquete}}`
 
 - Desinstala un paquete y lo remueve de la lista de dependencias en `package.json`:
 
@@ -34,4 +34,4 @@
 
 - Lista de paquetes instalados globalmente de nivel superior:
 
-`npm list --global --depth={{0}}`
+`npm list {{-g|--global}} --depth {{0}}`
