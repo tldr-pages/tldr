@@ -1,7 +1,7 @@
 # swift
 
 > Create, run and build Swift projects.
-> More information: <https://swift.org>.
+> More information: <https://www.swift.org>.
 
 - Start a REPL (interactive shell):
 
