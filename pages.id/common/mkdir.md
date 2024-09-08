@@ -9,4 +9,4 @@
 
 - Membuat sejumlah direktori secara rekursif (berguna untuk membuat direktori bersarang):
 
-`mkdir -p {{jalan/menuju/direktori}}`
+`mkdir {{-p|--parents}} {{jalan/menuju/direktori}}`
