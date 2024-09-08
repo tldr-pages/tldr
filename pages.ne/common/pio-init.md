@@ -1,4 +1,4 @@
-# pio-init
+# pio init
 
 > यो आदेश `pio project` को उपनाम हो |
 

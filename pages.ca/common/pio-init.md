@@ -1,4 +1,4 @@
-# pio-init
+# pio init
 
 > Aquest comandament és un àlies de `pio project`.
 

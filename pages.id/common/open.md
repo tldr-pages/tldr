@@ -6,6 +6,6 @@
 
 `tldr open -p osx`
 
-- Lihat dokumentasi perintah `open` yang disediakan dalam `fish`:
+- Lihat dokumentasi perintah `open` yang disediakan dalam fish:
 
 `tldr open.fish`

@@ -1,6 +1,6 @@
 # git var
 
-> Prints a Git logical variable's value.
+> Print a Git logical variable's value.
 > See `git config`, which is preferred over `git var`.
 > More information: <https://git-scm.com/docs/git-var>.
 

@@ -1,6 +1,6 @@
 # abbr
 
-> Administra abreviaturas para el shell fish.
+> Administra abreviaturas del intérprete de comandos fish.
 > Las palabras definidas por el usuario se reemplazan con frases más largas después de ingresarlas.
 > Más información: <https://fishshell.com/docs/current/cmds/abbr.html>.
 

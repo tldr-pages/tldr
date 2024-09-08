@@ -1,6 +1,6 @@
 # gftp
 
-> Este comando é um pseudônimo de `-p linux ftp`.
+> Este comando é um apelido de `-p linux ftp`.
 
 - Exibe documentação sobre o comando original:
 

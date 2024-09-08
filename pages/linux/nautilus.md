@@ -2,6 +2,7 @@
 
 > Default file explorer for GNOME desktop environment.
 > Also known as GNOME Files.
+> See also: `dolphin`, `caja`, `thunar`, `vifm`.
 > More information: <https://manned.org/nautilus>.
 
 - Launch Nautilus:
@@ -10,7 +11,7 @@
 
 - Launch Nautilus as root user:
 
-`sudo nautilus`
+`nautilus admin:/`
 
 - Launch Nautilus and display a specific directory:
 

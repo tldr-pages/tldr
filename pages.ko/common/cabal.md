@@ -2,7 +2,7 @@
 
 > Haskell 패키지 인프라 (Cabal)에 대한 명령어 라인 인터페이스.
 > Hackage 패키지 저장소에서 Haskell 프로젝트 및 Cabal패키지 관리.
-> 더 많은 정보: <https://cabal.readthedocs.io/en/latest/intro.html>.
+> 더 많은 정보: <https://cabal.readthedocs.io/en/latest/getting-started.html>.
 
 - Hackage에서 패키지 검색 및 리스트:
 

@@ -1,4 +1,4 @@
-# tlmgr-arch
+# tlmgr arch
 
 > यह आदेश `tlmgr platform` का उपनाम है।
 > अधिक जानकारी: <https://www.tug.org/texlive/tlmgr.html>।

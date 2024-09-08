@@ -1,6 +1,6 @@
 # in2csv
 
-> Converts various tabular data formats into CSV.
+> Convert various tabular data formats to CSV.
 > Included in csvkit.
 > More information: <https://csvkit.readthedocs.io/en/latest/scripts/in2csv.html>.
 

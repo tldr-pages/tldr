@@ -1,6 +1,7 @@
 # gitk
 
-> A graphical Git repository browser.
+> Browse Git repositories graphically.
+> See also: `git-gui`, `git-cola`, `tig`.
 > More information: <https://git-scm.com/docs/gitk>.
 
 - Show the repository browser for the current Git repository:
@@ -21,4 +22,4 @@
 
 - Show at most 100 changes in all branches:
 
-` gitk --max-count={{100}} --all`
+`gitk --max-count=100 --all`

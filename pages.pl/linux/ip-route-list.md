@@ -1,6 +1,6 @@
-# ip-route-list
+# ip route list
 
-> To polecenie jest aliasem `ip-route-show`.
+> To polecenie jest aliasem  `ip route show`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

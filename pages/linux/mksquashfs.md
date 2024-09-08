@@ -15,7 +15,7 @@
 
 `mksquashfs {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} {{filesystem.squashfs}} -e {{file|directory1 file|directory2 ...}}`
 
-- Create or append files and directories to a squashfs filesystem, [e]xcluding those ending with `.gz`:
+- Create or append files and directories to a squashfs filesystem, [e]xcluding those ending with gzip:
 
 `mksquashfs {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} {{filesystem.squashfs}} -wildcards -e "{{*.gz}}"`
 

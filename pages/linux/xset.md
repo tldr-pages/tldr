@@ -22,3 +22,7 @@
 - Enable DPMS (Energy Star) features:
 
 `xset +dpms`
+
+- Query information on any X server:
+
+`xset -display :{{0}} q`

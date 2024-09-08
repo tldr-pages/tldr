@@ -1,4 +1,4 @@
-# clamav
+# ClamAV
 
 > Denne kommandoen er et alias for `clamdscan`.
 > Mer informasjon: <https://www.clamav.net>.

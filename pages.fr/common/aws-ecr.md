@@ -3,7 +3,7 @@
 > Pousse, récupère et gère les images de conteneur.
 > Plus d'informations : <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html>.
 
-- Connecte docker avec le registre par défaut (le nom d'utilisateur est AWS) :
+- Connecte Docker avec le registre par défaut (le nom d'utilisateur est AWS) :
 
 `aws ecr get-login-password --region {{région}} | {{docker login}} --username AWS --password-stdin {{id_de_compte_aws}}.dkr.ecr.{{région}}.amazonaws.com`
 

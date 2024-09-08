@@ -1,6 +1,7 @@
 # tuckr
 
 > Dotfile manager written in Rust.
+> See also: `chezmoi`, `vcsh`, `homeshick`, `stow`.
 > More information: <https://github.com/RaphGL/Tuckr>.
 
 - Check dotfile status:

@@ -16,7 +16,7 @@
 
 `arduino-builder -build-path {{path/to/build_directory}}`
 
-- Use a build option file, instead of specifying `--hardware`, `--tools`, etc. manually every time:
+- Use a build option file, instead of specifying `-hardware`, `-tools`, etc. manually every time:
 
 `arduino-builder -build-options-file {{path/to/build.options.json}}`
 

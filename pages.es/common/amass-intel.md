@@ -1,7 +1,7 @@
 # amass intel
 
 > Recopila información de código abierto sobre una organización, como dominios raíz y ASNs.
-> Más información: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
+> Más información: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand>.
 
 - Encuentra dominios raíz en un rango de direcciones IP específico:
 

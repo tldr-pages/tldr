@@ -1,4 +1,4 @@
-# gnmic-sub
+# gnmic sub
 
 > ഈ കമാൻഡ് `gnmic subscribe` എന്നത്തിന്റെ അപരനാമമാണ്.
 > കൂടുതൽ വിവരങ്ങൾ: <https://gnmic.kmrd.dev/cmd/subscribe>.

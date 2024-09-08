@@ -9,16 +9,16 @@
 
 - Muestra todos los registros de una zona:
 
-`aws route53 list-resource-record-sets --hosted-zone-id {{zone_id}}`
+`aws route53 list-resource-record-sets --hosted-zone-id {{identificador_de_zona}}`
 
 - Crea una nueva zona pública utilizando un identificador de solicitud para reintentar la operación de forma segura:
 
-`aws route53 create-hosted-zone --name {{nombre}} --caller-reference {{identificador_solicitud}}`
+`aws route53 create-hosted-zone --name {{nombre}} --caller-reference {{identificador_de_solicitud}}`
 
 - Elimina una zona (si la zona tiene registros SOA y NS no predeterminados, el comando fallará):
 
-`aws route53 delete-hosted-zone --id {{zone_id}}`
+`aws route53 delete-hosted-zone --id {{identificador_de_zona}}`
 
 - Prueba la resolución DNS por parte de los servidores de Amazon de una zona determinada:
 
-`aws route53 test-dns-answer --hosted-zone-id {{zone_id}} --record-name {{nombre}} --record-type {{tipo}}`
+`aws route53 test-dns-answer --hosted-zone-id {{identificador_de_zona}} --record-name {{nombre}} --record-type {{tipo}}`

@@ -3,7 +3,7 @@
 > Locate the binary, source, and manual page files for a command.
 > More information: <https://manned.org/whereis>.
 
-- Locate binary, source and man pages for ssh:
+- Locate binary, source and man pages for SSH:
 
 `whereis {{ssh}}`
 

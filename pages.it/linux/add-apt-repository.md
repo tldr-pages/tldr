@@ -1,13 +1,13 @@
 # add-apt-repository
 
-> Gestisce le definizioni di repository apt.
+> Gestisce le definizioni di repository APT.
 > Maggiori informazioni: <https://manned.org/apt-add-repository>.
 
-- Aggiunge un nuovo repository apt:
+- Aggiunge un nuovo repository APT:
 
 `add-apt-repository {{identificativo_del_repository}}`
 
-- Rimuove un repository apt:
+- Rimuove un repository APT:
 
 `add-apt-repository --remove {{identificativo_del_repository}}`
 

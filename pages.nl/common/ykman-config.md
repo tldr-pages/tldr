@@ -1,7 +1,7 @@
 # ykman config
 
 > In- of uitschakelen van YubiKey applicaties.
-> Opmerking: je kan `ykman info` gebruiken om de huidige ingeschakelde applicaties te zien.
+> Let op: je kan `ykman info` gebruiken om de huidige ingeschakelde applicaties te zien.
 > Meer informatie: <https://docs.yubico.com/software/yubikey/tools/ykman/Base_Commands.html#ykman-config-options-command-args>.
 
 - Schakel een applicatie in via USB of NFC (`--enable` kan meerdere keren gebruikt worden om meerdere applicaties te specificeren):

@@ -11,7 +11,7 @@
 
 `ls *.txt | parallel -j4 gzip`
 
-- Convert JPG images to PNG using replacement strings:
+- Convert JPEG images to PNG using replacement strings:
 
 `parallel convert {} {.}.png ::: *.jpg`
 

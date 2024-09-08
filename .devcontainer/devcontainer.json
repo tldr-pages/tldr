@@ -1,0 +1,35 @@
+{
+  "name": "tldr-pages",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu", // Use Microsoft's Ubuntu Base image for the dev container
+  "features": { // Use Node and Python features in the dev container
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+
+  "privileged": false, // Run the container unprivileged
+
+  "onCreateCommand": {
+    "install-python-packages": "pip install -r requirements.txt", // Install Python dependencies in the dev container
+    "install-node-packages": "npm install" // Install NPM dependencies in the dev container
+  },
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        // Define suggested settings for the dev container
+        "resmon.show.battery": false,
+        "resmon.show.cpufreq": false
+      },
+      "extensions": [
+        // Define suggested extensions to preinstall in the dev container
+        "EditorConfig.EditorConfig",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.flake8",
+        "GitHub.vscode-pull-request-github",
+        "github.vscode-github-actions",
+        "DavidAnson.vscode-markdownlint"
+      ]
+    }
+  }
+}

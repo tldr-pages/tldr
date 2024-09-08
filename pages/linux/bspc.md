@@ -1,11 +1,12 @@
 # bspc
 
-> A tool to control `bspwm`.
+> Configure and control `bspwm`, managing nodes, desktops, monitors, and more.
+> See also: `bspwm`.
 > More information: <https://github.com/baskerville/bspwm>.
 
-- Define two virtual desktop:
+- Define two virtual desktops:
 
-`bspc monitor --reset-desktops {{1}} {{2}}`
+`bspc monitor --reset-desktops {{desktop_name1}} {{desktop_name2}}`
 
 - Focus the given desktop:
 
@@ -22,3 +23,7 @@
 - Toggle full screen mode for the selected node:
 
 `bspc node --state ~fullscreen`
+
+- Set the value of a specific setting:
+
+`bspc config {{setting_name}} {{value}}`

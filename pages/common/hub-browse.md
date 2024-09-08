@@ -1,7 +1,7 @@
 # hub browse
 
 > Open a GitHub repository in the browser or print the URL.
-> More information: <https://cli.github.com/manual/hub_browse>.
+> More information: <https://hub.github.com/hub-browse.1.html>.
 
 - Open the homepage of the current repository in the default web browser:
 

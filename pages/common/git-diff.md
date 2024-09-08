@@ -19,9 +19,9 @@
 
 `git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
 
-- Show only names of changed files since a given commit:
+- Show diff statistics, like files changed, histogram, and total line insertions/deletions:
 
-`git diff --name-only {{commit}}`
+`git diff --stat {{commit}}`
 
 - Output a summary of file creations, renames and mode changes since a given commit:
 

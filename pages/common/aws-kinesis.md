@@ -1,6 +1,6 @@
 # aws kinesis
 
-> Official AWS CLI for Amazon Kinesis streaming data services.
+> Interact with the Amazon Kinesis Data Streams, a service that scales elastically for real-time processing of streaming big data.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis>.
 
 - Show all streams in the account:

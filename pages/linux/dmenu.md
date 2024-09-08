@@ -1,7 +1,7 @@
 # dmenu
 
 > Dynamic menu.
-> Creates a menu from a text input with each item on a new line.
+> Create a menu from a text input with each item on a new line.
 > More information: <https://manned.org/dmenu>.
 
 - Display a menu of the output of the `ls` command:

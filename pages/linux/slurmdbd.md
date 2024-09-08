@@ -1,6 +1,6 @@
 # slurmdbd
 
-> Provides a secure enterprise-wide interface to a database for Slurm.
+> A secure enterprise-wide interface to a database for Slurm.
 > More information: <https://slurm.schedmd.com/slurmdbd.html>.
 
 - Set the daemon's nice value to the specified value, typically a negative number:

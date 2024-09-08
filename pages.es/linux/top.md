@@ -21,7 +21,7 @@
 
 - Muestra los hilos individuales de un proceso dado:
 
-`top -Hp {{id_proceso}}`
+`top -Hp {{identificador_de_proceso}}`
 
 - Muestra solo los procesos con un(os) PID(s) dado(s), separados por comas. (Normalmente no se conoce el PID de antemano. Este ejemplo lo obtiene del nombre del proceso):
 

@@ -1,7 +1,6 @@
 # go fmt
 
-> Format Go source files.
-> Prints the filenames that are changed.
+> Format Go source files, printing the changed filenames.
 > More information: <https://pkg.go.dev/cmd/go#hdr-Gofmt__reformat__package_sources>.
 
 - Format Go source files in the current directory:

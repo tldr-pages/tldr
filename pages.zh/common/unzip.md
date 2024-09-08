@@ -1,6 +1,6 @@
 # unzip
 
-> 从 ZIP 压缩包中提取文件或目录。
+> 从 Zip 压缩包中提取文件或目录。
 > 参见：`zip`.
 > 更多信息：<https://manned.org/unzip>.
 

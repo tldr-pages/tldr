@@ -24,7 +24,7 @@
 
 `fish --no-execute {{pfad/zu/skript.fish}}`
 
-- Starte eine private, interaktive Shell-Sitzung, in der `fish` weder auf die Shell-History zugreift, noch diese verändert:
+- Starte eine private, interaktive Shell-Sitzung, in der fish weder auf die Shell-History zugreift, noch diese verändert:
 
 `fish --private`
 

@@ -1,6 +1,6 @@
 # gchcon
 
-> Este comando é um pseudônimo de `-p linux chcon`.
+> Este comando é um apelido de `-p linux chcon`.
 
 - Exibe documentação sobre o comando original:
 

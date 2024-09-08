@@ -24,6 +24,6 @@
 
 `bash -s`
 
-- Stampa informazioni sulla versione di bash (usa `echo $BASH_VERSION` per mostrare solo la versione):
+- Stampa informazioni sulla versione di Bash (usa `echo $BASH_VERSION` per mostrare solo la versione):
 
 `bash --version`

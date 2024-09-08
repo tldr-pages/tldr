@@ -1,6 +1,6 @@
 # gecho
 
-> Este comando é um pseudônimo de `-p linux echo`.
+> Este comando é um apelido de `-p linux echo`.
 
 - Exibe documentação sobre o comando original:
 

@@ -1,7 +1,7 @@
 # pw-cli
 
 > Pipewire komut satır arayüzü.
-> Daha fazla bilgi için: <https://docs.pipewire.org/page_man_pw_cli_1.html>.
+> Daha fazla bilgi için: <https://docs.pipewire.org/page_man_pw-cli_1.html>.
 
 - Tüm düğümleri (taban ve kaynakları) ID'leri ile birlikte yazdır:
 

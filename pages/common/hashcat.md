@@ -30,3 +30,7 @@
 - Show result of an already cracked hash:
 
 `hashcat --show {{hash_value}}`
+
+- Show all example hashes:
+
+`hashcat --example-hashes`

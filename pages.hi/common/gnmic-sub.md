@@ -1,4 +1,4 @@
-# gnmic-sub
+# gnmic sub
 
 > यह आदेश `gnmic subscribe` का उपनाम है।
 > अधिक जानकारी: <https://gnmic.kmrd.dev/cmd/subscribe>।

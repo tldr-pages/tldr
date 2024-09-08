@@ -15,10 +15,10 @@
 
 `alacritty -e {{bevel}}`
 
-- Geef een alternatief configuratiebestand op (standaard ingesteld op `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- Geef een alternatief configuratiebestand op (standaard ingesteld op `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
-`alacritty --config-file {{pad/naar/config.yml}}`
+`alacritty --config-file {{pad/naar/config.toml}}`
 
-- Uitvoeren met live config reload ingeschakeld (kan ook standaard worden ingeschakeld in `alacritty.yml`):
+- Uitvoeren met live config reload ingeschakeld (kan ook standaard worden ingeschakeld in `alacritty.toml`):
 
-`alacritty --live-config-reload --config-file {{pad/naar/config.yml}}`
+`alacritty --live-config-reload --config-file {{pad/naar/config.toml}}`

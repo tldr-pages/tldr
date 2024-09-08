@@ -1,6 +1,6 @@
 # mkfs.ext4
 
-> Creates an ext4 filesystem inside a partition.
+> Create an ext4 filesystem inside a partition.
 > More information: <https://manned.org/mkfs.ext4>.
 
 - Create an ext4 filesystem inside partition 1 on device b (`sdb1`):

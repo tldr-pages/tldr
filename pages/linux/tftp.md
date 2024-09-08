@@ -15,7 +15,7 @@
 
 `tftp {{server_ip}} -6 -R {{port}}:{{port}}`
 
-- Set the transfer mode to binary or ascii through the tftp client:
+- Set the transfer mode to binary or ASCIi through the tftp client:
 
 `mode {{binary|ascii}}`
 

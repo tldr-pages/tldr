@@ -4,7 +4,7 @@
 > 需要确保 ssh 代理已启动并正在运行以加载其中的密钥。
 > 更多信息：<https://man.openbsd.org/ssh-add>.
 
-- 将 `~/.ssh` 中的默认 ssh 密钥添加到 `ssh` 代理：
+- 将 `~/.ssh` 中的默认 SSH 密钥添加到 SSH 代理：
 
 `ssh-add`
 

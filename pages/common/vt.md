@@ -16,7 +16,7 @@
 
 `vt analysis {{file_id|analysis_id}}`
 
-- Download files in encrypted `.zip` format (requires premium account):
+- Download files in encrypted Zip format (requires premium account):
 
 `vt download {{file_id}} --output {{path/to/directory}} --zip --zip-password {{password}}`
 

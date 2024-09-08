@@ -17,4 +17,4 @@
 
 - Wyświetl określoną datę jako znacznik czasu Unix w domyślnym formacie:
 
-`date -r 1473305798`
+`date -r {{1473305798}}`

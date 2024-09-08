@@ -3,23 +3,23 @@
 > The Silver Searcher. Podobny do `ack`, ale ma być szybszy.
 > Więcej informacji: <https://github.com/ggreer/the_silver_searcher>.
 
-- Znajdź pliki zawierające „foo” i wypisz dopasowane linie:
+- Znajdź pliki zawierające "foo" i wypisz dopasowane linie:
 
 `ag {{foo}}`
 
-- Znajdź pliki zawierające „foo” w określonym katalogu:
+- Znajdź pliki zawierające "foo" w określonym katalogu:
 
-`ag {{foo}} {{scieżka/do/katalogu}}`
+`ag {{foo}} {{ścieżka/do/katalogu}}`
 
-- Znajdź pliki zawierające „foo”, ale podaj tylko nazwy plików:
+- Znajdź pliki zawierające "foo", ale wypisz tylko nazwy plików:
 
 `ag -l {{foo}}`
 
-- Znajdź pliki zawierające „FOO” bez rozróżniania wielkości liter i wypisz tylko dopasowanie, a nie całą linię:
+- Znajdź pliki zawierające "FOO" bez rozróżniania wielkości liter i wypisz tylko dopasowanie, a nie całą linię:
 
 `ag -i -o {{FOO}}`
 
-- Znajdź „foo” w plikach o nazwie pasującej do „bar”:
+- Znajdź "foo" w plikach o nazwie pasującej do "bar":
 
 `ag {{foo}} -G {{bar}}`
 
@@ -27,6 +27,6 @@
 
 `ag '{{^ba(r|z)$}}'`
 
-- Znajdź pliki o nazwie pasującej do „foo”:
+- Znajdź pliki o nazwie pasującej do "foo":
 
 `ag -g {{foo}}`

@@ -21,7 +21,7 @@
 
 - Batch load data from a specific file in formats such as CSV, JSON, Parquet, and Avro to a table:
 
-`bq load --location={{location}} --source_format={{CSV|JSON|PARQUET|AVRO}} {{dataset}}.{{table}} {{path_to_source}}`
+`bq load --location {{location}} --source_format {{CSV|JSON|PARQUET|AVRO}} {{dataset}}.{{table}} {{path_to_source}}`
 
 - Copy one table to another:
 

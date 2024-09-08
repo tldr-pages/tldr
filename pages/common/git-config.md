@@ -4,13 +4,13 @@
 > These configurations can be local (for the current repository) or global (for the current user).
 > More information: <https://git-scm.com/docs/git-config>.
 
-- List only local configuration entries (stored in `.git/config` in the current repository):
+- Globally set your name or email (this information is required to commit to a repository and will be included in all commits):
 
-`git config --list --local`
+`git config --global {{user.name|user.email}} "{{Your Name|email@example.com}}"`
 
-- List only global configuration entries (stored in `~/.gitconfig` by default or in `$XDG_CONFIG_HOME/git/config` if such a file exists):
+- List local or global configuration entries:
 
-`git config --list --global`
+`git config --list --{{local|global}}`
 
 - List only system configuration entries (stored in `/etc/gitconfig`), and show their file location:
 
@@ -28,10 +28,10 @@
 
 `git config --global --unset alias.unstage`
 
-- Edit the Git configuration for the current repository in the default editor:
+- Edit the local Git configuration (`.git/config`) in the default editor:
 
 `git config --edit`
 
-- Edit the global Git configuration in the default editor:
+- Edit the global Git configuration (`~/.gitconfig` by default or `$XDG_CONFIG_HOME/git/config` if such a file exists) in the default editor:
 
 `git config --global --edit`

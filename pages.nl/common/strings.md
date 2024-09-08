@@ -3,7 +3,7 @@
 > Vind printbare strings in een object bestand of binary.
 > Meer informatie: <https://manned.org/strings>.
 
-- Print alle strings in een binary:
+- Toon alle strings in een binary:
 
 `strings {{pad/naar/bestand}}`
 

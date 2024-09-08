@@ -1,7 +1,7 @@
 # cat
 
 > Stampa e concatena file.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/cat>.
+> Maggiori informazioni: <https://manned.org/cat.1posix>.
 
 - Stampa i contenuti di un file su standard output:
 

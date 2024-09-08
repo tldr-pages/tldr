@@ -13,7 +13,7 @@
 
 - Borra una clave del almacén de claves de confianza:
 
-`apt-key del {{id_clave}}`
+`apt-key del {{identificador_de_clave}}`
 
 - Añade un clave remota al almacén de claves de confianza:
 
@@ -21,4 +21,4 @@
 
 - Añade una clave de un servidor de claves con el identificador de la clave:
 
-`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{id_clave}}`
+`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{identificador_de_clave}}`

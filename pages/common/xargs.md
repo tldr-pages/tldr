@@ -12,9 +12,13 @@
 
 `{{arguments_source}} | xargs sh -c "{{command1}} && {{command2}} | {{command3}}"`
 
-- Delete all files with a `.backup` extension (`-print0` uses a null character to split file names, and `-0` uses it as delimiter):
+- Gzip all files with `.log` extension taking advantage of multiple threads (`-print0` uses a null character to split file names, and `-0` uses it as delimiter):
 
-`find . -name {{'*.backup'}} -print0 | xargs -0 rm -v`
+`find . -name '*.log' -print0 | xargs -0 -P {{4}} -n 1 gzip`
+
+- Execute the command once per argument:
+
+`{{arguments_source}} | xargs -n1 {{command}}`
 
 - Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
 

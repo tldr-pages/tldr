@@ -12,7 +12,7 @@
 
 `printf "header1 header2\nbar foo\n" | column --table`
 
-- -t 옵션(예: "", csv)에 대한 열 구분 기호 문자를 지정; 기본값은 공백입니다:
+- -t 옵션(예: "", CSV)에 대한 열 구분 기호 문자를 지정; 기본값은 공백입니다:
 
 `printf "header1,header2\nbar,foo\n" | column --table --separator {{,}}`
 

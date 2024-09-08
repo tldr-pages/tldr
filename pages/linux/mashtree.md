@@ -1,6 +1,6 @@
 # mashtree
 
-> Makes a fast tree from genomes.
+> Make a fast tree from genomes.
 > Does not make a phylogeny.
 > More information: <https://github.com/lskatz/mashtree>.
 

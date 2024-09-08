@@ -17,8 +17,8 @@
 
 - ஒரு குறிப்பிட்ட PIDக்கான பதிவுகளை காண்பி:
 
-`logcat --pid={{pid}}`
+`logcat --pid {{pid}}`
 
 - ஒரு குறிப்பிட்ட தொகுப்பின் செயல்முறைக்கான பதிவுகளை காண்பி:
 
-`logcat --pid=$(pidof -s {{package}})`
+`logcat --pid $(pidof -s {{package}})`

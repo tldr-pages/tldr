@@ -1,7 +1,7 @@
 # amass enum
 
 > Trouve les sous-domaines d'un domaine.
-> Plus d'informations : <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-enum-subcommand>.
+> Plus d'informations : <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-enum-subcommand>.
 
 - Trouve les sous-domaines d'un domaine passivement :
 

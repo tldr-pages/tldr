@@ -19,6 +19,14 @@
 
 `plantuml -o {{path/to/output}} {{diagram.puml}}`
 
+- Render a diagram without storing the diagram's source code (Note: It's stored by default when the `-nometadata` option isn't specified):
+
+`plantuml -nometadata {{diagram.png}} > {{diagram.puml}}`
+
+- Retrieve source from a `plantuml` diagram's metadata:
+
+`plantuml -metadata {{diagram.png}} > {{diagram.puml}}`
+
 - Render a diagram with the configuration file:
 
 `plantuml -config {{config.cfg}} {{diagram.puml}}`

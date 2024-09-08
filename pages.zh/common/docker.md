@@ -4,7 +4,7 @@
 > 此命令也有关于其子命令的文件，例如：`docker run`.
 > 更多信息：<https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- 列出所有 docker 容器（包括停止的容器）：
+- 列出所有 Docker 容器（包括停止的容器）：
 
 `docker ps --all`
 
@@ -16,7 +16,7 @@
 
 `docker {{start|stop}} {{容器名称}}`
 
-- 从 docker registry 中拉取镜像：
+- 从 Docker registry 中拉取镜像：
 
 `docker pull {{镜像}}`
 

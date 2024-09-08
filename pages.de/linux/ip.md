@@ -1,7 +1,7 @@
 # ip
 
 > Zeige und manipuliere routing, Geräte, Policy routing und Tunnel.
-> Weitere Informationen: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
+> Weitere Informationen: <https://www.manned.org/ip.8>.
 
 - Zeige Interfaces mit detaillierten Informationen:
 

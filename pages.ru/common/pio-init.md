@@ -1,4 +1,4 @@
-# pio-init
+# pio init
 
 > Эта команда — псевдоним для `pio project`.
 

@@ -17,4 +17,4 @@
 
 - Display a specific date (represented as a Unix timestamp) using the default format:
 
-`date -r 1473305798`
+`date -r {{1473305798}}`

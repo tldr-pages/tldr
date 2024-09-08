@@ -11,6 +11,6 @@
 
 `reg flags {{key_name}} set {{flag_name1 flag_name2 ...}}`
 
-- Set one or more flags for a specific key and its [s]ub keys:
+- Set one or more flags for a specific key and its [s]ubkeys:
 
 `reg flags {{key_name}} set {{flag_name1 flag_name2 ...}} /s`

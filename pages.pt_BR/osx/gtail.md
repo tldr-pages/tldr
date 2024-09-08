@@ -1,6 +1,6 @@
 # gtail
 
-> Este comando é um pseudônimo de `-p linux tail`.
+> Este comando é um apelido de `-p linux tail`.
 
 - Exibe documentação sobre o comando original:
 

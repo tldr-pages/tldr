@@ -1,13 +1,13 @@
 # docker ps
 
 > Docker konteynerlerini sırala.
-> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/ps/>.
+> Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/container/ls/>.
 
-- Halihazırda çalışan docker konteynerlerini listele:
+- Halihazırda çalışan Docker konteynerlerini listele:
 
 `docker ps`
 
-- Tüm (durmuş veya çalışan) docker konteynerlerini listele:
+- Tüm (durmuş veya çalışan) Docker konteynerlerini listele:
 
 `docker ps --all`
 
@@ -29,8 +29,8 @@
 
 - Konteynerleri mevcut durumlarına (oluşturulma, çalışma, silinme, durma, çıkma ve ölme) göre sırala:
 
-`docker ps --filter="status={{mevcut_durum}}"`
+`docker ps --filter "status={{mevcut_durum}}"`
 
 - Belirtilmiş bir hacmi gömen veya belirtilmiş bir yola gömülmüş hacmi içeren konteynerleri filtrele:
 
-`docker ps --filter="volume={{örnek/dizin}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker ps --filter "volume={{örnek/dizin}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`

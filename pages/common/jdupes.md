@@ -1,7 +1,7 @@
 # jdupes
 
 > A powerful duplicate file finder and an enhanced fork of fdupes.
-> More information: <https://github.com/jbruchon/jdupes>.
+> More information: <https://codeberg.org/jbruchon/jdupes>.
 
 - Search a single directory:
 

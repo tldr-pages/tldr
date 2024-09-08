@@ -4,15 +4,15 @@
 > Layouts: `dot`, `neato`, `twopi`, `circo`, `fdp`, `sfdp`, `osage` & `patchwork`.
 > More information: <https://graphviz.org/doc/info/command.html>.
 
-- Render a `png` image with a filename based on the input filename and output format (uppercase -O):
+- Render a PNG image with a filename based on the input filename and output format (uppercase -O):
 
 `patchwork -T {{png}} -O {{path/to/input.gv}}`
 
-- Render a `svg` image with the specified output filename (lowercase -o):
+- Render a SVG image with the specified output filename (lowercase -o):
 
 `patchwork -T {{svg}} -o {{path/to/image.svg}} {{path/to/input.gv}}`
 
-- Render the output in `ps`, `pdf`, `svg`, `fig`, `png`, `gif`, `jpg`, `json`, or `dot` format:
+- Render the output in PS, PDF, SVG, Fig, PNG, GIF, JPEG, JSON, or DOT format:
 
 `patchwork -T {{format}} -O {{path/to/input.gv}}`
 

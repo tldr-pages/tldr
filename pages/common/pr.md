@@ -21,7 +21,7 @@
 
 - Print, beginning at page 2 up to page 5, with a given page length (including header and footer):
 
-`pr +{{2}}:{{5}} -l {{page_length}} {{path/to/file1 path/to/file2 ...}}`
+`pr +2:5 -l {{page_length}} {{path/to/file1 path/to/file2 ...}}`
 
 - Print with an offset for each line and a truncating custom page width:
 

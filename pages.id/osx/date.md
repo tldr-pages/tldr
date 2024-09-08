@@ -17,4 +17,4 @@
 
 - Menampilkan tanggal tertentu (diwakili sebagai _Unix timestamp_) menggunakan format bawaan:
 
-`date -r 1473305798`
+`date -r {{1473305798}}`

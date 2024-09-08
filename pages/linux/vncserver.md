@@ -1,6 +1,6 @@
 # vncserver
 
-> Launches a VNC (Virtual Network Computing) desktop.
+> Launch a VNC (Virtual Network Computing) desktop.
 > More information: <https://manned.org/vncserver.1x>.
 
 - Launch a VNC Server on next available display:

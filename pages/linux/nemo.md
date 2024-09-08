@@ -1,6 +1,6 @@
 # nemo
 
-> Manages files and directories in Cinnamon desktop environment.
+> Manage files and directories in Cinnamon desktop environment.
 > More information: <https://manned.org/nemo>.
 
 - Open the current user home directory:

@@ -1,6 +1,6 @@
 # history expansion
 
-> Reutiliza y expande el historial del shell en `sh`, `bash`, `zsh`, `rbash` y `ksh`.
+> Reutiliza y expande el historial del shell en `sh`, Bash, Zsh, `rbash` y `ksh`.
 > Más información: <https://www.gnu.org/software/bash/manual/html_node/History-Interaction>.
 
 - Ejecuta el comando anterior como root (`!!` se sustituye por el comando anterior):

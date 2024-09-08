@@ -7,7 +7,7 @@
 
 `cargo report {{future-incompatibilities|...}}`
 
-- Display a report with the specified Cargo-generated id:
+- Display a report with the specified Cargo-generated ID:
 
 `cargo report {{future-incompatibilities|...}} --id {{id}}`
 

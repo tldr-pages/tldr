@@ -21,8 +21,8 @@
 
 - Geef een aangepaste bron op om pakketten van weer te geven:
 
-`choco list --source {{source_url|alias}}`
+`choco list --source {{bron_url|alias}}`
 
 - Geef een gebruikersnaam en wachtwoord voor authenticatie op:
 
-`choco list --user {{username}} --password {{password}}`
+`choco list --user {{gebruikersnaam}} --password {{wachtwoord}}`

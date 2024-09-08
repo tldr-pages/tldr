@@ -21,4 +21,4 @@
 
 - Tüm dallarda en fazla 100 değişiklik göster:
 
-` gitk --max-count={{100}} --all`
+`gitk --max-count={{100}} --all`

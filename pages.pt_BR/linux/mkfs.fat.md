@@ -11,7 +11,7 @@
 
 `mkfs.fat -n {{nome_de_volume}} {{/dev/sdb1}}`
 
-- Cria um sistema de arquivos com um id de volume:
+- Cria um sistema de arquivos com um ID de volume:
 
 `mkfs.fat -i {{id_de_volume}} {{/dev/sdb1}}`
 

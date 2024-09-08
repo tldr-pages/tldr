@@ -4,7 +4,7 @@
 > Use the `who` command to find out all terminal_ids of all active users active on the system. See also `mesg`.
 > More information: <https://manned.org/write>.
 
-- Send a message to a given user on a given terminal id:
+- Send a message to a given user on a given terminal ID:
 
 `write {{username}} {{terminal_id}}`
 

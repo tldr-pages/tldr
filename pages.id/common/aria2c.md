@@ -10,7 +10,7 @@
 
 - Unduh file yang ditunjuk oleh URI yang ditentukan dengan nama keluaran yang ditentukan:
 
-`aria2c --out={{nama_file}} "{{url}}"`
+`aria2c --out {{nama_file}} "{{url}}"`
 
 - Unduh beberapa file (berbeda) secara paralel:
 
@@ -26,7 +26,7 @@
 
 - Unduh dengan banyak koneksi:
 
-`aria2c --split={{jumlah_koneksi}} "{{url}}"`
+`aria2c --split {{jumlah_koneksi}} "{{url}}"`
 
 - Unduhan FTP dengan nama pengguna dan kata sandi:
 

@@ -21,7 +21,7 @@
 
 - Kullanılmayan ve geçmişte birden çok kez oluşturulan veriyi sil:
 
-`docker system prune --filter="until={{saat}}h{{dakika}}m"`
+`docker system prune --filter "until={{saat}}h{{dakika}}m"`
 
 - Docker deamon'dan tam-zamanlı eylemleri görüntüle:
 

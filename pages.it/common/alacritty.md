@@ -15,10 +15,10 @@
 
 `alacritty -e {{comando}}`
 
-- Specifica un file di configurazione alternativo (predefinito a `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- Specifica un file di configurazione alternativo (predefinito a `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
-`alacritty --config-file {{percorso/di/config.yml}}`
+`alacritty --config-file {{percorso/di/config.toml}}`
 
-- Esegui con ricaricamento configurazione live (può anche essere acceso in `alacritty.yml`):
+- Esegui con ricaricamento configurazione live (può anche essere acceso in `alacritty.toml`):
 
-`alacritty --live-config-reload --config-file {{percorsi/al/config.yml}}`
+`alacritty --live-config-reload --config-file {{percorsi/al/config.toml}}`

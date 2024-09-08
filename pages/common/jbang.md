@@ -24,7 +24,7 @@
 
 `{{echo 'Files.list(Paths.get("/etc")).forEach(System.out::println);'}} | jbang -`
 
-- Run command line application:
+- Run command-line application:
 
 `jbang {{path/to/file.java}} {{command}} {{arg1 arg2 ...}}`
 

@@ -6,7 +6,7 @@
 
 - Muestra información acerca de una instancia específica:
 
-`aws ec2 describe-instances --instance-ids {{id_instancia}}`
+`aws ec2 describe-instances --instance-ids {{identificador_de_instancia}}`
 
 - Muestra información sobre todas las instancias:
 
@@ -18,11 +18,11 @@
 
 - Elimina un volumen EC2:
 
-`aws ec2 delete-volume --volume-id {{id_volumen}}`
+`aws ec2 delete-volume --volume-id {{identificador_de_volumen}}`
 
 - Crea una instantánea a partir de un volumen EC2:
 
-`aws ec2 create-snapshot --volume-id {{id_volumen}}`
+`aws ec2 create-snapshot --volume-id {{identificador_de_volumen}}`
 
 - Lista las imágenes de máquina de Amazon disponibles (AMI):
 

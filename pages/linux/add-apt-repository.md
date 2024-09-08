@@ -1,6 +1,6 @@
 # add-apt-repository
 
-> Manages `apt` repository definitions.
+> Manage `apt` repository definitions.
 > More information: <https://manned.org/apt-add-repository>.
 
 - Add a new `apt` repository:

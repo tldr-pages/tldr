@@ -1,6 +1,6 @@
 # autoflake
 
-> Narzędzie do usuwania nieużywanych importów i zmiennych z kodu Python.
+> Usuń nieużywane importy i zmienne z kodu Python.
 > Więcej informacji: <https://github.com/myint/autoflake>.
 
 - Usuń nieużywane zmienne z jednego pliku i wyświetl różnicę:
@@ -17,4 +17,4 @@
 
 - Usuń nieużywane zmienne rekurencyjnie ze wszystkich plików w katalogu, nadpisując każdy plik:
 
-`autoflake --remove-unused-variables --in-place --recursive {{sciezka/do/katalogu}}`
+`autoflake --remove-unused-variables --in-place --recursive {{ścieżka/do/katalogu}}`

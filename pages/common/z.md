@@ -1,6 +1,6 @@
 # z
 
-> Tracks the most used (by frecency) directories and enables quickly navigating to them using string patterns or regular expressions.
+> Tracks the most used (by frequency) directories and enables quickly navigating to them using string patterns or regular expressions.
 > More information: <https://github.com/rupa/z>.
 
 - Go to a directory that contains "foo" in the name:

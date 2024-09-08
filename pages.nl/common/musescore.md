@@ -7,7 +7,7 @@
 
 `musescore --audio-driver {{jack|alsa|portaudio|pulse}}`
 
-- Stel de MP3 uitvoer bitsnelheid in in kbit/s:
+- Stel de MP3 uitvoer bitsnelheid in kbit/s:
 
 `musescore --bitrate {{bitsnelheid}}`
 

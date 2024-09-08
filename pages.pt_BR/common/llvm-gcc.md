@@ -1,6 +1,6 @@
 # llvm-gcc
 
-> Este comando é um pseudônimo de `clang`.
+> Este comando é um apelido de `clang`.
 
 - Exibe documentação sobre o comando original:
 

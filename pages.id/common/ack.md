@@ -18,11 +18,11 @@
 
 - Hanya cari file dengan tipe tertentu (seperti `ruby` untuk mencari file `.rb`,`.erb`, `.rake`, `Rakefile` dan sebagainya):
 
-`ack --type={{ruby}} "{{pola_pencarian}}"`
+`ack --type {{ruby}} "{{pola_pencarian}}"`
 
 - Jangan cari file dengan tipe tertentu:
 
-`ack --type=no{{ruby}} "{{pola_pencarian}}"`
+`ack --type no{{ruby}} "{{pola_pencarian}}"`
 
 - Hitung total teks/string yang ditemukan:
 

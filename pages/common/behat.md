@@ -13,7 +13,7 @@
 
 - Run all tests from the specified suite:
 
-`behat --suite={{suite_name}}`
+`behat --suite {{suite_name}}`
 
 - Run tests with a specific output formatter:
 

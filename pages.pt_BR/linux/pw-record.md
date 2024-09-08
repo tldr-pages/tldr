@@ -1,6 +1,6 @@
 # pw-record
 
-> Grava arquivos de áudio através do pipewire.
+> Grava arquivos de áudio através do PipeWire.
 > Atalho para pw-cat --record.
 > Mais informações: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
 

@@ -1,7 +1,7 @@
 # 7zr
 
 > Archivador de ficheros con un alto ratio de compresión.
-> Similar a `7z` excepto que sólo soporta ficheros `.7z`.
+> Similar a `7z` excepto que sólo soporta ficheros 7z.
 > Más información: <https://manned.org/7zr>.
 
 - [a]rchiva un archivo o directorio:

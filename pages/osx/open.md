@@ -1,6 +1,6 @@
 # open
 
-> Opens files, directories and applications.
+> Open files, directories and applications.
 > More information: <https://keith.github.io/xcode-man-pages/open.1.html>.
 
 - Open a file with the associated application:

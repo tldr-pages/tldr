@@ -15,10 +15,10 @@
 
 `alacritty -e {{명령어}}`
 
-- 대체 구성파일 지정 (기본값 : `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- 대체 구성파일 지정 (기본값 : `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
-`alacritty --config-file {{경로/config.yml}}`
+`alacritty --config-file {{경로/config.toml}}`
 
-- 재배치가 가능한 라이브 구성 설정으로 실행 (기본적으로 `alacritty.yml` 에서도 활성화 가능):
+- 재배치가 가능한 라이브 구성 설정으로 실행 (기본적으로 `alacritty.toml` 에서도 활성화 가능):
 
-`alacritty --live-config-reload --config-file {{경로/config.yml}}`
+`alacritty --live-config-reload --config-file {{경로/config.toml}}`

@@ -2,7 +2,7 @@
 
 > Display information about Logical Volume Manager (LVM) volume groups.
 > See also: `lvm`.
-> More information: <https://man7.org/linux/man-pages/man8/vgdisplay.8.html>.
+> More information: <https://manned.org/vgdisplay>.
 
 - Display information about all volume groups:
 

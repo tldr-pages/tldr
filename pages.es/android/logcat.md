@@ -17,8 +17,8 @@
 
 - Muestra registros de un proceso específico:
 
-`logcat --pid={{pid}}`
+`logcat --pid {{pid}}`
 
 - Muestra registros del proceso de un paquete específico:
 
-`logcat --pid=$(pidof -s {{paquete}})`
+`logcat --pid $(pidof -s {{paquete}})`

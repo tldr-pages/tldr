@@ -1,6 +1,7 @@
 # ranger
 
 > Console file manager with VI key bindings.
+> See also: `clifm`, `vifm`, `mc`, `dolphin`.
 > More information: <https://github.com/ranger/ranger>.
 
 - Launch ranger:

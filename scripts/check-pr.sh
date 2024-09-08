@@ -111,6 +111,16 @@ function check_outdated_page() {
   fi
 }
 
+function check_more_info_link() {
+  local page=$1
+
+  python3 scripts/set-more-info-link.py -Sn | grep "$page" > /dev/null
+
+  if [ $? -eq 0 ]; then
+      printf "\x2d $MSG_MORE_INFO" "$page"
+  fi
+}
+
 # Look at git diff and check for copied/duplicated pages.
 function check_diff {
   local git_diff
@@ -146,10 +156,12 @@ function check_diff {
         check_duplicates "$file1"
         check_missing_english_page "$file1"
         check_outdated_page "$file1"
+        check_more_info_link "$file1"
         ;;
       M) # file1 was modified
         check_missing_english_page "$file1"
         check_outdated_page "$file1"
+        check_more_info_link "$file1"
         ;;
     esac
   done <<< "$git_diff"
@@ -183,6 +195,7 @@ MSG_IS_COPY='The page `%s` seems to be a copy of `%s` (%d%% matching).\n'
 MSG_NOT_DIR='The file `%s` does not look like a directory.\n'
 MSG_NOT_FILE='The file `%s` does not look like a regular file.\n'
 MSG_NOT_MD='The file `%s` does not have a `.md` extension.\n'
+MSG_MORE_INFO='The page `%s` has an outdated more info link.\n'
 
 PLATFORMS=$(ls pages/)
 
