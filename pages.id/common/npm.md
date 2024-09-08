@@ -34,4 +34,4 @@
 
 - Buat daftar modul tingkat atas yang diinstal secara global:
 
-`npm list {{-g|--global}} --depth={{0}}`
+`npm list {{-g|--global}} --depth {{0}}`
