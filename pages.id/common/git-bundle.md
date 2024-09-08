@@ -30,3 +30,7 @@
 - Buka dan pakai isi bungkusan untuk suatu cabang pada repositori saat ini:
 
 `git pull {{jalan/menuju/berkas.bundle}} {{nama_cabang}}`
+
+- Buat sebuah repositori baru dari suatu berkas bundle:
+
+`git clone {{jalan/menuju/berkas.bundle}}`
