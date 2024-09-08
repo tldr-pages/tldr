@@ -1,7 +1,7 @@
 # touch
 
 > Create files and set access/modification times.
-> More information: <https://manned.org/man/freebsd-13.1/touch>.
+> More information: <https://manned.org/touch>.
 
 - Create specific files:
 

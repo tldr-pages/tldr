@@ -2,7 +2,7 @@
 
 > Edit text in a scriptable manner.
 > See also: `awk`, `ed`.
-> More information: <https://manned.org/man/sed.1posix>.
+> More information: <https://manned.org/sed.1posix>.
 
 - Replace all `apple` (basic regex) occurrences with `mango` (basic regex) in all input lines and print the result to `stdout`:
 

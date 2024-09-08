@@ -1,7 +1,7 @@
 # touch
 
 > Cria arquivos e define tempo de acesso/modificação.
-> Mais informações: <https://manned.org/man/freebsd-13.1/touch>.
+> Mais informações: <https://manned.org/touch>.
 
 - Cria arquivos especificados:
 

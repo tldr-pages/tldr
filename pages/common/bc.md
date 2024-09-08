@@ -2,7 +2,7 @@
 
 > An arbitrary precision calculator language.
 > See also: `dc`.
-> More information: <https://manned.org/man/bc.1>.
+> More information: <https://manned.org/bc>.
 
 - Start an interactive session:
 

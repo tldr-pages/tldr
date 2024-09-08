@@ -2,7 +2,7 @@
 
 > Un langage de calcul de précision arbitraire.
 > Voir aussi : `dc`.
-> Plus d'informations : <https://manned.org/man/bc.1>.
+> Plus d'informations : <https://manned.org/bc>.
 
 - Démarre une session interactive :
 
