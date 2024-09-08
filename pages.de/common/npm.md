@@ -17,11 +17,11 @@
 
 - Installiere ein Package und füge es als Entwicklungs-Abhängigkeit der `package.json` Datei hinzu:
 
-`npm install {{package_name}} --save-dev`
+`npm install {{package_name}} {{-D|--save-dev}}`
 
 - Installiere ein Package global:
 
-`npm install --global {{package_name}}`
+`npm install {{-g|--global}} {{package_name}}`
 
 - Deinstalliere ein Package und entferne es automatisch aus der `package.json` Datei:
 
@@ -33,4 +33,4 @@
 
 - Gib eine Liste aller global installierten Packages aus:
 
-`npm list --global --depth={{0}}`
+`npm list {{-g|--global}} --depth {{0}}`

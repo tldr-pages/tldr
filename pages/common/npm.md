@@ -4,9 +4,9 @@
 > Manage Node.js projects and their module dependencies.
 > More information: <https://www.npmjs.com>.
 
-- Interactively create a `package.json` file:
+- Create a `package.json` file with default values (omit --yes to do it interactively):
 
-`npm init`
+`npm init {{-y|--yes}}`
 
 - Download all the packages listed as dependencies in `package.json`:
 
@@ -18,11 +18,11 @@
 
 - Download the latest version of a package and add it to the list of dev dependencies in `package.json`:
 
-`npm install {{package_name}} --save-dev`
+`npm install {{package_name}} {{-D|--save-dev}}`
 
 - Download the latest version of a package and install it globally:
 
-`npm install --global {{package_name}}`
+`npm install {{-g|--global}} {{package_name}}0`
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
@@ -34,4 +34,4 @@
 
 - List top-level globally installed packages:
 
-`npm list --global --depth={{0}}`
+`npm list {{-g|--global}} --depth {{0}}`
