@@ -17,7 +17,7 @@
 
 - Bungkus objek dan referensi untuk perubahan sejak 7 hari terakhir:
 
-`git bundle create {{jalan/menuju/berkas.bundle}} --since={{7.days}} {{HEAD}}`
+`git bundle create {{jalan/menuju/berkas.bundle}} --since {{7.days}} {{HEAD}}`
 
 - Cek apakah suatu berkas bundle bersifat valid dan dapat diaplikasikan ke dalam repositori saat ini:
 

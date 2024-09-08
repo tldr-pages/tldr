@@ -10,7 +10,7 @@
 
 - Tampilkan informasi dalam format [s]ingkat:
 
-`git status -s`
+`git status --short`
 
 - Tampilkan informasi secara terperinci ([v]erbose) baik dalam panggung rencana perubahan (staging) dan direktori kerja saat ini:
 
