@@ -3,7 +3,7 @@
 > Manipulate remote Tarsnap encrypted backups.
 > Note: you don't need to specify the key file and the cache directory if you configure them in `/usr/local/etc/tarsnap.conf` or `~/.tarsnaprc`.
 > See also: `tarsnap-keygen`.
-> More information: <https://www.tarsnap.com/man-tarsnap.1.html>.
+> More information: <https://tarsnap.com/man-tarsnap.1.html>.
 
 - [c]reate a backup archive of one or more files or directories, specifying the cryptographic key and the cache directory:
 

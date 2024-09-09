@@ -1,7 +1,7 @@
 # zola
 
 > A static site generator in a single binary with everything built-in.
-> More information: <https://www.getzola.org/documentation/getting-started/cli-usage/>.
+> More information: <https://getzola.org/documentation/getting-started/cli-usage/>.
 
 - Create the directory structure used by Zola at the given directory:
 

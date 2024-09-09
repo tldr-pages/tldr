@@ -1,7 +1,7 @@
 # tlmgr update
 
 > Update TeX Live packages.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://tug.org/texlive/tlmgr.html>.
 
 - Update all TeX Live packages:
 

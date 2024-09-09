@@ -1,7 +1,7 @@
 # moe
 
 > A WYSIWYG text editor for ISO-8859-15 encoded text.
-> More information: <https://www.gnu.org/software/moe/moe.html>.
+> More information: <https://gnu.org/software/moe/moe.html>.
 
 - Open moe and create a backup file (file~) when saving edits:
 

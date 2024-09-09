@@ -2,7 +2,7 @@
 
 > Perform Moxie Marlinspike's Secure Sockets Layer (SSL) stripping attacks.
 > Perform an ARP spoofing attack in conjunction.
-> More information: <https://www.kali.org/tools/sslstrip/>.
+> More information: <https://kali.org/tools/sslstrip/>.
 
 - Log only HTTPS POST traffic on port 10000 by default:
 

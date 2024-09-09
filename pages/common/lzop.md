@@ -1,7 +1,7 @@
 # lzop
 
 > Compress or decompress files with LZO compression.
-> More information: <https://www.lzop.org/>.
+> More information: <https://lzop.org/>.
 
 - Compress a file into a new file with the `.lzo` suffix:
 

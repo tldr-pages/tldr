@@ -2,7 +2,7 @@
 
 > Manage Linode cloud services.
 > Some subcommands such as `events` have their own usage documentation.
-> More information: <https://www.linode.com/docs/products/tools/cli/get-started/>.
+> More information: <https://linode.com/docs/products/tools/cli/get-started/>.
 
 - List all Linodes:
 

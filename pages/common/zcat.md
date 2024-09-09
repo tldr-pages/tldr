@@ -1,7 +1,7 @@
 # zcat
 
 > Print data from `gzip` compressed files.
-> More information: <https://www.gnu.org/software/gzip/manual/gzip.html>.
+> More information: <https://gnu.org/software/gzip/manual/gzip.html>.
 
 - Print the uncompressed contents of a `gzip` archive to `stdout`:
 

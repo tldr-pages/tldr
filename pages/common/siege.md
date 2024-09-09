@@ -1,7 +1,7 @@
 # siege
 
 > HTTP loadtesting and benchmarking tool.
-> More information: <https://www.joedog.org/siege-manual/>.
+> More information: <https://joedog.org/siege-manual/>.
 
 - Test a URL with default settings:
 

@@ -1,7 +1,7 @@
 # R
 
 > R language interpreter.
-> More information: <https://www.r-project.org>.
+> More information: <https://r-project.org>.
 
 - Start a REPL (interactive shell):
 

@@ -1,7 +1,7 @@
 # paperkey
 
 > An OpenPGP key archiver.
-> More information: <https://www.jabberwocky.com/software/paperkey/>.
+> More information: <https://jabberwocky.com/software/paperkey/>.
 
 - Take a specific secret key and generate a text file with the secret data:
 

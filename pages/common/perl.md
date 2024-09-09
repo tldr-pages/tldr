@@ -1,7 +1,7 @@
 # perl
 
 > The Perl 5 language interpreter.
-> More information: <https://www.perl.org>.
+> More information: <https://perl.org>.
 
 - Print lines from `stdin` [m/] matching regex1 and case insensitive [/i] regex2:
 

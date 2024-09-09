@@ -1,7 +1,7 @@
 # tsc
 
 > TypeScript compiler.
-> More information: <https://www.typescriptlang.org/docs/handbook/compiler-options.html>.
+> More information: <https://typescriptlang.org/docs/handbook/compiler-options.html>.
 
 - Compile a TypeScript file `foobar.ts` into a JavaScript file `foobar.js`:
 

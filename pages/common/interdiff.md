@@ -1,7 +1,7 @@
 # interdiff
 
 > Show differences between two diff files.
-> More information: <http://freshmeat.sourceforge.net/projects/patchutils>.
+> More information: <https://manned.org/man/interdiff>.
 
 - Compare diff files:
 

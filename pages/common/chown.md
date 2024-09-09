@@ -1,7 +1,7 @@
 # chown
 
 > Change user and group ownership of files and directories.
-> More information: <https://www.gnu.org/software/coreutils/chown>.
+> More information: <https://gnu.org/software/coreutils/chown>.
 
 - Change the owner user of a file/directory:
 

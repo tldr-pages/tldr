@@ -2,7 +2,7 @@
 
 > Actively probes the Internet in order to analyze topology and performance.
 > Includes some tools that start with `sc_`, for example `sc_warts2text` or `sc_ttlexp`.
-> More information: <https://www.caida.org/catalog/software/scamper/>.
+> More information: <https://caida.org/catalog/software/scamper/>.
 
 - Execute the standard option (traceroute) to a destination:
 

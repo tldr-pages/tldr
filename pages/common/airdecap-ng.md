@@ -2,7 +2,7 @@
 
 > Decrypt a WEP, WPA, or WPA2 encrypted capture file.
 > Part of Aircrack-ng network software suite.
-> More information: <https://www.aircrack-ng.org/doku.php?id=airdecap-ng>.
+> More information: <https://aircrack-ng.org/doku.php?id=airdecap-ng>.
 
 - Remove wireless headers from an open network capture file and use the access point's MAC address to filter:
 

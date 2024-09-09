@@ -1,7 +1,7 @@
 # sudo
 
 > Executes a single command as the superuser or another user.
-> More information: <https://www.sudo.ws/sudo.html>.
+> More information: <https://sudo.ws/sudo.html>.
 
 - Run a command as the superuser:
 

@@ -1,7 +1,7 @@
 # qmv
 
 > Move files and directories using the default text editor to define the filenames.
-> More information: <https://www.nongnu.org/renameutils/>.
+> More information: <https://nongnu.org/renameutils/>.
 
 - Move a single file (open an editor with the source filename on the left and the target filename on the right):
 

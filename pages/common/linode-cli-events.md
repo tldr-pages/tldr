@@ -2,7 +2,7 @@
 
 > Manage Linode events.
 > See also: `linode-cli`.
-> More information: <https://www.linode.com/docs/products/tools/cli/guides/events/>.
+> More information: <https://linode.com/docs/products/tools/cli/guides/events/>.
 
 - List the events on your account:
 

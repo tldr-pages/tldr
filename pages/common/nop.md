@@ -2,7 +2,7 @@
 
 > Check validity and pretty-print graphs in canonical format.
 > Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
-> More information: <https://www.graphviz.org/pdf/nop.1.pdf>.
+> More information: <https://graphviz.org/pdf/nop.1.pdf>.
 
 - Pretty-print one or more graphs in canonical format:
 

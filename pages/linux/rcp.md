@@ -2,7 +2,7 @@
 
 > Copy files between local and remote systems.
 > It mimics the behavior of the `cp` command but operates across different machines.
-> More information: <https://www.gnu.org/software/inetutils/manual/html_node/rcp-invocation.html>.
+> More information: <https://gnu.org/software/inetutils/manual/html_node/rcp-invocation.html>.
 
 - Copy a file to a remote host:
 

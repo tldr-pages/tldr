@@ -1,7 +1,7 @@
 # llvm-dis
 
 > Convert LLVM bitcode files into human-readable LLVM Intermediate Representation (IR).
-> More information: <https://www.llvm.org/docs/CommandGuide/llvm-dis.html>.
+> More information: <https://llvm.org/docs/CommandGuide/llvm-dis.html>.
 
 - Convert a bitcode file as LLVM IR and write the result to `stdout`:
 

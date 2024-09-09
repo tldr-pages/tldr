@@ -1,7 +1,7 @@
 # tlmgr conf
 
 > Manage the TeX Live configuration.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://tug.org/texlive/tlmgr.html>.
 
 - Show the current TeX Live configuration:
 

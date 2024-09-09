@@ -2,7 +2,7 @@
 
 > An arbitrary precision calculator. Uses reverse polish notation (RPN).
 > See also: `bc`, `qalc`.
-> More information: <https://www.gnu.org/software/bc/manual/dc-1.05/html_mono/dc.html>.
+> More information: <https://gnu.org/software/bc/manual/dc-1.05/html_mono/dc.html>.
 
 - Start an interactive session:
 

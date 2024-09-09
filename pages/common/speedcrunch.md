@@ -1,7 +1,7 @@
 # speedcrunch
 
 > A high-precision scientific calculator.
-> More information: <https://www.speedcrunch.org>.
+> More information: <https://speedcrunch.org>.
 
 - Start SpeedCrunch:
 

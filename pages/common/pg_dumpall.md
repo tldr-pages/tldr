@@ -1,7 +1,7 @@
 # pg_dumpall
 
 > Extract a PostgreSQL database cluster into a script file or other archive file.
-> More information: <https://www.postgresql.org/docs/current/app-pg-dumpall.html>.
+> More information: <https://postgresql.org/docs/current/app-pg-dumpall.html>.
 
 - Dump all databases:
 

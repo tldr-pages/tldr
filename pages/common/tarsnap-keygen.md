@@ -1,7 +1,7 @@
 # tarsnap-keygen
 
 > Generate a key file for use with Tarsnap, an online backup service.
-> More information: <https://www.tarsnap.com/man-tarsnap-keygen.1.html>.
+> More information: <https://tarsnap.com/man-tarsnap-keygen.1.html>.
 
 - Register a machine with the Tarsnap server:
 

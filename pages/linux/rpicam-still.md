@@ -1,7 +1,7 @@
 # rpicam-still
 
 > Capture and store a photo using a Raspberry Pi camera with legacy features missing from `rpicam-jpeg`.
-> More information: <https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-still>.
+> More information: <https://raspberrypi.com/documentation/computers/camera_software.html#rpicam-still>.
 
 - Capture a photo with different encoding:
 

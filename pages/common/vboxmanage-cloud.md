@@ -1,7 +1,7 @@
 # vboxmanage-cloud
 
 > VirtualBox command-line interface for managing cloud instances and images.
-> More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-cloud>.
+> More information: <https://virtualbox.org/manual/ch08.html#vboxmanage-cloud>.
 
 - List the instances in the specified state belonging to the specified compartment:
 

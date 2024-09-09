@@ -2,7 +2,7 @@
 
 > Pentest and exploit SSH servers.
 > See also: `hydra`.
-> More information: <https://www.netexec.wiki/ssh-protocol>.
+> More information: <https://netexec.wiki/ssh-protocol>.
 
 - Spray the specified [p]assword against a list of [u]sernames on the specified target:
 

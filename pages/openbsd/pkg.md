@@ -1,7 +1,7 @@
 # pkg
 
 > OpenBSD package manager utility.
-> More information: <https://www.openbsd.org/faq/faq15.html>.
+> More information: <https://openbsd.org/faq/faq15.html>.
 
 - View documentation for installing/updating packages:
 

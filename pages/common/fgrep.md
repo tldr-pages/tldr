@@ -2,7 +2,7 @@
 
 > Matches fixed strings in files.
 > Equivalent to `grep -F`.
-> More information: <https://www.gnu.org/software/grep/manual/grep.html>.
+> More information: <https://gnu.org/software/grep/manual/grep.html>.
 
 - Search for an exact string in a file:
 

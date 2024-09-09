@@ -1,7 +1,7 @@
 # tlmgr arch
 
 > This command is an alias of `tlmgr platform`.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://tug.org/texlive/tlmgr.html>.
 
 - View documentation for the original command:
 

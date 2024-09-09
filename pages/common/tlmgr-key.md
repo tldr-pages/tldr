@@ -1,7 +1,7 @@
 # tlmgr key
 
 > Manage GPG keys used to verify TeX Live databases.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://tug.org/texlive/tlmgr.html>.
 
 - List all keys for TeX Live:
 

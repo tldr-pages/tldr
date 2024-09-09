@@ -1,7 +1,7 @@
 # smartctl
 
 > Monitor disk health including SMART data.
-> More information: <https://www.smartmontools.org>.
+> More information: <https://smartmontools.org>.
 
 - Display SMART health summary:
 

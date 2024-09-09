@@ -2,7 +2,7 @@
 
 > Signal process by name.
 > Mostly used for stopping processes.
-> More information: <https://www.manned.org/pkill>.
+> More information: <https://manned.org/pkill>.
 
 - Kill all processes which match:
 

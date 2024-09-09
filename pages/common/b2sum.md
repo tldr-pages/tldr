@@ -1,7 +1,7 @@
 # b2sum
 
 > Calculate BLAKE2 cryptographic checksums.
-> More information: <https://www.gnu.org/software/coreutils/b2sum>.
+> More information: <https://gnu.org/software/coreutils/b2sum>.
 
 - Calculate the BLAKE2 checksum for one or more files:
 

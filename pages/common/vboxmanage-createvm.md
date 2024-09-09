@@ -1,7 +1,7 @@
 # vboxmanage-createvm
 
 > Create a new virtual machine.
-> More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-createvm>.
+> More information: <https://virtualbox.org/manual/ch08.html#vboxmanage-createvm>.
 
 - Create a new VM with default settings:
 

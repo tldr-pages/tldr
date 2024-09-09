@@ -1,7 +1,7 @@
 # rpi-eeprom-update
 
 > Update EEPROM and view other EEPROM information.
-> More information: <https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#rpi-eeprom-update>.
+> More information: <https://raspberrypi.com/documentation/computers/raspberry-pi.html#rpi-eeprom-update>.
 
 - Print information about the current raspberry pi EEPROM installed:
 

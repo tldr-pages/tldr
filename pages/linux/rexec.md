@@ -2,7 +2,7 @@
 
 > Execute a command on a remote host.
 > Note: Use `rexec` with caution, as it transmits data in plain text. Consider secure alternatives like SSH for encrypted communication.
-> More information: <https://www.gnu.org/software/inetutils/manual/html_node/rexec-invocation.html>.
+> More information: <https://gnu.org/software/inetutils/manual/html_node/rexec-invocation.html>.
 
 - Execute a command on a remote [h]ost:
 

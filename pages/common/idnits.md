@@ -1,7 +1,7 @@
 # idnits
 
 > Check internet-drafts for submission nits.
-> Looks for violations of Section 2.1 and 2.2 of the requirements listed on <https://www.ietf.org/id-info/checklist>.
+> Looks for violations of Section 2.1 and 2.2 of the requirements listed on <https://ietf.org/id-info/checklist>.
 > More information: <https://github.com/ietf-tools/idnits>.
 
 - Check a file for nits:

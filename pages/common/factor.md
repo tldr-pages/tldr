@@ -1,7 +1,7 @@
 # factor
 
 > Print the prime factorization of a number.
-> More information: <https://www.gnu.org/software/coreutils/factor>.
+> More information: <https://gnu.org/software/coreutils/factor>.
 
 - Display the prime-factorization of a number:
 

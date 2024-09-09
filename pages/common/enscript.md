@@ -1,7 +1,7 @@
 # enscript
 
 > Convert text files to PostScript, HTML, RTF, ANSI, and overstrikes.
-> More information: <https://www.gnu.org/software/enscript>.
+> More information: <https://gnu.org/software/enscript>.
 
 - Generate a PostScript file from a text file:
 

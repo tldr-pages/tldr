@@ -1,7 +1,7 @@
 # basenc
 
 > Encode or decode file or `stdin` using a specified encoding, to `stdout`.
-> More information: <https://www.gnu.org/software/coreutils/basenc>.
+> More information: <https://gnu.org/software/coreutils/basenc>.
 
 - Encode a file with base64 encoding:
 

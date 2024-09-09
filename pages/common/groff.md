@@ -1,7 +1,7 @@
 # groff
 
 > GNU replacement for the `troff` and `nroff` typesetting utilities.
-> More information: <https://www.gnu.org/software/groff>.
+> More information: <https://gnu.org/software/groff>.
 
 - Format output for a PostScript printer, saving the output to a file:
 

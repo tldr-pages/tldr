@@ -1,7 +1,7 @@
 # nxc smb
 
 > Pentest and exploit SMB servers.
-> More information: <https://www.netexec.wiki/smb-protocol>.
+> More information: <https://netexec.wiki/smb-protocol>.
 
 - Search for valid domain credentials by trying out every combination in the specified lists of [u]sernames and [p]asswords:
 

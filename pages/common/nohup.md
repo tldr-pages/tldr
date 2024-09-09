@@ -1,7 +1,7 @@
 # nohup
 
 > Allows for a process to live when the terminal gets killed.
-> More information: <https://www.gnu.org/software/coreutils/nohup>.
+> More information: <https://gnu.org/software/coreutils/nohup>.
 
 - Run a process that can live beyond the terminal:
 

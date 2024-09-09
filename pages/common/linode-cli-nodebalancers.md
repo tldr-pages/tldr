@@ -2,7 +2,7 @@
 
 > Manage Linode NodeBalancers.
 > See also: `linode-cli`.
-> More information: <https://www.linode.com/docs/products/tools/cli/guides/nodebalancers/>.
+> More information: <https://linode.com/docs/products/tools/cli/guides/nodebalancers/>.
 
 - List all NodeBalancers:
 

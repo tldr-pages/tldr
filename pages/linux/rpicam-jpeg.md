@@ -1,7 +1,7 @@
 # rpicam-jpeg
 
 > Capture and store a JPEG image using a Raspberry Pi camera.
-> More information: <https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-jpeg>.
+> More information: <https://raspberrypi.com/documentation/computers/camera_software.html#rpicam-jpeg>.
 
 - Capture an image and name the file:
 

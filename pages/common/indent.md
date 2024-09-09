@@ -1,7 +1,7 @@
 # indent
 
 > Change the appearance of a C/C++ program by inserting or deleting whitespace.
-> More information: <https://www.gnu.org/software/indent/>.
+> More information: <https://gnu.org/software/indent/>.
 
 - Format C/C++ source according to the Linux style guide, automatically back up the original files, and replace with the indented versions:
 

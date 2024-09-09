@@ -1,7 +1,7 @@
 # cmp
 
 > Compare two files byte by byte.
-> More information: <https://www.gnu.org/software/diffutils/manual/html_node/Invoking-cmp.html>.
+> More information: <https://gnu.org/software/diffutils/manual/html_node/Invoking-cmp.html>.
 
 - Output char and line number of the first difference between two files:
 

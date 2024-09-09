@@ -2,7 +2,7 @@
 
 > Manage Linode Domains and DNS configuration.
 > See also: `linode-cli`.
-> More information: <https://www.linode.com/docs/products/tools/cli/guides/domains/>.
+> More information: <https://linode.com/docs/products/tools/cli/guides/domains/>.
 
 - List all managed domains:
 

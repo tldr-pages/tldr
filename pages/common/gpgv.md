@@ -1,7 +1,7 @@
 # gpgv
 
 > Verify OpenPGP signatures.
-> More information: <https://www.gnupg.org/documentation/manuals/gnupg/gpgv.html>.
+> More information: <https://gnupg.org/documentation/manuals/gnupg/gpgv.html>.
 
 - Verify a signed file:
 

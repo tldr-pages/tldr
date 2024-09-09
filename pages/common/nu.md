@@ -2,7 +2,7 @@
 
 > Nushell ("a new type of shell") takes a modern, structured approach to your command-line.
 > See also: `elvish`.
-> More information: <https://www.nushell.sh>.
+> More information: <https://nushell.sh>.
 
 - Start an interactive shell session:
 

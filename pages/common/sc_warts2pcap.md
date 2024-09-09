@@ -2,7 +2,7 @@
 
 > Write packets included in `warts` object to a PCAP file.
 > This is only possible for tbit, sting and sniff.
-> More information: <https://www.caida.org/catalog/software/scamper/>.
+> More information: <https://caida.org/catalog/software/scamper/>.
 
 - Convert the data from several `warts` files into one PCAP file:
 

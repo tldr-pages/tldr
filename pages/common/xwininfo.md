@@ -2,7 +2,7 @@
 
 > Display information about windows.
 > See also: `xprop`, `xkill`.
-> More information: <https://www.x.org/releases/current/doc/man/man1/xwininfo.1.xhtml>.
+> More information: <https://x.org/releases/current/doc/man/man1/xwininfo.1.xhtml>.
 
 - Display a cursor to select a window to display its attributes (id, name, size, position, ...):
 

@@ -1,7 +1,7 @@
 # llc
 
 > Compiles LLVM Intermediate Representation or bitcode to target-specific assembly language.
-> More information: <https://www.llvm.org/docs/CommandGuide/llc.html>.
+> More information: <https://llvm.org/docs/CommandGuide/llc.html>.
 
 - Compile a bitcode or IR file to an assembly file with the same base name:
 

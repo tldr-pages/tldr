@@ -1,7 +1,7 @@
 # grub-editenv
 
 > Edit GRUB environment variables.
-> More information: <https://www.gnu.org/software/grub/manual/grub/grub.html>.
+> More information: <https://gnu.org/software/grub/manual/grub/grub.html>.
 
 - Set a default boot entry (Assuming the boot entry already exists):
 

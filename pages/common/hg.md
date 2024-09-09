@@ -2,7 +2,7 @@
 
 > Mercurial - a distributed source control management system.
 > Some subcommands such as `hg commit` have their own usage documentation.
-> More information: <https://www.mercurial-scm.org>.
+> More information: <https://mercurial-scm.org>.
 
 - Execute a Mercurial command:
 

@@ -3,7 +3,7 @@
 > Symlink manager.
 > Often used to manage dotfiles.
 > See also: `chezmoi`, `tuckr`, `vcsh`, `homeshick`.
-> More information: <https://www.gnu.org/software/stow>.
+> More information: <https://gnu.org/software/stow>.
 
 - Symlink all files recursively to a given directory:
 

@@ -1,7 +1,7 @@
 # heroku
 
 > Create and manage Heroku apps.
-> More information: <https://www.heroku.com/>.
+> More information: <https://heroku.com/>.
 
 - Log in to your Heroku account:
 
