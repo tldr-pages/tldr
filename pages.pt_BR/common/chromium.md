@@ -1,7 +1,7 @@
 # chromium
 
 > Navegador código aberto desenvolvido principalmente e mantido pela Google.
-> Mais informações: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
+> Mais informações: <https://chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
 - Abre uma URL ou arquivo específico:
 

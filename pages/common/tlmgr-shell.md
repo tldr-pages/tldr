@@ -1,7 +1,7 @@
 # tlmgr shell
 
 > Start an interactive shell of the native TeX Live manager.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://tug.org/texlive/tlmgr.html>.
 
 - Start an interactive shell of `tlmgr`:
 

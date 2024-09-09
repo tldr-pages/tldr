@@ -2,7 +2,7 @@
 
 > Z SHell.
 > Mit `bash` und `sh` kompatible Eingabeaufforderung.
-> Weitere Informationen: <https://www.zsh.org>.
+> Weitere Informationen: <https://zsh.org>.
 
 - Starte eine interaktive Eingabeaufforderung:
 

@@ -2,7 +2,7 @@
 
 > Vis navnet på systemarkitekturen.
 > Se også `uname`.
-> Mer informasjon: <https://www.gnu.org/software/coreutils/arch>.
+> Mer informasjon: <https://gnu.org/software/coreutils/arch>.
 
 - Vis systemets arkitektur:
 

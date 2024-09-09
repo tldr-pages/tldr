@@ -2,7 +2,7 @@
 
 > Open source print systeem.
 > CUPS is geen commando, maar een set van commando's.
-> Meer informatie: <https://www.cups.org/index.html>.
+> Meer informatie: <https://cups.org/index.html>.
 
 - Bekijk de documentatie voor het draaien van de CUPS daemon:
 

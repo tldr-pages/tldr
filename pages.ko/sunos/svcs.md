@@ -1,7 +1,7 @@
 # svcs
 
 > 실행 중인 서비스에 대한 정보를 나열합니다.
-> 더 많은 정보: <https://www.unix.com/man-page/linux/1/svcs>.
+> 더 많은 정보: <https://unix.com/man-page/linux/1/svcs>.
 
 - 모든 실행 중인 서비스를 나열:
 

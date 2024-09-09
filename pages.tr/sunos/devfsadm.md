@@ -1,7 +1,7 @@
 # devfsadm
 
 > `/dev` için yönetim komutu. `/dev` ad alanına yönetir.
-> Daha fazla bilgi için: <https://www.unix.com/man-page/sunos/1m/devfsadm>.
+> Daha fazla bilgi için: <https://unix.com/man-page/sunos/1m/devfsadm>.
 
 - Yeni disk ara:
 

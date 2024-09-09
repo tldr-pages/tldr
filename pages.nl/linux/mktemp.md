@@ -1,7 +1,7 @@
 # mktemp
 
 > Maak een tijdelijk bestand of een tijdelijke map aan.
-> Meer informatie: <https://www.gnu.org/software/coreutils/mktemp>.
+> Meer informatie: <https://gnu.org/software/coreutils/mktemp>.
 
 - Maak een leeg tijdelijk bestand en toon het absolute pad:
 

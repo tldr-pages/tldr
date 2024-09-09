@@ -1,7 +1,7 @@
 # ls
 
 > Вывод содержимого каталога.
-> Больше информации: <https://www.gnu.org/software/coreutils/ls>.
+> Больше информации: <https://gnu.org/software/coreutils/ls>.
 
 - Список файлов по одному в строке:
 

@@ -1,7 +1,7 @@
 # avrdude
 
 > Treiberprogramm für Atmel AVR Mikrocontroller-Programmierung.
-> Weitere Informationen: <https://www.nongnu.org/avrdude/>.
+> Weitere Informationen: <https://nongnu.org/avrdude/>.
 
 - Schreibt den Speicherinhalt eines AVR-Mikrocontrollers in eine Datei:
 

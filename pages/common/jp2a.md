@@ -9,7 +9,7 @@
 
 - Read JPEG image from a URL and print in ASCII:
 
-`jp2a {{www.example.com/image.jpeg}}`
+`jp2a {{https://example.com/image.jpeg}}`
 
 - Colorize the ASCII output:
 

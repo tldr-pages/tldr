@@ -1,7 +1,7 @@
 # ascii
 
 > Zeige ASCII-Aliase von Buchstaben.
-> Weitere Informationen: <http://www.catb.org/~esr/ascii/>.
+> Weitere Informationen: <http://catb.org/~esr/ascii/>.
 
 - Zeige ASCII-Aliase eines Buchstabens:
 

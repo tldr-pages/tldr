@@ -1,7 +1,7 @@
 # tlmgr install
 
 > Install TeX Live packages.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://tug.org/texlive/tlmgr.html>.
 
 - Install a package and its dependencies:
 

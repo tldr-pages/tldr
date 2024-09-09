@@ -1,7 +1,7 @@
 # httpie
 
 > Ein benutzerfreundliches HTTP-Tool.
-> Weitere Informationen: <https://github.com/httpie/httpie>.
+> Weitere Informationen: <https://httpie.io/docs/cli/plugin-manager>.
 
 - Sende eine GET-Anfrage (Standardmethode ohne Anfragedaten):
 

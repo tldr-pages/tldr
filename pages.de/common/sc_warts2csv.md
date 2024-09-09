@@ -1,7 +1,7 @@
 # sc_warts2csv
 
 > Umwandlung von tracroutes aus `warts`-Dateien in das CSV-Format.
-> Weitere Informationen: <https://www.caida.org/catalog/software/scamper/>.
+> Weitere Informationen: <https://caida.org/catalog/software/scamper/>.
 
 - Wandle traceroute-Daten in einer `warts`-Datei in CSV um und gebe dieses aus:
 

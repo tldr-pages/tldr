@@ -1,7 +1,7 @@
 # cat
 
 > Imprime e concatena arquivos.
-> Mais informações: <https://www.gnu.org/software/coreutils/cat>.
+> Mais informações: <https://gnu.org/software/coreutils/cat>.
 
 - Imprime o conteúdo de um arquivo na `stdout`:
 

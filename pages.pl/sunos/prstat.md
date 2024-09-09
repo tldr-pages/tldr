@@ -1,7 +1,7 @@
 # prstat
 
 > Raportuj statystyki aktywnego procesu.
-> Więcej informacji: <https://www.unix.com/man-page/sunos/1m/prstat>.
+> Więcej informacji: <https://unix.com/man-page/sunos/1m/prstat>.
 
 - Sprawdź wszystkie procesy i raportuj statystyki posortowane według użycia procesora:
 

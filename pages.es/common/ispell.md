@@ -1,7 +1,7 @@
 # ispell
 
 > Corrección ortográfica interactiva.
-> Más información: <https://www.cs.hmc.edu/~geoff/ispell-man.html>.
+> Más información: <https://cs.hmc.edu/~geoff/ispell-man.html>.
 
 - Inicia una sesión interactiva:
 

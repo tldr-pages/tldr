@@ -1,7 +1,7 @@
 # cut
 
 > Recorta campos do `stdin` ou de arquivos.
-> Mais informações: <https://www.gnu.org/software/coreutils/cut>.
+> Mais informações: <https://gnu.org/software/coreutils/cut>.
 
 - Imprime um intervalo específico de caracteres/campos de cada linha:
 

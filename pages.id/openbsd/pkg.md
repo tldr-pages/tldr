@@ -1,7 +1,7 @@
 # pkg
 
 > Manajer paket untuk OpenBSD.
-> Informasi lebih lanjut: <https://www.openbsd.org/faq/faq15.html>.
+> Informasi lebih lanjut: <https://openbsd.org/faq/faq15.html>.
 
 - Lihat dokumentasi untuk memasang/memperbarui paket:
 

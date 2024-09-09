@@ -1,7 +1,7 @@
 # cp
 
 > Copia fitxers i directoris.
-> Més informació: <https://www.gnu.org/software/coreutils/cp>.
+> Més informació: <https://gnu.org/software/coreutils/cp>.
 
 - Copia un fitxer a un altre directori:
 

@@ -1,7 +1,7 @@
 # ls
 
 > Toon de inhoud van een map.
-> Meer informatie: <https://www.gnu.org/software/coreutils/ls>.
+> Meer informatie: <https://gnu.org/software/coreutils/ls>.
 
 - Toon één bestand per regel:
 

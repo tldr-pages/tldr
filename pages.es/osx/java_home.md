@@ -1,7 +1,7 @@
 # java_home
 
 > Devuelve un valor para $JAVA_HOME o ejecuta un comando usando esta variable.
-> Más información: <https://www.unix.com/man-page/osx/1/java_home>.
+> Más información: <https://unix.com/man-page/osx/1/java_home>.
 
 - Lista JVMs basadas en una versión específica:
 

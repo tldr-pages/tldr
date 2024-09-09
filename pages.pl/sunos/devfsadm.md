@@ -1,7 +1,7 @@
 # devfsadm
 
 > Komenda administracyjna dla `/dev`. Zarządza przestrzenią nazw `/dev`.
-> Więcej informacji: <https://www.unix.com/man-page/sunos/1m/devfsadm>.
+> Więcej informacji: <https://unix.com/man-page/sunos/1m/devfsadm>.
 
 - Skanuj w poszukiwaniu nowych dysków:
 

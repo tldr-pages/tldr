@@ -1,7 +1,7 @@
 # chown
 
 > Zmienia właściciela i grupę właścicieli dla plików i katalogów.
-> Więcej informacji: <https://www.gnu.org/software/coreutils/chown>.
+> Więcej informacji: <https://gnu.org/software/coreutils/chown>.
 
 - Zmień właściciela pliku/katalogu:
 

@@ -1,7 +1,7 @@
 # sc_tracediff
 
 > Anzeige von Traceroute-Pfaden, bei denen sich der Pfad geändert hat.
-> Weitere Informationen: <https://www.caida.org/catalog/software/scamper/>.
+> Weitere Informationen: <https://caida.org/catalog/software/scamper/>.
 
 - Zeige den Unterschied zwischen den traceroutes in zwei `warts`-Dateien:
 

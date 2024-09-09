@@ -1,7 +1,7 @@
 # knotc
 
 > Controla el servidor DNS knot.
-> Más información: <https://www.knot-dns.cz/docs/latest/html/man_knotc.html>.
+> Más información: <https://knot-dns.cz/docs/latest/html/man_knotc.html>.
 
 - Comienza a editar una zona:
 

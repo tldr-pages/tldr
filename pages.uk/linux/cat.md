@@ -1,7 +1,7 @@
 # cat
 
 > Зчитування та об'єднання файлів.
-> Більше інформації: <https://www.gnu.org/software/coreutils/cat>.
+> Більше інформації: <https://gnu.org/software/coreutils/cat>.
 
 - Вивести вміст файлу в `stdout`:
 

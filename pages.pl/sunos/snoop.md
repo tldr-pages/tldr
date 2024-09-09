@@ -2,7 +2,7 @@
 
 > Sniffer pakietów sieciowych.
 > Odpowiednik tcpdump w systemie SunOS.
-> Więcej informacji: <https://www.unix.com/man-page/sunos/1m/snoop>.
+> Więcej informacji: <https://unix.com/man-page/sunos/1m/snoop>.
 
 - Przechwyć pakiety na określonym interfejsie sieciowym:
 

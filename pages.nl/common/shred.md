@@ -1,7 +1,7 @@
 # shred
 
 > Overschrijf bestanden om gegevens veilig te verwijderen.
-> Meer informatie: <https://www.gnu.org/software/coreutils/shred>.
+> Meer informatie: <https://gnu.org/software/coreutils/shred>.
 
 - Overschrijf een bestand:
 

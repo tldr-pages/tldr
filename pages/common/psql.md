@@ -1,7 +1,7 @@
 # psql
 
 > PostgreSQL command-line client.
-> More information: <https://www.postgresql.org/docs/current/app-psql.html>.
+> More information: <https://postgresql.org/docs/current/app-psql.html>.
 
 - Connect to the database. By default, it connects to the local socket using port 5432 with the currently logged in user:
 

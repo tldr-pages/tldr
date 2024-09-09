@@ -1,7 +1,7 @@
 # ClamAV
 
 > To polecenie jest aliasem `clamdscan`.
-> Więcej informacji: <https://www.clamav.net>.
+> Więcej informacji: <https://clamav.net>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

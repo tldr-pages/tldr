@@ -1,7 +1,7 @@
 # sleep
 
 > 延迟指定的一段时间。
-> 更多信息：<https://www.gnu.org/software/coreutils/sleep>.
+> 更多信息：<https://gnu.org/software/coreutils/sleep>.
 
 - 按秒数延迟：
 

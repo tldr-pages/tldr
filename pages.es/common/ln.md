@@ -1,7 +1,7 @@
 # ln
 
 > Crea enlaces a archivos y directorios.
-> Más información: <https://www.gnu.org/software/coreutils/ln>.
+> Más información: <https://gnu.org/software/coreutils/ln>.
 
 - Crea un enlace simbólico a un archivo o directorio:
 

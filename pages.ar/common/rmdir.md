@@ -2,7 +2,7 @@
 
 > إزالة الدلائل بدون ملفات.
 > لمزيد من التفاصيل: `rm`.
-> لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/rmdir>.
+> لمزيد من التفاصيل: <https://gnu.org/software/coreutils/rmdir>.
 
 - إزالة أدلة محددة:
 

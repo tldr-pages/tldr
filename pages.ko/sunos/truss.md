@@ -2,7 +2,7 @@
 
 > 시스템 콜을 추적하는 문제 해결 도구.
 > strace와 동일한 기능을 하는 SunOS 대체품.
-> 더 많은 정보: <https://www.unix.com/man-page/linux/1/truss>.
+> 더 많은 정보: <https://unix.com/man-page/linux/1/truss>.
 
 - 프로그램을 실행하여 모든 자식 프로세스를 따라가며 추적 시작:
 

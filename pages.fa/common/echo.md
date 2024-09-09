@@ -1,7 +1,7 @@
 # echo
 
 > چاپ ورودی داده شده.
-> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/echo>.
+> اطلاعات بیشتر: <https://gnu.org/software/coreutils/echo>.
 
 - چاپ پیام ورودی. نکته : استفاده از علامت نقل قول انتخابی است:
 

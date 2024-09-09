@@ -1,7 +1,7 @@
 # w
 
 > Muestra quien ha iniciado sesión y sus procesos.
-> Más información: <https://www.geeksforgeeks.org/w-command-in-linux-with-examples/>.
+> Más información: <https://geeksforgeeks.org/w-command-in-linux-with-examples/>.
 
 - Muestra información sobre todos los usuarios que han iniciado sesión actualmente:
 

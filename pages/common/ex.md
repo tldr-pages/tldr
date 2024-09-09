@@ -2,7 +2,7 @@
 
 > Command-line text editor.
 > See also: `vim`.
-> More information: <https://www.vim.org>.
+> More information: <https://vim.org>.
 
 - Open a file:
 

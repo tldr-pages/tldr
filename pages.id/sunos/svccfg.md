@@ -1,7 +1,7 @@
 # svccfg
 
 > Impor, ekspor, dan modifikasi konfigurasi servis.
-> Informasi lebih lanjut: <https://www.unix.com/man-page/linux/1m/svccfg>.
+> Informasi lebih lanjut: <https://unix.com/man-page/linux/1m/svccfg>.
 
 - Validasi berkas konfigurasi:
 

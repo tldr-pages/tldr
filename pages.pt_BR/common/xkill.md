@@ -2,7 +2,7 @@
 
 > Termina uma janela interativamente em uma sessão gráfica.
 > Veja também: `kill`, `killall`.
-> Mais informações: <https://www.x.org/releases/current/doc/man/man1/xkill.1.xhtml>.
+> Mais informações: <https://x.org/releases/current/doc/man/man1/xkill.1.xhtml>.
 
 - Ativa um cursor para fechar uma janela com o clique do botão esquerdo do mouse (pressionar qualquer outro botão para cancelar):
 

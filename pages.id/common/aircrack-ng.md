@@ -2,7 +2,7 @@
 
 > Retas dan dapatkan kunci WEP dan WPA/WPA2 dari proses handshake dalam paket jaringan yang ditangkap.
 > Bagian dari paket perangkat lunak jaringan Aircrack-ng.
-> Informasi lebih lanjut: <https://www.aircrack-ng.org/doku.php?id=aircrack-ng>.
+> Informasi lebih lanjut: <https://aircrack-ng.org/doku.php?id=aircrack-ng>.
 
 - Retas dan dapatkan kunci dari file tangkapan jaringan dan file daftar kata sandi ([w]ordlist):
 

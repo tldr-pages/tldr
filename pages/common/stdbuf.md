@@ -1,7 +1,7 @@
 # stdbuf
 
 > Run a command with modified buffering operations for its standard streams.
-> More information: <https://www.gnu.org/software/coreutils/stdbuf>.
+> More information: <https://gnu.org/software/coreutils/stdbuf>.
 
 - Change `stdin` buffer size to 512 KiB:
 

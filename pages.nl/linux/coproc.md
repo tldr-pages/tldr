@@ -1,7 +1,7 @@
 # coproc
 
 > Bash ingebouwd commando voor het maken van interactieve asynchrone subshells.
-> Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#Coprocesses>.
+> Meer informatie: <https://gnu.org/software/bash/manual/bash.html#Coprocesses>.
 
 - Voer een subshell asynchroon uit:
 

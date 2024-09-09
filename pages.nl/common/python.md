@@ -1,7 +1,7 @@
 # python
 
 > Python taal interpreter.
-> Meer informatie: <https://www.python.org>.
+> Meer informatie: <https://python.org>.
 
 - Start een REPL (interactieve shell):
 

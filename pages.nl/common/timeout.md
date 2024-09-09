@@ -1,7 +1,7 @@
 # timeout
 
 > Voer een commando uit met een tijdslimiet.
-> Meer informatie: <https://www.gnu.org/software/coreutils/timeout>.
+> Meer informatie: <https://gnu.org/software/coreutils/timeout>.
 
 - Voer `sleep 10` uit en beëindig het na 3 seconden:
 

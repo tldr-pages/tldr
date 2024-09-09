@@ -1,7 +1,7 @@
 # chgrp
 
 > Change la propriété de groupe des fichiers et des répertoires.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/chgrp>.
+> Plus d'informations : <https://gnu.org/software/coreutils/chgrp>.
 
 - Change le groupe propriétaire d'un fichier/répertoire :
 

@@ -1,7 +1,7 @@
 # calendar
 
 > نمایش رویداد های پیش رو با استفاده از یک فایل تقویم.
-> اطلاعات بیشتر: <https://www.commandlinux.com/man-page/man1/calendar.1.html>.
+> اطلاعات بیشتر: <https://commandlinux.com/man-page/man1/calendar.1.html>.
 
 - نمایش رویداد های امروز و فردا (یا آخر هفته یعنی روز جمعه) با استفاده از تقویم پیشفرض:
 

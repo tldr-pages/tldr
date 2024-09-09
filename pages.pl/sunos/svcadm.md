@@ -1,7 +1,7 @@
 # svcadm
 
 > Manipuluj instancjami usług.
-> Więcej informacji: <https://www.unix.com/man-page/linux/1m/svcadm>.
+> Więcej informacji: <https://unix.com/man-page/linux/1m/svcadm>.
 
 - Włącz usługę w bazie danych usług:
 

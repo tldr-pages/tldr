@@ -2,7 +2,7 @@
 
 > Edita texto de uma maneira programável.
 > Veja também: `awk`, `ed`.
-> Mais informações: <https://www.gnu.org/software/sed/manual/sed.html>.
+> Mais informações: <https://gnu.org/software/sed/manual/sed.html>.
 
 - Substitui todas as ocorrências de `apple` (regex básica) por `mango` (regex básica) em todas as linhas de entrada e imprime o resultado na `stdout`:
 

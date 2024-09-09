@@ -2,7 +2,7 @@
 
 > Toon een lijst van ingelogde gebruikers.
 > Bekijk ook: `useradd`, `userdel`, `usermod`.
-> Meer informatie: <https://www.gnu.org/software/coreutils/users>.
+> Meer informatie: <https://gnu.org/software/coreutils/users>.
 
 - Toon ingelogde gebruikersnamen:
 

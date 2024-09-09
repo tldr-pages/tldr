@@ -1,7 +1,7 @@
 # base32
 
 > Codifica o decodifica file o standard input in Base32 su standard output.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/base32>.
+> Maggiori informazioni: <https://gnu.org/software/coreutils/base32>.
 
 - Codifica un file:
 

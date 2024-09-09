@@ -1,7 +1,7 @@
 # cp
 
 > Copia archivos y directorios.
-> Más información: <https://www.gnu.org/software/coreutils/cp>.
+> Más información: <https://gnu.org/software/coreutils/cp>.
 
 - Copia un archivo a otro directorio:
 

@@ -2,7 +2,7 @@
 
 > Оригинальный текстовый редактор Unix.
 > Смотрите также: `awk`, `sed`.
-> Больше информации: <https://www.gnu.org/software/ed/manual/ed_manual.html>.
+> Больше информации: <https://gnu.org/software/ed/manual/ed_manual.html>.
 
 - Запустить интерактивную сессию редактора с пустым документом:
 

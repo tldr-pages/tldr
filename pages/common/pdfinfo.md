@@ -1,7 +1,7 @@
 # pdfinfo
 
 > Portable Document Format (PDF) file information viewer.
-> More information: <https://www.xpdfreader.com/pdfinfo-man.html>.
+> More information: <https://xpdfreader.com/pdfinfo-man.html>.
 
 - Print PDF file information:
 

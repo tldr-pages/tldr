@@ -1,7 +1,7 @@
 # hg update
 
 > Update the working directory to a specified changeset.
-> More information: <https://www.mercurial-scm.org/doc/hg.1.html#update>.
+> More information: <https://mercurial-scm.org/doc/hg.1.html#update>.
 
 - Update to the tip of the current branch:
 

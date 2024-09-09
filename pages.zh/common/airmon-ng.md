@@ -1,7 +1,7 @@
 # airmon-ng
 
 > 激活无线网络设备的监控模式。
-> 更多信息：<https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
+> 更多信息：<https://aircrack-ng.org/doku.php?id=airmon-ng>.
 
 - 列出无线设备和它们的状态：
 

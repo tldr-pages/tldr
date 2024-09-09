@@ -1,7 +1,7 @@
 # recsel
 
 > Print records from a recfile: a human-editable, plain text database.
-> More information: <https://www.gnu.org/software/recutils/manual/recutils.html>.
+> More information: <https://gnu.org/software/recutils/manual/recutils.html>.
 
 - Extract name and version field:
 

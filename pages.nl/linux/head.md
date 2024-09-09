@@ -1,7 +1,7 @@
 # head
 
 > Geef het eerste deel van bestanden weer.
-> Meer informatie: <https://www.gnu.org/software/coreutils/head>.
+> Meer informatie: <https://gnu.org/software/coreutils/head>.
 
 - Geef de eerste paar regels van een bestand weer:
 

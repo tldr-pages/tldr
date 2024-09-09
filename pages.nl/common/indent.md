@@ -1,7 +1,7 @@
 # indent
 
 > Wijzig het uiterlijk van een C/C++-programma door spaties in te voegen of te verwijderen.
-> Meer informatie: <https://www.gnu.org/software/indent/>.
+> Meer informatie: <https://gnu.org/software/indent/>.
 
 - Formatteer C/C++-broncode volgens de Linux style guide, maak automatisch een back-up van de originele bestanden en vervang deze door de ingesprongen versies:
 

@@ -1,7 +1,7 @@
 # sc_analysis_dump
 
 > Ausgabe von Traceroute-Pfaden in einem leicht zu parsenden Format.
-> Weitere Informationen: <https://www.caida.org/catalog/software/scamper/>.
+> Weitere Informationen: <https://caida.org/catalog/software/scamper/>.
 
 - Gib die traceroute in `warts`-Dateien nacheinander in einem leicht zu parsendem Format aus:
 

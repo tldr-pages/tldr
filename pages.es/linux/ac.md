@@ -1,7 +1,7 @@
 # ac
 
 > Imprime estadísticas sobre cuánto tiempo han estado conectados los usuarios.
-> Más información: <https://www.gnu.org/software/acct/manual/accounting.html#ac>.
+> Más información: <https://gnu.org/software/acct/manual/accounting.html#ac>.
 
 - Imprime cuánto tiempo ha estado conectado el usuario actual en horas:
 

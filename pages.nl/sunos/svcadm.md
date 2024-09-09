@@ -1,7 +1,7 @@
 # svcadm
 
 > Manipuleer service instanties.
-> Meer informatie: <https://www.unix.com/man-page/linux/1m/svcadm>.
+> Meer informatie: <https://unix.com/man-page/linux/1m/svcadm>.
 
 - Inschakelen van een service in de service database:
 

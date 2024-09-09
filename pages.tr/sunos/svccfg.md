@@ -1,7 +1,7 @@
 # svccfg
 
 > Servis yapılandırmalarını içe aktar, dışa aktar ve düzenle.
-> Daha fazla bilgi için: <https://www.unix.com/man-page/linux/1m/svccfg>.
+> Daha fazla bilgi için: <https://unix.com/man-page/linux/1m/svccfg>.
 
 - Yapılandırma dosyasını değerlendir:
 

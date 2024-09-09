@@ -1,7 +1,7 @@
 # emacs
 
 > Editor di testo in tempo reale, estendibile, personalizzabile e auto documentato.
-> Maggiori informazioni: <https://www.gnu.org/software/emacs>.
+> Maggiori informazioni: <https://gnu.org/software/emacs>.
 
 - Avvia emacs in modalità console (senza finestra X):
 

@@ -1,7 +1,7 @@
 # ptx
 
 > Genereer een permutatie-index van woorden uit tekstbestanden.
-> Meer informatie: <https://www.gnu.org/software/coreutils/ptx>.
+> Meer informatie: <https://gnu.org/software/coreutils/ptx>.
 
 - Genereer een permutatie-index waarbij het eerste veld van elke regel een indexreferentie is:
 

@@ -1,7 +1,7 @@
 # lli
 
 > Directly execute programs from LLVM bitcode.
-> More information: <https://www.llvm.org/docs/CommandGuide/lli.html>.
+> More information: <https://llvm.org/docs/CommandGuide/lli.html>.
 
 - Execute a bitcode or IR file:
 

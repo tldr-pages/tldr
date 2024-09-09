@@ -1,7 +1,7 @@
 # sc_wartscat
 
 > Concatenate `warts` files.
-> More information: <https://www.caida.org/catalog/software/scamper/>.
+> More information: <https://caida.org/catalog/software/scamper/>.
 
 - Concatenate `warts` files into one:
 

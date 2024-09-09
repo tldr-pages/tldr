@@ -2,7 +2,7 @@
 
 > Dekripsi file tangkapan jaringan terenkripsi dengan kunci sandi WEP, WPA, atau WPA2.
 > Bagian dari paket perangkat lunak jaringan Aircrack-ng.
-> Informasi lebih lanjut: <https://www.aircrack-ng.org/doku.php?id=airdecap-ng>.
+> Informasi lebih lanjut: <https://aircrack-ng.org/doku.php?id=airdecap-ng>.
 
 - Buang informasi header jaringan wireless/nirkabel dari file tangkapan jaringan (bebas enkripsi WEP/WPA/WPA2), dan gunakan alamat MAC titik akses Wi-Fi untuk menyaringnya:
 

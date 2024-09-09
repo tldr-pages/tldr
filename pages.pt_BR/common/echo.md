@@ -1,7 +1,7 @@
 # echo
 
 > Imprime os argumentos passados.
-> Mais informações: <https://www.gnu.org/software/coreutils/echo>.
+> Mais informações: <https://gnu.org/software/coreutils/echo>.
 
 - Imprime uma mensagem de texto. Nota: aspas são opcionais:
 

@@ -1,7 +1,7 @@
 # hello
 
 > Print "Hello, world!", "hello, world" or a customizable text.
-> More information: <https://www.gnu.org/software/hello/>.
+> More information: <https://gnu.org/software/hello/>.
 
 - Print "Hello, world!":
 

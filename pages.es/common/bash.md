@@ -2,7 +2,7 @@
 
 > Bourne-Again SHell, un intérprete de línea de comandos compatible con `sh`.
 > Vea también: `zsh`; `histexpand`, para expansión de historial de comandos.
-> Más información: <https://www.gnu.org/software/bash/>.
+> Más información: <https://gnu.org/software/bash/>.
 
 - Inicia un intérprete de comandos interactivo:
 

@@ -2,7 +2,7 @@
 
 > Voer een programma uit in een andere SELinux-beveiligingscontext.
 > Bekijk ook: `secon`.
-> Meer informatie: <https://www.gnu.org/software/coreutils/runcon>.
+> Meer informatie: <https://gnu.org/software/coreutils/runcon>.
 
 - Toon de beveiligingscontext van de huidige uitvoeringscontext:
 

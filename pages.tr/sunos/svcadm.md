@@ -1,7 +1,7 @@
 # svcadm
 
 > Servisleri idare et.
-> Daha fazla bilgi için: <https://www.unix.com/man-page/linux/1m/svcadm>.
+> Daha fazla bilgi için: <https://unix.com/man-page/linux/1m/svcadm>.
 
 - Servis veritabanındaki bir servisi etkinleştir:
 

@@ -2,7 +2,7 @@
 
 > Aktiveren des Überwachungsmodus auf Wireless Network Geräten.
 > Teil von `aircrack-ng`.
-> Weitere Informationen: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
+> Weitere Informationen: <https://aircrack-ng.org/doku.php?id=airmon-ng>.
 
 - Liste Wireless Geräte und deren Status auf:
 

@@ -1,7 +1,7 @@
 # dd
 
 > Converteer en kopieer een bestand.
-> Meer informatie: <https://www.gnu.org/software/coreutils/dd>.
+> Meer informatie: <https://gnu.org/software/coreutils/dd>.
 
 - Maak een opstartbare USB-schijf van een isohybrid-bestand (zoals `archlinux-xxx.iso`) en toon de voortgang:
 

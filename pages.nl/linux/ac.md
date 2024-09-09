@@ -1,7 +1,7 @@
 # ac
 
 > Toon statistieken over hoe lang gebruikers verbonden zijn geweest.
-> Meer informatie: <https://www.gnu.org/software/acct/manual/accounting.html#ac>.
+> Meer informatie: <https://gnu.org/software/acct/manual/accounting.html#ac>.
 
 - Toon hoe lang de huidige gebruiker verbonden is geweest in uren:
 

@@ -1,7 +1,7 @@
 # jhead
 
 > Image timestamp and EXIF data manipulation.
-> More information: <https://www.sentex.net/~mwandel/jhead/usage.html>.
+> More information: <https://sentex.net/~mwandel/jhead/usage.html>.
 
 - Show all EXIF data:
 

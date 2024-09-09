@@ -1,7 +1,7 @@
 # pdftex
 
 > Kompiliere eine TeX Quelldatei in ein PDF Dokument.
-> Weitere Informationen: <https://www.tug.org/applications/pdftex/>.
+> Weitere Informationen: <https://tug.org/applications/pdftex/>.
 
 - Kompiliere ein PDF Dokument:
 

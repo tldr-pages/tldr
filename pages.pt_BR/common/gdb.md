@@ -1,7 +1,7 @@
 # gdb
 
 > O depurador GNU.
-> Mais informações: <https://www.gnu.org/software/gdb>.
+> Mais informações: <https://gnu.org/software/gdb>.
 
 - Depura um executável:
 

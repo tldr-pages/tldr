@@ -1,7 +1,7 @@
 # join
 
 > Junta linhas de dois arquivos ordenados em um campo comum.
-> Mais informações: <https://www.gnu.org/software/coreutils/join>.
+> Mais informações: <https://gnu.org/software/coreutils/join>.
 
 - Junta dois arquivos no primeiro campo (padrão):
 

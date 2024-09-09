@@ -2,7 +2,7 @@
 
 > Prueba y explota servidores SSH.
 > Vea también: `hydra`.
-> Más información: <https://www.netexec.wiki/ssh-protocol>.
+> Más información: <https://netexec.wiki/ssh-protocol>.
 
 - Pulveriza la contraseña especificada contra una lista de nombres de usuario en el objetivo especificado:
 

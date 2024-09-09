@@ -1,7 +1,7 @@
 # snort
 
 > Open-source network intrusion detection system.
-> More information: <https://www.snort.org/#documents>.
+> More information: <https://snort.org/#documents>.
 
 - Capture packets with verbose output:
 

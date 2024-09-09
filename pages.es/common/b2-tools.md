@@ -1,7 +1,7 @@
 # b2-tools
 
 > Accede fácilmente a todas las funciones de Backblaze B2 Cloud Storage.
-> Más información: <https://www.backblaze.com/docs/cloud-storage-command-line-tools>.
+> Más información: <https://backblaze.com/docs/cloud-storage-command-line-tools>.
 
 - Accede a tu cuenta:
 

@@ -2,7 +2,7 @@
 
 > Tangkap para paket dan tampilkan informasi mengenai jaringan nirkabel/wireless.
 > Bagian dari paket perangkat lunak jaringan Aircrack-ng.
-> Informasi lebih lanjut: <https://www.aircrack-ng.org/doku.php?id=airodump-ng>.
+> Informasi lebih lanjut: <https://aircrack-ng.org/doku.php?id=airodump-ng>.
 
 - Tangkap para paket dan tampilkan daftar jaringan nirkabel dalam frekuensi 2.4GHz:
 

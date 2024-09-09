@@ -1,7 +1,7 @@
 # R
 
 > Interpreter języka R.
-> Więcej informacji: <https://www.r-project.org>.
+> Więcej informacji: <https://r-project.org>.
 
 - Uruchom interaktywną powłokę R (REPL):
 

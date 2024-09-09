@@ -1,7 +1,7 @@
 # uname
 
 > ഈ യൂട്ടിലിറ്റി നിങ്ങളുടെ മെഷീൻ അഥവാ ഓപ്പറേറ്റിംഗ് സിസ്റ്റം വിവരങ്ങൾ പ്രിന്റ് ചെയ്യിക്കുന്നു.
-> കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
+> കൂടുതൽ വിവരങ്ങൾ: <https://gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - എല്ലാവിധ വിവരങ്ങളും പ്രിന്റ് ചെയ്യുവാൻ:
 

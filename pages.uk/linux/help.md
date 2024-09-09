@@ -1,7 +1,7 @@
 # help
 
 > Відображення інформації про вбудовані команди Bash.
-> Більше інформації: <https://www.gnu.org/software/bash/manual/bash.html#index-help>.
+> Більше інформації: <https://gnu.org/software/bash/manual/bash.html#index-help>.
 
 - Показати повний список вбудованих команд:
 

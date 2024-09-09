@@ -1,7 +1,7 @@
 # grep
 
 > Encuentra patrones en archivos usando expresiones regulares.
-> Más información: <https://www.gnu.org/software/grep/manual/grep.html>.
+> Más información: <https://gnu.org/software/grep/manual/grep.html>.
 
 - Busca un patrón en un archivo:
 

@@ -2,7 +2,7 @@
 
 > Rete distribuita per gestire e configurare servizi tramite database chiave-valore.
 > Alcuni comandi aggiuntivi, come `consul kv`, hanno la propria documentazione.
-> Maggiori informazioni: <https://www.consul.io/commands>.
+> Maggiori informazioni: <https://consul.io/commands>.
 
 - Controlla la versione di Consul:
 

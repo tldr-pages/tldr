@@ -1,7 +1,7 @@
 # wg
 
 > Gestion de la configuration des interfaces WireGuard.
-> Plus d'informations : <https://www.wireguard.com/quickstart/>.
+> Plus d'informations : <https://wireguard.com/quickstart/>.
 
 - Vérifier l'état des interfaces actuellement actives :
 

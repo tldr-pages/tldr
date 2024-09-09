@@ -1,7 +1,7 @@
 # terraform fmt
 
 > Format configuration according to Terraform language style conventions.
-> More information: <https://www.terraform.io/docs/commands/fmt.html>.
+> More information: <https://terraform.io/docs/commands/fmt.html>.
 
 - Format the configuration in the current directory:
 

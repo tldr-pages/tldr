@@ -1,7 +1,7 @@
 # tty
 
 > Выводит название терминала.
-> Больше информации: <https://www.gnu.org/software/coreutils/tty>.
+> Больше информации: <https://gnu.org/software/coreutils/tty>.
 
 - Вывести имя файла, соответствующее текущему терминалу:
 

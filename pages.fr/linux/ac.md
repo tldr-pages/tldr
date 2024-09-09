@@ -1,7 +1,7 @@
 # ac
 
 > Affiche les statistiques concernant la durée de connexion des utilisateurs.
-> Plus d'informations : <https://www.gnu.org/software/acct/manual/accounting.html#ac>.
+> Plus d'informations : <https://gnu.org/software/acct/manual/accounting.html#ac>.
 
 - Affiche pendant combien de temps l'utilisateur actuel a été connecté, en heures :
 

@@ -1,7 +1,7 @@
 # mkdir
 
 > Maak mappen aan en stel hun permissies in.
-> Meer informatie: <https://www.gnu.org/software/coreutils/mkdir>.
+> Meer informatie: <https://gnu.org/software/coreutils/mkdir>.
 
 - Maak specifieke mappen aan:
 

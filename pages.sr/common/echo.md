@@ -1,7 +1,7 @@
 # echo
 
 > Prikazuje date argumente.
-> Više informacija na: <https://www.gnu.org/software/coreutils/echo>.
+> Više informacija na: <https://gnu.org/software/coreutils/echo>.
 
 - Prikazuje tekstualnu poruku. Napomena: navodnici su opcionalni:
 

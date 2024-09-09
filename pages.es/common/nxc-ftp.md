@@ -1,7 +1,7 @@
 # nxc ftp
 
 > Prueba y explota servidores FTP.
-> Más información: <https://www.netexec.wiki/ftp-protocol>.
+> Más información: <https://netexec.wiki/ftp-protocol>.
 
 - Busca credenciales válidas probando cada combinación en las listas especificadas de nombres de [u]suario y contraseñas:
 

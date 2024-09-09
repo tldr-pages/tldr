@@ -1,7 +1,7 @@
 # avo
 
 > La interfaz oficial de línea de comandos para Avo.
-> Más información: <https://www.avo.app/docs/implementation/cli>.
+> Más información: <https://avo.app/docs/implementation/cli>.
 
 - Inicializa un espacio de trabajo en el directorio actual:
 

@@ -1,7 +1,7 @@
 # stdbuf
 
 > Voer een commando uit met aangepaste buffering operaties voor de standaard streams.
-> Meer informatie: <https://www.gnu.org/software/coreutils/stdbuf>.
+> Meer informatie: <https://gnu.org/software/coreutils/stdbuf>.
 
 - Verander de buffer grootte van `stdin` naar 512 KiB:
 

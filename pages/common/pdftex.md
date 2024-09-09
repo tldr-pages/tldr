@@ -1,7 +1,7 @@
 # pdftex
 
 > Compile a PDF document from TeX source files.
-> More information: <https://www.tug.org/applications/pdftex/>.
+> More information: <https://tug.org/applications/pdftex/>.
 
 - Compile a PDF document:
 

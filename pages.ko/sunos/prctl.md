@@ -1,7 +1,7 @@
 # prctl
 
 > 실행 중인 프로세스, 작업 및 프로젝트의 리소스 제어를 가져오거나 설정합니다.
-> 더 많은 정보: <https://www.unix.com/man-page/sunos/1/prctl>.
+> 더 많은 정보: <https://unix.com/man-page/sunos/1/prctl>.
 
 - 프로세스 제한 및 권한 검사:
 

@@ -2,7 +2,7 @@
 
 > Network packet sniffer.
 > SunOS equivalent van tcpdump.
-> Meer informatie: <https://www.unix.com/man-page/sunos/1m/snoop>.
+> Meer informatie: <https://unix.com/man-page/sunos/1m/snoop>.
 
 - Capteer de pakketten van een specifieke netwerk interface:
 

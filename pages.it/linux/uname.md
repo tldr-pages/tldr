@@ -1,7 +1,7 @@
 # uname
 
 > Uname stampa informazioni a proposito della macchina e del sistema operativo in esecuzione su di essa.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
+> Maggiori informazioni: <https://gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - Stampa tutte le informazioni:
 

@@ -1,7 +1,7 @@
 # xrandr
 
 > Define o tamanho, orientação e/ou espelhamento das saídas para uma tela.
-> Mais informações: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml>.
+> Mais informações: <https://x.org/releases/current/doc/man/man1/xrandr.1.xhtml>.
 
 - Exibe o estado atual do sistema (telas conhecidas, resoluções, ...):
 

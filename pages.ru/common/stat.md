@@ -1,7 +1,7 @@
 # stat
 
 > Показ информации о файле и файловой системе.
-> Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html>.
+> Больше информации: <https://gnu.org/software/coreutils/manual/html_node/stat-invocation.html>.
 
 - Показать свойства файла, такие как размер, права доступа, даты создания и последнего обращения и другие:
 

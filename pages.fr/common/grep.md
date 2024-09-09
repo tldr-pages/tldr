@@ -2,7 +2,7 @@
 
 > Recherche des motifs dans un texte.
 > Supporte des motifs simples et des expressions régulières.
-> Plus d'informations : <https://www.gnu.org/software/grep/manual/grep.html>.
+> Plus d'informations : <https://gnu.org/software/grep/manual/grep.html>.
 
 - Recherche une chaîne de caractères précise :
 

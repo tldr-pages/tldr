@@ -1,7 +1,7 @@
 # exec
 
 > Voer een commando uit zonder een child-proces te creëren.
-> Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-exec>.
+> Meer informatie: <https://gnu.org/software/bash/manual/bash.html#index-exec>.
 
 - Voer een specifiek commando uit:
 

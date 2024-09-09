@@ -1,7 +1,7 @@
 # pr
 
 > Paginate or columnate files for printing.
-> More information: <https://www.gnu.org/software/coreutils/pr>.
+> More information: <https://gnu.org/software/coreutils/pr>.
 
 - Print multiple files with a default header and footer:
 

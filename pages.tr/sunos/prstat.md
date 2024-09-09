@@ -1,7 +1,7 @@
 # prstat
 
 > Aktif işlem istatistiklerini bildir.
-> Daha fazla bilgi için: <https://www.unix.com/man-page/sunos/1m/prstat>.
+> Daha fazla bilgi için: <https://unix.com/man-page/sunos/1m/prstat>.
 
 - CPU kullanımına ayrılan tüm işlem ve raporların istatiğini incele:
 

@@ -1,7 +1,7 @@
 # pdffonts
 
 > Portable Document Format (PDF) file fonts information viewer.
-> More information: <https://www.xpdfreader.com/pdffonts-man.html>.
+> More information: <https://xpdfreader.com/pdffonts-man.html>.
 
 - Print PDF file fonts information:
 

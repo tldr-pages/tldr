@@ -2,7 +2,7 @@
 
 > Troubleshooting tool voor het traceren van system calls.
 > SunOS equivalent van strace.
-> Meer informatie: <https://www.unix.com/man-page/linux/1/truss>.
+> Meer informatie: <https://unix.com/man-page/linux/1/truss>.
 
 - Start het traceren van een programma door het uit te voeren, en de tracering van alle child processes:
 

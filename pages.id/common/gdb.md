@@ -1,7 +1,7 @@
 # gdb
 
 > GNU Debugger.
-> Informasi lebih lanjut: <https://www.gnu.org/software/gdb>.
+> Informasi lebih lanjut: <https://gnu.org/software/gdb>.
 
 - Menjalankan debug pada sebuah berkas yang dapat dieksekusi:
 

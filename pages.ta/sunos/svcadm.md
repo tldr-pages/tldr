@@ -1,7 +1,7 @@
 # svcadm
 
 > சேவை நிகழ்வுகளை கையாளவும்.
-> மேலும் விவரத்திற்கு: <https://www.unix.com/man-page/linux/1m/svcadm>.
+> மேலும் விவரத்திற்கு: <https://unix.com/man-page/linux/1m/svcadm>.
 
 - சேவை தரவுத்தளத்தில் சேவையை இயக்கவும்:
 

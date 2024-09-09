@@ -1,7 +1,7 @@
 # chroot
 
 > Voer commando of interactieve shell uit met een speciale hoofdmap.
-> Meer informatie: <https://www.gnu.org/software/coreutils/chroot>.
+> Meer informatie: <https://gnu.org/software/coreutils/chroot>.
 
 - Voer commando uit met gegeven hoofdmap:
 

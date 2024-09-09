@@ -1,7 +1,7 @@
 # rlogin
 
 > Log in op een externe host.
-> Meer informatie: <https://www.gnu.org/software/inetutils/manual/html_node/rlogin-invocation.html>.
+> Meer informatie: <https://gnu.org/software/inetutils/manual/html_node/rlogin-invocation.html>.
 
 - Log in op een externe host:
 

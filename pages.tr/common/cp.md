@@ -1,7 +1,7 @@
 # cp
 
 > Dosyaları ve dizinleri kopyalayın.
-> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/cp>.
+> Daha fazla bilgi için: <https://gnu.org/software/coreutils/cp>.
 
 - Bir dosyayı başka bir konuma kopyalayın:
 

@@ -2,7 +2,7 @@
 
 > İzleme sistem çağrıları için sorun giderme aracı.
 > SunOS'in strace alternatifi.
-> Daha fazla bilgi için: <https://www.unix.com/man-page/linux/1/truss>.
+> Daha fazla bilgi için: <https://unix.com/man-page/linux/1/truss>.
 
 - Bir programı tüm alt işlemleriyle beraber çalıştırarak başlat:
 

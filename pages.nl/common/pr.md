@@ -1,7 +1,7 @@
 # pr
 
 > Pagineer of kolomeer bestanden voor afdrukken.
-> Meer informatie: <https://www.gnu.org/software/coreutils/pr>.
+> Meer informatie: <https://gnu.org/software/coreutils/pr>.
 
 - Toon meerdere bestanden met een standaardkop- en voettekst:
 

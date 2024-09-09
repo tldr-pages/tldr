@@ -2,7 +2,7 @@
 
 > The extensible, customizable, self-documenting, real-time display editor.
 > See also `emacsclient`.
-> More information: <https://www.gnu.org/software/emacs>.
+> More information: <https://gnu.org/software/emacs>.
 
 - Start Emacs and open a file:
 

@@ -1,7 +1,7 @@
 # uname
 
 > Uname відображає інформацію про машину та операційну систему, на якій вона працює.
-> Більше інформації: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
+> Більше інформації: <https://gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - Відобразити всю інформацію:
 

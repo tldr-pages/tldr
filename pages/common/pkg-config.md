@@ -1,7 +1,7 @@
 # pkg-config
 
 > Provide the details of installed libraries for compiling applications.
-> More information: <https://www.freedesktop.org/wiki/Software/pkg-config/>.
+> More information: <https://freedesktop.org/wiki/Software/pkg-config/>.
 
 - Get the list of libraries and their dependencies:
 

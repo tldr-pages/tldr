@@ -2,7 +2,7 @@
 
 > Remove diretórios sem arquivos.
 > Veja também: `rm`.
-> Mais informações: <https://www.gnu.org/software/coreutils/rmdir>.
+> Mais informações: <https://gnu.org/software/coreutils/rmdir>.
 
 - Remove diretórios específicos:
 

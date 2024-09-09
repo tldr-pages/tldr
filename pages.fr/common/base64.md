@@ -1,7 +1,7 @@
 # base64
 
 > Encoder ou décoder un fichier ou l'entrée standard en utilisant le codage Base64 à destination de la sortie standard.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/base64>.
+> Plus d'informations : <https://gnu.org/software/coreutils/base64>.
 
 - Encode un fichier :
 

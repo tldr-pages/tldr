@@ -1,7 +1,7 @@
 # zola
 
 > 단일 실행 파일에 모든 기능이 들어있는 정적 사이트 생성기.
-> 더 많은 정보: <https://www.getzola.org/documentation/getting-started/cli-usage/>.
+> 더 많은 정보: <https://getzola.org/documentation/getting-started/cli-usage/>.
 
 - 주어진 디렉토리에 Zola가 사용하는 디렉토리 구조를 생성:
 

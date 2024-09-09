@@ -1,7 +1,7 @@
 # sc_warts2json
 
 > Wandelt eine WARTS-Datei in eine JSON-Datei um.
-> Weitere Informationen: <https://www.caida.org/catalog/software/scamper/>.
+> Weitere Informationen: <https://caida.org/catalog/software/scamper/>.
 
 - Wandle `warts`-Dateien in JSON um und gib diese aus:
 

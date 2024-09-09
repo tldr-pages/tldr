@@ -1,7 +1,7 @@
 # devfsadm
 
 > Команда администрирования для `/dev`. Поддерживает пространство имен `/dev`.
-> Больше информации: <https://www.unix.com/man-page/sunos/1m/devfsadm>.
+> Больше информации: <https://unix.com/man-page/sunos/1m/devfsadm>.
 
 - Сканировать для новых дисков:
 

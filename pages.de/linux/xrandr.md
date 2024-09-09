@@ -1,7 +1,7 @@
 # xrandr
 
 > Setzt die Auflösung, Orientierung und/oder Reflektion eines Bildschirmausgangs.
-> Weitere Informationen: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml>.
+> Weitere Informationen: <https://x.org/releases/current/doc/man/man1/xrandr.1.xhtml>.
 
 - Zeige den momentanen Systemzustand an (erkannte Bildschirme, Auflösungen, ...):
 

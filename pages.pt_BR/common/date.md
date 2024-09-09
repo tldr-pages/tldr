@@ -1,7 +1,7 @@
 # date
 
 > Define ou exibe a data do sistema.
-> Mais informações: <https://www.gnu.org/software/coreutils/date>.
+> Mais informações: <https://gnu.org/software/coreutils/date>.
 
 - Exibe a data atual usando o formato padrão de localidade:
 

@@ -1,7 +1,7 @@
 # libtool
 
 > Een generiek script voor bibliotheekondersteuning dat de complexiteit van het gebruik van gedeelde bibliotheken verbergt achter een consistente, draagbare interface.
-> Meer informatie: <https://www.gnu.org/software/libtool/manual/libtool.html#Invoking-libtool>.
+> Meer informatie: <https://gnu.org/software/libtool/manual/libtool.html#Invoking-libtool>.
 
 - Compileer een bronbestand naar een `libtool`-object:
 

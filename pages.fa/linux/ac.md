@@ -1,7 +1,7 @@
 # ac
 
 > چاپ مدت زمان اتصال کاربران.
-> اطلاعات بیشتر: <https://www.gnu.org/software/acct/manual/accounting.html#ac>.
+> اطلاعات بیشتر: <https://gnu.org/software/acct/manual/accounting.html#ac>.
 
 - چاپ تعداد ساعات اتصال کاربر کنونی:
 

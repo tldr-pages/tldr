@@ -1,7 +1,7 @@
 # subl
 
 > Editor teks Sublime.
-> Informasi lebih lanjut: <https://www.sublimetext.com>.
+> Informasi lebih lanjut: <https://sublimetext.com>.
 
 - Membuka direktori saat ini di Sublime Text:
 

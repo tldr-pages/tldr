@@ -1,7 +1,7 @@
 # radare2
 
 > A set of reverse engineering tools.
-> More information: <https://www.radare.org/r/docs.html>.
+> More information: <https://radare.org/r/docs.html>.
 
 - Open a file in write mode without parsing the file format headers:
 

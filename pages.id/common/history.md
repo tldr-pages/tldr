@@ -1,7 +1,7 @@
 # history
 
 > Sejarah command-line.
-> Informasi lebih lanjut: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.
+> Informasi lebih lanjut: <https://gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.
 
 - Tampilkan sejarah perintah-perintah dengan angka baris:
 

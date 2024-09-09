@@ -2,7 +2,7 @@
 
 > Beheer Linode instanties.
 > Bekijk ook: `linode-cli`.
-> Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/linode-instances/>.
+> Meer informatie: <https://linode.com/docs/products/tools/cli/guides/linode-instances/>.
 
 - Toon alle Linodes:
 

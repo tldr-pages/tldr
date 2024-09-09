@@ -2,7 +2,7 @@
 
 > WEP, WPA 또는 WPA2로 암호화된 캡처 파일 해독.
 > Aircrack-ng 네트워크 소프트웨어 제품군의 일부.
-> 더 많은 정보: <https://www.aircrack-ng.org/doku.php?id=airdecap-ng>.
+> 더 많은 정보: <https://aircrack-ng.org/doku.php?id=airdecap-ng>.
 
 - 열려있는 네트워크 캡처 파일에서 무선 헤더를 제거, 액세스 포인트의 MAC 주소를 사용해 필터링:
 

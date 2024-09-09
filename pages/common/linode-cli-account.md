@@ -2,7 +2,7 @@
 
 > Manage Linode accounts.
 > See also: `linode-cli`.
-> More information: <https://www.linode.com/docs/products/tools/cli/guides/account/>.
+> More information: <https://linode.com/docs/products/tools/cli/guides/account/>.
 
 - View account:
 

@@ -2,7 +2,7 @@
 
 > Beheer een groep van computers op afstand over SSH. (Gebruik het `/etc/ansible/hosts` bestand om nieuwe groepen/hosts toe te voegen).
 > Sommige subcommando's zoals `ansible galaxy` hebben hun eigen documentatie.
-> Meer informatie: <https://www.ansible.com/>.
+> Meer informatie: <https://ansible.com/>.
 
 - Toon de hosts die tot een groep behoren:
 

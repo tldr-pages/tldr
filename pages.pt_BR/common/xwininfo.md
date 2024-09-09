@@ -2,7 +2,7 @@
 
 > Mostra informações sobre janelas.
 > Veja também: `xprop`, `xkill`.
-> Mais informações: <https://www.x.org/releases/current/doc/man/man1/xwininfo.1.xhtml>.
+> Mais informações: <https://x.org/releases/current/doc/man/man1/xwininfo.1.xhtml>.
 
 - Mostra um cursor para selecionar uma janela para mostrar seus atributos (ID, nome, tamanho, posição...):
 

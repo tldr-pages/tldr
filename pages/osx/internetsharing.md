@@ -2,7 +2,7 @@
 
 > Set up Internet Sharing.
 > It should not be invoked manually.
-> More information: <https://www.manpagez.com/man/8/InternetSharing/>.
+> More information: <https://manpagez.com/man/8/InternetSharing/>.
 
 - Start the daemon:
 

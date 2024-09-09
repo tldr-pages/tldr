@@ -1,7 +1,7 @@
 # pdftotext
 
 > Konvertiere PDF Dateien zum plain text Format.
-> Weitere Informationen: <https://www.xpdfreader.com/pdftotext-man.html>.
+> Weitere Informationen: <https://xpdfreader.com/pdftotext-man.html>.
 
 - Konvertiere `datei.pdf` zu plain text und gib sie über die Standardausgabe aus:
 

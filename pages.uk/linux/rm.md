@@ -2,7 +2,7 @@
 
 > Видалити файли або директорії.
 > Дивіться також: `rmdir`.
-> Більше інформації: <https://www.gnu.org/software/coreutils/rm>.
+> Більше інформації: <https://gnu.org/software/coreutils/rm>.
 
 - Видалити певні файли:
 

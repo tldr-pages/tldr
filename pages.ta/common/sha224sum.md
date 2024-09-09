@@ -1,7 +1,7 @@
 # sha224sum
 
 > SHA224 மறையீட்டு சரிகாண்தொகையைக் கணி.
-> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.
+> மேலும் விவரத்திற்கு: <https://gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.
 
 - ஒன்று அல்லது அதற்கு மேற்பட்ட கோப்புகளுக்கான SHA224 சரிகாண்தொகையைக் கணி:
 

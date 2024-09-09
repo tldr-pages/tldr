@@ -1,7 +1,7 @@
 # zint
 
 > Generate barcodes and QR codes.
-> More information: <https://www.zint.org.uk/manual/chapter/4>.
+> More information: <https://zint.org.uk/manual/chapter/4>.
 
 - Generate a barcode and save it:
 

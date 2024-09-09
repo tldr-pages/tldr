@@ -2,7 +2,7 @@
 
 > Geef de unieke regels uit een invoer of bestand weer.
 > Omdat het geen herhaalde regels detecteert tenzij ze naast elkaar staan, moeten we ze eerst sorteren.
-> Meer informatie: <https://www.gnu.org/software/coreutils/uniq>.
+> Meer informatie: <https://gnu.org/software/coreutils/uniq>.
 
 - Toon elke regel één keer:
 

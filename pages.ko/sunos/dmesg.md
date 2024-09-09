@@ -1,7 +1,7 @@
 # dmesg
 
 > 커널 메시지를 `stdout`에 기록합니다.
-> 더 많은 정보: <https://www.unix.com/man-page/sunos/1m/dmesg>.
+> 더 많은 정보: <https://unix.com/man-page/sunos/1m/dmesg>.
 
 - 커널 메시지 표시:
 

@@ -1,7 +1,7 @@
 # pathchk
 
 > Controleer de geldigheid en draagbaarheid van padnamen.
-> Meer informatie: <https://www.gnu.org/software/coreutils/pathchk>.
+> Meer informatie: <https://gnu.org/software/coreutils/pathchk>.
 
 - Controleer padnamen op geldigheid in het huidige systeem:
 

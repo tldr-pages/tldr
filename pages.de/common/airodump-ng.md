@@ -2,7 +2,7 @@
 
 > Erfasst Pakete und zeigt Informationen über drahtlose Netzwerke an.
 > Teil von `aircrack-ng`.
-> Weitere Informationen: <https://www.aircrack-ng.org/doku.php?id=airodump-ng>.
+> Weitere Informationen: <https://aircrack-ng.org/doku.php?id=airodump-ng>.
 
 - Erfasse Pakete und zeige Informationen über ein drahtloses Netzwerk an:
 

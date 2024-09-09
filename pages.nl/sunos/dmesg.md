@@ -1,7 +1,7 @@
 # dmesg
 
 > Schrijft de kernel berichten naar de standaard output.
-> Meer informatie: <https://www.unix.com/man-page/sunos/1m/dmesg>.
+> Meer informatie: <https://unix.com/man-page/sunos/1m/dmesg>.
 
 - Toont kernel berichten:
 

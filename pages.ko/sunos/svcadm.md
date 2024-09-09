@@ -1,7 +1,7 @@
 # svcadm
 
 > 서비스 인스턴스를 조작합니다.
-> 더 많은 정보: <https://www.unix.com/man-page/linux/1m/svcadm>.
+> 더 많은 정보: <https://unix.com/man-page/linux/1m/svcadm>.
 
 - 서비스를 서비스 데이터베이스에서 활성화:
 

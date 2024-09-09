@@ -1,7 +1,7 @@
 # svcs
 
 > Çalışan servislere dair bilgileri sırala.
-> Daha fazla bilgi için: <https://www.unix.com/man-page/linux/1/svcs>.
+> Daha fazla bilgi için: <https://unix.com/man-page/linux/1/svcs>.
 
 - Tüm çalışan servisleri sırala:
 

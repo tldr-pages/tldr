@@ -1,7 +1,7 @@
 # svcs
 
 > Wyświetl informację o uruchomionych usługach.
-> Więcej informacji: <https://www.unix.com/man-page/linux/1/svcs>.
+> Więcej informacji: <https://unix.com/man-page/linux/1/svcs>.
 
 - Wypisz wszystkie uruchomione usługi:
 

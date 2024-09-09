@@ -1,7 +1,7 @@
 # tlmgr pinning
 
 > The pinning action manages the pinning file.
-> More information: <https://www.tug.org/texlive/doc/tlmgr.html#pinning>.
+> More information: <https://tug.org/texlive/doc/tlmgr.html#pinning>.
 
 - Show the current pinning data:
 

@@ -1,7 +1,7 @@
 # ls
 
 > Liste le contenu d'un répertoire.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/ls>.
+> Plus d'informations : <https://gnu.org/software/coreutils/ls>.
 
 - Liste les fichiers, un par ligne :
 

@@ -2,7 +2,7 @@
 
 > Beheer Linode Kubernetes Engine (LKE) clusters.
 > Bekijk ook: `linode-cli`.
-> Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/linode-kubernetes-engine/>.
+> Meer informatie: <https://linode.com/docs/products/tools/cli/guides/linode-kubernetes-engine/>.
 
 - Toon alle LKE clusters:
 

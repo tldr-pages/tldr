@@ -1,7 +1,7 @@
 # ls
 
 > Llista els continguts d'un directori.
-> Més informació: <https://www.gnu.org/software/coreutils/ls>.
+> Més informació: <https://gnu.org/software/coreutils/ls>.
 
 - Llista els fitxers un per línia:
 

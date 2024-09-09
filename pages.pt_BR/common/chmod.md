@@ -1,7 +1,7 @@
 # chmod
 
 > Muda a permissão de acesso de um arquivo ou diretório.
-> Mais informações: <https://www.gnu.org/software/coreutils/chmod>.
+> Mais informações: <https://gnu.org/software/coreutils/chmod>.
 
 - Dá ao [u]suário dono de um arquivo o direito de e[x]ecutá-lo:
 

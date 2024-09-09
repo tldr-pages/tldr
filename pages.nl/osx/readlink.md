@@ -1,7 +1,7 @@
 # readlink
 
 > Volg symlinks en verkrijg symlink-informatie.
-> Meer informatie: <https://www.gnu.org/software/coreutils/readlink>.
+> Meer informatie: <https://gnu.org/software/coreutils/readlink>.
 
 - Toon het absolute pad waarnaar de symlink verwijst:
 

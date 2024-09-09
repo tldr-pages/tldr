@@ -1,7 +1,7 @@
 # rpi-eeprom-update
 
 > Оновити EEPROM та переглянути іншу інформацію про EEPROM.
-> Більше інформації: <https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#rpi-eeprom-update>.
+> Більше інформації: <https://raspberrypi.com/documentation/computers/raspberry-pi.html#rpi-eeprom-update>.
 
 - Переглянути інформацію про поточний встановлений EEPROM raspberry pi:
 

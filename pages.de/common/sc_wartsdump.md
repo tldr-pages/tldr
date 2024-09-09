@@ -1,7 +1,7 @@
 # sc_wartsdump
 
 > Ausführliche Ausgabe der in einer `warts`-Datei enthaltenen Daten.
-> Weitere Informationen: <https://www.caida.org/catalog/software/scamper/>.
+> Weitere Informationen: <https://caida.org/catalog/software/scamper/>.
 
 - Gib den Inhalt von `warts`-Dateien ausführlich aus:
 

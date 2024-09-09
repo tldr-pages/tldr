@@ -1,7 +1,7 @@
 # mkfifo
 
 > Crea FIFOs (llamadas pipes).
-> Más información: <https://www.gnu.org/software/coreutils/mkfifo>.
+> Más información: <https://gnu.org/software/coreutils/mkfifo>.
 
 - Crea un pipe con nombre en una ruta dada:
 

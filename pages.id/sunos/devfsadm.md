@@ -1,7 +1,7 @@
 # devfsadm
 
 > Perintah administrasi untuk `/dev`. Kelola namespace `/dev`.
-> Informasi lebih lanjut: <https://www.unix.com/man-page/sunos/1m/devfsadm>.
+> Informasi lebih lanjut: <https://unix.com/man-page/sunos/1m/devfsadm>.
 
 - Pindai piringan baru:
 

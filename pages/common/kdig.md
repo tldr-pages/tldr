@@ -1,7 +1,7 @@
 # kdig
 
 > Advanced DNS lookup utility.
-> More information: <https://www.knot-dns.cz/docs/latest/html/man_kdig.html>.
+> More information: <https://knot-dns.cz/docs/latest/html/man_kdig.html>.
 
 - Lookup the IP(s) associated with a hostname (A records):
 

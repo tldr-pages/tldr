@@ -1,7 +1,7 @@
 # chroot
 
 > Esegui un comando o una shell interattiva con una speciale directory root.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/chroot>.
+> Maggiori informazioni: <https://gnu.org/software/coreutils/chroot>.
 
 - Esegui un comando con una diversa directory root:
 

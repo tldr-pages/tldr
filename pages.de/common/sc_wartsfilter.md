@@ -1,7 +1,7 @@
 # sc_wartsfilter
 
 > Filtert bestimmte Datensätze aus einer `warts`-Datei.
-> Weitere Informationen: <https://www.caida.org/catalog/software/scamper/>.
+> Weitere Informationen: <https://caida.org/catalog/software/scamper/>.
 
 - Filtere alle Datensätze, welche ein bestimmtes Ziel haben und schreibe sie in eine separate Datei:
 

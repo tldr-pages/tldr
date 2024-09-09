@@ -1,7 +1,7 @@
 # avo
 
 > La ligne de commande officielle pour Avo.
-> Plus d'informations : <https://www.avo.app/docs/implementation/cli>.
+> Plus d'informations : <https://avo.app/docs/implementation/cli>.
 
 - Initialise un espace de travail dans le dossier courant :
 

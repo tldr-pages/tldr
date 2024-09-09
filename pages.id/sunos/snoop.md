@@ -2,7 +2,7 @@
 
 > Pengendus paket jaringan.
 > Perintah setara tcpdump untuk SunOS.
-> Informasi lebih lanjut: <https://www.unix.com/man-page/sunos/1m/snoop>.
+> Informasi lebih lanjut: <https://unix.com/man-page/sunos/1m/snoop>.
 
 - Tangkap paket pada antarmuka jaringan tertentu:
 

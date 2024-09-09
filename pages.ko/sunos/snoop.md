@@ -2,7 +2,7 @@
 
 > 네트워크 패킷 스니퍼.
 > tcpdump와 동일한 기능을 하는 SunOS 대체품.
-> 더 많은 정보: <https://www.unix.com/man-page/sunos/1m/snoop>.
+> 더 많은 정보: <https://unix.com/man-page/sunos/1m/snoop>.
 
 - 특정 네트워크 인터페이스에서 패킷을 캡처:
 

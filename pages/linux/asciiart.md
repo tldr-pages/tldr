@@ -9,7 +9,7 @@
 
 - Read an image from a URL and print in ASCII:
 
-`asciiart {{www.example.com/image.jpg}}`
+`asciiart {{https://example.com/image.jpg}}`
 
 - Choose the output width (default is 100):
 

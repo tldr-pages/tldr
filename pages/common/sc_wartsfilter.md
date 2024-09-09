@@ -1,7 +1,7 @@
 # sc_wartsfilter
 
 > Select specific records from a `warts` file.
-> More information: <https://www.caida.org/catalog/software/scamper/>.
+> More information: <https://caida.org/catalog/software/scamper/>.
 
 - Filter all data records that had specific destinations and write them to a separate file:
 

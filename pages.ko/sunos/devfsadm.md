@@ -1,7 +1,7 @@
 # devfsadm
 
 > `/dev`의 관리 명령어입니다. `/dev` 네임스페이스를 유지합니다.
-> 더 많은 정보: <https://www.unix.com/man-page/sunos/1m/devfsadm>.
+> 더 많은 정보: <https://unix.com/man-page/sunos/1m/devfsadm>.
 
 - 새 디스크 검색:
 

@@ -1,7 +1,7 @@
 # pkg
 
 > OpenBSD 패키지 관리자 도구.
-> 더 많은 정보: <https://www.openbsd.org/faq/faq15.html>.
+> 더 많은 정보: <https://openbsd.org/faq/faq15.html>.
 
 - 패키지 설치/업데이트에 대한 설명서 보기:
 

@@ -1,7 +1,7 @@
 # wdiff
 
 > Display word differences between text files.
-> More information: <https://www.gnu.org/software/wdiff/>.
+> More information: <https://gnu.org/software/wdiff/>.
 
 - Compare two files:
 

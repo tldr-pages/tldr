@@ -1,7 +1,7 @@
 # for
 
 > Perform a command several times.
-> More information: <https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs>.
+> More information: <https://gnu.org/software/bash/manual/bash.html#Looping-Constructs>.
 
 - Execute the given commands for each of the specified items:
 

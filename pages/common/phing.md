@@ -1,7 +1,7 @@
 # phing
 
 > A PHP build tool based on Apache Ant.
-> More information: <https://www.phing.info>.
+> More information: <https://phing.info>.
 
 - Perform the default task in the `build.xml` file:
 

@@ -2,7 +2,7 @@
 
 > Ferramenta de compressão de arquivos.
 > Utilizado com metodos de compressão como o de gzip ou bzip2.
-> Mais informações: <https://www.gnu.org/software/tar>.
+> Mais informações: <https://gnu.org/software/tar>.
 
 - [C]ria um arquivo compactado e o escreve para um arquivo:
 

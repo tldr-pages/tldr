@@ -1,7 +1,7 @@
 # sbt
 
 > Build tool for Scala and Java projects.
-> More information: <https://www.scala-sbt.org/1.x/docs/>.
+> More information: <https://scala-sbt.org/1.x/docs/>.
 
 - Start a REPL (interactive shell):
 

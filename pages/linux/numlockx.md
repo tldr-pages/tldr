@@ -1,7 +1,7 @@
 # numlockx
 
 > Control the number lock key status in X11 sessions.
-> More information: <http://www.mike-devlin.com/linux/README-numlockx.htm>.
+> More information: <https://manned.org/man/numlockx>.
 
 - Show the current number lock status:
 

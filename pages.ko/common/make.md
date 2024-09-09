@@ -2,7 +2,7 @@
 
 > Makefile에 작성된 대상에 대한 작업 실행기입니다.
 > 주로 소스 코드에서 실행 파일의 컴파일을 제어하는 데 사용됩니다.
-> 더 많은 정보: <https://www.gnu.org/software/make/manual/make.html>.
+> 더 많은 정보: <https://gnu.org/software/make/manual/make.html>.
 
 - Makefile에 지정된 첫 번째 대상(일반적으로 "all"이라는 이름)을 호출:
 

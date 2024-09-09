@@ -1,7 +1,7 @@
 # md5sum
 
 > Bereken MD5 cryptografische checksums.
-> Meer informatie: <https://www.gnu.org/software/coreutils/md5sum>.
+> Meer informatie: <https://gnu.org/software/coreutils/md5sum>.
 
 - Bereken de MD5 checksum voor één of meer bestanden:
 

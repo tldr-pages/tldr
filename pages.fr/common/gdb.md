@@ -1,7 +1,7 @@
 # gdb
 
 > Le débogueur GNU.
-> Plus d'informations : <https://www.gnu.org/software/gdb>.
+> Plus d'informations : <https://gnu.org/software/gdb>.
 
 - Débogue un exécutable :
 

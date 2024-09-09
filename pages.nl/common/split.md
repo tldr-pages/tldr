@@ -1,7 +1,7 @@
 # split
 
 > Split een bestand in stukken.
-> Meer informatie: <https://www.gnu.org/software/coreutils/split>.
+> Meer informatie: <https://gnu.org/software/coreutils/split>.
 
 - Split een bestand, elk deel heeft 10 regels (behalve het laatste deel):
 

@@ -2,7 +2,7 @@
 
 > Capture packets and display information about wireless networks.
 > Part of `aircrack-ng`.
-> More information: <https://www.aircrack-ng.org/doku.php?id=airodump-ng>.
+> More information: <https://aircrack-ng.org/doku.php?id=airodump-ng>.
 
 - Capture packets and display information about wireless network(s) on the 2.4GHz band:
 

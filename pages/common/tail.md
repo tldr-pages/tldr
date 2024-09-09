@@ -2,7 +2,7 @@
 
 > Display the last part of a file.
 > See also: `head`.
-> More information: <https://www.gnu.org/software/coreutils/tail>.
+> More information: <https://gnu.org/software/coreutils/tail>.
 
 - Show last 'count' lines in file:
 

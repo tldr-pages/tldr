@@ -1,7 +1,7 @@
 # history expansion
 
 > Réutiliser et développer l'historique des commandes shell dans `sh`, `bash`, `zsh`, `rbash` et `ksh`.
-> Plus d'informations : <https://www.gnu.org/software/bash/manual/html_node/History-Interaction>.
+> Plus d'informations : <https://gnu.org/software/bash/manual/html_node/History-Interaction>.
 
 - Exécute de nouveau la commande précédente en tant que root (`!!` est remplacé par la commande précédente) :
 

@@ -1,7 +1,7 @@
 # factor
 
 > Toon de priemfactor van een getal.
-> Meer informatie: <https://www.gnu.org/software/coreutils/factor>.
+> Meer informatie: <https://gnu.org/software/coreutils/factor>.
 
 - Toon de priemfactor van een getal:
 

@@ -2,7 +2,7 @@
 
 > Visualizza e concatena file con righe in ordine inverso.
 > Guarda anche: `cat`.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/tac>.
+> Maggiori informazioni: <https://gnu.org/software/coreutils/tac>.
 
 - Concatena file specifici in ordine inverso:
 

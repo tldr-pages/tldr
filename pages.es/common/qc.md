@@ -2,7 +2,7 @@
 
 > Gestiona y ejecuta fragmentos de comandos almacenados en notas QOwnNotes.
 > Ve también: `qownnotes`.
-> Más información: <https://www.qownnotes.org/getting-started/command-line-snippet-manager.html>.
+> Más información: <https://qownnotes.org/getting-started/command-line-snippet-manager.html>.
 
 - Configura el gestor de fragmentos, por ejemplo para establecer el token de seguridad de QOwnNotes:
 

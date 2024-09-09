@@ -1,7 +1,7 @@
 # base64
 
 > Kodieren oder Dekodieren von Dateien oder Standardeingaben in/aus Base64, zur Standardausgabe.
-> Weitere Informationen: <https://www.gnu.org/software/coreutils/base64>.
+> Weitere Informationen: <https://gnu.org/software/coreutils/base64>.
 
 - Kodiere den Inhalt einer Datei als base64 und schreibe das Ergebnis nach `stdout`:
 

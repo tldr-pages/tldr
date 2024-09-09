@@ -2,7 +2,7 @@
 
 > Pakete in ein WLAN injizieren.
 > Teil von `aircrack-ng`.
-> Weitere Informationen: <https://www.aircrack-ng.org/doku.php?id=aireplay-ng>.
+> Weitere Informationen: <https://aircrack-ng.org/doku.php?id=aireplay-ng>.
 
 - Sende eine bestimmten Anzahl an Dissoziation-Paketen mit der MAC-Adresse des Access Points, der MAC-Adresse des Clients und eines Interfaces:
 

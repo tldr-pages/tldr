@@ -2,7 +2,7 @@
 
 > Inyecta paquetes en una red inalámbrica.
 > Parte de `aircrack-ng`.
-> Más información: <https://www.aircrack-ng.org/doku.php?id=aireplay-ng>.
+> Más información: <https://aircrack-ng.org/doku.php?id=aireplay-ng>.
 
 - Envía una cantidad específica de paquetes disociados dada la dirección MAC de un punto de acceso, la dirección MAC de un cliente y una interfaz:
 

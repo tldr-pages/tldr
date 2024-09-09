@@ -2,7 +2,7 @@
 
 > Servidor DHCPv6 sin estado. Ver también: `InternetSharing`.
 > No debe invocarse manualmente.
-> Más información: <https://www.manpagez.com/man/8/dhcp6d/>.
+> Más información: <https://manpagez.com/man/8/dhcp6d/>.
 
 - Inicia el daemon:
 

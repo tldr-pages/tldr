@@ -1,7 +1,7 @@
 # sha224sum
 
 > Bereken SHA224 cryptografische checksums.
-> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.
+> Meer informatie: <https://gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.
 
 - Bereken de SHA224 checksum voor één of meer bestanden:
 

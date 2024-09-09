@@ -1,7 +1,7 @@
 # svccfg
 
 > 서비스 구성을 가져오고, 내보내고, 수정합니다.
-> 더 많은 정보: <https://www.unix.com/man-page/linux/1m/svccfg>.
+> 더 많은 정보: <https://unix.com/man-page/linux/1m/svccfg>.
 
 - 구성 파일 유효성 검사:
 

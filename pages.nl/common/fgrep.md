@@ -2,7 +2,7 @@
 
 > Zoek naar strings in bestanden.
 > Gelijk aan `grep -F`.
-> Meer informatie: <https://www.gnu.org/software/grep/manual/grep.html>.
+> Meer informatie: <https://gnu.org/software/grep/manual/grep.html>.
 
 - Zoek naar een string in een bestand:
 

@@ -2,7 +2,7 @@
 
 > Manage Linode Volumes.
 > See also: `linode-cli`.
-> More information: <https://www.linode.com/docs/products/tools/cli/guides/block-storage-volumes/>.
+> More information: <https://linode.com/docs/products/tools/cli/guides/block-storage-volumes/>.
 
 - List current Volumes:
 

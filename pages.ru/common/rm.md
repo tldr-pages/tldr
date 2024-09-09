@@ -1,7 +1,7 @@
 # rm
 
 > Удалить файлы или каталоги.
-> Больше информации: <https://www.gnu.org/software/coreutils/rm>.
+> Больше информации: <https://gnu.org/software/coreutils/rm>.
 
 - Удалить файлы из определённых мест:
 

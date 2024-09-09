@@ -1,7 +1,7 @@
 # base32
 
 > Encode or decode file or `stdin` to/from Base32, to `stdout`.
-> More information: <https://www.gnu.org/software/coreutils/base32>.
+> More information: <https://gnu.org/software/coreutils/base32>.
 
 - Encode a file:
 

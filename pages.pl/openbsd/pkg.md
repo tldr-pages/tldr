@@ -1,7 +1,7 @@
 # pkg
 
 > Menedżer pakietów OpenBSD.
-> Więcej informacji: <https://www.openbsd.org/faq/faq15.html>.
+> Więcej informacji: <https://openbsd.org/faq/faq15.html>.
 
 - Zobacz dokumentację dotyczącą instalowania/aktualizowania pakietów:
 

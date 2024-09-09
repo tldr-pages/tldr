@@ -1,7 +1,7 @@
 # airmon-ng
 
 > Ativa modo de monitoramento em dispositivos de rede sem-fio.
-> Mais informações: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
+> Mais informações: <https://aircrack-ng.org/doku.php?id=airmon-ng>.
 
 - Lista os dispositivos sem-fio e seus respectivos estados:
 

@@ -2,7 +2,7 @@
 
 > Performs conditional processing in shell scripts.
 > See also: `test`, `[`.
-> More information: <https://www.gnu.org/software/bash/manual/bash.html#Conditional-Constructs>.
+> More information: <https://gnu.org/software/bash/manual/bash.html#Conditional-Constructs>.
 
 - Execute the specified commands if the condition command's exit status is zero:
 

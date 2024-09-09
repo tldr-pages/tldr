@@ -1,7 +1,7 @@
 # wc
 
 > Tel regels, woorden en bytes.
-> Meer informatie: <https://www.gnu.org/software/coreutils/wc>.
+> Meer informatie: <https://gnu.org/software/coreutils/wc>.
 
 - Tel alle regels in een bestand:
 

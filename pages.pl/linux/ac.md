@@ -1,7 +1,7 @@
 # ac
 
 > Wyświetl statystyki dotyczące czasu połączenia użytkowników.
-> Więcej informacji: <https://www.gnu.org/software/acct/manual/accounting.html#ac>.
+> Więcej informacji: <https://gnu.org/software/acct/manual/accounting.html#ac>.
 
 - Wyświetl w godzinach jak długo aktualny użytkownik był połączony:
 

@@ -2,7 +2,7 @@
 
 > Stateless DHCPv6 server. See also: `InternetSharing`.
 > It should not be invoked manually.
-> More information: <https://www.manpagez.com/man/8/dhcp6d/>.
+> More information: <https://manpagez.com/man/8/dhcp6d/>.
 
 - Start the daemon:
 

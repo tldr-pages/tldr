@@ -2,7 +2,7 @@
 
 > Schreibt die in den `warts`-Dateien enthaltenen Pakete in eine `pcap`-Datei.
 > Dies ist nur bei tbit, sting und sniff möglich.
-> Weitere Informationen: <https://www.caida.org/catalog/software/scamper/>.
+> Weitere Informationen: <https://caida.org/catalog/software/scamper/>.
 
 - Wandle die Daten aus mehreren `warts`-Dateien in eine `pcap`-Datei um:
 

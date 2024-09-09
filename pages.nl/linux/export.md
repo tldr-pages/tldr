@@ -1,7 +1,7 @@
 # export
 
 > Exporteer shellvariabelen naar child-processen.
-> Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-export>.
+> Meer informatie: <https://gnu.org/software/bash/manual/bash.html#index-export>.
 
 - Stel een omgevingsvariabele in:
 

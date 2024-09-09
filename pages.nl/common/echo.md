@@ -1,7 +1,7 @@
 # echo
 
 > Toont gegeven argumenten.
-> Meer informatie: <https://www.gnu.org/software/coreutils/echo>.
+> Meer informatie: <https://gnu.org/software/coreutils/echo>.
 
 - Toon een tekstbericht. Let op: aanhalingstekens zijn optioneel:
 

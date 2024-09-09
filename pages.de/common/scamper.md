@@ -2,7 +2,7 @@
 
 > Sondiert aktiv das Internet, um die Topologie und Leistung zu analysieren.
 > Liefert einige Werkzeuge mit, welche mit `sc_` starten, beispielsweise `sc_warts2text` oder `sc_ttlexp`.
-> Weitere Informationen: <https://www.caida.org/catalog/software/scamper/>.
+> Weitere Informationen: <https://caida.org/catalog/software/scamper/>.
 
 - Führe die Standardoption (Traceroute) auf ein Ziel aus:
 

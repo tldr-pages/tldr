@@ -1,7 +1,7 @@
 # compgen
 
 > Um programa para auto completar comandos no Bash, ele é executado ao pressionar duas vezes a tecla TAB.
-> Mais informações: <https://www.gnu.org/software/bash/manual/bash.html#index-compgen>.
+> Mais informações: <https://gnu.org/software/bash/manual/bash.html#index-compgen>.
 
 - Exibe todos os comandos que você pode executar:
 

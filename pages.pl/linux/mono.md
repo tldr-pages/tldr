@@ -1,7 +1,7 @@
 # mono
 
 > Środowisko uruchomieniowe dla .NET Framework.
-> Więcej informacji: <https://www.mono-project.com/docs/>.
+> Więcej informacji: <https://mono-project.com/docs/>.
 
 - Uruchom program .NET assembly w trybie debugowania:
 

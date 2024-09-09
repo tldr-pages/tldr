@@ -1,7 +1,7 @@
 # prctl
 
 > Lees of configureer de Get or set the resource controls of running processes, tasks, and projects.
-> Meer informatie: <https://www.unix.com/man-page/sunos/1/prctl>.
+> Meer informatie: <https://unix.com/man-page/sunos/1/prctl>.
 
 - Uitlezen van de process limits en rechten:
 

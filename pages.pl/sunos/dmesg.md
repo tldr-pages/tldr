@@ -1,7 +1,7 @@
 # dmesg
 
 > Wypisz komunikaty jądra do `stdout`.
-> Więcej informacji: <https://www.unix.com/man-page/sunos/1m/dmesg>.
+> Więcej informacji: <https://unix.com/man-page/sunos/1m/dmesg>.
 
 - Wyświetl komunikaty jądra:
 

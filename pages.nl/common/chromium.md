@@ -1,7 +1,7 @@
 # chromium
 
 > Open-source webbrowser voornamelijk ontwikkeld en onderhouden door Google.
-> Meer informatie: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
+> Meer informatie: <https://chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
 - Open een specifieke URL of bestand:
 

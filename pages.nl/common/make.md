@@ -2,7 +2,7 @@
 
 > Taakuitvoerder voor doelen beschreven in Makefile.
 > Wordt meestal gebruikt om de compilatie van een uitvoerbaar bestand uit broncode te beheren.
-> Meer informatie: <https://www.gnu.org/software/make/manual/make.html>.
+> Meer informatie: <https://gnu.org/software/make/manual/make.html>.
 
 - Roep het eerste doel aan dat in de Makefile is gespecificeerd (meestal "all" genoemd):
 

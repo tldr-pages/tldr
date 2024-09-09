@@ -1,7 +1,7 @@
 # kismet
 
 > A wireless network and device detector, sniffer, wardriving tool, and WIDS (wireless intrusion detection) framework.
-> More information: <https://www.kismetwireless.net/>.
+> More information: <https://kismetwireless.net/>.
 
 - Capture packets from a specific wireless interface:
 

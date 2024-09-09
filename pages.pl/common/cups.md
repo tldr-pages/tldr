@@ -2,7 +2,7 @@
 
 > Otwarty system drukowania.
 > CUPS nie jest pojedynczym poleceniem, ale zestawem poleceń.
-> Więcej informacji: <https://www.cups.org/index.html>.
+> Więcej informacji: <https://cups.org/index.html>.
 
 - Zobacz dokumentację uruchamiania demona CUPS:
 

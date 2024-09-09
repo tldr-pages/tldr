@@ -1,7 +1,7 @@
 # grep
 
 > Find patterns in files using regular expressions.
-> More information: <https://www.gnu.org/software/grep/manual/grep.html>.
+> More information: <https://gnu.org/software/grep/manual/grep.html>.
 
 - Search for a pattern within a file:
 

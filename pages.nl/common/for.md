@@ -1,7 +1,7 @@
 # for
 
 > Voer een commando meerdere keren uit.
-> Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs>.
+> Meer informatie: <https://gnu.org/software/bash/manual/bash.html#Looping-Constructs>.
 
 - Voer de gegeven commando's uit voor elk van de opgegeven items:
 

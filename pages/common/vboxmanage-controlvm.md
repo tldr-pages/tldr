@@ -1,7 +1,7 @@
 # vboxmanage-controlvm
 
 > Change the state and the settings of a currently running virtual machine.
-> More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-controlvm>.
+> More information: <https://virtualbox.org/manual/ch08.html#vboxmanage-controlvm>.
 
 - Temporarily stop the execution of a virtual machine:
 

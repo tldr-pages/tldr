@@ -1,7 +1,7 @@
 # pg_isready
 
 > Check the connection status of a PostgreSQL server.
-> More information: <https://www.postgresql.org/docs/current/app-pg-isready.html>.
+> More information: <https://postgresql.org/docs/current/app-pg-isready.html>.
 
 - Check connection:
 

@@ -1,7 +1,7 @@
 # history expansion
 
 > Повторное использование и подстановка команд из списка истории в `sh`, Bash, Zsh, `rbash` and `ksh`.
-> Больше информации: <https://www.gnu.org/software/bash/manual/html_node/History-Interaction>.
+> Больше информации: <https://gnu.org/software/bash/manual/html_node/History-Interaction>.
 
 - Запустить предыдущую команду от имени суперпользователя (`!!` заменяется на предыдущую команду):
 

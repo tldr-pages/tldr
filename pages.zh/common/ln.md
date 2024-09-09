@@ -1,7 +1,7 @@
 # ln
 
 > 创建指向文件和目录的链接。
-> 更多信息：<https://www.gnu.org/software/coreutils/ln>.
+> 更多信息：<https://gnu.org/software/coreutils/ln>.
 
 - 创建指向文件或目录的符号链接：
 

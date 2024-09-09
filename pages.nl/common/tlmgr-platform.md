@@ -1,7 +1,7 @@
 # tlmgr platform
 
 > Beheer TeX Live platforms.
-> Meer informatie: <https://www.tug.org/texlive/tlmgr.html>.
+> Meer informatie: <https://tug.org/texlive/tlmgr.html>.
 
 - Toon alle beschikbare platforms in een pakket repository:
 

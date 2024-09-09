@@ -1,7 +1,7 @@
 # timeout
 
 > Run a command with a time limit.
-> More information: <https://www.gnu.org/software/coreutils/timeout>.
+> More information: <https://gnu.org/software/coreutils/timeout>.
 
 - Run `sleep 10` and terminate it after 3 seconds:
 

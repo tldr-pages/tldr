@@ -1,7 +1,7 @@
 # mkdir
 
 > 创建目录。
-> 更多信息：<https://www.gnu.org/software/coreutils/mkdir>.
+> 更多信息：<https://gnu.org/software/coreutils/mkdir>.
 
 - 在当前目录下创建多个目录：
 

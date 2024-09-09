@@ -2,7 +2,7 @@
 
 > Beheer Linode NodeBalancers.
 > Bekijk ook: `linode-cli`.
-> Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/nodebalancers/>.
+> Meer informatie: <https://linode.com/docs/products/tools/cli/guides/nodebalancers/>.
 
 - Toon alle NodeBalancers:
 

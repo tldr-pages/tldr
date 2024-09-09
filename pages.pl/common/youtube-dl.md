@@ -1,7 +1,7 @@
 # youtube-dl
 
 > Pobieraj wideo i audio z YouTube i podobnych portali.
-> Więcej informacji: <http://rg3.github.io/youtube-dl/>.
+> Więcej informacji: <https://rg3.github.io/youtube-dl/>.
 
 - Pobierz plik wideo lub wszystkie pliki z playlisty:
 

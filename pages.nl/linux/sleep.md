@@ -1,7 +1,7 @@
 # sleep
 
 > Wacht voor een gespecificeerde hoeveelheid tijd.
-> Meer informatie: <https://www.gnu.org/software/coreutils/sleep>.
+> Meer informatie: <https://gnu.org/software/coreutils/sleep>.
 
 - Wacht in seconden:
 

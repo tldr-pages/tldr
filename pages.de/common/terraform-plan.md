@@ -1,7 +1,7 @@
 # terraform plan
 
 > Erzeugen und Anzeigen von Terraform-Ausführungsplänen.
-> Weitere Informationen: <https://www.terraform.io/docs/cli/commands/plan.html>.
+> Weitere Informationen: <https://terraform.io/docs/cli/commands/plan.html>.
 
 - Erzeugen und Anzeigen des Ausführungsplans im aktuellen Verzeichnis:
 

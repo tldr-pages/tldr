@@ -1,7 +1,7 @@
 # bison
 
 > GNU parser generator.
-> More information: <https://www.gnu.org/software/bison/>.
+> More information: <https://gnu.org/software/bison/>.
 
 - Compile a bison definition file:
 

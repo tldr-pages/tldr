@@ -1,7 +1,7 @@
 # svcs
 
 > Geef informatie over actieve services.
-> Meer informatie: <https://www.unix.com/man-page/linux/1/svcs>.
+> Meer informatie: <https://unix.com/man-page/linux/1/svcs>.
 
 - Oplijsting van alle actieve services:
 

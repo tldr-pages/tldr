@@ -1,7 +1,7 @@
 # svccfg
 
 > Importuj, eksportuj i modyfikuj konfigurację usług.
-> Więcej informacji: <https://www.unix.com/man-page/linux/1m/svccfg>.
+> Więcej informacji: <https://unix.com/man-page/linux/1m/svccfg>.
 
 - Sprawdź poprawność pliku konfiguracyjnego:
 

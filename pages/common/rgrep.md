@@ -2,7 +2,7 @@
 
 > Recursively find patterns in files using regular expressions.
 > Equivalent to `grep -r`.
-> More information: <https://www.gnu.org/software/grep/manual/grep.html>.
+> More information: <https://gnu.org/software/grep/manual/grep.html>.
 
 - Recursively search for a pattern in the current working directory:
 

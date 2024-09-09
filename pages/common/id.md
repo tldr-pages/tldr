@@ -1,7 +1,7 @@
 # id
 
 > Display current user and group identity.
-> More information: <https://www.gnu.org/software/coreutils/id>.
+> More information: <https://gnu.org/software/coreutils/id>.
 
 - Display current user's ID (UID), group ID (GID) and groups to which they belong:
 

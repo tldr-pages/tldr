@@ -2,7 +2,7 @@
 
 > Alat pemecah masalah untuk menelusuri panggilan sistem.
 > Perintah setara strace untuk SunOS.
-> Informasi lebih lanjut: <https://www.unix.com/man-page/linux/1/truss>.
+> Informasi lebih lanjut: <https://unix.com/man-page/linux/1/truss>.
 
 - Telusuri sebuah program dengan mengeksekusinya dan mengawasi semua proses turunan:
 

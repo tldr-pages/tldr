@@ -2,7 +2,7 @@
 
 > Pas tekst aan in een op een scriptbare manier.
 > Bekijk ook: `awk`, `ed`.
-> Meer informatie: <https://www.gnu.org/software/sed/manual/sed.html>.
+> Meer informatie: <https://gnu.org/software/sed/manual/sed.html>.
 
 - Vervang alle `apple` (basis regex) met `mango` (basis regex) in alle invoerregels en toon het resultaat in `stdout`:
 

@@ -1,7 +1,7 @@
 # ac
 
 > Zeigt an, wie lange Benutzer verbunden waren.
-> Weitere Informationen: <https://www.gnu.org/software/acct/manual/accounting.html#ac>.
+> Weitere Informationen: <https://gnu.org/software/acct/manual/accounting.html#ac>.
 
 - Zeige, wie viele Stunden der aktuelle Benutzer verbunden war:
 

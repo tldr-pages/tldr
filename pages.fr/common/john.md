@@ -1,7 +1,7 @@
 # john
 
 > Outil de cassage de mot de passe.
-> Plus d'informations : <https://www.openwall.com/john/>.
+> Plus d'informations : <https://openwall.com/john/>.
 
 - Craque les hashs de mots de passe :
 

@@ -1,7 +1,7 @@
 # env
 
 > Toon de omgeving of voer een programma uit in een aangepaste omgeving.
-> Meer informatie: <https://www.gnu.org/software/coreutils/env>.
+> Meer informatie: <https://gnu.org/software/coreutils/env>.
 
 - Toon de environment:
 

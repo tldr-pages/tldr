@@ -1,7 +1,7 @@
 # prctl
 
 > Ambil atau atur sumber daya dari proses, tugas dan projek yang berjalan.
-> Informasi lebih lanjut: <https://www.unix.com/man-page/sunos/1/prctl>.
+> Informasi lebih lanjut: <https://unix.com/man-page/sunos/1/prctl>.
 
 - Periksa batas dan perizinan proses:
 

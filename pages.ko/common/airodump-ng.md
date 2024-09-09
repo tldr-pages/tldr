@@ -2,7 +2,7 @@
 
 > 패킷을 캡처하고, 무선 네트워크에 대한 정보를 표시.
 > `aircrack-ng`의 일부.
-> 더 많은 정보: <https://www.aircrack-ng.org/doku.php?id=airodump-ng>.
+> 더 많은 정보: <https://aircrack-ng.org/doku.php?id=airodump-ng>.
 
 - 2.4GHz 대역의 무선 네트워크에 대한 패킷을 캡처하고 정보를 표시:
 

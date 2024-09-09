@@ -1,7 +1,7 @@
 # chown
 
 > مالک فایل یا پوشه را تغییر میدهد.
-> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/chown>.
+> اطلاعات بیشتر: <https://gnu.org/software/coreutils/chown>.
 
 - تغییر مالک یه فایل یا پوشه:
 

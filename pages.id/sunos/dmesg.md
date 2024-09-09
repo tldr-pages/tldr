@@ -1,7 +1,7 @@
 # dmesg
 
 > Tulis pesan kernel ke `stdout`.
-> Informasi lebih lanjut: <https://www.unix.com/man-page/sunos/1m/dmesg>.
+> Informasi lebih lanjut: <https://unix.com/man-page/sunos/1m/dmesg>.
 
 - Tampilkan pesan kernel:
 

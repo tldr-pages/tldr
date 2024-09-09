@@ -2,7 +2,7 @@
 
 > Scarica file dal Web.
 > Supporta HTTP, HTTPS, FTP.
-> Maggiori informazioni: <https://www.gnu.org/software/wget>.
+> Maggiori informazioni: <https://gnu.org/software/wget>.
 
 - Scarica il contenuto dell'URL in un file (dal nome "abcd" in questo caso):
 

@@ -1,7 +1,7 @@
 # zint
 
 > Genera códigos de barras y códigos QR.
-> Más información: <https://www.zint.org.uk/manual/chapter/4>.
+> Más información: <https://zint.org.uk/manual/chapter/4>.
 
 - Crea un archivo con un código de barras:
 

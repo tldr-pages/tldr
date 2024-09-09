@@ -1,7 +1,7 @@
 # prstat
 
 > Laporkan statistik proses aktif.
-> Informasi lebih lanjut: <https://www.unix.com/man-page/sunos/1m/prstat>.
+> Informasi lebih lanjut: <https://unix.com/man-page/sunos/1m/prstat>.
 
 - Periksa semua proses dan laporan statistik yang diurutkan berdasarkan tingkat penggunaan CPU:
 

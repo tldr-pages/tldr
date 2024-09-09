@@ -1,7 +1,7 @@
 # grep
 
 > Find mønstre i filer via regulære udtryk (regular expressions).
-> Mere information: <https://www.gnu.org/software/grep/manual/grep.html>.
+> Mere information: <https://gnu.org/software/grep/manual/grep.html>.
 
 - Søg efter et mønster i en fil:
 

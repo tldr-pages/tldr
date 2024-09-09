@@ -1,7 +1,7 @@
 # basename
 
 > Verwijder voorlopende map delen van een pad.
-> Meer informatie: <https://www.gnu.org/software/coreutils/basename>.
+> Meer informatie: <https://gnu.org/software/coreutils/basename>.
 
 - Toon alleen de bestandsnaam van een pad:
 

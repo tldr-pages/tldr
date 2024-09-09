@@ -1,7 +1,7 @@
 # vboxmanage-export
 
 > Export virtual machines to a virtual appliance (ISO) or a cloud service.
-> More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-export>.
+> More information: <https://virtualbox.org/manual/ch08.html#vboxmanage-export>.
 
 - Specify the target OVA file:
 

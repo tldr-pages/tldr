@@ -2,7 +2,7 @@
 
 > Öffnet Dateien in einem laufenden Emacs-Server.
 > Siehe auch `emacs`.
-> Weitere Informationen: <https://www.emacswiki.org/emacs/EmacsClient>.
+> Weitere Informationen: <https://emacswiki.org/emacs/EmacsClient>.
 
 - Öffne eine Datei in einem laufenden Emacs-Server (mit GUI wenn möglich):
 

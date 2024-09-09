@@ -1,7 +1,7 @@
 # paste
 
 > Voeg regels van bestanden samen.
-> Meer informatie: <https://www.gnu.org/software/coreutils/paste>.
+> Meer informatie: <https://gnu.org/software/coreutils/paste>.
 
 - Voeg alle regels samen tot één enkele regel, met TAB als scheidingsteken:
 

@@ -1,7 +1,7 @@
 # cat
 
 > Print en concateneer bestanden.
-> Meer informatie: <https://www.gnu.org/software/coreutils/cat>.
+> Meer informatie: <https://gnu.org/software/coreutils/cat>.
 
 - Print de inhoud van een bestand naar `stdout`:
 

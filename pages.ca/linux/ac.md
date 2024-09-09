@@ -1,7 +1,7 @@
 # ac
 
 > Imprimeix estadístiques sonre el temps de connexió dels usuaris.
-> Més informació: <https://www.gnu.org/software/acct/manual/accounting.html#ac>.
+> Més informació: <https://gnu.org/software/acct/manual/accounting.html#ac>.
 
 - Imprimeix el temps de connexió del usuari actual en hores:
 

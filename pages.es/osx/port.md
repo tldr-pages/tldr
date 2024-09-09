@@ -1,7 +1,7 @@
 # port
 
 > Gestor de paquetes para macOS.
-> Más información: <https://www.macports.org>.
+> Más información: <https://macports.org>.
 
 - Busca un paquete:
 

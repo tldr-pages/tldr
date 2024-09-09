@@ -1,7 +1,7 @@
 # prstat
 
 > Rapportering van de statistieken van actieve processen.
-> Meer informatie: <https://www.unix.com/man-page/sunos/1m/prstat>.
+> Meer informatie: <https://unix.com/man-page/sunos/1m/prstat>.
 
 - Bekijken alle processen en rapporteer de statieken gestoord op basis van CPU gebruik:
 

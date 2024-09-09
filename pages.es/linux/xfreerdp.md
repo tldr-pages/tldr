@@ -1,7 +1,7 @@
 # xfreerdp
 
 > Implementación libre del protocolo de escritorio remoto (_Remote Desktop Protocol_).
-> Más información: <https://www.freerdp.com>.
+> Más información: <https://freerdp.com>.
 
 - Conecta con un servidor FreeRDP:
 

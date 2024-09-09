@@ -2,7 +2,7 @@
 
 > Captura paquetes y muestra información sobre redes inalámbricas.
 > Parte de `aircrack-ng`.
-> Más información: <https://www.aircrack-ng.org/doku.php?id=airodump-ng>.
+> Más información: <https://aircrack-ng.org/doku.php?id=airodump-ng>.
 
 - Captura paquetes y muestra información sobre una red inalámbrica:
 

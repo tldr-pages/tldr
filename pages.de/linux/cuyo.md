@@ -1,7 +1,7 @@
 # cuyo
 
 > Tetris-ähnliches Spiel.
-> Weitere Informationen: <https://www.karimmi.de/cuyo/>.
+> Weitere Informationen: <https://karimmi.de/cuyo/>.
 
 - Starte ein neues Spiel:
 

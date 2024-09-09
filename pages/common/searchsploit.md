@@ -2,7 +2,7 @@
 
 > Search Exploit Database for exploits, shellcodes and/or papers.
 > If known version numbers are used as search terms, exploits for both the exact version and others whose version range covers the one specified are shown.
-> More information: <https://www.exploit-db.com/searchsploit>.
+> More information: <https://exploit-db.com/searchsploit>.
 
 - Search for an exploit, shellcode, or paper:
 

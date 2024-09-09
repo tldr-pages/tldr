@@ -2,7 +2,7 @@
 
 > Zuletzt besuchte Ordner anzeigen und verändern.
 > Die Liste der zuletzt besuchten Ordner kann mit `pushd` und `popd` verändert werden.
-> Weitere Informationen: <https://www.gnu.org/software/bash/manual/bash.html#Directory-Stack-Builtins>.
+> Weitere Informationen: <https://gnu.org/software/bash/manual/bash.html#Directory-Stack-Builtins>.
 
 - Zeige die zuletzt besuchten Ordner durch Leerzeichen getrennt an:
 

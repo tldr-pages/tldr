@@ -1,7 +1,7 @@
 # kcadm.sh
 
 > Perform administration tasks.
-> More information: <https://www.keycloak.org/docs/latest/server_admin/#admin-cli>.
+> More information: <https://keycloak.org/docs/latest/server_admin/#admin-cli>.
 
 - Start an authenticated session:
 

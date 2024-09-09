@@ -1,7 +1,7 @@
 # gzip
 
 > Compacta/descompacta arquivos com compressão gzip (LZ77).
-> Mais informações: <https://www.gnu.org/software/gzip/manual/gzip.html>.
+> Mais informações: <https://gnu.org/software/gzip/manual/gzip.html>.
 
 - Compacta um arquivo, substituindo-o por uma versão compactada gzip:
 

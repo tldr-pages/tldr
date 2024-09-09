@@ -2,7 +2,7 @@
 
 > Copy files and set attributes.
 > Copy files (often executable) to a system location like `/usr/local/bin`, give them the appropriate permissions/ownership.
-> More information: <https://www.gnu.org/software/coreutils/install>.
+> More information: <https://gnu.org/software/coreutils/install>.
 
 - Copy files to the destination:
 

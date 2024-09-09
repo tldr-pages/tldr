@@ -1,7 +1,7 @@
 # grep
 
 > Поиск по шаблону в файлах используя регулярные выражения.
-> Больше информации: <https://www.gnu.org/software/grep/manual/grep.html>.
+> Больше информации: <https://gnu.org/software/grep/manual/grep.html>.
 
 - Искать в файле по шаблону:
 

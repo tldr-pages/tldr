@@ -2,7 +2,7 @@
 
 > Exibe detalhes sobre a máquina atual e o sistema operacional em execução nela.
 > Veja também `lsb_release`.
-> Mais informações: <https://www.gnu.org/software/coreutils/uname>.
+> Mais informações: <https://gnu.org/software/coreutils/uname>.
 
 - Exibe o nome do kernel:
 

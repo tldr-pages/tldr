@@ -1,7 +1,7 @@
 # dmesg
 
 > கர்னல் செய்திகளை நிலையான வெளியீட்டிற்கு எழுதவும்.
-> மேலும் விவரத்திற்கு: <https://www.unix.com/man-page/sunos/1m/dmesg>.
+> மேலும் விவரத்திற்கு: <https://unix.com/man-page/sunos/1m/dmesg>.
 
 - கர்னல் செய்திகளைக் காட்டு:
 

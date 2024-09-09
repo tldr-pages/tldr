@@ -2,7 +2,7 @@
 
 > Ferramenta de execução de tarefas para os destinos descritos no Makefile.
 > Principalmente utilizada para controlar a compilação de um executável a partir do código-fonte.
-> Mais informações: <https://www.gnu.org/software/make/manual/make.html>.
+> Mais informações: <https://gnu.org/software/make/manual/make.html>.
 
 - Executa o primeiro destino especificado no Makefile (geralmente chamado de "all"):
 

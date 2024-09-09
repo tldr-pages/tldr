@@ -2,7 +2,7 @@
 
 > Beheer Linode accounts.
 > Bekijk ook: `linode-cli`.
-> Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/account/>.
+> Meer informatie: <https://linode.com/docs/products/tools/cli/guides/account/>.
 
 - Bekijk account:
 

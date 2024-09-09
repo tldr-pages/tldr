@@ -2,7 +2,7 @@
 
 > Activa el modo monitor en dispositivos de red inalámbricos.
 > Parte de `aircrack-ng`.
-> Más información: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
+> Más información: <https://aircrack-ng.org/doku.php?id=airmon-ng>.
 
 - Lista dispositivos inalámbricos y sus estados:
 

@@ -2,7 +2,7 @@
 
 > Manage Linode Kubernetes Engine (LKE) clusters.
 > See also: `linode-cli`.
-> More information: <https://www.linode.com/docs/products/tools/cli/guides/linode-kubernetes-engine/>.
+> More information: <https://linode.com/docs/products/tools/cli/guides/linode-kubernetes-engine/>.
 
 - List all LKE clusters:
 

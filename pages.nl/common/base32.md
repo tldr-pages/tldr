@@ -1,7 +1,7 @@
 # base32
 
 > Codeer of decodeer een bestand of `stdin` van/naar Base32 naar `stdout`.
-> Meer informatie: <https://www.gnu.org/software/coreutils/base32>.
+> Meer informatie: <https://gnu.org/software/coreutils/base32>.
 
 - Encodeer een bestand:
 

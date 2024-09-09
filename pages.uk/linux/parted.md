@@ -2,7 +2,7 @@
 
 > Програма для роботи з розділами.
 > Дивіться також: `partprobe`.
-> Більше інформації: <https://www.gnu.org/software/parted/parted.html>.
+> Більше інформації: <https://gnu.org/software/parted/parted.html>.
 
 - Перелічити розділи на всіх блокових пристроях:
 

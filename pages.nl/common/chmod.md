@@ -1,7 +1,7 @@
 # chmod
 
 > Verander de toegangstoestemmingen van een bestand of map.
-> Meer informatie: <https://www.gnu.org/software/coreutils/chmod>.
+> Meer informatie: <https://gnu.org/software/coreutils/chmod>.
 
 - Geef een gebruiker ([u]ser) die het bestand beheert het recht om deze uit te voeren (e[x]ecute):
 

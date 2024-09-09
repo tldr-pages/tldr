@@ -1,7 +1,7 @@
 # socat
 
 > Multipurpose relay (SOcket CAT).
-> More information: <http://www.dest-unreach.org/socat/>.
+> More information: <https://manned.org/man/socat>.
 
 - Listen to a port, wait for an incoming connection and transfer data to STDIO:
 

@@ -1,7 +1,7 @@
 # uname
 
 > Uname toont informatie over de machine en het besturingssysteem waarop het wordt uitgevoerd.
-> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
+> Meer informatie: <https://gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - Toon alle informatie:
 

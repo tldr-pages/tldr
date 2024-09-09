@@ -1,7 +1,7 @@
 # mupdf
 
 > A lightweight PDF, XPS, and E-book viewer.
-> More information: <https://www.mupdf.com>.
+> More information: <https://mupdf.com>.
 
 - Open a PDF on the first page:
 

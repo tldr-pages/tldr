@@ -1,7 +1,7 @@
 # printenv
 
 > Toon waarden van alle of specifieke omgevingsvariabelen.
-> Meer informatie: <https://www.gnu.org/software/coreutils/printenv>.
+> Meer informatie: <https://gnu.org/software/coreutils/printenv>.
 
 - Toon key-value paren van alle omgevingsvariabelen:
 

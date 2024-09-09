@@ -1,7 +1,7 @@
 # avrdude
 
 > Pilotes pour programmer les microcontrôleurs Atmel AVR.
-> Plus d'informations : <https://www.nongnu.org/avrdude/>.
+> Plus d'informations : <https://nongnu.org/avrdude/>.
 
 - Lire le contenu du microcontrôleur AVR :
 

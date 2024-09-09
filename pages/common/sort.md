@@ -1,7 +1,7 @@
 # sort
 
 > Sort lines of text files.
-> More information: <https://www.gnu.org/software/coreutils/sort>.
+> More information: <https://gnu.org/software/coreutils/sort>.
 
 - Sort a file in ascending order:
 

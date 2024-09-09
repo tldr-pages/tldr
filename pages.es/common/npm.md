@@ -2,7 +2,7 @@
 
 > Gestor de paquetes JavaScript y Node.js.
 > Gestiona proyectos de Node.js y sus módulos de dependencias.
-> Más información: <https://www.npmjs.com>.
+> Más información: <https://npmjs.com>.
 
 - Creación interactiva de un archivo `package.json`:
 

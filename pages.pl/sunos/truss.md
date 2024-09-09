@@ -2,7 +2,7 @@
 
 > Narzędzie do rozwiązywania problemów poprzez śledzenie wywołań systemowych.
 > Odpowiednik strace w SunOS.
-> Więcej informacji: <https://www.unix.com/man-page/linux/1/truss>.
+> Więcej informacji: <https://unix.com/man-page/linux/1/truss>.
 
 - Rozpocznij śledzenie programu, wykonując go i śledząc wszystkie procesy potomne:
 

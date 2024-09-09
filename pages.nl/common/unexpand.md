@@ -1,7 +1,7 @@
 # unexpand
 
 > Converteer spaties naar tabs.
-> Meer informatie: <https://www.gnu.org/software/coreutils/unexpand>.
+> Meer informatie: <https://gnu.org/software/coreutils/unexpand>.
 
 - Converteer spaties in elk bestand naar tabs en schrijf naar `stdout`:
 

@@ -2,7 +2,7 @@
 
 > 무선 네트워크 장치에서 모니터 모드를 활성화.
 > `aircrack-ng`의 일부.
-> 더 많은 정보: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
+> 더 많은 정보: <https://aircrack-ng.org/doku.php?id=airmon-ng>.
 
 - 무선 장치 및 상태를 나열:
 

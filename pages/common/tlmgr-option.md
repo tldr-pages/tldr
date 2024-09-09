@@ -1,7 +1,7 @@
 # tlmgr option
 
 > TeX Live settings manager.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://tug.org/texlive/tlmgr.html>.
 
 - List all TeX Live settings:
 

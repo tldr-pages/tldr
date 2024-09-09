@@ -1,7 +1,7 @@
 # wc
 
 > Zlicza linie, słowa, i bajty.
-> Więcej informacji: <https://www.gnu.org/software/coreutils/wc>.
+> Więcej informacji: <https://gnu.org/software/coreutils/wc>.
 
 - Policz linie w pliku:
 

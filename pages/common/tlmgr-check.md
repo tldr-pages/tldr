@@ -1,7 +1,7 @@
 # tlmgr check
 
 > Check the consistency of a TeX Live installation.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://tug.org/texlive/tlmgr.html>.
 
 - Check the consistency of the whole TeX Live installation:
 

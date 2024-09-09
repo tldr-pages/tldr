@@ -1,7 +1,7 @@
 # wc
 
 > 计数行、单词或字节。
-> 更多信息：<https://www.gnu.org/software/coreutils/wc>.
+> 更多信息：<https://gnu.org/software/coreutils/wc>.
 
 - 计数文件中的行数：
 

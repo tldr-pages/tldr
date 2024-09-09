@@ -1,7 +1,7 @@
 # ln
 
 > Maakt een verwijzing naar bestanden en mappen.
-> Meer informatie: <https://www.gnu.org/software/coreutils/ln>.
+> Meer informatie: <https://gnu.org/software/coreutils/ln>.
 
 - Maak een symbolische verwijzing naar een bestand of map:
 

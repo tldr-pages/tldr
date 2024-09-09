@@ -1,7 +1,7 @@
 # azurite
 
 > Azure Storage API compatible server (emulator) in local environment.
-> More information: <https://www.npmjs.com/package/azurite>.
+> More information: <https://npmjs.com/package/azurite>.
 
 - Use an existing location as workspace path:
 

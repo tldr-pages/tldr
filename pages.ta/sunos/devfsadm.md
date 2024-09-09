@@ -1,7 +1,7 @@
 # devfsadm
 
 > `/dev` க்கான நிர்வாக கட்டளை. `/dev` பெயர்வெளியை பராமரிக்கிறது.
-> மேலும் விவரத்திற்கு: <https://www.unix.com/man-page/sunos/1m/devfsadm>.
+> மேலும் விவரத்திற்கு: <https://unix.com/man-page/sunos/1m/devfsadm>.
 
 - புதிய டிஸ்க்குகளை ஸ்கேன் செய்யவும்:
 

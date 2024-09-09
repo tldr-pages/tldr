@@ -2,7 +2,7 @@
 
 > Toon bestandsinhoud in octale, decimale of hexadecimale notatie.
 > Toon optioneel de byte-offsets en/of de afdrukbare weergave voor elke regel.
-> Meer informatie: <https://www.gnu.org/software/coreutils/od>.
+> Meer informatie: <https://gnu.org/software/coreutils/od>.
 
 - Toon bestand met de standaardinstellingen: octale notatie, 8 bytes per regel, byte-offsets in octale notatie en dubbele regels vervangen door `*`:
 

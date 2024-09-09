@@ -1,7 +1,7 @@
 # wc
 
 > Compte les lignes, les mots ou les octets.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/wc>.
+> Plus d'informations : <https://gnu.org/software/coreutils/wc>.
 
 - Compte les lignes d'un fichier :
 

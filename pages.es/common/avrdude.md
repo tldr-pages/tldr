@@ -1,7 +1,7 @@
 # avrdude
 
 > Programa controlador para la programación de microcontroladores Atmel AVR.
-> Más información: <https://www.nongnu.org/avrdude/>.
+> Más información: <https://nongnu.org/avrdude/>.
 
 - Lee el microcontrolador AVR:
 

@@ -1,7 +1,7 @@
 # avo
 
 > Avo의 공식 인터넷 명령어 라인 인터페이스.
-> 더 많은 정보: <https://www.avo.app/docs/implementation/cli>.
+> 더 많은 정보: <https://avo.app/docs/implementation/cli>.
 
 - 현재 디렉터리에서 작업 공간 초기화:
 

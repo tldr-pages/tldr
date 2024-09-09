@@ -1,7 +1,7 @@
 # webstorm
 
 > The JetBrains JavaScript IDE.
-> More information: <https://www.jetbrains.com/help/webstorm/working-with-the-ide-features-from-command-line.html>.
+> More information: <https://jetbrains.com/help/webstorm/working-with-the-ide-features-from-command-line.html>.
 
 - Open the current directory in WebStorm:
 

@@ -1,7 +1,7 @@
 # base64
 
 > Encodeer of decodeer een bestand of `stdin` van/naar Base64 naar `stdout`.
-> Meer informatie: <https://www.gnu.org/software/coreutils/base64>.
+> Meer informatie: <https://gnu.org/software/coreutils/base64>.
 
 - Encodeer een bestand:
 

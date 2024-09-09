@@ -2,7 +2,7 @@
 
 > Code generation tool provided by the Go RPC framework Kitex.
 > Kitex accepts both thrift and protobuf IDLs, and supports generating a skeleton of a server side project.
-> More information: <https://www.cloudwego.io>.
+> More information: <https://cloudwego.io>.
 
 - Generate client codes when a project is in `$GOPATH`:
 

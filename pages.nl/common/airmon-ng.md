@@ -2,7 +2,7 @@
 
 > Activeer de monitormodus op draadloze netwerkapparaten.
 > Deel van `aircrack-ng`.
-> Meer informatie: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
+> Meer informatie: <https://aircrack-ng.org/doku.php?id=airmon-ng>.
 
 - Maak een lijst van draadloze apparaten en hun statussen:
 

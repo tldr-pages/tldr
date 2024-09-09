@@ -1,7 +1,7 @@
 # jhead
 
 > Manipulation der Zeitstempel und EXIF Daten in Bilddateien.
-> Weitere Informationen: <https://www.sentex.net/~mwandel/jhead/usage.html>.
+> Weitere Informationen: <https://sentex.net/~mwandel/jhead/usage.html>.
 
 - Zeige alle EXIF Daten eines JPEG Bildes:
 

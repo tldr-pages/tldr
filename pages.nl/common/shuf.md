@@ -1,7 +1,7 @@
 # shuf
 
 > Genereer willekeurige permutaties.
-> Meer informatie: <https://www.gnu.org/software/coreutils/shuf>.
+> Meer informatie: <https://gnu.org/software/coreutils/shuf>.
 
 - Wijzig willekeurig de volgorde van regels in een bestand en toon het resultaat:
 

@@ -1,7 +1,7 @@
 # dirname
 
 > Berekent de bovenliggende map van een bestand of map.
-> Meer informatie: <https://www.gnu.org/software/coreutils/dirname>.
+> Meer informatie: <https://gnu.org/software/coreutils/dirname>.
 
 - Bereken de bovenliggende map van een opgegeven pad:
 

@@ -1,7 +1,7 @@
 # prctl
 
 > Çalışan işlemlerin, görevlerin ve projelerin kaynak kontrollerini öğren veya belirle.
-> Daha fazla bilgi için: <https://www.unix.com/man-page/sunos/1/prctl>.
+> Daha fazla bilgi için: <https://unix.com/man-page/sunos/1/prctl>.
 
 - Belirtilen işlemin limit ve izinlerini incele:
 

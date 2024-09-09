@@ -1,7 +1,7 @@
 # convmv
 
 > 한 인코딩에서 다른 인코딩으로 파일 이름(파일 내용 X)을 변환.
-> 더 많은 정보: <https://www.j3e.de/linux/convmv/man/>.
+> 더 많은 정보: <https://j3e.de/linux/convmv/man/>.
 
 - 파일 이름 인코딩 변환 테스트(파일 이름을 실제로 변경하지 마십시오):
 

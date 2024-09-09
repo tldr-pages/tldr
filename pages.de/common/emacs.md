@@ -2,7 +2,7 @@
 
 > Der erweiterbare, veränderbare und selbst-dokumentierende Echtzeit Text Editor.
 > Siehe auch `emacsclient`.
-> Weitere Informationen: <https://www.gnu.org/software/emacs>.
+> Weitere Informationen: <https://gnu.org/software/emacs>.
 
 - Öffne eine Datei in Emacs:
 

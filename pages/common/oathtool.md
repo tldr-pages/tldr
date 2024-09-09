@@ -1,7 +1,7 @@
 # oathtool
 
 > OATH one-time password tool.
-> More information: <https://www.nongnu.org/oath-toolkit/oathtool.1.html>.
+> More information: <https://nongnu.org/oath-toolkit/oathtool.1.html>.
 
 - Generate TOTP token (behaves like Google Authenticator):
 

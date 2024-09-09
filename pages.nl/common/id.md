@@ -1,7 +1,7 @@
 # id
 
 > Toon de huidige gebruikers- en groepsidentiteit.
-> Meer informatie: <https://www.gnu.org/software/coreutils/id>.
+> Meer informatie: <https://gnu.org/software/coreutils/id>.
 
 - Toon de ID (UID), groep-ID (GID) en groepen waartoe de huidige gebruiker behoort:
 
