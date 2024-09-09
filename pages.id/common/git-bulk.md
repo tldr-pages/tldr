@@ -18,7 +18,7 @@
 
 - Gandakan lebih dari satu repositori ke dalam direktori induk tertentu (menurut berkas daftar lokasi remote yang dipisah dengan barisan baru), kemudian masukkan sebagai tempat kerja:
 
-`git bulk --addworkspace {{nama_workspace}} {{/jalan/absolut/menuju/direktori_induk}} --from {/jalan/absolut/menuju/berkas}}`
+`git bulk --addworkspace {{nama_workspace}} {{/jalan/absolut/menuju/direktori_induk}} --from {{/jalan/absolut/menuju/berkas}}`
 
 - Tampilkan daftar seluruh tempat kerja yang terdaftar:
 
