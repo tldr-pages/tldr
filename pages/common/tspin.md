@@ -11,7 +11,7 @@
 
 `journalctl -b --follow | tspin`
 
-- Read from file and print to stdout:
+- Read from file and print to `stdout`:
 
 `tspin {{application.log}} --print`
 
