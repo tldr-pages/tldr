@@ -1,7 +1,7 @@
 # docker build
 
 > 从 Dockerfile 打包镜像。
-> 更多信息：<https://docs.docker.com/engine/reference/commandline/build/>.
+> 更多信息：<https://docs.docker.com/reference/cli/docker/buildx/build/>.
 
 - 使用当前目录下的 Dockerfile 打包一个 Docker 镜像：
 

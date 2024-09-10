@@ -17,7 +17,7 @@
 
 - Bungkus objek dan referensi untuk perubahan sejak 7 hari terakhir:
 
-`git bundle create {{jalan/menuju/berkas.bundle}} --since={{7.days}} {{HEAD}}`
+`git bundle create {{jalan/menuju/berkas.bundle}} --since {{7.days}} {{HEAD}}`
 
 - Cek apakah suatu berkas bundle bersifat valid dan dapat diaplikasikan ke dalam repositori saat ini:
 
@@ -30,3 +30,7 @@
 - Buka dan pakai isi bungkusan untuk suatu cabang pada repositori saat ini:
 
 `git pull {{jalan/menuju/berkas.bundle}} {{nama_cabang}}`
+
+- Buat sebuah repositori baru dari suatu berkas bundle:
+
+`git clone {{jalan/menuju/berkas.bundle}}`

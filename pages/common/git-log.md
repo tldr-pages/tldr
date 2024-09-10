@@ -25,7 +25,7 @@
 
 - Show only commits with messages that include a specific string, ignoring case:
 
-`git log {{--regexp-ignore-case|-i}} --grep {{search_string}}`
+`git log {{-i|--regexp-ignore-case}} --grep {{search_string}}`
 
 - Show the last N number of commits from a certain author:
 

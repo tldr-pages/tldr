@@ -111,6 +111,26 @@ function check_outdated_page() {
   fi
 }
 
+function check_more_info_link() {
+  local page=$1
+
+  grep "$page" "more-info-links.txt" > /dev/null
+
+  if [ $? -eq 0 ]; then
+      printf "\x2d $MSG_MORE_INFO" "$page"
+  fi
+}
+
+function check_page_title() {
+  local page=$1
+
+  grep "$page" "page-titles.txt" > /dev/null
+
+  if [ $? -eq 0 ]; then
+      printf "\x2d $MSG_PAGE_TITLE" "$page"
+  fi
+}
+
 # Look at git diff and check for copied/duplicated pages.
 function check_diff {
   local git_diff
@@ -125,6 +145,9 @@ function check_diff {
     echo 'Check PR: git diff looks fine, no interesting changes detected.' >&2
     return 0
   fi
+
+  python3 scripts/set-more-info-link.py -Sn > more-info-links.txt
+  python3 scripts/set-page-title.py -Sn > page-titles.txt
 
   while read line; do
     readarray -td$'\t' entry < <(echo -n "$line")
@@ -146,10 +169,14 @@ function check_diff {
         check_duplicates "$file1"
         check_missing_english_page "$file1"
         check_outdated_page "$file1"
+        check_more_info_link "$file1"
+        check_page_title "$file1"
         ;;
       M) # file1 was modified
         check_missing_english_page "$file1"
         check_outdated_page "$file1"
+        check_more_info_link "$file1"
+        check_page_title "$file1"
         ;;
     esac
   done <<< "$git_diff"
@@ -183,6 +210,8 @@ MSG_IS_COPY='The page `%s` seems to be a copy of `%s` (%d%% matching).\n'
 MSG_NOT_DIR='The file `%s` does not look like a directory.\n'
 MSG_NOT_FILE='The file `%s` does not look like a regular file.\n'
 MSG_NOT_MD='The file `%s` does not have a `.md` extension.\n'
+MSG_MORE_INFO='The page `%s` has an outdated more info link.\n'
+MSG_PAGE_TITLE='The page `%s` has an outdated page title.\n'
 
 PLATFORMS=$(ls pages/)
 

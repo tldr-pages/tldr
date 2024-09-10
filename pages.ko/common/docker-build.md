@@ -1,7 +1,7 @@
 # docker build
 
 > 도커파일로부터 이미지 빌드.
-> 더 많은 정보: <https://docs.docker.com/engine/reference/commandline/build/>.
+> 더 많은 정보: <https://docs.docker.com/reference/cli/docker/buildx/build/>.
 
 - 현재 디렉토리 안의 도커파일을 이용해 도커 이미지 빌드:
 

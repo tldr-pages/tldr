@@ -22,4 +22,4 @@
 
 - Śledź proces filtrując dane wyjściowe według wywołania systemowego:
 
-`truss -p {{pid}} -t {{nazwa_wywolania_systemowego}}`
+`truss -p {{pid}} -t {{nazwa_wywołania_systemowego}}`

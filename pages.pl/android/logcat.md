@@ -7,7 +7,7 @@
 
 `logcat`
 
-- Zapisz logi systemowe do pliku:
+- Zapisz logi systemowe do pliku ([f]ile):
 
 `logcat -f {{ścieżka/do/pliku}}`
 
