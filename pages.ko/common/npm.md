@@ -18,11 +18,11 @@
 
 - 최신 버전의 패키지를 다운로드하여 `package.json`의 개발 의존성 목록에 추가:
 
-`npm install {{패키지_이름}} --save-dev`
+`npm install {{패키지_이름}} {{-D|--save-dev}}`
 
 - 최신 버전의 패키지를 다운로드하여 전역적으로 설치:
 
-`npm install --global {{패키지_이름}}`
+`npm install {{-g|--global}} {{패키지_이름}}`
 
 - 패키지를 제거하고 `package.json`의 의존성 목록에서 제거:
 
@@ -34,4 +34,4 @@
 
 - 전역적으로 설치된 최상위 패키지 나열:
 
-`npm list --global --depth={{0}}`
+`npm list {{-g|--global}} --depth {{0}}`

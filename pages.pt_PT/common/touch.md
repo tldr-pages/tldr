@@ -2,7 +2,7 @@
 
 > Atualizar as timestamps de um ficheiro para a hora atual.
 > Se o ficheiro não existir, cria um ficheiro vazio, a menos que seja passado o parâmetro -c ou -h.
-> Mais informações: <https://manned.org/man/freebsd-13.1/touch>.
+> Mais informações: <https://manned.org/touch>.
 
 - Cria um novo ficheiro vazio, ou atualizar as timestamps para a hora atual:
 

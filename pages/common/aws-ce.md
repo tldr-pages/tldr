@@ -1,4 +1,4 @@
-# awe-ce
+# aws-ce
 
 > Analyze and manage access controls and security settings within your Cloud Environment.
 > More information: <https://awe-ce-cli.documentation.com/latest/reference/awe-ce/index.html>.
