@@ -114,7 +114,7 @@ function check_outdated_page() {
 function check_more_info_link() {
   local page=$1
 
-  python3 scripts/set-more-info-link.py -Sn | grep "$page" > /dev/null
+  grep "$page" "more-info-links.txt" > /dev/null
 
   if [ $? -eq 0 ]; then
       printf "\x2d $MSG_MORE_INFO" "$page"
@@ -135,6 +135,8 @@ function check_diff {
     echo 'Check PR: git diff looks fine, no interesting changes detected.' >&2
     return 0
   fi
+
+  python3 scripts/set-more-info-link.py -Sn > more-info-links.txt
 
   while read line; do
     readarray -td$'\t' entry < <(echo -n "$line")
