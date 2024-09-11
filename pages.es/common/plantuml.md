@@ -31,6 +31,6 @@
 
 `plantuml -config {{config.cfg}} {{diagrama.puml}}`
 
-- Mostra la ayuda:
+- Muestra la ayuda:
 
 `plantuml -help`
