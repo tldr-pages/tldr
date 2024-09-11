@@ -9,4 +9,16 @@
 
 - Restore a partition layout:
 
-`sudo sfdisk {{path/to/device}} < {{path/to/file.dump}}`
+`sudo sfdisk {{/dev/sdX}} < {{path/to/file.dump}}`
+
+- Set the type of a partition:
+
+`sfdisk --part-type {{/dev/sdX}} {{partition_number}} {{swap}}`
+
+- Delete a partition:
+
+`sfdisk --delete {{/dev/sdX}} {{partition_number}}`
+
+- Display [h]help:
+
+`sfdisk --help`
