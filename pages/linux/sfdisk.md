@@ -5,8 +5,8 @@
 
 - Back up the partition layout to a file:
 
-`sudo sfdisk -d {{path/to/device}} > sda.dump`
+`sudo sfdisk {{-d|--dump}} {{path/to/device}} > {{path/to/file.dump}}`
 
 - Restore a partition layout:
 
-`sudo sfdisk /dev/sda < sda.dump`
+`sudo sfdisk {{path/to/device}} < {{path/to/file.dump}}`
