@@ -1,4 +1,4 @@
- # togglesebool
+# togglesebool
 
 > Voltea los valores actuales (no persistentes) de los booleanos de SELinux.
 > Nota: Esta herramienta ha quedado obsoleta y a menudo se elimina en favor de `setsebool`.
