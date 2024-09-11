@@ -1,7 +1,7 @@
 # sfdisk
 
 > Display or manipulate a disk partition table.
-> More information: <https://manned.org/man/sfdisk>.
+> More information: <https://manned.org/sfdisk>.
 
 - Back up the partition layout to a file:
 
