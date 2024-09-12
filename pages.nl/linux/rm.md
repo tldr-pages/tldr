@@ -23,3 +23,7 @@
 - Verwijder specifieke bestanden en directories recursief:
 
 `rm --recursive {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
+
+- Verwijder lege directories (dit wordt beschouwd als de veilige methode):
+
+`rm --dir {{pad/naar/map}}`
