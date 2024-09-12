@@ -25,6 +25,6 @@
 
 `xh --download {{httpbin.org/json}} --output {{path/to/file}}`
 
-- Show equivalent `curl` command:
+- Show equivalent `curl` command (this will not send any request):
 
 `xh --{{curl|curl-long}} {{--follow --verbose get http://example.com user-agent:curl}}`
