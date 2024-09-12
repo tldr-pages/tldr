@@ -8,7 +8,7 @@
 
 - Tambahkan seluruh berkas (baik yang terlacak maupun tidak terlacak):
 
-`git add {{-A|-all}}`
+`git add {{-A|--all}}`
 
 - Tambahkan seluruh berkas pada folder saat ini:
 
