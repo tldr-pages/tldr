@@ -19,6 +19,6 @@
 
 `pulumi up --suppress-outputs`
 
-- Continue updating resources even if an error is encountered:
+- Continue updating the resources, even if an error is encountered:
 
 `pulumi up --continue-on-error`
