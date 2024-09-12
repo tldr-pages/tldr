@@ -1,5 +1,4 @@
 # git add
-
 > Tambahkan berkas yang diubah ke dalam indeks.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-add>.
 
@@ -7,11 +6,11 @@
 
 `git add {{jalan/menuju/berkas}}`
 
-- Tambahkan semua berkas (baik yang terlacak maupun tidak terlacak):
+- Tambahkan seluruh berkas (baik yang terlacak maupun tidak terlacak):
 
 `git add {{-A|-all}}`
 
-- Add all files in the current folder:
+- Tambahkan seluruh berkas pada folder saat ini:
 
 `git add .`
 
