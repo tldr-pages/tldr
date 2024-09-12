@@ -1,7 +1,7 @@
 # xh
 
 > Friendly and fast tool for sending HTTP requests.
-> Note: `xh` serves as an effective drop-in replacement for `http`.
+> Note: `xh`, written in rust, serves as an effective drop-in replacement for `http`.
 > See also: `http`, `curl`.
 > More information: <https://github.com/ducaale/xh>.
 
