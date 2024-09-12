@@ -21,7 +21,7 @@
 
 - Çöpü 10 gün öncesinden daha yeni atılan dosyalar hariç boşalt:
 
-`trash-empty {{10}}`
+`trash-empty 10`
 
 - Çöpte 'foo' ismini taşıyan tüm dosyaları sil:
 
