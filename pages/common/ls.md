@@ -3,34 +3,34 @@
 > List directory contents.
 > More information: <https://www.gnu.org/software/coreutils/ls>.
 
-- List files one per line:
+- List files [one] per line:
 
 `ls -1`
 
-- List all files, including hidden files:
+- List [a]ll files, including hidden files:
 
 `ls -a`
 
-- List all files, with trailing `/` added to directory names:
+- List files with a trailing symbol to indicate file type (directory/, symbolic_link@, executable*, ...):
 
 `ls -F`
 
-- Long format list (permissions, ownership, size, and modification date) of all files:
+- List [a]ll filef in [l]ong format (permissions, ownership, size, and modification date):
 
 `ls -la`
 
-- Long format list with size displayed using human-readable units (KiB, MiB, GiB):
+- [l]ong format list with size displayed using [h]uman-readable units (KiB, MiB, GiB):
 
 `ls -lh`
 
-- Long format list sorted by size (descending) recursively:
+- [l]ong format list sorted by [S]ize (descending) [R]ecursively:
 
 `ls -lSR`
 
-- Long format list of all files, sorted by modification date (oldest first):
+- [l]ong format list of files, sorted by [t]ime it was modified and in [r]everse order (oldest first):
 
 `ls -ltr`
 
-- Only list directories:
+- Only list [d]irectories:
 
 `ls -d */`
