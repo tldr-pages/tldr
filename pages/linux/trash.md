@@ -21,7 +21,7 @@
 
 - Permanently delete all files in the trash which are older than 10 days:
 
-`trash-empty {{10}}`
+`trash-empty 10`
 
 - Remove all files in the trash, which match a specific blob pattern:
 
