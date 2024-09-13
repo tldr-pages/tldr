@@ -19,15 +19,15 @@
 
 `ls -la`
 
-- [l]ong format list with size displayed using [h]uman-readable units (KiB, MiB, GiB):
+- List files in [l]ong format with size displayed using [h]uman-readable units (KiB, MiB, GiB):
 
 `ls -lh`
 
-- [l]ong format list sorted by [S]ize (descending) [R]ecursively:
+- List files in [l]ong format, sorted by [S]ize (descending) [R]ecursively:
 
 `ls -lSR`
 
-- [l]ong format list of files, sorted by [t]ime it was modified and in [r]everse order (oldest first):
+- List files in [l]ong format, sorted by [t]ime the file was modified and in [r]everse order (oldest first):
 
 `ls -ltr`
 
