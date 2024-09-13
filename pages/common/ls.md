@@ -15,7 +15,7 @@
 
 `ls -F`
 
-- List [a]ll filef in [l]ong format (permissions, ownership, size, and modification date):
+- List [a]ll files in [l]ong format (permissions, ownership, size, and modification date):
 
 `ls -la`
 
