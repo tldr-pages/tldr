@@ -7,6 +7,10 @@
 
 `dircolors`
 
+- Display each filetype with the color they would appear in `ls`:
+
+`dircolors --print-ls-colors`
+
 - Output commands to set LS_COLOR using colors from a file:
 
 `dircolors {{path/to/file}}`
