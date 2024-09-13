@@ -3,7 +3,7 @@
 > List directory contents.
 > More information: <https://www.gnu.org/software/coreutils/ls>.
 
-- List files [one] per line:
+- List files one per line:
 
 `ls -1`
 
