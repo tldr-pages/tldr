@@ -19,7 +19,7 @@
 
 `pulumi destroy --exclude-protected`
 
-- Remove the stack and its config file after all resources in the stack are deleted:
+- Remove the stack and its configuration file after all resources in the stack are deleted:
 
 `pulumi destroy --remove`
 
