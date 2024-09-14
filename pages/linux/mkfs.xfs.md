@@ -1,7 +1,7 @@
 # mkfs.xfs
 
 > Create an xfs filesystem inside a partition.
-> More information: <https://manned.org/mkfs.ext4>.
+> More information: <https://manned.org/mkfs.xfs>.
 
 - Create an xfs filesystem inside partition 1 on device b (`sdb1`):
 
