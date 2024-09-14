@@ -3,7 +3,7 @@
 > Create an xfs filesystem inside a partition.
 > More information: <https://manned.org/mkfs.xfs>.
 
-- Create an xfs filesystem inside partition 1 on device b (`sdb1`):
+- Create an xfs filesystem inside partition 1 on a device (`X`):
 
 `sudo mkfs.xfs {{/dev/sdb1}}`
 
