@@ -7,3 +7,7 @@
 - Connect to a serial console:
 
 `az serial-console connect --resource-group {{Resource_Group_Name}} --name {{Virtual_Machine_Name}}`
+
+- Terminate the connection:
+
+`<Ctrl>-]`
