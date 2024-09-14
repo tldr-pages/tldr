@@ -1,6 +1,8 @@
 # xh
 
 > Friendly and fast tool for sending HTTP requests.
+> Note: `xh`, written in rust, serves as an effective drop-in replacement for `http`.
+> See also: `http`, `curl`.
 > More information: <https://github.com/ducaale/xh>.
 
 - Send a GET request:
@@ -22,3 +24,7 @@
 - Make a GET request and save the response body to a file:
 
 `xh --download {{httpbin.org/json}} --output {{path/to/file}}`
+
+- Show equivalent `curl` command (this will not send any request):
+
+`xh --{{curl|curl-long}} {{--follow --verbose get http://example.com user-agent:curl}}`
