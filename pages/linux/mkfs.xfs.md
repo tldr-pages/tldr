@@ -9,4 +9,4 @@
 
 - Create an xfs filesystem with a volume-label:
 
-`sudo mkfs.xfs -L {{volume_label}} {{/dev/sdb1}}`
+`sudo mkfs.xfs -L {{volume_label}} {{/dev/sdX1}}`
