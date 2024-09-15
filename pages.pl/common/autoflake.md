@@ -11,7 +11,7 @@
 
 `autoflake --remove-all-unused-imports {{ścieżka/do/pliku1.py ścieżka/do/pliku2.py ...}}`
 
-- Usuń nieużywane zmienne z pliku, zastępując plik:
+- Usuń nieużywane zmienne z pliku, nadpisując plik:
 
 `autoflake --remove-unused-variables --in-place {{ścieżka/do/pliku.py}}`
 
