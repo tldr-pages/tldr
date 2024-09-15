@@ -1,32 +1,28 @@
 # rspec
 
-> Kerangka pengujian dalam Behavior-driven development yang ditulis dalam bahasa Ruby untuk menguji kode Ruby.
+> Kerangka pengujian kode Ruby berbasis Ruby dan pola pengembangan berbasis kebiasaan (behavior-driven development).
 > Informasi lebih lanjut: <https://rspec.info>.
 
-- Menginisiasi file konfigurasi `.rspec` dan spec helper:
+- Buat suatu berkas konfigurasi `.rspec` dan berkas pendukung spesifikasi pengujian (spec helper):
 
 `rspec --init`
 
-- Menjalankan semua file tes:
+- Jalankan semua pengujian menurut berkas-berkas spesifikasi:
 
 `rspec`
 
-- Menjalankan file tes dalam direktori khusus:
+- Jalankan pengujian menurut berkas-berkas spesifikasi dalam direktori khusus:
 
-`rspec {{jalan/menuju/directory}}`
+`rspec {{jalan/menuju/direktori}}`
 
-- Menjalankan file tes khusus:
+- Jalankan beberapa pengujian menurut kumpulan berkas spesifikasi:
 
-`rspec {{jalan/menuju/file}}`
+`rspec {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}}`
 
-- Menjalankan beberapa file tes:
+- Jalankan kasus khusus dalam pengujian menurut berkas-berkas spesifikasi (misalnya tes yang ada di baris 83):
 
-`rspec {{jalan/menuju/file1}} {{jalan/menuju/file2}}`
+`rspec {{jalan/menuju/berkas}}:{{83}}`
 
-- Menjalankan kasus khusus dalam file tes (misalnya tes yang ada di baris 83):
-
-`rspec {{jalan/menuju/file}}:{{83}}`
-
-- Menjalankan tes dengan seed khusus:
+- Jalankan tes dengan seed khusus (untuk pengujian berbasis randomisasi):
 
 `rspec --seed {{angka_seed}}`
