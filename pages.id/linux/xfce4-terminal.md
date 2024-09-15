@@ -15,7 +15,7 @@
 
 `xfce4-terminal --tab`
 
-- Menjalankan sebuah perintah di jendela terminal baru:
+- Jalankan sebuah perintah di jendela terminal baru:
 
 `xfce4-terminal --command "{{perintah_dengan_argumen}}"`
 

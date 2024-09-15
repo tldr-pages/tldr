@@ -1,9 +1,9 @@
 # git add
 
-> Tambahkan berkas yang diubah ke indeks.
+> Tambahkan berkas yang diubah ke dalam indeks.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-add>.
 
-- Tambahkan suatu berkas ke dalam indeks:
+- Tambahkan berkas ke dalam indeks:
 
 `git add {{jalan/menuju/berkas}}`
 
@@ -31,6 +31,6 @@
 
 `git add {{-p|--patch}} {{jalan/menuju/berkas}}`
 
-- Stage file secara interaktif:
+- Stage berkas secara interaktif:
 
 `git add {{-i|--interactive}}`

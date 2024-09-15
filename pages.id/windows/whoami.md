@@ -1,24 +1,28 @@
 # whoami
 
-> Menampilkan detail informasi pengguna saat ini.
+> Tampilkan informasi identitas pengguna saat ini secara rinci.
 > Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/whoami>.
 
-- Menampilkan username pengguna saat ini:
+- Tampilkan username pengguna saat ini:
 
 `whoami`
 
-- Menampilkan daftar grup dari pengguna saat ini:
+- Tampilkan daftar grup dari pengguna saat ini:
 
 `whoami /groups`
 
-- Menampilkan hak (privileges) pengguna saat ini:
+- Tampilkan hak (privileges) pengguna saat ini:
 
 `whoami /priv`
 
-- Menampilkan nama utama pengguna (UPN) saat ini:
+- Tampilkan nama utama pengguna (UPN) saat ini:
 
 `whoami /upn`
 
-- Menampilkan ID logon dari pengguna saat ini:
+- Tampilkan ID logon dari pengguna saat ini:
 
 `whoami /logonid`
+
+- Tampilkan seluruh informasi identitas pengguna saat ini:
+
+`whoami /all`
