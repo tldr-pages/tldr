@@ -13,7 +13,7 @@
 
 - Read from file and print to `stdout`:
 
-`tspin {{application.log}} --print`
+`tspin {{path/to/application.log}} --print`
 
 - Read from stdin and print to `stdout`:
 
