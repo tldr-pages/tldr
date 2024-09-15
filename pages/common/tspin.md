@@ -5,7 +5,7 @@
 
 - Read from file and view in `less`:
 
-`tspin {{application.log}}`
+`tspin {{path/to/application.log}}`
 
 - Read from another command and print to stdout:
 
