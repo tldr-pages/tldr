@@ -2,7 +2,7 @@
 
 > Automate conversations with a modem or serial device.
 > Commonly used to establish PPP (Point-to-Point Protocol) connections.
-> More information: <https://manpages.debian.org/latest/ppp/chat.8.html>
+> More information: <https://manpages.debian.org/latest/ppp/chat.8.html>.
 
 - Execute a chat script directly from the command line:
 
