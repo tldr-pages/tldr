@@ -1,7 +1,7 @@
 # apk
 
 > Narzędzie zarządzania pakietami Alpine Linux.
-> Więcej informacji: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
+> Więcej informacji: <https://manned.org/apk>.
 
 - Zaktualizuj indeksy repozytoriów ze wszystkich zdalnych repozytoriów:
 

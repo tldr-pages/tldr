@@ -1,7 +1,7 @@
 # grubby
 
 > Tool for configuring `grub` and `zipl` bootloaders.
-> More information: <https://manned.org/man/grubby.8>.
+> More information: <https://manned.org/grubby.8>.
 
 - Add kernel boot arguments to all kernel menu entries:
 

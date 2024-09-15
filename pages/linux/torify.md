@@ -2,7 +2,7 @@
 
 > Route network traffic through the Tor network.
 > Note: This command has been deprecated, and is now a backwards-compatible wrapper of `torsocks`.
-> More information: <https://manned.org/man/torify>.
+> More information: <https://manned.org/torify>.
 
 - Route traffic via Tor:
 

@@ -3,7 +3,7 @@
 > Arch Linux 패키지 관리 도구.
 > 같이 보기: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 > 다른 패키지 관리자의 동등한 명령을 보려면 <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> 더 많은 정보: <https://man.archlinux.org/man/pacman.8>.
+> 더 많은 정보: <https://manned.org/pacman.8>.
 
 - 모든 패키지를 동기화하고 업데이트:
 
