@@ -21,7 +21,7 @@
 
 - Crea un paquete distribuible para el objetivo especificado:
 
-`pants package {{ruta/a/directorio:nombre-destino}}`
+`pants package {{ruta/al/directorio:nombre-destino}}`
 
 - Autogenera objetivos de archivo BUILD para nuevos archivos fuente:
 
