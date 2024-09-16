@@ -6,3 +6,11 @@
 - Start an interactive setup:
 
 `mysql_secure_installation`
+
+- Use specific host and port:
+
+`mysql_secure_installation --host={{host}} --port={{port}}`
+
+- Display help:
+
+`mysql_secure_installation --help`
