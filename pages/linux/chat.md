@@ -16,7 +16,7 @@
 
 `chat -t {{timeout_in_seconds}} '{{expect_send_pairs}}'`
 
-- Enable verbose output to log the conversation to syslog:
+- Enable verbose output to log the conversation to `syslog`:
 
 `chat -v '{{expect_send_pairs}}'`
 
