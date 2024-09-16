@@ -1,6 +1,6 @@
 # az serial-console
 
-> Connect to the serial console of a virtual machine.
+> Connect to the serial console of a Virtual Machine.
 > Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/serial-console>.
 
