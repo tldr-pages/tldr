@@ -13,7 +13,7 @@
 
 - Guarda la salida en un archivo:
 
-`rubocop --out {{ruta/a/archivo}}`
+`rubocop --out {{ruta/al/archivo}}`
 
 - Muestra la lista de cops (reglas de análisis):
 
