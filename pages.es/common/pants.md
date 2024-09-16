@@ -5,7 +5,7 @@
 
 - Lista todos los objetivos:
 
-`pants lista ::`
+`pants list ::`
 
 - Ejecuta todas las pruebas:
 
