@@ -17,4 +17,4 @@
 
 - Convert all `.doc` files in current directory to PDF:
 
-`libreoffice --convert-to {{pdf}} {{*.doc}}`
+`libreoffice --convert-to pdf *.doc`
