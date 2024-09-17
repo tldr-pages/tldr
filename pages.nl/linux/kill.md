@@ -10,7 +10,7 @@
 
 - Lijst signaalwaarden en hun overeenkomstige namen op (te gebruiken zonder het `SIG` voorvoegsel):
 
-`kill {{-L|--table}}`
+`kill -L`
 
 - Beëindig een achtergrondtaak:
 

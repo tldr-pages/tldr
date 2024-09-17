@@ -22,4 +22,4 @@
 
 - List currently initialized devices:
 
-`zramctl`
+`sudo zramctl`

@@ -1,6 +1,6 @@
 # systool
 
-> Vea información de dispositivos del sistema por bus, y clases.
+> Vea información de dispositivos del sistema por bus y clases.
 > Este comando es parte del paquete `sysfs`.
 > Más información: <https://github.com/linux-ras/sysfsutils>.
 
@@ -12,6 +12,6 @@
 
 `systool -c {{clase}} -v`
 
-- Mostrar solo los controladores de un bus (ej. `pci`, `usb`):
+- Muestra solo los controladores de un bus (ej. `pci`, `usb`):
 
 `systool -b {{bus}} -D`

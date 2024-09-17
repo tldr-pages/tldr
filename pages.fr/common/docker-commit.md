@@ -1,7 +1,7 @@
 # docker commit
 
 > Créer une nouvelle image depuis les changement d'un conteneur.
-> Plus d'informations : <https://docs.docker.com/engine/reference/commandline/commit/>.
+> Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/commit/>.
 
 - Créer une image à partir d'un conteneur spécifique :
 

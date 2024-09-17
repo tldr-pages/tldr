@@ -9,7 +9,7 @@
 
 - Print file with author email and commit hash on each line:
 
-`git blame -e {{path/to/file}}`
+`git blame {{-e|--show-email}} {{path/to/file}}`
 
 - Print file with author name and commit hash on each line at a specific commit:
 

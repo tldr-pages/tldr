@@ -1,7 +1,0 @@
-# gprintf
-
-> Aquest comandament és un àlies de `-p linux printf`.
-
-- Veure documentació pel comandament original:
-
-`tldr -p linux printf`

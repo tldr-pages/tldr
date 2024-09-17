@@ -16,7 +16,7 @@
 
 `arduino-builder -build-path {{caminho/para/diretorio}}`
 
-- Usa um arquivo com as opções de compilação, em vez de especificar `--hardware`, `--tools`, etc. manualmente toda hora:
+- Usa um arquivo com as opções de compilação, em vez de especificar `-hardware`, `-tools`, etc. manualmente toda hora:
 
 `arduino-builder -build-options-file {{caminho/para/build.options.json}}`
 

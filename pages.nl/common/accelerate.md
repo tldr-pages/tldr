@@ -1,4 +1,4 @@
-# Accelerate
+# accelerate
 
 > Accelerate is een bibliotheek waarmee dezelfde PyTorch-code kan worden uitgevoerd op elke gedistribueerde configuratie.
 > Meer informatie: <https://huggingface.co/docs/accelerate/index>.

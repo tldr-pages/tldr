@@ -15,18 +15,22 @@
 
 `mv {{path/to/source1 path/to/source2 ...}} {{path/to/existing_directory}}`
 
-- Do not prompt for confirmation before overwriting existing files:
+- Do not prompt ([f]) for confirmation before overwriting existing files:
 
-`mv -f {{path/to/source}} {{path/to/target}}`
+`mv --force {{path/to/source}} {{path/to/target}}`
 
-- Prompt for confirmation before overwriting existing files, regardless of file permissions:
+- Prompt for confirmation [i]nteractively before overwriting existing files, regardless of file permissions:
 
-`mv -i {{path/to/source}} {{path/to/target}}`
+`mv --interactive {{path/to/source}} {{path/to/target}}`
 
-- Do not overwrite existing files at the target:
+- Do not overwrite ([n]) existing files at the target:
 
-`mv -n {{path/to/source}} {{path/to/target}}`
+`mv --no-clobber {{path/to/source}} {{path/to/target}}`
 
-- Move files in verbose mode, showing files after they are moved:
+- Move files in [v]erbose mode, showing files after they are moved:
 
-`mv -v {{path/to/source}} {{path/to/target}}`
+`mv --verbose {{path/to/source}} {{path/to/target}}`
+
+- Specify [t]arget directory so that you can use external tools to gather movable files:
+
+`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv --target-directory {{path/to/target_directory}}`

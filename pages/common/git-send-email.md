@@ -4,7 +4,7 @@
 > Patches can be specified as files, directions, or a revision list.
 > More information: <https://git-scm.com/docs/git-send-email>.
 
-- Send the last commit in the current branch:
+- Send the last commit in the current branch interactively:
 
 `git send-email -1`
 

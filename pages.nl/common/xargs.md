@@ -12,9 +12,13 @@
 
 `{{argumenten_bron}} | xargs sh -c "{{commando1}} && {{commando2}} | {{commando3}}"`
 
-- Verwijder alle bestanden met een `.backup` extensie (`-print0` gebruikt een nul-teken om bestandsnamen te splitsen en `-0` gebruikt het als scheidingsteken):
+- Gzip alle bestanden met een `.log` extensie en profiteer van het voordeel van meerdere threads (`-print0` gebruikt een nul-teken om bestandsnamen te splitsen en `-0` gebruikt het als scheidingsteken):
 
-`find . -name '*.backup' -print0 | xargs -0 rm -v`
+`find . -name '*.log' -print0 | xargs -0 -P {{4}} -n 1 gzip`
+
+- Voer het commando eenmaal per argument uit:
+
+`{{argumenten_bron}} | xargs -n1 {{commando}}`
 
 - Voer het commando één keer uit voor elke invoerregel, waarbij elke plaatsaanduiding (hier gemarkeerd als `_`) wordt vervangen door de invoerregel:
 

@@ -3,7 +3,7 @@
 > Android Debug Bridge Shell: uruchamiaj zdalne polecenia powłoki na instancji emulatora Androida lub podłączonych urządzeniach z Androidem.
 > Więcej informacji: <https://developer.android.com/tools/adb>.
 
-- Uruchom interaktywną zdalną powłokę na emulatorze / urządzeniu:
+- Uruchom interaktywną zdalną powłokę na emulatorze lub urządzeniu:
 
 `adb shell`
 
@@ -11,25 +11,25 @@
 
 `adb shell getprop`
 
-- Przywróć wszystkie uprawnienia wykonawcze do ich wartości domyślnych:
+- Przywróć domyślne ustawienia wszystkich uprawnień uruchamiania:
 
 `adb shell pm reset-permissions`
 
 - Odwołaj niebezpieczne pozwolenie dla aplikacji:
 
-`adb shell pm revoke {{paczka}} {{pozwolenie}}`
+`adb shell pm revoke {{pakiet}} {{pozwolenie}}`
 
 - Wywołaj zdarzenie klawisza:
 
-`adb shell input keyevent {{kod_klucza}}`
+`adb shell input keyevent {{kod_klawisza}}`
 
 - Wyczyść dane aplikacji na emulatorze lub urządzeniu:
 
-`adb shell pm clear {{paczka}}`
+`adb shell pm clear {{pakiet}}`
 
-- Rozpocznij aktywność na emulatorze / urządzeniu:
+- Rozpocznij aktywność na emulatorze lub urządzeniu:
 
-`adb shell am start -n {{paczka}}/{{aktywność}}`
+`adb shell am start -n {{pakiet}}/{{aktywność}}`
 
 - Rozpocznij aktywność domową na emulatorze lub urządzeniu:
 
