@@ -13,4 +13,4 @@
 
 - Membuka Windows Explorer di direktori tertentu:
 
-`explorer {{alamat/ke/direktori}}`
+`explorer {{jalan/menuju/direktori}}`

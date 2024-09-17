@@ -1,7 +1,7 @@
 # git ls-tree
 
 > 트리 객체의 파일과 디렉토리 목록을 보여줍니다.
-> 더 자세한 정보: <https://git-scm.com/docs/git-ls-tree>.
+> 더 많은 정보: <https://git-scm.com/docs/git-ls-tree>.
 
 - 특정 브랜치의 파일과 디렉토리 목록 보기:
 

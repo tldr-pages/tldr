@@ -14,3 +14,11 @@
 - Preview and deploy changes in a specific stack:
 
 `pulumi up --stack {{stack}}`
+
+- Don't display stack outputs:
+
+`pulumi up --suppress-outputs`
+
+- Continue updating the resources, even if an error is encountered:
+
+`pulumi up --continue-on-error`

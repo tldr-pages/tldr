@@ -1,7 +1,7 @@
 # touch
 
 > Maak bestanden aan en stel toegang-/wijzigingstijden in.
-> Meer informatie: <https://manned.org/man/freebsd-13.1/touch>.
+> Meer informatie: <https://manned.org/touch>.
 
 - Maak specifieke bestanden aan:
 

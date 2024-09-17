@@ -9,4 +9,4 @@
 
 - Özyinelemeli şekilde dizin oluştur (iç içe klasörler oluşturmak için kullanışlıdır):
 
-`mkdir -p {{dizin/yolu1 dizin/yolu2 ...}}`
+`mkdir {{-p|--parents}} {{dizin/yolu1 dizin/yolu2 ...}}`
