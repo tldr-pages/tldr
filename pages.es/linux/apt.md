@@ -2,7 +2,7 @@
 
 > Herramienta de gestión de paquete para distribuciones basadas en Debian.
 > Se recomienda sustituirlo por `apt-get` cuando se use interactivamente en Ubuntu 16.04 o versiones posteriores.
-> Más información: <https://manpages.debian.org/latest/apt/apt.8.html>.
+> Más información: <https://manned.org/apt.8>.
 
 - Actualiza la lista de paquetes y versiones disponibles (se recomienda ejecutar este comando antes que cualquier otro comando `apt`):
 

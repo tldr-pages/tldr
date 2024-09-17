@@ -1,7 +1,7 @@
 # adduser
 
 > Utilitário para criação de novos usuários.
-> Mais informações: <https://manpages.debian.org/latest/adduser/adduser.html>.
+> Mais informações: <https://manned.org/adduser>.
 
 - Cria um novo usuário, o seu diretório na pasta home e solicita o preenchimento da sua senha:
 

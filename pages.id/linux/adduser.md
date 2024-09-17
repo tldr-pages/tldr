@@ -1,7 +1,7 @@
 # adduser
 
 > Utilitas penambahan pengguna.
-> Informasi lebih lanjut: <https://manpages.debian.org/latest/adduser/adduser.html>.
+> Informasi lebih lanjut: <https://manned.org/adduser>.
 
 - Buat seorang pengguna baru dengan sebuah direktori pangkal/home bawaan dan mendesak pengguna untuk mengatur sebuah kata sandi:
 
