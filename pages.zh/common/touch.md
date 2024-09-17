@@ -1,7 +1,7 @@
 # touch
 
 > 创建文件并设置访问/修改时间。
-> 更多信息：<https://manned.org/man/freebsd-13.1/touch>.
+> 更多信息：<https://manned.org/touch>.
 
 - 创建指定的文件：
 
