@@ -22,7 +22,7 @@
 
 - Descarga la última versión de un paquete y lo instala globalmente:
 
-`npm install {{-g|--global}} {{nombre_paquete}}0`
+`npm install {{-g|--global}} {{nombre_paquete}}`
 
 - Desinstala un paquete y lo elimina de la lista de dependencias en `package.json`:
 
