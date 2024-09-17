@@ -1,7 +1,7 @@
 # df
 
 > Display an overview of the filesystem disk space usage.
-> More information: <https://man.netbsd.org/NetBSD-9.3/df.1>.
+> More information: <https://man.netbsd.org/df.1>.
 
 - Display all filesystems and their disk usage using 512-byte units:
 
