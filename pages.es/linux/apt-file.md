@@ -1,7 +1,7 @@
 # apt-file
 
 > Busca archivos en paquetes APT, incluyendo los que aún no fueron instalados.
-> Más información: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
+> Más información: <https://manned.org/apt-file.1>.
 
 - Actualiza los metadatos de la base de datos:
 

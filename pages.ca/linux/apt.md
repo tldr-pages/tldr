@@ -2,7 +2,7 @@
 
 > Eina de gestió de paquets per a distribucions basades en Debian.
 > Es recomana substituïr-lo per `apt-get` quan es faci servir interactivament en Ubuntu 16.04 o en versions posteriors.
-> Més informació: <https://manpages.debian.org/latest/apt/apt.8.html>.
+> Més informació: <https://manned.org/apt.8>.
 
 - Actualitza la llista de paquets i versions disponbles (es recomana executar aquest comandament abans que qualsevol altre `apt`):
 
