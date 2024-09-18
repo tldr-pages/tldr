@@ -10,3 +10,7 @@
 - Display breakdown of error types:
 
 `lychee --form detailed https://example.com`
+
+- Display help:
+
+`lychee --help`
