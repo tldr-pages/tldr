@@ -7,9 +7,9 @@
 
 `lychee {{https://example.com}}`
 
-- Display breakdown of error types:
+- Display a breakdown of error types:
 
-`lychee --form detailed {{https://example.com}}`
+`lychee --format detailed {{https://example.com}}`
 
 - Limit the amount of connections to prevent DDOS protection:
 
