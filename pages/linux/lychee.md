@@ -11,9 +11,10 @@
 
 `lychee --form detailed https://example.com`
 
-- Check a list of URLs:
+- Check files in a directory structure for any broken URLs:
 
 `grep -r "{{pattern}}" | lychee -`
+
 - Display help:
 
 `lychee --help`
