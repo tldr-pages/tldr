@@ -1,7 +1,7 @@
 # a2enmod
 
 > Activa un mòdul d'Apache en sistemes operatius basats en Debian.
-> Més informació: <https://manpages.debian.org/latest/apache2/a2enmod.8.en.html>.
+> Més informació: <https://manned.org/a2enmod.8>.
 
 - Activa un mòdul:
 

@@ -1,7 +1,7 @@
 # apt-add-repository
 
 > Керує взаємодією з репозиторіями `apt`.
-> Більше інформації: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
+> Більше інформації: <https://manned.org/apt-add-repository.1>.
 
 - Додайте новий репозиторій `apt`:
 
