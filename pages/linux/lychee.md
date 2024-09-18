@@ -11,6 +11,9 @@
 
 `lychee --form detailed https://example.com`
 
+- Check a list of URLs:
+
+`grep -r "{{pattern}}" | lychee -`
 - Display help:
 
 `lychee --help`
