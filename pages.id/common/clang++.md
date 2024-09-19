@@ -2,7 +2,7 @@
 
 > Susun kode C++.
 > Part of LLVM.
-> Informasi lebih lanjut: <https://clang.llvm.org/>.
+> Informasi lebih lanjut: <https://clang.llvm.org>.
 
 - Ubah suatu berkas kode sumber menjadi program:
 
