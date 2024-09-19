@@ -47,16 +47,18 @@ async def parse_and_make_request(
                     f"{CodeColors.ERROR}Error: {exc}, File: {file}{CodeColors.RESET}"
                 )
                 return
+                
+    regex = r"\*\*@(\w+)\*\*" if file_path.name = "CODEOWNERS" else r"@(\w+)"
 
-    usernames = extract_usernames(file_content)
+    usernames = extract_usernames(file_content, regex)
 
     for username in usernames:
         await make_request_and_write_if_bad(username, writer, session)
 
 
-def extract_usernames(content: str) -> list[str]:
+def extract_usernames(content: str, regex: str) -> list[str]:
     """Extract GitHub usernames from the file content."""
-    return re.findall(r"@(\w+)", content)
+    return re.findall(regex, content)
 
 
 async def aprint_colored_status_code_and_username(code: int, username: str) -> None:
