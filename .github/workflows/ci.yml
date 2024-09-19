@@ -10,6 +10,7 @@ jobs:
       contents: write # to upload assets to releases
       attestations: write # to upload assets attestation for build provenance
       id-token: write # grant additional permission to attestation action to mint the OIDC token permission
+      pull-requests: write # to comment on the PR
 
     steps:
     - uses: actions/checkout@v4
@@ -38,6 +39,15 @@ jobs:
 
     - name: Test
       run: npm test
+
+    - name: Comment on PR
+      if: github.event.number != null
+      uses: marocchino/sticky-pull-request-comment@v2
+      with:
+        header: tldr-bot
+        hide_and_recreate: true
+        hide_classify: "OUTDATED"
+        path: tldr-bot.md
 
     - name: Build
       run: bash scripts/build.sh
