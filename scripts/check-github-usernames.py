@@ -47,8 +47,8 @@ async def parse_and_make_request(
                     f"{CodeColors.ERROR}Error: {exc}, File: {file}{CodeColors.RESET}"
                 )
                 return
-                
-    regex = r"\*\*@(\w+)\*\*" if file_path.name = "CODEOWNERS" else r"@(\w+)"
+
+    regex = r"\*\*@(\w+)\*\*" if file_path.name == "CODEOWNERS" else r"@(\w+)"
 
     usernames = extract_usernames(file_content, regex)
 
