@@ -1,8 +1,8 @@
-# clang
+# clang++
 
 > Susun kode C++.
 > Part of LLVM.
-> Informasi lebih lanjut: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.
+> Informasi lebih lanjut: <https://clang.llvm.org/>.
 
 - Ubah suatu berkas kode sumber menjadi program:
 
