@@ -6,11 +6,11 @@
 
 - Stel een specifieke login shell interactief in voor de huidige gebruiker:
 
-`sudo chsh`
+`chsh`
 
 - Stel een specifieke login[s]hell in voor de huidige gebruiker:
 
-`sudo chsh --shell {{pad/naar/shell}}`
+`chsh --shell {{pad/naar/shell}}`
 
 - Stel een login[s]hell in voor een specifieke gebruiker:
 
@@ -18,4 +18,4 @@
 
 - Toon ([l]) beschikbare shells:
 
-`sudo chsh --list-shells`
+`chsh --list-shells`
