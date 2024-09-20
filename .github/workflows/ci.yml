@@ -40,6 +40,14 @@ jobs:
     - name: Test
       run: npm test
 
+    - if: always()
+      run: |
+        cat tldr-bot-errors.md
+
+    - if: always()
+      run: |
+        cat scripts/tldr-bot-errors.md
+
     - name: Comment any errors on PR
       if: ${{ github.event.number != null && hashFiles('tldr-bot-errors.md') != '' }}
       uses: marocchino/sticky-pull-request-comment@v2
