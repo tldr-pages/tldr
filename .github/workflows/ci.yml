@@ -53,10 +53,10 @@ jobs:
       if: github.event.number != null && ${{ hashFiles('tldr-bot-pr-checks.md') != '' }}
       uses: marocchino/sticky-pull-request-comment@v2
       with:
-        header: tldr-bot-pr-checks
+        header: tldr-bot-check-results
         hide_and_recreate: true
         hide_classify: "OUTDATED"
-        path: tldr-bot-pr-checks.md
+        path: tldr-bot-check-results.md
 
     - name: Build
       run: bash scripts/build.sh

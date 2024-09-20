@@ -112,7 +112,7 @@ function run_checks_pr {
   if [[ -n $msgs ]]; then
     echo -e "\nCheck PR reported the following message(s):\n$msgs\n" >&2
     echo 'Sending check results to PR.' >&2
-    echo -n "$msgs" >> tldr-bot-pr-checks.md
+    echo -n "$msgs" >> tldr-bot-check-results.md
   fi
 }
 
