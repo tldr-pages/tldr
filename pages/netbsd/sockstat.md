@@ -3,7 +3,7 @@
 > List open Internet or UNIX domain sockets.
 > Note: this program is a rewrite for NetBSD 3.0 from FreeBSD's `sockstat`.
 > See also: `netstat`.
-> More information: <https://man.freebsd.org/cgi/man.cgi?sockstat>.
+> More information: <https://man.netbsd.org/sockstat.1>.
 
 - Show information for IPv4, IPv6 and Unix sockets for both listening and connected sockets:
 
