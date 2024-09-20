@@ -4,7 +4,6 @@
 > Meer informatie: <https://developer.android.com/tools/adb#am>.
 
 - Start een specifieke activiteit:
-
 `am start -n {{com.android.settings/.Settings}}`
 
 - Start een activiteit en geef er gegevens aan door:
