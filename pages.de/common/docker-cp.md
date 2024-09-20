@@ -1,7 +1,7 @@
 # docker cp
 
 > Kopiere Dateien oder Verzeichnisse zwischen Host- und Container-Dateisystem.
-> Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/cp>.
+> Weitere Informationen: <https://docs.docker.com/reference/cli/docker/container/cp/>.
 
 - Kopiere eine Datei oder ein Verzeichnis vom Host in einen Container:
 
