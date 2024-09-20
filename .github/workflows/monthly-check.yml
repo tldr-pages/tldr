@@ -49,7 +49,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Update last report open issue created
-      if: ${{ steps.lychee.outputs.exit_code != 0 }}
+      if: ${{ env.lychee_exit_code != 0 }}
       uses: peter-evans/create-issue-from-file@v4
       with:
         title: GitHub usernames with errors
@@ -58,7 +58,7 @@ jobs:
         labels: check usernames
 
     - name: Close last report open issue
-      if: ${{ steps.lychee.outputs.exit_code == 0 }}
+      if: ${{ env.lychee_exit_code == 0 }}
       uses: peter-evans/close-issue@v2
       with:
         issue-number: ${{ steps.last-issue.outputs.issue-number }}
