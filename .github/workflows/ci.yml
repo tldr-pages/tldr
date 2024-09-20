@@ -43,6 +43,8 @@ jobs:
     - name: Comment any errors on PR
       if: ${{ github.event.number != null && hashFiles('tldr-bot-errors.md') != '' }}
       uses: marocchino/sticky-pull-request-comment@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.PR_COMMENT_TOKEN }}
       with:
         header: tldr-bot-errors
         hide_and_recreate: true
@@ -52,6 +54,8 @@ jobs:
     - name: Comment any PR check results on PR
       if: ${{ github.event.number != null && hashFiles('tldr-bot-check-results.md') != '' }}
       uses: marocchino/sticky-pull-request-comment@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.PR_COMMENT_TOKEN }}
       with:
         header: tldr-bot-check-results
         hide_and_recreate: true
