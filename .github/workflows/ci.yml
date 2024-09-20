@@ -44,10 +44,6 @@ jobs:
       run: |
         cat tldr-bot-errors.md
 
-    - if: always()
-      run: |
-        cat scripts/tldr-bot-errors.md
-
     - name: Comment any errors on PR
       if: ${{ github.event.number != null && hashFiles('tldr-bot-errors.md') != '' }}
       uses: marocchino/sticky-pull-request-comment@v2
@@ -58,7 +54,6 @@ jobs:
         hide_and_recreate: true
         hide_classify: "OUTDATED"
         path: tldr-bot-errors.md
-        GITHUB_TOKEN: ${{ secrets.PR_COMMENT_TOKEN }}
 
     - name: Comment any PR check results on PR
       if: ${{ github.event.number != null && hashFiles('tldr-bot-check-results.md') != '' }}
@@ -70,7 +65,6 @@ jobs:
         hide_and_recreate: true
         hide_classify: "OUTDATED"
         path: tldr-bot-check-results.md
-        GITHUB_TOKEN: ${{ secrets.PR_COMMENT_TOKEN }}
 
     - name: Build
       run: bash scripts/build.sh
