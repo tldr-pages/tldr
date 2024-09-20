@@ -15,6 +15,6 @@
 
 `pulumi about --stack {{stack_name}}`
 
-- Display help
+- Display help:
 
 `pulumi about --help`
