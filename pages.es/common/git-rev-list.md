@@ -13,7 +13,7 @@
 
 - Muestra las confirmaciones más recientes a partir de una fecha y una rama específica:
 
-`git rev-list --since={{'2019-12-01 00:00:00'}} {{nombre_de_rama}}`
+`git rev-list --since "{{2019-12-01 00:00:00}}" {{nombre_de_rama}}`
 
 - Muestra todas las confirmaciones fusionadas en una confirmación específica:
 
