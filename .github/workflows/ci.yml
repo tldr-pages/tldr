@@ -40,6 +40,10 @@ jobs:
     - name: Test
       run: npm test
 
+    - name: Is file created?
+      if: ${{ hashFiles('tldr-bot-errors.md') != '' }}
+      run: echo "File exists"
+
     - name: Comment any errors on PR
       if: github.event.number != null && ${{ hashFiles('tldr-bot-errors.md') != '' }}
       uses: marocchino/sticky-pull-request-comment@v2
@@ -49,7 +53,7 @@ jobs:
         hide_classify: "OUTDATED"
         path: tldr-bot-errors.md
 
-    - name: Comment any PR checks on PR
+    - name: Comment any PR check results on PR
       if: github.event.number != null && ${{ hashFiles('tldr-bot-pr-checks.md') != '' }}
       uses: marocchino/sticky-pull-request-comment@v2
       with:
