@@ -50,6 +50,7 @@ jobs:
         hide_and_recreate: true
         hide_classify: "OUTDATED"
         path: tldr-bot-errors.md
+        GITHUB_TOKEN: ${{ secrets.PR_COMMENT_TOKEN }}
 
     - name: Comment any PR check results on PR
       if: ${{ github.event.number != null && hashFiles('tldr-bot-check-results.md') != '' }}
@@ -61,6 +62,7 @@ jobs:
         hide_and_recreate: true
         hide_classify: "OUTDATED"
         path: tldr-bot-check-results.md
+        GITHUB_TOKEN: ${{ secrets.PR_COMMENT_TOKEN }}
 
     - name: Build
       run: bash scripts/build.sh
