@@ -99,7 +99,7 @@ function run_tests_pr {
   if [[ -n $errs ]]; then
     echo -e "Test failed!\n$errs\n" >&2
     echo 'Sending errors to PR.' >&2
-    echo -n "$msgs" >> tldr-bot.md
+    echo -n "$msgs" >> tldr-bot-errors.md
     exit 1
   fi
 }
@@ -112,7 +112,7 @@ function run_checks_pr {
   if [[ -n $msgs ]]; then
     echo -e "\nCheck PR reported the following message(s):\n$msgs\n" >&2
     echo 'Sending check results to PR.' >&2
-    echo -n "$msgs" >> tldr-bot.md
+    echo -n "$msgs" >> tldr-bot-pr-checks.md
   fi
 }
 

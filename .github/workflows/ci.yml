@@ -40,14 +40,23 @@ jobs:
     - name: Test
       run: npm test
 
-    - name: Comment on PR
-      if: github.event.number != null
+    - name: Comment any errors on PR
+      if: github.event.number != null && ${{ hashFiles('tldr-bot-errors.md') != '' }}
       uses: marocchino/sticky-pull-request-comment@v2
       with:
-        header: tldr-bot
+        header: tldr-bot-errors
         hide_and_recreate: true
         hide_classify: "OUTDATED"
-        path: tldr-bot.md
+        path: tldr-bot-errors.md
+
+    - name: Comment any PR checks on PR
+      if: github.event.number != null && ${{ hashFiles('tldr-bot-pr-checks.md') != '' }}
+      uses: marocchino/sticky-pull-request-comment@v2
+      with:
+        header: tldr-bot-pr-checks
+        hide_and_recreate: true
+        hide_classify: "OUTDATED"
+        path: tldr-bot-pr-checks.md
 
     - name: Build
       run: bash scripts/build.sh
