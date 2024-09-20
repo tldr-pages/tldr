@@ -40,16 +40,8 @@ jobs:
     - name: Test
       run: npm test
 
-    - name: Is error file created?
-      if: ${{ hashFiles('tldr-bot-errors.md') != '' }}
-      run: echo "error file exists"
-
-    - name: Is check results file created?
-      if: ${{ hashFiles('tldr-bot-check-results.md') != '' }}
-      run: echo "check results file exists"
-
     - name: Comment any errors on PR
-      if: github.event.number != null && ${{ hashFiles('tldr-bot-errors.md') != '' }}
+      if: ${{ github.event.number != null && hashFiles('tldr-bot-errors.md') != '' }}
       uses: marocchino/sticky-pull-request-comment@v2
       with:
         header: tldr-bot-errors
@@ -58,7 +50,7 @@ jobs:
         path: tldr-bot-errors.md
 
     - name: Comment any PR check results on PR
-      if: github.event.number != null && ${{ hashFiles('tldr-bot-check-results.md') != '' }}
+      if: ${{ github.event.number != null && hashFiles('tldr-bot-check-results.md') != '' }}
       uses: marocchino/sticky-pull-request-comment@v2
       with:
         header: tldr-bot-check-results
