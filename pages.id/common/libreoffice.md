@@ -17,4 +17,4 @@
 
 - Konversi semua berkas `.doc` dalam direktori saat ini menuju PDF:
 
-`libreoffice --convert-to {{pdf}} {{*.doc}}`
+`libreoffice --convert-to pdf *.doc`

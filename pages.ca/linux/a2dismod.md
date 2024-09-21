@@ -1,7 +1,7 @@
 # a2dismod
 
 > Desactiva un mòdul Apache en sistemes operatius basats en Debian.
-> Més informació: <https://manpages.debian.org/latest/apache2/a2dismod.8.en.html>.
+> Més informació: <https://manned.org/a2dismod.8>.
 
 - Desactiva un mòdul:
 

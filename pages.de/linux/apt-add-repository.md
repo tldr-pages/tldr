@@ -1,7 +1,7 @@
 # apt-add-repository
 
 > Editiere die Repository-Listen.
-> Weitere Informationen: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
+> Weitere Informationen: <https://manned.org/apt-add-repository.1>.
 
 - Füge ein neues Repository hinzu:
 

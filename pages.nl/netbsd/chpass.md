@@ -2,7 +2,7 @@
 
 > Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
 > Bekijk ook: `passwd`.
-> Meer informatie: <https://man.openbsd.org/chsh>.
+> Meer informatie: <https://man.netbsd.org/chsh>.
 
 - Stel interactief een specifieke login shell in voor de huidige gebruiker:
 

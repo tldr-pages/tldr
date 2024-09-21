@@ -1,7 +1,7 @@
 # dphys-swapfile
 
 > Manage the swap file on Debian-based Linux systems.
-> More information: <https://manpages.debian.org/latest/dphys-swapfile/dphys-swapfile.html>.
+> More information: <https://manned.org/dphys-swapfile>.
 
 - Disable the swap file:
 

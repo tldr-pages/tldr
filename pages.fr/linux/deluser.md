@@ -1,7 +1,7 @@
 # deluser
 
 > Supprime un utilisateur du système.
-> Plus d'informations : <https://manpages.debian.org/latest/adduser/deluser.html>.
+> Plus d'informations : <https://manned.org/deluser>.
 
 - Supprime un utilisateur :
 

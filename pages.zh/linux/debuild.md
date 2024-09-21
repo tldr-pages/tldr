@@ -1,7 +1,7 @@
 # debuild
 
 > 从源代码构建 `Debian` 软件包的工具。
-> 更多信息：<https://manpages.debian.org/latest/devscripts/debuild.1.en.html>.
+> 更多信息：<https://manned.org/debuild.1>.
 
 - 在当前目录中生成软件包：
 
