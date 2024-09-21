@@ -5,7 +5,7 @@
 
 - Generate statistics for a local repository:
 
-`gitstats '{{path/to/gitrepo/.git}}' '{{path/to/output_folder}}`
+`gitstats '{{path/to/gitrepo/.git}}' '{{path/to/output_folder}}'`
 
 - View generated statistics in a web browser:
 
