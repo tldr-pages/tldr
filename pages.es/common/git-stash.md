@@ -21,7 +21,7 @@
 
 - Muestra los cambios como un parche entre el stash (por defecto es `stash@{0}`) y la confirmación de cuando se creó la entrada stash por primera vez:
 
-`git stash show -patch {{stash@{0}}}`
+`git stash show --patch {{stash@{0}}}`
 
 - Aplica un stash (por defecto es el último, llamado `stash@{0}`):
 
