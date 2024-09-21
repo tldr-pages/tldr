@@ -28,7 +28,7 @@
 
 `firewall-cmd --reload`
 
-- Save the runtime configuration state to the permanent configuraion:
+- Save the runtime configuration state to the permanent configuration:
 
 `firewall-cmd --runtime-to-permanent`
 
