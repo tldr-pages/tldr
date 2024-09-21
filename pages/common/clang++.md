@@ -4,7 +4,7 @@
 > Part of LLVM.
 > More information: <https://clang.llvm.org>.
 
-- Compile a source code file into an executable binary:
+- Compile a set of source code files into an executable binary:
 
 `clang++ {{path/to/source1.cpp path/to/source2.cpp ...}} {{-o|--output}} {{path/to/output_executable}}`
 

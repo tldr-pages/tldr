@@ -18,7 +18,7 @@
 
 - Sertakan pustaka (library) dari direktori yang berbeda:
 
-`gcc {{sumber.c}} {{-o|--output}} {{jalan/menuju/program}} -I{{jalan/menuju/header}} -L{{jalan/menuju/pustaka}} -l{{nama_pustaka}}`
+`gcc {{jalan/menuju/sumber.c}} {{-o|--output}} {{jalan/menuju/program}} -I{{jalan/menuju/header}} -L{{jalan/menuju/pustaka}} -l{{nama_pustaka}}`
 
 - Susun kode sumber ke dalam bahasa tingkat rendah (assembly):
 
@@ -30,7 +30,7 @@
 
 - [O]ptimalkan progam yang disusun agar dapat dijalankan lebih cepat:
 
-`gcc {{path/to/source.c}} -O{{1|2|3|fast}} {{-o|--output}} {{path/to/output_executable}}`
+`gcc {{jalan/menuju/sumber.c}} -O{{1|2|3|fast}} {{-o|--output}} {{jalan/menuju/program}}`
 
 - Tampilkan versi penyusun:
 

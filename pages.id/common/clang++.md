@@ -18,7 +18,7 @@
 
 - Pilih standar bahasa untuk dikompilasi:
 
-`clang++ {{path/to/source.cpp}} -std={{c++20}} {{-o|--output}} {{path/to/output_executable}}`
+`clang++ {{jalan/menuju/sumber.cpp}} -std={{c++20}} {{-o|--output}} {jalan/menuju/program}}`
 
 - Sertakan pustaka (library) dari direktori yang berbeda:
 
@@ -30,7 +30,7 @@
 
 - [O]ptimalkan progam yang disusun agar dapat dijalankan lebih cepat:
 
-`clang++ {{path/to/source.c}} -O{{1|2|3|fast}} {{-o|--output}} {{path/to/output_executable}}`
+`clang++ {{jalan/menuju/sumber.c}} -O{{1|2|3|fast}} {{-o|--output}} {{jalan/menuju/program}}`
 
 - Tampilkan versi penyusun:
 
