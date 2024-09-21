@@ -1,7 +1,7 @@
 # apt-file
 
 > Пошук файлів в пакетах `apt`, включно з тими, що ще не встановлені.
-> Більше інформації: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
+> Більше інформації: <https://manned.org/apt-file.1>.
 
 - Оновити базу метаданих:
 

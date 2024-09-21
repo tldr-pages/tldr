@@ -1,7 +1,7 @@
 # adduser
 
 > Servizio per aggiungere utenti.
-> Maggiori informazioni: <https://manpages.debian.org/latest/adduser/adduser.html>.
+> Maggiori informazioni: <https://manned.org/adduser>.
 
 - Crea un nuovo utente con una directory home predefinita e richiede all'utente di impostare una password:
 

@@ -2,7 +2,7 @@
 /pages.es/ @navarroaxel @kant @tricantivu
 /pages.fa/ @MrMw3
 /pages.fr/ @Nico385412 @nicokosi @noraj
-/pages.hi/ @kbdharun
+/pages.hi/ @kbdharun @debghs
 /pages.id/ @reinhart1010
 /pages.it/ @mebeim @tansiret @Magrid0
 /pages.ko/ @IMHOJEONG
@@ -15,9 +15,7 @@
 /pages.zh/ @blueskyson @einverne
 /pages.zh_TW/ @blueskyson
 
-/pages/common/ @spageektti
-/pages/linux/ @cyqsimon @spageektti
-/pages/windows/ @spageektti
+/pages/linux/ @cyqsimon
 
 /*.md @sbrl @kbdharun @sebastiaanspeck
 /.devcontainer/* @kbdharun @sebastiaanspeck

@@ -1,7 +1,7 @@
 # docker ps
 
 > Lista os containers Docker.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/ps/>.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/container/ls/>.
 
 - Lista containers Docker em execução:
 

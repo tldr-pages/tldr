@@ -1,7 +1,7 @@
 # docker build
 
 > Baut ein Image aus einem Dockerfile.
-> Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/build/>.
+> Weitere Informationen: <https://docs.docker.com/reference/cli/docker/buildx/build/>.
 
 - Baue ein Docker Image aus dem Dockerfile im aktuellen Verzeichnis:
 

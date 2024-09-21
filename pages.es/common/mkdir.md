@@ -9,4 +9,4 @@
 
 - Crea directorios recursivamente (útil para crear directorios anidados):
 
-`mkdir -p {{ruta/al/directorio}}`
+`mkdir {{-p|--parents}} {{ruta/al/directorio}}`

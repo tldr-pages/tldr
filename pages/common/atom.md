@@ -2,6 +2,7 @@
 
 > A cross-platform pluggable text editor.
 > Plugins are managed by `apm`.
+> Note: Atom has been sunsetted and is no longer actively maintained.
 > More information: <https://atom.io/>.
 
 - Open a file or directory:

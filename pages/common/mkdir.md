@@ -7,10 +7,10 @@
 
 `mkdir {{path/to/directory1 path/to/directory2 ...}}`
 
-- Create specific directories and their [p]arents if needed:
+- Create specific directories and their parents if needed:
 
-`mkdir -p {{path/to/directory1 path/to/directory2 ...}}`
+`mkdir {{-p|--parents}} {{path/to/directory1 path/to/directory2 ...}}`
 
 - Create directories with specific permissions:
 
-`mkdir -m {{rwxrw-r--}} {{path/to/directory1 path/to/directory2 ...}}`
+`mkdir {{-m|--mode}} {{rwxrw-r--}} {{path/to/directory1 path/to/directory2 ...}}`

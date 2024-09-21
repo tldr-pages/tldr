@@ -3,15 +3,15 @@
 > Wyświetl informację o uruchomionych usługach.
 > Więcej informacji: <https://www.unix.com/man-page/linux/1/svcs>.
 
-- Wyświetl wszystkie uruchomione usługi:
+- Wypisz wszystkie uruchomione usługi:
 
 `svcs`
 
-- Wyświetl wszystkie usługi, które nie są uruchomione:
+- Wypisz wszystkie usługi, które nie są uruchomione:
 
 `svcs -vx`
 
-- Wyświetl informację o usłudze:
+- Wypisz informacje o usłudze:
 
 `svcs apache`
 

@@ -27,3 +27,11 @@
 - Manage Azure Network resources:
 
 `az network`
+
+- Start in interactive mode:
+
+`az interactive`
+
+- Display help:
+
+`az --help`
