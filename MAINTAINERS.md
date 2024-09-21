@@ -74,6 +74,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [16 August 2024](https://github.com/tldr-pages/tldr/issues/13450) — present
 - **jxu ([@jxu](https://github.com/jxu))**:
   [18 August 2024](https://github.com/tldr-pages/tldr/issues/13451) — present
+- **Nelson Figueroa ([@nelsonfigueroa](https://github.com/nelsonfigueroa)):**
+  [21 September 2024](https://github.com/tldr-pages/tldr/issues/13781) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -130,8 +132,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10738) — [3 May 2024](https://github.com/tldr-pages/tldr/issues/12718)
 - Wiktor Perskawiec ([@spageektti](https://github.com/spageektti)):
   [11 May 2024](https://github.com/tldr-pages/tldr/issues/12776) — [1 June 2024](https://github.com/tldr-pages/tldr/issues/12869)
-- **Nelson Figueroa ([@nelsonfigueroa](https://github.com/nelsonfigueroa)):**
-  [21 September 2024](https://github.com/tldr-pages/tldr/issues/13781) — present
 
 ## Organization members
 
