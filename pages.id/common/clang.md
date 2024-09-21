@@ -22,7 +22,7 @@
 
 - Susun kode sumber menjadi program dalam format LLVM Intermediate Representation (IR):
 
-`clang -S -emit-llvm {{jalan/menuju/sumber.c}} {{-o|--output}} {{jalan/menuju/program.ll}}`
+`clang {{-S|--assemble}} -emit-llvm {{jalan/menuju/sumber.c}} {{-o|--output}} {{jalan/menuju/program.ll}}`
 
 - Susun kode sumber tanpa digabungkan:
 
@@ -31,3 +31,7 @@
 - [O]ptimalkan progam yang disusun agar dapat dijalankan lebih cepat:
 
 `clang {{path/to/source.c}} -O{{1|2|3|fast}} {{-o|--output}} {{path/to/output_executable}}`
+
+- Tampilkan versi penyusun:
+
+`clang --version`

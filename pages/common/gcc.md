@@ -31,3 +31,7 @@
 - Optimize the compiled program for performance:
 
 `gcc {{path/to/source.c}} -O{{1|2|3|fast}} {{-o|--output}} {{path/to/output_executable}}`
+
+- Display version:
+
+`g++ --version`

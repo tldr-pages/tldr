@@ -31,3 +31,7 @@
 - Optimize the compiled program for performance:
 
 `clang++ {{path/to/source.cpp}} -O{{1|2|3|fast}} {{-o|--output}} {{path/to/output_executable}}`
+
+- Display version:
+
+`clang++ --version`

@@ -16,9 +16,9 @@
 
 `g++ {{jalan/menuju/sumber.c}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{jalan/menuju/program}}`
 
-- Pilih standar bahasa untuk dikompilasi:
+- Pilih standar bahasa untuk dikompilasi (C++98/C++11/C++14/C++17):
 
-`g++ {{path/to/source.cpp}} -std={{c++20}} {{-o|--output}} {{path/to/output_executable}}`
+`g++ {{path/to/source.cpp}} -std={{c++98|c++11|c++14|c++17}} {{-o|--output}} {{path/to/output_executable}}`
 
 - Sertakan pustaka (library) dari direktori yang berbeda:
 
@@ -31,3 +31,7 @@
 - [O]ptimalkan progam yang disusun agar dapat dijalankan lebih cepat:
 
 `g++ {{path/to/source.c}} -O{{1|2|3|fast}} {{-o|--output}} {{path/to/output_executable}}`
+
+- Tampilkan versi penyusun:
+
+`g++ --version`

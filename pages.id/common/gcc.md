@@ -31,3 +31,7 @@
 - [O]ptimalkan progam yang disusun agar dapat dijalankan lebih cepat:
 
 `gcc {{path/to/source.c}} -O{{1|2|3|fast}} {{-o|--output}} {{path/to/output_executable}}`
+
+- Tampilkan versi penyusun:
+
+`gcc --version`
