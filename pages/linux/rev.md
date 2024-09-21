@@ -11,14 +11,14 @@
 
 `rev {{path/to/file}}`
 
-- Help:
+- Use '\0' as a line separator (zero termination):
+
+`rev -0 {{path/to/file}}`
+
+- Display help:
 
 `rev -h`
 
 - Display version:
 
 `rev -V`
-
-- Use '\0' as a line separator (zero termination):
-
-`rev -0 {{path/to/file}}`
