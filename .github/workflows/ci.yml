@@ -6,12 +6,7 @@ jobs:
   ci:
     name: CI
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # to upload assets to releases
-      attestations: write # to upload assets attestation for build provenance
-      id-token: write # grant additional permission to attestation action to mint the OIDC token permission
-      pull-requests: write # to comment on the PR
-
+    permissions: write-all
     steps:
     - uses: actions/checkout@v4
       with:
