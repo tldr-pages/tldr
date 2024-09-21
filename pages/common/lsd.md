@@ -12,26 +12,26 @@
 
 `lsd -a`
 
-- List all files and directories with trailing `/` added to directory names:
+- List files and directories with trailing `/` added to directory names:
 
 `lsd -F`
 
-- List all files and directories in long format (permissions, ownership, size, and modification date):
+- List all files and directories in long format (permissions, ownership, size in human-readable format, and modification date):
 
-`lsd -la`
+`lsd -lha`
 
-- List all files and directories in long format with size displayed using human-readable units (KiB, MiB, GiB):
-
-`lsd -lh`
-
-- List all files and directories in long format, sorted by size (descending):
+- List files and directories in long format, sorted by size (descending):
 
 `lsd -lS`
 
-- List all files and directories in long format, sorted by modification date (oldest first):
+- List files and directories in long format, sorted by modification date (oldest first):
 
 `lsd -ltr`
 
 - Only list directories:
 
 `lsd -d {{*/}}`
+
+- Recursively list all directories in a tree format:
+
+`lsd --tree -d`
