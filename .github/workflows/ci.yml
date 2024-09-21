@@ -42,25 +42,23 @@ jobs:
 
     - name: Comment any errors on PR
       if: ${{ github.event.number != null && hashFiles('tldr-bot-errors.md') != '' }}
-      uses: marocchino/sticky-pull-request-comment@v2
+      uses: thollander/actions-comment-pull-request@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        header: tldr-bot-errors
-        hide_and_recreate: true
-        hide_classify: "OUTDATED"
-        path: tldr-bot-errors.md
+        comment_tag: tldr-bot-errors
+        mode: recreate
+        filePath: tldr-bot-errors.md
 
     - name: Comment any PR check results on PR
       if: ${{ github.event.number != null && hashFiles('tldr-bot-check-results.md') != '' }}
-      uses: marocchino/sticky-pull-request-comment@v2
+      uses: thollander/actions-comment-pull-request@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        header: tldr-bot-check-results
-        hide_and_recreate: true
-        hide_classify: "OUTDATED"
-        path: tldr-bot-check-results.md
+        comment_tag: tldr-bot-check-results
+        mode: recreate
+        filePath: tldr-bot-check-results.md
 
     - name: Build
       run: bash scripts/build.sh
