@@ -44,7 +44,7 @@ jobs:
       if: ${{ github.event.number != null && hashFiles('tldr-bot-errors.md') != '' }}
       uses: marocchino/sticky-pull-request-comment@v2
       env:
-        GITHUB_TOKEN: ${{ secrets.PR_COMMENT_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         header: tldr-bot-errors
         hide_and_recreate: true
@@ -55,7 +55,7 @@ jobs:
       if: ${{ github.event.number != null && hashFiles('tldr-bot-check-results.md') != '' }}
       uses: marocchino/sticky-pull-request-comment@v2
       env:
-        GITHUB_TOKEN: ${{ secrets.PR_COMMENT_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         header: tldr-bot-check-results
         hide_and_recreate: true
