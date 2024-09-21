@@ -5,7 +5,7 @@
 
 - Almacena los cambios actuales, excepto los archivos nuevos (sin seguimiento):
 
-`git stash push -m {{mensaje_opcional_stash}}`
+`git stash push --message {{mensaje_opcional_stash}}`
 
 - Almacena los cambios actuales, incluyendo los archivos nuevos (sin seguimiento):
 
