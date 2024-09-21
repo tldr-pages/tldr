@@ -34,4 +34,4 @@
 
 - Display version:
 
-`g++ --version`
+`gcc --version`
