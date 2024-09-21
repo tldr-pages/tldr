@@ -18,7 +18,7 @@
 
 - Pilih standar bahasa untuk dikompilasi:
 
-`clang++ {{jalan/menuju/sumber.cpp}} -std={{c++20}} {{-o|--output}} {[jalan/menuju/program}}`
+`clang++ {{jalan/menuju/sumber.cpp}} -std={{c++20}} {{-o|--output}} {{jalan/menuju/program}}`
 
 - Sertakan pustaka (library) dari direktori yang berbeda:
 
