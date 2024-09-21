@@ -395,20 +395,20 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 - The examples of pages in the subdirectory `common` for UNIX-like operating systems (e.g. `pages/common/tar.md`), preferably, should be written with the shell syntax specified by the [latest POSIX standard](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18).
 However, if you believe the example is hard to read, has little to no use, or is impossible to write in POSIX-compliant syntax, use non-POSIX syntax and add a note or warning indicating it and some or all of its consequences concisely and specifically. For example:
 
-  ```md
-  # IFS
+```md
+# IFS
 
-  > IFS (Internal Field Separator) is a special environment variable that defines the delimiter used for word splitting in Unix shells.
-  > The default value of IFS is a space, tab, and newline. The three characters serve as delimiters.
-  > Note: Not all shells support ANSI C quoted strings (i.e., $'...' and $"..."), the dollar sign could be included in the string.
-  > More information: <https://www.gnu.org/software/bash/manual/html_node/Word-Splitting.html>.
-  ```
+> IFS (Internal Field Separator) is a special environment variable that defines the delimiter used for word splitting in Unix shells.
+> The default value of IFS is a space, tab, and newline. The three characters serve as delimiters.
+> Note: Not all shells support ANSI C quoted strings (i.e., $'...' and $"..."), the dollar sign could be included in the string.
+> More information: <https://www.gnu.org/software/bash/manual/html_node/Word-Splitting.html>.
+```
 
-  To help you decide using POSIX-compliant syntax, ask yourself this:
+To help you decide using POSIX-compliant syntax, ask yourself this:
 
-  - Is the example too long (i.e. [exceeds the maximum line length](https://github.com/tldr-pages/tldr/blob/main/.markdownlint.json#L5))?
-  - Does the example utilize any [risky](https://unix.stackexchange.com/a/278439) or [inefficient](https://unix.stackexchange.com/a/169765) commands?
-  - Does the example return the correct output?
+- Is the example too long (i.e. [exceeds the maximum line length](https://github.com/tldr-pages/tldr/blob/main/.markdownlint.json#L5))?
+- Does the example utilize any [risky](https://unix.stackexchange.com/a/278439) or [inefficient](https://unix.stackexchange.com/a/169765) commands?
+- Does the example return the correct output?
 
 ### Option syntax
 
