@@ -1,7 +1,7 @@
 # a2enconf
 
 > Debian tabanlı işletim sistemlerinde Apache konfigürasyon dosyasını etkinleştir.
-> Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2enconf.8.en.html>.
+> Daha fazla bilgi için: <https://manned.org/a2enconf.8>.
 
 - Bir konfigürasyon dosyasını etkinleştir:
 

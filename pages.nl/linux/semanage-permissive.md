@@ -3,7 +3,7 @@
 > Beheer persistente SELinux permissieve domeinen.
 > Let op dat dit het proces effectief onbeperkt maakt. Voor langdurig gebruik wordt aanbevolen om SELinux correct te configureren.
 > Zie ook: `semanage`, `getenforce`, `setenforce`.
-> Meer informatie: <https://manned.org/man/semanage-permissive>.
+> Meer informatie: <https://manned.org/semanage-permissive>.
 
 - Toon alle procestypen (ook wel domeinen genoemd) die in permissieve modus zijn:
 

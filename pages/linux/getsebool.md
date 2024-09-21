@@ -2,7 +2,7 @@
 
 > Get SELinux boolean value.
 > See also: `semanage-boolean`, `setsebool`.
-> More information: <https://manned.org/man/getsebool>.
+> More information: <https://manned.org/getsebool>.
 
 - Show the current setting of a boolean:
 

@@ -1,7 +1,7 @@
 # a2query
 
 > Recupera la configurazione di runtime da Apache su sistemi operativi basati su Debian.
-> Maggiori informazioni: <https://manpages.debian.org/latest/apache2/a2query.html>.
+> Maggiori informazioni: <https://manned.org/a2query>.
 
 - Lista i moduli Apache attivi:
 

@@ -1,7 +1,7 @@
 # a2enconf
 
 > Activa um ficheiro de configuração do Apache em distribuições baseadas em Debian.
-> Mais informações: <https://manpages.debian.org/latest/apache2/a2enconf.8.en.html>.
+> Mais informações: <https://manned.org/a2enconf.8>.
 
 - Activa um ficheiro de configuração:
 

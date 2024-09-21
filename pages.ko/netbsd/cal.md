@@ -1,7 +1,7 @@
 # cal
 
 > 달력을 표시합니다.
-> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?cal>.
+> 더 많은 정보: <https://man.netbsd.org/cal.1>.
 
 - 현재 월의 달력 표시:
 

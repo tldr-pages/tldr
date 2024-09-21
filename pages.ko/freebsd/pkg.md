@@ -1,7 +1,7 @@
 # pkg
 
 > FreeBSD 패키지 관리자입니다.
-> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?query=pkg&sektion=8>.
+> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?pkg>.
 
 - 새 패키지 설치:
 

@@ -1,7 +1,7 @@
 # ifup
 
 > Enable network interfaces.
-> More information: <https://manpages.debian.org/latest/ifupdown/ifup.8.html>.
+> More information: <https://manned.org/ifup.8>.
 
 - Enable interface eth0:
 

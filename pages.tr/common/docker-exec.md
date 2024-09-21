@@ -1,7 +1,7 @@
 # docker exec
 
 > Halihazırda çalışan bir Docker konteyneri üstünde komut çalıştır.
-> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/exec/>.
+> Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/container/exec/>.
 
 - Halihazırda çalışan bir konteynerin üstünde interaktif bir kabuk oturumunu çalıştır:
 

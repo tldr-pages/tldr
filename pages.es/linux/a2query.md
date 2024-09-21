@@ -1,7 +1,7 @@
 # a2query
 
 > Recupera la configuración en tiempo de ejecución de Apache en sistemas operativos basados en Debian.
-> Más información: <https://manpages.debian.org/latest/apache2/a2query.html>.
+> Más información: <https://manned.org/a2query>.
 
 - Lista módulos de Apache habilitados:
 
