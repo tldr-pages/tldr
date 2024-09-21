@@ -3,7 +3,7 @@
 > Manajer paket untuk distribusi Linux berbasis Debian.
 > Pengganti `apt-get` yang direkomendasikan ketika digunakan secara interaktif di Ubuntu versi 16.04 atau yang lebih baru.
 > Lihat <https://wiki.archlinux.org/title/Pacman/Rosetta> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah `apt`.
-> Informasi lebih lanjut: <https://manpages.debian.org/latest/apt/apt.8.html>.
+> Informasi lebih lanjut: <https://manned.org/apt.8>.
 
 - Perbarui daftar paket yang tersedia dan versinya (direkomendasikan untuk menggunakan perintah ini sebelum perintah `apt` lainnya.):
 

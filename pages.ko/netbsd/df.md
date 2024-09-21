@@ -1,7 +1,7 @@
 # df
 
 > 파일 시스템 디스크 공간 사용량 개요를 표시합니다.
-> 더 많은 정보: <https://man.netbsd.org/NetBSD-9.3/df.1>.
+> 더 많은 정보: <https://man.netbsd.org/df.1>.
 
 - 512바이트 단위로 모든 파일 시스템과 디스크 사용량 표시:
 

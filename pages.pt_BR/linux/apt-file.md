@@ -1,7 +1,7 @@
 # apt-file
 
 > Buscador de arquivos nos pacotes APT, incluindo os não instalados.
-> Mais informações: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
+> Mais informações: <https://manned.org/apt-file.1>.
 
 - Atualiza as informações dos pacotes a partir de todos os repositórios remotos:
 

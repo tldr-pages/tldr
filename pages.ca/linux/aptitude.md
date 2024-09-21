@@ -1,7 +1,7 @@
 # aptitude
 
 > Eina de gestió de paquets per a Debian i Ubuntu.
-> Més informació: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
+> Més informació: <https://manned.org/aptitude.8>.
 
 - Sincronitza la llista de paquets i versions disponibles (es recomana executar aquest commandament abans que qualsevol altre `aptitude`):
 
