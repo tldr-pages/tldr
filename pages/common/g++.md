@@ -10,11 +10,11 @@
 
 - Activate output of all errors and warnings:
 
-`g++ {{path/to/source.c}} -Wall {{-o|--output}} {{output_executable}}`
+`g++ {{path/to/source.cpp}} -Wall {{-o|--output}} {{output_executable}}`
 
 - Show common warnings, debug symbols in output, and optimize without affecting debugging:
 
-`g++ {{path/to/source.c}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{path/to/output_executable}}`
+`g++ {{path/to/source.cpp}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{path/to/output_executable}}`
 
 - Choose a language standard to compile for (C++98/C++11/C++14/C++17):
 

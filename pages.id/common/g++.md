@@ -10,11 +10,11 @@
 
 - Tampilkan pesan peringatan dan galat dalam [o]utput:
 
-`g++ {{jalan/menuju/sumber.c}} -Wall {{-o|--output}} {{jalan/menuju/program}}`
+`g++ {{jalan/menuju/sumber.cpp}} -Wall {{-o|--output}} {{jalan/menuju/program}}`
 
 - Izinkan peringatan dan simbol debug dalam [o]utput:
 
-`g++ {{jalan/menuju/sumber.c}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{jalan/menuju/program}}`
+`g++ {{jalan/menuju/sumber.cpp}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{jalan/menuju/program}}`
 
 - Pilih standar bahasa untuk dikompilasi (C++98/C++11/C++14/C++17):
 
@@ -22,7 +22,7 @@
 
 - Sertakan pustaka (library) dari direktori yang berbeda:
 
-`g++ {{jalan/menuju/sumber.c}} {{-o|--output}} {{jalan/menuju/program}} -I{{jalan/menuju/header}} -L{{jalan/menuju/pustaka}} -l{{nama_pustaka}}`
+`g++ {{jalan/menuju/sumber.cpp}} {{-o|--output}} {{jalan/menuju/program}} -I{{jalan/menuju/header}} -L{{jalan/menuju/pustaka}} -l{{nama_pustaka}}`
 
 - Susun dan gabungkan beberapa berkas kode sumber menjadi suatu berkas program biner:
 
@@ -30,7 +30,7 @@
 
 - [O]ptimalkan progam yang disusun agar dapat dijalankan lebih cepat:
 
-`g++ {{jalan/menuju/sumber.c}} -O{{1|2|3|fast}} {{-o|--output}} {{jalan/menuju/program}}`
+`g++ {{jalan/menuju/sumber.cpp}} -O{{1|2|3|fast}} {{-o|--output}} {{jalan/menuju/program}}`
 
 - Tampilkan versi penyusun:
 
