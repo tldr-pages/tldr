@@ -2,7 +2,7 @@
 
 > Enruta el tráfico de red a través de la red Tor.
 > Nota: Este comando está desfasado, y ahora es un empaquetador compatible con versiones anteriores de `torsocks`.
-> Más información: <https://manned.org/man/torify>.
+> Más información: <https://manned.org/torify>.
 
 - Enruta el tráfico a través de Tor:
 

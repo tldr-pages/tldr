@@ -3,7 +3,7 @@
 > Manage persistent SELinux permissive domains.
 > Note that this effectively makes the process unconfined. For long-term use, it is recommended to configure SELiunx properly.
 > See also: `semanage`, `getenforce`, `setenforce`.
-> More information: <https://manned.org/man/semanage-permissive>.
+> More information: <https://manned.org/semanage-permissive>.
 
 - List all process types (a.k.a domains) that are in permissive mode:
 
