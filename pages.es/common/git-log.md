@@ -29,7 +29,7 @@
 
 - Muestra las últimas N confirmaciones de determinado autor:
 
-`git log {{--max-count|-n} {{número}} --author {{autor}}`
+`git log {{--max-count|-n} {{número}} --author "{{autor}}"`
 
 - Muestra las confirmaciones entre dos fechas (yyyy-mm-dd):
 
