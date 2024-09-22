@@ -5,7 +5,7 @@
 
 - Ejecuta un comando con variables de entorno desde un archivo `.env`:
 
-`dotenvx run -- {{comando}}`.
+`dotenvx run -- {{comando}}`
 
 - Ejecuta un comando con variables de entorno desde un archivo `.env` específico:
 
