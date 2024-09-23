@@ -5,4 +5,4 @@
 
 - Repara una partición:
 
-`sudo xfs_repair {{ruta/a/partición}}
+`sudo xfs_repair {{ruta/a/partición}}`
