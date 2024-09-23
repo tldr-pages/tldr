@@ -29,8 +29,8 @@
 
 - Excluír da saída padrão os dispositivos específicados por seus repectivos números separados por vírgulas:
 
-`lsblk -e {{1,7}}`
+`lsblk -e {{1,7,...}}`
 
 - Mostra um resumo de forma customizada passando as colunas separadas por vírgulas:
 
-`lsblk --output {{NAME}},{{SERIAL}},{{MODEL}},{{TRAN}},{{TYPE}},{{SIZE}},{{FSTYPE}},{{MOUNTPOINT}}`
+`lsblk --output {{NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`
