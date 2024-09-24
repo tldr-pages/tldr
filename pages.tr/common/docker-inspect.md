@@ -1,7 +1,7 @@
 # docker inspect
 
 > Docker objelerinde bulunan düşük seviye bilgiyi gösterir.
-> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/inspect/>.
+> Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/inspect/>.
 
 - Yardım içeriğini göster:
 

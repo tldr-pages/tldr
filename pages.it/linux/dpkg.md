@@ -2,7 +2,7 @@
 
 > Gestore di pacchetti Debian.
 > Alcuni comandi aggiuntivi, come `dpkg deb`, hanno la propria documentazione.
-> Maggiori informazioni: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
+> Maggiori informazioni: <https://manned.org/dpkg>.
 
 - Installa un pacchetto:
 

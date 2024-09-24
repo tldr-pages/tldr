@@ -3,7 +3,7 @@
 > Toon open Internet- of UNIX-domeinsockets.
 > Let op: dit programma is hergeschreven voor NetBSD 3.0 van FreeBSD's `sockstat`.
 > Bekijk ook: `netstat`.
-> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?sockstat>.
+> Meer informatie: <https://man.netbsd.org/sockstat.1>.
 
 - Toon informatie voor IPv4- en IPv6-sockets voor zowel luister- als verbonden sockets:
 

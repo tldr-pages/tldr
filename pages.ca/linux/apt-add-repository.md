@@ -1,7 +1,7 @@
 # apt-add-repository
 
 > Gestiona les definicions del repositori APT.
-> Més informació: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
+> Més informació: <https://manned.org/apt-add-repository.1>.
 
 - Afegeix un nou repositori APT:
 

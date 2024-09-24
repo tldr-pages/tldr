@@ -1,7 +1,7 @@
 # a2query
 
 > 在基于 Debian 的操作系统上查看 Apache 运行配置。
-> 更多信息：<https://manpages.debian.org/latest/apache2/a2query.html>.
+> 更多信息：<https://manned.org/a2query>.
 
 - 列出启用的 Apache 模块：
 

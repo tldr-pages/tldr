@@ -1,7 +1,8 @@
 # bcachefs
 
 > Manage `bcachefs` filesystems/devices.
-> More information: <https://bcachefs.org/bcachefs-principles-of-operation.pdf>.
+> Some subcommands such as `device` have their own usage documentation.
+> More information: <https://bcachefs-docs.readthedocs.io/en/latest/index.html>.
 
 - Format a partition with `bcachefs`:
 
