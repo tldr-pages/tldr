@@ -6,7 +6,7 @@
 
 - Compileer meerdere bronbestanden in een uitvoerbaar bestand:
 
-`gcc {{pad/naar/source1.c pad/naar/source2.c ...}} -o {{pad/naar/uitvoer_executable}}`
+`gcc {{pad/naar/source1.c pad/naar/source2.c ...}} {{-o|--output}} {{pad/naar/uitvoer_executable}}`
 
 - Toon (bijna) alle fouten en waarschuwingen:
 
