@@ -2,7 +2,8 @@
 
 > Compileer C, C++, en Objective-C bronbestanden. Kan gebruikt worden als een vervanger van GCC.
 > Onderdeel van LLVM.
-> Meer informatie: https://clang.llvm.org/docs/ClangCommandLineReference.html.
+> Meer informatie: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.
+
 
 - Compileer broncodebestand(en) naar een uitvoerbaar binair bestand:
 
