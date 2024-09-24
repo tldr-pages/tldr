@@ -18,7 +18,7 @@
 
 - Voeg bibliotheken toe die zich op een ander pad bevinden dan het bronbestand:
 
-`clang {{pad/naar/bron.c}} {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}} -I{{pad/naar/header_pad}} -L{{pad/naar/bibliotheek_pad}} -l{{pad/naar/bibliotheek_naam}}`
+`clang {{pad/naar/bron.c}} {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}} -I{{pad/naar/header}} -L{{pad/naar/bibliotheek}} -l{{bibliotheek_naam}}`
 
 - Compileer broncode naar LLVM Intermediate Representation (IR):
 
