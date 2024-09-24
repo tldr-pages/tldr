@@ -6,7 +6,7 @@
 
 - Compileer meerdere bronbestanden in een uitvoerbaar bestand:
 
-`gcc {{pad/naar/source1.c pad/naar/source2.c ...}} {{-o|--output}} {{pad/naar/uitvoer_executable}}`
+`gcc {{pad/naar/bron1.c pad/naar/bron2.c ...}} {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}}`
 
 - Toon (bijna) alle fouten en waarschuwingen:
 
@@ -14,7 +14,7 @@
 
 - Toon veelvoorkomende waarschuwingen, debug-symbolen in de uitvoer, en optimaliseer zonder debugging te beïnvloeden:
 
-`gcc {{pad/naar/bron.c}} -Wall {{-g|--debug}} -Og {{-o|--output}}`
+`gcc {{pad/naar/bron.c}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}}`
 
 - Voeg bibliotheken toe die zich op een ander pad bevinden dan het bronbestand:
 
