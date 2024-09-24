@@ -17,8 +17,8 @@
 
 - Encode from `stdin`:
 
-`{{somecommand}} | base32`
+`{{command}} | base32`
 
 - Decode from `stdin`:
 
-`{{somecommand}} | base32 {{-d|--decode}}`
+`{{command}} | base32 {{-d|--decode}}`
