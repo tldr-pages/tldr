@@ -15,7 +15,7 @@
 
 - Add important media from a chosen mirror:
 
-`sudo urpmi.addmedia --distrib ftp://{{mirror_website}/mirror/mageia/distrib/{{version}}/{{arch}}`
+`sudo urpmi.addmedia --distrib ftp://{{mirror_website}}/mirror/mageia/distrib/{{version}}/{{arch}}`
 
 - Automatically select mirrors from a mirror list:
 
