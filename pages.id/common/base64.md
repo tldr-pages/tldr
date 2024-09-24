@@ -17,8 +17,8 @@
 
 - Kodekan isi dari `stdin`:
 
-`{{suatuperintah}} | base64`
+`{{perintah}} | base64`
 
 - Dekodekan kode Base64 yang berasal dari `stdout`:
 
-`{{suatuperintah}} | base64 {{-d|--decode}}`
+`{{perintah}} | base64 {{-d|--decode}}`

@@ -17,8 +17,8 @@
 
 - Kodekan isi dari `stdin`:
 
-`{{suatuperintah}} | base32`
+`{{perintah}} | base32`
 
 - Dekodekan kode Base32 yang berasal dari `stdout`:
 
-`{{suatuperintah}} | base32 {{-d|--decode}}`
+`{{perintah}} | base32 {{-d|--decode}}`
