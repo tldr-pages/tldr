@@ -1,6 +1,6 @@
 # base64
 
-> Codeer of decodeer een bestand of `stdin` van/naar Base64 naar `stdout`.
+> Encodeer of decodeer een bestand of `stdin` van/naar Base64 naar `stdout`.
 > Meer informatie: <https://manned.org/base64>.
 
 - Encodeer een bestand:
@@ -17,8 +17,8 @@
 
 - Encodeer `stdin`:
 
-`{{eencommando}} | base64`
+`{{commando}} | base64`
 
-- Decodeeer `stdin`:
+- Decodeer `stdin`:
 
-`{{eencommando}} | base64 {{-d|--decode}}`
+`{{commando}} | base64 {{-d|--decode}}`

@@ -17,8 +17,8 @@
 
 - Encodeer `stdin`:
 
-`{{eencommando}} | base32`
+`{{commando}} | base32`
 
 - Decodeeer `stdin`:
 
-`{{eencommando}} | base32 {{-d|--decode}}`
+`{{commando}} | base32 {{-d|--decode}}`
