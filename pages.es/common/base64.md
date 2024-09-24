@@ -13,7 +13,7 @@
 
 - Decodifica un archivo:
 
-`base64 --decode {{ruta/al/archivo}}`
+`base64 {{-d|--decode}} {{ruta/al/archivo}}`
 
 - Codifica `stdin`:
 
@@ -21,4 +21,4 @@
 
 - Decodifica `stdin`:
 
-`{{comando}} | base64 --decode`
+`{{comando}} | base64 {{-d|--decode}}`
