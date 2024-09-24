@@ -20,7 +20,7 @@
 
 `yadm clone {{remote-repo}} --w {{worktree-file}}`
 
-- If you want to change the branch that yadm get's files from:
+- If you want to change the branch that yadm gets files from:
 
 `yadm clone {{remote-repo}} -b {{branch}}`
 
