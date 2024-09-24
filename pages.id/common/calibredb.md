@@ -2,7 +2,7 @@
 
 > Kelola suatu pangkalan data perpustakaan buku digital.
 > Bagian dari aplikasi perpustakaan buku digital Calibre.
-> Informasi lebih lanjut: https://manual.calibre-ebook.com/generated/en/calibredb.html>.
+> Informasi lebih lanjut: <https://manual.calibre-ebook.com/generated/en/calibredb.html>.
 
 - Tampilkan daftar judul dan informasi tambahan terkait buku-buku digital yang telah terdaftar dalam perpustakaan:
 
