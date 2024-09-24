@@ -1,6 +1,6 @@
 # base32
 
-> Codeer of decodeer een bestand of `stdin` van/naar Base32 naar `stdout`.
+> Encodeer of decodeer een bestand of `stdin` van/naar Base32 naar `stdout`.
 > Meer informatie: <https://manned.org/base32>.
 
 - Encodeer een bestand:
@@ -19,6 +19,6 @@
 
 `{{commando}} | base32`
 
-- Decodeeer `stdin`:
+- Decodeer `stdin`:
 
 `{{commando}} | base32 {{-d|--decode}}`
