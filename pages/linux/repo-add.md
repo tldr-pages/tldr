@@ -1,7 +1,7 @@
 # repo-add
 
 > Package database maintenance utility which enables installation of said package via Pacman.
-> More information: <https://man.archlinux.org/man/repo-add>.
+> More information: <https://manned.org/repo-add>.
 
 - Create an empty repository:
 

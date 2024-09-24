@@ -1,7 +1,7 @@
 # genfstab
 
 > Arch Linux install script to generate output suitable for addition to an fstab file.
-> More information: <https://man.archlinux.org/man/extra/arch-install-scripts/genfstab.8>.
+> More information: <https://manned.org/genfstab.8>.
 
 - Display an fstab compatible output based on a volume label:
 
