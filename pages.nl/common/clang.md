@@ -4,7 +4,6 @@
 > Onderdeel van LLVM.
 > Meer informatie: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.
 
-
 - Compileer broncodebestand(en) naar een uitvoerbaar binair bestand:
 
 `clang {{pad/naar/bron1.c pad/naar/bron2.c ...}} {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}}`
