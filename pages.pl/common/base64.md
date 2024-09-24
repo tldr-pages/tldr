@@ -7,7 +7,7 @@
 
 `base64 {{ścieżka/do/pliku}}`
 
-- Zawijaj zakodowane wyjście do określonej szerokości (`0` wyłącza zawijanie):
+- Zawijaj zakodowane wyjście na określonej szerokości (`0` wyłącza zawijanie):
 
 `base64 {{-w|--wrap}} {{0|76|...}} {{ścieżka/do/pliku}}`
 
