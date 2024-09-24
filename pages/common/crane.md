@@ -1,7 +1,7 @@
 # crane
 
 > Crane is a tool for managing container images.
-> Some subsommand such as `pull`, `push`, `catalog`, etc. have their own usage documentation.
+> Some subsommands such as `pull`, `push`, `catalog`, etc. have their own usage documentation.
 > More information: <https://github.com/google/go-containerregistry/tree/main/cmd/crane>.
 
 - Execute a crane subcommand:
