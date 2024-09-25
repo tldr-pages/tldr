@@ -5,18 +5,18 @@
 > The purpose of introspection is to support command line completion.
 > More information: <https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#commands>.
 
-- To output commands:
+- Output commands:
 
 `yadm introspect commands`
 
-- To output configs:
+- Output configs:
 
 `yadm introspect configs`
 
-- To output switches for the main `yadm` command:
+- Output switches for the main `yadm` command:
 
 `yadm introspect switches`
 
-- To output repo:
+- Output repo:
 
 `yadm introspect repo`

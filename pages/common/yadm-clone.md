@@ -5,11 +5,11 @@
 > If you have a bootstrap file in your repo. You will be prompted to execute it.
 > More information: <https://yadm.io/docs/common_commands>.
 
-- To clone your repo:
+- Clone your repo:
 
 `yadm clone {{remote_repository_location}}`
 
-- To clone your repo then execute the bootstrap file:
+- Clone your repo then execute the bootstrap file:
 
 `yadm clone {{remote_repo}} --bootstrap`
 
@@ -21,7 +21,7 @@
 
 `yadm clone {{remote_repo}} --w {{worktree_file}}`
 
-- If you want to change the branch that yadm gets files from:
+- Change the branch that yadm gets files from:
 
 `yadm clone {{remote_repo}} -b {{branch}}`
 

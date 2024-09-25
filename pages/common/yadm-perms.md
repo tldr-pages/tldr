@@ -6,6 +6,6 @@
 > Setting the configuration yadm.auto-perms to "false".
 > More information: <https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#permissions>.
 
-- To execute:
+- Execute:
 
 `yadm perms`

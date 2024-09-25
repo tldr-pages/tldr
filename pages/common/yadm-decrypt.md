@@ -4,6 +4,6 @@
 > When you activate this command you'll be prompted for a password.
 > More information: <https://yadm.io/docs/encryption>.
 
-- To execute:
+- Execute:
 
 `yadm decrypt`

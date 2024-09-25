@@ -4,14 +4,14 @@
 > The repository is stored in `$HOME/.local/share/yadm/repo.git`.
 > More information: <https://yadm.io/docs/getting_started>.
 
-- To execute:
+- Execute:
 
 `yadm init`
 
-- By default, $HOME will be used as the worktree, but this can be overridden with the -w option:
+- Override the worktree:
 
 `yadm init -w {{worktree_folder}}`
 
-- Yadm can be forced to overwrite an existing repository by providing the -f option:
+- Overwrite an existing repository:
 
 `yadm init -f {{local_repo}}`

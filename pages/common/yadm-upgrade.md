@@ -4,10 +4,10 @@
 > Upgrading will attempt to de-initialize and re-initialize your submodules.
 > More information: <https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#commands>.
 
-- To execute:
+- Execute:
 
 `yadm upgrade`
 
-- To force the upgrade regardless of changes:
+- Force the upgrade regardless of changes:
 
 `yadm upgrade -f`

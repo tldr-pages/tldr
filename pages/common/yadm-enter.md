@@ -5,7 +5,7 @@
 > This  could be useful if you are using a tool which uses Git directly.
 > More information: <https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#commands>.
 
-- To execute:
+- Execute:
 
 `yadm enter`
 

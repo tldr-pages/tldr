@@ -4,6 +4,6 @@
 > Learn more about templates: <https://yadm.io/docs/templates>.
 > More information: <https://yadm.io/docs/alternates>.
 
-- To execute:
+- Execute:
 
 `yadm alt`

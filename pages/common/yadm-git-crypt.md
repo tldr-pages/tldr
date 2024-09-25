@@ -1,11 +1,11 @@
 # yadm git-crypt
 
-> If git-crypt is installed, this command allows you to pass options directly to it.
+> If `git-crypt` is installed, this command allows you to pass options directly to it.
 > With the environment configured to use the yadm repository.
 > Git Crypt enables transparent encryption and decryption of files in a git repository.
-> You can read <https://github.com/AGWA/yadm> git-crypt for details.
+> More information: <https://github.com/AGWA/yadm>.
 
-- To initialize repo to use git crypt:
+- Initialize repo to use git crypt:
 
 `yadm git-crypt init`
 
@@ -17,6 +17,6 @@
 
 `yadm git-crypt unlock`
 
-- Alternatively, you can export a symmetric secret key:
+- Export a symmetric secret key:
 
 `yadm git-crypt export-key </path/to/keyfile>`
