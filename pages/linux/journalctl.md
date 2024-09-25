@@ -25,7 +25,7 @@
 
 - Filter messages within a time range (either timestamp or placeholders like "yesterday"):
 
-`journalctl --since {{now|today|yesterday|tomorrow}} --until {{YYYY-MM-DD HH:MM:SS}}`
+`journalctl --since {{now|today|yesterday|tomorrow}} --until "{{YYYY-MM-DD HH:MM:SS}}"`
 
 - Show all messages by a specific process:
 
