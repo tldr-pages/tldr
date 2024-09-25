@@ -59,9 +59,7 @@ jobs:
 
     - name: Close last report open issue
       if: ${{ env.lychee_exit_code == 0 && steps.last-issue.outputs.has-found == 'true' }}
-      uses: peter-evans/close-issue@v2
-      with:
-        issue-number: ${{ steps.last-issue.outputs.issue-number }}
+      run: gh issue close ${{ steps.last-issue.outputs.issue-number }}
 
     - name: Save lychee cache
       uses: actions/cache/save@v4
