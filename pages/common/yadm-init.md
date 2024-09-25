@@ -8,7 +8,7 @@
 
 `yadm init`
 
-- By default, **$HOME will be used as the work-tree**, but this can be **overridden with the -w** option:
+- By default, $HOME will be used as the worktree, but this can be overridden with the -w option:
 
 `yadm init -w {{worktree_folder}}`
 
