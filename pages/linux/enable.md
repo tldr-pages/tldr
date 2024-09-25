@@ -1,7 +1,7 @@
 # enable
 
 > Enable and disable shell builtins.
-> More information: <https://manned.org/enable>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-enable>.
 
 - Print the list of builtins:
 
