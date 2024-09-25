@@ -24,6 +24,6 @@
 
 `yadm clone {{remote_repo}} -b {{branch}}`
 
-- If you want to override an existing repo **local branch**:
+- Override an existing repository local branch:
 
 `yadm clone {{remote_repo}} -f`
