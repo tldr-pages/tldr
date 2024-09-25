@@ -1,7 +1,7 @@
 # docker images
 
 > 도커 이미지 관리.
-> 더 많은 정보: <https://docs.docker.com/engine/reference/commandline/images/>.
+> 더 많은 정보: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
 - 모든 도커 이미지 목록 보기:
 

@@ -76,6 +76,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [18 August 2024](https://github.com/tldr-pages/tldr/issues/13451) — present
 - **Nelson Figueroa ([@nelsonfigueroa](https://github.com/nelsonfigueroa)):**
   [21 September 2024](https://github.com/tldr-pages/tldr/issues/13781) — present
+- **Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz))**:
+  [24 December 2019](https://github.com/tldr-pages/tldr/issues/3690) — [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736), [22 September 2024](https://github.com/tldr-pages/tldr/issues/5932) — present
 - **Yi Liu ([@LiLittleCat](https://github.com/LiLittleCat))**:
   [23 September 2024](https://github.com/tldr-pages/tldr/issues/13780) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
@@ -86,8 +88,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [27 October 2019](https://github.com/tldr-pages/tldr/issues/3488) — [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738)
 - Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic)):
   [28 November 2019](https://github.com/tldr-pages/tldr/issues/3636) — [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663)
-- Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz)):
-  [24 December 2019](https://github.com/tldr-pages/tldr/issues/3690) — [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736)
 - Axel Navarro ([@navarroaxel](https://github.com/navarroaxel)):
   [24 August 2020](https://github.com/tldr-pages/tldr/issues/4291) — [5 October 2020](https://github.com/tldr-pages/tldr/issues/4504)
 - bl-ue ([@bl-ue](https://github.com/bl-ue)):
@@ -140,8 +140,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
 In addition to everything that repository collaborators can do, organization members have write access to all the repositories in the tldr-pages organization, and [a few extra maintenance capabilities](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization).
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
-- **Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz))**:
-  [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — present
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
   [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
 - **Tan Siret Akıncı ([@tansiret](https://github.com/tansiret))**:
@@ -198,6 +196,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11202) — [28 April 2024](https://github.com/tldr-pages/tldr/issues/12687)
 - Juri ([@gutjuri](https://github.com/gutjuri)):
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11201) — [29 April 2024](https://github.com/tldr-pages/tldr/issues/12686)
+- Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz)):
+  [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — [22 September 2024](https://github.com/tldr-pages/tldr/issues/5932)
 
 ## Organization owners
 

@@ -3,7 +3,7 @@
 > Gestore pacchetti di Arch Linux.
 > Vedi anche: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 > Per comandi equivalenti in altri gestori pacchetti, vedi <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> Maggiori informazioni: <https://man.archlinux.org/man/pacman.8>.
+> Maggiori informazioni: <https://manned.org/pacman.8>.
 
 - Sincronizza e aggiorna tutti i pacchetti:
 

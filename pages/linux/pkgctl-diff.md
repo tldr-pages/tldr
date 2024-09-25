@@ -2,7 +2,7 @@
 
 > Compare package files using different modes.
 > See also: `pkgctl`.
-> More information: <https://man.archlinux.org/man/pkgctl-diff.1>.
+> More information: <https://manned.org/pkgctl-diff.1>.
 
 - Compare package files in tar content [l]ist different mode (default):
 
