@@ -9,8 +9,8 @@
 
 - By default, **$HOME will be used as the work-tree**, but this can be **overridden with the -w** option:
 
-`yadm init -w {{worktree-folder}}`
+`yadm init -w {{worktree_folder}}`
 
 - Yadm can be forced to overwrite an existing repository by providing the -f option:
 
-`yadm init -f {{local-repo}}`
+`yadm init -f {{local_repo}}`

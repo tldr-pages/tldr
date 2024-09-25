@@ -6,24 +6,24 @@
 
 - To clone your repo:
 
-`yadm clone {{remote-repo}}`
+`yadm clone {{remote_repo}}`
 
 - To clone your repo then execute the bootstrap file:
 
-`yadm clone {{remote-repo}} --bootstrap`
+`yadm clone {{remote_repo}} --bootstrap`
 
 - To clone your repo then not execute the bootstrap file:
 
-`yadm clone {{remote-repo}} --no-bootstrap`
+`yadm clone {{remote_repo}} --no-bootstrap`
 
 - To change the worktree that yadm will use:
 
-`yadm clone {{remote-repo}} --w {{worktree-file}}`
+`yadm clone {{remote_repo}} --w {{worktree_file}}`
 
 - If you want to change the branch that yadm gets files from:
 
-`yadm clone {{remote-repo}} -b {{branch}}`
+`yadm clone {{remote_repo}} -b {{branch}}`
 
 - If you want to override an existing repo **local branch**:
 
-`yadm clone {{remote-repo}} -f`
+`yadm clone {{remote_repo}} -f`
