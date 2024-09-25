@@ -1,7 +1,7 @@
 # enable
 
 > Enable and disable shell builtins.
-> More information: <https://manned.org/man/enable>.
+> More information: <https://manned.org/enable>.
 
 - Print the list of builtins:
 
