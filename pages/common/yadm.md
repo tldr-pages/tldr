@@ -1,6 +1,6 @@
 # yadm
 
-> A dotfiles manager that works by using git.
+> A dotfiles manager that works by using `git`.
 > The subcommands are just like git but you use yadm [command].
 > You can use yadm (init | clone | push | pull).
 > This command is one that allows you to pass flags to configure yadm.
