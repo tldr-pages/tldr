@@ -16,7 +16,7 @@
 
 `yadm clone {{remote_repo}} --no-bootstrap`
 
-- To change the worktree that yadm will use:
+- Change the worktree that `yadm` will use during cloning:
 
 `yadm clone {{remote_repo}} --w {{worktree_file}}`
 
