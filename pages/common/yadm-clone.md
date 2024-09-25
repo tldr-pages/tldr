@@ -7,7 +7,7 @@
 
 - To clone your repo:
 
-`yadm clone {{remote_repo}}`
+`yadm clone {{remote_repository_location}}`
 
 - To clone your repo then execute the bootstrap file:
 
