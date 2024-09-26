@@ -5,4 +5,4 @@
 
 - Decompile a `.dtb` file into a readable `.dts` file:
 
-`dtc -I dtb -O dts -o {{output_file.dts}} {{input_file.dtb}}`
+`dtc -I dtb -O dts -o {{path/to/output_file.dts}} {{path/to/input_file.dtb}}`
