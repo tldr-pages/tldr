@@ -75,7 +75,7 @@ def main(action):
     content = sys.stdin.read().strip()
 
     if action == "report-errors":
-        comment_body = COMMENT_ERROR.format(build_id=BUILD_ID, repo_slug=REPO_SLUG, content=content)
+        comment_body = COMMENT_ERROR.format(build_id=BUILD_ID, content=content)
     elif action == "report-check-results":
         comment_body = COMMENT_CHECK.format(content=content)
         
