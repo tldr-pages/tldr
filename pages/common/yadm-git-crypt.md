@@ -19,4 +19,4 @@
 
 - Export a symmetric secret key:
 
-`yadm git-crypt export-key </path/to/keyfile>`
+`yadm git-crypt export-key {{/path/to/key_file}}`
