@@ -113,7 +113,7 @@ def main(action):
 if __name__ == "__main__":
     # Environment variables required for GitHub API and repo details
     GITHUB_API_URL = 'https://api.github.com'
-    BOT_TOKEN = os.getenv("BOT_TOKEN")
+    BOT_TOKEN = os.getenv("GITHUB_TOKEN")
     PR_ID = os.getenv("PULL_REQUEST_ID")
     BUILD_ID = os.getenv("GITHUB_RUN_ID")
 
