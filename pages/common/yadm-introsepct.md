@@ -1,7 +1,6 @@
 # yadm-introspect
 
-> This command allows you to look at data that is managed by yadm.
-> The only viable options are, commands configs, repo, and switches.
+> Look at data that is managed by `yadm`.
 > The purpose of introspection is to support command line completion.
 > More information: <https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#commands>.
 
