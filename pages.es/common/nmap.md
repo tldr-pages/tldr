@@ -14,7 +14,7 @@
 
 - Activa la detección de sistemas operativos, la detección de versión, el escaneo con secuencias de comandos y traceroute de hosts desde un archivo:
 
-`sudo nmap -A -iL {{ruta/a/archivo.txt}}`
+`sudo nmap -A -iL {{ruta/al/archivo.txt}}`
 
 - Escanea una lista específica de puertos (usa -p- para todos los puertos de 1 a 65535):
 
