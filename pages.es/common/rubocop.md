@@ -23,7 +23,7 @@
 
 `rubocop --except {{cop1 cop2 ...}}`
 
-- Ejecuta sólo determinadas reglas:
+- Ejecuta solo determinadas reglas:
 
 `rubocop --only {{cop1 cop2 ...}}`
 
