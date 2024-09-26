@@ -93,7 +93,7 @@ def main(action):
 
     if comment_id:
         # Delete previous comment.
-        if not delete_comment(comment_id)
+        if not delete_comment(comment_id):
             print("Error deleting previous comment!", file=sys.stderr)
             sys.exit(1)
 
