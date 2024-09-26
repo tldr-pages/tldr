@@ -1,7 +1,7 @@
 # dpkg-query
 
 > Display information about installed packages.
-> More information: <https://manpages.debian.org/latest/dpkg/dpkg-query.1.html>.
+> More information: <https://manned.org/dpkg-query.1>.
 
 - List all installed packages:
 

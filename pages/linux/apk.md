@@ -1,7 +1,7 @@
 # apk
 
 > Alpine Linux package management tool.
-> More information: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
+> More information: <https://manned.org/apk>.
 
 - Update repository indexes from all remote repositories:
 

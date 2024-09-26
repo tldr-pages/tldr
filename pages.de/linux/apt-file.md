@@ -1,7 +1,7 @@
 # apt-file
 
 > Suche nach Dateien in apt-Paketen, auch in den nicht-installierten.
-> Weitere Informationen: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
+> Weitere Informationen: <https://manned.org/apt-file.1>.
 
 - Aktualisiere die Metadatenbank:
 

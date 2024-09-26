@@ -17,7 +17,7 @@
 
 - Apaga inmediatamente el sistema sin contactar al administrador:
 
-`poweroff --force --force`
+`poweroff --force`
 
 - Escribe una entrada en el archivo wtmp sin apagar el sistema:
 

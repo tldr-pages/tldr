@@ -2,7 +2,7 @@
 
 > Alat Pemaketan Android Asset.
 > Susun dan buat paket resource aplikasi Android.
-> Informasi lebih lanjut: <https://elinux.org/Android_aapt>.
+> Informasi lebih lanjut: <https://manned.org/aapt>.
 
 - Tampilkan daftar berkas yang termuat dalam suatu arsip APK:
 

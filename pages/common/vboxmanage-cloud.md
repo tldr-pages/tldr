@@ -5,7 +5,7 @@
 
 - List the instances in the specified state belonging to the specified compartment:
 
-`VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} list instances --state={{running|terminated|paused}} --compartment-id={{compartment_id}`
+`VBoxManage cloud --provider={{provider_name}} --profile={{profile_name}} list instances --state={{running|terminated|paused}} --compartment-id={{compartment_id}}`
 
 - Create a new instance:
 

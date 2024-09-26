@@ -21,7 +21,7 @@
 
 - Trim a video from a given start time mm:ss to an end time mm2:ss2 (omit the -to flag to trim till the end):
 
-`ffmpeg -ss {{mm:ss}} -to {{mm2:ss2}} -i {{path/to/input_video.mp4}} -codec copy {{path/to/output_video.mp4}}`
+`ffmpeg -i {{path/to/input_video.mp4}} -ss {{mm:ss}} -to {{mm2:ss2}} -codec copy {{path/to/output_video.mp4}}`
 
 - Convert AVI video to MP4. AAC Audio @ 128kbit, h264 Video @ CRF 23:
 

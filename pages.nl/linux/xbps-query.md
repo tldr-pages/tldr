@@ -2,7 +2,7 @@
 
 > XBPS hulpprogramma om te zoeken naar een pakket en repository informatie.
 > Bekijk ook: `xbps`.
-> Meer informatie: <https://man.voidlinux.org/xbps-query.1>.
+> Meer informatie: <https://manned.org/xbps-query.1>.
 
 - Zoek naar een pakket in externe repositories met behulp van een reguliere expressie of een trefwoord (als `--regex` wordt weggelaten):
 
