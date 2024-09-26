@@ -121,7 +121,7 @@ if __name__ == "__main__":
         print("Needed environment variables are not set.", file=sys.stderr)
         if BOT_TOKEN is None:
             print("BOT_TOKEN missing...", file=sys.stderr)
-        print(f"PR_ID: {PR_ID} and BUILD_ID: {BUILD_ID")
+        print(f"PR_ID: {PR_ID} and BUILD_ID: {BUILD_ID}")
         sys.exit(1)
 
     if PR_ID is None or PR_ID == "false":
