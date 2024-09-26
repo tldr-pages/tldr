@@ -16,9 +16,9 @@
 
 `chromium --new-window {{example.com}}`
 
-- Buka dalam mode aplikasi web (tanpa bilah toolbar, URL bar, tombol navigasi, dsb.) (hanya dapat bekerja dalam `chromium` dan `google-chrome`):
+- Buka dalam mode aplikasi web (tanpa bilah toolbar, URL bar, tombol navigasi, dsb.):
 
-`{{chromium|google-chrome}} --app={{https://example.com}}`
+`chromium --app={{https://example.com}}`
 
 - Hubungkan peramban dengan suatu peladen proksi:
 
