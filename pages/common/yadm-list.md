@@ -3,10 +3,10 @@
 > Print a list of files managed by `yadm`.
 > More information: <https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#commands>.
 
-- Print a list of files managed by `yadm`:
+- Print a list of files managed by `yadm` in the current directory:
 
 `yadm list`
 
-- The previous command only works with the root to list all:
+- List all files managed by `yadm` completely:
 
 `yadm list -a`
