@@ -25,6 +25,7 @@ Is this intended? If so, just ignore this comment. Otherwise, please double-chec
 
 ################################################################################
 
+
 # Post a comment to a GitHub issue/pr
 def post_comment(issue_id, body):
     url = f'{GITHUB_API_URL}/repos/tldr-pages/tldr/issues/{issue_id}/comments'
@@ -37,6 +38,7 @@ def post_comment(issue_id, body):
         return False
     return True
 
+
 # Delete a comment from GitHub
 def delete_comment(comment_id):
     url = f"{GITHUB_API_URL}/repos/tldr-pages/tldr/issues/comments/{comment_id}"
@@ -47,6 +49,7 @@ def delete_comment(comment_id):
         print(f"Error deleting comment: {resp.text}", file=sys.stderr)
         return False
     return True
+
 
 # Check for a previous comment by identifier
 def previous_comment(issue_id, identifier):
@@ -66,6 +69,7 @@ def previous_comment(issue_id, identifier):
 
 ################################################################################
 
+
 # Main function to handle actions
 def main(action):
     if action not in ("report-errors", "report-check-results"):
@@ -78,7 +82,7 @@ def main(action):
         comment_body = COMMENT_ERROR.format(build_id=BUILD_ID, content=content)
     elif action == "report-check-results":
         comment_body = COMMENT_CHECK.format(content=content)
-        
+
     if "<!-- tldr-bot - errors -->" in comment_body:
         identifier = "<!-- tldr-bot - errors -->"
     elif "<!-- tldr-bot - check-results -->" in comment_body:
@@ -104,6 +108,7 @@ def main(action):
 
 ################################################################################
 
+
 # Ensure that the script only runs when executed directly
 if __name__ == "__main__":
     # Environment variables required for GitHub API and repo details
@@ -114,6 +119,9 @@ if __name__ == "__main__":
 
     if BOT_TOKEN is None or PR_ID is None or BUILD_ID is None:
         print("Needed environment variables are not set.", file=sys.stderr)
+        if BOT_TOKEN is None:
+            print("BOT_TOKEN missing...", file=sys.stderr)
+        print(f"PR_ID: {PR_ID} and BUILD_ID: {BUILD_ID")
         sys.exit(1)
 
     if PR_ID is None or PR_ID == "false":
