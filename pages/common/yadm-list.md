@@ -3,7 +3,7 @@
 > Print a list of files managed by `yadm`.
 > More information: <https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#commands>.
 
-- Execute:
+- Print a list of files managed by `yadm`:
 
 `yadm list`
 
