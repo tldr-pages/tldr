@@ -6,9 +6,11 @@ import sys
 import requests
 
 COMMENT_ERROR = """
-The [build](https://github.com/{repo_slug}/actions/runs/{build_id}) for this PR failed with the following error(s):
+The [build](https://github.com/tldr-pages/tldr/actions/runs/{build_id}) for this PR failed with the following error(s):
 
+```
 {content}
+```
 
 Please fix the error(s) and push again.
 """
@@ -23,18 +25,9 @@ Is this intended? If so, just ignore this comment. Otherwise, please double-chec
 
 ################################################################################
 
-# Environment variables required for GitHub API and repo details
-GITHUB_API_URL = 'https://api.github.com'
-BOT_TOKEN = os.getenv('BOT_TOKEN')
-REPO_SLUG = os.getenv('REPO_SLUG')
-
-if BOT_TOKEN is None or REPO_SLUG is None:
-    print('Needed environment variables are not set.', file=sys.stderr)
-    sys.exit(1)
-
 # Post a comment to a GitHub issue/pr
 def post_comment(issue_id, body):
-    url = f'{GITHUB_API_URL}/repos/{REPO_SLUG}/issues/{issue_id}/comments'
+    url = f'{GITHUB_API_URL}/repos/tldr-pages/tldr/issues/{issue_id}/comments'
     headers = {'Authorization': 'token ' + BOT_TOKEN}
     data = {'body': body}
 
@@ -46,7 +39,7 @@ def post_comment(issue_id, body):
 
 # Delete a comment from GitHub
 def delete_comment(comment_id):
-    url = f"{GITHUB_API_URL}/repos/{REPO_SLUG}/issues/comments/{comment_id}"
+    url = f"{GITHUB_API_URL}/repos/tldr-pages/tldr/issues/comments/{comment_id}"
     headers = {"Authorization": "token " + BOT_TOKEN}
 
     resp = requests.delete(url, headers=headers)
@@ -57,7 +50,7 @@ def delete_comment(comment_id):
 
 # Check for a previous comment by identifier
 def previous_comment(issue_id, identifier):
-    url = f'{GITHUB_API_URL}/repos/{REPO_SLUG}/issues/{issue_id}/comments'
+    url = f'{GITHUB_API_URL}/repos/tldr-pages/tldr/issues/{issue_id}/comments'
     headers = {'Authorization': 'token ' + BOT_TOKEN}
     resp = requests.get(url, headers=headers)
 
@@ -113,11 +106,13 @@ def main(action):
 
 # Ensure that the script only runs when executed directly
 if __name__ == "__main__":
-    REPO_SLUG = os.getenv("GITHUB_REPOSITORY", REPO_SLUG)
+    # Environment variables required for GitHub API and repo details
+    GITHUB_API_URL = 'https://api.github.com'
+    BOT_TOKEN = os.getenv("BOT_TOKEN")
     PR_ID = os.getenv("PULL_REQUEST_ID")
     BUILD_ID = os.getenv("GITHUB_RUN_ID")
 
-    if PR_ID is None or BUILD_ID is None or REPO_SLUG is None:
+    if BOT_TOKEN is None or PR_ID is None or BUILD_ID is None:
         print("Needed environment variables are not set.", file=sys.stderr)
         sys.exit(1)
 
