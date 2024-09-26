@@ -5,14 +5,10 @@ import os
 import sys
 import requests
 
-BOT_URL = "https://tldr-bot.starbeamrainbowlabs.com"
-
 COMMENT_ERROR = """
-The [build](https://github.com/tldr-pages/tldr/actions/runs/{build_id}) for this PR failed with the following error(s):
+The [build](https://github.com/{repo_slug}/actions/runs/{build_id}) for this PR failed with the following error(s):
 
-```
 {content}
-```
 
 Please fix the error(s) and push again.
 """
@@ -27,53 +23,99 @@ Is this intended? If so, just ignore this comment. Otherwise, please double-chec
 
 ################################################################################
 
+# Environment variables required for GitHub API and repo details
+GITHUB_API_URL = 'https://api.github.com'
+BOT_TOKEN = os.getenv('BOT_TOKEN')
+REPO_SLUG = os.getenv('REPO_SLUG')
 
-def post_comment(pr_id, body):
-    endpoint = f"{BOT_URL}/comment"
+if BOT_TOKEN is None or REPO_SLUG is None:
+    print('Needed environment variables are not set.', file=sys.stderr)
+    sys.exit(1)
 
-    data = {"pr_id": pr_id, "body": body}
+# Post a comment to a GitHub issue/pr
+def post_comment(issue_id, body):
+    url = f'{GITHUB_API_URL}/repos/{REPO_SLUG}/issues/{issue_id}/comments'
+    headers = {'Authorization': 'token ' + BOT_TOKEN}
+    data = {'body': body}
 
-    try:
-        with requests.post(endpoint, json=data) as r:
-            if r.status_code != requests.codes.ok:
-                print(
-                    "Error: tldr-bot responded with code",
-                    r.status_code,
-                    file=sys.stderr,
-                )
-                print(r.text, file=sys.stderr)
-                return False
-    except requests.exceptions.RequestException as e:
-        print("Error sending data to tldr-bot:", str(e), file=sys.stderr)
+    resp = requests.post(url, json=data, headers=headers)
+    if resp.status_code != 201:
+        print(f"Error posting comment: {resp.text}", file=sys.stderr)
         return False
-
     return True
 
+# Delete a comment from GitHub
+def delete_comment(comment_id):
+    url = f"{GITHUB_API_URL}/repos/{REPO_SLUG}/issues/comments/{comment_id}"
+    headers = {"Authorization": "token " + BOT_TOKEN}
 
+    resp = requests.delete(url, headers=headers)
+    if resp.status_code != 204:
+        print(f"Error deleting comment: {resp.text}", file=sys.stderr)
+        return False
+    return True
+
+# Check for a previous comment by identifier
+def previous_comment(issue_id, identifier):
+    url = f'{GITHUB_API_URL}/repos/{REPO_SLUG}/issues/{issue_id}/comments'
+    headers = {'Authorization': 'token ' + BOT_TOKEN}
+    resp = requests.get(url, headers=headers)
+
+    if resp.status_code != 200:
+        print(f"Error retrieving comments: {resp.text}", file=sys.stderr)
+        return None
+
+    comments = resp.json()
+    for comment in comments:
+        if comment['user']['login'] == 'tldr-bot' and identifier in comment['body']:
+            return comment['id']
+    return None
+
+################################################################################
+
+# Main function to handle actions
 def main(action):
     if action not in ("report-errors", "report-check-results"):
-        print("Unknown action:", action, file=sys.stderr)
+        print(f"Unknown action: {action}", file=sys.stderr)
         sys.exit(1)
 
     content = sys.stdin.read().strip()
 
     if action == "report-errors":
-        comment_body = COMMENT_ERROR.format(build_id=BUILD_ID, content=content)
+        comment_body = COMMENT_ERROR.format(build_id=BUILD_ID, repo_slug=REPO_SLUG, content=content)
     elif action == "report-check-results":
         comment_body = COMMENT_CHECK.format(content=content)
+        
+    if "<!-- tldr-bot - errors -->" in comment_body:
+        identifier = "<!-- tldr-bot - errors -->"
+    elif "<!-- tldr-bot - check-results -->" in comment_body:
+        identifier = "<!-- tldr-bot - check-results -->"
+    else:
+        identifier = None
+
+    if identifier:
+        comment_id = previous_comment(PR_ID, identifier)
+    else:
+        comment_id = None
+
+    if comment_id:
+        # Delete previous comment.
+        if Not delete_comment(comment_id)
+            print("Error deleting previous comment!", file=sys.stderr)
+            sys.exit(1)
 
     if post_comment(PR_ID, comment_body):
         print("Success.")
     else:
-        print("Error sending data to tldr-bot!", file=sys.stderr)
-
+        print("Error sending data to GitHub!", file=sys.stderr)
 
 ################################################################################
 
+# Ensure that the script only runs when executed directly
 if __name__ == "__main__":
-    REPO_SLUG = os.environ.get("GITHUB_REPOSITORY")
-    PR_ID = os.environ.get("PULL_REQUEST_ID")
-    BUILD_ID = os.environ.get("GITHUB_RUN_ID")
+    REPO_SLUG = os.getenv("GITHUB_REPOSITORY", REPO_SLUG)
+    PR_ID = os.getenv("PULL_REQUEST_ID")
+    BUILD_ID = os.getenv("GITHUB_RUN_ID")
 
     if PR_ID is None or BUILD_ID is None or REPO_SLUG is None:
         print("Needed environment variables are not set.", file=sys.stderr)
@@ -84,7 +126,7 @@ if __name__ == "__main__":
         sys.exit(0)
 
     if len(sys.argv) != 2:
-        print("Usage:", sys.argv[0], "<ACTION>", file=sys.stderr)
+        print(f"Usage: {sys.argv[0]} <ACTION>", file=sys.stderr)
         sys.exit(1)
 
     main(sys.argv[1])
