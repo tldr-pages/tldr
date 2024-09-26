@@ -4,7 +4,7 @@
 > See also: `git config`.
 > More information: <https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#commands>.
 
-- Update or set a git config value:
+- Update or set a Git configuration value:
 
 `yadm gitconfig <key.inner-key> {{value}}`
 
