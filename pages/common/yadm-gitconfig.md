@@ -1,7 +1,7 @@
 # yadm-gitconfig
 
-> Pass options to the git config command.
-> This will be used to change the `.gitconfig` of the repo managed by `yadm`.
+> Pass options to `git config`. Change the `.gitconfig` of the repository managed by `yadm`.
+> See also: `git config`.
 > More information: <https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#commands>.
 
 - Update or set a git config value:
