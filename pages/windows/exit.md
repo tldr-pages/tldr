@@ -7,7 +7,7 @@
 
 `exit`
 
-- Quit the current batch script:
+- Quit the current [b]atch script:
 
 `exit /b`
 
