@@ -6,7 +6,7 @@
 
 - Update or set a Git configuration value:
 
-`yadm gitconfig <key.inner-key> {{value}}`
+`yadm gitconfig {{key.inner-key}} {{value}}`
 
 - Get a value from `yadm`'s Git configuration:
 
