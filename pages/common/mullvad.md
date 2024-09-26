@@ -1,9 +1,10 @@
 # mullvad
 
 > CLI client for Mullvad VPN.
+> See also: `fastd`, `ivpn`, `mozillavpn`, `warp-cli`.
 > More information: <https://mullvad.net/>.
 
-- Link your mullvad account with the specified account number:
+- Link your Mullvad account with the specified account number:
 
 `mullvad account set {{account_number}}`
 
