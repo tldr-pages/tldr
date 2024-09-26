@@ -1,7 +1,7 @@
 # docker run
 
 > Yeni bir Docker konteynerinde bir komut çalıştır.
-> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/run/>.
+> Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/container/run/>.
 
 - Yeni bir konteynerde, etiketlenmiş bir imgeden komut çalıştır:
 
