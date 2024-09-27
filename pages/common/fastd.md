@@ -2,6 +2,7 @@
 
 > VPN daemon.
 > Works on Layer 2 or Layer 3, supports different encryption methods, used by Freifunk.
+> See also: `ivpn`, `mozillavpn`, `mullvad`, `warp-cli`.
 > More information: <https://fastd.readthedocs.io/en/stable/>.
 
 - Start `fastd` with a specific configuration file:
@@ -16,7 +17,7 @@
 
 `fastd --verify-config --config {{path/to/fastd.conf}}`
 
-- Generate a new key:
+- Generate a new keypair:
 
 `fastd --generate-key`
 
