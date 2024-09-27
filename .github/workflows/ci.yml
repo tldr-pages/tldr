@@ -1,6 +1,9 @@
 name: CI
 
-on: ['push', 'pull_request']
+on:
+  push:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
 
 jobs:
   ci:
@@ -41,7 +44,7 @@ jobs:
     - name: Test
       run: npm test
       env:
-        GITHUB_TOKEN: ${{ secrets.TLDR_COMMENT_CLIENT_SECRET }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Build
       run: bash scripts/build.sh
