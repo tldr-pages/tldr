@@ -29,7 +29,10 @@ Is this intended? If so, just ignore this comment. Otherwise, please double-chec
 # Post a comment to a GitHub issue/pr
 def post_comment(issue_id, body):
     url = f"{GITHUB_API_URL}/repos/tldr-pages/tldr/issues/{issue_id}/comments"
-    headers = {"Authorization": "token " + BOT_TOKEN}
+    headers = {
+        "Authorization": "token " + BOT_TOKEN,
+        "Accept": "application/vnd.github+json",
+    }
     data = {"body": body}
 
     resp = requests.post(url, json=data, headers=headers)
@@ -42,7 +45,10 @@ def post_comment(issue_id, body):
 # Delete a comment from GitHub
 def delete_comment(comment_id):
     url = f"{GITHUB_API_URL}/repos/tldr-pages/tldr/issues/comments/{comment_id}"
-    headers = {"Authorization": "token " + BOT_TOKEN}
+    headers = {
+        "Authorization": "token " + BOT_TOKEN,
+        "Accept": "application/vnd.github+json",
+    }
 
     resp = requests.delete(url, headers=headers)
     if resp.status_code != 204:
