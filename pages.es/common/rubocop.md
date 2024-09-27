@@ -9,11 +9,11 @@
 
 - Verifica uno o más archivos o directorios determinados:
 
-`rubocop {{path/to/file}} {{path/to/directory}}`
+`rubocop {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
 - Guarda la salida en un archivo:
 
-`rubocop --out {{path/to/file}}`
+`rubocop --out {{ruta/al/archivo}}`
 
 - Muestra la lista de cops (reglas de análisis):
 
@@ -21,11 +21,11 @@
 
 - Excluye una regla:
 
-`rubocop --except {{cop_1}} {{cop_2}}`
+`rubocop --except {{cop1 cop2 ...}}`
 
-- Ejecuta sólo determinadas reglas:
+- Ejecuta solo determinadas reglas:
 
-`rubocop --only {{cop_1}} {{cop_2}}`
+`rubocop --only {{cop1 cop2 ...}}`
 
 - Autocorrige archivos (experimental):
 
