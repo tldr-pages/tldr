@@ -3,34 +3,34 @@
 > Alat untuk menginstal, mengatur dan bekerja dengan berbagai lingkungan Ruby.
 > Informasi lebih lanjut: <https://rvm.io>.
 
-- Instal satu atau lebih versi Ruby (dipisah dengan spasi):
+- Pasang suatu atau beberapa versi Ruby:
 
-`rvm install {{version(s)}}`
+`rvm install {{versi1 versi2 ...}}`
 
-- Menampilkan daftar versi-versi yang terinstal:
+- Tampilkan daftar versi-versi Ruby yang terinstal:
 
 `rvm list`
 
-- Menggunakan spesifik versi Ruby:
+- Gunakan suatu versi Ruby untuk sesi saat ini:
 
-`rvm use {{version}}`
+`rvm use {{versi}}`
 
-- Menyetel versi Ruby bawaan:
+- Tetapkan versi default Ruby yang akan dipakai:
 
-`rvm --default use {{version}}`
+`rvm --default use {{versi}}`
 
-- Memperbarui versi Ruby:
+- Perbarui suatu versi Ruby:
 
-`rvm upgrade {{current_version}} {{new_version}}`
+`rvm upgrade {{versi_saat_ini}} {{versi_baru}}`
 
-- Menghapus versi Ruby dan menyimpan kode sumbernya:
+- Hapus pemasangan versi Ruby namun simpan kode sumbernya:
 
-`rvm uninstall {{version}}`
+`rvm uninstall {{versi}}`
 
-- Menghapus versi Ruby sekaligus kode sumbernya:
+- Hapus pemasangan versi Ruby beserta kode sumbernya:
 
-`rvm remove {{version}}`
+`rvm remove {{versi}}`
 
-- Menampilkan spesifik _dependencies_ untuk sistem operasi anda:
+- Tampilkan prasyarat piranti lunak tambahan yang perlu dipasang untuk sistem operasi anda:
 
 `rvm requirements`

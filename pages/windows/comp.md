@@ -16,19 +16,19 @@
 
 `comp {{path\to\directory1}}\* {{path\to\directory2}}\*`
 
-- Display differences in decimal format:
+- Display differences in [d]ecimal format:
 
 `comp /d {{path\to\file1}} {{path\to\file2}}`
 
-- Display differences in ASCII format:
+- Display differences in [a]SCII format:
 
 `comp /a {{path\to\file1}} {{path\to\file2}}`
 
-- Display line numbers for differences:
+- Display [l]ine numbers for differences:
 
 `comp /l {{path\to\file1}} {{path\to\file2}}`
 
-- Compare files case-insensitively:
+- Compare files [c]ase-insensitively:
 
 `comp /c {{path\to\file1}} {{path\to\file2}}`
 
