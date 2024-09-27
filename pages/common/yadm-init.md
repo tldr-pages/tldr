@@ -10,7 +10,7 @@
 
 - Override the worktree:
 
-`yadm init -w {{worktree_folder}}`
+`yadm init -w {{path/to/worktree_folder}}`
 
 - Overwrite an existing repository:
 
