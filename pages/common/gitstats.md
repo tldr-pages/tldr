@@ -5,8 +5,8 @@
 
 - Generate statistics for a local repository:
 
-`gitstats {{path/to/gitrepo/.git}} {{path/to/output_folder}}`
+`gitstats {{path/to/git_repo/.git}} {{path/to/output_folder}}`
 
-- View generated statistics in a web browser:
+- View generated statistics in a web browser on Windows (PowerShell)/macOS/Linux:
 
-`xdg-open {{path/to/output_folder/index.html}}`
+`{{Invoke-Item|open|xdg-open}} {{path/to/output_folder/index.html}}`
