@@ -1,16 +1,16 @@
 # crane
 
 > Container images managing tool.
-> Some subcommands such as `append`, `auth`, `copy`, etc. have their own usage documentation.
+> Some subcommands such as `pull`, `push`, `copy`, etc. have their own usage documentation.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md/>.
 
 - Execute a Crane command:
 
-`crane [flags] {{subcommand}}`
+`crane {{flags}} {{subcommand}}`
 
 - Allow pushing non-distributable (foreign) layers:
 
-`crane {{--allow-nondistributable-artifacts}}`
+`crane --allow-nondistributable-artifacts`
 
 - Display help:
 
@@ -18,11 +18,11 @@
 
 - Allow image references to be fetched without TLS:
 
-`crane {{--insecure}}`
+`crane --insecure`
 
 - Specify the platform in the form os/arch{{/variant}}{{:osversion}} (e.g. linux/amd64). (default all):
 
-`crane  {{--platform}} {{platform}}`
+`crane  --platform {{platform}}`
 
 - Enable debug logs:
 

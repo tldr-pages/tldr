@@ -24,6 +24,6 @@
 
 `source <(gcrane completion bash)>`
 
-- Load completions for every new sesion:
+- Load completions for every new session:
 
 `gcrane completion bash > /etc/bash_completion.d/gcrane (linux)`
