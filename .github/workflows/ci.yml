@@ -41,7 +41,7 @@ jobs:
     - name: Test
       run: npm test
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TLDR_COMMENT_CLIENT_SECRET }}
 
     - name: Build
       run: bash scripts/build.sh
