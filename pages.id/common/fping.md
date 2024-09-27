@@ -1,7 +1,7 @@
 # fping
 
 > Utilitas ping lebih kuat yang dapat melakukan proses ping pada lebih dari satu host.
-> Informasi lebih lanjut: <https://manned.org/fping>.
+> Informasi lebih lanjut: <https://fping.org>.
 
 - Tampilkan daftar seluruh host yang aktif dalam suatu subjaringan menurut definisi network mask (netmask):
 
