@@ -2,7 +2,7 @@
 
 > Connect, disconnect and switch modes of a connection to Cloudflare's WARP service.
 > WARP is a VPN that encrypts traffic for privacy, security, and speed.
-> See also: `fastd`, `ivpn`, `mozzilavpn`, `mullvad`.
+> See also: `fastd`, `ivpn`, `mozillavpn`, `mullvad`.
 > More information: <https://developers.cloudflare.com/warp-client/>.
 
 - Register the current device to WARP (must be run before first connection):
