@@ -2,7 +2,7 @@
 
 > Official ProtonVPN client.
 > See also: `protonvpn-cli-connect`.
-> More information: <https://github.com/ProtonVPN/linux-cli>.
+> More information: <https://github.com/Rafficer/linux-cli-community>.
 
 - Log in to the ProtonVPN account:
 
