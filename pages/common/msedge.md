@@ -4,6 +4,10 @@
 > Note: Use the `microsoft-edge` command instead to open Microsoft Edge on Linux.
 > More information: <https://microsoft.com/edge>.
 
-- View documentation for the original command:
+- View documentation for the original command for Windows:
 
-`tldr chromium`
+`tldr -p windows chromium`
+
+- View documentation for the original command for other platforms:
+
+`tldr -p common chromium`

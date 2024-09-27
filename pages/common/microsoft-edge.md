@@ -1,9 +1,13 @@
 # microsoft-edge
 
 > This command is an alias of `chromium`.
-> Note: Use the `start msedge` or `msedge` command instead to open Microsoft Edge on Windows.
+> Note: Use the `msedge` command instead to open Microsoft Edge on Windows.
 > More information: <https://microsoft.com/edge>.
 
-- View documentation for the original command:
+- View documentation for the original command for Windows:
 
-`tldr chromium`
+`tldr -p windows chromium`
+
+- View documentation for the original command for other platforms:
+
+`tldr -p common chromium`
