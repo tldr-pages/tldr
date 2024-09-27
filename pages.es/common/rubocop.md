@@ -9,7 +9,7 @@
 
 - Verifica uno o más archivos o directorios determinados:
 
-`rubocop {{ruta/al/archivo_o_directorio1}} {{ruta/al/archivo_o_directorio2}}`
+`rubocop {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
 - Guarda la salida en un archivo:
 
