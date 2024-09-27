@@ -22,3 +22,7 @@
 - Display filesystems but exclude the specified types:
 
 `df -x {{squashfs}} -x {{tmpfs}}`
+
+- Display filesystem types:
+
+`df -T`
