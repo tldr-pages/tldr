@@ -72,7 +72,7 @@ def previous_comment(issue_id, identifier):
     comments = resp.json()
     for comment in comments:
         if (
-            comment["user"]["login"] == "github-actions"
+            comment["user"]["login"] == "github-actions[bot]"
             and identifier in comment["body"]
         ):
             return comment["id"]
