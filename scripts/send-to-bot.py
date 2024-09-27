@@ -28,9 +28,9 @@ Is this intended? If so, just ignore this comment. Otherwise, please double-chec
 
 # Post a comment to a GitHub issue/pr
 def post_comment(issue_id, body):
-    url = f'{GITHUB_API_URL}/repos/tldr-pages/tldr/issues/{issue_id}/comments'
-    headers = {'Authorization': 'token ' + BOT_TOKEN}
-    data = {'body': body}
+    url = f"{GITHUB_API_URL}/repos/tldr-pages/tldr/issues/{issue_id}/comments"
+    headers = {"Authorization": "token " + BOT_TOKEN}
+    data = {"body": body}
 
     resp = requests.post(url, json=data, headers=headers)
     if resp.status_code != 201:
@@ -53,8 +53,8 @@ def delete_comment(comment_id):
 
 # Check for a previous comment by identifier
 def previous_comment(issue_id, identifier):
-    url = f'{GITHUB_API_URL}/repos/tldr-pages/tldr/issues/{issue_id}/comments'
-    headers = {'Authorization': 'token ' + BOT_TOKEN}
+    url = f"{GITHUB_API_URL}/repos/tldr-pages/tldr/issues/{issue_id}/comments"
+    headers = {"Authorization": "token " + BOT_TOKEN}
     resp = requests.get(url, headers=headers)
 
     if resp.status_code != 200:
@@ -63,9 +63,10 @@ def previous_comment(issue_id, identifier):
 
     comments = resp.json()
     for comment in comments:
-        if comment['user']['login'] == 'tldr-bot' and identifier in comment['body']:
-            return comment['id']
+        if comment["user"]["login"] == "tldr-bot" and identifier in comment["body"]:
+            return comment["id"]
     return None
+
 
 ################################################################################
 
@@ -106,13 +107,14 @@ def main(action):
     else:
         print("Error sending data to GitHub!", file=sys.stderr)
 
+
 ################################################################################
 
 
 # Ensure that the script only runs when executed directly
 if __name__ == "__main__":
     # Environment variables required for GitHub API and repo details
-    GITHUB_API_URL = 'https://api.github.com'
+    GITHUB_API_URL = "https://api.github.com"
     BOT_TOKEN = os.getenv("GITHUB_TOKEN")
     PR_ID = os.getenv("PULL_REQUEST_ID")
     BUILD_ID = os.getenv("GITHUB_RUN_ID")
