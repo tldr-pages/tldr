@@ -7,7 +7,6 @@
 `am start -n {{com.android.settings/.Settings}}`
 
 - Start een activiteit en geef er gegevens aan door:
-
 `am start -a {{android.intent.action.VIEW}} -d {{tel:123}}`
 
 - Start een activiteit die overeenkomt met een specifieke actie en categorie:
