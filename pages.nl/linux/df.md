@@ -22,3 +22,7 @@
 - Toon bestandssystemen maar negeer specifieke types:
 
 `df -x {{squashfs}} -x {{tmpfs}}`
+
+- Toon bestandssysteem-types:
+
+`df -T`
