@@ -14,4 +14,4 @@
 
 - Overwrite an existing repository:
 
-`yadm init -f {{local_repo}}`
+`yadm init -f {{path/to/local_repository}}`
