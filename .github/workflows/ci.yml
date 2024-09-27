@@ -10,6 +10,7 @@ jobs:
       contents: write # to upload assets to releases
       attestations: write # to upload assets attestation for build provenance
       id-token: write # grant additional permission to attestation action to mint the OIDC token permission
+      issues: write # to comment to the PR
       pull-requests: write # to comment to the PR
 
     steps:
