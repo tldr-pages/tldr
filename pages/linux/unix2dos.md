@@ -3,7 +3,7 @@
 > Change Unix-style line endings to DOS-style.
 > Replaces LF with CRLF.
 > See also `unix2mac`, `dos2unix`, and `mac2unix`.
-> More information: <https://waterlan.home.xs4all.nl/dos2unix.html>.
+> More information: <https://manned.org/unix2dos>.
 
 - Change the line endings of a file:
 
@@ -11,11 +11,11 @@
 
 - Create a copy with DOS-style line endings:
 
-`unix2dos -n {{path/to/file}} {{path/to/new_file}}`
+`unix2dos {{-n|--newfile}} {{path/to/file}} {{path/to/new_file}}`
 
 - Display file information:
 
-`unix2dos -i {{path/to/file}}`
+`unix2dos {{-i|--info}} {{path/to/file}}`
 
 - Keep/add/remove Byte Order Mark:
 
