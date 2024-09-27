@@ -21,7 +21,7 @@
 
 - Toon bestandssystemen maar negeer specifieke types:
 
-`df {{-x|--exclude-type}} {{squashfs}} {{-x|--exclude-type}} {{tmpfs}}``
+`df {{-x|--exclude-type}} {{squashfs}} {{-x|--exclude-type}} {{tmpfs}}`
 
 - Toon bestandssysteem-types:
 
