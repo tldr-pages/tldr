@@ -1,28 +1,37 @@
 # clang
 
-> Compiler voor C, C++, en Objective-C bronbestanden. Kan gebruikt worden als een vervanger van GCC.
+> Compileer C, C++, en Objective-C bronbestanden. Kan gebruikt worden als een vervanger van GCC.
+> Onderdeel van LLVM.
 > Meer informatie: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.
 
-- Compileer een broncodebestand naar een uitvoerbaar binair bestand:
+- Compileer broncodebestand(en) naar een uitvoerbaar binair bestand:
 
-`clang {{invoer_bron.c}} -o {{uitvoerbaar_bestand}}`
+`clang {{pad/naar/bron1.c pad/naar/bron2.c ...}} {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}}`
 
-- Toon alle fouten en waarschuwingen:
+- Toon (bijna) alle fouten en waarschuwingen:
 
-`clang {{invoer_bron.c}} -Wall -o {{uitvoerbaar_bestand}}`
+`clang {{pad/naar/bron.c}} -Wall {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}}`
+
+- Toon veelvoorkomende waarschuwingen, debug-symbolen in de uitvoer, en optimaliseer zonder debugging te beïnvloeden:
+
+`clang {{pad/naar/bron.c}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}}`
 
 - Voeg bibliotheken toe die zich op een ander pad bevinden dan het bronbestand:
 
-`clang {{invoer_bron.c}} -o {{uitvoerbaarbestand}} -I{{header_pad}} -L{{bibliotheek_ad}} -l{{bibliotheek_naam}}`
+`clang {{pad/naar/bron.c}} {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}} -I{{pad/naar/header}} -L{{pad/naar/bibliotheek}} -l{{bibliotheek_naam}}`
 
 - Compileer broncode naar LLVM Intermediate Representation (IR):
 
-`clang -S -emit-llvm {{bestand.c}} -o {{bestand.ll}}`
+`clang {{-S|--assemble}} -emit-llvm {{pad/naar/bron.c}} {{-o|--output}} {{pad/naar/uitvoer.ll}}`
 
 - Compileer broncode zonder deze te linken:
 
-`clang -c {{invoer_bron.c}}`
+`clang {{-c|--compile}} {{path/to/source.c}}`
 
 - Optimaliseer het gecompileerde programma voor prestaties:
 
-`clang {{pad/naar/bron.c}} -O{{1|2|3|fast}}`
+`clang {{pad/naar/bron.c}} -O{{1|2|3|fast}} {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}}`
+
+- Toon de versie:
+
+`clang --version`

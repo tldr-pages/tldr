@@ -1,7 +1,7 @@
 # docker load
 
 > Charge des images Docker depuis des fichiers ou `stdin`.
-> Plus d'informations : <https://docs.docker.com/engine/reference/commandline/load/>.
+> Plus d'informations : <https://docs.docker.com/reference/cli/docker/image/load/>.
 
 - Charge une image Docker depuis `stdin` :
 

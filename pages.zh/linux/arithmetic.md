@@ -1,7 +1,7 @@
 # arithmetic
 
 > 测试见到你的算术问题。
-> 更多信息：<https://manpages.debian.org/latest/bsdgames/arithmetic.6.en.html>.
+> 更多信息：<https://manned.org/arithmetic.6>.
 
 - 开始算术测试：
 

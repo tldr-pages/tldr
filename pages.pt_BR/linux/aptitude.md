@@ -1,7 +1,7 @@
 # aptitude
 
 > Gerenciador de pacotes das distribuições baseadas em Debian.
-> Mais informações: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
+> Mais informações: <https://manned.org/aptitude.8>.
 
 - Atualiza a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `aptitude`):
 

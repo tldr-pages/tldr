@@ -2,7 +2,7 @@
 
 > Get the SELinux security context of a file, pid, current execution context, or a context specification.
 > See also: `semanage`, `runcon`, `chcon`.
-> More information: <https://manned.org/man/secon>.
+> More information: <https://manned.org/secon>.
 
 - Get the security context of the current execution context:
 

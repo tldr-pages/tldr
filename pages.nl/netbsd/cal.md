@@ -1,7 +1,7 @@
 # cal
 
 > Toon een kalender.
-> Meer informatie: <https://man.freebsd.org/cgi/man.cgi?cal>.
+> Meer informatie: <https://man.netbsd.org/cal.1>.
 
 - Toon een kalender voor de huidige maand:
 
