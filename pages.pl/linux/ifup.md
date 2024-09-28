@@ -1,7 +1,7 @@
 # ifup
 
 > Narzędzie używane do włączania interfejsów sieciowych.
-> Więcej informacji: <https://manpages.debian.org/latest/ifupdown/ifup.8.html>.
+> Więcej informacji: <https://manned.org/ifup.8>.
 
 - Włączenie interfejsu eth0:
 

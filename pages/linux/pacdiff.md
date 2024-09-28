@@ -1,7 +1,7 @@
 # pacdiff
 
 > Maintenance utility for `.pacorig`, `.pacnew` and `.pacsave` files created by `pacman`.
-> More information: <https://man.archlinux.org/man/pacdiff>.
+> More information: <https://manned.org/pacdiff>.
 
 - Review files that need maintenance in interactive mode:
 

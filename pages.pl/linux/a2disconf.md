@@ -1,7 +1,7 @@
 # a2disconf
 
 > Wyłącz plik konfiguracyjny Apache w systemach opartych na Debianie.
-> Więcej informacji: <https://manpages.debian.org/latest/apache2/a2disconf.8.en.html>.
+> Więcej informacji: <https://manned.org/a2disconf.8>.
 
 - Wyłącz plik konfiguracyjny:
 

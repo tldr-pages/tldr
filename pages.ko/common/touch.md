@@ -1,7 +1,7 @@
 # touch
 
 > 파일을 생성하고 접근/수정 시간을 설정합니다.
-> 더 많은 정보: <https://manned.org/man/freebsd-13.1/touch>.
+> 더 많은 정보: <https://manned.org/touch>.
 
 - 특정 파일 생성:
 

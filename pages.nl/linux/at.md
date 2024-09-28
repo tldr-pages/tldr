@@ -1,7 +1,7 @@
 # at
 
 > Voert commando's uit op een gespecificeerd tijdstip.
-> Meer informatie: <https://man.archlinux.org/man/at.1>.
+> Meer informatie: <https://manned.org/at.1>.
 
 - Open een `at`-prompt om een nieuwe reeks geplande commando's te maken, druk op `Ctrl + D` om op te slaan en af te sluiten:
 

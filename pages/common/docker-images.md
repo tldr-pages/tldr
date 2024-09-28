@@ -1,7 +1,7 @@
 # docker images
 
 > Manage Docker images.
-> More information: <https://docs.docker.com/engine/reference/commandline/images/>.
+> More information: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
 - List all Docker images:
 

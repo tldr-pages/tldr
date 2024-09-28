@@ -1,7 +1,7 @@
 # docker save
 
 > Exportiere eines oder mehrere Docker Images in ein Archiv.
-> Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/save/>.
+> Weitere Informationen: <https://docs.docker.com/reference/cli/docker/image/save/>.
 
 - Speichere ein Image über die Standardausgabe in ein Tar-Archiv:
 
