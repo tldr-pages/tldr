@@ -1,7 +1,7 @@
 # yadm-config
 
-> Pass options to yadm's config file.
-> This will be used to change the `.config` of the repo managed by `yadm`.
+> Pass options to `yadm`'s config file. Change the `.config` of the repository managed by `yadm`.
+> See also: `git config`.
 > Find out what you can change. <https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#configuration>.
 
 - Set or update a yadm's git config:
