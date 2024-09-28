@@ -4,7 +4,7 @@
 > After the files are encrypted they will be save in the designated archive folder.
 > More information: <https://yadm.io/docs/encryption>.
 
-- Execute:
+- Encrypt files listed in the designated encrypt file:
 
 `yadm encrypt`
 
