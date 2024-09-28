@@ -8,7 +8,7 @@
 
 `yadm git-crypt init`
 
-- Share the repository with others (or with yourself) using GPG:
+- Share the repository using GPG:
 
 `yadm git-crypt add-gpg-user {{USER_ID}}`
 
