@@ -12,7 +12,7 @@
 
 `yadm git-crypt add-gpg-user {{USER_ID}}`
 
-- After cloning a repository with encrypted files, unlock with:
+- After cloning a repository with encrypted files, unlock them:
 
 `yadm git-crypt unlock`
 
