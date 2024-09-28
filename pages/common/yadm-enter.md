@@ -8,6 +8,6 @@
 
 `yadm enter`
 
-- You can exit the sub-shell the same way you leave your normal shell usually with the "exit" command:
+- Exit the sub-shell:
 
 `exit`
