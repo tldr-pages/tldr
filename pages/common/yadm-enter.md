@@ -4,7 +4,7 @@
 > This could be useful if you are using a tool which uses Git directly.
 > More information: <https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md#commands>.
 
-- Execute:
+- Run a sub-shell with all Git variables set:
 
 `yadm enter`
 
