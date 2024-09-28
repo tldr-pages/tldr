@@ -4,7 +4,7 @@
 > See also: `git-crypt`.
 > More information: <https://github.com/AGWA/yadm>.
 
-- Initialize repo to use git crypt:
+- Initialize repo to use Git Crypt:
 
 `yadm git-crypt init`
 
