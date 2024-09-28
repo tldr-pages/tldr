@@ -1,7 +1,7 @@
 # docker-slim
 
 > Analyze and optimize Docker images.
-> More information: <https://github.com/docker-slim/docker-slim>.
+> More information: <https://github.com/slimtoolkit/slim>.
 
 - Start DockerSlim on interactive mode:
 
