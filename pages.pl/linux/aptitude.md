@@ -1,7 +1,7 @@
 # aptitude
 
 > Narzędzie zarządzania pakietami dla Debiana i Ubuntu.
-> Więcej informacji: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
+> Więcej informacji: <https://manned.org/aptitude.8>.
 
 - Zaktualizuj listę dostępnych pakietów oraz wersji. Zalecane jest uruchomienie tego polecenia przed innymi poleceniami `aptitude`:
 

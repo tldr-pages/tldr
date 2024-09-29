@@ -2,7 +2,7 @@
 
 > Set SELinux boolean value.
 > See also: `semanage-boolean`, `getsebool`.
-> More information: <https://manned.org/man/setsebool>.
+> More information: <https://manned.org/setsebool>.
 
 - Show the current setting of [a]ll booleans:
 

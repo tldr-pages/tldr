@@ -9,7 +9,7 @@
 
 - Toon alle bestandssystemen en hun schijfgebruik in een leesbaar formaat:
 
-`df -h`
+`df {{-h|--human-readable}}`
 
 - Toon het bestandssysteem en het schijfgebruik voor het opgegeven bestand of map:
 
@@ -17,8 +17,12 @@
 
 - Neem statistieken op over het aantal beschikbare [i]-knooppunte:
 
-`df -i`
+`df {{-i|--inodes}}`
 
 - Toon bestandssystemen maar negeer specifieke types:
 
-`df -x {{squashfs}} -x {{tmpfs}}`
+`df {{-x|--exclude-type}} {{squashfs}} {{-x|--exclude-type}} {{tmpfs}}`
+
+- Toon bestandssysteem-types:
+
+`df {{-T|--print-type}}`

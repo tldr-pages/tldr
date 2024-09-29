@@ -2,7 +2,7 @@
 
 > Narzędzie do zarządzania pakietami Debiana i Ubuntu.
 > Szukaj pakietów używając `apt-cache`.
-> Więcej informacji: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+> Więcej informacji: <https://manned.org/apt-get.8>.
 
 - Zaktualizuj listę dostępnych pakietów oraz wersji (zalecane jest uruchomienie tego polecenia przed innymi poleceniami `apt-get`):
 

@@ -1,7 +1,7 @@
 # docker compose
 
 > Esegui e gestisci applicazioni Docker composte da più container.
-> Maggiori informazioni: <https://docs.docker.com/compose/reference/>.
+> Maggiori informazioni: <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - Elenca i container in esecuzione:
 

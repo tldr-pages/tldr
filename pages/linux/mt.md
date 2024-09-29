@@ -29,4 +29,4 @@
 
 - Write EOF (End-of-file) mark at the current position:
 
-`mt -f {{/dev/nstX} eof`
+`mt -f {{/dev/nstX}} eof`

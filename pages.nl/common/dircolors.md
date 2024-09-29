@@ -7,6 +7,10 @@
 
 `dircolors`
 
+- Toon ieder bestandstype met de kleur zoals deze in `ls` getoond zou worden:
+
+`dircolors --print-ls-colors`
+
 - Geef commando's weer om LS_COLOR in te stellen met kleuren uit een bestand:
 
 `dircolors {{pad/naar/bestand}}`

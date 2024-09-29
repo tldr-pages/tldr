@@ -2,7 +2,7 @@
 
 > Beheer persistente SELinux-poortdefinities.
 > Zie ook: `semanage`.
-> Meer informatie: <https://manned.org/man/semanage-port>.
+> Meer informatie: <https://manned.org/semanage-port>.
 
 - Toon alle poortlabelregels:
 

@@ -1,7 +1,7 @@
 # rkhunter
 
 > Searches for rootkits and malware.
-> More information: <https://wiki.archlinux.org/title/Rkhunter>.
+> More information: <https://manned.org/rkhunter>.
 
 - Check a system for rootkits and malware:
 

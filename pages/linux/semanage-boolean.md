@@ -2,7 +2,7 @@
 
 > Manage persistent SELinux boolean settings.
 > See also: `semanage` for managing SELinux policies, `getsebool` for checking boolean values, and `setsebool` for applying non-persistent boolean settings.
-> More information: <https://manned.org/man/semanage-boolean>.
+> More information: <https://manned.org/semanage-boolean>.
 
 - List all booleans settings:
 

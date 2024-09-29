@@ -2,6 +2,7 @@
 
 > Wieloplatformowy edytor tekstu z obsługą wtyczek.
 > Wtyczkami zarządza się poprzez `apm`.
+> Uwaga: Atom został wycofany i nie jest już aktywnie rozwijany.
 > Więcej informacji: <https://atom.io/>.
 
 - Otwórz plik lub katalog:
@@ -20,7 +21,7 @@
 
 `atom --safe`
 
-- Zapobiega rozwidlaniu się w tle, utrzymuje Atom podłączony do terminala:
+- Zapobiegaj rozwidlaniu się w tle, utrzymując Atoma podłączonego do terminala:
 
 `atom --foreground`
 
