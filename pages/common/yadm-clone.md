@@ -3,7 +3,7 @@
 > Works just like `git clone`.
 > In addition you can pass extra flags to configure your repo.
 > If there is a bootstrap file in the repository, you will be prompted to execute it.
-> See also: `git clone`.
+> See also: `git clone`
 > More information: <https://yadm.io/docs/common_commands>.
 
 - Clone your repo:

@@ -4,7 +4,7 @@
 > The repository is stored in `$HOME/.local/share/yadm/repo.git`.
 > More information: <https://yadm.io/docs/getting_started>.
 
-- Initialize the repo:
+- Execute:
 
 `yadm init`
 
