@@ -2,7 +2,7 @@
 
 > Toon het laatste deel van een bestand.
 > Bekijk ook: `head`.
-> Meer informatie: <https://keith.github.io/tail.1.html>.
+> Meer informatie: <https://keith.github.io/xcode-man-pages/tail.1.html>.
 
 - Toon laatste aantal regels in een bestand:
 

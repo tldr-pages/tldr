@@ -1,7 +1,7 @@
 # rpmbuild
 
 > RPM Package Build tool.
-> More information: <https://manned.org/man/rpmbuild>.
+> More information: <https://manned.org/rpmbuild>.
 
 - Build binary and source packages:
 

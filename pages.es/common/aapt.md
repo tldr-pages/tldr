@@ -2,7 +2,7 @@
 
 > Herramienta para empaquetado de activos de Android.
 > Compila y empaqueta recursos de una app de Android.
-> Más información: <https://elinux.org/Android_aapt>.
+> Más información: <https://manned.org/aapt>.
 
 - Lista los archivos contenidos en un archivo APK:
 

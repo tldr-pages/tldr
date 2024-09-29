@@ -27,3 +27,11 @@
 - Beheer Azure Network resources:
 
 `az network`
+
+- Start in interactieve modus:
+
+`az interactive`
+
+- Toon de help:
+
+`az --help`

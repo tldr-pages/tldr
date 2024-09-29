@@ -1,7 +1,7 @@
 # docker run
 
 > 创建一个新的容器并运行命令。
-> 更多信息：<https://docs.docker.com/engine/reference/commandline/run/>.
+> 更多信息：<https://docs.docker.com/reference/cli/docker/container/run/>.
 
 - 使用打上标签的 Docker 镜像的新容器中执行命令：
 

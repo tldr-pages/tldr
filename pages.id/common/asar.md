@@ -5,16 +5,16 @@
 
 - Arsipkan sebuah berkas atau direktori:
 
-`asar pack {{alamat/ke/berkas_atau_direktori}} {{arsip.asar}}`
+`asar pack {{jalan/menuju/berkas_atau_direktori}} {{arsip.asar}}`
 
-- Mengekstrak sebuah arsip:
+- Bongkar isi suatu arsip:
 
 `asar extract {{arsip.asar}}`
 
-- Mengekstrak berkas tertentu dari sebuah arsip:
+- Bongkar isi berkas tertentu dari suatu arsip:
 
 `asar extract-file {{arsip.asar}} {{berkas}}`
 
-- Mendapatkan daftar konten dari berkas arsip:
+- Tampilkan daftar isi dari suatu berkas arsip:
 
 `asar list {{arsip.asar}}`

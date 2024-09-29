@@ -18,12 +18,12 @@
 
 - Add one or more e-books to the library:
 
-`calibredb add {{file1 file2 …}}`
+`calibredb add {{path/to/file1 path/to/file2 ...}}`
 
 - [r]ecursively add all e-books under a directory to the library:
 
-`calibredb add -r {{path/to/directory}}`
+`calibredb add {{-r|--recurse}} {{path/to/directory}}`
 
 - Remove one or more e-books from the library. You need the e-book IDs (see above):
 
-`calibredb remove {{id1 id2 …}}`
+`calibredb remove {{id1 id2 ...}}`

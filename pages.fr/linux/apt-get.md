@@ -2,7 +2,7 @@
 
 > Utilitaire de gestion des paquets Debian et Ubuntu.
 > Recherche des paquets en utilisant `apt-cache`.
-> Plus d'informations : <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+> Plus d'informations : <https://manned.org/apt-get.8>.
 
 - Mise à jour de la liste des paquets et des versions disponibles (il est recommandé de l'exécuter avant les autres commandes `apt-get`) :
 

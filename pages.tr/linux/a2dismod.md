@@ -1,7 +1,7 @@
 # a2dismod
 
 > Debian tabanlı işletim sistemlerinde bir Apache modülünü devre dışı bırak.
-> Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2dismod.8.en.html>.
+> Daha fazla bilgi için: <https://manned.org/a2dismod.8>.
 
 - Bir modülü devre dışı bırak:
 

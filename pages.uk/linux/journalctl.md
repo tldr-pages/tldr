@@ -21,7 +21,7 @@
 
 - Фільтрувати повідомлення в межах діапазону часу (мітка часу або покажчики місця заповнення, як-от «вчора»):
 
-`journalctl --since {{now|today|yesterday|tomorrow}} --until {{YYYY-MM-DD HH:MM:SS}}`
+`journalctl --since {{now|today|yesterday|tomorrow}} --until "{{YYYY-MM-DD HH:MM:SS}}"`
 
 - Показати всі повідомлення за певним процесом:
 

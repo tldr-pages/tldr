@@ -13,4 +13,4 @@
 
 - Show only the 5 latest entries in the reflog:
 
-`git reflog {{-n|--dry-run}} {{5}}`
+`git reflog {{-n|--max-count}} 5`

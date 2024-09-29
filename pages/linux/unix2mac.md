@@ -3,7 +3,7 @@
 > Change Unix-style line endings to macOS-style.
 > Replaces LF with CR.
 > See also `unix2dos`, `dos2unix`, and `mac2unix`.
-> More information: <https://waterlan.home.xs4all.nl/dos2unix.html>.
+> More information: <https://manned.org/unix2mac>.
 
 - Change the line endings of a file:
 
@@ -11,11 +11,11 @@
 
 - Create a copy with macOS-style line endings:
 
-`unix2mac -n {{path/to/file}} {{path/to/new_file}}`
+`unix2mac {{-n|--newfile}} {{path/to/file}} {{path/to/new_file}}`
 
 - Display file information:
 
-`unix2mac -i {{path/to/file}}`
+`unix2mac {{-i|--info}} {{path/to/file}}`
 
 - Keep/add/remove Byte Order Mark:
 

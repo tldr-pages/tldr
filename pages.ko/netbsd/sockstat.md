@@ -3,7 +3,7 @@
 > 열린 인터넷 또는 UNIX 도메인 소켓을 나열합니다.
 > 참고: 이 프로그램은 FreeBSD의 `sockstat`를 NetBSD 3.0용으로 다시 작성한 것입니다.
 > 같이 보기: `netstat`.
-> 더 많은 정보: <https://man.freebsd.org/cgi/man.cgi?sockstat>.
+> 더 많은 정보: <https://man.netbsd.org/sockstat.1>.
 
 - IPv4, IPv6 및 Unix 소켓에 대한 수신 및 연결된 소켓에 대한 정보 표시:
 
