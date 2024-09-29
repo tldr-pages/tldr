@@ -5,7 +5,7 @@
 > See also: `git clone`
 > More information: <https://yadm.io/docs/common_commands>.
 
-- Clone your repo:
+- Clone an existing repository:
 
 `yadm clone {{remote_repository_location}}`
 
