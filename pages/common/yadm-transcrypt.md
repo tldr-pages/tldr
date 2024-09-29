@@ -2,7 +2,7 @@
 
 > If `transcrypt` is installed, this command allows you to pass options directly to `transcrypt`.
 > With the environment configured to use the yadm repository.
-> Transcrypt enables transparent encryption and decryption of files in a git repository.
+> Transcrypt enables transparent encryption and decryption of files in a Git repository.
 > More information: <https://github.com/elasticdog/transcrypt>.
 
 - Set the symmetric cipher to utilize for encryption:
