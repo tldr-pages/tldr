@@ -2,7 +2,7 @@
 
 > Atualizar a configuração de contêineres Docker.
 > Este comando não é suportado para contêineres Windows.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/update/>.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/container/update/>.
 
 - Atualiza a política de reinicialização a ser aplicada quando um contêiner específico for encerrado:
 
