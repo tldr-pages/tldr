@@ -10,7 +10,7 @@
 
 - Show only the subdomains found:
 
-`subfinder --silent -d {{example.com}}`
+`subfinder -silent -d {{example.com}}`
 
 - Show only active subdomains:
 
