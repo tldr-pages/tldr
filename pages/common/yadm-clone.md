@@ -1,7 +1,6 @@
 # yadm-clone
 
-> Works just like `git clone`.
-> In addition you can pass extra flags to configure your repo.
+> Works just like `git clone`. In addition you can pass extra flags to configure your repository.
 > If there is a bootstrap file in the repository, you will be prompted to execute it.
 > See also: `git clone`
 > More information: <https://yadm.io/docs/common_commands>.
