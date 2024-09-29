@@ -6,4 +6,4 @@
 
 - Create symbolic link for alternative file:
 
-`yadm alt {{path/to/file}}` 
+`yadm alt {{path/to/file}}``
