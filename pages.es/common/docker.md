@@ -2,7 +2,7 @@
 
 > Administra contenedores e imágenes de Docker.
 > Algunos subcomandos, como `docker run`, tienen su propia documentación de uso.
-> Más información: <https://docs.docker.com/engine/reference/commandline/cli/>.
+> Más información: <https://docs.docker.com/reference/cli/docker/>.
 
 - Lista todos los contenedores de Docker (en ejecución y detenidos):
 
