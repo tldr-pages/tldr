@@ -9,7 +9,7 @@
 
 `yadm clone {{remote_repository_location}}`
 
-- Clone your repo then execute the bootstrap file:
+- Clone an existing repository, then execute the bootstrap file:
 
 `yadm clone {{remote_repo}} --bootstrap`
 
