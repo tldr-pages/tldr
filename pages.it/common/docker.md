@@ -2,7 +2,7 @@
 
 > Gestisci container ed immagini Docker.
 > Alcuni comandi aggiuntivi, come `docker run`, hanno la propria documentazione.
-> Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/cli/>.
+> Maggiori informazioni: <https://docs.docker.com/reference/cli/docker/>.
 
 - Elenca tutti i container Docker (in esecuzione e arrestati):
 
