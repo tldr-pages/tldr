@@ -11,7 +11,7 @@
 
 - Clone an existing repository, then execute the bootstrap file:
 
-`yadm clone {{remote_repo}} --bootstrap`
+`yadm clone {{remote_repository_location}} --bootstrap`
 
 - Clone an existing repository and after cloning, do not execute the bootstrap file:
 
