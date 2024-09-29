@@ -4,6 +4,6 @@
 > Learn more about templates: <https://yadm.io/docs/templates>.
 > More information: <https://yadm.io/docs/alternates>.
 
-- Execute:
+- Create symbolic link for alternative file:
 
-`yadm alt`
+`yadm alt {{path/to/file}}` 
