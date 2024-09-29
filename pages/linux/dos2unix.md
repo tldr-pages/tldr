@@ -11,11 +11,11 @@
 
 - Create a copy with Unix-style line endings:
 
-`dos2unix -n {{path/to/file}} {{path/to/new_file}}`
+`dos2unix {{-n|--newfile}} {{path/to/file}} {{path/to/new_file}}`
 
 - Display file information:
 
-`dos2unix -i {{path/to/file}}`
+`dos2unix {{-i|--info}} {{path/to/file}}`
 
 - Keep/add/remove Byte Order Mark:
 
