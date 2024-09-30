@@ -1,7 +1,7 @@
 # pngcheck
 
 > Print detailed information about and verify PNG, JNG, and MNG files.
-> More information: <http://www.libpng.org/pub/png/apps/pngcheck.html>.
+> More information: <https://www.libpng.org/pub/png/apps/pngcheck.html>.
 
 - Print a summary for an image (width, height, and color depth):
 

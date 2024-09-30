@@ -1,7 +1,7 @@
 # snapper
 
 > Filesystem snapshot management tool.
-> More information: <http://snapper.io/manpages/snapper.html>.
+> More information: <https://snapper.io/manpages/snapper.html>.
 
 - List snapshot configs:
 

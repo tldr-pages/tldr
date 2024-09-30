@@ -1,7 +1,7 @@
 # gmssl
 
 > GmSSL is a crypto toolkit supporting SM1, SM2, SM3, SM4, SM9, and ZUC/ZUC256.
-> More information: <http://gmssl.org/english.html>.
+> More information: <https://gmssl.org/english.html>.
 
 - Generate an SM3 hash for a file:
 

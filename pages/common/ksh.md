@@ -2,7 +2,7 @@
 
 > Korn Shell, a Bash-compatible command-line interpreter.
 > See also: `histexpand`.
-> More information: <http://kornshell.com>.
+> More information: <https://kornshell.com>.
 
 - Start an interactive shell session:
 

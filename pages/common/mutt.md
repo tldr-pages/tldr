@@ -1,7 +1,7 @@
 # mutt
 
 > Command-line email client.
-> More information: <http://mutt.org>.
+> More information: <https://mutt.org>.
 
 - Open the specified mailbox:
 

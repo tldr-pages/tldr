@@ -1,7 +1,7 @@
 # flite
 
 > Speech synthesis engine.
-> More information: <http://www.festvox.org/flite/doc/>.
+> More information: <https://www.festvox.org/flite/doc/>.
 
 - List all available voices:
 

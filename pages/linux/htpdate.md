@@ -1,7 +1,7 @@
 # htpdate
 
 > Synchronize local date and time via HTTP headers from web servers.
-> More information: <http://www.vervest.org/htp/>.
+> More information: <https://www.vervest.org/htp/>.
 
 - Synchronize date and time:
 

@@ -1,7 +1,7 @@
 # abduco
 
 > Terminal session manager.
-> More information: <http://www.brain-dump.org/projects/abduco/>.
+> More information: <https://www.brain-dump.org/projects/abduco/>.
 
 - List sessions:
 

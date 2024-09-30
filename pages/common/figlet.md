@@ -2,7 +2,7 @@
 
 > Generate ASCII banners from user input.
 > See also: `showfigfonts`.
-> More information: <http://www.figlet.org/figlet-man.html>.
+> More information: <https://www.figlet.org/figlet-man.html>.
 
 - Generate by directly inputting text:
 

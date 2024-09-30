@@ -1,7 +1,7 @@
 # speedometer
 
 > Python script that shows a network traffic graph in the terminal.
-> More information: <http://excess.org/speedometer>.
+> More information: <https://excess.org/speedometer>.
 
 - Show graph for a specific interface:
 

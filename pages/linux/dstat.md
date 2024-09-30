@@ -1,7 +1,7 @@
 # dstat
 
 > Versatile tool for generating system resource statistics.
-> More information: <http://dag.wieers.com/home-made/dstat>.
+> More information: <https://dag.wieers.com/home-made/dstat>.
 
 - Display CPU, disk, net, paging and system statistics:
 
