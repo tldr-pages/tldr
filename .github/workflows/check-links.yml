@@ -1,0 +1,50 @@
+name: Check links with Lychee
+
+on: ['push', 'pull_request', 'workflow_dispatch']
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    env:
+      LYCHEE_FILE: "lychee/out.md"
+    steps:
+      - name: Restore lychee cache
+        id: restore-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - run: |
+          echo $(grep -rh "More information: " tldr/pages | sort -u) > links.txt
+
+      - name: Lychee URL checker
+        uses: lycheeverse/lychee-action@v1
+        id: lychee
+        with:
+          args: >-
+            --cache
+            --verbose
+            --no-progress
+            --accept 100..=103,200..=299,429
+            --max-concurrency 25
+            --exclude-all-private
+            links.txt
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Sort failed URLs alphabetically
+        run: python3 scripts/sort-lychee-output.py
+
+      - name: Upload Lychee output as GitHub Job Summary
+        run: cat ${{ env.LYCHEE_FILE }} > $GITHUB_STEP_SUMMARY
