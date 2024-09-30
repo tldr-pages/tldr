@@ -1,6 +1,6 @@
 # vinmap
 
-> A multithreaded Nmap scanner that splits IP ranges into chunks, performs parallel scans, and merges XML or JSON results. **Version:** 1.0.0
+> A multithreaded Nmap scanner that splits IP ranges into chunks, performs parallel scans, and merges XML or JSON results. **Version:** 1.0.0.
 > More information: <https://pypi.org/project/vinmap>.
 
 - Perform a basic scan of a subnet:
