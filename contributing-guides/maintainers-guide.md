@@ -63,10 +63,9 @@ for the behavior expected of tldr-pages maintainers.
 - It is suggested to wait for a few hours before merging a PR with new additions to English pages. This is to allow other maintainers to review the changes and provide feedback.
 
 - If a PR is non-English and there are automatic reviewers added via [CODEOWNERS](https://github.com/tldr-pages/tldr/blob/main/.github/CODEOWNERS), the PR at least needs one approval from one of the CODEOWNERS.
-  If a PR fails to get a review from one of the CODEOWNERS after a few days, the first maintainer should ping the CODEOWNERS for review.
-  If it still lingers around for **over 10 days upto 2 weeks without a approval from one of the CODEOWNERS**,
-  the PR can be merged if it has two approvals.
-  If it only has one approval, please read the next point.
+	- If a PR fails to get a review from one of the CODEOWNERS after a few days, the first maintainer should ping the CODEOWNERS for review.
+	- If it still lingers around for **over 10 days upto 2 weeks without a approval from one of the CODEOWNERS**, the PR can be merged if it has two approvals.
+	- If it only has one approval, please read the next point.
 
 - If a PR fails to get a review from a second maintainer after a few days,
   the first maintainer should ping others for review. If it still lingers around
