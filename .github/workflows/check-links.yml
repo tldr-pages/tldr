@@ -27,7 +27,7 @@ jobs:
           cache: 'pip'
 
       - run: |
-          grep -rh "More information: " tldr/pages/ | sort -u > ${{ env.LYCHEE_INPUT_FILE }}
+          grep -rh "More information: " pages/ | sort -u > ${{ env.LYCHEE_INPUT_FILE }}
           echo "Checking" $(wc -l < ${{ env.LYCHEE_INPUT_FILE }}) "links"
 
       - uses: actions/upload-artifact@v4
