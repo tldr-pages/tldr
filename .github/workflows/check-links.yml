@@ -50,3 +50,10 @@ jobs:
 
       - name: Upload Lychee output as GitHub Job Summary
         run: cat ${{ env.LYCHEE_FILE }} > $GITHUB_STEP_SUMMARY
+
+      - name: Save lychee cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .lycheecache
+          key: ${{ steps.restore-cache.outputs.cache-primary-key }}
