@@ -3,7 +3,7 @@ Copyright © 2014—present the [tldr-pages team](https://github.com/orgs/tldr-p
 and [contributors](https://github.com/tldr-pages/tldr/graphs/contributors).
 
 **This work is licensed under the
-[Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/)
+[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
 (CC-BY).**
 
 ----
