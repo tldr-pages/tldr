@@ -6,24 +6,24 @@
 
 - Execute a `crane` command:
 
-`crane {{flags}} {{subcommand}}`
+`crane {{subcommand}}`
 
 - Allow pushing non-distributable (foreign) layers:
 
-`crane --allow-nondistributable-artifacts`
+`crane --allow-nondistributable-artifacts {{subcommand}}`
 
 - Allow image references to be fetched without TLS:
 
-`crane --insecure`
+`crane --insecure {{subcommand}}`
 
 - Specify the platform in the form os/arch{{/variant}}{{:osversion}} (e.g. linux/amd64). (default all):
 
-`crane  --platform {{platform}}`
+`crane  --platform {{platform}} {{subcommand}}`
 
 - Enable debug logs:
 
-`crane {{-v|--verbose}}`
+`crane {{-v|--verbose}} {{subcommand}}`
 
 - Display help:
 
-`crane {{-h|--help}}`
+`crane {{-h|--help}} {{subcommand}}`

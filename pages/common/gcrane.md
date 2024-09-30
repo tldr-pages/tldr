@@ -9,24 +9,24 @@
 
 - Execute a `gcrane` subcommand:
 
-`gcrane [flags] {{subcommand}}`
+`gcrane {{subcommand}}`
 
 - Allow pushing non-distributable (foreign) layers:
 
-`gcrane --allow-nondistributable-artifacts`
+`gcrane --allow-nondistributable-artifacts {{subcommand}}`
 
 - Allow image references to be fetched without TLS:
 
-`gcrane --insecure`
+`gcrane --insecure {{subcommand}}`
 
 - Specify the platform in the form os/arch{{/variant}}{{:osversion}} (e.g. linux/amd64). (default all):
 
-`gcrane --platform {{platform}}`
+`gcrane --platform {{platform}} {{subcommand}}`
 
 - Enable debug logs:
 
-`gcrane --verbose`
+`gcrane {{-v|--verbose} {{subcommand}}`
 
 - Display help:
 
-`gcrane --help`
+`gcrane {{-h|--help}}`
