@@ -6,7 +6,8 @@ jobs:
   check-links:
     runs-on: ubuntu-latest
     env:
-      LYCHEE_FILE: "lychee/out.md"
+      LYCHEE_INPUT_FILE: "links.txt"
+      LYCHEE_OUTPUT_FILE: "lychee/out.md"
     steps:
       - name: Restore lychee cache
         id: restore-cache
@@ -26,9 +27,13 @@ jobs:
           cache: 'pip'
 
       - run: |
-          grep -rh "More information: " pages/ | sort -u > links.txt
-          cat links.txt
-          echo "Checking" $(wc -l < links.txt) "links"
+          grep -rh "More information: " tldr/pages/ | sort -u > ${{ env.LYCHEE_INPUT_FILE }}
+          echo "Checking" $(wc -l < ${{ env.LYCHEE_INPUT_FILE }}) "links"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: links
+          path: ${{ env.LYCHEE_INPUT_FILE }}
 
       - name: Lychee URL checker
         uses: lycheeverse/lychee-action@v1
@@ -42,7 +47,7 @@ jobs:
             --accept 100..=103,200..=299,429
             --max-concurrency 25
             --exclude-all-private
-            links.txt
+            ${{ env.LYCHEE_INPUT_FILE }}
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
@@ -50,7 +55,7 @@ jobs:
         run: python3 scripts/sort-lychee-output.py
 
       - name: Upload Lychee output as GitHub Job Summary
-        run: cat ${{ env.LYCHEE_FILE }} > $GITHUB_STEP_SUMMARY
+        run: cat ${{ env.LYCHEE_OUTPUT_FILE }} > $GITHUB_STEP_SUMMARY
 
       - name: Save lychee cache
         uses: actions/cache/save@v4
