@@ -1,7 +1,7 @@
 # Greater than
 
 > Redirect output to a file.
-> More information: <https://www.gnu.org/software/bash/manual/bash.html#Redirecting-Output>.
+> More information: <https://gnu.org/software/bash/manual/bash.html#Redirecting-Output>.
 
 - Redirect `stdout` to a file:
 

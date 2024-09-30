@@ -1,7 +1,7 @@
 # Vertical bar
 
 > Pipe data between programs.
-> More information: <https://www.gnu.org/software/bash/manual/bash.html#Pipelines>.
+> More information: <https://gnu.org/software/bash/manual/bash.html#Pipelines>.
 
 - Pipe `stdout` to `stdin`:
 

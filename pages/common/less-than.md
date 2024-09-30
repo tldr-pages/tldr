@@ -2,7 +2,7 @@
 
 > Redirect a file to `stdin`.
 > Achieves the same effect as `cat file.txt |`.
-> More information: <https://www.gnu.org/software/bash/manual/bash.html#Redirecting-Input>.
+> More information: <https://gnu.org/software/bash/manual/bash.html#Redirecting-Input>.
 
 - Redirect a file to `stdin`:
 
