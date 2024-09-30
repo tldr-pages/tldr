@@ -68,10 +68,9 @@ for the behavior expected of tldr-pages maintainers.
 	- If it only has one approval, please read the next point.
 
 - If a PR fails to get a review from a second maintainer after a few days,
-  the first maintainer should ping others for review. If it still lingers around
-  for **over a week without a second maintainer’s approval**,
-  the first maintainer (if Owner) can go ahead and merge it. Otherwise, a message
-  can be sent in the chatroom asking other maintainers to review the PR.
+  the first maintainer should ping others for review. 
+  - If it still lingers around for **over a week without a second maintainer’s approval**, the first maintainer (if Owner) can go ahead and merge it. 
+    Otherwise, a message can be sent in the chatroom asking other maintainers to review the PR.
 
 - If the only issues holding up a merge are **trivial fixes**
   (typos, syntax errors, etc.), and the author doesn't respond in a day or two,
