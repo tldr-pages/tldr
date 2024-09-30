@@ -26,8 +26,8 @@ jobs:
           cache: 'pip'
 
       - run: |
-          echo $(grep -rh "More information: " pages/ | sort -u) > links.txt
-          cat links.txt
+          echo -e "$(grep -rh "More information: " pages/ | sort -u)" > links.txt
+          wc -l links.txt
 
       - name: Lychee URL checker
         uses: lycheeverse/lychee-action@v1
