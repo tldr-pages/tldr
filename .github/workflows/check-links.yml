@@ -33,6 +33,7 @@ jobs:
         uses: lycheeverse/lychee-action@v1
         id: lychee
         with:
+          jobSummary: false
           args: >-
             --cache
             --verbose
