@@ -4,17 +4,13 @@
 > Some subcommands such as `pull`, `push`, `copy`, etc. have their own usage documentation.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md/>.
 
-- Execute a Crane command:
+- Execute a `crane` command:
 
 `crane {{flags}} {{subcommand}}`
 
 - Allow pushing non-distributable (foreign) layers:
 
 `crane --allow-nondistributable-artifacts`
-
-- Display help:
-
-`crane {{-h|--help}}`
 
 - Allow image references to be fetched without TLS:
 
@@ -27,3 +23,7 @@
 - Enable debug logs:
 
 `crane {{-v|--verbose}}`
+
+- Display help:
+
+`crane {{-h|--help}}`

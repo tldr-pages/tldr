@@ -9,16 +9,16 @@
 
 - Skip downloading/digesting layers:
 
-`crane validate {{--fast}}`
+`crane validate --fast`
+
+- Name of remote image to validate:
+
+`crane validate --remote {{image_name}}`
+
+- Path to tarball to validate:
+
+`crane validate --tarball {{path/to/tarball}}`
 
 - Display help:
 
 `crane validate {{-h|--help}}`
-
-- Name of remote image to validate:
-
-`crane validate {{--remote}} {{string}}`
-
-- Path to tarball to validate:
-
-`crane validate {{--tarball}} {{string}}`

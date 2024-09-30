@@ -9,8 +9,8 @@
 
 - Write tarball to file:
 
-`crane export {{image_name}} {{file_name}}`
+`crane export {{image_name}} {{path/to/tarball}}`
 
 - Read image from stdin:
 
-`crane export - {{file_name}}`
+`crane export - {{path/to/filename}}`

@@ -8,7 +8,7 @@
 
 - Tag remote image:
 
-`crane tag {{image_name}} {{tag}}`
+`crane tag {{image_name}} {{tag_name}}`
 
 - Display help:
 

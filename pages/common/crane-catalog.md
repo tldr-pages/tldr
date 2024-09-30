@@ -9,7 +9,7 @@
 
 - Print the full image reference:
 
-`crane catalog {{registry_address}} {{--full-ref}}`
+`crane catalog {{registry_address}} --full-ref`
 
 - Display help:
 

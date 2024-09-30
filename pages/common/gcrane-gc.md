@@ -9,10 +9,10 @@
 
 `gcrane gc {{repository}}`
 
-- Display help:
-
-`gcrane gc {{-h|--help}}`
-
 - Whether to recurse through repositories:
 
 `gcrane gc {{repository}} {{-r|--recursive}}`
+
+- Display help:
+
+`gcrane gc {{-h|--help}}`

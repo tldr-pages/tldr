@@ -8,14 +8,14 @@
 
 `gcrane ls {{repository}}`
 
-- Display help:
-
-`gcrane ls {{-h|--help}}`
-
 - Format response from the registry as JSON:
 
-`gcrane ls {{repository}} {{--json}}`
+`gcrane ls {{repository}} --json`
 
 - Whether to recurse through repositories:
 
 `gcrane ls {{repository}} {{-r|--recursive}}`
+
+- Display help:
+
+`gcrane ls {{-h|--help}}`

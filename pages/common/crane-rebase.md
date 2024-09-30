@@ -7,18 +7,18 @@
 
 `crane rebase`
 
-- Display help:
-
-`crane rebase {{-h|--help}}`
-
 - New base image to insert:
 
-`crane rebase {{--new_base}} {{string}}`
+`crane rebase --new_base {{image_name}}`
 
 - Old base image to remove:
 
-`crane rebase {{--old_base}} {{string}}`
+`crane rebase --old_base {{image_name}}`
 
 - Tag to apply to rebased image:
 
-`crane rebase {{-t|--tag}} {{string}}`
+`crane rebase {{-t|--tag}} {{tag_name}}`
+
+- Display help:
+
+`crane rebase {{-h|--help}}`

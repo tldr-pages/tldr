@@ -10,18 +10,18 @@
 
 `crane registry serve`
 
+- Address to listen on:
+
+`crane registry serve --address {{address_name}}`
+
+- Path to a directory where blobs will be stored:
+
+`crane registry serve --disk {{path/to/store_dir}}`
+
 - Display help:
 
 `crane registry {{-h|--help}}`
 
-- Address to listen on:
-
-`crane registry serve {{--address}} {{string}}`
-
-- Path to a directory where blobs will be stored:
-
-`crane registry serve {{--disk}} {{string}}`
-
 - Display help:
 
-`crane regsitry serve {{-h|--help}}`
+`crane registry serve {{-h|--help}}`

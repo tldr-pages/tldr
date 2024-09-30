@@ -22,11 +22,11 @@
 
 - Load completions for every new session (bash):
 
-`gcrane completion bash > /etc/bash_completion.d/gcrane`
+`gcrane completion bash > $(brew --prefix)/etc/bash_completion.d/gcrane`
 
 - Load completions for every new session (zsh):
 
-`gcrane completion zsh > "${fpath[1]}/_gcrane"`
+`gcrane completion zsh > $(brew --prefix)/share/zsh/site-functions/_gcrane`
 
 - Load completions for every new session (fish):
 

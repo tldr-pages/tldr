@@ -9,12 +9,12 @@
 
 - Print the full image reference by digest:
 
-`crane digest {{image_name}} {{--full-ref}}`
-
-- Display help:
-
-`crane digest {{image_name}} {{-h|--help}}`
+`crane digest {{image_name}} --full-ref`
 
 - Specify path to tarball containing the image:
 
-`crane digest {{image_name}} {{--tarball}} {{string}}`
+`crane digest {{image_name}} --tarball {{path/to/tarball}}`
+
+- Display help:
+
+`crane digest {{-h|--help}}`

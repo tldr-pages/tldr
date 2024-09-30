@@ -9,12 +9,12 @@
 
 - Print the full image reference:
 
-`crane ls {{repository}} {{--full-ref}}`
-
-- Display help:
-
-`crane ls {{-h|--help}}`
+`crane ls {{repository}} --full-ref`
 
 - Omit digest tags:
 
 `crane ls {{-o|--omit-digest-tags}}`
+
+- Display help:
+
+`crane ls {{-h|--help}}`

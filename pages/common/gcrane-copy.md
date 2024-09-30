@@ -7,14 +7,14 @@
 
 `gcrane copy/cp {{source}} {{target}}`
 
-- Display help:
+- Set the maximum number of concurrent copies, defaults to 20:
 
-`gcrane copy {{-h|--help}}`
-
-- Set the maximum number of concurrent copies, defaults to GOMAXPROCS:
-
-`gcrane copy {{source}} {{target}} {{-j|--jobs}} {{int}}`
+`gcrane copy {{source}} {{target}} {{-j|--jobs}} {{nr_of_copies}}`
 
 - Whether to recurse through repositories:
 
 `grance copy {{source}} {{target}} {{-r|--recursive}}`
+
+- Display help:
+
+`gcrane copy {{-h|--help}}`

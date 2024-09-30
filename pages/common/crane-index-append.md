@@ -9,22 +9,22 @@
 
 `crane index append`
 
+- Reference to manifests to append to the base index:
+
+`crane index append {{-m|--manifest}} {{manifest_name1 manifest_name2 ...}}`
+
+- Tag to apply to resulting image:
+
+`crane index append {{-t|--tag}} {{tag_name}}`
+
 - Empty base index will have Docker media types instead of OCI:
 
-`crane index append {{--docker-empty-base}}`
+`crane index append --docker-empty-base`
 
 - Append each of its children rather than the index itself (defaults true):
 
-`crane index append {{--flatten}}`
+`crane index append --flatten`
 
 - Display help:
 
 `crane index append {{-h|--help}}`
-
-- Reference to manifests to append to the base index:
-
-`crane index append {{-m|--manifest}} {{strings}}`
-
-- Tag to apply to resulting image:
-
-`crane index append {{-t|--tag}} {{string}}`

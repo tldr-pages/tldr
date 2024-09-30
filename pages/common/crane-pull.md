@@ -5,19 +5,19 @@
 
 - Pull remote image:
 
-`crane pull {{image_name}} {{tarball}}`
+`crane pull {{image_name}} {{path/to/tarball}}`
 
 - Preserve image reference used to pull as an annotation when used with --format=oci:
 
-`crane pull {{image_name}} {{tarball}} {{--annoate-ref}}`
+`crane pull {{image_name}} {{path/to/tarball}} --annotate-ref`
 
 - Path to cache image layers:
 
-`crane pull {{image_name}} {{tarball}} {{-c|--cache_path}} {{string}}`
+`crane pull {{image_name}} {{path/to/tarball}} {{-c|--cache_path}} {{path/to/cache}}`
 
 - Format in which to save images (default 'tarball'):
 
-`crane pull {{image_name}} {{tarball}} {{-format}} {{string}}`
+`crane pull {{image_name}} {{path/to/tarball}} {{-format}} {{format_name}}`
 
 - Display help:
 
