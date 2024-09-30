@@ -26,7 +26,7 @@ jobs:
           cache: 'pip'
 
       - run: |
-          echo -e "$(grep -rh "More information: " pages/ | sort -u)" > links.txt
+          grep -rh "More information: " pages/ | sort -u > links.txt
           cat links.txt
           echo "Checking" $(wc -l < links.txt) "links"
 
