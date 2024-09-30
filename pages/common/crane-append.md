@@ -1,6 +1,6 @@
 # crane append
 
-> Pushes an image based on an (optional) base image.
+> Push an image based on an (optional) base image.
 > Appends layers containing the contents of the provided tarballs.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_append.md>.
 

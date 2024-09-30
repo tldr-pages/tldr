@@ -5,7 +5,7 @@
 
 - Copy an image from source to target:
 
-`gcrane copy/cp {{source}} {{target}}`
+`gcrane {{cp|copy}} {{source}} {{target}}`
 
 - Set the maximum number of concurrent copies, defaults to 20:
 
