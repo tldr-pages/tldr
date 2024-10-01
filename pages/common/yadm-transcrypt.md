@@ -7,7 +7,7 @@
 
 - Set the symmetric cipher to utilize for encryption:
 
-`yadm  transcrypt --cipher={{cipher}}`
+`yadm transcrypt --cipher={{cipher}}`
 
 - Pass the password to derive the key from:
 

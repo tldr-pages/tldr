@@ -10,4 +10,4 @@
 
 - Create the necessary files and folders for encryption:
 
-`touch {{encrypt-file-path}} && mkdir {{archive-folder-path}}`
+`touch {{path/to/encrypt_file}} && mkdir {{path/to/archive_folder}}`

@@ -2,7 +2,7 @@
 
 > A dotfiles manager that works by using `git`.
 > The subcommands are just like `git` but use `yadm`.
-> You can use `yadm` (init | clone | push | pull).
+> Some subcommands such as `init`, `clone`, `push`, and `pull` have their own usage documentation.
 > This command is one that allows you to pass flags to configure yadm.
 > More information: <https://yadm.io/docs/overview>.
 
@@ -24,11 +24,11 @@
 
 - Override the location of the yadm encryption configuration:
 
-`yadm  --yadm-encrypt`
+`yadm --yadm-encrypt`
 
 - Override the location of the yadm encrypted files archive:
 
-`yadm  --yadm-archive`
+`yadm --yadm-archive`
 
 - Override the location of the yadm bootstrap program:
 
