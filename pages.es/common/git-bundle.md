@@ -17,7 +17,7 @@
 
 - Crea un archivo bundle de los últimos 7 días:
 
-`git bundle create {{ruta/al/archivo.bundle}} --since={{7.days}} {{HEAD}}`
+`git bundle create {{ruta/al/archivo.bundle}} --since {{7.days}} {{HEAD}}`
 
 - Verifica que un archivo bundle es válido y puede aplicarse al repositorio actual:
 
