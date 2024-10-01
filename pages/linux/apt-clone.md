@@ -9,7 +9,7 @@
 
 - Create a clone file (`tar.gz`) for backup purposes:
 
-`apt-clone clone --destination {{backup.tar.gz}}`
+`apt-clone clone --destination {{path/to/backup.tar.gz}}`
 
 - Restore the package state from a clone file:
 
