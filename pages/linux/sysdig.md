@@ -22,7 +22,7 @@
 
 - Register any found plugin and use dummy as input source passing to it open params:
 
-`sysdig -I dummy:'{{parameter}}''`
+`sysdig -I dummy:'{{parameter}}'`
 
 - List the available chisels:
 
