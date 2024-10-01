@@ -2,7 +2,7 @@
 
 > Audio player of SoX - Sound eXchange.
 > Plays any audio, with audio formats identified by the extension.
-> More information: <https://sox.sourceforge.net>.
+> More information: <http://sox.sourceforge.net>.
 
 - Play the given audio file:
 
