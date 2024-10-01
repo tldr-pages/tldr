@@ -9,7 +9,7 @@
 
 - Scan a domain with version and OS detection, saving results to a specific file:
 
-`vinmap -ip {{example.com}} -s "-sV -O" -o {{scan_results.xml}}`
+`vinmap -ip {{example.com}} -s "-sV -O" -o {{path/to/scan_results.xml}}`
 
 - Scan an IP range using 10 chunks and 20 concurrent threads, uses half of the system's CPU cores if not specified:
 
