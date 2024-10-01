@@ -10,7 +10,7 @@
 
 - Share the repository using GPG:
 
-`yadm git-crypt add-gpg-user {{USER_ID}}`
+`yadm git-crypt add-gpg-user {{user_id}}`
 
 - After cloning a repository with encrypted files, unlock them:
 
