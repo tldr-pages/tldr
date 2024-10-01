@@ -4,7 +4,7 @@
 > Some subcommands such as `pull`, `push`, `copy`, etc. have their own usage documentation.
 > More information: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md/>.
 
-- Execute a `crane` command:
+- Execute a `crane` subcommand:
 
 `crane {{subcommand}}`
 
@@ -20,10 +20,10 @@
 
 `crane  --platform {{platform}} {{subcommand}}`
 
-- Enable debug logs:
+- Enable debug logs for a subcommand:
 
 `crane {{-v|--verbose}} {{subcommand}}`
 
-- Display help:
+- Display help for a subcommand:
 
 `crane {{-h|--help}} {{subcommand}}`
