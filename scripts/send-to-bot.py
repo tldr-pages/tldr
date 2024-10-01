@@ -8,6 +8,7 @@ import requests
 BOT_URL = "https://tldr-bot.starbeamrainbowlabs.com"
 
 COMMENT_ERROR = """
+<!-- tldr-bot - errors -->
 The [build](https://github.com/tldr-pages/tldr/actions/runs/{build_id}) for this PR failed with the following error(s):
 
 ```
@@ -18,6 +19,7 @@ Please fix the error(s) and push again.
 """
 
 COMMENT_CHECK = """
+<!-- tldr-bot - check-results -->
 Hello! I've noticed something unusual when checking this PR:
 
 {content}
@@ -29,7 +31,7 @@ Is this intended? If so, just ignore this comment. Otherwise, please double-chec
 
 
 def post_comment(pr_id, body):
-    endpoint = f"{BOT_URL}/comment"
+    endpoint = f"{BOT_URL}/comment/recreate"
 
     data = {"pr_id": pr_id, "body": body}
 
