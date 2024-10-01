@@ -17,7 +17,7 @@
 
 - Output scan results in JSON format:
 
-`vinmap -ip {{192.168.1.1-192.168.1.100}} -f {{json}}`
+`vinmap -ip {{192.168.1.1-192.168.1.100}} -f json`
 
 - Scan multiple IPs with default settings and save merged XML output:
 
