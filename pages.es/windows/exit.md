@@ -3,7 +3,7 @@
 > Salir de la instancia CMD actual o del archivo batch actual.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/exit>.
 
-- Salir de la instancia CMD actual
+- Salir de la instancia CMD actual:
 
 `exit`
 
