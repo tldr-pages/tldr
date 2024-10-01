@@ -9,28 +9,28 @@
 
 - Print a report for a specific device:
 
-`blockdev --report /dev/sdX`
+`blockdev --report {{/dev/sdXY}}`
 
 - Get the size of a device in 512-byte sectors:
 
-`blockdev --getsz /dev/sdX`
+`blockdev --getsz {{/dev/sdXY}}`
 
 - Set read-only:
 
-`blockdev --setro /dev/sdX`
+`blockdev --setro {{/dev/sdXY}}`
 
 - Set read-write:
 
-`blockdev --setrw /dev/sdX`
+`blockdev --setrw {{/dev/sdXY}}`
 
 - Flush buffers:
 
-`blockdev --flushbufs /dev/sdX`
+`blockdev --flushbufs {{/dev/sdXY}}`
 
 - Get the physical block size:
 
-`blockdev --getpbsz /dev/sdX`
+`blockdev --getpbsz {{/dev/sdXY}}`
 
 - Set the read-ahead value to 128 sectors:
 
-`blockdev --setra 128 /dev/sdX`
+`blockdev --setra 128 {{/dev/sdXY}}`
