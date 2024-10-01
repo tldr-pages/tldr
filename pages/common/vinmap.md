@@ -21,4 +21,4 @@
 
 - Scan multiple IPs with default settings and save merged XML output:
 
-`vinmap -ip {{192.168.1.1,192.168.1.2,192.168.1.3}}`
+`vinmap -ip {{192.168.1.1,192.168.1.2,...}}`
