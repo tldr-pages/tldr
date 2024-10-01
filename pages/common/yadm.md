@@ -4,7 +4,7 @@
 > Some subcommands such as `init`, `clone`, `push`, and `pull` have their own usage documentation.
 > More information: <https://yadm.io/docs/overview>.
 
-- Override the yadm directory. Yadm stores its configurations relative to this directory:
+- Override the `yadm` directory. Yadm stores its configurations relative to this directory:
 
 `yadm --yadm-dir`
 
