@@ -7,7 +7,7 @@
 
 `{{command}} > {{path/to/file}}`
 
-- Append a file:
+- Append to a file:
 
 `{{command}} >> {{path/to/file}}`
 
