@@ -13,7 +13,7 @@
 
 - Scan an IP range using 10 chunks and 20 concurrent threads, uses half of the system's CPU cores if not specified:
 
-`vinmap -ip {{10.0.0.1-10.0.0.255}} -n {{10}} -t {{20}}`
+`vinmap -ip {{10.0.0.1-10.0.0.255}} -n 10 -t 20`
 
 - Output scan results in JSON format:
 
