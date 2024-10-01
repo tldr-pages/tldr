@@ -8,7 +8,7 @@
 
 `yadm --yadm-dir`
 
-- Override the yadm data directory: Yadm stores its data relative to this directory:
+- Override the `yadm` data directory: Yadm stores its data relative to this directory:
 
 `yadm --yadm-data`
 
