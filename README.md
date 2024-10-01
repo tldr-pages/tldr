@@ -91,7 +91,7 @@ If you don't want to install any software, check out the [PDF version](https://g
 
 There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
-For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients).
+For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/Clients).
 
 ## How do I contribute to tldr-pages?
 
