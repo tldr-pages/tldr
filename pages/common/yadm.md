@@ -12,7 +12,7 @@
 
 `yadm --yadm-data`
 
-- Override the location of the yadm repository:
+- Override the location of the `yadm` repository:
 
 `yadm --yadm-repo`
 
