@@ -10,7 +10,7 @@
 
 - Gib eine einzeilige Beschreibung der Audiodatei aus:
 
-`afinfo --brief {{pfad/zur/datei}}`
+`afinfo --brief {{pfad/zu/datei}}`
 
 - Gib Metadaten und den Inhalt des InfoDictionary der Audiodatei aus:
 
