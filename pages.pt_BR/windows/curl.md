@@ -1,7 +1,7 @@
 # curl
 
-No PowerShell, este comando pode ser um apelido de `Invoke-WebRequest` quando o programa `curl` original (<https://curl.se>) não está adequadamente instalado.
-Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+> No PowerShell, este comando pode ser um apelido de `Invoke-WebRequest` quando o programa `curl` original (<https://curl.se>) não está adequadamente instalado.
+> Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Exibe documentação sobre o comando `curl` original:
 
