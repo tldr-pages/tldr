@@ -22,7 +22,7 @@
 
 - Gib Warnungen für die Audiodatei aus, falls vorhanden:
 
-`afinfo --warnings {{pfad/zur/datei}}`
+`afinfo --warnings {{pfad/zu/datei}}`
 
 - Zeige eine Hilfe an:
 
