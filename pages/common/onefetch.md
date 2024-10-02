@@ -23,7 +23,7 @@
 
 `onefetch --no-art`
 
-- Show `n` authors, languages or file churns (default: 3, 6 and 3 respectively):
+- Show `n` authors, languages, or file churns (default: 3, 6, and 3 respectively):
 
 `onefetch --number-of-{{authors|languages|file-churns}} {{n}}`
 
