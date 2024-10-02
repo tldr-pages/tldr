@@ -17,7 +17,7 @@
 
 - Obtiene coste y uso:
 
-`aws ce get-cost-and-usage --time-period {{fecha_inicio}}/{fecha_final}} --granularity {{granularidad}} --metrics {{métricas}}`
+`aws ce get-cost-and-usage --time-period {{fecha_inicio}}/{{fecha_final}} --granularity {{granularidad}} --metrics {{métricas}}`
 
 - Obtiene previsión de costes:
 
