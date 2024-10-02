@@ -1,7 +1,7 @@
 # setfattr
 
 > Set extended file attributes.
-> More information : <https://linux.die.net/man/1/setfattr>.
+> More information: <https://manned.org/man/setfattr>.
 
 - To set name of attribute for file:
 
@@ -11,7 +11,7 @@
 
 `setfattr -n user.{{attribute}} -v "{{value}}" {{path/to/file}}`
 
-- To remove a specific attribute of a file: 
+- To remove a specific attribute of a file:
 
 `setfattr -x user.{{attribute}} {{path/to/file}}`
 
