@@ -18,7 +18,7 @@
 
 - Gib die Daten im XML-Format aus:
 
-`afinfo --xml {{pfad/zur/datei}}`
+`afinfo --xml {{pfad/zu/datei}}`
 
 - Gib Warnungen für die Audiodatei aus, falls vorhanden:
 
