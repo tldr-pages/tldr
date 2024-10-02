@@ -4,7 +4,7 @@
 > Eingebauter Befehl von OS X.
 > Weitere Informationen: <https://keith.github.io/xcode-man-pages/afinfo.1.html>.
 
-- Anzeige von Informationen zu einer bestimmten Audiodatei:
+- Zeige Informationen zu einer bestimmten Audiodatei an:
 
 `afinfo {{pfad/zur/datei}}`
 
