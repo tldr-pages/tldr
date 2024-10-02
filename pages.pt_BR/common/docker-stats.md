@@ -1,7 +1,7 @@
 # docker stats
 
 > Exibe estatísticas dinâmicas de uso de recursos dos containers.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/stats/>.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/container/stats/>.
 
 - Exibe estatísticas atualizadas de todos os containers em execução:
 

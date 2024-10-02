@@ -7,7 +7,7 @@
 
 `exit`
 
-- Verlaat het huidige batchscript:
+- Verlaat het huidige [b]atchscript:
 
 `exit /b`
 

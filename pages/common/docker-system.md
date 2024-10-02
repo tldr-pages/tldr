@@ -1,7 +1,7 @@
 # docker system
 
 > Manage Docker data and display system-wide information.
-> More information: <https://docs.docker.com/engine/reference/commandline/system/>.
+> More information: <https://docs.docker.com/reference/cli/docker/system/>.
 
 - Display help:
 
