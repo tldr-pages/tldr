@@ -14,7 +14,7 @@
 
 - Gib Metadaten und den Inhalt des InfoDictionary der Audiodatei aus:
 
-`afinfo --info {{pfad/zur/datei}}`
+`afinfo --info {{pfad/zu/datei}}`
 
 - Gib die Daten im XML-Format aus:
 
