@@ -34,4 +34,4 @@
 
 - Hanya bandingkan isi 5 baris pertama antara kedua berkas:
 
-`comp /n=5 {{jalan\menuju\berkas1}} {{jalan\menuju\berkas2}}`
+`comp /n={{5}} {{jalan\menuju\berkas1}} {{jalan\menuju\berkas2}}`
