@@ -6,7 +6,7 @@
 
 - Zeige Informationen zu einer bestimmten Audiodatei an:
 
-`afinfo {{pfad/zur/datei}}`
+`afinfo {{pfad/zu/datei}}`
 
 - Gib eine einzeilige Beschreibung der Audiodatei aus:
 
