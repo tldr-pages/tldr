@@ -1,28 +1,28 @@
-# protonvpn-cli connect
+# protonvpn connect
 
 > Connect to ProtonVPN.
-> More information: <https://protonvpn.com/support/linux-vpn-setup/>.
+> More information: <https://github.com/Rafficer/linux-cli-community>.
 
 - Connect to ProtonVPN interactively:
 
-`protonvpn-cli connect`
+`protonvpn {{c|connect}}`
 
 - Connect to ProtonVPN using the fastest server available:
 
-`protonvpn-cli connect --fastest`
+`protonvpn {{c|connect}} {{-f|--fastest}}`
 
 - Connect to ProtonVPN using a specific server with a specific protocol:
 
-`protonvpn-cli connect {{server_name}} --protocol {{udp|tcp}}`
+`protonvpn {{c|connect}} {{server_name}} -p {{udp|tcp}}`
 
 - Connect to ProtonVPN using a random server with a specific protocol:
 
-`protonvpn-cli connect --random --protocol {{udp|tcp}}`
+`protonvpn {{c|connect}} {{-r|--random}} -p {{udp|tcp}}`
 
 - Connect to ProtonVPN using the fastest Tor-supporting server:
 
-`protonvpn-cli connect --tor`
+`protonvpn {{c|connect}} --tor`
 
 - Display help:
 
-`protonvpn-cli connect --help`
+`protonvpn connect --help`
