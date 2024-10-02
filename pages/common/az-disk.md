@@ -16,7 +16,7 @@
 
 `az disk delete --resource-group {{resource_group}} --name {{disk_name}}`
 
-- Grant access to a managed disk (for export):
+- Grant read or write access to a managed disk (for export):
 
 `az disk grant-access --resource-group {{resource_group}} --name {{disk_name}} --access-level Read --duration-in-seconds {{seconds}}`
 
