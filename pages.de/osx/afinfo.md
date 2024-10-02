@@ -20,7 +20,7 @@
 
 `afinfo --xml {{pfad/zur/datei}}`
 
-- Warnungen für die Audiodatei ausgeben, falls vorhanden:
+- Gib Warnungen für die Audiodatei aus, falls vorhanden:
 
 `afinfo --warnings {{pfad/zur/datei}}`
 
