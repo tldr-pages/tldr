@@ -2,7 +2,7 @@
 
 > Beheer Linode instanties.
 > Bekijk ook: `linode-cli`.
-> Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/linode-instances/>.
+> Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-compute-instances>.
 
 - Toon alle Linodes:
 

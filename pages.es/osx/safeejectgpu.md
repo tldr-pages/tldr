@@ -1,7 +1,7 @@
 # SafeEjectGPU
 
 > Expulsa una GPU de forma segura.
-> Más información: <https://keith.github.io/xcode-man-pages/safeejectgpu.8.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/SafeEjectGPU.8.html>.
 
 - Expulsa todas las GPUs:
 

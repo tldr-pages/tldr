@@ -1,7 +1,7 @@
 # docker logs
 
 > Exibe os logs dos containers.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/logs>.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/container/logs/>.
 
 - Exibe logs de um container:
 

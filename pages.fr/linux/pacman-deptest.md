@@ -2,7 +2,7 @@
 
 > Vérifie la satisfaction des dépendances et renvoie celles qui ne le sont pas.
 > Voir aussi: `pacman`.
-> Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
+> Plus d'informations : <https://manned.org/pacman.8>.
 
 - Affiche les noms des paquets qui ne sont pas installés dans la liste :
 

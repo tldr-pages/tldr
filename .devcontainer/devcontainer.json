@@ -1,9 +1,10 @@
 {
   "name": "tldr-pages",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu", // Use Microsoft's Ubuntu Base image for the dev container
-  "features": { // Use Node and Python features in the dev container
+  "features": { // Use Node, Python and GitHub CLI features in the dev container
     "ghcr.io/devcontainers/features/node:1": {},
-    "ghcr.io/devcontainers/features/python:1": {}
+    "ghcr.io/devcontainers/features/python:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
   },
 
   "privileged": false, // Run the container unprivileged
