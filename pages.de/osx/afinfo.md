@@ -12,7 +12,7 @@
 
 `afinfo --brief {{pfad/zur/datei}}`
 
-- Druckt Metadaten und den Inhalt des InfoDictionary der Audiodatei:
+- Gib Metadaten und den Inhalt des InfoDictionary der Audiodatei aus:
 
 `afinfo --info {{pfad/zur/datei}}`
 
