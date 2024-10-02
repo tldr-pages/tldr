@@ -16,7 +16,7 @@
 
 `afinfo --info {{pfad/zur/datei}}`
 
-- Druckt die Ausgabe im XML-Format:
+- Gib die Daten im XML-Format aus:
 
 `afinfo --xml {{pfad/zur/datei}}`
 
