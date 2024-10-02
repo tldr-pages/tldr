@@ -8,7 +8,7 @@
 
 `afinfo {{pfad/zur/datei}}`
 
-- Eine einzeilige Beschreibung der Audiodatei ausgeben:
+- Gib eine einzeilige Beschreibung der Audiodatei aus:
 
 `afinfo --brief {{pfad/zur/datei}}`
 
