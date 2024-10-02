@@ -18,7 +18,7 @@
 
 - Grant read or write access to a managed disk (for export):
 
-`az disk grant-access --resource-group {{resource_group}} --name {{disk_name}} --access-level Read --duration-in-seconds {{seconds}}`
+`az disk grant-access --resource-group {{resource_group}} --name {{disk_name}} --access-level {{Read|Write}} --duration-in-seconds {{seconds}}`
 
 - Update disk size:
 
