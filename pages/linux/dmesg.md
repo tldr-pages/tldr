@@ -5,32 +5,32 @@
 
 - Show kernel messages:
 
-`dmesg`
+`sudo dmesg`
 
 - Show kernel error messages:
 
-`dmesg --level err`
+`sudo dmesg --level err`
 
 - Show kernel messages and keep reading new ones, similar to `tail -f` (available in kernels 3.5.0 and newer):
 
-`dmesg -w`
+`sudo dmesg -w`
 
 - Show how much physical memory is available on this system:
 
-`dmesg | grep -i memory`
+`sudo dmesg | grep -i memory`
 
 - Show kernel messages 1 page at a time:
 
-`dmesg | less`
+`sudo dmesg | less`
 
 - Show kernel messages with a timestamp (available in kernels 3.5.0 and newer):
 
-`dmesg -T`
+`sudo dmesg -T`
 
 - Show kernel messages in human-readable form (available in kernels 3.5.0 and newer):
 
-`dmesg -H`
+`sudo dmesg -H`
 
 - Colorize output (available in kernels 3.5.0 and newer):
 
-`dmesg -L`
+`sudo dmesg -L`
