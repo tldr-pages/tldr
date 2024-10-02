@@ -10,4 +10,3 @@
 - To get a specific attribute of a file:
 
 `getfattr -n user.{{attribute_name}} {{path/to/file}}`
-

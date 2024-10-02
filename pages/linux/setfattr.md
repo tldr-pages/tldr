@@ -14,4 +14,3 @@
 - To remove a specific attribute of a file:
 
 `setfattr -x user.{{attribute}} {{path/to/file}}`
-
