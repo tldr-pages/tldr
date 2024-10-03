@@ -48,8 +48,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [17 August 2022](https://github.com/tldr-pages/tldr/issues/8321) — present
 - **Cairn ([@CairnThePerson](https://github.com/CairnThePerson))**:
   [1 September 2022](https://github.com/tldr-pages/tldr/issues/8438) — present
-- **Managor ([@Managor](https://github.com/Managor))**:
-  [4 September 2023](https://github.com/tldr-pages/tldr/issues/10611) — present
 - **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
   [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764), [7 February 2023](https://github.com/tldr-pages/tldr/issues/10674) — present
 - **HoJeong Im ([@IMHOJEONG](https://github.com/IMHOJEONG))**:
@@ -134,7 +132,9 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10738) — [3 May 2024](https://github.com/tldr-pages/tldr/issues/12718)
 - Wiktor Perskawiec ([@spageektti](https://github.com/spageektti)):
   [11 May 2024](https://github.com/tldr-pages/tldr/issues/12776) — [1 June 2024](https://github.com/tldr-pages/tldr/issues/12869)
-
+- Managor ([@Managor](https://github.com/Managor)):
+  [4 September 2023](https://github.com/tldr-pages/tldr/issues/10611) — [3 October 2024](https://github.com/tldr-pages/tldr/issues/13956)
+  
 ## Organization members
 
 In addition to everything that repository collaborators can do, organization members have write access to all the repositories in the tldr-pages organization, and [a few extra maintenance capabilities](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization).
@@ -162,6 +162,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [3 May 2024](https://github.com/tldr-pages/tldr/issues/12718) — present
 - **Wiktor Perskawiec ([@spageektti](https://github.com/spageektti))**:
   [1 June 2024](https://github.com/tldr-pages/tldr/issues/12869) — present
+- **Managor ([@Managor](https://github.com/Managor))**:
+  [3 October 2024](https://github.com/tldr-pages/tldr/issues/13956) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
