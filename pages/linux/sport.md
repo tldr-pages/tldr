@@ -1,7 +1,7 @@
 # sport
 
 > Search and install SlackBuilds.
-> More information: <https://slackermedia.info/handbook/doku.php?id=slackbuilds>.
+> More information: <http://slackermedia.info/handbook/doku.php?id=slackbuilds>.
 
 - Pull the list of SlackBuilds to run `sport` for the first time:
 

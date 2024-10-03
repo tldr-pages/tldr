@@ -1,7 +1,7 @@
 # shnsplit
 
 > Splits audio files according to a `.cue` file.
-> More information: <https://shnutils.freeshell.org/shntool/>.
+> More information: <http://shnutils.freeshell.org/shntool/>.
 
 - Split a `.wav` + `.cue` file into multiple files:
 

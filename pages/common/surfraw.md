@@ -2,7 +2,7 @@
 
 > Query a variety of web search engines.
 > Consists of a collection of elvi, each of which knows how to search a website.
-> More information: <https://surfraw.org>.
+> More information: <http://surfraw.org>.
 
 - Display the list of supported website search scripts (elvi):
 

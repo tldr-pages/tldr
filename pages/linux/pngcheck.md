@@ -2,7 +2,7 @@
 
 > Forensics tool for validating the integrity of PNG based (PNG, JNG, MNG) image files.
 > Can also extract embedded images and text from a file.
-> More information: <https://www.libpng.org/pub/png/apps/pngcheck.html>.
+> More information: <http://www.libpng.org/pub/png/apps/pngcheck.html>.
 
 - Verify the integrity of an image file:
 
