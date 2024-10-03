@@ -21,11 +21,11 @@
 
 - Obtiene previsión de costes:
 
-`aws ce get-cost-forecast --time-period {{fecha_inicio}}/{fecha_final}} --granularity {{granularidad}} --metric {{métrica}}`
+`aws ce get-cost-forecast --time-period {{fecha_inicio}}/{{fecha_final}} --granularity {{granularidad}} --metric {{métrica}}`
 
 - Obtiene la utilización de la reserva:
 
-`aws ce get-reservation-utilization --time-period {{fecha_inicio}}/{fecha_final}} --granularity {{granularidad}}`
+`aws ce get-reservation-utilization --time-period {{fecha_inicio}}/{{fecha_final}} --granularity {{granularidad}}`
 
 - Lista de definiciones de categorías de costes:
 
