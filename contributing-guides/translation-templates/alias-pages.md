@@ -375,7 +375,7 @@ The templates can be changed when necessary.
 
 > Este comando é um apelido de `example`.
 
-- Ver documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
 `tldr example`
 ```
