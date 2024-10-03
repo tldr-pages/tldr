@@ -23,9 +23,9 @@
 
 `ollama pull {{model}}`
 
-- Upgrade Ollama on Linux:
+- List running models:
 
-`curl -fsSL https://ollama.com/install.sh | sh`
+`ollama ps`
 
 - Delete a model:
 
