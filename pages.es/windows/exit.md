@@ -7,7 +7,7 @@
 
 `exit`
 
-- Salir del [b]atch script actual:
+- Sale del conjunto de instrucciones del archivo por lotes actual:
 
 `exit /b`
 
