@@ -1,7 +1,7 @@
 # man
 
 > Kılavuz sayfalarını biçimlendir ve göster.
-> Daha fazla bilgi için: <https://www.manned.org/man>.
+> Daha fazla bilgi için: <https://manned.org/man>.
 
 - Bir komut için man sayfasını görüntüle:
 
