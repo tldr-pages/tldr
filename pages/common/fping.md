@@ -11,7 +11,7 @@
 
 `fping {{-a|--alive}} {{-g|--generate}} {{192.168.1.0/24}}`
 
-- List alive hosts within a subnet generated from an IP range and prune the "Host Unreachable" messages:
+- List alive hosts within a subnet generated from an IP range and prune per-probe results:
 
 `fping {{-q|--quiet}} {{-a|--alive}} {{-g|--generate}} {{192.168.1.1}} {{192.168.1.254}}`
 
