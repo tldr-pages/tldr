@@ -78,6 +78,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [24 December 2019](https://github.com/tldr-pages/tldr/issues/3690) — [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736), [22 September 2024](https://github.com/tldr-pages/tldr/issues/5932) — present
 - **Yi Liu ([@LiLittleCat](https://github.com/LiLittleCat))**:
   [23 September 2024](https://github.com/tldr-pages/tldr/issues/13780) — present
+- **Renie ([@renie](https://github.com/renie))**:
+  [03 October 2024](https://github.com/tldr-pages/tldr/issues/13946) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -134,8 +136,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [11 May 2024](https://github.com/tldr-pages/tldr/issues/12776) — [1 June 2024](https://github.com/tldr-pages/tldr/issues/12869)
 - Managor ([@Managor](https://github.com/Managor)):
   [4 September 2023](https://github.com/tldr-pages/tldr/issues/10611) — [3 October 2024](https://github.com/tldr-pages/tldr/issues/13956)
-- **Renie ([@renie](https://github.com/renie))**:
-  [03 October 2024](https://github.com/tldr-pages/tldr/issues/13946) — present
 
 ## Organization members
 
