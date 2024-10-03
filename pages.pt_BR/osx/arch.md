@@ -11,3 +11,7 @@
 - Executa um comando usando a arquitetura x86_64:
 
 `arch -x86_64 "{{comando}}"`
+
+- Executa um comando usando arm:
+
+`arch -arm64 "{{comando}}"`
