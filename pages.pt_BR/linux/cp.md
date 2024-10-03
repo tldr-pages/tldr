@@ -11,13 +11,17 @@
 
 `cp {{caminho/para/arquivo.ext}} {{caminho/para/diretório}}`
 
-- Recursivamente copiar os conteúdos de um diretório para outra localização (se a destinação existe, o diretório é copiado para dentro dela):
+- Copia recursivamente o conteúdo de um diretório para outra localização (se o destino existe, o diretório é copiado para dentro dele):
 
 `cp -r {{caminho/para/diretório_fonte}} {{caminho/para/diretório_alvo}}`
 
 - Copia um diretório recursivamente, em modo verboso (mostra os arquivos conforme eles são copiados):
 
 `cp -vr {{caminho/para/diretório_fonte}} {{caminho/para/diretório_alvo}}`
+
+- Copia múltiplos arquivos de uma só vez para um diretório:
+
+`cp -t {{caminho/para/diretorio_fonte}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
 - Copia arquivos de texto para outra localização, em modo interativo (exige confirmação do usuário antes de sobrescrever):
 

@@ -17,7 +17,7 @@
 
 - Desliga imediatamente sem contato com o gerenciador do sistema:
 
-`poweroff --force --force`
+`poweroff --force`
 
 - Grava a entrada de desligamento wtmp sem desligar o sistema:
 

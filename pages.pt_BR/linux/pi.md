@@ -11,6 +11,10 @@
 
 `pi {{number}}`
 
+- Exibe leituras recomendadas:
+
+`pi --bibliography`
+
 - Exibe ajuda:
 
 `pi --help`
@@ -18,7 +22,3 @@
 - Exibe a versão:
 
 `pi --version`
-
-- Exibe leituras recomendadas:
-
-`pi --bibliography`

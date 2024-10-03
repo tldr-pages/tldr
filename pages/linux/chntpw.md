@@ -8,10 +8,10 @@
 
 `chntpw -l {{path/to/sam_file}}`
 
-- Edit [u]ser interactively:
+- Edit user interactively:
 
 `chntpw -u {{username}} {{path/to/sam_file}}`
 
-- Use chntpw [i]nteractively:
+- Use chntpw interactively:
 
 `chntpw -i {{path/to/sam_file}}`
