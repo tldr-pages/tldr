@@ -1,24 +1,24 @@
 # rails destroy
 
-> Menghapus Rails _resources_.
+> Menghapus sumber daya (resources) yang dikelola dalam suatu proyek Rails.
 > Informasi lebih lanjut: <https://guides.rubyonrails.org/command_line.html#bin-rails-destroy>.
 
-- Menampilkan daftar semua generator yang tersedia untuk menghapus:
+- Tampilkan daftar semua generator yang tersedia untuk membantu proses penghapusan:
 
 `rails destroy`
 
-- Menghapus model yang bernama Post:
+- Hapus suatu model yang bernama Post:
 
 `rails destroy model {{Post}}`
 
-- Menghapus _controller_ yang bernama Post:
+- Hapus suatu controller yang bernama Posts:
 
 `rails destroy controller {{Posts}}`
 
-- Menghapus migrasi yang membuat Posts:
+- Hapus suatu migrasi yang membuat Posts:
 
 `rails destroy migration {{CreatePosts}}`
 
-- Menghapus _scaffold_ model yang bernama Post:
+- Hapus suatu scaffold bagi model Post:
 
 `rails destroy scaffold {{Post}}`
