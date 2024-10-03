@@ -1,36 +1,36 @@
 # xcopy
 
-> Membuat salinan file dan direktori.
+> Salin berkas dan direktori.
 > Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>.
 
-- Membuat salinan file atau direktori ke lokasi lain:
+- Salin berkas atau direktori ke lokasi lain:
 
-`xcopy {{jalan/menuju/file_atau_direktori_sumber}} {{jalan/menuju/file_atau_direktori_tujuan}}`
+`xcopy {{jalan/menuju/berkas_atau_direktori_sumber}} {{jalan/menuju/berkas_atau_direktori_tujuan}}`
 
-- Melihat daftar file yang akan disalin sebelum proses salinan dimulai:
+- Lihat daftar berkas yang akan disalin sebelum proses salinan dimulai:
 
-`xcopy {{jalan/menuju/file_atau_direktori_sumber}} {{jalan/menuju/file_atau_direktori_tujuan}} /p`
+`xcopy {{jalan/menuju/berkas_atau_direktori_sumber}} {{jalan/menuju/berkas_atau_direktori_tujuan}} /p`
 
-- Membuat salinan struktur direktori saja (tanpa file di dalamnya):
+- Hanya buat salinan struktur direktori saja (tanpa memasukkan berkas apapun ke dalamnya):
 
-`xcopy {{jalan/menuju/file_atau_direktori_sumber}} {{jalan/menuju/file_atau_direktori_tujuan}} /t`
+`xcopy {{jalan/menuju/berkas_atau_direktori_sumber}} {{jalan/menuju/berkas_atau_direktori_tujuan}} /t`
 
-- Membuat salinan direktori termasuk direktori-direktori kosong (tanpa file):
+- Salin termasuk direktori-direktori tanpa isi berkas:
 
-`xcopy {{jalan/menuju/file_atau_direktori_sumber}} {{jalan/menuju/file_atau_direktori_tujuan}} /e`
+`xcopy {{jalan/menuju/berkas_atau_direktori_sumber}} {{jalan/menuju/berkas_atau_direktori_tujuan}} /e`
 
-- Membuat salinan file atau direktori dengan daftar hak akses pengguna (ACL) yang sama:
+- Salin berkas dan direktori termasuk informasi hak akses pengguna (ACL) masing-masing:
 
-`xcopy {{jalan/menuju/file_atau_direktori_sumber}} {{jalan/menuju/file_atau_direktori_tujuan}} /o`
+`xcopy {{jalan/menuju/berkas_atau_direktori_sumber}} {{jalan/menuju/berkas_atau_direktori_tujuan}} /o`
 
-- Mempersilakan proses penyalinan file atau direktori saat koneksi jaringan komputer terputus:
+- Izinkan proses penyalinan berkas atau direktori untuk berlangsung saat koneksi jaringan komputer terputus:
 
-`xcopy {{jalan/menuju/file_atau_direktori_sumber}} {{jalan/menuju/file_atau_direktori_tujuan}} /z`
+`xcopy {{jalan/menuju/berkas_atau_direktori_sumber}} {{jalan/menuju/berkas_atau_direktori_tujuan}} /z`
 
-- Mempersilakan `xcopy` untuk tetap mengganti file yang sudah ada di lokasi tujuan dengan file yang berada di lokasi sumber:
+- Izinkan `xcopy` untuk tetap mengganti berkas yang sudah ada di lokasi tujuan dengan berkas yang berada di lokasi sumber (override):
 
-`xcopy {{jalan/menuju/file_atau_direktori_sumber}} {{jalan/menuju/file_atau_direktori_tujuan}} /y`
+`xcopy {{jalan/menuju/berkas_atau_direktori_sumber}} {{jalan/menuju/berkas_atau_direktori_tujuan}} /y`
 
-- Menampilkan cara penggunaan secara lengkap:
+- Tampilkan informasi bantuan:
 
 `xcopy /?`
