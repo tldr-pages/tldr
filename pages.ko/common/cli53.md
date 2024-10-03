@@ -19,7 +19,7 @@
 
 `cli53 {{rc|rrcreate}} {{도메인주소.com}} {{'www 300 CNAME lb'}}`
 
-- 외부 주소를 가리키는 `www` 하위 도메인을 생성(점으로 끝나야 함):
+- 외부 주소를 가리키는 `www` 하위 도메인을 생성 (점으로 끝나야 함):
 
 `cli53 {{rc|rrcreate}} {{도메인주소.com}} {{'www 300 CNAME lb.externalhost.com.'}}`
 
