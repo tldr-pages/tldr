@@ -34,4 +34,4 @@
 
 - Compare only the first 5 lines of each file:
 
-`comp /n={{5}} {{path\to\file1}} {{path\to\file2}}`
+`comp /n=5 {{path\to\file1}} {{path\to\file2}}`
