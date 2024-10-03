@@ -11,6 +11,6 @@
 
 `exit /b`
 
-- Salir usando un código de salida específico:
+- Sale usando un código de salida específico:
 
 `exit {{2}}`
