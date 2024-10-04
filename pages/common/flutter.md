@@ -1,7 +1,7 @@
 # flutter
 
 > Google's free, open source, and cross-platform mobile app SDK.
-> Some subcommands such as `flutter pub` have their own usage documentation.
+> Some subcommands such as `pub` have their own usage documentation.
 > More information: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
 
 - Initialize a new Flutter project in a directory of the same name:
