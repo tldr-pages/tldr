@@ -71,10 +71,19 @@ function run_pytest {
   fi
 }
 
+function run_shellcheck {
+  # skip shellcheck check if the command is not available in the system.
+  if [[ $CI != true ]] && ! exists shellcheck; then
+    echo "Skipping shellcheck check, command not available."
+    return 0
+  fi
+
+  shellcheck scripts/*.sh
+}
+
 # Default test function, run by `npm test`.
 function run_tests {
   find pages* -name '*.md' -exec markdownlint {} +
-  find scripts/* -name '*.sh' -exec shellcheck {} +
   tldr-lint ./pages
   for f in ./pages.*; do
     checks="TLDR104"
@@ -90,6 +99,7 @@ function run_tests {
   run_black
   run_flake8
   run_pytest
+  run_shellcheck
 }
 
 # Special test function for GitHub Actions pull request builds.
