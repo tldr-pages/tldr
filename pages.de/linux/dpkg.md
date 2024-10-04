@@ -1,7 +1,7 @@
 # dpkg
 
 > Debian Paketmanager.
-> Manche Unterbefehle wie `dpkg deb` sind separat dokumentiert.
+> Manche Unterbefehle wie `deb` sind separat dokumentiert.
 > Weitere Informationen: <https://manned.org/dpkg>.
 
 - Installiere ein Paket:
