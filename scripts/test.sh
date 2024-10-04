@@ -74,6 +74,7 @@ function run_pytest {
 # Default test function, run by `npm test`.
 function run_tests {
   find pages* -name '*.md' -exec markdownlint {} +
+  find scripts/* -name '*.sh' -exec shellcheck {} +
   tldr-lint ./pages
   for f in ./pages.*; do
     checks="TLDR104"
