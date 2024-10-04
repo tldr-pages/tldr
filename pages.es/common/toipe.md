@@ -16,10 +16,10 @@
 
 `toipe {{-f|--file}} {{ruta/al/archivo}}`
 
-- Especifique el número de palabras de cada prueba:
+- Especifica el número de palabras de cada prueba:
 
 `toipe {{-n|--num}} {{número_de_palabras}}`
 
-- Incluya signos de puntuación:
+- Incluye signos de puntuación:
 
 `toipe {{-p|--punctuation}}`

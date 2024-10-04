@@ -1,7 +1,7 @@
 # docker service
 
 > Gérer les services sur un démon Docker.
-> Plus d'informations : <https://docs.docker.com/engine/reference/commandline/service/>.
+> Plus d'informations : <https://docs.docker.com/reference/cli/docker/service/>.
 
 - Lister les services sur un démon Docker :
 

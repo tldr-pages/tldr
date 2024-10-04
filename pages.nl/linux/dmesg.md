@@ -5,32 +5,32 @@
 
 - Toon kernelberichten:
 
-`dmesg`
+`sudo dmesg`
 
 - Toon kernel foutmeldingen:
 
-`dmesg --level err`
+`sudo dmesg --level err`
 
 - Toon kernelberichten en blijf nieuwe lezen, vergelijkbaar met `tail -f` (beschikbaar in kernels 3.5.0 en nieuwer):
 
-`dmesg -w`
+`sudo dmesg -w`
 
 - Toon hoeveel fysiek geheugen beschikbaar is op dit systeem:
 
-`dmesg | grep -i memory`
+`sudo dmesg | grep -i memory`
 
 - Toon kernelberichten 1 pagina per keer:
 
-`dmesg | less`
+`sudo dmesg | less`
 
 - Toon kernelberichten met een tijdstempel (beschikbaar in kernels 3.5.0 en nieuwer):
 
-`dmesg -T`
+`sudo dmesg -T`
 
 - Toon kernelberichten in een leesbare vorm (beschikbaar in kernels 3.5.0 en nieuwer):
 
-`dmesg -H`
+`sudo dmesg -H`
 
 - Kleur output (beschikbaar in kernels 3.5.0 en nieuwer):
 
-`dmesg -L`
+`sudo dmesg -L`

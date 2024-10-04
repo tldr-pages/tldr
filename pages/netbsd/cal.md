@@ -1,7 +1,7 @@
 # cal
 
 > Display a calendar.
-> More information: <https://man.freebsd.org/cgi/man.cgi?cal>.
+> More information: <https://man.netbsd.org/cal.1>.
 
 - Display a calendar for the current month:
 

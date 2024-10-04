@@ -26,4 +26,4 @@
 
 - Extract a specific file from an archive:
 
-`unzip -j {{path/to/archive.zip}} {{path/to/file_in_archive1 path/to/file_in_archive2 ...}}`
+`unzip -j {{path/to/archive.zip}} {{path/to/file1_in_archive path/to/file2_in_archive ...}}`

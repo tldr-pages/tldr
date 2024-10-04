@@ -1,7 +1,7 @@
 # man
 
 > Formatta e mostra pagine manuale.
-> Maggiori informazioni: <https://www.manned.org/man>.
+> Maggiori informazioni: <https://manned.org/man>.
 
 - Mostra la pagina di manuale di un comando:
 

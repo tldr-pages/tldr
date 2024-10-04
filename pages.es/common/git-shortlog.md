@@ -9,11 +9,11 @@
 
 - Muestra un resumen de todas las confirmaciones realizadas, agrupadas por el número de confirmaciones realizadas:
 
-`git shortlog -n`
+`git shortlog {{-n|--numbered}}`
 
 - Muestra un resumen de todas las confirmaciones realizadas, agrupadas por la identidad de quien realiza la confirmación (usuario y correo electrónico):
 
-`git shortlog -c`
+`git shortlog {{-c|--committer}}`
 
 - Muestra un resumen de las últimas cinco confirmaciones (i. e., un rango de revisiones específico):
 
@@ -21,8 +21,8 @@
 
 - Muestra todos los usuarios, correos electrónicos y número de confirmaciones en la rama actual:
 
-`git shortlog -sne`
+`git shortlog {{-s|--summary}} {{-n|--numbered}} {{-e|--email}}`
 
 - Muestra todos los usuarios, correos electrónicos y número de confirmaciones en todas las ramas:
 
-`git shortlog -sne --all`
+`git shortlog {{-s|--summary}} {{-n|--numbered}} {{-e|--email}} --all`

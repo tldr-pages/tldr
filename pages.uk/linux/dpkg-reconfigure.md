@@ -1,7 +1,7 @@
 # dpkg-reconfigure
 
 > Змінює конфігурацію вже встановленого пакету.
-> Більше інформації: <https://manpages.debian.org/latest/debconf/dpkg-reconfigure.8.html>.
+> Більше інформації: <https://manned.org/dpkg-reconfigure.8>.
 
 - Змінити конфігурацію одного або декількох пакетів:
 

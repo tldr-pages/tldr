@@ -13,7 +13,7 @@
 
 - Cambia la URL a la que apunta Git LFS (útil si el servidor LFS está separado del servidor Git):
 
-`git config -f .lfsconfig lfs.url {{url_del_punto_de_acceso_LFS}}`
+`git config {{-f|--file}} .lfsconfig lfs.url {{url_del_punto_de_acceso_LFS}}`
 
 - Muestra los patrones rastreados:
 

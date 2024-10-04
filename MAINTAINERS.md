@@ -48,8 +48,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [17 August 2022](https://github.com/tldr-pages/tldr/issues/8321) — present
 - **Cairn ([@CairnThePerson](https://github.com/CairnThePerson))**:
   [1 September 2022](https://github.com/tldr-pages/tldr/issues/8438) — present
-- **Managor ([@Managor](https://github.com/Managor))**:
-  [4 September 2023](https://github.com/tldr-pages/tldr/issues/10611) — present
 - **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
   [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764), [7 February 2023](https://github.com/tldr-pages/tldr/issues/10674) — present
 - **HoJeong Im ([@IMHOJEONG](https://github.com/IMHOJEONG))**:
@@ -74,6 +72,14 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [16 August 2024](https://github.com/tldr-pages/tldr/issues/13450) — present
 - **jxu ([@jxu](https://github.com/jxu))**:
   [18 August 2024](https://github.com/tldr-pages/tldr/issues/13451) — present
+- **Nelson Figueroa ([@nelsonfigueroa](https://github.com/nelsonfigueroa)):**
+  [21 September 2024](https://github.com/tldr-pages/tldr/issues/13781) — present
+- **Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz))**:
+  [24 December 2019](https://github.com/tldr-pages/tldr/issues/3690) — [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736), [22 September 2024](https://github.com/tldr-pages/tldr/issues/5932) — present
+- **Yi Liu ([@LiLittleCat](https://github.com/LiLittleCat))**:
+  [23 September 2024](https://github.com/tldr-pages/tldr/issues/13780) — present
+- **Renie ([@renie](https://github.com/renie))**:
+  [03 October 2024](https://github.com/tldr-pages/tldr/issues/13946) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -82,8 +88,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [27 October 2019](https://github.com/tldr-pages/tldr/issues/3488) — [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738)
 - Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic)):
   [28 November 2019](https://github.com/tldr-pages/tldr/issues/3636) — [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663)
-- Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz)):
-  [24 December 2019](https://github.com/tldr-pages/tldr/issues/3690) — [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736)
 - Axel Navarro ([@navarroaxel](https://github.com/navarroaxel)):
   [24 August 2020](https://github.com/tldr-pages/tldr/issues/4291) — [5 October 2020](https://github.com/tldr-pages/tldr/issues/4504)
 - bl-ue ([@bl-ue](https://github.com/bl-ue)):
@@ -130,14 +134,14 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [20 September 2023](https://github.com/tldr-pages/tldr/issues/10738) — [3 May 2024](https://github.com/tldr-pages/tldr/issues/12718)
 - Wiktor Perskawiec ([@spageektti](https://github.com/spageektti)):
   [11 May 2024](https://github.com/tldr-pages/tldr/issues/12776) — [1 June 2024](https://github.com/tldr-pages/tldr/issues/12869)
+- Managor ([@Managor](https://github.com/Managor)):
+  [4 September 2023](https://github.com/tldr-pages/tldr/issues/10611) — [3 October 2024](https://github.com/tldr-pages/tldr/issues/13956)
 
 ## Organization members
 
 In addition to everything that repository collaborators can do, organization members have write access to all the repositories in the tldr-pages organization, and [a few extra maintenance capabilities](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization).
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
-- **Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz))**:
-  [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — present
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
   [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
 - **Tan Siret Akıncı ([@tansiret](https://github.com/tansiret))**:
@@ -160,6 +164,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [3 May 2024](https://github.com/tldr-pages/tldr/issues/12718) — present
 - **Wiktor Perskawiec ([@spageektti](https://github.com/spageektti))**:
   [1 June 2024](https://github.com/tldr-pages/tldr/issues/12869) — present
+- **Managor ([@Managor](https://github.com/Managor))**:
+  [3 October 2024](https://github.com/tldr-pages/tldr/issues/13956) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -194,6 +200,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11202) — [28 April 2024](https://github.com/tldr-pages/tldr/issues/12687)
 - Juri ([@gutjuri](https://github.com/gutjuri)):
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11201) — [29 April 2024](https://github.com/tldr-pages/tldr/issues/12686)
+- Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz)):
+  [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — [22 September 2024](https://github.com/tldr-pages/tldr/issues/5932)
 
 ## Organization owners
 

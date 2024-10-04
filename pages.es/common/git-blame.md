@@ -9,7 +9,7 @@
 
 - Muestra el archivo con correo electrónico del autor y hash de la confirmación en cada línea:
 
-`git blame -e {{archivo}}`
+`git blame {{-e|--show-email}} {{archivo}}`
 
 - Muestra quien y que modificó de un archivo, a partir de una confirmación específica:
 

@@ -2,7 +2,7 @@
 
 > XBPS utility to remove packages.
 > See also: `xbps`.
-> More information: <https://man.voidlinux.org/xbps-remove.1>.
+> More information: <https://manned.org/xbps-remove.1>.
 
 - Remove a package:
 

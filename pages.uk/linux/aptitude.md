@@ -1,7 +1,7 @@
 # aptitude
 
 > Утиліта керування пакетами Debian і Ubuntu.
-> Більше інформації: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
+> Більше інформації: <https://manned.org/aptitude.8>.
 
 - Синхронізувати список доступних пакетів і версій. Це слід запустити спочатку, перш ніж запускати наступні команди aptitude:
 

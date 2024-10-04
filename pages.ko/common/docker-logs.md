@@ -1,7 +1,7 @@
 # docker logs
 
 > 컨테이너 로그들을 출력한다.
-> 더 많은 정보: <https://docs.docker.com/engine/reference/commandline/logs>.
+> 더 많은 정보: <https://docs.docker.com/reference/cli/docker/container/logs/>.
 
 - 컨테이너로부터 로그들을 출력하기:
 

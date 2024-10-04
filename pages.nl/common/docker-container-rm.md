@@ -1,7 +1,7 @@
 # docker container rm
 
 > Dit commando is een alias van `docker rm`.
-> Meer informatie: <https://docs.docker.com/engine/reference/commandline/rm>.
+> Meer informatie: <https://docs.docker.com/reference/cli/docker/container/rm/>.
 
 - Bekijk de documentatie van het originele commando:
 

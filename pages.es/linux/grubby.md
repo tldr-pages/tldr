@@ -1,7 +1,7 @@
 # grubby
 
 > Herramienta para configurar los gestores de arranque `grub` y `zipl`.
-> Más información: <https://manned.org/man/grubby.8>.
+> Más información: <https://manned.org/grubby.8>.
 
 - Añade argumentos de arranque del núcleo a todas las entradas del menú del núcleo:
 

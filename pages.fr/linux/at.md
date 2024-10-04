@@ -1,7 +1,7 @@
 # at
 
 > Exécute des commandes à des temps détermintés.
-> Plus d'informations : <https://man.archlinux.org/man/at.1>.
+> Plus d'informations : <https://manned.org/at.1>.
 
 - Ouvre une invite `at` afin de créer un nouvel ensemble de commandes programmées, presser `Ctrl + D` pour sauvegarder et quitter :
 

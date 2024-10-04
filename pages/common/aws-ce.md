@@ -1,36 +1,36 @@
-# aws-ce
+# aws ce
 
-> Analyze and manage access controls and security settings within your Cloud Environment.
-> More information: <https://awe-ce-cli.documentation.com/latest/reference/awe-ce/index.html>.
+> Run cost management operations through the AWS Cost Explorer service.
+> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ce/index.html>.
 
-- Create a new Access Control Analyzer:
+- Create anomaly monitor:
 
-`awe-ce create-analyzer --analyzer-name {{analyzer_name}} --type {{type}} --tags {{tags}}`
+`aws ce create-anomaly-monitor --monitor {{monitor_name}} --monitor-type {{monitor_type}}`
 
-- Delete an existing Access Control Analyzer:
+- Create anomaly subscription:
 
-`awe-ce delete-analyzer --analyzer-arn {{analyzer_arn}}`
+`aws ce create-anomaly-subscription --subscription {{subscription_name}} --monitor-arn {{monitor_arn}} --subscribers {{subscribers}}`
 
-- Get details of a specific Access Control Analyzer:
+- Get anomalies:
 
-`awe-ce get-analyzer --analyzer-arn {{analyzer_arn}}`
+`aws ce get-anomalies --monitor-arn {{monitor_arn}} --start-time {{start_time}} --end-time {{end_time}}`
 
-- List all Access Control Analyzers:
+- Get cost and usage:
 
-`awe-ce list-analyzers`
+`aws ce get-cost-and-usage --time-period {{start_date}}/{{end_date}} --granularity {{granularity}} --metrics {{metrics}}`
 
-- Update settings of an Access Control Analyzer:
+- Get cost forecast:
 
-`awe-ce update-analyzer --analyzer-arn {{analyzer_arn}} --tags {{new_tags}}`
+`aws ce get-cost-forecast --time-period {{start_date}}/{{end_date}} --granularity {{granularity}} --metric {{metric}}`
 
-- Create a new Access Control Analyzer archive rule:
+- Get reservation utilization:
 
-`awe-ce create-archive-rule --analyzer-arn {{analyzer_arn}} --rule-name {{rule_name}} --filter {{filter}}`
+`aws ce get-reservation-utilization --time-period {{start_date}}/{{end_date}} --granularity {{granularity}}`
 
-- Delete an Access Control Analyzer archive rule:
+- List cost category definitions:
 
-`awe-ce delete-archive-rule --analyzer-arn {{analyzer_arn}} --rule-name {{rule_name}}`
+`aws ce list-cost-category-definitions`
 
-- List all Access Control Analyzer archive rules:
+- Tag resource:
 
-`awe-ce list-archive-rules --analyzer-arn {{analyzer_arn}}`
+`aws ce tag-resource --resource-arn {{resource_arn}} --tags {{tags}}`
