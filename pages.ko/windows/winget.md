@@ -29,8 +29,8 @@
 
 - 파일에서 패키지 가져오기 또는 설치된 패키지를 파일로 내보내기:
 
-`winget {{import|export}} {{--import-file|--output}} {{경로/의/파일}}`
+`winget {{import|export}} {{--import-file|--output}} {{경로/대상/파일}}`
 
 - winget 매니페스트 패키지 저장소에 PR을 제출하기 전에 유효성 검사:
 
-`winget validate {{경로/의/매니페스트}}`
+`winget validate {{경로/대상/매니페스트}}`
