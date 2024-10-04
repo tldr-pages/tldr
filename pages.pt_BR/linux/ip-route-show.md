@@ -1,6 +1,6 @@
 # ip route show
 
-> Exibir subcomando para o gerenciamento de tabelas de roteamento de IP.
+> Exibe subcomando para o gerenciamento de tabelas de roteamento de IP.
 > Mais informações: <https://manned.org/ip-route>.
 
 - Exibe a tabela de roteamento:

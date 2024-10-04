@@ -1,6 +1,6 @@
 # cgcreate
 
-> Criar cgroups, usados para limitar, medir e controlar recursos usados pelos processos.
+> Cria cgroups, usados para limitar, medir e controlar recursos usados pelos processos.
 > Tipos de `cgroups` podem ser `memory`, `cpu`, `net_cls`, etc.
 > Mais informações: <https://manned.org/cgcreate>.
 

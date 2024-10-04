@@ -1,6 +1,6 @@
 # apport-bug
 
-> Registrar um relatório de bug no Ubuntu.
+> Registra um relatório de bug no Ubuntu.
 > Mais informações: <https://wiki.ubuntu.com/Apport>.
 
 - Relata um bug sobre todo o sistema:

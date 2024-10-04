@@ -1,6 +1,6 @@
 # cgexec
 
-> Limitar, medir e controlar recursos usados pelos processos.
+> Limita, mede e controla recursos usados pelos processos.
 > Há vários tipos de cgroup (conhecidos como controladores), tal como `cpu`, `memory`, etc.
 > Mais informações: <https://manned.org/cgexec>.
 
