@@ -22,3 +22,11 @@
 - Run tests with coverage and fail if the coverage is less than the minimum percentage:
 
 `pest --coverage --min={{80}}`
+
+- Run tests in parallel:
+
+`pest --parallel`
+
+- Run tests with mutations:
+
+`pest --mutate`
