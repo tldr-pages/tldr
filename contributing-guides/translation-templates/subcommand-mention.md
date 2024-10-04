@@ -232,7 +232,7 @@ Niektóre podkomendy takie jak `example command` mają osobną dokumentację.
 ### pt_BR
 
 ```markdown
-Alguns subcomandos como `example command` tem sua própia documentação de uso.
+Alguns subcomandos como `example command` têm sua própria documentação de uso.
 ```
 
 ---
