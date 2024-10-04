@@ -5,7 +5,7 @@
 
 - 기본 문법:
 
-`wmic {{별칭}} {{where_절}} {{verb_절}}`
+`wmic {{별칭}} {{where_구문}} {{verb_구문}}`
 
 - 현재 실행 중인 프로세스에 대한 간단한 세부 정보 표시:
 
@@ -25,8 +25,8 @@
 
 - 특정 프로세스에 대한 특정 필드 표시:
 
-`wmic process where processid={{pid}} get {{이름,명령어}}`
+`wmic process where processid={{프로세스_id}} get {{이름,명령어}}`
 
 - 프로세스 종료:
 
-`wmic process {{pid}} delete`
+`wmic process {{프로세스_id}} delete`
