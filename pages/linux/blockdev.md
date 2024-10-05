@@ -1,7 +1,7 @@
 # blockdev
 
 > Call block device ioctls from the command line.
-> More information: <https://manned.org/man/blockdev>.
+> More information: <https://manned.org/blockdev>.
 
 - Print a report for all devices:
 
