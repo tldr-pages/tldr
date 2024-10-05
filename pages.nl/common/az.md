@@ -1,7 +1,7 @@
 # az
 
 > De officiële CLI tool voor Microsoft Azure.
-> Sommige subcommando's zoals `az login` hebben hun eigen documentatie.
+> Sommige subcommando's zoals `login` hebben hun eigen documentatie.
 > Meer informatie: <https://learn.microsoft.com/cli/azure>.
 
 - Log in bij Azure:

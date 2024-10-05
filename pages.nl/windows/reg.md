@@ -1,7 +1,7 @@
 # reg
 
 > Beheer sleutels en de waardes in een Windows registry.
-> Sommige subcommando's zoals `reg add` hebben hun eigen documentatie.
+> Sommige subcommando's zoals `add` hebben hun eigen documentatie.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg>.
 
 - Voer een registry commando uit:

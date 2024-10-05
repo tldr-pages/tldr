@@ -1,7 +1,7 @@
 # aws
 
 > Amazon Web Services의 공식 CLI tool입니다.
-> `aws s3`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+> `s3`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
 > 더 많은 정보: <https://aws.amazon.com/cli>.
 
 - AWS Command-line 설정:

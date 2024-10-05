@@ -1,7 +1,7 @@
 # docker
 
 > Administra contenedores e imágenes de Docker.
-> Algunos subcomandos, como `docker run`, tienen su propia documentación de uso.
+> Algunos subcomandos, como `run`, tienen su propia documentación de uso.
 > Más información: <https://docs.docker.com/reference/cli/docker/>.
 
 - Lista todos los contenedores de Docker (en ejecución y detenidos):

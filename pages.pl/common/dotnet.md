@@ -1,7 +1,7 @@
 # dotnet
 
 > Wieloplatformowe narzędzia wiersza polecenia .NET dla platformy .NET Core.
-> Niektóre podkomendy takie jak `dotnet build` mają osobną dokumentację.
+> Niektóre podkomendy takie jak `build` mają osobną dokumentację.
 > Więcej informacji: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Zainicjuj nowy projekt .NET:
