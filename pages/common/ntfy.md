@@ -15,7 +15,7 @@
 
 `ntfy pub --at=8:30am delayed_topic "Time for school, sleepyhead..."`
 
-- Triggering a webhook:
+- Trigger a webhook:
 
 `ntfy trigger mywebhook`
 
