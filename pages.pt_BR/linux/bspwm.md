@@ -1,8 +1,9 @@
 # bspwm
 
-> Este comando é um apelido de `bspc`.
+> Um gerenciador de janelas em mosaico baseado em um particionamento de espaço binário.
+> Veja também: `bspc`, para controlá-lo.
 > Mais informações: <https://github.com/baskerville/bspwm>.
 
-- Exibe documentação sobre o comando original:
+- Inicia `bspwm` (um gerenciador de janelas pré existente não deve estar aberto quando esse comando for executado):
 
-`tldr bspc`
+`bspwm -c {{caminho/para/configuracao}}`
