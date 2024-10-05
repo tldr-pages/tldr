@@ -1,7 +1,7 @@
 # adb
 
 > Android Debug Bridge: comunica con un'instanza di un emulatore Android o con un dispositivo android connesso.
-> Alcuni comandi aggiuntivi, come `adb shell`, hanno la propria documentazione.
+> Alcuni comandi aggiuntivi, come `shell`, hanno la propria documentazione.
 > Maggiori informazioni: <https://developer.android.com/tools/adb>.
 
 - Controlla se il processo server adb è attivo ed avvialo:

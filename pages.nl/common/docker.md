@@ -1,7 +1,7 @@
 # docker
 
 > Beheer Docker containers en images.
-> Sommige subcommando's zoals `docker run` hebben hun eigen documentatie.
+> Sommige subcommando's zoals `run` hebben hun eigen documentatie.
 > Meer informatie: <https://docs.docker.com/reference/cli/docker/>.
 
 - Toon alle Docker containers (actief en gestopte):
