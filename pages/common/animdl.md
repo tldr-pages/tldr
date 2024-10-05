@@ -19,7 +19,7 @@
 
 `animdl grab {{anime_title}}`
 
-- Display the anime schedule:
+- Display upcoming anime schedule for the next week:
 
 `animdl schedule`
 
