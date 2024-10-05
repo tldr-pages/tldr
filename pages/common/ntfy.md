@@ -1,6 +1,6 @@
 # ntfy
 
-> Send and receive POST notifications from the command line.
+> Send and receive POST notifications.
 > More information: <https://github.com/binwiederhier/ntfy>.
 
 - Send a message to the `security` topic:
