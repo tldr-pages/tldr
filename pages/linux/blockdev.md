@@ -1,6 +1,6 @@
 # blockdev
 
-> Call block device ioctls from the command line.
+> Manage, query, and manipulate block devices.
 > More information: <https://manned.org/blockdev>.
 
 - Print a report for all devices:
