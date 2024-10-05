@@ -21,7 +21,7 @@ function run_black {
   target_black_version=$(awk -F '==' '$1 == "black" { print $2 }' < requirements.txt)
 
   if grep -qw black <<< "$(pip3 --disable-pip-version-check list)"; then
-    errs=$(python3 -m black scripts --check --required-version ${target_black_version} 2>&1 || true)
+    errs=$(python3 -m black scripts --check --required-version "${target_black_version}" 2>&1 || true)
   fi
 
   if [[ -z $errs ]]; then
@@ -31,7 +31,7 @@ function run_black {
       return 0
     fi
 
-    errs=$(black scripts --check --required-version ${target_black_version} 2>&1 || true)
+    errs=$(black scripts --check --required-version "${target_black_version}" 2>&1 || true)
   fi
 
   if [[ ${errs} == *"does not match the running version"* ]]; then
