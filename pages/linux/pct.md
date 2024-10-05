@@ -21,7 +21,7 @@
 
 - Send a shutdown request, then wait until the container is stopped:
 
-`pct shutdown {{100}} && qm wait {{100}}`
+`pct shutdown {{100}} && pct wait {{100}}`
 
 - Destroy a container and remove all related resources:
 
