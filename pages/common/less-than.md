@@ -9,7 +9,7 @@
 
 - Create a here document and pass that in a file descriptor to `command` (requires a multiline command):
 
-`{{command}} << {{EOF}} <Enter> {{data}} <Enter> {{EOF}}`
+`{{command}} << {{EOF}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
 
 - Create a here string and pass that in a file descriptor to `command`:
 
