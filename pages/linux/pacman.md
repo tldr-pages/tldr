@@ -1,7 +1,7 @@
 # pacman
 
 > Arch Linux package manager utility.
-> See also: `pacman-database`, `pacman-query`, `pacman-remove`,  `pacman-sync`, `pacman-deptest`, `pacman-upgrade`, `pacman-files`, `pacman-key`, `pacman-mirrors`.
+> See also: `pacman-database`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-deptest`, `pacman-upgrade`, `pacman-files`, `pacman-key`, `pacman-mirrors`.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://manned.org/pacman.8>.
 
