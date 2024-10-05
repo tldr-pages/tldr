@@ -1,7 +1,7 @@
 # onefetch
 
 > Display project information and code statistics for a local Git repository.
-> More information: <https://github.com/o2sh/onefetch/wiki>.
+> More information: <https://github.com/o2sh/onefetch/wiki/command-line-options>.
 
 - Display statistics for the Git repository in the current working directory:
 
