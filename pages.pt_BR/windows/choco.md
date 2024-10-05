@@ -1,7 +1,7 @@
 # choco
 
 > Uma interface de linha de comando para o gerenciador de pacotes Chocolatey.
-> Alguns subcomandos como `choco install` tem sua própia documentação de uso.
+> Alguns subcomandos como `install` tem sua própia documentação de uso.
 > Mais informações: <https://chocolatey.org>.
 
 - Executa o comando Chocolatey:

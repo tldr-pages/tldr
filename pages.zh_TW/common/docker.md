@@ -1,7 +1,7 @@
 # docker
 
 > 管理 Docker 容器和映像檔。
-> 此命令也有關於其子命令的文件，例如：`docker run`.
+> 此命令也有關於其子命令的文件，例如：`run`.
 > 更多資訊：<https://docs.docker.com/reference/cli/docker/>.
 
 - 列出所有 Docker 容器（包括停止的容器）：

@@ -1,7 +1,7 @@
 # docker
 
 > Docker konteyner ve imgelerini yönetir.
-> `docker run` gibi bazı alt komutların kendi dökümantasyonu bulunmaktadır.
+> `run` gibi bazı alt komutların kendi dökümantasyonu bulunmaktadır.
 > Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/>.
 
 - Tüm (çalışan veya duran) Docker konteynerlerini listele:

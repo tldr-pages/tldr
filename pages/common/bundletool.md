@@ -1,7 +1,7 @@
 # bundletool
 
 > Manipulate Android Application Bundles.
-> Some subcommands such as `bundletool validate` have their own usage documentation.
+> Some subcommands such as `validate` have their own usage documentation.
 > More information: <https://developer.android.com/tools/bundletool>.
 
 - Display help for a subcommand:
