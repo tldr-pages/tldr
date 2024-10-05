@@ -8,6 +8,6 @@
 
 `{{command}} < {{path/to/file.txt}}`
 
-- Create a here string and pass that in a file descriptor to `command`
+- Create a here string and pass that in a file descriptor to `command`:
 
-`{{command}} <<< {{string}}
+`{{command}} <<< {{string}}`
