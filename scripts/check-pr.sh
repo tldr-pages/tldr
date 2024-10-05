@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # SPDX-License-Identifier: MIT
+# shellcheck disable=SC2016,SC2059
 
 # This script is executed by GitHub Actions for every pull request opened.
 # It currently accomplishes the following objectives:
@@ -87,7 +88,6 @@ function strip_commands() {
 function check_outdated_page() {
   local page=$1
   local english_page="pages/${page#pages*\/}"
-  # shellcheck disable=SC2016
   local command_regex='^`[^`]\+`$'
 
   if [[ "$page" = "$english_page" ]] || [[ ! -f "$english_page" ]]; then
