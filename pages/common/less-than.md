@@ -1,6 +1,6 @@
 # Less than
 
-> Redirect data to `stdin`.
+> Bash builtin to redirect data to `stdin`.
 > More information: <https://gnu.org/software/bash/manual/bash.html#Redirecting-Input>.
 
 - Redirect a file to `stdin` (achieves the same effect as `cat file.txt |`):
