@@ -1,7 +1,7 @@
 # tlmgr
 
 > Manage packages and configuration options of an existing TeX Live installation.
-> Some subcommands such as `tlmgr paper` have their own usage documentation.
+> Some subcommands such as `paper` have their own usage documentation.
 > More information: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Install a package and its dependencies:

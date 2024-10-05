@@ -1,7 +1,7 @@
 # git
 
 > Sistema de versionamento distribuído.
-> Alguns subcomandos como `git commit` tem sua própia documentação de uso.
+> Alguns subcomandos como `commit` tem sua própia documentação de uso.
 > Mais informações: <https://git-scm.com/>.
 
 - Verifique a versão do Git:

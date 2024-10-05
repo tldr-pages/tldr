@@ -1,7 +1,7 @@
 # nmcli
 
 > NetworkManager'ı denetlemek için bir komut satırı aracı.
-> `nmcli monitor` gibi bazı alt komutların kendi kullanım belgeleri vardır.
+> `monitor` gibi bazı alt komutların kendi kullanım belgeleri vardır.
 > Daha fazla bilgi için: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Bir `nmcli` alt komutunu çalıştır:

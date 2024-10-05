@@ -1,7 +1,7 @@
 # doppler
 
 > Gestiona variables de entorno a través de diferentes entornos usando Doppler.
-> Algunos subcomandos como `doppler run` y `doppler secrets` tienen su propia documentación de uso.
+> Algunos subcomandos como `run` y `secrets` tienen su propia documentación de uso.
 > Más información: <https://docs.doppler.com/docs/cli>.
 
 - Configura Doppler CLI en el directorio actual:

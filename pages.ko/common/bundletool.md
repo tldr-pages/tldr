@@ -1,7 +1,7 @@
 # bundletool
 
 > Android 애플리케이션 번들을 조작.
-> `bundletool validate`와 같은 일부 하위 명0령에는 자체적인 사용법 문서가 존재.
+> `validate`와 같은 일부 하위 명0령에는 자체적인 사용법 문서가 존재.
 > 더 많은 정보: <https://developer.android.com/tools/bundletool>.
 
 - 하위 명령어에 대한 도움말 표시:
