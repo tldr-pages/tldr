@@ -1,9 +1,13 @@
 # Less than
 
-> Redirect a file to `stdin`.
+> Redirect data to `stdin`.
 > Achieves the same effect as `cat file.txt |`.
 > More information: <https://gnu.org/software/bash/manual/bash.html#Redirecting-Input>.
 
 - Redirect a file to `stdin`:
 
 `{{command}} < {{path/to/file.txt}}`
+
+- Create a here string and pass that in a file descriptor to `command`
+
+`{{command}} <<< {{string}}
