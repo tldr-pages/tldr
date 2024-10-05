@@ -1,7 +1,7 @@
 # bat
 
-> Mencetak dan menggabungkan berkas.
-> Klon dari `cat` dengan sintaks berwarna dan integrasi Git.
+> Cetak dan gabungkan berkas.
+> Sebuah klon atas program `cat` dengan sintaks berwarna dan integrasi Git.
 > Informasi lebih lanjut: <https://github.com/sharkdp/bat>.
 
 - Cetak rapi konten berkas ke `stdout`:
@@ -24,14 +24,14 @@
 
 `bat {{-A|--show-all}} {{jalan/menuju/berkas}}`
 
-- Memberi nomor pada setiap baris keluaran:
+- Hapus seluruh informasi dekoratif selain nomor baris pada luaran program:
 
-`bat {{-n|--number}} {{berkas}}`
+`bat {{-n|--number}} {{jalan/menuju/berkas}}`
 
-- Mencetak konten JSON dengan sintaks berwarna:
+- Tampilkan sintaks berwarna terhadap berkas JSON dengan mengatur bahasa sintaks berkas secara eksplisit:
 
 `bat {{-l|--language}} json {{jalan/menuju/berkas.json}}`
 
-- Menampilkan semua bahasa yang didukung:
+- Tampilka semua jenis bahasa sintaks berkas yang didukung:
 
 `bat {{-L|--list-languages}}`

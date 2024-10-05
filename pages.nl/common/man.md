@@ -1,7 +1,7 @@
 # man
 
 > Formatteer en toon handleidingen.
-> Meer informatie: <https://www.manned.org/man>.
+> Meer informatie: <https://manned.org/man>.
 
 - Toon de handleiding voor een commando:
 
