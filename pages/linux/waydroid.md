@@ -25,7 +25,11 @@
 
 - Manage the Waydroid container:
 
-`waydroid container {{start|stop|restart|freeze|unfreeze}}`
+`sudo waydroid container {{start|stop|restart|freeze|unfreeze}}`
+
+- Open Waydroid shell:
+
+`sudo waydroid shell`
 
 - Adjust Waydroid window dimensions:
 
