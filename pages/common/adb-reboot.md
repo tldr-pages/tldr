@@ -1,7 +1,7 @@
 # adb reboot
 
 > Android Debug Bridge Install: reboot an Android emulator instance or connected Android devices.
-> More information: <https://developer.android.com/tools/adb>.
+> More information: <https://manned.org/adb>.
 
 - Reboot the device normally:
 
