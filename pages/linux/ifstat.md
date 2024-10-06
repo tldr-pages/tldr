@@ -1,4 +1,4 @@
-ifstat
+# ifstat
 
 > View network interface statistics.
 > More information: <https://manned.org/ifstat>.
