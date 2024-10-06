@@ -7,7 +7,7 @@
 
 `shotcut`
 
-- Open audio/video files in Shotcut:
+- Open audio/video files:
 
 `shotcut {{path/to/file1 path/to/file2 ...}}`
 
