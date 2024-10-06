@@ -35,4 +35,3 @@
 - Close a hanged session:
 
 `<Enter> ~ .`
-  
