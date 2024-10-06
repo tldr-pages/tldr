@@ -1,9 +1,9 @@
 # fc
 
-> Open the most recent command abd then edit and run it.
+> Open the most recent command for edit and then run it.
 > More information: <https://manned.org/fc>.
 
-- Open in the default system editor:
+- Open the last command in the default system editor and run it after editing:
 
 `fc`
 
@@ -23,6 +23,6 @@
 
 `fc {{number}}`
 
-- List commands in a given interval:
+- Edit commands in a given interval and run them:
 
 `fc '{{416}}' '{{420}}'`
