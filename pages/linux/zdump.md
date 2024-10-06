@@ -6,3 +6,7 @@
 - Print the current time in a timezone:
 
 `zdump {{timezone}}`
+
+- Display help:
+
+`zdump --help`
