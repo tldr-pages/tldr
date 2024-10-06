@@ -1,7 +1,7 @@
 # zdump
 
 > Print timezone information.
-> More information: <https://manned.org/zdump.8>.
+> More information: <https://manned.org/zdump>.
 
 - Print the current time in a timezone:
 
