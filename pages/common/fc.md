@@ -1,6 +1,6 @@
 # fc
 
-> Open the most recent command and edit it.
+> Open the most recent command abd then edit and run it.
 > More information: <https://manned.org/fc>.
 
 - Open in the default system editor:
@@ -18,6 +18,10 @@
 - List recent commands in reverse order:
 
 `fc -l -r`
+
+- Edit and run a command from history:
+
+`fc {{number}}`
 
 - List commands in a given interval:
 
