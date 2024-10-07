@@ -15,4 +15,3 @@
 - Zeige einen Kalender für einen bestimmten Monat und Jahr an:
 
 `cal {{Monat}} {{Jahr}}`
-
