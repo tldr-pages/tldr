@@ -1,16 +1,16 @@
 # brightness
 
-> Menampilkan dan mengubah brightness (tingkat kecerahan) untuk internal dan external displays.
+> Tampilkan dan ubah pengaturan tingkat pencahayaan (brightness) untuk layar monitor internal maupun eksternal.
 > Informasi lebih lanjut: <https://github.com/nriley/brightness>.
 
-- Menampilkan brightness sekarang:
+- Tampilkan tingkat pencahayaan saat ini:
 
 `brightness -l`
 
-- Mengubah brightness menjadi 100%:
+- Ubah tingkat pencahayaan secara spesifik:
 
-`brightness {{1}}`
+`brightness {{0..1}}`
 
-- Mengubah brightness menjadi 50%:
+- Ubah tingkat pencahayaan menjadi 50%:
 
 `brightness {{0.5}}`

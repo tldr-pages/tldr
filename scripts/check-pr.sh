@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # SPDX-License-Identifier: MIT
+# shellcheck disable=SC2016,SC2059
 
 # This script is executed by GitHub Actions for every pull request opened.
 # It currently accomplishes the following objectives:
@@ -22,7 +23,6 @@
 function check_duplicates {
   local page=$1 # page path in the format 'pages<.language_code>/platform/pagename.md'
   local parts
-  local other
 
   readarray -td'/' parts < <(echo -n "$page")
 
@@ -114,9 +114,7 @@ function check_outdated_page() {
 function check_more_info_link() {
   local page=$1
 
-  grep "$page" "more-info-links.txt" > /dev/null
-
-  if [ $? -eq 0 ]; then
+  if grep "$page" "more-info-links.txt" > /dev/null; then
       printf "\x2d $MSG_MORE_INFO" "$page"
   fi
 }
@@ -124,9 +122,7 @@ function check_more_info_link() {
 function check_page_title() {
   local page=$1
 
-  grep "$page" "page-titles.txt" > /dev/null
-
-  if [ $? -eq 0 ]; then
+  if grep "$page" "page-titles.txt" > /dev/null; then
       printf "\x2d $MSG_PAGE_TITLE" "$page"
   fi
 }
@@ -149,7 +145,7 @@ function check_diff {
   python3 scripts/set-more-info-link.py -Sn > more-info-links.txt
   python3 scripts/set-page-title.py -Sn > page-titles.txt
 
-  while read line; do
+  while read -r line; do
     readarray -td$'\t' entry < <(echo -n "$line")
 
     local change="${entry[0]}"
@@ -180,6 +176,8 @@ function check_diff {
         ;;
     esac
   done <<< "$git_diff"
+
+  rm more-info-links.txt page-titles.txt
 }
 
 # Recursively check the pages/ folder for anomalies.

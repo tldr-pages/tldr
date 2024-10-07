@@ -45,7 +45,7 @@ body:
       label: Commands
       description: List out all the pages you want to create.
       placeholder: |
-        - [] command1 → <PR_NUMBER>
-        - [] command2 → <PR_NUMBER>
+        - [ ] command1 → <PR_NUMBER>
+        - [ ] command2 → <PR_NUMBER>
     validations:
       required: true

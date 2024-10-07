@@ -1,9 +1,9 @@
 # top
 
-> Utilitário para exibir informações, em tempo real, sobre os processos em execução.
+> Mostra informações, em tempo real, sobre os processos em execução.
 > Mais informações: <https://manned.org/top>.
 
-- Inicia o top:
+- Inicia o `top`:
 
 `top`
 
@@ -13,12 +13,20 @@
 
 - Exibe os processos de um usuário específico:
 
-`top -u {{username}}`
+`top -u {{usuario}}`
 
-- Exibe o(s) processo(s) de um ou mais PID específico(s), separado(s) por vírgula:
+- Ordena os processos por campo:
 
-`top -p {{PID1,PID2,PID3}}`
+`top -o {{nome_do_campo}}`
 
-- Mostra Ajuda sobre os comandos disponíveis:
+- Mostra todas as threads de um dado processo:
+
+`top -Hp {{id_do_processo}}`
+
+- Mostra apenas processos com determinados PID(s), informados em uma lista separada por vírgulas (Normalmente você não saberá os PIDs de cabeça. Este exemplo pega os PIDs a partir do nome de um processo):
+
+`top -p $(pgrep -d ',' {{nome_do_processo}})`
+
+- Mostra ajuda sobre comandos interativos:
 
 `?`

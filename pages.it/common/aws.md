@@ -1,7 +1,7 @@
 # aws
 
 > Il tool da linea di comando ufficiale per Amazon Web Services.
-> Alcuni comandi aggiuntivi, come `aws s3`, hanno la propria documentazione.
+> Alcuni comandi aggiuntivi, come `s3`, hanno la propria documentazione.
 > Maggiori informazioni: <https://aws.amazon.com/cli>.
 
 - Lista tutti gli utenti IAM (Identity and Access Management):

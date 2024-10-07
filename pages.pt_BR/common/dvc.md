@@ -1,7 +1,7 @@
 # dvc
 
 > Controle de Versão de Dados: como o `git` mas para dados.
-> Alguns subcomandos tal como `dvc commit` tem suas próprias documentações de uso.
+> Alguns subcomandos tal como `commit` tem suas próprias documentações de uso.
 > Mais informações: <https://dvc.org/>.
 
 - Checa a versão do DVC:

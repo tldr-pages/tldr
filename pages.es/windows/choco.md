@@ -1,7 +1,7 @@
 # choco
 
 > El gestor de paquetes Chocolatey.
-> Algunos subcomandos como `choco install` tienen su propia documentación de uso.
+> Algunos subcomandos como `install` tienen su propia documentación de uso.
 > Más información: <https://chocolatey.org>.
 
 - Ejecuta un comando Chocolatey:

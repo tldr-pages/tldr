@@ -21,7 +21,7 @@ function run_black {
   target_black_version=$(awk -F '==' '$1 == "black" { print $2 }' < requirements.txt)
 
   if grep -qw black <<< "$(pip3 --disable-pip-version-check list)"; then
-    errs=$(python3 -m black scripts --check --required-version ${target_black_version} 2>&1 || true)
+    errs=$(python3 -m black scripts --check --required-version "${target_black_version}" 2>&1 || true)
   fi
 
   if [[ -z $errs ]]; then
@@ -31,7 +31,7 @@ function run_black {
       return 0
     fi
 
-    errs=$(black scripts --check --required-version ${target_black_version} 2>&1 || true)
+    errs=$(black scripts --check --required-version "${target_black_version}" 2>&1 || true)
   fi
 
   if [[ ${errs} == *"does not match the running version"* ]]; then
@@ -71,6 +71,16 @@ function run_pytest {
   fi
 }
 
+function run_shellcheck {
+  # skip shellcheck check if the command is not available in the system.
+  if [[ $CI != true ]] && ! exists shellcheck; then
+    echo "Skipping shellcheck check, command not available."
+    return 0
+  fi
+
+  shellcheck scripts/*.sh
+}
+
 # Default test function, run by `npm test`.
 function run_tests {
   find pages* -name '*.md' -exec markdownlint {} +
@@ -89,6 +99,7 @@ function run_tests {
   run_black
   run_flake8
   run_pytest
+  run_shellcheck
 }
 
 # Special test function for GitHub Actions pull request builds.

@@ -31,6 +31,6 @@
 
 `nping --interface {{eth0}} {{example.com}}`
 
-- Set the Reserved/Evil bit in sent packets:
+- Ping an IP range:
 
-`nping --evil {{example.com}}`
+`nping {{10.0.0.1-10}}`
