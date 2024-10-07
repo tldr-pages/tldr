@@ -1,9 +1,7 @@
 # npm stop
 
-> Run a script named `stop`.
-> See also: `npm-run`.
-> More information: <https://www.npmjs.com>.
+> This command is an alias of `npm run stop`.
 
-- Run a script named `stop`:
+- View documentation for the original command:
 
-`npm stop`
+`tldr npm run`

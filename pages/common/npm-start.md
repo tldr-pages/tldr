@@ -1,9 +1,7 @@
 # npm start
 
-> Run a script named `start`.
-> See also: `npm-run`.
-> More information: <https://www.npmjs.com>.
+> This command is an alias of `npm run start`.
 
-- Run a script named `start`:
+- View documentation for the original command:
 
-`npm start`
+`tldr npm run`

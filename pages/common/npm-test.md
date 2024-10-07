@@ -1,9 +1,7 @@
 # npm test
 
-> Run a script named `test`.
-> See also: `npm-run`.
-> More information: <https://www.npmjs.com>.
+> This command is an alias of `npm run test`.
 
-- Run a script named `test`:
+- View documentation for the original command:
 
-`npm run test`
+`tldr npm run`
