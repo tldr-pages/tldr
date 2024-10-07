@@ -3,13 +3,13 @@
 > Run a script.
 > More information: <https://www.npmjs.com>.
 
-- Run a script named `string`:
+- Run a script:
 
-`npm run {{string}}`
+`npm run {{script_name}}`
 
 - Pass arguments to a script:
 
-`npm run {{string}} -- {{argument}} {{--option}}`
+`npm run {{script_name}} -- {{argument}} {{--option}}`
 
 - Run a script named `start`:
 
