@@ -6,7 +6,7 @@
 
 - Öffne eine Datei:
 
-`zathura {{pfad/zur/datei}}`
+`zathura {{pfad/zu/datei}}`
 
 - Navigiere nach links/oben/unten/rechts:
 
