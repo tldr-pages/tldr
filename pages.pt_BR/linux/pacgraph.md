@@ -33,4 +33,4 @@
 
 - Altera a cor dos links entre pacotes:
 
-`pacgraph --link={{color}}`
+`pacgraph --link={{cor}}`
