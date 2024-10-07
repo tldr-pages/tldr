@@ -25,4 +25,4 @@
 
 - Run a script named `test`:
 
-`npm run test`
+`npm test`
