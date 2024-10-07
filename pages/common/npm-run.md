@@ -7,3 +7,7 @@
 - Run a script named `string`:
 
 `npm run {{string}}`
+
+- Pass arguments to a script:
+
+`npm run `string` -- {{argument}} {{--option}}
