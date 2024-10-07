@@ -1,6 +1,6 @@
 # pulumi stack
 
-> Manage stacks and view stack state
+> Manage stacks and view stack state.
 > More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_stack/>.
 
 - Create a new stack:
