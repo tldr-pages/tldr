@@ -1,9 +1,7 @@
 # npm restart
 
-> Run a script named `restart`.
-> See also: `npm-run`.
-> More information: <https://www.npmjs.com>.
+> This command is an alias of `npm run restart`.
 
-- Run a script named `restart`:
+- View documentation for the original command:
 
-`npm run restart`
+`tldr npm run`
