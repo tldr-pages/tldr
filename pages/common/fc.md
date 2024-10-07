@@ -26,3 +26,7 @@
 - Edit commands in a given interval and run them:
 
 `fc '{{416}}' '{{420}}'`
+
+- Display help:
+
+`fc --help`
