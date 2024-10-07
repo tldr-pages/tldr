@@ -7,7 +7,7 @@
 
 `sestatus`
 
-- Print the current boolean state:
+- Print the current states of all policy booleans:
 
 `sestatus -b`
 
