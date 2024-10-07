@@ -9,7 +9,7 @@
 
 - Ausführen einer Dart-Datei:
 
-`dart run {{pfad/zur/datei.dart}}`
+`dart run {{pfad/zu/datei.dart}}`
 
 - Herunterladen der Abhängigkeiten für das aktuelle Projekt:
 
@@ -25,4 +25,4 @@
 
 - Kompilieren einer Dart-Datei in eine native Binärdatei:
 
-`dart compile exe {{pfad/zur/datei.dart}}`
+`dart compile exe {{pfad/zu/datei.dart}}`
