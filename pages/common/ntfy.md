@@ -1,13 +1,13 @@
 # ntfy
 
-> Send and receive POST notifications.
+> Send and receive HTTP POST notifications.
 > More information: <https://github.com/binwiederhier/ntfy>.
 
 - Send a message to the `security` topic:
 
 `ntfy pub security "{{Front door has been opened.}}"`
 
-- Send with title, priority and tags:
+- Send with a title, priority and tags:
 
 `ntfy publish --title="{{Someone bought your item}}" --priority={{high}} --tags={{duck}} {{ebay}} "{{Someone just bought your item: Platypus Sculpture}}"`
 
