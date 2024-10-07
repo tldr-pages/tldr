@@ -10,4 +10,4 @@
 
 - Pass arguments to a script:
 
-`npm run `string` -- {{argument}} {{--option}}`
+`npm run {{string}} -- {{argument}} {{--option}}`
