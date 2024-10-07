@@ -12,10 +12,10 @@
 
 `speaker-test {{-t|--test}} sine {{-f|--frequency}} {{frequency}}`
 
-- Test the default speakers with a predefined `wav` file:
+- Test the default speakers with a predefined WAV file:
 
 `speaker-test {{-t|--test}} wav`
 
-- Test the default speakers with a `wav` file:
+- Test the default speakers with a WAV file:
 
 `speaker-test {{-t|--test}} wav {{-w|--wavfile}} {{path/to/file}}`
