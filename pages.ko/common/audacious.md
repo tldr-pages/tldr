@@ -7,6 +7,10 @@
 
 `audacious`
 
+- 새로운 인스턴스를 시작하고 오디오를 재생:
+
+`audacious --new-instance {{경로/대상/오디오}}`
+
 - 오디오 파일의 특정 디렉터리를 대기열에 삽입:
 
 `audacious --enqueue {{경로/대상/디렉터리}}`
