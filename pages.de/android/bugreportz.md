@@ -12,13 +12,13 @@
 
 `bugreportz -p`
 
-- Zeige die Versionsnummer von `bugreportz` an:
-
-`bugreportz -v`
-
 - Zeige Hilfe an:
 
 `bugreportz -h`
+
+- Zeige die Versionsnummer von `bugreportz` an:
+
+`bugreportz -v`
 
 - Schreibe den Inhalt eines Android-Fehlerberichts nach `stdout`:
 
