@@ -26,7 +26,7 @@
 
 - Überschreibe widersprüchliche Dateien während einer Paketaktualisierung:
 
-`sudo pacman --sync --refresh --sysupgrade --overwrite {{pfad/zur/datei}}`
+`sudo pacman --sync --refresh --sysupgrade --overwrite {{pfad/zu/datei}}`
 
 - Synchronisiere und aktualisiere alle Pakete, ignoriere aber ein bestimmtes Paket (kann mehr als einmal angegeben werden):
 
