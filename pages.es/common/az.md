@@ -1,7 +1,7 @@
 # az
 
 > La herramienta de línea de comandos de Azure.
-> Algunos subcomandos como `az login` tienen su propia documentación de uso.
+> Algunos subcomandos como `login` tienen su propia documentación de uso.
 > Más información: <https://learn.microsoft.com/cli/azure>.
 
 - Inicia sesión en Azure:

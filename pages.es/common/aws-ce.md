@@ -1,36 +1,36 @@
-# aws-ce
+# aws ce
 
-> Analiza y gestiona los controles de acceso y la configuración de seguridad en su entorno de nube.
-> Más información: <https://awe-ce-cli.documentation.com/latest/reference/awe-ce/index.html>.
+> Ejecuta operaciones de gestión de costos a través del servicio AWS Cost Explorer.
+> Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ce/index.html>.
 
-- Crea un nuevo Access Control Analyzer:
+- Crea monitor de anomalías:
 
-`awe-ce create-analyzer --analyzer-name {{nombre_analizador}} --type {{tipo}} --tags {{etiquetas}}`
+`aws ce create-anomaly-monitor --monitor {{nombre_monitor}} --monitor-type {{tipo_monitor}}`
 
-- Elimina un Access Control Analyzer existente:
+- Crea suscripción de anomalías:
 
-`awe-ce delete-analyzer --analyzer-arn {{analizador_arn}}`
+`aws ce create-anomaly-subscription --subscription {{nombre_de_suscripción}} --monitor-arn {{monitor_arn}} --subscribers {{suscriptores}}`
 
-- Obtiene detalles de un analizador de control de acceso específico:
+- Obtiene anomalías:
 
-`awe-ce get-analyzer --analyzer-arn {{analizador_arn}}`
+`aws ce get-anomalies --monitor-arn {{monitor_arn}} --start-time {{hora_de_inicio}} --end-time {{hora_final}}`
 
-- Lista todos los Access Control Analyzer:
+- Obtiene coste y uso:
 
-`awe-ce list-analyzers`
+`aws ce get-cost-and-usage --time-period {{fecha_inicio}}/{{fecha_final}} --granularity {{granularidad}} --metrics {{métricas}}`
 
-- Actualiza la configuración de un Access Control Analyzer:
+- Obtiene previsión de costes:
 
-`awe-ce update-analyzer --analyzer-arn {{analizador_arn}} --tags {{nuevas_etiquetas}}`
+`aws ce get-cost-forecast --time-period {{fecha_inicio}}/{{fecha_final}} --granularity {{granularidad}} --metric {{métrica}}`
 
-- Crea una nueva regla de archivo del Access Control Analyzer:
+- Obtiene la utilización de la reserva:
 
-`awe-ce create-archive-rule --analyzer-arn {{analizador_arn}} --rule-name {{nombre_regla}} --filter {{filtro}}`
+`aws ce get-reservation-utilization --time-period {{fecha_inicio}}/{{fecha_final}} --granularity {{granularidad}}`
 
-- Elimina una regla de archivo de Access Control Analyzer:
+- Lista de definiciones de categorías de costes:
 
-`awe-ce delete-archive-rule --analyzer-arn {{analizador_arn}} --rule-name {{nombre_regla}}`
+`aws ce list-cost-category-definitions`
 
-- Lista todas las reglas de archivo de Access Control Analyzer:
+- Recurso de etiquetas:
 
-`awe-ce list-archive-rules --analyzer-arn {{analizador_arn}}`
+`aws ce tag-resource --resource-arn {{recurso_arn}} --tags {{etiquetas}}`

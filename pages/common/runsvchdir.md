@@ -1,7 +1,7 @@
 # runsvchdir
 
 > Change the directory `runsvdir` uses by default.
-> More information: <https://manpages.ubuntu.com/manpages/latest/man8/runsvchdir.8.html>.
+> More information: <https://manned.org/runsvchdir.8>.
 
 - Switch `runsvdir` directories:
 

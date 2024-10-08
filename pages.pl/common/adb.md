@@ -1,7 +1,7 @@
 # adb
 
 > Android Debug Bridge: komunikuj się z instancją emulatora Androida lub podłączonym urządzeniem z Androidem.
-> Niektóre podkomendy takie jak `adb shell` mają osobną dokumentację.
+> Niektóre podkomendy takie jak `shell` mają osobną dokumentację.
 > Więcej informacji: <https://developer.android.com/tools/adb>.
 
 - Sprawdź czy proces serwera adb działa, jeśli nie, uruchom go:

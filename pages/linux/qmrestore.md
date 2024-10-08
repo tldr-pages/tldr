@@ -1,6 +1,6 @@
 # qmrestore
 
-> Restore QemuServer vzdump backups.
+> Restore QemuServer `vzdump` backups.
 > More information: <https://pve.proxmox.com/pve-docs/qmrestore.1.html>.
 
 - Restore virtual machine from given backup file on the original storage:

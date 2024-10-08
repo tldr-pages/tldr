@@ -5,7 +5,7 @@
 
 - Lese ein Bild aus einer Datei und zeige es als ASCII:
 
-`asciiart {{pfad/zur/datei.jpg}}`
+`asciiart {{pfad/zu/datei.jpg}}`
 
 - Lese ein Bild aus einer URL und zeige es als ASCII:
 
@@ -13,16 +13,16 @@
 
 - Wähle die Breite der Ausgabe (standardmäßig 100):
 
-`asciiart --width {{50}} {{pfad/zum/bild.jpg}}`
+`asciiart --width {{50}} {{pfad/zu/bild.jpg}}`
 
 - Zeige die Ausgabe in Farbe:
 
-`asciiart --color {{pfad/zum/bild.jpg}}`
+`asciiart --color {{pfad/zu/bild.jpg}}`
 
 - Wähle das Ausgabeformat (standardmäßig text):
 
-`asciiart --format {{text|html}} {{pfad/zum/bild.jpg}}`
+`asciiart --format {{text|html}} {{pfad/zu/bild.jpg}}`
 
 - Invertiere die Zeichentabelle:
 
-`asciiart --invert-chars {{pfad/zum/bild.jpg}}`
+`asciiart --invert-chars {{pfad/zu/bild.jpg}}`
