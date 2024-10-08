@@ -12,6 +12,10 @@
 
 `git status --short`
 
+- 스테이징 영역과 작업 디렉토리의 변경 사항에 대한 [v]erbose 정보 표시:
+
+`git status --verbose --verbose`
+
 - [b]ranch 및 추적 정보 표시:
 
 `git status --branch`

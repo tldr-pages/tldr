@@ -1,7 +1,7 @@
 # docker
 
 > Atur kontainer Docker dan image.
-> Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `docker run`.
+> Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `run`.
 > Informasi lebih lanjut: <https://docs.docker.com/reference/cli/docker/>.
 
 - Tampilkan semua daftar kontainer Docker (yang sedang berjalan dan berhenti):
