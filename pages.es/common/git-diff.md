@@ -3,7 +3,7 @@
 > Muestra los cambios en los archivos rastreados.
 > Más información: <https://git-scm.com/docs/git-diff>.
 
-- Muestra cambios no organizados:
+- Muestra cambios no preparados:
 
 `git diff`
 
