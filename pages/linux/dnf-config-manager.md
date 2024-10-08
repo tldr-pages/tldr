@@ -23,6 +23,6 @@
 
 `dnf config-manager --setopt={{option}}={{value}}`
 
-- Show help information:
+- Display help:
 
 `dnf config-manager --help-cmd`
