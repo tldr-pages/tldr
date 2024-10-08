@@ -19,3 +19,7 @@
 - Zeige Hilfe an:
 
 `bugreportz -h`
+
+- Schreibe den Inhalt eines Android-Fehlerberichts nach `stdout`:
+
+`bugreportz -s`
