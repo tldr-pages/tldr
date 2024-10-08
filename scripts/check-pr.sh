@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # SPDX-License-Identifier: MIT
+# shellcheck disable=SC2016,SC2059
 
 # This script is executed by GitHub Actions for every pull request opened.
 # It currently accomplishes the following objectives:
@@ -20,22 +21,21 @@
 
 # Check for duplicated pages.
 function check_duplicates {
-  local page=$1 # page path in the format 'pages<.language_code>/platform/pagename.md'
+  local page="$1" # page path in the format 'pages<.language_code>/platform/pagename.md'
   local parts
-  local other
 
   readarray -td'/' parts < <(echo -n "$page")
 
-  local language_folder=${parts[0]}
-  
-  if [[ "$language_folder" != "pages" ]]; then # only check for duplicates in English
+  local language_folder="${parts[0]}"
+
+  if [[ $language_folder != "pages" ]]; then # only check for duplicates in English
     return 1
   fi
 
-  local platform=${parts[1]}
-  local file=${parts[2]}
+  local platform="${parts[1]}"
+  local file="${parts[2]}"
 
-  case "$platform" in
+  case $platform in
     common) # skip common-platform
       ;;
     *) # check if page already exists under common
@@ -47,14 +47,14 @@ function check_duplicates {
 }
 
 function check_missing_english_page() {
-  local page=$1
+  local page="$1"
   local english_page="pages/${page#pages*\/}"
 
-  if [[ "$page" = "$english_page" ]]; then
+  if [[ $page == "$english_page" ]]; then
     return 1
   fi
-  
-  if [[ ! -f "$english_page" ]]; then
+
+  if [[ ! -f $english_page ]]; then
     printf "\x2d $MSG_NOT_EXISTS" "$page" "$english_page"
   fi
 }
@@ -86,25 +86,21 @@ function strip_commands() {
 }
 
 function check_outdated_page() {
-  local page=$1
+  local page="$1"
   local english_page="pages/${page#pages*\/}"
   local command_regex='^`[^`]\+`$'
 
-  if [[ "$page" = "$english_page" ]] || [[ ! -f "$english_page" ]]; then
+  if [[ $page == "$english_page" || ! -f $english_page ]]; then
     return 1
   fi
 
-  local english_commands
-  english_commands=$(count_commands "$english_page" "$command_regex")
-  local commands
-  commands=$(count_commands "$page" "$command_regex")
+  local english_commands commands english_commands_as_string commands_as_string
+  english_commands="$(count_commands "$english_page" "$command_regex")"
+  commands="$(count_commands "$page" "$command_regex")"
+  english_commands_as_string="$(strip_commands "$english_page" "$command_regex")"
+  commands_as_string="$(strip_commands "$page" "$command_regex")"
 
-  local english_commands_as_string
-  english_commands_as_string=$(strip_commands "$english_page" "$command_regex")
-  local commands_as_string
-  commands_as_string=$(strip_commands "$page" "$command_regex")
-  
-  if [[ "$english_commands" != "$commands" ]]; then
+  if [[ $english_commands != "$commands" ]]; then
     printf "\x2d $MSG_OUTDATED" "$page" "based on number of commands"
   elif [[ "$english_commands_as_string" != "$commands_as_string" ]]; then
     printf "\x2d $MSG_OUTDATED" "$page" "based on the command contents itself"
@@ -114,9 +110,7 @@ function check_outdated_page() {
 function check_more_info_link() {
   local page=$1
 
-  grep "$page" "more-info-links.txt" > /dev/null
-
-  if [ $? -eq 0 ]; then
+  if grep -q "$page" "more-info-links.txt"; then
       printf "\x2d $MSG_MORE_INFO" "$page"
   fi
 }
@@ -124,9 +118,7 @@ function check_more_info_link() {
 function check_page_title() {
   local page=$1
 
-  grep "$page" "page-titles.txt" > /dev/null
-
-  if [ $? -eq 0 ]; then
+  if grep -q "$page" "page-titles.txt"; then
       printf "\x2d $MSG_PAGE_TITLE" "$page"
   fi
 }
@@ -137,7 +129,7 @@ function check_diff {
   local line
   local entry
 
-  git_diff=$(git diff --name-status --find-copies-harder --diff-filter=ACM origin/main -- pages*/)
+  git_diff="$(git diff --name-status --find-copies-harder --diff-filter=ACM origin/main -- pages*/)"
 
   if [[ -n $git_diff ]]; then
     echo -e "Check PR: git diff:\n$git_diff" >&2
@@ -149,7 +141,7 @@ function check_diff {
   python3 scripts/set-more-info-link.py -Sn > more-info-links.txt
   python3 scripts/set-page-title.py -Sn > page-titles.txt
 
-  while read line; do
+  while read -r line; do
     readarray -td$'\t' entry < <(echo -n "$line")
 
     local change="${entry[0]}"
@@ -180,6 +172,8 @@ function check_diff {
         ;;
     esac
   done <<< "$git_diff"
+
+  rm more-info-links.txt page-titles.txt
 }
 
 # Recursively check the pages/ folder for anomalies.
