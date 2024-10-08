@@ -17,7 +17,7 @@
 
 - Print dependencies with a specific name and within a semantic versioning range:
 
-`npm query #{{package}}@{{semantic_version}}`
+`npm query '#{{package}}@{{semantic_version}}'`
 
 - Print dependencies which have no dependencies:
 
