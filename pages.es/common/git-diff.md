@@ -7,7 +7,7 @@
 
 `git diff`
 
-- Muestra todos los cambios no comprometidos (incluyendo los escalonados):
+- Muestra todos los cambios no confirmados (incluyendo los preparados):
 
 `git diff HEAD`
 
