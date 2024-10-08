@@ -1,6 +1,6 @@
 # adb devices
 
-> List connected devices.
+> List connected Android devices.
 > More information: <https://manned.org/adb>.
 
 - List devices:
