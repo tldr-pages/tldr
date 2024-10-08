@@ -1,7 +1,7 @@
 # gpclient
 
-> Client for using GlobalProtect VPN on Linux via OpenConnect.  
-> `gpclient` allows you to connect, disconnect, and manage VPN connections using a command-line interface or a graphical user interface (GUI).  
+> Client for using GlobalProtect VPN on Linux via OpenConnect.
+> `gpclient` allows you to connect, disconnect, and manage VPN connections using a command-line interface or a graphical user interface (GUI).
 > More information: <https://github.com/yuezk/GlobalProtect-openconnect>.
 
 - Connect to a GlobalProtect VPN using a portal server:
