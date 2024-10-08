@@ -27,6 +27,6 @@
 
 `gpclient --version`
 
-- Print help for any command:
+- Display help for any command:
 
 `gpclient help {{command}}`
