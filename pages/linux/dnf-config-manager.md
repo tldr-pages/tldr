@@ -16,6 +16,7 @@
 `dnf config-manager --set-enabled {{repoid}}`
 
 - Disable specified repositories:
+
 `dnf config-manager --set-disabled {{repoid1}} {{repoid2}}`
 
 - Set a configuration option for a repository:
