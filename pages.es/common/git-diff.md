@@ -11,7 +11,7 @@
 
 `git diff HEAD`
 
-- Muestra sólo los cambios staged (añadidos, pero aún no confirmados):
+- Muestra sólo los cambios preparados (añadidos, pero aún no confirmados):
 
 `git diff --staged`
 
