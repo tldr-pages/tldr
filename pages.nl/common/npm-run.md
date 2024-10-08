@@ -1,7 +1,28 @@
 # npm run
 
-> Dit commando is een alias van `npm run-script`.
+> Voer een script uit.
+> Meer informatie: <https://docs.npmjs.com/cli/commands/npm-run-script>.
 
-- Bekijk de documentatie van het originele commando:
+- Voer een script uit:
 
-`tldr npm run-script`
+`npm run {{script_naam}}`
+
+- Geef argumenten door aan een script:
+
+`npm run {{script_naam}} -- {{argument}} {{--optie}}`
+
+- Voer een script uit met de naam `start`:
+
+`npm start`
+
+- Voer een script uit met de naam `stop`:
+
+`npm stop`
+
+- Voer een script uit met de naam `restart`:
+
+`npm restart`
+
+- Voer een script uit met de naam `test`:
+
+`npm test`

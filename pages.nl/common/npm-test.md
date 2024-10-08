@@ -1,7 +1,7 @@
 # npm test
 
-> Dit commando is een alias van `npm run-script test`.
+> Dit commando is een alias van `npm run test`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr npm run-script`
+`tldr npm run`

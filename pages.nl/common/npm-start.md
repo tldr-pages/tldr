@@ -1,7 +1,7 @@
 # npm start
 
-> Dit commando is een alias van `npm run-script start`.
+> Dit commando is een alias van `npm run start`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr npm run-script`
+`tldr npm run`
