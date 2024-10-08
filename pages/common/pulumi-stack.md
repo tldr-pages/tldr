@@ -25,7 +25,7 @@
 
 - Export the stack state to a JSON file:
 
-`pulumi stack export --file state.json`
+`pulumi stack export --file {{path/to/file}}.json`
 
 - Display help:
 
