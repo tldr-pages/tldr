@@ -1,4 +1,4 @@
-# yum-config-manager
+# yum config-manager
 
 > This command is an alias of `dnf config-manager`.
 
