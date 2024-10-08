@@ -6,29 +6,28 @@
 
 - Connect to a GlobalProtect VPN using a portal server:
 
-  `gpclient connect {{vpn_gateway_url}}`
+`gpclient connect {{vpn_gateway_url}}`
 
 - Disconnect from the currently connected VPN server:
 
-  `gpclient disconnect`
+`gpclient disconnect`
 
 - Launch the graphical user interface (GUI) for VPN management:
 
-  `gpclient launch-gui`
+`gpclient launch-gui`
 
 - Use OpenSSL workaround to bypass legacy renegotiation errors:
 
-  `gpclient connect --fix-openssl {{vpn_gateway_url}}`
+`gpclient connect --fix-openssl {{vpn_gateway_url}}`
 
 - Ignore TLS errors during connection:
 
-  `gpclient connect --ignore-tls-errors {{vpn_gateway_url}}`
+`gpclient connect --ignore-tls-errors {{vpn_gateway_url}}`
 
 - Print version information:
 
-  `gpclient --version`
+`gpclient --version`
 
 - Print help for any command:
 
-  `gpclient help {{command}}`
-
+`gpclient help {{command}}`
