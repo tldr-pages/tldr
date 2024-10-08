@@ -12,6 +12,10 @@
 
 `bugreportz -p`
 
+- Write the content of an Android bug report to `stdout`:
+
+`bugreportz -s`
+
 - Display help:
 
 `bugreportz -h`
@@ -19,7 +23,3 @@
 - Display version:
 
 `bugreportz -v`
-
-- Write the content of an Android bug report to `stdout`:
-
-`bugreportz -s`
