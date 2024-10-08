@@ -5,7 +5,7 @@
 
 - Add (and enable) a repository from a URL:
 
-`dnf config-manager --add-repo={{url}}`
+`dnf config-manager --add-repo={{repository_url}}`
 
 - Print current configuration values:
 
@@ -13,11 +13,11 @@
 
 - Enable a specific repository:
 
-`dnf config-manager --set-enabled {{repoid}}`
+`dnf config-manager --set-enabled {{repository_id}}`
 
 - Disable specified repositories:
 
-`dnf config-manager --set-disabled {{repoid1}} {{repoid2}}`
+`dnf config-manager --set-disabled {{repository_id1 repository_id2 ...}}`
 
 - Set a configuration option for a repository:
 
