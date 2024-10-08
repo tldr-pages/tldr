@@ -1,4 +1,4 @@
-# dnf-config-manager
+# dnf config-manager
 
 > Manage DNF configuration options and repositories on Fedora-based systems.
 > More information: <https://manned.org/yum-config-manager>.
