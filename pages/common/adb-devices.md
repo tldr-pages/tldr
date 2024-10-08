@@ -1,4 +1,4 @@
-# adb devices 
+# adb devices
 
 > List connected devices.
 > More information: <https://manned.org/adb>.
