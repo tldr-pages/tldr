@@ -1,7 +1,7 @@
 # npm query
 
 > Print an array of dependency objects using CSS-like selectors.
-> More information: <https://docs.npmjs.com/cli/v8/commands/npm-query>.
+> More information: <https://docs.npmjs.com/cli/commands/npm-query>.
 
 - Print direct dependencies:
 

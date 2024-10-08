@@ -1,7 +1,7 @@
 # npm stop
 
-> This command is an alias of `npm run stop`.
+> This command is an alias of `npm run-script stop`.
 
 - View documentation for the original command:
 
-`tldr npm run`
+`tldr npm run-script`
