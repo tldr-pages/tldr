@@ -1,6 +1,6 @@
 # ip6tables
 
-> To polecenie jest aliasem dla `iptables` dla firewalla IPv6.
+> To polecenie jest aliasem `iptables` dla zapory sieciowej IPv6.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
