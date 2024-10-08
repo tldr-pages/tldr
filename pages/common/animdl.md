@@ -7,11 +7,11 @@
 
 `animdl download {{anime_title}}`
 
-- Download a specific anime by specifying episode range:
+- Download a specific anime by specifying an episode range:
 
 `animdl download {{anime_title}} {{-r|--range}} {{start_episode}}-{{end_episode}}`
 
-- Download a specific anime by specifying download directory:
+- Download a specific anime by specifying a download directory:
 
 `animdl download {{anime_title}} {{-d|--download-dir}} {{path/to/download_directory}}`
 
@@ -19,7 +19,7 @@
 
 `animdl grab {{anime_title}}`
 
-- Display upcoming anime schedule for the next week:
+- Display the upcoming anime schedule for the next week:
 
 `animdl schedule`
 
