@@ -9,11 +9,11 @@
 
 - Show the volume group that uses a specific physical volume:
 
-`pvscan --cache --listvg /dev/sdX`
+`pvscan --cache --listvg {{/dev/sdX}}`
 
 - Show logical volumes that use a specific physical volume:
 
-`pvscan --cache --listlvs /dev/sdX`
+`pvscan --cache --listlvs {{/dev/sdX}}`
 
 - Display detailed information in JSON format:
 
