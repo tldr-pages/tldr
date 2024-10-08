@@ -1,7 +1,6 @@
 # aws cloudformation
 
 > Modela, provisiona e gerencia recursos AWS ao tratar a infraestrutura como código.
-
 > Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudformation/index.html>.
 
 - Cria uma pilha a partir de um arquivo de modelo:
