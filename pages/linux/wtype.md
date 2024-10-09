@@ -11,9 +11,9 @@
 
 `wtype -k {{Left}}`
 
-- Press a modifier (e.g., "shift", "ctrl"):
+- Press a modifier:
 
-`wtype -M {{ctrl}}`
+`wtype -M {{shift|ctrl|...}}`
 
 - Release a modifier:
 
