@@ -19,6 +19,6 @@
 
 `{{command}} &> /dev/null`
 
-- Ensure that a file is empty:
+- Clear the file contents or create a new empty file:
 
 `> {{path/to/file}}`
