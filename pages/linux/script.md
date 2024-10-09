@@ -19,6 +19,6 @@
 
 `script -t 2> {{path/to/timingfile}}`
 
-- Flush data as soon as it happens:
+- Write out data as soon as it happens:
 
 `script -f {{path/to/file}}`
