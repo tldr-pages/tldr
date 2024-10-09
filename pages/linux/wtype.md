@@ -23,6 +23,6 @@
 
 `wtype -d {{500}} -- "{{text}}"`
 
-- Read text from stdin:
+- Read text from `stdin`:
 
 `echo "{{text}}" | wtype -`
