@@ -19,7 +19,7 @@
 
 `wtype -m {{ctrl}}`
 
-- Delay between keystrokes (in milliseconds):
+- Wait between keystrokes (in milliseconds):
 
 `wtype -d {{500}} -- "{{text}}"`
 
