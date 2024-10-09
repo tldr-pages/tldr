@@ -7,7 +7,7 @@
 
 `bind -l`
 
-- Query what hotkey a bound command has:
+- Query a command for its hotkey:
 
 `bind -q {{command}}`
 
