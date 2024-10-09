@@ -3,7 +3,7 @@
 > Simulate keyboard input on Wayland, similar to `xdotool type` for X11.
 > More information: <https://github.com/atx/wtype>.
 
-- Type text:
+- Simulate typing text:
 
 `wtype "{{Hello World}}"`
 
