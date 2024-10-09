@@ -1,7 +1,7 @@
 # wtype
 
 > Simulate keyboard input on Wayland, similar to `xdotool type` for X11.
-See also: `ydotool`.
+> See also: `ydotool`.
 > More information: <https://github.com/atx/wtype>.
 
 - Simulate typing text:
