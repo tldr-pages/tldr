@@ -18,3 +18,7 @@
 - Record timing information (data is outputted to `stderr`):
 
 `script -t 2> {{path/to/timingfile}}`
+
+- Flush data as soon as it happens:
+
+`script -f {{path/to/file}}`
