@@ -6,7 +6,7 @@
 
 - 프로세스 중지 및 기다리기:
 
-`Stop-Process -Id {{프로세스_id}}; Wait-Process -Id {{프로세스_id}}`
+`Stop-Process -Id {{프로세스_아이디}}; Wait-Process -Id {{프로세스_아이디}}`
 
 - 지정된 시간 동안 프로세스 기다리기:
 
