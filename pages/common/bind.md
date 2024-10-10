@@ -3,9 +3,9 @@
 > Bash builtin to manage bash hotkeys and variables.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.
 
-- List all bound commands:
+- List all bound commands and their bindings:
 
-`bind -l`
+`bind -p`
 
 - Query a command for its hotkey:
 
