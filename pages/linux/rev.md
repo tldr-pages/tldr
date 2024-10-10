@@ -1,7 +1,7 @@
 # rev
 
 > Reverses strings of text on provided text or a file.
-> More information: <https://manned.org/man/rev>.
+> More information: <https://manned.org/rev>.
 
 - Reverse text typed into terminal:
 
