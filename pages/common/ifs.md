@@ -14,7 +14,7 @@
 
 - Reset IFS to default:
 
-`IFS=$' \t\n'`
+`IFS='<Space><Tab><Newline>'`
 
 - Temporarily change the IFS value in a subshell:
 

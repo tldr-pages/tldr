@@ -1,6 +1,7 @@
 # sops
 
 > SOPS (Secrets OPerationS): a simple and flexible tool for managing secrets.
+> Note: Process substitution (i.e., `<(...)` and `>(...)`) may not be supported by your shell.
 > More information: <https://github.com/mozilla/sops>.
 
 - Encrypt a file:
