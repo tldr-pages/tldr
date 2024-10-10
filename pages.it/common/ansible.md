@@ -2,7 +2,7 @@
 
 > Gestisce gruppi di computer da remoto via SSH.
 > Usa il file `/etc/ansible/hosts` per aggiungere nuovi gruppi/host.
-> Alcuni comandi aggiuntivi, come `ansible galaxy`, hanno la propria documentazione.
+> Alcuni comandi aggiuntivi, come `galaxy`, hanno la propria documentazione.
 > Maggiori informazioni: <https://www.ansible.com/>.
 
 - Elenca gli host appartenenti ad un gruppo:

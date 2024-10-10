@@ -1,7 +1,7 @@
 # emacsclient
 
 > Apri file in un server emacs esistente.
-> Maggiori informazioni: <https://www.emacswiki.org/emacs/EmacsClient>.
+> Maggiori informazioni: <https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html>.
 
 - Apri un file in un server Emacs esistente (utilizzando la GUI se disponibile):
 

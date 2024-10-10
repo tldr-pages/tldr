@@ -1,8 +1,8 @@
 # docker
 
 > 管理 Docker 容器和镜像。
-> 此命令也有关于其子命令的文件，例如：`docker run`.
-> 更多信息：<https://docs.docker.com/engine/reference/commandline/cli/>.
+> 此命令也有关于其子命令的文件，例如：`run`.
+> 更多信息：<https://docs.docker.com/reference/cli/docker/>.
 
 - 列出所有 Docker 容器（包括停止的容器）：
 

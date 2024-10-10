@@ -1,7 +1,7 @@
 # git
 
 > Verteiltes Versionskontrollsystem.
-> Manche Unterbefehle wie `git commit` sind separat dokumentiert.
+> Manche Unterbefehle wie `commit` sind separat dokumentiert.
 > Weitere Informationen: <https://git-scm.com/>.
 
 - Gib die installierte Git Version aus:

@@ -1,7 +1,7 @@
 # choco
 
 > The Chocolatey package manager.
-> Some subcommands such as `choco install` have their own usage documentation.
+> Some subcommands such as `install` have their own usage documentation.
 > More information: <https://chocolatey.org>.
 
 - Execute a Chocolatey command:

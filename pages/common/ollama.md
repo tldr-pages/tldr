@@ -1,6 +1,7 @@
 # ollama
 
 > A large language model runner.
+> For a list of available models, see <https://ollama.com/library>.
 > More information: <https://github.com/ollama/ollama>.
 
 - Start the daemon required to run other commands:
@@ -23,9 +24,9 @@
 
 `ollama pull {{model}}`
 
-- Upgrade Ollama on Linux:
+- List running models:
 
-`curl -fsSL https://ollama.com/install.sh | sh`
+`ollama ps`
 
 - Delete a model:
 

@@ -9,7 +9,7 @@
 
 - Informationen für eine durch Leerzeichen getrennte Liste von Verzeichnissen anzeigen:
 
-`dust {{pfad/zum/verzeichnis1}} {{pfad/zum/verzeichnis2}}`
+`dust {{pfad/zu/verzeichnis1}} {{pfad/zu/verzeichnis2}}`
 
 - Zeige 30 Verzeichnisse an (Standardwert: 21):
 

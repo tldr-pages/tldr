@@ -2,7 +2,7 @@
 
 > Çok oyunculu sınırsız dünyalı bloklu sandbox oyun motoru.
 > Ayrıca `minetestserver` sayfasına bakılması önerilir.
-> Daha fazla bilgi için: <https://wiki.minetest.net/Minetest>.
+> Daha fazla bilgi için: <https://wiki.minetest.org/Minetest>.
 
 - Minetest'i kullanıcı modunda başlat:
 

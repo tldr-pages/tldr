@@ -2,7 +2,7 @@
 
 > Beheer Linode Volumes.
 > Bekijk ook: `linode-cli`.
-> Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/block-storage-volumes/>.
+> Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-block-storage-volumes>.
 
 - Toon alle huidige Volumes:
 

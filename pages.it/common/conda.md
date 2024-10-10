@@ -1,7 +1,7 @@
 # conda
 
 > Gestione pacchetti, dipendenze ed ambiente per qualsiasi linguaggio di programmazione.
-> Alcuni comandi aggiuntivi, come `conda create`, hanno la propria documentazione.
+> Alcuni comandi aggiuntivi, come `create`, hanno la propria documentazione.
 > Maggiori informazioni: <https://github.com/conda/conda>.
 
 - Crea un nuovo ambiente, installandovi alcuni pacchetti:
