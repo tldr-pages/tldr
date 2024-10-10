@@ -10,3 +10,7 @@
 - Wait for all processes known to the invoking shell to finish:
 
 `wait`
+
+- Wait for a job to finish:
+
+`wait %{{N}}`
