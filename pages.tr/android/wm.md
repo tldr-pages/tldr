@@ -6,8 +6,8 @@
 
 - Bir Android cihazının ekranının fiziksel boyutunu görüntüle:
 
-`wm {{size}}`
+`wm size`
 
 - Bir Android cihazının ekranının fiziksel derinliğini görüntüle:
 
-`wm {{density}}`
+`wm density`
