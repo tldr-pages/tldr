@@ -6,7 +6,7 @@
 
 - Add a new attachment to existing PDF file:
 
-`pdfattach {{path/to/input.pdf}} {{path/to/file_to_attach.pdf}} {{path/to/output.pdf}}`
+`pdfattach {{path/to/input.pdf}} {{path/to/file_to_attach}} {{path/to/output.pdf}}`
 
 - Replace attachment with same name if it exists:
 
