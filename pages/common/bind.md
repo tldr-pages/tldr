@@ -3,7 +3,7 @@
 > Bash builtin to manage bash hotkeys and variables.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.
 
-- List all bound commands and their bindings:
+- List all bound commands and their hotkeys:
 
 `bind {{-p|-P}}`
 
@@ -14,3 +14,7 @@
 - Bind a key:
 
 `bind -x '"{{key_sequence}}":{{command}}'`
+
+- List user defined bindings:
+
+`bind -X`
