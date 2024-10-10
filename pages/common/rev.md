@@ -1,13 +1,17 @@
 # rev
 
-> Reverses strings of text on provided text or a file.
+> Reverse a line of text or a file.
 > More information: <https://manned.org/rev>.
 
 - Reverse text typed into terminal:
 
 `rev`
 
-- Reverse text in file:
+- Reverse the text string "hello":
+
+`echo "hello" | rev`
+
+- Reverse an entire file and print to `stdout`:
 
 `rev {{path/to/file}}`
 
