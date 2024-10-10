@@ -1,36 +1,36 @@
 # gh codespace
 
-> Connect and manage your codespaces in GitHub.
-> More information: <https://cli.github.com/manual/gh_codespace>.
+> Conecta e gerencia seus codespaces no GitHub.
+> Mais informações: <https://cli.github.com/manual/gh_codespace>.
 
-- Create a codespace in GitHub interactively:
+- Cria um codespace no GitHub interativamente:
 
 `gh codespace create`
 
-- List all available codespaces:
+- Lista todos os codespaces disponíveis:
 
 `gh codespace list`
 
-- Connect to a codespace via SSH interactively:
+- Conecta a um codespace via SSH interativamente:
 
 `gh codespace ssh`
 
-- Transfer a specific file to a codespace interactively:
+- Transfere um arquivo específico para um codespace interativamente:
 
-`gh codespace cp {{path/to/source_file}} remote:{{path/to/remote_file}}`
+`gh codespace cp {{caminho/para/arquivo_fonte}} remote:{{caminho/para/arquivo_remoto}}`
 
-- List the ports of a codespace interactively:
+- Lista os ports de um codespace interativamente:
 
 `gh codespace ports`
 
-- Display the logs from a codespace interactively:
+- Exibe os registros de um codespace interativamente:
 
 `gh codespace logs`
 
-- Delete a codespace interactively:
+- Exclui um codespace interativamente:
 
 `gh codespace delete`
 
-- Display help for a subcommand:
+- Exibe ajuda para um subcomando:
 
 `gh codespace {{code|cp|create|delete|edit|...}} --help`
