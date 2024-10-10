@@ -10,7 +10,7 @@
 
 - Replace attachment with same name if it exists:
 
-`pdfattach -replace {{path/to/input.pdf}} {{path/to/file_to_attach.pdf}} {{path/to/output.pdf}}`
+`pdfattach -replace {{path/to/input.pdf}} {{path/to/file_to_attach}} {{path/to/output.pdf}}`
 
 - Display version:
 
