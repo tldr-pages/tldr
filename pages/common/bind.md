@@ -18,3 +18,7 @@
 - List user defined bindings:
 
 `bind -X`
+
+- Display help:
+
+`help bind`
