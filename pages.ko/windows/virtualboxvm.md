@@ -9,7 +9,7 @@
 
 - 전체 화면 모드로 가상 머신 시작:
 
-`virtualboxvm --startvm {{name|uuid}} --fullscreen`
+`virtualboxvm --startvm {{이름|uuid}} --fullscreen`
 
 - 지정된 DVD 이미지 파일 마운트:
 
