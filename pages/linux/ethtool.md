@@ -1,7 +1,7 @@
 # ethtool
 
 > Display and modify Network Interface Controller (NIC) parameters.
-> More information: <http://manned.org/ethtool>.
+> More information: <https://manned.org/ethtool>.
 
 - Display the current settings for an interface:
 

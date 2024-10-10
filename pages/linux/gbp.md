@@ -1,7 +1,7 @@
 # gbp
 
 > A system to integrate the Debian package build system with Git.
-> More information: <http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html>.
+> More information: <https://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html>.
 
 - Convert an existing Debian package to gbp:
 

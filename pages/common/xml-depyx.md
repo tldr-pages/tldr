@@ -1,7 +1,7 @@
 # xml depyx
 
 > Convert a PYX (ESIS - ISO 8879) document to XML format.
-> More information: <http://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Convert a PYX (ESIS - ISO 8879) document to XML format:
 

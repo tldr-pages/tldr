@@ -1,7 +1,7 @@
 # offlineimap
 
 > Synchronize a remote IMAP server with local Maildir folders.
-> More information: <http://www.offlineimap.org>.
+> More information: <https://www.offlineimap.org>.
 
 - Synchronize once, without enabling autorefresh:
 

@@ -1,7 +1,7 @@
 # kosmorro
 
 > Compute the ephemerides and the events for a date at a position on Earth.
-> More information: <http://kosmorro.space>.
+> More information: <https://kosmorro.space>.
 
 - Get ephemerides for Paris, France:
 

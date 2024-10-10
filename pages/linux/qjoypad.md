@@ -1,7 +1,7 @@
 # qjoypad
 
 > Translate input from gamepads or joysticks into keyboard strokes or mouse actions.
-> More information: <http://qjoypad.sourceforge.net/>.
+> More information: <https://qjoypad.sourceforge.net/>.
 
 - Start QJoyPad:
 

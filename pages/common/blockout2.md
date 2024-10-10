@@ -1,7 +1,7 @@
 # blockout2
 
 > Tetris like game in 3D.
-> More information: <http://www.blockout.net/blockout2/>.
+> More information: <https://www.blockout.net/blockout2/>.
 
 - Start a new game:
 

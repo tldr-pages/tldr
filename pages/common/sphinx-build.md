@@ -1,7 +1,7 @@
 # sphinx-build
 
 > Sphinx documentation generator.
-> More information: <http://www.sphinx-doc.org/en/master/man/sphinx-build.html>.
+> More information: <https://www.sphinx-doc.org/en/master/man/sphinx-build.html>.
 
 - Build documentation:
 

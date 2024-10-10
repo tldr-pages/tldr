@@ -2,7 +2,7 @@
 
 > An audio player with an interface similar to Winamp or XMMS.
 > See also: `clementine`, `ncmpcpp`, `cmus`.
-> More information: <http://qmmp.ylsoftware.com>.
+> More information: <https://qmmp.ylsoftware.com>.
 
 - Launch the GUI:
 

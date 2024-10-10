@@ -1,7 +1,7 @@
 # xml elements
 
 > Extract elements and display the structure of an XML document.
-> More information: <http://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Extract elements from an XML document (producing XPATH expressions):
 
