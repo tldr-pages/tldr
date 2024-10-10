@@ -5,6 +5,6 @@
 > In Fedora en Arch Linux is de binary naam `lid` in gebruik door een ander programma. Bekijk hiervoor `tldr libuser-lid`.
 > Meer informatie: <https://www.gnu.org/software/idutils/>.
 
-- Bekijk documentatie voor `libuser-lid`:
+- Bekijk de documentatie voor `libuser-lid`:
 
 `tldr libuser-lid`
