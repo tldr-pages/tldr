@@ -18,7 +18,7 @@
 
 - Save the embedded file with a custom output filename:
 
-`pdfdetach -save {{number}} -o {{path/to/output.pdf}} {{path/to/input.pdf}}`
+`pdfdetach -save {{number}} -o {{path/to/output}} {{path/to/input.pdf}}`
 
 - Save the attachment from a file secured by owner/user password:
 
