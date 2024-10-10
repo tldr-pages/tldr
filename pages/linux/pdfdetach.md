@@ -16,7 +16,7 @@
 
 `pdfdetach -savefile {{name}} {{path/to/input.pdf}}`
 
-- Save the embedded file with a custom output filename.
+- Save the embedded file with a custom output filename:
 
 `pdfdetach -save {{number}} -o {{path/to/output.pdf}} {{path/to/input.pdf}}`
 
