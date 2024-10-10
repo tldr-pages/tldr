@@ -5,7 +5,7 @@
 
 - List all bound commands and their bindings:
 
-`bind -p`
+`bind {{-p|-P}}`
 
 - Query a command for its hotkey:
 
