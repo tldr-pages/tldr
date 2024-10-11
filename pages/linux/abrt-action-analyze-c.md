@@ -7,7 +7,7 @@
 
 `abrt-action-analyze-c`
 
-- Calculate and save the UUID for specific directory:
+- Calculate and save the UUID for a specific directory:
 
 `abrt-action-analyze-c -d {{path/to/directory}}`
 
