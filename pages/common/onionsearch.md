@@ -1,7 +1,7 @@
 # onionsearch
 
 > Scrape URLs on different `.onion` search engines.
-> Note: `onionsearch` requires tor proxy running on `localhost:9050` and a tor enabled browser is needed to visit the `.onion` websites.
+> Note: `onionsearch` requires a Tor proxy running on `localhost:9050`; a Tor enabled browser is needed to visit the `.onion` websites.
 > More information: <https://github.com/megadose/OnionSearch>.
 
 - Request results from all the search engines:
