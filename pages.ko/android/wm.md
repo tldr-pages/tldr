@@ -6,8 +6,8 @@
 
 - Android 기기 화면의 물리적 크기를 표시:
 
-`wm {{크기}}`
+`wm size`
 
 - Android 기기 화면의 물리적 밀도를 표시:
 
-`wm {{밀도}}`
+`wm density`
