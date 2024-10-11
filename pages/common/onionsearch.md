@@ -14,7 +14,7 @@
 
 - Exclude certain serarch engines when searching:
 
-`onionsearch "{{Hunter Biden}}" --exclude {{candle ahmia ...}}`
+`onionsearch "{{string}}" --exclude {{candle ahmia ...}}`
 
 - Limit the number of pages to load per engine:
 
