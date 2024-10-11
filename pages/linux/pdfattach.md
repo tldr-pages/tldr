@@ -12,10 +12,10 @@
 
 `pdfattach -replace {{path/to/input.pdf}} {{path/to/file_to_attach}} {{path/to/output.pdf}}`
 
-- Display version:
-
-`pdfattach -v`
-
 - Display help:
 
 `pdfattach -h`
+
+- Display version:
+
+`pdfattach -v`
