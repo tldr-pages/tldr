@@ -6,7 +6,7 @@
 
 - Request all the search engines for the word "Epstein":
 
-`onionsearch "Epstein"`
+`onionsearch "{{string}}"`
 
 - Request search results from specific search engines:
 
