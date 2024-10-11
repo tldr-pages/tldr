@@ -4,7 +4,7 @@
 > See also: `pdfattach`, `pdfimages`, `pdfinfo`.
 > More information: <https://manned.org/pdfdetach>.
 
-- List all attachments in a file and specify text encoding:
+- List all attachments in a file with a specific text encoding:
 
 `pdfdetach list -enc {{UTF-8}} {{path/to/input.pdf}}`
 
