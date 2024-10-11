@@ -8,7 +8,7 @@
 
 `eselect`
 
-- Bekijk documentatie voor een specifieke module:
+- Bekijk de documentatie voor een specifieke module:
 
 `tldr eselect {{module}}`
 

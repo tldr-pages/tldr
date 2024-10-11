@@ -4,7 +4,7 @@
 > Als er meerdere YubiKeys zijn verbonden, dien je `--device serial_number` toe te voegen voor een subcommando.
 > Meer informatie: <https://docs.yubico.com/software/yubikey/tools/ykman/index.html>.
 
-- Toon algemene informatie over een  YubiKey (serienummer, firmware versie, mogelijkheden etc.):
+- Toon algemene informatie over een YubiKey (serienummer, firmware versie, mogelijkheden etc.):
 
 `ykman info`
 
