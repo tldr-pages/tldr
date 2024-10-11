@@ -6,7 +6,7 @@
 
 - Print the starship integration code for the specified shell:
 
-`starship init {{bash|elvish|fish|ion|powershell|tcsh|zsh}}`
+`starship init {{bash|elvish|fish|ion|powershell|tcsh|zsh|nu|xonsh|cmd}}`
 
 - Explain each part of the current prompt and show the time taken to render them:
 
