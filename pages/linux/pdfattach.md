@@ -1,6 +1,6 @@
 # pdfattach
 
-> Add a new attachment (embedded file) to existing PDF file.
+> Add a new attachment (embedded file) to an existing PDF file.
 > See also: `pdfdetach`, `pdfimages`, `pdfinfo`.
 > More information: <https://manned.org/pdfattach>.
 
