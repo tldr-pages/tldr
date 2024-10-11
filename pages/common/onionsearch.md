@@ -1,8 +1,7 @@
 # onionsearch
 
 > Scrape URLs on different `.onion` search engines.
-> `onionsearch` requires tor proxy running on `localhost:9050`.
-> A tor enabled browser is needed to visit the .onion websites.
+> Note: `onionsearch` requires tor proxy running on `localhost:9050` and a tor enabled browser is needed to visit the `.onion` websites.
 > More information: <https://github.com/megadose/OnionSearch>.
 
 - Request all the search engines for the word "Epstein":
