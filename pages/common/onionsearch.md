@@ -20,6 +20,6 @@
 
 `onionsearch "{{stuxnet}}" --engines {{tor66 deeplink phobos ...}} --limit {{3}}`
 
-- List of supported search engines:
+- List all supported search engines:
 
 `onionsearch --help | grep -A1 -i "supported engines"`
