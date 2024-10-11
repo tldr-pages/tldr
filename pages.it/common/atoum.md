@@ -1,7 +1,7 @@
 # atoum
 
 > Un semplice, moderno ed intuitivo framework PHP per unit testing.
-> Maggiori informazioni: <http://atoum.org>.
+> Maggiori informazioni: <https://atoum.org>.
 
 - Inizializza un file di configurazione:
 

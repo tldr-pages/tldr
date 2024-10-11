@@ -1,7 +1,7 @@
 # doxygen
 
 > Um sistema de documentação para várias linguagens de programação.
-> Mais informações: <http://www.doxygen.nl>.
+> Mais informações: <https://www.doxygen.nl>.
 
 - Gera um arquivo de configuração padrão (Doxyfile):
 
