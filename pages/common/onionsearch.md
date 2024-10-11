@@ -12,7 +12,7 @@
 
 `onionsearch "{{string}}" --engines {{tor66 deeplink phobos ...}}`
 
-- Exclude certain serarch engines when searching:
+- Exclude certain search engines when searching:
 
 `onionsearch "{{string}}" --exclude {{candle ahmia ...}}`
 
