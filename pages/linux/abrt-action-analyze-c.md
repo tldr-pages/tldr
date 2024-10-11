@@ -3,7 +3,7 @@
 > Calculate UUID for a problem data directory with `coredump`.
 > More information: <https://manned.org/abrt-action-analyze-c>.
 
-- Calculate and save the UUID for current working directory:
+- Calculate and save the UUID for the current working directory:
 
 `abrt-action-analyze-c`
 
