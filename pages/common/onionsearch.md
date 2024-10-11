@@ -10,7 +10,7 @@
 
 - Request search results from specific search engines:
 
-`onionsearch "{{Lolita Island}}" --engines {{tor66 deeplink phobos ...}}`
+`onionsearch "{{string}}" --engines {{tor66 deeplink phobos ...}}`
 
 - Exclude certain serarch engines when searching:
 
