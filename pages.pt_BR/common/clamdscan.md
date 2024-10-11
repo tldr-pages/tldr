@@ -19,7 +19,7 @@
 
 `clamdscan --log {{caminho/para/arquivo_de_registro}}`
 
-- Gera um relatório da varredura para um arquivo de registro:
+- Move arquivos infectados para um diretório específico:
 
 `clamdscan --move {{caminho/para/diretório_de_quarentena}}`
 

@@ -19,7 +19,7 @@
 
 `crontab -l`
 
-- Remova todos as tarefas de cron do usuário atual:
+- Remove todos as tarefas de cron do usuário atual:
 
 `crontab -r`
 

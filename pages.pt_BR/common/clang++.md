@@ -20,7 +20,7 @@
 
 `clang++ {{caminho/para/arquivo_fonte.cpp}} -std={{c++20}} {{-o|--output}} {{caminho/para/executável_resultante}}`
 
-- Inclui bibliotecas localidades em um caminho diferente do arquivo fonte:
+- Inclui bibliotecas localizadas em um caminho diferente do arquivo fonte:
 
 `clang++ {{caminho/para/arquivo_fonte.cpp}} {{-o|--output}} {{caminho/para/executável_resultante}} -I{{caminho/para/cabeçalho}} -L{{caminho/para/biblioteca}} -l{{caminho/para/nome_da_biblioteca}}`
 

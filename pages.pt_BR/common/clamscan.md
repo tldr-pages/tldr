@@ -27,7 +27,7 @@
 
 `clamscan --log {{caminho/para/arquivo_de_registro}}`
 
-- Gera um relatório da varredura para um arquivo de registro:
+- Move arquivos infectados para um diretório específico:
 
 `clamscan --move {{caminho/para/diretório_de_quarentena}}`
 
