@@ -9,7 +9,7 @@
 
 `abrt-action-analyze-backtrace`
 
-- Analyze backtrace for specific directory:
+- Analyze backtrace for a specific directory:
 
 `abrt-action-analyze-backtrace -d {{path/to/directory}}`
 
