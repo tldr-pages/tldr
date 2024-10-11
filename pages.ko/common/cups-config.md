@@ -1,7 +1,7 @@
 # cups-config
 
 > CUPS 인쇄 서버 설치에 대한 기술 정보를 표시.
-> 도움말 표시: <https://openprinting.github.io/cups/doc/man-cups-config.html>.
+> 더 많은 정보: <https://openprinting.github.io/cups/doc/man-cups-config.html>.
 
 - CUPS가 현재 설치된 위치를 표시:
 
