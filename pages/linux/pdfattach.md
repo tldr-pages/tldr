@@ -4,7 +4,7 @@
 > See also: `pdfdetach`, `pdfimages`, `pdfinfo`.
 > More information: <https://manned.org/pdfattach>.
 
-- Add a new attachment to existing PDF file:
+- Add a new attachment to an existing PDF file:
 
 `pdfattach {{path/to/input.pdf}} {{path/to/file_to_attach}} {{path/to/output.pdf}}`
 
