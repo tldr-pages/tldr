@@ -2,7 +2,7 @@
 
 > Show and manipulate wireless devices.
 > See also: `iw dev`.
-> More information: <https://wireless.wiki.kernel.org/en/users/Documentation/iw>.
+> More information: <https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html>.
 
 - Scan for available wireless networks:
 
