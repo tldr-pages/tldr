@@ -1,6 +1,6 @@
 # abrt-action-analyze-backtrace
 
-> Analyze C/C++ backtrace. 
+> Analyze C/C++ backtrace.
 > Generate duplication hash, backtrace rating, and identify crash function.
 > Save the data as new elements `duphash`, `rating`, `crash_function` in the problem directory.
 > More information: <https://manned.org/abrt-action-analyze-backtrace>.
