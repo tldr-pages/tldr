@@ -1,7 +1,7 @@
 # gitstats
 
 > Git repository statistics generator.
-> More information: <http://gitstats.sourceforge.net>.
+> More information: <https://gitstats.sourceforge.net>.
 
 - Generate statistics for a local repository:
 
