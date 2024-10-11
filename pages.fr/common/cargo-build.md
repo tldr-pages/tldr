@@ -3,7 +3,7 @@
 > Compile un paquet local et toutes ses dépendances.
 > Plus d'informations : <https://doc.rust-lang.org/cargo/commands/cargo-build.html>.
 
-- Compile un ou plusieurs paquets définis dans le manifeste `Cargo.toml` du le répertoire local :
+- Compile un ou plusieurs paquets définis dans le manifeste `Cargo.toml` dans le dossier local :
 
 `cargo build`
 
@@ -11,7 +11,7 @@
 
 `cargo build --release`
 
-- `Cargo.lock` doit être à jour :
+- Le fichier `Cargo.lock` doit être à jour :
 
 `cargo build --locked`
 
@@ -25,7 +25,7 @@
 
 - Compile uniquement le binaire spécifié :
 
-`cargo build --bin {{nom}}`
+`cargo build --bin {{nom_du_binaire}}`
 
 - Compile uniquement le test cible spécifié :
 
