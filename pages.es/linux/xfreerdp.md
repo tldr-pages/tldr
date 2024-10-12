@@ -5,7 +5,7 @@
 
 - Conectarse a un servidor FreeRDP:
 
-`xfreerdp /u:{{nombre_de_usuario}} /p:{{contraseña}} /v:{{dirección_ip}}``
+`xfreerdp /u:{{nombre_de_usuario}} /p:{{contraseña}} /v:{{dirección_ip}}`
 
 - Conéctate a un servidor FreeRDP y activa la redirección de la salida de audio mediante el dispositivo `sys:alsa`:
 
