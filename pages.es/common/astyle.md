@@ -2,7 +2,7 @@
 
 > Indentador, formateador y embellecedor de código fuente para los lenguajes de programación C, C++, C# y Java.
 > Al ejecutarse, se crea una copia del archivo original con un ".orig" añadido al nombre del archivo original.
-> Más información: <http://astyle.sourceforge.net>.
+> Más información: <https://astyle.sourceforge.net>.
 
 - Aplica el estilo por defecto de 4 espacios por sangría y sin cambios de formato:
 
