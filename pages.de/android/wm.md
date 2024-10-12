@@ -6,8 +6,8 @@
 
 - Gib die physische Größe des Bildschirms eines Geräts aus:
 
-`wm {{size}}`
+`wm size`
 
 - Gib die physische Pixeldichte des Bildschirms eines Geräts aus:
 
-`wm {{density}}`
+`wm density`

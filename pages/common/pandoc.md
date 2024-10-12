@@ -7,13 +7,13 @@
 
 `pandoc {{input.md}} -o {{output.pdf}}`
 
+- Convert to a standalone file with the appropriate headers/footers (for LaTeX, HTML, etc.):
+
+`pandoc {{input.md}} -s -o {{output.html}}`
+
 - Force conversion to use a specific format:
 
 `pandoc {{input.docx}} --to {{gfm}} -o {{output.md}}`
-
-- Convert to a standalone file with the appropriate headers/footers (for LaTeX, HTML, etc.):
-
-`pandoc {{input.md}} -s -o {{output.tex}}`
 
 - List all supported input formats:
 

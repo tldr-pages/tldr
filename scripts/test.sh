@@ -18,10 +18,10 @@ function exists {
 # but we want to only print if there are actual errors, and not
 # the "All done!" success message.
 function run_black {
-  target_black_version=$(awk -F '==' '$1 == "black" { print $2 }' < requirements.txt)
+  target_black_version="$(awk -F '==' '$1 == "black" { print $2 }' < requirements.txt)"
 
   if grep -qw black <<< "$(pip3 --disable-pip-version-check list)"; then
-    errs=$(python3 -m black scripts --check --required-version "${target_black_version}" 2>&1 || true)
+    errs="$(python3 -m black scripts --check --required-version "$target_black_version" 2>&1 || true)"
   fi
 
   if [[ -z $errs ]]; then
@@ -31,18 +31,18 @@ function run_black {
       return 0
     fi
 
-    errs=$(black scripts --check --required-version "${target_black_version}" 2>&1 || true)
+    errs="$(black scripts --check --required-version "$target_black_version" 2>&1 || true)"
   fi
 
-  if [[ ${errs} == *"does not match the running version"* ]]; then
+  if [[ $errs == *"does not match the running version"* ]]; then
     echo -e "Skipping black check, required version not available, try running: pip3 install -r requirements.txt"
     return 0
   fi
 
   # We want to ignore the exit code from black on failure so that we can
   # do the conditional printing below
-  if [[ ${errs} != "All done!"* ]]; then
-     echo -e "${errs}" >&2
+  if [[ $errs != "All done!"* ]]; then
+     echo -e "$errs" >&2
      return 1
   fi
 }
@@ -64,9 +64,9 @@ function run_pytest {
     return 0
   fi
 
-  errs=$(pytest scripts/*.py 2>&1 || true)
-  if [[ ${errs} == *"failed"* ]]; then
-    echo -e "${errs}" >&2
+  errs="$(pytest scripts/*.py 2>&1 || true)"
+  if [[ $errs == *"failed"* ]]; then
+    echo -e "$errs" >&2
     return 1
   fi
 }
@@ -78,7 +78,7 @@ function run_shellcheck {
     return 0
   fi
 
-  shellcheck scripts/*.sh
+  shellcheck --enable require-double-brackets,avoid-nullary-conditions,quote-safe-variables scripts/*.sh
 }
 
 # Default test function, run by `npm test`.
@@ -87,14 +87,17 @@ function run_tests {
   tldr-lint ./pages
   for f in ./pages.*; do
     checks="TLDR104"
-    if [[ -L $f ]]; then
-        continue
-    elif [[ $f == *ar* || $f == *bn* || $f == *fa* || $f == *hi* || $f == *ja* || $f == *ko* || $f == *lo* || $f == *ml* || $f == *ne* || $f == *ta* || $f == *th* || $f == *tr* ]]; then
+    # Skip the `pages.en` symlink.
+    [[ -h $f ]] && continue
+    case $f in
+      *ar*|*bn*|*fa*|*hi*|*ja*|*ko*|*lo*|*ml*|*ne*|*ta*|*th*|*tr*)
         checks+=",TLDR003,TLDR004,TLDR015"
-    elif [[ $f == *zh* || $f == *zh_TW* ]]; then
+      ;;
+      *zh*)
         checks+=",TLDR003,TLDR004,TLDR005,TLDR015"
-    fi
-    tldr-lint --ignore $checks "${f}"
+      ;;
+    esac
+    tldr-lint --ignore "$checks" "$f"
   done
   run_black
   run_flake8

@@ -13,7 +13,7 @@
 
 - Linte ein Dockerfile:
 
-`docker-slim lint --target {{pfad/zum/Dockerfile}}`
+`docker-slim lint --target {{pfad/zu/Dockerfile}}`
 
 - Analysiere und generiere ein optimiertes Docker Image:
 

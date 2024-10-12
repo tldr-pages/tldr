@@ -2,7 +2,7 @@
 
 > The Raptor RDF parsing utility.
 > Part of the Raptor RDF Syntax Library.
-> More information: <http://librdf.org/raptor/rapper.html>.
+> More information: <https://librdf.org/raptor/rapper.html>.
 
 - Convert an RDF/XML document to Turtle:
 

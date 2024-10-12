@@ -9,7 +9,7 @@
 
 - Erstelle ein neues Secret aus einer Datei:
 
-`docker secret create {{secret_name}} {{pfad/zur/datei}}`
+`docker secret create {{secret_name}} {{pfad/zu/datei}}`
 
 - Liste alle Secrets auf:
 

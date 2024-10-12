@@ -18,4 +18,4 @@
 
 - Inkludiere einen gegebenen Pfad in der Liste von Verzeichnissen für die Suche nach Dateien:
 
-`as -I {{pfad/zum/verzeichnis}} {{pfad/zu/datei.s}}`
+`as -I {{pfad/zu/verzeichnis}} {{pfad/zu/datei.s}}`

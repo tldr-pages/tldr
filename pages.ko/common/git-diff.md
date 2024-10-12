@@ -19,11 +19,11 @@
 
 `git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
 
-- 특정 커밋 이후 변경된 파일 이름만 표시:
+- 변경된 파일, 히스토그램, 총 라인 삽입/삭제와 같은 diff 통계 표시:
 
-`git diff --name-only {{커밋}}`
+`git diff --stat {{커밋}}`
 
-- 특정 커밋 이후 파일 생성, 이름 변경 및 모드 변경 요약 표시:
+- 주어진 커밋 이후의 파일 생성, 이름 변경 및 모드 변경 요약 출력:
 
 `git diff --summary {{커밋}}`
 
