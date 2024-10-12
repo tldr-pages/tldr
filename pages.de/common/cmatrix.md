@@ -5,16 +5,16 @@
 
 - Aktiviere [a]synchrones Scrollen:
 
-  `cmatrix -a`
+`cmatrix -a`
 
 - Ändere die Text[C]olor (standardmäßig grün):
 
-  `cmatrix -C {{rot}}`
+`cmatrix -C {{rot}}`
 
 - Aktiviere den [R]egenbogen-Modus:
 
-  `cmatrix -r`
+`cmatrix -r`
 
 - Verwende eine Bildschirm[u]pdate-Verzögerung von 100 Zentisekunden (1 Sekunde):
 
-  `cmatrix -u 100`
+`cmatrix -u 100`
