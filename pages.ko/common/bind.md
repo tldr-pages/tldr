@@ -1,6 +1,6 @@
 # bind
 
->  bash 단축키 및 변수를 관리하기 위한 bash 내장.
+> bash 단축키 및 변수를 관리하기 위한 bash 내장.
 > 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.
 
 - 모든 바인딩된 명령어와 해당 단축키를 나열:
