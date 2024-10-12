@@ -29,7 +29,7 @@
 
 - Zeige die letzten N Commits eines bestimmten Autors:
 
-`git log {{-n|--max-count}} {{anzahl}} --author={{autor}}`
+`git log {{-n|--max-count}} {{anzahl}} --author {{autor}}`
 
 - Zeige alle Commits zwischen zwei Zeitpunkten an (yyyy-mm-dd):
 

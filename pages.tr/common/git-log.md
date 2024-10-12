@@ -29,7 +29,7 @@
 
 - Belirtilmiş yazardan gelen, belirtilen sayıda commit göster:
 
-`git log {{-n|--max-count}} {{sayı}} --author={{yazar}}`
+`git log {{-n|--max-count}} {{sayı}} --author {{yazar}}`
 
 - İki tarih arasında yapılmış commit'leri göster:
 
