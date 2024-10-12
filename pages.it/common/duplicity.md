@@ -2,7 +2,7 @@
 
 > Crea archivi incrementali, compressi, cifrati con controllo di versione.
 > Può caricare i backup su una varietà di servizi backend.
-> Maggiori informazioni: <http://duplicity.nongnu.org>.
+> Maggiori informazioni: <https://duplicity.gitlab.io>.
 
 - Esegui il backup di una directory via FTPS su una macchina remota, cifrandolo con una password:
 

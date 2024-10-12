@@ -12,6 +12,6 @@
 
 `tldr xbps-remove`
 
-- Bekijk documentatie om op zoek te gaan naar pakket- en repository-informatie:
+- Bekijk de documentatie om op zoek te gaan naar pakket- en repository-informatie:
 
 `tldr xbps-query`

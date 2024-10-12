@@ -6,4 +6,8 @@
 
 - Start een programma met een aangepaste prioriteit:
 
-`nice -n {{niceness_waarde}} {{commando}}`
+`nice -{{niceness_waarde}} {{commando}}`
+
+- Definieer de prioriteit met een expliciete optie:
+
+`nice {{-n|--adjustment}} {{niceness_waarde}} {{commando}}`
