@@ -17,7 +17,7 @@
 
 - Conéctate a un servidor FreeRDP con redirección del portapapeles:
 
-`xfreerdp /v:{{dirección_ip}} /u:{{nombre_usuario}} /p:{{contraseña}} + clipboard
+`xfreerdp /v:{{dirección_ip}} /u:{{nombre_usuario}} /p:{{contraseña}} + clipboard`
 
 - Conéctate a un servidor FreeRDP ignorando cualquier comprobación de certificado:
 
