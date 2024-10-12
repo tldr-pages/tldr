@@ -26,5 +26,4 @@
 
 - Gib die installierte Git Version aus:
 
-
 `git --version`
