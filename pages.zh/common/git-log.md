@@ -29,7 +29,7 @@
 
 - 查看特定作者的最近 N 条提交：
 
-`git log {{-n|--max-count}} {{数字}} --author {{作者}}`
+`git log {{-n|--max-count}} {{数字}} --author "{{作者}}"`
 
 - 查看两个日期之间的提交（yyyy-mm-dd）：
 
