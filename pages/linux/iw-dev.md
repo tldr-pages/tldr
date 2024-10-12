@@ -24,7 +24,7 @@
 
 `iw dev {{wlp}} station dump`
 
-- Create virtual interface in monitor mode with a specific MAC address:
+- Create a virtual interface in monitor mode with a specific MAC address:
 
 `sudo iw dev {{wlp}} interface add "{{vif_name}}" type monitor addr {{12:34:56:aa:bb:cc}}`
 
