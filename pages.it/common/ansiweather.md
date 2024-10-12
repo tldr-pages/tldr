@@ -9,7 +9,7 @@
 
 - Mostra una previsione con simboli e informazioni sulla luce solare per la tua posizione attuale:
 
-`ansiweather -s true -d true`
+`ansiweather -F -s true -d true`
 
 - Mostra una previsione con informazioni su vento ed umidità per la tua posizione attuale:
 

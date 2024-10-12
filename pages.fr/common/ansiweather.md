@@ -9,7 +9,7 @@
 
 - Affiche une prévision avec des symboles et les données d'ensoleillement pour votre position actuelle :
 
-`ansiweather -s true -d true`
+`ansiweather -F -s true -d true`
 
 - Affiche une prévision avec les données sur le vent et l'humidité pour votre position actuelle :
 

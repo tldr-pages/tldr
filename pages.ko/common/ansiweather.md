@@ -9,7 +9,7 @@
 
 - 당신의 현재 위치에 대한 기호 및 일광 데이터를 표시하는 예측 표시:
 
-`ansiweather -s true -d true`
+`ansiweather -F -s true -d true`
 
 - 당신의 현재 위치의 바람과 습도 데이터를 보여주는 예측 표시:
 

@@ -9,7 +9,7 @@
 
 - 显示带符号和日光数据信息的天气预报：
 
-`ansiweather -s true -d true`
+`ansiweather -F -s true -d true`
 
 - 显示带风力等级和湿度信息的天气预报：
 

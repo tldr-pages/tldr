@@ -33,4 +33,4 @@
 
 - 显示帮助信息：
 
-`bugreportz --help`
+`balooctl --help`
