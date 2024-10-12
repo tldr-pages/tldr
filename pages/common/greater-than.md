@@ -18,3 +18,7 @@
 - Redirect both `stdout` and `stderr` to `/dev/null` to keep the terminal output clean:
 
 `{{command}} &> /dev/null`
+
+- Clear the file contents or create a new empty file:
+
+`> {{path/to/file}}`

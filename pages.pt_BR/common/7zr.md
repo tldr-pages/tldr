@@ -1,7 +1,7 @@
 # 7zr
 
 > Um compactador de arquivos com alta taxa de compressão.
-> Versão do `7z` com suporte apenas para o formato 7z.
+> Similar ao `7z`, exceto que este suporta apenas arquivos no formato 7z.
 > Mais informações: <https://manned.org/7zr>.
 
 - Compacta um arquivo ou diretório:
@@ -10,15 +10,15 @@
 
 - Criptografa um arquivo existente (incluindo cabeçalhos):
 
-`7zr a {{arquivo_criptografado.7z}} -p{{senha}} -mhe {{on}} {{caminho/para/arquivo_compactado.7z}}`
+`7zr a {{arquivo_criptografado.7z}} -p{{senha}} -mhe={{on}} {{caminho/para/arquivo_compactado.7z}}`
 
 - Descompacta um arquivo mantendo a estrutura de diretórios original:
 
 `7zr x {{arquivo_compactado.7z}}`
 
-- Descompacta um arquivo em um diretório específicado pelo usuário:
+- Descompacta um arquivo em um diretório especificado pelo usuário:
 
-`7zr x {{caminho/para/arquivo_compactado.7z}} -o{{caminho/para/diretório}}`
+`7zr x {{caminho/para/arquivo_compactado.7z}} -o{{caminho/para/diretorio}}`
 
 - Descompacta um arquivo para a saída padrão:
 
@@ -30,4 +30,4 @@
 
 - Define o nível de compressão (maior significa mais compressão, porém mais lento):
 
-`7zr a {{caminho/para/arquivo_compactado.7z}} -mx {{0|1|3|5|7|9}} {{caminho/para/diretório}}`
+`7zr a {{caminho/para/arquivo_compactado.7z}} -mx={{0|1|3|5|7|9}} {{caminho/para/diretorio}}`
