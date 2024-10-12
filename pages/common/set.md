@@ -19,6 +19,14 @@
 
 `set -o {{vi}}`
 
+- Return to default mode:
+
+`set -o {{emacs}}`
+
+- List all modes:
+
+`set -o`
+
 - Exit the shell when (some) commands fail:
 
 `set -e`

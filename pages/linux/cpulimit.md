@@ -1,7 +1,7 @@
 # cpulimit
 
 > A tool to throttle the CPU usage of other processes.
-> More information: <http://cpulimit.sourceforge.net/>.
+> More information: <https://cpulimit.sourceforge.net/>.
 
 - Limit an existing process with PID 1234 to only use 25% of the CPU:
 

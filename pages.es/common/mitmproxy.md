@@ -10,11 +10,11 @@
 
 - Inicia `mitmproxy` con una dirección y puerto personalizados:
 
-`mitmproxy --listen-host {{dirección_ip}} {{--listen-port|-p}} {{puerto}}`
+`mitmproxy --listen-host {{dirección_ip}} {{-p|--listen-port}} {{puerto}}`
 
 - Inicia `mitmproxy` utilizando un script para procesar el tráfico:
 
-`mitmproxy {{--scripts|-s}} {{ruta/a/script.py}}`
+`mitmproxy {{-s|--scripts}} {{ruta/a/script.py}}`
 
 - Exporta los registros con las claves maestras SSL/TLS a programas externos (wireshark, etc.):
 
@@ -22,7 +22,7 @@
 
 - Especifica el modo de funcionamiento del servidor proxy (`regular` es el predeterminado):
 
-`mitmproxy {{--mode|-m}} {{regular|transparent|socks5|...}}`
+`mitmproxy {{-m|--mode}} {{regular|transparent|socks5|...}}`
 
 - Configura el diseño de la consola:
 

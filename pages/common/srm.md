@@ -2,7 +2,7 @@
 
 > Securely remove files or directories.
 > Overwrites the existing data one or multiple times. Drop in replacement for rm.
-> More information: <http://srm.sourceforge.net/srm.html>.
+> More information: <https://srm.sourceforge.net/srm.html>.
 
 - Remove a file after a single-pass overwriting with random data:
 

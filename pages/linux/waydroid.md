@@ -9,7 +9,7 @@
 
 - Initialize Waydroid (required on first run or after reinstalling Android):
 
-`waydroid init`
+`sudo waydroid init`
 
 - Install a new Android app from a file:
 
