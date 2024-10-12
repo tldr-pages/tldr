@@ -9,4 +9,4 @@
 
 - Bir dosyayı, her satırında son commit değeri ve yazarının e-postası bulunacak şekilde göster:
 
-`git blame -e {{örnek/dosya}}`
+`git blame {{-e|--show-email}} {{örnek/dosya}}`
