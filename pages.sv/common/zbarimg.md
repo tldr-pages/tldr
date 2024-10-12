@@ -1,7 +1,7 @@
 # zbarimg
 
 > Skanna och avkoda streckkoder från bildfil(er).
-> Mer information: <http://zbar.sourceforge.net>.
+> Mer information: <https://zbar.sourceforge.net>.
 
 - Processa en bildfil:
 

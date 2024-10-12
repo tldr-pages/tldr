@@ -1,7 +1,7 @@
 # youtube-dl
 
 > Scarica video da YouTube ed altri siti web.
-> Maggiori informazioni: <http://rg3.github.io/youtube-dl/>.
+> Maggiori informazioni: <https://rg3.github.io/youtube-dl/>.
 
 - Scarica un video od una playlist:
 

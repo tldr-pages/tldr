@@ -1,7 +1,7 @@
 # daemonize
 
 > Run a command (that does not daemonize itself) as a Unix daemon.
-> More information: <http://software.clapper.org/daemonize/>.
+> More information: <https://software.clapper.org/daemonize/>.
 
 - Run a command as a daemon:
 

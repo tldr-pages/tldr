@@ -6,4 +6,8 @@
 
 - Launch a program with altered priority:
 
-`nice -n {{niceness_value}} {{command}}`
+`nice -{{niceness_value}} {{command}}`
+
+- Define the priority with an explicit option:
+
+`nice {{-n|--adjustment}} {{niceness_value}} {{command}}`

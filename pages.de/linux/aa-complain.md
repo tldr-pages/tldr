@@ -6,8 +6,8 @@
 
 - Setze eine Richtlinie in den Beschwerde-Modus:
 
-`sudo aa-complain {{pfad/zum/profil}}`
+`sudo aa-complain {{pfad/zu/profil}}`
 
 - Setze Richtlinien in den Beschwerde-Modus:
 
-`sudo aa-complain --dir {{pfad/zum/profil}}`
+`sudo aa-complain --dir {{pfad/zu/profil}}`

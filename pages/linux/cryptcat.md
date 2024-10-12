@@ -1,7 +1,7 @@
 # cryptcat
 
 > Cryptcat is netcat with encryption capabilities.
-> More information: <http://cryptcat.sourceforge.net>.
+> More information: <https://cryptcat.sourceforge.net>.
 
 - [l]isten on a specified [p]ort and print any data received:
 

@@ -1,7 +1,7 @@
 # runsvdir
 
 > Run an entire directory of services.
-> More information: <https://manpages.ubuntu.com/manpages/latest/man8/runsvdir.8.html>.
+> More information: <https://manned.org/runsvdir.8>.
 
 - Start and manage all services in a directory as the current user:
 
