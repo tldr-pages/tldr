@@ -7,10 +7,10 @@
 
 `{{command}} < {{path/to/file.txt}}`
 
-- Create a here document and pass that in a file descriptor to `command` (requires a multiline command):
+- Create a here document and pass that into `stdin` (requires a multiline command):
 
 `{{command}} << {{EOF}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
 
-- Create a here string and pass that in a file descriptor to `command`:
+- Create a here string and pass that into `stdin`:
 
 `{{command}} <<< {{string}}`
