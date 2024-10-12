@@ -1,6 +1,6 @@
 # launchd
 
-> Este gestiona procesos, tanto para el sistema como para los usuarios.
+> Gestiona procesos, tanto para el sistema como para los usuarios.
 > No puedes invocar launchd manualmente, usa launchctl para interactuar con él.
 > Más información: <https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html>.
 
