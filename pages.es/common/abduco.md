@@ -1,7 +1,7 @@
 # abduco
 
 > Administrador de sesión de terminal.
-> Más información: <http://www.brain-dump.org/projects/abduco/>.
+> Más información: <https://www.brain-dump.org/projects/abduco/>.
 
 - Lista sesiones:
 

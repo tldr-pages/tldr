@@ -1,7 +1,7 @@
 # entr
 
 > Uruchom dowolną komendę, gdy zmieni się plik.
-> Więcej informacji: <http://eradman.com/entrproject/>.
+> Więcej informacji: <https://eradman.com/entrproject/>.
 
 - Przebuduj projekt używając `make`, jeżeli zmiemi się którykolwiek z plików w podkatalogu:
 
