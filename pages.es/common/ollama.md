@@ -8,7 +8,7 @@
 
 `ollama serve`
 
-- Ejecutar un modelo y chatear con él:
+- Ejecuta un modelo y chatea con él:
 
 `ollama run {{modelo}}`
 
