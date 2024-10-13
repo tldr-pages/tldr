@@ -19,10 +19,6 @@
 
 `kubectl logs --follow {{pod_name}}`
 
-- Folge den Pod-Logs (stream) für einen bestimmten Container in einem Pod:
-
-`kubectl logs --follow --container {{container_name}} {{pod_name}}`
-
 - Zeige Pod-Logs die neuer einer relativen Zeit sind `10s`, `5m`, or `1h`:
 
 `kubectl logs --since={{relative_time}} {{pod_name}}`
