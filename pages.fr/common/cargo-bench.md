@@ -23,7 +23,7 @@
 
 `cargo bench --profile {{profile}}`
 
-- Exécute les benchmarks sur tous les examples cibles :
+- Exécute les benchmarks sur tous les exemples cibles :
 
 `cargo bench --examples`
 
