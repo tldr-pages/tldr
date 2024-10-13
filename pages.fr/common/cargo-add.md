@@ -15,7 +15,7 @@
 
 `cargo add {{dépendance}} --features {{fonctionnalité_1}},{{fonctionnalité_2}}`
 
-- Ajoute une dépendance optionnelle, qui sera exposée comme une fonctionnalité du crate:
+- Ajoute une dépendance optionnelle, qui sera exposée comme une fonctionnalité du crate :
 
 `cargo add {{dépendance}} --optional`
 
