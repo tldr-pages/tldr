@@ -15,7 +15,7 @@
 
 `ffmpeg -i {{caminho/para/quadro_%d.jpg}} -f image2 {{vídeo|gif}}`
 
-- Extrai um único quadro de um vídeo no tempo mm:ss e o salva como uma imagem de resolução 128x128:
+- Extrai um único quadro de um vídeo no tempo mm:ss e salva-o como uma imagem de resolução 128x128:
 
 `ffmpeg -ss {{mm:ss}} -i {{caminho/para/vídeo.mp4}} -frames 1 -s {{128x128}} -f image2 {{caminho/para/quadro.png}}`
 
