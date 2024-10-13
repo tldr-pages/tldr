@@ -27,6 +27,6 @@
 
 `cargo add {{dépendance}} --{{dev|build}}`
 
-- Ajoute une dépendance avec toutes les fonctionnalités par défaut désactivées:
+- Ajoute une dépendance avec toutes les fonctionnalités par défaut désactivées :
 
 `cargo add {{dépendance}} --no-default-features`
