@@ -19,7 +19,7 @@
 
 `cargo bench --bench {{benchmark}}`
 
-- Exécute les benchmarks avec un profile spécifique (défaut: `bench`):
+- Exécute les benchmarks avec un profile spécifique (défaut : `bench`) :
 
 `cargo bench --profile {{profile}}`
 
