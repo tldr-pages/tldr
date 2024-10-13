@@ -11,7 +11,7 @@
 
 `journalctl --vacuum-time=2d`
 
-- Muestra solo los últimos N líneas y sigue los mensajes nuevos (como `tail -f` de un syslog tradicional):
+- Muestra solo las últimas N líneas y sigue los mensajes nuevos (como `tail -f` de un syslog tradicional):
 
 `journalctl --lines {{N}} --follow`
 
