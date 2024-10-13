@@ -1,7 +1,7 @@
 # magento
 
 > Manage the Magento PHP framework.
-> More information: <https://magento.com>.
+> More information: <https://experienceleague.adobe.com/en/docs/commerce>.
 
 - Enable one or more modules:
 
