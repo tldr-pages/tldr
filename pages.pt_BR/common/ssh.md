@@ -32,6 +32,6 @@
 
 `ssh -J {{nome_do_usuário}}@{{servidor_intermediário}} {{nome_do_usuário}}@{{servidor_remoto}}`
 
-- Encaminhamento do agente: Encaminha as informações de autenticação para a máquina remota (consulte `man ssh_config` para opções disponíveis):
+- Fecha uma sessão travada:
 
-`ssh -A {{nome_do_usuário}}@{{servidor_remoto}}`
+`<Enter> ~ .`
