@@ -28,7 +28,7 @@
 
 `ollama ps`
 
-- Eliminar un modelo:
+- Elimina un modelo:
 
 `ollama rm {{modelo}}`
 
