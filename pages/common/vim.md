@@ -19,7 +19,7 @@
 
 - Save and quit the current buffer:
 
-`:wq<Enter>`
+`{{ZZ<Enter>|:wq<Enter>}}`
 
 - Enter normal mode and undo the last operation:
 
