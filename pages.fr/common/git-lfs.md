@@ -13,7 +13,7 @@
 
 - Changer l'URL du point de terminaison Git LFS (utile si le serveur LFS est séparé du serveur Git) :
 
-`git config -f .lfsconfig lfs.url {{lfs_endpoint_url}}`
+`git config {{-f|--file}} .lfsconfig lfs.url {{lfs_endpoint_url}}`
 
 - Lister les pattern de fichiers suivis :
 

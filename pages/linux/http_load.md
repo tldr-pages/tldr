@@ -2,7 +2,7 @@
 
 > An HTTP benchmarking tool.
 > Runs multiple HTTP fetches in parallel to test the throughput of a web server.
-> More information: <http://www.acme.com/software/http_load/>.
+> More information: <https://www.acme.com/software/http_load/>.
 
 - Emulate 20 requests based on a given URL list file per second for 60 seconds:
 

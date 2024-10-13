@@ -25,7 +25,7 @@
 
 - 현재 날짜를 RFC-3339 형식으로 표시 (`YYYY-MM-DD hh:mm:ss TZ`):
 
-`date --rfc-3339=s`
+`date --rfc-3339 s`
 
 - `MMDDhhmmYYYY.ss` (`YYYY` 와 `.ss`는 선택 사항) 형식을 사용해 현재 날짜를 설정:
 

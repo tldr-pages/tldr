@@ -13,11 +13,11 @@
 
 - Crea un file bundle degli ultimi 5 commit sul ramo corrente:
 
-`git bundle create {{percorso/del/file.bundle}} -{{5}} {{HEAD}}`
+`git bundle create {{percorso/del/file.bundle}} -5 {{HEAD}}`
 
 - Crea un file bundle degli ultimi 7 giorni:
 
-`git bundle create {{percorso/del/file.bundle}} --since={{7.days}} {{HEAD}}`
+`git bundle create {{percorso/del/file.bundle}} --since=7.days {{HEAD}}`
 
 - Verifica che un file bundle sia valido e possa essere applicato al repository in uso:
 

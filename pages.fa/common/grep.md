@@ -13,7 +13,7 @@
 
 - جستجو بازگشتی یک الگو در تمامی فایل های یک پوشه، نمایش تمامی خطوط منطبق، فایل های باینری را رد میکند:
 
-`grep {{-r|--recursive}} {{-n|--line-number}} --binary-files={{without-match}} "{{search_pattern}}" {{path/to/directory}}`
+`grep {{-r|--recursive}} {{-n|--line-number}} --binary-files {{without-match}} "{{search_pattern}}" {{path/to/directory}}`
 
 - استفاده از عبارات با قاعده توسعه یافته (با پشتیبانی از `?`، `+`، `{}`، `()` و `|`)، در حالت حساس به بزرگی کوچکی کاراکتر ها :
 

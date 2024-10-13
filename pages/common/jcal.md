@@ -1,7 +1,7 @@
 # jcal
 
 > Display calendar information in the Jalali format, with the current day highlighted.
-> More information: <http://www.nongnu.org/jcal/>.
+> More information: <https://www.nongnu.org/jcal/>.
 
 - Display a calendar for the current month:
 
