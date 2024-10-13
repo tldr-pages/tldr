@@ -15,7 +15,7 @@
 
 `adduser --home {{ruta/a/home}} {{nombre_de_usuario}}`
 
-- Crea un nuevo usuario con el shell especificado establecido como shell de inicio de sesión:
+- Crea un nuevo usuario con el intérprete de comandos especificado establecido como intérprete de comandos de inicio de sesión:
 
 `adduser --shell {{ruta/a/shell}} {{nombre_de_usuario}}`
 
