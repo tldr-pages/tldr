@@ -20,7 +20,7 @@
 
 `ollama list`
 
-- Descargar/Actualizar un modelo específico:
+- Descarga/actualiza un modelo específico:
 
 `ollama pull {{modelo}}`
 
