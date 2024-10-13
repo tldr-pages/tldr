@@ -9,7 +9,7 @@
 
 - Bir SVN deposunu belirtilen düzenleme numarasından başlayarak klonla:
 
-`git svn clone -r{{1234}}:HEAD {{https://svn.ornek.net/altsürüm/depo}} {{yerel_dizin}}`
+`git svn clone {{-r|--revision}} {{1234}}:HEAD {{https://svn.ornek.net/altsürüm/depo}} {{yerel_dizin}}`
 
 - Uzak SVN deposundan yerel klonu güncelle:
 
