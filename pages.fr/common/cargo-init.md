@@ -1,7 +1,7 @@
 # cargo init
 
 > Crée un nouveau paquet Cargo.
-> Equivalent de `cargo new`, mais spécifier un dossier est optionnel.
+> Équivalent de `cargo new`, mais où spécifier un dossier est optionnel.
 > Plus d'informations : <https://doc.rust-lang.org/cargo/commands/cargo-init.html>.
 
 - Initilise un projet Rust binaire dans le dossier current :
