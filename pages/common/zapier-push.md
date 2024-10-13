@@ -3,7 +3,7 @@
 > Build and upload a Zapier integration.
 > More information: <https://github.com/zapier/zapier-platform/blob/main/packages/cli/docs/cli.md#push>.
 
-- Push your integration to Zapier:
+- Push an integration to Zapier:
 
 `zapier push`
 
