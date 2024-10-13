@@ -11,7 +11,7 @@
 
 `cargo bench --no-fail-fast`
 
-- Compile, mais n'exécute pas les benchmarks:
+- Compile, mais n'exécute pas les benchmarks :
 
 `cargo bench --no-run`
 
