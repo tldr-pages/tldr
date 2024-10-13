@@ -1,6 +1,7 @@
 # zapier
 
 > Create, automate, and manage zapier integrations.
+> Some subcommands such as `build` have their own usage documentation.
 > More information: <https://github.com/zapier/zapier-platform/blob/main/packages/cli/docs/cli.md>.
 
 - Connect to your Zapier account:
