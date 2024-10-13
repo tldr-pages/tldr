@@ -15,13 +15,9 @@
 
 `magick convert {{pfad/zu/bild.png}} -resize 640x480 {{pfad/zu/bild2.png}}`
 
-- Hänge Bilder horizontal aneinander:
+- Hänge Bilder vertikal/horizontal aneinander:
 
-`magick convert {{pfad/zu/bild1.png pfad/zu/bild2.png ...}} +append {{pfad/zu/bild.png}}`
-
-- Hänge Bilder vertikal aneinander:
-
-`magick convert {{pfad/zu/bild1.png pfad/zu/bild2.png ...}} -append {{pfad/zu/bild.png}}`
+`magick convert {{pfad/zu/bild1.png pfad/zu/bild2.png ...}} {{-append|+append}} {{pfad/zu/bild.png}}`
 
 - Erstelle ein animiertes GIF aus einer Serie von Bildern mit einer Verzögerung von 100 ms zwischen den Bildern:
 

@@ -5,11 +5,11 @@
 
 - Wyświetl wszystkie wiadomości o priorytecie 3 (błędy) z tego rozruchu:
 
-`journalctl -b --priority={{3}}`
+`journalctl -b --priority=3`
 
 - Usuń dzienniki starsze niż 2 dni:
 
-`journalctl --vacuum-time={{2d}}`
+`journalctl --vacuum-time=2d`
 
 - Wyświetlaj nowe wiadomości (jak `tail -f` dla tradycyjnego sysloga):
 
