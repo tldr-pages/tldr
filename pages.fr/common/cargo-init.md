@@ -8,7 +8,7 @@
 
 `cargo init`
 
-- Initilise un projet de binaire Rust dans le dossier spécifié :
+- Initailise un projet de binaire Rust dans le dossier spécifié :
 
 `cargo init {{chemin/vers/dossier}}`
 
