@@ -29,8 +29,8 @@
 
 - Виключити пристрої, указані в розділеному комами списку основних номерів пристроїв:
 
-`lsblk -e {{1,7}}`
+`lsblk -e {{1,7,...}}`
 
 - Вивести налаштований підсумок за допомогою розділеного комами списку стовпців:
 
-`lsblk --output {{NAME}},{{SERIAL}},{{MODEL}},{{TRAN}},{{TYPE}},{{SIZE}},{{FSTYPE}},{{MOUNTPOINT}}`
+`lsblk --output {{NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`
