@@ -7,7 +7,7 @@
 
 `zapier build`
 
-- Disable smart file inclusion (will only include files required by index.js):
+- Disable smart file inclusion (will only include files required by `index.js`):
 
 `zapier build --disable-dependency-detection`
 
