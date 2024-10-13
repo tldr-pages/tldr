@@ -3,26 +3,26 @@
 > Implementación del protocolo del Free Remote Desktop.
 > Más información: <https://www.freerdp.com>.
 
-- Conectarse a un servidor FreeRDP:
+- Conéctate a un servidor FreeRDP:
 
 `xfreerdp /u:{{nombre_de_usuario}} /p:{{contraseña}} /v:{{dirección_ip}}`
 
 - Conéctate a un servidor FreeRDP y activa la redirección de la salida de audio mediante el dispositivo `sys:alsa`:
 
-`xfreerdp /u:{{nombre_usuario}} /p:{{contraseña}} /v:{{dirección_ip}} /sound:{{sys:alsa}}`
+`xfreerdp /u:{{nombre_de_usuario}} /p:{{contraseña}} /v:{{dirección_ip}} /sound:{{sys:alsa}}`
 
 - Conéctate a un servidor FreeRDP con resolución dinámica:
 
-`xfreerdp /v:{{dirección_ip}} /u:{{nombre_usuario}} /p:{{contraseña}} /dynamic-resolution`
+`xfreerdp /v:{{dirección_ip}} /u:{{nombre_de_usuario}} /p:{{contraseña}} /dynamic-resolution`
 
 - Conéctate a un servidor FreeRDP con redirección del portapapeles:
 
-`xfreerdp /v:{{dirección_ip}} /u:{{nombre_usuario}} /p:{{contraseña}} + clipboard`
+`xfreerdp /v:{{dirección_ip}} /u:{{nombre_de_usuario}} /p:{{contraseña}} +clipboard`
 
 - Conéctate a un servidor FreeRDP ignorando cualquier comprobación de certificado:
 
-`xfreerdp /v:{{dirección_ip}} /u:{{nombre_usuario}} /p:{{contraseña}} /cert:ignore`
+`xfreerdp /v:{{dirección_ip}} /u:{{nombre_de_usuario}} /p:{{contraseña}} /cert:ignore`
 
 - Conéctate a un servidor FreeRDP con un directorio compartido:
 
-`xfreerdp /v:{{dirección_ip}} /u:{{nombre_usuario}} /p:{{contraseña}} /drive:{{ruta/al/directorio}},{{nombre_compartido}}`
+`xfreerdp /v:{{dirección_ip}} /u:{{nombre_de_usuario}} /p:{{contraseña}} /drive:{{ruta/al/directorio}},{{nombre_compartido}}`
