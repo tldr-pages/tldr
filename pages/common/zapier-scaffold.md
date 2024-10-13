@@ -17,7 +17,7 @@
 
 - Exclude comments from the scaffolded files:
 
-`zapier scaffold {{trigger|search|create|resource}} {{noun}} {{--no-help}}`
+`zapier scaffold {{trigger|search|create|resource}} {{noun}} --no-help`
 
 - Show extra debugging output:
 
