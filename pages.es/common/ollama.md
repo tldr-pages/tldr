@@ -24,7 +24,7 @@
 
 `ollama pull {{modelo}}`
 
-- Listar los modelos en ejecución:
+- Lista los modelos en ejecución:
 
 `ollama ps`
 
