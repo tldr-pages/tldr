@@ -12,7 +12,7 @@
 
 `cargo init {{chemin/vers/dossier}}`
 
-- Initialise un projet de bibliothèque Rust  dans le dossier spécifié :
+- Initialise un projet de bibliothèque Rust dans le dossier spécifié :
 
 `cargo init --lib`
 
