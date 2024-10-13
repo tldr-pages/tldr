@@ -16,7 +16,7 @@
 
 `cargo init --lib`
 
-- Initialise un dépot de système de gestion de version dans le dossier du projet (defaut : `git`) :
+- Initialise un dépôt de système de gestion de version dans le dossier du projet (défaut : `git`) :
 
 `cargo init --vcs {{git|hg|pijul|fossil|none}}`
 
