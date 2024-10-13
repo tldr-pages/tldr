@@ -15,7 +15,7 @@
 
 `cargo bench --no-run`
 
-- Exécute le benchmark spécifié:
+- Exécute le benchmark spécifié :
 
 `cargo bench --bench {{benchmark}}`
 
