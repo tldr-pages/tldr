@@ -12,10 +12,6 @@
 
 `aws configure sso`
 
-- AWS 명령에 대한 도움말:
-
-`aws {{command}} help`
-
 - 호출자 ID 가져오기 (권한 문제 해결에 사용됨):
 
 `aws sts get-caller-identity`
@@ -35,3 +31,7 @@
 - JSON CLI 스켈레톤 생성 (인프라를 코드로 사용하는 데 유용):
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- AWS 명령에 대한 도움말:
+
+`aws {{command}} help`

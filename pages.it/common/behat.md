@@ -13,7 +13,7 @@
 
 - Esegui tutti i test di una specifica suite:
 
-`behat --suite={{nome_suite}}`
+`behat --suite {{nome_suite}}`
 
 - Esegui i test con uno specifico formato di output:
 

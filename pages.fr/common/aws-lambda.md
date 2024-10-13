@@ -5,11 +5,11 @@
 
 - Lance une fonction :
 
-`aws lambda invoke --function-name {{nom}} {{chemin/vers/la/réponse}}.json`
+`aws lambda invoke --function-name {{nom}} {{chemin/vers/la/réponse.json}}`
 
 - Lance une fonction avec pour donnée d'entrée, un document JSON :
 
-`aws lambda invoke --function-name {{nom}} --payload {{json}} {{chemin/vers/la/réponse}}.json`
+`aws lambda invoke --function-name {{nom}} --payload {{json}} {{chemin/vers/la/réponse.json}}`
 
 - Liste les fonctions :
 
