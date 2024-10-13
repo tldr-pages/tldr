@@ -3,7 +3,7 @@
 > Compile et exécute des benchmarks.
 > Plus d'informations : <https://doc.rust-lang.org/cargo/commands/cargo-bench.html>.
 
-- Execute tous les benchmarks d'un paquet:
+- Execute tous les benchmarks d'un paquet :
 
 `cargo bench`
 
