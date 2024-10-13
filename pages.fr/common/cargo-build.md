@@ -7,7 +7,7 @@
 
 `cargo build`
 
-- Compile les artefacts avec le mode release, avec des optimizations :
+- Compile les artefacts avec le mode publication, avec des optimisations :
 
 `cargo build --release`
 
