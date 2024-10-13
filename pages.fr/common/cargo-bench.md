@@ -7,7 +7,7 @@
 
 `cargo bench`
 
-- Ne pas arréter quand un benchmark échoue:
+- Ne pas arréter quand un benchmark échoue :
 
 `cargo bench --no-fail-fast`
 
