@@ -21,4 +21,4 @@
 
 - Show extra debugging output:
 
-`zapier init --debug`
+`zapier scaffold --debug`
