@@ -4,7 +4,7 @@
 > Para ver una lista de los modelos disponibles, consulta <https://ollama.com/library>.
 > Más información: <https://github.com/ollama/ollama>.
 
-- Iniciar el demonio requerido para ejecutar otros comandos:
+- Inicia el demonio requerido para ejecutar otros comandos:
 
 `ollama serve`
 
