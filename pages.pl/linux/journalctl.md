@@ -13,11 +13,11 @@
 
 - Wyświetlaj nowe wiadomości (jak `tail -f` dla tradycyjnego sysloga):
 
-`journalctl -f`
+`journalctl --follow`
 
 - Wyświetl wszystkie wiadomości podanej jednostki:
 
-`journalctl -u {{jednostka}}`
+`journalctl --unit {{jednostka}}`
 
 - Wyświetl wiadomości podanej jednostki od czasu jej ostatniego uruchomienia:
 

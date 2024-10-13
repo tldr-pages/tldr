@@ -9,7 +9,7 @@
 
 - Verander de beveiligingscontext van een doelbestand, door gebruik te maken van een referentiebestand:
 
-`chcon --reference {{referentiebestand}} {{doelbestand}}`
+`chcon --reference={{referentiebestand}} {{doelbestand}}`
 
 - Verander de volledige SELinux beveiligingscontext van een bestand:
 

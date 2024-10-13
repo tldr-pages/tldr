@@ -9,7 +9,7 @@
 
 - Change le contexte de sécurité d'un fichier cible, en utilisant un fichier de référence :
 
-`chcon --reference {{fichier_référence}} {{fichier_cible}}`
+`chcon --reference={{fichier_référence}} {{fichier_cible}}`
 
 - Change le contexte de sécurité SELinux complet d'un fichier :
 
