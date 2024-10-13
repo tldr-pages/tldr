@@ -12,7 +12,7 @@
 
 `ollama run {{modelo}}`
 
-- Ejecutar un modelo con un solo mensaje:
+- Ejecuta un modelo con un solo mensaje:
 
 `ollama run {{modelo}} {{mensaje}}`
 
