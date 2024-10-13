@@ -4,7 +4,7 @@
 > Some subcommands such as `build`, `init`, `scaffold`, `push`, `test`, etc. have their own usage documentation.
 > More information: <https://github.com/zapier/zapier-platform/blob/main/packages/cli/docs/cli.md>.
 
-- Connect to your Zapier account:
+- Connect to a Zapier account:
 
 `zapier login`
 
@@ -16,11 +16,11 @@
 
 `zapier scaffold {{trigger|create|search|resource}} {{name}}`
 
-- Test your integration:
+- Test an integration:
 
 `zapier test`
 
-- Build and upload your integration to Zapier:
+- Build and upload an integration to Zapier:
 
 `zapier push`
 
