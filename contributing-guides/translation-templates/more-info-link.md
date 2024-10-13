@@ -1,4 +1,6 @@
-In order to document a page, we suggest to have a so called [more information link](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md#more-information-links) which contains a link 
+# More information link
+
+For all our pages we suggest having a [more information link](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md#more-information-links) which contains a link 
 to the author's provided documentation of the command-line reference or the man page.
 This file contains a list of all translations of the more information link template from
 [set-more-info-link.py]([https://github.com/tldr-pages/tldr/pull/5368](https://github.com/tldr-pages/tldr/blob/main/scripts/set-more-info-link.py#L66-L102)).
