@@ -1,6 +1,6 @@
 # zapier build
 
-> Build a push-able zip of your zapier integration.
+> Build a push-able `zip` of a Zapier integration.
 > More information: <https://github.com/zapier/zapier-platform/blob/main/packages/cli/docs/cli.md#build>.
 
 - Create a build:
