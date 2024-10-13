@@ -15,7 +15,7 @@
 
 `doctl databases pool list {{데이터베이스_아이디}}`
 
-- 데이터베이스에 대한 연결 풀을 생성
+- 데이터베이스에 대한 연결 풀을 생성:
 
 `doctl databases pool create {{데이터베이스_아이디}} {{풀_이름}} --db {{새로운_풀_이름}} --size {{풀_크기}}`
 
