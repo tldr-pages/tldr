@@ -16,7 +16,7 @@
 
 `ollama run {{modelo}} {{mensaje}}`
 
-- Listar los modelos descargados:
+- Lista los modelos descargados:
 
 `ollama list`
 
