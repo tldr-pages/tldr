@@ -1,11 +1,11 @@
 # upnpc
 
 > Configure port forwarding rules on your router via the UPnP protocol.
-> More information: <http://miniupnp.free.fr/>.
+> More information: <https://manned.org/upnpc>.
 
 - Forward external TCP port 80 to port 8080 on a local machine:
 
-`upnpc -a {{xxx.xxx.xxx.xxx}} 8080 80 tcp`
+`upnpc -a {{192.168.0.1}} 8080 80 tcp`
 
 - Delete any port redirection for external TCP port 80:
 
