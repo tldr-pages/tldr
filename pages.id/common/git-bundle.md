@@ -23,7 +23,7 @@
 
 `git bundle verify {{jalan/menuju/berkas.bundle}}`
 
-- Cetak daftar berkas referensi yang terkandung dalam berkas bundle menuju stdout:
+- Cetak daftar berkas referensi yang terkandung dalam berkas bundle menuju `stdout`:
 
 `git bundle unbundle {{jalan/menuju/berkas.bundle}}`
 
