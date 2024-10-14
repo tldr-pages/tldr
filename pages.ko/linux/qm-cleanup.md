@@ -6,4 +6,4 @@
 
 - 리소스 정리:
 
-`qm cleanup {{vm_id}} {{clean-shutdown}} {{guest-requested}}`
+`qm cleanup {{가상_머신_ID}} {{clean-shutdown}} {{guest-requested}}`

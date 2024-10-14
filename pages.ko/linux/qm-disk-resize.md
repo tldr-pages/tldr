@@ -5,4 +5,4 @@
 
 - 가상 디스크에 `n` 기가바이트 추가:
 
-`qm disk resize {{vm_id}} {{disk_name}} +{{n}}G`
+`qm disk resize {{가상_머신_ID}} {{디스크_이름}} +{{n}}G`

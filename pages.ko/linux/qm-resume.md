@@ -5,8 +5,8 @@
 
 - 특정 가상 머신 재개:
 
-`qm resume {{vm_id}}`
+`qm resume {{가상_머신_ID}}`
 
 - 잠금을 무시하고 특정 가상 머신 재개 (루트 권한 필요):
 
-`sudo qm resume {{vm_id}} --skiplock true`
+`sudo qm resume {{가상_머신_ID}} --skiplock true`

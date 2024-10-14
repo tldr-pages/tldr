@@ -5,4 +5,4 @@
 
 - 특정 VM의 상태를 지정된 스냅샷으로 롤백:
 
-`qm rollback {{vm_id}} {{snap_name}}`
+`qm rollback {{가상_머신_ID}} {{snap_name}}`

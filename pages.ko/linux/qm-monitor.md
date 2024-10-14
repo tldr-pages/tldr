@@ -5,4 +5,4 @@
 
 - 특정 가상 머신의 QEMU 모니터 인터페이스에 진입:
 
-`qm monitor {{vm_id}}`
+`qm monitor {{가상_머신_ID}}`

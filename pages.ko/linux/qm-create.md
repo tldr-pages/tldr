@@ -17,8 +17,8 @@
 
 - 기존 머신 교체(아카이브 필요):
 
-`qm create {{100}} --archive {{경로/대상/backup_file.tar}} --force 1`
+`qm create {{100}} --archive {{경로/대상/백업_파일.tar}} --force 1`
 
 - 가상 머신의 상태에 따라 자동으로 실행되는 스크립트 지정:
 
-`qm create {{100}} --hookscript {{경로/대상/script.pl}}`
+`qm create {{100}} --hookscript {{경로/대상/스크립트.pl}}`

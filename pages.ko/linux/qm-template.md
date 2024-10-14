@@ -5,4 +5,4 @@
 
 - 특정 가상 머신으로부터 템플릿 생성:
 
-`qm template {{vm_id}}`
+`qm template {{가상_머신_ID}}`

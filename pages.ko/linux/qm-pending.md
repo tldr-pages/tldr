@@ -5,4 +5,4 @@
 
 - 특정 가상 머신의 가상 머신 구성 가져오기:
 
-`qm pending {{vm_id}}`
+`qm pending {{가상_머신_ID}}`

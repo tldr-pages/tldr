@@ -5,16 +5,16 @@
 
 - 가상 머신을 즉시 중지:
 
-`qm stop {{VM_ID}}`
+`qm stop {{가상_머신_ID}}`
 
 - 가상 머신을 중지하고 최대 10초 기다리기:
 
-`qm stop --timeout {{10}} {{VM_ID}}`
+`qm stop --timeout {{10}} {{가상_머신_ID}}`
 
 - 가상 머신을 중지하고 잠금을 건너뜀 (루트 사용자만 이 옵션 사용 가능):
 
-`qm stop --skiplock {{true}} {{VM_ID}}`
+`qm stop --skiplock {{true}} {{가상_머신_ID}}`
 
 - 가상 머신을 중지하고 스토리지 볼륨 비활성화하지 않음:
 
-`qm stop --keepActive {{true}} {{VM_ID}}`
+`qm stop --keepActive {{true}} {{가상_머신_ID}}`

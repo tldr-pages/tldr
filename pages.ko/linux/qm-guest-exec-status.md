@@ -5,4 +5,4 @@
 
 - 특정 PID의 상태 출력:
 
-`qm guest exec-status {{vm_id}} {{pid}}`
+`qm guest exec-status {{가상_머신_ID}} {{pid}}`

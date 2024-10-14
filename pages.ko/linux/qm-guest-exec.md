@@ -5,16 +5,16 @@
 
 - 게스트 에이전트를 통해 특정 명령 실행:
 
-`qm guest exec {{vm_id}} {{명령어}} {{인수1 인수2 ...}}`
+`qm guest exec {{가상_머신_ID}} {{명령어}} {{인수1 인수2 ...}}`
 
 - 게스트 에이전트를 통해 비동기적으로 특정 명령 실행:
 
-`qm guest exec {{vm_id}} {{인수1 인수2 ...}} --synchronous 0`
+`qm guest exec {{가상_머신_ID}} {{인수1 인수2 ...}} --synchronous 0`
 
 - 10초의 지정된 제한 시간으로 게스트 에이전트를 통해 특정 명령 실행:
 
-`qm guest exec {{vm_id}} {{인수1 인수2 ...}} --timeout {{10}}`
+`qm guest exec {{가상_머신_ID}} {{인수1 인수2 ...}} --timeout {{10}}`
 
 - 게스트 에이전트를 통해 특정 명령 실행 및 STDIN에서 EOF까지 입력을 게스트 에이전트로 전달:
 
-`qm guest exec {{vm_id}} {{인수1 인수2 ...}} --pass-stdin 1`
+`qm guest exec {{가상_머신_ID}} {{인수1 인수2 ...}} --pass-stdin 1`

@@ -5,8 +5,8 @@
 
 - 가상 디스크 이동:
 
-`qm disk move {{vm_id}} {{대상}} {{색인}}`
+`qm disk move {{가상_머신_ID}} {{대상}} {{색인}}`
 
 - 이전 가상 디스크 복사본 삭제:
 
-`qm disk move -delete {{vm_id}} {{대상}} {{색인}}`
+`qm disk move -delete {{가상_머신_ID}} {{대상}} {{색인}}`

@@ -5,4 +5,4 @@
 
 - 내장 nbd 서버 중지:
 
-`qm nbdstop {{VM_ID}}`
+`qm nbdstop {{가상_머신_ID}}`

@@ -5,4 +5,4 @@
 
 - 특정 가상 머신 잠금 해제:
 
-`qm unlock {{vm_id}}`
+`qm unlock {{가상_머신_ID}}`

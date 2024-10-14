@@ -5,4 +5,4 @@
 
 - 특정 가상 머신의 모든 스냅샷 나열:
 
-`qm listsnapshot {{vm_id}}`
+`qm listsnapshot {{가상_머신_ID}}`
