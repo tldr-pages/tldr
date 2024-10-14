@@ -19,7 +19,7 @@
 
 - Opslaan en afsluiten:
 
-`:wq<Enter>`
+`{{ZZ|:wq<Enter>}}`
 
 - Terug naar normale modues en maak de laatste verandering ongedaan:
 
