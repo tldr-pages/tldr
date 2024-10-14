@@ -1,4 +1,3 @@
-vcvarsall
 # vcvarsall
 
 > Microsoft Visual Studio 도구를 사용하기 위해 필요한 환경 변수를 설정합니다.
