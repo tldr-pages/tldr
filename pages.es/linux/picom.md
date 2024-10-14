@@ -5,11 +5,11 @@
 
 - Habilita `picom` durante una sesión:
 
-`picom&`
+`picom &`
 
 - Inicia `picom` como proceso en segundo plano:
 
-`picom-b`
+`picom -b`
 
 - Utiliza un archivo de configuración personalizado:
 
