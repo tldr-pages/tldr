@@ -13,7 +13,7 @@
 
 - Remove multiple packages at once:
 
-`npm uninstall {{package_name1}} {{package_name2}}`
+`npm uninstall {{package_name1 package_name2 ...}}`
 
 - Remove a package and all its dependencies that are no longer needed:
 
