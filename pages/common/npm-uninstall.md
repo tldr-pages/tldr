@@ -3,7 +3,7 @@
 > Remove a package.
 > More information: <https://docs.npmjs.com/cli/v8/commands/npm-uninstall>.
 
-- Remove a package from the project:
+- Remove a package from the current project:
 
 `npm uninstall {{package_name}}`
 
