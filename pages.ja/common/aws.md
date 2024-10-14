@@ -12,10 +12,6 @@
 
 `aws configure sso`
 
-- AWS コマンドのヘルプを参照する:
-
-`aws {{コマンド}} help`
-
 - 操作呼び出しに使用した認証情報の取得（パーミッションのトラブルシューティングに使用します）:
 
 `aws sts get-caller-identity`
@@ -35,3 +31,7 @@
 - JSON CLI スケルトンを生成する（Infrastructure as Code に役立ちます）:
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- AWS コマンドのヘルプを参照する:
+
+`aws {{コマンド}} help`
