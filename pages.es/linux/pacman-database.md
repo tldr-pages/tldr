@@ -1,8 +1,8 @@
 # pacman --database
 
-> Operar en la base de datos de paquetes de Arch Linux.
+> Opera en la base de datos de paquetes de Arch Linux.
 > Modifica ciertos atributos de los paquetes instalados.
-> Ver también: `pacman`.
+> Vea también: `pacman`.
 > Más información: <https://manned.org/pacman.8>.
 
 - Marca un paquete como instalado implícitamente:
@@ -21,7 +21,7 @@
 
 `pacman --database --check --check`
 
-- Muestra sólo mensajes de error:
+- Muestra solo mensajes de error:
 
 `pacman --database --check --quiet`
 
