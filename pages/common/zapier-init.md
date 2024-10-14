@@ -13,4 +13,4 @@
 
 - Show extra debugging output:
 
-`zapier init --debug`
+`zapier init {{-d|--debug}}`
