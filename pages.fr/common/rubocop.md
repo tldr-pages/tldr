@@ -9,7 +9,7 @@
 
 - Vérifie un ou plusieurs fichiers ou répertoires spécifiques :
 
-`rubocop {{chemin/vers/fichier}} {{chemin/vers/dossier}}`
+`rubocop {{chemin/vers/fichier_ou_dossier1 chemin/vers/fichier_ou_dossier2 ...}}`
 
 - Écrit la sortie dans un fichier :
 
@@ -21,11 +21,11 @@
 
 - Exclue un cop :
 
-`rubocop --except {{cop_1}} {{cop_2}}`
+`rubocop --except {{cop_1 cop_2 ...}}`
 
 - Exécute uniquement les cops spécifiés :
 
-`rubocop --only {{cop_1}} {{cop_2}}`
+`rubocop --only {{cop_1 cop_2 ...}}`
 
 - Corrige automatiquement les fichiers (expérimental) :
 

@@ -10,7 +10,7 @@
 
 - Inicia um rebase interativo, que permite os commits serem reordenados, omitidos, combinados ou modificados:
 
-`git rebase -i {{branch_base_alvo_ou_hash_do_commit}}`
+`git rebase {{-i|--interactive}} {{branch_base_alvo_ou_hash_do_commit}}`
 
 - Continua um rebase que foi interrompido por uma falha de mesclagem, após a edição de arquivos conflitantes:
 
@@ -30,8 +30,8 @@
 
 - Reaplica os últimos 5 commits no local, parando para permitir que eles sejam reordenados, omitidos, combinados ou modificados:
 
-`git rebase -i {{HEAD~5}}`
+`git rebase {{-i|--interactive}} {{HEAD~5}}`
 
 - Resolve automaticamente quaisquer conflitos favorecendo a versão da branch de trabalho (a palavra-chave `theirs` tem significado invertido nesse caso):
 
-`git rebase -X theirs {{nome_da_branch}}`
+`git rebase {{-X|--strategy-option}} theirs {{nome_da_branch}}`

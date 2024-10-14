@@ -15,6 +15,6 @@
 
 `cmatrix -r`
 
-- Estableix el retràs d'actualització de la pantalla a 2 centrisegons (20 mil·lisegons):
+- Estableix el retràs d'actualització de la pantalla a 100 centrisegons (1 segons):
 
-`cmatrix -u {{2}}`
+`cmatrix -u 100`

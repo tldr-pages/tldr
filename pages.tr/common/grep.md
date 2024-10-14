@@ -13,7 +13,7 @@
 
 - Bir dizindeki tüm dosyalarda bir kalıbı tekrarlı olarak ara, eşleşmelerin satır numaralarını göster, binary dosyaları göz ardı et:
 
-`grep {{-r|--recursive}} {{-n|--line-number}} --binary-files={{without-match}} "{{aranan_kalıp}}" {{dosya/yolu}}`
+`grep {{-r|--recursive}} {{-n|--line-number}} --binary-files {{without-match}} "{{aranan_kalıp}}" {{dosya/yolu}}`
 
 - Büyük/küçük harfe duyarsız modda genişletilmiş düzenli ifadeleri (`?`, `+`, `{}`, `()` ve `|` destekler) kullan:
 

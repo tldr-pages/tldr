@@ -1,20 +1,28 @@
 # base64
 
-> Encode and decode using Base64 representation.
+> Encode or decode file or `stdin` to/from base64, to `stdout` or another file.
 > More information: <https://keith.github.io/xcode-man-pages/base64.1.html>.
 
-- Encode a file:
+- Encode a file to `stdout`:
 
-`base64 --input={{plain_file}}`
+`base64 {{-i|--input}} {{path/to/file}}`
 
-- Decode a file:
+- Encode a file to the specified output file:
 
-`base64 --decode --input={{base64_file}}`
+`base64 {{-i|--input}} {{path/to/input_file}} {{-o|--output}} {{path/to/output_file}}`
 
-- Encode from `stdin`:
+- Wrap encoded output at a specific width (`0` disables wrapping):
 
-`echo -n "{{plain_text}}" | base64`
+`base64 {{-b|--break}} {{0|76|...}} {{path/to/file}}`
 
-- Decode from `stdin`:
+- Decode a file to `stdout`:
 
-`echo -n {{base64_text}} | base64 --decode`
+`base64 {{-d|--decode}} {{-i|--input}} {{path/to/file}}`
+
+- Encode from `stdin` to `stdout`:
+
+`{{command}} | base64`
+
+- Decode from `stdin` to `stdout`:
+
+`{{command}} | base64 {{-d|--decode}}`

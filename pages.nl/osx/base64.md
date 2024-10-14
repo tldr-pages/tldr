@@ -1,20 +1,28 @@
 # base64
 
-> Encodeer en decodeer met behulp van Base64-representatie.
+> Encodeer of decodeer een bestand of `stdin` van/naar base64, naar `stdout` of een ander bestand.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/base64.1.html>.
 
-- Encodeer een bestand:
+- Encodeer een bestand naar `stdout`:
 
-`base64 --input={{gewoon_bestand}}`
+`base64 {{-i|--input}} {{pad/naar/bestand}}`
 
-- Decodeer een bestand:
+- Encodeer een bestand naar het opgegeven uitvoerbestand:
 
-`base64 --decode --input={{base64_bestand}}`
+`base64 {{-i|--input}} {{pad/naar/invoer_bestand}} {{-o|--output}} {{pad/naar/uitvoer_bestand}}`
 
-- Encodeer vanaf `stdin`:
+- Wrap de uitvoer op een bepaalde breedte (`0` schakelt het uit):
 
-`echo -n "{{platte_tekst}}" | base64`
+`base64 {{-b|--break}} {{0|76|...}} {{pad/naar/bestand}}`
 
-- Decodeer vanaf `stdin`:
+- Decodeer een bestand naar `stdout`:
 
-`echo -n {{base64_tekst}} | base64 --decode`
+`base64 {{-d|--decode}} {{-i|--input}} {{pad/naar/bestand}}`
+
+- Encodeer van `stdin` naar `stdout`:
+
+`{{commando}} | base64`
+
+- Decodeer vanaf `stdin` naar `stdout`:
+
+`{{commando}} | base64 {{-d|--decode}}`

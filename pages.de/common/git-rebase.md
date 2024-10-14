@@ -10,7 +10,7 @@
 
 - Starte einen interaktiven Rebase, bei dem Commits umsortiert, weggelassen, kombiniert oder verändert werden können:
 
-`git rebase -i {{ziel_basisbranch_oder_commithash}}`
+`git rebase {{-i|--interactive}} {{ziel_basisbranch_oder_commithash}}`
 
 - Setze einen Rebase fort, der durch einen Mergefehler unterbrochen wurde, nachdem die Konflikte aufgelöst wurden:
 
@@ -30,8 +30,8 @@
 
 - Bearbeite die 5 letzten Commits der aktuellen Basis um diese neu zu ordnen, auszulassen, kombinieren oder zu bearbeiten:
 
-`git rebase -i {{HEAD~5}}`
+`git rebase {{-i|--interactive}} {{HEAD~5}}`
 
 - Löse Konflikte automatisch auf, indem der aktuelle Branch bevorzugt wird (das Schlüsselwort `theirs` hat in diesem Fall eine umgekehrte Bedeutung):
 
-`git rebase -X theirs {{branch_name}}`
+`git rebase {{-X|--strategy-option}} theirs {{branch_name}}`

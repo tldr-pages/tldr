@@ -19,10 +19,6 @@
 
 `bower list`
 
-- bower 명령에 대한 도움말 표시:
-
-`bower help {{명령}}`
-
 - 패키지에 대한 bower.json 파일 생성:
 
 `bower init`
@@ -30,3 +26,7 @@
 - 특정 종속 버전을 설치하고, bower.json에 추가:
 
 `bower install {{로컬명}}={{패키지}}#{{버젼}} --save`
+
+- bower 명령에 대한 도움말 표시:
+
+`bower help {{명령}}`

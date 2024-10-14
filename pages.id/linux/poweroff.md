@@ -17,7 +17,7 @@
 
 - Matikan segera tanpa menghubungi manajer sistem:
 
-`poweroff --force --force`
+`poweroff --force`
 
 - Tulis entri wtmp shutdown tanpa mematikan sistem:
 

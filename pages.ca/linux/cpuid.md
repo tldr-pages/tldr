@@ -1,7 +1,7 @@
 # cpuid
 
 > Mostra informació detallada sobre totes les CPUs.
-> Més informació: <http://etallen.com/cpuid.html>.
+> Més informació: <https://etallen.com/cpuid.html>.
 
 - Mostra informació de totes les CPUs:
 

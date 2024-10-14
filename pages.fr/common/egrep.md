@@ -9,7 +9,7 @@
 
 - Recherche une chaîne de caractères dans plusieurs fichiers :
 
-`egrep "{{chaîne_recherchée}}" {{chemin/vers/fichier1}} {{chemin/vers/fichier2}} {{chemin/vers/fichier3}}`
+`egrep "{{chaîne_recherchée}}" {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`
 
 - Utilise l'entrée standard au lieu d'un fichier :
 

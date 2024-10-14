@@ -3,10 +3,6 @@
 > Gérer les alias de commandes GitHub CLI depuis la ligne de commande.
 > Plus d'informations : <https://cli.github.com/manual/gh_alias>.
 
-- Affiche l'aide pour la sous-commande `alias` :
-
-`gh alias`
-
 - Liste tous les alias pour lesquels `gh` est configuré :
 
 `gh alias list`
@@ -22,3 +18,7 @@
 - Supprime un alias :
 
 `gh alias delete {{nom_de_l'alias}}`
+
+- Affiche l'aide pour la sous-commande `alias` :
+
+`gh alias`

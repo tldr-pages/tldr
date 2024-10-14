@@ -28,3 +28,7 @@
 - Find out which package owns a file:
 
 `dpkg -S {{path/to/file}}`
+
+- Purge an installed or already removed package, including configuration:
+
+`dpkg -P {{package}}`
