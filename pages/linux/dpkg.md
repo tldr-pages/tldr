@@ -29,6 +29,6 @@
 
 `dpkg -S {{path/to/file}}`
 
-- Purge an installed or already removed package including configuration:
+- Purge an installed or already removed package, including configuration:
 
 `dpkg -P {{package}}`
