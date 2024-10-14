@@ -21,4 +21,4 @@
 
 - Show extra debugging output:
 
-`zapier scaffold --debug`
+`zapier scaffold {{-d|--debug}}`
