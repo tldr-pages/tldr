@@ -18,7 +18,7 @@
 
 - Sauvegarder et fermer :
 
-`:wq<Entrée>`
+`{{ZZ|:wq<Entrée>}}`
 
 - Annuler la dernière opération :
 
