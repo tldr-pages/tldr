@@ -20,7 +20,11 @@
 
 `docker pull {{映像檔}}`
 
-- 從正在運行的容器內打開一個 shell：
+- 顯示已下載的映像檔清單：
+
+`docker images`
+
+- 從正在運行的容器內打開一個互動式 ([i]nteractive) 终端 ([t]ty) shell (`sh`)：
 
 `docker exec -it {{容器名稱}} {{sh}}`
 
