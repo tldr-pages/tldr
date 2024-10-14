@@ -1,25 +1,7 @@
 # apparmor_status
 
-> List currently loaded AppArmor modules.
-> See also: `aa-complain`, `aa-disable`, `aa-enforce`.
-> More information: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_apparmor_status.8>.
+> This command is an alias of `aa-status`.
 
-- Check status:
+- View documentation for the original command:
 
-`sudo apparmor_status`
-
-- Display the number of loaded policies:
-
-`sudo apparmor_status --profiled`
-
-- Display the number of loaded enforicing policies:
-
-`sudo apparmor_status --enforced`
-
-- Display the number of loaded non-enforcing policies:
-
-`sudo apparmor_status --complaining`
-
-- Display the number of loaded enforcing policies that kill tasks:
-
-`sudo apparmor_status --kill`
+`tldr aa-status`
