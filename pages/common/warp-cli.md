@@ -7,7 +7,7 @@
 
 - Register the current device to WARP (must be run before first connection):
 
-`warp-cli register`
+`warp-cli registration new`
 
 - Connect to WARP:
 
