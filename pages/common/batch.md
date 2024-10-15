@@ -1,7 +1,7 @@
 # npm run-script
 
-> This command is an alias of `npm run`.
+> This command is an alias of `at`.
 
 - View documentation for the original command:
 
-`tldr npm run`
+`tldr at`
