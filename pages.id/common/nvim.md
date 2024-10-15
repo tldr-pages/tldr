@@ -30,7 +30,7 @@
 
 - Menyimpan (write) berkas, dan keluar:
 
-`<Esc>:wq<Enter>`
+`{{<Esc>ZZ|<Esc>:wq<Enter>}}`
 
 - Keluar tanpa menyimpan:
 
