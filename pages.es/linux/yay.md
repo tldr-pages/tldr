@@ -20,7 +20,7 @@
 
 `yay -S {{paquete}}`
 
-- Elimina un paquete instalado y tanto sus dependencias como archivos de configuración:
+- Elimina un paquete instalado, sus dependencias y archivos de configuración:
 
 `yay -Rns {{paquete}}`
 
