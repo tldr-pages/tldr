@@ -1,4 +1,4 @@
-# npm run-script
+# batch
 
 > This command is an alias of `at`.
 
