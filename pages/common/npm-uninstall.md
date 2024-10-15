@@ -19,6 +19,3 @@
 
 `npm uninstall {{package_name}} --save`
 
-- Remove a package and update `package.json`:
-
-`npm uninstall {{package_name}} --save-dev`
