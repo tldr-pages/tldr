@@ -8,9 +8,9 @@
 
 `mail`
 
-- Send a typed email message. The command-line below continues after pressing Enter key. Input CC email-id (optional) press Enter key. Input message text (can be multiline). Press Ctrl-D key to complete the message text:
+- Send a typed email message with optional CC. The command-line below continues after pressing `<Enter>`. Input message text (can be multiline). Press `<Ctrl>-D` to complete the message text:
 
-`mail --subject="{{subject line}}" {{to_user@example.com}}`
+`mail --subject="{{subject line}}" {{to_user@example.com}} --cc="{{cc_email_address}}"`
 
 - Send an email that contains file content:
 
