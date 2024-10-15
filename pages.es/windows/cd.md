@@ -14,7 +14,7 @@
 
 - Va a un directorio específico en la misma unidad:
 
-`cd {{ruta\a\directorio}}`
+`cd {{ruta\al\directorio}}`
 
 - Va a un directorio específico en un uni[d]ad diferente:
 
