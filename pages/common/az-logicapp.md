@@ -9,7 +9,7 @@
 `az logicapp create --name {{name}} --resource-group {{resource_group}} --storage-account {{storage_account}}`
 
 - Delete a logic app:
-  
+
 `az logicapp delete --name {{name}} --resource-group {{resource_group}}`
 
 - List logic apps:
