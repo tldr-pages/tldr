@@ -4,7 +4,7 @@
 > Results will be sent to the users mail.
 > More information: <https://manned.org/at>.
 
-- Start the atd daemon:
+- Start the `atd` daemon:
 
 `systemctl start atd`
 
