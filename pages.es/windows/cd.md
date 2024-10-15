@@ -16,7 +16,7 @@
 
 `cd {{ruta\al\directorio}}`
 
-- Va a un directorio específico en un uni[d]ad diferente:
+- Va a un directorio específico en una uni[d]ad diferente:
 
 `cd /d {{C}}:{{ruta\al\directorio}}`
 
