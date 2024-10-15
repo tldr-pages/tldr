@@ -15,7 +15,7 @@
 
 `strace -p {{pid}} -c`
 
-- Show the [T]ime spent in every system call and specify the maximum string size to print:
+- Show the [T]ime spent in every system call and specify the maximum string [s]ize to print:
 
 `strace -p {{pid}} -T -s {{32}}`
 
