@@ -4,7 +4,7 @@
 > To send an email the message body is built from `stdin`.
 > More information: <https://manned.org/mail>.
 
-- Open an interactive prompt to check personal mail
+- Open an interactive prompt to check personal mail:
 
 `mail`
 
