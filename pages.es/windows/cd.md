@@ -18,7 +18,7 @@
 
 - Va a un directorio específico en un uni[d]ad diferente:
 
-`cd /d {{C}}:{{ruta\a\directorio}}`
+`cd /d {{C}}:{{ruta\al\directorio}}`
 
 - Sube al directorio padre del directorio actual:
 
