@@ -20,6 +20,6 @@
 
 `gcloud container clusters get-credentials {{cluster_name}}`
 
-- List tag and digest metadata for a container image:
+- Describe an existing cluster for running containers:
 
-`gcloud container images list-tags {{image}}`
+`gcloud container clusters describe {{cluster_name}}`
