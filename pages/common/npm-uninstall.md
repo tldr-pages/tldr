@@ -18,4 +18,3 @@
 - Remove a package and all its dependencies that are no longer needed:
 
 `npm uninstall {{package_name}} --save`
-
