@@ -1,7 +1,7 @@
 # magick import
 
 > Captura parte o toda la pantalla de un servidor X y guarda la imagen en un archivo.
-> Ver también: `magick`.
+> Vea también: `magick`.
 > Más información: <https://imagemagick.org/script/import.php>.
 
 - Captura toda la pantalla del servidor X en un archivo PostScript:
