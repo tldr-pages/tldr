@@ -14,4 +14,3 @@
 - Remove multiple packages at once:
 
 `npm uninstall {{package_name1 package_name2 ...}}`
-
