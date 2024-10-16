@@ -1,7 +1,7 @@
 # betterlockscreen
 
 > Einfacher, minimalistischer Sperrbildschirm.
-> Mehr Informationen: <https://github.com/betterlockscreen/betterlockscreen>.
+> Weitere Informationen: <https://github.com/betterlockscreen/betterlockscreen>.
 
 - Sperre den Bildschirm:
 
