@@ -12,6 +12,10 @@
 
 `bugreportz -p`
 
+- Schreibe den Inhalt eines Android-Fehlerberichts nach `stdout`:
+
+`bugreportz -s`
+
 - Zeige Hilfe an:
 
 `bugreportz -h`
