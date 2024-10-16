@@ -7,7 +7,7 @@
 
 `pactl info`
 
-- Lista todos los sinks (u otros tipos - los links son salidas y los sink-inputs son flujos de audio activos):
+- Lista todos los sinks (u otros tipos - los sinks son salidas y los sink-inputs son flujos de audio activos):
 
 `pactl list {{sinks}} short`
 
