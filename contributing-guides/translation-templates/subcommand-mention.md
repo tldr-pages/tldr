@@ -263,7 +263,10 @@ Unele subcomenzi precum `example command` au propria lor documentație de utiliz
 
 ### sh
 
-Not translated yet.
+```markdown
+Neke podkomande, kao što je `example command`, imaju svoju dokumentaciju za upotrebu.
+
+```
 
 ---
 
