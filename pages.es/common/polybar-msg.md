@@ -30,4 +30,4 @@
 
 - Envía mensajes solo a una instancia específica de Polybar (todas las instancias por defecto):
 
-`polybar-msg -p {{pid}} {{cmd|acción}} {{carga}}`
+`polybar-msg -p {{pid}} {{cmd|action}} {{carga}}`
