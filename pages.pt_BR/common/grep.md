@@ -13,7 +13,7 @@
 
 - Pesquisa por um padrão em todos os arquivos recursivamente em um diretório, mostrando o número das linhas das correspondências, ignorando arquivos binários:
 
-`grep {{-r|--recursive}} {{-n|--line-number}} --binary-files={{without-match}} "{{padrão_pesquisado}}" {{caminho/para/diretório}}`
+`grep {{-r|--recursive}} {{-n|--line-number}} --binary-files {{without-match}} "{{padrão_pesquisado}}" {{caminho/para/diretório}}`
 
 - Usa expressões regulares estendidas (suporta `?`, `+`, `{}`, `()` and `|`), no modo insensível a maiúsculas e minúsculas:
 

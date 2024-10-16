@@ -25,7 +25,7 @@
 
 - Liste les fichiers avec un format détaillé en triant par taille décroissante :
 
-`ls -lS`
+`ls -lSR`
 
 - Liste avec un format détaillé tous les fichiers en triant par date de modification (les plus anciennes en premier) :
 

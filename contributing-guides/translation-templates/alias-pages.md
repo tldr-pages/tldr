@@ -193,7 +193,7 @@ The templates can be changed when necessary.
 
 > Tämä komento on `example`:n alias.
 
-- Katso alkuperäisen komennon dokumentaatiossa:
+- Näytä alkuperäisen komennon dokumentaatio:
 
 `tldr example`
 ```
@@ -426,7 +426,15 @@ The templates can be changed when necessary.
 
 ### sh
 
-Not translated yet.
+```markdown
+# example
+
+> Ova komanda je pseudonim za `example`.
+
+- Pogledaj dokumentaciju za originalnu komandu:
+
+`tldr example`
+```
 
 ---
 

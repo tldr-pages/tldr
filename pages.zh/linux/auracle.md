@@ -9,11 +9,11 @@
 
 - 显示 AUR 包列表的包信息，包名以一个单独的空格分隔：
 
-`auracle info {{package1}} {{package2}}`
+`auracle info {{package1 package2 ...}}`
 
 - 显示 AUR 包列表的 `PKGBUILD` 文件（编译信息），包名以一个单独的空格分隔：
 
-`auracle show {{package1}} {{package2}}`
+`auracle show {{package1 package2 ...}}`
 
 - 显示已安装 AUR 包的更新：
 

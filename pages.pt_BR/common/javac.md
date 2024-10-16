@@ -9,7 +9,7 @@
 
 - Compile vários arquivos `.java`:
 
-`javac {{arquivo1.java}} {{arquivo2.java}} {{arquivo3.java}}`
+`javac {{arquivo1.java arquivo2.java ...}}`
 
 - Compile todos os arquivos `.java` no diretório atual:
 

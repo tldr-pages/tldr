@@ -1,6 +1,6 @@
 # nix develop
 
-> Run a bash shell that provides the build environment of a derivation.
+> Run a Bash shell that provides the build environment of a derivation.
 > More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-develop.html>.
 
 - Start a shell with all dependencies of a package from nixpkgs available:

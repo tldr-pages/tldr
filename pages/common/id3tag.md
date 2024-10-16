@@ -9,7 +9,7 @@
 
 - Set album title of all MP3 files in the current directory:
 
-`id3tag --album={{album}} {{*.mp3}}`
+`id3tag --album {{album}} {{*.mp3}}`
 
 - Display help:
 
