@@ -7,7 +7,7 @@
 
 `zapier push`
 
-- Disable smart file inclusion (will only include files required by index.js):
+- Disable smart file inclusion (will only include files required by `index.js`):
 
 `zapier push --disable-dependency-detection`
 
