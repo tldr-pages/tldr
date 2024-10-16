@@ -5,13 +5,13 @@
 
 - Muestra todos los mensajes con nivel de prioridad 3 (errores) de este [b]oot:
 
-`journalctl -b --priority={{3}}`
+`journalctl -b --priority=3`
 
 - Elimina los registros diarios con más de 2 días de antigüedad:
 
-`journalctl --vacuum-time={{2d}}`
+`journalctl --vacuum-time=2d`
 
-- Muestra solo los últimos N líneas y sigue los mensajes nuevos (como `tail -f` de un syslog tradicional):
+- Muestra solo las últimas N líneas y sigue los mensajes nuevos (como `tail -f` de un syslog tradicional):
 
 `journalctl --lines {{N}} --follow`
 

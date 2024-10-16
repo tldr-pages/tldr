@@ -8,6 +8,10 @@
 
 `cradle connect {{서버_명}}`
 
+- Cradle 명령 실행:
+
+`cradle {{명령}}`
+
 - 일반적인 도움말 표시:
 
 `cradle help`
@@ -15,7 +19,3 @@
 - 특정 명령에 대한 도움말 표시:
 
 `cradle {{명령}} help`
-
-- Cradle 명령 실행:
-
-`cradle {{명령}}`

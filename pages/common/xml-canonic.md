@@ -1,7 +1,7 @@
 # xml canonic
 
 > Make XML documents canonical.
-> More information: <http://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Make an XML document canonical, preserving comments:
 

@@ -5,7 +5,7 @@
 
 - Converte múltiplas imagens para um único PDF, cada imagem sendo uma página:
 
-`img2pdf {{caminho/da/imagem1.jpg}} {{caminho/da/imagem2.jpg}} --output {{caminho/do/arquivo.pdf}}`
+`img2pdf {{caminho/da/imagem1.ext caminho/da/imagem2.ext ...}} --output {{caminho/do/arquivo.pdf}}`
 
 - Converte para PDF apenas o primeiro quadro de uma imagem com múltiplos quadros:
 
@@ -13,7 +13,7 @@
 
 - Auto-orientar a imagem, usando uma página A4 em modo paisagem e uma borda de 2cm horizontalmente e 5.1cm verticalmente:
 
-`img2pdf {{caminho/do/arquivo.jpg}} --auto-orient --pagesize {{A4^T}} --border {{2cm}}:{{5.1cm}} --output {{caminho/do/arquivo.pdf}}`
+`img2pdf {{caminho/do/arquivo.ext}} --auto-orient --pagesize {{A4^T}} --border {{2cm}}:{{5.1cm}} --output {{caminho/do/arquivo.pdf}}`
 
 - Encolhe apenas imagens maiores para um retângulo de 10cm por 15cm dentro de uma página de 30x20cm:
 
