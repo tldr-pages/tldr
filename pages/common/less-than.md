@@ -11,6 +11,6 @@
 
 `{{command}} << {{EOF}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
 
-- Create a here string and pass that into `stdin`:
+- Create a here string and pass that into `stdin` (achieves the same effect as `echo string |`):
 
 `{{command}} <<< {{string}}`
