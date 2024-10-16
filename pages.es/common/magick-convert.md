@@ -1,6 +1,6 @@
 # magick convert
 
-> Convierte entre formatos de imagen, escala, une, y crea imágenes.
+> Convierte entre formatos de imagen, escala, une y crea imágenes.
 > Nota: esta herramienta (anteriormente `convert`) ha sido reemplazada por `magick` en ImageMagick 7+.
 > Más información: <https://imagemagick.org/script/convert.php>.
 
