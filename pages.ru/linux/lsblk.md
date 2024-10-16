@@ -29,8 +29,8 @@
 
 - Исключить устройства, указанные в списке основных номеров устройств, разделенных запятыми:
 
-`lsblk -e {{1,7}}`
+`lsblk -e {{1,7,...}}`
 
 - Отобразить вывод с указанием списка определённых параметров, разделенных запятыми:
 
-`lsblk --output {{NAME}},{{SERIAL}},{{MODEL}},{{TRAN}},{{TYPE}},{{SIZE}},{{FSTYPE}},{{MOUNTPOINT}}`
+`lsblk --output {{NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`

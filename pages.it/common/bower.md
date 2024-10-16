@@ -20,10 +20,6 @@
 
 `bower list`
 
-- Mostra aiuto per un comando di bower:
-
-`bower help {{comando}}`
-
 - Crea un file bower.json per i tuoi pacchetti:
 
 `bower init`
@@ -31,3 +27,7 @@
 - Installa unoa specifica versione di una dipendenza ed aggiungila al file `bower.json`:
 
 `bower install {{nome_locale}}={{pacchetto}}#{{versione}} --save`
+
+- Mostra aiuto per un comando di bower:
+
+`bower help {{comando}}`

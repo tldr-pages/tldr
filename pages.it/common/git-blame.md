@@ -9,4 +9,4 @@
 
 - Stampa il contenuto di un file annotando ogni riga con l'hash del commit e l'indirizzo email dell'autore:
 
-`git blame -e {{file}}`
+`git blame {{-e|--show-email}} {{file}}`

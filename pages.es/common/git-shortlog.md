@@ -17,7 +17,7 @@
 
 - Muestra un resumen de las últimas cinco confirmaciones (i. e., un rango de revisiones específico):
 
-`git shortlog HEAD~{{5}}..HEAD`
+`git shortlog HEAD~5..HEAD`
 
 - Muestra todos los usuarios, correos electrónicos y número de confirmaciones en la rama actual:
 
