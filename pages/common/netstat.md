@@ -1,6 +1,7 @@
 # netstat
 
 > Display network-related information such as open connections, open socket ports, etc.
+> See also: `ss`.
 > More information: <https://manned.org/netstat>.
 
 - List all ports:

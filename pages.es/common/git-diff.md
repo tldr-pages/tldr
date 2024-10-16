@@ -1,29 +1,29 @@
 # git diff
 
-> Muestra los cambios de los archivos rastreados.
+> Muestra los cambios en los archivos rastreados.
 > Más información: <https://git-scm.com/docs/git-diff>.
 
-- Muestra los cambios sin marcar ni confirmación:
+- Muestra cambios no preparados:
 
 `git diff`
 
-- Muestra todos los cambios sin confirmación, pero incluye los marcados:
+- Muestra todos los cambios no confirmados (incluyendo los preparados):
 
 `git diff HEAD`
 
-- Muestra solo los cambios marcados pero que no tienen confirmación:
+- Muestra sólo los cambios preparados (añadidos, pero aún no confirmados):
 
 `git diff --staged`
 
-- Muestra los cambios de todas las confirmaciones a partir de una fecha y/o tiempo específico (p. ej., `1 week 2 days` o una fecha ISO):
+- Muestra los cambios de todos los confirmados desde una fecha/hora dada (una expresión de fecha, por ejemplo "1 week 2 days" o una fecha ISO):
 
 `git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
 
-- Muestra solo los nombres de los archivos cambiados en una confirmación específica:
+- Muestra estadísticas de diff, como archivos cambiados, histograma y total de inserciones/eliminaciones de líneas:
 
-`git diff --name-only {{confirmación}}`
+`git diff --stat {{confirmación}}`
 
-- Muestra un resumen de los cambios hecho en una confirmación (p. ej. permisos de un archivo):
+- Muestra un resumen de creaciones de archivos, renombramientos y cambios de modo desde una confirmación dada:
 
 `git diff --summary {{confirmación}}`
 
@@ -31,6 +31,6 @@
 
 `git diff {{rama_1}}..{{rama_2}} [--] {{ruta/al/archivo}}`
 
-- Compara diferentes archivos de la rama actual con otra rama:
+- Compara distintos archivos de la rama actual con otra rama:
 
-`git diff {{rama}}:{{ruta/al/archivo}} {{ruta/al/archivo2}}`
+`git diff {{rama}}:{{ruta/al/archivo2}} {{ruta/al/archivo}}`
