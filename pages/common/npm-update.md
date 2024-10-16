@@ -1,7 +1,7 @@
 # npm update
 
 > Update packages in the current project.
-> More information: <https://docs.npmjs.com/cli/v8/commands/npm-update>.
+> More information: <https://docs.npmjs.com/cli/commands/npm-update>.
 
 - Update all packages in the current project:
 
