@@ -1,6 +1,6 @@
 # taskkill
 
-> 프로세스 ID 또는 이름으로 프로세스를 종료합니다.
+> 프로세스 아이디 또는 이름으로 프로세스를 종료합니다.
 > 더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill>.
 
 - 프로세스 아이디로 프로세스 종료:
