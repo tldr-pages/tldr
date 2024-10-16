@@ -5,7 +5,7 @@
 
 - Lihat daftar komit (beserta pesannya) dengan komit-komit serupa pada hulu (upstream):
 
-`git cherry -v`
+`git cherry {{-v|--verbose}}`
 
 - Gunakan sumber hulu dan cabang topik yang lain:
 

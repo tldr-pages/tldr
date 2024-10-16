@@ -24,7 +24,7 @@
 
 - Enable debug logs:
 
-`gcrane {{-v|--verbose} {{subcommand}}`
+`gcrane {{-v|--verbose}} {{subcommand}}`
 
 - Display help:
 

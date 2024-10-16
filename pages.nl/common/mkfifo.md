@@ -14,3 +14,7 @@
 - Ontvang data van benoemde pipe:
 
 `cat {{pad/naar/pipe}}`
+
+- Deel je terminal sessie in real-time:
+
+`mkfifo {{pad/naar/pipe}}; script -f {{pad/naar/pipe}}`

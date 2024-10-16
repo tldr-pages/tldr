@@ -12,10 +12,6 @@
 
 `aws configure sso`
 
-- Zeige Hilfe für ein Kommando an:
-
-`aws {{befehl}} help`
-
 - Zeige Informationen über die eigene angenommene Identität (häufig benutzt zur Fehlersuche):
 
 `aws sts get-caller-identity`
@@ -35,3 +31,7 @@
 - Erstelle einen JSON CLI-Aufbau (hilfreich für Infrastruktur-Automation):
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- Zeige Hilfe für ein Kommando an:
+
+`aws {{befehl}} help`

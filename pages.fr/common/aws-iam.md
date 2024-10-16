@@ -3,10 +3,6 @@
 > CLI pour AWS IAM.
 > Plus d'informations : <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html>.
 
-- Affiche la page d'aide pour `aws iam` (avec toutes les commandes iam disponibles) :
-
-`aws iam help`
-
 - Liste les utilisateurs :
 
 `aws iam list-users`
@@ -34,3 +30,7 @@
 - Liste les clés d'accès pour un utilisateur spécifique :
 
 `aws iam list-access-keys --user-name {{nom_d_utilisateur}}`
+
+- Affiche la page d'aide pour `aws iam` (avec toutes les commandes iam disponibles) :
+
+`aws iam help`

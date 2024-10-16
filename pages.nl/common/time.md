@@ -7,3 +7,7 @@
 - Voer het `commando` uit en print de tijdmetingen naar `stdout`::
 
 `time {{commando}}`
+
+- Maak een eenvoudige stopwatch (werkt alleen in Bash):
+
+`time read`

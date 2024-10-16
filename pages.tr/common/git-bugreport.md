@@ -9,8 +9,8 @@
 
 - Belirtilen dizinde yeni bir hata rapor dosyası oluştur:
 
-`git bugreport --output-directory {{örnek/dizin}}`
+`git bugreport {{-o|--output-directory}} {{örnek/dizin}}`
 
 - `strftime` formatında belirtilmiş bir dosya adı ekiyle yeni bir rapor dosyası oluştur:
 
-`git bugreport --suffix {{%m%d%y}}`
+`git bugreport {{-s|--suffix}} {{%m%d%y}}`

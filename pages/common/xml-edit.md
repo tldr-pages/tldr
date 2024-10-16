@@ -1,7 +1,7 @@
 # xml edit
 
 > Edit an XML document.
-> More information: <http://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Delete elements matching an XPATH from an XML document:
 

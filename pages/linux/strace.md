@@ -15,9 +15,9 @@
 
 `strace -p {{pid}} -c`
 
-- Show the [T]ime spent in every system call:
+- Show the [T]ime spent in every system call and specify the maximum string [s]ize to print:
 
-`strace -p {{pid}} -T`
+`strace -p {{pid}} -T -s {{32}}`
 
 - Start tracing a program by executing it:
 
