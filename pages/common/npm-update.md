@@ -9,12 +9,12 @@
 
 - Update a specific package in the current project:
 
-`npm update {{package_name}}`
+`npm update {{package}}`
 
 - Update a package globally:
 
-`npm update -g {{package_name}}`
+`npm update -g {{package}}`
 
 - Update multiple packages at once:
 
-`npm update {{package_name1 package_name2 ...}}`
+`npm update {{package1 package2 ...}}`
