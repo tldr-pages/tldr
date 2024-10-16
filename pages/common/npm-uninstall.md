@@ -15,6 +15,3 @@
 
 `npm uninstall {{package_name1 package_name2 ...}}`
 
-- Remove a package and all its dependencies that are no longer needed:
-
-`npm uninstall {{package_name}} --save`
