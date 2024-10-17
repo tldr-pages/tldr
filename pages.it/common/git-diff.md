@@ -11,19 +11,19 @@
 
 `git diff HEAD`
 
-- Mostra solo le modifiche nell'area di stage (aggiunte, ma non ancora committate):
+- Mostra solo le modifiche nell'area di stage (aggiunte, ma non ancora aggiunte ad un commit):
 
 `git diff --staged`
 
-- Mostra le modifiche di tutti i commit a partire da una certa data/ora (un'espressione temporale come "1 week 2 days" o una data ISO):
+- Mostra le modifiche di tutti i commit a partire da una certa data/ora (un'espressione temporale come ad esempio "1 week 2 days" o una data ISO):
 
 `git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
 
-- Mostra solo i nomi dei file modificati a partire da un dato commit:
+- Mostra le differenze tramite delle statistiche come quali file modificati o l'istogramma e il totale delle righe inserite/cancellate:
 
-`git diff --name-only {{commit}}`
+`git diff --stat {{commit}}`
 
-- Stampa un riepilogo dei file creati, rinominati o la cui modalità è cambiata a partire da un dato commit:
+- Mostra un riepilogo dei file creati, rinominati o la cui modalità è cambiata a partire da un dato commit:
 
 `git diff --summary {{commit}}`
 

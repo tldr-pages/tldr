@@ -1,28 +1,28 @@
 # boot
 
-> Strumenti di build per il linguaggio di programmazione Clojure.
+> Strumenti di implementazione per il linguaggio di programmazione Clojure.
 > Maggiori informazioni: <https://github.com/boot-clj/boot>.
 
-- Avvia una sessione REPL con il progetto o da sola:
+- Avvia una sessione REPL con il progetto o autonomamente (standalone):
 
 `boot repl`
 
-- Builda un singolo `uberjar`:
+- Implementa un singolo `uberjar`:
 
 `boot jar`
 
-- Mostra aiuto per un comando:
+- Genera lo scheletro di un nuovo progetto basato su un modello di codice esistente:
 
-`boot cljs --help`
+`boot --dependencies boot/new new --template {{nome_del_modello}} --name {{nome_del_progetto}}`
 
-- Genera le fondamenta per un nuovo progetto basandoti su una template:
-
-`boot --dependencies boot/new new --template {{nome_template}} --name {{nome_progetto}}`
-
-- Builda per development (se si sta utilizzando il template boot/new):
+- Implementa l'ambiente di sviluppo (se si sta utilizzando il modello di codice boot/new):
 
 `boot dev`
 
-- BUilda per produzione (se si sta utilizzando il template boot/new):
+- Implementa l'ambiente di produzione (se si sta utilizzando il modello di codice boot/new):
 
 `boot prod`
+
+- Mostra la descrizione di uno specifico comando:
+
+`boot {{task}} --help`
