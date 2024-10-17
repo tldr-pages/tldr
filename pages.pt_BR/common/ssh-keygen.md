@@ -15,9 +15,9 @@
 
 `ssh-keygen -t {{rsa}} -b {{4096}} -C "{{comentário|email}}"`
 
-- Remove as chaves de um host do arquivo known_hosts (útil quando um host conhecido tem uma nova chave):
+- Remove as chaves de um servidor do arquivo known_hosts (útil quando um servidor conhecido tem uma nova chave):
 
-`ssh-keygen -R {{host_remoto}}`
+`ssh-keygen -R {{servidor_remoto}}`
 
 - Obtém a impressão digital de uma chave em MD5 Hex:
 
