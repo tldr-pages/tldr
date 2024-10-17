@@ -15,7 +15,7 @@
 
 `npm token revoke {{token_id}}`
 
-- Create a token with read-only or publish access:
+- Create a token with read-only access:
 
 `npm token create --read-only`
 
