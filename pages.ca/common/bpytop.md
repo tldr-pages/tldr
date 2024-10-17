@@ -11,10 +11,6 @@
 
 `bpytop -m`
 
-- Mostra la versió:
-
-`bpytop -v`
-
 - Canvia a mode minimalista:
 
 `m`
@@ -26,3 +22,7 @@
 - Canvia ajustaments:
 
 `M`
+
+- Mostra la versió:
+
+`bpytop -v`

@@ -8,6 +8,6 @@
 
 `time {{command}}`
 
-- Create a very simple stopwatch (only works in bash):
+- Create a very simple stopwatch (only works in Bash):
 
 `time read`

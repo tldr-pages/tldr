@@ -9,20 +9,20 @@
 
 - Yapılan tüm commit'lerin en çok commit yapan yazar ismi en üstte olacak şekilde özetini göster:
 
-`git shortlog -n`
+`git shortlog {{-n|--numbered}}`
 
 - Yapılan tüm commit'lerin yazar bilgilerini (isim ve e-posta) gösterecek şekilde özetini göster:
 
-`git shortlog -c`
+`git shortlog {{-c|--committer}}`
 
 - En son yapılan 5 commit'in özetini göster (sürüm aralığı belirt):
 
-`git shortlog HEAD~{{5}}..HEAD`
+`git shortlog HEAD~5..HEAD`
 
 - Mevcut daldaki tüm kullanıcıları, e-postalarını ve yaptıkları commit sayısını göster:
 
-`git shortlog -sne`
+`git shortlog {{-s|--summary}} {{-n|--numbered}} {{-e|--email}}`
 
 - Tüm dallardaki tüm kullanıcıları, e-postalarını ve yaptıkları commit sayısını göster:
 
-`git shortlog -sne --all`
+`git shortlog {{-s|--summary}} {{-n|--numbered}} {{-e|--email}} --all`

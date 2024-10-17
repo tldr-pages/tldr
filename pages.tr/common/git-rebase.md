@@ -10,7 +10,7 @@
 
 - Commit'lerin sıralanması, çıkartılması, birleştirilmesi veya modifiye edilmesine izin vermek için tekrar temellemeyi etkileşimli olacak şekilde başlat:
 
-`git rebase -i {{hedef_taban_dalı_veya_commit_değeri}}`
+`git rebase {{-i|--interactive}} {{hedef_taban_dalı_veya_commit_değeri}}`
 
 - Bir birleştirme hatası tarafından durdurulan tekrar temelleme işlemini çekişen dosyaları düzenledikten sonra devam ettir:
 
@@ -30,8 +30,8 @@
 
 - Son 3 commit'i etkileşimli olmayacak şekilde yeniden uygula:
 
-`git rebase -i {{HEAD~5}}`
+`git rebase {{-i|--interactive}} {{HEAD~5}}`
 
 - Herhangi bir çatışmayı çalışan dal sürümünü kurtarmak üzere otomatik olarak çöz (`theirs` argümanı burada ters anlama sahip):
 
-`git rebase -X theirs {{dal_ismi}}`
+`git rebase {{-X|--strategy-option}} theirs {{dal_ismi}}`

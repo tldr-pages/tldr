@@ -20,7 +20,11 @@
 
 `docker pull {{镜像}}`
 
-- 从正在运行的容器内打开一个 shell：
+- 显示已下载的镜像清单：
+
+`docker images`
+
+- 从正在运行的容器内打开一个交互式 ([i]nteractive) 终端 ([t]ty) shell (`sh`)：
 
 `docker exec -it {{容器名称}} {{sh}}`
 

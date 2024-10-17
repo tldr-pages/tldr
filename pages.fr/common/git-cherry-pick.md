@@ -14,7 +14,7 @@
 
 - Appliquer plusieurs commits non séquentiels à la branche courante :
 
-`git cherry-pick {{commit_1}} {{commit_2}}`
+`git cherry-pick {{commit_1 commit_2 ...}}`
 
 - Appliquer les changements d'un commit à la branche courante sans créer de commit :
 
