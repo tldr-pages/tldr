@@ -23,10 +23,6 @@
 
 `git diff --stat {{commit}}`
 
-- Mostra solo i nomi dei file modificati a partire da un dato commit:
-
-`git diff --name-only {{commit}}`
-
 - Mostra un riepilogo dei file creati, rinominati o la cui modalità è cambiata a partire da un dato commit:
 
 `git diff --summary {{commit}}`

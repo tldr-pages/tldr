@@ -12,19 +12,11 @@
 
 `curl --location --dump-header - {{https://example.com}}`
 
-- Scarica il contenuto di un URL in un file:
-
-`curl {{http://example.com}} --output {{nome_file}}`
-
 - Scarica un file salvando l'[O]utput con lo stesso nome indicato nell'URL:
 
 `curl --remote-name {{https://example.com/nome_file.zip}}`
 
-- Scarica un file, seguendo reindirizzamenti, e continuando automaticamente (riprendendo) un trasferimento precedente:
-
-`curl --fail --remote-name --location --continue-at - {{http://example.com/nome_file}}`
-
-- Invia dati form-encoded (con una richiesta POST di tipo `application/x-www-form-urlencoded`):
+- Invia dati form-encoded (con una richiesta POST di tipo `application/x-www-form-urlencoded`). Utilizza `--data @file_name` oppure `--data @'-'` per leggere da `stdin`::
 
 `curl --data {{'nome=mario'}} {{http://example.com/form}}`
 
@@ -36,17 +28,9 @@
 
 `curl --data {{'{"name":"mario"}'}} --header {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
-- Utilizza un nome utente ed una password per l'autenticazione con il server:
-
-`curl --user {{utente}} {{http://example.com}}`
-
-- Utilizza un certificato ed richiedere per una chiave per una risorsa, ignorando la validazione dei certificati:
-
-`curl --cert {{client.pem}} --key {{chiave.pem}} --insecure {{https://example.com}}`
-
 - Invia il certificato client e la chiave per una risorsa omettendo la validazione del certificato:
 
-`curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://example.com}}`
+`curl --cert {{cliente.pem}} --key {{chiave.pem}} --insecure {{https://example.com}}`
 
 - Risolve un hostname con un indirizzo IP personalizzato con un output [v] dettagliato (simile alla modifica del file `/etc/hosts` per la risoluzione di un DNS personalizzato):
 
