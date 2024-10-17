@@ -1,4 +1,4 @@
-# Sistema de archivos btrfs
+# btrfs filesystem
 
 > Gestiona sistemas de archivos btrfs.
 > Más información: <https://btrfs.readthedocs.io/en/latest/btrfs-filesystem.html>.
