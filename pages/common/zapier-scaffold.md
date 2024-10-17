@@ -1,7 +1,7 @@
 # zapier scaffold
 
 > Add a starting trigger, create, search, or resource to an integration.
-> More information: <https://github.com/zapier/zapier-platform/blob/main/packages/cli/docs/cli.md#scaffold>.
+> More information: <https://platform.zapier.com/reference/cli#scaffold>.
 
 - Scaffold a new trigger, create, search, or resource:
 

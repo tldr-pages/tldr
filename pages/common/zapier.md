@@ -2,7 +2,7 @@
 
 > Create, automate, and manage zapier integrations.
 > Some subcommands such as `build`, `init`, `scaffold`, `push`, `test`, etc. have their own usage documentation.
-> More information: <https://github.com/zapier/zapier-platform/blob/main/packages/cli/docs/cli.md>.
+> More information: <https://platform.zapier.com/reference/cli>.
 
 - Connect to a Zapier account:
 
