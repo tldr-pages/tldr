@@ -3,7 +3,7 @@
 > Gestiona sistemas de archivos btrfs.
 > Más información: <https://btrfs.readthedocs.io/en/latest/btrfs-filesystem.html>.
 
-- Muestra el uso del sistema de archivos (opcionalmente ejecutarlo como root para mostrar información detallada):
+- Muestra el uso del sistema de archivos (de manera opcional ejecutarlo como root para mostrar información detallada):
 
 `btrfs filesystem usage {{ruta/al_montaje_btrfs}}`
 

@@ -8,7 +8,7 @@
 
 `sudo btrfs subvolume create {{ruta/al/subvolumen}}`
 
-- Lista subvolumenes:
+- Lista subvolúmenes:
 
 `sudo btrfs subvolume list {{ruta/al/punto_de_montaje}}`
 
