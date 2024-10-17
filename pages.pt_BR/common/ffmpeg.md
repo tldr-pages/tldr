@@ -5,7 +5,11 @@
 
 - Extrai o som de um vídeo e salva-o como MP3:
 
-`ffmpeg -i {{caminho/para/vídeo.mp4}} -vn {{caminho/para/som}}.mp3`
+`ffmpeg -i {{caminho/para/vídeo.mp4}} -vn {{caminho/para/som.mp3}}`
+
+- Transcodifica um arquivo FLAC to formato de CD Red Book (44100kHz, 16bit):
+
+`ffmpeg -i {{caminho/para/audio_de_entrada.flac}} -ar 44100 -sample_fmt s16 {{caminho/para/audio_de_saida.wav}}`
 
 - Salva um vídeo como GIF, escalando a altura para 1000px e definindo a taxa de quadros para 15:
 
@@ -13,21 +17,17 @@
 
 - Combina imagens numeradas (`quadro_1.jpg`, `quadro_2.jpg`, etc) em um vídeo ou GIF:
 
-`ffmpeg -i {{caminho/para/quadro_%d.jpg}} -f image2 {{vídeo|gif}}`
-
-- Extrai um único quadro de um vídeo no tempo mm:ss e o salva como uma imagem de resolução 128x128:
-
-`ffmpeg -ss {{mm:ss}} -i {{caminho/para/vídeo.mp4}} -frames 1 -s {{128x128}} -f image2 {{caminho/para/quadro.png}}`
+`ffmpeg -i {{caminho/para/quadro_%d.jpg}} -f image2 {{vídeo.mpg|vídeo.gif}}`
 
 - Corta um vídeo de um dado tempo inicial mm:ss até um tempo final mm2:ss2 (omita a opção -to para cortar o vídeo até o final):
 
-`ffmpeg -ss {{mm:ss}} -to {{mm2:ss2}} -i {{caminho/para/vídeo_entrada.mp4}} -codec copy {{caminho/para/vídeo_saída.mp4}}`
+`ffmpeg -i {{caminho/para/vídeo_entrada.mp4}} -ss {{mm:ss}} -to {{mm2:ss2}} -codec copy {{caminho/para/vídeo_saída.mp4}}`
 
 - Converte um vídeo AVI para MP4. AAC Áudio @ 128kbit, h264 Vídeo @ CRF 23:
 
 `ffmpeg -i {{caminho/para/vídeo_entrada}}.avi -codec:a aac -b:a 128k -codec:v libx264 -crf 23 {{caminho/para/vídeo_saída}}.mp4`
 
-- Remixa um vídeo MKV para MP4 sem recodificar áudio ou vídeo:
+- Remixa um vídeo MKV para MP4 sem recodificar o áudio ou o vídeo:
 
 `ffmpeg -i {{caminho/para/vídeo_entrada}}.mkv -codec copy {{caminho/para/vídeo_saída}}.mp4`
 
