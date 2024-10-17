@@ -10,7 +10,7 @@
 
 - Open in incognito mode (use `--inprivate` for Microsoft Edge):
 
-`{{chromium --incognito|microsoft-edge --inprivate}} {{example.com}}`
+`{{chromium --incognito|msedge --inprivate}} {{example.com}}`
 
 - Open in a new window:
 
