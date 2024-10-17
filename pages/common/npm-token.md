@@ -7,7 +7,7 @@
 
 `npm token create`
 
-- List all tokens associated with your account:
+- List all tokens associated with an account:
 
 `npm token list`
 
