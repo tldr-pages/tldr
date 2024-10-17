@@ -1,17 +1,17 @@
 # wget
 
-> In PowerShell, this command may be an alias of `Invoke-WebRequest` when the original `wget` program (<https://www.gnu.org/software/wget>) is not properly installed.
-> Note: if version command returns an error, PowerShell may have substituted this command with `Invoke-WebRequest`.
-> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+> En PowerShell, este comando puede ser un alias de `Invoke-WebRequest` cuando el programa original `wget` (<https://www.gnu.org/software/wget>) no está correctamente instalado.
+> Nota: si el comando version devuelve un error, PowerShell puede haber sustituido este comando por `Invoke-WebRequest`.
+> Más información: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- View documentation for the original `wget` command:
+- Consulta la documentación del comando original `wget`:
 
 `tldr wget -p common`
 
-- View documentation for PowerShell's `Invoke-WebRequest` command:
+- Vea documentación del comando `Invoke-WebRequest` de PowerShell:
 
 `tldr invoke-webrequest`
 
-- Display version:
+- Muestra versión:
 
 `wget --version`
