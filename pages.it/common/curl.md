@@ -8,7 +8,7 @@
 
 `curl {{https://example.com}}`
 
-- Esegue una richiesta HTTP GET, [L] segue eventuali reindirizzamenti `3xx` e [D]stampa il contenuto e la intestazione della risposta su `stdout`:
+- Esegue una richiesta HTTP GET, [L] segue eventuali reindirizzamenti `3xx` e [D] stampa il contenuto e la intestazione della risposta su `stdout`:
 
 `curl --location --dump-header - {{https://example.com}}`
 
@@ -16,9 +16,9 @@
 
 `curl --remote-name {{https://example.com/nome_file.zip}}`
 
-- Invia dati form-encoded (con una richiesta POST di tipo `application/x-www-form-urlencoded`). Utilizza `--data @file_name` oppure `--data @'-'` per leggere da `stdin`::
+- Invia [d]ati form-encoded (con una richiesta POST di tipo `application/x-www-form-urlencoded`). Utilizza `--data @file_name` oppure `--data @'-'` per leggere da `stdin`:
 
-`curl --data {{'nome=mario'}} {{http://example.com/form}}`
+`curl -X POST --data {{'name=mario'}} {{http://example.com/form}}`
 
 - Invia una richiesta con una intestazione aggiuntiva utilizzando un metodo HTTP personalizzato attraverso un pro[x]y (come BurpSuite) ignorando i certificati autofirmati non sicuri:
 

@@ -24,6 +24,6 @@
 
 `bedtools bamtobed -i {{percorso/del/file.bam}} > {{percorso/del/file.bed}}`
 
-- Trova per tutte le proprietà presenti nel `file1` la più vicina nel `file2` e aggiunge la loro [d]istanza in una ulteriore colonna al risultato finale (i file in input devono essere ordinati):
+- Trova per tutte le proprietà presenti nel `file1.bed` la più vicina nel `file2.bed` e aggiunge la loro [d]istanza in una ulteriore colonna al risultato finale (i file in input devono essere ordinati):
 
 `bedtools closest -a {{percorso/del/file1.bed}} -b {{percorso/del/file2.bed}} -d`
