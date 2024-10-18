@@ -5,7 +5,7 @@
 
 - Install a module (sole -i is optional):
 
-`cpan -i {{module_name}}`
+`cpan {{-i}} {{module_name}}`
 
 - Force install a module (must use -i):
 
