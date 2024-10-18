@@ -1,16 +1,16 @@
 # chromium
 
 > Aplikasi peramban web (web browser) bersumber terbuka yang terutama dikembangkan dan dikelola oleh Google.
-> Catatan: Anda mungkin perlu menggantikan perintah `chromium` dengan peramban tujuan Anda, seperti `brave`, `google-chrome`. `microsoft-edge`/`msedge`, `opera`, atau `vivaldi`.
+> Catatan: Anda mungkin perlu menggantikan perintah `chromium` dengan peramban tujuan Anda, seperti `brave`, `google-chrome`, `opera`, atau `vivaldi`.
 > Informasi lebih lanjut: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
 - Buka suatu URL atau berkas:
 
 `chromium {{https://example.com|jalan/menuju/berkas.html}}`
 
-- Buka dalam mode peramban privat (incognito) (gunakan `--inprivate` untuk Microsoft Edge):
+- Buka dalam mode peramban privat (incognito):
 
-`{{chromium --incognito|microsoft-edge --inprivate}} {{example.com}}`
+`chromium --incognito {{example.com}}`
 
 - Buka dalam jendela aplikasi baru:
 

@@ -1,4 +1,4 @@
-# msedge
+# microsoft-edge
 
 > The Microsoft Edge command-line utility is available as `msedge` on Windows and `microsoft-edge` for other platforms.
 > More information: <https://microsoft.com/edge>.
