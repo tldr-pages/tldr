@@ -13,7 +13,7 @@
 
 - Whether to recurse through repositories:
 
-`grance copy {{source}} {{target}} {{-r|--recursive}}`
+`gcrane copy {{source}} {{target}} {{-r|--recursive}}`
 
 - Display help:
 
