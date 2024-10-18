@@ -10,7 +10,7 @@
 
 - Interseca 2 file in base a una [l]eft [o]uter [j]oin ovvero una unione d'insieme di dati ordinati in colonne che restituisce i dati della tabella di sinistra. Es: riporta ogni proprietà presente nel `file1` e NULL dove non c'è sovrapposizione con `file2`:
 
-`bedtools intersect -a {{percorso/del/file1}} -b {{percorso/del/file2}} -lof > {{percorso/del/file_output}}`
+`bedtools intersect -a {{percorso/del/file1}} -b {{percorso/del/file2}} -loj > {{percorso/del/file_output}}`
 
 - Usa un algoritmo più efficiente per intersecare due file precedentemente ordinati:
 
