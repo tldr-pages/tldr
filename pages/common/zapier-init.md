@@ -1,7 +1,7 @@
 # zapier init
 
 > Initialize a new Zapier integration.
-> More information: <https://github.com/zapier/zapier-platform/blob/main/packages/cli/docs/cli.md#init>.
+> More information: <https://platform.zapier.com/reference/cli#init>.
 
 - Initialize a new Zapier integration:
 
