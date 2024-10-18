@@ -1,7 +1,7 @@
 # zapier convert
 
 > Convert a Visual Builder integration to a CLI integration.
-> More information: <https://github.com/zapier/zapier-platform/blob/main/packages/cli/docs/cli.md#convert>.
+> More information: <https://platform.zapier.com/reference/cli#convert>.
 
 - Convert a visual builder integration:
 
