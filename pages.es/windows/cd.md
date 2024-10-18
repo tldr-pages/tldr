@@ -26,7 +26,7 @@
 
 - Va al directorio principal del usuario actual:
 
-`cd %perfildeusuario%`
+`cd %userprofile%`
 
 - Va a la raíz de la unidad actual:
 
