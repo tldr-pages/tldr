@@ -7,7 +7,7 @@
 
 `cpan {{-i}} {{module_name}}`
 
-- Force install a module (must use -i):
+- Force install a module (`-i` is not optional):
 
 `cpan -fi {{module_name}}`
 
