@@ -1,7 +1,7 @@
 # gcrane ls
 
 > Toon de tags in een repository.
-> Complexere vorm dan `crane ls`, die het mogelijk maakt om tags, manifesten en sub-repositories te lijsten.
+> Complexere vorm dan `crane ls`, die het mogelijk maakt om tags, manifesten en sub-repositories te tonen.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 
 - Toon de tags:
