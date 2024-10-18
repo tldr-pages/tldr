@@ -1,7 +1,7 @@
 # cpan
 
 > Query, download and build perl modules from CPAN sites.
-> More information: <https://manned.org/man/cpan>.
+> More information: <https://manned.org/cpan>.
 
 - Install a module (sole -i is optional):
 
