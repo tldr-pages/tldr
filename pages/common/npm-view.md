@@ -29,4 +29,4 @@
 
 - View the maintainers of a package:
 
-`npm view {{package_name}} maintainers`
+`npm view {{package}} maintainers`
