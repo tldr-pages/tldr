@@ -26,7 +26,7 @@
 
 - Display the list of manually included/excluded files:
 
-`lbu {{include|exclude}} -l`
+`lbu {{inc|include|ex|exclude}} -l`
 
 - List backups (previously created overlays):
 
