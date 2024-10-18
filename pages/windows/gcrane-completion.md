@@ -18,7 +18,7 @@
 
 - Load completions for every new session (powershell):
 
-`Add above command to powershell profile`
+`gcrane completion powershell | Out-String | Invoke-Expression`
 
 - Display help:
 
