@@ -3,7 +3,7 @@
 > Query, download and build perl modules from CPAN sites.
 > More information: <https://manned.org/cpan>.
 
-- Install a module (sole -i is optional):
+- Install a module (`-i` is optional):
 
 `cpan {{-i}} {{module_name}}`
 
