@@ -1,13 +1,13 @@
 # rpcinfo
 
-> Lijst programma's via RPC op externe computers.
+> Toon programma's via RPC op externe computers.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/rpcinfo>.
 
-- Lijst alle programma's geregistreerd op de lokale computer:
+- Toon alle programma's geregistreerd op de lokale computer:
 
 `rpcinfo`
 
-- Lijst alle programma's geregistreerd op een externe computer:
+- Toon alle programma's geregistreerd op een externe computer:
 
 `rpcinfo /p {{computer_naam}}`
 

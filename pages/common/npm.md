@@ -28,10 +28,10 @@
 
 `npm uninstall {{package_name}}`
 
-- List of locally installed dependencies:
+- List all locally installed dependencies:
 
 `npm list`
 
-- List top-level globally installed packages:
+- List all top-level globally installed packages:
 
 `npm list {{-g|--global}} --depth {{0}}`

@@ -8,7 +8,7 @@
 
 `killall {{proces_naam}}`
 
-- Lijst beschikbare signaalnamen (te gebruiken zonder het 'SIG'-voorvoegsel):
+- Toon beschikbare signaalnamen (te gebruiken zonder het 'SIG'-voorvoegsel):
 
 `killall --list`
 
