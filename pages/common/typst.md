@@ -4,6 +4,14 @@
 > Note: Specifying the output location is optional.
 > More information: <https://github.com/typst/typst>.
 
+- Initialize a new Typst project in a given directory using a template:
+
+`typst init "{{template}}" {{path/to/directory}}`
+
+- Initialize a new Typst project in a given directory using the `@preview/charged-ieee` template:
+
+`typst init "@preview/charged-ieee" {{path/to/directory}}`
+
 - Compile a Typst file:
 
 `typst compile {{path/to/source.typ}} {{path/to/output.pdf}}`
