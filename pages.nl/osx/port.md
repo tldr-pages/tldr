@@ -11,7 +11,7 @@
 
 `sudo port install {{pakket}}`
 
-- Lijst geïnstalleerde pakketten:
+- Toon geïnstalleerde pakketten:
 
 `port installed`
 

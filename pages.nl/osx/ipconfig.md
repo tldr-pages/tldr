@@ -3,7 +3,7 @@
 > Bekijk en beheer de IP-configuratiestatus.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/ipconfig.8.html>.
 
-- Lijst alle netwerkinterfaces op:
+- Toon alle netwerkinterfaces:
 
 `ipconfig getiflist`
 

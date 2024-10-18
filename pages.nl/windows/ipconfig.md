@@ -3,7 +3,7 @@
 > Toon en beheer de netwerkconfiguratie van Windows.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
 
-- Lijst alle netwerkadapters op:
+- Toon alle netwerkadapters:
 
 `ipconfig`
 

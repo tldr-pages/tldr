@@ -11,7 +11,7 @@
 
 `bleachbit --shred {{pad/naar/bestand}}`
 
-- Lijst beschikbare schoonmaakopties:
+- Toon beschikbare schoonmaakopties:
 
 `bleachbit --list-cleaners`
 
