@@ -9,7 +9,7 @@
 
 - 원격 소스로부터 애플리케이션 설치:
 
-`flatpak install {{remote_name}} {{com.example.app}}`
+`flatpak install {{원격_소스_이름}} {{com.example.app}}`
 
 - 설치된 애플리케이션 목록 보기 (런타임 제외):
 
@@ -21,7 +21,7 @@
 
 - 원격 소스 추가:
 
-`flatpak remote-add --if-not-exists {{remote_name}} {{remote_url}}`
+`flatpak remote-add --if-not-exists {{원격_소스_이름}} {{원격_소스_URL}}`
 
 - 설치된 애플리케이션 제거:
 
