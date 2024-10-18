@@ -9,7 +9,7 @@
 
 - Ändere die Text[C]olor (standardmäßig grün):
 
-`cmatrix -C {{rot}}`
+`cmatrix -C {{red}}`
 
 - Aktiviere den [R]egenbogen-Modus:
 
