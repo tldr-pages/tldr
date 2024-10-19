@@ -4,7 +4,7 @@
 > Manage Node.js projects and their module dependencies.
 > More information: <https://www.npmjs.com>.
 
-- Create a `package.json` file with default values (omit --yes to do it interactively):
+- Create a `package.json` file with default values (omit `--yes` to do it interactively):
 
 `npm init {{-y|--yes}}`
 
