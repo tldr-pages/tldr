@@ -15,9 +15,9 @@
 
 `oxipng "{{*.png}}"`
 
-- Compress a file with a set optimization level (0-6 or max; default is 2):
+- Compress a file with a set optimization level (default is 2):
 
-`oxipng --opt {{level}} {{path/to/file.png}}`
+`oxipng --opt {{0|1|2|3|4|5|6|max}} {{path/to/file.png}}`
 
 - Set the PNG interlacing type (0 removes interlacing, 1 applies Adam7 interlacing, 'keep' preserves existing interlacing; default is 0):
 
