@@ -23,7 +23,7 @@
 
 `npm token create --publish`
 
-- Automatically configure an npm token in your global .npmrc file when you log in:
+- Automatically configure an npm token in your global `.npmrc` file when you log in:
 
 `npm login`
 
