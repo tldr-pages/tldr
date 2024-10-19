@@ -1,16 +1,16 @@
 # chromium
 
 > Open-source web browser principally developed and maintained by Google.
-> Note: You may need to replace the `chromium` command with your desired web browser, such as `brave`, `google-chrome`, `opera`, or `vivaldi`.
+> Note: You may need to replace the `chromium` command with your desired web browser, such as `brave`, `google-chrome`, `microsoft-edge`/`msedge`, `opera`, or `vivaldi`.
 > More information: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
 - Open a specific URL or file:
 
 `chromium {{https://example.com|path/to/file.html}}`
 
-- Open in incognito mode:
+- Open in incognito mode (use `--inprivate` for Microsoft Edge):
 
-`chromium --incognito {{example.com}}`
+`{{chromium --incognito|msedge --inprivate}} {{example.com}}`
 
 - Open in a new window:
 
