@@ -16,7 +16,7 @@
 
 `curl --fail --remote-name --location --continue-at - {{http://example.com/filename}}`
 
-- ارسال داده(فرم) رمزگذاری شده (درخواست POST از نوع application/x-www-form-urlencoded). برای خواندن از STDIN، از --data @file_name یا --data @'-' استفاده کنید:
+- ارسال داده(فرم) رمزگذاری شده (درخواست POST از نوع application/x-www-form-urlencoded). برای خواندن از `stdin`، از --data @file_name یا --data @'-' استفاده کنید:
 
 `curl --data {{'name=bob'}} {{http://example.com/form}}`
 

@@ -21,11 +21,11 @@
 
 - Bir dalı yeniden adlandır:
 
-`git branch -m {{eski_dal_ismi}} {{yeni_dal_ismi}}`
+`git branch {{-m|--move}} {{eski_dal_ismi}} {{yeni_dal_ismi}}`
 
 - Yerel bir dalı sil:
 
-`git branch -d {{dal_ismi}}`
+`git branch {{-d|--delete}} {{dal_ismi}}`
 
 - Uzaktaki bir dalı sil:
 

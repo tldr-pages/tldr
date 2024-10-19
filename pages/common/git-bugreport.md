@@ -9,8 +9,8 @@
 
 - Create a new bug report file in the specified directory, creating it if it does not exist:
 
-`git bugreport --output-directory {{path/to/directory}}`
+`git bugreport {{-o|--output-directory}} {{path/to/directory}}`
 
 - Create a new bug report file with the specified filename suffix in `strftime` format:
 
-`git bugreport --suffix {{%m%d%y}}`
+`git bugreport {{-s|--suffix}} {{%m%d%y}}`

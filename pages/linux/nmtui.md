@@ -2,7 +2,7 @@
 
 > Text user interface for controlling NetworkManager.
 > Use arrow keys to navigate, enter to select an option.
-> More information: <https://networkmanager.dev/docs/api/latest/nmtui.html>.
+> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmtui.html>.
 
 - Open the user interface:
 

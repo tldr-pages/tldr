@@ -13,7 +13,7 @@
 
 - Affiche les mots de passe cassés des utilisateurs par identifiant d'utilisateur à partir de plusieurs fichiers :
 
-`john --show --users={{ids_utilisateurs}} {{chemin/vers/hashs*}} {{chemin/vers/autres/hashs*}}`
+`john --show --users={{ids_utilisateurs}} {{chemin/vers/hashs1.txt chemin/vers/autres/hashs2.txt ...}}`
 
 - Craque des hashs de mots de passe, à l'aide d'une liste de mots personnalisée :
 

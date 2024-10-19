@@ -13,7 +13,7 @@
 
 - Cambia l'URL endpoint di Git LFS (utile quando server LFS e server Git sono separati):
 
-`git config -f .lfsconfig lfs.url {{lfs_url_endpoint}}`
+`git config {{-f|--file}} .lfsconfig lfs.url {{lfs_url_endpoint}}`
 
 - Elenca i criteri tracciati:
 

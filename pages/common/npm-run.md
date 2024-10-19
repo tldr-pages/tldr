@@ -1,7 +1,7 @@
 # npm run
 
 > Run a script.
-> More information: <https://www.npmjs.com>.
+> More information: <https://docs.npmjs.com/cli/commands/npm-run-script>.
 
 - Run a script:
 
