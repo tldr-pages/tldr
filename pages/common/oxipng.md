@@ -19,9 +19,9 @@
 
 `oxipng --opt {{0|1|2|3|4|5|6|max}} {{path/to/file.png}}`
 
-- Set the PNG interlacing type (0 removes interlacing, 1 applies Adam7 interlacing, 'keep' preserves existing interlacing; default is 0):
+- Set the PNG interlacing type (`0` removes interlacing, `1` applies Adam7 interlacing, `keep` preserves existing interlacing; default is `0`):
 
-`oxipng --interlace {{type}} {{path/to/file.png}}`
+`oxipng --interlace {{0|1|keep}} {{path/to/file.png}}`
 
 - Perform additional optimization on images with an alpha channel:
 
