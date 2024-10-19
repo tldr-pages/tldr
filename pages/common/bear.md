@@ -1,6 +1,6 @@
 # bear
 
-> A tool to generate compilation databases for clang tooling.
+> A tool to generate compilation databases for `clang` tooling.
 > More information: <https://github.com/rizsotto/Bear>.
 
 - Generate `compile_commands.json` by running a build command:
