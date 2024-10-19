@@ -27,6 +27,6 @@
 
 `ansible-galaxy collection {{install|remove}} {{collection_name1 collection_name2 ...}}`
 
-- Show help about roles or collections:
+- Display help about roles or collections:
 
 `ansible-galaxy {{role|collection}} {{-h|--help}}`
