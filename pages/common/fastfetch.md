@@ -19,7 +19,7 @@
 
 `fastfetch --logo {{logo}}`
 
-- Display no logo:
+- Display system information without a logo:
 
 `fastfetch --logo none`
 
