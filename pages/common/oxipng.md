@@ -13,7 +13,7 @@
 
 - Compress all PNG files in the current directory using multiple threads:
 
-`oxipng "{{*.png}}"`
+`oxipng "*.png"`
 
 - Compress a file with a set optimization level (default is 2):
 
