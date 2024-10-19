@@ -29,4 +29,4 @@
 
 - Run the compiler in watch mode, which automatically recompiles code when it changes:
 
-`tsc -w`
+`tsc --watch`
