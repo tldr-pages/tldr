@@ -1,15 +1,15 @@
 # gcrane gc
 
-> List images that are not tagged.
-> Will calculate images that can be garbage-collected.
-> This can be composed with `gcrane delete` to actually garbage collect them.
+> Toon images die niet getagged zijn.
+> Zal berekenen welke images opgeruimd kunnen worden met garbage-collection.
+> Dit kan uitgevoerd worden met `gcrane delete` om ze daadwerkelijk op te ruimen.
 > Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md>.
 
-- List untagged images:
+- Toon niet getagde images:
 
 `gcrane gc {{repository}}`
 
-- Whether to recurse through repositories:
+- Recursief door de repositories heen:
 
 `gcrane gc {{repository}} {{-r|--recursive}}`
 
