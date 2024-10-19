@@ -13,6 +13,7 @@
 `az image create --resource-group {{resource_group}} --name {{name}} --os-type {{windows|linux}} --source {{os_disk_source}}`
 
 - 사용자 지정 이미지를 삭제:
+
 `az image delete --name {{name}} --resource-group {{resource_group}}`
 
 - 사용자 정의 이미지의 세부 정보를 표시:
