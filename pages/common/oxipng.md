@@ -9,7 +9,7 @@
 
 - Compress a PNG file and save the output to a new file:
 
-`oxipng --out {{path/to/newfile.png}} {{path/to/file.png}}`
+`oxipng --out {{path/to/output.png}} {{path/to/file.png}}`
 
 - Compress all PNG files in the current directory using multiple threads:
 
