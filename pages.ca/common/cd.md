@@ -15,7 +15,7 @@
 
 `cd`
 
-- Accedix al directori `home` de l'usuari donat:
+- Accedeix al directori `home` de l'usuari donat:
 
 `cd ~{{username}}`
 
