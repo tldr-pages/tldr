@@ -11,4 +11,4 @@
 
 - Bir dosyayı, her satırında son commit değeri ve yazarının [e]-postası bulunacak şekilde göster:
 
-`git annotate -e {{örnek/dosya}}`
+`git annotate {{-e|--show-email}} {{örnek/dosya}}`

@@ -14,7 +14,7 @@
 
 - Mevcut dala birçok (ardışık olmayan) commit uygula:
 
-`git cherry-pick {{commit_1}} {{commit_2}}`
+`git cherry-pick {{commit_1 commit_2 ...}}`
 
 - Bir commit'in değişikliklerini, herhangi bir yeni commit oluşturmadan çalışan dizine ekle:
 

@@ -13,11 +13,11 @@
 
 - Display 30 directories (defaults to 21):
 
-`dust --number-of-lines {{30}}`
+`dust --number-of-lines 30`
 
 - Display information for the current directory, up to 3 levels deep:
 
-`dust --depth {{3}}`
+`dust --depth 3`
 
 - Display the biggest directories at the top in descending order:
 

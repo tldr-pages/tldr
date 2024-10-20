@@ -9,7 +9,7 @@
 
 - اجرا روی پروژه درحالی که هدرها در پوشه های `inc1/` و `inc2/` قرار دارند:
 
-`cppclean {{path/to/project}} --include-path={{inc1}} --include-path={{inc2}}`
+`cppclean {{path/to/project}} --include-path {{inc1}} --include-path {{inc2}}`
 
 - اجرا روی فایل دلخواه مانند `main.cpp`:
 
@@ -17,4 +17,4 @@
 
 - اجرا روی پوشه کنونی به استثنای پوشه "build":
 
-`cppclean {{.}} --exclude={{build}}`
+`cppclean {{.}} --exclude {{build}}`

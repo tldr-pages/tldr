@@ -18,7 +18,7 @@
 
 - Wyjdź bez zapisywania:
 
-`:wq<Enter>`
+`{{ZZ|:wq<Enter>}}`
 
 - Cofnij ostatnią operację:
 

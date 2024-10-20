@@ -1,37 +1,37 @@
 # curl
 
 > Trasferisci dati da o ad un server.
-> Supporta molti protocollo, tra cui HTTP, FTP e POP3.
+> Supporta la maggior parte dei protocolli, tra cui HTTP, HTTPS, FTP, SCP, etc.
 > Maggiori informazioni: <https://curl.se/docs/manpage.html>.
 
-- Scarica il contenuto di un URL in un file:
+- Esegue una richiesta HTTP GET e stampa il contenuto in `stdout`:
 
-`curl {{http://example.com}} --output {{nome_file}}`
+`curl {{https://example.com}}`
 
-- Scarica un file, salvando l'output con lo stesso nome indicato nell'URL:
+- Esegue una richiesta HTTP GET, [L] segue eventuali reindirizzamenti `3xx` e [D] stampa il contenuto e la intestazione della risposta su `stdout`:
 
-`curl --remote-name {{http://example.com/nome_file}}`
+`curl --location --dump-header - {{https://example.com}}`
 
-- Scarica un file, seguendo reindirizzamenti, e continuando automaticamente (riprendendo) un trasferimento precedente:
+- Scarica un file salvando l'[O]utput con lo stesso nome indicato nell'URL:
 
-`curl --fail --remote-name --location --continue-at - {{http://example.com/nome_file}}`
+`curl --remote-name {{https://example.com/nome_file.zip}}`
 
-- Invia dati form-encoded (richiesta POST di tipo `application/x-www-form-urlencoded`):
+- Invia [d]ati form-encoded (con una richiesta POST di tipo `application/x-www-form-urlencoded`). Utilizza `--data @file_name` oppure `--data @'-'` per leggere da `stdin`:
 
-`curl --data {{'nome=mario'}} {{http://example.com/form}}`
+`curl -X POST --data {{'name=mario'}} {{http://example.com/form}}`
 
-- Invia una richiesta con un header aggiuntivo, utilizzando un metodo HTTP personalizzato:
+- Invia una richiesta con una intestazione aggiuntiva utilizzando un metodo HTTP personalizzato attraverso un pro[x]y (come BurpSuite) ignorando i certificati autofirmati non sicuri:
 
-`curl --header {{'X-Mio-Header: 123'}} --request {{PUT}} {{http://example.com}}`
+`curl -k --proxy {{http://127.0.0.1:8080}} --header {{'Authorization: Bearer token'}} --request {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
 
-- Invia dati in formato JSON, specificando l'header content-type appropriato:
+- Invia dati in formato JSON, specificando la [H] intestazione content-type appropriata:
 
-`curl --data {{'{"nome":"mario"}'}} --header {{'Content-Type: application/json'}} {{http://example.com/utenti/1234}}`
+`curl --data {{'{"name":"mario"}'}} --header {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
-- Utilizza un nome utente ed una password per l'autenticazione con il server:
+- Invia il certificato client e la chiave per una risorsa omettendo la validazione del certificato:
 
-`curl --user {{utente}} {{http://example.com}}`
+`curl --cert {{cliente.pem}} --key {{chiave.pem}} --insecure {{https://example.com}}`
 
-- Utilizza un certificato ed richiedere per una chiave per una risorsa, ignorando la validazione dei certificati:
+- Risolve un hostname con un indirizzo IP personalizzato con un output [v] dettagliato (simile alla modifica del file `/etc/hosts` per la risoluzione di un DNS personalizzato):
 
-`curl --cert {{client.pem}} --key {{chiave.pem}} --insecure {{https://example.com}}`
+`curl --verbose --resolve {{example.com}}:{{80}}:{{127.0.0.1}} {{http://example.com}}`

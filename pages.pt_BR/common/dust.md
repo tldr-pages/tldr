@@ -9,15 +9,15 @@
 
 - Exibe informações para uma lista de diretórios separados por espaço:
 
-`dust {{caminho/para/diretório1}} {{caminho/para/diretório2}}`
+`dust {{caminho/para/diretório1 caminho/para/diretório2 ...}}`
 
 - Exibe 30 diretórios (o padrão é 21):
 
-`dust --number-of-lines {{30}}`
+`dust --number-of-lines 30`
 
 - Exibe informações para o diretório atual, com até 3 níveis de profundidade:
 
-`dust --depth {{3}}`
+`dust --depth 3`
 
 - Exibe os maiores diretórios no topo em ordem decrescente:
 

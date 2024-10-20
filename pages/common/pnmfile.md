@@ -1,6 +1,6 @@
 # pnmfile
 
-> This command is superseded by `pamfile`.
+> This command has been superseded by `pamfile`.
 > More information: <https://netpbm.sourceforge.net/doc/pnmfile.html>.
 
 - View documentation for the current command:
