@@ -8,7 +8,7 @@
 
 `jobs`
 
-- Lijst jobs en hun proces-ID's:
+- Toon jobs en hun proces-ID's:
 
 `jobs -l`
 
