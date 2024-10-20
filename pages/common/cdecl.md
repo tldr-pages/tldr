@@ -3,7 +3,7 @@
 > Compose and decode C and C++ type declarations.
 > More information: <https://github.com/paul-j-lucas/cdecl>.
 
-- Compose English phrase into C declaration, and create [c]ompilable output (include ; and {}):
+- Compose English phrase into C declaration, and create [c]ompilable output (include `;` and `{}`):
 
 `cdecl -c {{phrase}}`
 
