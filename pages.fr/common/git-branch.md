@@ -21,11 +21,11 @@
 
 - Renommer une branche (ne pas se trouver sur la branche pour le faire) :
 
-`git branch -m {{ancien_nom_de_branche}} {{nouveau_nom_de_branche}}`
+`git branch {{-m|--move}} {{ancien_nom_de_branche}} {{nouveau_nom_de_branche}}`
 
 - Supprimer un branche locale (ne pas se trouver sur la branche pour le faire) :
 
-`git branch -d {{nom_de_branche}}`
+`git branch {{-d|--delete}} {{nom_de_branche}}`
 
 - Supprimer une branche distante :
 

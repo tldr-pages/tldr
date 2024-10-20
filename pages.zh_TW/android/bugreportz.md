@@ -12,10 +12,10 @@
 
 `bugreportz -p`
 
-- 顯示 `bugreportz` 的版本：
-
-`bugreportz -v`
-
 - 顯示幫助資訊：
 
 `bugreportz -h`
+
+- 顯示 `bugreportz` 的版本：
+
+`bugreportz -v`

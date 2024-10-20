@@ -7,10 +7,6 @@
 
 `fastfetch`
 
-- Display system information without a logo and escape sequences:
-
-`fastfetch --pipe`
-
 - Fetch a specific structure:
 
 `fastfetch --structure {{structure}}`
@@ -22,6 +18,10 @@
 - Use a specific logo:
 
 `fastfetch --logo {{logo}}`
+
+- Display system information without a logo:
+
+`fastfetch --logo none`
 
 - Use a specific color for the keys and title:
 

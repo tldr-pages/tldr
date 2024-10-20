@@ -20,10 +20,6 @@
 
 `bower list`
 
-- 显示 bower 指令的帮助信息：
-
-`bower help {{指令}}`
-
 - 创建你的项目的 `bower.json`：
 
 `bower init`
@@ -31,3 +27,7 @@
 - 安装时候指定依赖的版本号，并添加到 `bower.json`：
 
 `bower install {{local_name}}={{package}}#{{version}} --save`
+
+- 显示 bower 指令的帮助信息：
+
+`bower help {{指令}}`

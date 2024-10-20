@@ -5,7 +5,7 @@
 
 - Varolan uzak bağlantıların isim ve URL'leriyle bir listesini göster:
 
-`git remote -v`
+`git remote {{-v|--verbose}}`
 
 - Uzak bağlantı ile ilgili bilgi göster:
 

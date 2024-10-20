@@ -12,10 +12,10 @@
 
 `bugreportz -p`
 
-- `bugreportz` को संस्करण देखाउनुहोस्:
-
-`bugreportz -v`
-
 - प्रदर्शन मद्दत:
 
 `bugreportz -h`
+
+- `bugreportz` को संस्करण देखाउनुहोस्:
+
+`bugreportz -v`
