@@ -1,6 +1,6 @@
 # npm team
 
-> Manage teams in an organization on the npm registry.
+> Manage teams in an organization on the `npm` registry.
 > More information: <https://docs.npmjs.com/cli/commands/npm-team>.
 
 - Add a user to a team in an organization:
