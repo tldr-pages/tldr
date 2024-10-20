@@ -11,7 +11,7 @@
 
 `cmatrix -C {{red}}`
 
-- Aktiviere den [R]egenbogen-Modus:
+- Aktiviere den [r]egenbogen-Modus:
 
 `cmatrix -r`
 
