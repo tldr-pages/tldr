@@ -7,7 +7,7 @@
 
 `bear -- {{make}}`
 
-- Generate `compile_commands.json` with a custom output file name:
+- Generate compilation database with a custom output file name:
 
 `bear --output {{path/to/compile_commands.json}} -- {{make}}`
 
