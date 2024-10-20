@@ -8,19 +8,19 @@
 
 `tldr set-location`
 
-- Mostra la ruta (path) del directori actual: 
+- Mostra la ruta (path) del directori actual:
 
 `cd`
 
-- Canvia a un directori específic en el mateix disc: 
+- Canvia a un directori específic en el mateix disc:
 
 `cd {{ruta\al\directori}}`
 
-- Canvia a un directori específic en un altre [d]isc: 
+- Canvia a un directori específic en un altre [d]isc:
 
 `cd /d {{C}}:{{ruta\al\directori}}`
 
-- Canvia al directori superior: 
+- Canvia al directori superior:
 
 `cd ..`
 
@@ -28,6 +28,6 @@
 
 `cd %userprofile%`
 
-- Canvia a l'arrel de la unitat actual: 
+- Canvia a l'arrel de la unitat actual:
 
 `cd \`
