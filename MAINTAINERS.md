@@ -18,7 +18,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
 
 - **Jeef ([@jeeftor](https://github.com/jeeftor))**:
   [12 March 2017](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — present
-- **Max Xu ([@jsonbruce](https://github.com/jsonbruce))**:
+- **Max Xu ([@maxsxu](https://github.com/maxsxu))**:
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — present
 - **David Bialik ([@AnimiVulpis](https://github.com/AnimiVulpis))**:
   [5 November 2018](https://github.com/tldr-pages/tldr/issues/2556) — present

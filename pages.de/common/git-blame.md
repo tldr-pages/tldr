@@ -9,4 +9,4 @@
 
 - Gib die Commit-Hashes und dem Autor (inklusive E-Mail) jeder Zeile einer Datei aus:
 
-`git blame -e {{pfad/zu/datei}}`
+`git blame {{-e|--show-email}} {{pfad/zu/datei}}`

@@ -17,7 +17,7 @@
 
 - Apaga el sistema sense contactar l'administrador del sistema:
 
-`poweroff --force --force`
+`poweroff --force`
 
 - Escriu l'entrada de wtpm shutdown sense apagar l'ordinador:
 

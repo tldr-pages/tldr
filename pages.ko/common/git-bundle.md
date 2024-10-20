@@ -13,11 +13,11 @@
 
 - 현재 브랜치의 마지막 5개의 커밋을 포함하는 번들 파일 생성:
 
-`git bundle create {{경로/대상/파일.bundle}} -{{5}} {{HEAD}}`
+`git bundle create {{경로/대상/파일.bundle}} -5 {{HEAD}}`
 
 - 최근 7일간의 커밋을 포함하는 번들 파일 생성:
 
-`git bundle create {{경로/대상/파일.bundle}} --since {{7.days}} {{HEAD}}`
+`git bundle create {{경로/대상/파일.bundle}} --since 7.days {{HEAD}}`
 
 - 번들 파일이 유효하고 현재 저장소에 적용될 수 있는지 확인:
 

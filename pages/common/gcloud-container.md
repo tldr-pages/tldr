@@ -23,3 +23,7 @@
 - List tag and digest metadata for a container image:
 
 `gcloud container images list-tags {{image}}`
+
+- Describe an existing cluster for running containers:
+
+`gcloud container clusters describe {{cluster_name}}`
