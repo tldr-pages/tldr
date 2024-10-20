@@ -26,3 +26,7 @@
 - Type-check multiple JavaScript files, and output only the errors:
 
 `tsc --allowJs --checkJs --noEmit {{src/**/*.js}}`
+
+- Run the compiler in watch mode, which automatically recompiles code when it changes:
+
+`tsc --watch`
