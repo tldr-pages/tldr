@@ -5,24 +5,24 @@
 
 - Add a user to a team in an organization:
 
-`npm team add {{scope:team}} {{username}}`
+`npm team add {{organization:team}} {{username}}`
 
 - Remove a user from a team:
 
-`npm team rm {{scope:team}} {{username}}`
+`npm team rm {{organization:team}} {{username}}`
 
 - Create a new team in an organization:
 
-`npm team create {{scope:team}}`
+`npm team create {{organization:team}}`
 
 - Delete a team from an organization:
 
-`npm team destroy {{scope:team}}`
+`npm team destroy {{organization:team}}`
 
 - List all teams in an organization:
 
-`npm team ls {{scope}}`
+`npm team ls {{organization}}`
 
 - List all users in a specific team:
 
-`npm team ls {{scope:team}}`
+`npm team ls {{organization:team}}`
