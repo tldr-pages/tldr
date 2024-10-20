@@ -1,24 +1,33 @@
 # cd
 
-> Mostra el directori actual o canvia a un directori.
+> Mostra el directori actual o canvia a un directori diferent.
+> En PowerShell, aquesta ordre és an àlies de `Set-Location`. Aquesta documentació està basada en la versió Command Prompt (`cmd`) de `cd`.
 > Més informació: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Mostra la ruta (path) del directori actual:
+- Mostra documentació de l'ordre PowerShell equivalent:
+
+`tldr set-location`
+
+- Mostra la ruta (path) del directori actual: 
 
 `cd`
 
-- Canvia a l'arrel de la unitat actual:
+- Canvia a un directori específic en el mateix disc: 
 
-`cd \`
+`cd {{ruta\al\directori}}`
 
-- Canvia al directori superior:
+- Canvia a un directori específic en un altre [d]isc: 
+
+`cd /d {{C}}:{{ruta\al\directori}}`
+
+- Canvia al directori superior: 
 
 `cd ..`
 
-- Canvia a un directori específic en el mateix disc:
+- Canvia al directori inicial de l'usuari actual:
 
-`cd {{ruta\al\directorio}}`
+`cd %userprofile%`
 
-- Canvia a un directori específic en un altre disc:
+- Canvia a l'arrel de la unitat actual: 
 
-`cd /d {{C}}:{{ruta\al\directorio}}`
+`cd \`
