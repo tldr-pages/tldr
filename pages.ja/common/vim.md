@@ -18,7 +18,7 @@
 
 - 保存と終了:
 
-`{{ZZ|:wq<Enter>}}`
+`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
 
 - 最後の操作を元に戻す:
 

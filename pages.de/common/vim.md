@@ -18,7 +18,7 @@
 
 - Speichere und schließe die aktuelle Datei:
 
-`{{ZZ|:wq<Enter>}}`
+`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
 
 - Mache die letzte Aktion rückgängig:
 
