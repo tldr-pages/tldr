@@ -6,7 +6,7 @@
 
 - List all available goenv commands:
 
-  `goenv commands`
+`goenv commands`
 
 - Install a specific version of golang:
 
