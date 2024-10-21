@@ -13,7 +13,7 @@
 
 - Ejecuta un evento específico:
 
-`act {{event_type}}`
+`act {{tipo_de_evento}}`
 
 - Ejecuta una acción específica:
 
