@@ -1,6 +1,6 @@
 # npm search
 
-> Search for packages in the npm registry.
+> Search for packages in the `npm` registry.
 > More information: <https://docs.npmjs.com/cli/commands/npm-search>.
 
 - Search for a package by name:
