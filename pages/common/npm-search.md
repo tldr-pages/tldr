@@ -25,4 +25,4 @@
 
 - Search for packages with a specific combination of terms:
 
-`npm search {{term1}} {{term2}}`
+`npm search {{term1 term2 ...}}`
