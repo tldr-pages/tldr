@@ -22,3 +22,8 @@
 - Establece el máximo número de segundos utilizados para la comparación:
 
 `ab -t {{60}} {{url}}`
+
+- Escribe los resultados a un archivo CSV:
+
+`ab -e {{ruta/al/archivo.csv}}`
+
