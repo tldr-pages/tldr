@@ -4,7 +4,7 @@
 > Supports version numbers like " 1.16.15" or "1.22.8" etc.
 > More information: <https://github.com/go-nv/goenv>.
 
-- Lists all available goenv commands.
+- List all available goenv commands:
   
   `goenv commands`
 
@@ -20,7 +20,7 @@
 
   `goenv global {{go_version}}`
 
-- List all available golang versions and highlight the default one:
+- List all available Golang versions and highlight the default one:
 
   `goenv versions`
 
