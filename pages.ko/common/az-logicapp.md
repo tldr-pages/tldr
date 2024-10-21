@@ -6,24 +6,24 @@
 
 - 로직 앱을 생성:
 
-`az logicapp create --name {{name}} --resource-group {{resource_group}} --storage-account {{storage_account}}`
+`az logicapp create --name {{이름}} --resource-group {{리소스 그룹}} --storage-account {{스토리지_계정}}`
 
 - 로직 앱을 삭제:
 
-`az logicapp delete --name {{name}} --resource-group {{resource_group}}`
+`az logicapp delete --name {{이름}} --resource-group {{리소스 그룹}}`
 
 - 로직 앱 나열:
 
-`az logicapp list --resource-group {{resource_group}}`
+`az logicapp list --resource-group {{리소스 그룹}}`
 
 - 로직 앱을 다시 시작:
 
-`az logicapp restart --name {{name}} --resource-group {{resource_group}}`
+`az logicapp restart --name {{이름}} --resource-group {{리소스 그룹}}`
 
 - 로직 앱을 시작:
 
-`az logicapp start --name {{name}} --resource-group {{resource_group}}`
+`az logicapp start --name {{이름}} --resource-group {{리소스 그룹}}`
 
 - 로직 앱을 중지:
 
-`az logicapp stop --name {{name}} --resource-group {{resource_group}}`
+`az logicapp stop --name {{이름}} --resource-group {{리소스 그룹}}`
