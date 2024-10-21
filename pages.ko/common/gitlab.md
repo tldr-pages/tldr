@@ -4,7 +4,7 @@
 > `ctl`과 같은 일부 하위 명령에는 자체 사용법 문서가 존재.
 > 더 많은 정보: <https://narkoz.github.io/gitlab/>.
 
-- 새로운 프로젝트를 생성
+- 새로운 프로젝트를 생성:
 
 `gitlab create_project {{프로젝트_이름}}`
 
