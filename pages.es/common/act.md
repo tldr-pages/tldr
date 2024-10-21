@@ -17,7 +17,7 @@
 
 - Ejecuta una acción específica:
 
-`act -a {{identificador_de_acción}}`
+`act -j {{identificador_de_acción}}`
 
 - Simula una acción:
 
