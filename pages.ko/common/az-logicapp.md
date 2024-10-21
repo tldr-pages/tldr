@@ -1,29 +1,29 @@
 # az logicapp
 
-> Azure 클라우드 서비스에서 로직 앱 관리.
-> `azure-cli`(`az`라고도 함)의 일부.
+> Azure Cloud Services에서 논리 앱을 관리.
+> `azure-cli` (`az`라고도 함)의 일부.
 > 더 많은 정보: <https://learn.microsoft.com/cli/azure/logicapp>.
 
-- 로직 앱을 생성:
+- 논리 앱 만들기:
 
-`az logicapp create --name {{이름}} --resource-group {{리소스 그룹}} --storage-account {{스토리지_계정}}`
+`az logicapp create --name {{이름}} --resource-group {{리소스_그룹}} --storage-account {{스토리지_계정}}`
 
-- 로직 앱을 삭제:
+- 논리 앱 삭제:
 
-`az logicapp delete --name {{이름}} --resource-group {{리소스 그룹}}`
+`az logicapp delete --name {{이름}} --resource-group {{리소스_그룹}}`
 
-- 로직 앱 나열:
+- 논리 앱 나열:
 
-`az logicapp list --resource-group {{리소스 그룹}}`
+`az logicapp list --resource-group {{리소스_그룹}}`
 
-- 로직 앱을 다시 시작:
+- 논리 앱을 다시 시작:
 
-`az logicapp restart --name {{이름}} --resource-group {{리소스 그룹}}`
+`az logicapp restart --name {{이름}} --resource-group {{리소스_그룹}}`
 
-- 로직 앱을 시작:
+- 논리 앱을 시작:
 
-`az logicapp start --name {{이름}} --resource-group {{리소스 그룹}}`
+`az logicapp start --name {{이름}} --resource-group {{리소스_그룹}}`
 
-- 로직 앱을 중지:
+- 논리 앱을 중지:
 
-`az logicapp stop --name {{이름}} --resource-group {{리소스 그룹}}`
+`az logicapp stop --name {{이름}} --resource-group {{리소스_그룹}}`
