@@ -8,6 +8,6 @@
 
 `sudo aa-disable {{ścieżka/do/profilu1 ścieżka/do/profilu2 ...}}`
 
-- Wyłącz profile w ścieżce (wartość domyślna `/etc/apparmor.d`):
+- Wyłącz profile w katalogu (wartość domyślna `/etc/apparmor.d`):
 
 `sudo aa-disable --dir {{ścieżka/do/profili}}`
