@@ -2,7 +2,7 @@
 
 > Azure 클라우드 서비스에서 로직 앱 관리.
 > `azure-cli`(`az`라고도 함)의 일부.
-> 자세한 정보: <https://learn.microsoft.com/cli/azure/logicapp>.
+> 더 많은 정보: <https://learn.microsoft.com/cli/azure/logicapp>.
 
 - 로직 앱을 생성:
 

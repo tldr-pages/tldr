@@ -1,7 +1,7 @@
 # cpan
 
 > CPAN 사이트에서 perl 모듈을 쿼리, 다운로드 및 빌드하기.
-> 자세한 정보: <https://manned.org/cpan>.
+> 더 많은 정보: <https://manned.org/cpan>.
 
 - 모듈을 설치(`-i`는 선택 사항):
 
