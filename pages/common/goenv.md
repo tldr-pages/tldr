@@ -5,29 +5,29 @@
 > More information: <https://github.com/go-nv/goenv>.
 
 - List all available goenv commands:
-  
+
   `goenv commands`
 
 - Install a specific version of golang:
 
-  `goenv install {{go_version}}`
+`goenv install {{go_version}}`
 
 - Use a specific version of golang in the current project:
 
-  `goenv local {{go_version}}`
+`goenv local {{go_version}}`
 
 - Set the default golang version:
 
-  `goenv global {{go_version}}`
+`goenv global {{go_version}}`
 
 - List all available Golang versions and highlight the default one:
 
-  `goenv versions`
+`goenv versions`
 
 - Uninstall a given go version:
 
-  `goenv uninstall {{go_version}}`
+`goenv uninstall {{go_version}}`
 
 - Run an executable with the selected Go version:
 
-  `goenv exec go run {{go_version}}`
+`goenv exec go run {{go_version}}`
