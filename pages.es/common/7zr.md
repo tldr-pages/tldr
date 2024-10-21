@@ -27,3 +27,7 @@
 - [l]ista el contenido de un archivo:
 
 `7zr l {{ruta/al/archivo.7z}}`
+
+- Establece el nivel de compresión (más alto significa más compresión, pero más lento):
+
+`7zr a {{ruta/al/archivo.7z}} -mx={{0|1|3|5|7|9}} {{ruta/a/archivo_o_directorio}}`
