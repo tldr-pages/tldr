@@ -26,3 +26,7 @@
 - Muestra registros detallados:
 
 `act -v`
+
+- Ejecuta un flujo de trabajo específico con el evento push:
+
+`act push -W {{ruta/a/flujo_de_trabajo}}`
