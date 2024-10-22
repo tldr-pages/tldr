@@ -1,11 +1,20 @@
 # usermod
 
 > Modifica una cuenta de usuario.
+> Ver también: `users`, `useradd`, `userdel`.
 > Más información: <https://manned.org/usermod>.
 
 - Cambia el nombre de un usuario:
 
 `usermod -l {{nuevo_nombre}} {{usuario}}`
+
+- Cambia el ID de un usuario:
+
+`sudo usermod --uid {{id}} {{username}}`
+
+- Cambia la interfaz de comandos(shell) a un usuario:
+
+`sudo usermod --shell {{path/to/shell}} {{username}}`
 
 - Añade un usuario a grupos suplementarios (tener en cuenta los espacios en blanco):
 
