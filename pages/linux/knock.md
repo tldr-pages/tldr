@@ -13,7 +13,7 @@
 
 - Force usage of IPv4/IPv6:
 
-`knock -4 {{hostname}} {{portnumber}}`
+`knock {{-4|-6}} {{hostname}} {{portnumber}}`
 
 - Display errors and details of connection:
 
