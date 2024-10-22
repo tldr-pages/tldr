@@ -1,7 +1,7 @@
 # batch
 
-> Este comando es un alias de `at`.
+> Este es un comando alias de `at`.
 
--	Muestra la documentación del comando original:
+- Muestra la documentación del comando original:
 
 `tldr at`
