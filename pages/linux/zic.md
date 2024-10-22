@@ -7,7 +7,6 @@
 
 `zic -d {{path/to/file}}.infile`
 
-- Report Warnings during compilation of timezone.infile file:
+- Report warnings during compilation of timezone.infile file:
 
 `zic -v {{path/to/file}}.infile`
-
