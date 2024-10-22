@@ -1,4 +1,4 @@
-# minikube-start
+# minikube start
 
 > Start minikube with different configurations.
 > More information: <https://minikube.sigs.k8s.io/docs/>.
@@ -22,4 +22,3 @@
 - Start Minikube with Custom Addons:
 
 `minikube start --addons=metrics-server`
-
