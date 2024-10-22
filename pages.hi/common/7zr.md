@@ -1,33 +1,33 @@
 # 7zr
 
 > उच्च संपीड़न अनुपात के साथ फ़ाइल संग्रहकर्ता।
-> Similar to `7z` except that it only supports 7z files.
-> More information: <https://manned.org/7zr>.
+> 7z के समान, सिवाय इसके कि यह कम फ़ाइल प्रकारों का समर्थन करता है लेकिन क्रॉस-प्लेटफ़ॉर्म है। 
+> अधिक जानकारी: <https://manned.org/7zr>.
 
-- [a]rchive a file or directory:
+- किसी फ़ाइल या निर्देशिका को संग्रहित करें:
 
-`7zr a {{path/to/archive.7z}} {{path/to/file_or_directory}}`
+`7zr a {{संग्रह.7z/का/पथ}} {{फ़ाइल_या_निर्देशिका/का/पथ}}`
 
-- Encrypt an existing archive (including file names):
+- किसी मौजूदा संग्रह को एन्क्रिप्ट करें(फ़ाइल नाम सहित):
 
-`7zr a {{path/to/encrypted.7z}} -p{{password}} -mhe={{on}} {{path/to/archive.7z}}`
+`7zr a {{एन्क्रिप्टेड.7z/का/पथ}} -p{{पासवर्ड}} -mhe={{on}} {{संग्रह.7z/का/पथ}}`
 
-- E[x]tract an archive preserving the original directory structure:
+- मूल निर्देशिका संरचना को संरक्षित करते हुए एक संग्रह निकालें:
 
-`7zr x {{path/to/archive.7z}}`
+`7zr x {{संग्रह.7z/का/पथ}}`
 
-- E[x]tract an archive to a specific directory:
+- किसी विशिष्ट निर्देशिका में एक संग्रह निकालें:
 
-`7zr x {{path/to/archive.7z}} -o{{path/to/output}}`
+`7zr x {{संग्रह.7z/का/पथ}} -o{{आउटपुट/का/पथ}}`
 
-- E[x]tract an archive to `stdout`:
+- `स्टडआउट` करने के लिए एक संग्रह निकालें:
 
-`7zr x {{path/to/archive.7z}} -so`
+`7zr x {{संग्रह.7z/का/पथ}} -so`
 
-- [l]ist the contents of an archive:
+- किसी संग्रह की सामग्री सूचीबद्ध करें:
 
-`7zr l {{path/to/archive.7z}}`
+`7zr l {{संग्रह.7z/का/पथ}}`
 
-- Set the level of compression (higher means more compression, but slower):
+- संग्रहसंपीड़न का स्तर निर्धारित करें (उच्च का अर्थ है अधिक संपीड़न, लेकिन धीमा):
 
-`7zr a {{path/to/archive.7z}} -mx={{0|1|3|5|7|9}} {{path/to/file_or_directory}}`
+`7zr a {{संग्रह.7z/का/पथ}} -mx={{0|1|3|5|7|9}} {{फ़ाइल_या_निर्देशिका/का/पथ}}`
