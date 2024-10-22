@@ -1,7 +1,7 @@
 # tzselect
 
 > Interactively select timezone.
-> More information: <https://manned.org/man/tzselect>.
+> More information: <https://manned.org/tzselect>.
 
 - Open the interactive menu for timezone selection:
 
