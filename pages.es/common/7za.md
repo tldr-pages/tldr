@@ -34,4 +34,4 @@
 
 - Establece el nivel de compresión (más alto significa más compresión, pero más lenta):
 
-`7za a {{ruta/al/archivo.7z}} -mx={{0|1|3|5|7|9}} {{ruta/a/archivo_o_directorio}}`
+`7za a {{ruta/al/archivo.7z}} -mx={{0|1|3|5|7|9}} {{ruta/al/archivo_o_directorio}}`
