@@ -9,7 +9,7 @@
 
 - Knock on port using UDP:
 
-`knock -u {{hostname}} {{portnumer}}`
+`knock -u {{hostname}} {{portnumber}}`
 
 - Force usage of IPv4/IPv6:
 
