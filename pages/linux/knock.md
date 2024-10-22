@@ -1,6 +1,6 @@
 # knock
 
-> Port knocking client to open specfic ports on firewall.
+> Port knocking client to open specific ports on firewall.
 > More information: <https://manned.org/knock>.
 
 - Knock on ports using different protocols:
