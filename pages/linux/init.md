@@ -6,11 +6,11 @@
 
 - Set the system to run a graphical environment:
 
-`init 5`
+`sudo init 5`
 
 - Set the system to run multiuser terminal:
 
-`init 3`
+`sudo init 3`
 
 - Shut down the system:
 
@@ -22,4 +22,4 @@
 
 - Set the system to run on terminal with only root user allowed an no networking:
 
-`init 1`
+`sudo init 1`
