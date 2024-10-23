@@ -1,6 +1,6 @@
 # ip route get
 
-> Get a single route - this command gets a single route to a destination and prints its contents exactly as the kernel sees it.
+> Get a single route to a destination and print its contents exactly as the kernel sees it.
 > More information: <https://manned.org/ip-route>.
 
 - Print route to a destination (1.1.1.1):
