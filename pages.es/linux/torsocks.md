@@ -24,6 +24,6 @@
 
 `torsocks --isolate {{curl https://check.torproject.org/api/ip}}`
 
-- Conecta a un proxy Tor que se ejecuta en una dirección y un [P]uerto específico:
+- Se conecta a un proxy Tor que se ejecuta en una dirección y un [p]uerto específico:
 
 `torsocks --address {{ip}} --port {{port}} {{command}}`
