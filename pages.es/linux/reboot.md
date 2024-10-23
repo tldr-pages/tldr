@@ -8,7 +8,7 @@
 
 `reboot`
 
-- Apagar el sistema (igual que `poweroff`):
+- Apaga el sistema (igual que `poweroff`):
 
 `reboot --poweroff`
 
