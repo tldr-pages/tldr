@@ -7,7 +7,7 @@
 
 `man {{comando}}`
 
-- Abra la página del manual de un comando en un navegador(requiere que la variable `BROWSER` esté establecida):
+- Abre la página del manual de un comando en un navegador (requiere que la variable `BROWSER` esté establecida):
 
 `man --html {{command}}`
 
