@@ -188,8 +188,8 @@ def get_alias_page(path: Path) -> str:
         return ""
     with path.open(encoding="utf-8") as f:
         for line in f:
-            # match alias (`tldr <alias>`)
-            if match := re.search(r"^`tldr (.+)`", line):
+            # match alias page pattern "> This command is an alias of `example`."
+            if match := re.search(r"^> This command is an alias of `(.+)`\.$", line):
                 return match[1]
     return ""
 
