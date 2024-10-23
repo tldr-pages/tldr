@@ -10,7 +10,7 @@
 
 - Cambia el ID de un usuario:
 
-`sudo usermod --uid {{id}} {{username}}`
+`sudo usermod --uid {{id}} {{nombre_usuario}}`
 
 - Cambia la interfaz de comandos(shell) a un usuario:
 
