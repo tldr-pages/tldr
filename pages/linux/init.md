@@ -1,7 +1,7 @@
 # init
 
 > Linux run level manager.
-> Requires the SYSVINIT compile-time option to be set if using systemd.
+> Requires the SYSVINIT compile-time option to be enabled if using systemd.
 > More information: <https://manned.org/init>.
 
 - Set the system to run a graphical environment:
