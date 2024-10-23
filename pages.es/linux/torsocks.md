@@ -20,10 +20,10 @@
 
 `torsocks show`
 
-- aísla el tráfico a través de un circuito Tor diferente, mejorando el anonimato:
+- Aísla el tráfico a través de un circuito Tor diferente, mejorando el anonimato:
 
 `torsocks --isolate {{curl https://check.torproject.org/api/ip}}`
 
-- Se conecta a un proxy Tor que se ejecuta en una dirección y un [p]uerto específico:
+- Se conecta a un proxy Tor que se ejecuta en una dirección y un puerto específico:
 
 `torsocks --address {{ip}} --port {{puerto}} {{comando}}`
