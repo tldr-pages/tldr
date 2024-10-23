@@ -14,7 +14,7 @@
 
 - Cambia la interfaz de comandos (shell) a un usuario:
 
-`sudo usermod --shell {{path/to/shell}} {{username}}`
+`sudo usermod --shell {{ruta/a/interfaz_comando}} {{nombre_usuario}}`
 
 - Añade un usuario a grupos suplementarios (tener en cuenta los espacios en blanco):
 
