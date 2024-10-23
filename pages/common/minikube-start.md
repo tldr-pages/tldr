@@ -1,5 +1,5 @@
-> Start `minikube` with different configurations.
-> More information: <https://minikube.sigs.k8s.io/docs/>.
+# Start `minikube` with different configurations.
+# More information: <https://minikube.sigs.k8s.io/docs/>.
 
 - Start minikube with a specific Kubernetes version:
 
@@ -7,7 +7,7 @@
 
 - Start minikube with a specific resource allocation:
 
-`minikube start --memory={{2048}} --cpus={{2||`
+`minikube start --memory={{2048}} --cpus={{2}}`
 
 - Start minikube with a specific driver:
 
