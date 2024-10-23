@@ -1,6 +1,7 @@
-# Start minikube with different configurations
+# minikube start
 
-More information: <https://minikube.sigs.k8s.io/docs/>.
+> Start minikube with different configurations
+> More information: <https://minikube.sigs.k8s.io/docs/>.
 
 - Start `minikube` with a specific Kubernetes version:
 
