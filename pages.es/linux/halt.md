@@ -8,7 +8,7 @@
 
 `halt`
 
-- Apaga el sistema(igual que `poweroff`):
+- Apaga el sistema (igual que `poweroff`):
 
 `halt --poweroff`
 
