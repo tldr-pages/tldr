@@ -27,7 +27,7 @@
 
 `man --where {{comando}}`
 
-- Muestra la página del manual usando un idioma(locale) específico:
+- Muestra la página del manual usando un idioma específico:
 
 `man --locale={{idioma}} {{comando}}`
 
