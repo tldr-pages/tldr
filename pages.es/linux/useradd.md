@@ -28,6 +28,6 @@
 
 `sudo useradd --skel {{ruta/a/directorio_plantilla}} --create-home {{usuario}}`
 
-- Crea un usuario nuevo del sistema sin directorio home:
+- Crea un usuario del sistema sin directorio home:
 
 `sudo useradd --no-create-home --system {{usuario}}`
