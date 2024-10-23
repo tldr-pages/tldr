@@ -12,7 +12,7 @@
 
 `sudo usermod --uid {{id}} {{nombre_usuario}}`
 
-- Cambia la interfaz de comandos(shell) a un usuario:
+- Cambia la interfaz de comandos (shell) a un usuario:
 
 `sudo usermod --shell {{path/to/shell}} {{username}}`
 
