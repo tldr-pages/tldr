@@ -12,7 +12,7 @@
 
 `. torsocks {{on|off}}`
 
-- Lanza una nueva interfaz de comando(shell) habilitada con Tor:
+- Lanza una nueva interfaz de comando habilitada con Tor:
 
 `torsocks --shell`
 
