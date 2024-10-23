@@ -18,7 +18,7 @@
 
 - Descifra un archivo con una frase de contraseña:
 
-`age --decrypt --output {{ruta/al/archivo_descifrado}} {{ruta/ypara/archivo_cifrado}}`
+`age --decrypt --output {{ruta/al/archivo_descifrado}} {{ruta/para/archivo_cifrado}}`
 
 - Descifra un archivo con un archivo de clave privada:
 
