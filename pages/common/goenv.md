@@ -4,19 +4,19 @@
 > Supports version numbers like " 1.16.15" or "1.22.8" etc.
 > More information: <https://github.com/go-nv/goenv>.
 
-- List all available goenv commands:
+- List all available Goenv commands:
 
 `goenv commands`
 
-- Install a specific version of golang:
+- Install a specific version of Golang:
 
 `goenv install {{go_version}}`
 
-- Use a specific version of golang in the current project:
+- Use a specific version of Golang in the current project:
 
 `goenv local {{go_version}}`
 
-- Set the default golang version:
+- Set the default Golang version:
 
 `goenv global {{go_version}}`
 
