@@ -8,6 +8,6 @@
 
 `sudo aa-disable {{path/to/profile1 path/to/profile2 ...}}`
 
-- Disable profiles (defaults to `/etc/apparmor.d`):
+- Disable profiles in a directory (defaults to `/etc/apparmor.d`):
 
 `sudo aa-disable --dir {{path/to/profiles}}`
