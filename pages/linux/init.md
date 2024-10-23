@@ -1,6 +1,7 @@
 # init
 
 > Linux run level manager.
+> Requires the SYSVINIT option to be set if using systemd.
 > More information: <https://manned.org/init>.
 
 - Set the system to run a graphical environment:
