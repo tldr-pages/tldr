@@ -6,7 +6,7 @@
 
 - Cambia el nombre de un usuario:
 
-`usermod -l {{nuevo_nombre}} {{usuario}}`
+`sudo usermod -l {{nuevo_nombre}} {{usuario}}`
 
 - Cambia el ID de un usuario:
 
@@ -18,8 +18,8 @@
 
 - Añade un usuario a grupos suplementarios (tener en cuenta los espacios en blanco):
 
-`usermod -a -G {{grupo1,grupo2}} {{usuario}}`
+`sudo usermod -a -G {{grupo1,grupo2}} {{usuario}}`
 
-- Crea un nuevo directorio home para un usuario y mueve sus archivos a él:
+- Cambia el directorio home de un usuario:
 
-`usermod -m -d {{ruta/al/home}} {{usuario}}`
+`usermod -m -d {{ruta/al/nuevo_home}} {{usuario}}`
