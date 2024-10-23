@@ -12,7 +12,7 @@
 
 `halt --poweroff`
 
-- Reinicia el sistema(igual que `reboot`):
+- Reinicia el sistema (igual que `reboot`):
 
 `halt --reboot`
 
