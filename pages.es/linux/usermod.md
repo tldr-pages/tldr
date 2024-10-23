@@ -16,7 +16,7 @@
 
 `sudo usermod --shell {{ruta/a/interfaz_comando}} {{nombre_usuario}}`
 
-- Añade un usuario a grupos suplementarios (tener en cuenta los espacios en blanco):
+- Añade un usuario a grupos suplementarios (ten en cuenta los espacios en blanco):
 
 `sudo usermod -a -G {{grupo1,grupo2}} {{usuario}}`
 
