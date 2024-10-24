@@ -8,7 +8,7 @@
 
 `tac {{percorso/del/file1 percorso/del/file2 ...}}`
 
-- Visualizza 'stdin' in ordine inverso:
+- Visualizza `stdin` in ordine inverso:
 
 `{{cat percorso/del/file}} | tac`
 
