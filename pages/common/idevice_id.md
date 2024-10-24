@@ -1,7 +1,7 @@
 # idevice_id
 
 > List attached iOS devices or print the device name of a given device.
-> More information: <https://libimobiledevice.org>.
+> More information: <https://manned.org/idevice_id>.
 
 - List the UDIDs of all attached devices:
 

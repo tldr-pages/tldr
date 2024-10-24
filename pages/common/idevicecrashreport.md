@@ -1,7 +1,7 @@
 # idevicecrashreport
 
 > Retrieve crash reports from an iOS device.
-> More information: <https://libimobiledevice.org>.
+> More information: <https://manned.org/idevicecrashreport>.
 
 - Retrieve crash reports and move them to a specified directory:
 

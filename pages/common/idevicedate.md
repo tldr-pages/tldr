@@ -1,7 +1,7 @@
 # idevicedate
 
 > Display the current date or set it on an iOS device.
-> More information: <https://libimobiledevice.org>.
+> More information: <https://manned.org/idevicedate>.
 
 - Display the current date and time:
 

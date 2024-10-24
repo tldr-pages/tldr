@@ -1,7 +1,7 @@
 # idevicebackup2
 
 > Create or restore backups for devices running iOS 4 or later.
-> More information: <https://libimobiledevice.org>.
+> More information: <https://manned.org/idevicebackup2>.
 
 - Create a backup of the device in the specified directory:
 

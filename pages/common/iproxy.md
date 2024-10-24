@@ -1,7 +1,7 @@
 # iproxy
 
 > A proxy that binds local TCP ports to be forwarded to the specified ports on a usbmux device.
-> More information: <https://libimobiledevice.org>.
+> More information: <https://manned.org/iproxy>.
 
 - Bind a local TCP port and forward it to a port on the connected USB device:
 

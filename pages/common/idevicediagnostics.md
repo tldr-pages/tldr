@@ -1,7 +1,7 @@
 # idevicediagnostics
 
 > Interact with the diagnostics interface of an iOS device.
-> More information: <https://libimobiledevice.org>.
+> More information: <https://manned.org/idevicediagnostics>.
 
 - Print diagnostics information:
 

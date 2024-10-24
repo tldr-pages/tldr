@@ -1,7 +1,7 @@
 # idevicesetlocation
 
 > Simulate a location on an iOS device.
-> More information: <https://libimobiledevice.org>.
+> More information: <https://manned.org/idevicesetlocation>.
 
 - Set a specific latitude and longitude:
 

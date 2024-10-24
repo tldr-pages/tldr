@@ -1,7 +1,7 @@
 # ideviceimagemounter
 
 > Mount disk images on an iOS device.
-> More information: <https://libimobiledevice.org>.
+> More information: <https://manned.org/ideviceimagemounter>.
 
 - Mount a disk image on the connected device:
 

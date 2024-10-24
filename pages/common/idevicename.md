@@ -1,7 +1,7 @@
 # idevicename
 
 > Display the device name or set it to a new name.
-> More information: <https://libimobiledevice.org>.
+> More information: <https://manned.org/idevicename>.
 
 - Display the current device name:
 

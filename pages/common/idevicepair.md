@@ -1,7 +1,7 @@
 # idevicepair
 
 > Manage host pairings with iOS devices.
-> More information: <https://libimobiledevice.org>.
+> More information: <https://manned.org/idevicepair>.
 
 - Pair a device with the host:
 

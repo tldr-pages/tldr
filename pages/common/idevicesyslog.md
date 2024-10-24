@@ -1,7 +1,7 @@
 # idevicesyslog
 
 > Relay syslog messages from a connected iOS device.
-> More information: <https://libimobiledevice.org>.
+> More information: <https://manned.org/idevicesyslog>.
 
 - Relay syslog messages from the connected device:
 
