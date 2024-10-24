@@ -7,11 +7,11 @@
 
 - Cambia los saltos de línea de un archivo:
 
-`dos2unix {{nombre_de_archivo}}`
+`dos2unix {{ruta/al/archivo}}`
 
 - Crea una copia con saltos de línea en formato Unix:
 
-`dos2unix -n {{nombre_de_archivo}} {{nombre_de_archivo}}`
+`dos2unix {{-n|--newfile}} {{ruta/al/archivo}} {{ruta/al/nuevo}}`
 
 - Mostrar información de un archivo:
 
