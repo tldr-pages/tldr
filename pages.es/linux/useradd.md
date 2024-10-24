@@ -26,7 +26,7 @@
 
 - Crea un usuario con el directorio home con una copia de los archivos provenientes de un directorio plantilla:
 
-`sudo useradd --skel {{ruta/a/directorio_plantilla}} --create-home {{usuario}}`
+`sudo useradd --skel {{ruta/al/directorio_plantilla}} --create-home {{usuario}}`
 
 - Crea un usuario del sistema sin directorio home:
 
