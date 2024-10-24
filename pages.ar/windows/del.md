@@ -35,4 +35,4 @@
 
 - حذف ملف اعتمادا على محدد معين:
 
-`del {{file_pattern}} /a {{attribute}}`
+`del {{file_pattern}} /a:{{attribute}}`
