@@ -1,7 +1,7 @@
 # userdel
 
 > Elimina una cuenta de usuario o elimina un usuario de un grupo.
-> Ver también: `users`, `useradd`, `usermod`.
+> Vea también: `users`, `useradd`, `usermod`.
 > Más información: <https://manned.org/userdel>.
 
 - Elimina un usuario:
