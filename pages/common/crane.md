@@ -18,7 +18,7 @@
 
 - Specify the platform in the form os/arch{{/variant}}{{:osversion}} (e.g. linux/amd64). (default all):
 
-`crane  --platform {{platform}} {{subcommand}}`
+`crane --platform {{platform}} {{subcommand}}`
 
 - Enable debug logs for a subcommand:
 

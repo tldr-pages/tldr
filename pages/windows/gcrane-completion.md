@@ -10,7 +10,7 @@
 
 - Disable completion descriptions:
 
-`grance completion {{shell_name}} --no-descriptions`
+`gcrane completion {{shell_name}} --no-descriptions`
 
 - Load completions in your current shell session (powershell):
 
@@ -18,7 +18,7 @@
 
 - Load completions for every new session (powershell):
 
-`Add above command to powershell profile`
+`gcrane completion powershell | Out-String | Invoke-Expression`
 
 - Display help:
 
