@@ -8,7 +8,7 @@
 
 `sudo userdel {{usuario}}`
 
-- Elimina un usuario en otro directorio raíz(root):
+- Elimina un usuario en otro directorio raíz:
 
 `sudo userdel --root {{ruta/al/otro/root}} {{usuario}}`
 
