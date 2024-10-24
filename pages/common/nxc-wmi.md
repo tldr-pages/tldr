@@ -11,6 +11,10 @@
 
 `nxc wmi {{192.168.178.2}} -u {{username}} -p {{password}} --local-auth`
 
-- Issue the specified WMI command:
+- Issue the specified WMI query:
 
-`nxc wmi {{192.168.178.2}} -u {{username}} -p {{password}} --wmi {{whoami}}`
+`nxc wmi {{192.168.178.2}} -u {{username}} -p {{password}} --wmi {{wmi_query}}`
+
+- Execute the specified command on the targeted host
+
+`nxc wmi {{192.168.178.2}} -u {{username}} -p {{password}} --x {{whoami}}`
