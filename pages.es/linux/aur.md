@@ -20,6 +20,6 @@
 
 `aur sync --upgrades`
 
-- Instala un paquete sin ver los cambios en Vim y no confirma instalación de dependencias:
+- Instala un paquete sin ver los cambios en Vim y sin confirmar la instalación de dependencias:
 
 `aur sync --noview --noconfirm {{paquete}}`
