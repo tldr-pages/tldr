@@ -3,7 +3,7 @@
 > Gerencia repositórios monitorados ("remotes").
 > Mais informações: <https://git-scm.com/docs/git-remote>.
 
-- Mostre uma lista de remotes existentes, seus nomes e URL:
+- Lista remotes existentes com seus nomes e URLs:
 
 `git remote {{-v|--verbose}}`
 
@@ -18,6 +18,10 @@
 - Muda a URL de um remote (use `--add` para manter a URL existente):
 
 `git remote set-url {{nome_do_remote}} {{nova_url}}`
+
+- Mostra a URL de um remote:
+
+`git remote get-url {{nome_do_remote}}`
 
 - Remove um remote:
 
