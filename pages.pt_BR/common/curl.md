@@ -1,6 +1,6 @@
 # curl
 
-> Transfere dados entre o computador local e um servidor remoto.
+> Transfere dados entre o computador local e um servidor.
 > Suporta a maioria dos protocolos de comunicação, incluindo HTTP, HTTPS, FTP, SCP, etc.
 > Mais informações: <https://curl.se/docs/manpage.html>.
 
