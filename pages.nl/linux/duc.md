@@ -8,11 +8,11 @@
 
 `duc index {{/usr}}`
 
-- Lijst alle bestanden en directories onder `/usr/local` en toon relatieve bestandsgroottes in een [g]rafiek:
+- Toon alle bestanden en directories onder `/usr/local` en toon relatieve bestandsgroottes in een [g]rafiek:
 
 `duc ls --classify --graph {{/usr/local}}`
 
-- Lijst alle bestanden en directories onder `/usr/local` recursief met behulp van boomweergave:
+- Toon alle bestanden en directories onder `/usr/local` recursief met behulp van boomweergave:
 
 `duc ls --classify --graph --recursive {{/usr/local}}`
 

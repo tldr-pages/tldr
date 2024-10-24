@@ -31,6 +31,6 @@
 
 `grep {{-o|--only-matching}} "{{search_pattern}}" {{path/to/file}}`
 
-- ورودی استاندارد (stdin) رو برای الگوهایی که منطبق نیستند جستجو میکند :
+- ورودی استاندارد (`stdin`) رو برای الگوهایی که منطبق نیستند جستجو میکند :
 
 `cat {{path/to/file}} | grep {{-v|--invert-match}} "{{search_pattern}}"`

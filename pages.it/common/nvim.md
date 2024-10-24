@@ -30,7 +30,7 @@
 
 - Salvare (scrivere) il file per poi uscire:
 
-`{{<Esc>ZZ|<Esc>:wq<Enter>}}`
+`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
 
 - Uscire senza salvare:
 
