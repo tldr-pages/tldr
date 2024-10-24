@@ -15,7 +15,7 @@
 
 `cal --year`
 
-- Muestra los siguientes 12 meses:
+- Muestra los 12 meses siguientes:
 
 `cal --twelve`
 
