@@ -19,9 +19,13 @@
 
 `cp -vr {{ruta/al/directorio_origen}} {{ruta/al/directorio_destino}}`
 
-- Copia archivos de texto en otra ubicación en modo interactivo (pregunta al usuario antes de sobreescribir):
+- Copia varios archivos de inmediato a un directorio:
 
-`cp -i {{*.txt}} {{ruta/al/directorio_destino}}`
+`cp -t {{ruta/al/directorio_destino}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
+
+- Copia todos los archivos con una extensión específica a otra ubicación en modo interactivo (pregunta al usuario antes de sobreescribir):
+
+`cp -i {{*.ext}} {{ruta/al/directorio_destino}}`
 
 - Sigue los enlaces simbólicos antes de copiar:
 
