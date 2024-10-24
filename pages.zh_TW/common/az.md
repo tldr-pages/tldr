@@ -4,7 +4,7 @@
 > 此命令也有關於其子命令的文件，例如：`login`.
 > 更多資訊：<https://learn.microsoft.com/cli/azure>.
 
-- 登錄到 Azure：
+- 登入到 Azure：
 
 `az login`
 
@@ -27,3 +27,11 @@
 - 管理 Azure 網路資源：
 
 `az network`
+
+- 以互動模式啟動：
+
+`az interactive`
+
+- 查看指令​​的說明：
+
+`az --help`
