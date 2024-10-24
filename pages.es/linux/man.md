@@ -27,10 +27,10 @@
 
 `man --where {{comando}}`
 
-- Muestra la página del manual usando un idioma específico:
+- Muestra la página del manual usando un idioma específico (p.e. es para español):
 
 `man --locale={{idioma}} {{comando}}`
 
-- Busca las páginas del manual que contienen la cadena a buscar:
+- Busca las páginas del manual que contienen la cadena de búsqueda:
 
-`man --apropos "{{cadena_a_buscar}}"`
+`man --apropos "{{cadena_de_búsqueda}}"`
