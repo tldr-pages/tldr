@@ -16,7 +16,7 @@
 
 `curl --fail --remote-name --location --continue-at - {{http://exemple.fr/nom_fichier}}`
 
-- Envoyer des données de formulaire encodées (requête POST de type `application/x-www-form-urlencoded`). Utiliser `--data @file_name` ou `--data @'-'` pour lire depuis STDIN :
+- Envoyer des données de formulaire encodées (requête POST de type `application/x-www-form-urlencoded`). Utiliser `--data @file_name` ou `--data @'-'` pour lire depuis `stdin` :
 
 `curl --data {{'nom=bob'}} {{http://exemple.fr/formulaire}}`
 

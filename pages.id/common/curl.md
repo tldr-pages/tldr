@@ -16,7 +16,7 @@
 
 `curl --fail --remote-name --location --continue-at - {{http://contoh.com/filename}}`
 
-- Mengirim data form yang telah di encode (permintaan POST atau tipe data `application/x-www-form-urlencoded`). Gunakan `--data @file_name` atau `--data @'-'` untuk membaca dari STDIN:
+- Mengirim data form yang telah di encode (permintaan POST atau tipe data `application/x-www-form-urlencoded`). Gunakan `--data @file_name` atau `--data @'-'` untuk membaca dari `stdin`:
 
 `curl --data {{'name=bob'}} {{http://contoh.com/form}}`
 

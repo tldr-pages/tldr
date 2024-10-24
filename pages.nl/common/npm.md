@@ -28,10 +28,10 @@
 
 `npm uninstall {{pakket_naam}}`
 
-- Lijst van lokaal geïnstalleerde afhankelijkheden:
+- Toon alle lokaal geïnstalleerde afhankelijkheden:
 
 `npm list`
 
-- Lijst van top-level globaal geïnstalleerde pakketten:
+- Toon alle top-level globaal geïnstalleerde pakketten:
 
 `npm list {{-g|--global}} --depth {{0}}`
