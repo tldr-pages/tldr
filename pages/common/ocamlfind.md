@@ -2,7 +2,7 @@
 
 > The findlib package manager for OCaml.
 > Simplifies linking executables with external libraries.
-> More information: <http://projects.camlcity.org/projects/findlib.html>.
+> More information: <https://projects.camlcity.org/projects/findlib.html>.
 
 - Compile a source file to a native binary and link with packages:
 

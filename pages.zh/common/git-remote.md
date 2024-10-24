@@ -5,7 +5,7 @@
 
 - 列出已经存在的远程仓库，包括它们的名字和 URL：
 
-`git remote -v`
+`git remote {{-v|--verbose}}`
 
 - 查看某个远程仓库的信息：
 

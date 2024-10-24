@@ -1,9 +1,9 @@
 # fc
 
-> Open het meest recente commando en bewerk het.
+> Open het meest recente commando voor bewerking en voer het uit.
 > Meer informatie: <https://manned.org/fc>.
 
-- Open in de standaard systeemeditor:
+- Open het laatste commando in de standaard systeemeditor en voer het uit na het aanpassen:
 
 `fc`
 
@@ -19,6 +19,14 @@
 
 `fc -l -r`
 
-- Toon commando's in een gegeven interval:
+- Pas een commando uit de geschiedenis aan en voer het uit:
+
+`fc {{nummer}}`
+
+- Pas commando's in een gegeven interval aan en voer ze uit:
 
 `fc '{{416}}' '{{420}}'`
+
+- Toon help:
+
+`fc --help`

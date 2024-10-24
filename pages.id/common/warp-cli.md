@@ -7,7 +7,7 @@
 
 - Daftarkan perangkat ini ke dalam jaringan WARP (harus dijalankan pada pertama kali):
 
-`warp-cli register`
+`warp-cli registration new`
 
 - Hubungkan perangkat ini ke dalam jaringan WARP:
 

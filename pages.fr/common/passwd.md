@@ -13,8 +13,8 @@
 
 - Affiche l'état actuel du compte utilisateur :
 
-`passwd -S`
+`passwd {{-S|--status}}`
 
 - Supprime le mot de passe de l'utilisateur (supprime l'authentification par mot de passe pour l'utilisateur indiqué) :
 
-`passwd -d`
+`passwd {{-d|--delete}}`

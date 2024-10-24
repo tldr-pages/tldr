@@ -8,6 +8,10 @@
 
 `cradle connect {{server}}`
 
+- Führe einen Cradle-Befehl aus:
+
+`cradle {{befehl}}`
+
 - Zeige die Hilfe-Seite an:
 
 `cradle help`
@@ -15,7 +19,3 @@
 - Zeige die Hilfe-Seite für einen bestimmten Befehl:
 
 `cradle {{befehl}} help`
-
-- Führe einen Cradle-Befehl aus:
-
-`cradle {{befehl}}`

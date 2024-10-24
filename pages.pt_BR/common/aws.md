@@ -13,10 +13,6 @@
 
 `aws configure sso`
 
-- Veja o texto de ajuda para o comando da AWS:
-
-`aws {{comando}} help`
-
 - Obtenha a informações da identidade usada (útil para analisar problemas de permissão):
 
 `aws sts get-caller-identity`
@@ -36,3 +32,7 @@
 - Gera um arquivo esqueleo em JSON (útil para ser usado em infraestrutura como código):
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- Veja o texto de ajuda para o comando da AWS:
+
+`aws {{comando}} help`

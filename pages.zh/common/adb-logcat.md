@@ -25,11 +25,11 @@
 
 - 显示特定 PID 的日志：
 
-`adb logcat --pid={{pid}}`
+`adb logcat --pid {{pid}}`
 
 - 显示某个特定软件包的进程日志：
 
-`adb logcat --pid=$(adb shell pidof -s {{软件包}})`
+`adb logcat --pid $(adb shell pidof -s {{软件包}})`
 
 - 给日志着色（通常与过滤器一起使用）:
 

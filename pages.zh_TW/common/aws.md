@@ -12,10 +12,6 @@
 
 `aws configure sso`
 
-- 查看 AWS 指令​​的說明：
-
-`aws {{AWS指令}} help`
-
 - 取得呼叫者身分（用於排除權限問題）：
 
 `aws sts get-caller-identity`
@@ -35,3 +31,7 @@
 - 產生 JSON CLI 骨架（對於基礎設施即程式碼有用）：
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- 查看 AWS 指令​​的說明：
+
+`aws {{AWS指令}} help`

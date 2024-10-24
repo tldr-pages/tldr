@@ -31,7 +31,7 @@
 
 - Ga naar de normale modus, sla (write) het bestand op en sluit af:
 
-`<Esc>:wq<Enter>`
+`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
 
 - Sluit af zonder op te slaan:
 

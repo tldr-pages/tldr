@@ -12,10 +12,10 @@
 
 `bugreportz -p`
 
-- Tunjukkan versi program `bugreportz`:
-
-`bugreportz -v`
-
 - Tampilkan teks bantuan:
 
 `bugreportz -h`
+
+- Tunjukkan versi program `bugreportz`:
+
+`bugreportz -v`
