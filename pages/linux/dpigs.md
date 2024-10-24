@@ -9,9 +9,11 @@
 `-n, --lines=N`
 
 - Use FILE instead of the default dpkg status file:
+
 `-s, --status=FILE`
 
-- Display the largest source packages of binary packages installed on the system.
+- Display the largest source packages of binary packages installed on the system:
+
 `-S, --source`
 
 - Display package sizes in human-readable format:
