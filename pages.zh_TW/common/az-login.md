@@ -14,7 +14,7 @@
 
 - 使用客戶端憑證登入服務主體：
 
-`az login --service-principal --username {{http://azure-cli-service-principal}} --password {{path/to/cert.pem}} --tenant {{someone.onmicrosoft.com}}`
+`az login --service-principal --username {{http://azure-cli-service-principal}} --password {{路徑/到/憑證.pem}} --tenant {{someone.onmicrosoft.com}}`
 
 - 使用 VM 的系統指派身份登入：
 
