@@ -26,7 +26,7 @@
 
 - Envia dados no formato JSON, especificando o cabeçalho de tipo de conteúdo (content-type) apropriado:
 
-`curl --data {{'{"nome":"maria"}'}} --header {{'Content-Type: application/json'}} {{http://example.com/usuários/1234}}`
+`curl --data {{'{"nome":"maria"}'}} --header {{'Content-Type: application/json'}} {{http://example.com/usuarios/1234}}`
 
 - Passa o certificado do cliente e chave para um recurso, pulando a validação do certificado:
 
