@@ -20,6 +20,6 @@
 
 `init 6`
 
-- Set the system to run on terminal with only root user allowed an no networking:
+- Set the system to run on terminal with only root user allowed and no networking:
 
 `sudo init 1`
