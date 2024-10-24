@@ -7,7 +7,7 @@
 
 `docker images`
 
-- Lista todas as imagens Docker incluíndo imagens intermedirárias:
+- Lista todas as imagens Docker incluindo imagens intermedirárias:
 
 `docker images --all`
 
@@ -22,3 +22,7 @@
 - Lista imagens que contenham um substring no seu nome:
 
 `docker images "{{*nome*}}"`
+
+- Classifica imagens pelo tamanho:
+
+`docker images --format "\{\{.ID\}\}\t\{\{.Size\}\}\t\{\{.Repository\}\}:\{\{.Tag\}\}" | sort -k 2 -h`
