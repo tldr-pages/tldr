@@ -12,6 +12,6 @@
 
 `sudo userdel --root {{ruta/al/otro/root}} {{usuario}}`
 
-- Elimina un usuario junto con su directorio home y correo(mail spool):
+- Elimina un usuario junto con su directorio home y correo (mail spool):
 
 `sudo userdel --remove {{usuario}}`
