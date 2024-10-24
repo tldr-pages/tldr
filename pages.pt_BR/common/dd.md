@@ -9,7 +9,7 @@
 
 - Clona um dispositivo para outro dispositivo com bloco de 4 MiB e descarta escritas antes que o comando termine:
 
-`dd bs=4194304 conv=fsync if={{/dev/drive_fonte}} of={{/dev/drive_destino}}`
+`dd bs=4194304 conv=fsync if={{/dev/dispositivo_origem}} of={{/dev/dispositivo_destino}}`
 
 - Gera um arquivo com um número específico de bytes aleatórios utilizando o driver random do kernel:
 
