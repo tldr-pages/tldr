@@ -27,3 +27,11 @@
 - 管理 Azure 網路資源：
 
 `az network`
+
+- 以互動模式啟動：
+
+`az interactive`
+
+- 查看指令​​的說明：
+
+`az --help`
