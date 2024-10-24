@@ -19,11 +19,11 @@
 
 `docker ps --filter "name={{nome}}"`
 
-- Filtra todos os contêineres que compartilha uma determinada imagem com um antepassado:
+- Filtra todos os contêineres que compartilham uma determinada imagem com um antepassado:
 
 `docker ps --filter "ancestor={{imagem}}:{{tag}}"`
 
-- Filtra contêineres que tenha o código de saída:
+- Filtra contêineres que tenham o código de saída:
 
 `docker ps --all --filter "exited={{código}}"`
 
