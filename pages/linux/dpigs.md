@@ -4,19 +4,20 @@
 > Sorts the installed packages by size and outputs the largest ones.
 > More information: <https://manned.org/man/dpigs>.
 
-- OPTIONS:
+- Display the N largest packages on the system:
 
 `-n, --lines=N`
-`Display the N largest packages on the system (default 10).`
 
+- Use FILE instead of the default dpkg status file:
 `-s, --status=FILE`
-`Use FILE instead of the default dpkg status file (which is /var/lib/dpkg/status currently).`
 
+- Display the largest source packages of binary packages installed on the system.
 `-S, --source`
-`Display the largest source packages of binary packages installed on the system.`
+
+- Display package sizes in human-readable format:
 
 `-H, --human-readable`
-`Display package sizes in human-readable format (like ls -lh or du -h)`
+
+- Display some usage information and exit:
 
 `-h, --help`
-`Display some usage information and exit.`
