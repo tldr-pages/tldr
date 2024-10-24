@@ -23,5 +23,3 @@
 - Display help:
 
 `dpigs --help`
-
-
