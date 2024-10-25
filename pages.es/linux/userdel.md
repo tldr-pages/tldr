@@ -1,21 +1,17 @@
 # userdel
 
 > Elimina una cuenta de usuario o elimina un usuario de un grupo.
-> Nota: todos los comandos deben ser ejecutados como root.
+> Vea también: `users`, `useradd`, `usermod`.
 > Más información: <https://manned.org/userdel>.
 
 - Elimina un usuario:
 
-`userdel {{nombre}}`
+`sudo userdel {{usuario}}`
 
-- Elimina un usuario junto con su directorio home y mail spool:
+- Elimina un usuario en otro directorio raíz:
 
-`userdel --remove {{nombre}}`
+`sudo userdel {{-R|--root}} {{ruta/al/otro/root}} {{usuario}}`
 
-- Elimina un usuario de un grupo:
+- Elimina un usuario junto con su directorio home y correo (mail spool):
 
-`userdel {{nombre}} {{grupo}}`
-
-- Elimina un usuario en otro directorio root:
-
-`userdel --root {{ruta/al/otro/root}} {{nombre}}`
+`sudo userdel {{-r|--remove}} {{usuario}}`
