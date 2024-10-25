@@ -12,11 +12,11 @@
 
 `sudo useradd {{-u|--uid}} {{id}} {{usuario}}`
 
-- Crea un usuario con una línea de comando(shell) específica:
+- Crea un usuario con una línea de comando (shell) específica:
 
 `sudo useradd {{-s|--shell}} {{ruta/a/la/shell}} {{usuario}}`
 
-- Crea un usuario perteneciente a grupos adicionales (tener en cuenta que no se colocan espacios en blanco):
+- Crea un usuario perteneciente a grupos adicionales (ten en cuenta que no se colocan espacios en blanco):
 
 `sudo useradd {{-G|--groups}} {{grupo1,grupo2,...}} {{usuario}}`
 
