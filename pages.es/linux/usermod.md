@@ -18,7 +18,7 @@
 
 - Añade un usuario a grupos suplementarios (ten en cuenta los espacios en blanco):
 
-`sudo usermod {{-a|--append}} {{-G|--groups}}  {{grupo1,grupo2}} {{usuario}}`
+`sudo usermod {{-a|--append}} {{-G|--groups}} {{grupo1,grupo2}} {{usuario}}`
 
 - Cambia el directorio home de un usuario:
 
