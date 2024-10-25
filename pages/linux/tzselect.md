@@ -1,9 +1,10 @@
 # tzselect
 
 > Interactively select timezone.
+> Note: this program doesn't actually set the timezone.
 > More information: <https://manned.org/tzselect>.
 
-- Open the interactive menu for timezone selection:
+- Open the interactive menu for timezone selection and print the selected timezone to `stdout`:
 
 `tzselect`
 
