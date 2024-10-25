@@ -13,10 +13,10 @@
 
 `dos2unix {{-n|--newfile}} {{ruta/al/archivo}} {{ruta/al/nuevo}}`
 
-- Mostrar información de un archivo:
+- Muestra información de un archivo:
 
 `dos2unix {{-i|--info}} {{ruta/al/archivo}}`
 
-- Mantener/añadir/eliminar Marca de Orden de Byte (Byte Order Mark):
+- Mantiene/añade/elimina Marca de Orden de Byte (Byte Order Mark):
 
 `dos2unix --{{keep-bom|add-bom|remove-bom}} {{ruta/al/archivo}}`
