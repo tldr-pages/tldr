@@ -16,6 +16,6 @@
 
 `cfssl scan {{host1 host2 ...}}`
 
-- Show more information of a subcommand:
+- Display help for a subcommand:
 
 `cfssl {{genkey|gencsr|certinfo|sign|gencrl|ocspdump|ocsprefresh|ocspsign|ocspserve|scan|bundle|crl|print-defaults|revoke|gencert|serve|version|selfsign|info}} -h`
