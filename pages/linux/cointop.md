@@ -17,7 +17,7 @@
 
 - Check price of coin(s):
 
-`cointop price --coins {{coin_name1, coin_name2,...}}`
+`cointop price --coins {{coin_name1,coin_name2,...}}`
 
 - Display version:
 
