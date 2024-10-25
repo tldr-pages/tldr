@@ -29,7 +29,7 @@
 
 - Muestra la página del manual usando un idioma (locale) específico (p.e. es para español):
 
-`man --locale={{idioma}} {{comando}}`
+`man --locale={{locale}} {{comando}}`
 
 - Busca las páginas del manual que contienen la cadena de búsqueda:
 
