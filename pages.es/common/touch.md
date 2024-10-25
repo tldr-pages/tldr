@@ -15,6 +15,6 @@
 
 `touch -c -t {{YYYYMMDDHHMM.SS}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
-- Usa los tiempos de un archivo de referencia para establecer los tiempos en otro archivo y no [c]rea el archivo si no existe:
+- Usa los tiempos de un archivo de [r]eferencia para establecer los tiempos en otro archivo y no [c]rea el archivo si no existe:
 
-`touch -c -r {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
+`touch -c -r {{ruta/al/archivo/de/referencia}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
