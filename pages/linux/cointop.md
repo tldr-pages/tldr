@@ -1,6 +1,6 @@
 # cointop
 
-> Track and monitor crypto in the terminal.
+> Track and monitor cryptocurrencies in the terminal.
 > More information: <https://github.com/cointop-sh/cointop>.
 
 - Open TUI:
