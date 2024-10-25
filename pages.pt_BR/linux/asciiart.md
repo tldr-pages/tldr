@@ -9,7 +9,7 @@
 
 - Lê uma imagem de uma URL e imprime em ASCII:
 
-`asciiart {{www.exemplo.com/imagem.jpg}}`
+`asciiart {{www.example.com/imagem.jpg}}`
 
 - Escolha a largura da saída (o padrão é 100):
 

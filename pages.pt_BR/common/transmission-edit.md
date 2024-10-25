@@ -6,7 +6,7 @@
 
 - Adiciona ou remove uma URL a partir da lista de anúncio do torrent:
 
-`transmission-edit --{{add|delete}} {{http://exemplo.com}} {{caminho/para/arquivo.torrent}}`
+`transmission-edit --{{add|delete}} {{http://example.com}} {{caminho/para/arquivo.torrent}}`
 
 - Atualiza um código do rastreador em um arquivo de torrent:
 
