@@ -18,4 +18,4 @@
 
 - Retorna repetidamente una nueva línea para aceptar siempre la opción predeterminada de una pregunta (prompt):
 
-`yes`
+`yes ''`
