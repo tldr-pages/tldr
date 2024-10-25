@@ -1,6 +1,6 @@
 # touch
 
-> Crea archivos y establece los tiempos de acceso y modificación
+> Crea archivos y establece los tiempos de acceso y modificación.
 > Más información: <https://manned.org/touch>.
 
 - Crea los archivos especificados:
@@ -13,7 +13,7 @@
 
 - Establece los [t]iempos de un archivo a un valor específico y no [c]rea el archivo si no existe:
 
-`touch -t {{YYYYMMDDHHMM.SS}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
+`touch -c -t {{YYYYMMDDHHMM.SS}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
 - Usa los tiempos de un archivo de referencia para establecer los tiempos en otro archivo y no [c]rea el archivo si no existe:
 
