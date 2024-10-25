@@ -5,7 +5,7 @@
 
 - Conecta-se a um servidor FTP:
 
-`ftp {{ftp.exemplo.com}}`
+`ftp {{ftp.example.com}}`
 
 - Alterna para o modo de transferência binária (gráficos, arquivos compactados, etc):
 
