@@ -16,7 +16,7 @@
 
 `aur repo --list`
 
-- Actualiza los paquetes del repositorio local:
+- Act[u]aliza los paquetes del repositorio local:
 
 `aur sync --upgrades`
 
