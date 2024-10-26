@@ -24,7 +24,7 @@
 
 `step certificate format {{path/to/certificate.pem}} --out {{path/to/certificate.der}}`
 
--  Install or uninstall a root certificate in the system's default trust store:
+- Install or uninstall a root certificate in the system's default trust store:
 
 `step certificate {{install|uninstall}} {{path/to/root-ca.crt}}`
 
