@@ -15,7 +15,7 @@
 
 `sudo pvremove --yes {{physical_volume}}`
 
-- Forcefully remove LVM label:
+- Forcefully remove a LVM label:
 
 `sudo pvremove --force {{physical_volume}}`
 
