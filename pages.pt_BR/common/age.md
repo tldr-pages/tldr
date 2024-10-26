@@ -1,28 +1,34 @@
-# age
+age
 
-> Uma simples, moderna e segura ferramenta de criptografia de arquivos.
-> Mais informações: <https://github.com/FiloSottile/age>.
+>Uma ferramenta simples, moderna e segura de criptografia de arquivos. Veja também: age-keygen para gerar pares de chaves. Mais informações: https://github.com/FiloSottile/age.
 
-- Gera um arquivo criptografado que pode ser descriptografado com uma frase-chave:
 
-`age --passphrase --output {{caminho/para/arquivo_criptografado}} {{caminho/para/arquivo_descriptografado}}`
 
-- Gera um par de chaves, salvando a chave privada em um arquivo não criptografado e imprimindo a chave pública para `stdout`:
+Gerar um arquivo criptografado que pode ser descriptografado com uma senha:
 
-`age-keygen --output {{caminho/para/arquivo}}`
 
-- Criptografa arquivo com uma ou mais chaves públicas que são inseridas como literais:
 
-`age --recipient {{chave_pública_1}} --recipient {{chave_pública_2}} {{caminho/para/arquivo_descriptografado}} --output {{caminho/para/arquivo_criptografado}}`
+`age --passphrase --output {{path/to/encrypted_file}} {{path/to/unencrypted_file}}`
 
-- Criptografa arquivo com uma ou mais chaves públicas que são especificadas no arquivo do destinatário:
 
-`age --recipients-file {{caminho/para/arquivo_destinatário}} {{caminho/para/arquivo_descriptografado}} --output {{caminho/para/arquivo_criptografado}}`
+Criptografar um arquivo com uma ou mais chaves públicas inseridas como literais (repita a flag --recipient para especificar várias chaves públicas):
 
-- Descriptografa um arquivo com uma frase-chave:
+`age --recipient {{public_key}} --output {{path/to/encrypted_file}} {{path/to/unencrypted_file}}`
 
-`age --decrypt --output {{caminho/para/arquivo_descriptografado}} {{caminho/para/arquivo_criptografado}}`
 
-- Descriptografa um arquivo com um arquivo chave privada:
 
-`age --decrypt --identity {{caminho/para/arquivo_chave_privada}} --output {{caminho/para/arquivo_descriptografado}} {{caminho/para/arquivo_criptografado}}`
+
+Criptografar um arquivo para um ou mais destinatários cujas chaves públicas estão especificadas em um arquivo (uma por linha):
+
+`age --recipients-file {{path/to/recipients_file}} --output {{path/to/encrypted_file}} {{path/to/unencrypted_file}}`
+
+
+Descriptografar um arquivo com uma senha:
+
+`age --decrypt --output {{path/to/decrypted_file}} {{path/to/encrypted_file}}`
+
+
+Descriptografar um arquivo com um arquivo de chave privada:
+
+
+`age --decrypt --identity {{path/to/private_key_file}} --output {{path/to/decrypted_file}} {{path/to/encrypted_file}}`
