@@ -8,13 +8,17 @@
 
 `sbctl status`
 
-- Crea claves de arranque seguro personalizadas (todo se almacena en `/var/lib/sbctl`):
+- Crea claves de arranque seguro personalizadas (todo se almacena en `/var/lib/sbctl` de forma predeterminada):
 
 `sbctl create-keys`
 
 - Inscribe las claves de arranque seguro personalizadas y los certificados de proveedor UEFI de Microsoft:
 
 `sbctl enroll-keys --microsoft`
+
+- Ejecuta automáticamente `create-keys` y `enroll-keys` basado en los parámetros de `/etc/sbctl/sbctl.conf`:
+
+`sbctl setup --setup`
 
 - Firma un binario EFI con la clave creada y guarda el archivo en la base de datos:
 
