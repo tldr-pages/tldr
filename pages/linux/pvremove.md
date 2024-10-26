@@ -3,7 +3,7 @@
 > Remove LVM labels from physical volume(s).
 > More information: <https://man7.org/linux/man-pages/man8/pvremove.8.html>.
 
-- Remove LVM label from a physical volume:
+- Remove a LVM label from a physical volume:
 
 `sudo pvremove {{/dev/sdXY}}`
 
