@@ -4,7 +4,7 @@
 > Apelidos expiram ao final da sessão atual do shell de comando, a menos que sejam definidos no arquivo de configuração do shell, por exemplo `~/.bashrc`.
 > Mais informações: <https://tldp.org/LDP/abs/html/aliases.html>.
 
-Lista todos os apelidos:
+- Lista todos os apelidos:
 
 `alias`
 
