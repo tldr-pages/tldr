@@ -30,7 +30,7 @@
 
 - Create a RSA/EC private and public keypair (append `--no-password --insecure` to skip private key password protection):
 
-`step crypto keypair {{path/to/pubkey}} {{path/to/privkey}} --kty {{RSA|EC}}`
+`step crypto keypair {{path/to/public_key}} {{path/to/private_key}} --kty {{RSA|EC}}`
 
 - Show help for subcommands:
 
