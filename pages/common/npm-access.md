@@ -30,5 +30,3 @@
 - Configure two-factor authentication requirement:
 
 `npm access set mfa=none|publish|automation [<package>]`
-
-If you need any additional details or changes, feel free to ask!
