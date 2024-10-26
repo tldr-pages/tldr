@@ -1,7 +1,7 @@
 # az
 
 > A interface de linha de comando oficial do Microsoft Azure.
-> Mais informações: <https://learn.microsoft.com/cli/azure>.
+> Mais informações: <https://learn.microsoft.com/pt-br/cli/azure/>.
 
 - Faz log in no Azure:
 
