@@ -12,10 +12,6 @@
 
 `bat {{/caminho/para/arquivo1 /caminho/para/arquivo2 ...}} > {{/caminho/para/arquivo_destino}}`
 
-- Acrescenta o conteúdo de vários arquivos ao final de um arquivo destino:
-
-`bat {{/caminho/para/arquivo1 /caminho/para/arquivo2 ...}} >> {{/caminho/para/arquivo_destino}}`
-
 - Remove estilizacão e desabilita páginação (`--style plain` pode ser substituído por `-p`, ou ambas as opções com `-pp`):
 
 `bat --style plain --pager never {{/caminho/para/arquivo}}`
