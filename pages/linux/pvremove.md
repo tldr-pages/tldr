@@ -11,7 +11,7 @@
 
 `sudo pvremove --verbose {{physical_volume}}`
 
-- Remove LVM label without asking for confirmation:
+- Remove a LVM label without asking for confirmation:
 
 `sudo pvremove --yes {{physical_volume}}`
 
