@@ -1,7 +1,7 @@
 # pvremove
 
 > Remove LVM labels from physical volume(s).
-> More information: <https://man7.org/linux/man-pages/man8/pvremove.8.html>.
+> More information: <https://manned.org/pvremove>.
 
 - Remove a LVM label from a physical volume:
 
