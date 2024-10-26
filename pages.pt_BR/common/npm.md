@@ -4,9 +4,9 @@
 > Gerencia projetos Node.js e suas dependências de módulos.
 > Mais informações: <https://www.npmjs.com>.
 
-- Interativamente cria um arquivo `package.json`:
+- Cria um arquio `package.json` com os valores padrões (omita `--yes` para torná-lo interativo):
 
-`npm init`
+`npm init {{-y|--yes}}`
 
 - Baixa todos os pacotes listados como dependências em `package.json`:
 
@@ -28,10 +28,10 @@
 
 `npm uninstall {{pacote}}`
 
-- Lista as dependências instaladas localmente:
+- Lista todas as dependências instaladas localmente:
 
 `npm list`
 
-- Lista os pacotes de nível superior instalados globalmente:
+- Lista todos os pacotes de nível superior instalados globalmente:
 
 `npm list {{-g|--global}} --depth {{0}}`

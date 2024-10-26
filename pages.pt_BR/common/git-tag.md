@@ -1,18 +1,18 @@
 # git tag
 
 > Cria, exibe, exclui ou verifica tags.
-> Uma tag é uma referência estática para um commit específico.
+> Uma tag é uma referência estática para um commit.
 > Mais informações: <https://git-scm.com/docs/git-tag>.
 
 - Exibe todas as tags:
 
 `git tag`
 
-- Crie uma tag com o nome fornecido apontando para o commit atual:
+- Cria uma tag com o nome fornecido apontando para o commit atual:
 
 `git tag {{nome_da_tag}}`
 
-- Crie uma tag com o nome fornecido apontando para um determinado commit:
+- Cria uma tag com o nome fornecido apontando para um determinado commit:
 
 `git tag {{nome_da_tag}} {{commit}}`
 
@@ -22,12 +22,16 @@
 
 - Exclui a tag com o nome fornecido:
 
-`git tag -d {{nome_da_tag}}`
+`git tag {{-d|--delete}} {{nome_da_tag}}`
 
-- Obtenha tags atualizadas do upstream:
+- Obtém tags atualizadas do remote:
 
 `git fetch --tags`
 
-- Liste todas as tags cujos ancestrais incluem um determinado commit:
+- Envia uma tag para o remote:
+
+`git push origin tag {{nome_da_tag}}`
+
+- Lista todas as tags cujos ancestrais incluem um determinado commit:
 
 `git tag --contains {{commit}}`
