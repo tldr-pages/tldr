@@ -10,7 +10,7 @@
 
 - Disable completion descriptions:
 
-`grance completion {{shell_name}} --no-descriptions`
+`gcrane completion {{shell_name}} --no-descriptions`
 
 - Load completions in your current shell session (bash/zsh):
 
