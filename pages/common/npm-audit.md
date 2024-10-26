@@ -2,7 +2,7 @@
 
 > Command to scan for known vulnerabilities in project dependencies.
 > Reports vulnerabilities and suggests remediation.
-> More information: <https://docs.npmjs.com/cli/v9/commands/npm-audit>.
+> More information: <https://docs.npmjs.com/cli/npm-audit>.
 
 - Check your project for vulnerabilities-  Scans your project’s dependencies for known vulnerabilities:
 
