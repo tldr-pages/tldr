@@ -1,7 +1,7 @@
 # npm config
 
 > Manage the npm configuration files.
-> More information: <https://docs.npmjs.com/cli/v9/commands/npm-config>.
+> More information: <https://docs.npmjs.com/cli/npm-config>.
 
 - Set configuration values - Updates the user configuration file with the specified key-value pairs:
 
