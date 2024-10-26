@@ -10,7 +10,7 @@
 
 - Create root CA certificate and key (append `--no-password --insecure` to skip private key password protection):
 
-`step certificate create "Example Root CA" {{path/to/root-ca.crt}} {{path/to/root-ca.key}} --profile root-ca`
+`step certificate create "{{Example Root CA}}" {{path/to/root-ca.crt}} {{path/to/root-ca.key}} --profile root-ca`
 
 - Generate a certificate for a specific hostname and sign it with the root CA (generating a CSR can be skipped for simplification):
 
