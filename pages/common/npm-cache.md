@@ -1,6 +1,6 @@
 # npm cache
 
-> Manage the npm cache.
+> Manage the npm package cache.
 > More information: <https://docs.npmjs.com/cli/commands/npm-cache>.
 
 - Add a specific package to the cache:
