@@ -32,6 +32,6 @@
 
 `az interactive`
 
-- 查看指令​​的說明：
+- 查看指令的說明：
 
 `az --help`
