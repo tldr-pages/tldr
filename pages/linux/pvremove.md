@@ -5,7 +5,7 @@
 
 - Remove LVM label from a physical volume:
 
-`sudo pvremove {{physical_volume}}`
+`sudo pvremove {{/dev/sdXY}}`
 
 - Display detailed output during the operation:
 
