@@ -33,4 +33,4 @@
 
 - Change the cache path:
 
-`npm config set cache {{path_to_directory}}`
+`npm config set cache {{path/to/directory}}`
