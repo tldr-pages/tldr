@@ -9,16 +9,16 @@
 
 - Display detailed output during the operation:
 
-`sudo pvremove --verbose {{physical_volume}}`
+`sudo pvremove --verbose {{/dev/sdaXY}}`
 
 - Remove a LVM label without asking for confirmation:
 
-`sudo pvremove --yes {{physical_volume}}`
+`sudo pvremove --yes {{/dev/sdaXY}}`
 
 - Forcefully remove a LVM label:
 
-`sudo pvremove --force {{physical_volume}}`
+`sudo pvremove --force {{/dev/sdaXY}}`
 
 - Display output in JSON format:
 
-`sudo pvremove --reportformat json {{physical_volume}}`
+`sudo pvremove --reportformat json {{/dev/sdaXY}}`
