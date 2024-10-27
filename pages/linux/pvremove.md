@@ -9,16 +9,16 @@
 
 - Display detailed output during the operation:
 
-`sudo pvremove --verbose {{/dev/sdaXY}}`
+`sudo pvremove --verbose {{/dev/sdXY}}`
 
 - Remove a LVM label without asking for confirmation:
 
-`sudo pvremove --yes {{/dev/sdaXY}}`
+`sudo pvremove --yes {{/dev/sdXY}}`
 
 - Forcefully remove a LVM label:
 
-`sudo pvremove --force {{/dev/sdaXY}}`
+`sudo pvremove --force {{/dev/sdXY}}`
 
 - Display output in JSON format:
 
-`sudo pvremove --reportformat json {{/dev/sdaXY}}`
+`sudo pvremove --reportformat json {{/dev/sdXY}}`
