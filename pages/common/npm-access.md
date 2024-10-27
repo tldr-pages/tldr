@@ -5,7 +5,7 @@
 
 - List packages for a user or scope:
 
-`npm access list packages [<user>|<scope>|<scope:team>] [<package>]`
+`npm access list packages {{user|scope|scope:team}} {{package_name}}`
 
 - List collaborators on a package:
 
