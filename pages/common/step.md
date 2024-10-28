@@ -20,7 +20,7 @@
 
 `step certificate verify {{path/to/hostname.crt}} --roots {{path/to/root-ca.crt}} --verbose`
 
-- Convert PEM format certificate to DER and write to disk:
+- Convert a PEM format certificate to DER and write it to disk:
 
 `step certificate format {{path/to/certificate.pem}} --out {{path/to/certificate.der}}`
 
