@@ -196,7 +196,7 @@ def get_alias_page(path: Path) -> str:
             if match := re.search(r"^> This command is an alias of `(.+)`\.$", line):
                 command_name = match[1]
             # count the lines matching pattern "`...`"
-            if re.match(r'^`[^`]+`$', line.strip()):
+            if re.match(r"^`[^`]+`$", line.strip()):
                 command_count += 1
 
     if command_count == 1:
