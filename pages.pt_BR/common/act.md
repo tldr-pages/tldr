@@ -23,7 +23,7 @@
 
 `act -j {{job_id}}`
 
-- Não executa realmente as açoes (i.e. um dry run):
+- Não executa realmente as ações (ex.: um dry run):
 
 `act -n`
 
