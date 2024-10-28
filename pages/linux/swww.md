@@ -10,7 +10,7 @@
 
 - Set wallpaper to specified [o]utputs:
 
-`swww img -o {{output1,output2,...}} {{/path/to/image}}`
+`swww img -o {{output1,output2,...}} {{path/to/image}}`
 
 - Restore last wallpaper:
 
