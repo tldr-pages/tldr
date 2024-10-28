@@ -8,7 +8,7 @@
 
 `step certificate inspect {{path/to/certificate.crt}}`
 
-- Create root CA certificate and key (append `--no-password --insecure` to skip private key password protection):
+- Create a root CA certificate and a key (append `--no-password --insecure` to skip private key password protection):
 
 `step certificate create "{{Example Root CA}}" {{path/to/root-ca.crt}} {{path/to/root-ca.key}} --profile root-ca`
 
