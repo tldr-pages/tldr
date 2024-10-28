@@ -33,4 +33,4 @@
 
 - Executa um workflow específico com o evento de push.
 
-`act push -W {{path/to/workflow}}`
+`act push -W {{caminho/para/workflow}}`
