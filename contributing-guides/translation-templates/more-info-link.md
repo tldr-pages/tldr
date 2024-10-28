@@ -65,7 +65,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### bn
 
 ```markdown
-> আরও তথ্য পাবেন: <https://example.com>.
+> আরও তথ্য পাবেন: <https://example.com>।
 ```
 
 ---
@@ -145,7 +145,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### hi
 
 ```markdown
-> अधिक जानकारी: <https://example.com>.
+> अधिक जानकारी: <https://example.com>।
 ```
 
 ---
@@ -169,7 +169,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### ja
 
 ```markdown
-> 詳しくはこちら: <https://example.com>.
+> 詳しくはこちら: <https://example.com>
 ```
 
 ---
@@ -201,7 +201,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### ne
 
 ```markdown
-> थप जानकारी: <https://example.com>.
+> थप जानकारी: <https://example.com>।
 ```
 
 ---
@@ -297,7 +297,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### th
 
 ```markdown
-> ข้อมูลเพิ่มเติม: <https://example.com>.
+> ข้อมูลเพิ่มเติม: <https://example.com>
 ```
 
 ---
