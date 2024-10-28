@@ -31,6 +31,6 @@
 
 `act -v`
 
-- Executa um workflow específico com o evento de push.
+- Executa um workflow específico com o evento de push:
 
 `act push -W {{caminho/para/workflow}}`
