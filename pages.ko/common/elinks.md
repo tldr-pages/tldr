@@ -1,7 +1,7 @@
 # elinks
 
 > `lynx`와 유사한 텍스트 기반 브라우저.
-> 더 많은 정보: <http://elinks.or.cz>.
+> 더 많은 정보: <https://github.com/rkd77/elinks>.
 
 - ELink 시작:
 
