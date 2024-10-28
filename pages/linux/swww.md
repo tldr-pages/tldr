@@ -6,7 +6,7 @@
 
 - Set wallpaper:
 
-`swww img {{/path/to/image}}`
+`swww img {{path/to/image}}`
 
 - Set wallpaper to specified [o]utputs:
 
