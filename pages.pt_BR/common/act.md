@@ -15,10 +15,6 @@
 
 `act {{tipo_de_evento}}`
 
-- Executa ação específica:
-
-`act -a {{acao_id}}`
-
 - Executa um job específico:
 
 `act -j {{job_id}}`
