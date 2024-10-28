@@ -9,7 +9,7 @@
 
 - Relata conteúdos do cabeçalho BMP para `stderr`:
 
-`bmptopnm -verbose {{path/to/file.bmp}}`
+`bmptopnm -verbose {{caminho/para/arquivo.bmp}}`
 
 - Versão de exibição:
 
