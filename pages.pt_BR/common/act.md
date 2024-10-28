@@ -19,7 +19,7 @@
 
 `act -a {{acao_id}}`
 
-- Executa job específico:
+- Executa um job específico:
 
 `act -j {{job_id}}`
 
