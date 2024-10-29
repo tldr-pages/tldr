@@ -4,7 +4,7 @@
 > 변환기: `gml2gv`, `gv2gml`, `gv2gxl`, `gxl2gv`, `graphml2gv` & `mm2gv`.
 > 더 많은 정보: <https://graphviz.org/pdf/gxl2gv.1.pdf>.
 
-- 그래프를 `gxl`에서 `gv` 형식으로 변환.
+- 그래프를 `gxl`에서 `gv` 형식으로 변환:
 
 `gxl2gv -o {{출력.gv}} {{입력.gxl}}`
 
