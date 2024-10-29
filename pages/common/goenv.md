@@ -4,7 +4,7 @@
 > Supports version numbers like "1.16.15" or "1.22.8" etc.
 > More information: <https://github.com/go-nv/goenv>.
 
-- List all available Goenv commands:
+- List all available goenv commands:
 
 `goenv commands`
 
