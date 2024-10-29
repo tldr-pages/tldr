@@ -5,7 +5,7 @@
 
 - Create a new user in the specified registry and save credentials to `.npmrc`:
 
-`npm adduser --registry={{registry-url}}`
+`npm adduser --registry={{registry_url}}`
 
 - Log in to a private registry with a specific scope:
 
