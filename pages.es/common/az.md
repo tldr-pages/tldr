@@ -14,11 +14,11 @@
 
 - Lista todos los discos gestionados de Azure:
 
-`az lista de discos`
+`az disk list`
 
 - Lista todas las máquinas virtuales de Azure:
 
-`az vm list` (lista de máquinas virtuales)
+`az vm list`
 
 - Gestiona los servicios Azure Kubernetes:
 
