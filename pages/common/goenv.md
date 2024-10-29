@@ -24,7 +24,7 @@
 
 `goenv versions`
 
-- Uninstall a given go version:
+- Uninstall a given Go version:
 
 `goenv uninstall {{go_version}}`
 
