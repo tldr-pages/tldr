@@ -2,7 +2,7 @@
 
 > Send feedback to the Azure CLI Team.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/reference-index#az_feedback>.
+> More information: <https://learn.microsoft.com/cli/azure/reference-index#az-feedback>.
 
 - Send feedback to the Azure CLI Team:
 
