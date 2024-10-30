@@ -1,6 +1,6 @@
 # idevicebackup
 
-> Create or restore backups for iOS devices. 
+> Create or restore backups for iOS devices.
 > Note: This tool is outdated. Please see `idevicebackup2`.
 > More information: <https://manned.org/idevicebackup>.
 
