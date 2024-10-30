@@ -1,7 +1,7 @@
 # sbctl
 
 > Un gestor de claves de arranque seguro fácil de usar.
-> Nota: no registrar los certificados de Microsoft puede bloquear su sistema. Ver <https://github.com/Foxboron/sbctl/wiki/FAQ#option-rom>.
+> Nota: no registrar los certificados de Microsoft puede bloquear su sistema. Vea <https://github.com/Foxboron/sbctl/wiki/FAQ#option-rom>.
 > Más información: <https://github.com/Foxboron/sbctl#usage>.
 
 - Muestra el estado actual del arranque seguro:
@@ -12,7 +12,7 @@
 
 `sbctl create-keys`
 
-- Inscribe las claves de arranque seguro personalizadas y los certificados de proveedor UEFI:
+- Inscribe las claves de arranque seguro personalizadas y los certificados de proveedor UEFI de Microsoft:
 
 `sbctl enroll-keys --microsoft`
 
