@@ -5,7 +5,7 @@
 
 - Create a new Move project in the given folder:
 
-`sui move new PROJECT_NAME`
+`sui move new {{project_name}}`
 
 - Test the Move project in the current directory:
 
