@@ -9,15 +9,15 @@
 
 - Informationen für eine durch Leerzeichen getrennte Liste von Verzeichnissen anzeigen:
 
-`dust {{pfad/zum/verzeichnis1}} {{pfad/zum/verzeichnis2}}`
+`dust {{pfad/zu/verzeichnis1 pfad/zu/verzeichnis2 ...}}`
 
 - Zeige 30 Verzeichnisse an (Standardwert: 21):
 
-`dust --number-of-lines {{30}}`
+`dust --number-of-lines 30`
 
 - Zeigt Informationen für das aktuelle Verzeichnis an, bis zu 3 Ebenen tief:
 
-`dust --depth {{3}}`
+`dust --depth 3`
 
 - Die größten Verzeichnisse in absteigender Reihenfolge oben anzeigen:
 

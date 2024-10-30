@@ -13,20 +13,24 @@
 
 - Bungkus objek dan referensi untuk lima komit terakhir pada cabang saat ini:
 
-`git bundle create {{jalan/menuju/berkas.bundle}} -{{5}} {{HEAD}}`
+`git bundle create {{jalan/menuju/berkas.bundle}} -5 {{HEAD}}`
 
 - Bungkus objek dan referensi untuk perubahan sejak 7 hari terakhir:
 
-`git bundle create {{jalan/menuju/berkas.bundle}} --since={{7.days}} {{HEAD}}`
+`git bundle create {{jalan/menuju/berkas.bundle}} --since 7.days {{HEAD}}`
 
 - Cek apakah suatu berkas bundle bersifat valid dan dapat diaplikasikan ke dalam repositori saat ini:
 
 `git bundle verify {{jalan/menuju/berkas.bundle}}`
 
-- Cetak daftar berkas referensi yang terkandung dalam berkas bundle menuju stdout:
+- Cetak daftar berkas referensi yang terkandung dalam berkas bundle menuju `stdout`:
 
 `git bundle unbundle {{jalan/menuju/berkas.bundle}}`
 
 - Buka dan pakai isi bungkusan untuk suatu cabang pada repositori saat ini:
 
 `git pull {{jalan/menuju/berkas.bundle}} {{nama_cabang}}`
+
+- Buat sebuah repositori baru dari suatu berkas bundle:
+
+`git clone {{jalan/menuju/berkas.bundle}}`

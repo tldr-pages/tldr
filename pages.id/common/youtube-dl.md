@@ -1,7 +1,7 @@
 # youtube-dl
 
 > Unduh video dari YouTube dan situs web lain.
-> Informasi lebih lanjut: <http://rg3.github.io/youtube-dl/>.
+> Informasi lebih lanjut: <https://rg3.github.io/youtube-dl/>.
 
 - Mengunduh sebuah video atau daftar putar:
 

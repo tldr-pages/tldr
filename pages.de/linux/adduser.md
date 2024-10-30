@@ -1,7 +1,7 @@
 # adduser
 
 > Tool um Benutzer hinzuzufügen.
-> Weitere Informationen: <https://manpages.debian.org/latest/adduser/adduser.html>.
+> Weitere Informationen: <https://manned.org/adduser>.
 
 - Erstelle einen neuen Benutzer mit einem Standard-Home-Verzeichnis und Aufforderung an den Benutzer, ein Passwort festzulegen:
 

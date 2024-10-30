@@ -12,10 +12,14 @@
 
 `bugreportz -p`
 
-- Mostra a versão de `bugreportz`:
+- Escreve o conteúdo de um relatório de bug do Android para `stdout`:
 
-`bugreportz -v`
+`bugreportz -s`
 
 - Mostra a ajuda:
 
 `bugreportz -h`
+
+- Mostra a versão de `bugreportz`:
+
+`bugreportz -v`

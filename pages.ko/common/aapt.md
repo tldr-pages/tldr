@@ -2,7 +2,7 @@
 
 > Android Asset Packaging Tool.
 > 안드로이드 앱의 소스를 컴파일하고 패키징합니다.
-> 더 많은 정보: <https://elinux.org/Android_aapt>.
+> 더 많은 정보: <https://manned.org/aapt>.
 
 - APK 아카이브에 포함된 파일 나열:
 

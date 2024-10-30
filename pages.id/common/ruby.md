@@ -3,22 +3,26 @@
 > Interpreter bahasa pemrograman Ruby.
 > Informasi lebih lanjut: <https://www.ruby-lang.org>.
 
-- Memulai REPL (_shell_ interaktif):
+- Jalankan suatu berkas skrip atau program Ruby:
 
-`irb`
+`ruby {{jalan/menuju/skrip.rb}}`
 
-- Menjalankan skrip Ruby:
+- Jalankan suatu perintah Ruby dalam command-line:
 
-`ruby {{lokasi/ke/script.rb}}`
+`ruby -e {{perintah}}`
 
-- Menjalankan sebuah perintah Ruby dalam _command-line_:
+- Periksa kesalahan sintaks dari suatu berkas skrip Ruby:
 
-`ruby -e {{command}}`
+`ruby -c {{jalan/menuju/skrip.rb}}`
 
-- Memeriksa kesalahan sintaks dari skrip Ruby:
+- Jalankan program peladen (server) HTTP bawaan terrhadap direktori saat ini menuju port 8080:
 
-`ruby -c {{lokasi/ke/script.rb}}`
+`ruby -run -e httpd`
 
-- Menampilkan versi Ruby yang anda gunakan:
+- Jalankan suatu berkas biner program Ruby tanpa memasang suatu pustaka (library) pendukung yang diwajibkan:
+
+`ruby -I {{jalan/menuju/direktori_pustaka}} -r {{nama_pustaka_yang_dikecualikan}} {{jalan/menuju/direktori_bin/nama_berkas_bin}}`
+
+- Tampilkan [v]ersi Ruby saat ini:
 
 `ruby -v`

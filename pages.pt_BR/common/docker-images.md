@@ -1,13 +1,13 @@
 # docker images
 
 > Gerencia imagens Docker.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/images/>.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
 - Lista todas as imagens Docker:
 
 `docker images`
 
-- Lista todas as imagens Docker incluíndo imagens intermedirárias:
+- Lista todas as imagens Docker incluindo imagens intermedirárias:
 
 `docker images --all`
 
@@ -22,3 +22,7 @@
 - Lista imagens que contenham um substring no seu nome:
 
 `docker images "{{*nome*}}"`
+
+- Classifica imagens pelo tamanho:
+
+`docker images --format "\{\{.ID\}\}\t\{\{.Size\}\}\t\{\{.Repository\}\}:\{\{.Tag\}\}" | sort -k 2 -h`

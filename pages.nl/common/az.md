@@ -1,8 +1,8 @@
 # az
 
 > De officiële CLI tool voor Microsoft Azure.
-> Sommige subcommando's zoals `az login` hebben hun eigen documentatie.
-> Meer informatie: <https://learn.microsoft.com/cli/azure>.
+> Sommige subcommando's zoals `login` hebben hun eigen documentatie.
+> Meer informatie: <https://learn.microsoft.com/cli/azure/reference-index>.
 
 - Log in bij Azure:
 
@@ -27,3 +27,11 @@
 - Beheer Azure Network resources:
 
 `az network`
+
+- Start in interactieve modus:
+
+`az interactive`
+
+- Toon de help:
+
+`az --help`

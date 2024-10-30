@@ -1,16 +1,20 @@
 # apt-file
 
-> Buscador de arquivos nos pacotes APT, incluindo os não instalados.
-> Mais informações: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
+> Busca arquivos nos pacotes APT, incluindo os não instalados.
+> Mais informações: <https://manned.org/apt-file.1>.
 
-- Atualiza as informações dos pacotes a partir de todos os repositórios remotos:
+- Atualiza as informações dos pacotes:
 
 `sudo apt update`
 
 - Busca por pacotes que contêm o arquivo ou caminho especificado:
 
-`apt-file search {{nome_do_pacote_ou_caminho}}`
+`apt-file {{search|find}} {{caminho_parcial/para/arquivo}}`
 
 - Lista o conteúdo de um pacote específico:
 
-`apt-file list {{nome_do_pacote}}`
+`apt-file {{show|list}} {{nome_do_pacote}}`
+
+- Busca pacotes que correspondem à expressão regular:
+
+`apt-file {{search|find}} --regexp {{expressao_regular}}`

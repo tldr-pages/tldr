@@ -1,7 +1,7 @@
 # nxc
 
 > Herramienta de enumeración y explotación de servicios de red.
-> Algunos subcomandos como `nxc smb` tienen su propia documentación de uso.
+> Algunos subcomandos como `smb` tienen su propia documentación de uso.
 > Más información: <https://www.netexec.wiki/>.
 
 - [L]ista módulos disponibles para el protocolo especificado:

@@ -7,6 +7,7 @@
 [![Merged PRs][prs-merged-image]][prs-merged-url]
 [![GitHub contributors][contributors-image]][contributors-url]
 [![license][license-image]][license-url]
+[![Mastodon][mastodon-image]][mastodon-url]
 
 [github-actions-url]: https://github.com/tldr-pages/tldr/actions
 [github-actions-image]: https://img.shields.io/github/actions/workflow/status/tldr-pages/tldr/ci.yml?branch=main&label=Build
@@ -18,6 +19,8 @@
 [contributors-image]: https://img.shields.io/github/contributors-anon/tldr-pages/tldr.svg?label=Contributors
 [license-url]: https://github.com/tldr-pages/tldr/blob/main/LICENSE.md
 [license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg?label=License
+[mastodon-url]: https://fosstodon.org/@tldr_pages
+[mastodon-image]: https://img.shields.io/badge/Mastodon-6364FF?logo=mastodon&logoColor=fff
 </div>
 
 ## What is tldr-pages?
@@ -88,7 +91,7 @@ If you don't want to install any software, check out the [PDF version](https://g
 
 There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
-For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients).
+For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/Clients).
 
 ## How do I contribute to tldr-pages?
 

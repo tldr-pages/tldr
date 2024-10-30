@@ -25,11 +25,11 @@
 
 - Ubah nama cabang (harus bukan cabang saat ini untuk melakukannya):
 
-`git branch -m {{nama_cabang_lama}} {{nama_cabang_baru}}`
+`git branch {{-m|--move}} {{nama_cabang_lama}} {{nama_cabang_baru}}`
 
 - Hapus cabang lokal (harus bukan cabang saat ini untuk melakukannya):
 
-`git branch -d {{nama_cabang}}`
+`git branch {{-d|--delete}} {{nama_cabang}}`
 
 - Hapus cabang remote:
 

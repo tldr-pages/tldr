@@ -60,13 +60,17 @@ for the behavior expected of tldr-pages maintainers.
   (2) have the **review comments addressed**,
   (3) get **approved reviews by two maintainers** (the second maintainer can merge immediately after approving).
 
-- It is suggested to wait for a few hours before merging a pull request with new additions to English pages. This is to allow other maintainers to review the changes and provide feedback.
+- It is suggested to wait for a few hours before merging a PR with new additions to English pages. This is to allow other maintainers to review the changes and provide feedback.
+
+- If a PR is non-English and there are automatic reviewers added via [CODEOWNERS](https://github.com/tldr-pages/tldr/blob/main/.github/CODEOWNERS), the PR at least needs one approval from one of the CODEOWNERS.
+  - If a PR fails to get a review from one of the CODEOWNERS after a few days, the first maintainer should ping the CODEOWNERS for review.
+  - If it still lingers around for **over 10 days without an approval from one of the CODEOWNERS**, the PR can be merged if it has two approvals.
+  - If it only has one approval, please read the next point.
 
 - If a PR fails to get a review from a second maintainer after a few days,
-  the first maintainer should ping others for review. If it still lingers around
-  for **over a week without a second maintainer’s approval**,
-  the first maintainer (if Owner) can go ahead and merge it. Otherwise, a message
-  can be sent in the chatroom asking other maintainers to review the PR.
+  the first maintainer should ping others for review. 
+  - If it still lingers around for **over a week without a second maintainer’s approval**, the first maintainer (if Owner) can go ahead and merge it. 
+    Otherwise, a message can be sent in the chatroom asking other maintainers to review the PR.
 
 - If the only issues holding up a merge are **trivial fixes**
   (typos, syntax errors, etc.), and the author doesn't respond in a day or two,

@@ -1,16 +1,20 @@
 # touch
 
-> Mengubah waktu akses (atime) dan waktu modifikasi (mtime) dari sebuah file.
-> Informasi lebih lanjut: <https://manned.org/man/freebsd-13.1/touch>.
+> Buat berkas-berkas kosong baru dan setel waktu akses dan modifikasi terhadap para berkas.
+> Informasi lebih lanjut: <https://manned.org/touch>.
 
-- Membuat file baru yang kosong atau mengubah waktu file yang telahj ada ke waktu sekarang:
+- Buat kumpulan berkas baru:
 
-`touch {{nama_file}}`
+`touch {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}}`
 
-- Mengatur waktu sebuah file ke tanggal dan jam tertentu:
+- Atur informasi waktu [a]kses atau [m]odifikasi pada kumpulan berkas yang telah tersedia dalam penyimpanan, dan jangan membuat ([c]reate) berkas baru jika tak tersedia dalam penyimpanan:
 
-`touch -t {{YYYYMMDDHHMM.SS}} {{nama_file}}`
+`touch -c -{{a|m}} {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}}`
 
-- Menggunakan waktu dari satu file untuk mengatur waktu file yang lain:
+- Atur informasi wak[t]u terhadap kumpulan berkas, dan jangan membuat ([c]reate) berkas baru jika tak tersedia dalam penyimpanan:
 
-`touch -r {{nama_file}} {{nama_file2}}`
+`touch -c -t {{YYYYMMDDHHMM.SS}} {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}}`
+
+- Gunakan informasi wak[t]u atas suatu berkas referensi terhadap kumpulan berkas yang diolah, dan jangan membuat ([c]reate) berkas baru jika tak tersedia dalam penyimpanan:
+
+`touch -c -r {{jalan/menuju/berkas_referensi}} {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}}`

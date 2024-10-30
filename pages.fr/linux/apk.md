@@ -1,7 +1,7 @@
 # apk
 
 > Gestionnaire de paquet d'Alpine Linux.
-> Plus d'informations : <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
+> Plus d'informations : <https://manned.org/apk>.
 
 - Mets à jour les indexes de tous les dépôts distants :
 

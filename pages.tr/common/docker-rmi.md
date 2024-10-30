@@ -1,7 +1,7 @@
 # docker rmi
 
 > Bir veya daha fazla Docker imgesini sil.
-> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/rmi/>.
+> Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/image/rm/>.
 
 - Yardım göster:
 

@@ -13,7 +13,7 @@
 
 - Reiche einen Fehlerbericht über eine bestimmte ausführbare Datei ein:
 
-`apport-bug {{pfad/zum/executable}}`
+`apport-bug {{pfad/zu/binärdatei}}`
 
 - Reiche einen Fehlerbericht über einen bestimmten Prozess ein:
 

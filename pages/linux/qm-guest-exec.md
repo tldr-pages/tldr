@@ -15,6 +15,6 @@
 
 `qm guest exec {{vm_id}} {{argument1 argument2...}} --timeout {{10}}`
 
-- Execute a specific command via a guest agent and forward input from STDIN until EOF to the guest agent:
+- Execute a specific command via a guest agent and forward input from `stdin` until EOF to the guest agent:
 
 `qm guest exec {{vm_id}} {{argument1 argument2 ...}} --pass-stdin 1`

@@ -9,7 +9,7 @@
 
 - Show the history of a particular file or directory, including differences:
 
-`git log {{--patch|-p|-u}} {{path/to/file_or_directory}}`
+`git log {{-p|-u|--patch}} {{path/to/file_or_directory}}`
 
 - Show an overview of which file(s) changed in each commit:
 
@@ -29,7 +29,7 @@
 
 - Show the last N number of commits from a certain author:
 
-`git log {{--max-count|-n} {{number}} --author "{{author}}"`
+`git log {{-n|--max-count}} {{number}} --author "{{author}}"`
 
 - Show commits between two dates (yyyy-mm-dd):
 

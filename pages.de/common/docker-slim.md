@@ -1,7 +1,7 @@
 # docker-slim
 
 > Analysiere und optimiere Docker Images.
-> Weitere Informationen: <https://github.com/docker-slim/docker-slim>.
+> Weitere Informationen: <https://github.com/slimtoolkit/slim>.
 
 - Starte DockerSlim im interaktiven Modus:
 
@@ -13,7 +13,7 @@
 
 - Linte ein Dockerfile:
 
-`docker-slim lint --target {{pfad/zum/Dockerfile}}`
+`docker-slim lint --target {{pfad/zu/Dockerfile}}`
 
 - Analysiere und generiere ein optimiertes Docker Image:
 

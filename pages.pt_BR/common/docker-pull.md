@@ -1,7 +1,7 @@
 # docker pull
 
 > Baixar imagens do Docker de um registro.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/pull/>.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/image/pull/>.
 
 - Baixa uma imagem específica do Docker:
 

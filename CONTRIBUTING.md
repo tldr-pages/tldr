@@ -141,7 +141,7 @@ You should always add a base page (e.g. `git`) that describes the program and ba
 
 The following methods can be used to reference subcommands:
 
-- You can add a note saying ``Some subcommands such as `example command` have their own usage documentation`` to the main page. (See the [subcommand reference](/contributing-guides/translation-templates/subcommand-mention.md) page for translation templates.)
+- You can add a note saying ``Some subcommands such as `example command` have their own usage documentation`` to the main page. (See the [subcommand reference](/contributing-guides/translation-templates/subcommand-mention.md) page for translation templates). `example command` should only include the subcommand (e.g. `commit` instead of `git commit`).
 - You can use ``See also: `command1`, `command2`.`` template to reference similar commands, aliases and subcommands.
 - Alternatively, the whole page can be converted to reference the main subcommands.
 
@@ -182,7 +182,7 @@ Translation of pages can be done by simply creating the corresponding page withi
 > [!TIP]
 > When fixing errors in an existing translation, it is suggested to update the page to match the latest version of the English page.
 
-To see the current progress of all translations, you can visit <https://lukwebsforge.github.io/tldri18n/>, which provides a dynamically updated table of all pages and their translations.
+To see the current progress of all translations, you can visit <https://lukwebsforge.github.io/tldri18n/>, which provides a dynamically updated table of all pages and their translations or you can visit <https://github.com/tldr-pages/tldr-maintenance/issues/127>, which provides a dynamically updated list about the translation status (e.g. list all outdated pages) per language.
 
 Some examples of valid locale tags:
 

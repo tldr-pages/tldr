@@ -1,7 +1,8 @@
 # docker
 
-> 도커 컨테이너들과 이미지들을 관리한다.
-> 더 많은 정보: <https://docs.docker.com/engine/reference/commandline/cli/>.
+> Docker 컨테이너 및 이미지를 관리.
+> `run`과 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+> 더 많은 정보: <https://docs.docker.com/reference/cli/docker/>.
 
 - 모든 도커 컨테이너들(실행 및 중지) 목록 보기:
 
@@ -11,9 +12,9 @@
 
 `docker run --name {{컨테이너_이름}} {{이미지}}`
 
-- 기존 컨테이너 실행 또는 중지하기:
+- 기존 컨테이너 시작 또는 중지:
 
-`docker {{실행|중지}} {{컨테이너_이름}}`
+`docker {{start|stop}} {{컨테이너_이름}}`
 
 - 도커 레지스트리로부터 이미지 가져오기:
 
@@ -23,14 +24,14 @@
 
 `docker images`
 
-- 이미 실행중인 컨테이너 내부에서 쉘 열기:
+- 실행 중인 컨테이너 내부에서 Bourne 셸(`sh`)과 함께 [i]nteractive [t]ty 열기:
 
-`docker exec -it {{컨테이너_이름}} {{쉘}}`
+`docker exec -it {{컨테이너_이름}} {{sh}}`
 
-- 중지된 컨테이너 제거하기:
+- 중지된 컨테이너 제거:
 
 `docker rm {{컨테이너_이름}}`
 
-- 컨테이너 로그를 가져오고 팔로우하기:
+- 컨테이너의 로그 가져오기 및 실시간으로 보기:
 
 `docker logs -f {{컨테이너_이름}}`

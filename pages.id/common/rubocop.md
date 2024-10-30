@@ -1,32 +1,32 @@
 # rubocop
 
-> Analisa file Ruby.
+> Analisa berkas Ruby.
 > Informasi lebih lanjut: <https://docs.rubocop.org/rubocop/usage/basic_usage.html>.
 
-- Periksa semua file dalam direktori saat ini (termasuk direktori-direktori di dalamnya):
+- Periksa semua berkas dalam direktori saat ini (termasuk direktori-direktori di dalamnya):
 
 `rubocop`
 
-- Periksa satu atau lebih file atau direktori secara khusus:
+- Periksa satu atau lebih berkas atau direktori secara khusus:
 
-`rubocop {{jalan/menuju/file}} {{jalan/menuju/direktori}}`
+`rubocop {{jalan/menuju/berkas_atau_direktori1 jalan/menuju/berkas_atau_direktori2 ...}}`
 
-- Tulis output ke file:
+- Tulis output ke berkas:
 
-`rubocop --out {{jalan/menuju/file}}`
+`rubocop --out {{jalan/menuju/berkas}}`
 
-- Melihat daftar cop (aturan-aturan dalam menganalisa):
+- Lihat daftar cop (aturan-aturan dalam menganalisa):
 
 `rubocop --show-cops`
 
-- Mengecualikan cop:
+- Kecualikan kumpulan cop dalam proses analisa:
 
-`rubocop --except {{cop_1}} {{cop_2}}`
+`rubocop --except {{cop1 cop2 ...}}`
 
-- Menjalankan hanya beberapa cop:
+- Jalankan hanya beberapa cop:
 
-`rubocop --only {{cop_1}} {{cop_2}}`
+`rubocop --only {{cop1 cop2 ...}}`
 
-- Memperbaiki file secara otomatis (fitur percobaan):
+- Perbaiki berkas secara otomatis (fitur percobaan):
 
 `rubocop --auto-correct`

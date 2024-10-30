@@ -1,7 +1,7 @@
 # reg
 
 > Beheer sleutels en de waardes in een Windows registry.
-> Sommige subcommando's zoals `reg add` hebben hun eigen documentatie.
+> Sommige subcommando's zoals `add` hebben hun eigen documentatie.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg>.
 
 - Voer een registry commando uit:
@@ -18,7 +18,7 @@
 
 - Bekijk de documentatie voor het zoeken, bekijken en vergelijken van sleutels:
 
-`tldr reg {{compare|flags|query}}`
+`tldr reg {{compare|query}}`
 
 - Bekijk de documentatie voor het exporteren en importeren van registry sleutels zonder de eigenaar en ACLs te bewaren:
 

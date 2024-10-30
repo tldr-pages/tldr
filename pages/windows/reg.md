@@ -1,7 +1,7 @@
 # reg
 
 > Manage keys and their values in the Windows registry.
-> Some subcommands such as `reg add` have their own usage documentation.
+> Some subcommands such as `add` have their own usage documentation.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg>.
 
 - Execute a registry command:
@@ -18,7 +18,7 @@
 
 - View documentation for searching, viewing, and comparing keys:
 
-`tldr reg {{compare|flags|query}}`
+`tldr reg {{compare|query}}`
 
 - View documentation for exporting and importing registry keys not preserving the key ownerships and ACLs:
 

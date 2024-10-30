@@ -1,16 +1,20 @@
 # touch
 
-> Cambia el tiempo de accesso y modificación de un archivo (atime, mtime).
-> Más información: <https://manned.org/man/freebsd-13.1/touch>.
+> Crea archivos y establece los tiempos de acceso y modificación.
+> Más información: <https://manned.org/touch>.
 
-- Crea un archivo nuevo o cambia los tiempos de archivos existentes al tiempo actual:
+- Crea los archivos especificados:
 
-`touch {{archivo}}`
+`touch {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
-- Establece los tiempos de un archivo a un día y hora específicos:
+- Establece los tiempos de [a]cceso o [m]odificación al momento actual y no [c]rea un archivo si este no existe:
 
-`touch -t {{YYYYMMDDHHMM.SS}} {{archivo}}`
+`touch -c -{{a|m}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
-- Usa los tiempos de un archivo para establecer los tiempos en otro archivo:
+- Establece los [t]iempos de un archivo a un valor específico y no [c]rea el archivo si no existe:
 
-`touch -r {{archivo}} {{archivo2}}`
+`touch -c -t {{YYYYMMDDHHMM.SS}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
+
+- Usa los tiempos de un archivo de [r]eferencia para establecer los tiempos en otro archivo y no [c]rea el archivo si no existe:
+
+`touch -c -r {{ruta/al/archivo/de/referencia}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`

@@ -1,9 +1,9 @@
 # pacman
 
 > Arch Linux package manager utility.
-> See also: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
+> See also: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pacman-files`, `pacman-database`, `pacman-deptest`, `pacman-key`, `pacman-mirrors`.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> More information: <https://man.archlinux.org/man/pacman.8>.
+> More information: <https://manned.org/pacman.8>.
 
 - Synchronize and update all packages:
 

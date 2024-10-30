@@ -1,8 +1,8 @@
 # docker
 
 > Gerenciador de containers e imagens Docker.
-> Alguns subcomandos como `docker run` tem sua própia documentação de uso.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/cli/>.
+> Alguns subcomandos como `run` tem sua própia documentação de uso.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/>.
 
 - Lista todos os containers Docker (em execução e parados):
 

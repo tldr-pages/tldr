@@ -18,11 +18,11 @@
 
 - Sauvegarder et fermer :
 
-`:wq<Entrée>`
+`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
 
 - Annuler la dernière opération :
 
-`u`
+`<Esc>u`
 
 - Rechercher un motif dans un fichier (appuyez `n`/`N` pour aller à la prochaine / précédente occurrence) :
 

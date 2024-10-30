@@ -10,24 +10,24 @@
 
 - Create a new user with the specified user ID:
 
-`sudo useradd --uid {{id}} {{username}}`
+`sudo useradd {{-u|--uid}} {{id}} {{username}}`
 
 - Create a new user with the specified shell:
 
-`sudo useradd --shell {{path/to/shell}} {{username}}`
+`sudo useradd {{-s|--shell}} {{path/to/shell}} {{username}}`
 
 - Create a new user belonging to additional groups (mind the lack of whitespace):
 
-`sudo useradd --groups {{group1,group2,...}} {{username}}`
+`sudo useradd {{-G|--groups}} {{group1,group2,...}} {{username}}`
 
 - Create a new user with the default home directory:
 
-`sudo useradd --create-home {{username}}`
+`sudo useradd {{-m|--create-home}} {{username}}`
 
 - Create a new user with the home directory filled by template directory files:
 
-`sudo useradd --skel {{path/to/template_directory}} --create-home {{username}}`
+`sudo useradd {{-k|--skel}} {{path/to/template_directory}} {{-m|--create-home}} {{username}}`
 
 - Create a new system user without the home directory:
 
-`sudo useradd --system {{username}}`
+`sudo useradd {{-r|--system}} {{username}}`

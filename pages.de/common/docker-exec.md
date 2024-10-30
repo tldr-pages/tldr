@@ -1,7 +1,7 @@
 # docker exec
 
 > Führe Befehle in einem bereits laufenden Docker Container aus.
-> Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/exec/>.
+> Weitere Informationen: <https://docs.docker.com/reference/cli/docker/container/exec/>.
 
 - Öffne eine Shell innerhalb eines bereits laufenden Containers:
 
@@ -13,7 +13,7 @@
 
 - Bestimme das Arbeitsverzeichnis, in dem der Befehl ausgeführt werden soll:
 
-`docker exec --interactive --tty --workdir {{pfad/zum/verzeichnis}} {{container_name}} {{befehl}}`
+`docker exec --interactive --tty --workdir {{pfad/zu/verzeichnis}} {{container_name}} {{befehl}}`
 
 - Führe einen Befehl im Hintergrund in einem laufenden Container aus, aber lies von der Standardeingabe:
 

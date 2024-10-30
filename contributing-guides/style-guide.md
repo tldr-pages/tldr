@@ -112,7 +112,7 @@ Thus, if the command or its options are unavailable or contain different behavio
 ### Platform differences
 
 If you are afraid the commands may differ between platforms or operating systems (e.g. Windows vs macOS),
-most [tldr pages clients](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients) will choose the most suitable version of the command to be displayed to the end user.
+most [tldr pages clients](https://github.com/tldr-pages/tldr/wiki/Clients) will choose the most suitable version of the command to be displayed to the end user.
 
 In this case, the information of the Windows version of `cd` (stored in `pages/windows/cd.md`) will be displayed by default to Windows users, and a generic/common version (stored in `pages/common/cd.md`)
 will be displayed for Linux, macOS, and other platform users.
@@ -395,6 +395,7 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 - For commonly/frequently used commands (e.g. `grep`, `tar`, `etc`), we prefer using short options along with [mnemonics](#short-option-mnemonics) or both inside a placeholder.
 - For highlighting both long and short options in commands (instead of using mnemonics), combine them within a placeholder i.e. `{{-o|--output}}`.
 - For user-friendliness, use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
+- Prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`), unless the program does not support it.
 
 ### Placeholder syntax
 

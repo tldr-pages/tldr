@@ -1,28 +1,36 @@
 # aptitude
 
-> Gerenciador de pacotes das distribuições baseadas em Debian.
-> Mais informações: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
+> Utilitário de gerenciamento de pacotes de Debian e Ubuntu.
+> Mais informações: <https://manned.org/aptitude.8>.
 
-- Atualiza a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `aptitude`):
+- Sincroniza a lista de pacotes e versões disponíveis. Deve ser executado antes de outros comandos `aptitude`:
 
 `aptitude update`
 
 - Instala um novo pacote e suas dependências:
 
-`aptitude install {{nome_do_pacote}}`
+`aptitude install {{pacote}}`
 
-- Busca pacotes correspondentes ao critério de busca:
+- Busca por um determinado pacote:
 
-`aptitude search {{criterio_de_busca}}`
+`aptitude search {{pacote}}`
+
+- Busca por uma determinado pacote instalado (`?installed` é um termo de busca `aptitude`):
+
+`aptitude search '?installed({{pacote}})'`
 
 - Remove um pacote e todos que dependam dele:
 
-`aptitude remove {{nome_do_pacote}}`
+`aptitude remove {{pacote}}`
 
-- Atualiza os pacotes instalados para as versões mais recentes:
+- Atualiza os pacotes instalados para suas versões mais recentes:
 
 `aptitude upgrade`
 
 - Atualiza os pacotes instalados (semelhante ao `upgrade`), porém removendo os obsoletos e instalando pacotes solicitados por novas dependências:
 
 `aptitude full-upgrade`
+
+- Coloca um pacote instalado em espera para prevenir atualizações automáticas:
+
+`aptitude hold '?installed({{pacote}})'`

@@ -1,9 +1,9 @@
 # abduco
 
 > Terminal sessiemanager.
-> Meer informatie: <http://www.brain-dump.org/projects/abduco/>.
+> Meer informatie: <https://www.brain-dump.org/projects/abduco/>.
 
-- Lijst van sessies:
+- Toon alle sessies:
 
 `abduco`
 

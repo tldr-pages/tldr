@@ -31,7 +31,7 @@
 
 - Enter normal mode and save (write) the file, and quit:
 
-`<Esc>:wq<Enter>`
+`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
 
 - Quit without saving:
 

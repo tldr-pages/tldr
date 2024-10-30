@@ -5,11 +5,11 @@
 
 - Show all messages with priority level 3 (errors) from this [b]oot:
 
-`journalctl -b --priority={{3}}`
+`journalctl -b --priority=3`
 
 - Delete journal logs which are older than 2 days:
 
-`journalctl --vacuum-time={{2d}}`
+`journalctl --vacuum-time=2d`
 
 - Show only the last N li[n]es and [f]ollow new messages (like `tail -f` for traditional syslog):
 
@@ -25,7 +25,7 @@
 
 - Filter messages within a time range (either timestamp or placeholders like "yesterday"):
 
-`journalctl --since {{now|today|yesterday|tomorrow}} --until {{YYYY-MM-DD HH:MM:SS}}`
+`journalctl --since {{now|today|yesterday|tomorrow}} --until "{{YYYY-MM-DD HH:MM:SS}}"`
 
 - Show all messages by a specific process:
 

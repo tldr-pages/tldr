@@ -1,10 +1,10 @@
 # adb
 
 > Android Debug Bridge: berkomunikasi dengan emulator Android atau perangkat Android terhubung.
-> Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `adb shell`.
+> Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `shell`.
 > Informasi lebih lanjut: <https://developer.android.com/tools/adb>.
 
-- Cek apakah proses server adb telah dimulai dan memulainya:
+- Periksa apakah proses server adb telah dimulai dan memulainya:
 
 `adb start-server`
 
@@ -16,18 +16,18 @@
 
 `adb shell`
 
-- Instal aplikasi Android ke emulator/perangkat tujuan:
+- Pasang suatu aplikasi Android menuju emulator/perangkat tujuan:
 
-`adb install -r {{alamat/ke/berkas.apk}}`
+`adb install -r {{jalan/menuju/berkas.apk}}`
 
 - Salin berkas/direktori dari perangkat tujuan:
 
-`adb pull {{alamat/ke/berkas_atau_direktori_perangkat}} {{alamat/ke/direktori_lokal_tujuan}}`
+`adb pull {{jalan/menuju/berkas_atau_direktori_perangkat}} {{jalan/menuju/direktori_lokal_tujuan}}`
 
-- Salin berkas/direktori ke perangkat tujuan:
+- Salin berkas/direktori menuju perangkat tujuan:
 
-`adb push {{alamat/ke/berkas_atau_direktori_lokal}} {{alamat/ke/direktori_perangkat_tujuan}}`
+`adb push {{jalan/menuju/berkas_atau_direktori_lokal}} {{jalan/menuju/direktori_perangkat_tujuan}}`
 
-- Dapatkan daftar perangkat yang terhubung:
+- Tampilkan daftar perangkat yang terhubung:
 
 `adb devices`
