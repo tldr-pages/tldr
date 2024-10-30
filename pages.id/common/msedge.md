@@ -1,4 +1,4 @@
-# microsoft-edge
+# msedge
 
 > Perintah Microsoft Edge tersedia sebagai `msedge` untuk platform Windows dan `microsoft-edge` untuk platform lainnya.
 > Informasi lebih lanjut: <https://microsoft.com/edge>.
