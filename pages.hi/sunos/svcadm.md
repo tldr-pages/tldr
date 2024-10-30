@@ -1,7 +1,7 @@
 # svcadm
 
 > सेवा उदाहरणों को प्रबंधित करें।
-> अधिक जानकारी: <https://www.unix.com/man-page/linux/1m/svcadm>.
+> अधिक जानकारी: <https://www.unix.com/man-page/linux/1m/svcadm>।
 
 - सेवा डेटाबेस में एक सेवा को सक्षम करें:
 
