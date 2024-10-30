@@ -4,7 +4,7 @@
 > Vea también: `emacs`, `helix`, `vim`.
 > Más información: <https://nano-editor.org>.
 
-- Iniciar el editor:
+- Inicia el editor:
 
 `nano`
 
