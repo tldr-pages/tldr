@@ -13,7 +13,7 @@
 
 - Open a text file with a specific encoding:
 
-`gedit --encoding={{UTF-8}} {{path/to/file}}`
+`gedit --encoding {{UTF-8}} {{path/to/file}}`
 
 - Display a list of supported encodings:
 

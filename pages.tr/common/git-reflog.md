@@ -13,4 +13,4 @@
 
 - Referans kaydında sadece son 5 değişimi göster:
 
-`git reflog -n {{5}}`
+`git reflog {{-n|--max-count}} 5`

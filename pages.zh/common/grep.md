@@ -13,7 +13,7 @@
 
 - 在指定目录下的所有文件中递归地查找模式，显示匹配的行号并忽略二进制文件：
 
-`grep {{-r|--recursive}} {{-n|--line-number}} --binary-files={{without-match}} "{{模式字符串}}" {{路径/到/目录}}`
+`grep {{-r|--recursive}} {{-n|--line-number}} --binary-files {{without-match}} "{{模式字符串}}" {{路径/到/目录}}`
 
 - 使用大小写不敏感的扩展正则表达式（支持 `?`、`+`、`{}`、`()` 和 `|`）：
 

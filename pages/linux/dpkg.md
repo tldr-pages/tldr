@@ -1,7 +1,7 @@
 # dpkg
 
 > Debian package manager.
-> Some subcommands such as `dpkg deb` have their own usage documentation.
+> Some subcommands such as `deb` have their own usage documentation.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://manned.org/dpkg>.
 
@@ -28,3 +28,7 @@
 - Find out which package owns a file:
 
 `dpkg -S {{path/to/file}}`
+
+- Purge an installed or already removed package, including configuration:
+
+`dpkg -P {{package}}`

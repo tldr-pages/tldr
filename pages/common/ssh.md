@@ -32,6 +32,6 @@
 
 `ssh -J {{username}}@{{jump_host}} {{username}}@{{remote_host}}`
 
-- Agent forwarding: Forward the authentication information to the remote machine (see `man ssh_config` for available options):
+- Close a hanged session:
 
-`ssh -A {{username}}@{{remote_host}}`
+`<Enter> ~ .`

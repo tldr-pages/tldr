@@ -1,7 +1,7 @@
 # aws
 
 > Das offizielle CLI für Amazon Web Services.
-> Manche Unterbefehle wie `aws s3` sind separat dokumentiert.
+> Manche Unterbefehle wie `s3` sind separat dokumentiert.
 > Weitere Informationen: <https://aws.amazon.com/cli>.
 
 - Konfiguriere die AWS Kommandozeile:
@@ -11,10 +11,6 @@
 - Konfiguriere die AWS Kommandozeile mithilfe von SSO:
 
 `aws configure sso`
-
-- Zeige Hilfe für ein Kommando an:
-
-`aws {{befehl}} help`
 
 - Zeige Informationen über die eigene angenommene Identität (häufig benutzt zur Fehlersuche):
 
@@ -35,3 +31,7 @@
 - Erstelle einen JSON CLI-Aufbau (hilfreich für Infrastruktur-Automation):
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- Zeige Hilfe für ein Kommando an:
+
+`aws {{befehl}} help`

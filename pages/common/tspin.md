@@ -15,6 +15,6 @@
 
 `tspin {{path/to/application.log}} --print`
 
-- Read from stdin and print to `stdout`:
+- Read from `stdin` and print to `stdout`:
 
 `echo "2021-01-01 12:00:00 [INFO] This is a log message" | tspin`

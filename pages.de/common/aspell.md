@@ -5,7 +5,7 @@
 
 - Überprüfe eine einzelne Datei auf Fehler:
 
-`aspell check {{pfad/zur/datei}}`
+`aspell check {{pfad/zu/datei}}`
 
 - Liste falsch geschriebene Worte von Standard Input:
 

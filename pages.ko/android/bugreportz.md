@@ -12,10 +12,10 @@
 
 `bugreportz -p`
 
-- `bugreportz` 버전 표시:
-
-`bugreportz -v`
-
 - 도움말 표시:
 
 `bugreportz -h`
+
+- `bugreportz` 버전 표시:
+
+`bugreportz -v`

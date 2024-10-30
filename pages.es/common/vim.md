@@ -18,7 +18,7 @@
 
 - Guarda y sale:
 
-`:wq<Enter>`
+`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
 
 - Deshaz la última operación:
 

@@ -5,12 +5,12 @@
 
 - 使用公制单位显示 Rzeszow, Poland 接下来 5 天的天气预报：
 
-`ansiweather -u {{metric}} -f {{5}} -l {{Rzeszow,PL}}`
+`ansiweather -u metric -f 7 -l {{Rzeszow,PL}}`
 
 - 显示带符号和日光数据信息的天气预报：
 
-`ansiweather -s {{true}} -d {{true}}`
+`ansiweather -F -s true -d true`
 
 - 显示带风力等级和湿度信息的天气预报：
 
-`ansiweather -w {{true}} -h {{true}}`
+`ansiweather -w true -h true`

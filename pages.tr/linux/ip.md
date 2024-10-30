@@ -1,7 +1,7 @@
 # ip
 
 > Yönlendirmeyi, aygıtları, kural yönlendirmesini ve tünelleri görüntüle / değiştir.
-> `ip address` gibi bazı alt komutların kendi kullanım belgeleri vardır.
+> `address` gibi bazı alt komutların kendi kullanım belgeleri vardır.
 > Daha fazla bilgi için: <https://www.manned.org/ip.8>.
 
 - Arayüzlerin bilgilerini ayrıntılı bir şekilde listele:
