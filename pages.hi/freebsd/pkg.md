@@ -1,7 +1,7 @@
 # pkg
 
 > FreeBSD पैकेज मैनेजर।
-> अधिक जानकारी: <https://man.freebsd.org/cgi/man.cgi?pkg>.
+> अधिक जानकारी: <https://man.freebsd.org/cgi/man.cgi?pkg>।
 
 - एक नया पैकेज स्थापित करें:
 
