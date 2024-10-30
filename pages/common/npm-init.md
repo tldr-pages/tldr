@@ -1,6 +1,6 @@
 # npm init
 
-> Create a package.json file.
+> Create a `package.json` file.
 > More information: <https://docs.npmjs.com/cli/commands/npm-init>.
 
 - Initialize a new package with prompts:
