@@ -18,7 +18,7 @@
 
 - Bekijk de documentatie voor het zoeken, bekijken en vergelijken van sleutels:
 
-`tldr reg {{compare|flags|query}}`
+`tldr reg {{compare|query}}`
 
 - Bekijk de documentatie voor het exporteren en importeren van registry sleutels zonder de eigenaar en ACLs te bewaren:
 
