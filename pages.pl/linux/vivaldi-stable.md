@@ -3,6 +3,6 @@
 > To polecenie jest aliasem `chromium`.
 > Więcej informacji: <https://vivaldi.com>.
 
-- Zobacz dokumentację oryginalengo polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr chromium`
