@@ -3,7 +3,7 @@
 > Publish smart contracts, get object information, execute transactions, and more.
 > More information: <https://docs.sui.io/references/cli/client>.
 
-- Create a new address with ED25519 scheme:
+- Create a new address with the ED25519 scheme:
 
 `sui client new-address ed25519 {{address-alias}}`
 
