@@ -27,6 +27,6 @@
 
 `sui move build --path {{path}}`
 
-- Migrate to Move 2024 for the package at provided path:
+- Migrate to Move 2024 for the package at the provided path:
 
 `sui move migrate {{path}}`
