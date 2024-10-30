@@ -1,7 +1,7 @@
 # svcs
 
 > चल रहे सेवाओं के बारे में जानकारी सूचीबद्ध करें।
-> अधिक जानकारी: <https://www.unix.com/man-page/linux/1/svcs>.
+> अधिक जानकारी: <https://www.unix.com/man-page/linux/1/svcs>।
 
 - सभी चल रही सेवाओं की सूची बनाएं:
 
