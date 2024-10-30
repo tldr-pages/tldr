@@ -13,4 +13,4 @@
 
 - Initialize a new package using a specific initializer:
 
-`npm init create-react-app my-app`
+`npm init {{create-react-app}} {{my-app}}`
