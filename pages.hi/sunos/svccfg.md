@@ -1,7 +1,7 @@
 # svccfg
 
 > सेवा कॉन्फ़िगरेशन को आयात, निर्यात और संशोधित करें।
-> अधिक जानकारी: <https://www.unix.com/man-page/linux/1m/svccfg>.
+> अधिक जानकारी: <https://www.unix.com/man-page/linux/1m/svccfg>।
 
 - कॉन्फ़िगरेशन फ़ाइल मान्य करें:
 
