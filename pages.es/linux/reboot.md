@@ -1,7 +1,7 @@
 # reboot
 
 > Reinicia el sistema.
-> Ver también: `halt`, `poweroff`.
+> Vea también: `halt`, `poweroff`.
 > Más información: <https://manned.org/reboot.8>.
 
 - Reinicia inmediatamente:
