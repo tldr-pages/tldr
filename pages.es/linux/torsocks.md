@@ -1,7 +1,7 @@
 # torsocks
 
 > Enruta el tráfico de cualquier aplicación a través de la red Tor.
-> Nota: `torsocks` asumirá que debe conectarse al proxy SOCKS que corre en 127.0.0.1:9050 que es el servicio(daemon) predeterminado de Tor.
+> Nota: `torsocks` asumirá que debe conectarse al proxy SOCKS que corre en 127.0.0.1:9050 que es el servicio (daemon) predeterminado de Tor.
 > Más información: <https://gitlab.torproject.org/tpo/core/torsocks/>.
 
 - Ejecuta un comando usando Tor:
