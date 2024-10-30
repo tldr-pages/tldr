@@ -8,7 +8,7 @@
 
 `pnmnorm {{ruta/a/la/imagen.pnm}} > {{ruta/al/resultado.pnm}}`
 
-- Forza los píxeles más brillantes a ser blancos, los más oscuros hacia negro y disemina los demás cuadráticamente, de tal forma que los píxeles con un brillo de 'n' tienen un 50 % del brillo:
+- Fuerza los píxeles más brillantes a ser blancos, los más oscuros hacia negro y disemina los demás cuadráticamente, de tal forma que los píxeles con un brillo de 'n' tienen un 50 % del brillo:
 
 `pnmnorm -midvalue {{n}} {{ruta/a/la/imagen.pnm}} > {{ruta/al/resultado.pnm}}`
 
