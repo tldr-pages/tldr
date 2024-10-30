@@ -30,3 +30,7 @@
 - List the gas coins for the given address (accepts also an alias):
 
 `sui client gas {{address}}`
+
+- Create, sign and execute programmable transaction blocks:
+
+`sui client ptb {{options}} {{subcommand}}`
