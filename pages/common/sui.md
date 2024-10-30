@@ -11,7 +11,7 @@
 
 `sui move {{subcommand}}`
 
-- Client to interact with the Sui network:
+- Publish smart contracts, get object information, execute transactions and more:
 
 `sui client {{subcommand}}`
 
