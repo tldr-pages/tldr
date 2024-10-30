@@ -15,7 +15,7 @@
 
 `yaa extract -i {{pad/naar/archive_file.yaa}}`
 
-- Lijst de inhoud van een archief op:
+- Toon de inhoud van een archief:
 
 `yaa list -i {{pad/naar/archive_file.yaa}}`
 

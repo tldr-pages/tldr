@@ -11,6 +11,6 @@
 
 `crane export {{image_name}} {{path/to/tarball}}`
 
-- Read image from stdin:
+- Read image from `stdin`:
 
 `crane export - {{path/to/filename}}`
