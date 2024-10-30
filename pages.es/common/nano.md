@@ -8,7 +8,7 @@
 
 `nano`
 
-- Iniciar el editor sin usar archivos de configuración:
+- Inicia el editor sin usar archivos de configuración:
 
 `nano --ignorercfiles`
 
