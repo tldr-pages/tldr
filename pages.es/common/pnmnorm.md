@@ -4,7 +4,7 @@
 > Vea también: `pnmhisteq`.
 > Más información: <https://netpbm.sourceforge.net/doc/pnmnorm.html>.
 
-- Forza los píxeles más brillantes a ser blancos, los más oscuros hacia negro y disemina los demás linealmente:
+- Fuerza los píxeles más brillantes a ser blancos, los más oscuros hacia negro y disemina los demás linealmente:
 
 `pnmnorm {{ruta/a/la/imagen.pnm}} > {{ruta/al/resultado.pnm}}`
 
