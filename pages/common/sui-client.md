@@ -31,6 +31,6 @@
 
 `sui client gas {{address}}`
 
-- Create, sign and execute programmable transaction blocks:
+- Create, sign, and execute programmable transaction blocks:
 
 `sui client ptb {{options}} {{subcommand}}`
