@@ -14,7 +14,7 @@
 
 - Abre en una nueva ventana:
 
-`chromium --new-window {{ejemplo.com}}`
+`chromium --new-window {{example.com}}`
 
 - Abre en modo de aplicación (sin barras de herramientas, barra de URL, botones, etc.):
 
