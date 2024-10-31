@@ -19,7 +19,7 @@
 
 `sockstat -jv`
 
-- Exibe o [e]stado do protocolo e o número da porta do encapsulamento [U]DP remoto, se aplicável (atualmente, estes estão implementados somente para SCTP e TCP):
+- Exibe o estado do protocolo e o número da porta do encapsulamento [U]DP remoto, se aplicável (atualmente, estes estão implementados somente para SCTP e TCP):
 
 `sockstat -sU`
 
