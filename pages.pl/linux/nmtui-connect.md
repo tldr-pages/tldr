@@ -1,6 +1,6 @@
 # nmtui-connect
 
-> To polecenie jest aliasem alias `nmtui connect`.
+> To polecenie jest aliasem `nmtui connect`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
