@@ -31,6 +31,6 @@
 
 `sockstat -L`
 
-- Não exibe o cabeçalho (modo [s]ilencioso), mostrando sockets [u]nix e exibindo o `inp_gencnt`:
+- Não exibe o cabeçalho (modo silencioso), mostrando sockets [u]nix e exibindo o `inp_gencnt`:
 
 `sockstat -qui`
