@@ -10,7 +10,7 @@
 
 - Activa la visualización de todos los errores y advertencias:
 
-`clang++ {{ruta/al/código.cpp}} -Wall {{-o|--output}} {{output_executable}}`
+`clang++ {{ruta/al/código.cpp}} -Wall {{-o|--output}} {{ruta/al/ejecutable}}`
 
 - Muestra advertencias comunes, símbolos de depuración en la salida y optimiza sin afectar la depuración:
 
