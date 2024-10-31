@@ -19,7 +19,7 @@
 
 `xz --decompress --format=lzma {{ruta/al/archivo.lzma}}`
 
-- Descomprime un archivo y escribe a 'stdout' (implica `--keep`):
+- Descomprime un archivo y escribe a `stdout` (implica `--keep`):
 
 `xz --decompress --stdout {{ruta/al/archivo.xz}}`
 
