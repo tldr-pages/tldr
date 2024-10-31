@@ -1,4 +1,4 @@
-# kleur
+# color
 
 > Stel de voor- en achtergrondkleuren van de console in.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
