@@ -8,7 +8,7 @@
 
 `npm audit`
 
-- Automatically fix vulnerabilities:
+- Automatically fix vulnerabilities in the project's dependencies:
 
 `npm audit fix`
 
