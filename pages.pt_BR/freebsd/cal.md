@@ -19,7 +19,7 @@
 
 `cal -y`
 
-- Não [d]estaca hoje e exibe [3] meses abrangendo a data:
+- Não destaca hoje e exibe [3] meses abrangendo a data:
 
 `cal -h -3 {{mês}} {{ano}}`
 
