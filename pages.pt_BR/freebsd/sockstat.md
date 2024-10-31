@@ -7,7 +7,7 @@
 
 `sockstat -l`
 
-- Exibe informação para sockets IPv[4] e IPv[6] [e]scutando em portas específicas usando um [p]rotocolo específico:
+- Exibe informação para sockets IPv[4] e IPv[6] escutando em portas específicas usando um [p]rotocolo específico:
 
 `sockstat -{{4|6}} -l -P {{tcp|udp|sctp|divert}} -p {{port1,port2...}}`
 
