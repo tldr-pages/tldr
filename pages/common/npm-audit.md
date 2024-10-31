@@ -1,6 +1,6 @@
 # npm audit
 
-> Command to scan for known vulnerabilities in project dependencies.
+> Scan for known vulnerabilities in project dependencies.
 > Reports vulnerabilities and suggests remediation.
 > More information: <https://docs.npmjs.com/cli/npm-audit>.
 
