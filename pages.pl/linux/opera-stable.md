@@ -1,6 +1,6 @@
 # opera-stable
 
-> To polecenie jest aliasem dla `chromium`.
+> To polecenie jest aliasem `chromium`.
 > Więcej informacji: <https://opera.com>.
 
 - Zobacz dokumentację oryginalnego polecenia:
