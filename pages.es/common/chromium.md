@@ -6,7 +6,7 @@
 
 - Abre una URL o archivo específico:
 
-`chromium {{https://ejemplo.com|ruta/al/archivo.html}}`
+`chromium {{https://example.com|ruta/al/archivo.html}}`
 
 - Abre en modo incógnito:
 
