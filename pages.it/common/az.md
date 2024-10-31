@@ -8,7 +8,7 @@
 
 `az login`
 
-- Gestisci la tua iscrizione ad Azure:
+- Gestisce il tuo abbonamento ad Azure:
 
 `az account`
 
@@ -16,14 +16,22 @@
 
 `az disk list`
 
-- Elenca tutte le virtual machine Azure:
+- Elenca tutte le macchine virtuali di Azure:
 
 `az vm list`
 
-- Gestisci i servizi Azure Kubernetes:
+- Gestisce i servizi Azure Kubernetes:
 
 `az aks`
 
-- Gestisci le risorse della rete di Azure:
+- Gestisce le risorse della rete di Azure:
 
 `az network`
+
+- Avvia la modalità interattiva:
+
+`az interactive`
+
+- Mostra la descrizioen dei comandi:
+
+`az --help`
