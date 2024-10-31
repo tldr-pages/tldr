@@ -5,7 +5,7 @@
 
 - View network settings of an Interface:
 
-`ifconfig <interface_name>`
+`ifconfig {{interface_name}}`
 
 - Display details of all interfaces, including disabled interfaces:
 
@@ -13,12 +13,12 @@
 
 - Disable interface:
 
-`ifconfig <interface_name> down`
+`ifconfig {{interface_name}} down`
 
 - Enable interface:
 
-`ifconfig <interface_name> up`
+`ifconfig {{interface_name}} up`
 
 - Assign IP address to interface:
 
-`ifconfig <interface_name> {{ip_address}}`
+`ifconfig {{interface_name}} {{ip_address}}`
