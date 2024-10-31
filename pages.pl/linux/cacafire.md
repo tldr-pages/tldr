@@ -3,6 +3,6 @@
 > Wyświetl animowany ogień ASCII.
 > Więcej informacji: <https://packages.debian.org/sid/caca-utils>.
 
-- Wyświetl animowany ogień ASCII:
+- Wyświetl ogień ASCII:
 
 `cacafire`
