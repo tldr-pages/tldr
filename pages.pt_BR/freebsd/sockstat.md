@@ -23,7 +23,7 @@
 
 `sockstat -sU`
 
-- Exibe o módulo de controle de [c]ongestionamento e a [p]ilha de protocolo, se aplicável (atualmente, estes estão implementados somente para TCP):
+- Exibe o módulo de controle de [c]ongestionamento e a pilha de protocolo, se aplicável (atualmente, estes estão implementados somente para TCP):
 
 `sockstat -CS`
 
