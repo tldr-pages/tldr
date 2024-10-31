@@ -1,4 +1,6 @@
 <!-- markdownlint-disable MD041 -->
+<link href="https://fosstodon.org/@tldr_pages" rel="me" />
+
 <div align="center">
   <h1><a href="https://tldr.sh/"><img alt="tldr-pages" src="images/banner.png" width=600/></a></h1>
 
