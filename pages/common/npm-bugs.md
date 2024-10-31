@@ -18,8 +18,8 @@
 
 - Suppress browser behavior-  Set to false to print URLs to the terminal instead of opening a browser:
 
-`npm config set browser false`
+`npm config set browser {{false}}`
 
 - Use the default system URL opener-  Set to true to use the system's default method for opening URLs:
 
-`npm config set browser true`
+`npm config set browser {{true}}`
