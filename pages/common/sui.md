@@ -3,7 +3,7 @@
 > Interact with the Sui network.
 > More information: <https://docs.sui.io/references/cli/cheatsheet>.
 
-- Execute a sui subcommand:
+- Execute a Sui subcommand:
 
 `sui {{subcommand}}`
 
