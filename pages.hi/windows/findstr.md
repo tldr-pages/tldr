@@ -1,7 +1,7 @@
 # findstr
 
 > एक या एक से अधिक फाइलों में निर्दिष्ट टेक्स्ट खोजें।
-> अधिक जानकारी: [https://learn.microsoft.com/windows-server/administration/windows-commands/findstr](https://learn.microsoft.com/windows-server/administration/windows-commands/findstr)।
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>।
 
 - सभी फाइलों में एक या एक से अधिक स्ट्रिंग्स खोजें:
 
