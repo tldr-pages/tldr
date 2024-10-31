@@ -6,7 +6,7 @@
 
 - Crea los directorios especificados:
 
-`mkdir {{ruta/al/directorio1 ruta/al/directorio1 ...}}`
+`mkdir {{ruta/al/directorio1 ruta/al/directorio2 ...}}`
 
 - Crea directorios recursivamente y sus padres si es necesario:
 
