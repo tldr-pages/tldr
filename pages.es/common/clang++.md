@@ -28,7 +28,7 @@
 
 `clang++ {{-S|--assemble}} -emit-llvm {{ruta/al/código.cpp}} {{-o|--output}} {{ruta/a/la/representación.ll}}`
 
-- Optimiza el programa compilado en función de velocidad:
+- Optimiza el programa compilado en función de la velocidad:
 
 `clang++ {{ruta/al/código.cpp}} -O{{1|2|3|fast}} {{-o|--output}} {{ruta/al/ejecutable}}`
 
