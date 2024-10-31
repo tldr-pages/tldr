@@ -29,8 +29,8 @@
 
 - Limit duplicate search to specific scopes:
 
-`npm find-dupes --scope={{@scope1, @scope2}}`
+`npm find-dupes --scope={{@scope1,@scope2}}`
 
 - Exclude specific scopes from duplicate detection:
 
-`npm find-dupes --omit-scope={{@scope1, @scope2}}`
+`npm find-dupes --omit-scope={{@scope1,@scope2}}`
