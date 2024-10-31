@@ -1,4 +1,5 @@
 # chromium
+
 > Open-source webbrowser die voornamelijk ontwikkeld en onderhouden wordt door Google.
 > Opmerking: Mogelijk moet je het `chromium` commando vervangen met jouw gewenste webbrowser, zoals `brave`, `google-chrome`, `microsoft-edge`/`msedge`, `opera`, of `vivaldi`.
 > Meer informatie: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
