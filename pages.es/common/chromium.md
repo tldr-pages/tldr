@@ -10,7 +10,7 @@
 
 - Abre en modo incógnito:
 
-`chromium --incognito {{ejemplo.com}}`
+`chromium --incognito {{example.com}}`
 
 - Abre en una nueva ventana:
 
