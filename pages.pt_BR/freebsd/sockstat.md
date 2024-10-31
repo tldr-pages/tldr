@@ -11,7 +11,7 @@
 
 `sockstat -{{4|6}} -l -P {{tcp|udp|sctp|divert}} -p {{port1,port2...}}`
 
-- Exibe também sockets [c]onectados, não resolvendo UIDs [n]uméricos para nome de usuários e usando um campo mais [l]argo:
+- Exibe também sockets [c]onectados, não resolvendo UIDs [n]uméricos para nome de usuários e usando um campo mais largo:
 
 `sockstat -cnw`
 
