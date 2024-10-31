@@ -2,7 +2,7 @@
 
 > De officiële CLI tool voor Microsoft Azure.
 > Sommige subcommando's zoals `login` hebben hun eigen documentatie.
-> Meer informatie: <https://learn.microsoft.com/cli/azure>.
+> Meer informatie: <https://learn.microsoft.com/cli/azure/reference-index>.
 
 - Log in bij Azure:
 
