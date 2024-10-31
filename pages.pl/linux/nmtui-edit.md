@@ -1,6 +1,6 @@
 # nmtui-edit
 
-> To polecenie jest aliasem alias `nmtui edit`.
+> To polecenie jest aliasem `nmtui edit`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
