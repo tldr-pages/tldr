@@ -22,7 +22,7 @@
 
 - Usa un servidor proxy:
 
-`chromium --proxy-server="{{socks5://hostname:66}}" {{ejemplo.com}}`
+`chromium --proxy-server="{{socks5://hostname:66}}" {{example.com}}`
 
 - Abre con un directorio de perfil personalizado:
 
