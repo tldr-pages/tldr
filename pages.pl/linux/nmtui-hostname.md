@@ -1,6 +1,6 @@
 # nmtui-hostname
 
-> To polecenie jest aliasem alias `nmtui hostname`.
+> To polecenie jest aliasem `nmtui hostname`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
