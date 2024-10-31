@@ -18,7 +18,7 @@
 
 - Abre en modo de aplicación (sin barras de herramientas, barra de URL, botones, etc.):
 
-`chromium --app={{https://ejemplo.com}}`
+`chromium --app={{https://example.com}}`
 
 - Usa un servidor proxy:
 
