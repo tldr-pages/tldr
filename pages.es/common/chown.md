@@ -1,28 +1,24 @@
 # chown
 
-> Cambia la propiedad de usuario y grupo de archivos y directorios.
+> Cambia la propiedad de usuario y grupo sobre archivos y directorios.
 > Más información: <https://www.gnu.org/software/coreutils/chown>.
 
 - Cambia el usuario propietario de un archivo/directorio:
 
-`chown {{usuario}} {{ruta/al/archivo_o_directorio}}`
+`chown {{usuario}} {{ruta/hacia/archivo_o_directorio}}`
 
 - Cambia el usuario y grupo propietario de un archivo/directorio:
 
-`chown {{usuario}}:{{grupo}} {{ruta/al/archivo_o_directorio}}`
+`chown {{usuario}}:{{grupo}} {{ruta/hacia/archivo_o_directorio}}`
 
-- Cambia el usuario propietario y el grupo para que ambos tengan el nombre `user`:
+- Cambia de forma recursiva el propietario sobre un directorio y su contenido:
 
-`chown {{usuario}}: {{ruta/al/archivo_o_directorio}}`
-
-- Cambia recursivamente el propietario de un directorio y su contenido:
-
-`chown -R {{usuario}} {{ruta/a/directorio}}`
+`chown -R {{usuario}} {{ruta/hacia/directorio}}`
 
 - Cambia el propietario de un enlace simbólico:
 
-`chown -h {{usuario}} {{ruta/a/enlace_simbólico}}`
+`chown -h {{usuario}} {{ruta/hacia/enlace_simbolico}}`
 
-- Cambia el propietario de un archivo/directorio para que coincida con un archivo de referencia:
+- Copia la información de propiedad del archivo/directorio de referencia a otro:
 
-`chown --reference {{ruta/al/archivo_de_referencia}} {{ruta/al/archivo_o_directorio}}`
+`chown --reference={{ruta/hacia/archivo_o_directorio_de_referencia}} {{ruta/hacia/archivo_o_directorio}}`
