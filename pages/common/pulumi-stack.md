@@ -11,9 +11,13 @@
 
 `pulumi stack`
 
-- List known stacks:
+- List stacks in the current project:
 
 `pulumi stack ls`
+
+- List stacks across all projects:
+
+`pulumi stack ls --all`
 
 - Select an active stack:
 
