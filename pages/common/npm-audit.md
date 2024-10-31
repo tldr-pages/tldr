@@ -12,6 +12,10 @@
 
 `npm audit fix`
 
+- Force an automatic fix to dependencies with vulnerabilities:
+
+`npm audit fix {{-f|--force}}`
+
 - Update the lock file without modifying the `node_modules` directory:
 
 `npm audit fix --package-lock-only`
