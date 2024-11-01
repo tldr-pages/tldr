@@ -26,4 +26,3 @@
 - Use a different root directory for Prism Launcher:
 
 `prismlauncher --dir {{path/to/directory/}}`
-
