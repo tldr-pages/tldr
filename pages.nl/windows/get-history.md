@@ -12,6 +12,6 @@
 
 `Get-History -Id {{id}}`
 
-- Toon de laatste N opdrachten:
+- Toon de laatste N commando's:
 
 `Get-History -Count {{10}}`
