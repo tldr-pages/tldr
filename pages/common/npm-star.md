@@ -27,7 +27,7 @@
 
 `npm star {{package_name}} --loglevel=verbose`
 
-- List all the starred packages:
+- List all your starred packages:
 
 `npm star --list`
 
