@@ -23,6 +23,6 @@
 
 `ab -t {{60}} {{url}}`
 
-- Escribe los resultados a un archivo CSV:
+- Escribe los resultados (benchmark) a un archivo CSV:
 
 `ab -e {{ruta/al/archivo.csv}}`
