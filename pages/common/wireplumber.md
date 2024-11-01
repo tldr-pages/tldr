@@ -22,4 +22,4 @@
 
 - Display version:
 
-`wirepumbler --version`
+`wireplumber --version`
