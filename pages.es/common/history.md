@@ -7,7 +7,7 @@
 
 `history`
 
-- Muestra los últimos 20 comandos(en Zsh muestra todos los comandos a partir del 20):
+- Muestra los últimos 20 comandos (en Zsh muestra todos los comandos a partir del 20):
 
 `history {{20}}`
 
