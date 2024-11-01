@@ -31,6 +31,6 @@
 
 `npm star --list`
 
-- List the starred packages from a specific registry:
+- List your starred packages from a specific registry:
 
 `npm star --list --registry={{registry_url}}`
