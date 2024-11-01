@@ -11,7 +11,7 @@
 
 `chown {{usuario}}:{{grupo}} {{ruta/al/archivo_o_directorio}}`
 
-- Cambia el usuario propietario y el grupo para que ambos tengan el nombre `user`:
+- Cambia el usuario propietario y el grupo para que ambos sean `usuario`:
 
 `chown {{usuario}}: {{ruta/al/archivo_o_directorio}}`
 
@@ -21,7 +21,7 @@
 
 - Cambia el propietario de un enlace simbólico:
 
-`chown -h {{usuario}} {{ruta/a/enlace_simbólico}}`
+`chown -h {{usuario}} {{ruta/al/enlace_simbólico}}`
 
 - Cambia el propietario de un archivo/directorio para que coincida con un archivo de referencia:
 
