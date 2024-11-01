@@ -1,7 +1,7 @@
 # npm star
 
 > Mark a package as favorite.
-> More information: <https://docs.npmjs.com/cli/commands/npm-star>
+> More information: <https://docs.npmjs.com/cli/commands/npm-star>.
 
 - Star a public package from the default registry:
 
