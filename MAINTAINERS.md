@@ -138,6 +138,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [4 September 2023](https://github.com/tldr-pages/tldr/issues/10611) — [3 October 2024](https://github.com/tldr-pages/tldr/issues/13956)
 - Renie ([@renie](https://github.com/renie)):
   [03 October 2024](https://github.com/tldr-pages/tldr/issues/13946) — [23 October 2024](https://github.com/tldr-pages/tldr/issues/14343)
+- Igor Támara ([@ikks](https://github.com/ikks)):
+  [01 November 2024](https://github.com/tldr-pages/tldr/issues/14536) — present
 
 ## Organization members
 
