@@ -1,6 +1,6 @@
 # ab
 
-> Herramienta comparativa del servidor Apache HTTP.
+> Herramienta comparativa (benchmark) del servidor Apache HTTP.
 > Más información: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - Ejecuta 100 solicitudes HTTP GET a una URL dada:
@@ -23,6 +23,6 @@
 
 `ab -t {{60}} {{url}}`
 
-- Escribe los resultados (benchmark) a un archivo CSV:
+- Escribe los resultados a un archivo CSV:
 
 `ab -e {{ruta/al/archivo.csv}}`
