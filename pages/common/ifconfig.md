@@ -3,7 +3,7 @@
 > Network Interface Configurator.
 > More information: <https://net-tools.sourceforge.io/man/ifconfig.8.html>.
 
-- View network settings of an Interface:
+- View network settings of an interface:
 
 `ifconfig {{interface_name}}`
 
@@ -11,14 +11,14 @@
 
 `ifconfig -a`
 
-- Disable interface:
+- Disable an interface:
 
 `ifconfig {{interface_name}} down`
 
-- Enable interface:
+- Enable an interface:
 
 `ifconfig {{interface_name}} up`
 
-- Assign IP address to interface:
+- Assign an IP address to an interface:
 
 `ifconfig {{interface_name}} {{ip_address}}`
