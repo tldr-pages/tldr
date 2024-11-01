@@ -1,7 +1,7 @@
 # Get-History
 
 > Toon de PowerShell opdrachtgeschiedenis.
-> Let op: Deze opdracht kan alleen gebruikt worden via PowerShell.
+> Let op: dit commando kan alleen gebruikt worden via PowerShell.
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/get-history>.
 
 - Toon de opdrachtgeschiedenis met ID:
