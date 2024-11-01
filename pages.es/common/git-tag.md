@@ -28,7 +28,7 @@
 
 `git fetch --tags`
 
-- Enviar una etiqueta al remoto:
+- Envía una etiqueta al remoto:
 
 `git push origin tag {{nombre_de_la_etiqueta}}`
 
