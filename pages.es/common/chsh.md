@@ -1,6 +1,6 @@
 # chsh
 
-> Cambia el intérprete de comandos de inicio de sesión del usuario.
+> Cambia el intérprete de comandos de inicio de sesión del usuario (login shell).
 > Vea las páginas específicas de la plataforma para más opciones.
 > Más información: <https://manned.org/chsh>.
 
