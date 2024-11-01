@@ -8,7 +8,7 @@
 
 `Get-History`
 
-- Haal de PowerShell geschiedenis-item op via een ID:
+- Haal het PowerShell geschiedenis-item op via een ID:
 
 `Get-History -Id {{id}}`
 
