@@ -78,6 +78,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [24 December 2019](https://github.com/tldr-pages/tldr/issues/3690) — [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736), [22 September 2024](https://github.com/tldr-pages/tldr/issues/5932) — present
 - **Yi Liu ([@LiLittleCat](https://github.com/LiLittleCat))**:
   [23 September 2024](https://github.com/tldr-pages/tldr/issues/13780) — present
+- **Karthik Vallamsetla ([@karthik-script](https://github.com/karthik-script))**:
+  [01 November 2024](https://github.com/tldr-pages/tldr/issues/14539) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
