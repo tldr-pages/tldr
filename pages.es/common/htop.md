@@ -15,7 +15,7 @@
 
 `htop --tree`
 
-- Ordena procesos especificando un `criterio_de_ordenamiento` (use `htop --sort help` para ver las opciones disponibles):
+- Ordena procesos especificando un `criterio_de_ordenamiento` (usa `htop --sort help` para ver las opciones disponibles):
 
 `htop --sort {{criterio_de_ordenamiento}}`
 
