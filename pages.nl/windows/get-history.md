@@ -1,6 +1,6 @@
 # Get-History
 
-> Toon de PowerShell opdrachtgeschiedenis.
+> Toon de PowerShell commando-geschiedenis.
 > Let op: dit commando kan alleen gebruikt worden via PowerShell.
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/get-history>.
 
