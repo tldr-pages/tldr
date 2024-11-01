@@ -11,7 +11,7 @@
 
 `history {{20}}`
 
-- Muestra el historial con marcas de tiempo (timetamps) en diferentes formatos (sólo disponible en Zsh):
+- Muestra el historial con marcas de tiempo (timetamps) en diferentes formatos (solo disponible en Zsh):
 
 `history -{{d|f|i|E}}`
 
