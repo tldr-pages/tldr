@@ -5,7 +5,7 @@
 
 - Download videos/images from the specified [l]inks to URL or ID's of posts:
 
-`bdfr download {{path/to/output_directory}} -l {{post_url}} -l {{post_url}}`
+`bdfr download {{path/to/output_directory}} -l {{post_url}}`
 
 - Download the maximum possible number (roughly 1000) of videos/images from a specified [u]ser:
 
