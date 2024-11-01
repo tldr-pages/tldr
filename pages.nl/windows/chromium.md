@@ -6,11 +6,11 @@
 
 - Open een specifieke URL of bestand:
 
-`chromium {{https://voorbeeld.com|path/naar/bestand.html}}`
+`chromium {{https://example.com|path/naar/bestand.html}}`
 
 - Open in incognito modus (gebruik `--inprivate` voor Microsoft Edge):
 
-`{{chromium --incognito|msedge --inprivate}} {{voorbeeld.com}}`
+`{{chromium --incognito|msedge --inprivate}} {{example.com}}`
 
 - Open in een nieuw venster:
 
@@ -18,11 +18,11 @@
 
 - Open in applicatie modus (zonder werkbalken, URL balk, knoppen, etc.):
 
-`chromium --app={{https://voorbeeld.com}}`
+`chromium --app={{https://example.com}}`
 
 - Gebruik een proxy server:
 
-`chromium --proxy-server="{{socks5://hostname:66}}" {{voorbeeld.com}}`
+`chromium --proxy-server="{{socks5://hostname:66}}" {{example.com}}`
 
 - Open met een aangepaste profiel map:
 
