@@ -9,19 +9,19 @@
 
 - Lista los tamaños de un directorio y sus subdirectorios, de forma legible (es decir, seleccionando automáticamente la unidad adecuada para cada tamaño):
 
-`du -h {{ruta/a/directorio}}`
+`du -h {{ruta/al/directorio}}`
 
 - Muestra el tamaño de un único directorio, en unidades legibles para el ser humano:
 
-`du -sh {{ruta/a/directorio}}`
+`du -sh {{ruta/al/directorio}}`
 
 - Lista los tamaños legibles de un directorio y de todos los archivos y directorios que contiene:
 
-`du -ah {{ruta/a/directorio}}`
+`du -ah {{ruta/al/directorio}}`
 
 - Lista los tamaños legibles de un directorio y sus subdirectorios, hasta N niveles de profundidad:
 
-`du -h --max-depth=N {{ruta/a/directorio}}`
+`du -h --max-depth=N {{ruta/al/directorio}}`
 
 - Lista el tamaño legible de todos los archivos `.jpg` en los subdirectorios del directorio actual y muestra un total acumulado al final:
 
