@@ -26,11 +26,11 @@
 
 - Open met een aangepaste profiel map:
 
-`chromium --user-data-dir={{path/to/directory}}`
+`chromium --user-data-dir={{pad/naar/map}}`
 
 - Open zonder CORS validatie (handig om een API te testen):
 
-`chromium --user-data-dir={{path/to/directory}} --disable-web-security`
+`chromium --user-data-dir={{pad/naar/map}} --disable-web-security`
 
 - Open met een DevTools venster voor elk geopend tabblad:
 
