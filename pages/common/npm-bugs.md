@@ -1,6 +1,6 @@
 # npm bugs
 
-> Reports bugs for a package in a web browser.
+> Report bugs for a package in a web browser.
 > Attempts to open the package's bug tracker URL or support email.
 > More information: <https://docs.npmjs.com/cli/npm-bugs>.
 
