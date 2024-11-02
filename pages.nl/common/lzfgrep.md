@@ -1,7 +1,6 @@
 # lzfgrep
 
-> Dit commando is een alias van `xzgrep`.
-> Bekijk ook: `fgrep`.
+> Dit commando is een alias van `xzgrep --fixed-strings`.
 
 - Bekijk de documentatie van het originele commando:
 
