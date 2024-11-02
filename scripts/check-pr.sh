@@ -22,7 +22,7 @@
 VERBOSE=false
 
 while getopts ":v" opt; do
-  case "$opt" in
+  case $opt in
   v)
     VERBOSE=true
     ;;
@@ -32,7 +32,7 @@ while getopts ":v" opt; do
   esac
 done
 
-if [[ "$VERBOSE" = true ]]; then
+if [[ $VERBOSE == true ]]; then
   DEBUG_LOG="debug.log"
   rm -f "$DEBUG_LOG" && touch "$DEBUG_LOG"
   exec {BASH_XTRACEFD}> "$DEBUG_LOG"
