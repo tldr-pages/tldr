@@ -17,11 +17,11 @@
 
 - Download videos/images from the [s]ubreddit r/Python [S]orted by top (default is hot) using [t]ime filter all, [L]imited to 10 submissions:
 
-`bdfr download {{path/to/output_directory}} -s {{Python}} -S {{top}} -t {{all} -L {{10}}`
+`bdfr download {{path/to/output_directory}} -s Python -S top -t all -L 10`
 
 - Download the maximum possible number of both submission data and videos/images from [s]ubreddit r/Python skipping over submissions with mp4 or gif file extensions and creating hard links for duplicate files:
 
-`bdfr clone {{path/to/output_directory}} -s {{Python}} --skip {{mp4}} --skip {{gif}} --make-hard-links`
+`bdfr clone {{path/to/output_directory}} -s Python --skip mp4 --skip gif --make-hard-links`
 
 - Download saved posts of the authenticated user, naming each file according to a specified format. Avoid downloading duplicates and posts already present in the output directory:
 
