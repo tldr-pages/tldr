@@ -13,4 +13,4 @@
 
 - Take a screenshot on the remote system after waiting the specified amount of time:
 
-`nxc vnc {{192.168.178.2}} -u {{{username}}} -p {{password}} --screenshot --screentime {{10}}`
+`nxc vnc {{192.168.178.2}} -u {{username}} -p {{password}} --screenshot --screentime {{10}}`
