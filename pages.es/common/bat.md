@@ -28,7 +28,7 @@
 
 `bat {{-n|--number}} {{ruta/al/archivo}}`
 
-- Resalta sintácticamente un archivo JSON estableciendo explícitamente el idioma:
+- Resalta sintácticamente un archivo JSON estableciendo explícitamente el lenguaje:
 
 `bat {{-l|--language}} json {{ruta/al/archivo.json}}`
 
