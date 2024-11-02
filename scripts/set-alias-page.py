@@ -151,9 +151,7 @@ def set_alias_page(
 
     alias_name = path.stem
     text = (
-        templates[locale]
-        .replace("example", alias_name, 1)
-        .replace("example", command)
+        templates[locale].replace("example", alias_name, 1).replace("example", command)
     )
 
     if not path.exists():
@@ -278,7 +276,10 @@ def main():
                 if page.name not in IGNORE_FILES
             ]
             for command in commands:
-                original_command = get_alias_page(root / "pages" / command, "^> This command is an alias of `(.+)`\.$")
+                original_command = get_alias_page(
+                    root / "pages" / command,
+                    r"^> This command is an alias of `(.+)`\.$",
+                )
                 if original_command != "":
                     target_paths += sync(
                         root,
