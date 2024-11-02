@@ -7,6 +7,6 @@
 
 `npm root`
 
-- Display path to the global node_modules directory:
+- Display path to the global `node_modules` directory:
 
 `npm root --global`
