@@ -4,7 +4,7 @@
 > Un clon de `cat` con resaltado de sintaxis e integración con Git.
 > Más información: <https://github.com/sharkdp/bat>.
 
-- Imprime el contenido de uno o más archivos en `stdout`:
+- Imprime bellamente (pretty print) el contenido de uno o más archivos en `stdout`:
 
 `bat {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
