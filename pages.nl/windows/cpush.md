@@ -5,4 +5,4 @@
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr choco push`
+`tldr choco-push`
