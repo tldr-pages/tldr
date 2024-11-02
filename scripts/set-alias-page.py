@@ -154,14 +154,11 @@ def set_alias_page(
         templates[locale].replace("example", alias_name, 1).replace("example", command)
     )
 
-    if not path.exists():
-        original_command = ""
-    else:
-        # Test if the alias page already exists
-        line = re.search(r">.*\.", text).group(0).replace(command, "(.+)")
-        original_command = get_alias_page(path, line)
-        if original_command == command:
-            return ""
+    # Test if the alias page already exists
+    line = re.search(r">.*\.", text).group(0).replace(command, "(.+)")
+    original_command = get_alias_page(path, line)
+    if original_command == command:
+        return ""
 
     status = get_status(
         "added" if original_command == "" else "updated", dry_run, "page"
@@ -183,9 +180,12 @@ def get_alias_page(path: Path, regex: str) -> str:
     path (Path): Path to a page
 
     Returns:
-    str: "" If the path is not an alias page,
+    str: "" If the path doesn't exit or is not an alias page,
          otherwise return what command the alias stands for.
     """
+
+    if not path.exists():
+        return ""
 
     command_count = 0
     command_name = ""
