@@ -4,7 +4,7 @@
 > Lista los archivos cambiados, añadidos y eliminados comparándolos con la confirmación (commit) actual.
 > Más información: <https://git-scm.com/docs/git-status>.
 
-- Muestra los archivos modificados que aún no se han añadido para hacer commit:
+- Muestra los archivos modificados que aún no se han añadido para hacer una confirmación (commit):
 
 `git status`
 
