@@ -8,7 +8,7 @@
 
 `bat {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
-- Concatena varios archivos en el archivo de destino:
+- Concatena varios archivos en el archivo destino:
 
 `bat {{ruta/al/archivo1 ruta/al/archivo2 ...}} > {{ruta/al/archivo_destino}}`
 
