@@ -13,7 +13,7 @@
 
 - Download submission data (text, upvotes, comments etc.) [L]imited to 10 submissions for each [s]ubreddit (30 total):
 
-`bdfr archive {{path/to/output_directory}} -s '{{Python, all, mindustry}}' -L {{10}}`
+`bdfr archive {{path/to/output_directory}} -s '{{Python, all, mindustry}}' -L 10`
 
 - Download videos/images from the [s]ubreddit r/Python [S]orted by top (default is hot) using [t]ime filter all, [L]imited to 10 submissions:
 
