@@ -32,6 +32,6 @@
 
 `bat {{-l|--language}} json {{ruta/al/archivo.json}}`
 
-- Muestra todos los idiomas soportados:
+- Muestra todos los lenguajes soportados:
 
 `bat {{-L|--list-languages}}`
