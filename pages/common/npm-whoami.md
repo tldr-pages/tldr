@@ -3,10 +3,10 @@
 > Display npm username.
 > More information: <https://docs.npmjs.com/cli/whoami>.
 
-- Display npm username of currently logged-in user:
+- Display username of the currently logged-in user:
 
 `npm whoami`
 
-- Display npm username of current user in specific registry:
+- Display username of the current user in the specific registry:
 
 `npm whoami --registry={{registry_url}}`
