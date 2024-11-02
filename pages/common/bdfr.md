@@ -9,9 +9,9 @@
 
 - Download the maximum possible number (roughly 1000) of videos/images from a specified [u]ser:
 
-`bdfr download {{path/to/output_directory}} -u {{reddituser}} --submitted`
+`bdfr download {{path/to/output_directory}} -u {{reddit_user}} --submitted`
 
-- Download submission data (text, upvotes, comments etc.) [L]imited to 10 submissions for each [s]ubreddit (30 total):
+- Download submission data (text, upvotes, comments, etc.) [L]imited to 10 submissions for each [s]ubreddit (30 total):
 
 `bdfr archive {{path/to/output_directory}} -s '{{Python, all, mindustry}}' -L 10`
 
