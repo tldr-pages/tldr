@@ -1,7 +1,7 @@
 # npm whoami
 
 > Display npm username.
-> More information: <https://docs.npmjs.com/cli/whoami>
+> More information: <https://docs.npmjs.com/cli/whoami>.
 
 - Display npm username of currently logged-in user:
 
