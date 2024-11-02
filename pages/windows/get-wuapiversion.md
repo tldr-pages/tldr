@@ -10,4 +10,4 @@
 
 - Send the current configuration data via email (SMTP):
 
-`Get-WUApiVersion -SendReport -PSWUSettings @{SmtpServer="{{smtp_server}}"; Port={{smtp_port}} From="{{sender_email}}" To="{{receiver_email}}"`
+`Get-WUApiVersion -SendReport -PSWUSettings @{SmtpServer="{{smtp_server}}"; Port={{smtp_port}} From="{{sender_email}}" To="{{receiver_email}}"}`
