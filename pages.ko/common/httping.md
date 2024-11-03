@@ -15,6 +15,6 @@
 
 `httping -l -g https://{{호스트}}`
 
-- HTTP 기본 인증을 사용하여 `host`에서 웹 서버를 ping:
+- HTTP 기본 인증을 사용하여 `호스트`에서 웹 서버를 ping:
 
 `httping -g http://{{호스트}} -U {{사용자명}} -P {{비밀번호}}`
