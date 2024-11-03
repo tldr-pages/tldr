@@ -13,7 +13,7 @@
 
 - 특정 버전의 도구 설치:
 
-`volta install {{node|npm|yarn}}@버전`
+`volta install {{node|npm|yarn}}@version`
 
 - 프로젝트에 사용할 도구 버전 선택 (`package.json`에 저장됨):
 
