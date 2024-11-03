@@ -2,6 +2,6 @@
 
 > Este comando es un alias de `npm run restart`.
 
-- Muestra la documentación del comando original:
+- Ver documentación para el comando original:
 
 `tldr npm run`
