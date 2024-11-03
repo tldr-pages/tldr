@@ -10,4 +10,4 @@
 
 - 현재 설정 데이터를 이메일(SMTP)로 전송:
 
-`Get-WUApiVersion -SendReport -PSWUSettings @{SmtpServer="{{smtp_서버}}"; Port={{smtp_포트}} From="{{이메일_보낸이}}" To="{{이메일_받는이}}"`
+`Get-WUApiVersion -SendReport -PSWUSettings @{SmtpServer="{{smtp_서버}}"; Port={{smtp_포트}} From="{{이메일_보낸이}}" To="{{이메일_받는이}}"}`
