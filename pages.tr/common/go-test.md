@@ -1,7 +1,7 @@
 # go test
 
 > Go paketlerini test et (dosyalar `_test.go` ifadesiyle bitmeli).
-> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Testing_flags>.
+> Daha fazla bilgi için: <https://pkg.go.dev/cmd/go#hdr-Testing_flags>.
 
 - Mevcut dizinde bulunan paketleri test et:
 
