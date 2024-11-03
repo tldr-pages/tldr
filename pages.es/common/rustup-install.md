@@ -1,9 +1,10 @@
 # rustup install
 
 > Install or update Rust toolchains.
-> Este comando es un alias de `rustup update`, but can only install/update one toolchain at a time.
+> Este comando es un alias de `rustup update`, pero sólo puede instalar/actualizar una cadena de herramientas (toolchain) a la vez.
+
 > Más información: <https://rust-lang.github.io/rustup>.
 
-- Install or update a specific toolchain (see `rustup help toolchain` for more information):
+- Instalar o actualizar una cadena de herramientas específica (para más información, vea `rustup help toolchain`):
 
 `rustup install {{toolchain}}`
