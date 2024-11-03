@@ -3,6 +3,6 @@
 > Este comando es un alias de `pamtopnm`.
 > Más información: <https://netpbm.sourceforge.net/doc/pnmtopnm.html>.
 
-- Ver documentación para el comando original:
+- Vea la documentación del comando original:
 
 `tldr pamtopnm`
