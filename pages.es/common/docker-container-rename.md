@@ -3,6 +3,6 @@
 > Este comando es un alias de `docker rename`.
 > Más información: <https://docs.docker.com/reference/cli/docker/container/rename/>.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
 `tldr docker rename`
