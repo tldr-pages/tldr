@@ -3,7 +3,7 @@
 > Terminal sessiemanager.
 > Meer informatie: <https://www.brain-dump.org/projects/abduco/>.
 
-- Lijst van sessies:
+- Toon alle sessies:
 
 `abduco`
 
