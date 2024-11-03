@@ -20,7 +20,7 @@
 
 `hatch clean`
 
-- Create default environment with dependencies defined in pyproject.toml:
+- Create default environment with dependencies defined in the `pyproject.toml` file:
 
 `hatch env create`
 
