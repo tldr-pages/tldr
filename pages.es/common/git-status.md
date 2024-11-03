@@ -1,21 +1,33 @@
 # git status
 
 > Muestra los cambios realizados en los archivos del repositorio Git.
-> Lista los archivos cambiados, añadidos y eliminados comparándolos con el último commit.
+> Lista los archivos cambiados, añadidos y eliminados comparándolos con la confirmación (commit) actual.
 > Más información: <https://git-scm.com/docs/git-status>.
 
-- Muestra los archivos cambiados que aún no han sido añadidos a un commit:
+- Muestra los archivos modificados que aún no se han añadido para hacer una confirmación (commit):
 
 `git status`
 
 - Muestra la salida en formato breve:
 
-`git status -s`
+`git status --short`
 
-- Muestra los archivos rastreados:
+- Muestra información detallada sobre cambios tanto en el área de preparación (staging) como en el directorio de trabajo:
 
-`git status --untracked-files=no`
+`git status --verbose --verbose`
 
-- Muestra la salida en formato breve junto a la información del branch:
+- Muestra la rama (branch) e información de seguimiento:
+
+`git status --branch`
+
+- Muestra la salida en formato breve junto a la información de la rama (branch):
 
 `git status --short --branch`
+
+- Muestra el número de entradas en rama temporal (stash):
+
+`git status --show-stash`
+
+- Muestra los archivos rastreados, excluyendo los no rastreados (untracked):
+
+`git status --untracked-files=no`
