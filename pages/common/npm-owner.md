@@ -13,4 +13,4 @@
 
 - List all owners of a package:
 
-`npm owner ls {{username}} {{package_name}}`
+`npm owner ls {{package_name}}`
