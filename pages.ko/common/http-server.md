@@ -13,7 +13,7 @@
 
 - 기본 인증을 사용하여 HTTP 서버를 시작:
 
-`http-server --username {{사용자명}} --password {{password}}`
+`http-server --username {{사용자명}} --password {{비밀번호}}`
 
 - 디렉토리 목록이 비활성화된 상태에서 HTTP 서버를 시작:
 
