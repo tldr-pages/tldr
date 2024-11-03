@@ -80,6 +80,10 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [23 September 2024](https://github.com/tldr-pages/tldr/issues/13780) — present
 - **Karthik Vallamsetla ([@karthik-script](https://github.com/karthik-script))**:
   [01 November 2024](https://github.com/tldr-pages/tldr/issues/14539) — present
+- **Igor Támara ([@ikks](https://github.com/ikks))**:
+  [01 November 2024](https://github.com/tldr-pages/tldr/issues/14536) — present
+- **Zamoca42 ([@Zamoca42](https://github.com/Zamoca42))**:
+  [02 November 2024](https://github.com/tldr-pages/tldr/issues/14538) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
