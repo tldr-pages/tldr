@@ -2,6 +2,6 @@
 
 > Este comando es un alias de `zstd --decompress --stdout`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
 `tldr zstd`
