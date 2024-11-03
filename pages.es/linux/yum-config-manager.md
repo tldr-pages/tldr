@@ -2,6 +2,6 @@
 
 > Este comando es un alias de `dnf config-manager`.
 
-- Ver documentación para el comando original:
+- Vea la documentación del comando original:
 
 `tldr dnf config-manager`
