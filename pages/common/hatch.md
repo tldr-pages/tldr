@@ -4,15 +4,15 @@
 > See also: `poetry`.
 > More information: <https://hatch.pypa.io/latest/cli/reference/>.
 
-- Create new Hatch project:
+- Create a new Hatch project:
 
 `hatch new {{project_name}}`
 
-- Initialize Hatch for existing project:
+- Initialize Hatch for an existing project:
 
 `hatch new --init`
 
-- Build Hatch project:
+- Build a Hatch project:
 
 `hatch build`
 
@@ -20,10 +20,10 @@
 
 `hatch clean`
 
-- Create default environment with dependencies defined in the `pyproject.toml` file:
+- Create a default environment with dependencies defined in the `pyproject.toml` file:
 
 `hatch env create`
 
-- Show environment dependencies as table:
+- Show environment dependencies as a table:
 
 `hatch dep show table`
