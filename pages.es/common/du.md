@@ -1,28 +1,32 @@
 # du
 
-> Uso de disco: estima y resume el uso de espacio en disco de archivos y directorios.
+> Uso del disco: estima y resume el uso del espacio de archivos y directorios.
 > Más información: <https://www.gnu.org/software/coreutils/du>.
 
-- Lista los tamaños de un directorio y sus subdirectorios en las unidades dadas (B/KiB/MiB):
+- Lista los tamaños de un directorio y sus subdirectorios, en la unidad dada (B/KiB/MiB):
 
 `du -{{b|k|m}} {{ruta/al/directorio}}`
 
-- Lista los tamaños de un directorio y sus subdirectorios en formato legible para humanos (es decir, seleccionando automáticamente las unidades apropiadas para cada tamaño):
+- Lista los tamaños de un directorio y sus subdirectorios, de forma legible (es decir, seleccionando automáticamente la unidad adecuada para cada tamaño):
 
 `du -h {{ruta/al/directorio}}`
 
-- Muestra el tamaño de un solo directorio en formato legible para humanos:
+- Muestra el tamaño de un único directorio, en unidades legibles:
 
 `du -sh {{ruta/al/directorio}}`
 
-- Lista los tamaños legibles para humanos de un directorio y de todos los archivos y directorios dentro del mismo:
+- Lista los tamaños legibles de un directorio y de todos los archivos y directorios que contiene:
 
 `du -ah {{ruta/al/directorio}}`
 
-- Lista los tamaños legibles para humanos de un directorio y sus subdirectorios hasta N niveles de profundidad:
+- Lista los tamaños legibles de un directorio y sus subdirectorios, hasta N niveles de profundidad:
 
 `du -h --max-depth=N {{ruta/al/directorio}}`
 
-- Lista el tamaño legible para humanos de todos los archivos `.jpg` en subdirectorios del directorio actual y muestra un total al final:
+- Lista el tamaño legible de todos los archivos `.jpg` en los subdirectorios del directorio actual y muestra un total acumulado al final:
 
 `du -ch {{*/*.jpg}}`
+
+- Lista todos los archivos y directorios (incluidos los ocultos) por encima de un determinado tamaño (útil para investigar qué está ocupando realmente el espacio):
+
+`du --all --human-readable --threshold {{1G|1024M|1048576K}} .[^.]* *`
