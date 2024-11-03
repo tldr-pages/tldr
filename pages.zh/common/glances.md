@@ -1,7 +1,6 @@
 # glances
 
-> 一个跨平台的系统监控工具，可以在终端、Web 和客户端-服务器模式下使用。
-> 实时监控 CPU、内存、磁盘、网络等系统资源。
+> 一个跨平台的系统监控工具。
 > 更多信息：<https://nicolargo.github.io/glances/>.
 
 - 启动 glances，实时显示系统状态：
