@@ -4,6 +4,6 @@
 > También puede establecer la variable ambiente '$LIMA_INSTANCE' para trabajar en una instancia diferente.
 > Más información: <https://github.com/lima-vm/lima>.
 
-- Vea la documentación del comando original:
+- Muestra la documentación del comando original:
 
 `tldr limactl`
