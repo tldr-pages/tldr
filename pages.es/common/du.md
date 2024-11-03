@@ -11,7 +11,7 @@
 
 `du -h {{ruta/al/directorio}}`
 
-- Muestra el tamaño de un único directorio, en unidades legibles para el ser humano:
+- Muestra el tamaño de un único directorio, en unidades legibles:
 
 `du -sh {{ruta/al/directorio}}`
 
