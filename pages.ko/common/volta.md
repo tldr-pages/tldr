@@ -17,7 +17,7 @@
 
 - 프로젝트에 사용할 도구 버전 선택 (`package.json`에 저장됨):
 
-`volta pin {{node|npm|yarn}}@버전`
+`volta pin {{node|npm|yarn}}@version`
 
 - 도움말 표시:
 
