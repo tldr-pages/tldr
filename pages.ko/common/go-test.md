@@ -1,7 +1,7 @@
 # go test
 
 > Go 패키지를 테스트합니다 (`_test.go`로 끝나는 파일이어야 함).
-> 더 많은 정보: <https://golang.org/cmd/go/#hdr-Testing_flags>.
+> 더 많은 정보: <https://pkg.go.dev/cmd/go#hdr-Testing_flags>.
 
 - 현재 디렉터리에 있는 패키지 테스트:
 
