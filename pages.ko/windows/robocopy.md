@@ -1,7 +1,7 @@
 # robocopy
 
 > 강력한 파일 및 폴더 복사.
-> 기본적으로 원본과 대상의 타임 스탬프 또는 파일 크기가 다른 경우에만 파일이 복사됩니다.
+> 기본적으로 원본과 대상의 타임스탬프 또는 파일 크기가 다른 경우에만 파일이 복사됩니다.
 > 더 많은 정보: <https://learn.microsoft.com/windows-server/administration/windows-commands/robocopy>.
 
 - 하나의 디렉토리에서 모든 `.jpg` 및 `.bmp` 파일을 다른 디렉토리로 복사:

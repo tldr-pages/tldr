@@ -24,7 +24,7 @@
 
 `curl --header {{'X-My-Header: 123'}} --request {{PUT}} {{http://example.com}}`
 
-- 적절한 컨텐츠 유형 헤더를 지정하여 JSON 포멧으로 데이터 전송:
+- 적절한 컨텐츠 유형 헤더를 지정하여 JSON 포맷으로 데이터 전송:
 
 `curl --data {{'{"name":"bob"}'}} --header {{'Content-Type: application/json'}} {{http://example.com/users/123}}`
 

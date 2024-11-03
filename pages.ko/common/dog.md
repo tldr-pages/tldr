@@ -24,6 +24,6 @@
 
 `dog --query {{example.com}} --type MX --nameserver {{1.1.1.1}} --tcp`
 
-- DoH(DNS over HTTPS)를 사용하여 호스트 이름(A 레코드)과 연견된 IP를 조회:
+- DoH(DNS over HTTPS)를 사용하여 호스트 이름(A 레코드)과 연결된 IP를 조회:
 
 `dog {{example.com}} --https @{{https://cloudflare-dns.com/dns-query}}`
