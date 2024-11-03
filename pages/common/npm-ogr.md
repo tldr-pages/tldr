@@ -1,4 +1,4 @@
-# npm start
+# npm ogr
 
 > This command is an alias of `npm org`.
 
