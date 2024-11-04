@@ -1,28 +1,29 @@
 # npm-org
 
-> Manage orgs.
+> Manage organizations.
 > More information: <https://docs.npmjs.com/cli/commands/npm-org>.
 
-- Add a new user to an org:
+- Add a new user to an organization:
 
-`npm org set {{org_name}} {{username}}`
+`npm org set {{organization_name}} {{username}}`
 
-- Change a user's role in an org:
+- Change a user's role in an organization:
 
-`npm org set {{org_name}} {{username}} {{developer|admin|owner}}`
+`npm org set {{organization_name}} {{username}} {{developer|admin|owner}}`
 
-- Remove a user from an org:
+- Remove a user from an organization:
 
-`npm org rm {{org_name}} {{username}}`
+`npm org rm {{organization_name}} {{username}}`
 
-- List all users in an org:
+- List all users in an organization:
 
-`npm org ls {{org_name}}`
+`npm org ls {{organization_name}}`
 
-- List all users in an org, outputted in JSON format:
+- List all users in an organization, output in JSON format:
 
-`npm org ls {{org_name}} --json`
+`npm org ls {{organization_name}} --json`
 
-- Display a user's role in an org:
+- Display a user's role in an organization:
 
-`npm org ls {{org_name}} {{username}}`
+`npm org ls {{organization_name}} {{username}}`
+
