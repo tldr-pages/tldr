@@ -1,6 +1,6 @@
 # megatools-dl
 
-> Descargar archivos de `mega.nz`.
+> Descarga archivos de `mega.nz`.
 > Parte del paquete de utilidades `megatools`.
 > Más información: <https://megatools.megous.com/man/megatools-dl.html>.
 
