@@ -6,7 +6,7 @@
 
 - Report bugs for a specific package by opening the bug tracker for the specified package:
 
-`npm bugs {{pkgname}}`
+`npm bugs {{package_name}}`
 
 - Open the bug tracker for the current package by searching for a `package.json` file and using its name:
 
