@@ -26,4 +26,3 @@
 - Display a user's role in an organization:
 
 `npm org ls {{organization_name}} {{username}}`
-
