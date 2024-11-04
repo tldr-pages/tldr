@@ -13,7 +13,7 @@
 
 - `archive.org`에서 하나 이상의 항목을 다운로드:
 
-`ia download {{item}}`
+`ia download {{항목}}`
 
 - `archive.org`에서 하나 이상의 항목을 삭제:
 
