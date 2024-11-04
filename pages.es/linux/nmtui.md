@@ -20,6 +20,6 @@
 
 `nmtui edit {{nombre|identificador}}`
 
-- Establece el nombre de la máquina ante la red:
+- Establece el nombre de la máquina (hostname) ante la red:
 
 `nmtui hostname`
