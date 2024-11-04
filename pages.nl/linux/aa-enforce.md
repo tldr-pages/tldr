@@ -6,8 +6,8 @@
 
 - Schakel een profiel in:
 
-`sudo aa-enforce {{pad/naar/profiel1 pad/naar/profiel2 ...}}`
+`sudo aa-enforce --dir {{pad/naar/profiel}}`
 
 - Schakel profielen in:
 
-`sudo aa-enforce --dir {{pad/naar/profiel}}`
+`sudo aa-enforce {{pad/naar/profiel1 pad/naar/profiel2 ...}}`
