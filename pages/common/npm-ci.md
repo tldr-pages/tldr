@@ -1,6 +1,6 @@
 # npm ci
 
-> Command to perform a clean install of a project.
+> Perform a clean install of a project.
 > Designed for automated environments like CI/CD pipelines.
 > More information: <https://docs.npmjs.com/cli/npm-ci>.
 
