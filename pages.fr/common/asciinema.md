@@ -23,7 +23,7 @@
 
 `asciinema play https://asciinema.org/a/{{id_d_enregistrement}}`
 
-- Crée un nouvel enregistrement, en limitant le temps d’[i]nactivité au maximum à 2.5 secondes :
+- Crée un nouvel enregistrement, en limitant le temps d’inactivité au maximum à 2.5 secondes :
 
 `asciinema rec {{-i|--idle-time-limit}} 2.5`
 

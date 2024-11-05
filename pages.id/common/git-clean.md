@@ -7,7 +7,7 @@
 
 `git clean`
 
-- Hapus menggunakan mode [i]nteraktif:
+- Hapus menggunakan mode interaktif:
 
 `git clean {{-i|--interactive}}`
 

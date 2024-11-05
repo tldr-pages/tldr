@@ -15,7 +15,7 @@
 
 `df {{pad/naar/bestand_of_map}}`
 
-- Neem statistieken op over het aantal beschikbare [i]-knooppunte:
+- Neem statistieken op over het aantal beschikbare inodes:
 
 `df {{-i|--inodes}}`
 

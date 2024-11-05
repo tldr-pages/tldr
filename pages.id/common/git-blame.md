@@ -7,7 +7,7 @@
 
 `git blame {{jalan/menuju/berkas}}`
 
-- Tampilkan berkas dengan informasi komit menggunakan alamat surel/[e]mail daripada nama pelaku:
+- Tampilkan berkas dengan informasi komit menggunakan alamat surel/email daripada nama pelaku:
 
 `git blame {{-e|--show-email}} {{jalan/menuju/berkas}}`
 

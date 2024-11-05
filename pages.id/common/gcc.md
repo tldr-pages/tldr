@@ -8,11 +8,11 @@
 
 `gcc {{jalan/menuju/sumber1.c jalan/menuju/sumber2.c ...}} {{-o|--output}} {{jalan/menuju/program}}`
 
-- Tampilkan pesan peringatan dan galat dalam [o]utput:
+- Tampilkan pesan peringatan dan galat dalam output:
 
 `gcc {{jalan/menuju/sumber.c}} -Wall {{-o|--output}} {{jalan/menuju/program}}`
 
-- Izinkan peringatan dan simbol debug dalam [o]utput:
+- Izinkan peringatan dan simbol debug dalam output:
 
 `gcc {{jalan/menuju/sumber.c}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{jalan/menuju/program}}`
 

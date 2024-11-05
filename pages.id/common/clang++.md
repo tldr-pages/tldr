@@ -8,11 +8,11 @@
 
 `clang++ {{jalan/menuju/sumber1.cpp jalan/menuju/sumber2.cpp ...}} {{-o|--output}} {{jalan/menuju/program}}`
 
-- Tampilkan pesan peringatan dan galat dalam [o]utput:
+- Tampilkan pesan peringatan dan galat dalam output:
 
 `clang++ {{jalan/menuju/sumber.cpp}} -Wall {{-o|--output}} {{jalan/menuju/program}}`
 
-- Izinkan peringatan dan simbol debug dalam [o]utput:
+- Izinkan peringatan dan simbol debug dalam output:
 
 `clang++ {{jalan/menuju/sumber.cpp}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{jalan/menuju/program}}`
 

@@ -20,7 +20,7 @@
 
 `calibredb add {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}}`
 
-- Masukkan seluruh buku dalam suatu direktori secara [r]ekursif:
+- Masukkan seluruh buku dalam suatu direktori secara rekursif:
 
 `calibredb add {{-r|--recurse}} {{jalan/menuju/direktori}}`
 

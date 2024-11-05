@@ -24,7 +24,7 @@
 
 `asciinema play https://asciinema.org/a/{{id_rekaman}}`
 
-- Buat rekaman baru, dengan membatasi waktu diam/[i]dle terlama selama 2.5 detik:
+- Buat rekaman baru, dengan membatasi waktu diam/idle terlama selama 2.5 detik:
 
 `asciinema rec {{-i|--idle-time-limit}} 2.5`
 

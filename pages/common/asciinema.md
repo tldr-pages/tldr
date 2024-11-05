@@ -24,7 +24,7 @@
 
 `asciinema play https://asciinema.org/a/{{cast_id}}`
 
-- Make a new recording, limiting any [i]dle time to at most 2.5 seconds:
+- Make a new recording, limiting any idle time to at most 2.5 seconds:
 
 `asciinema rec {{-i|--idle-time-limit}} 2.5`
 
