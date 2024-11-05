@@ -19,6 +19,27 @@
 # NOTE: must be run from the repository root directory to correctly work!
 # NOTE: no `set -e`, failure of this script should not invalidate the build.
 
+VERBOSE=false
+
+while getopts ":v" opt; do
+  case $opt in
+  v)
+    VERBOSE=true
+    ;;
+  *)
+    echo "This argument is not valid for this script."
+    ;;
+  esac
+done
+
+if [[ $VERBOSE == true ]]; then
+  DEBUG_LOG="debug.log"
+  rm -f "$DEBUG_LOG" && touch "$DEBUG_LOG"
+  exec {BASH_XTRACEFD}> "$DEBUG_LOG"
+  export BASH_XTRACEFD
+  set -x
+fi
+
 # Check for duplicated pages.
 function check_duplicates {
   local page="$1" # page path in the format 'pages<.language_code>/platform/pagename.md'
@@ -199,13 +220,13 @@ function check_structure {
 
 MSG_EXISTS='The page `%s` already exists in the `%s` directory.\n'
 MSG_NOT_EXISTS='The page `%s` does not exists as English page `%s` yet.\n'
-MSG_OUTDATED='The page `%s` is outdated, %s.\n'
+MSG_OUTDATED='The page `%s` is outdated, %s, compared to the English page.\n'
 MSG_IS_COPY='The page `%s` seems to be a copy of `%s` (%d%% matching).\n'
 MSG_NOT_DIR='The file `%s` does not look like a directory.\n'
 MSG_NOT_FILE='The file `%s` does not look like a regular file.\n'
 MSG_NOT_MD='The file `%s` does not have a `.md` extension.\n'
-MSG_MORE_INFO='The page `%s` has an outdated more info link.\n'
-MSG_PAGE_TITLE='The page `%s` has an outdated page title.\n'
+MSG_MORE_INFO='The page `%s` has a more info link that does not match the one in the English page. Please check the "More information:" translation as well using https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/more-info-link.md.\n'
+MSG_PAGE_TITLE='The page `%s` has a page title that does not match the one in the English page.\n'
 
 PLATFORMS=$(ls pages/)
 
