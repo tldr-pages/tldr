@@ -1,4 +1,4 @@
-# odps resources
+# odps resource
 
 > ODPS(Open Data Processing Service)에서 리소스를 관리.
 > 같이 보기: `odps`.
