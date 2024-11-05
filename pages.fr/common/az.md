@@ -8,11 +8,11 @@
 
 `az login`
 
-- Gère les informations de souscription azure :
+- Gère les informations de souscription Azure :
 
 `az account`
 
-- Affiche tous les disques managés Azure :
+- Affiche tous les disques administrés Azure :
 
 `az disk list`
 
@@ -20,10 +20,18 @@
 
 `az vm list`
 
-- Gère Azure Kubernetes Services :
+- Gère les services Kubernetes Azure :
 
 `az aks`
 
 - Gère les ressources réseaux Azure :
 
 `az network`
+
+- Démarre en mode interactif :
+
+`az interactive`
+
+- Affiche l'aide :
+
+`az --help`
