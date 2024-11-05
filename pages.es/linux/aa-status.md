@@ -20,6 +20,6 @@
 
 `sudo aa-status --complaining`
 
-- Muestra el número de políticas impuestas cargadas que matan tareas:
+- Muestra el número de políticas impuestas cargadas que terminan tareas:
 
 `sudo aa-status --kill`
