@@ -29,4 +29,4 @@
 
 - 특정 포트 번호로 주어진 네임 서버에 도메인의 TXT 레코드 질의:
 
-`nslookup -port={{포트_번호}} -type=TXT {{example.com}} {{name_server}}`
+`nslookup -port={{포트_번호}} -type=TXT {{example.com}} {{네임_서버}}`
