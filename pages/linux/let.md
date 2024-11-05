@@ -6,7 +6,7 @@
 
 - Evaluate a simple arithmetic expression:
 
-`let "result = a + b"`
+`let "{{result = a + b}}"`
 
 - Use post-increment and assignment in an expression:
 
