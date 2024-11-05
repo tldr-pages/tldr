@@ -1,7 +1,7 @@
-# aws-ce
+# aws ce
 
 > 클라우드 환경에서 액세스 제어 및 보안 설정 분석 및 관리.
-> 더 많은 정보: <https://awe-ce-cli.documentation.com/latest/reference/awe-ce/index.html>.
+> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ce/index.html>.
 
 - 새로운 접근 제어 분석기 생성:
 
