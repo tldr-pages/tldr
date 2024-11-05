@@ -6,15 +6,15 @@
 
 - 특정 버전의 Node.js 설치:
 
-`nvm install {{node_version}}`
+`nvm install {{노드_버전}}`
 
 - 현재 셸에서 특정 버전의 Node.js 사용:
 
-`nvm use {{node_version}}`
+`nvm use {{노드_버전}}`
 
 - 기본 Node.js 버전 설정:
 
-`set nvm_default_version {{node_version}}`
+`set nvm_default_version {{노드_버전}}`
 
 - 사용 가능한 모든 Node.js 버전 나열 및 기본 버전 강조:
 
@@ -22,4 +22,4 @@
 
 - 지정된 Node.js 버전 제거:
 
-`nvm uninstall {{node_version}}`
+`nvm uninstall {{노드_버전}}`
