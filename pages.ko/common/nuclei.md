@@ -29,7 +29,7 @@
 
 - 하나 이상의 특정 [t]emplates 또는 [t]emplates가 있는 디렉토리를 실행하며 `stderr`에 [v]erbose 출력 및 검출된 문제/취약점을 파일로 [o]utput:
 
-`nuclei -t {{경로/대상/nuclei-templates/http}} -u {{http://scanme.sh}} -v -o {{results}}`
+`nuclei -t {{경로/대상/nuclei-templates/http}} -u {{http://scanme.sh}} -v -o {{결과들}}`
 
 - 하나 이상의 [t]emplate [c]onditions에 기반한 스캔 실행:
 
