@@ -13,4 +13,4 @@
 
 - 날짜와 시간을 특정 타임스탬프로 설정:
 
-`idevicedate --set {{timestamp}}`
+`idevicedate --set {{타임스탬프}}`
