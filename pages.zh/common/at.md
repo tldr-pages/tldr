@@ -4,13 +4,21 @@
 > atd 服务（或 atrun）需要处于运行状态，以保证命令成功执行。
 > 更多信息：<https://manned.org/at>.
 
+- Start the `atd` daemon:
+
+`systemctl start atd`
+
 - 5 分钟后，执行标准输入中的命令（命令输入完成后按 `Ctrl + D`）：
 
 `at now + 5 minutes`
 
+- Create commands interactively and execute them at a specific time:
+
+`at {{hh:mm}}`
+
 - 在今天上午 10:00 执行标准输入中的命令：
 
-`echo "{{./make_db_backup.sh}}" | at 1000`
+`echo "{{command}}" | at 1000`
 
 - 下周二晚上 9:30 执行指定文件中包含的命令：
 
