@@ -29,7 +29,7 @@
 
 - Bitbucket에서 원격 워크플로우의 최신 버전 가져오기:
 
-`nextflow pull {{사용자/레포}} -hub bitbucket`
+`nextflow pull {{사용자/저장소}} -hub bitbucket`
 
 - Nextflow 업데이트:
 
