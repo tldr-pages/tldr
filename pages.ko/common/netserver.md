@@ -12,7 +12,7 @@
 
 `netserver -D`
 
-- [포트] 지정:
+- 포트 지정:
 
 `netserver -p {{포트}}`
 
