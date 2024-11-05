@@ -10,7 +10,7 @@
 
 - Start `ghcid` with a specific command, such as loading a Stack or Cabal project:
 
-`ghcid --command "stack ghci {{path/to/Main.hs}}"`
+`ghcid --command "{{stack ghci Main.hs}}"`
 
 - Run an action (default `main`) on each file save:
 
