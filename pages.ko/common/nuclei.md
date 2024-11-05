@@ -17,7 +17,7 @@
 
 - 높은 및 치명적 심각도의 HTTP [p]rotocol [t]ype 템플릿을 실행하고, 결과를 특정 디렉토리 내 [m]arkdown 파일로 [e]xport:
 
-`nuclei -severity high,critical -pt http -u {{http://scanme.sh}} -me {{markdown_directory}}`
+`nuclei -severity high,critical -pt http -u {{http://scanme.sh}} -me {{마크다운_디렉토리}}`
 
 - 다른 [r]ate [l]imit과 최대 [b]ulk [s]ize를 사용하여 모든 템플릿 실행하며, 조용한 출력(발견된 내용만 표시):
 
