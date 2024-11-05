@@ -13,4 +13,4 @@
 
 - Hapus suatu informasi kredensial dari penyimpanan seluruh piranti pembantu:
 
-`echo "{{url=http://example.com}}" | git credential approve`
+`echo "{{url=http://example.com}}" | git credential reject`

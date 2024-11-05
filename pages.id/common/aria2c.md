@@ -22,7 +22,7 @@
 
 - Unduh URI yang tercantum dalam suatu berkas dengan unduhan paralel terbatas:
 
-`aria2c --input-file={{jalan/menuju/berkas}} --max-concurrent-downloads={{jumlah_unduhan}}`
+`aria2c --input-file {{jalan/menuju/berkas}} --max-concurrent-downloads {{jumlah_unduhan}}`
 
 - Unduh dengan berbagai koneksi:
 
@@ -30,7 +30,7 @@
 
 - Unduhan FTP dengan username pengguna dan kata sandi:
 
-`aria2c --ftp-user={{username}} --ftp-passwd={{kata_sandi}} "{{url}}"`
+`aria2c --ftp-user={{username}} --ftp-passwd {{kata_sandi}} "{{url}}"`
 
 - Batasi kecepatan unduh dalam bytes/detik:
 
