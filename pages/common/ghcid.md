@@ -22,7 +22,7 @@
 
 - Write full GHC compiler output to a file:
 
-`ghcid --outputfile={{path/to/outputfile.txt}} {{path/to/Main.hs}}`
+`ghcid --outputfile={{path/to/output_file.txt}} {{path/to/Main.hs}}`
 
 - Execute REPL commands (eg. `-- $> 1+1`) on each file save:
 
