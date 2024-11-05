@@ -3,22 +3,22 @@
 > Netwerkinterface-configurator.
 > Meer informatie: <https://net-tools.sourceforge.io/man/ifconfig.8.html>.
 
-- Bekijk netwerkinstellingen van een Ethernet-adapter:
+- Bekijk netwerkinstellingen van een interface:
 
-`ifconfig eth0`
+`ifconfig {{interface_naam}}`
 
 - Toon details van alle interfaces, inclusief uitgeschakelde interfaces:
 
 `ifconfig -a`
 
-- Schakel de eth0-interface uit:
+- Schakel een interface uit:
 
-`ifconfig eth0 down`
+`ifconfig {{interface_naam}} down`
 
-- Schakel de eth0-interface in:
+- Schakel een interface in:
 
-`ifconfig eth0 up`
+`ifconfig {{interface_naam}} up`
 
-- Ken een IP-adres toe aan de eth0-interface:
+- Ken een IP-adres toe aan een interface:
 
-`ifconfig eth0 {{ip_adres}}`
+`ifconfig {{interface_naam}} {{ip_adres}}`

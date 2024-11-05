@@ -1,20 +1,17 @@
 # chsh
 
-> Cambia el intérprete de comandos de inicio de sesión.
+> Cambia el intérprete de comandos de inicio de sesión del usuario (login shell).
+> Vea las páginas específicas de la plataforma para más opciones.
 > Más información: <https://manned.org/chsh>.
 
-- Cambia interactivamente el intérprete del usuario actual:
+- Establece un intérprete de comandos de inicio de sesión específico para el usuario actual de forma interactiva:
 
 `chsh`
 
-- Cambia el intérprete del usuario actual por otro específico:
+- Establece un intérprete de comandos de inicio de sesión específico para el usuario actual:
 
-`chsh -s {{ruta/al/intérprete}}`
+`chsh -s {{ruta/a/intérprete}}`
 
-- Cambia el intérprete de otro usuario:
+- Establece un intérprete de comandos de inicio de sesión para un usuario específico:
 
-`chsh -s {{ruta/al/intérprete}} {{nombre_de_usuario}}`
-
-- [l]ista los intérpretes disponibles:
-
-`chsh -l`
+`chsh -s {{ruta/a/intérprete}} {{nombre_de_usuario}}`

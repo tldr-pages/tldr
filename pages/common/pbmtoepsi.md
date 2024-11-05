@@ -9,7 +9,7 @@
 
 - Produce a quadratic output image with the specified resolution:
 
-`pbmtoepsi -dpi {{144}} {path/to/image.pbm}} > {{path/to/output.bmp}}`
+`pbmtoepsi -dpi {{144}} {{path/to/image.pbm}} > {{path/to/output.bmp}}`
 
 - Produce an output image with the specified horizontal and vertical resolution:
 
