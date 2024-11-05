@@ -1,7 +1,7 @@
 # vgremove
 
 > Remove volume group(s) in LVM.
-> More information: <https://manned.org/vgremove.8>.
+> More information: <https://manned.org/vgremove>.
 
 - Remove a volume group with confirmation:
 
