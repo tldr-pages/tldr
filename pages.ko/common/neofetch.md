@@ -9,7 +9,7 @@
 
 - 출력에서 특정 정보 라인을 표시하거나 숨김, 여기서 'infoname'은 설정 파일의 함수 이름(예: 메모리):
 
-`neofetch --{{enable|disable}} {{정보이름}}`
+`neofetch --{{enable|disable}} {{정보명}}`
 
 - 운영 체제 아키텍처 숨기기/표시:
 
