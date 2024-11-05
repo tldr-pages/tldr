@@ -2,7 +2,7 @@
 
 > Melden Sie sich bei Azure an.
 > Teil von `azure-cli` (auch bekannt als `az`).
-> Weitere Informationen: <https://learn.microsoft.com/cli/azure/reference-index#az_login>.
+> Weitere Informationen: <https://learn.microsoft.com/cli/azure/reference-index#az-login>.
 
 - Melden Sie sich interaktiv an:
 
