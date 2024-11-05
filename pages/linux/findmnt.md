@@ -22,3 +22,7 @@
 - Find filesystems with specific label:
 
 `findmnt LABEL={{BigStorage}}`
+
+- Check mount table content in detail and verify `/etc/fstab`:
+
+`findmnt --verify --verbose`
