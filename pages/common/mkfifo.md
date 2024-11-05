@@ -14,3 +14,7 @@
 - Receive data through a named pipe:
 
 `cat {{path/to/pipe}}`
+
+- Share your terminal session in real-time:
+
+`mkfifo {{path/to/pipe}}; script -f {{path/to/pipe}}`

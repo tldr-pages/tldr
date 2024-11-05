@@ -12,10 +12,14 @@
 
 `bugreportz -p`
 
-- Tunjukkan versi program `bugreportz`:
+- Tulis isi suatu laporan masalah Android menuju `stdout`:
 
-`bugreportz -v`
+`bugreportz -s`
 
 - Tampilkan teks bantuan:
 
 `bugreportz -h`
+
+- Tampilkan versi program:
+
+`bugreportz -v`

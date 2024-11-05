@@ -9,7 +9,7 @@
 
 - Mostra la cronologia di un dato file o directory, mostrando anche le modifiche:
 
-`git log -p {{percorso/del/file_o_directory}}`
+`git log {{-p|-u|--patch}} {{percorso/del/file_o_directory}}`
 
 - Offri una panoramica dei file che sono cambiati ad ogni commit:
 
@@ -25,12 +25,12 @@
 
 - Mostra solo i commit il cui messaggio contiene una data stringa (ignorando maiuscole/minuscole):
 
-`git log -i --grep {{stringa_da_cercare}}`
+`git log {{-i|--regexp-ignore-case}} --grep {{stringa_da_cercare}}`
 
 - Mostra gli ultimi N commit di un certo autore:
 
-`git log -n {{numero}} --author={{autore}}`
+`git log {{-n|--max-count}} {{numero}} --author "{{autore}}"`
 
 - Mostra i commit effettuati tra due date (yyyy-mm-dd):
 
-`git log --before="{{2017-01-29}}" --after="{{2017-01-17}}"`
+`git log --before "{{2017-01-29}}" --after "{{2017-01-17}}"`

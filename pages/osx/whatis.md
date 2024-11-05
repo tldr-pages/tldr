@@ -1,7 +1,7 @@
 # whatis
 
 > Search a set of database files for short descriptions of system commands for keywords.
-> More information: <http://www.linfo.org/whatis.html>.
+> More information: <https://www.linfo.org/whatis.html>.
 
 - Search for information about keyword:
 

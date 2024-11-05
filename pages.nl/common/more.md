@@ -24,6 +24,6 @@
 
 `q`
 
-- Toon hulp over interactieve commando's:
+- Toon help over interactieve commando's:
 
 `h`

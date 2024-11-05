@@ -1,7 +1,7 @@
 # abduco
 
 > 터미널 세션 관리자.
-> 더 많은 정보: <http://www.brain-dump.org/projects/abduco/>.
+> 더 많은 정보: <https://www.brain-dump.org/projects/abduco/>.
 
 - 세션 목록:
 

@@ -12,10 +12,14 @@
 
 `bugreportz -p`
 
-- `bugreportz` 버전 표시:
+- Android 버그 보고서의 내용을 `stdout`에 작성:
 
-`bugreportz -v`
+`bugreportz -s`
 
 - 도움말 표시:
 
 `bugreportz -h`
+
+- `bugreportz` 버전 표시:
+
+`bugreportz -v`

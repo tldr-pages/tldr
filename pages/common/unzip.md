@@ -12,11 +12,11 @@
 
 `unzip {{path/to/archive1.zip path/to/archive2.zip ...}} -d {{path/to/output}}`
 
-- Extract files/directories from archives to `stdout`:
+- Extract files/directories from archives to `stdout` alongside the extracted file names:
 
 `unzip -c {{path/to/archive1.zip path/to/archive2.zip ...}}`
 
-- Extract the contents of the file(s) to `stdout` alongside the extracted file names:
+- Extract an archive created on Windows, containing files with non-ASCII (e.g. Chinese or Japanese characters) filenames:
 
 `unzip -O {{gbk}} {{path/to/archive1.zip path/to/archive2.zip ...}}`
 
