@@ -10,7 +10,7 @@
 
 - Use post-increment and assignment in an expression:
 
-`let "x++"`
+`let "{{x++}}"`
 
 - Use conditional operator in an expression:
 
