@@ -21,7 +21,7 @@
 
 - 주어진 네임 서버에 도메인의 전체 존 파일 (존 전송)을 TCP 프로토콜을 사용하여 질의:
 
-`nslookup -vc -type=AXFR {{example.com}} {{name_server}}`
+`nslookup -vc -type=AXFR {{example.com}} {{네임_서버}}`
 
 - 도메인의 메일 서버 (MX 레코드) 질의, 트랜잭션 세부사항 표시:
 
