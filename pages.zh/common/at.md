@@ -4,7 +4,7 @@
 > atd 服务（或 atrun）需要处于运行状态，以保证命令成功执行。
 > 更多信息：<https://manned.org/at>.
 
-- Start the `atd` daemon:
+- 启动 `atd` 守护进程：
 
 `systemctl start atd`
 
