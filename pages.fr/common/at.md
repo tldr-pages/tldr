@@ -4,7 +4,7 @@
 > Le service atd (ou atrun) doit être actif pour l'exécution des commandes planifiées.
 > Plus d'informations : <https://manned.org/at>.
 
-- Start the `atd` daemon:
+- Démarre le démon (tâche de fond) `atd` :
 
 `systemctl start atd`
 
