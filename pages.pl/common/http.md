@@ -1,7 +1,7 @@
 # http
 
 > HTTPie: HTTP client, ma być łatwiejszy w użyciu niż cURL.
-> Więcej informacji: <https://httpie.org>.
+> Więcej informacji: <https://httpie.io/docs/cli/usage>.
 
 - Pobierz adres URL do pliku:
 
