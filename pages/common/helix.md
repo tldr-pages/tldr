@@ -8,6 +8,14 @@
 
 `helix {{path/to/file}}`
 
+- Open files and show them one next each other:
+
+`helix --vsplit {{path/to/file1 path/to/file2}}`
+
+- Show the tutorial to learn to use Helix. Alternatively inside helix (press <Esc>:tutor):
+
+`helix --tutor`
+
 - Change the Helix theme:
 
 `:theme {{theme_name}}`
@@ -27,7 +35,3 @@
 - Search for a pattern in the file (press `n`/`N` to go to next/previous match):
 
 `/{{search_pattern}}<Enter>`
-
-- Format the file:
-
-`:format`
