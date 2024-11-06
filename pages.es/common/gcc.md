@@ -1,6 +1,6 @@
 # gcc
 
-> Preprocesa y compila archivos fuente C y C++, luego los ensambla y los une.
+> Preprocesa y compila archivos de código fuente C y C++, luego los ensambla y los une.
 > Parte de GCC Colección de Compilación GNU (GNU Compiler Collection).
 > Más información: <https://gcc.gnu.org>.
 
