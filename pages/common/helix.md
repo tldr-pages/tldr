@@ -12,7 +12,7 @@
 
 `helix --vsplit {{path/to/file1 path/to/file2}}`
 
-- Show the tutorial to learn to use Helix. Alternatively inside helix (press <Esc>:tutor):
+- Show the tutorial to learn Helix (or access it within Helix by pressing `<Esc>` and typing `:tutor`):
 
 `helix --tutor`
 
