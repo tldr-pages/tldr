@@ -18,11 +18,11 @@
 
 - 파일([f]ile)이 존재하는지 확인:
 
-`if [[ -f {{path/to/file}} ]]; then {{echo "Condition is true"}}; fi`
+`if [[ -f {{경로/대상/파일}} ]]; then {{echo "Condition is true"}}; fi`
 
 - 디렉토리([d]irectory)가 존재하는지 확인:
 
-`if [[ -d {{path/to/directory}} ]]; then {{echo "Condition is true"}}; fi`
+`if [[ -d {{경로/대상/디렉터리}} ]]; then {{echo "Condition is true"}}; fi`
 
 - 파일이나 디렉터리가 존재하는지([e]xists) 확인:
 
