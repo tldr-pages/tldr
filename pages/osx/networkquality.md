@@ -1,7 +1,7 @@
 # networkQuality
 
 > Measure the network quality by connecting to the internet.
-> More information: <https://support.apple.com/HT212313>.
+> More information: <https://support.apple.com/101942>.
 
 - Test the network quality for the default interface:
 
