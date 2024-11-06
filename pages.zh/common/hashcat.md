@@ -1,6 +1,6 @@
 # hashcat
 
-> 快速且高级的密码恢复工具。
+> 快速且先进的密码恢复工具。
 > 更多信息：<https://hashcat.net/wiki/doku.php?id=hashcat>.
 
 - 使用默认的 hashcat 掩码执行暴力破解攻击（模式 3）：
