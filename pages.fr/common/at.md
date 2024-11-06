@@ -12,7 +12,7 @@
 
 `at now + 5 minutes`
 
-- Create commands interactively and execute them at a specific time:
+- Crée des commandes de manière interactive et les exécute à un moment précis :
 
 `at {{hh:mm}}`
 
