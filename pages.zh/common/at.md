@@ -12,7 +12,7 @@
 
 `at now + 5 minutes`
 
-- Create commands interactively and execute them at a specific time:
+- 交互式创建命令并在指定时间执行：
 
 `at {{hh:mm}}`
 
