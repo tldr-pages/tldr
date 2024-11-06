@@ -12,10 +12,14 @@
 
 `bugreportz -p`
 
-- 显示帮助信息：
+- 将 Android 错误报告的内容写入 `stdout`：
+
+`bugreportz -s`
+
+- 显示帮助：
 
 `bugreportz -h`
 
-- 显示 `bugreportz` 的版本：
+- 显示版本：
 
 `bugreportz -v`
