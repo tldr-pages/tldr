@@ -7,7 +7,7 @@
 
 `dnf config-manager --add-repo={{url_del_repositorio}}`
 
-- Imprime de valores de configuración actuales:
+- Imprime los valores de configuración actuales:
 
 `dnf config-manager --dump`
 
