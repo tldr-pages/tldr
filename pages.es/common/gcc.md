@@ -4,7 +4,7 @@
 > Parte de GCC Colección de Compilación GNU (GNU Compiler Collection).
 > Más información: <https://gcc.gnu.org>.
 
-- Compila varios archivos fuente en un ejecutable:
+- Compila varios archivos de código fuente en un ejecutable:
 
 `gcc {{ruta/a/la/fuente1.c ruta/a/la/fuente2.c ...}} {{-o|--output}} {{ruta/al/ejecutable}}`
 
