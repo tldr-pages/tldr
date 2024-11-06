@@ -7,6 +7,6 @@
 
 `sudo fatrace`
 
-- Print file access events in the current directory, with timestamps, to `stdout`:
+- Print file access events on the mount of the current directory, with timestamps, to `stdout`:
 
 `sudo fatrace {{-c|--current-mount}} {{-t|--timestamp}}`
