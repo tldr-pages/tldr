@@ -9,7 +9,7 @@
 
 `sudo pacman -S {{package}}`
 
-- Synchronize and update all packages (add `--downloadonly` to download the packages and not update them):
+- [s]ynchronize and [u]pdate all packages (add `--downloadonly` to download the packages and not update them):
 
 `sudo pacman -Syu`
 
@@ -21,7 +21,7 @@
 
 `pacman -Ss {{search_pattern}}`
 
-- Display information about a package:
+- Display [i]nformation about a package:
 
 `pacman -Si {{package}}`
 
@@ -33,6 +33,6 @@
 
 `sudo pacman -Syu --ignore {{package}}`
 
-- Remove not installed packages and unused repositories from the cache (use `-Scc` flag to clean all packages):
+- Remove not installed packages and unused repositories from the [c]ache (use `-Scc` flag to clean all packages):
 
 `sudo pacman -Sc`
