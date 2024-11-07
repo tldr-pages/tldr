@@ -25,7 +25,7 @@
 
 - Remove the current directory from `z`'s database:
 
-`z -x .`
+`z -x`
 
 - Restrict matches to subdirectories of the current directory:
 
