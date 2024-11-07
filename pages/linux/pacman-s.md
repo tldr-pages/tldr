@@ -2,6 +2,7 @@
 
 > Arch Linux package manager utility.
 > See also: `pacman`.
+> This command is an alias of `pacman-sync`.
 > More information: <https://manned.org/pacman.8>.
 
 - Install a new package:
