@@ -25,7 +25,7 @@
 
 - Inicia a detecção de desvio para uma pilha:
 
-`aws cloudformation detect-stack-drift --stack-name {{stack-id}} --profile {{perfil}}`
+`aws cloudformation detect-stack-drift --stack-name {{id-da-pilha}} --profile {{perfil}}`
 
 - Verifica o status de desvio de uma pilha usando 'StackDriftDetectionId' do resultado do comando anterior:
 
