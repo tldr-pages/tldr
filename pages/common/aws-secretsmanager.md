@@ -7,11 +7,15 @@
 
 `aws secretsmanager list-secrets`
 
+- List all secrets but only show the secret names and ARNs (easy to view):
+
+`aws secretsmanager list-secrets --query 'SecretList[*].{Name: Name, ARN: ARN}'`
+
 - Create a secret:
 
-`aws secretsmanager create-secret --name {{name}} --description "{{secret_description}}" --secret-string {{secret}}`
+`aws secretsmanager create-secret --name {{name}} --description "{{secret_description}}" --secret-string '{{secret}}'`
 
-- Delete a secret:
+- Delete a secret (append `--force-delete-without-recovery` to delete immediately without any recovery period):
 
 `aws secretsmanager delete-secret --secret-id {{name_or_arn}}`
 
