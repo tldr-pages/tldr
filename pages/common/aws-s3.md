@@ -4,9 +4,9 @@
 > Some subcommands such as `cp` have their own usage documentation.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html>.
 
-- Show files in a bucket:
+- Show files in a bucket (use `aws s3 ls` to list all buckets):
 
-`aws s3 ls {{bucket_name}}`
+`aws s3 ls s3://{{bucket_name}}`
 
 - Sync files and directories from local to bucket:
 
@@ -22,8 +22,16 @@
 
 - Remove file from bucket:
 
-`aws s3 rm s3://{{bucket}}/{{path/to/file}}`
+`aws s3 rm s3://{{bucket_name}}/{{path/to/file}}`
 
 - Preview changes only:
 
 `aws s3 {{any_command}} --dryrun`
+
+- Remove all objects from a bucket (empty the bucket):
+
+`aws s3 rm s3://{{bucket_name}} --recursive`
+
+- Remove a bucket:
+
+`aws s3 rb s3://{{bucket_name}} --force`
