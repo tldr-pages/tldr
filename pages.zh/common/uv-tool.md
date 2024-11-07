@@ -1,4 +1,4 @@
-# uv 工具
+# uv tool
 
 > 安装和运行由 Python 软件包提供的命令。
 > 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-tool>.
