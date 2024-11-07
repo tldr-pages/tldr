@@ -21,7 +21,7 @@
 
 - Verifica o status de uma pilha:
 
-`aws cloudformation describe-stacks --stack-name {{stack-id}} --profile {{perfil}}`
+`aws cloudformation describe-stacks --stack-name {{id-da-pilha}} --profile {{perfil}}`
 
 - Inicia a detecção de desvio para uma pilha:
 
