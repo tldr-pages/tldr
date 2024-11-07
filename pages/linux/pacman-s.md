@@ -29,10 +29,6 @@
 
 `pacman -Si {{package}}`
 
-- Overwrite conflicting files during a package update:
-
-`sudo pacman -Syu --overwrite {{path/to/file}}`
-
 - Synchronize and update all packages, but ignore a specific package (can be used more than once):
 
 `sudo pacman -Syu --ignore {{package}}`
