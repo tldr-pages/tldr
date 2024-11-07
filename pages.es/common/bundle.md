@@ -19,7 +19,7 @@
 
 `bundle update {{gema1}} {{gema2}}`
 
-- Actualiza una o más gemas específicas definidas en el `Gemfile` pero sólo a la siguiente versión parche (patch):
+- Actualiza una o más gemas (gems) específicas definidas en el `Gemfile` pero solo a la siguiente versión parche (patch):
 
 `bundle update --patch {{gema1}} {{gema2}}`
 
