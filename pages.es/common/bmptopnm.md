@@ -11,6 +11,6 @@
 
 `bmptopnm -verbose {{ruta/al/archivo.bmp}}`
 
-- Muestra la Versión:
+- Muestra la versión:
 
 `bmptopnm -version`
