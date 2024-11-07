@@ -1,6 +1,6 @@
 # in2csv
 
-> 다양한 to CSV.
+> 다양한 표 데이터 형식을 CSV로 변환.
 > csvkit에 포함.
 > 더 많은 정보: <https://csvkit.readthedocs.io/en/latest/scripts/in2csv.html>.
 
