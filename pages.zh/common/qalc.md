@@ -18,7 +18,7 @@
 
 - 非交互地执行计算：
 
-`qalc {{66+99|2^4|6 feet 到 cm|1 bitcoin 到 USD|20 kmph 到 mph|...}}`
+`qalc {{66+99|2^4|6 feet to cm|1 bitcoin to USD|20 kmph to mph|...}}`
 
 - 列出所有支持的函数/前缀/单位/变量：
 
