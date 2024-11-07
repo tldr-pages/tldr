@@ -3,7 +3,7 @@
 > Administrador de dependencias para el lenguaje de programación Ruby.
 > Más información: <https://bundler.io/man/bundle.1.html>.
 
-- Instala todas las gemas definidas en el archivo `Gemfile` en el directorio de trabajo:
+- Instala todas las gemas (gems) definidas en el archivo `Gemfile` en el directorio de trabajo:
 
 `bundle install`
 
