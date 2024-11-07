@@ -14,7 +14,7 @@
 
 - Expand/collapse comments:
 
-`[space]`
+`<Space>`
 
 - Open link:
 
