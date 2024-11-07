@@ -23,7 +23,7 @@
 
 `bundle update --patch {{gema1}} {{gema2}}`
 
-- Actualiza todas las gemas dentro del grupo dado en el `Gemfile`:
+- Actualiza todas las gemas (gems) dentro de un grupo dado en el `Gemfile`:
 
 `bundle update --group {{development}}`
 
