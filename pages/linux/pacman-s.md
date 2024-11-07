@@ -5,6 +5,10 @@
 > This command is an alias of `pacman-sync`.
 > More information: <https://manned.org/pacman.8>.
 
+- View documentation for the original command:
+
+`tldr pacman-sync`
+
 - Install a new package:
 
 `sudo pacman -S {{package}}`
