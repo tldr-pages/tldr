@@ -3,7 +3,7 @@
 > Convierte un archivo BMP a una imagen PBM, PGM o PNM.
 > Más información: <https://netpbm.sourceforge.net/doc/bmptopnm.html>.
 
-- Genera la imagen PBM, PGM o PNM como salida, para Windows y OS/2 únicamente procesa BMP:
+- Genera la imagen PBM, PGM o PNM como salida; para Windows y OS/2 únicamente procesa BMP:
 
 `bmptopnm {{ruta/al/archivo.bmp}}`
 
