@@ -17,7 +17,7 @@
 
 - Delete a secret (append `--force-delete-without-recovery` to delete immediately without any recovery period):
 
-`aws secretsmanager delete-secret --secret-id {{name_or_arn}}`
+`aws secretsmanager delete-secret --secret-id {{name|arn}}`
 
 - View details of a secret except for secret text:
 
