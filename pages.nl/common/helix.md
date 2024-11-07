@@ -35,7 +35,3 @@
 - Zoek een patroon in het bestand (druk op `n`/`N` om naar de volgende/vorige overeenkomst te gaan):
 
 `/{{zoek_patroon}}<Enter>`
-
-- Formateer het bestand:
-
-`:format`
