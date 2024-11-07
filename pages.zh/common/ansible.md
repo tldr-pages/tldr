@@ -27,3 +27,7 @@
 - 使用自定义的清单文件执行一个命令：
 
 `ansible {{组}} -i {{清单文件}} -m command -a '{{命令}}'`
+
+- 列出清单中的组：
+
+`ansible localhost -m debug -a '{{var=groups.keys()}}'`

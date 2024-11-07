@@ -1,28 +1,36 @@
 # code
 
-> Visual Studio Code.
+> 跨平台且可扩展的代码编辑器。
 > 更多信息：<https://github.com/microsoft/vscode>.
 
-- 打开 VS Code：
+- 启动 Visual Studio Code：
 
 `code`
 
-- 在 VS Code 中打开当前目录：
+- 打开指定的文件或目录：
 
-`code .`
+`code {{路径/到/文件或目录1 路径/到/文件或目录2 ...}}`
 
-- 在 VS Code 打开一个文件或目录：
+- 比较两个指定的文件：
 
-`code {{路径/文件或目录}}`
+`code --diff {{路径/到/文件1}} {{路径/到/文件2}}`
 
-- 在当前打开的 VS Code 窗口中打开一个文件或目录：
+- 在新窗口中打开指定的文件或目录：
 
-`code --reuse-window {{路径/文件或目录}}`
+`code --new-window {{路径/到/文件或目录1 路径/到/文件或目录2 ...}}`
 
-- 在 VS Code 中对比两个文件：
+- 安装/卸载一个特定的插件：
 
-`code -d {{文件1}} {{文件2}}`
+`code --{{install|uninstall}}-extension {{插件作者.插件名}}`
 
-- 用超级用户（sudo）权限打开 VS Code：
+- 输出已安装的插件：
 
-`sudo code {{路径/文件或目录}} --user-data-dir`
+`code --list-extensions`
+
+- 输出已安装的插件及其版本：
+
+`code --list-extensions --show-versions`
+
+- 以超级用户（root）身份启动编辑器，同时将用户数据存储在指定目录中：
+
+`sudo code --user-data-dir {{路径/到/目录}}`

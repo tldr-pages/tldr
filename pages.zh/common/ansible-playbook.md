@@ -7,14 +7,26 @@
 
 `ansible-playbook {{playbook}}`
 
-- 在给定的主机清单文件中执行 playbook 中的命令：
+- 使用自定义主机清单执行 playbook 中的任务：
 
-`ansible-playbook {{playbook}} -i {{清单文件}}`
+`ansible-playbook {{playbook}} -i {{inventory_file}}`
 
-- 通过定义在命令行中额外的变量执行 playbook 中的任务：
+- 使用通过命令行定义的额外变量执行 playbook 中的任务：
 
-`ansible-playbook {{playbook}} -e "{{变量 1}}={{值 1}} {{变量 2}}={{值 2}}"`
+`ansible-playbook {{playbook}} -e "{{variable1}}={{value1}} {{variable2}}={{value2}}"`
 
-- 通过定义在一个 json 格式的文件中额外的变量执行 playbook 中的任务：
+- 使用在 JSON 文件中定义的额外变量执行 playbook 中的任务：
 
 `ansible-playbook {{playbook}} -e "@{{variables.json}}"`
+
+- 执行 playbook 中的指定标签的任务：
+
+`ansible-playbook {{playbook}} --tags {{tag1,tag2}}`
+
+- 从指定任务开始执行 playbook 中的任务：
+
+`ansible-playbook {{playbook}} --start-at {{task_name}}`
+
+- 以不做任何更改（试执行）方式执行 playbook 中的任务：
+
+`ansible-playbook {{playbook}} --check --diff`
