@@ -3,7 +3,7 @@
 > `.pod` 형식의 Perl 문서를 조회.
 > 더 많은 정보: <https://perldoc.perl.org/perldoc>.
 
-- 내장 [함]수, [변]수 또는 [A]PI에 대한 문서 보기:
+- 내장 함수, 변수 또는 API에 대한 문서 보기:
 
 `perldoc -{{f|v|a}} {{이름}}`
 
