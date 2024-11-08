@@ -7,11 +7,11 @@
 
 `twine upload dist/*`
 
-- Test PyPI [저]장소에 업로드하여 검증:
+- Test PyPI 저장소에 업로드하여 검증:
 
 `twine upload -r testpypi dist/*`
 
-- 지정된 [사]용자 이름과 [비]밀번호로 PyPI에 업로드:
+- 지정된 사용자 이름과 비밀번호로 PyPI에 업로드:
 
 `twine upload -u {{사용자_이름}} -p {{비밀번호}} dist/*`
 
