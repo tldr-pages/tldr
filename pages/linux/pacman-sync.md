@@ -16,7 +16,7 @@
 
 `sudo pacman --sync --refresh --sysupgrade --noconfirm {{package}}`
 
-- [[Ss]]earch the package database for a regular expression or keyword:
+- Search ([Ss]) the package database for a regular expression or keyword:
 
 `pacman --sync --search "{{search_pattern}}"`
 
