@@ -27,7 +27,7 @@
 
 `cp -i {{*.txt}} {{ruta/al/directorio_de_objetivo}}`
 
-- Siga los enlaces simbólicos antes de copiar:
+- Sigue los enlaces simbólicos antes de copiar:
 
 `cp -L {{enlace}} {{ruta/al/directorio_de_destino}}`
 
