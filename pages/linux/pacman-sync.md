@@ -8,19 +8,19 @@
 
 `sudo pacman --sync {{package}}`
 
-- Synchronize and update all packages (add `--downloadonly` to download the packages and not update them):
+- [S]ynchronize and update all packages (add `--downloadonly` to download the packages and not update them):
 
 `sudo pacman --sync --refresh --sysupgrade`
 
-- Update all packages and install a new one without prompting:
+- [U]pdate all packages and install a new one without prompting:
 
 `sudo pacman --sync --refresh --sysupgrade --noconfirm {{package}}`
 
-- Search the package database for a regular expression or keyword:
+- [[Ss]]earch the package database for a regular expression or keyword:
 
 `pacman --sync --search "{{search_pattern}}"`
 
-- Display information about a package:
+- Display [i]nformation about a package:
 
 `pacman --sync --info {{package}}`
 
@@ -28,7 +28,7 @@
 
 `sudo pacman --sync --refresh --sysupgrade --overwrite {{path/to/file}}`
 
-- Synchronize and update all packages, but ignore a specific package (can be used more than once):
+- [S]ynchronize and update all packages, but ignore a specific package (can be used more than once):
 
 `sudo pacman --sync --refresh --sysupgrade --ignore {{package}}`
 

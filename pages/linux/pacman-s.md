@@ -1,38 +1,5 @@
 # pacman-s
 
-> Arch Linux package manager utility.
-> See also: `pacman`.
-> This command is an alias of `pacman-sync`.
-> More information: <https://manned.org/pacman.8>.
-
 - View documentation for the original command:
 
 `tldr pacman-sync`
-
-- Install a new package:
-
-`sudo pacman -S {{package}}`
-
-- [s]ynchronize and [u]pdate all packages (add `--downloadonly` to download the packages and not update them):
-
-`sudo pacman -Syu`
-
-- Update all packages and install a new one without prompting:
-
-`sudo pacman -Syu --noconfirm {{package}}`
-
-- Search the package database for a regular expression or keyword:
-
-`pacman -Ss {{search_pattern}}`
-
-- Display [i]nformation about a package:
-
-`pacman -Si {{package}}`
-
-- Synchronize and update all packages, but ignore a specific package (can be used more than once):
-
-`sudo pacman -Syu --ignore {{package}}`
-
-- Remove not installed packages and unused repositories from the [c]ache (use `-Scc` flag to clean all packages):
-
-`sudo pacman -Sc`
