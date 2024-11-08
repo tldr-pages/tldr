@@ -8,7 +8,7 @@
 
 `helix {{ruta/al/archivo}}`
 
-- Abre archivos y  los muestra uno al lado del otro:
+- Abre archivos y los muestra uno al lado del otro:
 
 `helix --vsplit {{ruta/al/archivo1 ruta/al/archivo2}}`
 
