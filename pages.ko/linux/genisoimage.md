@@ -5,8 +5,8 @@
 
 - 주어진 소스 디렉토리에서 ISO 이미지 생성:
 
-`genisoimage -o {{내이미지.iso}} {{경로/대상/소스_폴더}}`
+`genisoimage -o {{내_이미지.iso}} {{경로/대상/소스_폴더}}`
 
 - ISO9660 파일 시스템에 대해 작은 겉보기 크기를 보고하여 2GiB보다 큰 파일을 포함한 ISO 이미지 생성:
 
-`genisoimage -o -allow-limited-size {{내이미지.iso}} {{경로/대상/소스_폴더}}`
+`genisoimage -o -allow-limited-size {{내_이미지.iso}} {{경로/대상/소스_폴더}}`
