@@ -6,7 +6,7 @@
 
 - Procura por arquivos que contenham o termo, ou a expressão regular, no diretório atual:
 
-`ack {{padrão_de_busca}}`
+`ack "{{padrão_de_busca}}"`
 
 - Procura um padrão sem diferenciar maiúsculas e minúsculas:
 
