@@ -9,7 +9,7 @@
 
 - 지정된 파일 또는 경로를 포함하는 패키지 검색:
 
-`apt-file {{search|find}} {{partial_path/to/file}}`
+`apt-file {{search|find}} {{부분_경로/대상/파일}}`
 
 - 특정 패키지의 내용 나열:
 
