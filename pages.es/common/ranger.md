@@ -14,7 +14,7 @@
 
 - Cambia el directorio de configuración:
 
-`ranger --confdir={{path/to/directory}}`
+`ranger --confdir={{ruta/al/directorio}}`
 
 - Cambia el directorio de datos:
 
