@@ -10,7 +10,7 @@
 
 - 모든 인터페이스에서 포트 80을 통해 특정 경로를 제공하며 기본 인증을 사용하는 HTTP 서버 시작:
 
-`sudo simplehttpserver -basic-auth {{사용자이름}}:{{비밀번호}} -path {{/var/www/html}} -listen 0.0.0.0:80`
+`sudo simplehttpserver -basic-auth {{사용자명}}:{{비밀번호}} -path {{/var/www/html}} -listen 0.0.0.0:80`
 
 - 자체 서명된 인증서와 사용자 정의 SAN을 사용하여 HTTPS를 활성화하며 모든 인터페이스에서 HTTP 서버 시작:
 
