@@ -16,7 +16,7 @@
 
 `helix --tutor`
 
-- Cambia el tema (theme) a Helix:
+- Cambia el tema (theme) de Helix:
 
 `:theme {{theme_name}}`
 
