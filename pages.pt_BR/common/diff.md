@@ -21,7 +21,7 @@
 
 - Compara diretórios recursivamente (mostra nomes de diretórios e arquivos diferentes assim como mudanças nos arquivos):
 
-`diff {{-r|--recursive} {{arquivo_antigo}} {{arquivo_novo}}`
+`diff {{-r|--recursive}} {{arquivo_antigo}} {{arquivo_novo}}`
 
 - Compara diretórios, mostrando apenas os nomes dos arquivos diferentes:
 
