@@ -4,7 +4,7 @@
 > e2fsprogs 프로그램의 실패한 작업을 취소하는 데 사용할 수 있습니다.
 > 더 많은 정보: <https://manned.org/e2undo>.
 
-- 특정 undo [파일]에 대한 정보 표시:
+- 특정 undo 파일에 대한 정보 표시:
 
 `e2undo -h {{경로/대상/undo_파일}} {{/dev/sdXN}}`
 
