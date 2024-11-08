@@ -18,7 +18,7 @@
 
 - Cambia el directorio de datos:
 
-`ranger --datadir={{path/to/directory}}`
+`ranger --datadir={{ruta/al/directorio}}`
 
 - Imprime estadísticas de uso de la CPU al salir:
 
