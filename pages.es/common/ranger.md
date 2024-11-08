@@ -20,6 +20,6 @@
 
 `ranger --datadir={{path/to/directory}}`
 
-- Imprime estadísticas de uso de CPU al salir:
+- Imprime estadísticas de uso de la CPU al salir:
 
 `ranger --profile`
