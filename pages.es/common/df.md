@@ -11,7 +11,7 @@
 
 `df {{ruta/al/archivo_o_directorio}}`
 
-- Utiliza unidades de 1024 bytes cuando escribas las cifras de espacio:
+- Utiliza unidades de 1024 bytes en las columnas de cifras de espacio:
 
 `df -k`
 
