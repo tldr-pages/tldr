@@ -32,6 +32,6 @@
 
 `u`
 
-- Busca un patrón en el archivo (al presionar `n`/`N` va a la siguiente/anterior coincidencia):
+- Busca un patrón en el archivo (al presionar `n`/`N` va a la coincidencia siguiente/anterior):
 
 `/{{patrón_de_búsqueda}}<Enter>`
