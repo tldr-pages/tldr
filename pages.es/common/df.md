@@ -15,6 +15,6 @@
 
 `df -k`
 
-- Muestra la información de forma portátil:
+- Muestra la información de forma portátil (formato POSIX):
 
 `df -P`
