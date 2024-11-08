@@ -18,7 +18,7 @@
 
 - Cambia el tema (theme) de Helix:
 
-`:theme {{theme_name}}`
+`:theme {{nombre_tema}}`
 
 - Guarda y sale:
 
