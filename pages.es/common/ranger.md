@@ -2,7 +2,7 @@
 
 > Gestor de archivos en consola con atajos de teclado de VI.
 > Vea también: `clifm`, `vifm`, `mc`, `dolphin`.
-> Más información: &quot; https://github.com/ranger/ranger].
+> Más información: <https://github.com/ranger/ranger>.
 
 - Abre Ranger:
 
