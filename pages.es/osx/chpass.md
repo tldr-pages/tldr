@@ -23,4 +23,4 @@
 
 - Utiliza el nombre dado al autenticarse en el nodo de directorio que contiene al usuario:
 
-`chpass -u {{nombre_de_usuario}} -s {{ruta/al/shell}} {{nombre_de_usuario}}`
+`chpass -u {{usuario_autenticado}} -s {{ruta/al/shell}} {{usuario}}`
