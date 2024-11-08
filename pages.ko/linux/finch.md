@@ -9,7 +9,7 @@
 
 - 종료:
 
-`<Alt> + q 또는 <Ctrl> + c`
+`<Alt> + q OR <Ctrl> + c`
 
 - 작업 메뉴 표시:
 
