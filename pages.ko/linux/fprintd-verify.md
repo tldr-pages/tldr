@@ -17,7 +17,7 @@
 
 - 특정 사용자의 특정 지문 검증:
 
-`fprintd-verify --finger {{finger_name}} {{사용자명}}`
+`fprintd-verify --finger {{손가락_이름}} {{사용자명}}`
 
 - 현재 사용자의 데이터베이스에 저장된 지문과 일치하지 않으면 프로세스 실패:
 
