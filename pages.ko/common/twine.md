@@ -13,7 +13,7 @@
 
 - 지정된 사용자 이름과 비밀번호로 PyPI에 업로드:
 
-`twine upload -u {{사용자_이름}} -p {{비밀번호}} dist/*`
+`twine upload -u {{사용자명}} -p {{비밀번호}} dist/*`
 
 - 대체 저장소 URL로 업로드:
 
