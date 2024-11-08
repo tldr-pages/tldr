@@ -19,7 +19,7 @@
 
 - Edita el registro de usuario en el nodo de directorio en la ubicación dada:
 
-`chpass -l {{ubicación}} -s {{ruta/al/shell}}} {{nombre_de_usuario}}`
+`chpass -l {{ubicación}} -s {{ruta/al/shell}} {{nombre_de_usuario}}`
 
 - Utiliza el nombre dado al autenticarse en el nodo de directorio que contiene al usuario:
 
