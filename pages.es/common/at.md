@@ -4,7 +4,7 @@
 > Los resultados se enviarán al correo del usuario.
 > Más información: <https://manned.org/at>.
 
-- Inicia el demonio (daemon)`atd`:
+- Inicia el servicio (daemon)`atd`:
 
 `systemctl start atd`
 
