@@ -15,7 +15,7 @@
 
 - Establece un inicio de sesión [s]hell para un usuario específico:
 
-`chpass -s {{ruta/al/shell}} {{nombre_de_usuario}}`
+`chpass -s {{ruta/al/shell}} {{usuario}}`
 
 - Edita el registro de usuario en el nodo de directorio en la ubicación dada:
 
