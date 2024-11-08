@@ -9,11 +9,11 @@
 
 - Decompress a file, replacing it with the original uncompressed version:
 
-`gzip {{-d|--decompress}} {{path/to/file.gz}}`
+`gzip {{-d|--decompress path/to/file.gz}}`
 
 - Compress a file, keeping the original file:
 
-`gzip {{-k|--keep}} {{path/to/file}}`
+`gzip {{-k|--keep path/to/file}}`
 
 - Compress a file, specifying the output filename:
 

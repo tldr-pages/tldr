@@ -9,11 +9,11 @@
 
 - Descompacta um arquivo, substituindo-o pela versão descompactada original:
 
-`gzip {{-d|--decompress}} {{caminho/para/arquivo.gz}}`
+`gzip {{-d|--decompress caminho/para/arquivo.gz}}`
 
 - Compacta um arquivo, mantendo o arquivo original:
 
-`gzip {{-k|--keep}} {{caminho/para/arquivo}}`
+`gzip {{-k|--keep caminho/para/arquivo}}`
 
 - Compacta um arquivo definindo o nome do arquivo de saída:
 
