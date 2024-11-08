@@ -7,6 +7,6 @@
 
 `asciitopgm {{ruta/al/archivo_de_entrada}} > {{ruta/al/archivo_de_salida.pgm}}`
 
-- Versión de visualización:
+- Muestra la versión:
 
 `asciitopgm -version`
