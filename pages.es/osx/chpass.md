@@ -21,6 +21,6 @@
 
 `chpass -l {{ubicación}} -s {{ruta/al/shell}} {{usuario}}`
 
-- Utiliza el nombre dado al autenticarse en el nodo de directorio que contiene al usuario:
+- Utiliza el [u]suario_autenticado al identificarse en el nodo de directorio que contiene a cierto usuario:
 
 `chpass -u {{usuario_autenticado}} -s {{ruta/al/shell}} {{usuario}}`
