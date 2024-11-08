@@ -17,7 +17,7 @@
 
 - Compacta um arquivo definindo o nome do arquivo de saída:
 
-`gzip {{-c|--stdout}} {{caminho/para/arquivo}} > {{caminho/para/arquivo_compactado.gz}}`
+`gzip {{-c|--stdout caminho/para/arquivo}} > {{caminho/para/arquivo_compactado.gz}}`
 
 - Descompacta um arquivo gzip definindo o nome do arquivo de saída:
 
