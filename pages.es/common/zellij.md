@@ -12,7 +12,7 @@
 
 `zellij list-sessions`
 
-- Se asocia a la sesión más recientemente usada:
+- Abre la sesión más recientemente usada:
 
 `zellij attach`
 
@@ -20,6 +20,6 @@
 
 `<Alt> + N`
 
-- Se desvincula de la sesión en curso (estando en una sesión de zellij):
+- Desvincula la sesión en curso (estando en una sesión de zellij):
 
 `<Ctrl> + O, D`
