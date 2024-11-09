@@ -28,7 +28,7 @@
 
 `sudo pacman -Syu --overwrite {{path/to/file}}`
 
-- [Sy]nchronize and [u]pdate all packages, but ignore a specific package (can be used more than once):
+- [S]ynchronize and [u]pdate all packages, but ignore a specific package (can be used more than once):
 
 `sudo pacman -Syu --ignore {{package}}`
 
