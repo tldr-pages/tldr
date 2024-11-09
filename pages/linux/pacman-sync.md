@@ -16,7 +16,7 @@
 
 `sudo pacman -Syu --noconfirm {{package}}`
 
-- Search ([Ss]) the package database for a regular expression or keyword:
+- Search ([s]) the package database for a regular expression or keyword:
 
 `pacman -Ss "{{search_pattern}}"`
 
