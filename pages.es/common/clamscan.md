@@ -17,7 +17,7 @@
 
 - Escanea usando un archivo de bases de datos de virus o directorio de archivos:
 
-`clamscan --database {{ruta/a/archio_o_directorio_con_base_de_datos}}`
+`clamscan --database {{ruta/al/archivo_o_directorio_con_base_de_datos}}`
 
 - Escanea el directorio actual y muestra sólo los archivos infectados:
 
