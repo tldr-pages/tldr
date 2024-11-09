@@ -13,4 +13,4 @@
 
 - Interpret C source files with a shebang inside the file:
 
-`#!/full/path/to/tcc -run`
+`#!{{/full/path/to/tcc}} -run`
