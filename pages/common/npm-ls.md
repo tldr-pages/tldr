@@ -1,0 +1,25 @@
+# npm ls
+
+> Print installed packages to stdout.
+> Alias: `npm list`.
+> More information: <https://docs.npmjs.com/cli/commands/npm-ls>.
+
+- Print to stdout all versions of direct dependencies:
+
+`npm ls`
+
+- Print all installed packages including peer dependecies:
+
+`npm ls --all`
+
+- Print dependencies with extended information:
+
+`npm ls --long`
+
+- Print dependencies in parseable format:
+
+`npm ls --parseable`
+
+- Print dependencies in `JSON` format:
+
+`npm ls --json`
