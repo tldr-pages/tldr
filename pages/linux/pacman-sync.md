@@ -6,7 +6,7 @@
 
 - Install a new package:
 
-`sudo pacman --sync {{package}}`
+`sudo pacman -S {{package}}`
 
 - [S]ynchronize and update all packages (add `--downloadonly` to download the packages and not update them):
 
