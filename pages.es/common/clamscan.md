@@ -29,7 +29,7 @@
 
 - Mueve archivos infectados a un directorio específico:
 
-`clamscan --move {{ruta/a/directorio_de_cuarentena}}`
+`clamscan --move {{ruta/al/directorio_de_cuarentena}}`
 
 - Elimina los archivos infectados:
 
