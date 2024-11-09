@@ -19,7 +19,7 @@
 
 `clamscan --database {{ruta/al/archivo_o_directorio_con_base_de_datos}}`
 
-- Escanea el directorio actual y muestra sólo los archivos infectados:
+- Escanea el directorio actual y muestra solo los archivos infectados:
 
 `clamscan --infected`
 
