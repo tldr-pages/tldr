@@ -7,7 +7,7 @@
 
 `http {{https://example.org}}`
 
-- Wyświetl podane części treści (`H`: nagłówki żądania, `B`: ciało żądania, `h`: nagłówki odpowiedzi, `b`: ciało odpowiedzi, `m`: metadane odpowiedzi):
+- Wyświetl podane części treści (`H`: nagłówki żądania, `B`: treść żądania, `h`: nagłówki odpowiedzi, `b`: treść odpowiedzi, `m`: metadane odpowiedzi):
 
 `http --print {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
 
