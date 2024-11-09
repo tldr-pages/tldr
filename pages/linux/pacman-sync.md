@@ -8,7 +8,7 @@
 
 `sudo pacman -S {{package}}`
 
-- [S]ynchronize and update all packages along with a sys[u]pgrade (add `--downloadonly` to only download the packages and not update them):
+- [S]ynchronize and refresh ([y]) the package database along with a sys[u]pgrade (add `--downloadonly` to only download the packages and not update them):
 
 `sudo pacman -Syu`
 
