@@ -1,6 +1,7 @@
 # npm login
 
 > Login to a registry user account.
+> See also: `npm logout` for logging out.
 > More information: <https://docs.npmjs.com/cli/commands/npm-login>.
 
 - Login to a registry user account and save the credentials to the `.npmrc` file:
