@@ -11,7 +11,7 @@
 
 `pulumi whoami {{-v|--verbose}}`
 
-- Print detailed information about the currently logged in user in JSON format:
+- Print detailed information about the currently logged in user as JSON:
 
 `pulumi whoami {{-j|--json}}`
 
