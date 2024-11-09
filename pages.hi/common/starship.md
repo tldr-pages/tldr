@@ -34,4 +34,4 @@
 
 - उपकमांड के लिए सहायता प्रदर्शित करें:
 
-`starship {{subcommand}} --help`
+`starship {{उपकमांड}} --help`
