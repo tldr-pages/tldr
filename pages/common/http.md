@@ -5,7 +5,7 @@
 
 - Make a simple GET request (shows response headers and content):
 
-`http {{https://example.org}}`
+`http {{https://example.com}}`
 
 - Print specific parts of the content (`H`: request headers, `B`: request body, `h`: response headers, `b`: response body, `m`: response metadata):
 

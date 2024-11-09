@@ -5,7 +5,7 @@
 
 - Wykonaj proste żądanie GET (wyświetla nagłówki odpowiedzi i zawartość):
 
-`http {{https://example.org}}`
+`http {{https://example.com}}`
 
 - Wyświetl podane części treści (`H`: nagłówki żądania, `B`: treść żądania, `h`: nagłówki odpowiedzi, `b`: treść odpowiedzi, `m`: metadane odpowiedzi):
 
