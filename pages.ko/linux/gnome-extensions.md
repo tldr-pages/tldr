@@ -13,7 +13,7 @@
 
 - 특정 확장 활성화:
 
-`gnome-extension enable "{{확장_ID}}"`
+`gnome-extensions enable "{{확장_ID}}"`
 
 - 특정 확장 비활성화:
 
@@ -21,7 +21,7 @@
 
 - 특정 확장 제거:
 
-`gnome-extensions uninstall "{{확장_ID}}"`
+`gnome-extension uninstall "{{확장_ID}}"`
 
 - 특정 하위 명령(예: `list`)에 대한 도움말 표시:
 
