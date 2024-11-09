@@ -1,6 +1,6 @@
 # pulumi whoami
 
-> Print information about the current logged in user.
+> Print information about the currently logged in user.
 > More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_whoami/>.
 
 - Print the username of the currently logged in user:
