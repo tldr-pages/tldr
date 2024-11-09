@@ -12,7 +12,7 @@
 
 `sudo pacman -Syu`
 
-- [U]pdate all packages and install a new one without prompting:
+- Update and [u]pgrade all packages and install a new one without prompting:
 
 `sudo pacman -Syu --noconfirm {{package}}`
 
