@@ -3,30 +3,30 @@
 > Buat dan atur peran pengguna (role) Ansible.
 > Informasi lebih lanjut: <https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
 
-- Pasang sebuah peran kepada suatu pengguna:
+- Tampilkan daftar peran atau koleksi yang tersedia:
 
-`ansible-galaxy install {{username}}.{{nama_peran}}`
+`ansible-galaxy {{role|collection}} list`
 
-- Buang peran dari suatu pengguna:
+- Cari suatu peran berdasarkan nama menggunakan tingkat verbositas tertentu (`-v` harus dimasukkan pada akhir baris perintah):
 
-`ansible-galaxy remove {{username}}.{{nama_peran}}`
+`ansible-galaxy role search {{nama_peran}} -v{{vvvvv}}`
 
-- Tampilkan daftar peran yang tersedia:
+- Pasang atau bongkar peran-peran pengguna:
 
-`ansible-galaxy list`
-
-- Cari peran berdasarkan nama:
-
-`ansible-galaxy search {{nama_peran}}`
+`ansible-galaxy role {{install|remove}} {{nama_peran1 nama_peran2 ...}}`
 
 - Terbitkan sebuah peran baru:
 
-`ansible-galaxy init {{nama_peran}}`
+`ansible-galaxy role init {{nama_peran}}`
 
-- Dapatkan informasi mengenai peran sebuah pengguna:
+- Dapatkan informasi mengenai suatu peran:
 
-`ansible-galaxy role info {{username}}.{{nama_peran}}`
+`ansible-galaxy role info {{nama_peran}}`
 
-- Dapatkan informasi mengenai suatu koleksi:
+- Pasang atau bongkar kumpulan koleksi (collection):
 
-`ansible-galaxy collection info {{username}}.{{nama_koleksi}}`
+`ansible-galaxy collection {{install|remove}} {{nama_koleksi1 nama_koleksi1 ...}}`
+
+- Tampilkan bantuan mengenai manajemen peran (role) maupun koleksi (collection):
+
+`ansible-galaxy {{role|collection}} {{-h|--help}}`

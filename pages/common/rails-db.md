@@ -1,7 +1,7 @@
 # rails db
 
 > Various database-related subcommands for Ruby on Rails.
-> More information: <https://guides.rubyonrails.org/command_line.html>.
+> More information: <https://guides.rubyonrails.org/active_record_migrations.html>.
 
 - Create databases, load the schema, and initialize with seed data:
 

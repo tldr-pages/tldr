@@ -12,7 +12,7 @@
 
 `tar czf {{path/to/target.tar.gz}} {{path/to/file1 path/to/file2 ...}}`
 
-- [c]reate a g[z]ipped archive from a directory using relative paths:
+- [c]reate a g[z]ipped (compressed) archive from a directory using relative paths:
 
 `tar czf {{path/to/target.tar.gz}} --directory={{path/to/directory}} .`
 

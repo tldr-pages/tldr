@@ -1,7 +1,7 @@
 # terraform plan
 
 > Generate and show Terraform execution plans.
-> More information: <https://www.terraform.io/docs/cli/commands/plan.html>.
+> More information: <https://developer.hashicorp.com/terraform/cli/commands/plan>.
 
 - Generate and show the execution plan in the currently directory:
 
