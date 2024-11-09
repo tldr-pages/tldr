@@ -25,7 +25,7 @@
 
 - Imprime el informe de la exploración a un archivo de registro (log):
 
-`clamscan --log {{ruta/a/archivo_de_registro}}`
+`clamscan --log {{ruta/al/archivo_de_registro}}`
 
 - Mueve archivos infectados a un directorio específico:
 
