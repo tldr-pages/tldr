@@ -5,4 +5,4 @@
 
 - squashfs 파일 시스템에서 하나 이상의 파일 내용을 표시:
 
-`sqfscat {{파일시스템.squashfs}} {{파일1 파일2 ...}}`
+`sqfscat {{파일_시스템.squashfs}} {{파일1 파일2 ...}}`
