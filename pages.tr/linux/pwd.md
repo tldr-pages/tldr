@@ -1,7 +1,7 @@
 # pwd
 
 > Mevcut/çalışan dizinin ismini yazdır.
-> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/pwd>
+> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/pwd>.
 
 - Mevcut dizini yazdır:
 
