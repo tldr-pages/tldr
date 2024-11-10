@@ -32,6 +32,6 @@
 
 `sudo pacman -Syu --ignore {{package}}`
 
-- Remove not installed packages and unused repositories from the cache (use `Scc` flag to [c]lean all packages):
+- Remove not installed packages and unused repositories from the cache (use the flags `Scc` to [c]lean all packages):
 
 `sudo pacman -Sc`
