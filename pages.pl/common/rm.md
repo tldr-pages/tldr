@@ -1,7 +1,6 @@
 # rm
 
 > Usuwa pliki lub foldery.
-> Więcej informacji: <https://www.gnu.org/software/coreutils/rm>.
 
 - Usuń pliki z dowolnej lokalizacji:
 

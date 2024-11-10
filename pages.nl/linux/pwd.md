@@ -1,7 +1,6 @@
 # pwd
 
 > Print de naam van de huidige/werkdirectory.
-> Meer informatie: <https://www.gnu.org/software/coreutils/pwd>.
 
 - Print de huidige directory:
 
