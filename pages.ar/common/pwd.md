@@ -1,6 +1,7 @@
 # pwd
 
 > اطبع اسم الدليل الحالي.
+> لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/pwd>.
 
 - اطبع اسم الدليل الحالي:
 
