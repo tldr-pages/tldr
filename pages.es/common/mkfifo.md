@@ -1,16 +1,20 @@
 # mkfifo
 
-> Crea FIFOs (llamadas pipes).
+> Crea FIFOs (named pipes) (pipes nombrados).
 > Más información: <https://www.gnu.org/software/coreutils/mkfifo>.
 
-- Crea un pipe con nombre en una ruta dada:
+- Crea un pipe nombrado en una ruta específica:
 
-`mkfifo {{ruta/a/pipe}}`
+`mkfifo {{ruta/al/pipe}}`
 
-- Envía datos a través de un pipe con nombre y envía el comando al fondo:
+- Envía datos a través de un pipe nombrado ejecutando el comando en segundo plano:
 
-`echo {{"Hola Mundo"}} > {{ruta/a/pipe}} &`
+`echo {{"Hola Mundo"}} > {{ruta/al/pipe}} &`
 
-- Recibe datos a través de un pipe con nombre:
+- Recibe datos a través de un pipe nombrado:
 
-`cat {{ruta/a/pipe}}`
+`cat {{ruta/al/pipe}}`
+
+- Comparte tu sesión de la terminal en tiempo real:
+
+`mkfifo {{ruta/al/pipe}}; script -f {{ruta/al/pipe}}`
