@@ -1,6 +1,7 @@
 # mv
 
 > Verplaats of hernoem bestanden en mappen.
+> Meer informatie: <https://www.gnu.org/software/coreutils/mv>.
 
 - Hernoem een bestand of map als het doel geen bestaande map is:
 
