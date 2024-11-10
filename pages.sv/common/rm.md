@@ -1,7 +1,6 @@
 # rm
 
 > Ta bort filer eller mappar.
-> Mer information: <https://www.gnu.org/software/coreutils/rm>.
 
 - Ta bort filer från godtyckliga ställen:
 
