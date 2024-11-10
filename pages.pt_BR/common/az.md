@@ -1,13 +1,14 @@
 # az
 
 > A interface de linha de comando oficial do Microsoft Azure.
-> Mais informações: <https://learn.microsoft.com/cli/azure>.
+> Alguns subcomandos como `login` tem sua própria documentação de uso.
+> Mais informações: <https://learn.microsoft.com/cli/azure/reference-index>.
 
 - Faz log in no Azure:
 
 `az login`
 
-- Gerencia informações de assinatura do Microsoft Azure:
+- Gerencia informações de assinatura do Azure:
 
 `az account`
 
@@ -26,3 +27,11 @@
 - Gerencia recursos de rede do Azure:
 
 `az network`
+
+- Inicia modo interativo:
+
+`az interactive`
+
+- Mostra ajuda:
+
+`az --help`
