@@ -1,6 +1,7 @@
 # pwd
 
 > Muestra el nombre del directorio actual.
+> Más información: <https://www.gnu.org/software/coreutils/pwd>.
 
 - Muestra el directorio actual:
 
