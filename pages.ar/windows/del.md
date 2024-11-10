@@ -3,7 +3,6 @@
 > حذف ملف واحد او مجموعه من الملفات.
 > وهو الاسم المستعار للامر `Remove-Item`.
 > هذه الوثائق تستند إلى إصدار سطر الأوامر (`cmd`) من `del`.
-> لمزيد من التفاصيل: <https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
 
 - اعرض التوثيقات للأمر الأصلي:
 
