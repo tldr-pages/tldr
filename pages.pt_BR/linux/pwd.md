@@ -1,6 +1,7 @@
 # pwd
 
 > Imprime o nome do diretório atual/trabalho.
+> Mais informações: <https://www.gnu.org/software/coreutils/pwd>.
 
 - Imprime o diretório atual:
 
