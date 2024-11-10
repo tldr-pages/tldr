@@ -1,7 +1,6 @@
 # pwd
 
 > Affiche le nom du répertoire actuel.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/pwd>.
 
 - Affiche le répertoire actuel :
 
