@@ -10,7 +10,7 @@
 
 - Lista la información de inicio de sesión de un usuario específico:
 
-`last {{nombre_de_usuario}}`
+`last {{usuario}}`
 
 - Muestra la información de una terminal específica:
 

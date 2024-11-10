@@ -29,7 +29,7 @@
 
 - Lista claves de acceso para un usuario específico:
 
-`aws iam list-access-keys --user-name {{nombre_de_usuario}}`
+`aws iam list-access-keys --user-name {{usuario}}`
 
 - Muestra ayuda:
 
