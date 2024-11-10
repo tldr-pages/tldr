@@ -1,7 +1,6 @@
 # clist
 
 > ഈ കമാൻഡ് `choco list` എന്നത്തിന്റെ അപരനാമമാണ്.
-> കൂടുതൽ വിവരങ്ങൾ: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

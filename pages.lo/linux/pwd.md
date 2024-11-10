@@ -1,7 +1,6 @@
 # pwd
 
 > ສະແດງຊື່ directory ທີ່ໃຊ້ຢູ່
-> ຂໍ້ມູນເພີ່ມເຕີມ: <https://www.gnu.org/software/coreutils/pwd>.
 
 - ສະແດງຊື່ directory ທີ່ໃຊ້ຢູ່:
 
