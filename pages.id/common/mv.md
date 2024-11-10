@@ -1,6 +1,7 @@
 # mv
 
 > Pindahkan atau namai-ulang berkas dan direktori.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/mv>.
 
 - Pindahkan berkas ke lokasi yang baru:
 
