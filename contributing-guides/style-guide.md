@@ -125,7 +125,6 @@ If a command can be called with alternative names (like `vim` can be called by `
 # command_name
 
 > This command is an alias of `original-command-name`.
-> More information: <https://example.com/original/command/help/page>.
 
 - View documentation for the original command:
 
