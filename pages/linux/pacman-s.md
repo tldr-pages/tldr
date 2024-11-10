@@ -1,4 +1,4 @@
-# pacman-s
+# pacman -S
 
 > This command is an alias of `pacman-sync`.
 
