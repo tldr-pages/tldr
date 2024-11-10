@@ -1,7 +1,7 @@
 # 7za
 
 > Un archiveur de fichiers avec un haut taux de compression.
-> Similaire à `7z` sauf qu'il supporte moins de type de fichiers mais il est multi-plateforme.
+> Similaire à `7z` sauf qu'il supporte moins de type de fichiers mais est multi-plateforme.
 > Plus d'informations : <https://manned.org/7za>.
 
 - Compresse un fichier ou un dossier :
@@ -31,3 +31,7 @@
 - Liste le contenu d'une archive :
 
 `7za l {{chemin/vers/archive.7z}}`
+
+- Définit le niveau de compression (plus il est élevé, plus la compression est importante, mais plus elle est lente) :
+
+`7za a {{chemin/vers/archive.7z}} -mx={{0|1|3|5|7|9}} {{chemin/vers/fichier_ou_dossier}}`
