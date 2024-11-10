@@ -1,7 +1,6 @@
 # mv
 
 > Verschiebe Dateien oder Verzeichnisse oder benenne diese um.
-> Weitere Informationen: <https://www.gnu.org/software/coreutils/mv>.
 
 - Verschiebe eine Datei an einen beliebigen Ort:
 
