@@ -155,7 +155,7 @@ def set_alias_page(
     )
 
     # Test if the alias page already exists
-    line = re.search(r">.*\.", text).group(0).replace(command, "(.+)")
+    line = re.search(r">.*", text).group(0).replace(command, "(.+)")
     original_command = get_alias_page(path, line)
     if original_command == command:
         return ""
