@@ -1,6 +1,7 @@
 # pwd
 
 > 현재 작업 디렉토리의 이름을 출력.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/pwd>.
 
 - 현재 디렉토리 출력:
 
