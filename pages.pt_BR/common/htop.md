@@ -11,6 +11,10 @@
 
 `htop {{[-u|--user]}} {{nome_usuário}}`
 
+- Apresenta os processos de forma hierárquica em uma visão de árvore para mostrar relações de pai-filho:
+
+`htop --tree`
+
 - Ordena processos por um `item_de_ordenação` (utilize `htop --sort help` para ver as opções disponíveis):
 
 `htop {{[-s|--sort]}} {{item_de_ordenação}}`
