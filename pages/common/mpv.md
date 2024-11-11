@@ -6,7 +6,7 @@
 
 - Play a video or audio from a URL or file:
 
-`mpv {{url|path/to/file}}'`
+`mpv {{url|path/to/file}}`
 
 - Jump backward/forward 5 seconds:
 
