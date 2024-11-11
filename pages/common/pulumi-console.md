@@ -9,7 +9,7 @@
 
 - The name of the stack to view:
 
-`pulumi console --stack`
+`pulumi console --stack {{stack}}`
 
 - Display help:
 
