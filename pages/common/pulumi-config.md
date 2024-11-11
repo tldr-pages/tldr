@@ -1,6 +1,6 @@
 # pulumi config
 
-> Manage configuration.
+> Manage the Pulumi configuration.
 > More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_config/>.
 
 - List all configuration values for a specific stack:
