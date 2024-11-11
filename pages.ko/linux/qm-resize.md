@@ -4,4 +4,4 @@
 
 - 원본 명령에 대한 문서 보기:
 
-`tldr qm-disk-resize`
+`tldr qm disk resize`
