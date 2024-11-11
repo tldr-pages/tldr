@@ -3,7 +3,7 @@
 > Una poderosa interfaz gráfica de Usuario (GUI) Git con experiencia de usuario ágil e intuitiva.
 > Más información: <https://git-cola.readthedocs.io>.
 
-- Inicia La GUI:
+- Inicia la GUI:
 
 `git cola`
 
