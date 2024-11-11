@@ -1,6 +1,7 @@
 # rm
 
 > 파일 혹은 폴더를 삭제.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/rm>.
 
 - 임의의 경로에서 파일을 제거:
 
