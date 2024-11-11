@@ -5,4 +5,4 @@
 
 - Vea la documentación para el comando original:
 
-`tldr xz --format=lzma --decompress --stdout`
+`tldr xz`

@@ -4,4 +4,4 @@
 
 - Vea la documentación para el comando original:
 
-`tldr pio debug --interface=gdb`
+`tldr pio debug`
