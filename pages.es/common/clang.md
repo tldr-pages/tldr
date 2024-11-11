@@ -22,7 +22,7 @@
 
 - Compila código fuente hacia representación intermedia (IR) LLVM:
 
-`clang {{-S|--assemble}} -emit-llvm {{ruta/al/fuente.c}} {{-o|--output}} {{ruta/a/la/salida.ll}}`
+`clang {{-S|--assemble}} -emit-llvm {{ruta/a/fuente.c}} {{-o|--output}} {{ruta/a/la/salida.ll}}`
 
 - Compila código fuente en un archivo objeto sin vincular (linking):
 
