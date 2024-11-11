@@ -30,7 +30,7 @@
 
 - Optimiza el programa compilado para velocidad de ejecución:
 
-`clang {{ruta/al/fuente.c}} -O{{1|2|3|fast}} {{-o|--output}} {{ruta/al/ejecutable_resultante}}`
+`clang {{ruta/a/fuente.c}} -O{{1|2|3|fast}} {{-o|--output}} {{ruta/al/ejecutable_resultante}}`
 
 - Muestra la versión:
 
