@@ -26,7 +26,7 @@
 
 - Compila código fuente en un archivo objeto sin vincular (linking):
 
-`clang {{-c|--compile}} {{ruta/al/fuente.c}}`
+`clang {{-c|--compile}} {{ruta/a/fuente.c}}`
 
 - Optimiza el programa compilado para velocidad de ejecución:
 
