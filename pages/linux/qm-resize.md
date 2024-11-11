@@ -1,8 +1,7 @@
 # qm resize
 
-> This command is an alias of `qm-disk-resize`.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> This command is an alias of `qm disk resize`.
 
 - View documentation for the original command:
 
-`tldr qm-disk-resize`
+`tldr qm disk resize`
