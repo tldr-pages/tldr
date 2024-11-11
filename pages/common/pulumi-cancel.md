@@ -1,6 +1,6 @@
 # pulumi cancel
 
-> Cancel a stack’s currently running update, if any.
+> Cancel a stack's currently running update, if any.
 > More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_cancel/>.
 
 - Cancel a stack’s currently running update, if any:
