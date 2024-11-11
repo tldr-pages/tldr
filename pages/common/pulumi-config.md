@@ -9,7 +9,7 @@
 
 - Use the configuration values in the specified file rather than detecting the file name:
 
-`pulumi config --config-file`
+`pulumi config --config-file {{filename}}`
 
 - Emit output as JSON:
 
@@ -25,4 +25,4 @@
 
 - The name of the stack to operate on. Defaults to the current stack:
 
-`pulumi config --stack`
+`pulumi config --stack {{stack}}`
