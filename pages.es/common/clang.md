@@ -14,7 +14,7 @@
 
 - Muestra advertencias comunes, depura símbolos en la salida, y optimiza sin afectar la depuración:
 
-`clang {{ruta/al/fuente.c}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{ruta/al/ejecutable_resultante}}`
+`clang {{ruta/a/fuente.c}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{ruta/al/ejecutable_resultante}}`
 
 - Incluye bibliotecas de una ruta diferente:
 
