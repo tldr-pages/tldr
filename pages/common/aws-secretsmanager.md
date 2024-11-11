@@ -21,16 +21,16 @@
 
 - View details of a secret except for secret text:
 
-`aws secretsmanager describe-secret --secret-id {{name_or_arn}}`
+`aws secretsmanager describe-secret --secret-id {{name|arn}}`
 
 - Retrieve the value of a secret (to get the latest version of the secret omit `--version-stage`):
 
-`aws secretsmanager get-secret-value --secret-id {{name_or_arn}} --version-stage {{version_of_secret}}`
+`aws secretsmanager get-secret-value --secret-id {{name|arn}} --version-stage {{version_of_secret}}`
 
 - Rotate the secret immediately using a Lambda function:
 
-`aws secretsmanager rotate-secret --secret-id {{name_or_arn}} --rotation-lambda-arn {{arn_of_lambda_function}}`
+`aws secretsmanager rotate-secret --secret-id {{name|arn}} --rotation-lambda-arn {{arn_of_lambda_function}}`
 
 - Rotate the secret automatically every 30 days using a Lambda function:
 
-`aws secretsmanager rotate-secret --secret-id {{name_or_arn}} --rotation-lambda-arn {{arn_of_lambda_function}} --rotation-rules AutomaticallyAfterDays={{30}}`
+`aws secretsmanager rotate-secret --secret-id {{name|arn}} --rotation-lambda-arn {{arn_of_lambda_function}} --rotation-rules AutomaticallyAfterDays={{30}}`
