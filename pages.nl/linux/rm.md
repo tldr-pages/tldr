@@ -2,6 +2,7 @@
 
 > Verwijder bestanden of directories.
 > Zie ook: `rmdir`.
+> More information: <https://www.gnu.org/software/coreutils/rm>.
 
 - Verwijder specifieke bestanden:
 
