@@ -3,7 +3,7 @@
 > Copia eficientemente una imagen remota de origen a destino conservando el valor de resumen.
 > Más información: <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_copy.md>.
 
-- Copia una imagen del origen al destino:
+- Copia una imagen de origen a destino:
 
 `crane copy {{origen}} {{destino}}`
 
