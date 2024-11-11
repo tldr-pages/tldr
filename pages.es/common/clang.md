@@ -10,7 +10,7 @@
 
 - Activa la salida de todos los errores y advertencias:
 
-`clang {{ruta/al/fuente.c}} -Wall {{-o|--output}} {{ejecutable_resultante}}`
+`clang {{ruta/a/fuente.c}} -Wall {{-o|--output}} {{ejecutable_resultante}}`
 
 - Muestra advertencias comunes, depura símbolos en la salida, y optimiza sin afectar la depuración:
 
