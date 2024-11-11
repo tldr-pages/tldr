@@ -1,6 +1,7 @@
 # sl
 
 > Dampflokomotive welche durch das Terminal fährt.
+> Weitere Informationen: <https://github.com/mtoyoda/sl>.
 
 - Lasse eine Dampflokomotive durch dein Terminal fahren:
 
