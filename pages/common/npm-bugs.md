@@ -16,10 +16,6 @@
 
 `npm config set browser {{browser_name}}`
 
-- Suppress browser behavior by setting it to false, which will print URLs to the terminal instead of opening a browser:
+- Control URL opening: set `browser` to `true` for the system URL opener, or `false` to print URLs in the terminal:
 
-`npm config set browser false`
-
-- Use the default system URL opener by setting it to true:
-
-`npm config set browser true`
+`npm config set browser {{true|false}}`
