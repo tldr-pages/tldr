@@ -18,7 +18,7 @@
 
 - Incluye bibliotecas de una ruta diferente:
 
-`clang {{ruta/al/fuente.c}} {{-o|--output}} {{ruta/al/ejecutable_resultante}} -I{{ruta/al/encabezado}} -L{{ruta/a/la/biblioteca}} -l{{nombre_biblioteca}}`
+`clang {{ruta/a/fuente.c}} {{-o|--output}} {{ruta/al/ejecutable_resultante}} -I{{ruta/al/encabezado}} -L{{ruta/a/la/biblioteca}} -l{{nombre_biblioteca}}`
 
 - Compila código fuente hacia representación intermedia (IR) LLVM:
 
