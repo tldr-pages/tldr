@@ -4,7 +4,7 @@
 > Alias: `npm list`.
 > More information: <https://docs.npmjs.com/cli/commands/npm-ls>.
 
-- Print to stdout all versions of direct dependencies:
+- Print all versions of direct dependencies to `stdout`:
 
 `npm ls`
 
