@@ -6,7 +6,7 @@
 
 - Compila archivos de múltiples fuentes en un ejecutable:
 
-`clang {{ruta/al/fuente1.c ruta/al/fuente2.c ...}} {{-o|--output}} {{ruta/al/ejecutable_resultante}}`
+`clang {{ruta/a/fuente1.c ruta/a/fuente2.c ...}} {{-o|--output}} {{ruta/al/ejecutable_resultante}}`
 
 - Activa la salida de todos los errores y advertencias:
 
