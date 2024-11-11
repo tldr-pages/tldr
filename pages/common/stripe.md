@@ -1,7 +1,7 @@
 # stripe
 
 > Interact with a Stripe account.
-> More information: <https://github.com/stripe/stripe-cli>.
+> More information: <https://docs.stripe.com/stripe-cli>.
 
 - Follow the logs of activity on the account:
 

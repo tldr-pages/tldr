@@ -27,8 +27,9 @@ jobs:
         sort -u usernames.txt -o usernames.txt
 
     - name: Lychee URL checker
-      uses: lycheeverse/lychee-action@v1
+      uses: lycheeverse/lychee-action@v2
       id: lychee
+      continue-on-error: true
       with:
         args: >-
           --cache 

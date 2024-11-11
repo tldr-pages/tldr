@@ -1,7 +1,6 @@
 # lzcat
 
-> Dit commando is een alias van `xz`.
-> Meer informatie: <https://manned.org/lzcat>.
+> Dit commando is een alias van `xz --format=lzma --decompress --stdout`.
 
 - Bekijk de documentatie van het originele commando:
 

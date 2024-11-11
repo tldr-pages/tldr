@@ -19,6 +19,27 @@
 # NOTE: must be run from the repository root directory to correctly work!
 # NOTE: no `set -e`, failure of this script should not invalidate the build.
 
+VERBOSE=false
+
+while getopts ":v" opt; do
+  case $opt in
+  v)
+    VERBOSE=true
+    ;;
+  *)
+    echo "This argument is not valid for this script."
+    ;;
+  esac
+done
+
+if [[ $VERBOSE == true ]]; then
+  DEBUG_LOG="debug.log"
+  rm -f "$DEBUG_LOG" && touch "$DEBUG_LOG"
+  exec {BASH_XTRACEFD}> "$DEBUG_LOG"
+  export BASH_XTRACEFD
+  set -x
+fi
+
 # Check for duplicated pages.
 function check_duplicates {
   local page="$1" # page path in the format 'pages<.language_code>/platform/pagename.md'

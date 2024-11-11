@@ -1,7 +1,8 @@
 # naabu
 
-> Un rápido escáner de puertos escrito en Go con un enfoque en la fiabilidad y la simplicidad.
-> Nota: Algunas características solo se activan cuando `naabu` se ejecuta con privilegios del superusuario, como el escaneo SYN.
+> Un escáner de puertos rápido, escrito en Go, enfocado en fiabilidad y simplicidad.
+> Vea también: `nmap`.
+> Nota: Algunas características sólo se activan cuando `naabu` se ejecuta con privilegios de superusuario, como el escaneo SYN.
 > Más información: <https://github.com/projectdiscovery/naabu>.
 
 - Ejecuta un escaneo SYN contra los puertos predeterminados (top 100) del host remoto:
@@ -27,3 +28,7 @@
 - Muestra el tipo de CDN que utiliza el host remoto, si existe:
 
 `naabu -p 80,443 -cdn -host {{host}}`
+
+- Ejecuta `nmap` desde `naabu` para contar con funcionalidades adicionales (`nmap` debe estar instalado):
+
+`sudo naabu -v -host {{host}} -nmap-cli 'nmap {{-v -T5 -sC}}'`

@@ -1,32 +1,36 @@
 # http
 
-> HTTPie: HTTP client, ma być łatwiejszy w użyciu niż cURL.
-> Więcej informacji: <https://httpie.org>.
+> HTTPie: klient HTTP przeznaczony do testowania, debugowania i ogólnej interakcji z API i serwerami HTTP.
+> Więcej informacji: <https://httpie.io/docs/cli/usage>.
 
-- Pobierz adres URL do pliku:
+- Wykonaj proste żądanie GET (wyświetla nagłówki odpowiedzi i zawartość):
 
-`http --download {{przyklad.org}}`
+`http {{https://example.com}}`
 
-- Wyślij dane zakodowane w formularzu:
+- Wyświetl podane części treści (`H`: nagłówki żądania, `B`: treść żądania, `h`: nagłówki odpowiedzi, `b`: treść odpowiedzi, `m`: metadane odpowiedzi):
 
-`http --form {{przyklad.org}} {{nazwa='bob'}} {{zdjecie_profilowe@'bob.png'}}`
+`http --print {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
 
-- Wyślij obiekt JSON:
+- Określ metodę HTTP używaną podczas wysyłania żądania i użyj serwera proxy do przechwycenia żądania:
 
-`http {{przyklad.org}} {{name='bob'}}`
+`http {{GET|POST|HEAD|PUT|PATCH|DELETE|...}} --proxy {{http|https}}:{{http://localhost:8080|socks5://localhost:9050|...}} {{https://example.com}}`
 
-- Określ metodę HTTP:
+- Podążaj za wszystkimi przekierowaniami `3xx` i określ dodatkowe nagłówki do żądania:
 
-`http {{HEAD}} {{przyklad.org}}`
+`http {{-F|--follow}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
 
-- Dołącz dodatkowy nagłówek:
+- Uwierzytelnij się na serwerze używając różnych metod uwierzytelniania:
 
-`http {{przyklad.org}} {{X-MyHeader:123}}`
+`http --auth {{nazwa_użytkownika:hasło|token}} --auth-type {{basic|digest|bearer}} {{GET|POST|...}} {{https://example.com/auth}}`
 
-- Podaj nazwę użytkownika i hasło do uwierzytelnienia serwera:
+- Skonstruuj żądanie, ale go nie wysyłaj:
 
-`http --auth {{nazwauzytkownika:haslo}} {{przyklad.org}}`
+`http --offline {{GET|DELETE|...}} {{https://example.com}}`
 
-- Określ surowe ciało żądania za pośrednictwem `stdin`:
+- Użyj nazwanych sesji do trwałych niestandardowych nagłówków, danych uwierzytelniających i ciasteczek:
 
-`cat {{dane.txt}} | http PUT {{przyklad.org}}`
+`http --session {{nazwa_sesji|ścieżka/do/sesji.json}} {{--auth nazwa_użytkownika:hasło https://example.com/auth API-KEY:xxx}}`
+
+- Prześlij plik do formularza (poniższy przykład zakłada, że polem formularza jest `<input type="file" name="cv" />`):
+
+`http --form {{POST}} {{https://example.com/upload}} {{cv@ścieżka/do/pliku}}`
