@@ -1,6 +1,7 @@
 # sl
 
 > Locomotiva a vapor passando pelo seu terminal.
+> Mais informações: <https://github.com/mtoyoda/sl>.
 
 - Faz uma locomotiva a vapor passar pelo seu terminal:
 
