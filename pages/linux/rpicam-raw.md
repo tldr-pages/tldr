@@ -5,7 +5,7 @@
 
 - Capture a video for a specific amount of seconds:
 
-`rpicam-raw -t {{2000}}} -o {{path/to/file.raw}}`
+`rpicam-raw -t {{2000}} -o {{path/to/file.raw}}`
 
 - Change video dimensions and framerate:
 
