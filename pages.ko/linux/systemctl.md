@@ -7,30 +7,30 @@
 
 `systemctl status`
 
-- 실패한 장치를 나열:
+- 실패한 유닛 나열:
 
 `systemctl --failed`
 
-- 서비스 시작/중지/다시 시작/다시 로드:
+- 서비스 시작/중지/재시작/재로드/상태 표시:
 
-`systemctl {{start|stop|restart|reload}} {{장치}}`
+`systemctl {{start|stop|restart|reload|status}} {{유닛}}`
 
-- 장치 상태 표시:
+- 부팅 시 시작할 유닛 활성화/비활성화:
 
-`systemctl status {{장치}}`
+`systemctl {{enable|disable}} {{유닛}}`
 
-- 부팅 시 시작될 장치를 활성화/비활성화:
-
-`systemctl {{enable|disable}} {{장치}}`
-
-- 자동 및 수동 활성화를 방지하기 위해 장치 마스크/마스크 해제:
-
-`systemctl {{mask|unmask}} {{장치}}`
-
-- systemd를 다시 로드하고, 새 장치 또는 변경된 장치를 검색:
+- systemd를 재로드하고 새 유닛 또는 변경된 유닛 검색:
 
 `systemctl daemon-reload`
 
-- 장치가 활성화되어 있는지 확인:
+- 유닛이 활성/활성화됨/실패했는지 확인:
 
-`systemctl is-enabled {{장치}}`
+`systemctl {{is-active|is-enabled|is-failed}} {{유닛}}`
+
+- 실행 중이거나 실패한 상태로 필터링하여 모든 서비스/소켓/자동 마운트 유닛 나열:
+
+`systemctl list-units --type={{service|socket|automount}} --state={{failed|running}}`
+
+- 유닛 파일의 내용 및 절대 경로 표시:
+
+`systemctl cat {{유닛}}`

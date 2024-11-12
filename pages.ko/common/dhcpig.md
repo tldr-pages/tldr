@@ -8,7 +8,7 @@
 
 `sudo ./pig.py {{eth0}}`
 
-- eth1 인터페이스를 사용하여 IPv6를 고갈 :
+- eth1 인터페이스를 사용하여 IPv6를 고갈:
 
 `sudo ./pig.py -6 {{eth1}}`
 

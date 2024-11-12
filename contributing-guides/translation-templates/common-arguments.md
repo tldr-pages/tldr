@@ -16,7 +16,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | cs    | cesta/k/souboru       | cesta/k/adresari         | cesta/k/souboru_ci_adresari          | balíček       | jmeno_uzivatele    |
 | da    | sti/til/fil           | sti/til/mappe            | sti/til/fil_eller_mappe              | pakke         | brugernavn         |
 | de    | pfad/zu/datei         | pfad/zu/verzeichnis      | pfad/zu/datei_oder_verzeichnis       | paket         | benutzername       |
-| es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio         | paquete       | nombre_de_usuario  |
+| es    | ruta/al/archivo       | ruta/al/directorio       | ruta/al/archivo_o_directorio         | paquete       | usuario            |
 | fi    | polku/tiedostoon      | polku/hakemistoon        | polku/tiedostoon_vai_hakemistoon     | paketti       | tunnus             |
 | fr    | chemin/vers/fichier   | chemin/vers/dossier      | chemin/vers/fichier_ou_dossier       | paquet        | nom_d_utilisateur  |
 | hi    | फ़ाइल/का/पथ           | निर्देशिका/का/पथ         | फ़ाइल_या_निर्देशिका/का/पथ            | पैकेज         | उपयोगकर्ता_नाम     |
