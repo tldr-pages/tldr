@@ -35,3 +35,7 @@
 - Resolve a hostname to a custom IP address, with [v]erbose output (similar to editing the `/etc/hosts` file for custom DNS resolution):
 
 `curl --verbose --resolve {{example.com}}:{{80}}:{{127.0.0.1}} {{http://example.com}}`
+
+- Forcing curl to trust on a server’s certificate that is signed by a custom or private Certificate Authority (CA):
+
+`curl --cacert {{location where the custom or private certificate is stored}} {{http://example.com}}`
