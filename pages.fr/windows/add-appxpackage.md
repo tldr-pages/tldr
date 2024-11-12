@@ -15,6 +15,6 @@
 
 `Add-AppxPackage -AppInstallerFile {{chemin\vers\application.appinstaller}}`
 
-- Ajouter un paquet non signé:
+- Ajoute un paquet non signé :
 
 `Add-AppxPackage -Path {{chemin\vers\paquet.msix}} -DependencyPath {{chemin\vers\dependences.msix}} -AllowUnsigned`
