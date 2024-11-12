@@ -3,6 +3,6 @@
 > Este comando es un alias de `chromium`.
 > Más información: <https://vivaldi.com>.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
 `tldr chromium`
