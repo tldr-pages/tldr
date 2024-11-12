@@ -1,7 +1,7 @@
 # iptables
 
 > Configura tablas, cadenas y reglas del firewall IPv4 del kernel Linux.
-> Utilice 'ip6tables' para establecer reglas para el tráfico IPv6. Vea también: `iptables-save`, `iptables-restore`.
+> Utilice `ip6tables` para establecer reglas para el tráfico IPv6. Vea también: `iptables-save`, `iptables-restore`.
 > Más información: <https://manned.org/iptables>.
 
 - Muestra cadenas, reglas, contadores de paquetes/bytes y números de línea para la tabla de filtros (filter table):
