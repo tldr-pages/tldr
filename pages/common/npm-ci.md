@@ -8,7 +8,7 @@
 
 `npm ci`
 
-- Install project dependencies but skip the specified packages:
+- Install project dependencies but skip the specified dependency type:
 
 `npm ci --omit={{dev|optional|peer}}`
 
