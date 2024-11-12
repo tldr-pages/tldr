@@ -7,7 +7,7 @@
 
 `dig +short {{example.com}}`
 
-- Obtién una respuesta detallada para un dominio dado (registros A):
+- Muestra una respuesta detallada para un dominio dado (registros A):
 
 `dig +noall +answer {{example.com}}`
 
