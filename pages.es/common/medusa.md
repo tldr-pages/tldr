@@ -17,7 +17,7 @@
 
 - Ejecuta un intento de inicio de sesión contra un servidor HTTP utilizando el nombre de usuario, la contraseña y el agente de usuario especificados:
 
-`medusa -M HTTP -h host -u {{usuario}} -p {{contraseña}} -m USER-AGENT:"{{Agente}}"`
+`medusa -M HTTP -h host -u {{usuario}} -p {{contraseña}} -m USER-AGENT:"{{agente}}"`
 
 - Ejecuta una fuerza bruta contra un servidor MySQL utilizando un fichero que contenga nombres de usuario y un hash:
 
