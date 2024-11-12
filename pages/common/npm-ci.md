@@ -12,6 +12,6 @@
 
 `npm ci --omit={{dev|optional|peer}}`
 
-- Install project dependencies without running any pre- or post-scripts defined in `package.json`:
+- Install project dependencies without running any pre-/post-scripts defined in `package.json`:
 
 `npm ci --ignore-scripts`
