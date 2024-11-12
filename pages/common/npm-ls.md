@@ -7,7 +7,7 @@
 
 `npm ls`
 
-- Print all installed packages including peer dependecies:
+- Print all installed packages including peer dependencies:
 
 `npm ls --all`
 
