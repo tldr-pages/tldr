@@ -10,7 +10,7 @@
 
 - Execute two actions (ping and traceroute) on two different targets:
 
-`scamper -I "{{ping}} {{192.0.2.1}}" -I "{{trace}} {{192.0.2.2}}`
+`scamper -I "{{ping}} {{192.0.2.1}}" -I "{{trace}} {{192.0.2.2}}"`
 
 - Ping several hosts with UDP, use a specific port number for the first ping and increase it for each subsequent ping:
 

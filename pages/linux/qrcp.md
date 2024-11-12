@@ -21,7 +21,7 @@
 
 - Use a specific network [i]nterface:
 
-`qrcp {{send|receive}} --interface interface`
+`qrcp {{send|receive}} --interface {{interface}}`
 
 - Keep the server alive:
 
