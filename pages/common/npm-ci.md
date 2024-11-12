@@ -1,6 +1,6 @@
 # npm ci
 
-> Clean install of `npm` project dependencies to be used in automated environments.
+> Clean install of `npm` project dependencies for automated environments.
 > Installs packages based on `package-lock.json` or `npm-shrinkwrap.json`.
 > More information: <https://docs.npmjs.com/cli/commands/npm-ci>.
 
