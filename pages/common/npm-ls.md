@@ -1,6 +1,6 @@
 # npm ls
 
-> Print installed packages to stdout.
+> Print installed packages to `stdout`.
 > More information: <https://docs.npmjs.com/cli/commands/npm-ls>.
 
 - Print all versions of direct dependencies to `stdout`:
