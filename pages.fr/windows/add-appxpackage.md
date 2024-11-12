@@ -11,7 +11,7 @@
 
 `Add-AppxPackage -Path {{chemin\vers\paquet.msix}} -DependencyPath {{chemin\vers\dependences.msix}}`
 
-- Installer une application en utilisant le fichier d'installation de l'application:
+- Installe une application en utilisant le fichier d'installation de l'application :
 
 `Add-AppxPackage -AppInstallerFile {{chemin\vers\application.appinstaller}}`
 
