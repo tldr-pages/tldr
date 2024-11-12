@@ -7,7 +7,7 @@
 
 `Add-AppxPackage -Path {{chemin\vers\paquet.msix}}`
 
-- Ajouter un paquet d'application avec ses dependences:
+- Ajoute un paquet d'application avec ses dependences :
 
 `Add-AppxPackage -Path {{chemin\vers\paquet.msix}} -DependencyPath {{chemin\vers\dependences.msix}}`
 
