@@ -4,11 +4,11 @@
 > See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 
-- Remove a package and its dependencies:
+- [R]emove a package and its dependencies recursively ([s]):
 
 `sudo pacman -Rs {{package}}`
 
-- Remove a package and both its dependencies and configuration files:
+- Remove a package and both its dependencies and configuration files ([n]):
 
 `sudo pacman -Rs -n {{package}}`
 
@@ -24,10 +24,10 @@
 
 `sudo pacman -Rc {{package}}`
 
-- List packages that would be affected (does not remove any packages):
+- List and [p]rint packages that would be affected (does not remove any packages):
 
 `pacman -Rp {{package}}`
 
-- Display help:
+- Display [h]elp:
 
 `pacman -Rh`
