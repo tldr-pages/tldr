@@ -19,6 +19,6 @@
 
 `npm ls --parseable`
 
-- Print dependencies in `JSON` format:
+- Print dependencies in JSON format:
 
 `npm ls --json`
