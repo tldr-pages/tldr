@@ -1,6 +1,6 @@
 # ping
 
-> Envía paquetes ICMP ECHO_REQUEST (pings) a hosts de la red.
+> Envía paquetes ICMP ECHO_REQUEST (pings) a equipos (hosts) de la red.
 > Más información: <https://manned.org/ping>.
 
 - Envía pings a un host:
@@ -26,3 +26,7 @@
 - Muestra también un mensaje si no se recibió respuesta:
 
 `ping -O {{host}}`
+
+- Envía una cantidad específica de pings (`-c`), con un tiempo límite (`-W`) para cada respuesta, y un tiempo máximo total (`-w`) para la ejecución del ping completo:
+
+`ping -c {{cantidad}} -W {{segundos}} -w {{segundos}} {{host}}`

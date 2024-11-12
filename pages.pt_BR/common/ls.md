@@ -25,7 +25,7 @@
 
 - Lista em formato longo ordenados por tamanhos (decrescente):
 
-`ls -lS`
+`ls -lSR`
 
 - Lista todos os arquivos em formato longo, ordenados por data de modificação (mais antigo primeiro):
 

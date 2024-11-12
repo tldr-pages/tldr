@@ -19,3 +19,7 @@
 - Act[u]aliza los paquetes del repositorio local:
 
 `aur sync --upgrades`
+
+- Instala un paquete sin ver los cambios en Vim y sin confirmar la instalación de dependencias:
+
+`aur sync --noview --noconfirm {{paquete}}`

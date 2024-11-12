@@ -9,7 +9,7 @@
 
 - 编译多个 `.java` 文件：
 
-`javac {{文件名1.java}} {{文件名2.java}} {{文件名3.java}}`
+`javac {{文件名1.java 文件名2.java 文件名3.java ...}}`
 
 - 编译当前目录内所有 `.java` 文件：
 

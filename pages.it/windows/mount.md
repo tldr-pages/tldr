@@ -17,7 +17,7 @@
 
 - Monta una share e riprova fino a 10 volte se fallisce:
 
-`mount -o retry={{numero_di_ripetizioni}} \\{{nome_del_computer}}\{{nome_della_share}} {{Z:}}`
+`mount -o retry=10 \\{{nome_del_computer}}\{{nome_della_share}} {{Z:}}`
 
 - Monta una share forzando la distinzione tra maiuscole e minuscole:
 

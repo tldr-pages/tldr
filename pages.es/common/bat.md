@@ -4,26 +4,34 @@
 > Un clon de `cat` con resaltado de sintaxis e integración con Git.
 > Más información: <https://github.com/sharkdp/bat>.
 
-- Imprime los contenidos de un archivo a la salida estándar:
+- Imprime bellamente (pretty print) el contenido de uno o más archivos en `stdout`:
 
-`bat {{archivo}}`
+`bat {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
-- Concatena varios archivos creando un nuevo archivo:
+- Concatena varios archivos en el archivo destino:
 
-`bat {{archivo1}} {{archivo2}} > {{archivo_final}}`
+`bat {{ruta/al/archivo1 ruta/al/archivo2 ...}} > {{ruta/al/archivo_destino}}`
 
-- Añade múltiples archivos al final de un archivo objetivo:
+- Elimina decoraciones y desactiva la paginación (`--style plain` puede sustituirse por `-p`, o ambas opciones por `-pp`):
 
-`bat {{archivo1}} {{archivo2}} >> {{archivo_final}}`
+`bat --style plain --pager never {{ruta/al/archivo}}`
 
-- Numera las líneas del archivo:
+- Resalta una línea específica o un rango de líneas con un color de fondo diferente:
 
-`bat --number {{archivo}}`
+`bat {{-H|--highlight-line}} {{10|5:10|:10|10:|10:+5}} {{ruta/al/archivo}}`
 
-- Muestra un archivo JSON con resaltado de sintaxis:
+- Muestra caracteres no imprimibles como espacio, tabulador o nueva línea:
 
-`bat --language json {{archivo.json}}`
+`bat {{-A|--show-all}} {{ruta/al/archivo}}`
 
-- Muestra todos los lenguajes permitidos:
+- Elimina todos los adornos excepto los números de línea en la salida:
 
-`bat --list-languages`
+`bat {{-n|--number}} {{ruta/al/archivo}}`
+
+- Resalta sintácticamente un archivo JSON estableciendo explícitamente el lenguaje:
+
+`bat {{-l|--language}} json {{ruta/al/archivo.json}}`
+
+- Muestra todos los lenguajes soportados:
+
+`bat {{-L|--list-languages}}`

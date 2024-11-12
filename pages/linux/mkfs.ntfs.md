@@ -1,6 +1,6 @@
 # mkfs.ntfs
 
-> Creates a NTFS filesystem inside a partition.
+> Create a NTFS filesystem inside a partition.
 > More information: <https://manned.org/mkfs.ntfs>.
 
 - Create a NTFS filesystem inside partition 1 on device b (`sdb1`):

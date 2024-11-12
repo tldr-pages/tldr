@@ -1,7 +1,7 @@
 # poweroff
 
 > Apaga la màquina.
-> Més informació: <https://www.man7.org/linux/man-pages/man8/poweroff.8.html>.
+> Més informació: <https://www.manned.org/poweroff>.
 
 - Apaga la màquina:
 
@@ -17,7 +17,7 @@
 
 - Apaga el sistema sense contactar l'administrador del sistema:
 
-`poweroff --force --force`
+`poweroff --force`
 
 - Escriu l'entrada de wtpm shutdown sense apagar l'ordinador:
 

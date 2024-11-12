@@ -13,7 +13,7 @@
 
 - Abre un archivo de texto con una codificación específica:
 
-`gedit --encoding={{UTF-8}} {{ruta/al/archivo}}`
+`gedit --encoding {{UTF-8}} {{ruta/al/archivo}}`
 
 - Muestra una lista de las codificaciones disponibles:
 

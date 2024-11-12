@@ -1,7 +1,7 @@
 # abduco
 
 > Gestore di sessioni di terminale.
-> Maggiori informazioni: <http://www.brain-dump.org/projects/abduco/>.
+> Maggiori informazioni: <https://www.brain-dump.org/projects/abduco/>.
 
 - List sessioni:
 

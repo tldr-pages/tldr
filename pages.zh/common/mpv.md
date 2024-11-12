@@ -29,4 +29,4 @@
 
 - 播放摄像头或其他设备的输出：
 
-`mpv /dev/{{video0}}`
+`mpv {{/dev/video0}}`

@@ -18,11 +18,11 @@
 
 - Speichere und schließe die aktuelle Datei:
 
-`:wq<Enter>`
+`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
 
 - Mache die letzte Aktion rückgängig:
 
-`u`
+`<Esc>u`
 
 - Suche nach einem Muster in der Datei (mit `n`/`N` zum nächsten/vorherigen Treffer gehen):
 

@@ -2,7 +2,7 @@
 
 > XBPS hulpprogramma voor het verwijderen van pakketten.
 > Bekijk ook: `xbps`.
-> Meer informatie: <https://man.voidlinux.org/xbps-remove.1>.
+> Meer informatie: <https://manned.org/xbps-remove.1>.
 
 - Verwijder een pakket:
 

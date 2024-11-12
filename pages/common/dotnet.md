@@ -1,7 +1,7 @@
 # dotnet
 
 > Cross platform .NET command-line tools for .NET Core.
-> Some subcommands such as `dotnet build` have their own usage documentation.
+> Some subcommands such as `build` have their own usage documentation.
 > More information: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Initialize a new .NET project:

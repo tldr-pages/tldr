@@ -9,8 +9,8 @@
 
 - Uruchom konkretną usługę:
 
-`cmd {{alarm}}`
+`cmd {{usługa}}`
 
-- Uruchom usługę z argumentami:
+- Uruchom usługę z określonymi argumentami:
 
-`cmd {{wibrator}} {{wibruj 300}}`
+`cmd {{usługa}} {{argument1 argument2 ...}}`

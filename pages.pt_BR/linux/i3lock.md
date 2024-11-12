@@ -1,24 +1,32 @@
 # i3lock
 
-> Bloqueador de tela simples para o i3wm.
+> Bloqueador de tela simples para o gerenciador de janelas i3.
 > Mais informações: <https://i3wm.org/i3lock>.
+
+- Bloqueia a tela com uma tela branca:
+
+`i3lock`
 
 - Bloqueia a tela com uma cor de fundo (formato rrggbb):
 
-`i3lock -c {{0000ff}}`
+`i3lock --color {{0000ff}}`
 
 - Bloqueia a tela com uma imagem PNG:
 
-`i3lock -i {{local/da/imagem.png}}`
+`i3lock --image {{caminho/para/imagem.png}}`
 
-- Desabilita o indicador de desbloqueio (remove a resposta ao apertar teclas):
+- Bloqueia a tela e disabilita o indicador de desbloqueio (remove as resposta do sistema ao pressionar alguma tecla):
 
-`i3lock -u`
+`i3lock --no-unlock-indicator`
 
-- Exibe o ponteiro do mouse ao invés de ocultá-lo ('default' para o ponteiro padrão, 'win' para um ponteiro MS Windows):
+- Bloqueia a tela e não esconde o ponteiro do mouse:
 
-`i3lock -p {{default|win}}`
+`i3lock --pointer {{default}}`
 
-- Bloqueia a tela com uma imagem PNG exibida em múltiplos monitores, com o ponteiro do mouse habilitado:
+- Bloqueia a tela com uma imagem PNG sendo mostrada em todos os monitores:
 
-`i3lock -i {{local/da/imagem.png}} -p {{default|win}} -t`
+`i3lock --image {{path/to/imagem.png}} --tiling`
+
+- Bloqueia a tela e mostra o número de tentativas de login que falharam:
+
+`i3lock --show-failed-attempts`

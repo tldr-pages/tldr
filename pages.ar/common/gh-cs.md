@@ -1,7 +1,6 @@
-# gh-cs
+# gh cs
 
-> هذا الأمر هو اسم مستعار لـ `gh-codespace`.
-> لمزيد من التفاصيل: <https://cli.github.com/manual/gh_codespace>.
+> هذا الأمر هو اسم مستعار لـ  `gh codespace`.
 
 - إعرض التوثيقات للأمر الأصلي:
 

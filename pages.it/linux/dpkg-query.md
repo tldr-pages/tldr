@@ -1,7 +1,7 @@
 # dpkg-query
 
 > Uno strumento che mostra informazioni sui pacchetti installati.
-> Maggiori informazioni: <https://manpages.debian.org/latest/dpkg/dpkg-query.1.html>.
+> Maggiori informazioni: <https://manned.org/dpkg-query.1>.
 
 - Elenca tutti i pacchetti installati:
 

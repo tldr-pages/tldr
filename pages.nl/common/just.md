@@ -2,7 +2,7 @@
 
 > `just` kan naar meerdere commando's met dezelfde naam verwijzen.
 
-- Bekijk de documentatie voor het commando:
+- Bekijk de documentatie van het commando:
 
 `tldr just.1`
 

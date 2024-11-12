@@ -10,7 +10,7 @@
 
 - Show a given author's commits from the last 10 days and whether they are GPG signed:
 
-`git standup -a {[name|email}} -d {{10}} -g`
+`git standup -a {{name|email}} -d {{10}} -g`
 
 - Show all the commits from all contributors for the last 10 days:
 

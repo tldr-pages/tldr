@@ -1,6 +1,7 @@
 # vifm
 
-> VI File Manager is a command-line file manager.
+> VI File Manager is a TUI file manager.
+> See also: `clifm`, `vifm`, `mc`, `caja`.
 > More information: <https://github.com/vifm/vifm>.
 
 - Open the current directory:

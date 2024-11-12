@@ -25,11 +25,11 @@
 
 - Renomeia uma branch (não precisa fazer checkout para isso):
 
-`git branch -m {{antigo_nome_da_branch}} {{novo_nome_da_branch}}`
+`git branch {{-m|--move}} {{antigo_nome_da_branch}} {{novo_nome_da_branch}}`
 
 - Exclui a branch local (não precisa fazer checkout para isso):
 
-`git branch -d {{nome_da_branch}}`
+`git branch {{-d|--delete}} {{nome_da_branch}}`
 
 - Exclui uma branch remota:
 

@@ -9,8 +9,8 @@
 
 - Calcola la directory genitore di più percorsi:
 
-`dirname {{percorso/del/file_a}} {{percorso/della/directory_b}}`
+`dirname {{percorso/del/file_or_directory1 percorso/del/file_or_directory2 ...}}`
 
-- Delimita l'output con caratteri NUL invece di newline (utile in combinazione con `xargs`):
+- Delimita l'output utilizzando caratteri NUL invece di una nuova linea (utile in combinazione con `xargs`):
 
-`dirname --zero {{percorso/della/directory_a}} {{percorso/del/file_b}}`
+`dirname --zero {{percorso/del/file_or_directory1 percorso/del/file_or_directory2 ...}}`

@@ -2,7 +2,7 @@
 
 > Beheer verbindingen met NetworkManager.
 > Dit subcommando kan ook aangeroepen worden met `nmcli c`.
-> Meer informatie: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Toon alle NetworkManager connecties (toont naam, UUID, type en apparaat):
 

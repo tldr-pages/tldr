@@ -1,6 +1,6 @@
 # gh api
 
-> Makes authenticated HTTP requests to the GitHub API and prints the response.
+> Make authenticated HTTP requests to the GitHub API and print the response.
 > More information: <https://cli.github.com/manual/gh_api>.
 
 - Display the releases for the current repository in JSON format:

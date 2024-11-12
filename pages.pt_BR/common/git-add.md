@@ -9,24 +9,28 @@
 
 - Adiciona todos arquivos (rastreados ou não):
 
-`git add -A`
+`git add {{-A|--all}}`
+
+- Adiciona todos arquivos na pasta atual:
+
+`git add .`
 
 - Adiciona apenas arquivos rastreados:
 
-`git add -u`
+`git add {{-u|--update}}`
 
 - Adiciona arquivos ignorados:
 
-`git add -f`
+`git add {{-f|--force}}`
 
 - Interativamente adiciona partes dos arquivo:
 
-`git add -p`
+`git add {{-p|--patch}}`
 
 - Interativamente adiciona partes de um dado arquivo:
 
-`git add -p {{caminho/para/arquivo}}`
+`git add {{-p|--patch}} {{caminho/para/arquivo}}`
 
 - Interativamente adiciona arquivos ou partes modificadas:
 
-`git add -i`
+`git add {{-i|--interactive}}`

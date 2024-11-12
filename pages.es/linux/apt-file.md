@@ -1,7 +1,7 @@
 # apt-file
 
-> Busca archivos en paquetes APT, incluyendo los que aún no fueron instalados.
-> Más información: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
+> Busca archivos en paquetes `apt`, incluyendo los que aún no han sido instalados.
+> Más información: <https://manned.org/apt-file.1>.
 
 - Actualiza los metadatos de la base de datos:
 
@@ -9,8 +9,12 @@
 
 - Busca paquetes que contengan el archivo o ruta especificada:
 
-`apt-file search {{ruta/al/archivo}}`
+`apt-file {{search|find}} {{ruta/al/archivo}}`
 
 - Muestra el contenido del paquete especificado:
 
-`apt-file list {{nombre_paquete}}`
+`apt-file {{show|list}} {{nombre_paquete}}`
+
+- Busca paquetes que coincidan con la `expresión_regular`:
+
+`apt-file {{search|find}} --regexp {{expresión_regular}}`

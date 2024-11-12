@@ -1,7 +1,7 @@
 # xml unescape
 
 > Unescape special XML characters, e.g. `&lt;a1&gt;` → `<a1>`.
-> More information: <http://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Unescape special XML characters from a string:
 

@@ -1,8 +1,8 @@
 # virsh
 
 > Gerenciar domínios de convidados do virsh. (NOTA: 'guest_id' pode ser o ID, nome ou UUID do convidado).
-> Alguns subcomandos, como `virsh list`, têm sua própria documentação de uso.
-> Mais informações: <https://libvirt.org/virshcmdref.html>.
+> Alguns subcomandos, como `list`, têm sua própria documentação de uso.
+> Mais informações: <https://libvirt.org/manpages/virsh.html>.
 
 - Conecta a uma sessão do hipervisor:
 

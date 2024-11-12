@@ -1,7 +1,7 @@
 # man
 
 > Formata e exibe páginas de manual.
-> Mais informações: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
+> Mais informações: <https://manned.org/man>.
 
 - Exibe a página de manual de um comando:
 

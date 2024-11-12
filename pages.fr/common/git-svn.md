@@ -9,7 +9,7 @@
 
 - Cloner un dépôt SVN à partir d'une révision donnée :
 
-`git svn clone -r{{1234}}:HEAD {{https://svn.example.net/subversion/repo}} {{local_dir}}`
+`git svn clone {{-r|--revision}} {{1234}}:HEAD {{https://svn.example.net/subversion/repo}} {{local_dir}}`
 
 - Mettre à jour le clone local à partir du dépôt SVN distant :
 

@@ -11,6 +11,14 @@
 
 `caffeinate -s "{{comando}}"`
 
-- Evita a suspensão até que você digite Ctrl-C:
+- Evita a suspensão até que um processo com o PID especificado seja concluído:
+
+`caffeinate -w {{pid}}`
+
+- Evita a suspensão (use `Ctrl + C` para sair):
 
 `caffeinate -i`
+
+- Evita a suspensão do disco (use `Ctrl + C` para sair):
+
+`caffeinate -m`

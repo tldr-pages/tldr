@@ -1,7 +1,7 @@
 # blockout2
 
 > 3D 게임과 같은 테트리스.
-> 더 많은 정보: <http://www.blockout.net/blockout2/>.
+> 더 많은 정보: <https://www.blockout.net/blockout2/>.
 
 - 새로운 게임 시작:
 

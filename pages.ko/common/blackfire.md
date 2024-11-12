@@ -21,7 +21,7 @@
 
 - 프로파일러 실행 및 샘플 10개 수집:
 
-`blackfire --samples={{10}} run {{파일.php/의/php 경로}}`
+`blackfire --samples 10 run {{파일.php/의/php 경로}}`
 
 - 프로파일러 및 출력 결과를 JSON으로 실행:
 

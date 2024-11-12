@@ -11,6 +11,10 @@
 
 `chown {{utilisateur}}:{{groupe}} {{chemin/vers/fichier_ou_dossier}}`
 
+- Modifie le propriétaire et le groupe pour qu'ils aient tous les deux le nom `utilisateur` :
+
+`chown {{utilisateur}}: {{chemin/vers/fichier_ou_dossier}}`
+
 - Modifie récursivement le propriétaire d'un dossier et de son contenu :
 
 `chown -R {{utilisateur}} {{chemin/vers/dossier}}`
@@ -21,4 +25,4 @@
 
 - Modifie le propriétaire d'un fichier / dossier pour correspondre à un fichier de référence :
 
-`chown --reference={{chemin/vers/fichier_de_référence}} {{chemin/vers/fichier_ou_dossier}}`
+`chown --reference {{chemin/vers/fichier_de_référence}} {{chemin/vers/fichier_ou_dossier}}`

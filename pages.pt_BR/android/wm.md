@@ -6,8 +6,8 @@
 
 - Mostra o tamanho da tela de um dispositivo Android:
 
-`wm {{size}}`
+`wm size`
 
 - Mostra a densidade de pixels da tela de um dispositivo Android:
 
-`wm {{density}}`
+`wm density`

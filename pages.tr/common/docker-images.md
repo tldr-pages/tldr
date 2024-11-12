@@ -1,7 +1,7 @@
 # docker images
 
 > Docker imgelerini yönet.
-> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/images/>.
+> Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
 - Tüm Docker imgelerini listele:
 

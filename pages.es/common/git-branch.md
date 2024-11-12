@@ -25,11 +25,11 @@
 
 - Renombra una rama (para ello no debes tenerla controlada):
 
-`git branch -m {{nombre_de_rama_antigua}} {{nuevo_nombre_rama}}`
+`git branch {{-m|--move}} {{nombre_de_rama_antigua}} {{nuevo_nombre_rama}}`
 
 - Elimina una rama local (no debes tenerla controlada para hacerlo):
 
-`git branch -d {{nombre_de_rama}}`
+`git branch {{-d|--delete}} {{nombre_de_rama}}`
 
 - Elimina una rama remota:
 

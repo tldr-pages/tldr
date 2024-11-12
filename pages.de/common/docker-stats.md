@@ -1,7 +1,7 @@
 # docker stats
 
 > Zeige den Ressourcen-Verbrauch von Containern in Echtzeit.
-> Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/stats/>.
+> Weitere Informationen: <https://docs.docker.com/reference/cli/docker/container/stats/>.
 
 - Zeige sich stetig aktualisierende Statistiken von allen laufenden Containern:
 

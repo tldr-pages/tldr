@@ -1,4 +1,4 @@
-# gnmic-sub
+# gnmic sub
 
 > Questo comando è un alias per `gnmic subscribe`.
 > Maggiori informazioni: <https://gnmic.kmrd.dev/cmd/subscribe>.

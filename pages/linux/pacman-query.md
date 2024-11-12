@@ -2,7 +2,7 @@
 
 > Arch Linux package manager utility.
 > See also: `pacman`.
-> More information: <https://man.archlinux.org/man/pacman.8>.
+> More information: <https://manned.org/pacman.8>.
 
 - List installed packages and versions:
 

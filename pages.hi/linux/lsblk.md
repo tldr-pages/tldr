@@ -29,8 +29,8 @@
 
 - प्रमुख उपकरण संख्याओं की अल्पविराम से अलग की गई सूची द्वारा निर्दिष्ट उपकरणों को बाहर करें:
 
-`lsblk -e {{1,7}}`
+`lsblk -e {{1,7,...}}`
 
 - कॉलम की अल्पविराम से अलग की गई सूची का उपयोग करके एक अनुकूलित सारांश प्रदर्शित करें:
 
-`lsblk --output {{NAME}},{{SERIAL}},{{MODEL}},{{TRAN}},{{TYPE}},{{SIZE}},{{FSTYPE}},{{MOUNTPOINT}}`
+`lsblk --output {{NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`

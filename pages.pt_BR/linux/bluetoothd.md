@@ -21,4 +21,4 @@
 
 - Inicia o daemon com saída verbosa proveniente de arquivos específicos na fonte bluetoothd ou plugins:
 
-`bluetoothd --debug={{caminho/para/arquivo1}}:{{caminho/para/arquivo2}}:{{caminho/para/arquivo3}}`
+`bluetoothd --debug={{caminho/para/arquivo1:caminho/para/arquivo2:...}}`

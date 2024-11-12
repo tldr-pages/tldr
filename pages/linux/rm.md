@@ -23,3 +23,7 @@
 - Remove specific files and directories recursively:
 
 `rm --recursive {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+
+- Remove empty directories (this is considered the safe method):
+
+`rm --dir {{path/to/directory}}`

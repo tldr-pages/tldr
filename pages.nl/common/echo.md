@@ -1,17 +1,17 @@
 # echo
 
-> Drukt gegeven argumenten af.
+> Toont gegeven argumenten.
 > Meer informatie: <https://www.gnu.org/software/coreutils/echo>.
 
-- Druk een tekstbericht af. Let op: aanhalingstekens zijn optimaal:
+- Toon een tekstbericht. Let op: aanhalingstekens zijn optioneel:
 
 `echo "{{Hallo Wereld}}"`
 
-- Druk een bericht af met omgevingsvariabelen:
+- Toon een bericht met omgevingsvariabelen:
 
 `echo "{{Mijn pad is $PATH}}"`
 
-- Drukt een bericht af zonder te volgen met een nieuwe regel:
+- Toont een bericht zonder te volgen met een nieuwe regel:
 
 `echo -n "{{Hallo Wereld}}"`
 
@@ -23,6 +23,6 @@
 
 `echo -e "{{kolom 1\kolom 2}}"`
 
-- Druk de afsluitstatus van de laatst uitgevoerde opdracht af (Opmerking: in Windows Command Prompt en PowerShell zijn de equivalente opdrachten respectievelijk `echo %errorlevel%` en `$lastexitcode`):
+- Toon de afsluitstatus van de laatst uitgevoerde opdracht (Let op: in Windows Command Prompt en PowerShell zijn de equivalente opdrachten respectievelijk `echo %errorlevel%` en `$lastexitcode`):
 
 `echo $?`

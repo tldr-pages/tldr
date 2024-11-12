@@ -1,4 +1,4 @@
-# pio-init
+# pio init
 
 > 이 명령은 `pio project` 의 에일리어스 (별칭) 입니다.
 

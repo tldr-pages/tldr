@@ -1,8 +1,9 @@
 # bspwm
 
-> Este comando es un alias de `bspc`.
+> Un gestor de ventanas embaldosado basado en particionado de espacio binario.
+> Vea también: `bspc`, para controlar el gestor.
 > Más información: <https://github.com/baskerville/bspwm>.
 
-- Muestra la documentación del comando original:
+- Inicia `bspwm` (cabe recalcar que no debe haber otro gestor de ventanas al ejecutar este comando):
 
-`tldr bspc`
+`bspwm -c {{ruta/a/archivo_de_configuración}}`

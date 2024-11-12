@@ -5,4 +5,4 @@
 
 - Verify a bundle and display detailed information about it:
 
-`bundletool validate --bundle={{path/to/bundle.aab}}`
+`bundletool validate --bundle {{path/to/bundle.aab}}`

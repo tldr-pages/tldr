@@ -11,7 +11,7 @@
 
 - Tampilkan file dengan informasi komit menggunakan alamat surel/[e]mail daripada nama pelaku:
 
-`git annotate -e {{jalan/menuju/file}}`
+`git annotate {{-e|--show-email}} {{jalan/menuju/file}}`
 
 - Tampilkan hanya baris-baris teks yang memenuhi kriteria ekspresi reguler:
 

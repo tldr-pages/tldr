@@ -1,7 +1,7 @@
 # docker system
 
 > Dockerのデータ管理とシステム全体に関わる情報の表示をします。
-> 詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/system/>
+> 詳しくはこちら: <https://docs.docker.com/reference/cli/docker/system/>
 
 - ヘルプの表示をする:
 
@@ -21,7 +21,7 @@
 
 - 不使用データのうち指定時間より前に作成されたものを削除する:
 
-`docker system prune --filter="until={{時}}h{{分}}m"`
+`docker system prune --filter "until={{時}}h{{分}}m"`
 
 - Dockerデーモンからのリアルタイムイベントを表示する:
 

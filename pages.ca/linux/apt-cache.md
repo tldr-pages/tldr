@@ -1,7 +1,7 @@
 # apt-cache
 
 > Eina de consulta de paquets per a Debian y Ubuntu.
-> Més informació: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
+> Més informació: <https://manned.org/apt-cache.8>.
 
 - Busca un paquete en les teves fonts actuals:
 

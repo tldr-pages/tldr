@@ -1,7 +1,7 @@
 # a2dissite
 
 > Désactive un hôte virtuel Apache sur une distribution Debian.
-> Plus d'informations : <https://manpages.debian.org/latest/apache2/a2dissite.8.en.html>.
+> Plus d'informations : <https://manned.org/a2dissite.8>.
 
 - Désactive un hôte virtuel :
 

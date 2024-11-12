@@ -1,24 +1,28 @@
 # ipconfig
 
-> Menampilkan dan mengatur konfigurasi jaringan dalam sistem operasi Windows.
+> Tampilkan dan atur konfigurasi jaringan dalam sistem operasi Windows.
 > Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
 
-- Menunjukkan daftar adaptor jaringan:
+- Tampilkan daftar seluruh adaptor jaringan yang terpasang:
 
 `ipconfig`
 
-- Menunjukkan daftar adaptor jaringan secara lengkap:
+- Tampilkan daftar adaptor jaringan secara rinci:
 
 `ipconfig /all`
 
-- Memperbarui alamat IP sebuah adaptor jaringan:
+- Perbarui alamat IP suatu adaptor jaringan:
 
 `ipconfig /renew {{adaptor}}`
 
-- Mengosongkan alamat-alamat IP yang disetel dalam sebuah adaptor jaringan:
+- Kosongkan alamat-alamat IP yang disetel dalam suatu adaptor jaringan:
 
 `ipconfig /release {{adaptor}}`
 
-- Mengosongkan cache DNS:
+- Tampilkan dafter informasi DNS yang disimpan dalam cache:
+
+`ipconfig /displaydns`
+
+- Kosongkan cache DNS:
 
 `ipconfig /flushdns`

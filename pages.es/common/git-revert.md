@@ -17,8 +17,8 @@
 
 - Revierte múltiples confirmaciones:
 
-`git revert {{rama~5..rama~2}}`
+`git revert {{nombre_rama~5..nombre_rama~2}}`
 
 - Revierte confirmaciones sin crear nuevas confirmaciones:
 
-`git revert -n {{0c01a9..9a1743}}`
+`git revert {{-n|--no-commit}} {{0c01a9..9a1743}}`

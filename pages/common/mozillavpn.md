@@ -1,6 +1,7 @@
 # mozillavpn
 
 > A Virtual Private Network from the makers of Firefox.
+> See also: `fastd`, `ivpn`, `mullvad`, `warp-cli`.
 > More information: <https://github.com/mozilla-mobile/mozilla-vpn-client/wiki/Command-line-interface>.
 
 - Log in with an interactive prompt:

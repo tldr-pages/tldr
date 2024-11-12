@@ -25,7 +25,7 @@
 
 - Llista de format lalrg ordenat per mida (descendent):
 
-`ls -lS`
+`ls -lSR`
 
 - Llista de format llarg de tots els fitxers, organitzat per data de modificació (més antics primer):
 

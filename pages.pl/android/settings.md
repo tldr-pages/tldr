@@ -3,7 +3,7 @@
 > Uzyskaj informacje o systemie operacyjnym Android.
 > Więcej informacji: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
-- Listuj ustawienia w przestrzeni `global`:
+- Wypisz ustawienia w przestrzeni `global`:
 
 `settings list {{global}}`
 
@@ -11,10 +11,10 @@
 
 `settings get {{global}} {{airplane_mode_on}}`
 
-- Ustaw wartość dla określonego ustawienia:
+- Ustaw wartość określonego ustawienia:
 
 `settings put {{system}} {{screen_brightness}} {{42}}`
 
-- Delete a specific setting:
+- Usuń określone ustawienie:
 
 `settings delete {{secure}} {{screensaver_enabled}}`

@@ -1,0 +1,70 @@
+name: Monthly check GitHub usernames
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 1 * *"
+
+jobs:
+  check-usernames:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Restore lychee cache
+      id: restore-cache
+      uses: actions/cache/restore@v4
+      with:
+        path: .lycheecache
+        key: cache-lychee-${{ github.sha }}
+        restore-keys: cache-lychee-
+
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - run: |
+        cat .github/CODEOWNERS | grep -o "@[a-zA-Z0-9_-]\+" | sort -u | sed 's/@/https:\/\/api.github.com\/users\//' > usernames.txt
+        cat MAINTAINERS.md | grep -o "\*\*.*@[a-zA-Z0-9_-]\+.*\*\*" | grep -o "@[a-zA-Z0-9_-]\+" | sort -u | sed 's/@/https:\/\/api.github.com\/users\//' >> usernames.txt
+        sort -u usernames.txt -o usernames.txt
+
+    - name: Lychee URL checker
+      uses: lycheeverse/lychee-action@v2
+      id: lychee
+      continue-on-error: true
+      with:
+        args: >-
+          --cache 
+          --verbose 
+          --no-progress 
+          --max-concurrency 25
+          usernames.txt
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+    - name: Find the last report issue open
+      uses: micalevisk/last-issue-action@v2
+      id: last-issue
+      with:
+        state: open
+        labels: check usernames
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Update last report open issue created
+      if: ${{ env.lychee_exit_code != 0 }}
+      uses: peter-evans/create-issue-from-file@v5
+      with:
+        title: GitHub usernames with errors
+        content-filepath: lychee/out.md
+        issue-number: ${{ steps.last-issue.outputs.issue-number }}
+        labels: check usernames
+
+    - name: Close last report open issue
+      if: ${{ env.lychee_exit_code == 0 && steps.last-issue.outputs.has-found == 'true' }}
+      run: gh issue close ${{ steps.last-issue.outputs.issue-number }}
+
+    - name: Save lychee cache
+      uses: actions/cache/save@v4
+      if: always()
+      with:
+        path: .lycheecache
+        key: ${{ steps.restore-cache.outputs.cache-primary-key }}

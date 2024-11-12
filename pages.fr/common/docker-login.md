@@ -1,7 +1,7 @@
 # docker login
 
 > Se connecter à un registre Docker.
-> Plus d'informations : <https://docs.docker.com/engine/reference/commandline/login/>.
+> Plus d'informations : <https://docs.docker.com/reference/cli/docker/login/>.
 
 - Se connecter de manière interactive à un registre :
 

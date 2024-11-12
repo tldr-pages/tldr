@@ -1,8 +1,9 @@
 # duplicity
 
-> Creates incremental, compressed, encrypted and versioned backups.
+> Create incremental, compressed, encrypted and versioned backups.
 > Can also upload the backups to a variety of backend services.
-> More information: <http://duplicity.nongnu.org>.
+> It is worth mentioning that depending on the version, some options may not be available (e.g. `--gio` in 2.0.0).
+> More information: <https://duplicity.gitlab.io>.
 
 - Backup a directory via FTPS to a remote machine, encrypting it with a password:
 

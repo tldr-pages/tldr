@@ -25,11 +25,11 @@
 
 - Benenne einen Branches um (der Branch muss nicht ausgecheckt sein):
 
-`git branch -m {{alter_branch_name}} {{neuer_branch_name}}`
+`git branch {{-m|--move}} {{alter_branch_name}} {{neuer_branch_name}}`
 
 - Lösche einen lokalen Branch (der Branch muss nicht ausgecheckt sein):
 
-`git branch -d {{branch_name}}`
+`git branch {{-d|--delete}} {{branch_name}}`
 
 - Lösche einen remote-Branch:
 

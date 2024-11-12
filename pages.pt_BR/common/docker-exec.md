@@ -1,7 +1,7 @@
 # docker exec
 
 > Executar um comando em um contêiner Docker em execução.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/exec/>.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/container/exec/>.
 
 - Entra em uma sessão de shell interativa em um contêiner em execução:
 

@@ -2,7 +2,7 @@
 
 > Manage Docker images.
 > See also: `docker build`, `docker import`, and `docker pull`.
-> More information: <https://docs.docker.com/engine/reference/commandline/image/>.
+> More information: <https://docs.docker.com/reference/cli/docker/image/>.
 
 - List local Docker images:
 

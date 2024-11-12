@@ -1,4 +1,4 @@
-# tlmgr-arch
+# tlmgr arch
 
 > 이 명령은 `tlmgr platform` 의 에일리어스 (별칭) 입니다.
 > 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.

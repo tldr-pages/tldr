@@ -9,8 +9,8 @@
 
 - Buat berkas laporan pada direktori tertentu, dan buat direktori tersebut jika belum:
 
-`git bugreport --output-directory {{jalan/menuju/direktori}}`
+`git bugreport {{-o|--output-directory}} {{jalan/menuju/direktori}}`
 
 - Buat berkas laporan baru, dengan nama berkas diakhiri dengan tanggal pelaporan menurut format `strftime`:
 
-`git bugreport --suffix {{%m%d%y}}`
+`git bugreport {{-s|--suffix}} {{%m%d%y}}`

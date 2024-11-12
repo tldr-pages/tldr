@@ -5,8 +5,8 @@
 
 - Conecta a una consola serie con una velocidad en baudios específica:
 
-`picocom {{/dev/ttyXYZ}} --baud {{baud_rate}}`
+`picocom {{/dev/ttyXYZ}} --baud {{tasa_de_baudios}}`
 
-- Asigna caracteres especiales (por ejemplo, `LF` a `CRLF`):
+- Asigna caracteres especiales (p. ej. `LF` a `CRLF`):
 
-`picocom {{/dev/ttyXYZ}} --imap {{lfcrlf}}}`
+`picocom {{/dev/ttyXYZ}} --imap {{lfcrlf}}`

@@ -1,7 +1,6 @@
 # xzcat
 
-> Dit commando is een alias van `xz`.
-> Meer informatie: <https://manned.org/xzcat>.
+> Dit commando is een alias van `xz --decompress --stdout`.
 
 - Bekijk de documentatie van het originele commando:
 

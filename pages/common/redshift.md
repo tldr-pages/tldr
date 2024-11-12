@@ -19,6 +19,6 @@
 
 `redshift -g {{red}}:{{green}}:{{blue}}`
 
-- Turn on Redshift with a constant unchanging color temperature:
+- [P]urge existing temperature changes and set a constant unchanging color temperature in [O]ne-shot mode:
 
-`redshift -O {{temperature}}`
+`redshift -PO {{temperature}}`

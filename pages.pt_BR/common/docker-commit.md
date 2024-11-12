@@ -1,7 +1,7 @@
 # docker commit
 
 > Criar uma nova imagem a partir das alterações em um contêiner.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/commit/>.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/container/commit/>.
 
 - Cria uma imagem a partir de um contêiner específico:
 
@@ -9,23 +9,23 @@
 
 - Aplica uma instrução `CMD` do Dockerfile à imagem criada:
 
-`docker commit --change="CMD {{comando}}" {{contêiner}} {{imagem}}:{{tag}}`
+`docker commit --change "CMD {{comando}}" {{contêiner}} {{imagem}}:{{tag}}`
 
 - Aplica uma instrução `ENV` do Dockerfile à imagem criada:
 
-`docker commit --change="ENV {{nome}}={{valor}}" {{contêiner}} {{imagem}}:{{tag}}`
+`docker commit --change "ENV {{nome}}={{valor}}" {{contêiner}} {{imagem}}:{{tag}}`
 
 - Cria uma imagem com um autor específico nos metadados:
 
-`docker commit --author="{{autor}}" {{contêiner}} {{imagem}}:{{tag}}`
+`docker commit --author "{{autor}}" {{contêiner}} {{imagem}}:{{tag}}`
 
 - Cria uma imagem com um comentário específico nos metadados:
 
-`docker commit --message="{{comentário}}" {{contêiner}} {{imagem}}:{{tag}}`
+`docker commit --message "{{comentário}}" {{contêiner}} {{imagem}}:{{tag}}`
 
 - Cria uma imagem sem pausar o contêiner durante o commit:
 
-`docker commit --pause={{false}} {{contêiner}} {{imagem}}:{{tag}}`
+`docker commit --pause {{false}} {{contêiner}} {{imagem}}:{{tag}}`
 
 - Exibe ajuda:
 

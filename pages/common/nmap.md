@@ -12,9 +12,9 @@
 
 `nmap -T5 -sn {{192.168.0.0/24|ip_or_hostname1,ip_or_hostname2,...}}`
 
-- Enable OS detection, version detection, script scanning, and traceroute:
+- Enable OS detection, version detection, script scanning, and traceroute of hosts from a file:
 
-`sudo nmap -A {{ip_or_hostname1,ip_or_hostname2,...}}`
+`sudo nmap -A -iL {{path/to/file.txt}}`
 
 - Scan a specific list of ports (use `-p-` for all ports from 1 to 65535):
 

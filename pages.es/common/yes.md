@@ -15,3 +15,7 @@
 - Acepta todas las confirmaciones que muestre el comando `apt-get`:
 
 `yes | sudo apt-get install {{programa}}`
+
+- Retorna repetidamente una nueva línea para aceptar siempre la opción predeterminada de una pregunta (prompt):
+
+`yes ''`

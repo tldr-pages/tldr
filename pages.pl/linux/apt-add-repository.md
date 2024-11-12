@@ -1,7 +1,7 @@
 # apt-add-repository
 
 > Zarządzaj definicjami repozytoriów `apt`.
-> Więcej informacji: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
+> Więcej informacji: <https://manned.org/apt-add-repository.1>.
 
 - Dodaj nowe repozytorium `apt`:
 

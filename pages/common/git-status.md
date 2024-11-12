@@ -12,6 +12,10 @@
 
 `git status --short`
 
+- Show [v]erbose information on changes in both the staging area and working directory:
+
+`git status --verbose --verbose`
+
 - Show the [b]ranch and tracking info:
 
 `git status --branch`

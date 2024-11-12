@@ -2,7 +2,7 @@
 
 > Task runner for targets described in Mkfile.
 > Mostly used to control the compilation of an executable from source code.
-> More information: <http://doc.cat-v.org/plan_9/4th_edition/papers/mk>.
+> More information: <https://doc.cat-v.org/plan_9/4th_edition/papers/mk>.
 
 - Call the first target specified in the Mkfile (usually named "all"):
 

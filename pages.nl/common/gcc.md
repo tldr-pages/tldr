@@ -1,28 +1,37 @@
 # gcc
 
 > Preprocess en compileer C en C++ bronbestanden, monteer en koppel ze vervolgens samen.
+> Onderdeel van GCC (GNU Compiler Collection).
 > Meer informatie: <https://gcc.gnu.org>.
 
-- Meerdere bronbestanden compileren in een uitvoerbaar bestand:
+- Compileer meerdere bronbestanden in een uitvoerbaar bestand:
 
-`gcc {{pad/naar/source1.c pad/naar/source2.c ...}} -o {{pad/naar/output_executable}}`
+`gcc {{pad/naar/bron1.c pad/naar/bron2.c ...}} {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}}`
 
-- Toon gemeenschappelijke waarschuwingen, foutopsporingssymbolen in output en optimaliseer zonder debuggen te beïnvloeden:
+- Toon (bijna) alle fouten en waarschuwingen:
 
-`gcc {{pad/naar/bron.c}} -Wall -g -Og -o {{pad/naar/output_executable}}`
+`gcc {{pad/naar/bron.c}} -Wall {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}}`
 
-- Neem bibliotheken op vanuit een ander pad:
+- Toon veelvoorkomende waarschuwingen, debug-symbolen in de uitvoer, en optimaliseer zonder debugging te beïnvloeden:
 
-`gcc {{pad/naar/bron.c}} -o {{pad/naar/output_executable}} -I{{pad/naar/header}} -L{{pad/naar/library}} -l{{library_name}}`
+`gcc {{pad/naar/bron.c}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}}`
+
+- Voeg bibliotheken toe die zich op een ander pad bevinden dan het bronbestand:
+
+`gcc {{pad/naar/bron.c}} {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}} -I{{pad/naar/header}} -L{{pad/naar/bibliotheek}} -l{{bibliotheek_naam}}`
 
 - Compileer broncode naar Assembler instructies:
 
-`gcc -S {{pad/naar/bron.c}}`
+`gcc {{-S|--assemble}} {{pad/naar/bron.c}}`
 
-- Compileer broncode naar een objectbestand zonder te koppelen:
+- Compileer broncode zonder deze te linken:
 
-`gcc -c {{pad/naar/bron.c}}`
+`gcc {{-c|--compile}} {{pad/naar/bron.c}}`
 
 - Optimaliseer het gecompileerde programma voor prestaties:
 
-`gcc {{pad/naar/bron.c}} -O{{1|2|3|fast}} -o {{pad/naar/uitvoerbaar_bestand}}`
+`gcc {{pad/naar/bron.c}} -O{{1|2|3|fast}} {{-o|--output}} {{pad/naar/uitvoerbaar_bestand}}`
+
+- Toon de versie:
+
+`gcc --version`

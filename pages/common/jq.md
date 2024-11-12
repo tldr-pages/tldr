@@ -1,11 +1,15 @@
 # jq
 
-> A command-line JSON processor that uses a domain-specific language (DSL).
+> A JSON processor that uses a domain-specific language (DSL).
 > More information: <https://jqlang.github.io/jq/manual/>.
 
 - Execute a specific expression (print a colored and formatted JSON output):
 
 `{{cat path/to/file.json}} | jq '.'`
+
+- Execute a specific expression only using the `jq` binary (print a colored and formatted JSON output):
+
+`jq '.' {{/path/to/file.json}}`
 
 - Execute a specific script:
 

@@ -1,7 +1,7 @@
 # go
 
 > Go kaynak kodunu yönetmeye yarayan bir araç.
-> `go build` gibi bazı alt komutların kendı kullanım dokümentasyonları mevcut.
+> `build` gibi bazı alt komutların kendı kullanım dokümentasyonları mevcut.
 > Daha fazla bilgi için: <https://golang.org>.
 
 - İçe aktarım yolunda belirtilen şekilde bir paketi indir ve yükle:

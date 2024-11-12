@@ -12,10 +12,10 @@
 
 `bugreportz -p`
 
-- نمایش نسخه `bugreportz` :
-
-`bugreportz -v`
-
 - نمایش راهنمایی :
 
 `bugreportz -h`
+
+- نمایش نسخه `bugreportz` :
+
+`bugreportz -v`

@@ -1,29 +1,37 @@
 # az
 
-> La herramienta de línea de comandos de Azure.
-> Algunos subcomandos como `az login` tienen su propia documentación de uso.
-> Más información: <https://learn.microsoft.com/cli/azure>.
+> La herramienta CLI oficial para Microsoft Azure.
+> Algunos subcomandos como `login` tienen su propia documentación de uso.
+> Más información: <https://learn.microsoft.com/cli/azure/reference-index>.
 
 - Inicia sesión en Azure:
 
 `az login`
 
-- Administra la información de la suscripción de Azure:
+- Gestiona la información de suscripción a azure:
 
 `az account`
 
-- Enumera todos los discos administrados de Azure:
+- Lista todos los discos gestionados de Azure:
 
 `az disk list`
 
-- Enumera todas las máquinas virtuales de Azure:
+- Lista todas las máquinas virtuales de Azure:
 
 `az vm list`
 
-- Administra los servicios de Kubernetes de Azure:
+- Gestiona los servicios Azure Kubernetes:
 
 `az aks`
 
-- Administra los recursos de red de Azure:
+- Gestiona los recursos de red de Azure:
 
 `az network`
+
+- Inicia en modo interactivo:
+
+`az interactive`
+
+- Muestra ayuda:
+
+`az --help`

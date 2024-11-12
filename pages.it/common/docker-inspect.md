@@ -1,7 +1,7 @@
 # docker inspect
 
 > Mostra informazioni a basso livello di oggetti Docker.
-> Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/inspect/>.
+> Maggiori informazioni: <https://docs.docker.com/reference/cli/docker/inspect/>.
 
 - Mostra aiuto:
 

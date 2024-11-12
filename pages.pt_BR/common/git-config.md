@@ -1,37 +1,37 @@
 # git config
 
-> Gerencia configurações customizadadas para repositórios Git.
-> Estas configurações podem ser locais (para o repositório corrente) ou globais (para o usuário atual).
+> Gerencia configurações personalizadas para repositórios Git.
+> Estas configurações podem ser locais (para o repositório atual) ou globais (para o usuário atual).
 > Mais informações: <https://git-scm.com/docs/git-config>.
 
-- Lista somente configurações locais (armazenadas no `.git/config` do repositório corrente):
+- Define globalmente seu nome ou e-mail (essas informações são necessárias para fazer commit em um repositório e serão incluídas em todos os commits):
 
-`git config --list --local`
+`git config --global {{user.name|user.email}} "{{Seu nome|e-mail@example.com}}"`
 
-- Lista somente configurações globais (armazenadas no `~/.gitconfig` por padrão ou no `$XDG_CONFIG_HOME/git/config` se tal arquivo existe):
+- Lista configurações locais ou globais:
 
-`git config --list --global`
+`git config --list --{{local|global}}`
 
 - Lista somente configurações do sistema (armazenadas no `/etc/gitconfig`), e exibe o local do arquivo:
 
 `git config --list --system --show-origin`
 
-- Obtém o valor de uma dada variável de configuração:
+- Obtém o valor de uma dada configuração:
 
 `git config alias.unstage`
 
-- Armazena o valor global de uma dada variável de configuração:
+- Define o valor global de uma dada configuração:
 
 `git config --global alias.unstage "reset HEAD --"`
 
-- Reverte o valor global de uma dada variável de configuração para seu valor padrão:
+- Reverte a configuração global para seu valor padrão:
 
 `git config --global --unset alias.unstage`
 
-- Edita a configuração Git do repositório corrente usando o editor padrão:
+- Edita a configuração local do Git (`.git/config`) no editor padrão:
 
 `git config --edit`
 
-- Edita a configuração global do Git usando o editor padrão:
+- Edita a configuração global do Git (`~/.gitconfig` por padrão ou `$XDG_CONFIG_HOME/git/config` se tal arquivo existir) no editor padrão:
 
 `git config --global --edit`

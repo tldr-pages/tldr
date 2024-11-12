@@ -1,7 +1,7 @@
 # ykman openpgp
 
 > Beheer de OpenPGP YubiKey applicatie.
-> Opmerking: je dient `gpg --card-edit` te gebruiken voor sommige instellingen.
+> Let op: je dient `gpg --card-edit` te gebruiken voor sommige instellingen.
 > Meer informatie: <https://docs.yubico.com/software/yubikey/tools/ykman/OpenPGP_Commands.html>.
 
 - Toon algemene informatie over de OpenPGP applicatie:

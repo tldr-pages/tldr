@@ -7,11 +7,19 @@
 
 `id`
 
+- Display the current user identity:
+
+`id -un`
+
 - Display the current user identity as a number:
 
 `id -u`
 
-- Display the current group identity as a number:
+- Display the current primary group identity:
+
+`id -gn`
+
+- Display the current primary group identity as a number:
 
 `id -g`
 

@@ -1,7 +1,7 @@
 # a2dismod
 
 > Desativa um módulo do Apache em sistemas operacionais baseados no Debian.
-> Mais informações: <https://manpages.debian.org/latest/apache2/a2dismod.8.en.html>.
+> Mais informações: <https://manned.org/a2dismod.8>.
 
 - Desativa um módulo:
 

@@ -15,10 +15,6 @@
 
 `usql --command="{{sql_command}}"`
 
-- List databases available on the server:
-
-`usql --list-databases`
-
 - Run an SQL command in the `usql` prompt:
 
 `{{prompt}}=> {{command}}`
@@ -29,8 +25,8 @@
 
 - Export query results to a specific file:
 
-`{{prompt}}=> \g {{/path/to/results.txt}}`
+`{{prompt}}=> \g {{path/to/file_with_results}}`
 
 - Import data from a CSV file into a specific table:
 
-`{{prompt}}=> \copy {{/path/to/data.csv}} {{table_name}}`
+`{{prompt}}=> \copy {{path/to/data.csv}} {{table_name}}`

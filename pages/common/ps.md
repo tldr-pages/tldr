@@ -11,9 +11,9 @@
 
 `ps auxww`
 
-- Search for a process that matches a string:
+- Search for a process that matches a string (the brackets will prevent `grep` from matching itself):
 
-`ps aux | grep {{string}}`
+`ps aux | grep {{[s]tring}}`
 
 - List all processes of the current user in extra full format:
 

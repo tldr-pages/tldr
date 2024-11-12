@@ -19,6 +19,10 @@
 
 `fastfetch --logo {{logo}}`
 
+- Display system information without a logo:
+
+`fastfetch --logo none`
+
 - Use a specific color for the keys and title:
 
 `fastfetch --color {{blue}}`

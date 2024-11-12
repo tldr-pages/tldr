@@ -7,7 +7,7 @@
 
 `exit`
 
-- Beenden des aktuellen Batch-Skripts:
+- Beenden des aktuellen [b]atch-Skripts:
 
 `exit /b`
 

@@ -1,7 +1,6 @@
-# fossil-new
+# fossil new
 
-> Denne kommando er et alias af `fossil-init`.
-> Mere information: <https://fossil-scm.org/home/help/new>.
+> Denne kommando er et alias af  `fossil init`.
 
 - Se dokumentation for den oprindelige kommando:
 

@@ -1,7 +1,7 @@
 # gh
 
 > Work seamlessly with GitHub.
-> Some subcommands such as `gh config` have their own usage documentation.
+> Some subcommands such as `config` have their own usage documentation.
 > More information: <https://cli.github.com/>.
 
 - Clone a GitHub repository locally:

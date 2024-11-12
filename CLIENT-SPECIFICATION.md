@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD007 MD013 MD024-->
 # tldr-pages client specification
 
 **Current Specification Version:** 2.2
@@ -41,7 +42,7 @@ Option             | Required?   | Meaning
 
 Clients MUST implement both the short and long versions of an option.
 
-Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example, a page list MUST be formatted with one page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
+Additional decoration MAY be printed if the standard output is a [TTY](https://linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example, a page list MUST be formatted with one page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
 Clients MAY support additional custom arguments and syntax not documented here.
 
@@ -112,7 +113,7 @@ The structure inside these translation folders is identical to that of the main 
 
 ## Page structure
 
-Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in standard [CommonMark](https://commonmark.org/), with the exception of the non-standard `{{` and `}}` placeholder syntax, which surrounds values in an example that users may edit. Clients MAY highlight the placeholders and MUST remove the surrounding curly braces. Clients MUST NOT treat them as the placeholder syntax if they are escaped using `\` (i.e. `\{\{` and `\}\}`) and MUST instead display literal braces, without backslashes. Placeholder escaping applies only when both braces are escaped (e.g. in `\{` or `\{{`, backslashes MUST be displayed). In cases when a command uses `{}` in its arguments (e.g. `stash@{0}`) ***the outer braces*** mark the placeholder - the braces inside MUST be displayed. Clients MUST NOT break if the page format is changed within the _CommonMark_ specification.
+Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in standard [CommonMark](https://commonmark.org/), with the exception of the non-standard `{{` and `}}` placeholder syntax, which surrounds values in an example that users may edit. Clients MAY highlight the placeholders and MUST remove the surrounding curly braces. Clients MUST NOT treat them as the placeholder syntax if they are escaped using `\` (i.e. `\{\{` and `\}\}`) and MUST instead display literal braces, without backslashes. Placeholder escaping applies only when both braces are escaped (e.g. in `\{` or `\{{`, backslashes MUST be displayed). In cases when a command uses `{}` in its arguments (e.g. `stash@{0}`) **_the outer braces_** mark the placeholder - the braces inside MUST be displayed. Clients MUST NOT break if the page format is changed within the _CommonMark_ specification.
 
 ### Examples
 
@@ -162,7 +163,7 @@ If a page cannot be found in _any_ platform, then it is RECOMMENDED that clients
 https://github.com/tldr-pages/tldr/issues/new?title=page%20request:%20{command_name}
 ```
 
-where `{command_name}` is the name of the command that was not found. Clients that have control over their exit code on the command line (i.e. clients that provide a CLI) MUST exit with a non-zero exit code in addition to showing the above message.
+where `{command_name}` is the name of the command that was not found. Clients that have control over their exit code on the command-line (i.e. clients that provide a CLI) MUST exit with a non-zero exit code in addition to showing the above message.
 
 #### If multiple versions of a page were found
 

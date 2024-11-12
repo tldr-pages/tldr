@@ -1,7 +1,7 @@
 # docker system
 
 > Gérer les données Docker et afficher des informations sur l'ensemble du système.
-> Plus d'informations : <https://docs.docker.com/engine/reference/commandline/system/>.
+> Plus d'informations : <https://docs.docker.com/reference/cli/docker/system/>.
 
 - Afficher l'aide :
 
@@ -21,7 +21,7 @@
 
 - Supprimer les données non utilisées de plus d'un temps donné dans le passé :
 
-`docker system prune --filter="until={{heures}}h{{minutes}}m"`
+`docker system prune --filter "until={{heures}}h{{minutes}}m"`
 
 - Afficher les événements du démon Docker en temps réel :
 

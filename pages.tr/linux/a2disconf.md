@@ -1,7 +1,7 @@
 # a2disconf
 
 > Debian tabanlı işletim sistemlerinde Apache konfigürasyon dosyasını devre dışı bırak.
-> Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2disconf.8.en.html>.
+> Daha fazla bilgi için: <https://manned.org/a2disconf.8>.
 
 - Bir konfigürasyon dosyasını devre dışı bırak:
 

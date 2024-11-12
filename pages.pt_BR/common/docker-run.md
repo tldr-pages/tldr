@@ -1,7 +1,7 @@
 # docker run
 
 > Executa um comando em um novo container Docker.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/run/>.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/container/run/>.
 
 - Executa um comando em um novo container de uma imagem tagueada:
 

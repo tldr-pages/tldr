@@ -1,20 +1,33 @@
 # cd
 
-> Exibe o nome ou altera o diretório local atual.
+> Exibe o nome o diretório local atual ou altera para um diretório diferente.
+> No PowerShell, este comando é um apelido de `Set-Location`. Esta documentação é baseada na versão Prompt de Comando (`cmd`) do `cd`.
 > Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Vá para um diretório na mesma unidade:
+- Exibe documentação sobre o comando equivalente do PowerShell:
 
-`cd {{caminho/para/diretorio}}`
+`tldr set-location`
 
 - Mostra o nome do diretório atual:
 
 `cd`
 
-- Vá até o pai do diretório atual:
+- Vai para um diretório específico na mesma unidade:
+
+`cd {{caminho\para\diretorio}}`
+
+- Vai para um diretório específico em uma unidade diferente:
+
+`cd /d {{C}}:{{caminho\para\diretório}}`
+
+- Vai até o pai do diretório atual:
 
 `cd ..`
 
-- Vá para um diretório em uma unidade diferente:
+- Vai para o diretório base do usuário atual:
 
-`cd {{caminho/para/diretorio}} /d`
+`cd %userprofile%`
+
+- Vai para a raiz da unidade atual:
+
+`cd \`

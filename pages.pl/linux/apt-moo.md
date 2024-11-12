@@ -1,7 +1,7 @@
 # apt moo
 
 > Easter egg `APT`.
-> Więcej informacji: <https://manpages.debian.org/latest/apt/apt.8.html>.
+> Więcej informacji: <https://manned.org/apt.8>.
 
 - Wyświetl easter egga z krową:
 

@@ -4,6 +4,6 @@
 > Let op: deze tool is hernoemd naar `resolvectl` in nieuwere versies van `systemd`.
 > Meer informatie: <https://manned.org/systemd-resolve>.
 
-- Bekijk documentatie voor `resolvectl`:
+- Bekijk de documentatie voor `resolvectl`:
 
 `tldr resolvectl`

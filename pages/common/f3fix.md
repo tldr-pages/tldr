@@ -2,7 +2,7 @@
 
 > Edit the partition table of a fake flash drive.
 > See also: `f3probe`, `f3write`, `f3read`.
-> More information: <http://oss.digirati.com.br/f3/>.
+> More information: <https://oss.digirati.com.br/f3/>.
 
 - Fill a fake flash drive with a single partition that matches its real capacity:
 

@@ -6,12 +6,12 @@
 
 - Maak een nieuwe groep:
 
-`cgcreate -g {{group_type}}:{{group_name}}`
+`cgcreate -g {{groep_type}}:{{groepsnaam}}`
 
 - Maak een nieuwe groep met meerdere cgroep typen:
 
-`cgcreate -g {{group_type1}},{{group_type2}}:{{group_name}}`
+`cgcreate -g {{groep_type1}},{{groep_type2}}:{{groepsnaam}}`
 
 - Maak een subgroep:
 
-`mkdir /sys/fs/cgroup/{{group_type}}/{{group_name}}/{{subgroup_name}}`
+`mkdir /sys/fs/cgroup/{{groep_type}}/{{groepsnaam}}/{{subgroep_naam}}`

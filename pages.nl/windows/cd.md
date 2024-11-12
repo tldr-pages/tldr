@@ -4,7 +4,7 @@
 > In PowerShell is deze opdracht een alias van `Set-Location`. Deze documentatie is gebaseerd op de Command Prompt (`cmd`) versie van `cd`.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Bekijk documentatie van het equivalente PowerShell-commando:
+- Bekijk de documentatie van het equivalente PowerShell-commando:
 
 `tldr set-location`
 

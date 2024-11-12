@@ -18,11 +18,11 @@
 
 - 限制搜索特定类型的文件：
 
-`ack --type={{ruby}} "{{search_pattern}}"`
+`ack --type {{ruby}} "{{search_pattern}}"`
 
 - 不在特定类型的文件中搜索：
 
-`ack --type=no{{ruby}} "{{search_pattern}}"`
+`ack --type no{{ruby}} "{{search_pattern}}"`
 
 - 计算找到的匹配文件的总数：
 

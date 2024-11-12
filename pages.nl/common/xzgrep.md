@@ -1,7 +1,7 @@
 # xzgrep
 
 > Zoek bestanden die mogelijk worden gecomprimeerd met `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, of `zstd` met behulp van reguliere expressies.
-> Zie ook: `grep`.
+> Bekijk ook: `grep`.
 > Meer informatie: <https://manned.org/xzgrep>.
 
 - Zoek naar een patroon in een bestand:

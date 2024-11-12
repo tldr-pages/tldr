@@ -21,8 +21,8 @@
 
 - Rinomina un ramo (non applicabile sul ramo corrente):
 
-`git branch -m {{vecchio_nome}} {{nuovo_nome}}`
+`git branch {{-m|--move}} {{vecchio_nome}} {{nuovo_nome}}`
 
 - Cancella un ramo locale (non applicabile sul ramo corrente):
 
-`git branch -d {{nome_ramo}}`
+`git branch {{-d|--delete}} {{nome_ramo}}`

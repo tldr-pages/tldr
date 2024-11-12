@@ -1,7 +1,7 @@
 # dpkg-reconfigure
 
 > Reconfigure an already installed package.
-> More information: <https://manpages.debian.org/latest/debconf/dpkg-reconfigure.8.html>.
+> More information: <https://manned.org/dpkg-reconfigure.8>.
 
 - Reconfigure one or more packages:
 

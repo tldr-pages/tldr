@@ -26,3 +26,7 @@
 - Set the brightness for LVDS1 to 50%:
 
 `xrandr --output {{LVDS1}} --brightness {{0.5}}`
+
+- Display the current state of any X server:
+
+`xrandr --display :{{0}} --query`

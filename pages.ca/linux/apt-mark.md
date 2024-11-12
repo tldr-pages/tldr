@@ -1,7 +1,7 @@
 # apt-mark
 
 > Eina per canviar l'estat dels paquets instal·lats.
-> Més informació: <https://manpages.debian.org/latest/apt/apt-mark.8.html>.
+> Més informació: <https://manned.org/apt-mark.8>.
 
 - Marca un paquet com a instal·lat automàticament:
 

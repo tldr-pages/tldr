@@ -1,25 +1,25 @@
 # aws codeartifact
 
-> Interface de linha de comando para o AWS CodeArtifact.
-> O CodeArtifact permite armazenar artefatos usando gerenciadores de pacotes populares e criar ferramentas como Maven, Gradle, npm, Yarn, Twine, pip e NuGet.
+> Gerencia repositórios, domínios, pacotes, versões de pacotes e ativos do CodeArtifact.
+> O CodeArtifact é um repositório de artefatos compatível com gerenciadores de pacotes populares e ferramentas de construção como Maven, Gradle, npm, Yarn, Twine, pip, NuGet e SwiftPM.
 > Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/codeartifact/index.html>.
 
 - Lista domínios disponíveis para a sua conta da AWS:
 
 `aws codeartifact list-domains`
 
-- Gera credenciais para um gerenciador de pacote específico (p.e.: npm, pip):
+- Gera credenciais para um gerenciador de pacote específico:
 
-`aws codeartifact login --tool {{gerenciador_de_pacotes}} --domain {{seu_domínio}} --repository {{nome_do_repositório}}`
+`aws codeartifact login --tool {{npm|pip|twine}} --domain {{seu_domínio}} --repository {{nome_do_repositório}}`
 
 - Recupera a URL do endpoint de um repositório do CodeArtifact:
 
 `aws codeartifact get-repository-endpoint --domain {{seu_domínio}} --repository {{nome_do_repositório}} --format {{npm|pypi|maven|nuget|generic}}`
 
-- Lista todos os comandos disponíveis para o CodeArtifact:
+- Exibe ajuda:
 
 `aws codeartifact help`
 
-- Exibe ajuda específica para um subcomando do CodeArtifact:
+- Exibe ajuda para um subcomando específico:
 
-`aws ec2 {{subcommand}} help`
+`aws codeartifact {{subcomando}} help`

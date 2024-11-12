@@ -6,7 +6,7 @@
 
 - List all files, including hidden files:
 
-`dir -all`
+`dir --all`
 
 - List files including their author (`-l` is required):
 

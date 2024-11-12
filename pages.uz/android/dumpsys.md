@@ -12,7 +12,7 @@
 
 `dumpsys {{service}}`
 
-- `dumpsys` buyrug'idagi barcha xizmatlarni chiqaradi:
+- Buyrug'idagi barcha xizmatlarni chiqaradi `dumpsys`:
 
 `dumpsys -l`
 

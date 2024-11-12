@@ -16,7 +16,7 @@
 
 `curl --fail --remote-name --location --continue-at - {{http://beispiel.de/datei}}`
 
-- Sende formular-codierte Daten (POST Anfragen des Typs `application/x-www-form-urlencoded`). Benutze `--data @dateiname` oder `--data @'-'`, um von STDIN zu lesen:
+- Sende formular-codierte Daten (POST Anfragen des Typs `application/x-www-form-urlencoded`). Benutze `--data @dateiname` oder `--data @'-'`, um von `stdin` zu lesen:
 
 `curl --data {{'name=karl-dieter'}} {{http://beispiel.de/formular}}`
 

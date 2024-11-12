@@ -2,7 +2,7 @@
 
 > A interface de linha de comando oficial para o Amazon Web Services.
 > Passo-a-passo, Single Sign-On (SSO), autocompletar de recursos e opções de YAML somente na v2.
-> Alguns subcomandos como `aws s3` tem sua própia documentação de uso.
+> Alguns subcomandos como `s3` tem sua própia documentação de uso.
 > Mais informações: <https://aws.amazon.com/cli>.
 
 - Configura a linha de comando da AWS:
@@ -12,10 +12,6 @@
 - Configura a linha de comando da AWS usando o SSO:
 
 `aws configure sso`
-
-- Veja o texto de ajuda para o comando da AWS:
-
-`aws {{comando}} help`
 
 - Obtenha a informações da identidade usada (útil para analisar problemas de permissão):
 
@@ -36,3 +32,7 @@
 - Gera um arquivo esqueleo em JSON (útil para ser usado em infraestrutura como código):
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- Veja o texto de ajuda para o comando da AWS:
+
+`aws {{comando}} help`

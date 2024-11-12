@@ -1,12 +1,17 @@
 # mkdir
 
-> Crea un directorio.
+> Crea directorios y establece sus permisos.
+> Vea también: `rmdir`, `ls`.
 > Más información: <https://www.gnu.org/software/coreutils/mkdir>.
 
-- Crea un directorio en el directorio actual o en una ruta dada:
+- Crea los directorios especificados:
 
-`mkdir {{directorio}}`
+`mkdir {{ruta/al/directorio1 ruta/al/directorio2 ...}}`
 
-- Crea directorios recursivamente (útil para crear directorios anidados):
+- Crea directorios recursivamente y sus padres si es necesario:
 
-`mkdir -p {{ruta/al/directorio}}`
+`mkdir {{-p|--parents}} {{ruta/al/directorio}}`
+
+- Crea directorios con permisos específicos:
+
+`mkdir {{-m|--mode}} {{rwxrw-r--}} {{ruta/al/directorio1 ruta/al/directorio2 ...}}`

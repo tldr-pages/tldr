@@ -9,4 +9,4 @@
 
 - Crea directory ricorsivamente (utile per creare directory annidate):
 
-`mkdir -p {{percorso/della/directory}}`
+`mkdir {{-p|--parents}} {{percorso/della/directory}}`

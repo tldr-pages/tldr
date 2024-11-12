@@ -17,4 +17,4 @@
 
 - Use the specified [f]ont for annotations and paint the background [w]hite:
 
-`pcdovtoppm -a {{number}} -w {{path/to/file.pcd}} > {{path/to/output.ppm}}`
+`pcdovtoppm -f {{font}} -w {{path/to/file.pcd}} > {{path/to/output.ppm}}`

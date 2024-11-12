@@ -1,20 +1,24 @@
 # dir
 
-> Lis isi direktori.
+> Tampilkan daftar isi direktori.
 > Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
-- Tampilkan isi direktori saat ini:
+- Tampilkan daftar isi direktori saat ini:
 
 `dir`
 
-- Tampilkan isi direktori yang ditentukan:
+- Tampilkan daftar isi direktori yang ditentukan:
 
-`dir {{lokasi/ke/direktori}}`
+`dir {{jalan/menuju/direktori}}`
 
-- Tampilkan isi dari direktori saat ini, termasuk yang disembunyikan:
+- Tampilkan daftar isi dari direktori saat ini, termasuk yang disembunyikan:
 
-`dir /A`
+`dir /a`
 
-- Tampilkan isi direktori yang ditentukan, termasuk yang disembunyikan:
+- Tampilkan daftar isi direktori yang ditentukan, termasuk yang disembunyikan:
 
-`dir {{lokasi/ke/direktori}} /A`
+`dir {{jalan/menuju/direktori}} /a`
+
+- Hanya tampilkan daftar isi tanpa informasi tambahahan mengenai masing-masing berkas dan subdirektori:
+
+`dir /b`

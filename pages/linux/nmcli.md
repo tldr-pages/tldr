@@ -1,7 +1,7 @@
 # nmcli
 
 > Manage the network configuration using NetworkManager.
-> More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - View documentation for running `nmcli` as a NetworkManager secret/polkit agent:
 

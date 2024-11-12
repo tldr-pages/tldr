@@ -1,6 +1,7 @@
 # dolphin
 
 > KDE's file manager to manage files and directories.
+> See also: `nautilus`, `caja`, `thunar`, `ranger`.
 > More information: <https://apps.kde.org/dolphin/>.
 
 - Launch the file manager:

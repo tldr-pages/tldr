@@ -26,3 +26,7 @@
 - Define o brilho de LVDS1 como 50%:
 
 `xrandr --output {{LVDS1}} --brightness {{0.5}}`
+
+- Mostra o estado atual de qualquer servidor X:
+
+`xrandr --display :{{0}} --query`

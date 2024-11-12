@@ -1,7 +1,7 @@
 # docker images
 
 > Manage Docker images.
-> More information: <https://docs.docker.com/engine/reference/commandline/images/>.
+> More information: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
 - List all Docker images:
 
@@ -25,4 +25,4 @@
 
 - Sort images by size:
 
-`docker images --format "{{.ID}}\t{{.Size}}\t{{.Repository}}:{{.Tag}}" | sort -k 2 -h`
+`docker images --format "\{\{.ID\}\}\t\{\{.Size\}\}\t\{\{.Repository\}\}:\{\{.Tag\}\}" | sort -k 2 -h`

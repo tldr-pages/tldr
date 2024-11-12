@@ -2,7 +2,7 @@
 
 > Multiplayer infinite-world block sandbox server.
 > See also `minetest`, the graphical client.
-> More information: <https://wiki.minetest.net/Setting_up_a_server>.
+> More information: <https://wiki.minetest.org/Setting_up_a_server>.
 
 - Start the server:
 

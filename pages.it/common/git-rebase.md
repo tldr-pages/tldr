@@ -10,7 +10,7 @@
 
 - Avvia un rebase interattivo, che consente di riordinare, omettere, unire o modificare i commit:
 
-`git rebase -i {{nome_ramo_o_commit_hash}}`
+`git rebase {{-i|--interactive}} {{nome_ramo_o_commit_hash}}`
 
 - Prosegui con un rebase che era stato sospeso da un errore di unione, dopo aver risolto i conflitti:
 
@@ -30,8 +30,8 @@
 
 - Applica gli ultimi 5 commit locali, consentendo di riordinarli, ometterli, unirli o modificarli:
 
-`git rebase -i {{HEAD~5}}`
+`git rebase {{-i|--interactive}} {{HEAD~5}}`
 
 - Risolvi automaticamente i conflitti a favore del ramo di versione corrente (la parola chiave `theirs` ha qui un significato opposto):
 
-`git rebase -X theirs {{nome_ramo}}`
+`git rebase {{-X|--strategy-option}} theirs {{nome_ramo}}`

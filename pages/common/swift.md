@@ -5,7 +5,7 @@
 
 - Start a REPL (interactive shell):
 
-`swift`
+`swift repl`
 
 - Execute a program:
 

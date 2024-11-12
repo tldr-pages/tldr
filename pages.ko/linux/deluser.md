@@ -1,7 +1,7 @@
 # deluser
 
 > 유저 계정 제거 또는 그룹으로부터 사용자 제거.
-> 더 많은 정보: <https://manpages.debian.org/latest/adduser/deluser.html>.
+> 더 많은 정보: <https://manned.org/deluser>.
 
 - 유저 삭제:
 

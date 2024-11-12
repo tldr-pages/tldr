@@ -2,7 +2,7 @@
 
 > Generate an LALR parser (in C) with a formal grammar specification file.
 > See also: `bison`.
-> More information: <https://manned.org/man/yacc.1p>.
+> More information: <https://manned.org/yacc.1p>.
 
 - Create a file `y.tab.c` containing the C parser code and compile the grammar file with all necessary constant declarations for values. (Constant declarations file `y.tab.h` is created only when the `-d` flag is used):
 

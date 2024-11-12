@@ -1,7 +1,7 @@
 # bootctl
 
 > 控制EFI固件启动设置并管理启动加载器。
-> 更多信息：<https://manned.org/bootctl>。
+> 更多信息：<https://manned.org/bootctl>.
 
 - 显示系统固件和启动加载器的信息：
 

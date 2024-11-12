@@ -17,8 +17,8 @@
 
 - نمایش لاگ های مربوط به یک PID مشخص :
 
-`logcat --pid={{pid}}`
+`logcat --pid {{pid}}`
 
 - نمایش لاگ های پروسه های مربوط به یک بسته مشخص :
 
-`logcat --pid=$(pidof -s {{package}})`
+`logcat --pid $(pidof -s {{package}})`

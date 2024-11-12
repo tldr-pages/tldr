@@ -1,13 +1,13 @@
 # atq
 
-> Pokaż oczekujące zadania użytkownika wprowadzone wcześniej przez polecenia `at` lub `batch`.
+> Pokaż zadania zaplanowane przez polecenia `at` lub `batch`.
 > Więcej informacji: <https://manned.org/atq>.
 
-- Pokaż zaplanowane zadania:
+- Pokaż zaplanowane zadania bieżącego użytkownika:
 
 `atq`
 
-- Pokaż zadania z kolejki oznaczonej 'a' (kolejki mają jednoznakowe identyfikatory):
+- Pokaż zadania z kolejki 'a' (kolejki mają jednoznakowe nazwy):
 
 `atq -q {{a}}`
 

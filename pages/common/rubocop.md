@@ -9,7 +9,7 @@
 
 - Check one or more specific files or directories:
 
-`rubocop {{path/to/file}} {{path/to/directory}}`
+`rubocop {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Write output to file:
 
@@ -21,11 +21,11 @@
 
 - Exclude a cop:
 
-`rubocop --except {{cop_1}} {{cop_2}}`
+`rubocop --except {{cop1 cop2 ...}}`
 
 - Run only specified cops:
 
-`rubocop --only {{cop_1}} {{cop_2}}`
+`rubocop --only {{cop1 cop2 ...}}`
 
 - Auto-correct files (experimental):
 

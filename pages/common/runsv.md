@@ -1,7 +1,7 @@
 # runsv
 
 > Start and manage a runit service.
-> More information: <https://manpages.ubuntu.com/manpages/latest/man8/runsv.8.html>.
+> More information: <https://manned.org/runsv.8>.
 
 - Start a runit service as the current user:
 

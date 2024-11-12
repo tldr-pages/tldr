@@ -2,7 +2,7 @@
 
 > Hulpprogramma voor pakketbeheer van Debian en Ubuntu.
 > Zoek naar pakketten met `apt-cache`.
-> Meer informatie: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+> Meer informatie: <https://manned.org/apt-get.8>.
 
 - Werk de lijst van beschikbare pakketten en versies bij (het wordt aanbevolen dit uit te voeren voor elk ander `apt-get` commando):
 

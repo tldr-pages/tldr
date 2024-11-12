@@ -3,14 +3,14 @@
 > Me-reverse engineer berkas APK.
 > Informasi lebih lanjut: <https://ibotpeaches.github.io/Apktool/>.
 
-- Dekode berkas APK:
+- Bongkar isi ([d]ekode) berkas APK:
 
 `apktool d {{berkas.apk}}`
 
-- Men-build folder menjadi berkas APK:
+- [b]angun kode sumber dalam suatu direktori menjadi berkas APK:
 
-`apktool b {{alamat/ke/direktori}}`
+`apktool b {{jalan/menuju/direktori}}`
 
-- Menginstal dan menyimpan frameworks:
+- Pasang ([i]nstal) dan simpan komponen [f]rameworks dari suatu berkas APK:
 
 `apktool if {{framework.apk}}`

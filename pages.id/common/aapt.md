@@ -1,17 +1,17 @@
 # aapt
 
 > Alat Pemaketan Android Asset.
-> Menyusun dan memaketkan resource aplikasi Android.
-> Informasi lebih lanjut: <https://elinux.org/Android_aapt>.
+> Susun dan buat paket resource aplikasi Android.
+> Informasi lebih lanjut: <https://manned.org/aapt>.
 
-- Daftar berkas-berkas yang termuat dalam arsip APK:
+- Tampilkan daftar berkas yang termuat dalam suatu arsip APK:
 
-`aapt list {{alamat/ke/aplikasi.apk}}`
+`aapt list {{jalan/menuju/aplikasi.apk}}`
 
-- Menampilkan metadata aplikasi (versi, izin, dsb.):
+- Tampilkan metadata aplikasi (versi, izin, dsb.):
 
-`aapt dump badging {{alamat/ke/aplikasi.apk}}`
+`aapt dump badging {{jalan/menuju/aplikasi.apk}}`
 
-- Membuat arsip APK baru dengan berkas dari direktory yang ditentukan:
+- Buat suatu arsip APK baru dengan berkas dari direktori yang ditentukan:
 
-`aapt package -F {{alamat/ke/aplikasi.apk}} {{alamat/ke/direktori}}`
+`aapt package -F {{jalan/menuju/aplikasi.apk}} {{jalan/menuju/direktori}}`

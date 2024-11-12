@@ -1,7 +1,7 @@
 # calendar
 
 > Mostra eventos de um arquivo calendar.
-> Mais informações: <https://www.commandlinux.com/man-page/man1/calendar.1.html>.
+> Mais informações: <https://manned.org/calendar>.
 
 - Mostra eventos para hoje e amanhã (ou para o final de semana na sexta-feira) do calendário padrão:
 

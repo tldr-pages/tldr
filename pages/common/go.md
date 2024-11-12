@@ -1,7 +1,7 @@
 # go
 
 > Manage Go source code.
-> Some subcommands such as `go build` have their own usage documentation.
+> Some subcommands such as `build` have their own usage documentation.
 > More information: <https://golang.org>.
 
 - Download and install a package, specified by its import path:

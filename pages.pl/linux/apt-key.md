@@ -2,7 +2,7 @@
 
 > Narzędzie do zarządzania kluczami menedżera pakietów APT dla Debiana i Ubuntu.
 > Notatka: `apt-key` jest aktualnie przestarzały (za wyjątkiem użycia `apt-key del` w skryptach opiekunów).
-> Więcej informacji: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
+> Więcej informacji: <https://manned.org/apt-key.8>.
 
 - Wyświetl zaufane klucze:
 

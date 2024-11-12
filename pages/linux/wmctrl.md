@@ -23,6 +23,6 @@
 
 `wmctrl -r {{window_title}} -b toggle,fullscreen`
 
-- Select a window a move it to a workspace:
+- Select a window and move it to a workspace:
 
 `wmctrl -r {{window_title}} -t {{workspace_number}}`

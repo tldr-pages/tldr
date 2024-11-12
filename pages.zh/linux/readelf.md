@@ -1,7 +1,7 @@
 # readelf
 
 > 显示 EFI 文件信息。
-> 更多信息：<http://man7.org/linux/man-pages/man1/readelf.1.html>.
+> 更多信息：<https://manned.org/readelf.1>.
 
 - 显示 ELF 所有文件信息：
 

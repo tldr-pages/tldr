@@ -1,7 +1,7 @@
 # rails db
 
 > Beragam subperintah yang berkaitan dengan database untuk Rauby on Rails.
-> Informasi lebih lanjut: <https://guides.rubyonrails.org/command_line.html>.
+> Informasi lebih lanjut: <https://guides.rubyonrails.org/active_record_migrations.html>.
 
 - Buat pangkalan data (database) baru, memuat skema dan menginisiasinya dengan data awal:
 

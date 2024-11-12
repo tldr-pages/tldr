@@ -1,7 +1,7 @@
 # cat
 
 > Dosyaları yazdır ve birleştir.
-> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/cat>.
+> Daha fazla bilgi için: <https://manned.org/cat.1posix>.
 
 - Bir dosyanın içeriğini standart çıktıya yazdır:
 

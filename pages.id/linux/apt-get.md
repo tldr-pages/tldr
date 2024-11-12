@@ -2,7 +2,7 @@
 
 > Manajemen paket untuk Debian dan Ubuntu.
 > Cari paket menggunakan `apt-cache`.
-> Informasi lebih lanjut: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+> Informasi lebih lanjut: <https://manned.org/apt-get.8>.
 
 - Perbarui daftar paket yang tersedia beserta versinya (hal ini direkomendasikan untuk dijalankan sebelum menjalankan perintah `apt-get` yang lain):
 

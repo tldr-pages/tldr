@@ -2,7 +2,7 @@
 
 > Extract fields from a flat database file and write to another format.
 > A configuration file is required to interpret the input and format the output.
-> More information: <http://ff-extractor.sourceforge.net/ffe.html>.
+> More information: <https://ff-extractor.sourceforge.net/ffe.html>.
 
 - Display all input data using the specified data configuration:
 

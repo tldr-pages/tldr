@@ -1,16 +1,24 @@
 # at
 
 > Execute commands once at a later time.
-> Service atd (or atrun) should be running for the actual executions.
+> Results will be sent to the users mail.
 > More information: <https://manned.org/at>.
 
-- Execute commands from `stdin` in 5 minutes (press `Ctrl + D` when done):
+- Start the `atd` daemon:
+
+`systemctl start atd`
+
+- Create commands interactively and execute them in 5 minutes (press `<Ctrl> + D` when done):
 
 `at now + 5 minutes`
 
+- Create commands interactively and execute them at a specific time:
+
+`at {{hh:mm}}`
+
 - Execute a command from `stdin` at 10:00 AM today:
 
-`echo "{{./make_db_backup.sh}}" | at 1000`
+`echo "{{command}}" | at 1000`
 
 - Execute commands from a given file next Tuesday:
 

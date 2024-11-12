@@ -3,7 +3,7 @@
 > Утиліта для керування пакетами Arch Linux.
 > Дивіться також: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 > Для еквівалентних команд в інших менеджерах пакетів дивіться <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> Більше інформації: <https://man.archlinux.org/man/pacman.8>.
+> Більше інформації: <https://manned.org/pacman.8>.
 
 - Синхронізувати та оновити всі пакети:
 

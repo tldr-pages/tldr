@@ -1,7 +1,7 @@
 # apt-key
 
 > Gerenciador de chaves utilizado pelo gerenciador de pacotes APT nas distribuições baseadas em Debian.
-> Mais informações: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
+> Mais informações: <https://manned.org/apt-key.8>.
 
 - Exibe as chaves confiáveis:
 

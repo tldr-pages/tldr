@@ -3,34 +3,34 @@
 > Encuentra patrones en archivos usando expresiones regulares.
 > Más información: <https://www.gnu.org/software/grep/manual/grep.html>.
 
-- Busca un patrón dentro de un archivo:
+- Busca un patrón en un archivo:
 
-`grep "{{patrón_de_busqueda}}" {{ruta/al/archivo}}`
+`grep "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
-- Busca una cadena exacta (desactiva las expresiones regulares):
+- Busca una cadena de caracteres específica (la cadena no será interpretada como una expresión regular):
 
-`grep --fixed-strings "{{cadena_exacta}}" {{ruta/al/archivo}}`
+`grep {{-F|--fixed-strings}} "{{cadena_exacta}}" {{ruta/al/archivo}}`
 
-- Busca un patrón en todos los archivos de forma recursiva en un directorio, mostrando los números de línea de las coincidencias, ignorando los archivos binarios:
+- Busca un patrón en todos los archivos de forma recursiva en un directorio, mostrando los números de línea de las coincidencias e ignorando los archivos binarios:
 
-`grep --recursive --line-number --binary-files={{sin-parejamiento}} "{{patrón_de_búsqueda}}" {{ruta/al/directorio}}`
+`grep {{-r|--recursive}} {{-n|--line-number}} --binary-files {{without-match}} "{{patrón_de_búsqueda}}" {{ruta/al/directorio}}`
 
-- Utiliza expresiones regulares extendidas (admite `?`, `+`, `{}`, `()` y `|`), sin distinguir entre mayúsculas y minúsculas:
+- Utiliza expresiones regulares extendidas (los metacaracteres `?`, `+`, `{}`, `()` y `|` no requieren de una barra inversa), sin distinguir entre mayúsculas y minúsculas:
 
-`grep --extended-regexp --ignore-case " {{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
+`grep {{-E|--extended-regexp}} {{-i|--ignore-case}} "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
-- Imprime 3 líneas de contexto alrededor, antes o después de cada coincidencia:
+- Imprime 3 líneas alrededor, antes o después de cada coincidencia:
 
-`grep --{{context|before-context|after-context}}={{3}} "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
+`grep --{{context|before-context|after-context}} 3 "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
-- Imprime el nombre del archivo y el número de línea de cada coincidencia con salida en color:
+- Imprime con colores el nombre del archivo y el número de línea de cada coincidencia:
 
-`grep --with-filename --line-number --color=always "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
+`grep {{-H|--with-filename}} {{-n|--line-number}} --color=always "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
-- Busca líneas que coincidan con un patrón e imprime sólo el texto coincidente:
+- Busca líneas que coincidan con un patrón e imprime solo el texto coincidente:
 
-`grep --only-matching "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
+`grep {{-o|--only-matching}} "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
-- Busca `stdin` en las líneas que no coincidan con un patrón:
+- Busca líneas en`stdin` que no coincidan con el patrón:
 
-`cat {{ruta/al/archivo}} | grep --invert-match "{{patrón_de_busqueda}}"`
+`cat {{ruta/al/archivo}} | grep {{-v|--invert-match}} "{{patrón_de_busqueda}}"`

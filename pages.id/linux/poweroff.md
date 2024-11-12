@@ -1,7 +1,7 @@
 # poweroff
 
 > Matikan sistem.
-> Informasi lebih lanjut: <https://www.man7.org/linux/man-pages/man8/poweroff.8.html>.
+> Informasi lebih lanjut: <https://www.manned.org/poweroff>.
 
 - Matikan sistem:
 
@@ -17,7 +17,7 @@
 
 - Matikan segera tanpa menghubungi manajer sistem:
 
-`poweroff --force --force`
+`poweroff --force`
 
 - Tulis entri wtmp shutdown tanpa mematikan sistem:
 

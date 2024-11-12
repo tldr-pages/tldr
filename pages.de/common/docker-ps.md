@@ -1,7 +1,7 @@
 # docker ps
 
 > Liste Docker Container.
-> Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/ps/>.
+> Weitere Informationen: <https://docs.docker.com/reference/cli/docker/container/ls/>.
 
 - Liste zur Zeit laufende Container auf:
 
@@ -17,7 +17,7 @@
 
 - Zeige nur Container mit einer bestimmten Zeichenkette im Namen:
 
-`docker ps --filter="name={{name}}"`
+`docker ps --filter "name={{name}}"`
 
 - Zeige nur Container die von einem bestimmten Image abstammen:
 
@@ -25,12 +25,12 @@
 
 - Zeige nur Container mit einem bestimmten Exit-Code:
 
-`docker ps --all --filter="exited={{code}}"`
+`docker ps --all --filter "exited={{code}}"`
 
 - Zeige nur Container mit einem bestimmten Status (created, running, removing, paused, exited und dead):
 
-`docker ps --filter="status={{status}}"`
+`docker ps --filter "status={{status}}"`
 
 - Zeige nur Container, welche einen bestimmten Datenträger oder einen Datenträger an einem bestimmten Pfad eingehängt haben:
 
-`docker ps --filter="volume={{pfad/zum/verzeichnis}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker ps --filter "volume={{pfad/zu/verzeichnis}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`

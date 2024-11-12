@@ -4,9 +4,9 @@
 > Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/vm>.
 
-- List details of available Virtual Machines:
+- Display a table of available Virtual Machines:
 
-`az vm list`
+`az vm list --output table`
 
 - Create a virtual machine using the default Ubuntu image and generate SSH keys:
 

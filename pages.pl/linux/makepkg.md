@@ -2,7 +2,7 @@
 
 > Utwórz pakiet do użycia przez `pacman`-a.
 > Domyślnie używa pliku `PKGBUILD` w aktualnym katalogu roboczym.
-> Więcej informacji: <https://man.archlinux.org/man/makepkg.8>.
+> Więcej informacji: <https://manned.org/makepkg.8>.
 
 - Utwórz pakiet:
 

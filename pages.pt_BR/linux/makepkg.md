@@ -2,7 +2,7 @@
 
 > Monta um pacote que pode ser usado junto ao `pacman`.
 > Utiliza por padrão o arquivo `PKGBUILD` no diretório de trabalho atual.
-> Mais informações: <https://man.archlinux.org/man/makepkg.8>.
+> Mais informações: <https://manned.org/makepkg.8>.
 
 - Monta um pacote:
 

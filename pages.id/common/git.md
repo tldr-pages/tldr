@@ -4,26 +4,26 @@
 > Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `commit`, `add`, `branch`, `checkout`, `push`, dsb.
 > Informasi lebih lanjut: <https://git-scm.com/>.
 
-- Periksa versi Git:
+- Jalankan suatu subperintah Git:
 
-`git --version`
+`git {{subperintah}}`
+
+- Jalankan suatu subperintah terhadap suatu direktori repositori:
+
+`git -C {{jalan/menuju/repo}} {{subperintah}}`
+
+- Jalankan suatu subperintah dengan set konfigurasi/pengaturan tertentu:
+
+`git -c '{{kunci.config}}={{nilai}}' {{subperintah}}`
 
 - Tampilkan bantuan umum:
 
 `git --help`
 
-- Tampilkan bantuan pada sub perintah Git (seperti `commit`,` log`, dll.):
+- Tampilkan bantuan pada subperintah Git (seperti `clone`,` add`, `push`, `log`, dll.):
 
 `git help {{subcommand}}`
 
-- Jalankan subperintah Git:
+- Periksa versi Git:
 
-`git {{subcommand}}`
-
-- Jalankan subperintah Git di jalur root repositori kustom:
-
-`git -C {{alamat/ke/repositori}} {{subcommand}}`
-
-- Jalankan subperintah Git dengan set konfigurasi yang diberikan:
-
-`git -c '{{config.key}}={{value}}' {{subcommand}}`
+`git --version`

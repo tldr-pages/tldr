@@ -1,25 +1,25 @@
 # ps
 
-> Informasi tentang proses-proses yang berlangsung.
+> Tampilkan informasi tentang proses-proses yang berlangsung.
 > Informasi lebih lanjut: <https://manned.org/ps>.
 
-- Menampilkan daftar semua proses yang berlangsung:
+- Tampilkan daftar seluruh proses yang berlangsung:
 
 `ps aux`
 
-- Menampilkan daftar semua proses yang berlangsung termasuk _string_ perintah secara utuh:
+- Tampilkan daftar seluruh proses yang berlangsung termasuk string perintah secara utuh:
 
 `ps auxww`
 
-- Mencari proses yang sesuai dengan _string_:
+- Cari proses berdasarkan teks/string kriteria (penambahan kurung siku akan mencegah `grep` untuk mencocokkan dirinya sendiri):
 
-`ps aux | grep {{string}}`
+`ps aux | grep {{[s]tring}}`
 
-- Menampilkan daftar semua proses pengguna yang berlangsung dengan format tambahan yang utuh:
+- Tampilkan daftar seluruh proses dari pengguna saat ini dengan format tambahan ekstra:
 
 `ps --user $(id -u) -F`
 
-- Menampilkan daftar semua proses pengguna yang berlangsung sebagai pohon:
+- Tampilkan daftar seluruh proses dari pengguna saat ini dalam format pohon:
 
 `ps --user $(id -u) f`
 

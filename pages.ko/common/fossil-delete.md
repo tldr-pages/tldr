@@ -1,4 +1,4 @@
-# fossil-delete
+# fossil delete
 
 > 이 명령은 `fossil rm` 의 에일리어스 (별칭) 입니다.
 > 더 많은 정보: <https://fossil-scm.org/home/help/delete>.

@@ -8,7 +8,7 @@
 
 `sudo dnf upgrade`
 
-- Cari paket yang tersedia dengan kata kunci tertentu:
+- Cari paket yang tersedia dengan kata-kata kunci tertentu:
 
 `dnf search {{kata_kunci1 kata_kunci2 ...}}`
 
@@ -16,11 +16,11 @@
 
 `dnf info {{paket}}`
 
-- Pasang sebuah paket (gunakan `-y` jawab untuk ya semua pertanyaan):
+- Pasang kumpulan paket (gunakan `-y` jawab untuk ya semua pertanyaan):
 
 `sudo dnf install {{paket1 paket2 ...}}`
 
-- Hapus sebuah paket:
+- Hapus kumpulan paket:
 
 `sudo dnf remove {{paket1 paket2 ...}}`
 

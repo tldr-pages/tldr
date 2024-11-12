@@ -1,7 +1,7 @@
 # poweroff
 
 > Desliga o sistema.
-> Mais informações: <https://www.man7.org/linux/man-pages/man8/poweroff.8.html>.
+> Mais informações: <https://www.manned.org/poweroff>.
 
 - Desliga o sistema:
 
@@ -17,7 +17,7 @@
 
 - Desliga imediatamente sem contato com o gerenciador do sistema:
 
-`poweroff --force --force`
+`poweroff --force`
 
 - Grava a entrada de desligamento wtmp sem desligar o sistema:
 

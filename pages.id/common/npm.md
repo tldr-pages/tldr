@@ -18,11 +18,11 @@
 
 - Unduh paket dan menambahkan ke daftar dependensi dev di package.json:
 
-`npm install {{nama_modul}} --save-dev`
+`npm install {{nama_modul}} {{-D|--save-dev}}`
 
 - Unduh paket dan instal secara global:
 
-`npm install --global {{nama_modul}}`
+`npm install {{-g|--global}} {{nama_modul}}`
 
 - Copot pemasangan paket dan hapus dari daftar dependensi di `package.json`:
 
@@ -34,4 +34,4 @@
 
 - Buat daftar modul tingkat atas yang diinstal secara global:
 
-`npm list --global --depth={{0}}`
+`npm list {{-g|--global}} --depth {{0}}`

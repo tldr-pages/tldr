@@ -25,4 +25,4 @@
 
 - Create an archive with an 8 MB block size:
 
-`yaa archive -b {{8m}} -d {{path/to/directory}} -o {{path/to/output_file.yaa}}`
+`yaa archive -b 8m -d {{path/to/directory}} -o {{path/to/output_file.yaa}}`

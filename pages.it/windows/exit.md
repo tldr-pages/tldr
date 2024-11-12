@@ -7,7 +7,7 @@
 
 `exit`
 
-- Esci dallo script batch corrente:
+- Esci dallo script [b]atch corrente:
 
 `exit /b`
 

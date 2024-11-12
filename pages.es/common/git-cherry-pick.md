@@ -8,13 +8,13 @@
 
 `git cherry-pick {{confirmación}}`
 
-- Aplica un rango de confirmaciones de la rama actual (véase también `git rebase --onto`):
+- Aplica un rango de confirmaciones de la rama actual (vea también `git rebase --onto`):
 
 `git cherry-pick {{confirmación_inicial}}~..{{confirmación_final}}`
 
 - Aplica múltiples confirmaciones no secuenciales a la rama actual:
 
-`git cherry-pick {{confirmación_1}} {{confirmación_2}}`
+`git cherry-pick {{confirmación_1 confirmación_2 ...}}`
 
 - Añade los cambios de una confirmación al directorio de trabajo, sin crear una confirmación:
 

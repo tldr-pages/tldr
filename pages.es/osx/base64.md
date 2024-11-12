@@ -1,20 +1,28 @@
 # base64
 
-> Codifica y decodifica usando la representación Base64.
+> Codifica o decodifica un archivo o `stdin` a/desde base64, a `stdout` o a otro archivo.
 > Más información: <https://keith.github.io/xcode-man-pages/base64.1.html>.
 
-- Codifica un archivo:
+- Codifica un archivo a `stdout`:
 
-`base64 --input={{archivo_plano}}`
+`base64 {{-i|--input}} {{ruta/al/archivo}}`
 
-- Decodifica un archivo:
+- Codificar un archivo en el archivo de salida especificado:
 
-`base64 --decode --input={{base64_archivo}}`
+`base64 {{-i|--input}} {{ruta/al/archivo_de_entrada}} {{-o|--output}} {{ruta/al/archivo_salida}}`
 
-- Codifica desde `stdin`:
+- Ajusta la salida codificada a un ancho específico (`0` desactiva el ajuste):
 
-`echo -n "{{texto_plano}}" | base64`
+`base64 {{-b|--break}} {{0|76|...}} {{ruta/al/archivo}}`
 
-- Decodifica desde `stdin`:
+- Decodifica un archivo a `stdout`:
 
-`echo -n {{base64_texto}} | base64 --decode`
+`base64 {{-d|--decode}} {{-i|--input}} {{ruta/al/archivo}}`
+
+- Codifica de `stdin` a `stdout`:
+
+`{{comando}} | base64`
+
+- Decodifica de `stdin` a `stdout`:
+
+`{{comando}} | base64 {{-d|--decode}}`

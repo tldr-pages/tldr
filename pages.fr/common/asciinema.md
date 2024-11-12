@@ -25,7 +25,7 @@
 
 - Crée un nouvel enregistrement, en limitant le temps d’[i]nactivité au maximum à 2.5 secondes :
 
-`asciinema rec -i 2.5`
+`asciinema rec {{-i|--idle-time-limit}} 2.5`
 
 - Affiche la sortie complète d'un enregistrement local :
 

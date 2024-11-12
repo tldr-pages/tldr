@@ -10,7 +10,7 @@
 
 - Voer een specifiek script bestand uit en toon het resultaat in `stdout`:
 
-`{{commando}} | sed -f {{path/to/script_file.sed}}`
+`{{commando}} | sed -f {{pad/naar/script_bestand.sed}}`
 
 - Vervang alle `apple` (uitgebreide regex) met `APPLE` (uitgebreide regex) in alle invoerregels en toon het resultaat in `stdout`:
 

@@ -1,6 +1,6 @@
 # csslint
 
-> A linter for CSS code.
+> Lint CSS code.
 > More information: <https://github.com/CSSLint/csslint/wiki/Command-line-interface>.
 
 - Lint a single CSS file:

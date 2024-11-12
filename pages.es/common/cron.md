@@ -1,7 +1,8 @@
 # cron
 
-> Este comando es un alias de `crontab`.
+> Un programador del sistema para ejecutar trabajos o tareas desatendidas.
+> El comando para enviar, editar o borrar entradas en `cron` se llama `crontab`.
 
-- Muestra la documentación del comando original:
+- Vea documentación sobre la gestión de entradas de `cron`:
 
 `tldr crontab`

@@ -25,8 +25,8 @@
 
 - 排除由逗号分隔的主要设备编号列表指定的设备：
 
-`lsblk -e {{1,7}}`
+`lsblk -e {{1,7,...}}`
 
 - 使用逗号分隔的列列表显示自定义摘要：
 
-`lsblk --output {{NAME}},{{SERIAL}},{{MODEL}},{{TRAN}},{{TYPE}},{{SIZE}},{{FSTYPE}},{{MOUNTPOINT}}`
+`lsblk --output {{NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`

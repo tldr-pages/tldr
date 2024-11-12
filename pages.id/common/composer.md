@@ -3,23 +3,23 @@
 > Manajer paket untuk proyek PHP.
 > Informasi lebih lanjut: <https://getcomposer.org/>.
 
-- Membuat file `composer.json` secara interaktif:
+- Buat sebuah berkas `composer.json` secara interaktif:
 
 `composer init`
 
-- Menambahkan paket sebagai dependensi untuk proyek ini, menambahkan ke `composer.json`:
+- Tambahkan paket sebagai sebuah pustaka prasyarat (dependency) untuk proyek ini, menambahkan ke `composer.json`:
 
-`composer require {{user/nama_paket}}`
+`composer require {{nama_pengguna/nama_paket}}`
 
-- Menginstal semua dependensi dalam `composer.json` proyek ini dan membuat `composer.lock`:
+- Pasang seluruh prasyarat dalam `composer.json` proyek ini dan buat berkas `composer.lock`:
 
 `composer install`
 
-- Menghapus sebuah paket dari proyek ini, menghapus paket tersebut sebagai ketergantungan dari `composer.json`:
+- Hapus pemasangan suatu paket dalam proyek ini, sehingga menghapusnya dari entri prasyarat pada `composer.json` dan `composer.lock`:
 
-`composer remove {{user/nama_paket}}`
+`composer remove {{nama_pengguna/nama_paket}}`
 
-- Memperbarui semua dependensi dalam `composer.json` proyek ini dan memperbarui versi di file `composer.lock`:
+- Perbarui semua pustaka prasyarat dalam `composer.json` proyek ini dan catat versi-versi terkini dalam berkas `composer.lock`:
 
 `composer update`
 
@@ -27,10 +27,10 @@
 
 `composer update --lock`
 
-- Memcari tahu mengapa sebuah dependensi tidak dapat diinstal:
+- Cari tahu alasa mengapa sebuah dependensi tidak dapat dipasang:
 
 `composer why-not {{user/nama_paket}}`
 
-- Memperbarui composer ke versi terbaru:
+- Perbarui program composer menuju versi terbaru:
 
 `composer self-update`

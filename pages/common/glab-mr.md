@@ -1,7 +1,7 @@
 # glab mr
 
 > Manage GitLab merge requests.
-> Some subcommands such as `glab mr create` have their own usage documentation.
+> Some subcommands such as `create` have their own usage documentation.
 > More information: <https://glab.readthedocs.io/en/latest/mr>.
 
 - Create a merge request:

@@ -1,7 +1,7 @@
 # wacaw
 
 > Herramienta de línea de comandos para macOS para capturar imágenes fijas y videos desde una cámara adjunta.
-> Más información: <http://webcam-tools.sourceforge.net>.
+> Más información: <https://webcam-tools.sourceforge.net>.
 
 - Toma una foto desde la cámara web:
 

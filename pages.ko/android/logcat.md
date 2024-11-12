@@ -17,8 +17,8 @@
 
 - 특정 PID에 대한 로그 표시:
 
-`logcat --pid={{프로세스_id}}`
+`logcat --pid {{프로세스_id}}`
 
 - 특정 패키지의 프로세스에 대한 로그 표시:
 
-`logcat --pid=$(pidof -s {{패키지}})`
+`logcat --pid $(pidof -s {{패키지}})`

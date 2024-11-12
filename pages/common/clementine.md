@@ -1,6 +1,7 @@
 # clementine
 
 > A modern music player and library organizer.
+> See also: `audacious`, `qmmp`, `cmus`, `mpv`.
 > More information: <https://github.com/clementine-player/Clementine/wiki>.
 
 - Start the GUI or bring it to front:

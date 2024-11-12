@@ -2,7 +2,7 @@
 
 > XBPS utility to query for package and repository information.
 > See also: `xbps`.
-> More information: <https://man.voidlinux.org/xbps-query.1>.
+> More information: <https://manned.org/xbps-query.1>.
 
 - Search for a package in remote repositories using a regular expression or a keyword (if `--regex` is omitted):
 

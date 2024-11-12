@@ -1,7 +1,7 @@
 # docker system
 
 > Manage Docker data and display system-wide information.
-> More information: <https://docs.docker.com/engine/reference/commandline/system/>.
+> More information: <https://docs.docker.com/reference/cli/docker/system/>.
 
 - Display help:
 
@@ -21,7 +21,7 @@
 
 - Remove unused data created more than a specified amount of time in the past:
 
-`docker system prune --filter="until={{hours}}h{{minutes}}m"`
+`docker system prune --filter "until={{hours}}h{{minutes}}m"`
 
 - Display real-time events from the Docker daemon:
 

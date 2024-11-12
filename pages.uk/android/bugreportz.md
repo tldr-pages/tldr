@@ -12,10 +12,10 @@
 
 `bugreportz -p`
 
-- Вивести версію `bugreportz`:
-
-`bugreportz -v`
-
 - Показати допомогу:
 
 `bugreportz -h`
+
+- Вивести версію `bugreportz`:
+
+`bugreportz -v`

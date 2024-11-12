@@ -1,8 +1,8 @@
 # docker
 
 > 管理 Docker 容器和镜像。
-> 此命令也有关于其子命令的文件，例如：`docker run`.
-> 更多信息：<https://docs.docker.com/engine/reference/commandline/cli/>.
+> 此命令也有关于其子命令的文件，例如：`run`.
+> 更多信息：<https://docs.docker.com/reference/cli/docker/>.
 
 - 列出所有 Docker 容器（包括停止的容器）：
 
@@ -20,7 +20,11 @@
 
 `docker pull {{镜像}}`
 
-- 从正在运行的容器内打开一个 shell：
+- 显示已下载的镜像清单：
+
+`docker images`
+
+- 从正在运行的容器内打开一个交互式 ([i]nteractive) 终端 ([t]ty) shell (`sh`)：
 
 `docker exec -it {{容器名称}} {{sh}}`
 

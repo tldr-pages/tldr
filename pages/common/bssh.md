@@ -18,4 +18,4 @@
 
 - Browse for SSH servers in a specified domain:
 
-`bssh --domain={{domain}}`
+`bssh --domain {{domain}}`

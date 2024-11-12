@@ -1,7 +1,7 @@
 # ghdl
 
 > Simulateur à source ouvert pour le langage VHDL.
-> Plus d'informations : <http://ghdl.free.fr>.
+> Plus d'informations : <https://ghdl.github.io/ghdl/>.
 
 - Analyse un fichier de source VHDL et génère un fichier objet :
 

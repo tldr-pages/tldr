@@ -1,6 +1,6 @@
 # ansiweather
 
-> A shell script for displaying the current weather conditions in your terminal.
+> Display the current weather conditions in your terminal.
 > More information: <https://github.com/fcambus/ansiweather>.
 
 - Display a [f]orecast using metric [u]nits for the next seven days for a specific [l]ocation:

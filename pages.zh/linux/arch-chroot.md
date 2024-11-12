@@ -1,7 +1,7 @@
 # arch-chroot
 
 > 辅助 Arch Linux 安装流程的更强 `chroot` 命令。
-> 更多信息：<https://man.archlinux.org/man/arch-chroot.8>.
+> 更多信息：<https://manned.org/arch-chroot.8>.
 
 - 在新的根目录下开启一个交互外壳程序（默认是 Bash）：
 

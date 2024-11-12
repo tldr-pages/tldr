@@ -1,7 +1,7 @@
 # docker container
 
 > Gerenciar contêineres Docker.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/container/>.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/container/>.
 
 - Lista os contêineres Docker em execução:
 

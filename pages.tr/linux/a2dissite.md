@@ -1,7 +1,7 @@
 # a2dissite
 
 > Debian tabanlı işletim sistemlerinde bir Apache sanal hostunu devre dışı bırak.
-> Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2dissite.8.en.html>.
+> Daha fazla bilgi için: <https://manned.org/a2dissite.8>.
 
 - Uzak hostu devre dışı bırak:
 

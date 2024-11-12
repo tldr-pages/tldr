@@ -1,16 +1,16 @@
 # fuck
 
-> Mengoreksi perintah konsol sebelumnya.
+> Koreksi perintah konsol sebelumnya.
 > Informasi lebih lanjut: <https://github.com/nvbn/thefuck>.
 
-- Memasang `fuck` alias ke alat `thefuck`:
+- Pasang alias `fuck` ke alat `thefuck`:
 
 `eval "$(thefuck --alias)"`
 
-- Mencoba mencocokkan aturan untuk perintah sebelumnya:
+- Coba cocokkan aturan untuk perintah sebelumnya:
 
 `fuck`
 
-- Langsung memilih pilihan pertama (argumen yang benar tergantung dari tingkat kejengkelan):
+- Pilih pilihan pertama secara langsung (argumen yang benar tergantung dari tingkat kejengkelan):
 
 `fuck --{{yes|yeah|hard}}`

@@ -1,7 +1,7 @@
 # kdialog
 
 > Show KDE dialog boxes from within shell scripts.
-> More information: <https://develop.kde.org/deploy/kdialog/>.
+> More information: <https://develop.kde.org/docs/administration/kdialog/>.
 
 - Open a dialog box displaying a specific message:
 

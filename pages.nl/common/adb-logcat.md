@@ -25,11 +25,11 @@
 
 - Geef logboeken weer voor een specifiek proces:
 
-`adb logcat --pid={{pid}}`
+`adb logcat --pid {{pid}}`
 
 - Logboeken weergeven voor het proces van een specifiek pakket:
 
-`adb logcat --pid=$(adb shell pidof -s {{pakket}})`
+`adb logcat --pid $(adb shell pidof -s {{pakket}})`
 
 - Kleur de log in (gebruik meestal met filters):
 

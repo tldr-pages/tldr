@@ -2,7 +2,7 @@
 
 > Debian系ディストリビューションで使われるパッケージ管理システムです。
 > Ubuntuのバージョンが16.04か、それ以降で対話モードを使う場合`apt-get`の代わりとして使用します。
-> 詳しくはこちら: <https://manpages.debian.org/latest/apt/apt.8.html>
+> 詳しくはこちら: <https://manned.org/apt.8>
 
 - 利用可能なパーケージとバージョンのリストの更新（他の`apt`コマンドの前での実行を推奨）:
 

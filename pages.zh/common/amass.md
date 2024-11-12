@@ -1,7 +1,7 @@
 # amass
 
 > 深度攻击面探测与资产发现工具。
-> 此命令也有关于其子命令的文件，例如：`amass intel`.
+> 此命令也有关于其子命令的文件，例如：`intel`.
 > 更多信息：<https://github.com/owasp-amass/amass>.
 
 - 执行 Amass 子命令：

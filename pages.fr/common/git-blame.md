@@ -9,4 +9,4 @@
 
 - Affiche le hash de commit le nom et l email de l auteur en face de chaque ligne :
 
-`git blame -e {{file}}`
+`git blame {{-e|--show-email}} {{file}}`

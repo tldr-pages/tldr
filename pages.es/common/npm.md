@@ -1,12 +1,12 @@
 # npm
 
 > Gestor de paquetes JavaScript y Node.js.
-> Gestiona proyectos de Node.js y sus módulos de dependencias.
+> Gestiona proyectos Node.js y sus dependencias de módulos.
 > Más información: <https://www.npmjs.com>.
 
-- Creación interactiva de un archivo `package.json`:
+- Crea un archivo `package.json` con los valores por defecto (omite --yes para hacerlo de forma interactiva):
 
-`npm init`
+`npm init {{-y|--yes}}`
 
 - Descarga todos los paquetes listados como dependencias en `package.json`:
 
@@ -18,13 +18,13 @@
 
 - Descarga la última versión de un paquete y lo añade a la lista de dependencias de desarrollo en `package.json`:
 
-`npm install {{nombre_paquete}} --save-dev`
+`npm install {{nombre_paquete}} {{-D|--save-dev}}`
 
 - Descarga la última versión de un paquete y lo instala globalmente:
 
-`npm install --global {{nombre_paquete}}`
+`npm install {{-g|--global}} {{nombre_paquete}}`
 
-- Desinstala un paquete y lo remueve de la lista de dependencias en `package.json`:
+- Desinstala un paquete y lo elimina de la lista de dependencias en `package.json`:
 
 `npm uninstall {{nombre_paquete}}`
 
@@ -32,6 +32,6 @@
 
 `npm list`
 
-- Lista de paquetes instalados globalmente de nivel superior:
+- Lista los paquetes instalados globalmente:
 
-`npm list --global --depth={{0}}`
+`npm list {{-g|--global}} --depth {{0}}`

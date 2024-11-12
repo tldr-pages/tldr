@@ -1,7 +1,7 @@
 # repo-remove
 
 > Package database maintenance utility which removes packages from a local repository.
-> More information: <https://man.archlinux.org/man/repo-add>.
+> More information: <https://manned.org/repo-add>.
 
 - Remove a package from a local repository:
 

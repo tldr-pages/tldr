@@ -18,7 +18,7 @@
 
 - Enumera todas las etiquetas de una suscripción:
 
-`az tag list --resource-id /subscriptions/{{subscription_id}}`
+`az tag list --resource-id /subscriptions/{{identificador_de_subscripción}}`
 
 - Elimina un valor de etiqueta para un nombre de etiqueta específico:
 

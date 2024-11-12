@@ -1,7 +1,7 @@
 # checkinstall
 
 > Track the local installation of a software package, and produce a binary package which can be used with a system's native package manager.
-> More information: <http://checkinstall.izto.org>.
+> More information: <https://checkinstall.izto.org>.
 
 - Create and install a package with default settings:
 

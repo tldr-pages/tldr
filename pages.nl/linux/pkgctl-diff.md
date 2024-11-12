@@ -2,7 +2,7 @@
 
 > Vergelijk pakketbestanden met behulp van verschillende modi.
 > Bekijk ook: `pkgctl`.
-> Meer informatie: <https://man.archlinux.org/man/pkgctl-diff.1>.
+> Meer informatie: <https://manned.org/pkgctl-diff.1>.
 
 - Vergelijk pakketbestanden in tar-inhoud [l]ijst verschillende modus (standaard):
 

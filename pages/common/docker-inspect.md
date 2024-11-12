@@ -1,7 +1,7 @@
 # docker inspect
 
 > Return low-level information on Docker objects.
-> More information: <https://docs.docker.com/engine/reference/commandline/inspect/>.
+> More information: <https://docs.docker.com/reference/cli/docker/inspect/>.
 
 - Display help:
 

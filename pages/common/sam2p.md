@@ -1,7 +1,7 @@
 # sam2p
 
 > Raster (bitmap) image converter with smart PDF and PostScript (EPS) output.
-> More information: <http://pts.50.hu/sam2p/>.
+> More information: <https://github.com/pts/sam2p>.
 
 - Concatenate all PDF files into one:
 

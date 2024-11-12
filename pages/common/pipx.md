@@ -26,3 +26,7 @@
 - Install a package in a virtual environment with pip arguments:
 
 `pipx install --pip-args='{{pip-args}}' {{package}}`
+
+- Upgrade/reinstall/uninstall all installed packages:
+
+`pipx {{upgrade-all|uninstall-all|reinstall-all}}`

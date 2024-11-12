@@ -1,7 +1,7 @@
 # kdesrc-build
 
 > Easily build KDE components from its source repositories.
-> More information: <https://invent.kde.org/sdk/kdesrc-build>.
+> More information: <https://docs.kde.org/trunk5/en/kdesrc-build/kdesrc-build/index.html>.
 
 - Initialize `kdesrc-build`:
 
@@ -23,9 +23,9 @@
 
 `kdesrc-build --resume-from={{dependency_component}} {{component_name}}`
 
-- Print full compilation info:
+- Run a component with a specified executable name:
 
-`kdesrc-build --debug {{component_name}}`
+`kdesrc-build --run --exec {{executable_name}} {{component_name}}`
 
 - Build all configured components:
 

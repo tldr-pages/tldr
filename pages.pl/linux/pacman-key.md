@@ -2,7 +2,7 @@
 
 > Skrypt opakowujący dla GnuPG używany do zarządzania pękiem kluczy pacmana.
 > Zobacz także: `pacman`.
-> Więcej informacji: <https://man.archlinux.org/man/pacman-key>.
+> Więcej informacji: <https://manned.org/pacman-key>.
 
 - Zainicjalizuj pęk kluczy pacmana:
 

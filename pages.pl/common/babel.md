@@ -1,36 +1,36 @@
 # babel
 
-> Transpiler, który konwertuje kod ze składni JavaScript ES6 / ES7 na składnię ES5.
+> Transpiler, który konwertuje kod ze składni JavaScript ES6/ES7 na składnię ES5.
 > Więcej informacji: <https://babeljs.io/>.
 
-- Transpiluj określony plik wejściowy i dane wyjściowe do `stdout`:
+- Transpiluj określony plik wejściowy i wypisz dane wyjściowe do `stdout`:
 
-`babel {{siezka/do/pliku}}`
+`babel {{ścieżka/do/pliku}}`
 
-- Transpiluj określony plik wejściowy i wyjście do określonego pliku:
+- Transpiluj określony plik wejściowy i zapisz wyjście do określonego pliku:
 
-`babel {{sciezka/do/pliku_wejsciowego}} --out-file {{sciezka/do/pliku_wyjsciowego}}`
+`babel {{ścieżka/do/pliku_wejściowego}} --out-file {{ścieżka/do/pliku_wyjściowego}}`
 
 - Transpiluj plik wejściowy przy każdej zmianie:
 
-`babel {{sciezka/do/pliku_wejsciowego}} --watch`
+`babel {{ścieżka/do/pliku_wejściowego}} --watch`
 
 - Transpiluj cały katalog plików:
 
-`babel {{sciezka/do/katalogu_wejsciowego}}`
+`babel {{ścieżka/do/katalogu_wejściowego}}`
 
 - Zignoruj określone pliki oddzielone przecinkami w katalogu:
 
-`babel {{sciezka/do/katalogu_wejsciowego}} --ignore {{ignorowane_pliki}}`
+`babel {{ścieżka/do/katalogu_wejściowego}} --ignore {{ignorowany_plik1,ignorowany_plik2,...}}`
 
 - Transpiluj i wypisz jako zminimalizowany JavaScript:
 
-`babel {{sciezka/do/pliku_wejsciowego}} --minified`
+`babel {{ścieżka/do/pliku_wejściowego}} --minified`
 
 - Wybierz zestaw ustawień dla formatowania wyjściowego:
 
-`babel {{sciezka/do/pliku_wejsciowego}} --presets {{presets}}`
+`babel {{ścieżka/do/pliku_wejściowego}} --presets {{preset1,preset2,...}}`
 
-- Wyświetl wszystkie dostępne opcje:
+- Wyświetl pomoc:
 
 `babel --help`

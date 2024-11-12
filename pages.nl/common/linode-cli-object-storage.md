@@ -2,7 +2,7 @@
 
 > Beheer Linode Object Storage.
 > Bekijk ook: `linode-cli`.
-> Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/object-storage/>.
+> Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-object-storage>.
 
 - Toon alle Object Storage buckets:
 

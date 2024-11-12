@@ -11,10 +11,10 @@
 
 `tree {{path\to\directory}}`
 
-- Display the tree for a directory including files:
+- Display the tree for a directory including [f]iles:
 
 `tree {{path\to\directory}} /f`
 
-- Display the tree using ASCII characters instead of extended characters:
+- Display the tree using [a]SCII characters instead of extended characters:
 
 `tree {{path\to\directory}} /a`

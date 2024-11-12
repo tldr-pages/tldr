@@ -3,14 +3,14 @@
 > Exibe o argumento inserido como um grande banner em arte ASCII.
 > Mais informações: <https://manned.org/banner>.
 
-- Exibe uma mensagem como banner (aspas opcionais):
+- Exibe uma mensagem em texto como banner (aspas são opcionais):
 
-`banner "{{Ola Mundo}}"`
+`banner "{{Olá Mundo}}"`
 
 - Exibe um banner com a largura de 50 caracteres:
 
-`banner -w {{50}} "{{Ola Mundo}}"`
+`banner -w 50 "{{Olá Mundo}}"`
 
-- Exibe um banner com o texto inserido na entrada padrão:
+- Lê texto da `stdin`, isto é, da entrada padrão:
 
 `banner`

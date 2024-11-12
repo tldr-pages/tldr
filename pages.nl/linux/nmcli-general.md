@@ -2,7 +2,7 @@
 
 > Beheer algemene instellingen van NetworkManager.
 > Dit subcommando kan ook aangeroepen worden met `nmcli g`.
-> Meer informatie: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Toon de algemene status van NetworkManager:
 

@@ -26,3 +26,11 @@
 - Shutdown a running sandbox:
 
 `firejail --shutdown={{7777}}`
+
+- Run a restricted Firefox session to browse the internet:
+
+`firejail --seccomp --private --private-dev --private-tmp --protocol=inet firefox --new-instance --no-remote --safe-mode --private-window`
+
+- Use custom hosts file (overriding `/etc/hosts` file):
+
+`firejail --hosts-file={{~/myhosts}} {{curl http://mysite.arpa}}`

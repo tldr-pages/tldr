@@ -13,7 +13,7 @@
 
 - Resolve dependency tree in a reverse order (from a dependency to its dependencies):
 
-`cs resolve --reverse-tree {{group_id}}:{{artifact_id}}:{{artifact_version}`
+`cs resolve --reverse-tree {{group_id}}:{{artifact_id}}:{{artifact_version}}`
 
 - Print all the libraries that depends on a specific library:
 

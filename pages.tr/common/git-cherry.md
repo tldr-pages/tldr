@@ -5,7 +5,7 @@
 
 - Commit'leri (ve mesajlarını) ana akımda kendilerine tekabül eden commit'ler ile göster:
 
-`git cherry -v`
+`git cherry {{-v|--verbose}}`
 
 - Farklı bir ana akım ve konu dalı belirt:
 

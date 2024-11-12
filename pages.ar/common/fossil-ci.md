@@ -1,7 +1,6 @@
-# fossil-ci
+# fossil ci
 
-> هذا الأمر هو اسم مستعار لـ `fossil-commit`.
-> لمزيد من التفاصيل: <https://fossil-scm.org/home/help/commit>.
+> هذا الأمر هو اسم مستعار لـ  `fossil commit`.
 
 - إعرض التوثيقات للأمر الأصلي:
 

@@ -1,20 +1,24 @@
 # dpkg-query
 
-> Ferramenta que mostra informações dos pacotes instalados.
-> Mais informações: <https://manpages.debian.org/latest/dpkg/dpkg-query.1.html>.
+> Mostra informações dos pacotes instalados.
+> Mais informações: <https://manned.org/dpkg-query.1>.
 
-- Exibe os pacotes instalados:
+- Exibe todos os pacotes instalados:
 
-`dpkg-query -l`
+`dpkg-query --list`
 
 - Exibe os pacotes instalados correspondentes ao critério de busca:
 
-`dpkg-query -l '{{criterio_de_busca}}'`
+`dpkg-query --list '{{libc6}}'`
 
 - Exibe todos os arquivos instalados por um pacote:
 
-`dpkg-query -L {{nome_do_pacote}}`
+`dpkg-query --listfiles {{libc6}}`
 
 - Exibe informações sobre um pacote:
 
-`dpkg-query -s {{nome_do_pacote}}`
+`dpkg-query --status {{libc6}}`
+
+- Busca por pacotes que contenham arquivos que correspondam ao padrão:
+
+`dpkg-query --search {{/etc/ld.so.conf.d}}`

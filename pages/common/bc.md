@@ -1,16 +1,16 @@
 # bc
 
 > An arbitrary precision calculator language.
-> See also: `dc`.
-> More information: <https://manned.org/man/bc.1>.
+> See also: `dc`, `qalc`.
+> More information: <https://manned.org/bc>.
 
 - Start an interactive session:
 
 `bc`
 
-- Start an interactive session with the standard math library enabled:
+- Start an [i]nteractive session with the standard math [l]ibrary enabled:
 
-`bc --mathlib`
+`bc --interactive --mathlib`
 
 - Calculate an expression:
 
@@ -27,3 +27,7 @@
 - Calculate a sine/cosine/arctangent/natural logarithm/exponential function using `mathlib`:
 
 `echo '{{s|c|a|l|e}}({{1}})' | bc --mathlib`
+
+- Execute an inline factorial script:
+
+`echo "define factorial(n) { if (n <= 1) return 1; return n*factorial(n-1); }; factorial({{10}})" | bc`

@@ -1,7 +1,7 @@
 # warpd
 
 > A modal keyboard driven pointer manipulation program.
-> More information: <https://github.com/rvaiya/warpd/blob/master/man.md>.
+> More information: <https://github.com/rvaiya/warpd/blob/master/warpd.1.md>.
 
 - Run warpd in normal mode:
 

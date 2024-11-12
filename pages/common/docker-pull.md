@@ -1,7 +1,7 @@
 # docker pull
 
 > Download Docker images from a registry.
-> More information: <https://docs.docker.com/engine/reference/commandline/pull/>.
+> More information: <https://docs.docker.com/reference/cli/docker/image/pull/>.
 
 - Download a specific Docker image:
 

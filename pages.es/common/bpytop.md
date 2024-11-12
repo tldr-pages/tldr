@@ -1,28 +1,29 @@
 # bpytop
 
-> Muestra información en tiempo real sobre procesos ejecutándose, con gráficos. Similar a `gtop` y `htop`.
+> Un monitor de recursos que muestra información sobre el CPU, la memoria, los discos, las redes y los procesos.
+> Una versión de `bashtop` en Python.
 > Más información: <https://github.com/aristocratos/bpytop>.
 
-- Inicia bpytop:
+- Inicia `bpytop`:
 
 `bpytop`
 
-- Inicia en modo mínimalista sin recuadros de memoria y redes:
+- Inicia en el modo mínimo sin los recuadros de memoria y redes:
 
 `bpytop -m`
+
+- Cambia a el modo mínimo:
+
+`m`
+
+- Busca procesos o programas en ejecución:
+
+`f`
+
+- Cambia los ajustes:
+
+`M`
 
 - Muestra la versión:
 
 `bpytop -v`
-
-- Cambia a modo minimalista:
-
-`m`
-
-- Busca procesos o programas ejecutándose:
-
-`f`
-
-- Cambia ajustes:
-
-`M`

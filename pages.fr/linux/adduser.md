@@ -1,7 +1,7 @@
 # adduser
 
 > Outil d'ajout d'utilisateurs.
-> Plus d'informations : <https://manpages.debian.org/latest/adduser/adduser.html>.
+> Plus d'informations : <https://manned.org/adduser>.
 
 - Crée un nouvel utilisateur avec un répertoire personnel générique et demande interactivement un mot de passe :
 

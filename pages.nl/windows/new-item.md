@@ -1,6 +1,6 @@
 # New-Item
 
-> Maak een nieuw bestand, directory, symbolische link of een registerinvoer.
+> Maak een nieuw bestand, map, symbolische link of een registerinvoer.
 > Dit commando kan alleen worden uitgevoerd onder PowerShell.
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
 

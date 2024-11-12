@@ -13,7 +13,7 @@
 
 - 지정된 suite에서 모든 테스트 실행:
 
-`behat --suite={{suite_명}}`
+`behat --suite {{suite_명}}`
 
 - 특정 출력 formatter로 테스트 실행:
 

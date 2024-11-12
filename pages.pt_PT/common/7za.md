@@ -10,7 +10,7 @@
 
 - Encripta um arquivo existente (incluindo os nomes dos ficheiros):
 
-`7za a {{caminho/para/ficheiro_encriptado.7z}} -p{{palavra-passe}} -mhe={{on}} {{caminho/para/ficheiro_compactado.7z}}`
+`7za a {{caminho/para/ficheiro_encriptado.7z}} -p{{palavra-passe}} -mhe {{on}} {{caminho/para/ficheiro_compactado.7z}}`
 
 - Descompacta um arquivo mantendo a estrutura de diretórios original:
 
@@ -20,7 +20,7 @@
 
 `7za x {{caminho/para/ficheiro_compactado.7z}} -o{{caminho/para/diretório}}`
 
-- Descompacta um arquivo para a saída padrão (stdout):
+- Descompacta um arquivo para a saída padrão (`stdout`):
 
 `7za x {{caminho/para/ficheiro_compactado.7z}} -so`
 

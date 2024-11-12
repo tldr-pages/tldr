@@ -11,7 +11,7 @@
 
 - Open een bestand bij een bepaald regelnummer:
 
-`vim +{{regel_nummer}} {{pad/naar/bestand}}`
+`vim +{{regelnummer}} {{pad/naar/bestand}}`
 
 - Bekijk de handleiding van Vim:
 
@@ -19,7 +19,7 @@
 
 - Opslaan en afsluiten:
 
-`:wq<Enter>`
+`{{ZZ|:wq<Enter>}}`
 
 - Terug naar normale modues en maak de laatste verandering ongedaan:
 

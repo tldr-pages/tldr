@@ -1,7 +1,8 @@
 # mc
 
-> Midnight Commander, a terminal based file manager.
+> Midnight Commander, a TUI file manager.
 > Navigate the directory structure using the arrow keys, the mouse or by typing the commands into the terminal.
+> See also: `ranger`, `clifm`, `vifm`, `nautilus`.
 > More information: <https://midnight-commander.org>.
 
 - Start Midnight Commander:

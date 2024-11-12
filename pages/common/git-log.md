@@ -9,7 +9,7 @@
 
 - Show the history of a particular file or directory, including differences:
 
-`git log -p {{path/to/file_or_directory}}`
+`git log {{-p|-u|--patch}} {{path/to/file_or_directory}}`
 
 - Show an overview of which file(s) changed in each commit:
 
@@ -23,14 +23,14 @@
 
 `git log --oneline --decorate --all --graph`
 
-- Show only commits whose messages include a given string (case-insensitively):
+- Show only commits with messages that include a specific string, ignoring case:
 
-`git log -i --grep {{search_string}}`
+`git log {{-i|--regexp-ignore-case}} --grep {{search_string}}`
 
-- Show the last N commits from a certain author:
+- Show the last N number of commits from a certain author:
 
-`git log -n {{number}} --author={{author}}`
+`git log {{-n|--max-count}} {{number}} --author "{{author}}"`
 
 - Show commits between two dates (yyyy-mm-dd):
 
-`git log --before="{{2017-01-29}}" --after="{{2017-01-17}}"`
+`git log --before "{{2017-01-29}}" --after "{{2017-01-17}}"`

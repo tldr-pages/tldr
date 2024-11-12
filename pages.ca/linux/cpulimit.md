@@ -1,7 +1,7 @@
 # cpulimit
 
 > Eina per limitar l'ús de la CPU en altres processos.
-> Més informació: <http://cpulimit.sourceforge.net/>.
+> Més informació: <https://cpulimit.sourceforge.net/>.
 
 - Limita un procés existent amb PID 1234 perquè només utilitzi el 25% de CPU:
 

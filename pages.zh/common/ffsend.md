@@ -13,12 +13,12 @@
 
 - 上传带有密码的文件：
 
-`ffsend upload {{路径/到/文件}} -p {{密码}}`
+`ffsend upload {{路径/到/文件}} {{-p|--password}} {{密码}}`
 
 - 下载带有密码保护的文件：
 
-`ffsend download {{路径/到/文件}} -p {{密码}}`
+`ffsend download {{url}} {{-p|--password}} {{密码}}`
 
 - 上传文件并允许下载 4 次：
 
-`ffsend upload {{路径/到/文件}} -d {{4}}`
+`ffsend upload {{路径/到/文件}} {{-d|--downloads}} {{4}}`

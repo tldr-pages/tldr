@@ -12,10 +12,10 @@
 
 `bugreportz -p`
 
-- সংস্করণ দেখুন:
-
-`bugreportz -v`
-
 - সাহায্য প্রদর্শন:
 
 `bugreportz -h`
+
+- সংস্করণ দেখুন:
+
+`bugreportz -v`

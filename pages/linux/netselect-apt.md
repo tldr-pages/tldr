@@ -1,7 +1,7 @@
 # netselect-apt
 
 > Create a `sources.list` file for a Debian mirror with the lowest latency.
-> More information: <https://manpages.debian.org/latest/netselect-apt/netselect-apt.html>.
+> More information: <https://manned.org/netselect-apt>.
 
 - Create `sources.list` using the lowest latency server:
 

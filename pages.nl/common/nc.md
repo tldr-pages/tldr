@@ -1,7 +1,7 @@
 # nc
 
 > Netcat is een veelzijdig hulpprogramma voor het omleiden van IO naar een netwerkstream.
-> Meer informatie: <https://manned.org/man/nc.1>.
+> Meer informatie: <https://manned.org/nc>.
 
 - Start een luisteraar op de opgegeven TCP poort en stuur er een bestand in:
 

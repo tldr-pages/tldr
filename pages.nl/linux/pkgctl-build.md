@@ -1,7 +1,7 @@
 # pkgctl build
 
 > Bouw pakketten in een schone `chroot`.
-> Meer informatie: <https://man.archlinux.org/man/pkgctl-build.1>.
+> Meer informatie: <https://manned.org/pkgctl-build.1>.
 
 - Kies automatisch het juiste build script om pakketten in een schone `chroot` te bouwen:
 

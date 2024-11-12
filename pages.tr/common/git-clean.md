@@ -9,7 +9,7 @@
 
 - Git tarafından takip edilmeyen dosyaları etkileşimli bir nizamda sil:
 
-`git clean -i`
+`git clean {{-i|--interactive}}`
 
 - Hangi dosyaların silinmeye aday olduğunu onları silmeden göster:
 
@@ -17,11 +17,11 @@
 
 - Git tarafından takip edilmeyen dosyaları zorla zil:
 
-`git clean -f`
+`git clean {{-f|--force}}`
 
 - Git tarafından takip edilmeyen dizinleri zorla zil:
 
-`git clean -fd`
+`git clean {{-f|--force}} -d`
 
 - `.gitignore` ve `.git/info/exclude`'deki yoksayılan dosyalar dahiş olmak üzere takip edilmeyen dosyaları sil:
 

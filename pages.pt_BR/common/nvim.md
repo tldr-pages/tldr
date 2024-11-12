@@ -31,7 +31,7 @@
 
 - Entra no modo normal, salva (grava) o arquivo e sai:
 
-`<Esc>:wq<Enter>`
+`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
 
 - Sai sem salvar:
 

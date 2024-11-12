@@ -6,8 +6,8 @@
 
 - 显示 Android 设备屏幕的物理尺寸：
 
-`wm {{size}}`
+`wm size`
 
 - 显示 Android 设备屏幕的物理密度：
 
-`wm {{density}}`
+`wm density`

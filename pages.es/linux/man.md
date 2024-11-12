@@ -3,11 +3,15 @@
 > Da formato y muestra páginas del manual.
 > Más información: <https://manned.org/man>.
 
-- Muestra la página del manual para un comando:
+- Muestra la página del manual de un comando:
 
 `man {{comando}}`
 
-- Muestra la página del manual para un comando de la sección 7:
+- Abre la página del manual de un comando en un navegador (requiere que la variable `BROWSER` esté establecida):
+
+`man --html {{command}}`
+
+- Muestra la página del manual de la sección 7 de un comando:
 
 `man {{7}} {{comando}}`
 
@@ -15,7 +19,7 @@
 
 `man --whatis {{comando}}`
 
-- Muestra las rutas usadas para la búsqueda de las páginas:
+- Muestra las rutas usadas en la búsqueda de las páginas:
 
 `man --path`
 
@@ -23,10 +27,10 @@
 
 `man --where {{comando}}`
 
-- Muestra la página del manual usando una ubicación específica:
+- Muestra la página del manual usando un idioma (locale) específico (p.e. es para español):
 
-`man --locale={{locale}} {{comando}}`
+`man --locale {{idioma}} {{comando}}`
 
-- Busca las páginas del manual que contienen la cadena indicada:
+- Busca las páginas del manual que contienen la cadena de búsqueda:
 
-`man --apropos "{{cadena_a_buscar}}"`
+`man --apropos "{{cadena_de_búsqueda}}"`

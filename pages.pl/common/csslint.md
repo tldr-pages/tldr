@@ -1,15 +1,15 @@
 # csslint
 
-> Linter dla kodu CSS.
+> Lintuj kod CSS.
 > Więcej informacji: <https://github.com/CSSLint/csslint/wiki/Command-line-interface>.
 
-- Lintowanie pojedynczego pliku CSS:
+- Lintuj pojedyńczy plik CSS:
 
 `csslint {{plik.css}}`
 
-- Lintowanie wiele plików CSS:
+- Lintuj wiele plików CSS:
 
-`csslint {{plik1.css}} {{plik2.css}} {{plik3.css}}`
+`csslint {{plik1.css plik2.css ...}}`
 
 - Wymień wszystkie możliwe reguły stylu:
 
@@ -17,12 +17,12 @@
 
 - Określ pewne reguły jako błędy (które powodują niezerowy kod wyjścia):
 
-`csslint --errors={{bledy,universal-selector,imports}} {{plik.css}}`
+`csslint --errors={{errors,universal-selector,imports}} {{plik.css}}`
 
 - Określ pewne reguły jako ostrzeżenia:
 
 `csslint --warnings={{box-sizing,selector-max,floats}} {{plik.css}}`
 
-- Określ pewne reguły, które będą całkowicie ignorowane:
+- Ignoruj określone reguły:
 
 `csslint --ignore={{ids,rules-count,shorthand}} {{plik.css}}`

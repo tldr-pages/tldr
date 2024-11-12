@@ -13,8 +13,8 @@
 
 - Obtém o status atual do usuário:
 
-`passwd -S`
+`passwd {{-S|--status}}`
 
 - Deixa a senha da conta em branco (isso definirá a conta nomeada como sem senha):
 
-`passwd -d`
+`passwd {{-d|--delete}}`

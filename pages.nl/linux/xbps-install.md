@@ -2,7 +2,7 @@
 
 > XBPS hulpprogramma om pakketten te (her)installeren en bij te werken.
 > Bekijk ook: `xbps`.
-> Meer informatie: <https://man.voidlinux.org/xbps-install.1>.
+> Meer informatie: <https://manned.org/xbps-install.1>.
 
 - Installeer een nieuw pakket:
 

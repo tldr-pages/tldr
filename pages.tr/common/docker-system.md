@@ -1,7 +1,7 @@
 # docker system
 
 > Docker verilerini yönet ve sistem bilgisi görüntüle.
-> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/system/>.
+> Daha fazla bilgi için: <https://docs.docker.com/reference/cli/docker/system/>.
 
 - Yardım göster:
 
@@ -21,7 +21,7 @@
 
 - Kullanılmayan ve geçmişte birden çok kez oluşturulan veriyi sil:
 
-`docker system prune --filter="until={{saat}}h{{dakika}}m"`
+`docker system prune --filter "until={{saat}}h{{dakika}}m"`
 
 - Docker deamon'dan tam-zamanlı eylemleri görüntüle:
 

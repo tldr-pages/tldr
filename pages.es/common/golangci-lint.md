@@ -1,7 +1,7 @@
 # golangci-lint
 
 > Corredor de linters Go paralelizado, inteligente y rápido que se integra con los principales entornos de desarrollo integrado y soporta configuración en YAML.
-> Más información: <https://golangci-lint.run/usage/quick-start/>.
+> Más información: <https://golangci-lint.run/welcome/quick-start/>.
 
 - Ejecuta linters en la carpeta actual:
 

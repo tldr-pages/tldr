@@ -2,7 +2,7 @@
 
 > Android Asset Packaging Tool.
 > Compila e empacotar os recursos de uma aplicação Android.
-> Mais informações: <https://elinux.org/Android_aapt>.
+> Mais informações: <https://manned.org/aapt>.
 
 - Lista os ficheiros contidos num arquivo APK:
 

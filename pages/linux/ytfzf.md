@@ -1,6 +1,7 @@
 # ytfzf
 
-> A POSIX script that helps you find and download videos and music.
+> Find and download videos and music. Written in POSIX shell.
+> See also: `youtube-dl`, `yt-dlp`, `instaloader`.
 > More information: <https://github.com/pystardust/ytfzf>.
 
 - Search for videos on YouTube with thumbnail previews:

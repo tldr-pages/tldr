@@ -2,7 +2,7 @@
 
 > Utilidad de gestión de paquetes para Debian y Ubuntu.
 > Búsqueda de paquetes mediante `apt-cache`.
-> Más información: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+> Más información: <https://manned.org/apt-get.8>.
 
 - Actualiza la lista de paquetes y versiones disponibles (se recomienda ejecutar esto antes de otros comandos `apt-get`):
 

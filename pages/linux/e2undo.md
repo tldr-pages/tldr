@@ -2,7 +2,7 @@
 
 > Replay undo logs for an ext2/ext3/ext4 filesystem.
 > This can be used to undo a failed operation by an e2fsprogs program.
-> More information: <https://man7.org/linux/man-pages/man8/e2undo.8.html>.
+> More information: <https://manned.org/e2undo>.
 
 - Display information about a specific undo file:
 

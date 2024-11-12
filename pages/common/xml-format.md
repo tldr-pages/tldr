@@ -1,7 +1,7 @@
 # xml format
 
 > Format an XML document.
-> More information: <http://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Format an XML document, indenting with tabs:
 

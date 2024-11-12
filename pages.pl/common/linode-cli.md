@@ -2,7 +2,7 @@
 
 > Zarządzaj usługami w chmurze Linode.
 > Niektóre podkomendy, takie jak `events` mają osobną dokumentację.
-> Więcej informacji: <https://www.linode.com/docs/products/tools/cli/get-started/>.
+> Więcej informacji: <https://techdocs.akamai.com/cloud-computing/docs/getting-started-with-the-linode-cli>.
 
 - Wypisz wszystkie instancje Linode:
 

@@ -1,29 +1,29 @@
 # alias
 
-> Membuat alias -- kata-kata yang digantikan oleh utasan perintah (command).
+> Buat alias perintah -- kata-kata yang digantikan oleh utasan perintah (command).
 > Alias menjadi kadaluarsa sampai sesi shell saat ini berakhir, kecuali jika didefinisikan di file konfigurasi shell, misalnya `~/.bashrc`.
 > Informasi lebih lanjut: <https://tldp.org/LDP/abs/html/aliases.html>.
 
-- Menampilkan daftar semua alias:
+- Tampilkan daftar seluruh alias yang terdaftar:
 
 `alias`
 
-- Membuat alias generik:
+- Buat suatu alias generik:
 
 `alias {{kata}}="{{perintah}}"`
 
-- Melihat perintah yang dirujuk oleh alias yang diberikan:
+- Lihat perintah yang dirujuk oleh alias yang diberikan:
 
 `alias {{kata}}`
 
-- Menghapus alias dari sebuah perintah:
+- Hapus suatu perintah alias:
 
 `unalias {{kata}}`
 
-- Mengubah `rm` menjadi perintah interaktif:
+- Ubah perintah `rm` menjadi perintah interaktif:
 
-`alias {{rm}}="{{rm -i}}"`
+`alias {{rm}}="{{rm --interactive}}"`
 
-- Membuat `la` menjadi pintasan untuk `ls -a`:
+- Buat perintah `la` menjadi pintasan untuk `ls --all`:
 
-`alias {{la}}="{{ls -a}}"`
+`alias {{la}}="{{ls --all}}"`

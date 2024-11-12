@@ -1,7 +1,7 @@
 # yacas
 
 > Yet Another Computer Algebra System.
-> More information: <http://www.yacas.org>.
+> More information: <https://www.yacas.org>.
 
 - Start an interactive `yacas` session:
 

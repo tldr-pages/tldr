@@ -1,7 +1,7 @@
 # pip
 
 > Pengelola paket Python.
-> Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `pip install`.
+> Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `install`.
 > Informasi lebih lanjut: <https://pip.pypa.io>.
 
 - Memasang paket:

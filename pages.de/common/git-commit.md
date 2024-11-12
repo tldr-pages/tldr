@@ -25,7 +25,7 @@
 
 - Comitte nur spezifische Dateien (die Dateien müssen schon auf dem Stage liegen):
 
-`git commit {{pfad/zu/datei1}} {{pfad/zu/datei2}}`
+`git commit {{pfad/zu/datei1 pfad/zu/datei2 ...}}`
 
 - Erzeuge einen Commit, auch wenn keine Dateien auf dem Stage liegen:
 

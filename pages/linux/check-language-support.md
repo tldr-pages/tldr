@@ -1,7 +1,7 @@
 # check-language-support
 
 > Display a list of missing language packages on Ubuntu.
-> More information: <https://manpages.ubuntu.com/manpages/latest/man1/check-language-support.html>.
+> More information: <https://manned.org/check-language-support>.
 
 - Display a list of missing language packages based on installed software and enabled locales:
 

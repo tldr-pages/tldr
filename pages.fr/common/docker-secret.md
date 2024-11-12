@@ -1,7 +1,7 @@
 # docker secret
 
 > Gérer les secrets de Docker swarm.
-> Plus d'informations : <https://docs.docker.com/engine/reference/commandline/secret/>.
+> Plus d'informations : <https://docs.docker.com/reference/cli/docker/secret/>.
 
 - Créer un nouveau secret depuis l'entrée standard :
 

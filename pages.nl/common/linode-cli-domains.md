@@ -2,7 +2,7 @@
 
 > Beheer Linode Domains en DNS configuratie.
 > Bekijk ook: `linode-cli`.
-> Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/domains/>.
+> Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-the-dns-manager>.
 
 - Toon alle beheerde domeinen:
 

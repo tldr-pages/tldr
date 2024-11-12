@@ -19,16 +19,20 @@
 
 - Download a macOS recovery image and creates a virtual machine configuration:
 
-`quickget macos {{high-sierra|mojave|catalina|big-sur|monterey|ventura}}`
+`quickget macos {{mojave|catalina|big-sur|monterey|ventura|sonoma}}`
 
-- Show an ISO URL for an operating system (Note: it does not work for Windows):
+- Show an ISO URL for an operating system:
 
-`quickget --show-iso-url fedora {{release}} {{edition}}`
+`quickget --url fedora {{release}} {{edition}}`
 
 - Test if an ISO file is available for an operating system:
 
-`quickget --test-iso-url nixos {{edition}} {{plasma5}}`
+`quickget --check nixos {{release}} {{edition}}`
 
-- Open an operating system distribution's homepage in a browser (Note: it does not work for Windows):
+- Download an image without building any VM configuration:
 
-`quickget --open-distro-homepage {{os}}`
+`quickget --download {{os}} {{release}} {{edition}}`
+
+- Create a VM configuration for an OS image:
+
+`quickget --create-config {{os}} {{path/to/iso}}`

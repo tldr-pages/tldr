@@ -13,7 +13,7 @@
 
 - Descarrega e instala todas as atualizações recomendadas:
 
-`softwareupdate --install --req`
+`softwareupdate --install --recommended`
 
 - Descarrega e instala um aplicativo específico:
 

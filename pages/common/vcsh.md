@@ -1,6 +1,7 @@
 # vcsh
 
 > Version Control System for the home directory using Git repositories.
+> See also: `chezmoi`, `stow`, `tuckr`, `homeshick`.
 > More information: <https://github.com/RichiH/vcsh>.
 
 - Initialize an (empty) repository:

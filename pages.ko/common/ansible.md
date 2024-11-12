@@ -1,7 +1,7 @@
 # ansible
 
-> SSH를 통해 컴퓨터 그룹을 원격으로 관리.
-> `/etc/ansible/hosts` 파일을 사용하여 새 그룹/호스트를 추가하십시오.
+> SSH를 통해 컴퓨터 그룹을 원격으로 관리. (`/etc/ansible/hosts` 파일을 사용하여 새 그룹/호스트를 추가하십시오).
+> `galaxy`와 같은 일부 하위 명령에는 자체 사용 설명서가 있음.
 > 더 많은 정보: <https://www.ansible.com/>.
 
 - 그룹에 속한 호스트 목록:
@@ -27,3 +27,7 @@
 - 사용자 정의 인벤토리 파일을 사용하여 명령어 실행:
 
 `ansible {{그룹}} -i {{인벤토리_파일}} -m command -a '{{나의_명령어}}'`
+
+- 인벤토리의 그룹을 나열:
+
+`ansible localhost -m debug -a '{{var=groups.keys()}}'`

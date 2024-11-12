@@ -5,7 +5,7 @@
 
 - Lade eine Datei hoch:
 
-`ffsend upload {{datei}}`
+`ffsend upload {{pfad/zu/datei}}`
 
 - Lade eine Datei herunter:
 
@@ -13,12 +13,12 @@
 
 - Lade eine Datei mit Passwort hoch:
 
-`ffsend upload {{datei}} -p {{passwort}}`
+`ffsend upload {{pfad/zu/datei}} {{-p|--password}} {{passwort}}`
 
 - Lade eine passwortgeschützte Datei herunter:
 
-`ffsend download {{datei}} -p {{passwort}}`
+`ffsend download {{url}} {{-p|--password}} {{passwort}}`
 
 - Lade eine Datei hoch und erlaube maximal 4 Downloads:
 
-`ffsend upload {{datei}} -d {{4}}`
+`ffsend upload {{pfad/zu/datei}} {{-d|--downloads}} {{4}}`

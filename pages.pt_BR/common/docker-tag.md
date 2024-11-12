@@ -1,7 +1,7 @@
 # docker tag
 
 > Atribuir tags a imagens Docker existentes.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/tag/>.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/image/tag/>.
 
 - Atribui um nome e tag a um ID de imagem específico:
 

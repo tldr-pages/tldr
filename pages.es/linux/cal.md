@@ -11,6 +11,14 @@
 
 `cal -3`
 
+- Muestra el calendario completo para el año actual:
+
+`cal --year`
+
+- Muestra los 12 meses siguientes:
+
+`cal --twelve`
+
 - Usa el Lunes como primer día de la semana:
 
 `cal --monday`

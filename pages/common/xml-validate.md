@@ -1,7 +1,7 @@
 # xml validate
 
 > Validate XML documents.
-> More information: <http://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Validate one or more XML documents for well-formedness only:
 

@@ -1,7 +1,7 @@
 # sv
 
 > Control a running runsv service.
-> More information: <https://manpages.ubuntu.com/manpages/latest/man8/sv.8.html>.
+> More information: <https://manned.org/sv.8>.
 
 - Start a service:
 

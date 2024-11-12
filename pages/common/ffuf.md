@@ -8,7 +8,7 @@
 
 `ffuf -c -w {{path/to/wordlist.txt}} -u {{http://target/FUZZ}}`
 
-- Enumerate subdomains by changing the position of the keyword:
+- Enumerate webservers of subdomains by changing the position of the keyword:
 
 `ffuf -w {{path/to/subdomains.txt}} -u {{http://FUZZ.target.com}}`
 
@@ -23,3 +23,11 @@
 - Fuzz with specified HTTP method and [d]ata, while [f]iltering out comma separated status [c]odes:
 
 `ffuf -w {{path/to/postdata.txt}} -X {{POST}} -d "{{username=admin\&password=FUZZ}}" -u {{http://target/login.php}} -fc {{401,403}}`
+
+- Fuzz multiple positions with multiple wordlists using different modes:
+
+`ffuf -w {{path/to/keys:KEY}} -w {{path/to/values:VALUE}} -mode {{pitchfork|clusterbomb}} -u {{http://target.com/id?KEY=VALUE}}`
+
+- Proxy requests through a HTTP MITM pro[x]y (such as Burp Suite or `mitmproxy`):
+
+`ffuf -w {{path/to/wordlist}} -x {{http://127.0.0.1:8080}} -u {{http://target.com/FUZZ}}`

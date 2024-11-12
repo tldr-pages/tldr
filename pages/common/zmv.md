@@ -2,7 +2,7 @@
 
 > Move or rename files matching a specified extended glob pattern.
 > See also `zcp` and `zln`.
-> More information: <http://zsh.sourceforge.net/Doc/Release/User-Contributions.html>.
+> More information: <https://zsh.sourceforge.net/Doc/Release/User-Contributions.html>.
 
 - Move files using a regular expression-like pattern:
 

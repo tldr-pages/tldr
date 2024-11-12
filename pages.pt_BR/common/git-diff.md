@@ -3,7 +3,7 @@
 > Mostra alterações nos arquivos rastreados.
 > Mais informações: <https://git-scm.com/docs/git-diff>.
 
-- Mostra as alterações não preparadas e sem commit:
+- Mostra as alterações não preparadas:
 
 `git diff`
 
@@ -19,9 +19,9 @@
 
 `git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
 
-- Mostra apenas os nomes dos arquivos alterados desde um determinado commit:
+- Mostra estatísticas de comparação, como arquivos alterados, histogramas e número total de inserções/exclusões de linha:
 
-`git diff --name-only {{commit}}`
+`git diff --stat {{commit}}`
 
 - Emite um resumo das criações de arquivos, renomeações e alterações de modo desde um determinado commit:
 

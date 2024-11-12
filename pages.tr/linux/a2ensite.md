@@ -1,7 +1,7 @@
 # a2ensite
 
 > Debian tabanlı işletim sistemlerinde Apache sanal hostu etkinleştir.
-> Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2ensite.8.en.html>.
+> Daha fazla bilgi için: <https://manned.org/a2ensite.8>.
 
 - Bir sanal hostu etkinleştir:
 

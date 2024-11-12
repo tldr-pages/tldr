@@ -10,7 +10,7 @@
 
 - 生成客户端代码，项目不在 `$GOPATH` 目录下：
 
-` kitex -module {{github.com/xx-org/xx-name}} {{路径/到/IDL文件.thrift}}`
+`kitex -module {{github.com/xx-org/xx-name}} {{路径/到/IDL文件.thrift}}`
 
 - 根据 protobuf IDL 文件生成客户端代码：
 

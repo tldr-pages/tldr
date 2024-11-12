@@ -25,4 +25,4 @@
 
 - Change the owner of a file/directory to match a reference file:
 
-`chown --reference={{path/to/reference_file}} {{path/to/file_or_directory}}`
+`chown --reference {{path/to/reference_file}} {{path/to/file_or_directory}}`

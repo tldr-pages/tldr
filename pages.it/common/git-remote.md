@@ -5,7 +5,7 @@
 
 - Mostra l'elenco dei collegamenti remoti, con il loro nome e URL:
 
-`git remote -v`
+`git remote {{-v|--verbose}}`
 
 - Mostra informazioni su un remote:
 

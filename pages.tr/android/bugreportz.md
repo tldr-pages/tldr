@@ -12,10 +12,10 @@
 
 `bugreportz -p`
 
-- `bugreportz` sürümünü göster:
-
-`bugreportz -v`
-
 - Yardım görüntüle:
 
 `bugreportz -h`
+
+- `bugreportz` sürümünü göster:
+
+`bugreportz -v`

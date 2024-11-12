@@ -1,7 +1,7 @@
 # a2ensite
 
 > Habilita un servidor virtual Apache en sistemas operativos basados en Debian.
-> Más información: <https://manpages.debian.org/latest/apache2/a2ensite.8.en.html>.
+> Más información: <https://manned.org/a2ensite.8>.
 
 - Habilita un host virtual:
 

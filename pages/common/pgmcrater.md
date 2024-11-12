@@ -1,6 +1,6 @@
 # pgmcrater
 
-> This command is superseded by `pamcrater`, `pamshadedrelief`, and `pamtopnm`.
+> This command has been superseded by `pamcrater`, `pamshadedrelief`, and `pamtopnm`.
 > More information: <https://netpbm.sourceforge.net/doc/pgmcrater.html>.
 
 - View documentation for `pamcrater`:

@@ -26,7 +26,7 @@
 
 - Make a new recording, limiting any [i]dle time to at most 2.5 seconds:
 
-`asciinema rec -i 2.5`
+`asciinema rec {{-i|--idle-time-limit}} 2.5`
 
 - Print the full output of a locally saved recording:
 

@@ -1,7 +1,7 @@
 # fossil
 
 > Gedistribueerd versiebheer systeem.
-> Sommige subcommando's zoals `fossil db` hebben hun eigen documentatie.
+> Sommige subcommando's zoals `db` hebben hun eigen documentatie.
 > Meer informatie: <https://fossil-scm.org/>.
 
 - Voer een Fossil subcommando uit:

@@ -1,21 +1,33 @@
 # git status
 
-> Menampilkan perubahan pada file dalam repositori Git.
-> Menmapilkan daftar perubahan , menambahkan dan menghapus file dibandingkan dengan komit yang saat ini di check-out.
+> Tampilkan perubahan pada berkas dalam repositori Git.
+> Menampilkan daftar perubahan, menambahkan dan menghapus berkas dibandingkan dengan komit yang saat ini diperiksa (checkout).
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-status>.
 
-- Tampilkan file yang diubah yang belum ditambahkan untuk komit:
+- Tampilkan daftar berkas yang diubah yang belum ditambahkan untuk komit:
 
 `git status`
 
-- Berikan keluaran dalam format [s]hort (pendek):
+- Tampilkan informasi dalam format [s]ingkat:
 
-`git status -s`
+`git status --short`
 
-- Jangan tampilkan file yang tidak terlacak di output:
+- Tampilkan informasi secara terperinci ([v]erbose) baik dalam panggung rencana perubahan (staging) dan direktori kerja saat ini:
+
+`git status --verbose --verbose`
+
+- Tampilkan informasi mengenai cabang ([b]ranch) dan status pelacakan dari remote:
+
+`git status --branch`
+
+- Tampilkan daftar berkas beserta informasi cabang ([b]ranch) dalam format [s]ingkat:
+
+`git status --short --branch`
+
+- Tampilkan jumlah entri yang disimpan ke dalam kumpulan stash:
+
+`git status --show-stash`
+
+- Jangan tampilkan berkas yang tidak terlacak:
 
 `git status --untracked-files=no`
-
-- Tampilkan keluaran dalam format [s]hort (pendek) bersama dengan [b] info cabangnya:
-
-`git status -sb`

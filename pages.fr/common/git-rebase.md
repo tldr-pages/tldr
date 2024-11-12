@@ -10,7 +10,7 @@
 
 - Rejouer les comits interactivement, ce qui permet aux commits d'être re-arrangés, exclus, combinés ou modifiés :
 
-`git rebase -i {{branche_de_base_ou_commit}}`
+`git rebase {{-i|--interactive}} {{branche_de_base_ou_commit}}`
 
 - Continuer le re-jeu des commits après la résolution d'un conflit :
 
@@ -30,8 +30,8 @@
 
 - Rejoue les 5 derniers commits, ce qui permet aux commits d'être re-arrangés, exclus, combinés ou modifiés :
 
-`git rebase -i {{HEAD~5}}`
+`git rebase {{-i|--interactive}} {{HEAD~5}}`
 
 - Résoudre automatiquement les conflits en précisant la version à conserver (`theirs` signifie la version des fichiers à privilégier) :
 
-`git rebase -X theirs {{master}}`
+`git rebase {{-X|--strategy-option}} theirs {{master}}`

@@ -11,14 +11,18 @@
 
 `history {{20}}`
 
-- Clear the commands history list (only for current Bash shell):
+- Display history with timestamps in different formats (only available in Zsh):
+
+`history -{{d|f|i|E}}`
+
+- [c]lear the commands history list (only for current Bash shell):
 
 `history -c`
 
-- Overwrite history file with history of current Bash shell (often combined with `history -c` to purge history):
+- Over[w]rite history file with history of current Bash shell (often combined with `history -c` to purge history):
 
 `history -w`
 
-- Delete the history entry at the specified offset:
+- [d]elete the history entry at the specified offset:
 
 `history -d {{offset}}`

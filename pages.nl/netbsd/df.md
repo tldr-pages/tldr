@@ -1,7 +1,7 @@
 # df
 
 > Toon een overzicht van het gebruik van het bestandssysteem op het gebied van schijfruimte.
-> Meer informatie: <https://man.netbsd.org/NetBSD-9.3/df.1>.
+> Meer informatie: <https://man.netbsd.org/df.1>.
 
 - Toon alle bestandssystemen en hun schijfgebruik met behulp van 512-byte eenheden:
 

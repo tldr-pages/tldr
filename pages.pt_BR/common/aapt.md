@@ -2,7 +2,7 @@
 
 > Ferramenta Android de empacotamento de recursos.
 > Compila e empacota recursos de um aplicativo Android.
-> Mais informações: <https://elinux.org/Android_aapt>.
+> Mais informações: <https://manned.org/aapt>.
 
 - Lista os arquivos contigos em um arquivo APK:
 

@@ -1,7 +1,7 @@
 # docker rmi
 
 > Lösche eines oder mehrere Docker Images.
-> Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/rmi/>.
+> Weitere Informationen: <https://docs.docker.com/reference/cli/docker/image/rm/>.
 
 - Zeige Hilfe:
 

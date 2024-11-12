@@ -3,14 +3,14 @@
 > Un script de shell para mostrar las condiciones meteorológicas actuales en tu terminal.
 > Más información: <https://github.com/fcambus/ansiweather>.
 
-- Muestra una previsión en unidades métricas para los próximos cinco días en Rzeszow, Polonia:
+- Muestra una previsión usando unidades métricas de los siguientes siete días de una ubicación:
 
-`ansiweather -u {{metric}} -f {{5}} -l {{Rzeszow,PL}}`
+`ansiweather -u metric -f 7 -l {{Rzeszow,PL}}`
 
-- Muestra una previsión con símbolos y datos de la luz del día dada tu ubicación actual:
+- Muestra una previsión de los siguientes cinco días con símbolos e información de luz diurna de tu ubicación actual:
 
-`ansiweather -s {{true}} -d {{true}}`
+`ansiweather -F -s true -d true`
 
-- Muestra una previsión con los datos de viento y humedad dada tu ubicación actual:
+- Muestra una previsión con los datos de viento y humedad de tu ubicación actual:
 
-`ansiweather -w {{true}} -h {{true}}`
+`ansiweather -w true -h true`

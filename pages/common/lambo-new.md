@@ -19,7 +19,7 @@
 
 `lambo new --{{vue|bootstrap|react}} {{app_name}}`
 
-- Install npm dependencies after the project has been created:
+- Install `npm` dependencies after the project has been created:
 
 `lambo new --node {{app_name}}`
 

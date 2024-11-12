@@ -1,4 +1,4 @@
-# adb-logcat
+# adb logcat
 
 > Jeter une log des messages systèmes.
 > Plus d'informations : <https://developer.android.com/tools/logcat>.

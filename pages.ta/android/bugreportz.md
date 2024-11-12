@@ -12,10 +12,10 @@
 
 `bugreportz -p`
 
-- `bugreportz` பதிப்பைக் காட்டு:
-
-`bugreportz -v`
-
 - உதவியைக் காட்டு:
 
 `bugreportz -h`
+
+- `bugreportz` பதிப்பைக் காட்டு:
+
+`bugreportz -v`

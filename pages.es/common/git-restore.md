@@ -1,7 +1,7 @@
 # git restore
 
 > Restaura los archivos del árbol de trabajo. Requiere la version 2.23+ de Git.
-> Véase también `git checkout` y `git reset`.
+> Vea también `git checkout` y `git reset`.
 > Más información: <https://git-scm.com/docs/git-restore>.
 
 - Restaura un archivo sin marcar a la versión de la confirmación actual (HEAD):

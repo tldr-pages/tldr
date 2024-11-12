@@ -25,7 +25,7 @@
 
 - Faz um commit apenas de arquivos específicos (já preparados):
 
-`git commit {{caminho/para/arquivo1}} {{caminho/para/arquivo2}}`
+`git commit {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
 - Cria um commit, mesmo se não haja arquivos preparados:
 

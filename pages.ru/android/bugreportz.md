@@ -12,10 +12,10 @@
 
 `bugreportz -p`
 
-- Показать версию `bugreportz`:
-
-`bugreportz -v`
-
 - Показать справку:
 
 `bugreportz -h`
+
+- Показать версию `bugreportz`:
+
+`bugreportz -v`

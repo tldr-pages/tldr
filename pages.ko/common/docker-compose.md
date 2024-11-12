@@ -1,7 +1,7 @@
 # docker compose
 
 > 다중 컨테이너 도커 어플리케이션 실행 및 관리.
-> 더 많은 정보: <https://docs.docker.com/compose/reference/>.
+> 더 많은 정보: <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - 실행 중인 모든 컨테이너 목록 보기:
 

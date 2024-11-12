@@ -1,10 +1,10 @@
 # runcon
 
 > Run a program in a different SELinux security context.
-> With neither context nor command, print the current security context.
+> See also: `secon`.
 > More information: <https://www.gnu.org/software/coreutils/runcon>.
 
-- Determine the current domain:
+- Print the security context of the current execution context:
 
 `runcon`
 

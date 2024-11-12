@@ -1,8 +1,8 @@
 # dpkg
 
 > Gerenciador de pacotes Debian.
-> Alguns subcomandos como `dpkg deb` tem sua própia documentação de uso.
-> Mais informações: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
+> Alguns subcomandos como `deb` tem sua própia documentação de uso.
+> Mais informações: <https://manned.org/dpkg>.
 
 - Instala um pacote:
 

@@ -2,7 +2,7 @@
 
 > Beheer netwerkinterfaces en zetten nieuwe Wi-Fi-verbindingen op via NetworkManager.
 > Dit subcommando kan ook aangeroepen worden met `nmcli d`.
-> Meer informatie: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Toon de statussen van alle netwerkinterfaces:
 

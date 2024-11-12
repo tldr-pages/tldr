@@ -1,7 +1,7 @@
 # man
 
 > 설명서 페이지 형식 지정 및 표시.
-> 더 많은 정보: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
+> 더 많은 정보: <https://manned.org/man>.
 
 - 명령에 대한 설명서 페이지를 표시:
 

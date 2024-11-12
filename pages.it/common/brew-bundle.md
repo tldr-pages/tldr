@@ -9,7 +9,7 @@
 
 - Installa pacchetti da un Brewfile specifico in un percorso specifico:
 
-`brew bundle --file={{percorso/del/file}}`
+`brew bundle --file {{percorso/del/file}}`
 
 - Crea un Brewfile con tutti i pacchetti installati:
 

@@ -13,11 +13,11 @@
 
 - Mevcut daldaki en son 5 commit için bir paket dosyası oluştur:
 
-`git bundle create {{örnek/dosya.bundle}} -{{5}} {{HEAD}}`
+`git bundle create {{örnek/dosya.bundle}} -5 {{HEAD}}`
 
 - Son 7 günü içeren bir paket dosyası oluştur:
 
-`git bundle create {{örnek/dosya.bundle}} --since={{7.days}} {{HEAD}}`
+`git bundle create {{örnek/dosya.bundle}} --since=7.days {{HEAD}}`
 
 - Bir paket dosyasının geçerli olduğunu ve mevcut depoya uygulanabileceğini doğrula:
 

@@ -1,6 +1,6 @@
 # pnmtojpeg
 
-> Converts a PNM image file to the JPEG/JFIF/EXIF image format.
+> Convert a PNM image file to the JPEG/JFIF/EXIF image format.
 > More information: <https://netpbm.sourceforge.net/doc/pnmtojpeg.html>.
 
 - Read a PNM image as input and produce a JPEG/JFIF/EXIF image as output:

@@ -1,7 +1,7 @@
 # docker stats
 
 > Display a live stream of resource usage statistics for containers.
-> More information: <https://docs.docker.com/engine/reference/commandline/stats/>.
+> More information: <https://docs.docker.com/reference/cli/docker/container/stats/>.
 
 - Display a live stream for the statistics of all running containers:
 

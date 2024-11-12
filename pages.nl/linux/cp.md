@@ -5,11 +5,11 @@
 
 - Kopieer een bestand naar een andere locatie:
 
-`cp {{pad/naar/bron_bestand.ext}} {{pad/naar/doel_bestand.ext}}`
+`cp {{pad/naar/bronbestand.ext}} {{pad/naar/doel_bestand.ext}}`
 
 - Kopieer een bestand naar een andere map, maar behoud de bestandsnaam:
 
-`cp {{pad/naar/bron_bestand.ext}} {{pad/naar/doel_map}}`
+`cp {{pad/naar/bronbestand.ext}} {{pad/naar/doel_map}}`
 
 - Kopieer de inhoud van een map recursief naar een andere locatie (als de doelmap bestaat, dan wordt de map hierin gekopieerd):
 
@@ -33,4 +33,4 @@
 
 - Gebruik het volledige pad van de bron bestanden, creëer missende tussenliggende mappen tijdens het kopieëren:
 
-`cp --parents {{pad/naar/bron_bestand}} {{pad/naar/doel_bestand}}`
+`cp --parents {{pad/naar/bronbestand}} {{pad/naar/doel_bestand}}`

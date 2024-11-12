@@ -1,7 +1,7 @@
 # docker login
 
 > Fazer login em um registro do Docker.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/login/>.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/login/>.
 
 - Faz login interativamente em um registro:
 

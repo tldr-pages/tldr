@@ -1,7 +1,7 @@
 # ack
 
 > Een zoektool zoals grep, geoptimaliseerd voor ontwikkelaars.
-> Zie ook: `rg`, dat is veel sneller.
+> Bekijk ook: `rg`, dat is veel sneller.
 > Meer informatie: <https://beyondgrep.com/documentation>.
 
 - Zoek recursief naar bestanden met een tekenreeks of reguliere expressie in de huidige map:
@@ -18,17 +18,17 @@
 
 - Beperk het zoeken tot bestanden van een specifiek type:
 
-`ack --type={{ruby}} "{{zoekpatroon}}"`
+`ack --type {{ruby}} "{{zoekpatroon}}"`
 
 - Zoek niet in bestanden van een specifiek type:
 
-`ack --type=no{{ruby}} "{{zoekpatroon}}"`
+`ack --type no{{ruby}} "{{zoekpatroon}}"`
 
 - Tel het totaal aantal gevonden matches:
 
 `ack --count --no-filename "{{zoekpatroon}}"`
 
-- Druk alleen voor elk bestand de bestandsnamen en het aantal overeenkomsten af:
+- Toon alleen voor elk bestand de bestandsnamen en het aantal overeenkomsten:
 
 `ack --count --files-with-matches "{{zoekpatroon}}"`
 

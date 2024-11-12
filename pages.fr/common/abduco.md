@@ -1,7 +1,7 @@
 # abduco
 
 > Manageur de session dans un terminal.
-> Plus d'informations : <http://www.brain-dump.org/projects/abduco/>.
+> Plus d'informations : <https://www.brain-dump.org/projects/abduco/>.
 
 - Affiche les sessions :
 

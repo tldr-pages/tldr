@@ -1,7 +1,7 @@
 # gummy
 
 > Screen brightness/temperature manager for Linux/X11.
-> More information: <https://github.com/Fushko/gummy>.
+> More information: <https://github.com/Gitoffthelawn/gummy>.
 
 - Set the screen temperature to 3000K:
 

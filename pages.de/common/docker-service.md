@@ -1,7 +1,7 @@
 # docker service
 
 > Verwalte Docker Services.
-> Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/service/>.
+> Weitere Informationen: <https://docs.docker.com/reference/cli/docker/service/>.
 
 - Liste alle Services auf:
 

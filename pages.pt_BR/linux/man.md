@@ -7,6 +7,10 @@
 
 `man {{comando}}`
 
+- Exibe a página do manual para um comando no navegador web (necessário ter a variável de sistema `BROWSER` definida):
+
+`man --html {{command}}`
+
 - Exibe a página do manual para um comando da seção 7:
 
 `man {{7}} {{comando}}`
@@ -25,7 +29,7 @@
 
 - Exibe a página do manual usando uma localização específica:
 
-`man --locale={{localização}} {{comando}}`
+`man --locale {{localização}} {{comando}}`
 
 - Procura por páginas do manual que contenham uma certa string:
 

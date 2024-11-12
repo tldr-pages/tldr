@@ -1,6 +1,7 @@
 # gitui
 
-> Terminal UI for Git.
+> A lightweight keyboard-only TUI for Git.
+> See also: `tig`, `git-gui`.
 > More information: <https://github.com/extrawurst/gitui>.
 
 - Specify the color theme (defaults to `theme.ron`):

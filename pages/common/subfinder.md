@@ -10,15 +10,15 @@
 
 - Show only the subdomains found:
 
-`subfinder --silent -d {{example.com}}`
+`subfinder -silent -d {{example.com}}`
 
-- Use a brute-force attack to find subdomains:
-
-`subfinder -d {{example.com}} -b`
-
-- Remove wildcard subdomains:
+- Show only active subdomains:
 
 `subfinder -nW -d {{example.com}}`
+
+- Use all sources for enumeration:
+
+`subfinder -all -d {{example.com}}`
 
 - Use a given comma-separated list of [r]esolvers:
 

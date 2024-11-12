@@ -1,7 +1,7 @@
 # df
 
 > Muestra una visión general del uso del espacio en disco del sistema de archivos.
-> Más información: <https://man.netbsd.org/NetBSD-9.3/df.1>.
+> Más información: <https://man.netbsd.org/df.1>.
 
 - Muestra todos los sistemas de ficheros y su uso de disco usando unidades de 512 bytes:
 

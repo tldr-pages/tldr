@@ -2,7 +2,7 @@
 
 > Script enrobeur pour GnuPG utilisé pour gérer le trousseau de clés de pacman.
 > Voir aussi: `pacman`.
-> Plus d'informations : <https://man.archlinux.org/man/pacman-key>.
+> Plus d'informations : <https://manned.org/pacman-key>.
 
 - Initialise le trousseau de clés de pacman :
 

@@ -1,7 +1,7 @@
 # docker logs
 
 > Affiche les journaux d'un conteneur.
-> Plus d'informations : <https://docs.docker.com/engine/reference/commandline/logs>.
+> Plus d'informations : <https://docs.docker.com/reference/cli/docker/container/logs/>.
 
 - Afficher les journaux d'un conteneur :
 

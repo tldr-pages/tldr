@@ -18,8 +18,8 @@
 
 - Specify amount of RAM for instance:
 
-`qemu-system-i386 -m 256 -hda image_name.img -cdrom os-image.iso -boot d`
+`qemu-system-i386 -m 256 -hda {{image_name.img}} -cdrom {{os-image.iso}} -boot d`
 
 - Boot from physical device (e.g. from USB to test bootable medium):
 
-`qemu-system-i386 -hda /dev/{{storage_device}}`
+`qemu-system-i386 -hda {{/dev/storage_device}}`

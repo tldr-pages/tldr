@@ -1,7 +1,8 @@
 # iw
 
 > Show and manipulate wireless devices.
-> More information: <https://manned.org/iw>.
+> See also: `iw dev`.
+> More information: <https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html>.
 
 - Scan for available wireless networks:
 
@@ -18,3 +19,19 @@
 - Show information about the current connection:
 
 `iw dev {{wlp}} link`
+
+- List all physical and logical wireless network interfaces:
+
+`iw dev`
+
+- List all wireless capabilities for all physical hardware interfaces:
+
+`iw phy`
+
+- List the kernel's current wireless regulatory domain information:
+
+`iw reg get`
+
+- Display help for all commands:
+
+`iw help`

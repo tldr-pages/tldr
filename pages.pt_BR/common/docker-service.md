@@ -1,7 +1,7 @@
 # docker service
 
 > Gerenciar os serviços em um daemon do Docker.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/service/>.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/service/>.
 
 - Lista os serviços em um daemon do Docker:
 

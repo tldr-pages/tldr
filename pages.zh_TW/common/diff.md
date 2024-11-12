@@ -1,7 +1,7 @@
 # diff
 
 > 比較兩個檔案或目錄間的差異。
-> 更多資訊：<https://man7.org/linux/man-pages/man1/diff.1.html>.
+> 更多資訊：<https://manned.org/diff>.
 
 - 比較兩檔案，列出 `舊檔案` 相異於 `新檔案` 而需更改之處，以讓兩者相同：
 

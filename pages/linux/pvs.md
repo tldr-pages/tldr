@@ -2,7 +2,7 @@
 
 > Display information about physical volumes.
 > See also: `lvm`.
-> More information: <https://man7.org/linux/man-pages/man8/pvs.8.html>.
+> More information: <https://manned.org/pvs>.
 
 - Display information about physical volumes:
 

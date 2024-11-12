@@ -1,7 +1,7 @@
 # a2enconf
 
 > Active un fichier de configuration sur une distribution Debian.
-> Plus d'informations : <https://manpages.debian.org/latest/apache2/a2enconf.8.en.html>.
+> Plus d'informations : <https://manned.org/a2enconf.8>.
 
 - Active un fichier de configuration :
 

@@ -23,7 +23,7 @@
 
 `git checkout --track {{nombre_remoto}}/{{nombre_de_la_rama}}`
 
-- Descarta todos los cambios sin marcar en el directorio actual (véase `git reset` para más comandos para deshacer):
+- Descarta todos los cambios sin marcar en el directorio actual (vea `git reset` para más comandos para deshacer):
 
 `git checkout .`
 

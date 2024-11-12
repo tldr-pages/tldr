@@ -1,25 +1,26 @@
 /pages.de/ @pixelcmtd @gutjuri
-/pages.es/ @navarroaxel @kant @tricantivu
+/pages.es/ @navarroaxel @kant @tricantivu @ikks
 /pages.fa/ @MrMw3
 /pages.fr/ @Nico385412 @nicokosi @noraj
-/pages.hi/ @kbdharun
+/pages.hi/ @kbdharun @debghs @karthik-script
 /pages.id/ @reinhart1010
-/pages.it/ @mebeim @yutyo @Magrid0
-/pages.ko/ @IMHOJEONG
+/pages.it/ @mebeim @tansiret @Magrid0
+/pages.ko/ @IMHOJEONG @Zamoca42 @CodePsy-2001
 /pages.nl/ @sebastiaanspeck @leonvsc @Waples
-/pages.pl/ @acuteenvy
-/pages.pt_BR/ @isaacvicente @vitorhcl
+/pages.pl/ @acuteenvy @spageektti
+/pages.pt_BR/ @isaacvicente @vitorhcl @renie
 /pages.pt_PT/ @waldyrious
 /pages.ta/ @kbdharun
-/pages.tr/ @yutyo
+/pages.tr/ @tansiret
 /pages.zh/ @blueskyson @einverne
 /pages.zh_TW/ @blueskyson
 
 /pages/linux/ @cyqsimon
 
-/*.md @sbrl @kbdharun
+/*.md @sbrl @kbdharun @sebastiaanspeck
+/.devcontainer/* @kbdharun @sebastiaanspeck
 /.github/workflows/* @sbrl @kbdharun @sebastiaanspeck
-/scripts/* @sebastiaanspeck
+/scripts/* @sebastiaanspeck @kbdharun
 
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun
 /contributing-guides/style-guide.md @sbrl @kbdharun
@@ -29,13 +30,13 @@
 /contributing-guides/*.fr.md @Nico385412 @nicokosi @noraj
 /contributing-guides/*.hi.md @kbdharun
 /contributing-guides/*.id.md @reinhart1010
-/contributing-guides/*.it.md @mebeim @yutyo @Magrid0
+/contributing-guides/*.it.md @mebeim @tansiret @Magrid0
 /contributing-guides/*.ko.md @IMHOJEONG
 /contributing-guides/*.nl.md @sebastiaanspeck @leonvsc @Waples
-/contributing-guides/*.pl.md @acuteenvy
-/contributing-guides/*.pt_BR.md @isaacvicente @vitorhcl
+/contributing-guides/*.pl.md @acuteenvy @spageektti
+/contributing-guides/*.pt_BR.md @isaacvicente @vitorhcl @renie
 /contributing-guides/*.pt_PT.md @waldyrious
 /contributing-guides/*.ta.md @kbdharun
-/contributing-guides/*.tr.md @yutyo
+/contributing-guides/*.tr.md @tansiret
 /contributing-guides/*.zh.md @blueskyson @einverne
 /contributing-guides/*.zh_TW.md @blueskyson

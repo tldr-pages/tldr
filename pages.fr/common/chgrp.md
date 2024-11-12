@@ -17,4 +17,4 @@
 
 - Modifie le groupe propriétaire d'un fichier/répertoire pour qu'il corresponde à un fichier de référence :
 
-`chgrp --reference={{chemin/vers/fichier_référence}} {{chemin/vers/fichier_ou_répertoire}}`
+`chgrp --reference {{chemin/vers/fichier_référence}} {{chemin/vers/fichier_ou_répertoire}}`

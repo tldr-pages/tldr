@@ -14,3 +14,7 @@
 - Define o tipo de arquivo associado para uma extensão específica:
 
 `assoc .{{txt}}={{arquivotxt}}`
+
+- Exibe a saída de `assoc` uma tela por vez:
+
+`assoc | {{more}}`

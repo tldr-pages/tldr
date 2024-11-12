@@ -1,7 +1,7 @@
 # adduser
 
 > ابزار اضافه‌ کردن کاربر.
-> اطلاعات بیشتر: <https://manpages.debian.org/latest/adduser/adduser.html>.
+> اطلاعات بیشتر: <https://manned.org/adduser>.
 
 - ایجاد یک کاربر جدید با دایرکتوری خانگی پیش‌فرض و درخواست از کاربر برای تنظیم رمز عبور:
 

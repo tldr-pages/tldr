@@ -1,6 +1,6 @@
 # ctags
 
-> Generates an index (or tag) file of language objects found in source files for many popular programming languages.
+> Generate an index (or tag) file of language objects found in source files for many popular programming languages.
 > More information: <https://ctags.io/>.
 
 - Generate tags for a single file, and output them to a file named "tags" in the current directory, overwriting the file if it exists:

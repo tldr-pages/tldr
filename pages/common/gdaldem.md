@@ -1,7 +1,7 @@
 # gdaldem
 
 > Analyze and visualize digital elevation models (DEM).
-> More information: <https://gdal.org/programs/gdaldem>.
+> More information: <https://gdal.org/programs/gdaldem.html>.
 
 - Compute the hillshade of a DEM:
 

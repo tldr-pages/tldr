@@ -1,7 +1,7 @@
 # Set-Location
 
 > Display the current working directory or move to a different directory.
-> This command can only be used through PowerShell.
+> Note: This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-location>.
 
 - Go to the specified directory:

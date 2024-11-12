@@ -10,7 +10,7 @@
 
 - Inicia Nautilus como usuario root:
 
-`sudo nautilus`
+`nautilus admin:/`
 
 - Inicia Nautilus y muestra un directorio específico:
 

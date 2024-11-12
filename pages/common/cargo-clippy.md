@@ -19,6 +19,10 @@
 
 `cargo clippy --package {{package}}`
 
+- Run checks for a lint group (see <https://rust-lang.github.io/rust-clippy/stable/index.html#?groups=cargo,complexity,correctness,deprecated,nursery,pedantic,perf,restriction,style,suspicious>):
+
+`cargo clippy -- --warn clippy::{{lint_group}}`
+
 - Treat warnings as errors:
 
 `cargo clippy -- --deny warnings`

@@ -1,7 +1,7 @@
 # fossil
 
 > Distributed version control system.
-> Some subcommands such as `fossil commit` have their own usage documentation.
+> Some subcommands such as `commit` have their own usage documentation.
 > More information: <https://fossil-scm.org/>.
 
 - Execute a Fossil subcommand:

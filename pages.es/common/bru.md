@@ -1,7 +1,7 @@
 # bru
 
 > CLI para Bruno, un IDE de código abierto para explorar y probar APIs.
-> Más información: <https://docs.usebruno.com/cli/overview.html>.
+> Más información: <https://docs.usebruno.com/bru-cli/overview>.
 
 - Ejecuta todos los archivos de petición en el directorio actual:
 

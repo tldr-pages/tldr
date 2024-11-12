@@ -18,7 +18,7 @@
 
 - Salva e sai do arquivo atual:
 
-`:wq<Enter>`
+`{{ZZ|:wq<Enter>}}`
 
 - Entra em modo normal e desfaz a última operação:
 

@@ -7,30 +7,30 @@
 
 `ls -1`
 
-- List all files, including hidden files:
+- List [a]ll files, including hidden files:
 
 `ls -a`
 
-- List all files, with trailing `/` added to directory names:
+- List files with a trailing symbol to indicate file type (directory/, symbolic_link@, executable*, ...):
 
 `ls -F`
 
-- Long format list (permissions, ownership, size, and modification date) of all files:
+- List [a]ll files in [l]ong format (permissions, ownership, size, and modification date):
 
 `ls -la`
 
-- Long format list with size displayed using human-readable units (KiB, MiB, GiB):
+- List files in [l]ong format with size displayed using [h]uman-readable units (KiB, MiB, GiB):
 
 `ls -lh`
 
-- Long format list sorted by size (descending) recursively:
+- List files in [l]ong format, sorted by [S]ize (descending) [R]ecursively:
 
 `ls -lSR`
 
-- Long format list of all files, sorted by modification date (oldest first):
+- List files in [l]ong format, sorted by [t]ime the file was modified and in [r]everse order (oldest first):
 
 `ls -ltr`
 
-- Only list directories:
+- Only list [d]irectories:
 
 `ls -d */`

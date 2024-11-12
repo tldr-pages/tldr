@@ -1,17 +1,17 @@
 # at
 
-> Wykonuje polecenia o zadanym czasie.
-> Aby działać poprawnie wymaga działającego serwisu atd (lub atrun).
+> Jednokrotnie wykonaj polecenia w późniejszym czasie.
+> Usługa atd (lub atrun) powinna być uruchomiona dla rzeczywistych wykonań.
 > Więcej informacji: <https://manned.org/at>.
 
-- Wykonaj za 5 minut polecenie wprowadzone przy użyciu wejścia standardowego (aby zakończyć naciśnij `Ctrl + D`):
+- Wykonaj polecenia z `stdin` po upływie 5 minut (naciśnij `Ctrl + D` po zakończeniu):
 
 `at now + 5 minutes`
 
-- Wykonaj o 10:00 rano polecenie podane z wejścia standardowego:
+- Wykonaj polecenie z `stdin` dziś o 10:00:
 
-`echo "{{./zrób_backup.sh}}" | at 1000`
+`echo "{{./zrób_kopię_zapasową_bazy_danych.sh}}" | at 1000`
 
-- Wykonaj polecenia z podanego pliku w najbliższy wtorek o 21:30:
+- Wykonaj polecenia z danego pliku w następny wtorek:
 
 `at -f {{ścieżka/do/pliku}} 9:30 PM Tue`

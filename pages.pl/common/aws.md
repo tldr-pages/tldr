@@ -1,7 +1,7 @@
 # aws
 
 > Oficjalne narzędzie CLI dla Amazon Web Services.
-> Wizard, SSO, Resource Autocompletion, i opcje YAML są tylko v2.
+> Niektóre podkomendy takie jak `s3` mają osobną dokumentację.
 > Więcej informacji: <https://aws.amazon.com/cli>.
 
 - Konfiguruj AWS Command-line:
@@ -12,15 +12,11 @@
 
 `aws configure sso`
 
-- Zobacz tekst pomocy dla polecenia AWS:
-
-`aws {{komenda}} help`
-
 - Uzyskaj tożsamość wywołującego (służy do rozwiązywania problemów z uprawnieniami):
 
 `aws sts get-caller-identity`
 
-- Wyświetla listę zasobów AWS w regionie i wyświetla w yaml:
+- Uzyskaj listę zasobów AWS w regionie i wyświetl ją w YAML:
 
 `aws dynamodb list-tables --region {{us-east-1}} --output yaml`
 
@@ -35,3 +31,7 @@
 - Generuj JSON CLI Skeleton (przydatne dla infrastruktury jako kodu):
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- Wyświetl pomoc dla określonej komendy:
+
+`aws {{komenda}} help`

@@ -5,7 +5,7 @@
 
 - Affiche les dépôts existants, leur nom et URL :
 
-`git remote -v`
+`git remote {{-v|--verbose}}`
 
 - Affiche les informations à propos d'un dépôt :
 

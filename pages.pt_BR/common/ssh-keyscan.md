@@ -1,20 +1,20 @@
 # ssh-keyscan
 
-> Obter as chaves públicas SSH de hosts remotos.
+> Obter as chaves públicas SSH de servidores remotos.
 > Mais informações: <https://man.openbsd.org/ssh-keyscan>.
 
-- Obtém todas as chaves públicas SSH de um host remoto:
+- Obtém todas as chaves públicas SSH de um servidor remoto:
 
-`ssh-keyscan {{host}}`
+`ssh-keyscan {{servidor}}`
 
-- Obtém todas as chaves públicas SSH de um host remoto que esteja ouvindo em uma porta específica:
+- Obtém todas as chaves públicas SSH de um servidor remoto que esteja ouvindo em uma porta específica:
 
-`ssh-keyscan -p {{porta}} {{host}}`
+`ssh-keyscan -p {{porta}} {{servidor}}`
 
-- Obtém determinados tipos de chaves públicas SSH de um host remoto:
+- Obtém determinados tipos de chaves públicas SSH de um servidor remoto:
 
-`ssh-keyscan -t {{rsa,dsa,ecdsa,ed25519}} {{host}}`
+`ssh-keyscan -t {{rsa,dsa,ecdsa,ed25519}} {{servidor}}`
 
-- Atualiza manualmente o arquivo known_hosts do SSH com a impressão digital de um determinado host:
+- Atualiza manualmente o arquivo known_hosts do SSH com a impressão digital de um determinado servidor:
 
-`ssh-keyscan -H {{host}} >> ~/.ssh/known_hosts`
+`ssh-keyscan -H {{servidor}} >> ~/.ssh/known_hosts`

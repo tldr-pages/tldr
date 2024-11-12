@@ -13,7 +13,7 @@
 
 - 下载并安装所有推荐的更新：
 
-`softwareupdate --install --req`
+`softwareupdate --install --recommended`
 
 - 下载并安装特定的应用程序：
 

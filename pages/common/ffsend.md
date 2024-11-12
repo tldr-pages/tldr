@@ -13,12 +13,12 @@
 
 - Upload a file with password:
 
-`ffsend upload {{path/to/file}} -p {{password}}`
+`ffsend upload {{path/to/file}} {{-p|--password}} {{password}}`
 
 - Download a file protected by password:
 
-`ffsend download {{path/to/file}} -p {{password}}`
+`ffsend download {{url}} {{-p|--password}} {{password}}`
 
 - Upload a file and allow 4 downloads:
 
-`ffsend upload {{path/to/file}} -d {{4}}`
+`ffsend upload {{path/to/file}} {{-d|--downloads}} {{4}}`

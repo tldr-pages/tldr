@@ -18,4 +18,4 @@
 
 - Display help:
 
-`notify-send --help`
+`dunstify --help`

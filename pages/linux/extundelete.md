@@ -2,7 +2,7 @@
 
 > Recover deleted files from ext3 or ext4 partitions by parsing the journal.
 > See also `date` for Unix time information and `umount` for unmounting partitions.
-> More information: <http://extundelete.sourceforge.net>.
+> More information: <https://extundelete.sourceforge.net>.
 
 - Restore all deleted files inside partition N on device X:
 

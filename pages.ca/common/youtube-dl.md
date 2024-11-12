@@ -1,7 +1,7 @@
 # youtube-dl
 
 > Descarrega videos de YouTube i altres pàgines web.
-> Més informació: <http://rg3.github.io/youtube-dl/>.
+> Més informació: <https://rg3.github.io/youtube-dl/>.
 
 - Descarrega un vídeo o playlist:
 

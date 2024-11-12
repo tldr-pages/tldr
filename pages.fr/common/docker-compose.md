@@ -1,7 +1,7 @@
 # docker compose
 
 > Exécute et gère des applications au travers de plusieurs conteneurs Docker.
-> Plus d'informations : <https://docs.docker.com/compose/reference/>.
+> Plus d'informations : <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - Liste tous les conteneurs en cours d'exécution :
 

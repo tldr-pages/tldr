@@ -1,7 +1,7 @@
 # tig
 
 > Eine interaktive Kommandozeilenoberfläche für Git.
-> Weitere Informationen: <https://github.com/jonas/tig>.
+> Weitere Informationen: <https://jonas.github.io/tig/doc/manual.html>.
 
 - Zeige die Commits des aktuellen Branches:
 

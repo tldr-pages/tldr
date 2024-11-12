@@ -2,7 +2,7 @@
 
 > Un lenguaje de calculadora de precisión arbitraria.
 > Vea también: `dc`.
-> Más información: <https://manned.org/man/bc.1>.
+> Más información: <https://manned.org/bc>.
 
 - Inicia una sesión interactiva:
 

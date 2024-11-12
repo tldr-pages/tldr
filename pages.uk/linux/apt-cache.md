@@ -1,7 +1,7 @@
 # apt-cache
 
 > Інструмент запиту пакетів Debian і Ubuntu.
-> Більше інформації: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
+> Більше інформації: <https://manned.org/apt-cache.8>.
 
 - Шукати пакет у ваших поточних джерелах:
 

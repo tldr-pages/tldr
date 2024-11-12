@@ -5,12 +5,12 @@
 
 - Change `stdin` buffer size to 512 KiB:
 
-`stdbuf --input={{512K}} {{command}}`
+`stdbuf --input=512K {{command}}`
 
 - Change `stdout` buffer to line-buffered:
 
-`stdbuf --output={{L}} {{command}}`
+`stdbuf --output=L {{command}}`
 
 - Change `stderr` buffer to unbuffered:
 
-`stdbuf --error={{0}} {{command}}`
+`stdbuf --error=0 {{command}}`

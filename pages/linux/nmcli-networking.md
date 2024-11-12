@@ -2,7 +2,7 @@
 
 > Manage the networking status of NetworkManager.
 > This subcommand can also be called with `nmcli n`.
-> More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Show the networking status of NetworkManager:
 

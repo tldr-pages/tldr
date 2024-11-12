@@ -14,7 +14,7 @@
 
 - Applica un insieme di commit non sequenziali al ramo corrente:
 
-`git cherry-pick {{commit_1}} {{commit_2}}`
+`git cherry-pick {{commit_1 commit_2 ...}}`
 
 - Aggiungi le modifiche introdotte da un commit alla directory di lavoro, ma senza creare un nuovo commit:
 

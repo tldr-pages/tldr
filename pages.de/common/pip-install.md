@@ -17,7 +17,7 @@
 
 - Installiere die Pakete von einer URL oder einem lokalen Archiv (.tar.gz | .whl):
 
-`pip install --find-links {{url|pfad/zur/datei}}`
+`pip install --find-links {{url|pfad/zu/datei}}`
 
 - Installiere das lokale Paket im aktuellen Verzeichnis im Entwicklungs-/Bearbeitungsmodus:
 

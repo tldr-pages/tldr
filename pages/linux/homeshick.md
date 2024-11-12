@@ -1,6 +1,7 @@
 # homeshick
 
 > Synchronize Git dotfiles.
+> See also: `chezmoi`, `stow`, `tuckr`, `vcsh`.
 > More information: <https://github.com/andsens/homeshick/wiki>.
 
 - Create a new castle:

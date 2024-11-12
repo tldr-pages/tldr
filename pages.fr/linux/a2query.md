@@ -1,7 +1,7 @@
 # a2query
 
 > Retourne la configuration d'exécution d'Apache sur une distribution Debian.
-> Plus d'informations : <https://manpages.debian.org/latest/apache2/a2query.html>.
+> Plus d'informations : <https://manned.org/a2query>.
 
 - Liste les [m]odules Apache actifs :
 

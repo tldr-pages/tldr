@@ -1,15 +1,19 @@
 # base32
 
 > Bir dosya veya standart veriyi Base32 formatında şifrele veya yalın veri çıktısı olarak deşifre et.
-> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/base32>.
+> Daha fazla bilgi için: <https://manned.org/base32>.
 
 - Bir dosyayı şifrele:
 
-`base32 {{dosyaismi}}`
+`base32 {{dosya/yolu}}`
+
+- Kodlanmış çıktıyı belirli bir genişlikte sar (`0` sarmayı devre dışı bırakır):
+
+`base32 {{-w|--wrap}} {{0|76|...}} {{dosya/yolu}}`
 
 - Bir dosyayı deşifre et:
 
-`base32 --decode {{dosyaismi}}`
+`base32 {{-d|--decode}} {{dosya/yolu}}`
 
 - `stdin`'den şifrele:
 
@@ -17,4 +21,4 @@
 
 - `stdin`'den deşifre et:
 
-`{{herhangibirkomut}} | base32 --decode`
+`{{herhangibirkomut}} | base32 {{-d|--decode}}`

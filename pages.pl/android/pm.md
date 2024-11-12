@@ -3,21 +3,21 @@
 > Pokaż informacje o aplikacjach na urządzeniu z systemem Android.
 > Więcej informacji: <https://developer.android.com/tools/adb#pm>.
 
-- Listuj wszystkie zainstalowane aplikacje:
+- Wypisz wszystkie zainstalowane aplikacje:
 
 `pm list packages`
 
-- Listuj wszystkie zainstalowane aplikacje systemowych:
+- Wypisz wszystkie zainstalowane aplikacje [s]ystemowe:
 
 `pm list packages -s`
 
-- Listuj wszystkie zainstalowane aplikacje firm trzecich:
+- Wypisz wszystkie zainstalowane aplikacje firm trzecich ([3]):
 
 `pm list packages -3`
 
-- Listuj aplikacje pasujące do określonych słów kluczowych:
+- Wypisz aplikacje pasujące do określonych słów kluczowych:
 
-`pm list packages {{słowo_kluczowe}}`
+`pm list packages {{słowo_kluczowe1 słowo_kluczowe2 ...}}`
 
 - Pokaż ścieżkę APK konkretnej aplikacji:
 

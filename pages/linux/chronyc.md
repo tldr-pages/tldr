@@ -1,7 +1,7 @@
 # chronyc
 
 > Query the Chrony NTP daemon.
-> More information: <https://chrony.tuxfamily.org/doc/4.0/chronyc.html>.
+> More information: <https://chrony-project.org/doc/4.6.1/chronyc.html>.
 
 - Start `chronyc` in interactive mode:
 

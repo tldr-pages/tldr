@@ -1,4 +1,4 @@
-# fossil-forget
+# fossil forget
 
 > 这是 `fossil rm` 命令的一个别名。
 > 更多信息：<https://fossil-scm.org/home/help/forget>.

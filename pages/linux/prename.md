@@ -2,7 +2,7 @@
 
 > Rename multiple files.
 > Note: this page refers to the command from the `prename` Fedora package.
-> More information: <https://manned.org/man/prename>.
+> More information: <https://manned.org/prename>.
 
 - Rename files using a Perl Common Regular Expression (substitute 'foo' with 'bar' wherever found):
 

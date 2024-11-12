@@ -9,7 +9,7 @@
 
 - 将文字信息打印为横幅，宽度为 50 个字：
 
-`banner -w {{50}} "{{Hello World}}"`
+`banner -w 50 "{{Hello World}}"`
 
 - 从 `stdin` 中读取文本：
 

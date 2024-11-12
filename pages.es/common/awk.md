@@ -27,10 +27,10 @@
 
 `awk '{if ($1 == "foo") print "Coincidencia exacta foo"; else if ($1 ~ "bar") print "Coincidencia parcial bar"; else print "Baz"}' {{ruta/al/archivo}}`
 
-- Imprime todas las líneas en las que el valor de la 10ª columna sea igual al valor especificado:
+- Imprime todas las líneas en las que el valor de la 10ª columna está entre un mínimo y un máximo:
 
-`awk '($10 == valor)'`
+`awk '($10 >= {{valor_mínimo}} && $10 <= {{valor_máximo}})'`
 
-- Imprime todas las líneas en las que el valor de la 10ª columna esté entre un mínimo y un máximo:
+- Imprime tabla de usuarios con UID >=1000 con cabecera y salida formateada, usando dos puntos como separador (`%-20s` significa: 20 caracteres de cadena alineados a la izquierda, `%6s` significa: 6 caracteres de cadena alineados a la derecha):
 
-`awk '($10 >= valor_mín && $10 <= valor_máx)'`
+`awk 'BEGIN {FS=":";printf "%-20s %6s %25s\n", "Name", "UID", "Shell"} $4 >= 1000 {printf "%-20s %6d %25s\n", $1, $4, $7}' /etc/passwd`

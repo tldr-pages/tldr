@@ -1,7 +1,7 @@
 # namcap
 
 > Check binary packages and source `PKGBUILD`s for common packaging mistakes.
-> More information: <https://man.archlinux.org/man/namcap.1>.
+> More information: <https://manned.org/namcap.1>.
 
 - Check a specific `PKGBUILD` file:
 

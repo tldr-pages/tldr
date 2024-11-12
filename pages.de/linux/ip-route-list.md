@@ -1,6 +1,6 @@
-# ip-route-list
+# ip route list
 
-> Dieser Befehl ist ein Alias von `ip-route-show`.
+> Dieser Befehl ist ein Alias von  `ip route show`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

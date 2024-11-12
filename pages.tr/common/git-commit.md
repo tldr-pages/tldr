@@ -17,4 +17,4 @@
 
 - Yalnızca belirtilmiş (halihazırda sahnelenmiş) dosyaları commit'le:
 
-`git commit {{örnek/dosya1}} {{örnek/dosya2}}`
+`git commit {{örnek/dosya1 örnek/dosya2 ...}}`

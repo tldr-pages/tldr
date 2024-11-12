@@ -8,7 +8,7 @@
 
 `ncu`
 
-- List outdated global npm packages:
+- List outdated global `npm` packages:
 
 `ncu --global`
 

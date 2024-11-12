@@ -12,10 +12,10 @@
 
 `bugreportz -p`
 
-- `bugreportz` ni versiyasini ko'rsatish:
-
-`bugreportz -v`
-
 - Yordam ko'rsatish:
 
 `bugreportz -h`
+
+- Ni versiyasini ko'rsatish `bugreportz`:
+
+`bugreportz -v`

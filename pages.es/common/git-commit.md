@@ -25,7 +25,7 @@
 
 - Realiza una confirmación para archivos específicos (marcados previamente):
 
-`git commit {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
+`git commit {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
 - Crea una confirmación, incluso si no hay archivos marcados:
 

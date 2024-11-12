@@ -1,7 +1,7 @@
 # rails
 
 > Ein Server-seitiges MVC Webframework in Ruby.
-> Manche Unterbefehle wie `rails generate` sind separat dokumentiert.
+> Manche Unterbefehle wie `generate` sind separat dokumentiert.
 > Weitere Informationen: <https://guides.rubyonrails.org/command_line.html>.
 
 - Erstelle ein neues Rails-Projekt:

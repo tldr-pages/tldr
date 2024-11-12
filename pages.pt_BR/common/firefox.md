@@ -25,7 +25,7 @@
 
 - Tire uma screenshot de uma página web no modo headless:
 
-`firefox --headless --screenshot {{caminho/para/arquivo_de_saida.png}} {{https://exemplo.com/}}`
+`firefox --headless --screenshot {{caminho/para/arquivo_de_saida.png}} {{https://example.com/}}`
 
 - Use um perfil específico para permitir que múltiplas instâncias separadas do Firefox rodem ao mesmo tempo:
 

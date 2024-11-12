@@ -3,7 +3,7 @@
 > Hulpprogramma voor pakketbeheer voor op Debian gebaseerde distributies.
 > Aanbevolen vervanging voor `apt-get` bij interactief gebruik in Ubuntu versie 16.04 en later.
 > Voor gelijkwaardige commando's in andere pakket managers, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> Meer informatie: <https://manpages.debian.org/latest/apt/apt.8.html>.
+> Meer informatie: <https://manned.org/apt.8>.
 
 - Werk de lijst van beschikbare pakketten en versies bij (het wordt aanbevolen dit uit te voeren voor elk ander `apt` commando):
 

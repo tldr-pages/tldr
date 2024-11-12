@@ -1,4 +1,4 @@
-# pio-init
+# pio init
 
 > Cette commande est un alias de `pio project`.
 

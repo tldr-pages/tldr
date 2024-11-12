@@ -1,16 +1,16 @@
 # astronomer
 
-> Narzędzie wykrywające nielegalne gwiazdki z kont botów w projektach GithHub.
+> Wykrywaj fałszywe gwiazdki z kont botów w projektach GitHub.
 > Więcej informacji: <https://github.com/Ullaakut/astronomer>.
 
 - Skanuj repozytorium:
 
 `astronomer {{tldr-pages/tldr-node-client}}`
 
-- Zeskanuj maksymalną liczbę gwiazdek w repozytorium:
+- Skanuj maksymalną liczbę gwiazdek w repozytorium:
 
 `astronomer {{tldr-pages/tldr-node-client}} --stars {{50}}`
 
-- Przeskanuj repozytorium, w tym raporty porównawcze:
+- Skanuj repozytorium, w tym raporty porównawcze:
 
 `astronomer {{tldr-pages/tldr-node-client}} --verbose`

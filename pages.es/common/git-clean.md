@@ -9,7 +9,7 @@
 
 - Elimina interactivamente archivos que no son rastreados por Git:
 
-`git clean -i`
+`git clean {{-i|--interactive}}`
 
 - Muestra que archivos serían borrados sin llegar a borrarlos:
 
@@ -17,11 +17,11 @@
 
 - Elimina forzosamente los archivos que no son rastreados por Git:
 
-`git clean -f`
+`git clean {{-f|--force}}`
 
 - Elimina forzosamente los directorios que no son rastreados por Git:
 
-`git clean -fd`
+`git clean {{-f|--force}} -d`
 
 - Elimina archivos sin rastrear, incluyendo los archivos ignorados en `.gitignore` y los excluidos en `.git/info/exclude`:
 

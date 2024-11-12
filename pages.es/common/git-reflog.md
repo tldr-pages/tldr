@@ -13,4 +13,4 @@
 
 - Muestra solo las últimas 5 entradas en el registro de referencias:
 
-`git reflog -n {{5}}`
+`git reflog {{-n|--max-count}} 5`

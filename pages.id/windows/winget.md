@@ -3,9 +3,13 @@
 > Manajer Paket Antarmuka Baris Perintah Windows.
 > Informasi lebih lanjut: <https://learn.microsoft.com/windows/package-manager/winget>.
 
-- Instal paket:
+- Pasang suatu paket:
 
 `winget install {{nama_paket}}`
+
+- Hapus paket yang terpasang sebelumnya (Catatan: subperintah `uninstall` juga dapat digantikan dengan `remove`):
+
+`winget uninstall {{nama_paket}}`
 
 - Tampilkan informasi tentang paket:
 
@@ -15,18 +19,18 @@
 
 `winget search {{nama_paket}}`
 
-- Perbarui paket:
+- Perbarui seluruh paket menuju versi terkini:
 
-`winget upgrade {{nama_paket}}`
+`winget upgrade --all`
 
-- Tampilkan paket:
+- Tampilkan paket terpasang yang dapat dikelola oleh `winget`:
 
-`winget list {{nama_paket}}`
+`winget list --source winget`
 
-- Hapus paket:
+- Impor atau ekspor daftar paket terpasang ke dalam suatu file:
 
-`winget uninstall {{nama_paket}}`
+`winget {{import|export}} {{--import-file|--output}} {{jalan/menuju/berkas}}`
 
-- Bantuan daftar lengkap perintah:
+- Lakukan uji validasi manifes pemaketan winget sebelum mengirimkan rencana perubahan (Pull Request) menuju repositori winget-pkgs:
 
-`winget --help`
+`winget validate {{jalan/menuju/manifes}}`

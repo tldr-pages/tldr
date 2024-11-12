@@ -1,20 +1,24 @@
 # caffeinate
 
-> Evita que macOS entre en modo de reposo.
+> Evita que macOS se duerma.
 > Más información: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
-- Evita entrar en modo reposo por 1 hora (3600 segundos):
+- Evita que macOS entre en reposo durante 1 hora (3600 segundos):
 
 `caffeinate -u -t {{3600}}`
 
-- Evita entrar en modo reposo hasta que un comando finaliza:
+- Evita que entre en reposo hasta que termine de ejecutarse un comando:
 
-`caffeinate -s "{{command}}"`
+`caffeinate -s "{{comando}}"`
 
-- Evita entrar en modo reposo (use `Ctrl + C` para salir):
+- Evita que el sistema entre en reposo hasta que finalice un proceso con el PID especificado:
+
+`caffeinate -w {{pid}}`
+
+- Evita que entre en reposo (usa `Ctrl + C` para salir):
 
 `caffeinate -i`
 
-- Evita al disco entrar en modo reposo (use `Ctrl + C` para salir):
+- Evita que el disco entre en reposo (usa `Ctrl + C` para salir):
 
 `caffeinate -m`

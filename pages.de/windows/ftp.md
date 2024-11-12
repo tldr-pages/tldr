@@ -17,7 +17,7 @@
 
 - Ausführen einer Datei, die eine Liste von FTP-Befehlen enthält:
 
-`ftp -s:{{Pfad/zur/Datei}} {{host}}`
+`ftp -s:{{pfad/zu/Datei}} {{host}}`
 
 - Herunterladen von mehrerern Dateien (globaler Ausdruck):
 

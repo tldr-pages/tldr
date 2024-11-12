@@ -17,7 +17,7 @@
 
 - Inicia todos os contêineres usando um arquivo de composição alternativo:
 
-`podman-compose {{caminho/para/arquivo}} up`
+`podman-compose {{-f|--file}} {{caminho/para/arquivo}} up`
 
 - Para todos os contêineres em execução:
 

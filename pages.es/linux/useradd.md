@@ -1,24 +1,33 @@
 # useradd
 
-> Crea un usuario nuevo.
+> Crea un usuario.
+> Vea también: `users`, `userdel`, `usermod`.
 > Más información: <https://manned.org/useradd>.
 
-- Crea un usuario nuevo:
+- Crea un usuario:
 
-`useradd {{nombre}}`
+`sudo useradd {{usuario}}`
 
-- Crea un usuario nuevo con el directorio home predeterminado:
+- Crea un usuario con el ID de usuario específico:
 
-`useradd --create-home {{nombre}}`
+`sudo useradd {{-u|--uid}} {{id}} {{usuario}}`
 
-- Crea un usuario nuevo con una shell específica:
+- Crea un usuario con una línea de comando (shell) específica:
 
-`useradd --shell {{ruta/a/la/shell}} {{nombre}}`
+`sudo useradd {{-s|--shell}} {{ruta/a/la/shell}} {{usuario}}`
 
-- Crea un usuario nuevo perteneciente a grupos adicionales (tener en cuenta que no existen espacios en blanco):
+- Crea un usuario perteneciente a grupos adicionales (ten en cuenta que no se colocan espacios en blanco):
 
-`useradd --groups {{grupo1,grupo2}} {{nombre}}`
+`sudo useradd {{-G|--groups}} {{grupo1,grupo2,...}} {{usuario}}`
 
-- Crea un usuario nuevo del sistema sin directorio home:
+- Crea un usuario con el directorio home predeterminado:
 
-`useradd --no-create-home --system {{nombre}}`
+`sudo useradd {{-m|--create-home}} {{usuario}}`
+
+- Crea un usuario con el directorio home con una copia de los archivos provenientes de un directorio plantilla:
+
+`sudo useradd {{-k|--skel}} {{ruta/a/directorio_plantilla}} {{-m|--create-home}} {{usuario}}`
+
+- Crea un usuario del sistema sin directorio home:
+
+`sudo useradd {{-r|--system}} {{usuario}}`

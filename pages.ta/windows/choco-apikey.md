@@ -1,4 +1,4 @@
-# choco-apikey
+# choco apikey
 
 > சாக்லேட்டி மூலங்களுக்கான API விசைகளை நிர்வகிக்கவும்.
 > மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-apikey>.

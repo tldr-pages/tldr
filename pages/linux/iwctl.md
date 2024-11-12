@@ -1,7 +1,7 @@
 # iwctl
 
 > Control the `iwd` network supplicant.
-> More information: <https://iwd.wiki.kernel.org/gettingstarted>.
+> More information: <https://archive.kernel.org/oldwiki/iwd.wiki.kernel.org/gettingstarted.html>.
 
 - Start the interactive mode, in this mode you can enter the commands directly, with autocompletion:
 

@@ -12,10 +12,6 @@
 
 `aws configure sso`
 
-- Voir l'aide pour une commande AWS :
-
-`aws {{commande}} help`
-
 - Récupère l'identité de l'appelant (utilisé pour débogguer les permissions) :
 
 `aws sts get-caller-identity`
@@ -35,3 +31,7 @@
 - Génère un squelette CLI en JSON (utile pour l'Infrastructure as Code) :
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- Voir l'aide pour une commande AWS :
+
+`aws {{commande}} help`

@@ -6,8 +6,8 @@
 
 - Tampilkan ukuran fisik terhadap layar perangkat:
 
-`wm {{size}}`
+`wm size`
 
 - Tampilkan tingkat kepadatan resolusi terhadap layar perangkat:
 
-`wm {{density}}`
+`wm density`

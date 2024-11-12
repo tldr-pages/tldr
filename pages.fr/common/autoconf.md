@@ -13,4 +13,4 @@
 
 - Génère un script de configuration depuis un modèle spécifié (même si the fichier d'entrée n'a pas changé) et l'écrit dans un fichier :
 
-`autoconf --force --output={{fichier_de_sortie}} {{fichier_de_template}}`
+`autoconf --force --output {{fichier_de_sortie}} {{fichier_de_template}}`

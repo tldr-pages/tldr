@@ -1,4 +1,4 @@
-# pio-init
+# pio init
 
 > To polecenie jest aliasem `pio project`.
 

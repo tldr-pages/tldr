@@ -7,11 +7,11 @@
 
 `find {{caminho_raiz}} -name '{{*.ext}}'`
 
-- Procura por arquivos que correspondam a padrões de caminho ou nome específico:
+- Procura por arquivos que correspondam a vários padrões específicos de caminho/nome:
 
 `find {{caminho_raiz}} -path '{{**/caminho/**/*.ext}}' -or -name '{{*nome*}}'`
 
-- Procura por diretórios que correspondam a um nome específico, sem o uso de case-sensitive:
+- Procura por diretórios que correspondam a um nome específico, sem diferenciar maiúsculo de minúsculo:
 
 `find {{caminho_raiz}} -type d -iname '{{*nome*}}'`
 
@@ -27,10 +27,10 @@
 
 `find {{caminho_raiz}} -name '{{*.ext}}' -exec {{wc -l}} {} \;`
 
-- Procura por todos os arquivos modificados hoje e passa o resultado para um único comando como argumento:
+- Procura por todos os arquivos modificados hoje e passa os resultados para um único comando como argumentos:
 
 `find {{caminho_raiz}} -daystart -mtime {{-1}} -exec {{tar -cvf arquivo.tar}} {} \+`
 
-- Procura por arquivos vazios (0 bytes) e os deleta:
+- Procura por arquivos vazios (0 byte) ou diretórios e os exclui de forma verbosa:
 
-`find {{caminho_raiz}} -type {{f}} -empty -delete`
+`find {{caminho_raiz}} -type {{f|d}} -empty -delete -print`

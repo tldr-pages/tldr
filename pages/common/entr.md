@@ -1,7 +1,7 @@
 # entr
 
 > Run arbitrary commands when files change.
-> More information: <http://eradman.com/entrproject/>.
+> More information: <https://eradman.com/entrproject/>.
 
 - Rebuild with `make` if any file in any subdirectory changes:
 

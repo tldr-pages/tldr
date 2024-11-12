@@ -1,7 +1,7 @@
 # git lfs
 
 > Git depolarındaki büyük dosyalarla çalış.
-> Daha fazla bilgi için: <https://git-lfs.github.com>.
+> Daha fazla bilgi için: <https://git-lfs.com>.
 
 - Git LFS'i başlat:
 
@@ -13,7 +13,7 @@
 
 - Git LFS uç nokta URL'sini değiştir (LFS sunucusunun Git sunucusundan ayrı olması durumunda işlevseldir):
 
-`git config -f .lfsconfig lfs.url {{lfs_uç_nokta_url'si}}`
+`git config {{-f|--file}} .lfsconfig lfs.url {{lfs_uç_nokta_url'si}}`
 
 - İzlenen kalıpları sırala:
 

@@ -10,7 +10,7 @@
 
 - 启动交互式的合并任务，允许对提交的内容进行重新排序、省略、合并或修改：
 
-`git rebase -i {{目标分支或 commit 的 hash}}`
+`git rebase {{-i|--interactive}} {{目标分支或 commit 的 hash}}`
 
 - 处理完冲突文件后，继续执行合并任务：
 
@@ -30,8 +30,8 @@
 
 - 启动交互式的合并任务，对最近提交的 5 个 commits 进行重新排序、省略、合并或修改：
 
-`git rebase -i {{HEAD~5}}`
+`git rebase {{-i|--interactive}} {{HEAD~5}}`
 
 - 以当前分支优先的策略，自动处理分支间的冲突，执行合并：
 
-`git rebase -X theirs {{分支名称}}`
+`git rebase {{-X|--strategy-option}} theirs {{分支名称}}`

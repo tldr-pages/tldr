@@ -7,15 +7,15 @@
 
 `adb logcat`
 
-- Muestra las líneas que coinciden con una expresión regular:
+- Muestra las líneas que coincidan con una expresión regular:
 
-`adb logcat -e {{expresion_regular}}`
+`adb logcat -e {{expresión_regular}}`
 
-- Muestra los registros de una etiqueta en un modo específico ([V]erbose, [D]ebug, [I]nfo, [W]arning, [E]rror, [F]atal, [S]ilent), filtrando otras etiquetas:
+- Muestra los registros de una etiqueta en un modo específico ([V]erboso, [D]epuración, [I]nformación, [W]arning, [E]rror, [F]atal, [S]ilencioso), filtrando otras etiquetas:
 
 `adb logcat {{etiqueta}}:{{modo}} *:S`
 
-- Muestra los registros de aplicaciones React Native en modo [V]erbose [S]ilencing otras etiquetas:
+- Muestra los registros de aplicaciones React Native en modo [V]erboso [S]ilenciando otras etiquetas:
 
 `adb logcat ReactNative:V ReactNativeJS:V *:S`
 
@@ -25,12 +25,12 @@
 
 - Muestra los registros de un proceso específico:
 
-`adb logcat --pid={{pid}}`
+`adb logcat --pid {{pid}}`
 
 - Muestra los registros del proceso de un paquete específico:
 
-`adb logcat --pid=$(adb shell pidof -s {{paquete}})`
+`adb logcat --pid $(adb shell pidof -s {{paquete}})`
 
-- Colorea el registro (normalmente se utiliza con filtros):
+- Colorea el registro (normalmente se usan filtros):
 
 `adb logcat -v color`

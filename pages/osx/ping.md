@@ -11,18 +11,18 @@
 
 `ping -c {{count}} "{{host}}"`
 
-- Ping `host`, specifying the interval in `seconds` between requests (default is 1 second):
+- Ping a host, specifying the interval in seconds between requests (default is 1 second):
 
 `ping -i {{seconds}} "{{host}}"`
 
-- Ping `host` without trying to lookup symbolic names for addresses:
+- Ping a host without trying to lookup symbolic names for addresses:
 
 `ping -n "{{host}}"`
 
-- Ping `host` and ring the bell when a packet is received (if your terminal supports it):
+- Ping a host and ring the bell when a packet is received (if your terminal supports it):
 
 `ping -a "{{host}}"`
 
-- Ping `host` and prints the time a packet was received (this option is an Apple addition):
+- Ping a host and prints the time a packet was received (this option is an Apple addition):
 
 `ping --apple-time "{{host}}"`

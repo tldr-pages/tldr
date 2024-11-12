@@ -18,12 +18,12 @@
 
 - Voeg regel toe aan keten policy voor IP met [p]rotocol en poort in overweging:
 
-`sudo iptables --append {{keten}} --source {{ip}} --protocol {{tcp|udp|icmp|...}} --dport {{port}} --jump {{regel}}`
+`sudo iptables --append {{keten}} --source {{ip}} --protocol {{tcp|udp|icmp|...}} --dport {{poort}} --jump {{regel}}`
 
 - Voeg een NAT regel toe om al het verkeer van `192.168.0.0/24` subnet te vertalen naar de host's publieke IP:
 
 `sudo iptables --table {{nat}} --append {{POSTROUTING}} --source {{192.168.0.0/24}} --jump {{MASQUERADE}}`
 
-- Verwijder keten regel:
+- Verwij[D]er keten regel:
 
-`sudo iptables --delete {{keten}} {{regel_line_number}}`
+`sudo iptables --delete {{keten}} {{regelnummer}}`

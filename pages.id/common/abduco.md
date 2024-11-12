@@ -1,7 +1,7 @@
 # abduco
 
 > Manajer sesi Terminal.
-> Informasi lebih lanjut: <http://www.brain-dump.org/projects/abduco/>.
+> Informasi lebih lanjut: <https://www.brain-dump.org/projects/abduco/>.
 
 - Tampilkan sesi-sesi yang sedang aktif:
 

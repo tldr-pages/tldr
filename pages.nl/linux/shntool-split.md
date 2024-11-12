@@ -1,4 +1,4 @@
-# shntool-split
+# shntool split
 
 > Dit commando is een alias van `shnsplit`.
 

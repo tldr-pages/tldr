@@ -13,11 +13,11 @@
 
 - Create a bundle file of the last 5 commits of the current branch:
 
-`git bundle create {{path/to/file.bundle}} -{{5}} {{HEAD}}`
+`git bundle create {{path/to/file.bundle}} -5 {{HEAD}}`
 
 - Create a bundle file of the latest 7 days:
 
-`git bundle create {{path/to/file.bundle}} --since={{7.days}} {{HEAD}}`
+`git bundle create {{path/to/file.bundle}} --since 7.days {{HEAD}}`
 
 - Verify that a bundle file is valid and can be applied to the current repository:
 
@@ -30,3 +30,7 @@
 - Unbundle a specific branch from a bundle file into the current repository:
 
 `git pull {{path/to/file.bundle}} {{branch_name}}`
+
+- Create a new repository from a bundle:
+
+`git clone {{path/to/file.bundle}}`

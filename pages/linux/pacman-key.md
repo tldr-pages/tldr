@@ -2,7 +2,7 @@
 
 > Wrapper script for GnuPG used to manage pacman's keyring.
 > See also: `pacman`.
-> More information: <https://man.archlinux.org/man/pacman-key>.
+> More information: <https://manned.org/pacman-key>.
 
 - Initialize the `pacman` keyring:
 

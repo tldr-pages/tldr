@@ -1,4 +1,4 @@
-# Accelerate
+# accelerate
 
 > Accelerate는 동일한 PyTorch 코드를 모든 분산 환경 구성에서 실행할 수 있게 해주는 라이브러리입니다.
 > 더 많은 정보: <https://huggingface.co/docs/accelerate/index>.

@@ -1,32 +1,32 @@
 # nc
 
-> Netcat es una utilidad versátil para trabajar con datos TCP o UDP.
-> Más información: <https://manned.org/man/nc.1>.
+> Redirige datos de entrada o salida a un flujo de red a través de esta versátil herramienta.
+> Más información: <https://manned.org/nc>.
 
-- Escucha en un puerto determinado e imprime cualquier dato recibido:
+- Inicia un escuchador en un puerto TCP y le envía un archivo:
 
-`nc -l {{puerto}}`
+`nc -l -p {{puerto}} < {{nombre_de_archivo}}`
 
-- Conecta a un puerto determinado:
+- Conecta a un escuchador en un puerto y recibe un archivo de él:
 
-`nc {{direccion_ip}} {{puerto}}`
+`nc {{host}} {{puerto}} > {{nombre_de_archivo_por_recibir}}`
 
-- Configura un tiempo máximo de respuesta:
+- Escanea los puertos TCP abiertos en un host:
 
-`nc -w {{tiempo_en_segundos}} {{direccion_ip}} {{puerto}}`
+`nc -v -z -w {{tiempo_de_espera_en_segundos}} {{host}} {{puerto_inicial}}-{{puerto_final}}`
 
-- Mantiene el servidor activo hasta que el cliente se desconecte:
+- Inicia un escuchador en un puerto TCP y provee de acceso a tu intérprete de comandos local a la parte conectada (esto es peligroso y podría ser explotado):
 
-`nc -k -l {{puerto}}`
+`nc -l -p {{puerto}} -e {{ejecutable_del_intérprete}}`
 
-- Mantiene el cliente activo durante un tiempo después de recibir EOF:
+- Conecta a un escuchador y provee de acceso a tu intérprete de comandos local a una parte remota (esto es peligroso y podría ser explotado):
 
-`nc -q {{tiempo_en_segundos}} {{direccion_ip}}`
+`nc {{host}} {{puerto}} -e {{ejecutable_del_intérprete}}`
 
-- Escanea puertos abiertos en un determinado host:
+- Actúa como un proxy y envía información de un puerto TCP local a un host remoto:
 
-`nc -v -z {{direccion_ip}} {{puerto1 puerto2 ...}}`
+`nc -l -p {{puerto_local}} | nc {{host}} {{puerto_remoto}}`
 
-- Actúa como un proxy y redirige los datos desde un puerto TCP local a un host remoto específico:
+- Envía una petición HTTP GET:
 
-`nc -l {{puerto_local}} | nc {{nombre_del_host}} {{puerto_remoto}}`
+`echo -e "GET / HTTP/1.1\nHost: {{host}}\n\n" | nc {{host}} 80`

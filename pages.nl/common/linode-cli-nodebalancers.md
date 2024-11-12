@@ -2,7 +2,7 @@
 
 > Beheer Linode NodeBalancers.
 > Bekijk ook: `linode-cli`.
-> Meer informatie: <https://www.linode.com/docs/products/tools/cli/guides/nodebalancers/>.
+> Meer informatie: <https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-nodebalancers>.
 
 - Toon alle NodeBalancers:
 
@@ -10,7 +10,7 @@
 
 - Maak een nieuwe NodeBalancer:
 
-`linode-cli nodebalancers create --region {{region}}`
+`linode-cli nodebalancers create --region {{regio}}`
 
 - Toon details van een specifieke NodeBalancer:
 
@@ -18,7 +18,7 @@
 
 - Update een bestaande NodeBalancer:
 
-`linode-cli nodebalancers update {{nodebalancer_id}} --label {{new_label}}`
+`linode-cli nodebalancers update {{nodebalancer_id}} --label {{nieuw_label}}`
 
 - Verwijder een NodeBalancer:
 
@@ -30,4 +30,4 @@
 
 - Voeg een nieuwe configuratie toe aan een NodeBalancer:
 
-`linode-cli nodebalancers configs create {{nodebalancer_id}} --port {{port}} --protocol {{protocol}}`
+`linode-cli nodebalancers configs create {{nodebalancer_id}} --port {{poort}} --protocol {{protocol}}`

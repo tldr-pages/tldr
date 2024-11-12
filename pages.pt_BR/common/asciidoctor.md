@@ -9,7 +9,7 @@
 
 - Converte um arquivo `.adoc` em HTML e liga a uma folha de estilos CSS:
 
-`asciidoctor -a stylesheet={{caminho/para/estilos.css}} {{caminho/para/arquivo.adoc}}`
+`asciidoctor -a stylesheet {{caminho/para/estilos.css}} {{caminho/para/arquivo.adoc}}`
 
 - Converte um arquivo `.adoc` em um HTML embutível, removendo tudo exceto o corpo:
 
@@ -17,4 +17,4 @@
 
 - Converte um arquivo `.adoc` em PDF usando a biblioteca `asciidoctor-pdf`:
 
-`asciidoctor --backend={{pdf}} --require={{asciidoctor-pdf}} {{caminho/para/arquivo.adoc}}`
+`asciidoctor --backend {{pdf}} --require {{asciidoctor-pdf}} {{caminho/para/arquivo.adoc}}`

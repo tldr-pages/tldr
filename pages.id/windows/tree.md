@@ -1,20 +1,20 @@
 # tree
 
-> Menampilkan struktur direktori pada suatu lokasi dengan tampilan grafis pohon.
+> Tampilkan struktur direktori pada suatu lokasi dengan tampilan grafis pohon.
 > Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/tree>.
 
-- Tampilkan pohon dari direktori saat ini:
+- Tampilkan pohon struktur direktori saat ini:
 
 `tree`
 
-- Tampilkan pohon dari direktori yang ditentukan:
+- Tampilkan pohon struktur direktori yang ditentukan:
 
-`tree {{lokasi/ke/direktori}}`
+`tree {{jalan\menuju\direktori}}`
 
-- Tampilkan pohon dari direktori termasuk file:
+- Tampilkan pohon struktur direktori termasuk daftar berkas ([f]ile) dalam setiap direktori:
 
-`tree {{lokasi/ke/direktori}} /f`
+`tree {{jalan\menuju\direktori}} /f`
 
-- Tampilkan pohon menggunakan karakter ASCII alih-alih karakter yang diperluas:
+- Tampilkan pohon hanya dengan menggunakan karakter [a]SCII daripada menggunakan set karakter yang lebih luas:
 
-`tree {{lokasi/ke/direktori}} /a`
+`tree {{jalan\menuju\direktori}} /a`

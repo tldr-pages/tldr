@@ -17,4 +17,4 @@
 
 - Merge page subranges from two PDFs:
 
-`pdfjoin {/path/to/file1.pdf}} {{2-}} {{file2}} {{last-3}} --outfile {{output_file}}`
+`pdfjoin {{/path/to/file1.pdf}} {{2-}} {{file2}} {{last-3}} --outfile {{output_file}}`

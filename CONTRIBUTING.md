@@ -21,6 +21,10 @@ Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!
 
 All `tldr` pages are stored in Markdown right here on GitHub. Just open an issue or send a pull request, and we'll incorporate it as soon as possible.
 
+> [!IMPORTANT]
+> While this file contains general instructions to get started, it is suggested to read the [style guide](contributing-guides/style-guide.md) and [translation templates](contributing-guides/translation-templates)
+> for more detailed information about the syntax and commonly used translation terms.
+
 To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 [Contributor License Agreement](https://gist.github.com/waldyrious/e50feec13683e565769fbd58ce503d4e).
 
@@ -50,12 +54,14 @@ When in doubt, have a look at a few existing pages :).
 
 ## Directory structure
 
-The English pages directory is called `pages`, under which the platform directories are present. Language-specific directories must follow the pattern `pages.<locale>`, where `<locale>` is a [POSIX Locale Name](https://www.gnu.org/software/gettext/manual/html_node/Locale-Names.html#Locale-Names) in the form of `<language>[_<country>]`, where:
+The English pages directory is called `pages`, under which the platform directories are present. Language-specific directories must follow the pattern `pages.<locale>`, where `<locale>` is a
+[POSIX Locale Name](https://www.gnu.org/software/gettext/manual/html_node/Locale-Names.html#Locale-Names) in the form of `<language>[_<country>]`, where:
 
 - `<language>` is the shortest [ISO 639](https://en.wikipedia.org/wiki/ISO_639) language code for the chosen language (see [here](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) for a complete list).
 - `<country>` is the two-letter [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) country code for the chosen region (see [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) for a complete list).
 
-The `<country>` code is optional and should only be added when there is a substantial difference between a language (`ll`) and its regional dialects (`ll_CC1`, `ll_CC2`, etc.). For example, both `fr_FR` and `fr_BE` should fall under the same `pages.fr` directory since there virtually is no difference in writing between standard French and Belgian French.
+The `<country>` code is optional and should only be added when there is a substantial difference between a language (`ll`) and its regional dialects (`ll_CC1`, `ll_CC2`, etc.).
+For example, both `fr_FR` and `fr_BE` should fall under the same `pages.fr` directory since there virtually is no difference in writing between standard French and Belgian French.
 
 ### Platform directories
 
@@ -63,14 +69,15 @@ The `pages` directory and `pages.*` language-specific directories contain the pl
 
 1. If the command is available for **two or more** platforms, put it **under the `common` directory**.
 2. If the command is **only** available for **one** platform, these are the available directories followed by their right platform:
-  - `android`: Android
-  - `freebsd`: FreeBSD
-  - `openbsd`: OpenBSD
-  - `osx`: OSX/Mac OS/macOS (will be replaced by `macos`)
-  - `linux`: any Linux distro
-  - `netbsd`: NetBSD
-  - `sunos`: SunOS
-  - `windows`: Windows
+
+- `android`: Android
+- `freebsd`: FreeBSD
+- `openbsd`: OpenBSD
+- `osx`: OSX/Mac OS/macOS (will be replaced by `macos`)
+- `linux`: any Linux distro
+- `netbsd`: NetBSD
+- `sunos`: SunOS
+- `windows`: Windows
 
 ## Markdown format
 
@@ -134,7 +141,7 @@ You should always add a base page (e.g. `git`) that describes the program and ba
 
 The following methods can be used to reference subcommands:
 
-- You can add a note saying ``Some subcommands such as `example command` have their own usage documentation`` to the main page. (See the [subcommand reference](/contributing-guides/translation-templates/subcommand-mention.md) page for translation templates.)
+- You can add a note saying ``Some subcommands such as `example command` have their own usage documentation`` to the main page. (See the [subcommand reference](/contributing-guides/translation-templates/subcommand-mention.md) page for translation templates). `example command` should only include the subcommand (e.g. `commit` instead of `git commit`).
 - You can use ``See also: `command1`, `command2`.`` template to reference similar commands, aliases and subcommands.
 - Alternatively, the whole page can be converted to reference the main subcommands.
 
@@ -167,7 +174,7 @@ See these examples for reference:
 > [!IMPORTANT]
 > Translations of pages should be done based on the English (US) page in the `pages` directory. If the English pages don't exist for the command, it should be added first in a PR before creating a translation.
 
-Translation of pages can be done by simply creating the corresponding page within the appropriate [language-specific directory](#pages-directory), creating that as well if it does not already exist.
+Translation of pages can be done by simply creating the corresponding page within the appropriate [language-specific directory](#directory-structure), creating that as well if it does not already exist.
 
 > [!IMPORTANT]  
 > When adding a new language to `tldr`, it is suggested to add it to the [translation templates](contributing-guides/translation-templates) along with any page additions.
@@ -175,7 +182,7 @@ Translation of pages can be done by simply creating the corresponding page withi
 > [!TIP]
 > When fixing errors in an existing translation, it is suggested to update the page to match the latest version of the English page.
 
-To see the current progress of all translations, you can visit <https://lukwebsforge.github.io/tldri18n/>, which provides a dynamically updated table of all pages and their translations.
+To see the current progress of all translations, you can visit <https://lukwebsforge.github.io/tldri18n/>, which provides a dynamically updated table of all pages and their translations or you can visit <https://github.com/tldr-pages/tldr-maintenance/issues/127>, which provides a dynamically updated list about the translation status (e.g. list all outdated pages) per language.
 
 Some examples of valid locale tags:
 
@@ -216,7 +223,8 @@ tldr-lint {{path/to/page.md}}
 Now, you are ready to submit a pull request!
 
 > [!TIP]
-> Additionally, inside the `tldr` directory you can install the dependencies using the `npm install` command and now when you commit your changes, the tests will run automatically via the pre-commit hook. (To skip the pre-commit hook and immediately commit your changes use the `git commit --no-verify` command).
+> Additionally, inside the `tldr` directory you can install the dependencies using the `npm install` command and now when you commit your changes, the tests will run automatically via the pre-commit hook.
+> (To skip the pre-commit hook and immediately commit your changes use the `git commit --no-verify` command).
 
 ### Submitting changes
 
@@ -229,11 +237,13 @@ Alternatively, you can do most of the process
 [using Git on the command-line](contributing-guides/git-terminal.md).
 
 > [!TIP]
-> After creating a pull request, it is suggested to enable the "Allow edits by maintainers" option (This only needs to be done once the first time you create a PR). It allows maintainers to make changes to your pull request and assist you in getting it merged.
+> After creating a pull request, it is suggested to enable the "Allow edits by maintainers" option (This only needs to be done once the first time you create a PR).
+> It allows maintainers to make changes to your pull request and assist you in getting it merged, in addition to facilitate the contribution to go on if you can no longer work on it soon for any reason.
 
 ### Accepting suggestions within a pull request
 
-The easiest way to apply suggested changes is to accept the suggestion made on your pull request. Refer to the [GitHub docs](https://docs.github.com/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request) for more details.
+The easiest way to apply suggested changes is to accept the suggestion made on your pull request.
+Refer to the [GitHub docs](https://docs.github.com/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request) for more details.
 
 To commit a suggestion to your pull request, click on `Commit suggestion`:
 
@@ -268,7 +278,8 @@ For other cases, it is suggested to follow <https://www.conventionalcommits.org/
 
 ## Name collisions
 
-When there are multiple commands sharing the same name, the existing page of the command and the new command can be renamed to `command.1` and so on following a numbering scheme or based on the programming language i.e. `command.js`. The base page can be updated to reference the newly renamed/created pages by following [this subcommand reference format](#subcommands).
+When there are multiple commands sharing the same name, the existing page of the command and the new command can be renamed to `command.1` and so on following a numbering scheme or based on the programming language i.e. `command.js`.
+The base page can be updated to reference the newly renamed/created pages by following [this subcommand reference format](#subcommands).
 
 See the following page for reference:
 
