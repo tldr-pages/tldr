@@ -1,7 +1,7 @@
 # mount.cifs
 
 > Monta SMB (Server Message Block) o CIFS (Common Internet File System).
-> Nota: también puede hacer lo mismo pasando la opción '-t cifs` a `mount`.
+> Nota: también puede hacer lo mismo pasando la opción `-t cifs` a `mount`.
 > Más información: <https://manned.org/mount.cifs>.
 
 - Conecta el nombre de usuario especificado o `$USER` por defecto (se le pedirá una contraseña):
