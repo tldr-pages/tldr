@@ -7,7 +7,7 @@
 
 `docker node ls`
 
-- List tasks running on one or more nodes, defaults to current node:
+- List tasks running on one or more nodes, defaults to the current node:
 
 `docker node ps {{node1 node2 node3 ...}}`
 
