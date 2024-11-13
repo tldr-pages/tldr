@@ -25,4 +25,4 @@
 
 - Ejecuta una fuerza bruta contra una lista de servidores SMB utilizando un nombre de usuario y un archivo pwdump:
 
-`medusa -M smbnt -H {{ruta/a/archivo_de_hosts}} -C {{ruta/al/archivo_pwdump}} -u {{usuario}} -m PASS:HASH`
+`medusa -M smbnt -H {{ruta/al/archivo_de_hosts}} -C {{ruta/al/archivo_pwdump}} -u {{usuario}} -m PASS:HASH`
