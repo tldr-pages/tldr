@@ -3,30 +3,30 @@
 > Esegui varie operazioni inerenti i Ruoli e le Collezioni in Ansible.
 > Maggiori informazioni: <https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
 
-- Lista delle installazioni sia dei ruoli che delle collezioni:
+- Lista i ruoli o le collezioni installate:
 
-`ansible-galaxy {{role|collection}} list`
+`ansible-galaxy {{ruolo|collezione}} list`
 
-- Avvia la ricerca per un ruolo con vari livelli di definizione (verbosità)  (`-v` dovrebbe essere specificato alla fine):
+- Cerca un ruolo con vari livelli di verbosità (`-v` deve essere specificato alla fine):
 
 `ansible-galaxy role search {{keyword}} -v{{vvvvv}}`
 
-- Installa o rimuove ruoli:
+- Installa o rimuovi ruoli:
 
-`ansible-galaxy role {{install|remove}} {{role_name1 role_name2 ...}}`
+`ansible-galaxy role {{install|remove}} {{nome_ruolo1 nome_ruolo2 ...}}`
 
 - Crea un nuovo ruolo:
 
-`ansible-galaxy role init {{role_name}}`
+`ansible-galaxy role init {{nome_ruolo}}`
 
-- Ottiene informazioni inerenti un ruolo:
+- Ottieni informazioni inerenti un ruolo:
 
-`ansible-galaxy role info {{role_name}}`
+`ansible-galaxy role info {{nome_ruolo}}`
 
-- Installa o rimuove installazioni:
+- Installa o rimuovi collezioni:
 
-`ansible-galaxy collection {{install|remove}} {{collection_name1 collection_name2 ...}}`
+`ansible-galaxy collection {{install|remove}} {{nome_collezione1 nome_collezione2 ...}}`
 
-- Mostra supporto circa i ruoli e le collezioni:
+- Mostra aiuto su ruoli o collezioni:
 
-`ansible-galaxy {{role|collection}} {{-h|--help}}`
+`ansible-galaxy {{ruolo|collezione}} {{-h|--help}}`
