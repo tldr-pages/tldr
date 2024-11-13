@@ -1,7 +1,7 @@
 # Add-AppxPackage
 
 > Un utilitaire PowerShell pour ajouter un paquet d'applications signé (`.appx`, `.msix`, `.appxbundle`, `.appxbundle` et `.msixbundle`) à un compte utilisateur.
-> Plus d'information : <https://learn.microsoft.com/powershell/module/appx/Add-AppxPackage>.
+> Plus d'informations : <https://learn.microsoft.com/powershell/module/appx/Add-AppxPackage>.
 
 - Ajoute un paquet d'application :
 
