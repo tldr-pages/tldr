@@ -5,7 +5,7 @@
 
 - 以指定波特率连接到串行控制台：
 
-`picocom {{/dev/ttyXYZ}} --baud {{baud_rate}}`
+`picocom {{/dev/ttyXYZ}} --baud {{波特率}}`
 
 - 映射特殊字符（例如：将 LF 映射为 CRLF）：
 
