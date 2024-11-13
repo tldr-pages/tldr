@@ -26,4 +26,4 @@
 
 - Borra la regla de la cadena:
 
-`sudo iptables --delete {{cadena}} {{numero_de_línea_de_regla}}`
+`sudo iptables --delete {{cadena}} {{número_de_línea_de_regla}}`
