@@ -13,7 +13,7 @@
 
 - Ejecuta fuerza bruta contra un servidor FTP utilizando un fichero que contiene nombres de usuario y un fichero que contiene contraseñas:
 
-`medusa -M ftp -h host -U {{ruta/a/archivo_de_usuario}} -P {{ruta/a/archivo_de_contraseña}}`
+`medusa -M ftp -h host -U {{ruta/al/archivo_de_usuario}} -P {{ruta/al/archivo_de_contraseña}}`
 
 - Ejecuta un intento de inicio de sesión contra un servidor HTTP utilizando el nombre de usuario, la contraseña y el agente de usuario especificados:
 
