@@ -21,7 +21,7 @@
 
 - Ejecuta una fuerza bruta contra un servidor MySQL utilizando un fichero que contenga nombres de usuario y un hash:
 
-`medusa -M mysql -h host -U {{ruta/a/archivo_de_usuario}} -p {{hash}} -m PASS:HASH`
+`medusa -M mysql -h host -U {{ruta/al/archivo_de_usuario}} -p {{hash}} -m PASS:HASH`
 
 - Ejecuta una fuerza bruta contra una lista de servidores SMB utilizando un nombre de usuario y un archivo pwdump:
 
