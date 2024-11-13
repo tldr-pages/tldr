@@ -1,4 +1,4 @@
-# chsh
+# ypchsh
 
 > To polecenie jest aliasem `chpass`.
 
