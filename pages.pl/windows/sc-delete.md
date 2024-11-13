@@ -1,4 +1,4 @@
-# sc-delete
+# sc delete
 
 > To polecenie jest aliasem `sc.exe delete`.
 
