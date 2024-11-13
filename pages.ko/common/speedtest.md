@@ -1,6 +1,6 @@
 # speedtest
 
-> https://speedtest.net을 사용하여 인터넷 대역폭을 테스트하는 공식 명령줄 인터페이스.
+> <https://speedtest.net>을 사용하여 인터넷 대역폭을 테스트하는 공식 명령줄 인터페이스.
 > 참고: 일부 플랫폼에서는 `speedtest`를 `speedtest-cli`에 연결합니다. 이 페이지의 일부 예제가 작동하지 않는 경우, `speedtest-cli`를 참조하세요.
 > 더 많은 정보: <https://www.speedtest.net/apps/cli>.
 
