@@ -1,6 +1,6 @@
 # speedtest
 
-> Official command-line interface for testing internet bandwidth using https://speedtest.net.
+> Official command-line interface for testing internet bandwidth using <https://speedtest.net>.
 > Note: some platforms link `speedtest` to `speedtest-cli`. If some of the examples in this page don't work, see `speedtest-cli`.
 > More information: <https://www.speedtest.net/apps/cli>.
 
