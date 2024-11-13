@@ -1,4 +1,4 @@
-# shntool-split
+# shntool split
 
 > To polecenie jest aliasem `shnsplit`.
 
