@@ -15,7 +15,7 @@
 
 `systemd-sysext status`
 
-- Separa todas las imágenes de extensión del sistema actualmente instaladas de `/usr/` y `/opt/`:
+- Separa todas las imágenes de extensión del sistema actualmente instaladas en `/usr/` y `/opt/`:
 
 `systemd-sysext unmerge`
 
