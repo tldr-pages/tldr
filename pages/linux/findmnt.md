@@ -23,6 +23,6 @@
 
 `findmnt LABEL={{BigStorage}}`
 
-- Check mount table content in detail and verify `/etc/fstab`:
+- Check mount table content with detail (default is to verify `/etc/fstab`):
 
 `findmnt --verify --verbose`
