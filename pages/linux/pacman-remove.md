@@ -18,7 +18,7 @@
 
 - Remove orphan packages (installed as dependencies but not required by any package):
 
-`sudo pacman -R -n $(pacman -Qdtq)`
+`sudo pacman -Rs -n $(pacman -Qdtq)`
 
 - Remove a package and all packages that depend on it:
 
