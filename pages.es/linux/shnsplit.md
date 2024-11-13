@@ -15,6 +15,6 @@
 
 `shnsplit -f {{ruta/al/archivo.cue}} -o flac {{ruta/al/archivo.flac}}`
 
-- Divide un archivo `.wav` en archivos de la forma "número-de-track - álbum - título":
+- Divide un archivo `.wav` en archivos de la forma "número-de-pista - álbum - título":
 
 `shnsplit -f {{ruta/al/archivo.cue}} {{ruta/al/archivo.wav}} -t "%n - %a - %t"`
