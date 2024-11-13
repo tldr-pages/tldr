@@ -1,6 +1,6 @@
 # pnmtoplainpnm
 
-> To polecenie jest aliasem `pamtopnm`.
+> To polecenie jest aliasem `pamtopnm -plain`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
