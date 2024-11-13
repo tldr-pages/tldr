@@ -19,6 +19,6 @@
 
 `systemd-sysext unmerge`
 
-- Refresca imágenes de extensión del sistema (una combinación de `unmerge` y `merge`):
+- Actualiza imágenes de extensión del sistema (una combinación de `unmerge` y `merge`):
 
 `systemd-sysext refresh`
