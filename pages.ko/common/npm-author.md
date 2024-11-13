@@ -1,4 +1,4 @@
-# npm-author
+# npm author
 
 > 이 명령은 `npm owner`의 별칭입니다.
 

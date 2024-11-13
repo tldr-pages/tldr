@@ -4,4 +4,4 @@
 
 - إعرض التوثيقات للأمر الأصلي:
 
-`tldr fossil-init`
+`tldr fossil init`

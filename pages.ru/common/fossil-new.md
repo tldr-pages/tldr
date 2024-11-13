@@ -5,4 +5,4 @@
 
 - Смотри документацию для оригинальной команды:
 
-`tldr fossil-init`
+`tldr fossil init`

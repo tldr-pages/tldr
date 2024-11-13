@@ -5,4 +5,4 @@
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 
-`tldr fossil-commit`
+`tldr fossil commit`
