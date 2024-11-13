@@ -1,6 +1,6 @@
 # docker node
 
-> This command works with the Docker Swarm orchestrator.
+> Manage Docker Swarm nodes.
 > More information: <https://docs.docker.com/reference/cli/docker/node/>.
 
 - List nodes in the swarm:
