@@ -1,6 +1,6 @@
 # pulumi new
 
-> Create a new Pulumi project
+> Create a new Pulumi project.
 > More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_new/>.
 
 - Choose a template interactively:
