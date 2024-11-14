@@ -1,6 +1,6 @@
 # pulumi config
 
-> Manage configuration settings for your Pulumi stack.
+> Manage configuration settings for a Pulumi stack.
 > More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_config/>.
 
 - View current configuration in JSON format:
@@ -17,7 +17,7 @@
 
 - Set value for a key from a file:
 
-`cat my_key.pub | pulumi config set {{key}}`
+`cat {{path/to/file}} | pulumi config set {{key}}`
 
 - Set secret value (e.g. API key) for a key and store/display as ciphertext:
 
