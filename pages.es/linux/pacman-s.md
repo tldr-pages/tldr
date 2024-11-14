@@ -4,4 +4,4 @@
 
 - Consulte la documentación del comando original:
 
-`tldr pacman-sync`
+`tldr pacman sync`
