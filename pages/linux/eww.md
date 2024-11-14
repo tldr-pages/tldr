@@ -1,6 +1,6 @@
 # eww
 
-> Implement your own custom widgets.
+> Implement your own custom widgets in any window manager.
 > More information: <https://elkowar.github.io/eww>.
 
 - Start the daemon:
@@ -9,11 +9,11 @@
 
 - Open a widget:
 
-`eww open {{/path/to/directory}}`
+`eww open {{path/to/source_code_directory}}`
 
 - Close a widget:
 
-`eww close {{/path/to/directory}}`
+`eww close {{path/to/source_code_directory}}`
 
 - Reload the configuration:
 
