@@ -7,6 +7,6 @@
 
 `m4b-tool merge {{path/to/input_directory/}} --output-file={{path/to/merged.m4b}}`
 
-- You can make chapters use file names by adding the flag --use-filenames-as-chapters:
+- Make chapters using the input files' names:
 
-`m4b-tool merge "data/my-audio-book/" --output-file="data/merged.m4b" --use-filenames-as-chapters`
+`m4b-tool merge {{path/to/input_directory/}} --output-file={{path/to/merged.m4b}} --use-filenames-as-chapters`
