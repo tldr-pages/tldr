@@ -5,7 +5,7 @@
 
 - Create an audiobook with the audio files in the input directory:
 
-`m4b-tool merge "data/my-audio-book/" --output-file="data/merged.m4b"`
+`m4b-tool merge {{path/to/input_directory/}} --output-file={{path/to/merged.m4b}}`
 
 - You can make chapters use file names by adding the flag --use-filenames-as-chapters:
 
