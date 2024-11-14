@@ -24,7 +24,7 @@
 
 `sudo pacman -Rc {{package}}`
 
-- List and [p]rint packages that would be affected (does not remove any packages):
+- List and [p]rint packages that would be affected (does not [R]emove any packages):
 
 `pacman -Rp {{package}}`
 
