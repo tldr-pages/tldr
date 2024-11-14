@@ -16,7 +16,7 @@
 
 `sudo pacman -R --noconfirm {{package}}`
 
-- Remove orphan packages (installed as dependencies but not required by any package):
+- [R]emove orphan packages (installed as [d]ependencies but no[t] required by any package):
 
 `sudo pacman -Rs -n $(pacman -Qdtq)`
 
