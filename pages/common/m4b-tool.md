@@ -1,6 +1,6 @@
 # m4b-tool
 
-> A tool merge, split or and manipulate audiobook files with chapters.
+> Merge, split and manipulate audiobook files with chapters.
 > More information: <https://github.com/sandreas/m4b-tool>.
 
 - Create an audiobook with the audio files in the input directory:
