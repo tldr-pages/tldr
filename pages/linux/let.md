@@ -2,7 +2,7 @@
 
 > Evaluate arithmetic expressions in shell.
 > Supports variables, operators, and conditional expressions.
-> More information: <https://phoenixnap.com/kb/bash-let>.
+> More information: <https://manned.org/let>.
 
 - Evaluate a simple arithmetic expression:
 
