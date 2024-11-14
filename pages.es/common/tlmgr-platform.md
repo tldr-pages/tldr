@@ -1,0 +1,24 @@
+# tlmgr platform
+
+> Administra las plataformas TeX Live.
+> Más información: <https://www.tug.org/texlive/tlmgr.html>.
+
+- Lista todas las plataformas disponibles en el repositorio de paquetes:
+
+`tlmgr platform list`
+
+- Añade los ejecutables para una plataforma específica:
+
+`sudo tlmgr platform add {{platforma}}`
+
+- Elimina los ejecutables para una plataforma específica:
+
+`sudo tlmgr platform remove {{platforma}}`
+
+- Auto detecta y cambia a la plataforma actual:
+
+`sudo tlmgr platform set auto`
+
+- Cambia a una plataforma específica:
+
+`sudo tlmgr platform set {{platform}}`
