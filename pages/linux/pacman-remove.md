@@ -4,7 +4,7 @@
 > See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 
-- [R]emove a package and its dependencies recursively ([s]):
+- [R]emove a package and its dependencies recur[s]ively:
 
 `sudo pacman -Rs {{package}}`
 
