@@ -12,7 +12,7 @@
 
 `sudo pacman -Rsn {{package}}`
 
-- Remove a package without prompting:
+- [R]emove a package without prompting:
 
 `sudo pacman -R --noconfirm {{package}}`
 
