@@ -10,7 +10,7 @@
 
 - [R]emove a package and both its dependencies and configuration files ([n]):
 
-`sudo pacman -Rs -n {{package}}`
+`sudo pacman -Rsn {{package}}`
 
 - Remove a package without prompting:
 
