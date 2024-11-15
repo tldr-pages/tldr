@@ -1,4 +1,4 @@
-# fossil-new
+# fossil new
 
 > To polecenie jest aliasem `fossil init`.
 

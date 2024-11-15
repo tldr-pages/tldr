@@ -1,4 +1,4 @@
-# fossil-ci
+# fossil ci
 
 > To polecenie jest aliasem `fossil commit`.
 

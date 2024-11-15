@@ -1,4 +1,4 @@
-# gh-cs
+# gh cs
 
 > To polecenie jest aliasem `gh codespace`.
 
