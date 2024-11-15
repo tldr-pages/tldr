@@ -1,4 +1,4 @@
-# npm-owner
+# npm owner
 
 > Manage ownership of published packages.
 > More information: <https://docs.npmjs.com/cli/commands/npm-owner>.
