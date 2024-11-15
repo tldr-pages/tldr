@@ -1,4 +1,4 @@
-# npm-owner
+# npm owner
 
 > Beheer eigendom van gepubliceerde pakketten.
 > Meer informatie: <https://docs.npmjs.com/cli/commands/npm-owner>.
