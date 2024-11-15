@@ -1,7 +1,7 @@
 # vivaldi
 
 > To polecenie jest aliasem `chromium`.
-> More information: <https://vivaldi.com>.
+> Więcej informacji: <https://vivaldi.com>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
