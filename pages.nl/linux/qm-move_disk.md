@@ -1,4 +1,4 @@
-# qm move disk
+# qm move_disk
 
 > Dit commando is een alias van `qm disk move`.
 
