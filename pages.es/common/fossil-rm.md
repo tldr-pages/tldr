@@ -12,6 +12,6 @@
 
 `fossil rm --hard {{ruta/al/archivo_o_directorio}}`
 
-- Re añade todos los archivos previamente eliminados y no comprometidos (uncommitted) al control de versiones Fossil:
+- Añade nuevamente todos los archivos previamente eliminados y no comprometidos (uncommitted) al control de versiones Fossil:
 
 `fossil rm --reset`
