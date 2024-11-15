@@ -21,4 +21,4 @@
 
 - Cambia a una plataforma específica:
 
-`sudo tlmgr platform set {{platform}}`
+`sudo tlmgr platform set {{plataforma}}`
