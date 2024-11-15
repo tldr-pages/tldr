@@ -5,4 +5,4 @@
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr gh-codespace`
+`tldr gh codespace`

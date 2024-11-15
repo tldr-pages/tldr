@@ -5,4 +5,4 @@
 
 - オリジナルのコマンドのドキュメントを表示する:
 
-`tldr fossil-commit`
+`tldr fossil commit`

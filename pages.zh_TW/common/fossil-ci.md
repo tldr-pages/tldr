@@ -5,4 +5,4 @@
 
 - 原命令的文件在：
 
-`tldr fossil-commit`
+`tldr fossil commit`

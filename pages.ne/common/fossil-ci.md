@@ -4,4 +4,4 @@
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
-`tldr fossil-commit`
+`tldr fossil commit`

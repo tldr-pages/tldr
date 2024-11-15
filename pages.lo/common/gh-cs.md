@@ -4,4 +4,4 @@
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 
-`tldr gh-codespace`
+`tldr gh codespace`

@@ -4,4 +4,4 @@
 
 - Veure documentació pel comandament original:
 
-`tldr ip-route-show`
+`tldr ip route show`
