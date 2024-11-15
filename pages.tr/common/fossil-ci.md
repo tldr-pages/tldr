@@ -5,4 +5,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr fossil-commit`
+`tldr fossil commit`

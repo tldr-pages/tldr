@@ -5,4 +5,4 @@
 
 - オリジナルのコマンドのドキュメントを表示する:
 
-`tldr gh-codespace`
+`tldr gh codespace`

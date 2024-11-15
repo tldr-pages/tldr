@@ -14,7 +14,7 @@
 
 - Add a new chain to accept all inbound traffic:
 
-`sudo nft add chain {{inet}} {{filter}} {{input}} \{ type {{filter}} hook {{input}} priority {{0}} \; policy {{accept}} \}`
+`sudo nft add chain {{inet}} {{filter}} {{input}} \{ type {{filter}} hook {{input}} priority {{0}} \; policy {{accept}} \; \}`
 
 - Add a new rule to accept several TCP ports:
 
