@@ -8,7 +8,7 @@
 
 `sudo pacman -Rs {{package}}`
 
-- [R]emove a package and both its dependencies and configuration files ([n]):
+- [R]emove a package and its dependencies. Also do [n]ot save backups of configuration files:
 
 `sudo pacman -Rsn {{package}}`
 
