@@ -12,7 +12,7 @@
 
 `npm bugs`
 
-- Configure the browser used to open URLs by setting your preferred browser for npm commands:
+- Configure the browser used to open URLs by setting your preferred browser for `npm` commands:
 
 `npm config set browser {{browser_name}}`
 
