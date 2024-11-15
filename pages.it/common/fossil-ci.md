@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr fossil-commit`
+`tldr fossil commit`

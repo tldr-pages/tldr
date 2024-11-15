@@ -9,11 +9,11 @@
 
 - 특정 커밋을 확인:
 
-`core-validate-commit {{커밋_해쉬}}`
+`core-validate-commit {{커밋_해시}}`
 
 - 다양한 커밋의 유효성을 검사:
 
-`git rev-list {{커밋_해쉬}}..HEAD | xargs core-validate-commit`
+`git rev-list {{커밋_해시}}..HEAD | xargs core-validate-commit`
 
 - 모든 유효성 검사 규칙을 나열:
 
