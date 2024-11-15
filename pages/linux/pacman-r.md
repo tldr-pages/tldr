@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr pacman-remove`
+`tldr pacman remove`
