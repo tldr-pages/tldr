@@ -4,4 +4,4 @@
 
 - إعرض التوثيقات للأمر الأصلي:
 
-`tldr gh-codespace`
+`tldr gh codespace`

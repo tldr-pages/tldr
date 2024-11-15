@@ -4,4 +4,4 @@
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr fossil-init`
+`tldr fossil init`
