@@ -4,4 +4,4 @@
 
 - Se dokumentationen för orginalkommandot:
 
-`tldr fossil-init`
+`tldr fossil init`

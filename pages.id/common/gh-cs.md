@@ -5,4 +5,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr gh-codespace`
+`tldr gh codespace`

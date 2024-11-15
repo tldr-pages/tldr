@@ -4,4 +4,4 @@
 
 - அசல் கட்டளைக்கான ஆவணங்களைப் பார்க்கவும்:
 
-`tldr choco-push`
+`tldr choco push`
