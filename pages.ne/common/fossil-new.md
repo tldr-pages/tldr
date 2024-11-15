@@ -5,4 +5,4 @@
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
-`tldr fossil-init`
+`tldr fossil init`

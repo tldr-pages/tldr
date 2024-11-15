@@ -5,4 +5,4 @@
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 
-`tldr fossil-init`
+`tldr fossil init`

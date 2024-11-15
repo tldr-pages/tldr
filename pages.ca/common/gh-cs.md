@@ -4,4 +4,4 @@
 
 - Veure documentació pel comandament original:
 
-`tldr gh-codespace`
+`tldr gh codespace`

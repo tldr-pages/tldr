@@ -4,4 +4,4 @@
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr fossil-commit`
+`tldr fossil commit`

@@ -5,4 +5,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr fossil-commit`
+`tldr fossil commit`
