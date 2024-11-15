@@ -18,7 +18,7 @@
 
 - [R]emove orphan packages (installed as [d]ependencies but no[t] required by any package):
 
-`sudo pacman -Rs -n $(pacman -Qdtq)`
+`sudo pacman -Rsn $(pacman -Qdtq)`
 
 - [R]emove a package and [c]ascade that to all packages that depend on it:
 
