@@ -26,7 +26,3 @@
 - Only show a message when verification fails, ignoring missing files:
 
 `sha256sum --ignore-missing --check --quiet {{path/to/file.sha256}}`
-
-- Check known SHA256 sum of a file:
-
-`echo {{known-sha256-sum-of-the-file}} {{path/to/file}} | sha256sum --check`
