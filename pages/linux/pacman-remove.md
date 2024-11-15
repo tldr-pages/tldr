@@ -20,7 +20,7 @@
 
 `sudo pacman -Rs -n $(pacman -Qdtq)`
 
-- [R]emove a package and all packages that depend on it:
+- [R]emove a package and [c]ascade that to all packages that depend on it:
 
 `sudo pacman -Rc {{package}}`
 
