@@ -9,7 +9,7 @@
 
 - Añade los ejecutables para una plataforma específica:
 
-`sudo tlmgr platform add {{platforma}}`
+`sudo tlmgr platform add {{plataforma}}`
 
 - Elimina los ejecutables para una plataforma específica:
 
