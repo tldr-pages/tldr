@@ -1,5 +1,5 @@
 /pages.de/ @pixelcmtd @gutjuri
-/pages.es/ @navarroaxel @kant @tricantivu @ikks
+/pages.es/ @kant @tricantivu @ikks
 /pages.fa/ @MrMw3
 /pages.fr/ @Nico385412 @nicokosi @noraj
 /pages.hi/ @kbdharun @debghs @karthik-script
@@ -25,13 +25,13 @@
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun
 /contributing-guides/style-guide.md @sbrl @kbdharun
 /contributing-guides/*.de.md @pixelcmtd @gutjuri
-/contributing-guides/*.es.md @navarroaxel @kant @tricantivu
+/contributing-guides/*.es.md @kant @tricantivu @ikks
 /contributing-guides/*.fa.md @MrMw3
 /contributing-guides/*.fr.md @Nico385412 @nicokosi @noraj
-/contributing-guides/*.hi.md @kbdharun
+/contributing-guides/*.hi.md @kbdharun @debghs @karthik-script
 /contributing-guides/*.id.md @reinhart1010
 /contributing-guides/*.it.md @mebeim @tansiret @Magrid0
-/contributing-guides/*.ko.md @IMHOJEONG
+/contributing-guides/*.ko.md @IMHOJEONG @Zamoca42 @CodePsy-2001
 /contributing-guides/*.nl.md @sebastiaanspeck @leonvsc @Waples
 /contributing-guides/*.pl.md @acuteenvy @spageektti
 /contributing-guides/*.pt_BR.md @isaacvicente @vitorhcl @renie
