@@ -7,10 +7,6 @@
 
 `{{cat path/to/file.json}} | jq '.'`
 
-- Execute a specific expression only using the `jq` binary (print a colored and formatted JSON output):
-
-`jq '.' {{/path/to/file.json}}`
-
 - Execute a specific script:
 
 `{{cat path/to/file.json}} | jq --from-file {{path/to/script.jq}}`
@@ -19,9 +15,9 @@
 
 `{{cat path/to/file.json}} | jq {{--arg "name1" "value1" --arg "name2" "value2" ...}} '{{. + $ARGS.named}}'`
 
-- Print specific keys:
+- Print selected specific keys as JSON object:
 
-`{{cat path/to/file.json}} | jq '{{.key1, .key2, ...}}'`
+`{{cat path/to/file.json}} | jq '{{{key1,key2, ...}}}'`
 
 - Print specific array items:
 
@@ -30,6 +26,10 @@
 - Print all array/object values:
 
 `{{cat path/to/file.json}} | jq '.[]'`
+
+- Print conditional objects in array:
+
+`{{cat path/to/file.json}} | jq '.[] | select((.key1=="value1") and .key2=="value2")'`
 
 - Add/remove specific keys:
 
