@@ -13,7 +13,7 @@
 
 - Elimina los ejecutables para una plataforma específica:
 
-`sudo tlmgr platform remove {{platforma}}`
+`sudo tlmgr platform remove {{plataforma}}`
 
 - Auto detecta y cambia a la plataforma actual:
 
