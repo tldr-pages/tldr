@@ -25,4 +25,4 @@
 
 - Muestra el ID (UID) de un usuario arbitrario, el ID de grupo (GID) y los grupos a los que pertenece:
 
-`id {{nombre_de_usuario}}`
+`id {{usuario}}`
