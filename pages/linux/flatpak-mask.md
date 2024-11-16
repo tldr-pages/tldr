@@ -1,6 +1,6 @@
 # flatpak mask
 
-> Mask out updates and automatic installation
+> Mask out updates and automatic installation.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-mask>.
 
 - Ignore updates for a specific flatpak:

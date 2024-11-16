@@ -1,6 +1,6 @@
 # flatpak remote-info
 
-> Show information about an application or runtime in a remote
+> Show information about an application or runtime in a remote.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-remote-info>.
 
 - Show information about a flatpak:
