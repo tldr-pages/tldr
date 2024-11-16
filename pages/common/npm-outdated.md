@@ -1,4 +1,4 @@
-# npm-outdated
+# npm outdated
 
 > Check for outdated npm package dependencies.
 > More information: <https://docs.npmjs.com/cli/commands/npm-outdated>.

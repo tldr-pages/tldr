@@ -4,4 +4,4 @@
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
-`tldr ip-route-show`
+`tldr ip route show`

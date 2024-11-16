@@ -1,7 +1,7 @@
 # batcat
 
-> To polecenie jest aliasem dla `bat`.
+> To polecenie jest aliasem `bat`.
 
-- Zobacz dokumentację oryginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr bat`

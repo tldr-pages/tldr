@@ -5,4 +5,4 @@
 
 - Se dokumentationen för orginalkommandot:
 
-`tldr gh-codespace`
+`tldr gh codespace`

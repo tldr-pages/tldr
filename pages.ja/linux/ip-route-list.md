@@ -4,4 +4,4 @@
 
 - オリジナルのコマンドのドキュメントを表示する:
 
-`tldr ip-route-show`
+`tldr ip route show`
