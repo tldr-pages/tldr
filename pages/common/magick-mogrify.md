@@ -25,6 +25,6 @@
 
 `magick mogrify -modulate {{200}} {{*}}`
 
-- Reduce GIF file sizes by reducing quality:
+- Reduce file sizes of all GIF images by reducing quality:
 
 `magick mogrify -layers 'optimize' -fuzz {{7%}} {{*.gif}}`
