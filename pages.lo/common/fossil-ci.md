@@ -5,4 +5,4 @@
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 
-`tldr fossil-commit`
+`tldr fossil commit`

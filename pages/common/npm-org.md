@@ -1,4 +1,4 @@
-# npm-org
+# npm org
 
 > Manage organizations.
 > More information: <https://docs.npmjs.com/cli/commands/npm-org>.

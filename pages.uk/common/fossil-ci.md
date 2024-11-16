@@ -4,4 +4,4 @@
 
 - Дивись документацію для оригінальної команди:
 
-`tldr fossil-commit`
+`tldr fossil commit`
