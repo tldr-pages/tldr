@@ -31,6 +31,6 @@
 
 `http --session {{nombre_de_sesión|ruta/a/sesión.json}} {{--auth usuario:clave https://example.com/auth API-KEY:xxx}}`
 
-- Sube un archivo a un formulario (el ejemplo a continuación supone que el campo del campo de formulario es `<input type="file" name="cv" />`):
+- Sube un archivo a un formulario (el ejemplo a continuación supone que el campo del formulario es `<input type="file" name="cv" />`):
 
 `http --form {{POST}} {{https://example.com/upload}} {{cv@ruta/al/archivo}}`
