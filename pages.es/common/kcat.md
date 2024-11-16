@@ -9,7 +9,7 @@
 
 - Consume mensajes comenzando con el offset más antiguo y sale después de recibir el último mensaje:
 
-`kcat -C -t {{tema}} -b {{intermadiarios}} -o beginning -e`
+`kcat -C -t {{tema}} -b {{intermediarios}} -o beginning -e`
 
 - Consume mensajes como grupo de consumidores de Kafka:
 
