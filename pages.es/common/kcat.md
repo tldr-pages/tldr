@@ -21,7 +21,7 @@
 
 - Publica mensajes leyendo desde un archivo:
 
-`kcat -P -t {{tema}} -b {{intermadiarios}} {{ruta/al/archivo}}`
+`kcat -P -t {{tema}} -b {{intermediarios}} {{ruta/al/archivo}}`
 
 - Lista metadatos para todos los temas e intermediarios:
 
