@@ -3,26 +3,34 @@
 > Copia archivos y directorios.
 > Más información: <https://www.gnu.org/software/coreutils/cp>.
 
-- Copia un archivo a otra ruta:
+- Copia un archivo a otra ubicación:
 
-`cp {{ruta/hacia/archivo_original.ext}} {{ruta/hacia/archivo_copia.ext}}`
+`cp {{ruta/al/archivo_de_origen.ext}} {{ruta/al/archivo_destino.ext}}`
 
-- Copia un archivo a un directorio, manteniendo el nombre del archivo:
+- Copia un archivo en otro directorio, manteniendo el nombre del archivo:
 
-`cp {{ruta/hacia/archivo_original.ext}} {{ruta/hacia/directorio_destino}}`
+`cp {{ruta/al/archivo_de_origen.ext}} {{ruta/al/directorio_destino}}`
 
-- Copia de forma recursiva un directorio y su contenido a otra ruta (si la ruta de destino existe, el directorio se copiará dentro):
+- Copia recursivamente el contenido de un directorio a otra ubicación (si el destino existe, el directorio se copia dentro de él):
 
-`cp -R {{ruta/hacia/directorio_original}} {{ruta/hacia/directorio_copia}}`
+`cp -R {{ruta/al/directorio_de_origen}} {{ruta/al/directorio_de_destino}}`
 
-- Copia de forma recursiva y verbosa un directorio (muestra un listado de los archivos copiados):
+- Copia un directorio de forma recursiva, en modo detallado (muestra los archivos a medida que se copian):
 
-`cp -vR {{ruta/hacia/directorio_original}} {{ruta/hacia/directorio_copia}}`
+`cp -vR {{ruta/al/directorio_de_origen}} {{ruta/al/directorio_de_destino}}`
 
-- Copia archivos de texto a otra ruta de forma interactiva (pregunta al usuario antes de sobreescribir):
+- Copia varios archivos a la vez en un directorio:
 
-`cp -i {{*.txt}} {{ruta/hacia/directorio_destino}}`
+`cp -t {{ruta/al/directorio_de_destino}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
-- Copia enlaces simbólicos sin mantener la referencia al original:
+- Copia archivos de texto a otra ubicación, en modo interactivo (pregunta al usuario antes de sobrescribir):
 
-`cp -L {{enlace}} {{ruta/hacia/directorio_destino}}`
+`cp -i {{*.txt}} {{ruta/al/directorio_de_objetivo}}`
+
+- Sigue los enlaces simbólicos antes de copiar:
+
+`cp -L {{enlace}} {{ruta/al/directorio_de_destino}}`
+
+- Utiliza el primer argumento como directorio de destino (útil para `xargs ... | cp -t <DEST_DIR>`):
+
+`cp -t {{ruta/a/directorio_de_destino}} {{ruta/a/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`

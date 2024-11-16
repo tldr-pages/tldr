@@ -1,21 +1,37 @@
 # zsh
 
-> Z SHell.
-> 与 `bash` 和 `sh` 兼容的命令行解释器。
+> Z SHell，一个兼容 Bash 的命令行解释器。
+> 参见：`bash`，`histexpand`.
 > 更多信息：<https://www.zsh.org>.
 
 - 启动交互式解释器：
 
 `zsh`
 
-- 执行从参数传入的命令：
+- 执行指定的命令：
 
-`zsh -c {{command}}`
+`zsh -c "{{echo Hello world}}"`
 
-- 从文件执行命令（脚本）：
+- 执行指定的脚本：
 
-`zsh {{file}}`
+`zsh {{路径/到/脚本.zsh}}`
 
-- 从文件执行命令并将执行过的命令打印到终端：
+- 不执行指定的脚本，只检查其语法错误：
 
-`zsh -x {{file}}`
+`zsh --no-exec {{路径/到/脚本.zsh}}`
+
+- 执行来自 `stdin` 的命令：
+
+`{{echo Hello world}} | zsh`
+
+- 执行指定的脚本，并打印出每一个将要执行的命令：
+
+`zsh --xtrace {{路径/到/脚本.zsh}}`
+
+- 启动详细模式的交互式解释器，会打印出每一个将要执行的命令：
+
+`zsh --verbose`
+
+- 在 `zsh` 里执行指定的命令，但禁用 glob 模式：
+
+`noglob {{命令}}`

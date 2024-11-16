@@ -8,6 +8,10 @@
 
 `wl-paste`
 
+- Paste the contents of the primary clipboard (highlighted text):
+
+`wl-paste --primary`
+
 - Write the contents of the clipboard to a file:
 
 `wl-paste > {{path/to/file}}`

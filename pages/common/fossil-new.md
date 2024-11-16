@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr fossil-init`
+`tldr fossil init`
