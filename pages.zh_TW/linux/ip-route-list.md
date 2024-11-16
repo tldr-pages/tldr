@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr ip-route-show`
+`tldr ip route show`

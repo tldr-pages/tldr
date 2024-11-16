@@ -5,4 +5,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr fossil-commit`
+`tldr fossil commit`
