@@ -14,4 +14,4 @@
 
 - Establece un intérprete de comandos de inicio de sesión para un usuario específico:
 
-`chsh -s {{ruta/a/intérprete}} {{nombre_de_usuario}}`
+`chsh -s {{ruta/a/intérprete}} {{usuario}}`

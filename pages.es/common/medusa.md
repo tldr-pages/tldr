@@ -13,16 +13,16 @@
 
 - Ejecuta fuerza bruta contra un servidor FTP utilizando un fichero que contiene nombres de usuario y un fichero que contiene contraseñas:
 
-`medusa -M ftp -h host -U {{ruta/a/archivo_de_nombre_de_usuario}} -P {{ruta/a/archivo_contraseña}}`
+`medusa -M ftp -h host -U {{ruta/al/archivo_de_usuario}} -P {{ruta/al/archivo_de_contraseña}}`
 
 - Ejecuta un intento de inicio de sesión contra un servidor HTTP utilizando el nombre de usuario, la contraseña y el agente de usuario especificados:
 
-`medusa -M HTTP -h host -u {{nombre_usuario}} -p {{contraseña}} -m USER-AGENT:"{{Agente}}"`
+`medusa -M HTTP -h host -u {{usuario}} -p {{contraseña}} -m USER-AGENT:"{{agente}}"`
 
 - Ejecuta una fuerza bruta contra un servidor MySQL utilizando un fichero que contenga nombres de usuario y un hash:
 
-`medusa -M mysql -h host -U {{ruta/a/archivo_de_nombre_de_usuario}} -p {{hash}} -m PASS:HASH`
+`medusa -M mysql -h host -U {{ruta/al/archivo_de_usuario}} -p {{hash}} -m PASS:HASH`
 
 - Ejecuta una fuerza bruta contra una lista de servidores SMB utilizando un nombre de usuario y un archivo pwdump:
 
-`medusa -M smbnt -H {{ruta/a/archivo_de_hosts}} -C {{ruta/a/archivo_pwdump}} -u {{nombre_usuario}} -m PASS:HASH`
+`medusa -M smbnt -H {{ruta/al/archivo_de_hosts}} -C {{ruta/al/archivo_pwdump}} -u {{usuario}} -m PASS:HASH`
