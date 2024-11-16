@@ -13,4 +13,4 @@
 
 - Formatea cada página sin escribir otros archivos o en la salida estándar:
 
-`tldr-lint --format --in-place {{pages_directory}}`
+`tldr-lint --format --in-place {{directorio_páginas}}`
