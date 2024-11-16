@@ -1,4 +1,4 @@
-# npm-outdated
+# npm outdated
 
 > 오래된 npm 패키지 의존성을 확인.
 > 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-outdated>.
