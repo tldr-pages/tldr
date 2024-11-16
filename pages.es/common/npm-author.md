@@ -1,4 +1,4 @@
-# npm-author
+# npm author
 
 > Este comando es un alias de `npm owner`.
 
