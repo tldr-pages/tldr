@@ -1,6 +1,6 @@
 # cc
 
-> To polecenie jest aliasem dla `gcc`.
+> To polecenie jest aliasem `gcc`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
