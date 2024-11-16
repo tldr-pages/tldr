@@ -4,7 +4,7 @@
 > See also: `npm login` for logging in.
 > More information: <https://docs.npmjs.com/cli/commands/npm-logout>.
 
-- Logout of the registry:
+- Logout of the registry user account:
 
 `npm logout`
 
