@@ -5,4 +5,4 @@
 
 - Se dokumentationen för orginalkommandot:
 
-`tldr fossil-commit`
+`tldr fossil commit`

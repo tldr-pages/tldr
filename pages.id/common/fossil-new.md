@@ -5,4 +5,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr fossil-init`
+`tldr fossil init`

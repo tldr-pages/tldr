@@ -1,17 +1,25 @@
 # at
 
-> Ejecuta comandos una vez en un momento posterior.
-> El servicio atd (o atrun) debe estar ejecutándose para las ejecuciones reales.
+> Ejecuta los comandos una vez en otro momento.
+> Los resultados se enviarán al correo del usuario.
 > Más información: <https://manned.org/at>.
 
-- Ejecuta comandos desde la entrada estándar en 5 minutos (pulsa `Ctrl + D` cuando termines):
+- Inicia el servicio (daemon)`atd`:
+
+`systemctl start atd`
+
+- Crea comandos interactivamente y los ejecuta en 5 minutos (pulsa `<Ctrl> + D` cuando termines):
 
 `at now + 5 minutes`
 
-- Ejecuta un comando desde la entrada estándar a las 10:00 AM de hoy:
+- Crea comandos de forma interactiva y los ejecuta a una hora determinada:
 
-`echo "{{./make_db_backup.sh}}" | at 1000`
+`at {{hh:mm}}`
 
-- Ejecuta comandos desde un archivo dado el próximo martes:
+- Ejecuta un comando de `stdin` a las 10:00 AM de hoy:
+
+`echo "{{comando}}" | at 1000`
+
+- Ejecuta comandos desde un archivo determinado el próximo martes:
 
 `at -f {{ruta/al/archivo}} 9:30 PM Tue`
