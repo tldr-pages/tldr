@@ -1,6 +1,6 @@
 # limactl
 
-> Administrador de máquinas virtuales para huéspedes Linux, con múltiples plantillas para MV disponibles.
+> Administrador de máquinas virtuales para huéspedes Linux, con múltiples plantillas para MV (Máquinas virtuales) disponibles.
 > Se puede utilizar para ejecutar contenedores en macOS, pero también para casos de uso genéricos de máquinas virtuales en anfitriones macOS y Linux.
 > Más información: <https://github.com/lima-vm/lima>.
 
