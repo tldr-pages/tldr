@@ -8,6 +8,14 @@
 
 `helix {{pad/naar/bestand}}`
 
+- Open bestanden en toon ze naast elkaar:
+
+`helix --vsplit {{pad/naar/bestand1 pad/naar/bestand2}}`
+
+- Toon de tutorial om  Helix te leren (of open het binnen Helix door op `<Esc>` te drukken en `:tutor` te typen):
+
+`helix --tutor`
+
 - Pas het Helix thema aan:
 
 `:theme {{thema_naam}}`
@@ -27,7 +35,3 @@
 - Zoek een patroon in het bestand (druk op `n`/`N` om naar de volgende/vorige overeenkomst te gaan):
 
 `/{{zoek_patroon}}<Enter>`
-
-- Formateer het bestand:
-
-`:format`
