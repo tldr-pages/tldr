@@ -4,4 +4,4 @@
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 
-`tldr ip-route-show`
+`tldr ip route show`

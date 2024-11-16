@@ -1,8 +1,8 @@
 # brave
 
-> Este es un comando alias de `chromium`.
+> Este comando es un alias de `chromium`.
 > Más información: <https://support.brave.com/hc/en-us/articles/360044860011-How-Do-I-Use-Command-Line-Flags-in-Brave>.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
 `tldr chromium`

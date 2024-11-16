@@ -5,4 +5,4 @@
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr fossil-commit`
+`tldr fossil commit`

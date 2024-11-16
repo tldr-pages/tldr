@@ -15,7 +15,7 @@
 
 `sudo gitlab-runner unregister --name {{이름}}`
 
-- 실행기 서비스 상태릂 표시:
+- 실행기 서비스 상태를 표시:
 
 `sudo gitlab-runner status`
 
