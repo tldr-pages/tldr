@@ -22,7 +22,7 @@
 
 - Ejecuta un comando dentro de una MV:
 
-`limactl shell {{nombre_de_la_mv}} {{command}}`
+`limactl shell {{nombre_de_la_mv}} {{comando}}`
 
 - Detiene/apaga una MV:
 
