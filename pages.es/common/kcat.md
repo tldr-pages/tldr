@@ -17,7 +17,7 @@
 
 - Publica el mensaje leyendo de `stdin`:
 
-`echo {{mensaje}} | kcat -P -t {{tema}} -b {{intermadiarios}}`
+`echo {{mensaje}} | kcat -P -t {{tema}} -b {{intermediarios}}`
 
 - Publica mensajes leyendo desde un archivo:
 
