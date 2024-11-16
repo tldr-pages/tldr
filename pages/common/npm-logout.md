@@ -1,6 +1,6 @@
 # npm logout
 
-> Logout of the `npm` registry.
+> Logout of the registry user account.
 > See also: `npm login` for logging in.
 > More information: <https://docs.npmjs.com/cli/commands/npm-logout>.
 
