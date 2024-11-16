@@ -33,4 +33,4 @@
 
 - Obtiene el offset de un tema/partición para un punto específico en el tiempo:
 
-`kcat -Q -t {{tema}}:{{partition}}:{{unix_timestamp}} -b {{intermadiarios}}`
+`kcat -Q -t {{tema}}:{{partición}}:{{marca_de_tiempo_unix}} -b {{intermediarios}}`
