@@ -29,7 +29,7 @@
 
 - Lista metadatos para un tema específico:
 
-`kcat -L -t {{tema}} -b {{intermadiarios}}`
+`kcat -L -t {{tema}} -b {{intermediarios}}`
 
 - Obtiene el offset de un tema/partición para un punto específico en el tiempo:
 
