@@ -12,7 +12,7 @@
 
 `hping3 --udp --destport {{80}} --syn {{ip_o_nombre_de_servidor}}`
 
-- Escanear el puerto TCP 80, haciéndolo desde el puerto de origen local 5090:
+- Escanea el puerto TCP 80, haciéndolo desde el puerto de origen local 5090:
 
 `hping3 --verbose --syn --destport {{80}} --baseport {{5090}} {{ip_o_nombre_de_servidor}}`
 
