@@ -7,7 +7,7 @@
 
 `git cola`
 
-- Inicia la GUI en modo de enmienda (amend  mode):
+- Inicia la GUI en modo de enmienda (amend mode):
 
 `git cola --amend`
 
