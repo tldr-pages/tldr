@@ -4,4 +4,4 @@
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr fossil-init`
+`tldr fossil init`

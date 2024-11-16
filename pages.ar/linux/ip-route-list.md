@@ -4,4 +4,4 @@
 
 - إعرض التوثيقات للأمر الأصلي:
 
-`tldr ip-route-show`
+`tldr ip route show`

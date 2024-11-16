@@ -4,4 +4,4 @@
 
 - Дивись документацію для оригінальної команди:
 
-`tldr gh-codespace`
+`tldr gh codespace`
