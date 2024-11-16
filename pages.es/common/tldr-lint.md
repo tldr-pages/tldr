@@ -5,7 +5,7 @@
 
 - Verifica (lint) todas las páginas:
 
-`tldr-lint {{pages_directory}}`
+`tldr-lint {{directorio_páginas}}`
 
 - Formatea una página específica hacia `stdout`:
 
