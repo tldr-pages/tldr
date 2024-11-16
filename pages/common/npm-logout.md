@@ -8,6 +8,6 @@
 
 `npm logout`
 
-- Logout, using a custom registry:
+- Logout using a custom registry:
 
 `npm logout --registry={{registry_url}}`
