@@ -8,10 +8,10 @@
 
 `npm login`
 
-- Login, using a custom registry:
+- Login using a custom registry:
 
 `npm login --registry={{registry_url}}`
 
-- Login, using a specific authentication strategy:
+- Login using a specific authentication strategy:
 
 `npm login --auth-type={{legacy|web}}`
