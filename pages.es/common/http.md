@@ -3,7 +3,7 @@
 > HTTPie: un cliente HTTP diseñado para probar, depurar e interactuar generalmente con APIs y servidores HTTP.
 > Más información: <https://httpie.io/docs/cli/usage>.
 
-- Hace una solicitud simple GET (Muestra encabezados de respuesta y contenido):
+- Hace una solicitud simple GET (muestra encabezados de respuesta y contenido):
 
 `http {{https://example.com}}`
 
