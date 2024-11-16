@@ -12,7 +12,7 @@
 
 `limactl create --name {{nombre_de_la_mv}} template://{{debian|fedora|ubuntu|…}}`
 
-- Inicia una MV (esto puede instalar algunas dependencias en él y tomar unos minutos):
+- Inicia una MV (esto puede instalar algunas dependencias en la misma y tomar unos minutos):
 
 `limactl start {{nombre_de_la_mv}}`
 
