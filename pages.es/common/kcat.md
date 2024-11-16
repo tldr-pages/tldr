@@ -13,7 +13,7 @@
 
 - Consume mensajes como grupo de consumidores de Kafka:
 
-`kcat -G {{id_de_grupo}} {{tema}} -b {{intermadiarios}}`
+`kcat -G {{id_de_grupo}} {{tema}} -b {{intermediarios}}`
 
 - Publica el mensaje leyendo de `stdin`:
 
