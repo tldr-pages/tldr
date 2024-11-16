@@ -15,6 +15,6 @@
 
 `strings -t d {{ruta/al/archivo}}`
 
-- Precede cada resultado con su offset dentro del archivo en hexadecimal:
+- Precede cada resultado con su desplazamiento (offset) dentro del archivo en hexadecimal:
 
 `strings -t x {{ruta/al/archivo}}`
