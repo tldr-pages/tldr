@@ -27,7 +27,7 @@
 
 `http --offline {{GET|DELETE|...}} {{https://example.com}}`
 
-- Utiliza sesiones nombradas para encabezados personalizados persistentes, credenciales de autenticación y galletas (cookies):
+- Utiliza sesiones nombradas para encabezados personalizados persistentes, credenciales de autenticación y cookies:
 
 `http --session {{nombre_de_sesión|ruta/a/sesión.json}} {{--auth usuario:clave https://example.com/auth API-KEY:xxx}}`
 
