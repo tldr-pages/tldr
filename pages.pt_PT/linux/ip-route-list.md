@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr ip-route-show`
+`tldr ip route show`

@@ -4,4 +4,4 @@
 
 - Pogledaj dokumentaciju za izvornu komandu:
 
-`tldr fossil-init`
+`tldr fossil init`
