@@ -5,4 +5,4 @@
 
 - 原命令的文档在：
 
-`tldr gh-codespace`
+`tldr gh codespace`

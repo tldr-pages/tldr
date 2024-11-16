@@ -4,4 +4,4 @@
 
 - Veure documentació per el comandament original:
 
-`tldr fossil-commit`
+`tldr fossil commit`
