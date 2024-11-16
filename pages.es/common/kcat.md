@@ -25,7 +25,7 @@
 
 - Lista metadatos para todos los temas e intermediarios:
 
-`kcat -L -b {{intermadiarios}}`
+`kcat -L -b {{intermediarios}}`
 
 - Lista metadatos para un tema específico:
 
