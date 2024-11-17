@@ -1,6 +1,6 @@
 # pacman --F
 
->  Arch Linux package manager utility.
+> Arch Linux package manager utility.
 > See also: `pacman`, `pkgfile`.
 > More information: <https://manned.org/pacman.8>.
 
@@ -12,7 +12,7 @@
 
 `pacman -F {{filename}}`
 
-- Find the package that owns a specific file, using a regular expression:
+- Find the package that owns a specific file, using a regular e[x]pression:
 
 `pacman -Fx '{{regular_expression}}'`
 
@@ -20,10 +20,10 @@
 
 `pacman -Fq {{filename}}`
 
-- List the F owned by a specific package:
+- Give the [l]ist of files owned by a specific package:
 
 `pacman -Fl {{package}}`
 
-- Display help:
+- Display [h]elp:
 
 `pacman -Fh`
