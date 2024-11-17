@@ -1,6 +1,6 @@
 # fossil new
 
-> Det här kommandot är ett alias för  `fossil init`.
+> Det här kommandot är ett alias för `fossil init`.
 
 - Se dokumentationen för orginalkommandot:
 

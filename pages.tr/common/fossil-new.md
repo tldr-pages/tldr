@@ -1,6 +1,6 @@
 # fossil new
 
-> Bu komut  `fossil init`.için bir takma addır.
+> Bu komut `fossil init` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
