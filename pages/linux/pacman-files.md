@@ -6,7 +6,7 @@
 
 - Update the package database:
 
-`sudo pacman -F --refresh`
+`sudo pacman -Fy`
 
 - Find the package that owns a specific file:
 
