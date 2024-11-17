@@ -1,4 +1,4 @@
-# npm-home
+# npm home
 
 > Open de npm-pagina, Yarn-pagina of GitHub-repository van een pakket in de webbrowser.
 > Meer informatie: <https://github.com/sindresorhus/npm-home>.

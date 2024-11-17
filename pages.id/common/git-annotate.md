@@ -9,7 +9,7 @@
 
 `git annotate {{jalan/menuju/file}}`
 
-- Tampilkan file dengan informasi komit menggunakan alamat surel/[e]mail daripada nama pelaku:
+- Tampilkan file dengan informasi komit menggunakan alamat surel/email daripada nama pelaku:
 
 `git annotate {{-e|--show-email}} {{jalan/menuju/file}}`
 
