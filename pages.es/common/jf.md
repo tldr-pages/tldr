@@ -13,4 +13,4 @@
 
 - Busca artefactos dentro del repositorio y directorio dados:
 
-`jf rt search --recursive {{nombre_de_repositorio}}/{{ruta}}/`
+`jf rt search --recursive {{nombre_del_repositorio}}/{{ruta}}/`
