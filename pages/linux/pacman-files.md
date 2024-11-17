@@ -1,29 +1,29 @@
-# pacman --files
+# pacman --F
 
-> Arch Linux package manager utility.
+>  Arch Linux package manager utility.
 > See also: `pacman`, `pkgfile`.
 > More information: <https://manned.org/pacman.8>.
 
 - Update the package database:
 
-`sudo pacman --files --refresh`
+`sudo pacman -F --refresh`
 
 - Find the package that owns a specific file:
 
-`pacman --files {{filename}}`
+`pacman -F {{filename}}`
 
 - Find the package that owns a specific file, using a regular expression:
 
-`pacman --files --regex '{{regular_expression}}'`
+`pacman -Fx '{{regular_expression}}'`
 
 - List only the package names:
 
-`pacman --files --quiet {{filename}}`
+`pacman -Fq {{filename}}`
 
-- List the files owned by a specific package:
+- List the F owned by a specific package:
 
-`pacman --files --list {{package}}`
+`pacman -Fl {{package}}`
 
 - Display help:
 
-`pacman --files --help`
+`pacman -Fh`
