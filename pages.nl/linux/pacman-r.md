@@ -1,4 +1,4 @@
-# pacman-r
+# pacman -R
 
 > Dit commando is een alias van `pacman --remove`.
 
