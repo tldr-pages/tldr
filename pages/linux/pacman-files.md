@@ -1,4 +1,4 @@
-# pacman --F
+# pacman -F
 
 > Arch Linux package manager utility.
 > See also: `pacman`, `pkgfile`.
