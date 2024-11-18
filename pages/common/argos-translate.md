@@ -1,6 +1,6 @@
 # argos-translate
 
-> An Open-source offline translation library written in Python. Also CLI tool.
+> An Open-source offline translation library and CLI tool written in Python.
 > More information: <https://www.argosopentech.com/>.
 
 - Install translation pair from Spanish to English:
