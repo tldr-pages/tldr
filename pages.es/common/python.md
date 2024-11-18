@@ -17,7 +17,7 @@
 
 - Ejecuta una expresión python:
 
-`python -c "{{expresion}}"`
+`python -c "{{expresión}}"`
 
 - Ejecuta el script del módulo de biblioteca especificado:
 
