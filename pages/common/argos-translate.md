@@ -15,7 +15,7 @@
 
 `cat {{path/to/file.txt}} | argos-translate --from-lang en --to-lang hi`
 
-- List of installed translation pairs:
+- List all installed translation pairs:
 
 `argospm list`
 
