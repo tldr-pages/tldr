@@ -15,6 +15,6 @@
 
 `choco apikey --source "{{स्रोत_URL}}" --key "{{api_चाबी}}"`
 
-- एक स्रोत के लिए एपीआई की हटाएं:
+- एक स्रोत के लिए API चाबी हटाएं:
 
 `choco apikey --source "{{स्रोत_URL}}" --remove`
