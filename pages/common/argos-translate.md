@@ -19,7 +19,7 @@
 
 `argospm list`
 
-- Show translation pairs from English available to be installed:
+- Show translation pairs from English that are available to be installed:
 
 `argospm search --from-lang en`
 
