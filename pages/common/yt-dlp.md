@@ -25,6 +25,10 @@
 
 `yt-dlp --extract-audio --audio-format {{mp3}} --audio-quality {{0}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
+- Download only the second, fourth, fifth, sixth, and last items in a playlist (the first item is 1, not 0):
+
+`yt-dlp --playlist-items 2,4:6,-1 "{{https://youtube.com/playlist?list=PLbzoR-pLrL6pTJfLQ3UwtB-3V4fimdqnA}}"`
+
 - Download all playlists of a YouTube channel/user keeping each playlist in a separate directory:
 
 `yt-dlp -o "{{%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}}" "{{https://www.youtube.com/user/TheLinuxFoundation/playlists}}"`

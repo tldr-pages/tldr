@@ -1,24 +1,36 @@
 # gcc
 
-> Compilador de arquivos de código fonte C e C++, efetuando também as fases de pré-processamento, assembling e linking.
+> Pré-processa e compila arquivos de código fonte C e C++, depois monta-os e vincula-os.
 > Mais informações: <https://gcc.gnu.org>.
 
 - Compila múltiplos arquivos de código fonte, produzindo um arquivo executável:
 
-`gcc {{arquivo_fonte1.c}} {{arquivo_fonte2.c}} --output {{arquivo_executável}}`
+`gcc {{caminho/para/arquivo_fonte1.c caminho/para/arquivo_fonte2.c ...}} {{-o|--output}} {{caminho/para/executável_de_saída}}`
 
-- Habilita avisos durante a compilação:
+- Ativa a saída de todos os erros e avisos:
 
-`gcc {{arquivo_fonte.c}} -Wall -Og --output {{arquivo_executável}}`
+`gcc {{caminho/para/fonte.c}} -Wall {{-o|--output}} {{executável_de_saída}}`
+
+- Mostra avisos comuns, símbolos de depuração na saída, e otimiza sem afetar a depuração:
+
+`gcc {{caminho/para/fonte.c}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{caminho/para/executável_de_saída}}`
 
 - Inclui bibliotecas de um local diferente:
 
-`gcc {{arquivo_fonte.c}} --output {{arquivo_executável}} -I{{caminho/para/header}} -L{{caminho/para/biblioteca}} -l{{nome_biblioteca}}`
+`gcc {{caminho/para/fonte.c}} {{-o|--output}} {{caminho/para/executável_de_saída}} -I{{caminho/para/header}} -L{{caminho/para/biblioteca}} -l{{nome_biblioteca}}`
 
 - Compila o código fonte para instruções Assembler:
 
-`gcc -S {{arquivo_fonte.c}}`
+`gcc {{-S|--assemble}} {{caminho/para/fonte.c}}`
 
-- Compila o código fonte sem efetuar a fase de linking:
+- Compila o código fonte sem efetuar vinculação:
 
-`gcc -c {{arquivo_fonte.c}}`
+`gcc {{-c|--compile}} {{caminho/para/font.c}}`
+
+- Otimiza o programa compilado para desempenho:
+
+`gcc {{caminho/para/fonte.c}} -O{{1|2|3|fast}} {{-o|--output}} {{caminho/para/executável_de_saída}}`
+
+- Mostra versão:
+
+`gcc --version`

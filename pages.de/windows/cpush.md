@@ -1,8 +1,7 @@
 # cpush
 
-> Dieser Befehl ist ein Alias von `choco-push`.
-> Weitere Informationen: <https://docs.chocolatey.org/en-us/create/commands/push>.
+> Dieser Befehl ist ein Alias von `choco push`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr choco-push`
+`tldr choco push`

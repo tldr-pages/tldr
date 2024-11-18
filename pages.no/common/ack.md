@@ -32,6 +32,6 @@
 
 `ack --count --files-with-matches "{{søkemønster}}"`
 
-- List opp alle verdiene som kan brukes med  `--type`:
+- List opp alle verdiene som kan brukes med `--type`:
 
 `ack --help-types`

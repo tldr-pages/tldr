@@ -9,7 +9,7 @@
 
 - Cambia la contraseña de un usuario específico:
 
-`passwd {{nombre_usuario}}`
+`passwd {{usuario}}`
 
 - Obtiene el estado actual del usuario:
 
