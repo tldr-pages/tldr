@@ -2,6 +2,7 @@
 
 > CLI tool that executes SQL on CSV, LTSV, JSON, YAML, TBLN files.
 > More information: <https://noborus.github.io/trdsql/>.
+> See also: `yq`, `jq`
 
 - Convert array data from a JSON file to a CSV file (with double quote):
 
