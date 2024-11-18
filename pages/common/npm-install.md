@@ -1,9 +1,9 @@
 # npm install
 
-> Install node packages.
+> Install Node packages.
 > More information: <https://docs.npmjs.com/cli/commands/npm-install>.
 
-- Install dependencies listed in package.json:
+- Install dependencies listed in `package.json`:
 
 `npm install`
 

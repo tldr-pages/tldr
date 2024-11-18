@@ -4,4 +4,4 @@
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr ip-route-show`
+`tldr ip route show`
