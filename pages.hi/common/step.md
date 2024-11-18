@@ -14,11 +14,11 @@
 
 - एक विशिष्ट होस्टनाम के लिए एक प्रमाणपत्र उत्पन्न करें और इसे रूट CA के साथ हस्ताक्षरित करें (सरलीकरण के लिए CSR उत्पन्न करना छोड़ सकते हैं):
 
-`step certificate create {{hostname.example.com}} {{hostname.crt/के/लिए/पथ}} {{hostname.key/के/लिए/पथ}} --profile leaf --ca {{root-ca.crt/का/पथ}} --ca-key {{root-ca.key/के/लिए/पथ}}`
+`step certificate create {{hostname.example.com}} {{hostname.crt/का/पथ}} {{hostname.key/का/पथ}} --profile leaf --ca {{root-ca.crt/का/पथ}} --ca-key {{root-ca.key/का/पथ}}`
 
 - एक प्रमाणपत्र श्रृंखला की पुष्टि करें:
 
-`step certificate verify {{hostname.crt/के/लिए/पथ}} --roots {{root-ca.crt/का/पथ}} --verbose`
+`step certificate verify {{hostname.crt/का/पथ}} --roots {{root-ca.crt/का/पथ}} --verbose`
 
 - PEM फ़ॉर्मेट के प्रमाणपत्र को DER में परिवर्तित करें और इसे डिस्क पर लिखें:
 
@@ -30,7 +30,7 @@
 
 - एक RSA/EC निजी और सार्वजनिक कुंजी जोड़ी बनाएँ (निजी कुंजी पासवर्ड सुरक्षा को छोड़ने के लिए `--no-password --insecure` जोड़ें):
 
-`step crypto keypair {{सार्वजनिक/कुंजी/का/पथ}} {{निजी/कुंजी/के/लिए/पथ}} --kty {{RSA|EC}}`
+`step crypto keypair {{सार्वजनिक/कुंजी/का/पथ}} {{निजी/कुंजी/का/पथ}} --kty {{RSA|EC}}`
 
 - उप-कमांड के लिए सहायता दिखाएँ:
 
