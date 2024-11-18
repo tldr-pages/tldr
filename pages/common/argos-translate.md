@@ -3,7 +3,7 @@
 > An Open-source offline translation library and CLI tool written in Python.
 > More information: <https://www.argosopentech.com/>.
 
-- Install translation pair from Spanish to English:
+- Install translation pairs for Spanish to English translation:
 
 `argospm install translate-es_en`
 
