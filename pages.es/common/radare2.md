@@ -7,7 +7,7 @@
 
 `radare2 -nw {{ruta/al/binario}}`
 
-- Depurar un programa:
+- Depura un programa:
 
 `radare2 -d {{ruta/al/binario}}`
 
