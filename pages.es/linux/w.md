@@ -9,7 +9,7 @@
 
 - Muestra información sobre un usuario específico:
 
-`w {{nombre_de_usuario}}`
+`w {{usuario}}`
 
 - Muestra información sin incluir la cabecera:
 

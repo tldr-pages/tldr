@@ -15,7 +15,7 @@
 
 `htop --tree`
 
-- Urutkan proses berdasarkan `sort_item` yang ditentukan (gunakan `htop --sort help` untuk opsi yang tersedia  ):
+- Urutkan proses berdasarkan `sort_item` yang ditentukan (gunakan `htop --sort help` untuk opsi yang tersedia):
 
 `htop --sort {{sort_item}}`
 

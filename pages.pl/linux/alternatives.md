@@ -1,6 +1,6 @@
 # alternatives
 
-> To polecenie jest aliasem dla `update-alternatives`.
+> To polecenie jest aliasem `update-alternatives`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
