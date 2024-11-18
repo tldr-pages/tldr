@@ -1,21 +1,21 @@
 # patool
 
-> Patool is an archive file manager.
-> Various archive formats can be created, extracted, tested, listed, searched, repacked and compared with patool.
+> Archive file manager.
+> Various archive formats can be created, extracted, tested, listed, searched, repacked, and compared.
 > More information: <https://github.com/wummel/patool>.
 
-- Extract an archive.:
+- Extract an archive:
 
-`patool extract $ARCHIVE`
+`patool extract {{path/to/archive}}`
 
 - List contents of an archive:
 
-`patool list $ARCHIVE`
+`patool list {{path/to/archive}}`
 
-- Run diff on contents of two archives and print to stdout:
+- Compare the contents of two archives and display the differences in the standard output:
 
-`patool diff $ARCHIVE1 $ARCHIVE2`
+`patool diff {{path/to/archive1}} {{path/to/archive2}}`
 
 - Search for a string inside the contents of an archive:
 
-`patool search $ARCHIVE`
+`patool search {{path/to/archive}}`
