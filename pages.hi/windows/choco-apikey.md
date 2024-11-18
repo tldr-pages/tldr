@@ -13,7 +13,7 @@
 
 - एक स्रोत के लिए एपीआई की सेट करें:
 
-`choco apikey --source "{{स्रोत_URL}}" --key "{{api_key}}"`
+`choco apikey --source "{{स्रोत_URL}}" --key "{{api_चाबी}}"`
 
 - एक स्रोत के लिए एपीआई की हटाएं:
 
