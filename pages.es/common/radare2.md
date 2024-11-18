@@ -23,6 +23,6 @@
 
 `> !{{shell_command}}`
 
-- Muestra los bytes tal cual del bloque actual a un archivo:
+- Muestra los bytes crudos del bloque actual a un archivo:
 
 `> pr > {{ruta/al/archivo.bin}}`
