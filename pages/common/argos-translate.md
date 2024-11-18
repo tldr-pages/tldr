@@ -1,0 +1,32 @@
+# argos-translate
+
+> An Open-source offline translation library written in Python. Also CLI tool.
+> More information: <https://www.argosopentech.com/>.
+
+- Install translation pair from Spanish to English:
+
+`argospm install translate-es_en`
+
+- Translate some text from Spanish (es) to English (en). Mind to use only two letter codes:
+
+`argos-translate --from-lang es --to-lang en {{un texto corto}}`
+
+- Translate a text file from English to Hindi:
+
+`cat {{text_file.txt}} | argos-translate --from-lang en --to-lang hi`
+
+- List of installed translation pairs:
+
+`argospm list`
+
+- Show translation pairs from English available to be installed:
+
+`argospm search --from-lang en`
+
+- Update installed language package pairs:
+
+`argospm update`
+
+- Translate from `ar` to `ru`. When the translation pairs `translate-es_en` and `translate-en_ru` are installed:
+
+`argos-translate --from-lang es --to-lang ru {{una imagen vale más que mil palabras}}`
