@@ -8,11 +8,11 @@
 
 `sudo pacman -Fy`
 
-- Find the package that owns a specific file:
+- Find the package that owns a specific [F]ile:
 
 `pacman -F {{filename}}`
 
-- Find the package that owns a specific file, using a regular e[x]pression:
+- Find the package that owns a specific [F]ile, using a regular e[x]pression:
 
 `pacman -Fx '{{regular_expression}}'`
 
@@ -20,7 +20,7 @@
 
 `pacman -Fq {{filename}}`
 
-- Give the [l]ist of files owned by a specific package:
+- Give the [l]ist of [F]iles owned by a specific package:
 
 `pacman -Fl {{package}}`
 
