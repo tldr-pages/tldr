@@ -7,7 +7,7 @@
 
 `flatpak mask {{com.example.app}}`
 
-- Undo ingore updates:
+- Undo ignore updates:
 
 `flatpak mask --remove {{com.example.app}}`
 
