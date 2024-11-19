@@ -2,27 +2,22 @@
 
 > CLI tool that executes SQL on CSV, LTSV, JSON, YAML, TBLN files.
 > More information: <https://noborus.github.io/trdsql/>.
-> See also: `yq`, `jq`
 
-- Convert array data from a JSON file to a CSV file (with double quote):
+- Convert object data from multiple JSON files to a CSV file with header (`-oh`) & double quote:
 
-`trdsql -ocsv "SELECT * FROM example.json" | sed 's/\([^,]*\)/"&"/g'  > example.csv`
+`trdsql -ocsv -oh "SELECT * FROM {{path/to/file/*.json}}" | sed 's/\([^,]*\)/"&"/g'  > {{path/to/file.csv}}`
 
-- Convert object data from multiple JSON files to a CSV file (with double quote):
+- Interpret JSON list as a table & put object inside as columns (path/to/file.json: `{"list":[{"age":"26","name":"Tanaka"}]}`):
 
-`trdsql -ocsv "SELECT * FROM example/*.json" | sed 's/\([^,]*\)/"&"/g'  > example.csv`
+`trdsql "SELECT * FROM {{path/to/file.json}}::.list`
 
-- Interpret JSON list as a table & put object inside as columns (example.json: `{"list":[{"age":"26","name":"Tanaka"}]}`):
+- Complex SQL data manipulation with multiple CSV files with first line is header (`-ih`):
 
-`trdsql "SELECT * FROM example.json::.list`
+`trdsql -icsv -ih "SELECT id,name,phone_number FROM {{path/to/file*.csv}} WHERE phone_number != '' ORDER BY id GROUP BY field1"`
 
-- Complex SQL data manipulation with multiple CSV files:
+- Merge content of 2 CSV files to one CSV file:
 
-`trdsql -icsv "SELECT id,name,phone_number FROM example*.csv WHERE phone_number != '' ORDER BY id GROUP BY field1"`
-
-- Cross join 2 csv files:
-
-`trdsql "SELECT * FROM a.csv CROSS JOIN b.csv"`
+`trdsql "SELECT column1, colum2 FROM {{path/to/file1.csv}} UNION SELECT column1,column2 FROM {{path/to/file2.csv}}"`
 
 - Simple connection to PostgreSQL database:
 
@@ -30,8 +25,8 @@
 
 - Create table data to MySQL database from CSV file:
 
-`trdsql -driver mysql -dsn "noborus:noborus@/trdsql_test" -ih "CREATE TABLE fruits (num int, name varchar(20)) AS SELECT id AS num,name FROM header.csv"`
+`trdsql -driver mysql -dsn "noborus:noborus@/trdsql_test" -ih "CREATE TABLE fruits (num int, name varchar(20)) AS SELECT id AS num,name FROM {{path/to/header_file.csv}}"`"`
 
 - Simple showing data from compress log files:
 
-`trdsql -iltsv "SELECT * FROM access.log.2.gz"`
+`trdsql -iltsv "SELECT * FROM {{path/to/access.log.gz}}"`
