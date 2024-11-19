@@ -5,11 +5,11 @@
 
 - Sigue a otro usuario:
 
-`keybase follow {{nombre_de_usuario}}`
+`keybase follow {{usuario}}`
 
 - Añade una nueva prueba:
 
-`keybase prove {{servicio}} {{nombre_de_usuario_en_el_servicio}}`
+`keybase prove {{servicio}} {{usuario_en_el_servicio}}`
 
 - Firma un archivo:
 

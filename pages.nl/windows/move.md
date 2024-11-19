@@ -1,7 +1,7 @@
 # move
 
 > Verplaats of hernoem bestanden en mappen.
-> In PowerShell is dit commando een alias van `Move-Item`. Deze documentatie is gebaserd op de  Command Prompt (`cmd`) versie van `move`.
+> In PowerShell is dit commando een alias van `Move-Item`. Deze documentatie is gebaserd op de Command Prompt (`cmd`) versie van `move`.
 > Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/move>.
 
 - Bekijk de documentatie van het PowerShell equivalente commando:

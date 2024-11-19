@@ -1,6 +1,6 @@
 # fossil ci
 
-> To polecenie jest aliasem  `fossil commit`.
+> To polecenie jest aliasem `fossil commit`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

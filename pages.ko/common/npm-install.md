@@ -3,7 +3,7 @@
 > Node 패키지 설치.
 > 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-install>.
 
-- package.json에 나열된 의존성 설치:
+- `package.json`에 나열된 의존성 설치:
 
 `npm install`
 

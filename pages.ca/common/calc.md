@@ -7,6 +7,6 @@
 
 `calc`
 
-- Realizar un càlcul  en mode no-interactiu:
+- Realizar un càlcul en mode no-interactiu:
 
 `calc -p '{{85 * (36 / 4)}}'`
