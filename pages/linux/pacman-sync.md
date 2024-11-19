@@ -30,8 +30,8 @@
 
 - [S]ynchronize and [u]pdate all packages, but ignore a specific package (can be used more than once):
 
-`sudo pacman -Syu --ignore {{package}}`
+`sudo pacman -Syu --ignore {{package1 package2 ...}}`
 
-- Remove not installed packages and unused repositories from the cache (use the flags `Scc` to [c]lean all packages):
+- Remove not installed packages and unused repositories from the cache (use the flags `Sc` to [c]lean all packages):
 
 `sudo pacman -Sc`
