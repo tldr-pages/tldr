@@ -21,4 +21,4 @@
 
 - Muestra un volcado hexadecimal binario completo de todas las secciones:
 
-`objdump -s {{binary}}`
+`objdump -s {{binario}}`
