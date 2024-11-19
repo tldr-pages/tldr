@@ -11,7 +11,7 @@
 
 `pio project init --project-dir {{ruta/al/directorio_del_proyecto}}`
 
-- Inicializa un nuevo proyecto PlatformIO, especificando un ID de la board:
+- Inicializa un nuevo proyecto PlatformIO, especificando un ID del board:
 
 `pio project init --board {{ATmega328P|uno|...}}`
 
