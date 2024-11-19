@@ -3,7 +3,7 @@
 > Utilisation de disque : estime et résume l'utilisation de l'espace occupé par les fichiers et les répertoires.
 > Plus d'informations : <https://www.gnu.org/software/coreutils/du>.
 
-- Liste les tailles d'un répertoire et de ses sous-répertoires, dans l'unité donnée (O/KiO/MiO) :
+- Liste les tailles d'un répertoire et de ses sous-répertoires, dans l'unité donnée (o/Kio/Mio) :
 
 `du -{{b|k|m}} {{chemin/vers/répertoire}}`
 
