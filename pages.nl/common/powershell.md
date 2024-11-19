@@ -4,7 +4,7 @@
 > Het originele `powershell` commando in Windows is nog steeds beschikbaar om gebruik te maken van de legacy Windows versie van PowerShell (versie 5.1 en lager).
 > Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
-- Bekijk de documenatie voor het commando dat refereert naar de laatste, cross-platform versie van  PowerShell (versie 6 en hoger):
+- Bekijk de documenatie voor het commando dat refereert naar de laatste, cross-platform versie van PowerShell (versie 6 en hoger):
 
 `tldr pwsh`
 

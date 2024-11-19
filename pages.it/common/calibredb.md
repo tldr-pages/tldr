@@ -20,7 +20,7 @@
 
 `calibredb add {{percoso/del/file1 percoso/del/file2 ...}}`
 
-- Aggiungere [r]icorsivamente tutti gli e-book in una directory alla libreria:
+- Aggiungere ricorsivamente tutti gli e-book in una directory alla libreria:
 
 `calibredb add {{-r|--recurse}} {{percoso/della/directory}}`
 
