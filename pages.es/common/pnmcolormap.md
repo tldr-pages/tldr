@@ -1,6 +1,6 @@
 # pnmcolormap
 
-> Crea mapa de colores quantizado para una imagen PNM.
+> Crea mapa de colores cuantizado para una imagen PNM.
 > Más información: <https://netpbm.sourceforge.net/doc/pnmcolormap.html>.
 
 - Genera una imagen usando sólo 'n_colores' o menos colores lo más cerca posible de la imagen de entrada:
