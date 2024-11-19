@@ -7,7 +7,7 @@
 
 `npm ls`
 
-- Print alle geïnstalleerde pakketten inclusief including gelijkwaardige afhankelijkheden:
+- Print alle geïnstalleerde pakketten inclusief gelijkwaardige afhankelijkheden:
 
 `npm ls --all`
 
