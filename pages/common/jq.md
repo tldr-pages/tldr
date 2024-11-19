@@ -1,7 +1,6 @@
 # jq
 
 > A JSON processor that uses a domain-specific language (DSL).
-> See also: `trdsql`.
 > More information: <https://jqlang.github.io/jq/manual/>.
 
 - Execute a specific expression (print a colored and formatted JSON output):
