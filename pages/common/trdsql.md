@@ -25,7 +25,7 @@
 
 - Create table data to MySQL database from CSV file:
 
-`trdsql -driver mysql -dsn "noborus:noborus@/trdsql_test" -ih "CREATE TABLE fruits (num int, name varchar(20)) AS SELECT id AS num,name FROM {{path/to/header_file.csv}}"`"`
+`trdsql -driver mysql -dsn "noborus:noborus@/trdsql_test" -ih "CREATE TABLE fruits (num int, name varchar(20)) AS SELECT id AS num,name FROM {{path/to/header_file.csv}}"`
 
 - Simple showing data from compress log files:
 
