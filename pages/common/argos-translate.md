@@ -29,4 +29,4 @@
 
 - Translate from `ar` to `ru` (Note: this requires the translation pairs `translate-es_en` and `translate-en_ru` to be installed):
 
-`argos-translate --from-lang es --to-lang ru {{una imagen vale más que mil palabras}}`
+`argos-translate --from-lang ar --to-lang ru {{صورة تساوي أكثر من ألف كلمة}}`
