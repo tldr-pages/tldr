@@ -19,6 +19,6 @@
 
 `pulumi new {{https://github.com/user/repo}}`
 
-- Use the specified secrets provider with the pulumi.com backend:
+- Use the specified secrets provider with the <pulumi.com> backend:
 
 `pulumi new --secrets-provider={{passphrase}}`
