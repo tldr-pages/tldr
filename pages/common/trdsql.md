@@ -1,6 +1,6 @@
 # trdsql
 
-> CLI tool that executes SQL on CSV, LTSV, JSON, YAML, TBLN files.
+> Execute SQL on CSV, LTSV, JSON, YAML, and TBLN files.
 > More information: <https://noborus.github.io/trdsql/>.
 
 - Convert object data from multiple JSON files to a CSV file with header (`-oh`) & double quote:
