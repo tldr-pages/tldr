@@ -5,7 +5,7 @@
 
 - Convert object data from multiple JSON files to a CSV file with header (`-oh`) & double quote:
 
-`trdsql -ocsv -oh "SELECT * FROM {{path/to/file/*.json}}" | sed 's/\([^,]*\)/"&"/g'  > {{path/to/file.csv}}`
+`trdsql -ocsv -oh "SELECT * FROM {{path/to/file/*.json}}" | sed 's/\([^,]*\)/"&"/g' > {{path/to/file.csv}}`
 
 - Interpret JSON list as a table & put object inside as columns (path/to/file.json: `{"list":[{"age":"26","name":"Tanaka"}]}`):
 
@@ -13,11 +13,11 @@
 
 - Complex SQL data manipulation with multiple CSV files with first line is header (`-ih`):
 
-`trdsql -icsv -ih "SELECT id,name,phone_number FROM {{path/to/file*.csv}} WHERE phone_number != '' ORDER BY id GROUP BY field1"`
+`trdsql -icsv -ih "SELECT {{column1,column2}} FROM {{path/to/file*.csv}} WHERE column2 != '' ORDER BY column1 GROUP BY column1"`
 
 - Merge content of 2 CSV files to one CSV file:
 
-`trdsql "SELECT column1, colum2 FROM {{path/to/file1.csv}} UNION SELECT column1,column2 FROM {{path/to/file2.csv}}"`
+`trdsql "SELECT {{column1,colum2}} FROM {{path/to/file1.csv}} UNION SELECT {{column1,column2}} FROM {{path/to/file2.csv}}"`
 
 - Simple connection to PostgreSQL database:
 
@@ -25,7 +25,7 @@
 
 - Create table data to MySQL database from CSV file:
 
-`trdsql -driver mysql -dsn "noborus:noborus@/trdsql_test" -ih "CREATE TABLE fruits (num int, name varchar(20)) AS SELECT id AS num,name FROM {{path/to/header_file.csv}}"`
+`trdsql -driver mysql -dsn "noborus:noborus@/trdsql_test" -ih "CREATE TABLE {{table}} ({{column1}} int, {{colum2}} varchar(20)) AS SELECT {{column3}} AS {{column1}},{{column2}} FROM {{path/to/header_file.csv}}"`
 
 - Simple showing data from compress log files:
 
