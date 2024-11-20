@@ -27,6 +27,6 @@
 
 `sha256sum --ignore-missing --check --quiet {{pad/naar/bestand.sha256}}`
 
-- Controleer een bekende SHA256 checksum van een bestand file:
+- Controleer een bekende SHA256 checksum van een bestand:
 
 `echo {{bekende_sha256_checksum_van_een_bestand}} {{pad/naar/bestand}} | sha256sum --check`
