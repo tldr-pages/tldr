@@ -15,9 +15,9 @@
 
 `pulumi new {{path/to/templates/aws-typescript}}`
 
-- Create a project from a specific source control location:
+- Create a project from a Git repository:
 
-`pulumi new {{https://github.com/user/repo}}`
+`pulumi new {{url}}`
 
 - Use the specified secrets provider with the <pulumi.com> backend:
 
