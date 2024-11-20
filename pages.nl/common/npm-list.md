@@ -1,4 +1,4 @@
-# npm-list
+# npm list
 
 > Dit commando is een alias van `npm ls`.
 
