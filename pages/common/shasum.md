@@ -19,7 +19,7 @@
 
 `shasum --algorithm 256 {{path/to/file1 path/to/file2 ...}} > {{path/to/file.sha256}}`
 
-- Read a file of SHA1 checksums and filenames and verify all files have matching checksums:
+- Read a file of SHA checksums and filenames and verify all files have matching checksums (the algorithm will be automatically detected):
 
 `shasum --check {{path/to/file}}`
 
