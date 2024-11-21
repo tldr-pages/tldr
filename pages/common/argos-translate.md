@@ -27,6 +27,6 @@
 
 `argospm update`
 
-- Translate from `ar` to `ru` (Note: this requires the translation pairs `translate-es_en` and `translate-en_ru` to be installed):
+- Translate from `ar` to `ru` (Note: this requires the translation pairs `translate-ar_en` and `translate-en_ru` to be installed):
 
 `argos-translate --from-lang ar --to-lang ru {{صورة تساوي أكثر من ألف كلمة}}`
