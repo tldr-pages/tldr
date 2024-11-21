@@ -7,7 +7,7 @@
 
 `argospm install translate-es_en`
 
-- Translate some text from Spanish (es) to English (en) (Note: only two letter language codes are supported):
+- Translate some text from Spanish (`es`) to English (`en`) (Note: only two letter language codes are supported):
 
 `argos-translate --from-lang es --to-lang en {{un texto corto}}`
 
