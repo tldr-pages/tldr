@@ -11,7 +11,7 @@
 
 `ant -f {{arquivo_de_build.xml}}`
 
-- Printa informações sobre possíveis alvos para este projeto:
+- Mostra informações sobre possíveis alvos para este projeto:
 
 `ant -p`
 
