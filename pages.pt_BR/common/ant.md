@@ -9,7 +9,7 @@
 
 - Compila um projeto utilizando um arquivo de build diferente do `build.xml`:
 
-`ant -f {{buildfile.xml}}`
+`ant -f {{arquivo_de_build.xml}}`
 
 - Printa informações sobre possíveis alvos para este projeto:
 
