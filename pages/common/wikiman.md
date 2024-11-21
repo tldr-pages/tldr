@@ -1,6 +1,7 @@
 # wikiman
 
-> Wikiman is an offline search engine for manual pages, Arch Wiki, Gentoo Wiki and other documentation.
+> Offline search engine for documentation.
+> Supports manual pages, Arch Wiki, Gentoo Wiki, FreeBSD documentation, and tldr-pages.
 > More information: <https://github.com/filiparag/wikiman>.
 
 - Search for a specific topic on all install sources:
