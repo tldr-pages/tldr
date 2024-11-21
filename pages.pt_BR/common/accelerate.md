@@ -3,7 +3,7 @@
 > Uma biblioteca que habilita o mesmo código PyTorch a rodar em qualquer configuração distribuída.
 > Mais informações: <https://huggingface.co/docs/accelerate/index>.
 
-- Printa informações do ambiente:
+- Mostra informações do ambiente:
 
 `accelerate env`
 
