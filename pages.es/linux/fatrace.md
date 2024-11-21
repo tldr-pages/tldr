@@ -3,7 +3,7 @@
 > Informa de eventos de acceso a archivos.
 > Más información: <https://manned.org/fatrace>.
 
-- Imprime los eventos de acceso a archivos en todos los sistemas de archivos montados en `stdout`:
+- Imprime en `stdout` los eventos de acceso a archivos en todos los sistemas de archivos montados:
 
 `sudo fatrace`
 
