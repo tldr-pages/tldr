@@ -1,0 +1,12 @@
+# fatrace
+
+> Informa de eventos de acceso a archivos.
+> Más información: <https://manned.org/fatrace>.
+
+- Imprime los eventos de acceso a archivos en todos los sistemas de archivos montados en `stdout`:
+
+`sudo fatrace`
+
+- Imprime eventos de acceso a archivos en el montaje del directorio actual, con marcas de tiempo, a `stdout`:
+
+`sudo fatrace {{-c|--current-mount}} {{-t|--timestamp}}`
