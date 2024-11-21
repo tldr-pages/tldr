@@ -31,6 +31,6 @@
 
 `aws secretsmanager rotate-secret --secret-id {{이름|arn}} --rotation-lambda-arn {{람다_함수_arn}}`
 
-- 30일마다 자동으로 시크릿 회전을 위해 람다 함수 사용:
+- 30일마다 자동으로 시크릿 교체을 위해 람다 함수 사용:
 
 `aws secretsmanager rotate-secret --secret-id {{이름|arn}} --rotation-lambda-arn {{람다_함수_arn}} --rotation-rules AutomaticallyAfterDays={{30}}`
