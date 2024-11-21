@@ -11,7 +11,7 @@
 
 `accelerate config`
 
-- Printa o custo de memória de GPU estimado para rodar um Modelo de Face aumentado com diferentes tipos de dados:
+- Mostra o custo de memória de GPU estimado para rodar um Modelo de Face aumentado com diferentes tipos de dados:
 
 `accelerate estimate-memory {{name/model}}`
 
