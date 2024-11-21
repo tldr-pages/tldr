@@ -15,7 +15,7 @@
 
 `acme.sh --issue --dns {{dns_cf}} --domain {{example.com}} --challenge-alias {{alias-for-example-validation.com}}`
 
-- Emite um certificado enquanto desabilita a pesquisa automática de DNS da Cloudflare/google depois que o registro DNS for adicionado, especificando um tempo de espera personalizado em segundos:
+- Emite um certificado enquanto desabilita a pesquisa automática de DNS da Cloudflare/Google depois que o registro DNS for adicionado, especificando um tempo de espera personalizado em segundos:
 
 `acme.sh --issue --dns {{dns_namecheap}} --domain {{example.com}} --dnssleep {{300}}`
 
