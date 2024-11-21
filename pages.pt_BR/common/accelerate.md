@@ -21,7 +21,7 @@
 
 - Roda um modelo na CPU com Accelerate:
 
-`accelerate launch {{path/to/script.py}} {{--cpu}}`
+`accelerate launch {{caminho/para/script.py}} {{--cpu}}`
 
 - Roda um modelo em multi-GPU com Accelerate, com 2 máquinas:
 
