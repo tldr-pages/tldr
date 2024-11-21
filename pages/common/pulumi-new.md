@@ -7,7 +7,7 @@
 
 `pulumi new`
 
-- Create a project from a specific template (e.g azure-python):
+- Create a project from a specific template (e.g `azure-python`):
 
 `pulumi new {{provided-template}}`
 
