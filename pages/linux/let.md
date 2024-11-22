@@ -15,3 +15,7 @@
 - Use conditional operator in an expression:
 
 `let "{{result = (x > 10) ? x : 0}}"`
+
+- Display help:
+
+`let --help`
