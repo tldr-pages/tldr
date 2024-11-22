@@ -7,7 +7,7 @@
 
 `pamflip -rotate{{90|180|270}} {{ruta/a/la/entrada.pam}} > {{ruta/al/resultado.pam}}`
 
-- Refleja horizontalmente :
+- Refleja horizontalmente:
 
 `pamflip -leftright {{ruta/a/la/entrada.pam}} > {{ruta/al/resultado.pam}}`
 
