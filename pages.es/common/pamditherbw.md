@@ -1,6 +1,6 @@
 # pamditherbw
 
-> Aplica dithering a una imagen en escala gris, es decir, convertirla en un patrón de píxeles blancos y negros que parecen iguales a la escala de grises original.
+> Aplica dithering a una imagen en escala de grises, es decir, la convierte en un patrón de píxeles blancos y negros que parecen iguales a la escala de grises original.
 > Vea también: `pbmreduce`.
 > Más información: <https://netpbm.sourceforge.net/doc/pamditherbw.html>.
 
