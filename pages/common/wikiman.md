@@ -19,3 +19,7 @@
 - List existing [S]ources:
 
 `wikiman -S`
+
+- Display [h]elp:
+
+`wikiman -h`
