@@ -12,9 +12,9 @@
 
 `wikiman -s {{source}} {{search_term}}`
 
-- Search for a topic on two specific [s]ources:
+- Search for a topic in two or more specific [s]ources:
 
-`wikiman -s {{source1}},{{source2}} {{search_term}}`
+`wikiman -s {{source1,source2,...}} {{search_term}}`
 
 - List existing [S]ources:
 
