@@ -4,14 +4,22 @@
 > atd 服务（或 atrun）需要处于运行状态，以保证命令成功执行。
 > 更多信息：<https://manned.org/at>.
 
+- 启动 `atd` 守护进程：
+
+`systemctl start atd`
+
 - 5 分钟后，执行标准输入中的命令（命令输入完成后按 `Ctrl + D`）：
 
 `at now + 5 minutes`
 
+- 交互式创建命令并在指定时间执行：
+
+`at {{小时:分钟}}`
+
 - 在今天上午 10:00 执行标准输入中的命令：
 
-`echo "{{./make_db_backup.sh}}" | at 1000`
+`echo "{{命令}}" | at 1000`
 
 - 下周二晚上 9:30 执行指定文件中包含的命令：
 
-`at -f {{path/to/file}} 9:30 PM Tue`
+`at -f {{路径/到/文件}} 9:30 PM Tue`

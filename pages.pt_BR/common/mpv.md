@@ -1,11 +1,12 @@
 # mpv
 
 > Um tocador de vídeo/audio baseado no MPlayer.
+> Veja também: `mplayer`, `vlc`.
 > Mais informações: <https://mpv.io>.
 
 - Toca um vídeo ou áudio de uma URL ou arquivo:
 
-`mpv {{url|caminho/para/arquivo}}'`
+`mpv {{url|caminho/para/arquivo}}`
 
 - Avança/retrocede 5 segundos:
 
@@ -15,11 +16,11 @@
 
 `DOWN <or> UP`
 
-- Aumenta ou diminui a velocidade de reprodução em 10%:
+- Diminui ou aumenta a velocidade de reprodução em 10%:
 
 `[ <or> ]`
 
-- Captura a imagem atual (salva em `./mpv-shotNNNN.jpg` por padrão):
+- Captura a imagem do quadro atual (salva em `./mpv-shotNNNN.jpg` por padrão):
 
 `s`
 
