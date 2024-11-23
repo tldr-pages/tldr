@@ -4,11 +4,11 @@
 > Supports manual pages, Arch Wiki, Gentoo Wiki, FreeBSD documentation, and tldr-pages.
 > More information: <https://github.com/filiparag/wikiman>.
 
-- Search for a specific topic on all install sources:
+- Search for a specific topic on all installed sources:
 
 `wikiman {{search_term}}`
 
-- Search for a topic on a specific [s]ource:
+- Search for a topic in a specific [s]ource:
 
 `wikiman -s {{source}} {{search_term}}`
 
