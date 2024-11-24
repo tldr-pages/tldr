@@ -17,7 +17,7 @@
 
 - Encuentra ASNs pertenecientes a una [org]anización específica:
 
-`amass intel -org {{nombre_de_organizacion}}`
+`amass intel -org {{nombre_de_organización}}`
 
 - Encuentra dominios raíz pertenecientes a un Número de Sistema Autónomo específico:
 
