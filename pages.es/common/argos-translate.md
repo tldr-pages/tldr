@@ -7,7 +7,7 @@
 
 `argospm install translate-es_en`
 
-- Traduce un texto del Español (`es`) al Inglés (`en`) (Nota: sólo se admiten códigos de dos letras para los idiomas:
+- Traduce un texto del español (`es`) al inglés (`en`) (Nota: sólo se admiten códigos de dos letras para los idiomas:
 
 `argos-translate --from-lang es --to-lang en {{un texto corto}}`
 
