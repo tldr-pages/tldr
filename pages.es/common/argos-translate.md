@@ -3,7 +3,7 @@
 > Una biblioteca de traducción local (offline) de código abierto y una herramienta CLI escrita en Python.
 > Más información: <https://www.argosopentech.com/>.
 
-- Instala pares de traducción del Español al Inglés:
+- Instala pares de traducción del español al inglés:
 
 `argospm install translate-es_en`
 
