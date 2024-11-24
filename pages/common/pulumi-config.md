@@ -1,6 +1,6 @@
 # pulumi config
 
-> Manage configuration settings for a Pulumi stack.
+> Manage configuration for a Pulumi stack.
 > More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_config/>.
 
 - View current configuration in JSON format:
