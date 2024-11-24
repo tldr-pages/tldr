@@ -11,7 +11,7 @@
 
 `argos-translate --from-lang es --to-lang en {{un texto corto}}`
 
-- Traduce un archivo de texto del Inglés al Hindi:
+- Traduce un archivo de texto del inglés al hindi:
 
 `cat {{ruta/al/archivo.txt}} | argos-translate --from-lang en --to-lang hi`
 
