@@ -125,7 +125,6 @@ If a command can be called with alternative names (like `vim` can be called by `
 # command_name
 
 > This command is an alias of `original-command-name`.
-> More information: <https://example.com/original/command/help/page>.
 
 - View documentation for the original command:
 
@@ -240,7 +239,7 @@ use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma),
 also known as the Oxford comma,
 since omitting it can create ambiguity.
 
-> Delete the Git branches, tags, and remotes.
+> Delete the Git branches, tags and remotes.
 
 The example above does not use a serial comma, so this could mean one of two things:
 

@@ -1,6 +1,6 @@
 # xzegrep
 
-> Dit commando is een alias van `xzgrep`.
+> Dit commando is een alias van `xzgrep --extended-regexp`.
 > Bekijk ook: `egrep`.
 
 - Bekijk de documentatie van het originele commando:

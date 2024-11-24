@@ -1,7 +1,6 @@
 # unlzma
 
-> Dit commando is een alias van `xz`.
-> Meer informatie: <https://manned.org/unlzma>.
+> Dit commando is een alias van `xz --format=lzma --decompress`.
 
 - Bekijk de documentatie van het originele commando:
 

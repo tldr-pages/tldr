@@ -30,7 +30,7 @@
 
 - Descarga a través de FTP con un nombre de usuario y contraseña:
 
-`aria2c --ftp-user {{nombre_usuario}} --ftp-passwd {{contraseña}} "{{url}}"`
+`aria2c --ftp-user {{usuario}} --ftp-passwd {{contraseña}} "{{url}}"`
 
 - Limita la velocidad de descarga en bytes por segundo:
 

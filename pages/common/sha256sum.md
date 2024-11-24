@@ -15,7 +15,7 @@
 
 `{{command}} | sha256sum`
 
-- Read a file of SHA256 sums and filenames and verify all files have matching checksums:
+- Read a file of SHA256 checksums and filenames and verify all files have matching checksums:
 
 `sha256sum --check {{path/to/file.sha256}}`
 
@@ -26,3 +26,7 @@
 - Only show a message when verification fails, ignoring missing files:
 
 `sha256sum --ignore-missing --check --quiet {{path/to/file.sha256}}`
+
+- Check a known SHA256 checksum of a file:
+
+`echo {{known_sha256_checksum_of_the_file}} {{path/to/file}} | sha256sum --check`

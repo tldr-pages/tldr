@@ -15,7 +15,7 @@
 
 `{{command}} | sha384sum`
 
-- Read a file of SHA384 sums and filenames and verify all files have matching checksums:
+- Read a file of SHA384 checksums and filenames and verify all files have matching checksums:
 
 `sha384sum --check {{path/to/file.sha384}}`
 
@@ -26,3 +26,7 @@
 - Only show a message when verification fails, ignoring missing files:
 
 `sha384sum --ignore-missing --check --quiet {{path/to/file.sha384}}`
+
+- Check a known SHA384 checksum of a file:
+
+`echo {{known_sha384_checksum_of_the_file}} {{path/to/file}} | sha384sum --check`

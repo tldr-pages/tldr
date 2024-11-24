@@ -149,8 +149,14 @@ def set_alias_page(
         # return empty status to indicate that no changes were made
         return ""
 
+    alias_name = path.stem
+    text = (
+        templates[locale].replace("example", alias_name, 1).replace("example", command)
+    )
+
     # Test if the alias page already exists
-    original_command = get_alias_page(path)
+    line = re.search(r">.*", text).group(0).replace(command, "(.+)")
+    original_command = get_alias_page(path, line)
     if original_command == command:
         return ""
 
@@ -159,12 +165,6 @@ def set_alias_page(
     )
 
     if not dry_run:  # Only write to the path during a non-dry-run
-        alias_name = path.stem
-        text = (
-            templates[locale]
-            .replace("example", alias_name, 1)
-            .replace("example", command)
-        )
         path.parent.mkdir(parents=True, exist_ok=True)
         with path.open("w", encoding="utf-8") as f:
             f.write(text)
@@ -172,7 +172,7 @@ def set_alias_page(
     return status
 
 
-def get_alias_page(path: Path) -> str:
+def get_alias_page(path: Path, regex: str) -> str:
     """
     Determine whether the given path is an alias page.
 
@@ -193,7 +193,7 @@ def get_alias_page(path: Path) -> str:
     with path.open(encoding="utf-8") as f:
         for line in f:
             # match alias page pattern "> This command is an alias of `example`."
-            if match := re.search(r"^> This command is an alias of `(.+)`\.$", line):
+            if match := re.search(regex, line):
                 command_name = match[1]
             # count the lines matching pattern "`...`"
             if re.match(r"^`[^`]+`$", line.strip()):
@@ -276,7 +276,10 @@ def main():
                 if page.name not in IGNORE_FILES
             ]
             for command in commands:
-                original_command = get_alias_page(root / "pages" / command)
+                original_command = get_alias_page(
+                    root / "pages" / command,
+                    r"^> This command is an alias of `(.+)`\.$",
+                )
                 if original_command != "":
                     target_paths += sync(
                         root,

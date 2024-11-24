@@ -11,7 +11,7 @@
 
 `git clone --recursive {{url_zu_repository}}`
 
-- Klone nur das  `.git` Verzeichnis für ein existierendes repository:
+- Klone nur das `.git` Verzeichnis für ein existierendes repository:
 
 `git clone --no-checkout {{url_zu_repository}}`
 

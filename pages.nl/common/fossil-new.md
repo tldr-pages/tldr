@@ -1,8 +1,7 @@
 # fossil new
 
-> Dit commando is een alias van  `fossil init`.
-> Meer informatie: <https://fossil-scm.org/home/help/new>.
+> Dit commando is een alias van `fossil init`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr fossil-init`
+`tldr fossil init`
