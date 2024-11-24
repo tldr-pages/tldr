@@ -5,7 +5,7 @@
 
 - Muestra la información del encabezado del archivo:
 
-`objdump -f {{binario}}`
+`objdump -f {{ruta/a/binario}}`
 
 - Muestra toda la información del encabezado:
 
