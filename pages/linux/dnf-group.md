@@ -1,6 +1,6 @@
 # dnf group
 
-> Manage groups of related DNF packages on Fedora-based systems.
+> Manage virtual collections of packages on Fedora-based systems.
 > More information: <https://manned.org/man/dnf-group>.
 
 - List DNF groups, showing installed and uninstalled status in a table:
