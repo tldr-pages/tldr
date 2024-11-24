@@ -1,4 +1,4 @@
-# pacman -F
+# pacman --files
 
 > Arch Linux package manager utility.
 > See also: `pacman`, `pkgfile`.
@@ -20,7 +20,7 @@
 
 `pacman -Fq {{filename}}`
 
-- Give the [l]ist of [F]iles owned by a specific package:
+- [l]ist the [F]iles owned by a specific package:
 
 `pacman -Fl {{package}}`
 
