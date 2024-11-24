@@ -8,6 +8,10 @@
 
 `mpv {{url|path/to/file}}`
 
+- Play a video or audio along with a subtitle file:
+
+`mpv {{url|path/to/file}} --sub-file={{url|path/to/subtitle}}`
+
 - Jump backward/forward 5 seconds:
 
 `LEFT <or> RIGHT`
