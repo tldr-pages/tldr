@@ -1,7 +1,6 @@
 # tmt run
 
 > Execute tmt test steps. By default, all steps are run.
-> See also: `tmt`, `tmt-try`.
 > More information: <https://tmt.readthedocs.io/en/stable/overview.html#run>.
 
 - Run all test steps for each plan:
@@ -12,7 +11,7 @@
 
 `tmt run discover -v`
 
-- Run all steps, adjust the provision step options:
+- Run all steps and adjust the provision step options:
 
 `tmt run --all provision --how {{container}} --image {{fedora:rawhide}}`
 
@@ -32,6 +31,6 @@
 
 `tmt run --all execute --how {{tmt}} --interactive`
 
-- Use dry mode to see what actions would happen and use highest verbosity:
+- Use dry mode to see what actions would happen and use the highest verbosity:
 
 `tmt run --dry -vvv`

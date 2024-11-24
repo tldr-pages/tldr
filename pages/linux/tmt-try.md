@@ -1,16 +1,15 @@
 # tmt try
 
 > Quickly experiment with tests and environments.
-> See also: `tmt`, `tmt-run`.
 > More information: <https://tmt.readthedocs.io/en/stable/stories/cli.html#try>.
 
-- Quickly experiment with the default provision method (no tests in cwd):
+- Quickly experiment with the default provision method (no tests in the CWD):
 
 `tmt try`
 
 - Run a test in the current working directory:
 
-`{{cd path/to/test &&}} tmt try`
+`cd {{path/to/test}} && tmt try`
 
 - Use a specific operating system:
 

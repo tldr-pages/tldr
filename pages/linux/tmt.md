@@ -1,10 +1,10 @@
 # tmt
 
-> Test Management Tool for creating, running and debugging tests.
-> See also: `tmt-run`, `tmt-try`.
+> Test Management Tool for creating, running, and debugging tests.
+> Some subcommands such as `run`, `try`, etc. have their own usage documentation.
 > More information: <https://tmt.readthedocs.io>.
 
-- Look around to see what's available:
+- List available tests, plans, and stories:
 
 `tmt`
 
@@ -12,13 +12,13 @@
 
 `tmt init`
 
-- Create a new test with template and link:
+- Create a new test with a template and a link:
 
 `tmt test create --template {{beakerlib}} --link {{verifies:issue#1234}}`
 
 - List available tests, plans, or stories:
 
-`tmt <test|plan|story> ls {{pattern}}`
+`tmt {{test|plan|story}} ls {{pattern}}`
 
 - Show detailed test metadata in the given context:
 
