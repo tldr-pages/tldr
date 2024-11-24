@@ -5,20 +5,20 @@
 
 - Muestra la información del encabezado del archivo:
 
-`objdump -f {{ruta/a/binario}}`
+`objdump -f {{ruta/al/binario}}`
 
 - Muestra toda la información del encabezado:
 
-`objdump -x {{binario}}`
+`objdump -x {{ruta/al/binario}}`
 
 - Muestra la salida desensamblada (disassembled) de secciones ejecutables:
 
-`objdump -d {{binario}}`
+`objdump -d {{ruta/al/binario}}`
 
 - Muestra las secciones ejecutables desensambladas con sintaxis Intel:
 
-`objdump -M intel -d {{binario}}`
+`objdump -M intel -d {{ruta/al/binario}}`
 
-- Muestra un volcado hexadecimal binario completo de todas las secciones:
+- Muestra un volcado hexadecimal ruta/al/binario completo de todas las secciones:
 
-`objdump -s {{binario}}`
+`objdump -s {{ruta/al/binario}}`
