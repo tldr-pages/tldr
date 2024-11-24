@@ -1,0 +1,24 @@
+# dnf group
+
+> Manage groups of related DNF packages on Fedora-based systems.
+> More information: <https://manned.org/man/dnf-group>.
+
+- List DNF groups, showing installed and uninstalled status in a table:
+
+`dnf group list`
+
+- Show DNF group info, including repository and optional packages:
+
+`dnf group info {{groupname}}`
+
+- Install DNF group:
+
+`dnf group install {{groupname}}`
+
+- Remove DNF group:
+
+`dnf group remove {{groupname}}`
+
+- Upgrade DNF group:
+
+`dnf group upgrade{{groupname}}`
