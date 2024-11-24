@@ -32,6 +32,6 @@
 
 `fabric --pattern {{pattern_name}} --output {{path/to/output_file}}`
 
-- Run a pattern with specified variables:
+- Run a pattern with the specified variables:
 
 `fabric --pattern {{pattern_name}} --variable "{{variable_name}}:{{value}}"`
