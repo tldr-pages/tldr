@@ -15,7 +15,7 @@
 
 `objdump -d {{binario}}`
 
-- Muestra las secciones ejecutables desensambladas con sintaxis intel:
+- Muestra las secciones ejecutables desensambladas con sintaxis Intel:
 
 `objdump -M intel -d {{binario}}`
 
