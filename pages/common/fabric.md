@@ -4,7 +4,7 @@
 > Provides a modular framework for solving specific problems using a crowdsourced set of AI prompts.
 > More information: <https://github.com/danielmiessler/fabric>.
 
-- Run setup to configure fabric:
+- Run the setup to configure fabric:
 
 `fabric --setup`
 
