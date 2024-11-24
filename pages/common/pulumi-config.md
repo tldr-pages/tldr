@@ -25,4 +25,4 @@
 
 - Remove multiple configuration values from a specified configuration file:
 
-`pulumi config --config-file {{path/to/file}} rm-all {{key1 key2 ...}} {{[flags]}}`
+`pulumi config --config-file {{path/to/file}} rm-all {{key1 key2 ...}}`
