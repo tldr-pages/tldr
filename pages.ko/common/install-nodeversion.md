@@ -10,7 +10,7 @@
 
 - 여러 개의 Node.js 버전 설치:
 
-`Install-NodeVersion {{노드_버전1 , 노드_버전2 , ...}}`
+`Install-NodeVersion {{노드_버전1, 노드_버전2, ...}}`
 
 - 최신 사용 가능한 Node.js 20 버전 설치:
 
