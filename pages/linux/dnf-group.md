@@ -9,16 +9,16 @@
 
 - Show DNF group info, including repository and optional packages:
 
-`dnf group info {{groupname}}`
+`dnf group info {{group_name}}`
 
 - Install DNF group:
 
-`dnf group install {{groupname}}`
+`dnf group install {{group_name}}`
 
 - Remove DNF group:
 
-`dnf group remove {{groupname}}`
+`dnf group remove {{group_name}}`
 
 - Upgrade DNF group:
 
-`dnf group upgrade {{groupname}}`
+`dnf group upgrade {{group_name}}`
