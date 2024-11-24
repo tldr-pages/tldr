@@ -21,4 +21,4 @@
 
 - Upgrade DNF group:
 
-`dnf group upgrade{{groupname}}`
+`dnf group upgrade {{groupname}}`
