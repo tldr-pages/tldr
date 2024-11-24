@@ -7,7 +7,7 @@
 
 `docker rm {{contenedor1 contenedor2 ...}}`
 
-- Elimina forzadamente contenedores:
+- Elimina de manera forzada contenedores:
 
 `docker rm --force {{contenedor1 contenedor2 ...}}`
 
