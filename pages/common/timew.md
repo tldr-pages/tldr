@@ -5,32 +5,28 @@
 
 - Start tracking an activity:
 
-  `timew start`
+`timew start`
 
 - Tag current activity:
 
-  `timew tag {{activity_tag}}`
+`timew tag {{activity_tag}}`
 
 - Start and tag a new activity being tracked:
 
-  `timew start {{activity_tag}}`
-
-- View current tracked activity:
-
-  `timew`
+`timew start {{activity_tag}}`
 
 - Stop current activity:
 
-  `timew stop`
+`timew stop`
 
 - Track an activity in the past:
 
-  `timew track {{start_time} - {{end_time}} {{activity_tag}}`
+`timew track {{start_time} - {{end_time}} {{activity_tag}}`
 
 - View tracked items of the day:
 
-  `timew summary`
+`timew summary`
 
 - View report for last day, week, current month etc:
 
-  `timew summary :{{today|yesterday|week|lastweek|month|lastmonth|year|lastyear}}`
+`timew summary :{{today|yesterday|week|lastweek|month|lastmonth|year|lastyear}}`
