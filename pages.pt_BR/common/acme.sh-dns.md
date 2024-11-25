@@ -13,7 +13,7 @@
 
 - Emite um certificado usando um modo apelido de DNS:
 
-`acme.sh --issue --dns {{dns_cf}} --domain {{example.com}} --challenge-alias {{alias-for-example-validation.com}}`
+`acme.sh --issue --dns {{dns_cf}} --domain {{example.com}} --challenge-alias {{apelido-para-exemplo-de-validacao.com}}`
 
 - Emite um certificado enquanto desabilita a pesquisa automática de DNS da Cloudflare/Google depois que o registro DNS for adicionado, especificando um tempo de espera personalizado em segundos:
 
