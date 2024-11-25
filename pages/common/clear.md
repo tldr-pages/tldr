@@ -7,7 +7,7 @@
 
 `clear`
 
-- Clear the screen but keep the terminal's scrollback buffer (equivalent to pressing Ctrl + L in Bash shell):
+- Clear the screen but keep the terminal's scrollback buffer (equivalent to pressing Ctrl + L in Bash):
 
 `clear -x`
 
