@@ -15,6 +15,10 @@
 
 `hugo server --minify`
 
+- Build and serve a site in the production environment with full re-renders while minifying supported formats:
+
+`hugo server --environment {{production}} --disableFastRender --minify`
+
 - Display help:
 
 `hugo server --help`
