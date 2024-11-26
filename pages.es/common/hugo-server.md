@@ -17,7 +17,7 @@
 
 - Construye y sirve un sitio en el entorno de producción con reconstrucción completa (re-render) disminuyendo el tamaño (minify) en los formatos soportados:
 
-`hugo server --environment {{production}} --disableFastRender --minify`
+`hugo server --environment {{producción}} --disableFastRender --minify`
 
 - Muestra la ayuda:
 
