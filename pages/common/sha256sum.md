@@ -27,6 +27,6 @@
 
 `sha256sum --ignore-missing --check --quiet {{path/to/file.sha256}}`
 
-- Check known SHA256 checksum of a file:
+- Check a known SHA256 checksum of a file:
 
 `echo {{known_sha256_checksum_of_the_file}} {{path/to/file}} | sha256sum --check`
