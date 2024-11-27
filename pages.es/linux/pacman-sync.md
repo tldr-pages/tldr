@@ -8,7 +8,7 @@
 
 `sudo pacman -S {{paquete}}`
 
-- [S]incroniza y refresca ([y]) la base de datos de paquetes junto con un sys[u]pgrade (añade `--downloadonly` para solamente descargar los paquetes y no actualizarlos):
+- [S]incroniza y actualiza ([y]) la base de datos de paquetes junto con un sys[u]pgrade (añade `--downloadonly` para solamente descargar los paquetes y no actualizarlos):
 
 `sudo pacman -Syu`
 
