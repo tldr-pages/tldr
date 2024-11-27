@@ -4,7 +4,7 @@
 > Vea también: `swww-daemon`.
 > Más información: <https://github.com/LGFae/swww>.
 
-- Establecer fondo de pantalla:
+- Establece fondo de pantalla:
 
 `swww img {{ruta/a/imagen}}`
 
