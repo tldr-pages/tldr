@@ -8,7 +8,7 @@
 
 `sudo pacman -Rs {{paquete}}`
 
-- [R]emueve un paquete y sus dependencias. [n]i guarda copias de seguridad de los archivos de configuración:
+- [R]emueve un paquete y sus dependencias. [n]o guarda copias de seguridad de los archivos de configuración:
 
 `sudo pacman -Rsn {{paquete}}`
 
