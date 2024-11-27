@@ -1,6 +1,6 @@
 # pacman --sync
 
-> Utilidad del manejador de paquetes de Arch Linux.
+> Utilidad del administrador de paquetes de Arch Linux.
 > Vea también: `pacman`.
 > Más información: <https://manned.org/pacman.8>.
 
