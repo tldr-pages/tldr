@@ -5,7 +5,7 @@
 
 - Lista de perfiles disponibles:
 
-`tuned-adm lista`
+`tuned-adm list`
 
 - Muestra el perfil activo actual:
 
@@ -13,7 +13,7 @@
 
 - Establece un perfil de ajuste específico:
 
-`tuned-adm profile {{nombre_del_perfil}}
+`tuned-adm profile {{nombre_del_perfil}}`
 
 - Recomienda un perfil adecuado en función del sistema actual:
 
