@@ -1,6 +1,6 @@
 # swww
 
-> Eficiente daemon de fondos de pantalla animados para Wayland.
+> Servicio (daemon) eficiente de fondos de pantalla animados para Wayland.
 > Vea también: `swww-daemon`.
 > Más información: <https://github.com/LGFae/swww>.
 
