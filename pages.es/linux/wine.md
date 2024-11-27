@@ -19,7 +19,7 @@
 
 `wine {{explorer|notepad|write}}`
 
-- Ejecuta `Registry Editor`, `Control Panel`, o `Task Manager`:
+- Ejecuta `Registry Editor`, `Control Panel` o `Task Manager`:
 
 `wine {{regedit|control|taskmgr}}`
 
