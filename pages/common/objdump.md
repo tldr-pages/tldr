@@ -5,20 +5,20 @@
 
 - Display the file header information:
 
-`objdump -f {{binary}}`
+`objdump -f {{path/to/binary}}`
 
 - Display all header information:
 
-`objdump -x {{binary}}`
+`objdump -x {{path/to/binary}}`
 
 - Display the disassembled output of executable sections:
 
-`objdump -d {{binary}}`
+`objdump -d {{path/to/binary}}`
 
-- Display the disassembled executable sections in intel syntax:
+- Display the disassembled executable sections in Intel syntax:
 
-`objdump -M intel -d {{binary}}`
+`objdump -M intel -d {{path/to/binary}}`
 
 - Display a complete binary hex dump of all sections:
 
-`objdump -s {{binary}}`
+`objdump -s {{path/to/binary}}`
