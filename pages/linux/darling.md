@@ -1,7 +1,7 @@
 # darling
 
 > Run macOS software on Linux.
-> More information: <https://darlinghq.org/>.
+> More information: <https://darlinghq.org>.
 
 - Run a builtin command:
 
