@@ -3,7 +3,7 @@
 > Run macOS software on Linux.
 > More information: <https://darlinghq.org/>.
 
-- Run a builtin command, try with uname ;):
+- Run a builtin command:
 
 `darling shell {{command}}`
 
