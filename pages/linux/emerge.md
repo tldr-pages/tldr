@@ -26,7 +26,7 @@
 
 - Remove orphaned packages (that were installed only as dependencies):
 
-` sudo emerge -avc`
+`sudo emerge -avc`
 
 - Search the package database for a keyword:
 
