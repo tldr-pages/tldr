@@ -5,7 +5,7 @@
 
 - Run a builtin command:
 
-`darling shell {{command}}`
+`darling shell {{uname}}`
 
 - Run a specific program in the current path with arguments:
 
