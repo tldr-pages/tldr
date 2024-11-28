@@ -6,4 +6,4 @@
 
 - Generate completion scripts:
 
-`pulumi gen-completion {{SHELL}}`
+`pulumi gen-completion {{bash|zsh|fish}}`
