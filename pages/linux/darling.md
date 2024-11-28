@@ -9,7 +9,7 @@
 
 - Run a specific program in the current path with arguments:
 
-`darling shell {{./program}} {{program_argument_1 program_argument_2}}`
+`darling shell {{./program}} {{program_argument_1 program_argument_2 ...}}`
 
 - Open a macOS shell:
 
