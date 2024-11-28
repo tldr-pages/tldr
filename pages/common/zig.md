@@ -29,7 +29,7 @@
 
 - Translate a C file to `zig`:
 
-`zig translate-c -lc {{file.c}}`
+`zig translate-c -lc {{path/to/file.c}}`
 
 - Use Zig as a drop-in C++ compiler:
 
