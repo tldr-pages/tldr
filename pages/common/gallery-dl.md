@@ -41,7 +41,7 @@
 
 > ===================selection options===================
 
-- To specify a range to start at, stop at, to through, use "--range". 
+- To specify a range to start at, stop at, through, use "--range". 
 - Note: gallery-dl starts counting at 1, so if you have 70 files downloaded you can specify 70 and gallery-dl will start at pos 70
 - Using "--range" to start at 50: (when starting, 50- and 50: will work the same)
 
