@@ -1,7 +1,7 @@
 # incus
 
-> Incus is a modern, secure and powerful system container and virtual machine manager.
-> More information: <https://linuxcontainers.org/incus/docs/main/>.
+> Modern, secure and powerful system container and virtual machine manager.
+> More information: <https://linuxcontainers.org/incus/docs/main>.
 
 - List all containers and virtual machines (both running and stopped):
 
@@ -23,7 +23,7 @@
 
 `incus delete {{container_name}}`
 
-- Pull an image from an image repository (aka. remote) to local:
+- Pull an image from an image repository (remote) to local:
 
 `incus copy {{remote}}:{{image}} local:{{custom_image_name}}`
 
