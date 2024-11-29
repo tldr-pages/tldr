@@ -27,7 +27,7 @@
 
 `gnome-screenshot --window --file {{ruta/al/archivo}}`
 
-- Toma una captura después del número especificado de segundos y la guarda en el portapapeles:
+- Toma una captura después del un número determinado de segundos y la guarda en el portapapeles:
 
 `gnome-screenshot --delay {{10}} --clipboard`
 
