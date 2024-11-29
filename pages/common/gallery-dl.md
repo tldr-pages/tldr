@@ -1,7 +1,7 @@
 # gallery-dl
 
 > Download image galleries and collections from many different sites.
-> More information: https://github.com/mikf/gallery-dl.
+> More information: <https://github.com/mikf/gallery-dl>.
 
 - Download images from the specified URL:
 
