@@ -19,7 +19,7 @@
 
 `cowsay -f {{arte}} "{{hola, mundo}}"`
 
-- Imprime un pensamiento triste de vaca ASCII:
+- Imprime un pensamiento triste de una vaca ASCII:
 
 `cowthink -d "{{Solo soy una vaca, no una gran pensadora...}}"`
 
