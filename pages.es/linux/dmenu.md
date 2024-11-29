@@ -1,7 +1,7 @@
 # dmenu
 
 > Menú dinámico.
-> Crea un menú a partir de una entrada de texto con cada elemento en una nueva línea.
+> Crea un menú a partir de una entrada de texto con cada elemento, en una nueva línea.
 > Más información: <https://manned.org/dmenu>.
 
 - Muestra un menú a partir de la salida del comando 'ls':
