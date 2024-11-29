@@ -15,7 +15,7 @@
 
 `gnome-screenshot --clipboard`
 
-- Toma una captura después del número especificado de segundos:
+- Toma una captura después de un número determinado de segundos:
 
 `gnome-screenshot --delay {{5}}`
 
