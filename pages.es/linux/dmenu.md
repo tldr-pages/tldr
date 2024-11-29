@@ -12,7 +12,7 @@
 
 `echo -e "{{rojo}}\n{{verde}}\n{{azul}}" | dmenu`
 
-- Deja que el usuario elija entre varios elementos y guarda el seleccionado a un archivo:
+- Deja que el usuario elija entre varios elementos y guarda el seleccionado en un archivo:
 
 `echo -e "{{rojo}}\n{{verde}}\n{{azul}}" | dmenu > {{color.txt}}`
 
