@@ -28,8 +28,8 @@
 
 `------------------login options------------------`
 
-- Use "-u / --username" to provide the username to login with (or set it in the config file)
-- Use "-p / --password" to provide the password to login with
+- Use "-u / --username" to provide the username to login with (or set it in the config file).
+- Use "-p / --password" to provide the password to login with.
 
 - To use a cookies.txt file, use "-C / --cookies"
 
