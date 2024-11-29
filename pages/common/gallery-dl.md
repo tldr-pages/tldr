@@ -7,7 +7,7 @@
 
 `gallery-dl <url>`
 
-`------------------output options------------------`
+- ===================output options===================
 
 - To set the destination for downloads, use the "-d / --destination" switch.
 
@@ -18,7 +18,7 @@
 
 - If you want to avoid that, use "-D / --directory" instead.
 
-`------------------input options------------------`
+- ===================input options===================
 
 - URLs can also be read from a text file with "-i / --input-file"
 - To have urls be commented out after downloading, "-I / --input-file-comment" can be used instead. 
@@ -26,10 +26,10 @@
 
 `gallery-dl -i list.txt - optionallist2.txt`
 
-`------------------login options------------------`
+- ===================login options===================
 
-- Use "-u / --username" to provide the username to login with (or set it in the config file).
-- Use "-p / --password" to provide the password to login with.
+- Use "-u / --username" to provide the username to login with (or set it in the config file)
+- Use "-p / --password" to provide the password to login with
 
 - To use a cookies.txt file, use "-C / --cookies"
 
@@ -39,7 +39,7 @@
 
 `gallery-dl --cookies-from-browser firefox`
 
-`------------------selection options------------------`
+- ===================selection options===================
 
 - To specify a range to start at, stop at, to through, use "--range". 
 - Note: gallery-dl starts counting at 1, so if you have 70 files downloaded you can specify 70 and gallery-dl will start at pos 70
