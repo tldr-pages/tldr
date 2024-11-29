@@ -7,7 +7,7 @@
 
 `gnome-screenshot`
 
-- Toma una captura de pantalla y la guardar en la ubicación de archivo indicada:
+- Toma una captura de pantalla y la guarda en la ubicación de archivo indicada:
 
 `gnome-screenshot --file {{ruta/al/archivo}}`
 
