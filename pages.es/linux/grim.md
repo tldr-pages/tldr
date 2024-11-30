@@ -23,6 +23,6 @@
 
 `grim "{{ruta/al/archivo.png}}"`
 
-- Captura de Pantalla y la copia al portapapeles:
+- Captura de pantalla y la copia al portapapeles:
 
 `grim - | {{clipboard_manager}}`
