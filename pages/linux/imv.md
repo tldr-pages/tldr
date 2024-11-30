@@ -16,7 +16,7 @@
 
 `imv --slideshow {{path/to/image.ext}}`
 
-- Open multiple images via stdin:
+- Open multiple images via `stdin`:
 
 `find . -type f -name "*.svg" | imv`
 
