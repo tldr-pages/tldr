@@ -1,0 +1,8 @@
+# readcd
+
+> Read or write data Compact Disc media.
+> More information: <https://manned.org/readcd>.
+
+- Read a cd and copy it to a file:
+
+`readcd dev={{/dev/sr0}} f=path/to/file.iso`
