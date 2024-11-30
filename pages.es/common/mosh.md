@@ -24,6 +24,6 @@
 
 `mosh -p {{124}} {{usuario}}@{{equipo_remoto}}`
 
-- Uso cuando el binario `mosh-server` no se encuentra en la ruta estándar:
+- Se lo usa cuando el binario `mosh-server` no se encuentra en la ruta estándar:
 
 `mosh --server={{ruta/a/bin/}}mosh-server {{equipo_remoto}}`
