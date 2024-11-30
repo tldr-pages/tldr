@@ -18,5 +18,3 @@
 - Clean binary packages of all uninstalled packages, but keep binaries of installed packages:
 
 `sudo eclean --deep --package-names packages`
-
-
