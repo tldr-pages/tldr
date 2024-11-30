@@ -12,7 +12,7 @@
 
 `ls | xcowsay`
 
-- Muestra una vaca en las coordenadas X y Y especificadas:
+- Muestra una vaca en las coordenadas X e Y especificadas:
 
 `xcowsay --at={{X}},{{Y}}`
 
