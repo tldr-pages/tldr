@@ -7,7 +7,7 @@
 
 `grim`
 
-- Captura de Pantalla a un archivo específico:
+- Captura de pantalla a un archivo específico:
 
 `grim -o {{ruta/al/archivo_resultado}}`
 
