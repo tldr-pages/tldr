@@ -13,7 +13,7 @@
 
 - Captura de pantalla de una región específica:
 
-`grim -g "{{<x_position>,<y_position> <width>x<height>}}"`
+`grim -g "{{<posición_x>,<posición_y> <ancho>x<alto>}}"`
 
 - Selecciona una región específica y toma una captura esa porción, (usando slurp):
 
