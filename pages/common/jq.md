@@ -27,7 +27,7 @@
 
 `{{cat path/to/file.json}} | jq '.[]'`
 
-- Print multi-conditional objects in array:
+- Print objects with 2-condition filter in array:
 
 `{{cat path/to/file.json}} | jq '.[] | select((.key1=="value1") and .key2=="value2")'`
 
