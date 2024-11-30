@@ -11,7 +11,7 @@
 
 `grim -o {{ruta/al/archivo_resultado}}`
 
-- Captura de Pantalla de una región específica:
+- Captura de pantalla de una región específica:
 
 `grim -g "{{<x_position>,<y_position> <width>x<height>}}"`
 
