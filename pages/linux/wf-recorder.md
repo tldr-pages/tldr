@@ -4,7 +4,7 @@
 > By default you need to end the process with Ctrl-C.
 > More information: <https://github.com/ammen99/wf-recorder>.
 
-- Record storing to an mp4 file:
+- Record storing to an MP4 file:
 
 `wf-recorder --file={{output.mp4}}`
 
