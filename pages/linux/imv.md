@@ -26,4 +26,4 @@
 
 - View multiple images from the web:
 
-`curl -Osw '%{filename_effective}\n' 'http://www.example.com/[1-10].jpg' | imv`
+`curl -Osw '%{filename_effective}\n' '{{http://www.example.com/[1-10].jpg}}' | imv`
