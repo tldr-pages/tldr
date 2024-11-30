@@ -15,7 +15,7 @@
 
 `grim -g "{{<posición_x>,<posición_y> <ancho>x<alto>}}"`
 
-- Selecciona una región específica y toma una captura esa porción, (usando slurp):
+- Selecciona una región específica y toma una captura de dicha porción, usando slurp:
 
 `grim -g "{{$(slurp)}}"`
 
