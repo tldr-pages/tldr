@@ -6,27 +6,27 @@
 
 - Synchronize all packages:
 
-`emerge --sync`
+`sudo emerge --sync`
 
 - Update all packages, including dependencies:
 
-`emerge -uDNav @world`
+`sudo emerge -uDNav @world`
 
 - Resume a failed updated, skipping the failing package:
 
-`emerge --resume --skipfirst`
+`sudo emerge --resume --skipfirst`
 
 - Install a new package, with confirmation:
 
-`emerge -av {{package}}`
+`sudo emerge -av {{package}}`
 
 - Remove a package, with confirmation:
 
-`emerge -Cav {{package}}`
+`sudo emerge -Cav {{package}}`
 
 - Remove orphaned packages (that were installed only as dependencies):
 
-`emerge -avc`
+`sudo emerge -avc`
 
 - Search the package database for a keyword:
 
