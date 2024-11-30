@@ -5,4 +5,4 @@
 
 - Read a cd and copy it to a file:
 
-`readcd dev={{/dev/sr0}} f=path/to/file.iso`
+`readcd dev={{/dev/sr0}} f={{path/to/file.iso}}`
