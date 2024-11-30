@@ -18,7 +18,7 @@
 
 - Open multiple images via `stdin`:
 
-`find . -type f -name "*.svg" | imv`
+`find . -type f -name "{{*.svg}}" | imv`
 
 - Make a slideshow from a directory showing each image for 10 seconds:
 
