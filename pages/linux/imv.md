@@ -12,9 +12,9 @@
 
 `imv -f {{path/to/image.ext}}`
 
-- View images recursively in a directory:
+- View images [r]ecursively from a path:
 
-`imv --slideshow {{path/to/image.ext}}`
+`imv -r --slideshow {{path/to/path}}`
 
 - Open multiple images via `stdin`:
 
