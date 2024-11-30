@@ -1,6 +1,6 @@
 # kitty
 
-> Un emulador terminal rápido basado en GPU rico en características.
+> Un emulador rápido de una terminal basado en GPU rico en características.
 > Más información: <https://sw.kovidgoyal.net/kitty/>.
 
 - Abre una nueva terminal:
