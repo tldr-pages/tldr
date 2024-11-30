@@ -1,6 +1,6 @@
 # imv
 
-> CLI image viewer for wayland and X11 aimed to tiling window managers.
+> CLI image viewer for wayland and X11 aimed at tiling window managers.
 > Handles multiple formats including photoshop(PSD).
 > More information: <https://sr.ht/~exec64/imv>.
 
