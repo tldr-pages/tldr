@@ -20,7 +20,7 @@
 
 `mosh {{equipo_remoto}} -- {{comando -con --opciones}}`
 
-- Selecciona un puerto UDP Mosh (útil cuando la `equipo_remoto` está tras un NAT):
+- Selecciona un puerto UDP Mosh (útil cuando el `equipo_remoto` está tras un NAT):
 
 `mosh -p {{124}} {{usuario}}@{{equipo_remoto}}`
 
