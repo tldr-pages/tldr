@@ -1,7 +1,15 @@
 # euse
 
 > Enable, disable and obtain information about Gentoo USE flags.
-> More information: <https://wiki.gentoo.org/wiki/Euse>.
+> More information: <https://wiki.gentoo.org/wiki/Euse>
+
+- List active global USE flags:
+
+`euse --active --global`
+
+- List active local USE flags:
+
+`euse --active --local`
 
 - Enable a global USE flag:
 
