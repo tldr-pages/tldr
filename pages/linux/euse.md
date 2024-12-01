@@ -1,6 +1,6 @@
 # euse
 
-> Gentoo USE flag editor.
+> Enable, disable and obtain information about Gentoo USE flags.
 > More information: <https://wiki.gentoo.org/wiki/Euse>.
 
 - Enable a global USE flag:
