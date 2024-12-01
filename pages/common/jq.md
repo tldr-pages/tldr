@@ -3,9 +3,9 @@
 > A JSON processor that uses a domain-specific language (DSL).
 > More information: <https://jqlang.github.io/jq/manual/>.
 
-- Execute a specific expression (print a colored and formatted JSON output):
+- Execute a specific expression only using the `jq` binary (print a colored and formatted JSON output):
 
-`{{cat path/to/file.json}} | jq '.'`
+`jq '.' {{/path/to/file.json}}`
 
 - Execute a specific script:
 
@@ -17,7 +17,7 @@
 
 - Create new JSON object via an old JSON object:
 
-`{{cat path/to/file.json}} | jq '{{{newKey1: .key1, newKey2: .key2.nestedKey, ...}}}'`
+`{{cat path/to/multiple_json_file_*.json}} | jq '{{{newKey1: .key1, newKey2: .key2.nestedKey, ...}}}'`
 
 - Print specific array items:
 
