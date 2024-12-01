@@ -15,7 +15,7 @@
 
 `{{cat path/to/file.json}} | jq {{--arg "name1" "value1" --arg "name2" "value2" ...}} '{{. + $ARGS.named}}'`
 
-- Create new JSON object via an old JSON object:
+- Create new JSON object via old JSON objects from multiple files:
 
 `{{cat path/to/multiple_json_file_*.json}} | jq '{{{newKey1: .key1, newKey2: .key2.nestedKey, ...}}}'`
 
