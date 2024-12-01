@@ -23,6 +23,10 @@
 
 `protontricks -s {{game_name}}`
 
+- Run an executable in the proton environment of a specific game:
+
+`protontricks-launch --appid {{game_appid}} {{path/to/executable.exe}}`
+
 - Display help:
 
 `protontricks --help`
