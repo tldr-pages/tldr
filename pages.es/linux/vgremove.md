@@ -17,7 +17,7 @@
 
 - Utiliza una configuración específica para anular los valores predeterminados:
 
-`vgremove --config '{{global/locking_type=1}}'' {{grupo_volumen}}`
+`vgremove --config '{{global/locking_type=1}}' {{grupo_volumen}}`
 
 - Muestra texto de ayuda para obtener información de uso:
 
