@@ -15,7 +15,7 @@
 
 `sudo euse --enable {{use_flag}}`
 
-- Disable a global USE flag (Puts a '-' sign in front of the USE flag):
+- Disable a global USE flag (put a '-' sign in front of the USE flag):
 
 `sudo euse --disable {{use_flag}}`
 
