@@ -11,7 +11,7 @@
 
 `farge --no-preview`
 
-- Envía el valor hexadecimal de un píxel a `stdout`, y copia este valor al portapapeles:
+- Envía el valor hexadecimal de un píxel a `stdout` y copia este valor al portapapeles:
 
 `farge --stdout`
 
