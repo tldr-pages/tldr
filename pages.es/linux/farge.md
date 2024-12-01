@@ -19,6 +19,6 @@
 
 `farge --rgb --stdout`
 
-- Muestra el valor hexadecimal de un píxel como notificación que expira en 5000 mil milisegundos, y copia este valor al portapapeles:
+- Muestra el valor hexadecimal de un píxel como notificación que expira en 5000 milisegundos y copia este valor al portapapeles:
 
 `farge --notify --expire-time 5000`
