@@ -11,7 +11,7 @@
 
 `cat {{ruta/al/archivo}} | xsel -ib`
 
-- Produce el contenido del portapapeles en el terminal (equivalente a `Ctrl + V`):
+- Envía el contenido del portapapeles a la terminal (equivalente a `Ctrl + V`):
 
 `xsel -ob`
 
@@ -23,6 +23,6 @@
 
 `xsel -cb`
 
-- Envía el contenido de la selección primaria X11 a la terminal (equivalente a un clic medio del ratón):
+- Envía el contenido de la selección primaria X11 a la terminal (equivalente a clic del tercer botón del ratón):
 
 `xsel -op`
