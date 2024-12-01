@@ -15,7 +15,7 @@
 
 `farge --stdout`
 
-- Envía el valor RGB de un píxel a `stdout`, y copia este valor al portapapeles:
+- Envía el valor RGB de un píxel a `stdout` y copia este valor al portapapeles:
 
 `farge --rgb --stdout`
 
