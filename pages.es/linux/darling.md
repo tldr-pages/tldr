@@ -9,7 +9,7 @@
 
 - Ejecuta un programa específico en el directorio actual con argumentos:
 
-`darling shell {{./program}} {{program_argument_1 program_argument_2 ...}}`
+`darling shell {{./program}} {{programa_argumento_1 programa_argumento_2 ...}}`
 
 - Abre una interfaz de comandos de macOS:
 
