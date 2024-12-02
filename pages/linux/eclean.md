@@ -1,6 +1,6 @@
 # eclean
 
-> Clean repository source files and binary packges.
+> Clean repository source files and binary packages.
 > More information: <https://wiki.gentoo.org/wiki/Eclean>.
 
 - Clean source file directory:
