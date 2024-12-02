@@ -8,7 +8,7 @@
 
 `wf-recorder --file={{salida.mp4}}`
 
-- Graba incluyendo audio, ambos, micrófono y sonidos del sistema:
+- Graba video incluyendo audio; y esto incluye acceso al micrófono y los sonidos del sistema:
 
 `wf-recorder --audio --file={{/ruta/al/archivo_con_audio.webm}}`
 
