@@ -6,7 +6,7 @@
 
 - Grabación de un archivo MP4:
 
-`wf-recorder --file={{output.mp4}}`
+`wf-recorder --file={{salida.mp4}}`
 
 - Graba incluyendo audio, ambos, micrófono y sonidos del sistema:
 
