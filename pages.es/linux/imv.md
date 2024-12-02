@@ -14,7 +14,7 @@
 
 - Muestra imágenes de un directorio [r]ecursivamente:
 
-`imv -r --slideshow {{ruta/a/directorio}}`
+`imv -r --slideshow {{ruta/al/directorio}}`
 
 - Abre múltiples imágenes vía `stdin`:
 
