@@ -7,9 +7,9 @@
 
 `zpaq a {{path/to/archive.zpaq}} {{path/to/file_or_directory}}`
 
-- Create or add to encrypted archive with password X:
+- Create or add to encrypted archive:
 
-`zpaq a -k{{X}} {{path/to/archive.zpaq}} {{path/to/file_or_directory}}`
+`zpaq a -k{{password}} {{path/to/archive.zpaq}} {{path/to/file_or_directory}}`
 
 - E[x]tract the most recent recent versions of files:
 
