@@ -18,7 +18,7 @@
 
 - Ejecuta un patrón en la URL de un vídeo de YouTube:
 
-`fabric --youtube "{{https://www.youtube.com/watch?v=id_del_video}}" --pattern {{nombre_del_patrón}}``
+`fabric --youtube "{{https://www.youtube.com/watch?v=id_del_video}}" --pattern {{nombre_del_patrón}}`
 
 - Encadena patrones pasando la salida de uno a otro:
 
