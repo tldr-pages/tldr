@@ -15,6 +15,6 @@
 
 `flexget series list`
 
-- Run task `foo` from config file `bar.yml`:
+- Run a task from a config file:
 
-`flexget -c {{bar.yml}} execute --task {{foo}}`
+`flexget -c {{path/to/config.yml}} execute --task {{task_name}}`
