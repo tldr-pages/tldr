@@ -1,7 +1,7 @@
 # printenv
 
 > 모든 환경 변수 또는 지정된 환경 변수의 값을 출력.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/printenv>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/printenv-invocation.html>.
 
 - 모든 환경 변수의 키-값 쌍 출력:
 
