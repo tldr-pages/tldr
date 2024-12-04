@@ -2,7 +2,7 @@
 
 > 修改文件或目錄的存取權限。
 > 使用者類型分為檔案所有者（u）、檔案所有者之群組（g）、以及其他使用者（o）。
-> 更多資訊：<https://www.gnu.org/software/coreutils/chmod>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - 給予文件所有者執行的權限：
 

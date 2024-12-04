@@ -1,7 +1,7 @@
 # chmod
 
 > Mengubah hak akses pengguna suatu file atau direktori.
-> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/chmod>.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Berikan pengguna pembuat file hak untuk mengeksekusinya (misal: sebagai script):
 
