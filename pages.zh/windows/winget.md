@@ -31,6 +31,6 @@
 
 `winget {{import|export}} {{--import-file|--output}} {{路径/到/文件}}`
 
-- 在提交 PR 到 winget-pkgs 仓库之前验证清单：
+- 在提交合并到 winget-pkgs 仓库之前验证清单：
 
 `winget validate {{路径/到/清单}}`
