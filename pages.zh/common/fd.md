@@ -14,7 +14,7 @@
 
 - 查找具有特定扩展名的文件：
 
-`fd --extension txt`
+`fd --extension {{txt}}`
 
 - 在特定目录中查找文件：
 
