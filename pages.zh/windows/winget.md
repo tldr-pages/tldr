@@ -23,7 +23,7 @@
 
 `winget upgrade --all`
 
-- 列出所有可以使用 `winget` 管理的已安装包：
+- 列出所有可以通过 `winget` 管理的已安装包：
 
 `winget list --source winget`
 
