@@ -9,7 +9,7 @@
 
 - Start Flexget daemon and daemonize the process:
 
-`flexget daemon start -d`
+`flexget daemon start --daemonize`
 
 - List all series recorded in Flexget:
 
