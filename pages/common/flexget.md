@@ -7,7 +7,7 @@
 
 `flexget execute --now`
 
-- Start Flexget daemon and daemonize the process:
+- Start the Flexget daemon and daemonize its process:
 
 `flexget daemon start --daemonize`
 
