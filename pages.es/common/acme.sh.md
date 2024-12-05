@@ -30,4 +30,4 @@
 
 - Instala archivos de certificado en las ubicaciones especificadas (útil para la renovación automática de certificados):
 
-`acme.sh --install-cert -d {{ejemplo.com}} --key-file {{ruta/al/ejemplo.com.key}} --fullchain-file {{ruta/al/ejemplo.com.cer}} --reloadcmd {{"systemctl force-reload nginx"}}`
+`acme.sh --install-cert -d {{ejemplo.com}} --key-file {{ruta/al/ejemplo.com.key}} --fullchain-file {{ruta/al/ejemplo.com.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`

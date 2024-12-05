@@ -9,7 +9,7 @@
 
 - 완료 생성:
 
-`openai api completions.create --model {{ada}} --prompt {{"Hello world"}}`
+`openai api completions.create --model {{ada}} --prompt "{{Hello world}}"`
 
 - 채팅 완료 생성:
 
@@ -17,4 +17,4 @@
 
 - DALL·E API를 통해 이미지 생성:
 
-`openai api image.create --prompt {{"two dogs playing chess, cartoon"}} --num-images {{1}}`
+`openai api image.create --prompt "{{two dogs playing chess, cartoon}}" --num-images {{1}}`

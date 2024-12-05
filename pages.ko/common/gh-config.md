@@ -21,7 +21,7 @@
 
 - 기본 텍스트 편집기로 재설정:
 
-`gh config set editor {{""}}`
+`gh config set editor ""`
 
 - 대화형 프롬프트 비활성화:
 

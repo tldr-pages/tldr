@@ -30,4 +30,4 @@
 
 - 지정된 위치에 인증서 파일 설치 (자동 인증서 갱신에 장점이 있음):
 
-`acme.sh --install-cert -d {{example.com}} --key-file {{/경로/대상/example.com.key}} --fullchain-file {{/경로/대상/example.com.cer}} --reloadcmd {{"systemctl force-reload nginx"}}`
+`acme.sh --install-cert -d {{example.com}} --key-file {{/경로/대상/example.com.key}} --fullchain-file {{/경로/대상/example.com.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`

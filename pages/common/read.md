@@ -17,7 +17,7 @@
 
 - Assign multiple values to multiple variables:
 
-`read {{_ variable1 _ variable2}} <<< {{"The surname is Bond"}}`
+`read {{_ variable1 _ variable2}} <<< "{{The surname is Bond}}"`
 
 - Do not let backslash (\\) act as an escape character:
 

@@ -13,4 +13,4 @@
 
 - 배경화면을 고정된 [c]색상으로 설정:
 
-`swaybg --color {{"#rrggbb"}}`
+`swaybg --color "{{#rrggbb}}"`

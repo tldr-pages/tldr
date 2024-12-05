@@ -9,7 +9,7 @@
 
 - Send data through a named pipe and send the command to the background:
 
-`echo {{"Hello World"}} > {{path/to/pipe}} &`
+`echo "{{Hello World}}" > {{path/to/pipe}} &`
 
 - Receive data through a named pipe:
 
