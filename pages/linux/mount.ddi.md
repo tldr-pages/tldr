@@ -1,9 +1,7 @@
 # mount.ddi
 
-> Mount Discoverable Disk Images.
-> See also: `systemd-dissect` for other commands relevant to DDIs.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-dissect.html>.
+> This command is an alias of `systemd-dissect`.
 
-- Mount an OS image:
+- View documentation for the original command:
 
-`mount.ddi {{path/to/image.raw}} {{/mnt/image}}`
+`tldr systemd-dissect`
