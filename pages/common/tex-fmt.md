@@ -1,0 +1,16 @@
+# tex-fmt
+
+> Format LaTeX source code.
+> More information: <https://github.com/WGUNDERWOOD/tex-fmt>.
+
+- Format a file, overwriting the original file in-place:
+
+`tex-fmt {{path/to/file.tex}}`
+
+- Check if a file is correctly formatted:
+
+`tex-fmt --check {{path/to/file.tex}}`
+
+- Format a file from `stdin` and print to `stout`:
+
+`cat {{path/to/file.tex}} | tex-fmt --stdin`
