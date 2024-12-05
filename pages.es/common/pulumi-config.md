@@ -21,7 +21,7 @@
 
 - Establece un valor secreto (por ejemplo, la clave API) para una clave de configuración y almacena/muestra como texto cifrado:
 
-`pulumi config set --secret {{clave}} {{S3cr37_valor}}`
+`pulumi config set --secret {{clave}} {{valor_53cr3t0}}`
 
 - Elimina varios valores de configuración de un archivo de configuración especificado:
 
