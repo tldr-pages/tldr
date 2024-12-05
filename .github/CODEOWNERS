@@ -21,6 +21,8 @@
 /.devcontainer/* @kbdharun @sebastiaanspeck
 /.github/workflows/* @sbrl @kbdharun @sebastiaanspeck
 /scripts/* @sebastiaanspeck @kbdharun
+/*.json @kbdharun
+/*.txt @kbdharun
 
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun
 /contributing-guides/style-guide.md @sbrl @kbdharun
