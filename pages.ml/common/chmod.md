@@ -1,7 +1,7 @@
 # chmod
 
 > ഒരു ഫയലിന്റെയോ ഡയറക്ടറിയുടെയോ പ്രവേശന അനുമതികൾ മാറ്റുക.
-> കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/chmod>.
+> കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - ഒരു ഫയൽ കൈവശമുള്ള [u]ser-ന് അത് e[x]ecute ചെയ്യാനുള്ള അവകാശം നൽകുക:
 

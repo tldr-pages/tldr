@@ -1,7 +1,7 @@
 # chmod
 
 > Modifie les droits d'accès d'un fichier ou d'un répertoire.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/chmod>.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Donne les droits d'e[x]écution à l'[u]tilisateur auquel le fichier appartient :
 
