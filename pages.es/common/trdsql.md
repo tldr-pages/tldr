@@ -9,7 +9,7 @@
 
 - Interpreta una lista JSON como tabla y pone objetos dentro como columnas ( ruta/al/archivo.json: `{"lista":[{"edad":"26", "nombre":"Tanaka"}]}`):
 
-`trdsql "SELECT * FROM {{ruta/al/archivo.json}}::.list``
+`trdsql "SELECT * FROM {{ruta/al/archivo.json}}::.list`
 
 - Manipula una consulta SQL compleja con datos de varios archivos CSV cuya primera línea es la cabecera (`-ih`):
 
