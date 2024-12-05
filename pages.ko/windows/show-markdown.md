@@ -10,7 +10,7 @@
 
 - 문자열에서 콘솔로 Markdown 렌더링:
 
-`{{"# Markdown content"}} | Show-Markdown`
+`"{{# Markdown content}}" | Show-Markdown`
 
 - 브라우저에서 Markdown 파일 열기:
 

@@ -30,4 +30,4 @@
 
 - নির্দিষ্ট অবস্থানে সার্টিফিকেট ফাইল ইনস্টল করুন (স্বয়ংক্রিয় সার্টিফিকেট পুনরারম্ভের জন্য উপযুক্ত):
 
-`acme.sh --install-cert -d {{example.com}} --key-file {{/পথ/থেকে/উদাহরণ.কম.কি}} --fullchain-file {{/পথ/থেকে/উদাহরণ.কম.সিআর}} --reloadcmd {{"systemctl force-reload nginx"}}`
+`acme.sh --install-cert -d {{example.com}} --key-file {{/পথ/থেকে/উদাহরণ.কম.কি}} --fullchain-file {{/পথ/থেকে/উদাহরণ.কম.সিআর}} --reloadcmd "{{systemctl force-reload nginx}}"`

@@ -29,4 +29,4 @@
 
 - 서식 태그, 사용자 정의 정렬 및 줄 너비를 사용하여 텍스트 표시:
 
-`rich --print {{"Hello [green on black]Stylized[/green on black] [bold]World[/bold]"}} --{{left|center|right}} --width {{10}}`
+`rich --print "{{Hello [green on black]Stylized[/green on black] [bold]World[/bold]}}" --{{left|center|right}} --width {{10}}`

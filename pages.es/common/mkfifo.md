@@ -9,7 +9,7 @@
 
 - Envía datos a través de un pipe nombrado ejecutando el comando en segundo plano:
 
-`echo {{"Hola Mundo"}} > {{ruta/al/pipe}} &`
+`echo "{{Hola Mundo}}" > {{ruta/al/pipe}} &`
 
 - Recibe datos a través de un pipe nombrado:
 
