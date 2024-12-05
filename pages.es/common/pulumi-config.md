@@ -3,7 +3,7 @@
 > Administra la configuración de una pila Pulumi.
 > Más información: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_config/>.
 
-- Vea la configuración actual en formato JSON:
+- Muestra la configuración actual en formato JSON:
 
 `pulumi config --json`
 
