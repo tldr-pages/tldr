@@ -16,7 +16,7 @@
 
 `podman {{start|stop}} {{nombre_del_contenedor}}`
 
-- Saca una imagen de un registro (Docker Hub predeterminado):
+- Extrae una imagen de un registro (Docker Hub predeterminado):
 
 `podman pull {{imagen}}`
 
