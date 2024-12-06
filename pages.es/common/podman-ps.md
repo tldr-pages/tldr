@@ -27,7 +27,7 @@
 
 `podman ps --all --filter "exited={{code}}"`
 
-- Filtra los contenedores por estado (created, running, removing, paused, exited y dead) se usa el término en inglés:
+- Filtra los contenedores por estado (created, running, removing, paused, exited y dead). Se usa el término en inglés:
 
 `podman ps --filter "status={{estado}}"`
 
