@@ -99,7 +99,7 @@ jobs:
     - name: Attest generated files
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       id: attest
-      uses: actions/attest-build-provenance@v1
+      uses: actions/attest-build-provenance@v2
       continue-on-error: true # prevent failing when no pages are modified
       with:
         subject-path: ${{ env.subject_path }}
