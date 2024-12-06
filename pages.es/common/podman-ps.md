@@ -21,7 +21,7 @@
 
 - Filtra los contenedores que comparten una imagen dada como ancestro:
 
-`podman ps --filter "ancestor={{imagen}}:{{tag}}"`
+`podman ps --filter "ancestor={{imagen}}:{{etiqueta}}"`
 
 - Filtra por código de estado de salida:
 
