@@ -25,7 +25,7 @@
 
 - Ejecuta comando en un nuevo contenedor con los puertos publicados:
 
-`podman run --publish {{puerto_de_anfitrion}}:{{puerto_de_contenedor}} {{imagen:tag}} {{comando}}`
+`podman run --publish {{puerto_del_anfitrion}}:{{puerto_del_contenedor}} {{imagen:tag}} {{comando}}`
 
 - Ejecuta el comando en un nuevo contenedor sobrescribiendo el punto de entrada (entrypoint) de la imagen:
 
