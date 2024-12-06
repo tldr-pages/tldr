@@ -12,7 +12,7 @@
 
 `{{ls}} | wl-copy`
 
-- Copia sólo para pegar una única vez y luego lo limpia:
+- Copia solo para pegar una única vez y luego lo limpia:
 
 `wl-copy --paste-once "{{texto}}"`
 
