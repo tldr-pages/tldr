@@ -1,6 +1,6 @@
 # podman-compose
 
-> Ejecuta y gestiona la definición de contenedor según la especificación de composición (Compose Specification).
+> Ejecuta y gestiona la definición del contenedor según la especificación de composición (Compose Specification).
 > Más información: <https://github.com/containers/podman-compose>.
 
 - Lista todos los contenedores en funcionamiento:
