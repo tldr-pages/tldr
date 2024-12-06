@@ -8,9 +8,9 @@
 
 `fd "{{string|regex}}"`
 
-- Find files that begin with `foo`:
+- Find files that begin with a specific string:
 
-`fd "{{^foo}}"`
+`fd "{{^string}}"`
 
 - Find files with a specific extension:
 
