@@ -1,7 +1,7 @@
 # podman machine
 
 > Crea y gestiona máquinas virtuales ejecutando Podman.
-> Desde la versión 4 o mayor de Podman.
+> Desde la versión 4 o superior de Podman.
 > Más información: <https://docs.podman.io/en/latest/markdown/podman-machine.1.html>.
 
 - Lista máquinas existentes:
