@@ -8,7 +8,7 @@
 
 `nmcli general`
 
-- Muestra el nombre de host del dispositivo actual:
+- Muestra el nombre del host del dispositivo actual:
 
 `nmcli general hostname`
 
