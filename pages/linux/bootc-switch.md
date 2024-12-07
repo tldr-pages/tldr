@@ -11,6 +11,6 @@
 
 `sudo bootc switch --transport containers-storage {{image}}`
 
-- Change OS base to a new container image stored in a tarball:
+- Change the OS base to a new container image stored in a tarball:
 
 `sudo bootc switch --transport oci-archive {{path/to/image.tar.gz}}`
