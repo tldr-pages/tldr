@@ -12,7 +12,7 @@
 
 `nmcli general hostname`
 
-- Cambia el nombre de host del dispositivo actual:
+- Cambia el nombre del host del dispositivo actual:
 
 `sudo nmcli general hostname {{nuevo_nombre}}`
 
