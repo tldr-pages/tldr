@@ -3,7 +3,7 @@
 > Target a new container image reference to boot.
 > More information: <https://containers.github.io/bootc/man/bootc-switch.html>.
 
-- Change OS base to a new container image from a registry:
+- Change the OS base to a new container image from a registry:
 
 `sudo bootc switch {{image}}`
 
