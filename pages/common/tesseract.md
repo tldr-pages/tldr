@@ -17,7 +17,7 @@
 
 - Specify a custom page segmentation mode (default is 3):
 
-`tesseract -psm {{0_to_10}} {{image.png}} {{output}}`
+`tesseract --psm {{0_to_10}} {{image.png}} {{output}}`
 
 - List page segmentation modes and their descriptions:
 
