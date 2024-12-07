@@ -27,6 +27,6 @@
 
 `b2sum --ignore-missing --check --quiet {{pad/naar/bestand.b2}}`
 
-- Controleer een bekende BLAKE2 checksum van een bestand file:
+- Controleer een bekende BLAKE2 checksum van een bestand:
 
 `echo {{bekende_blake2_checksum_van_het_bestand}} {{pad/naar/bestand}} | b2sum --check`
