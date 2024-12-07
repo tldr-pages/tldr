@@ -25,7 +25,7 @@
 
 - Run an executable in the proton environment of a specific game:
 
-`protontricks-launch --appid {{game_appid}} {{path/to/executable.exe}}`
+`protontricks-launch --appid {{appid}} {{path/to/executable.exe}}`
 
 - Display help:
 
