@@ -1,6 +1,7 @@
 # docker context
 
 > Lets you switch between contexts to manage multiple Docker environments.
+> More information: <https://docs.docker.com/reference/cli/docker/context/>.
 
 - Create context using a specific Docker endpoint:
 
