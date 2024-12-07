@@ -43,7 +43,7 @@ jobs:
       - name: Attest copied assets
         if: github.repository == 'tldr-pages/tldr'
         id: attest
-        uses: actions/attest-build-provenance@v1
+        uses: actions/attest-build-provenance@v2
         with:
           subject-path: ${{ env.subject_path }}
 
