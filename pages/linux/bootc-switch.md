@@ -7,7 +7,7 @@
 
 `sudo bootc switch {{image}}`
 
-- Change OS base to a new container image from the local image storage of the root user:
+- Change the OS base to a new container image from the local image storage of the root user:
 
 `sudo bootc switch --transport containers-storage {{image}}`
 
