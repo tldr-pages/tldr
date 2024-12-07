@@ -3,18 +3,18 @@
 > Clean repository source files and binary packages.
 > More information: <https://wiki.gentoo.org/wiki/Eclean>.
 
-- Clean source file directory:
+- Clean the source file directory:
 
 `sudo eclean distfiles`
 
-- Clean binary package directory:
+- Clean the binary package directory:
 
 `sudo eclean packages`
 
-- Clean distfiles of all uninstalled packages, but keep distfiles of installed packages:
+- Clean the distfiles of all uninstalled packages, but keep the distfiles of installed packages:
 
 `sudo eclean --deep --package-names distfiles`
 
-- Clean binary packages of all uninstalled packages, but keep binaries of installed packages:
+- Clean the binary packages of all uninstalled packages, but keep the binaries of installed packages:
 
 `sudo eclean --deep --package-names packages`
