@@ -7,6 +7,6 @@
 
 `nm-online`
 
-- Espera durante `n` segundos por una conexión (30 por defecto):
+- Espera durante `n` segundos por una conexión (30" por defecto):
 
 `nm-online --timeout {{n}}`
