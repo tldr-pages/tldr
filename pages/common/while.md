@@ -10,3 +10,7 @@
 - Execute a command forever once every second:
 
 `while :; do {{command}}; sleep 1; done`
+
+- Execute a command until it returns a non-zero value:
+
+`while {{command}}; do :; done`

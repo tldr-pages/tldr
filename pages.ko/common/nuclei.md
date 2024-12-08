@@ -33,4 +33,4 @@
 
 - 하나 이상의 [t]emplate [c]onditions에 기반한 스캔 실행:
 
-`nuclei -tc {{"contains(tags, 'xss') && contains(tags, 'cve')"}} -u {{https://vulnerable.website}}`
+`nuclei -tc "{{contains(tags, 'xss') && contains(tags, 'cve')}}" -u {{https://vulnerable.website}}`

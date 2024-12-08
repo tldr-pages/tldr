@@ -1,7 +1,7 @@
 # chmod
 
 > Cambia i permessi di accesso di file o directory.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/chmod>.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Dai il permesso di eseguire (x) un file al suo proprietario (u):
 

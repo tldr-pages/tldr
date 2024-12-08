@@ -13,4 +13,4 @@
 
 - Set the wallpaper to a static [c]olor:
 
-`swaybg --color {{"#rrggbb"}}`
+`swaybg --color "{{#rrggbb}}"`
