@@ -22,3 +22,7 @@
 - Execute a `loginctl` operation on a remote host:
 
 `loginctl list-users -H {{hostname}}`
+
+- Log a user out on all of its sessions:
+
+`loginctl terminate-user {{username}}`
