@@ -26,3 +26,7 @@
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
 `sha1sum --ignore-missing --check --quiet {{pad/naar/bestand.sha1}}`
+
+- Controleer een bekende SHA1 checksum van een bestand:
+
+`echo {{bekende_sha1_checksum_van_het_bestand}} {{pad/naar/bestand}} | sha1sum --check`

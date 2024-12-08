@@ -26,3 +26,7 @@
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
 `md5sum --ignore-missing --check --quiet {{pad/naar/bestand.md5}}`
+
+- Controleer een bekende MD5 checksum van een bestand:
+
+`echo {{bekende_md5_checksum_van_het_bestand}} {{pad/naar/bestand}} | md5sum --check`

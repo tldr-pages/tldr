@@ -26,3 +26,7 @@
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
 `sha512sum --ignore-missing --check --quiet {{pad/naar/bestand.sha512}}`
+
+- Controleer een bekende SHA512 checksum van een bestand:
+
+`echo {{bekende_sha512_checksum_van_het_bestand}} {{pad/naar/bestand}} | sha512sum --check`
