@@ -1,4 +1,4 @@
-# npm-list
+# npm list
 
 > Este comando es un alias de `npm ls`.
 
