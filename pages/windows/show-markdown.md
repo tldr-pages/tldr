@@ -10,7 +10,7 @@
 
 - Render markdown to console from string:
 
-`{{"# Markdown content"}} | Show-Markdown`
+`"{{# Markdown content}}" | Show-Markdown`
 
 - Open Markdown file in a browser:
 

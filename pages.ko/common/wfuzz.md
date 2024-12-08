@@ -17,7 +17,7 @@
 
 - 사용자 정의 [H]eader를 사용하여 서브도메인 퍼징, 특정 응답 [c]odes 및 단어 수 숨김. [t]hreads를 100으로 증가시키고 대상 ip/도메인 포함:
 
-`wfuzz -w {{경로/대상/파일}} -H {{"Host: FUZZ.example.com"}} --hc {{301}} --hw {{222}} -t {{100}} {{example.com}}`
+`wfuzz -w {{경로/대상/파일}} -H "{{Host: FUZZ.example.com}}" --hc {{301}} --hw {{222}} -t {{100}} {{example.com}}`
 
 - 파일에서 각 FUZ[z] 키워드에 대한 사용자 명과 비밀번호 목록을 사용하여 기본 인증 브루트포스, 실패한 시도에 대한 응답 [c]odes 숨김:
 
@@ -25,7 +25,7 @@
 
 - 커맨드라인에서 직접 워드리스트 제공 및 POST 요청을 사용하여 퍼징:
 
-`wfuzz -z list,{{word1-word2-...}} {{https://api.example.com}} -d {{"id=FUZZ&showwallet=true"}}`
+`wfuzz -z list,{{word1-word2-...}} {{https://api.example.com}} -d "{{id=FUZZ&showwallet=true}}"`
 
 - 파일에서 워드리스트를 제공하며 base64 및 md5 인코딩 적용 (`wfuzz -e encoders`로 사용 가능한 모든 인코더 나열):
 
