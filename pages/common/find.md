@@ -33,4 +33,4 @@
 
 - Find empty files (0 byte) or directories and delete them verbosely:
 
-`find {{root_path}} -type {{f,d}} -empty -delete -print`
+`find {{root_path}} -type '{{f,d}}' -empty -delete -print`
