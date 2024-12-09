@@ -17,7 +17,7 @@
 
 - Reemplaza una máquina existente (requiere archivarla):
 
-`qm create {{100}} --archive {{ruta/a/archivo_de_respaldo.tar}} --force 1`
+`qm create {{100}} --archive {{ruta/al/archivo_de_respaldo.tar}} --force 1`
 
 - Especifica un guión (script) a ejecutar automáticamente dependiendo del estado de la máquina virtual:
 
