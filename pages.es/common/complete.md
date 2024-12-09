@@ -11,6 +11,6 @@
 
 `complete -C {{comando_de_autocompletado}} {{comando}}`
 
-- Aplica auto completado sin agregar espacio a la palabra completada:
+- Aplica autocompletado sin agregar espacio a la palabra completada:
 
 `complete -o nospace -F {{función}} {{comando}}`
