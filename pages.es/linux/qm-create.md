@@ -7,7 +7,7 @@
 
 `qm create {{100}}`
 
-- Inicia automáticamente la máquina después de la creación:
+- Inicia automáticamente la máquina después de su creación:
 
 `qm create {{100}} --start 1`
 
