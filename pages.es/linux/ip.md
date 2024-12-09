@@ -1,6 +1,6 @@
 # ip
 
-> Muestra/Manipula enrutamiento, dispositivos, políticas de enrutamiento y túneles.
+> Muestra/manipula enrutamientos, dispositivos, políticas de enrutamiento y túneles.
 > Algunos subcomandados como `address` tienen su propia documentación de uso.
 > Más información: <https://www.manned.org/ip.8>.
 
