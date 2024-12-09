@@ -11,7 +11,7 @@
 
 `qm create {{100}} --start 1`
 
-- Especifica el tipo de sistema operativo en la máquina:
+- Especifica el tipo de sistema operativo en la máquina virtual:
 
 `qm create {{100}} --ostype {{win10}}`
 
