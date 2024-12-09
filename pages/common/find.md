@@ -9,7 +9,7 @@
 
 - Find files matching multiple path/name patterns:
 
-`find {{root_path}} -path '{{**/path/**/*.ext}}' -or -name '{{*pattern*}}'`
+`find {{root_path}} -path '{{*/path/*/*.ext}}' -or -name '{{*pattern*}}'`
 
 - Find directories matching a given name, in case-insensitive mode:
 
@@ -33,4 +33,4 @@
 
 - Find empty files (0 byte) or directories and delete them verbosely:
 
-`find {{root_path}} -type {{f|d}} -empty -delete -print`
+`find {{root_path}} -type {{f,d}} -empty -delete -print`
