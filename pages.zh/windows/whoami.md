@@ -1,6 +1,6 @@
 # whoami
 
-> 显示有关当前用户的详细信息。
+> 显示当前用户的详细信息。
 > 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/whoami>.
 
 - 显示当前用户的用户名：
@@ -19,6 +19,10 @@
 
 `whoami /upn`
 
-- 显示当前用户的登录 id：
+- 显示当前用户的登录 ID：
 
 `whoami /logonid`
+
+- 显示当前用户的所有信息：
+
+`whoami /all`
