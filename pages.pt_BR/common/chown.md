@@ -5,15 +5,19 @@
 
 - Muda o usuário que é dono de um arquivo ou diretório:
 
-`chown {{usuario}} {{caminho/para/arquivo_ou_diretorio}}`
+`chown {{usuario}} {{caminho/para/arquivo_ou_diretório}}`
 
 - Muda o usuário e grupo que são donos de um arquivo/diretório:
 
-`chown {{usuario}}:{{grupo}} {{caminho/para/arquivo_ou_diretorio}}`
+`chown {{usuario}}:{{grupo}} {{caminho/para/arquivo_ou_diretório}}`
+
+- Muda o usuário dono e o grupo para que ambos tenha o nome `usuario`:
+
+`chown {{usuario}}: {{caminho/para/arquivo_ou_diretorio}}`
 
 - Recursivamente muda o dono de um diretório e seu conteúdo:
 
-`chown -R {{usuario}} {{caminho/para/diretorio}}`
+`chown -R {{usuario}} {{caminho/para/diretório}}`
 
 - Muda o dono de um link simbólico:
 
@@ -21,4 +25,4 @@
 
 - Muda o dono de um arquivo/diretório para ficar igual a um arquivo de referência:
 
-`chown --reference {{caminho/para/arquivo_de_referencia}} {{caminho/para/arquivo_ou_diretorio}}`
+`chown --reference {{caminho/para/arquivo_de_referência}} {{caminho/para/arquivo_ou_diretório}}`
