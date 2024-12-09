@@ -13,4 +13,4 @@
 
 - Obtiene los valores de configuración de la instantánea (snapshot) dada:
 
-`qm config --snapshot {{nombre_de_instantánea}} {{id_mv}}`
+`qm config --snapshot {{nombre_de_la_instantánea}} {{id_mv}}`
