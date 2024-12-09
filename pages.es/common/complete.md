@@ -7,7 +7,7 @@
 
 `complete -F {{función}} {{comando}}`
 
-- Aplica un comando que realiza auto completado a otro comando:
+- Aplica un comando que realiza autocompletado a otro comando:
 
 `complete -C {{comando_de_autocompletado}} {{comando}}`
 
