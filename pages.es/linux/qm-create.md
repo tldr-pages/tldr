@@ -21,4 +21,4 @@
 
 - Especifica un guión (script) a ejecutar automáticamente dependiendo del estado de la máquina virtual:
 
-`qm create {{100}} --hookscript {{ruta/a/guión.pl}}`
+`qm create {{100}} --hookscript {{ruta/al/guión.pl}}`
