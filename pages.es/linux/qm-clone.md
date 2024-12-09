@@ -11,7 +11,7 @@
 
 `qm copy {{id_mv}} {{id_nueva_mv}} --name {{nombre}}`
 
-- Copia una máquina virtual usando un descripción específica:
+- Copia una máquina virtual usando una descripción específica:
 
 `qm copy {{id_mv}} {{id_nueva_mv}} --description {{descripción}}`
 
