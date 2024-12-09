@@ -21,4 +21,4 @@
 
 - Cambia o reemplaza una entrada ARP para la dirección IP vecina a `eth0`:
 
-`sudo ip neighbour {{change|replace}} {{dirección_ip}} lladdr {{new_mac_address}} dev {{eth0}}`
+`sudo ip neighbour {{change|replace}} {{dirección_ip}} lladdr {{nueva_mac_address}} dev {{eth0}}`
