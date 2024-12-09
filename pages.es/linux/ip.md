@@ -12,7 +12,7 @@
 
 `ip -brief address`
 
-- Lista las interfaces con información breve de capa de enlace:
+- Lista las interfaces con información breve dada una capa de enlace:
 
 `ip -brief link`
 
