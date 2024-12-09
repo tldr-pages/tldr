@@ -3,7 +3,7 @@
 > Autocompleta argumentos para comandos de la interfaz interactiva (shell).
 > Más información: <https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html>.
 
-- Aplica una función que realiza auto completado a un comando:
+- Aplica una función que realiza autocompletado a un comando:
 
 `complete -F {{función}} {{comando}}`
 
