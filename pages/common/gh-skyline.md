@@ -34,4 +34,4 @@
 
 - Display [h]elp:
 
-`gh skyline --help
+`gh skyline --help`
