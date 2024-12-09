@@ -28,7 +28,7 @@
 
 `ip link set {{interfaz}} {{up|down}}`
 
-- Agrega/Borra una dirección IP de una interfaz:
+- Agrega/borra una dirección IP de una interfaz:
 
 `ip addr add/del {{ip}}/{{mask}} dev {{interfaz}}`
 
