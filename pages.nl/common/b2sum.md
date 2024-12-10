@@ -1,7 +1,7 @@
 # b2sum
 
 > Bereken BLAKE2 cryptografische checksums.
-> Meer informatie: <https://www.gnu.org/software/coreutils/b2sum>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html>.
 
 - Bereken de BLAKE2 checksum voor een of meerdere bestanden:
 
