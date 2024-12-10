@@ -1,6 +1,6 @@
 # qm delsnapshot
 
-> Elimina instantáneas de máquinas virtuales.
+> Elimina instantáneas (snapshots) de máquinas virtuales.
 > Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Elimina una instantánea:
