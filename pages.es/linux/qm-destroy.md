@@ -15,6 +15,6 @@
 
 `qm destroy {{id_mv}} --purge`
 
-- Destruye una máquina virtual específica ignorando las cerraduras (locks) y forzando la destrucción:
+- Destruye una máquina virtual específica ignorando las cerraduras (locks) y forzando su destrucción:
 
 `sudo qm destroy {{id_mv}} --skiplock`
