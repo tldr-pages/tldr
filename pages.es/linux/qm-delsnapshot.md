@@ -9,4 +9,4 @@
 
 - Elimina una instantánea de un archivo de configuración (incluso si la eliminación del disco de la instantánea falla):
 
-`qm delsnapshot {{id_mv}} {{nombre_de_instantánea}} --force 1`
+`qm delsnapshot {{id_mv}} {{nombre_de_la_instantánea}} --force 1`
