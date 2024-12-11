@@ -5,7 +5,7 @@
 
 - Add tags to a file:
 
-`tag --add {{tagname1,tagname2}} {{path/to/file}}`
+`tag --add {{tagname1,tagname2,...}} {{path/to/file}}`
 
 - Remove a tag:
 
