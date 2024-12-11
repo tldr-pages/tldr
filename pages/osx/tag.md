@@ -3,7 +3,7 @@
 > Edit tags on Mac OS X files (10.9 Mavericks and above).
 > More information: <https://github.com/jdberry/tag/>.
 
-- Add a tag to a file:
+- Add tags to a file:
 
 `tag --add {{tagname1,tagname2}} {{path/to/file}}`
 
