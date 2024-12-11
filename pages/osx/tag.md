@@ -5,11 +5,11 @@
 
 - Add tags to a file:
 
-`tag --add {{tagname1,tagname2,...}} {{path/to/file}}`
+`tag --add {{tag_name1,tag_name2,...}} {{path/to/file}}`
 
 - Remove a tag:
 
-`tag --remove {{tagname}} {{path/to/file}`
+`tag --remove {{tag_name}} {{path/to/file}`
 
 - Remove all tags from a file:
 
@@ -17,4 +17,4 @@
 
 - Show all files with a given tag:
 
-`tag --match {{tagname}}`
+`tag --match {{tag_name}}`
