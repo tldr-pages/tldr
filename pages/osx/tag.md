@@ -13,7 +13,7 @@
 
 - Remove all tags from a file:
 
-`tag --remove \* {{file}}`
+`tag --remove \* {{path/to/file}}`
 
 - Show all files with a given tag:
 
