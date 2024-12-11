@@ -1,7 +1,7 @@
 # zenity
 
 > Muestra diálogos desde guiones de la línea de comandos.
-> Regresa los valores proveídos por el usuario o 1 si hay error.
+> Regresa los valores suministrados por el usuario o 1 si hay error.
 > Más información: <https://manned.org/zenity>.
 
 - Muestra el diálogo predeterminado de pregunta:
