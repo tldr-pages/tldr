@@ -23,6 +23,6 @@
 
 `loginctl list-users -H {{hostname}}`
 
-- Log a user out on all of its sessions:
+- Log a user out on all of their sessions:
 
 `loginctl terminate-user {{username}}`
