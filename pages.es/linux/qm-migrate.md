@@ -16,7 +16,7 @@
 
 `qm migrate {{id_mv}} {{destino}} --force true`
 
-- Utiliza la migración online / en vivo si una máquina virtual está ejecutándose:
+- Utiliza la migración en vivo (online) si una máquina virtual está ejecutándose:
 
 `qm migrate {{id_mv}} {{destino}} --online true`
 
