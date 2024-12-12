@@ -5,4 +5,4 @@
 
 - Create a password hash for GRUB 2 using PBKDF2:
 
-`sudo grub2-mkpasswd-pbkdf2 -c {{number}} -s {{mySaltValue}}`
+`sudo grub2_mkpasswd_pbkdf2 -c {{number}} -s {{salt_value}}`
