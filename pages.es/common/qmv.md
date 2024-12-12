@@ -3,7 +3,7 @@
 > Mueve archivos y directorios usando el editor de texto predeterminado para definir los nombres de archivos.
 > Más información: <https://www.nongnu.org/renameutils/>.
 
-- Mueve un solo archivo (abrir un editor con el nombre de archivo fuente a la izquierda y el nombre de archivo de destino a la derecha):
+- Mueve un solo archivo (abre un editor con el nombre de archivo fuente a la izquierda y el nombre de archivo de destino a la derecha):
 
 `qmv {{archivo_original}}`
 
