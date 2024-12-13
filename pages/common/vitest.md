@@ -1,6 +1,6 @@
 # vitest
 
-> Vitest is a fast, modern testing framework built for Vite, offering seamless integration, TypeScript support, and a Jest-compatible API for unit, integration, and snapshot testing.
+> Fast, modern testing framework built for Vite, offering seamless integration, TypeScript support, and a Jest-compatible API for unit, integration, and snapshot testing.
 > More information: <https://vitest.dev/guide>.
 
 - Run all available tests:
