@@ -24,7 +24,7 @@
 
 `obs --startstreaming`
 
-- Se Minimiza a la bandeja del sistema al abrirse:
+- Se minimiza a la bandeja del sistema al abrirse:
 
 `obs --minimize-to-tray`
 
