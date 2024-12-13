@@ -7,7 +7,7 @@
 
 `glow`
 
-- Muestra un archivo Markdown en la terminal:
+- Muestra un archivo en formato Markdown en la terminal:
 
 `glow {{ruta/al/archivo}}`
 
