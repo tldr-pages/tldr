@@ -1,6 +1,6 @@
 # glow
 
-> Muestra Markdown en la terminal.
+> Muestra archivos en formato Markdown en la terminal.
 > Más información: <https://github.com/charmbracelet/glow>.
 
 - Ejecuta glow y selecciona un archivo para ver:
