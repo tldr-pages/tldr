@@ -19,6 +19,6 @@
 
 `glow {{https://example.com/archivo.md}}`
 
-- Muestra un README de GitHub/GitLab:
+- Muestra el archivo README de un repositorio de GitHub/GitLab:
 
 `glow {{github.com/owner/repository}}`
