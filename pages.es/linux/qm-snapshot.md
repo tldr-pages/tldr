@@ -13,4 +13,4 @@
 
 - Crea una instantánea incluyendo el vmstate:
 
-`qm snapshot {{id_mv}} {{nombre_de_la_instantánea}} --description {{description}} --vmstate 1`
+`qm snapshot {{id_mv}} {{nombre_de_la_instantánea}} --description {{descripción}} --vmstate 1`
