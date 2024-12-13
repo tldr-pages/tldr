@@ -17,7 +17,7 @@
 
 - Muestra un archivo desde una URL:
 
-`glow {{https://example.com/file.md}}`
+`glow {{https://example.com/archivo.md}}`
 
 - Muestra un README de GitHub/GitLab:
 
