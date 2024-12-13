@@ -11,7 +11,7 @@
 
 `glow {{ruta/al/archivo}}`
 
-- Muestra un archivo Markdown usando un paginador:
+- Muestra un archivo en formato Markdown usando un paginador:
 
 `glow -p {{ruta/al/archivo}}`
 
