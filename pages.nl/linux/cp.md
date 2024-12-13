@@ -1,7 +1,7 @@
 # cp
 
 > Kopieer bestanden en mappen.
-> Meer informatie: <https://www.gnu.org/software/coreutils/cp>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Kopieer een bestand naar een andere locatie:
 
