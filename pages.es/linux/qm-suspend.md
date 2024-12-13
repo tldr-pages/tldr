@@ -1,7 +1,7 @@
 # qm suspend
 
 > Suspende una máquina virtual (MV) en el entorno virtual Proxmox (PVE).
-> Usa las banderas de `--skiplock`y `--skiplockstorage`con precaución, ya que pueden conducir a la corrupción de datos en ciertas situaciones.
+> Usa las banderas de `--skiplock` y `--skiplockstorage` con precaución, ya que pueden conducir a la corrupción de datos en ciertas situaciones.
 > Más información: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Suspende una máquina virtual por ID:
