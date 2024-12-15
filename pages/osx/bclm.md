@@ -5,7 +5,7 @@
 
 - Set the charge limit to 80% (battery charge level may be slightly lower than set value for Intel machines):
 
-`sudo bclm write 77`
+`sudo bclm write {{77}}`
 
 - Read the current charge limit:
 
