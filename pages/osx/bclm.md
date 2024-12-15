@@ -15,6 +15,6 @@
 
 `sudo bclm persist`
 
-- Remove the persisting charge limit:
+- Remove the persistent charge limit:
 
 `sudo bclm unpersist`
