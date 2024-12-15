@@ -20,6 +20,6 @@
 
 `btop --low-color`
 
-- Set the update rate in milliseconds:
+- Set the update rate to 500 milliseconds:
 
 `btop --update {{500}}`
