@@ -11,7 +11,7 @@
 
 `bclm read`
 
-- Keep the charge limit after reboot/smc reset:
+- Keep the charge limit after rebooting/smc reset:
 
 `sudo bclm persist`
 
