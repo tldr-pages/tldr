@@ -1,6 +1,6 @@
 # AutoRaise
 
-> Adds Focus Follows Mouse to Macos.
+> Add Focus-Follows-Mouse to MacOS.
 > Generates binary & app. standard options are available as standalone release.
 > Add the binary or app to login item to start on boot.
 > More information: <https://github.com/sbmpost/AutoRaise>.
