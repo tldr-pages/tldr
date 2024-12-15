@@ -7,7 +7,7 @@
 
 `gallery-dl "{{url}}"`
 
-- Save images to a specific directory/{{relevant_folder}}, use --directory to avoid that:
+- Save images to a specific directory:
 
 `gallery-dl --destination {{path/to/directory}} "{{url}}"`
 
