@@ -9,7 +9,7 @@
 
 - Save images to a specific directory/{{relevant_folder}}, use --directory to avoid that:
 
-`gallery-dl --destination "{{path/to/directory}}" "{{url}}"`
+`gallery-dl --destination {{path/to/directory}} "{{url}}"`
 
 - Retrieve pre-existing cookies from your web browser (useful for sites that require login):
 
