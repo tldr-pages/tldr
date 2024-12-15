@@ -12,6 +12,7 @@
 `tag --remove {{nombre_etiqueta}} {{ruta/al/archivo}}`
 
 - Elimina todas las etiquetas de un archivo:
+
 `tag --remove \* {{ruta/al/archivo}}`
 
 - Muestra todos los archivos con una etiqueta determinada:
