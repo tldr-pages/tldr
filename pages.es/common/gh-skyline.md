@@ -10,7 +10,7 @@
 
 - Genera una línea del horizonte para un [u]suario y un año [y] específicos:
 
-`gh skyline --user {{nombre_de_usuario}} --year {{año}}``
+`gh skyline --user {{nombre_de_usuario}} --year {{año}}`
 
 - Genera una línea del horizonte para un intervalo de [a]ños:
 
