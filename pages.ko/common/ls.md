@@ -1,7 +1,7 @@
 # ls
 
 > 폴더의 내용물을 리스팅합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/ls>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - 한줄에 하나의 파일씩 나열:
 
