@@ -1,6 +1,6 @@
 # pdftoppm
 
-> Convierte páginas de documentos PDF a Pixmap portátil (formatos de imagen).
+> Convierte páginas de documentos PDF al formato de imagen Pixmap portátil.
 > Más información: <https://manned.org/pdftoppm>.
 
 - Especifica el rango de páginas a convertir (N es la primera página, M es la última página):
