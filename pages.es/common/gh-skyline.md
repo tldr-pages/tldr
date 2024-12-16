@@ -24,7 +24,7 @@
 
 `gh skyline --debug`
 
-- Genera una línea del horizonte y especifique la ruta del archivo de salida:
+- Genera una línea del horizonte y especifica la ruta del archivo de salida:
 
 `gh skyline --output {{ruta/al/archivo_salida.stl}}`
 
