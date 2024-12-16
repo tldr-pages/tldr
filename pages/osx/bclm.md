@@ -3,7 +3,7 @@
 > Set a custom charge limit on MacBooks.
 > More information: <https://github.com/zackelia/bclme>.
 
-- Set the charge limit to 80% (battery charge level may be slightly lower than set value for Intel machines):
+- Set the charge limit to about 80% (for Intel machines, the battery charge level may be slightly lower than the set value):
 
 `sudo bclm write {{77}}`
 
