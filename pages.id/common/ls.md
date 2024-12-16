@@ -1,7 +1,7 @@
 # ls
 
 > Tampilkan daftar konten pada direktori.
-> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/ls>.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Tampilkan daftar isi berkas dengan satu item tiap baris:
 

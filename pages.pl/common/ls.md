@@ -1,7 +1,7 @@
 # ls
 
 > Wypisz zawartość katalogu.
-> Więcej informacji: <https://www.gnu.org/software/coreutils/ls>.
+> Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Wypisz po jednym pliku w linijce:
 
