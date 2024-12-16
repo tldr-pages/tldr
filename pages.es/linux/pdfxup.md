@@ -1,6 +1,6 @@
 # pdfxup
 
-> N-up páginas PDF .
+> N-up páginas PDF.
 > N-upping significa poner múltiples páginas en una página escalando y rotándolas en una cuadrícula.
 > Más información: <https://ctan.org/pkg/pdfxup>.
 
