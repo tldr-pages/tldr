@@ -1,6 +1,6 @@
 # AutoRaise
 
-> Add Focus-Follows-Mouse to MacOS.
+> Automatically raise and focus on a window when hovering over it with the mouse.
 > More information: <https://github.com/sbmpost/AutoRaise>.
 
 - Run AutoRaise in the background:
