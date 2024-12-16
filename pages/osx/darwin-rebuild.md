@@ -1,6 +1,6 @@
 # darwin-rebuild
 
-> A command for rebuilding and switching to a Nix-based Darwin (macOS) system configuration.
+> Rebuild and switch to a Nix-based Darwin (macOS) system configuration.
 > More information: <https://github.com/LnL7/nix-darwin>.
 
 - Rebuild and switch to the specified Darwin configuration:
