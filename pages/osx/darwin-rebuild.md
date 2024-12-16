@@ -11,6 +11,6 @@
 
 `darwin-rebuild build --flake {{path/to/flake}}`
 
-- Show available commands and options:
+- Display help:
 
 `darwin-rebuild --help`
