@@ -1,6 +1,6 @@
 # pgrep
 
-> Encuentra o envía señal a procesos por nombre.
+> Encuentra o envía una señal a procesos por nombre.
 > Más información: <https://www.manned.org/pgrep>.
 
 - Regresa PIDs de cualquier proceso de ejecución con una cadena de comando que coincida:
