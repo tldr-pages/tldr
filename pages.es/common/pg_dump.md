@@ -19,7 +19,7 @@
 
 `pg_dump -Fc {{nombre_base_de_datos}} > {{archivo_resultado.dump}}`
 
-- Recupera solo datos de bases de datos en un archivo guión-SQL:
+- Recupera solo datos de bases de datos en un archivo script-SQL:
 
 `pg_dump -a {{nombre_base_de_datos}} > {{ruta/al/archivo_resultado.sql}}`
 
