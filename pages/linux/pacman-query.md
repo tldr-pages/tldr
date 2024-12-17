@@ -35,4 +35,3 @@
 - List outdated packages:
 
 `pacman -Qu`
-
