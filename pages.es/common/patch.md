@@ -12,7 +12,7 @@
 
 `patch {{ruta/al/archivo}} < {{parche.diff}}`
 
-- Parcha un archivo escribiendo el resultado a un archivo diferente:
+- Emparcha un archivo escribiendo el resultado a un archivo diferente:
 
 `patch {{ruta/al/archivo_de_entrada}} -o {{ruta/al/archivo_resultado}} < {{parche.diff}}`
 
