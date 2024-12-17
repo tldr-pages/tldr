@@ -1,7 +1,7 @@
 # echo
 
 > Отобразить заданные аргументы.
-> Больше информации: <https://www.gnu.org/software/coreutils/echo>.
+> Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Отобразить текстовое сообщение. Примечание: кавычки необязательны:
 

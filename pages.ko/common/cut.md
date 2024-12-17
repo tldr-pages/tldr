@@ -1,7 +1,7 @@
 # cut
 
 > `stdin` 혹은 파일에서 출력 필드를 자른다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/cut>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - `stdin`의 각 라인에 첫번째 16개의 문자를 자르기:
 

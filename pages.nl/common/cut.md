@@ -1,7 +1,7 @@
 # cut
 
 > Snij velden eruit vanuit `stdin` of bestanden.
-> Meer informatie: <https://www.gnu.org/software/coreutils/cut>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - Toon een specifiek karakter/veldbereik voor iedere regel:
 

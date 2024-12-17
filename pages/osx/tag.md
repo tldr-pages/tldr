@@ -9,7 +9,7 @@
 
 - Remove a tag:
 
-`tag --remove {{tag_name}} {{path/to/file}`
+`tag --remove {{tag_name}} {{path/to/file}}`
 
 - Remove all tags from a file:
 

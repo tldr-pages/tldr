@@ -1,7 +1,7 @@
 # cut
 
 > Вырезать поля из стандартного ввода или файлов.
-> Больше информации: <https://www.gnu.org/software/coreutils/cut>.
+> Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - Вывести указанный диапазон символов/полей каждой строки (`--characters|fields 1|1,10|1-10|1-|-10` далее обозначается как `диапазон`):
 
