@@ -36,6 +36,3 @@
 
 `pacman -Qu`
 
-- Display help:
-
-`pacman -Q --help`
