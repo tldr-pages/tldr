@@ -1,6 +1,6 @@
 # patch
 
-> Parcha un archivo (o archivos) con un archivo diff.
+> Emparcha un archivo (o archivos) con un archivo diff.
 > Ten en cuenta que los archivos diff deben ser generados por el comando `diff`.
 > Más información: <https://manned.org/patch>.
 
