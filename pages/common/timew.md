@@ -3,22 +3,30 @@
 > A time tracking tool used to measure the duration of activities.
 > More information: <https://timewarrior.net/docs>.
 
-- Start a new stopwatch, giving a tag name to the activity being tracked:
+- Start tracking an activity:
+
+`timew start`
+
+- Tag current activity:
+
+`timew tag {{activity_tag}}`
+
+- Start and tag a new activity being tracked:
 
 `timew start {{activity_tag}}`
 
-- View running stopwatches:
-
-`timew`
-
-- Stop the stopwatch with a given tag name:
-
-`timew stop {{activity_tag}}`
-
-- Stop all running stopwatches:
+- Stop current activity:
 
 `timew stop`
 
-- View tracked items:
+- Track an activity in the past:
+
+`timew track {{start_time} - {{end_time}} {{activity_tag}}`
+
+- View tracked items of the day:
 
 `timew summary`
+
+- View report for last day, week, current month etc:
+
+`timew summary :{{today|yesterday|week|lastweek|month|lastmonth|year|lastyear}}`
