@@ -7,24 +7,24 @@
 
 - Mark a package as implicitly installed:
 
-`sudo pacman --database --asdeps {{package}}`
+`sudo pacman --D --asdeps {{package}}`
 
 - Mark a package as explicitly installed:
 
-`sudo pacman --database --asexplicit {{package}}`
+`sudo pacman --D --asexplicit {{package}}`
 
 - Check that all the package dependencies are installed:
 
-`pacman --database --check`
+`pacman --D --check`
 
 - Check the repositories to ensure all specified dependencies are available:
 
-`pacman --database --check --check`
+`pacman --D --check --check`
 
 - Display only error messages:
 
-`pacman --database --check --quiet`
+`pacman --D --check --quiet`
 
 - Display help:
 
-`pacman --database --help`
+`pacman --D --help`
