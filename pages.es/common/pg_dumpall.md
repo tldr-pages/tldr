@@ -19,6 +19,6 @@
 
 `pg_dumpall {{-a|--data-only}} > {{ruta/al/archivo.sql}}`
 
-- Vuelca solo el esquema (definiciones de datos) en un archivo guión-SQL:
+- Vuelca solo el esquema (definiciones de datos) en un archivo script-SQL:
 
 `pg_dumpall -s > {{archivo_resultado.sql}}`
