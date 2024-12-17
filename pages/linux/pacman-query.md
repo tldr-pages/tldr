@@ -6,32 +6,36 @@
 
 - List installed packages and versions:
 
-`pacman --query`
+`pacman -Q`
 
 - List only packages and versions that were explicitly installed:
 
-`pacman --query --explicit`
+`pacman -Qe`
 
 - Find which package owns a file:
 
-`pacman --query --owns {{filename}}`
+`pacman -Qo {{filename}}`
 
 - Display information about an installed package:
 
-`pacman --query --info {{package}}`
+`pacman -Qi {{package}}`
 
 - List files owned by a package:
 
-`pacman --query --list {{package}}`
+`pacman -Ql {{package}}`
 
 - List orphan packages (installed as dependencies but not required by any package):
 
-`pacman --query --unrequired --deps --quiet`
+`pacman -Qdtq`
 
 - List installed packages not found in the repositories:
 
-`pacman --query --foreign`
+`pacman -Qm`
 
 - List outdated packages:
 
-`pacman --query --upgrades`
+`pacman -Qu`
+
+- Display help:
+
+`pacman -Q --help`
