@@ -3,7 +3,7 @@
 > Extrae una base de datos PostgreSQL en un archivo de script u otro archivo de almacenamiento.
 > Más información: <https://www.postgresql.org/docs/current/app-pgdump.html>.
 
-- Vuelca la base de datos en un archivo guión-SQL:
+- Vuelca la base de datos en un archivo script-SQL:
 
 `pg_dump {{nombre_base_de_datos}} > {{archivo_resultado.sql}}`
 
