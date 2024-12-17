@@ -15,7 +15,7 @@
 
 `pg_dumpall -h {{equipo}} -p {{puerto}} > {{archivo_resultado.sql}}`
 
-- Recupera sólo datos de las bases de datos en un archivo guión-SQL:
+- Recupera solo datos de las bases de datos en un archivo script-SQL:
 
 `pg_dumpall {{-a|--data-only}} > {{ruta/al/archivo.sql}}`
 
