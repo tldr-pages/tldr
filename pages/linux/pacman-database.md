@@ -7,24 +7,24 @@
 
 - Mark a package as implicitly installed:
 
-`sudo pacman --D --asdeps {{package}}`
+`sudo pacman -D --asdeps {{package}}`
 
 - Mark a package as explicitly installed:
 
-`sudo pacman --D --asexplicit {{package}}`
+`sudo pacman -D --asexplicit {{package}}`
 
 - Check that all the package dependencies are installed:
 
-`pacman --D --check`
+`pacman -Dk`
 
 - Check the repositories to ensure all specified dependencies are available:
 
-`pacman --D --check --check`
+`pacman -Dkk`
 
 - Display only error messages:
 
-`pacman --D --check --quiet`
+`pacman -Dkq`
 
 - Display help:
 
-`pacman --D --help`
+`pacman -D --help`
