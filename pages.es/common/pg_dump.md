@@ -23,6 +23,6 @@
 
 `pg_dump -a {{nombre_base_de_datos}} > {{ruta/al/archivo_resultado.sql}}`
 
-- Vuelca solo el esquema (definiciones de datos) en un archivo guión-SQL:
+- Vuelca solo el esquema (definiciones de datos) en un archivo script-SQL:
 
 `pg_dump -s {{nombre_base_de_datos}} > {{ruta/al/archivo_resultado.sql}}`
