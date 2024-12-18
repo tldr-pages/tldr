@@ -24,11 +24,11 @@
 
 `pacman -Ql {{package}}`
 
-- List orphan packages (installed as [d]ependencies but unrequired by any package without errors displayed):
+- List orphan packages (installed as [d]ependencies but unrequired ([t]) by any package without errors displayed ([q]):
 
 `pacman -Qdtq`
 
-- List installed packages not found in the repositories:
+- List installed packages foreign ([m]) to the repository database:
 
 `pacman -Qm`
 
