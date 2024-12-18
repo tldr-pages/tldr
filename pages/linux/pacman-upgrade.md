@@ -16,11 +16,11 @@
 
 `sudo pacman -U --overwrite {{path/to/file}} {{path/to/package.pkg.tar.zst}}`
 
-- Install a package, skipping the dependency version checks:
+- Install a package, skipping the dependency [(d)] version checks:
 
 `sudo pacman -Ud {{path/to/package.pkg.tar.zst}}`
 
-- List packages that would be affected (does not install any packages):
+- List packages ([p]) that would be affected by upgrade (does not install any packages):
 
 `pacman -Up {{path/to/package.pkg.tar.zst}}`
 
