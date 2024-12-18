@@ -21,7 +21,7 @@
 
 `pacman -Dkk`
 
-- Chec[k] and display in [q]uiet mode (no error messages displayed):
+- Chec[k] and display in [q]uiet mode (only error messages are displayed):
 
 `pacman -Dkq`
 
