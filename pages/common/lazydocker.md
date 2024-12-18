@@ -15,14 +15,14 @@
 
 `lazydocker --debug`
 
-- Display help with available flags:
-
-`lazydocker --help`
-
 - Specify an alternate Docker Compose file:
 
 `lazydocker --file {{path/to/docker-compose.yml}}`
 
-- Display the program version:
+- Display help with available flags:
+
+`lazydocker --help`
+
+- Display version:
 
 `lazydocker --version`
