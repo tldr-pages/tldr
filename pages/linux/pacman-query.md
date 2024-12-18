@@ -4,7 +4,7 @@
 > See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 
-- List installed packages and versions:
+- [Q]uery the local package database and list installed packages and versions:
 
 `pacman -Q`
 
