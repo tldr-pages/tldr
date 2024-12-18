@@ -7,7 +7,7 @@
 
 `speedtest-rs`
 
-- Display a list of speedtest.net servers sorted by distance:
+- Display a list of `speedtest.net` servers sorted by distance:
 
 `speedtest-rs --list`
 
