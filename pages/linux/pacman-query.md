@@ -24,7 +24,7 @@
 
 `pacman -Ql {{package}}`
 
-- List orphan packages (installed as [d]ependencies but unrequired ([t]) by any package and print in [q]uiet mode (no error messages displayed)):
+- List orphan packages (installed as [d]ependencies but unrequired ([t]) by any package and print in [q]uiet mode (only package name is displayed)):
 
 `pacman -Qdtq`
 
