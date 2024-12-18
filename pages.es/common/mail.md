@@ -12,7 +12,7 @@
 
 `mail --subject="{{título del correo electrónico}}" {{para_usuario@example.com}} --cc="{{cc_correo_electrónico}}"`
 
-- Envía un correo electrónico que contenga el contenido de un archivo:
+- Envía un correo electrónico que contiene el contenido de un archivo:
 
 `mail --subject="{{$HOSTNAME archivo.txt}}" {{para_usuario@example.com}} < {{ruta/al/archivo.txt}}`
 
