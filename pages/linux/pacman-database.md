@@ -13,7 +13,7 @@
 
 `sudo pacman -D --asexplicit {{package}}`
 
-- Check ([k]) that all the package dependencies are installed:
+- Chec[k] that all the package dependencies are installed:
 
 `pacman -Dk`
 
@@ -21,7 +21,7 @@
 
 `pacman -Dkk`
 
-- Check ([k]) and display in quiet ([q]) mode (no error message displayed):
+- Chec[k] and display in quiet ([q]) mode (no error message displayed):
 
 `pacman -Dkq`
 
