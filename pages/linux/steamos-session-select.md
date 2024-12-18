@@ -9,7 +9,7 @@
 
 - Change to gamemode:
 
-`steamos-session-select gamescope`
+`steamos-session-select`
 
 - Change to Wayland desktop mode:
 
