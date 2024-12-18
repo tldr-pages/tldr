@@ -20,7 +20,7 @@
 
 `pacman -Qi {{package}}`
 
-- Diplay the [l]ist of files owned by a specific package:
+- Display the [l]ist of files owned by a specific package:
 
 `pacman -Ql {{package}}`
 
