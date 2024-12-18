@@ -1,7 +1,7 @@
 # cut
 
 > Taglia dividendo in campi `stdin` o file.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/cut>.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - Estrai i primi 16 caratteri di ogni riga da `stdin`:
 
