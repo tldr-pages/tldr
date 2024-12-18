@@ -20,7 +20,7 @@
 
 `sudo pacman -Ud {{path/to/package.pkg.tar.zst}}`
 
-- List packages ([p]) that would be affected by upgrade (does not install any packages):
+- Fetch and [p]rint packages that would be affected by upgrade (does not install any packages):
 
 `pacman -Up {{path/to/package.pkg.tar.zst}}`
 
