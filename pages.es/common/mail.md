@@ -10,7 +10,7 @@
 
 - Envía un mensaje de correo con CC opcional. La línea de comandos continúa después de presionar `<Intro>`. Ingresa el texto del mensaje (pueden ser varias líneas). Presiona `<Ctrl>-D` para indicar el final del texto del mensaje:
 
-`mail --subject="{{título del correo}}" {{para_usuario@example.com}} --cc="{{cc_correo_electrónico}}"`
+`mail --subject="{{título del correo electrónico}}" {{para_usuario@example.com}} --cc="{{cc_correo_electrónico}}"`
 
 - Envía un correo electrónico que contenga el contenido de un archivo:
 
