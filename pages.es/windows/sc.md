@@ -17,4 +17,4 @@
 
 - Establece el tipo de servicio:
 
-`sc.exe config {{nombre_del_servicio}} type= {{service_type}}`
+`sc.exe config {{nombre_del_servicio}} type= {{tipo_de_servicio}}`
