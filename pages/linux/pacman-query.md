@@ -8,23 +8,23 @@
 
 `pacman -Q`
 
-- List only packages and versions that were explicitly installed:
+- List only packages and versions that were [e]xplicitly installed:
 
 `pacman -Qe`
 
-- Find which package owns a file:
+- Find which package [o]wns a file:
 
 `pacman -Qo {{filename}}`
 
-- Display information about an installed package:
+- Display information about an [i]nstalled package:
 
 `pacman -Qi {{package}}`
 
-- List files owned by a package:
+- [L]ist files owned by a package:
 
 `pacman -Ql {{package}}`
 
-- List orphan packages (installed as dependencies but not required by any package):
+- List orphan packages (installed as [d]ependencies but unrequired by any package without errors displayed):
 
 `pacman -Qdtq`
 
@@ -32,6 +32,6 @@
 
 `pacman -Qm`
 
-- List outdated packages:
+- List packages that can be [u]pgraded:
 
 `pacman -Qu`
