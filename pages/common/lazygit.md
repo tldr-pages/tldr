@@ -13,7 +13,7 @@
 
 - Start lazygit with focus on a specific panel (e.g., `status`, `branch`, `log`, `stash`):
 
-`lazygit {{status|branch|log|stash}}`
+`lazygit {{status|branch|log|stash|...}}`
 
 - Print the default lazygit configuration:
 
