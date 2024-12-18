@@ -17,11 +17,11 @@
 
 `pacman -Dk`
 
-- Double check ([kk]) the sync database to ensure all specified dependencies are available:
+- Double check ([kk]) the sync database to ensure all specified dependencies in downloadable packages are available:
 
 `pacman -Dkk`
 
-- Check ([k]) and display in quiet ([q]) mode (no error message displayed): 
+- Check ([k]) and display in quiet ([q]) mode (no error message displayed):
 
 `pacman -Dkq`
 
