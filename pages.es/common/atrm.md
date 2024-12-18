@@ -1,7 +1,7 @@
 # atrm
 
 > Elimina trabajos programados por comandos `at` o `batch`.
-> Pare encontrar los números de trabajo usa `atq`.
+> Para encontrar los números de trabajo usa `atq`.
 > Más información: <https://manned.org/atrm>.
 
 - Elimina el trabajo número 10:
