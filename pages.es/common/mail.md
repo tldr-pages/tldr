@@ -1,7 +1,7 @@
 # mail
 
 > El comando opera en el buzón de correo del usuario si no se da ningún argumento.
-> Para enviar un correo electrónico el cuerpo del mensaje se construye desde `stdin`.
+> Para enviar un correo electrónico, el cuerpo del mensaje se construye desde `stdin`.
 > Más información: <https://manned.org/mail>.
 
 - Abre un prompt interactivo para revisar el correo personal:
