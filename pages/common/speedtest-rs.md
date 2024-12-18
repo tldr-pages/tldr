@@ -1,6 +1,6 @@
 # speedtest-rs
 
-> A Speedtest.net testing utility and crate for checking network download and upload speeds.
+> A `speedtest.net` testing utility and crate for checking network download and upload speeds.
 > More information: <https://github.com/nelsonjchen/speedtest-rs>.
 
 - Run a full speed test (download and upload):
