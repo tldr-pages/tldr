@@ -13,15 +13,15 @@
 
 `sudo pacman -D --asexplicit {{package}}`
 
-- Check that all the package dependencies are installed:
+- Check ([k]) that all the package dependencies are installed:
 
 `pacman -Dk`
 
-- Check the repositories to ensure all specified dependencies are available:
+- Double check ([kk]) the sync database to ensure all specified dependencies are available:
 
 `pacman -Dkk`
 
-- Display only error messages:
+- Check ([k]) and display in quiet ([q]) mode (no error message displayed): 
 
 `pacman -Dkq`
 
