@@ -20,11 +20,11 @@
 
 `pacman -Qi {{package}}`
 
-- [L]ist files owned by a package:
+- Diplay the [l]ist of files owned by a specific package:
 
 `pacman -Ql {{package}}`
 
-- List orphan packages (installed as [d]ependencies but unrequired ([t]) by any package without errors displayed ([q]):
+- List orphan packages (installed as [d]ependencies but unrequired ([t]) by any package in quiet mode ([q]) (no errors displayed)):
 
 `pacman -Qdtq`
 
