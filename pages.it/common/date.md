@@ -1,7 +1,7 @@
 # date
 
 > Imposta o mostra data e ora di sistema.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/date>.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - Mostra la data corrente utilizzando il formato predefinito della locale corrente:
 
