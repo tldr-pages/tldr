@@ -3,7 +3,7 @@
 > A terminal UI for managing Docker containers, images, volumes, and more.
 > More information: <https://github.com/jesseduffield/lazydocker>.
 
-- Open lazydocker:
+- Open Lazydocker:
 
 `lazydocker`
 
@@ -11,7 +11,7 @@
 
 `lazydocker --config`
 
-- Run lazydocker in debug mode:
+- Run Lazydocker in debug mode:
 
 `lazydocker --debug`
 
