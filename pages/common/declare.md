@@ -27,6 +27,6 @@
 
 `declare -g {{variable}}="{{value}}"`
 
-- Print a function:
+- Print a function definition:
 
 `declare -f {{function_name}}`
