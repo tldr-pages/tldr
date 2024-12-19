@@ -1,0 +1,12 @@
+# return
+
+> Exit out of a function or a script if run with `source`.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-return>.
+
+- Exit out of a function prematurely:
+
+`{{func_name}}() { {{echo "This is reached"}}; return; {{echo "This is not"}}; }`
+
+- Specify function return value:
+
+`{{func_name}}() { return {{N}}; }`
