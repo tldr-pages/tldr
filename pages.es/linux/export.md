@@ -13,7 +13,7 @@
 
 - Exporta una función a los procesos hijos:
 
-`export -f {{FUNCTION_NAME}}`
+`export -f {{NOMBRE_FUNCION}}`
 
 - Añade una ruta a la variable de ambiente `PATH`:
 
