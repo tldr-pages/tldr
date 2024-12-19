@@ -7,14 +7,18 @@
 
 `steamos-session-select plasma`
 
-- Change to gamemode:
+- Change to gamemode (sets the system to boot into gamemode if `-persistent` options were selected previously):
 
-`steamos-session-select gamescope`
+`steamos-session-select`
 
 - Change to Wayland desktop mode:
 
+`steamos-session-select plasma-wayland`
+
+- Change to Wayland desktop mode and have the device boot to desktop:
+
 `steamos-session-select plasma-wayland-persistent`
 
-- Change to X11 desktop mode:
+- Change to X11 desktop mode and have the device boot to desktop:
 
 `steamos-session-select plasma-x11-persistent`
