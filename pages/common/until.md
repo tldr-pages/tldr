@@ -5,7 +5,7 @@
 
 - Execute a command until it succeeds:
 
-- `until {{command}}; do :; done`
+`until {{command}}; do :; done`
 
 - Wait for a systend service to be active:
 
