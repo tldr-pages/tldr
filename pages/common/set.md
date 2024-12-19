@@ -30,3 +30,7 @@
 - Exit the shell when (some) commands fail:
 
 `set -e`
+
+- Reset all shell parameters and assign new ones:
+
+`set -- {{argument1 argument2...}}`
