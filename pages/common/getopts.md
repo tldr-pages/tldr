@@ -1,7 +1,7 @@
 # getopts
 
 > Parse shell options from arguments.
-> This command does not support longform options and thus `getopt` is recommended.
+> This command does not support longform options and thus `getopt` is recommended instead.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-getopts>.
 
 - Check if an option is set:
