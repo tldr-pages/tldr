@@ -26,4 +26,4 @@
 
 - Extrae un archivo específico de un archivo:
 
-`unzip -j {{ruta/a/archivo.zip}} {{ruta/al/archivo1_en_archivo ruta/al/archivo2_en_archivo ...}}`
+`unzip -j {{ruta/al/archivo.zip}} {{ruta/al/archivo1_en_archivo ruta/al/archivo2_en_archivo ...}}`
