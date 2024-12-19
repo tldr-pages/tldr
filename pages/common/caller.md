@@ -11,6 +11,6 @@
 
 `caller 0`
 
-- Print the line starting the n'th-last function call, its function name and filename:
+- Print the line of a function call `n` frames back, its function name and filename:
 
 `caller {{n}}`
