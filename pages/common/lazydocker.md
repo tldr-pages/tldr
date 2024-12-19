@@ -19,7 +19,7 @@
 
 `lazydocker --file {{path/to/docker-compose.yml}}`
 
-- Display help with available flags:
+- Display help:
 
 `lazydocker --help`
 
