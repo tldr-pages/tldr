@@ -10,7 +10,7 @@
 
 - Extrae los archivos/directorios de archivos a una ruta específica:
 
-`unzip {{ruta/a/archivo1.zip ruta/a/archivo2.zip ...}} -d {{ruta/al/resultado}}`
+`unzip {{ruta/al/archivo1.zip ruta/al/archivo2.zip ...}} -d {{ruta/al/resultado}}`
 
 - Extrae los archivos/directorios de archivos a `stdout` junto con los nombres de archivos extraídos:
 
