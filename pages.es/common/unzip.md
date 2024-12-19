@@ -6,7 +6,7 @@
 
 - Extrae todos los archivos/directorios de archivos específicos en el directorio actual:
 
-`unzip {{ruta/a/archivo1.zip ruta/a/archivo2.zip ...}}`
+`unzip {{ruta/al/archivo1.zip ruta/al/archivo2.zip ...}}`
 
 - Extrae los archivos/directorios de archivos a una ruta específica:
 
