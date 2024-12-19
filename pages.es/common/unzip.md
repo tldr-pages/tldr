@@ -14,7 +14,7 @@
 
 - Extrae los archivos/directorios de archivos a `stdout` junto con los nombres de archivos extraídos:
 
-`unzip -c {{ruta/a/archivo1.zip ruta/a/archivo2.zip ...}}`
+`unzip -c {{ruta/al/archivo1.zip ruta/al/archivo2.zip ...}}`
 
 - Extrae un archivo creado en Windows, que contiene archivos con caracteres no ASCII en su nombre (por ejemplo, caracteres chinos o japoneses):
 
