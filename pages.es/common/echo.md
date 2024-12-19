@@ -13,7 +13,7 @@
 
 - Imprime un mensaje sin la nueva línea:
 
-`echo -n "{{Hello World}}"`
+`echo -n "{{Hola Mundo}}"`
 
 - Añade un mensaje al final del archivo:
 
