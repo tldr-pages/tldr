@@ -26,3 +26,7 @@
 - Declare a global variable within a function with the specified value:
 
 `declare -g {{variable}}="{{value}}"`
+
+- Print a function:
+
+`declare -f {{function_name}}`
