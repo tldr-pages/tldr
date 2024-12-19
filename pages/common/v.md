@@ -11,11 +11,11 @@
 
 `v .`
 
-- Compile a file and [run] it:
+- Compile a file and run it:
 
 `v run {{path/to/file.v}}`
 
-- Compile a file and [run] it, output its executable:
+- Compile a file and run it, output its executable:
 
 `v crun {{path/to/file.v}}`
 
@@ -23,7 +23,7 @@
 
 `v watch {{path/to/file.v}}`
 
-- Re-[run] on every modification to a file:
+- Re-run on every modification to a file:
 
 `v watch run {{path/to/file.v}}`
 
