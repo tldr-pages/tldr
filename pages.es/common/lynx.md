@@ -11,7 +11,7 @@
 
 `lynx -anonymous {{example.com}}`
 
-- Enciende el soporte del ratón, si está disponible:
+- Activa el soporte del ratón, si está disponible:
 
 `lynx -use_mouse {{example.com}}`
 
