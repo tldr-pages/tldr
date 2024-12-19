@@ -18,7 +18,7 @@
 
 - Extrae un archivo creado en Windows, que contiene archivos con caracteres no ASCII en su nombre (por ejemplo, caracteres chinos o japoneses):
 
-`unzip -O {{gbk}} {{ruta/a/archivo1.zip ruta/a/archivo2.zip ...}}`
+`unzip -O {{gbk}} {{ruta/al/archivo1.zip ruta/al/archivo2.zip ...}}`
 
 - Enumera los contenidos de un archivo específico sin extraerlos:
 
