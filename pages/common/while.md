@@ -1,4 +1,4 @@
-# while
+1# while
 
 > Simple shell loop that repeats until it receives a non-zero return value.
 > More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_04_09>.
@@ -11,6 +11,6 @@
 
 `while :; do {{command}}; sleep 1; done`
 
-- Execute a command until it returns a non-zero value:
+- Execute a command until it fails:
 
 `while {{command}}; do :; done`
