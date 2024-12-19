@@ -1,6 +1,6 @@
 # export
 
-> Exporta variables de shell a procesos hijos.
+> Exporta variables de un intérprete de comandos (shell) a procesos hijos.
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-export>.
 
 - Establece una variable de entorno:
