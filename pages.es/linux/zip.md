@@ -24,7 +24,7 @@
 
 `zip -r --encrypt {{ruta/a/comprimido.zip}} {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
-- Archivo de archivos/directorios a un archivo multi parte[s] (p.e. partes de 3 GB):
+- Archivo de archivos/directorios a un archivo multiparte[s] (por ejemplo,  en partes de 3 GB):
 
 `zip -r -s {{3g}} {{ruta/a/comprimido.zip}} {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
