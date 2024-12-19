@@ -15,7 +15,7 @@
 
 `lynx -use_mouse {{example.com}}`
 
-- Forza el modo de color, si está disponible:
+- Fuerza el modo de color, si está disponible:
 
 `lynx -color {{example.com}}`
 
