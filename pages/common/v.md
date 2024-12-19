@@ -5,7 +5,7 @@
 
 - Compile a file and output its executable:
 
-`v {{/path/to/file.v}}`
+`v {{path/to/file.v}}`
 
 - Compile the current project or directory:
 
