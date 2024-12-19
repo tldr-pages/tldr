@@ -22,7 +22,7 @@
 
 - Enumera los contenidos de un archivo específico sin extraerlos:
 
-`unzip -l {{ruta/a/archivo.zip}}`
+`unzip -l {{ruta/al/archivo.zip}}`
 
 - Extrae un archivo específico de un archivo:
 
