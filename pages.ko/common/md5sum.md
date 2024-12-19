@@ -1,7 +1,7 @@
 # md5sum
 
 > MD5 암호화 체크섬 계산.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/md5sum>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/md5sum-invocation.html>.
 
 - 하나 이상의 파일에 대한 MD5 체크섬 계산:
 

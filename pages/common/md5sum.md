@@ -1,7 +1,7 @@
 # md5sum
 
 > Calculate MD5 cryptographic checksums.
-> More information: <https://www.gnu.org/software/coreutils/md5sum>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/md5sum-invocation.html>.
 
 - Calculate the MD5 checksum for one or more files:
 
