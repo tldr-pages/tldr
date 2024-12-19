@@ -5,7 +5,7 @@
 
 - Iterate through command line arguments:
 
-`for {{variable}}; do echo $variable; done`
+`for {{variable}}; do {{echo $variable}}; done`
 
 - Execute the given commands for each of the specified items:
 
