@@ -7,7 +7,7 @@
 
 `elinks`
 
-- Sale de elinks:
+- Sale de ELinks:
 
 `<Ctrl> + C`
 
