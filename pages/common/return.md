@@ -7,6 +7,6 @@
 
 `{{func_name}}() { {{echo "This is reached"}}; return; {{echo "This is not"}}; }`
 
-- Specify function return value:
+- Specify the function's return value:
 
 `{{func_name}}() { return {{N}}; }`
