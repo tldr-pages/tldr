@@ -1,7 +1,7 @@
 # emacsclient
 
 > Abre archivos en un servidor Emacs existente.
-> Véase también `emacs`.
+> Vea también `emacs`.
 > Más información: <https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html>.
 
 - Abre un archivo en un servidor Emacs existente (utilizando GUI si está disponible):
