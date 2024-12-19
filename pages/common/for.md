@@ -3,6 +3,10 @@
 > Perform a command several times.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs>.
 
+- Iterate through command line arguments:
+
+`for {{variable}}; do {{echo $variable}}; done`
+
 - Execute the given commands for each of the specified items:
 
 `for {{variable}} in {{item1 item2 ...}}; do {{echo "Loop is executed"}}; done`
