@@ -1,6 +1,6 @@
 # speedtest-rs
 
-> A `speedtest.net` testing utility and crate for checking network download and upload speeds.
+> An unofficial Rust-based tool for testing network speeds using speedtest.net, limited to HTTP Legacy Fallback.
 > More information: <https://github.com/nelsonjchen/speedtest-rs>.
 
 - Run a full speed test (download and upload):
