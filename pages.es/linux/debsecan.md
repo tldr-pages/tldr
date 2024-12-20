@@ -21,4 +21,4 @@
 
 - Actualiza paquetes vulnerables instalados:
 
-`sudo apt upgrade $(debsecan --only-fixed --format {{packages}})`
+`sudo apt upgrade $(debsecan --only-fixed --format {{paquetes}})`
