@@ -29,6 +29,6 @@
 
 `dpkg -S {{ruta/al/archivo}}`
 
-- Purga un paquete instalado o ya eliminado, incluyendo la configuración:
+- Purga un paquete instalado o ya eliminado, incluyendo su configuración:
 
 `dpkg -P {{paquete}}`
