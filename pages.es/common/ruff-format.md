@@ -8,7 +8,7 @@
 
 `ruff format {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
-- Imprime qué archivos habrían sido modificados y devuelve un código de salida no cero si hay archivos a reformatear, y cero de lo contrario:
+- Imprime qué archivos habrían sido modificados y devuelve un código de salida no cero si hay archivos a reformatear; y cero de lo contrario:
 
 `ruff format --check`
 
