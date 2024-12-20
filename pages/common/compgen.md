@@ -7,6 +7,10 @@
 
 `compgen -c`
 
+- List all commands that you could run that start with `str`:
+
+`compgen -c {{str}}`
+
 - List all aliases:
 
 `compgen -a`
