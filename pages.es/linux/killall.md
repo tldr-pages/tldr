@@ -1,6 +1,6 @@
 # killall
 
-> Envía señal de muerte a todas las instancias de un proceso por nombre (debe ser el nombre exacto).
+> Envía señal de finalización a todas las instancias de un proceso por nombre (debe ser el nombre exacto).
 > Todas las señales excepto SIGKILL y SIGSTOP pueden ser interceptadas por el proceso, permitiendo una salida limpia.
 > Más información: <https://manned.org/killall>.
 
