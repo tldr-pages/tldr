@@ -7,6 +7,6 @@
 
 `until {{command}}; do :; done`
 
-- Wait for a systend service to be active:
+- Wait for a systemd service to be active:
 
 `until systemctl is-active --quiet {{nginx}}; do {{echo "Waiting..."}}; sleep 1; done; {{echo "Launched!"}}`
