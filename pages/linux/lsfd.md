@@ -1,6 +1,6 @@
 # lsfd
 
-> Lists open files and the corresponding processes in Linux.
+> List open files and the corresponding processes in Linux.
 > More information: <https://manned.org/lsfd>.
 
 - List all open file descriptors:
