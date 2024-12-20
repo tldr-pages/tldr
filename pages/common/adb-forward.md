@@ -13,7 +13,7 @@
 
 - Remove a forwarding rule:
 
-`adb forward --remove tcp:5555`
+`adb forward --remove tcp:{{local_port}}`
 
 - Remove all forwarding rules:
 
