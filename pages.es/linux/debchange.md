@@ -3,7 +3,7 @@
 > Mantiene el archivo debian/log de cambios (changelog) de un paquete fuente de Debian.
 > Más información: <https://manned.org/debchange.1>.
 
-- Agrega una nueva versión para una subida que no es del mantenedor al log de cambios:
+- Agrega una nueva versión para una subida que no es del mantenedor al registro (log) de cambios:
 
 `debchange --nmu`
 
