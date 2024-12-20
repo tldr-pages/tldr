@@ -11,7 +11,7 @@
 
 `diff {{-w|--ignore-all-space}} {{old_file}} {{new_file}}`
 
-- ファイルを比較し、差分を並べて表示する：
+- ファイルを比較し、差分を並べて表示する:
 
 `diff {{-y|--side-by-side}} {{old_file}} {{new_file}}`
 
