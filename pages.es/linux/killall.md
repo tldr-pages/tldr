@@ -20,6 +20,6 @@
 
 `killall -INT {{nombre_del_proceso}}`
 
-- Mata a la fuerza proceso:
+- Finaliza -a la fuerza- un proceso:
 
 `killall -KILL {{nombre_del_proceso}}`
