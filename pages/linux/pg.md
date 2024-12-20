@@ -5,4 +5,4 @@
 
 - View a file:
 
-`pg path/to/file`
+`pg {{path/to/file}}`
