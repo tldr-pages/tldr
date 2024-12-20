@@ -20,6 +20,6 @@
 
 `ldd --data-relocs {{ruta/al/binario}}`
 
-- Reporta objetos y funciones de datos ausentes y reubica ambos:
+- Reporta objetos y funciones de datos ausentes y los reubica a ambos:
 
 `ldd --function-relocs {{ruta/al/binario}}`
