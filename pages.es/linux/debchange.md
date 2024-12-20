@@ -11,6 +11,6 @@
 
 `debchange --append`
 
-- Agrega una entrada de cambio para cerrar el fallo con ID especificado:
+- Agrega una entrada de cambio para cerrar el fallo con un ID específico:
 
 `debchange --closes {{id_del_fallo}}`
