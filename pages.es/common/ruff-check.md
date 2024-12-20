@@ -16,7 +16,7 @@
 
 `ruff check --watch`
 
-- Sólo habilita las reglas especificadas (o todas las reglas), ignorando el archivo de configuración:
+- Solo habilita las reglas especificadas (o todas las reglas), ignorando el archivo de configuración:
 
 `ruff check --select {{ALL|regla_de_código1,regla_de_código2,...}}`
 
