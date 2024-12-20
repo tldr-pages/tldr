@@ -1,7 +1,7 @@
 # dpkg
 
 > Administrador de paquetes de Debian.
-> Algunos subcomandos como, `deb` tienen su propia documentación de uso.
+> Algunos subcomandos como `deb` tienen su propia documentación de uso.
 > Pare comandos equivalentes en otros gestores de paquetes, vea <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Más información: <https://manned.org/dpkg>.
 
