@@ -1,6 +1,6 @@
 # adb forward
 
-> Connect to an android device wirelessly.
+> Connect to an Android device wirelessly.
 > More information: <https://developer.android.com/tools/adb>.
 
 - Forward a TCP port:
