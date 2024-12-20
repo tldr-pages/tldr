@@ -9,4 +9,4 @@
 
 - Uninstall a package but keep user data:
 
-`adb uninstall -k com.example.app}}`
+`adb uninstall -k {{com.example.app}}`
