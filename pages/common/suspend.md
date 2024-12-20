@@ -7,7 +7,7 @@
 
 `{{bash}} <Enter> suspend`
 
-- Continue from suspension if `suspend` was used in a non-nested shell:
+- Run in a separate terminal to continue from suspension if `suspend` was used in a non-nested shell:
 
 `pkill -CONT bash`
 
