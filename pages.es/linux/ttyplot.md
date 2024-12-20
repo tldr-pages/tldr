@@ -15,6 +15,6 @@
 
 `{ while {{true}}; do echo {{$RANDOM}}; sleep {{1}}; done } | ttyplot`
 
-- Parsea la salida de `ping` y la visualiza:
+- Analiza la salida de `ping` y la visualiza:
 
 `ping {{8.8.8.8}} | sed -u '{{s/^.*time=//g; s/ ms//g}}' | ttyplot -t "{{ping a 8.8.8.8}}" -u {{ms}}`
