@@ -20,7 +20,7 @@
 
 `deb-get install {{paquete}}`
 
-- Elimina un paquete (utilizando `purge` en su lugar también elimina sus archivos de configuración):
+- Elimina un paquete (utilizando `purge` en su lugar, también elimina sus archivos de configuración):
 
 `deb-get remove {{paquete}}`
 
