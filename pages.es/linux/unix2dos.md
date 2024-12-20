@@ -1,6 +1,6 @@
 # unix2dos
 
-> Cambia Finales de línea de estilo Unix al estilo DOS.
+> Cambia los finales de línea de estilo Unix al estilo DOS.
 > Reemplaza LF con CRLF.
 > Vea también `unix2mac`, `dos2unix`, y `mac2unix`.
 > Más información: <https://manned.org/unix2dos>.
