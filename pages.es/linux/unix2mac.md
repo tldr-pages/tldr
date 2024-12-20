@@ -17,6 +17,6 @@
 
 `unix2mac {{-i|--info}} {{ruta/al/archivo}}`
 
-- Mantiene/añade/elimina marca de de orden de byte (Byte Order Mark):
+- Mantiene/añade/elimina marca de orden de byte (Byte Order Mark):
 
 `unix2mac --{{keep-bom|add-bom|remove-bom}} {{ruta/al/archivo}}`
