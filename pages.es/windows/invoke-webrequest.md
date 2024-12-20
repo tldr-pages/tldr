@@ -1,7 +1,7 @@
 # Invoke-WebRequest
 
 > Realiza una solicitud HTTP/HTTPS a la Web.
-> Nota: Este comando sólo se puede utilizar a través de PowerShell.
+> Nota: Este comando solo se puede utilizar a través de PowerShell.
 > Más información: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Descarga el contenido de una URL a un archivo:
