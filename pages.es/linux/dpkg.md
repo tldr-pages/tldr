@@ -2,7 +2,7 @@
 
 > Administrador de paquetes de Debian.
 > Algunos subcomandos como `deb` tienen su propia documentación de uso.
-> Pare comandos equivalentes en otros gestores de paquetes, vea <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> Para comandos equivalentes en otros gestores de paquetes, vea <https://wiki.archlinux.org/title/Pacman/Rosetta>.j
 > Más información: <https://manned.org/dpkg>.
 
 - Instala un paquete:
