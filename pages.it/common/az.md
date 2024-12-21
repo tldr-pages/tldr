@@ -20,7 +20,7 @@
 
 `az vm list`
 
-- Gestisce i servizi Azure Kubernetes:
+- Gestisci i servizi Azure Kubernetes:
 
 `az aks`
 
