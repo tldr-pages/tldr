@@ -1,7 +1,7 @@
 # speedtest
 
 > Official command-line interface for testing internet bandwidth using <https://speedtest.net>.
-> Note: some platforms link `speedtest` to `speedtest-cli` or other tools like `librespeed`, which can also be installed as `speedtest` on certain linux distributions.
+> Note: some platforms link `speedtest` to `speedtest-cli` or other tools like `librespeed`, which can also be installed as `speedtest` on certain Linux distributions.
 > More information: <https://www.speedtest.net/apps/cli>.
 
 - Run a speed test:
