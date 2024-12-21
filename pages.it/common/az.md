@@ -24,7 +24,7 @@
 
 `az aks`
 
-- Gestisce le risorse della rete di Azure:
+- Gestisci le risorse della rete di Azure:
 
 `az network`
 
