@@ -8,7 +8,7 @@
 
 `az login`
 
-- Gestisce il tuo abbonamento ad Azure:
+- Gestisci il tuo abbonamento ad Azure:
 
 `az account`
 
