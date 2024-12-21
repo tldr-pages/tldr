@@ -19,7 +19,7 @@
 
 `ansible-galaxy role init {{nome_ruolo}}`
 
-- Ottieni informazioni inerenti un ruolo:
+- Ottieni informazioni inerenti a un ruolo:
 
 `ansible-galaxy role info {{nome_ruolo}}`
 
