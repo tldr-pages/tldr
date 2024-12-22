@@ -5,7 +5,7 @@
 
 - Depura un ejecutable:
 
-`lldb {{executable}}`
+`lldb {{ejecutable}}`
 
 - Asocia `lldb` a un proceso de ejecución con un PID dado:
 
