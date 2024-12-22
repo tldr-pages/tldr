@@ -19,7 +19,7 @@
 
 `zig test {{ruta/al/archivo.zig}}`
 
-- Hace compilación cruzada, arma y ejecuta un proyecto para la arquitectura `x86_64` y el sistema operativo`windows`:
+- Hace compilación cruzada, arma y ejecuta un proyecto para la arquitectura `x86_64` y el sistema operativo `windows`:
 
 `zig build run -fwine -Dtarget=x86_64-windows`
 
