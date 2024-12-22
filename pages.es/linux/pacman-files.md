@@ -12,7 +12,7 @@
 
 `pacman -F {{archivo}}`
 
-- Encuentra el paquete que posee un archivo específico, utilizando un e[x]presión regular:
+- Encuentra el paquete que posee un archivo específico, utilizando una e[x]presión regular:
 
 `pacman -Fx '{{expresión_regular}}'`
 
