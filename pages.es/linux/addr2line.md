@@ -5,7 +5,7 @@
 
 - Muestra el nombre de archivo y el número de línea del código fuente desde una dirección de instrucción de un ejecutable:
 
-`addr2line --exe={{ruta/a/executable}} {{dirección}}`
+`addr2line --exe={{ruta/a/ejecutable}} {{dirección}}`
 
 - Muestra el nombre de la función, nombre de archivo y número de línea:
 
