@@ -16,7 +16,7 @@
 
 `pacman -Fx '{{expresión_regular}}'`
 
-- Lista sólo los nombres de los paquetes:
+- Lista solo los nombres de los paquetes:
 
 `pacman -Fq {{archivo}}`
 
