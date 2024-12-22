@@ -6,7 +6,7 @@
 
 - Compila y vincula un programa basado en LLVM:
 
-`clang++ $(llvm-config --cxxflags --ldflags --libs) --output {{ruta/al/resultado_executable}} {{ruta/a/source.cc}}`
+`clang++ $(llvm-config --cxxflags --ldflags --libs) --output {{ruta/al/resultado_ejecutable}} {{ruta/a/source.cc}}`
 
 - Imprime el `PREFIJO` de su instalación LLVM:
 
