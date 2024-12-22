@@ -1,6 +1,6 @@
 # declare
 
-> Declara variables y dales atributos.
+> Declara variables y les da atributos.
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.
 
 - Describe una variable de cadena con el valor especificado:
