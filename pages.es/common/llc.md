@@ -15,6 +15,6 @@
 
 `llc --output {{ruta/al/resultado.s}}`
 
-- Emite código independiente de la posición que puede reubicarse completamente:
+- Emite código, independiente de la posición que pueda reubicarse completamente:
 
 `llc -relocation-model=pic {{ruta/a/la/entrada.ll}}`
