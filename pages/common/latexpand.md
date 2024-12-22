@@ -5,7 +5,7 @@
 
 - Simplify the specified source file and save the result to the specified [o]utput file:
 
-`latexpand --output {{path/to/output.tex}} {{path/to/file.tex}} `
+`latexpand --output {{path/to/output.tex}} {{path/to/file.tex}}`
 
 - Do not remove comments:
 
