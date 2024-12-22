@@ -5,4 +5,4 @@
 
 - Procesa un archivo de imagen:
 
-`zbarimg {{image_file}}`
+`zbarimg {{archivo_de_imagen}}`
