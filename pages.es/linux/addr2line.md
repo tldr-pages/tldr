@@ -9,7 +9,7 @@
 
 - Muestra el nombre de la función, nombre de archivo y número de línea:
 
-`addr2line --exe={{ruta/a/executable}} --functions {{dirección}}`
+`addr2line --exe={{ruta/a/ejecutable}} --functions {{dirección}}`
 
 - Decodifica (demangle) el nombre de la función para código C++:
 
