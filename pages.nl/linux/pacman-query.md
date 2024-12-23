@@ -12,7 +12,7 @@
 
 `pacman -Qe`
 
-- Zoek welk pakket een bestand bezig ([o]):
+- Zoek welk pakket een bestand bezit ([o]):
 
 `pacman -Qo {{bestandsnaam}}`
 
