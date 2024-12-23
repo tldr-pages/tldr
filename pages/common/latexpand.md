@@ -1,6 +1,6 @@
 # latexpand
 
-> Simplify LaTeX source files by removing comments and resolving `\include`s, `\input`s etc.
+> Simplify LaTeX source files by removing comments and resolving `\include`s, `\input`s, etc.
 > More information: <https://www.ctan.org/pkg/latexpand>.
 
 - Simplify the specified source file and save the result to the specified [o]utput file:
