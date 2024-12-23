@@ -14,7 +14,7 @@
 
 - Keep a range of fields:
 
-`echo "foo bar    baz" | tuc -d ' ' -f 2:   # => bar    baz`
+`echo "foo bar    baz" | tuc -d ' ' -f {{2:}}`
 
 - Cut using regular expressions:
 
