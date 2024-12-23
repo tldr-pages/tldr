@@ -16,7 +16,7 @@
 
 `pacman -Qo {{bestandsnaam}}`
 
-- Toon information over een geïnstalleerd ([i]) pakket:
+- Toon informatie over een geïnstalleerd ([i]) pakket:
 
 `pacman -Qi {{pakket}}`
 
