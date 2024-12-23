@@ -7,6 +7,6 @@
 
 `auvaltool -a`
 
-- Lista todas las AudioUnits [a]vailable de cualquier tipo con su [l]ocalización:
+- Lista todas las AudioUnits utiliz[a]bles de cualquier tipo con su [l]ocalización:
 
 `auvaltool -al`
