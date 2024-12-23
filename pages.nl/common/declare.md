@@ -23,6 +23,6 @@
 
 `declare -r {{variable}}="{{waarde}}"`
 
-- Declareer a globale variable binnen een functie met de gespecificeerde waarde:
+- Declareer een globale variable binnen een functie met de gespecificeerde waarde:
 
 `declare -g {{variable}}="{{waarde}}"`
