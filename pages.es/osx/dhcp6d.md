@@ -4,7 +4,7 @@
 > No debe invocarse manualmente.
 > Más información: <https://www.manpagez.com/man/8/dhcp6d/>.
 
-- Inicia el daemon:
+- Inicia el proceso residente:
 
 `dhcp6d`
 
