@@ -22,4 +22,4 @@
 
 - Emit JSON output:
 
-`echo "foo bar baz" | tuc -d ' ' --json     # => ["foo","bar","baz"]`
+`echo "foo bar baz" | tuc -d '{{ }}' --json`
