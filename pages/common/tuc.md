@@ -18,7 +18,7 @@
 
 - Cut using regular expressions:
 
-`echo "a,b, c" | tuc -e '[, ]+' -f 1,3  # => ac`
+`echo "a,b, c" | tuc -e '{{[, ]+}}' -f {{1,3}}`
 
 - Emit JSON output:
 
