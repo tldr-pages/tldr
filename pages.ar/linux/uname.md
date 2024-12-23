@@ -1,7 +1,7 @@
 # uname
 
 > يعرض الأمر معلومات عن الجهاز ونظام التشغيل الذي يعمل عليه.
-> لمزيد من المعلومات: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
+> لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - عرض جميع المعلومات:
 
