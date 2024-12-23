@@ -8,9 +8,9 @@
 
 `\n echo "foo bar baz" | tuc -d ' ' -f 3,2,1    # => bazbarfoo`
 
-- Replace the delimiter with something else:
+- Replace the delimiter `space` with an arrow:
 
-`echo "foo bar baz" | tuc -d ' ' -r ' ➡ '  # => foo ➡ bar ➡ baz`
+`echo "foo bar baz" | tuc -d ' ' -r ' ➡ '`
 
 - Keep a range of fields:
 
