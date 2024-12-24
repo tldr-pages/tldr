@@ -8,7 +8,7 @@
 
 `distrobox-enter {{nombre_del_contenedor}}`
 
-- Entra a un contenedor Distrobox y ejecute un comando al iniciar sesión:
+- Entra a un contenedor Distrobox y ejecuta un comando al iniciar sesión:
 
 `distrobox-enter {{nombre_del_contenedor}} -- {{sh -l}}`
 
