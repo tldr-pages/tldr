@@ -8,13 +8,13 @@
 
 `virsh connect {{qemu:///system}}`
 
+- Activate a network named `default`:
+
+`virsh net-start {{default}}`
+
 - List all domains:
 
 `virsh list --all`
-
-- Dump guest configuration file:
-
-`virsh dumpxml {{guest_id}} > {{path/to/guest.xml}}`
 
 - Create a guest from a configuration file:
 
