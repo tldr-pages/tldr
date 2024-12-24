@@ -10,7 +10,7 @@
 
 - Ejecuta un comando dentro de un contenedor `toolbox` para una liberación específica de una distribución:
 
-`toolbox run --distro {{distribution}} --release {{release}} {{comando}}`
+`toolbox run --distro {{distribución}} --release {{lanzamiento}} {{comando}}`
 
 - Ejecuta `emacs` dentro de un contenedor `toolbox` utilizando la imagen predeterminada de Fedora 39:
 
