@@ -27,6 +27,6 @@
 
 `josm --downloadgps {{minlat,minlon,maxlat,maxlon}}`
 
-- Inicia JOSM sin plugins:
+- Inicia JOSM sin complementos (plugins):
 
 `josm --skip-plugins`
