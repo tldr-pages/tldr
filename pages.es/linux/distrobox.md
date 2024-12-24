@@ -1,6 +1,6 @@
 # distrobox
 
-> Utiliza cualquier distribución Linux dentro de su terminal en un contenedor. Instala y utiliza paquetes dentro de ella mientras se integra estrechamente con el sistema operativo anfitrión, compartiendo el almacenamiento (directorio `home`) y el hardware.
+> Utiliza cualquier distribución Linux dentro de su terminal en un contenedor. Instala y utiliza paquetes dentro de la misma, mientras se integra estrechamente con el sistema operativo anfitrión, compartiendo el almacenamiento (directorio `home`) y el hardware.
 > Nota: Utiliza Podman o Docker para crear sus contenedores.
 > Más información: <https://github.com/89luca89/distrobox>.
 
