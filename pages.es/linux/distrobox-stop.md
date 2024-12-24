@@ -7,6 +7,6 @@
 
 `distrobox-stop {{nombre_del_contenedor}}`
 
-- Detiene un contenedor Distrobox no interactivamente (sin confirmación):
+- Detiene un contenedor Distrobox de un modo no interactivo (no pide confirmación):
 
 `distrobox-stop --name {{nombre_del_contenedor}} --yes`
