@@ -7,7 +7,7 @@
 
 `readarray {{array_name}}`
 
-- Read lines from a file and insert them in `array_name`:
+- Read lines from a file and insert them in an array:
 
 `readarray {{array_name}} < {{file.txt}}`
 
