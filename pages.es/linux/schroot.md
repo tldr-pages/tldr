@@ -1,6 +1,6 @@
 # schroot
 
-> Ejecuta un comando o inicie una interfaz interactiva de comando con un directorio raíz diferente. Más personalizable que `chroot`.
+> Ejecuta un comando o inicia una interfaz interactiva de comando con un directorio raíz diferente. Más personalizable que `chroot`.
 > Más información: <https://wiki.debian.org/Schroot>.
 
 - Lista chroots disponibles:
