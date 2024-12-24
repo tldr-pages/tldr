@@ -1,7 +1,7 @@
 # tuc
 
 > Cut text (or bytes) where a delimiter matches, then keep the desired parts.
-> A more user-friendly and powerful version of cut with sensible defaults.
+> A more user-friendly and powerful version of `cut` with sensible defaults.
 > More information: <https://github.com/riquito/tuc>.
 
 - Cut and rearrange fields:
