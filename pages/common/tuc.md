@@ -6,7 +6,7 @@
 
 - Cut and rearrange fields:
 
-`\n echo "foo bar baz" | tuc -d ' ' -f 3,2,1    # => bazbarfoo`
+`echo "foo bar baz" | tuc -d '{{ }}' -f {{3,2,1}}`
 
 - Replace the delimiter `space` with an arrow:
 
