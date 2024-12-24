@@ -6,7 +6,7 @@
 
 - Entra a un contenedor de `toolbox` utilizando la imagen predeterminada de una distribución específica:
 
-`toolbox enter --distro {{distribution}}`
+`toolbox enter --distro {{distribución}}`
 
 - Entra a un contenedor de `toolbox` utilizando la imagen predeterminada de una liberación específica de la distribución actual:
 
