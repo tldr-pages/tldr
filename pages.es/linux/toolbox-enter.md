@@ -10,7 +10,7 @@
 
 - Entra a un contenedor de `toolbox` utilizando la imagen predeterminada de una liberación específica de la distribución actual:
 
-`toolbox enter --release {{release}}`
+`toolbox enter --release {{liberación}}`
 
 - Entra a un contenedor de `toolbox` utilizando la imagen predeterminada de Fedora 39:
 
