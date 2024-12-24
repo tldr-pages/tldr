@@ -2,7 +2,7 @@
 
 > A fancy interface to the Python interpreter.
 > Provides syntax highlighting and many other nice-to-haves in REPL mode.
-> More information: <https://docs.bpython-interpreter.org/en/latest/>.
+> More information: <https://manned.org/bpython>.
 
 - Start a REPL (interactive shell):
 
