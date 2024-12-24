@@ -13,4 +13,4 @@
 
 - Actualiza contenedores específicos a través del administrador de paquetes nativo de cada contenedor:
 
-`distrobox-upgrade {{container1 container2 ...}}`
+`distrobox-upgrade {{contenedor1 contenedor2 ...}}`
