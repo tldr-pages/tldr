@@ -13,7 +13,7 @@
 
 - Inicia JOSM y establece un idioma específico:
 
-`josm --language {{de}}`
+`josm --language {{sp}}`
 
 - Inicia JOSM y restablece todas las preferencias a sus valores predeterminados:
 
