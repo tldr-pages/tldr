@@ -17,7 +17,7 @@
 
 - View and update settings:
 
-`fwconsole setting {{keyword}} {{newvalue}}`
+`fwconsole setting {{keyword}} {{new_value}}`
 
 - List available backups:
 
