@@ -7,11 +7,11 @@
 
 `fwconsole reload`
 
-- Start Asterisk and run other needed FreePBX commands:
+- Start Asterisk and other commands needed by FreePBX:
 
 `fwconsole start`
 
-- Stop Asterisk and run other needed FreePBX commands:
+- Stop Asterisk and other commands needed by FreePBX:
 
 `fwconsole stop`
 
@@ -27,6 +27,6 @@
 
 `fwconsole list`
 
-- Change ownership of files:
+- Change ownership of all files and directories that FreePBX needs to be owned by the apache user:
 
 `fwconsole chown`
