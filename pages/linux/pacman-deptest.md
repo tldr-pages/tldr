@@ -4,7 +4,7 @@
 > See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 
-- Print the package names of the dependencies that aren't installed:
+- Print the package names of the dependencies that are not installed:
 
 `pacman -T {{package1 package2 ...}}`
 
