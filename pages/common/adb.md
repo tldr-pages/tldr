@@ -31,3 +31,7 @@
 - List all connected devices:
 
 `adb devices`
+
+- Specify which device to send commands to if there are multiple devices:
+
+`adb -s {{device_ID}} {{shell}}`
