@@ -9,12 +9,12 @@
 
 - Read lines from a file and insert them in an array:
 
-`readarray {{array_name}} < {{file.txt}}`
+`readarray {{array_name}} < {{path/to/file.txt}}`
 
 - Remove trailing deliminators (newline by default):
 
-`readarray -t {{array_name}} < {{file.txt}}`
+`readarray -t {{array_name}} < {{path/to/file.txt}}`
 
 - Copy at most the specified number of lines:
 
-`readarray -n {{N}} {{array_name}} < {{file.txt}}`
+`readarray -n {{N}} {{array_name}} < {{path/to/file.txt}}`
