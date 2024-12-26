@@ -1,7 +1,7 @@
 # fwconsole
 
 > Manage and configure your FreePBX system (PBX server).
-> More information: <https://wiki.freepbx.org>.
+> More information: <https://sangomakb.atlassian.net/wiki/spaces/PG/pages/41779247/fwconsole+commands+13>.
 
 - Reload FreePBX configurations:
 
