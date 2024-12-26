@@ -1,7 +1,7 @@
 # adb pair
 
-> This command is an alias of `adb connect`.
+> This command has been moved to `adb connect`.
 
-- View documentation for the original command:
+- View documentation for `adb pair:
 
 `tldr adb connect`
