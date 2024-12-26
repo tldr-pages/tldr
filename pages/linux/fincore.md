@@ -1,6 +1,6 @@
 # fincore
 
-> Disable how much cache memory a file is taking.
+> Display how much cache memory a file is taking.
 > More information: <https://manned.org/fincore>.
 
 - Display cache details for a file:
