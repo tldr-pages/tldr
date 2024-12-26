@@ -4,6 +4,6 @@
 > See also: `rgb3toppm`.
 > More information: <https://netpbm.sourceforge.net/doc/ppmtorgb3.html>.
 
-- eparate the color components of a PPM file, saving the outputs to `file.red`, `file.grn` and `file.blu`:
+- Separate the color components of a PPM file, saving the outputs to `file.red`, `file.grn` and `file.blu`:
 
 `ppmtorgb3 {{path/to/file.ppm}}`
