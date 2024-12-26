@@ -1,7 +1,7 @@
 # basename
 
 > Remove o prefixo de um caminho.
-> Mais informações: <https://www.gnu.org/software/coreutils/basename>.
+> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
 
 - Mostra apenas o nome do arquivo em um caminho:
 

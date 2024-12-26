@@ -1,7 +1,7 @@
 # comm
 
 > Toon overeenkomstige regels tussen twee bestanden. Beide bestanden dienen gesorteerd te zijn.
-> Meer informatie: <https://www.gnu.org/software/coreutils/comm>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/comm-invocation.html>.
 
 - Produceer drie tab-gescheiden kolommen: regels die alleen voorkomen in het eerste bestand, regels die alleen voorkomen in het tweede bestand en overeenkomstige regels tussen beide bestanden:
 
