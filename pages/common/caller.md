@@ -7,7 +7,7 @@
 
 `caller`
 
-- Print the line where the current function was called, its function name and filename:
+- Print the line, function and filename where the current function was called:
 
 `caller 0`
 
