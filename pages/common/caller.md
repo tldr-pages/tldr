@@ -3,7 +3,7 @@
 > Print function context.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-caller>.
 
-- Print the line where the current function was called and its filename:
+- Print the line and filename where the current function was called:
 
 `caller`
 
