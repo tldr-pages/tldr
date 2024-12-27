@@ -1,4 +1,4 @@
-# jupyterlab
+# jupyter lab
 
 > Interactive development environment for Jupyter notebooks.
 > More information: <https://jupyterlab.readthedocs.io/en/stable/>.
