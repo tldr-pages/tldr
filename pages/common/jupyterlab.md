@@ -1,4 +1,4 @@
-## **JupyterLab**
+# JupyterLab
 
 **Interactive development environment for Jupyter notebooks.**
 
@@ -23,7 +23,7 @@ jupyter lab --notebook-dir my_project
 **Create a new notebook:**
 
 1.  Open JupyterLab.
-2.  Click on **File** -\> **New** -\> **Notebook**.
+2.  Click on **File** -> **New** -> **Notebook**.
 
 **Run a cell:**
 
@@ -32,6 +32,6 @@ jupyter lab --notebook-dir my_project
 
 **Restart the kernel:**
 
-1.  Click on **Kernel** -\> **Restart Kernel**.
+1.  Click on **Kernel** -> **Restart Kernel**.
 
-**More information:** [https://jupyterlab.readthedocs.io/en/stable/](https://www.google.com/url?sa=E&source=gmail&q=https://jupyterlab.readthedocs.io/en/stable/)
+**More information:** https://jupyterlab.readthedocs.io/en/stable/
