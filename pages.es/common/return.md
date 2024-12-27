@@ -9,4 +9,4 @@
 
 - Especifica el valor de retorno de la función:
 
-`{{nombre_de_la_función}}() { {{N}}; }`
+`{{nombre_de_la_función}}() { return {{N}}; }`
