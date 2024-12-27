@@ -17,7 +17,7 @@
 
 - 通过Unix套接字文件连接到数据库：
 
-`mysql --socket {{socket.sock文件路径}}`
+`mysql --socket {{路径/到/socket.sock}}`
 
 - 执行脚本文件中的SQL语句：
 
