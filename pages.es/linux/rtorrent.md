@@ -5,7 +5,7 @@
 
 - Añade un archivo torrent o magnet para descargar:
 
-`rtorrent {{torren_o_magnet}}`
+`rtorrent {{torrent_o_magnet}}`
 
 - Inicia la descarga:
 
