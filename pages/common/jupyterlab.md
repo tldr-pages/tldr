@@ -1,37 +1,20 @@
-# JupyterLab
+# jupyterlab
 
-**Interactive development environment for Jupyter notebooks.**
+> Interactive development environment for Jupyter notebooks.
+> More information: <https://jupyterlab.readthedocs.io/en/stable/>.
 
-**Basic usage:**
+- Start JupyterLab:
 
-```bash
-jupyter lab
-```
+`jupyter lab`
 
-**Open a specific notebook:**
+- Open a specific notebook:
 
-```bash
-jupyter lab my_notebook.ipynb
-```
+`jupyter lab path/to/notebook.ipynb`
 
-**Start JupyterLab in a specific directory:**
+- Start JupyterLab in a specific directory:
 
-```bash
-jupyter lab --notebook-dir my_project
-```
+`jupyter lab --notebook-dir path/to/directory`
 
-**Create a new notebook:**
+- Start JupyterLab in debug mode:
 
-1.  Open JupyterLab.
-2.  Click on **File** -> **New** -> **Notebook**.
-
-**Run a cell:**
-
-1.  Select the cell.
-2.  Press **Shift+Enter**.
-
-**Restart the kernel:**
-
-1.  Click on **Kernel** -> **Restart Kernel**.
-
-**More information:** https://jupyterlab.readthedocs.io/en/stable/
+`jupyter lab --debug`
