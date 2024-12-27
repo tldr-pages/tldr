@@ -7,6 +7,6 @@
 
 `while :; do continue; echo "This will never be reached"; done`
 
-- Skip the next iteration from within a nested loop:
+- Skip to the next iteration from within a nested loop:
 
 `for i in {1..3}; do while :; do continue 2; done; done`
