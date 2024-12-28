@@ -5,4 +5,4 @@
 
 - Download an APK:
 
-`apkeep -a {{com.example.application}} {{path/to/destination}}`
+`apkeep -a {{com.example.application}} {{path/to/directory}}`
