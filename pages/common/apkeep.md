@@ -3,7 +3,7 @@
 > Download APK files from various sources.
 > More information: <https://github.com/EFForg/apkeep>.
 
-- Download an APK:
+- Download an APK file to the specified directory:
 
 `apkeep --app {{com.example.application}} {{path/to/directory}}`
 
