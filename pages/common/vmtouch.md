@@ -19,6 +19,6 @@
 
 `vmtouch -l {{path/to/file}}`
 
-- Daemonize a lock:
+- Lock a file and daemonize the program:
 
 `vmtouch -ld {{path/to/file}}`
