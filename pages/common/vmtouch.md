@@ -3,7 +3,7 @@
 > Manage the filesystem cache.
 > More information: <https://manned.org/vmtouch>.
 
-- Print cache status of a file:
+- Print the cache status of a file:
 
 `vmtouch {{path/to/file}}`
 
