@@ -15,7 +15,7 @@
 
 `vmtouch -e {{path/to/file}}`
 
-- Lock a file in memory to prevent eviction:
+- Lock a file in memory to prevent eviction from memory:
 
 `vmtouch -l {{path/to/file}}`
 
