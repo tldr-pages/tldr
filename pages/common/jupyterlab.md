@@ -9,11 +9,11 @@
 
 - Open a specific notebook:
 
-`jupyter lab path/to/notebook.ipynb`
+`jupyter lab {{path/to/notebook.ipynb}}`
 
 - Start JupyterLab in a specific directory:
 
-`jupyter lab --notebook-dir path/to/directory`
+`jupyter lab --notebook-dir {{path/to/directory}}`
 
 - Start JupyterLab in debug mode:
 
