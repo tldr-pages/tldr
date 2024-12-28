@@ -1,6 +1,6 @@
 # vmtouch
 
-> Manage filesystem cache.
+> Manage the filesystem cache.
 > More information: <https://manned.org/vmtouch>.
 
 - Print cache status of a file:
