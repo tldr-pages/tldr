@@ -14,3 +14,11 @@
 - Run an interactive shell inside a flatpak:
 
 `flatpak run --command={{sh}} {{com.example.app}}`
+
+- Run an installed application with a specific runtime version, e.g. 24.08, master, stable:
+
+`flatpak run --runtime-version={{24.08|master|stable}} {{com.example.app}}`
+
+- Run an installed application with a different runtime (but same version number), e.g. org.freedesktop.Sdk:
+
+`flatpak run --runtime={{org.freedesktop.Sdk}} {{com.example.app}}`
