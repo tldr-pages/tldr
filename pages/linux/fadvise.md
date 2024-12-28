@@ -1,7 +1,7 @@
 # fadvise
 
 > Control Linux file caching behavior.
-> More information: <https://manned.org/a2disconf.8>.
+> More information: <https://manned.org/fadvise>.
 
 - Preload a file into cache:
 
