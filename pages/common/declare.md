@@ -1,7 +1,7 @@
 # declare
 
 > Declare variables and give them attributes.
-> More information: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-declare>.
 
 - Declare a string variable with the specified value:
 
@@ -26,3 +26,7 @@
 - Declare a global variable within a function with the specified value:
 
 `declare -g {{variable}}="{{value}}"`
+
+- Print a function definition:
+
+`declare -f {{function_name}}`
