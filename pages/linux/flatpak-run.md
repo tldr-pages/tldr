@@ -19,6 +19,6 @@
 
 `flatpak run --runtime-version={{24.08|master|stable|...}} {{com.example.app}}`
 
-- Run an installed application with a different runtime (but same version number), e.g. org.freedesktop.Sdk:
+- Run an installed application with a different runtime (but same version number):
 
 `flatpak run --runtime={{org.freedesktop.Sdk}} {{com.example.app}}`
