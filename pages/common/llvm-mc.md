@@ -22,4 +22,4 @@
 
 - Disassemble machine code from standard input stream for specified triple:
 
-`echo "0xCD 0x21" | llvm-mc --disassemble -triple={{target_name}}`
+`echo "{{0xCD 0x21}}" | llvm-mc --disassemble -triple={{target_name}}`
