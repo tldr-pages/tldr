@@ -1,7 +1,7 @@
 # mysql
 
 > MySQL 命令行工具。
-> 更多信息：<https://www.mysql.com/cn/>.
+> 更多信息：<https://www.mysql.com/>.
 
 - 连接数据库：
 
