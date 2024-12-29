@@ -11,6 +11,6 @@
 
 `pkill -CONT bash`
 
-- Forza la suspensión, incluso si esto bloquea el sistema:
+- Fuerza la suspensión, incluso si esto bloquea el sistema:
 
 `suspend -f`
