@@ -18,7 +18,7 @@
 
 - Assemble assembly code from standard input stream and show encoding to standard output stream:
 
-`echo "addl %eax, %ebx" | llvm-mc -show-encoding -show-inst`
+`echo "{{addl %eax, %ebx}}" | llvm-mc -show-encoding -show-inst`
 
 - Disassemble machine code from standard input stream for specified triple:
 
