@@ -3,7 +3,7 @@
 > Simplifica los archivos fuente LaTeX eliminando comentarios y resolviendo `\include`s, `\input`s, etc.
 > Más información: <https://www.ctan.org/pkg/latexpand>.
 
-- Simplifica el archivo fuente especificado y guarda el resultado en el archivo de salida  especificado:
+- Simplifica el archivo fuente dado y guarda el resultado en el archivo de salida especificado:
 
 `latexpand --output {{ruta/al/archivo.tex}} {{ruta/al/archivo.tex}}`
 
