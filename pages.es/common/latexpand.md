@@ -13,7 +13,7 @@
 
 - No expande `\include`s, `\input`s etc.:
 
-`latexpand --keep-includes --output {{ruta/a/salida.tex}} {{ruta/al/archivo.tex}} {{ruta/al/archivo.tex}}`
+`latexpand --keep-includes --output {{ruta/a/salida.tex}} {{ruta/al/archivo.tex}}`
 
 - Expande `\usepackage`s hasta encontrar los archivos STY correspondientes:
 
