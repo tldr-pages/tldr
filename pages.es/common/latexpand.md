@@ -11,7 +11,7 @@
 
 `latexpand --keep-comments --output {{ruta/a/salida.tex}} {{ruta/al/archivo.tex}}`
 
-- No expande `\include`s, `input`s etc.:
+- No expande `\include`s, `\input`s etc.:
 
 `latexpand --keep-includes --output {{ruta/a/salida.tex}} {{ruta/al/archivo.tex}} {{ruta/al/archivo.tex}}`
 
