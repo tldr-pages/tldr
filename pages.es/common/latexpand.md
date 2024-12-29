@@ -7,7 +7,7 @@
 
 `latexpand --output {{ruta/al/archivo.tex}} {{ruta/al/archivo.tex}}`
 
-- No elimine los comentarios:
+- No elimina los comentarios:
 
 `latexpand --keep-comments --output {{ruta/a/salida.tex}} {{ruta/al/archivo.tex}}`
 
