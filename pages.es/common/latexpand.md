@@ -17,7 +17,7 @@
 
 - Expande `\usepackage`s hasta encontrar los archivos STY correspondientes:
 
-`latexpand --expand-usepackage --output {{ruta/a/salida.tex}} {{ruta/al/archivo.tex}} {{ruta/al/archivo.tex}}`
+`latexpand --expand-usepackage --output {{ruta/a/salida.tex}} {{ruta/al/archivo.tex}}`
 
 - Incorpora el archivo BBL especificado:
 
