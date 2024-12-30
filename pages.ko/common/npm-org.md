@@ -1,4 +1,4 @@
-# npm-org
+# npm org
 
 > 조직을 관리.
 > 더 많은 정보: <https://docs.npmjs.com/cli/commands/npm-org>.

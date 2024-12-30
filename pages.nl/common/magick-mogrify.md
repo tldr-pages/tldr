@@ -24,3 +24,7 @@
 - Verdubbel de helderheid van alle afbeeldingsbestanden in de huidige map:
 
 `magick mogrify -modulate {{200}} {{*}}`
+
+- Verklein de bestandsgrootte van alle GIF-afbeeldingen in de huidige map door de kwaliteit te verlagen:
+
+`magick mogrify -layers 'optimize' -fuzz {{7%}} {{*.gif}}`

@@ -1,7 +1,7 @@
 # cp
 
 > Скопіювати файли і папки.
-> Більше інформації: <https://www.gnu.org/software/coreutils/cp>.
+> Більше інформації: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Скопіювати файл в інше місце:
 

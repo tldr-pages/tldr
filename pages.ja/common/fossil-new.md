@@ -1,8 +1,7 @@
 # fossil new
 
-> このコマンドは  `fossil init`.のエイリアスです。
-> 詳しくはこちら: <https://fossil-scm.org/home/help/new>
+> このコマンドは `fossil init`.のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 
-`tldr fossil-init`
+`tldr fossil init`

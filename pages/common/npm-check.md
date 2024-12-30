@@ -1,4 +1,4 @@
-# npm-check
+# npm check
 
 > Check for outdated, incorrect, and unused npm package dependencies.
 > More information: <https://github.com/dylang/npm-check>.

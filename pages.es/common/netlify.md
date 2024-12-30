@@ -7,7 +7,7 @@
 
 `netlify login`
 
-- Despliega el contenido de  un directorio en Netlify:
+- Despliega el contenido de un directorio en Netlify:
 
 `netlify deploy`
 

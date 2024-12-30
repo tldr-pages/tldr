@@ -26,3 +26,7 @@
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
 `sha384sum --ignore-missing --check --quiet {{pad/naar/bestand.sha384}}`
+
+- Controleer een bekende SHA384 checksum van een bestand:
+
+`echo {{bekende_sha384_checksum_van_het_bestand}} {{pad/naar/bestand}} | sha384sum --check`

@@ -3,17 +3,13 @@
 > Executa os testes unitários e de integração de um pacote Rust.
 > Mais informações: <https://doc.rust-lang.org/cargo/commands/cargo-test.html>.
 
-- Executa apenas os testes que contenham uma string específica em seus nomes:
+- Executa apenas os testes que contenham um texto específico em seus nomes:
 
 `cargo test {{nomedoteste}}`
 
 - Define o número de casos de teste para execução simultânea:
 
 `cargo test -- --test-threads {{quantidade}}`
-
-- Executa os testes garantindo que o `Cargo.lock` esteja atualizado:
-
-`cargo test --locked`
 
 - Testa os artefatos em modo de publicação (release), com otimizações:
 

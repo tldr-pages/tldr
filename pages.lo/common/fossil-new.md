@@ -1,8 +1,7 @@
 # fossil new
 
-> ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ  `fossil init`.
-> ຂໍ້ມູນເພີ່ມເຕີມ: <https://fossil-scm.org/home/help/new>.
+> ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `fossil init`.
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 
-`tldr fossil-init`
+`tldr fossil init`

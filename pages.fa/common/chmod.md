@@ -1,7 +1,7 @@
 # chmod
 
 > تغییر مجوز(ها)ی دسترسی به یک فایل یا پوشه.
-> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/chmod>.
+> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - به مالک فایل دسترسی اجرا میدهد:
 
