@@ -1,7 +1,7 @@
 # declare
 
 > Declareer variabelen en geef ze attributen.
-> Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.
+> Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-declare>.
 
 - Declareer een string variable met de gespecificeerde waarde:
 
