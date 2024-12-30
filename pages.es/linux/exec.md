@@ -13,8 +13,8 @@
 
 - Ejecuta un comando como un shell de inicio de sesión:
 
-`exec -l {{comando -con -banderas}}`
+`exec -l {{comando -con -opciones}}`
 
 - Ejecuta un comando con un nombre diferente:
 
-`exec -a {{nombre}} {{comando -con -banderas}}`
+`exec -a {{nombre}} {{comando -con -opciones}}`
