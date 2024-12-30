@@ -5,7 +5,7 @@
 
 - Simplifica el archivo fuente dado y guarda el resultado en el archivo de salida especificado:
 
-`latexpand --output {{ruta/al/archivo.tex}} {{ruta/al/archivo.tex}}`
+`latexpand --output {{ruta/a/salida.tex}} {{ruta/al/archivo.tex}}`
 
 - No elimina los comentarios:
 
