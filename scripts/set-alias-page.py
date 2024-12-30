@@ -120,6 +120,7 @@ def get_templates(root: Path):
 
     return templates
 
+
 def process_alias_and_command(template: str, alias_name: str, command: str) -> str:
     """
     Process the template to replace 'example' with alias_name and command,
