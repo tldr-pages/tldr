@@ -27,6 +27,6 @@
 
 `declare -g {{variable}}="{{waarde}}"`
 
-- Print een function definitie:
+- Print een functie-definitie:
 
 `declare -f {{functie_naam}}`
