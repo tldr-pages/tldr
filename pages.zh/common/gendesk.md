@@ -1,0 +1,16 @@
+# gendesk
+
+> 指定最少信息生成`.desktop`文件和下载图标的命令。
+> 更多信息：<https://gendesk.roboticoverlords.org/>.
+
+- 创建一个名为`应用程序`的`.desktop`文件：
+
+`gendesk -n --name "{{应用程序}}" --exec "{{/路径/到/应用程序}}" --icon "{{/路径/到/图标.png}}" --comment "{{这是一个应用程序}}"`
+
+- 显示帮助选项
+
+`gendesk -h`
+
+- 创建一个名为`app`的`.desktop`文件, 不显示任何输出，如果存在则覆盖：
+
+`gendesk -q -f -n --name "{{应用程序}}" --exec "{{/路径/到/应用程序}}" --icon "{{/路径/到/图标.png}}" --comment "{{这是一个应用程序}}"`
