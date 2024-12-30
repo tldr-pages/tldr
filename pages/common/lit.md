@@ -16,6 +16,6 @@
 
 `lit {{path/to/test_suite}} --time-tests`
 
-- Run individual tests with valgrind (memory check and memory leak test):
+- Run individual tests with Valgrind (memory check and memory leak test):
 
 `lit {{path/to/test_file.test}} --vg --vg-leak --vg-args={{args_to_valgrind}}`
