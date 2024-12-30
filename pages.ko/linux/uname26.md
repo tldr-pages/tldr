@@ -4,4 +4,4 @@
 
 - 원본 명령어의 문서 보기:
 
-`tldr setarch uname26`
+`tldr setarch`

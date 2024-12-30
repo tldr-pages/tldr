@@ -4,5 +4,4 @@
 
 - 원본 명령어의 문서 보기:
 
-`tldr pacman --query`
-
+`tldr pacman query`

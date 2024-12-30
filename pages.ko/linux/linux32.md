@@ -4,4 +4,4 @@
 
 - 원본 명령어의 문서 보기:
 
-`tldr setarch linux32`
+`tldr setarch`
