@@ -1,20 +1,7 @@
-# jupyter lab
+# jupyterlab
 
-> Interactive development environment for Jupyter notebooks.
-> More information: <https://jupyterlab.readthedocs.io/en/stable/>.
+> This command is an alias of `jupyter lab`.
 
-- Start JupyterLab:
+- View documentation for the original command:
 
-`jupyter lab`
-
-- Open a specific notebook:
-
-`jupyter lab {{path/to/notebook.ipynb}}`
-
-- Start JupyterLab in a specific directory:
-
-`jupyter lab --notebook-dir {{path/to/directory}}`
-
-- Start JupyterLab in debug mode:
-
-`jupyter lab --debug`
+`tldr jupyter lab`
