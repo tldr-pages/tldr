@@ -155,7 +155,7 @@ def set_alias_page(
 
     # Test if the alias page already exists
     line = re.search(r">.*", text).group(0).replace(command, "(.+)")
-    original_command = get_alias_page(path, line)
+    original_command = get_alias_command_in_page(path, line)
     if original_command == command:
         return ""
 
@@ -174,7 +174,7 @@ def set_alias_page(
     return status
 
 
-def get_alias_page(path: Path, regex: str) -> str:
+def get_alias_command_in_page(path: Path, regex: str) -> str:
     """
     Determine whether the given path is an alias page.
 
@@ -278,9 +278,9 @@ def main():
                 if page.name not in IGNORE_FILES
             ]
             for command in commands:
-                original_command = get_alias_page(
+                original_command = get_alias_command_in_page(
                     root / "pages" / command,
-                    r"^> This command is an alias of `(.+)`\.$",
+                    r"> This command is an alias of(?: \w+)? `([^`]+)`(?:,.*)?",
                 )
                 if original_command != "":
                     target_paths += sync(
