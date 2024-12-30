@@ -26,3 +26,7 @@
 - Declareer een globale variable binnen een functie met de gespecificeerde waarde:
 
 `declare -g {{variable}}="{{waarde}}"`
+
+- Print een function definitie:
+
+`declare -f {{functie_naam}}`
