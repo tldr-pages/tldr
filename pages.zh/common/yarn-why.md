@@ -1,8 +1,8 @@
 # yarn-why
 
-> 确认安装这个 Yarn 软件包的原因。
-> 更多信息：<https://github.com/amio/yarn-why>.
+> 确定为什么一个 Yarn 包被安装。
+> 更多信息： <https://github.com/amio/yarn-why>。
 
-- 打印安装这个 Yarn 软件包的原因：
+- 显示一个 Yarn 包被安装的原因：
 
-`yarn-why {{package_name}}`
+`yarn-why {{package}}`

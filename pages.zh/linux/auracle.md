@@ -1,19 +1,19 @@
 # auracle
 
-> 用来和 Arch Linux 用户仓库交互的命令行工具，这个仓库通常被称作 AUR.
-> 更多信息：<https://github.com/falconindy/auracle>.
+> 用于与 Arch Linux 的用户仓库（通常称为 AUR）交互的命令行工具。
+> 更多信息请访问：<https://github.com/falconindy/auracle>。
 
-- 显示符合一个正则表达式的 AUR 包：
+- 显示匹配正则表达式的 AUR 包：
 
-`auracle search '{{regular_expression}}'`
+`auracle search '{{正则表达式}}'`
 
-- 显示 AUR 包列表的包信息，包名以一个单独的空格分隔：
+- 显示一个或多个 AUR 包的信息：
 
-`auracle info {{package1 package2 ...}}`
+`auracle info {{包名1 包名2 ...}}`
 
-- 显示 AUR 包列表的 `PKGBUILD` 文件（编译信息），包名以一个单独的空格分隔：
+- 显示一个或多个 AUR 包的 `PKGBUILD` 文件（构建信息）：
 
-`auracle show {{package1 package2 ...}}`
+`auracle show {{包名1 包名2 ...}}`
 
 - 显示已安装 AUR 包的更新：
 

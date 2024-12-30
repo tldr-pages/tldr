@@ -1,32 +1,32 @@
-# choco source
+# choco 源
 
-> 使用 Chocolatey 管理包的源。
-> 更多信息：<https://chocolatey.org/docs/commands-source>.
+> 管理 Chocolatey 的软件包源。
+> 更多信息：<https://chocolatey.org/docs/commands/source>。
 
 - 列出当前可用的源：
 
 `choco source list`
 
-- 添加一个新的包源：
+- 添加一个新的软件包源：
 
-`choco source add --name {{名称}} --source {{url}}`
+`choco source add --name {{name}} --source {{url}}`
 
-- 添加包含凭据的新包源：
+- 添加一个带有凭据的新软件包源：
 
-`choco source add --name {{名称}} --source {{url}} --user {{用户名}} --password {{密码}}`
+`choco source add --name {{name}} --source {{url}} --user {{username}} --password {{password}}`
 
-- 使用客户端证书添加新的包源：
+- 添加一个带有客户端证书的新软件包源：
 
-`choco source add --name {{名称}} --source {{url}} --cert {{证书的路径}}`
+`choco source add --name {{name}} --source {{url}} --cert {{path\to\certificate_file}}`
 
-- 启用一个包源：
+- 启用一个软件包源：
 
-`choco source enable --name {{名称}}`
+`choco source enable --name {{name}}`
 
-- 禁用一个包源：
+- 禁用一个软件包源：
 
-`choco source disable --name {{名称}}`
+`choco source disable --name {{name}}`
 
-- 移除一个包源：
+- 移除一个软件包源：
 
-`choco source remove --name {{名称}}`
+`choco source remove --name {{name}}`

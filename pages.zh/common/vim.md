@@ -1,36 +1,37 @@
 # vim
 
-> Vi IMproved，一个程序员的文本编辑器，提供为不同类型的文档修改设计的多种模式。
-> 按 `i` 进入插入模式。`<Esc>` 返回正常模式，正常模式允许使用 Vim 命令。
-> 更多信息：<https://www.vim.org>.
+> Vim（Vi IMproved）是一个命令行文本编辑器，提供了多种模式以进行不同类型的文本操作。
+> 在普通模式下按 `i` 进入插入模式。按 `<Esc>` 返回普通模式，这样就可以使用 Vim 命令。
+> 另见： `vimdiff`，`vimtutor`，`nvim`。
+> 更多信息：<https://www.vim.org>。
 
-- 打开文档：
+- 打开一个文件：
 
-`vim {{文件}}`
+`vim {{path/to/file}}`
 
-- 打开文件的指定行数：
+- 在指定行号打开一个文件：
 
-`vim +{{行数}} {{文件}}`
+`vim +{{line_number}} {{path/to/file}}`
 
-- 查看 Vim 的使用说明：
+- 查看 Vim 的帮助手册：
 
 `:help<Enter>`
 
-- 保存并退出：
+- 保存并退出当前缓冲区：
 
-`{{ZZ|:wq<Enter>}}`
+`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
 
-- 撤销上一个操作：
+- 进入普通模式并撤销上一个操作：
 
 `<Esc>u`
 
-- 用特征（pattern）在文件中搜寻，按下 `n`/`N` 切换至上 / 下一个结果：
+- 在文件中搜索模式（按 `n`/`N` 转到下一个/上一个匹配项）：
 
-`/{{特征}}<Enter>`
+`/{{search_pattern}}<Enter>`
 
-- 对整个文件使用正则表达式进行替换：
+- 在整个文件中执行正则表达式替换：
 
-`:%s/{{正则表达式}}/{{替换字}}/g<Enter>`
+`:%s/{{regular_expression}}/{{replacement}}/g<Enter>`
 
 - 显示行号：
 

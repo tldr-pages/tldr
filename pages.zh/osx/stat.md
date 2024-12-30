@@ -1,24 +1,24 @@
 # stat
 
 > 显示文件状态。
-> 更多信息：<https://keith.github.io/xcode-man-pages/stat.1.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/stat.1.html>。
 
-- 显示文件属性，如大小、权限、创建和访问日期等：
+- 显示文件属性，例如大小、权限、创建和访问日期等：
 
-`stat {{文件}}`
+`stat {{path/to/file}}`
 
-- 与上面相同，但更详细（更类似于 Linux 的 `stat`）：
+- 与上述相同，但更详细（更类似于Linux的`stat`）：
 
-`stat -x {{文件}}`
+`stat -x {{path/to/file}}`
 
-- 只显示文件权限：
+- 仅显示八进制文件权限：
 
-`stat -f %Mp%Lp {{文件}}`
+`stat -f %Mp%Lp {{path/to/file}}`
 
-- 显示文件的所有者和所属组：
+- 显示文件的所有者和组：
 
-`stat -f "%Su %Sg" {{文件}}`
+`stat -f "%Su %Sg" {{path/to/file}}`
 
-- 以字节为单位显示文件的大小：
+- 显示文件的大小（以字节为单位）：
 
-`stat -f "%z %N" {{文件}}`
+`stat -f "%z %N" {{path/to/file}}`

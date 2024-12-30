@@ -1,24 +1,24 @@
-# uv tool
+# uv 工具
 
-> 安装和运行由 Python 软件包提供的命令。
-> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-tool>.
+> 安装并运行由 Python 包提供的命令。
+> 更多信息：<https://docs.astral.sh/uv/reference/cli/#uv-tool>。
 
-- 运行一个来自软件包的命令，而不安装它：
+- 从一个包中运行命令，而无需安装它：
 
-`uv tool run {{命令}}`
+`uv tool run {{command}}`
 
-- 在系统范围内安装一个 Python 软件包：
+- 全系统范围安装一个 Python 包：
 
-`uv tool install {{软件包}}`
+`uv tool install {{package}}`
 
-- 升级已安装的 Python 软件包：
+- 升级已安装的 Python 包：
 
-`uv tool upgrade {{软件包}}`
+`uv tool upgrade {{package}}`
 
-- 卸载一个 Python 软件包：
+- 卸载一个 Python 包：
 
-`uv tool uninstall {{软件包}}`
+`uv tool uninstall {{package}}`
 
-- 列出系统范围内已安装的 Python 软件包：
+- 列出全系统范围安装的 Python 包：
 
 `uv tool list`

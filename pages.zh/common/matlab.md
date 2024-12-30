@@ -1,16 +1,16 @@
 # matlab
 
-> MathWorks 制作的数值计算环境。
+> 数值计算环境，由MathWorks提供。
 > 更多信息：<https://uk.mathworks.com/help/matlab/>.
 
-- 在启动过程中，运行时不出现闪屏：
+- 启动时无启动画面运行：
 
 `matlab -nosplash`
 
-- 执行 MATLAB 语句：
+- 执行MATLAB语句：
 
-`matlab -r "{{matlab_语句}}"`
+`matlab -r "{{matlab_statement}}"`
 
-- 运行 MATLAB 脚本：
+- 运行MATLAB脚本：
 
-`matlab -r "run({{路径/script.m}})"`
+`matlab -r "run({{path/to/script.m}})"`

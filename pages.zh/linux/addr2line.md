@@ -1,16 +1,16 @@
 # addr2line
 
-> 将二进制文件地址转换成文件名和行数。
-> 更多信息：<https://manned.org/addr2line>.
+> 将二进制文件的地址转换为文件名和行号。
+> 更多信息：<https://manned.org/addr2line>。
 
-- 显示可执行文件的指令地址对应源代码的文件名和行数：
+- 从可执行文件的指令地址显示源代码的文件名和行号：
 
-`addr2line --exe={{可执行文件路径}} {{地址}}`
+`addr2line --exe={{path/to/executable}} {{address}}`
 
-- 显示函数名、文件名和行数：
+- 显示函数名、文件名和行号：
 
-`addr2line --exe={{可执行文件路径}} --functions {{地址}}`
+`addr2line --exe={{path/to/executable}} --functions {{address}}`
 
-- 将 C++ 代码函数名符号重组：
+- 对C++代码的函数名进行解码：
 
-`addr2line --exe={{可执行文件地址}} --functions --demangle {{地址}}`
+`addr2line --exe={{path/to/executable}} --functions --demangle {{address}}`

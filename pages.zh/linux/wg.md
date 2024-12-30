@@ -1,24 +1,24 @@
 # wg
 
-> 管理 WireGuard 接口配置。
+> 管理 WireGuard 接口的配置。
 > 更多信息：<https://www.wireguard.com/quickstart/>.
 
-- 检查当前激活接口的状态：
+- 检查当前活动接口的状态：
 
 `sudo wg`
 
-- 生成新的私钥：
+- 生成一个新的私钥：
 
 `wg genkey`
 
 - 从私钥生成公钥：
 
-`wg pubkey < {{路径/到/私钥}} > {{路径/到/公钥}}`
+`wg pubkey < {{path/to/private_key}} > {{path/to/public_key}}`
 
-- 同时生成公钥和私钥：
+- 生成公钥和私钥：
 
-`wg genkey | tee {{路径/到/私钥}} | wg pubkey > {{路径/到/公钥}}`
+`wg genkey | tee {{path/to/private_key}} | wg pubkey > {{path/to/public_key}}`
 
-- 展示 WireGuard 接口的当前配置：
+- 显示 wireguard 接口的当前配置：
 
 `sudo wg showconf {{wg0}}`

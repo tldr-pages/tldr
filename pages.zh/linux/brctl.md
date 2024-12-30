@@ -1,24 +1,24 @@
 # brctl
 
-> 以太网桥管理。
-> 更多信息：<https://manned.org/brctl>.
+> 以太网桥接管理。
+> 更多信息：<https://manned.org/brctl>。
 
-- 显示有关当前现有以太网网桥信息的列表：
+- 显示当前存在的以太网桥的列表信息：
 
 `sudo brctl show`
 
-- 创建新的以太网桥接接口：
+- 创建一个新的以太网桥接口：
 
-`sudo brctl add {{网桥名}}`
+`sudo brctl add {{bridge_name}}`
 
-- 删除一个已存在的以太网桥接接口：
+- 删除一个现有的以太网桥接口：
 
-`sudo brctl del {{网桥名}}`
+`sudo brctl del {{bridge_name}}`
 
-- 向现有网桥添加接口：
+- 将一个接口添加到现有桥接中：
 
-`sudo brctl addif {{网桥名}} {{接口名}}`
+`sudo brctl addif {{bridge_name}} {{interface_name}}`
 
-- 从现有网桥中删除接口：
+- 从现有桥接中移除一个接口：
 
-`sudo brctl delif {{网桥名}} {{接口名}}`
+`sudo brctl delif {{bridge_name}} {{interface_name}}`

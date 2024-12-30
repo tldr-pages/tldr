@@ -1,24 +1,24 @@
 # reg add
 
-> 将新的键值添加到注册表中。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-add>.
+> 向注册表添加新键及其值。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-add>。
 
 - 添加一个新的注册表键：
 
-`reg add {{键名}}`
+`reg add {{key_name}}`
 
-- 在指定的键下添加新值：
+- 在特定键下添加一个新的[v]alue：
 
-`reg add {{键名}} /v {{值}}`
+`reg add {{key_name}} /v {{value}}`
 
-- Add a new value with specific data：
+- 添加一个具有特定[d]ata的新值：
 
-`reg add {{键名}} /d {{数据}}`
+`reg add {{key_name}} /d {{data}}`
 
-- 向具有特定数据类型的键添加新值：
+- 向具有特定数据[t]ype的键添加一个新值：
 
-`reg add {{键名}} /t {{类型}}`
+`reg add {{key_name}} /t REG_{{SZ|MULTI_SZ|DWORD_BIG_ENDIAN|DWORD|BINARY|DWORD_LITTLE_ENDIAN|LINK|FULL_RESOURCE_DESCRIPTOR|EXPAND_SZ}}`
 
-- 在没有提示的情况下强制覆盖现有的注册表值：
+- [f]orcefully（无提示）覆盖现有的注册表值：
 
-`reg add {{键名}} /f`
+`reg add {{key_name}} /f`

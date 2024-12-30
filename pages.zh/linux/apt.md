@@ -1,37 +1,38 @@
 # apt
 
-> 基于 Debian 的发行版上的软件包管理工具。
-> 在 Ubuntu 16.04 及之后版本推荐用它代替 `apt-get` 。
-> 更多信息：<https://manned.org/apt.8>.
+> 针对基于Debian的发行版的包管理工具。
+> 在Ubuntu 16.04及更高版本中，推荐在交互式使用时替代`apt-get`。
+> 有关其他包管理器中等效命令的信息，请参见<https://wiki.archlinux.org/title/Pacman/Rosetta>。
+> 更多信息：<https://manned.org/apt.8>。
 
-- 更新可用软件包及其版本列表（推荐在运行其他 APT 命令前首先运行该命令）：
+- 更新可用包和版本的列表（建议在其他`apt`命令之前运行此命令）：
 
 `sudo apt update`
 
-- 查找指定软件包：
+- 搜索给定的包：
 
-`apt search {{软件包}}`
+`apt search {{package}}`
 
-- 显示关于指定软件包的信息：
+- 显示包的信息：
 
-`apt show {{软件包}}`
+`apt show {{package}}`
 
-- 安装指定软件包或将指定软件包更新到最新版本：
+- 安装一个包，或将其更新到最新可用版本：
 
-`sudo apt install {{软件包}}`
+`sudo apt install {{package}}`
 
-- 移除指定软件包（使用 `purge` 同时移除其配置文件）：
+- 移除一个包（使用`purge`则同时移除其配置文件）：
 
-`sudo apt remove {{软件包}}`
+`sudo apt remove {{package}}`
 
-- 将所有已安装软件包更新到最新可用版本：
+- 将所有已安装的包升级到最新可用版本：
 
 `sudo apt upgrade`
 
-- 列出所有软件包：
+- 列出所有包：
 
 `apt list`
 
-- 列出已安装的软件包：
+- 列出已安装的包：
 
 `apt list --installed`

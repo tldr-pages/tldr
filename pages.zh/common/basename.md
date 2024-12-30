@@ -1,16 +1,16 @@
 # basename
 
-> 移除一个路径的目录部分字符。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
+> 从路径中移除前导目录部分。
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>。
 
-- 仅显示文件名：
+- 仅显示路径中的文件名：
 
-`basename {{路径/到/文件}}`
+`basename {{path/to/file}}`
 
-- 显示路径字符最右边表示目录的字符：
+- 仅显示路径中最右侧的目录名：
 
-`basename {{路径/到/目录/}}`
+`basename {{path/to/directory}}`
 
-- 展示无后缀的文件名称：
+- 仅显示路径中的文件名，并移除后缀：
 
-`basename {{路径/到/文件}} {{后缀}}`
+`basename {{path/to/file}} {{suffix}}`

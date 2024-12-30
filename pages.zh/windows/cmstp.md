@@ -1,36 +1,36 @@
 # cmstp
 
-> 用于管理连接服务配置文件的命令行工具。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/cmstp>.
+> 管理连接服务配置文件。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/cmstp>。
 
-- 安装指定的配置文件：
+- 安装特定配置文件：
 
-`cmstp "{{配置文件的路径}}"`
+`cmstp "{{path\to\profile_file}}"`
 
 - 安装时不创建桌面快捷方式：
 
-`cmstp /ns "{{配置文件的路径}}"`
+`cmstp /ns "{{path\to\profile_file}}"`
 
-- 安装时不检查依赖：
+- 安装时不检查依赖项：
 
-`cmstp /nf "{{配置文件的路径}}"`
+`cmstp /nf "{{path\to\profile_file}}"`
 
 - 仅为当前用户安装：
 
-`cmstp /su "{{配置文件的路径}}"`
+`cmstp /su "{{path\to\profile_file}}"`
 
 - 为所有用户安装（需要管理员权限）：
 
-`cmstp /au "{{配置文件的路径}}"`
+`cmstp /au "{{path\to\profile_file}}"`
 
-- 静默安装：
+- 安装时静默进行，不显示任何提示：
 
-`cmstp /s "{{配置文件的路径}}"`
+`cmstp /s "{{path\to\profile_file}}"`
 
-- 卸载一个指定的配置文件：
+- 卸载特定配置文件：
 
-`cmstp /u "{{配置文件的路径}}"`
+`cmstp /u "{{path\to\profile_file}}"`
 
-- 静默删除：
+- 静默卸载，不显示确认提示：
 
-`cmstp /u /s "{{配置文件的路径}}"`
+`cmstp /u /s "{{path\to\profile_file}}"`

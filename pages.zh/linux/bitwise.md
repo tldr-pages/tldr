@@ -1,7 +1,7 @@
 # bitwise
 
-> 支持动态基数转换和位操作的多基数交互式计算器。
-> 更多信息：<https://github.com/mellowcandle/bitwise>.
+> 多基数交互式计算器，支持动态基数转换和位操作。
+> 更多信息：<https://github.com/mellowcandle/bitwise>。
 
 - 使用交互模式运行：
 

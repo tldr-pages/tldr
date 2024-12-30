@@ -1,36 +1,36 @@
-# sort
+# 排序
 
 > 对文本文件的行进行排序。
-> 更多信息：<https://www.gnu.org/software/coreutils/sort>.
+> 更多信息：<https://www.gnu.org/software/coreutils/sort>。
 
-- 以升序对文件进行排序：
+- 按升序排序文件：
 
-`sort {{路径/到/文件}}`
+`sort {{path/to/file}}`
 
-- 以降序对文件进行排序：
+- 按降序排序文件：
 
-`sort --reverse {{路径/到/文件}}`
+`sort --reverse {{path/to/file}}`
 
-- 以不区分大小写的方式对文件进行排序：
+- 以不区分大小写的方式排序文件：
 
-`sort --ignore-case {{路径/到/文件}}`
+`sort --ignore-case {{path/to/file}}`
 
-- 用数字而不是字母顺序对文件进行排序：
+- 使用数字而非字母顺序排序文件：
 
-`sort --numeric-sort {{路径/到/文件}}`
+`sort --numeric-sort {{path/to/file}}`
 
-- 按每行的第 3 个字段对 `/etc/passwd` 进行数字排序，使用 “:” 作为字段分隔符：
+- 按每行的第3个字段数值排序`/etc/passwd`，使用":"作为字段分隔符：
 
 `sort --field-separator={{:}} --key={{3n}} {{/etc/passwd}}`
 
-- 对一个文件进行排序，只保留唯一的行：
+- 如上所述，但当第3个字段的项相等时，按第4个字段的指数数字排序：
 
-`sort --unique {{路径/到/文件}}`
+`sort -t {{:}} -k {{3,3n}} -k {{4,4g}} {{/etc/passwd}}`
 
-- 对一个文件进行排序，将输出结果打印到指定的输出文件中（可以用来对一个文件进行原地排序）：
+- 排序文件，仅保留唯一的行：
 
-`sort --output={{路径/到/文件}} {{路径/到/文件}}`
+`sort --unique {{path/to/file}}`
 
-- 对带有指数的数字进行排序：
+- 排序文件，将输出打印到指定的输出文件（可用于就地排序文件）：
 
-`sort --general-numeric-sort {{路径/到/文件}}`
+`sort --output={{path/to/file}} {{path/to/file}}`

@@ -1,9 +1,9 @@
 # u3d
 
-> 一组用于与 Unity 进行交互的工具。
-> 更多信息：<https://github.com/DragonBox/u3d>.
+> 一组与 Unity 互动的工具。
+> 更多信息：<https://github.com/DragonBox/u3d>。
 
-- 使用正确的 Unity 版本打开当前目录中的项目：
+- 使用正确的 Unity 版本在当前目录中打开项目：
 
 `u3d`
 
@@ -11,14 +11,14 @@
 
 `u3d list`
 
-- 列出可下载的 Unity 版本：
+- 列出可以下载的可用 Unity 版本：
 
 `u3d available`
 
-- 下载并安装最新的稳定 Unity 版本：
+- 下载并安装最新的稳定版本 Unity：
 
 `u3d install latest_stable`
 
-- 下载并安装指定的 Unity 版本和编辑器包：
+- 下载并安装 Unity 版本及编辑器 [p]ackages：
 
 `u3d install {{2021.2.0f1}} -p {{Unity,iOS,Android}}`

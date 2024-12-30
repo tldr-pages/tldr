@@ -1,24 +1,28 @@
 # wc
 
-> 计数行、单词或字节。
-> 更多信息：<https://www.gnu.org/software/coreutils/wc>.
+> 计数行、单词和字节。
+> 更多信息：<https://www.gnu.org/software/coreutils/wc>。
 
-- 计数文件中的行数：
+- 计算文件中的所有行数：
 
-`wc -l {{文件}}`
+`wc --lines {{path/to/file}}`
 
-- 计数文件中的单词数：
+- 计算文件中的所有单词数：
 
-`wc -w {{文件}}`
+`wc --words {{path/to/file}}`
 
-- 计数文件中的字符（字节）：
+- 计算文件中的所有字节数：
 
-`wc -c {{文件}}`
+`wc --bytes {{path/to/file}}`
 
-- 计数文件中的字符数（考虑所有多字节的字符）：
+- 计算文件中的所有字符数（考虑多字节字符）：
 
-`wc -m {{文件}}`
+`wc --chars {{path/to/file}}`
 
-- 使用标准输入，按顺序计数行、单词和字符（字节）：
+- 从 `stdin` 计算所有行、单词和字节数：
 
 `{{find .}} | wc`
+
+- 计算最长行的字符数：
+
+`wc --max-line-length {{path/to/file}}`

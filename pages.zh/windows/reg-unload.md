@@ -1,8 +1,8 @@
-# reg unload
+# 卸载注册表
 
-> 从使用`reg load`命令加载的注册表中删除数据。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-unload>.
+> 使用 `reg load` 命令加载的数据从注册表中移除。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-unload>。
 
-- 从使用`reg load`命令加载的注册表中删除数据：
+- 从注册表中移除指定键的数据：
 
-`reg unload {{键名}}`
+`reg unload {{key_name}}`

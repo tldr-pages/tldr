@@ -1,20 +1,20 @@
 # reg delete
 
-> 从注册表中删除键和值。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete>.
+> 从注册表中删除键或它们的值。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete>。
 
-- 删除一个指定的键：
+- 删除特定的注册表键：
 
-`reg delete {{键名}}`
+`reg delete {{key_name}}`
 
-- 删除键中指定的值：
+- 删除特定键下的 [v]alue：
 
-`reg delete {{键名}} /v {{值}}`
+`reg delete {{key_name}} /v {{value}}`
 
-- 递归删除指定键下所有的值：
+- 递归删除指定键下的 [a]ll [v]alues：
 
-`reg delete {{键名}} /va`
+`reg delete {{key_name}} /va`
 
-- 在没有提示的情况下递归删除键中所有的值：
+- [f]orcefully（无需提示）递归删除键下的 [a]ll [v]alues：
 
-`reg delete {{键名}} /f /va`
+`reg delete {{key_name}} /f /va`

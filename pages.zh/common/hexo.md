@@ -1,17 +1,17 @@
 # hexo
 
-> 快速、简洁且高效的博客框架。
-> 更多信息：<https://hexo.io/>.
+> 一个快速、简单且强大的博客框架。
+> 更多信息：<https://hexo.io/>
 
 - 初始化一个网站：
 
-`hexo init {{path/to/directory}}`
+`hexo init {{路径/到/目录}}`
 
 - 创建一篇新文章：
 
-`hexo new {{layout}} {{title}}`
+`hexo new {{布局}} {{标题}}`
 
-- 构建静态文件：
+- 生成静态文件：
 
 `hexo generate`
 

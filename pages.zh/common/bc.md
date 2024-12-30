@@ -1,26 +1,26 @@
 # bc
 
-> 任意精度的计算器语言。
-> 请参阅：`dc`，`qalc`。
-> 更多信息：<https://manned.org/bc>.
+> 一个任意精度计算器语言。
+> 另见：`dc`，`qalc`。
+> 更多信息：<https://manned.org/bc>。
 
-- 启动交互式会话：
+- 开始一个交互式会话：
 
 `bc`
 
-- 启动交互式会话并启用标准数学库：
+- 启动一个启用标准数学库的 [i]nteractive 会话 [l]ibrary：
 
 `bc --interactive --mathlib`
 
-- 计算表达式：
+- 计算一个表达式：
 
 `echo '{{5 / 3}}' | bc`
 
-- 执行脚本：
+- 执行一个脚本：
 
-`bc {{路径/到/脚本.bc}}`
+`bc {{path/to/script.bc}}`
 
-- 使用指定的小数位数计算一个表达式：
+- 计算一个具有指定小数位数的表达式：
 
 `echo 'scale = {{10}}; {{5 / 3}}' | bc`
 
@@ -28,6 +28,6 @@
 
 `echo '{{s|c|a|l|e}}({{1}})' | bc --mathlib`
 
-- 执行一个内联的阶乘脚本：
+- 执行一个内联阶乘脚本：
 
 `echo "define factorial(n) { if (n <= 1) return 1; return n*factorial(n-1); }; factorial({{10}})" | bc`

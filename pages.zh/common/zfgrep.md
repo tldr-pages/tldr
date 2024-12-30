@@ -1,25 +1,25 @@
 # zfgrep
 
-> 在可能压缩的文件中匹配固定字符串。
-> 相当于 `grep -F`，如果必要，将先解压输入。
-> 更多信息：<https://manned.org/zfgrep>.
+> 在可能被压缩的文件中匹配固定字符串。
+> 相当于首先解压输入后再使用 `grep -F`。
+> 更多信息请访问: <https://manned.org/zfgrep>。
 
-- 在文件中搜索一个确切的字符串：
+- 在文件中搜索确切字符串：
 
-`zfgrep {{搜索字符串}} {{路径/到/文件}}`
+`zfgrep {{search_string}} {{path/to/file}}`
 
-- 计算在文件中匹配给定字符串的行数：
+- 计算文件中与给定字符串匹配的行数：
 
-`zfgrep --count {{搜索字符串}} {{路径/到/文件}}`
+`zfgrep --count {{search_string}} {{path/to/file}}`
 
-- 显示文件中匹配行的行号：
+- 显示文件中的行号和匹配的行：
 
-`zfgrep --line-number {{搜索字符串}} {{路径/到/文件}}`
+`zfgrep --line-number {{search_string}} {{path/to/file}}`
 
 - 显示所有不包含搜索字符串的行：
 
-`zfgrep --invert-match {{搜索字符串}} {{路径/到/文件}}`
+`zfgrep --invert-match {{search_string}} {{path/to/file}}`
 
 - 仅列出内容至少匹配搜索字符串一次的文件名：
 
-`zfgrep --files-with-matches {{搜索字符串}} {{路径/到/文件1 路径/到/文件2 ...}}`
+`zfgrep --files-with-matches {{search_string}} {{path/to/file1 path/to/file2 ...}}`

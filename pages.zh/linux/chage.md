@@ -1,21 +1,21 @@
 # chage
 
-> 更改用户账户和密码到期信息。
-> 更多信息：<https://manned.org/chage>.
+> 更改用户账户和密码过期信息。
+> 更多信息：<https://manned.org/chage>。
 
 - 列出用户的密码信息：
 
 `chage --list {{用户名}}`
 
-- 启用密码在 10 天内过期：
+- 在10天内启用密码过期：
 
 `sudo chage --maxdays {{10}} {{用户名}}`
 
-- 关闭密码过期：
+- 禁用密码过期：
 
 `sudo chage --maxdays {{-1}} {{用户名}}`
 
-- 设置账户到期日期：
+- 设置账户过期日期：
 
 `sudo chage --expiredate {{YYYY-MM-DD}} {{用户名}}`
 

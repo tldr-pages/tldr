@@ -1,36 +1,36 @@
 # adb shell
 
-> 安卓调试桥-Shell: 运行安卓模拟器或者连接设备上的远程终端命令。
-> 更多信息：<https://developer.android.com/tools/adb>.
+> 在连接的 Android 设备或模拟器上运行 shell 命令。
+> 更多信息：<https://developer.android.com/tools/adb>。
 
-- 启动模拟器/设备上的远程终端：
+- 在模拟器或设备上启动远程交互式 shell：
 
 `adb shell`
 
-- 获取模拟器/设备全部属性：
+- 获取模拟器或设备的所有属性：
 
 `adb shell getprop`
 
-- 重置所有运行时权限为它们的默认值：
+- 将所有运行时权限恢复为默认值：
 
 `adb shell pm reset-permissions`
 
-- 撤销一个应用的危险权限：
+- 撤销应用程序的危险权限：
 
-`adb shell pm revoke {{包名}} {{权限}}`
+`adb shell pm revoke {{package}} {{permission}}`
 
-- 触发一个键盘敲击事件：
+- 触发一个按键事件：
 
-`adb shell input keyevent {{键位码}}`
+`adb shell input keyevent {{keycode}}`
 
-- 清除模拟器/设备上的数据：
+- 清除模拟器或设备上应用程序的数据：
 
-`adb shell pm clear {{包名}}`
+`adb shell pm clear {{package}}`
 
-- 启动模拟器/设备上的一个行为：
+- 在模拟器或设备上启动一个活动：
 
-`adb shell am start -n {{包名}}/{{活动名}}`
+`adb shell am start -n {{package}}/{{activity}}`
 
-- 启动模拟器/设备上的首页活动：
+- 在模拟器或设备上启动主屏幕活动：
 
 `adb shell am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`

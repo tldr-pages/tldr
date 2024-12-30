@@ -1,8 +1,8 @@
-# fossil forget
+# fossil 忘记
 
-> 这是 `fossil rm` 命令的一个别名。
-> 更多信息：<https://fossil-scm.org/home/help/forget>.
+> 此命令是 `fossil rm` 的别名，不同之处在于它永远不会从磁盘中删除文件。  
+> 更多信息：<https://fossil-scm.org/home/help/forget>。
 
-- 原命令的文档在：
+- 查看原始命令的文档：
 
 `tldr fossil rm`

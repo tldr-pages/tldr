@@ -1,10 +1,10 @@
 # bun
 
-> JavaScript 运行时和工具箱。
-> 包含打包工具、测试运行器和包管理器。
-> 更多信息：<https://bun.sh>.
+> JavaScript 运行时和工具包。
+> 包括一个打包器、一个测试运行器和一个包管理器。
+> 更多信息：<https://bun.sh>。
 
-- 运行 JavaScript 文件或 `package.json` 脚本：
+- 运行一个 JavaScript 文件或 `package.json` 脚本：
 
 `bun run {{path/to/file|script_name}}`
 
@@ -12,19 +12,19 @@
 
 `bun test`
 
-- 下载并安装 `package.json` 中列为依赖项的包：
+- 下载并安装 `package.json` 中列出的所有依赖包：
 
 `bun install`
 
-- 向 `package.json` 添加依赖：
+- 向 `package.json` 添加一个依赖项：
 
-`bun add {{模块名称}}`
+`bun add {{module_name}}`
 
-- 从 `package.json` 删除依赖：
+- 从 `package.json` 中移除一个依赖项：
 
-`bun remove {{模块名称}}`
+`bun remove {{module_name}}`
 
-- 在当前文件夹创建新的 Bun 项目：
+- 在当前目录中创建一个新的 Bun 项目：
 
 `bun init`
 
@@ -32,6 +32,6 @@
 
 `bun repl`
 
-- 升级 Bun 到最新版本：
+- 将 Bun 升级到最新版本：
 
 `bun upgrade`

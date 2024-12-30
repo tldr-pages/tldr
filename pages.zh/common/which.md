@@ -1,12 +1,12 @@
 # which
 
-> 在用户的`PATH`中寻找可执行文件的路径。
-> 更多信息：<https://manned.org/which>.
+> 在用户的 PATH 路径中查找程序。
+> 更多信息：<https://manned.org/which>。
 
-- 在`PATH`中寻找可执行文件并打印第一个匹配的结果：
+- 搜索 PATH 环境变量并显示任何匹配的可执行文件的位置：
 
 `which {{executable}}`
 
-- 如果有多个匹配结果则打印所有结果：
+- 如果有多个匹配的可执行文件，则显示所有：
 
 `which -a {{executable}}`

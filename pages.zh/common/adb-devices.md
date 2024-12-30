@@ -1,7 +1,7 @@
 # adb devices
 
-> 列出已连接的 Android 设备。
-> 更多信息：<https://manned.org/adb>.
+> 列出连接的 Android 设备。
+> 更多信息：<https://manned.org/adb>。
 
 - 列出设备：
 

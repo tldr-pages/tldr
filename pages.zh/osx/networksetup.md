@@ -1,13 +1,13 @@
 # networksetup
 
-> 网络系统首选项配置工具。
-> 更多信息：<https://support.apple.com/guide/remote-desktop/about-networksetup-apdd0c5a2d5/mac>.
+> 网络系统偏好设置的配置工具。
+> 更多信息：<https://support.apple.com/guide/remote-desktop/about-networksetup-apdd0c5a2d5/mac>。
 
-- 列出可用的网络服务源（以太网、Wi-Fi、蓝牙等）：
+- 列出可用的网络服务提供商（以太网、Wi-Fi、蓝牙等）：
 
 `networksetup -listallnetworkservices`
 
-- 显示特定网络设备的配置信息：
+- 显示特定网络设备的网络设置：
 
 `networksetup -getinfo "{{Wi-Fi}}"`
 
@@ -15,6 +15,6 @@
 
 `networksetup -getairportnetwork {{en0}}`
 
-- 连接到给定的 Wi-Fi 网络 Connect to a particular Wi-Fi network：
+- 连接到特定的 Wi-Fi 网络：
 
-`networksetup -setairportnetwork {{en0}} {{无线网 SSID}} {{密码}}`
+`networksetup -setairportnetwork {{en0}} {{Airport Network SSID}} {{password}}`

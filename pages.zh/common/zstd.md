@@ -1,24 +1,24 @@
 # zstd
 
-> 使用 Zstandard 压缩来压缩 / 解压文件。
-> 更多信息：<https://github.com/facebook/zstd>.
+> 使用 Zstandard 压缩对文件进行压缩或解压缩。
+> 更多信息：<https://github.com/facebook/zstd>。
 
-- 将一个文件压缩到一个 `.zst` 后缀的压缩文件中：
+- 将文件压缩为一个新的 `.zst` 后缀文件：
 
-`zstd {{file}}`
+`zstd {{path/to/file}}`
 
-- 解压缩一个文件：
+- 解压缩文件：
 
-`zstd --decompress {{file.zst}}`
+`zstd --decompress {{path/to/file.zst}}`
 
-- 将文件解压缩到标准输出（`stdout`）：
+- 解压缩到 `stdout`：
 
-`zstd --decompress --stdout {{file.zst}}`
+`zstd --decompress --stdout {{path/to/file.zst}}`
 
-- 使用指定的压缩等级来压缩一个文件.0 = 最差，19 = 最好（默认等级是 3）：
+- 压缩文件时指定压缩级别，其中 1=最快，19=最慢，3=默认：
 
-`zstd -{{level}} {{file}}`
+`zstd -{{level}} {{path/to/file}}`
 
-- 使用更多内存（解压或压缩时）来得到更高的压缩比：
+- 使用更多内存（压缩和解压缩均需）解锁更高的压缩级别（最高可达 22）：
 
-`zstd --ultra -{{level}} {{file}}`
+`zstd --ultra -{{level}} {{path/to/file}}`

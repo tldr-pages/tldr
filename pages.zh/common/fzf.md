@@ -1,29 +1,29 @@
 # fzf
 
 > 命令行模糊查找器。
-> 类似于 `sk`.
-> 更多信息：<https://github.com/junegunn/fzf>.
+> 类似于 `sk`。
+> 更多信息请访问：<https://github.com/junegunn/fzf>。
 
-- 对指定目录中的所有文件启动 `fzf`:
+- 在指定目录的所有文件上启动 `fzf`：
 
-`find {{路径/到/目录}} -type f | fzf`
+`find {{path/to/directory}} -type f | fzf`
 
-- 为正在运行的进程启动 `fzf`:
+- 在运行的进程上启动 `fzf`：
 
 `ps aux | fzf`
 
-- 使用 `Shift + Tab` 选择多个文件并将结果写入文件：
+- 使用 `Shift + Tab` 选择多个文件并写入文件：
 
-`find {{路径/到/目录}} -type f | fzf --multi > {{路径/到/文件}}`
+`find {{path/to/directory}} -type f | fzf --multi > {{path/to/file}}`
 
-- 使用指定查询词启动 `fzf`:
+- 使用指定的查询启动 `fzf`：
 
-`fzf --query "{{查询词}}"`
+`fzf --query "{{query}}"`
 
-- 对以 core 开头、以 go, rb 或 py 结尾的条目启动 `fzf`:
+- 在以 core 开头且以 go、rb 或 py 结尾的条目上启动 `fzf`：
 
 `fzf --query "^core go$ | rb$ | py$"`
 
-- 对不匹配 pyc 且完全匹配 travis 的条目启动 `fzf`:
+- 在不匹配 pyc 且完全匹配 travis 的条目上启动 `fzf`：
 
 `fzf --query "!pyc 'travis"`

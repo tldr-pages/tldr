@@ -1,33 +1,33 @@
 # fc
 
 > 比较两个文件或文件集之间的差异。
-> 使用通配符（*）来比较文件集。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/fc>.
+> 使用通配符 (*) 来比较文件集。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/fc>。
 
 - 比较两个指定的文件：
 
-`fc {{文件 1 的路径}} {{文件 2 的路径}}`
+`fc {{path\to\file1}} {{path\to\file2}}`
 
-- 比较时不区分大小写：
+- 执行不区分大小写的比较：
 
-`fc /c {{文件 1 的路径}} {{文件 2 的路径}}`
+`fc /c {{path\to\file1}} {{path\to\file2}}`
 
-- 将文件作为 Unicode 文本来进行比较：
+- 将文件作为 Unicode 文本进行比较：
 
-`fc /u {{文件 1 的路径}} {{文件 2 的路径}}`
+`fc /u {{path\to\file1}} {{path\to\file2}}`
 
-- 将文件作为 ASCII 文本来进行比较：
+- 将文件作为 ASCII 文本进行比较：
 
-`fc /l {{文件 1 的路径}} {{文件 2 的路径}}`
+`fc /l {{path\to\file1}} {{path\to\file2}}`
 
-- 将文件作为二进制来比较：
+- 将文件作为二进制进行比较：
 
-`fc /b {{文件 1 的路径}} {{文件 2 的路径}}`
+`fc /b {{path\to\file1}} {{path\to\file2}}`
 
 - 禁用制表符到空格的扩展：
 
-`fc /t {{文件 1 的路径}} {{文件 2 的路径}}`
+`fc /t {{path\to\file1}} {{path\to\file2}}`
 
-- 压缩空格（制表符和空格）进行比较：
+- 压缩比较中的空白字符（制表符和空格）：
 
-`fc /w {{文件 1 的路径}} {{文件 2 的路径}}`
+`fc /w {{path\to\file1}} {{path\to\file2}}`

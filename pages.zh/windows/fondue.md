@@ -1,16 +1,16 @@
-# fondue
+# 火锅
 
-> 可选 Windows 功能的命令行安装程序。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/fondue>.
+> 安装可选的 Windows 功能。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/fondue>。
 
-- 启用一个指定的 Windows 功能：
+- 启用特定的 Windows 功能：
 
-`fondue /enable-feature:{{功能}}`
+`fondue /enable-feature:{{feature}}`
 
-- 向用户隐藏所有输出信息：
+- 将所有输出消息隐藏给用户：
 
-`fondue /enable-feature:{{功能}} /hide-ux:all`
+`fondue /enable-feature:{{feature}} /hide-ux:all`
 
-- 为错误报告指定调用者进程名称：
+- 指定用于错误报告的调用进程名称：
 
-`fondue /enable-feature:{{功能}} /caller-name:{{名称}}`
+`fondue /enable-feature:{{feature}} /caller-name:{{name}}`

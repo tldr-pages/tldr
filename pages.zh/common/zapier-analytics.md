@@ -1,13 +1,13 @@
-# zapier analytics
+# Zapier 分析
 
-> 显示收集的分析数据的状态。也可用于更改收集的内容。
-> 更多信息：<https://platform.zapier.com/reference/cli#analytics>.
+> 显示收集的分析状态。它也用于更改收集的内容。
+> 更多信息：<https://platform.zapier.com/reference/cli#analytics>。
 
-- 显示收集的分析数据的状态：
+- 显示收集的分析状态：
 
 `zapier analytics`
 
-- 更改收集信息的详细程度：
+- 更改收集的信息量：
 
 `zapier analytics {{-m|--mode}} {{enabled|anonymous|disabled}}`
 

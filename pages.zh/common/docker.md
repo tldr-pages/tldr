@@ -1,37 +1,37 @@
-# docker
+# Docker
 
 > 管理 Docker 容器和镜像。
-> 此命令也有关于其子命令的文件，例如：`run`.
-> 更多信息：<https://docs.docker.com/reference/cli/docker/>.
+> 一些子命令如 `run` 有自己的使用文档。
+> 更多信息：<https://docs.docker.com/reference/cli/docker/>。
 
-- 列出所有 Docker 容器（包括停止的容器）：
+- 列出所有 Docker 容器（运行中和已停止的）：
 
 `docker ps --all`
 
-- 透过镜像启动容器，并为容器命名：
+- 从镜像启动一个自定义名称的容器：
 
-`docker run --name {{容器名称}} {{镜像}}`
+`docker run --name {{container_name}} {{image}}`
 
-- 启动或停止现有容器：
+- 启动或停止一个已存在的容器：
 
-`docker {{start|stop}} {{容器名称}}`
+`docker {{start|stop}} {{container_name}}`
 
-- 从 Docker registry 中拉取镜像：
+- 从 Docker 注册表中拉取一个镜像：
 
-`docker pull {{镜像}}`
+`docker pull {{image}}`
 
-- 显示已下载的镜像清单：
+- 显示已下载镜像的列表：
 
 `docker images`
 
-- 从正在运行的容器内打开一个交互式 ([i]nteractive) 终端 ([t]ty) shell (`sh`)：
+- 在运行中的容器内打开一个 [i]nteractive [t]ty 终端，使用 Bourne shell (`sh`)：
 
-`docker exec -it {{容器名称}} {{sh}}`
+`docker exec -it {{container_name}} {{sh}}`
 
-- 删除一个停止的容器：
+- 移除一个已停止的容器：
 
-`docker rm {{容器名称}}`
+`docker rm {{container_name}}`
 
-- 获取并查看容器的日志：
+- 获取并跟踪一个容器的日志：
 
-`docker logs -f {{容器名称}}`
+`docker logs -f {{container_name}}`

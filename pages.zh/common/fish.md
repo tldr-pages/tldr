@@ -1,7 +1,7 @@
-# fish
+# 鱼
 
-> The Friendly Interactive SHell, 一个设计为用户友好的命令行解释器。
-> 更多信息：<https://fishshell.com>.
+> 友好的交互式 shell（Friendly Interactive SHell），一种旨在用户友好的命令行解释器。
+> 更多信息：<https://fishshell.com>。
 
 - 启动交互式 shell 会话：
 
@@ -17,20 +17,20 @@
 
 - 执行特定脚本：
 
-`fish {{路径/到/脚本.fish}}`
+`fish {{path/to/script.fish}}`
 
-- 检查特定脚本是否有语法错误：
+- 检查特定脚本的语法错误：
 
-`fish --no-execute {{路径/到/脚本.fish}}`
+`fish --no-execute {{path/to/script.fish}}`
 
 - 从 `stdin` 执行特定命令：
 
 `{{echo "echo 'fish is executed'"}} | fish`
 
-- 在专用模式下启动交互式 shell 会话，其中 shell 不会访问旧历史记录或保存新历史记录：
+- 以私密模式启动交互式 shell 会话，此模式下 shell 不会访问旧历史记录或保存新历史记录：
 
 `fish --private`
 
-- 定义并导出一个在 shell 重启后持续存在的环境变量（内置）：
+- 定义并导出一个跨 shell 重启的环境变量（内置）：
 
-`set --universal --export {{变量名}} {{变量值}}`
+`set --universal --export {{variable_name}} {{variable_value}}`

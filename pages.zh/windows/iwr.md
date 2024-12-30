@@ -1,7 +1,7 @@
 # iwr
 
-> 这是 `invoke-webrequest` 命令的一个别名。
+> 在 PowerShell 中，此命令是 `Invoke-WebRequest` 的别名。
 
-- 原命令的文档在：
+- 查看原始命令的文档：
 
 `tldr invoke-webrequest`

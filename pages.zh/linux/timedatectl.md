@@ -1,7 +1,7 @@
 # timedatectl
 
-> 控制系统时间和日期。
-> 更多信息：<https://manned.org/timedatectl>.
+> 控制系统的时间和日期。
+> 更多信息：<https://manned.org/timedatectl>。
 
 - 检查当前系统时钟时间：
 
@@ -11,15 +11,15 @@
 
 `timedatectl set-time "{{yyyy-MM-dd hh:mm:ss}}"`
 
-- 列出可用时区：
+- 列出可用的时区：
 
 `timedatectl list-timezones`
 
 - 设置系统时区：
 
-`timedatectl set-timezone {{时区}}`
+`timedatectl set-timezone {{timezone}}`
 
-- 启用网络时间协议（NTP）同步：
+- 启用网络时间协议 (NTP) 同步：
 
 `timedatectl set-ntp on`
 

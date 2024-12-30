@@ -1,25 +1,25 @@
 # axel
 
-> 一款下载加速器。
-> 支持 HTTP、HTTPS 和 FTP.
-> 更多信息：<https://github.com/axel-download-accelerator/axel>.
+> 下载加速器。
+> 支持 HTTP、HTTPS 和 FTP。
+> 更多信息：<https://github.com/axel-download-accelerator/axel>。
 
-- 链接下载：
+- 下载一个 URL 到文件：
 
-`axel {{超链接}}`
+`axel {{url}}`
 
-- 链接下载，指定文件名：
+- 下载并指定一个 [o]utput 文件：
 
-`axel {{超链接}} -o {{文件名称}}`
+`axel {{url}} -o {{path/to/file}}`
 
-- 多连接数下载：
+- 使用特定的 [n] 连接数下载：
 
-`axel -n {{连接数量}} {{超链接}}`
+`axel -n {{connections_num}} {{url}}`
 
-- 查询镜像：
+- [S]earch for mirrors:
 
-`axel -S {{镜像数量}} {{超链接}}`
+`axel -S {{mirrors_num}} {{url}}`
 
-- 限制下载速度（字节 bite 每秒）：
+- 限制下载 [s]peed（每秒字节数）：
 
-`axel -s {{字节数}} {{超链接}}`
+`axel -s {{speed}} {{url}}`

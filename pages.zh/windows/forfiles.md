@@ -1,25 +1,25 @@
 # forfiles
 
-> 选择一个或多个文件以执行指定的命令。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/forfiles>.
+> 选择要对其执行指定命令的文件。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/forfiles>。
 
-- 在当前的目录中寻找文件：
+- 在当前目录中搜索文件：
 
 `forfiles`
 
-- 在一个指定目录中寻找文件：
+- 在特定目录中搜索文件：
 
-`forfiles /p {{目录的路径}}`
+`forfiles /p {{path\to\directory}}`
 
-- 为每个文件执行指定的命令：
+- 对每个文件运行指定的命令：
 
-`forfiles /c "{{命令}}"`
+`forfiles /c "{{command}}"`
 
-- 使用通配符来寻找指定的文件：
+- 使用特定的全局掩码搜索文件：
 
-`forfiles /m {{通配符}}`
+`forfiles /m {{glob_pattern}}`
 
-- 递归寻找文件：
+- 递归搜索文件：
 
 `forfiles /s`
 

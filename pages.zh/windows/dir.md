@@ -1,7 +1,7 @@
 # dir
 
-> 列出目录的内容。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
+> 列出目录内容。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/dir>。
 
 - 显示当前目录的内容：
 
@@ -9,12 +9,16 @@
 
 - 显示指定目录的内容：
 
-`dir {{目录的路径}}`
+`dir {{path\to\directory}}`
 
-- 显示当前目录的内容，包括隐藏的文件：
+- 显示当前目录的内容，包括隐藏文件：
 
-`dir /A`
+`dir /a`
 
-- 显示指定目录的内容，包括隐藏的文件：
+- 显示指定目录的内容，包括隐藏文件：
 
-`dir {{目录的路径}} /A`
+`dir {{path\to\directory}} /a`
+
+- 仅显示目录和文件的列表，不附加其他信息：
+
+`dir /b`

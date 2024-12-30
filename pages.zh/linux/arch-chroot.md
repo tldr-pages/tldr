@@ -1,20 +1,20 @@
 # arch-chroot
 
-> 辅助 Arch Linux 安装流程的更强 `chroot` 命令。
-> 更多信息：<https://manned.org/arch-chroot.8>.
+> 增强版的 `chroot` 命令，用于帮助 Arch Linux 的安装过程。
+> 更多信息：<https://manned.org/arch-chroot.8>。
 
-- 在新的根目录下开启一个交互外壳程序（默认是 Bash）：
+- 在新的根目录中启动一个交互式 shell（默认是 Bash）：
 
-`arch-chroot {{新根目录}}`
+`arch-chroot {{path/to/new/root}}`
 
-- 指定除当前用户外的其他用户来运行外壳程序：
+- 指定用户（与当前用户不同）以运行 shell：
 
-`arch-chroot -u {{用户名}} {{新根目录}}`
+`arch-chroot -u {{user}} {{path/to/new/root}}`
 
-- 在新的根目录下运行一个自定义命令（取代默认的 Bash）：
+- 在新的根目录中运行自定义命令（而不是默认的 Bash）：
 
-`arch-chroot {{新根目录}} {{命令}} {{命令参数}}`
+`arch-chroot {{path/to/new/root}} {{command}} {{command_arguments}}`
 
-- 指定除默认的 Bash 以外的外壳程序（以下例子需要现在目标系统中先安装 `zsh`）：
+- 指定其他 shell，而不是默认的 Bash（在这种情况下，目标系统中应安装 `zsh` 包）：
 
-`arch-chroot {{新根目录}} {{zsh}}`
+`arch-chroot {{path/to/new/root}} {{zsh}}`

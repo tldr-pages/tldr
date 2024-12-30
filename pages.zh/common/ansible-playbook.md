@@ -1,32 +1,32 @@
 # ansible-playbook
 
-> 通过 SSH 协议在远程计算机上执行 playbook 中定义的任务。
-> 更多信息：<https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>.
+> 在远程机器上通过 SSH 执行 playbook 中定义的任务。
+> 更多信息：<https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>。
 
-- 执行 playbook 中的任务：
+- 运行 playbook 中的任务：
 
 `ansible-playbook {{playbook}}`
 
-- 使用自定义主机清单执行 playbook 中的任务：
+- 使用自定义主机 [i]nventory 运行 playbook 中的任务：
 
-`ansible-playbook {{playbook}} -i {{清单文件}}`
+`ansible-playbook {{playbook}} -i {{inventory_file}}`
 
-- 使用通过命令行定义的额外变量执行 playbook 中的任务：
+- 使用命令行定义的 [e]xtra 变量运行 playbook 中的任务：
 
-`ansible-playbook {{playbook}} -e "{{变量1}}={{值1}} {{变量2}}={{值2}}"`
+`ansible-playbook {{playbook}} -e "{{variable1}}={{value1}} {{variable2}}={{value2}}"`
 
-- 使用在 JSON 文件中定义的额外变量执行 playbook 中的任务：
+- 使用 JSON 文件中定义的 [e]xtra 变量运行 playbook 中的任务：
 
-`ansible-playbook {{playbook}} -e "@{{变量.json}}"`
+`ansible-playbook {{playbook}} -e "@{{variables.json}}"`
 
-- 执行 playbook 中的指定标签的任务：
+- 针对给定标签运行 playbook 中的任务：
 
-`ansible-playbook {{playbook}} --tags {{标签1,标签2}}`
+`ansible-playbook {{playbook}} --tags {{tag1,tag2}}`
 
-- 从指定任务开始执行 playbook 中的任务：
+- 从特定任务开始运行 playbook 中的任务：
 
-`ansible-playbook {{playbook}} --start-at {{任务名称}}`
+`ansible-playbook {{playbook}} --start-at {{task_name}}`
 
-- 以不做任何更改（试执行）方式执行 playbook 中的任务：
+- 在不做任何更改的情况下运行 playbook 中的任务（干运行）：
 
 `ansible-playbook {{playbook}} --check --diff`

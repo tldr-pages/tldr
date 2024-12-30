@@ -1,7 +1,7 @@
 # gsleep
 
-> 这是 `-p linux sleep` 命令的一个别名。
+> 该命令是 GNU `sleep` 的别名。
 
-- 原命令的文档在：
+- 查看原始命令的文档：
 
 `tldr -p linux sleep`

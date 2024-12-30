@@ -1,12 +1,12 @@
 # qr
 
-> 在终端中使用 ANSI VT-100 转义代码生成二维码。
+> 在终端中使用 ANSI VT-100 转义码生成 QR 码。
 > 更多信息：<https://github.com/lincolnloop/python-qrcode/>.
 
-- 生成一个二维码：
+- 生成 QR 码：
 
-`echo "{{数据}}" | qr`
+`echo "{{data}}" | qr`
 
-- 指定错误纠正等级（默认为 M）：
+- 指定错误纠正级别（默认为 M）：
 
-`echo "{{数据}}" | qr --error-correction={{L|M|Q|H}}`
+`echo "{{data}}" | qr --error-correction={{L|M|Q|H}}`

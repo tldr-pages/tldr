@@ -1,36 +1,36 @@
 # babel
 
-> 一款 JavaScript 的编译器，将下一代 ES 语法转换为兼容语法。
+> 一个将代码从 JavaScript ES6/ES7 语法转换为 ES5 语法的转换器。
 > 更多信息：<https://babeljs.io/>.
 
-- 转编译指定文件到标准输出：
+- 转换指定的输入文件并输出到 `stdout`：
 
-`babel {{路径/到/文件}}`
+`babel {{path/to/file}}`
 
-- 转编译指定文件，输入为特定文件：
+- 转换指定的输入文件并输出到特定文件：
 
-`babel {{路径/到/输入文件}} --out-file {{路径/到/输出文件}}`
+`babel {{path/to/input_file}} --out-file {{path/to/output_file}}`
 
-- 监听文件变动触发转编译：
+- 每次输入文件更改时进行转换：
 
-`babel {{路径/到/输入文件}} --watch`
+`babel {{path/to/input_file}} --watch`
 
-- 转编译整个目录下的 js 文件：
+- 转换整个目录中的文件：
 
-`babel {{路径/到/输入文件目录}}`
+`babel {{path/to/input_directory}}`
 
-- 跳过指定目录下指定文件的编译（多文件使用英文逗号“,”分隔）：
+- 忽略目录中指定的以逗号分隔的文件：
 
-`babel {{路径/到/输入文件目录}} --ignore {{被忽略文件}}`
+`babel {{path/to/input_directory}} --ignore {{ignored_file1,ignored_file2,...}}`
 
-- 转编译后，执行压缩：
+- 转换并输出为压缩的 JavaScript：
 
-`babel {{路径/到/输入文件}} --minified`
+`babel {{path/to/input_file}} --minified`
 
-- 使用预设值：
+- 选择一组预设进行输出格式化：
 
-`babel {{路径/到/输入文件}} --presets {{预设项}}`
+`babel {{path/to/input_file}} --presets {{preset1,preset2,...}}`
 
-- 输出所有可用的选项：
+- 显示帮助信息：
 
 `babel --help`

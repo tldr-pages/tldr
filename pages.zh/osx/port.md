@@ -1,28 +1,28 @@
 # port
 
-> macOS 包管理器软件（类似 brew）。
-> 更多信息：<https://www.macports.org>.
+> macOS 的包管理器。
+> 更多信息：<https://www.macports.org>。
 
 - 搜索包：
 
-`port search {{搜索的包名}}`
+`port search {{search_term}}`
 
-- 安装软件包：
+- 安装包：
 
-`sudo port install {{报名}}`
+`sudo port install {{package}}`
 
-- 列出已安装的软件包：
+- 列出已安装的包：
 
 `port installed`
 
-- 更新 port 自身，并获取可用包的最新列表：
+- 更新 port 并获取最新的可用包列表：
 
 `sudo port selfupdate`
 
-- 升级过时的软件包：
+- 升级过时的包：
 
 `sudo port upgrade outdated`
 
-- 删除已安装的软件包的旧版本：
+- 移除已安装包的旧版本：
 
 `sudo port uninstall inactive`

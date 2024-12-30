@@ -1,24 +1,24 @@
 # cat
 
 > 打印和连接文件。
-> 更多信息：<https://manned.org/cat.1posix>.
+> 更多信息：<https://manned.org/cat.1posix>。
 
-- 将文件内容打印到 `标准输出`：
+- 将文件的内容打印到 `stdout`：
 
-`cat {{路径/到/文件}}`
+`cat {{path/to/file}}`
 
 - 将多个文件连接成一个输出文件：
 
-`cat {{路径/到/文件1 路径/到/文件2 ...}} > {{路径/到/输出文件}}`
+`cat {{path/to/file1 path/to/file2 ...}} > {{path/to/output_file}}`
 
-- 将多个文件追加到一个输出文件中：
+- 将多个文件附加到输出文件：
 
-`cat {{路径/到/文件1 路径/到/文件2 ...}} >> {{路径/到/输出文件}}`
+`cat {{path/to/file1 path/to/file2 ...}} >> {{path/to/output_file}}`
 
-- 无缓冲地将文件内容复制到输出文件中：
+- 将文件的内容复制到输出文件而不进行缓冲：
 
 `cat -u {{/dev/tty12}} > {{/dev/tty13}}`
 
-- 将 `标准输入` 写入文件：
+- 将 `stdin` 写入文件：
 
-`cat - > {{路径/到/文件}}`
+`cat - > {{path/to/file}}`

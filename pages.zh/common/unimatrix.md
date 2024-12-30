@@ -1,22 +1,22 @@
 # unimatrix
 
-> 使用 Unicode 字符模拟《黑客帝国》的视觉效果。
-> 请参阅：`cmatrix`。
-> 更多信息：<https://github.com/will8211/unimatrix>.
+> 使用Unicode字符模拟矩阵效果。
+> 另见：`cmatrix`。
+> 更多信息：<https://github.com/will8211/unimatrix>。
 
-- 模仿 `cmatrix` 的默认输出（无 Unicode，适用于 TTY）：
+- 模仿`cmatrix`的默认输出（无Unicode，适用于TTY）：
 
 `unimatrix --no-bold --speed {{96}} --character-list {{o}}`
 
-- 无粗体字符，缓慢地显示，使用表情符号、数字和少量符号：
+- 无粗体字符，速度较慢，使用表情符号、数字和一些符号：
 
 `unimatrix --no-bold --speed {{50}} --character-list {{ens}}`
 
-- 更改字符的颜色：
+- 更改字符颜色：
 
 `unimatrix --color {{red|green|blue|white|...}}`
 
-- 使用字母代码选择字符集（可用字符集请参阅 `unimatrix --help`）：
+- 使用字母代码选择字符集（请参见`unimatrix --help`以获取可用字符集）：
 
 `unimatrix --character-list {{character_sets}}`
 

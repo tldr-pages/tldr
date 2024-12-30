@@ -1,36 +1,36 @@
 # docker run
 
-> 创建一个新的容器并运行命令。
-> 更多信息：<https://docs.docker.com/reference/cli/docker/container/run/>.
+> 在一个新的 Docker 容器中运行一个命令。
+> 更多信息：<https://docs.docker.com/reference/cli/docker/container/run/>。
 
-- 使用打上标签的 Docker 镜像的新容器中执行命令：
+- 从标记的镜像中运行命令到新容器：
 
-`docker run {{镜像:标签}} {{命令}}`
+`docker run {{image:tag}} {{command}}`
 
-- 在后台运行新容器中的命令，并输出其容器ID：
+- 在后台运行命令并显示其 ID：
 
-`docker run --detach {{镜像}} {{命令}}`
+`docker run --detach {{image}} {{command}}`
 
-- 以交互模式和伪终端启动一个容器，并执行指定的命令：
+- 在交互模式和伪终端中以一次性容器运行命令：
 
-`docker run --rm --interactive --tty {{镜像}} {{命令}}`
+`docker run --rm --interactive --tty {{image}} {{command}}`
 
-- 在新容器中传入环境变量并运行指定命令：
+- 在新容器中运行命令并传递环境变量：
 
-`docker run --env '{{变量名}}={{变量值}}' --env {{变量名=变量值}} {{镜像}} {{命令}}`
+`docker run --env '{{variable}}={{value}}' --env {{variable}} {{image}} {{command}}`
 
-- 在新容器中挂载目录卷并运行指定命令：
+- 在新容器中运行命令并绑定挂载卷：
 
-`docker run --volume {{宿主机路径}}:{{容器内路径}} {{镜像}} {{命令}}`
+`docker run --volume {{/path/to/host_path}}:{{/path/to/container_path}} {{image}} {{command}}`
 
-- 在新容器中开放映射端口并运行指定命令：
+- 在新容器中运行命令并发布端口：
 
-`docker run --publish {{宿主机端口}}:{{容器内端口}} {{镜像}} {{命令}}`
+`docker run --publish {{host_port}}:{{container_port}} {{image}} {{command}}`
 
-- 在新容器中覆盖镜像中 ENTRYPOINT 并运行指定命令：
+- 在新容器中运行命令并覆盖镜像的入口点：
 
-`docker run --entrypoint {{命令}} {{镜像}}`
+`docker run --entrypoint {{command}} {{image}}`
 
-- 在新容器中设定使用需使用的网络并运行指定命令：
+- 在新容器中运行命令并将其连接到网络：
 
-`docker run --network {{网络}} {{镜像}}`
+`docker run --network {{network}} {{image}}`

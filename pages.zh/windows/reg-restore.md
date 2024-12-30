@@ -1,9 +1,9 @@
 # reg restore
 
-> 从备份文件中恢复键和值。
-> 参见 `reg-save` 来获取更多的信息。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-restore>.
+> 从本地 `.hiv` 文件恢复一个键及其值。
+> 有关更多信息，请参见 `reg-save`。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-restore>。
 
-- 使用备份文件中的数据覆盖指定的键：
+- 用备份文件中的数据覆盖指定的键：
 
-`reg restore {{键名}} {{文件路径}}`
+`reg restore {{key_name}} {{path\to\file.hiv}}`

@@ -1,32 +1,36 @@
 # findstr
 
-> 在一个或多个文件中查找指定的文本。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>.
+> 在一个或多个文件中查找指定文本。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>。
 
-- 在所有文件中查找以空格分隔的字符串：
+- 在所有文件中查找一个或多个字符串：
 
-`findstr "{{查询语句 查询语句 ..}}" *`
+`findstr "{{string1 string2 ...}}" *`
 
-- 以递归方式在所有文件中查找以空格分隔的字符串：
+- 在管道命令的输出中查找一个或多个字符串：
 
-`findstr /s "{{查询语句 查询语句 ..}}" *`
+`{{dir}} | findstr "{{string1 string2 ...}}"`
 
-- 查找时不区分大小写：
+- 在所有文件中递归查找一个或多个字符串：
 
-`findstr /i "{{查询语句}}" *"`
+`findstr /s "{{string1 string2 ...}}" *`
 
-- 使用正则表达式搜索：
+- 使用不区分大小写的搜索查找字符串：
 
-`findstr /r "{{正则表达式}}" *`
+`findstr /i "{{string1 string2 ...}}" *`
 
-- 在所有文本文件中查找文字字符串（包含空格）：
+- 在所有文件中使用正则表达式查找字符串：
 
-`findstr /c:"{{查询语句}}" *.txt`
+`findstr /r "{{expression}}" *`
 
-- 显示匹配的行的行数：
+- 在所有文本文件中查找包含空格的字面字符串：
 
-`findstr /n "{{查询语句}}" *`
+`findstr /c:"{{string1 string2 ...}}" *.txt`
 
-- 只显示匹配的文件名：
+- 在每个匹配行之前显示行号：
 
-`findstr /m "{{查询语句}}" *`
+`findstr /n "{{string1 string2 ...}}" *`
+
+- 仅显示包含匹配项的文件名：
+
+`findstr /m "{{string1 string2 ...}}" *`

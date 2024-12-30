@@ -1,37 +1,37 @@
-# git config
+# git 配置
 
-> 管理 Git 仓库的自定义设置项。
-> 这些设置可以分为局部设置（只对当前仓库生效）和全局设置（对当前用户生效）。
-> 更多信息：<https://git-scm.com/docs/git-config>.
+> 管理 Git 仓库的自定义配置选项。
+> 这些配置可以是本地的（针对当前仓库）或全局的（针对当前用户）。
+> 更多信息：<https://git-scm.com/docs/git-config>。
 
-- 列出局部设置项（存储在当前仓库的 `.git/config`）：
+- 全局设置您的姓名或电子邮件（此信息是提交到仓库所必需的，并将包含在所有提交中）：
 
-`git config --list --local`
+`git config --global {{user.name|user.email}} "{{您的姓名|email@example.com}}"`
 
-- 列出全局配置项（存储在 `~/.gitconfig`）：
+- 列出本地或全局配置条目：
 
-`git config --list --global`
+`git config --list --{{local|global}}`
 
-- 列出系统配置项（存储在 `/etc/gitconfig`），并且展示文件的位置：
+- 仅列出系统配置条目（存储在 `/etc/gitconfig` 中），并显示其文件位置：
 
 `git config --list --system --show-origin`
 
-- 获取某个配置项的值：
+- 获取给定配置条目的值：
 
 `git config alias.unstage`
 
-- 设置某个全局配置项：
+- 设置给定配置条目的全局值：
 
 `git config --global alias.unstage "reset HEAD --"`
 
-- 将某个全局配置项恢复为默认值：
+- 将全局配置条目恢复为其默认值：
 
 `git config --global --unset alias.unstage`
 
-- 使用默认编辑器修改本地设置：
+- 在默认编辑器中编辑本地 Git 配置（`.git/config`）：
 
 `git config --edit`
 
-- 使用默认编辑器修改全局设置：
+- 在默认编辑器中编辑全局 Git 配置（默认是 `~/.gitconfig`，如果存在这样的文件则是 `$XDG_CONFIG_HOME/git/config`）：
 
 `git config --global --edit`

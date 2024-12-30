@@ -1,20 +1,25 @@
 # rm
 
 > 删除文件或目录。
-> 更多信息：<https://www.gnu.org/software/coreutils/rm>.
+> 另见：`rmdir`。
+> 更多信息：<https://www.gnu.org/software/coreutils/rm>。
 
-- 从任意位置删除文件：
+- 删除特定文件：
 
-`rm {{路径/到/文件 路径/到/另一个/文件 ...}}`
+`rm {{path/to/file1 path/to/file2 ...}}`
 
-- 交互式地删除多个文件，每次删除前都会有提示：
+- 删除特定文件，忽略不存在的文件：
 
-`rm -i {{文件（们）}}`
+`rm -f {{path/to/file1 path/to/file2 ...}}`
 
-- 以粗略模式删除文件，为每个被删除的文件打印一条信息：
+- 交互式删除特定文件，在每次删除前提示：
 
-`rm -v {{路径/到/目录/*}}`
+`rm -i {{path/to/file1 path/to/file2 ...}}`
 
-- 递归删除一个目录及其所有子目录：
+- 删除特定文件并打印每次删除的信息：
 
-`rm -r {{路径/到/目录}}`
+`rm -v {{path/to/file1 path/to/file2 ...}}`
+
+- 递归删除特定文件和目录：
+
+`rm -r {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`

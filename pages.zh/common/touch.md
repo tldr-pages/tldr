@@ -1,20 +1,20 @@
 # touch
 
 > 创建文件并设置访问/修改时间。
-> 更多信息：<https://manned.org/touch>.
+> 更多信息：<https://manned.org/touch>。
 
-- 创建指定的文件：
+- 创建特定文件：
 
-`touch {{路径/到/文件1 路径/到/文件2 ...}}`
+`touch {{path/to/file1 path/to/file2 ...}}`
 
-- 将文件的访问(a)或修改时间(m)设置为当前时间，如果文件不存在则不创建(-c)：
+- 将文件的 [a]ccess 或 [m]odification 时间设置为当前时间，如果文件不存在则不 [c]reate 文件：
 
-`touch -c -{{a|m}} {{路径/到/文件1 路径/到/文件2 ...}}`
+`touch -c -{{a|m}} {{path/to/file1 path/to/file2 ...}}`
 
-- 将文件时间(-t)设置为指定值，如果文件不存在则不创建(-c)：
+- 将文件 [t]ime 设置为特定值，如果文件不存在则不 [c]reate 文件：
 
-`touch -c -t {{YYYYMMDDHHMM.SS}} {{路径/到/文件1 路径/到/文件2 ...}}`
+`touch -c -t {{YYYYMMDDHHMM.SS}} {{path/to/file1 path/to/file2 ...}}`
 
-- 将文件时间设置为另一文件(-r,即文件3)的时间，如果文件不存在则不创建(-c)：
+- 将文件的时间戳设置为 [r]eference 文件的时间戳，如果文件不存在则不 [c]reate 文件：
 
-`touch -c -r {{路径/到/文件3}} {{路径/到/文件1 路径/到/文件2 ...}}`
+`touch -c -r {{path/to/reference_file}} {{path/to/file1 path/to/file2 ...}}`

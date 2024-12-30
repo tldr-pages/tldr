@@ -1,17 +1,17 @@
 # cargo test
 
 > 执行 Rust 包的单元测试和集成测试。
-> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-test.html>.
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-test.html>。
 
-- 仅运行包含特定字符串在其名称中的测试：
+- 仅运行名称中包含特定字符串的测试：
 
-`cargo test {{测试名称}}`
+`cargo test {{testname}}`
 
-- 设置并行运行测试用例的数量：
+- 设置同时运行的测试用例数量：
 
-`cargo test -- --test-threads {{数量}}`
+`cargo test -- --test-threads {{count}}`
 
-- 在 release 模式下测试构建，启用优化：
+- 在发布模式下测试，带有优化：
 
 `cargo test --release`
 
@@ -19,9 +19,9 @@
 
 `cargo test --workspace`
 
-- 为特定包运行测试：
+- 运行特定包的测试：
 
-`cargo test --package {{包名}}`
+`cargo test --package {{package}}`
 
 - 运行测试时不隐藏测试执行的输出：
 

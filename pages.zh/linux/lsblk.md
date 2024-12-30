@@ -1,17 +1,17 @@
 # lsblk
 
 > 列出设备信息。
-> 更多信息：<https://manned.org/lsblk>.
+> 更多信息：<https://manned.org/lsblk>。
 
 - 以树状格式列出所有存储设备：
 
 `lsblk`
 
-- 同时列出空设备：
+- 也列出空设备：
 
 `lsblk -a`
 
-- 以字节为单位而不是以人类可读的格式打印 SIZE 列：
+- 以字节为单位打印 SIZE 列，而不是以人类可读的格式：
 
 `lsblk -b`
 
@@ -19,7 +19,11 @@
 
 `lsblk -f`
 
-- 输出块设备的拓扑结构：
+- 使用 ASCII 字符进行树形格式化：
+
+`lsblk -i`
+
+- 输出块设备拓扑的信息：
 
 `lsblk -t`
 

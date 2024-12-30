@@ -1,17 +1,17 @@
 # cargo build
 
 > 编译本地包及其所有依赖项。
-> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-build.html>.
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-build.html>。
 
-- 在本地路径中构建由 `Cargo.toml` 清单文件定义的一个或多个包：
+- 在本地路径中构建由 `Cargo.toml` 清单文件定义的包：
 
 `cargo build`
 
-- 以 release 模式构建，并进行优化：
+- 以发布模式构建工件，并进行优化：
 
 `cargo build --release`
 
-- 要求 `Cargo.lock` 文件为最新版本：
+- 要求 `Cargo.lock` 是最新的：
 
 `cargo build --locked`
 
@@ -21,12 +21,12 @@
 
 - 构建特定的包：
 
-`cargo build --package {{包名}}`
+`cargo build --package {{package}}`
 
 - 仅构建指定的二进制文件：
 
-`cargo build --bin {{名称}}`
+`cargo build --bin {{name}}`
 
 - 仅构建指定的测试目标：
 
-`cargo build --test {{测试名称}}`
+`cargo build --test {{testname}}`

@@ -1,20 +1,20 @@
 # bmaptool
 
-> 便捷地创建或复制块文件映射（被设计的比`cp`或`dd`更快）。
-> 更多信息：<https://source.tizen.org/documentation/reference/bmaptool>.
+> 智能创建或复制块映射（旨在比 `cp` 或 `dd` 更快）。
+> 更多信息：<https://source.tizen.org/documentation/reference/bmaptool>。
 
-- 使用图片生成块图文件：
+- 从映像文件输出块映射文件：
 
-`bmaptool create -o {{blockmap 格式文件.bmap}} {{图片文件}}`
+`bmaptool create -o {{blockmap.bmap}} {{source.img}}`
 
-- 复制图片到指定目录：
+- 将映像文件复制到 sdb：
 
-`bmaptool copy --bmap {{blockmap 格式文件}} {{图片文件}} {{/开发路径/sdb}}`
+`bmaptool copy --bmap {{blockmap.bmap}} {{source.img}} {{/dev/sdb}}`
 
-- 复制压缩后的图片到指定目录：
+- 将压缩的映像文件复制到 sdb：
 
-`bmaptool copy --bmap {{blockmap 格式文件}} {{图片文件.gz}} {{/开发路径/sdb}}`
+`bmaptool copy --bmap {{blockmap.bmap}} {{source.img.gz}} {{/dev/sdb}}`
 
-- 复制图片的时候，不将图片转成块图：
+- 不使用块映射将映像文件复制到 sdb：
 
-`bmaptool copy --nobmap {{图片文件}} {{/开发路径/sdb}}`
+`bmaptool copy --nobmap {{source.img}} {{/dev/sdb}}`

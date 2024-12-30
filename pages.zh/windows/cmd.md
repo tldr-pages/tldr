@@ -1,32 +1,36 @@
 # cmd
 
 > Windows 命令解释器。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>。
 
-- 开启一个新的命令行实例：
+- 启动一个交互式 shell 会话：
 
 `cmd`
 
-- 运行指定的命令然后退出：
+- 执行特定的 [c]ommands：
 
-`cmd /c {{echo 命令}}`
+`cmd /c {{echo Hello world}}`
 
-- 执行一个指定的命令，之后进入一个交互式 shell：
+- 执行特定脚本：
 
-`cmd /k {{echo 命令}}`
+`cmd {{path\to\script.bat}}`
 
-- 不显示命令的输出结果：
+- 执行特定命令后进入交互式 shell：
+
+`cmd /k {{echo Hello world}}`
+
+- 启动一个交互式 shell 会话，命令输出中禁用 `echo`：
 
 `cmd /q`
 
-- 启用或禁用环境变量扩展：
+- 启动一个交互式 shell 会话，启用或禁用延迟 [v]ariable 扩展：
 
 `cmd /v:{{on|off}}`
 
-- 启用或禁用命令扩展：
+- 启动一个交互式 shell 会话，启用或禁用命令 [e]xtensions：
 
 `cmd /e:{{on|off}}`
 
-- 强制输出内容使用 Unicode 编码：
+- 启动一个交互式 shell 会话，使用 [u]nicode 编码：
 
 `cmd /u`

@@ -1,28 +1,32 @@
-# open
+# 打开
 
 > 打开文件、目录和应用程序。
-> 更多信息：<https://keith.github.io/xcode-man-pages/open.1.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/open.1.html>。
 
-- 使用系统关联的应用程序打开文件：
+- 使用关联的应用程序打开文件：
 
-`open {{filename.extension}}`
+`open {{file.ext}}`
 
-- 运行图形化的 macOS 应用程序：
+- 运行图形化的 macOS [a]pplication：
 
-`open -a {{应用程序名}}`
+`open -a "{{Application}}"`
 
-- 运行指定 包名 的图形化 macOS 应用程序（请参阅`OSascript`命令，查询如何获取应用程序的 包名）：
+- 根据 [b]undle 标识符运行图形化的 macOS 应用程序（参考 `osascript` 获取此标识符的简单方法）：
 
-`open -b {{com.domain.application 应用程序包名}}`
+`open -b {{com.domain.application}}`
 
-- 在"访达（finder）"中打开当前文件夹：
+- 在 Finder 中打开当前目录：
 
 `open .`
 
-- 打开"访达（finder）", 并且给出指定文件：
+- [R]eveal 在 Finder 中显示文件：
 
-`open -R {{文件路径}}`
+`open -R {{path/to/file}}`
 
-- 使用系统默认应用程序，打开当前目录中所有给定扩展名的文件：
+- 使用关联的应用程序打开当前目录下所有给定扩展名的文件：
 
-`open {{*.extension}}`
+`open {{*.ext}}`
+
+- 打开指定 [b]undle 标识符的应用程序的新实例：
+
+`open -n -b {{com.domain.application}}`

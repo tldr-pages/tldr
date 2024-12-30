@@ -1,36 +1,36 @@
 # cp
 
 > 复制文件和目录。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>。
 
 - 将文件复制到另一个位置：
 
-`cp {{路径/到/源_文件.ext}} {{路径/到/目标文件.ext}}`
+`cp {{path/to/source_file.ext}} {{path/to/target_file.ext}}`
 
-- 将文件复制到另一个文件夹，并保留原来的文件名：
+- 将文件复制到另一个目录，保持文件名不变：
 
-`cp {{路径/到/源文件.ext}} {{路径/到/目标的目录}}`
+`cp {{path/to/source_file.ext}} {{path/to/target_parent_directory}}`
 
-- 以递归方式将文件夹内的内容复制到另一个位置（如果目标文件夹存在，则将此文件夹复制到目标文件夹中）：
+- 递归地将目录的内容复制到另一个位置（如果目标存在，目录将被复制到其中）：
 
-`cp -R {{路径/到/源目录}} {{路径/到/目标目录}}`
+`cp -R {{path/to/source_directory}} {{path/to/target_directory}}`
 
-- 以详细模式递归复制目录（在复制文件时显示文件信息）：
+- 以详细模式递归复制目录（显示正在复制的文件）：
 
-`cp -vR {{路径/到/源目录}} {{路径/到/目标目录}}`
+`cp -vR {{path/to/source_directory}} {{path/to/target_directory}}`
 
-- 一次将多个文件复制到一个目录：
+- 同时将多个文件复制到一个目录：
 
-`cp -t {{路径/到/目标_目录}} {{路径/到/文件1 路径/到/文件2 ...}}`
+`cp -t {{path/to/destination_directory}} {{path/to/file1 path/to/file2 ...}}`
 
-- 以交互方式将文本文件复制到另一个位置（覆盖之前会提示用户）：
+- 以交互模式将文本文件复制到另一个位置（在覆盖之前提示用户）：
 
-`cp -i {{*.txt}} {{路径/到/目标_目录}}`
+`cp -i {{*.txt}} {{path/to/target_directory}}`
 
-- 复制之前遵循符号链接：
+- 在复制之前跟随符号链接：
 
-`cp -L {{链接}} {{路径/到/目标_目录}}`
+`cp -L {{link}} {{path/to/target_directory}}`
 
-- 使用第一个参数作为目标目录（对于 `xargs ... | cp -t <目标_目录>` 这样的命令非常有用）：
+- 将第一个参数用作目标目录（对 `xargs ... | cp -t <DEST_DIR>` 很有用）：
 
-`cp -t {{路径/到/目标目录}} {{路径/到/文件或目录1 路径/到/文件或目录2 ...}}`
+`cp -t {{path/to/target_directory}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`

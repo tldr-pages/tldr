@@ -1,36 +1,36 @@
 # xz
 
-> 解压缩 XZ 和 LZMA 文件。
-> 更多信息：<https://manned.org/xz>.
+> 压缩或解压XZ和LZMA文件。
+> 更多信息：<https://manned.org/xz>。
 
-- 使用 xz 压缩文件：
+- 使用xz压缩文件：
 
-`xz {{路径/到/文件}}`
+`xz {{path/to/file}}`
 
-- 解压 XZ 文件：
+- 解压XZ文件：
 
-`xz --decompress {{路径/到/文件.xz}}`
+`xz --decompress {{path/to/file.xz}}`
 
-- 使用 lzma 压缩文件：
+- 使用lzma压缩文件：
 
-`xz --format=lzma {{路径/到/文件}}`
+`xz --format=lzma {{path/to/file}}`
 
-- 解压 LZMA 文件：
+- 解压LZMA文件：
 
-`xz --decompress --format=lzma {{路径/到/文件.lzma}}`
+`xz --decompress --format=lzma {{path/to/file.lzma}}`
 
-- 解压文件并输出到 `stdout`（暗示 `--keep`）：
+- 解压文件并写入`stdout`（隐含`--keep`）：
 
-`xz --decompress --stdout {{路径/到/文件.xz}}`
+`xz --decompress --stdout {{path/to/file.xz}}`
 
-- 压缩文件但不删除原文件：
+- 压缩文件，但不删除原始文件：
 
-`xz --keep {{路径/到/文件}}`
+`xz --keep {{path/to/file}}`
 
-- 使用最快方式压缩文件：
+- 使用最快的压缩方式压缩文件：
 
-`xz -0 {{路径/到/文件}}`
+`xz -0 {{path/to/file}}`
 
-- 使用最好方式压缩文件：
+- 使用最佳压缩方式压缩文件：
 
-`xz -9 {{路径/到/文件}}`
+`xz -9 {{path/to/file}}`

@@ -1,29 +1,29 @@
 # git switch
 
-> 切换 Git 分支。要求 Git 版本在 2.23 以上。
+> 在 Git 分支之间切换。需要 Git 版本 2.23 或更高版本。
 > 另请参阅 `git checkout`。
-> 更多信息：<https://git-scm.com/docs/git-switch>.
+> 更多信息：<https://git-scm.com/docs/git-switch>。
 
-- 切换到一个已有的分支：
+- 切换到一个现有的分支：
 
-`git switch {{分支名字}}`
+`git switch {{branch_name}}`
 
-- 创建并切换到一个新分支：
+- 创建一个新分支并切换到它：
 
-`git switch --create {{分支名字}}`
+`git switch --create {{branch_name}}`
 
-- 创建并切换到基于某个提交的新分支：
+- 基于现有提交创建一个新分支并切换到它：
 
-`git switch --create {{分支名字}} {{指定提交}}`
+`git switch --create {{branch_name}} {{commit}}`
 
-- 切换到之前的分支：
+- 切换到上一个分支：
 
 `git switch -`
 
-- 切换到一个分支，并更新所有匹配的子模块：
+- 切换到一个分支并更新所有子模块以匹配：
 
-`git switch --recurse-submodules {{分支名字}}`
+`git switch --recurse-submodules {{branch_name}}`
 
-- 切换到一个分支，并和当前分支以及暂未提交的修改进行三方合并：
+- 切换到一个分支并自动将当前分支及任何未提交的更改合并到其中：
 
-`git switch --merge {{分支名字}}`
+`git switch --merge {{branch_name}}`

@@ -1,33 +1,37 @@
 # make
 
-> Makefile 文件描述目标的任务运行器。
-> 通常用于控制源代码中可执行文件的编译。
-> 更多信息：<https://www.gnu.org/software/make/manual/make.html>.
+> 用于控制 Makefile 中描述的目标的任务运行器。
+> 主要用于控制从源代码编译可执行文件的过程。
+> 更多信息：<https://www.gnu.org/software/make/manual/make.html>。
 
 - 调用 Makefile 中指定的第一个目标（通常命名为 "all"）：
 
 `make`
 
-- 调用指定目标：
+- 调用特定目标：
 
-`make {{目标}}`
+`make {{target}}`
 
-- 调用一个指定的目标，一次并行执行 4 个作业：
+- 调用特定目标，同时并行执行 4 个作业：
 
-`make -j{{4}} {{目标}}`
+`make -j{{4}} {{target}}`
 
-- 使用指定的 Makefile 文件：
+- 使用特定的 Makefile：
 
-`make --file {{文件}}`
+`make --file {{path/to/file}}`
 
-- 从另一个目录执行 make ：
+- 从另一个目录执行 make：
 
-`make --directory {{文件夹}}`
+`make --directory {{path/to/directory}}`
 
-- 即使源文件未更改，也强制执行目标：
+- 强制生成一个目标，即使源文件没有更改：
 
-`make --always-make {{目标}}`
+`make --always-make {{target}}`
 
-- 覆盖在 Makefile 中定义的环境变量：
+- 重写 Makefile 中定义的变量：
 
-`make --environment-overrides {{目标}}`
+`make {{target}} {{variable}}={{new_value}}`
+
+- 通过环境重写 Makefile 中定义的变量：
+
+`make --environment-overrides {{target}}`

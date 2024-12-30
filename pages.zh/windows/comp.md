@@ -1,8 +1,8 @@
 # comp
 
 > 比较两个文件或文件集的内容。
-> 使用通配符（*）来比较文件集。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/comp>.
+> 使用通配符 (*) 比较文件集。
+> 更多信息: <https://learn.microsoft.com/windows-server/administration/windows-commands/comp>。
 
 - 交互式比较文件：
 
@@ -10,28 +10,28 @@
 
 - 比较两个指定的文件：
 
-`comp {{文件 1 的路径}} {{文件 2 的路径}}`
+`comp {{path\to\file1}} {{path\to\file2}}`
 
 - 比较两个文件集：
 
-`comp {{路径\到\目录1}}\* {{路径\到\目录2}}\*`
+`comp {{path\to\directory1}}\* {{path\to\directory2}}\*`
 
-- 以十进制格式显示差异：
+- 以 [d]ecimal 格式显示差异：
 
-`comp /d {{文件 1 的路径}} {{文件 2 的路径}}`
+`comp /d {{path\to\file1}} {{path\to\file2}}`
 
-- 以 ASCII 字符显示差异：
+- 以 [a]SCII 格式显示差异：
 
-`comp /a {{文件 1 的路径}} {{文件 2 的路径}}`
+`comp /a {{path\to\file1}} {{path\to\file2}}`
 
-- 显示不同的行数：
+- 显示差异的 [l]ine 号：
 
-`comp /l {{文件 1 的路径}} {{文件 2 的路径}}`
+`comp /l {{path\to\file1}} {{path\to\file2}}`
 
-- 比较文件时不区分大小写：
+- 不区分大小写地比较文件：
 
-`comp /c {{文件 1 的路径}} {{文件 2 的路径}}`
+`comp /c {{path\to\file1}} {{path\to\file2}}`
 
-- 只比较每个文件前 5 行的内容：
+- 仅比较每个文件的前 5 行：
 
-`comp /n=5 {{文件 1 的路径}} {{文件 2 的路径}}`
+`comp /n=5 {{path\to\file1}} {{path\to\file2}}`

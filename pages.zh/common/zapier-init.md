@@ -1,7 +1,7 @@
-# zapier init
+# zapier 初始化
 
 > 初始化一个新的 Zapier 集成。
-> 更多信息：<https://platform.zapier.com/reference/cli#init>.
+> 更多信息：<https://platform.zapier.com/reference/cli#init>。
 
 - 初始化一个新的 Zapier 集成：
 

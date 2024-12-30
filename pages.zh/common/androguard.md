@@ -1,16 +1,16 @@
 # androguard
 
-> 使用 Python 编写的一款针对安卓应用的逆向工程工具。
-> 更多信息：<https://github.com/androguard/androguard>.
+> 反向工程 Android 应用程序。用 Python 编写。
+> 更多信息: <https://github.com/androguard/androguard>。
 
-- 展示 Android manifest 清单文件：
+- 显示 Android 应用清单：
 
-`androguard axml {{路径/至/应用.apk}}`
+`androguard axml {{path/to/app.apk}}`
 
-- 展示 app 元数据（版本和 app ID）：
+- 显示应用元数据（版本和应用 ID）：
 
-`androguard apkid {{路径/至/应用.apk}}`
+`androguard apkid {{path/to/app.apk}}`
 
-- 反编译 Java 代码：
+- 反编译应用的 Java 代码：
 
-`androguard decompile {{路径/至/应用.apk}} --output {{路径/至/目录}}`
+`androguard decompile {{path/to/app.apk}} --output {{path/to/directory}}`

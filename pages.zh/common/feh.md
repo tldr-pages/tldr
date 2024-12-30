@@ -1,32 +1,32 @@
 # feh
 
 > 轻量级图像查看工具。
-> 更多信息：<https://feh.finalrewind.org>.
+> 更多信息：<https://feh.finalrewind.org>。
 
-- 查看本地图像或使用 URL：
+- 本地或通过 URL 查看图像：
 
-`feh {{路径/到/图像}}`
+`feh {{path/to/images}}`
 
 - 递归查看图像：
 
-`feh --recursive {{路径/到/图像}}`
+`feh --recursive {{path/to/images}}`
 
-- 使用无边框窗口查看图像：
+- 无窗口边框查看图像：
 
-`feh --borderless {{路径/到/图像}}`
+`feh --borderless {{path/to/images}}`
 
-- 在浏览完最后一个图像之后退出：
+- 最后一个图像后退出：
 
-`feh --cycle-once {{路径/到/图像}}`
+`feh --cycle-once {{path/to/images}}`
 
-- 设置幻灯片放映周期延迟时间（秒）：
+- 使用特定的幻灯片循环延迟：
 
-`feh --slideshow-delay {{秒}} {{路径/到/图像}}`
+`feh --slideshow-delay {{seconds}} {{path/to/images}}`
 
-- 设置墙纸（居中、填充、最大化、缩放或平铺）：
+- 使用特定的壁纸模式（居中、填充、最大化、缩放或平铺）：
 
-`feh --bg-{{center|fill|max|scale|tile}} {{路径/到/图像}}`
+`feh --bg-{{center|fill|max|scale|tile}} {{path/to/image}}`
 
-- 创建目录中所有图像的拼贴，并作为新图像输出：
+- 创建一个目录中所有图像的蒙太奇，并输出为新图像：
 
-`feh --montage --thumb-height {{150}} --thumb-width {{150}} --index-info "{{%nn%wx%h}}" --output {{路径/到/拼贴图像.png}}`
+`feh --montage --thumb-height {{150}} --thumb-width {{150}} --index-info "{{%nn%wx%h}}" --output {{path/to/montage_image.png}}`

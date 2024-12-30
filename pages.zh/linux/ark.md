@@ -1,16 +1,16 @@
 # ark
 
-> KDE 归档工具。
-> 更多信息：<https://docs.kde.org/stable5/en/ark/ark/>.
+> KDE的归档工具。
+> 更多信息：<https://docs.kde.org/stable5/zh/ark/ark/>.
 
-- 将存档解压缩到当前目录：
+- 将特定归档提取到当前目录：
 
-`ark --batch {{路径/到/存档名}}`
+`ark --batch {{path/to/archive}}`
 
-- 改变解压缩目录：
+- 将归档提取到特定目录：
 
-`ark --batch --destination {{路径/到/目录}} {{路径/到/存档名}}`
+`ark --batch --destination {{path/to/directory}} {{path/to/archive}}`
 
-- 创建一个原本不存在的存档并向它添加文件：
+- 如果归档不存在，则创建一个并将特定文件添加到其中：
 
-`ark --add-to {{路径/到/存档名}} {{路径/到/文件1 路径/到/文件2 ...}}`
+`ark --add-to {{path/to/archive}} {{path/to/file1 path/to/file2 ...}}`

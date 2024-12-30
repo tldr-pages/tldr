@@ -1,32 +1,36 @@
 # cp
 
 > 复制文件和目录。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>。
 
-- 复制一个文件到另外一个地方：
+- 将文件复制到另一个位置：
 
-`cp {{文件的原始路径}} {{文件的目标路径}}`
+`cp {{path/to/source_file.ext}} {{path/to/target_file.ext}}`
 
-- 复制一个文件到另外一个目录, 保持文件名不变：
+- 将文件复制到另一个目录中，保持文件名不变：
 
-`cp {{文件的原始路径}} {{目标目录路径}}`
+`cp {{path/to/source_file.ext}} {{path/to/target_parent_directory}}`
 
-- 递归的复制一个目录内的内容到另外一个地方（如果目标目录存在，目录被复制到目标目标内部）：
+- 递归地将目录的内容复制到另一个位置（如果目标存在，目录将被复制到其中）：
 
-`cp -r {{目录的原始路径}} {{目标目录路径}}`
+`cp -r {{path/to/source_directory}} {{path/to/target_directory}}`
 
-- 以详细模式递归的复制一个目录 (当文件被复制的时候显示)：
+- 以详细模式递归复制目录（显示复制的文件）：
 
-`cp -vr {{文件的原始路径}} {{目标目录路径}}`
+`cp -vr {{path/to/source_directory}} {{path/to/target_directory}}`
 
-- 以交互模式复制文本文件到另外一个地方（在覆盖之前提示用户）：
+- 一次性将多个文件复制到一个目录中：
 
-`cp -i {{*.txt}} {{目标目录路径}}`
+`cp -t {{path/to/destination_directory}} {{path/to/file1 path/to/file2 ...}}`
 
-- 跟踪软连接复制：
+- 以交互模式将所有特定扩展名的文件复制到另一个位置（在覆盖之前提示用户）：
 
-`cp -L {{链接}} {{目标目录路径}}`
+`cp -i {{*.ext}} {{path/to/target_directory}}`
 
-- 使用原始文件的全路径，在复制的时候目录不存在则离开创建：
+- 在复制之前跟随符号链接：
 
-`cp --parents {{文件的原始路径}} {{文件的目标路径}}`
+`cp -L {{link}} {{path/to/target_directory}}`
+
+- 使用源文件的完整路径，在复制时创建任何缺失的中间目录：
+
+`cp --parents {{source/path/to/file}} {{path/to/target_file}}`

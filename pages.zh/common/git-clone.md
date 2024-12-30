@@ -1,36 +1,36 @@
 # git clone
 
-> 克隆现有的代码仓库。
-> 更多信息：<https://git-scm.com/docs/git-clone>.
+> 克隆一个现有的代码库。
+> 更多信息：<https://git-scm.com/docs/git-clone>。
 
-- 克隆一个现有的代码仓库到指定目录：
+- 将现有的代码库克隆到一个新目录中（默认目录为代码库名称）：
 
-`git clone {{远程代码库地址}} {{路径/到/目录}}`
+`git clone {{remote_repository_location}} {{path/to/directory}}`
 
-- 克隆一个现有的代码库和它的子模块：
+- 克隆一个现有的代码库及其子模块：
 
-`git clone --recursive {{远程代码库地址}}`
+`git clone --recursive {{remote_repository_location}}`
 
-- 仅克隆现有代码仓库的 `.git` 目录：
+- 仅克隆现有代码库的 `.git` 目录：
 
-`git clone --no-checkout {{远程_代码仓库_地址}}`
+`git clone --no-checkout {{remote_repository_location}}`
 
-- 克隆一个本地的代码库：
+- 克隆一个本地代码库：
 
-`git clone --local {{路径/到/本地/代码库名}}`
+`git clone --local {{path/to/local/repository}}`
 
-- 静默克隆，不打印任何日志：
+- 安静地克隆：
 
-`git clone --quiet {{远程代码库地址}}`
+`git clone --quiet {{remote_repository_location}}`
 
-- 克隆一个现有的代码库，只获取默认分支上10个最新的提交（对节省时间很有用）：
+- 仅克隆现有代码库，获取默认分支上最近的 10 次提交（有助于节省时间）：
 
-`git clone --depth {{10}} {{远程代码库地址}}`
+`git clone --depth {{10}} {{remote_repository_location}}`
 
-- 克隆一个现有的、特定远程分支的代码库：
+- 仅克隆现有代码库，获取特定分支：
 
-`git clone --branch {{分支名称}} --single-branch {{远程代码库地址}}`
+`git clone --branch {{name}} --single-branch {{remote_repository_location}}`
 
-- 使用 SSH 命令克隆一个现有的代码库：
+- 使用特定的 SSH 命令克隆现有代码库：
 
-`git clone --config core.sshCommand="{{ssh -i 路径/到/ssh_私钥}}" {{远程代码库地址}}`
+`git clone --config core.sshCommand="{{ssh -i path/to/private_ssh_key}}" {{remote_repository_location}}`

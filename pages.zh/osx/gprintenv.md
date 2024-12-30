@@ -1,7 +1,7 @@
 # gprintenv
 
-> 这是 `-p linux printenv` 命令的一个别名。
+> 此命令是 GNU `printenv` 的别名。
 
-- 原命令的文档在：
+- 查看原始命令的文档：
 
 `tldr -p linux printenv`

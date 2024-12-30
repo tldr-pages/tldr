@@ -1,36 +1,36 @@
-# find
+# 查找
 
-> 在指定目录树下递归查找文件或目录。
-> 更多信息：<https://manned.org/find>.
+> 在目录树下递归查找文件或目录。
+> 更多信息：<https://manned.org/find>。
 
-- 通过扩展名查找文件：
+- 按扩展名查找文件：
 
-`find {{指定目录}} -name '{{*.ext}}'`
+`find {{root_path}} -name '{{*.ext}}'`
 
-- 查找匹配多个路径或名称模式的文件：
+- 查找匹配多个路径/名称模式的文件：
 
-`find {{指定目录}} -path '{{**/path/**/*.ext}}' -or -name '{{*pattern*}}'`
+`find {{root_path}} -path '{{**/path/**/*.ext}}' -or -name '{{*pattern*}}'`
 
-- 查找匹配指定名称的目录，不区分大小写：
+- 以不区分大小写的模式查找匹配给定名称的目录：
 
-`find {{指定目录}} -type d -iname '{{*lib*}}'`
+`find {{root_path}} -type d -iname '{{*lib*}}'`
 
-- 查找匹配指定模式的文件，排除特定路径：
+- 查找匹配给定模式的文件，排除特定路径：
 
-`find {{指定目录}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
+`find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
 
-- 查找符合指定大小范围的文件，将递归深度限制为 "1"：
+- 查找匹配给定大小范围的文件，将递归深度限制为“1”：
 
-`find {{指定目录}} -maxdepth 1 -size {{+500k}} -size {{-10M}}`
+`find {{root_path}} -maxdepth 1 -size {{+500k}} -size {{-10M}}`
 
-- 对每个文件运行命令（在命令中使用 `{}` 代表当前文件）：
+- 对每个文件运行一个命令（在命令中使用 `{}` 访问文件名）：
 
-`find {{指定目录}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
+`find {{root_path}} -name '{{*.ext}}' -exec {{wc -l}} {} \;`
 
-- 查找最近 7 天修改的文件：
+- 查找今天修改的所有文件并将结果作为参数传递给单个命令：
 
-`find {{指定目录}} -daystart -mtime -{{7}}`
+`find {{root_path}} -daystart -mtime {{-1}} -exec {{tar -cvf archive.tar}} {} \+`
 
-- 查找空（0 字节）的文件并删除：
+- 查找空文件（0字节）或目录并详细删除它们：
 
-`find {{指定目录}} -type {{f}} -empty -delete`
+`find {{root_path}} -type {{f|d}} -empty -delete -print`

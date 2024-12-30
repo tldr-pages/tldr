@@ -1,7 +1,7 @@
 # bootctl
 
-> 控制EFI固件启动设置并管理启动加载器。
-> 更多信息：<https://manned.org/bootctl>.
+> 控制 EFI 固件启动设置和管理启动加载器。
+> 更多信息：<https://manned.org/bootctl>。
 
 - 显示系统固件和启动加载器的信息：
 
@@ -11,18 +11,18 @@
 
 `bootctl list`
 
-- 将系统固件设置为在下次启动时启动：
+- 设置一个标志，以在下次启动时进入系统固件（类似于 `sudo systemctl reboot --firmware-setup`）：
 
 `sudo bootctl reboot-to-firmware true`
 
-- 指定EFI系统分区（默认为`/efi/`，`/boot/`或`/boot/efi`）：
+- 指定 EFI 系统分区的路径（默认为 `/efi/`、`/boot/` 或 `/boot/efi`）：
 
 `bootctl --esp-path={{/path/to/efi_system_partition/}}`
 
-- 将`systemd-boot`安装到EFI系统分区：
+- 将 `systemd-boot` 安装到 EFI 系统分区：
 
 `sudo bootctl install`
 
-- 从EFI系统分区移除所有已安装的`systemd-boot`版本：
+- 从 EFI 系统分区中删除所有已安装的 `systemd-boot` 版本：
 
 `sudo bootctl remove`

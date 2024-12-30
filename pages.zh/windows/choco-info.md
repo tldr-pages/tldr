@@ -1,20 +1,20 @@
-# choco info
+# choco 信息
 
-> 显示有关 Chocolatey 包的详细信息。
-> 更多信息：<https://chocolatey.org/docs/commands-info>.
+> 显示有关 Chocolatey 软件包的详细信息。
+> 更多信息：<https://chocolatey.org/docs/commands-info>。
 
-- 显示指定包的信息：
+- 显示特定软件包的信息：
 
-`choco info {{包名}}`
+`choco info {{package}}`
 
-- 显示一个本地已安装包的信息：
+- 仅显示本地软件包的信息：
 
-`choco info {{包名}} --local-only`
+`choco info {{package}} --local-only`
 
-- 从一个自定义的源来获取包的信息：
+- 指定自定义源以获取软件包信息：
 
-`choco info {{包名}} --source {{源 URL|别名}}`
+`choco info {{package}} --source {{source_url|alias}}`
 
-- 提供一个用户名和密码来进行验证：
+- 提供用户名和密码进行身份验证：
 
-`choco info {{包名}} --user {{用户名}} --password {{密码}}`
+`choco info {{package}} --user {{username}} --password {{password}}`

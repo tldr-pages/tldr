@@ -1,17 +1,21 @@
 # pushd
 
-> 将目录放在堆栈上，以便以后访问。
-> 另请参阅 `popd` 命令说明，以切换回原始目录。
-> 更多信息：<https://www.gnu.org/software/bash/manual/html_node/Directory-Stack-Builtins.html>.
+> 将一个目录放入堆栈，以便后续访问。
+> 另见 `popd` 以切换回原始目录，以及 `dirs` 以显示目录堆栈内容。
+> 更多信息：<https://www.gnu.org/software/bash/manual/html_node/Directory-Stack-Builtins.html>。
 
-- 切换到目录并将其添加到堆栈上：
+- 切换到目录并将其压入堆栈：
 
-`pushd {{directory}}`
+`pushd {{path/to/directory}}`
 
-- 切换堆栈上的第一个和第二个目录：
+- 交换堆栈中的第一个和第二个目录：
 
 `pushd`
 
-- 通过使第 5 个元素成为堆栈的顶部来旋转堆栈：
+- 通过将第5个元素置为堆栈顶部来旋转堆栈：
 
 `pushd +4`
+
+- 将堆栈向左旋转4次（当前目录保持在顶部，通过替换第5个元素）：
+
+`pushd -n +4`

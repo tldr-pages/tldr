@@ -1,28 +1,36 @@
 # bluetoothctl
 
-> 从命令行管理蓝牙设备。
-> 更多信息：<https://bitbucket.org/serkanp/bluetoothctl>.
+> 管理蓝牙设备。
+> 更多信息：<https://bitbucket.org/serkanp/bluetoothctl>。
 
-- 进入 bluetoothctl 外壳程序：
+- 进入 `bluetoothctl` shell：
 
 `bluetoothctl`
 
-- 列出设备：
+- 列出所有已知设备：
 
-`bluetoothctl -- devices`
+`bluetoothctl devices`
 
-- 与一个设备配对：
+- 打开或关闭蓝牙控制器：
 
-`bluetoothctl -- pair {{mac 地址}}`
+`bluetoothctl power {{on|off}}`
 
-- 移除一个设备：
+- 与设备配对：
 
-`bluetoothctl -- remove {{mac 地址}}`
+`bluetoothctl pair {{mac_address}}`
 
-- 连接一个已配对的设备：
+- 移除设备：
 
-`bluetoothctl -- connect {{mac 地址}}`
+`bluetoothctl remove {{mac_address}}`
 
-- 断开一个已配对的设备：
+- 连接到已配对的设备：
 
-`bluetoothctl -- disconnect {{mac 地址}}`
+`bluetoothctl connect {{mac_address}}`
+
+- 从已配对的设备断开连接：
+
+`bluetoothctl disconnect {{mac_address}}`
+
+- 显示帮助：
+
+`bluetoothctl help`

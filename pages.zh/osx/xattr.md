@@ -1,24 +1,24 @@
 # xattr
 
-> 用于扩展文件系统属性的实用程序。
-> 更多信息：<https://keith.github.io/xcode-man-pages/xattr.1.html>.
+> 用于处理扩展文件系统属性的工具。
+> 更多信息：<https://keith.github.io/xcode-man-pages/xattr.1.html>。
 
-- 列出 键：值 列表，显示指定文件的值扩展属性：
+- 列出给定文件的键值扩展属性：
 
-`xattr -l {{文件名}}`
+`xattr -l {{file}}`
 
 - 为给定文件写入属性：
 
-`xattr -w {{属性键名}} {{属性值}} {{文件名}}`
+`xattr -w {{attribute_key}} {{attribute_value}} {{file}}`
 
 - 从给定文件中删除属性：
 
-`xattr -d {{com.apple.quarantine}} {{文件名}}`
+`xattr -d {{com.apple.quarantine}} {{file}}`
 
 - 从给定文件中删除所有扩展属性：
 
-`xattr -c {{文件名}}`
+`xattr -c {{file}}`
 
-- 递归删除给定目录中文件的属性：
+- 递归删除给定目录中的属性：
 
-`xattr -rd {{属性键名}} {{目录}}`
+`xattr -rd {{attribute_key}} {{directory}}`

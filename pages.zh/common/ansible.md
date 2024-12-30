@@ -1,32 +1,32 @@
 # ansible
 
-> 通过 SSH 协议远程管理计算机组。使用 `/etc/ansible/hosts` 文件来添加组 / 主机。
-> 此命令也有关于其子命令的文件，例如：`galaxy`.
-> 更多信息：<https://www.ansible.com/>.
+> 通过 SSH 远程管理计算机组。（使用 `/etc/ansible/hosts` 文件添加新组/主机）。
+> 一些子命令如 `galaxy` 有自己的使用文档。
+> 更多信息：<https://www.ansible.com/>。
 
-- 列出给定组下的所有主机：
+- 列出属于某个组的主机：
 
-`ansible {{组}} --list-hosts`
+`ansible {{group}} --list-hosts`
 
-- 调用 ping 模块来 ping 一组主机：
+- 通过调用 ping [模块] 向一组主机发送 Ping：
 
-`ansible {{组}} -m ping`
+`ansible {{group}} -m ping`
 
-- 通过调用安装模块来显示关于一组主机的信息：
+- 通过调用 setup [模块] 显示有关一组主机的信息：
 
-`ansible {{组}} -m setup`
+`ansible {{group}} -m setup`
 
-- 调用命令模块并使用给定的参数来对一组主机执行命令：
+- 通过调用命令模块并传递参数在一组主机上执行命令：
 
-`ansible {{组}} -m command -a '{{命令}}'`
+`ansible {{group}} -m command -a '{{my_command}}'`
 
-- 以管理员权限执行一个命令：
+- 以管理员权限执行命令：
 
-`ansible {{组}} --become --ask-become-pass -m command -a '{{命令}}'`
+`ansible {{group}} --become --ask-become-pass -m command -a '{{my_command}}'`
 
-- 使用自定义的清单文件执行一个命令：
+- 使用自定义清单文件执行命令：
 
-`ansible {{组}} -i {{清单文件}} -m command -a '{{命令}}'`
+`ansible {{group}} -i {{inventory_file}} -m command -a '{{my_command}}'`
 
 - 列出清单中的组：
 

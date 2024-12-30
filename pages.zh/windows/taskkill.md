@@ -1,28 +1,28 @@
 # taskkill
 
-> 按进程 ID 或进程名终止进程。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill>.
+> 通过进程 ID 或名称终止一个进程。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill>。
 
-- 通过进程 ID 终止进程：
+- 通过进程 ID 终止一个进程：
 
-`taskkill /pid {{进程 id}}`
+`taskkill /pid {{process_id}}`
 
-- 通过进程名终止进程：
+- 通过进程名称终止一个进程：
 
-`taskkill /im {{进程名}}`
+`taskkill /im {{process_name}}`
 
-- 强制终止一个指定的进程：
+- 强制终止指定的进程：
 
-`taskkill /pid {{进程名}} /f`
+`taskkill /pid {{process_id}} /f`
 
 - 终止一个进程及其子进程：
 
-`taskkill /im {{进程名}} /t`
+`taskkill /im {{process_name}} /t`
 
-- 终止远程计算机上的进程：
+- 在远程计算机上终止一个进程：
 
-`taskkill /pid {{进程 id}} /s {{远程主机名}}`
+`taskkill /pid {{process_id}} /s {{remote_name}}`
 
-- 显示命令的帮助信息：
+- 显示命令使用信息：
 
 `taskkill /?`

@@ -1,24 +1,24 @@
 # pm
 
-> 显示关于 Android 设备上的应用程序的信息。
-> 更多信息：<https://developer.android.com/tools/adb#pm>.
+> 显示有关 Android 设备上应用程序的信息。
+> 更多信息：<https://developer.android.com/tools/adb#pm>。
 
-- 打印所有已安装应用程序的列表：
+- 列出所有已安装的应用程序：
 
 `pm list packages`
 
-- 打印所有已安装的系统应用程序的列表：
+- 列出所有已安装的 [s]ystem 应用程序：
 
 `pm list packages -s`
 
-- 打印所有已安装的第三方应用程序的列表：
+- 列出所有已安装的 [3]rd-party 应用程序：
 
 `pm list packages -3`
 
-- 打印与指定关键字匹配的应用程序列表：
+- 列出匹配特定关键字的应用程序：
 
-`pm list packages {{关键词}}`
+`pm list packages {{关键字1 关键字2 ...}}`
 
-- 打印指定应用的 APK 的路径：
+- 显示特定应用程序的 APK 路径：
 
-`pm path {{应用名}}`
+`pm path {{应用程序}}`

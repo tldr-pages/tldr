@@ -1,29 +1,29 @@
 # afinfo
 
-> 显示音频文件元数据（Metadata）详细信息（OS X）。
-> OS X 自带命令。
-> 更多信息：<https://keith.github.io/xcode-man-pages/afinfo.1.html>.
+> OS X 的音频文件元数据解析器。
+> OS X 的内置命令。
+> 更多信息：<https://keith.github.io/xcode-man-pages/afinfo.1.html>。
 
-- 显示给定音频文件的详细信息：
+- 显示给定音频文件的信息：
 
-`afinfo {{路径/到/文件}}`
+`afinfo {{path/to/file}}`
 
-- 显示简化的音频文件信息（单行）：
+- 打印音频文件的一行描述：
 
-`afinfo --brief {{路径/到/文件}}`
+`afinfo --brief {{path/to/file}}`
 
-- 显示音频文件的元数据信息以及其 InfoDictionary 词典：
+- 打印音频文件的元数据和 InfoDictionary 的内容：
 
-`afinfo --info {{路径/到/文件}}`
+`afinfo --info {{path/to/file}}`
 
-- 以 xml 格式显示音频文件信息：
+- 以 XML 格式打印输出：
 
-`afinfo --xml {{路径/到/文件}}`
+`afinfo --xml {{path/to/file}}`
 
-- 显示警告信息（如存在）：
+- 如果音频文件有任何警告，则打印警告：
 
-`afinfo --warnings {{路径/到/文件}}`
+`afinfo --warnings {{path/to/file}}`
 
-- 显示完整用法帮助：
+- 显示帮助信息：
 
 `afinfo --help`

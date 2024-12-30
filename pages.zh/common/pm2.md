@@ -1,14 +1,14 @@
 # pm2
 
-> Node.js 的进程管理工具。
+> Node.js 的进程管理器。
 > 用于日志管理、监控和配置进程。
-> 更多信息：<https://pm2.keymetrics.io>.
+> 更多信息：<https://pm2.keymetrics.io>。
 
-- 启动一个进程并指定名称，以便后续操作使用：
+- 使用可用于后续操作的名称启动进程：
 
-`pm2 start {{app.js}} --name {{应用名称}}`
+`pm2 start {{app.js}} --name {{application_name}}`
 
-- 列出所有进程：
+- 列出进程：
 
 `pm2 list`
 
@@ -18,13 +18,13 @@
 
 - 停止一个进程：
 
-`pm2 stop {{应用名称}}`
+`pm2 stop {{application_name}}`
 
 - 重启一个进程：
 
-`pm2 restart {{应用名称}}`
+`pm2 restart {{application_name}}`
 
-- 保存当前所有进程，便于稍后恢复：
+- 保存所有进程以便以后恢复：
 
 `pm2 save`
 

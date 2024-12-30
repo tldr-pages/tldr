@@ -1,11 +1,15 @@
 # compgen
 
-> 用于在 bash 中自动完成的内置命令，按两次 tab 键即可调用该命令。
-> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-compgen>.
+> Bash中的一个内置命令，用于自动补全，在按下TAB键两次时调用。
+> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-compgen>。
 
-- 显示所有可以执行的命令：
+- 列出所有可以运行的命令：
 
 `compgen -c`
+
+- 列出以指定字符串开头的所有可以运行的命令：
+
+`compgen -c {{str}}`
 
 - 列出所有别名：
 
@@ -15,10 +19,10 @@
 
 `compgen -A function`
 
-- 列出所有 shell 的保留关键字：
+- 显示shell保留关键字：
 
 `compgen -k`
 
-- 查看以 'ls' 开头的所有可用命令和别名：
+- 查看以'ls'开头的所有可用命令/别名：
 
 `compgen -ac {{ls}}`

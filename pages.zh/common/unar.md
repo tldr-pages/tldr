@@ -1,24 +1,24 @@
 # unar
 
 > 从归档文件中提取内容。
-> 更多信息：<https://manned.org/unar>.
+> 更多信息：<https://manned.org/unar>。
 
-- 提取一个归档文件到当前目录：
+- 将归档提取到当前目录：
 
-`unar {{归档文件}}`
+`unar {{path/to/archive}}`
 
-- 提取一个归档文件到指定目录：
+- 将归档提取到指定目录：
 
-`unar -o {{路径/到/目录}} {{归档文件}}`
+`unar -o {{path/to/directory}} {{path/to/archive}}`
 
-- 如果要提取的文件已经存在，则总是覆盖：
+- 如果要解压的文件已存在，则强制覆盖：
 
-`unar -f {{归档文件}}`
+`unar -f {{path/to/archive}}`
 
-- 如果要提取的文件已经存在，则总是重命名：
+- 如果要解压的文件已存在，则强制重命名：
 
-`unar -r {{归档文件}}`
+`unar -r {{path/to/archive}}`
 
-- 如果要提取的文件已经存在，则总是跳过：
+- 如果要解压的文件已存在，则强制跳过：
 
-`unar -s {{归档文件}}`
+`unar -s {{path/to/archive}}`

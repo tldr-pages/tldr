@@ -1,9 +1,9 @@
 # debuild
 
-> 从源代码构建 `Debian` 软件包的工具。
-> 更多信息：<https://manned.org/debuild.1>.
+> 从源代码构建 Debian 包。
+> 更多信息：<https://manned.org/debuild.1>。
 
-- 在当前目录中生成软件包：
+- 在当前目录中构建包：
 
 `debuild`
 
@@ -11,6 +11,6 @@
 
 `debuild -b`
 
-- 生成软件包后，不运行 `lintian`（检查常见打包错误）：
+- 构建包后不运行 lintian：
 
 `debuild --no-lintian`

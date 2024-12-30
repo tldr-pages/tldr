@@ -1,0 +1,36 @@
+# v
+
+> 一个用于管理 V 源代码的工具。
+> 更多信息：<https://docs.vlang.io/getting-started.html>。
+
+- 编译一个文件并输出其可执行文件：
+
+`v {{path/to/file.v}}`
+
+- 编译当前项目或目录：
+
+`v .`
+
+- 编译一个文件并运行它：
+
+`v run {{path/to/file.v}}`
+
+- 编译一个文件并运行它，输出其可执行文件：
+
+`v crun {{path/to/file.v}}`
+
+- 在每次修改文件时重新编译：
+
+`v watch {{path/to/file.v}}`
+
+- 在每次修改文件时重新运行：
+
+`v watch run {{path/to/file.v}}`
+
+- 打开 v repl：
+
+`v repl`
+
+- 格式化一个文件并[w]写入它：
+
+`v fmt -w {{path/to/file.v}}`

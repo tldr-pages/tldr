@@ -1,31 +1,31 @@
 # ansible-galaxy
 
-> 执行与 Ansible 角色和集合相关的各种操作。
-> 更多信息：<https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
+> 执行各种与 Ansible 角色和集合相关的操作。
+> 更多信息：<https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>。
 
 - 列出已安装的角色或集合：
 
 `ansible-galaxy {{role|collection}} list`
 
-- 使用不同的详细等级搜索角色（`-v` 应该放在最后）：
+- 以不同的详细程度搜索角色（`-v` 应该在最后指定）：
 
-`ansible-galaxy role search {{关键字}} -v{{vvvvv}}`
+`ansible-galaxy role search {{keyword}} -v{{vvvvv}}`
 
 - 安装或移除角色：
 
-`ansible-galaxy role {{install|remove}} {{角色名称1 角色名称2 ...}}`
+`ansible-galaxy role {{install|remove}} {{role_name1 role_name2 ...}}`
 
 - 创建一个新角色：
 
-`ansible-galaxy role init {{角色名称}}`
+`ansible-galaxy role init {{role_name}}`
 
-- 获取关于角色的信息：
+- 获取角色的信息：
 
-`ansible-galaxy role info {{角色名称}}`
+`ansible-galaxy role info {{role_name}}`
 
 - 安装或移除集合：
 
-`ansible-galaxy collection {{install|remove}} {{集合名称1 集合名称2 ...}}`
+`ansible-galaxy collection {{install|remove}} {{collection_name1 collection_name2 ...}}`
 
 - 显示关于角色或集合的帮助信息：
 

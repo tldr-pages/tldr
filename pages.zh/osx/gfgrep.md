@@ -1,7 +1,7 @@
 # gfgrep
 
-> 这是 `-p linux fgrep` 命令的一个别名。
+> 这个命令是GNU `fgrep` 的一个别名。
 
-- 原命令的文档在：
+- 查看原始命令的文档：
 
 `tldr -p linux fgrep`

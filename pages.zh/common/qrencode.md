@@ -1,20 +1,20 @@
 # qrencode
 
-> 二维码生成器。支持 PNG 和 EPS 格式。
-> 更多信息：<https://fukuchi.org/works/qrencode>.
+> QR 码生成器。支持 PNG 和 EPS 格式。
+> 更多信息：<https://fukuchi.org/works/qrencode>。
 
-- 将字符串转换为二维码并保存到输出文件：
+- 将字符串转换为 QR 码并保存到输出文件：
 
-`qrencode -o {{路径/到/输出文件.png}} {{字符串}}`
+`qrencode -o {{path/to/output_file.png}} {{string}}`
 
-- 将输入文件转换为二维码并保存到输出文件：
+- 将输入文件转换为 QR 码并保存到输出文件：
 
-`qrencode -o {{路径/到/输出文件.png}} -r {{路径/到/输入文件}}`
+`qrencode -o {{path/to/output_file.png}} -r {{path/to/input_file}}`
 
-- 将字符串转换为二维码并在终端中打印：
+- 将字符串转换为 QR 码并在终端打印：
 
-`qrencode -t ansiutf8 {{字符串}}`
+`qrencode -t ansiutf8 {{string}}`
 
-- 从管道输入转换为二维码并在终端中打印：
+- 将管道输入转换为 QR 码并在终端打印：
 
-`echo {{字符串}} | qrencode -t ansiutf8`
+`echo {{string}} | qrencode -t ansiutf8`

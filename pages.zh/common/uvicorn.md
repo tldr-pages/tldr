@@ -1,24 +1,24 @@
 # uvicorn
 
-> Python 的 ASGI HTTP 服务器，适用于异步项目。
+> Python ASGI HTTP 服务器，用于异步项目。
 > 更多信息：<https://www.uvicorn.org/>.
 
-- 运行 Python Web 应用：
+- 运行 Python web 应用：
 
-`uvicorn {{导入路径:应用对象}}`
+`uvicorn {{import.path:app_object}}`
 
-- 在本地主机上监听端口 8080：
+- 在本地主机的 8080 端口监听：
 
-`uvicorn --host {{localhost}} --port {{8080}} {{导入路径:应用对象}}`
+`uvicorn --host {{localhost}} --port {{8080}} {{import.path:app_object}}`
 
-- 启用实时重新加载：
+- 开启实时重载：
 
-`uvicorn --reload {{导入路径:应用对象}}`
+`uvicorn --reload {{import.path:app_object}}`
 
 - 使用 4 个工作进程处理请求：
 
-`uvicorn --workers {{4}} {{导入路径:应用对象}}`
+`uvicorn --workers {{4}} {{import.path:app_object}}`
 
 - 通过 HTTPS 运行应用：
 
-`uvicorn --ssl-certfile {{cert.pem}} --ssl-keyfile {{key.pem}} {{导入路径:应用对象}}`
+`uvicorn --ssl-certfile {{cert.pem}} --ssl-keyfile {{key.pem}} {{import.path:app_object}}`

@@ -1,24 +1,24 @@
 # base32
 
-> 将文件或标准输入编码到 Base32 或从 Base32 解码为标准输出。
-> 更多信息：<https://manned.org/base32>.
+> 将文件或 `stdin` 编码或解码为 Base32，输出到 `stdout`。
+> 更多信息：<https://manned.org/base32>。
 
-- 编码一个文件：
+- 编码文件：
 
-`base32 {{路径/到/文件}}`
+`base32 {{path/to/file}}`
 
-- 按特定宽度包装编码输出（“0”表示禁用包装）：
+- 在特定宽度处换行编码输出（`0` 禁用换行）：
 
-`base32 {{-w|--wrap}} {{0|76|...}} {{路径/到/文件}}`
+`base32 {{-w|--wrap}} {{0|76|...}} {{path/to/file}}`
 
-- 解码一个文件：
+- 解码文件：
 
-`base32 {{-d|--decode}} {{路径/到/文件}}`
+`base32 {{-d|--decode}} {{path/to/file}}`
 
-- 从标准输入编码：
+- 从 `stdin` 编码：
 
-`{{某指令}} | base32`
+`{{command}} | base32`
 
-- 将标准输入解码：
+- 从 `stdin` 解码：
 
-`{{某指令}} | base32 {{-d|--decode}}`
+`{{command}} | base32 {{-d|--decode}}`

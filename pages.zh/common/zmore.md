@@ -1,19 +1,19 @@
 # zmore
 
 > 使用 `more` 查看 `gzip` 压缩文件。
-> 更多信息：<https://manned.org/zmore>.
+> 更多信息：<https://manned.org/zmore>。
 
-- 打开一个压缩文件：
+- 打开压缩文件：
 
-`zmore {{路径/到/文件.txt.gz}}`
+`zmore {{path/to/file.txt.gz}}`
 
 - 显示文件的下一页：
 
 `<Space>`
 
-- 在文件中搜索一个模式（按 `n` 跳转到下一个匹配项）：
+- 在文件中搜索模式（按 `n` 转到下一个匹配项）：
 
-`/{{正则表达式}}`
+`/{{regular_expression}}`
 
 - 退出：
 

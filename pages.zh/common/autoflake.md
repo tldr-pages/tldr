@@ -1,20 +1,20 @@
 # autoflake
 
-> 一个工具，用于检查 Python 代码中未被使用的引入和变量。
-> 更多信息：<https://github.com/myint/autoflake>.
+> 从 Python 代码中移除未使用的导入和变量。
+> 更多信息：<https://github.com/myint/autoflake>。
 
-- 移除指定文件中未使用的变量，并展示 diff：
+- 从单个文件中移除未使用的变量并显示差异：
 
-`autoflake --remove-unused-variables {{路径/到/文件.py}}`
+`autoflake --remove-unused-variables {{path/to/file.py}}`
 
-- 移除多个文件中未使用的引入，并展示 diffs：
+- 从多个文件中移除未使用的导入并显示差异：
 
-`autoflake --remove-all-unused-imports {{路径/到/文件1.py 路径/到/文件2.py ...}}`
+`autoflake --remove-all-unused-imports {{path/to/file1.py path/to/file2.py ...}}`
 
-- 移除未被使用的变量，并覆盖更新：
+- 从文件中移除未使用的变量，覆盖该文件：
 
-`autoflake --remove-unused-variables --in-place {{路径/到/文件.py}}`
+`autoflake --remove-unused-variables --in-place {{path/to/file.py}}`
 
-- 递归地移除指定文件夹下层所有文件中未使用的变量，并覆盖更新：
+- 从目录中的所有文件递归移除未使用的变量，覆盖每个文件：
 
-`autoflake --remove-unused-variables --in-place --recursive {{路径/到/目录}}`
+`autoflake --remove-unused-variables --in-place --recursive {{path/to/directory}}`

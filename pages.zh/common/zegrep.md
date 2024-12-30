@@ -1,28 +1,28 @@
 # zegrep
 
 > 使用 `egrep` 在压缩文件中查找扩展正则表达式模式。
-> 更多信息：<https://www.unix.com/man-page/freebsd/1/zegrep/>.
+> 更多信息：<https://www.unix.com/man-page/freebsd/1/zegrep/>
 
-- 在压缩文件中搜索扩展正则表达式（支持 `?`, `+`, `{}`, `()` 和 `|`），区分大小写：
+- 在压缩文件中搜索扩展正则表达式（支持 `?`、`+`、`{}`、`()` 和 `|`，区分大小写）：
 
-`zegrep "{{搜索模式}}" {{路径/到/文件}}`
+`zegrep "{{search_pattern}}" {{path/to/file}}`
 
-- 在压缩文件中搜索扩展正则表达式（支持 `?`, `+`, `{}`, `()` 和 `|`），忽略大小写：
+- 在压缩文件中搜索扩展正则表达式（支持 `?`、`+`、`{}`、`()` 和 `|`，不区分大小写）：
 
-`zegrep --ignore-case "{{搜索模式}}" {{路径/到/文件}}`
+`zegrep --ignore-case "{{search_pattern}}" {{path/to/file}}`
 
-- 搜索不匹配模式的行：
+- 搜索不匹配某个模式的行：
 
-`zegrep --invert-match "{{搜索模式}}" {{路径/到/文件}}`
+`zegrep --invert-match "{{search_pattern}}" {{path/to/file}}`
 
-- 打印每个匹配项的文件名和行号：
+- 对于每个匹配项打印文件名和行号：
 
-`zegrep --with-filename --line-number "{{搜索模式}}" {{路径/到/文件}}`
+`zegrep --with-filename --line-number "{{search_pattern}}" {{path/to/file}}`
 
-- 搜索匹配模式的行，仅打印匹配的文本：
+- 搜索匹配某个模式的行，仅打印匹配的文本：
 
-`zegrep --only-matching "{{搜索模式}}" {{路径/到/文件}}`
+`zegrep --only-matching "{{search_pattern}}" {{path/to/file}}`
 
-- 在压缩文件中递归搜索文件中的模式：
+- 在压缩文件中递归搜索某个模式的文件：
 
-`zegrep --recursive "{{搜索模式}}" {{路径/到/文件}}`
+`zegrep --recursive "{{search_pattern}}" {{path/to/file}}`

@@ -1,21 +1,21 @@
 # as
 
-> 便携式 GNU 汇编程序。
-> 主要用于汇编 `gcc` 的输出以供 `ld` 使用。
-> 更多信息：<https://keith.github.io/xcode-man-pages/as.1.html>.
+> 可移植的GNU汇编器。
+> 主要用于将`gcc`的输出汇编为`ld`使用。
+> 更多信息：<https://keith.github.io/xcode-man-pages/as.1.html>。
 
-- 汇编文件，将输出写入 a.out：
+- 汇编一个文件，将输出写入`a.out`：
 
-`as {{路径/到/文件.s}}`
+`as {{path/to/file.s}}`
 
-- 将输出汇编到给定文件：
+- 将输出汇编到指定文件：
 
-`as {{路径/到/文件.s}} -o {{路径/到/输出.o}}`
+`as {{path/to/file.s}} -o {{path/to/output_file.o}}`
 
-- 通过跳过空白和注释预处理来更快地生成输出.（应该只用于受信任的编译器）：
+- 通过跳过空白和注释预处理来加快输出生成速度。（仅应对受信任的编译器使用）：
 
-`as -f {{路径/到/文件.s}}`
+`as -f {{path/to/file.s}}`
 
-- 在目录列表中包含一个给定路径，以搜索 .include 指令中指定的文件：
+- 将给定路径包含在搜索`.include`指令中指定文件的目录列表中：
 
-`as -I {{目标文件夹}} {{路径/到/文件.s}}`
+`as -I {{path/to/directory}} {{path/to/file.s}}`

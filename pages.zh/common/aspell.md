@@ -1,24 +1,24 @@
 # aspell
 
-> 交互式拼写检查工具。
+> 交互式拼写检查器。
 > 更多信息：<http://aspell.net/>.
 
-- 为一个文件做拼写检查：
+- 检查单个文件的拼写：
 
-`aspell check {{文件路径}}`
+`aspell check {{path/to/file}}`
 
-- 列出来自标准输入的拼写错误单词：
+- 从 `stdin` 列出拼写错误的单词：
 
-`cat {{文件}} | aspell list`
+`cat {{path/to/file}} | aspell list`
 
-- 列出可用的字典语言：
+- 显示可用的字典语言：
 
 `aspell dicts`
 
-- 指定不同的语言（取 ISO 639 语言代码的 2 个字母）来运行 `aspell`：
+- 使用不同语言运行 `aspell`（需要两个字母的 ISO 639 语言代码）：
 
 `aspell --lang={{cs}}`
 
-- 列出来自标准输入的拼写错误单词，并且忽略个人单词列表中的单词：
+- 从 `stdin` 列出拼写错误的单词，并忽略个人词汇表中的单词：
 
-`cat {{文件}} | aspell --personal={{个人单词列表.pws}} list`
+`cat {{path/to/file}} | aspell --personal={{personal-word-list.pws}} list`

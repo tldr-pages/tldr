@@ -1,8 +1,8 @@
 # chrome
 
-> 这是 `chromium` 命令的一个别名。
-> 更多信息：<https://chrome.google.com>.
+> 此命令是 `chromium` 的别名。
+> 更多信息请访问: <https://chrome.google.com>。
 
-- 原命令的文档在：
+- 查看原始命令的文档：
 
 `tldr chromium`

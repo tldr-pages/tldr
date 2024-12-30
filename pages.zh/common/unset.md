@@ -1,16 +1,16 @@
 # unset
 
-> 删除 Shell 变量或函数。
-> 更多信息：<https://manned.org/unset>.
+> 移除 shell 变量或函数。
+> 更多信息: <https://manned.org/unset>。
 
-- 删除变量 `foo`，如果该变量不存在则删除函数 `foo`：
+- 移除变量 `foo`，如果变量不存在，则移除函数 `foo`：
 
 `unset {{foo}}`
 
-- 删除变量 foo 和 bar：
+- 移除变量 foo 和 bar：
 
 `unset -v {{foo}} {{bar}}`
 
-- 删除函数 my_func：
+- 移除函数 my_func：
 
 `unset -f {{my_func}}`

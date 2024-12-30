@@ -1,32 +1,33 @@
 # pip
 
-> Python 主流的包安装管理工具。
-> 更多信息：<https://pip.pypa.io>.
+> Python 包管理器。
+> 一些子命令如 `install` 有自己的使用文档。
+> 更多信息：<https://pip.pypa.io>。
 
-- 安装包（通过 `pip install` 查看更多安装示例）：
+- 安装一个包（请参见 `pip install` 以获取更多安装示例）：
 
-`pip install {{包名}}`
+`pip install {{package}}`
 
-- 安装包到用户目录而不是系统范围的默认位置：
+- 将包安装到用户目录，而不是系统默认位置：
 
-`pip install --user {{包名}}`
+`pip install --user {{package}}`
 
-- 升级包：
+- 升级一个包：
 
-`pip install --upgrade {{包名}}`
+`pip install --upgrade {{package}}`
 
-- 卸载包：
+- 卸载一个包：
 
-`pip uninstall {{包名}}`
+`pip uninstall {{package}}`
 
-- 将已安装的包以 Requirements 的格式保存文件中：
+- 将已安装的包保存到文件：
 
 `pip freeze > {{requirements.txt}}`
 
-- 查看包的详细信息：
+- 显示已安装包的信息：
 
-`pip show {{包名}}`
+`pip show {{package}}`
 
-- 通过依赖文件（如 requirements.txt）来进行安装：
+- 从文件安装包：
 
 `pip install --requirement {{requirements.txt}}`

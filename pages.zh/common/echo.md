@@ -1,28 +1,28 @@
 # echo
 
-> 输出给定参数。
-> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
+> 打印给定的参数。
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>。
 
-- 输出文本信息. 注意： 引号是可选的：
+- 打印一条文本消息。注意：引号是可选的：
 
-`echo "{{Hello World}}"`
+`echo "{{你好，世界}}"`
 
-- 输出带有环境变量的信息：
+- 打印包含环境变量的消息：
 
-`echo "{{My path is $PATH}}"`
+`echo "{{我的路径是 $PATH}}"`
 
-- 打印不带尾随换行符的信息：
+- 打印一条没有换行符的消息：
 
-`echo -n "{{Hello World}}"`
+`echo -n "{{你好，世界}}"`
 
-- 向文件添加信息：
+- 将消息附加到文件中：
 
-`echo "{{Hello World}}" >> {{file.txt}}`
+`echo "{{你好，世界}}" >> {{file.txt}}`
 
-- 启用反斜杠转义的解释（特殊字符）：
+- 启用对反斜杠转义字符（特殊字符）的解释：
 
-`echo -e "{{Column 1\tColumn 2}}"`
+`echo -e "{{列 1\t列 2}}"`
 
-- 输出执行的上一条指令的退出状态（注：在 Windows 命令提示符和 PowerShell 中，对应的命令分别是 `echo %errorlevel%` 和 `$lastexitcode`）：
+- 打印最后执行命令的退出状态（注意：在Windows命令提示符和PowerShell中，等效命令为`echo %errorlevel%`和`$lastexitcode`）：
 
 `echo $?`

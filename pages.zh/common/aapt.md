@@ -1,17 +1,16 @@
 # aapt
 
-> 安卓资源包工具（Android Asset Packaging Tools）。
-> 该工具可以查看，创建，更新资源压缩包（zip, jar, apk）。
-> 更多信息：<https://manned.org/aapt>.
+> Android资源打包工具：编译和打包Android应用的资源。
+> 更多信息：<https://manned.org/aapt>。
 
-- 列出资源压缩包里的内容：
+- 列出APK归档中包含的文件：
 
-`aapt list {{路径/到/应用.apk}}`
+`aapt list {{path/to/app.apk}}`
 
-- 查看 APK 包内指定的内容（版本，权限许可等）：
+- 显示应用的元数据（版本、权限等）：
 
-`aapt dump badging {{路径/到/应用.apk}}`
+`aapt dump badging {{path/to/app.apk}}`
 
-- 打包生成资源压缩包：
+- 从指定目录创建一个新的APK归档：
 
-`aapt package -F {{路径/到/应用.apk}} {{路径/到/目录}}`
+`aapt package -F {{path/to/app.apk}} {{path/to/directory}}`

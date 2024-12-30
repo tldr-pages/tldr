@@ -2,13 +2,13 @@
 
 > 一个资源监视器，显示有关 CPU、内存、磁盘、网络和进程的信息。
 > `bashtop` 的 Python 版本。
-> 更多信息：<https://github.com/aristocratos/bpytop>.
+> 更多信息：<https://github.com/aristocratos/bpytop>。
 
-- 运行 bpytop：
+- 启动 `bpytop`：
 
 `bpytop`
 
-- 以最小模式启动，不显示内存和网络框：
+- 在最小模式下启动，不显示内存和网络框：
 
 `bpytop -m`
 
@@ -20,7 +20,7 @@
 
 `f`
 
-- 修改设置：
+- 更改设置：
 
 `M`
 

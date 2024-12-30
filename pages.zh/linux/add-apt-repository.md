@@ -1,20 +1,20 @@
 # add-apt-repository
 
-> apt 仓库管理。
-> 更多信息：<https://manned.org/apt-add-repository>.
+> 管理 `apt` 仓库定义。
+> 更多信息：<https://manned.org/apt-add-repository>。
 
-- 添加一个新的 APT 仓库：
+- 添加一个新的 `apt` 仓库：
 
-`add-apt-repository {{指定仓库}}`
+`add-apt-repository {{repository_spec}}`
 
-- 移除一个 APT 仓库：
+- 移除一个 `apt` 仓库：
 
-`add-apt-repository --remove {{指定仓库}}`
+`add-apt-repository --remove {{repository_spec}}`
 
-- 添加一个仓库并更新缓存：
+- 在添加仓库后更新软件包缓存：
 
-`add-apt-repository --update {{指定仓库}}`
+`add-apt-repository --update {{repository_spec}}`
 
-- 允许从指定仓库下载源码：
+- 允许从仓库下载源软件包：
 
-`add-apt-repository --enable-source {{指定仓库}}`
+`add-apt-repository --enable-source {{repository_spec}}`

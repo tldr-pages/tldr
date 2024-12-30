@@ -1,36 +1,36 @@
 # git log
 
-> 查看提交历史。
-> 更多信息：<https://git-scm.com/docs/git-log>.
+> 显示提交历史。
+> 更多信息：<https://git-scm.com/docs/git-log>。
 
-- 按时间先后顺序列出当前仓库所有的提交，最近的更新排在最上面：
+- 从当前提交开始，按逆时间顺序显示当前工作目录中 Git 仓库的提交序列：
 
 `git log`
 
-- 查看指定文件或指定目录的历史，包括每次提交所引入的差异：
+- 显示特定文件或目录的历史，包括差异：
 
-`git log {{-p|-u|--patch}} {{路径/到/文件或目录}}`
+`git log {{-p|-u|--patch}} {{path/to/file_or_directory}}`
 
-- 显示每次提交的文件修改统计信息：
+- 显示每次提交中哪些文件发生了变化的概况：
 
 `git log --stat`
 
-- 在日志旁以 ASCII 图形显示当前分支提交历史，并只展示提交消息的第一行：
+- 使用每个提交信息的第一行显示当前分支的提交图：
 
 `git log --oneline --graph`
 
-- 在日志旁以 ASCII 图形显示整个仓库的所有提交、标签、分支：
+- 显示整个仓库中所有提交、标签和分支的图：
 
 `git log --oneline --decorate --all --graph`
 
-- 查看提交消息中包含特定字符串（大小写敏感）的提交：
+- 仅显示包含特定字符串的提交信息，忽略大小写：
 
-`git log {{-i|--regexp-ignore-case}} --grep {{字符串}}`
+`git log {{-i|--regexp-ignore-case}} --grep {{search_string}}`
 
-- 查看特定作者的最近 N 条提交：
+- 显示某位作者的最后 N 次提交：
 
-`git log {{-n|--max-count}} {{数字}} --author "{{作者}}"`
+`git log {{-n|--max-count}} {{number}} --author "{{author}}"`
 
-- 查看两个日期之间的提交（yyyy-mm-dd）：
+- 显示两个日期之间的提交（yyyy-mm-dd）：
 
 `git log --before "{{2017-01-29}}" --after "{{2017-01-17}}"`

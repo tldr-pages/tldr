@@ -1,32 +1,32 @@
 # more
 
-> 分页显示标准输入或文件的输出。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/more>.
+> 从 `stdin` 或文件中显示分页输出。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/more>。
 
-- 分页显示标准输入的输出：
+- 从 `stdin` 显示分页输出：
 
 `{{echo test}} | more`
 
-- 分页显示一个或多个文件的内容：
+- 从一个或多个文件中显示分页输出：
 
-`more {{文件的路径}}`
+`more {{path\to\file}}`
 
-- 将制表符转换为指定的空格数：
+- 将制表符转换为指定数量的空格：
 
-`more {{文件的路径}} /t{{空格数}}`
+`more {{path\to\file}} /t{{spaces}}`
 
-- 显示内容前先清屏：
+- 在显示页面之前清除屏幕：
 
-`more {{文件的路径}} /c`
+`more {{path\to\file}} /c`
 
-- 从第 5 行开始显示输出：
+- 从第5行开始显示输出：
 
-`more {{文件的路径}} +{{5}}`
+`more {{path\to\file}} +{{5}}`
 
-- 启用扩展交互模式（请参阅使用帮助）：
+- 启用扩展交互模式（有关用法，请参见帮助）：
 
-`more {{文件的路径}} /e`
+`more {{path\to\file}} /e`
 
-- 显示全部帮助信息：
+- 显示帮助：
 
 `more /?`

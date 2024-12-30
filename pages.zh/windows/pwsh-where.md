@@ -1,7 +1,7 @@
 # pwsh where
 
-> 这是 `Where-Object` 命令的一个别名。
+> 此命令是 `Where-Object` 的别名。
 
-- 原命令的文档在：
+- 查看原始命令的文档：
 
 `tldr Where-Object`

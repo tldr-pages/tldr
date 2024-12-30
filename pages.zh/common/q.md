@@ -1,28 +1,28 @@
 # q
 
-> 在 CSV 和 TSV 文件上执行类似 SQL 的查询。
-> 更多信息：<https://harelba.github.io/q>.
+> 在CSV和TSV文件上执行类似SQL的查询。
+> 更多信息：<https://harelba.github.io/q>。
 
-- 指定分隔符为 ',' 来查询 CSV 文件：
+- 通过指定分隔符为','查询CSV文件：
 
-`q -d',' "SELECT * from {{路径/到/文件}}"`
+`q -d',' "SELECT * from {{path/to/file}}"`
 
-- 查询 TSV 文件：
+- 查询TSV文件：
 
-`q -t "SELECT * from {{路径/到/文件}}"`
+`q -t "SELECT * from {{path/to/file}}"`
 
 - 查询带有表头行的文件：
 
-`q -d{{分隔符}} -H "SELECT * from {{路径/到/文件}}"`
+`q -d{{delimiter}} -H "SELECT * from {{path/to/file}}"`
 
-- 从 `stdin` 读取数据；查询中的 '-' 代表来自 `stdin` 的数据：
+- 从`stdin`读取数据；查询中的'-'代表来自`stdin`的数据：
 
-`{{输出}} | q "select * from -"`
+`{{output}} | q "select * from -"`
 
-- 在列 `c1` 上连接两个文件（在例子中别名为 `f1` 和 `f2`）：
+- 在列`c1`（一个公共列）上连接两个文件（在示例中别名为`f1`和`f2`）：
 
-`q "SELECT * FROM {{路径/到/文件1}} f1 JOIN {{路径/到/文件2}} f2 ON (f1.c1 = f2.c1)"`
+`q "SELECT * FROM {{path/to/file}} f1 JOIN {{path/to/other_file}} f2 ON (f1.c1 = f2.c1)"`
 
-- 使用包含输出标题行的输出分隔符来格式化输出（注意：命令将根据输入文件标题或在查询中覆盖的列别名输出列名）：
+- 使用输出分隔符和输出表头行格式化输出（注意：命令将根据输入文件的表头或在查询中重写的列别名输出列名）：
 
-`q -D{{分隔符}} -O "SELECT {{列}} as {{别名}} from {{路径/到/文件}}"`
+`q -D{{delimiter}} -O "SELECT {{column}} as {{alias}} from {{path/to/file}}"`

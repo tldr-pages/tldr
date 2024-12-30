@@ -1,28 +1,28 @@
 # zoxide
 
-> 记录最常使用的目录。
-> 使用一个排序算法来导航到最佳匹配。
-> 更多信息：<https://github.com/ajeetdsouza/zoxide>.
+> 跟踪最常用的目录。
+> 使用排名算法导航到最佳匹配。
+> 更多信息：<https://github.com/ajeetdsouza/zoxide>。
 
-- 转到名称中包含 "foo" 的排名最高的目录：
+- 转到名称中包含 "foo" 的最高排名目录：
 
 `zoxide query {{foo}}`
 
-- 转到名称中依次包含 "foo" 和 "bar" 的排名最高的目录：
+- 转到名称中同时包含 "foo" 和 "bar" 的最高排名目录：
 
 `zoxide query {{foo}} {{bar}}`
 
-- 启动一个交互式目录搜索（需要 `fzf`）：
+- 开始一个交互式目录搜索（需要 `fzf`）：
 
 `zoxide query --interactive`
 
-- 添加一个目录或提升其排名：
+- 添加一个目录或增加其排名：
 
-`zoxide add {{路径/到/目录}}`
+`zoxide add {{path/to/directory}}`
 
-- 从 `zoxide` 的数据库中交互式地移除一个目录：
+- 交互式地从 `zoxide` 的数据库中移除一个目录：
 
-`zoxide remove {{路径/到/目录}} --interactive`
+`zoxide remove {{path/to/directory}} --interactive`
 
 - 为命令别名生成 shell 配置（`z`, `za`, `zi`, `zq`, `zr`）：
 

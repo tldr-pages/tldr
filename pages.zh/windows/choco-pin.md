@@ -1,21 +1,21 @@
 # choco pin
 
-> 使用 Chocolatey 将一个包固定到指定的版本。
-> 被固定版本的包会在更新时自动忽略。
-> 更多信息：<https://chocolatey.org/docs/commands-pin>.
+> 使用 Chocolatey 将软件包固定在某个版本。
+> 固定的软件包在升级时会自动被跳过。
+> 更多信息：<https://chocolatey.org/docs/commands-pin>。
 
-- 显示被固定的包以及他们对应的版本号：
+- 显示固定软件包及其版本的列表：
 
 `choco pin list`
 
-- 将一个包固定至当前版本：
+- 将软件包固定在其当前版本：
 
-`choco pin add --name {{包名}}`
+`choco pin add --name {{package}}`
 
-- 将一个包固定直指定的版本：
+- 将软件包固定在特定版本：
 
-`choco pin add --name {{包名}} --version {{版本号}}`
+`choco pin add --name {{package}} --version {{version}}`
 
-- 移除指定包的固定状态：
+- 移除特定软件包的固定：
 
-`choco pin remove --name {{包名}}`
+`choco pin remove --name {{package}}`

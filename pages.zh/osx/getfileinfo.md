@@ -1,20 +1,20 @@
-# GetFileInfo
+# 获取文件信息
 
-> 获取有关 HFS+ 目录中文件的信息。
-> 更多信息：<https://keith.github.io/xcode-man-pages/GetFileInfo.1.html>.
+> 获取 HFS+ 目录中一个文件的信息。
+> 更多信息：<https://keith.github.io/xcode-man-pages/GetFileInfo.1.html>。
 
-- 显示有关给定文件的信息：
+- 显示给定文件的信息：
 
-`GetFileInfo {{路径/文件名}}`
+`GetFileInfo {{path/to/file}}`
 
-- 显示给定文件的创建日期和时间：
+- 显示给定文件的创建[时]间和日期：
 
-`GetFileInfo -d {{路径/文件名}}`
+`GetFileInfo -d {{path/to/file}}`
 
-- 显示给定文件的上次修改日期和时间：
+- 显示给定文件的最后[修]改时间和日期：
 
-`GetFileInfo -m {{路径/文件名}}`
+`GetFileInfo -m {{path/to/file}}`
 
-- 显示给定文件的创建者：
+- 显示给定文件的[创]作者：
 
-`GetFileInfo -c {{路径/文件名}}`
+`GetFileInfo -c {{path/to/file}}`

@@ -1,7 +1,7 @@
 # cinst
 
-> 这是 `choco install` 命令的一个别名。
+> 此命令是 `choco install` 的别名。
 
-- 原命令的文档在：
+- 查看原始命令的文档：
 
 `tldr choco install`

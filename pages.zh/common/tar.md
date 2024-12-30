@@ -1,37 +1,37 @@
 # tar
 
-> 归档实用程序。
-> 通常与压缩方法结合使用，例如 `gzip` 或 `bzip2`.
-> 更多信息：<https://www.gnu.org/software/tar>.
+> 存档工具。
+> 通常与压缩方法结合使用，例如 `gzip` 或 `bzip2`。
+> 更多信息：<https://www.gnu.org/software/tar>。
 
-- 创建存档并将其写入文件：
+- [c] 创建一个存档并将其写入 [f] 文件：
 
-`tar cf {{目标文件.tar}} {{路径/到/文件1 路径/到/文件2 ...}}`
+`tar cf {{path/to/target.tar}} {{path/to/file1 path/to/file2 ...}}`
 
-- 创建一个 gzip 压缩文件并将其写入文件：
+- [c] 创建一个 g[z] 压缩存档并将其写入 [f] 文件：
 
-`tar czf {{目标文件.tar.gz}} {{路径/到/文件1 路径/到/文件2 ...}}`
+`tar czf {{path/to/target.tar.gz}} {{path/to/file1 path/to/file2 ...}}`
 
-- 使用相对路径从目录创建一个 gzip 压缩文件：
+- [c] 从一个目录使用相对路径创建一个 g[z] 压缩（压缩）存档：
 
-`tar czf {{目标文件.tar.gz}} --directory={{路径/到/目录}} .`
+`tar czf {{path/to/target.tar.gz}} --directory={{path/to/directory}} .`
 
-- 详细地将（压缩的）存档文件提取到当前目录中：
+- E[x] 将一个（压缩的）存档 [f] 文件解压到当前目录，且详细显示：
 
-`tar xvf {{源文件.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{path/to/source.tar[.gz|.bz2|.xz]}}`
 
-- 将（压缩的）存档文件解压缩到目标目录中：
+- E[x] 将一个（压缩的）存档 [f] 文件解压到目标目录：
 
-`tar xf {{源文件.tar[.gz|.bz2|.xz]}} --directory={{目标目录}}`
+`tar xf {{path/to/source.tar[.gz|.bz2|.xz]}} --directory={{path/to/directory}}`
 
-- 创建压缩存档并将其写入文件，使用文件扩展名自动确定压缩程序：
+- [c] 创建一个压缩存档并将其写入 [f] 文件，使用文件扩展名 [a] 自动确定压缩程序：
 
-`tar caf {{目标文件.tar.xz}} {{路径/到/文件1 路径/到/文件2 ...}}`
+`tar caf {{path/to/target.tar.xz}} {{path/to/file1 path/to/file2 ...}}`
 
-- 详细列出 tar 文件的内容：
+- Lis[t] 详细列出 tar [f] 文件的内容：
 
-`tar tvf {{源文件.tar}}`
+`tar tvf {{path/to/source.tar}}`
 
-- 从存档文件中提取与模式匹配的文件：
+- E[x] 从存档 [f] 文件中提取匹配模式的文件：
 
-`tar xf {{源文件.tar}} --wildcards "{{*.html}}"`
+`tar xf {{path/to/source.tar}} --wildcards "{{*.html}}"`

@@ -1,12 +1,13 @@
 # rmdir
 
-> 删除一个目录。
-> 更多信息：<https://www.gnu.org/software/coreutils/rmdir>.
+> 删除没有文件的目录。
+> 另请参见：`rm`。
+> 更多信息：<https://www.gnu.org/software/coreutils/rmdir>。
 
-- 删除空目录，使用 `rm -r` 删除非空目录：
+- 删除特定目录：
 
-`rmdir {{路径/到/目录}}`
+`rmdir {{path/to/directory1 path/to/directory2 ...}}`
 
-- 删除目标及其父目录（对嵌套的目录有用）：
+- 递归删除特定嵌套目录：
 
-`rmdir -p {{路径/到/目录}}`
+`rmdir -p {{path/to/directory1 path/to/directory2 ...}}`

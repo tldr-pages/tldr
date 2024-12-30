@@ -1,20 +1,20 @@
 # znew
 
-> 将文件从 `.Z` 格式重新压缩为 gzip 格式。
-> 更多信息：<https://manned.org/znew>.
+> 将 `.Z` 格式的文件重新压缩为 gzip 格式。
+> 更多信息请访问: <https://manned.org/znew>。
 
-- 将文件从 `.Z` 格式重新压缩为 gzip 格式：
+- 将 `.Z` 格式的文件重新压缩为 gzip 格式：
 
-`znew {{路径/到/文件1.Z}}`
+`znew {{path/to/file1.Z}}`
 
-- 重新压缩多个文件，并显示每个文件所实现的压缩率%：
+- 重新压缩多个文件并显示每个文件的大小减少百分比：
 
-`znew -v {{路径/到/文件1.Z 路径/到/文件2.Z ...}}`
+`znew -v {{path/to/file1.Z path/to/file2.Z ...}}`
 
 - 使用最慢的压缩方法重新压缩文件（以获得最佳压缩效果）：
 
-`znew -9 {{路径/到/文件1.Z}}`
+`znew -9 {{path/to/file1.Z}}`
 
-- 重新压缩文件，如果 `.Z` 文件比 gzip 文件小，则保留 `.Z` 文件：
+- 重新压缩文件，如果 `.Z` 文件小于 gzip 文件，则[K]eep `.Z` 文件：
 
-`znew -K {{路径/到/文件1.Z}}`
+`znew -K {{path/to/file1.Z}}`

@@ -1,16 +1,16 @@
 # apktool
 
-> APK 文件反编译工具。
+> 反向工程 APK 文件。
 > 更多信息：<https://ibotpeaches.github.io/Apktool/>.
 
-- 反编译：
+- 解码 APK 文件：
 
-`apktool d {{应用.apk}}`
+`apktool d {{path/to/file.apk}}`
 
-- 将一个文件夹打包为 apk 文件：
+- 从目录构建 APK 文件：
 
-`apktool b {{路径/到/目录}}`
+`apktool b {{path/to/directory}}`
 
 - 安装并存储框架：
 
-`apktool if {{框架.apk}}`
+`apktool if {{path/to/framework.apk}}`

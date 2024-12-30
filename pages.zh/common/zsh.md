@@ -1,37 +1,37 @@
 # zsh
 
-> Z SHell，一个兼容 Bash 的命令行解释器。
-> 参见：`bash`，`histexpand`.
-> 更多信息：<https://www.zsh.org>.
+> Z SHell，一个与 Bash 兼容的命令行解释器。
+> 另见：`bash`，`histexpand`。
+> 更多信息：<https://www.zsh.org>。
 
-- 启动交互式解释器：
+- 启动一个交互式 shell 会话：
 
 `zsh`
 
-- 执行指定的命令：
+- 执行特定的 [c]ommands：
 
 `zsh -c "{{echo Hello world}}"`
 
-- 执行指定的脚本：
+- 执行特定脚本：
 
-`zsh {{路径/到/脚本.zsh}}`
+`zsh {{path/to/script.zsh}}`
 
-- 不执行指定的脚本，只检查其语法错误：
+- 检查特定脚本的语法错误而不执行它：
 
-`zsh --no-exec {{路径/到/脚本.zsh}}`
+`zsh --no-exec {{path/to/script.zsh}}`
 
-- 执行来自 `stdin` 的命令：
+- 从 `stdin` 执行特定命令：
 
 `{{echo Hello world}} | zsh`
 
-- 执行指定的脚本，并打印出每一个将要执行的命令：
+- 执行特定脚本，在执行每个命令之前打印该命令：
 
-`zsh --xtrace {{路径/到/脚本.zsh}}`
+`zsh --xtrace {{path/to/script.zsh}}`
 
-- 启动详细模式的交互式解释器，会打印出每一个将要执行的命令：
+- 启动一个交互式 shell 会话，处于详细模式，在执行每个命令之前打印该命令：
 
 `zsh --verbose`
 
-- 在 `zsh` 里执行指定的命令，但禁用 glob 模式：
+- 在 `zsh` 中执行特定命令并禁用全局模式：
 
-`noglob {{命令}}`
+`noglob {{command}}`

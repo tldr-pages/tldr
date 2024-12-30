@@ -1,7 +1,7 @@
 # cargo clippy
 
-> 一系列 lint 工具，用于捕获常见错误并改进 Rust 代码。
-> 更多信息：<https://github.com/rust-lang/rust-clippy>.
+> 一组用于捕捉常见错误并提升你的 Rust 代码的 lint。
+> 更多信息：<https://github.com/rust-lang/rust-clippy>。
 
 - 对当前目录中的代码运行检查：
 
@@ -11,17 +11,17 @@
 
 `cargo clippy --locked`
 
-- 对工作区中的所有包进行检查：
+- 对工作区中的所有包运行检查：
 
 `cargo clippy --workspace`
 
-- 对某个包进行检查：
+- 对某个包运行检查：
 
-`cargo clippy --package {{包名}}`
+`cargo clippy --package {{package}}`
 
-- 运行特定 lint 组的检查（参见 <https://rust-lang.github.io/rust-clippy/stable/index.html#?groups=cargo,complexity,correctness,deprecated,nursery,pedantic,perf,restriction,style,suspicious>）：
+- 对某个 lint 组运行检查（见 <https://rust-lang.github.io/rust-clippy/stable/index.html#?groups=cargo,complexity,correctness,deprecated,nursery,pedantic,perf,restriction,style,suspicious>）：
 
-`cargo clippy -- --warn clippy::{{lint组}}`
+`cargo clippy -- --warn clippy::{{lint_group}}`
 
 - 将警告视为错误：
 
@@ -31,6 +31,6 @@
 
 `cargo clippy -- --allow warnings`
 
-- 自动应用 Clippy 的建议：
+- 自动应用 Clippy 建议：
 
 `cargo clippy --fix`

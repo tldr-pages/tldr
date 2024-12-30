@@ -1,20 +1,20 @@
-# dark-mode
+# 暗黑模式
 
-> 从命令行控制 macOS 的深色模式。
-> 更多信息：<https://github.com/sindresorhus/dark-mode>.
+> 控制 macOS 暗黑模式。
+> 更多信息：<https://github.com/sindresorhus/dark-mode>。
 
-- 切换深色模式（如果目前是关闭的，就把它打开，如果目前是打开的，就把它关闭）：
+- 切换暗黑模式（如果当前是关闭状态则开启，如果当前是开启状态则关闭）：
 
 `dark-mode`
 
-- 打开深色模式：
+- 开启暗黑模式：
 
 `dark-mode on`
 
-- 关闭深色模式：
+- 关闭暗黑模式：
 
 `dark-mode off`
 
-- 检查深色模式是否开启：
+- 检查暗黑模式是否开启：
 
 `dark-mode status`

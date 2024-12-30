@@ -1,36 +1,36 @@
 # ascii
 
-> 显示 ASCII 字符的别名。
+> 显示 ASCII 字符别名。
 > 更多信息：<http://www.catb.org/~esr/ascii/>.
 
-- 显示一个 ASCII 字符的别名：
+- 显示单个字符的 ASCII 别名：
 
 `ascii {{a}}`
 
-- 以较短和脚本友好模式显示 ASCII 字符的别名：
+- 以简短、脚本友好的模式显示 ASCII 别名：
 
 `ascii -t {{a}}`
 
-- 显示多个 ASCII 字符的别名：
+- 显示多个字符的 ASCII 别名：
 
 `ascii -s {{tldr}}`
 
-- 显示十进制 ASCII 字符表：
+- 以十进制显示 ASCII 表：
 
 `ascii -d`
 
-- 显示十六进制 ASCII 字符表：
+- 以十六进制显示 ASCII 表：
 
 `ascii -x`
 
-- 显示八进制 ASCII 字符表：
+- 以八进制显示 ASCII 表：
 
 `ascii -o`
 
-- 显示二进制 ASCII 字符表：
+- 以二进制显示 ASCII 表：
 
 `ascii -b`
 
-- 显示选项总结和整个 ASCII 字符表：
+- 显示选项摘要和完整的 ASCII 表：
 
 `ascii`

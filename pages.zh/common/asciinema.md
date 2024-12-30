@@ -1,37 +1,37 @@
 # asciinema
 
-> 录制和重放终端会话，并可以选择将其分享在 <https://asciinema.org> 上。
-> 请参阅：`terminalizer`。
-> 更多信息：<https://docs.asciinema.org/manual/cli/usage>.
+> 记录并重放终端会话，并可选择将其分享至 <https://asciinema.org>。
+> 另见：`terminalizer`。
+> 更多信息：<https://docs.asciinema.org/manual/cli/usage>。
 
-- 将本地安装的`asciinema`与 asciinema.org 账号关联：
+- 将本地安装的 `asciinema` 与 asciinema.org 帐户关联：
 
 `asciinema auth`
 
-- 进行新的录制（使用 `Ctrl+D` 完成录制或键入 `exit`，然后选择上传或保存到本地）：
+- 进行新的录制（用 `Ctrl+D` 完成或输入 `exit`，然后选择上传或本地保存）：
 
 `asciinema rec`
 
-- 进行新的录制，保存到本地的文件中：
+- 进行新的录制并保存到本地文件：
 
-`asciinema rec {{路径/到/录制文件.cast}}`
+`asciinema rec {{path/to/recording.cast}}`
 
-- 从本地文件中播放终端录屏：
+- 从本地文件重放终端录制：
 
-`asciinema play {{路径/到/录制文件.cast}}`
+`asciinema play {{path/to/recording.cast}}`
 
-- 在 <https://asciinema.org> 中播放终端录屏：
+- 重放托管在 <https://asciinema.org> 的终端录制：
 
-`asciinema play https://asciinema.org/a/{{文件 ID}}`
+`asciinema play https://asciinema.org/a/{{cast_id}}`
 
-- 进行新的录制，将闲置时间设置为最多 2.5 秒：
+- 进行新的录制，将任何空闲时间限制在最多 2.5 秒：
 
 `asciinema rec {{-i|--idle-time-limit}} 2.5`
 
-- 打印本地保存的录像的完整输出：
+- 打印本地保存的录制的完整输出：
 
-`asciinema cat {{路径/到/录制文件.cast}}`
+`asciinema cat {{path/to/recording.cast}}`
 
-- 从本地上传一个录屏到 asciinema.org：
+- 将本地保存的终端会话上传至 asciinema.org：
 
-`asciinema upload {{路径/到/录制文件.cast}}`
+`asciinema upload {{path/to/recording.cast}}`

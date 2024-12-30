@@ -1,28 +1,28 @@
 # choco search
 
-> 使用 Chocolatey 搜索一个本地或远程的包。
-> 更多信息：<https://chocolatey.org/docs/commands-search>.
+> 使用 Chocolatey 搜索本地或远程软件包。
+> 更多信息：<https://chocolatey.org/docs/commands-search>。
 
-- 搜索一个包：
+- 搜索软件包：
 
-`choco search {{查询语句}}`
+`choco search {{query}}`
 
-- 搜索一个本地的包：
+- 本地搜索软件包：
 
-`choco search {{查询语句}} --local-only`
+`choco search {{query}} --local-only`
 
-- 只显示包含完全匹配的结果：
+- 仅包含完全匹配的结果：
 
-`choco search {{查询语句}} --exact`
+`choco search {{query}} --exact`
 
 - 自动确认所有提示：
 
-`choco search {{查询语句}} --yes`
+`choco search {{query}} --yes`
 
-- 从自定义的源处搜索包：
+- 指定一个自定义源以搜索软件包：
 
-`choco search {{查询语句}} --source {{源 URL|别名}}`
+`choco search {{query}} --source {{source_url|alias}}`
 
-- 提供一个用户名和密码来进行验证：
+- 提供用户名和密码进行身份验证：
 
-`choco search {{查询语句}} --user {{用户名}} --password {{密码}}`
+`choco search {{query}} --user {{username}} --password {{password}}`

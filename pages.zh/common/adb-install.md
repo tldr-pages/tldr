@@ -1,28 +1,28 @@
-# adb install
+# adb 安装
 
-> 安卓调试桥 -Install: 将应用安装包推送到 Android 模拟器或已连接的安卓设备。
-> 更多信息：<https://developer.android.com/tools/adb>.
+> 将软件包推送到连接的 Android 设备或模拟器。
+> 更多信息：<https://developer.android.com/tools/adb>。
 
-- 向模拟器/设备推送安卓 app：
+- 将 Android 应用程序推送到模拟器/设备：
 
-`adb install {{路径/到/应用.apk}}`
+`adb install {{path/to/file.apk}}`
 
-- 向特定的模拟器/设备推送安卓 app（覆盖 `$ANDROID_SERIAL`）：
+- 将 Android 应用程序推送到特定的模拟器/设备（覆盖 `$ANDROID_SERIAL`）：
 
-`adb -s {{序列号}} install {{路径/到/应用.apk}}`
+`adb -s {{serial_number}} install {{path/to/file.apk}}`
 
-- 重装 app, 保持原有数据：
+- [r]einstall 现有应用，保留其数据：
 
-`adb install -r {{路径/到/应用.apk}}`
+`adb install -r {{path/to/file.apk}}`
 
-- 推送一个允许版本代码降级的安卓 app（仅适用于可调试的软件包）：
+- 推送 Android 应用程序，允许版本代码 [d]owngrade（仅限可调试包）：
 
-`adb install -d {{路径/到/应用.apk}}`
+`adb install -d {{path/to/file.apk}}`
 
-- 授予 app manifest 中列举的所有权限许可：
+- [g]rant 应用清单中列出的所有权限：
 
-`adb install -g {{路径/到/应用.apk}}`
+`adb install -g {{path/to/file.apk}}`
 
-- 快速部署模式，仅更新 APK 更改过的部分：
+- 通过只更新更改的 APK 部分快速更新已安装的包：
 
-`adb install --fastdeploy {{路径/到/应用.apk}}`
+`adb install --fastdeploy {{path/to/file.apk}}`

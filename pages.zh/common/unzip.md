@@ -1,29 +1,29 @@
-# unzip
+# 解压缩
 
-> 从 Zip 压缩包中提取文件或目录。
-> 参见：`zip`.
-> 更多信息：<https://manned.org/unzip>.
+> 从Zip档案中提取文件/目录。
+> 另见：`zip`。
+> 更多信息：<https://manned.org/unzip>。
 
-- 将指定压缩包中的所有文件和目录提取到当前目录下：
+- 将特定档案中的所有文件/目录提取到当前目录：
 
-`unzip {{路径/到/压缩文件1.zip 路径/到/压缩文件2.zip ...}}`
+`unzip {{path/to/archive1.zip path/to/archive2.zip ...}}`
 
-- 将压缩包中的所有文件和目录提取到指定目录下：
+- 将档案中的文件/目录提取到特定路径：
 
-`unzip {{路径/到/压缩文件1.zip 路径/到/压缩文件2.zip ...}} -d {{路径/到/输出目录}}`
+`unzip {{path/to/archive1.zip path/to/archive2.zip ...}} -d {{path/to/output}}`
 
-- 将压缩包中的文件和目录提取到 `stdout`（标准输出）中：
+- 将档案中的文件/目录提取到`stdout`及提取的文件名：
 
-`unzip -c {{路径/到/压缩文件1.zip 路径/到/压缩文件2.zip ...}}`
+`unzip -c {{path/to/archive1.zip path/to/archive2.zip ...}}`
 
-- 提取文件内容及文件名到 `stdout`（标准输出）中：
+- 提取在Windows上创建的档案，其中包含非ASCII（例如中文或日文字符）文件名的文件：
 
-`unzip -O {{gbk}} {{路径/到/压缩文件1.zip 路径/到/压缩文件2.zip ...}}`
+`unzip -O {{gbk}} {{path/to/archive1.zip path/to/archive2.zip ...}}`
 
-- 在不进行解压缩的情况下，列出指定压缩包中的内容：
+- 列出特定档案的内容而不提取它们：
 
-`unzip -l {{路径/到/压缩文件.zip}}`
+`unzip -l {{path/to/archive.zip}}`
 
-- 从指定压缩包中提取特定文件：
+- 从档案中提取特定文件：
 
-`unzip -j {{路径/到/压缩文件.zip}} {{路径/到/文件1 路径/到/文件2 ...}}`
+`unzip -j {{path/to/archive.zip}} {{path/to/file1_in_archive path/to/file2_in_archive ...}}`

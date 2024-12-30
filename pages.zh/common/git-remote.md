@@ -1,32 +1,32 @@
 # git remote
 
-> 管理跟踪的远程仓库（remotes）。
-> 更多信息：<https://git-scm.com/docs/git-remote>.
+> 管理跟踪的仓库集（“远程”）。
+> 更多信息：<https://git-scm.com/docs/git-remote>。
 
-- 列出已经存在的远程仓库，包括它们的名字和 URL：
+- 列出现有的远程及其名称和URL：
 
 `git remote {{-v|--verbose}}`
 
-- 查看某个远程仓库的信息：
+- 显示远程的信息：
 
-`git remote show {{远程仓库名字}}`
+`git remote show {{remote_name}}`
 
-- 添加远程仓库：
+- 添加一个远程：
 
-`git remote add {{远程仓库名字}} {{远程仓库 URL}}`
+`git remote add {{remote_name}} {{remote_url}}`
 
-- 更改远程仓库地址链接（使用 `--add` 选项不会移除现有的 URL）：
+- 更改远程的URL（使用 `--add` 保留现有的URL）：
 
-`git remote set-url {{远程仓库名字}} {{新 URL}}`
+`git remote set-url {{remote_name}} {{new_url}}`
 
-- 查看远程仓库的 URL：
+- 显示远程的URL：
 
-`git remote get-url {{远程仓库名字}}`
+`git remote get-url {{remote_name}}`
 
-- 移除远程仓库：
+- 移除一个远程：
 
-`git remote remove {{远程仓库名字}}`
+`git remote remove {{remote_name}}`
 
-- 重命名远程仓库：
+- 重命名一个远程：
 
-`git remote rename {{旧名字}} {{新名字}}`
+`git remote rename {{old_name}} {{new_name}}`

@@ -1,24 +1,28 @@
 # reg compare
 
-> 比较注册表中的键和值。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-compare>.
+> 比较注册表中的键及其值。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-compare>。
 
-- 比较两个键中的所有值：
+- 将特定键下的所有值与另一个键进行比较：
 
-`reg compare {{第一个键名}} {{第二个键名}}`
+`reg compare {{key_name1}} {{key_name2}}`
 
-- 比较两个键中指定的值：
+- 比较两个键下的特定[v]alue：
 
-`reg compare {{第一个键名}} {{第二个键名}} /v {{值}}`
+`reg compare {{key_name1}} {{key_name2}} /v {{value}}`
 
-- 比较两个键中的所有子键和值：
+- 比较两个键的所有[s]ubkeys和值：
 
-`reg compare {{第一个键名}} {{第二个键名}} /s`
+`reg compare {{key_name1}} {{key_name2}} /s`
 
-- 仅输出指定键之间匹配的结果：
+- 仅输出指定键之间的匹配项（[s]ame）：
 
-`reg compare {{第一个键名}} {{第二个键名}} /os`
+`reg compare {{key_name1}} {{key_name2}} /os`
 
-- 输出两个键之间的匹配和差异：
+- 输出指定键之间的差异和匹配项（[a]ll）：
 
-`reg compare {{第一个键名}} {{第二个键名}} /oa`
+`reg compare {{key_name1}} {{key_name2}} /oa`
+
+- 比较两个键，[o]utput不显示任何内容：
+
+`reg compare {{key_name1}} {{key_name2}} /on`

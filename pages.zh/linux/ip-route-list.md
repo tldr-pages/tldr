@@ -1,7 +1,7 @@
-# ip route list
+# ip 路由列表
 
-> 这是 `ip route show`.命令的一个别名。
+> 此命令是 `ip route show` 的别名。
 
-- 原命令的文档在：
+- 查看原始命令的文档：
 
 `tldr ip route show`

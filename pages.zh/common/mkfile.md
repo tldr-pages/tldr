@@ -1,16 +1,16 @@
 # mkfile
 
-> 创建一个或多个任意大小的空文件。
-> 更多信息：<https://manned.org/mkfile>.
+> 创建任意大小的空文件。
+> 更多信息：<https://manned.org/mkfile>。
 
-- 创建一个 15 千字节的空文件：
+- 创建一个15千字节的空文件：
 
-`mkfile -n {{15k}} {{文件名}}`
+`mkfile -n {{15k}} {{path/to/file}}`
 
-- 创建给定大小和单位的文件（bytes, KB, MB, GB）：
+- 创建一个指定大小和单位（字节、千字节、兆字节、吉字节）的文件：
 
-`mkfile -n {{大小}}{{b|k|m|g}} {{文件名}}`
+`mkfile -n {{size}}{{b|k|m|g}} {{path/to/file}}`
 
-- 创建两个 4 兆字节的文件：
+- 创建两个各为4兆字节的文件：
 
-`mkfile -n {{4m}} {{文件名 1}} {{文件名 2}}`
+`mkfile -n {{4m}} {{first_filename}} {{second_filename}}`

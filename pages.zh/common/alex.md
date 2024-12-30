@@ -1,11 +1,12 @@
 # alex
 
-> 捕捉文本中的不敏感、不考虑他人的写作风格。它帮助您找出文本中的性别偏向、极端化、种族相关、宗教考虑不周等不平等表达。
-> 更多信息：<https://github.com/get-alex/alex>.
+> 捕捉不敏感、不体贴的写作。
+> 它帮助你在文本中找到性别偏见、极化、与种族相关、宗教不体贴或其他不平等的措辞。
+> 更多信息：<https://github.com/get-alex/alex>。
 
-- 从标准输入分析文本：
+- 从 `stdin` 分析文本：
 
-`echo {{His network looks good}} | alex --stdin`
+`echo {{他的网络看起来不错}} | alex --stdin`
 
 - 分析当前目录中的所有文件：
 
@@ -13,8 +14,8 @@
 
 - 分析特定文件：
 
-`alex {{路径/到/文件.md}}`
+`alex {{path/to/file.md}}`
 
-- 分析除了 `示例文件.md` 之外的所有 Markdown 文件：
+- 分析所有 Markdown 文件，除了 `example.md`：
 
-`alex *.md !{{示例文件.md}}`
+`alex *.md !{{example.md}}`

@@ -1,13 +1,13 @@
 # dmesg
 
-> 将内核消息写入标准输出。
-> 更多信息：<https://keith.github.io/xcode-man-pages/dmesg.8.html>.
+> 将内核消息写入 `stdout`。
+> 更多信息：<https://keith.github.io/xcode-man-pages/dmesg.8.html>。
 
 - 显示内核消息：
 
 `dmesg`
 
-- 显示此系统上有多少可用的物理内存：
+- 显示此系统上可用的物理内存量：
 
 `dmesg | grep -i memory`
 

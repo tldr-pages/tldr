@@ -1,13 +1,13 @@
 # cargo bench
 
 > 编译并执行基准测试。
-> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-bench.html>.
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-bench.html>。
 
-- 执行包的所有基准测试：
+- 执行一个包的所有基准测试：
 
 `cargo bench`
 
-- 在基准测试失败时不停止：
+- 当基准测试失败时不停止：
 
 `cargo bench --no-fail-fast`
 
@@ -15,22 +15,22 @@
 
 `cargo bench --no-run`
 
-- 对指定的基准进行基准测试：
+- 基准测试指定的基准：
 
-`cargo bench --bench {{基准测试名称}}`
+`cargo bench --bench {{benchmark}}`
 
-- 使用给定的配置文件进行基准测试 (默认为 `bench`)：
+- 使用给定的配置文件进行基准测试（默认：`bench`）：
 
-`cargo bench --profile {{配置文件}}`
+`cargo bench --profile {{profile}}`
 
-- 对所有示例目标进行基准测试：
+- 基准测试所有示例目标：
 
 `cargo bench --examples`
 
-- 对所有二进制目标进行基准测试：
+- 基准测试所有二进制目标：
 
 `cargo bench --bins`
 
-- 对包的库(lib)进行基准测试：
+- 基准测试包的库：
 
 `cargo bench --lib`

@@ -1,7 +1,7 @@
 # espanso
 
-> 用 Rust 编写的跨平台文本扩展器。
-> 更多信息：<https://espanso.org>.
+> 用Rust编写的跨平台文本扩展工具。
+> 更多信息：<https://espanso.org>。
 
 - 检查状态：
 
@@ -11,10 +11,10 @@
 
 `espanso edit config`
 
-- 从 hub 商店（<https://hub.espanso.org/>）安装一个软件包：
+- 从中心商店安装包（<https://hub.espanso.org/>）：
 
-`espanso install {{软件包的名字}}`
+`espanso install {{package}}`
 
-- 重新启动（安装软件包后需要，在失败的情况下很有用）：
+- 重启（安装包后需要，发生故障时有用）：
 
 `espanso restart`

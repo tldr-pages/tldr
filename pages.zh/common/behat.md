@@ -1,9 +1,9 @@
 # behat
 
-> 基于 Behaviour-Driven Development 的自动化测试 PHP 框架。
-> 更多信息：<https://behat.org>.
+> 一种用于行为驱动开发的 PHP 框架。
+> 更多信息：<https://behat.org>。
 
-- 初始化一个 PHP behat 项目：
+- 初始化一个新的 Behat 项目：
 
 `behat --init`
 
@@ -11,18 +11,18 @@
 
 `behat`
 
-- 运行指定组所有的测试用例：
+- 从指定的套件中运行所有测试：
 
-`behat --suite {{组名}}`
+`behat --suite {{suite_name}}`
 
-- 运行所有测试，指定输入格式：
+- 使用特定的输出格式化器运行测试：
 
 `behat --format {{pretty|progress}}`
 
-- 将测试结果输出到指定文件：
+- 运行测试并将结果输出到文件：
 
-`behat --out {{路径/到/文件}}`
+`behat --out {{path/to/file}}`
 
-- 展示测试组所在的目录清单：
+- 列出测试套件中的定义：
 
 `behat --definitions`

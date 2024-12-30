@@ -1,36 +1,33 @@
 # zip
 
-> 将文件打包并压缩（存档）为 zip 文件。
-> 更多信息：<https://manned.org/zip>.
+> 将文件打包并压缩（归档）到一个 Zip 归档中。
+> 另见：`unzip`。
+> 更多信息：<https://manned.org/zip>。
 
-- 递归地打包和压缩文件和目录：
+- 将文件/目录添加到特定归档中（[r]ecursively）：
 
-`zip -r {{压缩文件.zip}} {{路径/到/文件}} {{路径/到/目录1}} {{路径/到/目录2}}`
+`zip -r {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- 添加到压缩档案中并排除不需要的文件：
+- 从特定归档中删除文件/目录（[d]elete）：
 
-`zip -r {{压缩文件.zip}} {{路径/到/目录}} -x {{路径/到/不需要的文件}}`
+`zip -d {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- 使用最高压缩级别 9 压缩目录和内容：
+- 归档文件/目录，排除指定的文件：
 
-`zip -r -{{9}} {{压缩文件.zip}} {{路径/到/目录}}`
+`zip -r {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} -x {{path/to/excluded_files_or_directories}}`
 
-- 创建一个加密压缩档案（将会提示输入密码）：
+- 以特定压缩级别归档文件/目录（`0` - 最低，`9` - 最高）：
 
-`zip -e -r {{压缩文件.zip}} {{路径/到/目录}}`
+`zip -r -{{0..9}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- 将文件添加到现有的 zip 文件：
+- 使用特定密码创建一个 [e]ncrypted 归档：
 
-`zip {{压缩文件.zip}} {{路径/到/文件}}`
+`zip -r -e {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- 从现有 zip 文件中删除文件：
+- 将文件/目录归档为多部分 [s]plit Zip 归档（例如，3 GB 部分）：
 
-`zip -d {{压缩文件.zip}} "{{foo/*.tmp}}"`
+`zip -r -s {{3g}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- 将指定目录及其内容打包并拆分为多个 zip 文件（例如：若干个 3 GB 的 zip 包）：
+- 打印特定归档的内容：
 
-`zip -r -s {{3g}} {{压缩文件.zip}} {{路径/到/目录}}`
-
-- 列出指定压缩档案中的文件（不提取文件）：
-
-`zip -sf {{压缩文件.zip}}`
+`zip -sf {{path/to/compressed.zip}}`

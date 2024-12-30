@@ -1,21 +1,21 @@
 # fsck
 
-> 检查或修复文件系统的完整性，运行命令时应卸载文件系统。
-> 它是一个包装器，包含 `fsck_hfs`, `fsck_apfs`, `fsck_msdos`, `fsck_exfat`, `fsck_udf` 作为可选。
-> 更多信息：<https://keith.github.io/xcode-man-pages/fsck.8.html>.
+> 检查文件系统的完整性或修复它。在运行该命令时，文件系统应处于未挂载状态。
+> 它是一个包装器，根据需要调用 `fsck_hfs`、`fsck_apfs`、`fsck_msdos`、`fsck_exfat` 和 `fsck_udf`。
+> 更多信息：<https://keith.github.io/xcode-man-pages/fsck.8.html>。
 
-- 检查文件系统 /dev/sda，报告损坏的块：
+- 检查文件系统 `/dev/sdX`，报告任何损坏的块：
 
-`fsck {{/dev/sda}}`
+`fsck {{/dev/sdX}}`
 
-- 仅当文件系统 /dev/sda 是干净的时才检查它，报告任何损坏的块并以交互方式让用户选择修复每个块：
+- 仅在文件系统干净时检查 `/dev/sdX`，报告任何损坏的块并让用户互动选择修复每一个：
 
-`fsck -f {{/dev/sda}}`
+`fsck -f {{/dev/sdX}}`
 
-- 仅当文件系统 /dev/sda 干净时才检查它，报告任何损坏的块并自动修复它们：
+- 仅在文件系统干净时检查 `/dev/sdX`，报告任何损坏的块并自动修复它们：
 
-`fsck -fy {{/dev/sda}}`
+`fsck -fy {{/dev/sdX}}`
 
-- 检查文件系统 /dev/sda, 报告是否已完全卸载：
+- 检查文件系统 `/dev/sdX`，报告它是否已被干净地卸载：
 
-`fsck -q {{/dev/sda}}`
+`fsck -q {{/dev/sdX}}`

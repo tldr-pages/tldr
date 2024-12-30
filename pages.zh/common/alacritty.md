@@ -1,24 +1,24 @@
 # alacritty
 
-> 跨平台，GPU 加速的终端模拟器。
-> 更多信息：<https://github.com/alacritty/alacritty>.
+> 跨平台，GPU 加速的终端仿真器。
+> 更多信息：<https://github.com/alacritty/alacritty>。
 
 - 打开一个新的 Alacritty 窗口：
 
 `alacritty`
 
-- 运行在指定目录中：
+- 在特定目录下运行：
 
-`alacritty --working-directory {{路径}}`
+`alacritty --working-directory {{path/to/directory}}`
 
-- 在新的 Alacritty 窗口中运行命令：
+- 在新的 Alacritty 窗口中[e]xecute一个命令：
 
-`alacritty -e {{命令}}`
+`alacritty -e {{command}}`
 
-- 指定备用配置文件（默认在 `$XDG_CONFIG_HOME/alacritty/alacritty.toml`）：
+- 使用备用配置文件（默认使用 `$XDG_CONFIG_HOME/alacritty/alacritty.toml`）：
 
-`alacritty --config-file {{路径/config.toml}}`
+`alacritty --config-file {{path/to/config.toml}}`
 
-- 在启用实时配置重新加载的情况下运行（默认情况下也可以在 `alacritty.toml` 中启用）：
+- 运行时启用实时配置重载（也可以在 `alacritty.toml` 中默认启用）：
 
-`alacritty --live-config-reload --config-file {{路径/config.toml}}`
+`alacritty --live-config-reload --config-file {{path/to/config.toml}}`

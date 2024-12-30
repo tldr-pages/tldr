@@ -1,20 +1,20 @@
-# choco outdated
+# choco 过期
 
-> 使用 Chocolatey 检查过时的包。
-> 更多信息：<https://chocolatey.org/docs/commands-outdated>.
+> 使用 Chocolatey 检查过期的软件包。
+> 更多信息：<https://chocolatey.org/docs/commands-outdated>。
 
-- 用表格的形式列出过时的包：
+- 以表格格式显示过期软件包的列表：
 
 `choco outdated`
 
-- 忽略输出中的固定包：
+- 在输出中忽略已固定的软件包：
 
 `choco outdated --ignore-pinned`
 
-- 从自定义的源处检查过时的包：
+- 指定自定义源以检查软件包：
 
-`choco outdated --source {{源 URL|别名}}`
+`choco outdated --source {{source_url|alias}}`
 
-- 提供一个用户名和密码来进行验证：
+- 提供用户名和密码进行身份验证：
 
-`choco outdated --user {{用户名}} --password {{密码}}`
+`choco outdated --user {{username}} --password {{password}}`

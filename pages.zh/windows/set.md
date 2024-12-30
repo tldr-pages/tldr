@@ -1,20 +1,20 @@
 # set
 
-> 显示或设置当前命令行实例的环境变量。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/set>.
+> 显示或设置当前CMD实例的环境变量。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/set>。
 
-- 列出当前所有环境变量：
+- 列出所有当前环境变量：
 
 `set`
 
-- 为一个环境变量设置指定的值：
+- 将环境变量设置为特定值：
 
-`set {{变量名}}={{值}}`
+`set {{name}}={{value}}`
 
 - 列出以指定字符串开头的环境变量：
 
-`set {{变量名}}`
+`set {{name}}`
 
-- 提示用户输入指定变量的值：
+- 提示用户为指定变量输入值：
 
-`set /p {{变量名}}={{提示信息}}`
+`set /p {{name}}={{prompt_string}}`

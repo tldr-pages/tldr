@@ -1,20 +1,20 @@
 # browser-sync
 
-> 启动一个本地的服务，可以监听文件改动，刷新浏览器。
-> 更多信息：<https://browsersync.io/docs/command-line>.
+> 一个在文件更改时更新浏览器的本地网络服务器。
+> 更多信息：<https://browsersync.io/docs/command-line>。
 
-- 将指定目录发成服务：
+- 从指定目录启动服务器：
 
-`browser-sync start --server {{路径/到/目录}} --files {{路径/到/目录}}`
+`browser-sync start --server {{path/to/directory}} --files {{path/to/directory}}`
 
-- 启动当前目录服务，同时监听指定目录下 CSS 文件的变动：
+- 从本地目录启动服务器，监视目录中的所有 CSS 文件：
 
-`browser-sync start --server --files '{{路径/到/目录/*.css}}'`
+`browser-sync start --server --files '{{path/to/directory/*.css}}'`
 
 - 创建配置文件：
 
 `browser-sync init`
 
-- 按指定配置文件中的配置启动服务：
+- 从配置文件启动 Browsersync：
 
-`browser-sync start --config {{配置文件}}`
+`browser-sync start --config {{config_file}}`

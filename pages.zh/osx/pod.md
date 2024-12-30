@@ -1,32 +1,32 @@
 # pod
 
-> Swift 和 Objective-C Cocoa 项目的依赖关系管理。
-> 更多信息：<https://guides.cocoapods.org/terminal/commands.html>.
+> Swift 和 Objective-C Cocoa 项目的依赖管理工具。
+> 更多信息：<https://guides.cocoapods.org/terminal/commands.html>。
 
-- 为当前项目初始化包含默认内容的 podfile：
+- 为当前项目创建一个默认内容的 Podfile：
 
 `pod init`
 
-- 下载并安装 pod 文件中定义的所有 pod（以前未安装）：
+- 下载并安装 Podfile 中定义的所有未安装的 pods：
 
 `pod install`
 
-- 列出所有可用的 pod：
+- 列出所有可用的 pods：
 
 `pod list`
 
-- 显示过时的 pod（当前安装的 pod）：
+- 显示当前安装的过时 pods：
 
 `pod outdated`
 
-- 将当前安装的所有 pod 更新到其最新版本：
+- 将所有当前安装的 pods 更新到最新版本：
 
 `pod update`
 
-- 将特定（以前安装的）pod 更新为其最新版本：
+- 将特定（之前安装的）pod 更新到最新版本：
 
-`pod update {{pod_名}}`
+`pod update {{pod_name}}`
 
-- 从 Xcode 项目中删除 CocoaPods：
+- 从 Xcode 项目中移除 CocoaPods：
 
-`pod deintegrate {{xcode_项目}}`
+`pod deintegrate {{xcode_project}}`

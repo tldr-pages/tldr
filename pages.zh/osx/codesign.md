@@ -1,12 +1,12 @@
 # codesign
 
-> 为 macOS 的应用程序签名。
-> 更多信息：<https://keith.github.io/xcode-man-pages/codesign.1.html>.
+> 为 macOS 创建和操作代码签名。
+> 更多信息：<https://keith.github.io/xcode-man-pages/codesign.1.html>。
 
-- 用证书签名：
+- 使用证书对应用程序进行签名：
 
-`codesign --sign "{{公司名称}}" {{路径 / 应用名.app}}`
+`codesign --sign "{{我的公司名称}}" {{path/to/application_file.app}}`
 
-- 验证应用程序的签名：
+- 验证应用程序的证书：
 
-`codesign --verify {{路径 / 应用名.app}}`
+`codesign --verify {{path/to/application_file.app}}`

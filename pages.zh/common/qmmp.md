@@ -1,10 +1,10 @@
 # qmmp
 
-> 具有类似于 Winamp 或 XMMS 界面的音频播放器。
-> 请参阅：`clementine`，`ncmpcpp`，`cmus`。
-> 更多信息：<https://qmmp.ylsoftware.com>.
+> 一个界面类似于 Winamp 或 XMMS 的音频播放器。
+> 另见：`clementine`，`ncmpcpp`，`cmus`。
+> 更多信息：<https://qmmp.ylsoftware.com>。
 
-- 启动 GUI：
+- 启动图形用户界面：
 
 `qmmp`
 
@@ -12,9 +12,9 @@
 
 `qmmp --play-pause`
 
-- 向前或向后移动指定的秒数：
+- 向前或向后搜索特定的时间（以秒为单位）：
 
-`qmmp --seek-{{fwd|bwd}} {{秒数}}`
+`qmmp --seek-{{fwd|bwd}} {{time_in_seconds}}`
 
 - 播放下一个音频文件：
 
@@ -28,6 +28,6 @@
 
 `qmmp --volume-status`
 
-- 增加或减少当前播放音频的音量 5%：
+- 将当前播放音频的音量增加或减少 5%：
 
 `qmmp --volume-{{inc|dec}}`

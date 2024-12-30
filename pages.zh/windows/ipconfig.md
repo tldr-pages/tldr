@@ -1,9 +1,9 @@
 # ipconfig
 
 > 显示和管理 Windows 的网络配置。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>。
 
-- 显示网络适配器列表：
+- 列出所有网络适配器：
 
 `ipconfig`
 
@@ -11,18 +11,18 @@
 
 `ipconfig /all`
 
-- 为一个网络适配器重新获取 IP 地址：
+- 续租网络适配器的 IP 地址：
 
-`ipconfig /renew {{适配器}}`
+`ipconfig /renew {{adapter}}`
 
-- 为一个网络适配器释放 IP 地址：
+- 释放网络适配器的 IP 地址：
 
-`ipconfig /release {{适配器}}`
+`ipconfig /release {{adapter}}`
 
-- 显示所有本地 DNS 缓存：
+- 显示本地 DNS 缓存：
 
 `ipconfig /displaydns`
 
-- 清除所有本地 DNS 缓存：
+- 从本地 DNS 缓存中移除所有数据：
 
 `ipconfig /flushdns`

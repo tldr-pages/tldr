@@ -1,7 +1,7 @@
 # gvdir
 
-> 这是 `-p linux vdir` 命令的一个别名。
+> 该命令是 GNU `vdir` 的别名。
 
-- 原命令的文档在：
+- 查看原始命令的文档：
 
 `tldr -p linux vdir`

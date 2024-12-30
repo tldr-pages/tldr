@@ -1,15 +1,15 @@
 # getprop
 
-> 显示关于 Android 系统属性的信息。
-> 更多信息：<https://manned.org/getprop>.
+> 显示有关 Android 系统属性的信息。
+> 更多信息：<https://manned.org/getprop>。
 
-- 显示关于 Android 系统属性的信息：
+- 显示有关 Android 系统属性的信息：
 
 `getprop`
 
-- 显示关于指定属性的信息：
+- 显示特定属性的信息：
 
-`getprop {{prop}}`
+`getprop {{property}}`
 
 - 显示 SDK API 级别：
 
@@ -27,6 +27,6 @@
 
 `getprop {{ro.oem_unlock_supported}}`
 
-- 显示 Android WiFi 卡的 MAC 地址：
+- 显示 Android Wi-Fi 卡的 MAC 地址：
 
 `getprop {{ro.boot.wifimacaddr}}`

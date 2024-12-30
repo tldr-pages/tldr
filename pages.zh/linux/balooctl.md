@@ -1,21 +1,21 @@
 # balooctl
 
 > KDE Plasma 的文件索引和搜索框架。
-> 更多信息：<https://wiki.archlinux.org/index.php/Baloo>.
+> 更多信息请访问：<https://wiki.archlinux.org/index.php/Baloo>。
 
-- 显示索引器状态：
+- 显示索引器的状态：
 
 `balooctl status`
 
-- 开启或关闭文件索引器：
+- 启用/禁用文件索引器：
 
 `balooctl {{enable|disable}}`
 
-- 清除索引数据库：
+- 清理索引数据库：
 
 `balooctl purge`
 
-- 挂起文件索引器：
+- 暂停文件索引器：
 
 `balooctl suspend`
 
@@ -23,11 +23,11 @@
 
 `balooctl resume`
 
-- 显示 Baloo 占用的磁盘空间大小：
+- 显示 Baloo 使用的磁盘空间：
 
 `balooctl indexSize`
 
-- 检查未索引的文件并索引它们：
+- 检查未索引的文件并对其进行索引：
 
 `balooctl check`
 

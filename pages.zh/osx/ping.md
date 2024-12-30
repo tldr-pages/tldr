@@ -1,28 +1,28 @@
 # ping
 
-> 向网络主机发送 ICMP 回显请求数据包。
-> 更多信息：<https://keith.github.io/xcode-man-pages/ping.8.html>.
+> 向网络主机发送 ICMP ECHO_REQUEST 数据包。
+> 更多信息：<https://keith.github.io/xcode-man-pages/ping.8.html>。
 
 - Ping 指定的主机：
 
-`ping "{{主机}}"`
+`ping "{{hostname}}"`
 
-- 对主机执行指定定次数的 ping 操作：
+- Ping 主机指定次数：
 
-`ping -c {{次数}} "{{主机}}"`
+`ping -c {{count}} "{{host}}"`
 
-- Ping 主机 , 指定请求之间的间隔（以秒为单位）（默认为 1 秒）：
+- Ping 主机，指定请求之间的间隔（默认是 1 秒）：
 
-`ping -i {{秒}} "{{主机}}"`
+`ping -i {{seconds}} "{{host}}"`
 
-- Ping 主机, 但不尝试查找地址的符号名：
+- Ping 主机，不尝试查找地址的符号名称：
 
-`ping -n "{{主机}}"`
+`ping -n "{{host}}"`
 
-- Ping 主机 并在收到数据包时响铃（如果您的终端支持）：
+- Ping 主机并在接收到数据包时响铃（如果你的终端支持）：
 
-`ping -a "{{主机}}"`
+`ping -a "{{host}}"`
 
-- Ping 主机 并打印接收数据包的时间（此选项是 Apple 的附加项）：
+- Ping 主机并打印接收到数据包的时间（此选项为 Apple 的附加功能）：
 
-`ping --apple-time "{{主机}}"`
+`ping --apple-time "{{host}}"`

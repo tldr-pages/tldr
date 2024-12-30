@@ -1,32 +1,32 @@
 # AdGuardHome
 
-> 一款全网广告拦截与反跟踪软件。
-> 更多信息：<https://github.com/AdguardTeam/AdGuardHome>.
+> 一款用于全网络广告和跟踪阻止的软件。
+> 更多信息：<https://github.com/AdguardTeam/AdGuardHome>。
 
 - 运行 AdGuard Home：
 
 `AdGuardHome`
 
-- 使用给定的配置文件运行 AdGuard Home：
+- 指定配置文件：
 
-`AdGuardHome --config {{给定的/配置文件.yaml}}`
+`AdGuardHome --config {{path/to/AdGuardHome.yaml}}`
 
-- 设置存储数据的工作目录：
+- 将数据存储在特定的工作目录中：
 
-`AdGuardHome --work-dir {{工作目录/路径}}`
+`AdGuardHome --work-dir {{path/to/directory}}`
 
-- 安装或卸载 AdGuard Home 的服务：
+- 作为服务安装或卸载 AdGuard Home：
 
 `AdGuardHome --service {{install|uninstall}}`
 
-- 启动 AdGuard Home 的服务：
+- 启动 AdGuard Home 服务：
 
 `AdGuardHome --service start`
 
-- 刷新 AdGuard Home 服务的设置项：
+- 重新加载 AdGuard Home 服务的配置：
 
 `AdGuardHome --service reload`
 
-- 停止或重启 AdGuard Home 的服务：
+- 停止或重启 AdGuard Home 服务：
 
 `AdGuardHome --service {{stop|restart}}`

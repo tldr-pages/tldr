@@ -1,9 +1,9 @@
 # getmac
 
-> 显示系统的 MAC 地址。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/getmac>.
+> 显示系统的MAC地址。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/getmac>。
 
-- 显示当前系统的 MAC 地址：
+- 显示当前系统的MAC地址：
 
 `getmac`
 
@@ -11,18 +11,18 @@
 
 `getmac /fo {{table|list|csv}}`
 
-- 排除输出列表中的标题：
+- 在输出列表中排除标题：
 
 `getmac /nh`
 
-- 显示一个远程主机的 MAC 地址：
+- 显示远程计算机的MAC地址：
 
-`getmac /s {{主机名}} /u {{用户名}} /p {{密码}}`
+`getmac /s {{hostname}} /u {{username}} /p {{password}}`
 
-- 详细显示 MAC 地址信息：
+- 显示带有详细信息的MAC地址：
 
 `getmac /v`
 
-- 显示详细的帮助信息：
+- 显示帮助信息：
 
 `getmac /?`

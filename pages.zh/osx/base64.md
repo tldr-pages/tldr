@@ -1,20 +1,28 @@
 # base64
 
-> 使用 Base64 来进行编码和解码。
-> 更多信息：<https://keith.github.io/xcode-man-pages/base64.1.html>.
+> 编码或解码文件或 `stdin` 到/从 base64，输出到 `stdout` 或另一个文件。
+> 更多信息：<https://keith.github.io/xcode-man-pages/base64.1.html>。
 
-- 编码目标文件：
+- 将文件编码到 `stdout`：
 
-`base64 --input={{目标文件}}`
+`base64 {{-i|--input}} {{path/to/file}}`
 
-- 解码目标文件：
+- 将文件编码到指定的输出文件：
 
-`base64 --decode --input={{base64 编码文件}}`
+`base64 {{-i|--input}} {{path/to/input_file}} {{-o|--output}} {{path/to/output_file}}`
 
-- 通过标准输入管道进行解码：
+- 在特定宽度下换行编码输出（`0` 禁用换行）：
 
-`echo -n "{{目标字符串}}" | base64`
+`base64 {{-b|--break}} {{0|76|...}} {{path/to/file}}`
 
-- 解码标准输入管道内容：
+- 将文件解码到 `stdout`：
 
-`echo -n {{base64 字符串}} | base64 --decode`
+`base64 {{-d|--decode}} {{-i|--input}} {{path/to/file}}`
+
+- 从 `stdin` 编码到 `stdout`：
+
+`{{command}} | base64`
+
+- 从 `stdin` 解码到 `stdout`：
+
+`{{command}} | base64 {{-d|--decode}}`

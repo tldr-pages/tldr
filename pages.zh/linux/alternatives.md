@@ -1,7 +1,7 @@
-# alternatives
+# 替代方案
 
-> 这是 `update-alternatives` 命令的一个别名。
+> 该命令是 `update-alternatives` 的别名。
 
-- 原命令的文档在：
+- 查看原始命令的文档：
 
 `tldr update-alternatives`

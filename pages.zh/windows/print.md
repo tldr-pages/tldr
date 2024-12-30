@@ -1,12 +1,12 @@
-# print
+# 打印
 
 > 将文本文件打印到打印机。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/print>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/print>。
 
-- 将文本文件打印到默认的打印机：
+- 将文本文件打印到默认打印机：
 
-`print {{文件的路径}}`
+`print {{path\to\file}}`
 
-- 将文本文件打印到指定的打印机：
+- 将文本文件打印到特定打印机：
 
-`print /d:{{打印机}} {{文件的路径}}`
+`print /d:{{printer}} {{path\to\file}}`

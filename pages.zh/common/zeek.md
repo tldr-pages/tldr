@@ -2,28 +2,28 @@
 
 > 被动网络流量分析器。
 > 所有输出和日志文件将保存到当前工作目录。
-> 更多信息：<https://docs.zeek.org/en/lts/quickstart.html#zeek-as-a-command-line-utility>.
+> 更多信息：<https://docs.zeek.org/en/lts/quickstart.html#zeek-as-a-command-line-utility>。
 
-- 分析来自网络接口的实时流量：
+- 从网络接口分析实时流量：
 
-`sudo zeek --iface {{接口}}`
+`sudo zeek --iface {{interface}}`
 
-- 分析来自网络接口的实时流量并加载自定义脚本：
+- 从网络接口分析实时流量并加载自定义脚本：
 
-`sudo zeek --iface {{接口}} {{脚本1}} {{脚本2}}`
+`sudo zeek --iface {{interface}} {{script1}} {{script2}}`
 
-- 分析来自网络接口的实时流量，不加载任何脚本：
+- 从网络接口分析实时流量，不加载任何脚本：
 
-`sudo zeek --bare-mode --iface {{接口}}`
+`sudo zeek --bare-mode --iface {{interface}}`
 
-- 分析来自网络接口的实时流量，应用 `tcpdump` 过滤器：
+- 从网络接口分析实时流量，应用 `tcpdump` 过滤器：
 
-`sudo zeek --filter {{路径/到/过滤器}} --iface {{接口}}`
+`sudo zeek --filter {{path/to/filter}} --iface {{interface}}`
 
-- 使用看门狗计时器分析来自网络接口的实时流量：
+- 使用看门狗定时器从网络接口分析实时流量：
 
-`sudo zeek --watchdog --iface {{接口}}`
+`sudo zeek --watchdog --iface {{interface}}`
 
-- 分析来自 PCAP 文件的流量：
+- 从 PCAP 文件分析流量：
 
-`zeek --readfile {{路径/到/文件.trace}}`
+`zeek --readfile {{path/to/file.trace}}`

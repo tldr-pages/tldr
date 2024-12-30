@@ -1,7 +1,7 @@
 # ghostname
 
-> 这是 `-p linux hostname` 命令的一个别名。
+> 该命令是GNU `hostname` 的别名。
 
-- 原命令的文档在：
+- 查看原始命令的文档：
 
 `tldr -p linux hostname`

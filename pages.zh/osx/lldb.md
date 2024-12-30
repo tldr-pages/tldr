@@ -1,16 +1,16 @@
 # lldb
 
 > LLVM 低级调试器。
-> 更多信息：<https://lldb.llvm.org/man/lldb.html>.
+> 更多信息：<https://lldb.llvm.org/man/lldb.html>。
 
-- 调试可执行文件：
+- 调试一个可执行文件：
 
-`lldb "{{可执行的命令}}"`
+`lldb "{{executable}}"`
 
-- 将 `lldb` 附加到具有给定 PID 的正在运行的进程：
+- 将 `lldb` 附加到具有给定 PID 的运行中进程：
 
-`lldb -p {{进程号 PID}}`
+`lldb -p {{pid}}`
 
-- 等待使用给定名称的进程启动，然后附加到该进程上：
+- 等待以给定名称启动的新进程，并附加到它：
 
-`lldb -w -n "{{进程名}}"`
+`lldb -w -n "{{process_name}}"`

@@ -1,24 +1,24 @@
 # abduco
 
 > 终端会话管理器。
-> 更多信息：<https://www.brain-dump.org/projects/abduco/>.
+> 更多信息：<https://www.brain-dump.org/projects/abduco/>。
 
 - 列出会话：
 
 `abduco`
 
-- 附加到一个会话，如果不存在则新建它：
+- [A] 附加到会话，如果会话不存在则创建它：
 
-`abduco -A {{会话名}} {{终端}}`
+`abduco -A {{name}} {{bash}}`
 
-- 使用`dvtm`附加到一个会话，如果不存在则新建它：
+- [A] 附加到会话并使用 `dvtm`，如果会话不存在则创建它：
 
-`abduco -A {{会话名}}`
+`abduco -A {{name}}`
 
-- 从一个会话中分离：
+- 从会话中分离：
 
 `<Ctrl> + \`
 
-- 以只读模式附加到一个会话：
+- [A] 以 [r] 只读模式附加到会话：
 
-`abduco -Ar {{会话名}}`
+`abduco -Ar {{name}}`

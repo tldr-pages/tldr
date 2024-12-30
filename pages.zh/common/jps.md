@@ -1,13 +1,13 @@
 # jps
 
-> 显示当前用户的 JVM 进程状态。
-> 更多信息：<https://docs.oracle.com/en/java/javase/20/docs/specs/man/jps.html>.
+> 显示当前用户的JVM进程状态。
+> 更多信息：<https://docs.oracle.com/en/java/javase/20/docs/specs/man/jps.html>。
 
-- 列出所有 JVM 进程：
+- 列出所有JVM进程：
 
 `jps`
 
-- 列出所有 JVM 进程，只打印进程号：
+- 仅列出所有JVM进程的PID：
 
 `jps -q`
 
@@ -15,10 +15,10 @@
 
 `jps -m`
 
-- 显示所有进程的完整软件包名称：
+- 显示所有进程的完整包名：
 
 `jps -l`
 
-- 显示传递给 JVM 的参数：
+- 显示传递给JVM的参数：
 
 `jps -v`

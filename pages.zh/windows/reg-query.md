@@ -1,24 +1,36 @@
 # reg query
 
 > 显示注册表中键和子键的值。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query>.
+> 更多信息: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query>。
 
-- 显示一个键中的所有值：
+- 显示键的所有值：
 
-`reg query {{键名}}`
+`reg query {{key_name}}`
 
-- 显示键中指定的值：
+- 显示键的特定[v]alue：
 
-`reg query {{键名}} /v {{值}}`
+`reg query {{key_name}} /v {{value}}`
 
-- 显示指定键和其子键中的所有的值：
+- 显示键及其[s]ubkeys的所有值：
 
-`reg query {{键名}} /s`
+`reg query {{key_name}} /s`
 
-- 搜索与特定模式匹配的键和值：
+- 搜索[f]or键和值以匹配特定模式：
 
-`reg query {{键名}} /f "{{查询语句}}"`
+`reg query {{key_name}} /f "{{query_pattern}}"`
 
-- 显示与指定数据类型匹配的键的值：
+- 显示匹配指定数据[t]ype的键的值：
 
-`reg query {{键名}} /t {{类型}}`
+`reg query {{key_name}} /t REG_{{SZ|MULTI_SZ|EXPAND_SZ|DWORD|BINARY|NONE}}`
+
+- 仅在[d]ata中搜索：
+
+`reg query {{key_name}} /d`
+
+- 仅在[k]ey名称中搜索：
+
+`reg query {{key_name}} /f "{{query_pattern}}" /k`
+
+- [c]区分大小写地搜索[e]xact匹配：
+
+`reg query {{key_name}} /c /e`

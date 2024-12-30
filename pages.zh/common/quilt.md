@@ -1,21 +1,21 @@
 # quilt
 
-> 管理一系列的补丁。
-> 更多信息：<https://savannah.nongnu.org/projects/quilt>.
+> 管理一系列补丁。
+> 更多信息：<https://savannah.nongnu.org/projects/quilt>。
 
-- 从文件中导入一个已有补丁：
+- 从文件导入现有补丁：
 
-`quilt import {{路径/到/文件名.patch}}`
+`quilt import {{path/to/filename.patch}}`
 
-- 创建一个新补丁：
+- 创建一个新的补丁：
 
-`quilt new {{文件名.patch}}`
+`quilt new {{filename.patch}}`
 
 - 将文件添加到当前补丁：
 
-`quilt add {{路径/到/文件}}`
+`quilt add {{path/to/file}}`
 
-- 编辑文件后，用更改刷新当前补丁：
+- 编辑文件后，使用更改刷新当前补丁：
 
 `quilt refresh`
 

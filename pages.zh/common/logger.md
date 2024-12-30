@@ -1,24 +1,24 @@
 # logger
 
-> 向系统日志增加记录（/var/log/syslog）。
-> 更多信息：<https://manned.org/logger>.
+> 将消息添加到syslog（/var/log/syslog）。
+> 更多信息：<https://manned.org/logger>。
 
-- 向系统日志增加记录：
+- 将消息记录到syslog：
 
-`logger {{消息内容}}`
+`logger {{message}}`
 
-- 从 `stdin` 获取输入并记录到系统日志 syslog：
+- 从`stdin`获取输入并记录到syslog：
 
-`echo {{记录内容}} | logger`
+`echo {{log_entry}} | logger`
 
-- 将输出发送到在给定端口上运行的远程系统日志服务器。默认端口为 514：
+- 将输出发送到在给定端口上运行的远程syslog服务器。默认端口为514：
 
-`echo {{记录内容}} | logger --server {{服务器名}} --port {{端口}}`
+`echo {{log_entry}} | logger --server {{hostname}} --port {{port}}`
 
-- 对记录的每一行使用特定的标签。默认值是登录用户的名：
+- 为每一行日志使用特定的标记。默认是登录用户的名称：
 
-`echo {{记录内容}} | logger --tag {{标签}}`
+`echo {{log_entry}} | logger --tag {{tag}}`
 
-- 以给定的错误等级记录消息。默认是 `user.notice`. 使用 `man logger` 查询所有可选等级：
+- 以给定的优先级记录消息。默认是`user.notice`。有关所有优先级选项，请参见`man logger`：
 
-`echo {{记录内容}} | logger --priority {{user.warning}}`
+`echo {{log_entry}} | logger --priority {{user.warning}}`

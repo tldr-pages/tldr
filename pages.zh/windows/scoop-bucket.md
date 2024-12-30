@@ -1,25 +1,25 @@
-# scoop bucket
+# 软碗
 
-> 管理 bucket: 包含描述 scoop 应如何安装应用程序的文件的 Git 存储库。
-> 如果 Scoop 不知道 bucket 在哪里，则必须指定其存储库位置。
-> 更多信息：<https://github.com/lukesampson/scoop/wiki/Buckets>.
+> 管理软碗：包含描述 Scoop 如何安装应用程序的文件的 Git 仓库。
+> 如果 Scoop 不知道软碗的位置，则必须指定其仓库位置。
+> 更多信息：<https://github.com/lukesampson/scoop/wiki/Buckets>。
 
-- 列出所有正在使用的 bucket：
+- 列出当前正在使用的所有软碗：
 
 `scoop bucket list`
 
-- 列出所有已知 bucket：
+- 列出所有已知的软碗：
 
 `scoop bucket known`
 
-- 按名称添加一个已知 bucket：
+- 通过名称添加已知的软碗：
 
-`scoop bucket add {{名称}}`
+`scoop bucket add {{name}}`
 
-- 通过名称和 Git 存储库 URL 添加未知 bucket：
+- 通过名称和 Git 仓库 URL 添加未知的软碗：
 
-`scoop bucket add {{名称}} {{https://example.com/repository.git}}`
+`scoop bucket add {{name}} {{https://example.com/repository.git}}`
 
-- 按名称删除 bucket：
+- 通过名称删除软碗：
 
-`scoop bucket rm {{名称}}`
+`scoop bucket rm {{name}}`

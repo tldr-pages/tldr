@@ -1,33 +1,38 @@
 # pacman
 
-> Arch Linux 的软件包管理器工具。
-> 也可以看看：`pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
-> 更多信息：<https://manned.org/pacman.8>.
+> Arch Linux 包管理工具。
+> 另见：`pacman-sync`，`pacman-remove`，`pacman-query`，`pacman-upgrade`，`pacman-files`，`pacman-database`，`pacman-deptest`，`pacman-key`，`pacman-mirrors`。
+> 有关其他包管理器中的等效命令，请参见 <https://wiki.archlinux.org/title/Pacman/Rosetta>。
+> 更多信息：<https://manned.org/pacman.8>。
 
-- 同步并更新所有软件包：
+- [S]ynchronize 和更新所有包：
 
 `sudo pacman -Syu`
 
-- 安装一个新的软件包：
+- 安装新包：
 
-`sudo pacman -S {{软件包}}`
+`sudo pacman -S {{package}}`
 
-- 删除一个软件包及其依赖：
+- [R]emove 包及其依赖：
 
-`sudo pacman -Rs {{软件包}}`
+`sudo pacman -Rs {{package}}`
 
-- 列出已安装的软件包和版本：
+- 搜索 ([s]) 包数据库中的正则表达式或关键字：
 
-`pacman -Q`
+`pacman -Ss "{{search_pattern}}"`
 
-- 仅列出明确安装的软件包和版本：
+- 在数据库中搜索包含特定 [F]ile 的包：
+
+`pacman -F "{{file_name}}"`
+
+- 仅列出 [e]xplicitly 安装的包和版本：
 
 `pacman -Qe`
 
-- 查找哪个包拥有某个文件：
+- 列出孤立包（作为 [d]ependencies 安装，但实际上并不被任何包所需）：
 
-`pacman -Qo {{文件名}}`
+`pacman -Qtdq`
 
-- 清空软件包缓存以释放空间：
+- 清空整个 `pacman` 缓存：
 
 `sudo pacman -Scc`

@@ -1,7 +1,7 @@
 # cargo check
 
-> 检查本地软件包及其所有依赖包是否有错误。
-> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-check.html>.
+> 检查本地包及其所有依赖项是否存在错误。
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-check.html>。
 
 - 检查当前包：
 
@@ -15,10 +15,10 @@
 
 `cargo check --test {{integration_test1}}`
 
-- 使用 `feature1` 和 `feature2` 功能检查当前包：
+- 检查当前包并启用特性 `feature1` 和 `feature2`：
 
 `cargo check --features {{feature1,feature2}}`
 
-- 禁用默认功能后检测当前包：
+- 检查当前包并禁用默认特性：
 
 `cargo check --no-default-features`

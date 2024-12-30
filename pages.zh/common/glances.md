@@ -3,22 +3,22 @@
 > 一个跨平台的系统监控工具。
 > 更多信息：<https://nicolargo.github.io/glances/>.
 
-- 启动 glances，实时显示系统状态：
+- 在终端中运行：
 
 `glances`
 
-- 以网页服务器模式启动，在浏览器中查看监控数据：
+- 在网页服务器模式下运行以在浏览器中显示结果：
 
 `glances -w`
 
-- 以服务器模式启动，允许其他 glances 客户端连接以查看数据：
+- 在服务器模式下运行以允许其他 Glances 客户端连接：
 
 `glances -s`
 
-- 作为客户端连接到 glances 服务器：
+- 连接到 Glances 服务器：
 
-`glances -c {{主机名或IP地址}}`
+`glances -c {{hostname}}`
 
-- 在（网页）服务器模式下启用密码保护：
+- 在 (web) 服务器模式下要求密码：
 
 `glances -s --password`

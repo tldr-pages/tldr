@@ -1,16 +1,16 @@
 # choco pack
 
-> 将 nuspec 打包到已编译的 nupkg.
-> 更多信息：<https://chocolatey.org/docs/commands-pack>.
+> 将 NuGet 规范打包为 `nupkg` 文件。
+> 更多信息：<https://chocolatey.org/docs/commands-pack>。
 
-- 将 nuspec 打包到已编译的 nupkg：
+- 将 NuGet 规范打包为 `nupkg` 文件：
 
-`choco pack {{nuspec 的路径}}`
+`choco pack {{path\to\specification_file}}`
 
-- 将 nuspec 打包到已编译的 nupkg, 并指定生成的版本：
+- 打包 NuGet 规范并指定生成文件的版本：
 
-`choco pack {{nuspec 的路径}} --version {{版本号}}`
+`choco pack {{path\to\specification_file}} --version {{version}}`
 
-- 将 nuspec 打包到已编译的 nupkg, 并输出到指定的目录：
+- 将 NuGet 规范打包到特定目录：
 
-`choco pack {{nuspec 的路径}} --output-directory {{输出目录的路径}}`
+`choco pack {{path\to\specification_file}} --output-directory {{path\to\output_directory}}`

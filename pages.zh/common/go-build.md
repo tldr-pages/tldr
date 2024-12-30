@@ -1,20 +1,20 @@
 # go build
 
 > 编译 Go 源代码。
-> 更多信息：<https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies>.
+> 更多信息：<https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies>。
 
-- 编译 ‘package main’ 文件（输出为不带扩展名的文件名）：
+- 编译一个 'package main' 文件（输出将是没有扩展名的文件名）：
 
-`go build {{路径/到/main.go}}`
+`go build {{path/to/main.go}}`
 
-- 编译并指定输出文件名：
+- 编译，指定输出文件名：
 
-`go build -o {{路径/到/二进制文件}} {{路径/到/源文件.go}}`
+`go build -o {{path/to/binary}} {{path/to/source.go}}`
 
 - 编译一个包：
 
-`go build -o {{路径/到/二进制文件}} {{路径/到/包}}`
+`go build -o {{path/to/binary}} {{path/to/package}}`
 
-- 编译 main 包为可执行文件，并开启数据竞态检测：
+- 编译一个主包为可执行文件，并启用数据竞争检测：
 
-`go build -race -o {{路径/到/可执行文件}} {{路径/到/main/包}}`
+`go build -race -o {{path/to/executable}} {{path/to/main/package}}`

@@ -1,9 +1,9 @@
 # pwgen
 
-> 生成可拼写发音的密码。
-> 更多信息：<https://github.com/tytso/pwgen>.
+> 生成可发音的密码。
+> 更多信息：<https://github.com/tytso/pwgen>。
 
-- 生成指定长度的随机密码：
+- 生成带有符号的随机密码：
 
 `pwgen -y {{长度}}`
 

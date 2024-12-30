@@ -1,24 +1,25 @@
 # ar
 
-> 创建，修改，提取库文件（`.a`, `.so`, `.o`）。
-> 更多信息：<https://manned.org/ar>.
+> 创建、修改和提取 Unix 存档。通常用于静态库（`.a`）和 Debian 包（`.deb`）。
+> 另见：`tar`。
+> 更多信息：<https://manned.org/ar>。
 
-- 从库文件中提取全部成员：
+- E[x]tract 从存档中提取所有成员：
 
-`ar x {{a 文件}}`
+`ar x {{path/to/file.a}}`
 
-- 列出库文件中的成员：
+- Lis[t] 列出特定存档的内容：
 
-`ar t {{a 文件}}`
+`ar t {{path/to/file.ar}}`
 
-- 替换或添加文件到库文件：
+- [r]eplace 或添加特定文件到存档：
 
-`ar r {{要被添加内容的 a 文件}} {{o 文件1 o 文件2 o 文件3 ...}}`
+`ar r {{path/to/file.deb}} {{path/to/debian-binary path/to/control.tar.gz path/to/data.tar.xz ...}}`
 
-- 插入对象文件索引（相当于使用`ranlib`）：
+- In[s]ert 对象文件索引（等同于使用 `ranlib`）：
 
-`ar s {{a 文件}}`
+`ar s {{path/to/file.a}}`
 
-- 使用文件和附带的目标文件索引创建存档：
+- 创建一个包含特定文件和附带对象文件索引的存档：
 
-`ar rs {{a 文件}} {{o 文件1 o 文件2 ...}}`
+`ar rs {{path/to/file.a}} {{path/to/file1.o path/to/file2.o ...}}`

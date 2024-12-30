@@ -1,9 +1,9 @@
-# color
+# 颜色
 
 > 设置控制台的前景色和背景色。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/color>。
 
-- 将控制台颜色恢复至默认值：
+- 将控制台颜色设置为默认值：
 
 `color`
 
@@ -11,6 +11,6 @@
 
 `color /?`
 
-- 将控制台前景色和背景色设置为指定颜色：
+- 使用十六进制数字（`1-9,a-f`）将控制台的前景色和背景色设置为特定颜色：
 
-`color {{前景色值}}{{背景色值}}`
+`color {{foreground_code}}{{background_code}}`

@@ -1,17 +1,17 @@
 # zipnote
 
-> 查看、添加或编辑 Zip 压缩包的注释。
-> 文件在 Zip 压缩包中也可以被重命名。
-> 更多信息：<https://manned.org/zipnote>.
+> 查看、添加或编辑 Zip 压缩档案的评论。
+> 也可以在 Zip 压缩档案中重命名文件。
+> 更多信息：<https://manned.org/zipnote>。
 
-- 查看 Zip 压缩包中的注释：
+- 查看 Zip 压缩档案的评论：
 
-`zipnote {{路径/到/文件.zip}}`
+`zipnote {{path/to/file.zip}}`
 
-- 将 Zip 压缩包中的注释提取到一个文件：
+- 将 Zip 压缩档案的评论提取到文件中：
 
-`zipnote {{路径/到/文件.zip}} > {{路径/到/文件.txt}}`
+`zipnote {{path/to/file.zip}} > {{path/to/file.txt}}`
 
-- 从一个文件中添加/更新 Zip 压缩包中的注释：
+- 从文件中添加/更新 Zip 压缩档案的评论：
 
-`zipnote -w {{路径/到/文件.zip}} < {{路径/到/文件.txt}}`
+`zipnote -w {{path/to/file.zip}} < {{path/to/file.txt}}`

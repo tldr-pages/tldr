@@ -1,25 +1,25 @@
 # gvpack
 
-> 将多个具有布局信息的图形布局组合在一起。
-> Graphviz 过滤器: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred` 和 `unflatten`。
-> 更多信息：<https://graphviz.org/pdf/gvpack.1.pdf>.
+> 组合多个图布局（已具有布局信息）。
+> Graphviz 过滤器：`acyclic`、`bcomps`、`comps`、`edgepaint`、`gvcolor`、`gvpack`、`mingle`、`nop`、`sccmap`、`tred` 和 `unflatten`。
+> 更多信息：<https://graphviz.org/pdf/gvpack.1.pdf>。
 
-- 将多个具有布局信息的图形布局组合在一起：
+- 组合多个图布局（已具有布局信息）：
 
-`gvpack {{路径/到/布局1.gv}} {{路径/到/布局2.gv ...}} > {{路径/到/输出.gv}}`
+`gvpack {{path/to/layout1.gv}} {{path/to/layout2.gv ...}} > {{path/to/output.gv}}`
 
-- 在图形层面上将多个图形布局组合在一起，保持图形分开：
+- 在图级别组合多个图布局，保持图的独立性：
 
-`gvpack -g {{路径/到/布局1.gv}} {{路径/到/布局2.gv ...}} > {{路径/到/输出.gv}}`
+`gvpack -g {{path/to/layout1.gv}} {{path/to/layout2.gv ...}} > {{path/to/output.gv}}`
 
-- 在节点层面上将多个图形布局组合在一起，忽略簇：
+- 在节点级别组合多个图布局，忽略簇：
 
-`gvpack -n {{路径/到/布局1.gv}} {{路径/到/布局2.gv ...}} > {{路径/到/输出.gv}}`
+`gvpack -n {{path/to/layout1.gv}} {{path/to/layout2.gv ...}} > {{path/to/output.gv}}`
 
-- 将多个图形布局组合在一起而不进行打包：
+- 组合多个图布局而不进行打包：
 
-`gvpack -u {{路径/到/布局1.gv}} {{路径/到/布局2.gv ...}} > {{路径/到/输出.gv}}`
+`gvpack -u {{path/to/layout1.gv}} {{path/to/layout2.gv ...}} > {{path/to/output.gv}}`
 
-- 显示 `gvpack` 的帮助信息：
+- 显示帮助信息：
 
 `gvpack -?`

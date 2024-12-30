@@ -1,9 +1,9 @@
-# date
+# 日期
 
 > 设置或显示系统日期。
-> 更多信息：<https://keith.github.io/xcode-man-pages/date.1.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/date.1.html>。
 
-- 使用默认区域设置的格式显示当前日期：
+- 使用默认区域格式显示当前日期：
 
 `date +%c`
 
@@ -11,10 +11,10 @@
 
 `date -u +%Y-%m-%dT%H:%M:%SZ`
 
-- 将当前日期显示为 unix 时间戳（自 1970-01-01 00:00:00 以来的秒数）：
+- 将当前日期显示为 Unix 时间戳（自 Unix 纪元以来的秒数）：
 
 `date +%s`
 
-- 使用默认格式显示特定日期（格式化指定 UNIX 时间戳）：
+- 使用默认格式显示特定日期（以 Unix 时间戳表示）：
 
 `date -r {{1473305798}}`

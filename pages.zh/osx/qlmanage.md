@@ -1,16 +1,16 @@
 # qlmanage
 
 > QuickLook 服务器工具。
-> 更多信息：<https://keith.github.io/xcode-man-pages/qlmanage.1.html>.
+> 更多信息：<https://keith.github.io/xcode-man-pages/qlmanage.1.html>。
 
-- 快速显示一个或多个文件：
+- 显示一个或多个文件的 QuickLook：
 
-`qlmanage -p {{路径/到/文件1 路径/到/文件2 ...}}`
+`qlmanage -p {{path/to/file1 path/to/file2 ...}}`
 
-- 计算生成当前目录中所有 JPEG 文件的缩略图，300px 宽 PNG 格式，并将它们放在一个指定目录中：
+- 计算当前目录中所有 JPEG 文件的 300 像素宽的 PNG 缩略图，并将它们放入一个目录：
 
-`qlmanage {{*.jpg}} -t -s {{300}} {{指定目录}}`
+`qlmanage {{*.jpg}} -t -s {{300}} {{path/to/directory}}`
 
-- 重置快速查看：
+- 重置 QuickLook：
 
 `qlmanage -r`

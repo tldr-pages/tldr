@@ -1,36 +1,36 @@
 # python
 
 > Python 语言解释器。
-> 更多信息：<https://www.python.org>.
+> 更多信息：<https://www.python.org>。
 
 - 启动 REPL（交互式 shell）：
 
 `python`
 
-- 执行特定 Python 文件：
+- 执行特定的 Python 文件：
 
-`python {{路径/到/文件.py}}`
+`python {{path/to/file.py}}`
 
-- 执行特定 Python 文件后进入 REPL:
+- 执行特定的 Python 文件并启动 REPL：
 
-`python -i {{路径/到/文件.py}}`
+`python -i {{path/to/file.py}}`
 
 - 执行 Python 表达式：
 
-`python -c "{{表达式}}"`
+`python -c "{{expression}}"`
 
-- 运行特定模块的脚本：
+- 运行指定库模块的脚本：
 
-`python -m {{模块}} {{参数}}`
+`python -m {{module}} {{arguments}}`
 
 - 使用 `pip` 安装包：
 
-`python -m pip install {{包}}`
+`python -m pip install {{package}}`
 
-- 互动调试 Python 脚本：
+- 交互式调试 Python 脚本：
 
-`python -m pdb {{路径/到/文件.py}}`
+`python -m pdb {{path/to/file.py}}`
 
-- 在当前目录中的端口 8000 上启动内置的 HTTP 服务器：
+- 在当前目录启动内置 HTTP 服务器，端口为 8000：
 
 `python -m http.server`

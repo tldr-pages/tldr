@@ -1,29 +1,37 @@
 # nmap
 
-> 网络探索工具和安全/端口扫描程序。
-> 仅当以特权运行 Nmap 时，某些功能才激活。
-> 更多信息：<https://nmap.org/book/man.html>.
+> 网络探测工具和安全/端口扫描器。
+> 某些功能（例如 SYN 扫描）仅在以 root 权限运行 `nmap` 时激活。
+> 更多信息：<https://nmap.org/book/man.html>。
 
-- 检查 IP 地址是否可用，并猜测远程主机的操作系统：
+- 以不同的 [v]erbosity 级别扫描远程主机的前 1000 个端口：
 
-`nmap -O {{IP 或者 主机名}}`
+`nmap -v{{1|2|3}} {{ip_or_hostname}}`
 
-- 尝试确定指定的主机是否启动以及它们的名称是什么：
+- 对整个子网或单个主机执行非常激进的 ping 扫描：
 
-`sudo nmap -sn {{IP 或者 主机名}} {{可选的其它地址}}`
+`nmap -T5 -sn {{192.168.0.0/24|ip_or_hostname1,ip_or_hostname2,...}}`
 
-- 像上面一样，如果主机启动了，还可以运行默认的 1000 端口 TCP 扫描：
+- 启用操作系统检测、版本检测、脚本扫描和从文件中主机的 traceroute：
 
-`nmap {{IP 或者 主机名}} {{可选的其它地址}}`
+`sudo nmap -A -iL {{path/to/file.txt}}`
 
-- 也可以启用脚本，服务检测，操作系统指纹识别和跟踪路由：
+- 扫描特定的端口列表（使用 `-p-` 来扫描 1 到 65535 的所有端口）：
 
-`nmap -A {{一个地址 或者 多个地址}}`
+`nmap -p {{port1,port2,...}} {{ip_or_host1,ip_or_host2,...}}`
 
-- 扫描端口的特定列表（使用 `-p` 参数覆盖所有端口，如 `-p 1-65535`，也可以明确指定几个端口，如 `-p 3306,3307,3308`）：
+- 使用默认的 NSE 脚本对前 1000 个端口进行服务和版本检测，将结果（`-oA`）写入输出文件：
 
-`nmap -p {{端口1, 端口2, ..., 端口N}} {{一个地址 或者 多个地址}}`
+`nmap -sC -sV -oA {{top-1000-ports}} {{ip_or_host1,ip_or_host2,...}}`
 
-- 使用默认 NSE 脚本执行针对该主机地址的完整端口、服务、版本检测扫描，以确定弱点和信息：
+- 使用 `default and safe` NSE 脚本仔细扫描目标：
 
-`nmap -sC -sV {{一个地址 或者 多个地址}}`
+`nmap --script "default and safe" {{ip_or_host1,ip_or_host2,...}}`
+
+- 使用所有可用的 `http-*` NSE 脚本扫描运行在标准端口 80 和 443 上的 Web 服务器：
+
+`nmap --script "http-*" {{ip_or_host1,ip_or_host2,...}} -p 80,443`
+
+- 尝试通过使用极慢的扫描（`-T0`）、诱饵源地址（`-D`）、[f]ragmented 数据包、随机数据和其他方法来规避 IDS/IPS 检测：
+
+`sudo nmap -T0 -D {{decoy_ip1,decoy_ip2,...}} --source-port {{53}} -f --data-length {{16}} -Pn {{ip_or_host}}`

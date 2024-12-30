@@ -1,24 +1,36 @@
 # mas
 
 > Mac 应用商店的命令行界面。
-> 更多信息：<https://github.com/mas-cli/mas>.
+> 更多信息：<https://github.com/mas-cli/mas>。
 
-- 首次登录 Mac 应用商店：
+- 第一次登录 Mac 应用商店：
 
 `mas signin "{{user@example.com}}"`
 
-- 显示所有已安装的应用程序和它们的产品标识符：
+- 显示所有已安装的应用程序及其产品标识符：
 
 `mas list`
 
-- 搜索一个应用程序，在结果旁边显示价格：
+- 搜索应用程序，并在结果中显示价格：
 
-`mas search "{{应用程序}}" --price`
+`mas search "{{application}}" --price`
 
-- 安装或更新一个应用程序：
+- 使用确切的数字 ID 安装或更新应用程序：
 
-`mas install {{产品标识符}}`
+`mas install {{numeric_product_id}}`
 
-- 安装所有待定的更新：
+- 安装搜索结果中返回的第一个应用程序：
+
+`mas lucky "{{search_term}}"`
+
+- 列出所有有待更新的过时应用程序：
+
+`mas outdated`
+
+- 安装所有待处理的更新：
 
 `mas upgrade`
+
+- 更新特定应用程序：
+
+`mas upgrade "{{numeric_product_id}}"`

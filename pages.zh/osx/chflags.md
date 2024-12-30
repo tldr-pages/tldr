@@ -1,20 +1,20 @@
 # chflags
 
-> 更改文件或文件夹的标志。
-> 更多信息：<https://keith.github.io/xcode-man-pages/chflags.1.html>.
+> 更改文件或目录标志。
+> 更多信息：<https://keith.github.io/xcode-man-pages/chflags.1.html>。
 
-- 给文件设置 hidden（隐藏）标签：
+- 为文件设置 `hidden` 标志：
 
-`chflags {{hidden}} {{文件路径}}`
+`chflags {{hidden}} {{path/to/file}}`
 
-- 取消文件的 hidden 标签：
+- 为文件取消设置 `hidden` 标志：
 
-`chflags {{hidden}} {{文件路径}}`
+`chflags {{nohidden}} {{path/to/file}}`
 
-- 递归地给文件夹中每个文件设置 uchg 标志：
+- 递归地为目录设置 `uchg` 标志：
 
-`chflags -R {{uchg}} {{文件夹路径}}`
+`chflags -R {{uchg}} {{path/to/directory}}`
 
-- 递归地撤销文件夹中每个文件设置的 uchg 标志：
+- 递归地为目录取消设置 `uchg` 标志：
 
-`chflags -R {{nouchg}} {{文件夹路径}}`
+`chflags -R {{nouchg}} {{path/to/directory}}`

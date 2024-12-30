@@ -1,25 +1,25 @@
 # updog
 
-> Python {{SimpleHTTPServer}} 的替代方案。
-> 它允许通过 HTTP/S 上传和下载，可以设置临时 SSL 证书，并使用 HTTP 基本认证。
-> 更多信息：<https://github.com/sc0tfree/updog>.
+> Python的SimpleHTTPServer的替代品。
+> 它允许通过HTTP/S进行上传和下载，可以设置临时SSL证书并使用HTTP基本身份验证。
+> 更多信息：<https://github.com/sc0tfree/updog>。
 
-- 为当前目录启动 HTTP 服务器：
+- 为当前目录启动HTTP服务器：
 
 `updog`
 
-- 为指定目录启动 HTTP 服务器：
+- 为指定目录启动HTTP服务器：
 
-`updog --directory {{/路径/到/目录}}`
+`updog --directory {{/path/to/directory}}`
 
-- 在指定端口上启动 HTTP 服务器：
+- 在指定端口启动HTTP服务器：
 
-`updog --port {{端口}}`
+`updog --port {{port}}`
 
-- 使用密码启动 HTTP 服务器（要登录，请将用户名留空，并在密码字段中输入密码）：
+- 以密码启动HTTP服务器（登录时，用户名留空，在密码字段中输入密码）：
 
-`updog --password {{密码}}`
+`updog --password {{password}}`
 
-- 通过 SSL 启用传输加密：
+- 通过SSL启用传输加密：
 
 `updog --ssl`

@@ -1,24 +1,24 @@
 # deno
 
-> 一个安全的 JavaScript 和 TypeScript 运行时。
-> 更多信息：<https://deno.land>.
+> 一个用于 JavaScript 和 TypeScript 的安全运行时。
+> 更多信息：<https://deno.land>。
 
-- 运行 JavaScript 或 TypeScript 文件：
+- 运行一个 JavaScript 或 TypeScript 文件：
 
-`deno run {{路径/到/文件.ts}}`
+`deno run {{path/to/file.ts}}`
 
-- 启动 REPL（交互式 shell）：
+- 启动一个 REPL（交互式命令行）：
 
 `deno`
 
-- 运行文件并启用网络访问：
+- 运行一个启用网络访问的文件：
 
-`deno run --allow-net {{路径/到/文件.ts}}`
+`deno run --allow-net {{path/to/file.ts}}`
 
-- 从 URL 运行文件：
+- 从 URL 运行一个文件：
 
 `deno run {{https://deno.land/std/examples/welcome.ts}}`
 
-- 从 URL 安装可执行脚本：
+- 从 URL 安装一个可执行脚本：
 
 `deno install {{https://deno.land/std/examples/colors.ts}}`

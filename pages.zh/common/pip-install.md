@@ -1,24 +1,24 @@
-# pip install
+# pip 安装
 
-> 用于安装 Python 包。
-> 更多信息：<https://pip.pypa.io>.
+> 安装 Python 包。
+> 更多信息请访问：<https://pip.pypa.io>。
 
-- 安装包：
+- 安装一个包：
 
-`pip install {{包名}}`
+`pip install {{package}}`
 
-- 安装指定版本的包：
+- 安装特定版本的包：
 
-`pip install {{包名}}=={{版本号}}`
+`pip install {{package}}=={{version}}`
 
-- 通过指定的依赖文件安装（通常文件名是 requirements.txt）：
+- 安装文件中列出的包：
 
-`pip install -r {{requirements.txt}}`
+`pip install -r {{path/to/requirements.txt}}`
 
-- 通过 URL 或源码存档文件安装（如 *.tar.gz 或 *.whl）：
+- 从 URL 或本地文件归档(.tar.gz | .whl)安装包：
 
-`pip install --find-links {{url|存档文件}}`
+`pip install --find-links {{url|path/to/file}}`
 
-- 在本地的项目路径下以开发模式（editable）安装（通常是读取 pyproject.toml 或 setup.py 文件）：
+- 以开发（可编辑）模式安装当前目录中的本地包：
 
 `pip install --editable {{.}}`

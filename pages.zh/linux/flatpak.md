@@ -1,32 +1,36 @@
 # flatpak
 
-> 构建、安装和运行 Flatpak 应用和运行时。
-> 更多信息：<https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.
+> 构建、安装和运行 flatpak 应用程序和运行时。
+> 更多信息：<https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>。
 
-- 运行已安装应用：
+- 运行已安装的应用程序：
 
-`flatpak run {{应用名}}`
+`flatpak run {{com.example.app}}`
 
-- 从远程源安装应用：
+- 从远程源安装应用程序：
 
-`flatpak install {{远程源名}} {{应用名}}`
+`flatpak install {{remote_name}} {{com.example.app}}`
 
-- 列出所有应用和运行时：
+- 列出已安装的应用程序，忽略运行时：
 
-`flatpak list`
+`flatpak list --app`
 
-- 更新所有已安装的应用和运行时：
+- 更新所有已安装的应用程序和运行时：
 
 `flatpak update`
 
 - 添加远程源：
 
-`flatpak remote-add --if-not-exists {{远程源名}} {{远程源网址}}`
+`flatpak remote-add --if-not-exists {{remote_name}} {{remote_url}}`
 
-- 移除一个已安装的应用程序：
+- 移除已安装的应用程序：
 
-`flatpak remove {{应用名}}`
+`flatpak remove {{com.example.app}}`
 
-- 显示一个已安装的应用程序的信息：
+- 移除所有未使用的应用程序：
 
-`flatpak info {{应用名}}`
+`flatpak remove --unused`
+
+- 显示已安装应用程序的信息：
+
+`flatpak info {{com.example.app}}`

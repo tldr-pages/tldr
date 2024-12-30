@@ -1,32 +1,32 @@
 # zgrep
 
-> 在压缩文件中从文件中 grep 文本模式（等价于 `grep -Z`）。
-> 更多信息：<https://manned.org/zgrep>.
+> 从压缩文件中提取文本模式（等同于 `grep -Z`）。
+> 更多信息：<https://manned.org/zgrep>。
 
-- 在压缩文件中 grep 一个模式（区分大小写）：
+- 在压缩文件中查找模式（区分大小写）：
 
-`zgrep {{模式}} {{路径/到/压缩/文件}}`
+`zgrep {{pattern}} {{path/to/compressed/file}}`
 
-- 在压缩文件中 grep 一个模式（不区分大小写）：
+- 在压缩文件中查找模式（不区分大小写）：
 
-`zgrep -i {{模式}} {{路径/到/压缩/文件}}`
+`zgrep -i {{pattern}} {{path/to/compressed/file}}`
 
-- 输出包含匹配模式的行数：
+- 输出压缩文件中包含匹配模式的行数：
 
-`zgrep -c {{模式}} {{路径/到/压缩/文件}}`
+`zgrep -c {{pattern}} {{path/to/compressed/file}}`
 
-- 显示不包含该模式的行（反转搜索功能）：
+- 显示不包含该模式的行（反向搜索功能）：
 
-`zgrep -v {{模式}} {{路径/到/压缩/文件}}`
+`zgrep -v {{pattern}} {{path/to/compressed/file}}`
 
-- 在压缩文件中为多个模式执行 grep：
+- 在压缩文件中查找多个模式：
 
-`zgrep -e "{{模式_1}}" -e "{{模式_2}}" {{路径/到/压缩/文件}}`
+`zgrep -e "{{pattern_1}}" -e "{{pattern_2}}" {{path/to/compressed/file}}`
 
-- 使用扩展的正则表达式（支持 `?`、`+`、`{}`、`()` 和 `|`）：
+- 使用扩展正则表达式（支持 `?`、`+`、`{}`、`()` 和 `|`）：
 
-`zgrep -E {{正则表达式}} {{路径/到/文件}}`
+`zgrep -E {{regular_expression}} {{path/to/file}}`
 
-- 打印每个匹配项前后各 3 行的上下文（[C]ontent）、[B]efore 或 [A]fter：
+- 打印每个匹配项周围的 3 行 [C]ontext、[B]efore 或 [A]fter：
 
-`zgrep -{{C|B|A}} {{3}} {{模式}} {{路径/到/压缩/文件}}`
+`zgrep -{{C|B|A}} {{3}} {{pattern}} {{path/to/compressed/file}}`

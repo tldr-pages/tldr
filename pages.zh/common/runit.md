@@ -1,12 +1,12 @@
 # runit
 
-> 三级初始化系统。
-> 更多信息：<https://smarden.org/runit/runit.8.html>.
+> 三阶段初始化系统。
+> 更多信息：<https://smarden.org/runit/runit.8.html>。
 
-- 启动 runit 的三阶段初始化方案：
+- 启动runit的三阶段初始化方案：
 
 `runit`
 
-- 停止运行 runit：
+- 关闭runit：
 
-`kill --CONT {{runit 进程 id}}`
+`kill --CONT {{runit_pid}}`

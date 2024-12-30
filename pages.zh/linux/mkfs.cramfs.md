@@ -1,9 +1,9 @@
 # mkfs.cramfs
 
-> 创建一个 ROM 文件系统，放置在分区内。
-> 更多信息：<https://manned.org/mkfs.cramfs>.
+> 在一个分区内创建一个 ROM 文件系统。
+> 更多信息：<https://manned.org/mkfs.cramfs>。
 
-- 在设备 b 的第 1 个分区内创建一个 ROM 文件系统（`sdb1`）：
+- 在设备 b 的分区 1 上创建一个 ROM 文件系统 (`sdb1`)：
 
 `mkfs.cramfs {{/dev/sdb1}}`
 

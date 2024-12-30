@@ -1,16 +1,16 @@
-# exit
+# 退出
 
-> 退出当前的命令行实例或 bat 脚本。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/exit>.
+> 退出当前的 CMD 实例或当前的批处理文件。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/exit>。
 
-- 退出当前的命令行实例：
+- 退出当前的 CMD 实例：
 
 `exit`
 
-- 退出当前的 [b]at 脚本：
+- 退出当前的 [b]atch 脚本：
 
 `exit /b`
 
-- 使用一个指定的退出码退出：
+- 使用特定的退出代码退出：
 
-`exit {{退出码}}`
+`exit {{2}}`

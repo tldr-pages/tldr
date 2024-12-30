@@ -1,32 +1,32 @@
 # rubocop
 
-> 格式化 Ruby 文件。
-> 更多信息：<https://docs.rubocop.org/rubocop/usage/basic_usage.html>.
+> 检查 Ruby 文件。
+> 更多信息：<https://docs.rubocop.org/rubocop/usage/basic_usage.html>。
 
-- 检查当前目录中的所有文件（包括子目录）：
+- 检查当前目录（包括子目录）中的所有文件：
 
 `rubocop`
 
-- 检查一个或多个指定文件或目录：
+- 检查一个或多个特定文件或目录：
 
-`rubocop {{路径/到/文件1  路径/到/文件2 ...}}`
+`rubocop {{路径/到/文件_或_目录1 路径/到/文件_或_目录2 ...}}`
 
-- 将输出写入指定文件：
+- 将输出写入文件：
 
 `rubocop --out {{路径/到/文件}}`
 
-- 查看规则列表（格式化规则）：
+- 查看警察（lint 规则）列表：
 
 `rubocop --show-cops`
 
-- 排除格式规则：
+- 排除一个警察：
 
-`rubocop --except {{规则 1 规则 2 ...}}`
+`rubocop --except {{警察1 警察2 ...}}`
 
-- 只运行指定的规则：
+- 仅运行指定的警察：
 
-`rubocop --only {{规则 1 规则 2 ...}}`
+`rubocop --only {{警察1 警察2 ...}}`
 
-- 自动更正文件（实验）：
+- 自动修正文件（实验性）：
 
 `rubocop --auto-correct`

@@ -1,28 +1,28 @@
 # ani-cli
 
-> 一个用于浏览和观看动漫的命令行工具。
-> 更多信息：<https://github.com/pystardust/ani-cli>.
+> 一个用于浏览和观看动画的命令行工具。
+> 更多信息：<https://github.com/pystardust/ani-cli>。
 
-- 按名称搜索动漫：
+- 按名称搜索动画：
 
-`ani-cli "{{动漫名称}}"`
+`ani-cli "{{anime_name}}"`
 
-- 下载动漫剧集：
+- [d]ownload 下载剧集：
 
-`ani-cli -d "{{动漫名称}}"`
+`ani-cli -d "{{anime_name}}"`
 
-- 使用 VLC 播放器播放：
+- 使用 [v]LC 作为媒体播放器：
 
-`ani-cli -v "{{动漫名称}}"`
+`ani-cli -v "{{anime_name}}"`
 
-- 指定要观看的剧集：
+- 观看特定的 [e]pisode 剧集：
 
-`ani-cli -e {{剧集序号}} "{{动漫名称}}"`
+`ani-cli -e {{episode_number}} "{{anime_name}}"`
 
-- 从历史记录中继续观看动漫：
+- [c]ontinue 从历史记录中继续观看动画：
 
 `ani-cli -c`
 
-- 更新 `ani-cli`：
+- [U]pdate 更新 `ani-cli`：
 
 `ani-cli -U`

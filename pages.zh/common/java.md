@@ -1,24 +1,28 @@
-# java
+# Java
 
-> Java 程序启动器。
-> 更多信息：<https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html>.
+> Java 应用程序启动器。
+> 更多信息：<https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html>。
 
-- 通过提供类名称运行一个含有 main 函数的 java .class 程序：
+- 通过仅使用类名执行包含主方法的 Java `.class` 文件：
 
-`java {{类名称}}`
+`java {{classname}}`
 
-- 运行一个 .jar 程序：
+- 执行 Java 程序并使用额外的第三方或用户定义的类：
 
-`java -jar {{文件名.jar}}`
+`java -classpath {{path/to/classes1}}:{{path/to/classes2}}:. {{classname}}`
 
-- 运行一个 .jar 程序并且在端口 5005 等待调试器：
+- 执行 `.jar` 程序：
 
-`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{文件名.jar}}`
+`java -jar {{filename.jar}}`
 
-- 显示 JDK, JRE 和 HotSpot 的版本：
+- 执行 `.jar` 程序并在端口 5005 上等待调试连接：
+
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{filename.jar}}`
+
+- 显示 JDK、JRE 和 HotSpot 版本：
 
 `java -version`
 
-- 显示详细的帮助：
+- 显示帮助：
 
 `java -help`

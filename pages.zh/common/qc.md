@@ -1,14 +1,14 @@
 # qc
 
 > 管理和执行存储在 QOwnNotes 笔记中的命令片段。
-> 请参阅：`qownnotes`.
-> 更多信息：<https://www.qownnotes.org/getting-started/command-line-snippet-manager.html>.
+> 另见：`qownnotes`。
+> 更多信息：<https://www.qownnotes.org/getting-started/command-line-snippet-manager.html>。
 
-- 配置代码片段管理器，例如设置来自 QOwnNotes 的安全令牌：
+- 配置片段管理器，例如设置来自 QOwnNotes 的安全令牌：
 
 `qc configure`
 
-- 搜索并打印存储在 `Commands.md` 笔记中的命令片段以及所有标记为 `commands` 的笔记：
+- 搜索并打印存储在你的 `Commands.md` 笔记及所有标记为 `commands` 的笔记中的命令片段：
 
 `qc search`
 
@@ -16,7 +16,7 @@
 
 `qc exec --command`
 
-- 执行上一个片段并在执行前显示命令：
+- 执行最后一个片段并在执行前显示命令：
 
 `qc exec --command --last`
 

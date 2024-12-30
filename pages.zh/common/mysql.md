@@ -1,32 +1,32 @@
 # mysql
 
 > MySQL 命令行工具。
-> 更多信息：<https://www.mysql.com/>.
+> 更多信息：<https://www.mysql.com/>。
 
-- 连接数据库：
+- 连接到数据库：
 
-`mysql {{数据库名}}`
+`mysql {{database_name}}`
 
-- 连接到数据库，系统将提示用户输入密码：
+- 连接到数据库，用户将被提示输入密码：
 
-`mysql -u {{用户名}} --password {{数据库名}}`
+`mysql -u {{user}} --password {{database_name}}`
 
-- 连接到另一台主机上的数据库：
+- 连接到另一主机上的数据库：
 
-`mysql -h {{数据库地址}} {{数据库名}}`
+`mysql -h {{database_host}} {{database_name}}`
 
-- 通过Unix套接字文件连接到数据库：
+- 通过 Unix 套接字连接到数据库：
 
-`mysql --socket {{路径/到/socket.sock}}`
+`mysql --socket {{path/to/socket.sock}}`
 
-- 执行脚本文件中的SQL语句：
+- 在脚本文件（批处理文件）中执行 SQL 语句：
 
-`mysql -e "source {{脚本.sql}}" {{数据库名}}`
+`mysql -e "source {{filename.sql}}" {{database_name}}`
 
-- 从`mysqldump`创建的备份文件中恢复单个数据库（系统将提示用户输入密码）：
+- 从使用 `mysqldump` 创建的备份中恢复数据库（用户将被提示输入密码）：
 
-`mysql --user {{用户名}} --password {{数据库名}} < {{路径/到/备份文件.sql}}`
+`mysql --user {{user}} --password {{database_name}} < {{path/to/backup.sql}}`
 
-- 从备份中恢复所有数据库（系统将提示用户输入密码）：
+- 从备份中恢复所有数据库（用户将被提示输入密码）：
 
-`mysql --user {{用户名}} --password < {{路径/到/备份文件.sql}}`
+`mysql --user {{user}} --password < {{path/to/backup.sql}}`

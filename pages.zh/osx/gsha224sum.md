@@ -1,7 +1,7 @@
 # gsha224sum
 
-> 这是 `-p linux sha224sum` 命令的一个别名。
+> 此命令是 GNU `sha224sum` 的别名。
 
-- 原命令的文档在：
+- 查看原始命令的文档：
 
 `tldr -p linux sha224sum`

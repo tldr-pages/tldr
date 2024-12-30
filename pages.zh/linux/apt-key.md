@@ -1,24 +1,25 @@
 # apt-key
 
-> Debian 和 Ubuntu 上的 APT 软件包管理器的密钥管理工具。
-> 更多信息：<https://manned.org/apt-key.8>.
+> APT 包管理器的密钥管理工具，适用于 Debian 和 Ubuntu。
+> 注意：`apt-key` 现在已被弃用（维护脚本中使用 `apt-key del` 的情况除外）。
+> 更多信息：<https://manned.org/apt-key.8>。
 
-- 列出可信密钥：
+- 列出受信任的密钥：
 
 `apt-key list`
 
-- 向可信密钥库中添加一个密钥：
+- 将密钥添加到受信任的密钥库：
 
-`apt-key add {{密钥文件.asc}}`
+`apt-key add {{public_key_file.asc}}`
 
-- 从可信密钥库中移除一个密钥：
+- 从受信任的密钥库中删除密钥：
 
-`apt-key del {{密钥 id}}`
+`apt-key del {{key_id}}`
 
-- 向可信密钥库中添加一个远程密钥：
+- 将远程密钥添加到受信任的密钥库：
 
 `wget -qO - {{https://host.tld/filename.key}} | apt-key add -`
 
-- 指定密钥 ID, 从密钥服务器中添加一个密钥：
+- 仅使用密钥 ID 从密钥服务器添加密钥：
 
-`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{密钥 id}}`
+`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{KEYID}}`

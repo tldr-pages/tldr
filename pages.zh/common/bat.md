@@ -1,36 +1,36 @@
 # bat
 
-> 可以打印并且合并文件的命令。
-> `cat` 的复制品，外加语法高亮和 Git 集成。
-> 更多信息：<https://github.com/sharkdp/bat>.
+> 打印并连接文件。
+> 一个具有语法高亮和 Git 集成的 `cat` 克隆。
+> 更多信息：<https://github.com/sharkdp/bat>。
 
-- 使用美化样式打印一个或多个文件的内容到 `stdout`：
+- 将一个或多个文件的内容美观地打印到 `stdout`：
 
-`bat {{路径/到/文件1 路径/到/文件2 ...}}`
+`bat {{path/to/file1 path/to/file2 ...}}`
 
-- 将多个文件连接成一个目标文件：
+- 将多个文件连接到目标文件中：
 
-`bat {{路径/到/文件1 路径/到/文件2 ...}} > {{路径/到/目标文件}}`
+`bat {{path/to/file1 path/to/file2 ...}} > {{path/to/target_file}}`
 
-- 移除修饰并禁用分页（`--style plain` 可以用 `-p` 代替，或用 `-pp` 组合两个选项）：
+- 移除装饰并禁用分页（`--style plain` 可以用 `-p` 替代，或者两个选项都用 `-pp`）：
 
-`bat --style plain --pager never {{路径/到/文件}}`
+`bat --style plain --pager never {{path/to/file}}`
 
-- 使用不同的背景颜色高亮显示特定行或一行范围：
+- 用不同的背景色高亮显示特定行或行范围：
 
-`bat {{-H|--highlight-line}} {{10|5:10|:10|10:|10:+5}} {{路径/到/文件}}`
+`bat {{-H|--highlight-line}} {{10|5:10|:10|10:|10:+5}} {{path/to/file}}`
 
-- 显示不可打印字符，如空格、制表符或换行：
+- 显示不可打印字符，如空格、制表符或换行符：
 
-`bat {{-A|--show-all}} {{路径/到/文件}}`
+`bat {{-A|--show-all}} {{path/to/file}}`
 
-- 在输出中只保留行号，移除所有其他修饰：
+- 在输出中移除所有装饰，保留行号：
 
-`bat {{-n|--number}} {{路径/到/文件}}`
+`bat {{-n|--number}} {{path/to/file}}`
 
-- 通过明确设置语言来语法高亮显示 JSON 文件：
+- 通过显式设置语言为 JSON 文件提供语法高亮：
 
-`bat {{-l|--language}} json {{路径/到/文件.json}}`
+`bat {{-l|--language}} json {{path/to/file.json}}`
 
 - 显示所有支持的语言：
 

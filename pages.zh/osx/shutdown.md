@@ -1,13 +1,13 @@
-# shutdown
+# 关机
 
-> 关闭并重新启动系统。
-> 更多信息：<https://keith.github.io/xcode-man-pages/shutdown.8.html>.
+> 关闭并重启系统。
+> 更多信息：<https://keith.github.io/xcode-man-pages/shutdown.8.html>。
 
-- 立即关机：
+- 立即关闭（停止）：
 
 `shutdown -h now`
 
-- 立即休眠：
+- 立即进入睡眠模式：
 
 `shutdown -s now`
 
@@ -15,14 +15,14 @@
 
 `shutdown -r now`
 
-- 倒计时 5 分钟重启：
+- 5分钟后重启：
 
 `shutdown -r "+{{5}}"`
 
-- 在下午 1:00（使用 24 小时时钟）关机：
+- 下午1:00关机（使用24小时制）：
 
 `shutdown -h {{1300}}`
 
-- 在 2042 年 5 月 10 日上午 11:30 重新启动（输入格式：年年月月日日时时分分）：
+- 2042年5月10日下午11:30重启（输入格式：YYMMDDHHMM）：
 
 `shutdown -r {{4205101130}}`

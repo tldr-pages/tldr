@@ -1,36 +1,36 @@
 # wsl
 
-> 从命令行管理适用于 Linux 的 Windows 子系统。
-> 更多信息：<https://learn.microsoft.com/windows/wsl/reference>.
+> 管理 Windows 子系统 Linux。
+> 更多信息：<https://learn.microsoft.com/windows/wsl/reference>。
 
-- 启动 Linux Shell（在默认发行版中）：
+- 启动一个 Linux shell（在默认发行版中）：
 
-`wsl {{shell_命令}}`
+`wsl {{shell_command}}`
 
-- 在不使用 Shell 的情况下运行 Linux 命令：
+- 无需使用 shell 运行 Linux 命令：
 
-`wsl --exec {{命令}} {{命令参数}}`
+`wsl --exec {{command}} {{command_arguments}}`
 
 - 指定特定的发行版：
 
-`wsl --distribution {{发行版}} {{shell_命令}}`
+`wsl --distribution {{distribution}} {{shell_command}}`
 
-- 列出所有可用发行版：
+- 列出可用的发行版：
 
 `wsl --list`
 
-- 将发行版导出到 .tar 文件：
+- 将发行版导出为 `.tar` 文件：
 
-`wsl --export {{发行版}} {{路径/distro_fs.tar}}`
+`wsl --export {{distribution}} {{path\to\distro_file.tar}}`
 
-- 从 .tar 文件导入发行版：
+- 从 `.tar` 文件导入发行版：
 
-`wsl --import {{发行版}} {{路径/安装位置}} {{路径/distro_fs.tar}}`
+`wsl --import {{distribution}} {{path\to\install_location}} {{path/to/distro_file.tar}}`
 
-- 更改指定发行版的版本：
+- 更改指定发行版使用的 wsl 版本：
 
-`wsl --set-version {{发行版}} {{版本}}`
+`wsl --set-version {{distribution}} {{version}}`
 
-- 关闭适用于 Linux 的 Windows 子系统：
+- 关闭 Windows 子系统 Linux：
 
 `wsl --shutdown`

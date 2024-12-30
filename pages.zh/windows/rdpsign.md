@@ -1,24 +1,24 @@
 # rdpsign
 
-> 用于签名远程桌面协议（RDP）文件的工具。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/rdpsign>.
+> 一种用于签署远程桌面协议（RDP）文件的工具。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/rdpsign>。
 
-- 为一个 RDP 文件签名：
+- 签署一个 RDP 文件：
 
-`rdpsign {{文件路径.rdp}}`
+`rdpsign {{path\to\file.rdp}}`
 
-- 使用一个指定的 sha256 哈希值为 RDP 文件签名：
+- 使用特定的 sha256 哈希签署一个 RDP 文件：
 
-`rdpsign {{文件路径.rdp}} /sha265 {{哈希值}}`
+`rdpsign {{path\to\file.rdp}} /sha265 {{hash}}`
 
 - 启用静默输出：
 
-`rdpsign {{文件路径.rdp}} /q`
+`rdpsign {{path\to\file.rdp}} /q`
 
-- 显示详细的信息、警告和状态：
+- 显示详细的警告、消息和状态：
 
-`rdpsign {{文件路径.rdp}} /v`
+`rdpsign {{path\to\file.rdp}} /v`
 
-- 在不更新文件的情况下将输出显示到标准输出来测试签名：
+- 通过将输出显示到 `stdout` 来测试签署，而不更新文件：
 
-`rdpsign {{文件路径.rdp}} /l`
+`rdpsign {{path\to\file.rdp}} /l`

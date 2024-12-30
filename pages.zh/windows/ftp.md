@@ -1,23 +1,23 @@
 # ftp
 
-> 在本地和远程 FTP 服务器之间交互式传输文件。
-> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/ftp>.
+> 交互式地在本地和远程 FTP 服务器之间传输文件。
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/ftp>。
 
-- 交互式连接一个远程的 FTP 服务：
+- 交互式连接到远程 FTP 服务器：
 
-`ftp {{主机名}}`
+`ftp {{host}}`
 
-- 匿名登录：
+- 以匿名用户身份登录：
 
-`ftp -A {{主机名}}`
+`ftp -A {{host}}`
 
-- 初始连接时禁用自动登录：
+- 禁用初始连接时的自动登录：
 
-`ftp -n {{主机名}}`
+`ftp -n {{host}}`
 
 - 运行包含 FTP 命令列表的文件：
 
-`ftp -s:{{文件的路径}} {{主机名}}`
+`ftp -s:{{path\to\file}} {{host}}`
 
 - 下载多个文件（通配符表达式）：
 
@@ -27,10 +27,10 @@
 
 `mput {{*.zip}}`
 
-- 在远程服务器上删除多个文件：
+- 删除远程服务器上的多个文件：
 
 `mdelete {{*.txt}}`
 
-- 显示详细的帮助：
+- 显示帮助信息：
 
 `ftp --help`

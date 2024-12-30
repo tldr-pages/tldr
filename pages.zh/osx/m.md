@@ -1,7 +1,7 @@
 # m
 
-> macOS 上的瑞士军刀。
-> 更多信息：<https://github.com/rgcr/m-cli>.
+> macOS的瑞士军刀。
+> 更多信息：<https://github.com/rgcr/m-cli>。
 
 - 获取电池状态：
 
@@ -15,7 +15,7 @@
 
 `m disk filesystems`
 
-- 启用 Dock（桌面程序坞）的自动隐藏功能：
+- 启用Dock的自动隐藏功能：
 
 `m dock autohide YES`
 

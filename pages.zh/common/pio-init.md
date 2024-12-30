@@ -1,7 +1,7 @@
-# pio init
+# pio 初始化
 
-> 这是 `pio project` 命令的一个别名。
+> 此命令是 `pio project init` 的别名。
 
-- 原命令的文档在：
+- 查看原始命令的文档：
 
 `tldr pio project`

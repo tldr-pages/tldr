@@ -1,7 +1,11 @@
 # rd
 
-> 这是 `rmdir` 命令的一个别名。
+> 此命令是命令提示符中的 `rmdir` 的别名，以及 PowerShell 中的 `Remove-Item`。
 
-- 原命令的文档在：
+- 查看原始命令提示符命令的文档：
 
 `tldr rmdir`
+
+- 查看原始 PowerShell 命令的文档：
+
+`tldr remove-item`
