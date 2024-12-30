@@ -18,4 +18,4 @@
 
 - Run individual tests with valgrind (memory check and memory leak test):
 
-`lit {{test_file.test}} --vg --vg-leak --vg-args={{args_to_valgrind}}`
+`lit {{path/to/test_file.test}} --vg --vg-leak --vg-args={{args_to_valgrind}}`
