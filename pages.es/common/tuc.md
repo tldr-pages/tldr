@@ -14,7 +14,7 @@
 
 - Mantiene un rango de campos:
 
-`echo "foo bar baz" | tuc -d ' ' -f {{2:}}``
+`echo "foo bar baz" | tuc -d ' ' -f {{2:}}`
 
 - Corta usando expresiones regulares:
 
