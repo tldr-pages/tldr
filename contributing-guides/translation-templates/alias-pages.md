@@ -275,7 +275,7 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> 이 명령어는 `example`의 별칭입니다.
+> 이 명령어는 `example`의 별칭 입니다.
 
 - 원본 명령어의 문서 보기:
 

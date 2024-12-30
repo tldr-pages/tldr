@@ -120,6 +120,31 @@ def get_templates(root: Path):
 
     return templates
 
+def process_alias_and_command(template: str, alias_name: str, command: str) -> str:
+    """
+    Process the template to replace 'example' with alias_name and command,
+    modifying the first dash to a space for the alias_name if needed.
+
+    Parameters:
+    template (str): The markdown template.
+    alias_name (str): The alias name to insert into the template.
+    command (str): The command name to insert into the template.
+
+    Returns:
+    str: The processed markdown template.
+    """
+    # Modify alias_name: change the first dash to a space
+    if '-' in alias_name:
+        alias_name = alias_name.replace('-', ' ', 1)
+
+    # Replace 'example' with the processed alias_name in the template
+    template = template.replace("example", alias_name, 1)
+
+    # Replace the remaining 'example' with the command
+    template = template.replace("example", command)
+
+    return template
+
 
 def set_alias_page(
     path: Path, command: str, dry_run: bool = False, language_to_update: str = ""
@@ -149,9 +174,7 @@ def set_alias_page(
         return ""
 
     alias_name = path.stem
-    text = (
-        templates[locale].replace("example", alias_name, 1).replace("example", command)
-    )
+    text = process_alias_and_command(templates[locale], alias_name, command)
 
     # Test if the alias page already exists
     line = re.search(r">.*", text).group(0).replace(command, "(.+)")
