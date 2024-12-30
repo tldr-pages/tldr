@@ -13,7 +13,7 @@
 
 - Bobby Tables라는 저작권자를 지정:
 
-`licensor {{MIT}} {{"Bobby Tables"}} > {{LICENSE}}`
+`licensor {{MIT}} "{{Bobby Tables}}" > {{LICENSE}}`
 
 - WITH 표현을 사용하여 라이선스 예외사항 지정:
 

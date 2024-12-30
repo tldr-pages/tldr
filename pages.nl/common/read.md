@@ -17,7 +17,7 @@
 
 - Wijs meerdere waarden toe aan meerdere variabelen:
 
-`read {{_ variable1 _ variable2}} <<< {{"De achternaam is Bond"}}`
+`read {{_ variable1 _ variable2}} <<< "{{De achternaam is Bond}}"`
 
 - Laat backslash (\\) niet optreden als een escape-teken:
 

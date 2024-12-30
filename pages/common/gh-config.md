@@ -21,7 +21,7 @@
 
 - Reset to default text editor:
 
-`gh config set editor {{""}}`
+`gh config set editor ""`
 
 - Disable interactive prompts:
 

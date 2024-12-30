@@ -9,7 +9,7 @@
 
 - Stuur data naar een benoemde pipe en stuur het commando naar de achtergrond:
 
-`echo {{"Hello World"}} > {{pad/naar/pipe}} &`
+`echo "{{Hello World}}" > {{pad/naar/pipe}} &`
 
 - Ontvang data van benoemde pipe:
 

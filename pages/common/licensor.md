@@ -13,7 +13,7 @@
 
 - Specify a copyright holder named Bobby Tables:
 
-`licensor {{MIT}} {{"Bobby Tables"}} > {{LICENSE}}`
+`licensor {{MIT}} "{{Bobby Tables}}" > {{LICENSE}}`
 
 - Specify licence exceptions with a WITH expression:
 

@@ -1,7 +1,7 @@
 # echo
 
 > 주어진 인자들을 출력한다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/echo>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - 텍스트 메시지를 출력한다. 참고: 따옴표는 선택 사항:
 

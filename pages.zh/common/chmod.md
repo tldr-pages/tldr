@@ -1,7 +1,7 @@
 # chmod
 
 > 修改文件或目录的访问权限。
-> 更多信息：<https://www.gnu.org/software/coreutils/chmod>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - 授予所有者［u］执行［x］文件的权限：
 
