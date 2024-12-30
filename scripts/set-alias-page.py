@@ -135,8 +135,8 @@ def process_alias_and_command(template: str, alias_name: str, command: str) -> s
     str: The processed markdown template.
     """
     # Modify alias_name: change the first dash to a space
-    if '-' in alias_name:
-        alias_name = alias_name.replace('-', ' ', 1)
+    if "-" in alias_name:
+        alias_name = alias_name.replace("-", " ", 1)
 
     # Replace 'example' with the processed alias_name in the template
     template = template.replace("example", alias_name, 1)
