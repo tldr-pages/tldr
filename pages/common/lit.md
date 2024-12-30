@@ -6,7 +6,7 @@
 
 - Run a specified test case:
 
-`lit {{test_file.test}}`
+`lit {{path/to/test_file.test}}`
 
 - Run all test cases in a specified directory:
 
