@@ -146,7 +146,6 @@ def set_alias_page(
     if locale not in templates or (
         language_to_update != "" and locale != language_to_update
     ):
-        # return empty status to indicate that no changes were made
         return ""
 
     alias_name = path.stem
@@ -160,8 +159,11 @@ def set_alias_page(
     if original_command == command:
         return ""
 
+    # Determine status based on whether the translation file already exists
     status = get_status(
-        "added" if original_command == "" else "updated", dry_run, "page"
+        "added" if not path.exists() else "updated",
+        dry_run,
+        "page",
     )
 
     if not dry_run:  # Only write to the path during a non-dry-run
