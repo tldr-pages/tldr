@@ -1,7 +1,7 @@
 # b2sum
 
 > Calcule les sommes de contrôle cryptographiques BLAKE2.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/b2sum>.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html>.
 
 - Calcule la somme de contrôle BLAKE2 d'un fichier :
 

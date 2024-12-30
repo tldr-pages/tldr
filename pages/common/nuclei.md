@@ -33,4 +33,4 @@
 
 - Run scan based on one or more [t]emplate [c]onditions:
 
-`nuclei -tc {{"contains(tags, 'xss') && contains(tags, 'cve')"}} -u {{https://vulnerable.website}}`
+`nuclei -tc "{{contains(tags, 'xss') && contains(tags, 'cve')}}" -u {{https://vulnerable.website}}`

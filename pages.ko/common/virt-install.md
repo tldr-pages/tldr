@@ -21,4 +21,4 @@
 
 - Fedora 35를 기반으로 한 자동 배포를 시작하고 원격 리소스만 사용하여 가상 머신 생성 (ISO 불필요):
 
-`virt-install --name {{가상머신_이름}} --memory {{2048}} --disk path={{경로/대상/이미지.qcow2}},size={{20}} --location={{https://download.fedoraproject.org/pub/fedora/linux/releases/35/Everything/x86_64/os/}} --extra-args={{"inst.ks=https://경로/대상/유효한/kickstart.org"}}`
+`virt-install --name {{가상머신_이름}} --memory {{2048}} --disk path={{경로/대상/이미지.qcow2}},size={{20}} --location={{https://download.fedoraproject.org/pub/fedora/linux/releases/35/Everything/x86_64/os/}} --extra-args="{{inst.ks=https://경로/대상/유효한/kickstart.org}}"`

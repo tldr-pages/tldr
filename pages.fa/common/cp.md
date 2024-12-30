@@ -1,7 +1,7 @@
 # cp
 
 > کپی فایل ها و دایرکتوری ها.
-> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/cp>.
+> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - کپی فایل از مبدا به مقصد مشخص شده:
 

@@ -4,34 +4,34 @@
 > See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 
-- List installed packages and versions:
+- [Q]uery the local package database and list installed packages and versions:
 
-`pacman --query`
+`pacman -Q`
 
-- List only packages and versions that were explicitly installed:
+- List only packages and versions that were [e]xplicitly installed:
 
-`pacman --query --explicit`
+`pacman -Qe`
 
-- Find which package owns a file:
+- Find which package [o]wns a file:
 
-`pacman --query --owns {{filename}}`
+`pacman -Qo {{filename}}`
 
-- Display information about an installed package:
+- Display information about an [i]nstalled package:
 
-`pacman --query --info {{package}}`
+`pacman -Qi {{package}}`
 
-- List files owned by a package:
+- Display the [l]ist of files owned by a specific package:
 
-`pacman --query --list {{package}}`
+`pacman -Ql {{package}}`
 
-- List orphan packages (installed as dependencies but not required by any package):
+- List orphan packages (installed as [d]ependencies but unrequired ([t]) by any package and print in [q]uiet mode (only package name is displayed)):
 
-`pacman --query --unrequired --deps --quiet`
+`pacman -Qdtq`
 
-- List installed packages not found in the repositories:
+- List installed packages foreign ([m]) to the repository database:
 
-`pacman --query --foreign`
+`pacman -Qm`
 
-- List outdated packages:
+- List packages that can be [u]pgraded:
 
-`pacman --query --upgrades`
+`pacman -Qu`

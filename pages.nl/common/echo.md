@@ -1,7 +1,7 @@
 # echo
 
 > Toont gegeven argumenten.
-> Meer informatie: <https://www.gnu.org/software/coreutils/echo>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Toon een tekstbericht. Let op: aanhalingstekens zijn optioneel:
 

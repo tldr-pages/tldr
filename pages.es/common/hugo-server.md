@@ -11,9 +11,13 @@
 
 `hugo server --port {{número_de_puerto}}`
 
-- Construye y publica un sitio mientras se minifican los formatos de salida soportados (HTML, XML, etc.):
+- Construye y publica un sitio mientras se minimizan los formatos de salida soportados (HTML, XML, etc.):
 
 `hugo server --minify`
+
+- Construye y sirve un sitio en el entorno de producción con reconstrucción completa (re-render) disminuyendo el tamaño (minify) en los formatos soportados:
+
+`hugo server --environment {{producción}} --disableFastRender --minify`
 
 - Muestra la ayuda:
 

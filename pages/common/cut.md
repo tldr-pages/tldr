@@ -1,7 +1,7 @@
 # cut
 
 > Cut out fields from `stdin` or files.
-> More information: <https://www.gnu.org/software/coreutils/cut>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - Print a specific [c]haracter/[f]ield range of each line:
 

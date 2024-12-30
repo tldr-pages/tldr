@@ -19,3 +19,7 @@
 - Start `btop` in 256-color mode instead of 24-bit color mode:
 
 `btop --low-color`
+
+- Set the update rate to 500 milliseconds:
+
+`btop --update 500`

@@ -5,4 +5,4 @@
 
 - Insert a kernel module into the Linux kernel:
 
-`insmod {{path/to/module.ko}}`
+`sudo insmod {{path/to/module.ko}}`

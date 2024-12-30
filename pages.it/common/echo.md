@@ -1,7 +1,7 @@
 # echo
 
 > Stampa a schermo gli argomenti forniti.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/echo>.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Stampa un messaggio di testo. Nota: le virgolette sono opzionali:
 

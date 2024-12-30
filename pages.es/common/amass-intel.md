@@ -11,18 +11,22 @@
 
 `amass intel -active -addr {{192.168.0.1-254}}`
 
-- Encuentra dominios raíz relacionados con un dominio específico:
+- Encuentra dominios raíz relacionados con un [d]ominio específico:
 
 `amass intel -whois -d {{nombre_de_dominio}}`
 
-- Encuentra ASN pertenecientes a una organización específica:
+- Encuentra ASNs pertenecientes a una [org]anización específica:
 
-`amass intel -org {{nombre_de_organizacion}}`
+`amass intel -org {{nombre_de_organización}}`
 
 - Encuentra dominios raíz pertenecientes a un Número de Sistema Autónomo específico:
 
-`amass intel -asn {{string}}`
+`amass intel -asn {{cadena}}`
 
-- Guarda los resultados en un archivo de texto específico:
+- Guarda los resultados en un archivo de texto:
 
 `amass intel -o {{ruta/al/archivo_de_salida}} -whois -d {{nombre_de_dominio}}`
+
+- Lista todas las fuentes de datos disponibles:
+
+`amass intel -list`
