@@ -1,6 +1,6 @@
 # lit
 
-> Comprobador integrado LLVM para ejecutar suites de prueba estilo LLVM y Clang, resumiendo los resultados.
+> Comprobador integrado LLVM para ejecutar conjuntos de pruebas estilo LLVM y Clang, resumiendo los resultados.
 > Parte de LLVM.
 > Más información: <https://www.llvm.org/docs/CommandGuide/lit.html>.
 
