@@ -1,7 +1,7 @@
 # gawk
 
-> Perintah ini merupakan alias dari `-p linux awk`.
+> Perintah ini merupakan alias dari `awk`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux awk`
+`tldr awk`
