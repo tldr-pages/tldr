@@ -32,6 +32,6 @@
 
 `tldr --list | grep {{command}} | column`
 
-- Print tldr page of a random command:
+- Print the tldr page for a random command:
 
 `tldr --list | shuf -n1 | xargs tldr`
