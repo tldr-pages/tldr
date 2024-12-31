@@ -7,10 +7,10 @@
 
 `gendesk -n --name "{{app}}" --exec "{{/path/to/app}}" --icon "{{/path/to/icon.png}}" --comment "{{This is application}}"`
 
-- Show Usage:
-
-`gendesk -h`
-
 - Create a `.desktop` file named `app`, do not display any output, and overwrite it if it exists:
 
 `gendesk -q -f -n --name "{{app}}" --exec "{{/path/to/app}}" --icon "{{/path/to/icon.png}}" --comment "{{This is application}}"`
+
+- Display help:
+
+`gendesk -h`
