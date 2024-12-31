@@ -15,10 +15,14 @@
 
 `{{command}} | b3sum`
 
-- Read a file of BLAKE3 sums and filenames and verify all files have matching checksums:
+- Read a file of BLAKE3 checksums and filenames and verify all files have matching checksums:
 
 `b3sum --check {{path/to/file.b3}}`
 
 - Only show a message for missing files or when verification fails:
 
 `b3sum --check --quiet {{path/to/file.b3}}`
+
+- Check a known BLAKE3 checksum of a file:
+
+`echo {{known_blake3_checksum_of_the_file}} {{path/to/file}} | b3sum --check`

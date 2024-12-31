@@ -9,7 +9,7 @@
 
 - Add line numbers, and indentation guides:
 
-`rich {{path/to/file.py}} --line-number --guides`
+`rich {{path/to/file.py}} --line-numbers --guides`
 
 - Apply a theme:
 
@@ -29,4 +29,4 @@
 
 - Display text with formatting tags, custom alignment, and line width:
 
-`rich --print {{"Hello [green on black]Stylized[/green on black] [bold]World[/bold]"}} --{{left|center|right}} --width {{10}}`
+`rich --print "{{Hello [green on black]Stylized[/green on black] [bold]World[/bold]}}" --{{left|center|right}} --width {{10}}`

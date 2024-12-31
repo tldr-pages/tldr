@@ -1,7 +1,7 @@
 # ls
 
 > Lista los contenidos de directorios.
-> Más información: <https://www.gnu.org/software/coreutils/ls>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Lista un archivo por línea:
 

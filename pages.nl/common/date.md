@@ -1,7 +1,7 @@
 # date
 
 > Stel de systeemdatum in of toon deze.
-> Meer informatie: <https://www.gnu.org/software/coreutils/date>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - Toon de huidige datum in het standaardformaat van de locale:
 

@@ -20,6 +20,6 @@
 
 `bwa mem -M -t 32 {{ruta/a/referencia.fa}} {{ruta/a/lectura_par_final_1.fq.gz}} {{ruta/a/lectura_par_final_2.fq.gz}} | gzip > {{ruta/a/alineamiento_par_final.sam.gz}}`
 
-- Mapea las lecturas finales del par (secuencias) al genoma indexado usando 32 subprocesos con [C]omentarios FASTA/Q  (p. ej. BC:Z:CGTAC) anexando a un resultado comprimido:
+- Mapea las lecturas finales del par (secuencias) al genoma indexado usando 32 subprocesos con [C]omentarios FASTA/Q (p. ej. BC:Z:CGTAC) anexando a un resultado comprimido:
 
 `bwa mem -C -t 32 {{ruta/a/referencia.fa}} {{ruta/a/lectura_par_final_1.fq.gz}} {{ruta/a/lectura_par_final_2.fq.gz}} | gzip > {{ruta/a/lectura_par_final.sam.gz}}`

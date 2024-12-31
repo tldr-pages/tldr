@@ -1,6 +1,7 @@
 # dnf
 
 > Package management utility for RHEL, Fedora, and CentOS (replaces yum).
+> Some subcommands such as `group` and `config-manager` have their own usage documentation.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://dnf.readthedocs.io>.
 

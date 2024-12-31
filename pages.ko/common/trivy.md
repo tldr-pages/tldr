@@ -33,4 +33,4 @@
 
 - SARIF 템플릿으로 출력 생성:
 
-`trivy image --format {{template}} --template {{"@sarif.tpl"}} -o {{경로/대상/보고서.sarif}} {{이미지:태그}}`
+`trivy image --format {{template}} --template "{{@sarif.tpl}}" -o {{경로/대상/보고서.sarif}} {{이미지:태그}}`

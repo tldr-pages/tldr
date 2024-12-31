@@ -24,7 +24,7 @@
 
 `asciinema play https://asciinema.org/a/{{cast_id}}`
 
-- Maak een nieuwe opname met een [i]nactieve tijd van maximaal 2,5 seconden:
+- Maak een nieuwe opname met een inactieve tijd van maximaal 2,5 seconden:
 
 `asciinema rec {{-i|--idle-time-limit}} 2.5`
 

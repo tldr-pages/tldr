@@ -239,7 +239,7 @@ use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma),
 also known as the Oxford comma,
 since omitting it can create ambiguity.
 
-> Delete the Git branches, tags, and remotes.
+> Delete the Git branches, tags and remotes.
 
 The example above does not use a serial comma, so this could mean one of two things:
 

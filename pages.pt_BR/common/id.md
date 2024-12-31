@@ -15,6 +15,6 @@
 
 `id -g`
 
-- Exibe o ID de um usuário arbitrário (UID), ID do grupo (GID)  e grupos aos quais eles pertencem:
+- Exibe o ID de um usuário arbitrário (UID), ID do grupo (GID) e grupos aos quais eles pertencem:
 
 `id {{nomedeusuario}}`

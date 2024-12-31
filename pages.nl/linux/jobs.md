@@ -2,7 +2,7 @@
 
 > Shell ingebouwd commando om informatie te bekijken over processen die door de huidige shell zijn gestart.
 > Opties anders dan `-l` en `-p` zijn exclusief voor `bash`.
-> Meer informatie: <https://manned.org/jobs>.
+> Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-jobs>.
 
 - Bekijk jobs die door de huidige shell zijn gestart:
 
