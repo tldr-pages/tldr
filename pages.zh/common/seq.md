@@ -1,7 +1,7 @@
 # seq
 
 > 打印数字序列到标准输出。
-> 更多信息: <https://www.gnu.org/software/coreutils/seq>。
+> 更多信息: <https://www.gnu.org/software/coreutils/seq>.
 
 - 从1到10的序列：
 
