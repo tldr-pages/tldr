@@ -1,7 +1,7 @@
 # kpackagetool5
 
 > KPackage Manager: install, list, remove Plasma packages.
-> More information: <https://manned.org/man/kpackagetool5>.
+> More information: <https://manned.org/kpackagetool5>.
 
 - List all known package types that can be installed:
 
