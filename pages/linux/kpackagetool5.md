@@ -15,7 +15,7 @@
 
 `kpackagetool5 --type {{package_type}} --upgrade {{path/to/directory}}`
 
-- List installed plasmoids (--global for all users):
+- List installed plasmoids (`--global` for all users):
 
 `kpackagetool5 --type Plasma/Applet --list --global`
 
