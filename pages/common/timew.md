@@ -7,15 +7,15 @@
 
 `timew start`
 
-- Tag current activity:
+- Tag the current activity:
 
 `timew tag {{activity_tag}}`
 
-- Start and tag a new activity being tracked:
+- Start tracking and tag a new activity:
 
 `timew start {{activity_tag}}`
 
-- Stop current activity:
+- Stop the current activity:
 
 `timew stop`
 
@@ -27,6 +27,6 @@
 
 `timew summary`
 
-- View report for last day, week, current month etc:
+- View report for the last day, week, current month, etc.:
 
 `timew summary :{{today|yesterday|week|lastweek|month|lastmonth|year|lastyear}}`
