@@ -10,7 +10,7 @@ OUTPUT_FILE="inconsistent-filenames.txt"
 rm -f "$OUTPUT_FILE"
 touch "$OUTPUT_FILE"
 
-IGNORE_LIST=("exclamation mark" "caret" "dollar sign" "tilde" "history expansion" "qm move disk" "umount" "rename" "pacman  f" "pacman  r" "pacman  s")
+IGNORE_LIST=("exclamation mark" "caret" "dollar sign" "tilde" "percent sign" "curly brace" "history expansion" "qm move disk" "umount" "rename" "pacman  d" "pacman  f" "pacman  q" "pacman  r" "pacman  s" "pacman  t" "pacman  u")
 
 set -e
 
