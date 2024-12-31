@@ -1,13 +1,13 @@
 # adb connect
 
-> Connect to an android device wirelessly.
+> Connect to an Android device wirelessly.
 > More information: <https://developer.android.com/tools/adb>.
 
-- Pair with an android device (address and pairing code can be found in developer options):
+- Pair with an Android device (address and pairing code can be found in developer options):
 
 `adb pair {{ip_address}}:{{port}}`
 
-- Connect to an android device (port will be different from pairing):
+- Connect to an Android device (port will be different from pairing):
 
 `adb connect {{ip_address}}:{{port}}`
 
