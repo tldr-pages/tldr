@@ -275,9 +275,9 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> 이 명령어는 `example`의 별칭 입니다.
+> 이 명령은 `example` 의 에일리어스 (별칭) 입니다.
 
-- 원본 명령어의 문서 보기:
+- 원본 명령의 도큐멘테이션 (설명서) 보기:
 
 `tldr example`
 ```
