@@ -304,7 +304,7 @@ def main():
             for command in commands:
                 original_command = get_alias_command_in_page(
                     root / "pages" / command,
-                    r"> This command is an alias of(?: \w+)? `([^`]+)`(?:,.*)?",
+                    r"^> This command is an alias of(?: \w+)? `([^`]+)`(?:,.*)?",
                 )
                 if original_command != "":
                     target_paths += sync(
