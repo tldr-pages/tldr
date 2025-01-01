@@ -11,10 +11,10 @@
 
 `lookandfeeltool --apply {{org.example.theme.desktop}}`
 
-- Display help:
-
-`lookandfeeltool --help`
-
 - Operate `lookandfeeltool` without a display server:
 
 `lookandfeeltool --platform offscreen`
+
+- Display help:
+
+`lookandfeeltool --help`
