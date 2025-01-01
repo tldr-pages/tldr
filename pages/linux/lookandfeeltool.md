@@ -14,3 +14,7 @@
 - Display help:
 
 `lookandfeeltool --help`
+
+- Operate `lookandfeeltool` without a display server:
+
+`lookandfeeltool --platform offscreen`
