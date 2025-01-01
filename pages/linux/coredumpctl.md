@@ -5,7 +5,7 @@
 
 - List all captured core dumps:
 
-`coredumpctl list`
+`coredumpctl`
 
 - List captured core dumps for a program:
 
@@ -14,6 +14,10 @@
 - Show information about the core dumps matching a program with `PID`:
 
 `coredumpctl info {{PID}}`
+
+- Invoke debugger using the last core dump:
+
+`coredumpctl debug`
 
 - Invoke debugger using the last core dump of a program:
 
