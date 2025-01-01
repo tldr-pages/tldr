@@ -5,27 +5,27 @@
 
 - Declareer een string variabele met de gespecificeerde waarde:
 
-`declare {{variable}}="{{waarde}}"`
+`declare {{variabele}}="{{waarde}}"`
 
-- Declareer een integer variable met de gespecificeerde waarde:
+- Declareer een integer variabele met de gespecificeerde waarde:
 
-`declare -i {{variable}}="{{waarde}}"`
+`declare -i {{variabele}}="{{waarde}}"`
 
-- Declareer een array variable met de gespecificeerde waarde:
+- Declareer een array variabele met de gespecificeerde waarde:
 
-`declare -a {{variable}}=({{item_a item_b item_c}})`
+`declare -a {{variabele}}=({{item_a item_b item_c}})`
 
-- Declareer een associatieve array variable met de gespecificeerde waarde:
+- Declareer een associatieve array variabele met de gespecificeerde waarde:
 
-`declare -A {{variable}}=({{[sleutel_a]=item_a [sleutel_b]=item_b [sleutel_c]=item_c}})`
+`declare -A {{variabele}}=({{[sleutel_a]=item_a [sleutel_b]=item_b [sleutel_c]=item_c}})`
 
-- Declareer a readonly string variable met de gespecificeerde waarde:
+- Declareer a readonly string variabele met de gespecificeerde waarde:
 
-`declare -r {{variable}}="{{waarde}}"`
+`declare -r {{variabele}}="{{waarde}}"`
 
-- Declareer een globale variable binnen een functie met de gespecificeerde waarde:
+- Declareer een globale variabele binnen een functie met de gespecificeerde waarde:
 
-`declare -g {{variable}}="{{waarde}}"`
+`declare -g {{variabele}}="{{waarde}}"`
 
 - Print een functie-definitie:
 
