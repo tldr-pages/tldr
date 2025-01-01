@@ -3,7 +3,7 @@
 > Declareer variabelen en geef ze attributen.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-declare>.
 
-- Declareer een string variable met de gespecificeerde waarde:
+- Declareer een string variabele met de gespecificeerde waarde:
 
 `declare {{variable}}="{{waarde}}"`
 
