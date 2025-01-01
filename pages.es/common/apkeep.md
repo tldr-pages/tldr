@@ -11,6 +11,6 @@
 
 `apkeep --app {{com.example.application}}} --list-versions {{ruta/al/directorio}}`
 
-- Especifica una tienda desde la que descargar:
+- Especifica la tienda para hacer la descarga:
 
 `apkeep --app {{com.example.application}} --download-source {{apk-pure|google-play|f-droid|huawei-app-gallery}} {{ruta/al/directorio}}`
