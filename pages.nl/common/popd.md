@@ -1,7 +1,7 @@
 # popd
 
 > Verwijder een map van de directory stack die is geplaatst met de ingebouwde pushd-opdracht van de shell.
-> Zie ook `pushd` om een map op de stapel te plaatsen en `dirs` om de inhoud van de stapel weer te geven.
+> Bekijk ook `pushd` om een map op de stapel te plaatsen en `dirs` om de inhoud van de stapel weer te geven.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/html_node/Directory-Stack-Builtins.html>.
 
 - Verwijder de bovenste map van de stapel en ga ernaartoe:
