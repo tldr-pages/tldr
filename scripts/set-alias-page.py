@@ -121,42 +121,52 @@ def get_templates(root: Path):
     return templates
 
 
-def process_alias_and_command(template: str, alias_name: str, command: str) -> str:
+def generate_alias_page_content(
+    template_content: str,
+    command_name: str,
+    original_command: str,
+    documentation_command: str,
+) -> str:
     """
-    Process the template to replace 'example' with alias_name and command,
-    modifying the first dash to a space for the alias_name if needed.
+    Generate alias page content by replacing placeholders in the template.
 
     Parameters:
-    template (str): The markdown template.
-    alias_name (str): The alias name to insert into the template.
-    command (str): The command name to insert into the template.
+    template_content (str): The markdown template for the specific language.
+    command_name (str): The name of the alias command (used in page title).
+    original_command (str): The original command that this alias refers to.
+    documentation_command (str): The tldr command to view the documentation.
 
     Returns:
-    str: The processed markdown template.
+    str: The complete markdown content for the alias page.
     """
-    # Modify alias_name: change the first dash to a space
-    if "-" in alias_name:
-        alias_name = alias_name.replace("-", " ", 1)
+    # Format command name for title (replace first dash with space)
+    formatted_command_name = (
+        command_name.replace("-", " ", 1) if "-" in command_name else command_name
+    )
 
-    # Replace 'example' with the processed alias_name in the template
-    template = template.replace("example", alias_name, 1)
+    # Replace placeholders in template with actual values
+    page_content = template_content.replace("example", formatted_command_name, 1)
+    page_content = page_content.replace("example", original_command, 1)
+    page_content = page_content.replace("example", documentation_command)
 
-    # Replace the remaining 'example' with the command
-    template = template.replace("example", command)
-
-    return template
+    return page_content
 
 
 def set_alias_page(
-    path: Path, command: str, dry_run: bool = False, language_to_update: str = ""
+    path: Path,
+    original_command: str,
+    documentation_command: str,
+    dry_run: bool = False,
+    language_to_update: str = "",
 ) -> str:
     """
     Write an alias page to disk.
 
     Parameters:
     path (string): Path to an alias page
-    command (string): The command that the alias stands for.
-    dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
+    original_command (str): The command that the alias stands for.
+    documentation_command (str): The command to view documentation.
+    dry_run (bool): Whether to perform a dry-run.
     language_to_update (string): Optionally, the language of the translation to be updated.
 
     Returns:
@@ -174,16 +184,32 @@ def set_alias_page(
     ):
         return ""
 
-    alias_name = path.stem
-    text = process_alias_and_command(templates[locale], alias_name, command)
+    formatted_command_name = path.stem
 
-    # Test if the alias page already exists
-    line = re.search(r">.*", text).group(0).replace(command, "(.+)")
-    original_command = get_alias_command_in_page(path, line)
-    if original_command == command:
+    # Get both original command and documentation command from the existing file
+    template_line = re.search(r">.*`example`", templates[locale]).group(0)
+    locale_alias_pattern = template_line[2 : template_line.find("`example`")].strip()
+
+    # Get existing alias command from the locale page
+    existing_original_command, existing_documentation_command = (
+        get_alias_command_in_page(path, locale_alias_pattern)
+    )
+
+    if (
+        existing_original_command == original_command
+        and existing_documentation_command == documentation_command
+    ):
         return ""
 
-    # Determine status based on whether the translation file already exists
+    # Generate the new content
+    locale_page_content = generate_alias_page_content(
+        templates[locale],
+        formatted_command_name,
+        original_command,
+        documentation_command,
+    )
+
+    # Determine status and write file
     status = get_status(
         "added" if not path.exists() else "updated",
         dry_run,
@@ -193,41 +219,61 @@ def set_alias_page(
     if not dry_run:  # Only write to the path during a non-dry-run
         path.parent.mkdir(parents=True, exist_ok=True)
         with path.open("w", encoding="utf-8") as f:
-            f.write(text)
+            f.write(locale_page_content)
 
     return status
 
 
-def get_alias_command_in_page(path: Path, regex: str) -> str:
+def get_alias_command_in_page(path: Path, alias_pattern: str) -> tuple[str, str]:
     """
     Determine whether the given path is an alias page.
 
     Parameters:
     path (Path): Path to a page
+    alias_pattern (str): The pattern that defines an alias in the language
+                        (e.g. "This command is an alias of" for English, "이 명령은" for Korean, "このコマンドは" for Japanese)
 
     Returns:
-    str: "" If the path doesn't exit or is not an alias page,
-         otherwise return what command the alias stands for.
+    tuple[str, str]: A tuple of (original_command, documentation_command) where:
+        original_command: The command from alias declaration line
+        documentation_command: The command from "tldr" line
+        Returns ("", "") if the path doesn't exist or is not an alias page
     """
-
     if not path.exists():
-        return ""
-
-    command_count = 0
-    command_name = ""
+        return ("", "")
 
     with path.open(encoding="utf-8") as f:
-        for line in f:
-            # match alias page pattern "> This command is an alias of `example`."
-            if match := re.search(regex, line):
-                command_name = match[1]
-            # count the lines matching pattern "`...`"
-            if re.match(r"^`[^`]+`$", line.strip()):
-                command_count += 1
+        content = f.read()
 
-    if command_count == 1:
-        return command_name
-    return ""
+    command_lines = [line for line in content.splitlines() if "`" in line]
+
+    if len(command_lines) != 2:
+        return ("", "")
+
+    original_command = ""
+    documentation_command = ""
+
+    alias_line = next((line for line in command_lines if alias_pattern in line), None)
+    if alias_line:
+        description_match = re.search(r"`([^`]+)`", alias_line)
+        if description_match:
+            original_command = description_match[1]
+
+    if not original_command:
+        return ("", "")
+
+    tldr_line = next(
+        (line for line in command_lines if line.strip().startswith("`tldr")), None
+    )
+    if tldr_line:
+        tldr_match = re.search(r"`tldr (.+)`", tldr_line.strip())
+        if tldr_match:
+            documentation_command = tldr_match[1]
+
+    if not documentation_command:
+        return ("", "")
+
+    return (original_command, documentation_command)
 
 
 def sync(
@@ -235,6 +281,7 @@ def sync(
     pages_dirs: list[Path],
     alias_name: str,
     original_command: str,
+    documentation_command: str,
     dry_run: bool = False,
     language_to_update: str = "",
 ) -> list[Path]:
@@ -245,8 +292,9 @@ def sync(
     root (Path): TLDR_ROOT
     pages_dirs (list of Path's): Path's of page entry and platform, e.g. "page.fr/common".
     alias_name (str): An alias command with .md extension like "vi.md".
-    original_command (str): An Original command like "vim".
-    dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
+    original_command (str): The original command that this alias refers to.
+    documentation_command (str): The command to view the documentation.
+    dry_run (bool): Whether to perform a dry-run.
     language_to_update (str): Optionally, the language of the translation to be updated.
 
     Returns:
@@ -255,7 +303,9 @@ def sync(
     paths = []
     for page_dir in pages_dirs:
         path = root / page_dir / alias_name
-        status = set_alias_page(path, original_command, dry_run, language_to_update)
+        status = set_alias_page(
+            path, original_command, documentation_command, dry_run, language_to_update
+        )
         if status != "":
             rel_path = "/".join(path.parts[-3:])
             paths.append(rel_path)
@@ -302,9 +352,8 @@ def main():
                 if page.name not in IGNORE_FILES
             ]
             for command in commands:
-                original_command = get_alias_command_in_page(
-                    root / "pages" / command,
-                    r"^> This command is an alias of(?: \w+)? `([^`]+)`(?:,.*)?",
+                original_command, documentation_command = get_alias_command_in_page(
+                    root / "pages" / command, "This command is an alias of"
                 )
                 if original_command != "":
                     target_paths += sync(
@@ -312,6 +361,7 @@ def main():
                         pages_dirs,
                         command,
                         original_command,
+                        documentation_command,
                         args.dry_run,
                         args.language,
                     )
