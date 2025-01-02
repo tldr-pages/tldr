@@ -14,7 +14,7 @@
 
 - 키스토어 비밀번호를 제공하는 애플리케이션 번들에서 APK를 생성:
 
-`bundletool build-apks --bundle {{경로/대상/bundle.aab}} --ks {{경로/대상/key.keystore}} --ks-key-alias {{key_alias}} –ks-pass {{pass:the_password}} --output {{경로/대상/file.apks}}`
+`bundletool build-apks --bundle {{경로/대상/bundle.aab}} --ks {{경로/대상/key.keystore}} --ks-key-alias {{key_alias}} --ks-pass {{pass:the_password}} --output {{경로/대상/file.apks}}`
 
 - 보편적인 사용을 위해 단 하나의 단일 APK를 포함하는 APK 생성:
 
