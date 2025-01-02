@@ -317,8 +317,21 @@ def main():
     parser = create_argument_parser(
         "Sets the alias page for all translations of a page"
     )
-    parser.add_argument("command", type=str, nargs="?", default="")
+    parser.add_argument(
+        "original_command",
+        type=str,
+        help="The original command that this alias refers to",
+    )
+    parser.add_argument(
+        "documentation_command",
+        type=str,
+        nargs="?",
+        help="The command to view documentation (defaults to original_command)",
+    )
     args = parser.parse_args()
+
+    if not args.documentation_command:
+        args.documentation_command = args.original_command
 
     root = get_tldr_root()
 
@@ -335,7 +348,13 @@ def main():
 
         for path in target_paths:
             rel_path = "/".join(path.parts[-3:])
-            status = set_alias_page(path, args.command, args.dry_run, args.language)
+            status = set_alias_page(
+                path,
+                args.original_command,
+                args.documentation_command,
+                args.dry_run,
+                args.language,
+            )
             if status != "":
                 print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
 
