@@ -1,6 +1,6 @@
 # gendesk
 
-> 指定最少信息生成`.desktop`文件和下载图标的命令。
+> 通过指定少量信息的命令来生成`.desktop`文件以及下载图标。
 > 更多信息：<https://gendesk.roboticoverlords.org/>.
 
 - 创建一个名为`应用程序`的`.desktop`文件：
