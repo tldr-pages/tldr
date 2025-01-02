@@ -1,7 +1,7 @@
 # read
 
 > 从标准输入（或文件）读取一行并将单词分配给变量。
-> 更多信息： <https://manned.org/read.1phttps://ss64.com/bash/read.html>.
+> 更多信息： <https://manned.org/read.1p>.
 
 - 读取键盘输入的数据赋值给变量：
 
