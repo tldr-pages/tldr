@@ -8,10 +8,10 @@ Note: If the current directory or one of its parents is called "tldr", the scrip
 If the script doesn't find it in the current path, the environment variable TLDR_ROOT will be used as the tldr root. Also, ensure 'git' is available.
 
 Usage:
-    python3 scripts/set-more-info-link.py [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n] [LINK]
+    python3 scripts/set-more-info-link.py [-P PAGE] [-S] [-l LANGUAGE] [-s] [-n] [LINK]
 
 Options:
-    -p, --page PAGE
+    -P, --page PAGE
         Specify the page in the format "platform/command". This option allows setting the link for a specific page.
     -S, --sync
         Synchronize each translation's "More information" link (if exists) with that of the English page.
@@ -27,7 +27,7 @@ Positional Argument:
 
 Examples:
     1. Set the link for a specific page:
-       python3 scripts/set-more-info-link.py -p common/tar https://example.com
+       python3 scripts/set-more-info-link.py -P common/tar https://example.com
        python3 scripts/set-more-info-link.py --page common/tar https://example.com
 
     2. Read English pages and synchronize the "More information" link across translations:

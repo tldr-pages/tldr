@@ -10,10 +10,10 @@ Note: If the current directory or one of its parents is called "tldr", the scrip
 If you aren't, the script will use TLDR_ROOT as the tldr root. Also, ensure 'git' is available.
 
 Usage:
-    python3 scripts/set-alias-page.py [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n] [COMMAND]
+    python3 scripts/set-alias-page.py [-P PAGE] [-S] [-l LANGUAGE] [-s] [-n] [ORIGINAL_CMD] [DOC_CMD]
 
 Options:
-    -p, --page PAGE
+    -P, --page PAGE
         Specify the alias page in the format "platform/alias_command.md".
     -S, --sync
         Synchronize each translation's alias page (if exists) with that of the English page.
@@ -25,12 +25,15 @@ Options:
         Show what changes would be made without actually modifying the page.
 
 Positional Argument:
-    COMMAND          The command to be set as the alias command.
+    ORIGINAL_CMD          The command to be set as the alias command.
+    DOC_CMD               The command to view documentation (defaults to ORIGINAL_CMD)
 
 Examples:
-    1. Add 'vi' as an alias page of 'vim':
-       python3 scripts/set-alias-page.py -p common/vi vim
-       python3 scripts/set-alias-page.py --page common/vi vim
+    1. Add 'gsum' as an alias page of GNU 'sum' with documentation at '-p linux sum':
+       python3 scripts/set-alias-page.py -P osx/gsum sum "-p linux sum"
+       * osx/gsum: the alias page to create
+       * sum: original_command (GNU sum command that gsum is an alias of)
+       * "-p linux sum": documentation_command (view documentation in linux/sum page)
 
     2. Read English alias pages and synchronize them into all translations:
        python3 scripts/set-alias-page.py -S
@@ -186,9 +189,7 @@ def set_alias_page(
 
     formatted_command_name = path.stem
 
-    # Get alias pattern from template
-    template_line = re.search(r">.*`example`", templates[locale]).group(0)
-    locale_alias_pattern = template_line[2 : template_line.find("`example`")].strip()
+    locale_alias_pattern = get_locale_alias_pattern(locale)
 
     # Get existing alias command from the locale page
     existing_original_command, existing_documentation_command = (
@@ -222,6 +223,13 @@ def set_alias_page(
             f.write(locale_page_content)
 
     return status
+
+
+def get_locale_alias_pattern(locale: str) -> str:
+    """Get alias pattern from template"""
+    template_line = re.search(r">.*`example`", templates[locale]).group(0)
+    locale_alias_pattern = template_line[2 : template_line.find("`example`")].strip()
+    return locale_alias_pattern
 
 
 def get_alias_command_in_page(path: Path, alias_pattern: str) -> tuple[str, str]:
@@ -320,14 +328,15 @@ def main():
     parser.add_argument(
         "original_command",
         type=str,
-        nargs="?",
-        help="The original command that this alias refers to",
+        metavar="ORIGINAL_CMD",
+        help="The command that the alias stands for.",
     )
     parser.add_argument(
         "documentation_command",
         type=str,
         nargs="?",
-        help="The command to view documentation (defaults to original_command)",
+        metavar="DOC_CMD",
+        help="The command to view documentation (defaults to ORIGINAL_CMD)",
     )
     args = parser.parse_args()
 
@@ -364,6 +373,7 @@ def main():
         pages_dirs.remove(root / "pages")
         en_path = root / "pages"
         platforms = [i.name for i in en_path.iterdir() if i.name not in IGNORE_FILES]
+        alias_pattern = get_locale_alias_pattern("en")
         for platform in platforms:
             platform_path = en_path / platform
             commands = [
@@ -373,7 +383,7 @@ def main():
             ]
             for command in commands:
                 original_command, documentation_command = get_alias_command_in_page(
-                    root / "pages" / command, "This command is an alias of"
+                    root / "pages" / command, alias_pattern
                 )
                 if original_command != "":
                     target_paths += sync(
