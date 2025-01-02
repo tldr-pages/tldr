@@ -401,5 +401,48 @@ def main():
         stage(target_paths)
 
 
+def test_command_parsing_from_file(path: str):
+    """
+    Test function to check alias command parsing
+
+    Parameters:
+    path (str): The path to the alias page
+    (e.g. pages/osx/gsum.md)
+
+    Example:
+    python3 scripts/set-alias-page.py --test pages/osx/gsum.md
+    python3 scripts/set-alias-page.py --test "pages.ko/osx/g[.md"
+
+    Output:
+    Testing file: pages/osx/gsum.md
+    Content: ...
+    Original command: sum
+    Documentation command: -p linux sum
+    """
+
+    root = get_tldr_root()
+    abs_path = root / path
+
+    locale = get_locale(abs_path)
+
+    global templates
+    templates = get_templates(root)
+
+    alias_pattern = get_locale_alias_pattern(locale)
+
+    original_command, documentation_command = get_alias_command_in_page(
+        abs_path, alias_pattern
+    )
+    print(f"Testing file: {path}")
+    print(f"Content: {abs_path.read_text()}")
+    print(f"Original command: {original_command}")
+    print(f"Documentation command: {documentation_command}")
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+
+    if len(sys.argv) > 1 and sys.argv[1] == "--test":
+        test_command_parsing_from_file(sys.argv[2])
+    else:
+        main()
