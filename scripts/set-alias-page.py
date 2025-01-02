@@ -186,7 +186,7 @@ def set_alias_page(
 
     formatted_command_name = path.stem
 
-    # Get both original command and documentation command from the existing file
+    # Get alias pattern from template
     template_line = re.search(r">.*`example`", templates[locale]).group(0)
     locale_alias_pattern = template_line[2 : template_line.find("`example`")].strip()
 
@@ -201,7 +201,7 @@ def set_alias_page(
     ):
         return ""
 
-    # Generate the new content
+    # Generate the new locale page content
     locale_page_content = generate_alias_page_content(
         templates[locale],
         formatted_command_name,
