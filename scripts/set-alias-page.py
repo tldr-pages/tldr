@@ -320,6 +320,7 @@ def main():
     parser.add_argument(
         "original_command",
         type=str,
+        nargs="?",
         help="The original command that this alias refers to",
     )
     parser.add_argument(
