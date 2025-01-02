@@ -9,7 +9,7 @@
 
 - Lista todas las versiones disponibles para descarga:
 
-`apkeep --app {{com.example.application}}} --list-versions {{ruta/al/directorio}}`
+`apkeep --app {{com.example.application}} --list-versions {{ruta/al/directorio}}`
 
 - Especifica la tienda para hacer la descarga:
 
