@@ -23,7 +23,7 @@
 
 `cargo build --package {{paquete}}`
 
-- Construye sólo el binario especificado:
+- Construye solo el binario especificado:
 
 `cargo build --bin {{nombre}}`
 
