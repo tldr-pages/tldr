@@ -15,7 +15,7 @@
 
 `trans :{{es}} {{palabra}}`
 
-- Traduce una palabra de alemán a español:
+- Traduce una palabra del alemán al español:
 
 `trans {{de}}:{{es}} {{Schmetterling}}`
 
