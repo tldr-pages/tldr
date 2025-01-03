@@ -1,7 +1,7 @@
 # iptables
 
 > Configureer tabellen, ketens en regels van de Linux kernel IPv4 firewall.
-> Gebruik `ip6tables` om regels in te stellen voor IPv6 verkeer. Zie ook: `iptables-save`, `iptables-restore`.
+> Gebruik `ip6tables` om regels in te stellen voor IPv6 verkeer. Bekijk ook: `iptables-save`, `iptables-restore`.
 > Meer informatie: <https://manned.org/iptables>.
 
 - Bekijk ketens, regels, pakket/byte tellers en regelnummers voor de filter tabel:

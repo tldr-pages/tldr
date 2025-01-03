@@ -1,6 +1,6 @@
 # npm
 
-> JavaScript en Node.js pakketbeheerder.
+> JavaScript en Node.js pakketbeheer.
 > Beheer Node.js-projecten en hun module-afhankelijkheden.
 > Meer informatie: <https://www.npmjs.com>.
 
