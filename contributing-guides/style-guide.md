@@ -478,7 +478,7 @@ A normal hyphen (`-`) should be used in places where various style guides may re
 
 The reason for this is four-fold:
 
-1. There is no widely-accepted standard among various style guides on when each of these dashes should be used.
+1. There is no widely accepted standard among various style guides on when each of these dashes should be used.
 2. Hyphen (`-`) is the only dash-like character in ASCII, which reduces the likelihood of compatibility issues.
 3. Hyphen (`-`) is by far the easiest to type.
 4. Many English speakers, especially non-native ones, are not aware of the difference.
