@@ -1,7 +1,7 @@
 # bc
 
 > Een rekenmachinetaal met willekeurige precisie.
-> Zie ook: `dc`, `qalc`.
+> Bekijk ook: `dc`, `qalc`.
 > Meer informatie: <https://manned.org/bc>.
 
 - Start een interactieve sessie:

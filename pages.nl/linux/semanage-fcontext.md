@@ -1,7 +1,7 @@
 # semanage fcontext
 
 > Beheer persistente SELinux-beveiligingscontextregels op bestanden/mappen.
-> Zie ook: `semanage`, `matchpathcon`, `secon`, `chcon`, `restorecon`.
+> Bekijk ook: `semanage`, `matchpathcon`, `secon`, `chcon`, `restorecon`.
 > Meer informatie: <https://manned.org/semanage-fcontext>.
 
 - Toon alle bestandslabelregels:
