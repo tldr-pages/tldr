@@ -13,4 +13,4 @@
 
 - Generate a CSV file with the translation progress of various files:
 
-`pocount --csv {{translation_*.ts}}>{{translation_progress.csv}}`
+`pocount --csv {{translation_*.ts}} > {{path/to/translation_progress.csv}}`
