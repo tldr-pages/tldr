@@ -3,7 +3,7 @@
 > Translate Shell es un traductor de línea de comandos.
 > Más información: <https://github.com/soimort/translate-shell>.
 
-- Traduce una palabra (el idioma es detectado automaticamente):
+- Traduce una palabra (el idioma es detectado automáticamente):
 
 `trans "{{palabra_u_oración_a_traducir}}"`
 
