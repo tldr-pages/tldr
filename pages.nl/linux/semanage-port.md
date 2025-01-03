@@ -16,7 +16,7 @@
 
 `sudo semanage port {{-a|--add}} {{-t|--type}} {{ssh_port_t}} {{-p|--proto}} {{tcp}} {{22000}}`
 
-- Voeg een door de gebruiker gedifineerde regel toe die een label toekent aan een protocol-poort-bereikpaar:
+- Voeg een door de gebruiker gedefinieerde regel toe die een label toekent aan een protocol-poort-bereikpaar:
 
 `sudo semanage port {{-a|--add}} {{-t|--type}} {{http_port_t}} {{-p|--proto}} {{tcp}} {{80-88}}`
 
