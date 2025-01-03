@@ -16,7 +16,7 @@
 
 `sudo pacman -U --overwrite {{path/to/file}} {{path/to/package.pkg.tar.zst}}`
 
-- Install a package, skipping the dependency [(d)] version checks:
+- Install a package, skipping the [d]ependency version checks:
 
 `sudo pacman -Ud {{path/to/package.pkg.tar.zst}}`
 
@@ -24,6 +24,6 @@
 
 `pacman -Up {{path/to/package.pkg.tar.zst}}`
 
-- Display help:
+- Display [h]elp:
 
-`pacman -U --help`
+`pacman -Uh`

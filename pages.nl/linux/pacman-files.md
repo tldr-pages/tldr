@@ -1,6 +1,6 @@
 # pacman --files
 
-> Arch Linux Pakketbeheerder hulpprogramma.
+> Arch Linux pakketbeheer hulpprogramma.
 > Bekijk ook: `pacman`,` pkgfile`.
 > Meer informatie: <https://manned.org/pacman.8>.
 
