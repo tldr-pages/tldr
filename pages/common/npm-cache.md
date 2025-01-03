@@ -27,9 +27,9 @@
 
 `npm cache verify`
 
-- Show information about the npm cache location and configuration:
+- Show the cache path:
 
-`npm cache dir`
+`npm config get cache`
 
 - Change the cache path:
 
