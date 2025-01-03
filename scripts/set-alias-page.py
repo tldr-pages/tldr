@@ -10,7 +10,7 @@ Note: If the current directory or one of its parents is called "tldr", the scrip
 If you aren't, the script will use TLDR_ROOT as the tldr root. Also, ensure 'git' is available.
 
 Usage:
-    python3 scripts/set-alias-page.py [-P PAGE] [-S] [-l LANGUAGE] [-s] [-n] [ORIGINAL_CMD] [DOC_CMD]
+    python3 scripts/set-alias-page.py [-P PAGE] [-S] [-l LANGUAGE] [-s] [-n] [ORIGINAL_CMD] [DOCUMENTATION_CMD]
 
 Options:
     -P, --page PAGE
