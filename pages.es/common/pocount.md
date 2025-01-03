@@ -5,7 +5,7 @@
 
 - Imprime una tabla colorida con el progreso de la traducción de un archivo:
 
-`pocount {{archivo.po}}`
+`pocount {{ruta/a/archivo.po}}`
 
 - Imprime el progreso de traducción de varios archivos, una línea por archivo:
 
@@ -13,4 +13,4 @@
 
 - Genera un archivo CSV con el progreso de la traducción de varios archivos:
 
-`pocount --csv {{traducción_*.ts}}>{{progreso_de_traducción.csv}}`
+`pocount --csv {{traducción_*.ts}} > {{ruta/a/progreso_de_traducción.csv}}`
