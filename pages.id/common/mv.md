@@ -17,16 +17,20 @@
 
 - Pindahkan tanpa meminta konfirmasi sebelum menimpa file yang sudah ada:
 
-`mv -f {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
+`mv --force {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
 - Minta konfirmasi sebelum menimpa berkas yang sudah ada, tanpa memerhatikan hak akses hedua file tersebut:
 
-`mv -i {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
+`mv --interactive {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
 - Jangan menimpa file yang sudah ada di direktori tujuan:
 
-`mv -n {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
+`mv --no-clobber {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
 - Pindahkan berkas dalam mode [v]erbose, tampilkan berkas-berkas yang dipindahkan:
 
-`mv -v {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
+`mv --verbose {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
+
+- Tetapkan direktori tujuan ([t]arget) agar Anda dapat menggunakan alat atau perintah eksternal untuk mengelola kumpulan berkas yang dapat dipindahkan:
+
+`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv --target-directory {{jalan/menuju/direktori_tujuan}}`
