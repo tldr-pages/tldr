@@ -309,7 +309,7 @@ def create_argument_parser(description: str) -> argparse.ArgumentParser:
 
     parser = argparse.ArgumentParser(description=description)
     parser.add_argument(
-        "-p",
+        "-P",
         "--page",
         type=str,
         default="",
@@ -356,7 +356,7 @@ def test_create_argument_parser():
 
     # Check if each expected argument is added with the correct configurations
     arguments = [
-        ("-p", "--page", str, ""),
+        ("-P", "--page", str, ""),
         ("-l", "--language", str, ""),
         ("-s", "--stage", None, False),
         ("-S", "--sync", None, False),
