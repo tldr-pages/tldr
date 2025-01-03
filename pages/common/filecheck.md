@@ -8,7 +8,7 @@
 
 `FileCheck --input-file={{path/to/input_file}} {{path/to/check_file}}`
 
-- Match input from the standard input stream with pattern file `check_file`:
+- Match input from the `stdin` with pattern file `check_file`:
 
 `echo "{{some_text}}" | FileCheck {{path/to/check_file}}`
 
