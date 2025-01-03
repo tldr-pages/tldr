@@ -14,15 +14,15 @@
 
 - Create a new partition table of the specified label-type:
 
-`sudo parted --script {{/dev/sdX}} mklabel {{aix|amiga|bsd|dvh|gpt|loop|mac|msdos|pc98|sun}}`
+`sudo parted {{/dev/sdX}} --script mklabel {{aix|amiga|bsd|dvh|gpt|loop|mac|msdos|pc98|sun}}`
+
+- Create a new `gpt` partition table with a 500MiB boot partition and set the rest for system:
+
+`sudo parted {{/dev/sdX}} --script mklabel gpt mkpart primary 0% 500MiB mkpart primary 500MiB 100%`
 
 - Show partition information in interactive mode:
 
 `print`
-
-- Select a disk in interactive mode:
-
-`select {{/dev/sdX}}`
 
 - Create a 16 GB partition with the specified filesystem in interactive mode:
 
