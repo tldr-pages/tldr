@@ -336,7 +336,7 @@ def main():
         "documentation_command",
         type=str,
         nargs="?",
-        metavar="DOC_CMD",
+        metavar="DOCUMENTATION_CMD",
         help="The command to view documentation (defaults to ORIGINAL_CMD)",
     )
     args = parser.parse_args()
