@@ -192,14 +192,11 @@ def set_alias_page(
     locale_alias_pattern = get_locale_alias_pattern(locale)
 
     # Get existing alias command from the locale page
-    existing_original_command, existing_documentation_command = (
-        get_alias_command_in_page(path, locale_alias_pattern)
+    _, existing_documentation_command = get_alias_command_in_page(
+        path, locale_alias_pattern
     )
 
-    if (
-        existing_original_command == original_command
-        and existing_documentation_command == documentation_command
-    ):
+    if existing_documentation_command == documentation_command:
         return ""
 
     # Generate the new locale page content
@@ -267,9 +264,6 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> tuple[str, str]
         if description_match:
             original_command = description_match[1]
 
-    if not original_command:
-        return ("", "")
-
     tldr_line = next(
         (line for line in command_lines if line.strip().startswith("`tldr")), None
     )
@@ -277,9 +271,6 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> tuple[str, str]
         tldr_match = re.search(r"`tldr (.+)`", tldr_line.strip())
         if tldr_match:
             documentation_command = tldr_match[1]
-
-    if not documentation_command:
-        return ("", "")
 
     return (original_command, documentation_command)
 
