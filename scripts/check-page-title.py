@@ -81,7 +81,7 @@ def check_page_title(path: Path) -> str:
     command_name_page = normalize_command_name(get_page_title(path))
 
     if command_name_file != command_name_page and command_name_page not in IGNORE_LIST:
-        return f"Inconsistency found in file: {path}: {command_name_page} should be {command_name_file}"
+        return f"title should be {command_name_file} instead of {command_name_page}"
 
     return ""
 
@@ -118,7 +118,7 @@ def main():
             rel_path = "/".join(path.parts[-3:])
             status = check_page_title(path)
             if status != "":
-                print(create_colored_line(Colors.RED, f"{rel_path} {status}"))
+                print(create_colored_line(Colors.RED, f"{rel_path}: {status}"))
         return
 
     # Use '--language' option
