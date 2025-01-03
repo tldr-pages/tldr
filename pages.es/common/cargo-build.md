@@ -29,4 +29,4 @@
 
 - Construye solamente el objetivo de prueba especificado:
 
-`cargo build --test {{testname}}`
+`cargo build --test {{nombre_de_la_prueba}}`
