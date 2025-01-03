@@ -11,7 +11,7 @@
 
 `cargo build --release`
 
-- Exige que Cargo.lock esté actualizado:
+- Exige que `Cargo.lock` esté actualizado:
 
 `cargo build --locked`
 
