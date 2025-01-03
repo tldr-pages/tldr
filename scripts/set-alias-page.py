@@ -26,7 +26,7 @@ Options:
 
 Positional Argument:
     ORIGINAL_CMD          The command to be set as the alias command.
-    DOC_CMD               The command to view documentation (defaults to ORIGINAL_CMD)
+    DOCUMENTATION_CMD     The command to view documentation (defaults to ORIGINAL_CMD)
 
 Examples:
     1. Add 'gsum' as an alias page of GNU 'sum' with documentation at '-p linux sum':
