@@ -2,7 +2,7 @@
 
 > Programa para un conjunto de herramientas expertas para programas de perfilado, optimización y depuración.
 > Wrapper for a set of expert tools for profiling, optimizing and debugging programs.
-> Entre las herramientas de uso común cabe citar: `memcheck`, `cachegrind`, `callgrind`, `massif`, `helgrind`y `drd`.
+> Entre las herramientas de uso común cabe citar: `memcheck`, `cachegrind`, `callgrind`, `massif`, `helgrind` y `drd`.
 > Más información: <https://www.valgrind.org>.
 
 - Utiliza la herramienta Memcheck (por defecto) para mostrar un diagnóstico del uso de la memoria por `programa`:
