@@ -7,7 +7,7 @@
 
 `pocount {{ruta/a/archivo.po}}`
 
-- Imprime el progreso de traducción de varios archivos, una línea por archivo:
+- Imprime el progreso de las traducciones de varios archivos, una línea por archivo:
 
 `pocount --short {{traducción_*.ts}}`
 
