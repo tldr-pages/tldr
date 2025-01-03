@@ -15,6 +15,6 @@
 
 `case {{$ANIMAL}} in {{cat}}) echo "It's a cat" ;;& {{cat|dog}}) echo "It's a cat or a dog" ;;& *) echo "Fallback" ;; esac`
 
-- Continue to the next pattern's commads without checking the pattern:
+- Continue to the next pattern's commands without checking the pattern:
 
-`case {{$ANIMAL}} in {{cat}}) echo "It's a cat" ;& {{dog}}) echo "It's either a dog or cat fell throught" ;& *) echo "Fallback" ;; esac`
+`case {{$ANIMAL}} in {{cat}}) echo "It's a cat" ;& {{dog}}) echo "It's either a dog or cat fell through" ;& *) echo "Fallback" ;; esac`
