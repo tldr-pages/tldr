@@ -1,6 +1,6 @@
 # valgrind
 
-> Programa para un conjunto de herramientas expertas para programas de perfilado, optimización y depuración.
+> Programa para un conjunto de herramientas expertas con programas de perfilado, optimización y depuración.
 > Entre las herramientas de uso común cabe citar: `memcheck`, `cachegrind`, `callgrind`, `massif`, `helgrind` y `drd`.
 > Más información: <https://www.valgrind.org>.
 
