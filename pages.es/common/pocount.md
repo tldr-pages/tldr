@@ -5,7 +5,7 @@
 
 - Imprime una tabla colorida con el progreso de la traducción de un archivo:
 
-`pocount {{ruta/a/archivo.po}}`
+`pocount {{ruta/al/archivo.po}}`
 
 - Imprime el progreso de las traducciones de varios archivos, una línea por archivo:
 
