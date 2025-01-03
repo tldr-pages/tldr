@@ -11,7 +11,7 @@
 
 `trans --brief "{{palabra_u_oración_a_traducir}}"`
 
-- Traduce una palabra a español:
+- Traduce una palabra al español:
 
 `trans :{{es}} {{palabra}}`
 
