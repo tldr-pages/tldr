@@ -27,6 +27,6 @@
 
 `cargo build --bin {{nombre}}`
 
-- Construye sólo el objetivo de prueba especificado:
+- Construye solamente el objetivo de prueba especificado:
 
 `cargo build --test {{testname}}`
