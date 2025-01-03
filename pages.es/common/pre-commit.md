@@ -15,7 +15,7 @@
 
 `pre-commit run --all-files`
 
-- Limpia la cache de pre-commit:
+- Limpia la caché de pre-commit:
 
 `pre-commit clean`
 
