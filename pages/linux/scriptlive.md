@@ -1,6 +1,7 @@
 # scriptlive
 
 > Execute a typescript created by the `script` command in real-time.
+> See also: `script`.
 > More information: <https://manned.org/scriptlive>.
 
 - Execute a typescript in real-time:
