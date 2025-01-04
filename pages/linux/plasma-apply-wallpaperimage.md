@@ -9,7 +9,7 @@
 
 - Apply a wallpaper with a fill mode:
 
-`plasma-apply-wallpaperimage --fill-mode {{stretch,preserveAspectCrop}} {{/path/to/image}}`
+`plasma-apply-wallpaperimage --fill-mode {{stretch|preserveAspectCrop}} {{/path/to/image}}`
 
 - Display help:
 
