@@ -286,7 +286,7 @@ class SyncConfig:
 class AliasPage:
     """Represents an alias page with its commands"""
 
-    command: str
+    page_path: str
     title: str
     original_command: str
     documentation_command: str
@@ -305,7 +305,7 @@ def sync(config: SyncConfig, alias_page: AliasPage) -> list[Path]:
     """
     paths = []
     for page_dir in config.pages_dirs:
-        path = config.root / page_dir / alias_page.command
+        path = config.root / page_dir / alias_page.page_path
         status = set_alias_page(
             path,
             alias_page.title,
@@ -335,9 +335,12 @@ def sync_translations(
     # Get all English alias pages
     alias_pages = [
         AliasPage(
-            command=cmd, title=title, original_command=orig, documentation_command=doc
+            page_path=page_path,
+            title=title,
+            original_command=orig,
+            documentation_command=doc,
         )
-        for cmd, title, orig, doc in get_english_alias_pages(en_path)
+        for page_path, title, orig, doc in get_english_alias_pages(en_path)
     ]
 
     # Sync each alias page with translations
@@ -356,7 +359,7 @@ def get_english_alias_pages(en_path: Path) -> list[tuple[str, str, str, str]]:
     en_path (Path): Path to English pages directory
 
     Returns:
-    list[tuple[str, str, str, str]]: List of (command_path, title, original_command, documentation_command)
+    list[tuple[str, str, str, str]]: List of (page_path, title, original_command, documentation_command)
     """
     alias_pages = []
     alias_pattern = get_locale_alias_pattern("en")
@@ -369,20 +372,20 @@ def get_english_alias_pages(en_path: Path) -> list[tuple[str, str, str, str]]:
     # Iterate through each platform
     for platform in platforms:
         platform_path = en_path / platform
-        commands = [
+        page_paths = [
             f"{platform}/{page.name}"
             for page in platform_path.iterdir()
             if page.name not in IGNORE_FILES
         ]
 
         # Check each command if it's an alias
-        for command in commands:
+        for page_path in page_paths:
             title, original_command, documentation_command = get_alias_command_in_page(
-                en_path / command, alias_pattern
+                en_path / page_path, alias_pattern
             )
             if original_command:  # Only include if it's an alias page
                 alias_pages.append(
-                    (command, title, original_command, documentation_command)
+                    (page_path, title, original_command, documentation_command)
                 )
 
     return alias_pages
