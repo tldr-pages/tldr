@@ -201,18 +201,17 @@ def set_alias_page(
         return ""
 
     # Get existing alias command from the locale page
-    existing_page_content = get_alias_command_in_page(
+    existing_locale_page_content = get_alias_command_in_page(
         path, get_locale_alias_pattern(locale)
     )
 
     if (
-        existing_page_content.documentation_command
+        existing_locale_page_content.documentation_command
         == page_content.documentation_command
     ):
         return ""
 
-    # Generate the new locale page content
-    locale_page_content = generate_alias_page_content(
+    new_locale_page_content = generate_alias_page_content(
         config.templates[locale],
         page_content,
     )
@@ -224,10 +223,10 @@ def set_alias_page(
         "page",
     )
 
-    if not config.dry_run:  # Only write to the path during a non-dry-run
+    if not config.dry_run:
         path.parent.mkdir(parents=True, exist_ok=True)
         with path.open("w", encoding="utf-8") as f:
-            f.write(locale_page_content)
+            f.write(new_locale_page_content)
 
     return status
 
@@ -254,7 +253,6 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageConten
 
     lines = content.splitlines()
 
-    # Get title from first line
     title = next((line.strip("# \n") for line in lines if line.startswith("# ")), "")
 
     command_lines = [line for line in lines if "`" in line]
@@ -286,12 +284,12 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageConten
     )
 
 
-def sync(pages_dir: Path, alias_page: AliasPage) -> list[Path]:
+def sync_alias_page_to_locale(pages_dir: Path, alias_page: AliasPage) -> list[Path]:
     """
-    Synchronize an alias page into all translations.
+    Synchronize an alias page into a specific locale directory.
 
     Parameters:
-    pages_dir (Path): Directory containing pages to sync
+    pages_dir (Path): Directory containing pages for a specific locale
     alias_page (AliasPage): The alias page to sync
 
     Returns:
@@ -337,7 +335,7 @@ def get_english_alias_pages(en_path: Path) -> list[AliasPage]:
         # Check each command if it's an alias
         for page_path in page_paths:
             page_content = get_alias_command_in_page(en_path / page_path, alias_pattern)
-            if page_content.original_command:  # Only include if it's an alias page
+            if page_content.original_command:
                 alias_pages.append(AliasPage(page_path=page_path, content=page_content))
 
     return alias_pages
@@ -471,13 +469,11 @@ def main():
         pages_dirs = config.pages_dirs.copy()
         pages_dirs.remove(en_path)
 
-        # Get all English alias pages
         alias_pages = get_english_alias_pages(en_path)
 
-        # Sync each alias page with translations
         for alias_page in alias_pages:
             for pages_dir in pages_dirs:
-                target_paths.extend(sync(pages_dir, alias_page))
+                target_paths.extend(sync_alias_page_to_locale(pages_dir, alias_page))
 
     # Use '--stage' option
     if args.stage and not config.dry_run and len(target_paths) > 0:
