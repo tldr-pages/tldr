@@ -134,7 +134,59 @@ def test_get_pages_dir():
     shutil.rmtree(root, True)
 
 
-def get_target_paths(page: Path, pages_dirs: Path) -> list[Path]:
+def get_page_title(path: Path) -> str:
+    """
+    Determine whether the given path has a title.
+
+    Parameters:
+    path (Path): Path to a page
+
+    Returns:
+    str: "" If the path doesn't exit or does not have a title,
+         otherwise return the page title.
+    """
+
+    if not path.exists():
+        return ""
+    with path.open(encoding="utf-8") as f:
+        first_line = f.readline().strip()
+
+    return first_line.split("#", 1)[-1].strip()
+
+
+def test_get_page_title():
+    # Test valid title
+    root = Path("test_root")
+
+    shutil.rmtree(root, True)
+
+    root.mkdir(exist_ok=True)
+
+    valid_path = root / "test.md"
+    valid_path.write_text("# Git Clone\nSome content", encoding="utf-8")
+    assert get_page_title(valid_path) == "Git Clone"
+
+    # Test title with multiple hashes
+    hash_path = root / "multiple_hash.md"
+    hash_path.write_text("# Git ### Clone\nSome content", encoding="utf-8")
+    assert get_page_title(hash_path) == "Git ### Clone"
+
+    # Test empty title
+    empty_path = root / "empty.md"
+    empty_path.write_text("#\nSome content", encoding="utf-8")
+    assert get_page_title(empty_path) == ""
+
+    # Test non-existent file
+    nonexistent_path = root / "nonexistent.md"
+    assert get_page_title(nonexistent_path) == ""
+
+    # Test title with leading/trailing spaces
+    spaces_path = root / "spaces.md"
+    spaces_path.write_text("#    Git Clone    \nSome content", encoding="utf-8")
+    assert get_page_title(spaces_path) == "Git Clone"
+
+
+def get_target_paths(page: Path, pages_dirs: Path, language: str = "") -> list[Path]:
     """
     Get all paths in all languages that match the page.
 
@@ -152,6 +204,14 @@ def get_target_paths(page: Path, pages_dirs: Path) -> list[Path]:
     arg_platform, arg_page = page.split("/")
 
     for pages_dir in pages_dirs:
+        if "." in pages_dir.name:
+            _, locale = pages_dir.name.split(".")
+        else:
+            locale = "en"
+
+        if language != "" and language != locale:
+            continue
+
         page_path = pages_dir / arg_platform / arg_page
 
         if not page_path.exists():
@@ -173,18 +233,20 @@ def test_get_target_paths():
     shutil.os.makedirs(root / "pages" / "common")
     shutil.os.makedirs(root / "pages.fr" / "common")
 
-    file_path = root / "pages" / "common" / "tldr.md"
-    with open(file_path, "w"):
-        pass
-
-    file_path = root / "pages.fr" / "common" / "tldr.md"
-    with open(file_path, "w"):
-        pass
+    (root / "pages" / "common" / "tldr.md").touch()
+    (root / "pages.fr" / "common" / "tldr.md").touch()
 
     target_paths = get_target_paths("common/tldr", get_pages_dir(root))
-    for path in target_paths:
-        rel_path = "/".join(path.parts[-3:])
-        print(rel_path)
+    assert len(target_paths) == 2
+    assert all(p.name == "tldr.md" for p in target_paths)
+
+    fr_paths = get_target_paths("common/tldr", get_pages_dir(root), "fr")
+    assert len(fr_paths) == 1
+    assert str(fr_paths[0]).endswith("pages.fr/common/tldr.md")
+
+    en_paths = get_target_paths("common/tldr", get_pages_dir(root), "en")
+    assert len(en_paths) == 1
+    assert str(en_paths[0]).endswith("pages/common/tldr.md")
 
     shutil.rmtree(root, True)
 
