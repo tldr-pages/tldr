@@ -75,7 +75,6 @@ labels = {
     "fa": "اطلاعات بیشتر:",
     "fi": "Lisätietoja:",
     "fr": "Plus d'informations :",
-    "sh": "Više informacija:",
     "hi": "अधिक जानकारी:",
     "id": "Informasi lebih lanjut:",
     "it": "Maggiori informazioni:",
