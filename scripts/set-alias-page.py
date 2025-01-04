@@ -28,6 +28,7 @@ Options:
 Examples:
     1. Create a new alias page interactively:
        python3 scripts/set-alias-page.py -p osx/gsum
+       python3 scripts/set-alias-page.py --page osx/gsum
        This will start a wizard that guides you through creating the page.
 
     2. Read English alias pages and synchronize them into all translations:
