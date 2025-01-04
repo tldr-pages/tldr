@@ -1,6 +1,6 @@
 # kubectl wait
 
-> Waits for a resource to reach a certain state.
+> Wait for resource(s) to reach a certain state.
 > More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#wait>.
 
 - Wait for a deployment to become available:
