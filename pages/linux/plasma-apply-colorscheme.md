@@ -5,7 +5,7 @@
 
 - List available color themes:
 
-`plasma-apply-colorscheme --list`
+`plasma-apply-colorscheme --list-schemes`
 
 - Apply a color theme:
 
