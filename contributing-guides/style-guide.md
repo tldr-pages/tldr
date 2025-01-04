@@ -468,7 +468,20 @@ When documenting optional placeholders like paths or file extensions, it is sugg
 
 ## Language-Specific Rules
 
-The below section contains additional language-specific rules for translating pages:
+The below section contains additional language-specific rules:
+
+### English-Specific Rules
+
+A normal hyphen (`-`) should be used in places where various style guides may recommend en dash (`–`) or em dash (`—`).
+
+- For example, use `for lengths 3-12` rather than `for lengths 3–12`
+
+The reason for this is four-fold:
+
+1. There is no widely accepted standard among various style guides on when each of these dashes should be used.
+2. Hyphen (`-`) is the only dash-like character in ASCII, which reduces the likelihood of compatibility issues.
+3. Hyphen (`-`) is by far the easiest to type.
+4. Many English speakers, especially non-native ones, are not aware of the difference.
 
 ### Chinese-Specific Rules
 
