@@ -8,10 +8,10 @@ Note: If the current directory or one of its parents is called "tldr", the scrip
 If the script doesn't find it in the current path, the environment variable TLDR_ROOT will be used as the tldr root. Also, ensure 'git' is available.
 
 Usage:
-    python3 scripts/set-page-title.py [-P PAGE] [-S] [-l LANGUAGE] [-s] [-n] [TITLE]
+    python3 scripts/set-page-title.py [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n] [TITLE]
 
 Options:
-    -P, --page PAGE
+    -p, --page PAGE
         Specify the page in the format "platform/command". This option allows setting the title for a specific page.
     -S, --sync
         Synchronize each translation's title (if exists) with that of the English page.
@@ -27,7 +27,7 @@ Positional Argument:
 
 Examples:
     1. Set the title for a specific page:
-       python3 scripts/set-page-title.py -P common/tar tar
+       python3 scripts/set-page-title.py -p common/tar tar
        python3 scripts/set-page-title.py --page common/tar tar
 
     2. Synchronize titles across translations:
