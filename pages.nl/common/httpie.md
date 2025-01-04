@@ -1,7 +1,7 @@
 # httpie
 
 > Beheersinterface voor HTTPie.
-> Zie ook: `http`, de tool zelf.
+> Bekijk ook: `http`, de tool zelf.
 > Meer informatie: <https://httpie.io/docs/cli/plugin-manager>.
 
 - Controleer op updates voor `http`:

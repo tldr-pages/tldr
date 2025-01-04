@@ -1,7 +1,7 @@
 # declare
 
 > Declara variables y les da atributos.
-> Más información: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.
+> Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-declare>.
 
 - Describe una variable de cadena con el valor especificado:
 
