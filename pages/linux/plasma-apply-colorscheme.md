@@ -3,11 +3,11 @@
 > Switch Plasma color scheme.
 > More information: <>.
 
-- List available color themes:
+- List available color schemes:
 
 `plasma-apply-colorscheme --list-schemes`
 
-- Apply a color theme:
+- Apply a color scheme:
 
 `plasma-apply-colorscheme {{ColorScheme}}`
 
