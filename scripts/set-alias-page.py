@@ -70,6 +70,8 @@ class Config:
     """Global configuration for the script"""
 
     root: Path
+    pages_dirs: list[Path]
+    templates: dict[str, str]
     dry_run: bool = False
     language: str = ""
 
@@ -193,7 +195,9 @@ def set_alias_page(
              "\x1b[34mpage would updated"
     """
     locale = get_locale(path)
-    if locale not in templates or (config.language != "" and locale != config.language):
+    if locale not in config.templates or (
+        config.language != "" and locale != config.language
+    ):
         return ""
 
     # Get existing alias command from the locale page
@@ -209,7 +213,7 @@ def set_alias_page(
 
     # Generate the new locale page content
     locale_page_content = generate_alias_page_content(
-        templates[locale],
+        config.templates[locale],
         page_content,
     )
 
@@ -230,7 +234,7 @@ def set_alias_page(
 
 def get_locale_alias_pattern(locale: str) -> str:
     """Get alias pattern from template"""
-    template_line = re.search(r">.*`example`", templates[locale]).group(0)
+    template_line = re.search(r">.*`example`", config.templates[locale]).group(0)
     locale_alias_pattern = template_line[2 : template_line.find("`example`")].strip()
     return locale_alias_pattern
 
@@ -301,23 +305,6 @@ def sync(pages_dir: Path, alias_page: AliasPage) -> list[Path]:
         paths.append(rel_path)
         print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
     return paths
-
-
-def sync_translations(pages_dirs: list[Path]) -> list[Path]:
-    """Synchronize all alias pages with their translations."""
-    en_path = config.root / "pages"
-    pages_dirs.remove(en_path)
-
-    # Get all English alias pages
-    alias_pages = get_english_alias_pages(en_path)
-
-    # Sync each alias page with translations
-    target_paths = []
-    for alias_page in alias_pages:
-        for pages_dir in pages_dirs:
-            target_paths.extend(sync(pages_dir, alias_page))
-
-    return target_paths
 
 
 def get_english_alias_pages(en_path: Path) -> list[AliasPage]:
@@ -453,22 +440,24 @@ def main():
     )
     args = parser.parse_args()
     root = get_tldr_root()
+    pages_dirs = get_pages_dir(root)
+    templates = get_templates(root)
 
-    # Global configuration
     global config
-    config = Config(root=root, dry_run=args.dry_run, language=args.language)
-
-    # A dictionary of all alias page translations
-    global templates
-    templates = get_templates(config.root)
-    pages_dirs = get_pages_dir(config.root)
+    config = Config(
+        root=root,
+        pages_dirs=pages_dirs,
+        templates=templates,
+        dry_run=args.dry_run,
+        language=args.language,
+    )
 
     target_paths = []
 
     # Use '--page' option
     if args.page != "":
         page_info = prompt_alias_page_info(args.page)
-        target_paths += get_target_paths(args.page, pages_dirs)
+        target_paths += get_target_paths(args.page, config.pages_dirs)
 
         for path in target_paths:
             rel_path = "/".join(path.parts[-3:])
@@ -478,7 +467,17 @@ def main():
 
     # Use '--sync' option
     elif args.sync:
-        target_paths = sync_translations(pages_dirs)
+        en_path = config.root / "pages"
+        pages_dirs = config.pages_dirs.copy()
+        pages_dirs.remove(en_path)
+
+        # Get all English alias pages
+        alias_pages = get_english_alias_pages(en_path)
+
+        # Sync each alias page with translations
+        for alias_page in alias_pages:
+            for pages_dir in pages_dirs:
+                target_paths.extend(sync(pages_dir, alias_page))
 
     # Use '--stage' option
     if args.stage and not config.dry_run and len(target_paths) > 0:
