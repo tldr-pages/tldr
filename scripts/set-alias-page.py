@@ -75,13 +75,20 @@ class Config:
 
 
 @dataclass
-class AliasPage:
-    """Represents an alias page with its commands"""
+class AliasPageContent:
+    """Content of an alias page"""
 
-    page_path: str
     title: str
     original_command: str
     documentation_command: str
+
+
+@dataclass
+class AliasPage:
+    """Represents an alias page with its path and content"""
+
+    page_path: str
+    content: AliasPageContent
 
 
 IGNORE_FILES += ("tldr.md", "aria2.md")
@@ -143,18 +150,14 @@ def get_templates(root: Path):
 
 def generate_alias_page_content(
     template_content: str,
-    title: str,
-    original_command: str,
-    documentation_command: str,
+    page_content: AliasPageContent,
 ) -> str:
     """
     Generate alias page content by replacing placeholders in the template.
 
     Parameters:
     template_content (str): The markdown template for the specific language.
-    title (str): The title of the alias page
-    original_command (str): The original command that this alias refers to.
-    documentation_command (str): The tldr command to view the documentation.
+    page_content (AliasPageContent): The content of the alias page
 
     Returns:
     str: The complete markdown content for the alias page.
@@ -163,55 +166,51 @@ def generate_alias_page_content(
     template_command = "example"
 
     # Replace placeholders in template with actual values
-    page_content = template_content.replace(template_command, title, 1)
-    page_content = page_content.replace(template_command, original_command, 1)
-    page_content = page_content.replace(template_command, documentation_command)
+    result = template_content.replace(template_command, page_content.title, 1)
+    result = result.replace(template_command, page_content.original_command, 1)
+    result = result.replace(template_command, page_content.documentation_command)
 
-    return page_content
+    return result
 
 
 def set_alias_page(
     path: Path,
-    title: str,
-    original_command: str,
-    documentation_command: str,
+    page_content: AliasPageContent,
 ) -> str:
     """
     Write an alias page to disk.
 
     Parameters:
-    path (string): Path to an alias page
-    title (str): The title of the alias page
-    original_command (str): The command that the alias stands for.
-    documentation_command (str): The command to view documentation.
+        path (Path): Path to an alias page
+        page_content (AliasPageContent): The content to write to the page
 
     Returns:
-    str: Execution status
-         "" if the alias page standing for the same command already exists or if the locale does not match language_to_update.
-         "\x1b[36mpage added"
-         "\x1b[34mpage updated"
-         "\x1b[36mpage would be added"
-         "\x1b[34mpage would updated"
+        str: Execution status
+             "" if the alias page standing for the same command already exists or if the locale does not match language_to_update.
+             "\x1b[36mpage added"
+             "\x1b[34mpage updated"
+             "\x1b[36mpage would be added"
+             "\x1b[34mpage would updated"
     """
-
     locale = get_locale(path)
     if locale not in templates or (config.language != "" and locale != config.language):
         return ""
 
     # Get existing alias command from the locale page
-    _, _, existing_documentation_command = get_alias_command_in_page(
+    existing_page_content = get_alias_command_in_page(
         path, get_locale_alias_pattern(locale)
     )
 
-    if existing_documentation_command == documentation_command:
+    if (
+        existing_page_content.documentation_command
+        == page_content.documentation_command
+    ):
         return ""
 
     # Generate the new locale page content
     locale_page_content = generate_alias_page_content(
         templates[locale],
-        title,
-        original_command,
-        documentation_command,
+        page_content,
     )
 
     # Determine status and write file
@@ -236,24 +235,15 @@ def get_locale_alias_pattern(locale: str) -> str:
     return locale_alias_pattern
 
 
-def get_alias_command_in_page(path: Path, alias_pattern: str) -> tuple[str, str, str]:
+def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageContent:
     """
     Determine whether the given path is an alias page.
 
-    Parameters:
-    path (Path): Path to a page
-    alias_pattern (str): The pattern that defines an alias in the language
-                        (e.g. "This command is an alias of" for English, "이 명령은" for Korean, "このコマンドは" for Japanese)
-
     Returns:
-    tuple[str, str, str]: A tuple of (title, original_command, documentation_command) where:
-        title: The command title from the first line
-        original_command: The command from alias declaration line
-        documentation_command: The command from "tldr" line
-        Returns ("", "", "") if the path doesn't exist or is not an alias page
+    AliasPageContent: The page content, or empty strings if not an alias page
     """
     if not path.exists():
-        return ("", "", "")
+        return AliasPageContent(title="", original_command="", documentation_command="")
 
     with path.open(encoding="utf-8") as f:
         content = f.read()
@@ -266,7 +256,7 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> tuple[str, str,
     command_lines = [line for line in lines if "`" in line]
 
     if len(command_lines) != 2 or not title:
-        return ("", "", "")
+        return AliasPageContent(title="", original_command="", documentation_command="")
 
     original_command = ""
     documentation_command = ""
@@ -285,7 +275,11 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> tuple[str, str,
         if tldr_match:
             documentation_command = tldr_match[1]
 
-    return (title, original_command, documentation_command)
+    return AliasPageContent(
+        title=title,
+        original_command=original_command,
+        documentation_command=documentation_command,
+    )
 
 
 def sync(pages_dir: Path, alias_page: AliasPage) -> list[Path]:
@@ -301,12 +295,7 @@ def sync(pages_dir: Path, alias_page: AliasPage) -> list[Path]:
     """
     paths = []
     path = config.root / pages_dir / alias_page.page_path
-    status = set_alias_page(
-        path,
-        alias_page.title,
-        alias_page.original_command,
-        alias_page.documentation_command,
-    )
+    status = set_alias_page(path, alias_page.content)
     if status != "":
         rel_path = "/".join(path.parts[-3:])
         paths.append(rel_path)
@@ -320,15 +309,7 @@ def sync_translations(pages_dirs: list[Path]) -> list[Path]:
     pages_dirs.remove(en_path)
 
     # Get all English alias pages
-    alias_pages = [
-        AliasPage(
-            page_path=page_path,
-            title=title,
-            original_command=orig,
-            documentation_command=doc,
-        )
-        for page_path, title, orig, doc in get_english_alias_pages(en_path)
-    ]
+    alias_pages = get_english_alias_pages(en_path)
 
     # Sync each alias page with translations
     target_paths = []
@@ -339,7 +320,7 @@ def sync_translations(pages_dirs: list[Path]) -> list[Path]:
     return target_paths
 
 
-def get_english_alias_pages(en_path: Path) -> list[tuple[str, str, str, str]]:
+def get_english_alias_pages(en_path: Path) -> list[AliasPage]:
     """
     Get all English alias pages with their commands.
 
@@ -347,7 +328,7 @@ def get_english_alias_pages(en_path: Path) -> list[tuple[str, str, str, str]]:
     en_path (Path): Path to English pages directory
 
     Returns:
-    list[tuple[str, str, str, str]]: List of (page_path, title, original_command, documentation_command)
+    list[AliasPage]: List of alias pages with their content
     """
     alias_pages = []
     alias_pattern = get_locale_alias_pattern("en")
@@ -368,26 +349,19 @@ def get_english_alias_pages(en_path: Path) -> list[tuple[str, str, str, str]]:
 
         # Check each command if it's an alias
         for page_path in page_paths:
-            title, original_command, documentation_command = get_alias_command_in_page(
-                en_path / page_path, alias_pattern
-            )
-            if original_command:  # Only include if it's an alias page
-                alias_pages.append(
-                    (page_path, title, original_command, documentation_command)
-                )
+            page_content = get_alias_command_in_page(en_path / page_path, alias_pattern)
+            if page_content.original_command:  # Only include if it's an alias page
+                alias_pages.append(AliasPage(page_path=page_path, content=page_content))
 
     return alias_pages
 
 
-def prompt_alias_page_info(page_path: str) -> tuple[str, str, str]:
+def prompt_alias_page_info(page_path: str) -> AliasPageContent:
     """
-    Prompt user for alias page information.
-
-    Parameters:
-    page_path (str): The path to the alias page (e.g., "common/test")
+    Prompt user for alias page content.
 
     Returns:
-    tuple[str, str, str]: (title, original_command, documentation_command)
+    AliasPageContent: The collected page content
     """
     print("\nCreating new alias page...")
     print(create_colored_line(Colors.CYAN, f"Page path: {page_path}"))
@@ -466,7 +440,11 @@ def prompt_alias_page_info(page_path: str) -> tuple[str, str, str]:
     if response and response not in ["y", "yes"]:
         raise SystemExit(create_colored_line(Colors.RED, "Cancelled by user"))
 
-    return title, original_command, documentation_command
+    return AliasPageContent(
+        title=title,
+        original_command=original_command,
+        documentation_command=documentation_command,
+    )
 
 
 def main():
@@ -489,16 +467,12 @@ def main():
 
     # Use '--page' option
     if args.page != "":
-        title, original_command, documentation_command = prompt_alias_page_info(
-            args.page
-        )
+        page_info = prompt_alias_page_info(args.page)
         target_paths += get_target_paths(args.page, pages_dirs)
 
         for path in target_paths:
             rel_path = "/".join(path.parts[-3:])
-            status = set_alias_page(
-                path, title, original_command, documentation_command
-            )
+            status = set_alias_page(path, page_info)
             if status != "":
                 print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
 
