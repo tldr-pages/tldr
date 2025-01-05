@@ -3,7 +3,7 @@
 > Switch Plasma desktop theme.
 > More information: <https://invent.kde.org/plasma/plasma-workspace>.
 
-- List available cursor themes:
+- List available desktop themes:
 
 `plasma-apply-desktoptheme --list-themes`
 
