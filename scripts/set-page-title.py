@@ -54,6 +54,7 @@ from _common import (
     get_tldr_root,
     get_pages_dir,
     get_target_paths,
+    get_page_title,
     get_locale,
     get_status,
     stage,
@@ -106,26 +107,6 @@ def set_page_title(
             f.writelines(lines)
 
     return status
-
-
-def get_page_title(path: Path) -> str:
-    """
-    Determine whether the given path has a title.
-
-    Parameters:
-    path (Path): Path to a page
-
-    Returns:
-    str: "" If the path doesn't exit or does not have a title,
-         otherwise return the page title.
-    """
-
-    if not path.exists():
-        return ""
-    with path.open(encoding="utf-8") as f:
-        first_line = f.readline().strip()
-
-    return first_line.split("#", 1)[-1].strip()
 
 
 def sync(
