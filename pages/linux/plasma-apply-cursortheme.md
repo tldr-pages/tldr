@@ -1,7 +1,7 @@
 # plasma-apply-cursortheme
 
 > Switch Plasma cursor theme.
-> More information: <>.
+> More information: <https://invent.kde.org/plasma/plasma-workspace>.
 
 - List available cursor themes:
 

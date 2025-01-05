@@ -1,7 +1,7 @@
 # plasma-apply-colorscheme
 
 > Switch Plasma color scheme.
-> More information: <>.
+> More information: <https://invent.kde.org/plasma/plasma-workspace>.
 
 - List available color schemes:
 

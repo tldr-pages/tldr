@@ -1,7 +1,7 @@
 # plasma-apply-wallpaperimage
 
 > Switch Plasma wallpaper.
-> More information: <>.
+> More information: <https://invent.kde.org/plasma/plasma-workspace>.
 
 - Apply a wallpaper:
 
