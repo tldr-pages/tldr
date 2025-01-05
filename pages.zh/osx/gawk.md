@@ -1,7 +1,7 @@
 # gawk
 
-> 这是 `-p linux awk` 命令的一个别名。
+> 这是 `awk` 命令的一个别名。
 
 - 原命令的文档在：
 
-`tldr -p linux awk`
+`tldr awk`

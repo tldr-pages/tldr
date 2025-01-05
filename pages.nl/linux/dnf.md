@@ -1,7 +1,7 @@
 # dnf
 
 > Hulpprogramma voor pakketbeheer van RHEL, Fedora en CentOS (vervangt Yum).
-> Voor gelijkwaardige commando's binnen andere pakketbeheerders, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> Voor gelijkwaardige commando's binnen andere pakketbeheer, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Meer informatie: <https://dnf.readthedocs.io>.
 
 - Upgrade geïnstalleerde pakketten naar de nieuwste beschikbare versies:

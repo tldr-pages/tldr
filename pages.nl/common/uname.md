@@ -1,7 +1,7 @@
 # uname
 
 > Toon details over de huidige machine en het besturingssysteem dat erop draait.
-> Zie ook `lsb_release`.
+> Bekijk ook `lsb_release`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/uname>.
 
 - Toon de kernelnaam:

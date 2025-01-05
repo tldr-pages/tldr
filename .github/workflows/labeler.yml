@@ -1,11 +1,15 @@
 name: PR Labeler
-on: pull_request_target
+on: 
+  pull_request_target:
+  pull_request:
+    types:
+      - ready_for_review
 permissions:
   pull-requests: write
 jobs:
   labeler:
     runs-on: ubuntu-latest
     steps:
-    - uses: tldr-pages/tldr-labeler-action@v0.4.0
+    - uses: tldr-pages/tldr-labeler-action@v0.5.0
       with:
         token: "${{ secrets.GITHUB_TOKEN }}"
