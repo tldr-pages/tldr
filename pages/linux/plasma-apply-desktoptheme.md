@@ -7,7 +7,7 @@
 
 `plasma-apply-desktoptheme --list-themes`
 
-- Apply a cursor theme:
+- Apply a desktop theme:
 
 `plasma-apply-desktoptheme {{desktop-theme}}`
 
