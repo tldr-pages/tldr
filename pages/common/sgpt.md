@@ -19,7 +19,7 @@
 
 `sgpt --chat {{session_name}} "{{please remember my favorite number: 4}}"`
 
-- Start a `REPL` (Read–eval–print loop) session:
+- Start a `REPL` (Read-eval-print loop) session:
 
 `sgpt --repl {{command}}`
 

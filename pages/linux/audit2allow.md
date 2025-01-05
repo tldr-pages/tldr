@@ -1,7 +1,7 @@
 # audit2allow
 
 > Create an SELinux local policy module to allow rules based on denied operations found in logs.
-> Note: Use audit2allow with caution—always review the generated policy before applying it, as it may allow excessive access.
+> Note: Use audit2allow with caution. Always review the generated policy before applying it, as it may allow excessive access.
 > More information: <https://manned.org/audit2allow>.
 
 - Generate a local policy to allow access for all denied services:
