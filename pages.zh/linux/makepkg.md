@@ -8,7 +8,7 @@
 
 `makepkg`
 
-- 构建软件包并使用`pacman`安装缺失的依赖关系：
+- 构建软件包并使用 `pacman` 安装缺失的依赖关系：
 
 `makepkg --syncdeps`
 
