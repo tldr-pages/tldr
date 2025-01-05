@@ -7,7 +7,7 @@
 
 `kubectl wait --for=condition=available deployment/{{nombre_del_despliegue}}`
 
-- Espera a que todos los pods con una determinada etiqueta [l] estén listos:
+- Espera a que todos los pods con una determinada etiqueta ([l]) estén listos:
 
 `kubectl wait --for=condition=ready pod -l {{etiqueta_clave}}={{etiqueta_valor}}`
 
