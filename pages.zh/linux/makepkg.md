@@ -1,7 +1,7 @@
 # makepkg
 
-> 创建`pacman`可用的软件包。
-> 默认使用当前工作目录中的`PKGBUILD`文件。
+> 创建 `pacman` 可用的软件包。
+> 默认使用当前工作目录中的 `PKGBUILD` 文件。
 > 更多信息：<https://manned.org/makepkg.8>.
 
 - 构建软件包：
