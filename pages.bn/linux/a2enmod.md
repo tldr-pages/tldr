@@ -5,8 +5,8 @@
 
 - একটি মজুল সক্রিয় করুন:
 
-`sudo a2enmod {{module}}`
+`sudo a2enmod {{মজিউল}}`
 
 - কোনো তথ্যবহুল মেসেজ দেখবেন না:
 
-`sudo a2enmod --quiet {{module}}`
+`sudo a2enmod --quiet {{মজিউল}}`
