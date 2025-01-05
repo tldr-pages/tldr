@@ -3,7 +3,7 @@
 > 打印数字序列到标准输出。
 > 更多信息：<https://www.gnu.org/software/coreutils/seq>.
 
-- 从1到10的序列：
+- 从 1 到 10 的序列：
 
 `seq 10`
 
