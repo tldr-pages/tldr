@@ -1,7 +1,7 @@
 # mesg
 
 > Controleer of stel in of een terminal berichten van andere gebruikers kan ontvangen, meestal van het `write`-commando.
-> Zie ook `write`, `talk`.
+> Bekijk ook `write`, `talk`.
 > Meer informatie: <https://manned.org/mesg.1>.
 
 - Controleer of de terminal openstaat voor berichten:
