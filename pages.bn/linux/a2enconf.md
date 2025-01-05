@@ -5,8 +5,8 @@
 
 - একটি কনফিগারেশন ফাইল সক্রিয় করুন:
 
-`sudo a2enconf {{configuration_file}}`
+`sudo a2enconf {{কনফিগুরেসন_ফাইল}}`
 
 - কোনো তথ্যবহুল মেসেজ দেখবেন না:
 
-`sudo a2enconf --quiet {{configuration_file}}`
+`sudo a2enconf --quiet {{কনফিগুরেসন_ফাইল}}`
