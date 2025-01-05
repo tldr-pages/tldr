@@ -12,6 +12,10 @@
 
 `print`
 
+- Select a disk in interactive mode:
+
+`select {{/dev/sdX}}`
+
 - Create a 16 GB partition with the specified filesystem in interactive mode:
 
 `mkpart {{primary|logical|extended}} {{btrfs|ext2|ext3|ext4|fat16|fat32|hfs|hfs+|linux-swap|ntfs|reiserfs|udf|xfs}} {{0%}} {{16G}}`
