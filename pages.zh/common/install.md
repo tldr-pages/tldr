@@ -1,7 +1,7 @@
 # install
 
 > 复制文件并设置属性。
-> 将文件（通常是可执行文件）复制到系统位置，如`/usr/local/bin`，并赋予它们适当的权限或所有权。
+> 将文件（通常是可执行文件）复制到系统位置，如 `/usr/local/bin`，并赋予它们适当的权限或所有权。
 > 更多信息：<https://www.gnu.org/software/coreutils/install>.
 
 - 复制文件到目标目录：
