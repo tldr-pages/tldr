@@ -1,7 +1,7 @@
 # groupmod
 
 > Wijzig bestaande gebruikersgroepen in het systeem.
-> Zie ook: `groups`, `groupadd`, `groupdel`.
+> Bekijk ook: `groups`, `groupadd`, `groupdel`.
 > Meer informatie: <https://manned.org/groupmod>.
 
 - Wijzig de groepsnaam:

@@ -16,6 +16,6 @@
 
 `pacman -T "{{bash>5}}"`
 
-- Display help:
+- Display [h]elp:
 
-`pacman -T --help`
+`pacman -Th`
