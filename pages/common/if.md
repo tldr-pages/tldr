@@ -34,4 +34,4 @@
 
 - List all possible conditions (`test` is an alias to `[`; both are commonly used with `if`):
 
-`man [`
+`man test`
