@@ -6,8 +6,8 @@
 
 - প্রোফাইল নিষ্ক্রিয় করুন:
 
-`sudo aa-disable {{path/to/profile1 path/to/profile2 ...}}`
+`sudo aa-disable {{পাথ/টু/প্রোফাইল১ পাথ/টু/প্রোফাইল২ ...}}`
 
 - একটি ডিরেক্টরিতে প্রোফাইল নিষ্ক্রিয় করুন (সাধারণত `/etc/apparmor.d`):
 
-`sudo aa-disable --dir {{path/to/profiles}}`
+`sudo aa-disable --dir {{পাথ/টু/প্রোফাইলগুচ্ছ}}`
