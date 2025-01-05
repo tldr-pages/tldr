@@ -9,7 +9,7 @@
 
 - Apply a color scheme:
 
-`plasma-apply-colorscheme {{ColorScheme}}`
+`plasma-apply-colorscheme {{BreezeLight}}`
 
 - Display help:
 

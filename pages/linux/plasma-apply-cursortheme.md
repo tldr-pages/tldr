@@ -9,7 +9,7 @@
 
 - Apply a cursor theme:
 
-`plasma-apply-cursortheme {{Cursor_Theme}}`
+`plasma-apply-cursortheme {{breeze_cursors}}`
 
 - Display help:
 

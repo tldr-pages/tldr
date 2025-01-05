@@ -9,7 +9,7 @@
 
 - Apply a desktop theme:
 
-`plasma-apply-desktoptheme {{desktop-theme}}`
+`plasma-apply-desktoptheme {{default}}`
 
 - Display help:
 
