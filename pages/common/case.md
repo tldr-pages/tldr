@@ -9,7 +9,7 @@
 
 - Combine patterns with |, use * as a fallback pattern:
 
-`case {{$COUNTRULE}} in {{[wW]|words}}) {{wc -w README}} ;; {{[lL]|lines}}) {{wc -l README}} ;; *) {{echo "what?"}}; ;; esac`
+`case {{$COUNTRULE}} in {{[wW]|words}}) {{wc -w README}} ;; {{[lL]|lines}}) {{wc -l README}} ;; *) {{echo "what?"}} ;; esac`
 
 - Allow matching multiple patterns:
 
