@@ -3,7 +3,7 @@
 > 合并文件行。
 > 更多信息：<https://www.gnu.org/software/coreutils/paste>.
 
-- 将所有行合并为一行，使用tab作为分隔符：
+- 将所有行合并为一行，使用 tab 作为分隔符：
 
 `paste -s {{路径/到/文件}}`
 
