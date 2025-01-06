@@ -112,10 +112,10 @@ def get_templates(root: Path):
     TLDR_ROOT/contributing-guides/translation-templates/alias-pages.md.
 
     Parameters:
-    root (Path): The path of local tldr repository, i.e., TLDR_ROOT.
+        root (Path): The path of local tldr repository, i.e., TLDR_ROOT.
 
     Returns:
-    dict of (str, str): Language labels map to alias page templates.
+        dict of (str, str): Language labels map to alias page templates.
     """
 
     template_file = root / "contributing-guides/translation-templates/alias-pages.md"
@@ -158,11 +158,11 @@ def generate_alias_page_content(
     Generate alias page content by replacing placeholders in the template.
 
     Parameters:
-    template_content (str): The markdown template for the specific language.
-    page_content (AliasPageContent): The content of the alias page
+        template_content (str): The markdown template for the specific language.
+        page_content (AliasPageContent): The content of the alias page
 
     Returns:
-    str: The complete markdown content for the alias page.
+        str: The complete markdown content for the alias page.
     """
 
     template_command = "example"
@@ -245,7 +245,7 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageConten
     Determine whether the given path is an alias page.
 
     Returns:
-    AliasPageContent: The page content, or empty strings if not an alias page
+        AliasPageContent: The page content, or empty strings if not an alias page
     """
 
     if not path.exists():
@@ -292,11 +292,11 @@ def sync_alias_page_to_locale(pages_dir: Path, alias_page: AliasPage) -> list[Pa
     Synchronize an alias page into a specific locale directory.
 
     Parameters:
-    pages_dir (Path): Directory containing pages for a specific locale
-    alias_page (AliasPage): The alias page to sync
+        pages_dir (Path): Directory containing pages for a specific locale
+        alias_page (AliasPage): The alias page to sync
 
     Returns:
-    list[Path]: List of paths that were modified
+        list[Path]: List of paths that were modified
     """
 
     paths = []
@@ -314,10 +314,10 @@ def get_english_alias_pages(en_path: Path) -> list[AliasPage]:
     Get all English alias pages with their commands.
 
     Parameters:
-    en_path (Path): Path to English pages directory
+        en_path (Path): Path to English pages directory
 
     Returns:
-    list[AliasPage]: List of alias pages with their content
+        list[AliasPage]: List of alias pages with their content
     """
 
     alias_pages = []
@@ -351,7 +351,7 @@ def prompt_alias_page_info(page_path: str) -> AliasPageContent:
     Prompt user for alias page content.
 
     Returns:
-    AliasPageContent: The collected page content
+        AliasPageContent: The collected page content
     """
 
     print("\nCreating new alias page...")
