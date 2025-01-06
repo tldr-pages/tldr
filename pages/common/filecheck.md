@@ -1,7 +1,7 @@
 # FileCheck
 
 > Flexible pattern matching file verifier.
-> It is typically used from LLVM regression tests and forms a part of lit test.
+> It is typically used from LLVM regression tests and forms a part of a `lit` test.
 > More information: <https://llvm.org/docs/CommandGuide/FileCheck.html>.
 
 - Match `input_file` content with pattern file `check_file`:
