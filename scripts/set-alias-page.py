@@ -357,7 +357,7 @@ def prompt_alias_page_info(page_path: str) -> AliasPageContent:
             "\nThe title will be used in the first line of the page after '#'",
         )
     )
-    print(create_colored_line(Colors.GREEN, "Example: '# npm run-script'"))
+    print(create_colored_line(Colors.GREEN, "Example: npm run-script"))
     title = input(create_colored_line(Colors.CYAN, "Enter page title: ")).strip()
     if not title:
         raise SystemExit(create_colored_line(Colors.RED, "Title cannot be empty"))
@@ -370,7 +370,7 @@ def prompt_alias_page_info(page_path: str) -> AliasPageContent:
     )
     print(
         create_colored_line(
-            Colors.GREEN, "Example: 'This command is an alias of `npm run`'"
+            Colors.GREEN, "Example: npm run"
         )
     )
     original_command = input(
@@ -387,11 +387,11 @@ def prompt_alias_page_info(page_path: str) -> AliasPageContent:
             "\nThe documentation command will be used in 'tldr command' line",
         )
     )
-    print(create_colored_line(Colors.GREEN, "Example: '`tldr npm run`'"))
+    print(create_colored_line(Colors.GREEN, "Example: npm run"))
     documentation_command = input(
         create_colored_line(
             Colors.CYAN,
-            "Enter documentation command (press Enter to use original command): ",
+            f"Enter documentation command (press Enter to use {original_command}): ",
         )
     ).strip()
 
@@ -409,7 +409,7 @@ def prompt_alias_page_info(page_path: str) -> AliasPageContent:
     print(create_colored_line(Colors.GREEN, f"# {title}"))
     print(
         create_colored_line(
-            Colors.GREEN, f"> This command is an alias of `{original_command}`."
+            Colors.GREEN, f"\n> This command is an alias of `{original_command}`."
         )
     )
     print(
@@ -417,7 +417,7 @@ def prompt_alias_page_info(page_path: str) -> AliasPageContent:
             Colors.GREEN, "\n- View documentation for the original command:"
         )
     )
-    print(create_colored_line(Colors.GREEN, f"`tldr {documentation_command}`"))
+    print(create_colored_line(Colors.GREEN, f"\n`tldr {documentation_command}`"))
 
     response = (
         input(create_colored_line(Colors.CYAN, "\nProceed? [Y/n] ")).lower().strip()
