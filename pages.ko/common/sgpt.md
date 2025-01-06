@@ -19,7 +19,7 @@
 
 `sgpt --chat {{세션_이름}} "{{내가 좋아하는 숫자를 기억해 주세요: 4}}"`
 
-- `REPL` (Read–eval–print loop) 세션 시작:
+- `REPL` (Read-eval-print loop) 세션 시작:
 
 `sgpt --repl {{명령}}`
 
