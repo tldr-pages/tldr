@@ -1,4 +1,4 @@
-# casE
+# case
 
 > Construcción de Bash para crear sentencias condicionales multi-elección.
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-case>.
