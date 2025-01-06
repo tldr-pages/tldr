@@ -194,6 +194,7 @@ def set_alias_page(
              "\x1b[36mpage would be added"
              "\x1b[34mpage would updated"
     """
+
     locale = get_locale(path)
     if locale not in config.templates or (
         config.language != "" and locale != config.language
@@ -233,6 +234,7 @@ def set_alias_page(
 
 def get_locale_alias_pattern(locale: str) -> str:
     """Get alias pattern from template"""
+
     template_line = re.search(r">.*`example`", config.templates[locale]).group(0)
     locale_alias_pattern = template_line[2 : template_line.find("`example`")].strip()
     return locale_alias_pattern
@@ -245,6 +247,7 @@ def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageConten
     Returns:
     AliasPageContent: The page content, or empty strings if not an alias page
     """
+
     if not path.exists():
         return AliasPageContent(title="", original_command="", documentation_command="")
 
@@ -295,6 +298,7 @@ def sync_alias_page_to_locale(pages_dir: Path, alias_page: AliasPage) -> list[Pa
     Returns:
     list[Path]: List of paths that were modified
     """
+
     paths = []
     path = config.root / pages_dir / alias_page.page_path
     status = set_alias_page(path, alias_page.content)
@@ -315,6 +319,7 @@ def get_english_alias_pages(en_path: Path) -> list[AliasPage]:
     Returns:
     list[AliasPage]: List of alias pages with their content
     """
+
     alias_pages = []
     alias_pattern = get_locale_alias_pattern("en")
 
@@ -348,6 +353,7 @@ def prompt_alias_page_info(page_path: str) -> AliasPageContent:
     Returns:
     AliasPageContent: The collected page content
     """
+
     print("\nCreating new alias page...")
     print(create_colored_line(Colors.CYAN, f"Page path: {page_path}"))
 
@@ -368,11 +374,7 @@ def prompt_alias_page_info(page_path: str) -> AliasPageContent:
             "\nThe original command will appear in 'This command is an alias of `command`'",
         )
     )
-    print(
-        create_colored_line(
-            Colors.GREEN, "Example: npm run"
-        )
-    )
+    print(create_colored_line(Colors.GREEN, "Example: npm run"))
     original_command = input(
         create_colored_line(Colors.CYAN, "Enter original command: ")
     ).strip()
@@ -455,7 +457,9 @@ def main():
     # Use '--page' option
     if args.page != "":
         page_info = prompt_alias_page_info(args.page)
-        target_paths += get_target_paths(args.page, config.pages_dirs)
+        target_paths += get_target_paths(
+            args.page, config.pages_dirs, check_exists=False
+        )
 
         for path in target_paths:
             rel_path = "/".join(path.parts[-3:])
