@@ -9,13 +9,18 @@ Disclaimer: This script generates a lot of false positives so it isn't suggested
 Note: If the current directory or one of its parents is called "tldr", the script will assume it is the tldr root, i.e., the directory that contains a clone of https://github.com/tldr-pages/tldr
 If you aren't, the script will use TLDR_ROOT as the tldr root. Also, ensure 'git' is available.
 
+Note: This script uses an interactive prompt instead of positional arguments to:
+- Prevent argument parsing errors with command names containing dashes (e.g. 'pacman -S')
+- Provide clearer guidance for required inputs
+- Allow for input validation before page creation
+
 Usage:
     python3 scripts/set-alias-page.py [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n]
 
 Options:
     -p, --page PAGE
         Specify the alias page in the format "platform/alias_command.md".
-        This will start an interactive wizard to create/update the page.
+        This will start an interactive prompt to create/update the page.
     -S, --sync
         Synchronize each translation's alias page (if exists) with that of the English page.
     -l, --language LANGUAGE
@@ -354,7 +359,12 @@ def prompt_alias_page_info(page_path: str) -> AliasPageContent:
         AliasPageContent: The collected page content
     """
 
-    print("\nCreating new alias page...")
+    en_path = config.root / "pages"
+    if not page_path.lower().endswith(".md"):
+        page_path = f"{page_path}.md"
+    exists = (en_path / page_path).exists()
+
+    print(f"\n{'Updating' if exists else 'Creating new'} alias page...")
     print(create_colored_line(Colors.CYAN, f"Page path: {page_path}"))
 
     print(
