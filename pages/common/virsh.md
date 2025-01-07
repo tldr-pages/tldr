@@ -10,7 +10,7 @@
 
 - Activate a network named `default`:
 
-`virsh net-start {{default}}`
+`sudo virsh net-start {{default}}`
 
 - List all domains:
 
