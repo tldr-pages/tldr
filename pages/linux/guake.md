@@ -13,7 +13,7 @@
 
 - Open a new tab:
 
-`<Ctrl> + <Shift> +T`
+`<Ctrl> + <Shift> + T`
 
 - Close the terminal:
 

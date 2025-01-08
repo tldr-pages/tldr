@@ -15,7 +15,7 @@
 
 `{{command}} | sha1sum`
 
-- Read a file of SHA1 sums and filenames and verify all files have matching checksums:
+- Read a file of SHA1 checksums and filenames and verify all files have matching checksums:
 
 `sha1sum --check {{path/to/file.sha1}}`
 
@@ -26,3 +26,7 @@
 - Only show a message when verification fails, ignoring missing files:
 
 `sha1sum --ignore-missing --check --quiet {{path/to/file.sha1}}`
+
+- Check a known SHA1 checksum of a file:
+
+`echo {{known_sha1_checksum_of_the_file}} {{path/to/file}} | sha1sum --check`

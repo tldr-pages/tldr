@@ -31,3 +31,7 @@
 - [l]ista todas las páginas de subcomandos disponibles para un comando:
 
 `tldr --list | grep {{comando}} | column`
+
+- Imprime la página tldr para un comando aleatorio:
+
+`tldr --list | shuf -n1 | xargs tldr`

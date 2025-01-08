@@ -1,7 +1,7 @@
 # secon
 
 > Krijg de SELinux-beveiligingscontext van een bestand, PID, huidige uitvoeringscontext of een contextspecificatie.
-> Zie ook: `semanage`, `runcon`, `chcon`.
+> Bekijk ook: `semanage`, `runcon`, `chcon`.
 > Meer informatie: <https://manned.org/secon>.
 
 - Krijg de beveiligingscontext van de huidige uitvoeringscontext:

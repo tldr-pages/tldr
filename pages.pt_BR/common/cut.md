@@ -1,7 +1,7 @@
 # cut
 
 > Recorta campos do `stdin` ou de arquivos.
-> Mais informações: <https://www.gnu.org/software/coreutils/cut>.
+> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - Imprime um intervalo específico de caracteres/campos de cada linha:
 
@@ -14,3 +14,7 @@
 - Imprime um intervalo de caracteres de cada linha de um arquivo específico:
 
 `cut --characters {{1}} {{caminho/para/arquivo}}`
+
+- Imprime campos específicos de linhas terminadas em `NUL` (ex.: assim como em `find . -print0`) ao invés de novas linhas:
+
+`{{comando}} | cut --zero-terminated --fields {{1}}`

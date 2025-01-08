@@ -1,7 +1,7 @@
 # gawk
 
-> Dit commando is een alias van `-p linux awk`.
+> Dit commando is een alias van `awk`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux awk`
+`tldr awk`

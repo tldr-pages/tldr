@@ -15,7 +15,7 @@
 
 `{{command}} | sha224sum`
 
-- Read a file of SHA224 sums and filenames and verify all files have matching checksums:
+- Read a file of SHA224 checksums and filenames and verify all files have matching checksums:
 
 `sha224sum --check {{path/to/file.sha224}}`
 
@@ -26,3 +26,7 @@
 - Only show a message when verification fails, ignoring missing files:
 
 `sha224sum --ignore-missing --check --quiet {{path/to/file.sha224}}`
+
+- Check a known SHA224 checksum of a file:
+
+`echo {{known_sha224_checksum_of_the_file}} {{path/to/file}} | sha224sum --check`

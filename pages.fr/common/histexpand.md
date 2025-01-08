@@ -31,6 +31,6 @@
 
 `^{{string1}}^{{string2}}^`
 
-- Effectue une expansion de l'historique, mais affiche la commande qui aurait du être exécutée au lieu de l'exécuter  :
+- Effectue une expansion de l'historique, mais affiche la commande qui aurait du être exécutée au lieu de l'exécuter :
 
 `{{!-n}}:p`

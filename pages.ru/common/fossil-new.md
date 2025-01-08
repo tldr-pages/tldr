@@ -1,8 +1,7 @@
 # fossil new
 
-> Эта команда — псевдоним для  `fossil init`.
-> Больше информации: <https://fossil-scm.org/home/help/new>.
+> Эта команда — псевдоним для `fossil init`.
 
 - Смотри документацию для оригинальной команды:
 
-`tldr fossil-init`
+`tldr fossil init`

@@ -26,3 +26,7 @@
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
 `sha224sum --ignore-missing --check --quiet {{pad/naar/bestand.sha224}}`
+
+- Controleer een bekende SHA224 checksum van een bestand:
+
+`echo {{bekende_sha224_checksum_van_het_bestand}} {{pad/naar/bestand}} | sha224sum --check`

@@ -13,12 +13,12 @@
 
 - Realiza listados de directorios en cada servidor FTP en el que sean válidas las credenciales proporcionadas:
 
-`nxc ftp {{192.168.178.0/24}} -u {{nombre_de_usuario}} -p {{contraseña}} --ls`
+`nxc ftp {{192.168.178.0/24}} -u {{usuario}} -p {{contraseña}} --ls`
 
 - Descarga el archivo especificado desde el servidor de destino:
 
-`nxc ftp {{192.168.178.2}} -u {{nombre_de_usuario}} -p {{contraseña}} --get {{ruta/al/archivo}}`
+`nxc ftp {{192.168.178.2}} -u {{usuario}} -p {{contraseña}} --get {{ruta/al/archivo}}`
 
 - Carga el archivo especificado en el servidor de destino en la ubicación especificada:
 
-`nxc ftp {{192.168.178.2}} -u {{nombre_de_usuario}} -p {{contraseña}} --put {{ruta/al/archivo_local}} {{ruta/a/ubicación_remota}}`
+`nxc ftp {{192.168.178.2}} -u {{usuario}} -p {{contraseña}} --put {{ruta/al/archivo_local}} {{ruta/a/ubicación_remota}}`

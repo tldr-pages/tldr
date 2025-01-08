@@ -1,7 +1,7 @@
 # cp
 
 > Salin berkas dan direktori.
-> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/cp>.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Salin berkas ke lokasi lain:
 

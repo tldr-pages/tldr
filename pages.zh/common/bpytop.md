@@ -1,13 +1,14 @@
 # bpytop
 
-> 用图形显示有关正在运行的进程的动态实时信息。类似于 `gtop` 和 `htop`.
+> 一个资源监视器，显示有关 CPU、内存、磁盘、网络和进程的信息。
+> `bashtop` 的 Python 版本。
 > 更多信息：<https://github.com/aristocratos/bpytop>.
 
 - 运行 bpytop：
 
 `bpytop`
 
-- 以最小模式启动，无需内存和网络盒：
+- 以最小模式启动，不显示内存和网络框：
 
 `bpytop -m`
 
@@ -19,7 +20,7 @@
 
 `f`
 
-- 改变设置：
+- 修改设置：
 
 `M`
 

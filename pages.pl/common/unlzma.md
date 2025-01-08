@@ -1,7 +1,6 @@
 # unlzma
 
-> To polecenie jest aliasem `xz`.
-> Więcej informacji: <https://manned.org/unlzma>.
+> To polecenie jest aliasem `xz --format=lzma --decompress`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

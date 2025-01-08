@@ -15,6 +15,10 @@
 
 `aws s3 rm s3://arn:aws:s3:{{region}}:{{account_id}}:{{access_point}}/{{access_point_name}}/{{object_key}}`
 
+- Remove all objects from a bucket (empty the bucket):
+
+`aws s3 rm s3://{{bucket_name}} --recursive`
+
 - Display help:
 
 `aws s3 rm help`

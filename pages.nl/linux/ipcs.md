@@ -1,7 +1,7 @@
 # ipcs
 
 > Toon informatie over het gebruik van System V IPC-faciliteiten: gedeelde geheugensegmenten, berichtenwachtrijen en semafoorarrays.
-> Zie ook: `lsipc` voor een flexibeler tool, `ipcmk` voor het maken van IPC-faciliteiten, en `ipcrm` voor het verwijderen ervan.
+> Bekijk ook: `lsipc` voor een flexibeler tool, `ipcmk` voor het maken van IPC-faciliteiten, en `ipcrm` voor het verwijderen ervan.
 > Meer informatie: <https://manned.org/ipcs>.
 
 - Toon informatie over alle actieve IPC-faciliteiten:

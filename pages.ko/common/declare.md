@@ -1,7 +1,7 @@
 # declare
 
 > 변수를 선언하고 속성을 부여.
-> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-declare>.
 
 - 지정된 값을 사용하여 문자열 변수를 선언:
 
