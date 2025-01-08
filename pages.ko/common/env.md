@@ -1,7 +1,7 @@
 # env
 
 > 환경을 보여주거나 수정된 환경에서 프로그램을 실행.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/env>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/env-invocation.html>.
 
 - 환경 표시:
 
