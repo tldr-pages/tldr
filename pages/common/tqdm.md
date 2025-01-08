@@ -5,4 +5,4 @@
 
 - Create a progress bar:
 
-`seq 10000000 | tqdm --total 10000000 | wc -l`
+`seq 10000000 | tqdm --total 10000000 --null`
