@@ -3,7 +3,7 @@
 > Command-line interface for creating and managing Kubernetes clusters.
 > More information: <https://kubernetes.io/docs/reference/setup-tools/kubeadm>.
 
-- Create a Kubernetes master node:
+- Create a Kubernetes control plane:
 
 `kubeadm init`
 
