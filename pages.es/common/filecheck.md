@@ -22,4 +22,4 @@
 
 - Introduzca `llvm_code.ll` en llvm-as y, a continuación, envíe la salida a FileCheck para que coincida:
 
-`llvm-as {{ruta/al/código_llvm_.ll}} | FileCheck {{ruta/al/archivo_comprobado}}
+`llvm-as {{ruta/al/código_llvm_.ll}} | FileCheck {{ruta/al/archivo_comprobado}}`
