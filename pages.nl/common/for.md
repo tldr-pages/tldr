@@ -3,6 +3,10 @@
 > Voer een commando meerdere keren uit.
 > Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs>.
 
+- Itereer over de command line argumenten:
+
+`for {{variabele}}; do {{echo $variabele}}; done`
+
 - Voer de gegeven commando's uit voor elk van de opgegeven items:
 
 `for {{variabele}} in {{item1 item2 ...}}; do {{echo "Loop wordt uitgevoerd"}}; done`

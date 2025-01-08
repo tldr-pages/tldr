@@ -25,6 +25,6 @@
 
 `pacman -Dkq`
 
-- Display help:
+- Display [h]elp:
 
-`pacman -D --help`
+`pacman -Dh`

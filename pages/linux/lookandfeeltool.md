@@ -1,20 +1,7 @@
 # lookandfeeltool
 
-> Switch Plasma global themes.
-> More information: <https://userbase.kde.org/System_Settings/Look_And_Feel>.
+> This command is an alias of `plasma-apply-lookandfeel`.
 
-- List available global themes:
+- View documentation for the original command:
 
-`lookandfeeltool --list`
-
-- Apply a global theme:
-
-`lookandfeeltool --apply {{org.example.theme.desktop}}`
-
-- Operate `lookandfeeltool` without a display server:
-
-`lookandfeeltool --platform offscreen`
-
-- Display help:
-
-`lookandfeeltool --help`
+`tldr plasma-apply-lookandfeel`

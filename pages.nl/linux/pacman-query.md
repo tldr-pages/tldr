@@ -1,6 +1,6 @@
 # pacman --query
 
-> Arch Linux pakketbeheerder hulpprogramma.
+> Arch Linux pakketbeheer hulpprogramma.
 > Bekijk ook: `pacman`.
 > Meer informatie: <https://manned.org/pacman.8>.
 
