@@ -1,7 +1,7 @@
 # mkdir
 
 > ساخت پوشه ها و تنظیم مجوز آنها.
-> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/mkdir>.
+> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - ساخت پوشه مشخص:
 
