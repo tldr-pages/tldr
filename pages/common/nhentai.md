@@ -11,6 +11,10 @@
 
 `nhentai --id {{number}}`
 
-- Download your favorites:
+- Download the first page of your favorites:
 
 `nhentai --favorites --download --delay 1`
+
+Download specific pages of you favorites:
+
+`nhentai --favorites --pages={{start_page}}-{{end_page}} --download --delay 1`
