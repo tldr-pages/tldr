@@ -27,6 +27,6 @@
 
 `more {{pad\naar\bestand}} /e`
 
-- Toon help:
+- Toon de help:
 
 `more /?`

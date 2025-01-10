@@ -23,6 +23,6 @@
 
 `dnf config-manager --setopt={{option}}={{value}}`
 
-- Toon help:
+- Toon de help:
 
 `dnf config-manager --help-cmd`

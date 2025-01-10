@@ -19,6 +19,6 @@
 
 `crane rebase {{-t|--tag}} {{tag_naam}}`
 
-- Toon help:
+- Toon de help:
 
 `crane rebase {{-h|--help}}`
