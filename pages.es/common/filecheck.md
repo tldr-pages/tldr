@@ -8,7 +8,7 @@
 
 `FileCheck --input-file={{ruta/al/archivo_de_entrada}} {{ruta/al/archivo_de_comprobación}}`
 
-- Busca coincidencias la entrada del `stdin` con el archivo de patrones `archivo_de_comprobación`:
+- Busca coincidencias de `stdin` con el archivo de patrones `archivo_de_comprobación`:
 
 `echo "{{algún_texto}}" | FileCheck {{ruta/al/archivo_de_comprobación}}`
 
