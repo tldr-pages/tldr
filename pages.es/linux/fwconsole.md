@@ -19,7 +19,7 @@
 
 `fwconsole setting {{palabra_clave}} {{nuevo_valor}}`
 
-- Lista de copias de seguridad disponibles:
+- Lista las copias de seguridad disponibles:
 
 `fwconsole backup --list`
 
