@@ -1,6 +1,6 @@
 # fwconsole
 
-> Gestiona y configura tu sistema FreePBX (servidor PBX).
+> Gestiona y configura un sistema FreePBX (servidor PBX).
 > Más información: <https://sangomakb.atlassian.net/wiki/spaces/PG/pages/41779247/fwconsole+commands+13>.
 
 - Recarga las configuraciones de FreePBX:
