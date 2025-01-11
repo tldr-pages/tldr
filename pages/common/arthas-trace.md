@@ -18,4 +18,4 @@
 
 - Track method invoke chains, only display invoke information that exceeds 10 ms, and exit after 5 times:
 
-`trace {{class-pattern}} {{method-pattern}} '#cost > {{10}} -n 5`
+`trace {{class-pattern}} {{method-pattern}} '#cost > {{10}}' -n 5`
