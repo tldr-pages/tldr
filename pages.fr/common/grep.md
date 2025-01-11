@@ -16,7 +16,7 @@
 
 `grep {{-r|--recursive}} {{-n|--line-number}} "{{chaîne_recherchée}}" .`
 
-- Utilise des expressions régulières étendues (supporte `?`, `+`, `{}`, `()`, et `|`) :
+- Utilise des expressions régulières étendues (supporte `?`, `+`, `{}`, `()` et `|`) :
 
 `grep {{-E|--extended-regexp}} {{-i|--ignore-case}} {{expression_régulière}} {{chemin/vers/fichier}}`
 

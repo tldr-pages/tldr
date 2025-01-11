@@ -15,7 +15,7 @@
 
 `grep {{-r|--recursive}} {{-n|--line-number}} --binary-files {{without-match}} "{{padrão_pesquisado}}" {{caminho/para/diretório}}`
 
-- Usa expressões regulares estendidas (suporta `?`, `+`, `{}`, `()`, and `|`), no modo insensível a maiúsculas e minúsculas:
+- Usa expressões regulares estendidas (suporta `?`, `+`, `{}`, `()` and `|`), no modo insensível a maiúsculas e minúsculas:
 
 `grep {{-E|--extended-regexp}} {{-i|--ignore-case}} "{{padrão_pesquisado}}" {{caminho/para/arquivo}}`
 

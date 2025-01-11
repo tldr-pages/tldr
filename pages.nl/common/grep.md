@@ -15,7 +15,7 @@
 
 `grep {{-r|--recursive}} {{-n|--line-number}} --binary-files {{without-match}} "{{zoekpatroon}}" {{pad/naar/map}}`
 
-- Gebruik uitgebreide reguliere expressies (ondersteunt `?`, `+`, `{}`, `()`, en `|`), in hoofdletterongevoelige modus:
+- Gebruik uitgebreide reguliere expressies (ondersteunt `?`, `+`, `{}`, `()` en `|`), in hoofdletterongevoelige modus:
 
 `grep {{-E|--extended-regexp}} {{-i|--ignore-case}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
 

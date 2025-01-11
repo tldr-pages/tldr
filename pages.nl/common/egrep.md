@@ -1,6 +1,6 @@
 # egrep
 
-> Vind patronen in bestanden door gebruik te maken van uitgebreidere reguliere expressies (ondersteund `?`, `+`, `{}`, `()`, en `|`).
+> Vind patronen in bestanden door gebruik te maken van uitgebreidere reguliere expressies (ondersteund `?`, `+`, `{}`, `()` en `|`).
 > Meer informatie: <https://manned.org/egrep>.
 
 - Zoek naar een patroon in een bestand:
