@@ -1,7 +1,7 @@
 # mbw
 
 > Memory Bandwidth Benchmark.
-> More information: <https://man.openbsd.org/ac>.
+> More information: <https://github.com/raas/mbw>.
 
 - Run 3 memory bandwidth tests with 512MB size:
 
@@ -15,7 +15,7 @@
 
 `mbw -n {{3}} -q -t{{0}} {{512}}`
 
-- Running the memcpy test 10 times with 1024 byte blocks allocated 8192MB of memory:
+- Runn the memcpy test 10 times with 1024 byte blocks allocated 8192MB of memory:
 
 `mbw -n {{10}} -q -t2 -b {{1024}} {{8192}}`
 

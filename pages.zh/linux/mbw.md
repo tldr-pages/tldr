@@ -1,7 +1,7 @@
 # mbw
 
 > 内存带宽性能测试工具.
-> 更多信息： <https://man.openbsd.org/ac>.
+> 更多信息： <https://github.com/raas/mbw>.
 
 - 以 512MB 大小运行 3 次内存带宽测试：
 
