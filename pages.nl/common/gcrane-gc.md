@@ -13,6 +13,6 @@
 
 `gcrane gc {{repository}} {{-r|--recursive}}`
 
-- Toon help:
+- Toon de help:
 
 `gcrane gc {{-h|--help}}`
