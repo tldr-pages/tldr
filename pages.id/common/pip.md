@@ -4,34 +4,30 @@
 > Beberapa subperintah seperti `install` mempunyai dokumentasi terpisah.
 > Informasi lebih lanjut: <https://pip.pypa.io>.
 
-- Memasang paket:
+- Pasang suatu paket (lihat dokumentasi `pip install` untuk melihat contoh pemasangan tambahan):
 
 `pip install {{nama_paket}}`
 
-- Memasang versi paket tertentu:
-
-`pip install {{nama_paket}}=={{versi_paket}}`
-
-- Memasang paket untuk hanya digunakan oleh pengguna saat ini:
+- Pasang suatu paket untuk hanya digunakan oleh pengguna saat ini:
 
 `pip install --user {{nama_paket}}`
 
-- Meningkatakan paket ke versi terbaru:
+- Tingkatkan suatu paket ke versi terbaru:
 
 `pip install --upgrade {{nama_paket}}`
 
-- Mencopot pemasangan paket:
+- Copot pemasangan suatu paket:
 
 `pip uninstall {{nama_paket}}`
 
-- Menyimpan daftar paket terpasang ke berkas:
+- Simpan daftar paket-paket terpasang ke dalam suatu berkas:
 
 `pip freeze > {{requirements.txt}}`
 
-- Memasang paket dari berkas:
-
-`pip install --requirement {{requirements.txt}}`
-
-- Menampilkan informasi paket terpasang:
+- Tampilkan informasi suatu paket yang terpasang:
 
 `pip show {{nama_paket}}`
+
+- Pasang kumpulan paket dari suatu berkas:
+
+`pip install --requirement {{requirements.txt}}`

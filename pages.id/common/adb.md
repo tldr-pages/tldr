@@ -31,3 +31,7 @@
 - Tampilkan daftar perangkat yang terhubung:
 
 `adb devices`
+
+- Tentukan perangkat yang diinstruksikan (berdasarkan nomor induk / Device ID) jika terdapat lebih dari satu perangkat yang terhubung secara bersamaan:
+
+`adb -s {{device_ID}} {{shell}}`
