@@ -15,7 +15,7 @@
 
 `mbw -n {{3}} -q -t{{0}} {{512}}`
 
-- Runn the memcpy test 10 times with 1024 byte blocks allocated 8192MB of memory:
+- Run the memcpy test 10 times with 1024 byte blocks allocated 8192MB of memory:
 
 `mbw -n {{10}} -q -t2 -b {{1024}} {{8192}}`
 
