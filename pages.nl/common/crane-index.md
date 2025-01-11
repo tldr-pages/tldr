@@ -12,6 +12,6 @@
 
 `crane index {{subcommand}}`
 
-- Toon help:
+- Toon de help:
 
 `crane index {{-h|--help}}`

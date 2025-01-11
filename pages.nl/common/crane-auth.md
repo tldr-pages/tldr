@@ -23,6 +23,6 @@
 
 `crane auth token {{registry_adres}} {{-H|--header}} {{-h|--help}} {{-m|--mount}} {{scope1 scope2 ...}} --push`
 
-- Toon help:
+- Toon de help:
 
 `crane auth {{-h|--help}}`
