@@ -1,7 +1,7 @@
 # mkdir
 
 > Buat dan atur hak akses atas sejumlah direktori.
-> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/mkdir>.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - Buat sejumlah direktori baru secara spesifik:
 

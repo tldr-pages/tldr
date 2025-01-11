@@ -1,7 +1,7 @@
 # dirname
 
 > 주어진 파일 혹은 디렉토리 경로의 부모 디렉토리를 계산한다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/dirname>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/dirname-invocation.html>.
 
 - 주어진 경로의 부모 디렉토리 계산:
 

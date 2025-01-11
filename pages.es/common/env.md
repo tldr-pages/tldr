@@ -1,7 +1,7 @@
 # env
 
 > Muestra el entorno o ejecuta un programa en un entorno modificado.
-> Más información: <https://www.gnu.org/software/coreutils/env>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/env-invocation.html>.
 
 - Muestra el entorno:
 

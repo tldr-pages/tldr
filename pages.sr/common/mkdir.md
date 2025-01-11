@@ -1,7 +1,7 @@
 # mkdir
 
 > Kreira direktorijum.
-> Više informacija na: <https://www.gnu.org/software/coreutils/mkdir>.
+> Više informacija na: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - Kreira direktorijum u trenutnom direktorijumu ili zadatoj lokaciji:
 
