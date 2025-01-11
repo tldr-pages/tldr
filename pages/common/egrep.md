@@ -1,6 +1,6 @@
 # egrep
 
-> Find patterns in files using extended regular expression (supports `?`, `+`, `{}`, `()` and `|`).
+> Find patterns in files using extended regular expression (supports `?`, `+`, `{}`, `()`, and `|`).
 > More information: <https://manned.org/egrep>.
 
 - Search for a pattern within a file:

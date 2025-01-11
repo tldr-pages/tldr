@@ -12,7 +12,7 @@
 
 `grep {{-F|--fixed-strings}} "{{exakter_ausdruck}}" {{pfad/zu/datei}}`
 
-- Benutze erweiterte reguläre Ausdrücke (unterstützt `?`, `+`, `{}`, `()` und `|`) ohne Beachtung der Groß-, Kleinschreibung:
+- Benutze erweiterte reguläre Ausdrücke (unterstützt `?`, `+`, `{}`, `()`, und `|`) ohne Beachtung der Groß-, Kleinschreibung:
 
 `grep {{-E|--extended-regexp}} {{-i|--ignore-case}} "{{ausdruck}}" {{pfad/zu/datei}}`
 

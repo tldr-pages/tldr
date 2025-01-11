@@ -15,7 +15,7 @@
 
 `grep {{-r|--recursive}} {{-n|--line-number}} --binary-files {{without-match}} "{{patrón_de_búsqueda}}" {{ruta/al/directorio}}`
 
-- Utiliza expresiones regulares extendidas (los metacaracteres `?`, `+`, `{}`, `()` y `|` no requieren de una barra inversa), sin distinguir entre mayúsculas y minúsculas:
+- Utiliza expresiones regulares extendidas (los metacaracteres `?`, `+`, `{}`, `()`, y `|` no requieren de una barra inversa), sin distinguir entre mayúsculas y minúsculas:
 
 `grep {{-E|--extended-regexp}} {{-i|--ignore-case}} "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
