@@ -1,7 +1,7 @@
 # diff
 
 > ファイルとディレクトリを比較する。
-> 詳しくはこちら: <https://manned.org/diff>
+> もっと詳しく: <https://manned.org/diff>
 
 - ファイルを比較する(`old_file`を`new_file`にするための変更点を列挙する):
 
