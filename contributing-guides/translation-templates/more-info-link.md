@@ -169,7 +169,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### ja
 
 ```markdown
-> もっと詳しく: <https://example.com>
+> もっと詳しく: <https://example.com>。
 ```
 
 ---
