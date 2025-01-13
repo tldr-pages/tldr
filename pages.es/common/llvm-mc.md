@@ -20,6 +20,6 @@
 
 `echo "{{addl %eax, %ebx}}" | llvm-mc -show-encoding -show-inst`
 
-- Desensambla el código de máquina del flujo de entrada estándar para el triple especificado:
+- Desensambla el código de máquina del flujo de entrada estándar para la tripleta especificada:
 
 `echo "{{0xCD 0x21}}" | llvm-mc --disassemble -triple={{nombre_del_objetivo}}`
