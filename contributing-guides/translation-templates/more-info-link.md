@@ -166,10 +166,10 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 
 ---
 
-### ja
+### jp
 
 ```markdown
-> 詳しくはこちら: <https://example.com>
+> もっと詳しく: <https://example.com>
 ```
 
 ---
