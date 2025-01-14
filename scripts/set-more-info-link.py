@@ -78,7 +78,7 @@ labels = {
     "hi": "अधिक जानकारी:",
     "id": "Informasi lebih lanjut:",
     "it": "Maggiori informazioni:",
-    "ja": "詳しくはこちら:",
+    "ja": "もっと詳しく:",
     "ko": "더 많은 정보:",
     "lo": "ຂໍ້ມູນເພີ່ມເຕີມ:",
     "ml": "കൂടുതൽ വിവരങ്ങൾ:",
