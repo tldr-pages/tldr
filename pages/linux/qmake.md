@@ -15,6 +15,10 @@
 
 `qmake -project`
 
+- Compile a project:
+
+`qmake && make`
+
 - Enable debug mode:
 
 `qmake -d`
