@@ -9,7 +9,7 @@
 
 - Especifica la ubicación del `Makefile` y del archivo de proyecto:
 
-`qmake -o {{ruta/a/Makefile}} {{ruta/al/archivo_de_proyecto.pro}}``
+`qmake -o {{ruta/a/Makefile}} {{ruta/al/archivo_de_proyecto.pro}}`
 
 - Genera un archivo de proyecto por defecto:
 
