@@ -1,7 +1,7 @@
 # adb
 
 > Android Debug Bridge: berkomunikasi dengan emulator Android atau perangkat Android terhubung.
-> Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `shell`.
+> Beberapa subperintah seperti `shell` mempunyai dokumentasi terpisah.
 > Informasi lebih lanjut: <https://developer.android.com/tools/adb>.
 
 - Periksa apakah proses server adb telah dimulai dan memulainya:
@@ -31,3 +31,7 @@
 - Tampilkan daftar perangkat yang terhubung:
 
 `adb devices`
+
+- Tentukan perangkat yang diinstruksikan (berdasarkan nomor induk / Device ID) jika terdapat lebih dari satu perangkat yang terhubung secara bersamaan:
+
+`adb -s {{device_ID}} {{shell}}`
