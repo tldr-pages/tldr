@@ -146,7 +146,9 @@ def set_link(
     # build new line
     if locale in ["bn", "hi", "ne"]:
         new_line = f"> {labels[locale]} <{link}>।\n"
-    elif locale in ["ja", "th"]:
+    elif locale in ["ja"]:
+        new_line = f"> {labels[locale]} <{link}>。\n"
+    elif locale in ["th"]:
         new_line = f"> {labels[locale]} <{link}>\n"
     elif locale in ["zh", "zh_TW"]:
         new_line = f"> {labels[locale]}<{link}>.\n"
