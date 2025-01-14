@@ -1,7 +1,7 @@
 # ansible
 
 > Atur grup perangkat komputer yang secara jarak jauh melalui SSH. (Gunakan berkas `/etc/ansible/hosts` untuk menambahkan grup atau host baru).
-> Beberapa subperintah seperti `ansible galaxy` memiliki dokumentasi terpisah.
+> Beberapa subperintah seperti `ansible galaxy` mempunyai dokumentasi terpisah.
 > Informasi lebih lanjut: <https://www.ansible.com/>.
 
 - Tampilkan daftar host yang tergabung dalam suatu grup:
