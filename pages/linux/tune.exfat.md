@@ -11,7 +11,7 @@
 
 `tune.exfat {{-L|--set-label}} {{new_label}} {{/dev/sdXY}}`
 
-- Print the volume GUID:
+- Print the volume GUID of a filesystem:
 
 `tune.exfat {{-u|--print-guid}} {{/dev/sdXY}}`
 
