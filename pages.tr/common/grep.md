@@ -15,7 +15,7 @@
 
 `grep {{-r|--recursive}} {{-n|--line-number}} --binary-files {{without-match}} "{{aranan_kalıp}}" {{dosya/yolu}}`
 
-- Büyük/küçük harfe duyarsız modda genişletilmiş düzenli ifadeleri (`?`, `+`, `{}`, `()` ve `|` destekler) kullan:
+- Büyük/küçük harfe duyarsız modda genişletilmiş düzenli ifadeleri (`?`, `+`, `{}`, `()`, ve `|` destekler) kullan:
 
 `grep {{-E|--extended-regexp}} {{-i|--ignore-case}} "{{aranan_kalıp}}" {{dosya/yolu}}`
 
