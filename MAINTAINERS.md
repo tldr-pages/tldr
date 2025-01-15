@@ -86,6 +86,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [02 November 2024](https://github.com/tldr-pages/tldr/issues/14538) — present
 - **CodePsy-2001 ([@CodePsy-2001](https://github.com/CodePsy-2001))**:
   [02 November 2024](https://github.com/tldr-pages/tldr/issues/14537#issuecomment-2457381463) — present
+- **witt ([@witt](https://github.com/witt-bit))**:
+  [14 January 2025](https://github.com/tldr-pages/tldr/issues/15514) — present
 - **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
   [24 August 2020](https://github.com/tldr-pages/tldr/issues/4291) — [5 October 2020](https://github.com/tldr-pages/tldr/issues/4504), [14 November 2024](https://github.com/tldr-pages/tldr/issues/14541) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
@@ -176,8 +178,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [3 October 2024](https://github.com/tldr-pages/tldr/issues/13956) — present
 - **Renie ([@renie](https://github.com/renie))**:
   [23 October 2024](https://github.com/tldr-pages/tldr/issues/14343) — present
-- **witt ([@witt](https://github.com/witt-bit))**:
-  [14 January 2025](https://github.com/tldr-pages/tldr/issues/15514) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
