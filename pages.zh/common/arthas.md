@@ -12,7 +12,7 @@
 
 `telnet localhost 3658`
 
-- 退出当前arthas客户端的连接，但不停止arthas服务：
+- 退出当前 arthas 客户端的连接，但不停止 arthas 服务：
 
 `exit|quit|logout|q`
 
