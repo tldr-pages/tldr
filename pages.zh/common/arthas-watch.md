@@ -1,7 +1,7 @@
 # arthas-watch
 
 > 函数执行数据观测。
-> 也可以看看：`arthas`, `arthas-trace`.
+> 另见 `arthas`, `arthas-trace`.
 > 更多信息：<https://arthas.aliyun.com/doc/watch.html>.
 
 - 在方法调用后观察，显示第一个参数和返回值，展开嵌套对象的 4 层：
