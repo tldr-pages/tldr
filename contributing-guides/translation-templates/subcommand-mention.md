@@ -152,7 +152,7 @@ Certaines sous-commandes comme `example command` ont leur propre documentation.
 ### id
 
 ```markdown
-Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `example command`.
+Beberapa subperintah seperti `example command` mempunyai dokumentasi terpisah.
 ```
 
 ---
