@@ -86,10 +86,10 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [02 November 2024](https://github.com/tldr-pages/tldr/issues/14538) — present
 - **CodePsy-2001 ([@CodePsy-2001](https://github.com/CodePsy-2001))**:
   [02 November 2024](https://github.com/tldr-pages/tldr/issues/14537#issuecomment-2457381463) — present
-- **witt ([@witt](https://github.com/witt-bit))**:
-  [14 January 2025](https://github.com/tldr-pages/tldr/issues/15514) — present
 - **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
   [24 August 2020](https://github.com/tldr-pages/tldr/issues/4291) — [5 October 2020](https://github.com/tldr-pages/tldr/issues/4504), [14 November 2024](https://github.com/tldr-pages/tldr/issues/14541) — present
+- **witt ([@witt-bit](https://github.com/witt-bit))**:
+  [14 January 2025](https://github.com/tldr-pages/tldr/issues/15514) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
