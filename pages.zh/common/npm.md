@@ -14,7 +14,7 @@
 
 - 下载包的特定版本并将其添加到 `package.json` 中的依赖项列表中：
 
-`npm install {{包名}}@{{version}}`
+`npm install {{包名}}@{{版本号}}`
 
 - 下载包的最新版本并将其添加到 `package.json` 中的开发依赖项列表中：
 
