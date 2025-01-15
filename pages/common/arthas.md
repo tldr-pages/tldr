@@ -16,6 +16,6 @@
 
 `exit|quit|logout|q`
 
-- Terminates the Arthas server, all the Arthas clients connecting to this server will be disconnected:
+- Terminate the Arthas server, all the Arthas clients connecting to this server will be disconnected:
 
 `stop`
