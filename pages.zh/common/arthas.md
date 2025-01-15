@@ -16,6 +16,6 @@
 
 `exit|quit|logout|q`
 
-- 停止arthas服务，断开所有arthas客户端的连接：
+- 停止 arthas 服务，断开所有arthas客户端的连接：
 
 `stop`
