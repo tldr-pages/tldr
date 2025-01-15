@@ -24,6 +24,6 @@
 
 `tail --retry --follow {{路径/到/文件}}`
 
-- 显示“文件”中最后 n 行并每 t 秒刷新一次：
+- 显示文件中最后 n 行并每 t 秒刷新一次：
 
 `tail --lines {{n}} --sleep-interval {{t}} --follow {{路径/到/文件}}`
