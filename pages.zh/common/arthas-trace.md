@@ -1,7 +1,7 @@
 # arthas-trace
 
 > 方法内部调用路径，并输出方法路径上的每个节点上耗时。
-> 也可以看看：`arthas`, `arthas-watch`.
+> 另见 `arthas`, `arthas-watch`.
 > 更多信息：<https://arthas.aliyun.com/doc/trace.html>.
 
 - 追踪方法调用链：
