@@ -1,7 +1,7 @@
 # arthas
 
 > Java 应用诊断利器。
-> 也可以看看：`arthas-watch`, `arthas-trace`.
+> 另见 `arthas-watch`, `arthas-trace`.
 > 更多信息：<https://arthas.aliyun.com/>.
 
 - 启动 arthas：
