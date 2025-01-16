@@ -15,7 +15,7 @@
 
 `grep {{-r|--recursive}} {{-n|--line-number}} --binary-files {{without-match}} "{{søgemønster}}" {{sti/til/mappe}}`
 
-- Brug udvidede regulære udtryk (understøtter `?`, `+`, `{}`, `()` og `|`), i case-insensitive modus:
+- Brug udvidede regulære udtryk (understøtter `?`, `+`, `{}`, `()`, og `|`), i case-insensitive modus:
 
 `grep {{-E|--extended-regexp}} {{-i|--ignore-case}} "{{søgemønster}}" {{sti/til/fil}}`
 
