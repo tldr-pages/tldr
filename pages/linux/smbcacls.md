@@ -18,4 +18,4 @@
 
 - Specify an alternative workgroup (or domain) and have the program prompt for a password interactively:
 
-`smbcacls //{{server}}/{{share}} {{path/to/file}} --user {{username}} --workgroup={{workgroup}}`
+`smbcacls //{{server}}/{{share}} {{path/to/file}} --user {{username}} --workgroup {{workgroup}}`
