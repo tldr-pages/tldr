@@ -1,0 +1,12 @@
+# function
+
+> Define una función.
+> Más información: <https://www.gnu.org/software/bash/manual/bash.html#Shell-Functions>.
+
+- Define una función con el nombre especificado:
+
+`function {{nombre_función}} {{echo "Contenido de la función aquí"}}; }`
+
+- Ejecuta una función llamada `nombre_función`:
+
+`nombre_función`
