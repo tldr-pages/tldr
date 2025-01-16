@@ -1,7 +1,7 @@
 # env
 
 > Mostra le variabili d'ambiente o esegui un programma in un ambiente modificato.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/env>.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/env-invocation.html>.
 
 - Mostra le variabili d'ambiente:
 

@@ -15,6 +15,6 @@
 
 `gcrane copy {{bron}} {{doel}} {{-r|--recursive}}`
 
-- Toon help:
+- Toon de help:
 
 `gcrane copy {{-h|--help}}`

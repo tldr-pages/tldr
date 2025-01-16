@@ -1,7 +1,7 @@
 # mkdir
 
 > Create directories and set their permissions.
-> More information: <https://www.gnu.org/software/coreutils/mkdir>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - Create specific directories:
 
