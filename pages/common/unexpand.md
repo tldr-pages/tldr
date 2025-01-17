@@ -1,7 +1,7 @@
 # unexpand
 
 > Convert spaces to tabs.
-> More information: <https://www.gnu.org/software/coreutils/unexpand>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/unexpand-invocation.html>.
 
 - Convert blanks in each file to tabs, writing to `stdout`:
 
