@@ -3,8 +3,8 @@
 > A youtube-dl fork with additional features and fixes.
 > Download videos from YouTube and other websites.
 > See also: `yt-dlp`, `ytfzf`.
+> Format selection examples: <https://github.com/yt-dlp/yt-dlp#format-selection-examples>.
 > More information: <https://github.com/yt-dlp/yt-dlp>.
-> Format Selection Examples: <https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#format-selection-examples>
 
 - Download a video or playlist (with the default options from command below):
 
