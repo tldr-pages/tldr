@@ -31,6 +31,6 @@
 
 `find {{root_path}} -daystart -mtime {{-1}} -exec {{tar -cvf archive.tar}} {} \+`
 
-- Find empty files (0 byte) or directories and delete them verbosely:
+- Search for either empty files or directories and delete them verbosely:
 
 `find {{root_path}} -type {{f|d}} -empty -delete -print`
