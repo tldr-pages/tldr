@@ -9,7 +9,7 @@
 
 - Find files matching multiple path/name patterns:
 
-`find {{root_path}} -path '{{**/path/**/*.ext}}' -or -name '{{*pattern*}}'`
+`find {{root_path}} -path '{{*/path/*/*.ext}}' -or -name '{{*pattern*}}'`
 
 - Find directories matching a given name, in case-insensitive mode:
 
