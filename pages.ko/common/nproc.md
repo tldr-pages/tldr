@@ -1,7 +1,7 @@
 # nproc
 
 > 사용 가능한 처리 장치 수(일반적으로 CPU)를 출력합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/nproc>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/nproc-invocation.html>.
 
 - 사용 가능한 처리 장치 수 표시:
 

@@ -1,7 +1,7 @@
 # pathchk
 
 > 경로명의 유효성과 이식성을 확인합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/pathchk>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/pathchk-invocation.html>.
 
 - 현재 시스템에서 경로명의 유효성을 확인:
 

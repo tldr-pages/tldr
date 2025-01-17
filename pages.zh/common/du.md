@@ -1,7 +1,7 @@
 # du
 
 > 磁盘使用率：估计和汇总文件和目录空间使用率。
-> 更多信息：<https://www.gnu.org/software/coreutils/du>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - 以给定单位（B/KiB/MiB）列出目录和所有子目录的大小：
 

@@ -1,7 +1,7 @@
 # split
 
 > Split een bestand in stukken.
-> Meer informatie: <https://www.gnu.org/software/coreutils/split>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/split-invocation.html>.
 
 - Split een bestand, elk deel heeft 10 regels (behalve het laatste deel):
 

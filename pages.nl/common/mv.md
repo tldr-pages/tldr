@@ -1,7 +1,7 @@
 # mv
 
 > Verplaats of hernoem bestanden en mappen.
-> Meer informatie: <https://www.gnu.org/software/coreutils/mv>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Hernoem een bestand of map als het doel geen bestaande map is:
 
