@@ -1,7 +1,7 @@
 # chmod
 
 > Verander de toegangstoestemmingen van een bestand of map.
-> Meer informatie: <https://www.gnu.org/software/coreutils/chmod>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Geef een gebruiker ([u]ser) die het bestand beheert het recht om deze uit te voeren (e[x]ecute):
 

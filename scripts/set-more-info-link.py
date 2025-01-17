@@ -75,11 +75,10 @@ labels = {
     "fa": "اطلاعات بیشتر:",
     "fi": "Lisätietoja:",
     "fr": "Plus d'informations :",
-    "sh": "Više informacija:",
     "hi": "अधिक जानकारी:",
     "id": "Informasi lebih lanjut:",
     "it": "Maggiori informazioni:",
-    "ja": "詳しくはこちら:",
+    "ja": "もっと詳しく:",
     "ko": "더 많은 정보:",
     "lo": "ຂໍ້ມູນເພີ່ມເຕີມ:",
     "ml": "കൂടുതൽ വിവരങ്ങൾ:",
@@ -147,7 +146,9 @@ def set_link(
     # build new line
     if locale in ["bn", "hi", "ne"]:
         new_line = f"> {labels[locale]} <{link}>।\n"
-    elif locale in ["ja", "th"]:
+    elif locale in ["ja"]:
+        new_line = f"> {labels[locale]} <{link}>。\n"
+    elif locale in ["th"]:
         new_line = f"> {labels[locale]} <{link}>\n"
     elif locale in ["zh", "zh_TW"]:
         new_line = f"> {labels[locale]}<{link}>.\n"

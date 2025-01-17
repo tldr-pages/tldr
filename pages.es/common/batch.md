@@ -1,7 +1,18 @@
 # batch
 
-> Este es un comando alias de `at`.
+> Ejecuta comandos en un momento posterior cuando los niveles de carga del sistema lo permitan.
+> Los resultados serán enviados al correo del usuario.
+> Vea también: `at`, `atq`, `atrm` `mail`.
+> Más información: <https://manned.org/batch>.
 
-- Muestra la documentación del comando original:
+- Lanza el servicio `atd`:
 
-`tldr at`
+`systemctl start atd`
+
+- Ejecuta comandos de `stdin` (presiona `Ctrl + D` cuando hayas finalizado):
+
+`batch`
+
+- Ejecuta un comando desde `stdin`:
+
+`echo "{{./hacer_copia_de_la_bd.sh}}" | batch`

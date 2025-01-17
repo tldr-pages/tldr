@@ -1,7 +1,6 @@
 # megadl
 
-> To polecenie jest aliasem dla `megatools-dl`.
-> Więcej informacji: <https://megatools.megous.com/man/megatools-dl.html>.
+> To polecenie jest aliasem `megatools-dl`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

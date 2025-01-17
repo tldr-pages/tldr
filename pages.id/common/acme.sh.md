@@ -30,4 +30,4 @@
 
 - Pasang sertifikat ke dalam direktori tertentu (dapat berguna untuk proses pemutakhiran otomatis):
 
-`acme.sh --install-cert -d {{example.com}} --key-file {{/jalan/menuju/example.com.key}} --fullchain-file {{/jalan/menuju/example.com.cer}} --reloadcmd {{"systemctl force-reload nginx"}}`
+`acme.sh --install-cert -d {{example.com}} --key-file {{/jalan/menuju/example.com.key}} --fullchain-file {{/jalan/menuju/example.com.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`

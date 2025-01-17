@@ -1,7 +1,7 @@
 # ls
 
 > إدراج محتويات مجلد.
-> لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/ls>.
+> لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - إدراج كل الملفات في أسطر منفصلة:
 

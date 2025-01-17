@@ -1,7 +1,7 @@
 # cp
 
 > Copy files and directories.
-> More information: <https://www.gnu.org/software/coreutils/cp>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Copy a file to another location:
 

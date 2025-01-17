@@ -13,4 +13,4 @@
 
 - View error rate:
 
-`ifstat {-e|--errors}}`
+`ifstat {{-e|--errors}}`

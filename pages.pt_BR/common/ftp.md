@@ -7,6 +7,10 @@
 
 `ftp {{ftp.example.com}}`
 
+- Conecta a um servidor FTP especificando o endereço de IP e porta:
+
+`ftp {{endereço_IP}} {{porta}}`
+
 - Alterna para o modo de transferência binária (gráficos, arquivos compactados, etc):
 
 `binary`
@@ -23,10 +27,10 @@
 
 `mput {{*.zip}}`
 
-- Exclui vários arquivos no servidor remoto:
+- Exclui vários arquivos do servidor remoto:
 
 `mdelete {{*.txt}}`
 
 - Renomeia um arquivo no servidor remoto:
 
-`rename {{nome_do_arquivo_original}} {{nome_do_novo_arquivo}}`
+`rename {{nome_do_arquivo_original}} {{novo_nome_do_arquivo}}`

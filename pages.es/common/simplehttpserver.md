@@ -10,7 +10,7 @@
 
 - Inicia el servidor HTTP con autenticación básica sirviendo una ruta específica a través del puerto 80 en todas las interfaces:
 
-`sudo simplehttpserver -basic-auth {{nombre_de_usuario}}:{{contraseña}} -path {{/var/www/html}} -listen 0.0.0.0:80`
+`sudo simplehttpserver -basic-auth {{usuario}}:{{contraseña}} -path {{/var/www/html}} -listen 0.0.0.0:80`
 
 - Inicia el servidor HTTP, habilitando HTTPS utilizando un certificado autofirmado con SAN personalizado en todas las interfaces:
 

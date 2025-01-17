@@ -15,6 +15,6 @@
 
 `crane ls {{-o|--omit-digest-tags}}`
 
-- Toon help:
+- Toon de help:
 
 `crane ls {{-h|--help}}`

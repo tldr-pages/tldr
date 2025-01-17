@@ -17,4 +17,4 @@
 
 - Splits een `.wav` bestand in meerdere bestanden in de vorm van "track-nummer - album - titel":
 
-`shnsplit -f {{pad/naar/bestand.cue}} {{pad/naar/bestand.wav}} -t "%n - %a - %t`
+`shnsplit -f {{pad/naar/bestand.cue}} {{pad/naar/bestand.wav}} -t "%n - %a - %t"`

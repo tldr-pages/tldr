@@ -1,7 +1,7 @@
 # md5sum
 
 > MD5 மறையீட்டு சரிகாண்தொகையைக் கணி.
-> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/md5sum>.
+> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/md5sum-invocation.html>.
 
 - கோப்பின் MD5 சரிகாண்தொகையைக் கணி:
 

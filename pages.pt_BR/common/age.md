@@ -1,28 +1,25 @@
 # age
 
 > Uma simples, moderna e segura ferramenta de criptografia de arquivos.
+> Veja também: `age-keygen` para geração de pares de chaves.
 > Mais informações: <https://github.com/FiloSottile/age>.
 
 - Gera um arquivo criptografado que pode ser descriptografado com uma frase-chave:
 
 `age --passphrase --output {{caminho/para/arquivo_criptografado}} {{caminho/para/arquivo_descriptografado}}`
 
-- Gera um par de chaves, salvando a chave privada em um arquivo não criptografado e imprimindo a chave pública para `stdout`:
+- Criptografa arquivo com uma ou mais chaves públicas que são inseridas como literais (repita o argumento `--recipient` para especificar múltiplas chaves públicas):
 
-`age-keygen --output {{caminho/para/arquivo}}`
+`age --recipient {{chave_pública}} --output {{caminho/para/arquivo_criptografado}} {{caminho/para/arquivo_descriptografado}}`
 
-- Criptografa arquivo com uma ou mais chaves públicas que são inseridas como literais:
+- Criptografa arquivo com um ou mais destinatários que são especificadas em um arquivo (um por linha):
 
-`age --recipient {{chave_pública_1}} --recipient {{chave_pública_2}} {{caminho/para/arquivo_descriptografado}} --output {{caminho/para/arquivo_criptografado}}`
-
-- Criptografa arquivo com uma ou mais chaves públicas que são especificadas no arquivo do destinatário:
-
-`age --recipients-file {{caminho/para/arquivo_destinatário}} {{caminho/para/arquivo_descriptografado}} --output {{caminho/para/arquivo_criptografado}}`
+`age --recipients-file {{caminho/para/arquivo_de_destinatários}} --output {{caminho/para/arquivo_criptografado}} {{caminho/para/arquivo_descriptografado}}`
 
 - Descriptografa um arquivo com uma frase-chave:
 
 `age --decrypt --output {{caminho/para/arquivo_descriptografado}} {{caminho/para/arquivo_criptografado}}`
 
-- Descriptografa um arquivo com um arquivo chave privada:
+- Descriptografa um arquivo com um arquivo de chave privada:
 
-`age --decrypt --identity {{caminho/para/arquivo_chave_privada}} --output {{caminho/para/arquivo_descriptografado}} {{caminho/para/arquivo_criptografado}}`
+`age --decrypt --identity {{caminho/para/arquivo_de_chave_privada}} --output {{caminho/para/arquivo_descriptografado}} {{caminho/para/arquivo_criptografado}}`

@@ -7,11 +7,11 @@
   "homepage": "https://tldr.sh/",
   "dependencies": {
     "glob": "11.0.0",
-    "markdownlint-cli": "^0.42.0",
+    "markdownlint-cli": "^0.43.0",
     "tldr-lint": "^0.0.16"
   },
   "devDependencies": {
-    "husky": "^9.1.6"
+    "husky": "^9.1.7"
   },
   "scripts": {
     "lint-markdown": "markdownlint pages*/**/*.md",

@@ -1,13 +1,13 @@
 # mkdir
 
 > Maak mappen aan en stel hun permissies in.
-> Meer informatie: <https://www.gnu.org/software/coreutils/mkdir>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - Maak specifieke mappen aan:
 
 `mkdir {{pad/naar/map1 pad/naar/map2 ...}}`
 
-- Maak specifieke mappen en hun ouders ([p]) aan indien nodig:
+- Maak specifieke mappen en hun ouders aan indien nodig:
 
 `mkdir {{-p|--parents}} {{pad/naar/map1 pad/naar/map2 ...}}`
 

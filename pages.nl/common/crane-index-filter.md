@@ -15,6 +15,6 @@
 
 `crane index filter {{-t|--tags}} {{tag_naam}}`
 
-- Toon help:
+- Toon de help:
 
 `crane index filter {{-h|--help}}`

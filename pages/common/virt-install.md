@@ -21,4 +21,4 @@
 
 - Create a virtual machine and kickstart an automated deployment based on Fedora 35 using only remote resources (no ISO required):
 
-`virt-install --name {{vm_name}} --memory {{2048}} --disk path={{path/to/image.qcow2}},size={{20}} --location={{https://download.fedoraproject.org/pub/fedora/linux/releases/35/Everything/x86_64/os/}} --extra-args={{"inst.ks=https://path/to/valid/kickstart.org"}}`
+`virt-install --name {{vm_name}} --memory {{2048}} --disk path={{path/to/image.qcow2}},size={{20}} --location={{https://download.fedoraproject.org/pub/fedora/linux/releases/35/Everything/x86_64/os/}} --extra-args="{{inst.ks=https://path/to/valid/kickstart.org}}"`

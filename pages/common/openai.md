@@ -9,7 +9,7 @@
 
 - Create a completion:
 
-`openai api completions.create --model {{ada}} --prompt {{"Hello world"}}`
+`openai api completions.create --model {{ada}} --prompt "{{Hello world}}"`
 
 - Create a chat completion:
 
@@ -17,4 +17,4 @@
 
 - Generate images via DALL·E API:
 
-`openai api image.create --prompt {{"two dogs playing chess, cartoon"}} --num-images {{1}}`
+`openai api image.create --prompt "{{two dogs playing chess, cartoon}}" --num-images {{1}}`

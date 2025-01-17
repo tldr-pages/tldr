@@ -33,4 +33,4 @@
 
 - Generate output with a SARIF template:
 
-`trivy image --format {{template}} --template {{"@sarif.tpl"}} -o {{path/to/report.sarif}} {{image:tag}}`
+`trivy image --format {{template}} --template "{{@sarif.tpl}}" -o {{path/to/report.sarif}} {{image:tag}}`

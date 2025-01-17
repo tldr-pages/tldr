@@ -8,6 +8,6 @@
 
 `crane version`
 
-- Toon help:
+- Toon de help:
 
 `crane version {{-h|--help}}`

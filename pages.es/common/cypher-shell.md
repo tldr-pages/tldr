@@ -14,7 +14,7 @@
 
 - Conéctate y proporciona credenciales de seguridad:
 
-`cypher-shell --username {{nombre_de_usuario}} --password {{contraseña}}`
+`cypher-shell --username {{usuario}} --password {{contraseña}}`
 
 - Conéctate a una base de datos específica:
 

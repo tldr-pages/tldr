@@ -2,7 +2,7 @@
 
 > Crea directorios y establece sus permisos.
 > Vea también: `rmdir`, `ls`.
-> Más información: <https://www.gnu.org/software/coreutils/mkdir>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - Crea los directorios especificados:
 

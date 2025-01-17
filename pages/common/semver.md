@@ -17,7 +17,7 @@
 
 - Test with multiple ranges:
 
-`semver {{1.2.3}} --range {{">=1.0"}} {{"<2.0"}}`
+`semver {{1.2.3}} --range "{{>=1.0}}" "{{<2.0}}"`
 
 - Test multiple version strings and return only the ones that match:
 
