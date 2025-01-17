@@ -1,7 +1,7 @@
 # fmt
 
 > Herformatteer een tekstbestand door de alinea's samen te voegen en de regelbreedte te beperken tot een aantal tekens (standaard 75).
-> Meer informatie: <https://www.gnu.org/software/coreutils/fmt>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/fmt-invocation.html>.
 
 - Herformatteer een bestand:
 
