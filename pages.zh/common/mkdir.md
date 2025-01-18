@@ -1,7 +1,7 @@
 # mkdir
 
 > 创建目录并设置其权限。
-> 更多信息：<https://www.gnu.org/software/coreutils/mkdir>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - 创建特定目录：
 

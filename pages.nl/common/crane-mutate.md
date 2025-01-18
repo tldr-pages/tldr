@@ -32,6 +32,6 @@
 
 `crane mutate {{-w|--workdir}} {{pad/naar/werk-map}}`
 
-- Toon help:
+- Toon de help:
 
 `crane mutate {{-h|--help}}`

@@ -1,7 +1,7 @@
 # mkdir
 
 > அடைவை உருவாக்கு.
-> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/mkdir>.
+> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - குறிப்பிட்ட கோப்பகங்களை உருவாக்கவும்:
 

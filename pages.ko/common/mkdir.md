@@ -1,7 +1,7 @@
 # mkdir
 
 > 디렉토리를 생성하고 해당 권한을 설정합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/mkdir>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - 특정 디렉토리 생성:
 

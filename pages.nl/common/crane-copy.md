@@ -19,6 +19,6 @@
 
 `crane copy {{bron}} {{doel}} {{-n|--no-clobber}}`
 
-- Toon help:
+- Toon de help:
 
 `crane copy {{-h|--help}}`

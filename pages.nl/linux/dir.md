@@ -20,6 +20,6 @@
 
 `dir --recursive`
 
-- Toon help:
+- Toon de help:
 
 `dir --help`
