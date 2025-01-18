@@ -1,7 +1,7 @@
 # numfmt
 
 > 숫자를 사람이 읽기 쉬운 문자열로 변환하거나 그 반대로 변환.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/numfmt>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/numfmt-invocation.html>.
 
 - 1.5K(SI 단위)를 1500으로 변환:
 

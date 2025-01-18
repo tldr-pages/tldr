@@ -1,7 +1,7 @@
 # sha1sum
 
 > SHA1 암호화 체크섬 계산.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/sha1sum>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/sha1sum-invocation.html>.
 
 - 하나 이상의 파일에 대한 SHA1 체크섬 계산:
 

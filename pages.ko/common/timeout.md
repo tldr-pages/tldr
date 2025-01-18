@@ -1,7 +1,7 @@
 # timeout
 
 > 명령을 일정 시간 제한 내에서 실행.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/timeout>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/timeout-invocation.html>.
 
 - `sleep 10`을 실행하고 3초 후 종료:
 

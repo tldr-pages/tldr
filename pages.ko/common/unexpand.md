@@ -1,7 +1,7 @@
 # unexpand
 
 > 공백을 탭으로 변환.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/unexpand>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/unexpand-invocation.html>.
 
 - 각 파일의 공백을 탭으로 변환하여 `stdout`에 출력:
 

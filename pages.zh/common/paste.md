@@ -1,7 +1,7 @@
 # paste
 
 > 合并文件行。
-> 更多信息：<https://www.gnu.org/software/coreutils/paste>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/paste-invocation.html>.
 
 - 将所有行合并为一行，使用 tab 作为分隔符：
 

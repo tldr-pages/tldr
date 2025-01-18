@@ -1,7 +1,7 @@
 # tr
 
 > Translate characters: run replacements based on single characters and character sets.
-> More information: <https://www.gnu.org/software/coreutils/tr>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html>.
 
 - Replace all occurrences of a character in a file, and print the result:
 

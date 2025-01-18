@@ -1,7 +1,7 @@
 # mkfifo
 
 > Make FIFOs (named pipes).
-> More information: <https://www.gnu.org/software/coreutils/mkfifo>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html>.
 
 - Create a named pipe at a given path:
 
