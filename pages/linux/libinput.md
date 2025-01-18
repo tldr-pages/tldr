@@ -7,7 +7,7 @@
 
 `sudo libinput list-devices`
 
-- Print libinput events:
+- Print all libinput events:
 
 `sudo libinput debug-events`
 
