@@ -11,7 +11,7 @@
 
 `sudo libinput debug-events`
 
-- View a GUI for showing events:
+- Show a GUI to visualize libinput's events:
 
 `sudo libinput debug-gui`
 
