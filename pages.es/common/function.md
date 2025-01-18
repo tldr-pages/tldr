@@ -7,6 +7,6 @@
 
 `function {{nombre_función}} { {{echo "Contenido de la función aquí"}}; }`
 
-- Ejecuta una función llamada `nombre_función`:
+- Ejecuta una función llamada `func_name`:
 
-`nombre_función`
+`func_name`
