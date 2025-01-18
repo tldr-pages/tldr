@@ -3,7 +3,7 @@
 > Interface with libinput.
 > More information: <https://wayland.freedesktop.org/libinput/doc/latest/>.
 
-- List devices detected by libinput:
+- List all devices recognized by libinput:
 
 `sudo libinput list-devices`
 
