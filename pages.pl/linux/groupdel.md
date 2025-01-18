@@ -1,7 +1,7 @@
 # groupdel
 
 > Usuwa istniejącą grupę użytkowników z systemu.
-> Zobacz też: `groups`, `groupadd`, `groupmod`.
+> Zobacz także: `groups`, `groupadd`, `groupmod`.
 > Więcej informacji: <https://manned.org/groupdel>.
 
 - Usuń istniejącą grupę użytkowników:
