@@ -27,6 +27,6 @@
 
 `fc '{{416}}' '{{420}}'`
 
-- Toon help:
+- Toon de help:
 
 `fc --help`

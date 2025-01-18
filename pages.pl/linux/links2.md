@@ -1,7 +1,7 @@
 # links2
 
 > Tekstowa przeglądarka WWW.
-> Zobacz też: `links`.
+> Zobacz także: `links`.
 > Więcej informacji: <http://links.twibright.com/>.
 
 - Odwiedź stronę w trybie graficznym:

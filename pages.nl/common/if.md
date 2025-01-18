@@ -34,4 +34,4 @@
 
 - Toon alle mogelijke voorwaarden (`test` is een alias voor `[`; beide worden vaak gebruikt met `if`):
 
-`man [`
+`man test`

@@ -1,7 +1,7 @@
 # id
 
 > Toon de huidige gebruikers- en groepsidentiteit.
-> Meer informatie: <https://www.gnu.org/software/coreutils/id>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/id-invocation.html>.
 
 - Toon de ID (UID), groep-ID (GID) en groepen waartoe de huidige gebruiker behoort:
 

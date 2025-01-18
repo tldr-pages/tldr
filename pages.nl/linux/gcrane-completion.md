@@ -32,6 +32,6 @@
 
 `gcrane completion fish > ~/.config/fish/completions/gcrane.fish`
 
-- Toon help:
+- Toon de help:
 
 `gcrane completion {{shell_naam}} {{-h|--help}}`

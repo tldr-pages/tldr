@@ -16,6 +16,6 @@
 
 `gcrane ls {{repository}} {{-r|--recursive}}`
 
-- Toon help:
+- Toon de help:
 
 `gcrane ls {{-h|--help}}`
