@@ -1,7 +1,7 @@
 # nproc
 
 > Toon het aantal beschikbare verwerkingsunits (meestal CPU's).
-> Meer informatie: <https://www.gnu.org/software/coreutils/nproc>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/nproc-invocation.html>.
 
 - Toon het aantal beschikbare verwerkingsunits:
 

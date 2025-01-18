@@ -1,7 +1,7 @@
 # stty
 
 > Stel opties in voor een terminalapparaatinterface.
-> Meer informatie: <https://www.gnu.org/software/coreutils/stty>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html>.
 
 - Toon alle instellingen voor de huidige terminal:
 

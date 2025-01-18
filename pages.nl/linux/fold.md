@@ -1,7 +1,7 @@
 # fold
 
 > Breek lange regels af voor uitvoerapparaten met vaste breedte.
-> Meer informatie: <https://www.gnu.org/software/coreutils/fold>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/fold-invocation.html>.
 
 - Breek regels af met een vaste breedte:
 

@@ -1,7 +1,7 @@
 # nohup
 
 > Позволяет процессу продолжать работу после закрытия терминала.
-> Больше информации: <https://www.gnu.org/software/coreutils/nohup>.
+> Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/nohup-invocation.html>.
 
 - Запустить процесс, который может выполняться в отвязке от терминала:
 

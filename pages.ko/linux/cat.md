@@ -1,7 +1,7 @@
 # cat
 
 > [f]파일을 출력하고 연결.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/cat>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - [f]파일의 내용을 `stdout`에 출력:
 

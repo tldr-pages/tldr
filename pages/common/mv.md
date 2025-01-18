@@ -1,7 +1,7 @@
 # mv
 
 > Move or rename files and directories.
-> More information: <https://www.gnu.org/software/coreutils/mv>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Rename a file or directory when the target is not an existing directory:
 

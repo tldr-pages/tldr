@@ -1,7 +1,7 @@
 # pwd
 
 > Отобразить абсолютной путь до текущей/рабочей директории.
-> Больше информации: <https://www.gnu.org/software/coreutils/pwd>.
+> Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>.
 
 - Отобразить абсолютной путь до текущей директории:
 
