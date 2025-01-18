@@ -4,13 +4,13 @@
 > See also: `arthas-watch`, `arthas-trace`.
 > More information: <https://arthas.aliyun.com/en/>.
 
-- Start arthas:
+- Start Arthas:
 
-`java -jar arthas-boot.jar`
+`java -jar {{path/to/arthas-boot.jar}}`
 
-- Reconnect arthas:
+- Reconnect Arthas (default port used by Arthas is 3658):
 
-`telnet localhost 3658`
+`telnet localhost {{port_number}}`
 
 - Exit the current Arthas client without affecting other clients. equals `exit`、`logout`、`q` command:
 
