@@ -5,7 +5,7 @@
 
 - Define una función con el nombre especificado:
 
-`function {{nombre_función}} { {{echo "Contenido de la función aquí"}}; }`
+`function {{func_name}} { {{echo "Contenido de la función aquí"}}; }`
 
 - Ejecuta una función llamada `func_name`:
 
