@@ -1,8 +1,8 @@
 # lame
 
 > LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.
-> More information: <https://lame.sourceforge.io/index.php>.
 > Documentation: <https://svn.code.sf.net/p/lame/svn/trunk/lame/USAGE>.
+> More information: <https://lame.sourceforge.io/index.php>.
 
 - Encode an audio file to MP3 using CBR 320 kbit/second
 
