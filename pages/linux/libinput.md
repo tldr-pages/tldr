@@ -15,7 +15,7 @@
 
 `sudo libinput debug-gui`
 
-- Debug a tablet:
+- Debug tablet axis values:
 
 `sudo libinput debug-tablet`
 
