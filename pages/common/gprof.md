@@ -6,7 +6,7 @@
 
 - Compile binary to default `a.out` with gprof information and run it to get `gmon.out`:
 
-`gcc -pg {{program.c}} && {{./a.out}}`
+`gcc -pg {{program.c}} && ./a.out`
 
 - Run gprof on default `a.out` and `gmon.out` to obtain profile output:
 
