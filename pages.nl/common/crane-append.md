@@ -28,6 +28,6 @@
 
 `crane append --set-base-image-annotations`
 
-- Toon help:
+- Toon de help:
 
 `crane append {{-h|--help}}`

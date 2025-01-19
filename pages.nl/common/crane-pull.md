@@ -19,6 +19,6 @@
 
 `crane pull {{image_naam}} {{pad/naar/tarball}} {{-format}} {{format_naam}}`
 
-- Toon help:
+- Toon de help:
 
 `crane pull {{-h|--help}}`

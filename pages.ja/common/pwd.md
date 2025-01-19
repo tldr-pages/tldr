@@ -1,7 +1,7 @@
 # pwd
 
 > 現在の作業ディレクトリを表示します。
-> 詳しくはこちら: <https://www.gnu.org/software/coreutils/pwd>
+> もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>。
 
 - 現在のディレクトリを表示する:
 

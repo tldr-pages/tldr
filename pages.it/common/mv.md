@@ -1,7 +1,7 @@
 # mv
 
 > Sposta o rinomina file e directory.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/mv>.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Rinomina un file o una directory quando la destinazione non è una directory esistente:
 

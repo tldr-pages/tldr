@@ -2,7 +2,7 @@
 
 > Muestra y concatena archivos con las líneas en orden inverso.
 > Vea también: `cat`.
-> Más información: <https://www.gnu.org/software/coreutils/tac>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html>.
 
 - Concatena archivos específicos en orden inverso:
 

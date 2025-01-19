@@ -1,7 +1,7 @@
 # stdbuf
 
 > 표준 스트림에 대한 버퍼링 작업을 수정하여 명령을 실행.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/stdbuf>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/stdbuf-invocation.html>.
 
 - `stdin` 버퍼 크기를 512 KiB로 변경:
 

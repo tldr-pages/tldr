@@ -1,7 +1,7 @@
 # mv
 
 > 移动或重命名文件或目录。
-> 更多信息：<https://www.gnu.org/software/coreutils/mv>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - 移动文件到任意位置：
 

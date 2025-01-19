@@ -1,7 +1,7 @@
 # ln
 
 > 파일 및 디렉터리에 대한 링크를 생성합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/ln>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>.
 
 - 파일이나 디렉터리에 대한 심볼릭 링크 생성:
 

@@ -1,7 +1,7 @@
 # tee
 
 > `stdin`에서 읽고 `stdout` 및 파일(또는 명령어)로 쓰기.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/tee>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html>.
 
 - `stdin`을 각 파일과 `stdout`으로 복사:
 

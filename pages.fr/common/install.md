@@ -2,7 +2,7 @@
 
 > Copie des fichiers et met à jour leurs attributs.
 > Copie des fichiers (souvent des exécutables) dans un répertoire système comme `/usr/local/bin` et leur donne les permissions et propriétaires appropriés.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/install>.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/install-invocation.html>.
 
 - Copie des fichiers vers une destination :
 
