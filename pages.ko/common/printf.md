@@ -1,7 +1,7 @@
 # printf
 
 > 텍스트를 형식화하여 출력.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/printf>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/printf-invocation.html>.
 
 - 텍스트 메시지 출력:
 

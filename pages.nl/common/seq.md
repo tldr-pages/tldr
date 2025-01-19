@@ -1,7 +1,7 @@
 # seq
 
 > Toon een reeks getallen naar `stdout`.
-> Meer informatie: <https://www.gnu.org/software/coreutils/seq>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/seq-invocation.html>.
 
 - Reeks van 1 tot 10:
 

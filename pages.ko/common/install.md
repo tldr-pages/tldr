@@ -2,7 +2,7 @@
 
 > 파일 복사 및 속성 설정.
 > 파일 (자주 실행 가능)을 시스템 위치 (예: `/usr/local/bin`)에 복사하고 적절한 권한/소유권을 부여합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/install>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/install-invocation.html>.
 
 - 파일들을 목표에 복사:
 

@@ -1,7 +1,7 @@
 # mktemp
 
 > Create a temporary file or directory.
-> More information: <https://www.gnu.org/software/coreutils/mktemp>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/mktemp-invocation.html>.
 
 - Create an empty temporary file and print its absolute path:
 
