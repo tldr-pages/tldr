@@ -1,7 +1,7 @@
 # mv
 
 > Mueve o renombra archivos y directorios.
-> Más información: <https://www.gnu.org/software/coreutils/mv>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Cambia el nombre de un archivo o directorio cuando el destino no es un directorio existente:
 

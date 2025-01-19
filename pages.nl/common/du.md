@@ -1,7 +1,7 @@
 # du
 
 > Disk gebruik: schat en groepeer bestand en map ruimte gebruik.
-> Meer informatie: <https://www.gnu.org/software/coreutils/du>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - Toont de grootte van een map en mogelijke sub-mappen, met een gegeven eenheid (B/KiB/MiB):
 

@@ -1,7 +1,7 @@
 # df
 
 > 파일 시스템 디스크 공간 사용 개요를 표시합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/df>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html>.
 
 - 모든 파일 시스템과 디스크 사용량 표시:
 

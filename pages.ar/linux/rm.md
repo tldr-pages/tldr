@@ -2,7 +2,7 @@
 
 > يستخدم الأمر لحذف الملفات او المجلدات
 > أنظر أيضًا: `rmdir`.
-> لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/rm>.
+> لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - حذف ملفات محددة:
 

@@ -1,7 +1,7 @@
 # df
 
 > Toon een overzicht van het gebruik van het bestandssysteem op het gebied van schijfruimte.
-> Meer informatie: <https://www.gnu.org/software/coreutils/df>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html>.
 
 - Toon alle bestandssystemen en hun schijfgebruik:
 
