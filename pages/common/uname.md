@@ -2,7 +2,7 @@
 
 > Print details about the current machine and the operating system running on it.
 > See also `lsb_release`.
-> More information: <https://www.gnu.org/software/coreutils/uname>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - Print kernel name:
 

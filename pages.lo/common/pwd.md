@@ -1,7 +1,7 @@
 # pwd
 
 > ສະແດງຊື່ directory ທີ່ເຮັດວຽກຢູ່
-> ຂໍ້ມູນເພີ່ມເຕີມ: <https://www.gnu.org/software/coreutils/pwd>.
+> ຂໍ້ມູນເພີ່ມເຕີມ: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>.
 
 - ສະແດງຊື່ directory ທີ່ເຮັດວຽກຢູ່:
 

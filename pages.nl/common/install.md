@@ -2,7 +2,7 @@
 
 > Kopieer bestanden en stel attributen in.
 > Kopieer bestanden (vaak uitvoerbare) naar een systeemlocatie zoals `/usr/local/bin` en geef ze de juiste permissies/eigendom.
-> Meer informatie: <https://www.gnu.org/software/coreutils/install>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/install-invocation.html>.
 
 - Kopieer bestanden naar de bestemming:
 

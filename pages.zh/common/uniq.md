@@ -2,7 +2,7 @@
 
 > 输出输入或文件中的唯一行。
 > 因为它只检测相邻的重复行，所以需要先对它们进行排序。
-> 更多信息：<https://www.gnu.org/software/coreutils/uniq>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html>.
 
 - 仅显示每行一次：
 

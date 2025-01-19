@@ -2,7 +2,7 @@
 
 > Toon het laatste deel van een bestand.
 > Bekijk ook: `head`.
-> Meer informatie: <https://www.gnu.org/software/coreutils/tail>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
 - Toon laatste aantal regels in een bestand:
 

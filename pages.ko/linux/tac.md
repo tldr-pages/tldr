@@ -2,7 +2,7 @@
 
 > 파일의 내용을 역순으로 표시하고 연결합니다.
 > 같이 보기: `cat`.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/tac>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html>.
 
 - 특정 파일들을 역순으로 연결:
 

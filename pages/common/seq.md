@@ -1,7 +1,7 @@
 # seq
 
 > Output a sequence of numbers to `stdout`.
-> More information: <https://www.gnu.org/software/coreutils/seq>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/seq-invocation.html>.
 
 - Sequence from 1 to 10:
 

@@ -1,7 +1,7 @@
 # sha1sum
 
 > Izračunava SHA1 kriptografske kontrolne brojeve.
-> Više informacija: <https://www.gnu.org/software/coreutils/sha1sum>.
+> Više informacija: <https://www.gnu.org/software/coreutils/manual/html_node/sha1sum-invocation.html>.
 
 - Izračunaj SHA1 kontrolni broj za datoteku:
 

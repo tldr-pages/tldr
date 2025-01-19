@@ -1,7 +1,7 @@
 # stty
 
 > Настройка параметров интерфейса терминального устройства.
-> Больше информации: <https://www.gnu.org/software/coreutils/stty>.
+> Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html>.
 
 - Показать все настройки для текущего терминала:
 
