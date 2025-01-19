@@ -26,4 +26,4 @@
 
 - Show obfuscated strings and their decoded content:
 
-`olevba --decode {{path/to/file}}
+`olevba --decode {{path/to/file}}`
