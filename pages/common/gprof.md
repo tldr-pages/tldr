@@ -14,7 +14,7 @@
 
 - Run gprof on a named binary:
 
-`gprof {{./program}} gmon.out`
+`gprof {{path/to/binary}} {{path/to/gmon.out}}`
 
 - Suppress profile field's description:
 
