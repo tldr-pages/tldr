@@ -15,4 +15,3 @@
 - Specify output format and file:
 
 `proxify -output-format {{jsonl|yaml}} -output {{path/to/file}}`
-
