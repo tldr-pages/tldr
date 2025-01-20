@@ -22,3 +22,7 @@
 - Print author name and commit hash information for a specific line range:
 
 `git blame -L {{start_line}},{{end_line}} {{path/to/file}}`
+
+- Ignore whitespaces and line moves:
+
+`git blame -w -C -C -C`
