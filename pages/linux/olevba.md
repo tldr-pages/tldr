@@ -12,7 +12,7 @@
 
 `olevba -r {{path/to/directory}}`
 
-- Provide a password for encrypted Office files (may be repeated):
+- Provide a password for encrypted Microsoft Office files (may be repeated):
 
 `olevba --password {{password}} {{path/to/encrypted_file}}`
 
