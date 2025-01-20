@@ -1,6 +1,6 @@
 # uv add
 
-> Add package dependencies to the project.
+> Add package dependencies to the `pyproject.toml` file.
 > Packages are specified according to <https://peps.python.org/pep-0508/>.
 > More information: <https://docs.astral.sh/uv/reference/cli/#uv-add>.
 
@@ -32,6 +32,6 @@
 
 `uv add --editable {{path/to/package/}}`
 
-- Enable extra when installing package, may be provided multiple times:
+- Enable an extra when installing package, may be provided multiple times:
 
 `uv add {{package}} --extra {{extra_feature}}`
