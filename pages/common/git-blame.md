@@ -25,4 +25,4 @@
 
 - Ignore whitespaces and line moves:
 
-`git blame -w -C -C -C`
+`git blame -w -C -C -C {{path/to/file}}`
