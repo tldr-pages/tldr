@@ -7,7 +7,7 @@
 
 `git maintenance register`
 
-- Run maintenance tasks on the current repository every hour:
+- Schedule maintenance tasks on the current repository every hour:
 
 `git maintenance start`
 
