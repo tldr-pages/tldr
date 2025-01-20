@@ -22,7 +22,7 @@
 
 - Use an alias:
 
-`git unstage`
+`git {{unstage}}`
 
 - Revert a global configuration entry to its default value:
 
