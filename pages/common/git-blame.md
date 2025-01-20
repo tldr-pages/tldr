@@ -18,3 +18,7 @@
 - Print file with author name and commit hash on each line before a specific commit:
 
 `git blame {{commit}}~ {{path/to/file}}`
+
+- Print author name and commit hash information for a specific line range:
+
+`git blame -L {{start_line}},{{end_line}} {{path/to/file}}`
