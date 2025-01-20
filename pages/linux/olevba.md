@@ -1,7 +1,7 @@
 # olevba
 
 > Parse OLE and OpenXML files (e.g., DOC, XLS, PPT, etc.) to extract VBA macros, deobfuscate, and analyze malicious code.
-> Part of the [python-oletools](http://www.decalage.info/python/oletools) suite.
+> Part of the `python-oletools` suite.
 > For more information: <http://decalage.info/python/oletools>.
 
 - Analyze a file, showing both macro code and analysis results:
