@@ -114,7 +114,7 @@ tldr --render path/to/tldr_page.md
 
 > هذا الأمر هو لقب لـ `اسم-الأمر-الأصلي`.
 
-- عرض الإرشادات للأمر الأصلي:
+- عرض التوثيقات للأمر الأصلي:
 
 `tldr original_command_name`
 ```
@@ -126,7 +126,7 @@ tldr --render path/to/tldr_page.md
 
 > هذا الأمر هو لقب لـ `vim`.
 
-- عرض الإرشادات للأمر الأصلي:
+- عرض التوثيقات للأمر الأصلي:
 
 `tldr vim`
 
@@ -147,13 +147,13 @@ tldr --render path/to/tldr_page.md
 > في PowerShell، هذا الأمر هو لقب لـ `Set-Location`. هذه الوثائق تستند إلى النسخة الخاصة بـ Command Prompt (`cmd`) من `cd`.
 > مزيد من التفاصيل: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- عرض الإرشادات الخاصة بالأمر المقابل في PowerShell:
+- عرض التوثيقات الخاصة بالأمر المقابل في PowerShell:
 
 `tldr set-location`
 ```
 
 > [!NOTE]
-> مثال "عرض الإرشادات للأمر المعادل في PowerShell" اختياري ويجب استبعاده إذا كانت الصفحة تحتوي بالفعل على الحد الأقصى من الأمثلة (8).
+> مثال "عرض التوثيقات للأمر المعادل في PowerShell" اختياري ويجب استبعاده إذا كانت الصفحة تحتوي بالفعل على الحد الأقصى من الأمثلة (8).
 
 2. **يوفر لقبًا جديدًا يمكن تنفيذه فقط في PowerShell**، مثل `ni` لـ `New-Item`. في هذه الحالة، استخدم [قالب اللقب القياسي](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md)، ولكن أضف كلمة "في PowerShell" (أو ما يعادلها) للإشارة إلى أن الأمر حصري لـ PowerShell. على سبيل المثال:
 
@@ -163,7 +163,7 @@ tldr --render path/to/tldr_page.md
 > في PowerShell، هذا الأمر هو لقب لـ `New-Item`.
 > مزيد من التفاصيل: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
 
-- عرض الإرشادات للأمر الأصلي:
+- عرض التوثيقات للأمر الأصلي:
 
 `tldr new-item`
 ```
@@ -182,11 +182,11 @@ tldr --render path/to/tldr_page.md
 
 `curl --version`
 
-- عرض الإرشادات الخاصة بأمر `curl` الأصلي:
+- عرض التوثيقات الخاصة بأمر `curl` الأصلي:
 
 `tldr curl -p common`
 
-- عرض الإرشادات الخاصة بأمر `Invoke-WebRequest` في PowerShell:
+- عرض التوثيقات الخاصة بأمر `Invoke-WebRequest` في PowerShell:
 
 `tldr invoke-webrequest`
 ```
