@@ -26,6 +26,7 @@
 
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun
 /contributing-guides/style-guide.md @sbrl @kbdharun
+/contributing-guides/*.ar.md @MachiavelliII
 /contributing-guides/*.de.md @pixelcmtd @gutjuri
 /contributing-guides/*.es.md @kant @tricantivu @ikks
 /contributing-guides/*.fa.md @MrMw3
