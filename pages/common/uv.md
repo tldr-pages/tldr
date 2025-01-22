@@ -10,7 +10,7 @@
 
 - Create a new Python project at the specified path:
 
-`uv init {{path}}`
+`uv init {{path/to/directory}}`
 
 - Add a new dependency to the project:
 
