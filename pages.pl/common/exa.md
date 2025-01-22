@@ -1,7 +1,7 @@
 # exa
 
 > Nowoczesny odpowiednik `ls` (wyświetla zawartość katalogu).
-> Więcej informacji: <https://the.exa.website>.
+> Więcej informacji: <https://github.com/ogham/exa>.
 
 - Wyświetl listę plików, po jednym w linii:
 
