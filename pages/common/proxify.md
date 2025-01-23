@@ -12,6 +12,6 @@
 
 `proxify -http-addr "{{network_interface}}:{{port_number}}"`
 
-- Specify output format and file:
+- Specify output format and output file:
 
 `proxify -output-format {{jsonl|yaml}} -output {{path/to/file}}`
