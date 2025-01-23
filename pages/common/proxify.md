@@ -4,7 +4,7 @@
 > See also: `mitmproxy`.
 > More information: <https://github.com/projectdiscovery/proxify>.
 
-- Start HTTP proxy (on default network interface `127.0.0.1` port `8888`):
+- Start a HTTP proxy (on the loopback network interface `127.0.0.1` port `8888`):
 
 `proxify`
 
