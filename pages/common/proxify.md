@@ -8,7 +8,7 @@
 
 `proxify`
 
-- Start HTTP proxy on custom network interface and port (may require `sudo` for port number lower than `1024`):
+- Start a HTTP proxy on a custom network interface and port (may require `sudo` for a port number lower than `1024`):
 
 `proxify -http-addr "{{network_interface}}:{{port_number}}"`
 
