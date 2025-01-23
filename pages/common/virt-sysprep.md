@@ -9,7 +9,7 @@
 
 - Remove sensitive system data from a virtual machine image:
 
-`sudo virt-sysprep --add {{path/to/image}}`
+`sudo virt-sysprep --add {{path/to/image.qcow2}}`
 
 - Specify a virtual machine by its name and run all enabled operations but don't actually apply the changes:
 
