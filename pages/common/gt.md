@@ -3,10 +3,6 @@
 > Create and manage sequences of dependent code changes (stacks) for Git and GitHub.
 > More information: <https://graphite.dev/docs/get-started>.
 
-- Authenticate the CLI with Graphite's API:
-
-`gt auth --token {{graphite_cli_auth_token}}`
-
 - Initialise `gt` for the repository in the current directory:
 
 `gt init`
