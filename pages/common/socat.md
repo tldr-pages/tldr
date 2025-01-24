@@ -21,8 +21,8 @@
 
 - Send data with multicast routing scheme:
 
-`echo "Hello Multicast" | socat - UDP4-DATAGRAM:224.0.0.1:5000`
+`{{echo "Hello Multicast"}} | socat - UDP4-DATAGRAM:{{224.0.0.1}}:{{5000}}`
 
 - Receive data from a multicast:
 
-`socat - UDP4-RECVFROM:5000`
+`socat - UDP4-RECVFROM:{{5000}}`
