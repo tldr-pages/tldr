@@ -3,7 +3,7 @@
 > Manage multicast addresses.
 > More information: <https://manned.org/ip-maddress>.
 
-- List multicast addresses:
+- List multicast addresses and how many programs are subscribed to them:
 
 `ip maddress`
 
