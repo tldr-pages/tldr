@@ -23,6 +23,6 @@
 
 `echo "Hello Multicast" | socat - UDP4-DATAGRAM:224.0.0.1:5000`
 
-- Receive data from a multicast
+- Receive data from a multicast:
 
 `socat - UDP4-RECVFROM:5000`
