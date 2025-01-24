@@ -1,6 +1,7 @@
 # virt-sysprep
 
 > Reset, unconfigure, or customize a virtual machine image.
+> You will need sudo if the images are in a user inaccessible location.
 > More information: <https://manned.org/virt-sysprep>.
 
 - List all supported operations (enabled operations are indicated with asterisks):
