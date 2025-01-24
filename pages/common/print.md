@@ -7,7 +7,7 @@
 - Print input:
 'print "Hello" "World"'
 
-- Print seperated by newline(s):
+- Print separated by newline(s):
 'print -l "Linel" "Line 2" "Line3"'
 
 - Print without trailing newline
