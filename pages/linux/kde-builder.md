@@ -22,7 +22,7 @@
 
 - Resume compilation from a specific dependency:
 
-`kde-builder --resume-from={{dependency_component}} {{component_name}}`
+`kde-builder --resume-from {{dependency_component}} {{component_name}}`
 
 - Run a component with a specified executable name:
 
