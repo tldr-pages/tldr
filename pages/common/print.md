@@ -1,9 +1,7 @@
 # print
-> Z Shell ('zsh') builtin. Prints arguments, similar
-to 'echo'
+> Z Shell ('zsh') builtin. Prints arguments, similar to 'echo'.
 See also: 'echo', 'printf'
-> More information: <https://zsh.sourceforge.io/Doc/Re
-Lease/Shell-Builtin-Commands.html>
+> More information: <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>
 
 - Print input:
 'print "Hello" "World"'
