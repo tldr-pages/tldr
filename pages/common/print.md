@@ -16,5 +16,5 @@
 - Enable backslash escapes:
 `print -e "Line 1\nLine2"`
 
-- Print arguments as described by 'printf'. Note: For greater portability across shells use 'printf':
+- Print arguments as described by 'printf'. Note: For greater portability across shells use `printf`:
 `print -f "%s is %d years old.\n" "Alice" 30`
