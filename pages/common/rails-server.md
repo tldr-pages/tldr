@@ -1,6 +1,6 @@
 # rails server
 
-> Run a web server named Puma which comes bundled with Rails.
+> Serve the Rails app in the current directory using the Puma web server, which comes bundled with Rails.
 > More information: <https://guides.rubyonrails.org/command_line.html#bin-rails-server>.
 
 - Run the web server:
