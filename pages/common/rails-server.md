@@ -13,7 +13,7 @@
 
 - Run the web server on a specified IP address:
 
-`rails server --binding {{IP_address}}`
+`rails server --binding {{ip_address}}`
 
 - Run the web server on a specified environment:
 
