@@ -10,3 +10,11 @@
 - List device specific addresses:
 
 `ip maddress show dev {{eth0}}`
+
+- Join a multicast group statically:
+
+`ip maddress add {{33:33:00:00:00:01}} dev {{eth0}}`
+
+- Leave a static multicast group:
+
+`ip maddress delete {{33:33:00:00:00:01}} dev {{eth0}}`
