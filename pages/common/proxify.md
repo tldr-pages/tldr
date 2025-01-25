@@ -15,3 +15,7 @@
 - Specify output format and output file:
 
 `proxify -output-format {{jsonl|yaml}} -output {{path/to/file}}`
+
+- Display help:
+
+`proxify -h`
