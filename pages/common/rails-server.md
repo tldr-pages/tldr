@@ -9,15 +9,15 @@
 
 - Run the web server on a specified port:
 
-`rails server --port={{port_number}}`
+`rails server --port {{port_number}}`
 
 - Run the web server on a specified IP address:
 
-`rails server --binding={{IP_address}}`
+`rails server --binding {{IP_address}}`
 
 - Run the web server on a specified environment:
 
-`rails server --environment={{environment}}`
+`rails server --environment {{environment}}`
 
 - Display help:
 
