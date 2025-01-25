@@ -1,6 +1,6 @@
 # mpremote
 
-> A tool to remotely control MicroPython devices.
+> Remotely control MicroPython devices.
 > More information: <https://docs.micropython.org/en/latest/reference/mpremote.html>.
 
 - List all connected MicroPython devices:
