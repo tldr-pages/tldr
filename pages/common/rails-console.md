@@ -1,6 +1,6 @@
 # rails console
 
-> Interact with a Rails application from the command line.
+> Interact with a Rails application.
 > More information: <https://guides.rubyonrails.org/command_line.html#bin-rails-console>.
 
 - Start the Rails console:
