@@ -7,15 +7,15 @@
 
 `git cliff > {{CHANGELOG.md}}`
 
-- Generate from commits starting from the latest tag and print to `stdout`:
+- Generate a changelog from commits starting from the latest tag and print it to `stdout`:
 
 `git cliff {{-l|--latest}}`
 
-- Generate from commits that belong to the current tag (use `git checkout` on a tag before this):
+- Generate a changelog from commits that belong to the current tag (use `git checkout` on a tag before this):
 
 `git cliff --current`
 
-- Generate from commits that do not belong to a tag:
+- Generate a changelog from commits that do not belong to a tag:
 
 `git cliff {{-u|--unreleased}}`
 
