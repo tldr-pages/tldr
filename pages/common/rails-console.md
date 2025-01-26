@@ -11,9 +11,9 @@
 
 `rails console --sandbox`
 
-- Start the Rails console on a specified environment (e.g. dev/test/production):
+- Start the Rails console on a specified environment:
 
-`rails console --environment {{environment}}`
+`rails console --environment {{dev|test|production|...}}`
 
 - Display help:
 
