@@ -3,9 +3,9 @@
 > Next-generation web scanner.
 > More information: <https://morningstarsecurity.com/research/whatweb>.
 
-- Scan a website(s)/target(s):
+- Scan websites/targets:
 
-`whatweb {{example.com}} {{example.org}}`
+`whatweb {{website1 website2 ...}}`
 
 - Read targets/websites from a file:
 
