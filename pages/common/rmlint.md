@@ -7,7 +7,7 @@
 
 `rmlint {{path/to/directory1 path/to/directory2 ...}}`
 
-- Check for duplicates bigger than 1MB, preferably keeping files in tagged directories (after the double slash):
+- Check for duplicates bigger than a specific size, preferably keeping files in tagged directories (after the double slash):
 
 `rmlint -s {{1MB}} {{path/to/directory}} // {{path/to/original_directory}}`
 
@@ -31,6 +31,6 @@
 
 `rmlint -c sh:link --match-basename {{path/to/directory}}`
 
-- Use data as master directory. Find only duplicates in backup that are also in data. Do not delete any files in data:
+- Use `data` as master directory. Find only duplicates in backup that are also in `data`. Do not delete any files in `data`:
 
-`rmlint {{backup}} // {{data}} --keep-all-tagged --must-match-tagged`
+`rmlint {{path/to/backup}} // {{path/to/data}} --keep-all-tagged --must-match-tagged`
