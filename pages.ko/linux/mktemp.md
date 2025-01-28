@@ -1,7 +1,7 @@
 # mktemp
 
 > 임시 파일 또는 디렉토리 생성.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/mktemp>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/mktemp-invocation.html>.
 
 - 빈 임시 파일을 생성하고 절대 경로 출력:
 

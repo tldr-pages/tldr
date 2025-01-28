@@ -1,7 +1,7 @@
 # rm
 
 > Lösche Dateien oder Verzeichnisse.
-> Weitere Informationen: <https://www.gnu.org/software/coreutils/rm>.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Lösche Dateien an beliebigen Speicherorten:
 

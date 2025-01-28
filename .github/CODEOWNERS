@@ -1,6 +1,8 @@
+/pages.ar/ @MachiavelliII
 /pages.de/ @pixelcmtd @gutjuri
 /pages.es/ @kant @tricantivu @ikks
 /pages.fa/ @MrMw3
+/pages.fi/ @Managor
 /pages.fr/ @Nico385412 @nicokosi @noraj
 /pages.hi/ @kbdharun @debghs @karthik-script
 /pages.id/ @reinhart1010
@@ -24,6 +26,7 @@
 
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun
 /contributing-guides/style-guide.md @sbrl @kbdharun
+/contributing-guides/*.ar.md @MachiavelliII
 /contributing-guides/*.de.md @pixelcmtd @gutjuri
 /contributing-guides/*.es.md @kant @tricantivu @ikks
 /contributing-guides/*.fa.md @MrMw3

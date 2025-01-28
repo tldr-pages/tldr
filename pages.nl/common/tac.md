@@ -2,7 +2,7 @@
 
 > Toon en voeg bestanden samen met regels in omgekeerde volgorde.
 > Bekijk ook: `cat`.
-> Meer informatie: <https://www.gnu.org/software/coreutils/tac>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html>.
 
 - Voeg specifieke bestanden samen in omgekeerde volgorde:
 

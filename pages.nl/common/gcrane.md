@@ -26,6 +26,6 @@
 
 `gcrane {{-v|--verbose}} {{subcommand}}`
 
-- Toon help:
+- Toon de help:
 
 `gcrane {{-h|--help}}`

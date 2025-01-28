@@ -1,7 +1,7 @@
 # numfmt
 
 > Convert numbers to and from human-readable strings.
-> More information: <https://www.gnu.org/software/coreutils/numfmt>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/numfmt-invocation.html>.
 
 - Convert 1.5K (SI Units) to 1500:
 

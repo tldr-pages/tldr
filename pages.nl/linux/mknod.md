@@ -1,7 +1,7 @@
 # mknod
 
 > Maak speciale bestanden voor blok- of tekenapparaten aan.
-> Meer informatie: <https://www.gnu.org/software/coreutils/mknod>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html>.
 
 - Maak een blokapparaat aan:
 

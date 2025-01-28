@@ -7,6 +7,6 @@
 
 `gcrane help {{command}}`
 
-- Toon help:
+- Toon de help:
 
 `gcrane help {{-h|--help}}`

@@ -1,8 +1,8 @@
 # rmdir
 
 > Verwijder directories zonder bestanden.
-> Zie ook: `rm`.
-> Meer informatie: <https://www.gnu.org/software/coreutils/rmdir>.
+> Bekijk ook: `rm`.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html>.
 
 - Verwijder specifieke directories:
 

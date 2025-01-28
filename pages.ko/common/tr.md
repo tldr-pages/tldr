@@ -1,7 +1,7 @@
 # tr
 
 > 문자를 변환합니다: 단일 문자 및 문자 집합을 기반으로 대체를 수행합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/tr>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html>.
 
 - 파일에서 특정 문자의 모든 발생을 대체하고 결과를 출력:
 

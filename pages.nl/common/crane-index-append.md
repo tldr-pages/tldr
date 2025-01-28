@@ -25,6 +25,6 @@
 
 `crane index append --flatten`
 
-- Toon help:
+- Toon de help:
 
 `crane index append {{-h|--help}}`

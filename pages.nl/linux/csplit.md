@@ -2,7 +2,7 @@
 
 > Splits een bestand in stukken.
 > Dit genereert bestanden zoals "xx00", "xx01" etc.
-> Meer informatie: <https://www.gnu.org/software/coreutils/csplit>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html>.
 
 - Splits een bestand op regels 5 en 23:
 
