@@ -1,7 +1,7 @@
 # ln
 
 > फाइलों और निर्देशिकाओं के लिंक बनाता है।
-> अधिक जानकारी: <https://www.gnu.org/software/coreutils/ln>।
+> अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>।
 
 - किसी फ़ाइल या निर्देशिका के लिए एक प्रतीकात्मक लिंक बनाएँ:
 

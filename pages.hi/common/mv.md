@@ -1,7 +1,7 @@
 # mv
 
 > फ़ाइलों और निर्देशिकाओं को स्थानांतरित या नाम बदलें।
-> अधिक जानकारी: <https://www.gnu.org/software/coreutils/mv>।
+> अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>।
 
 - किसी फ़ाइल को मनमाना स्थान पर ले जाएँ:
 

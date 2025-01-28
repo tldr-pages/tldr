@@ -1,7 +1,7 @@
 # mknod
 
 > 创建块或字符设备特殊文件。
-> 更多信息：<https://www.gnu.org/software/coreutils/mknod>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html>.
 
 - 创建块设备：
 

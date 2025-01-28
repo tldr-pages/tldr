@@ -1,7 +1,7 @@
 # unexpand
 
 > Converteer spaties naar tabs.
-> Meer informatie: <https://www.gnu.org/software/coreutils/unexpand>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/unexpand-invocation.html>.
 
 - Converteer spaties in elk bestand naar tabs en schrijf naar `stdout`:
 

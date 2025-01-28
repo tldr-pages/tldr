@@ -1,7 +1,7 @@
 # yes
 
 > Exibe algo repetidamente.
-> Mais informações: <https://www.gnu.org/software/coreutils/yes>.
+> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/yes-invocation.html>.
 
 - Exibir a palavra "mensagem" repetidamente:
 

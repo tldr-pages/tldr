@@ -1,7 +1,7 @@
 # wc
 
 > Cuenta líneas, palabras, y bytes.
-> Más información: <https://www.gnu.org/software/coreutils/wc>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/wc-invocation.html>.
 
 - Cuenta todas las líneas en un archivo:
 

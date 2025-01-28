@@ -1,7 +1,7 @@
 # whoami
 
 > 打印当前有效用户 ID 的用户名。
-> 更多信息：<https://www.gnu.org/software/coreutils/whoami>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/whoami-invocation.html>.
 
 - 显示当前登录用户名：
 

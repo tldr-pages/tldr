@@ -1,7 +1,7 @@
 # du
 
 > 디스크 사용량: 파일 및 디렉터리 공간 사용량을 추정하고 요약.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/du>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - 지정된 단위(B/KiB/MiB)로 디렉터리 및 하위 디렉터리의 크기를 나열:
 
