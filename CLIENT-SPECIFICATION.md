@@ -42,7 +42,7 @@ Option             | Required?   | Meaning
 `-S`, `--shortform`| No          | If set, will filter {{[*|*]}} patterns in examples to only show their shortform option.
 `-V`, `--longform` | No          | If set, will filter {{[*|*]}} patterns in examples to only show their longform option.
 
-By default clients SHOULD display the longform option when neither `--shortform` or `--longform` is set by the user. If both are provided, both patterns should be displayed separated by a `|`.
+By default clients SHOULD only display the longform option when neither `--shortform` or `--longform` is set by the user. If both are provided, both patterns should be displayed separated by a `|`.
 
 Additional decoration MAY be printed if the standard output is a [TTY](https://linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example, a page list MUST be formatted with one page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
