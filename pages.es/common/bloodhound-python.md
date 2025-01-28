@@ -13,7 +13,7 @@
 
 - Se autentica utilizando hashes NTLM en lugar de una contraseña:
 
-`bloodhound-python --collectionmethod {{Todos}} --username {{nombre_de_usuario}} --hashes {{LM:NTLM}} --domain {{dominio}}``
+`bloodhound-python --collectionmethod {{Todos}} --username {{nombre_de_usuario}} --hashes {{LM:NTLM}} --domain {{dominio}}`
 
 - Especifica un servidor de nombres personalizado para consultas DNS:
 
