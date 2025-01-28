@@ -39,8 +39,8 @@ Option             | Required?   | Meaning
 `-u`, `--update`   | Conditional | Updates the offline cache of pages. MUST be implemented if caching is supported.
 `-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output.
 `-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
-`-S`, `--shortform`| No          | If set, will filter {{[*|*]}} patterns in examples to show their shortform option.
-`-V`, `--longform` | No          | If set, will filter {{[*|*]}} patterns in examples to show their longform option.
+`-S`, `--shortform`| No          | If set, will filter {{[*|*]}} patterns in examples to show their shortform option (first element).
+`-V`, `--longform` | No          | If set, will filter {{[*|*]}} patterns in examples to show their longform option (second element).
 
 Clients MUST implement both the short and long versions of an option.
 
