@@ -1,7 +1,7 @@
 # dialog
 
-# Display dialog boxes on the terminal.
-# More information: <https://manned.org/dialog>.
+> Display dialog boxes on the terminal.
+> More information: <https://manned.org/dialog>.
 
 - Display a message:
 
