@@ -1,6 +1,6 @@
 # gtk-launch
 
-> Launch applications from desktop files that reside in standard locations.
+> Launch applications from `.desktop` files that reside in standard locations.
 > More information: <https://manned.org/gtk-launch>.
 
 - Launch an application:
