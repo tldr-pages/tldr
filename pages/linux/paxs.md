@@ -1,7 +1,7 @@
 # paxs
 
-> Manage packages across Yay, Flatpak, and Snap.  
-> Supports searching, installing, removing, and upgrading packages.  
+> Manage packages across Yay, Flatpak, and Snap.
+> Supports searching, installing, removing, and upgrading packages.
 > More information: <https://github.com/zamhedonia/paxs>.
 
 - Search for a package:
