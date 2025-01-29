@@ -30,7 +30,7 @@ This section describes the standardised command-line interface (CLI) for clients
 
 ### Arguments
 
-The following command-line options MUST be supported (unless otherwise specified) if a CLI is implemented:
+The following command-line options MUST be supported (unless otherwise specified) if a CLI is implemented and both the short and long versions MUST be implemented:
 
 Option             | Required?   | Meaning
 -------------------|-------------|----------
@@ -41,8 +41,6 @@ Option             | Required?   | Meaning
 `-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
 `-S`, `--shortform`| No          | If set, will filter {{[*|*]}} patterns in examples to show their shortform option (first element).
 `-V`, `--longform` | No          | If set, will filter {{[*|*]}} patterns in examples to show their longform option (second element).
-
-Clients MUST implement both the short and long versions of an option.
 
 By default clients SHOULD display only the longform option when neither `--shortform` or `--longform` is set by the user. If both are provided, both patterns should be displayed separated by a `|`.
 
