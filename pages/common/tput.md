@@ -31,6 +31,6 @@
 
 `tput {{smcup|rmcup}}`
 
-- Reverse text and background colors :
+- Reverse text and background colors:
 
 `tput rev`
