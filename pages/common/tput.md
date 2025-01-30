@@ -29,7 +29,7 @@
 
 - Save or restore terminal text status:
 
-`tput smcup|rmcup`
+`tput {{smcup|rmcup}}`
 
 - Ring the terminal bell:
 
