@@ -6,7 +6,7 @@
 
 - Inicializa `kde-builder`:
 
-`kde-builder --initial-setup`
+`kde-builder --generate-config && kde-builder --install-distro-packages`
 
 - Compila un componente KDE y sus dependencias desde el código fuente:
 
