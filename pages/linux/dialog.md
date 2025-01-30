@@ -11,6 +11,6 @@
 
 `dialog --inputbox "{{Enter text:}}" {{8}} {{40}} 2>{{output.txt}}`
 
-- Promp the user for a yes/no question:
+- Prompt the user for a yes/no question:
 
 `dialog --yesno "{{Continue?}}" {{7}} {{40}}`
