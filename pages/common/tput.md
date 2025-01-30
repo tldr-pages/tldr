@@ -25,7 +25,7 @@
 
 - Hide or show the terminal cursor:
 
-`tput civis|cnorm`
+`tput {{civis|cnorm}}`
 
 - Save or restore terminal text status:
 
