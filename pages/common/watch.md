@@ -1,6 +1,6 @@
 # watch
 
-> Execute a program periodically, and monitor the output in full-screen mode.
+> Execute a program periodically and monitor the output in full-screen mode.
 > More information: <https://manned.org/watch>.
 
 - Repeatedly run a command and show the result:
@@ -18,6 +18,10 @@
 - Repeatedly run a pipeline and show the result:
 
 `watch "{{command_1}} | {{command_2}} | {{command_3}}"`
+
+- Exit `watch` if the visible output changes:
+
+`watch --chgexit {{lsblk}}`
 
 - Interpret terminal control characters:
 
