@@ -23,6 +23,6 @@
 
 `cat << {{EOF}} > {{path/to/file.txt}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
 
-- Disregard leading tabs (good for scripts with indentation):
+- Disregard leading tabs (good for scripts with indentation but does not work for spaces):
 
 `cat <<- {{EOF}} > {{path/to/file.txt}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
