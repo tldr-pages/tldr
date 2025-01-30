@@ -11,6 +11,10 @@
 
 `tput {{setaf|setab}} {{ansi_color_code}}`
 
+- Reverse text and background colors:
+
+`tput rev`
+
 - Reset all terminal text attributes:
 
 `tput sgr0`
@@ -30,7 +34,3 @@
 - Save or restore terminal text status:
 
 `tput {{smcup|rmcup}}`
-
-- Reverse text and background colors:
-
-`tput rev`
