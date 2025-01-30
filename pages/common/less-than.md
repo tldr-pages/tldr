@@ -14,3 +14,11 @@
 - Create a here string and pass that into `stdin` (achieves the same effect as `echo string |`):
 
 `{{command}} <<< {{string}}`
+
+- Write a here document into a file:
+
+`cat << {{EOF}} > {{path/to/file.txt}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
+
+- Disregard leading tabs (good for scripts with indentation):
+
+`cat <<- {{EOF}} > {{path/to/file.txt}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
