@@ -15,6 +15,10 @@
 
 `{{command}} <<< {{string}}`
 
+- Process data from a file and write the output to another file:
+
+`{{command}} < {{path/to/file.txt}} > {{path/to/file.txt}}`
+
 - Write a here document into a file:
 
 `cat << {{EOF}} > {{path/to/file.txt}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
