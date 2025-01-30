@@ -31,6 +31,6 @@
 
 `tput {{smcup|rmcup}}`
 
-- Ring the terminal bell:
+- Reverse text and background colors :
 
-`tput bel`
+`tput rev`
