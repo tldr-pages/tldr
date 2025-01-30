@@ -17,7 +17,7 @@
 
 - Process data from a file and write the output to another file:
 
-`{{command}} < {{path/to/file.txt}} > {{path/to/file.txt}}`
+`{{command}} < {{path/to/file.txt}} > {{path/to/file2.txt}}`
 
 - Write a here document into a file:
 
