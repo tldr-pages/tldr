@@ -5,12 +5,12 @@
 
 - عرض معرّفات العمليات (PIDs) لأي عمليات جارية تتطابق مع اسم العملية:
 
-  `pgrep {{process_name}}`
+`pgrep {{process_name}}`
 
 - البحث عن العمليات مع الخيارات المستخدمة في سطر الأوامر:
 
-  `pgrep --full "{{process_name}} {{parameter}}"`
+`pgrep --full "{{process_name}} {{parameter}}"`
 
 - البحث عن العمليات التي يتم تشغيلها بواسطة مستخدم معين:
 
-  `pgrep --euid root {{process_name}}`
+`pgrep --euid root {{process_name}}`
