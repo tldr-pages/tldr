@@ -22,4 +22,3 @@
 - Switch between raw and normal mode:
 
 `stty {{raw|cooked}}`
- 
