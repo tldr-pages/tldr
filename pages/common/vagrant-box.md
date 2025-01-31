@@ -6,34 +6,32 @@
 
 - List all installed boxes:
 
-  `vagrant box list`
+`vagrant box list`
 
 - Add a new box:
 
-  `vagrant box add hashicorp/bionic64`
+`vagrant box add hashicorp/bionic64`
 
 - Add a box from a custom URL:
 
-  `vagrant box add my-box https://example.com/my-box.box`
+`vagrant box add my-box https://example.com/my-box.box`
 
 - Remove an installed box:
 
-  `vagrant box remove hashicorp/bionic64`
+`vagrant box remove hashicorp/bionic64`
 
-- Updates all boxes that are in use in the current Vagrant environment:
+- Update all boxes that are in use in the current Vagrant environment:
 
-  `vagrant box update`
+`vagrant box update`
 
 - Update a specific box:
 
-  `vagrant box update --box bento/debian-12`
+`vagrant box update --box bento/debian-12`
 
-- Checks if there is a new version available for the box that you are using:
+- Check if there is a new version available for the box that you are using:
 
-  `vagrant box outdated`
+`vagrant box outdated`
 
 - Clean up old versions of installed boxes:
 
-  `vagrant box prune`
-
-
+`vagrant box prune`
