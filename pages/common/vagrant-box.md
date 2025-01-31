@@ -1,4 +1,4 @@
-# vagrant-box
+# vagrant box
 
 > Manage Vagrant boxes (virtual machine images).
 > See also: `vagrant`.
@@ -10,15 +10,15 @@
 
 - Add a new box:
 
-`vagrant box add hashicorp/bionic64`
+`vagrant box add {{hashicorp/bionic64}}`
 
 - Add a box from a custom URL:
 
-`vagrant box add my-box https://example.com/my-box.box`
+`vagrant box add {{my-box}} {{https://example.com/my-box.box}}`
 
 - Remove an installed box:
 
-`vagrant box remove hashicorp/bionic64`
+`vagrant box remove {{hashicorp/bionic64}}`
 
 - Update all boxes that are in use in the current Vagrant environment:
 
@@ -26,7 +26,7 @@
 
 - Update a specific box:
 
-`vagrant box update --box bento/debian-12`
+`vagrant box update --box {{bento/debian-12}}`
 
 - Check if there is a new version available for the box that you are using:
 
