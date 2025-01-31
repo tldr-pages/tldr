@@ -31,6 +31,6 @@
 
 `tput {{civis|cnorm}}`
 
-- Save or restore terminal text status:
+- Save or restore terminal text status (smcup also captures scroll wheel events):
 
 `tput {{smcup|rmcup}}`
