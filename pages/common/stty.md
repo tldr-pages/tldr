@@ -22,3 +22,7 @@
 - Switch between raw and normal mode:
 
 `stty {{raw|cooked}}`
+
+- Turn character echoing off or on:
+
+`stty {{-echo|echo}}`
