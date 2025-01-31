@@ -1,7 +1,7 @@
 # logread
 
 > Read the `logd` ring buffer log.
-> More information: <https://openwrt.org/docs/guide-user/base-system/log.essentials>
+> More information: <https://openwrt.org/docs/guide-user/base-system/log.essentials>.
 
 - Print the log:
 
