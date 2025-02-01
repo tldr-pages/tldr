@@ -11,7 +11,7 @@
 
 `inxi --expanded --filter`
 
-- Print a summary CPU information:
+- Print a summary of CPU information:
 
 `inxi --cpu`
 
