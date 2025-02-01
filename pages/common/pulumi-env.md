@@ -3,7 +3,7 @@
 > Manage Pulumi environments.
 > More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_env/>.
 
-- List all environments
+- List all environments:
 
 `pulumi env ls`
 
