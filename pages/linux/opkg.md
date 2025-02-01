@@ -27,7 +27,7 @@
 
 `opkg list`
 
-- Find which package owns a file:
+- Find out which package owns a file:
 
 `opkg search {{/path/to/file}}`
 
