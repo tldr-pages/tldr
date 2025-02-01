@@ -17,7 +17,7 @@
 
 - Edit an environment definition:
 
-`puulumi env edit {{environment_name}}`
+`pulumi env edit {{environment_name}}`
 
 - Delete a value from an environment:
 
