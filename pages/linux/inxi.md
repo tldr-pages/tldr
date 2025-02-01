@@ -7,7 +7,7 @@
 
 `inxi`
 
-- Print a full description of CPU, memory, disk, network and process information and filter sensitive information:
+- Print a full description of CPU, memory, disk, network, and process information and filter sensitive information:
 
 `inxi --expanded --filter`
 
