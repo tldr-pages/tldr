@@ -21,4 +21,4 @@
 
 - Ignore a signal:
 
-`trap "" {{SIGINT}}`
+`trap '' {{SIGINT}}`
