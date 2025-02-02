@@ -18,3 +18,7 @@
 - Remove commands:
 
 `trap - {{SIGHUP}} {{SIGINT}}`
+
+- Ignore a signal:
+
+`trap "" {{SIGINT}}`
