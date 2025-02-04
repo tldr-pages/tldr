@@ -14,7 +14,7 @@
 
 - Install a plugin from a local file source:
 
-`vagrant plugin install {{/path/to/my_plugin.gem}}`
+`vagrant plugin install {{path/to/my_plugin.gem}}`
 
 - Update all installed plugins to their latest version:
 
