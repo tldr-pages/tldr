@@ -17,7 +17,7 @@
 
 - Actualiza uno o varios paquetes específicos:
 
-`opkg upgrade {{paquete(s)}}``
+`opkg upgrade {{paquete(s)}}`
 
 - Muestra información sobre un paquete concreto:
 
