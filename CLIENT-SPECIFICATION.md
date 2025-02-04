@@ -39,10 +39,10 @@ Option             | Required?   | Meaning
 `-u`, `--update`   | Conditional | Updates the offline cache of pages. MUST be implemented if caching is supported.
 `-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output.
 `-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
-`-o`, `--shortform`| No          | If set, will filter {{[*|*]}} patterns in examples to show their shortform option (first element).
-`-O`, `--longform` | No          | If set, will filter {{[*|*]}} patterns in examples to show their longform option (second element).
+`-o`, `--shortform`| No          | If set, will filter examples to show their shortform option when available
+`-O`, `--longform` | No          | If set, will filter examples to show their longform option when available
 
-By default clients SHOULD display only the longform option when neither `--shortform` or `--longform` is set by the user. If both are provided, both patterns should be displayed separated by a `|`.
+By default clients SHOULD display only the longform option when neither `--shortform` or `--longform` is set by the user. If both are provided, both patterns should be displayed.
 
 Additional decoration MAY be printed if the standard output is a [TTY](https://linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example, a page list MUST be formatted with one page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
