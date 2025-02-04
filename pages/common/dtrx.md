@@ -1,9 +1,9 @@
 # dtrx
 
-> "Do The Right eXtraction" - don't remember what set of tar flags or where to pipe the output to extract it? no worries!
+> "Do The Right eXtraction" - extract any archive into new directory by guessing the tool from extension.
 > More information: <https://github.com/dtrx-py/dtrx>.
 
-- Extract archive, guessing the tool from extension:
+- Extract archive, guessing the extraction tool from extension:
 
 `dtrx {{foo}}`
 
