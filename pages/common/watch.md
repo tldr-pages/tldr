@@ -25,4 +25,4 @@
 
 - Interpret terminal control characters:
 
-`watch --color "{{tput setab 3; ls}}"`
+`watch --color {{ls --color=always}}`
