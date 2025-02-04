@@ -10,11 +10,11 @@
 
 - Install a plugin from remote repositories, usually RubyGems:
 
-`vagrant plugin install {{vagrant-vbguest}}`
+`vagrant plugin install {{vagrant_vbguest}}`
 
 - Install a plugin from a local file source:
 
-`vagrant plugin install {{/path/to/my-plugin.gem}}`
+`vagrant plugin install {{/path/to/my_plugin.gem}}`
 
 - Update all installed plugins to their latest version:
 
@@ -22,8 +22,8 @@
 
 - Update a plugin to the latest version:
 
-`vagrant plugin update {{vagrant-vbguest}}`
+`vagrant plugin update {{vagrant_vbguest}}`
 
 - Uninstall a specific plugin:
 
-`vagrant uninstall {{vagrant-vbguest}}`
+`vagrant uninstall {{vagrant_vbguest}}`
