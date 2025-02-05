@@ -11,6 +11,6 @@
 
 `dtrx --overwrite {{path/to/file}}``
 
-- Extract archive, extract everything into current directory:
+- Extract archive and put everything in into current directory:
 
 `dtrx --flat {{path/to/file}}``
