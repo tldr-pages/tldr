@@ -10,7 +10,7 @@
 
 - List signal values and their corresponding names (to be used without the `SIG` prefix):
 
-`kill -L`
+`kill -l`
 
 - Terminate a background job:
 
