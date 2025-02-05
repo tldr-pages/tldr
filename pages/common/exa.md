@@ -1,7 +1,7 @@
 # exa
 
 > A modern replacement for `ls` (List directory contents).
-> More information: <https://the.exa.website>.
+> More information: <https://github.com/ogham/exa>.
 
 - List files one per line:
 
