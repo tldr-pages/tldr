@@ -5,7 +5,7 @@
 
 - Extract archive, guessing the extraction tool from extension:
 
-`dtrx {{foo}}`
+`dtrx {{path/to/file}}`
 
 - Extract archive, overwrite any existing target output:
 
