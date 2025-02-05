@@ -9,8 +9,8 @@
 
 - Extract archive, overwrite any existing target output:
 
-`dtrx --overwrite {{path/to/file}}``
+`dtrx --overwrite {{path/to/file}}`
 
-- Extract archive and put everything in into current directory:
+- Extract archive, put everything into current directory:
 
 `dtrx --flat {{path/to/file}}``
