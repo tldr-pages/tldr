@@ -11,7 +11,7 @@
 
 `aider {{path/to/file1}} {{path/to/file2}}`
 
-- Describe a bug and let aider fix it:
+- Describe a bug and let `aider` fix it:
 
 `aider {{path/to/file}} --describe "{{bug_description}}"`
 
