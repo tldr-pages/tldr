@@ -9,7 +9,7 @@
 
 - Add new features or test cases to specific files:
 
-`aider {{path/to/file1}} {{path/to/file2}}`
+`aider {{path/to/file1 path/to/file2 ...}}`
 
 - Describe a bug and let `aider` fix it:
 
