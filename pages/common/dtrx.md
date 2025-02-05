@@ -13,4 +13,4 @@
 
 - Extract archive, extract everything into current directory:
 
-`dtrx --flat {{foo}}`
+`dtrx --flat {{path/to/file}}``
