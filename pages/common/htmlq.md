@@ -19,6 +19,6 @@
 
 `cat {{path/to/file.html}} | htmlq --remove-nodes 'img' --remove-nodes 'svg'`
 
-- Pretty print, this time using file paths instead of `stdin` and `stdout`:
+- Pretty print and write the output to a file:
 
 `htmlq --pretty --filename {{path/to/input.html}} --output {{path/to/output.html}}`
