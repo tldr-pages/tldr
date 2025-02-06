@@ -31,6 +31,6 @@
 
 `inxi --sensors`
 
-- Print information about the distribution's repository:
+- Print information about the distribution's repositories:
 
 `inxi --repos`
