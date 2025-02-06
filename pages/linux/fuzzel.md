@@ -30,7 +30,7 @@
 
 - Launch fuzzel on a specific monitor, see `wlr-randr` or `swaymsg -t get_outputs`:
 
-`fuzzel -o "DP-1"`
+`fuzzel -o "{{DP-1}}"`
 
 - Use the fuzzel to do an online search:
 
