@@ -34,4 +34,4 @@
 
 - Use the fuzzel to do an online search:
 
-`fuzzel -d -l 0 --placeholder="Type your search" | sed 's/^/\"/g;s/$/\"/g' | xargs firefox --search`
+`fuzzel -d -l 0 --placeholder "{{Type your search}}" | sed 's/^/\"/g;s/$/\"/g' | xargs firefox --search`
