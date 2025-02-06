@@ -1,4 +1,4 @@
-# Exclamation mark
+# snmpget
 
 > Query using the SNMP protocol.
 > More information: <https://manned.org/snmpget>.
