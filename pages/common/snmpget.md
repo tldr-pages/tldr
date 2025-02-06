@@ -3,7 +3,7 @@
 > Query using the SNMP protocol.
 > More information: <https://manned.org/snmpget>.
 
-- Request a single value from an snmp agent:
+- Request a single value from the SNMP agent:
 
 `snmpget -v {{version}} -c {{community}} {{ip}} {{oid}}`
 
