@@ -3,9 +3,9 @@
 > Extend a partition in a disk or disk image to fill available space.
 > More information: <https://github.com/canonical/cloud-utils>.
 
-- Extend partition 3 in /dev/sdb to fill empty space until end of disk or beginning of next partition:
+- Extend partition `n` from `sdX` to fill empty space until end of disk or beginning of next partition:
 
-`growpart /dev/sdb 3`
+`growpart {{/dev/sdX}} {{n}}`
 
 - Show what modifications would be made when growing partition 2 in a disk image:
 
