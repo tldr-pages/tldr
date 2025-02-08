@@ -28,7 +28,7 @@
 
 `docker exec -it {{container_name}} {{sh}}`
 
-- Remove a stopped container:
+- Remove stopped containers:
 
 `docker rm {{container1 container2 ...}}`
 
