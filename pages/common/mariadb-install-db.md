@@ -1,6 +1,6 @@
 # mariadb-install-db
 
-> Initialize a mariadb database.
+> Initialize a MariaDB database.
 > More information: <https://manned.org/mariadb-install-db>.
 
 - Initialize a database:
