@@ -15,7 +15,7 @@
 
 `picotool uf2 convert {{path/to/elf_or_bin}} {{path/to/output}}`
 
-- Reboot a pico:
+- Reboot a Pico:
 
 `picotool reboot`
 
