@@ -30,7 +30,7 @@
 
 - Remove a stopped container:
 
-`docker rm {{container_name}}`
+`docker rm {{container1 container2 ...}}`
 
 - Fetch and follow the logs of a container:
 
