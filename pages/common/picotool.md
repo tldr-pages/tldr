@@ -7,7 +7,7 @@
 
 `picotool info`
 
-- Load a binary onto a pico:
+- Load a binary onto a Pico:
 
 `picotool load {{path/to/binary}}`
 
