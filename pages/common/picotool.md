@@ -1,6 +1,6 @@
 # picotool
 
-> Manage raspberry pi picos'.
+> Manage Raspberry Pi Pico boards.
 > More information: <https://github.com/raspberrypi/picotool>.
 
 - Display info about the currently loaded program on a pico:
