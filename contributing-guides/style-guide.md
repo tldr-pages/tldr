@@ -424,8 +424,8 @@ Keep the following guidelines in mind when choosing placeholders:
 - For any reference to paths of files or directories,
   use the format `{{path/to/placeholder}}`,
   except when the location is implicit.
-- When the path cannot be relative,
-  but has to start at the root of the filesystem,
+- When the path cannot be relative
+  and has to start at the root of the filesystem,
   prefix it with a slash,
   such as `get {{/path/to/remote_file}}`.
 - In case of a possible reference both to a file or a directory,
