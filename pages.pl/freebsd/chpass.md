@@ -24,10 +24,10 @@
 
 `su -c 'chpass -p {{zaszyfrowane_hasło}} {{nazwa_użytkownika}}'`
 
-- Określ nazwę [h]osta lub adres serwera NIS do zapytania
+- Określ nazwę [h]osta lub adres serwera NIS do zapytania:
 
 `su -c 'chpass -h {{nazwa_hosta}} {{nazwa_użytkownika}}'`
 
-- Określ konkretną [d]omenę NIS (domyślnie nazwa domeny systemowej)
+- Określ konkretną [d]omenę NIS (domyślnie nazwa domeny systemowej):
 
 `su -c 'chpass -d {{domain}} {{nazwa_użytkownika}}'`
