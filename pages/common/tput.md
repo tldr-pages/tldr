@@ -11,18 +11,26 @@
 
 `tput {{setaf|setab}} {{ansi_color_code}}`
 
+- Reverse text and background colors:
+
+`tput rev`
+
+- Reset all terminal text attributes:
+
+`tput sgr0`
+
 - Show number of columns, lines, or colors:
 
 `tput {{cols|lines|colors}}`
 
-- Ring the terminal bell:
-
-`tput bel`
-
-- Reset all terminal attributes:
-
-`tput sgr0`
-
 - Enable or disable word wrap:
 
 `tput {{smam|rmam}}`
+
+- Hide or show the terminal cursor:
+
+`tput {{civis|cnorm}}`
+
+- Save or restore terminal text status (smcup also captures scroll wheel events):
+
+`tput {{smcup|rmcup}}`
