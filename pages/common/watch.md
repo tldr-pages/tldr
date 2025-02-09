@@ -1,6 +1,6 @@
 # watch
 
-> Execute a program periodically, showing output fullscreen.
+> Execute a program periodically and monitor the output in full-screen mode.
 > More information: <https://manned.org/watch>.
 
 - Repeatedly run a command and show the result:
@@ -9,12 +9,20 @@
 
 - Re-run a command every 60 seconds:
 
-`watch -n {{60}} {{command}}`
+`watch --interval {{60}} {{command}}`
 
-- Monitor the contents of a directory, highlighting differences as they appear:
+- Monitor disk space, highlighting differences as they appear:
 
-`watch -d {{ls -l}}`
+`watch --differences {{df}}`
 
 - Repeatedly run a pipeline and show the result:
 
-`watch '{{command_1}} | {{command_2}} | {{command_3}}'`
+`watch "{{command_1}} | {{command_2}} | {{command_3}}"`
+
+- Exit `watch` if the visible output changes:
+
+`watch --chgexit {{lsblk}}`
+
+- Interpret terminal control characters:
+
+`watch --color {{ls --color=always}}`

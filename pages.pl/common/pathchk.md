@@ -1,7 +1,7 @@
 # pathchk
 
 > Sprawdź poprawność oraz przenośność jednej lub większej ilości ścieżek.
-> Więcej informacji: <https://www.gnu.org/software/coreutils/pathchk>.
+> Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/pathchk-invocation.html>.
 
 - Sprawdź ścieżki pod kątem poprawności w obecnym systemie:
 

@@ -12,6 +12,6 @@
 
 `crane flatten {{-t|--tag}} {{tag_naam}}`
 
-- Toon help:
+- Toon de help:
 
 `crane flatten {{-h|--help}}`

@@ -1,6 +1,6 @@
 # egrep
 
-> Recherche de motifs dans un texte. Supporte la version étendues des expressions regulieres (`?`, `+`, `{}`, `()`, et `|`).
+> Recherche de motifs dans un texte. Supporte la version étendues des expressions regulieres (`?`, `+`, `{}`, `()` et `|`).
 > Plus d'informations : <https://manned.org/egrep>.
 
 - Recherche une chaîne de caractères précise :

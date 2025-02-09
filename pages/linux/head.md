@@ -1,7 +1,7 @@
 # head
 
 > Output the first part of files.
-> More information: <https://www.gnu.org/software/coreutils/head>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
 
 - Output the first few lines of a file:
 

@@ -395,6 +395,7 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 - For highlighting both long and short options in commands (instead of using mnemonics), combine them within a placeholder i.e. `{{-o|--output}}`.
 - For user-friendliness, use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
 - Prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`), unless the program does not support it.
+- Likewise prefer separating shortform options from their arguments with a space (i.e. use `-o arg` instead of `-oarg`), unless the program does not support it.
 
 ### Placeholder syntax
 

@@ -1,7 +1,7 @@
 # stty
 
 > 터미널 장치 인터페이스의 옵션 설정.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/stty>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html>.
 
 - 현재 터미널의 모든 설정 표시:
 
