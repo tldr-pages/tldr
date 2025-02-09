@@ -32,6 +32,6 @@
 
 `sudo pacman -Sc`
 
-- Specify package version you want to install:
+- Specify the package version you want to install:
 
 `sudo pacman -S {{package}}={{version}}`
