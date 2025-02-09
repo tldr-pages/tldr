@@ -133,6 +133,8 @@ Things to take into account:
 - `docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{container}}` MUST be rendered as "docker inspect --format '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container"
 - `mount \\{{computer_name}}\{{share_name}} Z:` MUST be rendered as "mount \\\\computer_name\share_name Z:"
 - `git stash show --patch {{stash@{0}}}` MUST be rendered as "git stash show --patch stash@{0}"
+- `git add {{[-A|--all]}}` MUST be rendered as "git add -A" or "git add --all" when only short or longform is shown. It may be rendered as "git add [-A|--all]" or "git add ﻿-A|--all" when both are requested.
+- `rsync {{[-zvhP|--compress --verbose --human-readable --partial --progress]}} {{path/to/source}} {{path/to/destination}}` is an example where it's not clear when the option placeholder ends. ﻿Rendering it as "rsync [-zvhP|--compress --verbose --human-readable --partial --progress] path/to/source path/to/destination" can help. Client side formatting like underlines can allow for dropping the angle brackets.
 
 ## Page resolution
 
