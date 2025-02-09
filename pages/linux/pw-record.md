@@ -1,17 +1,7 @@
 # pw-record
 
-> Record audio files through PipeWire.
-> Shorthand for pw-cat --record.
-> More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
+> This command is an alias of `pw-cat --record`.
 
-- Record a sample recording using the default target:
+- View documentation for the original command:
 
-`pw-record {{path/to/file.wav}}`
-
-- Record a sample recording at a different volume level:
-
-`pw-record --volume={{0.1}} {{path/to/file.wav}}`
-
-- Record a sample recording using a different sample rate:
-
-`pw-record --rate={{6000}} {{path/to/file.wav}}`
+`tldr pw-cat`
