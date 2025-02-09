@@ -30,7 +30,7 @@ This section describes the standardised command-line interface (CLI) for clients
 
 ### Arguments
 
-The following command-line options MUST be supported (unless otherwise specified) if a CLI is implemented and both the short and long versions MUST be implemented:
+The following table documents what command-line options MUST be supported and which are optional. If an option is implemented both the short and long versions MUST be available:
 
 Option             | Required?   | Meaning
 -------------------|-------------|----------
