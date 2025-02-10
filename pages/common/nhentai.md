@@ -1,6 +1,6 @@
 # nhentai
 
-> Download doujins from nhentai.
+> Download doujinshis from nhentai.
 > More information: <https://github.com/RicterZ/nhentai>.
 
 - Set cookies:
