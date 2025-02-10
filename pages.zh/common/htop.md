@@ -11,6 +11,10 @@
 
 `htop --user {{用户名}}`
 
+- 以树形视图显示进程的层级关系，展示父子进程之间的关系：
+
+`htop --tree`
+
 - 使用指定的 `sort_item` 对进程排序（使用 `htop --sort help` 获取可用选项）：
 
 `htop --sort {{sort_item}}`
