@@ -15,7 +15,7 @@
 
 `cal {{miesiąc}} {{rok}}`
 
-- Wyświetl cały kalendarz na bieżący rok:
+- Wyświetl cały kalendarz na bieżący rok (z ang. [y]ear):
 
 `cal -y`
 
