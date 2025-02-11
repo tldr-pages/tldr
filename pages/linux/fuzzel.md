@@ -23,7 +23,7 @@
 
 `echo -e "{{red}}\n{{green}}\n{{blue}}" | fuzzel -d > {{color.txt}}`
 
-- Reset apps usage count, default directory `XDG_CACHE_HOME/fuzzel`:
+- Reset apps usage count (default cache directory: `$XDG_CACHE_HOME/fuzzel`):
 
 `rm -v $HOME/.cache/fuzzel`
 
