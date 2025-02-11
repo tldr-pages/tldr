@@ -1,7 +1,6 @@
 # fuzzel
 
-> Dynamic Wayland-native menu.
-> Fuzzel is a Wayland-native application launcher and fuzzy finder, inspired by rofi and dmenu.
+> A Wayland-native application launcher and fuzzy finder, inspired by `rofi` and `dmenu`.
 > More information: <https://codeberg.org/dnkl/fuzzel>.
 
 - Run applications:
