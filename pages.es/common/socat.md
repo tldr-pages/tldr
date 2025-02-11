@@ -21,7 +21,7 @@
 
 - Envía datos con esquema de enrutamiento multicast:
 
-`{{echo "Hola Multicast"}} | socat - UDP4-DATAGRAM:{{224.0.0.1}}:{{5000}}`
+`{{echo "Hello Multicast"}} | socat - UDP4-DATAGRAM:{{224.0.0.1}}:{{5000}}`
 
 - Recibe datos de un multicast:
 
