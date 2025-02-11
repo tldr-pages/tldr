@@ -11,11 +11,11 @@
 
 `ani-cli -d "{{anime_name}}"`
 
-- [d]ownload a range of episodes
+- [d]ownload a range of episodes:
 
 `ani-cli -d -r "1 6" "{{anime_name}}"`
 
-- [d]ownload the entire series (a range of all episodes) 
+- [d]ownload the entire series (a range of all episodes):
 
 `ani-cli -d -r "1 -1" "{{anime_name}}"`
 
