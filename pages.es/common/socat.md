@@ -19,10 +19,10 @@
 
 `sudo socat TCP-LISTEN:80,fork TCP4:www.example.com:80`
 
-- Envía datos con esquema de enrutamiento multicast:
+- Envía datos con un esquema de enrutamiento multicast:
 
 `{{echo "Hello Multicast"}} | socat - UDP4-DATAGRAM:{{224.0.0.1}}:{{5000}}`
 
 - Recibe datos de un multicast:
 
-`socat - UDP4-RECVFROM:{{5000}}}`
+`socat - UDP4-RECVFROM:{{5000}}`
