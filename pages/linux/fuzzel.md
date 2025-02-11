@@ -7,9 +7,9 @@
 
 `fuzzel`
 
-- Run fuzzel in dmenu mode (`--dmenu` or `-d`):
+- Run `fuzzel` in dmenu mode:
 
-`fuzzel --dmenu`
+`fuzzel {{-d|--dmenu}}`
 
 - Display a menu of the output of the `ls` command:
 
