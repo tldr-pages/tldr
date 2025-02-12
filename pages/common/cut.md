@@ -9,7 +9,7 @@
 
 - Print a [f]ield range of each line with a specific [d]elimiter:
 
-`{{command}} | cut --delimiter "{{,}}" --fields {{1}}`
+`{{command}} | cut --delimiter "{{delimiter}}" --fields {{1|1,10|1-10|1-|-10}}`
 
 - Print a [c]haracter range of each line of the specific file:
 
