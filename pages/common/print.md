@@ -10,7 +10,7 @@
 
 - Print separated by newline(s):
 
-`print -l "Linel" "Line 2" "Line3"`
+`print -l "Line1" "Line 2" "Line3"`
 
 - Print without trailing newline:
 
