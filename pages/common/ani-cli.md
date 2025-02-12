@@ -11,7 +11,7 @@
 
 `ani-cli -d "{{anime_name}}"`
 
-- [d]ownload a range of episodes:
+- [d]ownload a [r]ange of episodes:
 
 `ani-cli -d -r "{{1 6}}" "{{anime_name}}"`
 
