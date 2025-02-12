@@ -27,6 +27,6 @@
 
 `coredumpctl --output={{path/to/file}} dump {{program}}`
 
-- Skip debuginfod and pagination prompts and then print the backtrace when using gdb:
+- Skip debuginfod and pagination prompts and then print the backtrace when using `gdb`:
 
 `coredumpctl debug --debugger-arguments="-iex 'set debuginfod enabled on' -iex 'set pagination off' -ex bt"`
