@@ -13,7 +13,7 @@
 
 - [d]ownload a range of episodes:
 
-`ani-cli -d -r "1 6" "{{anime_name}}"`
+`ani-cli -d -r "{{1 6}}" "{{anime_name}}"`
 
 - [d]ownload the entire series (a range of all episodes):
 
