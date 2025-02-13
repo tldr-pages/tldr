@@ -1,0 +1,29 @@
+# olevba
+
+> Analiza archivos OLE y OpenXML (por ejemplo, DOC, XLS, PPT, etc.) para extraer macros VBA, desofuscar y analizar código malicioso.
+> Forma parte de la suite `python-oletools`.
+> Para más información: <https://github.com/decalage2/oletools>.
+
+- Analiza un archivo, mostrando tanto el código de la macro como los resultados del análisis:
+
+`olevba {{ruta/al/archivo}}`
+
+- Analiza recursivamente todos los archivos compatibles de un directorio:
+
+`olevba -r {{ruta/a/directorio}}`
+
+- Proporciona una contraseña para los archivos cifrados de Microsoft Office (puede repetirse):
+
+`olevba --password {{contraseña}} {{ruta/al/archivo_cifrado}}`
+
+- Muestra solo los resultados del análisis, sin mostrar el código fuente de la macro:
+
+`olevba -a {{ruta/al/archivo}}`
+
+- Muestra solo el código fuente de la macro:
+
+`olevba -c {{ruta/al/archivo}}`
+
+- Muestra cadenas ofuscadas y su contenido decodificado:
+
+`olevba --decode {{ruta/al/archivo}}`
