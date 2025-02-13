@@ -60,12 +60,12 @@ tldr -l
 
 The following environment variables MAY be supported by the client to alter its behavior:
 
-```
-TLDR_PLATFORM
-TLDR_LANGUAGE
-TLDR_SHORTFORM
-TLDR_LONGFORM
-```
+Environment variable | Meaning
+---------------------|----------
+TLDR_PLATFORM        | Specify the platform to be used by tldr
+TLDR_LANGUAGE        | Specify which language to prefer
+TLDR_SHORTFORM       | Specify whether to show shortform options
+TLDR_LONGFORM        | Specify whether to show longform options
 
 ### Page names
 
