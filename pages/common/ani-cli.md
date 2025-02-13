@@ -11,6 +11,14 @@
 
 `ani-cli -d "{{anime_name}}"`
 
+- [d]ownload a [r]ange of episodes:
+
+`ani-cli -d -r "{{1 6}}" "{{anime_name}}"`
+
+- [d]ownload the entire series (a range of all episodes):
+
+`ani-cli -d -r "1 -1" "{{anime_name}}"`
+
 - Use [v]LC as the media player:
 
 `ani-cli -v "{{anime_name}}"`
