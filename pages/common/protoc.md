@@ -23,6 +23,6 @@
 
 `protoc --decode={{TypeName}} {{input_file.proto}} < {{message.bin}}`
 
-- Decode into raw tag/value pairs:
+- Decode a protocol message into raw tag/value pairs:
 
 `protoc --decode_raw < {{message.bin}}`
