@@ -1,6 +1,6 @@
 # pulumi state
 
-> Edit the current stack’s state.
+> Edit the current stack's state.
 > More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_state/>.
 
 - Delete a resource from the current stack's state:
