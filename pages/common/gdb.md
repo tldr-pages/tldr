@@ -22,3 +22,7 @@
 - Start `gdb` and pass arguments to the executable:
 
 `gdb --args {{executable}} {{argument1}} {{argument2}}`
+
+- Skip debuginfod and pagination prompts and then print the backtrace:
+
+`gdb -c {{core}} {{executable}} -iex 'set debuginfod enabled on' -iex 'set pagination off' -ex bt`
