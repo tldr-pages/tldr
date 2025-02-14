@@ -4,7 +4,7 @@
 > Voir aussi : `vagrant`.
 > Plus d’informations : <https://developer.hashicorp.com/vagrant/docs/cli/plugin>.
 
-- Lister tous les plugins actuellement installés:
+- Liste tous les plugins actuellement installés:
 
 `vagrant plugin list`
 
