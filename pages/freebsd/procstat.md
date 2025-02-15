@@ -1,4 +1,5 @@
 # procstat
+
 > Display detailed information about processes in FreeBSD.
 > More information: <https://man.freebsd.org/cgi/man.cgi?query=procstat>.
 
