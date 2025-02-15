@@ -14,7 +14,7 @@
 
 - Elimina todas las entradas ACL existentes y establece una nueva ACL:
 
-`smbcacls //{{servidor}}/{{compartido}} {{ruta/al/archivo}} --user {{dominio\\nombre_usuario}}%{{contraseña}} "RESET" “ACL:{{DACL}}”`
+`smbcacls //{{servidor}}/{{compartido}} {{ruta/al/archivo}} --user {{dominio\\nombre_usuario}}%{{contraseña}} "RESET" "ACL:{{DACL}}"`
 
 - Especifica un grupo de trabajo (o dominio) alternativo y hace que el programa solicite una contraseña de forma interactiva:
 
