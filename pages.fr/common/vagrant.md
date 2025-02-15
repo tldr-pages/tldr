@@ -1,36 +1,36 @@
 # vagrant
 
-> Gérer des environnements de développement légers, reproductibles et portables.
+> Gère des environnements de développement légers, reproductibles et portables.
 > Plus d’informations : <https://www.vagrantup.com>.
 
-- Créer un fichier Vagrantfile dans le répertoire actuel avec la box Vagrant de base:
+- Crée un fichier Vagrantfile dans le répertoire actuel avec la box Vagrant de base :
 
 `vagrant init`
 
-- Créer un fichier Vagrantfile avec la box Ubuntu 20.04 (Focal Fossa) depuis HashiCorp Atlas:
+- Crée un fichier Vagrantfile avec la box Ubuntu 20.04 (Focal Fossa) depuis HashiCorp Atlas :
 
 `vagrant init ubuntu/focal64`
 
-- Démarrer et provisionner l’environnement Vagrant:
+- Démarre et provisionne l’environnement Vagrant :
 
 `vagrant up`
 
-- Suspendre la machine:
+- Suspend la machine :
 
 `vagrant suspend`
 
-- Arrêter la machine:
+- Arrête la machine :
 
 `vagrant halt`
 
-- Se connecter à la machine via SSH:
+- Se connecte à la machine via SSH :
 
 `vagrant ssh`
 
-- Afficher la configuration SSH de la machine Vagrant en cours d’exécution:
+- Affiche la configuration SSH de la machine Vagrant en cours d’exécution :
 
 `vagrant ssh-config`
 
-- Lister toutes les boxes locaux:
+- Liste toutes les boxes locales :
 
 `vagrant box list`
