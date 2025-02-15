@@ -10,7 +10,7 @@
 
 - Analiza recursivamente todos los archivos compatibles de un directorio:
 
-`olevba -r {{ruta/a/directorio}}`
+`olevba -r {{ruta/al/directorio}}`
 
 - Proporciona una contraseña para los archivos cifrados de Microsoft Office (puede repetirse):
 
