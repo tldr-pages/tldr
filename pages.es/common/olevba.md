@@ -2,7 +2,7 @@
 
 > Analiza archivos OLE y OpenXML (p. ej., DOC, XLS, PPT, etc.) para extraer macros VBA, desofuscar y analizar código malicioso.
 > Parte de la suite `python-oletools`.
-> Para más información: <https://github.com/decalage2/oletools>.
+> Más información: <https://github.com/decalage2/oletools>.
 
 - Analiza un archivo, mostrando tanto el código de la macro como los resultados del análisis:
 
