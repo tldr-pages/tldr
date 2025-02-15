@@ -5,7 +5,7 @@
 
 - Set cookies:
 
-`nhentai --cookie "csrftoken={{TOKEN}}; sessionid={{ID}}}}"`
+`nhentai --cookie "csrftoken={{TOKEN}}; sessionid={{ID}}"`
 
 - Download a specific doujin:
 
