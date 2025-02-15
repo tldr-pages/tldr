@@ -17,4 +17,4 @@
 
 - Download specific pages of your favorites:
 
-`nhentai --favorites --pages={{start_page}}-{{end_page}} --download --delay 1`
+`nhentai --favorites --pages {{start_page}}-{{end_page}} --download --delay 1`
