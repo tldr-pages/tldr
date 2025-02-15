@@ -14,3 +14,15 @@
 - Generate code for multiple languages:
 
 `protoc --csharp_out={{path/to/c#_output_directory}} --js_out={{path/to/js_output_directory}} {{input_file.proto}}`
+
+- Encode a text-format message into a protocol message from a `.proto` file:
+
+`protoc --encode={{TypeName}} {{input_file.proto}} < {{message.txt}}`
+
+- Decode a protocol message into text-format from a `.proto` file:
+
+`protoc --decode={{TypeName}} {{input_file.proto}} < {{message.bin}}`
+
+- Decode a protocol message into raw tag/value pairs:
+
+`protoc --decode_raw < {{message.bin}}`
