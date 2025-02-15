@@ -14,7 +14,7 @@
 
 - Proporciona una contraseña para los archivos cifrados de Microsoft Office (puede repetirse):
 
-`olevba --password {{contraseña}} {{ruta/al/archivo_cifrado}}`
+`olevba --password {{contraseña}} {{ruta/al/archivo_encriptado}}`
 
 - Muestra solo los resultados del análisis, sin mostrar el código fuente de la macro:
 
