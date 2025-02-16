@@ -122,7 +122,7 @@ Although this specification is about the interface that clients must provide, it
 
 Things to take into account:
 - Clients MAY highlight the placeholders and MUST remove the surrounding curly braces.
-- Clients MUST remove the angle brackets from option placeholders when only short- or longform is shown and MAY remove them when both are shown depending whether it's clear where the the option placeholder starts and ends (for example when underlining placeholders).
+- Clients MUST remove the angle brackets from option placeholders when only short- or longform is shown. 
 - Clients MUST NOT treat them as the placeholder syntax if they are escaped using `\` (i.e. `\{\{` and `\}\}`) and MUST instead display literal braces, without backslashes. Placeholder escaping applies only when both braces are escaped (e.g. in `\{` or `\{{`, backslashes MUST be displayed).
 - In cases when a command uses `{}` in its arguments (e.g. `stash@{0}`) **_the outer braces_** mark the placeholder - the braces inside MUST be displayed.
 - Clients MUST NOT break if the page format is changed within the _CommonMark_ specification.
@@ -133,8 +133,7 @@ Things to take into account:
 - `docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{container}}` MUST be rendered as "docker inspect --format '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container"
 - `mount \\{{computer_name}}\{{share_name}} Z:` MUST be rendered as "mount \\\\computer_name\share_name Z:"
 - `git stash show --patch {{stash@{0}}}` MUST be rendered as "git stash show --patch stash@{0}"
-- `git add {{[-A|--all]}}` MUST be rendered as "git add -A" or "git add --all" when only short or longform is shown. It may be rendered as "git add [-A|--all]" or "git add ﻿-A|--all" when both are requested.
-- `rsync {{[-zvhP|--compress --verbose --human-readable --partial --progress]}} {{path/to/source}} {{path/to/destination}}` is an example where it's not clear when the option placeholder ends. ﻿Rendering it as "rsync [-zvhP|--compress --verbose --human-readable --partial --progress] path/to/source path/to/destination" can help. Client side formatting like underlines can allow for dropping the angle brackets.
+- `git add {{[-A|--all]}}` MUST be rendered as "git add -A" or "git add --all" when only short or longform is shown. It MUST be rendered as "git add [-A|--all]" when both are requested.
 
 ## Page resolution
 
