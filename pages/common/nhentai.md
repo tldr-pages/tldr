@@ -5,7 +5,7 @@
 
 - Set cookies:
 
-`nhentai --cookie "csrftoken={{TOKEN}}; sessionid={{ID}}}}"`
+`nhentai --cookie "csrftoken={{TOKEN}}; sessionid={{ID}}"`
 
 - Download a specific doujin:
 
@@ -17,4 +17,4 @@
 
 - Download specific pages of your favorites:
 
-`nhentai --favorites --pages={{start_page}}-{{end_page}} --download --delay 1`
+`nhentai --favorites --pages {{start_page}}-{{end_page}} --download --delay 1`
