@@ -19,7 +19,7 @@
 
 `docker build --tag {{名稱:標籤}} - < {{Dockerfile}}`
 
-- 在建構映像檔時不使用快取:
+- 在建構映像檔時不使用快取：
 
 `docker build --no-cache --tag {{名稱:標籤}} .`
 
