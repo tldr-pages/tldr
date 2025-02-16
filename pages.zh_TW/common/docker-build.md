@@ -7,7 +7,7 @@
 
 `docker build .`
 
-- 從指定的網址下載Dockerfile來建立映像檔：
+- 從指定的網址下載 Dockerfile 來建立映像檔：
 
 `docker build {{github.com/creack/docker-firefox}}`
 
