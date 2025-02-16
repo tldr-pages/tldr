@@ -11,7 +11,7 @@
 
 `docker build {{github.com/creack/docker-firefox}}`
 
-- 建立Docker映像檔並加上標籤：
+- 建立 Docker 映像檔並加上標籤：
 
 `docker build --tag {{名稱:標籤}} .`
 
