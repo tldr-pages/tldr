@@ -25,7 +25,7 @@
 
 - 仅在验证失败时显示消息，忽略丢失的文件：
 
-`md5sum --ignore-missing --check --quiet {{路径/到/file.md5}}`
+`md5sum --ignore-missing --check --quiet {{路径/到/文件.md5}}`
 
 - 检查已知文件的 MD5 校验和：
 
