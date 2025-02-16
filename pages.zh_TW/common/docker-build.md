@@ -23,7 +23,7 @@
 
 `docker build --no-cache --tag {{名稱:標籤}} .`
 
-- 使用特定的Dockerfile來建構映像檔:
+- 使用特定的 Dockerfile 來建構映像檔：
 
 `docker build --file {{Dockerfile}} .`
 
