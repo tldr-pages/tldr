@@ -134,17 +134,20 @@ def test_get_pages_dir():
     shutil.rmtree(root, True)
 
 
-def get_target_paths(page: Path, pages_dirs: Path) -> list[Path]:
+def get_target_paths(
+    page: Path, pages_dirs: Path, check_exists: bool = True
+) -> list[Path]:
     """
     Get all paths in all languages that match the page.
 
     Parameters:
     page (Path): the page to search for.
+    pages_dirs (Path): directories to search in
+    check_exists (bool): whether to only return existing paths (default: True)
 
     Returns:
     list (list of Path's): A list of Path's.
     """
-
     target_paths = []
 
     if not page.lower().endswith(".md"):
@@ -154,12 +157,12 @@ def get_target_paths(page: Path, pages_dirs: Path) -> list[Path]:
     for pages_dir in pages_dirs:
         page_path = pages_dir / arg_platform / arg_page
 
-        if not page_path.exists():
+        if check_exists and not page_path.exists():
+            print(create_colored_line(Colors.RED, f"Page {page_path} does not exist"))
             continue
         target_paths.append(page_path)
 
     target_paths.sort()
-
     return target_paths
 
 

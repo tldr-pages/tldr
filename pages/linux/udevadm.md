@@ -21,7 +21,7 @@
 
 - Reload all `udev` rules:
 
-`sudo udevadm control --reload-rules`
+`sudo udevadm control --reload`
 
 - Trigger all `udev` rules to run:
 
