@@ -32,13 +32,13 @@ This section describes the standardised command-line interface (CLI) for clients
 
 The following table documents what command-line options MUST be supported and which are optional. If an option is implemented both the short and long versions MUST be available:
 
-Option             | Required?   | Meaning
--------------------|-------------|----------
-`-v`, `--version`  | Yes         | Shows the current version of the client, and the version of this specification that it implements.
-`-p`, `--platform` | No         | Specifies the platform to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
-`-u`, `--update`   | Conditional | Updates the offline cache of pages. MUST be implemented if caching is supported.
-`-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output.
-`-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
+Option                 | Required?   | Meaning
+-----------------------|-------------|----------
+`-v`, `--version`      | Yes         | Shows the current version of the client, and the version of this specification that it implements.
+`-p`, `--platform`     | Yes         | Specifies the platform to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
+`-u`, `--update`       | Conditional | Updates the offline cache of pages. MUST be implemented if caching is supported.
+`-l`, `--list`         | No          | Lists all the pages in the current platform to the standard output.
+`-L`, `--language`     | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
 `-S`, `--short-options`| No          | If set, will filter examples to show their shortform option when available
 `-E`, `--long-options` | No          | If set, will filter examples to show their longform option when available
 
