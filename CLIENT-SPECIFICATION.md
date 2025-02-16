@@ -56,14 +56,6 @@ tldr --version
 tldr -l
 ```
 
-### Environment variables
-
-The following environment variables MAY be supported by the client to alter its behavior:
-
-Environment variable | Values          | Meaning
----------------------|-----------------|----------
-TLDR_OPTIONS         | short/long/both | Specify the option style to display.
-
 ### Page names
 
 The first argument that does not start with a dash (`-`), MUST be considered the page name.
