@@ -3,7 +3,7 @@
 > 從 Dockerfile 建立 Docker 映像檔 (Image)。
 > 更多資訊：<https://docs.docker.com/reference/cli/docker/buildx/build/>.
 
-- 使用當前目錄的Dockerfile建立映像檔：
+- 使用當前目錄的 Dockerfile 建立映像檔：
 
 `docker build .`
 
