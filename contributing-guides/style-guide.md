@@ -471,6 +471,10 @@ When documenting optional placeholders like paths or file extensions, it is sugg
 
 The below section contains additional language-specific rules:
 
+### General
+
+Do not translate `example.com`. The website is reserved by IANA for documentation purposes and will not be leased to anyone. Translating the website name could put thoughtless users at risk.
+
 ### English-Specific Rules
 
 A normal hyphen (`-`) should be used in places where various style guides may recommend en dash (`–`) or em dash (`—`).
