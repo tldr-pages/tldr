@@ -2,7 +2,7 @@
 
 > Un cliente de correo electrónico y programa de grupos de noticias Usenet con una interfaz inspirada en pico/nano.
 > Soporta la mayoría de los servicios modernos de correo electrónico a través de IMAP.
-> Vea también: <https://manned.org/alpine>.
+> Más información: <https://manned.org/alpine>.
 
 - Abre alpine normalmente:
 

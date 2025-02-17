@@ -1,7 +1,7 @@
 # anbox
 
 > Ejecuta aplicaciones de Android en cualquier sistema operativo Linux.
-> Vea también: <https://manned.org/anbox>.
+> Más información: <https://manned.org/anbox>.
 
 - Lanza Anbox en el administrador de aplicaciones:
 

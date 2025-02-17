@@ -1,7 +1,7 @@
 # amixer
 
 > Mezclador para el controlador de tarjeta de sonido ALSA.
-> Vea también: <https://manned.org/amixer>.
+> Más información: <https://manned.org/amixer>.
 
 - Aumenta el volumen maestro en un 10%:
 
