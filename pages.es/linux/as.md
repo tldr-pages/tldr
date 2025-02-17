@@ -12,7 +12,7 @@
 
 `as {{ruta/al/archivo.s}} -o {{ruta/al/archivo_salida.o}}`
 
-- Genera la salida más rápido omitiendo el preprocesamiento de espacios en blanco y comentarios. (Solo debe usarse con compiladores de confianza):
+- Genera la salida más rápida omitiendo el preprocesamiento de espacios en blanco y comentarios. (Solo debe usarse con compiladores de confianza):
 
 `as -f {{ruta/al/archivo.s}}`
 

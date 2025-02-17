@@ -1,6 +1,6 @@
 # atool
 
-> Administra archivos comprimidos de varios formatos.
+> Administra archivos comprimidos en varios formatos.
 > Más información: <https://www.nongnu.org/atool/>.
 
 - Muestra los archivos dentro de un archivo Zip:

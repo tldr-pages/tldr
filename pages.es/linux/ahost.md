@@ -5,12 +5,12 @@
 
 - Muestra un registro `A` o `AAAA` asociado con un nombre de host o dirección IP:
 
-`ahost {{ejemplo.com}}`
+`ahost {{example.com}}`
 
 - Muestra salida adicional de depuración:
 
-`ahost -d {{ejemplo.com}}`
+`ahost -d {{example.com}}`
 
 - Muestra el registro con un tipo especificado:
 
-`ahost -t {{a|aaaa|u}} {{ejemplo.com}}`
+`ahost -t {{a|aaaa|u}} {{example.com}}`

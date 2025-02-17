@@ -7,7 +7,7 @@
 
 `ausyscall {{patrón_de_búsqueda}}`
 
-- Muestra el nombre de una llamada al sistema específica a partir de su número:
+- Muestra el nombre de una llamada al sistema específico a partir de su número:
 
 `ausyscall {{número_de_llamada_al_sistema}}`
 

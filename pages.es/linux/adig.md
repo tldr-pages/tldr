@@ -5,20 +5,20 @@
 
 - Muestra el registro A (predeterminado) desde DNS para el(los) nombre(s) de host:
 
-`adig {{ejemplo.com}}`
+`adig {{example.com}}`
 
 - Muestra salida adicional de [d]epuración:
 
-`adig -d {{ejemplo.com}}`
+`adig -d {{example.com}}`
 
 - Conecta a un [s]ervidor DNS especificado:
 
-`adig -s {{1.2.3.4}} {{ejemplo.com}}`
+`adig -s {{1.2.3.4}} {{example.com}}`
 
-- Usa un puerto TCP específico para conectarte a un servidor DNS:
+- Usa un puerto TCP específico para conectarse a un servidor DNS:
 
-`adig -T {{puerto}} {{ejemplo.com}}`
+`adig -T {{puerto}} {{example.com}}`
 
-- Usa un puerto UDP específico para conectarte a un servidor DNS:
+- Usa un puerto UDP específico para conectarse a un servidor DNS:
 
-`adig -U {{puerto}} {{ejemplo.com}}`
+`adig -U {{puerto}} {{example.com}}`

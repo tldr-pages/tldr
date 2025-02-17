@@ -11,6 +11,6 @@
 
 `ark --batch --destination {{ruta/al/directorio}} {{ruta/al/archivo}}`
 
-- Crea un archivo si no existe y agrega archivos específicos a él:
+- Crea un archivo si no existe y agrega archivos específicos al mismo:
 
 `ark --add-to {{ruta/al/archivo}} {{ruta/al/archivo1 ruta/al/archivo2 ...}}`

@@ -1,6 +1,6 @@
 # abrt-action-analyze-c
 
-> Calcula el UUID para un directorio de datos del problema con `coredump`.
+> Calcula el UUID para un directorio de datos problemático con `coredump`.
 > Más información: <https://manned.org/abrt-action-analyze-c>.
 
 - Calcula y guarda el UUID para el directorio de trabajo actual:

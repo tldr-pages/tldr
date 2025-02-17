@@ -9,7 +9,7 @@
 
 - Realiza reconocimiento sobre el(los) objetivo(s) desde un archivo:
 
-`sudo autorecon --target-file {{ruta/a/archivo}}`
+`sudo autorecon --target-file {{ruta/al/archivo}}`
 
 - Guarda los resultados en un directorio diferente:
 

@@ -3,11 +3,11 @@
 > Ejecuta y administra instancias de servidores telefónicos e intercambiadores (teléfonos).
 > Más información: <https://docs.asterisk.org>.
 
-- [R]econécta a un servidor en ejecución y activa el registro con 3 niveles de [v]erbosidad:
+- [R]econecta a un servidor en ejecución y activa el registro con 3 niveles de [v]erbosidad:
 
 `asterisk -r -vvv`
 
-- [R]econécta a un servidor en ejecución, ejecuta un solo comando y regresa:
+- [R]econecta a un servidor en ejecución, ejecuta un solo comando y regresa:
 
 `asterisk -r -x "{{comando}}"`
 

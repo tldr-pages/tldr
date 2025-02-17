@@ -19,7 +19,7 @@
 
 `arecord --list-devices`
 
-- Permite una interfaz interactiva (por ejemplo, usa la barra espaciadora o enter para reproducir o pausar):
+- Permite una interfaz interactiva (por ejemplo, usa la barra espaciadora o tecla Entrar para reproducir o pausar):
 
 `arecord --interactive`
 

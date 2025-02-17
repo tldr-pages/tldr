@@ -5,7 +5,7 @@
 
 - Convierte una imagen PNG específica a AVIF:
 
-`avifenc {{rual/a/entrada.png}} {{ruta/a/salida.avif}}`
+`avifenc {{ruta/a/entrada.png}} {{ruta/a/salida.avif}}`
 
 - Codifica con una velocidad específica (6=predeterminado, 0=el más lento y 10=el más rápido):
 

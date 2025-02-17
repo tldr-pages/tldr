@@ -4,15 +4,15 @@
 > Este comando viene con los sistemas operativos basados en Debian; para los basados en RHEL, consulte `httpd`.
 > Más información: <https://manned.org/apache2ctl.8>.
 
-- Inicia el demonio de Apache. Muestra un mensaje si ya está en ejecución:
+- Inicia el programa residente (daemon) de Apache. Muestra un mensaje si ya está en ejecución:
 
 `sudo apache2ctl start`
 
-- Detiene el demonio de Apache:
+- Detiene el programa residente (daemon) de Apache:
 
 `sudo apache2ctl stop`
 
-- Reinicia el demonio de Apache:
+- Reinicia el programa residente (daemon) de Apache:
 
 `sudo apache2ctl restart`
 

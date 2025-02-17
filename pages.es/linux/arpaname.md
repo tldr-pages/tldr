@@ -5,4 +5,4 @@
 
 - Traduce direcciones IP (IPv4 e IPv6) al nombre ARPA correspondiente:
 
-`arpaname {{direccion_ip}}`
+`arpaname {{dirección_ip}}`

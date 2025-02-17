@@ -10,7 +10,7 @@
 
 - Abre alpine directamente en la pantalla de composición de mensajes para enviar un correo electrónico a una dirección específica:
 
-`alpine {{correo@ejemplo.net}}`
+`alpine {{correo@example.net}}`
 
 - Sale de alpine:
 
