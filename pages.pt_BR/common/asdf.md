@@ -21,8 +21,12 @@
 
 - Define a versão global de um pacote:
 
-`asdf global {{nome}} {{versão}}`
+`asdf set -u {{nome}} {{versão}}`
 
 - Define a versão local de um pacote:
 
-`asdf local {{nome}} {{versão}}`
+`asdf set -p {{nome}} {{versão}}`
+
+- Ver a versão utilizada para um pacote
+
+`asdf current {{name}}`
