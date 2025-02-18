@@ -469,7 +469,7 @@ When documenting optional placeholders like paths or file extensions, it is sugg
 
 ## Language-Specific Rules
 
-The below section contains additional language-specific rules:
+The below section contains additional translation-specific rules:
 
 ### General
 
