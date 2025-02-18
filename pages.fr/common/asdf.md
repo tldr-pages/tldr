@@ -21,8 +21,8 @@
 
 - Fixe au global une version d'un paquet :
 
-`asdf global {{nom}} {{version}}`
+`asdf set -u {{nom}} {{version}}`
 
 - Fix en local la version d'un paquet :
 
-`asdf local {{nom}} {{version}}`
+`asdf set -p {{nom}} {{version}}`
