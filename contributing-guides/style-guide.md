@@ -467,9 +467,9 @@ When documenting optional placeholders like paths or file extensions, it is sugg
 - For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
 - It is suggested to document the help and version examples if the command follows unconventional flags in platforms like Windows.
 
-## Translation-Specific Rules
+## Language and Translation Rules
 
-The below section contains additional translation-specific rules:
+The below section contains additional language and translation-specific rules:
 
 ### General
 
