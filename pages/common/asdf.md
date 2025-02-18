@@ -21,8 +21,12 @@
 
 - Set global version for a package:
 
-`asdf global {{name}} {{version}}`
+`asdf set -u {{name}} {{version}}`
 
 - Set local version for a package:
 
-`asdf local {{name}} {{version}}`
+`asdf set -p {{name}} {{version}}`
+
+- See the current version used for a package
+
+`asdf current {{name}}`
