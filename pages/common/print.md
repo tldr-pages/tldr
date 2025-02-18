@@ -1,25 +1,15 @@
 # print
 
-> Z Shell (`zsh`) builtin. Prints arguments, similar to `echo`.
-> See also: `echo`, `printf`, `zsh`.
-> More information: <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>.
+> `print` can refer to multiple commands with the same name.
 
-- Print input:
+- View documentation for the Zsh builtin:
 
-`print "Hello" "World"`
+`tldr print.zsh`
 
-- Print separated by newline(s):
+- View documentation for the `print` alias of `run-mailcap`:
 
-`print -l "Line1" "Line 2" "Line3"`
+`tldr --platform linux print.runmailcap`
 
-- Print without trailing newline:
+- View documentation for printing text files on Windows:
 
-`print -n "Hello"; print "World"`
-
-- Enable backslash escapes:
-
-`print -e "Line 1\nLine2"`
-
-- Print arguments as described by 'printf' (for greater portability across shells, consider instead the `printf` command):
-
-`print -f "%s is %d years old.\n" "Alice" 30`
+`tldr --platform windows print.win`
