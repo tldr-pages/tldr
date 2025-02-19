@@ -206,6 +206,26 @@ In this case, provide a note and method to determine whether the command current
 `tldr invoke-webrequest`
 ```
 
+### Disambiguations
+
+If there is a name collision between page names on the same platform, disambiguation pages can be used to direct users to different pages. Name the colliding pages with a dot and an appropriate suffix. Numbers starting from 1 can be used if no other suffix is appropriate. If the colliding page is an acronym, direct the user to a page with the name expanded.
+
+In the following case `just.md` is the filename of the disambiguation page while `just.1.md` and `just.js.md` refer to the actual pages:
+
+```md
+# just
+
+> `just` can refer to multiple commands with the same name.
+
+- View documentation for the command runner:
+
+`tldr just.1`
+
+- View documentation for the V8 JavaScript runtime:
+
+`tldr just.js`
+```
+
 ## General writing
 
 ### Emphasis
