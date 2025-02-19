@@ -22,8 +22,8 @@
 
 - Lege die globale Version für ein Paket fest:
 
-`asdf global {{name}} {{version}}`
+`asdf set -u {{name}} {{version}}`
 
 - Lege die lokale Version für ein Paket fest:
 
-`asdf local {{name}} {{version}}`
+`asdf set -p {{name}} {{version}}`

@@ -21,8 +21,12 @@
 
 - Imposta la versione globale per un pacchetto:
 
-`asdf global {{nome}} {{versiona}}`
+`asdf set -u {{nome}} {{versiona}}`
 
 - Imposta la versiona locale per un pacchetto:
 
-`asdf local {{nome}} {{versiona}}`
+`asdf set -p {{nome}} {{versiona}}`
+
+- Elenca la versione utilizzata per un pacchetto:
+
+`asdf current {{nome}}`
