@@ -7,22 +7,30 @@
 
 `ani-cli "{{anime_naam}}"`
 
-- Download aflevering:
+- [d]ownload aflevering:
 
 `ani-cli -d "{{anime_naam}}"`
 
-- Gebruik VLC als de media player:
+- [d]ownload een [r]eeks van afleveringen:
+
+`ani-cli -d -r "{{1 6}}" "{{anime_naam}}"`
+
+- [d]ownload de gehele serie (een reeks van alle afleveringen):
+
+`ani-cli -d -r "1 -1" "{{anime_naam}}"`
+
+- Gebruik [v]LC als de media player:
 
 `ani-cli -v "{{anime_naam}}"`
 
-- Specificeer een aflevering om te kijken:
+- Bekjk een specifieke afl[e]vering:
 
 `ani-cli -e {{afleveringnummer}} "{{anime_naam}}"`
 
-- Bekijk anime uit je geschiedenis:
+- Bekijk anime verder ([c]) uit je geschiedenis:
 
 `ani-cli -c`
 
-- Update `ani-cli`:
+- [U]pdate `ani-cli`:
 
 `ani-cli -U`
