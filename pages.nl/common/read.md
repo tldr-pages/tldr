@@ -1,7 +1,7 @@
 # read
 
 > Shell builtin voor het ophalen van data van `stdin`.
-> Meer informatie: <https://manned.org/read.1p>.
+> Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-read>.
 
 - Sla gegevens op die je van het toetsenbord typt:
 
