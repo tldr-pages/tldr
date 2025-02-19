@@ -9,7 +9,7 @@
 
 - Valida una receta:
 
-`bluebuild validate {{ruta/a/receta.yml}}``
+`bluebuild validate {{ruta/a/receta.yml}}`
 
 - Genera un archivo contenedor:
 
