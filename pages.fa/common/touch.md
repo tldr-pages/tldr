@@ -1,5 +1,3 @@
-Based on the previous translations, I'll help translate the `touch` command page to Farsi while maintaining the same format and style:
-
 # touch
 
 > ایجاد فایل‌ها و تنظیم زمان‌های دسترسی/تغییر.
