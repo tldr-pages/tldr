@@ -249,6 +249,9 @@ the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
 
+- Unreleased
+  - Added longform/shortform specifications ([#15253](https://github.com/tldr-pages/tldr/pull/15253))
+
 - [v2.2, March 20th 2024](https://github.com/tldr-pages/tldr/blob/v2.2/CLIENT-SPECIFICATION.md) ([#12452](https://github.com/tldr-pages/tldr/pull/12452))
   - Removed redirect text from the [caching section](#caching) ([#12133](https://github.com/tldr-pages/tldr/pull/12133))
   - Updated asset URLs to use GitHub releases ([#12158](https://github.com/tldr-pages/tldr/pull/12158))
