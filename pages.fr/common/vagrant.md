@@ -3,7 +3,7 @@
 > Gère des environnements de développement légers, reproductibles et portables.
 > Plus d’informations : <https://www.vagrantup.com>.
 
-- Crée un fichier Vagrantfile dans le répertoire actuel avec la box Vagrant de base :
+- Crée un fichier Vagrantfile dans le répertoire actuel avec l'image Vagrant de base :
 
 `vagrant init`
 
