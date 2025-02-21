@@ -42,7 +42,7 @@ Option                 | Required?   | Meaning
 `-S`, `--short-options`| No          | If set, will filter examples to show their shortform option when available
 `-E`, `--long-options` | No          | If set, will filter examples to show their longform option when available
 
-By default clients SHOULD display only the longform option when neither `--short-options` or `--long-options` is set by the user. If both are provided, both options should be displayed (see the [Page Structure / Examples](#page-structure) section for the output format).
+By default clients SHOULD display only the longform option when neither `--short-options` or `--long-options` is set by the user. If both are provided, both options should be displayed (see the [Page Structure / Examples](#examples) section for the output format).
 
 Additional decoration MAY be printed if the standard output is a [TTY](https://linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example, a page list MUST be formatted with one page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
