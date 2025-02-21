@@ -7,7 +7,7 @@
 
 `vagrant init`
 
-- Crée un fichier Vagrantfile avec la box Ubuntu 20.04 (Focal Fossa) depuis HashiCorp Atlas :
+- Crée un fichier Vagrantfile avec l'image Ubuntu 20.04 (Focal Fossa) depuis HashiCorp Atlas :
 
 `vagrant init ubuntu/focal64`
 
