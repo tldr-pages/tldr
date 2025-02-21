@@ -11,7 +11,7 @@
 
 `vagrant init ubuntu/focal64`
 
-- Démarre et provisionne l’environnement Vagrant :
+- Démarre et configure l’environnement Vagrant :
 
 `vagrant up`
 
