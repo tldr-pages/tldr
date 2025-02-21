@@ -1,7 +1,7 @@
 # read
 
 > Shell builtin for retrieving data from `stdin`.
-> More information: <https://manned.org/read.1p>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-read>.
 
 - Store data that you type from the keyboard:
 

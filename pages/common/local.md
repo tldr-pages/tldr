@@ -1,7 +1,8 @@
 # local
 
 > Declare local variables and give them attributes.
-> More information: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.
+> See also: `declare`.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-local>.
 
 - Declare a string variable with the specified value:
 
