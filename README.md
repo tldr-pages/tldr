@@ -24,6 +24,16 @@
 [mastodon-image]: https://img.shields.io/badge/Mastodon-6364FF?logo=mastodon&logoColor=fff
 </div>
 
+## Table of Contents
+
+- [What is tldr-pages?](#what-is-tldr-pages)
+- [How do I use it?](#how-do-i-use-it)
+- [Installation Methods](#installation-methods)
+- [How do I contribute to tldr-pages?](#how-do-i-contribute-to-tldr-pages)
+- [Troubleshooting & FAQ](#troubleshooting--faq)
+- [Similar projects](#similar-projects)
+- [What does "tldr" mean?](#what-does-tldr-mean)
+
 ## What is tldr-pages?
 
 The **tldr-pages** project is a collection of community-maintained help pages
@@ -95,6 +105,15 @@ There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
 For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/Clients).
 
+## Installation Methods
+| Client | Installation Command | Package Manager |
+|--------|----------------------|----------------|
+| **Node.js Client** | `npm install -g tldr` | npm |
+| **Python Client** | `pip3 install tldr` | pip |
+| **Rust Client** | `brew install tlrc` | Homebrew |
+
+For alternative installation methods, check out our [Wiki](https://github.com/tldr-pages/tldr/wiki/Clients).
+
 ## How do I contribute to tldr-pages?
 
 All contributions are welcome!
@@ -155,6 +174,14 @@ You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tl
   It shows concise, common-case examples for Unix commands.
   The examples are submitted by the user base, and can be voted up or down;
   the best entries are what people see first when they look up a command.
+
+## Troubleshooting & FAQ
+
+### **Q: I installed `tldr`, but the command is not recognized. What should I do?**  
+
+### **Q: How do I update my tldr pages?**
+
+### **Q: Can I use tldr offline?**
 
 ## What does "tldr" mean?
 
