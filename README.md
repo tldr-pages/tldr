@@ -30,8 +30,8 @@
 - [How do I use it?](#how-do-i-use-it)
 - [Installation Methods](#installation-methods)
 - [How do I contribute to tldr-pages?](#how-do-i-contribute-to-tldr-pages)
-- [Troubleshooting & FAQ](#troubleshooting--faq)
 - [Similar projects](#similar-projects)
+- [Troubleshooting & FAQ](#troubleshooting--faq)
 - [What does "tldr" mean?](#what-does-tldr-mean)
 
 ## What is tldr-pages?
