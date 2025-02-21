@@ -18,3 +18,11 @@
 - Reset alle modi naar redelijke waarden voor de huidige terminal:
 
 `stty sane`
+
+- Wissel tussen rauwe en normale modus:
+
+`stty {{raw|cooked}}`
+
+- Zet karakter echoing uit of aan:
+
+`stty {{-echo|echo}}`
