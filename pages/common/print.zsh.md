@@ -20,6 +20,6 @@
 
 `print -e "Line 1\nLine2"`
 
-- Print arguments as described by 'printf' (for greater portability across shells, consider instead the `printf` command):
+- Print arguments as described by `printf` (for greater portability across shells, consider using the `printf` command instead):
 
 `print -f "%s is %d years old.\n" "Alice" 30`
