@@ -14,7 +14,7 @@
 
 - Installe un plugiciel à partir d’un fichier local :
 
-`vagrant plugin install {{path/to/my_plugin.gem}}`
+`vagrant plugin install {{chemin/vers/plugiciel.gem}}`
 
 - Met à jour tous les plugiciels installés vers leur dernière version :
 
