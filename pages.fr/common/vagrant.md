@@ -31,6 +31,6 @@
 
 `vagrant ssh-config`
 
-- Liste toutes les boxes locales :
+- Liste toutes les images locales :
 
 `vagrant box list`
