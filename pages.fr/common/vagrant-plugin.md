@@ -2,7 +2,7 @@
 
 > Gère les plugiciels Vagrant.
 > Voir aussi : `vagrant`.
-> Plus d’informations : <https://developer.hashicorp.com/vagrant/docs/cli/plugin>.
+> Plus d'informations : <https://developer.hashicorp.com/vagrant/docs/cli/plugin>.
 
 - Liste tous les plugiciels actuellement installés :
 
