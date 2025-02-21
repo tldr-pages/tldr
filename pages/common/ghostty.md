@@ -4,11 +4,11 @@
 > Note: all options from the configuration file can also be used on the command-line (using `--option=argument`).
 > More information: <https://ghostty.org/docs/config/reference>.
 
-- Open a new Ghostty window:
+- Open a new Ghostty window (not supported on macOS):
 
 `ghostty`
 
-- Run a specific command in a new Ghostty window:
+- Run a specific command in a new Ghostty window (not supported on macOS):
 
 `ghostty -e {{command}}`
 
