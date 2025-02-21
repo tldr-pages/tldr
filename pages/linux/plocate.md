@@ -1,13 +1,8 @@
 # plocate
 
-> Find filenames quickly.
-> Make sure to run `sudo updatedb` to include new files.
+> This command is an alias of `locate`.
 > More information: <https://plocate.sesse.net>.
 
-- Look for patterns in the database (recomputed periodically):
+- View documentation for the original command:
 
-`plocate {{pattern}}`
-
-- Look for a file by its exact filename (a pattern containing no globbing characters is interpreted as `*pattern*`):
-
-`plocate */{{filename}}`
+`tldr -p linux locate`
