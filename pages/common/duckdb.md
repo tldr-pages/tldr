@@ -17,7 +17,7 @@
 
 - Run an SQL script:
 
-`duckdb -c ".read {{path/to/script.sql}}"`
+`duckdb -f {{path/to/script.sql}}`
 
 - Run query on database file and keep the interactive shell open:
 
