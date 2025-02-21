@@ -14,7 +14,7 @@
 
 - List all default and configured keybindings:
 
-`ghostty +list-keybindings`
+`ghostty +list-keybinds`
 
 - List all actions (i.e. what can be triggered via keybindings):
 
