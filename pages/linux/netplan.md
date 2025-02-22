@@ -23,6 +23,6 @@
 
 `sudo netplan --debug apply`
 
-- Display current netplan configuration status:
+- Display the current netplan configuration status:
 
 `netplan status`
