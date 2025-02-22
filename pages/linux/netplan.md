@@ -3,7 +3,7 @@
 > Network configuration utility using YAML.
 > More information: <https://netplan.io/>.
 
-- Apply network configuration and make it persistent:
+- Apply a network configuration and make it persistent:
 
 `sudo netplan apply`
 
