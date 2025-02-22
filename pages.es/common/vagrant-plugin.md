@@ -26,4 +26,4 @@
 
 - Desinstala un complemento específico:
 
-`vagrant uninstall {{vagrant_vbguest}}`
+`vagrant plugin uninstall {{vagrant_vbguest}}`
