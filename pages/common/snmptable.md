@@ -1,6 +1,6 @@
 # snmptable
 
-> Fetch data in a tabular format.
+> Fetch data in tabular format.
 > More information: <https://manned.org/snmptable>.
 
 - Fetch data:
