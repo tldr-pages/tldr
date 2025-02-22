@@ -7,7 +7,7 @@
 
 `mariadb {{db_name}}`
 
-- Connects to a specific MariaDB database {{db_name}} using {{user_name}} and {{your_password}}:
+- Connect to a specific MariaDB database {{db_name}} using {{user_name}} and {{your_password}}:
 
 `mariadb --user={{user_name}} --password={{your_password}} {{db_name}}`
 
