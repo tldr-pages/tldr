@@ -1,7 +1,7 @@
 # mariadb
 
 > The mariadb Command-Line Client tool.
-> More information: <https://mariadb.com/kb/en/mariadb-command-line-client/>
+> More information: <https://mariadb.com/kb/en/mariadb-command-line-client/>.
 
 - Connect to a specific MariaDB database.
 
