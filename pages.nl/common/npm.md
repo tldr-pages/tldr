@@ -6,7 +6,7 @@
 
 - Maak een `package.json`-bestand met standaardwaarden (laat --yes weg om dit interactief te doen):
 
-`npm init {{-y|--yes}}`
+`npm init {{[-y|--yes]}}`
 
 - Download alle pakketten die zijn vermeld als afhankelijkheden in `package.json`:
 
@@ -18,11 +18,11 @@
 
 - Download de nieuwste versie van een pakket en voeg het toe aan de lijst van dev-afhankelijkheden in `package.json`:
 
-`npm install {{pakket_naam}} {{-D|--save-dev}}`
+`npm install {{pakket_naam}} {{[-D|--save-dev]}}`
 
 - Download de nieuwste versie van een pakket en installeer het globaal:
 
-`npm install {{-g|--global}} {{pakket_naam}}`
+`npm install {{[-g|--global]}} {{pakket_naam}}`
 
 - Verwijder een pakket en haal het uit de lijst van afhankelijkheden in `package.json`:
 
@@ -34,4 +34,4 @@
 
 - Toon alle top-level globaal geïnstalleerde pakketten:
 
-`npm list {{-g|--global}} --depth {{0}}`
+`npm list {{[-g|--global]}} --depth {{0}}`
