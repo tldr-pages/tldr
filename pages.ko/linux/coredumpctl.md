@@ -1,4 +1,4 @@
-# coredumpctl
+  coredumpctl
 
 > 저장된 코어 덤프와 메타데이터를 검색하고 처리합니다.
 > 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/coredumpctl.html>.
@@ -21,4 +21,4 @@
 
 - 특정 프로그램의 마지막 코어 덤프를 파일로 추출:
 
-`coredumpctl --output={{경로/대상/파일}} dump {{프로그램}}`
+`coredumpctl --output {{경로/대상/파일}} dump {{프로그램}}`
