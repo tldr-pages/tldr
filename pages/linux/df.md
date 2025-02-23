@@ -9,7 +9,7 @@
 
 - Display all filesystems and their disk usage in human-readable form:
 
-`df {{-h|--human-readable}}`
+`df {{[-h|--human-readable]}}`
 
 - Display the filesystem and its disk usage containing the given file or directory:
 
@@ -17,12 +17,12 @@
 
 - Include statistics on the number of free inodes:
 
-`df {{-i|--inodes}}`
+`df {{[-i|--inodes]}}`
 
 - Display filesystems but exclude the specified types:
 
-`df {{-x|--exclude-type}} {{squashfs}} {{-x|--exclude-type}} {{tmpfs}}`
+`df {{[-x|--exclude-type]}} {{squashfs}} {{[-x|--exclude-type]}} {{tmpfs}}`
 
 - Display filesystem types:
 
-`df {{-T|--print-type}}`
+`df {{[-T|--print-type]}}`

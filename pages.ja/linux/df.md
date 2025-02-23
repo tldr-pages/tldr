@@ -9,7 +9,7 @@
 
 - すべてのファイルシステムとそのディスク使用量を、人が解釈可能な形式で表示する:
 
-`df {{-h|--human-readable}}`
+`df {{[-h|--human-readable]}}`
 
 - 与えられたファイルまたはディレクトリを含むファイルシステムと、そのディスク使用量を表示する:
 
@@ -17,12 +17,12 @@
 
 - 空きinode数の統計を含める:
 
-`df {{-i|--inodes}}`
+`df {{[-i|--inodes]}}`
 
 - ファイルシステムを表示するが、指定したタイプは除外する:
 
-`df {{-x|--exclude-type}} {{squashfs}} {{-x|--exclude-type}} {{tmpfs}}`
+`df {{[-x|--exclude-type]}} {{squashfs}} {{[-x|--exclude-type]}} {{tmpfs}}`
 
 - ファイルシステムのタイプを表示する:
 
-`df {{-T|--print-type}}`
+`df {{[-T|--print-type]}}`
