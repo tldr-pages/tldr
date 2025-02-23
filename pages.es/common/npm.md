@@ -8,7 +8,7 @@
 
 `npm init {{[-y|--yes]}}`
 
-- Descarga todos los paquetes listados como dependencias en `package.json`:
+- Descarga todos los paquetes alistados como dependencias en `package.json`:
 
 `npm install`
 
