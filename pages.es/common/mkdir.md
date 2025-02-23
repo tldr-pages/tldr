@@ -10,8 +10,8 @@
 
 - Crea directorios recursivamente y sus padres si es necesario:
 
-`mkdir {{-p|--parents}} {{ruta/al/directorio}}`
+`mkdir {{[-p|--parents]}} {{ruta/al/directorio}}`
 
 - Crea directorios con permisos específicos:
 
-`mkdir {{-m|--mode}} {{rwxrw-r--}} {{ruta/al/directorio1 ruta/al/directorio2 ...}}`
+`mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{ruta/al/directorio1 ruta/al/directorio2 ...}}`

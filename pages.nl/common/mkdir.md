@@ -9,8 +9,8 @@
 
 - Maak specifieke mappen en hun ouders aan indien nodig:
 
-`mkdir {{-p|--parents}} {{pad/naar/map1 pad/naar/map2 ...}}`
+`mkdir {{[-p|--parents]}} {{pad/naar/map1 pad/naar/map2 ...}}`
 
 - Maak mappen aan met specifieke permissies:
 
-`mkdir {{-m|--mode}} {{rwxrw-r--}} {{pad/naar/map1 pad/naar/map2 ...}}`
+`mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{pad/naar/map1 pad/naar/map2 ...}}`

@@ -9,8 +9,8 @@
 
 - ساخت پوشه های مشخص به همراه پوشه های والد در صورت نیاز:
 
-`mkdir {{-p|--parents}} {{path/to/directory1 path/to/directory2 ...}}`
+`mkdir {{[-p|--parents]}} {{path/to/directory1 path/to/directory2 ...}}`
 
 - ساخت پوشه با مجوز های خاص:
 
-`mkdir {{-m|--mode}} {{rwxrw-r--}} {{path/to/directory1 path/to/directory2 ...}}`
+`mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{path/to/directory1 path/to/directory2 ...}}`
