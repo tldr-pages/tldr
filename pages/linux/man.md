@@ -7,9 +7,9 @@
 
 `man {{command}}`
 
-- Open the man page for a command in a browser (requires the `BROWSER` variable to be set):
+- Open the man page for a command in a browser (`BROWSER` environment variable can replace `=browser_name`):
 
-`man --html {{command}}`
+`man --html{{=browser_name}} {{command}}`
 
 - Display the man page for a command from section 7:
 
