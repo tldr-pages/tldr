@@ -17,7 +17,7 @@
 
 - Print a specific property of a user:
 
-`loginctl show-user {{username}} --property={{property_name}}`
+`loginctl show-user {{username}} --property {{property_name}}`
 
 - Execute a `loginctl` operation on a remote host:
 
