@@ -21,4 +21,4 @@
 
 - Run a specific maintenance task on the current repository:
 
-`git maintenance run --task={{commit-graph|gc|incremental-repack|loose-objects|pack-refs|prefetch}}`
+`git maintenance run --task {{commit-graph|gc|incremental-repack|loose-objects|pack-refs|prefetch}}`
