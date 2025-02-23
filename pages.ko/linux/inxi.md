@@ -9,8 +9,8 @@
 
 - CPU, 메모리, 디스크, 네트워크 및 프로세스의 전체 설명 출력:
 
-`inxi -Fz`
+`inxi {{[-ez|--expanded --filter]}}`
 
 - 배포판 저장소 정보 출력:
 
-`inxi -r`
+`inxi {{[-r|--repos]}}`
