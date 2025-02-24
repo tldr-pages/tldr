@@ -10,11 +10,11 @@
 
 - Make a package and install its dependencies:
 
-`makepkg --syncdeps`
+`makepkg {{[-s|--syncdeps]}}`
 
 - Make a package, install its dependencies then install it to the system:
 
-`makepkg --syncdeps --install`
+`makepkg {{[-s|--syncdeps]}} {{[-i|--install]}}`
 
 - Make a package, but skip checking the source's hashes:
 
@@ -22,7 +22,7 @@
 
 - Clean up work directories after a successful build:
 
-`makepkg --clean`
+`makepkg {{[-c|--clean]}}`
 
 - Verify the hashes of the sources:
 
