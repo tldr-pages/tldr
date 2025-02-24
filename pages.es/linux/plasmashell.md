@@ -13,7 +13,7 @@
 
 - Muestra ayuda en las opciones de la línea de comandos:
 
-`plasmashell --help`
+`plasmashell {{[-h|--help]}}`
 
 - Muestra la ayuda, incluidas las opciones de Qt:
 
