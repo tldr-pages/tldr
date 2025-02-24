@@ -10,7 +10,7 @@
 
 - HTTPS를 통해 패키지 저장소를 클론:
 
-`pkgctl repo clone --protocol=https {{패키지명}}`
+`pkgctl repo clone --protocol https {{패키지명}}`
 
 - 새로운 GitLab 패키지 저장소 생성 후 클론(GitLab API 인증 필요):
 

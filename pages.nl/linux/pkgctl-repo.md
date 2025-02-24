@@ -10,7 +10,7 @@
 
 - Kloon een pakketrepository via HTTPS:
 
-`pkgctl repo clone --protocol=https {{pkgname}}`
+`pkgctl repo clone --protocol https {{pkgname}}`
 
 - Maak een nieuwe GitLab pakketrepository en kloon het na het aanmaken (vereist valide GitLab API authenticatie):
 
