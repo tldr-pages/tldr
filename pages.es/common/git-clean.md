@@ -9,19 +9,19 @@
 
 - Elimina interactivamente archivos que no son rastreados por Git:
 
-`git clean {{-i|--interactive}}`
+`git clean {{[-i|--interactive]}}`
 
 - Muestra que archivos serían borrados sin llegar a borrarlos:
 
-`git clean --dry-run`
+`git clean {{[-n|--dry-run]}}`
 
 - Elimina forzosamente los archivos que no son rastreados por Git:
 
-`git clean {{-f|--force}}`
+`git clean {{[-f|--force]}}`
 
 - Elimina forzosamente los directorios que no son rastreados por Git:
 
-`git clean {{-f|--force}} -d`
+`git clean {{[-f|--force]}} -d`
 
 - Elimina archivos sin rastrear, incluyendo los archivos ignorados en `.gitignore` y los excluidos en `.git/info/exclude`:
 

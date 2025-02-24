@@ -9,19 +9,19 @@
 
 - Supprimer les fichiers non-suivis de manière interactive :
 
-`git clean {{-i|--interactive}}`
+`git clean {{[-i|--interactive]}}`
 
 - Affiche les fichiers non-suivis qui peuvent être supprimés :
 
-`git clean --dry-run`
+`git clean {{[-n|--dry-run]}}`
 
 - Nettoyage forcé des fichiers non-suivis :
 
-`git clean {{-f|--force}}`
+`git clean {{[-f|--force]}}`
 
 - Nettoyage forcé des répertoires non-suivis :
 
-`git clean {{-f|--force}} -d`
+`git clean {{[-f|--force]}} -d`
 
 - Supprime tous les fichiers suivis, incluant ceux répertoriés par `.gitignore` et `.git/info/exclude` :
 
