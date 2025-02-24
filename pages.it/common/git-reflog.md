@@ -13,4 +13,4 @@
 
 - Mostra le ultime 5 voci del reflog:
 
-`git reflog {{-n|--max-count}} 5`
+`git reflog {{[-n|--max-count]}} 5`
