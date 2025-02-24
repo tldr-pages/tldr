@@ -3,21 +3,21 @@
 > Consulta el registro systemd.
 > Más información: <https://manned.org/journalctl>.
 
-- Muestra todos los mensajes con nivel de prioridad 3 (errores) de este [b]oot:
+- Muestra todos los mensajes con nivel de prioridad 3 (errores) de este boot:
 
-`journalctl -b --priority=3`
+`journalctl {{[-b|--boot]}} {{[-p|--priority]}} 3`
 
 - Elimina los registros diarios con más de 2 días de antigüedad:
 
-`journalctl --vacuum-time=2d`
+`journalctl --vacuum-time 2d`
 
 - Muestra solo las últimas N líneas y sigue los mensajes nuevos (como `tail -f` de un syslog tradicional):
 
-`journalctl --lines {{N}} --follow`
+`journalctl {{[-n|--lines]}} {{N}} {{[-f|--follow]}}`
 
-- Muestra todos los mensajes de una [u]nidad específica:
+- Muestra todos los mensajes de una unidad específica:
 
-`journalctl --unit {{unidad}}`
+`journalctl {{[-u|--unit]}} {{unidad}}`
 
 - Muestra los registros de una unidad determinada desde la última vez que se inició:
 
@@ -25,7 +25,7 @@
 
 - Filtra mensajes dentro de un intervalo de tiempo (marca de tiempo o marcadores de posición como "ayer"):
 
-`journalctl --since {{now|today|yesterday|tomorrow}} --until "{{YYYY-MM-DD HH:MM:SS}}"`
+`journalctl {{[-S|--since]}} {{now|today|yesterday|tomorrow}} {{[-U|--until]}} "{{YYYY-MM-DD HH:MM:SS}}"`
 
 - Muestra todos los mensajes de un proceso específico:
 
