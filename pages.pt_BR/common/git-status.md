@@ -10,19 +10,19 @@
 
 - Fornece a saída em formato curto:
 
-`git status --short`
+`git status {{[-s|--short]}}`
 
 - Mostra informação verbosa em alterações tanto na área de preparação e no diretório de trabalho:
 
-`git status --verbose --verbose`
+`git status {{[-vv|--verbose --verbose]}}`
 
 - Mostra informações da branch e de rastreamento:
 
-`git status --branch`
+`git status {{[-b|--branch]}}`
 
 - Mostra a saída em formato curto junto com as informações da branch:
 
-`git status --short --branch`
+`git status {{[-sb|--short --branch]}}`
 
 - Mostra o número de entradas atualmente armazenadas:
 
@@ -30,4 +30,4 @@
 
 - Não mostra arquivos não rastreados na saída:
 
-`git status --untracked-files=no`
+`git status {{[-uno|--untracked-files=no]}}`

@@ -10,11 +10,11 @@
 
 - Muestra la salida en formato breve:
 
-`git status --short`
+`git status {{[-s|--short]}}`
 
 - Muestra información detallada sobre cambios tanto en el área de preparación (staging) como en el directorio de trabajo:
 
-`git status --verbose --verbose`
+`git status {{[-vv|--verbose --verbose]}}`
 
 - Muestra la rama (branch) e información de seguimiento:
 
@@ -22,7 +22,7 @@
 
 - Muestra la salida en formato breve junto a la información de la rama (branch):
 
-`git status --short --branch`
+`git status {{[-sb|--short --branch]}}`
 
 - Muestra el número de entradas en rama temporal (stash):
 
@@ -30,4 +30,4 @@
 
 - Muestra los archivos rastreados, excluyendo los no rastreados (untracked):
 
-`git status --untracked-files=no`
+`git status {{[-uno|--untracked-files=no]}}`
