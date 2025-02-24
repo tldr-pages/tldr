@@ -9,11 +9,11 @@
 
 - Lista todas as localidades disponíveis:
 
-`locale --all-locales`
+`locale {{[-a|--all-locales]}}`
 
 - Exibe todas as localidades disponíveis e os metadados associados:
 
-`locale --all-locales --verbose`
+`locale {{[-a|--all-locales]}} {{[-v|--verbose]}}`
 
 - Exibe o formato da data atual:
 
