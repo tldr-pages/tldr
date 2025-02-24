@@ -12,11 +12,11 @@
 
 `aur sync {{package}}`
 
-- list packages available in your local repository:
+- List packages available in your local repository:
 
 `aur repo {{[-l|--list]}}`
 
-- upgrade local repository packages:
+- Upgrade local repository packages:
 
 `aur sync {{[-u|--upgrades]}}`
 

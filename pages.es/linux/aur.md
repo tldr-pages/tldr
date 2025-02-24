@@ -12,7 +12,7 @@
 
 `aur sync {{paquete}}`
 
-- [l]ista paquetes disponibles en tu repositorio local:
+- Lista paquetes disponibles en tu repositorio local:
 
 `aur repo {{[-l|--list]}}`
 
