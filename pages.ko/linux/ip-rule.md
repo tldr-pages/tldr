@@ -1,4 +1,4 @@
-ip# ip rule
+# ip rule
 
 > IP 라우팅 정책 데이터베이스 관리.
 > 더 많은 정보: <https://manned.org/ip-rule>.
