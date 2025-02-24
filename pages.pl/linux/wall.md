@@ -13,4 +13,4 @@
 
 - Wysłanie wiadomość z pliku z podanym timeoutem (sekundy, domyślnie 300):
 
-`wall -t {{sekundy}} {{plik}}`
+`wall {{[-t|--timeout]}} {{sekundy}} {{plik}}`
