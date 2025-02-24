@@ -5,7 +5,7 @@
 
 - Display the current state of the system (known screens, resolutions, ...):
 
-`xrandr --query`
+`xrandr {{[-q|--query]}}`
 
 - Disable disconnected outputs and enable connected ones with default settings:
 
@@ -29,4 +29,4 @@
 
 - Display the current state of any X server:
 
-`xrandr --display :{{0}} --query`
+`xrandr {{[-d|--display]}} :{{0}} {{[-q|--query]}}`
