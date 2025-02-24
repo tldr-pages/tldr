@@ -5,7 +5,7 @@
 
 - Liste toutes les branches (locale et distantes) :
 
-`git branch --all`
+`git branch {{[-a|--all]}}`
 
 - Affiche le nom de la branche courante :
 
@@ -21,12 +21,12 @@
 
 - Renommer une branche (ne pas se trouver sur la branche pour le faire) :
 
-`git branch {{-m|--move}} {{ancien_nom_de_branche}} {{nouveau_nom_de_branche}}`
+`git branch {{[-m|--move]}} {{ancien_nom_de_branche}} {{nouveau_nom_de_branche}}`
 
 - Supprimer un branche locale (ne pas se trouver sur la branche pour le faire) :
 
-`git branch {{-d|--delete}} {{nom_de_branche}}`
+`git branch {{[-d|--delete]}} {{nom_de_branche}}`
 
 - Supprimer une branche distante :
 
-`git push {{nom_distant}} --delete {{nom_de_branche_distante}}`
+`git push {{nom_distant}} {{[-d|--delete]}} {{nom_de_branche_distante}}`
