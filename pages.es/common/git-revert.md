@@ -21,4 +21,4 @@
 
 - Revierte confirmaciones sin crear nuevas confirmaciones:
 
-`git revert {{-n|--no-commit}} {{0c01a9..9a1743}}`
+`git revert {{[-n|--no-commit]}} {{0c01a9..9a1743}}`
