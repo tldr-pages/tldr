@@ -10,8 +10,8 @@
 
 - Set the label of a swap area:
 
-`swaplabel --label {{new_label}} {{path/to/file}}`
+`swaplabel {{[-L|--label]}} {{new_label}} {{path/to/file}}`
 
 - Set the UUID of a swap area (you can generate a UUID using `uuidgen`):
 
-`swaplabel --uuid {{new_uuid}} {{path/to/file}}`
+`swaplabel {{[-U|--uuid]}} {{new_uuid}} {{path/to/file}}`
