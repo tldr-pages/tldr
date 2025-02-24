@@ -15,7 +15,7 @@
 
 `git shortlog {{[-c|--committer]}}`
 
-- Muestra un resumen de las últimas cinco confirmaciones (i. e., un rango de revisiones específico):
+- Muestra un resumen de las últimas cinco confirmaciones (p. e., un rango de revisiones específico):
 
 `git shortlog HEAD~5..HEAD`
 
