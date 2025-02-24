@@ -9,4 +9,4 @@
 
 - Specify the audio driver:
 
-`fluidsynth --audio-driver {{pipewire|pulseaudio}} {{path/to/soundfont.sf2}} {{path/to/file.midi}}`
+`fluidsynth {{[-a|--audio-driver]}} {{pipewire|pulseaudio}} {{path/to/soundfont.sf2}} {{path/to/file.midi}}`
