@@ -27,7 +27,7 @@
 
 `mv {{[-n|--no-clobber]}} {{ruta/a/origen}} {{ruta/a/destino}}`
 
-- Mueve archivos en modo verbose, mostrando los archivos después de moverlos:
+- Mueve archivos en modo verboso, mostrando los archivos después de moverlos:
 
 `mv {{[-v|--verbose]}} {{ruta/a/origen}} {{ruta/a/destino}}`
 
