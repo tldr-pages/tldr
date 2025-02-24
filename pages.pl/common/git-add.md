@@ -9,7 +9,7 @@
 
 - Dodaj wszystkie pliki (śledzone i nieśledzone):
 
-`git add {{-A|--all}}`
+`git add {{[-A|--all]}}`
 
 - Dodaj wszystkie pliki w bieżącym katalogu:
 
@@ -17,20 +17,20 @@
 
 - Dodaj tylko już śledzone pliki:
 
-`git add {{-u|--update}}`
+`git add {{[-u|--update]}}`
 
 - Dodaj również ignorowane pliki:
 
-`git add {{-f|--force}}`
+`git add {{[-f|--force]}}`
 
 - Dodawaj części plików interaktywnie:
 
-`git add {{-p|--patch}}`
+`git add {{[-p|--patch]}}`
 
 - Dodawaj części określonego pliku interaktywnie:
 
-`git add {{-p|--patch}} {{ścieżka/do/pliku}}`
+`git add {{[-p|--patch]}} {{ścieżka/do/pliku}}`
 
 - Dodaj plik interaktywnie:
 
-`git add {{-i|--interactive}}`
+`git add {{[-i|--interactive]}}`
