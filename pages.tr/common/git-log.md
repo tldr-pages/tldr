@@ -9,7 +9,7 @@
 
 - Belirtilen dosya veya dizinin tarihini farklılıklarla beraber göster:
 
-`git log {{-p|-u|--patch}} {{dosya/veya/dizin/konumu}}`
+`git log {{[-p|--patch]}} {{dosya/veya/dizin/konumu}}`
 
 - Her bir commit'de hangi dosya(lar)ın değiştiğinin önizlemesini göster:
 
@@ -25,11 +25,11 @@
 
 - Mesajları yalnızca belirtilen ifadeleri içeren commit'leri göster (büyük-küçük harfe duyarsız):
 
-`git log {{-i|--regexp-ignore-case}} --grep {{aranan_ifade}}`
+`git log {{[-i|--regexp-ignore-case]}} --grep {{aranan_ifade}}`
 
 - Belirtilmiş yazardan gelen, belirtilen sayıda commit göster:
 
-`git log {{-n|--max-count}} {{sayı}} --author "{{yazar}}"`
+`git log {{[-n|--max-count]}} {{sayı}} --author "{{yazar}}"`
 
 - İki tarih arasında yapılmış commit'leri göster:
 
