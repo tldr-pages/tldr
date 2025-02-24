@@ -14,7 +14,7 @@
 
 - Busca palabras completas:
 
-es -w {{término_de_búsqueda}}`
+`es -w {{término_de_búsqueda}}`
 
 - Limita el número de resultados mostrados:
 
