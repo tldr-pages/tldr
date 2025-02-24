@@ -5,15 +5,15 @@
 
 - Stocker les changements courants, sauf les fichiers non-suivis :
 
-`git stash push -m {{nom_de_stash_optionel}}`
+`git stash push {{[-m|--message]}} {{nom_de_stash_optionel}}`
 
 - Stocker les changements courants, incluant les fichiers non-suivis :
 
-`git stash -u`
+`git stash {{[-u|--include-untracked]}}`
 
 - Stocker les parties d'un fichier interactivement :
 
-`git stash -p`
+`git stash {{[-p|--patch]}}`
 
 - Lister tous les stashs (affiche leurs noms, les branches relatives et messages) :
 
