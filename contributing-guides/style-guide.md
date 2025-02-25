@@ -464,7 +464,7 @@ Keep the following guidelines in mind when choosing placeholders:
 
 - If a command can optionally take 1 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
   For instance, if multiple paths are expected, use `{{path/to/directory1 path/to/directory2 ...}}`.
-- If a command can optionally take 1 or more arguments of different kinds, an ellipsis: `{{placeholder1|placeholder2|...}}`.
+- If a command can optionally take 1 or more arguments of different kinds, use an ellipsis: `{{placeholder1|placeholder2|...}}`.
   If there are more than 5 possible values, you can use `|...` after the last item.
 - It's impossible to restrict the minimum or (and) maximum placeholder count via `ellipsis`.
 
