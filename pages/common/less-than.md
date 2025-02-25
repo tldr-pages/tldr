@@ -9,7 +9,7 @@
 
 - Create a here document and pass that into `stdin` (requires a multiline command):
 
-`{{command}} << {{EOF}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
+`{{command}} << {{EOF}}<Enter>{{multiline_data}}<Enter>{{EOF}}`
 
 - Create a here string and pass that into `stdin` (achieves the same effect as `echo string |`):
 
@@ -21,8 +21,8 @@
 
 - Write a here document into a file:
 
-`cat << {{EOF}} > {{path/to/file.txt}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
+`cat << {{EOF}} > {{path/to/file.txt}}<Enter>{{multiline_data}}<Enter>{{EOF}}`
 
 - Disregard leading tabs (good for scripts with indentation but does not work for spaces):
 
-`cat <<- {{EOF}} > {{path/to/file.txt}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
+`cat <<- {{EOF}} > {{path/to/file.txt}}<Enter>{{multiline_data}}<Enter>{{EOF}}`
