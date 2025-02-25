@@ -30,7 +30,7 @@
 
 - Update all highlights and folds:
 
-`<:><d><i><f><f><u><p><d><a><t><e>`
+`<:><diffupdate>`
 
 - Toggle the highlighted code fold:
 
