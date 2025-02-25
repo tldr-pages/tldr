@@ -481,6 +481,19 @@ When documenting optional placeholders like paths or file extensions, it is sugg
 
 - Use `{{path/to/source.ext}}` instead of `{{path/to/source.tar[.gz|.bz2|.xz]}}`.
 
+### Keypress syntax
+
+To mark keypresses for TUI or UI programs, use angle brackets `<` and `>`.
+
+- Single characters example: `<a>`.
+- Special keys are to be written with pascal case: `<Ctrl>`, `<Super>`, `<Alt>`, `<Shift>`, `<Cmd>`, `<Option>`, `<Windows>`, `<Enter>`, `<Home>`, `<Space>`, `<Esc>`, `<ArrowUp>`, `<ArrowLeft>`, `<PageUp>`, ...
+- Special keys can be translated if they have culturally relevant translations.
+- When a program takes in uppercase character literals mark them as `<A>` instead of marking it with shift. Otherwise always mark characters in lowercase.
+- Mark simultaneous keypresses inside the same angle brackets separated by a single space:  `<Ctrl c>`, `<Alt F4>`, `<Ctrl Shift k>`, `<Super Shift PrtSc>`.
+- Consecutive keypresses need to be contained in their own angle brackets with no space in between: `<:><w><q><Enter>`, `<Ctrl k><Ctrl s>`.
+
+To differentiate keypress syntax from terminal file redirection, include as little additional spaces around the angle brackets as possible. Likewise include spaces around terminal file redirection whenever possible.
+
 ### Help and version commands
 
 - We generally put, **in this order**, the help and version commands as the **last two** examples of the page to highlight more practical commands at the beginning of the page. They can be replaced to accommodate other useful examples if required.
