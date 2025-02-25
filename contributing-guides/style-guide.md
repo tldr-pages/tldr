@@ -487,6 +487,7 @@ To mark keypresses for TUI or UI programs, use angle brackets `<` and `>`.
 - When a program takes in uppercase character literals mark them as `<A>` instead of marking it with shift. Otherwise always mark characters in lowercase.
 - Mark simultaneous keypresses inside the same angle brackets separated by a single space:  `<Ctrl c>`, `<Alt F4>`, `<Ctrl Shift k>`, `<Super Shift PrtSc>`.
 - Consecutive keypresses need to be contained in their own angle brackets with no space in between: `<:><w><q><Enter>`, `<Ctrl k><Ctrl s>`.
+- Keypresses in the same context or when they form words can be grouped together in the same angle brackets: `<:><help><Enter>`.
 
 To differentiate keypress syntax from terminal file redirection, include as little additional spaces around the angle brackets as possible. Likewise include spaces around terminal file redirection whenever possible.
 
