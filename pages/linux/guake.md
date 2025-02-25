@@ -25,4 +25,4 @@
 
 - Search the selected text in the browser:
 
-`<Shift Ctrl l>`
+`<Ctrl Shift l>`
