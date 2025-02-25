@@ -489,8 +489,6 @@ To mark keypresses for TUI or UI programs, use angle brackets `<` and `>`.
 - Consecutive keypresses need to be contained in their own angle brackets with no space in between: `<:><w><q><Enter>`, `<Ctrl k><Ctrl s>`.
 - Keypresses in the same context or when they form words can be grouped together in the same angle brackets: `<:><help><Enter>`.
 
-To differentiate keypress syntax from terminal file redirection, include as little additional spaces around the angle brackets as possible. Likewise include spaces around terminal file redirection whenever possible.
-
 ### Help and version commands
 
 - We generally put, **in this order**, the help and version commands as the **last two** examples of the page to highlight more practical commands at the beginning of the page. They can be replaced to accommodate other useful examples if required.
