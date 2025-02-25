@@ -64,7 +64,7 @@ Example:
 `krita --fullscreen`
 ```
 
-> [!NOTE]
+> [!NOTE]\
 > The page's filename and title must match the command name exactly. The page title can be present in any case, whereas the page's Markdown filenames must be lowercase.
 
 There is a linter that enforces the format above.
@@ -165,7 +165,7 @@ Command Prompt command's tldr description, for example:
 `tldr set-location`
 ```
 
-> [!NOTE]
+> [!NOTE]\
 > The "View documentation of the equivalent PowerShell command" example is optional and must be excluded if the page already has the maximum number (8) of examples.
 
 2. **Provides a new alias but only executable in PowerShell**, such as `ni` for `New-Item`. In this case, use the [standard alias template](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md),
@@ -270,7 +270,7 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 > Delete the Git branches, tags, and remotes.
 
-> [!NOTE]
+> [!NOTE]\
 > Brand and project names can be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
 
 ### Special cases
@@ -403,7 +403,7 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 
 - Optionally, mnemonics and their enclosed terms can be separated with brackets from the rest of the description (i.e. `([a]ll)`) in translations and specific pages to provide additional context or mention a word not present in the description.
 
-> [!NOTE]  
+> [!NOTE]\
 > In cases where the character isn't present in the translated word, you can highlight the option before/next to the equivalent word or you can add the English work beside the translation inside a bracket.
 > For example, `E[x]tract` in English maybe translated into `[x] ekstrak` or `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
 
@@ -451,7 +451,7 @@ Keep the following guidelines in mind when choosing placeholders:
 - In case of a possible reference both to a file or a directory,
   use `{{path/to/file_or_directory}}`.
 
-> [!NOTE]  
+> [!NOTE]\
 > If the command is specific to Windows, use backslashes (`\`) instead, such as `{{path\to\file_or_directory}}`. Drive letters such as `C:` are optional unless the command input requires an absolute path
 > or specific drive letter range, such as `cd /d {{C}}:{{path\to\directory}}`.
 
