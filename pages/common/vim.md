@@ -15,7 +15,7 @@
 
 - View Vim's help manual:
 
-`<:><h><e><l><p><Enter>`
+`<:><help><Enter>`
 
 - Save and quit the current buffer:
 
@@ -35,4 +35,4 @@
 
 - Display the line numbers:
 
-`<:><s><e><t><Space><n><u><Enter>`
+`<:><set><Space><nu><Enter>`
