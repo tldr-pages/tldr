@@ -1,7 +1,7 @@
 # npx
 
 > `npm` paketlerinden komutlar çalıştırır.
-> Daha fazla bilgi: <https://github.com/npm/npx>.
+> Daha fazla bilgi için: <https://github.com/npm/npx>.
 
 - Lokal veya uzaktaki bir `npm` paketinden komut çalıştırır:
 

@@ -1,7 +1,7 @@
 # nodemon
 
 > Dosyalar değiştirildiğinde Node uygulamasını yeniden başlatmak için dosyaları izler.
-> Daha fazla bilgi: <https://nodemon.io>.
+> Daha fazla bilgi için: <https://nodemon.io>.
 
 - Verilen dosyayı çalıştırır ve belirtilen dosyadaki değişiklikleri izler:
 
