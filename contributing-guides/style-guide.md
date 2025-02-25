@@ -486,8 +486,8 @@ To mark keypresses for TUI or UI programs, use angle brackets `<` and `>`.
 - Special keys can be translated if they have culturally relevant translations.
 - When a program takes in uppercase character literals mark them as `<A>` instead of marking it with shift. Otherwise always mark characters in lowercase.
 - Mark simultaneous keypresses inside the same angle brackets separated by a single space:  `<Ctrl c>`, `<Alt F4>`, `<Ctrl Shift k>`, `<Super Shift PrtSc>`.
-- Consecutive keypresses need to be contained in their own angle brackets with no space in between: `<:><w><q><Enter>`, `<Ctrl k><Ctrl s>`.
-- Keypresses in the same context or when they form words can be grouped together in the same angle brackets: `<:><help><Enter>`.
+- Consecutive keypresses need to be contained in their own angle brackets with no space in between: `<Ctrl k><Ctrl s>`.
+- Keys that are typed into a prompt do not need to be marked as keypresses: `<:>help<Enter>`.
 - Do not place options with multiple choices inside angle brackets: Use `{{<Ctrl Shift PageUp>|<Ctrl Shift PageDown>}}` instead of `<Ctrl Shift {{PageUp|PageDown}}>`.
 
 ### Help and version commands
