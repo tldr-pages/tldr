@@ -35,4 +35,4 @@
 
 - Display the line numbers:
 
-`<:><set><Space><nu><Enter>`
+`<:>set nu<Enter>`
