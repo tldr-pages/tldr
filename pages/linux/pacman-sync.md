@@ -16,7 +16,7 @@
 
 `sudo pacman -Syu --noconfirm {{package}}`
 
-- Search ([s]) the package database for a regular expression or keyword:
+- [s]earch the package database for a regular expression or keyword:
 
 `pacman -Ss "{{search_pattern}}"`
 
@@ -32,6 +32,6 @@
 
 `sudo pacman -Sc`
 
-- Specify the package version you want to install:
+- Specify the package version that should be installed:
 
 `sudo pacman -S {{package}}={{version}}`

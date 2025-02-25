@@ -28,10 +28,10 @@
 
 `sudo pacman -Syu --overwrite {{pad/naar/bestand}}`
 
-- [S]ynchroniseer en [u]pdate alle pakketten, maar negeer een specifiek pakket (kan meerdere keren gebruikt worden):
-
-`sudo pacman -Syu --ignore {{pakket1 pakket2 ...}}`
-
 - Verwijder niet-geïnstalleerde pakketten en ongebruikte repositories uit de cache (gebruik de vlag `Sc` om [c]ache volledig schoon te maken):
 
 `sudo pacman -Sc`
+
+- Specificeer de pakketversie die geïnstalleerd dient te worden:
+
+`sudo pacman -S {{pakket}}={{versie}}`

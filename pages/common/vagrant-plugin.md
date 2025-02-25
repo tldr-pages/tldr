@@ -26,4 +26,4 @@
 
 - Uninstall a specific plugin:
 
-`vagrant uninstall {{vagrant_vbguest}}`
+`vagrant plugin uninstall {{vagrant_vbguest}}`
