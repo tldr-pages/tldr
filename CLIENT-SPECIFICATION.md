@@ -126,6 +126,7 @@ Although this specification is about the interface that clients must provide, it
 
 Things to take into account:
 - Clients MAY highlight the placeholders and MUST remove the surrounding curly braces.
+- If option placeholders are set to show only shortform or longform options, they MUST not be highlighted. This is because there is no longer user choice involved.
 - Clients MUST remove the angle brackets from option placeholders when only short- or longform is shown. 
 - Clients MUST NOT treat them as the placeholder syntax if they are escaped using `\` (i.e. `\{\{` and `\}\}`) and MUST instead display literal braces, without backslashes. Placeholder escaping applies only when both braces are escaped (e.g. in `\{` or `\{{`, backslashes MUST be displayed).
 - In cases when a command uses `{}` in its arguments (e.g. `stash@{0}`) **_the outer braces_** mark the placeholder - the braces inside MUST be displayed.
