@@ -10,7 +10,7 @@ This page lists specific formatting instructions for `tldr` pages.
 4. [Heading](#heading)
 5. [Example descriptions](#example-descriptions)
 6. [Example commands](#example-commands)
-7. [Language-specific rules](#language-specific-rules)
+7. [Language and Translation Rules](#language-and-translation-rules)
 
 ## General layout
 
