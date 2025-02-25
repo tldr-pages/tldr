@@ -5,7 +5,7 @@
 
 - JavaScript dosyası çalıştır:
 
-`node {{path/to/file}}`
+`node {{dosya/yolu}}`
 
 - REPL (interactive shell) başlat:
 
@@ -13,11 +13,11 @@
 
 - Bir içe aktarılan dosya değiştirildiği zaman belirtilen dosyayı yeniden başlat (Node.js sürüm 18.11+ gerektirir):
 
-`node --watch {{path/to/file}}`
+`node --watch {{dosya/yolu}}`
 
 - JavaScript kodunu argüman olarak geçerek değerlendir:
 
-`node -e "{{code}}"`
+`node -e "{{kod}}"`
 
 - Sonucu değerlendir ve yazdır, Node.js bağımlılıklarının sürümlerini yazdırmak için kullanışlıdır:
 
@@ -25,4 +25,4 @@
 
 - Denetleyiciyi etkinleştirerek, kaynak kodu tamamen ayrıştırıldıktan sonra bir hata ayıklayıcı bağlanana kadar yürütmeyi duraklatır:
 
-`node --no-lazy --inspect-brk {{path/to/file}}`
+`node --no-lazy --inspect-brk {{dosya/yolu}}`

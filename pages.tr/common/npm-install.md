@@ -9,12 +9,12 @@
 
 - Bir paketin spesifik bir versiyonunu indirir ve `package.json` dosyasındaki bağımlılık listesine ekler:
 
-`npm install {{package_name}}@{{version}}`
+`npm install {{paket_adı}}@{{versiyon}}`
 
 - Paketin son sürümünü indirir ve `package.json` dosyasındaki geliştirme bağımlılık listesine ekler:
 
-`npm install {{package_name}} {{-D|--save-dev}}`
+`npm install {{paket_adı}} {{-D|--save-dev}}`
 
 - Paketin son sürümünü indirir ve global olarak kurar:
 
-`npm install {{-g|--global}} {{package_name}}`
+`npm install {{-g|--global}} {{paket_adı}}`

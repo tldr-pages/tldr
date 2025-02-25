@@ -5,7 +5,7 @@
 
 - Verilen dosyayı çalıştırır ve belirtilen dosyadaki değişiklikleri izler:
 
-`nodemon {{path/to/file.js}}`
+`nodemon {{dosya/yolu/dosya.js}}`
 
 - Nodemon'u el ile yeniden başlatır (not: bu işlem için nodemon zaten aktif olmalıdır):
 
@@ -13,20 +13,20 @@
 
 - Belirli dosyaları göz ardı eder:
 
-`nodemon --ignore {{path/to/file_or_directory}}`
+`nodemon --ignore {{dosya/yolu/dosya_veya_dizin}}`
 
 - Node uygulamasına argümanlar geçirir:
 
-`nodemon {{path/to/file.js}} {{arguments}}`
+`nodemon {{dosya/yolu/dosya.js}} {{argümanlar}}`
 
 - Zaten Nodemon argümanları değillerse argümanları Node'un kendisine geçirir (örneğin: `--inspect`):
 
-`nodemon {{arguments}} {{path/to/file.js}}`
+`nodemon {{argümanlar}} {{dosya/yolu/dosya.js}}`
 
 - Node olmayan bir komut dosyasını çalıştırır:
 
-`nodemon --exec "{{command_to_run_script}} {{options}}" {{path/to/script}}`
+`nodemon --exec "{{komut}} {{seçenekler}}" {{dosya/yolu/komut}}`
 
 - Python kodunu çalıştırır:
 
-`nodemon --exec "python {{options}}" {{path/to/file.py}}`
+`nodemon --exec "python {{seçenekler}}" {{dosya/yolu/dosya.py}}`

@@ -5,19 +5,19 @@
 
 - Lokal veya uzaktaki bir `npm` paketinden komut çalıştırır:
 
-`npx {{command}} {{argument1 argument2 ...}}`
+`npx {{komut}} {{argüman1 argüman2 ...}}`
 
 - Aynı isimde birden fazla komut varsa, paketi açıkça belirtmek mümkün:
 
-`npx --package {{package}} {{command}}`
+`npx --package {{paket}} {{komut}}`
 
 - Bir komut şu anki dizinde veya `node_modules/.bin` içinde varsa çalıştırır:
 
-`npx --no-install {{command}} {{argument1 argument2 ...}}`
+`npx --no-install {{komut}} {{argüman1 argüman2 ...}}`
 
 - `npx`'in çıktısını gizleyerek belirli bir komutu çalıştırır:
 
-`npx --quiet {{command}} {{argument1 argument2 ...}}`
+`npx --quiet {{komut}} {{argüman1 argüman2 ...}}`
 
 - Yardım görüntüle:
 

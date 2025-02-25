@@ -5,11 +5,11 @@
 
 - Bir komut çalıştırır:
 
-`npm run {{script_name}}`
+`npm run {{komut_adı}}`
 
 - Komuta argüman gönderir:
 
-`npm run {{script_name}} -- {{argument}} {{--option}}`
+`npm run {{komut_adı}} -- {{argüman}} {{--seçenek}}`
 
 - `start` isimli komudu çalıştırır:
 
