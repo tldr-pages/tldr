@@ -93,8 +93,8 @@ When documenting PowerShell commands, please take note of the following naming c
 - The page title/heading must be written as-is (matching the spelling intended by Microsoft or the PowerShell module author), such as `Invoke-WebRequest` instead of `invoke-webrequest`.
 - The command name and options in the examples should also be written as-is, such as `Command-Name {{input}} -CommandParameter {{value}}` instead of `command-name {{input}} -commandparameter {{value}}`.
 
-Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, ensure that 
-the command works on between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10 
+Due to [various compatibility differences](https://learn.microsoft.com/powershell/scripting/whats-new/differences-from-windows-powershell) and removed Windows-specific commands in PowerShell 6.x, ensure that
+the command works on between **PowerShell 5.1** (aka. the "Legacy Windows PowerShell" as installed in Windows 10
 and 11), and the **latest version of the Cross-Platform PowerShell** (formerly known as PowerShell Core).
 
 Thus, if the command or its options are unavailable or contain different behaviors between each version, please kindly note them in the descriptions. For example:
@@ -320,11 +320,11 @@ For example, use:
 
 #### Microsoft Learn links
 
-When linking pages to the Microsoft Learn links, remove the locale from the address as the website will automatically redirect to the reader's preferred locale setting. 
+When linking pages to the Microsoft Learn links, remove the locale from the address as the website will automatically redirect to the reader's preferred locale setting.
 For example, Use <https://learn.microsoft.com/windows-server/administration/windows-commands/cd> instead of
 <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>.
 
-Additionally, if the link is related to PowerShell command documentation, remove the **documentation version indicator** (in which the version of PowerShell/module that the documentation is derived from), aka. 
+Additionally, if the link is related to PowerShell command documentation, remove the **documentation version indicator** (in which the version of PowerShell/module that the documentation is derived from), aka.
 the part of the address that starts with `?view=`.
 
 - Use <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string> instead of <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string?view=powershell-7.4>.
@@ -392,7 +392,7 @@ Short option mnemonics are optional hints that can be added to help users unders
 `slmgr.vbs /xpr`
 ```
 
-Note that, in the first example, the `[d]`, `[t]`, and `[i]` characters are enclosed with square brackets to indicate that the `/dti` option of the command is a combination of "display", "installation", and "ID", respectively. 
+Note that, in the first example, the `[d]`, `[t]`, and `[i]` characters are enclosed with square brackets to indicate that the `/dti` option of the command is a combination of "display", "installation", and "ID", respectively.
 Group consecutive mnemonic characters under the same square brackets, for example: `e[xp]i[r]ation` instead of `e[x][p]i[r]ation`.
 
 **Mnemonic characters must be written in a case-sensitive manner**, even when it is placed as the first character of the sentence (i.e. use `[d]isplay` instead of `[D]isplay`).
