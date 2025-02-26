@@ -228,7 +228,7 @@ In the following case `just.md` is the filename of the disambiguation page while
 
 ### Grouping commands
 
-Sometimes commands and subcommands are single use but are meant to be used in combination with other commands. In these cases it makes sense to move them on the same page. 
+Sometimes commands are meant to be used in combination with other commands. In these cases it makes sense to move them on the same page. 
 
 For example `adb disconnect` has a single way using it, but `adb` is expansive enough that it doesn't fit in the main page. Normally, `adb disconnect` is used in combination with `adb pair` and `adb connect`, thus it makes sense to group these together into a single page. For example:
 
