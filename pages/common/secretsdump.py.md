@@ -10,16 +10,16 @@
 
 - Dump hashes from a machine using pass-the-hash authentication:
 
-`secretsdump.py -hashes {{LM_Hash}}:{{NT_Hash}} {{username}}@{{target}}`
+`secretsdump.py -hashes {{LM_Hash}}:{{NT_Hash}} {{domain}}/{{username}}@{{target}}`
 
 - Dump credentials from Active Directory’s NTDS.dit file:
 
 `secretsdump.py -just-dc {{domain}}/{{username}}:{{password}}@{{target}}`
 
-- Extract credentials from a local SAM database:
+- Extract credentials from a local SAM database using registry hives:
 
-`secretsdump.py -sam {{path_to_SAM}} -system {{path_to_SYSTEM}}`
+`secretsdump.py -sam {{path/to/SAM}} -system {{path/to/SYSTEM}}`
 
-- Dump hashes from a machine without executing commands (pass-the-hash attack):
+- Dump hashes from a machine **without providing a password** (if a valid authentication session exists, e.g., via Kerberos or NTLM SSO):
 
-`secretsdump.py -no-pass {{username}}@{{target}}`
+`secretsdump.py -no-pass {{domain}}/{{username}}@{{target}}`
