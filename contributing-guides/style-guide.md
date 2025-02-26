@@ -10,7 +10,7 @@ This page lists specific formatting instructions for `tldr` pages.
 4. [Heading](#heading)
 5. [Example descriptions](#example-descriptions)
 6. [Example commands](#example-commands)
-7. [Language-specific rules](#language-specific-rules)
+7. [Language and translation rules](#language-and-translation-rules)
 
 ## General layout
 
@@ -428,7 +428,7 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 ### Option syntax
 
 - For commonly/frequently used commands (e.g. `grep`, `tar`, `etc`), we prefer using short options along with [mnemonics](#short-option-mnemonics) or both inside a placeholder.
-- For highlighting both long and short options in commands (instead of using mnemonics), combine them within a placeholder i.e. `{{-o|--output}}`.
+- For letting the client decide whether to show long or short options in commands, use an option placeholder i.e. `{{[-o|--output]}}`.
 - For user-friendliness, use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
 - Prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`), unless the program does not support it.
 - Likewise prefer separating shortform options from their arguments with a space (i.e. use `-o arg` instead of `-oarg`), unless the program does not support it.
@@ -503,7 +503,7 @@ When documenting optional placeholders like paths or file extensions, it is sugg
 - For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
 - It is suggested to document the help and version examples if the command follows unconventional flags in platforms like Windows.
 
-## Language and Translation Rules
+## Language and translation rules
 
 The below section contains additional language and translation-specific rules:
 
