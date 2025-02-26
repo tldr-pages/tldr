@@ -468,18 +468,16 @@ Keep the following guidelines in mind when choosing placeholders:
 
 - If a command can optionally take 1 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
   For instance, if multiple paths are expected, use `{{path/to/directory1 path/to/directory2 ...}}`.
-- If a command can optionally take 1 or more arguments of different kinds, use an ellipsis: `{{placeholder1|placeholder2|...}}`.
-  If there are more than 5 possible values, you can use `|...` after the last item.
-- It's impossible to restrict the minimum or (and) maximum placeholder count via `ellipsis`.
-
-It's up to the program to decide how to handle duplicating values, provided syntax
-tells no info about whether items are mutually exclusive or not.
+- If only one of the multiple options is possible, write it as: `{{placeholder1|placeholder2|placeholder3}}`. If there are more than 4 possible values, you can use `|...` after the last item.
 
 #### Optional placeholders
 
 When documenting optional placeholders like paths or file extensions, it is suggested to specify them in the page or example descriptions instead of the placeholder itself. For example:
 
 - Use `{{path/to/source.ext}}` instead of `{{path/to/source.tar[.gz|.bz2|.xz]}}`.
+
+> [!NOTE]\
+> Angle brackets `[]` must always be a substring of the placeholder to not get mixed up with an option placeholder.
 
 ### Help and version commands
 
