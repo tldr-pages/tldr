@@ -10,7 +10,7 @@ This page lists specific formatting instructions for `tldr` pages.
 4. [Heading](#heading)
 5. [Example descriptions](#example-descriptions)
 6. [Example commands](#example-commands)
-7. [Language-specific rules](#language-specific-rules)
+7. [Language and translation rules](#language-and-translation-rules)
 
 ## General layout
 
@@ -497,7 +497,7 @@ To mark keypresses for TUI or UI programs, use angle brackets `<` and `>`.
 - For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
 - It is suggested to document the help and version examples if the command follows unconventional flags in platforms like Windows.
 
-## Language and Translation Rules
+## Language and translation rules
 
 The below section contains additional language and translation-specific rules:
 
