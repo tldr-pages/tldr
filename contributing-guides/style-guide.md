@@ -244,10 +244,10 @@ When writing descriptions for command examples, **check for any grammatical erro
 - `Let's go to the specified directory!`
 - `Directory change` (use the active form instead of passive, if possible)
 
-For instance, instead of `Listing all files:`, `List all files:` can be used as the example's description below:
+For instance, instead of `Listing all files:`, use the following:
 
 ```md
-- Listing all files:
+- List all files:
 
  `ls`
 ```
