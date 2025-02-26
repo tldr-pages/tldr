@@ -8,9 +8,9 @@
 
 `kill {{process_id}}`
 
-- List signal values and their corresponding names (to be used without the `SIG` prefix):
+- List signal values and their corresponding names (to be used without the `SIG` prefix). The available options may depend on the `kill` implementation:
 
-`kill -L`
+`kill {{-l|-L|--table}}`
 
 - Terminate a background job:
 

@@ -10,7 +10,7 @@ This page lists specific formatting instructions for `tldr` pages.
 4. [Heading](#heading)
 5. [Example descriptions](#example-descriptions)
 6. [Example commands](#example-commands)
-7. [Language-specific rules](#language-specific-rules)
+7. [Language and translation rules](#language-and-translation-rules)
 
 ## General layout
 
@@ -206,6 +206,26 @@ In this case, provide a note and method to determine whether the command current
 `tldr invoke-webrequest`
 ```
 
+### Disambiguations
+
+If there is a name collision between page names on the same platform, disambiguation pages can be used to direct users to different pages. Name the colliding pages with a dot and an appropriate suffix. Numbers starting from 1 can be used if no other suffix is appropriate. If the colliding page is an acronym, direct the user to a page with the name expanded.
+
+In the following case `just.md` is the filename of the disambiguation page while `just.1.md` and `just.js.md` refer to the actual pages:
+
+```md
+# just
+
+> `just` can refer to multiple commands with the same name.
+
+- View documentation for the command runner:
+
+`tldr just.1`
+
+- View documentation for the V8 JavaScript runtime:
+
+`tldr just.js`
+```
+
 ## General writing
 
 ### Emphasis
@@ -392,9 +412,10 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 ### Option syntax
 
 - For commonly/frequently used commands (e.g. `grep`, `tar`, `etc`), we prefer using short options along with [mnemonics](#short-option-mnemonics) or both inside a placeholder.
-- For highlighting both long and short options in commands (instead of using mnemonics), combine them within a placeholder i.e. `{{-o|--output}}`.
+- For letting the client decide whether to show long or short options in commands, use an option placeholder i.e. `{{[-o|--output]}}`.
 - For user-friendliness, use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
 - Prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`), unless the program does not support it.
+- Likewise prefer separating shortform options from their arguments with a space (i.e. use `-o arg` instead of `-oarg`), unless the program does not support it.
 
 ### Placeholder syntax
 
@@ -423,8 +444,8 @@ Keep the following guidelines in mind when choosing placeholders:
 - For any reference to paths of files or directories,
   use the format `{{path/to/placeholder}}`,
   except when the location is implicit.
-- When the path cannot be relative,
-  but has to start at the root of the filesystem,
+- When the path cannot be relative
+  and has to start at the root of the filesystem,
   prefix it with a slash,
   such as `get {{/path/to/remote_file}}`.
 - In case of a possible reference both to a file or a directory,
@@ -466,9 +487,13 @@ When documenting optional placeholders like paths or file extensions, it is sugg
 - For consistency, we prefer generic wording `Display help` and `Display version` for these commands.
 - It is suggested to document the help and version examples if the command follows unconventional flags in platforms like Windows.
 
-## Language-Specific Rules
+## Language and translation rules
 
-The below section contains additional language-specific rules:
+The below section contains additional language and translation-specific rules:
+
+### General
+
+Do not translate `example.com`. The domain is reserved by IANA for documentation purposes and will not be leased to anyone. Translating the website name could put thoughtless users at risk.
 
 ### English-Specific Rules
 
