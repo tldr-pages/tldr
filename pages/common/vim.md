@@ -15,7 +15,7 @@
 
 - View Vim's help manual:
 
-`<:><help><Enter>`
+`<:>help<Enter>`
 
 - Save and quit the current buffer:
 
