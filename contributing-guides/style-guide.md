@@ -373,6 +373,7 @@ It should instead be simplified to make it easier for everyone to read:
 
 - Proper names should be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
 - Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
+- When documenting keycaps or a keyboard shortcut for a utility, make it stand out in the description (i.e. ``Print the last lines of a given file and keep reading it until `Ctrl + C`:``).
 
 ### Short option mnemonics
 
