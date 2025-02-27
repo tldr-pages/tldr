@@ -1,4 +1,4 @@
-# impacket-GetADUsers
+# impacket-getadusers
 
 > This command is an alias of `GetADUsers.py`.
 > Part of the Impacket suite.
