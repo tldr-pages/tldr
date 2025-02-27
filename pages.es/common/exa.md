@@ -1,6 +1,6 @@
 # exa
 
-> Un reemplazo moderno para `ls` ( Lista el contenido de los directorios)
+> Un reemplazo moderno para `ls` (Lista el contenido de los directorios).
 > Más información: <https://github.com/ogham/exa>.
 
 - Lista archivos uno por línea:
