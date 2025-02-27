@@ -1,4 +1,4 @@
-# GetADUsers.py
+# getadusers.py
 
 > Retrieve a list of users from Active Directory, including attributes like last logon timestamp and email.
 > Part of the Impacket suite.
