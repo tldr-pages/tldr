@@ -13,7 +13,7 @@
 
 - Git LFS 엔드포인트 URL 변경 (LFS 서버가 Git 서버와 분리된 경우 유용):
 
-`git config {{-f|--file}} .lfsconfig lfs.url {{lfs_endpoint_url}}`
+`git config {{[-f|--file]}} .lfsconfig lfs.url {{lfs_endpoint_url}}`
 
 - 추적된 패턴 나열:
 

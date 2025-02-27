@@ -9,7 +9,7 @@
 
 - Print the latest commit that changed (add/edit/remove) a specific file on the current branch:
 
-`git rev-list {{-n|--max-count}} 1 HEAD -- {{path/to/file}}`
+`git rev-list {{[-n|--max-count]}} 1 HEAD -- {{path/to/file}}`
 
 - List commits more recent than a specific date, on a specific branch:
 

@@ -9,7 +9,7 @@
 
 - Mostra o histórico de um arquivo ou diretório determinado, incluindo diferenças:
 
-`git log {{-p|-u|--patch}} {{caminho/para/arquivo_ou_diretório}}`
+`git log {{[-p|--patch]}} {{caminho/para/arquivo_ou_diretório}}`
 
 - Mostra uma visão geral do(s) arquivo(s) alterado(s) em cada commit:
 
@@ -25,11 +25,11 @@
 
 - Mostra apenas os commits cujas mensagem incluem uma determinada cadeia de caracteres (sem distinção entre maiúsculas e minúsculas):
 
-`git log {{-i|--regexp-ignore-case}} --grep {{cadeia_de_caracteres_para_pesquisa}}`
+`git log {{[-i|--regexp-ignore-case]}} --grep {{cadeia_de_caracteres_para_pesquisa}}`
 
 - Mostra os últimos N commits de um determinado autor:
 
-`git log {{-n|--max-count}} {{número}} --author "{{autor}}"`
+`git log {{[-n|--max-count]}} {{número}} --author "{{autor}}"`
 
 - Mostra os commits entre duas datas(aaaa-mm-dd):
 

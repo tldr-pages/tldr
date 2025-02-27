@@ -10,7 +10,7 @@
 
 - Inicia un rebase interactivo que permite reordenar, omitir, combinar o modificar confirmaciones:
 
-`git rebase {{-i|--interactive}} {{rama_base_objetivo_o_hash_de_la_confirmación}}`
+`git rebase {{[-i|--interactive]}} {{rama_base_objetivo_o_hash_de_la_confirmación}}`
 
 - Continúa un rebase que fue interrumpido por una fusión fallida después de editar los archivos con conflictos:
 
@@ -30,8 +30,8 @@
 
 - Reaplica las últimas cinco confirmaciones en su lugar, evita que puedan ser reordenadas, omitidas, combinadas o modificadas:
 
-`git rebase {{-i|--interactive}} {{HEAD~5}}`
+`git rebase {{[-i|--interactive]}} {{HEAD~5}}`
 
 - Resuelve automáticamente cualquier conflicto favoreciendo la versión de la rama en la que se está trabajando (en este caso la palabra `theirs` tiene un significado invertido):
 
-`git rebase {{-X|--strategy-option}} theirs {{nombre_rama}}`
+`git rebase {{[-X|--strategy-option]}} theirs {{nombre_rama}}`

@@ -13,4 +13,4 @@
 
 - 변경된 기록의 최근 5개 항목만 표시:
 
-`git reflog {{-n|--max-count}} 5`
+`git reflog {{[-n|--max-count]}} 5`
