@@ -26,3 +26,7 @@
 - Change the MTU size for a network interface to use jumbo frames:
 
 `ip link set {{ethN}} mtu {{9000}}`
+
+- Set the promisc mode status of a device:
+
+`ip {{[l|link]}} set {{ethN}} promisc {{on|off}}`
