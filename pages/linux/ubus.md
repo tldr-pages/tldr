@@ -10,3 +10,7 @@
 - Retrieve system information in JSON format:
 
 `ubus call system board`
+
+- Listen to events:
+
+`ubus subscribe {{event_name}}`
