@@ -1,7 +1,7 @@
 # bridge
 
 > Show and manipulate network bridge addresses and devices.
-> More information: <https://manned.org/a2disconf.8>.
+> More information: <https://manned.org/bridge>.
 
 - List all bridges and their interfaces:
 
