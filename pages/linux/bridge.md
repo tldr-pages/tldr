@@ -11,7 +11,7 @@
 
 `bridge {{[v|vlan]}}`
 
-- Assing a VLAN to a port:
+- Assign a VLAN to a port:
 
 `bridge {{[v|vlan]}} add dev {{lanX}} vid {{vlan_id}} pvid {{tagged|untagged}}`
 
