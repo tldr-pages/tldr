@@ -29,4 +29,4 @@
 
 - Set the promisc mode status of a device:
 
-`ip {{[l|link]}} set {{ethN}} promisc {{on|off}}`
+`sudo ip {{[l|link]}} set {{ethN}} promisc {{on|off}}`
