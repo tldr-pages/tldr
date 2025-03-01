@@ -2,7 +2,7 @@
 
 > Analyze a PHP project's dependencies to detect known security vulnerabilities and lists affected packages.
 > See also: `composer`.
-> More information: <https://getcomposer.org/doc/03-cli.md#audit/>.
+> More information: <https://getcomposer.org/doc/03-cli.md#audit>.
 
 - Check for security vulnerabilities in your current project:
 
@@ -22,4 +22,4 @@
 
 - Verify whether a specific package in your project is affected by security issues:
 
-`composer audit {{vendor/package}}`
+`composer audit {{vendor}}/{{package}}`
