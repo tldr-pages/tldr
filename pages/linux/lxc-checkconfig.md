@@ -9,4 +9,4 @@
 
 - Don't show informative messages:
 
-`CONFIG=/path/to/configuration lxc-checkconfig`
+`CONFIG={{/path/to/configuration}} lxc-checkconfig`
