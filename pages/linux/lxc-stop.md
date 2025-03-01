@@ -5,4 +5,4 @@
 
 - Stop a container:
 
-`sudo lxc-stop`
+`sudo lxc-stop {{container_name}}`
