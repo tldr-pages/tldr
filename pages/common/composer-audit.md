@@ -14,7 +14,7 @@
 
 - Filter vulnerabilities by output format:
 
-`composer audit --format={{table|plain|json|summary}}`
+`composer audit --format {{table|plain|json|summary}}`
 
 - Output audit results to a file in JSON format:
 
