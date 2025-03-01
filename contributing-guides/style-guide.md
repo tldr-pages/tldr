@@ -489,7 +489,6 @@ To mark keypresses for TUI or UI programs, use angle brackets `<` and `>`.
 - Mark simultaneous keypresses inside the same angle brackets separated by a single space:  `<Ctrl c>`, `<Alt F4>`, `<Ctrl Shift k>`, `<Super Shift PrtSc>`.
 - Consecutive keypresses need to be contained in their own angle brackets with no space in between: `<Esc><u>`, `<Ctrl k><Ctrl s>`, `<Enter><~><.>`, `<d><o>`.
 - Keys that are typed into a prompt do not need to be marked as keypresses: `<:>help<Enter>`. Note that the context switching keypress is marked in angle brackets despite printing on the prompt
-- Do not place options with multiple choices inside angle brackets: Use `{{<Ctrl Shift PageUp>|<Ctrl Shift PageDown>}}` instead of `<Ctrl Shift {{PageUp|PageDown}}>`.
 
 ### Help and version commands
 
