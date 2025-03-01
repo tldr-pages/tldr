@@ -7,6 +7,6 @@
 
 `lxc-checkconfig`
 
-- Don't show informative messages:
+- Check any kernel for LXC support:
 
 `CONFIG={{/path/to/configuration}} lxc-checkconfig`
