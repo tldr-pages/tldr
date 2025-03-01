@@ -20,6 +20,6 @@
 
 `secretsdump.py -sam {{path/to/SAM}} -system {{path/to/SYSTEM}}`
 
-- Dump hashes from a machine **without providing a password** (if a valid authentication session exists, e.g., via Kerberos or NTLM SSO):
+- Dump hashes from a machine without providing a password (if a valid authentication session exists, e.g. via Kerberos or NTLM SSO):
 
 `secretsdump.py -no-pass {{domain}}/{{username}}@{{target}}`
