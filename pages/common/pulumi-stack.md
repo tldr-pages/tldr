@@ -23,6 +23,10 @@
 
 `pulumi stack select {{stack_name}}`
 
+- Delete a stack:
+
+`pulumi stack rm {{stack_name}}`
+
 - Show stack outputs, including secrets, in plaintext:
 
 `pulumi stack output --show-secrets`
@@ -30,7 +34,3 @@
 - Export the stack state to a JSON file:
 
 `pulumi stack export --file {{path/to/file.json}}`
-
-- Display help:
-
-`pulumi stack --help`
