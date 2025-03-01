@@ -3,7 +3,7 @@
 > A drop-down terminal for KDE.
 > More information: <https://manned.org/man/yakuake>.
 
-- Start up Yakuake
+- Start up Yakuake:
 
 `yakuake`
 
