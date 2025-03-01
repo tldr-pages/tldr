@@ -23,6 +23,6 @@
 
 `git revert {{-n|--no-commit}} {{0c01a9..9a1743}}`
 
-- Cancel a git revert after a merge conflict:
+- Cancel a Git revert after a merge conflict:
 
 `git revert --abort`
