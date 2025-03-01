@@ -9,4 +9,4 @@
 
 - Don't show informative messages:
 
-`CONFIG=/path/to/configuration initramfs-linux-zen.img`
+`CONFIG=/path/to/configuration lxc-checkconfig`
