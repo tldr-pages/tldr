@@ -18,7 +18,7 @@
 
 - Output audit results to a file in JSON format:
 
-`composer audit --format=json > audit_report.json`
+`composer audit --format json > audit_report.json`
 
 - Verify whether a specific package in your project is affected by security issues:
 
