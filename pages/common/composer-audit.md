@@ -1,6 +1,6 @@
 # composer audit
 
-> Analyze a PHP project's dependencies to detect known security vulnerabilities and lists affected packages.
+> Analyze a PHP project's dependencies to detect known security vulnerabilities and list affected packages.
 > See also: `composer`.
 > More information: <https://getcomposer.org/doc/03-cli.md#audit>.
 
