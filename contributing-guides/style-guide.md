@@ -484,11 +484,12 @@ To mark keypresses for TUI or UI programs, use angle brackets `<` and `>`.
 
 - Single characters example: `<a>`.
 - Special keys are to be written with [`PascalCase`](https://en.wikipedia.org/wiki/Camel_case): `<Ctrl>`, `<Super>`, `<Alt>`, `<Shift>`, `<Cmd>`, `<Option>`, `<Windows>`, `<Enter>`, `<Home>`, `<Space>`, `<Esc>`, `<ArrowUp>`, `<ArrowLeft>`, `<PageUp>`, `<F5>`, `<F12>`, ...
+- When writing simultaneous keypresses, keep the following order: Ctrl -> Super -> Alt -> AltGr -> Shift -> everything else.
 - Special keys can be translated if they have culturally relevant translations.
 - When a program takes in uppercase character literals mark them as `<A>` instead of marking it with shift. Otherwise always mark characters in lowercase.
 - Mark simultaneous keypresses inside the same angle brackets separated by a single space:  `<Ctrl c>`, `<Alt F4>`, `<Ctrl Shift k>`, `<Super Shift PrtSc>`.
 - Consecutive keypresses need to be contained in their own angle brackets with no space in between: `<Esc><u>`, `<Ctrl k><Ctrl s>`, `<Enter><~><.>`, `<d><o>`.
-- Keys that are typed into a prompt do not need to be marked as keypresses: `<:>help<Enter>`. Note that the context switching keypress is marked in angle brackets despite printing on the prompt
+- Keys that are typed into a prompt do not need to be marked as keypresses: `<:>help<Enter>`. Note that the context switching keypress is marked in angle brackets despite printing on the prompt.
 
 ### Help and version commands
 
