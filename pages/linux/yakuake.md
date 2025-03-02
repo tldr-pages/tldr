@@ -25,7 +25,7 @@
 
 - Create terminal splits:
 
-`<Ctrl {{)|(}}`
+`<Ctrl {{)|(}}>`
 
 - Switch between splist:
 
