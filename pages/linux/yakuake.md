@@ -1,4 +1,4 @@
-# yakuake refresh
+# yakuake
 
 > A drop-down terminal for KDE.
 > More information: <https://manned.org/man/yakuake>.
