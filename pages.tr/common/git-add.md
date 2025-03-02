@@ -9,24 +9,24 @@
 
 - Tüm (izlenen veya izlenmeyen) dosyaları ekle:
 
-`git add -A`
+`git add {{[-A|--all]}}`
 
 - Yalnızca izlenen dosyaları ekle:
 
-`git add -u`
+`git add {{[-u|--update]}}`
 
 - Yoksayılan dosyaları dahi ekle:
 
-`git add -f`
+`git add {{[-f|--force]}}`
 
 - Dosyaların parçalarını etkileşimli olarak sahnele:
 
-`git add -p`
+`git add {{[-p|--patch]}}`
 
 - Belirtilen dosyaların parçalarını etkileşimli olarak sahnele:
 
-`git add -p {{örnek/dosya}}`
+`git add {{[-p|--patch]}} {{örnek/dosya}}`
 
 - Bir dosyayı etkileşimli olarak sahnele:
 
-`git add -i`
+`git add {{[-i|--interactive]}}`

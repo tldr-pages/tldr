@@ -11,9 +11,9 @@
 
 `plasmashell --replace & disown`
 
-- Display [h]elp on command-line options:
+- Display help on command-line options:
 
-`plasmashell --help`
+`plasmashell {{[-h|--help]}}`
 
 - Display help, including Qt options:
 
