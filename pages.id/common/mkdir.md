@@ -9,8 +9,8 @@
 
 - Buat sejumlah direktori baru secara spesifik beserta induk-induknya, bila dibutuhkan:
 
-`mkdir {{-p|--parents}} {{jalan/menuju/direktori1 jalan/menuju/direktori2 ...}}`
+`mkdir {{[-p|--parents]}} {{jalan/menuju/direktori1 jalan/menuju/direktori2 ...}}`
 
 - Buat sejumlah direktori baru dengan konfigurasi hak akses tertentu:
 
-`mkdir {{-m|--mode}} {{rwxrw-r--}} {{jalan/menuju/direktori1 jalan/menuju/direktori2 ...}}`
+`mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{jalan/menuju/direktori1 jalan/menuju/direktori2 ...}}`
