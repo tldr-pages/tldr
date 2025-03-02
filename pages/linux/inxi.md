@@ -9,28 +9,28 @@
 
 - Print a full description of CPU, memory, disk, network, and process information and filter sensitive information:
 
-`inxi --expanded --filter`
+`inxi {{[-ez|--expanded --filter]}}`
 
 - Print a summary of CPU information:
 
-`inxi --cpu`
+`inxi {{[-C|--cpu]}}`
 
 - Print a summary of graphics information:
 
-`inxi --graphics`
+`inxi {{[-G|--graphics]}}`
 
 - Print a summary of system RAM:
 
-`inxi --memory`
+`inxi {{[-m|--memory]}}`
 
 - Print a summary of system audio:
 
-`inxi --audio`
+`inxi {{[-A|--audio]}}`
 
 - Print available sensor data:
 
-`inxi --sensors`
+`inxi {{[-s|--sensors]}}`
 
 - Print information about the distribution's repositories:
 
-`inxi --repos`
+`inxi {{[-r|--repos]}}`

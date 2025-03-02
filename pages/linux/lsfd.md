@@ -9,11 +9,11 @@
 
 - List all files kept open by a specific program:
 
-`lsfd {{-Q|--filter}} 'PID == {{process_ID}}'`
+`lsfd {{[-Q|--filter]}} 'PID == {{process_ID}}'`
 
 - Check what program has a specific file open:
 
-`lsfd {{-Q|--filter}} "NAME == '{{/path/to/file}}'"`
+`lsfd {{[-Q|--filter]}} "NAME == '{{/path/to/file}}'"`
 
 - List open IPv4 or IPv6 sockets:
 
