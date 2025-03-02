@@ -5,7 +5,7 @@
 
 - Afficher les commits (et leurs messages) avec des commits équivalents en amont :
 
-`git cherry {{-v|--verbose}}`
+`git cherry {{[-v|--verbose]}}`
 
 - Spécifiez une branche amont et une branche de rubrique différentes :
 

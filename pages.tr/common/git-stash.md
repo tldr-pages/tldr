@@ -5,15 +5,15 @@
 
 - Yeni (izlenmeyen) dosyalar hariç mevcut değişiklikleri sakla:
 
-`git stash push -m {{keyfi_saklama_mesajı}}`
+`git stash push {{[-m|--message]}} {{keyfi_saklama_mesajı}}`
 
 - Yeni (izlenmeyen) dosyalar dahil mevcut değişiklikleri sakla:
 
-`git stash -u`
+`git stash {{[-u|--include-untracked]}}`
 
 - Değiştirilen dosyaların parçalarını etkileşimli şekilde seçip sakla:
 
-`git stash -p`
+`git stash {{[-p|--patch]}}`
 
 - Tüm saklananları göster (saklanan ismi, bağlı olduğu dal ve mesaj gösterilir):
 
