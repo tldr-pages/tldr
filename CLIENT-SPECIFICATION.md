@@ -36,15 +36,15 @@ When adding support for an option, clients MUST implement all variants of that o
 For example, clients should implement _both_ `-v` and `--version`.
 When a client implements updating the offline cache, they should support _both_ `-u` and `--update`.
 
-Option                 | Required?   | Meaning
------------------------|-------------|----------
-`-v`, `--version`      | Yes         | Shows the current version of the client, and the version of this specification that it implements.
-`-p`, `--platform`     | Yes         | Specifies the platform to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
-`-u`, `--update`       | Conditional | Updates the offline cache of pages. MUST be implemented if caching is supported.
-`-l`, `--list`         | No          | Lists all the pages in the current platform to the standard output.
-`-L`, `--language`     | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
-`-S`, `--short-options`| No          | If set, will filter examples to show their shortform option when available
-`-E`, `--long-options` | No          | If set, will filter examples to show their longform option when available
+Option             | Required?   | Meaning
+-------------------|-------------|----------
+`-v`, `--version`  | Yes         | Shows the current version of the client, and the version of this specification that it implements.
+`-p`, `--platform` | Yes         | Specifies the platform to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
+`-u`, `--update`   | Conditional | Updates the offline cache of pages. MUST be implemented if caching is supported.
+`-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output.
+`-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
+`--short-options`  | No          | If set, will filter examples to show their shortform option when available
+`--long-options`   | No          | If set, will filter examples to show their longform option when available
 
 By default clients SHOULD display only the longform option when neither `--short-options` or `--long-options` is set by the user. If both are provided, both options should be displayed (see the [Page Structure / Examples](#examples) section for the output format).
 
