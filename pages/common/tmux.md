@@ -23,15 +23,15 @@
 
 - Detach from the current session (inside a tmux session):
 
-`<Ctrl>-B d`
+`<Ctrl b><d>`
 
 - Create a new window (inside a tmux session):
 
-`<Ctrl>-B c`
+`<Ctrl b><c>`
 
 - Switch between sessions and windows (inside a tmux session):
 
-`<Ctrl>-B w`
+`<Ctrl b><w>`
 
 - Kill a session by name:
 

@@ -15,24 +15,24 @@
 
 - View Vim's help manual:
 
-`:help<Enter>`
+`<:>help<Enter>`
 
 - Save and quit the current buffer:
 
-`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
+`{{<Esc><Z><Z>|<Esc><:>x<Enter>|<Esc><:>wq<Enter>}}`
 
 - Enter normal mode and undo the last operation:
 
-`<Esc>u`
+`<Esc><u>`
 
 - Search for a pattern in the file (press `n`/`N` to go to next/previous match):
 
-`/{{search_pattern}}<Enter>`
+`</>{{search_pattern}}<Enter>`
 
 - Perform a regular expression substitution in the whole file:
 
-`:%s/{{regular_expression}}/{{replacement}}/g<Enter>`
+`<:>%s/{{regular_expression}}/{{replacement}}/g<Enter>`
 
 - Display the line numbers:
 
-`:set nu<Enter>`
+`<:>set nu<Enter>`
