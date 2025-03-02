@@ -226,6 +226,22 @@ In the following case `just.md` is the filename of the disambiguation page while
 `tldr just.js`
 ```
 
+### Grouping commands
+
+Sometimes commands are meant to be used in combination with other commands. In these cases it makes sense to move them on the same page. 
+
+For example `adb disconnect` has a single way using it, but `adb` is expansive enough that it doesn't fit in the main page. Normally, `adb disconnect` is used in combination with `adb pair` and `adb connect`, thus it makes sense to group these together into a single page. For example:
+
+```md
+# adb disconnect
+
+> This command has been moved to `adb connect`.
+
+- View documentation for `adb disconnect`:
+
+`tldr adb connect`
+```
+
 ## General writing
 
 ### Emphasis
@@ -244,10 +260,10 @@ When writing descriptions for command examples, **check for any grammatical erro
 - `Let's go to the specified directory!`
 - `Directory change` (use the active form instead of passive, if possible)
 
-For instance, instead of `Listing all files:`, `List all files:` can be used as the example's description below:
+For instance, instead of `Listing all files:`, use the following:
 
 ```md
-- Listing all files:
+- List all files:
 
  `ls`
 ```
@@ -411,7 +427,7 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 
 ### Option syntax
 
-- For commonly/frequently used commands (e.g. `grep`, `tar`, `etc`), we prefer using short options along with [mnemonics](#short-option-mnemonics) or both inside a placeholder.
+- For commonly/frequently used commands (e.g. `grep`, `tar`, etc.), we prefer using short options along with [mnemonics](#short-option-mnemonics) or both inside a placeholder.
 - For letting the client decide whether to show long or short options in commands, use an option placeholder i.e. `{{[-o|--output]}}`.
 - For user-friendliness, use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
 - Prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`), unless the program does not support it.
