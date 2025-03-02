@@ -10,11 +10,11 @@
 
 - 패키지를 생성하고 의존성을 설치:
 
-`makepkg --syncdeps`
+`makepkg {{[-s|--syncdeps]}}`
 
 - 패키지를 생성하고 의존성을 설치한 다음 시스템에 설치:
 
-`makepkg --syncdeps --install`
+`makepkg {{[-s|--syncdeps]}} {{[-i|--install]}}`
 
 - 패키지를 생성하되 소스의 해시 검사를 건너뜀:
 
@@ -22,7 +22,7 @@
 
 - 빌드가 성공한 후 작업 디렉토리 정리:
 
-`makepkg --clean`
+`makepkg {{[-c|--clean]}}`
 
 - 소스의 해시 검증:
 

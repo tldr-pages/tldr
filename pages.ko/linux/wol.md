@@ -25,4 +25,4 @@
 
 - [v]자세히 출력 켜기:
 
-`wol --verbose {{MAC_주소}}`
+`wol {{[-v|--verbose]}} {{MAC_주소}}`

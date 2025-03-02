@@ -13,12 +13,12 @@
 
 - 두 포트 간 연결 해제:
 
-`pw-link --disconnect {{출력_포트_이름}} {{입력_포트_이름}}`
+`pw-link {{[-d|--disconnect]}} {{출력_포트_이름}} {{입력_포트_이름}}`
 
 - 모든 링크와 해당 ID 나열:
 
-`pw-link --links --ids`
+`pw-link {{[-lI|--links --ids]}}`
 
 - 도움말 표시:
 
-`pw-link -h`
+`pw-link {{[-h|--help]}}`
