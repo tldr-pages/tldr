@@ -5,7 +5,7 @@
 
 - Sistemin mevcut durumunu göster (bilinen ekranlar, çözünürlükler, ...):
 
-`xrandr --query`
+`xrandr {{[-q|--query]}}`
 
 - Bağlantısı kesilmiş çıkışları devre dışı bırak ve bağlanmış olanları varsayılan ayarlar ile devreye sok:
 

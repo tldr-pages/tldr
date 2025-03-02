@@ -18,15 +18,15 @@
 
 - Crea una etiqueta anotada con el mensaje especificado:
 
-`git tag {{nombre_de_la_etiqueta}} -m {{mensaje_de_la_etiqueta}}`
+`git tag {{nombre_de_la_etiqueta}} {{[-m|--message]}} {{mensaje_de_la_etiqueta}}`
 
 - Elimina la etiqueta con el nombre especificado:
 
-`git tag {{-d|--delete}} {{nombre_de_la_etiqueta}}`
+`git tag {{[-d|--delete]}} {{nombre_de_la_etiqueta}}`
 
 - Obtén las etiquetas actualizadas del remoto (remote):
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
 - Envía una etiqueta al remoto:
 
