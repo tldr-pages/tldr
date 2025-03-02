@@ -492,9 +492,6 @@ When documenting optional placeholders like paths or file extensions, it is sugg
 
 - Use `{{path/to/source.ext}}` instead of `{{path/to/source.tar[.gz|.bz2|.xz]}}`.
 
-> [!NOTE]\
-> Angle brackets `[]` must always be a substring of the placeholder to not get mixed up with an option placeholder.
-
 ### Help and version commands
 
 - We generally put, **in this order**, the help and version commands as the **last two** examples of the page to highlight more practical commands at the beginning of the page. They can be replaced to accommodate other useful examples if required.
