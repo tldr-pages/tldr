@@ -14,7 +14,7 @@
 
 - Vuelca credenciales del archivo NTDS.dit de Active Directory:
 
-`secretsdump.py -just-dc {{dominio}/{{nombre_usuario}}:{{contraseña}}@{destino}}`
+`secretsdump.py -just-dc {{dominio}/{{nombre_usuario}}:{{contraseña}}@{{destino}}`
 
 - Extrae credenciales de una base de datos SAM local utilizando archivos hives del registro:
 
@@ -22,4 +22,4 @@
 
 - Vuelca hashes de una máquina sin proporcionar una contraseña (si existe una sesión de autenticación válida, por ejemplo, a través de Kerberos o NTLM SSO):
 
-`secretsdump.py -no-pass {{dominio}}/{{nombre_usuario}}@{destino}}`
+`secretsdump.py -no-pass {{dominio}}/{{nombre_usuario}}@{{destino}}`
