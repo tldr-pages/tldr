@@ -25,7 +25,7 @@
 
 - Reload configuration without dropping connections:
 
-`apachectl graceful`
+`sudo apachectl graceful`
 
 - Print full Apache configuration:
 
