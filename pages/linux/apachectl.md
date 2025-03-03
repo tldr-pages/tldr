@@ -23,7 +23,7 @@
 
 `apachectl status`
 
-- Reloading configuration without dropping connections:
+- Reload configuration without dropping connections:
 
 `apachectl graceful`
 
