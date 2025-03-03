@@ -5,24 +5,24 @@
 
 - Ağ arayüzlerini ve ilişkili IP adreslerini listele:
 
-`ip address`
+`ip {{[a|address]}}`
 
 - Yalnızca etkin ağ arayüzlerini gösterecek şekilde filtrele:
 
-`ip address show up`
+`ip {{[a|address]}} show up`
 
 - Belirli bir ağ arayüzü hakkındaki bilgileri görüntüle:
 
-`ip address show dev {{eth0}}`
+`ip {{[a|address]}} show dev {{eth0}}`
 
 - Bir ağ arayüzüne bir IP adresi ekle:
 
-`ip address add {{ip_adresi}} dev {{eth0}}`
+`ip {{[a|address]}} add {{ip_adresi}} dev {{eth0}}`
 
 - Bir ağ arayüzünden bir IP adresini kaldır:
 
-`ip address delete {{ip_adresi}} dev {{eth0}}`
+`ip {{[a|address]}} delete {{ip_adresi}} dev {{eth0}}`
 
 - Belirli bir kapsamdaki tüm IP adreslerini bir ağ arayüzünden sil:
 
-`ip address flush dev {{eth0}} scope {{global|host|link}}`
+`ip {{[a|address]}} flush dev {{eth0}} scope {{global|host|link}}`
