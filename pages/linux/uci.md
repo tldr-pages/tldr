@@ -15,6 +15,10 @@
 
 `uci set {{config}}.{{section}}.{{option}}={{value}}`
 
+- Add a new section:
+
+`uci add {{config}} {{section}}`
+
 - Delete a section or value:
 
 `uci delete {{config}}.{{section}}.{{option}}`
