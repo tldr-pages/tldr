@@ -32,19 +32,17 @@ This section describes the standardised command-line interface (CLI) for clients
 
 The following table documents what command-line options MUST be supported and which are optional.
 
-When adding support for an option, clients MUST implement all variants of that option listed in the table.
-For example, clients should implement _both_ `-v` and `--version`.
-When a client implements updating the offline cache, they should support _both_ `-u` and `--update`.
+When adding support for an option, clients MUST implement all variants of that option listed in the table. For example, clients should implement _both_ `-v` and `--version`. When a client implements updating the offline cache, they should support _both_ `-u` and `--update`.
 
-Option                 | Required?   | Meaning
------------------------|-------------|----------
-`-v`, `--version`      | Yes         | Shows the current version of the client, and the version of this specification that it implements.
-`-p`, `--platform`     | Yes         | Specifies the platform to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
-`-u`, `--update`       | Conditional | Updates the offline cache of pages. MUST be implemented if caching is supported.
-`-l`, `--list`         | No          | Lists all the pages in the current platform to the standard output.
-`-L`, `--language`     | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
-`-S`, `--short-options`| No          | If set, will filter examples to show their shortform option when available
-`-E`, `--long-options` | No          | If set, will filter examples to show their longform option when available
+Option             | Required?   | Meaning
+-------------------|-------------|----------
+`-v`, `--version`  | Yes         | Shows the current version of the client, and the version of this specification that it implements.
+`-p`, `--platform` | Yes         | Specifies the platform to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
+`-u`, `--update`   | Conditional | Updates the offline cache of pages. MUST be implemented if caching is supported.
+`-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output.
+`-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
+`--short-options`  | No          | If set, will filter examples to show their shortform option when available
+`--long-options`   | No          | If set, will filter examples to show their longform option when available
 
 By default clients SHOULD display only the longform option when neither `--short-options` or `--long-options` is set by the user. If both are provided, both options should be displayed (see the [Page Structure / Examples](#examples) section for the output format).
 
@@ -126,6 +124,7 @@ Although this specification is about the interface that clients must provide, it
 
 Things to take into account:
 - Clients MAY highlight the placeholders and MUST remove the surrounding curly braces.
+- If option placeholders are set to show only shortform or longform options, they MUST not be highlighted. This is because there is no longer user choice involved.
 - Clients MUST remove the angle brackets from option placeholders when only short- or longform is shown. 
 - Clients MUST NOT treat them as the placeholder syntax if they are escaped using `\` (i.e. `\{\{` and `\}\}`) and MUST instead display literal braces, without backslashes. Placeholder escaping applies only when both braces are escaped (e.g. in `\{` or `\{{`, backslashes MUST be displayed).
 - In cases when a command uses `{}` in its arguments (e.g. `stash@{0}`) **_the outer braces_** mark the placeholder - the braces inside MUST be displayed.
