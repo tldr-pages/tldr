@@ -10,15 +10,15 @@
 
 - 向后/向前跳跃 5 秒：
 
-`LEFT <or> RIGHT`
+`LEFT <或> RIGHT`
 
 - 向后/向前跳跃 1 分钟：
 
-`DOWN <or> UP`
+`DOWN <或> UP`
 
 - 减少/增加 10% 播放速度：
 
-`[ <or> ]`
+`[ <或> ]`
 
 - 对当前帧截图（默认保存到 `./mpv-shotNNNN.jpg`）：
 
