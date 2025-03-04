@@ -18,20 +18,20 @@
 
 - Change the Helix theme:
 
-`:theme {{theme_name}}`
+`<:>theme {{theme_name}}`
 
 - Save and Quit:
 
-`:wq<Enter>`
+`<:>wq<Enter>`
 
 - Force-quit without saving:
 
-`:q!<Enter>`
+`<:>q!<Enter>`
 
 - Undo the last operation:
 
-`u`
+`<u>`
 
 - Search for a pattern in the file (press `n`/`N` to go to next/previous match):
 
-`/{{search_pattern}}<Enter>`
+`</>{{search_pattern}}<Enter>`
