@@ -8,7 +8,7 @@
 
 `asciinema auth`
 
-- Make a new recording (finish it with `Ctrl+D` or type `exit`, and then choose to upload it or save it locally):
+- Make a new recording (finish it with `<Ctrl d>` or type `exit`, and then choose to upload it or save it locally):
 
 `asciinema rec`
 
