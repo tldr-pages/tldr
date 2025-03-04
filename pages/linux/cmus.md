@@ -1,7 +1,7 @@
 # cmus
 
 > Command-line Music Player.
-> Use arrow keys to navigate, `<enter/return>` to select, and numbers 1-8 switch between different views.
+> Use arrow keys to navigate, `<Enter/Return>` to select, and numbers 1-8 switch between different views.
 > See also: `ncmpcpp`, `clementine`, `qmmp`.
 > More information: <https://cmus.github.io>.
 
@@ -11,16 +11,16 @@
 
 - Add file/directory to library:
 
-`:add {{path/to/file_or_directory}}`
+`<:>add {{path/to/file_or_directory}}`
 
 - Pause/unpause current song:
 
-`c`
+`<c>`
 
 - Toggle shuffle mode on/off:
 
-`s`
+`<s>`
 
 - Quit cmus:
 
-`q`
+`<q>`
