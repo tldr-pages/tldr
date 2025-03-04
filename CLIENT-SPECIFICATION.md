@@ -24,7 +24,7 @@ If a page is common across multiple platforms, but slightly different on a given
 
 For example, if the command `foo` is common to `mac`, `windows`, and `linux` but functions differently on `windows`, then the main page will be stored in `common`, and a copy will be placed in `windows` that's altered to match the different functionality.
 
-Clients SHOULD support passing `common` as an argument to the [platform flag](#arguments) (i.e. `-p common` and `--platform`) to display identical pages when a platform specific page variant (i.e. under `linux`, `openbsd`, etc) of the command exists.
+Clients SHOULD support passing `common` as an argument to the [platform flag](#arguments) (i.e. `-p common` and `--platform common`) to display identical pages when a platform specific page variant (i.e. under `linux`, `openbsd`, etc) of the command exists.
 
 ## Command-line interface
 
