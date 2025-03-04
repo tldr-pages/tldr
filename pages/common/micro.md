@@ -16,7 +16,7 @@
 
 `<Ctrl k>`
 
-- Search for a pattern in the file (press `Ctrl + N`/`Ctrl + P` to go to next/previous match):
+- Search for a pattern in the file (press `<Ctrl n>`/`<Ctrl p>` to go to next/previous match):
 
 `<Ctrl f>{{pattern}}<Enter>`
 
