@@ -11,7 +11,7 @@
 
 `<Space>`
 
-- Search for a pattern in the file (press `n` to go to next match):
+- Search for a pattern in the file (press `<n>` to go to next match):
 
 `</>{{regular_expression}}`
 
