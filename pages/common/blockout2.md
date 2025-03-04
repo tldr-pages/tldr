@@ -17,7 +17,7 @@
 
 - Hard drop the current piece:
 
-`<Spacebar>`
+`<Space>`
 
 - Pause/unpause the game:
 
