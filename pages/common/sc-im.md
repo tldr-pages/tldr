@@ -1,7 +1,7 @@
 # SC-IM
 
 > A curses based, vim-like spreadsheet calculator.
-> Use hjkl or arrow keys to navigate.
+> Use `<h><j><k><l>` or `<ArrowKeys>` to navigate.
 > More information: <https://github.com/andmarti1424/sc-im>.
 
 - Start SC-IM:
