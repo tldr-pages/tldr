@@ -18,12 +18,12 @@
 
 - Search for a string (press `n` to go to the next match):
 
-`</>{{something}}`
+`/{{something}}`
 
 - Exit:
 
-`<q>`
+`q`
 
 - Display help about interactive commands:
 
-`<h>`
+`h`
