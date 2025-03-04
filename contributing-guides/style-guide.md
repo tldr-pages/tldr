@@ -496,7 +496,7 @@ When documenting optional placeholders like paths or file extensions, it is sugg
 
 ### Keypress syntax
 
-To mark keypresses for TUI or UI programs, use angle brackets `<` and `>`.
+To mark keypresses for TUI or GUI programs, use angle brackets `<` and `>`.
 
 - Single character example: `<a>`.
 - Special keys are to be written with [`PascalCase`](https://www.theserverside.com/definition/Pascal-case): `<Ctrl>`, `<Super>`, `<Alt>`, `<Shift>`, `<Cmd>`, `<Option>`, `<Windows>`, `<Enter>`, `<Home>`, `<Space>`, `<Esc>`, `<ArrowUp>`, `<ArrowLeft>`, `<ArrowKeys>`, `<PageUp>`, `<F5>`, `<F12>`, `<LeftClick>`, `<MiddleClick>`, ...
