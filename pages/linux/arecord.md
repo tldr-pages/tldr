@@ -19,7 +19,7 @@
 
 `arecord --list-devices`
 
-- Allow interactive interface (e.g. use space-bar or enter to play or pause):
+- Allow interactive interface (e.g. use `<Space>` or `<Enter>` to play or pause):
 
 `arecord --interactive`
 
