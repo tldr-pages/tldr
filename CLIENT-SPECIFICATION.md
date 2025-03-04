@@ -32,9 +32,7 @@ This section describes the standardised command-line interface (CLI) for clients
 
 The following table documents what command-line options MUST be supported and which are optional.
 
-When adding support for an option, clients MUST implement all variants of that option listed in the table.
-For example, clients should implement _both_ `-v` and `--version`.
-When a client implements updating the offline cache, they should support _both_ `-u` and `--update`.
+When adding support for an option, clients MUST implement all variants of that option listed in the table. For example, clients should implement _both_ `-v` and `--version`. When a client implements updating the offline cache, they should support _both_ `-u` and `--update`.
 
 Option             | Required?   | Meaning
 -------------------|-------------|----------
