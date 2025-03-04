@@ -10,19 +10,19 @@
 
 - Jump backward/forward 5 seconds:
 
-`{{<ArrowLeft>|<ArrowRight>}}`
+`LEFT <or> RIGHT`
 
 - Jump backward/forward 1 minute:
 
-`{{<ArrowDown>|<ArrowUp>}}`
+`DOWN <or> UP`
 
 - Decrease or increase playback speed by 10%:
 
-`{{<[>|<]>}}`
+`[ <or> ]`
 
 - Take a screenshot of the current frame (saved to `./mpv-shotNNNN.jpg` by default):
 
-`<s>`
+`s`
 
 - Play a file at a specified speed (1 by default):
 
