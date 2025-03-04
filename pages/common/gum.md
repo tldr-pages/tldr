@@ -11,7 +11,7 @@
 
 `gum input --placeholder "{{value}}"`
 
-- Open an interactive confirmation prompt and exit with either `0` or `1`:
+- Open an interactive confirmation prompt and exit with either `<0>` or `<1>`:
 
 `gum confirm "{{Continue?}}" --default=false --affirmative "{{Yes}}" --negative "{{No}}" {{&& echo "Yes selected" || echo "No selected"}}`
 
