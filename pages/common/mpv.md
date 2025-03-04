@@ -18,7 +18,7 @@
 
 - Decrease or increase playback speed by 10%:
 
-`{{<[>|<]>}`
+`{{<[>|<]>}}`
 
 - Take a screenshot of the current frame (saved to `./mpv-shotNNNN.jpg` by default):
 
