@@ -23,6 +23,6 @@
 
 `xdotool type --delay {{500}} "Hello world"`
 
-- Press the enter key:
+- Press the `<Enter>` key:
 
 `xdotool key {{KP_Enter}}`
