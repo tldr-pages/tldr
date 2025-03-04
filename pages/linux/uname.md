@@ -5,32 +5,32 @@
 
 - Print all information:
 
-`uname --all`
+`uname -a`
 
 - Print the current kernel name:
 
-`uname --kernel-name`
+`uname -s`
 
 - Print the current network node host name:
 
-`uname --nodename`
+`uname -n`
 
 - Print the current kernel release:
 
-`uname --kernel-release`
+`uname -r`
 
 - Print the current kernel version:
 
-`uname --kernel-version`
+`uname -v`
 
 - Print the current machine hardware name:
 
-`uname --machine`
+`uname -m`
 
 - Print the current processor type:
 
-`uname --processor`
+`uname -p`
 
 - Print the current operating system name:
 
-`uname --operating-system`
+`uname -o`
