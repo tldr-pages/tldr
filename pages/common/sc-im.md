@@ -10,20 +10,20 @@
 
 - Enter a string into the current cell:
 
-`{{<|>}}`
+`{{<<>|<>>}}`
 
 - Enter a numeric constant into the current cell:
 
-`=`
+`<=>`
 
 - Edit string in the current cell:
 
-`E`
+`<E>`
 
 - Edit number in the current cell:
 
-`e`
+`<e>`
 
 - Center align the current cell:
 
-`|`
+`<|>`
