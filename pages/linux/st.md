@@ -21,4 +21,4 @@
 
 - Copy/paste from the clipboard:
 
-`<Ctrl Shift c|v>`
+`<Ctrl Shift {{c|v}}>`
