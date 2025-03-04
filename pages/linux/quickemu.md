@@ -12,7 +12,7 @@
 
 `quickemu --status-quo --vm {{path/to/file.conf}}`
 
-- Start the virtual machine in full-screen mode (<Ctrl> + <Alt> + f to exit) and select the display backend (`sdl` by default):
+- Start the virtual machine in full-screen mode (`<Ctrl> + <Alt> + f` to exit) and select the display backend (`sdl` by default):
 
 `quickemu --fullscreen --display {{sdl|gtk|spice|spice-app|none}} --vm {{path/to/file.conf}}`
 
