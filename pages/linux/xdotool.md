@@ -7,7 +7,7 @@
 
 `xdotool search --onlyvisible --name {{firefox}}`
 
-- Click the right mouse button:
+- Perform a mouse `<RightClick>`:
 
 `xdotool click {{3}}`
 
