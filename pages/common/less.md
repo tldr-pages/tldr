@@ -15,11 +15,11 @@
 
 `{{<G>|<g>}}`
 
-- Forward search for a string (press `n`/`N` to go to next/previous match):
+- Forward search for a string (press `<n>`/`<N>` to go to next/previous match):
 
 `</>{{something}}`
 
-- Backward search for a string (press `n`/`N` to go to next/previous match):
+- Backward search for a string (press `<n>`/`<N>` to go to next/previous match):
 
 `<?>{{something}}`
 
