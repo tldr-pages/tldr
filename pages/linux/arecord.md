@@ -3,7 +3,7 @@
 > Sound recorder for ALSA soundcard driver.
 > More information: <https://manned.org/arecord>.
 
-- Record a snippet in "CD" quality (finish with Ctrl-C when done):
+- Record a snippet in "CD" quality (finish with `<Ctrl c>` when done):
 
 `arecord -vv --format=cd {{path/to/file.wav}}`
 
@@ -11,7 +11,7 @@
 
 `arecord -vv --format=cd --duration={{10}} {{path/to/file.wav}}`
 
-- Record a snippet and save it as an MP3 (finish with Ctrl-C when done):
+- Record a snippet and save it as an MP3 (finish with `<Ctrl c>` when done):
 
 `arecord -vv --format=cd --file-type raw | lame -r - {{path/to/file.mp3}}`
 
