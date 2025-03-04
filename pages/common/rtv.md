@@ -18,12 +18,12 @@
 
 - Open link:
 
-`o`
+`<o>`
 
 - Log in:
 
-`u`
+`<u>`
 
 - Display help:
 
-`?`
+`<?>`
