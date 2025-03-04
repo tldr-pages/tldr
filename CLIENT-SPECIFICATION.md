@@ -24,6 +24,8 @@ If a page is common across multiple platforms, but slightly different on a given
 
 For example, if the command `foo` is common to `mac`, `windows`, and `linux` but functions differently on `windows`, then the main page will be stored in `common`, and a copy will be placed in `windows` that's altered to match the different functionality.
 
+Clients SHOULD support passing `common` as an argument to the [platform flag](#arguments) (i.e. `-p common` and `--platform common`) to display identical pages when a platform specific page variant (i.e. under `linux`, `openbsd`, etc) of the command exists.
+
 ## Command-line interface
 
 This section describes the standardised command-line interface (CLI) for clients implementing one. Clients that do not provide a CLI can ignore this section.
@@ -37,7 +39,7 @@ When adding support for an option, clients MUST implement all variants of that o
 Option             | Required?   | Meaning
 -------------------|-------------|----------
 `-v`, `--version`  | Yes         | Shows the current version of the client, and the version of this specification that it implements.
-`-p`, `--platform` | Yes         | Specifies the platform to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
+`-p`, `--platform` | Yes         | Specifies the platform (including common) to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
 `-u`, `--update`   | Conditional | Updates the offline cache of pages. MUST be implemented if caching is supported.
 `-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output.
 `-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
