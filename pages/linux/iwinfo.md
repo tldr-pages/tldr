@@ -1,6 +1,6 @@
 # iwinfo
 
-> Retrieve info about wireless interfaces on OpenWrt.
+> Retrieve information about wireless interfaces on OpenWrt.
 > More information: <https://openwrt.org/docs/guide-developer/ubus/iwinfo>.
 
 - List all available wireless interfaces:
