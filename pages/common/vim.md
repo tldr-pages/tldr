@@ -1,7 +1,7 @@
 # vim
 
 > Vim (Vi IMproved), a command-line text editor, provides several modes for different kinds of text manipulation.
-> Pressing `i` in normal mode enters insert mode. Pressing `<Esc>` goes back to normal mode, which enables the use of Vim commands.
+> Pressing `<i>` in normal mode enters insert mode. Pressing `<Esc>` goes back to normal mode, which enables the use of Vim commands.
 > See also: `vimdiff`, `vimtutor`, `nvim`.
 > More information: <https://www.vim.org>.
 
@@ -25,7 +25,7 @@
 
 `<Esc><u>`
 
-- Search for a pattern in the file (press `n`/`N` to go to next/previous match):
+- Search for a pattern in the file (press `<n>`/`<N>` to go to next/previous match):
 
 `</>{{search_pattern}}<Enter>`
 
