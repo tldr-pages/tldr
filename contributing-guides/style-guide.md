@@ -389,7 +389,7 @@ It should instead be simplified to make it easier for everyone to read:
 
 - Proper names should be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
 - Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
-- When documenting keycaps or a keyboard shortcut for a utility, use the same [keypress syntax](#keypress-syntax) as is used for example commands. Make sure to enclose it in backtics so that it is not invisible to markdown renderers (i.e. ``Print the last lines of a given file and keep reading it until `<Ctrl c>`:``).
+- When documenting keycaps or a keyboard shortcut for a utility, use the same [keypress syntax](#keypress-syntax) as example commands. Make sure to enclose it in backticks so that it is not invisible to markdown renderers (i.e. ``Print the last lines of a given file and keep reading it until `<Ctrl c>`:``).
 
 ### Short option mnemonics
 
