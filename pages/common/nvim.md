@@ -1,7 +1,7 @@
 # nvim
 
 > Neovim, a programmer's text editor based on Vim, provides several modes for different kinds of text manipulation.
-> Pressing `i` in normal mode enters insert mode. `<Esc>` or `<Ctrl c>` goes back to normal mode, which doesn't allow regular text insertion.
+> Pressing `<i>` in normal mode enters insert mode. `<Esc>` or `<Ctrl c>` goes back to normal mode, which doesn't allow regular text insertion.
 > See also: `vim`, `vimtutor`, `vimdiff`.
 > More information: <https://neovim.io>.
 
@@ -13,7 +13,7 @@
 
 `<Esc><i>`
 
-- Copy ("yank") or cut ("delete") the current line (paste it with `p`):
+- Copy ("yank") or cut ("delete") the current line (paste it with `<p>`):
 
 `<Esc>{{<y><y>|<d><d>}}`
 
@@ -21,7 +21,7 @@
 
 `<Esc><u>`
 
-- Search for a pattern in the file (press `n`/`N` to go to next/previous match):
+- Search for a pattern in the file (press `<n>`/`<N>` to go to next/previous match):
 
 `<Esc></>{{search_pattern}}<Enter>`
 
