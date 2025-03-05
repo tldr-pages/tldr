@@ -14,3 +14,7 @@
 - Map special characters (e.g. `LF` to `CRLF`):
 
 `sudo picocom {{/dev/ttyXYZ}} --imap {{lfcrlf}}`
+
+- Exit picocom:
+
+`<Ctrl a><Ctrl x>`
