@@ -14,3 +14,7 @@
 - Enter the configuration menu before communicating with a given serial port:
 
 `sudo minicom --device {{/dev/ttyUSB0}} --setup`
+
+- Exit minicom:
+
+`<Ctrl a><Ctrl x><Enter>`
