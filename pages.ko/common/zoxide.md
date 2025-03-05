@@ -20,9 +20,9 @@
 
 `zoxide add {{경로/대상/폴더}}`
 
-- `zoxide` 데이터베이스에서 대화형으로 디렉터리 제거:
+- `zoxide` 데이터베이스에서 디렉터리 제거:
 
-`zoxide remove {{경로/대상/폴더}} --interactive`
+`zoxide remove {{경로/대상/폴더}}`
 
 - 명령 별칭 (`z`, `za`, `zi`, `zq`, `zr`)에 대한 쉘 구성 생성:
 
