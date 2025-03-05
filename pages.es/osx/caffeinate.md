@@ -15,10 +15,10 @@
 
 `caffeinate -w {{pid}}`
 
-- Evita que entre en reposo (usa `Ctrl + C` para salir):
+- Evita que entre en reposo (usa `<Ctrl c>` para salir):
 
 `caffeinate -i`
 
-- Evita que el disco entre en reposo (usa `Ctrl + C` para salir):
+- Evita que el disco entre en reposo (usa `<Ctrl c>` para salir):
 
 `caffeinate -m`

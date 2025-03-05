@@ -15,10 +15,10 @@
 
 `caffeinate -w {{pid}}`
 
-- Prevent from sleeping (use `Ctrl + C` to exit):
+- Prevent from sleeping (use `<Ctrl c>` to exit):
 
 `caffeinate -i`
 
-- Prevent disk from sleeping (use `Ctrl + C` to exit):
+- Prevent disk from sleeping (use `<Ctrl c>` to exit):
 
 `caffeinate -m`

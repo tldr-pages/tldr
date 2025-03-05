@@ -15,10 +15,10 @@
 
 `caffeinate -w {{pid}}`
 
-- Voorkom slaapstand (gebruik `Ctrl + C` om te stoppen):
+- Voorkom slaapstand (gebruik `<Ctrl c>` om te stoppen):
 
 `caffeinate -i`
 
-- Voorkom dat de schijf in slaapstand gaat (gebruik `Ctrl + C` om te stoppen):
+- Voorkom dat de schijf in slaapstand gaat (gebruik `<Ctrl c>` om te stoppen):
 
 `caffeinate -m`
