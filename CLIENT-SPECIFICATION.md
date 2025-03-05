@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD007 MD013 MD024-->
 # tldr-pages client specification
 
-**Current Specification Version:** 2.2
+**Current Specification Version:** Unreleased
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#changelog) below.
 
@@ -24,23 +24,29 @@ If a page is common across multiple platforms, but slightly different on a given
 
 For example, if the command `foo` is common to `mac`, `windows`, and `linux` but functions differently on `windows`, then the main page will be stored in `common`, and a copy will be placed in `windows` that's altered to match the different functionality.
 
+Clients SHOULD support passing `common` as an argument to the [platform flag](#arguments) (i.e. `-p common` and `--platform common`) to display identical pages when a platform specific page variant (i.e. under `linux`, `openbsd`, etc) of the command exists.
+
 ## Command-line interface
 
 This section describes the standardised command-line interface (CLI) for clients implementing one. Clients that do not provide a CLI can ignore this section.
 
 ### Arguments
 
-The following command-line options MUST be supported (unless otherwise specified) if a CLI is implemented:
+The following table documents what command-line options MUST be supported and which are optional.
+
+When adding support for an option, clients MUST implement all variants of that option listed in the table. For example, clients should implement _both_ `-v` and `--version`. When a client implements updating the offline cache, they should support _both_ `-u` and `--update`.
 
 Option             | Required?   | Meaning
 -------------------|-------------|----------
 `-v`, `--version`  | Yes         | Shows the current version of the client, and the version of this specification that it implements.
-`-p`, `--platform` | Yes         | Specifies the platform to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
+`-p`, `--platform` | Yes         | Specifies the platform (including common) to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
 `-u`, `--update`   | Conditional | Updates the offline cache of pages. MUST be implemented if caching is supported.
 `-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output.
 `-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
+`--short-options`  | No          | If set, will filter examples to show their shortform option when available
+`--long-options`   | No          | If set, will filter examples to show their longform option when available
 
-Clients MUST implement both the short and long versions of an option.
+By default clients SHOULD display only the longform option when neither `--short-options` or `--long-options` is set by the user. If both are provided, both options should be displayed (see the [Page Structure / Examples](#examples) section for the output format).
 
 Additional decoration MAY be printed if the standard output is a [TTY](https://linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example, a page list MUST be formatted with one page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
@@ -113,7 +119,18 @@ The structure inside these translation folders is identical to that of the main 
 
 ## Page structure
 
-Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in standard [CommonMark](https://commonmark.org/), with the exception of the non-standard `{{` and `}}` placeholder syntax, which surrounds values in an example that users may edit. Clients MAY highlight the placeholders and MUST remove the surrounding curly braces. Clients MUST NOT treat them as the placeholder syntax if they are escaped using `\` (i.e. `\{\{` and `\}\}`) and MUST instead display literal braces, without backslashes. Placeholder escaping applies only when both braces are escaped (e.g. in `\{` or `\{{`, backslashes MUST be displayed). In cases when a command uses `{}` in its arguments (e.g. `stash@{0}`) **_the outer braces_** mark the placeholder - the braces inside MUST be displayed. Clients MUST NOT break if the page format is changed within the _CommonMark_ specification.
+Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in standard [CommonMark](https://commonmark.org/), with the exceptions:
+- Non-standard `{{`, `}}`, `{{[` and `]}}` placeholder syntax.
+  - `{{` and `}}` surrounds values in an example that indicates editable values.
+  - `{{[` and `]}}` indicate shortform and longform variants of options which are separated by a single `|`. Shortform on the left, longform on the right.
+
+Things to take into account:
+- Clients MAY highlight the placeholders and MUST remove the surrounding curly braces.
+- If option placeholders are set to show only shortform or longform options, they MUST not be highlighted. This is because there is no longer user choice involved.
+- Clients MUST remove the angle brackets from option placeholders when only short- or longform is shown. 
+- Clients MUST NOT treat them as the placeholder syntax if they are escaped using `\` (i.e. `\{\{` and `\}\}`) and MUST instead display literal braces, without backslashes. Placeholder escaping applies only when both braces are escaped (e.g. in `\{` or `\{{`, backslashes MUST be displayed).
+- In cases when a command uses `{}` in its arguments (e.g. `stash@{0}`) **_the outer braces_** mark the placeholder - the braces inside MUST be displayed.
+- Clients MUST NOT break if the page format is changed within the _CommonMark_ specification.
 
 ### Examples
 
@@ -121,6 +138,7 @@ Although this specification is about the interface that clients must provide, it
 - `docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{container}}` MUST be rendered as "docker inspect --format '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container"
 - `mount \\{{computer_name}}\{{share_name}} Z:` MUST be rendered as "mount \\\\computer_name\share_name Z:"
 - `git stash show --patch {{stash@{0}}}` MUST be rendered as "git stash show --patch stash@{0}"
+- `git add {{[-A|--all]}}` MUST be rendered as "git add -A" or "git add --all" when only short or longform is shown. It MUST be rendered as "git add [-A|--all]" when both are requested.
 
 ## Page resolution
 
@@ -235,6 +253,9 @@ including the changes. NOTE: tagging of the commit with a new version tag (in
 the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
+
+- Unreleased
+  - Added longform/shortform specifications ([#15253](https://github.com/tldr-pages/tldr/pull/15253))
 
 - [v2.2, March 20th 2024](https://github.com/tldr-pages/tldr/blob/v2.2/CLIENT-SPECIFICATION.md) ([#12452](https://github.com/tldr-pages/tldr/pull/12452))
   - Removed redirect text from the [caching section](#caching) ([#12133](https://github.com/tldr-pages/tldr/pull/12133))
