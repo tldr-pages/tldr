@@ -13,16 +13,16 @@
 
 - Überschreibe bereits existierende Dateien ohne vorherige Bestätigung:
 
-`mv -f {{pfad/zu/datei}} {{pfad/zu/zieldatei}}`
+`mv {{[-f|--force]}} {{pfad/zu/datei}} {{pfad/zu/zieldatei}}`
 
 - Überschreibe bereits existierende Dateien nach Bestätigung (unabhängig von Dateirechten):
 
-`mv -i {{pfad/zu/datei}} {{pfad/zu/zieldatei}}`
+`mv {{[-i|--interactive]}} {{pfad/zu/datei}} {{pfad/zu/zieldatei}}`
 
 - Verhindere das Überschreiben existierender Dateien am Zielort:
 
-`mv -n {{pfad/zu/datei}} {{pfad/zu/zieldatei}}`
+`mv {{[-n|--no-clobber]}} {{pfad/zu/datei}} {{pfad/zu/zieldatei}}`
 
 - Liste Dateien und deren Details auf während sie verschoben werden:
 
-`mv -v {{pfad/zu/datei}} {{pfad/zu/zieldatei}}`
+`mv {{[-v|--verbose]}} {{pfad/zu/datei}} {{pfad/zu/zieldatei}}`
