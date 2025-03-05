@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD007 MD013 MD024-->
 # Style guide
 
 This page lists specific formatting instructions for `tldr` pages.
