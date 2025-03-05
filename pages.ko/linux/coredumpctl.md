@@ -21,4 +21,4 @@
 
 - 특정 프로그램의 마지막 코어 덤프를 파일로 추출:
 
-`coredumpctl --output={{경로/대상/파일}} dump {{프로그램}}`
+`coredumpctl --output {{경로/대상/파일}} dump {{프로그램}}`

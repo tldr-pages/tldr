@@ -9,7 +9,7 @@
 
 - Tampilkan berkas dengan informasi komit menggunakan alamat surel/email daripada nama pelaku:
 
-`git blame {{-e|--show-email}} {{jalan/menuju/berkas}}`
+`git blame {{[-e|--show-email]}} {{jalan/menuju/berkas}}`
 
 - Tampilkan informasi nama pelaku dan kode hash komit terakhir pada berkas yang disimpan dalam komit tertentu:
 
