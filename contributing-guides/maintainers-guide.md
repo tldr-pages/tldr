@@ -198,4 +198,4 @@ git push origin vX.Y.Z
 ### Post-release steps
 
 - Once the release is published, [view the workflow run of `copy-release-assets.yml`](https://github.com/tldr-pages/tldr/actions/workflows/copy-release-assets.yml) and after it's successful completion ensure the assets are copied from the previous release.
-- Inform [social media managers](https://github.com/tldr-pages/access#social-media-accounts) to post about the client specification release on Mastodon and inform the wider community about the release.
+- Notify the [social media managers](https://github.com/tldr-pages/access#social-media-accounts) to post about the client specification release on Mastodon and other platforms to inform the wider community about the release.
