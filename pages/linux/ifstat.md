@@ -9,8 +9,8 @@
 
 - View network interface statistics since last boot:
 
-`ifstat {{-a|--ignore}}`
+`ifstat {{[-a|--ignore]}}`
 
 - View error rate:
 
-`ifstat {{-e|--errors}}`
+`ifstat {{[-e|--errors]}}`

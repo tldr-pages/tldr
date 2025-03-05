@@ -9,4 +9,4 @@
 
 - Crée des répertoires récursivement (utile pour créer des répertoires imbriqués) :
 
-`mkdir {{-p|--parents}} {{chemin/vers/répertoire}}`
+`mkdir {{[-p|--parents]}} {{chemin/vers/répertoire}}`

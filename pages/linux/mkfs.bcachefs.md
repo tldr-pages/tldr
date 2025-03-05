@@ -9,4 +9,4 @@
 
 - Create a `bcachefs` filesystem with a volume label:
 
-`sudo mkfs.bcachefs {{-L|--fs_label}} {{volume_label}} {{/dev/sdX1}}`
+`sudo mkfs.bcachefs {{[-L|--fs_label]}} {{volume_label}} {{/dev/sdX1}}`
