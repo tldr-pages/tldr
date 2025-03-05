@@ -17,8 +17,8 @@
 
 - Increase/decrease the font size:
 
-`<Ctrl> + <Shift> + {{Page Up|Page Down}}`
+`<Ctrl Shift {{PageUp|PageDown}}>`
 
 - Copy/paste from the clipboard:
 
-`<Ctrl> + <Shift> + {{C|V}}`
+`<Ctrl Shift {{c|v}}>`

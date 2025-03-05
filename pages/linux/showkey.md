@@ -21,4 +21,4 @@
 
 - Exit the program:
 
-`Ctrl + d`
+`<Ctrl d>`

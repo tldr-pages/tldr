@@ -14,24 +14,24 @@
 
 - Once partitioning a disk, create a partition:
 
-`n`
+`<n>`
 
 - Once partitioning a disk, select a partition to delete:
 
-`d`
+`<d>`
 
 - Once partitioning a disk, view the partition table:
 
-`p`
+`<p>`
 
 - Once partitioning a disk, write the changes made:
 
-`w`
+`<w>`
 
 - Once partitioning a disk, discard the changes made:
 
-`q`
+`<q>`
 
 - Once partitioning a disk, open a help menu:
 
-`m`
+`<m>`
