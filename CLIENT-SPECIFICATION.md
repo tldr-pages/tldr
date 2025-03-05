@@ -119,8 +119,7 @@ The structure inside these translation folders is identical to that of the main 
 
 ## Page structure
 
-Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in standard [CommonMark](https://commonmark.org/), with the exceptions:
-- Non-standard `{{`, `}}`, `{{[` and `]}}` placeholder syntax.
+Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in standard [CommonMark](https://commonmark.org/), with the exception of the non-standard `{{`, `}}`, `{{[` and `]}}` placeholder syntax, where:
 - `{{` and `}}` surrounds values in an example that indicates editable values.
 - `{{[` and `]}}` indicate shortform and longform variants of options which are separated by a single `|`. Shortform on the left, longform on the right.
 
