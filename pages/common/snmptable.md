@@ -5,4 +5,4 @@
 
 - Fetch data:
 
-`snmpget -v {{version}} -c {{community}} {{ip}} {{oid}}`
+`snmptable -v {{version}} -c {{community}} {{ip}} {{oid}}`

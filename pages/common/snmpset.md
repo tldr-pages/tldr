@@ -5,4 +5,4 @@
 
 - Set a value:
 
-`snmpget -v {{version}} -c {{community}} {{ip}} {{oid}} {{value_type}} {{value}}`
+`snmpset -v {{version}} -c {{community}} {{ip}} {{oid}} {{value_type}} {{value}}`
