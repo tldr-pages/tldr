@@ -10,7 +10,7 @@
 
 - Enter insert mode from normal mode, to write text into the file:
 
-`i`
+`<i>`
 
 - Escape insert mode, to go back to normal mode:
 
@@ -30,8 +30,8 @@
 
 - Insert the contents of a file:
 
-`!cat {{path/to/file}}<Enter>`
+`<!>cat {{path/to/file}}<Enter>`
 
 - Save the current file:
 
-`:w<Enter>`
+`<:>w<Enter>`

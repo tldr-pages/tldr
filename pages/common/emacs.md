@@ -30,8 +30,8 @@
 
 - Save a file in Emacs:
 
-`<Ctrl> + X, <Ctrl> + S`
+`<Ctrl x><Ctrl s>`
 
 - Quit Emacs:
 
-`<Ctrl> + X, <Ctrl> + C`
+`<Ctrl x><Ctrl c>`

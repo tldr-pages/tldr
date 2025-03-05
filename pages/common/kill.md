@@ -16,7 +16,7 @@
 
 `kill -{{1|HUP}} {{process_id}}`
 
-- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `Ctrl + C`:
+- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `<Ctrl c>`:
 
 `kill -{{2|INT}} {{process_id}}`
 

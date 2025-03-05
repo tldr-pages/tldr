@@ -31,6 +31,6 @@
 
 `rclone mount {{remote_name}}:{{path/to/directory}} {{path/to/mount_point}}`
 
-- Unmount rclone remote if CTRL-C fails (experimental):
+- Unmount rclone remote if `<Ctrl c>` fails (experimental):
 
 `fusermount -u {{path/to/mount_point}}`

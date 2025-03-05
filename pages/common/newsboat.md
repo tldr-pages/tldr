@@ -21,4 +21,4 @@
 
 - See keyboard shortcuts (the most relevant are visible in the status line):
 
-`?`
+`<?>`

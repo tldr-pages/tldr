@@ -9,8 +9,8 @@
 
 - Sort by CPU usage:
 
-`c`
+`<c>`
 
 - Sort by memory usage:
 
-`m`
+`<m>`

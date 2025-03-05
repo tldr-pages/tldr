@@ -19,7 +19,7 @@
 
 `sudo gitlab-ctl restart {{nginx}}`
 
-- Display the logs of every service and keep reading until `Ctrl + C` is pressed:
+- Display the logs of every service and keep reading until `<Ctrl c>` is pressed:
 
 `sudo gitlab-ctl tail`
 

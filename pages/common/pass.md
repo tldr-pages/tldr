@@ -8,7 +8,7 @@
 
 `pass init {{gpg_id_1}} {{gpg_id_2}}`
 
-- Save a new password and additional information (press Ctrl + D on a new line to complete):
+- Save a new password and additional information (press `<Ctrl d>` on a new line to complete):
 
 `pass insert --multiline {{path/to/data}}`
 
