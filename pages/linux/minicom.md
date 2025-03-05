@@ -5,16 +5,16 @@
 
 - Open a given serial port:
 
-`sudo minicom --device {{/dev/ttyUSB0}}`
+`sudo minicom --device {{/dev/ttyXYZ}}`
 
 - Open a given serial port with a given baud rate:
 
-`sudo minicom --device {{/dev/ttyUSB0}} --baudrate {{115200}}`
+`sudo minicom --device {{/dev/ttyXYZ}} --baudrate {{115200}}`
 
 - Enter the configuration menu before communicating with a given serial port:
 
-`sudo minicom --device {{/dev/ttyUSB0}} --setup`
+`sudo minicom --device {{/dev/ttyXYZ}} --setup`
 
 - Exit minicom:
 
-`<Ctrl a><Ctrl x><Enter>`
+`<Ctrl a><x><Enter>`
