@@ -9,11 +9,11 @@
 
 - List all available locales:
 
-`locale --all-locales`
+`locale {{[-a|--all-locales]}}`
 
 - Display all available locales and the associated metadata:
 
-`locale --all-locales --verbose`
+`locale {{[-a|--all-locales]}} {{[-v|--verbose]}}`
 
 - Display the current date format:
 

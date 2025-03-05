@@ -25,4 +25,4 @@
 
 - Turn on verbose output:
 
-`wol --verbose {{mac_address}}`
+`wol {{[-v|--verbose]}} {{mac_address}}`

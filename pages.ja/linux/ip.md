@@ -6,32 +6,32 @@
 
 - インターフェースの詳細情報を表示する:
 
-`ip address`
+`ip {{[a|address]}}`
 
 - 簡単なネットワークレイヤの情報を持つインターフェースを一覧表示する:
 
-`ip -brief address`
+`ip {{[-br a|-brief address]}}`
 
 - リンク層の簡単な情報を持つインターフェースを一覧表示する:
 
-`ip -brief link`
+`ip {{[-br l|-brief link]}}`
 
 - ルーティングテーブルを表示する:
 
-`ip route`
+`ip {{[r|route]}}`
 
 - ネイバー(ARP テーブル)を表示する:
 
-`ip neighbour`
+`ip {{[n|neighbour]}}`
 
 - インターフェースを up/down する:
 
-`ip link set {{インターフェース}} {{up|down}}`
+`ip {{[l|link]}} set {{インターフェース}} {{up|down}}`
 
 - インターフェースにIPアドレスを追加/削除する:
 
-`ip addr add/del {{ip}}/{{mask}} dev {{インターフェース}}`
+`ip {{[a|address]}} add/del {{ip}}/{{mask}} dev {{インターフェース}}`
 
 - デフォルトルートを追加する:
 
-`ip route add default via {{ip}} dev {{インターフェース}}`
+`ip {{[r|route]}} add default via {{ip}} dev {{インターフェース}}`
