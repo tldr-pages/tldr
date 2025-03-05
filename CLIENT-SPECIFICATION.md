@@ -257,6 +257,8 @@ the commit hash changes when merging with squash or rebase.
 - Unreleased
   - Added longform/shortform specifications ([#15253](https://github.com/tldr-pages/tldr/pull/15253))
   - Specify `common` as a supported platform option ([#15855](https://github.com/tldr-pages/tldr/pull/15855))
+  - Add the date of removal of the old asset website ([#15862](https://github.com/tldr-pages/tldr/pull/15862))
+  - Various grammar fixes
 
 - [v2.2, March 20th 2024](https://github.com/tldr-pages/tldr/blob/v2.2/CLIENT-SPECIFICATION.md) ([#12452](https://github.com/tldr-pages/tldr/pull/12452))
   - Removed redirect text from the [caching section](#caching) ([#12133](https://github.com/tldr-pages/tldr/pull/12133))
