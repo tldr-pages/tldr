@@ -1,7 +1,7 @@
 # pihole
 
 > Pi-hole 광고 차단 DNS 서버의 터미널 인터페이스.
-> 더 많은 정보: <https://docs.pi-hole.net/core/pihole-command/>.
+> 더 많은 정보: <https://docs.pi-hole.net/main/pihole-command>.
 
 - Pi-hole 데몬의 상태 확인:
 

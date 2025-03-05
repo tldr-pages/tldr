@@ -1,7 +1,7 @@
 # pihole
 
 > Interfaz de terminal para el servidor DNS de bloqueo de anuncios Pi-hole.
-> Más información: <https://docs.pi-hole.net/core/pihole-command/>.
+> Más información: <https://docs.pi-hole.net/main/pihole-command>.
 
 - Verifica el estado del daemon de Pi-hole:
 
