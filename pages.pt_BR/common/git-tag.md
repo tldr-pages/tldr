@@ -18,15 +18,15 @@
 
 - Cria uma tag anotada com a mensagem fornecida:
 
-`git tag {{nome_da_tag}} -m {{mensagem_da_tag}}`
+`git tag {{nome_da_tag}} {{[-m|--message]}} {{mensagem_da_tag}}`
 
 - Exclui a tag com o nome fornecido:
 
-`git tag {{-d|--delete}} {{nome_da_tag}}`
+`git tag {{[-d|--delete]}} {{nome_da_tag}}`
 
 - Obtém tags atualizadas do remote:
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
 - Envia uma tag para o remote:
 

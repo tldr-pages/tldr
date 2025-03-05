@@ -9,7 +9,7 @@
 
 - 특정 리비전 번호에서 시작하여 SVN 저장소 클론:
 
-`git svn clone {{-r|--revision}} {{1234}}:HEAD {{https://svn.example.net/subversion/repo}} {{local_dir}}`
+`git svn clone {{[-r|--revision]}} {{1234}}:HEAD {{https://svn.example.net/subversion/repo}} {{local_dir}}`
 
 - 원격 SVN 저장소에서 로컬 클론 업데이트:
 

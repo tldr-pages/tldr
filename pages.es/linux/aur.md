@@ -12,14 +12,14 @@
 
 `aur sync {{paquete}}`
 
-- [l]ista paquetes disponibles en tu repositorio local:
+- Lista paquetes disponibles en tu repositorio local:
 
-`aur repo --list`
+`aur repo {{[-l|--list]}}`
 
-- Act[u]aliza los paquetes del repositorio local:
+- Actualiza los paquetes del repositorio local:
 
-`aur sync --upgrades`
+`aur sync {{[-u|--upgrades]}}`
 
 - Instala un paquete sin ver los cambios en Vim y sin confirmar la instalación de dependencias:
 
-`aur sync --noview --noconfirm {{paquete}}`
+`aur sync --noview {{[-n|--noconfirm]}} {{paquete}}`
