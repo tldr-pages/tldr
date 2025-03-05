@@ -9,11 +9,7 @@
 
 - Actualiza Pi-hole y Gravity:
 
-`pihole -up`
-
-- Monitorea el estado detallado del sistema:
-
-`pihole chronometer`
+`pihole {{[-up|updatePihole]}}`
 
 - Inicia o detiene el daemon:
 
@@ -21,16 +17,16 @@
 
 - Reinicia el daemon (no el servidor en sí):
 
-`pihole restartdns`
+`pihole reloaddns`
 
 - Incluye en lista blanca o negra un dominio:
 
-`pihole {{whitelist|blacklist}} {{ejemplo.com}}`
+`pihole {{allowlist|denylist}} {{example.com}}`
 
 - Busca en las listas un dominio:
 
-`pihole query {{ejemplo.com}}`
+`pihole {{[-q|query]}} {{example.com}}`
 
 - Abre un registro de conexiones en tiempo real:
 
-`pihole tail`
+`pihole {{[-t|tail]}}`

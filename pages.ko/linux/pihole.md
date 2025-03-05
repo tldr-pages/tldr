@@ -9,11 +9,7 @@
 
 - Pi-hole 및 Gravity 업데이트:
 
-`pihole -up`
-
-- 시스템 상태 자세히 모니터링:
-
-`pihole chronometer`
+`pihole {{[-up|updatePihole]}}`
 
 - 데몬 시작 또는 중지:
 
@@ -21,16 +17,16 @@
 
 - 데몬 재시작 (서버 자체는 아님):
 
-`pihole restartdns`
+`pihole reloaddns`
 
 - 도메인 화이트리스트 또는 블랙리스트에 추가:
 
-`pihole {{whitelist|blacklist}} {{example.com}}`
+`pihole {{allowlist|denylist}} {{example.com}}`
 
 - 도메인을 목록에서 검색:
 
-`pihole query {{example.com}}`
+`pihole {{[-q|query]}} {{example.com}}`
 
 - 연결의 실시간 로그 열기:
 
-`pihole tail`
+`pihole {{[-t|tail]}}`
