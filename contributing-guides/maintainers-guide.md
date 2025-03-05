@@ -192,10 +192,10 @@ git push origin vX.Y.Z
 ```
 
 8. Verify the tag's creation [here](https://github.com/tldr-pages/tldr/tags) and then navigate to the [releases](https://github.com/tldr-pages/tldr/releases) tab and draft a new release.
-9. Choose the tag you just pushed and add the release notes prepared previously along with a appropriate release title and then enable the "Create a discussion for this release" option.
+9. Choose the tag you just pushed and add the release notes prepared previously along with an appropriate release title and then enable the "Create a discussion for this release" option.
 10. Now publish the release and proceed with the below post-release steps.
 
 ### Post-release steps
 
-- Once the release is published, [view the workflow run of `copy-release-assets.yml`](https://github.com/tldr-pages/tldr/actions/workflows/copy-release-assets.yml) and after it's successful completion ensure the assets are copied from the previous release.
+- Once the release is published, [view the workflow run of `copy-release-assets.yml`](https://github.com/tldr-pages/tldr/actions/workflows/copy-release-assets.yml) and after its successful completion ensure the assets are copied from the previous release.
 - Notify the [social media managers](https://github.com/tldr-pages/access#social-media-accounts) to post about the client specification release on Mastodon and other platforms to inform the wider community about the release.
