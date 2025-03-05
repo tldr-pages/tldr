@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD007 MD013 MD024-->
 # tldr-pages client specification
 
-**Current Specification Version:** Unreleased
+**Current Specification Version:** 2.3
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#changelog) below.
 
@@ -254,8 +254,11 @@ the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
 
-- Unreleased
+- v2.3, March 5th 2025 TODO
   - Added longform/shortform specifications ([#15253](https://github.com/tldr-pages/tldr/pull/15253))
+  - Specify `common` as a supported platform option ([#15855](https://github.com/tldr-pages/tldr/pull/15855))
+  - Add the date of removal of the old asset website ([#15862](https://github.com/tldr-pages/tldr/pull/15862))
+  - Various grammar fixes
 
 - [v2.2, March 20th 2024](https://github.com/tldr-pages/tldr/blob/v2.2/CLIENT-SPECIFICATION.md) ([#12452](https://github.com/tldr-pages/tldr/pull/12452))
   - Removed redirect text from the [caching section](#caching) ([#12133](https://github.com/tldr-pages/tldr/pull/12133))
