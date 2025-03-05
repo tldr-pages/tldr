@@ -15,10 +15,6 @@
 
 `pihole {{enable|disable}}`
 
-- Reinicia el daemon (no el servidor en sí):
-
-`pihole reloaddns`
-
 - Incluye en lista blanca o negra un dominio:
 
 `pihole {{allowlist|denylist}} {{example.com}}`

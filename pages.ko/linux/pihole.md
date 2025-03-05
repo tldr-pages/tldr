@@ -15,10 +15,6 @@
 
 `pihole {{enable|disable}}`
 
-- 데몬 재시작 (서버 자체는 아님):
-
-`pihole reloaddns`
-
 - 도메인 화이트리스트 또는 블랙리스트에 추가:
 
 `pihole {{allowlist|denylist}} {{example.com}}`
