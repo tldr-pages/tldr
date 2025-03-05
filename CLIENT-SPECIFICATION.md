@@ -119,15 +119,14 @@ The structure inside these translation folders is identical to that of the main 
 
 ## Page structure
 
-Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in standard [CommonMark](https://commonmark.org/), with the exceptions:
-- Non-standard `{{`, `}}`, `{{[` and `]}}` placeholder syntax.
-  - `{{` and `}}` surrounds values in an example that indicates editable values.
-  - `{{[` and `]}}` indicate shortform and longform variants of options which are separated by a single `|`. Shortform on the left, longform on the right.
+Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in standard [CommonMark](https://commonmark.org/), with the exception of the non-standard `{{`, `}}`, `{{[` and `]}}` placeholder syntax, where:
+- `{{` and `}}` surrounds values in an example that indicates editable values.
+- `{{[` and `]}}` indicate shortform and longform variants of options which are separated by a single `|`. Shortform on the left, longform on the right.
 
 Things to take into account:
 - Clients MAY highlight the placeholders and MUST remove the surrounding curly braces.
 - If option placeholders are set to show only shortform or longform options, they MUST not be highlighted. This is because there is no longer user choice involved.
-- Clients MUST remove the angle brackets from option placeholders when only short- or longform is shown. 
+- Clients MUST remove the angle brackets from option placeholders when only short- or longform is shown.
 - Clients MUST NOT treat them as the placeholder syntax if they are escaped using `\` (i.e. `\{\{` and `\}\}`) and MUST instead display literal braces, without backslashes. Placeholder escaping applies only when both braces are escaped (e.g. in `\{` or `\{{`, backslashes MUST be displayed).
 - In cases when a command uses `{}` in its arguments (e.g. `stash@{0}`) **_the outer braces_** mark the placeholder - the braces inside MUST be displayed.
 - Clients MUST NOT break if the page format is changed within the _CommonMark_ specification.
@@ -236,7 +235,8 @@ Step  | Path checked         | Outcome
 If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the entire archive either as a whole from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr.zip>** or download language-specific archives in the format `https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.{{language-code}}.zip` (e.g. **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.en.zip>**). The English archive is also available from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.zip>**.
 
 > [!CAUTION]
-> Prior to version 2.2, the client specification stated that clients MUST download archives from <https://tldr.sh/assets>. This method is now deprecated, and **_will be removed_** in the future.
+> Prior to version 2.2, the client specification stated that clients MUST download archives from <https://tldr.sh/assets>. This method is now deprecated, and **_will be removed_** in December 2025.
+> Clients that still use the old location will therefore stop working next year.
 
 Caching SHOULD be done according to the user's language configuration (if any), to not waste unneeded space for unused languages. Additionally, clients MAY automatically update the cache regularly.
 
