@@ -25,11 +25,11 @@
 
 - Replay an asciicat terminal session:
 
-`wezterm replay {{cast_file}}`
+`wezterm replay {{path/to/cast_file}}`
 
 - Specify the configuration file to use, overrides the normal configuration file resolution:
 
-`wezterm --config-file {{config_file}}`
+`wezterm --config-file {{path/to/config_file}}`
 
 - Display help:
 
