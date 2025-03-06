@@ -1,6 +1,6 @@
 # wezterm
 
-> Wez's Terminal Emulator, a powerful cross-platform terminal emulator and multiplexer written in Rust.
+> Wez's Terminal Emulator, a powerful cross-platform terminal emulator and multiplexer written by wez and implemented in Rust.
 > Usage: wezterm [OPTIONS] [COMMAND].
 > More information: <https://wezterm.org>.
 
