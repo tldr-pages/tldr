@@ -13,7 +13,7 @@
 
 - Turn the piece:
 
-`{{<w>|<ArrowUp}}`
+`{{<w>|<ArrowUp>}}`
 
 - Hard drop the piece:
 
