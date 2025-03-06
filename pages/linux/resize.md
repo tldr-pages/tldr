@@ -1,6 +1,6 @@
 # resize
 
-> Resize the terminal size to the window size.
+> Resize terminal size to the window size.
 > More information: <https://manned.org/resize>.
 
 - Resize the terminal:
