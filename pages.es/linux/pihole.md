@@ -3,7 +3,7 @@
 > Interfaz de terminal para el servidor DNS de bloqueo de anuncios Pi-hole.
 > Más información: <https://docs.pi-hole.net/main/pihole-command>.
 
-- Verifica el estado del daemon de Pi-hole:
+- Verifica el estado del programa residente de Pi-hole:
 
 `pihole status`
 
@@ -11,7 +11,7 @@
 
 `pihole {{[-up|updatePihole]}}`
 
-- Inicia o detiene el daemon:
+- Inicia o detiene el programa residente:
 
 `pihole {{enable|disable}}`
 
