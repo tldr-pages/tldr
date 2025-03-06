@@ -34,6 +34,6 @@
 
 `wezterm --config-file <config_file>`
 
-- Print this message or the help of the given subcommand(s)
+- Print help message
 
 `wezterm help`
