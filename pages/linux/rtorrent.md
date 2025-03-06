@@ -13,7 +13,7 @@
 
 - View details about downloading torrent:
 
-`->`
+`<ArrowRight>`
 
 - Close rtorrent safely:
 
