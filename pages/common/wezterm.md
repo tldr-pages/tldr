@@ -17,7 +17,7 @@
 
 - Output an image to the terminal:
 
-`wezterm imgcat {{img}}`
+`wezterm imgcat {{path/to/image}}`
 
 - Record a terminal session as an asciicat (by default recordings are found in /tmp):
 
