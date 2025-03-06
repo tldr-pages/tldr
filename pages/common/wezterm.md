@@ -2,7 +2,7 @@
 
 > Wez's Terminal Emulator, a powerful cross-platform terminal emulator and multiplexer written in Rust.
 > Usage: wezterm [OPTIONS] [COMMAND].
-> More information: https://wezterm.org.
+> More information: <https://wezterm.org>.
 
 - Start a new Wezterm process and create a window:
 
@@ -32,6 +32,6 @@
 
 `wezterm --config-file <config_file>`
 
-- Print help message
+- Print help message:
 
 `wezterm help`
