@@ -4,8 +4,6 @@
 > Usage: wezterm [OPTIONS] [COMMAND].
 > More information: https://wezterm.org.
 
-## Commands
-
 - Start a new Wezterm process and create a window:
 
 `wezterm`
