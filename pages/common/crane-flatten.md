@@ -10,7 +10,7 @@
 
 - Apply new tag to flattened image:
 
-`crane flatten {{-t|--tag}} {{tag_name}}`
+`crane flatten {{[-t|--tag]}} {{tag_name}}`
 
 - Display help:
 
