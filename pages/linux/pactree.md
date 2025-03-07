@@ -9,15 +9,15 @@
 
 - Print what packages depend on a specific package:
 
-`pactree --reverse {{package}}`
+`pactree {{[-r|--reverse]}} {{package}}`
 
 - Dump dependencies one per line, skipping duplicates:
 
-`pactree --unique {{package}}`
+`pactree {{[-u|--unique]}} {{package}}`
 
 - Include optional dependencies of a specific package and colorize the output:
 
-`pactree --optional --color {{package}}`
+`pactree {{[-co|--color --optional]}} {{package}}`
 
 - Display help:
 

@@ -10,8 +10,8 @@
 
 - 스왑 영역의 레이블 설정:
 
-`swaplabel --label {{새_레이블}} {{경로/대상/파일}}`
+`swaplabel {{[-L|--label]}} {{새_레이블}} {{경로/대상/파일}}`
 
 - 스왑 영역의 UUID 설정 (UUID는 `uuidgen`을 사용하여 생성할 수 있습니다):
 
-`swaplabel --uuid {{새_UUID}} {{경로/대상/파일}}`
+`swaplabel {{[-U|--uuid]}} {{새_UUID}} {{경로/대상/파일}}`
