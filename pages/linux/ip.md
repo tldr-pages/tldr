@@ -26,7 +26,7 @@
 
 - Make an interface up/down:
 
-`sudo ip {{[l|link]}} set {{interface}} {{up|down}}`
+`sudo ip {{[l|link]}} {{[s|set]}} {{interface}} {{up|down}}`
 
 - Add/Delete an IP address to an interface:
 
