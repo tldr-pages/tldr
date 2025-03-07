@@ -14,7 +14,7 @@
 
 - 현재 셸 세션에서 완성 로드 (bash/zsh):
 
-`source <(gcrane completion bash/zsh)>`
+`source <(gcrane completion bash/zsh)`
 
 - 현재 셸 세션에서 완성 로드 (fish):
 
