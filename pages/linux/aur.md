@@ -12,14 +12,14 @@
 
 `aur sync {{package}}`
 
-- [l]ist packages available in your local repository:
+- List packages available in your local repository:
 
-`aur repo --list`
+`aur repo {{[-l|--list]}}`
 
-- [u]pgrade local repository packages:
+- Upgrade local repository packages:
 
-`aur sync --upgrades`
+`aur sync {{[-u|--upgrades]}}`
 
 - Install a package without viewing changes in Vim and do not confirm dependency installation:
 
-`aur sync --noview --noconfirm {{package}}`
+`aur sync --noview {{[-n|--noconfirm]}} {{package}}`
