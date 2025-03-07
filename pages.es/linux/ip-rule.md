@@ -11,7 +11,7 @@
 
 `sudo ip {{[ru|rule]}} add from {{192.168.178.2/32}}`
 
-- Añade una nueva regla basada en direcciones destino de paquetes:
+- Añade una nueva regla basada en direcciones de destino de paquetes:
 
 `sudo ip {{[ru|rule]}} add to {{192.168.178.2/32}}`
 
@@ -19,7 +19,7 @@
 
 `sudo ip {{[ru|rule]}} delete from {{192.168.178.2/32}}`
 
-- Elimina una regla basada en las direcciones destino de paquetes:
+- Elimina una regla basada en las direcciones de destino de paquetes:
 
 `sudo ip {{[ru|rule]}} delete to {{192.168.178.2/32}}`
 
