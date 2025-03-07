@@ -14,4 +14,4 @@
 
 - Display help:
 
-`crane flatten {{-h|--help}}`
+`crane flatten {{[-h|--help]}}`
