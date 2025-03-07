@@ -11,9 +11,9 @@
 
 `plasmashell --replace & disown`
 
-- 명령줄 옵션에 대한 [h]도움말 표시:
+- 명령줄 옵션에 대한 도움말 표시:
 
-`plasmashell --help`
+`plasmashell {{[-h|--help]}}`
 
 - Qt 옵션을 포함한 도움말 표시:
 
