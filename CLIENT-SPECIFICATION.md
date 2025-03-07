@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD007 MD013 MD024-->
 # tldr-pages client specification
 
-**Current Specification Version:** Unreleased
+**Current Specification Version:** 2.3
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#changelog) below.
 
@@ -119,15 +119,14 @@ The structure inside these translation folders is identical to that of the main 
 
 ## Page structure
 
-Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in standard [CommonMark](https://commonmark.org/), with the exceptions:
-- Non-standard `{{`, `}}`, `{{[` and `]}}` placeholder syntax.
-  - `{{` and `}}` surrounds values in an example that indicates editable values.
-  - `{{[` and `]}}` indicate shortform and longform variants of options which are separated by a single `|`. Shortform on the left, longform on the right.
+Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in standard [CommonMark](https://commonmark.org/), with the exception of the non-standard `{{`, `}}`, `{{[` and `]}}` placeholder syntax, where:
+- `{{` and `}}` surrounds values in an example that indicates editable values.
+- `{{[` and `]}}` indicate shortform and longform variants of options which are separated by a single `|`. Shortform on the left, longform on the right.
 
 Things to take into account:
 - Clients MAY highlight the placeholders and MUST remove the surrounding curly braces.
 - If option placeholders are set to show only shortform or longform options, they MUST not be highlighted. This is because there is no longer user choice involved.
-- Clients MUST remove the angle brackets from option placeholders when only short- or longform is shown. 
+- Clients MUST remove the square brackets from option placeholders when only short- or longform is shown.
 - Clients MUST NOT treat them as the placeholder syntax if they are escaped using `\` (i.e. `\{\{` and `\}\}`) and MUST instead display literal braces, without backslashes. Placeholder escaping applies only when both braces are escaped (e.g. in `\{` or `\{{`, backslashes MUST be displayed).
 - In cases when a command uses `{}` in its arguments (e.g. `stash@{0}`) **_the outer braces_** mark the placeholder - the braces inside MUST be displayed.
 - Clients MUST NOT break if the page format is changed within the _CommonMark_ specification.
@@ -236,7 +235,8 @@ Step  | Path checked         | Outcome
 If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the entire archive either as a whole from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr.zip>** or download language-specific archives in the format `https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.{{language-code}}.zip` (e.g. **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.en.zip>**). The English archive is also available from **<https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.zip>**.
 
 > [!CAUTION]
-> Prior to version 2.2, the client specification stated that clients MUST download archives from <https://tldr.sh/assets>. This method is now deprecated, and **_will be removed_** in the future.
+> Prior to version 2.2, the client specification stated that clients MUST download archives from <https://tldr.sh/assets>. This method is now deprecated, and **_will be removed_** in December 2025.
+> Clients that still use the old location will therefore stop working next year.
 
 Caching SHOULD be done according to the user's language configuration (if any), to not waste unneeded space for unused languages. Additionally, clients MAY automatically update the cache regularly.
 
@@ -254,8 +254,11 @@ the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
 
-- Unreleased
+- [v2.3, March 7th 2025](https://github.com/tldr-pages/tldr/blob/v2.3/CLIENT-SPECIFICATION.md) ([#15866](https://github.com/tldr-pages/tldr/pull/15866))
   - Added longform/shortform specifications ([#15253](https://github.com/tldr-pages/tldr/pull/15253))
+  - Specify `common` as a supported platform option ([#15855](https://github.com/tldr-pages/tldr/pull/15855))
+  - Add the date of removal of the old asset website ([#15862](https://github.com/tldr-pages/tldr/pull/15862))
+  - Various grammar fixes
 
 - [v2.2, March 20th 2024](https://github.com/tldr-pages/tldr/blob/v2.2/CLIENT-SPECIFICATION.md) ([#12452](https://github.com/tldr-pages/tldr/pull/12452))
   - Removed redirect text from the [caching section](#caching) ([#12133](https://github.com/tldr-pages/tldr/pull/12133))
