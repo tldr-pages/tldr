@@ -1,6 +1,6 @@
 # wezterm
 
-> Wez's Terminal Emulator, a powerful cross-platform terminal emulator and multiplexer.
+> Wez's Terminal Emulator - a powerful cross-platform terminal emulator and multiplexer.
 > More information: <https://wezterm.org/cli/general>.
 
 - Start a new Wezterm process and create a window:
