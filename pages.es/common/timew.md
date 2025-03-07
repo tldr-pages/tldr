@@ -1,6 +1,6 @@
 # timew
 
-> Una herramienta de registro y seguimiento de tiempo para medir la duración de actividades
+> Una herramienta de registro y seguimiento de tiempo para medir la duración de actividades.
 > Mas información: <https://timewarrior.net/docs>.
 
 - Comenzar a cronometrar una actividad:
