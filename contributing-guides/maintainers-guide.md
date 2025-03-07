@@ -68,8 +68,8 @@ for the behavior expected of tldr-pages maintainers.
     - If it only has one approval, please read the next point.
 
 - If a PR fails to get a review from a second maintainer after a few days,
-  the first maintainer should ping others for review. 
-    - If it still lingers around for **over a week without a second maintainer’s approval**, the first maintainer (if Owner) can go ahead and merge it. 
+  the first maintainer should ping others for review.
+    - If it still lingers around for **over a week without a second maintainer’s approval**, the first maintainer (if Owner) can go ahead and merge it.
     Otherwise, a message can be sent in the chatroom asking other maintainers to review the PR.
 
 - If the only issues holding up a merge are **trivial fixes**
@@ -163,14 +163,14 @@ For reference to see if a contributor has signed the CLA, visit the dashboard at
 
 1. Merge all applicable PRs that modify the client specification and ensure they are documented in the [CHANGELOG section of client specification](/CLIENT-SPECIFICATION.md#changelog).
 2. Bump the version to the upcoming release (in the client specification file) and inform other maintainers in the chatroom about the release.
-3. Clone the repository locally to your device: 
+3. Clone the repository locally to your device:
 
 ```sh
 git clone https://github.com/tldr-pages/tldr
 ```
 
 4. Cross check the additions, version and changelog details in the client specification file.
-5. Create a signed tag using the command 
+5. Create a signed tag using the command
 
 ```sh
 git tag -s vX.Y.Z
@@ -183,13 +183,13 @@ git tag -s vX.Y.Z
 > If any commits are merged after the client specification file's version bump commit and before tagging, when creating the tag
 > you can use the command: `git tag -s vX.Y.Z <commit hash>` (i.e. `git tag -s v2.3 3b17800`) to tag a older commit.
 
-6. Verify the created signed tag's details using the command: 
+6. Verify the created signed tag's details using the command:
 
 ```sh
 git tag -v vX.Y.Z
 ```
 
-7. Now, push the tag to the repository using the command: 
+7. Now, push the tag to the repository using the command:
 
 ```sh
 git push origin vX.Y.Z
