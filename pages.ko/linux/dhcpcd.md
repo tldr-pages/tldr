@@ -5,8 +5,8 @@
 
 - 모든 주소 임대 해제:
 
-`sudo dhcpcd --release`
+`sudo dhcpcd {{[-k|--release]}}`
 
 - DHCP 서버에 새 임대 요청:
 
-`sudo dhcpcd --rebind`
+`sudo dhcpcd {{[-n|--rebind]}}`
