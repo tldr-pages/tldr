@@ -8,21 +8,21 @@
 
 `git status`
 
-- Tampilkan informasi dalam format [s]ingkat:
+- Tampilkan informasi dalam format singkat:
 
-`git status --short`
+`git status {{[-s|--short]}}`
 
-- Tampilkan informasi secara terperinci ([v]erbose) baik dalam panggung rencana perubahan (staging) dan direktori kerja saat ini:
+- Tampilkan informasi secara terperinci baik dalam panggung rencana perubahan (staging) dan direktori kerja saat ini:
 
-`git status --verbose --verbose`
+`git status {{[-vv|--verbose --verbose]}}`
 
 - Tampilkan informasi mengenai cabang ([b]ranch) dan status pelacakan dari remote:
 
-`git status --branch`
+`git status {{[-b|--branch]}}`
 
-- Tampilkan daftar berkas beserta informasi cabang ([b]ranch) dalam format [s]ingkat:
+- Tampilkan daftar berkas beserta informasi cabang dalam format:
 
-`git status --short --branch`
+`git status {{[-sb|--short --branch]}}`
 
 - Tampilkan jumlah entri yang disimpan ke dalam kumpulan stash:
 
@@ -30,4 +30,4 @@
 
 - Jangan tampilkan berkas yang tidak terlacak:
 
-`git status --untracked-files=no`
+`git status {{[-uno|--untracked-files=no]}}`

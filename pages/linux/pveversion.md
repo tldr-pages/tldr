@@ -9,4 +9,4 @@
 
 - Print Proxmox subpackage versions:
 
-`pveversion {{-v|--verbose}}`
+`pveversion {{[-v|--verbose]}}`

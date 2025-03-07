@@ -5,7 +5,7 @@
 
 - 이름과 URL을 포함한 기존 원격 저장소 목록 보기:
 
-`git remote {{-v|--verbose}}`
+`git remote {{[-v|--verbose]}}`
 
 - 특정 원격 저장소에 대한 정보 표시:
 

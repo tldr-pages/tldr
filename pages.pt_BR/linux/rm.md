@@ -10,20 +10,20 @@
 
 - Remove arquivos específicos ignorando os inexistentes:
 
-`rm --force {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
+`rm {{[-f|--force]}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
 - Remove arquivos específicos interativamente avisando antes de cada remoção:
 
-`rm --interactive {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
+`rm {{[-i|--interactive]}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
 - Remove arquivos específicos imprimindo informações sobre cada remoção:
 
-`rm --verbose {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
+`rm {{[-v|--verbose]}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
 - Remove arquivos e diretórios específicos recursivamente:
 
-`rm --recursive {{caminho/para/arquivo_ou_diretório1 caminho/para/arquivo_ou_diretório2 ...}}`
+`rm {{[-r|--recursive]}} {{caminho/para/arquivo_ou_diretório1 caminho/para/arquivo_ou_diretório2 ...}}`
 
 - Remove diretórios vazios (este é considerado o método seguro):
 
-`rm --dir {{caminho/para/diretório}}`
+`rm {{[-d|--dir]}} {{caminho/para/diretório}}`
