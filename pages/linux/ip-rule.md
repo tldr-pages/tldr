@@ -23,13 +23,13 @@
 
 `sudo ip {{[ru|rule]}} {{[d|delete]}} to {{192.168.178.2/32}}`
 
-- Save all rules to a file:
-
-`ip {{[ru|rule]}} {{[s|save]}} > {{path/to/ip_rules.dat}}`
-
 - Flush all deleted rules:
 
 `sudo ip {{[ru|rule]}} {{[f|flush]}}`
+
+- Save all rules to a file:
+
+`ip {{[ru|rule]}} {{[s|save]}} > {{path/to/ip_rules.dat}}`
 
 - Restore all rules from a file:
 
