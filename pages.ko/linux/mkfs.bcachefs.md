@@ -9,4 +9,4 @@
 
 - 볼륨 레이블을 사용하여 `bcachefs` 파일 시스템 생성:
 
-`sudo mkfs.bcachefs {{-L|--fs_label}} {{볼륨_레이블}} {{/dev/sdX1}}`
+`sudo mkfs.bcachefs {{[-L|--fs_label]}} {{볼륨_레이블}} {{/dev/sdX1}}`

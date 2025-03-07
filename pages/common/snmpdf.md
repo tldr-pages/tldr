@@ -5,4 +5,4 @@
 
 - Fetch the disk space usage:
 
-`snmpget -v {{version}} -c {{community}} {{ip}}`
+`snmpdf -v {{version}} -c {{community}} {{ip}}`

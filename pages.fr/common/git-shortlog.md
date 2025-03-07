@@ -9,11 +9,11 @@
 
 - Afficher un résumé de tous les commits effectués, regroupés par le nombre de commits effectués :
 
-`git shortlog {{-n|--numbered}}`
+`git shortlog {{[-n|--numbered]}}`
 
 - Afficher un résumé de tous les commits effectués, regroupés par le nom et l'email de l'utilisateur :
 
-`git shortlog {{-c|--committer}}`
+`git shortlog {{[-c|--committer]}}`
 
 - Afficher un résumé des 5 derniers commits effectués :
 
@@ -21,8 +21,8 @@
 
 - Afficher tout les utilisateurs, emails et le nombre de commits dans la branche :
 
-`git shortlog {{-s|--summary}} {{-n|--numbered}} {{-e|--email}}`
+`git shortlog {{[-s|--summary]}} {{[-n|--numbered]}} {{[-e|--email]}}`
 
 - Afficher tout les utilisateurs, emails et le nombre de commits dans toutes les branches :
 
-`git shortlog {{-s|--summary}} {{-n|--numbered}} {{-e|--email}} --all`
+`git shortlog {{[-s|--summary]}} {{[-n|--numbered]}} {{[-e|--email]}} --all`

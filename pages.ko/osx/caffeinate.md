@@ -15,10 +15,10 @@
 
 `caffeinate -w {{PID}}`
 
-- 절전 모드 방지 (`Ctrl + C`로 종료):
+- 절전 모드 방지 (`<Ctrl c>`로 종료):
 
 `caffeinate -i`
 
-- 디스크 절전 모드 방지 (`Ctrl + C`로 종료):
+- 디스크 절전 모드 방지 (`<Ctrl c>`로 종료):
 
 `caffeinate -m`
