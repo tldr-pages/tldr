@@ -5,7 +5,7 @@
 
 - Exibe o estado atual do sistema (telas conhecidas, resoluções, ...):
 
-`xrandr --query`
+`xrandr {{[-q|--query]}}`
 
 - Desativa saídas desconectadas e ativa as conectadas com as configurações padrão:
 
@@ -29,4 +29,4 @@
 
 - Mostra o estado atual de qualquer servidor X:
 
-`xrandr --display :{{0}} --query`
+`xrandr {{[-d|--display]}} :{{0}} {{[-q|--query]}}`
