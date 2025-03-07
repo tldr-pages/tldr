@@ -5,7 +5,7 @@
 
 - Display the routing policy:
 
-`ip {{[ru|rule]}} {{show|list}}`
+`ip {{[ru|rule]}}`
 
 - Add a new rule based on packet source addresses:
 
