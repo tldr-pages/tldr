@@ -6,9 +6,9 @@
 
 - Crea un archivo `package.json` con los valores por defecto (omite --yes para hacerlo de forma interactiva):
 
-`npm init {{-y|--yes}}`
+`npm init {{[-y|--yes]}}`
 
-- Descarga todos los paquetes listados como dependencias en `package.json`:
+- Descarga todos los paquetes alistados como dependencias en `package.json`:
 
 `npm install`
 
@@ -18,11 +18,11 @@
 
 - Descarga la última versión de un paquete y lo añade a la lista de dependencias de desarrollo en `package.json`:
 
-`npm install {{nombre_paquete}} {{-D|--save-dev}}`
+`npm install {{nombre_paquete}} {{[-D|--save-dev]}}`
 
 - Descarga la última versión de un paquete y lo instala globalmente:
 
-`npm install {{-g|--global}} {{nombre_paquete}}`
+`npm install {{[-g|--global]}} {{nombre_paquete}}`
 
 - Desinstala un paquete y lo elimina de la lista de dependencias en `package.json`:
 
@@ -34,4 +34,4 @@
 
 - Lista los paquetes instalados globalmente:
 
-`npm list {{-g|--global}} --depth {{0}}`
+`npm list {{[-g|--global]}} --depth {{0}}`
