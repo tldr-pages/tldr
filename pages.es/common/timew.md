@@ -27,6 +27,6 @@
 
 `timew summary`
 
-- Ver un reporte del último día, semana, mes actual, etc.:
+- Ve un reporte del último día, semana, mes actual, etc.:
 
 `timew summary :{{today|yesterday|week|lastweek|month|lastmonth|year|lastyear}}`
