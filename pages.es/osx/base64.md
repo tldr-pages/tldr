@@ -7,7 +7,7 @@
 
 `base64 {{[-i|--input]}} {{ruta/al/archivo}}`
 
-- Codificar un archivo en el archivo de salida especificado:
+- Codifica un archivo en el archivo de salida especificado:
 
 `base64 {{[-i|--input]}} {{ruta/al/archivo_de_entrada}} {{[-o|--output]}} {{ruta/al/archivo_salida}}`
 
