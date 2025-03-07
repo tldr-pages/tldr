@@ -26,4 +26,3 @@
 - Cancel a Git revert after a merge conflict:
 
 `git revert --abort`
-
