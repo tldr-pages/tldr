@@ -254,7 +254,7 @@ the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
 
-- [v2.3, March 5th 2025](https://github.com/tldr-pages/tldr/blob/v2.3/CLIENT-SPECIFICATION.md) ([#15866](https://github.com/tldr-pages/tldr/pull/15866))
+- [v2.3, March 7th 2025](https://github.com/tldr-pages/tldr/blob/v2.3/CLIENT-SPECIFICATION.md) ([#15866](https://github.com/tldr-pages/tldr/pull/15866))
   - Added longform/shortform specifications ([#15253](https://github.com/tldr-pages/tldr/pull/15253))
   - Specify `common` as a supported platform option ([#15855](https://github.com/tldr-pages/tldr/pull/15855))
   - Add the date of removal of the old asset website ([#15862](https://github.com/tldr-pages/tldr/pull/15862))
