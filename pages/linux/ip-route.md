@@ -1,32 +1,36 @@
-# ip route
+# ip rule
 
-> IP Routing table management subcommand.
-> More information: <https://manned.org/ip-route>.
+> IP routing policy database management.
+> More information: <https://manned.org/ip-rule>.
 
-- Display the routing table:
+- Display the routing policy:
 
-`ip {{[r|route]}} {{show|list}}`
+`ip {{[ru|rule]}} {{show|list}}`
 
-- Add a default route using gateway forwarding:
+- Add a new rule based on packet source addresses:
 
-`sudo ip {{[r|route]}} add default via {{gateway_ip}}`
+`sudo ip {{[ru|rule]}} {{[a|add]}} from {{192.168.178.2/32}}`
 
-- Add a default route using `eth0`:
+- Add a new rule based on packet destination addresses:
 
-`sudo ip {{[r|route]}} add default dev {{eth0}}`
+`sudo ip {{[ru|rule]}} {{[a|add]}} to {{192.168.178.2/32}}`
 
-- Add a static route:
+- Delete a rule based on packet source addresses:
 
-`sudo ip {{[r|route]}} add {{destination_ip}} via {{gateway_ip}} dev {{eth0}}`
+`sudo ip {{[ru|rule]}} {{[d|delete]}} from {{192.168.178.2/32}}`
 
-- Delete a static route:
+- Delete a rule based on packet destination addresses:
 
-`sudo ip {{[r|route]}} del {{destination_ip}} dev {{eth0}}`
+`sudo ip {{[ru|rule]}} {{[d|delete]}} to {{192.168.178.2/32}}`
 
-- Change or replace a static route:
+- Save all rules to a file:
 
-`sudo ip {{[r|route]}} {{change|replace}} {{destination_ip}} via {{gateway_ip}} dev {{eth0}}`
+`ip {{[ru|rule]}} {{[s|save]}} > {{path/to/ip_rules.dat}}`
 
-- Show which route will be used by the kernel to reach an IP address:
+- Flush all deleted rules:
 
-`ip {{[r|route]}} get {{destination_ip}}`
+`sudo ip {{[ru|rule]}} {{[f|flush]}}`
+
+- Restore all rules from a file:
+
+`sudo ip {{[ru|rule]}} {{[r|restore]}} < {{path/to/ip_rules.dat}}`
