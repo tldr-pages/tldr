@@ -176,7 +176,7 @@ git clone https://github.com/tldr-pages/tldr
 git tag -s vX.Y.Z
 ```
 
-> [!NOTE]
+> [!NOTE]\
 > Replace `X.Y.Z` with the client specification version.
 
 6. Verify the created signed tag's details using the command: 
