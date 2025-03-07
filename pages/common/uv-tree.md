@@ -13,7 +13,7 @@
 
 - Show dependency tree up to a certain depth:
 
-`uv tree {{-d|--depth}} {{n}}`
+`uv tree {{[-d|--depth]}} {{n}}`
 
 - Show the latest available version for all outdated packages:
 

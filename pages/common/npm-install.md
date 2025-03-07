@@ -17,4 +17,4 @@
 
 - Download the latest version of a package and install it globally:
 
-`npm install {{-g|--global}} {{package_name}}`
+`npm install {{[-g|--global]}} {{package_name}}`
