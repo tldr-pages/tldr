@@ -13,8 +13,8 @@
 
 - 사용자의 현재 상태 확인:
 
-`passwd {{-S|--status}}`
+`passwd {{[-S|--status]}}`
 
 - 계정의 비밀번호를 비워서 비밀번호 없이 설정:
 
-`passwd {{-d|--delete}}`
+`passwd {{[-d|--delete]}}`

@@ -9,7 +9,7 @@
 
 - Afficher l'historique de fichiers ou répertoires en particulier :
 
-`git log {{-p|-u|--patch}} {{chemin/vers/fichier_ou_repertoire}}`
+`git log {{[-p|--patch]}} {{chemin/vers/fichier_ou_repertoire}}`
 
 - Afficher la liste des fichiers modifiés pour chaque commit :
 
@@ -25,11 +25,11 @@
 
 - Afficher uniquement les commits dont le message contient la chaine (non sensible à la casse) :
 
-`git log {{-i|--regexp-ignore-case}} --grep {{chaine_recherché}}`
+`git log {{[-i|--regexp-ignore-case]}} --grep {{chaine_recherché}}`
 
 - Afficher les N derniers commits d'un utilisateur :
 
-`git log {{-n|--max-count}} {{number}} --author "{{author}}"`
+`git log {{[-n|--max-count]}} {{number}} --author "{{author}}"`
 
 - Afficher les commits entre deux dates (yyyy-mm-dd):
 

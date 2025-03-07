@@ -7,7 +7,7 @@
 
 `git maintenance register`
 
-- Schedule maintenance tasks on the current repository every hour:
+- Schedule maintenance tasks to run on the current repository every hour:
 
 `git maintenance start`
 
@@ -21,4 +21,4 @@
 
 - Run a specific maintenance task on the current repository:
 
-`git maintenance run --task={{commit-graph|gc|incremental-repack|loose-objects|pack-refs|prefetch}}`
+`git maintenance run --task {{commit-graph|gc|incremental-repack|loose-objects|pack-refs|prefetch}}`
