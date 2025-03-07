@@ -5,4 +5,4 @@
 
 - Fetch the values:
 
-`snmpget -v {{version}} -c {{community}} {{ip}}`
+`snmpstatus -v {{version}} -c {{community}} {{ip}}`
