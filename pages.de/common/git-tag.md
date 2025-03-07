@@ -17,15 +17,15 @@
 
 - Erstelle einen Tag mit Anmerkung:
 
-`git tag {{tag_name}} -m {{anmkerung}}`
+`git tag {{tag_name}} {{[-m|--message]}} {{anmkerung}}`
 
 - Lösche einen Tag mit bestimmten Namen:
 
-`git tag -d {{tag_name}}`
+`git tag {{[-d|--delete]}} {{tag_name}}`
 
 - Lade die aktualisierten Tags aus dem Upstream:
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
 - Liste alle Tags auf, bei denen sich in den vorangegangenen Commits ein bestimmter Commit findet:
 

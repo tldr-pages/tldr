@@ -20,9 +20,9 @@
 
 `zoxide add {{路径/到/目录}}`
 
-- 从 `zoxide` 的数据库中交互式地移除一个目录：
+- 从 `zoxide` 的数据库中移除一个目录：
 
-`zoxide remove {{路径/到/目录}} --interactive`
+`zoxide remove {{路径/到/目录}}`
 
 - 为命令别名生成 shell 配置（`z`, `za`, `zi`, `zq`, `zr`）：
 

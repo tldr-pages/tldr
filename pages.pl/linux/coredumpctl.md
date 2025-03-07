@@ -21,4 +21,4 @@
 
 - Wyodrębnij ostatni zrzut pamięci programu do pliku:
 
-`coredumpctl --output={{ścieżka/do/pliku}} dump {{program}}`
+`coredumpctl --output {{ścieżka/do/pliku}} dump {{program}}`

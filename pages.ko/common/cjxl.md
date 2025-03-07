@@ -14,4 +14,4 @@
 
 - 매우 상세한 도움말 페이지를 표시:
 
-`cjxl --help --verbose --verbose --verbose --verbose`
+`cjxl {{[-h -v -v -v -v|--help --verbose --verbose --verbose --verbose]}}`

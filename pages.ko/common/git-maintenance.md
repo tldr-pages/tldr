@@ -21,4 +21,4 @@
 
 - 현재 저장소에서 특정 유지 관리 작업 실행:
 
-`git maintenance run --task={{commit-graph|gc|incremental-repack|loose-objects|pack-refs|prefetch}}`
+`git maintenance run --task {{commit-graph|gc|incremental-repack|loose-objects|pack-refs|prefetch}}`
