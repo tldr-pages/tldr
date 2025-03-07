@@ -16,11 +16,11 @@
 
 `tail -c {{8}} {{pad/naar/bestand}}`
 
-- Toon de laatste regels van een bestand en blijf het bestand lezen tot `Ctrl + C`:
+- Toon de laatste regels van een bestand en blijf het bestand lezen tot `<Ctrl c>`:
 
 `tail -f {{pad/naar/bestand}}`
 
-- Blijf het bestand lezen tot `Ctrl + C`, ook als het bestand niet toegangelijk is:
+- Blijf het bestand lezen tot `<Ctrl c>`, ook als het bestand niet toegangelijk is:
 
 `tail -F {{pad/naar/bestand}}`
 

@@ -9,7 +9,7 @@
 
 - 모든 파일 추가 (추적된 파일 및 추적되지 않은 파일):
 
-`git add {{-A|--all}}`
+`git add {{[-A|--all]}}`
 
 - 현재 폴더의 모든 파일 추가:
 
@@ -17,20 +17,20 @@
 
 - 이미 추적된 파일만 추가:
 
-`git add {{-u|--update}}`
+`git add {{[-u|--update]}}`
 
 - 무시된 파일도 추가:
 
-`git add {{-f|--force}}`
+`git add {{[-f|--force]}}`
 
 - 파일의 일부를 대화식으로 스테이징:
 
-`git add {{-p|--patch}}`
+`git add {{[-p|--patch]}}`
 
 - 지정된 파일의 일부를 대화식으로 스테이징:
 
-`git add {{-p|--patch}} {{경로/대상/파일}}`
+`git add {{[-p|--patch]}} {{경로/대상/파일}}`
 
 - 파일을 대화식으로 스테이징:
 
-`git add {{-i|--interactive}}`
+`git add {{[-i|--interactive]}}`
