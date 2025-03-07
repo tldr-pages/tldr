@@ -21,4 +21,4 @@
 
 - Muestra información de ayuda sobre comandos interactivos:
 
-`?`
+`<?>`
