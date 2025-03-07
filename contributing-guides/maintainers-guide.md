@@ -180,8 +180,8 @@ git tag -s vX.Y.Z
 > Replace `X.Y.Z` with the client specification version.
 
 > [!TIP]\
-> If any commits are merged after client specification file's version bump commit and before tagging, when creating the tag
-> you can use the command: `git tag -s vX.Y.Z <commit hash>` i.e. `git tag -s v2.3 3b17800`.
+> If any commits are merged after the client specification file's version bump commit and before tagging, when creating the tag
+> you can use the command: `git tag -s vX.Y.Z <commit hash>` (i.e. `git tag -s v2.3 3b17800`) to tag a older commit.
 
 6. Verify the created signed tag's details using the command: 
 
