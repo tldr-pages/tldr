@@ -20,6 +20,6 @@
 
 `GetUserSPNs.py {{domain}}/{{username}}:{{password}} -dc-ip {{domain_controller_ip}} -request`
 
-- Enumerate SPNs without authentication:
+- Request only TGS tickets using pass-the-hash authentication:
 
-`GetUserSPNs.py {{domain}}/ -dc-ip {{domain_controller_ip}}`
+`GetUserSPNs.py {{domain}}/{{username}} -dc-ip {{domain_controller_ip}} -hashes {{LM_Hash}}:{{NT_Hash}} -request`
