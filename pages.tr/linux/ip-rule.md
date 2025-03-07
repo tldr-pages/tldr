@@ -5,32 +5,32 @@
 
 - Yönlendirme politikasını göster:
 
-`ip rule {{show|list}}`
+`ip {{[ru|rule]}} {{show|list}}`
 
 - Paket kaynak adreslerine dayalı yeni bir kural ekle:
 
-`sudo ip rule add from {{192.168.178.2/32}}`
+`sudo ip {{[ru|rule]}} add from {{192.168.178.2/32}}`
 
 - Paket hedef adreslerine dayalı yeni bir kural ekle:
 
-`sudo ip rule add to {{192.168.178.2/32}}`
+`sudo ip {{[ru|rule]}} add to {{192.168.178.2/32}}`
 
 - Paket kaynak adreslerine dayalı bir kuralı sil:
 
-`sudo ip rule delete from {{192.168.178.2/32}}`
+`sudo ip {{[ru|rule]}} delete from {{192.168.178.2/32}}`
 
 - Paket hedef adreslerine dayalı bir kuralı sil:
 
-`sudo ip rule delete to {{192.168.178.2/32}}`
+`sudo ip {{[ru|rule]}} delete to {{192.168.178.2/32}}`
 
 - Silinen tüm kuralları temizle:
 
-`ip rule flush`
+`ip {{[ru|rule]}} flush`
 
 - Tüm kuralları bir dosyaya kaydet:
 
-`ip rule save > {{ip_kuralları.dat/dosyasının/yolu}}`
+`ip {{[ru|rule]}} save > {{ip_kuralları.dat/dosyasının/yolu}}`
 
 - Tüm kuralları bir dosyadan geri yükle:
 
-`ip rule restore < {{ip_kuralları.dat/dosyasının/yolu}}`
+`ip {{[ru|rule]}} restore < {{ip_kuralları.dat/dosyasının/yolu}}`
