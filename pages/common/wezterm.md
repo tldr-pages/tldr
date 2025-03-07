@@ -7,11 +7,11 @@
 
 `wezterm`
 
-- Establish an ssh session:
+- Establish an `ssh` session:
 
-`wezterm ssh {{user@host:port}}`
+`wezterm ssh {{user}}@{{host}}:{{port}}`
 
-- Connect to wezterm multiplexer:
+- Connect to the multiplexer (`wezterm-mux-server`):
 
 `wezterm connect {{domain_name}}`
 
@@ -19,7 +19,7 @@
 
 `wezterm imgcat {{path/to/image}}`
 
-- Record a terminal session as an asciicat (by default recordings are found in /tmp):
+- Record a terminal session as an asciicat (by default recordings are found in `/tmp`):
 
 `wezterm record`
 
@@ -27,7 +27,7 @@
 
 `wezterm replay {{path/to/cast_file}}`
 
-- Specify the configuration file to use, overrides the normal configuration file resolution:
+- Specify the configuration file to use (overrides the normal configuration file resolution):
 
 `wezterm --config-file {{path/to/config_file}}`
 
