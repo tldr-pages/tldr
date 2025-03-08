@@ -1,8 +1,8 @@
 # composer audit
 
-> Analyze a PHP project's dependencies to detect known security vulnerabilities and lists affected packages.
+> Analyze a PHP project's dependencies to detect known security vulnerabilities and list affected packages.
 > See also: `composer`.
-> More information: <https://getcomposer.org/doc/03-cli.md#audit/>.
+> More information: <https://getcomposer.org/doc/03-cli.md#audit>.
 
 - Check for security vulnerabilities in your current project:
 
@@ -14,12 +14,12 @@
 
 - Filter vulnerabilities by output format:
 
-`composer audit --format={{table|plain|json|summary}}`
+`composer audit --format {{table|plain|json|summary}}`
 
 - Output audit results to a file in JSON format:
 
-`composer audit --format=json > audit_report.json`
+`composer audit --format json > audit_report.json`
 
 - Verify whether a specific package in your project is affected by security issues:
 
-`composer audit {{vendor/package}}`
+`composer audit {{vendor}}/{{package}}`
