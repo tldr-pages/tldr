@@ -18,8 +18,8 @@
 
 - Display help for `crane registry`:
 
-`crane registry {{-h|--help}}`
+`crane registry {{[-h|--help]}}`
 
 - Display help for `crane registry serve`:
 
-`crane registry serve {{-h|--help}}`
+`crane registry serve {{[-h|--help]}}`
