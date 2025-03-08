@@ -22,7 +22,7 @@
 
 - Sign an EFI binary with the created key and save the file to the database:
 
-`sbctl sign {{-s|--save}} {{path/to/efi_binary}}`
+`sbctl sign {{[-s|--save]}} {{path/to/efi_binary}}`
 
 - Re-sign all the saved files:
 

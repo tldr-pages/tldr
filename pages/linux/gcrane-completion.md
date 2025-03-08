@@ -34,4 +34,4 @@
 
 - Display help:
 
-`gcrane completion {{shell_name}} {{-h|--help}}`
+`gcrane completion {{shell_name}} {{[-h|--help]}}`
