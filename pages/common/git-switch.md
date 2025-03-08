@@ -10,11 +10,11 @@
 
 - Create a new branch and switch to it:
 
-`git switch --create {{branch_name}}`
+`git switch {{[-c|--create]}} {{branch_name}}`
 
 - Create a new branch based on an existing commit and switch to it:
 
-`git switch --create {{branch_name}} {{commit}}`
+`git switch {{[-c|--create]}} {{branch_name}} {{commit}}`
 
 - Switch to the previous branch:
 
@@ -26,4 +26,4 @@
 
 - Switch to a branch and automatically merge the current branch and any uncommitted changes into it:
 
-`git switch --merge {{branch_name}}`
+`git switch {{[-m|--merge]}} {{branch_name}}`
