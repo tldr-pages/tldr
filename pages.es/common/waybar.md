@@ -9,12 +9,12 @@
 
 - Usa un archivo de configuración diferente:
 
-`waybar {{-c|--config}} {{ruta/a/archivo_de_configuración.jsonc}}`
+`waybar {{[-c|--config]}} {{ruta/a/archivo_de_configuración.jsonc}}`
 
 - Utiliza un archivo de hoja de estilo diferente:
 
-`waybar {{-s|--style}} {{ruta/a/hoja_de_estilo.css}}`
+`waybar {{[-s|--style]}} {{ruta/a/hoja_de_estilo.css}}`
 
 - Establece el nivel de registro:
 
-`waybar {{-l|--log-level}} {{trace|debug|info|warning|error|critical|off}}`
+`waybar {{[-l|--log-level]}} {{trace|debug|info|warning|error|critical|off}}`
