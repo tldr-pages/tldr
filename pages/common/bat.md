@@ -18,20 +18,20 @@
 
 - Highlight a specific line or a range of lines with a different background color:
 
-`bat {{-H|--highlight-line}} {{10|5:10|:10|10:|10:+5}} {{path/to/file}}`
+`bat {{[-H|--highlight-line]}} {{10|5:10|:10|10:|10:+5}} {{path/to/file}}`
 
 - Show non-printable characters like space, tab or newline:
 
-`bat {{-A|--show-all}} {{path/to/file}}`
+`bat {{[-A|--show-all]}} {{path/to/file}}`
 
 - Remove all decorations except line numbers in the output:
 
-`bat {{-n|--number}} {{path/to/file}}`
+`bat {{[-n|--number]}} {{path/to/file}}`
 
 - Syntax highlight a JSON file by explicitly setting the language:
 
-`bat {{-l|--language}} json {{path/to/file.json}}`
+`bat {{[-l|--language]}} json {{path/to/file.json}}`
 
 - Display all supported languages:
 
-`bat {{-L|--list-languages}}`
+`bat {{[-L|--list-languages]}}`
