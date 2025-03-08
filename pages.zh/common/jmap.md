@@ -9,7 +9,7 @@
 
 - 打印堆摘要信息：
 
-`jmap -heap {{Java 进程号}}`
+`jmap -heap {{文件名.jar}} {{Java 进程号}}`
 
 - 按类型打印堆使用的直方图：
 
@@ -17,4 +17,8 @@
 
 - 将堆的内容转储到二进制文件中以使用 jhat 进行分析：
 
-`jmap -dump:format=b,file={{导出文件名}} {{Java 进程号}}`
+`jmap -dump:format=b,file={{路径/到/文件}} {{Java 进程号}}`
+
+- 将堆中存活的对象转储到二进制文件中以使用 jhat 进行分析：
+
+`jmap -dump:live,format=b,file={{路径/到/文件}} {{Java 进程号}}`

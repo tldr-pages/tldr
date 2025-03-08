@@ -1,7 +1,7 @@
 # pw-loopback
 
 > Ferramenta para Cria dispositivos de loopback no PipeWire.
-> Mais informações: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
+> Mais informações: <https://docs.pipewire.org/page_man_pw-loopback_1.html>.
 
 - Cria um dispositivo de loopback com o comportamento padrão de loopback:
 

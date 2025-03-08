@@ -18,3 +18,11 @@
 - Reset all modes to reasonable values for the current terminal:
 
 `stty sane`
+
+- Switch between raw and normal mode:
+
+`stty {{raw|cooked}}`
+
+- Turn character echoing off or on:
+
+`stty {{-echo|echo}}`

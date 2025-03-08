@@ -15,7 +15,3 @@
 - Stel een login[s]hell in voor een specifieke gebruiker:
 
 `sudo chsh --shell {{pad/naar/shell}} {{gebruikersnaam}}`
-
-- Toon ([l]) beschikbare shells:
-
-`chsh --list-shells`

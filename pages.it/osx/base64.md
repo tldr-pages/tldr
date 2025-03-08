@@ -5,11 +5,11 @@
 
 - Codifica un file:
 
-`base64 --input={{file_da_codificare}}`
+`base64 {{[-i|--input]}} {{file_da_codificare}}`
 
 - Decodifica un file:
 
-`base64 --decode --input={{file_da_decodificare}}`
+`base64 {{[-d|--decode]}} {{[-i|--input]}} {{file_da_decodificare}}`
 
 - Codifica da `stdin`:
 
@@ -17,4 +17,4 @@
 
 - Decodifica da `stdin`:
 
-`echo -n {{testo_da_decodificare}} | base64 --decode`
+`echo -n {{testo_da_decodificare}} | base64 {{[-d|--decode]}}`

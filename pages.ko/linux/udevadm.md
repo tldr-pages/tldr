@@ -21,7 +21,7 @@
 
 - 모든 `udev` 규칙 다시 로드:
 
-`sudo udevadm control --reload-rules`
+`sudo udevadm control --reload`
 
 - 모든 `udev` 규칙 실행 트리거:
 

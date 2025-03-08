@@ -9,12 +9,18 @@ Disclaimer: This script generates a lot of false positives so it isn't suggested
 Note: If the current directory or one of its parents is called "tldr", the script will assume it is the tldr root, i.e., the directory that contains a clone of https://github.com/tldr-pages/tldr
 If you aren't, the script will use TLDR_ROOT as the tldr root. Also, ensure 'git' is available.
 
+Note: This script uses an interactive prompt instead of positional arguments to:
+- Prevent argument parsing errors with command names containing dashes (e.g. 'pacman -S')
+- Provide clearer guidance for required inputs
+- Allow for input validation before page creation
+
 Usage:
-    python3 scripts/set-alias-page.py [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n] [COMMAND]
+    python3 scripts/set-alias-page.py [-p PAGE] [-S] [-l LANGUAGE] [-s] [-n]
 
 Options:
     -p, --page PAGE
         Specify the alias page in the format "platform/alias_command.md".
+        This will start an interactive prompt to create/update the page.
     -S, --sync
         Synchronize each translation's alias page (if exists) with that of the English page.
     -l, --language LANGUAGE
@@ -24,13 +30,11 @@ Options:
     -n, --dry-run
         Show what changes would be made without actually modifying the page.
 
-Positional Argument:
-    COMMAND          The command to be set as the alias command.
-
 Examples:
-    1. Add 'vi' as an alias page of 'vim':
-       python3 scripts/set-alias-page.py -p common/vi vim
-       python3 scripts/set-alias-page.py --page common/vi vim
+    1. Create a new alias page interactively:
+       python3 scripts/set-alias-page.py -p osx/gsum
+       python3 scripts/set-alias-page.py --page osx/gsum
+       This will start a wizard that guides you through creating the page.
 
     2. Read English alias pages and synchronize them into all translations:
        python3 scripts/set-alias-page.py -S
@@ -51,6 +55,7 @@ Examples:
 
 import re
 from pathlib import Path
+from dataclasses import dataclass
 from _common import (
     IGNORE_FILES,
     Colors,
@@ -63,6 +68,35 @@ from _common import (
     create_colored_line,
     create_argument_parser,
 )
+
+
+@dataclass
+class Config:
+    """Global configuration for the script"""
+
+    root: Path
+    pages_dirs: list[Path]
+    templates: dict[str, str]
+    dry_run: bool = False
+    language: str = ""
+
+
+@dataclass
+class AliasPageContent:
+    """Content of an alias page"""
+
+    title: str
+    original_command: str
+    documentation_command: str
+
+
+@dataclass
+class AliasPage:
+    """Represents an alias page with its path and content"""
+
+    page_path: str
+    content: AliasPageContent
+
 
 IGNORE_FILES += ("tldr.md", "aria2.md")
 
@@ -83,10 +117,10 @@ def get_templates(root: Path):
     TLDR_ROOT/contributing-guides/translation-templates/alias-pages.md.
 
     Parameters:
-    root (Path): The path of local tldr repository, i.e., TLDR_ROOT.
+        root (Path): The path of local tldr repository, i.e., TLDR_ROOT.
 
     Returns:
-    dict of (str, str): Language labels map to alias page templates.
+        dict of (str, str): Language labels map to alias page templates.
     """
 
     template_file = root / "contributing-guides/translation-templates/alias-pages.md"
@@ -121,177 +155,342 @@ def get_templates(root: Path):
     return templates
 
 
+def generate_alias_page_content(
+    template_content: str,
+    page_content: AliasPageContent,
+) -> str:
+    """
+    Generate alias page content by replacing placeholders in the template.
+
+    Parameters:
+        template_content (str): The markdown template for the specific language.
+        page_content (AliasPageContent): The content of the alias page
+
+    Returns:
+        str: The complete markdown content for the alias page.
+    """
+
+    template_command = "example"
+
+    # Replace placeholders in template with actual values
+    result = template_content.replace(template_command, page_content.title, 1)
+    result = result.replace(template_command, page_content.original_command, 1)
+    result = result.replace(template_command, page_content.documentation_command)
+
+    return result
+
+
 def set_alias_page(
-    path: Path, command: str, dry_run: bool = False, language_to_update: str = ""
+    path: Path,
+    page_content: AliasPageContent,
 ) -> str:
     """
     Write an alias page to disk.
 
     Parameters:
-    path (string): Path to an alias page
-    command (string): The command that the alias stands for.
-    dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
-    language_to_update (string): Optionally, the language of the translation to be updated.
+        path (Path): Path to an alias page
+        page_content (AliasPageContent): The content to write to the page
 
     Returns:
-    str: Execution status
-         "" if the alias page standing for the same command already exists or if the locale does not match language_to_update.
-         "\x1b[36mpage added"
-         "\x1b[34mpage updated"
-         "\x1b[36mpage would be added"
-         "\x1b[34mpage would updated"
+        str: Execution status
+             "" if the alias page standing for the same command already exists or if the locale does not match language_to_update.
+             "\x1b[36mpage added"
+             "\x1b[34mpage updated"
+             "\x1b[36mpage would be added"
+             "\x1b[34mpage would updated"
     """
 
     locale = get_locale(path)
-    if locale not in templates or (
-        language_to_update != "" and locale != language_to_update
+    if locale not in config.templates or (
+        config.language != "" and locale != config.language
     ):
-        # return empty status to indicate that no changes were made
         return ""
 
-    alias_name = path.stem
-    text = (
-        templates[locale].replace("example", alias_name, 1).replace("example", command)
+    # Get existing alias command from the locale page
+    existing_locale_page_content = get_alias_command_in_page(
+        path, get_locale_alias_pattern(locale)
     )
 
-    # Test if the alias page already exists
-    line = re.search(r">.*", text).group(0).replace(command, "(.+)")
-    original_command = get_alias_page(path, line)
-    if original_command == command:
+    if (
+        existing_locale_page_content.documentation_command
+        == page_content.documentation_command
+    ):
         return ""
 
+    new_locale_page_content = generate_alias_page_content(
+        config.templates[locale],
+        page_content,
+    )
+
+    # Determine status and write file
     status = get_status(
-        "added" if original_command == "" else "updated", dry_run, "page"
+        "added" if not path.exists() else "updated",
+        config.dry_run,
+        "page",
     )
 
-    if not dry_run:  # Only write to the path during a non-dry-run
+    if not config.dry_run:
         path.parent.mkdir(parents=True, exist_ok=True)
         with path.open("w", encoding="utf-8") as f:
-            f.write(text)
+            f.write(new_locale_page_content)
 
     return status
 
 
-def get_alias_page(path: Path, regex: str) -> str:
+def get_locale_alias_pattern(locale: str) -> str:
+    """Get alias pattern from template"""
+
+    template_line = re.search(r">.*`example`", config.templates[locale]).group(0)
+    locale_alias_pattern = template_line[2 : template_line.find("`example`")].strip()
+    return locale_alias_pattern
+
+
+def get_alias_command_in_page(path: Path, alias_pattern: str) -> AliasPageContent:
     """
     Determine whether the given path is an alias page.
 
-    Parameters:
-    path (Path): Path to a page
-
     Returns:
-    str: "" If the path doesn't exit or is not an alias page,
-         otherwise return what command the alias stands for.
+        AliasPageContent: The page content, or empty strings if not an alias page
     """
 
     if not path.exists():
-        return ""
-
-    command_count = 0
-    command_name = ""
+        return AliasPageContent(title="", original_command="", documentation_command="")
 
     with path.open(encoding="utf-8") as f:
-        for line in f:
-            # match alias page pattern "> This command is an alias of `example`."
-            if match := re.search(regex, line):
-                command_name = match[1]
-            # count the lines matching pattern "`...`"
-            if re.match(r"^`[^`]+`$", line.strip()):
-                command_count += 1
+        content = f.read()
 
-    if command_count == 1:
-        return command_name
-    return ""
+    lines = content.splitlines()
+
+    title = next((line.strip("# \n") for line in lines if line.startswith("# ")), "")
+
+    command_lines = [line for line in lines if "`" in line]
+
+    if len(command_lines) != 2 or not title:
+        return AliasPageContent(title="", original_command="", documentation_command="")
+
+    original_command = ""
+    documentation_command = ""
+
+    alias_line = next((line for line in command_lines if alias_pattern in line), None)
+    if alias_line:
+        description_match = re.search(r"`([^`]+)`", alias_line)
+        if description_match:
+            original_command = description_match[1]
+
+    tldr_line = next(
+        (line for line in command_lines if line.strip().startswith("`tldr")), None
+    )
+    if tldr_line:
+        tldr_match = re.search(r"`tldr (.+)`", tldr_line.strip())
+        if tldr_match:
+            documentation_command = tldr_match[1]
+
+    return AliasPageContent(
+        title=title,
+        original_command=original_command,
+        documentation_command=documentation_command,
+    )
 
 
-def sync(
-    root: Path,
-    pages_dirs: list[Path],
-    alias_name: str,
-    original_command: str,
-    dry_run: bool = False,
-    language_to_update: str = "",
-) -> list[Path]:
+def sync_alias_page_to_locale(pages_dir: Path, alias_page: AliasPage) -> list[Path]:
     """
-    Synchronize an alias page into all translations.
+    Synchronize an alias page into a specific locale directory.
 
     Parameters:
-    root (Path): TLDR_ROOT
-    pages_dirs (list of Path's): Path's of page entry and platform, e.g. "page.fr/common".
-    alias_name (str): An alias command with .md extension like "vi.md".
-    original_command (str): An Original command like "vim".
-    dry_run (bool): Whether to perform a dry-run, i.e. only show the changes that would be made.
-    language_to_update (str): Optionally, the language of the translation to be updated.
+        pages_dir (Path): Directory containing pages for a specific locale
+        alias_page (AliasPage): The alias page to sync
 
     Returns:
-    list (list of Path's): A list of Path's to be staged into git, using by --stage option.
+        list[Path]: List of paths that were modified
     """
+
     paths = []
-    for page_dir in pages_dirs:
-        path = root / page_dir / alias_name
-        status = set_alias_page(path, original_command, dry_run, language_to_update)
-        if status != "":
-            rel_path = "/".join(path.parts[-3:])
-            paths.append(rel_path)
-            print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
+    path = config.root / pages_dir / alias_page.page_path
+    status = set_alias_page(path, alias_page.content)
+    if status != "":
+        rel_path = "/".join(path.parts[-3:])
+        paths.append(rel_path)
+        print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
     return paths
+
+
+def get_english_alias_pages(en_path: Path) -> list[AliasPage]:
+    """
+    Get all English alias pages with their commands.
+
+    Parameters:
+        en_path (Path): Path to English pages directory
+
+    Returns:
+        list[AliasPage]: List of alias pages with their content
+    """
+
+    alias_pages = []
+    alias_pattern = get_locale_alias_pattern("en")
+
+    # Get all platform directories (common, linux, etc.)
+    platforms = [
+        page.name for page in en_path.iterdir() if page.name not in IGNORE_FILES
+    ]
+
+    # Iterate through each platform
+    for platform in platforms:
+        platform_path = en_path / platform
+        page_paths = [
+            f"{platform}/{page.name}"
+            for page in platform_path.iterdir()
+            if page.name not in IGNORE_FILES
+        ]
+
+        # Check each command if it's an alias
+        for page_path in page_paths:
+            page_content = get_alias_command_in_page(en_path / page_path, alias_pattern)
+            if page_content.original_command:
+                alias_pages.append(AliasPage(page_path=page_path, content=page_content))
+
+    return alias_pages
+
+
+def prompt_alias_page_info(page_path: str) -> AliasPageContent:
+    """
+    Prompt user for alias page content.
+
+    Returns:
+        AliasPageContent: The collected page content
+    """
+
+    en_path = config.root / "pages"
+    if not page_path.lower().endswith(".md"):
+        page_path = f"{page_path}.md"
+    exists = (en_path / page_path).exists()
+
+    print(f"\n{'Updating' if exists else 'Creating new'} alias page...")
+    print(create_colored_line(Colors.CYAN, f"Page path: {page_path}"))
+
+    print(
+        create_colored_line(
+            Colors.BLUE,
+            "\nThe title will be used in the first line of the page after '#'",
+        )
+    )
+    print(create_colored_line(Colors.GREEN, "Example: npm run-script"))
+    title = input(create_colored_line(Colors.CYAN, "Enter page title: ")).strip()
+    if not title:
+        raise SystemExit(create_colored_line(Colors.RED, "Title cannot be empty"))
+
+    print(
+        create_colored_line(
+            Colors.BLUE,
+            "\nThe original command will appear in 'This command is an alias of `command`'",
+        )
+    )
+    print(create_colored_line(Colors.GREEN, "Example: npm run"))
+    original_command = input(
+        create_colored_line(Colors.CYAN, "Enter original command: ")
+    ).strip()
+    if not original_command:
+        raise SystemExit(
+            create_colored_line(Colors.RED, "Original command cannot be empty")
+        )
+
+    print(
+        create_colored_line(
+            Colors.BLUE,
+            "\nThe documentation command will be used in 'tldr command' line",
+        )
+    )
+    print(create_colored_line(Colors.GREEN, "Example: npm run"))
+    documentation_command = input(
+        create_colored_line(
+            Colors.CYAN,
+            f"Enter documentation command (press Enter to use {original_command}): ",
+        )
+    ).strip()
+
+    if not documentation_command:
+        documentation_command = original_command
+
+    print("\nSummary:")
+    print(f"* Title: {create_colored_line(Colors.CYAN, title)}")
+    print(f"* Original command: {create_colored_line(Colors.CYAN, original_command)}")
+    print(
+        f"* Documentation command: {create_colored_line(Colors.CYAN, documentation_command)}"
+    )
+
+    print(create_colored_line(Colors.BLUE, "\nThis will create a page like:"))
+    print(create_colored_line(Colors.GREEN, f"# {title}"))
+    print(
+        create_colored_line(
+            Colors.GREEN, f"\n> This command is an alias of `{original_command}`."
+        )
+    )
+    print(
+        create_colored_line(
+            Colors.GREEN, "\n- View documentation for the original command:"
+        )
+    )
+    print(create_colored_line(Colors.GREEN, f"\n`tldr {documentation_command}`"))
+
+    response = (
+        input(create_colored_line(Colors.CYAN, "\nProceed? [Y/n] ")).lower().strip()
+    )
+    if response and response not in ["y", "yes"]:
+        raise SystemExit(create_colored_line(Colors.RED, "Cancelled by user"))
+
+    return AliasPageContent(
+        title=title,
+        original_command=original_command,
+        documentation_command=documentation_command,
+    )
 
 
 def main():
     parser = create_argument_parser(
         "Sets the alias page for all translations of a page"
     )
-    parser.add_argument("command", type=str, nargs="?", default="")
     args = parser.parse_args()
-
     root = get_tldr_root()
-
-    # A dictionary of all alias page translations
-    global templates
-    templates = get_templates(root)
     pages_dirs = get_pages_dir(root)
+    templates = get_templates(root)
+
+    global config
+    config = Config(
+        root=root,
+        pages_dirs=pages_dirs,
+        templates=templates,
+        dry_run=args.dry_run,
+        language=args.language,
+    )
 
     target_paths = []
 
     # Use '--page' option
     if args.page != "":
-        target_paths += get_target_paths(args.page, pages_dirs)
+        page_info = prompt_alias_page_info(args.page)
+        target_paths += get_target_paths(
+            args.page, config.pages_dirs, check_exists=False
+        )
 
         for path in target_paths:
             rel_path = "/".join(path.parts[-3:])
-            status = set_alias_page(path, args.command, args.dry_run, args.language)
+            status = set_alias_page(path, page_info)
             if status != "":
                 print(create_colored_line(Colors.GREEN, f"{rel_path} {status}"))
 
     # Use '--sync' option
     elif args.sync:
-        pages_dirs.remove(root / "pages")
-        en_path = root / "pages"
-        platforms = [i.name for i in en_path.iterdir() if i.name not in IGNORE_FILES]
-        for platform in platforms:
-            platform_path = en_path / platform
-            commands = [
-                f"{platform}/{page.name}"
-                for page in platform_path.iterdir()
-                if page.name not in IGNORE_FILES
-            ]
-            for command in commands:
-                original_command = get_alias_page(
-                    root / "pages" / command,
-                    r"^> This command is an alias of `(.+)`\.$",
-                )
-                if original_command != "":
-                    target_paths += sync(
-                        root,
-                        pages_dirs,
-                        command,
-                        original_command,
-                        args.dry_run,
-                        args.language,
-                    )
+        en_path = config.root / "pages"
+        pages_dirs = config.pages_dirs.copy()
+        pages_dirs.remove(en_path)
+
+        alias_pages = get_english_alias_pages(en_path)
+
+        for alias_page in alias_pages:
+            for pages_dir in pages_dirs:
+                target_paths.extend(sync_alias_page_to_locale(pages_dir, alias_page))
 
     # Use '--stage' option
-    if args.stage and not args.dry_run and len(target_paths) > 0:
+    if args.stage and not config.dry_run and len(target_paths) > 0:
         stage(target_paths)
 
 

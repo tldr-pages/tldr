@@ -15,7 +15,3 @@
 - Set a login [s]hell for a specific user:
 
 `sudo chsh --shell {{path/to/shell}} {{username}}`
-
-- [l]ist available shells:
-
-`chsh --list-shells`

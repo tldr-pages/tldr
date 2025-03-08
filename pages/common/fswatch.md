@@ -17,4 +17,4 @@
 
 - Filter by event type:
 
-`fswatch --event {{Updated|Deleted|Created}} {{path/to/directory}} | xargs -n 1 {{bash_command}}`
+`fswatch --event {{Updated|Removed|Created|...}} {{path/to/directory}} | xargs -n 1 {{bash_command}}`

@@ -8,9 +8,9 @@
 
 `kill {{proces_id}}`
 
-- Toon signaalwaarden en hun overeenkomstige namen (te gebruiken zonder het `SIG` voorvoegsel):
+- Toon signaalwaarden en hun overeenkomstige namen (te gebruiken zonder het `SIG` voorvoegsel). De beschikbare opties kunnen afhangen van de implementatie van `kill`:
 
-`kill -L`
+`kill {{-l|-L|--table}}`
 
 - Beëindig een achtergrondtaak:
 
