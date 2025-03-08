@@ -13,11 +13,11 @@
 
 - Assign a VLAN to a port:
 
-`bridge {{[v|vlan]}} add dev {{lanX}} vid {{vlan_id}} pvid {{tagged|untagged}}`
+`sudo bridge {{[v|vlan]}} {{[a|add]}} dev {{lanX}} vid {{vlan_id}} pvid {{tagged|untagged}}`
 
 - Remove a VLAN from a port:
 
-`bridge {{[v|vlan]}} del dev {{lanX}} vid {{vlan_id}}`
+`sudo bridge {{[v|vlan]}} {{[d|delete]}} dev {{lanX}} vid {{vlan_id}}`
 
 - Watch for changes in bridge interfaces:
 
