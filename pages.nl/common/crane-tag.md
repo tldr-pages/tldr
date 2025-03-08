@@ -10,4 +10,4 @@
 
 - Toon de help:
 
-`crane tag {{-h|--help}}`
+`crane tag {{[-h|--help]}}`

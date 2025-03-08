@@ -9,11 +9,11 @@
 
 - Ajuste la salida codificada en un ancho específico (`0` deshabilita el ajuste):
 
-`base64 {{-w|--wrap}} {{0|76|...}} {{ruta/al/archivo}}`
+`base64 {{[-w|--wrap]}} {{0|76|...}} {{ruta/al/archivo}}`
 
 - Decodifica un archivo:
 
-`base64 {{-d|--decode}} {{ruta/al/archivo}}`
+`base64 {{[-d|--decode]}} {{ruta/al/archivo}}`
 
 - Codifica `stdin`:
 
@@ -21,4 +21,4 @@
 
 - Decodifica `stdin`:
 
-`{{comando}} | base64 {{-d|--decode}}`
+`{{comando}} | base64 {{[-d|--decode]}}`
