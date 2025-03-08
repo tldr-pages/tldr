@@ -14,7 +14,7 @@
 
 - Force an automatic fix to dependencies with vulnerabilities:
 
-`npm audit fix {{-f|--force}}`
+`npm audit fix {{[-f|--force]}}`
 
 - Update the lock file without modifying the `node_modules` directory:
 
