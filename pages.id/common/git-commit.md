@@ -5,19 +5,19 @@
 
 - Komit berkas bertahap ke repositori dengan sebuah pesan:
 
-`git commit --message "{{pesan}}"`
+`git commit {{[-m|--message]}} "{{pesan}}"`
 
 - Komit berkas bertahap dengan pesan yang disimpan dalam suatu berkas:
 
-`git commit --file {{jalan/menuju/berkas_pesan_komit}}`
+`git commit {{[-F|--file]}} {{jalan/menuju/berkas_pesan_komit}}`
 
 - Ubah secara otomatis semua berkas yang dimodifikasi menjadi ke status stage dan menambahkan sebuah pesan:
 
-`git commit --all --message "{{pesan}}"`
+`git commit {{[-a|--all]}} {{[-m|--message]}} "{{pesan}}"`
 
 - Komit berkas bertahap kemudian tandatangani komit tersebut menggunakan kunci GPG (atau kunci yang didefinisikan dalam berkas konfigurasi jika tidak didefinisikan):
 
-`git commit --gpg-sign {{id_kunci_gpg}} --message "{{pesan}}"`
+`git commit {{[-S|--gpg-sign]}} {{id_kunci_gpg}} {{[-m|--message]}} "{{pesan}}"`
 
 - Ganti komit terakhir dengan perubahan yang ada di status stage saat ini:
 
@@ -29,4 +29,4 @@
 
 - Buat komit kosong, tanpa berkas bertahap:
 
-`git commit --message "{{pesan}}" --allow-empty`
+`git commit {{[-m|--message]}} "{{pesan}}" --allow-empty`
