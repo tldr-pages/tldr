@@ -18,15 +18,15 @@
 
 - Crea un tag annotandolo con un messaggio:
 
-`git tag {{nome_tag}} -m {{messaggio_tag}}`
+`git tag {{nome_tag}} {{[-m|--message]}} {{messaggio_tag}}`
 
 - Cancella un tag, dato il suo nome:
 
-`git tag -d {{nome_tag}}`
+`git tag {{[-d|--delete]}} {{nome_tag}}`
 
 - Scarica tag aggiornati da upstream:
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
 - Mostra tutti i tag i cui predecessori includono uno specifico commit:
 

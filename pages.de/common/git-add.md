@@ -9,24 +9,24 @@
 
 - Füge alle Dateien zum Index hinzu (nachverfolgte und nicht nachverfolgte):
 
-`git add -A`
+`git add {{[-A|--all]}}`
 
 - Füge nur nachverfolgte Dateien zum Index hinzu (Updaten des Index):
 
-`git add -u`
+`git add {{[-u|--update]}}`
 
 - Füge auch Dateien, welche ignoriert werden (`.gitignore`) hinzu:
 
-`git add -f`
+`git add {{[-f|--force]}}`
 
 - Füge Teile von Dateien zum Index interaktiv hinzu:
 
-`git add -p`
+`git add {{[-p|--patch]}}`
 
 - Füge Teile einer bestimmten Datei interaktiv hinzu:
 
-`git add -p {{pfad/zu/datei}}`
+`git add {{[-p|--patch]}} {{pfad/zu/datei}}`
 
 - Füge Dateien zum Index interaktiv hinzu:
 
-`git add -i`
+`git add {{[-i|--interactive]}}`

@@ -228,7 +228,7 @@ In the following case `just.md` is the filename of the disambiguation page while
 
 ### Grouping commands
 
-Sometimes commands are meant to be used in combination with other commands. In these cases it makes sense to move them on the same page. 
+Sometimes commands are meant to be used in combination with other commands. In these cases it makes sense to move them on the same page.
 
 For example `adb disconnect` has a single way using it, but `adb` is expansive enough that it doesn't fit in the main page. Normally, `adb disconnect` is used in combination with `adb pair` and `adb connect`, thus it makes sense to group these together into a single page. For example:
 
@@ -389,10 +389,7 @@ It should instead be simplified to make it easier for everyone to read:
 
 - Proper names should be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
 - Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
-- When documenting keycaps or a keyboard shortcut for a utility, make it stand out in the description:
-
-1. If it is not translatable, enclose it with backticks (i.e. ``Print the last lines of a given file and keep reading it until `Ctrl + C`:``)
-2. If it is translatable, enclose it with double angled brackets inside a placeholder (i.e. ``:wq{{<<Enter>>}}``).
+- When documenting keycaps or a keyboard shortcut for a utility, use the same [keypress syntax](#keypress-syntax) as in example commands. Make sure to enclose it in backticks so that it is not invisible to markdown renderers (i.e. ``Print the last lines of a given file and keep reading it until `<Ctrl c>`:``).
 
 ### Short option mnemonics
 
@@ -484,18 +481,26 @@ Keep the following guidelines in mind when choosing placeholders:
 
 - If a command can optionally take 1 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
   For instance, if multiple paths are expected, use `{{path/to/directory1 path/to/directory2 ...}}`.
-- If a command can optionally take 1 or more arguments of different kinds, use an ellipsis: `{{placeholder1|placeholder2|...}}`.
-  If there are more than 5 possible values, you can use `|...` after the last item.
-- It's impossible to restrict the minimum or (and) maximum placeholder count via `ellipsis`.
-
-It's up to the program to decide how to handle duplicating values, provided syntax
-tells no info about whether items are mutually exclusive or not.
+- If only one of the multiple options is possible, write it as: `{{placeholder1|placeholder2|placeholder3}}`. If there are more than 4 possible values, you can use `|...` after the last item.
 
 #### Optional placeholders
 
 When documenting optional placeholders like paths or file extensions, it is suggested to specify them in the page or example descriptions instead of the placeholder itself. For example:
 
 - Use `{{path/to/source.ext}}` instead of `{{path/to/source.tar[.gz|.bz2|.xz]}}`.
+
+### Keypress syntax
+
+To mark keypresses for TUI or GUI programs, use angle brackets `<` and `>`.
+
+- Single character example: `<a>`.
+- Special keys are to be written with [`PascalCase`](https://www.theserverside.com/definition/Pascal-case): `<Ctrl>`, `<Super>`, `<Alt>`, `<Shift>`, `<Cmd>`, `<Option>`, `<Windows>`, `<Enter>`, `<Home>`, `<Space>`, `<Esc>`, `<ArrowUp>`, `<ArrowLeft>`, `<ArrowKeys>`, `<PageUp>`, `<F5>`, `<F12>`, `<LeftClick>`, `<MiddleClick>`, ...
+- When writing simultaneous keypresses, keep the following order: `<Ctrl>` -> `<Super>` / `<Windows>` -> `<Alt>` -> `<AltGr>` -> `<Shift>` -> everything else.
+- Special keys can be translated if they have culturally relevant translations.
+- When a program takes in uppercase character literals mark them as `<A>` instead of marking it with shift. Otherwise always mark characters in lowercase.
+- Mark simultaneous keypresses inside the same angle brackets separated by a single space:  `<Ctrl c>`, `<Alt F4>`, `<Ctrl Shift k>`, `<Super Shift PrtSc>`.
+- Consecutive keypresses need to be contained in their own angle brackets with no space in between: `<Esc><u>`, `<Ctrl k><Ctrl s>`, `<Enter><~><.>`, `<d><o>`.
+- Keys that are typed into a prompt do not need to be marked as keypresses: `<:>help<Enter>`. Note that the context switching keypress is marked in angle brackets despite printing on the prompt.
 
 ### Help and version commands
 
