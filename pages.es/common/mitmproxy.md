@@ -12,13 +12,13 @@
 
 `mitmproxy --listen-host {{dirección_ip}} {{[-p|--listen-port]}} {{puerto}}`
 
-- Inicia `mitmproxy` utilizando un script para procesar el tráfico:
+- Inicia `mitmproxy` utilizando un secuencia de comandos para procesar el tráfico:
 
 `mitmproxy {{[-s|--scripts]}} {{ruta/a/script.py}}`
 
 - Exporta los registros con las claves maestras SSL/TLS a programas externos (wireshark, etc.):
 
-`SSLKEYLOGFILE="{{ruta/a/archivo}}" mitmproxy`
+`SSLKEYLOGFILE="{{ruta/al/archivo}}" mitmproxy`
 
 - Especifica el modo de funcionamiento del servidor proxy (`regular` es el predeterminado):
 

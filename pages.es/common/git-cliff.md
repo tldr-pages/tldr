@@ -7,11 +7,11 @@
 
 `git cliff > {{CHANGELOG.md}}`
 
-- Genera un registro de cambios a partir de los commits desde la última etiqueta y lo imprime en `stdout`:
+- Genera un registro de cambios a partir de las confirmaciones desde la última etiqueta y lo imprime en `stdout`:
 
 `git cliff {{[-l|--latest]}}`
 
-- Genera un registro de cambios a partir de los commits que pertenecen a la etiqueta actual (usa `git checkout` en una etiqueta anterior a esta):
+- Genera un registro de cambios a partir de las confirmaciones que pertenecen a la etiqueta actual (usa `git checkout` en una etiqueta anterior a esta):
 
 `git cliff --current`
 
