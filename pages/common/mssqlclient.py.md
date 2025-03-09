@@ -24,7 +24,7 @@
 
 `mssqlclient.py {{username}}:{{password}}@{{target}} -query "{{SELECT user_name();}}"`
 
-- Execute multiple SQL commands from a file:  
+- Execute multiple SQL commands from a file:
 
 `mssqlclient.py {{username}}:{{password}}@{{target}} -file {{path/to/sql_file.sql}}`
 
