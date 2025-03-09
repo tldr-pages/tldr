@@ -19,7 +19,7 @@
 
 `cargo {{[b|build]}} --workspace`
 
-- Construye un paquete en específico:
+- Construye un paquete determinado:
 
 `cargo {{[b|build]}} {{[-p|--package]}} {{paquete}}`
 
