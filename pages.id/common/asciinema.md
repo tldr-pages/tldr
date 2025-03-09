@@ -8,7 +8,7 @@
 
 `asciinema auth`
 
-- Buat rekaman baru (hentikan dengan `Ctrl+D` atau ketik `exit`, kemudian pilih lokasi penyimpanan baik dengan mengunggah atau menyimpannya secara lokal):
+- Buat rekaman baru (hentikan dengan `<Ctrl d>` atau ketik `exit`, kemudian pilih lokasi penyimpanan baik dengan mengunggah atau menyimpannya secara lokal):
 
 `asciinema rec`
 
