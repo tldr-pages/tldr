@@ -418,7 +418,7 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 
 > [!NOTE]\
 > In cases where the character isn't present in the translated word, you can highlight the option before/next to the equivalent word or you can add the English work beside the translation inside a bracket.
-> For example, `E[x]tract` in English maybe translated into `[x] ekstrak` or `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
+> For example, `E[x]tract` in English may be translated into `[x] ekstrak` or `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
 
 ## Example commands
 
