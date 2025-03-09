@@ -1,4 +1,4 @@
-r # tldr
+# tldr
 
 > Pojednostavljene man stranice.
 > Više informacija: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
