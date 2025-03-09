@@ -11,7 +11,7 @@ This section contains a summary of the scripts available in this directory. For 
 
 - [pdf](pdf/README.md) directory contains the `render.py` and `build-pdf.sh` script and related resources to generate a PDF document of tldr-pages for a specific language or platform (or both).
 - [build.sh](build.sh) script builds the ZIP archives of the `pages` directory.
-- [build-index.sh](build-index.sh) script builds the index of available pages.
+- [build-index.js](build-index.js) script builds the index of available pages.
 - [check-pr.sh](check-pr.sh) script checks the page's syntax and performs various checks on the PR.
 - [deploy.sh](deploy.sh) script deploys the ZIP and PDF archives to the static website repository.
 - [send-to-bot.py](send-to-bot.py) is a Python script that sends the build or test output to tldr-bot.
