@@ -34,4 +34,4 @@
 
 - Construye usando un número específico de hilos (por defecto es el número de CPUs lógicas):
 
-`cargo {{[b|build]}} --jobs {{numero_de_hilos}}`
+`cargo {{[b|build]}} --jobs {{número_de_hilos}}`
