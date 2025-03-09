@@ -7,7 +7,7 @@
 
 `base64 {{ruta/al/archivo}}`
 
-- Ajuste la salida codificada en un ancho específico (`0` deshabilita el ajuste):
+- Ajusta la salida codificada en un ancho específico (`0` deshabilita el ajuste):
 
 `base64 {{[-w|--wrap]}} {{0|76|...}} {{ruta/al/archivo}}`
 

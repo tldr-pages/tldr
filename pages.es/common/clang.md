@@ -12,7 +12,7 @@
 
 `clang {{ruta/a/fuente.c}} -Wall {{[-o|--output]}} {{ejecutable_resultante}}`
 
-- Muestra advertencias comunes, depura símbolos en la salida, y optimiza sin afectar la depuración:
+- Muestra advertencias comunes, depura símbolos en la salida y optimiza sin afectar la depuración:
 
 `clang {{ruta/a/fuente.c}} -Wall {{[-g|--debug]}} -Og {{[-o|--output]}} {{ruta/al/ejecutable_resultante}}`
 

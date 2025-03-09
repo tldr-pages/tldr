@@ -27,7 +27,7 @@
 
 `filebrowser --img-processors {{4}} {{[-r|--root]}} {{ruta/al/directorio}}`
 
-- Desactiva las miniaturas de imágenes, así como la función Command Runner, que limita el acceso a los archivos de script alojados para que no se ejecuten dentro de la aplicación:
+- Desactiva las miniaturas de imágenes, así como la función Command Runner, que limita el acceso a los archivos de secuencia de comandos alojados para que no se ejecuten dentro de la aplicación:
 
 `filebrowser --disable-exec --disable-thumbnails {{[-r|--root]}} {{ruta/al/directorio}}`
 
