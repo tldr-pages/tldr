@@ -26,12 +26,12 @@
 
 - カレントディレクトリの Rust プロジェクトを release プロファイルを使ってビルド:
 
-`cargo build --release`
+`cargo {{[b|build]}} {{[-r|--release]}}`
 
 - nightly コンパイラを使ってカレントディレクトリに Rust プロジェクトをビルド (`rustup` が必要):
 
-`cargo +nightly build`
+`cargo +nightly {{[b|build]}}`
 
 - 特定のスレッド数を使用してビルド (デフォルトは論理 CPU 数):
 
-`cargo build --jobs {{スレッド数}}`
+`cargo {{[b|build]}} --jobs {{スレッド数}}`

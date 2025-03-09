@@ -26,8 +26,8 @@
 
 - Erstelle (bzw. kompiliere) ein Rust-Projekt im aktuellen Verzeichnis:
 
-`cargo build`
+`cargo {{[b|build]}}`
 
 - Erstelle (bzw. kompiliere) ein Rust-Projekt mit einer bestimmten Anzahl an Threads (standardmäßig die Anzahl der CPU-Kerne):
 
-`cargo build --jobs {{thread_anzahl}}`
+`cargo {{[b|build]}} --jobs {{thread_anzahl}}`
