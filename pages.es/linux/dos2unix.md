@@ -11,11 +11,11 @@
 
 - Crea una copia con saltos de línea en formato Unix:
 
-`dos2unix {{-n|--newfile}} {{ruta/al/archivo}} {{ruta/al/nuevo}}`
+`dos2unix {{[-n|--newfile]}} {{ruta/al/archivo}} {{ruta/al/nuevo}}`
 
 - Muestra información de un archivo:
 
-`dos2unix {{-i|--info}} {{ruta/al/archivo}}`
+`dos2unix {{[-i|--info]}} {{ruta/al/archivo}}`
 
 - Mantiene/añade/elimina Marca de Orden de Byte (Byte Order Mark):
 

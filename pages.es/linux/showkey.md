@@ -9,15 +9,15 @@
 
 - Visualiza códigos de rastreo en hexadecimal:
 
-`sudo showkey {{-s|--scancodes}}`
+`sudo showkey {{[-s|--scancodes]}}`
 
 - Muestra códigos de teclas en decimal (por defecto):
 
-`sudo showkey {{-k|--keycodes}}`
+`sudo showkey {{[-k|--keycodes]}}`
 
 - Muestra los códigos en ASCII, decimal y hexadecimal:
 
-`sudo showkey {{-a|--ascii}}`
+`sudo showkey {{[-a|--ascii]}}`
 
 - Sal del programa:
 
