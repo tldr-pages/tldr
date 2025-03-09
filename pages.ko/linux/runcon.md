@@ -2,7 +2,7 @@
 
 > 프로그램을 다른 SELinux 보안 컨텍스트에서 실행.
 > 같이 보기: `secon`.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/runcon>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/runcon-invocation.html>.
 
 - 현재 실행 컨텍스트의 보안 컨텍스트를 출력:
 

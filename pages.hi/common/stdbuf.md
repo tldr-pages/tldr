@@ -1,7 +1,7 @@
 # stdbuf
 
 > एक कमांड को उसके मानक स्ट्रीम के लिए संशोधित बफरिंग ऑपरेशनों के साथ चलाएं।
-> अधिक जानकारी: <https://www.gnu.org/software/coreutils/stdbuf>।
+> अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/stdbuf-invocation.html>।
 
 - `stdin` बफर का आकार 512 KiB में बदलें:
 

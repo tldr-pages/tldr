@@ -18,3 +18,7 @@
 - Clean pre-commit cache:
 
 `pre-commit clean`
+
+- Update pre-commit config file to the latest repos' versions:
+
+`pre-commit autoupdate`

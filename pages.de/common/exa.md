@@ -1,7 +1,7 @@
 # exa
 
 > Ein moderner Ersatz für `ls` (Verzeichnisinhalte auflisten).
-> Weitere Informationen: <https://the.exa.website>.
+> Weitere Informationen: <https://github.com/ogham/exa>.
 
 - Liste eine Datei pro Zeile auf:
 

@@ -1,7 +1,7 @@
 # pwd
 
 > वर्तमान/कार्यशील निर्देशिका का नाम देखें।
-> अधिक जानकारी: <https://www.gnu.org/software/coreutils/pwd>।
+> अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>।
 
 - वर्तमान निर्देशिका का नाम देखें:
 

@@ -1,7 +1,7 @@
 # truncate
 
 > 파일의 크기를 지정된 크기로 줄이거나 늘립니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/truncate>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/truncate-invocation.html>.
 
 - 기존 파일의 크기를 10GB로 설정하거나, 지정된 크기로 새 파일 생성:
 

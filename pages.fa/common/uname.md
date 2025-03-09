@@ -2,7 +2,7 @@
 
 > نمایش اطلاعاتی درباره سخت افزار و سیستم عامل.
 > نکته: برای دستیابی به اطلاعات اضافه در رابطه با سیستم عامل از دستور `lsb_release` استفاده کنید.
-> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/uname>.
+> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - نمایش اطلاعات مربوط به سخت افزار و پردازنده سیستم:
 

@@ -1,7 +1,7 @@
 # paste
 
 > Merge lines of files.
-> More information: <https://www.gnu.org/software/coreutils/paste>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/paste-invocation.html>.
 
 - Join all the lines into a single line, using TAB as delimiter:
 

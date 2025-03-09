@@ -1,7 +1,7 @@
 # sort
 
 > 텍스트 파일의 줄을 정렬합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/sort>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html>.
 
 - 파일을 오름차순으로 정렬:
 

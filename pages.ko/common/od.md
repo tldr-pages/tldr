@@ -2,7 +2,7 @@
 
 > 파일 내용을 8진수, 10진수 또는 16진수 형식으로 표시.
 > 선택적으로 각 줄에 대한 바이트 오프셋 및/또는 인쇄 가능한 표현을 표시.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/od>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/od-invocation.html>.
 
 - 기본 설정으로 파일 표시: 8진수 형식, 8바이트 단위로 줄바꿈, 8진수 바이트 오프셋, 중복 줄은 `*`로 대체:
 

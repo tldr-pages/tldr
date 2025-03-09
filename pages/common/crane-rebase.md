@@ -17,8 +17,8 @@
 
 - Tag to apply to rebased image:
 
-`crane rebase {{-t|--tag}} {{tag_name}}`
+`crane rebase {{[-t|--tag]}} {{tag_name}}`
 
 - Display help:
 
-`crane rebase {{-h|--help}}`
+`crane rebase {{[-h|--help]}}`

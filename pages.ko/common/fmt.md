@@ -1,7 +1,7 @@
 # fmt
 
 > 단락을 결합하고 줄 너비를 문자 수 (기본적으로 75자)로 제한하여 텍스트 파일의 서식을 다시 지정.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/fmt>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/fmt-invocation.html>.
 
 - 파일 재포맷:
 

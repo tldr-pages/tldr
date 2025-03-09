@@ -1,7 +1,7 @@
 # truncate
 
 > Shrink or extend the size of a file to the specified size.
-> More information: <https://www.gnu.org/software/coreutils/truncate>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/truncate-invocation.html>.
 
 - Set a size of 10 GB to an existing file, or create a new file with the specified size:
 

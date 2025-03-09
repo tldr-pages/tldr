@@ -1,7 +1,7 @@
 # mkfifo
 
 > Maak FIFOs (benoemde pipes).
-> Meer informatie: <https://www.gnu.org/software/coreutils/mkfifo>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html>.
 
 - Maak een benoemde pipe op een opgegeven pad:
 

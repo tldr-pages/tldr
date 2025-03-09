@@ -1,7 +1,7 @@
 # tr
 
 > Vertaal tekens: voer vervangingen uit op basis van enkele tekens en tekensets.
-> Meer informatie: <https://www.gnu.org/software/coreutils/tr>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html>.
 
 - Vervang alle voorkomens van een teken in een bestand en toon het resultaat:
 

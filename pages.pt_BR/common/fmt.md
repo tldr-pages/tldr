@@ -1,7 +1,7 @@
 # fmt
 
 > Reformata um arquivo de texto juntando seus parágrafos e limitando a largura da linha a um determinado número de caracteres (75 por padrão).
-> Mais informações: <https://www.gnu.org/software/coreutils/fmt>.
+> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/fmt-invocation.html>.
 
 - Reformata um arquivo:
 

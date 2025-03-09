@@ -7,6 +7,10 @@
 
 `pulumi config --json`
 
+- View configuration for a specified stack:
+
+`pulumi config --stack {{stack_name}}`
+
 - Get the value of a configuration key:
 
 `pulumi config get {{key}}`

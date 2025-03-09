@@ -8,25 +8,25 @@
 
 `git config --global {{user.name|user.email}} "{{Your Name|email@example.com}}"`
 
-- List local or global configuration entries:
+- List local, global or system configuration entries and show their file location:
 
-`git config --list --{{local|global}}`
+`git config --list --{{local|global|system}} --show-origin`
 
-- List only system configuration entries (stored in `/etc/gitconfig`), and show their file location:
+- Set the global value of a given configuration entry (in this case an alias):
 
-`git config --list --system --show-origin`
+`git config --global {{alias.unstage}} "reset HEAD --"`
 
 - Get the value of a given configuration entry:
 
-`git config alias.unstage`
+`git config {{alias.unstage}}`
 
-- Set the global value of a given configuration entry:
+- Use an alias:
 
-`git config --global alias.unstage "reset HEAD --"`
+`git {{unstage}}`
 
 - Revert a global configuration entry to its default value:
 
-`git config --global --unset alias.unstage`
+`git config --global --unset {{alias.unstage}}`
 
 - Edit the local Git configuration (`.git/config`) in the default editor:
 

@@ -1,7 +1,7 @@
 # unexpand
 
 > 将空格转换为制表符。
-> 更多信息：<https://www.gnu.org/software/coreutils/unexpand>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/unexpand-invocation.html>.
 
 - 将每个文件中的空格转换为制表符，并写入到 `stdout`：
 

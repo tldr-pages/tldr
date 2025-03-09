@@ -2,7 +2,7 @@
 
 > Display and concatenate files with lines in reversed order.
 > See also: `cat`.
-> More information: <https://www.gnu.org/software/coreutils/tac>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html>.
 
 - Concatenate specific files in reversed order:
 

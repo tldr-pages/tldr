@@ -1,7 +1,7 @@
 # dd
 
 > Converte e copia um arquivo.
-> Mais informações: <https://www.gnu.org/software/coreutils/dd>.
+> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html>.
 
 - Cria um dispositivo USB inicializável a partir de um arquivo isohybrid (como `archlinux-xxx.iso`), e mostra o progresso:
 

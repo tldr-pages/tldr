@@ -10,7 +10,7 @@
 
 - Update all packages, including dependencies:
 
-`sudo emerge {{-avuDN|--ask --verbose --update --deep --newuse}} @world`
+`sudo emerge {{[-avuDN|--ask --verbose --update --deep --newuse]}} @world`
 
 - Resume a failed updated, skipping the failing package:
 
@@ -18,16 +18,16 @@
 
 - Install a new package, with confirmation:
 
-`sudo emerge {{-av|--ask --verbose}} {{package}}`
+`sudo emerge {{[-av|--ask --verbose]}} {{package}}`
 
 - Remove a package and its dependencies with confirmation:
 
-`sudo emerge {{-avc|--ask --verbose --depclean}} {{package}}`
+`sudo emerge {{[-avc|--ask --verbose --depclean]}} {{package}}`
 
 - Remove orphaned packages (installed as dependencies but no longer required by any package):
 
-`sudo emerge {{-avc|--ask --verbose --depclean}}`
+`sudo emerge {{[-avc|--ask --verbose --depclean]}}`
 
 - Search the package database for a keyword:
 
-`emerge {{-S|--searchdesc}} {{keyword}}`
+`emerge {{[-S|--searchdesc]}} {{keyword}}`

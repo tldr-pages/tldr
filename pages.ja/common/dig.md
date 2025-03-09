@@ -1,7 +1,7 @@
 # dig
 
 > DNS 情報を調べるユーティリティーです。
-> 詳しくはこちら: <https://manned.org/dig>
+> もっと詳しく: <https://manned.org/dig>。
 
 - ホスト名に関連する IP を検索（A レコード）:
 

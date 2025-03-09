@@ -1,7 +1,7 @@
 # exa
 
 > `ls`의 현대적인 대체품 (디렉토리 내용 나열).
-> 더 많은 정보: <https://the.exa.website>.
+> 더 많은 정보: <https://github.com/ogham/exa>.
 
 - 파일을 한 줄에 하나씩 나열:
 

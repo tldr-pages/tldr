@@ -18,3 +18,11 @@
 - Forward incoming data of a local port to another host and port:
 
 `sudo socat TCP-LISTEN:80,fork TCP4:www.example.com:80`
+
+- Send data with multicast routing scheme:
+
+`{{echo "Hello Multicast"}} | socat - UDP4-DATAGRAM:{{224.0.0.1}}:{{5000}}`
+
+- Receive data from a multicast:
+
+`socat - UDP4-RECVFROM:{{5000}}`

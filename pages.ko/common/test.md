@@ -2,7 +2,7 @@
 
 > 파일 유형을 확인하고 값을 비교.
 > 조건이 참이면 0을 반환하고, 거짓이면 1을 반환합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/test>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html>.
 
 - 주어진 변수가 특정 문자열과 같은지 확인:
 

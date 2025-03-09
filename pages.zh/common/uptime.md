@@ -1,7 +1,7 @@
 # uptime
 
 > 告知当前系统运行多长时间和其他信息。
-> 更多信息：<https://www.gnu.org/software/coreutils/uptime>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/uptime-invocation.html>.
 
 - 打印当前时间，运行时间，登录用户数量和其他信息：
 

@@ -6,7 +6,7 @@
 
 - Initialize `kde-builder`:
 
-`kde-builder --initial-setup`
+`kde-builder --generate-config && kde-builder --install-distro-packages`
 
 - Compile a KDE component and its dependencies from the source:
 
@@ -22,7 +22,7 @@
 
 - Resume compilation from a specific dependency:
 
-`kde-builder --resume-from={{dependency_component}} {{component_name}}`
+`kde-builder --resume-from {{dependency_component}} {{component_name}}`
 
 - Run a component with a specified executable name:
 

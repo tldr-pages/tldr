@@ -1,7 +1,7 @@
 # id
 
 > Display current user and group identity.
-> More information: <https://www.gnu.org/software/coreutils/id>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/id-invocation.html>.
 
 - Display current user's ID (UID), group ID (GID) and groups to which they belong:
 

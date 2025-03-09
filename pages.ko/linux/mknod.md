@@ -1,7 +1,7 @@
 # mknod
 
 > 블록 또는 문자 장치 특수 파일 생성.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/mknod>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html>.
 
 - 블록 장치 생성:
 

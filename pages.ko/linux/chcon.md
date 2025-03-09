@@ -2,7 +2,7 @@
 
 > 파일 또는 파일/디렉토리의 SELinux 보안 컨텍스트를 변경합니다.
 > 같이 보기: `secon`, `restorecon`, `semanage-fcontext`.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/chcon>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html>.
 
 - 파일의 보안 컨텍스트 보기:
 

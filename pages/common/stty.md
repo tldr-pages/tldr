@@ -1,7 +1,7 @@
 # stty
 
 > Set options for a terminal device interface.
-> More information: <https://www.gnu.org/software/coreutils/stty>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html>.
 
 - Display all settings for the current terminal:
 
@@ -18,3 +18,11 @@
 - Reset all modes to reasonable values for the current terminal:
 
 `stty sane`
+
+- Switch between raw and normal mode:
+
+`stty {{raw|cooked}}`
+
+- Turn character echoing off or on:
+
+`stty {{-echo|echo}}`

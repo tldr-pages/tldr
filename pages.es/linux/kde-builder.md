@@ -6,23 +6,23 @@
 
 - Inicializa `kde-builder`:
 
-`kde-builder --initial-setup`
+`kde-builder --generate-config && kde-builder --install-distro-packages`
 
 - Compila un componente KDE y sus dependencias desde el código fuente:
 
 `kde-builder {{nombre_componente}}`
 
-- Compila un componente sin actualizar el código local y sin compilar sus dependencias:
+- Compila un componente sin actualizar el código local y sin compilar sus [D]ependencias:
 
 `kde-builder --no-src --no-include-dependencies {{nombre_componente}}`
 
-- Actualiza los directorios de compilación antes de compilar:
+- Actualiza [R] los directorios de compilación antes de compilar:
 
 `kde-builder --refresh-build {{nombre_componente}}`
 
 - Reanuda la compilación a partir de una dependencia determinada:
 
-`kde-builder --resume-from={{componente_de_dependencia}} {{nombre_componente}}`
+`kde-builder --resume-from {{componente_de_dependencia}} {{nombre_componente}}`
 
 - Ejecuta un componente con un nombre de ejecutable determinado:
 

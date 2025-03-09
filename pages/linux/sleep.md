@@ -1,7 +1,7 @@
 # sleep
 
 > Delay for a specified amount of time.
-> More information: <https://www.gnu.org/software/coreutils/sleep>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/sleep-invocation.html>.
 
 - Delay in seconds:
 

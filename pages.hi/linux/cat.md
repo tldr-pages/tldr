@@ -1,7 +1,7 @@
 # cat
 
 > फ़ाइलों को प्रिंट करता है और जोड़ता है।
-> अधिक जानकारी: <https://www.gnu.org/software/coreutils/cat>।
+> अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>।
 
 - फ़ाइल की सामग्री को मानक (standard) आउटपुट पर प्रिंट करें:
 

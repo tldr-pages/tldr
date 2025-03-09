@@ -1,7 +1,7 @@
 # numfmt
 
 > Converteer getallen naar en van mens-leesbare strings.
-> Meer informatie: <https://www.gnu.org/software/coreutils/numfmt>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/numfmt-invocation.html>.
 
 - Converteer 1.5K (SI-eenheden) naar 1500:
 

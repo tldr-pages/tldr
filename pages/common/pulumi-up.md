@@ -1,7 +1,7 @@
 # pulumi up
 
 > Create or update the resources in a stack.
-> More information: <https://www.pulumi.com/docs/cli/commands/pulumi_up/>.
+> More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_up/>.
 
 - Preview and deploy changes to a program and/or infrastructure:
 

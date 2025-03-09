@@ -1,7 +1,7 @@
 # expand
 
 > Vervang tabs met spaties.
-> Meer informatie: <https://www.gnu.org/software/coreutils/expand>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/expand-invocation.html>.
 
 - Vervang tabs in ieder bestand met spaties en schrijf het naar `stdout`:
 

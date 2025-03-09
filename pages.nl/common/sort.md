@@ -1,7 +1,7 @@
 # sort
 
 > Sorteer regels van tekstbestanden.
-> Meer informatie: <https://www.gnu.org/software/coreutils/sort>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html>.
 
 - Sorteer een bestand in oplopende volgorde:
 

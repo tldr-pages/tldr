@@ -1,7 +1,7 @@
 # realpath
 
 > Toon het opgeloste absolute pad voor een bestand of map.
-> Meer informatie: <https://www.gnu.org/software/coreutils/realpath>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/realpath-invocation.html>.
 
 - Toon het absolute pad voor een bestand of map:
 

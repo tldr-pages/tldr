@@ -1,7 +1,7 @@
 # sha1sum
 
 > Bereken SHA1 cryptografische checksums.
-> Meer informatie: <https://www.gnu.org/software/coreutils/sha1sum>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sha1sum-invocation.html>.
 
 - Bereken de SHA1 checksum voor één of meer bestanden:
 

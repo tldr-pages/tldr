@@ -1,7 +1,7 @@
 # nohup
 
 > Laat een proces doorgaan wanneer de terminal wordt beëindigd.
-> Meer informatie: <https://www.gnu.org/software/coreutils/nohup>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/nohup-invocation.html>.
 
 - Voer een proces uit dat kan doorgaan na het sluiten van de terminal:
 

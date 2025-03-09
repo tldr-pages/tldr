@@ -2,7 +2,7 @@
 
 > Dockerコンテナ及びDockerイメージの管理を行います。
 > `run` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-> 詳しくはこちら: <https://docs.docker.com/reference/cli/docker/>
+> もっと詳しく: <https://docs.docker.com/reference/cli/docker/>。
 
 - 全てのDockerコンテナを表示する(実行中・停止中、両方のコンテナ):
 

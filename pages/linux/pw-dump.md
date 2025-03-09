@@ -8,6 +8,10 @@
 
 `pw-dump`
 
+- Print a JSON representation of an object:
+
+`pw-dump {{object_id}}`
+
 - Dump the current state [m]onitoring changes, printing it again:
 
 `pw-dump --monitor`

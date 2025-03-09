@@ -16,7 +16,7 @@
 
 `sudo pacman -Syu --noconfirm {{package}}`
 
-- Search ([s]) the package database for a regular expression or keyword:
+- [s]earch the package database for a regular expression or keyword:
 
 `pacman -Ss "{{search_pattern}}"`
 
@@ -28,10 +28,10 @@
 
 `sudo pacman -Syu --overwrite {{path/to/file}}`
 
-- [S]ynchronize and [u]pdate all packages, but ignore a specific package (can be used more than once):
-
-`sudo pacman -Syu --ignore {{package1 package2 ...}}`
-
 - Remove not installed packages and unused repositories from the cache (use the flags `Sc` to [c]lean all packages):
 
 `sudo pacman -Sc`
+
+- Specify the package version that should be installed:
+
+`sudo pacman -S {{package}}={{version}}`

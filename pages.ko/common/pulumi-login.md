@@ -1,7 +1,7 @@
 # pulumi login
 
 > Pulumi 클라우드에 로그인.
-> 더 많은 정보: <https://www.pulumi.com/docs/cli/commands/pulumi_login/>.
+> 더 많은 정보: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_login/>.
 
 - 관리되는 Pulumi Cloud 백엔드에 로그인. 기본값은 `app.pulumi.cloud`:
 

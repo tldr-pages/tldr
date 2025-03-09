@@ -2,7 +2,7 @@
 
 > 파일의 마지막 부분을 표시.
 > 같이 보기: `head`.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/tail>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
 - 파일에서 마지막 'count' 줄 표시:
 

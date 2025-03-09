@@ -1,7 +1,7 @@
 # pulumi up
 
 > 스택의 리소스를 생성하거나 업데이트.
-> 더 많은 정보: <https://www.pulumi.com/docs/cli/commands/pulumi_up/>.
+> 더 많은 정보: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_up/>.
 
 - 프로그램 및/또는 인프라에 대한 변경 사항 미리보기 및 배포:
 

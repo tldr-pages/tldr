@@ -2,7 +2,7 @@
 
 > Verwijder directories zonder bestanden.
 > Bekijk ook: `rm`.
-> Meer informatie: <https://www.gnu.org/software/coreutils/rmdir>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html>.
 
 - Verwijder specifieke directories:
 

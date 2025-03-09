@@ -1,7 +1,7 @@
 # ln
 
 > Crée des liens vers des fichiers et répertoires.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/ln>.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>.
 
 - Crée un lien symbolique vers un fichier ou un répertoire :
 

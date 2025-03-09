@@ -2,7 +2,7 @@
 
 > 현재 컴퓨터와 그 컴퓨터에서 실행 중인 운영 체제에 대한 세부 정보를 출력합니다.
 > `lsb_release`로 같이 참고해주세요.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/uname>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - 커널 이름 출력:
 

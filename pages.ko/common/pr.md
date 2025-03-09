@@ -1,7 +1,7 @@
 # pr
 
 > 파일을 인쇄용으로 페이지화하거나 열로 정렬.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/pr>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/pr-invocation.html>.
 
 - 기본 헤더와 푸터로 여러 파일 인쇄:
 

@@ -2,7 +2,7 @@
 
 > Chocolateyパッケージマネージャーのコマンドラインインターフェイスです。
 > `install` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-> 詳しくはこちら: <https://chocolatey.org>
+> もっと詳しく: <https://chocolatey.org>。
 
 - Chocolateyコマンドを実行します:
 

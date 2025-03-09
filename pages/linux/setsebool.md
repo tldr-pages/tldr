@@ -22,4 +22,4 @@
 
 - Set or unset a boolean persistently (alternative method using `semanage-boolean`):
 
-`sudo semanage boolean {{-m|--modify}} {{-1|--on|-0|--off}} {{haproxy_connect_any}}`
+`sudo semanage boolean {{[-m|--modify]}} {{-1|--on|-0|--off}} {{haproxy_connect_any}}`

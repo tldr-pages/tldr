@@ -2,7 +2,7 @@
 
 > List directory contents.
 > Drop-in replacement for `ls -l`.
-> More information: <https://www.gnu.org/software/coreutils/vdir>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/vdir-invocation.html>.
 
 - List files and directories in the current directory, one per line, with details:
 

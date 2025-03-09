@@ -2,7 +2,7 @@
 
 > 파일이 없는 디렉토리를 제거합니다.
 > 같이 보기: `rm`.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/rmdir>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html>.
 
 - 특정 디렉토리 제거:
 

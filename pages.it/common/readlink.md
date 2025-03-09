@@ -1,7 +1,7 @@
 # readlink
 
 > Segue un collegamento simbolico e ne recupera le informazioni.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/readlink>.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/readlink-invocation.html>.
 
 - Restituisce il percorso originale a cui il collegamento simbolico fa riferimento:
 

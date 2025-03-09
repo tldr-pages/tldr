@@ -1,7 +1,7 @@
 # paste
 
 > 파일의 라인을 병합.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/paste>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/paste-invocation.html>.
 
 - 모든 라인을 TAB을 구분자로 사용하여 하나의 라인으로 합치기:
 

@@ -1,7 +1,7 @@
 # choco info
 
 > Chocolateyのパッケージに関する詳細情報を表示します。
-> 詳しくはこちら: <https://chocolatey.org/docs/commands-info>
+> もっと詳しく: <https://chocolatey.org/docs/commands-info>。
 
 - 特定のパッケージに関する情報を表示します:
 

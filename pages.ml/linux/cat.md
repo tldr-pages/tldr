@@ -1,7 +1,7 @@
 # cat
 
 > ഫയലുകൾ പ്രിന്റ് ചെയ്യുവാനും സംയോജിപ്പിക്കുവാനുമുള്ള കമാൻഡ്.
-> കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/cat>.
+> കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - ഫയലിന്റെ ഉള്ളടക്കം സ്റ്റാൻഡേർഡ് ഔട്പുട്ടിലേക്ക് പ്രിന്റ് ചെയ്യുവാൻ:
 

@@ -1,7 +1,7 @@
 # pathchk
 
 > Check the validity and portability of pathnames.
-> More information: <https://www.gnu.org/software/coreutils/pathchk>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/pathchk-invocation.html>.
 
 - Check pathnames for validity in the current system:
 

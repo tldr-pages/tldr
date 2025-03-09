@@ -7,14 +7,18 @@
 
 `virt-sysprep --list-operations`
 
-- Run all enabled operations but don't actually apply the changes:
+- Remove sensitive system data from a virtual machine image:
 
-`virt-sysprep --domain {{vm_name}} --dry-run`
+`sudo virt-sysprep --add {{path/to/image.qcow2}}`
+
+- Specify a virtual machine by its name and run all enabled operations but don't actually apply the changes:
+
+`sudo virt-sysprep --domain {{vm_name}} --dry-run`
 
 - Run only the specified operations:
 
-`virt-sysprep --domain {{vm_name}} --operations {{operation1,operation2,...}}`
+`sudo virt-sysprep --domain {{vm_name}} --operations {{operation1,operation2,...}}`
 
 - Generate a new `/etc/machine-id` file and enable customizations to be able to change the host name to avoid network conflicts:
 
-`virt-sysprep --domain {{vm_name}} --enable {{customizations}} --hostname {{host_name}} --operation {{machine-id}}`
+`sudo virt-sysprep --domain {{vm_name}} --enable {{customizations}} --hostname {{host_name}} --operation {{machine-id}}`

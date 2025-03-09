@@ -2,7 +2,7 @@
 
 > 파일을 여러 조각으로 분할합니다.
 > "xx00", "xx01" 등의 이름으로 파일을 생성합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/csplit>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html>.
 
 - 파일을 5번째 및 23번째 줄에서 분할:
 

@@ -1,7 +1,7 @@
 # chcon
 
 > Change le contexte de sécurité de SELinux d'un ou plusieurs fichiers/dossiers.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/chcon>.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html>.
 
 - Affiche le contexte de sécurité d'un fichier :
 

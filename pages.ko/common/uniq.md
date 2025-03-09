@@ -2,7 +2,7 @@
 
 > 입력 또는 파일에서 고유한 줄을 출력합니다.
 > 인접하지 않은 반복 줄을 감지하지 않으므로 먼저 정렬해야 합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/uniq>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html>.
 
 - 각 줄을 한 번씩만 표시:
 

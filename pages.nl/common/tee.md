@@ -1,7 +1,7 @@
 # tee
 
 > Lees van `stdin` en schrijf naar `stdout` en bestanden (of commando's).
-> Meer informatie: <https://www.gnu.org/software/coreutils/tee>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html>.
 
 - Kopieer `stdin` naar elk bestand en ook naar `stdout`:
 

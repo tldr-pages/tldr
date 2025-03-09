@@ -1,7 +1,7 @@
 # ln
 
 > این دستور برای ایجاد ارتباط(link) به فایل ها و پوشه ها(Directories) استفاده می شود.
-> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/ln>.
+> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>.
 
 - ایجاد یک ارتباط نمادین (symbolic link) به یک فایل یا پوشه:
 

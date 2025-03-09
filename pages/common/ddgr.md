@@ -33,4 +33,4 @@
 
 - Display help in interactive mode:
 
-`?`
+`<?>`

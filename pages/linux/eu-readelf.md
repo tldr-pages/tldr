@@ -5,8 +5,8 @@
 
 - Display all extractable information contained in the ELF file:
 
-`eu-readelf --all {{path/to/file}}`
+`eu-readelf {{[-a|--all]}} {{path/to/file}}`
 
 - Display the contents of all NOTE segments/sections, or of a particular segment/section:
 
-`eu-readelf --notes[={{.note.ABI-tag}}] {{path/to/file}}`
+`eu-readelf {{[-n--notes]}} {{.note.ABI-tag}} {{path/to/file}}`

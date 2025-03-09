@@ -2,7 +2,7 @@
 
 > Toon de inhoud van een map.
 > Vervanger voor `ls -l`.
-> Meer informatie: <https://www.gnu.org/software/coreutils/vdir>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/vdir-invocation.html>.
 
 - Toon bestanden en mappen in de huidige map, één per regel, met details:
 

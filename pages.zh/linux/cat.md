@@ -1,7 +1,7 @@
 # cat
 
 > 打印和连接文件。
-> 更多信息：<https://www.gnu.org/software/coreutils/cat>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - 将文件内容打印到 `stdout`：
 

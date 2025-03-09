@@ -1,7 +1,7 @@
 # rm
 
 > 删除文件或目录。
-> 更多信息：<https://www.gnu.org/software/coreutils/rm>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - 从任意位置删除文件：
 

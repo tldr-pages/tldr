@@ -1,7 +1,7 @@
 # truncate
 
 > Verkort of verleng de grootte van een bestand naar de opgegeven grootte.
-> Meer informatie: <https://www.gnu.org/software/coreutils/truncate>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/truncate-invocation.html>.
 
 - Stel een grootte van 10 GB in voor een bestaand bestand, of maak een nieuw bestand met de opgegeven grootte:
 

@@ -1,7 +1,7 @@
 # echo
 
 > 与えられた引数を表示します。
-> 詳しくはこちら: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>
+> もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>。
 
 - テキストメッセージを印刷する。備考: 引用符は任意:
 

@@ -1,7 +1,7 @@
 # sleep
 
 > Затримка на певний час.
-> Більше інформації: <https://www.gnu.org/software/coreutils/sleep>.
+> Більше інформації: <https://www.gnu.org/software/coreutils/manual/html_node/sleep-invocation.html>.
 
 - Затримка в секундах:
 

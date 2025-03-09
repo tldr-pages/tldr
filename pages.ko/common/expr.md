@@ -1,7 +1,7 @@
 # expr
 
 > 표현식을 평가하고 문자열을 조작.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/expr>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/expr-invocation.html>.
 
 - 특정 문자열의 길이를 가져옴:
 

@@ -1,7 +1,7 @@
 # pwd
 
 > Mencetak nama dari direktori saat ini/kerja.
-> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/pwd>.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>.
 
 - Mencetak direktori saat ini:
 

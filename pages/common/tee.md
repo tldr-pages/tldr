@@ -1,7 +1,7 @@
 # tee
 
 > Read from `stdin` and write to `stdout` and files (or commands).
-> More information: <https://www.gnu.org/software/coreutils/tee>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html>.
 
 - Copy `stdin` to each file, and also to `stdout`:
 

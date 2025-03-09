@@ -1,7 +1,7 @@
 # ptx
 
 > 텍스트 파일에서 단어의 순열 색인을 생성합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/ptx>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/ptx-invocation.html>.
 
 - 각 줄의 첫 번째 필드가 색인 참조인 순열 색인 생성:
 

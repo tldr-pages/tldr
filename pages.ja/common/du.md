@@ -1,7 +1,7 @@
 # du
 
 > ディスク使用状況: ファイルとディレクトリの使用量の概算を表示します。
-> 詳しくはこちら: <https://www.gnu.org/software/coreutils/du>
+> もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>。
 
 - 指定した単位 (B/KiB/MiB) でディレクトリおよびサブディレクトリのサイズを表示します:
 

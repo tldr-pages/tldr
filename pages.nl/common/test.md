@@ -2,7 +2,7 @@
 
 > Controleer bestandstypen en vergelijk waarden.
 > Retourneert 0 als de voorwaarde waar is, 1 als de voorwaarde onwaar is.
-> Meer informatie: <https://www.gnu.org/software/coreutils/test>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html>.
 
 - Test of een gegeven variabele gelijk is aan een gegeven string:
 

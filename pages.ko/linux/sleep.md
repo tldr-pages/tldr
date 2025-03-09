@@ -1,7 +1,7 @@
 # sleep
 
 > 지정된 시간만큼 지연합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/sleep>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/sleep-invocation.html>.
 
 - 초 단위로 지연:
 

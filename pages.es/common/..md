@@ -1,0 +1,7 @@
+# Dot
+
+> Este comando es un alias de `source`.
+
+- Consulte la documentación del comando original:
+
+`tldr source`

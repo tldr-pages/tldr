@@ -1,7 +1,7 @@
 # cat
 
 > Imprime y concatena archivos.
-> Más información: <https://www.gnu.org/software/coreutils/cat>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Imprime el contenido de un archivo a `stdout`:
 

@@ -1,7 +1,7 @@
 # sort
 
 > 对文本文件的行进行排序。
-> 更多信息：<https://www.gnu.org/software/coreutils/sort>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html>.
 
 - 以升序对文件进行排序：
 

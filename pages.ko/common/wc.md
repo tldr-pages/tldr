@@ -1,7 +1,7 @@
 # wc
 
 > 줄 단어 및 바이트 수 계산.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/wc>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/wc-invocation.html>.
 
 - 파일의 모든 줄 수 계산:
 

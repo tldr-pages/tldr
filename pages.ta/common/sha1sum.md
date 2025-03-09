@@ -1,7 +1,7 @@
 # sha1sum
 
 > SHA1 மறையீட்டு சரிகாண்தொகையைக் கணி.
-> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/sha1sum>.
+> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/sha1sum-invocation.html>.
 
 - ஒன்று அல்லது அதற்கு மேற்பட்ட கோப்புகளுக்கான SHA1 சரிகாண்தொகையைக் கணி:
 

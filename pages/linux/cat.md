@@ -1,7 +1,7 @@
 # cat
 
 > Print and concatenate files.
-> More information: <https://www.gnu.org/software/coreutils/cat>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Print the contents of a file to `stdout`:
 

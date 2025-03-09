@@ -1,7 +1,7 @@
 # seq
 
 > 숫자 시퀀스를 `stdout`에 출력.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/seq>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/seq-invocation.html>.
 
 - 1부터 10까지의 시퀀스:
 

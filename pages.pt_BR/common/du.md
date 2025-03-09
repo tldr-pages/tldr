@@ -1,7 +1,7 @@
 # du
 
 > Uso de disco: estima e sumariza o uso de espaço em disco de arquivos e diretórios.
-> Mais informações: <https://www.gnu.org/software/coreutils/du>.
+> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - Lista os tamanhos dos diretórios e qualquer subdiretório, em uma unidade de tamanho (B/KiB/MiB):
 

@@ -1,7 +1,7 @@
 # realpath
 
 > 파일이나 디렉터리에 대한 절대 경로를 표시.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/realpath>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/realpath-invocation.html>.
 
 - 파일이나 디렉터리에 대한 절대 경로 표시:
 
