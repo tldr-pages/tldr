@@ -10,24 +10,24 @@
 
 - Navigiere nach links/oben/unten/rechts:
 
-`{{H|J|K|L|Pfeiltasten}}`
+`{{<h>|<j>|<k>|<l>|<ArrowKeys>}}`
 
 - Rotiere:
 
-`r`
+`<r>`
 
 - Invertiere die Farben:
 
-`<Strg> + R`
+`<Ctrl r>`
 
 - Durchsuche den Text nach einem gegebenen String:
 
-`/{{string}}`
+`</>{{string}}`
 
 - Erstelle/lösche Lesezeichen:
 
-`:{{bmark|bdelete}} {{name_des_lesezeichens}}`
+`<:>{{bmark|bdelete}} {{name_des_lesezeichens}}<Enter>`
 
 - Liste alle Lesezeichen auf:
 
-`:blist`
+`<:>blist<Enter>`

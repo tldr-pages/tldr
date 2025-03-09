@@ -21,4 +21,4 @@
 
 - Sale de la sesión `cu` cuando está conectado:
 
-`~.`
+`<Enter><~><.>`

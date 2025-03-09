@@ -20,7 +20,7 @@
 
 `kill -{{1|HUP}} {{id_do_processo}}`
 
-- Finaliza um programa usando o sinal SIGINT (interrupt). Isto é tipicamente iniciado pelo usuário ao pressionar `Ctrl + C`:
+- Finaliza um programa usando o sinal SIGINT (interrupt). Isto é tipicamente iniciado pelo usuário ao pressionar `<Ctrl c>`:
 
 `kill -{{2|INT}} {{id_do_processo}}`
 
