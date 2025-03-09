@@ -9,4 +9,4 @@
 
 - Define locale to generate from a specific template:
 
-`msginit --locale {{locale}} --input {{messages.pot}}`
+`msginit {{[-l|--locale]}} {{locale}} {{[-i|--input]}} {{messages.pot}}`
