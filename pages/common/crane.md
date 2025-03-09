@@ -22,8 +22,8 @@
 
 - Enable debug logs for a subcommand:
 
-`crane {{-v|--verbose}} {{subcommand}}`
+`crane {{[-v|--verbose]}} {{subcommand}}`
 
 - Display help for a subcommand:
 
-`crane {{-h|--help}} {{subcommand}}`
+`crane {{[-h|--help]}} {{subcommand}}`

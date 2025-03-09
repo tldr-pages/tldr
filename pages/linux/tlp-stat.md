@@ -18,11 +18,11 @@
 
 - Show configuration:
 
-`sudo tlp-stat {{-c|--config}}`
+`sudo tlp-stat {{[-c|--config]}}`
 
 - Monitor [p]ower supply `udev` [ev]ents:
 
-`sudo tlp-stat {{-P|--pev}}`
+`sudo tlp-stat {{[-P|--pev]}}`
 
 - Show [p]ower [sup]ply diagonistics:
 
@@ -30,8 +30,8 @@
 
 - Show [temp]eratures and fan speed:
 
-`sudo tlp-stat {{-t|--temp}}`
+`sudo tlp-stat {{[-t|--temp]}}`
 
 - Show general system information:
 
-`sudo tlp-stat {{-s|--system}}`
+`sudo tlp-stat {{[-s|--system]}}`
