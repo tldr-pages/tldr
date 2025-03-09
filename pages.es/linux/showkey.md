@@ -19,6 +19,6 @@
 
 `sudo showkey {{-a|--ascii}}`
 
-- Sal del programa:
+- Sale del programa:
 
 `<Ctrl d>`
