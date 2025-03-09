@@ -11,7 +11,7 @@
 
 - Assume `stdin` is already connected to a `tty` and set a timeout for the login:
 
-`agetty {{-t|--timeout}} {{timeout_in_seconds}} -`
+`agetty {{[-t|--timeout]}} {{timeout_in_seconds}} -`
 
 - Assume the `tty` is [8]-bit, overriding the `TERM` environment variable set by `init`:
 
@@ -19,12 +19,12 @@
 
 - Skip the login (no login) and invoke, as root, another login program instead of `/bin/login`:
 
-`agetty {{-n|--skip-login}} {{-l|--login-program}} {{login_program}} {{tty}}`
+`agetty {{[-n|--skip-login]}} {{[-l|--login-program]}} {{login_program}} {{tty}}`
 
 - Do not display the pre-login (issue) file (`/etc/issue` by default) before writing the login prompt:
 
-`agetty {{-i|--noissue}} -`
+`agetty {{[-i|--noissue]}} -`
 
 - Change the root directory and write a specific fake host into the `utmp` file:
 
-`agetty {{-r|--chroot}} {{/path/to/root_directory}} {{-H|--host}} {{fake_host}} -`
+`agetty {{[-r|--chroot]}} {{/path/to/root_directory}} {{[-H|--host]}} {{fake_host}} -`

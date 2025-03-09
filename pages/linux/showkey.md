@@ -9,15 +9,15 @@
 
 - Display scancodes in hexadecimal:
 
-`sudo showkey {{-s|--scancodes}}`
+`sudo showkey {{[-s|--scancodes]}}`
 
 - Display keycodes in decimal (default):
 
-`sudo showkey {{-k|--keycodes}}`
+`sudo showkey {{[-k|--keycodes]}}`
 
 - Display keycodes in ASCII, decimal, and hexadecimal:
 
-`sudo showkey {{-a|--ascii}}`
+`sudo showkey {{[-a|--ascii]}}`
 
 - Exit the program:
 
