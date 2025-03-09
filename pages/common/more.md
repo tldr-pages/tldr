@@ -16,14 +16,14 @@
 
 `<Space>`
 
-- Search for a string (press `n` to go to the next match):
+- Search for a string (press `<n>` to go to the next match):
 
-`/{{something}}`
+`</>{{something}}<Enter>`
 
 - Exit:
 
-`q`
+`<q>`
 
 - Display help about interactive commands:
 
-`h`
+`<h>`
