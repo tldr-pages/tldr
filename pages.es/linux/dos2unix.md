@@ -17,6 +17,6 @@
 
 `dos2unix {{[-i|--info]}} {{ruta/al/archivo}}`
 
-- Mantiene/añade/elimina Marca de Orden de Byte (Byte Order Mark):
+- Mantiene/añade/elimina marca de orden de byte (Byte Order Mark):
 
 `dos2unix --{{keep-bom|add-bom|remove-bom}} {{ruta/al/archivo}}`
