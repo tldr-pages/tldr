@@ -15,3 +15,7 @@
 - Print just a first line to `stdout`:
 
 `{{command}} | sed -n '1p'`
+
+- Replace all occurrences of `apple` with `mango` in the given input file:
+
+`sed --in-place 's/apple/mango/g' {{path/to/file}}`
