@@ -30,8 +30,8 @@
 
 - インターフェースにIPアドレスを追加/削除する:
 
-`ip {{[a|address]}} add/del {{ip}}/{{mask}} dev {{インターフェース}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{インターフェース}}`
 
 - デフォルトルートを追加する:
 
-`ip {{[r|route]}} add default via {{ip}} dev {{インターフェース}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{インターフェース}}`
