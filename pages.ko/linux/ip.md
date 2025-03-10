@@ -26,12 +26,12 @@
 
 - 인터페이스를 활성화/비활성화:
 
-`ip {{[l|link]}} set {{인터페이스}} {{up|down}}`
+`sudo ip {{[l|link]}} {{[s|set]}} {{인터페이스}} {{up|down}}`
 
 - 인터페이스에 IP 주소 추가/삭제:
 
-`ip {{[a|address]}} add/del {{IP}}/{{마스크}} dev {{인터페이스}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{IP}}/{{마스크}} dev {{인터페이스}}`
 
 - 기본 경로 추가:
 
-`ip {{[r|route]}} add default via {{IP}} dev {{인터페이스}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{IP}} dev {{인터페이스}}`
