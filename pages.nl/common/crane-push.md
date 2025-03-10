@@ -17,4 +17,4 @@
 
 - Toon de help:
 
-`crane push {{-h|--help}}`
+`crane push {{[-h|--help]}}`

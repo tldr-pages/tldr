@@ -13,7 +13,7 @@
 
 - Pad naar cache-image-lagen:
 
-`crane pull {{image_naam}} {{pad/naar/tarball}} {{-c|--cache_path}} {{pad/naar/cache}}`
+`crane pull {{image_naam}} {{pad/naar/tarball}} {{[-c|--cache_path]}} {{pad/naar/cache}}`
 
 - Formaat waarin images moeten worden opgeslagen (standaard 'tarball'):
 
@@ -21,4 +21,4 @@
 
 - Toon de help:
 
-`crane pull {{-h|--help}}`
+`crane pull {{[-h|--help]}}`

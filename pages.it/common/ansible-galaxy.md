@@ -29,4 +29,4 @@
 
 - Mostra aiuto su ruoli o collezioni:
 
-`ansible-galaxy {{ruolo|collezione}} {{-h|--help}}`
+`ansible-galaxy {{ruolo|collezione}} {{[-h|--help]}}`

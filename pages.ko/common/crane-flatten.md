@@ -10,8 +10,8 @@
 
 - 병합된 이미지에 새로운 태그 적용:
 
-`crane flatten {{-t|--tag}} {{태그_이름}}`
+`crane flatten {{[-t|--tag]}} {{태그_이름}}`
 
 - 도움말 표시:
 
-`crane flatten {{-h|--help}}`
+`crane flatten {{[-h|--help]}}`

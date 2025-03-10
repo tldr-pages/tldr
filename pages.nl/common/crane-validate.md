@@ -21,4 +21,4 @@
 
 - Toon de help:
 
-`crane validate {{-h|--help}}`
+`crane validate {{[-h|--help]}}`

@@ -18,20 +18,20 @@
 
 - Destaca uma linha específica ou um intervalo de linhas com uma cor de fundo diferente:
 
-`bat {{-H|--highlight-line}} {{10|5:10|:10|10:|10:+5}} {{/caminho/para/arquivo}}`
+`bat {{[-H|--highlight-line]}} {{10|5:10|:10|10:|10:+5}} {{/caminho/para/arquivo}}`
 
 - Mostra caracteres não imprimíveis como espaço, tab ou nova linha:
 
-`bat {{-A|--show-all}} {{/caminho/para/arquivo}}`
+`bat {{[-A|--show-all]}} {{/caminho/para/arquivo}}`
 
 - Remove toda estilizacão exceto os números das linhas no arquivo de saída:
 
-`bat {{-n|--number}} {{/caminho/para/arquivo}}`
+`bat {{[-n|--number]}} {{/caminho/para/arquivo}}`
 
 - Realça a sintaxe de um arquivo ao definir explicitamente a linguagem (e.g. JSON):
 
-`bat {{-l|--language}} json {{/caminho/para/arquivo.json}}`
+`bat {{[-l|--language]}} json {{/caminho/para/arquivo.json}}`
 
 - Mostra todas as linguagens suportadas:
 
-`bat {{-L|--list-languages}}`
+`bat {{[-L|--list-languages]}}`

@@ -17,4 +17,4 @@
 
 - Toon de help:
 
-`crane digest {{-h|--help}}`
+`crane digest {{[-h|--help]}}`
