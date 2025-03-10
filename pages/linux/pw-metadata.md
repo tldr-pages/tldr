@@ -26,8 +26,8 @@
 
 - Set `log.level` to 1 in `settings`:
 
-`pw-metadata --name {{settings}} {{0}} {{log.level}} {{1}}`
+`pw-metadata {{[-n|--name]}} {{settings}} {{0}} {{log.level}} {{1}}`
 
 - Display help:
 
-`pw-metadata --help`
+`pw-metadata {{[-h|--help]}}`

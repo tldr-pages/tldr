@@ -7,7 +7,7 @@
 
 - Toon alle procestypen (ook wel domeinen genoemd) die in permissieve modus zijn:
 
-`sudo semanage permissive {{-l|--list}}`
+`sudo semanage permissive {{[-l|--list]}}`
 
 - Stel de permissieve modus in of uit voor een domein:
 

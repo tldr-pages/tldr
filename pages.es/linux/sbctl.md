@@ -22,7 +22,7 @@
 
 - Firma un binario EFI con la clave creada y guarda el archivo en la base de datos:
 
-`sbctl sign {{-s|--save}} {{ruta/al/binario_efi}}`
+`sbctl sign {{[-s|--save]}} {{ruta/al/binario_efi}}`
 
 - Vuelve a firmar todos los archivos guardados:
 

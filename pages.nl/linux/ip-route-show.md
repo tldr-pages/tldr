@@ -5,32 +5,32 @@
 
 - Toon de routingtabel:
 
-`ip route show`
+`ip {{[r|route]}} show`
 
 - Toon de hoofdrouteringstabel (hetzelfde als eerste voorbeeld):
 
-`ip route show {{main|254}}`
+`ip {{[r|route]}} show {{main|254}}`
 
 - Toon de lokale routingtabel:
 
-`ip route show table {{local|255}}`
+`ip {{[r|route]}} show table {{local|255}}`
 
 - Toon Alle routetafels:
 
-`ip route show table {{all|unspec|0}}`
+`ip {{[r|route]}} show table {{all|unspec|0}}`
 
 - Toon alleen routes van een bepaald apparaat:
 
-`ip route show dev {{eth0}}`
+`ip {{[r|route]}} show dev {{eth0}}`
 
 - Toon routes binnen een bepaalde scope:
 
-`ip route show scope link`
+`ip {{[r|route]}} show scope link`
 
 - Toon de routeringscache:
 
-`ip route show cache`
+`ip {{[r|route]}} show cache`
 
 - Toon alleen IPv6 of IPv4 routes:
 
-`ip {{-6|-4}} route show`
+`ip {{-6|-4}} {{[r|route]}} show`

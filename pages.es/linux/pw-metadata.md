@@ -10,24 +10,24 @@
 
 - Muestra metadatos con el identificador 0 en `settings`:
 
-`pw-metadata {{-n|--name}} {{settings}} {{0}}`
+`pw-metadata {{[-n|--name]}} {{settings}} {{0}}`
 
 - Lista todos los objetos de metadatos disponibles:
 
-`pw-metadata {{-l|--list}}`
+`pw-metadata {{[-l|--list]}}`
 
 - Continua ejecutando y registrando los cambios en los metadatos:
 
-`pw-metadata {{-m|--monitor}}`
+`pw-metadata {{[-m|--monitor]}}`
 
 - Elimina todos los metadatos:
 
-`pw-metadata {{-d|--delete}}`
+`pw-metadata {{[-d|--delete]}}`
 
 - Ajusta `log.level` a 1 en `settings`:
 
-`pw-metadata --name {{settings}} {{0}} {{log.level}} {{1}}`
+`pw-metadata {{[-n|--name]}} {{settings}} {{0}} {{log.level}} {{1}}`
 
 - Muestra ayuda:
 
-`pw-metadata --help`
+`pw-metadata {{[-h|--help]}}`

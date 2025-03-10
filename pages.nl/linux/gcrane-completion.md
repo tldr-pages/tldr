@@ -34,4 +34,4 @@
 
 - Toon de help:
 
-`gcrane completion {{shell_naam}} {{-h|--help}}`
+`gcrane completion {{shell_naam}} {{[-h|--help]}}`
