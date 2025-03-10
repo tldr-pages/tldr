@@ -11,11 +11,11 @@
 
 - Crea una copia con finales de línea de estilo DOS:
 
-`unix2dos {{-n|--newfile}} {{ruta/al/archivo}} {{ruta/a/archivo_nuevo}}`
+`unix2dos {{[-n|--newfile]}} {{ruta/al/archivo}} {{ruta/a/archivo_nuevo}}`
 
 - Muestra información del archivo:
 
-`unix2dos {{-i|--info}} {{ruta/al/archivo}}`
+`unix2dos {{[-i|--info]}} {{ruta/al/archivo}}`
 
 - Mantiene/añade/elimina marca de bit de orden (Byte Order Mark):
 
