@@ -6,7 +6,7 @@
 
 - Vuelca credenciales de una máquina Windows utilizando un nombre de usuario y una contraseña:
 
-`secretsdump.py {{dominio}}/{{nombre_de_usuario}}:{{contraseña}}@{objetivo}}`
+`secretsdump.py {{dominio}}/{{nombre_de_usuario}}:{{contraseña}}@{{objetivo}}`
 
 - Vuelca hashes de una máquina utilizando autenticación pass-the-hash:
 
