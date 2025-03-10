@@ -14,20 +14,20 @@
 
 - 주어진 [L]언어로 된 명령어의 tldr 페이지를 출력 (가능한 경우, 그렇지 않으면 영어로 표시):
 
-`tldr --language {{언어_코드}} {{명령어}}`
+`tldr {{[-L|--language]}} {{언어_코드}} {{명령어}}`
 
 - 특정 [p]플랫폼의 명령어에 대한 tldr 페이지를 출력:
 
-`tldr --platform {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{명령어}}`
+`tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{명령어}}`
 
 - tldr 페이지의 로컬 캐시 [u]업데이트:
 
-`tldr --update`
+`tldr {{[-u|--update]}}`
 
 - 현재 플랫폼 및 `common`에 대한 모든 페이지 [l]목록:
 
-`tldr --list`
+`tldr {{[-l|--list]}}`
 
 - 명령어에 대한 사용할 수 있는 모든 하위 명령 페이지 [l]목록:
 
-`tldr --list | grep {{명령어}} | column`
+`tldr {{[-l|--list]}} | grep {{명령어}} | column`

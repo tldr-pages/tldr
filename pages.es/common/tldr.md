@@ -14,24 +14,24 @@
 
 - Imprime la página tldr para un comando en el [L]enguaje dado (si está disponible, de lo contrario vuelve al inglés):
 
-`tldr --language {{código_de_lenguaje}} {{comando}}`
+`tldr {{[-L|--language]}} {{código_de_lenguaje}} {{comando}}`
 
 - Imprime la página tldr para un comando de una [p]lataforma específica:
 
-`tldr --platform {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{comando}}`
+`tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{comando}}`
 
 - Actualiza la caché local de páginas tldr:
 
-`tldr --update`
+`tldr {{[-u|--update]}}`
 
 - [l]ista todas las páginas para la plataforma actual y `common`:
 
-`tldr --list`
+`tldr {{[-l|--list]}}`
 
 - [l]ista todas las páginas de subcomandos disponibles para un comando:
 
-`tldr --list | grep {{comando}} | column`
+`tldr {{[-l|--list]}} | grep {{comando}} | column`
 
 - Imprime la página tldr para un comando aleatorio:
 
-`tldr --list | shuf -n1 | xargs tldr`
+`tldr {{[-l|--list]}} | shuf -n1 | xargs tldr`

@@ -9,7 +9,7 @@
 
 - 顯示 Linux 作業系統中 tar 指令的用法：
 
-`tldr -p {{linux}} {{tar}}`
+`tldr {{[-p|--platform]}} {{linux}} {{tar}}`
 
 - 顯示 Git 的子指令 checkout 的用法：
 

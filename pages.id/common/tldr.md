@@ -14,24 +14,24 @@
 
 - Tampilkan laman bantuan untuk suatu perintah dalam suatu bahasa (jika tersedia, selainnya dalam bahasa Inggris):
 
-`tldr --language {{kode_bahasa}} {{perintah}}`
+`tldr {{[-L|--language]}} {{kode_bahasa}} {{perintah}}`
 
 - Tampilkan laman bantuan untuk suatu perintah pada [p]latform tujuan:
 
-`tldr --platform {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{command}}`
+`tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{command}}`
 
 - M[u]takhirkan data cache lokal untuk laman-laman bantuan:
 
-`tldr --update`
+`tldr {{[-u|--update]}}`
 
 - Tampilkan daftar seluruh laman bantuan untuk perintah-perintah yang tersedia pada platform saat ini dan `common` (lintas platform):
 
-`tldr --list`
+`tldr {{[-l|--list]}}`
 
 - Tampilkan daftar seluruh laman bantuan subperintah yang tersedia untuk dokumentasi suatu perintah induk:
 
-`tldr --list | grep {{perintah}} | column`
+`tldr {{[-l|--list]}} | grep {{perintah}} | column`
 
 - Tampilkan suatu laman bantuan untuk perintah yang dipilih secara acak:
 
-`tldr --list | shuf -n1 | xargs tldr`
+`tldr {{[-l|--list]}} | shuf -n1 | xargs tldr`
