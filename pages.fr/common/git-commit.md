@@ -5,11 +5,11 @@
 
 - Commit les fichiers en stage dans le dépôt avec un message :
 
-`git commit -m "{{message}}"`
+`git commit {{[-m|--message]}} "{{message}}"`
 
 - Commit tous les fichiers modifiés avec un message :
 
-`git commit -am "{{message}}"`
+`git commit {{[-a|--all]}} {{[-m|--message]}} "{{message}}"`
 
 - Met à jour le dernier commit avec les modifications en stage :
 

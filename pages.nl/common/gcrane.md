@@ -24,8 +24,8 @@
 
 - Schakel debuglogs in:
 
-`gcrane {{-v|--verbose}} {{subcommand}}`
+`gcrane {{[-v|--verbose]}} {{subcommand}}`
 
 - Toon de help:
 
-`gcrane {{-h|--help}}`
+`gcrane {{[-h|--help]}}`

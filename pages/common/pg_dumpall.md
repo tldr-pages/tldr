@@ -13,7 +13,7 @@
 
 - Same as above, customize host and port:
 
-`pg_dumpall -h {{host}} -p {{port}} > {{output_file.sql}}`
+`pg_dumpall {{[-h|--host]}} {{host}} {{[-p|--port]}} {{port}} > {{output_file.sql}}`
 
 - Dump only database data into an SQL-script file:
 
@@ -21,4 +21,4 @@
 
 - Dump only schema (data definitions) into an SQL-script file:
 
-`pg_dumpall -s > {{output_file.sql}}`
+`pg_dumpall {{[-s|--schema-only]}} > {{output_file.sql}}`

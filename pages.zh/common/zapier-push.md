@@ -13,4 +13,4 @@
 
 - 显示额外的调试输出：
 
-`zapier push {{-d|--debug}}`
+`zapier push {{[-d|--debug]}}`

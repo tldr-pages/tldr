@@ -9,4 +9,4 @@
 
 - Redimensiona la imagen a la anchura y altura especificadas antes de mostrarla:
 
-`img2sixel {{-w|--width}} {{número}} {{-h|--altura}} {{número}} {{ruta/a/imagen}}`
+`img2sixel {{[-w|--width]}} {{número}} {{[-h|--altura]}} {{número}} {{ruta/a/imagen}}`

@@ -10,16 +10,16 @@
 
 - Usa una lista de palabras específica:
 
-`toipe {{-w|--wordlist}} {{nombre_de_la_lista}}`
+`toipe {{[-w|--wordlist]}} {{nombre_de_la_lista}}`
 
 - Utiliza una lista de palabras personalizada:
 
-`toipe {{-f|--file}} {{ruta/al/archivo}}`
+`toipe {{[-f|--file]}} {{ruta/al/archivo}}`
 
 - Especifica el número de palabras de cada prueba:
 
-`toipe {{-n|--num}} {{número_de_palabras}}`
+`toipe {{[-n|--num]}} {{número_de_palabras}}`
 
 - Incluye signos de puntuación:
 
-`toipe {{-p|--punctuation}}`
+`toipe {{[-p|--punctuation]}}`

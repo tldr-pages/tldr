@@ -17,7 +17,7 @@
 
 - 다른 컴포즈 파일을 사용하여 모든 컨테이너 시작:
 
-`podman-compose {{-f|--file}} {{경로/대상/파일.yaml}} up`
+`podman-compose {{[-f|--file]}} {{경로/대상/파일.yaml}} up`
 
 - 실행 중인 모든 컨테이너 중지:
 

@@ -9,7 +9,7 @@
 
 - Descarga cambios del repositorio remoto por defecto y usa avance rápido (fast forward):
 
-`git pull --rebase`
+`git pull {{[-r|--rebase]}}`
 
 - Descarga cambios de un repositorio remoto y una rama específica para fusionarlos en HEAD:
 

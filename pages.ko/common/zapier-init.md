@@ -9,8 +9,8 @@
 
 - 특정 템플릿으로 새 Zapier 통합 초기화:
 
-`zapier init {{경로/대상/폴더}} {{-t|--template}} {{basic-auth|callback|custom-auth|digest-auth|dynamic-dropdown|files|minimal|oauth1-trello|oauth2|search-or-create|session-auth|typescript}}`
+`zapier init {{경로/대상/폴더}} {{[-t|--template]}} {{basic-auth|callback|custom-auth|digest-auth|dynamic-dropdown|files|minimal|oauth1-trello|oauth2|search-or-create|session-auth|typescript}}`
 
 - 추가 디버깅 출력 표시:
 
-`zapier init {{-d|--debug}}`
+`zapier init {{[-d|--debug]}}`

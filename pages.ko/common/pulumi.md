@@ -30,4 +30,4 @@
 
 - Pulumi Cloud와 독립적으로 Pulumi를 로컬에서 사용:
 
-`pulumi login {{-l|--local}}`
+`pulumi login {{[-l|--local]}}`

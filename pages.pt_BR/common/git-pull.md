@@ -9,7 +9,7 @@
 
 - Baixa as alterações do repositório remoto padrão e usa o avanço rápido:
 
-`git pull --rebase`
+`git pull {{[-r|--rebase]}}`
 
 - Baixa as alterações de um determinado repositório remoto e branch, então, mescla-as no HEAD:
 

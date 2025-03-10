@@ -18,7 +18,7 @@
 
 - Track and terminate the process after prolonged suspension:
 
-`ntfyme exec {{-t|--track-process}} {{[-c|--cmd]}} {{command}}`
+`ntfyme exec {{[-t|--track-process]}} {{[-c|--cmd]}} {{command}}`
 
 - Setup the tool configurations interactively:
 

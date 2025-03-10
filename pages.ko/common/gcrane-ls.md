@@ -14,8 +14,8 @@
 
 - 레포지토리를 통해 반복할지 여부 결정:
 
-`gcrane ls {{레포지토리}} {{-r|--recursive}}`
+`gcrane ls {{레포지토리}} {{[-r|--recursive]}}`
 
 - 도움말 표시:
 
-`gcrane ls {{-h|--help}}`
+`gcrane ls {{[-h|--help]}}`
