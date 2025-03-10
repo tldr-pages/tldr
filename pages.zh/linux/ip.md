@@ -26,12 +26,12 @@
 
 - 使接口启动/关闭：
 
-`ip {{[l|link]}} set {{interface}} {{up|down}}`
+`sudo ip {{[l|link]}} {{[s|set]}} {{interface}} {{up|down}}`
 
 - 向接口添加/删除 IP 地址：
 
-`ip {{[a|address]}} add/del {{ip}}/{{mask}} dev {{interface}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{interface}}`
 
 - 添加默认路由：
 
-`ip {{[r|route]}} add default via {{ip}} dev {{interface}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{interface}}`

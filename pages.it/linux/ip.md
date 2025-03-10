@@ -26,12 +26,12 @@
 
 - Attiva/disattiva un'interfaccia:
 
-`ip {{[l|link]}} set {{interfaccia}} {{up|down}}`
+`sudo ip {{[l|link]}} {{[s|set]}} {{interfaccia}} {{up|down}}`
 
 - Aggiungi/elimina un indirizzo IP a/da un'interfaccia:
 
-`ip {{[a|address]}} add/del {{ip}}/{{mask}} dev {{interfaccia}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{interfaccia}}`
 
 - Aggiungi una route predefinita:
 
-`ip {{[r|route]}} add default via {{ip}} dev {{interfaccia}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{interfaccia}}`

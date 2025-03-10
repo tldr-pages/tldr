@@ -9,20 +9,20 @@
 
 - Zeige nur die aktiven Netzwerk-Interfaces:
 
-`ip {{[a|address]}} show up`
+`ip {{[a|address]}} {{[s|show]}} up`
 
 - Zeige Informationen über ein bestimmtes Interface:
 
-`ip {{[a|address]}} show dev {{eth0}}`
+`ip {{[a|address]}} {{[s|show]}} {{eth0}}`
 
 - Füge eine Adresse zu einem Interface hinzu:
 
-`ip {{[a|address]}} add {{ip_adresse}} dev {{eth0}}`
+`sudo ip {{[a|address]}} {{[a|add]}} {{ip_adresse}} dev {{eth0}}`
 
 - Entferne eine Adresse von einem Interface:
 
-`ip {{[a|address]}} delete {{ip_adresse}} dev {{eth0}}`
+`sudo ip {{[a|address]}} {{[d|delete]}} {{ip_adresse}} dev {{eth0}}`
 
 - Entfernt alle IP Adressen in einem speziellen Bereich von einem Interface:
 
-`ip {{[a|address]}} flush dev {{eth0}} scope {{global|host|link}}`
+`sudo ip {{[a|address]}} {{[f|flush]}} {{eth0}} scope {{global|host|link}}`

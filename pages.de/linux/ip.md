@@ -25,12 +25,12 @@
 
 - Schalte ein bestimmtes Interface ein oder aus:
 
-`ip {{[l|link]}} set {{interface}} {{up|down}}`
+`sudo ip {{[l|link]}} {{[s|set]}} {{interface}} {{up|down}}`
 
 - Entferne oder füge eine IP zu einem Interface hinzu:
 
-`ip {{[a|address]}} add/del {{ip}}/{{mask}} dev {{interface}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{interface}}`
 
 - Füge eine Standard Route hinzu:
 
-`ip {{[r|route]}} add default via {{ip}} dev {{interface}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{interface}}`

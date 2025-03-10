@@ -9,15 +9,15 @@
 
 - `eth0` aygıtının komşu tablosundaki girdileri kaldır:
 
-`sudo ip {{[n|neighbour]}} flush dev {{eth0}}`
+`sudo ip {{[n|neighbour]}} {{[f|flush]}} dev {{eth0}}`
 
 - Bir komşu araması gerçekleştir ve bir komşu girdisi döndür:
 
-`ip {{[n|neighbour]}} get {{aranacak_ip}} dev {{eth0}}`
+`ip {{[n|neighbour]}} {{[g|get]}} {{aranacak_ip}} dev {{eth0}}`
 
 - `eth0` arayüzüne komşu IP adresi için bir ARP girdisi ekle veya sil:
 
-`sudo ip {{[n|neighbour]}} {{add|del}} {{ip_adresi}} lladdr {{mac_adresi}} dev {{eth0}} nud reachable`
+`sudo ip {{[n|neighbour]}} {{add|delete}} {{ip_adresi}} lladdr {{mac_adresi}} dev {{eth0}} nud reachable`
 
 - `eth0` arayüzünde komşu IP adresi için bir ARP girdisini değiştir:
 

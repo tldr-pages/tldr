@@ -9,15 +9,15 @@
 
 - Elimina entradas en la tabla de vecinos del dispositivo `eth0`:
 
-`sudo ip {{[n|neighbour]}} flush dev {{eth0}}`
+`sudo ip {{[n|neighbour]}} {{[f|flush]}} dev {{eth0}}`
 
 - Realiza una búsqueda de vecinos y devuelve una entrada de vecinos:
 
-`ip {{[n|neighbour]}} get {{lookup_ip}} dev {{eth0}}`
+`ip {{[n|neighbour]}} {{[g|get]}} {{lookup_ip}} dev {{eth0}}`
 
 - Agrega o elimina una entrada ARP a los vecinos IP de `eth0`:
 
-`sudo ip {{[n|neighbour]}} {{add|del}} {{dirección_ip}} lladdr {{mac_address}} dev {{eth0}} nud reachable`
+`sudo ip {{[n|neighbour]}} {{add|delete}} {{dirección_ip}} lladdr {{mac_address}} dev {{eth0}} nud reachable`
 
 - Cambia o reemplaza una entrada ARP para la dirección IP vecina a `eth0`:
 
