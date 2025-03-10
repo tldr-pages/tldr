@@ -5,4 +5,4 @@
 
 - Update a translation file:
 
-`msgmerge {{[-U|--update]}} {{file.po}} {{messages.pot}}`
+`msgmerge {{[-U|--update]}} {{path/to/file.po}} {{path/to/messages.pot}}`
