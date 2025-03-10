@@ -15,7 +15,7 @@
 
 `scrot --select`
 
-- 키보드 입력으로 종료하지 않고 대화형으로 스크린샷 캡처, `ESC`를 눌러 종료:
+- 키보드 입력으로 종료하지 않고 대화형으로 스크린샷 캡처, `<Esc>`를 눌러 종료:
 
 `scrot --select --ignorekeyboard`
 

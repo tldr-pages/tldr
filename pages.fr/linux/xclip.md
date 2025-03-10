@@ -1,7 +1,7 @@
 # xclip
 
 > Outil de manipulation de presse-papiers X11, semblable à `xsel`.
-> Gère les sélections primaires et secondaires de X, en plus du presse-papier système (`Ctrl + C`/`Ctrl + V`).
+> Gère les sélections primaires et secondaires de X, en plus du presse-papier système (`<Ctrl c>`/`<Ctrl v>`).
 > Plus d'informations : <https://manned.org/xclip>.
 
 - Copie la sortie d'une commande vers la zone de sélection primaire de X11 (presse-papiers) :
