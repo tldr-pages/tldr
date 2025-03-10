@@ -18,7 +18,7 @@
 
 - Transférer le contenu d'un dossier (mais pas le dossier lui-même) :
 
-`rsync {{[-r|--recursive]}} {{chemin/vers/origine}}/ {{chemin/vers/destination}}`
+`rsync {{[-r|--recursive]}} {{chemin/vers/origine/}} {{chemin/vers/destination}}`
 
 - Utiliser le mode archive, résolvant les liens symboliques et ignorant les fichiers déjà transférés sauf si plus récents :
 

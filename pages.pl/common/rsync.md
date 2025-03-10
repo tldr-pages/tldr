@@ -22,7 +22,7 @@
 
 - Prześlij zawartość katalogu, ale nie sam katalog:
 
-`rsync {{[-r|--recursive]}} {{ścieżka/do/źródła}}/ {{ścieżka/do/miejsca_docelowego}}`
+`rsync {{[-r|--recursive]}} {{ścieżka/do/źródła/}} {{ścieżka/do/miejsca_docelowego}}`
 
 - Rekursywnie kopiuj katalogi, użyj trybu archiwum, rozwiąż dowiązania symboliczne i pomiń pliki, które są nowsze w miejscu docelowym:
 

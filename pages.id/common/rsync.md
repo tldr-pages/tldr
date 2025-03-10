@@ -22,7 +22,7 @@
 
 - Transfer isi direktori, tetapi bukan direktori itu sendiri:
 
-`rsync {{[-r|--recursive]}} {{jalan/menuju/sumber}}/ {{jalan/menuju/tujuan}}`
+`rsync {{[-r|--recursive]}} {{jalan/menuju/sumber/}} {{jalan/menuju/tujuan}}`
 
 - Gunakan mode arsip, selesaikan tautan simbolik, dan lewati file yang lebih baru di tujuan:
 
