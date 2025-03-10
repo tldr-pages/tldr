@@ -1,6 +1,6 @@
 # uname
 
-> Uname prints information about the machine and operating system it is run on.
+> Print details about the current machine and the operating system running on it.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - Print all information:
