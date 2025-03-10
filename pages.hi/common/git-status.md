@@ -10,12 +10,12 @@
 
 - शॉर्ट-फॉर्मेट में आउटपुट दें:
 
-`git status -s`
+`git status {{[-s|--short]}}`
 
 - आउटपुट में ट्रैक न की गई फ़ाइलें न दिखाएं:
 
-`git status --untracked-files=no`
+`git status {{[-uno|--untracked-files=no]}}`
 
-- [b]शाखा की जानकारी के साथ [s]लघु प्रारूप में आउटपुट दिखाएं:
+- शाखा की जानकारी के साथ लघु प्रारूप में आउटपुट दिखाएं:
 
-`git status -sb`
+`git status {{[-sb|--short --branch]}}`

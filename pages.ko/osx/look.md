@@ -10,11 +10,11 @@
 
 - 대소문자를 구분하지 않고 영숫자 문자만 검색:
 
-`look {{-f|--ignore-case}} {{-d|--alphanum}} {{접두사}} {{경로/대상/파일}}`
+`look {{[-f|--ignore-case]}} {{[-d|--alphanum]}} {{접두사}} {{경로/대상/파일}}`
 
 - 문자열 종료 문자를 지정 (기본값은 공백):
 
-`look {{-t|--terminate}} {{,}}`
+`look {{[-t|--terminate]}} {{,}}`
 
 - `/usr/share/dict/words`에서 검색 (`--ignore-case` 및 `--alphanum` 기본 적용):
 

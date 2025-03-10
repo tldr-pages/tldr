@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD007 MD013 MD024-->
 # tldr-pages client specification
 
-**Current Specification Version:** Unreleased
+**Current Specification Version:** 2.3
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#changelog) below.
 
@@ -126,7 +126,7 @@ Although this specification is about the interface that clients must provide, it
 Things to take into account:
 - Clients MAY highlight the placeholders and MUST remove the surrounding curly braces.
 - If option placeholders are set to show only shortform or longform options, they MUST not be highlighted. This is because there is no longer user choice involved.
-- Clients MUST remove the angle brackets from option placeholders when only short- or longform is shown.
+- Clients MUST remove the square brackets from option placeholders when only short- or longform is shown.
 - Clients MUST NOT treat them as the placeholder syntax if they are escaped using `\` (i.e. `\{\{` and `\}\}`) and MUST instead display literal braces, without backslashes. Placeholder escaping applies only when both braces are escaped (e.g. in `\{` or `\{{`, backslashes MUST be displayed).
 - In cases when a command uses `{}` in its arguments (e.g. `stash@{0}`) **_the outer braces_** mark the placeholder - the braces inside MUST be displayed.
 - Clients MUST NOT break if the page format is changed within the _CommonMark_ specification.
@@ -254,8 +254,11 @@ the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
 
-- Unreleased
+- [v2.3, March 7th 2025](https://github.com/tldr-pages/tldr/blob/v2.3/CLIENT-SPECIFICATION.md) ([#15866](https://github.com/tldr-pages/tldr/pull/15866))
   - Added longform/shortform specifications ([#15253](https://github.com/tldr-pages/tldr/pull/15253))
+  - Specify `common` as a supported platform option ([#15855](https://github.com/tldr-pages/tldr/pull/15855))
+  - Add the date of removal of the old asset website ([#15862](https://github.com/tldr-pages/tldr/pull/15862))
+  - Various grammar fixes
 
 - [v2.2, March 20th 2024](https://github.com/tldr-pages/tldr/blob/v2.2/CLIENT-SPECIFICATION.md) ([#12452](https://github.com/tldr-pages/tldr/pull/12452))
   - Removed redirect text from the [caching section](#caching) ([#12133](https://github.com/tldr-pages/tldr/pull/12133))

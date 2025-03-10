@@ -6,32 +6,32 @@
 
 - List interfaces with detailed info:
 
-`ip address`
+`ip {{[a|address]}}`
 
 - List interfaces with brief network layer info:
 
-`ip -brief address`
+`ip {{[-br a|-brief address]}}`
 
 - List interfaces with brief link layer info:
 
-`ip -brief link`
+`ip {{[-br l|-brief link]}}`
 
 - Display the routing table:
 
-`ip route`
+`ip {{[r|route]}}`
 
 - Show neighbors (ARP table):
 
-`ip neighbour`
+`ip {{[n|neighbour]}}`
 
 - Make an interface up/down:
 
-`ip link set {{interface}} {{up|down}}`
+`sudo ip {{[l|link]}} {{[s|set]}} {{interface}} {{up|down}}`
 
 - Add/Delete an IP address to an interface:
 
-`ip addr add/del {{ip}}/{{mask}} dev {{interface}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{interface}}`
 
 - Add a default route:
 
-`ip route add default via {{ip}} dev {{interface}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{interface}}`

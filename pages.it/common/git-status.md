@@ -10,12 +10,12 @@
 
 - Mostra l'output in formato ridotto:
 
-`git status -s`
+`git status {{[-s|--short]}}`
 
 - Nascondi i file non tracciati dall'output:
 
-`git status --untracked-files=no`
+`git status {{[-uno|--untracked-files=no]}}`
 
 - Mostra informazioni sul ramo ed in formato ridotto:
 
-`git status -sb`
+`git status {{[-sb|--short --branch]}}`

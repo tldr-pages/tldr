@@ -228,7 +228,7 @@ In the following case `just.md` is the filename of the disambiguation page while
 
 ### Grouping commands
 
-Sometimes commands are meant to be used in combination with other commands. In these cases it makes sense to move them on the same page. 
+Sometimes commands are meant to be used in combination with other commands. In these cases it makes sense to move them on the same page.
 
 For example `adb disconnect` has a single way using it, but `adb` is expansive enough that it doesn't fit in the main page. Normally, `adb disconnect` is used in combination with `adb pair` and `adb connect`, thus it makes sense to group these together into a single page. For example:
 
@@ -445,11 +445,6 @@ Keep the following guidelines in mind when choosing placeholders:
 - Use short but descriptive placeholders,
   such as `{{path/to/source_file}}` or `{{path/to/wallet.txt}}`.
 - Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
-- Use a generic placeholder rather than an actual value where a generic placeholder is available (but there is an exception to this listed below). For example, use
-`iostat {{1..infinity}}` rather than `iostat {{2}}`.
-- If there are several consecutive placeholders of the same type
-  which don't allow adding arbitrary text in them (ranges), then instead of generic placeholders use descriptive ones. For example prefer `input swipe {{x_position}} {{y_position}} {{x_position}} {{y_position}} {{seconds}}`
-  instead of `input swipe {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{1..infinity}}`.
 
 #### Paths
 
@@ -482,6 +477,7 @@ Keep the following guidelines in mind when choosing placeholders:
 - If a command can optionally take 1 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
   For instance, if multiple paths are expected, use `{{path/to/directory1 path/to/directory2 ...}}`.
 - If only one of the multiple options is possible, write it as: `{{placeholder1|placeholder2|placeholder3}}`. If there are more than 4 possible values, you can use `|...` after the last item.
+- Use two dots to mark a range of possible values, for example `{{1..5}}` or `{{a..z}}`.
 
 #### Optional placeholders
 
