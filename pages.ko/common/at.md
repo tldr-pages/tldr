@@ -8,7 +8,7 @@
 
 `systemctl start atd`
 
-- 대화형으로 명령을 생성하고, 5분 안에 실행 (완료되면 `<Ctrl> + D` 누르기):
+- 대화형으로 명령을 생성하고, 5분 안에 실행 (완료되면 `<Ctrl d>` 누르기):
 
 `at now + 5 minutes`
 

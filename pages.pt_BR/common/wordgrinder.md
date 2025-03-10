@@ -13,4 +13,4 @@
 
 - Mostra o menu:
 
-`<Alt> + M`
+`<Alt m>`

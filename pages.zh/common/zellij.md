@@ -18,8 +18,8 @@
 
 - 打开一个新窗格（在 zellij 会话中）：
 
-`<Alt> + N`
+`<Alt n>`
 
 - 从当前会话分离（在 zellij 会话中）：
 
-`<Ctrl> + O, D`
+`<Ctrl o><d>`

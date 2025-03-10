@@ -8,7 +8,7 @@
 
 `asciinema auth`
 
-- 进行新的录制（使用 `Ctrl+D` 完成录制或键入 `exit`，然后选择上传或保存到本地）：
+- 进行新的录制（使用 `<Ctrl d>` 完成录制或键入 `exit`，然后选择上传或保存到本地）：
 
 `asciinema rec`
 

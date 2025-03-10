@@ -10,24 +10,24 @@
 
 - 파일 저장:
 
-`<Ctrl> + S`
+`<Ctrl s>`
 
 - 전체 줄 잘라내기:
 
-`<Ctrl> + K`
+`<Ctrl k>`
 
-- 파일에서 패턴 검색 (다음/이전 일치 항목으로 이동하려면 `Ctrl + N`/`Ctrl + P`를 누르세요):
+- 파일에서 패턴 검색 (다음/이전 일치 항목으로 이동하려면 `<Ctrl n>`/`<Ctrl p>`를 누르세요):
 
-`<Ctrl> + F "{{패턴}}" <Enter>`
+`<Ctrl f>{{패턴}}<Enter>`
 
 - 명령 실행:
 
-`<Ctrl> + E {{명령}} <Enter>`
+`<Ctrl e>{{명령}}<Enter>`
 
 - 파일 전체에서 치환 수행:
 
-`<Ctrl> + E replaceall "{{패턴}}" "{{대체}}" <Enter>`
+`<Ctrl e>replaceall "{{패턴}}" "{{대체}}"<Enter>`
 
 - 종료:
 
-`<Ctrl> + Q`
+`<Ctrl q>`
