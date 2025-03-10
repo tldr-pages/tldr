@@ -10,11 +10,11 @@
 
 - Wyszukuj bez uwzględniania wielkości liter, tylko znaki alfanumeryczne:
 
-`look {{-f|--ignore-case}} {{-d|--alphanum}} {{przedrostek}} {{ścieżka/do/pliku}}`
+`look {{[-f|--ignore-case]}} {{[-d|--alphanum]}} {{przedrostek}} {{ścieżka/do/pliku}}`
 
 - Określ znak kończący ciąg znaków (domyślnie spacja):
 
-`look {{-t|--terminate}} {{,}}`
+`look {{[-t|--terminate]}} {{,}}`
 
 - Wyszukaj w `/usr/share/dict/words` (przyjęte opcje `--ignore-case` i `--alphanum`):
 

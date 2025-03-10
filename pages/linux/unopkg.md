@@ -27,4 +27,4 @@
 
 - Display help:
 
-`unopkg {{-h|--help}}`
+`unopkg {{[-h|--help]}}`

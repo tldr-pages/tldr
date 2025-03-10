@@ -10,24 +10,24 @@
 
 - Navigate left/up/down/right:
 
-`{{H|J|K|L|arrow keys}}`
+`{{<h>|<j>|<k>|<l>|<ArrowKeys>}}`
 
 - Rotate:
 
-`r`
+`<r>`
 
 - Invert Colors:
 
-`<Ctrl> + R`
+`<Ctrl r>`
 
 - Search for text by a given string:
 
-`/{{string}}`
+`</>{{string}}`
 
 - Create/delete bookmarks:
 
-`:{{bmark|bdelete}} {{bookmark_name}}`
+`<:>{{bmark|bdelete}} {{bookmark_name}}<Enter>`
 
 - List bookmarks:
 
-`:blist`
+`<:>blist<Enter>`

@@ -10,27 +10,27 @@
 
 - Read objects from `pw-dump` JSON file:
 
-`pw-dot {{-j|--json}} {{path/to/file.json}}`
+`pw-dot {{[-j|--json]}} {{path/to/file.json}}`
 
 - Specify an [o]utput file, showing all object types:
 
-`pw-dot --output {{path/to/file.dot}} {{-a|--all}}`
+`pw-dot --output {{path/to/file.dot}} {{[-a|--all]}}`
 
 - Print `.dot` graph to `stdout`, showing all object properties:
 
-`pw-dot --output - {{-d|--detail}}`
+`pw-dot --output - {{[-d|--detail]}}`
 
 - Generate a graph from a [r]emote instance, showing only linked objects:
 
-`pw-dot --remote {{remote_name}} {{-s|--smart}}`
+`pw-dot --remote {{remote_name}} {{[-s|--smart]}}`
 
 - Lay the graph from left to right, instead of dot's default top to bottom:
 
-`pw-dot {{-L|--lr}}`
+`pw-dot {{[-L|--lr]}}`
 
 - Lay the graph using 90-degree angles in edges:
 
-`pw-dot {{-9|--90}}`
+`pw-dot {{[-9|--90]}}`
 
 - Display help:
 

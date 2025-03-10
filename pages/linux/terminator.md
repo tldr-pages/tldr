@@ -13,12 +13,12 @@
 
 - Split terminals horizontally:
 
-`<Ctrl> + <Shift> + O`
+`<Ctrl Shift o>`
 
 - Split terminals vertically:
 
-`<Ctrl> + <Shift> + E`
+`<Ctrl Shift e>`
 
 - Open new tab:
 
-`<Ctrl> + <Shift> + T`
+`<Ctrl Shift t>`

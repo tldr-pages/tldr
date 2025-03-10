@@ -10,11 +10,11 @@
 
 - Zoek hoofdletterongevoelig alleen op alfanumerieke tekens:
 
-`look {{-f|--ignore-case}} {{-d|--alphanum}} {{prefix}} {{pad/naar/bestand}}`
+`look {{[-f|--ignore-case]}} {{[-d|--alphanum]}} {{prefix}} {{pad/naar/bestand}}`
 
 - Specificeer een string-terminatiekarakter (standaard is spatie):
 
-`look {{-t|--terminate}} {{,}}`
+`look {{[-t|--terminate]}} {{,}}`
 
 - Zoek in `/usr/share/dict/words` (`--ignore-case` en `--alphanum` worden aangenomen):
 

@@ -418,15 +418,15 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 
 > [!NOTE]\
 > In cases where the character isn't present in the translated word, you can highlight the option before/next to the equivalent word or you can add the English work beside the translation inside a bracket.
-> For example, `E[x]tract` in English maybe translated into `[x] ekstrak` or `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
+> For example, `E[x]tract` in English may be translated into `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
 
 ## Example commands
 
 ### Option syntax
 
-- For commonly/frequently used commands (e.g. `grep`, `tar`, etc.), we prefer using short options along with [mnemonics](#short-option-mnemonics) or both inside a placeholder.
+- For user-friendliness, prefer **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
+- If a command only supports short options, attempt to document what the letter is short for with a [mnemonic](#short-option-mnemonics).
 - For letting the client decide whether to show long or short options in commands, use an option placeholder i.e. `{{[-o|--output]}}`.
-- For user-friendliness, use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
 - Prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`), unless the program does not support it.
 - Likewise prefer separating shortform options from their arguments with a space (i.e. use `-o arg` instead of `-oarg`), unless the program does not support it.
 
@@ -445,11 +445,6 @@ Keep the following guidelines in mind when choosing placeholders:
 - Use short but descriptive placeholders,
   such as `{{path/to/source_file}}` or `{{path/to/wallet.txt}}`.
 - Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
-- Use a generic placeholder rather than an actual value where a generic placeholder is available (but there is an exception to this listed below). For example, use
-`iostat {{1..infinity}}` rather than `iostat {{2}}`.
-- If there are several consecutive placeholders of the same type
-  which don't allow adding arbitrary text in them (ranges), then instead of generic placeholders use descriptive ones. For example prefer `input swipe {{x_position}} {{y_position}} {{x_position}} {{y_position}} {{seconds}}`
-  instead of `input swipe {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{1..infinity}}`.
 
 #### Paths
 
@@ -482,6 +477,7 @@ Keep the following guidelines in mind when choosing placeholders:
 - If a command can optionally take 1 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
   For instance, if multiple paths are expected, use `{{path/to/directory1 path/to/directory2 ...}}`.
 - If only one of the multiple options is possible, write it as: `{{placeholder1|placeholder2|placeholder3}}`. If there are more than 4 possible values, you can use `|...` after the last item.
+- Use two dots to mark a range of possible values, for example `{{1..5}}` or `{{a..z}}`.
 
 #### Optional placeholders
 

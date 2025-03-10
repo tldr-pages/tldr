@@ -13,8 +13,8 @@
 
 - Log out of using local mode:
 
-`pulumi logout {{-l|--local}}`
+`pulumi logout {{[-l|--local]}}`
 
 - Display help:
 
-`pulumi logout {{-h|--help}}`
+`pulumi logout {{[-h|--help]}}`
