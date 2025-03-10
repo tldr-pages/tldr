@@ -9,7 +9,7 @@
 
 - Zeige die tldr-Seite für `cd` an und überschreibe die Standardplattform:
 
-`tldr -p {{android|linux|osx|sunos|windows}} {{cd}}`
+`tldr {{[-p|--platform]}} {{android|linux|osx|sunos|windows}} {{cd}}`
 
 - Zeige die tldr-Seite für einen Unterbefehl:
 
@@ -17,4 +17,4 @@
 
 - Aktualisiere die lokalen Seiten (wenn er Client Caching unterstützt):
 
-`tldr -u`
+`tldr {{[-u|--update]}}`
