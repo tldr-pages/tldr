@@ -17,11 +17,11 @@
 
 - Reproduce el tráfico en la interface lo más rápido posible:
 
-`tcpreplay -i {{eth0}}} --topspeed {{tráfico.pcap}}`
+`tcpreplay -i {{eth0}} --topspeed {{tráfico.pcap}}`
 
 - Reproduce el tráfico en la interface a los Mbps indicados:
 
-`tcpreplay -i {{eth0}}} -M {{10}} {{tráfico.pcap}}`
+`tcpreplay -i {{eth0}} -M {{10}} {{tráfico.pcap}}`
 
 - Reproduce el tráfico en la interface varias veces:
 
