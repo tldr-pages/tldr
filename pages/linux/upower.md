@@ -5,15 +5,15 @@
 
 - Display power and battery information:
 
-`upower --dump`
+`upower {{[-d|--dump]}}`
 
 - List all power devices:
 
-`upower --enumerate`
+`upower {{[-e|--enumerate]}}`
 
 - Watch for and print power status changes:
 
-`upower --monitor`
+`upower {{[-m|--monitor]}}`
 
 - Watch for and print detailed power status changes:
 
@@ -21,4 +21,4 @@
 
 - Display version:
 
-`upower --version`
+`upower {{[-v|--version]}}`

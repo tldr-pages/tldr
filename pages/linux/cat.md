@@ -21,8 +21,8 @@
 
 - [n]umber all output lines:
 
-`cat -n {{path/to/file}}`
+`cat {{[-n|--number]}} {{path/to/file}}`
 
 - Display non-printable and whitespace characters (with `M-` prefix if non-ASCII):
 
-`cat -v -t -e {{path/to/file}}`
+`cat {{[-vte|--show-nonprinting -t -e]}} {{path/to/file}}`
