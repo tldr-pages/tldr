@@ -10,28 +10,28 @@
 
 - Verplaats de cursor naar het scherm links|rechts:
 
-`<Ctrl> + w {{h|l}}`
+`<Ctrl w>{{<h>|<l>}}`
 
 - Spring naar het vorige verschil:
 
-`[c`
+`<[><c>`
 
 - Spring naar het volgende verschil:
 
-`]c`
+`<]><c>`
 
 - Kopieer het gemarkeerde verschil van het andere scherm naar het huidige scherm:
 
-`do`
+`<d><o>`
 
 - Kopieer het gemarkeerde verschil van het huidige scherm naar het andere scherm:
 
-`dp`
+`<d><p>`
 
 - Update alle markeringen en folds:
 
-`:diffupdate`
+`<:>diffupdate`
 
 - Schakel de gemarkeerde code fold om:
 
-`za`
+`<z><a>`

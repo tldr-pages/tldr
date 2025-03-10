@@ -18,8 +18,8 @@
 
 - Abre un nuevo panel (estando en una sesión de zellij):
 
-`<Alt> + N`
+`<Alt n>`
 
 - Desvincula la sesión en curso (estando en una sesión de zellij):
 
-`<Ctrl> + O, D`
+`<Ctrl o><d>`

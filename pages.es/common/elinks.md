@@ -9,7 +9,7 @@
 
 - Sale de ELinks:
 
-`<Ctrl> + C`
+`<Ctrl c>`
 
 - Vuelca la página web a la consola, colorea el texto con códigos de control ANSI:
 

@@ -3,7 +3,7 @@
 > Limpia la pantalla de la terminal.
 > Más información: <https://manned.org/clear>.
 
-- Limpia la pantalla de la terminal (equivale a presionar Control-L en la interfaz de línea de comandos Bash):
+- Limpia la pantalla de la terminal (equivale a presionar `<Ctrl l>` en la interfaz de línea de comandos Bash):
 
 `clear`
 

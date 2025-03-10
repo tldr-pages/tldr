@@ -3,7 +3,7 @@
 > 超快速搜索工具，带有查询 TUI。
 > 更多信息：<https://github.com/Genivia/ugrep>.
 
-- 启动查询 TUI，在当前目录中递归搜索文件（按 CTRL-Z 获取帮助）：
+- 启动查询 TUI，在当前目录中递归搜索文件（按 `<Ctrl z>` 获取帮助）：
 
 `ugrep --query`
 

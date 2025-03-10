@@ -9,4 +9,4 @@
 
 - Beende den Vim-Tutor:
 
-`<Esc> :q <Enter>`
+`<Esc><:>q<Enter>`

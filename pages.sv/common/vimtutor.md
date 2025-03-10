@@ -9,4 +9,4 @@
 
 - Gå ur handledaren:
 
-`<Esc> :q <Enter>`
+`<Esc><:>q<Enter>`

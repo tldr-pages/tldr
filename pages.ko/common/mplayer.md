@@ -25,4 +25,4 @@
 
 - 10초 뒤로 또는 앞으로 탐색:
 
-`{{Left|Right}}`
+`{{<ArrowLeft>|<ArrowRight>}}`
