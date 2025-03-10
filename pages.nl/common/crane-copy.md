@@ -9,16 +9,16 @@
 
 - Kopieer alle tags:
 
-`crane copy {{bron}} {{doel}} {{-a|--all-tags}}`
+`crane copy {{bron}} {{doel}} {{[-a|--all-tags]}}`
 
 - Stel het maximum aantal gelijktijdige kopieën in, standaard is GOMAXPROCS:
 
-`crane copy {{bron}} {{doel}} {{-j|--jobs}} {{int}}`
+`crane copy {{bron}} {{doel}} {{[-j|--jobs]}} {{int}}`
 
 - Voorkom het overschrijven van bestaande tags in het doel:
 
-`crane copy {{bron}} {{doel}} {{-n|--no-clobber}}`
+`crane copy {{bron}} {{doel}} {{[-n|--no-clobber]}}`
 
 - Toon de help:
 
-`crane copy {{-h|--help}}`
+`crane copy {{[-h|--help]}}`

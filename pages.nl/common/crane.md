@@ -22,8 +22,8 @@
 
 - Schakel debuglogs in voor een subcommando:
 
-`crane {{-v|--verbose}} {{subcommand}}`
+`crane {{[-v|--verbose]}} {{subcommand}}`
 
 - Toon help voor een subcommando:
 
-`crane {{-h|--help}} {{subcommand}}`
+`crane {{[-h|--help]}} {{subcommand}}`

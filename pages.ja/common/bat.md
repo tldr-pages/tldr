@@ -18,12 +18,12 @@
 
 - すべての出力行に番号をつける:
 
-`bat --number {{ファイル}}`
+`bat {{[-n|--number]}} {{ファイル}}`
 
 - JSON ファイルをハイライトする構文:
 
-`bat --language json {{JSONファイル}}`
+`bat {{[-l|--language]}} json {{JSONファイル}}`
 
 - すべての対応言語を表示する:
 
-`bat --list-languages`
+`bat {{[-L|--list-languages]}}`

@@ -18,8 +18,8 @@
 
 - 도움말 표시:
 
-`crane registry {{-h|--help}}`
+`crane registry {{[-h|--help]}}`
 
 - 도움말 표시:
 
-`crane registry serve {{-h|--help}}`
+`crane registry serve {{[-h|--help]}}`

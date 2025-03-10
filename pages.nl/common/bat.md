@@ -18,20 +18,20 @@
 
 - Highlight een specifieke regel of een reeks van regels met een andere achtergrondkleur:
 
-`bat {{-H|--highlight-line}} {{10|5:10|:10|10:|10:+5}} {{pad/naar/bestand}}`
+`bat {{[-H|--highlight-line]}} {{10|5:10|:10|10:|10:+5}} {{pad/naar/bestand}}`
 
 - Toon niet-printbare karakters zoals spatie, tab of witregel:
 
-`bat {{-A|--show-all}} {{pad/naar/bestand}}`
+`bat {{[-A|--show-all]}} {{pad/naar/bestand}}`
 
 - Nummer alle uitvoerregels:
 
-`bat {{-n|--number}} {{pad/naar/bestand}}`
+`bat {{[-n|--number]}} {{pad/naar/bestand}}`
 
 - Highlight de syntax van een JSON-bestand:
 
-`bat {{-l|--language}} json {{pad/naar/bestand.json}}`
+`bat {{[-l|--language]}} json {{pad/naar/bestand.json}}`
 
 - Toon alle ondersteunde talen:
 
-`bat {{-L|--list-languages}}`
+`bat {{[-L|--list-languages]}}`

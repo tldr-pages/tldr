@@ -9,11 +9,11 @@
 
 - Bungkus luaran Base32 dalam panjang karakter yang tetap (nilai `0` akan menonaktifkan pembungkusan):
 
-`base32 {{-w|--wrap}} {{0|76|...}} {{jalan/menuju/berkas}}`
+`base32 {{[-w|--wrap]}} {{0|76|...}} {{jalan/menuju/berkas}}`
 
 - Dekodekan kode Base32 yang tersimpan dalam suatu berkas:
 
-`base32 {{-d|--decode}} {{jalan/menuju/berkas}}`
+`base32 {{[-d|--decode]}} {{jalan/menuju/berkas}}`
 
 - Kodekan isi dari `stdin`:
 
@@ -21,4 +21,4 @@
 
 - Dekodekan kode Base32 yang berasal dari `stdout`:
 
-`{{perintah}} | base32 {{-d|--decode}}`
+`{{perintah}} | base32 {{[-d|--decode]}}`

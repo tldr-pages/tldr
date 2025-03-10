@@ -18,8 +18,8 @@
 
 - Toon help voor `crane registry`:
 
-`crane registry {{-h|--help}}`
+`crane registry {{[-h|--help]}}`
 
 - Toon help voor `crane registry serve`:
 
-`crane registry serve {{-h|--help}}`
+`crane registry serve {{[-h|--help]}}`

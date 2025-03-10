@@ -26,7 +26,7 @@
 
 - Maak een nieuwe opname met een inactieve tijd van maximaal 2,5 seconden:
 
-`asciinema rec {{-i|--idle-time-limit}} 2.5`
+`asciinema rec {{[-i|--idle-time-limit]}} 2.5`
 
 - Laat de volledige inhoud zien van een lokaal opgeslagen opname:
 

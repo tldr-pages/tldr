@@ -10,4 +10,4 @@
 
 - Toon de help:
 
-`crane version {{-h|--help}}`
+`crane version {{[-h|--help]}}`

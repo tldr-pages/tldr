@@ -18,20 +18,20 @@
 
 - Sorot baris tertentu dengan warna latar belakang yang berbeda:
 
-`bat {{-H|--highlight-line}} {{10|5:10|:10|10:|10:+5}} {{jalan/menuju/berkas}}`
+`bat {{[-H|--highlight-line]}} {{10|5:10|:10|10:|10:+5}} {{jalan/menuju/berkas}}`
 
 - Tunjukkan segala karakter yang tak tercetak seperti spasi, tab, atau indikator baris baru:
 
-`bat {{-A|--show-all}} {{jalan/menuju/berkas}}`
+`bat {{[-A|--show-all]}} {{jalan/menuju/berkas}}`
 
 - Hapus seluruh informasi dekoratif selain nomor baris pada luaran program:
 
-`bat {{-n|--number}} {{jalan/menuju/berkas}}`
+`bat {{[-n|--number]}} {{jalan/menuju/berkas}}`
 
 - Tampilkan sintaks berwarna terhadap berkas JSON dengan mengatur bahasa sintaks berkas secara eksplisit:
 
-`bat {{-l|--language}} json {{jalan/menuju/berkas.json}}`
+`bat {{[-l|--language]}} json {{jalan/menuju/berkas.json}}`
 
 - Tampilka semua jenis bahasa sintaks berkas yang didukung:
 
-`bat {{-L|--list-languages}}`
+`bat {{[-L|--list-languages]}}`

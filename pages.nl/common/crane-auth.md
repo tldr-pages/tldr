@@ -9,20 +9,20 @@
 
 - Implementeer credential helper:
 
-`crane auth get {{registry_adres}} {{-h|--help}}`
+`crane auth get {{registry_adres}} {{[-h|--help]}}`
 
 - Log in bij een registry:
 
-`crane auth login {{registry_adres}} {{-h|--help}} {{-p|--password}} {{wachtwoord}} {{-password-stdin}} {{-u|--username}} {{gebruikersnaam}}`
+`crane auth login {{registry_adres}} {{[-h|--help]}} {{[-p|--password]}} {{wachtwoord}} {{-password-stdin}} {{[-u|--username]}} {{gebruikersnaam}}`
 
 - Log uit bij een registry:
 
-`crane auth logout {{registry_adres}} {{-h|--help}}`
+`crane auth logout {{registry_adres}} {{[-h|--help]}}`
 
 - Verkrijg een token voor een remote repository:
 
-`crane auth token {{registry_adres}} {{-H|--header}} {{-h|--help}} {{-m|--mount}} {{scope1 scope2 ...}} --push`
+`crane auth token {{registry_adres}} {{[-H|--header]}} {{[-h|--help]}} {{[-m|--mount]}} {{scope1 scope2 ...}} --push`
 
 - Toon de help:
 
-`crane auth {{-h|--help}}`
+`crane auth {{[-h|--help]}}`

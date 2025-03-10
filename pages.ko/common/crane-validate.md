@@ -21,4 +21,4 @@
 
 - 도움말 표시:
 
-`crane validate {{-h|--help}}`
+`crane validate {{[-h|--help]}}`

@@ -10,15 +10,15 @@
 
 - Start de service met het nieuwere TOML-configuratiebestand (`frps.toml` in plaats van `frps.ini`) in de huidige map:
 
-`frpc {{-c|--config}} ./frps.toml`
+`frpc {{[-c|--config]}} ./frps.toml`
 
 - Start de service met een specifiek configuratiebestand:
 
-`frpc {{-c|--config}} {{pad/naar/bestand}}`
+`frpc {{[-c|--config]}} {{pad/naar/bestand}}`
 
 - Controleer of het configuratiebestand geldig is:
 
-`frpc verify {{-c|--config}} {{pad/naar/bestand}}`
+`frpc verify {{[-c|--config]}} {{pad/naar/bestand}}`
 
 - Toon het script om autocompletion op te zetten voor Bash, fish, PowerShell of Zsh:
 
@@ -26,4 +26,4 @@
 
 - Toon de versie:
 
-`frpc {{-v|--version}}`
+`frpc {{[-v|--version]}}`

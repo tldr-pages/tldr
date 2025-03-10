@@ -22,16 +22,16 @@
 
 - 공백, 탭, 개행 문자 등 출력할 수 없는 문자 표시:
 
-`bat {{-A|--show-all}} {{경로/대상/파일}}`
+`bat {{[-A|--show-all]}} {{경로/대상/파일}}`
 
 - 출력에서 줄 번호를 제외한 모든 꾸밈을 제거:
 
-`bat {{-n|--number}} {{경로/대상/파일}}`
+`bat {{[-n|--number]}} {{경로/대상/파일}}`
 
 - 구문은 언어를 명시적으로 설정하여 JSON 파일을 강조 표시:
 
-`bat {{-l|--language}} json {{경로/대상/파일.json}}`
+`bat {{[-l|--language]}} json {{경로/대상/파일.json}}`
 
 - 지원되는 모든 언어 표시:
 
-`bat {{-L|--list-languages}}`
+`bat {{[-L|--list-languages]}}`
