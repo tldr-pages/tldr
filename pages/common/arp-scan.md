@@ -5,7 +5,7 @@
 
 - Scan the current local network:
 
-`arp-scan --localnet`
+`arp-scan {{[-l|--localnet]}}`
 
 - Scan an IP network with a custom bitmask:
 
