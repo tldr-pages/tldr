@@ -6,28 +6,28 @@
 
 - 기본 바이너리 타겟을 실행:
 
-`cargo run`
+`cargo {{[r|run]}}`
 
 - 지정된 바이너리를 실행:
 
-`cargo run --bin {{이름}}`
+`cargo {{[r|run]}} --bin {{이름}}`
 
 - 지정된 예제를 실행:
 
-`cargo run --example {{이름}}`
+`cargo {{[r|run]}} --example {{이름}}`
 
 - 공백 또는 쉼표로 구분된 기능 목록을 활성화:
 
-`cargo run --features {{기능1 기능2 ...}}`
+`cargo {{[r|run]}} {{[-F|--features]}} "{{기능1 기능2 ...}}"`
 
 - 기본 기능을 비활성화:
 
-`cargo run --no-default-features`
+`cargo {{[r|run]}} --no-default-features`
 
 - 사용 가능한 모든 기능을 활성화:
 
-`cargo run --all-features`
+`cargo {{[r|run]}} --all-features`
 
 - 주어진 프로필로 실행:
 
-`cargo run --profile {{이름}}`
+`cargo {{[r|run]}} --profile {{이름}}`

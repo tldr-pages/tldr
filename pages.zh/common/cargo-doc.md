@@ -5,16 +5,16 @@
 
 - 为当前项目及所有依赖项构建文档：
 
-`cargo doc`
+`cargo {{[d|doc]}}`
 
 - 不为依赖项构建文档：
 
-`cargo doc --no-deps`
+`cargo {{[d|doc]}} --no-deps`
 
 - 构建并在浏览器中打开文档：
 
-`cargo doc --open`
+`cargo {{[d|doc]}} --open`
 
 - 构建并查看特定包的文档：
 
-`cargo doc --open --package {{包名}}`
+`cargo {{[d|doc]}} --open {{[-p|--package]}} {{包名}}`
