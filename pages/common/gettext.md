@@ -5,4 +5,4 @@
 
 - Get the translation of a string or output a default string if it doesn't exist:
 
-`LANGUEAGE={{locale}} gettext {{msgid}} {{default_value}}`
+`LANGUAGE={{locale}} gettext {{msgid}} {{default_value}}`
