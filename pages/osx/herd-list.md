@@ -1,6 +1,7 @@
 # herd list
 
 > List available commands in the Herd PHP platform.
+> See also: `herd`.
 > More information: <https://herd.laravel.com>.
 
 - List all available commands:
