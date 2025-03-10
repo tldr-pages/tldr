@@ -9,7 +9,7 @@
 
 `systemctl start atd`
 
-- Execute commands from `stdin` (press `Ctrl + D` when done):
+- Execute commands from `stdin` (press `<Ctrl d>` when done):
 
 `batch`
 
