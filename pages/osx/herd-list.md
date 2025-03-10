@@ -11,7 +11,7 @@
 
 `herd list {{namespace}}`
 
-- List commands in raw format (useful for embedding command runner):
+- List all commands in raw format (useful for embedding a command runner):
 
 `herd list --raw`
 
