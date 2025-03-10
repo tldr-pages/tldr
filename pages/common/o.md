@@ -7,9 +7,9 @@
 
 `o {{path/to/file}}`
 
-- Open a file ad read-only:
+- Open a file as read-only:
 
-`o -m {{path/to/file}}`
+`o {{[-m|-monitor]}} {{path/to/file}}`
 
 - Save the file:
 
