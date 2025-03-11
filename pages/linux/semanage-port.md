@@ -6,20 +6,20 @@
 
 - List all port labeling rules:
 
-`sudo semanage port {{-l|--list}}`
+`sudo semanage port {{[-l|--list]}}`
 
 - List all user-defined port labeling rules without headings:
 
-`sudo semanage port {{-l|--list}} {{-C|--locallist}} {{-n|--noheading}}`
+`sudo semanage port {{[-l|--list]}} {{[-C|--locallist]}} {{[-n|--noheading]}}`
 
 - Add a user-defined rule that assigns a label to a protocol-port pair:
 
-`sudo semanage port {{-a|--add}} {{-t|--type}} {{ssh_port_t}} {{-p|--proto}} {{tcp}} {{22000}}`
+`sudo semanage port {{[-a|--add]}} {{[-t|--type]}} {{ssh_port_t}} {{[-p|--proto]}} {{tcp}} {{22000}}`
 
 - Add a user-defined rule that assigns a label to a protocol-port-range pair:
 
-`sudo semanage port {{-a|--add}} {{-t|--type}} {{http_port_t}} {{-p|--proto}} {{tcp}} {{80-88}}`
+`sudo semanage port {{[-a|--add]}} {{[-t|--type]}} {{http_port_t}} {{[-p|--proto]}} {{tcp}} {{80-88}}`
 
 - Delete a user-defined rule using its protocol-port pair:
 
-`sudo semanage port {{-d|--delete}} {{-p|--proto}} {{udp}} {{11940}}`
+`sudo semanage port {{[-d|--delete]}} {{[-p|--proto]}} {{udp}} {{11940}}`

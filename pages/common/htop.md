@@ -25,11 +25,11 @@
 
 - See interactive commands while running htop:
 
-`?`
+`<?>`
 
 - Switch to a different tab:
 
-`tab`
+`<Tab>`
 
 - Display help:
 

@@ -7,7 +7,7 @@
 
 `xdotool search --onlyvisible --name {{firefox}}`
 
-- Click the right mouse button:
+- Perform a mouse `<RightClick>`:
 
 `xdotool click {{3}}`
 
@@ -23,6 +23,6 @@
 
 `xdotool type --delay {{500}} "Hello world"`
 
-- Press the enter key:
+- Press the `<Enter>` key:
 
 `xdotool key {{KP_Enter}}`

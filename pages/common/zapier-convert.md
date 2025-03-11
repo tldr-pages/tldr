@@ -9,7 +9,7 @@
 
 - Convert a visual builder integration with a specific version:
 
-`zapier convert {{integration_id}} {{path/to/directory}} {{-v|--version}}={{version}}`
+`zapier convert {{integration_id}} {{path/to/directory}} {{[-v|--version]}}={{version}}`
 
 - Show extra debugging output:
 

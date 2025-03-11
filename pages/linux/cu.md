@@ -21,4 +21,4 @@
 
 - Exit the `cu` session when in connection:
 
-`~.`
+`<Enter><~><.>`

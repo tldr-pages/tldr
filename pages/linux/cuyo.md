@@ -9,12 +9,12 @@
 
 - Navigate the piece horizontally:
 
-`{{A|D|Left arrow key|Right arrow key}}`
+`{{<a>|<d>|<ArrowLeft>|<ArrowRight>}}`
 
 - Turn the piece:
 
-`{{W|Up arrow key}}`
+`{{<w>|<ArrowUp>}}`
 
 - Hard drop the piece:
 
-`{{S|Down arrow key}}`
+`{{<s>|<ArrowDown>}}`

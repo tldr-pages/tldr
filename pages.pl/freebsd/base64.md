@@ -5,19 +5,19 @@
 
 - Enkoduj plik do `stdout`:
 
-`base64 {{-i|--input}} {{ścieżka/do/pliku}}`
+`base64 {{[-i|--input]}} {{ścieżka/do/pliku}}`
 
 - Enkoduj plik do określonego pliku wyjściowego:
 
-`base64 {{-i|--input}} {{ścieżka/do/pliku_wejściowego}} {{-o|--output}} {{ścieżka/do/pliku_wyjściowego}}`
+`base64 {{[-i|--input]}} {{ścieżka/do/pliku_wejściowego}} {{[-o|--output]}} {{ścieżka/do/pliku_wyjściowego}}`
 
 - Zawijaj zakodowane wyjście na określonej szerokości (`0` wyłącza zawijanie):
 
-`base64 {{-b|--break}} {{0|76|...}} {{ścieżka/do/pliku}}`
+`base64 {{[-b|--break]}} {{0|76|...}} {{ścieżka/do/pliku}}`
 
 - Dekoduj plik do `stdout`:
 
-`base64 {{-d|--decode}} {{-i|--input}} {{ścieżka/do/pliku}}`
+`base64 {{[-d|--decode]}} {{[-i|--input]}} {{ścieżka/do/pliku}}`
 
 - Enkoduj z `stdin` do `stdout`:
 
@@ -25,4 +25,4 @@
 
 - Dekoduj z `stdin` do `stdout`:
 
-`{{komenda}} | base64 {{-d|--decode}}`
+`{{komenda}} | base64 {{[-d|--decode]}}`
