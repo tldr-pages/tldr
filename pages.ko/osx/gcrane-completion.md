@@ -34,4 +34,4 @@
 
 - 도움말 표시:
 
-`gcrane completion {{셸_이름}} {{-h|--help}}`
+`gcrane completion {{셸_이름}} {{[-h|--help]}}`

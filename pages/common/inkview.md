@@ -8,6 +8,6 @@
 
 `inkview {{path/to/file.svg}}`
 
-- Preview multiple SVGs (use arrow keys to navigate):
+- Preview multiple SVGs (use `<ArrowKeys>` to navigate):
 
 `inkview {{path/to/file1.svg path/to/file2.svg ...}}`

@@ -1,7 +1,7 @@
 # wf-recorder
 
 > Screencast for Wayland optionally with audio.
-> By default you need to end the process with Ctrl-C.
+> By default you need to end the process with `<Ctrl c>`.
 > More information: <https://github.com/ammen99/wf-recorder>.
 
 - Record storing to an MP4 file:

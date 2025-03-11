@@ -8,7 +8,7 @@
 
 `asciinema auth`
 
-- Make a new recording (finish it with `Ctrl+D` or type `exit`, and then choose to upload it or save it locally):
+- Make a new recording (finish it with `<Ctrl d>` or type `exit`, and then choose to upload it or save it locally):
 
 `asciinema rec`
 
@@ -26,7 +26,7 @@
 
 - Make a new recording, limiting any idle time to at most 2.5 seconds:
 
-`asciinema rec {{-i|--idle-time-limit}} 2.5`
+`asciinema rec {{[-i|--idle-time-limit]}} 2.5`
 
 - Print the full output of a locally saved recording:
 

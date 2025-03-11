@@ -5,7 +5,7 @@
 
 - List all boot options with their numbers:
 
-`efibootmgr {{-u|--unicode}}`
+`efibootmgr {{[-u|--unicode]}}`
 
 - Add UEFI Shell v2 as a boot option:
 
@@ -17,8 +17,8 @@
 
 - Change the current boot order:
 
-`sudo efibootmgr {{-o|--bootorder}} {{0002,0008,0001,0005}}`
+`sudo efibootmgr {{[-o|--bootorder]}} {{0002,0008,0001,0005}}`
 
 - Delete a boot option:
 
-`sudo efibootmgr {{-b|--bootnum}} {{0008}} {{-B|--delete-bootnum}}`
+`sudo efibootmgr {{[-b|--bootnum]}} {{0008}} {{[-B|--delete-bootnum]}}`
