@@ -13,11 +13,11 @@
 
 - Save a file:
 
-`<Ctrl> + X, <Ctrl> + S`
+`<Ctrl x><Ctrl s>`
 
 - Quit:
 
-`<Ctrl> + X, <Ctrl> + C`
+`<Ctrl x><Ctrl c>`
 
 - Open a file at a specified line number:
 
@@ -25,4 +25,4 @@
 
 - Undo changes:
 
-`<Ctrl> + X, U`
+`<Ctrl x><u>`
