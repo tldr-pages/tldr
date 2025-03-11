@@ -13,8 +13,8 @@
 
 - Tag to apply to resulting image:
 
-`crane index filter {{-t|--tags}} {{tag_name}}`
+`crane index filter {{[-t|--tags]}} {{tag_name}}`
 
 - Display help:
 
-`crane index filter {{-h|--help}}`
+`crane index filter {{[-h|--help]}}`

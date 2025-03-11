@@ -1,7 +1,7 @@
 # cheatshh
 
 > CLI cheatsheet with customized descriptions, tldr and groups, to look into for your reference.
-> Press Enter to a command to copy it to your clipboard and exit.
+> Press `<Enter>` to a command to copy it to your clipboard and exit.
 > More information: <https://github.com/AnirudhG07/cheatshh>.
 
 - [a]dd a new command to the cheatshheet:

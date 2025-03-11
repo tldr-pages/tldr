@@ -26,7 +26,7 @@
 
 - Insert text:
 
-`i<Enter>{{text}}<C-c>`
+`i<Enter>{{text}}<Ctrl c>`
 
 - Switch to Vim:
 
