@@ -13,20 +13,20 @@
 
 - Move cursor left:
 
-`h`
+`<h>`
 
 - Move cursor down:
 
-`j`
+`<j>`
 
 - Move cursor up:
 
-`k`
+`<k>`
 
 - Move cursor right:
 
-`l`
+`<l>`
 
 - Emulate left click:
 
-`m`
+`<m>`

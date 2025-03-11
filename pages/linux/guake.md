@@ -5,24 +5,24 @@
 
 - Toggle Guake visibility:
 
-`F12`
+`<F12>`
 
 - Toggle fullscreen mode:
 
-`F11`
+`<F11>`
 
 - Open a new tab:
 
-`<Ctrl> + <Shift> + T`
+`<Ctrl Shift t>`
 
 - Close the terminal:
 
-`<Super> + X`
+`<Super x>`
 
 - Go to the previous tab:
 
-`<Ctrl> + <PageUp>`
+`<Ctrl PageUp>`
 
 - Search the selected text in the browser:
 
-`<Shift> + <Ctrl> + L`
+`<Ctrl Shift l>`

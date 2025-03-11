@@ -7,7 +7,7 @@
 
 - List all process types (a.k.a domains) that are in permissive mode:
 
-`sudo semanage permissive {{-l|--list}}`
+`sudo semanage permissive {{[-l|--list]}}`
 
 - Set or unset permissive mode for a domain:
 

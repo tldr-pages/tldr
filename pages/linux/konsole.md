@@ -15,6 +15,6 @@
 
 `konsole --new-tab`
 
-- Open the terminal in the background and bring to the front when `Ctrl+Shift+F12` is pressed:
+- Open the terminal in the background and bring to the front when `<Ctrl Shift F12>` is pressed:
 
 `konsole --background-mode`

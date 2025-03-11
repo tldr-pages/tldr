@@ -1,7 +1,7 @@
 # xclip
 
 > X11 clipboard manipulation tool, similar to `xsel`.
-> Handles the X primary and secondary selections, plus the system clipboard (`Ctrl + C`/`Ctrl + V`).
+> Handles the X primary and secondary selections, plus the system clipboard (`<Ctrl c>`/`<Ctrl v>`).
 > See also: `wl-copy`.
 > More information: <https://manned.org/xclip>.
 
