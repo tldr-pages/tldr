@@ -17,7 +17,7 @@
 
 - Start all containers using an alternate compose file:
 
-`podman-compose {{-f|--file}} {{path/to/file.yaml}} up`
+`podman-compose {{[-f|--file]}} {{path/to/file.yaml}} up`
 
 - Stop all running containers:
 

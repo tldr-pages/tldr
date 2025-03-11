@@ -11,11 +11,11 @@
 
 - Create a copy with Unix-style line endings:
 
-`mac2unix {{-n|--newfile}} {{path/to/file}} {{path/to/new_file}}`
+`mac2unix {{[-n|--newfile]}} {{path/to/file}} {{path/to/new_file}}`
 
 - Display file information:
 
-`mac2unix {{-i|--info}} {{path/to/file}}`
+`mac2unix {{[-i|--info]}} {{path/to/file}}`
 
 - Keep/add/remove Byte Order Mark:
 

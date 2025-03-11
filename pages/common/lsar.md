@@ -14,7 +14,7 @@
 
 - Print al[L] available information about each file in the archive (it's very long):
 
-`lsar {{-L|--verylong}} {{path/to/archive}}`
+`lsar {{[-L|--verylong]}} {{path/to/archive}}`
 
 - Test the integrity of the files in the archive (if possible):
 

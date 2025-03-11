@@ -30,4 +30,4 @@
 
 - Display help in TUI:
 
-`h`
+`<h>`
