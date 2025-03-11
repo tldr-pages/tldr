@@ -1,7 +1,7 @@
 # pw-reserve
 
 > Reserve a device for PipeWire.
-> More information: <https://docs.pipewire.org/page_man_pw-jack_1.html>.
+> More information: <https://docs.pipewire.org/page_man_pw-reserve_1.html>.
 
 - Reserve a device (currently only supports audio devices):
 
