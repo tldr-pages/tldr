@@ -9,19 +9,19 @@
 
 - Display the current user identity:
 
-`id -un`
+`id {{[-un|--user --name]}}`
 
 - Display the current user identity as a number:
 
-`id -u`
+`id {{[-u|--user]}}`
 
 - Display the current primary group identity:
 
-`id -gn`
+`id {{[-gn|--group --name]}}`
 
 - Display the current primary group identity as a number:
 
-`id -g`
+`id {{[-g|--group]}}`
 
 - Display an arbitrary user's ID (UID), group ID (GID) and groups to which they belong:
 

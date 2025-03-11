@@ -1,4 +1,4 @@
-# agetty
+tt# agetty
 
 > Alternative `getty`: Open a `tty` port, prompt for a login name, and invoke the `/bin/login` command.
 > It is normally invoked by `init`.

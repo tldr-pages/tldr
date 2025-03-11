@@ -17,4 +17,4 @@
 
 - Execute a command as another user:
 
-`su - {{username}} -c "{{command}}"`
+`su - {{username}} {{[-c|--command]}} "{{command}}"`
