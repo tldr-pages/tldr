@@ -4,7 +4,7 @@
 > See also `git checkout` and `git reset`.
 > More information: <https://git-scm.com/docs/git-restore>.
 
-- Restore an unstaged file to the version of the current commit (HEAD):
+- Restore an unstaged file to the staged version:
 
 `git restore {{path/to/file}}`
 
