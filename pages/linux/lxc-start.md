@@ -10,3 +10,7 @@
 - Start a container:
 
 `sudo lxc-start {{container_name}}`
+
+- Start a container in the foreground:
+
+`sudo lxc-start {{[-F|--foreground]]}`
