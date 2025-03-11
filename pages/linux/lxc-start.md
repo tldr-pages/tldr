@@ -15,6 +15,6 @@
 
 `sudo lxc-start {{container_name}} {{[-F|--foreground]]}`
 
-- Exit out of a foreground container (run this in another terminal):
+- Exit out of a foreground container (run this in a separate terminal):
 
 `sudo lxc-stop {{container_name}}`
