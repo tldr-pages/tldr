@@ -3,7 +3,7 @@
 > Minimal program to emulate serial consoles.
 > More information: <https://manned.org/picocom>.
 
-- Connect to a serial console and negotiate baud rate:
+- Connect to a serial console with the default baud rate of 9600:
 
 `sudo picocom {{/dev/ttyXYZ}}`
 
