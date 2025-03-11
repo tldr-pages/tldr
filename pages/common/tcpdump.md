@@ -5,11 +5,11 @@
 
 - List available network interfaces:
 
-`tcpdump -D`
+`tcpdump {{[-D|--list-interfaces]}}`
 
 - Capture the traffic of a specific interface:
 
-`tcpdump -i {{eth0}}`
+`sudo tcpdump {{[-i|--interface]}} {{eth0}}`
 
 - Capture all TCP traffic showing contents (ASCII) in console:
 
@@ -21,7 +21,7 @@
 
 - Capture the traffic from a specific interface, source, destination and destination port:
 
-`tcpdump -i {{eth0}} src {{192.168.1.1}} and dst {{192.168.1.2}} and dst port {{80}}`
+`tcpdump {{[-i|--interface]} {{eth0}} src {{192.168.1.1}} and dst {{192.168.1.2}} and dst port {{80}}`
 
 - Capture the traffic of a network:
 
