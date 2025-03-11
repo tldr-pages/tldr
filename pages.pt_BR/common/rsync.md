@@ -22,7 +22,7 @@
 
 - Transfere os conteúdos do diretório, mas não o diretório em si:
 
-`rsync {{[-r|--recursive]}} {{caminho/para/origem}}/ {{caminho/para/destino}}`
+`rsync {{[-r|--recursive]}} {{caminho/para/origem/}} {{caminho/para/destino}}`
 
 - Copia diretórios, usa o modo de arquivamento, resolve links simbólicos e ignora arquivos que são mais recentes no destino:
 
