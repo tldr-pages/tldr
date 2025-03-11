@@ -1,6 +1,6 @@
 # ulimit
 
-> Get and set user limits.
+> Get and set resource limits for user processes.
 > More information: <https://manned.org/ulimit>.
 
 - Get the properties of all the user limits:
