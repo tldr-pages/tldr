@@ -6,7 +6,7 @@
 
 - List all files, including hidden files:
 
-`dir --all`
+`dir {{[-a|--all]}}`
 
 - List files including their author (`-l` is required):
 
@@ -14,11 +14,11 @@
 
 - List files excluding those that match a specified blob pattern:
 
-`dir --hide={{pattern}}`
+`dir --hide {{pattern}}`
 
 - List subdirectories recursively:
 
-`dir --recursive`
+`dir {{[-R|--recursive]}}`
 
 - Display help:
 
