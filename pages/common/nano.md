@@ -30,3 +30,7 @@
 - Open a file and create a backup file (`path/to/file~`) on save:
 
 `nano --backup {{path/to/file}}`
+
+- Exit nano:
+
+`<Ctrl x>`
