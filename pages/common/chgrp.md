@@ -9,11 +9,11 @@
 
 - Recursively change the owner group of a directory and its contents:
 
-`chgrp -R {{group}} {{path/to/directory}}`
+`chgrp {{[-R|--recursive]}} {{group}} {{path/to/directory}}`
 
 - Change the owner group of a symbolic link:
 
-`chgrp -h {{group}} {{path/to/symlink}}`
+`chgrp {{[-h|--no-dereference]}} {{group}} {{path/to/symlink}}`
 
 - Change the owner group of a file/directory to match a reference file:
 
