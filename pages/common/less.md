@@ -9,28 +9,28 @@
 
 - Page down/up:
 
-`<Space> (down), b (up)`
+`{{<Space>|<b>}}`
 
 - Go to end/start of file:
 
-`G (end), g (start)`
+`{{<G>|<g>}}`
 
-- Forward search for a string (press `n`/`N` to go to next/previous match):
+- Forward search for a string (press `<n>`/`<N>` to go to next/previous match):
 
-`/{{something}}`
+`</>{{something}}`
 
-- Backward search for a string (press `n`/`N` to go to next/previous match):
+- Backward search for a string (press `<n>`/`<N>` to go to next/previous match):
 
-`?{{something}}`
+`<?>{{something}}`
 
 - Follow the output of the currently opened file:
 
-`F`
+`<F>`
 
 - Open the current file in an editor:
 
-`v`
+`<v>`
 
 - Exit:
 
-`q`
+`<q>`
