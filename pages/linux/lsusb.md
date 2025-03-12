@@ -9,15 +9,15 @@
 
 - List the USB hierarchy as a tree:
 
-`lsusb -t`
+`lsusb {{[-t|--tree]}}`
 
 - List verbose information about USB devices:
 
-`lsusb --verbose`
+`lsusb {{[-V|--verbose]}}`
 
 - List detailed information about a USB device:
 
-`lsusb --verbose -s {{bus}}:{{device number}}`
+`lsusb {{[-V|--verbose]}} -s {{bus}}:{{device number}}`
 
 - List devices with a specified vendor and product ID only:
 

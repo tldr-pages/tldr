@@ -12,11 +12,11 @@
 
 - Dry-run - display which renames would occur without performing them:
 
-`rename -vn {{foo}} {{bar}} {{*}}`
+`rename {{[-vn|--verbose --no-act]}} {{foo}} {{bar}} {{*}}`
 
 - Do not overwrite existing files:
 
-`rename -o {{foo}} {{bar}} {{*}}`
+`rename {{[-o|--no-overwrite]}} {{foo}} {{bar}} {{*}}`
 
 - Change file extensions:
 
