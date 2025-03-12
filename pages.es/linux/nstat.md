@@ -9,4 +9,4 @@
 
 - Ve las estadísticas de red de todos los tiempos:
 
-`nstat {{[-a|--ignore]}}``
+`nstat {{[-a|--ignore]}}`
