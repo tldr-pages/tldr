@@ -9,8 +9,8 @@
 
 - Display information in a table:
 
-`lscpu --extended`
+`lscpu {{[-e|--extended]}}`
 
 - Display only information about offline CPUs in a table:
 
-`lscpu --extended --offline`
+`lscpu {{[-e|--extended]}} {{[-c|--offline]}}`

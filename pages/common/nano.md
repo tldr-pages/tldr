@@ -9,7 +9,7 @@
 
 - Start the editor without using configuration files:
 
-`nano --ignorercfiles`
+`nano {{[-I|--ignorercfiles]}}`
 
 - Open specific files, moving to the next file when closing the previous one:
 
@@ -21,12 +21,16 @@
 
 - Open a file and enable soft wrapping:
 
-`nano --softwrap {{path/to/file}}`
+`nano {{[-S|--softwrap]}} {{path/to/file}}`
 
 - Open a file and indent new lines to the previous line's indentation:
 
-`nano --autoindent {{path/to/file}}`
+`nano {{[-i|--autoindent]}} {{path/to/file}}`
 
 - Open a file and create a backup file (`path/to/file~`) on save:
 
-`nano --backup {{path/to/file}}`
+`nano {{[-B|--backup]}} {{path/to/file}}`
+
+- Exit nano:
+
+`<Ctrl x>`

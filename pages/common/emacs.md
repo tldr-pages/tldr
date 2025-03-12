@@ -18,7 +18,7 @@
 
 - Start Emacs in console mode (without an X window):
 
-`emacs --no-window-system`
+`emacs {{[-nw|--no-window-system]}}`
 
 - Start an Emacs server in the background (accessible via `emacsclient`):
 
