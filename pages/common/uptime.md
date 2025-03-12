@@ -9,12 +9,12 @@
 
 - Show only the amount of time the system has been booted for:
 
-`uptime --pretty`
+`uptime {{[-p|--pretty]}}`
 
 - Print the date and time the system booted up at:
 
-`uptime --since`
+`uptime {{[-s|--since]}}`
 
 - Display version:
 
-`uptime --version`
+`uptime {{[-V|--version]}}`
