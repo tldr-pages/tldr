@@ -14,11 +14,11 @@
 
 - Gzip all files with `.log` extension taking advantage of multiple threads (`-print0` uses a null character to split file names, and `-0` uses it as delimiter):
 
-`find . -name '*.log' -print0 | xargs -0 -P {{4}} -n 1 gzip`
+`find . -name '*.log' -print0 | xargs {{[-0|--null]}} {{[-P|--max-procs]}} {{4}} {{[-n|--max-args]}} 1 gzip`
 
 - Execute the command once per argument:
 
-`{{arguments_source}} | xargs -n1 {{command}}`
+`{{arguments_source}} | xargs {{-n|--max-args}} 1 {{command}}`
 
 - Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
 
@@ -26,4 +26,4 @@
 
 - Parallel runs of up to `max-procs` processes at a time; the default is 1. If `max-procs` is 0, xargs will run as many processes as possible at a time:
 
-`{{arguments_source}} | xargs -P {{max-procs}} {{command}}`
+`{{arguments_source}} | xargs {{[-P|--max-procs]}} {{max-procs}} {{command}}`
