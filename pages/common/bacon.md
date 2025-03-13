@@ -13,7 +13,7 @@
 
 - Run `cargo test` whenever a change is detected in the given directory:
 
-`bacon test --path {{path/to/directory}}`
+`bacon test {{path/to/directory}}`
 
 - Run against all targets whenever a change is detected in the current directory:
 
