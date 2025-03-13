@@ -14,12 +14,12 @@
 
 - When an unmount fails, try to remount the filesystem read-only:
 
-`umount --read-only {{path/to/mounted_directory}}`
+`umount {{[-r|--read-only]}} {{path/to/mounted_directory}}`
 
 - Recursively unmount each specified directory:
 
-`umount --recursive {{path/to/mounted_directory}}`
+`umount {{[-R|--recursive]}} {{path/to/mounted_directory}}`
 
 - Unmount all mounted filesystems (except the `proc` filesystem):
 
-`umount -a`
+`umount {{[-a|--all]}}`
