@@ -15,7 +15,7 @@
 
 `bacon test {{path/to/directory}}`
 
-- Run against all targets whenever a change is detected in the current directory:
+- Run `cargo check` against all targets whenever a change is detected in the current directory:
 
 `bacon --job check-all`
 
