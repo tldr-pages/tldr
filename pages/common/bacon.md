@@ -17,7 +17,7 @@
 
 - Run `cargo check` against all targets whenever a change is detected in the current directory:
 
-`bacon --job check-all`
+`bacon check-all`
 
 - Initialize a `bacon.toml` configuration file in the current directory:
 
