@@ -7,9 +7,9 @@
 
 `bacon`
 
-- Run `cargo run` whenever a change is detected in the current directory:
+- Run specific job whenever a change is detected in the current directory:
 
-`bacon run`
+`bacon {{run|test|clippy|doc|...}}`
 
 - Run `cargo test` whenever a change is detected in the given directory:
 
