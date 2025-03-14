@@ -9,7 +9,7 @@
 
 - Affiche la page tldr de `cd`, en forçant la plateforme par défaut :
 
-`tldr -p {{android|linux|osx|sunos|windows}} {{cd}}`
+`tldr {{[-p|--platform]}} {{android|linux|osx|sunos|windows}} {{cd}}`
 
 - Affiche la page tldr d'une sous-commande :
 
@@ -17,4 +17,4 @@
 
 - Met à jour les pages enregistrées localement (si le client supporte la mise en cache) :
 
-`tldr -u`
+`tldr {{[-u|--update]}}`
