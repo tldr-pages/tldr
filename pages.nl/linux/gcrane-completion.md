@@ -14,7 +14,7 @@
 
 - Laad completions in je huidige shellsessie (bash/zsh):
 
-`source <(gcrane completion bash/zsh)>`
+`source <(gcrane completion bash/zsh)`
 
 - Laad completions in je huidige shellsessie (fish):
 

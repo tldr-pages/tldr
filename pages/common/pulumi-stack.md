@@ -7,9 +7,9 @@
 
 `pulumi stack init {{stack_name}}`
 
-- View the stack state:
+- Show the stack state along with resource URNs:
 
-`pulumi stack`
+`pulumi stack --show-urns`
 
 - List stacks in the current project:
 

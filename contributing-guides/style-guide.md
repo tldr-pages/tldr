@@ -228,7 +228,7 @@ In the following case `just.md` is the filename of the disambiguation page while
 
 ### Grouping commands
 
-Sometimes commands are meant to be used in combination with other commands. In these cases it makes sense to move them on the same page. 
+Sometimes commands are meant to be used in combination with other commands. In these cases it makes sense to move them on the same page.
 
 For example `adb disconnect` has a single way using it, but `adb` is expansive enough that it doesn't fit in the main page. Normally, `adb disconnect` is used in combination with `adb pair` and `adb connect`, thus it makes sense to group these together into a single page. For example:
 
@@ -389,10 +389,7 @@ It should instead be simplified to make it easier for everyone to read:
 
 - Proper names should be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
 - Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
-- When documenting keycaps or a keyboard shortcut for a utility, make it stand out in the description:
-
-1. If it is not translatable, enclose it with backticks (i.e. ``Print the last lines of a given file and keep reading it until `Ctrl + C`:``)
-2. If it is translatable, enclose it with double angled brackets inside a placeholder (i.e. ``:wq{{<<Enter>>}}``).
+- When documenting keycaps or a keyboard shortcut for a utility, use the same [keypress syntax](#keypress-syntax) as in example commands. Make sure to enclose it in backticks so that it is not invisible to markdown renderers (i.e. ``Print the last lines of a given file and keep reading it until `<Ctrl c>`:``).
 
 ### Short option mnemonics
 
@@ -421,15 +418,15 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 
 > [!NOTE]\
 > In cases where the character isn't present in the translated word, you can highlight the option before/next to the equivalent word or you can add the English work beside the translation inside a bracket.
-> For example, `E[x]tract` in English maybe translated into `[x] ekstrak` or `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
+> For example, `E[x]tract` in English may be translated into `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
 
 ## Example commands
 
 ### Option syntax
 
-- For commonly/frequently used commands (e.g. `grep`, `tar`, etc.), we prefer using short options along with [mnemonics](#short-option-mnemonics) or both inside a placeholder.
+- For user-friendliness, prefer **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
+- If a command only supports short options, attempt to document what the letter is short for with a [mnemonic](#short-option-mnemonics).
 - For letting the client decide whether to show long or short options in commands, use an option placeholder i.e. `{{[-o|--output]}}`.
-- For user-friendliness, use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
 - Prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`), unless the program does not support it.
 - Likewise prefer separating shortform options from their arguments with a space (i.e. use `-o arg` instead of `-oarg`), unless the program does not support it.
 
@@ -448,11 +445,6 @@ Keep the following guidelines in mind when choosing placeholders:
 - Use short but descriptive placeholders,
   such as `{{path/to/source_file}}` or `{{path/to/wallet.txt}}`.
 - Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
-- Use a generic placeholder rather than an actual value where a generic placeholder is available (but there is an exception to this listed below). For example, use
-`iostat {{1..infinity}}` rather than `iostat {{2}}`.
-- If there are several consecutive placeholders of the same type
-  which don't allow adding arbitrary text in them (ranges), then instead of generic placeholders use descriptive ones. For example prefer `input swipe {{x_position}} {{y_position}} {{x_position}} {{y_position}} {{seconds}}`
-  instead of `input swipe {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{1..infinity}}`.
 
 #### Paths
 
@@ -485,12 +477,26 @@ Keep the following guidelines in mind when choosing placeholders:
 - If a command can optionally take 1 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
   For instance, if multiple paths are expected, use `{{path/to/directory1 path/to/directory2 ...}}`.
 - If only one of the multiple options is possible, write it as: `{{placeholder1|placeholder2|placeholder3}}`. If there are more than 4 possible values, you can use `|...` after the last item.
+- Use two dots to mark a range of possible values, for example `{{1..5}}` or `{{a..z}}`.
 
 #### Optional placeholders
 
 When documenting optional placeholders like paths or file extensions, it is suggested to specify them in the page or example descriptions instead of the placeholder itself. For example:
 
 - Use `{{path/to/source.ext}}` instead of `{{path/to/source.tar[.gz|.bz2|.xz]}}`.
+
+### Keypress syntax
+
+To mark keypresses for TUI or GUI programs, use angle brackets `<` and `>`.
+
+- Single character example: `<a>`.
+- Special keys are to be written with [`PascalCase`](https://www.theserverside.com/definition/Pascal-case): `<Ctrl>`, `<Super>`, `<Alt>`, `<Shift>`, `<Cmd>`, `<Option>`, `<Windows>`, `<Enter>`, `<Home>`, `<Space>`, `<Esc>`, `<ArrowUp>`, `<ArrowLeft>`, `<ArrowKeys>`, `<PageUp>`, `<F5>`, `<F12>`, `<LeftClick>`, `<MiddleClick>`, ...
+- When writing simultaneous keypresses, keep the following order: `<Ctrl>` -> `<Super>` / `<Windows>` -> `<Alt>` -> `<AltGr>` -> `<Shift>` -> everything else.
+- Special keys can be translated if they have culturally relevant translations.
+- When a program takes in uppercase character literals mark them as `<A>` instead of marking it with shift. Otherwise always mark characters in lowercase.
+- Mark simultaneous keypresses inside the same angle brackets separated by a single space:  `<Ctrl c>`, `<Alt F4>`, `<Ctrl Shift k>`, `<Super Shift PrtSc>`.
+- Consecutive keypresses need to be contained in their own angle brackets with no space in between: `<Esc><u>`, `<Ctrl k><Ctrl s>`, `<Enter><~><.>`, `<d><o>`.
+- Keys that are typed into a prompt do not need to be marked as keypresses: `<:>help<Enter>`. Note that the context switching keypress is marked in angle brackets despite printing on the prompt.
 
 ### Help and version commands
 

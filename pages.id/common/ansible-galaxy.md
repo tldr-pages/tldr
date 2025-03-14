@@ -29,4 +29,4 @@
 
 - Tampilkan bantuan mengenai manajemen peran (role) maupun koleksi (collection):
 
-`ansible-galaxy {{role|collection}} {{-h|--help}}`
+`ansible-galaxy {{role|collection}} {{[-h|--help]}}`

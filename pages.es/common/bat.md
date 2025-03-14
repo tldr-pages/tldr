@@ -18,20 +18,20 @@
 
 - Resalta una línea específica o un rango de líneas con un color de fondo diferente:
 
-`bat {{-H|--highlight-line}} {{10|5:10|:10|10:|10:+5}} {{ruta/al/archivo}}`
+`bat {{[-H|--highlight-line]}} {{10|5:10|:10|10:|10:+5}} {{ruta/al/archivo}}`
 
 - Muestra caracteres no imprimibles como espacio, tabulador o nueva línea:
 
-`bat {{-A|--show-all}} {{ruta/al/archivo}}`
+`bat {{[-A|--show-all]}} {{ruta/al/archivo}}`
 
 - Elimina todos los adornos excepto los números de línea en la salida:
 
-`bat {{-n|--number}} {{ruta/al/archivo}}`
+`bat {{[-n|--number]}} {{ruta/al/archivo}}`
 
 - Resalta sintácticamente un archivo JSON estableciendo explícitamente el lenguaje:
 
-`bat {{-l|--language}} json {{ruta/al/archivo.json}}`
+`bat {{[-l|--language]}} json {{ruta/al/archivo.json}}`
 
 - Muestra todos los lenguajes soportados:
 
-`bat {{-L|--list-languages}}`
+`bat {{[-L|--list-languages]}}`

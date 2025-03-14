@@ -9,7 +9,7 @@
 
 - Wyświetl podane części treści (`H`: nagłówki żądania, `B`: treść żądania, `h`: nagłówki odpowiedzi, `b`: treść odpowiedzi, `m`: metadane odpowiedzi):
 
-`http --print {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
+`http {{[-p|--print]}} {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
 
 - Określ metodę HTTP używaną podczas wysyłania żądania i użyj serwera proxy do przechwycenia żądania:
 
@@ -17,11 +17,11 @@
 
 - Podążaj za wszystkimi przekierowaniami `3xx` i określ dodatkowe nagłówki do żądania:
 
-`http {{-F|--follow}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
+`http {{[-F|--follow]}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
 
 - Uwierzytelnij się na serwerze używając różnych metod uwierzytelniania:
 
-`http --auth {{nazwa_użytkownika:hasło|token}} --auth-type {{basic|digest|bearer}} {{GET|POST|...}} {{https://example.com/auth}}`
+`http {{[-a|--auth]}} {{nazwa_użytkownika:hasło|token}} {{[-A|--auth-type]}} {{basic|digest|bearer}} {{GET|POST|...}} {{https://example.com/auth}}`
 
 - Skonstruuj żądanie, ale go nie wysyłaj:
 
@@ -29,8 +29,8 @@
 
 - Użyj nazwanych sesji do trwałych niestandardowych nagłówków, danych uwierzytelniających i ciasteczek:
 
-`http --session {{nazwa_sesji|ścieżka/do/sesji.json}} {{--auth nazwa_użytkownika:hasło https://example.com/auth API-KEY:xxx}}`
+`http --session {{nazwa_sesji|ścieżka/do/sesji.json}} {{[-a|--auth]}} {{nazwa_użytkownika}}:{{hasło}} {{https://example.com/auth}} {{API-KEY:xxx}}`
 
 - Prześlij plik do formularza (poniższy przykład zakłada, że polem formularza jest `<input type="file" name="cv" />`):
 
-`http --form {{POST}} {{https://example.com/upload}} {{cv@ścieżka/do/pliku}}`
+`http {{[-f|--form]}} {{POST}} {{https://example.com/upload}} {{cv@ścieżka/do/pliku}}`

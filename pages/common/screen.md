@@ -26,11 +26,11 @@
 
 - Detach from inside a screen:
 
-`<Ctrl> + A, D`
+`<Ctrl a><d>`
 
 - Kill the current screen session:
 
-`<Ctrl> + A, K`
+`<Ctrl a><k>`
 
 - Kill a detached screen:
 

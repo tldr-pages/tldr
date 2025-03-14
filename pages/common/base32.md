@@ -9,11 +9,11 @@
 
 - Wrap encoded output at a specific width (`0` disables wrapping):
 
-`base32 {{-w|--wrap}} {{0|76|...}} {{path/to/file}}`
+`base32 {{[-w|--wrap]}} {{0|76|...}} {{path/to/file}}`
 
 - Decode a file:
 
-`base32 {{-d|--decode}} {{path/to/file}}`
+`base32 {{[-d|--decode]}} {{path/to/file}}`
 
 - Encode from `stdin`:
 
@@ -21,4 +21,4 @@
 
 - Decode from `stdin`:
 
-`{{command}} | base32 {{-d|--decode}}`
+`{{command}} | base32 {{[-d|--decode]}}`

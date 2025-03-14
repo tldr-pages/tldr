@@ -9,11 +9,11 @@
 
 - 为生成的文件指定一个自定义目标目录：
 
-`zapier scaffold {{trigger|search|create|resource}} {{名称}} {{-d|--dest}}={{路径/到/目录}}`
+`zapier scaffold {{trigger|search|create|resource}} {{名称}} {{[-d|--dest]}}={{路径/到/目录}}`
 
 - 在生成文件时覆盖已有文件：
 
-`zapier scaffold {{trigger|search|create|resource}} {{名称}} {{-f|--force}}`
+`zapier scaffold {{trigger|search|create|resource}} {{名称}} {{[-f|--force]}}`
 
 - 从生成的文件中排除注释：
 
@@ -21,4 +21,4 @@
 
 - 显示额外的调试输出：
 
-`zapier scaffold {{-d|--debug}}`
+`zapier scaffold {{[-d|--debug]}}`

@@ -7,9 +7,9 @@
 
 `man {{command}}`
 
-- Open the man page for a command in a browser (requires the `BROWSER` variable to be set):
+- Open the man page for a command in a browser (`BROWSER` environment variable can replace `=browser_name`):
 
-`man --html {{command}}`
+`man {{[-H|--html=]}}{{browser_name}} {{command}}`
 
 - Display the man page for a command from section 7:
 
@@ -17,20 +17,20 @@
 
 - List all available sections for a command:
 
-`man --whatis {{command}}`
+`man {{[-f|--whatis]}} {{command}}`
 
 - Display the path searched for manpages:
 
-`man --path`
+`man {{[-w|--path]}}`
 
 - Display the location of a manpage rather than the manpage itself:
 
-`man --where {{command}}`
+`man {{[-w|--where]}} {{command}}`
 
 - Display the man page using a specific locale:
 
-`man --locale {{locale}} {{command}}`
+`man {{[-L|--locale]}} {{locale}} {{command}}`
 
 - Search for manpages containing a search string:
 
-`man --apropos "{{search_string}}"`
+`man {{[-k|--apropos]}} "{{search_string}}"`
