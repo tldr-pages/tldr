@@ -14,4 +14,4 @@
 
 - Toon de help:
 
-`crane index {{-h|--help}}`
+`crane index {{[-h|--help]}}`
