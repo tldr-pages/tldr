@@ -18,12 +18,12 @@
 
 - Numera tutte le linee stampate:
 
-`bat --number {{file}}`
+`bat {{[-n|--number]}} {{file}}`
 
 - Evidenzia la sintassi di un file JSON:
 
-`bat --language json {{file.json}}`
+`bat {{[-l|--language]}} json {{file.json}}`
 
 - Mostra tutti i linguaggi supportati:
 
-`bat --list-languages`
+`bat {{[-L|--list-languages]}}`
