@@ -17,7 +17,7 @@
 
 - Add or delete an ARP entry for the neighbour IP address to `eth0`:
 
-`sudo ip {{[n|neighbour]}} {{add|del}} {{ip_address}} lladdr {{mac_address}} dev {{eth0}} nud reachable`
+`sudo ip {{[n|neighbour]}} {{add|delete}} {{ip_address}} lladdr {{mac_address}} dev {{eth0}} nud reachable`
 
 - Change or replace an ARP entry for the neighbour IP address to `eth0`:
 
