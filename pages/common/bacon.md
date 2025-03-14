@@ -15,7 +15,7 @@
 
 `bacon check-all`
 
-- Run specific job whenever a change is detected in the current directory:
+- Run a specific job whenever a change is detected in the current directory:
 
 `bacon {{run|test|clippy|doc|...}}`
 
