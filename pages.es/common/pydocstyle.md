@@ -9,11 +9,11 @@
 
 - Muestra una explicación de cada error:
 
-`pydocstyle {{-e|--explain}} {{archivo.py|ruta/al/directorio}}`
+`pydocstyle {{[-e|--explain]}} {{archivo.py|ruta/al/directorio}}`
 
 - Muestra información de depuración:
 
-`pydocstyle {{-d|--debug}} {{archivo.py|ruta/al/directorio}}`
+`pydocstyle {{[-d|--debug]}} {{archivo.py|ruta/al/directorio}}`
 
 - Muestra el número total de errores:
 

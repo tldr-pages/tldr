@@ -9,8 +9,8 @@
 
 - 更改收集信息的详细程度：
 
-`zapier analytics {{-m|--mode}} {{enabled|anonymous|disabled}}`
+`zapier analytics {{[-m|--mode]}} {{enabled|anonymous|disabled}}`
 
 - 显示额外的调试输出：
 
-`zapier analytics {{-m|--mode}} {{enabled|anonymous|disabled}} {{-d|--debug}}`
+`zapier analytics {{[-m|--mode]}} {{enabled|anonymous|disabled}} {{-d|--debug}}`

@@ -9,15 +9,15 @@
 
 - Cari berkas untuk teks string tertentu secara spesifik (dengan menghentikan pencarian berbasis ekspresi reguler):
 
-`grep {{-F|--fixed-strings}} "{{teks_spesifik}}" {{jalan/menuju/berkas}}`
+`grep {{[-F|--fixed-strings]}} "{{teks_spesifik}}" {{jalan/menuju/berkas}}`
 
 - Cari seluruh berkas selain berkas format biner di dalam suatu direktori secara rekursif (termasuk berkas-berkas di dalam subdirektori) dengan menunjukkan nomor barisan di mana pola tersebut ditemukan:
 
-`grep {{-r|--recursive}} {{-n|--line-number}} --binary-files {{without-match}} "{{pola_pencarian}}" {{jalan/menuju/direktori}}`
+`grep {{[-r|--recursive]}} {{[-n|--line-number]}} --binary-files {{without-match}} "{{pola_pencarian}}" {{jalan/menuju/direktori}}`
 
 - Gunakan sintaks ekspresi reguler tingkat lanjut (mendukung `?`, `+`, `{}`, `()`, dan `|`), dalam mode case-insensitive (tanpa menghiraukan perbedaan antara huruf kapital dan kecil):
 
-`grep {{-E|--extended-regexp}} {{-i|--ignore-case}} "{{pola_pencarian}}" {{jalan/menuju/berkas}}`
+`grep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{pola_pencarian}}" {{jalan/menuju/berkas}}`
 
 - Cetak 3 baris konteks isi berkas pada sekitar, sebelum, atau sesudah setiap hasil pencarian:
 
@@ -25,12 +25,12 @@
 
 - Cetak nama berkas dan nomor baris di mana pola tersebut ditemukan dalam format teks berwarna:
 
-`grep {{-H|--with-filename}} {{-n|--line-number}} --color=always "{{pola_pencarian}}" {{jalan/menuju/berkas}}`
+`grep {{[-H|--with-filename]}} {{[-n|--line-number]}} --color=always "{{pola_pencarian}}" {{jalan/menuju/berkas}}`
 
 - Cari untuk barisan teks yang memenuhi kriteria pada pola pencarian, dan hanya cetak bagian teks yang memenuhi pola:
 
-`grep {{-o|--only-matching}} "{{pola_pencarian}}" {{jalan/menuju/berkas}}`
+`grep {{[-o|--only-matching]}} "{{pola_pencarian}}" {{jalan/menuju/berkas}}`
 
 - Cari `stdin` untuk barisan teks yang tidak memenuhi kriteria pada pola pencarian:
 
-`cat {{jalan/menuju/berkas}} | grep {{-v|--invert-match}} "{{pola_pencarian}}"`
+`cat {{jalan/menuju/berkas}} | grep {{[-v|--invert-match]}} "{{pola_pencarian}}"`
