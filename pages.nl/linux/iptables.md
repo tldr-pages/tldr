@@ -6,24 +6,24 @@
 
 - Bekijk ketens, regels, pakket/byte tellers en regelnummers voor de filter tabel:
 
-`sudo iptables --verbose --numeric --list --line-numbers`
+`sudo iptables {{[-vnL --line-numbers|--verbose --numeric --list --line-numbers]}}`
 
 - Zet keten [P]olicy regel:
 
-`sudo iptables --policy {{keten}} {{regel}}`
+`sudo iptables {{[-P|--policy]}} {{keten}} {{regel}}`
 
 - Voeg regel toe aan keten policy voor IP:
 
-`sudo iptables --append {{keten}} --source {{ip}} --jump {{regel}}`
+`sudo iptables {{[-A|--append]}} {{keten}} {{[-s|--source]}} {{ip}} {{[-j|--jump]}} {{regel}}`
 
 - Voeg regel toe aan keten policy voor IP met [p]rotocol en poort in overweging:
 
-`sudo iptables --append {{keten}} --source {{ip}} --protocol {{tcp|udp|icmp|...}} --dport {{poort}} --jump {{regel}}`
+`sudo iptables {{[-A|--append]}} {{keten}} {{[-s|--source]}} {{ip}} {{[-p|--protocol]}} {{tcp|udp|icmp|...}} --dport {{poort}} {{[-j|--jump]}} {{regel}}`
 
 - Voeg een NAT regel toe om al het verkeer van `192.168.0.0/24` subnet te vertalen naar de host's publieke IP:
 
-`sudo iptables --table {{nat}} --append {{POSTROUTING}} --source {{192.168.0.0/24}} --jump {{MASQUERADE}}`
+`sudo iptables {{[-t|--table]}} {{nat}} {{[-A|--append]}} {{POSTROUTING}} {{[-s|--source]}} {{192.168.0.0/24}} {{[-j|--jump]}} {{MASQUERADE}}`
 
 - Verwij[D]er keten regel:
 
-`sudo iptables --delete {{keten}} {{regelnummer}}`
+`sudo iptables {{[-D|--delete]}} {{keten}} {{regelnummer}}`
