@@ -10,16 +10,16 @@
 
 - 특정 단어 목록 사용:
 
-`toipe {{-w|--wordlist}} {{단어목록_이름}}`
+`toipe {{[-w|--wordlist]}} {{단어목록_이름}}`
 
 - 사용자 정의 단어 목록 사용:
 
-`toipe {{-f|--file}} {{경로/대상/파일}}`
+`toipe {{[-f|--file]}} {{경로/대상/파일}}`
 
 - 각 테스트에서 단어 수 지정:
 
-`toipe {{-n|--num}} {{단어_수}}`
+`toipe {{[-n|--num]}} {{단어_수}}`
 
 - 구두점 포함:
 
-`toipe {{-p|--punctuation}}`
+`toipe {{[-p|--punctuation]}}`

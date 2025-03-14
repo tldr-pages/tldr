@@ -14,7 +14,7 @@
 
 - 취약점을 가진 의존성을 강제로 자동 수정:
 
-`npm audit fix {{-f|--force}}`
+`npm audit fix {{[-f|--force]}}`
 
 - `node_modules` 디렉터리를 수정하지 않고 lock 파일 업데이트:
 
