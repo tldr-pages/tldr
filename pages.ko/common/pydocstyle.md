@@ -9,11 +9,11 @@
 
 - 각 오류에 대한 설명 표시:
 
-`pydocstyle {{-e|--explain}} {{파일.py|경로/대상/폴더}}`
+`pydocstyle {{[-e|--explain]}} {{파일.py|경로/대상/폴더}}`
 
 - 디버그 정보 표시:
 
-`pydocstyle {{-d|--debug}} {{파일.py|경로/대상/폴더}}`
+`pydocstyle {{[-d|--debug]}} {{파일.py|경로/대상/폴더}}`
 
 - 총 오류 수 표시:
 
