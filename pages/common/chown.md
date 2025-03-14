@@ -17,11 +17,11 @@
 
 - Recursively change the owner of a directory and its contents:
 
-`chown -R {{user}} {{path/to/directory}}`
+`chown {{[-R|--recursive]}} {{user}} {{path/to/directory}}`
 
 - Change the owner of a symbolic link:
 
-`chown -h {{user}} {{path/to/symlink}}`
+`chown {{[-h|--no-dereference]}} {{user}} {{path/to/symlink}}`
 
 - Change the owner of a file/directory to match a reference file:
 

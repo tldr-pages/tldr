@@ -9,7 +9,7 @@
 
 - 특정 버전의 Visual Builder 통합 변환:
 
-`zapier convert {{integration_id}} {{경로/대상/폴더}} {{-v|--version}}={{버전}}`
+`zapier convert {{integration_id}} {{경로/대상/폴더}} {{[-v|--version]}}={{버전}}`
 
 - 추가 디버깅 출력 표시:
 

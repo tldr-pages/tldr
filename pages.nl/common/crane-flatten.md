@@ -10,8 +10,8 @@
 
 - Pas een nieuwe tag toe op de geflatteerde image:
 
-`crane flatten {{-t|--tag}} {{tag_naam}}`
+`crane flatten {{[-t|--tag]}} {{tag_naam}}`
 
 - Toon de help:
 
-`crane flatten {{-h|--help}}`
+`crane flatten {{[-h|--help]}}`

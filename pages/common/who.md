@@ -10,8 +10,8 @@
 
 - Display all available information:
 
-`who -a`
+`who {{[-a|--all]}}`
 
 - Display all available information with table headers:
 
-`who -a -H`
+`who {{[-aH|--all --heading]}}`

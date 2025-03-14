@@ -13,4 +13,4 @@
 
 - 추가 디버깅 출력 표시:
 
-`zapier push {{-d|--debug}}`
+`zapier push {{[-d|--debug]}}`
