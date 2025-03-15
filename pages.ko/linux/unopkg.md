@@ -27,4 +27,4 @@
 
 - 도움말 표시:
 
-`unopkg {{-h|--help}}`
+`unopkg {{[-h|--help]}}`
