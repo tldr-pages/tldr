@@ -15,6 +15,6 @@
 
 `konsole --new-tab`
 
-- 백그라운드에서 터미널을 열고 `Ctrl+Shift+F12`를 누르면 앞으로 가져오기:
+- 백그라운드에서 터미널을 열고 `<Ctrl Shift F12>`를 누르면 앞으로 가져오기:
 
 `konsole --background-mode`

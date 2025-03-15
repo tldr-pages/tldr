@@ -13,12 +13,12 @@
 
 - 터미널을 가로로 분할:
 
-`<Ctrl> + <Shift> + O`
+`<Ctrl Shift o>`
 
 - 터미널을 세로로 분할:
 
-`<Ctrl> + <Shift> + E`
+`<Ctrl Shift e>`
 
 - 새 탭 열기:
 
-`<Ctrl> + <Shift> + T`
+`<Ctrl Shift t>`

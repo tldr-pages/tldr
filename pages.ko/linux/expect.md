@@ -11,6 +11,6 @@
 
 `expect -c "{{명령어들}}"`
 
-- 대화형 REPL 모드로 진입 (`exit` 또는 Ctrl + D로 종료):
+- 대화형 REPL 모드로 진입 (`exit` 또는 `<Ctrl d>`로 종료):
 
 `expect -i`
