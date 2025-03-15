@@ -1,7 +1,7 @@
 # nvim
 
 > Neovim, teks editor programmer berbasis Vim, menyediakan beberapa mode untuk manipulasi teks berbeda jenis.
-> Tekan `i` masuk mode edit. `<Esc>` kembali ke mode normal, yang tidak mengizinkan penyisipan teks biasa.
+> Tekan `<i>` masuk mode edit. `<Esc>` kembali ke mode normal, yang tidak mengizinkan penyisipan teks biasa.
 > Informasi lebih lanjut: <https://neovim.io>.
 
 - Membuka berkas:
@@ -10,28 +10,28 @@
 
 - Masuk ke mode pengeditan teks (insert mode):
 
-`<Esc>i`
+`<Esc><i>`
 
-- Menyalin ("yank") atau memotong ("delete") baris saat ini (tempel itu dengan `P`):
+- Menyalin ("yank") atau memotong ("delete") baris saat ini (tempel itu dengan `<p>`):
 
-`<Esc>{{yy|dd}}`
+`<Esc>{{<y><y>|<d><d>}}`
 
 - Batalkan operasi terakhir:
 
-`<Esc>u`
+`<Esc><u>`
 
-- Mencari sebuah pattern pada berkas (tekan `n`/`N` untuk pergi ke kecocokan berikutnya/sebelumnya):
+- Mencari sebuah pattern pada berkas (tekan `<n>`/`<N>` untuk pergi ke kecocokan berikutnya/sebelumnya):
 
-`<Esc>/{{pattern_pencarian}}<Enter>`
+`<Esc></>{{pattern_pencarian}}<Enter>`
 
 - Melakukan penggantian ekspresi reguler pada seluruh berkas:
 
-`<Esc>:%s/{{ekspresi_reguler}}/{{pengganti}}/g<Enter>`
+`<Esc><:>%s/{{ekspresi_reguler}}/{{pengganti}}/g<Enter>`
 
 - Menyimpan (write) berkas, dan keluar:
 
-`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
+`{{<Esc><Z><Z>|<Esc><:>x<Enter>|<Esc><:>wq<Enter>}}`
 
 - Keluar tanpa menyimpan:
 
-`<Esc>:q!<Enter>`
+`<Esc><:>q!<Enter>`

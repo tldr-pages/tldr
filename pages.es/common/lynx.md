@@ -25,12 +25,12 @@
 
 - Navega hacia adelante y hacia atrás a través de los enlaces en una página:
 
-`{{Up arrow key|Down arrow key}}`
+`{{<ArrowUp>|<ArrowDown>}}`
 
 - Vuelve a la página mostrada anteriormente:
 
-`{{Left arrow key|u}}`
+`{{<ArrowLeft>|<u>}}`
 
 - Sale:
 
-`q + y`
+`<q><y>`

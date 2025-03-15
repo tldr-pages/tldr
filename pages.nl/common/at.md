@@ -8,7 +8,7 @@
 
 `systemctl start atd`
 
-- Maak commando's interactief en voer ze over 5 minuten uit (druk op `<Ctrl> + D` wanneer klaar):
+- Maak commando's interactief en voer ze over 5 minuten uit (druk op `<Ctrl d>` wanneer klaar):
 
 `at now + 5 minutes`
 

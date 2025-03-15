@@ -26,11 +26,11 @@
 
 - 从当前 screen 会话中分离（先按 `Ctrl + A` 然后按 `D` 分离会话）：
 
-`<Ctrl> + A, D`
+`<Ctrl a><d>`
 
 - 关闭当前 screen 会话：
 
-`<Ctrl> + A, K`
+`<Ctrl a><k>`
 
 - 关闭一个已经分离的 screen 会话：
 

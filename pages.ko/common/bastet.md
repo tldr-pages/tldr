@@ -9,15 +9,15 @@
 
 - 조각을 수평으로 탐색:
 
-`{{Left|Right arrow key}}`
+`{{<ArrowLeft>|<ArrowRight>}}`
 
 - 조각을 시계 방향 또는 시계 반대 방향으로 회전:
 
-`{{Spacebar|Up arrow key}}`
+`{{<Space>|<ArrowUp>}}`
 
 - 조각을 부드럽게 떨어뜨림:
 
-`<Down arrow key>`
+`<ArrowDown>`
 
 - 조각을 세게 떨어뜨림:
 
@@ -25,8 +25,8 @@
 
 - 게임 중지:
 
-`p`
+`<p>`
 
 - 게임 나가기:
 
-`<Ctrl> + C`
+`<Ctrl c>`

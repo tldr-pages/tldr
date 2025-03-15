@@ -1,7 +1,7 @@
 # rainbowstream
 
 > 터미널 기반의 Twitter 클라이언트로, 실시간 트윗 스트림, 트렌드, 전송, 검색, 즐겨찾기 및 사용자 관리를 지원합니다.
-> `h`로 온라인 도움말, 위아래 화살표로 히스토리, 탭으로 자동 완성, 2번 탭으로 제안 기능을 사용할 수 있습니다.
+> `<h>`로 온라인 도움말, `<ArrowUp>``<ArrowDown>` 화살표로 히스토리, `<Tab>` 자동 완성, 2번 `<Tab>` 제안 기능을 사용할 수 있습니다.
 > 더 많은 정보: <https://github.com/orakaro/rainbowstream>.
 
 - RainbowStream 열기:

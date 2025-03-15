@@ -1,7 +1,7 @@
 # vim
 
 > Vim (Vi IMproved), suatu aplikasi pengolah teks berbasis baris perintah, yang menyediakan beberapa mode untuk berbagai jenis proses manipulasi teks.
-> Menekan `i` dalam mode normal akan memasuki mode penyisipan (insert). Menekan `<Esc>` akan kembali ke mode normal, yang memungkinkan penggunaan perintah Vim.
+> Menekan `<i>` dalam mode normal akan memasuki mode penyisipan (insert). Menekan `<Esc>` akan kembali ke mode normal, yang memungkinkan penggunaan perintah Vim.
 > Lihat juga: `vimdiff`, `vimtutor`, `nvim`.
 > Informasi lebih lanjut: <https://www.vim.org>.
 
@@ -15,24 +15,24 @@
 
 - Lihat manual bantuan untuk Vim:
 
-`:help<Enter>`
+`<:>help<Enter>`
 
 - Simpan dan keluar dari sesi pengolahan teks saat ini:
 
-`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
+`{{<Esc><Z><Z>|<Esc><:>x<Enter>|<Esc><:>wq<Enter>}}`
 
 - Masuk ke mode normal dan batalkan operasi terakhir:
 
-`<Esc>u`
+`<Esc><u>`
 
-- Cari pola dalam berkas (tekan `n`/`N` untuk menuju ke kecocokan berikutnya/sebelumnya):
+- Cari pola dalam berkas (tekan `<n>`/`<N>` untuk menuju ke kecocokan berikutnya/sebelumnya):
 
-`/{{pola_pencarian}}<Enter>`
+`</>{{pola_pencarian}}<Enter>`
 
 - Lakukan substitusi ekspresi reguler di seluruh berkas:
 
-`:%s/{{ekspresi_reguler}}/{{teks_pengganti}}/g<Enter>`
+`<:>%s/{{ekspresi_reguler}}/{{teks_pengganti}}/g<Enter>`
 
 - Tampilkan nomor baris:
 
-`:set nu<Enter>`
+`<:>set nu<Enter>`

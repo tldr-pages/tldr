@@ -8,7 +8,7 @@
 
 `pass init {{gpg_id_1}} {{gpg_id_2}}`
 
-- 새 비밀번호 및 추가 정보 저장 (새 줄에서 Ctrl + D를 눌러 완료):
+- 새 비밀번호 및 추가 정보 저장 (새 줄에서 `<Ctrl d>`를 눌러 완료):
 
 `pass insert --multiline {{경로/대상/데이터}}`
 

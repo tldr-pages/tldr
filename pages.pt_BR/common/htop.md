@@ -21,11 +21,11 @@
 
 - Vê comandos interativos enquanto roda `htop`:
 
-`?`
+`<?>`
 
 - Muda para uma aba diferente:
 
-`tab`
+`<Tab>`
 
 - Mostra ajuda:
 

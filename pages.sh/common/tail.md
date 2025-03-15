@@ -15,10 +15,10 @@
 
 `tail -c {{broj}} {{datoteka}}`
 
-- Čitaj datoteku sve do `Ctrl + C`:
+- Čitaj datoteku sve do `<Ctrl c>`:
 
 `tail -f {{datoteka}}`
 
-- Čitaj datoteku sve do `Ctrl + C`, čak i kad je datoteka rotirana:
+- Čitaj datoteku sve do `<Ctrl c>`, čak i kad je datoteka rotirana:
 
 `tail -F {{datoteka}}`

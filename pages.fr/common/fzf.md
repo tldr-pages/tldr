@@ -12,7 +12,7 @@
 
 `ps aux | fzf`
 
-- Sélectionne plusieurs fichiers avec `Shift + Tab` et écrit dans un fichier :
+- Sélectionne plusieurs fichiers avec `<Shift Tab>` et écrit dans un fichier :
 
 `find {{chemin/vers/répertoire}} -type f | fzf --multi > {{chemin/vers/fichier}}`
 
