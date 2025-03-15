@@ -5,28 +5,28 @@
 
 - Compile un ou plusieurs paquets définis dans le manifeste `Cargo.toml` dans le dossier local :
 
-`cargo build`
+`cargo {{[b|build]}}`
 
 - Compile les artefacts avec le mode publication, avec des optimisations :
 
-`cargo build --release`
+`cargo {{[b|build]}} {{[-r|--release]}}`
 
 - Le fichier `Cargo.lock` doit être à jour :
 
-`cargo build --locked`
+`cargo {{[b|build]}} --locked`
 
 - Compile tous les paquets de l'espace de travail :
 
-`cargo build --workspace`
+`cargo {{[b|build]}} --workspace`
 
 - Compile un paquet spécifique :
 
-`cargo build --package {{paquet}}`
+`cargo {{[b|build]}} {{[-p|--package]}} {{paquet}}`
 
 - Compile uniquement le binaire spécifié :
 
-`cargo build --bin {{nom_du_binaire}}`
+`cargo {{[b|build]}} --bin {{nom_du_binaire}}`
 
 - Compile uniquement le test cible spécifié :
 
-`cargo build --test {{nom_du_test}}`
+`cargo {{[b|build]}} --test {{nom_du_test}}`
