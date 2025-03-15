@@ -26,3 +26,7 @@
 - Change the MTU size for a network interface to use jumbo frames:
 
 `sudo ip {{[l|link]}} {{[s|set]}} {{ethN}} mtu {{9000}}`
+
+- Set the promisc mode status of a device:
+
+`sudo ip {{[l|link]}} {{[s|set]}} {{ethN}} promisc {{on|off}}`

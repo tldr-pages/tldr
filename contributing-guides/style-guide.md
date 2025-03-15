@@ -291,7 +291,7 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 ### Special cases
 
-- If a command performs irreversible changes to a file system or devices,
+If a command performs irreversible changes to a file system or devices,
   write every example in a way that cannot be copy pasted thoughtlessly.
   For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
   write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
@@ -299,6 +299,8 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 In general, placeholders should make it as intuitive as possible
 to figure out how to use the command and fill it in with values.
+
+Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
 
 Technical wording on description lines should use the `backtick` syntax.
 Use backticks on the following:
@@ -309,7 +311,27 @@ Use backticks on the following:
 - Standard streams: `stdout`, `stdin`, `stderr`. **Do not** use the full names (e.g. standard output).
 - Compression algorithms, e.g. `zip`, `7z`, `xz`.
 
+When describing keycaps or a keyboard shortcut for a utility, use the same [keypress syntax](#keypress-syntax) as in example commands. Make sure to enclose it in backticks so that it is not invisible in markdown renderers (i.e. ``Print the last lines of a given file and keep reading it until `<Ctrl c>`:``).
+
 ## Heading
+
+### Program description
+
+- Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`)
+- If the program name differs from its executable name, it can be named at the start of the heading (e.g. `rg` and Ripgrep).
+- Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
+
+For example, when writing documentation for `cd`, a tool to check out and work on a specific directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
+
+```md
+> `cd` is a system tool, available in Windows, macOS, and Linux, to check out a specific directory to get things done in the Command Prompt, Terminal, and PowerShell.
+```
+
+It should instead be simplified to make it easier for everyone to read:
+
+```md
+> Change the current working directory.
+```
 
 ### More information links
 
@@ -368,29 +390,6 @@ the part of the address that starts with `?view=`.
 
 ## Example descriptions
 
-### Wording
-
-- Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`)
-unless the program name differs from the executable name (e.g. `rg` and Ripgrep).
-- Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
-- For example, when writing documentation for `cd`, a tool to check out and work on a specific directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
-
-```md
-> `cd` is a system tool, available in Windows, macOS, and Linux, to check out a specific directory to get things done in the Command Prompt, Terminal, and PowerShell.
-```
-
-It should instead be simplified to make it easier for everyone to read:
-
-```md
-> Change the current working directory.
-```
-
-### Formatting
-
-- Proper names should be capitalized in the description whenever applicable (e.g. use `A tool for interacting with a Git repository.` instead of ``A tool for interacting with a `git` repository.``).
-- Acronym expansions (i.e. protocols, tools, etc) must not be translated unless there is a recognized native equivalent for them.
-- When documenting keycaps or a keyboard shortcut for a utility, use the same [keypress syntax](#keypress-syntax) as in example commands. Make sure to enclose it in backticks so that it is not invisible to markdown renderers (i.e. ``Print the last lines of a given file and keep reading it until `<Ctrl c>`:``).
-
 ### Short option mnemonics
 
 Short option mnemonics are optional hints that can be added to help users understand the meaning of these short options. The assigned mnemonics should match with the ones in the command's official documentation (e.g. from `man` or `Get-Help`). For example:
@@ -418,15 +417,15 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 
 > [!NOTE]\
 > In cases where the character isn't present in the translated word, you can highlight the option before/next to the equivalent word or you can add the English work beside the translation inside a bracket.
-> For example, `E[x]tract` in English maybe translated into `[x] ekstrak` or `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
+> For example, `E[x]tract` in English may be translated into `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
 
 ## Example commands
 
 ### Option syntax
 
-- For commonly/frequently used commands (e.g. `grep`, `tar`, etc.), we prefer using short options along with [mnemonics](#short-option-mnemonics) or both inside a placeholder.
+- For user-friendliness, prefer **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
+- If a command only supports short options, attempt to document what the letter is short for with a [mnemonic](#short-option-mnemonics).
 - For letting the client decide whether to show long or short options in commands, use an option placeholder i.e. `{{[-o|--output]}}`.
-- For user-friendliness, use **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
 - Prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`), unless the program does not support it.
 - Likewise prefer separating shortform options from their arguments with a space (i.e. use `-o arg` instead of `-oarg`), unless the program does not support it.
 

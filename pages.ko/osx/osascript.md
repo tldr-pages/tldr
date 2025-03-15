@@ -5,11 +5,11 @@
 
 - AppleScript 명령 실행:
 
-`osascript -e "{{say 'Hello world'}}"`
+`osascript -e '{{say "Hello world"}}'`
 
 - 여러 AppleScript 명령 실행:
 
-`osascript -e "{{say 'Hello'}}" -e "{{say 'world'}}"`
+`osascript -e '{{say "Hello"}}' -e '{{say "world"}}'`
 
 - 컴파일된(`*.scpt`), 번들(`*.scptd`), 또는 텍스트(`*.applescript`) 형식의 AppleScript 파일 실행:
 

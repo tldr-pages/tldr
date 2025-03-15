@@ -13,8 +13,8 @@
 
 - 결과 이미지에 적용할 태그 지정:
 
-`crane index filter {{-t|--tags}} {{태그_이름}}`
+`crane index filter {{[-t|--tags]}} {{태그_이름}}`
 
 - 도움말 표시:
 
-`crane index filter {{-h|--help}}`
+`crane index filter {{[-h|--help]}}`

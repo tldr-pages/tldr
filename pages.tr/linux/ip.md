@@ -26,12 +26,12 @@
 
 - Bir arayüzü etkinleştir/devre dışı bırak:
 
-`ip {{[l|link]}} set {{arayüz}} {{up|down}}`
+`sudo ip {{[l|link]}} {{[s|set]}} {{arayüz}} {{up|down}}`
 
 - Bir arayüze IP adresi ekle/sil:
 
-`ip {{[a|address]}} add/del {{ip}}/{{maske}} dev {{arayüz}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{maske}} dev {{arayüz}}`
 
 - Öntanımlı yönlendirme ekle:
 
-`ip {{[r|route]}} add default via {{ip}} dev {{arayüz}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{arayüz}}`

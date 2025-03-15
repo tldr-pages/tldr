@@ -5,11 +5,11 @@
 
 - Ejecuta un comando AppleScript:
 
-`osascript -e "{{say 'Hello world'}}"`
+`osascript -e '{{say "Hello world"}}'`
 
 - Ejecuta varios comandos AppleScript:
 
-`osascript -e "{{say 'Hello'}}" -e "{{say 'world'}}"`
+`osascript -e '{{say "Hello"}}' -e '{{say "world"}}'`
 
 - Ejecuta un archivo AppleScript compilado (`*.scpt`), empaquetado (`*.scptd`) o un archivo Applescript en texto plano (`*.applescript`):
 

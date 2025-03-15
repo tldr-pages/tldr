@@ -22,4 +22,4 @@
 
 - 불리언을 영구적으로 설정 또는 해제 (대안 방법으로 `semanage-boolean` 사용):
 
-`sudo semanage boolean {{-m|--modify}} {{-1|--on|-0|--off}} {{haproxy_connect_any}}`
+`sudo semanage boolean {{[-m|--modify]}} {{-1|--on|-0|--off}} {{haproxy_connect_any}}`
