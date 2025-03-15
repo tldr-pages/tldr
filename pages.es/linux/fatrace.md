@@ -9,4 +9,4 @@
 
 - Imprime en `stdout` eventos de acceso a archivos en el montaje del directorio actual, con marcas de tiempo:
 
-`sudo fatrace {{-c|--current-mount}} {{-t|--timestamp}}`
+`sudo fatrace {{[-c|--current-mount]}} {{[-t|--timestamp]}}`

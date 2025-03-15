@@ -14,4 +14,4 @@
 
 - 설명과 함께 모든 부울의 현재 설정 보기:
 
-`sudo semanage boolean {{-l|--list}}`
+`sudo semanage boolean {{[-l|--list]}}`

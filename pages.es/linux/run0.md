@@ -10,4 +10,4 @@
 
 - Ejecuta un comando como otro usuario y/o grupo:
 
-`run0 {{-u|--user}} {{usuario|uid}} {{-g|--group}} {{nombre_de_grupo|gid}} {{comando}}`
+`run0 {{[-u|--user]}} {{usuario|uid}} {{[-g|--group]}} {{nombre_de_grupo|gid}} {{comando}}`

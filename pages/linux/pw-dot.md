@@ -12,17 +12,17 @@
 
 `pw-dot {{[-j|--json]}} {{path/to/file.json}}`
 
-- Specify an [o]utput file, showing all object types:
+- Specify an output file, showing all object types:
 
-`pw-dot --output {{path/to/file.dot}} {{[-a|--all]}}`
+`pw-dot {{[-o|--output]}} {{path/to/file.dot}} {{[-a|--all]}}`
 
 - Print `.dot` graph to `stdout`, showing all object properties:
 
-`pw-dot --output - {{[-d|--detail]}}`
+`pw-dot {{[-o|--output]}} - {{[-d|--detail]}}`
 
-- Generate a graph from a [r]emote instance, showing only linked objects:
+- Generate a graph from a remote instance, showing only linked objects:
 
-`pw-dot --remote {{remote_name}} {{[-s|--smart]}}`
+`pw-dot {{[-r|--remote]}} {{remote_name}} {{[-s|--smart]}}`
 
 - Lay the graph from left to right, instead of dot's default top to bottom:
 
@@ -34,4 +34,4 @@
 
 - Display help:
 
-`pw-dot --help`
+`pw-dot {{[-h|--help]}}`
