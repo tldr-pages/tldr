@@ -9,6 +9,10 @@
 
 `sudo semanage permissive {{[-l|--list]}}`
 
-- Set or unset permissive mode for a domain:
+- Set permissive mode for a domain:
 
-`sudo semanage permissive {{-a|--add|-d|--delete}} {{httpd_t}}`
+`sudo semanage permissive {{[-a|--add]}} {{httpd_t}}`
+
+- Unset permissive mode for a domain:
+
+`sudo semanage permissive {{[-d|--delete]}} {{httpd_t}}`

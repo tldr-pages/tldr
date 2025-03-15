@@ -25,7 +25,7 @@
 
 - Fuerza una operación:
 
-`hyprpm {{-f|--force}} {{operación}}`
+`hyprpm {{[-f|--force]}} {{operación}}`
 
 - Lista todos los complementos instalados:
 

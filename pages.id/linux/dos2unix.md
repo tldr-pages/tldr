@@ -11,11 +11,11 @@
 
 - Ganti format namun simpan perubahan sebagai berkas baru:
 
-`dos2unix {{-n|--newfile}} {{jalan/menuju/berkas}} {{jalan/menuju/berkas_baru}}`
+`dos2unix {{[-n|--newfile]}} {{jalan/menuju/berkas}} {{jalan/menuju/berkas_baru}}`
 
 - Tampilkan informasi suatu berkas teks:
 
-`dos2unix {{-i|--info}} {{jalan/menuju/berkas}}`
+`dos2unix {{[-i|--info]}} {{jalan/menuju/berkas}}`
 
 - Tetap jaga/tambahkan/hapus simbol Byte Order Mark (BOM) saat mengubah isi berkas:
 

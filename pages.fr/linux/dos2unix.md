@@ -11,11 +11,11 @@
 
 - Crée une copie avec des fins de lignes de type Unix :
 
-`dos2unix {{-n|--newfile}} {{chemin/vers/fichier}} {{chemin/vers/nouveau_fichier}}`
+`dos2unix {{[-n|--newfile]}} {{chemin/vers/fichier}} {{chemin/vers/nouveau_fichier}}`
 
 - Affiche les informations d'un fichier :
 
-`dos2unix {{-i|--info}} {{chemin/vers/fichier}}`
+`dos2unix {{[-i|--info]}} {{chemin/vers/fichier}}`
 
 - Conserve/Ecrit/Supprime la marque d'ordre des octets (BOM) :
 

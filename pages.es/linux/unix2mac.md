@@ -11,11 +11,11 @@
 
 - Crea una copia con finales de línea de estilo macOS:
 
-`unix2mac {{-n|--newfile}} {{ruta/al/archivo}} {{ruta/a/archivo_nuevo}}`
+`unix2mac {{[-n|--newfile]}} {{ruta/al/archivo}} {{ruta/a/archivo_nuevo}}`
 
 - Muestra información del archivo:
 
-`unix2mac {{-i|--info}} {{ruta/al/archivo}}`
+`unix2mac {{[-i|--info]}} {{ruta/al/archivo}}`
 
 - Mantiene/añade/elimina marca de orden de byte (Byte Order Mark):
 
