@@ -6,8 +6,8 @@
 
 - Send a file to a specific node:
 
-`sudo tailscale file cp {{path/to/file}} {{hostname|ip}}:`
+`tailscale file cp {{path/to/file}} {{hostname|ip}}:`
 
 - Store files that were sent to the current node into a specific directory:
 
-`sudo tailscale file get {{path/to/directory}}`
+`tailscale file get {{path/to/directory}}`
