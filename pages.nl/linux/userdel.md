@@ -10,8 +10,8 @@
 
 - Verwijder een gebruiker in een andere root-map:
 
-`sudo userdel {{-R|--root}} {{pad/naar/andere/root}} {{gebruikersnaam}}`
+`sudo userdel {{[-R|--root]}} {{pad/naar/andere/root}} {{gebruikersnaam}}`
 
 - Verwijder een gebruiker samen met de thuismap en mail-spool:
 
-`sudo userdel {{-r|--remove}} {{gebruikersnaam}}`
+`sudo userdel {{[-r|--remove]}} {{gebruikersnaam}}`
