@@ -12,11 +12,11 @@
 
 - Dry-run - exibe quais renomeações ocorreriam sem executá-las:
 
-`rename -vn {{foo}} {{bar}} {{*}}`
+`rename {{[-vn|--verbose --no-act]}} {{foo}} {{bar}} {{*}}`
 
 - Não sobrescreve os arquivos existentes:
 
-`rename -o {{foo}} {{bar}} {{*}}`
+`rename {{[-o|--no-overwrite]}} {{foo}} {{bar}} {{*}}`
 
 - Altera as extensões dos arquivos:
 

@@ -29,7 +29,7 @@
 
 - 全ての service/socket/automount ユニットを running/failed 状態でフィルタリングして一覧表示する:
 
-`systemctl list-units --type={{service|socket|automount}} --state={{failed|running}}`
+`systemctl list-units {{[-t|--type]}} {{service|socket|automount}} --state {{failed|running}}`
 
 - ユニットファイルの内容と絶対パスを表示する:
 

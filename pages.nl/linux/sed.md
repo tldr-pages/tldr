@@ -10,7 +10,7 @@
 
 - Vervang alle `apple` (uitgebreide regex) met `APPLE` (uitgebreide regex) in alle invoerregels en toon het resultaat in `stdout`:
 
-`{{commando}} | sed -E 's/(apple)/\U\1/g'`
+`{{commando}} | sed {{[-E|--regexp-extended]}} 's/(apple)/\U\1/g'`
 
 - Vervang alle `apple` (basis regex) met `mango` (basis regex) in een specifiek bestand en overschrijf het originele bestand:
 
@@ -18,11 +18,11 @@
 
 - Voer een specifiek script bestand uit en toon het resultaat in `stdout`:
 
-`{{commando}} | sed -f {{pad/naar/script.sed}}`
+`{{commando}} | sed {{-f|--file}} {{pad/naar/script.sed}}`
 
 - Toon alleen de eerste regel in `stdout`:
 
-`{{commando}} | sed -n '1p'`
+`{{commando}} | sed {{[-n|--quiet]}} '1p'`
 
 - Verwijder de eerste regel van een bestand:
 

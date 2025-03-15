@@ -17,16 +17,16 @@
 
 - 現在のユーザーのすべてのプロセスを完全なフォーマットで表示する:
 
-`ps --user $(id -u) -F`
+`ps {{[-u|--user]}} $(id {{[-u|--user]}}) -F`
 
 - カレントユーザーの全プロセスをツリー状にリストアップ:
 
-`ps --user $(id -u) f`
+`ps {{[-u|--user]}} $(id {{[-u|--user]}}) f`
 
 - プロセスの親 pid を取得する:
 
-`ps -o ppid= -p {{pid}}`
+`ps {{[-o|--format]}} ppid= {{[-p|--pid]}} {{pid}}`
 
 - プロセスをメモリ消費量でソート:
 
-`ps --sort size`
+`ps {{[k|--sort]}} size`

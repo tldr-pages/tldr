@@ -10,7 +10,7 @@
 
 - Apaga el sistema (igual que `poweroff`):
 
-`halt --poweroff`
+`halt {{[-p|--poweroff]}}`
 
 - Reinicia el sistema (igual que `reboot`):
 
@@ -18,8 +18,8 @@
 
 - Apaga inmediatamente el sistema sin contactar al administrador:
 
-`halt --force`
+`halt {{[-f|--force]}}`
 
 - Escribe la entrada de apagado en wtmp sin apagar el sistema:
 
-`halt --wtmp-only`
+`halt {{[-w|--wtmp-only]}}`

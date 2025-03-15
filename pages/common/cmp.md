@@ -13,7 +13,7 @@
 
 - Output the byte numbers and values of every difference:
 
-`cmp {{[-v|--verbose]}} {{path/to/file1}} {{path/to/file2}}`
+`cmp {{[-l|--verbose]}} {{path/to/file1}} {{path/to/file2}}`
 
 - Compare files but output nothing, yield only the exit status:
 

@@ -9,11 +9,11 @@
 
 - Exibe a identidade do usuário atual como um número:
 
-`id -u`
+`id {{[-u|--user]}}`
 
 - Exibe a identidade do grupo atual como um número:
 
-`id -g`
+`id {{[-g|--group]}}`
 
 - Exibe o ID de um usuário arbitrário (UID), ID do grupo (GID) e grupos aos quais eles pertencem:
 

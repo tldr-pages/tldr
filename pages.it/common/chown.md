@@ -13,11 +13,11 @@
 
 - Cambia ricorsivamente il proprietario di una directory ed i suoi contenuti:
 
-`chown -R {{utente}} {{percorso/della/directory}}`
+`chown {{[-R|--recursive]}} {{utente}} {{percorso/della/directory}}`
 
 - Cambia il proprietario di un link simbolico:
 
-`chown -h {{utente}} {{percorso/del/link_simbolico}}`
+`chown {{[-h|--no-dereference]}} {{utente}} {{percorso/del/link_simbolico}}`
 
 - Cambia il proprietario di un file/directory rendendolo uguale a quello di un altro file di riferimento:
 

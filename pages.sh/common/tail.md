@@ -5,20 +5,20 @@
 
 - Prikaži poslednjih 'broj' linija u datoteci:
 
-`tail -n {{broj}} {{datoteka}}`
+`tail {{[-n|--lines]}} {{broj}} {{datoteka}}`
 
 - Prikaži celu datoteku od linije 'broj':
 
-`tail -n +{{broj}} {{datoteka}}`
+`tail {{[-n|--lines]}} +{{broj}} {{datoteka}}`
 
 - Prikaži poslednjih 'broj' bajtova u datoteci:
 
-`tail -c {{broj}} {{datoteka}}`
+`tail {{[-c|--bytes]}} {{broj}} {{datoteka}}`
 
 - Čitaj datoteku sve do `Ctrl + C`:
 
-`tail -f {{datoteka}}`
+`tail {{[-f|--follow]}} {{datoteka}}`
 
 - Čitaj datoteku sve do `Ctrl + C`, čak i kad je datoteka rotirana:
 
-`tail -F {{datoteka}}`
+`tail {{[-F|--retry --follow]}} {{datoteka}}`

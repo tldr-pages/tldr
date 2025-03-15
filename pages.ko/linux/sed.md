@@ -10,7 +10,7 @@
 
 - 모든 입력 줄에서 `apple` (확장 정규식) 발생 부분을 `APPLE` (확장 정규식)로 대체하고 결과를 `stdout`에 출력:
 
-`{{command}} | sed -E 's/(apple)/\U\1/g'`
+`{{command}} | sed {{[-E|--regexp-extended]}} 's/(apple)/\U\1/g'`
 
 - 특정 파일에서 모든 `apple` (기본 정규식) 발생 부분을 `mango` (기본 정규식)로 대체하고 원본 파일을 직접 덮어쓰기:
 
@@ -18,11 +18,11 @@
 
 - 특정 스크립트 [f]파일을 실행하고 결과를 `stdout`에 출력:
 
-`{{command}} | sed -f {{경로/대상/스크립트.sed}}`
+`{{command}} | sed {{-f|--file}} {{경로/대상/스크립트.sed}}`
 
 - 첫 번째 줄만 `stdout`에 출력:
 
-`{{command}} | sed -n '1p'`
+`{{command}} | sed {{[-n|--quiet]}} '1p'`
 
 - 파일의 첫 번째 줄 [d]삭제:
 

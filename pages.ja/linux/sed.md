@@ -10,7 +10,7 @@
 
 - 全ての入力行で出現する全ての `apple` (拡張正規表現)を `APPLE` (拡張正規表現)に置換し、結果を`stdout`に出力する:
 
-`{{command}} | sed -E 's/(apple)/\U\1/g'`
+`{{command}} | sed {{[-E|--regexp-extended]}} 's/(apple)/\U\1/g'`
 
 - 特定のファイルに出現する全ての `apple` (基本正規表現)を `mango` (基本正規表現)に置換し、元のファイルを上書きする:
 
@@ -18,11 +18,11 @@
 
 - 特定のスクリプトファイル([f]ile)を実行し、結果を`stdout`に出力する:
 
-`{{command}} | sed -f {{path/to/script.sed}}`
+`{{command}} | sed {{-f|--file}} {{path/to/script.sed}}`
 
 - 最初の行だけを`stdout`に出力する:
 
-`{{command}} | sed -n '1p'`
+`{{command}} | sed {{[-n|--quiet]}} '1p'`
 
 - ファイルの最初の行を削除([d]elete)する:
 

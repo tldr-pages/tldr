@@ -9,12 +9,12 @@
 
 - Überwache verfügbaren Festplatten-Speicherplatz und hebe die Änderungen hervor:
 
-`watch -d {{df}}`
+`watch {{[-d|--differences]}} {{df}}`
 
 - Überwache "node"-Prozesse und aktualisiere alle 3 Sekunden:
 
-`watch -n {{3}} "{{ps aux | grep node}}"`
+`watch {{[-n|--interval]}} {{3}} "{{ps aux | grep node}}"`
 
 - Überwache, ob sich der Festplatten-Speicherplatz ändert und höre mit der Überwachung auf, sobald eine Änderung auftritt:
 
-`watch -g {{df}}`
+`watch {{[-g|--chgexit]}} {{df}}`

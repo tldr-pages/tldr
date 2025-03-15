@@ -14,12 +14,12 @@
 
 - Als het loskoppelen faalt, probeer het bestandssysteem dan opnieuw te koppelen in leesmodus:
 
-`umount --read-only {{pad/naar/gemounte_map}}`
+`umount {{[-r|--read-only]}} {{pad/naar/gemounte_map}}`
 
 - Koppel ieder gespecificeerde map recursief los:
 
-`umount --recursive {{pad/naar/gemounte_map}}`
+`umount {{[-R|--recursive]}} {{pad/naar/gemounte_map}}`
 
 - Koppel alle gemounte bestandssystemen los (behalve het `proc` bestandssysteem):
 
-`umount -a`
+`umount {{[-a|--all]}}`

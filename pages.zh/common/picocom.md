@@ -5,7 +5,7 @@
 
 - 以指定波特率连接到串行端口：
 
-`picocom {{/dev/ttyXYZ}} --baud {{波特率}}`
+`picocom {{/dev/ttyXYZ}} {{[-b|--baud]}} {{波特率}}`
 
 - 映射特殊字符（例如：将 LF 映射为 CRLF）：
 

@@ -10,7 +10,7 @@
 
 - Substitui todas as ocorrências de `apple` (regex estendida) por `APPLE` (regex estendida) em todas as linhas de entrada e imprime o resultado na `stdout`:
 
-`{{comando}} | sed -E 's/(apple)/\U\1/g'`
+`{{comando}} | sed {{[-E|--regexp-extended]}} 's/(apple)/\U\1/g'`
 
 - Substitui todas as ocorrências de `apple` (regex básica) por `mango` (regex básica) em um arquivo específico e sobrescreve o arquivo original:
 
@@ -18,11 +18,11 @@
 
 - Executa um arquivo de script específico e imprime o resultado na `stdout`:
 
-`{{comando}} | sed -f {{caminho/para/script.sed}}`
+`{{comando}} | sed {{-f|--file}} {{caminho/para/script.sed}}`
 
 - Imprime apenas uma primeira linha na `stdout`:
 
-`{{comando}} | sed -n '1p'`
+`{{comando}} | sed {{[-n|--quiet]}} '1p'`
 
 - Exclui a primeira linha de um arquivo:
 

@@ -21,8 +21,8 @@
 
 - [n]ummer alle uitvoerregels:
 
-`cat -n {{pad/naar/bestand}}`
+`cat {{[-n|--number]}} {{pad/naar/bestand}}`
 
 - Toon niet-afdrukbare en witruimtekarakters (met `M-` prefix als niet-ASCII):
 
-`cat -v -t -e {{pad/naar/bestand}}`
+`cat {{[-vte|--show-nonprinting -t -e]}} {{pad/naar/bestand}}`

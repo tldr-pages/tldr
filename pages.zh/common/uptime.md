@@ -9,12 +9,12 @@
 
 - 仅显示系统已启动的时间长度：
 
-`uptime --pretty`
+`uptime {{[-p|--pretty]}}`
 
 - 打印系统启动的日期和时间：
 
-`uptime --since`
+`uptime {{[-s|--since]}}`
 
 - 显示版本信息：
 
-`uptime --version`
+`uptime {{[-V|--version]}}`

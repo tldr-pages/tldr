@@ -29,7 +29,7 @@
 
 - 실행 중이거나 실패한 상태로 필터링하여 모든 서비스/소켓/자동 마운트 유닛 나열:
 
-`systemctl list-units --type={{service|socket|automount}} --state={{failed|running}}`
+`systemctl list-units {{[-t|--type]}} {{service|socket|automount}} --state {{failed|running}}`
 
 - 유닛 파일의 내용 및 절대 경로 표시:
 

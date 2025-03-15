@@ -29,4 +29,4 @@
 
 - Muda as permissões, recursivamente, dando ao [g]rupo e [o]utros a possibilidade de escrever ([w]):
 
-`chmod -R g+w,o+w {{caminho/para/diretório}}`
+`chmod {{[-R|--recursive]}} g+w,o+w {{caminho/para/diretório}}`

@@ -10,19 +10,19 @@
 
 - Start een interactieve editor sessie met een leeg document en een specifieke prompt:
 
-`ed --prompt='> '`
+`ed {{[-p|--prompt]}} '{{> }}'`
 
 - Start een interactieve editor sessie met gebruiksvriendelijke foutmeldingen:
 
-`ed --verbose`
+`ed {{[-v|--verbose]}}`
 
 - Start een interactieve editor sessie met een leeg document en zonder diagnostics, het aantal bytes en de '!' prompt:
 
-`ed --quiet`
+`ed {{[-q|--quiet]}}`
 
 - Start een interactieve editor sessie zonder exit status change als het commando faalt:
 
-`ed --loose-exit-status`
+`ed {{[-l|--loose-exit-status]}}`
 
 - Pas een specifiek bestand aan (dit toont het aantal bytes van het geladen bestand):
 
@@ -30,4 +30,4 @@
 
 - Vervang een string met een specifieke vervanging voor alle regels:
 
-`,s/{{reguliere_expressie}}/{{vervanging}}/g`
+`,s/{{reguliere_expressie}}/{{vervanging}}/g<Enter>`

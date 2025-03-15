@@ -13,8 +13,8 @@
 
 - Mostra memória em unidades legíveis por seres humanos:
 
-`free -h`
+`free {{[-h|--human]}}`
 
 - Atualiza a saída padrão a cada 2 segundos:
 
-`free -s {{2}}`
+`free {{[-s|--seconds]}} {{2}}`

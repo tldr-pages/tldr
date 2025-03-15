@@ -9,8 +9,8 @@
 
 - Busca procesos incluyendo sus opciones de línea de comandos:
 
-`pgrep --full "{{nombre_del_proceso}} {{parámetro}}"`
+`pgrep {{[-f|--full]}} "{{nombre_del_proceso}} {{parámetro}}"`
 
 - Busca procesos gestionados por un usuario específico:
 
-`pgrep --euid root {{nombre_del_proceso}}`
+`pgrep {{[-u|--euid]}} root {{nombre_del_proceso}}`

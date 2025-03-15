@@ -18,7 +18,7 @@
 
 - 콘솔 모드에서 Emacs를 시작 (X 윈도우 없이):
 
-`emacs --no-window-system`
+`emacs {{[-nw|--no-window-system]}}`
 
 - 백그라운드에서 Emacs 서버를 시작 (`emacsclient`를 통해 액세스 가능):
 

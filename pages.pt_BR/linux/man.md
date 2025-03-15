@@ -9,7 +9,7 @@
 
 - Exibe a página do manual para um comando no navegador web (necessário ter a variável de sistema `BROWSER` definida):
 
-`man --html {{command}}`
+`man {{[-Hbrowser_name|--html=browser_name]}} {{command}}`
 
 - Exibe a página do manual para um comando da seção 7:
 
@@ -17,20 +17,20 @@
 
 - Lista todas as seções disponíveis para um comando:
 
-`man --whatis {{comando}}`
+`man {{[-f|--whatis]}} {{comando}}`
 
 - Exibe o caminho pesquisado para páginas do manual:
 
-`man --path`
+`man {{[-w|--path]}}`
 
 - Exibe a localização de uma página do manual em vez da página em si:
 
-`man --where {{comando}}`
+`man {{[-w|--where]}} {{comando}}`
 
 - Exibe a página do manual usando uma localização específica:
 
-`man --locale {{localização}} {{comando}}`
+`man {{[-L|--locale]}} {{localização}} {{comando}}`
 
 - Procura por páginas do manual que contenham uma certa string:
 
-`man --apropos "{{string_buscada}}"`
+`man {{[-k|--apropos]}} "{{string_buscada}}"`

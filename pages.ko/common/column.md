@@ -6,16 +6,16 @@
 
 - 30자 폭 디스플레이의 형식 출력으로 포맷 정하기:
 
-`printf "header1 header2\nbar foo\n" | column --output-width {{30}}`
+`printf "header1 header2\nbar foo\n" | column {{[-c|--output-width]}} {{30}}`
 
 - 열 자동 분할 및 자동 정렬을 표 형식으로 분할:
 
-`printf "header1 header2\nbar foo\n" | column --table`
+`printf "header1 header2\nbar foo\n" | column {{[-t|--table]}}`
 
 - -t 옵션(예: "", CSV)에 대한 열 구분 기호 문자를 지정; 기본값은 공백입니다:
 
-`printf "header1,header2\nbar,foo\n" | column --table --separator {{,}}`
+`printf "header1,header2\nbar,foo\n" | column {{[-t|--table]}} {{[-s|--separator]}} {{,}}`
 
 - 열을 채우기 전에 행 채우기:
 
-`printf "header1\nbar\nfoobar\n" | column --output-width {{30}} --fillrows`
+`printf "header1\nbar\nfoobar\n" | column {{[-c|--output-width]}} {{30}} {{[-x|--fillrows]}}`

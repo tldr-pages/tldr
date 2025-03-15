@@ -9,19 +9,19 @@
 
 - 현재 사용자 ID를 표시:
 
-`id -un`
+`id {{[-un|--user --name]}}`
 
 - 현재 사용자 ID를 숫자로 표시:
 
-`id -u`
+`id {{[-u|--user]}}`
 
 - 현재 기본 그룹 ID를 표시:
 
-`id -gn`
+`id {{[-gn|--group --name]}}`
 
 - 현재 기본 그룹 ID를 숫자로 표시:
 
-`id -g`
+`id {{[-g|--group]}}`
 
 - 임의의 사용자 ID (UID), 그룹 ID (GID) 및 이들이 속한 그룹을 표시:
 

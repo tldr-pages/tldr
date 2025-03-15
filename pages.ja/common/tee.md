@@ -9,7 +9,7 @@
 
 - 与えられたファイルに追記する。上書きはしない:
 
-`echo "example" | tee -a {{path/to/file}}`
+`echo "example" | tee {{[-a|--append]}} {{path/to/file}}`
 
 - ターミナルに `stdin` を表示し、さらに処理するために別のプログラムにパイプする:
 

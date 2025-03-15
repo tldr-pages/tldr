@@ -3,11 +3,11 @@
 > Troubleshooting tool for tracing system calls.
 > More information: <https://manned.org/strace>.
 
-- Start tracing a specific [p]rocess by its PID:
+- Start tracing a specific process by its PID:
 
 `strace {{[-p|--attach]}} {{pid}}`
 
-- Trace a [p]rocess and filter output by system call [e]xpression:
+- Trace a process and filter output by system call [e]xpression:
 
 `strace {{[-p|--attach]}} {{pid}} -e {{system_call,system_call2,...}}`
 

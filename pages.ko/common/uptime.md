@@ -9,12 +9,12 @@
 
 - 시스템이 부팅된 시간만 표시:
 
-`uptime --pretty`
+`uptime {{[-p|--pretty]}}`
 
 - 시스템이 부팅된 날짜와 시간을 출력:
 
-`uptime --since`
+`uptime {{[-s|--since]}}`
 
 - 버전 정보 표시:
 
-`uptime --version`
+`uptime {{[-V|--version]}}`

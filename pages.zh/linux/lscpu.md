@@ -9,8 +9,8 @@
 
 - 以表格方式显示信息：
 
-`lscpu --extended`
+`lscpu {{[-e|--extended]}}`
 
 - 仅显示表中离线 CPU 的信息：
 
-`lscpu --extended --offline`
+`lscpu {{[-e|--extended]}} {{[-c|--offline]}}`

@@ -29,8 +29,8 @@
 
 - Berikan hak tulis suatu direktori bagi [g]rup dan lainnya secara [R]ekursif (termasuk seluruh file yang terkandung di dalamnya):
 
-`chmod -R g+w,o+w {{jalan/menuju/direktori}}`
+`chmod {{[-R|--recursive]}} g+w,o+w {{jalan/menuju/direktori}}`
 
 - Berikan hak semua pengguna untuk membaca seluruh file dan mengeksekusi para sub-direktori dalam suatu direktori:
 
-`chmod -R a+rX {{jalan/menuju/direktori}}`
+`chmod {{[-R|--recursive]}} a+rX {{jalan/menuju/direktori}}`

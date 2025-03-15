@@ -9,19 +9,19 @@
 
 - Toon [3] maanden (vorige, huidige en volgende):
 
-`cal -3`
+`cal {{[-3|--three]}}`
 
 - Toon de volledige kalender voor het huidige jaar:
 
-`cal --year`
+`cal {{[-y|--year]}}`
 
 - Toon de volgende twaalf maanden:
 
-`cal --twelve`
+`cal {{[-Y|--twelve]}}`
 
 - Gebruik maandag als de eerste dag van de week:
 
-`cal --monday`
+`cal {{[-m|--monday]}}`
 
 - Toon een kalender voor een specifiek jaar (4 cijfers):
 

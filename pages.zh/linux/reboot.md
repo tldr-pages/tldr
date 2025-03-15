@@ -9,4 +9,4 @@
 
 - 立即重启，而无需正常关闭：
 
-`reboot -f`
+`reboot {{[-f|--force]}}`

@@ -29,8 +29,8 @@
 
 - Modifie les permissions récursivement en donnant aux membres du [g]roupe et aux autres [o] utilisateurs le droit d'écriture [w] :
 
-`chmod -R g+w,o+w {{chemin/vers/répertoire}}`
+`chmod {{[-R|--recursive]}} g+w,o+w {{chemin/vers/répertoire}}`
 
 - Donne récursivement à tous [a] les utilisateurs les droits de lecture [r] de fichiers et d'e[X]écution de sous-répertoires à l'intérieur d'un répertoire :
 
-`chmod -R a+rX {{chemin/vers/répertoire}}`
+`chmod {{[-R|--recursive]}} a+rX {{chemin/vers/répertoire}}`

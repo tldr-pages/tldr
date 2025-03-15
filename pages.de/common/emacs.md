@@ -14,7 +14,7 @@
 
 - Starte Emacs in der Konsole (ohne X-Fenster):
 
-`emacs --no-window-system`
+`emacs {{[-nw|--no-window-system]}}`
 
 - Starte einen Emacs-Server im Hintergrund (aufrufbar mit `emacsclient`):
 

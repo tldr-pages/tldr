@@ -9,16 +9,16 @@
 
 - Bestimmt die Dateityp(en) in einer gezippten Datei:
 
-`file -z {{archiv.zip}}`
+`file {{[-z|--uncompress]}} {{archiv.zip}}`
 
 - Zulassen, dass die Datei mit speziellen oder Gerätedateien arbeitet:
 
-`file -s {{dateiname}}`
+`file {{[-s|--special-files]}} {{dateiname}}`
 
 - Hört nicht bei der ersten Dateityp-Übereinstimmung auf; weitermachen bis zum Ende der Datei:
 
-`file -k {{dateiname}}`
+`file {{[-k|--keep-going]}} {{dateiname}}`
 
 - Bestimmen des MIME-Codierungstyp einer Datei:
 
-`file -i {{dateiname}}`
+`file {{[-i|--mime]}} {{dateiname}}`

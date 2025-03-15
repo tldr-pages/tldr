@@ -9,7 +9,7 @@
 
 - Open de handleiding voor een commando in een browser:
 
-`man --html {{commando}}`
+`man {{[-Hbrowser_name|--html=browser_name]}} {{commando}}`
 
 - Toon de handleiding voor een commando uit sectie 7:
 
@@ -17,20 +17,20 @@
 
 - Toon alle beschikbare secties voor een commando:
 
-`man --whatis {{commando}}`
+`man {{[-f|--whatis]}} {{commando}}`
 
 - Toon het pad dat wordt doorzocht voor handleidingen:
 
-`man --path`
+`man {{[-w|--path]}}`
 
 - Toon de locatie van een handleiding in plaats van de handleiding zelf:
 
-`man --where {{commando}}`
+`man {{[-w|--where]}} {{commando}}`
 
 - Toon de handleiding in een specifieke taal:
 
-`man --locale {{taal}} {{commando}}`
+`man {{[-L|--locale]}} {{taal}} {{commando}}`
 
 - Zoek naar handleidingen die een zoekterm bevatten:
 
-`man --apropos "{{zoekterm}}"`
+`man {{[-k|--apropos]}} "{{zoekterm}}"`

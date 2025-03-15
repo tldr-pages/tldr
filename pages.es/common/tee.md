@@ -9,7 +9,7 @@
 
 - Anexa a los archivos específicos, sin sobreescribir:
 
-`echo "ejemplo" | tee -a {{ruta/al/archivo}}`
+`echo "ejemplo" | tee {{[-a|--append]}} {{ruta/al/archivo}}`
 
 - Imprime la entrada estándar a la terminal, y también lo reenvía a otro programa para posterior procesamiento:
 

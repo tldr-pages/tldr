@@ -13,7 +13,7 @@
 
 - CPU 통계 표시:
 
-`iostat -c`
+`iostat {{[-c|--compact]}}`
 
 - 디스크 이름(및 LVM 포함)을 사용한 디스크 통계 표시:
 

@@ -9,8 +9,8 @@
 
 - البحث عن العمليات مع الخيارات المستخدمة في سطر الأوامر:
 
-`pgrep --full "{{process_name}} {{parameter}}"`
+`pgrep {{[-f|--full]}} "{{process_name}} {{parameter}}"`
 
 - البحث عن العمليات التي يتم تشغيلها بواسطة مستخدم معين:
 
-`pgrep --euid root {{process_name}}`
+`pgrep {{[-u|--euid]}} root {{process_name}}`

@@ -9,4 +9,4 @@
 
 - Print de huidige directory en los alle symlinks op (d.w.z. toon het "fysieke" pad):
 
-`pwd -P`
+`pwd {{[-P|--physical]}}`

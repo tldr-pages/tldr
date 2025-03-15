@@ -9,7 +9,7 @@
 
 - Apaga la màquina (el mateix que `poweroff`):
 
-`halt --poweroff`
+`halt {{[-p|--poweroff]}}`
 
 - Reinicia la màquina (el mateix que `reboot`):
 
@@ -17,8 +17,8 @@
 
 - Deté la màquina inmediatament sense contactar l'administrador de sistemes:
 
-`halt --force`
+`halt {{[-f|--force]}}`
 
 - Escriu l'entrada de wtpm shutdown sense aturar el sistema:
 
-`halt --wtmp-only`
+`halt {{[-w|--wtmp-only]}}`

@@ -9,7 +9,7 @@
 
 - Start de tekst bewerker zonder gebruik te maken van configuratiebestanden:
 
-`nano --ignorercfiles`
+`nano {{[-I|--ignorercfiles]}}`
 
 - Open specifieke bestanden, ga naar het volgende bestand bij het sluiten van de vorige:
 
@@ -21,12 +21,12 @@
 
 - Open een bestand en zet 'soft wrapping' aan:
 
-`nano --softwrap {{pad/naar/bestand}}`
+`nano {{[-S|--softwrap]}} {{pad/naar/bestand}}`
 
 - Open een bestand en spring nieuwe regels in volgens de inspringing van de vorige regel:
 
-`nano --autoindent {{pad/naar/bestand}}`
+`nano {{[-i|--autoindent]}} {{pad/naar/bestand}}`
 
 - Open een bestand en maak een reservekopie (`pad/naar/bestand~`) bij het opslaan:
 
-`nano --backup {{pad/naar/bestand}}`
+`nano {{[-B|--backup]}} {{pad/naar/bestand}}`

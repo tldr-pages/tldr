@@ -13,23 +13,23 @@
 
 - Copia recursivamente o conteúdo de um diretório para outra localização (se o destino existe, o diretório é copiado para dentro dele):
 
-`cp -r {{caminho/para/diretório_fonte}} {{caminho/para/diretório_alvo}}`
+`cp {{[-r|--recursive]}} {{caminho/para/diretório_fonte}} {{caminho/para/diretório_alvo}}`
 
 - Copia um diretório recursivamente, em modo verboso (mostra os arquivos conforme eles são copiados):
 
-`cp -vr {{caminho/para/diretório_fonte}} {{caminho/para/diretório_alvo}}`
+`cp {{[-vr|--verbose --recursive]}} {{caminho/para/diretório_fonte}} {{caminho/para/diretório_alvo}}`
 
 - Copia múltiplos arquivos de uma só vez para um diretório:
 
-`cp -t {{caminho/para/diretorio_fonte}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
+`cp {{[-t|--target-directory]}} {{caminho/para/diretorio_fonte}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
 - Copia arquivos de texto para outra localização, em modo interativo (exige confirmação do usuário antes de sobrescrever):
 
-`cp -i {{*.txt}} {{caminho/para/diretório_alvo}}`
+`cp {{[-i|--interactive]}} {{*.txt}} {{caminho/para/diretório_alvo}}`
 
 - Segue links simbólicos antes de copiar:
 
-`cp -L {{link}} {{caminho/para/diretório_alvo}}`
+`cp {{[-L|--dereference]}} {{link}} {{caminho/para/diretório_alvo}}`
 
 - Usa todo o caminho dos arquivos fonte, criando quaisquer diretórios intermediários ausentes quando copia:
 

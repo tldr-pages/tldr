@@ -13,19 +13,19 @@
 
 - Bir dizinin içeriğini başka bir konuma tekrarlı şekilde kopyala (eğer belirtilen konum varsa dizin onun içine kopyalanır):
 
-`cp -r {{örnek/yol/kaynak_dizin}} {{örnek/yol/hedef_dizin}}`
+`cp {{[-r|--recursive]}} {{örnek/yol/kaynak_dizin}} {{örnek/yol/hedef_dizin}}`
 
 - Bir dizini tekrarlı şekilde ayrıntılı modda kopyala (dosyaları kopyalandıkları gibi gösterir):
 
-`cp -vr {{örnek/yol/kaynak_dizin}} {{örnek/yol/hedef_dizin}}`
+`cp {{[-vr|--verbose --recursive]}} {{örnek/yol/kaynak_dizin}} {{örnek/yol/hedef_dizin}}`
 
 - Metin dosyalarını interaktif modda başka bir konuma kopyala (üstüne yazmadan önce kullanıcıyı bilgilendirir):
 
-`cp -i {{*.txt}} {{örnek/yol/hedef_dizin}}`
+`cp {{[-i|--interactive]}} {{*.txt}} {{örnek/yol/hedef_dizin}}`
 
 - Kopyalamadan önce sembolik linkleri izle:
 
-`cp -L {{link}} {{örnek/yol/hedef_dizin}}`
+`cp {{[-L|--dereference]}} {{link}} {{örnek/yol/hedef_dizin}}`
 
 - Kopyalarken kaynak dosyalarının tam konumunu belirt:
 

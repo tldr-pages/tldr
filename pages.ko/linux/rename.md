@@ -12,11 +12,11 @@
 
 - 실행하지 않고 변경 내용을 표시하는 드라이런:
 
-`rename -vn {{foo}} {{bar}} {{*}}`
+`rename {{[-vn|--verbose --no-act]}} {{foo}} {{bar}} {{*}}`
 
 - 기존 파일을 덮어쓰지 않음:
 
-`rename -o {{foo}} {{bar}} {{*}}`
+`rename {{[-o|--no-overwrite]}} {{foo}} {{bar}} {{*}}`
 
 - 파일 확장자 변경:
 

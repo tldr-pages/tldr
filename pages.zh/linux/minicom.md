@@ -5,12 +5,12 @@
 
 - 打开给定的串行端口：
 
-`sudo minicom --device {{/dev/ttyUSB0}}`
+`sudo minicom {{[-D|--device]}} {{/dev/ttyUSB0}}`
 
 - 以给定的波特率打开给定的串行端口：
 
-`sudo minicom --device {{/dev/ttyUSB0}} --baudrate {{115200}}`
+`sudo minicom {{[-D|--device]}} {{/dev/ttyUSB0}} {{[-b|--baudrate]}} {{115200}}`
 
 - 在与给定串行端口通信前进入配置菜单：
 
-`sudo minicom --device {{/dev/ttyUSB0}} --setup`
+`sudo minicom {{[-D|--device]}} {{/dev/ttyUSB0}} {{[-s|--setup]}}`

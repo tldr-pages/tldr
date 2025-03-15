@@ -10,16 +10,16 @@
 
 - 고유한 줄만 표시:
 
-`sort {{경로/대상/파일}} | uniq -u`
+`sort {{경로/대상/파일}} | uniq {{[-u|--unique]}}`
 
 - 중복된 줄만 표시:
 
-`sort {{경로/대상/파일}} | uniq -d`
+`sort {{경로/대상/파일}} | uniq {{[-d|--repeated]}}`
 
 - 각 줄의 발생 횟수와 함께 해당 줄 표시:
 
-`sort {{경로/대상/파일}} | uniq -c`
+`sort {{경로/대상/파일}} | uniq {{[-c|--count]}}`
 
 - 각 줄의 발생 횟수를 표시하고, 가장 자주 발생한 순서로 정렬:
 
-`sort {{경로/대상/파일}} | uniq -c | sort -nr`
+`sort {{경로/대상/파일}} | uniq {{[-c|--count]}} | sort {{[-nr|--numeric-sort --reverse]}}`

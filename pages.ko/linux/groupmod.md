@@ -6,8 +6,8 @@
 
 - 그룹 이름 변경:
 
-`sudo groupmod --new-name {{새_그룹}} {{그룹_이름}}`
+`sudo groupmod {{[-n|--new-name]}} {{새_그룹}} {{그룹_이름}}`
 
 - 그룹 ID 변경:
 
-`sudo groupmod --gid {{새_ID}} {{그룹_이름}}`
+`sudo groupmod {{[-g|--gid]}} {{새_ID}} {{그룹_이름}}`

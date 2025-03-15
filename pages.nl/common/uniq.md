@@ -10,16 +10,16 @@
 
 - Toon alleen unieke regels:
 
-`sort {{pad/naar/bestand}} | uniq -u`
+`sort {{pad/naar/bestand}} | uniq {{[-u|--unique]}}`
 
 - Toon alleen dubbele regels:
 
-`sort {{pad/naar/bestand}} | uniq -d`
+`sort {{pad/naar/bestand}} | uniq {{[-d|--repeated]}}`
 
 - Toon het aantal voorkomens van elke regel samen met die regel:
 
-`sort {{pad/naar/bestand}} | uniq -c`
+`sort {{pad/naar/bestand}} | uniq {{[-c|--count]}}`
 
 - Toon het aantal voorkomens van elke regel, gesorteerd op meest frequent:
 
-`sort {{pad/naar/bestand}} | uniq -c | sort -nr`
+`sort {{pad/naar/bestand}} | uniq {{[-c|--count]}} | sort {{[-nr|--numeric-sort --reverse]}}`

@@ -6,16 +6,16 @@
 
 - Formatta l'output per uno schermo largo 30 caratteri:
 
-`printf "intestazione1 intestazione2\nbar foo\n" | column --output-width {{30}}`
+`printf "intestazione1 intestazione2\nbar foo\n" | column {{[-c|--output-width]}} {{30}}`
 
 - Separa colonne ed allinea automaticamente in un formato tabulare:
 
-`printf "intestazione1 intestazione2\nbar foo\n" | column --table`
+`printf "intestazione1 intestazione2\nbar foo\n" | column {{[-t|--table]}}`
 
 - Specifica un diverso separatore di colonna (e.g. "," per CSV) (il predefinito è lo spazio):
 
-`printf "intestazione1 intestazione2\nbar foo\n" | column --table --separator {{,}}`
+`printf "intestazione1 intestazione2\nbar foo\n" | column {{[-t|--table]}} {{[-s|--separator]}} {{,}}`
 
 - Riempi le righe prima delle colonne:
 
-`printf "intestazione1\nbar\nfoobar\n" | column --output-width {{30}} --fillrows`
+`printf "intestazione1\nbar\nfoobar\n" | column {{[-c|--output-width]}} {{30}} {{[-x|--fillrows]}}`
