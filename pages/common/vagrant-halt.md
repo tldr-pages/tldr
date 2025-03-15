@@ -10,7 +10,7 @@
 
 - Halt a specific machine by its ID or name gracefully:
 
-`vagrant halt {{[id|name]}}`
+`vagrant halt {{id_or_name}}`
 
 - Forcefully halt the current running machine(s) (This can affect multiple running machines if they are part of the same Vagrant environment):
 
@@ -18,4 +18,4 @@
 
 - Forcefully halt a specific machine by its ID or name:
 
-`vagrant halt {{[-f|--force]}} {{[id|name]}}`
+`vagrant halt {{[-f|--force]}} {{id_or_name}}`
