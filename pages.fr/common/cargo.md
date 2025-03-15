@@ -22,12 +22,12 @@
 
 - Compile le projet Rust dans le dossier courant en utilisant le profil release :
 
-`cargo build --release`
+`cargo {{[b|build]}} {{[-r|--release]}}`
 
 - Compiler le projet Rust dans le dossier courant en utilisant le compilateur nightly :
 
-`cargo +nightly build`
+`cargo +nightly {{[b|build]}}`
 
 - Compiler en utilisant un nombre spécifique de threads (par défaut on prend le nombre de coeurs du CPU) :
 
-`cargo build --jobs {{nombre_de_threads}}`
+`cargo {{[b|build]}} --jobs {{nombre_de_threads}}`
