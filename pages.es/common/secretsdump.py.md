@@ -14,7 +14,7 @@
 
 - Vuelca credenciales del archivo NTDS.dit de Active Directory:
 
-`secretsdump.py -just-dc {{dominio}/{{nombre_usuario}}:{{contraseña}}@{{destino}}`
+`secretsdump.py -just-dc {{dominio}}/{{nombre_de_usuario}}:{{contraseña}}@{{destino}}`
 
 - Extrae credenciales de una base de datos SAM local utilizando archivos hives del registro:
 
