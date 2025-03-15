@@ -6,28 +6,28 @@
 
 - 运行默认的二进制目标：
 
-`cargo run`
+`cargo {{[r|run]}}`
 
 - 运行指定的二进制文件：
 
-`cargo run --bin {{名称}}`
+`cargo {{[r|run]}} --bin {{名称}}`
 
 - 运行指定的示例：
 
-`cargo run --example {{示例名}}`
+`cargo {{[r|run]}} --example {{示例名}}`
 
 - 激活一系列以空格或逗号分隔的功能：
 
-`cargo run --features {{功能1 功能2 ...}}`
+`cargo {{[r|run]}} {{[-F|--features]}} "{{功能1 功能2 ...}}"`
 
 - 禁用默认功能：
 
-`cargo run --no-default-features`
+`cargo {{[r|run]}} --no-default-features`
 
 - 激活所有可用的功能：
 
-`cargo run --all-features`
+`cargo {{[r|run]}} --all-features`
 
 - 使用指定的配置文件运行：
 
-`cargo run --profile {{配置文件名称}}`
+`cargo {{[r|run]}} --profile {{配置文件名称}}`
