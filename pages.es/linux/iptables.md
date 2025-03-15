@@ -8,7 +8,7 @@
 
 `sudo iptables {{[-vnL --line-numbers|--verbose --numeric --list --line-numbers]}}`
 
-- Establece la [p]olítica de cadena de la regla :
+- Establece la [p]olítica de cadena de la regla:
 
 `sudo iptables {{[-P|--policy]}} {{cadena}} {{regla}}`
 

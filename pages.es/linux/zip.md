@@ -24,7 +24,7 @@
 
 `zip {{[-r|--recurse-paths}} {{[-e|--encrypt]}} {{ruta/a/comprimido.zip}} {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
-- Archivo de archivos/directorios a un archivo multiparte[s] (por ejemplo,  en partes de 3 GB):
+- Archivo de archivos/directorios a un archivo multiparte[s] (por ejemplo, en partes de 3 GB):
 
 `zip {{[-r|--recurse-paths}} {{[-s|--split-size]}} {{3g}} {{ruta/a/comprimido.zip}} {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
