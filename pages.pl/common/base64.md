@@ -9,11 +9,11 @@
 
 - Zawijaj zakodowane wyjście na określonej szerokości (`0` wyłącza zawijanie):
 
-`base64 {{-w|--wrap}} {{0|76|...}} {{ścieżka/do/pliku}}`
+`base64 {{[-w|--wrap]}} {{0|76|...}} {{ścieżka/do/pliku}}`
 
 - Dekoduj plik:
 
-`base64 {{-d|--decode}} {{ścieżka/do/pliku}}`
+`base64 {{[-d|--decode]}} {{ścieżka/do/pliku}}`
 
 - Enkoduj z `stdin`:
 
@@ -21,4 +21,4 @@
 
 - Dekoduj z `stdin`:
 
-`{{jakiespolecenie}} | base64 {{-d|--decode}}`
+`{{jakiespolecenie}} | base64 {{[-d|--decode]}}`

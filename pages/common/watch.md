@@ -9,11 +9,11 @@
 
 - Re-run a command every 60 seconds:
 
-`watch --interval {{60}} {{command}}`
+`watch {{[-n|--interval]}} {{60}} {{command}}`
 
 - Monitor disk space, highlighting differences as they appear:
 
-`watch --differences {{df}}`
+`watch {{[-d|--differences]}} {{df}}`
 
 - Repeatedly run a pipeline and show the result:
 
@@ -21,8 +21,8 @@
 
 - Exit `watch` if the visible output changes:
 
-`watch --chgexit {{lsblk}}`
+`watch {{[-g|--chgexit]}} {{lsblk}}`
 
 - Interpret terminal control characters:
 
-`watch --color {{ls --color=always}}`
+`watch {{[-c|--color]}} {{ls --color=always}}`

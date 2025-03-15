@@ -9,4 +9,4 @@
 
 - 도움말 표시:
 
-`grance help {{-h|--help}}`
+`grance help {{[-h|--help]}}`

@@ -24,8 +24,8 @@
 
 - 디버그 로그 활성화:
 
-`gcrane {{-v|--verbose}} {{하위명령어}}`
+`gcrane {{[-v|--verbose]}} {{하위명령어}}`
 
 - 도움말 표시:
 
-`gcrane {{-h|--help}}`
+`gcrane {{[-h|--help]}}`

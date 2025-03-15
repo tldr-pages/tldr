@@ -9,4 +9,4 @@
 
 - Toon de help:
 
-`crane config {{-h|--help}}`
+`crane config {{[-h|--help]}}`

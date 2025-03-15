@@ -9,7 +9,7 @@
 
 - Zeige nur den angegebenen Teil der Anfrage und der Antwort (`H`: Header der Anfrage, `B`: Body der Anfrage, `h`: Header der Antwort, `b`: Body der Antwort, `m`: Metadaten der Antwort):
 
-`http --print {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
+`http {{[-p|--print]}} {{H|B|h|b|m|Hh|Hhb|...}} {{https://example.com}}`
 
 - Spezifiziere die zu nutzende HTTP-Methode und nutze den angegebenen Proxy:
 
@@ -17,11 +17,11 @@
 
 - Folge `3xx`-Umleitungen und spezifiziere zusätzliche Header für die Anfrage:
 
-`http {{-F|--follow}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
+`http {{[-F|--follow]}} {{https://example.com}} {{'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'}}`
 
 - Authentisiere gegenüber einem Server mithilfe unterschiedlicher Anthentisierungsmethoden:
 
-`http --auth {{username:password|token}} --auth-type {{basic|digest|bearer}} {{GET|POST|...}} {{https://example.com/auth}}`
+`http {{[-a|--auth]}} {{username:password|token}} {{[-A|--auth-type]}} {{basic|digest|bearer}} {{GET|POST|...}} {{https://example.com/auth}}`
 
 - Erstelle eine Anfrage ohne diese zu senden (ähnlich zu dry-run):
 
@@ -29,8 +29,8 @@
 
 - Nutze die angegebene Session für persistente benutzerdefinierte Header, Credentials für die Authentisierung und Cookies:
 
-`http --session {{session_name|path/to/session.json}} {{--auth username:password https://example.com/auth API-KEY:xxx}}`
+`http --session {{session_name|path/to/session.json}} {{[-a|--auth]}} {{username}}:{{password}} {{https://example.com/auth}} {{API-KEY:xxx}}`
 
 - Lade eine Datei in ein Formular hoch (das folgende Beispiel geht davon aus, dass das Formularfeld als `<input type="file" name="cv" />` definiert ist):
 
-`http --form {{POST}} {{https://example.com/upload}} {{cv@path/to/file}}`
+`http {{[-f|--form]}} {{POST}} {{https://example.com/upload}} {{cv@path/to/file}}`

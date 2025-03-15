@@ -13,4 +13,4 @@
 
 - Utiliza Pulumi localmente, independientemente de Pulumi Cloud:
 
-`pulumi login {{-l|--local}}`
+`pulumi login {{[-l|--local]}}`

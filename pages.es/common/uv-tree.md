@@ -13,7 +13,7 @@
 
 - Muestra el árbol de dependencias hasta una determinada profundidad:
 
-`uv tree {{-d|--depth}} {{n}}`
+`uv tree {{[-d|--depth]}} {{n}}`
 
 - Muestra la última versión disponible para todos los paquetes obsoletos:
 
