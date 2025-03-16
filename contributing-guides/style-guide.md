@@ -426,7 +426,7 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 - For user-friendliness, prefer **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
 - If a command only supports short options, attempt to document what the letter is short for with a [mnemonic](#short-option-mnemonics).
 - For letting the client decide whether to show long or short options in commands, use an option placeholder i.e. `{{[-o|--output]}}`.
-- Prefer grouping options together when the program supports them (i.e. `{{[-it|--interactive --tty]}}` instead of `{{[-i|--interactive]}} {{[-t|--tty]}}`).
+- Prefer grouping options together when the program supports it (i.e. `{{[-it|--interactive --tty]}}` instead of `{{[-i|--interactive]}} {{[-t|--tty]}}`).
 - Prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`), unless the program does not support it.
 - Likewise prefer separating shortform options from their arguments with a space (i.e. use `-o arg` instead of `-oarg`), unless the program does not support it.
 
