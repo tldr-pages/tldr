@@ -5,20 +5,20 @@
 
 - 현재 패키지 검사:
 
-`cargo check`
+`cargo {{[c|check]}}`
 
 - 모든 테스트 검사:
 
-`cargo check --tests`
+`cargo {{[c|check]}} --tests`
 
 - `tests/integration_test1.rs`에서 통합 테스트를 확인:
 
-`cargo check --test {{통합_테스트1}}`
+`cargo {{[c|check]}} --test {{통합_테스트1}}`
 
 - `feature1` 및 `feature2` 기능이 포함된 현재 패키지를 확인:
 
-`cargo check --features {{기능1,기능2}}`
+`cargo {{[c|check]}} {{[-F|--features]}} {{기능1,기능2}}`
 
 - 기본 기능이 비활성화된 현재 패키지 확인:
 
-`cargo check --no-default-features`
+`cargo {{[c|check]}} --no-default-features`
