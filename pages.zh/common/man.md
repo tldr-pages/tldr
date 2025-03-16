@@ -1,7 +1,7 @@
 # man
 
 > 展示手册分页 (manual page).
-> 更多信息: <https://manned.org/man>.
+> 更多信息：<https://manned.org/man>.
 
 - 展示一条命令的使用手册分页:
 
