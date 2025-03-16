@@ -1,0 +1,12 @@
+# lldpctl
+
+> Print link layer discovery protocol information.
+> More information: <https://manned.org/man/lldpctl>.
+
+- Start the lldp daemon:
+
+`systemctl start lldpd`
+
+- Display collected neighbor data:
+
+`sudo lldpctl`
