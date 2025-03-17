@@ -1,6 +1,6 @@
 # browsh
 
-> View webpages on the terminal using a firefox backend.
+> View webpages on the terminal using a Firefox backend.
 > More information: <https://www.brow.sh/>.
 
 - Start browsh:
