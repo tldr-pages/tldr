@@ -1,7 +1,7 @@
 # git init
 
 > يهيئ مستودع Git محلي جديد.
-> لمزيد من المعلومات: <https://git-scm.com/docs/git-init>.
+> لمزيد من التفاصيل: <https://git-scm.com/docs/git-init>.
 
 - تهيئة مستودع محلي جديد:
 
