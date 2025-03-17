@@ -23,3 +23,11 @@
 - Disable automatic startup after login into text console:
 
 `byobu-disable`
+
+- Detach from `byobu`:
+
+`<F6>`
+
+- Kill a window:
+
+`<Ctrl a><k>`

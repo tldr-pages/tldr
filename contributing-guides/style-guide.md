@@ -319,7 +319,7 @@ When describing keycaps or a keyboard shortcut for a utility, use the same [keyp
 
 - Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`)
 - If the program name differs from its executable name, it can be named at the start of the heading (e.g. `rg` and Ripgrep).
-- Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
+- Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep, a recursive line-oriented search tool` instead of `Ripgrep, a recursive line-oriented CLI search tool`).
 
 For example, when writing documentation for `cd`, a tool to check out and work on a specific directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
 
