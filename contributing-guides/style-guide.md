@@ -423,7 +423,7 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 
 ### Option syntax
 
-- For user-friendliness, prefer **GNU-style long options** (like `--help` rather than `-h`). Make sure that the options are cross-platform compatible (intended to work the same across multiple platoforms) for pages in the `common` directory.
+- For user-friendliness, prefer **GNU-style long options** (like `--help` rather than `-h`). Make sure that the options are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
 - If a command only supports short options, attempt to document what the letter is short for with a [mnemonic](#short-option-mnemonics).
 - For letting the client decide whether to show long or short options in commands, use an option placeholder i.e. `{{[-o|--output]}}`.
 - Prefer grouping options together when the program supports it (i.e. `{{[-it|--interactive --tty]}}` instead of `{{[-i|--interactive]}} {{[-t|--tty]}}`).
