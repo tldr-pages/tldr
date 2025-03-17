@@ -26,12 +26,12 @@
 
 - Establece una interfaz arriba/abajo (up/down). Usa inglés:
 
-`ip {{[l|link]}} set {{interfaz}} {{up|down}}`
+`sudo ip {{[l|link]}} {{[s|set]}} {{interfaz}} {{up|down}}`
 
 - Agrega/borra una dirección IP de una interfaz:
 
-`ip {{[a|address]}} add/del {{ip}}/{{mask}} dev {{interfaz}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{interfaz}}`
 
 - Agrega una ruta predeterminada:
 
-`ip {{[r|route]}} add default via {{ip}} dev {{interfaz}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{interfaz}}`

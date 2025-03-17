@@ -22,7 +22,7 @@
 
 - Aggiungere ricorsivamente tutti gli e-book in una directory alla libreria:
 
-`calibredb add {{-r|--recurse}} {{percoso/della/directory}}`
+`calibredb add {{[-r|--recurse]}} {{percoso/della/directory}}`
 
 - Rimuovi uno o più e-book dalla libreria. Sono necessari gli ID (vedi sopra):
 

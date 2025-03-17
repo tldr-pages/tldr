@@ -21,4 +21,4 @@
 
 - List containers in a fancy, column-based output:
 
-`sudo lxc-ls --fancy`
+`sudo lxc-ls {{[-f|--fancy]}}`

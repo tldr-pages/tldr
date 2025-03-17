@@ -9,24 +9,24 @@
 
 - Boşlukları yok sayarak dosyaları karşılaştırın:
 
-`diff --ignore-all-space {{eski_dosya}} {{yeni_dosya}}`
+`diff {{[-w|--ignore-all-space]}} {{eski_dosya}} {{yeni_dosya}}`
 
 - Farkları yan yana göstererek dosyaları karşılaştırın:
 
-`diff --side-by-side {{eski_dosya}} {{yeni_dosya}}`
+`diff {{[-y|--side-by-side]}} {{eski_dosya}} {{yeni_dosya}}`
 
 - Farkları birleştirilmiş biçimde (`git diff` tarafından kullanıldığı gibi) göstererek dosyaları karşılaştırın:
 
-`diff --unified {{eski_dosya}} {{yeni_dosya}}`
+`diff {{[-u|--unified]}} {{eski_dosya}} {{yeni_dosya}}`
 
 - Dizinleri yinelemeli olarak karşılaştırın (farklı dosya/dizin adlarını ve dosyalarda yapılan değişiklikleri gösterir):
 
-`diff --recursive {{eski_dizin}} {{yeni_dizin}}`
+`diff {{[-r|--recursive]}} {{eski_dizin}} {{yeni_dizin}}`
 
 - Dizinleri karşılaştırın, yalnızca farklı olan dosyaların adlarını gösterin:
 
-`diff --recursive --brief {{eski_dizin}} {{yeni_dizin}}`
+`diff {{[-r|--recursive]}} {{[-q|--brief]}} {{eski_dizin}} {{yeni_dizin}}`
 
 - Git için iki metin dosyasının farklarından, var olmayan dosyaları ise boş olarak değerlendirerek bir yama dosyası oluşturun:
 
-`diff --text --unified --new-file {{eski_dosya}} {{yeni_dosya}} > {{fark.patch}}`
+`diff {{[-a|--text]}} {{[-u|--unified]}} {{[-N|--new-file]}} {{eski_dosya}} {{yeni_dosya}} > {{fark.patch}}`

@@ -9,7 +9,7 @@
 
 - Connect to a serial console with a specified baud rate:
 
-`sudo picocom {{/dev/ttyXYZ}} --baud {{baud_rate}}`
+`sudo picocom {{/dev/ttyXYZ}} {{[-b|--baud]}} {{baud_rate}}`
 
 - Map special characters (e.g. `LF` to `CRLF`):
 

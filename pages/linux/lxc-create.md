@@ -5,12 +5,12 @@
 
 - Create a container interactively in `/var/lib/lxc/`:
 
-`sudo lxc-create --name {{container}} --template download`
+`sudo lxc-create {{[-n|--name]}} {{container_name}} {{[-t|--template]}} download`
 
 - Create a container in a target directory:
 
-`sudo lxc-create --lxcpath {{/path/to/directory/}} --name {{container}} --template download`
+`sudo lxc-create {{[-P|--lxcpath]}} {{/path/to/directory/}} {{[-n|--name]}} {{container_name}} {{[-t|--template]}} download`
 
 - Create a container passing options to a template:
 
-`sudo lxc-create --name {{name}} --template download -- --dist {{distro-name}} --release {{release-version}} --arch {{arch}}`
+`sudo lxc-create {{[-n|--name]}} {{container_name}} {{[-t|--template]}} download -- {{[-d|--dist]}} {{distro-name}} {{[-r|--release]}} {{release-version}} {{[-a|--arch]}} {{arch}}`
