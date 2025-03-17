@@ -31,6 +31,6 @@
 
 `eject {{[-q|--tape]}} {{/mnt/tape}}`
 
-- Set if the physical eject button is [i]gnored (`on` prevents ejecting):
+- Set whether the physical eject button is [i]gnored (`on` prevents ejecting):
 
 `eject {{[-i|--manualeject]}} {{on|off}}`
