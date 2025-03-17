@@ -24,7 +24,7 @@
 
 `zip {{[-r|--recurse-paths]}} {{[-e|--encrypt]}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Archive files/directories to a multi-part [s]plit Zip archive (e.g. 3 GB parts):
+- Archive files/directories to a multi-part split Zip archive (e.g. 3 GB parts):
 
 `zip {{[-r|--recurse-paths]}} {{[-s|--split-size]}} {{3g}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
