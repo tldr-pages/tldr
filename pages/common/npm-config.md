@@ -1,7 +1,6 @@
 # npm-config
 
 > Manage the `npm` configuration settings.
-> Modify, list, and delete `npm` configuration values.
 > More information: <https://docs.npmjs.com/cli/commands/npm-config>.
 
 - Show all configuration settings:
