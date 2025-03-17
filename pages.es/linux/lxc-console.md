@@ -9,7 +9,7 @@
 
 - Se conecta a una consola lxc:
 
-`sudo lxc-console {{nombre_del_contenedor}}
+`sudo lxc-console {{nombre_del_contenedor}}`
 
 - Sale de `lxc-console`:
 
