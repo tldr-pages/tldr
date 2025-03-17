@@ -11,7 +11,7 @@
 
 `cal {{[-3|--three]}}`
 
-- Display the whole calendar for the current [y]ear:
+- Display the whole calendar for the current year:
 
 `cal {{[-y|--year]}}`
 
