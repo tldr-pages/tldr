@@ -22,4 +22,4 @@
 
 - Listar los paquetes instalados explícitamente con sus dependencias opcionales:
 
-`expac -d '\n\n' -l '\n\t' -Q '%n\n\t%O' $(pacman -Qeq)`A`
+`expac -d '\n\n' -l '\n\t' -Q '%n\n\t%O' $(pacman -Qeq)`
