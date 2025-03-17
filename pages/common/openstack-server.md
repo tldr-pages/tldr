@@ -10,11 +10,11 @@
 
 - Start server(s):
 
-`openstack server start {{instance_id}} [{{instance_id}} ...]`
+`openstack server start {{instance_id1 instance_id2 ...}}`
 
 - Stop server:
 
-`openstack server stop {{instance_id}}  [{{instance_id}} ...]`
+`openstack server stop {{instance_id1 instance_id2 ...}}`
 
 - Create new server:
 
@@ -22,7 +22,7 @@
 
 - Delete server(s):
 
-`openstack server delete {{instance_id}} [{{instance_id}} ...]`
+`openstack server delete {{instance_id1 instance_id2 ...}}`
 
 - Migrate server to different host:
 

@@ -7,7 +7,7 @@
 
 `openstack --help`
 
-- Description of a particular command:
+- Display a description of a particular command:
 
 `openstack help {{command_name}}`
 

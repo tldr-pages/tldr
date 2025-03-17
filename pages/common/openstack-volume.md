@@ -18,7 +18,7 @@
 
 - Delete volumes(s):
 
-`openstack volume delete {{volume_id}} [{{volume_id}} ...]`
+`openstack volume delete {{volume_id1 volume_id2 ...}}`
 
 - Migrate volume to a new host:
 

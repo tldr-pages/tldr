@@ -17,7 +17,7 @@
 
 - Delete image(s):
 
-`openstack image delete {{image_id}} [{{image_id}} ...]`
+`openstack image delete {{image_id1 image_id2 ...}}`
 
 - Save an image locally:
 
