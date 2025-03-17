@@ -12,17 +12,17 @@
 
 `kde-builder {{component_name}}`
 
-- Compile a component without updating its local code and without compiling its [D]ependencies:
+- Compile a component without updating its local code and without compiling its dependencies:
 
-`kde-builder --no-src --no-include-dependencies {{component_name}}`
+`kde-builder {{[-S|--no-src]}} {{[-D|--no-include-dependencies]}} {{component_name}}`
 
-- [r]efresh the build directories before compiling:
+- Refresh the build directories before compiling:
 
-`kde-builder --refresh-build {{component_name}}`
+`kde-builder {{[-r|--refresh-build]}} {{component_name}}`
 
 - Resume compilation from a specific dependency:
 
-`kde-builder --resume-from {{dependency_component}} {{component_name}}`
+`kde-builder {{[-f|--resume-from]}} {{dependency_component}} {{component_name}}`
 
 - Run a component with a specified executable name:
 

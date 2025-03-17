@@ -22,7 +22,7 @@
 
 - Plot a dependency graph and convert it to an SVG file:
 
-`systemd-analyze dot | dot -T{{svg}} > {{path/to/file.svg}}`
+`systemd-analyze dot | dot -T {{svg}} > {{path/to/file.svg}}`
 
 - Show security scores of running units:
 
