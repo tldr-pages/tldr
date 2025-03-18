@@ -23,3 +23,7 @@
 - Declare a readonly variable with the specified value:
 
 `local -r {{variable}}="{{value}}"`
+
+- Display help:
+
+`local --help`
