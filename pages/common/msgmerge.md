@@ -6,3 +6,7 @@
 - Update a translation file:
 
 `msgmerge {{[-U|--update]}} {{path/to/file.po}} {{path/to/messages.pot}}`
+
+- Display help:
+
+`msgmerge {{[-h|--help]}}`
