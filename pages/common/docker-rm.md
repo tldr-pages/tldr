@@ -9,12 +9,12 @@
 
 - Force remove a container:
 
-`docker rm --force {{container1 container2 ...}}`
+`docker rm {{[-f|--force]}} {{container1 container2 ...}}`
 
 - Remove a container and its volumes:
 
-`docker rm --volumes {{container}}`
+`docker rm {{[-v|--volumes]}} {{container}}`
 
 - Display help:
 
-`docker rm --help`
+`docker rm {{[-h|--help]}}`
