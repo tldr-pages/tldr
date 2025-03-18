@@ -33,4 +33,4 @@
 
 - Display help for aws s3 sync:
 
-  `aws s3 sync help`
+`aws s3 sync help`
