@@ -13,12 +13,12 @@
 
 - Active le défilement fluide :
 
-`nano -S {{fichier}}`
+`nano {{[-S|--softwrap]}} {{fichier}}`
 
 - Indente les nouvelles lignes à la même indentation que les lignes précédentes :
 
-`nano -i {{fichier}}`
+`nano {{[-i|--autoindent]}} {{fichier}}`
 
 - Avant la modification, sauvegarde le fichier actuel sous le format `nom_du_fichier_actuel~` :
 
-`nano -B {{fichier}}`
+`nano {{[-B|--backup]}} {{fichier}}`

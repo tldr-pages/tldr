@@ -10,4 +10,4 @@
 
 - Elimina directorios específicos anidados recursivamente:
 
-`rmdir --parents {{ruta/al/directorio1 ruta/al/directorio2 ...}}`
+`rmdir {{[-p|--parents]}} {{ruta/al/directorio1 ruta/al/directorio2 ...}}`
