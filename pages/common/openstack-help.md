@@ -3,7 +3,7 @@
 > Display help information about the openstackclient cli.
 > More information: <https://docs.openstack.org/python-openstackclient/latest/cli/man/openstack.html>.
 
-- Display list of available commands:
+- Display help:
 
 `openstack --help`
 
