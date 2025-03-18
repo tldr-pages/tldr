@@ -5,11 +5,11 @@
 
 - Crée un lien symbolique vers un fichier ou un répertoire :
 
-`ln -s {{/chemin/vers/fichier_ou_repertoire}} {{chemin/vers/lien_symbolique}}`
+`ln {{[-s|--symbolic]}} {{/chemin/vers/fichier_ou_repertoire}} {{chemin/vers/lien_symbolique}}`
 
 - Modifie la cible d'un lien symbolique existant :
 
-`ln -sf {{/chemin/vers/nouveau_fichier}} {{chemin/vers/lien_symbolique}}`
+`ln {{[-sf|--symbolic --force]}} {{/chemin/vers/nouveau_fichier}} {{chemin/vers/lien_symbolique}}`
 
 - Crée un lien dur vers un fichier :
 

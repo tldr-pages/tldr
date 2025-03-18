@@ -13,20 +13,20 @@
 
 - Tampilkan semua bagian yang tersedia untuk suatu perintah:
 
-`man --whatis {{perintah}}`
+`man -{{[-f|--whatis]}} {{perintah}}`
 
 - Tampilkan jalur yang dicari untuk halaman manual:
 
-`man --path`
+`man {{[-w|--path]}}`
 
 - Tampilkan lokasi sebuah halaman manual alih-alih halaman manual itu sendiri:
 
-`man --where {{perintah}}`
+`man {{[-w|--where]}} {{perintah}}`
 
 - Tampilkan halaman manual menggunakan locale tertentu:
 
-`man --locale={{locale}} {{perintah}}`
+`man {{[-L|--locale]}} {{locale}} {{perintah}}`
 
 - Cari halaman manual yang berisi string pencarian:
 
-`man --apropos "{{string_pencarian}}"`
+`man {{[-k|--apropos]}} "{{string_pencarian}}"`
