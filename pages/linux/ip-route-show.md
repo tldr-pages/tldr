@@ -9,7 +9,7 @@
 
 - Display the main routing table (same as first example):
 
-`ip {{[r|route]}} {{[s|show]}} {{main|254}}`
+`ip {{[r|route]}} {{[s|show]}} {{[t|table]}} {{main|254}}`
 
 - Display the local routing table:
 
