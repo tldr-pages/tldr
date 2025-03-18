@@ -10,3 +10,7 @@
 - Display collected neighbor data:
 
 `sudo lldpctl`
+
+- Display help:
+
+`lldpctl {{[-h|--help]}}`
