@@ -13,12 +13,12 @@
 
 - Unggah berkas dengan suatu kata sandi:
 
-`ffsend upload {{jalan/menuju/berkas}} {{-p|--password}} {{kata_sandi}}`
+`ffsend upload {{jalan/menuju/berkas}} {{[-p|--password]}} {{kata_sandi}}`
 
 - Unduh berkas yang terlindungi dengan suatu kata sandi:
 
-`ffsend download {{url}} {{-p|--password}} {{kata_sandi}}`
+`ffsend download {{url}} {{[-p|--password]}} {{kata_sandi}}`
 
 - Unggah dan atur unggahan supaya hanya dapat diunduh sebanyak 4 kali:
 
-`ffsend upload {{jalan/menuju/berkas}} {{-d|--downloads}} {{4}}`
+`ffsend upload {{jalan/menuju/berkas}} {{[-d|--downloads]}} {{4}}`

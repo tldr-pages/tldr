@@ -7,14 +7,14 @@
 
 `{{command}} | cut --{{characters|fields}} {{1|1,10|1-10|1-|-10}}`
 
-- Print a [f]ield range of each line with a specific [d]elimiter:
+- Print a field range of each line with a specific delimiter:
 
-`{{command}} | cut --delimiter "{{delimiter}}" --fields {{1|1,10|1-10|1-|-10}}`
+`{{command}} | cut {{[-d|--delimiter]}} "{{delimiter}}" {{[-f|--fields]}} {{1|1,10|1-10|1-|-10}}`
 
-- Print a [c]haracter range of each line of the specific file:
+- Print a character range of each line of the specific file:
 
-`cut --characters {{1}} {{path/to/file}}`
+`cut {{[-c|--characters]}} {{1}} {{path/to/file}}`
 
-- Print specific [f]ields of `NUL` terminated lines (e.g. as in `find . -print0`) instead of newlines:
+- Print specific fields of `NUL` terminated lines (e.g. as in `find . -print0`) instead of newlines:
 
-`{{command}} | cut --zero-terminated --fields {{1}}`
+`{{command}} | cut {{[-z|--zero-terminated]}} {{[-f|--fields]}} {{1}}`

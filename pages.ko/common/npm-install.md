@@ -13,8 +13,8 @@
 
 - 최신 버전의 패키지를 다운로드하고 `package.json`의 개발 의존성 목록에 추가:
 
-`npm install {{패키지_이름}} {{-D|--save-dev}}`
+`npm install {{패키지_이름}} {{[-D|--save-dev]}}`
 
 - 최신 버전의 패키지를 다운로드하고 전역으로 설치:
 
-`npm install {{-g|--global}} {{패키지_이름}}`
+`npm install {{[-g|--global]}} {{패키지_이름}}`

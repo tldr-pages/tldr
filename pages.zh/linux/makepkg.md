@@ -10,11 +10,11 @@
 
 - 构建软件包并使用 `pacman` 安装缺失的依赖关系：
 
-`makepkg --syncdeps`
+`makepkg {{[-s|--syncdeps]}}`
 
 - 构建软件包、安装缺失的依赖后将其安装到系统：
 
-`makepkg --syncdeps --install`
+`makepkg {{[-s|--syncdeps]}} {{[-i|--install]}}`
 
 - 构建软件包但不验证源文件的检验值：
 
@@ -22,7 +22,7 @@
 
 - 编译后清理工作文件：
 
-`makepkg --clean`
+`makepkg {{[-c|--clean]}}`
 
 - 下载源文件（如果不存在）并进行完整性检查：
 

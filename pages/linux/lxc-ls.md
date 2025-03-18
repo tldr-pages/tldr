@@ -3,18 +3,22 @@
 > List Linux containers.
 > More information: <https://linuxcontainers.org/lxc/manpages/man1/lxc-ls.1.html>.
 
+- List all containers:
+
+`sudo lxc-ls`
+
 - List active containers (including frozen and running):
 
-`lxc-ls --active`
+`sudo lxc-ls --active`
 
 - List only frozen containers:
 
-`lxc-ls --frozen`
+`sudo lxc-ls --frozen`
 
 - List only stopped containers:
 
-`lxc-ls --stopped`
+`sudo lxc-ls --stopped`
 
 - List containers in a fancy, column-based output:
 
-`lxc-ls --fancy`
+`sudo lxc-ls {{[-f|--fancy]}}`

@@ -23,3 +23,7 @@
 - Set the update rate to 500 milliseconds:
 
 `btop --update 500`
+
+- Exit `btop`:
+
+`<q>`

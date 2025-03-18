@@ -29,8 +29,8 @@
 
 - Change permissions recursively giving [g]roup and [o]thers the ability to [w]rite:
 
-`chmod -R g+w,o+w {{path/to/directory}}`
+`chmod {{[-R|--recursive]}} g+w,o+w {{path/to/directory}}`
 
 - Recursively give [a]ll users [r]ead permissions to files and e[X]ecute permissions to sub-directories within a directory:
 
-`chmod -R a+rX {{path/to/directory}}`
+`chmod {{[-R|--recursive]}} a+rX {{path/to/directory}}`

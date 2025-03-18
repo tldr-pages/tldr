@@ -7,13 +7,13 @@
 
 `shutdown -h now`
 
-- [r]eboot immediately:
+- Reboot immediately:
 
-`shutdown -r now`
+`shutdown {{[-r|--reboot]}} now`
 
-- [r]eboot in 5 minutes:
+- Reboot in 5 minutes:
 
-`shutdown -r +{{5}} &`
+`shutdown {{[-r|--reboot]}} +{{5}} &`
 
 - Shutdown at 1:00 pm (Uses 24[h] clock):
 

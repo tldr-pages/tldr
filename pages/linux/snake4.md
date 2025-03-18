@@ -9,19 +9,19 @@
 
 - Choose level:
 
-`{{1|2|3|4|5}}`
+`{{<1>|<2>|<3>|<4>|<5>}}`
 
 - Navigate the snake:
 
-`{{Up|Down|Left|Right arrow key}}`
+`{{<ArrowUp>|<ArrowDown>|<ArrowLeft>|<ArrowRight>}}`
 
 - Pause game:
 
-`<Spacebar>`
+`<Space>`
 
 - Quit game:
 
-`q`
+`<q>`
 
 - Show the high scores:
 

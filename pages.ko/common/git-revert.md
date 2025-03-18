@@ -21,4 +21,4 @@
 
 - 새로운 커밋을 생성하지 않고 작업 트리만 변경:
 
-`git revert {{-n|--no-commit}} {{0c01a9..9a1743}}`
+`git revert {{[-n|--no-commit]}} {{0c01a9..9a1743}}`

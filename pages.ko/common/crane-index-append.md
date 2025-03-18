@@ -11,11 +11,11 @@
 
 - 기본 인덱스에 추가할 매니페스트에 대한 참조:
 
-`crane index append {{-m|--manifest}} {{매니페스트_이름1 매니페스트_이름2 ...}}`
+`crane index append {{[-m|--manifest]}} {{매니페스트_이름1 매니페스트_이름2 ...}}`
 
 - 결과 이미지에 적용할 태그:
 
-`crane index append {{-t|--tag}} {{태그_이름}}`
+`crane index append {{[-t|--tag]}} {{태그_이름}}`
 
 - 비어있는 기본 인덱스에는 OCI 대신 Docker 미디어 유형을 지정:
 
@@ -27,4 +27,4 @@
 
 - 도움말 표시:
 
-`crane index append {{-h|--help}}`
+`crane index append {{[-h|--help]}}`

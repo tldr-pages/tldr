@@ -10,7 +10,7 @@
 
 - Clone a package repository over HTTPS:
 
-`pkgctl repo clone --protocol=https {{pkgname}}`
+`pkgctl repo clone --protocol https {{pkgname}}`
 
 - Create a new GitLab package repository and clone it after creation (requires valid GitLab API authentication):
 

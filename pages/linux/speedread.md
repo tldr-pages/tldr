@@ -18,12 +18,12 @@
 
 - Slow down by 10% during the reading session:
 
-`[`
+`<[>`
 
 - Speed up by 10% during the reading session:
 
-`]`
+`<]>`
 
 - Pause, and show the last few lines as context:
 
-`<space>`
+`<Space>`

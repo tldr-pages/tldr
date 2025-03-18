@@ -13,8 +13,8 @@
 
 - Omit digest tags:
 
-`crane ls {{-o|--omit-digest-tags}}`
+`crane ls {{[-o|--omit-digest-tags]}}`
 
 - Display help:
 
-`crane ls {{-h|--help}}`
+`crane ls {{[-h|--help]}}`

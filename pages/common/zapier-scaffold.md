@@ -9,11 +9,11 @@
 
 - Specify a custom destination directory for the scaffolded files:
 
-`zapier scaffold {{trigger|search|create|resource}} {{noun}} {{-d|--dest}}={{path/to/directory}}`
+`zapier scaffold {{trigger|search|create|resource}} {{noun}} {{[-d|--dest]}}={{path/to/directory}}`
 
 - Overwrite existing files when scaffolding:
 
-`zapier scaffold {{trigger|search|create|resource}} {{noun}} {{-f|--force}}`
+`zapier scaffold {{trigger|search|create|resource}} {{noun}} {{[-f|--force]}}`
 
 - Exclude comments from the scaffolded files:
 
@@ -21,4 +21,4 @@
 
 - Show extra debugging output:
 
-`zapier scaffold {{-d|--debug}}`
+`zapier scaffold {{[-d|--debug]}}`
