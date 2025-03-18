@@ -17,4 +17,4 @@
 
 - Display help:
 
-`minicom {{[-h|--help]}}`
+`wait --help`
