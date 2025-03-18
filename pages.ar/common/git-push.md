@@ -13,7 +13,7 @@
 
 - دفع التعديلات من فرع محلي معين إلى نظيره في المستودع الخارجي، وتعيين الفرع الخارجي كهدف افتراضي لعمليات الدفع والسحب:
 
-`git push -u {{remote_name}} {{local_branch}}`
+`git push {{[-u|--set-upstream]}} {{remote_name}} {{local_branch}}`
 
 - دفع التعديلات من فرع محلي معين إلى فرع خارجي محدد:
 
@@ -25,7 +25,7 @@
 
 - حذف فرع معين من المستودع الخارجي:
 
-`git push {{remote_name}} --delete {{remote_branch}}`
+`git push {{remote_name}} {{[-d|--delete]}} {{remote_branch}}`
 
 - حذف الفروع البعيدة التي لا تمتلك نظيرًا محليًا بعد الآن:
 
