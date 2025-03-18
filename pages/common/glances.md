@@ -26,3 +26,7 @@
 - Exit glances:
 
 `<q>`
+
+- Display help:
+
+`glances {{[-h|--help]}}`
