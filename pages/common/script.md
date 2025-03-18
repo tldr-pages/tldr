@@ -17,8 +17,12 @@
 
 - Append to an existing file:
 
-`script -a {{logfile.log}}`
+`script {{[-a|--append]}} {{logfile.log}}`
 
 - Execute quietly without start and done messages:
 
-`script -q {{logfile.log}}`
+`script {{[-q|--quiet]}} {{logfile.log}}`
+
+- Display help:
+
+`script {{[-h|--help]}}`
