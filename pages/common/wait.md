@@ -14,3 +14,7 @@
 - Wait for a job to finish:
 
 `wait %{{N}}`
+
+- Display help:
+
+`minicom {{[-h|--help]}}`
