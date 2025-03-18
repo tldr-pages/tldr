@@ -18,3 +18,7 @@
 - Don't add a header containing metadata to the output file:
 
 `xgettext --omit-header {{path/to/input_file}}`
+
+- Display help:
+
+`xgettext {{[-h|--help]}}`
