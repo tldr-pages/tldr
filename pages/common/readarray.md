@@ -18,3 +18,7 @@
 - Copy at most the specified number of lines:
 
 `readarray -n {{N}} {{array_name}} < {{path/to/file.txt}}`
+
+- Display help:
+
+`help mapfile`
