@@ -6,3 +6,7 @@
 - Display interface status:
 
 `ifstatus {{interface_name}}`
+
+- Display help:
+
+`ifstatus`
