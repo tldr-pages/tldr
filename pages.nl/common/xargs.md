@@ -14,11 +14,11 @@
 
 - Gzip alle bestanden met een `.log` extensie en profiteer van het voordeel van meerdere threads (`-print0` gebruikt een nul-teken om bestandsnamen te splitsen en `-0` gebruikt het als scheidingsteken):
 
-`find . -name '*.log' -print0 | xargs -0 -P {{4}} -n 1 gzip`
+`find . -name '*.log' -print0 | xargs {{[-0|--null]}} {{[-P|--max-procs]}} {{4}} {{-n|--max-args}} 1 gzip`
 
 - Voer het commando eenmaal per argument uit:
 
-`{{argumenten_bron}} | xargs -n1 {{commando}}`
+`{{argumenten_bron}} | xargs {{-n|--max-args}} 1 {{commando}}`
 
 - Voer het commando één keer uit voor elke invoerregel, waarbij elke plaatsaanduiding (hier gemarkeerd als `_`) wordt vervangen door de invoerregel:
 
@@ -26,4 +26,4 @@
 
 - Parallelle uitvoeringen van maximaal `max-procs` processen tegelijk; de standaard is 1. Als `max-procs` 0 is, zal xargs zoveel mogelijk processen tegelijk uitvoeren:
 
-`{{argumenten_bron}} | xargs -P {{max-procs}} {{commando}}`
+`{{argumenten_bron}} | xargs {{[-P|--max-procs]}} {{max-procs}} {{commando}}`

@@ -10,8 +10,8 @@
 
 - Toon alle beschikbare informatie:
 
-`who -a`
+`who {{[-a|--all]}}`
 
 - Toon alle beschikbare informatie met tabelkoppen:
 
-`who -a -H`
+`who {{[-aH|--all --heading]}}`

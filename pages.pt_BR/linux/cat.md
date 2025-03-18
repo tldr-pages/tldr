@@ -21,8 +21,8 @@
 
 - [n]umera todas as linhas de saída:
 
-`cat -n {{caminho/para/arquivo}}`
+`cat {{[-n|--number]}} {{caminho/para/arquivo}}`
 
 - Exibe caracteres não imprimíveis e espaço em branco (com o prefixo `M-` se não for ASCII):
 
-`cat -v -t -e {{caminho/para/arquivo}}`
+`cat {{[-vte|--show-nonprinting -t -e]}} {{caminho/para/arquivo}}`

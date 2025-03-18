@@ -18,4 +18,4 @@
 
 - Fill rows before filling columns:
 
-`printf "header1\nbar\nfoobar\n" | column {{[-c|{{[-c|--output-width]}}]}} {{30}} {{[-x|--fillrows]}}`
+`printf "header1\nbar\nfoobar\n" | column {{[-c|--output-width]}} {{30}} {{[-x|--fillrows]}}`
