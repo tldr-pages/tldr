@@ -18,3 +18,7 @@
 - Set max per-user process limit:
 
 `ulimit -u 30`
+
+- Display help:
+
+`help ulimit`
