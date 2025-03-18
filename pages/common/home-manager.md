@@ -11,10 +11,6 @@
 
 `home-manager switch`
 
-- Build the configuration for testing without applying it:
-
-`home-manager test`
-
 - Roll back to a previous configuration generation:
 
 `home-manager rollback`
@@ -22,3 +18,7 @@
 - List all existing configuration generations:
 
 `home-manager generations`
+
+- When using flakes, run any operation that requires nix to run (build, switch, news) by passing the path to the flake:
+
+`home-manager <COMMAND> --flake ~/Path/to/flake/directory`
