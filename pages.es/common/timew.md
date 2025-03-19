@@ -21,7 +21,7 @@
 
 - Registra una actividad pasada:
 
-`timew track {{tiempo_de_inicio} - {{tiempo_de_finalización}} {{etiqueta_de_la_actividad}}`
+`timew track {{tiempo_de_inicio}} - {{tiempo_de_finalización}} {{etiqueta_de_la_actividad}}`
 
 - Ve los elementos registrados de hoy:
 
