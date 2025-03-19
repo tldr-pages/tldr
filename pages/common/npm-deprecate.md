@@ -11,6 +11,6 @@
 
 `npm deprecate {{package_name}}@"{{<version_range}}" "{{deprecation_message}}"`
 
-- Undeprecate a specific version of a package:
+- Un-deprecate a specific version of a package:
 
 `npm deprecate {{package_name}}@{{version}} ""`
