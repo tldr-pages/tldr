@@ -23,7 +23,7 @@
 
 `glances {{[-s|--server]}} --password`
 
-- Exit glances:
+- Exit Glances:
 
 `<q>`
 
