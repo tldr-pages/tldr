@@ -1,7 +1,7 @@
 # cvs
 
 > Concurrent Versions System, a revision control system.
-> More information: <https://cvs.nongnu.org>.
+> More information: <https://manned.org/cvs>.
 
 - Create a new repository (requires the `CVSROOT` environment variable to be set externally):
 
