@@ -11,9 +11,9 @@
 
 `smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip}}`
 
-- Display SMB shares and recursively list a defined number of levels of directories and files:
+- Execute a shell command on a remote system:
 
-`smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip}} -R --depth {{3}}`
+`smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip}} -x {{command}}`
 
 - Enumerate hosts and check SMB file permissions:
 
