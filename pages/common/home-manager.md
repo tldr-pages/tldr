@@ -21,4 +21,4 @@
 
 - When using flakes, run any operation that requires nix to run (build, switch, news) by passing the path to the flake:
 
-`home-manager <COMMAND> --flake ~/Path/to/flake/directory`
+`home-manager {{command}} --flake {{path/to/flake}}`
