@@ -9,28 +9,28 @@
 
 - Wypisz wszystkie pliki, w tym ukryte:
 
-`ls -a`
+`ls {{[-a|--all]}}`
 
 - Wypisz wszystkie pliki z `/` na końcu nazw katalogów:
 
-`ls -F`
+`ls {{[-F|--classify]}}`
 
 - Wypisz listę w długim formacie (uprawnienia, własność, rozmiar i data modyfikacji) wszystkich plików:
 
-`ls -la`
+`ls {{[-la|--all -l]}}`
 
 - Wypisz listę w długim formacie z rozmiarem w jednostkach z przedrostkami dwójkowymi (KiB, MiB, GiB):
 
-`ls -lh`
+`ls {{[-lh|-l --human-readable]}}`
 
 - Wypisz listę rekurencyjnie w długim formacie, posortowaną po rozmiarze (malejąco):
 
-`ls -lSR`
+`ls {{-lSR|-lS --recursive}}`
 
 - Wypisz listę wszystkich plików w długim formacie posortowaną według daty modyfikacji (od najstarszych):
 
-`ls -ltr`
+`ls {{[-ltr|-lt --reverse]}}`
 
 - Wypisz tylko katalogi:
 
-`ls -d */`
+`ls {{[-d|--directory]}} */`

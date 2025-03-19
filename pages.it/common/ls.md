@@ -9,28 +9,28 @@
 
 - Elenca tutti i file, inclusi quelli nascosti:
 
-`ls -a`
+`ls {{[-a|--all]}}`
 
 - Elenca tutti i file, aggiungendo `/` in coda ai nomi delle directory:
 
-`ls -F`
+`ls {{[-F|--classify]}}`
 
 - Elenca tutti i file e mostra informazioni (permessi, proprietà, dimensione e data di ultima modifica):
 
-`ls -la`
+`ls {{[-la|--all -l]}}`
 
 - Elenca tutti i file e mostra informazioni con la dimensione esposta usando un formato facilmente leggibile (KiB, MiB, GiB):
 
-`ls -lh`
+`ls {{[-lh|-l --human-readable]}}`
 
 - Elenca tutti i file e mostra informazioni, ordinandoli per dimensione decrescente:
 
-`ls -lSR`
+`ls {{-lSR|-lS --recursive}}`
 
 - Elenca tutti i file e mostra informazioni, ordinandoli per data di ultima modifica (i più vecchi prima):
 
-`ls -ltr`
+`ls {{[-ltr|-lt --reverse]}}`
 
 - Elenca solo le directory:
 
-`ls -d */`
+`ls {{[-d|--directory]}} */`

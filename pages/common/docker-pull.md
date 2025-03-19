@@ -9,11 +9,11 @@
 
 - Download a specific Docker image in quiet mode:
 
-`docker pull --quiet {{image}}:{{tag}}`
+`docker pull {{[-q|--quiet]}} {{image}}:{{tag}}`
 
 - Download all tags of a specific Docker image:
 
-`docker pull --all-tags {{image}}`
+`docker pull {{[-a|--all-tags]}} {{image}}`
 
 - Download a Docker images for a specific platform, e.g. linux/amd64:
 
@@ -21,4 +21,4 @@
 
 - Display help:
 
-`docker pull --help`
+`docker pull {{[-h|--help]}}`

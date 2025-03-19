@@ -319,7 +319,7 @@ When describing keycaps or a keyboard shortcut for a utility, use the same [keyp
 
 - Avoid using the page title in the description (e.g. use `A sketching and painting program designed for digital artists` instead of `Krita is a sketching and painting program designed for digital artists`)
 - If the program name differs from its executable name, it can be named at the start of the heading (e.g. `rg` and Ripgrep).
-- Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep is a recursive line-oriented search tool` instead of `Ripgrep is a recursive line-oriented CLI search tool`).
+- Avoid mentioning that the program is used on the command-line (e.g. use `Ripgrep, a recursive line-oriented search tool` instead of `Ripgrep, a recursive line-oriented CLI search tool`).
 
 For example, when writing documentation for `cd`, a tool to check out and work on a specific directory in the Terminal or Command Prompt, **do not** write a lengthy description such as:
 
@@ -416,16 +416,17 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 - Optionally, mnemonics and their enclosed terms can be separated with brackets from the rest of the description (i.e. `([a]ll)`) in translations and specific pages to provide additional context or mention a word not present in the description.
 
 > [!NOTE]\
-> In cases where the character isn't present in the translated word, you can highlight the option before/next to the equivalent word or you can add the English work beside the translation inside a bracket.
+> In cases where the character isn't present in the translated word, you can highlight the option next to the equivalent word or you can add the English work beside the translation inside a bracket.
 > For example, `E[x]tract` in English may be translated into `ekstrak [x]` or `ekstrak (E[x]tract)` in Indonesian.
 
 ## Example commands
 
 ### Option syntax
 
-- For user-friendliness, prefer **GNU-style long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
-- If a command only supports short options, attempt to document what the letter is short for with a [mnemonic](#short-option-mnemonics).
+- For user-friendliness, prefer **GNU-style long options** (like `--help` rather than `-h`). Make sure that the options are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
+- If a command only supports short options or the short option greatly differs from the long option, attempt to document what the letter is short for with a [mnemonic](#short-option-mnemonics).
 - For letting the client decide whether to show long or short options in commands, use an option placeholder i.e. `{{[-o|--output]}}`.
+- Prefer grouping options together when the program supports it (i.e. `{{[-it|--interactive --tty]}}` instead of `{{[-i|--interactive]}} {{[-t|--tty]}}`).
 - Prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`), unless the program does not support it.
 - Likewise prefer separating shortform options from their arguments with a space (i.e. use `-o arg` instead of `-oarg`), unless the program does not support it.
 

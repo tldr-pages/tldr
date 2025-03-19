@@ -9,12 +9,12 @@
 
 - Monitora espaço em disco e destaca as alterações:
 
-`watch -d {{df}}`
+`watch {{[-d|--differences]}} {{df}}`
 
 - Monitora processos "node", atualizando a cada 3 segundos:
 
-`watch -n {{3}} "{{ps aux | grep node}}"`
+`watch {{[-n|--interval]}} {{3}} "{{ps aux | grep node}}"`
 
 - Monitora o espaço em disco, e se ele mudar, para de monitorar:
 
-`watch -g {{df}}`
+`watch {{[-g|--chgexit]}} {{df}}`

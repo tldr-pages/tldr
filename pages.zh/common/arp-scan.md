@@ -5,7 +5,7 @@
 
 - 扫描当前本地网络：
 
-`arp-scan --localnet`
+`arp-scan {{[-l|--localnet]}}`
 
 - 扫描带有自定义位掩码的 IP 网络：
 

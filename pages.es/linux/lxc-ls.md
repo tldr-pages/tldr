@@ -17,4 +17,4 @@
 
 - Lista contenedores en una salida elegante, basada en columnas:
 
-`lxc-ls --fancy`
+`sudo lxc-ls {{[-f|--fancy]}}`

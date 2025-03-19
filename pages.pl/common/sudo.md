@@ -9,11 +9,11 @@
 
 - Edytuj plik jako superuser w domyślnym edytorze:
 
-`sudo -e {{/etc/fstab}}`
+`sudo {{[-e|--edit]}} {{/etc/fstab}}`
 
 - Uruchom polecenie jako inny użytkownik i/lub grupa:
 
-`sudo -u {{uzytkownik}} -g {{grupa}} {{id -a}}`
+`sudo {{[-u|--user]}} {{uzytkownik}} {{[-g|--group]}} {{grupa}} {{id -a}}`
 
 - Powtórz ostatnie polecenie poprzedzone `sudo` (tylko w Bash, Zsh, etc.):
 
@@ -21,4 +21,4 @@
 
 - Uruchom domyślną powłokę z uprawnieniami superuser:
 
-`sudo -i`
+`sudo {{[-i|--login]}}`
