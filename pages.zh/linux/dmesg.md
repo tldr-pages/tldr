@@ -9,15 +9,15 @@
 
 - 只显示严重错误级别的消息：
 
-`sudo dmesg --level err`
+`sudo dmesg {{[-l|--level]}} err`
 
 - 等待新消息。仅在具有可读性的系统上支持此功能，类似于 `tail -f`（从内核 3.5.0 版本开始）：
 
-`sudo dmesg -w`
+`sudo dmesg {{[-w|--follow]}}`
 
 - 显示此系统上有多少物理内存可用：
 
-`sudo dmesg | grep -i memory`
+`sudo dmesg | grep {{[-i|--ignore-case]}} memory`
 
 - 以分页方式显示内核缓冲区的所有消息：
 
@@ -25,12 +25,12 @@
 
 - 打印人类可读的时间戳（从内核 3.5.0 版本开始）：
 
-`sudo dmesg -T`
+`sudo dmesg {{[-T|--ctime]}}`
 
 - 启用人类可读的输出：
 
-`sudo dmesg -H`
+`sudo dmesg {{[-H|--human]}}`
 
 - 着色输出：
 
-`sudo dmesg -L`
+`sudo dmesg {{[-L|--color]}}`

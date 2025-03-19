@@ -17,11 +17,11 @@
 
 - Verander recursief de beheerder van een map en alle inhoud:
 
-`chown -R {{gebruiker}} {{pad/naar/bestand_of_map}}`
+`chown {{[-R|--recursive]}} {{gebruiker}} {{pad/naar/bestand_of_map}}`
 
 - Verander de gebruiker van een symbolische link:
 
-`chown -h {{gebruiker}} {{pad/naar/symlink}}`
+`chown {{[-h|--no-dereference]}} {{gebruiker}} {{pad/naar/symlink}}`
 
 - Verander de beheerder van een bestand of map naar dezelfde als een referentiebestand:
 

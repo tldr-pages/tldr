@@ -9,7 +9,7 @@
 
 - Matikan sistem (sama seperti `poweroff`):
 
-`reboot --poweroff`
+`reboot {{[-p|--poweroff]}}`
 
 - Hentikan sistem (sama seperti `halt`):
 
@@ -17,8 +17,8 @@
 
 - Nyalakan ulang segera tanpa menghubungi manajer sistem:
 
-`reboot --force`
+`reboot {{[-f|--force]}}`
 
 - Tulis entri wtmp shutdown tanpa menyalakan ulang sistem:
 
-`reboot --wtmp-only`
+`reboot {{[-w|--wtmp-only]}}`
