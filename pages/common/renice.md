@@ -20,4 +20,3 @@
 - Set the priority of all processes that belong to a process group:
 
 `sudo renice {{-5}} {{[-g|--pgrp]}} {{process_group}}`
-
