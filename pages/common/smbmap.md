@@ -11,6 +11,10 @@
 
 `smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip}}`
 
+- Display SMB shares and recursively list a defined number of levels of directories and files:
+
+`smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip}} -R --depth {{3}}`
+
 - Enumerate hosts and check SMB file permissions:
 
 `smbmap --host-file {{path/to/file}} {{[-u|--username]}} {{username}} {{[-p|--password]}} {{password}} -q`
@@ -26,3 +30,7 @@
 - Upload file through smb using username and password:
 
 `smbmap {{[-u|--username]}} {{username}} {{[-p|--password]}} {{password}} -d {{domain}} -H {{ip_or_hostname}} --upload {{path/to/file}} '{{/share_name/remote_filename}}'`
+
+- Display SMB shares and recursively list directories and files, searching for file content matching a regular expression:
+
+`smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip}} -R -F {{pattern}}`
