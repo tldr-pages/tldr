@@ -1,8 +1,7 @@
 # gpg
 
 > GNU Privacy Guard.
-> Siehe `gpg2` für GNU Privacy Guard 2.
-> Weitere Informationen: <https://gnupg.org>.
+> Weitere Informationen: <https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>.
 
 - Erstelle einen öffentlichen und privaten GPG Schlüssel interaktiv:
 
