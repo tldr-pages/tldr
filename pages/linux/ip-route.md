@@ -31,6 +31,6 @@
 
 `ip {{[r|route]}} {{[g|get]}} {{destination_ip}}`
 
-- Display a specific routing table (tables can be listed with `ip rule`):
+- Display a specific routing table:
 
-`ip {{[r|route]}} {{[s|show]}} {{[t|table]}} {{table_name}}`
+`ip {{[r|route]}} {{[s|show]}} {{[t|table]}} {{table_number}}`
