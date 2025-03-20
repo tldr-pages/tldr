@@ -3,7 +3,7 @@
 > Display subcommand for IP Routing table management.
 > More information: <https://manned.org/ip-route>.
 
-- Display the routing table:
+- Display the `main` routing table:
 
 `ip {{[r|route]}} {{[s|show]}}`
 
