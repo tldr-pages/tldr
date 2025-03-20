@@ -12,11 +12,11 @@
 
 - Test - toon welke hernoemingen zouden plaatsvinden zonder ze werkelijk uit te voeren:
 
-`rename -vn {{foo}} {{bar}} {{*}}`
+`rename {{[-vn|--verbose --no-act]}} {{foo}} {{bar}} {{*}}`
 
 - Overschrijf geen bestaande bestanden:
 
-`rename -o {{foo}} {{bar}} {{*}}`
+`rename {{[-o|--no-overwrite]}} {{foo}} {{bar}} {{*}}`
 
 - Verander bestandsextensies:
 

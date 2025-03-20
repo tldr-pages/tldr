@@ -9,11 +9,11 @@
 
 - Affiche les mois précédent, courant et suivant :
 
-`cal -3`
+`cal {{[-3|--three]}}`
 
 - Utilise le Lundi comme le premier jour de la semaine :
 
-`cal --monday`
+`cal {{[-m|--monday]}}`
 
 - Affiche un calendrier pour une année en particulier (4 chiffres) :
 

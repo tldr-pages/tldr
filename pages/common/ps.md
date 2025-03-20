@@ -21,7 +21,7 @@
 
 - List all processes of the current user as a tree:
 
-`ps {{[-u|--user]}} $(id {{[-u|--user]}}) {{[f|--forest]}}`
+`ps {{[-u|--user]}} $(id {{[-u|--user]}}) f`
 
 - Get the parent PID of a process:
 

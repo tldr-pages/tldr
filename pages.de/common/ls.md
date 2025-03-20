@@ -9,28 +9,28 @@
 
 - Liste alle Dateien inklusive versteckter Dateien auf:
 
-`ls -a`
+`ls {{[-a|--all]}}`
 
 - Liste alle Dateien mit einem abschließenden `/` bei Verzeichnis-Namen auf:
 
-`ls -F`
+`ls {{[-F|--classify]}}`
 
 - Liste alle Dateien mit Berechtigungen, Besitzer, Größe und Änderungsdatum auf:
 
-`ls -la`
+`ls {{[-la|--all -l]}}`
 
 - Liste alle Dateien mit Dateigröße in für Menschen lesbaren Einheiten (KiB, MiB, GiB):
 
-`ls -lh`
+`ls {{[-lh|-l --human-readable]}}`
 
 - Liste Dateien nach sortiert nach Dateigröße mit größter beginnend auf:
 
-`ls -lSR`
+`ls {{-lSR|-lS --recursive}}`
 
 - Liste alle Dateien sortiert nach dem Änderungsdatum mit ältester beginnend auf:
 
-`ls -ltr`
+`ls {{[-ltr|-lt --reverse]}}`
 
 - Liste nur Verzeichnisse auf:
 
-`ls -d */`
+`ls {{[-d|--directory]}} */`

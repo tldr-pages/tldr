@@ -1,20 +1,23 @@
 # gpg
 
-> GNU Privacy Guard.
-> See `gpg2` for GNU Privacy Guard 2. Most operating systems symlink `gpg` to `gpg2`.
-> More information: <https://gnupg.org>.
+> GNU Privacy Guard, an OpenPGP encryption and signing tool.
+> More information: <https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>.
 
 - Create a GPG public and private key interactively:
 
 `gpg {{[--full-gen-key|--full-generate-key]}}`
 
+- List all keys from the public keyring:
+
+`gpg {{[-k|--list-keys]}}`
+
 - Sign `doc.txt` without encryption (writes output to `doc.txt.asc`):
 
 `gpg --clearsign {{doc.txt}}`
 
-- Encrypt and sign `doc.txt` for alice@example.com and bob@example.com (output to `doc.txt.gpg`):
+- Encrypt and sign `doc.txt` for `alice@example.com` and `bob@example.com` (output to `doc.txt.gpg`):
 
-`gpg {{[-e|--encrypt]}} {{[-s|--sign]}} {{[-r|--recipient]}} {{alice@example.com}} {{[-r|--recipient]}} {{bob@example.com}} {{doc.txt}}`
+`gpg {{[-es|--encrypt --sign]}} {{[-r|--recipient]}} {{alice@example.com}} {{[-r|--recipient]}} {{bob@example.com}} {{doc.txt}}`
 
 - Encrypt `doc.txt` with only a passphrase (output to `doc.txt.gpg`):
 
@@ -28,10 +31,6 @@
 
 `gpg --import {{public.gpg}}`
 
-- Export public key for alice@example.com (output to `stdout`):
+- Export the public/private key for `alice@example.com` (output to `stdout`):
 
-`gpg --export {{[-a|--armor]}} {{alice@example.com}}`
-
-- Export private key for alice@example.com (output to `stdout`):
-
-`gpg --export-secret-keys {{[-a|--armor]}} {{alice@example.com}}`
+`gpg {{--export|--export-secret-keys}} {{[-a|--armor]}} {{alice@example.com}}`
