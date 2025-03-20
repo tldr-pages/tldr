@@ -9,7 +9,7 @@
 
 - Create a new generic routing rule with a higher priority than `main`:
 
-`sudo ip {{[ru|rule]}} {{[a|add]}} from all lookup 100`
+`sudo ip {{[ru|rule]}} {{[a|add]}} from all lookup {{100}}`
 
 - Add a new rule based on packet source addresses:
 
