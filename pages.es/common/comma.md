@@ -1,4 +1,4 @@
-# coma
+# comma
 
 > Este comando es un alias de `,`.
 
