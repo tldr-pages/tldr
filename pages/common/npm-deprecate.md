@@ -9,7 +9,7 @@
 
 - Deprecate a range of versions of a package:
 
-`npm deprecate {{package_name}}@"{{<version_range}}" "{{deprecation_message}}"`
+`npm deprecate {{package_name}}@"<{{version_range}}" "{{deprecation_message}}"`
 
 - Un-deprecate a specific version of a package:
 
