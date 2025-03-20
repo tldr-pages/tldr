@@ -14,4 +14,3 @@
 - Install GRUB pre-loading specific modules:
 
 `grub-install --target {{x86_64-efi}} --efi-directory {{path/to/efi_directory}} --modules "{{part_gpt part_msdos}}"`
-T
