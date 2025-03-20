@@ -1,4 +1,4 @@
-# Bun
+# bun
 
 > یک runtime و toolkit برای جاوا اسکریپت.
 > شامل یک bundler، یک ابزار تست و یک package manager.

@@ -1,4 +1,4 @@
-# Node
+# node
 
 > > یک runtime برای اجرای جاوا اسکریپت. (Node.js)
 > > اطلاعات بیشتر: <https://nodejs.org>.

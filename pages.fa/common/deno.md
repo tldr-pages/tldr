@@ -1,4 +1,4 @@
-# Deno
+# deno
 
 > یک runtime امن برای JavaScript و TypeScript.  
 > اطلاعات بیشتر: <https://deno.land>.
