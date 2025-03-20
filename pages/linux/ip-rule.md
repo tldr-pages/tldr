@@ -7,7 +7,7 @@
 
 `ip {{[ru|rule]}}`
 
-- Create a new generic routing table:
+- Create a new generic routing table with a higher priority than `main`:
 
 `sudo ip {{[ru|rule]}} {{[a|add]}} from all lookup 100`
 
