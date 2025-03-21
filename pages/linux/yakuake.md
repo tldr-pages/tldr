@@ -27,6 +27,6 @@
 
 `<Ctrl {{)|(}}>`
 
-- Switch between splist:
+- Switch between splits:
 
 `{{<Ctrl Tab>|<Ctrl Shift Tab>}}`
