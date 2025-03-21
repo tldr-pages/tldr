@@ -21,8 +21,8 @@
 
 - Setel versi bawaan/default paket piranti lunak yang akan digunakan secara global (seluruh pengguna):
 
-`asdf global {{nama}} {{versi}}`
+`asdf set -u {{nama}} {{versi}}`
 
 - Setel versi bawaan/default paket piranti lunak yang akan digunakan secara lokal (pengguna saat ini):
 
-`asdf local {{nama}} {{versi}}`
+`asdf set -p {{nama}} {{versi}}`
