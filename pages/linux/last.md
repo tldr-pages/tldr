@@ -30,8 +30,8 @@
 
 - List information [s]ince a specific time and date:
 
-`last --since {{-7days}}`
+`last {{[-s|--since]}} {{-7days}}`
 
 - List information (i.e., hostname and IP) of remote hosts:
 
-`last --dns`
+`last {{[-d|--dns]}}`
