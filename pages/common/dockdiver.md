@@ -1,6 +1,6 @@
 # dockdiver
 
-> A tool for interacting with Docker registries, including listing and dumping repositories
+> A tool for interacting with Docker registries, including listing and dumping repositories.
 > More information: <https://github.com/MachiavelliII/dockdiver>.
 
 - List all repositories in a Docker registry:
