@@ -30,3 +30,7 @@
 - Execute quietly without start and done messages:
 
 `script {{[-q|--quiet]}} {{logfile.log}}`
+
+- Display help:
+
+`script {{[-h|--help]}}`

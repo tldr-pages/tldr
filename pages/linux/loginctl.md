@@ -26,3 +26,7 @@
 - Log a user out on all of their sessions:
 
 `loginctl terminate-user {{username}}`
+
+- Display help:
+
+`loginctl {{[-h|--help]}}`

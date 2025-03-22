@@ -19,3 +19,7 @@
 - Send a `tar.gz` file as an attachment:
 
 `tar cvzf - {{path/to/directory1 path/to/directory2}} | uuencode {{data.tar.gz}} | mail --subject "{{subject_line}}" {{to_user@example.com}}`
+
+- Display help:
+
+`mail {{[-h|--help]}}`

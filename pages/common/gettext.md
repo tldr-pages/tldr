@@ -6,3 +6,7 @@
 - Get the translation of a string or output a default string if it doesn't exist:
 
 `LANGUAGE={{locale}} gettext {{msgid}} {{default_value}}`
+
+- Display help:
+
+`gettext {{[-h|--help]}}`

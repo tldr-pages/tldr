@@ -10,3 +10,7 @@
 - Monitor a device instead of reserving it:
 
 `pw-reserve {{[-n|--name]}} {{audioN}} {{[-m|--monitor]}}`
+
+- Display help:
+
+`pw-reserve {{[-h|--help]}}`

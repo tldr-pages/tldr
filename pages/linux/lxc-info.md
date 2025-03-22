@@ -6,3 +6,7 @@
 - Query information from a container:
 
 `sudo lxc-info {{container_name}}`
+
+- Display help:
+
+`lxc-info {{[-?|--help]}}`

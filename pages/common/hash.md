@@ -18,3 +18,7 @@
 - Print the full path of `command`:
 
 `hash -t {{command}}`
+
+- Display help:
+
+`hash --help`

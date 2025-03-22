@@ -18,3 +18,7 @@
 - Exit browsh:
 
 `<Ctrl q>`
+
+- Display help:
+
+`browsh {{[-h|--help]}}`

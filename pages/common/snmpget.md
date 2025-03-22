@@ -10,3 +10,7 @@
 - Display the full Object Identifier (OID) path:
 
 `snmpget -v {{version}} -c {{community}} -O f {{ip}} {{oid}}`
+
+- Display help:
+
+`snmpget {{[-h|--help]}}`

@@ -6,3 +6,7 @@
 - Fetch data:
 
 `snmptable -v {{version}} -c {{community}} {{ip}} {{oid}}`
+
+- Display help:
+
+`snmptable {{[-h|--help]}}`

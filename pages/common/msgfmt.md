@@ -10,3 +10,7 @@
 - Convert a `.po` file to a `.mo` file:
 
 `msgfmt {{path/to/file.po}} {{[-o|--output-file]}} {{path/to/file.mo}}`
+
+- Display help:
+
+`msgfmt {{[-h|--help]}}`

@@ -10,3 +10,7 @@
 - Display all possible data columns:
 
 `fincore --output-all {{path/to/file}}`
+
+- Display help:
+
+`fincore {{[-h|--help]}}`

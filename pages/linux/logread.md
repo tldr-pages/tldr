@@ -18,3 +18,7 @@
 - Print log messages as they happen:
 
 `logread -f`
+
+- Display help:
+
+`logread -h`

@@ -14,3 +14,7 @@
 - Exit carbonyl:
 
 `<Ctrl c>`
+
+- Display help:
+
+`carbonyl {{[-h|--help]}}`

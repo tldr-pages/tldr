@@ -14,3 +14,7 @@
 - Skip testing for Vulkan support:
 
 `waypipe --test-skip-vulkan ssh {{user}}@{{server}} {{program}}`
+
+- Display help:
+
+`waypipe {{[-h|--help]}}`

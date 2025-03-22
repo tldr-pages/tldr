@@ -6,3 +6,7 @@
 - Attach to a container:
 
 `sudo lxc-attach {{container_name}}`
+
+- Display help:
+
+`lxc-attach {{[-?|--help]}}`

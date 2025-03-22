@@ -26,3 +26,7 @@
 - List available transmit power levels for the interface:
 
 `iwinfo {{interface}} txpowerlist`
+
+- Display help:
+
+`iwinfo h`

@@ -6,3 +6,7 @@
 - Run a program:
 
 `pw-v4l2 {{program}}`
+
+- Display help:
+
+`pw-v4l2 -h`

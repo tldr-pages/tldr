@@ -30,3 +30,7 @@
 - Pass the asked password to another program:
 
 `systemd-ask-password | {{command}}`
+
+- Display help:
+
+`systemd-ask-password {{[-h|--help]}}`

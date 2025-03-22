@@ -10,3 +10,7 @@
 - View all-time network statistics:
 
 `nstat {{[-a|--ignore]}}`
+
+- Display help:
+
+`nstat {{[-h|--help]}}`

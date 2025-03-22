@@ -14,3 +14,7 @@
 - Listen to events:
 
 `ubus subscribe {{event_name}}`
+
+- Display help:
+
+`ubus`

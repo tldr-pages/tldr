@@ -18,3 +18,7 @@
 - Use a configuration file to fetch mirrors:
 
 `sudo reflector @{{/etc/xdg/reflector/reflector.conf}}`
+
+- Display help:
+
+`reflector {{[-h|--help]}}`

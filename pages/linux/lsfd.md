@@ -18,3 +18,7 @@
 - List open IPv4 or IPv6 sockets:
 
 `lsfd -i{{4|6}}`
+
+- Display help:
+
+`lsfd {{[-h|--help]}}`

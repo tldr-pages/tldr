@@ -28,3 +28,7 @@
 - Reduce file sizes of all GIF images in the current directory by reducing quality:
 
 `magick mogrify -layers 'optimize' -fuzz {{7%}} {{*.gif}}`
+
+- Display help:
+
+`magick mogrify -help`

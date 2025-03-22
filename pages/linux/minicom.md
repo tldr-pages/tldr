@@ -18,3 +18,7 @@
 - Exit minicom:
 
 `<Ctrl a><x><Enter>`
+
+- Display help:
+
+`minicom {{[-h|--help]}}`

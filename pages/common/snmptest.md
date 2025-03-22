@@ -6,3 +6,7 @@
 - Start the prompt:
 
 `snmptest -v {{version}} -c {{community}} {{ip}}`
+
+- Display help:
+
+`snmptest {{[-h|--help]}}`

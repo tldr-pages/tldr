@@ -6,3 +6,7 @@
 - Fetch the values:
 
 `snmpstatus -v {{version}} -c {{community}} {{ip}}`
+
+- Display help:
+
+`snmpstatus {{[-h|--help]}}`

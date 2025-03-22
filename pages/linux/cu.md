@@ -22,3 +22,7 @@
 - Exit the `cu` session when in connection:
 
 `<Enter><~><.>`
+
+- Display help:
+
+`cu --help`

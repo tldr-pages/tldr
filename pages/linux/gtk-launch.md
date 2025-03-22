@@ -6,3 +6,7 @@
 - Launch an application:
 
 `gtk-launch {{Application_name}}`
+
+- Display help:
+
+`gtk-launch {{[-h|--help]}}`

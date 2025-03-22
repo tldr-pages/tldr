@@ -27,3 +27,7 @@
 - Remove a partition in interactive mode:
 
 `rm {{/dev/sdXN}}`
+
+- Display help:
+
+`?`

@@ -27,3 +27,7 @@
 - Exit `btop`:
 
 `<q>`
+
+- Display help:
+
+`btop {{[-h|--help]}}`

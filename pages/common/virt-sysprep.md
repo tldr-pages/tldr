@@ -22,3 +22,7 @@
 - Generate a new `/etc/machine-id` file and enable customizations to be able to change the host name to avoid network conflicts:
 
 `sudo virt-sysprep --domain {{vm_name}} --enable {{customizations}} --hostname {{host_name}} --operation {{machine-id}}`
+
+- Display help:
+
+`virt-sysprep {{[-he|--help]}}`
