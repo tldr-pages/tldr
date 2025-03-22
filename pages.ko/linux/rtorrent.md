@@ -9,12 +9,12 @@
 
 - 다운로드 시작:
 
-`<Ctrl>S`
+`<Ctrl s>`
 
 - 다운로드 중인 토렌트에 대한 세부 정보 보기:
 
-`->`
+`<ArrowRight>`
 
 - rtorrent 안전하게 종료:
 
-`<Ctrl>Q`
+`<Ctrl q>`

@@ -1,7 +1,7 @@
 # xclip
 
 > Herramienta para manipular el portapapeles de X11, similar a `xsel`.
-> Maneja la selección primaria y secundaria de X y el portapapeles (`Ctrl + C`/`Ctrl + V`).
+> Maneja la selección primaria y secundaria de X y el portapapeles (`<Ctrl c>`/`<Ctrl v>`).
 > Más información: <https://manned.org/xclip>.
 
 - Copia la salida de un comando a la selección primaria de X11:

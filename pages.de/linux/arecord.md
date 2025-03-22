@@ -3,7 +3,7 @@
 > Sound Recorder für den ALSA-Soundkarten-Treiber.
 > Weitere Informationen: <https://manned.org/arecord>.
 
-- Nehme einen Schnipsel in CD-Qualität auf (beende die Aufnahme mit CTRL-C):
+- Nehme einen Schnipsel in CD-Qualität auf (beende die Aufnahme mit `<Ctrl c>`):
 
 `arecord -vv --format=cd {{pfad/zu/datei.wav}}`
 
@@ -11,7 +11,7 @@
 
 `arecord -vv --format=cd --duration={{10}} {{pfad/zu/datei.wav}}`
 
-- Nehme einen Schnipsel auf und speichere es als MP3 (beende die Aufnahme mit CTRL-C):
+- Nehme einen Schnipsel auf und speichere es als MP3 (beende die Aufnahme mit `<Ctrl c>`):
 
 `arecord -vv --format=cd --file-type raw | lame -r - {{pfad/zu/datei.mp3}}`
 
@@ -19,6 +19,6 @@
 
 `arecord --list-devices`
 
-- Benutze das interaktive Interface (z.B. Space oder Enter für Play oder Pause):
+- Benutze das interaktive Interface (z.B. `<Space>` oder `<Enter>` für Play oder Pause):
 
 `arecord --interactive`
