@@ -17,8 +17,8 @@
 
 - Wis tekst op beide terminals:
 
-`<Ctrl>+D`
+`<Ctrl d>`
 
 - Verlaat de talk-sessie:
 
-`<Ctrl>+C`
+`<Ctrl c>`

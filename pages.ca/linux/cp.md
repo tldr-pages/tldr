@@ -13,19 +13,19 @@
 
 - Còpia de forma recursiva el contingut d'un directori a una altra ubicació (si el destí existeix, el directori és copiat en aquesta ubicació):
 
-`cp -r {{ruta/al/directori_origen}} {{ruta/al/directori_destinatari}}`
+`cp {{[-r|--recursive]}} {{ruta/al/directori_origen}} {{ruta/al/directori_destinatari}}`
 
 - Còpia un directori de forma recursiva en mode verbose (mostra els arxius a mesura que es copien):
 
-`cp -vr {{ruta/al/directori_origen}} {{ruta/al/directori_destinatari}}`
+`cp {{[-vr|--verbose --recursive]}} {{ruta/al/directori_origen}} {{ruta/al/directori_destinatari}}`
 
 - Còpia arxius de text en una altra ubicació en mode interactiu (pregunta al usuari abans de sobreescriure):
 
-`cp -i {{*.txt}} {{ruta/al/directori_destinatari}}`
+`cp {{[-i|--interactive]}} {{*.txt}} {{ruta/al/directori_destinatari}}`
 
 - Segueix els enllaços simbòlics abans de copiar:
 
-`cp -L {{link}} {{ruta/al/directori_destinatari}}`
+`cp {{[-L|--dereference]}} {{link}} {{ruta/al/directori_destinatari}}`
 
 - Utilitza la ruta completa dels arxius d'origen, creant els directoris intermitjos faltants al copiar:
 

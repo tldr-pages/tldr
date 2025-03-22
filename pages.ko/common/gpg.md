@@ -1,8 +1,7 @@
 # gpg
 
 > GNU Privacy Guard.
-> GNU Privacy Guard 2에 대해서는 `gpg2`를 참조. 대부분의 운영체제는 `gpg`를 `gpg2`에 심볼릭 링크를 설정함.
-> 더 많은 정보: <https://gnupg.org>.
+> 더 많은 정보: <https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>.
 
 - GPG 공개 및 개인 키를 대화형으로 생성:
 

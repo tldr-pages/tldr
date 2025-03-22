@@ -9,7 +9,7 @@
 
 `sudo apt update`
 
-- Search for a given package:
+- Search for a given package (use `apt search -n package` to search within package name only):
 
 `apt search {{package}}`
 
