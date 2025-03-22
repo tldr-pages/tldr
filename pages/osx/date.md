@@ -21,4 +21,4 @@
 
 - Display a date relative to the current date using the default format:
 
-`date -v +1d -v -20m`
+`date -v {{+1d}} -v {{-20m}}`
