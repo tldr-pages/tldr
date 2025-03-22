@@ -10,19 +10,19 @@
 
 - Avança/retrocede 5 segundos:
 
-`LEFT <or> RIGHT`
+`{{<ArrowLeft>|<ArrowRight>}}`
 
 - Avança/retrocede 1 minuto:
 
-`DOWN <or> UP`
+`{{<ArrowDown>|<ArrowUp>}}`
 
 - Diminui ou aumenta a velocidade de reprodução em 10%:
 
-`[ <or> ]`
+`{{<[>|<]>}}`
 
 - Captura a imagem do quadro atual (salva em `./mpv-shotNNNN.jpg` por padrão):
 
-`s`
+`<s>`
 
 - Toca um arquivo em uma velocidade especificada (1 por padrão):
 

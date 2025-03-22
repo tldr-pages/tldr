@@ -4,7 +4,7 @@
 > O serviço atd (ou atrun) deve correr para atuais execuções.
 > Mais informações: <https://manned.org/batch>.
 
-- Executa comandos da entrada padrão (premir `Ctrl + D` quando terminado):
+- Executa comandos da entrada padrão (premir `<Ctrl d>` quando terminado):
 
 `batch`
 

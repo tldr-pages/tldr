@@ -10,4 +10,4 @@
 
 - Verlaat de tutor:
 
-`<Esc> :q <Enter>`
+`<Esc><:>q<Enter>`

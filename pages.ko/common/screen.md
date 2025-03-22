@@ -26,11 +26,11 @@
 
 - screen 내부에서 분리:
 
-`<Ctrl> + A, D`
+`<Ctrl a><d>`
 
 - 현재 screen 세션 종료:
 
-`<Ctrl> + A, K`
+`<Ctrl a><k>`
 
 - 분리된 screen 종료:
 

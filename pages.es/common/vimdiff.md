@@ -10,28 +10,28 @@
 
 - Mueve el cursor a la ventana de la izquierda|derecha:
 
-`<Ctrl> + w {{h|l}}`
+`<Ctrl w>{{<h>|<l>}}`
 
 - Salta a la diferencia previa:
 
-`[c`
+`<[><c>`
 
 - Salta a la siguiente diferencia:
 
-`]c`
+`<]><c>`
 
 - Copia la diferencia resaltada de la otra ventana a la ventana actual:
 
-`do`
+`<d><o>`
 
 - Copia la diferencia resaltada de la ventana actual a la otra ventana:
 
-`dp`
+`<d><p>`
 
 - Actualiza todos los resaltados y folds (plegados de texto):
 
-`:diffupdate`
+`<:>diffupdate`
 
 - Alterna la apertura/cierre de la fold (plegado de texto) de código resaltada:
 
-`za`
+`<z><a>`

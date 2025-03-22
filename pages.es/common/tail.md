@@ -16,11 +16,11 @@
 
 `tail {{[-n|--lines]}} {{recuento}} {{ruta/al/archivo}}`
 
-- Imprime las últimas líneas de un archivo en tiempo real hasta presionar `Ctrl + C`:
+- Imprime las últimas líneas de un archivo en tiempo real hasta presionar `<Ctrl c>`:
 
 `tail {{[-f|--follow]}} {{ruta/al/archivo}}`
 
-- Mantiene leyendo las últimas líneas de un archivo hasta presionar `Ctrl + C`, aunque el archivo sea inaccesible:
+- Mantiene leyendo las últimas líneas de un archivo hasta presionar `<Ctrl c>`, aunque el archivo sea inaccesible:
 
 `tail {{[-F|--retry --follow]}} {{ruta/al/archivo}}`
 

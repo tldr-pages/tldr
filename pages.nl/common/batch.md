@@ -9,7 +9,7 @@
 
 `systemctl start atd`
 
-- Voer commando's uit vanaf `stdin` (druk op `Ctrl + D` om te stoppen):
+- Voer commando's uit vanaf `stdin` (druk op `<Ctrl d>` om te stoppen):
 
 `batch`
 

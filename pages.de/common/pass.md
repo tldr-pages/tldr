@@ -8,7 +8,7 @@
 
 `pass init {{gpg_id_1}} {{gpg_id_2}}`
 
-- Speichere das Passwort und zusätzliche Informationen (Str + D auf neuer Zeile zum abschließen):
+- Speichere das Passwort und zusätzliche Informationen (`<Ctrl d>` auf neuer Zeile zum abschließen):
 
 `pass insert --multiline {{pfad/zu/datei}}`
 

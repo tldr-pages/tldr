@@ -15,11 +15,11 @@
 
 `tail {{[-n|--lines]}} {{anzahl_an_bytes}} {{datei}}`
 
-- Lies aus einer Datei, bis `Ctrl + C` gedrückt wird:
+- Lies aus einer Datei, bis `<Ctrl c>` gedrückt wird:
 
 `tail {{[-f|--follow]}} {{datei}}`
 
-- Lies aus einer Datei, bis `Ctrl + C` gedrückt wird, selbst, wenn die Datei nicht zugänglich ist:
+- Lies aus einer Datei, bis `<Ctrl c>` gedrückt wird, selbst, wenn die Datei nicht zugänglich ist:
 
 `tail {{[-F|--retry --follow]}} {{datei}}`
 
