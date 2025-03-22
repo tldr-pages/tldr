@@ -1,7 +1,7 @@
 # nvim
 
 > Neovim, um editor de texto para programadores baseado no Vim, oferece vários modos para diferentes tipos de manipulação de texto.
-> Pressionar`i` no modo normal entra no modo de inserção. `<Esc>` retorna ao modo normal, que não permite a inserção regular de texto.
+> Pressionar`<i>` no modo normal entra no modo de inserção. `<Esc>` retorna ao modo normal, que não permite a inserção regular de texto.
 > Veja também `vim`, `vimtutor`, `vimdiff`.
 > Mais informações: <https://neovim.io>.
 
@@ -11,28 +11,28 @@
 
 - Entra no modo de edição de texto (mode de inserção):
 
-`<Esc>i`
+`<Esc><i>`
 
-- Copia ("yank") ou recorta ("delete") a linha atual (cole-a com `P`):
+- Copia ("yank") ou recorta ("delete") a linha atual (cole-a com `<p>`):
 
-`<Esc>{{yy|dd}}`
+`<Esc>{{<y><y>|<d><d>}}`
 
 - Entra no modo normal e desfaz a última operação:
 
-`<Esc>u`
+`<Esc><u>`
 
-- Procura por um padrão em um arquivo (pressione `n`/ `N` para ir para a próxima/prévia correspondência):
+- Procura por um padrão em um arquivo (pressione `<n>`/`<N>` para ir para a próxima/prévia correspondência):
 
-`<Esc>/{{padrão_procurado}}<Enter>`
+`<Esc></>{{padrão_procurado}}<Enter>`
 
 - Executa uma substituição de expressão regular em todo o arquivo:
 
-`<Esc>:%s/{{expressão_regular}}/{{substituição}}/g<Enter>`
+`<Esc><:>%s/{{expressão_regular}}/{{substituição}}/g<Enter>`
 
 - Entra no modo normal, salva (grava) o arquivo e sai:
 
-`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
+`{{<Esc><Z><Z>|<Esc><:>x<Enter>|<Esc><:>wq<Enter>}}`
 
 - Sai sem salvar:
 
-`<Esc>:q!<Enter>`
+`<Esc><:>q!<Enter>`

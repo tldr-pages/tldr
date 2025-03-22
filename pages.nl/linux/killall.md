@@ -16,7 +16,7 @@
 
 `killall -i {{proces_naam}}`
 
-- Beëindig een proces met het SIGINT (interrupt) signaal, hetzelfde signaal dat wordt verzonden door `Ctrl + C` in te drukken:
+- Beëindig een proces met het SIGINT (interrupt) signaal, hetzelfde signaal dat wordt verzonden door `<Ctrl c>` in te drukken:
 
 `killall -INT {{proces_naam}}`
 

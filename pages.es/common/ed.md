@@ -10,19 +10,19 @@
 
 - Inicia una sesión de editor interactivo con un documento vacío y un prompt específico:
 
-`ed --prompt='> '`
+`ed {{[-p|--prompt]}} '{{> }}'`
 
 - Inicia una sesión de editor interactivo con errores amigables:
 
-`ed --verbose`
+`ed {{[-v|--verbose]}}`
 
 - Inicia una sesión de editor interactivo con un documento vacío y sin diagnósticos, conteos de bytes y prompt de '!':
 
-`ed --quiet`
+`ed {{[-q|--quiet]}}`
 
 - Inicia una sesión de editor interactivo sin cambio de estado de salida cuando un comando falla:
 
-`ed --loose-exit-status`
+`ed {{[-l|--loose-exit-status]}}`
 
 - Edita un archivo específico (esto muestra el conteo de bytes del archivo cargado):
 

@@ -14,7 +14,7 @@
 
 - Starte Emacs in der Konsole (ohne X-Fenster):
 
-`emacs --no-window-system`
+`emacs {{[-nw|--no-window-system]}}`
 
 - Starte einen Emacs-Server im Hintergrund (aufrufbar mit `emacsclient`):
 
@@ -26,8 +26,8 @@
 
 - Tastenkombination zum Speichern einer Datei:
 
-`<Ctrl> + X, <Ctrl> + S`
+`<Ctrl x><Ctrl s>`
 
 - Tastenkombination zum Beenden von Emacs:
 
-`<Ctrl> + X, <Ctrl> + C`
+`<Ctrl x><Ctrl c>`

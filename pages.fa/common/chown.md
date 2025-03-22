@@ -13,11 +13,11 @@
 
 - تغییر بازگشتی مالک یه پوشه و محتویات آن:
 
-`chown -R {{user}} {{path/to/directory}}`
+`chown {{[-R|--recursive]}} {{user}} {{path/to/directory}}`
 
 - تغییر مالک یک فایل میانبر(به فایل دیگری اشاره میکند) :
 
-`chown -h {{user}} {{path/to/symlink}}`
+`chown {{[-h|--no-dereference]}} {{user}} {{path/to/symlink}}`
 
 - تغییر مالک یک فایل/پوشه برای همسان شدن با فایل مرجع:
 
