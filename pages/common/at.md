@@ -24,6 +24,6 @@
 
 `at -f {{path/to/file}} 9:30 PM Tue`
 
-- List all queued jobs (same as `atq`):
+- List all queued jobs for the current user (same as `atq`):
 
 `at -l`
