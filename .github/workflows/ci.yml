@@ -40,7 +40,7 @@ jobs:
       run: npm test
 
     - name: Upload test logging
-      if: CI == true && github.repository == 'tldr-pages/tldr' && PULL_REQUEST_ID != ''
+      if: github.repository == 'tldr-pages/tldr' && github.event.pull_request.number != ''
       uses: actions/upload-artifact@v4
       with:
         name: debug.log
