@@ -1,9 +1,10 @@
 # pngcheck
 
-> Print detailed information about and verify PNG, JNG, and MNG files.
-> More information: <http://www.libpng.org/pub/png/apps/pngcheck.html>.
+> Forensics tool for validating the integrity of PNG based (PNG, JNG, MNG) image files.
+> Can also extract embedded images and text from a file.
+> More information: <https://github.com/pnggroup/pngcheck>.
 
-- Print a summary for an image (width, height, and color depth):
+- Verify the integrity of an image file (width, height, and color depth):
 
 `pngcheck {{path/to/image.png}}`
 

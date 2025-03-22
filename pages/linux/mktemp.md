@@ -25,4 +25,4 @@
 
 - Create an empty temporary directory and print its absolute path:
 
-`mktemp --directory`
+`mktemp {{[-d|--directory]}}`

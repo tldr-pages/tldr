@@ -18,7 +18,7 @@
 
 - Start an interactive editor session with an empty document and without diagnostics, byte counts and '!' prompt:
 
-`ed {{[-q|--quiet]}}`
+`ed {{[-q|--quiet]}} {{[-s|--script]}}`
 
 - Start an interactive editor session without exit status change when command fails:
 

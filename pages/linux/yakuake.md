@@ -7,7 +7,7 @@
 
 `yakuake`
 
-- Toggle Yakuale visibility:
+- Toggle Yakuake visibility:
 
 `<F12>`
 
@@ -27,6 +27,6 @@
 
 `<Ctrl {{)|(}}>`
 
-- Switch between splist:
+- Switch between splits:
 
 `{{<Ctrl Tab>|<Ctrl Shift Tab>}}`

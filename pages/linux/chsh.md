@@ -8,10 +8,14 @@
 
 `chsh`
 
-- Set a specific login [s]hell for the current user:
+- List available shells:
 
-`chsh --shell {{path/to/shell}}`
+`chsl {{[-l|--list-shells]}}`
 
-- Set a login [s]hell for a specific user:
+- Set a specific login shell for the current user:
 
-`sudo chsh --shell {{path/to/shell}} {{username}}`
+`chsh {{[-s|--shell]}} {{path/to/shell}}`
+
+- Set a login shell for a specific user:
+
+`sudo chsh {{[-s|--shell]}} {{path/to/shell}} {{username}}`
