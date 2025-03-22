@@ -1,7 +1,7 @@
 # openai
 
 > أداة سطر الأوامر للوصول إلى واجهة برمجة تطبيقات OpenAI.
-> مزيد من المعلومات: <https://github.com/openai/openai-python>.
+> مزيد من التفاصيل: <https://github.com/openai/openai-python>.
 
 - عرض قائمة النماذج المتاحة:
 

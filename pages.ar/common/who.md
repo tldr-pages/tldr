@@ -2,7 +2,7 @@
 
 > عرض المستخدمين المتصلين حاليًا والبيانات المتعلقة بهم (مثل العمليات ووقت الإقلاع).
 > انظر أيضًا: `whoami`.
-> مزيد من المعلومات: <https://www.gnu.org/software/coreutils/manual/html_node/who-invocation.html>.
+> مزيد من التفاصيل: <https://www.gnu.org/software/coreutils/manual/html_node/who-invocation.html>.
 
 - عرض أسماء المستخدمين والخطوط الزمنية للجلسات النشطة حاليًا:
 

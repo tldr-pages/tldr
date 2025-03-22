@@ -2,7 +2,7 @@
 
 > يعرض صفحات مساعدة مبسطة للأوامر في سطر الأوامر، مستمدة من مشروع tldr-pages.
 > ملاحظة: الخيارات `--language` و `--list` ليست مطلوبة وفقًا للمواصفات، ولكن معظم العملاء يدعمونها.
-> مزيد من المعلومات: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
+> مزيد من التفاصيل: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - عرض صفحة tldr لأمر معين (تلميح: هذا ما أوصلك إلى هنا!):
 
