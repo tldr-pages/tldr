@@ -37,9 +37,14 @@ jobs:
       run: pip install -r requirements.txt -r scripts/pdf/requirements.txt -r scripts/test-requirements.txt
 
     - name: Test
-      run: |
-        npm test
-        cat debug.log
+      run: npm test
+
+    - name: Upload test logging
+      if: CI == true && PULL_REQUEST_ID != ""
+      uses: actions/upload-artifact@v4
+      with:
+        name: debug.log
+        path: debug.log
 
     - name: Build
       run: bash scripts/build.sh
