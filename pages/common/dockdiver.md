@@ -17,7 +17,7 @@
 
 - Dump a repository with a custom port and rate limit:
 
-`dockdiver -url http://example.com -dump {{repository_name}} -port {{port}} -rate {{requests_per_second}} -dir {{output_dir}}`
+`dockdiver -url http://example.com -dump {{repository_name}} -port {{port}} -rate {{requests_per_second}} -dir {{path/to/output_directory}}`
 
 - Dump all repositories with bearer token for authorization:
 
