@@ -7,7 +7,7 @@
 
 `yakuake`
 
-- Toggle Yakuale visibility:
+- Toggle Yakuake visibility:
 
 `<F12>`
 
