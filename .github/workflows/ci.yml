@@ -39,7 +39,7 @@ jobs:
     - name: Test
       run: |
         npm test
-        tree
+        cat debug.log
 
     - name: Build
       run: bash scripts/build.sh
