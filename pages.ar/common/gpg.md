@@ -1,8 +1,7 @@
 # gpg
 
 > برنامج GNU Privacy Guard.
-> راجع `gpg2` للحصول على الإصدار الثاني من GNU Privacy Guard. تقوم معظم أنظمة التشغيل بربط `gpg` بـ `gpg2`.
-> لمزيد من التفاصيل: <https://gnupg.org>.
+> لمزيد من التفاصيل: <https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>.
 
 - إنشاء مفتاح GPG عام وخاص بطريقة تفاعلية:
 

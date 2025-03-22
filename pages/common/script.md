@@ -1,9 +1,9 @@
 # script
 
-> Make a typescript file of a terminal session.
+> Record all terminal output to a typescript file.
 > More information: <https://manned.org/script>.
 
-- Start recording in file named "typescript":
+- Record a new session to a file named `typescript` in the current directory:
 
 `script`
 
@@ -11,13 +11,21 @@
 
 `exit`
 
-- Start recording in a given file:
+- Record a new session to a custom filepath:
 
-`script {{logfile.log}}`
+`script {{path/to/session.out}}`
 
 - Append to an existing file:
 
 `script {{[-a|--append]}} {{logfile.log}}`
+
+- Record timing information (data is outputted to `stderr`):
+
+`script {{[-t|--timing]}} 2> {{path/to/timing_file}}`
+
+- Write out data as soon as it happens:
+
+`script {{[-f|--flush]}} {{path/to/file}}`
 
 - Execute quietly without start and done messages:
 

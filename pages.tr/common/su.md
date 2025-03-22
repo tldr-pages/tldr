@@ -17,4 +17,4 @@
 
 - Başka bir kullanıcı olarak bir komut çalıştırın:
 
-`su - {{kullanıcıadı}} -c "{{komut}}"`
+`su - {{kullanıcıadı}} {{[-c|--command]}} "{{komut}}"`

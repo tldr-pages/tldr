@@ -5,15 +5,15 @@
 
 - 전원 및 배터리 정보 표시:
 
-`upower --dump`
+`upower {{[-d|--dump]}}`
 
 - 모든 전원 장치 나열:
 
-`upower --enumerate`
+`upower {{[-e|--enumerate]}}`
 
 - 전원 상태 변화를 감시하고 출력:
 
-`upower --monitor`
+`upower {{[-m|--monitor]}}`
 
 - 자세한 전원 상태 변화를 감시하고 출력:
 
@@ -21,4 +21,4 @@
 
 - 버전 표시:
 
-`upower --version`
+`upower {{[-v|--version]}}`

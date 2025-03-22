@@ -5,7 +5,7 @@
 
 - Avvia emacs in modalità console (senza finestra X):
 
-`emacs -nw`
+`emacs {{[-nw|--no-window-system]}}`
 
 - Apri un file in emacs:
 

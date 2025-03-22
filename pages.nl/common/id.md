@@ -9,19 +9,19 @@
 
 - Toon de identiteit van de huidige gebruiker:
 
-`id -un`
+`id {{[-un|--user --name]}}`
 
 - Toon de identiteit van de huidige gebruiker als een nummer:
 
-`id -u`
+`id {{[-u|--user]}}`
 
 - Toon de identiteit van de huidige primaire groepsidentiteit:
 
-`id -gn`
+`id {{[-gn|--group --name]}}`
 
 - Toon de identiteit van de huidige primaire groepsidentiteit als een nummer:
 
-`id -g`
+`id {{[-g|--group]}}`
 
 - Toon de ID (UID), groep-ID (GID) en groepen waartoe een willekeurige gebruiker behoort:
 
