@@ -13,7 +13,7 @@
 
 - Dump all repositories with basic authentication:
 
-`dockdiver -url {{http://example.com}} -dump-all -username {{myusername}} -password {{mypassword}}`
+`dockdiver -url {{http://example.com}} -dump-all -username {{username}} -password {{password}}`
 
 - Dump a repository with a custom port and rate limit:
 
