@@ -27,3 +27,7 @@
 - List all queued jobs for the current user (same as `atq`):
 
 `at -l`
+
+- View a specied job:
+
+`at -c {{job_number}}`
