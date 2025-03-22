@@ -13,4 +13,4 @@
 
 - Delimit output with a NUL character instead of a newline (useful when combining with `xargs`):
 
-`dirname --zero {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`dirname {{[-z|--zero]}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`

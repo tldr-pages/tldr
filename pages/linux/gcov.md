@@ -10,20 +10,20 @@
 
 - Write individual execution counts for every basic block:
 
-`gcov --all-blocks {{path/to/file.cpp}}`
+`gcov {{[-a|--all-blocks]}} {{path/to/file.cpp}}`
 
 - Write branch frequencies to the output file and print summary information to `stdout` as a percentage:
 
-`gcov --branch-probabilities {{path/to/file.cpp}}`
+`gcov {{[-b|--branch-probabilities]}} {{path/to/file.cpp}}`
 
 - Write branch frequencies as the number of branches taken, rather than the percentage:
 
-`gcov --branch-counts {{path/to/file.cpp}}`
+`gcov {{[-c|--branch-counts]}} {{path/to/file.cpp}}`
 
 - Do not create a `gcov` output file:
 
-`gcov --no-output {{path/to/file.cpp}}`
+`gcov {{[-n|--no-output]}} {{path/to/file.cpp}}`
 
 - Write file level as well as function level summaries:
 
-`gcov --function-summaries {{path/to/file.cpp}}`
+`gcov {{[-f|--function-summaries]}} {{path/to/file.cpp}}`

@@ -9,7 +9,7 @@
 
 - Execute a command on a remote host with a specific username:
 
-`rsh {{remote_host}} -l {{username}} {{ls -l}}`
+`rsh {{remote_host}} {{[-l|--user]}} {{username}} {{ls -l}}`
 
 - Redirect `stdin` to `/dev/null` when executing a command on a remote host:
 

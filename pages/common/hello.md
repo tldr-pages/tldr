@@ -1,7 +1,7 @@
 # hello
 
 > Print "Hello, world!", "hello, world" or a customizable text.
-> More information: <https://www.gnu.org/software/hello/>.
+> More information: <https://www.gnu.org/software/hello/manual/html_node/Invoking-hello.html>.
 
 - Print "Hello, world!":
 
@@ -9,8 +9,8 @@
 
 - Print "hello, world", the traditional type:
 
-`hello --traditional`
+`hello {{[-t|--traditional]}}`
 
 - Print a text message:
 
-`hello --greeting="{{greeting_text}}"`
+`hello {{[-g|--greeting]}} "{{greeting_text}}"`

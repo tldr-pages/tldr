@@ -9,4 +9,4 @@
 
 - Log in to a remote host with a specific username:
 
-`rlogin -l {{username}} {{remote_host}}`
+`rlogin {{[-l|--user]}} {{username}} {{remote_host}}`

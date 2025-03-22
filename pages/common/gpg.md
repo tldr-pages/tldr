@@ -5,7 +5,7 @@
 
 - Create a GPG public and private key interactively:
 
-`gpg --full-generate-key`
+`gpg {{[--full-gen-key|--full-generate-key]}}`
 
 - List all keys from the public keyring:
 

@@ -17,16 +17,16 @@
 
 - Read a file of SHA512 checksums and filenames and verify all files have matching checksums:
 
-`sha512sum --check {{path/to/file.sha512}}`
+`sha512sum {{[-c|--check]}} {{path/to/file.sha512}}`
 
 - Only show a message for missing files or when verification fails:
 
-`sha512sum --check --quiet {{path/to/file.sha512}}`
+`sha512sum {{[-c|--check]}} --quiet {{path/to/file.sha512}}`
 
 - Only show a message when verification fails, ignoring missing files:
 
-`sha512sum --ignore-missing --check --quiet {{path/to/file.sha512}}`
+`sha512sum --ignore-missing {{[-c|--check]}} --quiet {{path/to/file.sha512}}`
 
 - Check a known SHA512 checksum of a file:
 
-`echo {{known_sha512_checksum_of_the_file}} {{path/to/file}} | sha512sum --check`
+`echo {{known_sha512_checksum_of_the_file}} {{path/to/file}} | sha512sum {{[-c|--check]}}`

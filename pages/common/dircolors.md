@@ -17,12 +17,12 @@
 
 - Output commands for Bourne shell:
 
-`dircolors --bourne-shell`
+`dircolors {{[-b|--bourne-shell]}}`
 
 - Output commands for C shell:
 
-`dircolors --c-shell`
+`dircolors {{[-c|--c-shell]}}`
 
 - View the default colors for file types and extensions:
 
-`dircolors --print-data`
+`dircolors {{[-p|--print-database]}}`

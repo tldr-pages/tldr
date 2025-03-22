@@ -10,4 +10,4 @@
 
 - Compute a checksum with System V-compatible algorithm and 512-byte blocks:
 
-`sum --sysv {{path/to/file}}`
+`sum {{[-s|--sysv]}} {{path/to/file}}`

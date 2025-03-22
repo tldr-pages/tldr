@@ -13,11 +13,11 @@
 
 - Clear the environment and run a program:
 
-`env -i {{program}}`
+`env {{[-i|--ignore-environment]}} {{program}}`
 
 - Remove variable from the environment and run a program:
 
-`env -u {{variable}} {{program}}`
+`env {{[-u|--unset]}} {{variable}} {{program}}`
 
 - Set a variable and run a program:
 

@@ -10,7 +10,7 @@
 
 - Display each line of input after reading it:
 
-`grub-script-check --verbose`
+`grub-script-check {{[-v|--verbose]}}`
 
 - Display help:
 

@@ -5,11 +5,11 @@
 
 - Compile a source file into a `libtool` object:
 
-`libtool --mode=compile gcc -c {{path/to/source.c}} -o {{path/to/source.lo}}`
+`libtool --mode=compile gcc {{[-c|--compile]}} {{path/to/source.c}} {{[-o|--output]}} {{path/to/source.lo}}`
 
 - Create a library or an executable:
 
-`libtool --mode=link gcc -o {{path/to/library.lo}} {{path/to/source.lo}}`
+`libtool --mode=link gcc {{[-o|--output]}} {{path/to/library.lo}} {{path/to/source.lo}}`
 
 - Automatically set the library path so that another program can use uninstalled `libtool` generated programs or libraries:
 

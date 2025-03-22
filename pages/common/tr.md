@@ -17,11 +17,11 @@
 
 - Delete all occurrences of the specified set of characters from the input:
 
-`tr -d '{{input_characters}}' < {{path/to/file}}`
+`tr {{[-d|--delete]}} '{{input_characters}}' < {{path/to/file}}`
 
 - Compress a series of identical characters to a single character:
 
-`tr -s '{{input_characters}}' < {{path/to/file}}`
+`tr {{[-s|--squeeze-repeats]}} '{{input_characters}}' < {{path/to/file}}`
 
 - Translate the contents of a file to upper-case:
 
@@ -29,4 +29,4 @@
 
 - Strip out non-printable characters from a file:
 
-`tr -cd "[:print:]" < {{path/to/file}}`
+`tr {{[-cd|--complement --delete]}} "[:print:]" < {{path/to/file}}`

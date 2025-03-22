@@ -9,4 +9,4 @@
 
 - Get the absolute path to a file:
 
-`readlink -f {{path/to/file}}`
+`readlink {{[-f|--canonicalize]}} {{path/to/file}}`

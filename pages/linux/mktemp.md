@@ -9,7 +9,7 @@
 
 - Use a custom directory (defaults to `$TMPDIR`, or `/tmp`):
 
-`mktemp --tmpdir={{/path/to/tempdir}}`
+`mktemp {{[-p |--tmpdir=]}}{{/path/to/tempdir}}`
 
 - Use a custom path template (`X`s are replaced with random alphanumeric characters):
 

@@ -4,18 +4,18 @@
 > Note: Use `rexec` with caution, as it transmits data in plain text. Consider secure alternatives like SSH for encrypted communication.
 > More information: <https://www.gnu.org/software/inetutils/manual/html_node/rexec-invocation.html>.
 
-- Execute a command on a remote [h]ost:
+- Execute a command on a remote host:
 
-`rexec -h={{remote_host}} {{ls -l}}`
+`rexec {{[-h|--host]}} {{remote_host}} {{ls -l}}`
 
-- Specify the remote [u]sername on a remote [h]ost:
+- Specify the remote username on a remote host:
 
-`rexec -username={{username}} -h={{remote_host}} {{ps aux}}`
+`rexec {{[-u|--username]}} {{username}} {{[-h|--host]}} {{remote_host}} {{ps aux}}`
 
-- Redirect `stdin` from `/dev/null` on a remote [h]ost:
+- Redirect `stdin` from `/dev/null` on a remote host:
 
-`rexec --no-err -h={{remote_host}} {{ls -l}}`
+`rexec {{[-n|--noerr]}} {{[-h|--host]}} {{remote_host}} {{ls -l}}`
 
-- Specify the remote [P]ort on a remote [h]ost:
+- Specify the remote port on a remote host:
 
-`rexec -P={{1234}} -h={{remote_host}} {{ls -l}}`
+`rexec {{[-P|--port]}} {{1234}} {{[-h|--host]}} {{remote_host}} {{ls -l}}`

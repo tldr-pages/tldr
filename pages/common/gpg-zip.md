@@ -5,11 +5,11 @@
 
 - Encrypt a directory into `archive.gpg` using a passphrase:
 
-`gpg-zip --symmetric --output {{archive.gpg}} {{path/to/directory}}`
+`gpg-zip {{[-c|--symmetric]}} {{[-o|--output]}} {{archive.gpg}} {{path/to/directory}}`
 
 - Decrypt `archive.gpg` into a directory of the same name:
 
-`gpg-zip --decrypt {{path/to/archive.gpg}}`
+`gpg-zip {{[-d|--decrypt]}} {{path/to/archive.gpg}}`
 
 - List the contents of the encrypted `archive.gpg`:
 

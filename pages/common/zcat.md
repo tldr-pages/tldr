@@ -9,4 +9,4 @@
 
 - Print compression details of a `gzip` archive to `stdout`:
 
-`zcat -l {{file.txt.gz}}`
+`zcat {{[-l|--list]}} {{file.txt.gz}}`
