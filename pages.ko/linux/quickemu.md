@@ -12,7 +12,7 @@
 
 `quickemu --status-quo --vm {{경로/대상/파일.conf}}`
 
-- 전체 화면 모드로 가상 머신 시작 (<Ctrl> + <Alt> + f로 종료) 및 디스플레이 백엔드 선택 (기본값은 `sdl`):
+- 전체 화면 모드로 가상 머신 시작 (`<Ctrl Alt f>`로 종료) 및 디스플레이 백엔드 선택 (기본값은 `sdl`):
 
 `quickemu --fullscreen --display {{sdl|gtk|spice|spice-app|none}} --vm {{경로/대상/파일.conf}}`
 

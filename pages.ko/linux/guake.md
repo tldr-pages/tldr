@@ -5,24 +5,24 @@
 
 - Guake 보기 토글:
 
-`F12`
+`<F12>`
 
 - 전체 화면 모드 토글:
 
-`F11`
+`<F11>`
 
 - 새 탭 열기:
 
-`<Ctrl> + <Shift> + T`
+`<Ctrl Shift t>`
 
 - 터미널 닫기:
 
-`<Super> + X`
+`<Super x>`
 
 - 이전 탭으로 이동:
 
-`<Ctrl> + <PageUp>`
+`<Ctrl PageUp>`
 
 - 선택한 텍스트를 브라우저에서 검색:
 
-`<Shift> + <Ctrl> + L`
+`<Ctrl Shift l>`
