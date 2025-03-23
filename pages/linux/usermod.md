@@ -28,6 +28,6 @@
 
 `sudo usermod {{[-L|--lock]}} {{username}}`
 
-- Unlock an account
+- Unlock an account:
 
 `sudo usermod {{[-U|--unlock]}} {{username}}`
