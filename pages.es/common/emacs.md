@@ -30,8 +30,8 @@
 
 - Guarda un archivo en Emacs:
 
-`<Ctrl> + X, <Ctrl> + S`
+`<Ctrl x><Ctrl s>`
 
 - Sale de Emacs:
 
-`<Ctrl> + X, <Ctrl> + C`
+`<Ctrl x><Ctrl c>`
