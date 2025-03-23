@@ -9,12 +9,12 @@
 
 - 디스크 공간을 모니터링하고 변경 사항 강조 표시:
 
-`watch -d {{df}}`
+`watch {{[-d|--differences]}} {{df}}`
 
 - "node" 프로세스를 3초마다 새로고침하며 모니터링:
 
-`watch -n {{3}} "{{ps aux | grep node}}"`
+`watch {{[-n|--interval]}} {{3}} "{{ps aux | grep node}}"`
 
 - 디스크 공간을 모니터링하고 변경 시 모니터링 중지:
 
-`watch -g {{df}}`
+`watch {{[-g|--chgexit]}} {{df}}`

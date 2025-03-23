@@ -5,7 +5,7 @@
 
 - Scanne le réseau local actuel :
 
-`arp-scan --localnet`
+`arp-scan {{[-l|--localnet]}}`
 
 - Scanne un réseau IP pour un masque de bits donné :
 

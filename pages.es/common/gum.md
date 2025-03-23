@@ -11,7 +11,7 @@
 
 `gum input --placeholder "{{valor}}"`
 
-- Abre un aviso de confirmación interactivo y sale con `0` o `1`:
+- Abre un aviso de confirmación interactivo y sale con `<0>` o `<1>`:
 
 `gum confirm "{{¿Continuar?}}" --default=false --affirmative "{{Sí}}" --negative "{{No}}" {{&& echo "Seleccionó Sí" || echo "Seleccionó No"}}`
 
@@ -23,6 +23,6 @@
 
 `gum format -t {{emoji}} "{{:smile: :heart: hola}}"`
 
-- Solicita texto de varias líneas interactivamente (CTRL + D para salvar) y escribir en `datos.txt`:
+- Solicita texto de varias líneas interactivamente (`<Ctrl d>` para salvar) y escribir en `datos.txt`:
 
 `gum write > {{datos.txt}}`

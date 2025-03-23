@@ -10,7 +10,7 @@
 
 - Apply and commit changes following a remote patch file:
 
-`curl -L {{https://example.com/file.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://example.com/file.patch}} | git apply`
 
 - Abort the process of applying a patch file:
 

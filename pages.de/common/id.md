@@ -9,11 +9,11 @@
 
 - Zeige die Benutzer-ID (UID) an:
 
-`id -u`
+`id {{[-u|--user]}}`
 
 - Zeige die Guppen-ID (GID) an:
 
-`id -g`
+`id {{[-g|--group]}}`
 
 - Zeige die Benutzer-ID (UID), die Gruppen-ID (GID) und die Gruppen eines beliebigen Benutzers an:
 

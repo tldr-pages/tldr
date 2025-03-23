@@ -9,28 +9,28 @@
 
 - Tampilkan daftar isi semua berkas, termasuk berkas tersembunyi:
 
-`ls -a`
+`ls {{[-a|--all]}}`
 
 - Tampilkan daftar isi semua berkas, dengan akhiran `/` ditambahkan ke nama direktori:
 
-`ls -F`
+`ls {{[-F|--classify]}}`
 
 - Tampilkan daftar isi berformat panjang (menampilkan izin, kepemilikan, ukuran dan waktu modifikasi pada setiap berkas):
 
-`ls -la`
+`ls {{[-la|--all -l]}}`
 
 - Tampilkan daftar isi berformat panjang dan ukuran ditampilkan menggunakan unit yang mudah dibaca manusia (KiB, MiB, GiB):
 
-`ls -lh`
+`ls {{[-lh|-l --human-readable]}}`
 
 - Tampilkan daftar isi seluruh berkas secara rekursif, berformat panjang dan diurutkan berdasarkan ukuran (menurun):
 
-`ls -lSR`
+`ls {{-lSR|-lS --recursive}}`
 
 - Tampilkan daftar isi berformat panjang dari semua berkas dan diurutkan berdasarkan tanggal modifikasi (terlama dulu):
 
-`ls -ltr`
+`ls {{[-ltr|-lt --reverse]}}`
 
 - Hanya tampilkan daftar [d]irektori:
 
-`ls -d */`
+`ls {{[-d|--directory]}} */`

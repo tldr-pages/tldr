@@ -5,7 +5,7 @@
 
 - Conecta a una consola serie con una velocidad en baudios específica:
 
-`picocom {{/dev/ttyXYZ}} --baud {{tasa_de_baudios}}`
+`picocom {{/dev/ttyXYZ}} {{[-b|--baud]}} {{tasa_de_baudios}}`
 
 - Asigna caracteres especiales (p. ej. `LF` a `CRLF`):
 

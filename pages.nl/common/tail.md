@@ -6,24 +6,24 @@
 
 - Toon laatste aantal regels in een bestand:
 
-`tail --lines {{aantal}} {{pad/naar/bestand}}`
+`tail {{[-n|--lines]}} {{aantal}} {{pad/naar/bestand}}`
 
 - Toon een bestand vanaf een specifiek regelnummer:
 
-`tail --lines +{{aantal}} {{pad/naar/bestand}}`
+`tail {{[-n|--lines]}} +{{aantal}} {{pad/naar/bestand}}`
 
 - Toon een specifiek aantal bytes vanaf het einde van een opgegeven bestand:
 
-`tail --bytes {{aantal}} {{pad/naar/bestand}}`
+`tail {{[-n|--lines]}} {{aantal}} {{pad/naar/bestand}}`
 
-- Toon de laatste regels van een bestand en blijf het bestand lezen tot `Ctrl + C`:
+- Toon de laatste regels van een bestand en blijf het bestand lezen tot `<Ctrl c>`:
 
-`tail --follow {{pad/naar/bestand}}`
+`tail {{[-f|--follow]}} {{pad/naar/bestand}}`
 
-- Blijf het bestand lezen tot `Ctrl + C`, ook als het bestand niet toegangelijk is:
+- Blijf het bestand lezen tot `<Ctrl c>`, ook als het bestand niet toegangelijk is:
 
-`tail --retry --follow {{pad/naar/bestand}}`
+`tail {{[-F|--retry --follow]}} {{pad/naar/bestand}}`
 
 - Toon de laatste aantal regels in een bestand en ververs iedere 'n' seconden:
 
-`tail --lines {{aantal}} --sleep-interval {{seconden}} --follow {{pad/naar/bestand}}`
+`tail {{[-n|--lines]}} {{aantal}} {{[-s|--sleep-interval]}} {{seconden}} {{[-f|--follow]}} {{pad/naar/bestand}}`
