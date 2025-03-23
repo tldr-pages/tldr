@@ -22,7 +22,7 @@
 
 - Change a user home directory:
 
-`sudo usermod {{[-m|--move-home]}} {{[-d|--home]}} {{path/to/new_home}} {{username}}`
+`sudo usermod {{[-md|--move-home --home]}} {{path/to/new_home}} {{username}}`
 
 - Lock an account:
 
