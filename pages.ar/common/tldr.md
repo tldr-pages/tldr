@@ -18,20 +18,20 @@
 
 - عرض صفحة tldr لأمر من نظام تشغيل معين:
 
-`tldr [-p|--platform] android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows {{command}}`
+`tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{command}}`
 
 - تحديث ذاكرة التخزين المؤقت لصفحات tldr:
 
-`tldr [-u|--update]`
+`tldr {{[-u|--update]}}`
 
 - عرض قائمة بجميع الصفحات المتاحة للمنصة الحالية وللأوامر الشائعة:
 
-`tldr [-l|--list]`
+`tldr {{[-l|--list]}}`
 
 - عرض جميع الصفحات الفرعية المتاحة لأمر معين:
 
-`tldr [-l|--list] | grep {{command}} | column`
+`tldr {{[-l|--list]}} | grep {{command}} | column`
 
 - عرض صفحة tldr لأمر عشوائي:
 
-`tldr [-l|--list] | shuf [-n|--head-count] 1 | xargs tldr`
+`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`
