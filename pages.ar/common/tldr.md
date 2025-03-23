@@ -2,23 +2,23 @@
 
 > يعرض صفحات مساعدة مبسطة للأوامر في سطر الأوامر، مستمدة من مشروع tldr-pages.
 > ملاحظة: الخيارات `--language` و `--list` ليست مطلوبة وفقًا للمواصفات، ولكن معظم العملاء يدعمونها.
-> مزيد من التفاصيل: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
+> لمزيد من التفاصيل: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - عرض صفحة tldr لأمر معين (تلميح: هذا ما أوصلك إلى هنا!):
 
-`tldr <الأمر>`
+`tldr {{command}}`
 
 - عرض صفحة tldr لأمر فرعي معين:
 
-`tldr <الأمر> <الأمر-الفرعي>`
+`tldr {{command}} {{subcommand}}`
 
 - عرض صفحة tldr لأمر بلغة معينة (إن وجدت، وإلا سيتم الرجوع إلى الإنجليزية):
 
-`tldr [-L|--language] <رمز_اللغة> <الأمر>`
+`tldr [-L|--language] {{language_code}} {{command}}`
 
 - عرض صفحة tldr لأمر من نظام تشغيل معين:
 
-`tldr [-p|--platform] android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows <الأمر>`
+`tldr [-p|--platform] android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows {{command}}`
 
 - تحديث ذاكرة التخزين المؤقت لصفحات tldr:
 
@@ -30,7 +30,7 @@
 
 - عرض جميع الصفحات الفرعية المتاحة لأمر معين:
 
-`tldr [-l|--list] | grep <الأمر> | column`
+`tldr [-l|--list] | grep {{command}} | column`
 
 - عرض صفحة tldr لأمر عشوائي:
 

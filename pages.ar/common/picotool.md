@@ -1,7 +1,7 @@
 # picotool
 
 > إدارة لوحات Raspberry Pi Pico.
-> مزيد من التفاصيل : <https://github.com/raspberrypi/picotool>.
+> لمزيد من التفاصيل: <https://github.com/raspberrypi/picotool>.
 
 - عرض معلومات حول البرنامج المحمّل حاليًا على جهاز Pico:
 

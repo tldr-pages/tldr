@@ -2,23 +2,23 @@
 
 > مدير الحزم الخاص بلغة بايثون.
 > بعض الأوامر الفرعية مثل `install` لديها توثيق خاص بها.
-> مزيد من التفاصيل: <https://pip.pypa.io>.
+> لمزيد من التفاصيل: <https://pip.pypa.io>.
 
 - تثبيت حزمة (راجع `pip install` لمزيد من خيارات التثبيت):
 
-`pip install {{الحزمة}}`
+`pip install {{package}}`
 
 - تثبيت حزمة في مجلد المستخدم بدلاً من الموقع الافتراضي للنظام:
 
-`pip install --user {{الحزمة}}`
+`pip install --user {{package}}`
 
 - تحديث حزمة مثبتة:
 
-`pip install --upgrade {{الحزمة}}`
+`pip install --upgrade {{package}}`
 
 - إزالة تثبيت حزمة:
 
-`pip uninstall {{الحزمة}}`
+`pip uninstall {{package}}`
 
 - حفظ قائمة الحزم المثبتة في ملف:
 
@@ -26,7 +26,7 @@
 
 - عرض معلومات عن حزمة مثبتة:
 
-`pip show {{الحزمة}}`
+`pip show {{package}}`
 
 - تثبيت الحزم من ملف متطلبات:
 
