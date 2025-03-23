@@ -26,8 +26,8 @@
 
 - Lock an account:
 
-`sudo usermod -L {{username}}`
+`sudo usermod {{[-L|--lock]}} {{username}}`
 
 - Unlock an account
 
-`sudo usermod -U {{username}}`
+`sudo usermod {{[-U|--unlock]}} {{username}}`
