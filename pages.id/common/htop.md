@@ -25,11 +25,11 @@
 
 - Lihat perintah interaktif saat menjalankan htop:
 
-`?`
+`<?>`
 
 - Alihkan tampilan menuju tab lain:
 
-`tab`
+`<Tab>`
 
 - Tampilkan bantuan:
 

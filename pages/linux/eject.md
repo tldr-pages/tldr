@@ -5,7 +5,7 @@
 
 - Display the default device:
 
-`eject -d`
+`eject {{[-d|--default]}}`
 
 - Eject the default device:
 
@@ -17,16 +17,20 @@
 
 - Toggle whether a device's tray is open or closed:
 
-`eject -T {{/dev/cdrom}}`
+`eject {{[-T|--traytoggle]}} {{/dev/cdrom}}`
 
 - Eject a cd drive:
 
-`eject -r {{/dev/cdrom}}`
+`eject {{[-r|--cdrom]}} {{/dev/cdrom}}`
 
 - Eject a floppy drive:
 
-`eject -f {{/mnt/floppy}}`
+`eject {{[-f|--floppy]}} {{/mnt/floppy}}`
 
 - Eject a tape drive:
 
-`eject -q {{/mnt/tape}}`
+`eject {{[-q|--tape]}} {{/mnt/tape}}`
+
+- Set whether the physical eject button is [i]gnored (`on` prevents ejecting):
+
+`eject {{[-i|--manualeject]}} {{on|off}}`

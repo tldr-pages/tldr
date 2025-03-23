@@ -12,7 +12,7 @@
 
 `ps aux | fzf`
 
-- 使用 `Shift + Tab` 选择多个文件并将结果写入文件：
+- 使用 `<Shift Tab>` 选择多个文件并将结果写入文件：
 
 `find {{路径/到/目录}} -type f | fzf --multi > {{路径/到/文件}}`
 
