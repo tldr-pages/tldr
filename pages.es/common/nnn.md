@@ -24,6 +24,6 @@
 
 `nnn -T {{a|d|e|r|s|t|v}}`
 
-- Abre archivos que elijas. Selecciona un archivo y oprime `o`, después escribe el nombre del programa con el cual abrirlo:
+- Abre archivos que elijas. Selecciona un archivo y oprime `<o>`, después escribe el nombre del programa con el cual abrirlo:
 
 `nnn -o`
