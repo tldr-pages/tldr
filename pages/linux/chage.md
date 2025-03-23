@@ -22,3 +22,7 @@
 - Force user to change password on next log in:
 
 `sudo chage {{[-d|--lastday]}} {{0}} {{username}}`
+
+- Re-enable an account:
+
+`sudo chage {{[-E|--expiredate]}} -1 {{username}}`
