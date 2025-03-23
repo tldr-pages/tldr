@@ -19,6 +19,6 @@
 
 `passwd {{[-d|--delete]}}`
 
-- Set password programmatically (good for install scripts):
+- Set password programmatically (ideal for install scripts):
 
 `yes {{password}} | passwd`
