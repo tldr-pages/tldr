@@ -33,4 +33,4 @@
 
 - Display a specific routing table:
 
-`ip {{[r|route]}} {{[s|show]}} {{[t|table]}} {{table_number}}`
+`ip {{[r|route]}} {{[l|list]}} {{[t|table]}} {{table_number}}`
