@@ -18,3 +18,7 @@
 - Make the password of the account blank (it will set the named account passwordless):
 
 `passwd {{[-d|--delete]}}`
+
+- Set password programmatically (good for install scripts)
+
+`yes {{password}} | passwd`
