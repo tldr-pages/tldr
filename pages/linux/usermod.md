@@ -18,7 +18,7 @@
 
 - Add a user to supplementary groups (mind the lack of whitespace):
 
-`sudo usermod {{[-a|--append]}} {{[-G|--groups]}} {{group1,group2,...}} {{username}}`
+`sudo usermod {{[-aG|--append --groups]}} {{group1,group2,...}} {{username}}`
 
 - Change a user home directory:
 
