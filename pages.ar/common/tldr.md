@@ -14,7 +14,7 @@
 
 - عرض صفحة tldr لأمر بلغة معينة (إن وجدت، وإلا سيتم الرجوع إلى الإنجليزية):
 
-`tldr [-L|--language] {{language_code}} {{command}}`
+`tldr {{[-L|--language]}} {{language_code}} {{command}}`
 
 - عرض صفحة tldr لأمر من نظام تشغيل معين:
 
