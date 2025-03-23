@@ -23,3 +23,11 @@
 - Change a user home directory:
 
 `sudo usermod {{[-m|--move-home]}} {{[-d|--home]}} {{path/to/new_home}} {{username}}`
+
+- Lock an account:
+
+`sudo usermod -L {{username}}`
+
+- Unlock an account
+
+`sudo usermod -U {{username}}`
