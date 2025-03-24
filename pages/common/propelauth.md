@@ -1,6 +1,6 @@
 # propelauth
 
-> The PropelAuth CLI was built from the ground up to set up PropelAuth in your application as quickly and easily as possible.
+> Set up PropelAuth in your application as quickly and easily as possible.
 > More information: <https://docs.propelauth.com/reference/api/cli>.
 
 - Login to PropelAuth using an API Key generated from <https://auth.propelauth.com/api_keys/personal>:
