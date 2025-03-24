@@ -17,11 +17,11 @@
 
 - ディレクトリとそのコンテンツの所有者を、再帰的に変更する:
 
-`chown -R {{ユーザ名}} {{path/to/directory}}`
+`chown {{[-R|--recursive]}} {{ユーザ名}} {{path/to/directory}}`
 
 - シンボリックリンクの所有者を変更:
 
-`chown -h {{ユーザ名}} {{path/to/symlink}}`
+`chown {{[-h|--no-dereference]}} {{ユーザ名}} {{path/to/symlink}}`
 
 - 参照ファイルに合わせてファイル/ディレクトリの所有者を変更:
 

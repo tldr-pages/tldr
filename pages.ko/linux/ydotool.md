@@ -7,14 +7,14 @@
 
 `ydotoold`
 
-- 왼쪽 클릭 입력 수행:
+- `<LeftClick>` 입력 수행:
 
 `ydotool click 0xC0`
 
-- 오른쪽 클릭 입력 수행:
+- `<RightClick>` 입력 수행:
 
 `ydotool click 0xC1`
 
-- Alt+F4 입력:
+- `<Alt F4>` 입력:
 
 `ydotool key 56:1 62:1 62:0 56:0`

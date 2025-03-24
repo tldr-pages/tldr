@@ -9,7 +9,7 @@
 
 - Navigate the snake:
 
-`{{ArrowUp|ArrowDown|ArrowLeft|ArrowRight}}`
+`{{<ArrowUp>|<ArrowDown>|<ArrowLeft>|<ArrowRight>}}`
 
 - Pause/unpause the game:
 

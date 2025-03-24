@@ -9,24 +9,24 @@
 
 - 同时列出空设备：
 
-`lsblk -a`
+`lsblk {{[-a|--all]}}`
 
 - 以字节为单位而不是以人类可读的格式打印 SIZE 列：
 
-`lsblk -b`
+`lsblk {{[-b|--bytes]}}`
 
 - 输出文件系统信息：
 
-`lsblk -f`
+`lsblk {{[-f|--fs]}}`
 
 - 输出块设备的拓扑结构：
 
-`lsblk -t`
+`lsblk {{[-t|--topology]}}`
 
 - 排除由逗号分隔的主要设备编号列表指定的设备：
 
-`lsblk -e {{1,7,...}}`
+`lsblk {{[-e|--exclude]}} {{1,7,...}}`
 
 - 使用逗号分隔的列列表显示自定义摘要：
 
-`lsblk --output {{NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`
+`lsblk {{[-o|--output]}} {{NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`

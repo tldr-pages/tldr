@@ -9,11 +9,11 @@
 
 - Modifica un file come superuser con il tuo editor di default:
 
-`sudo -e {{/etc/fstab}}`
+`sudo {{[-e|--edit]}} {{/etc/fstab}}`
 
 - Esegui un comando come un altro utente e/o gruppo:
 
-`sudo -u {{utente}} -g {{gruppo}} {{id -a}}`
+`sudo {{[-u|--user]}} {{utente}} {{[-g|--group]}} {{gruppo}} {{id -a}}`
 
 - Ripeti l'ultimo comando prefissandolo con "sudo" (funziona solo in Bash, Zsh, ecc):
 
@@ -21,4 +21,4 @@
 
 - Fai partire la shell di default con i privilegi da superuser:
 
-`sudo -i`
+`sudo {{[-i|--login]}}`

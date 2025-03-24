@@ -29,4 +29,4 @@
 
 - Muestra ayuda sobre los comandos interactivos:
 
-`?`
+`<?>`

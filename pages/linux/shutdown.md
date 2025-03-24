@@ -7,11 +7,11 @@
 
 `shutdown -h now`
 
-- [r]eboot immediately:
+- Reboot immediately:
 
 `shutdown {{[-r|--reboot]}} now`
 
-- [r]eboot in 5 minutes:
+- Reboot in 5 minutes:
 
 `shutdown {{[-r|--reboot]}} +{{5}} &`
 
@@ -19,6 +19,6 @@
 
 `shutdown -h 13:00`
 
-- [c]ancel a pending shutdown/reboot operation:
+- Cancel a pending shutdown/reboot operation:
 
 `shutdown -c`

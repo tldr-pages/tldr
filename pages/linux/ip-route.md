@@ -3,7 +3,7 @@
 > IP Routing table management subcommand.
 > More information: <https://manned.org/ip-route>.
 
-- Display the routing table:
+- Display the `main` routing table:
 
 `ip {{[r|route]}}`
 
@@ -30,3 +30,7 @@
 - Show which route will be used by the kernel to reach an IP address:
 
 `ip {{[r|route]}} {{[g|get]}} {{destination_ip}}`
+
+- Display a specific routing table:
+
+`ip {{[r|route]}} {{[l|list]}} {{[t|table]}} {{table_number}}`

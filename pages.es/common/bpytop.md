@@ -14,15 +14,15 @@
 
 - Cambia a el modo mínimo:
 
-`m`
+`<m>`
 
 - Busca procesos o programas en ejecución:
 
-`f`
+`<f>`
 
 - Cambia los ajustes:
 
-`M`
+`<M>`
 
 - Muestra la versión:
 
