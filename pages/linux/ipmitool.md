@@ -7,10 +7,10 @@
 
 `systemctl start ipmidrv`
 
-- Open ipmi shell on the local hardware :
+- Open IPMI shell on the local hardware :
 
 `sudo ipmitool shell`
 
-- Open ipmi shell on a remote host:
+- Open IPMI shell on a remote host:
 
 `ipmitool -H {{ip_address}} -U {{user_name}} shell`
