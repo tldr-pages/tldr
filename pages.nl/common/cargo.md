@@ -26,12 +26,12 @@
 
 - Bouw het Rust-project in de huidige map door gebruik te maken van het release-profiel:
 
-`cargo build --release`
+`cargo {{[b|build]}} {{[-r|--release]}}`
 
 - Bouw het Rust-project in de huidige map door gebruik te maken van de nachtelijkse compiler (vereist `rustup`):
 
-`cargo +nightly build`
+`cargo +nightly {{[b|build]}}`
 
 - Bouw met een gegeven aantal taken. (Standaard is het aantal CPU-kernen):
 
-`cargo build --jobs {{aantal_taken}}`
+`cargo {{[b|build]}} --jobs {{aantal_taken}}`

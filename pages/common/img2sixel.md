@@ -9,4 +9,4 @@
 
 - Resize the image to the specified width and height before displaying it:
 
-`img2sixel {{-w|--width}} {{number}} {{-h|--height}} {{number}} {{path/to/image}}`
+`img2sixel {{[-w|--width]}} {{number}} {{[-h|--height]}} {{number}} {{path/to/image}}`

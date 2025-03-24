@@ -1,7 +1,7 @@
 # parted
 
 > A partition manipulation program.
-> See also: `partprobe`.
+> See also: `parted`, `partprobe`.
 > More information: <https://www.gnu.org/software/parted/parted.html>.
 
 - Start interactive mode with the specified disk selected:

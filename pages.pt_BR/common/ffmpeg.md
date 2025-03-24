@@ -13,7 +13,7 @@
 
 - Salva um vídeo como GIF, escalando a altura para 1000px e definindo a taxa de quadros para 15:
 
-`ffmpeg -i {{caminho/para/vídeo.mp4}} -vf 'scale=-1:1000' -r {{15}} {{caminho/para/saída.gif}}`
+`ffmpeg -i {{caminho/para/vídeo.mp4}} {{[-vf|-filter:v]}} 'scale=-1:1000' -r {{15}} {{caminho/para/saída.gif}}`
 
 - Combina imagens numeradas (`quadro_1.jpg`, `quadro_2.jpg`, etc) em um vídeo ou GIF:
 
@@ -21,16 +21,16 @@
 
 - Corta um vídeo de um dado tempo inicial mm:ss até um tempo final mm2:ss2 (omita a opção -to para cortar o vídeo até o final):
 
-`ffmpeg -i {{caminho/para/vídeo_entrada.mp4}} -ss {{mm:ss}} -to {{mm2:ss2}} -codec copy {{caminho/para/vídeo_saída.mp4}}`
+`ffmpeg -i {{caminho/para/vídeo_entrada.mp4}} -ss {{mm:ss}} -to {{mm2:ss2}} {{[-c|-codec]}} copy {{caminho/para/vídeo_saída.mp4}}`
 
 - Converte um vídeo AVI para MP4. AAC Áudio @ 128kbit, h264 Vídeo @ CRF 23:
 
-`ffmpeg -i {{caminho/para/vídeo_entrada}}.avi -codec:a aac -b:a 128k -codec:v libx264 -crf 23 {{caminho/para/vídeo_saída}}.mp4`
+`ffmpeg -i {{caminho/para/vídeo_entrada}}.avi {{[-c|-codec]}}:a aac -b:a 128k {{[-c|-codec]}}:v libx264 -crf 23 {{caminho/para/vídeo_saída}}.mp4`
 
 - Remixa um vídeo MKV para MP4 sem recodificar o áudio ou o vídeo:
 
-`ffmpeg -i {{caminho/para/vídeo_entrada}}.mkv -codec copy {{caminho/para/vídeo_saída}}.mp4`
+`ffmpeg -i {{caminho/para/vídeo_entrada}}.mkv {{[-c|-codec]}} copy {{caminho/para/vídeo_saída}}.mp4`
 
 - Converte um vídeo MP4 para o codec VP9. Para a melhor qualidade, use um valor CRF (faixa recomendada 15-35) e -b:v DEVE ser 0:
 
-`ffmpeg -i {{caminho/para/vídeo_entrada}}.mp4 -codec:v libvpx-vp9 -crf {{30}} -b:v 0 -codec:a libopus -vbr on -threads {{número_de_threads}} {{caminho/para/vídeo_saída}}.webm`
+`ffmpeg -i {{caminho/para/vídeo_entrada}}.mp4 {{[-c|-codec]}}:v libvpx-vp9 -crf {{30}} -b:v 0 {{[-c|-codec]}}:a libopus -vbr on -threads {{número_de_threads}} {{caminho/para/vídeo_saída}}.webm`

@@ -10,4 +10,4 @@
 
 - Terminate the connection:
 
-`<Ctrl>-]`
+`<Ctrl ]>`

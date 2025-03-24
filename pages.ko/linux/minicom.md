@@ -5,12 +5,12 @@
 
 - 특정 직렬 포트 열기:
 
-`sudo minicom --device {{/dev/ttyUSB0}}`
+`sudo minicom {{[-D|--device]}} {{/dev/ttyUSB0}}`
 
 - 특정 직렬 포트를 주어진 보율로 열기:
 
-`sudo minicom --device {{/dev/ttyUSB0}} --baudrate {{115200}}`
+`sudo minicom {{[-D|--device]}} {{/dev/ttyUSB0}} {{[-b|--baudrate]}} {{115200}}`
 
 - 특정 직렬 포트와 통신하기 전에 설정 메뉴로 들어가기:
 
-`sudo minicom --device {{/dev/ttyUSB0}} --setup`
+`sudo minicom {{[-D|--device]}} {{/dev/ttyUSB0}} {{[-s|--setup]}}`

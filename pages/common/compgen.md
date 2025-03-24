@@ -1,6 +1,6 @@
 # compgen
 
-> A built-in command for auto-completion in Bash, which is called on pressing TAB key twice.
+> A built-in command for auto-completion in Bash, which is called on pressing `<Tab>` key twice.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-compgen>.
 
 - List all commands that you could run:
@@ -26,3 +26,11 @@
 - See all available commands/aliases starting with 'ls':
 
 `compgen -ac {{ls}}`
+
+- List all users on the system:
+
+`compgen -u`
+
+- Display help:
+
+`compgen --help`

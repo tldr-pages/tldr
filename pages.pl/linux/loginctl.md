@@ -17,7 +17,7 @@
 
 - Wyświetl podaną właściwość użytkownika:
 
-`loginctl show-user {{nazwa_użytkownika}} --property={{nazwa_właściwości}}`
+`loginctl show-user {{nazwa_użytkownika}} --property {{nazwa_właściwości}}`
 
 - Uruchom operację `loginctl` na zdalnym hoście:
 

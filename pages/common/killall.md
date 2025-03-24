@@ -8,15 +8,15 @@
 
 `killall {{process_name}}`
 
-- [l]ist available signal names (to be used without the 'SIG' prefix):
+- List available signal names (to be used without the 'SIG' prefix):
 
-`killall -l`
+`killall {{[-l|--list]}}`
 
 - Interactively ask for confirmation before termination:
 
-`killall -i {{process_name}}`
+`killall {{[-i|--interactive]}} {{process_name}}`
 
-- Terminate a process using the SIGINT (interrupt) signal, which is the same signal sent by pressing `Ctrl + C`:
+- Terminate a process using the SIGINT (interrupt) signal, which is the same signal sent by pressing `<Ctrl c>`:
 
 `killall -INT {{process_name}}`
 

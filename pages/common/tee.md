@@ -9,7 +9,7 @@
 
 - Append to the given files, do not overwrite:
 
-`echo "example" | tee -a {{path/to/file}}`
+`echo "example" | tee {{[-a|--append]}} {{path/to/file}}`
 
 - Print `stdin` to the terminal, and also pipe it into another program for further processing:
 

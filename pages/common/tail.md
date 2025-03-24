@@ -6,24 +6,24 @@
 
 - Show last 'count' lines in file:
 
-`tail --lines {{count}} {{path/to/file}}`
+`tail {{[-n|--lines]}} {{count}} {{path/to/file}}`
 
 - Print a file from a specific line number:
 
-`tail --lines +{{count}} {{path/to/file}}`
+`tail {{[-n|--lines]}} +{{count}} {{path/to/file}}`
 
 - Print a specific count of bytes from the end of a given file:
 
-`tail --bytes {{count}} {{path/to/file}}`
+`tail {{[-c|--bytes]}} {{count}} {{path/to/file}}`
 
-- Print the last lines of a given file and keep reading it until `Ctrl + C`:
+- Print the last lines of a given file and keep reading it until `<Ctrl c>`:
 
-`tail --follow {{path/to/file}}`
+`tail {{[-f|--follow]}} {{path/to/file}}`
 
-- Keep reading file until `Ctrl + C`, even if the file is inaccessible:
+- Keep reading file until `<Ctrl c>`, even if the file is inaccessible:
 
-`tail --retry --follow {{path/to/file}}`
+`tail {{[-F|--retry --follow]}} {{path/to/file}}`
 
 - Show last 'num' lines in 'file' and refresh every 'n' seconds:
 
-`tail --lines {{count}} --sleep-interval {{seconds}} --follow {{path/to/file}}`
+`tail {{[-n|--lines]}} {{count}} {{[-s|--sleep-interval]}} {{seconds}} {{[-f|--follow]}} {{path/to/file}}`

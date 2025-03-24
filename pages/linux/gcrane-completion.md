@@ -14,7 +14,7 @@
 
 - Load completions in your current shell session (bash/zsh):
 
-`source <(gcrane completion bash/zsh)>`
+`source <(gcrane completion bash/zsh)`
 
 - Load completions in your current shell session (fish):
 
@@ -34,4 +34,4 @@
 
 - Display help:
 
-`gcrane completion {{shell_name}} {{-h|--help}}`
+`gcrane completion {{shell_name}} {{[-h|--help]}}`

@@ -9,4 +9,4 @@
 
 - Toon de help:
 
-`crane manifest {{-h|--help}}`
+`crane manifest {{[-h|--help]}}`

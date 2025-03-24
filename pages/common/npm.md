@@ -6,7 +6,7 @@
 
 - Create a `package.json` file with default values (omit `--yes` to do it interactively):
 
-`npm init {{-y|--yes}}`
+`npm init {{[-y|--yes]}}`
 
 - Download all the packages listed as dependencies in `package.json`:
 
@@ -18,11 +18,11 @@
 
 - Download the latest version of a package and add it to the list of dev dependencies in `package.json`:
 
-`npm install {{package_name}} {{-D|--save-dev}}`
+`npm install {{package_name}} {{[-D|--save-dev]}}`
 
 - Download the latest version of a package and install it globally:
 
-`npm install {{-g|--global}} {{package_name}}`
+`npm install {{[-g|--global]}} {{package_name}}`
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
@@ -34,4 +34,4 @@
 
 - List all top-level globally installed packages:
 
-`npm list {{-g|--global}} --depth {{0}}`
+`npm list {{[-g|--global]}} --depth {{0}}`

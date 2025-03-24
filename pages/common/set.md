@@ -27,10 +27,10 @@
 
 `set -o`
 
-- Exit the shell when (some) commands fail:
+- Exit the shell when (some) command fails:
 
 `set -e`
 
 - Reset all shell parameters and assign new ones:
 
-`set -- {{argument1 argument2...}}`
+`set -- {{argument1 argument2 ...}}`

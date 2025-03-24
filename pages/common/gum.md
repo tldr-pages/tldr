@@ -11,7 +11,7 @@
 
 `gum input --placeholder "{{value}}"`
 
-- Open an interactive confirmation prompt and exit with either `0` or `1`:
+- Open an interactive confirmation prompt and exit with either `<0>` or `<1>`:
 
 `gum confirm "{{Continue?}}" --default=false --affirmative "{{Yes}}" --negative "{{No}}" {{&& echo "Yes selected" || echo "No selected"}}`
 
@@ -23,6 +23,6 @@
 
 `gum format -t {{emoji}} "{{:smile: :heart: hello}}"`
 
-- Interactively prompt for multi-line text (CTRL + D to save) and write to `data.txt`:
+- Interactively prompt for multi-line text (`<Ctrl d>` to save) and write to `data.txt`:
 
 `gum write > {{data.txt}}`

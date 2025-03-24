@@ -1,6 +1,6 @@
 # bg
 
-> Riprende job che sono stati sospesi (e.g. usando `Ctrl + Z`) mettendoli in esecuzione in background.
+> Riprende job che sono stati sospesi (e.g. usando `<Ctrl z>`) mettendoli in esecuzione in background.
 > Maggiori informazioni: <https://manned.org/bg>.
 
 - Riprendi il job sospeso più recentemente ed eseguilo in background:

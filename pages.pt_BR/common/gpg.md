@@ -1,8 +1,7 @@
 # gpg
 
 > GNU Privacy Guard.
-> Veja `gpg2` para o GNU Privacy Guard 2. A maioria dos sistemas operacionais criam link simbólico entre `gpg` e `gpg2`.
-> Mais informações: <https://gnupg.org>.
+> Mais informações: <https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>.
 
 - Cria uma chave GPG pública e privada interativamente:
 

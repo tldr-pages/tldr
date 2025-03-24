@@ -9,7 +9,7 @@
 
 - tarのlinux向けtldrページを見る:
 
-`tldr -p {{linux}} {{tar}}`
+`tldr {{[-p|--platform]}} {{linux}} {{tar}}`
 
 - gitのサブコマンドについての情報を見る:
 

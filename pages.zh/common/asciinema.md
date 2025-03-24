@@ -8,7 +8,7 @@
 
 `asciinema auth`
 
-- 进行新的录制（使用 `Ctrl+D` 完成录制或键入 `exit`，然后选择上传或保存到本地）：
+- 进行新的录制（使用 `<Ctrl d>` 完成录制或键入 `exit`，然后选择上传或保存到本地）：
 
 `asciinema rec`
 
@@ -26,7 +26,7 @@
 
 - 进行新的录制，将闲置时间设置为最多 2.5 秒：
 
-`asciinema rec {{-i|--idle-time-limit}} 2.5`
+`asciinema rec {{[-i|--idle-time-limit]}} 2.5`
 
 - 打印本地保存的录像的完整输出：
 

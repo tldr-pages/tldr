@@ -8,7 +8,7 @@
 
 `asciinema auth`
 
-- Buat rekaman baru (hentikan dengan `Ctrl+D` atau ketik `exit`, kemudian pilih lokasi penyimpanan baik dengan mengunggah atau menyimpannya secara lokal):
+- Buat rekaman baru (hentikan dengan `<Ctrl d>` atau ketik `exit`, kemudian pilih lokasi penyimpanan baik dengan mengunggah atau menyimpannya secara lokal):
 
 `asciinema rec`
 
@@ -26,7 +26,7 @@
 
 - Buat rekaman baru, dengan membatasi waktu diam/idle terlama selama 2.5 detik:
 
-`asciinema rec {{-i|--idle-time-limit}} 2.5`
+`asciinema rec {{[-i|--idle-time-limit]}} 2.5`
 
 - Tampilkan seluruh luaran/output terminal yang dikeluarkan selama sesi perekaman:
 

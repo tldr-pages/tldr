@@ -5,32 +5,32 @@
 
 - Display the routing policy:
 
-`ip rule {{show|list}}`
+`ip {{[ru|rule]}}`
+
+- Create a new generic routing rule with a higher priority than `main`:
+
+`sudo ip {{[ru|rule]}} {{[a|add]}} from all lookup {{100}}`
 
 - Add a new rule based on packet source addresses:
 
-`sudo ip rule add from {{192.168.178.2/32}}`
+`sudo ip {{[ru|rule]}} {{[a|add]}} from {{192.168.178.2/32}}`
 
 - Add a new rule based on packet destination addresses:
 
-`sudo ip rule add to {{192.168.178.2/32}}`
+`sudo ip {{[ru|rule]}} {{[a|add]}} to {{192.168.178.2/32}}`
 
 - Delete a rule based on packet source addresses:
 
-`sudo ip rule delete from {{192.168.178.2/32}}`
+`sudo ip {{[ru|rule]}} {{[d|delete]}} from {{192.168.178.2/32}}`
 
-- Delete a rule based on packet destination addresses:
+- Remove all routing rules:
 
-`sudo ip rule delete to {{192.168.178.2/32}}`
-
-- Flush all deleted rules:
-
-`ip rule flush`
+`sudo ip {{[ru|rule]}} {{[f|flush]}}`
 
 - Save all rules to a file:
 
-`ip rule save > {{path/to/ip_rules.dat}}`
+`ip {{[ru|rule]}} {{[s|save]}} > {{path/to/ip_rules.dat}}`
 
 - Restore all rules from a file:
 
-`ip rule restore < {{path/to/ip_rules.dat}}`
+`sudo ip {{[ru|rule]}} {{[r|restore]}} < {{path/to/ip_rules.dat}}`

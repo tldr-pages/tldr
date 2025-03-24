@@ -9,20 +9,20 @@
 
 - Implement credential helper:
 
-`crane auth get {{registry_address}} {{-h|--help}}`
+`crane auth get {{registry_address}} {{[-h|--help]}}`
 
 - Log in to a registry:
 
-`crane auth login {{registry_address}} {{-h|--help}} {{-p|--password}} {{password}} {{-password-stdin}} {{-u|--username}} {{username}}`
+`crane auth login {{registry_address}} {{[-h|--help]}} {{[-p|--password]}} {{password}} {{-password-stdin}} {{[-u|--username]}} {{username}}`
 
 - Log out of a registry:
 
-`crane auth logout {{registry_address}} {{-h|--help}}`
+`crane auth logout {{registry_address}} {{[-h|--help]}}`
 
 - Retrieve a token for a remote repository:
 
-`crane auth token {{registry_address}} {{-H|--header}} {{-h|--help}} {{-m|--mount}} {{scope1 scope2 ...}} --push`
+`crane auth token {{registry_address}} {{[-H|--header]}} {{[-h|--help]}} {{[-m|--mount]}} {{scope1 scope2 ...}} --push`
 
 - Display help:
 
-`crane auth {{-h|--help}}`
+`crane auth {{[-h|--help]}}`
