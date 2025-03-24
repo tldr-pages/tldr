@@ -12,7 +12,7 @@
 
 `ps aux | fzf`
 
-- `Shift + Tab` ile birden çok dosya seç ve bir dosyaya yaz:
+- `<Shift Tab>` ile birden çok dosya seç ve bir dosyaya yaz:
 
 `find {{dosya/yolu/dizin}} -type f | fzf --multi > {{dosya/yolu/dosya}}`
 

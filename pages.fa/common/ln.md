@@ -5,11 +5,11 @@
 
 - ایجاد یک ارتباط نمادین (symbolic link) به یک فایل یا پوشه:
 
-`ln -s {{/path/to/file_or_directory}} {{path/to/symlink}}`
+`ln {{[-s|--symbolic]}} {{/path/to/file_or_directory}} {{path/to/symlink}}`
 
 - جایگزینی یک ارتباط نمادین موجود، برای اشاره به یک فایل متفاوت:
 
-`ln -sf {{/path/to/new_file}} {{path/to/symlink}}`
+`ln {{[-sf|--symbolic --force]}} {{/path/to/new_file}} {{path/to/symlink}}`
 
 - ایجاد یک لینک سخت (hard link) به یک فایل:
 

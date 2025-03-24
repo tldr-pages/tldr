@@ -10,4 +10,4 @@
 
 - Verwijder specifieke geneste directories recursief:
 
-`rmdir --parents {{pad/naar/map1 pad/naar/map2 ...}}`
+`rmdir {{[-p|--parents]}} {{pad/naar/map1 pad/naar/map2 ...}}`

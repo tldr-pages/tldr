@@ -10,24 +10,24 @@
 
 - Navigare sinistra/sopra/sotto/destra:
 
-`{{H|J|K|L|arrow keys}}`
+`{{<h>|<j>|<k>|<l>|<ArrowKeys>}}`
 
 - Ruotare:
 
-`r`
+`<r>`
 
 - Invertire i colori:
 
-`<Ctrl> + R`
+`<Ctrl r>`
 
 - Ricercare all'interno del testo una stringa:
 
-`/{{string}}`
+`</>{{string}}`
 
 - Creare/eliminare i segnalibri:
 
-`:{{bmark|bdelete}} {{bookmark_name}}`
+`<:>{{bmark|bdelete}} {{bookmark_name}}<Enter>`
 
 - Lista dei segnalibri:
 
-`:blist`
+`<:>blist<Enter>`

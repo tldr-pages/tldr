@@ -8,7 +8,7 @@
 
 `systemctl start atd`
 
-- Crea comandos interactivamente y los ejecuta en 5 minutos (pulsa `<Ctrl> + D` cuando termines):
+- Crea comandos interactivamente y los ejecuta en 5 minutos (pulsa `<Ctrl d>` cuando termines):
 
 `at now + 5 minutes`
 

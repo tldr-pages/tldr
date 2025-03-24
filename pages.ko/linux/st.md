@@ -17,8 +17,8 @@
 
 - 글꼴 크기 증가/감소:
 
-`<Ctrl> + <Shift> + {{Page Up|Page Down}}`
+`<Ctrl Shift {{PageUp|PageDown}}>`
 
 - 클립보드에서 복사/붙여넣기:
 
-`<Ctrl> + <Shift> + {{C|V}}`
+`<Ctrl Shift {{c|v}}>`
