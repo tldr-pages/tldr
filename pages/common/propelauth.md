@@ -13,7 +13,7 @@
 
 - Set up PropelAuth authentication in your project. If no directory is provided, the current directory is used:
 
-`propelauth setup {{[-f|--framework]}} {{directory}}`
+`propelauth setup {{[-f|--framework]}} {{path/to/directory}}`
 
 - Log the CLI out of PropelAuth:
 
