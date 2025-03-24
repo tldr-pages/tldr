@@ -19,7 +19,7 @@
 
 `grep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
 
-- Print 3 lines of context around, before, or after each match:
+- Print 3 lines of [C]ontext around, [B]efore or [A]fter each match:
 
 `grep --{{context|before-context|after-context}} 3 "{{search_pattern}}" {{path/to/file}}`
 

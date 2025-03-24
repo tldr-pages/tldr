@@ -13,23 +13,23 @@
 
 - Kopieer de inhoud van een map recursief naar een andere locatie (als de doelmap bestaat, dan wordt de map hierin gekopieerd):
 
-`cp -r {{pad/naar/bron_map}} {{pad/naar/doel_map}}`
+`cp {{[-r|--recursive]}} {{pad/naar/bron_map}} {{pad/naar/doel_map}}`
 
 - Kopieer een map recursief, in uitgebreide modus (laat de bestandsvoortgang zien):
 
-`cp -vr {{pad/naar/bron_map}} {{pad/naar/doel_map}}`
+`cp {{[-vr|--verbose --recursive]}} {{pad/naar/bron_map}} {{pad/naar/doel_map}}`
 
 - Kopieer meerdere bestanden tegelijk naar een map:
 
-`cp -t {{pad/naar/doel_map}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
+`cp {{[-t|--target-directory]}} {{pad/naar/doel_map}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
 - Kopieer tekst bestanden naar een andere locatie, in interactieve modus (vraagt de gebruiker voordat er iets overschreven wordt):
 
-`cp -i {{*.txt}} {{pad/naar/doel_map}}`
+`cp {{[-i|--interactive]}} {{*.txt}} {{pad/naar/doel_map}}`
 
 - Volg symbolische links voordat deze gekopieerd worden:
 
-`cp -L {{link}} {{pad/naar/doel_map}}`
+`cp {{[-L|--dereference]}} {{link}} {{pad/naar/doel_map}}`
 
 - Gebruik het volledige pad van de bron bestanden, creëer missende tussenliggende mappen tijdens het kopieëren:
 

@@ -12,18 +12,18 @@
 
 `pw-dump {{object_id}}`
 
-- Dump the current state [m]onitoring changes, printing it again:
+- Dump the current state monitoring changes, printing it again:
 
-`pw-dump --monitor`
+`pw-dump {{[-m|--monitor]}}`
 
-- Dump the current state of a [r]emote instance to a file:
+- Dump the current state of a remote instance to a file:
 
-`pw-dump --remote {{remote_name}} > {{path/to/dump_file.json}}`
+`pw-dump {{[-r|--remote]}} {{remote_name}} > {{path/to/dump_file.json}}`
 
-- Set a [C]olor configuration:
+- Set a color configuration:
 
-`pw-dump --color {{never|always|auto}}`
+`pw-dump {{[-C|--color]}} {{never|always|auto}}`
 
 - Display help:
 
-`pw-dump --help`
+`pw-dump {{[-h|--help]}}`

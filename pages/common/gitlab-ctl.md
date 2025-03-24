@@ -26,3 +26,11 @@
 - Display the logs of a specific service:
 
 `sudo gitlab-ctl tail {{nginx}}`
+
+- Send the SIGKILL signal to specific service:
+
+`sudo gitlab-ctl kill {{nginx}}`
+
+- Reconfigure the application:
+
+`sudo gitlab-ctl reconfigure`

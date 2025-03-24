@@ -12,7 +12,7 @@
 
 `rdesktop -u Administrator -p passwd123 192.168.1.111:3389`
 
-- 전체 화면으로 원격 컴퓨터에 연결 (종료하려면 `Ctrl + Alt + Enter`):
+- 전체 화면으로 원격 컴퓨터에 연결 (종료하려면 `<Ctrl Alt Enter>`):
 
 `rdesktop -u {{사용자명}} -p {{비밀번호}} -f {{호스트:포트}}`
 
