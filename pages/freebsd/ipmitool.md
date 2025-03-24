@@ -3,7 +3,7 @@
 > Interface with the Intelligent Platform Management Interface (IPMI).
 > More information: <https://man.freebsd.org/cgi/man.cgi?query=ipmitool>.
 
-- Load the IPMI kernel module:
+- Load the IPMI kernel module for local connections:
 
 `kldload ipmi.ko`
 
