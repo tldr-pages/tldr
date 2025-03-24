@@ -17,7 +17,7 @@
 
 - Verstuur de standaard escape-tekencombinatie om de sessie te beëindigen:
 
-`<Ctrl> + ]`
+`<Ctrl ]>`
 
 - Start `telnet` met "x" als het sessie beëindigingsteken:
 

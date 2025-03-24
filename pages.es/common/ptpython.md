@@ -17,16 +17,16 @@
 
 - Abre el menú:
 
-`F2`
+`<F2>`
 
 - Abre la página de historia:
 
-`F3`
+`<F3>`
 
 - Activa o desactiva el modo pegar (paste mode):
 
-`F6`
+`<F6>`
 
 - Sale:
 
-`<Ctrl> + D`
+`<Ctrl d>`
