@@ -8,18 +8,30 @@
 
 `uname`
 
+- 打印所有可用的系统信息：
+
+`uname {{[-a|--all]}}`
+
 - 打印系统架构和处理器信息：
 
-`uname --machine --processor`
+`uname {{[-mp|--machine --processor]}}`
 
 - 打印内核名称、内核版本号和内核版本：
 
-`uname --kernel-name --kernel-release --kernel-version`
+`uname {{[-srv|--kernel-name --kernel-release --kernel-version]}}`
 
 - 打印系统主机名：
 
-`uname --nodename`
+`uname {{[-n|--nodename]}}`
 
-- 打印所有可用的系统信息：
+- 打印当前操作系统名称：
 
-`uname --all`
+`uname {{[-o|--operating-system]}}`
+
+- 打印当前网络节点主机名：
+
+`uname {{[-n|--nodename]}}`
+
+- 显示帮助信息：
+
+`uname --help`
