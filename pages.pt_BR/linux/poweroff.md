@@ -17,8 +17,8 @@
 
 - Desliga imediatamente sem contato com o gerenciador do sistema:
 
-`poweroff --force`
+`poweroff {{[-f|--force]}}`
 
 - Grava a entrada de desligamento wtmp sem desligar o sistema:
 
-`poweroff --wtmp-only`
+`poweroff {{[-w|--wtmp-only]}}`

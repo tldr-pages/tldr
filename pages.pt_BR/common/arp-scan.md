@@ -5,7 +5,7 @@
 
 - Verifica as máquinas da rede local:
 
-`arp-scan --localnet`
+`arp-scan {{[-l|--localnet]}}`
 
 - Verifica as máquinas de uma rede IP especificando a máscara de bit:
 

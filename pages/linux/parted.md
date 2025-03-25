@@ -19,3 +19,7 @@
 - Start interactive mode with the specified disk selected:
 
 `sudo parted {{/dev/sdX}}`
+
+- Display help:
+
+`parted {{[-h|--help]}}`

@@ -1,8 +1,7 @@
 # gpg
 
 > GNU Privacy Guard。
-> GNU Privacy Guard 2 については `gpg2` を参照してください。殆どのオペレーティングシステムは `gpg` を `gpg2` にシンボリックリンクしています。
-> もっと詳しく: <https://gnupg.org>。
+> もっと詳しく: <https://gnupg.org/documentation/manuals/gnupg/Invoking-GPG.html>。
 
 - GPGの公開鍵と秘密鍵を対話的に作成する:
 

@@ -18,7 +18,7 @@
 
 - Inicia o Emacs em modo console (sem uma janela X):
 
-`emacs --no-window-system`
+`emacs {{[-nw|--no-window-system]}}`
 
 - Inicia um servidor Emacs em segundo plano (acessível através do `emacsclient`):
 
@@ -30,8 +30,8 @@
 
 - Salva um arquivo em Emacs:
 
-`<Ctrl> + X, <Ctrl> + S`
+`<Ctrl x><Ctrl s>`
 
 - Sai do Emacs:
 
-`<Ctrl> + X, <Ctrl> + C`
+`<Ctrl x><Ctrl c>`

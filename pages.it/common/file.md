@@ -9,16 +9,16 @@
 
 - Controlla dentro un file zip e determina il tipo dei file in esso contenuti:
 
-`file -z {{foo.zip}}`
+`file {{[-z|--uncompress]}} {{foo.zip}}`
 
 - Permette a `file` di leggere file speciali o di dispositivo:
 
-`file -s {{nome_file}}`
+`file {{[-s|--special-files]}} {{nome_file}}`
 
 - Non si limita al primo tipo di file trovato; continua a leggere il file fino alla fine:
 
-`file -k {{nome_file}}`
+`file {{[-k|--keep-going]}} {{nome_file}}`
 
 - Determina il tipo MIME di un file:
 
-`file -i {{nome_file}}`
+`file {{[-i|--mime]}} {{nome_file}}`

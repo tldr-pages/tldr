@@ -10,16 +10,16 @@
 
 - 仅显示唯一的行：
 
-`sort {{路径/到/文件}} | uniq -u`
+`sort {{路径/到/文件}} | uniq {{[-u|--unique]}}`
 
 - 仅显示重复的行：
 
-`sort {{路径/到/文件}} | uniq -d`
+`sort {{路径/到/文件}} | uniq {{[-d|--repeated]}}`
 
 - 显示每行的出现次数及其内容：
 
-`sort {{路径/到/文件}} | uniq -c`
+`sort {{路径/到/文件}} | uniq {{[-c|--count]}}`
 
 - 显示每行的出现次数，并按出现次数从高到低排序：
 
-`sort {{路径/到/文件}} | uniq -c | sort -nr`
+`sort {{路径/到/文件}} | uniq {{[-c|--count]}} | sort {{[-nr|--numeric-sort --reverse]}}`
