@@ -2,7 +2,7 @@
 
 > Verwalte installierte Versionen von verschiedenen Paketen.
 > Plugins (z.B. asdf-node) werden für spezifische Pakete verwendet.
-> Weitere Informationen: <https://asdf-vm.com>.
+> Weitere Informationen: <https://asdf-vm.com/manage/commands.html>.
 
 - Liste alle verfügbaren Plugins auf:
 
