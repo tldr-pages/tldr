@@ -9,11 +9,11 @@
 
 - 初始化仓库，并指定初始分支的名字（通常默认为 `master` 或 `main`）：
 
-`git init --initial-branch={{分支名}}`
+`git init {{[-b|--initial-branch]}} {{分支名}}`
 
 - 初始化仓库，使用 SHA256 算法生成对象哈希（需 Git 2.29+ 版本支持）：
 
-`git init --object-format={{sha256}}`
+`git init --object-format {{sha256}}`
 
 - 创建裸仓库，适合用作 SSH 远程仓库：
 
