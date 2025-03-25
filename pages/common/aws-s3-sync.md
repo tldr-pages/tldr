@@ -31,6 +31,6 @@
 
 `aws s3 sync {{path/to/file_or_directory}} s3://{{bucket_name}}/{{path/to/remote_location}} --size-only`
 
-- Display help for aws s3 sync:
+- Display help:
 
 `aws s3 sync help`
