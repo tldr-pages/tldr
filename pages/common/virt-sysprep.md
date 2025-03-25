@@ -26,4 +26,3 @@
 - Display help:
 
 `virt-sysprep {{[-he|--help]}}`
-
