@@ -7,11 +7,11 @@
 
 `mariadb {{db_name}}`
 
-- Connect to a specific MariaDB database {{db_name}} using {{user_name}} and {{your_password}}:
+- Connect to a specific MariaDB database using username and password:
 
 `mariadb --user={{user_name}} --password={{your_password}} {{db_name}}`
 
-- Display help and exit:
+- Display help:
 
 `mariadb -?, --help`
 
@@ -19,18 +19,18 @@
 
 `mariadb --show-warning`
 
-- Be more silent. Can be used multiple times to produce less output:
+- Display less verbose outputs (can be used multiple times to produce less output):
 
 `mariadb -s, --silent`
 
-- Execute SQL statements in a script file (batch file):
+- Execute SQL statements from a script file:
 
-`mariadb {{db_name}} < {{/path/to/script.sql}} > {{/path/to/output.tab}}`
+`mariadb {{db_name}} < {{path/to/script.sql}} > {{path/to/output.tab}}`
 
 - Check memory and open file usage at exit:
 
 `mariadb --debug-check`
 
-- For connections to local host , Unix socket file to use, or on Windows, the name of the named pipe to use:
+- Connect using a socket file for local connections:
 
-`mariadb -S, --socket={{/path/to/socket_name}}`
+`mariadb -S, --socket={{path/to/socket_name}}`
