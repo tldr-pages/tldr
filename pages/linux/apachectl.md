@@ -30,3 +30,7 @@
 - Print full Apache configuration:
 
 `apachectl -S`
+
+- Display help:
+
+`apachectl -h`
