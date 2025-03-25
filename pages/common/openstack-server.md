@@ -26,8 +26,8 @@
 
 - Migrate server to different host:
 
-`openstack server migrate [--live {{host_hostname}}] [--shared-migration | --block-migration] --wait {{instance_id}}`
+`openstack server migrate --live {{host_hostname}} {{--shared-migration|--block-migration}} --wait {{instance_id}}`
 
 - Perform a soft or hard reset to the server:
 
-`openstack server reboot [--hard | --soft] [--wait] {{instance_id}}`
+`openstack server reboot {{--soft|--hard}} --wait {{instance_id}}`
