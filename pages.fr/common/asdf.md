@@ -25,4 +25,4 @@
 
 - Fix en local la version d'un paquet :
 
-`asdf set -p {{nom}} {{version}}`
+`asdf set {{nom}} {{version}}`

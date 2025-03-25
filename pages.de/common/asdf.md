@@ -26,4 +26,4 @@
 
 - Lege die lokale Version für ein Paket fest:
 
-`asdf set -p {{name}} {{version}}`
+`asdf set {{name}} {{version}}`

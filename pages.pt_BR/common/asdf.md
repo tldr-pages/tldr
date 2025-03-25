@@ -25,7 +25,7 @@
 
 - Define a versão local de um pacote:
 
-`asdf set -p {{nome}} {{versão}}`
+`asdf set {{nome}} {{versão}}`
 
 - Ver a versão utilizada para um pacote:
 

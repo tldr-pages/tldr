@@ -25,7 +25,7 @@
 
 - Set local version for a package:
 
-`asdf set -p {{name}} {{version}}`
+`asdf set {{name}} {{version}}`
 
 - See the current version used for a package:
 

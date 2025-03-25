@@ -25,4 +25,4 @@
 
 - Setel versi bawaan/default paket piranti lunak yang akan digunakan secara lokal (pengguna saat ini):
 
-`asdf set -p {{nama}} {{versi}}`
+`asdf set {{nama}} {{versi}}`

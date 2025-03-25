@@ -25,7 +25,7 @@
 
 - Imposta la versiona locale per un pacchetto:
 
-`asdf set -p {{nome}} {{versiona}}`
+`asdf set {{nome}} {{versiona}}`
 
 - Elenca la versione utilizzata per un pacchetto:
 
