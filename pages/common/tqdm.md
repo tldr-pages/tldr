@@ -3,7 +3,7 @@
 > Show progress over time of a command.
 > More information: <https://tqdm.github.io/>.
 
-- Show iterations per second and use stdout afterwards:
+- Show iterations per second and use `stdout` afterwards:
 
 `{{seq 10000000}} | tqdm | {{command}}`
 
