@@ -1,7 +1,7 @@
 # asdf
 
 > Interface en ligne de commande pour gérer les versions de différents paquets.
-> Plus d'informations : <https://asdf-vm.com>.
+> Plus d'informations : <https://asdf-vm.com/manage/commands.html>.
 
 - Liste toutes les extensions disponibles :
 
