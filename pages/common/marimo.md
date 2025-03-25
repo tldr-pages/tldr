@@ -24,6 +24,6 @@
 
 `marimo tutorial {{intro|components|dataflow|io}}`
 
-- View command specific help
+- View command specific help:
 
 `marimo {{edit|run|tutorial|config|new|etc...}} --help`
