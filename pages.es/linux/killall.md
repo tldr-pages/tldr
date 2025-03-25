@@ -16,7 +16,7 @@
 
 `killall -i {{nombre_del_proceso}}`
 
-- Termina un proceso utilizando la señal SIGINT (interrupción), que es la misma señal enviada pulsando `Ctrl + C`:
+- Termina un proceso utilizando la señal SIGINT (interrupción), que es la misma señal enviada pulsando `<Ctrl c>`:
 
 `killall -INT {{nombre_del_proceso}}`
 

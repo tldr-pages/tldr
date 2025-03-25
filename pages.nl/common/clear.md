@@ -3,7 +3,7 @@
 > Leegt het scherm van de terminal.
 > Meer informatie: <https://manned.org/clear>.
 
-- Maak het scherm leeg (gelijk aan het indrukken van Control-L in de Bash-shell):
+- Maak het scherm leeg (gelijk aan het indrukken van `<Ctrl l>` in de Bash-shell):
 
 `clear`
 
