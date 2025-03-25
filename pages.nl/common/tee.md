@@ -9,7 +9,7 @@
 
 - Voeg toe aan de opgegeven bestanden, overschrijf niet:
 
-`echo "voorbeeld" | tee -a {{pad/naar/bestand}}`
+`echo "voorbeeld" | tee {{[-a|--append]}} {{pad/naar/bestand}}`
 
 - Toon `stdin` naar de terminal en leid het ook door naar een ander programma voor verdere verwerking:
 

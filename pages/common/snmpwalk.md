@@ -22,3 +22,7 @@
 - Query system information on a remote host by OID using SNMPv3 without authentication or encryption:
 
 `snmpwalk -v 3 -l {{noAuthNoPriv}} -u {{username}} {{ip}} {{oid}}`
+
+- Display help:
+
+`snmpwalk {{[-h|--help]}}`

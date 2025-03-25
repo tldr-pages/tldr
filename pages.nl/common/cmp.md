@@ -9,12 +9,12 @@
 
 - Toon info van het eerste verschil: karakter, regelnummer, bytes en waardes:
 
-`cmp --print-bytes {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
+`cmp {{[-b|--print-bytes]}} {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
 
 - Toon de byte nummers en waardes van ieder verschil:
 
-`cmp --verbose {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
+`cmp {{[-l|--verbose]}} {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
 
 - Vergelijk bestanden, maar toon niets, pak alleen de exit status:
 
-`cmp --quiet {{pad/naar/bestand1}} {{pad/naar/bestand2}}`
+`cmp {{[-s|--quiet]}} {{pad/naar/bestand1}} {{pad/naar/bestand2}}`

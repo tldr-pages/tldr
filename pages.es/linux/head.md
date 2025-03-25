@@ -5,16 +5,16 @@
 
 - Muestra las primeras líneas de un archivo:
 
-`head --lines {{cuenta}} {{ruta/al/archivo}}`
+`head {{[-n|--lines]}} {{cuenta}} {{ruta/al/archivo}}`
 
 - Muestra los primeros bits de un archivo:
 
-`head --bytes {{cuenta}} {{ruta/al/archivo}}`
+`head {{[-c|--bytes]}} {{cuenta}} {{ruta/al/archivo}}`
 
 - Muestra todo el contenido de un archivo excepto las últimas líneas:
 
-`head --lines -{{cuenta}} {{ruta/al/archivo}}`
+`head {{[-n|--lines]}} -{{cuenta}} {{ruta/al/archivo}}`
 
 - Muestra todo el contenido de un archivo excepto los últimos bits:
 
-`head --bytes -{{cuenta}} {{ruta/al/archivo}}`
+`head {{[-c|--bytes]}} -{{cuenta}} {{ruta/al/archivo}}`

@@ -18,3 +18,7 @@
 - Exit out of a foreground container (run this in a separate terminal):
 
 `sudo lxc-stop {{container_name}}`
+
+- Display help:
+
+`lxc-start {{[-?|--help]}}`

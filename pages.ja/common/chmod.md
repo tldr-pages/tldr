@@ -29,8 +29,8 @@
 
 - [g]roup と [o]thers に [w]rite 権限を再帰的に付与する:
 
-`chmod -R g+w,o+w {{path/to/directory}}`
+`chmod {{[-R|--recursive]}} g+w,o+w {{path/to/directory}}`
 
 - 全て ([a]ll) のユーザーに、ファイルへの [r]ead 権限と、ディレクトリ内のサブディレクトリへの e[X]ecute 権限を再帰的に付与する:
 
-`chmod -R a+rX {{path/to/directory}}`
+`chmod {{[-R|--recursive]}} a+rX {{path/to/directory}}`
