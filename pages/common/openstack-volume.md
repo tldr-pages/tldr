@@ -6,7 +6,7 @@
 
 - List volumes:
 
-`openstack volume list [--all-projects] [--long]`
+`openstack volume list --all-projects`
 
 - Show volume details:
 
@@ -14,7 +14,7 @@
 
 - Create new volume:
 
-`openstack volume create --size {{size_in_GB}} [--image {{image_id}} --snapshot {{snapshot_id}}] [--bootable | --non-bootable] {{volume_name}}`
+`openstack volume create --size {{size_in_GB}} --image {{image_id}} --snapshot {{snapshot_id}} {{--bootable|--non-bootable}} {{volume_name}}`
 
 - Delete volumes(s):
 
@@ -26,4 +26,4 @@
 
 - Set volume properties:
 
-`openstack volume set [--name {{volume_new_name}}] [--size {{volume_new_size}}] [--attached | --detached] [--bootable | --non-bootable] {{volume_id}}`
+`openstack volume set --name {{volume_new_name}} --size {{volume_new_size}} {{--attached|--detached}} {{--bootable|--non-bootable}} {{volume_id}}`
