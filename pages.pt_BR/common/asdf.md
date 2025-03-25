@@ -1,7 +1,7 @@
 # asdf
 
 > Utilitário para a gestão de versões de linguagens e programas.
-> Mais informações: <https://asdf-vm.com>.
+> Mais informações: <https://asdf-vm.com/manage/commands.html>.
 
 - Lista todos os plugins disponíveis:
 

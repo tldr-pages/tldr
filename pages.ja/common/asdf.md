@@ -1,7 +1,7 @@
 # asdf
 
 > さまざまなパッケージのバージョンを管理するためのコマンドラインインターフェイスです。
-> もっと詳しく: <https://asdf-vm.com>。
+> もっと詳しく: <https://asdf-vm.com/manage/commands.html>。
 
 - 利用可能なプラグインの一覧を表示:
 
