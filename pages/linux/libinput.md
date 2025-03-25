@@ -21,4 +21,4 @@
 
 - Display help:
 
-`libinput -h`
+`libinput {{[-h|--help]}}`

@@ -15,10 +15,10 @@
 
 `tail {{[-c|--bytes]}} {{broj}} {{datoteka}}`
 
-- Čitaj datoteku sve do `Ctrl + C`:
+- Čitaj datoteku sve do `<Ctrl c>`:
 
 `tail {{[-f|--follow]}} {{datoteka}}`
 
-- Čitaj datoteku sve do `Ctrl + C`, čak i kad je datoteka rotirana:
+- Čitaj datoteku sve do `<Ctrl c>`, čak i kad je datoteka rotirana:
 
 `tail {{[-F|--retry --follow]}} {{datoteka}}`

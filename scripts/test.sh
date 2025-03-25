@@ -121,7 +121,7 @@ function run_tests_pr {
 # Additional checks for GitHub Actions pull request builds.
 # Only taken as suggestions, does not make the build fail.
 function run_checks_pr {
-  msgs=$(bash scripts/check-pr.sh)
+  msgs=$(bash scripts/check-pr.sh -v)
 
   if [[ -n $msgs ]]; then
     echo -e "\nCheck PR reported the following message(s):\n$msgs\n" >&2
