@@ -13,7 +13,7 @@
 
 - Display help:
 
-`mariadb -?, --help`
+`mariadb {{[-?|--help]}}`
 
 - Show warnings after every statement in interactive and batch mode:
 
@@ -21,7 +21,7 @@
 
 - Display less verbose outputs (can be used multiple times to produce less output):
 
-`mariadb -s, --silent`
+`mariadb {{-s|-ss|-sss|--silent}}`
 
 - Execute SQL statements from a script file:
 
