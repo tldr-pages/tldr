@@ -1,6 +1,6 @@
 # mariadb
 
-> The mariadb Command-Line Client tool.
+> The mariadb client tool.
 > More information: <https://mariadb.com/kb/en/mariadb-command-line-client/>.
 
 - Connect to a specific MariaDB database:
@@ -9,11 +9,7 @@
 
 - Connect to a specific MariaDB database using username and password:
 
-`mariadb --user={{user_name}} --password={{your_password}} {{db_name}}`
-
-- Display help:
-
-`mariadb {{[-?|--help]}}`
+`mariadb --user {{user_name}} --password {{your_password}} {{db_name}}`
 
 - Show warnings after every statement in interactive and batch mode:
 
@@ -33,4 +29,8 @@
 
 - Connect using a socket file for local connections:
 
-`mariadb -S, --socket={{path/to/socket_name}}`
+`mariadb {{[-S|--socket]}} {{path/to/socket_name}}`
+
+- Display help:
+
+`mariadb {{[-?|--help]}}`
