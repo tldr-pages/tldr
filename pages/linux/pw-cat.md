@@ -18,3 +18,7 @@
 - Record a sample recording using a different sample rate:
 
 `pw-cat --record --rate {{6000}} {{path/to/file.wav}}`
+
+- Display help:
+
+`pw-cat {{[-h|--help]}}`
