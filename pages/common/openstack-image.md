@@ -5,7 +5,7 @@
 
 - List available images:
 
-`openstack image list [--public | --private | --community | --shared | --all] [--long]`
+`openstack image list {{--private|--shared|--all}}`
 
 - Display image details:
 
@@ -13,7 +13,7 @@
 
 - Create/upload an image:
 
-`openstack image create [--file <file> | --volume <volume>] [--public | --private | --community | --shared] {{image_name}}`
+`openstack image create --file {{path/to/file}} {{--private|--shared|--all}} {{image_name}}`
 
 - Delete image(s):
 
