@@ -11,7 +11,7 @@
 
 `gum input --placeholder "{{값}}"`
 
-- 대화형 확인 프롬프트를 열고 `0` 또는 `1`로 종료:
+- 대화형 확인 프롬프트를 열고 `<0>` 또는 `<1>`로 종료:
 
 `gum confirm "{{Continue?}}" --default=false --affirmative "{{Yes}}" --negative "{{No}}" {{&& echo "Yes selected" || echo "No selected"}}`
 
@@ -23,6 +23,6 @@
 
 `gum format -t {{emoji}} "{{:smile: :heart: hello}}"`
 
-- 여러 줄의 텍스트를 대화식으로 프롬프트하고 (저장하려면 CTRL + D) `data.txt`에 작성:
+- 여러 줄의 텍스트를 대화식으로 프롬프트하고 (저장하려면 `<Ctrl d>`) `data.txt`에 작성:
 
 `gum write > {{data.txt}}`

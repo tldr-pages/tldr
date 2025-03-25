@@ -26,3 +26,11 @@
 - See all available commands/aliases starting with 'ls':
 
 `compgen -ac {{ls}}`
+
+- List all users on the system:
+
+`compgen -u`
+
+- Display help:
+
+`compgen --help`

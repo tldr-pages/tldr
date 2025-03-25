@@ -1,7 +1,7 @@
 # cmus
 
 > Reproductor de música para la línea de comandos.
-> Usa las teclas de dirección para navegar, `<enter/return>` para seleccionar, y los números 1-8 para cambiar entre las diferentes vistas.
+> Usa las `<ArrowKeys>` para navegar, `<Enter>` para seleccionar, y los números `<1>`-`<8>` para cambiar entre las diferentes vistas.
 > Más información: <https://cmus.github.io>.
 
 - Abre cmus en un directorio concreto:
@@ -10,16 +10,16 @@
 
 - Añade un archivo/directorio a la librería:
 
-`:add {{ruta/al/archivo_o_directorio}}`
+`<:>add {{ruta/al/archivo_o_directorio}}`
 
 - Pausa/reproduce la canción actual:
 
-`c`
+`<c>`
 
 - Activa/desactiva modo aleatorio:
 
-`s`
+`<s>`
 
 - Cierra cmus:
 
-`q`
+`<q>`

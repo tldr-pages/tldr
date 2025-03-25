@@ -23,3 +23,11 @@
 - Execute commands from a given file next Tuesday:
 
 `at -f {{path/to/file}} 9:30 PM Tue`
+
+- List all queued jobs for the current user (same as `atq`):
+
+`at -l`
+
+- View a specied job:
+
+`at -c {{job_number}}`

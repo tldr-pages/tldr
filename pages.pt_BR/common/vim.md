@@ -1,7 +1,7 @@
 # vim
 
 > Vim (Vi IMproved), é um editor de texto em linha de comando, que fornece muitos modos para diferentes tipos de manipulação de texto.
-> Apertando `i` no modo normal entra em modo insert (inserir). Apertando `<Esc>` volta para o modo normal, que permite o uso dos comandos do Vim.
+> Apertando `<i>` no modo normal entra em modo insert (inserir). Apertando `<Esc>` volta para o modo normal, que permite o uso dos comandos do Vim.
 > Mais informações: <https://www.vim.org>.
 
 - Abre um arquivo:
@@ -14,24 +14,24 @@
 
 - Abre o manual do Vim em visualização:
 
-`:help<Enter>`
+`<:>help<Enter>`
 
 - Salva e sai do arquivo atual:
 
-`{{ZZ|:wq<Enter>}}`
+`{{<Esc><Z><Z>|<Esc><:>x<Enter>|<Esc><:>wq<Enter>}}`
 
 - Entra em modo normal e desfaz a última operação:
 
-`<Esc>u`
+`<Esc><u>`
 
-- Procura por um sequência padrão dentro de um arquivo (aperte `n`/`N` para ir para próxima/anterior sequência padrão):
+- Procura por um sequência padrão dentro de um arquivo (aperte `<n>`/`<N>` para ir para próxima/anterior sequência padrão):
 
-`/{{sequência_padrão_procurada}}<Enter>`
+`</>{{sequência_padrão_procurada}}<Enter>`
 
 - Executa uma substituição por expressão regular no arquivo todo:
 
-`:%s/{{expressão_regular}}/{{substituição}}/g<Enter>`
+`<:>%s/{{expressão_regular}}/{{substituição}}/g<Enter>`
 
 - Mostra os números das linhas:
 
-`:set nu<Enter>`
+`<:>set nu<Enter>`
