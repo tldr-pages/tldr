@@ -18,8 +18,16 @@
 
 - Add a user to supplementary groups (mind the lack of whitespace):
 
-`sudo usermod {{[-a|--append]}} {{[-G|--groups]}} {{group1,group2,...}} {{username}}`
+`sudo usermod {{[-aG|--append --groups]}} {{group1,group2,...}} {{username}}`
 
 - Change a user home directory:
 
 `sudo usermod {{[-m|--move-home]}} {{[-d|--home]}} {{path/to/new_home}} {{username}}`
+
+- Lock an account:
+
+`sudo usermod {{[-L|--lock]}} {{username}}`
+
+- Unlock an account:
+
+`sudo usermod {{[-U|--unlock]}} {{username}}`

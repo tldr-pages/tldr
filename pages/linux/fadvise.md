@@ -13,4 +13,4 @@
 
 - Display help:
 
-`fadvise --help`
+`fadvise {{[-h|--help]}}`
