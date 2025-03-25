@@ -1,7 +1,7 @@
 # asdf
 
 > Alat baris perintah untuk mengatur versi paket piranti lunak yang berbeda-beda.
-> Informasi lebih lanjut: <https://asdf-vm.com>.
+> Informasi lebih lanjut: <https://asdf-vm.com/manage/commands.html>.
 
 - Tampilkan seluruh plugin yang tersedia untuk dipasang:
 
