@@ -15,7 +15,7 @@
 
 `docker system df --verbose`
 
-- Remove unused data:
+- Remove unused data (append `--volumes` to remove unused volumes as well):
 
 `docker system prune`
 

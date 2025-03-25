@@ -39,6 +39,13 @@ jobs:
     - name: Test
       run: npm test
 
+    - name: Upload test logging
+      if: github.repository == 'tldr-pages/tldr' && github.event.pull_request.number != ''
+      uses: actions/upload-artifact@v4
+      with:
+        name: debug.log
+        path: debug.log
+
     - name: Build
       run: bash scripts/build.sh
 

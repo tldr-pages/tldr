@@ -25,11 +25,11 @@
 
 - Muestra comandos interactivos mientras se está ejecutando `htop`:
 
-`?`
+`<?>`
 
 - Cambia a otro panel:
 
-`tab`
+`<Tab>`
 
 - Muestra la ayuda:
 

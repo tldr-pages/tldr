@@ -10,3 +10,7 @@
 - Run a function named `func_name`:
 
 `func_name`
+
+- Display help:
+
+`help function`

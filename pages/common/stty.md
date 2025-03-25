@@ -26,3 +26,7 @@
 - Turn character echoing off or on:
 
 `stty {{-echo|echo}}`
+
+- Display help:
+
+`stty --help`

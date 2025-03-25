@@ -25,7 +25,7 @@
 
 - List files in [l]ong format, sorted by [S]ize (descending) recursively:
 
-`ls {{-lSR|-lS --recursive}}`
+`ls {{[-lSR|-lS --recursive]}}`
 
 - List files in [l]ong format, sorted by [t]ime the file was modified and in reverse order (oldest first):
 
