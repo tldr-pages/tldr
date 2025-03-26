@@ -9,7 +9,7 @@
 
 - List the directories used by gpgconf:
 
-`gpgconf --list-dirs`
+`gpgconf {{[-L|--list-dirs]}}`
 
 - List all options of a component:
 
