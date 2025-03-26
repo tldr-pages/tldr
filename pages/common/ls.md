@@ -17,7 +17,7 @@
 
 - List all files in [l]ong format (permissions, ownership, size, and modification date):
 
-`ls {{[-la|--all -l]}}`
+`ls {{[-la|-l --all]}}`
 
 - List files in [l]ong format with size displayed using human-readable units (KiB, MiB, GiB):
 

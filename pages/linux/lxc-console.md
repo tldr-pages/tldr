@@ -14,3 +14,7 @@
 - Exit `lxc-console`:
 
 `<Ctrl a><q>`
+
+- Display help:
+
+`lxc-console {{[-?|--help]}}`
