@@ -3,7 +3,7 @@
 > Grabadora de sonido para el controlador de tarjeta de sonido ALSA.
 > Más información: <https://manned.org/arecord>.
 
-- Graba un fragmento en calidad "CD" (finaliza con Ctrl-C cuando termines):
+- Graba un fragmento en calidad "CD" (finaliza con `<Ctrl c>` cuando termines):
 
 `arecord -vv --format=cd {{ruta/al/archivo.wav}}`
 
@@ -11,7 +11,7 @@
 
 `arecord -vv --format=cd --duration={{10}} {{ruta/al/archivo.wav}}`
 
-- Graba un fragmento y lo guarda como MP3 (finaliza con Ctrl-C cuando termines):
+- Graba un fragmento y lo guarda como MP3 (finaliza con `<Ctrl c>` cuando termines):
 
 `arecord -vv --format=cd --file-type raw | lame -r - {{ruta/al/archivo.mp3}}`
 
@@ -19,7 +19,7 @@
 
 `arecord --list-devices`
 
-- Permite una interfaz interactiva (por ejemplo, usa la barra espaciadora o tecla Entrar para reproducir o pausar):
+- Permite una interfaz interactiva (por ejemplo, usa la `<Space>` o `<Enter>` para reproducir o pausar):
 
 `arecord --interactive`
 
