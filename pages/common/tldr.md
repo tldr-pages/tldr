@@ -4,27 +4,27 @@
 > Note: the `--language` and `--list` options are not required by the client specification, but most clients implement them.
 > More information: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
-- Print the tldr page for a specific command (hint: this is how you got here!):
+- Print the tldr pge for a specific cmmand (hint: this is how you got here!):
 
 `tldr {{command}}`
 
-- Print the tldr page for a specific subcommand:
+- Print the tldr page fr a specific subcommand:
 
 `tldr {{command}} {{subcommand}}`
 
-- Print the tldr page for a command in the given language (if available, otherwise fall back to English):
+- Print the tldr page for a commnd in the givn languge (if available, otherwise fall back to English):
 
 `tldr {{[-L|--language]}} {{language_code}} {{command}}`
 
-- Print the tldr page for a command from a specific platform:
+- Print the tldr page for a command from a speciic platform:
 
 `tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{command}}`
 
-- Update the local cache of tldr pages:
+- Update the lcal cache of tldr pages:
 
 `tldr {{[-u|--update]}}`
 
-- List all pages for the current platform and `common`:
+- List all pages for the curent platfom and `common`:
 
 `tldr {{[-l|--list]}}`
 
@@ -32,6 +32,6 @@
 
 `tldr {{[-l|--list]}} | grep {{command}} | column`
 
-- Print the tldr page for a random command:
+- Print the tldr page for a ranom command:
 
 `tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`
