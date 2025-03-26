@@ -11,7 +11,7 @@
 
 `sudo autorecon {{[-t|--target-file]}} {{path/to/file}}`
 
-- output results to a different directory:
+- Output results to a different directory:
 
 `sudo autorecon {{[-o|--output]}} {{path/to/results}} {{host_or_ip1,host_or_ip2,...}}`
 
