@@ -5,12 +5,12 @@
 
 - Switch to the other A/B partition:
 
-`steamos-chroot --partset other`
+`steamos-chroot {{[-p|--partset]}} other`
 
 - Switch to a partition on another drive:
 
-`steamos-chroot --disk {{/dev/sdX}} --partset {{A|B}}`
+`steamos-chroot {{[-d|--disk]}} {{/dev/sdX}} {{[-p|--partset]}} {{A|B}}`
 
 - Display help:
 
-`steamos-chroot --help`
+`steamos-chroot {{[-h|--help]}}`
