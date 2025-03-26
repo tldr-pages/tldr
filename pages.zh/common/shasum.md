@@ -21,16 +21,16 @@
 
 - 读取包含 SHA 校验值和文件名的文件，并验证所有文件是否具有匹配的校验值（算法将被自动检测）：
 
-`shasum --check {{路径/到/文件}}`
+`shasum {{[-c|--check]}} {{路径/到/文件}}`
 
 - 仅显示缺失文件或验证失败的消息：
 
-`shasum --check --quiet {{路径/到/文件}}`
+`shasum {{[-c|--check]}} --quiet {{路径/到/文件}}`
 
 - 仅显示验证失败的消息，忽略缺失的文件：
 
-`shasum --ignore-missing --check --quiet {{路径/到/文件}}`
+`shasum --ignore-missing {{[-c|--check]}} --quiet {{路径/到/文件}}`
 
 - 检查文件的已知 SHA 校验值：
 
-`echo {{文件的已知 sha 校验值}} {{路径/到/文件}} | shasum --check`
+`echo {{文件的已知 sha 校验值}} {{路径/到/文件}} | shasum {{[-c|--check]}}`

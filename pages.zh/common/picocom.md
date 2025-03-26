@@ -18,3 +18,7 @@
 - 退出 picocom：
 
 `<Ctrl a><Ctrl x>`
+
+- 显示帮助信息：
+
+`picocom {{[-h|--help]}}`
