@@ -13,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v45.0.6
+        uses: tj-actions/changed-files@823fcebdb31bb35fdf2229d9f769b400309430d0 # v46.0.3
         with:
           # Ignore all other languages except English
           files_ignore: |
@@ -25,7 +25,7 @@ jobs:
             contributing-guides/style-guide.*.md
             package-lock.json
 
-      - uses: codespell-project/actions-codespell@v2
+      - uses: codespell-project/actions-codespell@406322ec52dd7b488e48c1c4b82e2a8b3a1bf630 # v2.1
         with:
           ignore_words_file: .github/codespell-ignore
           # Exit with 0 regardless of typos.

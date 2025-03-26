@@ -30,4 +30,8 @@
 
 - 覆盖在 Makefile 中定义的环境变量：
 
+`make {{目标}} {{变量}}={{新值}}`
+
+- 通过环境变量覆盖 Makefile 中定义的变量：
+
 `make --environment-overrides {{目标}}`

@@ -9,4 +9,4 @@
 
 - Display help:
 
-`crane manifest {{-h|--help}}`
+`crane manifest {{[-h|--help]}}`

@@ -9,12 +9,12 @@
 
 - Toon alleen de tijd dat het systeem is opgestart:
 
-`uptime --pretty`
+`uptime {{[-p|--pretty]}}`
 
 - Toon de datum en tijd waarop het systeem is opgestart:
 
-`uptime --since`
+`uptime {{[-s|--since]}}`
 
 - Toon de versie:
 
-`uptime --version`
+`uptime {{[-V|--version]}}`

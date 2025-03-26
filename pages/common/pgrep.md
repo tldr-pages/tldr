@@ -9,8 +9,8 @@
 
 - Search for processes including their command-line options:
 
-`pgrep --full "{{process_name}} {{parameter}}"`
+`pgrep {{[-f|--full]}} "{{process_name}} {{parameter}}"`
 
 - Search for processes run by a specific user:
 
-`pgrep --euid root {{process_name}}`
+`pgrep {{[-u|--euid]}} root {{process_name}}`

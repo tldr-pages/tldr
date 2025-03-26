@@ -5,8 +5,8 @@
 
 - Libera todas las direcciones:
 
-`sudo dhcpcd --release`
+`sudo dhcpcd {{[-k|--release]}}`
 
 - Solicita nuevas direcciones al servidor DHCP:
 
-`sudo dhcpcd --rebind`
+`sudo dhcpcd {{[-n|--rebind]}}`

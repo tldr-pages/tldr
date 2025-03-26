@@ -13,8 +13,8 @@
 
 - Tampilkan memori dalam unit yang dapat dibaca manusia:
 
-`free -h`
+`free {{[-h|--human]}}`
 
 - Tampilkan output setiap 2 detik:
 
-`free -s {{2}}`
+`free {{[-s|--seconds]}} {{2}}`

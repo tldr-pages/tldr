@@ -140,7 +140,7 @@ You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tl
   provides detailed examples with explanations on the command-line.
   Examples come from the repository, but `eg` supports displaying
   custom examples and commands alongside the defaults.
-  
+
 - [kb](https://github.com/gnebbia/kb)
   is a minimalist command-line knowledge base manager.
   kb can be used to organize your notes and cheatsheets in a minimalist

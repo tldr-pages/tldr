@@ -9,28 +9,28 @@
 
 - Toon alle bestanden, inclusief verborgen bestanden:
 
-`ls -a`
+`ls {{[-a|--all]}}`
 
 - Toon alle bestanden, met een `/` achter de namen van mappen:
 
-`ls -F`
+`ls {{[-F|--classify]}}`
 
 - Lange lijstweergave (permissies, eigendom, grootte en wijzigingsdatum) van alle bestanden:
 
-`ls -la`
+`ls {{[-la|--all -l]}}`
 
 - Lange lijstweergave met grootte weergegeven in leesbare eenheden (KiB, MiB, GiB):
 
-`ls -lh`
+`ls {{[-lh|-l --human-readable]}}`
 
 - Lange lijstweergave gesorteerd op grootte (aflopend) recursief:
 
-`ls -lSR`
+`ls {{-lSR|-lS --recursive}}`
 
 - Lange lijstweergave van alle bestanden, gesorteerd op wijzigingsdatum (oudste eerst):
 
-`ls -ltr`
+`ls {{[-ltr|-lt --reverse]}}`
 
 - Toon alleen mappen:
 
-`ls -d */`
+`ls {{[-d|--directory]}} */`

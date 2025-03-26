@@ -13,7 +13,7 @@
 
 - Start a container, attaching `stdout` and `stderr` and forwarding signals:
 
-`docker start --attach {{container}}`
+`docker start {{[-a|--attach]}} {{container}}`
 
 - Start one or more containers:
 

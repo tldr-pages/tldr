@@ -5,4 +5,8 @@
 
 - Initialize a database:
 
-`mariadb-install-db --user={{user}}} --basedir={{/usr}} --datadir={{/var/lib/mysql}}`
+`sudo mariadb-install-db --user {{user}} --basedir {{/usr}} --datadir {{/var/lib/mysql}}`
+
+- Display help:
+
+`mariadb-install-db --help`

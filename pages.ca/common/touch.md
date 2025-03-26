@@ -13,11 +13,11 @@
 
 - Estableix el temps en un fitxer a fa una hora:
 
-`touch -d "{{-1 hour}}" {{camí/al/fitxer}}`
+`touch {{[-d|--date]}} "{{-1 hour}}" {{camí/al/fitxer}}`
 
 - Fa servir el temps d'un fitxer per establir el temps d'un segons fitxer:
 
-`touch -r {{camí/al/fitxer1}} {{camí/al/fitxer2}}`
+`touch {{[-r|--reference]}} {{camí/al/fitxer1}} {{camí/al/fitxer2}}`
 
 - Crea múltiples fitxers:
 

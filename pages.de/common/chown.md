@@ -13,11 +13,11 @@
 
 - Ändere den Besitzer eines Verzeichnisses rekursiv:
 
-`chown -R {{benutzer}} {{pfad/zu/verzeichnis}}`
+`chown {{[-R|--recursive]}} {{benutzer}} {{pfad/zu/verzeichnis}}`
 
 - Ändere den Besitzer eines symbolischen Links:
 
-`chown -h {{benutzer}} {{pfad/zu/symlink}}`
+`chown {{[-h|--no-dereference]}} {{benutzer}} {{pfad/zu/symlink}}`
 
 - Ändere den Besitzer einer Datei/eines Verzeichnisses, damit sie/es mit einer Referenzdatei übereinstimmt:
 

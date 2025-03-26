@@ -7,30 +7,30 @@
 
 `ls -1`
 
-- List [a]ll files, including hidden files:
+- List all files, including hidden files:
 
-`ls -a`
+`ls {{[-a|--all]}}`
 
 - List files with a trailing symbol to indicate file type (directory/, symbolic_link@, executable*, ...):
 
-`ls -F`
+`ls {{[-F|--classify]}}`
 
-- List [a]ll files in [l]ong format (permissions, ownership, size, and modification date):
+- List all files in [l]ong format (permissions, ownership, size, and modification date):
 
-`ls -la`
+`ls {{[-la|-l --all]}}`
 
-- List files in [l]ong format with size displayed using [h]uman-readable units (KiB, MiB, GiB):
+- List files in [l]ong format with size displayed using human-readable units (KiB, MiB, GiB):
 
-`ls -lh`
+`ls {{[-lh|-l --human-readable]}}`
 
-- List files in [l]ong format, sorted by [S]ize (descending) [R]ecursively:
+- List files in [l]ong format, sorted by [S]ize (descending) recursively:
 
-`ls -lSR`
+`ls {{[-lSR|-lS --recursive]}}`
 
-- List files in [l]ong format, sorted by [t]ime the file was modified and in [r]everse order (oldest first):
+- List files in [l]ong format, sorted by [t]ime the file was modified and in reverse order (oldest first):
 
-`ls -ltr`
+`ls {{[-ltr|-lt --reverse]}}`
 
-- Only list [d]irectories:
+- Only list directories:
 
-`ls -d */`
+`ls {{[-d|--directory]}} */`

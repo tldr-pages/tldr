@@ -11,11 +11,11 @@
 
 - Reference to manifests to append to the base index:
 
-`crane index append {{-m|--manifest}} {{manifest_name1 manifest_name2 ...}}`
+`crane index append {{[-m|--manifest]}} {{manifest_name1 manifest_name2 ...}}`
 
 - Tag to apply to resulting image:
 
-`crane index append {{-t|--tag}} {{tag_name}}`
+`crane index append {{[-t|--tag]}} {{tag_name}}`
 
 - Empty base index will have Docker media types instead of OCI:
 
@@ -27,4 +27,4 @@
 
 - Display help:
 
-`crane index append {{-h|--help}}`
+`crane index append {{[-h|--help]}}`

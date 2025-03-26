@@ -18,11 +18,11 @@
 
 - 구성 표시:
 
-`sudo tlp-stat {{-c|--config}}`
+`sudo tlp-stat {{[-c|--config]}}`
 
 - 전원 공급 `udev` 이벤트 모니터링:
 
-`sudo tlp-stat {{-P|--pev}}`
+`sudo tlp-stat {{[-P|--pev]}}`
 
 - 전원 공급 진단 표시:
 
@@ -30,8 +30,8 @@
 
 - 온도 및 팬 속도 표시:
 
-`sudo tlp-stat {{-t|--temp}}`
+`sudo tlp-stat {{[-t|--temp]}}`
 
 - 일반 시스템 정보 표시:
 
-`sudo tlp-stat {{-s|--system}}`
+`sudo tlp-stat {{[-s|--system]}}`

@@ -17,11 +17,11 @@
 
 - Recursivamente muda o dono de um diretório e seu conteúdo:
 
-`chown -R {{usuario}} {{caminho/para/diretório}}`
+`chown {{[-R|--recursive]}} {{usuario}} {{caminho/para/diretório}}`
 
 - Muda o dono de um link simbólico:
 
-`chown -h {{usuario}} {{caminho/para/symlink}}`
+`chown {{[-h|--no-dereference]}} {{usuario}} {{caminho/para/symlink}}`
 
 - Muda o dono de um arquivo/diretório para ficar igual a um arquivo de referência:
 

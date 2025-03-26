@@ -9,24 +9,24 @@
 
 - Inicializa `htop` mostrando somente processos pertencentes a um usuário:
 
-`htop --user {{nome_usuário}}`
+`htop {{[-u|--user]}} {{nome_usuário}}`
 
 - Ordena processos por um `item_de_ordenação` (utilize `htop --sort help` para ver as opções disponíveis):
 
-`htop --sort {{item_de_ordenação}}`
+`htop {{[-s|--sort]}} {{item_de_ordenação}}`
 
 - Inicializa `htop` com um atraso especificado entre atualizações, em décimos de segundo (p. ex. 50 = 5 segundos):
 
-`htop --delay {{50}}`
+`htop {{[-d|--delay]}} {{50}}`
 
 - Vê comandos interativos enquanto roda `htop`:
 
-`?`
+`<?>`
 
 - Muda para uma aba diferente:
 
-`tab`
+`<Tab>`
 
 - Mostra ajuda:
 
-`htop --help`
+`htop {{[-h|--help]}}`

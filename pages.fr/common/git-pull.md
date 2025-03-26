@@ -9,7 +9,7 @@
 
 - Télécharge les changements depuis le serveur distant par défaut et applique les changements locaux par dessus :
 
-`git pull --rebase`
+`git pull {{[-r|--rebase]}}`
 
 - Télécharge les changements depuis un serveur et une branche distante, puis fusionne les dans HEAD :
 

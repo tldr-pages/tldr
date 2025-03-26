@@ -9,19 +9,19 @@
 
 - Muestra la identidad del usuario actual:
 
-`id -un`
+`id {{[-un|--user --name]}}`
 
 - Muestra la identidad del usuario actual como un número:
 
-`id -u`
+`id {{[-u|--user]}}`
 
 - Muestra la identidad del grupo primario actual:
 
-`id -gn`
+`id {{[-gn|--group --name]}}`
 
 - Muestra la identidad del grupo primario actual como un número:
 
-`id -g`
+`id {{[-g|--group]}}`
 
 - Muestra el ID (UID) de un usuario arbitrario, el ID de grupo (GID) y los grupos a los que pertenece:
 

@@ -13,8 +13,12 @@
 
 - Get the current status of the user:
 
-`passwd {{-S|--status}}`
+`passwd {{[-S|--status]}}`
 
 - Make the password of the account blank (it will set the named account passwordless):
 
-`passwd {{-d|--delete}}`
+`passwd {{[-d|--delete]}}`
+
+- Set password programmatically (ideal for install scripts):
+
+`yes {{password}} | passwd`

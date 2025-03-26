@@ -3,21 +3,21 @@
 > Troubleshooting tool for tracing system calls.
 > More information: <https://manned.org/strace>.
 
-- Start tracing a specific [p]rocess by its PID:
+- Start tracing a specific process by its PID:
 
-`strace -p {{pid}}`
+`strace {{[-p|--attach]}} {{pid}}`
 
-- Trace a [p]rocess and filt[e]r output by system call:
+- Trace a process and filter output by system call [e]xpression:
 
-`strace -p {{pid}} -e {{system_call,system_call2,...}}`
+`strace {{[-p|--attach]}} {{pid}} -e {{system_call,system_call2,...}}`
 
 - Count time, calls, and errors for each system call and report a summary on program exit:
 
-`strace -p {{pid}} -c`
+`strace {{[-p|--attach]}} {{pid}} {{[-c|--summary-only]}}`
 
-- Show the [T]ime spent in every system call and specify the maximum string [s]ize to print:
+- Show the time spent in every system call and specify the maximum string size to print:
 
-`strace -p {{pid}} -T -s {{32}}`
+`strace {{[-p|--attach]}} {{pid}} {{[-T|--syscall-times]}} {{[-s|--string-limit]}} {{32}}`
 
 - Start tracing a program by executing it:
 
@@ -27,6 +27,6 @@
 
 `strace -e trace=file {{program}}`
 
-- Start tracing network operations of a program as well as all its [f]orked and child processes, saving the [o]utput to a file:
+- Start tracing network operations of a program as well as all its forked and child processes, saving the output to a file:
 
-`strace -f -e trace=network -o {{trace.txt}} {{program}}`
+`strace {{[-f|--follow-forks]}} -e trace=network {{[-o|--output]}} {{trace.txt}} {{program}}`

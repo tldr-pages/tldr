@@ -9,12 +9,12 @@
 
 - Start the download:
 
-`<Ctrl>S`
+`<Ctrl s>`
 
 - View details about downloading torrent:
 
-`->`
+`<ArrowRight>`
 
 - Close rtorrent safely:
 
-`<Ctrl>Q`
+`<Ctrl q>`

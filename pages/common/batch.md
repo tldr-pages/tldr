@@ -5,11 +5,7 @@
 > See also: `at`, `atq`, `atrm` `mail`.
 > More information: <https://manned.org/batch>.
 
-- Start the `atd` daemon:
-
-`systemctl start atd`
-
-- Execute commands from `stdin` (press `Ctrl + D` when done):
+- Execute commands from `stdin` (press `<Ctrl d>` when done):
 
 `batch`
 

@@ -5,7 +5,7 @@
 
 - Preload a file into cache:
 
-`fadvise {{-a|--advice}} willneed {{path/to/file}}`
+`fadvise {{[-a|--advice]}} willneed {{path/to/file}}`
 
 - Suggest dropping a file from cache:
 
@@ -13,4 +13,4 @@
 
 - Display help:
 
-`fadvise --help`
+`fadvise {{[-h|--help]}}`
