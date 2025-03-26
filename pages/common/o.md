@@ -18,3 +18,7 @@
 - Quit Orbiton:
 
 `<Ctrl q>`
+
+- Display help:
+
+`o {{[-h|--help]}}`

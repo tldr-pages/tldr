@@ -30,3 +30,7 @@
 - Discard uncommitted changes:
 
 `uci revert {{config}}`
+
+- Display help:
+
+`uci`
