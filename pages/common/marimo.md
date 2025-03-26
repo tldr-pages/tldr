@@ -2,7 +2,7 @@
 
 > A reactive Python notebook environment.
 > Combines features of Jupyter, Streamlit, and other notebook tools with reactive execution.
-> More information: <https://docs.marimo.io/>.
+> More information: <https://docs.marimo.io/cli>.
 
 - Create or edit notebooks by starting a marimo server:
 
@@ -10,7 +10,7 @@
 
 - Start a marimo server on a specific port without launching a browser:
 
-`marimo edit -p {{port_number}} --headless`
+`marimo edit {{[-p|--port]}} {{port_number}} --headless`
 
 - Edit a specific notebook:
 
@@ -26,4 +26,4 @@
 
 - View command specific help:
 
-`marimo {{edit|run|tutorial|config|new|etc...}} --help`
+`marimo {{edit|run|tutorial|config|new|...}} --help`
