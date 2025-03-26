@@ -8,10 +8,10 @@
 
 `sudo iptables-save`
 
-- Print the `iptables` configuration of a specific [t]able:
+- Print the `iptables` configuration of a specific table:
 
-`sudo iptables-save --table {{table}}`
+`sudo iptables-save {{[-t|--table]}} {{table}}`
 
-- Save the `iptables` configuration to a [f]ile:
+- Save the `iptables` configuration to a file:
 
-`sudo iptables-save --file {{path/to/file}}`
+`sudo iptables-save {{[-f|--file]}} {{path/to/file}}`

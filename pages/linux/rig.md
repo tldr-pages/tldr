@@ -11,7 +11,7 @@
 
 `rig -{{m|f}}`
 
-- Use data files from a specific directory (default is `/usr/share/rig`):
+- Use [d]ata files from a specific directory (default is `/usr/share/rig`):
 
 `rig -d {{path/to/directory}}`
 
@@ -19,6 +19,6 @@
 
 `rig -c {{number}}`
 
-- Display a specific number of female identities:
+- Display a specific number of [f]emale identities:
 
 `rig -f -c {{number}}`
