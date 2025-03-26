@@ -4,10 +4,6 @@
 > See also: `wpctl`, `pipewire`.
 > More information: <https://pipewire.pages.freedesktop.org/wireplumber/>.
 
-- Make WirePlumber start with the user session immediately (for systemd systems):
-
-`systemctl --user --now enable wireplumber`
-
 - Run WirePlumber, after `pipewire` is started (for non-systemd systems):
 
 `wireplumber`
