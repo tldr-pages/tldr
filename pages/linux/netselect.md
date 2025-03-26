@@ -15,9 +15,9 @@
 
 `sudo netselect -m {{10}} {{host_1}} {{host_2}}`
 
-- Print fastest N servers among the hosts:
+- Print `n` fastest servers among the hosts:
 
-`sudo netselect -s {{N}} {{host_1}} {{host_2}} {{host_3}}`
+`sudo netselect -s {{n}} {{host_1}} {{host_2}} {{host_3}}`
 
 - Display help:
 

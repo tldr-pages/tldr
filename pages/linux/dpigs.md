@@ -3,9 +3,9 @@
 > Show which installed packages occupy the most space on `apt` based systems.
 > More information: <https://manned.org/dpigs>.
 
-- Display the N largest packages on the system:
+- Display the `n` largest packages on the system:
 
-`dpigs --lines={{N}}`
+`dpigs --lines={{n}}`
 
 - Use the specified file instead of the default dpkg [s]tatus file:
 

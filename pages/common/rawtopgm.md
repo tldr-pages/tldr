@@ -15,7 +15,7 @@
 
 `rawtopgm {{width}} {{height}} -bottomfirst {{path/to/image.raw}} > {{path/to/output.pgm}}`
 
-- Ignore the first n bytes of the specified file:
+- Ignore the first `n` bytes of the specified file:
 
 `rawtopgm {{width}} {{height}} -headerskip {{n}} {{path/to/image.raw}} > {{path/to/output.pgm}}`
 
@@ -23,9 +23,9 @@
 
 `rawtopgm {{width}} {{height}} -rowskip {{m}} {{path/to/image.raw}} > {{path/to/output.pgm}}`
 
-- Specify the maxval for the grey values in the input to be equal to N:
+- Specify the maxval for the grey values in the input to be equal to `n`:
 
-`rawtopgm {{width}} {{height}} -maxval {{N}} {{path/to/image.raw}} > {{path/to/output.pgm}}`
+`rawtopgm {{width}} {{height}} -maxval {{n}} {{path/to/image.raw}} > {{path/to/output.pgm}}`
 
 - Specify the number of bytes that represent each sample in the input and that the byte-sequence is to be interpreted as little-endian:
 
