@@ -3,7 +3,7 @@
 > Client-side utility for encrypting Kubernetes secrets using the Bitnami Sealed Secrets controller.
 > Creates SealedSecret resources that can be safely stored in version control.
 > Requires a controller running in the cluster (e.g., installed via `kubectl apply -f controller.yaml`).
-> More info: <https://github.com/bitnami-labs/sealed-secrets>.
+> More information: <https://github.com/bitnami-labs/sealed-secrets>.
 
 - Encrypt a Kubernetes secret from a YAML file into a SealedSecret (default JSON output):
 
