@@ -22,3 +22,7 @@
 - List containers in a fancy, column-based output:
 
 `sudo lxc-ls {{[-f|--fancy]}}`
+
+- Display help:
+
+`lxc-ls {{[-?|--help]}}`

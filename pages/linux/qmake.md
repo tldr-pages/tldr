@@ -22,3 +22,7 @@
 - Enable debug mode:
 
 `qmake -d`
+
+- Display help:
+
+`qmake -help`

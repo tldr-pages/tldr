@@ -6,3 +6,7 @@
 - Delete a container:
 
 `sudo lxc-destroy {{container_name}}`
+
+- Display help:
+
+`lxc-destroy {{[-?|--help]}}`

@@ -10,20 +10,20 @@
 
 - Open a file in console mode (without an X window):
 
-`emacsclient --no-window-system {{path/to/file}}`
+`emacsclient {{[-nw|--no-window-system]}} {{path/to/file}}`
 
 - Open a file in a new Emacs window:
 
-`emacsclient --create-frame {{path/to/file}}`
+`emacsclient {{[-c|--create-frame]}} {{path/to/file}}`
 
 - Evaluate a command, printing the output to `stdout`, and then quit:
 
-`emacsclient --eval '({{command}})'`
+`emacsclient {{[-e|--eval]}} '({{command}})'`
 
 - Specify an alternative editor in case no Emacs server is running:
 
-`emacsclient --alternate-editor {{editor}} {{path/to/file}}`
+`emacsclient {{[-a|--alternate-editor]}} {{editor}} {{path/to/file}}`
 
 - Stop a running Emacs server and all its instances, asking for confirmation on unsaved files:
 
-`emacsclient --eval '(save-buffers-kill-emacs)'`
+`emacsclient {{[-e|--eval]}} '(save-buffers-kill-emacs)'`

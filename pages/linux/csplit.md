@@ -14,11 +14,11 @@
 
 - Split a file every 5 lines, ignoring exact-division error:
 
-`csplit -k {{path/to/file}} 5 {*}`
+`csplit {{[-k|--keep-files]}} {{path/to/file}} 5 {*}`
 
 - Split a file at line 5 and use a custom prefix for the output files:
 
-`csplit {{path/to/file}} 5 -f {{prefix}}`
+`csplit {{path/to/file}} 5 {{[-f|--prefix]}} {{prefix}}`
 
 - Split a file at a line matching a regular expression:
 
