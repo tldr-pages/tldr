@@ -1,7 +1,7 @@
 # pyrit
 
 > WPA/WPA2 cracking tool using computational power.
-> More information: <https://manned.org/man/pyrit>.
+> More information: <https://manned.org/pyrit>.
 
 - Display system cracking speed:
 
