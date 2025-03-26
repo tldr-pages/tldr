@@ -12,16 +12,16 @@ jobs:
       id-token: write # grant additional permission to attestation action to mint the OIDC token permission
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       with:
         fetch-depth: 0
 
-    - uses: actions/setup-python@v5
+    - uses: actions/setup-python@8d9ed9ac5c53483de85588cdf95a591a75ab9f55 # v5.5.0
       with:
         python-version: '3.12'
         cache: 'pip'
 
-    - uses: actions/setup-node@v4
+    - uses: actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e # v4.3.0
       with:
         node-version: 'lts/*'
         cache: 'npm'
@@ -38,6 +38,13 @@ jobs:
 
     - name: Test
       run: npm test
+
+    - name: Upload test logging
+      if: github.repository == 'tldr-pages/tldr' && github.event.pull_request.number != ''
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+      with:
+        name: debug.log
+        path: debug.log
 
     - name: Build
       run: bash scripts/build.sh
@@ -99,7 +106,7 @@ jobs:
     - name: Attest generated files
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       id: attest
-      uses: actions/attest-build-provenance@v2
+      uses: actions/attest-build-provenance@c074443f1aee8d4aeeae555aebba3282517141b2 # v2.2.3
       continue-on-error: true # prevent failing when no pages are modified
       with:
         subject-path: ${{ env.subject_path }}

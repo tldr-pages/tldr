@@ -5,20 +5,20 @@
 
 - Generate a permuted index where the first field of each line is an index reference:
 
-`ptx --references {{path/to/file}}`
+`ptx {{[-r|--references]}} {{path/to/file}}`
 
 - Generate a permuted index with automatically generated index references:
 
-`ptx --auto-reference {{path/to/file}}`
+`ptx {{[-A|--auto-reference]}} {{path/to/file}}`
 
 - Generate a permuted index with a fixed width:
 
-`ptx --width={{width_in_columns}} {{path/to/file}}`
+`ptx {{[-w|--width]}} {{width_in_columns}} {{path/to/file}}`
 
 - Generate a permuted index with a list of filtered words:
 
-`ptx --only-file={{path/to/filter}} {{path/to/file}}`
+`ptx {{[-o|--only-file]}} {{path/to/filter}} {{path/to/file}}`
 
 - Generate a permuted index with SYSV-style behaviors:
 
-`ptx --traditional {{path/to/file}}`
+`ptx {{[-G|--traditional]}} {{path/to/file}}`

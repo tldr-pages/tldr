@@ -21,7 +21,7 @@
 
 - Track an activity in the past:
 
-`timew track {{start_time} - {{end_time}} {{activity_tag}}`
+`timew track {{start_time}} - {{end_time}} {{activity_tag}}`
 
 - View tracked items of the day:
 

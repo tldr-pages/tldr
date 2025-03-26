@@ -14,3 +14,7 @@
 - Prompt the user for a yes/no question:
 
 `dialog --yesno "{{Continue?}}" {{7}} {{40}}`
+
+- Display help:
+
+`dialog`
