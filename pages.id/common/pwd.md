@@ -9,4 +9,4 @@
 
 - Mencetak direktori saat ini, dan menjelaskan semua tautan simbolis (dengan kata lain menampilkan alamat fisik):
 
-`pwd -P`
+`pwd {{[-P|--physical]}}`

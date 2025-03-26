@@ -9,4 +9,4 @@
 
 - Wait for a systemd service to be active:
 
-`until systemctl is-active --quiet {{nginx}}; do {{echo "Waiting..."}}; sleep 1; done; {{echo "Launched!"}}`
+`until systemctl is-active {{[-q|--quiet]}} {{nginx}}; do {{echo "Waiting..."}}; sleep 1; done; {{echo "Launched!"}}`

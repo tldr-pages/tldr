@@ -29,7 +29,7 @@
 
 - Lista todos as unidades de serviço/socket/auto-montável filtrando por estado executando/falhou:
 
-`systemctl list-units --type={{service|socket|automount}} --state={{failed|running}}`
+`systemctl list-units {{[-t|--type]}} {{service|socket|automount}} --state {{failed|running}}`
 
 - Mostra o conteúdo e o caminho absoluto do arquivo de uma unidade:
 

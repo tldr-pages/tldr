@@ -10,3 +10,7 @@
 - Define locale to generate from a specific template:
 
 `msginit {{[-l|--locale]}} {{locale}} {{[-i|--input]}} {{path/to/messages.pot}}`
+
+- Display help:
+
+`msginit {{[-h|--help]}}`

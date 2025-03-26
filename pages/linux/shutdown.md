@@ -19,6 +19,6 @@
 
 `shutdown -h 13:00`
 
-- [c]ancel a pending shutdown/reboot operation:
+- Cancel a pending shutdown/reboot operation:
 
 `shutdown -c`

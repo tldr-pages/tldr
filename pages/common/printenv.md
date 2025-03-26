@@ -13,4 +13,4 @@
 
 - Display the value of a variable and end with NUL instead of newline:
 
-`printenv --null {{HOME}}`
+`printenv {{[-0|--null]}} {{HOME}}`
