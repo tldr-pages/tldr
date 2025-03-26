@@ -4,6 +4,10 @@
 > Results will be sent to the users mail.
 > More information: <https://manned.org/at>.
 
+- Start the `atd` daemon:
+
+`systemctl start atd`
+
 - Create commands interactively and execute them in 5 minutes (press `<Ctrl d>` when done):
 
 `at now + 5 minutes`
