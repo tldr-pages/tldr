@@ -9,12 +9,12 @@
 
 - Only output the first 5 entries of the result:
 
-`shuf --head-count=5 {{path/to/file}}`
+`shuf {{[-n|--head-count]}} 5 {{path/to/file}}`
 
 - Write the output to another file:
 
-`shuf {{path/to/input_file}} --output={{path/to/output_file}}`
+`shuf {{path/to/input_file}} {{[-o|--output]}} {{path/to/output_file}}`
 
 - Generate 3 random numbers in the range 1-10 (inclusive):
 
-`shuf --head-count=3 --input-range=1-10 --repeat`
+`shuf {{[-n|--head-count]}} 3 {{[-i|--input-range]}} 1-10 {{[-r|--repeat]}}`

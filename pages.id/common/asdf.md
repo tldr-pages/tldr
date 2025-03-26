@@ -1,7 +1,7 @@
 # asdf
 
 > Alat baris perintah untuk mengatur versi paket piranti lunak yang berbeda-beda.
-> Informasi lebih lanjut: <https://asdf-vm.com>.
+> Informasi lebih lanjut: <https://asdf-vm.com/manage/commands.html>.
 
 - Tampilkan seluruh plugin yang tersedia untuk dipasang:
 
@@ -21,8 +21,8 @@
 
 - Setel versi bawaan/default paket piranti lunak yang akan digunakan secara global (seluruh pengguna):
 
-`asdf global {{nama}} {{versi}}`
+`asdf set -u {{nama}} {{versi}}`
 
 - Setel versi bawaan/default paket piranti lunak yang akan digunakan secara lokal (pengguna saat ini):
 
-`asdf local {{nama}} {{versi}}`
+`asdf set {{nama}} {{versi}}`

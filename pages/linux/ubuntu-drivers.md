@@ -10,3 +10,7 @@
 - Install drivers for detected hardware:
 
 `sudo ubuntu-drivers install`
+
+- Display help:
+
+`ubuntu-drivers`

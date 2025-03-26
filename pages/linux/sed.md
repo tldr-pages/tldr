@@ -18,7 +18,7 @@
 
 - Execute a specific script file and print the result to `stdout`:
 
-`{{command}} | sed {{-f|--file}} {{path/to/script.sed}}`
+`{{command}} | sed {{[-f|--file]}} {{path/to/script.sed}}`
 
 - Print just the first line to `stdout`:
 

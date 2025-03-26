@@ -17,7 +17,7 @@ jobs:
         key: cache-lychee-${{ github.sha }}
         restore-keys: cache-lychee-
 
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       with:
         fetch-depth: 0
 
@@ -27,7 +27,7 @@ jobs:
         sort -u usernames.txt -o usernames.txt
 
     - name: Lychee URL checker
-      uses: lycheeverse/lychee-action@v2
+      uses: lycheeverse/lychee-action@f613c4a64e50d792e0b31ec34bbcbba12263c6a6 # v2.3.0
       id: lychee
       continue-on-error: true
       with:
@@ -41,7 +41,7 @@ jobs:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
     - name: Find the last report issue open
-      uses: micalevisk/last-issue-action@v2
+      uses: micalevisk/last-issue-action@0d40124cc99ac8601c2516007f0c98ef3d27537b # v2.3.0
       id: last-issue
       with:
         state: open
@@ -51,7 +51,7 @@ jobs:
 
     - name: Update last report open issue created
       if: ${{ env.lychee_exit_code != 0 }}
-      uses: peter-evans/create-issue-from-file@v5
+      uses: peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd # v5.0.1
       with:
         title: GitHub usernames with errors
         content-filepath: lychee/out.md
@@ -63,7 +63,7 @@ jobs:
       run: gh issue close ${{ steps.last-issue.outputs.issue-number }}
 
     - name: Save lychee cache
-      uses: actions/cache/save@v4
+      uses: actions/cache/save@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
       if: always()
       with:
         path: .lycheecache

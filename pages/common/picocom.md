@@ -18,3 +18,7 @@
 - Exit picocom:
 
 `<Ctrl a><Ctrl x>`
+
+- Display help:
+
+`picocom {{[-h|--help]}}`

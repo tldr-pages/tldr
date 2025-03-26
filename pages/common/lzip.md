@@ -10,28 +10,28 @@
 
 - Archive a file, keeping the input file:
 
-`lzip -k {{path/to/file}}`
+`lzip {{[-k|--keep]}} {{path/to/file}}`
 
 - Archive a file with the best compression (level=9):
 
-`lzip -k {{path/to/file}} --best`
+`lzip {{[-k|--keep]}} {{path/to/file}} --best`
 
 - Archive a file at the fastest speed (level=0):
 
-`lzip -k {{path/to/file}} --fast`
+`lzip {{[-k|--keep]}} {{path/to/file}} --fast`
 
 - Test the integrity of compressed file:
 
-`lzip --test {{path/to/archive.lz}}`
+`lzip {{[-t|--test]}} {{path/to/archive.lz}}`
 
 - Decompress a file, replacing it with the original uncompressed version:
 
-`lzip -d {{path/to/archive.lz}}`
+`lzip {{[-d|--decompress]}} {{path/to/archive.lz}}`
 
 - Decompress a file, keeping the archive:
 
-`lzip -d -k {{path/to/archive.lz}}`
+`lzip {{[-d|--decompress]}} {{[-k|--keep]}} {{path/to/archive.lz}}`
 
 - List files which are in an archive and show compression stats:
 
-`lzip --list {{path/to/archive.lz}}`
+`lzip {{[-l|--list]}} {{path/to/archive.lz}}`
