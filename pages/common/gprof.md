@@ -6,7 +6,7 @@
 
 - Compile binary to default `a.out` with gprof information and run it to get `gmon.out`:
 
-`gcc -pg {{program.c}} && ./a.out`
+`gcc {{[-p|-pg]}} {{program.c}} && ./a.out`
 
 - Run gprof on default `a.out` and `gmon.out` to obtain profile output:
 
@@ -18,8 +18,8 @@
 
 - Suppress profile field's description:
 
-`gprof -b`
+`gprof {{[-b|--brief]}}`
 
 - Display routines that have zero usage:
 
-`gprof -bz`
+`gprof {{[-bz|--brief --display-unused-functions]}}`

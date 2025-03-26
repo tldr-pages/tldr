@@ -9,16 +9,16 @@
 
 - Require all path components to exist:
 
-`realpath --canonicalize-existing {{path/to/file_or_directory}}`
+`realpath {{[-e|--canonicalize-existing]}} {{path/to/file_or_directory}}`
 
 - Resolve ".." components before symlinks:
 
-`realpath --logical {{path/to/file_or_directory}}`
+`realpath {{[-L|--logical]}} {{path/to/file_or_directory}}`
 
 - Disable symlink expansion:
 
-`realpath --no-symlinks {{path/to/file_or_directory}}`
+`realpath {{[-s|--no-symlinks]}} {{path/to/file_or_directory}}`
 
 - Suppress error messages:
 
-`realpath --quiet {{path/to/file_or_directory}}`
+`realpath {{[-q|--quiet]}} {{path/to/file_or_directory}}`

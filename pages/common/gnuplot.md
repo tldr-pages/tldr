@@ -17,4 +17,4 @@
 
 - Persist the graph plot preview window after gnuplot exits:
 
-`gnuplot --persist {{path/to/definition.plt}}`
+`gnuplot {{[-p|--persist]}} {{path/to/definition.plt}}`
