@@ -1,7 +1,7 @@
 # copr
 
 > Interface with Fedora-Projects copr instance for building RPMs and publishing them.
-> More information: <https://developer.fedoraproject.org/deployment/copr/copr-cli.html>.
+> More information: <https://manned.org/copr>.
 
 - Show user logged in to copr:
 
