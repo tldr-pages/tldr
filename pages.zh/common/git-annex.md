@@ -10,11 +10,11 @@
 
 - 添加文件：
 
-`git annex add {{path/to/file_or_directory}}`
+`git annex add {{路径/到/文件或目录}}`
 
 - 显示文件或目录的当前状态：
 
-`git annex status {{path/to/file_or_directory}}`
+`git annex status {{路径/到/文件或目录}}`
 
 - 同步本地仓库与远程仓库：
 
@@ -22,7 +22,7 @@
 
 - 获取文件或目录（从键值存储中恢复内容）：
 
-`git annex get {{path/to/file_or_directory}}`
+`git annex get {{路径/到/文件或目录}}`
 
 - 显示帮助信息：
 
