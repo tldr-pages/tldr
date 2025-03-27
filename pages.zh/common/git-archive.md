@@ -16,11 +16,11 @@
 `git archive {{[-v|--verbose]}} {{[-o|--output]}} {{path/to/file.zip}} HEAD`
 
 - 从指定分支的最新提交内容创建 tar 归档：
-  
+
 `git archive {{[-o|--output]}} {{path/to/file.tar}} {{branch_name}}`
 
 - 使用特定目录的内容创建归档：
-  
+
 `git archive {{[-o|--output]}} {{path/to/file.tar}} HEAD:{{path/to/directory}}`
 
 - 为归档中的每个文件添加前缀路径：
