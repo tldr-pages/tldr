@@ -2,7 +2,7 @@
 
 > Expressive programming language and a versatile interactive shell.
 > See also: `nu`.
-> More information: <https://elv.sh>.
+> More information: <https://elv.sh/ref/command.html>.
 
 - Start an interactive shell session:
 

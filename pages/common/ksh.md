@@ -1,8 +1,8 @@
 # ksh
 
 > Korn Shell, a Bash-compatible command-line interpreter.
-> See also: `histexpand`.
-> More information: <http://kornshell.com>.
+> See also: `!`, `^`.
+> More information: <https://manned.org/ksh>.
 
 - Start an interactive shell session:
 

@@ -1,24 +1,24 @@
 # bup
 
 > Backup system based on the Git packfile format, providing incremental saves and global deduplication.
-> More information: <https://github.com/bup/bup>.
+> More information: <https://manned.org/bup>.
 
-- Initialize a backup repository in a given local [d]irectory:
+- Initialize a backup repository in a given local directory:
 
-`bup -d {{path/to/repository}} init`
+`bup {{[-d|--bup-dir]}} {{path/to/repository}} init`
 
-- Prepare a given [d]irectory before taking a backup:
+- Prepare a given directory before taking a backup:
 
-`bup -d {{path/to/repository}} index {{path/to/directory}}`
+`bup {{[-d|--bup-dir]}} {{path/to/repository}} index {{path/to/directory}}`
 
-- Backup a [d]irectory to the repository specifying its [n]ame:
+- Backup a directory to the repository specifying its name:
 
-`bup -d {{path/to/repository}} save -n {{backup_name}} {{path/to/directory}}`
+`bup {{[-d|--bup-dir]}} {{path/to/repository}} save {{[-n|--name]}} {{backup_name}} {{path/to/directory}}`
 
 - Show the backup snapshots currently stored in the repository:
 
-`bup -d {{path/to/repository}} ls`
+`bup {{[-d|--bup-dir]}} {{path/to/repository}} ls`
 
-- Restore a specific backup snapshot to a target dire[C]tory:
+- Restore a specific backup snapshot to a target directory:
 
-`bup -d {{path/to/repository}} restore -C {{path/to/target_directory}} {{backup_name}}`
+`bup {{[-d|--bup-dir]}} {{path/to/repository}} restore {{[-C|--outdir]}} {{path/to/target_directory}} {{backup_name}}`
