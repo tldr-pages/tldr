@@ -146,7 +146,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [4 September 2023](https://github.com/tldr-pages/tldr/issues/10611) — [3 October 2024](https://github.com/tldr-pages/tldr/issues/13956)
 - Renie ([@renie](https://github.com/renie)):
   [03 October 2024](https://github.com/tldr-pages/tldr/issues/13946) — [23 October 2024](https://github.com/tldr-pages/tldr/issues/14343)
-- **Machiavelli ([@MachiavelliII](https://github.com/MachiavelliII))**:
+- Machiavelli ([@MachiavelliII](https://github.com/MachiavelliII)):
   [21 January 2025](https://github.com/tldr-pages/tldr/issues/15564) — [27 Mar 2025](https://github.com/tldr-pages/tldr/issues/16036)
 
 ## Organization members
