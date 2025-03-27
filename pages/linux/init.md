@@ -2,7 +2,7 @@
 
 > Linux run level manager.
 > Requires the SYSVINIT compile-time option to be enabled if using systemd.
-> More information: <https://manned.org/man/init.8>.
+> More information: <https://manned.org/init.8>.
 
 - Set the system to run a graphical environment:
 
