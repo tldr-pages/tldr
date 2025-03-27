@@ -11,9 +11,9 @@
 
 `ddgr {{keyword}}`
 
-- Limit the number of search results to `N`:
+- Limit the number of search results to `n`:
 
-`ddgr -n {{N}} {{keyword}}`
+`ddgr -n {{n}} {{keyword}}`
 
 - Display the complete URL in search results:
 

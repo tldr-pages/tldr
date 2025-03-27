@@ -6,8 +6,8 @@
 
 - Enlarge the specified image by the specified factor:
 
-`pamenlarge -scale {{N}} {{path/to/image.pam}} > {{path/to/output.pam}}`
+`pamenlarge -scale {{n}} {{path/to/image.pam}} > {{path/to/output.pam}}`
 
 - Enlarge the specified image by the specified factors horizontally and vertically:
 
-`pamenlarge -xscale {{XN}} -yscale {{YN}} {{path/to/image.pam}} > {{path/to/output.pam}}`
+`pamenlarge -xscale {{xn}} -yscale {{yn}} {{path/to/image.pam}} > {{path/to/output.pam}}`

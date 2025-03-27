@@ -3,22 +3,22 @@
 > Show which installed packages occupy the most space on `apt` based systems.
 > More information: <https://manned.org/dpigs>.
 
-- Display the N largest packages on the system:
+- Display the `n` largest packages on the system:
 
-`dpigs --lines={{N}}`
+`dpigs {{[-n|--lines]}} {{n}}`
 
-- Use the specified file instead of the default dpkg [s]tatus file:
+- Use the specified file instead of the default dpkg status file:
 
-`dpigs --status={{path/to/file}}`
+`dpigs {{[-s|--status]}} {{path/to/file}}`
 
-- Display the largest [S]ource packages of binary packages installed on the system:
+- Display the largest source packages of binary packages installed on the system:
 
-`dpigs --source`
+`dpigs {{[-S|--source]}}`
 
-- Display package sizes in [H]uman-readable format:
+- Display package sizes in human-readable format:
 
-`dpigs --human-readable`
+`dpigs {{[-H|--human-readable]}}`
 
 - Display help:
 
-`dpigs --help`
+`dpigs {{[-h|--help]}}`
