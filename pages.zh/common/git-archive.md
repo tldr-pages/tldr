@@ -3,19 +3,19 @@
 > 从代码树创建文件归档。
 > 更多信息： <https://git-scm.com/docs/git-archive>.
 
-- 从当前HEAD内容创建tar归档并输出到标准输出：
+- 从当前 HEAD 内容创建 tar 归档并输出到标准输出：
 
 `git archive {{[-v|--verbose]}} HEAD`
 
-- 使用Zip格式并显示详细进度：
+- 使用 Zip 格式并显示详细进度：
 
 `git archive {{[-v|--verbose]}} --format zip HEAD`
 
-- 将Zip归档输出到指定文件：
+- 将 Zip 归档输出到指定文件：
 
 `git archive {{[-v|--verbose]}} {{[-o|--output]}} {{path/to/file.zip}} HEAD`
 
-- 从指定分支的最新提交内容创建tar归档：
+- 从指定分支的最新提交内容创建 tar 归档：
   
 `git archive {{[-o|--output]}} {{path/to/file.tar}} {{branch_name}}`
 
