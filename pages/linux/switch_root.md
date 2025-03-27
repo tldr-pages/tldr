@@ -11,4 +11,4 @@
 
 - Display help:
 
-`switch_root -h`
+`switch_root {{[-h|--help]}}`
