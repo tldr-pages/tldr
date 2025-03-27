@@ -7,6 +7,6 @@
 
 `shift`
 
-- Remove the first `N` positional parameters:
+- Remove the first `n` positional parameters:
 
-`shift {{N}}`
+`shift {{n}}`

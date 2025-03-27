@@ -11,9 +11,9 @@
 
 `googler -j {{keyword}}`
 
-- Show N search results (default 10):
+- Show `n` search results (default: 10):
 
-`googler -n {{N}} {{keyword}}`
+`googler -n {{n}} {{keyword}}`
 
 - Disable automatic spelling correction:
 
