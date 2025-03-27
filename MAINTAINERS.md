@@ -172,8 +172,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [3 April 2024](https://github.com/tldr-pages/tldr/issues/12594) — present
 - **Magrid0 ([@Magrid0](https://github.com/Magrid0))**:
   [3 May 2024](https://github.com/tldr-pages/tldr/issues/12717) — present
-- **Machiavelli ([@MachiavelliII](https://github.com/MachiavelliII))**:
-  [27 Mar 2025](https://github.com/tldr-pages/tldr/issues/16036) -present
 - **Darío Hereñú ([@kant](https://github.com/kant))**:
   [3 May 2024](https://github.com/tldr-pages/tldr/issues/12718) — present
 - **Wiktor Perskawiec ([@spageektti](https://github.com/spageektti))**:
@@ -182,6 +180,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [3 October 2024](https://github.com/tldr-pages/tldr/issues/13956) — present
 - **Renie ([@renie](https://github.com/renie))**:
   [23 October 2024](https://github.com/tldr-pages/tldr/issues/14343) — present
+- **Machiavelli ([@MachiavelliII](https://github.com/MachiavelliII))**:
+  [27 Mar 2025](https://github.com/tldr-pages/tldr/issues/16036) -present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
