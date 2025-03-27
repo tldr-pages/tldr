@@ -31,3 +31,7 @@
 - 列出某个命令的所有可用子命令页面：
 
 `tldr {{[-l|--list]}} | grep {{命令}} | column`
+
+- 打印随机命令的 tldr 页面：
+
+`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`
