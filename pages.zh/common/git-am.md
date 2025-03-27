@@ -2,7 +2,7 @@
 
 > 应用补丁文件并创建提交。在通过电子邮件接收提交时非常有用。
 > 另请参阅 `git format-patch`，该命令可以生成补丁文件。
-> 更多信息: <https://git-scm.com/docs/git-am>.
+> 更多信息：<https://git-scm.com/docs/git-am>.
 
 - 应用本地补丁文件并提交更改：
 
