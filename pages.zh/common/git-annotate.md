@@ -7,12 +7,12 @@
 
 - 打印文件内容，并在每行前附加作者姓名和提交哈希值：
 
-`git annotate {{path/to/file}}`
+`git annotate {{路径/到/文件}}`
 
 - 打印文件内容，并在每行前附加作者邮箱和提交哈希值：
 
-`git annotate {{[-e|--show-email]}} {{path/to/file}}`
+`git annotate {{[-e|--show-email]}} {{路径/到/文件}}`
 
 - 仅打印匹配正则表达式的行：
 
-`git annotate -L :{{regexp}} {{path/to/file}}`
+`git annotate -L :{{regexp}} {{路径/到/文件}}`
