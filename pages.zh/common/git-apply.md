@@ -6,11 +6,11 @@
 
 - 显示补丁文件的应用详情：
 
-`git apply --verbose {{path/to/file}}`
+`git apply --verbose {{路径/到/文件}}`
 
 - 应用补丁并将修改添加到暂存区：
 
-`git apply --index {{path/to/file}}`
+`git apply --index {{路径/到/文件}}`
 
 - 应用远程补丁文件：
 
@@ -18,12 +18,12 @@
 
 - 应用远程补丁文件：
 
-`git apply --stat --apply {{path/to/file}}`
+`git apply --stat --apply {{路径/到/文件}}`
 
 - 反向应用补丁（撤销更改）：
 
-`git apply --reverse {{path/to/file}}`
+`git apply --reverse {{路径/到/文件}}`
 
 - 将补丁结果存入暂存区但不修改工作区：
 
-`git apply --cache {{path/to/file}}`
+`git apply --cache {{路径/到/文件}}`
