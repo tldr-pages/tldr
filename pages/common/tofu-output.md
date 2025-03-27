@@ -15,6 +15,6 @@
 
 `tofu output -raw`
 
-- Format the outputs as a JSON object, with a key per output (useful with jq):
+- Format the outputs as a JSON object, with a key per output (useful with `jq`):
 
 `tofu output -json`
