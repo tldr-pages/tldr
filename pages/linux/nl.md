@@ -1,7 +1,7 @@
 # nl
 
 > Number lines from a file or from `stdin`.
-> More information: <https://manned.org/man/nl>.
+> More information: <https://manned.org/nl>.
 
 - Number non-blank lines in a file:
 

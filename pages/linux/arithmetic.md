@@ -1,7 +1,7 @@
 # arithmetic
 
 > Quiz on simple arithmetic problems.
-> More information: <https://manned.org/arithmetic.6>.
+> More information: <https://manned.org/arithmetic>.
 
 - Start an arithmetic quiz:
 

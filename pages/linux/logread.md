@@ -7,9 +7,9 @@
 
 `logread`
 
-- Print a specified number of messages:
+- Print `n` messages:
 
-`logread -l {{N}}`
+`logread -l {{n}}`
 
 - Filter messages by (Keyword/Regular Expression):
 

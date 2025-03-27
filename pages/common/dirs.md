@@ -12,9 +12,9 @@
 
 `dirs -p`
 
-- Display only the nth entry in the directory stack, starting at 0:
+- Display only the `n`th entry in the directory stack, starting at 0:
 
-`dirs +{{N}}`
+`dirs +{{n}}`
 
 - Clear the directory stack:
 
