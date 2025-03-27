@@ -1,7 +1,7 @@
 # asterisk
 
 > Run and manage telephone and exchange (phone) server instances.
-> More information: <https://docs.asterisk.org>.
+> More information: <https://docs.asterisk.org/Operation/>.
 
 - [r]econnect to a running server, and turn on logging 3 levels of [v]erbosity:
 

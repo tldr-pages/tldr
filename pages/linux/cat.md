@@ -19,7 +19,7 @@
 
 `cat - > {{path/to/file}}`
 
-- [n]umber all output lines:
+- Number all output lines:
 
 `cat {{[-n|--number]}} {{path/to/file}}`
 

@@ -12,11 +12,11 @@
 
 `sudo setsebool {{httpd_can_network_connect}} {{1|true|on|0|false|off}}`
 
-- Set or unset a boolean [p]ersistently:
+- Set or unset a boolean [P]ersistently:
 
 `sudo setsebool -P {{container_use_devices}} {{1|true|on|0|false|off}}`
 
-- Set or unset multiple booleans [p]ersistently at once:
+- Set or unset multiple booleans [P]ersistently at once:
 
 `sudo setsebool -P {{ftpd_use_fusefs=1 mount_anyfile=0 ...}}`
 
