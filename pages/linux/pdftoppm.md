@@ -3,9 +3,9 @@
 > Convert PDF document pages to portable Pixmap (image formats).
 > More information: <https://manned.org/pdftoppm>.
 
-- Specify the range of pages to convert (N-first page, M-last page):
+- Specify the range of pages to convert (`n` - first page, `m` - last page):
 
-`pdftoppm -f {{N}} -l {{M}} {{path/to/file.pdf}} {{image_name_prefix}}`
+`pdftoppm -f {{n}} -l {{m}} {{path/to/file.pdf}} {{image_name_prefix}}`
 
 - Convert only the first page of a PDF:
 

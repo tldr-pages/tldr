@@ -9,4 +9,4 @@
 
 - Exit a login shell and specify a return value:
 
-`logout {{N}}`
+`logout {{exit_code}}`
