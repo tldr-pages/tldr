@@ -1,7 +1,7 @@
 # git archive
 
 > 从代码树创建文件归档。
-> 更多信息： <https://git-scm.com/docs/git-archive>.
+> 更多信息：<https://git-scm.com/docs/git-archive>.
 
 - 从当前 HEAD 内容创建 tar 归档并输出到标准输出：
 
