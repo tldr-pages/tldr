@@ -14,7 +14,7 @@
 
 - Show verbose information about devices that support verbosity:
 
-`sudo tlp-stat --verbose --{{battery|processor|pcie|usb}}`
+`sudo tlp-stat {{[-v|--verbose]}} --{{battery|processor|pcie|usb}}`
 
 - Show configuration:
 
@@ -28,7 +28,7 @@
 
 `sudo tlp-stat --psup`
 
-- Show [temp]eratures and fan speed:
+- Show [t]emperatures and fan speed:
 
 `sudo tlp-stat {{[-t|--temp]}}`
 
