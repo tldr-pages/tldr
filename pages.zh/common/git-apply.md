@@ -2,7 +2,7 @@
 
 > 将补丁应用到文件和/或暂存区，但不创建提交。
 > 另请参阅  `git am`，该命令不仅能应用补丁还会创建提交。
-> 更多信息： <https://git-scm.com/docs/git-apply>.
+> 更多信息：<https://git-scm.com/docs/git-apply>.
 
 - 显示补丁文件的应用详情：
 
