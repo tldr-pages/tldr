@@ -13,4 +13,4 @@
 
 - Create an archive out of a directory and use the file count of that directory to create a progress bar:
 
-`tar -zcf - {{docs/}} | tqdm --bytes --total $(du -sb {{docs/}} | cut -f1) > {{backup.tgz}}`
+`zip -r {{backup.zip}} {{dir}} | tqdm --total $(find {{dir}} | wc -l) --unit files --null`
