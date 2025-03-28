@@ -18,4 +18,4 @@
 
 - Specify the thresholding value for quantization methods that perform some sort of thresholding:
 
-`ppmditherbw -{{fs|atkinson|thresholding}} {{[-v|-value]}} {{0.3}} {{path/to/image.pgm}} > {{path/to/file.pgm}}`
+`ppmditherbw -{{fs|atkinson|thresholding}} {{[-va|-value]}} {{0.3}} {{path/to/image.pgm}} > {{path/to/file.pgm}}`
