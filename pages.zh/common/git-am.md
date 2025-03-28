@@ -6,7 +6,7 @@
 
 - 应用本地补丁文件并提交更改：
 
-`git am {{path/to/file.patch}}`
+`git am {{路径/到/目录.patch}}`
 
 - 应用远程补丁文件并提交更改：
 
@@ -18,4 +18,4 @@
 
 - 尽可能应用补丁文件，将失败的代码块保存到拒绝文件中：
 
-`git am --reject {{path/to/file.patch}}`
+`git am --reject {{路径/到/目录.patch}}`
