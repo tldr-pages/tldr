@@ -13,4 +13,4 @@
 
 - Set the color depth of the output to b bits:
 
-`pnmtoxwd {{[-p|-pseudodepth]}} {{b}} {{path/to/input_file.pnm}} > {{path/to/output_file.xwd}}`
+`pnmtoxwd {{[-ps|-pseudodepth]}} {{b}} {{path/to/input_file.pnm}} > {{path/to/output_file.xwd}}`
