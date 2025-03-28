@@ -1,7 +1,7 @@
 # nnn
 
 > Interactive terminal file manager and disk usage analyzer.
-> More information: <https://github.com/jarun/nnn>.
+> More information: <https://github.com/jarun/nnn/wiki/Usage#program-options>.
 
 - Open the current directory (or specify one as the first argument):
 

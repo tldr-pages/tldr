@@ -5,8 +5,8 @@
 
 - Disable one or more CPUs by their IDs:
 
-`chcpu -d {{1,3}}`
+`chcpu {{[-d|--disable]}} {{1,3}}`
 
 - Enable one or more ranges of CPUs by their IDs:
 
-`chcpu -e {{1-3,5-7}}`
+`chcpu {{[-e|--enable]}} {{1-3,5-7}}`

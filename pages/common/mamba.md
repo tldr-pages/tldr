@@ -6,11 +6,11 @@
 
 - Create a new environment, installing the specified packages into it:
 
-`mamba create --name {{environment_name}} {{python=3.10 matplotlib}}`
+`mamba create {{[-n|--name]}} {{environment_name}} {{python=3.10 matplotlib}}`
 
-- Install packages into the current environment, specifying the package [c]hannel:
+- Install packages into the current environment, specifying the package channel:
 
-`mamba install -c {{conda-forge}} {{python=3.6 numpy}}`
+`mamba install {{[-c|--channel]}} {{conda-forge}} {{python=3.6 numpy}}`
 
 - Update all packages in the current environment:
 

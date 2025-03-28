@@ -11,6 +11,6 @@
 
 `golangci-lint linters`
 
-- [E]nable a specific linter for this run:
+- Enable a specific linter for this run:
 
-`golangci-lint run --enable {{linter}}`
+`golangci-lint run {{[-E|--enable]}} {{linter}}`

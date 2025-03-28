@@ -1,7 +1,7 @@
 # arp
 
 > Show and manipulate your system's ARP cache.
-> More information: <https://manned.org/arp>.
+> More information: <https://manned.org/arp.8>.
 
 - Show the current ARP table:
 

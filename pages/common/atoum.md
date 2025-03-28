@@ -1,7 +1,7 @@
 # atoum
 
 > A simple, modern and intuitive unit testing framework for PHP.
-> More information: <https://atoum.org>.
+> More information: <https://atoum.readthedocs.io/en/latest/option_cli.html>.
 
 - Initialize a configuration file:
 
@@ -11,26 +11,26 @@
 
 `atoum`
 
-- Run tests using the specified [c]onfiguration file:
+- Run tests using the specified configuration file:
 
-`atoum -c {{path/to/file}}`
+`atoum {{[-c|--configuration]}} {{path/to/file}}`
 
-- Run a specific test [f]ile:
+- Run a specific test file:
 
-`atoum -f {{path/to/file}}`
+`atoum {{[-f|--files]}} {{path/to/file}}`
 
-- Run a specific [d]irectory of tests:
+- Run a specific directory of tests:
 
-`atoum -d {{path/to/directory}}`
+`atoum {{[-d|--directories]}} {{path/to/directory}}`
 
-- Run all tests under a specific name[s]pace:
+- Run all tests under a specific namespace:
 
-`atoum -ns {{namespace}}`
+`atoum {{[-ns|--namespaces]}} {{namespace}}`
 
-- Run all tests with a specific [t]ag:
+- Run all tests with a specific tag:
 
-`atoum -t {{tag}}`
+`atoum {{[-t|--tags]}} {{tag}}`
 
 - Load a custom bootstrap file before running tests:
 
-`atoum --bootstrap-file {{path/to/file}}`
+`atoum {{[-bf|--bootstrap-file]}} {{path/to/file}}`
