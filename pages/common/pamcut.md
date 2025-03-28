@@ -14,4 +14,4 @@
 
 - Fill missing areas with black pixels if the specified rectangle does not entirely lie within the input image:
 
-`pamcut {{[-t|-top]}} {{value}} {{[-b|-bottom]}} {{value}} {{[-p|-pad]}} {{path/to/image.ppm}} > {{path/to/output.ppm}}`
+`pamcut {{[-t|-top]}} {{value}} {{[-b|-bottom]}} {{value}} -pad {{path/to/image.ppm}} > {{path/to/output.ppm}}`
