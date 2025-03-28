@@ -9,7 +9,7 @@
 
 - Display information about the conversion process:
 
-`xwdtopnm {{[-v|-verbose]}} {{path/to/input_file.xwd}} > {{path/to/output_file.pnm}}`
+`xwdtopnm {{[-verb|-verbose]}} {{path/to/input_file.xwd}} > {{path/to/output_file.pnm}}`
 
 - Display the contents of the X11 header of the input file:
 
