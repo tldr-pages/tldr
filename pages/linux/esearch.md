@@ -16,6 +16,6 @@
 
 `esearch -db nuccore -query "{{insulin [PROT] AND rodents [ORGN]}}"`
 
-- Display [h]elp:
+- Display help:
 
-`esearch -h`
+`esearch {{[-h|-help]}}`

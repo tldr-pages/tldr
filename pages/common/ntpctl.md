@@ -5,16 +5,16 @@
 
 - Show all data:
 
-`ntpctl -s {{a|all}}`
+`ntpctl -s {{[a|all]}}`
 
 - Show information about each peer:
 
-`ntpctl -s {{p|peers}}`
+`ntpctl -s {{[p|peers]}}`
 
 - Show the status of peers and sensors, and whether the system clock is synced:
 
-`ntpctl -s {{s|status}}`
+`ntpctl -s {{[s|status]}}`
 
 - Show information about each sensor:
 
-`ntpctl -s {{S|Sensors}}`
+`ntpctl -s {{[S|Sensors]}}`

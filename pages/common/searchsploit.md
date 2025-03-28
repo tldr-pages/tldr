@@ -14,19 +14,19 @@
 
 - Show the exploit-db link to the found resources:
 
-`searchsploit --www {{search_terms}}`
+`searchsploit {{[-w|--www]}} {{search_terms}}`
 
-- Copy ([m]irror) the resource to the current directory (requires the number of the exploit):
+- Copy the resource to the current directory (requires the number of the exploit):
 
-`searchsploit --mirror {{exploit_number}}`
+`searchsploit {{[-m|--mirror]}} {{exploit_number}}`
 
-- E[x]amine the resource, using the pager defined in the `$PAGER` environment variable:
+- Examine the resource, using the pager defined in the `$PAGER` environment variable:
 
-`searchsploit --examine {{exploit_number}}`
+`searchsploit {{[-x|--examine]}} {{exploit_number}}`
 
-- [u]pdate the local Exploit Database:
+- Update the local Exploit Database:
 
-`searchsploit --update`
+`searchsploit {{[-u|--update]}}`
 
 - Search for the [c]ommon [v]ulnerabilities and [e]xposures (CVE) value:
 

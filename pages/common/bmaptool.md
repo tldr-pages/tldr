@@ -1,11 +1,11 @@
 # bmaptool
 
 > Create or copy block maps intelligently (designed to be faster than `cp` or `dd`).
-> More information: <https://source.tizen.org/documentation/reference/bmaptool>.
+> More information: <https://manned.org/bmaptool>.
 
-- [o]utput a blockmap file from image file:
+- Output a blockmap file from image file:
 
-`bmaptool create -o {{blockmap.bmap}} {{source.img}}`
+`bmaptool create {{[-o|--output]}} {{blockmap.bmap}} {{source.img}}`
 
 - Copy an image file into sdb:
 

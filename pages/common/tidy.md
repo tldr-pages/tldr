@@ -8,10 +8,10 @@
 
 `tidy {{path/to/file.html}}`
 
-- Enable [i]ndentation, [w]rapping lines in 100, saving to `output.html`:
+- Enable indentation, wrapping lines in 100, saving to `output.html`:
 
-`tidy --indent y --wrap 100 -output {{path/to/output.html}} {{path/to/file.html}}`
+`tidy {{[-i|--indent]}} y {{[-w|--wrap]}} 100 {{[-o|-output]}} {{path/to/output.html}} {{path/to/file.html}}`
 
 - Modify an HTML file in-place using a configuration file:
 
-`tidy -config {{path/to/configuration}} -modify {{path/to/file.html}}`
+`tidy -config {{path/to/configuration}} {{[-m|-modify]}} {{path/to/file.html}}`

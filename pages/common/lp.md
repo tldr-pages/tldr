@@ -15,9 +15,9 @@
 
 `lp -d {{printer_name}} {{path/to/filename}}`
 
-- Print N copies of file to default printer (replace N with desired number of copies):
+- Print `n` copies of a file to the default printer:
 
-`lp -n {{N}} {{path/to/filename}}`
+`lp -n {{n}} {{path/to/filename}}`
 
 - Print only certain pages to the default printer (print pages 1, 3-5, and 16):
 
