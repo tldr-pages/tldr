@@ -13,4 +13,4 @@
 
 - Do not assume that the input file contains a PICT header and execute quickdraw operations only:
 
-`picttoppm {{[-n|-noheader]}} {{[-q|-quickdraw]}} {{path/to/file.pict}} > {{path/to/file.ppm}}`
+`picttoppm {{[-n|-noheader]}} {{[-quic|-quickdraw]}} {{path/to/file.pict}} > {{path/to/file.ppm}}`
