@@ -9,11 +9,11 @@
 
 - Produce an uncompressed SIXEL file that is much slower to print:
 
-`ppmtosixel -raw {{path/to/file.ppm}} > {{path/to/file.sixel}}`
+`ppmtosixel {{[-r|-raw]}} {{path/to/file.ppm}} > {{path/to/file.sixel}}`
 
 - Add a left margin of 1.5 inches:
 
-`ppmtosixel -margin {{path/to/file.ppm}} > {{path/to/file.sixel}}`
+`ppmtosixel {{[-m|-margin]}} {{path/to/file.ppm}} > {{path/to/file.sixel}}`
 
 - Encode control codes in a more portable (although less space-efficient) way:
 

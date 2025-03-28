@@ -9,4 +9,4 @@
 
 - Display version:
 
-`ppmtoppm -version`
+`ppmtoppm {{[-v|-version]}}`

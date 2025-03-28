@@ -9,4 +9,4 @@
 
 - Produce a PPM file of a camo pattern using the specified colors:
 
-`ppmpat -camo -color {{color1,color2,...}} {{width}} {{height}} > {{path/to/file.ppm}}`
+`ppmpat {{[-ca|-camo]}} {{[-co|-color]}} {{color1,color2,...}} {{width}} {{height}} > {{path/to/file.ppm}}`
