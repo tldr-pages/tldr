@@ -9,7 +9,7 @@
 
 - Display information about the input file:
 
-`palmtopnm {{[-v|-verbose]}} {{path/to/file.palm}} > {{path/to/file.pnm}}`
+`palmtopnm {{[-verb|-verbose]}} {{path/to/file.palm}} > {{path/to/file.pnm}}`
 
 - Convert the n'th rendition of the image contained in the input file:
 
