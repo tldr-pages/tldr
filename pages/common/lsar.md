@@ -12,7 +12,7 @@
 
 `lsar {{path/to/archive}} {{[-p|--password]}} {{password}}`
 
-- Print al[L] available information about each file in the archive (it's very long):
+- Print all available information about each file in the archive (it's very long):
 
 `lsar {{[-L|--verylong]}} {{path/to/archive}}`
 

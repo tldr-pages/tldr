@@ -7,9 +7,9 @@
 
 `banner "{{Hello World}}"`
 
-- Use a banner [w]idth of 50 characters:
+- Use a banner width of 50 characters:
 
-`banner -w 50 "{{Hello World}}"`
+`banner {{[-w|--width]}} 50 "{{Hello World}}"`
 
 - Read text from `stdin`:
 

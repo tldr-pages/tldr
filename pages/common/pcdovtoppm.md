@@ -7,14 +7,14 @@
 
 `pcdovtoppm {{path/to/file.pcd}} > {{path/to/output.ppm}}`
 
-- Specify the [m]aximum width of the output image and the maximum [s]ize of each of the images contained in the output:
+- Specify the maximum width of the output image and the maximum size of each of the images contained in the output:
 
-`pcdovtoppm -m {{width}} -s {{size}} {{path/to/file.pcd}} > {{path/to/output.ppm}}`
+`pcdovtoppm {{[-m|-maxwidth]}} {{width}} {{[-s|-size]}} {{size}} {{path/to/file.pcd}} > {{path/to/output.ppm}}`
 
-- Specify the maximum number of images [a]cross and the maximum number of [c]olours:
+- Specify the maximum number of images across and the maximum number of colours:
 
-`pcdovtoppm -a {{n_images}} -c {{n_colours}} {{path/to/file.pcd}} > {{path/to/output.ppm}}`
+`pcdovtoppm {{[-a|-across]}} {{n_images}} {{[-c|-colors]}} {{n_colours}} {{path/to/file.pcd}} > {{path/to/output.ppm}}`
 
-- Use the specified [f]ont for annotations and paint the background [w]hite:
+- Use the specified font for annotations and paint the background white:
 
-`pcdovtoppm -f {{font}} -w {{path/to/file.pcd}} > {{path/to/output.ppm}}`
+`pcdovtoppm {{[-f|-font]}} {{font}} {{[-w|-white]}} {{path/to/file.pcd}} > {{path/to/output.ppm}}`

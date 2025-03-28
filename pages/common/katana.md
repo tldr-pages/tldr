@@ -10,20 +10,20 @@
 
 - Crawl a [u]RL using headless mode using Chromium:
 
-`katana -u {{https://example.com}} -headless`
+`katana -u {{https://example.com}} {{[-hl|-headless]}}`
 
 - Use `subfinder` to find subdomains, and then use [p]a[s]sive sources (Wayback Machine, Common Crawl, and AlienVault) for URL discovery:
 
-`subfinder -list {{path/to/domains.txt}} | katana -passive`
+`subfinder {{[-dL|-list]}} {{path/to/domains.txt}} | katana -passive`
 
-- Pass requests through a proxy (http/socks5) and use custom [H]eaders from a file:
+- Pass requests through a proxy (http/socks5) and use custom headers from a file:
 
-`katana -proxy {{http://127.0.0.1:8080}} -headers {{path/to/headers.txt}} -u {{https://example.com}}`
+`katana -proxy {{http://127.0.0.1:8080}} {{[-H|-headers]}} {{path/to/headers.txt}} -u {{https://example.com}}`
 
-- Specify the crawling [s]trategy, [d]epth of subdirectories to crawl, and rate limiting (requests per second):
+- Specify the crawling strategy, depth of subdirectories to crawl, and rate limiting (requests per second):
 
-`katana -strategy {{depth-first|breadth-first}} -depth {{value}} -rate-limit {{value}} -u {{https://example.com}}`
+`katana {{[-s|-strategy]}} {{depth-first|breadth-first}} {{[-d|-depth]}} {{value}} {{[-rl|-rate-limit]}} {{value}} -u {{https://example.com}}`
 
-- Find subdomains using `subfinder`, crawl each for a maximum number of seconds, and write results to an [o]utput file:
+- Find subdomains using `subfinder`, crawl each for a maximum number of seconds, and write results to an output file:
 
-`subfinder -list {{path/to/domains.txt}} | katana -crawl-duration {{value}} -output {{path/to/output.txt}}`
+`subfinder {{[-dL|-list]}} {{path/to/domains.txt}} | katana {{[-ct|-crawl-duration]}} {{value}} {{[-o|-output]}} {{path/to/output.txt}}`
