@@ -9,7 +9,7 @@
 
 - Make the RGB colors in a PPM image compatible with PAL color systems:
 
-`ppmntsc {{[--p|--pal]}} {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`
+`ppmntsc --pal {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`
 
 - Print the number of illegal pixels in the input image to `stderr`:
 
