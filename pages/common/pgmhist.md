@@ -14,7 +14,7 @@
 
 - Display four quartile grey value:
 
-`pgmhist {{[-q|-quartile]}} {{path/to/image.pgm}}`
+`pgmhist {{[-qua|-quartile]}} {{path/to/image.pgm}}`
 
 - Report the existence of invalid grey values:
 
