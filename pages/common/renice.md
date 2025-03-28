@@ -3,20 +3,16 @@
 > Alter the scheduling priority/niceness of running processes.
 > Niceness values range from -20 (most favorable to the process) to 19 (least favorable to the process).
 > See also: `nice`.
-> More information: <https://manned.org/renice>.
+> More information: <https://manned.org/renice.1p>.
 
-- Set the absolute priority of a running process:
+- Increase/decrease the priority of a running [p]rocess:
 
-`renice --priority {{3}} {{[-p|--pid]}} {{pid}}`
+`renice -n {{3}} -p {{pid}}`
 
-- Increase the priority of a running process:
+- Increase/decrease the priority of all processes owned by a [u]ser:
 
-`sudo renice --relative {{-4}} {{[-p|--pid]}} {{pid}}`
+`renice -n {{-4}} -u {{uid|user}}`
 
-- Decrease the priority of all processes owned by a user:
+- Increase/decrease the priority of all processes that belong to a process [g]roup:
 
-`renice --relative {{4}} {{[-u|--user]}} {{uid|user}}`
-
-- Set the priority of all processes that belong to a process group:
-
-`sudo renice {{-5}} {{[-g|--pgrp]}} {{process_group}}`
+`renice -n {{5}} -g {{process_group}}`

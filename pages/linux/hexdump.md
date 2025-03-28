@@ -9,12 +9,12 @@
 
 - Display the input offset in hexadecimal and its ASCII representation in two columns:
 
-`hexdump -C {{path/to/file}}`
+`hexdump {{[-C|--canonical]}} {{path/to/file}}`
 
 - Display the hexadecimal representation of a file, but interpret only n bytes of the input:
 
-`hexdump -C -n{{number_of_bytes}} {{path/to/file}}`
+`hexdump {{[-C|--canonical]}} {{[-n|--length]}} {{number_of_bytes}} {{path/to/file}}`
 
 - Don't replace duplicate lines with '*':
 
-`hexdump --no-squeezing {{path/to/file}}`
+`hexdump {{[-v|--no-squeezing]}} {{path/to/file}}`
