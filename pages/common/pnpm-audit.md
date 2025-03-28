@@ -16,13 +16,13 @@
 
 `pnpm audit --json > {{path/to/audit-report.json}}`
 
-- Audit only [D]ev dependencies:
+- Audit only dev dependencies:
 
-`pnpm audit --dev`
+`pnpm audit {{[-D|--dev]}}`
 
-- Audit only [P]roduction dependencies:
+- Audit only production dependencies:
 
-`pnpm audit --prod`
+`pnpm audit {{[-P|--prod]}}`
 
 - Exclude optional dependencies from the audit:
 

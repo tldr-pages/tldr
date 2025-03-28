@@ -1,7 +1,7 @@
 # alacritty
 
 > Cross-platform, GPU-accelerated terminal emulator.
-> More information: <https://github.com/alacritty/alacritty>.
+> More information: <https://manned.org/alacritty>.
 
 - Start a new Alacritty process and create a window:
 
@@ -21,7 +21,7 @@
 
 - [e]xecute a command in a new Alacritty window (also works with `alacritty msg create-window`):
 
-`alacritty -e {{command}}`
+`alacritty {{[-e|--command]}} {{command}}`
 
 - Use an alternative configuration file (defaults to `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
