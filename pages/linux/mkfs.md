@@ -10,8 +10,8 @@
 
 - Build a filesystem of a specified type:
 
-`mkfs -t {{ext4}} {{path/to/partition}}`
+`mkfs {{[-t|--type]}} {{ext4}} {{path/to/partition}}`
 
 - Build a filesystem of a specified type and check for bad blocks:
 
-`mkfs -c -t {{ntfs}} {{path/to/partition}}`
+`mkfs -c {{[-t|--type]}} {{ntfs}} {{path/to/partition}}`

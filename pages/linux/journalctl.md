@@ -11,9 +11,9 @@
 
 `journalctl --vacuum-time 2d`
 
-- Show only the last N lines and follow new messages (like `tail -f` for traditional syslog):
+- Show only the last `n` lines and follow new messages (like `tail -f` for traditional syslog):
 
-`journalctl {{[-n|--lines]}} {{N}} {{[-f|--follow]}}`
+`journalctl {{[-n|--lines]}} {{n}} {{[-f|--follow]}}`
 
 - Show all messages by a specific unit:
 

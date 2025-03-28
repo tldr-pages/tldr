@@ -21,7 +21,7 @@
 
 - Prompt the current user to select a choice and prefer the [d]efault choice in a specific [t]ime:
 
-`choice /t {{5}} /d {{N}}`
+`choice /t {{5}} /d {{default_choice}}`
 
 - Display help:
 

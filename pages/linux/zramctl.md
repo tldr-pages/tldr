@@ -6,7 +6,7 @@
 
 - Check if zram is enabled:
 
-`lsmod | grep -i zram`
+`lsmod | grep {{[-i|--ignore-case]}} zram`
 
 - Enable zram with a dynamic number of devices (use `zramctl` to configure devices further):
 
@@ -18,7 +18,7 @@
 
 - Find and initialize the next free zram device to a 2 GB virtual drive using LZ4 compression:
 
-`sudo zramctl --find --size {{2GB}} --algorithm {{lz4}}`
+`sudo zramctl {{[-f|--find]}} {{[-s|--size]}} {{2GB}} {{[-a|--algorithm]}} {{lz4}}`
 
 - List currently initialized devices:
 

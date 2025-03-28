@@ -8,30 +8,30 @@
 
 `gh skyline`
 
-- Generate a skyline for a specific [u]ser and [y]ear:
+- Generate a skyline for a specific user and year:
 
-`gh skyline --user {{username}} --year {{year}}`
+`gh skyline {{[-u|--user]}} {{username}} {{[-y|--year]}} {{year}}`
 
-- Generate a skyline for a range of [y]ears:
+- Generate a skyline for a range of years:
 
-`gh skyline --user {{username}} --year {{first_year}}-{{last_year}}`
+`gh skyline {{[-u|--user]}} {{username}} {{[-y|--year]}} {{first_year}}-{{last_year}}`
 
-- Generate a [f]ull skyline (from the user's join year to the current year):
+- Generate a full skyline (from the user's join year to the current year):
 
-`gh skyline --user {{username}} --full`
+`gh skyline {{[-u|--user]}} {{username}} {{[-f|--full]}}`
 
-- Enable [d]ebug logging:
+- Enable debug logging:
 
-`gh skyline --debug`
+`gh skyline {{[-d|--debug]}}`
 
-- Generate a skyline and specify the [o]utput file path:
+- Generate a skyline and specify the output file path:
 
-`gh skyline --output {{path/to/output_file.stl}}`
+`gh skyline {{[-o|--output]}} {{path/to/output_file.stl}}`
 
-- Open the GitHub profile for a specific [u]ser:
+- Open the GitHub profile for a specific user:
 
-`gh skyline --user {{username}} --web`
+`gh skyline {{[-u|--user]}} {{username}} {{[-w|--web]}}`
 
-- Display [h]elp:
+- Display help:
 
-`gh skyline --help`
+`gh skyline {{[-h|--help]}}`

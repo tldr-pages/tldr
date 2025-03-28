@@ -1,7 +1,7 @@
 # dnf group
 
 > Gestiona colecciones virtuales de paquetes en sistemas basados en Fedora.
-> Más información: <https://manned.org/man/dnf-group>.
+> Más información: <https://manned.org/dnf-group>.
 
 - Lista los grupos DNF, mostrando el estado de instalado o no en una tabla:
 

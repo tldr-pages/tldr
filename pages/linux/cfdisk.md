@@ -9,4 +9,4 @@
 
 - Create a new partition table for a specific device and manage it:
 
-`cfdisk --zero {{/dev/sdX}}`
+`cfdisk {{[-z|--zero]}} {{/dev/sdX}}`

@@ -9,16 +9,16 @@
 
 - List all last logged in users since a given time:
 
-`sudo lastb --since {{YYYY-MM-DD}}`
+`sudo lastb {{[-s|--since]}} {{YYYY-MM-DD}}`
 
 - List all last logged in users until a given time:
 
-`sudo lastb --until {{YYYY-MM-DD}}`
+`sudo lastb {{[-t|--until]}} {{YYYY-MM-DD}}`
 
 - List all logged in users at a specific time:
 
-`sudo lastb --present {{hh:mm}}`
+`sudo lastb {{[-p|--present]}} {{hh:mm}}`
 
 - List all last logged in users and translate the IP into a hostname:
 
-`sudo lastb --dns`
+`sudo lastb {{[-d|--dns]}}`

@@ -1,7 +1,7 @@
 # lldpctl
 
 > Print link layer discovery protocol information.
-> More information: <https://manned.org/man/lldpctl>.
+> More information: <https://manned.org/lldpctl>.
 
 - Start the lldp daemon:
 

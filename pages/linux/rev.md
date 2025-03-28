@@ -17,12 +17,12 @@
 
 - Use '\0' as a line separator (zero termination):
 
-`rev -0 {{path/to/file}}`
+`rev {{[-0|--zero]}} {{path/to/file}}`
 
 - Display help:
 
-`rev -h`
+`rev {{[-h|--help]}}`
 
 - Display version:
 
-`rev -V`
+`rev {{[-V|--version]}}`
