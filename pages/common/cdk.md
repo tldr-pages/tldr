@@ -23,9 +23,9 @@
 
 `cdk diff {{stack_name}}`
 
-- Create a new CDK project in the current directory for a specified [l]anguage:
+- Create a new CDK project in the current directory for a specified language:
 
-`cdk init -l {{language}}`
+`cdk init {{[-l|--language]}} {{language}}`
 
 - Open the CDK API reference in your browser:
 

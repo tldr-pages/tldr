@@ -7,21 +7,21 @@
 
 `ansible-playbook {{playbook}}`
 
-- Run tasks in playbook with custom host [i]nventory:
+- Run tasks in playbook with custom host inventory:
 
-`ansible-playbook {{playbook}} -i {{inventory_file}}`
+`ansible-playbook {{playbook}} {{[-i|--inventory]}} {{inventory_file}}`
 
-- Run tasks in playbook with [e]xtra variables defined via the command-line:
+- Run tasks in playbook with extra variables defined via the command-line:
 
-`ansible-playbook {{playbook}} -e "{{variable1}}={{value1}} {{variable2}}={{value2}}"`
+`ansible-playbook {{playbook}} {{[-e|--extra-vars]}} "{{variable1}}={{value1}} {{variable2}}={{value2}}"`
 
-- Run tasks in playbook with [e]xtra variables defined in a JSON file:
+- Run tasks in playbook with extra variables defined in a JSON file:
 
-`ansible-playbook {{playbook}} -e "@{{variables.json}}"`
+`ansible-playbook {{playbook}} {{[-e|--extra-vars]}} "@{{variables.json}}"`
 
 - Run tasks in playbook for the given tags:
 
-`ansible-playbook {{playbook}} --tags {{tag1,tag2}}`
+`ansible-playbook {{playbook}} {{[-t|--tags]}} {{tag1,tag2}}`
 
 - Run tasks in a playbook starting at a specific task:
 
@@ -29,4 +29,4 @@
 
 - Run tasks in a playbook without making any changes (dry-run):
 
-`ansible-playbook {{playbook}} --check --diff`
+`ansible-playbook {{playbook}} {{[-C|--check]}} {{[-D|--diff]}}`

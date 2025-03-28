@@ -8,22 +8,22 @@
 
 `wiggle {{path/to/my_patch.patch}}`
 
-- Apply changes to the [o]utput file:
+- Apply changes to the output file:
 
-`wiggle {{path/to/my_patch.patch}} -o {{path/to/output_file.txt}}`
+`wiggle {{path/to/my_patch.patch}} {{[-o|--output]}} {{path/to/output_file.txt}}`
 
 - Take any changes in `file.rej` that could not have been applied and merge them into a file:
 
-`wiggle --replace {{path/to/file}} {{path/to/file.rej}}`
+`wiggle {{[-r|--replace]}} {{path/to/file}} {{path/to/file.rej}}`
 
-- E[x]tract one branch of a patch or merge file:
+- Extract one branch of a patch or merge file:
 
-`wiggle -x {{path/to/my_patch.patch}}`
+`wiggle {{[-x|--extract]}} {{path/to/my_patch.patch}}`
 
-- Apply a patch and save the compared words to the [o]utput file:
+- Apply a patch and save the compared words to the output file:
 
-`wiggle --words {{path/to/my_word_patch.patch}} -o {{path/to/word_patched_code.c}}`
+`wiggle {{[-w|--words]}} {{path/to/my_word_patch.patch}} {{[-o|--output]}} {{path/to/word_patched_code.c}}`
 
 - Display help about the merge function:
 
-`wiggle --merge --help`
+`wiggle {{[-m|--merge]}} {{[-h|--help]}}`

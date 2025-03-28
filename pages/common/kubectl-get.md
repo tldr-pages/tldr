@@ -7,26 +7,26 @@
 
 `kubectl get namespaces`
 
-- Get nodes in a specified [n]amespace:
+- Get nodes in a specified namespace:
 
-`kubectl get nodes --namespace {{namespace}}`
+`kubectl get nodes {{[-n|--namespace]}} {{namespace}}`
 
-- Get pods in a specified [n]amespace:
+- Get pods in a specified namespace:
 
-`kubectl get pods --namespace {{namespace}}`
+`kubectl get pods {{[-n|--namespace]}} {{namespace}}`
 
-- Get deployments in a specified [n]amespace:
+- Get deployments in a specified namespace:
 
-`kubectl get deployments --namespace {{namespace}}`
+`kubectl get deployments {{[-n|--namespace]}} {{namespace}}`
 
-- Get services in a specified [n]amespace:
+- Get services in a specified namespace:
 
-`kubectl get services --namespace {{namespace}}`
+`kubectl get services {{[-n|--namespace]}} {{namespace}}`
 
-- Get all resources in a specified [n]amespace:
+- Get all resources in a specified namespace:
 
-`kubectl get all --namespace {{namespace}}`
+`kubectl get all {{[-n|--namespace]}} {{namespace}}`
 
-- Get Kubernetes objects defined in a YAML manifest [f]ile:
+- Get Kubernetes objects defined in a YAML manifest file:
 
-`kubectl get --file {{path/to/manifest.yaml}}`
+`kubectl get {{[-f|--file]}} {{path/to/manifest.yaml}}`
