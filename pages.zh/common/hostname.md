@@ -11,10 +11,6 @@
 
 `hostname {{[-i|--ip-addresses]}}`
 
-- 显示主机的所有网络地址：
-
-`hostname -I`
-
 - 显示 FQDN（完全限定域名）：
 
 `hostname {{[-f|--fqdn]}}`
