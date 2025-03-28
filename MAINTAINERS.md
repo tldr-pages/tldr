@@ -181,7 +181,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Renie ([@renie](https://github.com/renie))**:
   [23 October 2024](https://github.com/tldr-pages/tldr/issues/14343) — present
 - **Machiavelli ([@MachiavelliII](https://github.com/MachiavelliII))**:
-  [27 Mar 2025](https://github.com/tldr-pages/tldr/issues/16036) -present
+  [27 Mar 2025](https://github.com/tldr-pages/tldr/issues/16036) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
