@@ -14,4 +14,4 @@
 
 - Use the specified threshold for all quantizations:
 
-`pbmreduce {{[-v|-value]}} {{0.6}} {{n}} {{path/to/image.pbm}} > {{path/to/output.pbm}}`
+`pbmreduce {{[-va|-value]}} {{0.6}} {{n}} {{path/to/image.pbm}} > {{path/to/output.pbm}}`
