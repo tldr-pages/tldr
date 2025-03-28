@@ -8,25 +8,25 @@
 
 `tgpt "{{prompt}}"`
 
-- Start [m]ulti-line interactive mode:
+- Start multi-line interactive mode:
 
-`tgpt --multiline`
+`tgpt {{[-m|--multiline]}}`
 
-- Generate [i]mages and save them to the current directory:
+- Generate images and save them to the current directory:
 
-`tgpt --image "{{prompt}}"`
+`tgpt {{[-img|--image]}} "{{prompt}}"`
 
-- Generate [c]ode with the default provider (GPT-3.5-turbo):
+- Generate code with the default provider (GPT-3.5-turbo):
 
-`tgpt --code "{{prompt}}"`
+`tgpt {{[-c|--code]}} "{{prompt}}"`
 
-- Chat with a specific provider [q]uietly (without animations):
+- Chat with a specific provider quietly (without animations):
 
-`tgpt --provider {{openai|opengpts|koboldai|phind|llama2|blackboxai}} --quiet --whole "{{prompt}}"`
+`tgpt --provider {{openai|opengpts|koboldai|phind|llama2|blackboxai}} {{[-q|--quiet]}} {{[-w|--whole]}} "{{prompt}}"`
 
-- Generate and execute [s]hell commands using a specific provider (with a confirmation prompt):
+- Generate and execute shell commands using a specific provider (with a confirmation prompt):
 
-`tgpt --provider {{llama2}} --shell "{{prompt}}"`
+`tgpt --provider {{llama2}} {{[-s|--shell]}} "{{prompt}}"`
 
 - Prompt with an API key, model, max response length, temperature, and `top_p` (required when using `openai` provider):
 

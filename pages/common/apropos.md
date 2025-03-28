@@ -9,8 +9,8 @@
 
 - Search without restricting the output to the terminal width ([l]ong output):
 
-`apropos -l {{regular_expression}}`
+`apropos {{[-l|--long]}} {{regular_expression}}`
 
-- Search for pages that match [a]ll the expressions given:
+- Search for pages that match all the expressions given:
 
-`apropos {{regular_expression_1}} -a {{regular_expression_2}} -a {{regular_expression_3}}`
+`apropos {{regular_expression_1}} {{[-a|--and]}} {{regular_expression_2}} {{[-a|--and]}} {{regular_expression_3}}`

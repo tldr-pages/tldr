@@ -7,9 +7,9 @@
 
 `wikit {{topic}}`
 
-- Specify a [l]anguage (ISO 639-1 language code):
+- Specify a language (ISO 639-1 language code):
 
-`wikit {{topic}} --lang {{language_code}}`
+`wikit {{topic}} {{[-l|--lang]}} {{language_code}}`
 
 - Open the full Wikipedia article in the default browser:
 
