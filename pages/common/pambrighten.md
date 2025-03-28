@@ -9,4 +9,4 @@
 
 - Increase the value (from the HSV color space) of each pixel by the specified percentage:
 
-`pambrighten {{[-v|-value]}} {{value_percent}} {{path/to/image.pam}} > {{path/to/output.pam}}`
+`pambrighten {{[-va|-value]}} {{value_percent}} {{path/to/image.pam}} > {{path/to/output.pam}}`
