@@ -8,10 +8,10 @@
 
 `git alias`
 
-- 创建一个别名
+- 为命令创建一个别名
 
-`git alias "{{name}}" "{{command}}"`
+`git alias "{{别名}}" "{{命令}}"`
 
 - 搜索一个现有的别名
 
-`git alias ^{{name}}`
+`git alias ^{{别名}}`
