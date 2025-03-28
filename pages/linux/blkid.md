@@ -9,4 +9,4 @@
 
 - List all partitions in a table, including current mountpoints:
 
-`sudo blkid -o list`
+`sudo blkid {{[-o|--output]}} list`

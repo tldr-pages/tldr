@@ -6,12 +6,12 @@
 
 - Run a command with a file lock as soon as the lock is not required by others:
 
-`flock {{path/to/lock.lock}} --command "{{command}}"`
+`flock {{path/to/lock.lock}} {{[-c|--command]}} "{{command}}"`
 
 - Run a command with a file lock, and exit if the lock doesn't exist:
 
-`flock {{path/to/lock.lock}} --nonblock --command "{{command}}"`
+`flock {{path/to/lock.lock}} {{[-n|--nonblock]}} {{[-c|--command]}} "{{command}}"`
 
 - Run a command with a file lock, and exit with a specific error code if the lock doesn't exist:
 
-`flock {{path/to/lock.lock}} --nonblock --conflict-exit-code {{error_code}} -c "{{command}}"`
+`flock {{path/to/lock.lock}} {{[-n|--nonblock]}} {{[-E|--conflict-exit-code]}} {{error_code}} {{[-c|--command]}} "{{command}}"`
