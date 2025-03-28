@@ -9,7 +9,7 @@
 
 - 显示主机名的网络地址：
 
-`hostname -i`
+`hostname {{[-i|--ip-addresses]}}`
 
 - 显示主机的所有网络地址：
 
@@ -17,7 +17,7 @@
 
 - 显示 FQDN（完全限定域名）：
 
-`hostname --fqdn`
+`hostname {{[-f|--fqdn]}}`
 
 - 设置本机主机名：
 
