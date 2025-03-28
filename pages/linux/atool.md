@@ -1,7 +1,7 @@
 # atool
 
 > Manage archives of various formats.
-> More information: <https://manned.org/man/atool>.
+> More information: <https://manned.org/atool>.
 
 - List files in a Zip archive:
 

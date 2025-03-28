@@ -15,9 +15,9 @@
 
 `readarray -t {{array_name}} < {{path/to/file.txt}}`
 
-- Copy at most the specified number of lines:
+- Copy at most `n` lines:
 
-`readarray -n {{N}} {{array_name}} < {{path/to/file.txt}}`
+`readarray -n {{n}} {{array_name}} < {{path/to/file.txt}}`
 
 - Display help:
 

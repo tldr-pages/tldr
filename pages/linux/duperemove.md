@@ -19,4 +19,4 @@
 
 - Limit I/O threads (for hashing and dedupe stage) and CPU threads (for duplicate extent finding stage):
 
-`duperemove -r -d --hashfile={{path/to/hashfile}} --io-threads={{N}} --cpu-threads={{N}} {{path/to/directory}}`
+`duperemove -r -d --hashfile={{path/to/hashfile}} --io-threads={{n}} --cpu-threads={{n}} {{path/to/directory}}`

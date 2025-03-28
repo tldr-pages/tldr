@@ -1,7 +1,7 @@
 # qcp
 
 > Copy files using the default text editor to define the filenames.
-> More information: <https://manned.org/man/qcp>.
+> More information: <https://manned.org/qcp>.
 
 - Copy a single file (open an editor with the source filename on the left and the target filename on the right):
 

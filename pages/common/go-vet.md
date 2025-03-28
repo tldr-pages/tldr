@@ -20,9 +20,9 @@
 
 `go tool vet help {{check_name}}`
 
-- Display offending lines plus N lines of surrounding context:
+- Display offending lines plus `n` lines of surrounding context:
 
-`go vet -c={{N}}`
+`go vet -c={{n}}`
 
 - Output analysis and errors in JSON format:
 
