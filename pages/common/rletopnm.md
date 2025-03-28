@@ -13,4 +13,4 @@
 
 - Operate in verbose mode and print the contents of the RLE header to `stdout`:
 
-`rletopnm {{[--v|--verbose]}} {{path/to/input.rle}} > {{path/to/output.pnm}}`
+`rletopnm {{[--verb|--verbose]}} {{path/to/input.rle}} > {{path/to/output.pnm}}`
