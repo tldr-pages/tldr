@@ -9,8 +9,8 @@
 
 - Use the splitspread strategy for determining the output colors, possibly producing a better result for images with small details:
 
-`pnmcolormap -splitspread {{n_colors}} {{path/to/input.pnm}} > {{path/to/output.ppm}}`
+`pnmcolormap {{[-splits|-splitspread]}} {{n_colors}} {{path/to/input.pnm}} > {{path/to/output.ppm}}`
 
 - Sort the resulting colormap, which is useful for comparing colormaps:
 
-`pnmcolormap -sort {{path/to/input.pnm}} > {{path/to/output.ppm}}`
+`pnmcolormap {{[-so|-sort]}} {{path/to/input.pnm}} > {{path/to/output.ppm}}`

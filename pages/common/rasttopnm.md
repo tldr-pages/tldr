@@ -9,4 +9,4 @@
 
 - Use the color map indices in the raster if they are color values:
 
-`rasttopnm -index {{path/to/input.rast}} > {{path/to/output.pnm}}`
+`rasttopnm {{[-i|-index]}} {{path/to/input.rast}} > {{path/to/output.pnm}}`
