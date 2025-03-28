@@ -13,7 +13,7 @@
 
 - Consider the m'th plane of the input image only:
 
-`pamslice {{[-r|-row]}} {{n}} {{[-p|-plane]}} {{m}} {{path/to/image.pam}}`
+`pamslice {{[-r|-row]}} {{n}} -plane {{m}} {{path/to/image.pam}}`
 
 - Produce output in a format suitable for input to an `xmgr` for visualisation:
 
