@@ -10,7 +10,7 @@
 
 - Specify the printer protocol of the output:
 
-`pbmtoepson {{[-p|-protocol]}} {{escp9|escp}} {{path/to/image.pbm}} > {{path/to/output.epson}}`
+`pbmtoepson {{[-pr|-protocol]}} {{escp9|escp}} {{path/to/image.pbm}} > {{path/to/output.epson}}`
 
 - Specify the horizontal DPI of the output:
 
