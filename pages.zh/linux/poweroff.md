@@ -5,7 +5,7 @@
 
 - 关闭系统电源：
 
-`sudo poweroff`
+`poweroff`
 
 - 停止系统（等同于 `halt`）：
 
