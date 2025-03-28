@@ -13,4 +13,4 @@
 
 - Print information on the PCX header to `stdout`:
 
-`pcxtoppm {{[-v|-verbose]}} {{path/to/file.pcx}} > {{path/to/file.ppm}}`
+`pcxtoppm {{[-verb|-verbose]}} {{path/to/file.pcx}} > {{path/to/file.ppm}}`
