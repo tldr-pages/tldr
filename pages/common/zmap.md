@@ -9,11 +9,11 @@
 
 - Scan specific ports or port ranges across a subnet:
 
-`zmap {{--target-ports}} {{port1,port2-port3}} {{SUBNETS}}`
+`zmap {{--target-ports}} {{port1,port2-port3,...}} {{SUBNETS}}`
 
 - Output results to a CSV file with custom fields:
 
-`zmap {{[-o|--output-file]}} {{path/to/output_file.csv}} {{[-f|--output-fields]}} "saddr,daddr,sport,dport" {{SUBNETS}}`
+`zmap {{[-o|--output-file]}} {{path/to/output_file.csv}} {{[-f|--output-fields]}} "{{saddr,daddr,sport,dport}}" {{SUBNETS}}`
 
 - Limit the scan rate to a specific number of packets per second:
 
@@ -31,6 +31,6 @@
 
 `zmap {{[-S|--source-ip]}} {{source_ip}} {{SUBNETS}}`
 
-- Cap the number/percentage of targets to probe (e.g., 1000 IP/port pairs):
+- Cap the number/percentage of targets to probe (e.g. 1000 IP/port pairs):
 
 `zmap {{[-n|--max-targets]}} {{1000}} {{SUBNETS}} {{[-p|--target-ports]}} {{port1,port2-port3}}`
