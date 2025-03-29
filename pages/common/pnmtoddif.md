@@ -9,4 +9,4 @@
 
 - Explicitly specify the horizontal and vertical resolution of the output image:
 
-`pnmtoddif -resolution {{horizontal_dpi}} {{vertical_dpi}} {{path/to/image.pnm}} > {{path/to/image.ddif}}`
+`pnmtoddif {{[-r|-resolution]}} {{horizontal_dpi}} {{vertical_dpi}} {{path/to/image.pnm}} > {{path/to/image.ddif}}`

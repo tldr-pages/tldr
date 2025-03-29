@@ -9,8 +9,8 @@
 
 - Use a predefined standard palette even if the PCX file provides one:
 
-`pcxtoppm -stdpalette {{path/to/file.pcx}} > {{path/to/file.ppm}}`
+`pcxtoppm {{[-s|-stdpalette]}} {{path/to/file.pcx}} > {{path/to/file.ppm}}`
 
 - Print information on the PCX header to `stdout`:
 
-`pcxtoppm -verbose {{path/to/file.pcx}} > {{path/to/file.ppm}}`
+`pcxtoppm {{[-verb|-verbose]}} {{path/to/file.pcx}} > {{path/to/file.ppm}}`

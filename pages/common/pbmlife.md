@@ -9,4 +9,4 @@
 
 - Display version:
 
-`pbmlife -version`
+`pbmlife {{[-v|-version]}}`

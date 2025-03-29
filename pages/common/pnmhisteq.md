@@ -9,7 +9,7 @@
 
 - Only modify grey pixels:
 
-`pnmhisteq -grey {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmhisteq {{[-g|-grey]}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
 
 - Do not include black or white pixels in the histogram equalization:
 

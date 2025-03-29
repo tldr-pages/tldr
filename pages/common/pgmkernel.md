@@ -14,4 +14,4 @@
 
 - Specify the weight of the center in the generated kernel:
 
-`pgmkernel -weight {{value}} {{width}} {{height}} > {{path/to/output.pgm}}`
+`pgmkernel {{[-w|-weight]}} {{value}} {{width}} {{height}} > {{path/to/output.pgm}}`

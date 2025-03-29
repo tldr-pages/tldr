@@ -9,12 +9,12 @@
 
 - Dump information from the TGA header to `stdout`:
 
-`tgatoppm --headerdump {{path/to/file.tga}} > {{path/to/output.ppm}}`
+`tgatoppm {{[-h|-headerdump]}} {{path/to/file.tga}} > {{path/to/output.ppm}}`
 
 - Write the transparency channel values of the input image to the specified file:
 
-`tgatoppm --alphaout {{path/to/transparency_file.pgm}} {{path/to/file.tga}} > {{path/to/output.ppm}}`
+`tgatoppm {{[-a|-alphaout]}} {{path/to/transparency_file.pgm}} {{path/to/file.tga}} > {{path/to/output.ppm}}`
 
 - Display version:
 
-`tgatoppm -version`
+`tgatoppm {{[-v|-version]}}`

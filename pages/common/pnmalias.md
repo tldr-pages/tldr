@@ -13,8 +13,8 @@
 
 - Apply altialiasing to foreground pixels only:
 
-`pnmalias -fonly {{path/to/input.pnm}} > {{path/to/output.ppm}}`
+`pnmalias {{[-fo|-fonly]}} {{path/to/input.pnm}} > {{path/to/output.ppm}}`
 
 - Apply antialiasing to all surrounding pixels of background pixels:
 
-`pnmalias -balias {{path/to/input.pnm}} > {{path/to/output.ppm}}`
+`pnmalias {{[-ba|-balias]}} {{path/to/input.pnm}} > {{path/to/output.ppm}}`

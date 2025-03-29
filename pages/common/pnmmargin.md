@@ -9,4 +9,4 @@
 
 - Specify the color of the border:
 
-`pnmmargin -color {{color}} {{size}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
+`pnmmargin {{[-c|-color]}} {{color}} {{size}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`

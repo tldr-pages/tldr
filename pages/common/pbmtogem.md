@@ -10,8 +10,8 @@
 
 - Suppress all informational messages:
 
-`pbmtogem -quiet`
+`pbmtogem {{[-q|-quiet]}}`
 
 - Display version:
 
-`pbmtogem -version`
+`pbmtogem {{[-v|-version]}}`

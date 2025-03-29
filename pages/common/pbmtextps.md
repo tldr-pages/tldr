@@ -14,8 +14,8 @@
 
 - Specify the desired left and top margins:
 
-`pbmtextps -leftmargin {{70}} -topmargin {{162}} "{{Hello World!}}" > {{path/to/output.pbm}}`
+`pbmtextps {{[-l|-leftmargin]}} {{70}} {{[-t|-topmargin]}} {{162}} "{{Hello World!}}" > {{path/to/output.pbm}}`
 
 - Do not output the rendered text as a PBM image, but a PostScript program that would create this image:
 
-`pbmtextps -dump-ps "{{Hello World!}}" > {{path/to/output.ps}}`
+`pbmtextps {{[-du|-dump-ps]}} "{{Hello World!}}" > {{path/to/output.ps}}`

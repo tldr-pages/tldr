@@ -9,8 +9,8 @@
 
 - Specify the desired number of shades for each primary color:
 
-`ppmdither -red {{2}} -green {{3}} -blue {{2}} {{path/to/image.ppm}} > {{path/to/file.ppm}}`
+`ppmdither {{[-r|-red]}} {{2}} {{[-g|-green]}} {{3}} {{[-b|-blue]}} {{2}} {{path/to/image.ppm}} > {{path/to/file.ppm}}`
 
 - Specify the dimensions of the dithering matrix:
 
-`ppmdither -dim {{2}} {{path/to/image.ppm}} > {{path/to/file.ppm}}`
+`ppmdither {{[-d|-dim]}} {{2}} {{path/to/image.ppm}} > {{path/to/file.ppm}}`

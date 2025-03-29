@@ -9,4 +9,4 @@
 
 - Display version:
 
-`neotoppm -version`
+`neotoppm {{[-v|-version]}}`

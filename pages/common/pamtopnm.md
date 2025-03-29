@@ -9,4 +9,4 @@
 
 - Display version:
 
-`pamtopnm -version`
+`pamtopnm {{[-v|-version]}}`

@@ -9,4 +9,4 @@
 
 - Emit textual output describing the input image:
 
-`svgtopam -trace {{path/to/file.svg}}`
+`svgtopam {{[-t|-trace]}} {{path/to/file.svg}}`

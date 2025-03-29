@@ -10,12 +10,12 @@
 
 - Specify the size of the (quadratic) thumbnails:
 
-`pnmindex -size {{50}} {{path/to/input1.pnm path/to/input2.pnm ...}} > {{path/to/output.pnm}}`
+`pnmindex {{[-s|-size]}} {{50}} {{path/to/input1.pnm path/to/input2.pnm ...}} > {{path/to/output.pnm}}`
 
 - Specify the number of thumbnails per row:
 
-`pnmindex -across {{10}} {{path/to/input1.pnm path/to/input2.pnm ...}} > {{path/to/output.pnm}}`
+`pnmindex {{[-a|-across]}} {{10}} {{path/to/input1.pnm path/to/input2.pnm ...}} > {{path/to/output.pnm}}`
 
 - Specify the maximum number of colors in the output:
 
-`pnmindex -colors {{512}} {{path/to/input1.pnm path/to/input2.pnm ...}} > {{path/to/output.pnm}}`
+`pnmindex {{[-c|-colors]}} {{512}} {{path/to/input1.pnm path/to/input2.pnm ...}} > {{path/to/output.pnm}}`

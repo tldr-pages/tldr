@@ -9,8 +9,8 @@
 
 - Describe every image in each input file (as opposed to only the first image in each file) in a machine-readable format:
 
-`pamfile -allimages -machine {{path/to/file}}`
+`pamfile {{[-a|-allimages]}} -machine {{path/to/file}}`
 
 - Display a count on how many images the input files contain:
 
-`pamfile -count {{path/to/file}}`
+`pamfile {{[-cou|-count]}} {{path/to/file}}`

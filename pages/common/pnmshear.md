@@ -9,8 +9,8 @@
 
 - Specify the color of the background in the sheared image:
 
-`pnmshear -background {{blue}} {{angle}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmshear {{[-b|-background]}} {{blue}} {{angle}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
 
 - Do not perform anti-aliasing:
 
-`pnmshear -noantialias {{angle}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmshear {{[-n|-noantialias]}} {{angle}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`

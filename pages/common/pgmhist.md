@@ -10,16 +10,16 @@
 
 - Display the median grey value:
 
-`pgmhist -median {{path/to/image.pgm}}`
+`pgmhist {{[-me|-median]}} {{path/to/image.pgm}}`
 
 - Display four quartile grey value:
 
-`pgmhist -quartile {{path/to/image.pgm}}`
+`pgmhist {{[-qua|-quartile]}} {{path/to/image.pgm}}`
 
 - Report the existence of invalid grey values:
 
-`pgmhist -forensic {{path/to/image.pgm}}`
+`pgmhist {{[-f|-forensic]}} {{path/to/image.pgm}}`
 
 - Display machine-readable output:
 
-`pgmhist -machine {{path/to/image.pgm}}`
+`pgmhist {{[-ma|-machine]}} {{path/to/image.pgm}}`

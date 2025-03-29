@@ -9,4 +9,4 @@
 
 - Display version:
 
-`ppmtopgm -version`
+`ppmtopgm {{[-v|-version]}}`

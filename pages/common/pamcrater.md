@@ -6,8 +6,8 @@
 
 - Create an image of cratered terrain with the specified dimensions:
 
-`pamcrater -height {{height}} -width {{width}} > {{path/to/output.pam}}`
+`pamcrater {{[-h|-height]}} {{height}} {{[-w|-width]}} {{width}} > {{path/to/output.pam}}`
 
 - Create an image containing the specified number of craters:
 
-`pamcrater -number {{n_craters}} > {{path/to/output.pam}}`
+`pamcrater {{[-n|-number]}} {{n_craters}} > {{path/to/output.pam}}`

@@ -9,8 +9,8 @@
 
 - Draw the histogram as dots instead of bars:
 
-`pnmhistmap -dots {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmhistmap {{[-d|-dots]}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
 
 - Specify the range of intensity values to include:
 
-`pnmhistmap -lval {{minval}} -rval {{maxval}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`
+`pnmhistmap {{[-l|-lval]}} {{minval}} {{[-rv|-rval]}} {{maxval}} {{path/to/input.pnm}} > {{path/to/output.pnm}}`

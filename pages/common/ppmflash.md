@@ -9,4 +9,4 @@
 
 - Display version:
 
-`ppmflash -version`
+`ppmflash {{[-v|-version]}}`

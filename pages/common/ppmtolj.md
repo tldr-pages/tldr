@@ -9,8 +9,8 @@
 
 - Apply a gamma correction using the specified gamma value:
 
-`ppmtolj -gamma {{gamma}} {{path/to/input.ppm}} > {{path/to/output.lj}}`
+`ppmtolj {{[-g|-gamma]}} {{gamma}} {{path/to/input.ppm}} > {{path/to/output.lj}}`
 
 - Specify the required resolution:
 
-`ppmtolj -resolution {{75|100|150|300|600}} {{path/to/input.ppm}} > {{path/to/output.lj}}`
+`ppmtolj {{[-r|-resolution]}} {{75|100|150|300|600}} {{path/to/input.ppm}} > {{path/to/output.lj}}`
