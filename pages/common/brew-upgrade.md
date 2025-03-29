@@ -1,7 +1,7 @@
 # brew upgrade
 
 > Upgrade outdated formulae and casks.
-> More information: <https://docs.brew.sh/Manpage#upgrade-options-outdated_formulaoutdated_cask->.
+> More information: <https://docs.brew.sh/Manpage#upgrade-options-installed_formulainstalled_cask->.
 
 - Upgrade all outdated casks and formulae:
 
