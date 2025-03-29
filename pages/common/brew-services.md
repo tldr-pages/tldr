@@ -11,7 +11,7 @@
 
 `brew services info --all`
 
-- Start a service and immediately and register it to launch at login (or boot):
+- Start a service immediately and register it to launch at login (or boot):
 
 `brew services start {{formula}}`
 
