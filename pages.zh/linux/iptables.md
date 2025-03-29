@@ -1,6 +1,7 @@
 # iptables
 
 > 可用于配置 Linux 内核防火墙提供的过滤表、规则链和规则的程序。
+> 使用 `ip6tables` 来设置 IPv6 流量规则。另见：`iptables-save`、`iptables-restore`。
 > 更多信息：<https://manned.org/iptables>.
 
 - 查看过滤表的规则链、规则以及数据包/字节计数器：
@@ -19,14 +20,10 @@
 
 `sudo iptables {{[-A|--append]}} {{规则链}} {{[-s|--source]}} {{ip}} {{[-p|--protocol]}} {{协议}} --dport {{端口}} {{[-j|--jump]}} {{规则}}`
 
+- 添加 NAT 规则，将来自 `192.168.0.0/24` 子网的所有流量转换为主机的公共 IP：
+
+`sudo iptables {{[-t|--table]}} {{nat}} {{[-A|--append]}} {{POSTROUTING}} {{[-s|--source]}} {{192.168.0.0/24}} {{[-j|--jump]}} {{MASQUERADE}}`
+
 - 删除规则链中的规则：
 
 `sudo iptables {{[-D|--delete]}} {{规则链}} {{规则所在行号}}`
-
-- 将指定过滤表的 iptables 配置保存到文件中：
-
-`sudo iptables-save {{[-t|--table]}} {{过滤表名}} > {{iptables_文件路径}}`
-
-- 从文件中还原 iptables 配置：
-
-`sudo iptables-restore < {{iptables_文件路径}}`
