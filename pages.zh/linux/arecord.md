@@ -22,3 +22,7 @@
 - 允许交互式界面（例如使用`<Space>`或`<Enter>`播放或暂停）：
 
 `arecord --interactive`
+
+- 通过录制 5 秒音频样本并回放来测试麦克风：
+
+`arecord -d 5 test-mic.wav && aplay test-mic.wav && rm test-mic.wav`
