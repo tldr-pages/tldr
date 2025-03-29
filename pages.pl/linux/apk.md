@@ -19,7 +19,7 @@
 
 `apk del {{pakiet}}`
 
-- Napraw/Zainstaluj ponownie pakie bez modyfikacji głównych zależności:
+- Napraw/Zainstaluj ponownie pakiet bez modyfikacji głównych zależności:
 
 `apk fix {{pakiet}}`
 
