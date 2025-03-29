@@ -20,7 +20,7 @@
 
 `hledger accounts --tree --types`
 
-- Muetra saldos de cuenta de activos y pasivos, incluyendo ceros, jerárquicamente:
+- Muestra saldos de cuenta de activos y pasivos, incluyendo ceros, jerárquicamente:
 
 `hledger balancesheet --empty --tree --no-elide`
 
