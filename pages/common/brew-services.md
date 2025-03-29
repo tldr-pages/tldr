@@ -1,6 +1,6 @@
 # brew services
 
-> Manage background services with launchctl on macOS or systemctl on Linux.
+> Manage background services with `launchctl` on macOS or `systemctl` on Linux.
 > More information: <https://docs.brew.sh/Manpage#services-subcommand>.
 
 - List all managed services for the current user:
