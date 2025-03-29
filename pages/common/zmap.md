@@ -3,9 +3,9 @@
 > Fast, open-source network scanner for Internet-wide surveys.
 > More information: <https://github.com/zmap/zmap>.
 
-- Scan a subnet or full IPv4 space for a specific TCP port (default port 80):
+- Scan a subnet or full IPv4 space for a specific TCP port (default: 80):
 
-`zmap {{SUBNETS}} -p {{80}}`
+`zmap {{SUBNETS}} -p {{port}}`
 
 - Scan specific ports or port ranges across a subnet:
 
