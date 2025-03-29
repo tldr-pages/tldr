@@ -28,10 +28,10 @@
 
 `hledger incomestatement --monthly --row-total --average --sort --depth 2`
 
-- Muestra las transacciones de la cuenta `activos:banco:cuenta-corriente` y su saldo actual:
+- Muestra las transacciones de la cuenta `assets:bank:checking` y su saldo actual:
 
-`hledger aregister activos:banco:cuenta-corriente`
+`hledger aregister assets:bank:checking`
 
-- Muestra el monto gastado en comida desde la cuenta `activos:efectivo`:
+- Muestra el monto gastado en comida desde la cuenta `assets:cash`:
 
-`hledger print activos:efectivo | hledger -f- -I aregister gastos:comida`
+`hledger print assets:cash | hledger -f- -I aregister expenses:food`
