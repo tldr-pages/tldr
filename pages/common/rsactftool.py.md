@@ -9,7 +9,7 @@
 
 - Decrypt a file using a public key:
 
-`RsaCtfTool.py --publickey {{path/to/key.pub}} --decryptfile {{path/to/encrypted_file}}`
+`RsaCtfTool.py --publickey {{path/to/key.pub}} --decryptfile {{path/to/ciphered_file}}`
 
 - Decrypt a specific ciphertext string:
 
