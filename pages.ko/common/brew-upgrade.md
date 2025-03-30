@@ -1,7 +1,7 @@
 # brew upgrade
 
 > 오래된 formulae 및 casks를 업그레이드.
-> 더 많은 정보: <https://docs.brew.sh/Manpage#upgrade-options-outdated_formulaoutdated_cask->.
+> 더 많은 정보: <https://docs.brew.sh/Manpage#upgrade-options-installed_formulainstalled_cask->.
 
 - 모든 오래된 casks 및 formulae 업그레이드:
 
