@@ -12,10 +12,10 @@
 
 `pbzip2 -p{{4}} {{path/to/file}}`
 
-- [d]ecompress a file:
+- Decompress a file:
 
-`pbzip2 --decompress {{path/to/compressed_file.bz2}}`
+`pbzip2 {{[-d|--decompress]}} {{path/to/compressed_file.bz2}}`
 
 - Display help:
 
-`pbzip2 -h`
+`pbzip2 {{[-h|--help]}}`

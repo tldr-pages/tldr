@@ -9,4 +9,4 @@
 
 - Display version:
 
-`vigr --version`
+`vigr {{[-V|--version]}}`

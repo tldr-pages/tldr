@@ -9,4 +9,4 @@
 
 - Specify the function's return value:
 
-`{{func_name}}() { return {{N}}; }`
+`{{func_name}}() { return {{exit_code}}; }`

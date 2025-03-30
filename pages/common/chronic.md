@@ -1,7 +1,7 @@
 # chronic
 
 > Display `stdout` and `stderr` of a command if and only if it fails.
-> More information: <https://joeyh.name/code/moreutils/>.
+> More information: <https://manned.org/chronic>.
 
 - Display `stdout` and `stderr` of the specified command if and only if it produces a non-zero exit code or crashes:
 

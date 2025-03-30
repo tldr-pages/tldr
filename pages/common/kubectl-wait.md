@@ -9,7 +9,7 @@
 
 - Wait for all pods with a certain [l]abel to be ready:
 
-`kubectl wait --for=condition=ready pod -l {{label_key}}={{label_value}}`
+`kubectl wait --for=condition=ready pod {{[-l|--selector]}} {{label_key}}={{label_value}}`
 
 - Wait for a pod to be deleted:
 
