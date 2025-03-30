@@ -32,6 +32,6 @@
 
 `,s/{{reguliere_expressie}}/{{vervanging}}/g<Enter>`
 
-- Sluit ed:
+- Sluit `ed` af:
 
 `q<Enter>`
