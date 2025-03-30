@@ -2,7 +2,7 @@
 
 > Forensics tool voor het valideren van de integriteit van PNG-gebaseerde (PNG, JNG, MNG) afbeeldingbestanden.
 > Kan ook embedded afbeeldingen en tekst van een bestand extraheren.
-> More information: <https://github.com/pnggroup/pngcheck>.
+> Meer informatie: <https://github.com/pnggroup/pngcheck>.
 
 - Verifieer de integriteit van een afbeeldingsbestand (breedte, hoogte, en kleurdiepte):
 

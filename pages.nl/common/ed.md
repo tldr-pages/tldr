@@ -31,3 +31,7 @@
 - Vervang een string met een specifieke vervanging voor alle regels:
 
 `,s/{{reguliere_expressie}}/{{vervanging}}/g<Enter>`
+
+- Sluit ed:
+
+`q<Enter>`
