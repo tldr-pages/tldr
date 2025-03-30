@@ -10,16 +10,20 @@
 
 - Verwijder specifieke bestanden, maar negeer niet-bestaande bestanden:
 
-`rm -f {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
+`rm {{[-f|--force]}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
 - Verwijder specifieke bestanden [i]nteractief door vóór elke verwijdering bevestiging te vragen:
 
-`rm -i {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
+`rm {{[-i|--interactive]}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
 - Verwijder specifieke bestanden en toon informatie over iedere verwijdering:
 
-`rm -v {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
+`rm {{[-v|--verbose]}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
 - Verwijder specifieke bestanden en mappen [r]ecursief:
 
-`rm -r {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
+`rm {{[-r|--recursive]}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
+
+- Verwijder lege mappen (dit word beschouwd als de veilige methode):
+
+`rm {{[-d|--dir]}} {{pad/naar/map}}`
