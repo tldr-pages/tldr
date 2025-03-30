@@ -2,7 +2,7 @@
 
 > Toon informatie over de laatste gebruikerslogins.
 > Bekijk ook: `lastb`, `login`.
-> Meer informatie: <https://manned.org/last.1>.
+> Meer informatie: <https://manned.org/last>.
 
 - Toon logininformatie (bijv. gebruikersnaam, terminal, opstarttijd, kernel) van alle gebruikers:
 

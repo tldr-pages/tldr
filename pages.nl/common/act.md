@@ -1,7 +1,7 @@
 # act
 
 > Voer GitHub-acties lokaal uit met behulp van Docker.
-> Meer informatie: <https://github.com/nektos/act>.
+> Meer informatie: <https://manned.org/act>.
 
 - Maak een [l]ijst van de beschikbare acties:
 

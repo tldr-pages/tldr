@@ -1,7 +1,7 @@
 # abduco
 
 > Terminal sessiemanager.
-> Meer informatie: <https://www.brain-dump.org/projects/abduco/>.
+> Meer informatie: <https://manned.org/abduco>.
 
 - Toon alle sessies:
 
