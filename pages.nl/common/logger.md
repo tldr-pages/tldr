@@ -1,7 +1,7 @@
 # logger
 
 > Voeg berichten toe aan syslog (/var/log/syslog).
-> Meer informatie: <https://manned.org/logger>.
+> Meer informatie: <https://manned.org/logger.1p>.
 
 - Log een bericht naar syslog:
 

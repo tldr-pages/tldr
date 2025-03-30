@@ -1,7 +1,7 @@
 # mycli
 
 > Een command-line client voor MySQL die automatische aanvulling en syntaxisaccentuering kan uitvoeren.
-> Meer informatie: <https://mycli.net>.
+> Meer informatie: <https://manned.org/mycli>.
 
 - Verbinden met een lokale database op poort 3306, met de gebruikersnaam van de huidige gebruiker:
 

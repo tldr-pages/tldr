@@ -1,7 +1,7 @@
 # pngcheck
 
 > Gedetailleerde informatie over en verifiëren van PNG-, JNG- en MNG-bestanden.
-> Meer informatie: <http://www.libpng.org/pub/png/apps/pngcheck.html>.
+> Meer informatie: <https://github.com/pnggroup/pngcheck>.
 
 - Toon een samenvatting van een afbeelding (breedte, hoogte, en kleurdiepte):
 
