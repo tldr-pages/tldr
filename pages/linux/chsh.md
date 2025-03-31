@@ -10,7 +10,7 @@
 
 - List available shells:
 
-`chsl {{[-l|--list-shells]}}`
+`chsh {{[-l|--list-shells]}}`
 
 - Set a specific login shell for the current user:
 

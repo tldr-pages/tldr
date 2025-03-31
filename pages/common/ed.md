@@ -32,6 +32,6 @@
 
 `,s/{{regular_expression}}/{{replacement}}/g<Enter>`
 
-- Exit ed:
+- Exit `ed`:
 
 `q<Enter>`
