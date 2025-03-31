@@ -1,7 +1,7 @@
 # firefox
 
 > 무료 오픈 소스 웹 브라우저.
-> 더 많은 정보: <https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options>.
+> 더 많은 정보: <https://wiki.mozilla.org/Firefox/CommandLineOptions>.
 
 - Firefox를 실행하고 웹 페이지 열기:
 
