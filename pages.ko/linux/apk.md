@@ -1,7 +1,7 @@
 # apk
 
 > Alpine Linux 패키지 관리 도구.
-> 더 많은 정보: <https://manned.org/apk>.
+> 더 많은 정보: <https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper>.
 
 - 모든 원격 저장소에서 저장소 색인 업데이트:
 

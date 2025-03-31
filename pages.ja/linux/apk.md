@@ -1,7 +1,7 @@
 # apk
 
 > Alpine Linux のパッケージ管理ツールです。
-> もっと詳しく: <https://manned.org/apk>。
+> もっと詳しく: <https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper>。
 
 - 全てのリモートリポジトリからリポジトリインデックスを更新する:
 
