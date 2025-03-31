@@ -8,18 +8,30 @@
 
 `uname`
 
+- Toon alle beschikbare systeeminformatie:
+
+`uname {{[-a|--all]}}`
+
 - Toon systeemarchitectuur en processorinformatie:
 
-`uname --machine --processor`
+`uname {{[-mp|--machine --processsor]}}`
 
 - Toon kernelnaam, kernelrelease en kernelversie:
 
-`uname --kernel-name --kernel-release --kernel-version`
+`uname {{[-srv|--kernel-name --kernel-release --kernel-version]}}`
 
 - Toon de systeemhostname:
 
-`uname --nodename`
+`uname {{[-n|--nodename]}}`
 
-- Toon alle beschikbare systeeminformatie:
+- Toon de huidige OS naam:
 
-`uname --all`
+`uname {{[-o|--operating-system]}}`
+
+- Toon de huidige netwerk node hostnaam:
+
+`uname {{[-n|--nodename]}}`
+
+- Toon de help:
+
+`uname --help`

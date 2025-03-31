@@ -7,26 +7,30 @@
 
 `man {{commando}}`
 
+- Open de man pagina voor een commando in een browser (`BROWSER` omgevingsvariabele kan `=browser_name` vervangen):
+
+`man {{[-Hbrowser_name|--html=browser_name]}} {{commando}}`
+
 - Toon de handleiding voor een commando uit sectie 7:
 
 `man {{7}} {{commando}}`
 
 - Toon alle beschikbare secties voor een commando:
 
-`man -f {{commando}}`
+`man {{[-f|--whatis]}} {{commando}}`
 
 - Toon het pad dat wordt doorzocht voor handleidingen:
 
-`man --path`
+`man {{[-w|--path]}}`
 
 - Toon de locatie van een handleiding in plaats van de handleiding zelf:
 
-`man -w {{commando}}`
+`man {{[-w|--where]}} {{commando}}`
 
 - Toon de handleiding in een specifieke taal:
 
-`man {{commando}} --locale={{taal}}`
+`man {{[-L|--locale]}} {{taal}} {{commando}}`
 
 - Zoek naar handleidingen die een zoekterm bevatten:
 
-`man -k "{{zoekterm}}"`
+`man {{[-k|--apropos]}} "{{zoekterm}}"`
