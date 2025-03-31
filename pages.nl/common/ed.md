@@ -18,7 +18,7 @@
 
 - Start een interactieve editor sessie met een leeg document en zonder diagnostics, het aantal bytes en de '!' prompt:
 
-`ed {{[-q|--quiet]}}`
+`ed {{[-q|--quiet]}} {{[-s|--script]}}`
 
 - Start een interactieve editor sessie zonder exit status change als het commando faalt:
 
@@ -31,3 +31,7 @@
 - Vervang een string met een specifieke vervanging voor alle regels:
 
 `,s/{{reguliere_expressie}}/{{vervanging}}/g<Enter>`
+
+- Sluit `ed` af:
+
+`q<Enter>`
