@@ -7,7 +7,7 @@
 
 `hledger add`
 
-- Añade transacciones a `2024.journal`, pero también carga `2023.journal` para completado:
+- Añade transacciones a `2024.journal`, pero también carga `2023.journal` para su completado:
 
 `hledger add --file {{ruta/a/2024.journal}} --file {{ruta/a/2023.journal}}`
 
