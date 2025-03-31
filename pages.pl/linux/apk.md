@@ -1,9 +1,13 @@
 # apk
 
 > Narzędzie zarządzania pakietami Alpine Linux.
-> Więcej informacji: <https://manned.org/apk>.
+> Więcej informacji: <https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper>.
 
-- Zaktualizuj indeksy repozytoriów ze wszystkich zdalnych repozytoriów:
+- Zaktualizuj indeksy repozytoriów i wszystkie pakiety:
+
+`apk upgrade {{[-U|--update-cache]}}`
+
+- Zaktualizuj tylko indeksy repozytoriów:
 
 `apk update`
 
@@ -15,13 +19,17 @@
 
 `apk del {{pakiet}}`
 
-- Napraw pakiet lub zaktualizuj go bez modyfikacji głownych zależności:
+- Napraw/Zainstaluj ponownie pakiet bez modyfikacji głównych zależności:
 
 `apk fix {{pakiet}}`
 
-- Szukaj pakietu za pomocą słów kluczowych:
+- Wyszukaj pakiety ze słowem kluczowym w ich nazwie i wyświetl wyniki z opisami:
 
-`apk search {{słowa_kluczowe}}`
+`apk search {{[-v|--verbose]}} {{słowo_kluczowe}}`
+
+- Wyszukaj pakiety ze słowem kluczowym w ich opisie:
+
+`apk search {{[-d|--description]}} {{słowo_kluczowe}}`
 
 - Wyświetl informacje o określonym pakiecie:
 

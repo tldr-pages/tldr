@@ -1,7 +1,7 @@
 # apk
 
 > अल्पाइन लिनक्स पैकेज प्रबंधन उपकरण।
-> अधिक जानकारी: <https://manned.org/apk>।
+> अधिक जानकारी: <https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper>।
 
 - सभी दूरस्थ रिपॉजिटरी से रिपॉजिटरी इंडेक्स अपडेट करें:
 
