@@ -1,7 +1,7 @@
 # ag
 
 > The Silver Searcher. Zoals `ack`, maar wil sneller zijn.
-> Meer informatie: <https://github.com/ggreer/the_silver_searcher>.
+> Meer informatie: <https://manned.org/ag>.
 
 - Zoek bestanden die "foo" bevatten en druk de regelovereenkomsten in context af:
 

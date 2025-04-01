@@ -2,7 +2,7 @@
 
 > Beheer subsystemen in `apx`.
 > Subsystemen zijn containers die kunnen worden gemaakt op basis van reeds bestaande stapels.
-> Meer informatie: <https://github.com/Vanilla-OS/apx>.
+> Meer informatie: <https://docs.vanillaos.org/docs/en/apx-manpage#subsystems>.
 
 - Maak interactief een nieuw subsysteem:
 
