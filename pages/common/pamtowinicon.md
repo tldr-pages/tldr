@@ -9,8 +9,8 @@
 
 - Encode images with resolutions smaller than t in the BMP format and all other images in the PNG format:
 
-`pamtowinicon -pngthreshold {{t}} {{path/to/input_file.pam}} > {{path/to/output.ico}}`
+`pamtowinicon {{[-pn|-pngthreshold]}} {{t}} {{path/to/input_file.pam}} > {{path/to/output.ico}}`
 
 - Make all pixels outside the non-opaque area black:
 
-`pamtowinicon -truetransparent {{path/to/input_file.pam}} > {{path/to/output.ico}}`
+`pamtowinicon {{[-t|-truetransparent]}} {{path/to/input_file.pam}} > {{path/to/output.ico}}`

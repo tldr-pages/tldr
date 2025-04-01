@@ -10,4 +10,4 @@
 
 - Expand the generated mask by one pixel:
 
-`pbmmask -expand {{path/to/image.pbm}} > {{path/to/output.pbm}}`
+`pbmmask {{[-r|-expand]}} {{path/to/image.pbm}} > {{path/to/output.pbm}}`
