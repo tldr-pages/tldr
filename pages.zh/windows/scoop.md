@@ -30,4 +30,3 @@
 - 移除所有包的旧版本并清理下载缓存：
 
 `scoop cleanup --cache --all`
-

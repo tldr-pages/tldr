@@ -18,4 +18,3 @@
 - 连接到给定的 Wi-Fi 网络 Connect to a particular Wi-Fi network：
 
 `networksetup -setairportnetwork {{en0}} {{无线网 SSID}} {{密码}}`
-

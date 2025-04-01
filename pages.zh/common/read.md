@@ -34,4 +34,3 @@
 - 从标准输入读取每一行进行操作：
 
 `while read line; do {{echo|ls|rm|...}} "$line"; done < {{标准输入|路径/到/文件|...}}`
-

@@ -14,4 +14,3 @@
 - 生成软件包后，不运行 `lintian`（检查常见打包错误）：
 
 `debuild --no-lintian`
-

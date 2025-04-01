@@ -7,4 +7,3 @@
 - 使用二进制目标创建一个新的 Rust 项目：
 
 `cargo new {{path/to/directory}}`
-

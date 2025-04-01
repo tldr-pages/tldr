@@ -14,4 +14,3 @@
 - 验证 `JAR` 文件的签名：
 
 `jarsigner -verify {{path/to/file.jar}}`
-

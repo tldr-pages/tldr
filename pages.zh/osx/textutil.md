@@ -22,4 +22,3 @@
 - 加载当前目录中的所有 RTF 文件，连接其内容，并将结果作为 `index.html` 写入，HTML 标题设置为"多个文件"：
 
 `textutil -cat {{html}} -title "多个文件" -output {{index.html}} *.rtf`
-

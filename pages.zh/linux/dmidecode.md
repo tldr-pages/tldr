@@ -27,4 +27,3 @@
 - 显示内存信息：
 
 `sudo dmidecode -t memory`
-

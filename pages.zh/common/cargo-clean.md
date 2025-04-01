@@ -18,4 +18,3 @@
 - 删除给定配置文件的目录中的构建产物（在本例中为 `target/debug`)：
 
 `cargo clean --profile {{dev}}`
-

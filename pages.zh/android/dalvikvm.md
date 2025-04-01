@@ -6,4 +6,3 @@
 - 启动一个 Java 程序：
 
 `dalvikvm -classpath {{path/to/file.jar}} {{classname}}`
-

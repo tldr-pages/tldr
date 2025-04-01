@@ -14,4 +14,3 @@
 - 显示 SDK：
 
 `xcodebuild -showsdks`
-

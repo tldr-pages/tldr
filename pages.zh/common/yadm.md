@@ -31,4 +31,3 @@
 - 覆盖 `yadm` 引导程序的位置：
 
 `yadm --yadm-bootstrap`
-

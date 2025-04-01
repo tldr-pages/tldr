@@ -18,4 +18,3 @@
 - 显示 ELF 文件头信息：
 
 `readelf --file-header {{path/to/binary}}`
-

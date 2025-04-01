@@ -14,4 +14,3 @@
 - 仅输出密码：
 
 `wifi-password -q`
-

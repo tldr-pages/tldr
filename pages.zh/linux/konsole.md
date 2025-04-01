@@ -22,4 +22,3 @@
 - 使用紧急备冗配置文件打开 Konsole：
 
 `konsole --fallback-profile`
-

@@ -26,4 +26,3 @@
 - 启动 Qt Creator 并显示来自特定提交的差异：
 
 `qtcreator -git-show {{提交}}`
-

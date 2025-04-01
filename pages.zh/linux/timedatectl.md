@@ -26,4 +26,3 @@
 - 将硬件时钟时间标准更改为本地时间：
 
 `timedatectl set-local-rtc 1`
-

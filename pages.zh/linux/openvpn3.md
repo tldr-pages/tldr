@@ -22,4 +22,3 @@
 - 列出导入的配置：
 
 `openvpn3 configs-list`
-

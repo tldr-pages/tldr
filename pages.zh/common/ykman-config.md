@@ -15,4 +15,3 @@
 - 禁用 NFC 上的所有应用程序：
 
 `ykman config nfc --disable-all`
-

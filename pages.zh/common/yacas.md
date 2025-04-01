@@ -26,4 +26,3 @@
 - 执行并打印一个语句的结果，然后退出：
 
 `echo "{{Echo( Deriv(x)Cos(1/x) );}}" | yacas -p -c /dev/stdin`
-

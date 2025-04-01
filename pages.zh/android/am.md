@@ -18,4 +18,3 @@
 - 将意图转换为 URI：
 
 `am to-uri -a {{android.intent.action.VIEW}} -d {{tel:123}}`
-

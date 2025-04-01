@@ -14,4 +14,3 @@
 - 获取 YubiKey 的功能：
 
 `ykinfo -c`
-

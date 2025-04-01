@@ -35,4 +35,3 @@
 - 以当前分支优先的策略，自动处理分支间的冲突，执行合并：
 
 `git rebase {{[-X|--strategy-option]}} theirs {{分支名称}}`
-

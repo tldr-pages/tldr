@@ -34,4 +34,3 @@
 - 合并两个文件并打印到 `stdout`（v3）：
 
 `yq merge {{路径/到/file1.yaml}} {{路径/到/file2.yaml}} --colors`
-

@@ -22,4 +22,3 @@
 - 创建一个新的包并指定其 32 位版和 64 位版的安装 URL：
 
 `choco new {{package_name}} url="{{url}}" url64="{{url}}"`
-

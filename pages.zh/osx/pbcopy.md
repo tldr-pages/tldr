@@ -11,4 +11,3 @@
 - 将命令的执行结果放入剪贴板：
 
 `find . -type t -name "*.png" | pbcopy`
-

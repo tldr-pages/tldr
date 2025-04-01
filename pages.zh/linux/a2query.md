@@ -22,4 +22,3 @@
 - 显示 Apache 版本：
 
 `sudo a2query -v`
-

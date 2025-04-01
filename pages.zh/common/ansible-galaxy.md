@@ -30,4 +30,3 @@
 - 显示关于角色或集合的帮助信息：
 
 `ansible-galaxy {{role|collection}} {{[-h|--help]}}`
-

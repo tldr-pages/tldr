@@ -22,4 +22,3 @@
 - 返回包含指定 Unicode 码位字形的已安装字体列表：
 
 `fc-list :charset={{f303}}`
-

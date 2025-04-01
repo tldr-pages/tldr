@@ -22,4 +22,3 @@
 - 显示指定的符号：
 
 `go doc -all -src {{encoding/json.Number}}`
-

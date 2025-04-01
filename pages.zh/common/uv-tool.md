@@ -22,4 +22,3 @@
 - 列出系统范围内已安装的 Python 软件包：
 
 `uv tool list`
-

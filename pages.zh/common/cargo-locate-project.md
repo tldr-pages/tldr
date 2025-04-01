@@ -19,4 +19,3 @@
 - 显示特定目录中的 `Cargo.toml` 清单文件：
 
 `cargo locate-project --manifest-path {{path/to/Cargo.toml}}`
-

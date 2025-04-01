@@ -30,4 +30,3 @@
 - 即使没有暂存文件也创建提交：
 
 `git commit {{[-m|--message]}} "{{信息}}" --allow-empty`
-

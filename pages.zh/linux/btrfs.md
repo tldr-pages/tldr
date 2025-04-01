@@ -23,4 +23,3 @@
 - 显示配额（quota）：
 
 `sudo btrfs qgroup show {{指向子卷的路径}}`
-

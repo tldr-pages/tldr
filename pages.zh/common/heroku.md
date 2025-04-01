@@ -26,4 +26,3 @@
 - 永久销毁应用：
 
 `heroku destroy --app {{app_name}}`
-

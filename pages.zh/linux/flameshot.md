@@ -35,4 +35,3 @@
 - 延迟指定毫秒时间截图：
 
 `flameshot full --delay {{5000}}`
-

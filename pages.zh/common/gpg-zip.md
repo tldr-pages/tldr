@@ -14,4 +14,3 @@
 - 列出加密的`archive.gpg`的内容：
 
 `gpg-zip --list-archive {{path/to/archive.gpg}}`
-

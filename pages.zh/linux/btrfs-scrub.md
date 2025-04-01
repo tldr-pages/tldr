@@ -27,4 +27,3 @@
 - 在安静模式下启动 scrub（不打印错误或统计信息）：
 
 `sudo btrfs scrub start -q {{指向挂载点的路径}}`
-

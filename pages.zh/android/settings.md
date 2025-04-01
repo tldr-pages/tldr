@@ -18,4 +18,3 @@
 - 删除指定环境变量：
 
 `settings delete {{secure}} {{screensaver_enabled}}`
-

@@ -18,4 +18,3 @@
 - 重启设备到 fastboot 模式:
 
 `adb reboot fastboot`
-

@@ -27,4 +27,3 @@
 - 检查 git 的版本号：
 
 `git --version`
-

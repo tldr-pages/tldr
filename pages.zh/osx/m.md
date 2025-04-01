@@ -22,4 +22,3 @@
 - 禁用防火墙：
 
 `m firewall disable`
-

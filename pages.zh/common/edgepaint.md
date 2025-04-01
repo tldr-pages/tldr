@@ -19,4 +19,3 @@
 - 显示 `edgepaint` 的帮助信息：
 
 `edgepaint -?`
-

@@ -10,4 +10,3 @@
 - 将目录作为 iso9660 文件系统刻录到 DVD 上。完成后不验证和弹出：
 
 `drutil burn -noverify -eject -iso9660`
-

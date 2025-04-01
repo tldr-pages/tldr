@@ -22,4 +22,3 @@
 - 采用特定的策略进行合并：
 
 `git merge --strategy {{策略}} --strategy-option {{策略选项}} {{分支名}}`
-

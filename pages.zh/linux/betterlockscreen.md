@@ -18,4 +18,3 @@
 - 锁屏并自定义显示屏关闭超时秒数：
 
 `betterlockscreen --off {{5}} -l`
-

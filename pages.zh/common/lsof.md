@@ -35,4 +35,3 @@
 - 查找正在监听本地 IPv6 TCP 端口的进程，不转换网络或端口号：
 
 `lsof -i6TCP:{{端口}} -sTCP:LISTEN -n -P`
-

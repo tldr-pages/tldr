@@ -36,4 +36,3 @@
 - 下载 Udemy 课程，并将每章保存在单独的目录中：
 
 `yt-dlp -u {{用户}} -p {{密码}} -P "{{路径/到/目录}}" -o "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{https://www.udemy.com/java-tutorial}}"`
-

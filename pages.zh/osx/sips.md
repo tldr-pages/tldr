@@ -27,4 +27,3 @@
 - 从图像中删除 ColorSync ICC 配置：
 
 `sips --deleteProperty profile --deleteColorManagementProperties {{目标 / 文件夹 / 图片。扩展}}`
-

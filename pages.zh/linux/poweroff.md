@@ -6,4 +6,3 @@
 - 关闭系统电源：
 
 `sudo poweroff`
-

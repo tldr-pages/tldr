@@ -6,4 +6,3 @@
 - Display the current version number：
 
 `ver`
-

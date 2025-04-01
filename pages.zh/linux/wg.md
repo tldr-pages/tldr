@@ -22,4 +22,3 @@
 - 展示 WireGuard 接口的当前配置：
 
 `sudo wg showconf {{wg0}}`
-

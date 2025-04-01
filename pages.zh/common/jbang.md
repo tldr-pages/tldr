@@ -35,4 +35,3 @@
 - 安装一个特定版本的 JDK 以与 `jbang` 一起使用：
 
 `jbang jdk install {{版本}}`
-

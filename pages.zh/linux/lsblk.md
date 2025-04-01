@@ -30,4 +30,3 @@
 - 使用逗号分隔的列列表显示自定义摘要：
 
 `lsblk {{[-o|--output]}} {{NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`
-

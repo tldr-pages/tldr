@@ -14,4 +14,3 @@
 - 创建一个带有卷 ID 的文件系统：
 
 `mkfs.exfat -i {{volume_id}} {{/dev/sdb1}}`
-

@@ -10,4 +10,3 @@
 - 将项目依赖从 AndroidX 格式迁移回来：
 
 `jetifier reverse`
-

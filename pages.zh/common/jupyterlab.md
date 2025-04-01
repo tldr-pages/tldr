@@ -5,4 +5,3 @@
 - 查看原命令的文档：
 
 `tldr jupyter lab`
-

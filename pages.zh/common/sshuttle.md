@@ -19,4 +19,3 @@
 - 使用 tproxy 方法转发所有 IPv4 和 IPv6 流量：
 
 `sshuttle --method=tproxy --remote={{用户名}}@{{服务器名}} {{0.0.0.0/0}} {{::/0}} --exclude={{你本地 IP 地址}} --exclude={{SSH 服务器的 IP 地址}}`
-

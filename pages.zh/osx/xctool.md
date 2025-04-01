@@ -14,4 +14,3 @@
 - 清理、构建和执行所有测试：
 
 `xctool -workspace {{你的工作区.名字}} -scheme {{方案}} clean build test`
-

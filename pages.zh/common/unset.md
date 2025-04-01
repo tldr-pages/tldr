@@ -14,4 +14,3 @@
 - 删除函数 my_func：
 
 `unset -f {{my_func}}`
-

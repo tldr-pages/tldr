@@ -22,4 +22,3 @@
 - 在默认浏览器中查看 Gist，且不渲染 Markdown：
 
 `gh gist view {{id_或_url}} --web --raw`
-

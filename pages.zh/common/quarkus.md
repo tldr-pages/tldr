@@ -34,4 +34,3 @@
 - 更新项目：
 
 `quarkus update`
-

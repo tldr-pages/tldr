@@ -22,4 +22,3 @@
 - 使用临时基础目录打开 qutebrowser，并以 JSON 格式将日志打印到 `stdout`：
 
 `qutebrowser --temp-basedir --json-logging`
-

@@ -18,4 +18,3 @@
 - 打印以 `NUL` 结尾的行的特定字段（例如 `find . -print0`）而不是换行符：
 
 `{{命令}} | cut --zero-terminated --fields {{1}}`
-

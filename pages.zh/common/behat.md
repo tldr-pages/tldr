@@ -26,4 +26,3 @@
 - 展示测试组所在的目录清单：
 
 `behat --definitions`
-

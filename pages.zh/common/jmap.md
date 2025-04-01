@@ -22,4 +22,3 @@
 - 将堆中存活的对象转储到二进制文件中以使用 jhat 进行分析：
 
 `jmap -dump:live,format=b,file={{路径/到/文件}} {{Java 进程号}}`
-

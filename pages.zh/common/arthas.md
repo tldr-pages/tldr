@@ -19,4 +19,3 @@
 - 停止 arthas 服务，断开所有 arthas 客户端的连接：
 
 `stop`
-

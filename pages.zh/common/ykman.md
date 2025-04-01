@@ -27,4 +27,3 @@
 - 查看关于管理 OpenPGP 应用程序的文档：
 
 `tldr ykman openpgp`
-

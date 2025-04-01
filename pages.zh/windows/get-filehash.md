@@ -10,4 +10,3 @@
 - 使用指定的哈希算法计算给定文件的哈希值：
 
 `Get-FileHash {{文件路径}} -Algorithm {{SHA1|SHA384|SHA256|SHA512|MD5}}`
-

@@ -7,4 +7,3 @@
 - 显示 Android 设备的完整错误报告：
 
 `bugreport`
-

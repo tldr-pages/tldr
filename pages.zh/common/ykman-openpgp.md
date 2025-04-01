@@ -19,4 +19,3 @@
 - 将 OpenPGP 应用程序恢复出厂设置（在超过管理 PIN码 重试次数后需要这样做）：
 
 `ykman openpgp reset`
-

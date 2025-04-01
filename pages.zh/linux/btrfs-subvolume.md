@@ -26,4 +26,3 @@
 - 显示有关子卷的详细信息：
 
 `sudo btrfs subvolume show {{指向子卷的路径}}`
-

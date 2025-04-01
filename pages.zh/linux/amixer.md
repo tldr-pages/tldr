@@ -10,4 +10,3 @@
 - 降低 10% 的主音量：
 
 `amixer -D pulse sset Master {{10%-}}`
-

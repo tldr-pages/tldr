@@ -30,4 +30,3 @@
 - 从 Xcode 项目中删除 CocoaPods：
 
 `pod deintegrate {{xcode_项目}}`
-

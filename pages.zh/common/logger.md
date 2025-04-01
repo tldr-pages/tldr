@@ -22,4 +22,3 @@
 - 以给定的错误等级记录消息。默认是 `user.notice`. 使用 `man logger` 查询所有可选等级：
 
 `echo {{记录内容}} | logger --priority {{user.warning}}`
-

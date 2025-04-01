@@ -34,4 +34,3 @@
 - 开启本地认证：
 
 `authconfig --update --enablelocauthorize`
-

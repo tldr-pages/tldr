@@ -30,4 +30,3 @@
 - 启动 JOSM 并且不加载插件：
 
 `josm --skip-plugins`
-

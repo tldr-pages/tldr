@@ -34,4 +34,3 @@
 - 导出 alice@example.com 的私钥（输出到标准输出）：
 
 `gpg --export-secret-keys --armor {{alice@example.com}}`
-

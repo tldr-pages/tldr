@@ -22,4 +22,3 @@
 - 通过 HTTPS 运行应用：
 
 `uvicorn --ssl-certfile {{cert.pem}} --ssl-keyfile {{key.pem}} {{导入路径:应用对象}}`
-

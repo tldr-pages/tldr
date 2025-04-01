@@ -15,4 +15,3 @@
 - 为文件系统设置一个标签（可选）：
 
 `sudo mkfs.btrfs --label "{{label}}" {{/dev/sda}} [{{/dev/sdN}}]`
-

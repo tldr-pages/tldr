@@ -23,4 +23,3 @@
 - 按名称删除 bucket：
 
 `scoop bucket rm {{名称}}`
-

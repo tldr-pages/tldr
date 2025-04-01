@@ -19,4 +19,3 @@
 - 查看 Amass 版本：
 
 `amass -version`
-

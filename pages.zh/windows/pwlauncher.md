@@ -10,4 +10,3 @@
 - 启用或禁用 Windows To Go 的启动选项：
 
 `pwlauncher /{{enable|disable}}`
-

@@ -24,4 +24,3 @@
 - 使用新的凭证重新加密所有已加密的文件：
 
 `yadm transcrypt --rekey`
-

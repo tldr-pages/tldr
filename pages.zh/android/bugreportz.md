@@ -23,4 +23,3 @@
 - 显示版本：
 
 `bugreportz -v`
-

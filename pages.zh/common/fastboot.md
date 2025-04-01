@@ -30,4 +30,3 @@
 - 列出设备所有信息：
 
 `fastboot getvar all`
-

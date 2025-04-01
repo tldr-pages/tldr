@@ -18,4 +18,3 @@
 - 将一个文件交叉编译为一个其他 CPU 架构或操作系统的目标文件：
 
 `adscript --target-triple {{i386-linux-elf}} --output {{路径/到/文件.o}} {{路径/到/输入文件.adscript}}`
-

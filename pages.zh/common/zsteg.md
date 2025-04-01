@@ -27,4 +27,3 @@
 - 检测 BMP 图像中的嵌入数据，指定要找到的字符串的最小长度和查找模式：
 
 `zsteg --min-str-len {{10}} --strings {{first|all|longest|none}} {{路径/到/image.bmp}}`
-

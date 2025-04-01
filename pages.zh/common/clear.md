@@ -18,4 +18,3 @@
 - 显示 `clear` 使用的 `ncurses` 版本：
 
 `clear -V`
-

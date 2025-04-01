@@ -22,4 +22,3 @@
 - 将 VMware 的 .vmdk 磁盘镜像转换为 KVM 的 .qcow2 磁盘镜像：
 
 `qemu-img convert -f {{vmdk}} -O {{qcow2}} {{路径/到/文件.vmdk}} {{路径/到/文件.qcow2}}`
-

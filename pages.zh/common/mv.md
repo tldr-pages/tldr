@@ -34,4 +34,3 @@
 - 指定目标目录，以便使用外部工具来收集可移动的文件：
 
 `{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv --target-directory {{路径/到/目标目录}}`
-

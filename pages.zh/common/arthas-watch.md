@@ -15,4 +15,3 @@
 - 在方法返回和异常后观测，显示第二个参数的 count 属性：
 
 `watch {{class-pattern}} {{method-pattern}} {{'{ params[1].count }'}} -e -s`
-

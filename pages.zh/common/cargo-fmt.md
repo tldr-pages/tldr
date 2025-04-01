@@ -14,4 +14,3 @@
 - 将参数传递给每个 rustfmt 调用：
 
 `cargo fmt -- {{rustfmt参数}}`
-

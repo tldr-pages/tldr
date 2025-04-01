@@ -35,4 +35,3 @@
 - 打印随机命令的 tldr 页面：
 
 `tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`
-

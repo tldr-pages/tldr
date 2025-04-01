@@ -14,4 +14,3 @@
 - 禁用一个功能：
 
 `choco feature disable --name {{功能名称}}`
-

@@ -11,4 +11,3 @@
 - 创建加密所需的文件和文件夹：
 
 `touch {{路径/到/encrypt_file}} && mkdir {{路径/到/archive_folder}}`
-

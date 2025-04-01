@@ -19,4 +19,3 @@
 - 关闭某个特定网络接口的监控模式：
 
 `sudo airmon-ng stop {{wlan0mon}}`
-

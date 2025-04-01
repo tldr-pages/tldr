@@ -18,4 +18,3 @@
 - 按指定配置文件中的配置启动服务：
 
 `browser-sync start --config {{配置文件}}`
-

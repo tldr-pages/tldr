@@ -14,4 +14,3 @@
 - 显示带风力等级和湿度信息的天气预报：
 
 `ansiweather -w true -h true`
-

@@ -23,4 +23,3 @@
 - 更改滚动速度：
 
 `unimatrix --speed {{number}}`
-

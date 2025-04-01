@@ -18,4 +18,3 @@
 - 查找符合给定 `pattern` 中正则表达式的软件包：
 
 `apt-file {{search|find}} --regexp {{正则表达式}}`
-

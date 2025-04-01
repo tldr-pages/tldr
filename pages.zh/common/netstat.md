@@ -31,4 +31,3 @@
 - 列出正在监听的 TCP 和 UDP 端口（如果你是 root 用户，还会显示用户和进程）：
 
 `netstat --listening --program --numeric --tcp --udp --extend`
-

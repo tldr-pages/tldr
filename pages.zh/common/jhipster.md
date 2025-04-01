@@ -34,4 +34,3 @@
 - 为您的应用程序生成 Kubernetes 配置：
 
 `jhipster kubernetes`
-

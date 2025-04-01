@@ -14,4 +14,3 @@
 - 显示额外的调试输出：
 
 `zapier analytics {{[-m|--mode]}} {{enabled|anonymous|disabled}} {{-d|--debug}}`
-

@@ -26,4 +26,3 @@
 - 退出 Steam:
 
 `steam -shutdown`
-

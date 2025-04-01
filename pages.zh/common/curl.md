@@ -35,4 +35,3 @@
 - 为指定资源使用客户端证书和密钥，并且跳过证书验证：
 
 `curl {{[-E|--cert]}} {{client.pem}} --key {{key.pem}} {{[-k|--insecure]}} {{https://example.com}}`
-

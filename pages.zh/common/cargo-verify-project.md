@@ -10,4 +10,3 @@
 - 检查指定清单文件的正确性：
 
 `cargo verify-project --manifest-path {{path/to/Cargo.toml}}`
-

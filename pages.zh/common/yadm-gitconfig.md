@@ -19,4 +19,3 @@
 - 列出 `yadm` 的 Git 配置中的所有值：
 
 `yadm gitconfig --list`
-

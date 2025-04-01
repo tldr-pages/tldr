@@ -26,4 +26,3 @@
 - 接收文件并将其复制到剪贴板：
 
 `airshare --clip-receive {{code}}`
-

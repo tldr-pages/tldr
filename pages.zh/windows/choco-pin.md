@@ -19,4 +19,3 @@
 - 移除指定包的固定状态：
 
 `choco pin remove --name {{包名}}`
-

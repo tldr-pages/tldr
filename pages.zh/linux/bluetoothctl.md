@@ -26,4 +26,3 @@
 - 断开一个已配对的设备：
 
 `bluetoothctl -- disconnect {{mac 地址}}`
-

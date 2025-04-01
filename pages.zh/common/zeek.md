@@ -27,4 +27,3 @@
 - 分析来自 PCAP 文件的流量：
 
 `zeek --readfile {{路径/到/文件.trace}}`
-

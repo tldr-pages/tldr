@@ -34,4 +34,3 @@
 - 启动模拟器/设备上的首页活动：
 
 `adb shell am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`
-

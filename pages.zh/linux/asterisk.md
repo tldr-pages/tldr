@@ -31,4 +31,3 @@
 - 重新载入 chan_SIP 设置：
 
 `asterisk -r -x "sip reload"`
-

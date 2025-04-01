@@ -35,4 +35,3 @@
 - 从本地上传一个录屏到 asciinema.org：
 
 `asciinema upload {{路径/到/录制文件.cast}}`
-

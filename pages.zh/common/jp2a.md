@@ -26,4 +26,3 @@
 - 以 HTML 文件格式写入 ASCII 输出，适合在网页浏览器中查看：
 
 `jp2a --html --output={{路径/到/output_file.html}} {{路径/到/image.jpeg}}`
-

@@ -26,4 +26,3 @@
 - 运行 JavaScript 文件：
 
 `osascript -l JavaScript {{路径 / 文件名.js}}`
-

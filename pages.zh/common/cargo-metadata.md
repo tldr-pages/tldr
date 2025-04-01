@@ -19,4 +19,3 @@
 - 打印带有 `resolve` 字段的元数据，仅包括给定目标三元组的依赖关系 (注意：`packages` 数组仍将包括所有目标的依赖关系)：
 
 `cargo metadata --filter-platform {{目标三元组}}`
-

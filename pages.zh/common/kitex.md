@@ -19,4 +19,3 @@
 - 生成服务端代码：
 
 `kitex -service {{svc_name}} {{路径/到/IDL文件.thrift}}`
-

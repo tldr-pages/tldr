@@ -18,4 +18,3 @@
 - 自动设置默认的 Java 环境：
 
 `archlinux-java fix`
-

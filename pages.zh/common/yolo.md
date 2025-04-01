@@ -10,4 +10,3 @@
 - 使用指定的配置文件训练目标检测、实例分割或分类模型：
 
 `yolo task={{detect|segment|classify}} mode=train cfg={{路径/到/config.yaml}}`
-

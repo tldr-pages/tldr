@@ -6,4 +6,3 @@
 - 在应用管理器中运行 Anbox：
 
 `anbox launch --package={{org.anbox.appmgr}} --component={{org.anbox.appmgr.AppViewActivity}}`
-

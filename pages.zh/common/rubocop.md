@@ -30,4 +30,3 @@
 - 自动更正文件（实验）：
 
 `rubocop --auto-correct`
-

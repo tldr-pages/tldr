@@ -34,4 +34,3 @@
 - 设置 Firefox 为默认浏览器：
 
 `firefox --setDefaultBrowser`
-

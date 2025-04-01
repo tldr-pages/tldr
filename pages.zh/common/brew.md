@@ -35,4 +35,3 @@
 - 检查本地的 Homebrew 安装中的潜在问题：
 
 `brew doctor`
-

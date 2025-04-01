@@ -22,4 +22,3 @@
 - 下载并安装指定的 Unity 版本和编辑器包：
 
 `u3d install {{2021.2.0f1}} -p {{Unity,iOS,Android}}`
-

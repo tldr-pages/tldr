@@ -14,4 +14,3 @@
 - 调用服务同时传递参数：
 
 `cmd {{vibrator}} {{vibrate 300}}`
-

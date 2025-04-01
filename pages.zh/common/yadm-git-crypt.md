@@ -19,4 +19,3 @@
 - 导出对称密钥：
 
 `yadm git-crypt export-key {{路径/到/密钥文件}}`
-

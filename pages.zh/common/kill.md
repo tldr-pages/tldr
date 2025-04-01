@@ -31,4 +31,3 @@
 - 向所有具有指定 GID（组ID）的进程发送 `SIGUSR1` 信号：
 
 `kill -{{SIGUSR1}} -{{组ID}}`
-

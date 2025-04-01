@@ -23,4 +23,3 @@
 - 使用代理下载媒体：
 
 `you-get --http-proxy {{代理服务器}} {{https://example.com/watch?v=value}}`
-

@@ -31,4 +31,3 @@
 - 将证书文件安装到指定位置（对自动更新证书很有用）：
 
 `acme.sh --install-cert -d {{example.com}} --key-file {{/路径/到/example.com.key}} --fullchain-file {{/路径/到/example.com.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`
-

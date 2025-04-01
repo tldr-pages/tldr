@@ -6,4 +6,3 @@
 - 移除一个已安装的二进制文件：
 
 `cargo remove {{package_spec}}`
-
