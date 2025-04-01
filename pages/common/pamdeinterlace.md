@@ -10,4 +10,4 @@
 
 - Produce an image consisting of the input's odd-numbered rows:
 
-`pamdeinterlace -takeodd {{path/to/image.ppm}} > {{path/to/output.ppm}}`
+`pamdeinterlace {{[-takeo|-takeodd]}} {{path/to/image.ppm}} > {{path/to/output.ppm}}`

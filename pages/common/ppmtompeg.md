@@ -9,11 +9,11 @@
 
 - Encode the GOP with the specified number only:
 
-`ppmtompeg -gop {{gop_num}} {{path/to/parameter_file}}`
+`ppmtompeg {{[-g|-gop]}} {{gop_num}} {{path/to/parameter_file}}`
 
 - Specify the first and last frame to encode:
 
-`ppmtompeg -frames {{first_frame}} {{last_frame}} {{path/to/parameter_file}}`
+`ppmtompeg {{[-fr|-frames]}} {{first_frame}} {{last_frame}} {{path/to/parameter_file}}`
 
 - Combine multiple MPEG frames into a single MPEG-1 stream:
 

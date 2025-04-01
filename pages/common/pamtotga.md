@@ -13,4 +13,4 @@
 
 - Display version:
 
-`pamtotga -version`
+`pamtotga {{[-v|-version]}}`

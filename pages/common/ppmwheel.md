@@ -9,8 +9,8 @@
 
 - Generate a color wheel of type `Hue-value`:
 
-`ppmwheel -huevalue {{diameter}} > {{path/to/output.ppm}}`
+`ppmwheel {{[-huev|-huevalue]}} {{diameter}} > {{path/to/output.ppm}}`
 
 - Generate a color wheel of type `Hue-saturation`:
 
-`ppmwheel -huesaturation {{diameter}} > {{path/to/output.ppm}}`
+`ppmwheel {{[-hues|-huesaturation]}} {{diameter}} > {{path/to/output.ppm}}`
