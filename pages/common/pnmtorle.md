@@ -9,8 +9,8 @@
 
 - Print PNM header information to `stdout`:
 
-`pnmtorle -verbose {{path/to/input.pnm}} > {{path/to/output.rle}}`
+`pnmtorle {{[-verb|-verbose]}} {{path/to/input.pnm}} > {{path/to/output.rle}}`
 
 - Include a transparency channel in the output image in which every black pixel is set to fully transparent and every other pixel is set to fully opaque:
 
-`pnmtorle -alpha {{path/to/input.pnm}} > {{path/to/output.rle}}`
+`pnmtorle {{[-a|-alpha]}} {{path/to/input.pnm}} > {{path/to/output.rle}}`

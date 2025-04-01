@@ -9,12 +9,12 @@
 
 - Resize the input image:
 
-`ppmtopjxl -xsize {{10cm}} -ysize {{5cm}} {{path/to/image.ppm}} > {{path/to/output.pjxl}}`
+`ppmtopjxl {{[-xsi|-xsize]}} {{10cm}} {{[-ysi|-ysize]}} {{5cm}} {{path/to/image.ppm}} > {{path/to/output.pjxl}}`
 
 - Shift the input image:
 
-`ppmtopjxl -xshift {{10pt}} -yshift {{5pt}} {{path/to/image.ppm}} > {{path/to/output.pjxl}}`
+`ppmtopjxl {{[-xsh|-xshift]}} {{10pt}} {{[-ysh|-yshift]}} {{5pt}} {{path/to/image.ppm}} > {{path/to/output.pjxl}}`
 
 - Do not use the normal TIFF 4.0 compression method:
 
-`ppmtopjxl -nopack {{path/to/image.ppm}} > {{path/to/output.pjxl}}`
+`ppmtopjxl {{[-n|-nopack]}} {{path/to/image.ppm}} > {{path/to/output.pjxl}}`

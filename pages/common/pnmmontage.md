@@ -13,8 +13,8 @@
 
 - Produce a packing that is not larger than `p` percent of the optimal packing:
 
-`pnmmontage -quality {{p}} {{path/to/image1.pnm path/to/image2.pnm ...}} > {{path/to/output.pnm}}`
+`pnmmontage {{[-qua|-quality]}} {{p}} {{path/to/image1.pnm path/to/image2.pnm ...}} > {{path/to/output.pnm}}`
 
 - Write the positions of the input files within the packed image to a machine-readable file:
 
-`pnmmontage -data {{path/to/datafile}} {{path/to/image1.pnm path/to/image2.pnm ...}} > {{path/to/output.pnm}}`
+`pnmmontage {{[-d|-data]}} {{path/to/datafile}} {{path/to/image1.pnm path/to/image2.pnm ...}} > {{path/to/output.pnm}}`
