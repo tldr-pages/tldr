@@ -1,6 +1,7 @@
 # sfdk
 
 > The command line frontend of the Sailfish SDK.
+> More information: <https://docs.sailfishos.org/Develop/Apps/Tutorials/Building_packages_-_advanced_techniques/>
 
 - Execute a subcommand:
 
