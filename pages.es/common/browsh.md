@@ -1,6 +1,6 @@
 # browsh
 
-> Ver páginas web en el terminal utilizando un backend de Firefox.
+> Vea páginas web en el terminal utilizando un backend de Firefox.
 > Más información: <https://www.brow.sh/>.
 
 - Inicia browsh:
@@ -18,3 +18,7 @@
 - Sale de browsh:
 
 `<Ctrl q>`
+
+- Muestra la ayuda:
+
+`browsh {{[-h|--help]}}`
