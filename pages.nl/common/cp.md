@@ -13,24 +13,24 @@
 
 - Kopieer de inhoud van een directory recursief naar een andere locatie (als de bestemming bestaat, wordt de directory erin gekopieerd):
 
-`cp -R {{pad/naar/bronmap}} {{pad/naar/doelmap}}`
+`cp {{[-r|--recursive]}} {{pad/naar/bronmap}} {{pad/naar/doelmap}}`
 
 - Kopieer een directory recursief, in verbose modus (toont bestanden terwijl ze worden gekopieerd):
 
-`cp -vR {{pad/naar/bronmap}} {{pad/naar/doelmap}}`
+`cp {{[-vr|--verbose --recursive]}} {{pad/naar/bronmap}} {{pad/naar/doelmap}}`
 
 - Kopieer meerdere bestanden tegelijk naar een directory:
 
-`cp -t {{pad/naar/doelmap}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
+`cp {{[-t|--target-directory]}} {{pad/naar/doelmap}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
-- Kopieer tekstbestanden naar een andere locatie, in interactieve modus (vraagt de gebruiker om bevestiging voordat overschrijven plaatsvindt):
+- Kopieer alle bestanden met een specifieke extensie naar een andere locatie, in interactieve modus (vraagt de gebruiker om bevestiging voordat overschrijven plaatsvindt):
 
-`cp -i {{*.txt}} {{pad/naar/doelmap}}`
+`cp {{[-i|--interactive]}} {{*.ext}} {{pad/naar/doelmap}}`
 
 - Volg symbolische links voordat je kopieert:
 
-`cp -L {{link}} {{pad/naar/doelmap}}`
+`cp {{[-L|--dereference]}} {{link}} {{pad/naar/doelmap}}`
 
-- Gebruik het eerste argument als de doelmap (handig voor `xargs ... | cp -t <DEST_DIR>`):
+- Gebruik het volledige pad van bronbestanden, maak eventuele missende tussenliggende mappen aan tijdens het kopiëren:
 
-`cp -t {{pad/naar/doelmap}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
+`cp --parents {{bron/pad/naar/bestand}} {{pad/naar/doel_bestand}}`

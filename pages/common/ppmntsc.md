@@ -13,7 +13,7 @@
 
 - Print the number of illegal pixels in the input image to `stderr`:
 
-`ppmntsc --verbose {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`
+`ppmntsc {{[--verb|--verbose]}} {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`
 
 - Output only legal/illegal/corrected pixels, set other pixels to black:
 

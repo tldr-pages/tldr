@@ -9,4 +9,4 @@
 
 - Display version:
 
-`leaftoppm -version`
+`leaftoppm {{[-v|-version]}}`

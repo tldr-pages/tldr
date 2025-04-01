@@ -12,14 +12,14 @@
 
 `{{cat pad/naar/bestand}} | tac`
 
-- Gebruik een specifiek [s]cheidingsteken:
+- Gebruik een specifiek scheidingsteken:
 
-`tac -s {{scheidingsteken}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
+`tac {{[-s|--separator]}} {{scheidingsteken}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
-- Gebruik een specifieke [r]egex als [s]cheidingsteken:
+- Gebruik een specifieke regex als scheidingsteken:
 
-`tac -r -s {{scheidingsteken}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
+`tac {{[-r|--regex]}} {{[-s|--separator]}} {{scheidingsteken}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
-- Gebruik een scheidingsteken vóór ([b]) elk bestand:
+- Gebruik een scheidingsteken vóór elk bestand:
 
-`tac -b {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
+`tac {{[-b|--before]}} {{pad/naar/bestand1 pad/naar/bestand2 ...}}`

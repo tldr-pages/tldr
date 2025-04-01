@@ -1,9 +1,13 @@
 # apk
 
 > Alpine Linux package management tool.
-> More information: <https://manned.org/apk>.
+> More information: <https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper>.
 
-- Update repository indexes from all remote repositories:
+- Update repository indexes and upgrade all packages:
+
+`apk upgrade {{[-U|--update-cache]}}`
+
+- Only update repository indexes:
 
 `apk update`
 
@@ -15,13 +19,17 @@
 
 `apk del {{package}}`
 
-- Repair a package or upgrade it without modifying main dependencies:
+- Repair/Reinstall a package without modifying main dependencies:
 
 `apk fix {{package}}`
 
-- Search for a package via keywords:
+- Search for packages with a keyword in their name and list results with descriptions:
 
-`apk search {{keywords}}`
+`apk search {{[-v|--verbose]}} {{keyword}}`
+
+- Search for packages with a keyword in their description:
+
+`apk search {{[-d|--description]}} {{keyword}}`
 
 - Display information about a specific package:
 

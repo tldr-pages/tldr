@@ -1,4 +1,4 @@
-# ip route
+# ip route add
 
 > Add a new networking route.
 > More information: <https://manned.org/ip-route>.

@@ -1,9 +1,10 @@
 # pngcheck
 
-> Gedetailleerde informatie over en verifiëren van PNG-, JNG- en MNG-bestanden.
-> Meer informatie: <http://www.libpng.org/pub/png/apps/pngcheck.html>.
+> Forensics tool voor het valideren van de integriteit van PNG-gebaseerde (PNG, JNG, MNG) afbeeldingbestanden.
+> Kan ook embedded afbeeldingen en tekst van een bestand extraheren.
+> Meer informatie: <https://github.com/pnggroup/pngcheck>.
 
-- Toon een samenvatting van een afbeelding (breedte, hoogte, en kleurdiepte):
+- Verifieer de integriteit van een afbeeldingsbestand (breedte, hoogte, en kleurdiepte):
 
 `pngcheck {{pad/naar/afbeelding.png}}`
 
