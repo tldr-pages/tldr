@@ -7,15 +7,15 @@
 
 `phpstan analyse {{ruta/a/directorio1 ruta/a/directorio2 ...}}`
 
-- Analizar un directorio utilizando un archivo de configuración:
+- Analiza un directorio utilizando un archivo de configuración:
 
 `phpstan analyse {{ruta/a/directorio}} {{[-c|--configuration]}} {{ruta/a/configuración}}`
 
-- Analizar usando un nivel de regla específico (0-10, más alto es más estricto):
+- Analiza usando un nivel de regla específico (0-10, más alto es más estricto):
 
-`phpstan analyse {{ruta/a/directorio}} {{[-l|--level]}}} {{nivel}}`
+`phpstan analyse {{ruta/a/directorio}} {{[-l|--level]}} {{nivel}}`
 
-- Especificar un archivo de carga automática para cargar antes de analizar:
+- Especifica un archivo de carga automática para cargar antes de analizar:
 
 `phpstan analyse {{ruta/a/directorio}} {{[-a|--autoload-file]}} {{ruta/archivo/archivo_autocarga}}`
 
