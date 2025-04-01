@@ -14,3 +14,4 @@
 - 打印系统序列号：
 
 `system_profiler SPHardwareDataType|grep "Serial Number (system)" |awk '{print $4}'`
+

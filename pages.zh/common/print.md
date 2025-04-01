@@ -13,3 +13,4 @@
 - 查看在 Windows 上打印文本文件的文档：
 
 `tldr --platform windows print.win`
+

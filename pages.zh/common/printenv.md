@@ -14,3 +14,4 @@
 - 显示变量的值并以 NUL 而不是换行符结尾：
 
 `printenv --null {{HOME}}`
+

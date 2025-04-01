@@ -19,3 +19,4 @@
 - 显示 Chocolatey 的版本：
 
 `choco --version`
+

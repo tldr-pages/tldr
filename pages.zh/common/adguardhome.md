@@ -30,3 +30,4 @@
 - 停止或重启 AdGuard Home 的服务：
 
 `AdGuardHome --service {{stop|restart}}`
+

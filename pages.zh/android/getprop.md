@@ -30,3 +30,4 @@
 - 显示 Android WiFi 卡的 MAC 地址：
 
 `getprop {{ro.boot.wifimacaddr}}`
+

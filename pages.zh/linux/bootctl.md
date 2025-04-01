@@ -26,3 +26,4 @@
 - 从EFI系统分区移除所有已安装的`systemd-boot`版本：
 
 `sudo bootctl remove`
+

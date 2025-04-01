@@ -22,3 +22,4 @@
 - 卸载全部包：
 
 `choco uninstall all`
+

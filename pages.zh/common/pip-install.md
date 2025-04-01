@@ -22,3 +22,4 @@
 - 在本地的项目路径下以开发模式（editable）安装（通常是读取 pyproject.toml 或 setup.py 文件）：
 
 `pip install --editable {{.}}`
+

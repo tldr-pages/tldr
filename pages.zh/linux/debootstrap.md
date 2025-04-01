@@ -18,3 +18,4 @@
 - 列出可用的版本：
 
 `ls /usr/share/debootstrap/scripts/`
+

@@ -26,3 +26,4 @@
 - 生成新的配置文件：
 
 `uncrustify --update-config -o {{路径/到/新配置文件.cfg}}`
+

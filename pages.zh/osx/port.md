@@ -26,3 +26,4 @@
 - 删除已安装的软件包的旧版本：
 
 `sudo port uninstall inactive`
+

@@ -34,3 +34,4 @@
 - 着色输出：
 
 `sudo dmesg {{[-L|--color]}}`
+

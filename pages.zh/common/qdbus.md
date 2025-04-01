@@ -34,3 +34,4 @@
 - 优雅地注销并然后选择不执行任何操作、重启或关机：
 
 `qdbus {{org.kde.Shutdown}} {{/Shutdown}} {{logout|logoutAndReboot|logoutAndShutdown}}`
+

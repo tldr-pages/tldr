@@ -34,3 +34,4 @@
 - 从状态文件恢复一个中断的破解会话，例如：`mycrack.rec`：
 
 `john --restore={{路径/到/mycrack.rec}}`
+

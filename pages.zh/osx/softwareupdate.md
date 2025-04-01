@@ -18,3 +18,4 @@
 - 下载并安装特定的应用程序：
 
 `softwareupdate --install {{更新应用程序名}}`
+

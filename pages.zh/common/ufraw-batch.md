@@ -18,3 +18,4 @@
 - 将文件保存为不超过给定的最大尺寸 MAX1 和 MAX2：
 
 `ufraw-batch --size=MAX1,MAX2 {{（或多个）输入文件}}`
+

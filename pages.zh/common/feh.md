@@ -30,3 +30,4 @@
 - 创建目录中所有图像的拼贴，并作为新图像输出：
 
 `feh --montage --thumb-height {{150}} --thumb-width {{150}} --index-info "{{%nn%wx%h}}" --output {{路径/到/拼贴图像.png}}`
+

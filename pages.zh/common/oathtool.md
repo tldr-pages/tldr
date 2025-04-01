@@ -14,3 +14,4 @@
 - 验证 TOTP 令牌：
 
 `oathtool --totp --base32 "{{密码}}" "{{令牌}}"`
+

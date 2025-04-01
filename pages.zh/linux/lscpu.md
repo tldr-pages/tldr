@@ -14,3 +14,4 @@
 - 仅显示表中离线 CPU 的信息：
 
 `lscpu {{[-e|--extended]}} {{[-c|--offline]}}`
+

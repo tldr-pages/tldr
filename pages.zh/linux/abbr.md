@@ -19,3 +19,4 @@
 - 用 SSH 导入另一台主机上定义的缩写：
 
 `ssh {{主机名}} abbr --show | source`
+

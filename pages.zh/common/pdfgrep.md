@@ -22,3 +22,4 @@
 - 在与当前目录中特定文件名 "*book.pdf" 匹配的文件上递归查找关键词：
 
 `pdfgrep --recursive --include {{'*book.pdf'}} {{关键词}}`
+

@@ -31,3 +31,4 @@
 - 生成 `SRCINFO` 并写入到 `.SRCINFO` 文件：
 
 `makepkg --printsrcinfo > .SRCINFO`
+

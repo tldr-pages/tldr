@@ -31,3 +31,4 @@
 - 插入新行到文件的第一行：
 
 `sed {{[-i|--in-place]}} '1i\your new line text\' {{路径/到/文件}}`
+

@@ -23,3 +23,4 @@
 - 设置图表刷新间隔和留存数据的时长：
 
 `btm --rate 250 --default_time_value 30000`
+

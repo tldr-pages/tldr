@@ -35,3 +35,4 @@
 - 限制下载速度为字节/秒（bytes/s）：
 
 `aria2c --max-download-limit {{速度}} "{{url}}"`
+

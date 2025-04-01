@@ -26,3 +26,4 @@
 - 反转字符映射：
 
 `asciiart --invert-chars {{路径/到/图片.jpg}}`
+

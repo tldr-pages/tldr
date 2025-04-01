@@ -10,3 +10,4 @@
 - 创建一个带有卷标签的 F2FS 文件系统：
 
 `sudo mkfs.f2fs -l {{volume_label}} {{/dev/sdb1}}`
+

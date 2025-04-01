@@ -7,3 +7,4 @@
 - 执行 bootstrap 可执行文件：
 
 `yadm bootstrap`
+

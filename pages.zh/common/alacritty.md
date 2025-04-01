@@ -30,3 +30,4 @@
 - 启用实时配置重载运行（也可在 `alacritty.toml` 中默认启用）：
 
 `alacritty --live-config-reload --config-file {{路径/到/配置.toml}}`
+

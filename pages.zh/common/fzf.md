@@ -27,3 +27,4 @@
 - 对不匹配 pyc 且完全匹配 travis 的条目启动 `fzf`:
 
 `fzf --query "!pyc 'travis"`
+

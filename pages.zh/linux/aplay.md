@@ -14,3 +14,4 @@
 - 以 22050 Hz，mono，8-bit，Mu-Law 和 `.au` 格式来播放指定原始文件：
 
 `aplay --channels={{1}} --file-type {{raw}} --rate={{22050}} --format={{mu_law}} {{文件路径}}`
+

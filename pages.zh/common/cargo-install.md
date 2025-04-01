@@ -18,3 +18,4 @@
 - 列出所有已安装的包及其版本：
 
 `cargo install --list`
+

@@ -14,3 +14,4 @@
 - 为指定的包显示报告：
 
 `cargo report {{future-incompatibilities|...}} --package {{package}}`
+

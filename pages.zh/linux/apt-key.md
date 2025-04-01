@@ -22,3 +22,4 @@
 - 指定密钥 ID, 从密钥服务器中添加一个密钥：
 
 `apt-key adv --keyserver {{pgp.mit.edu}} --recv {{密钥 id}}`
+

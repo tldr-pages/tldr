@@ -10,3 +10,4 @@
 - 向环境变量 `PATH` 追加一个路径名：
 
 `export PATH=$PATH:{{追加的 path 路径}}`
+

@@ -14,3 +14,4 @@
 - 打印帮助页面：
 
 `grub-mkconfig --help`
+

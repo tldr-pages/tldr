@@ -18,3 +18,4 @@
 - 显示详细输出：
 
 `logsave -v {{logfile}} {{command}}`
+

@@ -22,3 +22,4 @@
 - 从 URL 安装可执行脚本：
 
 `deno install {{https://deno.land/std/examples/colors.ts}}`
+

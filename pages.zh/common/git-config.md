@@ -35,3 +35,4 @@
 - 使用默认编辑器修改全局设置：
 
 `git config --global --edit`
+

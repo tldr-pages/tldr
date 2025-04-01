@@ -34,3 +34,4 @@
 - 搜索包含搜索字符串的手册页:
 
 `man {{[-k|--apropos]}} "{{search_string}}"`
+

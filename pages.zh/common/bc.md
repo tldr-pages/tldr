@@ -31,3 +31,4 @@
 - 执行一个内联的阶乘脚本：
 
 `echo "define factorial(n) { if (n <= 1) return 1; return n*factorial(n-1); }; factorial({{10}})" | bc`
+

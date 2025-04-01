@@ -22,3 +22,4 @@
 - 禁用默认功能后检测当前包：
 
 `cargo {{[c|check]}} --no-default-features`
+

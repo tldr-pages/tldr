@@ -23,3 +23,4 @@
 - 在 QOwnNotes 中切换笔记文件夹：
 
 `qc switch`
+

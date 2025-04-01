@@ -18,3 +18,4 @@
 - 启用或禁用输出中的 CPU 品牌信息：
 
 `neofetch --cpu_brand {{on|off}}`
+

@@ -15,3 +15,4 @@
 - 显示 `gvcolor` 的帮助信息:
 
 `gvcolor -?`
+

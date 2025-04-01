@@ -22,3 +22,4 @@
 - 使用手动 DNS 模式签发证书：
 
 `acme.sh --issue --dns --domain {{example.com}} --yes-I-know-dns-manual-mode-enough-go-ahead-please`
+

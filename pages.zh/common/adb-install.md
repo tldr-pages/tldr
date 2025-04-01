@@ -26,3 +26,4 @@
 - 快速部署模式，仅更新 APK 更改过的部分：
 
 `adb install --fastdeploy {{路径/到/应用.apk}}`
+

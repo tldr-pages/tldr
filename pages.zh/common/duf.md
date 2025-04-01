@@ -30,3 +30,4 @@
 - 更改主题（如果 `duf` 未能使用正确的主题）：
 
 `duf --theme {{dark|light}}`
+

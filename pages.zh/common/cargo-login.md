@@ -11,3 +11,4 @@
 - 使用指定的注册表 (注册表名称可以在配置中定义，默认为 <https://crates.io>)：
 
 `cargo login --registry {{名称}}`
+

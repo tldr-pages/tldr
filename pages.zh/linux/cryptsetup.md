@@ -18,3 +18,4 @@
 - 更改 LUKS 卷的口令：
 
 `cryptsetup luksChangeKey {{/dev/sda1}}`
+

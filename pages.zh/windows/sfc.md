@@ -30,3 +30,4 @@
 - 当离线修复时，指定 Windows 目录：
 
 `sfc /offwindir={{文件的路径}}`
+

@@ -30,3 +30,4 @@
 - 移除一个包源：
 
 `choco source remove --name {{名称}}`
+

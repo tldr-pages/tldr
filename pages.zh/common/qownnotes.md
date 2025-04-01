@@ -20,3 +20,4 @@
 - 应用程序启动后触发一个菜单操作：
 
 `QOwnNotes --action {{actionShow_Todo_List}}`
+

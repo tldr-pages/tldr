@@ -26,3 +26,4 @@
 - 启用 jEnv 插件：
 
 `jenv enable-plugin {{插件名称}}`
+

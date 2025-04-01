@@ -19,3 +19,4 @@
 - 清除缓存目录：
 
 `yazi --clear-cache`
+

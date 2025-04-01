@@ -31,3 +31,4 @@
 - 列出清单中的组：
 
 `ansible localhost -m debug -a '{{var=groups.keys()}}'`
+

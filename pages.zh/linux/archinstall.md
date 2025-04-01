@@ -10,3 +10,4 @@
 - 启动一个预设的安装程序：
 
 `archinstall {{minimal|unattended}}`
+

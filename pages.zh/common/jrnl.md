@@ -22,3 +22,4 @@
 - 编辑所有用 "texas" 和 "history" 标签标记的条目：
 
 `jrnl {{@texas}} -and {{@history}} --edit`
+

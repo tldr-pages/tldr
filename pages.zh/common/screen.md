@@ -35,3 +35,4 @@
 - 关闭一个已经分离的 screen 会话：
 
 `screen -X -S {{会话名称}} quit`
+

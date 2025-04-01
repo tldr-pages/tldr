@@ -23,3 +23,4 @@
 - 使用接入点的 MAC 地址进行过滤，并使用接入点的 ESSID 和密码解密 WPA/WPA2 加密的捕获文件：
 
 `airdecap-ng -b {{ap_mac}} -e {{essid}} -p {{密码}} {{路径/到/捕获文件.cap}}`
+

@@ -27,3 +27,4 @@
 - 为命令别名生成 shell 配置（`z`, `za`, `zi`, `zq`, `zr`）：
 
 `zoxide init {{bash|fish|zsh}}`
+

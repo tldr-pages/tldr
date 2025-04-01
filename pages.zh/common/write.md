@@ -15,3 +15,4 @@
 - 向伪终端 "/dev/pts/5" 上的用户 "johndoe" 发送信息：
 
 `write {{johndoe}} {{pts/5}}`
+

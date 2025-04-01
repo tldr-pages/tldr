@@ -15,3 +15,4 @@
 - 使用口令初始化 LUKS 卷并设置其标签：
 
 `cryptsetup luksFormat --label {{标签}} {{/dev/sdXY}}`
+

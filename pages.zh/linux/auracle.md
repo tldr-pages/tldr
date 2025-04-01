@@ -18,3 +18,4 @@
 - 显示已安装 AUR 包的更新：
 
 `auracle outdated`
+

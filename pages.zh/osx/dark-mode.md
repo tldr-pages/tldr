@@ -18,3 +18,4 @@
 - 检查深色模式是否开启：
 
 `dark-mode status`
+

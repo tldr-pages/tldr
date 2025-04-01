@@ -30,3 +30,4 @@
 - 以不做任何更改（试执行）方式执行 playbook 中的任务：
 
 `ansible-playbook {{playbook}} --check --diff`
+

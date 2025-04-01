@@ -10,3 +10,4 @@
 - 指定错误纠正等级（默认为 M）：
 
 `echo "{{数据}}" | qr --error-correction={{L|M|Q|H}}`
+

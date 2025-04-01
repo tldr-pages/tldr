@@ -19,3 +19,4 @@
 - 仅显示大于 10 毫秒的调用链，观测 10 次：
 
 `trace {{class-pattern}} {{method-pattern}} '#cost > {{10}}' -n 5`
+

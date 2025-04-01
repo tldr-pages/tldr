@@ -23,3 +23,4 @@
 - 查看 `aurvote` 的帮助信息：
 
 `aurvote --help`
+

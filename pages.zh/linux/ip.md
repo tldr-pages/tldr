@@ -35,3 +35,4 @@
 - 添加默认路由：
 
 `sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{interface}}`
+

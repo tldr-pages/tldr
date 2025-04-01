@@ -10,3 +10,4 @@
 - 创建一个带有卷标签的 ext4 文件系统：
 
 `sudo mkfs.ext4 -L {{volume_label}} {{/dev/sdb1}}`
+

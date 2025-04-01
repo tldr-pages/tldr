@@ -35,3 +35,4 @@
 - 将指定文件中所有列出的 URL 下载到一个目录中：
 
 `wget {{[-P|--directory-prefix]}} {{path/to/directory}} {{[-i|--input-file]}} {{URLs.txt}}`
+

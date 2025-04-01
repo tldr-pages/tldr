@@ -14,3 +14,4 @@
 - 丢弃设备的前 100 MB：
 
 `blkdiscard --length {{100MB}} {{/dev/设备名}}`
+

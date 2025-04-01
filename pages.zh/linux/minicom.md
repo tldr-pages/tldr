@@ -14,3 +14,4 @@
 - 在与给定串行端口通信前进入配置菜单：
 
 `sudo minicom {{[-D|--device]}} {{/dev/ttyUSB0}} {{[-s|--setup]}}`
+

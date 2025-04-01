@@ -31,3 +31,4 @@
 - 还原为系统默认值：
 
 `sudo pmset -a displaysleep 10 disksleep 10 sleep 30 womp 1`
+

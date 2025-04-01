@@ -35,3 +35,4 @@
 - 尝试通过使用极慢扫描（`-T0`）、诱饵源地址（`-D`）、分段（[f]ragmented）数据包、随机数据和其他方法来规避 IDS/IPS 检测：
 
 `sudo nmap -T0 -D {{诱饵ip1,诱饵ip2,...}} --source-port {{53}} -f --data-length {{16}} -Pn {{ip或主机名}}`
+

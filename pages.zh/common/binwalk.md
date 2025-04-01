@@ -26,3 +26,4 @@
 - 在单条命令中组合熵、签名和操作码分析：
 
 `binwalk --entropy --signature --opcodes {{二进制文件}}`
+

@@ -23,3 +23,4 @@
 - 显示每行的出现次数，并按出现次数从高到低排序：
 
 `sort {{路径/到/文件}} | uniq {{[-c|--count]}} | sort {{[-nr|--numeric-sort --reverse]}}`
+

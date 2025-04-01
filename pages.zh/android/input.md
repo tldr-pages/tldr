@@ -23,3 +23,4 @@
 - 使用滑动手势将长按发送到 Android 设备：
 
 `input swipe {{x_pos}} {{y_pos}} {{x_pos}} {{y_pos}} {{duration_in_ms}}`
+

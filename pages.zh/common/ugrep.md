@@ -34,3 +34,4 @@
 - 仅搜索 C++ 源文件（使用 `--file-type=list` 列出所有文件类型）：
 
 `ugrep --file-type=cpp "{{search_pattern}}"`
+

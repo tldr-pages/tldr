@@ -34,3 +34,4 @@
 - 显示所有示例哈希值：
 
 `hashcat --example-hashes`
+

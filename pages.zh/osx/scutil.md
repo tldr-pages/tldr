@@ -27,3 +27,4 @@
 - 设置主机名：
 
 `scutil --set HostName {{hostname}}`
+

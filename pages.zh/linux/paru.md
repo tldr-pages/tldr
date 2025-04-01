@@ -26,3 +26,4 @@
 - 显示包的 `PKGBUILD` 文件：
 
 `paru --getpkgbuild --print {{包}}`
+

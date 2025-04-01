@@ -26,3 +26,4 @@
 - 使用 Accelerate 在多 GPU 上运行一个模型，使用 2 台机器：
 
 `accelerate launch {{路径/到/脚本.py}} --multi_gpu --num_machines 2`
+

@@ -14,3 +14,4 @@
 - 创建一个带有特定 UUID 的文件系统：
 
 `mkfs.ntfs -U {{UUID}} {{/dev/sdb1}}`
+

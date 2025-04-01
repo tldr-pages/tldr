@@ -30,3 +30,4 @@
 - 通过依赖文件（如 requirements.txt）来进行安装：
 
 `pip install --requirement {{requirements.txt}}`
+

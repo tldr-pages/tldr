@@ -26,3 +26,4 @@
 - 显示 `uv` Python 安装目录：
 
 `uv python dir`
+

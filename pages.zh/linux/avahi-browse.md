@@ -15,3 +15,4 @@
 - 只搜索一个特定的域名：
 
 `avahi-browse --all --domain={{domain}}`
+

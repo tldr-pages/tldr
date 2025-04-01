@@ -34,3 +34,4 @@
 - 使用 main 方法运行一个类：
 
 `mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{参数1 参数2 ...}}"`
+

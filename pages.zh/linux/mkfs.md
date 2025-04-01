@@ -15,3 +15,4 @@
 - 建立指定类型的文件系统并检查坏块：
 
 `mkfs -c -t {{ntfs}} {{path/to/partition}}`
+

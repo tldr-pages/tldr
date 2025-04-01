@@ -22,3 +22,4 @@
 - 允许交互式界面（例如使用`<Space>`或`<Enter>`播放或暂停）：
 
 `arecord --interactive`
+
