@@ -1,6 +1,7 @@
 # sfdk check
 
 > Performs quality checks.
+> More information: <https://docs.sailfishos.org/Develop/Apps/Tutorials/Building_packages_-_advanced_techniques/#validating-package-contents>.
 
 - Display test suites:
 
