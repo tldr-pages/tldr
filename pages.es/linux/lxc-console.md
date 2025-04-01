@@ -14,3 +14,7 @@
 - Sale de `lxc-console`:
 
 `<Ctrl a><q>`
+
+- Muestra la ayuda:
+
+`lxc-console {{[-?|--help]}}`
