@@ -17,7 +17,7 @@
 
 - Especifica valores para las variables de entrada:
 
-`tofu plan -var '{{nombre1}}={{valor1}}'' -var '{{nombre2}}={{valor2}}'`
+`tofu plan -var '{{nombre1}}={{valor1}}' -var '{{nombre2}}={{valor2}}'`
 
 - Centra la atención de Tofu solo en un subconjunto de recursos:
 
