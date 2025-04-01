@@ -14,3 +14,7 @@
 - Sale de carbonyl:
 
 `<Ctrl c>`
+
+- Muestra la ayuda:
+
+`carbonyl {{[-h|--help]}}`
