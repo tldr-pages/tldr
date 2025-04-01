@@ -1,6 +1,7 @@
 # sfdk build-requires
 
 > Updates build time dependencies.
+> More information: <https://docs.sailfishos.org/Develop/Apps/Tutorials/Building_packages_-_advanced_techniques/>.
 
 - Run a subcommand refreshing the cache:
 
