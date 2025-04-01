@@ -9,8 +9,8 @@
 
 - Specify the dimensions of the output image in inches:
 
-`pnmtops -imagewidth {{imagewidth}} -imageheight {{imageheight}} {{path/to/file.pnm}} > {{path/to/file.ps}}`
+`pnmtops {{[-imagew|-imagewidth]}} {{imagewidth}} {{[-imageh|-imageheight]}} {{imageheight}} {{path/to/file.pnm}} > {{path/to/file.ps}}`
 
 - Specify the dimensions of the page the output image resides on in inches:
 
-`pnmtops -width {{width}} -height {{height}} {{path/to/file.pnm}} > {{path/to/file.ps}}`
+`pnmtops {{[-w|-width]}} {{width}} {{[-h|-height]}} {{height}} {{path/to/file.pnm}} > {{path/to/file.ps}}`
