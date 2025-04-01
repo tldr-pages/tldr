@@ -3,7 +3,7 @@
 > Verander de scheduleringsprioriteit/niceness van lopende processen.
 > Niceness waarden variëren van -20 (meest gunstig voor het proces) tot 19 (minst gunstig voor het proces).
 > Bekijk ook: `nice`.
-> Meer informatie: <https://manned.org/renice>.
+> Meer informatie: <https://manned.org/renice.1p>.
 
 - Verhoog/verlaag de prioriteit van een lopend [p]roces:
 

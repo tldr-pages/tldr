@@ -1,7 +1,7 @@
 # ani-cli
 
 > Een cli om door anime te bladeren en deze te bekijken.
-> Meer informatie: <https://github.com/pystardust/ani-cli>.
+> Meer informatie: <https://manned.org/ani-cli>.
 
 - Zoek naar anime op naam:
 

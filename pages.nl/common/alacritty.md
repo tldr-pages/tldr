@@ -1,7 +1,7 @@
 # alacritty
 
 > Cross-platform, GPU-versnelde terminalemulator.
-> Meer informatie: <https://github.com/alacritty/alacritty>.
+> Meer informatie: <https://manned.org/alacritty>.
 
 - Open een nieuw Alacritty-venster:
 
