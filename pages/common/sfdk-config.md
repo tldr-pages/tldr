@@ -1,6 +1,7 @@
 # sfdk config
 
 > Configures sfdk.
+> More information: <https://docs.sailfishos.org/Develop/Apps/Tutorials/Building_packages_-_advanced_techniques/>.
 
 - Show configuration in all scopes:
 
