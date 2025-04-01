@@ -1,7 +1,7 @@
 # sfdk deploy
 
 > Deploys build results to a device.
-> More information: <https://docs.sailfishos.org/Develop/Apps/Tutorials/Building_packages_-_advanced_techniques/>.
+> More information: <https://docs.sailfishos.org/Tools/Sailfish_SDK/Deploying_packages/>.
 
 - Deploy using a specified method (`pkcon`, `rsync`, `sdk`, `zypper`, `zypper-dup` or `manual`):
 
