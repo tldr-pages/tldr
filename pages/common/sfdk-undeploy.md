@@ -1,6 +1,7 @@
 # sfdk undeploy
 
 > Undeploys build results from a device.
+> More information: <https://docs.sailfishos.org/Tools/Sailfish_SDK/Deploying_packages/>.
 
 - Undeploy using a specified method (`pkcon`, `rpm`, `rsync`, `sdk` or `zypper`):
 

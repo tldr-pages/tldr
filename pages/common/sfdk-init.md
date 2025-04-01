@@ -1,6 +1,7 @@
 # sfdk init
 
 > Initializes a new project.
+> More information: <https://docs.sailfishos.org/Reference/I18n/Application_Configuration/>.
 
 - Initialize a new project of the given type:
 

@@ -1,6 +1,7 @@
 # sfdk engine
 
 > Maintains and controls the build engine.
+> More information: <https://docs.sailfishos.org/Develop/Apps/#sailfish-os-build-engine>.
 
 - Start the build engine:
 

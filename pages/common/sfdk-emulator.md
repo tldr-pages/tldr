@@ -1,6 +1,7 @@
 # sfdk emulator
 
 > Maintains and controls emulators.
+> More information: <https://docs.sailfishos.org/Develop/Apps/#emulator>.
 
 - Display the installed emulators:
 

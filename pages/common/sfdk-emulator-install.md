@@ -1,6 +1,7 @@
 # sfdk emulator install
 
 > Installs emulators.
+> More information: <https://docs.sailfishos.org/Tools/Sailfish_SDK/Early_Access/#early-access-build-targets-and-emulator>.
 
 - Install an emulator:
 
