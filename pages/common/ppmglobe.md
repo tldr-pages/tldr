@@ -10,4 +10,4 @@
 
 - Use the specified color for the areas between the strips:
 
-`ppmglobe -background {{red}} {{number_of_strips}} {{path/to/image.ppm}} > {{path/to/output.ppm}}`
+`ppmglobe {{[-b|-background]}} {{red}} {{number_of_strips}} {{path/to/image.ppm}} > {{path/to/output.ppm}}`

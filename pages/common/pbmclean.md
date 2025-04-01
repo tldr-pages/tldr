@@ -13,4 +13,4 @@
 
 - Specify the minimum number of neighbouring pixels of the same color in order for a pixel not to be considered isolated:
 
-`pbmclean -minneighbours {{3}} {{path/to/image.pbm}} > {{path/to/output.pbm}}`
+`pbmclean {{[-m|-minneighbours]}} {{3}} {{path/to/image.pbm}} > {{path/to/output.pbm}}`

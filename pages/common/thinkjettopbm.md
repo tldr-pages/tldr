@@ -9,4 +9,4 @@
 
 - Print debug information to `stderr`:
 
-`thinkjettopbm -d {{path/to/input}} > {{path/to/output.pbm}}`
+`thinkjettopbm {{[-d|-debug]}} {{path/to/input}} > {{path/to/output.pbm}}`
