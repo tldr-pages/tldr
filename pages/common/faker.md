@@ -7,7 +7,7 @@
 
 `faker`
 
-- Generate some fake data of a specific type (consult documentation for the full range):
+- Generate fake data of a specific type:
 
 `faker {{name|address|passport_full|credit_card_full|phone_number|email|company|date_time|user_name|password|job|...}}`
 
