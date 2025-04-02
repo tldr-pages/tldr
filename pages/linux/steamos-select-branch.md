@@ -1,6 +1,6 @@
 # steamos-select-branch
 
-> Select SteamOS system release branch.
+> Select a SteamOS system release branch.
 > More information: <https://gitlab.com/users/evlaV/projects>.
 
 - View the current branch:
