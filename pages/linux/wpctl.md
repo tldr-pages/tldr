@@ -28,6 +28,10 @@
 
 `wpctl set-volume {{id}} {{n}}%{{+|-}}`
 
+- Increase the volume of a sink by `n` percent but limit the volume below 100%:
+
+`wpctl set-volume {{[-l|--limit]}} 1 {{id}} {{n}}%-`
+
 - Mute/Unmute a sink (1 is mute, 0 is unmute):
 
 `wpctl set-mute {{id}} {{1|0|toggle}}`
