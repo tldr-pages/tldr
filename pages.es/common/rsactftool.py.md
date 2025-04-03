@@ -9,11 +9,11 @@
 
 - Descifra un fichero utilizando una clave pública:
 
-`RsaCtfTool.py --publickey {{ruta/a/clave.pub}} --decryptfile {{ruta/archivo/cifrado}}`
+`RsaCtfTool.py --publickey {{ruta/a/clave.pub}} --decryptfile {{ruta/a/archivo_cifrado}}`
 
 - Descifra una cadena de texto cifrado específica:
 
-`RsaCtfTool.py --publickey {{ruta/a/clave.pub}} --decrypt "{{ciphertext}}"`
+`RsaCtfTool.py --publickey {{ruta/a/clave.pub}} --decrypt "{{texto_cifrado}}"`
 
 - Vuelca los componentes de una clave RSA (por ejemplo, módulo, exponente) desde un archivo de claves:
 
@@ -25,7 +25,7 @@
 
 - Genera una clave pública a partir del módulo (n) y el exponente (e):
 
-`RsaCtfTool.py --createpub -n {{módulo}} -e {{exponente}} -e {{exponente}}`
+`RsaCtfTool.py --createpub -n {{módulo}} -e {{exponente}}`
 
 - Intenta todos los ataques disponibles para recuperar la clave privada:
 
