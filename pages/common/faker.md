@@ -23,6 +23,6 @@
 
 `faker --repeat {{number}} --verbose user_agent`
 
-- Generate a number of domain names and separate each using a comma:
+- Generate a number of domain names and separate each using a specific separator:
 
 `faker --repeat {{number}} --sep '{{,}}' domain_name`
