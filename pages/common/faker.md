@@ -11,13 +11,13 @@
 
 `faker {{name|address|passport_full|credit_card_full|phone_number|email|company|date_time|user_name|password|job|...}}`
 
-- Generate a number of fake addresses from Germany or Switzerland:
+- Generate a number of fake addresses from a specific country (use `localectl list-locales | cut -d. -f1` to get list of locales):
 
-`faker --repeat {{number}} --lang {{de_DE|de_CH}} address`
+`faker --repeat {{number}} --lang {{de_DE|de_CH|...}} address`
 
-- Generate a number of cities in Australia and output them to a file:
+- Generate a number of cities in a specific country and output them to a file (use `localectl list-locales | cut -d. -f1` to get list of locales):
 
-`faker --repeat {{number}} --lang {{en_AU}} city -o {{path/to/file.txt}}`
+`faker --repeat {{number}} --lang {{en_AU|en_US|...}} city -o {{path/to/file.txt}}`
 
 - Generate a number of random HTTP user-agents showing verbose output:
 
