@@ -1,6 +1,6 @@
 # faker
 
-> A python library and a tool to generate fake data.
+> A Python library and a tool to generate fake data.
 > More information: <https://faker.readthedocs.io/en/master/>.
 
 - Show all fake data providers along with examples:
