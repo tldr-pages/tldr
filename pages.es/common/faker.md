@@ -9,7 +9,7 @@
 
 - Genera datos falsos de un tipo específico:
 
-`faker {{nombre|dirección|pasaporte_completo|tarjeta_de_crédito_completa|número_teléfono|email|empresa|fecha_hora|nombre_usuario|contraseña|trabajo|...}}`
+`faker {{name|address|passport_full|credit_card_full|phone_number|email|company|date_time|user_name|password|job|...}}`
 
 - Genera un número de direcciones falsas de un país específico (usa `localectl list-locales | cut -d. -f1` para obtener la lista de locales):
 
