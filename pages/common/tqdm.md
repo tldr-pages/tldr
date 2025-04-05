@@ -14,3 +14,7 @@
 - Create an archive out of a directory and use the file count of that directory to create a progress bar:
 
 `zip -r {{path/to/archive.zip}} {{path/to/directory}} | tqdm --total $(find {{path/to/directory}} | wc -l) --unit files --null`
+
+- Create an archive with tar and create a progress bar (system agnostic, GNU tar uses `stdout` while BSD tar uses `stderr`):
+
+`tar vzcf {{path/to/archive.tar.gz}} {{path/to/directory}} |& tqdm --total $(find {{path/to/directory}} | wc -l) --unit files --null`
