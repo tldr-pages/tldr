@@ -7,7 +7,7 @@
 
 `mkinitfs`
 
-- Use a different config file:
+- Use a different configuration file:
 
 `mkinitfs -c {{path/to/config}}`
 
