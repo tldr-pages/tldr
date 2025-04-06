@@ -12,7 +12,7 @@
 
 `sudo emerge {{[-avuDN|--ask --verbose --update --deep --newuse]}} @world`
 
-- Resume a failed updated, skipping the failing package:
+- Resume a failed update, skipping the failing package:
 
 `sudo emerge --resume --skipfirst`
 
