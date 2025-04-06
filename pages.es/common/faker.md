@@ -25,4 +25,4 @@
 
 - Genera un número de nombres de dominio y separa cada uno utilizando un separador específico:
 
-`faker --repeat {{número}}} --sep '{{,}}' nombre_dominio`
+`faker --repeat {{número}} --sep '{{,}}' nombre_dominio`
