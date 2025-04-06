@@ -1,7 +1,6 @@
 # rnm
 
 > Bulk Rename Utility.
-> A powerful batch renaming tool that supports search/replace, indexing, sorting, undo, and more.
 > More information: <https://github.com/neurobin/rnm>.
 
 - Replace a search string with a replacement string in filenames:
