@@ -5,7 +5,7 @@
 
 - Replace a search string with a replacement string in filenames:
 
-`rnm -ss {{old}} -rs {{new}} {{path/to/files}}`
+`rnm -ss {{old}} -rs {{new}} {{path/to/directory}}`
 
 - Use a fixed (literal) search and replace string instead of regex:
 
