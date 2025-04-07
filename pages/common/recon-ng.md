@@ -4,26 +4,26 @@
 > After installation use `recon-ng` to begin using this tool.
 > More information: <https://github.com/lanmaster53/recon-ng/wiki>.
 
-- Create a workspace.
+- Create a workspace:
 
 `workspaces create workspace_name`
 
-- Search marketplace for modules used to accomplish different reconnaissance tasks.
+- Search marketplace for modules used to accomplish different reconnaissance tasks:
 
 `marketplace search`
 
-- Install all available modules (Some may need api keys to completely function).
+- Install all available modules (Some may need api keys to completely function):
 
 `marketplace install all`
 
-- Loads profiler module. This module scans the web for profiles matching the target, scrapes them, and stores them.
+- Loads profiler module. This module scans the web for profiles matching the target, scrapes them, and stores them:
 
 `modules load profiler`
 
-- Used to insert the target's username. After entering this command, enter the desired username of your search and leave the rest of the options blank.
+- Used to insert the target's username. After entering this command, enter the desired username of your search and leave the rest of the options blank:
 
 `db insert profiles`
 
-- Runs the current module.
+- Runs the current module:
 
 `run`
