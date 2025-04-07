@@ -6,7 +6,7 @@
 
 - Create a workspace:
 
-`workspaces create workspace_name`
+`workspaces create {{workspace_name}}`
 
 - Search marketplace for modules used to accomplish different reconnaissance tasks:
 
