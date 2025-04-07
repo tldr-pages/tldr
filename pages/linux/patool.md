@@ -8,6 +8,10 @@
 
 `patool extract {{path/to/archive}}`
 
+- Create an archive:
+
+`patool create {{/path/to/archive}} {{/path/to/file1}} {{/path/to/file2}} {{/path/to/dir1/}} {{/path/to/dir2/}}`
+
 - List contents of an archive:
 
 `patool list {{path/to/archive}}`
