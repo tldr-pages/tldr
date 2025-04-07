@@ -13,7 +13,7 @@
 
 - Compress the initramfs using the specified compression algorithm (default: gzip):
 
-`mkinitfs -c {{gzip|xz|zstd|lz4|none}}`
+`mkinitfs -C {{gzip|xz|zstd|lz4|none}}`
 
 - List files that will be included in the initramfs image:
 
