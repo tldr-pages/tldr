@@ -26,7 +26,7 @@
 
 - Authenticate to the RPC interface with username and password:
 
-`rpcmap.py -auth-rpc {{[domain/]username[:password]}} {{stringbinding}}`
+`rpcmap.py -auth-rpc {{domain}}/{{username}}:{{password}} {{stringbinding}}`
 
 - Authenticate using NTLM hashes for RPC:
 
