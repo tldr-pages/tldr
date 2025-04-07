@@ -9,7 +9,7 @@
 
 - List all files, including hidden files:
 
-`eza {{[a|--all]}}`
+`eza {{[-a|--all]}}`
 
 - Long format list (permissions, ownership, size and modification date) of all files:
 
