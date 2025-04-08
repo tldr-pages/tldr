@@ -8,7 +8,7 @@
 
 `workspaces create {{workspace_name}}`
 
-- Search marketplace for modules used to accomplish different reconnaissance tasks:
+- Search the marketplace for modules used to accomplish different reconnaissance tasks:
 
 `marketplace search`
 
