@@ -12,7 +12,7 @@
 
 `marketplace search`
 
-- Install all available modules (Some may need api keys to completely function):
+- Install all available modules (some may need API keys to function completely):
 
 `marketplace install all`
 
