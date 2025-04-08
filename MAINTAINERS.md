@@ -149,6 +149,9 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - Machiavelli ([@MachiavelliII](https://github.com/MachiavelliII)):
   [21 January 2025](https://github.com/tldr-pages/tldr/issues/15564) — [27 Mar 2025](https://github.com/tldr-pages/tldr/issues/16036)
 
+- Amine LOUHICHI ([@aminelch](https://github.com/aminelch)):
+  [21 January 2025](https://github.com/tldr-pages/tldr/issues/16126) — [08 Apr 2025](https://github.com/tldr-pages/tldr/issues/16036)
+
 ## Organization members
 
 In addition to everything that repository collaborators can do, organization members have write access to all the repositories in the tldr-pages organization, and [a few extra maintenance capabilities](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization).
