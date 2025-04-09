@@ -9,7 +9,7 @@
 
 - 모든 모듈과 함께 전체 시스템 정보 표시:
 
-`fastfetch -c all`
+`fastfetch {{[-c|--config]}} all`
 
 - 특정 구조를 가져오기:
 
