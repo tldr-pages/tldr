@@ -1,7 +1,7 @@
 # fastfetch
 
 > 운영체제, 소프트웨어 및 하드웨어에 대한 정보 표시.
-> 더 많은 정보: <https://github.com/LinusDierheimer/fastfetch>.
+> 더 많은 정보: <https://github.com/fastfetch-cli/fastfetch>.
 
 - 시스템 정보 표시:
 

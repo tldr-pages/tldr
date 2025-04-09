@@ -1,7 +1,7 @@
 # fastfetch
 
 > Display information about your operating system, software and hardware.
-> More information: <https://github.com/LinusDierheimer/fastfetch>.
+> More information: <https://github.com/fastfetch-cli/fastfetch>.
 
 - Display system information:
 
