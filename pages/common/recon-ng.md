@@ -20,10 +20,10 @@
 
 `modules load profiler`
 
-- Used to insert the target's username. After entering this command, enter the desired username of your search and leave the rest of the options blank:
+- Insert the target's username. After entering this command, enter the desired username of the search and leave the rest of the options blank:
 
 `db insert profiles`
 
-- To run the current module:
+- Run the current module:
 
 `run`
