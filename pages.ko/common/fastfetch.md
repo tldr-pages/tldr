@@ -7,6 +7,10 @@
 
 `fastfetch`
 
+- 모든 모듈과 함께 전체 시스템 정보 표시:
+
+`fastfetch -c all`
+
 - 로고와 이스케이프 시퀀스 없이 시스템 정보를 표기:
 
 `fastfetch --pipe`

@@ -7,6 +7,10 @@
 
 `fastfetch`
 
+- Display full system information with all the modules enabled:
+
+`fastfetch -c all`
+
 - Fetch a specific structure:
 
 `fastfetch --structure {{structure}}`
