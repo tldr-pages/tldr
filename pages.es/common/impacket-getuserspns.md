@@ -6,4 +6,4 @@
 
 - Vea la documentación del comando original:
 
-`tldr GetNPUsers.py`
+`tldr GetUserSPNs.py`
