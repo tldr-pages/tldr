@@ -1,4 +1,4 @@
-# impacket-GetNPUsers
+# impacket-GetUserSPNs
 
 > Este comando es un alias de `GetNPUsers.py`.
 > Forma parte de la suite Impacket.
