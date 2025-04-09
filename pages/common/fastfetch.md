@@ -9,7 +9,7 @@
 
 - Display full system information with all the modules enabled:
 
-`fastfetch -c all`
+`fastfetch {{[-c|--config]}} all`
 
 - Fetch a specific structure:
 
