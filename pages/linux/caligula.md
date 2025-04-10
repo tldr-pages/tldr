@@ -2,6 +2,10 @@
 
 > A user-friendly, lightweight TUI for disk imaging. More information: <https://github.com/ifd3f/caligula>.
 
-- Flash `image.iso` to a drive
+- Flash `image.iso` to a drive:
 
-`caligula burn image.iso`
+`caligula burn image.iso
+
+- Flash `image.iso` to a drive, while not inputting the hash interractively:
+
+`caligula burn image.iso --hash <hash>`
