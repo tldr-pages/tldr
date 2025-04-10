@@ -4,7 +4,7 @@
 
 - Flash `image.iso` to a drive:
 
-`caligula burn image.iso
+`caligula burn image.iso`
 
 - Flash `image.iso` to a drive, while not inputting the hash interractively:
 
