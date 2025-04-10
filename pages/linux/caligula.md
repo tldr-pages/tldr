@@ -6,6 +6,6 @@
 
 `caligula burn image.iso`
 
-- Flash `image.iso` to a drive, while not inputting the hash interractively:
+- Flash `image.iso` to a drive without entering the hash interactively:
 
 `caligula burn {{image.iso}} {{[s|--hash]}} {{hash}}`
