@@ -14,7 +14,7 @@
 
 - Run specific Python version. If missing and `PYLAUNCHER_ALLOW_INSTALL` environment variable is set, auto-install via Microsoft Store or Winget:
 
-`py {{-2 | -3 | -X.Y}}`
+`py {{-2|-3.7|...}}`
 
 - List installed Python versions:
 
