@@ -8,4 +8,4 @@
 
 - Flash `image.iso` to a drive, while not inputting the hash interractively:
 
-`caligula burn image.iso --hash <hash>`
+`caligula burn {{image.iso}} {{[s|--hash]}} {{hash}}`
