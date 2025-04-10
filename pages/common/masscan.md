@@ -16,7 +16,7 @@
 
 `masscan {{10.0.0.0/16}} --top-ports {{100}} --excludefile {{path/to/file}}`
 
-- Scan a  class B subnet with Nmap-like version detection (banner grabbing):
+- Scan a class B subnet with Nmap-like version detection (banner grabbing):
 
 `masscan {{10.0.0.0/16}} -p {{22,80}} --banners --rate {{100000}}`
 
