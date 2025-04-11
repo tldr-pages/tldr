@@ -1,6 +1,7 @@
 # sfdk scrape
 
 > Converts source code modifications to patches.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/tree/master/src/tools/sfdk>.
 
 - Save source modifications as patches:
 
@@ -8,7 +9,7 @@
 
 - Preview the list of commits to be scrapped:
 
-`sfdk scrape --dry-run`
+`sfdk scrape {{[-n|--dry-run]}}`
 
 - Scrape while preserving the original patches file names:
 
@@ -16,7 +17,7 @@
 
 - Scrape while saving patches to a specified [o]utput directory:
 
-`sfdk scrape -o {{directory}}`
+`sfdk scrape {{[-o|--output-dir]}} {{directory}}`
 
 - Scrape without removing commits from submodules after creating patches:
 

@@ -1,6 +1,7 @@
 # sfdk emulator device-model-show
 
 > Show emulated device model's properties.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/tree/master/src/tools/sfdk>.
 
 - Show a model properties:
 
