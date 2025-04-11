@@ -24,6 +24,6 @@
 
 `az lock list`
 
-- Show a subscription level lock with a specific [n]ame:
+- Show a subscription level lock with a specific name:
 
 `az lock show {{[-n|--name]}} {{lock_name}}`

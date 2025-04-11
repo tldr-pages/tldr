@@ -12,7 +12,7 @@
 
 `ansible {{group}} {{[-m|--module-name]}} ping`
 
-- Display facts about a group of hosts by invoking the setup [m]odule:
+- Display facts about a group of hosts by invoking the setup module:
 
 `ansible {{group}} {{[-m|--module-name]}} setup`
 

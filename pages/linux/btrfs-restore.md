@@ -15,7 +15,7 @@
 
 `sudo btrfs restore --path-regex {{regex}} -c {{path/to/btrfs_device}} {{path/to/target_directory}}`
 
-- Restore files from a btrfs filesystem using a specific root tree `bytenr` (see `btrfs-find-root`):
+- Restore files from a btrfs filesystem using a specific root [t]ree `bytenr` (see `btrfs-find-root`):
 
 `sudo btrfs restore -t {{bytenr}} {{path/to/btrfs_device}} {{path/to/target_directory}}`
 

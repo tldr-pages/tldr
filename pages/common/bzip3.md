@@ -11,7 +11,7 @@
 
 `bzip3 {{[-d|--decode]}} {{path/to/compressed_file.bz3}}`
 
-- Decompress a file to `stdout` ([c]):
+- Decompress a file to `stdout`:
 
 `bzip3 {{[-dc|--decode --stdout]}} {{path/to/compressed_file.bz3}}`
 

@@ -9,7 +9,7 @@
 
 `sudo urpmi.removemedia {{medium}}`
 
-- Remove all media:
+- Remove [a]ll media:
 
 `sudo urpmi.removemedia -a`
 
