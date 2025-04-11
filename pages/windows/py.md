@@ -12,7 +12,7 @@
 
 `py {{path/to/file.py}}`
 
-- Run specific Python version. If missing and `PYLAUNCHER_ALLOW_INSTALL` environment variable is set, auto-install via Microsoft Store or Winget:
+- Run specific Python version. If the version is missing, and `PYLAUNCHER_ALLOW_INSTALL` environment variable is set, auto-install via Microsoft Store or Winget:
 
 `py {{-2|-3.7|...}}`
 
