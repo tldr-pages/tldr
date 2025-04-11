@@ -1,6 +1,7 @@
 # sfdk scrape
 
 > Converts source code modifications to patches.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/tree/master/src/tools/sfdk>
 
 - Save source modifications as patches:
 
