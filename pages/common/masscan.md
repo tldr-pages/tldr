@@ -18,7 +18,7 @@
 
 - Scan a class B subnet with Nmap-like version detection (banner grabbing):
 
-`masscan {{10.0.0.0/16}} -p {{22,80}} --banners --rate {{100000}}`
+`masscan {{10.0.0.0/16}} {{[-p|--ports]}} {{22,80}} --banners --rate {{100000}}`
 
 - Scan the Internet for web servers running on port 80 and 443:
 
