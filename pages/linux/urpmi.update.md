@@ -3,7 +3,7 @@
 > Update the list of packages from a package repository in Mageia.
 > Note: Mageia documentation uses medium and repository as synonymous.
 > See also: `urpmi`, `urpme`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpmq`.
-> More information: <https://wiki.mageia.org/en/URPMI#urpmi.update>.
+> More information: <https://man.linuxreviews.org/man8/urpmi.update.8.html>.
 
 - Update all enabled media:
 

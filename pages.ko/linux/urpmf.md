@@ -2,7 +2,7 @@
 
 > 파일을 패키지에서 찾고 Mageia에서 해당 정보를 조회.
 > 같이 보기: `urpmi`, `urpme`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmi.update`, `urpmq`.
-> 더 많은 정보: <https://wiki.mageia.org/en/URPMI#urpmi.removemedia>.
+> 더 많은 정보: <https://man.linuxreviews.org/man8/urpmf.8.html>.
 
 - 파일을 포함하는 패키지 검색:
 

@@ -2,7 +2,7 @@
 
 > Uninstall packages in Mageia.
 > See also: `urpmi`, `urpmi.update`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpmq`.
-> More information: <https://wiki.mageia.org/en/URPMI#urpme>.
+> More information: <https://man.linuxreviews.org/man8/urpme.8.html>.
 
 - Uninstall a package:
 

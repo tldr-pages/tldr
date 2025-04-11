@@ -2,7 +2,7 @@
 
 > Install packages in Mageia.
 > See also: `urpm.update`, `urpme`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpmq`.
-> More information: <https://wiki.mageia.org/en/URPMI#urpmi>.
+> More information: <https://man.linuxreviews.org/man8/urpmi.8.html>.
 
 - Install a package from the repository or from a local RPM file:
 

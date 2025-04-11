@@ -2,7 +2,7 @@
 
 > Mageia에서 패키지 및 미디어에 대한 정보를 조회합니다.
 > 같이 보기: `urpmi`, `urpmi.update`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpme`.
-> 더 많은 정보: <https://wiki.mageia.org/en/URPMI#urpmq>.
+> 더 많은 정보: <https://man.linuxreviews.org/man8/urpmq.8.html>.
 
 - 설치 가능한 패키지에 대한 정보 표시:
 
