@@ -14,11 +14,11 @@
 
 - 여러 스레드를 활용하여 `.log` 확장자를 가진 모든 파일을 gzip으로 압축 (`-print0`는 파일 이름을 null 문자로 분리하고, `-0`은 이를 구분자로 사용):
 
-`find . -name '*.log' -print0 | xargs {{[-0|--null]}} {{[-P|--max-procs]}} {{4}} {{-n|--max-args}} 1 gzip`
+`find . -name '*.log' -print0 | xargs {{[-0|--null]}} {{[-P|--max-procs]}} {{4}} {{[-n|--max-args]}} 1 gzip`
 
 - 각 인수에 대해 한 번씩 명령 실행:
 
-`{{인수들_소스}} | xargs {{-n|--max-args}} 1 {{명령어}}`
+`{{인수들_소스}} | xargs {{[-n|--max-args]}} 1 {{명령어}}`
 
 - 각 입력 줄에 대해 한 번씩 명령 실행, 입력 줄로 플레이스홀더(여기서는 `_`로 표시)를 대체:
 

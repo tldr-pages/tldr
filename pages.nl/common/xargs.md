@@ -14,11 +14,11 @@
 
 - Gzip alle bestanden met een `.log` extensie en profiteer van het voordeel van meerdere threads (`-print0` gebruikt een nul-teken om bestandsnamen te splitsen en `-0` gebruikt het als scheidingsteken):
 
-`find . -name '*.log' -print0 | xargs {{[-0|--null]}} {{[-P|--max-procs]}} {{4}} {{-n|--max-args}} 1 gzip`
+`find . -name '*.log' -print0 | xargs {{[-0|--null]}} {{[-P|--max-procs]}} {{4}} {{[-n|--max-args]}} 1 gzip`
 
 - Voer het commando eenmaal per argument uit:
 
-`{{argumenten_bron}} | xargs {{-n|--max-args}} 1 {{commando}}`
+`{{argumenten_bron}} | xargs {{[-n|--max-args]}} 1 {{commando}}`
 
 - Voer het commando één keer uit voor elke invoerregel, waarbij elke plaatsaanduiding (hier gemarkeerd als `_`) wordt vervangen door de invoerregel:
 

@@ -18,7 +18,7 @@
 
 - Execute the command once per argument:
 
-`{{arguments_source}} | xargs {{-n|--max-args}} 1 {{command}}`
+`{{arguments_source}} | xargs {{[-n|--max-args]}} 1 {{command}}`
 
 - Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
 
