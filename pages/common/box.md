@@ -7,9 +7,9 @@
 
 `box compile`
 
-- Compile a new Phar file using a specific [c]onfiguration file:
+- Compile a new Phar file using a specific configuration file:
 
-`box compile -c {{path/to/config}}`
+`box compile {{[-c|--config]}} {{path/to/config}}`
 
 - Display information about the PHAR PHP extension:
 
