@@ -9,7 +9,7 @@
 
 - Preview undeploy without applying the changes:
 
-`sfdk undeploy --{{method}} --dry-run`
+`sfdk undeploy --{{method}} {{[-n|--dry-run]}}`
 
 - Undeploy files in glob pattern `package*`:
 
