@@ -19,6 +19,10 @@
 
 `lsblk {{[-f|--fs]}}`
 
+- 使用 ASCII 字符进行树形格式化：
+
+`lsblk {{[-i|--ascii]}}`
+
 - 输出块设备的拓扑结构：
 
 `lsblk {{[-t|--topology]}}`
@@ -29,4 +33,4 @@
 
 - 使用逗号分隔的列列表显示自定义摘要：
 
-`lsblk {{[-o|--output]}} {{NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,...}}`
+`lsblk {{[-o|--output]}} {{名称,序列号,型号,传输方式,类型,大小,文件系统类型,挂载点,...}}`
