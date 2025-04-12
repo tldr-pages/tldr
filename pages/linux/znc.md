@@ -15,6 +15,6 @@
 
 `sudo {{[-u|--user]}} znc znc {{[-c|--makeconf]}} {{[-d|--datadir]}} /var/lib/znc`
 
-- Enable znc to start on boot and start it now:
+- Enable `znc` to start on boot and start it now:
 
 `systemctl enable znc --now`
