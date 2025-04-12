@@ -13,7 +13,7 @@
 
 - Display the available emulators:
 
-`sfdk emulator list -a`
+`sfdk emulator list {{[-a|--available]}}`
 
 - Display the installed emulators:
 
