@@ -20,6 +20,10 @@
 
 `{{<[>|<]>}}`
 
+- Add subtitles from a file:
+
+`mpv --sub-file={{path/to/file}}`
+
 - Take a screenshot of the current frame (saved to `./mpv-shotNNNN.jpg` by default):
 
 `<s>`
@@ -31,7 +35,3 @@
 - Play a file using a profile defined in the `mpv.conf` file:
 
 `mpv --profile {{profile_name}} {{path/to/file}}`
-
-- Display the output of webcam or other video input device:
-
-`mpv {{/dev/video0}}`
