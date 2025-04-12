@@ -1,27 +1,31 @@
 # fastfetch
 
 > Display information about your operating system, software and hardware.
-> More information: <https://github.com/LinusDierheimer/fastfetch>.
+> More information: <https://manned.org/fastfetch>.
 
 - Display system information:
 
 `fastfetch`
 
-- Fetch a specific structure:
+- Display full system information with all the modules enabled:
 
-`fastfetch --structure {{structure}}`
+`fastfetch {{[-c|--config]}} all`
 
 - Load a custom configuration file:
 
-`fastfetch --load-config {{path/to/config_file}}`
+`fastfetch {{[-c|--config]}} {{path/to/config_file}}`
+
+- Fetch a specific structure:
+
+`fastfetch {{[-s|--structure]}} {{structure}}`
 
 - Use a specific logo:
 
-`fastfetch --logo {{logo}}`
+`fastfetch {{[-l|--logo]}} {{logo}}`
 
 - Display system information without a logo:
 
-`fastfetch --logo none`
+`fastfetch {{[-l|--logo]}} none`
 
 - Use a specific color for the keys and title:
 
