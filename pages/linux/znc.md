@@ -3,7 +3,7 @@
 > IRC bouncer.
 > More information: <https://manned.org/znc>.
 
-- Run the inital setup:
+- Run the initial setup:
 
 `znc {{[-c|--makeconf]}}`
 
