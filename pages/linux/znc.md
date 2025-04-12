@@ -7,7 +7,7 @@
 
 `znc {{[-c|--makeconf]}}`
 
-- Start the IRC bouncer daemon
+- Start the IRC bouncer daemon:
 
 `znc`
 
