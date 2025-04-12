@@ -16,7 +16,7 @@
 
 `marketplace install all`
 
-- Load the profiler module. This module is used to scan the web for profiles matching the target, scrape them, and store them:
+- Load the profiler module. It is used to scan the web for profiles matching the target, scrape them, and store them:
 
 `modules load profiler`
 
