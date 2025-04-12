@@ -5,7 +5,7 @@
 
 - List password information for the user:
 
-`chage {{[-l|--list]]} {{username}}`
+`chage {{[-l|--list]}} {{username}}`
 
 - Enable password expiration in 10 days:
 
