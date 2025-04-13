@@ -6,7 +6,7 @@
 
 - Delete safely specific files or folders (no need for flag `-rf`):
 
-`gomi {{path/to/file1 path/to/folder ...}}`
+`gomi {{path/to/file1 path/to/file2 path/to/folder1 path/to/folder2 ...}}`
 
 - Restore one or more files, going back:
 
