@@ -3,7 +3,7 @@
 > Remove media in Mageia.
 > Note: Mageia documentation uses medium and repository as synonymous.
 > See also: `urpmi`, `urpme`, `urpmi.addmedia`, `urpmi.update`, `urpmf`, `urpmq`.
-> More information: <https://wiki.mageia.org/en/URPMI#urpmi.removemedia>.
+> More information: <https://man.linuxreviews.org/man8/urpmi.removemedia.8.html>.
 
 - Remove a medium:
 
