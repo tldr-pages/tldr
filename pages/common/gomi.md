@@ -1,7 +1,7 @@
 # gomi
 
 > Manage the trashcan.
-> See also: `rm`.
+> See also: `trash`, `rm`.
 > More information: <https://github.com/babarot/gomi>.
 
 - Delete safely specific files or folders (no need for flag `-rf`):
