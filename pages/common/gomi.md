@@ -4,7 +4,7 @@
 > See also: `trash`, `rm`.
 > More information: <https://github.com/babarot/gomi>.
 
-- Delete safely specific files or folders (no need for flag `-rf`):
+- Safely delete specific files or folders:
 
 `gomi {{path/to/file1 path/to/file2 path/to/folder1 path/to/folder2 ...}}`
 
