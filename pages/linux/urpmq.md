@@ -2,7 +2,7 @@
 
 > Query information about packages and media in Mageia.
 > See also: `urpmi`, `urpmi.update`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpme`.
-> More information: <https://wiki.mageia.org/en/URPMI#urpmq>.
+> More information: <https://man.linuxreviews.org/man8/urpmq.8.html>.
 
 - Display information about an installable package:
 
