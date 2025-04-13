@@ -12,7 +12,7 @@
 
 `gomi {{[-b|--restore]}}`
 
-- Remove files older than a specific time (day, week, month, year):
+- Remove files older than a specific time ([d]ay, [w]eek, [m]onth, [y]ear):
 
 `gomi --prune={{1d|1w|1m|1y|...}}`
 
