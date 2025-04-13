@@ -8,7 +8,7 @@
 
 `gomi {{path/to/file1 path/to/folder ...}}`
 
-- [Restore] one or more files, going [b]ack:
+- Restore one or more files, going back:
 
 `gomi {{[-b|--restore]}}`
 
