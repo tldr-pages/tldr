@@ -1,6 +1,6 @@
 # gomi
 
-> Unlike `rm`, which permanently deletes files, `gomi` moves them to the trash, allowing you to easily restore files.
+> Manage the trashcan.
 > See also: `rm`.
 > More information: <https://github.com/babarot/gomi>.
 
