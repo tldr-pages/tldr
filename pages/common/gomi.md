@@ -16,6 +16,6 @@
 
 `gomi --prune={{1d|1w|1m|1y|...}}`
 
-- Remove [orphanded] `.trashinfo` files (which contain the info of the deleted files, when thay have been deleted and where, a metadata file, that is abandoned and not useful anymore):
+- Remove orphaned `.trashinfo` files (which contain the info of the deleted files, when thay have been deleted and where, a metadata file, that is abandoned and not useful anymore):
 
-`gomi {{--prune=orphans}}`
+`gomi --prune={{orphans}}`
