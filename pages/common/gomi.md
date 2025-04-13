@@ -1,0 +1,21 @@
+# gomi
+
+> Unlike `rm`, which permanently deletes files, `gomi` moves them to the trash, allowing you to easily restore files.
+> See also: `rm`.
+> More information: <https://github.com/babarot/gomi>.
+
+- Delete safely specific files or folders (no need for flag `-rf`):
+
+`gomi {{path/to/file1 path/to/folder ...}}`
+
+- [Restore] one or more files, going [b]ack:
+
+`gomi {{[-b|--restore]}}`
+
+- Remove files older than a specific time ([d]ay, [w]eek, [m]onth, [y]ear):
+
+`gomi {{--prune=1w}}`
+
+- Remove [orphanded] `.trashinfo` files (which contain the info of the deleted files, when thay have been deleted and where, a metadata file, that is abandoned and not useful anymore):
+
+`gomi {{--prune=orphans}}`
