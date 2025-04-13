@@ -18,4 +18,4 @@
 
 - Remove orphaned `.trashinfo` files:
 
-`gomi --prune={{orphans}}`
+`gomi --prune {{orphans}}`
