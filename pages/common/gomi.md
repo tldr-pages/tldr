@@ -14,7 +14,7 @@
 
 - Remove files older than a specific time ([d]ay, [w]eek, [m]onth, [y]ear):
 
-`gomi {{--prune=1w}}`
+`gomi --prune={{1d|1w|1m|1y|...}}`
 
 - Remove [orphanded] `.trashinfo` files (which contain the info of the deleted files, when thay have been deleted and where, a metadata file, that is abandoned and not useful anymore):
 
