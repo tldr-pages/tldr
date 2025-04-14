@@ -23,6 +23,10 @@
 
 `git branch {{branch_name}} {{commit_hash}}`
 
+- Create new branch and switch to it:
+
+`git branch -b {{branch_name}}`
+
 - Rename a branch (you must switch to a different branch before doing this):
 
 `git branch {{[-m|--move]}} {{old_branch_name}} {{new_branch_name}}`
