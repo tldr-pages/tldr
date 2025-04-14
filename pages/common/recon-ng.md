@@ -1,8 +1,11 @@
 # recon-ng
 
 > Automated reconnaissance and information gathering tool.
-> Run `recon-ng` to begin using this tool.
 > More information: <https://github.com/lanmaster53/recon-ng/wiki>.
+
+- Start the tool:
+
+`recon-ng`
 
 - Create a workspace:
 
