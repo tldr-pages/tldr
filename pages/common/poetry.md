@@ -16,7 +16,7 @@
 
 `poetry install`
 
-- Interactively initialize the current directory as a new Poetry project:
+- Interactively (append `-n` for non-interactively) initialize the current directory as a new Poetry project:
 
 `poetry init`
 
