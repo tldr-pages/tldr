@@ -17,7 +17,7 @@
 
 - Display help:
 
-`sfdk --help`
+`sfdk {{[-h|--help]}}`
 
 - Display help for specific topic (`building`, `testing`, `maintaining`, `ide`, `all`):
 
