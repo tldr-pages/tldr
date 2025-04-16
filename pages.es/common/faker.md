@@ -21,8 +21,8 @@
 
 - Genera una serie de agentes de usuario HTTP aleatorios mostrando una salida detallada:
 
-`faker --repeat {{número}} --verbose usuario_agente`
+`faker --repeat {{número}} --verbose user_agent`
 
 - Genera un número de nombres de dominio y separa cada uno utilizando un separador específico:
 
-`faker --repeat {{número}} --sep '{{,}}' nombre_dominio`
+`faker --repeat {{número}} --sep '{{,}}' domain_name`
