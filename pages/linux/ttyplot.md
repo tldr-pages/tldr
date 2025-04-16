@@ -5,15 +5,15 @@
 
 - Plot the values `1`, `2` and `3` (`cat` prevents ttyplot to exit):
 
-`{ echo {{1 2 3}}; cat } | ttyplot`
+`echo {{1 2 3}}; cat | ttyplot`
 
 - Set a specific title and unit:
 
-`{ echo {{1 2 3}}; cat } | ttyplot -t {{title}} -u {{unit}}`
+`echo {{1 2 3}}; cat | ttyplot -t {{title}} -u {{unit}}`
 
 - Use a while loop to continuously plot random values:
 
-`{ while {{true}}; do echo {{$RANDOM}}; sleep {{1}}; done } | ttyplot`
+`while {{true}}; do echo {{$RANDOM}}; sleep {{1}}; done | ttyplot`
 
 - Parse the output from `ping` and visualize it:
 
