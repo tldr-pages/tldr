@@ -9,7 +9,7 @@
 
 - Preview deploy without applying the changes:
 
-`sfdk deploy --{{method}} --dry-run`
+`sfdk deploy --{{method}} {{[-n|--dry-run]}}`
 
 - Deploy files in glob pattern `package*`:
 
