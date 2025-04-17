@@ -1,4 +1,4 @@
-# abrt
+# abrt-cli
 
 > Automatic Bug Reporting Tool for Fedora-based systems.
 > Used to detect, analyze, and report application crashes.
@@ -20,9 +20,9 @@
 
 `abrt-cli report {{problem_id}}`
 
-- Watch for new crashes in real time (requires abrt-watch-log service):
+- Monitor a log file and trigger a program when a match is found:
 
-`abrt-watch-log -f {{/path/to/logfile}}`
+`abrt-watch-log -F {{error_string}} {{/var/log/myapp.log}} {{notify-send "Crash detected"}}`
 
 - Generate a report for debugging manually:
 
