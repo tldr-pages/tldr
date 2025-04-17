@@ -5,8 +5,8 @@
 
 - Create a `bcachefs` filesystem inside partition 1 on a device (`X`):
 
-`sudo mkfs.bcachefs {{/dev/sdX1}}`
+`sudo mkfs.bcachefs {{/dev/sdXY}}`
 
 - Create a `bcachefs` filesystem with a volume label:
 
-`sudo mkfs.bcachefs {{[-L|--fs_label]}} {{volume_label}} {{/dev/sdX1}}`
+`sudo mkfs.bcachefs {{[-L|--fs_label]}} {{volume_label}} {{/dev/sdXY}}`
