@@ -9,7 +9,7 @@
 
 - Create filesystem with a volume-name:
 
-`mkfs.exfat {{[-L|--volume-label]}} {{volume_name}} {{/dev/sdb1}}`
+`mkfs.exfat {{[-L|--volume-label]}} {{volume_name}} {{/dev/sdXY}}`
 
 - Create filesystem with a volume-id:
 
