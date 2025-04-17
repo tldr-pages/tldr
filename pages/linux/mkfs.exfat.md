@@ -13,4 +13,4 @@
 
 - Create filesystem with a volume-id:
 
-`mkfs.exfat {{[-U|--volume-guid]}} {{volume_id}} {{/dev/sdb1}}`
+`mkfs.exfat {{[-U|--volume-guid]}} {{volume_id}} {{/dev/sdXY}}`
