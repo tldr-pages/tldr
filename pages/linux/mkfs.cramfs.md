@@ -5,8 +5,8 @@
 
 - Create a ROM filesystem inside partition 1 on device b (`sdb1`):
 
-`mkfs.cramfs {{/dev/sdb1}}`
+`mkfs.cramfs {{/dev/sdXY}}`
 
 - Create a ROM filesystem with a volume-name:
 
-`mkfs.cramfs -n {{volume_name}} {{/dev/sdb1}}`
+`mkfs.cramfs -n {{volume_name}} {{/dev/sdXY}}`
