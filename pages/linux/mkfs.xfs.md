@@ -5,8 +5,8 @@
 
 - Create an XFS filesystem inside partition 1 on a device (`X`):
 
-`sudo mkfs.xfs {{/dev/sdX1}}`
+`sudo mkfs.xfs {{/dev/sdXY}}`
 
 - Create an XFS filesystem with a volume label:
 
-`sudo mkfs.xfs -L {{volume_label}} {{/dev/sdX1}}`
+`sudo mkfs.xfs -L {{volume_label}} {{/dev/sdXY}}`
