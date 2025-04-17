@@ -9,8 +9,8 @@
 
 - Create filesystem with a volume-label:
 
-`mkfs.ntfs -L {{volume_label}} {{/dev/sdb1}}`
+`mkfs.ntfs {{[-L|--label]}} {{volume_label}} {{/dev/sdb1}}`
 
 - Create filesystem with specific UUID:
 
-`mkfs.ntfs -U {{UUID}} {{/dev/sdb1}}`
+`mkfs.ntfs {{[-U|--with-uuid]}} {{UUID}} {{/dev/sdb1}}`

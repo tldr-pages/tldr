@@ -1,4 +1,4 @@
-# matchpathcon
+g# matchpathcon
 
 > Lookup the persistent SELinux security context setting of a path.
 > See also: `semanage-fcontext`, `secon`, `chcon`, `restorecon`.

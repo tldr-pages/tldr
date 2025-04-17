@@ -6,12 +6,12 @@
 
 - Create a btrfs filesystem on a single device:
 
-`sudo mkfs.btrfs --metadata single --data single {{/dev/sda}}`
+`sudo mkfs.btrfs {{[-m|--metadata]}} single {{[-d|--data]}} single {{/dev/sda}}`
 
 - Create a btrfs filesystem on multiple devices with raid1:
 
-`sudo mkfs.btrfs --metadata raid1 --data raid1 {{/dev/sda}} {{/dev/sdb}} {{/dev/sdN}}`
+`sudo mkfs.btrfs {{[-m|--metadata]}} raid1 {{[-d|--data]}} raid1 {{/dev/sda}} {{/dev/sdb}} {{/dev/sdN}}`
 
 - Set a label for the filesystem:
 
-`sudo mkfs.btrfs --label "{{label}}" {{/dev/sda}} [{{/dev/sdN}}]`
+`sudo mkfs.btrfs {{[-L|--label]}} "{{label}}" {{/dev/sda}} [{{/dev/sdN}}]`
