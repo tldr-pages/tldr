@@ -20,7 +20,7 @@
 
 `abrt-cli report {{problem_id}}`
 
-- Watch for new crashes in real time (requires abrt-watch-log service):
+- Watch for new crashes in real time (requires the `abrt-watch-log` service):
 
 `abrt-watch-log -f {{/path/to/logfile}}`
 
