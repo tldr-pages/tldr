@@ -1,4 +1,4 @@
-# abrt
+# abrt-cli
 
 > Automatic Bug Reporting Tool for Fedora-based systems.
 > Used to detect, analyze, and report application crashes.
