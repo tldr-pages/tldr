@@ -3,7 +3,7 @@
 > A realtime plotting utility for the command-line with data input from `stdin`.
 > More information: <https://github.com/tenox7/ttyplot>.
 
-- Plot the values `1`, `2` and `3` (`cat` prevents ttyplot to exit):
+- Plot the values `1`, `2` and `3` (Note: `cat` prevents `ttyplot` from exiting):
 
 `{ echo {{1 2 3}}; cat; } | ttyplot`
 
