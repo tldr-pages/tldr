@@ -10,7 +10,7 @@
 
 - Create a btrfs filesystem on multiple devices with raid1:
 
-`sudo mkfs.btrfs --metadata raid1 --data raid1 {{/dev/sdX}}} {{/dev/sdY}} {{/dev/sdN}}}`
+`sudo mkfs.btrfs --metadata raid1 --data raid1 {{/dev/sdX}}} {{/dev/sdY}} {{/dev/sdN}}`
 
 - Set a label for the filesystem:
 
