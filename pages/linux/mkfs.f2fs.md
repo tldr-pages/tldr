@@ -5,8 +5,8 @@
 
 - Create an F2FS filesystem inside partition 1 on device b (`sdb1`):
 
-`sudo mkfs.f2fs {{/dev/sdb1}}`
+`sudo mkfs.f2fs {{/dev/sdXY}}`
 
 - Create an F2FS filesystem with a volume label:
 
-`sudo mkfs.f2fs -l {{volume_label}} {{/dev/sdb1}}`
+`sudo mkfs.f2fs -l {{volume_label}} {{/dev/sdXY}}`
