@@ -13,4 +13,4 @@
 
 - Strip debug symbols only:
 
-`strip --strip-debug {{path/to/file.o}}`
+`strip {{[-d|--strip-debug]}} {{path/to/file.o}}`
