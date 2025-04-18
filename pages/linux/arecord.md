@@ -13,7 +13,7 @@
 
 - Record a snippet and save it as an MP3 (finish with `<Ctrl c>` when done):
 
-`arecord {{[-vv|--verbose -verbose]}} {{[-f|--format]}} cd {{[-t|--file-type]}} raw | lame -r - {{path/to/file.mp3}}`
+`arecord {{[-vv|--verbose --verbose]}} {{[-f|--format]}} cd {{[-t|--file-type]}} raw | lame -r - {{path/to/file.mp3}}`
 
 - List all sound cards and digital audio devices:
 
