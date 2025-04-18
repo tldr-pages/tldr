@@ -9,8 +9,8 @@
 
 - Initialize a repository, exclude test RPMs and display verbose logs:
 
-`createrepo -v -x {{test_*.rpm}} {{path/to/directory}}`
+`createrepo {{[-v|--verbose]}} {{[-x|--excludes]}} {{test_*.rpm}} {{path/to/directory}}`
 
 - Initialize a repository, using SHA1 as the checksum algorithm, and ignoring symbolic links:
 
-`createrepo -S -s {{sha1}} {{path/to/directory}}`
+`createrepo {{[-S|--skip-symlinks]}} {{[-s|--checksum]}} {{sha1}} {{path/to/directory}}`

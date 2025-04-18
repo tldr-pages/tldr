@@ -10,4 +10,4 @@
 
 - List all Distrobox containers with verbose information:
 
-`distrobox-list --verbose`
+`distrobox-list {{[-v|--verbose]}}`

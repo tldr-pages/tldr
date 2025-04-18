@@ -18,7 +18,7 @@
 
 - Add a remote key to the trusted keystore:
 
-`wget -qO - {{https://host.tld/filename.key}} | apt-key add -`
+`wget {{[-qO|--quiet --output-document]}} - {{https://host.tld/filename.key}} | apt-key add -`
 
 - Add a key from keyserver with only key ID:
 

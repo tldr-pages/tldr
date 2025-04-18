@@ -9,4 +9,4 @@
 
 - Stop a Distrobox container non-interactively (without confirmation):
 
-`distrobox-stop --name {{container_name}} --yes`
+`distrobox-stop {{[-n|--name]}} {{container_name}} {{[-Y|--yes]}}`
