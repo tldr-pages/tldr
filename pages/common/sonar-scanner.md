@@ -9,12 +9,12 @@
 
 - Scan a project using configuration file other than `sonar-project.properties`:
 
-`sonar-scanner -D{{project.settings=myproject.properties}}`
+`sonar-scanner {{[-D|--define]}} {{project.settings=myproject.properties}}`
 
 - Print debugging information:
 
-`sonar-scanner -X`
+`sonar-scanner {{[-X|--debug]}}`
 
 - Display help:
 
-`sonar-scanner -h`
+`sonar-scanner {{[-h|--help]}}`
