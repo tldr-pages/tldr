@@ -16,7 +16,7 @@
 
 `abrt-cli remove {{problem_id}}`
 
-- Report a problem to the configured bug tracker (e.g., Bugzilla):
+- Report a problem to the configured bug tracker (e.g. Bugzilla):
 
 `abrt-cli report {{problem_id}}`
 
