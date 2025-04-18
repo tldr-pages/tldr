@@ -15,7 +15,3 @@
 - Run continuously until interrupted (Ctrl+C):
 
 `ping.py {{source_ipv4}} {{destination_ipv4}}`
-
-- Verify a single ping response from a host:
-
-`ping.py {{source_ipv4}} {{destination_ipv4}}`
