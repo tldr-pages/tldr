@@ -3,7 +3,7 @@
 > Create an MS-DOS filesystem inside a partition.
 > More information: <https://manned.org/mkfs.fat>.
 
-- Create a fat filesystem inside partition 1 on device b (`sdb1`):
+- Create a fat filesystem inside partition `Y` on device `X`:
 
 `mkfs.fat {{/dev/sdXY}}`
 
