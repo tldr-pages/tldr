@@ -9,7 +9,7 @@
 
 - Record a snippet in "CD" quality, with a fixed duration of 10 seconds:
 
-`arecord {{[-vv|--verbose -verbose]}} {{[-f|--format]}} cd {{[-d|--duration]}} {{10}} {{path/to/file.wav}}`
+`arecord {{[-vv|--verbose --verbose]}} {{[-f|--format]}} cd {{[-d|--duration]}} {{10}} {{path/to/file.wav}}`
 
 - Record a snippet and save it as an MP3 (finish with `<Ctrl c>` when done):
 
