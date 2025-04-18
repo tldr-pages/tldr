@@ -17,16 +17,16 @@
 
 - Evaluate a string containing Julia code:
 
-`julia -e '{{julia_code}}'`
+`julia {{[-e|--eval]}} '{{julia_code}}'`
 
 - Evaluate a string of Julia code, passing arguments to it:
 
-`julia -e '{{for x in ARGS; println(x); end}}' {{arguments}}`
+`julia {{[-e|--eval]}} '{{for x in ARGS; println(x); end}}' {{arguments}}`
 
 - Evaluate an expression and print the result:
 
-`julia -E '{{(1 - cos(pi/4))/2}}'`
+`julia {{[-E|--print]}} '{{(1 - cos(pi/4))/2}}'`
 
 - Start Julia in multithreaded mode, using `n` threads:
 
-`julia -t {{n}}`
+`julia {{[-t|--threads]}} {{n}}`
