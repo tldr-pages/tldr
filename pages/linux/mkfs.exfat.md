@@ -3,7 +3,7 @@
 > Create an exfat filesystem inside a partition.
 > More information: <https://manned.org/mkfs.exfat>.
 
-- Create an exfat filesystem inside partition 1 on device b (`sdb1`):
+- Create an exfat filesystem inside partition Y on device X:
 
 `mkfs.exfat {{/dev/sdXY}}`
 

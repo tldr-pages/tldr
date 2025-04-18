@@ -3,7 +3,7 @@
 > Create a NTFS filesystem inside a partition.
 > More information: <https://manned.org/mkfs.ntfs>.
 
-- Create a NTFS filesystem inside partition 1 on device b (`sdb1`):
+- Create a NTFS filesystem inside partition Y on device X:
 
 `mkfs.ntfs {{/dev/sdXY}}`
 

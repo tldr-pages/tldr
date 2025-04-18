@@ -3,7 +3,7 @@
 > Create an ext4 filesystem inside a partition.
 > More information: <https://manned.org/mkfs.ext4>.
 
-- Create an ext4 filesystem inside partition 1 on device b (`sdb1`):
+- Create an ext4 filesystem inside partition Y on device X:
 
 `sudo mkfs.ext4 {{/dev/sdXY}}`
 
