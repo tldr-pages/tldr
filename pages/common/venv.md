@@ -19,6 +19,6 @@
 
 `deactivate`
 
-- Create an alias that generates a `venv` folder and automatically activate it:
+- Create an alias that generates a `venv` folder and automatically activates it:
 
 `alias venv='python -m venv .venv && source .venv/bin/activate'`
