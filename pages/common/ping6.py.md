@@ -15,7 +15,3 @@
 - Run continuously until interrupted (Ctrl+C):
 
 `ping6.py {{source_ipv6}} {{destination_ipv6}}`
-
-- Verify a single ping response from an IPv6 host:
-
-`ping6.py {{source_ipv6}} {{destination_ipv6}}`
