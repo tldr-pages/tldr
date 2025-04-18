@@ -5,7 +5,7 @@
 
 - Record a snippet in "CD" quality (finish with `<Ctrl c>` when done):
 
-`arecord {{[-vv|--verbose -verbose]}} {{[-f|--format]}} cd {{path/to/file.wav}}`
+`arecord {{[-vv|--verbose --verbose]}} {{[-f|--format]}} cd {{path/to/file.wav}}`
 
 - Record a snippet in "CD" quality, with a fixed duration of 10 seconds:
 
