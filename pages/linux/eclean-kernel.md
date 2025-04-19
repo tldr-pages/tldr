@@ -5,7 +5,7 @@
 
 - List all kernel files:
 
-`sudo eclean-kernel -l`
+`sudo eclean-kernel {{[-l|--list-kernels]}}
 
 - Remove all kernels except for the two newest ones:
 
