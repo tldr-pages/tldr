@@ -2,7 +2,7 @@
 
 > Manage ARP filtering rules using the nftables backend.
 > Part of the `xtables-nft` suite for ARP packet filtering.
-> More information: <https://man7.org/linux/man-pages/man8/arptables-nft.8.html>.
+> More information: <https://manned.org/arptables>.
 
 - List all ARP rules in the filter table:
 
