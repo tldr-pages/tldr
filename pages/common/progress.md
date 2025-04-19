@@ -9,12 +9,12 @@
 
 - Show the progress of running coreutils in quiet mode:
 
-`progress -q`
+`progress {{[-q|--quiet]}}`
 
 - Launch and monitor a single long-running command:
 
-`{{command}} & progress --monitor --pid $!`
+`{{command}} & progress {{[-m|--monitor]}} {{[-p|--pid]}} $!`
 
 - Include an estimate of time remaining for completion:
 
-`progress --wait --command {{firefox}}`
+`progress {{[-w|--wait]}} {{[-c|--command]}} {{firefox}}`

@@ -6,16 +6,16 @@
 
 - List all accepted, unaccepted and rejected minion keys:
 
-`salt-key -L`
+`salt-key {{[-L|--list-all]}}`
 
 - Accept a minion key by name:
 
-`salt-key -a {{MINION_ID}}`
+`salt-key {{[-a|--accept-all]}} {{MINION_ID}}`
 
 - Reject a minion key by name:
 
-`salt-key -r {{MINION_ID}}`
+`salt-key {{[-r|--reject]}} {{MINION_ID}}`
 
 - Print fingerprints of all public keys:
 
-`salt-key -F`
+`salt-key {{[-F|--finger-all]}}`

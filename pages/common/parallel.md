@@ -9,7 +9,7 @@
 
 - Read arguments from `stdin`, run 4 jobs at once:
 
-`ls *.txt | parallel -j4 gzip`
+`ls *.txt | parallel {{[-j|--jobs]}} 4 gzip`
 
 - Convert JPEG images to PNG using replacement strings:
 
@@ -25,11 +25,11 @@
 
 - Run on multiple machines via SSH:
 
-`parallel -S {{machine1}},{{machine2}} {{command}} ::: {{arg1}} {{arg2}}`
+`parallel {{[-S|--sshlogin]}} {{machine1}},{{machine2}} {{command}} ::: {{arg1}} {{arg2}}`
 
 - Download 4 files simultaneously from a text file containing links showing progress:
 
-`parallel -j4 --bar --eta wget {{[-q|--quote]}} {} :::: {{path/to/links.txt}}`
+`parallel {{[-j|--jobs]}} 4 --bar --eta wget {{[-q|--quote]}} {} :::: {{path/to/links.txt}}`
 
 - Print the jobs which `parallel` is running in `stderr`:
 

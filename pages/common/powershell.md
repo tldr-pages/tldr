@@ -10,4 +10,4 @@
 
 - View the documentation for the command referring to the legacy Windows PowerShell (version 5.1 and below):
 
-`tldr powershell -p windows`
+`tldr powershell {{[-p|--platform]}} windows`

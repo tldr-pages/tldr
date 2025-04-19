@@ -9,4 +9,4 @@
 
 - Show the status of a specific group:
 
-`pueue status --group {{group_name}}`
+`pueue status {{[-g|--group]}} {{group_name}}`

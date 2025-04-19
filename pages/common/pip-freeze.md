@@ -13,7 +13,7 @@
 
 - List installed packages in a virtual environment, excluding globally installed packages:
 
-`pip freeze --local > requirements.txt`
+`pip freeze {{[-l|--local]}} > requirements.txt`
 
 - List installed packages in the user-site:
 
