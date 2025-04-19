@@ -13,4 +13,4 @@
 
 - Remove all kernels, but leave the [n]ewest two kernels and [a]sk before removal:
 
-`sudo eclean-kernel -a -n 2`
+`sudo eclean-kernel {{[-a|--all]}} {{[-n|--num]}} 2`
