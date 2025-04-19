@@ -5,7 +5,7 @@
 
 - Display a camera preview stream for a specific amount of time (in milliseconds):
 
-`rpicam-hello -t {{time}}`
+`rpicam-hello {{[-t|--timeout]}} {{time}}`
 
 - Tune the configuration for a particular camera sensor:
 

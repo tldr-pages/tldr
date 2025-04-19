@@ -7,28 +7,28 @@
 
 - Install a package:
 
-`dpkg -i {{path/to/file.deb}}`
+`dpkg {{[-i|--install]}} {{path/to/file.deb}}`
 
 - Remove a package:
 
-`dpkg -r {{package}}`
+`dpkg {{[-r|--remove]}} {{package}}`
 
 - List installed packages:
 
-`dpkg -l {{pattern}}`
+`dpkg {{[-l|--list]}} {{pattern}}`
 
 - List a package's contents:
 
-`dpkg -L {{package}}`
+`dpkg {{[-L|--listfiles]}} {{package}}`
 
 - List contents of a local package file:
 
-`dpkg -c {{path/to/file.deb}}`
+`dpkg {{[-c|--contents]}} {{path/to/file.deb}}`
 
 - Find out which package owns a file:
 
-`dpkg -S {{path/to/file}}`
+`dpkg {{[-S|--search]}} {{path/to/file}}`
 
 - Purge an installed or already removed package, including configuration:
 
-`dpkg -P {{package}}`
+`dpkg {{[-P|--purge]}} {{package}}`

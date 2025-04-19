@@ -5,12 +5,12 @@
 
 - Capture a photo with different encoding:
 
-`rpicam-still -e {{bmp|png|rgb|yuv420}} -o {{path/to/file.{{bmp|png|rgb|yuv420}}}}`
+`rpicam-still {{[-e|--encoding]}} {{bmp|png|rgb|yuv420}} {{[-o|--output]}} {{path/to/file.{{bmp|png|rgb|yuv420}}}}`
 
 - Capture a raw image:
 
-`rpicam-still -r -o {{path/to/file.jpg}}`
+`rpicam-still {{[-r|--raw]}} {{[-o|--output]}} {{path/to/file.jpg}}`
 
 - Capture a 100 second exposure image:
 
-`rpicam-still -o {{path/to/file.jpg}} --shutter 100000`
+`rpicam-still {{[-o|--output]}} {{path/to/file.jpg}} --shutter 100000`

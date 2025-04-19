@@ -9,4 +9,4 @@
 
 - Remove a Distrobox container forcefully:
 
-`distrobox-rm {{container_name}} --force`
+`distrobox-rm {{container_name}} {{[-f|--force]}}`

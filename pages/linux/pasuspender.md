@@ -5,4 +5,4 @@
 
 - Suspend PulseAudio while running `jackd`:
 
-`pasuspender -- {{jackd -d alsa --device hw:0}}`
+`pasuspender -- {{jackd {{[-d|--driver]}} alsa {{[-d|--device]}} hw:0}}`

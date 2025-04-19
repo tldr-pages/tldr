@@ -26,4 +26,4 @@
 
 - Start a scrub in quiet mode (does not print errors or statistics):
 
-`sudo btrfs scrub start -q {{path/to/btrfs_mount}}`
+`sudo btrfs scrub start {{[-q|--quiet]}} {{path/to/btrfs_mount}}`

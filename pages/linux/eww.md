@@ -9,11 +9,11 @@
 
 - Open a widget:
 
-`eww -c {{path/to/source_code_directory}} open {{window_name}}`
+`eww {{[-c|--config]}} {{path/to/source_code_directory}} open {{window_name}}`
 
 - Close a widget:
 
-`eww -c {{path/to/source_code_directory}} close {{window_name}}`
+`eww {{[-c|--config]}} {{path/to/source_code_directory}} close {{window_name}}`
 
 - Reload the configuration:
 
