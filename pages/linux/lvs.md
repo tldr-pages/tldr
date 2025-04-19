@@ -10,19 +10,19 @@
 
 - Display all logical volumes:
 
-`lvs -a`
+`lvs {{[-a|--all]}}`
 
 - Change default display to show more details:
 
-`lvs -v`
+`lvs {{[-v|--verbose]}}`
 
 - Display only specific fields:
 
-`lvs -o {{field_name_1}},{{field_name_2}}`
+`lvs {{[-o|--options]}} {{field_name_1}},{{field_name_2}}`
 
 - Append field to default display:
 
-`lvs -o +{{field_name}}`
+`lvs {{[-o|--options]}} +{{field_name}}`
 
 - Suppress heading line:
 

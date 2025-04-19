@@ -10,7 +10,7 @@
 
 - Dry-run - display which renames would occur without performing them:
 
-`rename -n {{'s/foo/bar/'}} {{*}}`
+`rename {{[-n|--no-act]}} {{'s/foo/bar/'}} {{*}}`
 
 - Force renaming even if the operation would remove existing destination files:
 
