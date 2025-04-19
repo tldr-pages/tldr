@@ -6,20 +6,20 @@
 
 - List the dependencies of a package:
 
-`expac -S '%D' {{package}}`
+`expac {{[-S|--sync]}} '%D' {{package}}`
 
 - List the optional dependencies of a package:
 
-`expac -S "%o" {{package}}`
+`expac {{[-S|--sync]}} "%o" {{package}}`
 
 - List the download size of packages in MiB:
 
-`expac -S -H M '%k\t%n' {{package1 package2 ...}}`
+`expac {{[-S|--sync]}} {{[-H|--humansize]}} M '%k\t%n' {{package1 package2 ...}}`
 
 - List packages marked for upgrade with their download size:
 
-`expac -S -H M '%k\t%n' $(pacman -Qqu) | sort -sh`
+`expac {{[-S|--sync]}} {{[-H|--humansize]}} M '%k\t%n' $(pacman -Qqu) | sort {{[-sh|--sort --human-numeric-sort]}}`
 
 - List explicitly-installed packages with their optional dependencies:
 
-`expac -d '\n\n' -l '\n\t' -Q '%n\n\t%O' $(pacman -Qeq)`
+`expac {{[-d|--delim]}} '\n\n' {{[-l|listdelim]}} '\n\t' {{[-Q|--query]}} '%n\n\t%O' $(pacman -Qeq)`

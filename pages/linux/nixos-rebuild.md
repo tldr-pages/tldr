@@ -9,7 +9,7 @@
 
 - Build and switch to the new configuration, making it the boot default and naming the boot entry:
 
-`sudo nixos-rebuild switch -p {{name}}`
+`sudo nixos-rebuild switch {{[-p|--profile-name]}} {{name}}`
 
 - Build and switch to the new configuration, making it the boot default and installing updates:
 

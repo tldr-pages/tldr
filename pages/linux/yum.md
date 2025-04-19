@@ -10,7 +10,7 @@
 
 - Install a new package and assume yes to all questions (also works with update, great for automated updates):
 
-`yum -y install {{package}}`
+`yum {{[-y|--assumeyes]}} install {{package}}`
 
 - Find the package that provides a particular command:
 

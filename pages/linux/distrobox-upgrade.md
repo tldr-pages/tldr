@@ -9,7 +9,7 @@
 
 - Upgrade all containers using the container's native package managers:
 
-`distrobox-upgrade --all`
+`distrobox-upgrade {{[-a|--all]}}`
 
 - Upgrade specific containers via the container's native package manager:
 

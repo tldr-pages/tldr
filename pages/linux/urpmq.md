@@ -14,11 +14,11 @@
 
 - Display direct and indirect dependencies of a package:
 
-`urpmq --requires-recursive {{package}}`
+`urpmq {{[-d|--requires-recursive]}} {{package}}`
 
 - List the not installed packages needed for an RPM file with their sources:
 
-`sudo urpmq --requires-recursive -m --sources {{path/to/file.rpm}}`
+`sudo urpmq {{[-d|--requires-recursive]}} -m --sources {{path/to/file.rpm}}`
 
 - List all configured media with their URLs, including inactive media:
 
@@ -26,7 +26,7 @@
 
 - Search for a package printing [g]roup, version and [r]elease:
 
-`urpmq -g -r --fuzzy {{keyword}}`
+`urpmq -g -r {{[-y|--fuzzy]}} {{keyword}}`
 
 - Search for a package with using its exact name:
 

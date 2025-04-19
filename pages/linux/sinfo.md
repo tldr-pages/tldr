@@ -6,7 +6,7 @@
 
 - Show a quick summary overview of the cluster:
 
-`sinfo --summarize`
+`sinfo {{[-s|--summarize]}}`
 
 - View the detailed status of all partitions across the entire cluster:
 
@@ -14,16 +14,16 @@
 
 - View the detailed status of a specific partition:
 
-`sinfo --partition {{partition_name}}`
+`sinfo {{[-p|--partition]}} {{partition_name}}`
 
 - View information about idle nodes:
 
-`sinfo --states {{idle}}`
+`sinfo {{[-t|--states]}} {{idle}}`
 
 - Summarise dead nodes:
 
-`sinfo --dead`
+`sinfo {{[-d|--dead]}}`
 
 - List dead nodes and the reasons why:
 
-`sinfo --list-reasons`
+`sinfo {{[-R|--list-reasons]}}`

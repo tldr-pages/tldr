@@ -9,11 +9,11 @@
 
 - View jobs queued by a specific user:
 
-`squeue -u {{username}}`
+`squeue {{[-u|--user]}} {{username}}`
 
 - View the queue and refresh every 5 seconds:
 
-`squeue -i {{5}}`
+`squeue {{[-i|--iterate]}} {{5}}`
 
 - View the queue with expected start times:
 
