@@ -31,6 +31,6 @@
 
 `cat {{path/to/source.csv}} | duckdb -c "{{COPY (FROM read_csv('/dev/stdin')) TO '/dev/stdout' WITH (FORMAT CSV, HEADER)}}"`
 
-- Display help:
+- Start the DuckDB UI, a web interface with notebooks:
 
-`duckdb -help`
+`duckdb -ui`
