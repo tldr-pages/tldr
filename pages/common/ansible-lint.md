@@ -9,7 +9,7 @@
 
 - Lint a playbook while excluding specific rules:
 
-`ansible-lint {{[-x|--exclude-rules]}} {{rule1,rule2...}} {{path/to/playbook_file}}`
+`ansible-lint {{[-x|--exclude-rules]}} {{rule1,rule2,...}} {{path/to/playbook_file}}`
 
 - Lint a playbook in offline mode and format output as PEP8 with:
 
