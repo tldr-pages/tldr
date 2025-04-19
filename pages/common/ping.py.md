@@ -11,7 +11,3 @@
 - Ping 192.168.1.100 from 192.168.1.10:
 
 `ping.py 192.168.1.10 192.168.1.100`
-
-- Run continuously until interrupted (Ctrl+C):
-
-`ping.py {{source_ipv4}} {{destination_ipv4}}`
