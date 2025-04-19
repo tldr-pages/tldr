@@ -18,7 +18,7 @@
 
 - Flush all rules in the filter table:
 
-`sudo arptables -F`
+`sudo arptables {{[-F|--flush]}}`
 
 - Set the default policy of the OUTPUT chain to ACCEPT:
 
