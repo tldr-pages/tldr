@@ -11,7 +11,3 @@
 - Ping 2001:db8::2 from 2001:db8::1:
 
 `ping6.py 2001:db8::1 2001:db8::2`
-
-- Run continuously until interrupted (Ctrl+C):
-
-`ping6.py {{source_ipv6}} {{destination_ipv6}}`
