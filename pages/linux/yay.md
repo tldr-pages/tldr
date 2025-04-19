@@ -16,7 +16,7 @@
 
 `yay -Sua`
 
-- Install a new package from the repos and AUR and don't ask to confirm transactions:
+- Install a new package from the repos and AUR and do not ask to confirm transactions:
 
 `yay -S {{package}} --noconfirm`
 
