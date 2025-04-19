@@ -6,7 +6,7 @@
 
 - Example description:
 
-`coreutils [util] [util options]`
+`coreutils {{util}} {{util_options}}`
 
 - Example description:
 
