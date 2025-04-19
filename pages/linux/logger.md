@@ -1,6 +1,6 @@
 # logger
 
-> Add messages to syslog (/var/log/syslog).
+> Add messages to the system log.
 > More information: <https://manned.org/logger>.
 
 - Log a message to syslog:

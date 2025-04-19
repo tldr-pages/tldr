@@ -17,7 +17,7 @@
 
 - Clone a local repository:
 
-`git clone {{[-l|--local]]} {{path/to/local/repository}}`
+`git clone {{[-l|--local]}} {{path/to/local/repository}}`
 
 - Clone quietly:
 
