@@ -10,7 +10,7 @@
 
 - Append a rule to drop ARP packets from a specific IP address:
 
-`sudo arptables -A INPUT --source-ip {{192.168.0.1}} -j DROP`
+`sudo arptables {{[-A|--append]}} INPUT {{[-s|--source-ip]}} {{192.168.0.1}} {{[-j|--jump]}} DROP`
 
 - Delete a specific rule from the INPUT chain by its rule number:
 
