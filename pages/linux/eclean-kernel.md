@@ -9,7 +9,7 @@
 
 - Remove all kernels except for the two newest ones:
 
-`sudo eclean-kernel -n 2`
+`sudo eclean-kernel {{[-n|--num]}} 2`
 
 - Remove all kernels, but leave the [n]ewest two kernels and [a]sk before removal:
 
