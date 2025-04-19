@@ -22,7 +22,7 @@
 
 - Set the default policy of the OUTPUT chain to ACCEPT:
 
-`sudo arptables -P OUTPUT ACCEPT`
+`sudo arptables {{[-P|--policy]}} OUTPUT ACCEPT`
 
 - Save the current ARP rules to a file:
 
