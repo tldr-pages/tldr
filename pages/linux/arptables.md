@@ -6,7 +6,7 @@
 
 - List all ARP rules in the filter table:
 
-`sudo arptables -L`
+`sudo arptables {{[-L|--list]}}`
 
 - Append a rule to drop ARP packets from a specific IP address:
 
