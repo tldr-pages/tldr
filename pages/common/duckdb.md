@@ -23,6 +23,10 @@
 
 `duckdb {{path/to/dbfile}} -cmd "{{SELECT DISTINCT * FROM tbl}}"`
 
+- Run SQL queries in file on database and keep the interactive shell open:
+
+`duckdb {{path/to/dbfile}} -init {{path/to/script.sql}}`
+
 - Read CSV from `stdin` and write CSV to `stdout`:
 
 `cat {{path/to/source.csv}} | duckdb -c "{{COPY (FROM read_csv('/dev/stdin')) TO '/dev/stdout' WITH (FORMAT CSV, HEADER)}}"`
@@ -30,7 +34,3 @@
 - Start the DuckDB UI, a web interface with notebooks:
 
 `duckdb -ui`
-
-- Display help:
-
-`duckdb -help`
