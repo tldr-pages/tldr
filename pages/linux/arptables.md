@@ -1,6 +1,6 @@
 # arptables
 
-> Manage ARP filtering rules using the nftables backend.
+> Manage ARP filtering rules using the `nftables` backend.
 > Part of the `xtables-nft` suite for ARP packet filtering.
 > More information: <https://manned.org/arptables>.
 
