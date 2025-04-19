@@ -7,7 +7,7 @@
 
 `sudo eclean-kernel -l`
 
-- Remove all kernels, but leave the newest two kernels:
+- Remove all kernels except for the two newest ones:
 
 `sudo eclean-kernel -n 2`
 
