@@ -14,7 +14,7 @@
 
 - Delete a specific rule from the INPUT chain by its rule number:
 
-`sudo arptables -D INPUT {{rule_number}}`
+`sudo arptables {{[-D|--delete]}} INPUT {{rule_number}}`
 
 - Flush all rules in the filter table:
 
