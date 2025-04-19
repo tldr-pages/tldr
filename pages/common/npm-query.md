@@ -25,8 +25,8 @@
 
 - Find all dependencies with postinstall scripts and uninstall them:
 
-`npm query ":attr(scripts, [postinstall])" | jq 'map(.name) | join("\n")' -r | xargs -I {} npm uninstall {}`
+`npm query ":attr(scripts, [postinstall])" | jq 'map(.name) | join("\n")' {{[-r|--raw-output]}} | xargs -I _ npm uninstall _`
 
 - Find all Git dependencies and print which application requires them:
 
-`npm query ":type(git)" | jq 'map(.name)' | xargs -I {} npm why {}`
+`npm query ":type(git)" | jq 'map(.name)' | xargs -I _ npm why _`

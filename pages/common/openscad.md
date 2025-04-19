@@ -1,7 +1,7 @@
 # openscad
 
 > Software for creating solid 3D CAD objects.
-> More information: <https://openscad.org>.
+> More information: <https://manned.org/openscad>.
 
 - Open a file:
 

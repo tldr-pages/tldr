@@ -11,6 +11,6 @@
 
 `npm fund {{package}}`
 
-- List dependencies with a funding URL for a specific [w]orkspace for the project in the current directory:
+- List dependencies with a funding URL for a specific workspace for the project in the current directory:
 
-`npm fund -w {{workspace}}`
+`npm fund {{[-w|--workspace]}} {{workspace}}`

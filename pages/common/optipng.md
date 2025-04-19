@@ -9,11 +9,11 @@
 
 - Compress a PNG with the best compression:
 
-`optipng -o{{7}} {{path/to/file.png}}`
+`optipng -o {{7}} {{path/to/file.png}}`
 
 - Compress a PNG with the fastest compression:
 
-`optipng -o{{0}} {{path/to/file.png}}`
+`optipng -o {{0}} {{path/to/file.png}}`
 
 - Compress a PNG and add interlacing:
 

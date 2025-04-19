@@ -11,7 +11,7 @@
 
 `webstorm {{path/to/directory}}`
 
-- Open specific files in the LightEdit mode﻿:
+- Open specific files in the LightEdit mode:
 
 `webstorm -e {{path/to/file1 path/to/file2 ...}}`
 

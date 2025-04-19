@@ -13,12 +13,12 @@
 
 - Create a Rails app with `postgresql` as the database:
 
-`rails new {{app_name}} --database postgresql`
+`rails new {{app_name}} {{[-d|--database]}} postgresql`
 
 - Create a Rails app without generating JavaScript files:
 
-`rails new {{app_name}} --skip-javascript`
+`rails new {{app_name}} {{[-J|--skip-javascript]}}`
 
 - Display help:
 
-`rails new --help`
+`rails new {{[-h|--help]}}`

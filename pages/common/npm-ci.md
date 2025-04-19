@@ -10,7 +10,7 @@
 
 - Install project dependencies but skip the specified dependency type:
 
-`npm ci --omit={{dev|optional|peer}}`
+`npm ci --omit {{dev|optional|peer}}`
 
 - Install project dependencies without running any pre-/post-scripts defined in `package.json`:
 

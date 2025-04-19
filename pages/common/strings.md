@@ -9,12 +9,12 @@
 
 - Limit results to strings at least n characters long:
 
-`strings -n {{n}} {{path/to/file}}`
+`strings {{[-n|--bytes]}} {{n}} {{path/to/file}}`
 
 - Prefix each result with its offset within the file:
 
-`strings -t d {{path/to/file}}`
+`strings {{[-t|--radix]}} d {{path/to/file}}`
 
 - Prefix each result with its offset within the file in hexadecimal:
 
-`strings -t x {{path/to/file}}`
+`strings {{[-t|--radix]}} x {{path/to/file}}`

@@ -13,11 +13,11 @@
 
 - Limit the number of search results to `n`:
 
-`ddgr -n {{n}} {{keyword}}`
+`ddgr {{[-n|--num]}} {{n}} {{keyword}}`
 
 - Display the complete URL in search results:
 
-`ddgr -x {{keyword}}`
+`ddgr {{[-x|--expand]}} {{keyword}}`
 
 - Search DuckDuckGo for a keyword and open the first result in the browser:
 
@@ -25,7 +25,7 @@
 
 - Perform a website-specific search:
 
-`ddgr -w {{site}} {{keyword}}`
+`ddgr {{[-w|--site]}} {{site}} {{keyword}}`
 
 - Search for a specific file type:
 

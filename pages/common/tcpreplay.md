@@ -9,20 +9,20 @@
 
 - Replay traffic to interface:
 
-`tcpreplay -i {{eth0}} {{traffic.pcap}}`
+`tcpreplay {{[-i|--intf1]}} {{eth0}} {{traffic.pcap}}`
 
 - Replay traffic to interface and `stdout`:
 
-`tcpreplay -i {{eth0}} --verbose {{traffic.pcap}}`
+`tcpreplay {{[-i|--intf1]}} {{eth0}} {{[-v|--verbose]}} {{traffic.pcap}}`
 
 - Replay traffic to interface as fast as possible:
 
-`tcpreplay -i {{eth0}} --topspeed {{traffic.pcap}}`
+`tcpreplay {{[-i|--intf1]}} {{eth0}} {{[-t|--topspeed]}} {{traffic.pcap}}`
 
 - Replay traffic to interface at given Mbps:
 
-`tcpreplay -i {{eth0}} -M {{10}} {{traffic.pcap}}`
+`tcpreplay {{[-i|--intf1]}} {{eth0}} {{[-M|--mbps]}} {{10}} {{traffic.pcap}}`
 
 - Replay traffic to interface several times:
 
-`tcpreplay -i {{eth0}} --loop={{num_times}} {{traffic.pcap}}`
+`tcpreplay {{[-i|--intf1]}} {{eth0}} {{[-l|--loop]}} {{num_times}} {{traffic.pcap}}`

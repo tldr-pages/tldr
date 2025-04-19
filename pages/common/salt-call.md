@@ -13,7 +13,7 @@
 
 - Perform a highstate with verbose debugging output:
 
-`salt-call -l debug state.highstate`
+`salt-call {{[-l|--log-level]}} debug state.highstate`
 
 - List this minion's grains:
 

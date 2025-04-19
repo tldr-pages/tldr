@@ -18,12 +18,12 @@
 
 - Show all dependencies of a store path (package), in a tree format:
 
-`nix-store --query --tree {{/nix/store/...}}`
+`nix-store {{[-q|--query]}} --tree {{/nix/store/...}}`
 
 - Calculate the total size of a certain store path with all the dependencies:
 
-`du -cLsh $(nix-store --query --references {{/nix/store/...}})`
+`du {{[-cLsh|--total --dereference --summarize --human-readable]}} $(nix-store {{[-q|--query]}} --references {{/nix/store/...}})`
 
 - Show all dependents of a particular store path:
 
-`nix-store --query --referrers {{/nix/store/...}}`
+`nix-store {{[-q|--query]}} --referrers {{/nix/store/...}}`

@@ -33,4 +33,4 @@
 
 - Display help:
 
-`sqlite-utils -h`
+`sqlite-utils {{[-h|--help]}}`

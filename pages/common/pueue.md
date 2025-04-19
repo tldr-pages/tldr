@@ -6,7 +6,7 @@
 
 - Show general help and available subcommands:
 
-`pueue --help`
+`pueue {{[-h|--help]}}`
 
 - Execute a pueue subcommand:
 
@@ -14,4 +14,4 @@
 
 - Check the version of pueue:
 
-`pueue --version`
+`pueue {{[-V|--version]}}`

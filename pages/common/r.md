@@ -9,11 +9,11 @@
 
 - Start R in vanilla mode (i.e. a blank session that doesn't save the workspace at the end):
 
-`R --vanilla`
+`R {{[-v|--vanilla]}}`
 
 - Execute a file:
 
-`R -f {{path/to/file.R}}`
+`R {{[-f|--file]}} {{path/to/file.R}}`
 
 - Execute an R expression and then exit:
 
@@ -21,7 +21,7 @@
 
 - Run R with a debugger:
 
-`R -d {{debugger}}`
+`R {{[-d|--debugger]}} {{debugger}}`
 
 - Check R packages from package sources:
 

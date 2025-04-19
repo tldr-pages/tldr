@@ -9,7 +9,7 @@
 
 - Execute a specific script:
 
-`{{cat path/to/file.json}} | jq --from-file {{path/to/script.jq}}`
+`{{cat path/to/file.json}} | jq {{[-f|--from-file]}} {{path/to/script.jq}}`
 
 - Pass specific arguments:
 

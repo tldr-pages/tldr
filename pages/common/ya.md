@@ -5,11 +5,11 @@
 
 - Add a package:
 
-`ya pack -a {{package}}`
+`ya pack {{[-a|--all]}} {{package}}`
 
 - Upgrade all packages:
 
-`ya pack -u`
+`ya pack {{[-u|--upgrade]}}`
 
 - Subscribe to messages from all remote instances:
 

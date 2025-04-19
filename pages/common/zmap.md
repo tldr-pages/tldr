@@ -1,15 +1,15 @@
 # zmap
 
 > Fast, open-source network scanner for Internet-wide surveys.
-> More information: <https://github.com/zmap/zmap>.
+> More information: <https://manned.org/zmap>.
 
 - Scan a subnet or full IPv4 space for a specific TCP port (default: 80):
 
-`zmap {{SUBNETS}} -p {{port}}`
+`zmap {{SUBNETS}} {{[-p|--target-ports]}} {{port}}`
 
 - Scan specific ports or port ranges across a subnet:
 
-`zmap {{--target-ports}} {{port1,port2-port3,...}} {{SUBNETS}}`
+`zmap {{[-p|--target-ports]}} {{port1,port2-port3,...}} {{SUBNETS}}`
 
 - Output results to a CSV file with custom fields:
 

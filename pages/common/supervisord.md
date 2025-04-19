@@ -6,8 +6,8 @@
 
 - Start `supervisord` with specified configuration file:
 
-`supervisord -c {{path/to/file}}`
+`supervisord {{[-c|--configuration]}} {{path/to/file}}`
 
 - Run supervisord in the foreground:
 
-`supervisord -n`
+`supervisord {{[-n|--nodaemon]}}`

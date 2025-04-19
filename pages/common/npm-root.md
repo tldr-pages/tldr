@@ -9,4 +9,4 @@
 
 - Display path to the global `node_modules` directory:
 
-`npm root --global`
+`npm root {{[-g|--global]}}`

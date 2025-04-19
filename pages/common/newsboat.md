@@ -5,7 +5,7 @@
 
 - First import feed URLs from an OPML file:
 
-`newsboat -i {{my-feeds.xml}}`
+`newsboat {{[-i|--import-from-opml]}} {{my-feeds.xml}}`
 
 - Alternatively, add feeds manually:
 
@@ -13,11 +13,11 @@
 
 - Start Newsboat and refresh all feeds on startup:
 
-`newsboat -r`
+`newsboat {{[-r|--refresh-on-start]}}`
 
 - Execute one or more commands in non-interactive mode:
 
-`newsboat -x {{reload print-unread ...}}`
+`newsboat {{[-x|--execute]}} {{reload print-unread ...}}`
 
 - See keyboard shortcuts (the most relevant are visible in the status line):
 

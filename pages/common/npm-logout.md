@@ -10,4 +10,4 @@
 
 - Log out using a custom registry:
 
-`npm logout --registry={{registry_url}}`
+`npm logout --registry {{registry_url}}`

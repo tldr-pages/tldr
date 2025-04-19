@@ -17,11 +17,11 @@
 
 - Skip optional/peer dependencies during deduplication:
 
-`npm dedupe --omit={{optional|peer}}`
+`npm dedupe --omit {{optional|peer}}`
 
 - Enable detailed logging for troubleshooting:
 
-`npm dedupe --loglevel=verbose`
+`npm dedupe --loglevel verbose`
 
 - Limit deduplication to a specific package:
 

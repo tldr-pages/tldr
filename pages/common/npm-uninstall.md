@@ -9,7 +9,7 @@
 
 - Remove a package globally:
 
-`npm uninstall -g {{package_name}}`
+`npm uninstall {{[-g|--global]}} {{package_name}}`
 
 - Remove multiple packages at once:
 

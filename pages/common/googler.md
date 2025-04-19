@@ -9,19 +9,19 @@
 
 - Search Google and open the first result in web browser:
 
-`googler -j {{keyword}}`
+`googler {{[-j|--first]}} {{keyword}}`
 
 - Show `n` search results (default: 10):
 
-`googler -n {{n}} {{keyword}}`
+`googler {{[-n|--count]}} {{n}} {{keyword}}`
 
 - Disable automatic spelling correction:
 
-`googler -x {{keyword}}`
+`googler {{[-x|--exact]}} {{keyword}}`
 
 - Search one site for a keyword:
 
-`googler -w {{site}} {{keyword}}`
+`googler {{[-w|--site]}} {{site}} {{keyword}}`
 
 - Show Google search result in JSON format:
 
@@ -29,7 +29,7 @@
 
 - Perform in-place self-upgrade:
 
-`googler -u`
+`googler {{[-u|--upgrade]}}`
 
 - Display help in interactive mode:
 

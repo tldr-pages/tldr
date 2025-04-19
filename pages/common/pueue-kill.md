@@ -17,8 +17,8 @@
 
 - Kill all tasks in a group and pause the group:
 
-`pueue kill --group {{group_name}}`
+`pueue kill {{[-g|--group]}} {{group_name}}`
 
 - Kill all tasks across all groups and pause all groups:
 
-`pueue kill --all`
+`pueue kill {{[-a|--all]}}`

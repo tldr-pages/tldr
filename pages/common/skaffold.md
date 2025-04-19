@@ -5,20 +5,20 @@
 
 - Build the artifacts:
 
-`skaffold build -f {{skaffold.yaml}}`
+`skaffold build {{[-f|--filename]}} {{skaffold.yaml}}`
 
 - Build and deploy your app every time your code changes:
 
-`skaffold dev -f {{skaffold.yaml}}`
+`skaffold dev {{[-f|--filename]}} {{skaffold.yaml}}`
 
 - Run a pipeline file:
 
-`skaffold run -f {{skaffold.yaml}}`
+`skaffold run {{[-f|--filename]}} {{skaffold.yaml}}`
 
 - Run a diagnostic on Skaffold:
 
-`skaffold diagnose -f {{skaffold.yaml}}`
+`skaffold diagnose {{[-f|--filename]}} {{skaffold.yaml}}`
 
 - Deploy the artifacts:
 
-`skaffold deploy -f {{skaffold.yaml}}`
+`skaffold deploy {{[-f|--filename]}} {{skaffold.yaml}}`
