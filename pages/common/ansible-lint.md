@@ -9,15 +9,15 @@
 
 - Lint a playbook while excluding specific rules:
 
-`ansible-lint {{--exclude-rules|-x}} {{rule1}},{{rule2}} {{path/to/playbook_file}}`
+`ansible-lint {{[-x|--exclude-rules]}} {{rule1,rule2...}} {{path/to/playbook_file}}`
 
 - Lint a playbook in offline mode and format output as PEP8 with:
 
-`ansible-lint {{--offline|-o}} {{--parseable|-p}} {{path/to/playbook_file}}`
+`ansible-lint {{[-o|--offline]}} {{[-p|--parseable]}} {{path/to/playbook_file}}`
 
 - Lint a playbook using a custom rule directory:
 
-`ansible-lint {{--rules|-r}} {{path/to/custom_rules_directory}} {{path/to/playbook_file}}`
+`ansible-lint {{[-r|--rules]}} {{path/to/custom_rules_directory}} {{path/to/playbook_file}}`
 
 - Lint all Ansible content recursively in a given directory:
 
