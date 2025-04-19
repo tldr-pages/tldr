@@ -1,4 +1,4 @@
-# RsaCtfTool
+# RsaCtfTool.py
 
 > RSA attack tool for CTF challenges - recover private keys from weak public keys and/or decrypt data.
 > More information: <https://github.com/RsaCtfTool/RsaCtfTool>.
