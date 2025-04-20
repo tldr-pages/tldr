@@ -1,7 +1,7 @@
 # sfdk qmltypes
 
 > Generates qmltypes files.
-> More information: <https://github.com/sailfishos/sailfish-qtcreator/tree/master/src/tools/sfdk>.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/80-ide-qmltypes/doc/command.qmltypes.adoc>.
 
 - Generate qmltypes files:
 
