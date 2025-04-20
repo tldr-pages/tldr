@@ -18,7 +18,7 @@
 
 - Voeg een gebruiker toe aan aanvullende groepen (let op het ontbreken van spaties):
 
-`sudo usermod {{[-aG|--append --groups]}}{{groep1,groep2,...}} {{gebruikersnaam}}`
+`sudo usermod {{[-aG|--append --groups]}} {{groep1,groep2,...}} {{gebruikersnaam}}`
 
 - Verander een gebruikers thuismap:
 
