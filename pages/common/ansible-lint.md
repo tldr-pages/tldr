@@ -11,11 +11,11 @@
 
 `ansible-lint {{[-x|--exclude-rules]}} {{rule1,rule2,...}} {{path/to/playbook_file}}`
 
-- Lint a playbook in offline mode and format output as PEP8 with:
+- Lint a playbook in offline mode and format output as PEP8:
 
 `ansible-lint {{[-o|--offline]}} {{[-p|--parseable]}} {{path/to/playbook_file}}`
 
-- Lint a playbook using a custom rule directory:
+- Lint a playbook using a custom rules directory:
 
 `ansible-lint {{[-r|--rules]}} {{path/to/custom_rules_directory}} {{path/to/playbook_file}}`
 
