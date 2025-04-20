@@ -4,7 +4,7 @@
 > Uutils includes a multi-call binary from which the utils can be invoked. This reduces the binary size of the binary and can be useful for portability.
 > More information: <https://uutils.github.io/coreutils/docs/multicall.html>.
 
-- The first argument of the multi-call binary is the util to run, after which the regular arguments to the util can be passed:
+- Pass the util to run as the first argument to the multi-call binary, then pass the regular arguments to the util.
 
 `coreutils {{util}} {{util_options}}`
 
