@@ -1,6 +1,6 @@
 # logger
 
-> Añade mensajes a syslog (/var/log/syslog).
+> Añade mensajes al registro del sistema.
 > Más información: <https://manned.org/logger>.
 
 - Registra un mensaje en syslog:
