@@ -15,7 +15,7 @@
 
 - Verlaag de prioriteit van alle processen die eigendom zijn van een gebruiker:
 
-`sudo renice --relative {{-4}} {{[-p|--pid]}} {{pid}}`
+`renice --relative {{-4}} {{[-p|--pid]}} {{pid}}`
 
 - Stel de prioriteit in van alle processen die behoren tot een procesgroep:
 
