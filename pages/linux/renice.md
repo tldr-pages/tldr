@@ -11,11 +11,11 @@
 
 - Increase the priority of a running process:
 
-`sudo renice --relative {{4}} {{[-p|--pid]}} {{pid}}`
+`sudo renice --relative {{-4}} {{[-p|--pid]}} {{pid}}`
 
 - Decrease the priority of all processes owned by a user:
 
-`renice --relative {{-4}} {{[-u|--user]}} {{uid|user}}`
+`renice --relative {{4}} {{[-u|--user]}} {{uid|user}}`
 
 - Set the priority of all processes that belong to a process group:
 
