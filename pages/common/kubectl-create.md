@@ -5,11 +5,11 @@
 
 - Create a resource using the resource definition file:
 
-`kubectl create -f {{path/to/file.yml}}`
+`kubectl create {{[-f|--filename]}} {{path/to/file.yml}}`
 
 - Create a resource from `stdin`:
 
-`kubectl create -f -`
+`kubectl create {{[-f|--filename]}} -`
 
 - Create a deployment:
 

@@ -13,15 +13,15 @@
 
 - Start in the balance sheet accounts screen, showing hierarchy down to level 3:
 
-`hledger-ui --bs --tree --depth 3`
+`hledger-ui --bs {{[-t|--tree]}} --depth 3`
 
 - Start in this account's screen, showing cleared transactions, and reload on change:
 
-`hledger-ui --register {{assets:bank:checking}} --cleared --watch`
+`hledger-ui --register {{assets:bank:checking}} {{[-C|--cleared]}} {{[-w|--watch]}}`
 
 - Read two journal files, and show amounts as current value when known:
 
-`hledger-ui --file {{path/to/2024.journal}} --file {{path/to/2024-prices.journal}} --value now`
+`hledger-ui {{[-f|--file]}} {{path/to/2024.journal}} {{[-f|--file]}} {{path/to/2024-prices.journal}} --value now`
 
 - Show the manual in Info format, if possible:
 
@@ -29,4 +29,4 @@
 
 - Display help:
 
-`hledger-ui --help`
+`hledger-ui {{[-h|--help]}}`

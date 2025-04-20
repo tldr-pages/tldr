@@ -21,7 +21,7 @@
 
 - Show the current named context:
 
-`kubectx -c`
+`kubectx {{[-c|--current]}}`
 
 - Delete a named context:
 

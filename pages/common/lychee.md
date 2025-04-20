@@ -17,7 +17,7 @@
 
 - Check files in a directory structure for any broken URLs:
 
-`grep -r "{{pattern}}" | lychee -`
+`grep {{[-r|--recursive]}} "{{pattern}}" | lychee -`
 
 - Display help:
 

@@ -5,31 +5,31 @@
 
 - Show all accounts used or declared in the default journal file:
 
-`hledger accounts`
+`hledger {{[acc|accounts]}}`
 
 - Show accounts used by transactions:
 
-`hledger accounts --used`
+`hledger {{[acc|accounts]}} {{[-u|--used]}}`
 
 - Show accounts declared with account directives:
 
-`hledger accounts --declared`
+`hledger {{[acc|accounts]}} {{[-d|--declared]}}`
 
 - Add new account directives, for accounts used but not declared, to the journal:
 
-`hledger accounts --undeclared --directives >> {{2024-accounts.journal}}`
+`hledger {{[acc|accounts]}} --undeclared --directives >> {{2024-accounts.journal}}`
 
 - Show accounts with `asset` in their name, and their declared/inferred types:
 
-`hledger accounts asset --types`
+`hledger {{[acc|accounts]}} asset --types`
 
 - Show accounts of the `Asset` type:
 
-`hledger accounts type:A`
+`hledger {{[acc|accounts]}} type:A`
 
 - Show the first two levels of the accounts hierarchy:
 
-`hledger accounts --tree --depth 2`
+`hledger {{[acc|accounts]}} {{[-t|--tree]}} --depth 2`
 
 - Short form of the above:
 

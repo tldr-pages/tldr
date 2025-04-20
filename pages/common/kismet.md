@@ -17,7 +17,7 @@
 
 - Start Kismet with a specific configuration file:
 
-`sudo kismet -c {{wlan0}} -f {{path/to/config.conf}}`
+`sudo kismet -c {{wlan0}} {{[-f|--config-file]}} {{path/to/config.conf}}`
 
 - Monitor and log data to an SQLite database:
 
