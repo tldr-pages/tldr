@@ -8,10 +8,10 @@
 
 `coreutils {{util}} {{util_options}}`
 
-- It can be execeuted as following example of list command(ls):
+- List files in [l]ong format:
 
 `coreutils ls -l`
 
-- The --help flag will print a list of available utils for a command:
+- Display help for `ls`:
 
 `coreutils ls --help`
