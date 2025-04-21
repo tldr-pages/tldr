@@ -8,7 +8,7 @@
 
 `coreutils {{util}} {{util_options}}`
 
-- List files in long format:
+- List files in [l]ong format:
 
 `coreutils ls -l`
 
