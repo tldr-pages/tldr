@@ -18,3 +18,7 @@
 - Kopieer maximaal het opgegeven aantal regels:
 
 `readarray -n {{N}} {{array_naam}} < {{pad/naar/bestand.txt}}`
+
+- Toon de help:
+
+`help mapfile`

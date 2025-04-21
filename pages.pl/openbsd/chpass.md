@@ -2,7 +2,7 @@
 
 > Dodaj lub zmień informacje o użytkowniku w bazie danych, w tym powłoki logowania i hasła.
 > Zobacz także: `passwd`.
-> Więcej informacji: <https://man.openbsd.org/chsh>.
+> Więcej informacji: <https://man.openbsd.org/chpass>.
 
 - Interaktywnie ustaw określoną powłokę logowania dla bieżącego użytkownika:
 

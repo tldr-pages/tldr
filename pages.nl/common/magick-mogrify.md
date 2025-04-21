@@ -28,3 +28,7 @@
 - Verklein de bestandsgrootte van alle GIF-afbeeldingen in de huidige map door de kwaliteit te verlagen:
 
 `magick mogrify -layers 'optimize' -fuzz {{7%}} {{*.gif}}`
+
+- Toon de help:
+
+`magick mogrify -help`

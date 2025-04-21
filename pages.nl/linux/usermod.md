@@ -18,8 +18,16 @@
 
 - Voeg een gebruiker toe aan aanvullende groepen (let op het ontbreken van spaties):
 
-`sudo usermod {{[-a|--append]}} {{[-G|--groups]}} {{groep1,groep2,...}} {{gebruikersnaam}}`
+`sudo usermod {{[-aG|--append --groups]}} {{groep1,groep2,...}} {{gebruikersnaam}}`
 
 - Verander een gebruikers thuismap:
 
 `sudo usermod {{[-m|--move-home]}} {{[-d|--home]}} {{pad/naar/nieuwe_thuismap}} {{gebruikersnaam}}`
+
+- Vergrendel een account:
+
+`sudo usermod {{[-L|--lock]}} {{gebruikersnaam}}`
+
+- Ontgrendel een account:
+
+`sudo usermod {{[-U|--unlock]}} {{gebruikersnaam}}`
