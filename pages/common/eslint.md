@@ -17,4 +17,4 @@
 
 - Lint using the specified configuration file:
 
-`eslint -c {{path/to/config_file}} {{path/to/file1.js path/to/file2.js}}`
+`eslint {{[-c|--config]}} {{path/to/config_file}} {{path/to/file1.js path/to/file2.js}}`
