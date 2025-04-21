@@ -14,8 +14,8 @@
 
 - Search for a font by keyword:
 
-`figlist -d {{path/to/custom_directory}} | grep {{keyword}}`
+`figlist -d {{path/to/directory}} | grep {{keyword}}`
 
 - Count the total number of available fonts in a specified directory:
 
-`figlist -d {{path/to/custom_directory}} | wc {{[-l|--lines]}}`
+`figlist -d {{path/to/directory}} | wc {{[-l|--lines]}}`
