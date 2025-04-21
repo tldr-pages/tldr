@@ -14,7 +14,7 @@
 
 - Stel een login [s]hell in voor een specifieke gebruiker:
 
-`chpass chsh -s {{pad/naar/shell}} {{gebruikersnaam}}`
+`chpass -s {{pad/naar/shell}} {{gebruikersnaam}}`
 
 - Specificeer een gebruikersdatabase entry in het `passwd` bestandsformaat:
 

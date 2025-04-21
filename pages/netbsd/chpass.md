@@ -14,7 +14,7 @@
 
 - Set a login [s]hell for a specific user:
 
-`chpass chsh -s {{path/to/shell}} {{username}}`
+`chpass -s {{path/to/shell}} {{username}}`
 
 - Specify a user database entry in the `passwd` file format:
 
