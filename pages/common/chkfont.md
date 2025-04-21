@@ -2,7 +2,7 @@
 
 > Verify the format of a FIGlet font file (`.flf`).
 > See also: `figlet`, `figlist`, `showfigfonts`.
-> More information: <https://linux.die.net/man/6/chkfont>.
+> More information: <https://manned.org/chkfont>.
 
 - Check a font file for formatting errors:
 
