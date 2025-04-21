@@ -21,4 +21,4 @@
 
 - Activate a service with a specified port:
 
-`systemd-socket-activate {{path/to/socket.service}} -l {{8080}}`
+`systemd-socket-activate {{path/to/socket.service}} {{{[-l|--listen]}}} {{8080}}`
