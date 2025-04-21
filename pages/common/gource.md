@@ -12,10 +12,6 @@
 
 `gource -{{width}}x{{height}}`
 
-- Specify the timescale for the animation:
-
-`gource {{[-c|--time-scale]}} {{time_scale_multiplier}}`
-
 - Specify how long each day should be in the animation (this combines with -c, if provided):
 
 `gource {{[-s|--seconds-per-day]}} {{seconds}}`
@@ -31,6 +27,10 @@
 - Pause the animation:
 
 `<Space>`
+
+- Adjust simulation speed:
+
+`<{{+|-}}>`
 
 - Display help:
 
