@@ -10,4 +10,4 @@
 
 - Check all `.flf` font files in a directory:
 
-`for font in {{path/to/fonts}}/*.flf; do chkfont "$font"; done`
+`chkfont {{path/to/fonts}}/*.flf`
