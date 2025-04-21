@@ -13,7 +13,7 @@
 
 - Search directories recursively for images to view:
 
-`nsxiv -r {{path/to/directory1 path/to/directory2 ...}}`
+`nsxiv {{[-r|--recursive]}} {{path/to/directory1 path/to/directory2 ...}}`
 
 - Quit nsxiv:
 
