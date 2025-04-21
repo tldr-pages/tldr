@@ -2,15 +2,15 @@
 
 > Package, dependency and environment management for any programming language.
 > Some subcommands such as `create` have their own usage documentation.
-> More information: <https://github.com/conda/conda>.
+> More information: <https://docs.conda.io/projects/conda/en/latest/commands/index.html>.
 
 - Create a new environment, installing named packages into it:
 
-`conda create --name {{environment_name}} {{python=3.9 matplotlib}}`
+`conda create {{[-n|--name]}} {{environment_name}} {{python=3.9 matplotlib}}`
 
 - List all environments:
 
-`conda info --envs`
+`conda info {{[-e|--envs]}}`
 
 - Load an environment:
 
@@ -22,7 +22,7 @@
 
 - Delete an environment (remove all packages):
 
-`conda remove --name {{environment_name}} --all`
+`conda remove {{[-n|--name]}} {{environment_name}} --all`
 
 - Install packages into the current environment:
 
@@ -34,4 +34,4 @@
 
 - Delete unused packages and caches:
 
-`conda clean --all`
+`conda clean {{[-a|--all]}}`
