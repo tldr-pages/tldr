@@ -17,7 +17,7 @@
 
 - Show only CIDR notation output:
 
-`ipcalc -c {{192.168.0.1/24}}`
+`ipcalc {{[-c|--class]}} {{192.168.0.1/24}}`
 
 - Show version information:
 
