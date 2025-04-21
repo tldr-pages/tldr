@@ -13,11 +13,11 @@
 
 - Zeige die tldr-Seite für einen Befehl in einer bestimmten Sprache an (Hinweis: So bist du hierher gekommen!):
 
-`tldr {{-L|--language}} {{sprachcode}} {{befehl}}`
+`tldr {{[-L|--language]}} {{sprachcode}} {{befehl}}`
 
 - Zeige die tldr-Seite für einen Befehl aus einer bestimmten Plattform an:
 
-`tldr {{-p|--platform}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{befehl}}`
+`tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{befehl}}`
 
 - Aktualisiere den lokalen Cache:
 
@@ -25,12 +25,12 @@
 
 - Liste alle Seiten für die aktuelle Plattform und `common` auf:
 
-`tldr {{-l|--list}}`
+`tldr {{[-l|--list]}}`
 
 - Liste alle Unterbefehl-Seiten für einen Befehl auf:
 
-`tldr {{-l|--list}} | grep {{befehl}} | column`
+`tldr {{[-l|--list]}} | grep {{befehl}} | column`
 
 - Zeige die tldr-Seite für einen zufälligen Befehl an:
 
-`tldr {{-l|--list}} | shuf {{-n|--head-count}} 1 | xargs tldr`
+`tldr {{[-l|--list]}} | shuf {{[-n|--head-count]}} 1 | xargs tldr`
