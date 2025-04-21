@@ -17,8 +17,8 @@
 
 - Run the project using a target framework moniker:
 
-`dotnet run --framework {{net7.0}}`
+`dotnet run {{[-f|--framework]}} {{net7.0}}`
 
 - Specify architecture and OS, available since .NET 6 (Don't use `--runtime` with these options):
 
-`dotnet run --arch {{x86|x64|arm|arm64}} --os {{win|win7|osx|linux|ios|android}}`
+`dotnet run {{[-a|--arch]}} {{x86|x64|arm|arm64}} --os {{win|win7|osx|linux|ios|android}}`
