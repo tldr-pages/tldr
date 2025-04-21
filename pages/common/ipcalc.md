@@ -1,7 +1,7 @@
 # ipcalc
 
 > A tool to calculate IP information (subnet, broadcast, host range) from an IP address and netmask.
-> More information: <https://github.com/ipcalc/ipcalc>.
+> More information: <https://manned.org/ipcalc>.
 
 - Display network info for an IP address:
 
