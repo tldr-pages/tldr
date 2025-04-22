@@ -11,7 +11,7 @@
 
 `systemd-delta --type {{masked|equivalent|redirected|overridden|extended|unchanged}}`
 
-- Show only files whose path starts with the specified prefix (Note: a prefix is a directory containing subdirectories with systemd configuration files):
+- Show only files whose path starts with the specified prefix (Note: A prefix is a directory containing subdirectories with systemd configuration files):
 
 `systemd-delta {{/etc|/run|/usr/lib|...}}`
 

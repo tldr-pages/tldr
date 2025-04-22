@@ -1,7 +1,7 @@
 # cargo tree
 
 > Display a tree visualization of a dependency graph.
-> Note: in the tree, dependencies of packages marked with `(*)` have already been shown elsewhere in the graph, and so are not repeated.
+> Note: In the tree, dependencies of packages marked with `(*)` have already been shown elsewhere in the graph, and so are not repeated.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-tree.html>.
 
 - Show a dependency tree of the current project:

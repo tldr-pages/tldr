@@ -1,7 +1,7 @@
 # magick convert
 
 > Convert between image formats, scale, join, and create images, and much more.
-> Note: this tool (previously `convert`) has been replaced by `magick` in ImageMagick 7+.
+> Note: This tool (previously `convert`) has been replaced by `magick` in ImageMagick 7+.
 > More information: <https://imagemagick.org/script/convert.php>.
 
 - Convert an image from JPEG to PNG:
