@@ -5,7 +5,7 @@
 
 - Voeg een torrentbestand of magnet-link toe aan Transmission en download naar een opgegeven map:
 
-`transmission-remote {{hostnaam}} {{[-a|--all]}} {{torrent|url}} {{[-w|--download-dir]}}  {{/pad/naar/download_map}}`
+`transmission-remote {{hostnaam}} {{[-a|--all]}} {{torrent|url}} {{[-w|--download-dir]}} {{/pad/naar/download_map}}`
 
 - Verander de standaard downloadmap:
 
