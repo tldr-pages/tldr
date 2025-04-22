@@ -34,3 +34,4 @@
 - Only list directories:
 
 `ls {{[-d|--directory]}} */`
+> Modified by JJshen for Git practice.
