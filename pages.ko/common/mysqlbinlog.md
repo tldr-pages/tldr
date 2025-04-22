@@ -1,7 +1,7 @@
 # mysqlbinlog
 
 > MySQL 바이너리 로그 파일을 처리하는 도구.
-> 더 많은 정보: <https://dev.mysql.com/doc/refman/8.0/en/mysqlbinlog.html>.
+> 더 많은 정보: <https://dev.mysql.com/doc/refman/en/mysqlbinlog.html>.
 
 - 특정 바이너리 로그 파일에서 이벤트 표시:
 
