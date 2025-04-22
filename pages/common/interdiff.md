@@ -9,4 +9,4 @@
 
 - Compare diff files, ignoring whitespace:
 
-`interdiff -w {{old_file}} {{new_file}}`
+`interdiff {{[-w|--ignore-all-space]}} {{old_file}} {{new_file}}`

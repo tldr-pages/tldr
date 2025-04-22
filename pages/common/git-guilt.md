@@ -14,15 +14,15 @@
 
 - Show author emails instead of names:
 
-`git guilt --email`
+`git guilt {{[-e|--email]}}`
 
 - Ignore whitespace only changes when attributing blame:
 
-`git guilt --ignore-whitespace`
+`git guilt {{[-w|--ignore-whitespace]}}`
 
 - Find blame delta over the last three weeks:
 
-`git guilt 'git log --until="3 weeks ago" --format="%H" -n 1'`
+`git guilt 'git log --until="3 weeks ago" --format="%H" {{[-n|--max-count]}} 1'`
 
 - Find blame delta over the last three weeks (git 1.8.5+):
 

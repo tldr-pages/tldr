@@ -13,7 +13,7 @@
 
 - View a Markdown file using a paginator:
 
-`glow -p {{path/to/file}}`
+`glow {{[-p|--pager]}} {{path/to/file}}`
 
 - View a file from a URL:
 

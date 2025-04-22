@@ -9,11 +9,11 @@
 
 - Install a single package into the currently active conda environment using channel conda-forge:
 
-`conda install -c conda-forge {{package}}`
+`conda install {{[-c|--channel]}} conda-forge {{package}}`
 
 - Install a single package into the currently active conda environment using channel conda-forge and ignoring other channels:
 
-`conda install -c conda-forge --override-channels {{package}}`
+`conda install {{[-c|--channel]}} conda-forge --override-channels {{package}}`
 
 - Install a specific version of a package:
 
@@ -21,7 +21,7 @@
 
 - Install a package into a specific environment:
 
-`conda install --name {{environment}} {{package}}`
+`conda install {{[-n|--name]}} {{environment}} {{package}}`
 
 - Update a package in the current environment:
 
@@ -29,4 +29,4 @@
 
 - Install a package and agree to the transactions without prompting:
 
-`conda install --yes {{package}}`
+`conda install {{[-y|--yes]}} {{package}}`

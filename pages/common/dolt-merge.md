@@ -17,7 +17,7 @@
 
 - Merge a branch and create a merge commit with a specific commit message:
 
-`dolt merge --no-ff -m "{{message}}" {{branch_name}}`
+`dolt merge --no-ff {{[-m|--message]}} "{{message}}" {{branch_name}}`
 
 - Abort the current conflict resolution process:
 

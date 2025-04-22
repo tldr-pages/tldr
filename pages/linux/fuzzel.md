@@ -27,7 +27,7 @@
 
 `rm {{[-v|--verbose]}} $HOME/.cache/fuzzel`
 
-- Launch `fuzzel` on a specific monitor, see `wlr-randr` or `swaymsg -t get_outputs`:
+- Launch `fuzzel` on a specific monitor, see `wlr-randr` or `swaymsg --type get_outputs`:
 
 `fuzzel {{[-o|--output]}} "{{DP-1}}"`
 
