@@ -6,15 +6,15 @@
 
 - Verkrijg een nieuw certificaat via webroot authorisatie, maar installeer het certificaat niet automatisch:
 
-`sudo certbot certonly --webroot --webroot-path {{pad/naar/webroot}} --domain {{subdomein.voorbeeld.com}}`
+`sudo certbot certonly --webroot --webroot-path {{pad/naar/webroot}} --domain {{subdomein.example}}`
 
 - Verkrijg een nieuw certificaat via nginx authorisatie, installeer het nieuwe certificaat automatisch:
 
-`sudo certbot --nginx --domain {{subdomein.voorbeeld.com}}`
+`sudo certbot --nginx --domain {{subdomein.example}}`
 
 - Verkrijg een nieuw certificaat via apache authorisatie, installeer het nieuwe certificaat automatisch:
 
-`sudo certbot --apache --domain {{subdomein.voorbeeld.com}}`
+`sudo certbot --apache --domain {{subdomein.example}}`
 
 - Vernieuw alle Let's Encrypt certificaten die binnen 30 dagen verlopen (vergeet achteraf niet alle servers te herstarten die dit certificaat gebruiken):
 
@@ -22,8 +22,8 @@
 
 - Simuleer het verkrijgen van een nieuw certificaat, maar sla deze niet op, op een harde schijf:
 
-`sudo certbot --webroot --webroot-path {{pad/naar/webroot}} --domain {{subdomein.voorbeeld.com}} --dry-run`
+`sudo certbot --webroot --webroot-path {{pad/naar/webroot}} --domain {{subdomein.example}} --dry-run`
 
 - Verkrijg een onvertrouwd test certificaat:
 
-`sudo certbot --webroot --webroot-path {{pad/naar/webroot}} --domain {{subdomein.voorbeeld.com}} --test-cert`
+`sudo certbot --webroot --webroot-path {{pad/naar/webroot}} --domain {{subdomein.example}} --test-cert`
