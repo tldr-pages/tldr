@@ -1,9 +1,9 @@
 # ag
 
 > The Silver Searcher. Como `ack`, pero apunta a ser más rápido.
-> Más información: <https://github.com/ggreer/the_silver_searcher>.
+> Más información: <https://manned.org/ag>.
 
-- Encuentra archivos que contengan "foo", e imprime las líneas coincidentes en su contexto:
+- Encuentra archivos que contengan "foo" e imprime las líneas coincidentes en su contexto:
 
 `ag {{foo}}`
 
