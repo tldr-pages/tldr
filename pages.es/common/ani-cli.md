@@ -1,7 +1,7 @@
 # ani-cli
 
 > Un cli para navegar y ver anime.
-> Más información: <https://github.com/pystardust/ani-cli>.
+> Más información: <https://manned.org/ani-cli>.
 
 - Busca anime por nombre:
 
@@ -10,6 +10,14 @@
 - Descarga episodio:
 
 `ani-cli -d "{{nombre_del_anime}}"`
+
+- Descarga una serie de episodios:
+
+`ani-cli {{[-d|--download]}} {{[-r|--rango]}} "{{1 6}}" "{{nombre_del_anime}}"`
+
+- Descarga la serie completa (todos los episodios):
+
+`ani-cli {{[-d|--download]}} {{[-r|--range]}} "1 -1" "{{nombre_del_anime}}"`
 
 - Usa VLC como reproductor multimedia:
 
