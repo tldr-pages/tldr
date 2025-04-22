@@ -9,4 +9,4 @@
 
 - Find packages that are outdated regardless of the current project:
 
-`npm outdated --all`
+`npm outdated {{[-a|--all]}}`

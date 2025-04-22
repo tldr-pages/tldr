@@ -9,7 +9,7 @@
 
 - Create and start all containers in the background using a local `docker-compose.yml`:
 
-`podman-compose up -d`
+`podman-compose up {{[-d|--detach]}}`
 
 - Start all containers, building if needed:
 
@@ -25,11 +25,11 @@
 
 - Remove all containers, networks, and volumes:
 
-`podman-compose down --volumes`
+`podman-compose down {{[-v|--volumes]}}`
 
 - Follow logs for a container (omit all container names):
 
-`podman-compose logs --follow {{container_name}}`
+`podman-compose logs {{[-f|--follow]}} {{container_name}}`
 
 - Run a one-time command in a service with no ports mapped:
 
