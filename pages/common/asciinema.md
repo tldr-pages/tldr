@@ -10,7 +10,7 @@
 
 - Make a new recording and save it to a local file (finish it with `<Ctrl d>` or type `exit`):
 
-`asciinema rec {{path/to/recordin.cast}}`
+`asciinema rec {{path/to/recording.cast}}`
 
 - Replay a terminal recording from a local file:
 
