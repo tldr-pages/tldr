@@ -21,4 +21,4 @@
 
 - Bump the major version with a custom commit message:
 
-`npm version major -m "{{Upgrade to %s for reasons}}"`
+`npm version major {{[-m|--message]}} "{{Upgrade to %s for reasons}}"`

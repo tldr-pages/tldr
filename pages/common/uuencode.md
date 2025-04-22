@@ -13,4 +13,4 @@
 
 - Encode a file using Base64 instead of the default uuencode encoding and write the result to a file:
 
-`uuencode -m -o {{path/to/output_file}} {{path/to/input_file}} {{output_file_name_after_decoding}}`
+`uuencode {{[-m|--base64]}} -o {{path/to/output_file}} {{path/to/input_file}} {{output_file_name_after_decoding}}`

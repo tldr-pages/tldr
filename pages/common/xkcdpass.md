@@ -10,8 +10,8 @@
 
 - Generate one passphrase whose first letters of each word match the provided argument:
 
-`xkcdpass -a {{acrostic}}`
+`xkcdpass {{[-a|--acrostic]}} {{acrostic}}`
 
 - Generate passwords interactively:
 
-`xkcdpass -i`
+`xkcdpass {{[-i|--interactive]}}`

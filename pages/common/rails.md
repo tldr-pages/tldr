@@ -26,7 +26,7 @@
 
 - Start local server for current project on a specified port:
 
-`rails server -p "{{port}}"`
+`rails server {{[-p|--port]}} "{{port}}"`
 
 - Open console to interact with application from command-line:
 
@@ -34,4 +34,4 @@
 
 - Check current version of rails:
 
-`rails --version`
+`rails {{[-v|--version]}}`

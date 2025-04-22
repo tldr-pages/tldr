@@ -9,7 +9,7 @@
 
 - Unpublish the entire package:
 
-`npm unpublish {{package_name}} --force`
+`npm unpublish {{package_name}} {{[-f|--force]}}`
 
 - Unpublish a package that is scoped:
 
