@@ -4,11 +4,11 @@
 > See also: `transmission`.
 > More information: <https://manned.org/transmission-create>.
 
-- Create a torrent with 2048 KB as the piece size:
+- Create a torrent with a specific piece size (in KB):
 
 `transmission-create {{[-o|--outfile]}} {{path/to/example.torrent}} {{[-t|--tracker]}} {{tracker_announce_url}} {{[-s|--piecesize]}} {{2048}} {{path/to/file_or_directory}}`
 
-- Create a private torrent with a 2048 KB piece size:
+- Create a private torrent with a specific piece size (in KB):
 
 `transmission-create {{[-p|--private]}} {{[-o|--outfile]}} {{path/to/example.torrent}} {{[-t|--tracker]}} {{tracker_announce_url}} {{[-s|--piecesize]}} {{2048}} {{path/to/file_or_directory}}`
 
