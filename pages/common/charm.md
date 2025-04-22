@@ -9,7 +9,7 @@
 
 - Backup Charm account keys to a specific location:
 
-`charm backup-keys -o {{path/to/output_file.tar}}`
+`charm backup-keys {{[-o|--output]}} {{path/to/output_file.tar}}`
 
 - Import previously backed up Charm account keys:
 

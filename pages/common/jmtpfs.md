@@ -13,7 +13,7 @@
 
 - List available MTP devices:
 
-`jmtpfs --listDevices`
+`jmtpfs {{[-l|--listDevices]}}`
 
 - If multiple devices are present, mount a specific device:
 

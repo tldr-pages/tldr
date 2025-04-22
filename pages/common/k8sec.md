@@ -25,8 +25,8 @@
 
 - Load secrets from a file:
 
-`k8sec load -f {{path/to/file}} {{secret_name}}`
+`k8sec load {{[-f|--filename]}} {{path/to/file}} {{secret_name}}`
 
 - Dump secrets to a file:
 
-`k8sec dump -f {{path/to/file}} {{secret_name}}`
+`k8sec dump {{[-f|--filename]}} {{path/to/file}} {{secret_name}}`

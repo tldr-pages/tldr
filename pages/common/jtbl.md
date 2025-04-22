@@ -13,8 +13,8 @@
 
 - Print a table and truncate rows instead of wrapping:
 
-`cat {{file.json}} | jtbl -t`
+`cat {{file.json}} | jtbl {{[-t|--truncate]}}`
 
 - Print a table and don't wrap or truncate rows:
 
-`cat {{file.json}} | jtbl -n`
+`cat {{file.json}} | jtbl {{[-n|--no-wrap]}}`

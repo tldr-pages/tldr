@@ -6,16 +6,16 @@
 
 - List IPP printers registered on the network with their status:
 
-`ippfind --ls`
+`ippfind {{[-l|--ls]}}`
 
 - Send a specific PostScript document to every PostScript printer on the network:
 
-`ippfind --txt-pdl application/postscript --exec ipptool -f {{path/to/document.ps}} '{}' print-job.test \;`
+`ippfind --txt-pdl application/postscript {{[-x|--exec]}} ipptool -f {{path/to/document.ps}} '{}' print-job.test \;`
 
 - Send a PostScript test document to every PostScript printer on the network:
 
-`ippfind --txt-pdl application/postscript --exec ipptool -f onepage-letter.ps '{}' print-job.test \;`
+`ippfind --txt-pdl application/postscript {{[-x|--exec]}} ipptool -f onepage-letter.ps '{}' print-job.test \;`
 
 - Send a PostScript test document to every PostScript printer on the network, whose name matches a regular expression:
 
-`ippfind --txt-pdl application/postscript --host {{regex}} --exec ipptool -f onepage-letter.ps '{}' print-job.test \;`
+`ippfind --txt-pdl application/postscript {{[-h|--host]}} {{regex}} {{[-x|--exec]}} ipptool -f onepage-letter.ps '{}' print-job.test \;`

@@ -17,16 +17,16 @@
 
 - List all validation rules:
 
-`core-validate-commit --list`
+`core-validate-commit {{[-l|--list]}}`
 
 - List all valid Node.js subsystems:
 
-`core-validate-commit --list-subsystem`
+`core-validate-commit {{[-ls|--list-subsystem]}}`
 
 - Validate the current commit formatting the output in tap format:
 
-`core-validate-commit --tap`
+`core-validate-commit {{[-t|--tap]}}`
 
 - Display help:
 
-`core-validate-commit --help`
+`core-validate-commit {{[-h|--help]}}`

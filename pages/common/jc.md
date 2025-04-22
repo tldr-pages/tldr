@@ -13,8 +13,8 @@
 
 - Output pretty JSON via pipe:
 
-`{{ifconfig}} | jc {{--ifconfig}} -p`
+`{{ifconfig}} | jc {{--ifconfig}} {{[-p|--pretty]}}`
 
 - Output pretty JSON via magic syntax:
 
-`jc -p {{ifconfig}}`
+`jc {{[-p|--pretty]}} {{ifconfig}}`
