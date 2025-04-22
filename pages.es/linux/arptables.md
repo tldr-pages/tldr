@@ -2,7 +2,7 @@
 
 > Gestiona las reglas de filtrado ARP usando el backend `nftables`.
 > Parte de la suite `xtables-nft` para filtrado de paquetes ARP.
-> Más información: &lt;https://manned.org/arptables&gt;.
+> Más información: <https://manned.org/arptables>.
 
 - Lista todas las reglas ARP en la tabla de filtrado:
 
