@@ -2,7 +2,7 @@
 
 > 로그인 셸과 비밀번호를 포함한 사용자 데이터베이스 정보를 추가하거나 변경합니다.
 > 같이 보기: `passwd`.
-> 더 많은 정보: <https://man.openbsd.org/chsh>.
+> 더 많은 정보: <https://man.openbsd.org/chpass>.
 
 - 현재 사용자에게 특정 로그인 셸을 대화식으로 설정:
 
