@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux rlogin`
+`tldr {{[-p|--platform]}} linux rlogin`
