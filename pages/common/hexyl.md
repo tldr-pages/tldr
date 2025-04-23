@@ -9,7 +9,7 @@
 
 - Print the hexadecimal representation of the first n bytes of a file:
 
-`hexyl -n {{n}} {{path/to/file}}`
+`hexyl {{[-n|--length]}} {{n}} {{path/to/file}}`
 
 - Print bytes 512 through 1024 of a file:
 

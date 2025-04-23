@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux basenc`
+`tldr {{[-p|--platform]}} linux basenc`

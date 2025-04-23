@@ -25,4 +25,4 @@
 
 - Display help:
 
-`r2e -h`
+`r2e {{[-h|--help]}}`

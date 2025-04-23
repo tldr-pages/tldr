@@ -2,7 +2,7 @@
 
 > Network service enumeration and exploitation tool.
 > Some subcommands such as `smb` have their own usage documentation.
-> More information: <https://www.netexec.wiki/>.
+> More information: <https://www.netexec.wiki/getting-started/selecting-and-using-a-protocol>.
 
 - [L]ist available modules for the specified protocol:
 

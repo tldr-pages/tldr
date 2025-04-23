@@ -6,28 +6,28 @@
 
 - Open an SVG file in the Inkscape GUI:
 
-`inkscape {{path/to/filename.svg}}`
+`inkscape {{path/to/file.svg}}`
 
 - Export an SVG file into a bitmap with the default format (PNG) and the default resolution (96 DPI):
 
-`inkscape {{path/to/filename.svg}} -o {{path/to/filename.png}}`
+`inkscape {{path/to/file.svg}} {{[-o|--export-filename]}} {{path/to/filename.png}}`
 
 - Export an SVG file into a bitmap of 600x400 pixels (aspect ratio distortion may occur):
 
-`inkscape {{path/to/filename.svg}} -o {{path/to/filename.png}} -w {{600}} -h {{400}}`
+`inkscape {{path/to/file.svg}} {{[-o|--export-filename]}} {{path/to/filename.png}} {{[-w|--export-width]}} {{600}} {{[-h|--export-height]}} {{400}}`
 
 - Export the drawing (bounding box of all objects) of an SVG file into a bitmap:
 
-`inkscape {{path/to/filename.svg}} -o {{path/to/filename.png}} -D`
+`inkscape {{path/to/file.svg}} {{[-o|--export-filename]}} {{path/to/filename.png}} {{[-D|--export-area-drawing]}}`
 
 - Export a single object, given its ID, into a bitmap:
 
-`inkscape {{path/to/filename.svg}} -i {{id}} -o {{object.png}}`
+`inkscape {{path/to/file.svg}} {{[-i|--export-id]}} {{id}} {{[-o|--export-filename]}} {{object.png}}`
 
 - Export an SVG document to PDF, converting all texts to paths:
 
-`inkscape {{path/to/filename.svg}} -o {{path/to/filename.pdf}} --export-text-to-path`
+`inkscape {{path/to/file.svg}} {{[-o|--export-filename]}} {{path/to/filename.pdf}} {{[-T|--export-text-to-path]}}`
 
 - Duplicate the object with id="path123", rotate the duplicate 90 degrees, save the file, and quit Inkscape:
 
-`inkscape {{path/to/filename.svg}} --select=path123 --verb="{{EditDuplicate;ObjectRotate90;FileSave;FileQuit}}"`
+`inkscape {{path/to/file.svg}} --select=path123 --verb="{{EditDuplicate;ObjectRotate90;FileSave;FileQuit}}"`

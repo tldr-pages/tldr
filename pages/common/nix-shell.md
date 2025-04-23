@@ -18,12 +18,12 @@
 
 - Start with packages loaded from nixpkgs:
 
-`nix-shell --packages {{package1 package2 ...}}`
+`nix-shell {{[-p|--packages]}} {{package1 package2 ...}}`
 
 - Start with packages loaded from specific nixpkgs revision:
 
-`nix-shell --packages {{package1 package2 ...}} -I nixpkgs={{https://github.com/NixOS/nixpkgs/archive/nixpkgs_revision.tar.gz}}`
+`nix-shell {{[-p|--packages]}} {{package1 package2 ...}} {{[-I|--include]}} nixpkgs={{https://github.com/NixOS/nixpkgs/archive/nixpkgs_revision.tar.gz}}`
 
 - Evaluate rest of file in specific interpreter, for use in `#!-scripts` (see <https://nixos.org/manual/nix/stable/#use-as-a-interpreter>):
 
-`nix-shell -i {{interpreter}} --packages {{package1 package2 ...}}`
+`nix-shell -i {{interpreter}} {{[-p|--packages]}} {{package1 package2 ...}}`

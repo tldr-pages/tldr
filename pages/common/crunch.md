@@ -1,7 +1,7 @@
 # crunch
 
 > Wordlist generator.
-> More information: <https://sourceforge.net/projects/crunch-wordlist/>.
+> More information: <https://manned.org/crunch>.
 
 - Output a list of words of length 1 to 3 with only lowercase characters:
 

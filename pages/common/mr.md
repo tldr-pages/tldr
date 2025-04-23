@@ -9,7 +9,7 @@
 
 - Update repositories in 5 concurrent jobs:
 
-`mr -j{{5}} update`
+`mr {{[-j|--jobs]}} {{5}} update`
 
 - Print the status of all repositories:
 

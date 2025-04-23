@@ -10,11 +10,11 @@
 
 - Display a custom inventory:
 
-`ansible-inventory --list --inventory {{path/to/file_or_script_or_directory}}`
+`ansible-inventory --list {{[-i|--inventory-file]}} {{path/to/file_or_script_or_directory}}`
 
 - Display the default inventory in YAML:
 
-`ansible-inventory --list --yaml`
+`ansible-inventory --list {{[-y|--yaml]}}`
 
 - Dump the default inventory to a file:
 

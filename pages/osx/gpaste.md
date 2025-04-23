@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux paste`
+`tldr {{[-p|--platform]}} linux paste`

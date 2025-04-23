@@ -13,4 +13,4 @@
 
 - Copy a file or directory from the host to a container, following symlinks (copies the symlinked files directly, not the symlinks themselves):
 
-`docker cp --follow-link {{path/to/symlink_on_host}} {{container_name}}:{{path/to/file_or_directory_in_container}}`
+`docker cp {{[-L|--follow-link]}} {{path/to/symlink_on_host}} {{container_name}}:{{path/to/file_or_directory_in_container}}`

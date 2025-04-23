@@ -9,16 +9,16 @@
 
 - Run the web server on a specified port:
 
-`rails server --port {{port_number}}`
+`rails server {{[-p|--port]}} {{port_number}}`
 
 - Run the web server on a specified IP address:
 
-`rails server --binding {{ip_address}}`
+`rails server {{[-b|--binding]}} {{ip_address}}`
 
 - Run the web server on a specified environment:
 
-`rails server --environment {{environment}}`
+`rails server {{[-e|--environment]}} {{environment}}`
 
 - Display help:
 
-`rails server --help`
+`rails server {{[-h|--help]}}`

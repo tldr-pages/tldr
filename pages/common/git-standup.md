@@ -2,7 +2,7 @@
 
 > See commits from a specified user.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-standup>.
+> More information: <https://manned.org/git-standup>.
 
 - Show a given author's commits from the last 10 days:
 

@@ -14,12 +14,12 @@
 
 - Patch a file writing the result to a different file:
 
-`patch {{path/to/input_file}} -o {{path/to/output_file}} < {{patch.diff}}`
+`patch {{path/to/input_file}} {{[-o|--output]}} {{path/to/output_file}} < {{patch.diff}}`
 
 - Apply a patch to the current directory:
 
-`patch -p1 < {{patch.diff}}`
+`patch {{[-p|--strip]}} 1 < {{patch.diff}}`
 
 - Apply the reverse of a patch:
 
-`patch -R < {{patch.diff}}`
+`patch {{[-R|--reverse]}} < {{patch.diff}}`

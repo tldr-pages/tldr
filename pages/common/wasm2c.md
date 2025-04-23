@@ -9,4 +9,4 @@
 
 - Write the output to a given file (`file.h` gets additionally generated):
 
-`wasm2c {{file.wasm}} -o {{file.c}}`
+`wasm2c {{file.wasm}} {{[-o|--output]}} {{file.c}}`

@@ -2,7 +2,7 @@
 
 > Replace patterns in git-controlled files using sed.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-sed>.
+> More information: <https://manned.org/git-sed>.
 
 - Replace the specified text in the current repository:
 
