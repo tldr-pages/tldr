@@ -1,7 +1,7 @@
 # gfalse
 
-> Dit commando is een alias van `-p linux false`.
+> Dit commando is een alias van `false`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux false`
+`tldr {{[-p|--platform]}} linux false`

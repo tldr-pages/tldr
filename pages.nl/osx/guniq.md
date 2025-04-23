@@ -1,7 +1,7 @@
 # guniq
 
-> Dit commando is een alias van `-p linux uniq`.
+> Dit commando is een alias van `uniq`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux uniq`
+`tldr {{[-p|--platform]}} linux uniq`

@@ -1,7 +1,7 @@
 # gpathchk
 
-> Dit commando is een alias van `-p linux pathchk`.
+> Dit commando is een alias van `pathchk`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux pathchk`
+`tldr {{[-p|--platform]}} linux pathchk`

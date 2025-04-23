@@ -1,7 +1,7 @@
 # gunits
 
-> Dit commando is een alias van `-p linux units`.
+> Dit commando is een alias van `units`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux units`
+`tldr {{[-p|--platform]}} linux units`

@@ -1,7 +1,7 @@
 # gsplit
 
-> Dit commando is een alias van `-p linux split`.
+> Dit commando is een alias van `split`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux split`
+`tldr {{[-p|--platform]}} linux split`

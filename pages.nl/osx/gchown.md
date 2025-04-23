@@ -1,7 +1,7 @@
 # gchown
 
-> Dit commando is een alias van `-p linux chown`.
+> Dit commando is een alias van `chown`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux chown`
+`tldr {{[-p|--platform]}} linux chown`

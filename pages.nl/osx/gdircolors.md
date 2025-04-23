@@ -1,7 +1,7 @@
 # gdircolors
 
-> Dit commando is een alias van `-p linux dircolors`.
+> Dit commando is een alias van `dircolors`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux dircolors`
+`tldr {{[-p|--platform]}} linux dircolors`

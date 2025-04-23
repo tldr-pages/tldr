@@ -1,7 +1,7 @@
 # ggroups
 
-> Dit commando is een alias van `-p linux groups`.
+> Dit commando is een alias van `groups`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux groups`
+`tldr {{[-p|--platform]}} linux groups`

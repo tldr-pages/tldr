@@ -1,7 +1,7 @@
 # gtac
 
-> Dit commando is een alias van `-p linux tac`.
+> Dit commando is een alias van `tac`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux tac`
+`tldr {{[-p|--platform]}} linux tac`

@@ -1,7 +1,7 @@
 # gpinky
 
-> Dit commando is een alias van `-p linux pinky`.
+> Dit commando is een alias van `pinky`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux pinky`
+`tldr {{[-p|--platform]}} linux pinky`

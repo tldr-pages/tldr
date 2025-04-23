@@ -1,7 +1,7 @@
 # gpwd
 
-> Dit commando is een alias van `-p linux pwd`.
+> Dit commando is een alias van `pwd`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux pwd`
+`tldr {{[-p|--platform]}} linux pwd`

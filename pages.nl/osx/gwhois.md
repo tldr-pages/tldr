@@ -1,7 +1,7 @@
 # gwhois
 
-> Dit commando is een alias van `-p linux whois`.
+> Dit commando is een alias van `whois`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux whois`
+`tldr {{[-p|--platform]}} linux whois`

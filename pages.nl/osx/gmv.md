@@ -1,7 +1,7 @@
 # gmv
 
-> Dit commando is een alias van `-p linux mv`.
+> Dit commando is een alias van `mv`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux mv`
+`tldr {{[-p|--platform]}} linux mv`

@@ -1,7 +1,7 @@
 # gchgrp
 
-> Dit commando is een alias van `-p linux chgrp`.
+> Dit commando is een alias van `chgrp`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux chgrp`
+`tldr {{[-p|--platform]}} linux chgrp`

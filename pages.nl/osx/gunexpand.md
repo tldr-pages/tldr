@@ -1,7 +1,7 @@
 # gunexpand
 
-> Dit commando is een alias van `-p linux unexpand`.
+> Dit commando is een alias van `unexpand`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux unexpand`
+`tldr {{[-p|--platform]}} linux unexpand`

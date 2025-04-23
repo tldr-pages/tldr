@@ -1,7 +1,7 @@
 # gid
 
-> Dit commando is een alias van `-p linux id`.
+> Dit commando is een alias van `id`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux id`
+`tldr {{[-p|--platform]}} linux id`

@@ -1,7 +1,7 @@
 # genv
 
-> Dit commando is een alias van `-p linux env`.
+> Dit commando is een alias van `env`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux env`
+`tldr {{[-p|--platform]}} linux env`

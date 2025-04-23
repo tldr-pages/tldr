@@ -1,7 +1,7 @@
 # gtimeout
 
-> Dit commando is een alias van `-p linux timeout`.
+> Dit commando is een alias van `timeout`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux timeout`
+`tldr {{[-p|--platform]}} linux timeout`
