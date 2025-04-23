@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux dirname`
+`tldr {{[-p|--platform]}} linux dirname`

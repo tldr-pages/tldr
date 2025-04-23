@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux id`
+`tldr {{[-p|--platform]}} linux id`

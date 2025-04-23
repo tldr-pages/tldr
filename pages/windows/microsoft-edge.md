@@ -5,8 +5,8 @@
 
 - View the documentation for Microsoft Edge for Windows:
 
-`tldr -p windows msedge`
+`tldr {{[-p|--platform]}} windows msedge`
 
 - View the documentation for Microsoft Edge for other platforms:
 
-`tldr -p common microsoft-edge`
+`tldr {{[-p|--platform]}} common microsoft-edge`
