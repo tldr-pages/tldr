@@ -1,7 +1,7 @@
 # pgbench
 
 > Run a benchmark test on PostgreSQL.
-> More information: <https://www.postgresql.org/docs/10/pgbench.html>.
+> More information: <https://www.postgresql.org/docs/current/pgbench.html>.
 
 - Initialize a database with a scale factor of 50 times the default size:
 
