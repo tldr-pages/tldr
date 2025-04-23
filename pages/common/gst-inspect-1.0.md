@@ -1,7 +1,7 @@
 # gst-inspect-1.0
 
 > Print information on GStreamer plugins.
-> More information: <https://gstreamer.freedesktop.org/documentation/tools/gst-inspect.html?gi-language=c>.
+> More information: <https://gstreamer.freedesktop.org/documentation/tools/gst-inspect.html>.
 
 - Print information on a plugin:
 
