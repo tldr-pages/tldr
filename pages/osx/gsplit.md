@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr {{[-p|--platform]}} linux split`
+`tldr {{[-p|--platform]}} common split`

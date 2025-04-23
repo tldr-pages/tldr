@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr {{[-p|--platform]}} linux tail`
+`tldr {{[-p|--platform]}} common tail`
