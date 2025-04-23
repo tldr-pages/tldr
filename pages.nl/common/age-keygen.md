@@ -8,6 +8,6 @@
 
 `age-keygen {{[-o|--output]}} {{pad/naar/bestand}}`
 
-- Converteer een identiteit naar een ontvanger een print de publieke sleutel naar `stdout`:
+- Converteer een identiteit naar een ontvanger en print de publieke sleutel naar `stdout`:
 
 `age-keygen -y {{pad/naar/bestand}}`
