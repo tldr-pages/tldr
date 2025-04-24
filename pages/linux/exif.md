@@ -12,7 +12,7 @@
 `exif {{[-l|--list-tags]}} --no-fixup {{path/to/image.jpg}}`
 
 - Extract the image thumbnail into a separate file:
-- 
+
 `exif {{[-e|--extract-thumbnail]}} {{[-o|--output]}} {{path/to/thumbnail.jpg}} {{path/to/image.jpg}}`
 
 - Show the raw contents of the "Model" tag in the given image:
