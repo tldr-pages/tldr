@@ -1,7 +1,7 @@
 # darkhttpd
 
 > Darkhttpd web server.
-> More information: <https://github.com/emikulic/darkhttpd?tab=readme-ov-file#how-to-run-darkhttpd>.
+> More information: <https://github.com/emikulic/darkhttpd#how-to-run-darkhttpd>.
 
 - Start server serving the specified document root:
 
