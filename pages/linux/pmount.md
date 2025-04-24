@@ -17,7 +17,7 @@
 
 - Mount an NTFS-formatted disk, forcing read-write access:
 
-`pmount {{[-t|--type]}} {{ntfs}} {{[-w|--read-write]}} {{/dev/sdX}}`
+`pmount {{[-t|--type]}} ntfs {{[-w|--read-write]}} {{/dev/sdX}}`
 
 - Display all mounted removable devices:
 
