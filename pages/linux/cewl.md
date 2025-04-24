@@ -5,7 +5,7 @@
 
 - Create a wordlist file from the given URL up to 2 links depth:
 
-`cewl {{[-d|--depth]}} {{2}} {{[-w|--write]}} {{path/to/wordlist.txt}} {{url}}`
+`cewl {{[-d|--depth]}} 2 {{[-w|--write]}} {{path/to/wordlist.txt}} {{url}}`
 
 - Output an alphanumeric wordlist from the given URL with words of minimum 5 characters:
 
