@@ -9,7 +9,7 @@
 
 - Output an alphanumeric wordlist from the given URL with words of minimum 5 characters:
 
-`cewl --with-numbers {{[-m|--min_word_length]}} {{5}} {{url}}`
+`cewl --with-numbers {{[-m|--min_word_length]}} 5 {{url}}`
 
 - Output a wordlist from the given URL in debug mode including email addresses:
 
