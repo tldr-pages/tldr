@@ -13,4 +13,4 @@
 
 - Silent mode. Produces less output:
 
-`resolveip --silent {{example.org}}`
+`resolveip {{[-s|--silent]}} {{example.org}}`
