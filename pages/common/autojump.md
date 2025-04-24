@@ -22,4 +22,4 @@
 
 - Show the entries in the autojump database:
 
-`j {{[-s|--stat]}}`
+`j -s`

@@ -1,7 +1,7 @@
 # picard
 
 > Next generation MusicBrainz tagging application.
-> More information: <https://picard-docs.musicbrainz.org/en/getting_started/starting.html>.
+> More information: <https://picard.musicbrainz.org/>.
 
 - Start Picard:
 
@@ -13,4 +13,4 @@
 
 - Display the version of Picard installed:
 
-`picard {{[-V|--long-version]}}`
+`picard --long-version`
