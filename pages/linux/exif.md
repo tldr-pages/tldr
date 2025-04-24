@@ -17,7 +17,7 @@
 
 - Show the raw contents of the "Model" tag in the given image:
 
-`exif --ifd {{0}} {{[-t|--tag]}} {{Model}} {{[-m|--machine-readable]}} {{image.jpg}}`
+`exif --ifd {{0}} {{[-t|--tag]}} "Model" {{[-m|--machine-readable]}} {{path/to/image.jpg}}`
 
 - Change the value of the "Artist" tag to John Smith and save to `new.jpg`:
 
