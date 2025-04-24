@@ -1,7 +1,7 @@
 # ngrep
 
 > Filter network traffic packets using regular expressions.
-> More information: <https://github.com/jpr5/ngrep>.
+> More information: <https://github.com/jpr5/ngrep/blob/master/EXAMPLES.md>.
 
 - Capture traffic of all interfaces:
 

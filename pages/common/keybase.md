@@ -1,7 +1,7 @@
 # keybase
 
 > Key directory that maps social media identities to encryption keys in a publicly auditable manner.
-> More information: <https://keybase.io/docs/command_line>.
+> More information: <https://book.keybase.io/docs/cli>.
 
 - Follow another user:
 
@@ -13,19 +13,19 @@
 
 - Sign a file:
 
-`keybase sign --infile {{input_file}} --outfile {{output_file}}`
+`keybase sign {{[-i|--infile]}} {{input_file}} {{[-o|--outfile]}} {{output_file}}`
 
 - Verify a signed file:
 
-`keybase verify --infile {{input_file}} --outfile {{output_file}}`
+`keybase verify {{[-i|--infile]}} {{input_file}} {{[-o|--outfile]}} {{output_file}}`
 
 - Encrypt a file:
 
-`keybase encrypt --infile {{input_file}} --outfile {{output_file}} {{receiver}}`
+`keybase encrypt {{[-i|--infile]}} {{input_file}} {{[-o|--outfile]}} {{output_file}} {{receiver}}`
 
 - Decrypt a file:
 
-`keybase decrypt --infile {{input_file}} --outfile {{output_file}}`
+`keybase decrypt {{[-i|--infile]}} {{input_file}} {{[-o|--outfile]}} {{output_file}}`
 
 - Revoke current device, log out, and delete local data:
 
