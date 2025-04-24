@@ -1,7 +1,7 @@
 # slackcat
 
 > Utility for passing files and command output to Slack.
-> More information: <https://github.com/bcicen/slackcat?tab=readme-ov-file#usage>.
+> More information: <https://github.com/bcicen/slackcat#usage>.
 
 - Post a file to Slack:
 
