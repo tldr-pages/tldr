@@ -21,4 +21,4 @@
 
 - Change the value of the "Artist" tag to John Smith and save to `new.jpg`:
 
-`exif {{[-o|--output]}} {{new.jpg}} --ifd {{0}} {{[-t|--tag]}} "{{Artist}}" --set-value="{{John Smith}}" --no-fixup {{image.jpg}}`
+`exif {{[-o|--output]}} {{path/to/new.jpg}} --ifd {{0}} {{[-t|--tag]}} "Artist" --set-value="John Smith" --no-fixup {{path/to/image.jpg}}`
