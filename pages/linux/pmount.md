@@ -13,7 +13,7 @@
 
 - Mount a CD-ROM (filesystem type ISO9660) in read-only mode:
 
-`pmount {{[-t|--type]}} {{iso9660}} {{[-r|--read-only]}} {{/dev/cdrom}}`
+`pmount {{[-t|--type]}} iso9660 {{[-r|--read-only]}} {{/dev/cdrom}}`
 
 - Mount an NTFS-formatted disk, forcing read-write access:
 
