@@ -4,6 +4,10 @@
 > Aliases like j or jc are provided for even less typing.
 > More information: <https://github.com/wting/autojump>.
 
+- Add the autojump aliases to your shell:
+
+`source /usr/share/autojump/autojump.{{bash|fish|zsh}}`
+
 - Jump to a directory that contains the given pattern:
 
 `j {{pattern}}`
