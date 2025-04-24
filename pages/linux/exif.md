@@ -9,7 +9,7 @@
 
 - Show a table listing known EXIF tags and whether each one exists in an image:
 
-`exif {{[-l|--list-tags]}} --no-fixup {{image.jpg}}`
+`exif {{[-l|--list-tags]}} --no-fixup {{path/to/image.jpg}}`
 
 - Extract the image thumbnail into the file `thumbnail.jpg`:
 
