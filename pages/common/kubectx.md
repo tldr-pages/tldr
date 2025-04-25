@@ -1,7 +1,7 @@
 # kubectx
 
 > Utility to manage and switch between `kubectl` contexts.
-> More information: <https://github.com/ahmetb/kubectx>.
+> More information: <https://manned.org/kubectx>.
 
 - List the contexts:
 
