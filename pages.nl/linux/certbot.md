@@ -22,8 +22,8 @@
 
 - Simuleer het verkrijgen van een nieuw certificaat, maar sla deze niet op, op een harde schijf:
 
-`sudo certbot {{[-w|--webroot]}} --webroot-path {{pad/naar/webroot}} {{[-d|--domain]}} {{subdomein.example}} --dry-run`
+`sudo certbot --webroot {{[-w|--webroot-path]}} {{pad/naar/webroot}} {{[-d|--domain]}} {{subdomein.example}} --dry-run`
 
 - Verkrijg een onvertrouwd test certificaat:
 
-`sudo certbot {{[-w|--webroot]}} --webroot-path {{pad/naar/webroot}} {{[-d|--domain]}} {{subdomein.example}} --test-cert`
+`sudo certbot --webroot {{[-w|--webroot-path]}} {{pad/naar/webroot}} {{[-d|--domain]}} {{subdomein.example}} --test-cert`
