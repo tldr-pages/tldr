@@ -7,7 +7,7 @@
 
 `ani-cli "{{anime_name}}"`
 
-- Download episode:
+- Download an episode:
 
 `ani-cli {{[-d|--download]}} "{{anime_name}}"`
 
