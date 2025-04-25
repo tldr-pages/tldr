@@ -10,27 +10,27 @@
 
 - Zoek naar een niet-hoofdlettergevoelig patroon:
 
-`ack --ignore-case "{{zoekpatroon}}"`
+`ack {{[-i|--ignore-case]}} "{{zoekpatroon}}"`
 
 - Zoek naar lijnen die overeenkomen met een patroon en druk alleen de overeenkomende tekst af en niet de rest van de lijn:
 
-`ack -o "{{zoekpatroon}}"`
+`ack {{[-o|--output='$&']}} "{{zoekpatroon}}"`
 
 - Beperk het zoeken tot bestanden van een specifiek type:
 
-`ack --type {{ruby}} "{{zoekpatroon}}"`
+`ack {{[-t|--type]}} {{ruby}} "{{zoekpatroon}}"`
 
 - Zoek niet in bestanden van een specifiek type:
 
-`ack --type no{{ruby}} "{{zoekpatroon}}"`
+`ack {{[-t|--type]}} no{{ruby}} "{{zoekpatroon}}"`
 
 - Tel het totaal aantal gevonden matches:
 
-`ack --count --no-filename "{{zoekpatroon}}"`
+`ack {{[-c|--count]}} {{[-h|--no-filename]}} "{{zoekpatroon}}"`
 
 - Toon alleen voor elk bestand de bestandsnamen en het aantal overeenkomsten:
 
-`ack --count --files-with-matches "{{zoekpatroon}}"`
+`ack {{[-c|--count]}} {{[-l|--files-with-matches]}} "{{zoekpatroon}}"`
 
 - Maak een lijst van alle waarden die kunnen worden gebruikt met `--type`:
 

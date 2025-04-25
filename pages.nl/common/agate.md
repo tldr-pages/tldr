@@ -5,7 +5,7 @@
 
 - Voer een persoonlijke sleutel en certificaat uit en genereer deze:
 
-`agate --content {{pad/naar/inhoud/}} --addr {{[::]:1965}} --addr {{0.0.0.0:1965}} --hostname {{voorbeeld.com}} --lang {{nl-NL}}`
+`agate --content {{pad/naar/inhoud/}} --addr {{[::]:1965}} --addr {{0.0.0.0:1965}} --hostname {{example.com}} --lang {{nl-NL}}`
 
 - Server starten:
 
@@ -13,4 +13,4 @@
 
 - Toon de help:
 
-`agate -h`
+`agate {{[-h|--help]}}`
