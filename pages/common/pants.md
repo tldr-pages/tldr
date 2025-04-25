@@ -1,7 +1,7 @@
 # pants
 
 > Fast, scalable, user-friendly, open-source build and developer workflow tool.
-> More information: <https://www.pantsbuild.org/2.20/docs/using-pants/command-line-help>.
+> More information: <https://www.pantsbuild.org/stable/docs/using-pants/command-line-help>.
 
 - List all targets:
 

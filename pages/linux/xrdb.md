@@ -1,7 +1,7 @@
 # xrdb
 
 > X window server's resource database utility for Unix-like systems.
-> More information: <https://www.x.org/releases/X11R7.7/doc/man/man1/xrdb.1.xhtml>.
+> More information: <https://www.x.org/releases/current/doc/man/man1/xrdb.1.xhtml>.
 
 - Start `xrdb` in interactive mode:
 
