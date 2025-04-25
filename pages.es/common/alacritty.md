@@ -1,4 +1,4 @@
- # alacritty
+# alacritty
 
 > Emulador de terminal multiplataforma acelerado por GPU.
 > Más información: <https://manned.org/alacritty>.
