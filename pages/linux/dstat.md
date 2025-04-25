@@ -13,7 +13,7 @@
 
 - Display CPU and memory statistics only:
 
-`dstat --cpu --mem`
+`dstat {{[-c|--cpu]}} {{[-m|--mem]}}`
 
 - List all available dstat plugins:
 
