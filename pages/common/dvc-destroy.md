@@ -9,4 +9,4 @@
 
 - Force destroy the current project:
 
-`dvc destroy --force`
+`dvc destroy {{[-f|--force]}}`
