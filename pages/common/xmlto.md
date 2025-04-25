@@ -1,15 +1,15 @@
 # xmlto
 
 > Apply an XSL stylesheet to an XML document.
-> More information: <https://pagure.io/xmlto>.
+> More information: <https://manned.org/xmlto>.
 
 - Convert a DocBook XML document to PDF format:
 
-`xmlto {{pdf}} {{document.xml}}`
+`xmlto pdf {{document.xml}}`
 
 - Convert a DocBook XML document to HTML format and store the resulting files in a separate directory:
 
-`xmlto -o {{path/to/html_files}} {{html}} {{document.xml}}`
+`xmlto -o {{path/to/html_files}} html {{document.xml}}`
 
 - Convert a DocBook XML document to a single HTML file:
 

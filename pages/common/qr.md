@@ -1,7 +1,7 @@
 # qr
 
 > Generate QR codes in the terminal with ANSI VT-100 escape codes.
-> More information: <https://github.com/lincolnloop/python-qrcode/>.
+> More information: <https://manned.org/qr>.
 
 - Generate a QR code:
 
