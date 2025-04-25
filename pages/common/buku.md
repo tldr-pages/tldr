@@ -21,4 +21,4 @@
 
 - Remove "search engine" tag from a bookmark:
 
-`buku {{[-u|--update]}} {{bookmark_id}} --tag {{-}} {{search engine}}`
+`buku {{[-u|--update]}} {{bookmark_id}} --tag - {{search engine}}`
