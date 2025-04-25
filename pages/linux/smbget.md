@@ -13,8 +13,8 @@
 
 - Connect with a username and password:
 
-`smbget {{smb://server/share/file}} --user {{username%password}}`
+`smbget {{smb://server/share/file}} {{[-U|--user]}} {{username%password}}`
 
 - Require encrypted transfers:
 
-`smbget {{smb://server/share/file}} --encrypt`
+`smbget {{smb://server/share/file}} {{[-e|--encrypt]}}`
