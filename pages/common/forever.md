@@ -1,7 +1,7 @@
 # forever
 
 > Server-side JavaScript application that makes sure Node.js applications run indefinitely (restarts after exit).
-> More information: <https://github.com/foreversd/forever>.
+> More information: <https://github.com/foreversd/forever#usage>.
 
 - Start running a file forever (as a daemon):
 
