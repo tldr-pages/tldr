@@ -6,16 +6,16 @@
 
 - Interaktywnie ustaw określoną powłokę logowania dla bieżącego użytkownika:
 
-`doas chsh`
+`doas chpass`
 
 - Ustaw określoną powłokę (z ang. [s]hell) logowania dla bieżącego użytkownika:
 
-`doas chsh -s {{ścieżka/do/powłoki}}`
+`doas chpass -s {{ścieżka/do/powłoki}}`
 
 - Ustaw określoną powłokę (z ang. [s]hell) logowania dla określonego użytkownika:
 
-`doas chsh -s {{ścieżka/do/powłoki}} {{nazwa_użytkownika}}`
+`doas chpass -s {{ścieżka/do/powłoki}} {{nazwa_użytkownika}}`
 
 - Określ wpis bazy danych użytkownika w formacie pliku `passwd`:
 
-`doas chsh -a {{nazwa_użytkownika:zaszyfrowane_hasło:uid:gid:...}}`
+`doas chpass -a {{nazwa_użytkownika:zaszyfrowane_hasło:uid:gid:...}}`
