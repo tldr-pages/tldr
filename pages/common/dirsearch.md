@@ -7,7 +7,7 @@
 
 `dirsearch {{[-u|--url]}} {{url}} --extensions-list`
 
-- Scan a list of web servers for common paths with the `.php` extension:
+- Scan a list of web servers for common paths with given file extensions:
 
 `dirsearch {{[-l|--url-list]}} {{path/to/url-list.txt}} {{[-e|--extensions]}} {{php,jsp,aspx,...}}`
 
