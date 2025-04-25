@@ -1,7 +1,7 @@
 # sqlite3
 
 > The command-line interface to SQLite 3, which is a self-contained file-based embedded SQL engine.
-> More information: <https://sqlite.org>.
+> More information: <https://sqlite.org/cli.html>.
 
 - Start an interactive shell with a new database:
 
