@@ -21,7 +21,7 @@
 
 - Usa VLC como reproductor multimedia:
 
-`ani-cli {{[-v|-vlc]}} "{{nombre_del_anime}}"
+`ani-cli {{[-v|-vlc]}} "{{nombre_del_anime}}"`
 
 - Ve un episodio concreto:
 
