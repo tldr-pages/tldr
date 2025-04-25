@@ -9,7 +9,7 @@
 
 - Scan a list of web servers for common paths with the `.php` extension:
 
-`dirsearch {{[-l|--url-list]}} {{path/to/url-list.txt}} {{[-e|--extensions]}} {{php}}`
+`dirsearch {{[-l|--url-list]}} {{path/to/url-list.txt}} {{[-e|--extensions]}} {{php,jsp,aspx,...}}`
 
 - Scan a web server for user-defined paths with common extensions:
 
