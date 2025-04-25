@@ -8,7 +8,7 @@
 
 `bc`
 
-- Start een interactieve sessie met de standaard wiskundige [b]ibliotheek ingeschakeld:
+- Start een interactieve sessie met de standaard wiskundige bibliotheek ingeschakeld:
 
 `bc {{[-i|--interactive]}} {{[-l|--mathlib]}}`
 
