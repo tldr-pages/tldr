@@ -14,7 +14,7 @@
 
 - Open in een nieuw venster:
 
-`chromium --new-window {{example}}`
+`chromium --new-window {{example.com}}`
 
 - Open in applicatie modus (zonder werkbalken, URL balk, knoppen, etc.):
 
