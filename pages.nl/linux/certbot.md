@@ -2,19 +2,19 @@
 
 > De Let's Encrypt Agent om automatisch TLS certificaten te verkrijgen en te vernieuwen.
 > Opvolger van `letsencrypt`.
-> Meer informatie: <https://certbot.eff.org/docs/using.html>.
+> Meer informatie: <https://eff-certbot.readthedocs.io/en/latest/using.html>.
 
 - Verkrijg een nieuw certificaat via webroot authorisatie, maar installeer het certificaat niet automatisch:
 
-`sudo certbot certonly --webroot --webroot-path {{pad/naar/webroot}} --domain {{subdomein.example}}`
+`sudo certbot certonly --webroot {{[-w|--webroot-path]}} {{pad/naar/webroot}} {{[-d|--domain]}} {{subdomein.example}}`
 
 - Verkrijg een nieuw certificaat via nginx authorisatie, installeer het nieuwe certificaat automatisch:
 
-`sudo certbot --nginx --domain {{subdomein.example}}`
+`sudo certbot --nginx {{[-d|--domain]}} {{subdomein.example}}`
 
 - Verkrijg een nieuw certificaat via apache authorisatie, installeer het nieuwe certificaat automatisch:
 
-`sudo certbot --apache --domain {{subdomein.example}}`
+`sudo certbot --apache {{[-d|--domain]}} {{subdomein.example}}`
 
 - Vernieuw alle Let's Encrypt certificaten die binnen 30 dagen verlopen (vergeet achteraf niet alle servers te herstarten die dit certificaat gebruiken):
 
@@ -22,8 +22,8 @@
 
 - Simuleer het verkrijgen van een nieuw certificaat, maar sla deze niet op, op een harde schijf:
 
-`sudo certbot --webroot --webroot-path {{pad/naar/webroot}} --domain {{subdomein.example}} --dry-run`
+`sudo certbot {{[-w|--webroot]}} --webroot-path {{pad/naar/webroot}} {{[-d|--domain]}} {{subdomein.example}} --dry-run`
 
 - Verkrijg een onvertrouwd test certificaat:
 
-`sudo certbot --webroot --webroot-path {{pad/naar/webroot}} --domain {{subdomein.example}} --test-cert`
+`sudo certbot {{[-w|--webroot]}} --webroot-path {{pad/naar/webroot}} {{[-d|--domain]}} {{subdomein.example}} --test-cert`
