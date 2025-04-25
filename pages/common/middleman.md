@@ -1,7 +1,7 @@
 # middleman
 
 > Static site generator written in Ruby.
-> More information: <https://middlemanapp.com/>.
+> More information: <https://middlemanapp.com/basics/install/>.
 
 - Create a new Middleman project:
 
