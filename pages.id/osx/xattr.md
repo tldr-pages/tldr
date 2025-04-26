@@ -11,7 +11,7 @@
 
 `xattr -w {{kunci_atribut}} {{nilai_atribut}} {{berkas}}`
 
-- Menghapus atribut dari berkas tertentu:
+- Hapus atribut dari suatu berkas:
 
 `xattr -d {{com.apple.quarantine}} {{berkas}}`
 
