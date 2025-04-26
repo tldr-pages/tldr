@@ -13,19 +13,19 @@
 
 - Build a Docker image and tag it:
 
-`docker build --tag {{name:tag}} .`
+`docker build {{[-t|--tag]}} {{name:tag}} .`
 
 - Build a Docker image with no build context:
 
-`docker build --tag {{name:tag}} - < {{Dockerfile}}`
+`docker build {{[-t|--tag]}} {{name:tag}} - < {{Dockerfile}}`
 
 - Do not use the cache when building the image:
 
-`docker build --no-cache --tag {{name:tag}} .`
+`docker build --no-cache {{[-t|--tag]}} {{name:tag}} .`
 
 - Build a Docker image using a specific Dockerfile:
 
-`docker build --file {{Dockerfile}} .`
+`docker build {{[-f|--file]}} {{Dockerfile}} .`
 
 - Build with custom build-time variables:
 

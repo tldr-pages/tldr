@@ -13,12 +13,12 @@
 
 - Fork and clone a repository:
 
-`glab repo fork {{owner}}/{{repository}} --clone`
+`glab repo fork {{owner}}/{{repository}} {{[-c|--clone]}}`
 
 - View a repository in the default web browser:
 
-`glab repo view {{owner}}/{{repository}} --web`
+`glab repo view {{owner}}/{{repository}} {{[-w|--web]}}`
 
 - Search some repositories in the GitLab instance:
 
-`glab repo search -s {{search_string}}`
+`glab repo search {{[-s|--search]}} {{search_string}}`

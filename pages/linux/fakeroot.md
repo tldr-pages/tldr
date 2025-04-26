@@ -21,8 +21,8 @@
 
 - Run a command keeping the real ownership of files instead of pretending they are owned by root:
 
-`fakeroot --unknown-is-real -- {{command}} {{command_arguments}}`
+`fakeroot {{[-u|--unknown-is-real]}} -- {{command}} {{command_arguments}}`
 
 - Display help:
 
-`fakeroot --help`
+`fakeroot {{[-h|--help]}}`

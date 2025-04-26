@@ -1,7 +1,7 @@
 # svn changelist
 
 > Associate a changelist with a set of files.
-> More information: <https://svnbook.red-bean.com/en/1.7/svn.advanced.changelists.html>.
+> More information: <https://subversion.apache.org/>.
 
 - Add files to a changelist, creating the changelist if it does not exist:
 

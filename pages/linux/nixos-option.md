@@ -25,4 +25,4 @@
 
 - Show recursively all values of a user:
 
-`nixos-option -r users.users.{{user}}`
+`nixos-option {{[-r|--recursive]}} users.users.{{user}}`

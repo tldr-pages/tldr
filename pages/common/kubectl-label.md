@@ -17,7 +17,7 @@
 
 - Label a pod identified by the pod definition file:
 
-`kubectl label -f {{pod_definition_file}} {{key}}={{value}}`
+`kubectl label {{[-f|--filename]}} {{pod_definition_file}} {{key}}={{value}}`
 
 - Remove the label from a pod:
 

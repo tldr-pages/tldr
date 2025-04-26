@@ -1,7 +1,7 @@
 # robo
 
 > PHP task runner.
-> More information: <https://robo.li/>.
+> More information: <https://robo.li/getting-started.html>.
 
 - List available commands:
 

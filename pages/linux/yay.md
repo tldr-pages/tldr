@@ -16,9 +16,9 @@
 
 `yay -Sua`
 
-- Install a new package from the repos and AUR:
+- Install a new package from the repos and AUR and do not ask to confirm transactions:
 
-`yay -S {{package}}`
+`yay -S {{package}} --noconfirm`
 
 - Remove an installed package and both its dependencies and configuration files:
 

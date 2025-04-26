@@ -1,7 +1,7 @@
 # chars
 
 > Display names and codes for various ASCII and Unicode characters and code points.
-> More information: <https://github.com/antifuchs/chars>.
+> More information: <https://github.com/boinkor-net/chars#running>.
 
 - Look up a character by its value:
 

@@ -30,3 +30,7 @@
 - Open een bestand en maak een reservekopie (`pad/naar/bestand~`) bij het opslaan:
 
 `nano {{[-B|--backup]}} {{pad/naar/bestand}}`
+
+- Sluit nano:
+
+`<Ctrl x>`

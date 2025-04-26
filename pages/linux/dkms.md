@@ -1,7 +1,7 @@
 # dkms
 
 > A framework that allows for dynamic building of kernel modules.
-> More information: <https://github.com/dell/dkms>.
+> More information: <https://manned.org/dkms>.
 
 - List currently installed modules:
 

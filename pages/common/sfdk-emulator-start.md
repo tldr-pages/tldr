@@ -1,6 +1,7 @@
 # sfdk emulator start
 
 > Starts an emulator.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/40-testing-maintain/doc/command.emulator.adoc>.
 
 - Start an emulator:
 

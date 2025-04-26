@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux hostname`
+`tldr {{[-p|--platform]}} linux hostname`

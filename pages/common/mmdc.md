@@ -6,12 +6,12 @@
 
 - Convert a file to the specified format (automatically determined from the file extension):
 
-`mmdc --input {{input.mmd}} --output {{output.svg}}`
+`mmdc {{[-i|--input]}} {{input.mmd}} {{[-o|--output]}} {{output.svg}}`
 
 - Specify the theme of the chart:
 
-`mmdc --input {{input.mmd}} --output {{output.svg}} --theme {{forest|dark|neutral|default}}`
+`mmdc {{[-i|--input]}} {{input.mmd}} {{[-o|--output]}} {{output.svg}} {{[-t|--theme]}} {{forest|dark|neutral|default}}`
 
 - Specify the background color of the chart (e.g. `lime`, `"#D8064F"`, or `transparent`):
 
-`mmdc --input {{input.mmd}} --output {{output.svg}} --backgroundColor {{color}}`
+`mmdc {{[-i|--input]}} {{input.mmd}} {{[-o|--output]}} {{output.svg}} {{[-b|--backgroundColor]}} {{color}}`

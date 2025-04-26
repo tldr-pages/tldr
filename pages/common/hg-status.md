@@ -9,19 +9,19 @@
 
 - Display only modified files:
 
-`hg status --modified`
+`hg status {{[-m|--modified]}}`
 
 - Display only added files:
 
-`hg status --added`
+`hg status {{[-a|--added]}}`
 
 - Display only removed files:
 
-`hg status --removed`
+`hg status {{[-r|--removed]}}`
 
 - Display only deleted (but tracked) files:
 
-`hg status --deleted`
+`hg status {{[-d|--deleted]}}`
 
 - Display changes in the working directory compared to a specified changeset:
 
@@ -29,8 +29,8 @@
 
 - Display only files matching a specified glob pattern:
 
-`hg status --include {{pattern}}`
+`hg status {{[-I|--include]}} {{pattern}}`
 
 - Display files, excluding those that match a specified glob pattern:
 
-`hg status --exclude {{pattern}}`
+`hg status {{[-X|--exclude]}} {{pattern}}`

@@ -9,11 +9,11 @@
 
 - Tail only a specific container from multiple pods:
 
-`kubetail {{my_app}} -c {{my_container}}`
+`kubetail {{my_app}} {{[-c|--container]}} {{my_container}}`
 
 - To tail multiple containers from multiple pods:
 
-`kubetail {{my_app}} -c {{my_container_1}} -c {{my_container_2}}`
+`kubetail {{my_app}} {{[-c|--container]}} {my_container_1}} {{[-c|--container]}} {my_container_2}}`
 
 - To tail multiple applications at the same time separate them by comma:
 

@@ -9,8 +9,8 @@
 
 - Share with write permission:
 
-`gotty -w {{shell}}`
+`gotty {{[-w|--permit-write]}} {{shell}}`
 
 - Share with credential (Basic Auth):
 
-`gotty -w -c {{username}}:{{password}} {{shell}}`
+`gotty {{[-w|--permit-write]}} {{[-c|--credential]}} {{username}}:{{password}} {{shell}}`

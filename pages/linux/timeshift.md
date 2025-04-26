@@ -1,7 +1,7 @@
 # timeshift
 
 > System restore utility.
-> More information: <https://github.com/teejee2008/timeshift>.
+> More information: <https://github.com/linuxmint/timeshift>.
 
 - List snapshots:
 
