@@ -15,7 +15,7 @@
 
 `xattr -d {{com.apple.quarantine}} {{berkas}}`
 
-- Menghapus semua atribut yang diperluas dari berkas tertentu:
+- Hapus semua atribut yang diperluas dari suatu berkas:
 
 `xattr -c {{berkas}}`
 
