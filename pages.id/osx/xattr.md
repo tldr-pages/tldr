@@ -3,7 +3,7 @@
 > Utilitas untuk bekerja dengan atribut sistem berkas yang diperluas.
 > Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/xattr.1.html>.
 
-- Daftar atribut yang diperluas kunci:nilai untuk berkas tertentu:
+- Tampilkan daftar atribut kunci:nilai yang diperluas untuk berkas tertentu:
 
 `xattr -l {{berkas}}`
 
