@@ -5,4 +5,4 @@
 
 - Create a two-frame animation:
 
-`webpmux -frame path/to/frame1.webp +0+0+100 -frame path/to/frame2.webp +0+0+100 -loop 0 -o path/to/output.webp`
+`webpmux -frame path/to/frame1.webp +500 -frame path/to/frame2.webp +500 -loop 0 -o path/to/output.webp`
