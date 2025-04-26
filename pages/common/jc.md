@@ -2,7 +2,7 @@
 
 > `jc` can refer to multiple commands with the same name.
 
-- View documentation for the `JSON` parser:
+- View documentation for the `JSON` serializer:
 
 `tldr jc.json`
 
