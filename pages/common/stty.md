@@ -3,6 +3,10 @@
 > Set options for a terminal device interface.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html>.
 
+- Display current terminal size:
+
+`stty size`
+
 - Display all settings for the current terminal:
 
 `stty {{[-a|--all]}}`

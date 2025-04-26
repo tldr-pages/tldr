@@ -8,11 +8,7 @@
 
 `asciinema auth`
 
-- Make a new recording (finish it with `<Ctrl d>` or type `exit`):
-
-`asciinema rec {{path/to/file.cast}}`
-
-- Make a new recording and save it to a local file:
+- Make a new recording and save it to a local file (finish it with `<Ctrl d>` or type `exit`):
 
 `asciinema rec {{path/to/recording.cast}}`
 

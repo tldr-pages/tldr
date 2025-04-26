@@ -1,11 +1,11 @@
 # tmpmail
 
 > A temporary email right from your terminal written in POSIX sh.
-> More information: <https://github.com/sdushantha/tmpmail>.
+> More information: <https://github.com/sdushantha/tmpmail#usage>.
 
 - Create a temporary inbox:
 
-`tmpmail --generate`
+`tmpmail {{[-g|--generate]}}`
 
 - List messages and their numeric ID:
 
@@ -13,7 +13,7 @@
 
 - Display the most recent received email:
 
-`tmpmail --recent`
+`tmpmail {{[-r|--recent]}}`
 
 - Open a specific message:
 
@@ -21,8 +21,8 @@
 
 - View email as raw text without HTML tags:
 
-`tmpmail --text`
+`tmpmail {{[-t|--text]}}`
 
 - Open email with a specific browser (default is w3m):
 
-`tmpmail --browser {{browser}}`
+`tmpmail {{[-b|--browser]}} {{browser}}`

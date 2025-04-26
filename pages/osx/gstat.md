@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr {{[-p|--platform]}} linux stat`
+`tldr {{[-p|--platform]}} common stat`
