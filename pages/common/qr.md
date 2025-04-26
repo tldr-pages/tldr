@@ -14,3 +14,7 @@
 - Generate a QR code from the output of another command:
 
 `{{command}} | qr`
+
+- Save the QR code as a PNG image:
+
+`qr "{{data}}" > {{path/to/file.png}}`
