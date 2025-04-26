@@ -9,7 +9,7 @@
 
 - Verify a specific fingerprint for the current user:
 
-`fprintd-verify  {{[-f|--finger]}} {{left-|right-}}{{thumb|index-finger|middle-finger|ring-finger|little-finger}}`
+`fprintd-verify  {{[-f|--finger]}} {{left|right}}-{{thumb|index-finger|middle-finger|ring-finger|little-finger}}`
 
 - Verify fingerprints for a specific user:
 
