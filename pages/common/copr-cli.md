@@ -15,6 +15,6 @@
 
 `copr-cli list-builds {{repository}}`
 
-- Trigger a copr build of a spec-file from public (git) repository:
+- Trigger a copr build of a spec-file from public (Git) repository:
 
 `copr-cli buildscm {{repository}} --clone-url {{https://git.example.org/repo}} --spec {{spec_file_name}}`

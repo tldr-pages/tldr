@@ -17,11 +17,11 @@
 
 - Evaluate JavaScript code by passing it as an argument:
 
-`node -e "{{code}}"`
+`node {{[-e|--eval]}} "{{code}}"`
 
 - Evaluate and print the result, useful to print node's dependencies versions:
 
-`node -p "process.versions"`
+`node {{[-p|--print]}} "process.versions"`
 
 - Activate inspector, pausing execution until a debugger is connected once source code is fully parsed:
 

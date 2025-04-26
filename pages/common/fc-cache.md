@@ -9,8 +9,8 @@
 
 - Force a rebuild of all font cache files, without checking if cache is up-to-date:
 
-`fc-cache -f`
+`fc-cache {{[-f|--force]}}`
 
 - Erase font cache files, then generate new font cache files:
 
-`fc-cache -r`
+`fc-cache {{[-r|--really-force]}}`

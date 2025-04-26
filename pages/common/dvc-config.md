@@ -14,7 +14,7 @@
 
 - Unset the project's default remote:
 
-`dvc config --unset core.remote`
+`dvc config {{[-u|--unset]}} core.remote`
 
 - Get the configuration value for a specified key for the current project:
 
@@ -26,7 +26,7 @@
 
 - Unset a project level configuration value for a given key:
 
-`dvc config --unset {{key}}`
+`dvc config {{[-u|--unset]}} {{key}}`
 
 - Set a local, global, or system level configuration value:
 

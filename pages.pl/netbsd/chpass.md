@@ -2,7 +2,7 @@
 
 > Dodaj lub zmień informacje w bazie danych użytkowników, w tym powłokę logowania i hasło.
 > Zobacz także: `passwd`.
-> Więcej informacji: <https://man.netbsd.org/chsh>.
+> Więcej informacji: <https://man.netbsd.org/chpass>.
 
 - Ustaw określoną powłokę logowania dla bieżącego użytkownika w sposób interaktywny:
 
@@ -14,7 +14,7 @@
 
 - Ustaw powłokę (z ang. [s]hell) logowania dla określonego użytkownika:
 
-`chpass chsh -s {{ścieżka/do/powłoki}} {{nazwa_użytkownika}}`
+`chpass -s {{ścieżka/do/powłoki}} {{nazwa_użytkownika}}`
 
 - Określ wpis bazy danych użytkownika w formacie pliku `passwd`:
 

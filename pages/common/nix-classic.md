@@ -6,19 +6,19 @@
 
 - Search for a package in nixpkgs via its name:
 
-`nix-env -qaP {{search_term_regexp}}`
+`nix-env {{[-qaP|--query --available --attr-path]}} {{search_term_regexp}}`
 
 - Start a shell with the specified packages available:
 
-`nix-shell -p {{pkg1 pkg2 pkg3...}}`
+`nix-shell {{[-p|--packages]}} {{pkg1 pkg2 pkg3...}}`
 
 - Install some packages permanently:
 
-`nix-env -iA {{nixpkgs.pkg1 nixpkgs.pkg2...}}`
+`nix-env {{[-iA|--install --attr]}} {{nixpkgs.pkg1 nixpkgs.pkg2...}}`
 
 - Show all dependencies of a store path (package), in a tree format:
 
-`nix-store --query --tree {{/nix/store/...}}`
+`nix-store {{[-q|--query]}} --tree {{/nix/store/...}}`
 
 - Update the channels (repositories):
 

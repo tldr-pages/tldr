@@ -10,24 +10,24 @@
 
 - Ping een groep met hosts, met gebruik van de ping module:
 
-`ansible {{groep}} -m ping`
+`ansible {{groep}} {{[-m|--module-name]}} ping`
 
 - Toon feiten van een groep met hosts, met gebruik van de installatie module:
 
-`ansible {{groep}} -m setup`
+`ansible {{groep}} {{[-m|--module-name]}} setup`
 
 - Voer een commando op een groep met hosts uit. met gebruik van de commando module met argumenten:
 
-`ansible {{groep}} -m command -a '{{mijn_commando}}'`
+`ansible {{groep}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{mijn_commando}}'`
 
 - Voer een commando uit met administratieve rechten:
 
-`ansible {{groep}} --become --ask-become-pass -m command -a '{{mijn_commando}}'`
+`ansible {{groep}} {{[-b|--become]}} --ask-become-pass {{[-m|--module-name]}} command {{[-a|--args]}} '{mijn_commando}}'`
 
 - Voer een commando uit met een aangepast inventaris bestand:
 
-`ansible {{groep}} -i {{inventaris_bestand}} -m command -a '{{mijn_command}}'`
+`ansible {{groep}} {{[-i|--inventory]}} {{inventaris_bestand}} {{[-m|--module-name]}} command {{[-a|--args]}} '{{mijn_commando}}'`
 
 - Toon de groepen in een inventaris:
 
-`ansible localhost -m debug -a '{{var=groups.keys()}}'`
+`ansible localhost {{[-m|--module-name]}} debug {{[-a|--args]}} '{{var=groups.keys()}}'`

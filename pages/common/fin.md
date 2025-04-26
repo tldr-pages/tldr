@@ -21,4 +21,4 @@
 
 - Display logs of a specific container and follow the log:
 
-`fin logs -f {{container_name}}`
+`fin logs {{[-f|--follow]}} {{container_name}}`

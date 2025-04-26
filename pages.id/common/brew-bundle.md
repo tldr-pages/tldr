@@ -1,7 +1,7 @@
 # brew bundle
 
 > Pembungkus untuk Homebrew, Homebrew Cask, dan App Store untuk macOS.
-> Informasi lebih lanjut: <https://github.com/Homebrew/homebrew-bundle>.
+> Informasi lebih lanjut: <https://docs.brew.sh/Manpage#bundle-subcommand>.
 
 - Pasang seluruh paket menurut data Brewfile pada direktori saat ini:
 

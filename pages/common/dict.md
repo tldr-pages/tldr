@@ -5,15 +5,15 @@
 
 - List available databases:
 
-`dict -D`
+`dict {{[-D|--dbs]}}`
 
 - Get information about a database:
 
-`dict -i {{database_name}}`
+`dict {{[-i|--info]}} {{database_name}}`
 
 - Look up a word in a specific database:
 
-`dict -d {{database_name}} {{word}}`
+`dict {{[-d|--database]}} {{database_name}} {{word}}`
 
 - Look up a word in all available databases:
 
@@ -21,4 +21,4 @@
 
 - Show information about the DICT server:
 
-`dict -I`
+`dict {{[-I|--serverinfo]}}`

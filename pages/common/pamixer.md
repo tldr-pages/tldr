@@ -1,7 +1,7 @@
 # pamixer
 
 > A simple command-line mixer for PulseAudio.
-> More information: <https://github.com/cdemoulins/pamixer>.
+> More information: <https://github.com/cdemoulins/pamixer#installation>.
 
 - List all sinks and sources with their corresponding IDs:
 
@@ -17,11 +17,11 @@
 
 - Increase the volume on default sink by 5%:
 
-`pamixer --increase {{5}}`
+`pamixer {{[-i|--increase]}} {{5}}`
 
 - Decrease the volume on a source by 5%:
 
-`pamixer --decrease {{5}} --source {{ID}}`
+`pamixer {{[-d|--decrease]}} {{5}} --source {{ID}}`
 
 - Use the allow boost option to increase, decrease, or set the volume above 100%:
 
@@ -29,4 +29,4 @@
 
 - Mute the default sink (use `--unmute` instead to unmute):
 
-`pamixer --mute`
+`pamixer {{[-m|--mute]}}`

@@ -2,7 +2,7 @@
 
 > SQL, JavaScript, Python을 지원하는 MySQL의 고급 명령줄 클라이언트.
 > InnoDB 클러스터 및 문서 저장소 컬렉션 관리를 위한 기능 제공.
-> 더 많은 정보: <https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-commands.html>.
+> 더 많은 정보: <https://dev.mysql.com/doc/mysql-shell/en/mysql-shell-commands.html>.
 
 - 대화형 모드로 MySQL Shell 시작:
 

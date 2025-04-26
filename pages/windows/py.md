@@ -2,7 +2,7 @@
 
 > Python Launcher for Windows that runs with specified Python version.
 > See also: `python`.
-> More information: <https://docs.python.org/3/using/windows.html#python-launcher-for-windows>.
+> More information: <https://docs.python.org/using/windows.html#python-launcher-for-windows>.
 
 - Start a REPL (interactive shell), optionally with arguments supported by `python` (like `-c`, `-m`, etc.):
 

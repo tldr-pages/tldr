@@ -1,7 +1,7 @@
 # unshadow
 
 > Utility provided by the John the Ripper project to obtain the traditional Unix password file if the system uses shadow passwords.
-> More information: <https://www.openwall.com/john/>.
+> More information: <https://www.openwall.com/john/doc/>.
 
 - Combine the `/etc/shadow` and `/etc/passwd` of the current system:
 

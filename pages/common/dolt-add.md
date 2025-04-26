@@ -9,4 +9,4 @@
 
 - Stage all tables:
 
-`dolt add --all`
+`dolt add {{[-A|--all]}}`

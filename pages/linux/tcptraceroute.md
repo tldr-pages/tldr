@@ -1,7 +1,7 @@
 # tcptraceroute
 
 > A traceroute implementation using TCP packets.
-> More information: <https://github.com/mct/tcptraceroute>.
+> More information: <https://manned.org/tcptraceroute>.
 
 - Trace the route to a host:
 

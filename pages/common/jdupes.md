@@ -1,7 +1,7 @@
 # jdupes
 
 > A powerful duplicate file finder and an enhanced fork of fdupes.
-> More information: <https://codeberg.org/jbruchon/jdupes>.
+> More information: <https://codeberg.org/jbruchon/jdupes#usage>.
 
 - Search a single directory:
 
@@ -25,4 +25,4 @@
 
 - Search multiple directories and keep the directory order in result:
 
-`jdupes -O {{directory1}} {{directory2}} {{directory3}}`
+`jdupes -O {{directory1 directory2 directory3 ...}}`

@@ -1,7 +1,7 @@
 # gendesk
 
 > Specifies the command to generate a `.desktop` file and a download icon with minimal information.
-> More information: <https://gendesk.roboticoverlords.org>.
+> More information: <https://manned.org/gendesk>.
 
 - Create a `.desktop` file named `app`:
 
@@ -13,4 +13,4 @@
 
 - Display help:
 
-`gendesk -h`
+`gendesk {{[-h|--help]}}`

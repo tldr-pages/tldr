@@ -9,7 +9,7 @@
 
 - Open an LXTerminal window, run a command, and then exit:
 
-`lxterminal -e "{{command}}"`
+`lxterminal {{[-e|--command]}} "{{command}}"`
 
 - Open an LXTerminal window with multiple tabs:
 

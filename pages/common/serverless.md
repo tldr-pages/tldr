@@ -26,4 +26,4 @@
 
 - Follow the logs for a project:
 
-`serverless logs -t`
+`serverless logs {{[-t|--tail]}}`

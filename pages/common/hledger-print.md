@@ -9,11 +9,11 @@
 
 - Show transactions, with any implied amounts or costs made explicit:
 
-`hledger print --explicit --infer-costs`
+`hledger print {{[-x|--explicit]}} --infer-costs`
 
 - Show transactions from two specified files, with amounts converted to cost:
 
-`hledger print --file {{path/to/2023.journal}} --file {{path/to/2024.journal}} --cost`
+`hledger print {{[-f|--file]}} {{path/to/2023.journal}} {{[-f|--file]}} {{path/to/2024.journal}} {{[-B|--cost]}}`
 
 - Show `$` transactions in `*food*` but not `*groceries*` accounts this month:
 
@@ -25,8 +25,8 @@
 
 - Show cleared transactions, with `EUR` amounts rounded and with decimal commas:
 
-`hledger print --cleared --commodity '1000, EUR' --round hard`
+`hledger print {{[-C|--cleared]}} --commodity '1000, EUR' --round hard`
 
 - Write transactions from `foo.journal` as a CSV file:
 
-`hledger print --file {{path/to/foo.journal}} --output-file {{path/to/output_file.csv}}`
+`hledger print {{[-f|--file]}} {{path/to/foo.journal}} {{[-o|--output-file]}} {{path/to/output_file.csv}}`

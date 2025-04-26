@@ -5,15 +5,15 @@
 
 - Apply default optimizations and write to a given file:
 
-`wasm-opt -O {{input.wasm}} -o {{output.wasm}}`
+`wasm-opt -O {{input.wasm}} {{[-o|--output]}} {{output.wasm}}`
 
 - Apply all optimizations and write to a given file (takes more time, but generates optimal code):
 
-`wasm-opt -O4 {{input.wasm}} -o {{output.wasm}}`
+`wasm-opt -O4 {{input.wasm}} {{[-o|--output]}} {{output.wasm}}`
 
 - Optimize a file for size:
 
-`wasm-opt -Oz {{input.wasm}} -o {{output.wasm}}`
+`wasm-opt -Oz {{input.wasm}} {{[-o|--output]}} {{output.wasm}}`
 
 - Print the textual representation of the binary to console:
 

@@ -10,7 +10,7 @@
 
 - Show all stats for columns 2 and 4:
 
-`csvstat -c {{2,4}} {{data.csv}}`
+`csvstat {{[-c|--columns]}} {{2,4}} {{data.csv}}`
 
 - Show sums for all columns:
 
@@ -18,8 +18,8 @@
 
 - Show the max value length for column 3:
 
-`csvstat -c {{3}} --len {{data.csv}}`
+`csvstat {{[-c|--columns]}} {{3}} --len {{data.csv}}`
 
 - Show the number of unique values in the "name" column:
 
-`csvstat -c {{name}} --unique {{data.csv}}`
+`csvstat {{[-c|--columns]}} {{name}} --unique {{data.csv}}`

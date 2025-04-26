@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux ed`
+`tldr {{[-p|--platform]}} linux ed`

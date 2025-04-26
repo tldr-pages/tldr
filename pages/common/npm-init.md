@@ -9,7 +9,7 @@
 
 - Initialize a new package with default values:
 
-`npm init -y`
+`npm init {{[-y|--yes]}}`
 
 - Initialize a new package using a specific initializer:
 

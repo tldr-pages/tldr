@@ -6,7 +6,7 @@
 
 - List information about a resource with more details:
 
-`kubectl get {{pod|service|deployment|ingress|...}} -o wide`
+`kubectl get {{pod|service|deployment|ingress|...}} {{[-o|--output]}} wide`
 
 - Update specified pod with the label 'unhealthy' and the value 'true':
 

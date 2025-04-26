@@ -5,8 +5,8 @@
 
 - Start knockd system daemon:
 
-`knockd -d`
+`knockd {{[-d|--daemon]}}`
 
 - Use specified configuration file for knockd:
 
-`knockd -c {{path/to/file}}.configuration`
+`knockd {{[-c|--config]}} {{path/to/file}}.configuration`
