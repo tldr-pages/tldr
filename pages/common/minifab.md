@@ -5,7 +5,7 @@
 
 - Bring up the default Hyperledger Fabric network:
 
-`minifab up -i {{minifab_version}}`
+`minifab up {{[-i|--fabric-release]}} {{minifab_version}}`
 
 - Bring down the Hyperledger Fabric network:
 
@@ -13,11 +13,11 @@
 
 - Install chaincode onto a specified channel:
 
-`minifab install -n {{chaincode_name}}`
+`minifab install {{[-n|--chaincode-name]}} {{chaincode_name}}`
 
 - Install a specific chaincode version onto a channel:
 
-`minifab install -n {{chaincode_name}} -v {{chaincode_version}}`
+`minifab install {{[-n|--chaincode-name]}} {{chaincode_name}} {{[-v|--chaincode-version]}} {{chaincode_version}}`
 
 - Initialize the chaincode after installation/upgrade:
 
@@ -25,7 +25,7 @@
 
 - Invoke a chaincode method with the specified arguments:
 
-`minifab invoke -n {{chaincode_name}} -p '"{{method_name}}", "{{argument1}}", "{{argument2}}", ...'`
+`minifab invoke {{[-n|--chaincode-name]}} {{chaincode_name}} {{[-p|--chaincode-parameters]}} '"{{method_name}}", "{{argument1}}", "{{argument2}}", ...'`
 
 - Make a query on the ledger:
 
@@ -33,4 +33,4 @@
 
 - Quickly run an application:
 
-`minifab apprun -l {{app_programming_language}}`
+`minifab apprun {{[-l|--chaincode-language]}} {{app_programming_language}}`

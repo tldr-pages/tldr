@@ -10,16 +10,16 @@
 
 - Compile into the specified format:
 
-`lilypond --formats={{format_dump}} {{path/to/file}}`
+`lilypond {{[-f|--format]}} {{format_dump}} {{path/to/file}}`
 
 - Compile the specified file, suppressing progress updates:
 
-`lilypond -s {{path/to/file}}`
+`lilypond {{[-s|--silent]}} {{path/to/file}}`
 
 - Compile the specified file, and also specify the output filename:
 
-`lilypond --output={{path/to/output_file}} {{path/to/input_file}}`
+`lilypond {{[-o|--output]}} {{path/to/output_file}} {{path/to/input_file}}`
 
 - Show the current version of lilypond:
 
-`lilypond --version`
+`lilypond {{[-v|--version]}}`

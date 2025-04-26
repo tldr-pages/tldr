@@ -2,7 +2,7 @@
 
 > The OCaml bytecode compiler.
 > Produces executables runnable by the OCaml interpreter.
-> More information: <https://ocaml.org>.
+> More information: <https://manned.org/ocamlc>.
 
 - Create a binary from a source file:
 

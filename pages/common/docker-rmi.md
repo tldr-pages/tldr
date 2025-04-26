@@ -13,7 +13,7 @@
 
 - Force remove an image:
 
-`docker rmi --force {{image}}`
+`docker rmi {{[-f|--force]}} {{image}}`
 
 - Remove an image without deleting untagged parents:
 

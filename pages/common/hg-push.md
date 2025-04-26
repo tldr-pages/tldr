@@ -17,12 +17,12 @@
 
 - Specify a specific revision changeset to push:
 
-`hg push --rev {{revision}}`
+`hg push {{[-r|--rev]}} {{revision}}`
 
 - Specify a specific branch to push:
 
-`hg push --branch {{branch}}`
+`hg push {{[-b|--branch]}} {{branch}}`
 
 - Specify a specific bookmark to push:
 
-`hg push --bookmark {{bookmark}}`
+`hg push {{[-B|--bookmark]}} {{bookmark}}`

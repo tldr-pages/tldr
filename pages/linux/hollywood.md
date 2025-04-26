@@ -13,4 +13,4 @@
 
 - Display help:
 
-`hollywood -h`
+`hollywood {{[-h|--help]}}`

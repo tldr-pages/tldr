@@ -3,6 +3,10 @@
 > Save and jump to commonly used directories using 1 character commands.
 > More information: <https://github.com/huyng/bashmarks>.
 
+- Add the bashmark aliases to your shell:
+
+`source /usr/share/bashmarks/bashmarks.sh`
+
 - List available bookmarks:
 
 `l`

@@ -9,4 +9,4 @@
 
 - Evaluate Elixir code by passing it as an argument:
 
-`elixir -e "{{code}}"`
+`elixir {{[-e|--eval]}} "{{code}}"`

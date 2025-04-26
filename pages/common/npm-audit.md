@@ -30,4 +30,4 @@
 
 - Configure the audit to only fail on vulnerabilities above a specified severity:
 
-`npm audit --audit-level={{info|low|moderate|high|critical}}`
+`npm audit --audit-level {{info|low|moderate|high|critical}}`

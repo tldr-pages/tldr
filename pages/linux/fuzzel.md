@@ -25,9 +25,9 @@
 
 - Reset apps usage count (default cache directory: `$XDG_CACHE_HOME/fuzzel`):
 
-`rm -v $HOME/.cache/fuzzel`
+`rm {{[-v|--verbose]}} $HOME/.cache/fuzzel`
 
-- Launch `fuzzel` on a specific monitor, see `wlr-randr` or `swaymsg -t get_outputs`:
+- Launch `fuzzel` on a specific monitor, see `wlr-randr` or `swaymsg --type get_outputs`:
 
 `fuzzel {{[-o|--output]}} "{{DP-1}}"`
 

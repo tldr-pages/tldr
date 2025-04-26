@@ -13,11 +13,11 @@
 
 - Defragment a single file on a btrfs filesystem (avoid while a deduplication agent is running):
 
-`sudo btrfs filesystem defragment -v {{path/to/file}}`
+`sudo btrfs filesystem defragment {{[-v|--verbose]}} {{path/to/file}}`
 
 - Defragment a directory recursively (does not cross subvolume boundaries):
 
-`sudo btrfs filesystem defragment -v -r {{path/to/directory}}`
+`sudo btrfs filesystem defragment {{[-v|--verbose]}} -r {{path/to/directory}}`
 
 - Force syncing unwritten data blocks to disk(s):
 
@@ -25,4 +25,4 @@
 
 - Summarize disk usage for the files in a directory recursively:
 
-`sudo btrfs filesystem du --summarize {{path/to/directory}}`
+`sudo btrfs filesystem du {{[-s|--summarize]}} {{path/to/directory}}`

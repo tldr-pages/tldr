@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux time`
+`tldr {{[-p|--platform]}} linux time`

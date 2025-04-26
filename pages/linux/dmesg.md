@@ -11,7 +11,7 @@
 
 `sudo dmesg {{[-l|--level]}} err`
 
-- Show kernel messages and keep reading new ones, similar to `tail -f` (available in kernels 3.5.0 and newer):
+- Show kernel messages and keep reading new ones, similar to `tail --follow` (available in kernels 3.5.0 and newer):
 
 `sudo dmesg {{[-w|--follow]}}`
 

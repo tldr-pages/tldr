@@ -9,7 +9,7 @@
 
 - Display more detailed GPU information:
 
-`nvidia-smi --query`
+`nvidia-smi {{[-q|--query]}}`
 
 - Monitor overall GPU usage with 1-second update interval:
 

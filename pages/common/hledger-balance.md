@@ -6,15 +6,15 @@
 
 - Show the balance change in all accounts from all postings over all time:
 
-`hledger balance`
+`hledger {{[bal|balance]}}`
 
 - Show the balance change in accounts named `*expenses*`, as a tree, summarising the top two levels only:
 
-`hledger balance {{expenses}} --tree --depth {{2}}`
+`hledger {{[bal|balance]}} {{expenses}} {{[-t|--tree]}} --depth {{2}}`
 
 - Show expenses each month, and their totals and averages, sorted by total; and their monthly budget goals:
 
-`hledger balance {{expenses}} --monthly --row-total --average --sort-amount --budget`
+`hledger {{[bal|balance]}} {{expenses}} {{[-M|--monthly]}} {{[-T|--row-total]}} {{[-A|--average]}} {{[-S|--sort-amount]}} --budget`
 
 - Similar to the above, shorter form, matching accounts by `Expense` type, as a two level tree without squashing boring accounts:
 
@@ -22,7 +22,7 @@
 
 - Show end balances (including from postings before the start date), quarterly in 2024, in accounts named `*assets*` or `*liabilities*`:
 
-`hledger balance --historical --period '{{quarterly in 2024}}' {{assets}} {{liabilities}}`
+`hledger {{[bal|balance]}} {{[-H|--historical]}} {{[-p|--period]}} '{{quarterly in 2024}}' {{assets}} {{liabilities}}`
 
 - Similar to the above, shorter form; also show zero balances, sort by total and summarise to three levels:
 

@@ -22,4 +22,4 @@
 
 - Save the output to a file for further analysis:
 
-`GetNPUsers.py {{domain}}/ -usersfile {{path/to/userslist}} -dc-ip {{domain_controller_ip}} -request > {{output.txt}}`
+`GetNPUsers.py {{domain}}/ -usersfile {{path/to/userslist}} -dc-ip {{domain_controller_ip}} -request > {{path/to/output.txt}}`

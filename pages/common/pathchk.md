@@ -13,7 +13,7 @@
 
 - Check pathnames for validity on all POSIX compliant systems:
 
-`pathchk --portability {{path1 path2 …}}`
+`pathchk {{[-p -P|--portability]}} {{path1 path2 …}}`
 
 - Only check for empty pathnames or leading dashes (-):
 

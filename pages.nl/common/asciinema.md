@@ -8,11 +8,7 @@
 
 `asciinema auth`
 
-- Maak een nieuwe opname (gebruiker krijgt een vraag om het lokaal op te slaan of te uploaden als de opname klaar is):
-
-`asciinema rec`
-
-- Maak een nieuwe opname en sla het op in een lokaal bestand:
+- Maak een nieuwe opname en sla het op in een lokaal bestand (sluit het af met `<Ctrl d>` of typ `exit`):
 
 `asciinema rec {{pad/naar/opname.cast}}`
 

@@ -9,15 +9,15 @@
 
 - Start a web server instance on the specified port:
 
-`hg serve --port {{port}}`
+`hg serve {{[-p|--port]}} {{port}}`
 
 - Start a web server instance on the specified listening address:
 
-`hg serve --address {{address}}`
+`hg serve {{[-a|--address]}} {{address}}`
 
 - Start a web server instance with a specific identifier:
 
-`hg serve --name {{name}}`
+`hg serve {{[-n|--name]}} {{name}}`
 
 - Start a web server instance using the specified theme (see the templates directory):
 

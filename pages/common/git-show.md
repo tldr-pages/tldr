@@ -21,7 +21,7 @@
 
 - Show a commit's message in a single line, suppressing the diff output:
 
-`git show --oneline -s {{commit}}`
+`git show --oneline {{[-s|--no-patch]}} {{commit}}`
 
 - Show only statistics (added/removed characters) about the changed files:
 

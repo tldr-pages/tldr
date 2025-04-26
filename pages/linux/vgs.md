@@ -10,19 +10,19 @@
 
 - Display all volume groups:
 
-`vgs -a`
+`vgs {{[-a|--all]}}`
 
 - Change default display to show more details:
 
-`vgs -v`
+`vgs {{[-v|--verbose]}}`
 
 - Display only specific fields:
 
-`vgs -o {{field_name_1}},{{field_name_2}}`
+`vgs {{[-o|--options]}} {{field_name_1}},{{field_name_2}}`
 
 - Append field to default display:
 
-`vgs -o +{{field_name}}`
+`vgs {{[-o|--options]}} +{{field_name}}`
 
 - Suppress heading line:
 

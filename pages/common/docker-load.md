@@ -9,8 +9,8 @@
 
 - Load a Docker image from a specific file:
 
-`docker load --input {{path/to/image_file.tar}}`
+`docker load {{[-i|--input]}} {{path/to/image_file.tar}}`
 
 - Load a Docker image from a specific file in quiet mode:
 
-`docker load --quiet --input {{path/to/image_file.tar}}`
+`docker load {{[-q|--quiet]}} {{[-i|--input]}} {{path/to/image_file.tar}}`

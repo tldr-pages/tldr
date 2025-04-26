@@ -18,3 +18,7 @@
 - Toon een specifieke datum (gerepresenteerd als een Unix timestamp) met het standaard formaat:
 
 `date -r {{1473305798}}`
+
+- Toon een datum relatief aan de huidige datum met het standaard formaat:
+
+`date -v {{+1d}} -v {{-20m}}`

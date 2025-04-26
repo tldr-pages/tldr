@@ -9,12 +9,12 @@
 
 - Show a notification with a custom icon:
 
-`notify-send -i {{icon.png}} "{{Test}}" "{{This is a test}}"`
+`notify-send {{[-i|--icon]}} {{icon.png}} "{{Test}}" "{{This is a test}}"`
 
 - Show a notification for 5 seconds:
 
-`notify-send -t 5000 "{{Test}}" "{{This is a test}}"`
+`notify-send {{[-t|--expire-time]}} 5000 "{{Test}}" "{{This is a test}}"`
 
 - Show a notification with an app's icon and name:
 
-`notify-send "{{Test}}" --icon={{google-chrome}} --app-name="{{Google Chrome}}"`
+`notify-send "{{Test}}" {{[-i|--icon]}} {{google-chrome}} {{[-a|--app-name]}} "{{Google Chrome}}"`
