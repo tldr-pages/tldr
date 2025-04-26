@@ -4,4 +4,4 @@
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr {{[-p|--platform]}} linux ping`
+`tldr {{[-p|--platform]}} common ping`

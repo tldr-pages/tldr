@@ -4,4 +4,4 @@
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr {{[-p|--platform]}} linux sha224sum`
+`tldr sha224sum`

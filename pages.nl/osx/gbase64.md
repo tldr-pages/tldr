@@ -4,4 +4,4 @@
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr {{[-p|--platform]}} linux base64`
+`tldr {{[-p|--platform]}} common base64`

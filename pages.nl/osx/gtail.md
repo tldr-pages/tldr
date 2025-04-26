@@ -4,4 +4,4 @@
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr {{[-p|--platform]}} linux tail`
+`tldr {{[-p|--platform]}} common tail`

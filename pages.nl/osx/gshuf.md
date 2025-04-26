@@ -4,4 +4,4 @@
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr {{[-p|--platform]}} linux shuf`
+`tldr {{[-p|--platform]}} coomon shuf`

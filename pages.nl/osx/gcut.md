@@ -4,4 +4,4 @@
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr {{[-p|--platform]}} linux cut`
+`tldr {{[-p|--platform]}} common cut`
