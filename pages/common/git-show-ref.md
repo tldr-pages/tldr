@@ -9,7 +9,7 @@
 
 - Show only heads references:
 
-`git show-ref --heads`
+`git show-ref --branches`
 
 - Show only tags references:
 

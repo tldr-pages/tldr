@@ -5,24 +5,24 @@
 
 - Scan a web server for common paths with common extensions:
 
-`dirsearch --url {{url}} --extensions-list`
+`dirsearch {{[-u|--url]}} {{url}} --extensions-list`
 
-- Scan a list of web servers for common paths with the `.php` extension:
+- Scan a list of web servers for common paths with given file extensions:
 
-`dirsearch --url-list {{path/to/url-list.txt}} --extensions {{php}}`
+`dirsearch {{[-l|--url-list]}} {{path/to/url-list.txt}} {{[-e|--extensions]}} {{php,jsp,aspx,...}}`
 
 - Scan a web server for user-defined paths with common extensions:
 
-`dirsearch --url {{url}} --extensions-list --wordlist {{path/to/url-paths.txt}}`
+`dirsearch {{[-u|--url]}} {{url}} --extensions-list {{[-w|--wordlists]}} {{path/to/url-paths.txt,path/to/url-paths.txt,...}}`
 
 - Scan a web server using a cookie:
 
-`dirsearch --url {{url}} --extensions {{php}} --cookie {{cookie}}`
+`dirsearch {{[-u|--url]}} {{url}} {{[-e|--extensions]}} {{php}} --cookie {{cookie}}`
 
 - Scan a web server using the `HEAD` HTTP method:
 
-`dirsearch --url {{url}} --extensions {{php}} --http-method {{HEAD}}`
+`dirsearch {{[-u|--url]}} {{url}} {{[-e|--extensions]}} {{php}} {{[-m|--http-method]}} {{HEAD}}`
 
 - Scan a web server, saving the results to a `.json` file:
 
-`dirsearch --url {{url}} --extensions {{php}} --json-report {{path/to/report.json}}`
+`dirsearch {{[-u|--url]}} {{url}} {{[-e|--extensions]}} {{php}} --json-report {{path/to/report.json}}`
