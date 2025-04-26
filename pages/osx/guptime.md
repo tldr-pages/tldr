@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr {{[-p|--platform]}} linux uptime`
+`tldr {{[-p|--platform]}} common uptime`
