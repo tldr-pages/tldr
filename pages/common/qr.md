@@ -7,7 +7,7 @@
 
 `qr "{{data}}"`
 
-- Specify the error correction level (defaults to M):
+- Specify the error correction level (defaults to `M`):
 
 `qr --error-correction {{L|M|Q|H}} "{{data}}"`
 
