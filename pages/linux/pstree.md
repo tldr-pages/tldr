@@ -9,7 +9,7 @@
 
 - Display a tree of processes with PIDs:
 
-`pstree -p`
+`pstree {{[-p|--show-pids]}}`
 
 - Display all process trees rooted at processes owned by specified user:
 
