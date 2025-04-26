@@ -9,7 +9,7 @@
 
 - Build a Flatpak and export it to the specified repository:
 
-`flatpak-builder --repo={{repository_name}} {{path/to/build_directory}} {{path/to/manifest}}`
+`flatpak-builder --repo {{repository_name}} {{path/to/build_directory}} {{path/to/manifest}}`
 
 - Build a Flatpak and install it locally:
 
@@ -17,7 +17,7 @@
 
 - Build and sign a Flatpak and export it to the specified repository:
 
-`flatpak-builder --gpg-sign={{key_id}} --repo={{repository_name}} {{path/to/manifest}}`
+`flatpak-builder --gpg-sign {{key_id}} --repo {{repository_name}} {{path/to/manifest}}`
 
 - Run a shell inside of an application sandbox without installing it:
 
