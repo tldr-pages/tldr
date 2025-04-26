@@ -19,6 +19,6 @@
 
 `xattr -c {{berkas}}`
 
-- Menghapus atribut secara rekursif dalam direktori tertentu:
+- Hapus atribut secara rekursif dalam direktori tertentu:
 
 `xattr -rd {{kunci_atribut}} {{direktori}}`
