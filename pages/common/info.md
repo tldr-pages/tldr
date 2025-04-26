@@ -1,6 +1,6 @@
 # info
 
-> Reads documentation stored in the info format.
+> Read documentation stored in the info format.
 > More information: <https://manned.org/man/info>.
 
 - Start reading top-level directory menu:
