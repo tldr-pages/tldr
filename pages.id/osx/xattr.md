@@ -7,7 +7,7 @@
 
 `xattr -l {{berkas}}`
 
-- Menulis atribut untuk berkas tertentu:
+- Tulis atribut untuk suatu berkas:
 
 `xattr -w {{kunci_atribut}} {{nilai_atribut}} {{berkas}}`
 
