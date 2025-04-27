@@ -15,6 +15,6 @@
 
 `wormhole send`
 
-Send a file with a custom code phrase:
+- Send a file with a custom code phrase:
 
 `wormhole send --code {{custom_code}} {{path/to/file}}`
