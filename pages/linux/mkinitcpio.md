@@ -7,6 +7,10 @@
 
 `mkinitcpio`
 
+- Generate ramdisk environments based on all existing presets (used to regenerate all the initramfs images after a change in `/etc/mkinitcpio.conf`):
+
+`mkinitcpio {{[-P|--allpresets]}}`
+
 - Generate a ramdisk environment based on the `linux` preset:
 
 `mkinitcpio {{[-p|--preset]}} {{linux}}`
@@ -14,10 +18,6 @@
 - Generate a ramdisk environment based on the `linux-lts` preset:
 
 `mkinitcpio {{[-p|--preset]}} {{linux-lts}}`
-
-- Generate ramdisk environments based on all existing presets (used to regenerate all the initramfs images after a change in `/etc/mkinitcpio.conf`):
-
-`mkinitcpio {{[-P|--allpresets]}}`
 
 - Generate an initramfs image using an alternative configuration file:
 
