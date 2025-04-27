@@ -9,7 +9,7 @@
 
 - Remove a specific fingerprints for a specific user:
 
-`fprintd-delete {{username}} {{[-f|--finger]}} {{left|right}}-{{thumb|index-finger|middle-finger|ring-finger|little-finger}}`
+`fprintd-delete {{username}} {{[-f|--finger]}} {{left-thumb|left-index-finger|left-middle-finger|left-ring-finger|left-little-finger|right-thumb|...}}`
 
 - Display help:
 
