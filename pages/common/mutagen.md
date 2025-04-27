@@ -1,7 +1,7 @@
 # mutagen
 
 > Real-time file synchronization and network forwarding tool.
-> More information: <https://mutagen.io>.
+> More information: <https://mutagen.io/documentation/introduction/>.
 
 - Start a synchronization session between a local directory and a remote host:
 

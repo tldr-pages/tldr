@@ -9,11 +9,11 @@
 
 - Perform a basic analysis check on a specific project:
 
-`pio check --project-dir {{project_dir}}`
+`pio check {{[-d|--project-dir]}} {{project_dir}}`
 
 - Perform an analysis check for a specific environment:
 
-`pio check --environment {{environment}}`
+`pio check {{[-e|--environment]}} {{environment}}`
 
 - Perform an analysis check and only report a specified defect severity type:
 
@@ -21,4 +21,4 @@
 
 - Perform an analysis check and show detailed information when processing environments:
 
-`pio check --verbose`
+`pio check {{[-v|--verbose]}}`
