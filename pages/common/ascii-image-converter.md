@@ -14,3 +14,7 @@
 - Create a tresholded image using braille:
 
 `ascii-image-converter {{[-b|--braille]}} {{path/to/image|URL}}`
+
+- Display the image with negative colors:
+
+`ascii-image-converter {{[-Cn|--color --negative]}} {{path/to/image|URL}}`
