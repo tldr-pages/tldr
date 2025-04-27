@@ -9,7 +9,7 @@
 
 - Enroll a specific finger for the current user:
 
-`fprintd-enroll --finger {{left-thumb|left-index-finger|left-middle-finger|left-ring-finger|left-little-finger|right-thumb|right-index-finger|right-middle-finger|right-ring-finger|right-little-finger}}`
+`fprintd-enroll {{[-f|--finger]}} {{left-thumb|left-index-finger|left-middle-finger|left-ring-finger|left-little-finger|right-thumb|...}}`
 
 - Enroll the right index finger for a specific user:
 
@@ -17,7 +17,7 @@
 
 - Enroll a specific finger for a specific user:
 
-`fprintd-enroll --finger {{finger_name}} {{username}}`
+`fprintd-enroll {{[-f|--finger]}} {{finger_name}} {{username}}`
 
 - Display help:
 
