@@ -1,7 +1,7 @@
 # thunderbird
 
 > Email client and RSS reader.
-> More information: <https://thunderbird.net>.
+> More information: <https://manned.org/thunderbird>.
 
 - Open thunderbird:
 

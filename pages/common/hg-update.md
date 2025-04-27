@@ -9,12 +9,12 @@
 
 - Update to the specified revision:
 
-`hg update --rev {{revision}}`
+`hg update {{[-r|--rev]}} {{revision}}`
 
 - Update and discard uncommitted changes:
 
-`hg update --clean`
+`hg update {{[-C|--clean]}}`
 
 - Update to the last commit matching a specified date:
 
-`hg update --date {{dd-mm-yyyy}}`
+`hg update {{[-d|--date]}} {{dd-mm-yyyy}}`

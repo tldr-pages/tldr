@@ -9,16 +9,16 @@
 
 - Display traffic summary for a specific network interface:
 
-`vnstat -i {{network_interface}}`
+`vnstat {{[-i|--iface]}} {{network_interface}}`
 
 - Display live stats for a specific network interface:
 
-`vnstat -l -i {{network_interface}}`
+`vnstat {{[-l|--live]}} {{[-i|--iface]}} {{network_interface}}`
 
 - Show traffic statistics on an hourly basis for the last 24 hours using a bar graph:
 
-`vnstat -hg`
+`vnstat {{[-hg|--hoursgraph]}}`
 
 - Measure and show average traffic for 30 seconds:
 
-`vnstat -tr {{30}}`
+`vnstat {{[-tr|--traffic]}} {{30}}`

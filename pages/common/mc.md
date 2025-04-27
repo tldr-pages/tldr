@@ -11,4 +11,4 @@
 
 - Start Midnight Commander in black and white:
 
-`mc -b`
+`mc {{[-b|--nocolor]}}`

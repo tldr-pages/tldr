@@ -1,7 +1,7 @@
 # hostapd
 
 > Start an access point using a wireless interface.
-> More information: <https://w1.fi/hostapd/>.
+> More information: <https://manned.org/hostapd>.
 
 - Start an access point:
 

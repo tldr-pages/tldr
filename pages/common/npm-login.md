@@ -10,8 +10,8 @@
 
 - Log in using a custom registry:
 
-`npm login --registry={{registry_url}}`
+`npm login --registry {{registry_url}}`
 
 - Log in using a specific authentication strategy:
 
-`npm login --auth-type={{legacy|web}}`
+`npm login --auth-type {{legacy|web}}`

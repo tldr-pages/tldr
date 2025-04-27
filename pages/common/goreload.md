@@ -5,7 +5,7 @@
 
 - Watch a binary file (defaults to `.goreload`):
 
-`goreload -b {{path/to/binary}} {{path/to/file.go}}`
+`goreload {{[-b|--bin]}} {{path/to/binary}} {{path/to/file.go}}`
 
 - Set a custom log prefix (defaults to `goreload`):
 

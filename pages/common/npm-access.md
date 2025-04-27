@@ -17,7 +17,7 @@
 
 - Set package status (public or private):
 
-`npm access set status={{public|private}} {{package_name}}`
+`npm access set status {{public|private}} {{package_name}}`
 
 - Grant access to a package:
 
@@ -29,4 +29,4 @@
 
 - Configure two-factor authentication requirement:
 
-`npm access set mfa={{none|publish|automation}} {{package_name}}`
+`npm access set mfa {{none|publish|automation}} {{package_name}}`

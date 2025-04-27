@@ -9,11 +9,11 @@
 
 - Commit all staged changes with the specified message:
 
-`dolt commit --message "{{commit_message}}"`
+`dolt commit {{[-m|--message]}} "{{commit_message}}"`
 
 - Stage all unstaged changes to tables before committing:
 
-`dolt commit --all`
+`dolt commit {{[-a|--all]}}`
 
 - Use the specified ISO 8601 commit date (defaults to current date and time):
 
@@ -29,4 +29,4 @@
 
 - Ignore foreign key warnings:
 
-`dolt commit --force`
+`dolt commit {{[-f|--force]}}`

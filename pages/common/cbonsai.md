@@ -5,20 +5,20 @@
 
 - Generate a bonsai in live mode:
 
-`cbonsai -l`
+`cbonsai {{[-l|--live]}}`
 
 - Generate a bonsai in infinite mode:
 
-`cbonsai -i`
+`cbonsai {{[-i|--infinite]}}`
 
 - Append a message to the bonsai:
 
-`cbonsai -m "{{message}}"`
+`cbonsai {{[-m|--message]}} "{{message}}"`
 
 - Display extra information about the bonsai:
 
-`cbonsai -v`
+`cbonsai {{[-v|--verbose]}}`
 
 - Display help:
 
-`cbonsai -h`
+`cbonsai {{[-h|--help]}}`

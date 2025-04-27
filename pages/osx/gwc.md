@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux wc`
+`tldr {{[-p|--platform]}} common wc`

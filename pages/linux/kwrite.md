@@ -2,7 +2,7 @@
 
 > Text editor of the KDE Desktop project.
 > See also `kate`.
-> More information: <https://apps.kde.org/kwrite/>.
+> More information: <https://docs.kde.org/stable5/en/kate/kwrite/command-line-options.html>.
 
 - Open a text file:
 
@@ -14,7 +14,7 @@
 
 - Open a text file with a specific encoding:
 
-`kwrite --encoding={{UTF-8}} {{path/to/file}}`
+`kwrite --encoding {{UTF-8}} {{path/to/file}}`
 
 - Open a text file and navigate to a specific line and column:
 

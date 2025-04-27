@@ -6,24 +6,24 @@
 
 - Edit quota of the current user:
 
-`edquota --user $(whoami)`
+`edquota {{[-u|--user]}} $(whoami)`
 
 - Edit quota of a specific user:
 
-`sudo edquota --user {{username}}`
+`sudo edquota {{[-u|--user]}} {{username}}`
 
 - Edit quota for a group:
 
-`sudo edquota --group {{group}}`
+`sudo edquota {{[-g|--group]}} {{group}}`
 
 - Restrict operations to a given filesystem (by default edquota operates on all filesystems with quotas):
 
-`sudo edquota --file-system {{filesystem}}`
+`sudo edquota {{[-f|--file-system]}} {{filesystem}}`
 
 - Edit the default grace period:
 
-`sudo edquota -t`
+`sudo edquota {{[-t|--edit-period]}}`
 
 - Duplicate a quota to other users:
 
-`sudo edquota -p {{reference_user}} {{destination_user1}} {{destination_user2}}`
+`sudo edquota {{[-p|--prototype]}} {{reference_user}} {{destination_user1}} {{destination_user2}}`

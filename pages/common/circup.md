@@ -19,6 +19,6 @@
 
 `circup freeze`
 
-- Save all libraries on a connected device in the current directory:
+- Save all libraries on a connected device in `requirements.txt` in current directory:
 
-`circup freeze -r`
+`circup freeze {{[-r|--requirement]}}`
