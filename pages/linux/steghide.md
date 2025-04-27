@@ -1,15 +1,15 @@
 # steghide
 
 > Steganography tool for JPEG, BMP, WAV and AU file formats.
-> More information: <https://github.com/StefanoDeVuono/steghide>.
+> More information: <https://manned.org/steghide>.
 
 - Embed data in a PNG, prompting for a passphrase:
 
-`steghide embed --coverfile {{path/to/image.png}} --embedfile {{path/to/data.txt}}`
+`steghide embed {{[-cf|--coverfile]}} {{path/to/image.png}} {{[-ef|--embedfile]}} {{path/to/data.txt}}`
 
 - Extract data from a WAV audio file:
 
-`steghide extract --stegofile {{path/to/sound.wav}}`
+`steghide extract {{[-sf|--stegofile]}} {{path/to/sound.wav}}`
 
 - Display file information, trying to detect an embedded file:
 
@@ -17,7 +17,7 @@
 
 - Embed data in a JPEG image, using maximum compression:
 
-`steghide embed --coverfile {{path/to/image.jpg}} --embedfile {{path/to/data.txt}} --compress {{9}}`
+`steghide embed {{[-cf|--coverfile]}} {{path/to/image.jpg}} {{[-ef|--embedfile]}} {{path/to/data.txt}} {{[-z|--compress]}} {{9}}`
 
 - Get the list of supported encryption algorithms and modes:
 
@@ -25,4 +25,4 @@
 
 - Embed encrypted data in a JPEG image, e.g. with Blowfish in CBC mode:
 
-`steghide embed --coverfile {{path/to/image.jpg}} --embedfile {{path/to/data.txt}} --encryption {{blowfish|...}} {{cbc|...}}`
+`steghide embed {{[-cf|--coverfile]}} {{path/to/image.jpg}} {{[-ef|--embedfile]}} {{path/to/data.txt}} {{[-e|--encryption]}} {{blowfish|...}} {{cbc|...}}`

@@ -1,7 +1,7 @@
 # debsecan
 
 > Debian Security Analyzer, a tool to list vulnerabilities on a particular Debian installation.
-> More information: <https://gitlab.com/fweimer/debsecan>.
+> More information: <https://manned.org/debsecan>.
 
 - List vulnerable installed packages on the current host:
 
