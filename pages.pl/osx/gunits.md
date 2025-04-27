@@ -1,7 +1,7 @@
 # gunits
 
-> To polecenie jest aliasem `-p linux units`.
+> To polecenie jest aliasem GNU `units`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux units`
+`tldr units`

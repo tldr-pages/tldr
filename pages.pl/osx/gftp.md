@@ -1,7 +1,7 @@
 # gftp
 
-> To polecenie jest aliasem `-p linux ftp`.
+> To polecenie jest aliasem GNU `ftp`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux ftp`
+`tldr ftp`

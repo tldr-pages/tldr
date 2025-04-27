@@ -1,7 +1,7 @@
 # gln
 
-> To polecenie jest aliasem `-p linux ln`.
+> To polecenie jest aliasem GNU `ln`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux ln`
+`tldr ln`

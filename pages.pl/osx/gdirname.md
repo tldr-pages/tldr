@@ -1,7 +1,7 @@
 # gdirname
 
-> To polecenie jest aliasem `-p linux dirname`.
+> To polecenie jest aliasem GNU `dirname`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux dirname`
+`tldr dirname`
