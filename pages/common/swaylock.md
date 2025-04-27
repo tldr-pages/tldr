@@ -23,9 +23,9 @@
 
 `swaylock {{[-f|--daemonize]}}`
 
-- Lock the screen to a PNG background tiled over all monitors:
+- Lock the screen with a background image tiled over all monitors:
 
-`swaylock {{[-i|--image]}} {{path/to/file.png}} {{[-t|--tiling]}}`
+`swaylock {{[-i|--image]}} {{path/to/image}} {{[-t|--tiling]}}`
 
 - Lock the screen and show the number of failed login attempts:
 
