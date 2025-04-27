@@ -18,3 +18,7 @@
 - Display the image with negative colors:
 
 `ascii-image-converter {{[-Cn|--color --negative]}} {{path/to/image|URL}}`
+
+- Use a wider range of characters to display an image (may improve image accuracy):
+
+`ascii-image-converter {{[-c|--complex]}} {{path/to/image|URL}}`
