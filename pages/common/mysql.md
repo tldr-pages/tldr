@@ -9,24 +9,24 @@
 
 - Connect to a database, user will be prompted for a password:
 
-`mysql -u {{user}} --password {{database_name}}`
+`mysql {{[-u|--user]}} {{user}} {{[-p|--password]}} {{database_name}}`
 
 - Connect to a database on another host:
 
-`mysql -h {{database_host}} {{database_name}}`
+`mysql {{[-h|--host]}} {{database_host}} {{database_name}}`
 
 - Connect to a database through a Unix socket:
 
-`mysql --socket {{path/to/socket.sock}}`
+`mysql {{[-S|--socket]}} {{path/to/socket.sock}}`
 
 - Execute SQL statements in a script file (batch file):
 
-`mysql -e "source {{filename.sql}}" {{database_name}}`
+`mysql {{[-e|--execute]}} "source {{filename.sql}}" {{database_name}}`
 
 - Restore a database from a backup created with `mysqldump` (user will be prompted for a password):
 
-`mysql --user {{user}} --password {{database_name}} < {{path/to/backup.sql}}`
+`mysql {{[-u|--user]}} {{user}} {{[-p|--password]}} {{database_name}} < {{path/to/backup.sql}}`
 
 - Restore all databases from a backup (user will be prompted for a password):
 
-`mysql --user {{user}} --password < {{path/to/backup.sql}}`
+`mysql {{[-u|--user]}} {{user}} {{[-p|--password]}} < {{path/to/backup.sql}}`

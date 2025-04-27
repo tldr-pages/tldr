@@ -9,16 +9,16 @@
 
 - Add all unstaged files matching a specified pattern:
 
-`hg add --include {{pattern}}`
+`hg add {{[-I|--include]}} {{pattern}}`
 
 - Add all unstaged files, excluding those that match a specified pattern:
 
-`hg add --exclude {{pattern}}`
+`hg add {{[-X|--exclude]}} {{pattern}}`
 
 - Recursively add sub-repositories:
 
-`hg add --subrepos`
+`hg add {{[-S|--subrepos]}}`
 
 - Perform a test-run without performing any actions:
 
-`hg add --dry-run`
+`hg add {{[-n|--dry-run]}}`

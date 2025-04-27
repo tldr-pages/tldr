@@ -6,27 +6,27 @@
 
 - Show the current balances in `Asset` and `Liability` accounts, excluding zeros:
 
-`hledger balancesheet`
+`hledger {{[bs|balancesheet]}}`
 
 - Show just the liquid assets (`Cash` account type):
 
-`hledger balancesheet type:C`
+`hledger {{[bs|balancesheet]}} type:C`
 
 - Include accounts with zero balances, and show the account hierarchy:
 
-`hledger balancesheet --empty --tree`
+`hledger {{[bs|balancesheet]}} {{[-E|--empty]}} {{[-t|--tree]}}`
 
 - Show the balances at the end of each month:
 
-`hledger balancesheet --monthly`
+`hledger {{[bs|balancesheet]}} {{[-M|--monthly]}}`
 
 - Show the balances' market value in home currency at the end of each month:
 
-`hledger balancesheet --monthly -V`
+`hledger {{[bs|balancesheet]}} {{[-M|--monthly]}} {{[-V|--market]}}`
 
 - Show quarterly balances, with just the top two levels of account hierarchy:
 
-`hledger balancesheet --quarterly --tree --depth 2`
+`hledger {{[bs|balancesheet]}} {{[-Qt|--quarterly --tree]}} {{[-2|--depth 2]}}`
 
 - Short form of the above, and generate HTML output in `bs.html`:
 

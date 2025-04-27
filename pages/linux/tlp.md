@@ -2,7 +2,7 @@
 
 > Advanced power management for Linux.
 > See also `tlp-stat`.
-> More information: <https://linrunner.de/tlp/>.
+> More information: <https://linrunner.de/tlp/usage/tlp.html>.
 
 - Apply settings (according to the actual power source):
 

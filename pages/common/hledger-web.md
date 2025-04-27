@@ -9,7 +9,7 @@
 
 - As above but with a specified file, and allow editing of existing data:
 
-`hledger-web --file {{path/to/file.journal}} --allow edit`
+`hledger-web {{[-f|--file]}} {{path/to/file.journal}} --allow edit`
 
 - Start just the web app, and accept incoming connections to the specified host and port:
 
@@ -29,4 +29,4 @@
 
 - Display help:
 
-`hledger-web --help`
+`hledger-web {{[-h|--help]}}`

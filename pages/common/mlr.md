@@ -27,6 +27,6 @@
 
 `echo '{"hello":"world", "foo":"bar"}' | mlr --ijson --ojson --jvstack cat`
 
-- Filter lines of a compressed CSV file treating numbers as strings:
+- Filter lines of a compressed CSV file treating numbers as [S]trings:
 
-`mlr --prepipe 'gunzip' --csv filter -S '${{fieldName}} =~ "{{regular_expression}}"' {{example.csv.gz}}`
+`mlr --prepipe 'gunzip' {{[-c|--csv]}} filter {{[-S|--infer-none]}} '${{fieldName}} =~ "{{regular_expression}}"' {{example.csv.gz}}`

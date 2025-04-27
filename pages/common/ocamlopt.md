@@ -2,7 +2,7 @@
 
 > The OCaml native code compiler.
 > Produces native executables, e.g. ELF on Linux.
-> More information: <https://ocaml.org>.
+> More information: <https://manned.org/ocamlopt>.
 
 - Compile a source file:
 

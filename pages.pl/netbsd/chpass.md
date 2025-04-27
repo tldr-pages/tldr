@@ -14,7 +14,7 @@
 
 - Ustaw powłokę (z ang. [s]hell) logowania dla określonego użytkownika:
 
-`chpass chsh -s {{ścieżka/do/powłoki}} {{nazwa_użytkownika}}`
+`chpass -s {{ścieżka/do/powłoki}} {{nazwa_użytkownika}}`
 
 - Określ wpis bazy danych użytkownika w formacie pliku `passwd`:
 

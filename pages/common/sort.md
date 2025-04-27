@@ -13,7 +13,7 @@
 
 - Sort a file in case-insensitive way:
 
-`sort {{-f|--ignore-case}} {{path/to/file}}`
+`sort {{[-f|--ignore-case]}} {{path/to/file}}`
 
 - Sort a file using numeric rather than alphabetic order:
 

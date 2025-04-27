@@ -13,7 +13,7 @@
 
 - Move multiple directories:
 
-`qmv {{[-d|--directory]}} {{path/to/directory1}} {{path/to/directory2}} {{path/to/directory3}}`
+`qmv {{[-d|--directory]}} {{path/to/directory1 path/to/directory2 path/to/directory3 ...}}`
 
 - Move all files and directories inside a directory:
 

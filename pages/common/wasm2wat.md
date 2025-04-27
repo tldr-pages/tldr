@@ -9,4 +9,4 @@
 
 - Write the output to a given file:
 
-`wasm2wat {{file.wasm}} -o {{file.wat}}`
+`wasm2wat {{file.wasm}} {{[-o|--output]}} {{file.wat}}`

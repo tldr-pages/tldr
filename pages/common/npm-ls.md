@@ -9,15 +9,15 @@
 
 - Print all installed packages including peer dependencies:
 
-`npm ls --all`
+`npm ls {{[-a|--all]}}`
 
 - Print dependencies with extended information:
 
-`npm ls --long`
+`npm ls {{[-l|--long]}}`
 
 - Print dependencies in parseable format:
 
-`npm ls --parseable`
+`npm ls {{[-p|--parseable]}}`
 
 - Print dependencies in JSON format:
 

@@ -1,7 +1,7 @@
 # mdp
 
 > A command-line based tool to make presentations from Markdown files.
-> More information: <https://github.com/visit1985/mdp>.
+> More information: <https://manned.org/mdp>.
 
 - Launch a presentation in the terminal from a Markdown file:
 
@@ -9,12 +9,12 @@
 
 - Disable fading transitions:
 
-`mdp --nofade {{presentation.md}}`
+`mdp {{[-f|--nofade]}} {{presentation.md}}`
 
 - Invert font colors to use in terminals with light background:
 
-`mdp --invert {{presentation.md}}`
+`mdp {{[-i|--invert]}} {{presentation.md}}`
 
 - Disable transparency in transparent terminals:
 
-`mdp --notrans {{presentation.md}}`
+`mdp {{[-t|--notrans]}} {{presentation.md}}`

@@ -13,7 +13,7 @@
 
 - Specify the compression quality:
 
-`pnmtofiasco {{[-qua|--quality]}} {{quality_level}} {{path/to/file.pnm}} > {{path/to/file.fiasco}}`
+`pnmtofiasco {{[-q|--quality]}} {{quality_level}} {{path/to/file.pnm}} > {{path/to/file.fiasco}}`
 
 - Load the options to be used from the specified configuration file:
 

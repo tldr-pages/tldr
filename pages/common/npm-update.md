@@ -13,7 +13,7 @@
 
 - Update a package globally:
 
-`npm update -g {{package}}`
+`npm update {{[-g|--global]}} {{package}}`
 
 - Update multiple packages at once:
 
