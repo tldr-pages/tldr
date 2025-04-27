@@ -8,8 +8,8 @@
 
 - View documentation for the `print` alias of `run-mailcap`:
 
-`tldr --platform linux print.runmailcap`
+`tldr {{[-p|--platform]}} linux print.runmailcap`
 
 - View documentation for printing text files on Windows:
 
-`tldr --platform windows print.win`
+`tldr {{[-p|--platform]}} windows print.win`

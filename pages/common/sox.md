@@ -2,11 +2,11 @@
 
 > Sound eXchange: play, record and convert audio files.
 > Audio formats are identified by the extension.
-> More information: <https://sox.sourceforge.net>.
+> More information: <https://manned.org/sox>.
 
 - Merge two audio files into one:
 
-`sox -m {{path/to/input_audio1}} {{path/to/input_audio2}} {{path/to/output_audio}}`
+`sox {{[-m|--combine mix]}} {{path/to/input_audio1}} {{path/to/input_audio2}} {{path/to/output_audio}}`
 
 - Trim an audio file to the specified times:
 
@@ -22,8 +22,8 @@
 
 - Print statistical data of an audio file:
 
-`sox {{path/to/input_audio}} -n stat`
+`sox {{path/to/input_audio}} {{[-n|--null]}} stat`
 
 - Increase the volume of an audio file by 2x:
 
-`sox -v 2.0 {{path/to/input_audio}} {{path/to/output_audio}}`
+`sox {{[-v|--volume]}} 2.0 {{path/to/input_audio}} {{path/to/output_audio}}`

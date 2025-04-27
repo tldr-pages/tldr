@@ -9,7 +9,7 @@
 
 - Scan a Docker image filtering the output by severity:
 
-`trivy image --severity {{HIGH,CRITICAL}} {{alpine:3.15}}`
+`trivy image {{[-s|--severity]}} {{HIGH,CRITICAL}} {{alpine:3.15}}`
 
 - Scan a Docker image ignoring any unfixed/unpatched vulnerabilities:
 
@@ -33,4 +33,4 @@
 
 - Generate output with a SARIF template:
 
-`trivy image --format {{template}} --template "{{@sarif.tpl}}" -o {{path/to/report.sarif}} {{image:tag}}`
+`trivy image {{[-f|--format]}} {{template}} {{[-t|--template]}} "{{@sarif.tpl}}" {{[-o|--output]}} {{path/to/report.sarif}} {{image:tag}}`

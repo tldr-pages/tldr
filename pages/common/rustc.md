@@ -10,7 +10,7 @@
 
 - Compile with optimizations (`s` means optimize for binary size; `z` is the same with even more optimizations):
 
-`rustc -C lto -C opt-level={{0|1|2|3|s|z}} {{path/to/main.rs}}`
+`rustc {{[-C|--codegen]}} lto {{[-C|--codegen]}} opt-level={{0|1|2|3|s|z}} {{path/to/main.rs}}`
 
 - Compile with debugging information:
 
@@ -22,7 +22,7 @@
 
 - Compile with architecture-specific optimizations for the current CPU:
 
-`rustc -C target-cpu={{native}} {{path/to/main.rs}}`
+`rustc {{[-C|--codegen]}} target-cpu={{native}} {{path/to/main.rs}}`
 
 - Display the target list (Note: you have to add a target using `rustup` first to be able to compile for it):
 

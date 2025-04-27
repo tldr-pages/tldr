@@ -13,7 +13,7 @@
 
 - Show detailed information on disk usage:
 
-`docker system df --verbose`
+`docker system df {{[-v|--verbose]}}`
 
 - Remove unused data (append `--volumes` to remove unused volumes as well):
 
@@ -29,7 +29,7 @@
 
 - Display real-time events from containers streamed as valid JSON Lines:
 
-`docker system events --filter 'type=container' --format '{{json .}}'`
+`docker system events {{[-f|--filter]}} 'type=container' --format '{{json .}}'`
 
 - Display system-wide information:
 

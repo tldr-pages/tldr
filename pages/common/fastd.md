@@ -7,15 +7,15 @@
 
 - Start `fastd` with a specific configuration file:
 
-`fastd --config {{path/to/fastd.conf}}`
+`fastd {{[-c|--config]}} {{path/to/fastd.conf}}`
 
 - Start a Layer 3 VPN with an MTU of 1400, loading the rest of the configuration parameters from a file:
 
-`fastd --mode {{tap}} --mtu {{1400}} --config {{path/to/fastd.conf}}`
+`fastd {{[-m|--mode]}} {{tap}} {{[-M|--mtu]}} {{1400}} {{[-c|--config]}} {{path/to/fastd.conf}}`
 
 - Validate a configuration file:
 
-`fastd --verify-config --config {{path/to/fastd.conf}}`
+`fastd --verify-config {{[-c|--config]}} {{path/to/fastd.conf}}`
 
 - Generate a new keypair:
 
@@ -23,8 +23,8 @@
 
 - Show the public key to a private key in a configuration file:
 
-`fastd --show-key --config {{path/to/fastd.conf}}`
+`fastd --show-key {{[-c|--config]}} {{path/to/fastd.conf}}`
 
 - Show the current version:
 
-`fastd -v`
+`fastd {{[-v|--version]}}`

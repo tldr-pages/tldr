@@ -13,7 +13,7 @@
 
 - Return the number of installed fonts in your system:
 
-`fc-list | wc -l`
+`fc-list | wc {{[-l|--lines]}}`
 
 - Return a list of installed fonts that support the language based on its locale code:
 

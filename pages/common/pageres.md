@@ -9,7 +9,7 @@
 
 - Provide specific options for a URL, overriding global options:
 
-`pageres [{{https://example.com/}} {{1366x768}} --no-crop] [{{https://example2.com/}} {{1024x768}}] --crop`
+`pageres [{{https://example.com/}} {{1366x768}} --no-crop] [{{https://example2.com/}} {{1024x768}}] {{[-c|--crop]}}`
 
 - Provide a custom filename template:
 

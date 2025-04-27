@@ -21,4 +21,4 @@
 
 - Edit a resource in JSON format:
 
-`kubectl edit {{resource}}/{{resource_name}} --output json`
+`kubectl edit {{resource}}/{{resource_name}} {{[-o|--output]}} json`

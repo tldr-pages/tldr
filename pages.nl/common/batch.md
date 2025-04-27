@@ -5,10 +5,6 @@
 > Bekijk ook: `at`, `atq`, `atrm` `mail`.
 > Meer informatie: <https://manned.org/batch>.
 
-- Start de `atd` daemon:
-
-`systemctl start atd`
-
 - Voer commando's uit vanaf `stdin` (druk op `<Ctrl d>` om te stoppen):
 
 `batch`

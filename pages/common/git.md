@@ -18,7 +18,7 @@
 
 - Display help:
 
-`git --help`
+`git {{[-h|--help]}}`
 
 - Display help for a specific subcommand (like `clone`, `add`, `push`, `log`, etc.):
 
@@ -26,4 +26,4 @@
 
 - Display version:
 
-`git --version`
+`git {{[-v|--version]}}`

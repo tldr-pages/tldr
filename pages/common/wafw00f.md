@@ -15,7 +15,7 @@
 
 `wafw00f {{[-p|--proxy]}} {{http://localhost:8080}} {{https://www.example.com}}`
 
-- Test for a specific WAF product (run `wafw00f -l` to get list of all supported WAFs):
+- Test for a specific WAF product (run `wafw00f --list` to get list of all supported WAFs):
 
 `wafw00f {{[-t|--test]}} {{Cloudflare|Cloudfront|Fastly|ZScaler|...}} {{https://www.example.com}}`
 

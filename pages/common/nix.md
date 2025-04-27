@@ -7,7 +7,7 @@
 
 - Enable the `nix` command:
 
-`mkdir -p ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
+`mkdir {{[-p|--parents]}} ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
 
 - Search for a package in nixpkgs via its name or description:
 

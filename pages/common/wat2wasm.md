@@ -9,8 +9,8 @@
 
 - Write the output binary to a given file:
 
-`wat2wasm {{file.wat}} -o {{file.wasm}}`
+`wat2wasm {{file.wat}} {{[-o|--output]}} {{file.wasm}}`
 
 - Display simplified representation of every byte:
 
-`wat2wasm -v {{file.wat}}`
+`wat2wasm {{[-v|--verbose]}} {{file.wat}}`

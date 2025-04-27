@@ -12,7 +12,7 @@
 
 `ack {{[-i|--ignore-case]}} "{{search_pattern}}"`
 
-- Search for lines matching a pattern, printing [o]nly the matched text and not the rest of the line:
+- Search for lines matching a pattern, printing only the matched text and not the rest of the line:
 
 `ack {{[-o|--output='$&']}} "{{search_pattern}}"`
 
