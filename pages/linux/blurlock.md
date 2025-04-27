@@ -10,12 +10,12 @@
 
 - Lock the screen and disable the unlock indicator (removes feedback on keypress):
 
-`blurlock --no-unlock-indicator`
+`blurlock {{[-u|--no-unlock-indicator]}}`
 
 - Lock the screen and don't hide the mouse pointer:
 
-`blurlock --pointer {{default}}`
+`blurlock {{[-p|--pointer]}} {{default}}`
 
 - Lock the screen and show the number of failed login attempts:
 
-`blurlock --show-failed-attempts`
+`blurlock {{[-f|--show-failed-attempts]}}`

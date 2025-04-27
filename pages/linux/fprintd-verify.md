@@ -9,7 +9,7 @@
 
 - Verify a specific fingerprint for the current user:
 
-`fprintd-verify --finger {{left-thumb|left-index-finger|left-middle-finger|left-ring-finger|left-little-finger|right-thumb|right-index-finger|right-middle-finger|right-ring-finger|right-little-finger}}`
+`fprintd-verify {{[-f|--finger]}} {{left-thumb|left-index-finger|left-middle-finger|left-ring-finger|left-little-finger|right-thumb|...}}`
 
 - Verify fingerprints for a specific user:
 
@@ -17,7 +17,7 @@
 
 - Verify a specific fingerprint for a specific user:
 
-`fprintd-verify --finger {{finger_name}} {{username}}`
+`fprintd-verify {{[-f|--finger]}} {{finger_name}} {{username}}`
 
 - Fail the process if a fingerprint doesn't match with ones stored in the database for the current user:
 
