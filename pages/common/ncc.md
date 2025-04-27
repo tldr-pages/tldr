@@ -10,15 +10,15 @@
 
 - Bundle and minify a Node.js application:
 
-`ncc build --minify {{path/to/file.js}}`
+`ncc build {{[-m|--minify]}} {{path/to/file.js}}`
 
 - Bundle and minify a Node.js application and generate source maps:
 
-`ncc build --source-map {{path/to/file.js}}`
+`ncc build {{[-s|--source-map]}} {{path/to/file.js}}`
 
 - Automatically recompile on changes to source files:
 
-`ncc build --watch {{path/to/file.js}}`
+`ncc build {{[-w|--watch]}} {{path/to/file.js}}`
 
 - Bundle a Node.js application into a temporary directory and run it for testing:
 
