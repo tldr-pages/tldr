@@ -11,9 +11,13 @@
 
 `ascii-image-converter {{[-C|--color]}} {{path/to/image|URL}}`
 
-- Create a tresholded image using braille:
+- Create a tresholded image using braille (if the image is barely visible, try changing the terminal font):
 
 `ascii-image-converter {{[-b|--braille]}} {{path/to/image|URL}}`
+
+- Create a dithered image using braille (if the image is barely visible, try changing the terminal font):
+
+`ascii-image-converter {{[-b|--braille]}} --dither {{path/to/image|URL}}`
 
 - Display the image with negative colors:
 
