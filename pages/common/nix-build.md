@@ -6,8 +6,8 @@
 
 - Build a Nix expression:
 
-`nix-build '{{nixpkgs}}' {{[-A|--attr]}} {{firefox}}`
+`nix-build '<nixpkgs>' {{[-A|--attr]}} {{firefox}}`
 
 - Build a sandboxed Nix expression (on non-NixOS):
 
-`nix-build '{{nixpkgs}}' {{[-A|--attr]}} {{firefox}} --option sandbox true`
+`nix-build '<nixpkgs>' {{[-A|--attr]}} {{firefox}} --option sandbox true`
