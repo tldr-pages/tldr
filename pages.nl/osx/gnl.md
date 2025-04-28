@@ -1,7 +1,7 @@
 # gnl
 
-> Dit commando is een alias van `-p linux nl`.
+> Dit commando is een alias van `nl`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux nl`
+`tldr {{[-p|--platform]}} linux nl`

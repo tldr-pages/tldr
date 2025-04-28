@@ -1,7 +1,7 @@
 # sfdk emulator exec
 
 > Execute a command on an emulator.
-> More information: <https://docs.sailfishos.org/Tools/Sailfish_SDK/FAQ/#emulator>.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/40-testing-maintain/doc/command.emulator.adoc>.
 
 - Execute a command on an emulator:
 

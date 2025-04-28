@@ -1,7 +1,7 @@
 # gtr
 
-> To polecenie jest aliasem `-p linux tr`.
+> To polecenie jest aliasem GNU `tr`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux tr`
+`tldr tr`

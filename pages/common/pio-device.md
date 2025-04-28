@@ -17,11 +17,11 @@
 
 - Start an interactive device monitor and listen to a specific port:
 
-`pio device monitor --port {{/dev/ttyUSBX}}`
+`pio device monitor {{[-p|--port]}} {{/dev/ttyUSBX}}`
 
 - Start an interactive device monitor and set a specific baud rate (defaults to 9600):
 
-`pio device monitor --baud {{57600}}`
+`pio device monitor {{[-b|--baud]}} {{57600}}`
 
 - Start an interactive device monitor and set a specific EOL character (defaults to `CRLF`):
 

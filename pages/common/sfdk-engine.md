@@ -1,7 +1,7 @@
 # sfdk engine
 
 > Maintains and controls the build engine.
-> More information: <https://docs.sailfishos.org/Develop/Apps/#sailfish-os-build-engine>.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/30-building-maintain/doc/command.engine.adoc>.
 
 - Start the build engine:
 

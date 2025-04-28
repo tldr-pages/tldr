@@ -1,7 +1,7 @@
 # g[
 
-> To polecenie jest aliasem `-p linux [`.
+> To polecenie jest aliasem GNU `[`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux [`
+`tldr [`

@@ -1,7 +1,7 @@
 # sfdk deploy
 
 > Deploys build results to a device.
-> More information: <https://docs.sailfishos.org/Tools/Sailfish_SDK/Deploying_packages/>.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/50-testing-mb2/doc/command.deploy.adoc>.
 
 - Deploy using a specified method (`pkcon`, `rsync`, `sdk`, `zypper`, `zypper-dup` or `manual`):
 
