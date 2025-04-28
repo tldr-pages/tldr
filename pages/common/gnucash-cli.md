@@ -1,11 +1,11 @@
 # gnucash-cli
 
 > A command-line version of GnuCash.
-> More information: <https://gnucash.org>.
+> More information: <https://gnucash.org/viewdoc.phtml?rev=5&lang=C&doc=help>.
 
 - Get quotes for currencies and stocks specified in a file and print them:
 
-`gnucash-cli --quotes get {{path/to/file.gnucash}}`
+`gnucash-cli {{[-Q|--quotes]}} get {{path/to/file.gnucash}}`
 
 - Generate a financial report of a specific type, specified by `--name`:
 
