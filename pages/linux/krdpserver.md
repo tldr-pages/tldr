@@ -3,6 +3,6 @@
 > Start an RDP server.
 > More information: <https://invent.kde.org/plasma/krdp#running-the-example-server>.
 
-- Start and RDP server with a username and password:
+- Start an RDP server with a username and password:
 
 `krdpserver {{[-u|--username]}} {{user_name}} {{[-p|--password]}} {{password}}`
