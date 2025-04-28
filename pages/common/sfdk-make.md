@@ -1,7 +1,7 @@
 # sfdk make
 
 > Executes make build step.
-> More information: <https://docs.sailfishos.org/Develop/Apps/Tutorials/Building_packages_-_advanced_techniques/#building-the-sample-application>.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/20-building-mb2/doc/command.make.adoc>.
 
 - Run make build:
 

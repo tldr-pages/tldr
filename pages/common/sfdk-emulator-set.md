@@ -1,7 +1,7 @@
 # sfdk emulator set
 
 > Sets emulator properties.
-> More information: <https://docs.sailfishos.org/Tools/Sailfish_SDK/FAQ/#what-are-the-compatibility-issues-with-sailfish-os-emulators-on-windows>.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/40-testing-maintain/doc/command.emulator.adoc>.
 
 - Set a property:
 
