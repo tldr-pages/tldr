@@ -1,7 +1,7 @@
 # sfdk undeploy
 
 > Undeploys build results from a device.
-> More information: <https://docs.sailfishos.org/Tools/Sailfish_SDK/Deploying_packages/>.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/50-testing-mb2/doc/command.undeploy.adoc>.
 
 - Undeploy using a specified method (`pkcon`, `rpm`, `rsync`, `sdk` or `zypper`):
 
