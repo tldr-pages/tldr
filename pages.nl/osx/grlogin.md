@@ -1,7 +1,7 @@
 # grlogin
 
-> Dit commando is een alias van `-p linux rlogin`.
+> Dit commando is een alias van `rlogin`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux rlogin`
+`tldr {{[-p|--platform]}} linux rlogin`

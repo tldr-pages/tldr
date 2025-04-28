@@ -1,7 +1,7 @@
 # glogname
 
-> To polecenie jest aliasem `-p linux logname`.
+> To polecenie jest aliasem GNU `logname`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux logname`
+`tldr logname`

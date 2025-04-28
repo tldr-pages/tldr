@@ -1,7 +1,7 @@
 # gpr
 
-> To polecenie jest aliasem `-p linux pr`.
+> To polecenie jest aliasem GNU `pr`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux pr`
+`tldr pr`
