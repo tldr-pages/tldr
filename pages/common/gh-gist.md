@@ -9,7 +9,7 @@
 
 - Create a new Gist with a specific [desc]ription:
 
-`gh gist create {{path/to/file1 path/to/file2 ...}} --desc "{{description}}"`
+`gh gist create {{path/to/file1 path/to/file2 ...}} {{[-d|--desc]}} "{{description}}"`
 
 - Edit a Gist:
 
@@ -17,8 +17,8 @@
 
 - List up to 42 Gists owned by the currently logged in user:
 
-`gh gist list --limit {{42}}`
+`gh gist list {{[-L|--limit]}} {{42}}`
 
 - View a Gist in the default browser without rendering Markdown:
 
-`gh gist view {{id|url}} --web --raw`
+`gh gist view {{id|url}} {{[-w|--web]}} {{[-r|--raw]}}`

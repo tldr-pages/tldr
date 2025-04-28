@@ -17,7 +17,7 @@
 
 - View a repository in the default web browser:
 
-`gh repo view {{repository}} --web`
+`gh repo view {{repository}} {{[-w|--web]}}`
 
 - List repositories owned by a specific user or organization (if the owner is not set, the default owner will be the currently logged in user):
 
@@ -25,8 +25,8 @@
 
 - List only non-forks repositories and limit the number of repositories to list (default: 30):
 
-`gh repo list {{owner}} --source -L {{limit}}`
+`gh repo list {{owner}} --source {{[-L|--limit]}} {{limit}}`
 
 - List repositories with a specific primary coding language:
 
-`gh repo list {{owner}} --language {{language_name}}`
+`gh repo list {{owner}} {{[-l|--language]}} {{language_name}}`
