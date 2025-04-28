@@ -1,7 +1,7 @@
 # gchroot
 
-> To polecenie jest aliasem `-p linux chroot`.
+> To polecenie jest aliasem GNU `chroot`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux chroot`
+`tldr chroot`

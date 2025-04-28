@@ -1,7 +1,7 @@
 # gpwd
 
-> To polecenie jest aliasem `-p linux pwd`.
+> To polecenie jest aliasem GNU `pwd`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux pwd`
+`tldr pwd`

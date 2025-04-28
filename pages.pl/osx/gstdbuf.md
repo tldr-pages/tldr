@@ -1,7 +1,7 @@
 # gstdbuf
 
-> To polecenie jest aliasem `-p linux stdbuf`.
+> To polecenie jest aliasem GNU `stdbuf`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux stdbuf`
+`tldr stdbuf`
