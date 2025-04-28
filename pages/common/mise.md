@@ -31,6 +31,6 @@
 
 `mise set {{variable}}={{value}}`
 
-- Pass plugin options
+- Pass plugin options:
 
 `mise use {{name}}\[{{option1}}={{option1_value}},{{option2}}={{option2_value}}\]@{{version}}`
