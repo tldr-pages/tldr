@@ -30,3 +30,12 @@
 - Set environment variable in configuration:
 
 `mise set {{variable}}={{value}}`
+
+- Pass an option
+
+`mise install {{name}}\[{{option}}={{option_value}}\]@{{version}}`
+`mise use {{name}}\[{{option}}={{option_value}}\]@{{version}}`
+
+- Multiple options
+
+`mise use {{name}}\[{{option1}}={{option1_value}},{{option2}}={{option2_value}}\]@{{version}}`
