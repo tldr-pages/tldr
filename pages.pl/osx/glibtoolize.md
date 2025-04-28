@@ -1,7 +1,7 @@
 # glibtoolize
 
-> To polecenie jest aliasem `-p linux libtoolize`.
+> To polecenie jest aliasem GNU `libtoolize`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux libtoolize`
+`tldr {{[-p|--platform]}} linux libtoolize`
