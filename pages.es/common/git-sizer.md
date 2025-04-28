@@ -1,4 +1,4 @@
-# git sizer
+# git-sizer
 
 > Calcula diferentes métricas del repositorio Git y te informa de cualquier que puede causar problemas o inconvenientes.
 > Más información: <https://github.com/github/git-sizer>.
