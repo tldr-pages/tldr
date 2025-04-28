@@ -1,7 +1,6 @@
 # xhost
 
 > Manage access control lists for X server connections.
-> Adds or removes hosts and users allowed to connect to the X server.
 > More information: <https://manned.org/xhost>.
 
 - Display the current access control list:
