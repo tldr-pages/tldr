@@ -26,4 +26,3 @@
 - Show example uses:
 
 `cariddi -examples`
-
