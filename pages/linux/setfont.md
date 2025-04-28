@@ -5,11 +5,11 @@
 
 - Change the terminal font:
 
-`setfont {{Font}}.gz`
+`setfont {{font}}.gz`
 
 - Change the terminal font by specifying the full filepath:
 
-`setfont /usr/share/kbd/{{consolefonts|unimaps|consoletrans}}/{{Font}}.gz`
+`setfont /usr/share/kbd/{{consolefonts|unimaps|consoletrans}}/{{font}}.gz`
 
 - Reset to the default font:
 
