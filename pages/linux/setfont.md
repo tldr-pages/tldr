@@ -11,6 +11,10 @@
 
 `setfont /usr/share/kbd/{{consolefonts|unimaps|consoletrans}}/{{font}}.gz`
 
+- Double font size:
+
+`setfont {{[-d|--double]}}`
+
 - Reset to the default font:
 
 `setfont`
