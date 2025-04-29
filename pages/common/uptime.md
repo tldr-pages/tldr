@@ -1,20 +1,12 @@
 # uptime
 
-> Tell how long the system has been running and other information.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/uptime-invocation.html>.
+> Shows how long the system has been running.
 
-- Print current time, uptime, number of logged-in users and other information:
-
+- Show system uptime:
 `uptime`
 
-- Show only the amount of time the system has been booted for:
+- Show uptime in pretty format:
+`uptime -p`
 
-`uptime {{[-p|--pretty]}}`
-
-- Print the date and time the system booted up at:
-
-`uptime {{[-s|--since]}}`
-
-- Display version:
-
-`uptime {{[-V|--version]}}`
+- Show uptime since a specific time:
+`uptime -s`
