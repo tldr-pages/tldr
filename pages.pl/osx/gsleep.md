@@ -1,7 +1,7 @@
 # gsleep
 
-> To polecenie jest aliasem `-p linux sleep`.
+> To polecenie jest aliasem GNU `sleep`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux sleep`
+`tldr {{[-p|--platform]}} linux sleep`

@@ -1,7 +1,7 @@
 # gnproc
 
-> To polecenie jest aliasem `-p linux nproc`.
+> To polecenie jest aliasem GNU `nproc`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux nproc`
+`tldr nproc`

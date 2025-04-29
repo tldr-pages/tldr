@@ -1,7 +1,7 @@
 # gping
 
-> Dit commando is een alias van `-p linux ping`.
+> Dit commando is een alias van `ping`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux ping`
+`tldr {{[-p|--platform]}} common ping`
