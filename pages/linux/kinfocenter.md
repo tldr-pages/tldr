@@ -7,7 +7,7 @@
 
 `kinfocenter`
 
-- List all possible KCM modules for kinfocenter:
+- List all possible KCM modules for `kinfocenter`:
 
 `kinfocenter --list`
 
