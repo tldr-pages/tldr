@@ -30,4 +30,4 @@
 
 - Lista los grupos de un inventario:
 
-`ansible localhost {{[-m|--module-name]}} debug {{[-a|--args]}} “{{var=groups.keys()}}”`
+`ansible localhost {{[-m|--module-name]}} debug {{[-a|--args]}} '{{var=groups.keys()}}'`
