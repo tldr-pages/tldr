@@ -1,6 +1,7 @@
 # loadkeys
 
 > Load the kernel keymap for the console.
+> See also: `localectl`.
 > More information: <https://manned.org/loadkeys>.
 
 - Load a specific keyboard layout for the current console:
