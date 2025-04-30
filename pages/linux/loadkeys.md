@@ -3,13 +3,13 @@
 > Load the kernel keymap for the console.
 > More information: <https://manned.org/loadkeys>.
 
+- Load a specific keyboard layout for the current console:
+
+`sudo loadkeys {{en|de|fi|dvorak|...}}`
+
 - Load a default keymap:
 
-`loadkeys {{[-d|--default]}}`
-
-- Load default keymap when an unusual keymap is loaded and `-` sign cannot be found:
-
-`loadkeys defmap`
+`sudo loadkeys {{[-d|--default]}}`
 
 - Create a kernel source table:
 
@@ -27,10 +27,6 @@
 
 `loadkeys {{[-q|--quiet]}}`
 
-- Load a keymap from the specified file for the console:
+- Set a keymap for a specific tty:
 
-`loadkeys {{[-C|--console]}} {{/dev/ttyN}} {{/path/to/file}}`
-
-- Use standard names for keymaps of different locales:
-
-`loadkeys {{[-C|--console]}} {{/dev/ttyN}} {{uk}}`
+`sudo loadkeys {{[-C|--console]}} {{/dev/ttyN}} {{uk}}`
