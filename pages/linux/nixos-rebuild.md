@@ -30,3 +30,7 @@
 - Build the configuration and open it in a virtual machine:
 
 `sudo nixos-rebuild build-vm`
+
+- List available generations similar to the boot loader menu:
+
+`nixos-rebuild list-generations {{[--json]}}`
