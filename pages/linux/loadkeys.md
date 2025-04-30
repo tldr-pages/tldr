@@ -5,7 +5,7 @@
 
 - Load a default keymap:
 
-`loadkeys --default`
+`loadkeys {{[-d|--default]}}`
 
 - Load default keymap when an unusual keymap is loaded and `-` sign cannot be found:
 
@@ -13,24 +13,24 @@
 
 - Create a kernel source table:
 
-`loadkeys --mktable`
+`loadkeys {{[-m|--mktable]}}`
 
 - Create a binary keymap:
 
-`loadkeys --bkeymap`
+`loadkeys {{[-b|--bkeymap]}}`
 
 - Search and parse keymap without action:
 
-`loadkeys --parse`
+`loadkeys {{[-p|--parse]}}`
 
 - Load the keymap suppressing all output:
 
-`loadkeys --quiet`
+`loadkeys {{[-q|--quiet]}}`
 
 - Load a keymap from the specified file for the console:
 
-`loadkeys --console {{/dev/ttyN}} {{/path/to/file}}`
+`loadkeys {{[-C|--console]}} {{/dev/ttyN}} {{/path/to/file}}`
 
 - Use standard names for keymaps of different locales:
 
-`loadkeys --console {{/dev/ttyN}} {{uk}}`
+`loadkeys {{[-C|--console]}} {{/dev/ttyN}} {{uk}}`
