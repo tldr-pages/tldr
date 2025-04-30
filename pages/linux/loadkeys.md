@@ -28,6 +28,6 @@
 
 `loadkeys {{[-q|--quiet]}}`
 
-- Set a keymap for a specific tty:
+- Set a keymap for a specific console:
 
 `sudo loadkeys {{[-C|--console]}} {{/dev/ttyN}} {{uk}}`
