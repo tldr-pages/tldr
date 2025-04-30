@@ -1,7 +1,7 @@
 # base64
 
 > Lakukan pengodean dan pendekodean terhadap suatu berkas atau `stdin` dari/menuju format Base64, menuju `stdout` atau berkas lainnya.
-> Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/base64.1.html>.
+> Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/bintrans.1>.
 
 - Kodekan isi suatu berkas menuju format Base64, dan keluarkan hasil menuju `stdout`:
 

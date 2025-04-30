@@ -1,7 +1,7 @@
 # base64
 
 > Codifica e decodifica usando a representação Base64.
-> Mais informações: <https://keith.github.io/xcode-man-pages/base64.1.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/bintrans.1>.
 
 - Codifica um arquivo:
 
