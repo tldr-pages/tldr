@@ -15,6 +15,6 @@
 
 `spectacle {{[-r|--region]}}`
 
-- Start another Spectacle instance to screenshot itself:
+- Start another Spectacle instance so that you can screenshot Spectacle itself:
 
 `spectacle {{[-i|--new-instance]}}`
