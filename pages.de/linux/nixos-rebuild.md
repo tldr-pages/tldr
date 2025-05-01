@@ -31,6 +31,6 @@
 
 `sudo nixos-rebuild build-vm`
 
-- Liste die verfügbaren Generationen auf wie im Bootloader-Menü:
+- Liste die verfügbaren Generationen wie im Bootloader-Menü auf:
 
 `nixos-rebuild list-generations`
