@@ -1,7 +1,7 @@
 # base64
 
 > Codifica o decodifica un archivo o `stdin` a/desde base64, a `stdout` o a otro archivo.
-> Más información: <https://keith.github.io/xcode-man-pages/base64.1.html>.
+> Más información: <https://keith.github.io/xcode-man-pages/bintrans.1>.
 
 - Codifica un archivo a `stdout`:
 

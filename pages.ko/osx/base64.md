@@ -1,7 +1,7 @@
 # base64
 
 > 파일 또는 `stdin`을 base64로 인코딩하거나 디코딩하여 `stdout` 또는 다른 파일로 출력.
-> 더 많은 정보: <https://keith.github.io/xcode-man-pages/base64.1.html>.
+> 더 많은 정보: <https://keith.github.io/xcode-man-pages/bintrans.1>.
 
 - 파일을 `stdout`으로 인코딩:
 

@@ -25,7 +25,7 @@
 
 - Display help:
 
-`kscreen-console --help`
+`kscreen-console {{[-h|--help]}}`
 
 - Display help including Qt specific command-line options:
 
