@@ -33,4 +33,4 @@
 
 - Liste die verfügbaren Generationen auf wie im Bootloader-Menü:
 
-`nixos-rebuild list-generations --json`
+`nixos-rebuild list-generations`

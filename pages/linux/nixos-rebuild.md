@@ -33,4 +33,4 @@
 
 - List available generations similar to the boot loader menu:
 
-`nixos-rebuild list-generations --json`
+`nixos-rebuild list-generations`
