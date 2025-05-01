@@ -14,17 +14,11 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-    reviewers:
-    - "kbdharun"
-    - "sebastiaanspeck"
 
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "monthly"
-    reviewers:
-    - "kbdharun"
-    - "sebastiaanspeck"
 
   - package-ecosystem: "pip"
     directory: "/scripts/pdf"
