@@ -1,6 +1,6 @@
 # gindent
 
-> Dit commando is een alias van `indent`.
+> Dit commando is een alias van GNU `indent`.
 
 - Bekijk de documentatie van het originele commando:
 

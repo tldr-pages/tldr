@@ -1,6 +1,6 @@
 # gshred
 
-> Dit commando is een alias van `shred`.
+> Dit commando is een alias van GNU `shred`.
 
 - Bekijk de documentatie van het originele commando:
 

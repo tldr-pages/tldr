@@ -1,6 +1,6 @@
 # gupdatedb
 
-> Dit commando is een alias van `updatedb`.
+> Dit commando is een alias van GNU `updatedb`.
 
 - Bekijk de documentatie van het originele commando:
 

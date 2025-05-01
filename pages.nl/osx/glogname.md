@@ -1,6 +1,6 @@
 # glogname
 
-> Dit commando is een alias van `logname`.
+> Dit commando is een alias van GNU `logname`.
 
 - Bekijk de documentatie van het originele commando:
 

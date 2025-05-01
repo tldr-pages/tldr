@@ -6,11 +6,11 @@
 
 - Pretty-print one or more graphs in canonical format:
 
-`nop {{path/to/input1.gv}} {{path/to/input2.gv ...}} > {{path/to/output.gv}}`
+`nop {{path/to/input1.gv path/to/input2.gv ...}} > {{path/to/output.gv}}`
 
 - Check one or more graphs for validity, producing no output graph:
 
-`nop -p {{path/to/input1.gv}} {{path/to/input2.gv ...}}`
+`nop -p {{path/to/input1.gv path/to/input2.gv ...}}`
 
 - Display help:
 

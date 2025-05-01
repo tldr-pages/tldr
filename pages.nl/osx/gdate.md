@@ -1,6 +1,6 @@
 # gdate
 
-> Dit commando is een alias van `date`.
+> Dit commando is een alias van GNU `date`.
 
 - Bekijk de documentatie van het originele commando:
 

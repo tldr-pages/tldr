@@ -1,6 +1,6 @@
 # gcut
 
-> Dit commando is een alias van `cut`.
+> Dit commando is een alias van GNU `cut`.
 
 - Bekijk de documentatie van het originele commando:
 

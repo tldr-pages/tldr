@@ -1,7 +1,7 @@
 # iwctl
 
 > Control the `iwd` network supplicant.
-> More information: <https://archive.kernel.org/oldwiki/iwd.wiki.kernel.org/gettingstarted.html>.
+> More information: <https://manned.org/iwctl>.
 
 - Start the interactive mode, in this mode you can enter the commands directly, with autocompletion:
 
@@ -9,7 +9,7 @@
 
 - Call general help:
 
-`iwctl --help`
+`iwctl {{[-h|--help]}}`
 
 - Display your Wi-Fi stations:
 

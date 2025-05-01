@@ -1,6 +1,6 @@
 # gunlink
 
-> Dit commando is een alias van `unlink`.
+> Dit commando is een alias van GNU `unlink`.
 
 - Bekijk de documentatie van het originele commando:
 
