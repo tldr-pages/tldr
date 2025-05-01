@@ -10,7 +10,7 @@
 
 - Include hidden files and entries listed in `.gitignore`:
 
-`rg {{[-.|--hidden --no-ignore]}} {{pattern}}`
+`rg {{[-.|--hidden]}} --no-ignore {{pattern}}`
 
 - Only search a subset of directories:
 
