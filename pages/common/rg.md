@@ -8,7 +8,7 @@
 
 `rg {{pattern}}`
 
-- Recursively search for pattern in path
+- Recursively search for pattern in path:
 
 `rg {{pattern}} {{path}}`
 
