@@ -6,7 +6,7 @@
 
 - Adjust one or more directed graphs to improve the layout aspect ratio:
 
-`unflatten {{path/to/input1.gv}} {{path/to/input2.gv ...}} > {{path/to/output.gv}}`
+`unflatten {{path/to/input1.gv path/to/input2.gv ...}} > {{path/to/output.gv}}`
 
 - Use `unflatten` as a preprocessor for `dot` layout to improve aspect ratio:
 
