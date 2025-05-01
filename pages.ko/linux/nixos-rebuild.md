@@ -33,4 +33,4 @@
 
 - 부트로더 메뉴에서와 같이 사용 가능한 세대를 나열합니다:
 
-`nixos-rebuild list-generations {{[--json]}}`
+`nixos-rebuild list-generations --json`
