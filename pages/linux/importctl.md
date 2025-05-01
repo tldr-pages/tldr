@@ -3,15 +3,15 @@
 > Download, Import, or Export disk images.
 > More information: <https://manned.org/importctl>.
 
-- [d]ownload image in tarball format from a url via pull:
+- Download image in tarball format from a url via pull:
 
-`sudo importctl pull-tar {URL} {path/to/directory}`
+`sudo importctl pull-tar {{URL}} {{path/to/directory}}`
 
-- [p]ull or download from a remote source that is either raw or qcow2 file, and stores it as a raw file:
+- Pull or download from a remote source that is either raw or qcow2 file, and stores it as a raw file:
 
-`sudo importctl pull-raw {{https:\\url\to\source.ext}} {{name}} --class={{[machine|portable|sysext|confext]}}`
+`sudo importctl pull-raw {{https:\\url\to\source.ext}} {{name}} --class={{machine|portable|sysext|confext}}`
 
-- [i]mport a raw disk image into the image directory that is possibly compressed with xz, gzip, or bzip2:
+- Import a raw disk image into the image directory that is possibly compressed with xz, gzip, or bzip2:
 
 `importctl import-raw {{path/to/file.ext}} {{name}} --class={{[machine|portable|sysext|confext]}}`
 
