@@ -34,4 +34,4 @@
 
 - Load a keymap from the specified file for the console:
 
-`loadkeys --console {{/dev/ttyN}} {{/path/to/file}}`
+`loadkeys {{[-C|--console]}} {{/dev/ttyN}} {{/path/to/file}}`
