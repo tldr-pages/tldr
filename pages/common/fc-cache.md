@@ -26,3 +26,7 @@
 - Scan system-wide directories (skip user's home directory):
 
 `fc-cache {{[-s|--system-only]}}`
+
+- Show version of the program:
+
+`fc-cache {{[-V|--version]}}`
