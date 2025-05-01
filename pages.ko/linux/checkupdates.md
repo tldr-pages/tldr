@@ -1,7 +1,7 @@
 # checkupdates
 
 > Arch Linux에서 보류 중인 업데이트를 확인합니다.
-> 더 많은 정보: <https://manned.org/checkupdates.8>.
+> 더 많은 정보: <https://manned.org/checkupdates>.
 
 - 보류 중인 업데이트 나열:
 
