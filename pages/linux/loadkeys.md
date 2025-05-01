@@ -31,3 +31,7 @@
 - Set a keymap for a specific console:
 
 `sudo loadkeys {{[-C|--console]}} {{/dev/ttyN}} {{uk}}`
+
+- Load a keymap from the specified file for the console:
+
+`loadkeys --console {{/dev/ttyN}} {{/path/to/file}}`
