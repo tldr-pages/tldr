@@ -1,6 +1,6 @@
 # gmd5sum
 
-> Dit commando is een alias van `md5sum`.
+> Dit commando is een alias van GNU `md5sum`.
 
 - Bekijk de documentatie van het originele commando:
 

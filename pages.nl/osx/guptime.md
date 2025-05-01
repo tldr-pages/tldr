@@ -1,6 +1,6 @@
 # guptime
 
-> Dit commando is een alias van `uptime`.
+> Dit commando is een alias van GNU `uptime`.
 
 - Bekijk de documentatie van het originele commando:
 

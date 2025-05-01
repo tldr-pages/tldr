@@ -1,6 +1,6 @@
 # gfactor
 
-> Dit commando is een alias van `factor`.
+> Dit commando is een alias van GNU `factor`.
 
 - Bekijk de documentatie van het originele commando:
 

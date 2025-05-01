@@ -1,7 +1,7 @@
 # mispipe
 
 > Pipe two commands and return the exit status of the first command.
-> More information: <https://joeyh.name/code/moreutils/>.
+> More information: <https://manned.org/mispipe>.
 
 - Pipe two commands and return the exit status of the first command:
 

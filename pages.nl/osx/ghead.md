@@ -1,6 +1,6 @@
 # ghead
 
-> Dit commando is een alias van `head`.
+> Dit commando is een alias van GNU `head`.
 
 - Bekijk de documentatie van het originele commando:
 

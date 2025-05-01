@@ -9,7 +9,7 @@
 
 - Mount a device to a directory:
 
-`mount {{[-t|--types]}} {{filesystem_type}} {{path/to/device_file}} {{path/to/target_directory}}`
+`mount {{path/to/device_file}} {{path/to/target_directory}}`
 
 - Create a specific directory if it does not exist and mount a device to it:
 
@@ -23,7 +23,7 @@
 
 `mount {{[-t|--types]}} {{iso9660}} {{[-o|--options]}} ro {{/dev/cdrom}} {{/cdrom}}`
 
-- Mount all the filesystem defined in `/etc/fstab`:
+- Mount all the filesystems defined in `/etc/fstab`:
 
 `mount {{[-a|--all]}}`
 
