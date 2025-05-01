@@ -9,12 +9,12 @@
 
 - Pull or download from a remote source that is either raw or qcow2 file, and stores it as a raw file:
 
-`sudo importctl pull-raw {{https:\\url\to\source.ext}} {{name}} --class={{machine|portable|sysext|confext}}`
+`sudo importctl pull-raw {{https://example.com/source.ext}} {{name}} --class={{machine|portable|sysext|confext}}`
 
 - Import a raw disk image into the image directory that is possibly compressed with xz, gzip, or bzip2:
 
-`importctl import-raw {{path/to/file.ext}} {{name}} --class={{[machine|portable|sysext|confext]}}`
+`importctl import-raw {{path/to/file.ext}} {{name}} --class={{machine|portable|sysext|confext}}`
 
-- [e]xport a container image as tarball into current working directory:
+- Export a container image as tarball into current working directory:
 
-`importctl export-tar --class={{[machine|portable|sysext|confext]}} {{name}} {{path/to/file.ext}}`
+`importctl export-tar --class={{machine|portable|sysext|confext}} {{name}} {{path/to/file.ext}}`
