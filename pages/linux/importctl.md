@@ -1,7 +1,7 @@
 # importctl
 
 > Download, Import, or Export disk images.
-> For More Information: <https://man7.org/linux/man-pages/man1/importctl.1.html>.
+> More information: <https://manned.org/importctl>.
 
 - [d]ownload image in tarball format from a url via pull:
 
