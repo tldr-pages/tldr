@@ -27,6 +27,6 @@
 
 `fc-cache {{[-s|--system-only]}}`
 
-- Show version of the program:
+- Display version:
 
 `fc-cache {{[-V|--version]}}`
