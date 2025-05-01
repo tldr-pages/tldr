@@ -9,4 +9,4 @@
 
 - Display help:
 
-`{{[-?|--help]}}`
+`localedef {{[-?|--help]}}`
