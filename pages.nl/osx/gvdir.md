@@ -1,6 +1,6 @@
 # gvdir
 
-> Dit commando is een alias van `vdir`.
+> Dit commando is een alias van GNU `vdir`.
 
 - Bekijk de documentatie van het originele commando:
 

@@ -1,6 +1,6 @@
 # ggrep
 
-> Dit commando is een alias van `grep`.
+> Dit commando is een alias van GNU `grep`.
 
 - Bekijk de documentatie van het originele commando:
 

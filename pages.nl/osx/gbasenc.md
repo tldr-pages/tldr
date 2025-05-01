@@ -1,6 +1,6 @@
 # gbasenc
 
-> Dit commando is een alias van `basenc`.
+> Dit commando is een alias van GNU `basenc`.
 
 - Bekijk de documentatie van het originele commando:
 

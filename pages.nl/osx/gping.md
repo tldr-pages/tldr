@@ -1,6 +1,6 @@
 # gping
 
-> Dit commando is een alias van `ping`.
+> Dit commando is een alias van GNU `ping`.
 
 - Bekijk de documentatie van het originele commando:
 

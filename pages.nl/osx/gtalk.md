@@ -1,6 +1,6 @@
 # gtalk
 
-> Dit commando is een alias van `talk`.
+> Dit commando is een alias van GNU `talk`.
 
 - Bekijk de documentatie van het originele commando:
 

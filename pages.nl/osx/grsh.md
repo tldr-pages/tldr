@@ -1,6 +1,6 @@
 # grsh
 
-> Dit commando is een alias van `rsh`.
+> Dit commando is een alias van GNU `rsh`.
 
 - Bekijk de documentatie van het originele commando:
 

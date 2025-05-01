@@ -1,6 +1,6 @@
 # gsed
 
-> Dit commando is een alias van `sed`.
+> Dit commando is een alias van GNU `sed`.
 
 - Bekijk de documentatie van het originele commando:
 

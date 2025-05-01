@@ -1,6 +1,6 @@
 # gcomm
 
-> Dit commando is een alias van `comm`.
+> Dit commando is een alias van GNU `comm`.
 
 - Bekijk de documentatie van het originele commando:
 
