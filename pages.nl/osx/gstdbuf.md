@@ -1,6 +1,6 @@
 # gstdbuf
 
-> Dit commando is een alias van `stdbuf`.
+> Dit commando is een alias van GNU `stdbuf`.
 
 - Bekijk de documentatie van het originele commando:
 

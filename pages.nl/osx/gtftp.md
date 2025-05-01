@@ -1,6 +1,6 @@
 # gtftp
 
-> Dit commando is een alias van `tftp`.
+> Dit commando is een alias van GNU `tftp`.
 
 - Bekijk de documentatie van het originele commando:
 

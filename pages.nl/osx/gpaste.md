@@ -1,6 +1,6 @@
 # gpaste
 
-> Dit commando is een alias van `paste`.
+> Dit commando is een alias van GNU `paste`.
 
 - Bekijk de documentatie van het originele commando:
 

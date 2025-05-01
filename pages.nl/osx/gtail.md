@@ -1,6 +1,6 @@
 # gtail
 
-> Dit commando is een alias van `tail`.
+> Dit commando is een alias van GNU `tail`.
 
 - Bekijk de documentatie van het originele commando:
 

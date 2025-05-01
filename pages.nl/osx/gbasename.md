@@ -1,6 +1,6 @@
 # gbasename
 
-> Dit commando is een alias van `basename`.
+> Dit commando is een alias van GNU `basename`.
 
 - Bekijk de documentatie van het originele commando:
 

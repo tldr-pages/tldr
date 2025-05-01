@@ -1,6 +1,6 @@
 # gnohup
 
-> Dit commando is een alias van `nohup`.
+> Dit commando is een alias van GNU `nohup`.
 
 - Bekijk de documentatie van het originele commando:
 

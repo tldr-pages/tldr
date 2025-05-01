@@ -1,6 +1,6 @@
 # gfold
 
-> Dit commando is een alias van `fold`.
+> Dit commando is een alias van GNU `fold`.
 
 - Bekijk de documentatie van het originele commando:
 

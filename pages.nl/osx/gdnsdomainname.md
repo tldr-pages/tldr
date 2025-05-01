@@ -1,6 +1,6 @@
 # gdnsdomainname
 
-> Dit commando is een alias van `dnsdomainname`.
+> Dit commando is een alias van GNU `dnsdomainname`.
 
 - Bekijk de documentatie van het originele commando:
 

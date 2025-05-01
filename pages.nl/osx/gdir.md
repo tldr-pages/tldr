@@ -1,6 +1,6 @@
 # gdir
 
-> Dit commando is een alias van `dir`.
+> Dit commando is een alias van GNU `dir`.
 
 - Bekijk de documentatie van het originele commando:
 

@@ -1,6 +1,6 @@
 # gawk
 
-> Dit commando is een alias van `awk`.
+> Dit commando is een alias van GNU `awk`.
 
 - Bekijk de documentatie van het originele commando:
 

@@ -1,6 +1,6 @@
 # gifconfig
 
-> Dit commando is een alias van `ifconfig`.
+> Dit commando is een alias van GNU `ifconfig`.
 
 - Bekijk de documentatie van het originele commando:
 

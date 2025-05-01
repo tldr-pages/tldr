@@ -1,6 +1,6 @@
 # gmkdir
 
-> Dit commando is een alias van `mkdir`.
+> Dit commando is een alias van GNU `mkdir`.
 
 - Bekijk de documentatie van het originele commando:
 

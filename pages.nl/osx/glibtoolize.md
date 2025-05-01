@@ -1,6 +1,6 @@
 # glibtoolize
 
-> Dit commando is een alias van `libtoolize`.
+> Dit commando is een alias van GNU `libtoolize`.
 
 - Bekijk de documentatie van het originele commando:
 

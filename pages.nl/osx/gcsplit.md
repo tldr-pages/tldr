@@ -1,6 +1,6 @@
 # gcsplit
 
-> Dit commando is een alias van `csplit`.
+> Dit commando is een alias van GNU `csplit`.
 
 - Bekijk de documentatie van het originele commando:
 

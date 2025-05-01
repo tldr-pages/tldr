@@ -1,6 +1,6 @@
 # glibtool
 
-> Dit commando is een alias van `libtool`.
+> Dit commando is een alias van GNU `libtool`.
 
 - Bekijk de documentatie van het originele commando:
 
