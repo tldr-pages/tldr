@@ -1,7 +1,7 @@
 # base64
 
 > बेस 64 प्रस्तुतीकरण का उपयोग करके कोड और डिकोड करें।
-> अधिक जानकारी: <https://keith.github.io/xcode-man-pages/base64.1.html>।
+> अधिक जानकारी: <https://keith.github.io/xcode-man-pages/bintrans.1>।
 
 - फ़ाइल को कोड करें:
 

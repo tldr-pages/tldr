@@ -19,10 +19,6 @@
 
 `swaylock --no-unlock-indicator`
 
-- 마우스 포인터를 숨기지 않고 화면 잠금:
-
-`swaylock --pointer {{default}}`
-
 - 모든 모니터에 타일 형식으로 PNG 배경 이미지로 화면 잠금:
 
 `swaylock --image {{경로/대상/파일.png}} --tiling`
