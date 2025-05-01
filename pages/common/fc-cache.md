@@ -21,7 +21,7 @@
 
 - Scan a specific directory:
 
-`fc-cache {{/path/to/directory}}`
+`fc-cache {{path/to/directory}}`
 
 - Scan system-wide directories (skip user's home directory):
 
