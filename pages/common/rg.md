@@ -8,13 +8,13 @@
 
 `rg {{pattern}}`
 
+- Recursively search path for pattern
+
+`rg {{pattern}} {{path}}`
+
 - Include hidden files and entries listed in `.gitignore`:
 
 `rg {{[-.|--hidden]}} --no-ignore {{pattern}}`
-
-- Only search a subset of directories:
-
-`rg {{pattern}} {{set_of_subdirs}}`
 
 - Only search the files who's names match the glob pattern(s) (e.g. `README.*`):
 
