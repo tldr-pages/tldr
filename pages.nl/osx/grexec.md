@@ -1,6 +1,6 @@
 # grexec
 
-> Dit commando is een alias van `rexec`.
+> Dit commando is een alias van GNU `rexec`.
 
 - Bekijk de documentatie van het originele commando:
 

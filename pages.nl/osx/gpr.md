@@ -1,6 +1,6 @@
 # gpr
 
-> Dit commando is een alias van `pr`.
+> Dit commando is een alias van GNU `pr`.
 
 - Bekijk de documentatie van het originele commando:
 

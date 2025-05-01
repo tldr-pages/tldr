@@ -1,6 +1,6 @@
 # ginstall
 
-> Dit commando is een alias van `install`.
+> Dit commando is een alias van GNU `install`.
 
 - Bekijk de documentatie van het originele commando:
 

@@ -1,6 +1,6 @@
 # glogger
 
-> Dit commando is een alias van `logger`.
+> Dit commando is een alias van GNU `logger`.
 
 - Bekijk de documentatie van het originele commando:
 

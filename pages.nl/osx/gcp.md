@@ -1,6 +1,6 @@
 # gcp
 
-> Dit commando is een alias van `cp`.
+> Dit commando is een alias van GNU `cp`.
 
 - Bekijk de documentatie van het originele commando:
 

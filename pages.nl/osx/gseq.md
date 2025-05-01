@@ -1,6 +1,6 @@
 # gseq
 
-> Dit commando is een alias van `seq`.
+> Dit commando is een alias van GNU `seq`.
 
 - Bekijk de documentatie van het originele commando:
 

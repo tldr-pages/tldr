@@ -1,6 +1,6 @@
 # gwc
 
-> Dit commando is een alias van `wc`.
+> Dit commando is een alias van GNU `wc`.
 
 - Bekijk de documentatie van het originele commando:
 

@@ -1,6 +1,6 @@
 # gsum
 
-> Dit commando is een alias van `sum`.
+> Dit commando is een alias van GNU `sum`.
 
 - Bekijk de documentatie van het originele commando:
 

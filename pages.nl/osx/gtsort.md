@@ -1,6 +1,6 @@
 # gtsort
 
-> Dit commando is een alias van `tsort`.
+> Dit commando is een alias van GNU `tsort`.
 
 - Bekijk de documentatie van het originele commando:
 

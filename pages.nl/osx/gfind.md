@@ -1,6 +1,6 @@
 # gfind
 
-> Dit commando is een alias van `find`.
+> Dit commando is een alias van GNU `find`.
 
 - Bekijk de documentatie van het originele commando:
 
