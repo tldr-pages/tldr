@@ -9,7 +9,7 @@
 
 - 보류 중인 업데이트를 나열하고 패키지를 `pacman` 캐시에 다운로드:
 
-`checkupdates --download`
+`checkupdates {{[-d|--download]}}`
 
 - 특정 `pacman` 데이터베이스를 사용하여 보류 중인 업데이트 나열:
 
@@ -17,4 +17,4 @@
 
 - 도움말 표시:
 
-`checkupdates --help`
+`checkupdates {{[-h|--help]}}`
