@@ -23,7 +23,7 @@
 
 `fc-cache {{path/to/directory}}`
 
-- Scan system-wide directories (skip user's home directory):
+- Scan system-wide directories, skipping the user's home directory:
 
 `fc-cache {{[-s|--system-only]}}`
 
