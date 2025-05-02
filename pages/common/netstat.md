@@ -10,7 +10,7 @@
 
 - List all listening ports:
 
-`netstat --listening`
+`netstat {{-l|--listening]}}`
 
 - List listening TCP ports:
 
