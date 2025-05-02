@@ -26,4 +26,5 @@
 
 - Toon de versie:
 
-`git --version`
+`git {{[-v|--version]}}`
+

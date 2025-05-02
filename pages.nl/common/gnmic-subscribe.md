@@ -13,7 +13,7 @@
 
 - Abonneer op een doel met een interval en alleen op updates bij verandering:
 
-`gnmic {{[-a|--address]}} {{ip:poort}} subscribe --path {{pad}} --stream-mode on-change --heartbeat-interval 1m`
+`gnmic {{[-a|--address]}} {{ip:poort}} subscribe --path {{pad}} --stream-mode on-change --heartbeat-interval {{1m}}`
 
 - Abonneer op een doel voor alleen een update:
 
