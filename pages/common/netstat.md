@@ -30,4 +30,4 @@
 
 - List listening TCP and UDP ports (+ user and process if you're root):
 
-`netstat {{[-lpntue|--listening --program --numeric --tcp --udp --extend]}}`
+`netstat {{[-tulpne|--tcp --udp --listening --program --numeric --extend]}}`
