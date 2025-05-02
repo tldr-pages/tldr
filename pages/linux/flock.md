@@ -1,17 +1,17 @@
 # flock
 
-> Manage locks from shell scripts.
-> It can be used to ensure that only one process of a command is running.
-> More information: <https://manned.org/flock>.
+> Beheer locks van shell scripts.
+> Het kan gebruikt worden om ervoor te zorgen dat slechts één proces van een commando draait.
+> Meer informatie: <https://manned.org/flock>.
 
-- Run a command with a file lock as soon as the lock is not required by others:
+- Voer een commando met een bestandslock uit zodra het lock niet meer nodig is voor anderen:
 
-`flock {{path/to/lock.lock}} {{[-c|--command]}} "{{command}}"`
+`flock {{path/to/lock.lock}} {{[-c|--command]}} "{{commando}}"`
 
-- Run a command with a file lock, and exit if the lock doesn't exist:
+- Voer een opdracht uit met een bestandslock en sluit af als het lock niet bestaat:
 
-`flock {{path/to/lock.lock}} {{[-n|--nonblock]}} {{[-c|--command]}} "{{command}}"`
+`flock {{pad/tot/lock.lock}} {{[-n|--nonblock]}} {{[-c|--command]}} "{{commando}}"`
 
-- Run a command with a file lock, and exit with a specific error code if the lock doesn't exist:
+- Voer een opdracht uit met een bestandslock en sluit af met een specifieke foutcode als het lock niet bestaat:
 
-`flock {{path/to/lock.lock}} {{[-n|--nonblock]}} {{[-E|--conflict-exit-code]}} {{error_code}} {{[-c|--command]}} "{{command}}"`
+`flock {{pad/tot/lock.lock}} {{[-n|--nonblock]}} {{[-E|--conflict-exit-code]}} {{error_code}} {{[-c|--command]}} "{{commando}}"`
