@@ -21,7 +21,7 @@
 
 - Zoek recursief in alle bestanden in een map voor een patroon, maar negeer binaire bestanden:
 
-`egrep --recursive --binary-files={{without-match}} "{{zoekpatroon}}" {{pad/naar/map}}`
+`egrep {{[-r|--recursive]}} --binary-files={{without-match}} "{{zoekpatroon}}" {{pad/naar/map}}`
 
 - Zoek voor regels die niet voldoen aan een patroon:
 
