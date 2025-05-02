@@ -22,7 +22,7 @@
 
 - List information continuously:
 
-`netstat --continuous`
+`netstat {{[-c|--continuous]}}`
 
 - List routes and do not resolve IP addresses to hostnames:
 
