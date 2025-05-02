@@ -22,4 +22,4 @@
 
 - Tampilkan entri yang ada dalam pangkalan data `autojump`:
 
-`j -s`
+`j {{[-s|--stat]}}`
