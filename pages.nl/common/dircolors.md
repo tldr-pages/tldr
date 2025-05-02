@@ -17,12 +17,12 @@
 
 - Geef commando's weer voor de Bourne-shell:
 
-`dircolors --bourne-shell`
+`dircolors {{[-b|--bourne-shell]}}`
 
 - Geef commando's weer voor de C-shell:
 
-`dircolors --c-shell`
+`dircolors {{[-c|--c-shell]}}`
 
 - Bekijk de standaardkleuren voor bestandstypen en extensies:
 
-`dircolors --print-data`
+`dircolors {{[-p|--print-database]}}`
