@@ -32,6 +32,6 @@
 
 `rg {{[-v|--invert-match]}} {{pattern}}`
 
-- Search a literal string pattern:
+- Search for a literal string pattern:
 
 `rg {{[-F|--fixed-strings]}} -- {{string}}`
