@@ -14,13 +14,13 @@
 
 - Voer een Git-subcommando met een gegeven configuratieset:
 
-`git -c '{{config.sleutel}}={{waarde}}' {{subcommando}}`
+`git -c '{{config.key}}={{waarde}}' {{subcommando}}`
 
 - Toon de algemene help:
 
-`git --help`
+`git {{[-h|--help]}}`
 
-- Toon de help van een specifiek subcommando (zoals `commit`, `log`, enz.):
+- Toon de help van een specifiek subcommando (zoals `clone`, `add`, `push`, `log`, enz.):
 
 `git help {{subcommando}}`
 
