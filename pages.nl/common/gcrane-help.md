@@ -5,7 +5,7 @@
 
 - Toon help voor een subcommando:
 
-`gcrane help {{command}}`
+`gcrane help {{commando}}`
 
 - Toon de help:
 
