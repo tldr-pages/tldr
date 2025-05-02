@@ -13,8 +13,8 @@
 
 - Encodeer `stdin` met base32 encoding met 42 kolommen:
 
-`{{command}} | basenc --base32 {{[-w|--wrap]}} 42`
+`{{commando}} | basenc --base32 {{[-w|--wrap]}} 42`
 
 - Encodeer `stdin` met base32 encoding:
 
-`{{command}} | basenc --base32`
+`{{commando}} | basenc --base32`

@@ -9,7 +9,7 @@
 
 - Maak verbinding met een TFTP-server en voer een TFTP-[c]ommand uit:
 
-`tftp {{server_ip}} -c {{command}}`
+`tftp {{server_ip}} -c {{commando}}`
 
 - Maak verbinding met een TFTP-server met IPv6 en forceer dat de oorspronkelijke poort binnen een [R]ange ligt:
 
