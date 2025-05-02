@@ -14,7 +14,7 @@
 
 - List listening TCP ports:
 
-`netstat --tcp`
+`netstat {{-t|--tcp]}}`
 
 - Display PID and program names:
 
