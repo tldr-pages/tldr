@@ -26,7 +26,7 @@
 
 - List routes and do not resolve IP addresses to hostnames:
 
-`netstat --route --numeric`
+`netstat {{[-rn|--route --numeric]}}`
 
 - List listening TCP and UDP ports (+ user and process if you're root):
 
