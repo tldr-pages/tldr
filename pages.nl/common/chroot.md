@@ -1,12 +1,12 @@
 # chroot
 
-> Voer commando of interactieve shell uit met een speciale hoofdmap.
+> Voer een commando of interactieve shell uit met een speciale hoofdmap.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chroot-invocation.html>.
 
-- Voer commando uit met gegeven hoofdmap:
+- Voer het commando uit als nieuwe hoofdmap:
 
-`chroot {{pad/naar/nieuwe/hoofdmap}} {{commando}}`
+`sudo chroot {{pad/naar/nieuwe/hoofdmap}} {{commando}}`
 
-- Specificeer gebruiker en groep (ID of naam) om te gebruiken:
+- Gebruik een specifieke gebruiker en groep:
 
-`chroot --userspec={{gebruiker:groep}}`
+`sudo chroot --userspec {{gebruikersnaam_of_id:groep_naam_of_id}}`
