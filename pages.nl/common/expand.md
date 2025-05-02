@@ -13,12 +13,12 @@
 
 - Vervang geen tabs na een karakter:
 
-`expand -i {{pad/naar/bestand}}`
+`expand {{[-i|--initial]}} {{pad/naar/bestand}}`
 
 - Laat tabs een bepaald aantal tekens uit elkaar staan, niet 8:
 
-`expand -t {{nummer}} {{pad/naar/bestand}}`
+`expand {{[-t|--tabs]}} {{pad/naar/bestand}}`
 
 - Gebruik een door komma's gescheiden lijst met expliciete tabposities:
 
-`expand -t {{1,4,6}}`
+`expand {{[-t|--tabs]}} {{1,4,6}}`

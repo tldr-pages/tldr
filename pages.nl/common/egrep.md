@@ -17,7 +17,7 @@
 
 - Toon de bestandsnaam en het regelnummer voor iedere overeenkomst:
 
-`egrep --with-filename --line-number "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`egrep {{[-H|--with-filename]}} {{[-n|--line-number]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
 - Zoek recursief in alle bestanden in een map voor een patroon, maar negeer binaire bestanden:
 
@@ -25,4 +25,4 @@
 
 - Zoek voor regels die niet voldoen aan een patroon:
 
-`egrep --invert-match "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`egrep {{[-v|--invert-match]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
