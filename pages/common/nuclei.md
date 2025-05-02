@@ -21,7 +21,7 @@
 
 - Run all templates using a different [r]ate [l]imit and maximum [b]ulk [s]ize with silent output (only showing the findings):
 
-`nuclei {{[-rl|-rate-limit]}} {{150}} {{[-bs|-bulk-size]}} {{25}} {{[-cv|-concurrency]}} {{25}} -silent {{[-u|-target]}} {{http://scanme.sh}}`
+`nuclei {{[-rl|-rate-limit]}} {{150}} {{[-bs|-bulk-size]}} {{25}} {{[-c|-concurrency]}} {{25}} -silent {{[-u|-target]}} {{http://scanme.sh}}`
 
 - Run the WordPress [w]orkflow against a WordPress site:
 
