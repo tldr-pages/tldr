@@ -27,4 +27,3 @@
 - Toon de versie:
 
 `git {{[-v|--version]}}`
-
