@@ -5,8 +5,8 @@
 
 - Voer commando uit met gegeven hoofdmap:
 
-`chroot {{pad/naar/nieuwe/hoofdmap}} {{commando}}`
+`sudo chroot {{pad/naar/nieuwe/hoofdmap}} {{commando}}`
 
 - Specificeer gebruiker en groep (ID of naam) om te gebruiken:
 
-`chroot --userspec={{gebruiker:groep}}`
+`sudo chroot --userspec={{gebruiker:groep}}`
