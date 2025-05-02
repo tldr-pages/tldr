@@ -6,7 +6,7 @@
 
 - List all ports:
 
-`netstat --all`
+`netstat {{[-a|--all]}}`
 
 - List all listening ports:
 
