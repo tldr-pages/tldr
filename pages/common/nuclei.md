@@ -29,7 +29,7 @@
 
 - Run one or more specific [t]emplates or directory with [t]emplates with [v]erbose output in `stderr` and [o]utput detected issues/vulnerabilities to a file:
 
-`nuclei {{[-t|-templates]}} {{path/to/nuclei-templates/http}} {{[-u|-target]}} {{http://scanme.sh}} {{[-v|-var]}} {{[-o|-output]}} {{results}}`
+`nuclei {{[-t|-templates]}} {{path/to/nuclei-templates/http}} {{[-u|-target]}} {{http://scanme.sh}} {{[-v|-verbose]}} {{[-o|-output]}} {{results}}`
 
 - Run scan based on one or more [t]emplate [c]onditions:
 
