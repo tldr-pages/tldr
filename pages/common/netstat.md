@@ -18,7 +18,7 @@
 
 - Display PID and program names:
 
-`netstat --program`
+`netstat {{[-p|--program]}}`
 
 - List information continuously:
 
