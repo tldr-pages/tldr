@@ -20,7 +20,7 @@
 
 `rg {{pattern}} {{[-g|--glob]}} {{filename_glob_pattern}}`
 
-- Recursively list filenames in the current directory that match pattern:
+- Recursively list filenames in the current directory that match a pattern:
 
 `rg --files | rg {{pattern}}`
 
