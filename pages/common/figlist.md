@@ -1,6 +1,6 @@
 # figlist
 
-> Lists the figlet fonts and control files.
+> List the figlet fonts and control files.
 > See also: `figlet`, `showfigfonts`, `chkfont`.
 > More information: <https://manned.org/figlist>.
 
