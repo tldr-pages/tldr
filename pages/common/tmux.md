@@ -19,7 +19,7 @@
 
 - Attach to the most recently used session:
 
-`tmux attach`
+`tmux {{[a|attach]}}`
 
 - Detach from the current session (inside a tmux session):
 
