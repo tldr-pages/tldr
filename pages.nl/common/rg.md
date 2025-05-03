@@ -20,13 +20,17 @@
 
 `rg {{patroon}} --glob {{glob}}`
 
+- Toon recursief de bestandsnamen welke overeenkomen met een pattern:
+
+`rg --files | rg {{pattern}}`
+
 - Toon alleen overeenkomende bestanden (handig bij het doorsturen naar andere commando's):
 
 `rg {{[-l|--files-with-matches]}}`
 
 - Toon regels die niet overeenkomen met de gegeven reguliere expressie:
 
-`rg {{[-v--invert-match]}} {{patroon}}`
+`rg {{[-v|--invert-match]}} {{patroon}}`
 
 - Zoek naar een letterlijk string pattroon:
 
