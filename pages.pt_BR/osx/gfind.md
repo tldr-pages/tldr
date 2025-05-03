@@ -1,7 +1,7 @@
 # gfind
 
-> Este comando é um apelido de `-p linux find`.
+> Este comando é um apelido de `find`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux find`
+`tldr find`

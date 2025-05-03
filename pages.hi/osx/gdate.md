@@ -1,7 +1,7 @@
 # gdate
 
-> यह आदेश `-p linux date` का उपनाम है।
+> यह आदेश `date` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux date`
+`tldr {{[-p|--platform]}} common date`

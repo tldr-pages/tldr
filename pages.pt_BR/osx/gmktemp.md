@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux mktemp`
+`tldr {{[-p|--platform]}} linux mktemp`

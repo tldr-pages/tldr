@@ -1,7 +1,7 @@
 # gping
 
-> 这是 `-p linux ping` 命令的一个别名。
+> 这是 `ping` 命令的一个别名。
 
 - 原命令的文档在：
 
-`tldr -p linux ping`
+`tldr {{[-p|--platform]}} common ping`

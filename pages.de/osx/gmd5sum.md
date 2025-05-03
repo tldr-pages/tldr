@@ -1,7 +1,7 @@
 # gmd5sum
 
-> Dieser Befehl ist ein Alias von `-p linux md5sum`.
+> Dieser Befehl ist ein Alias von `md5sum`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux md5sum`
+`tldr md5sum`

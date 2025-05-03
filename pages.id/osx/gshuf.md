@@ -1,7 +1,7 @@
 # gshuf
 
-> Perintah ini merupakan alias dari `-p linux shuf`.
+> Perintah ini merupakan alias dari `shuf`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux shuf`
+`tldr {{[-p|--platform]}} coomon shuf`

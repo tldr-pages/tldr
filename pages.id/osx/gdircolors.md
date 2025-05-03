@@ -1,7 +1,7 @@
 # gdircolors
 
-> Perintah ini merupakan alias dari `-p linux dircolors`.
+> Perintah ini merupakan alias dari `dircolors`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux dircolors`
+`tldr dircolors`

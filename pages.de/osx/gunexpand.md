@@ -1,7 +1,7 @@
 # gunexpand
 
-> Dieser Befehl ist ein Alias von `-p linux unexpand`.
+> Dieser Befehl ist ein Alias von `unexpand`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux unexpand`
+`tldr unexpand`

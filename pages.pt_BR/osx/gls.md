@@ -1,7 +1,7 @@
 # gls
 
-> Este comando é um apelido de `-p linux ls`.
+> Este comando é um apelido de `ls`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux ls`
+`tldr ls`

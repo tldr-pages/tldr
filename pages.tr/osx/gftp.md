@@ -1,7 +1,7 @@
 # gftp
 
-> Bu komut `-p linux ftp` için bir takma addır.
+> Bu komut `ftp` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux ftp`
+`tldr ftp`

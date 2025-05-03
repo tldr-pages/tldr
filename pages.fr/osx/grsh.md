@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux rsh`
+`tldr {{[-p|--platform]}} linux rsh`

@@ -1,7 +1,7 @@
 # gtouch
 
-> Este comando é um alias de `-p linux touch`.
+> Este comando é um alias de `touch`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux touch`
+`tldr touch`

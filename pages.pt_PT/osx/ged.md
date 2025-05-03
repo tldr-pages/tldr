@@ -1,7 +1,7 @@
 # ged
 
-> Este comando é um alias de `-p linux ed`.
+> Este comando é um alias de `ed`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux ed`
+`tldr ed`

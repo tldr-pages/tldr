@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux csplit`
+`tldr {{[-p|--platform]}} linux csplit`

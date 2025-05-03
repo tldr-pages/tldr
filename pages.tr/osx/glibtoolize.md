@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux libtoolize`
+`tldr {{[-p|--platform]}} linux libtoolize`

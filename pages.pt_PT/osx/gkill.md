@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux kill`
+`tldr {{[-p|--platform]}} linux kill`
