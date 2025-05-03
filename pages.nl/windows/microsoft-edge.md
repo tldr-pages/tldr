@@ -1,12 +1,12 @@
 # microsoft-edge
 
-> De command-line utility van Microsoft Edge is beschikbaar als `msedge` op Windows en `microsoft-edge` op andere platforms.
+> De command-line utility van Microsoft Edge is beschikbaar als `msedge` voor Windows en `microsoft-edge` voor andere platforms.
 > Meer informatie: <https://microsoft.com/edge>.
 
-- Bekijk de documentatie van Microsoft Edge op Windows:
+- Bekijk de documentatie voor Microsoft Edge voor Windows:
 
-`tldr -p windows msedge`
+`tldr {{[-p|--platform]}} windows msedge`
 
-- Bekijk de documentatie van Microsoft Edge op andere platforms:
+- Bekijk de documentatie voor Microsoft Edge voor andere platforms:
 
-`tldr -p common microsoft-edge`
+`tldr {{[-p|--platform]}} common microsoft-edge`
