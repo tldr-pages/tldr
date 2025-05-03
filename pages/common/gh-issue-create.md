@@ -21,7 +21,7 @@
 
 - Create a new issue interactively, reading the body text from a file:
 
-`gh issue create {{[-Fľ--body-file]}} {{path/to/file}}`
+`gh issue create {{[-F|--body-file]}} {{path/to/file}}`
 
 - Create a new issue in the default web browser:
 
