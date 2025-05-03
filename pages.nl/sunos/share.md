@@ -1,4 +1,4 @@
-# delen
+# share
 
 > Maak lokale bron/bestandssysteem beschikbaar voor mounten door systemen op afstand.
 > Meer informatie: <https://docs.oracle.com/cd/E36784_01/html/E36825/gntjt.html>.
@@ -21,4 +21,4 @@
 
 - Maak delen persistent door entries toe te voegen aan `/etc/dfs/dfstab`:
 
-`echo “share -F nfs -o rw {{/pad/naar/map}}” >> /etc/dfs/dfstab`
+`echo "share -F nfs -o rw {{/pad/naar/map}}" >> /etc/dfs/dfstab`
