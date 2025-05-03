@@ -14,7 +14,7 @@
 
 - Een crashrapport verwijderen:
 
-`abrt-cli remove {{probleblem_id}}`
+`abrt-cli remove {{probleem_id}}`
 
 - Een probleem rapporteren aan de geconfigureerde bugtracker (bijv. Bugzilla):
 
