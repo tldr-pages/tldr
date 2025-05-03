@@ -6,12 +6,12 @@
 
 - 다른 사람이 잠금을 요구하지 않는 즉시 파일 잠금과 함께 명령을 실행:
 
-`flock {{경로/대상/락.lock}} --command "{{명령어}}"`
+`flock {{경로/대상/락.lock}} {{[-c|--command]}} "{{명령어}}"`
 
 - 파일 잠금을 사용하여 명령을 실행하고, 잠금이 존재하지 않으면 종료:
 
-`flock {{경로/대상/락.lock}} --nonblock --command "{{명령어}}"`
+`flock {{경로/대상/락.lock}} {{[-n|--nonblock]}} {{[-c|--command]}} "{{명령어}}"`
 
 - 파일 잠금을 사용하여, 명령을 실행하고 잠금이 존재하면 않으면 특정 오류 코드로 종료:
 
-`flock {{경로/대상/락.lock}} --nonblock --conflict-exit-code {{에러_코드}} -c "{{명령어}}"`
+`flock {{경로/대상/락.lock}} {{[-n|--nonblock]}} {{[-E|--conflict-exit-code]}} {{에러_코드}} {{[-c|--command]}} "{{명령어}}"`
