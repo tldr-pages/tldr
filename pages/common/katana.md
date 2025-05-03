@@ -12,10 +12,6 @@
 
 `katana -u {{https://example.com}} {{[-hl|-headless]}}`
 
-- Use `subfinder` to find subdomains, and then use [p]a[s]sive sources (Wayback Machine, Common Crawl, and AlienVault) for URL discovery:
-
-`subfinder {{[-dL|-list]}} {{path/to/domains.txt}} | katana -passive`
-
 - Pass requests through a proxy (http/socks5) and use custom headers from a file:
 
 `katana -proxy {{http://127.0.0.1:8080}} {{[-H|-headers]}} {{path/to/headers.txt}} -u {{https://example.com}}`
