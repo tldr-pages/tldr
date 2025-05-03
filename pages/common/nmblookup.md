@@ -5,8 +5,8 @@
 
 - Find hosts in the local network with SMB shares:
 
-`nmblookup -S '*'`
+`nmblookup {{[-S|--status]}} '*'`
 
 - Find hosts in the local network with SMB shares run by SAMBA:
 
-`nmblookup --status __SAMBA__`
+`nmblookup {{[-S|--status]}} __SAMBA__`
