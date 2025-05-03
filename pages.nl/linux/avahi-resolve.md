@@ -3,7 +3,7 @@
 > Vertaal tussen hostnamen en IP-adressen.
 > Meer informatie: <https://www.avahi.org/>.
 
-- Zet een lokale service om naar zijn IPv4:
+- Zet een lokale service om naar zijn IPv4-adres:
 
 `avahi-resolve -4 {{[-n|--name]}} {{service.local}}`
 
