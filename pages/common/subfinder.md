@@ -2,7 +2,7 @@
 
 > Discover valid subdomains for websites.
 > Designed as a passive framework to be useful for bug bounties and safe for penetration testing.
-> More information: <https://github.com/projectdiscovery/subfinder>.
+> More information: <https://docs.projectdiscovery.io/tools/subfinder/running>.
 
 - Find subdomains for a specific domain:
 
