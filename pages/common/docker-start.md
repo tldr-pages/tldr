@@ -5,7 +5,7 @@
 
 - Display help:
 
-`docker start`
+`docker start --help`
 
 - Start a Docker container:
 
