@@ -1,7 +1,7 @@
 # ginstall
 
-> Questo comando è un alias per `-p linux install`.
+> Questo comando è un alias per `install`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux install`
+`tldr install`

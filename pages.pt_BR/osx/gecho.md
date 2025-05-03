@@ -1,7 +1,7 @@
 # gecho
 
-> Este comando é um apelido de `-p linux echo`.
+> Este comando é um apelido de `echo`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux echo`
+`tldr echo`

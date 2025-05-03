@@ -1,7 +1,7 @@
 # ggroups
 
-> Questo comando è un alias per `-p linux groups`.
+> Questo comando è un alias per `groups`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux groups`
+`tldr groups`

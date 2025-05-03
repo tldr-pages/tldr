@@ -1,7 +1,7 @@
 # glogname
 
-> Este comando é um apelido de `-p linux logname`.
+> Este comando é um apelido de `logname`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux logname`
+`tldr logname`

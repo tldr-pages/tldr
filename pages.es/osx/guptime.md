@@ -1,7 +1,7 @@
 # guptime
 
-> Este comando es un alias de `-p linux uptime`.
+> Este comando es un alias de `uptime`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux uptime`
+`tldr {{[-p|--platform]}} common uptime`

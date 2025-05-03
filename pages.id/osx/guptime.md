@@ -1,7 +1,7 @@
 # guptime
 
-> Perintah ini merupakan alias dari `-p linux uptime`.
+> Perintah ini merupakan alias dari `uptime`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux uptime`
+`tldr {{[-p|--platform]}} common uptime`

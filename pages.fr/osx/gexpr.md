@@ -1,7 +1,7 @@
 # gexpr
 
-> Cette commande est un alias de `-p linux expr`.
+> Cette commande est un alias de `expr`.
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux expr`
+`tldr expr`

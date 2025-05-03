@@ -1,7 +1,7 @@
 # gfalse
 
-> Este comando é um apelido de `-p linux false`.
+> Este comando é um apelido de `false`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux false`
+`tldr false`

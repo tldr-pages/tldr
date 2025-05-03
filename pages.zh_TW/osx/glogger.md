@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux logger`
+`tldr {{[-p|--platform]}} linux logger`

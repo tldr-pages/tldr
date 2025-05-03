@@ -1,7 +1,7 @@
 # gtty
 
-> Bu komut `-p linux tty` için bir takma addır.
+> Bu komut `tty` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux tty`
+`tldr tty`

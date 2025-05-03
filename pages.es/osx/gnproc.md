@@ -1,7 +1,7 @@
 # gnproc
 
-> Este comando es un alias de `-p linux nproc`.
+> Este comando es un alias de `nproc`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux nproc`
+`tldr nproc`

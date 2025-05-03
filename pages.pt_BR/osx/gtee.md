@@ -1,7 +1,7 @@
 # gtee
 
-> Este comando é um apelido de `-p linux tee`.
+> Este comando é um apelido de `tee`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux tee`
+`tldr tee`
