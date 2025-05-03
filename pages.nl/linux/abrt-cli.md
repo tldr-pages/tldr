@@ -10,7 +10,7 @@
 
 - Toon details van een specifiek probleem:
 
-`abrt-cli info {{problebleemm_id}}`
+`abrt-cli info {{probleem_id}}`
 
 - Een crashrapport verwijderen:
 
