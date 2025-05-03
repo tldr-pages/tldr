@@ -17,7 +17,7 @@
 
 - Unterdrücke Bitweise Ausgabe:
 
-`ipcalc -b {{1.2.3.4}}/{{30}}`
+`ipcalc {{[-b|--nobinary]}} {{192.168.0.1}}`
 
 - Teil ein Netzwerk in Blöcke der angegebenen Größe auf:
 
