@@ -9,7 +9,7 @@
 
 - Change the terminal font by specifying a path:
 
-`setfont /usr/share/kbd/{{mapping}}/{{font}}.gz`
+`setfont /usr/share/kbd/{{mapping}}/{{font.ext}}`
 
 - Double font size:
 
