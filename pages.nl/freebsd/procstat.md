@@ -13,7 +13,7 @@
 
 - Geef procesargumenten weer:
 
-`procstat argumenten {{pid}}`
+`procstat arguments {{pid}}`
 
 - Toon bron limieten van een proces:
 
