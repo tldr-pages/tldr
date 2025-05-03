@@ -1,6 +1,6 @@
 # god
 
-> Dit commando is een alias van `od`.
+> Dit commando is een alias van GNU `od`.
 
 - Bekijk de documentatie van het originele commando:
 

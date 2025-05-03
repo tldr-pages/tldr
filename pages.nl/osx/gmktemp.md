@@ -1,6 +1,6 @@
 # gmktemp
 
-> Dit commando is een alias van `mktemp`.
+> Dit commando is een alias van GNU `mktemp`.
 
 - Bekijk de documentatie van het originele commando:
 

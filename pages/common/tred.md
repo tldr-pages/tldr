@@ -6,7 +6,7 @@
 
 - Construct the transitive reduction graph of one or more directed graphs:
 
-`tred {{path/to/input1.gv}} {{path/to/input2.gv ...}} > {{path/to/output.gv}}`
+`tred {{path/to/input1.gv path/to/input2.gv ...}} > {{path/to/output.gv}}`
 
 - Display help:
 

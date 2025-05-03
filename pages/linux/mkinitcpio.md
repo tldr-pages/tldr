@@ -1,6 +1,6 @@
 # mkinitcpio
 
-> Generates initial ramdisk environments for booting the Linux kernel based on the specified preset(s).
+> Generate initial ramdisk environments for booting the Linux kernel based on the specified preset(s).
 > More information: <https://manned.org/mkinitcpio.8>.
 
 - Perform a dry run (print what would be done without actually doing it):

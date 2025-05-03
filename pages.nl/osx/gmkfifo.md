@@ -1,6 +1,6 @@
 # gmkfifo
 
-> Dit commando is een alias van `mkfifo`.
+> Dit commando is een alias van GNU `mkfifo`.
 
 - Bekijk de documentatie van het originele commando:
 

@@ -1,6 +1,6 @@
 # gnl
 
-> Dit commando is een alias van `nl`.
+> Dit commando is een alias van GNU `nl`.
 
 - Bekijk de documentatie van het originele commando:
 
