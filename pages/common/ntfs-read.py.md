@@ -8,7 +8,7 @@
 
 `ntfs-read.py {{volume}}`
 
-- Extract a specific file from an NTFS volume (e.g., \windows\system32\config\sam):
+- Extract a specific file from an NTFS volume (e.g., `\windows\system32\config\sam`):
 
 `ntfs-read.py -extract {{\windows\system32\config\sam}} {{volume}}`
 
