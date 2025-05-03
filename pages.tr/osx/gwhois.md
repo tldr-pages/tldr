@@ -1,7 +1,7 @@
 # gwhois
 
-> Bu komut `-p linux whois` için bir takma addır.
+> Bu komut `whois` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr {{[-p|--platform]}} linux whois`
+`tldr whois`

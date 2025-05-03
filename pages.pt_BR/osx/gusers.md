@@ -1,7 +1,7 @@
 # gusers
 
-> Este comando é um apelido de `-p linux users`.
+> Este comando é um apelido de `users`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr {{[-p|--platform]}} linux users`
+`tldr users`

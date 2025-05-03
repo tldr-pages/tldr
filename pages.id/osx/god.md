@@ -1,7 +1,7 @@
 # god
 
-> Perintah ini merupakan alias dari `-p linux od`.
+> Perintah ini merupakan alias dari `od`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr {{[-p|--platform]}} linux od`
+`tldr od`

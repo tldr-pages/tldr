@@ -1,6 +1,6 @@
 # gtftp
 
-> Este comando es un alias de `-p linux tftp`.
+> Este comando es un alias de GNU `tftp`.
 
 - Muestra la documentación del comando original:
 

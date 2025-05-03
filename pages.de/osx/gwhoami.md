@@ -1,7 +1,7 @@
 # gwhoami
 
-> Dieser Befehl ist ein Alias von `-p linux whoami`.
+> Dieser Befehl ist ein Alias von `whoami`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr {{[-p|--platform]}} linux whoami`
+`tldr whoami`

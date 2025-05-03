@@ -1,7 +1,7 @@
 # gfactor
 
-> Dieser Befehl ist ein Alias von `-p linux factor`.
+> Dieser Befehl ist ein Alias von `factor`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr {{[-p|--platform]}} linux factor`
+`tldr factor`

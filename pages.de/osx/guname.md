@@ -1,7 +1,7 @@
 # guname
 
-> Dieser Befehl ist ein Alias von `-p linux uname`.
+> Dieser Befehl ist ein Alias von `uname`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr {{[-p|--platform]}} linux uname`
+`tldr {{[-p|--platform]}} common uname`

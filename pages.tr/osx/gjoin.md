@@ -1,7 +1,7 @@
 # gjoin
 
-> Bu komut `-p linux join` için bir takma addır.
+> Bu komut `join` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr {{[-p|--platform]}} linux join`
+`tldr join`

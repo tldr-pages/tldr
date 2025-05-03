@@ -1,7 +1,7 @@
 # gunlink
 
-> Perintah ini merupakan alias dari `-p linux unlink`.
+> Perintah ini merupakan alias dari `unlink`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr {{[-p|--platform]}} linux unlink`
+`tldr unlink`

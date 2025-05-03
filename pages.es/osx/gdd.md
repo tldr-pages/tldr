@@ -1,6 +1,6 @@
 # gdd
 
-> Este comando es un alias de `-p linux dd`.
+> Este comando es un alias de GNU `dd`.
 
 - Muestra la documentación del comando original:
 

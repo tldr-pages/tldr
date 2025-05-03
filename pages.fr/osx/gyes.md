@@ -1,7 +1,7 @@
 # gyes
 
-> Cette commande est un alias de `-p linux yes`.
+> Cette commande est un alias de `yes`.
 
 - Voir la documentation de la commande originale :
 
-`tldr {{[-p|--platform]}} linux yes`
+`tldr yes`

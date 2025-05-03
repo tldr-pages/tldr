@@ -1,7 +1,7 @@
 # gln
 
-> Bu komut `-p linux ln` için bir takma addır.
+> Bu komut `ln` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr {{[-p|--platform]}} linux ln`
+`tldr ln`

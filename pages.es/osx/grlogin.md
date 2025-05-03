@@ -1,6 +1,6 @@
 # grlogin
 
-> Este comando es un alias de `-p linux rlogin`.
+> Este comando es un alias de GNU `rlogin`.
 
 - Muestra la documentación del comando original:
 

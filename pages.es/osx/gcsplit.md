@@ -1,6 +1,6 @@
 # gcsplit
 
-> Este comando es un alias de `-p linux csplit`.
+> Este comando es un alias de GNU `csplit`.
 
 - Muestra la documentación del comando original:
 

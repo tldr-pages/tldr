@@ -1,7 +1,7 @@
 # gtraceroute
 
-> Este comando é um alias de `-p linux traceroute`.
+> Este comando é um alias de `traceroute`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr {{[-p|--platform]}} linux traceroute`
+`tldr traceroute`

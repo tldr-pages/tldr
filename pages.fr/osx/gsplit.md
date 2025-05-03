@@ -1,7 +1,7 @@
 # gsplit
 
-> Cette commande est un alias de `-p linux split`.
+> Cette commande est un alias de `split`.
 
 - Voir la documentation de la commande originale :
 
-`tldr {{[-p|--platform]}} linux split`
+`tldr {{[-p|--platform]}} common split`

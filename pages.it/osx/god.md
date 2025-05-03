@@ -1,7 +1,7 @@
 # god
 
-> Questo comando è un alias per `-p linux od`.
+> Questo comando è un alias per `od`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr {{[-p|--platform]}} linux od`
+`tldr od`

@@ -1,6 +1,6 @@
 # gchcon
 
-> Dieser Befehl ist ein Alias von `-p linux chcon`.
+> Dieser Befehl ist ein Alias von GNU `chcon`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

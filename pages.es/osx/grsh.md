@@ -1,6 +1,6 @@
 # grsh
 
-> Este comando es un alias de `-p linux rsh`.
+> Este comando es un alias de GNU `rsh`.
 
 - Muestra la documentación del comando original:
 

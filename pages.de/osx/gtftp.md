@@ -1,6 +1,6 @@
 # gtftp
 
-> Dieser Befehl ist ein Alias von `-p linux tftp`.
+> Dieser Befehl ist ein Alias von GNU `tftp`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

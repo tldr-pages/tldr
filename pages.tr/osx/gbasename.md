@@ -1,7 +1,7 @@
 # gbasename
 
-> Bu komut `-p linux basename` için bir takma addır.
+> Bu komut `basename` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr {{[-p|--platform]}} linux basename`
+`tldr basename`

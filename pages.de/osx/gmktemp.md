@@ -1,6 +1,6 @@
 # gmktemp
 
-> Dieser Befehl ist ein Alias von `-p linux mktemp`.
+> Dieser Befehl ist ein Alias von GNU `mktemp`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

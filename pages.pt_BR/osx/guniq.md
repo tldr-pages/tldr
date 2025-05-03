@@ -1,7 +1,7 @@
 # guniq
 
-> Este comando é um apelido de `-p linux uniq`.
+> Este comando é um apelido de `uniq`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr {{[-p|--platform]}} linux uniq`
+`tldr uniq`

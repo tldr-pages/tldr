@@ -1,6 +1,6 @@
 # gtalk
 
-> Dieser Befehl ist ein Alias von `-p linux talk`.
+> Dieser Befehl ist ein Alias von GNU `talk`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

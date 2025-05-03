@@ -1,6 +1,6 @@
 # gfold
 
-> Este comando es un alias de `-p linux fold`.
+> Este comando es un alias de GNU `fold`.
 
 - Muestra la documentación del comando original:
 

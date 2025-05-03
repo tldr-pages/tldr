@@ -1,7 +1,7 @@
 # gtelnet
 
-> Questo comando è un alias per `-p linux telnet`.
+> Questo comando è un alias per `telnet`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr {{[-p|--platform]}} linux telnet`
+`tldr telnet`

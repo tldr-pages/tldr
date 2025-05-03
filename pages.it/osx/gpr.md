@@ -1,7 +1,7 @@
 # gpr
 
-> Questo comando è un alias per `-p linux pr`.
+> Questo comando è un alias per `pr`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr {{[-p|--platform]}} linux pr`
+`tldr pr`

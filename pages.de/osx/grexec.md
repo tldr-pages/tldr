@@ -1,6 +1,6 @@
 # grexec
 
-> Dieser Befehl ist ein Alias von `-p linux rexec`.
+> Dieser Befehl ist ein Alias von GNU `rexec`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

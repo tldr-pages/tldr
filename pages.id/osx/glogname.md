@@ -1,7 +1,7 @@
 # glogname
 
-> Perintah ini merupakan alias dari `-p linux logname`.
+> Perintah ini merupakan alias dari `logname`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr {{[-p|--platform]}} linux logname`
+`tldr logname`

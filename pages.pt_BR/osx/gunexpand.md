@@ -1,7 +1,7 @@
 # gunexpand
 
-> Este comando é um apelido de `-p linux unexpand`.
+> Este comando é um apelido de `unexpand`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr {{[-p|--platform]}} linux unexpand`
+`tldr unexpand`

@@ -1,7 +1,7 @@
 # gsync
 
-> Questo comando è un alias per `-p linux sync`.
+> Questo comando è un alias per `sync`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr {{[-p|--platform]}} linux sync`
+`tldr sync`

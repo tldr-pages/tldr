@@ -1,7 +1,7 @@
 # gtac
 
-> Bu komut `-p linux tac` için bir takma addır.
+> Bu komut `tac` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr {{[-p|--platform]}} linux tac`
+`tldr tac`

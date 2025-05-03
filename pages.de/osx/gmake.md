@@ -1,7 +1,7 @@
 # gmake
 
-> Dieser Befehl ist ein Alias von `-p linux make`.
+> Dieser Befehl ist ein Alias von `make`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr {{[-p|--platform]}} linux make`
+`tldr make`

@@ -1,6 +1,6 @@
 # glibtool
 
-> Este comando es un alias de `-p linux libtool`.
+> Este comando es un alias de GNU `libtool`.
 
 - Muestra la documentación del comando original:
 

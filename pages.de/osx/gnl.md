@@ -1,6 +1,6 @@
 # gnl
 
-> Dieser Befehl ist ein Alias von `-p linux nl`.
+> Dieser Befehl ist ein Alias von GNU `nl`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

@@ -1,7 +1,7 @@
 # glogname
 
-> Este comando é um alias de `-p linux logname`.
+> Este comando é um alias de `logname`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr {{[-p|--platform]}} linux logname`
+`tldr logname`

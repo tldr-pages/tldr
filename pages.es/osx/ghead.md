@@ -1,6 +1,6 @@
 # ghead
 
-> Este comando es un alias de `-p linux head`.
+> Este comando es un alias de GNU `head`.
 
 - Muestra la documentación del comando original:
 

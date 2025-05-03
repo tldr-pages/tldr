@@ -1,7 +1,7 @@
 # guniq
 
-> Perintah ini merupakan alias dari `-p linux uniq`.
+> Perintah ini merupakan alias dari `uniq`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr {{[-p|--platform]}} linux uniq`
+`tldr uniq`

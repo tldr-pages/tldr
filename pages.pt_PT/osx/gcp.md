@@ -1,7 +1,7 @@
 # gcp
 
-> Este comando é um alias de `-p linux cp`.
+> Este comando é um alias de `cp`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr {{[-p|--platform]}} linux cp`
+`tldr cp`

@@ -1,6 +1,6 @@
 # gsleep
 
-> Este comando es un alias de `-p linux sleep`.
+> Este comando es un alias de GNU `sleep`.
 
 - Muestra la documentación del comando original:
 

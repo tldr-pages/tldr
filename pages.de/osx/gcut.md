@@ -1,7 +1,7 @@
 # gcut
 
-> Dieser Befehl ist ein Alias von `-p linux cut`.
+> Dieser Befehl ist ein Alias von `cut`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr {{[-p|--platform]}} linux cut`
+`tldr {{[-p|--platform]}} common cut`

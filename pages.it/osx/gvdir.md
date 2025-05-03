@@ -1,7 +1,7 @@
 # gvdir
 
-> Questo comando è un alias per `-p linux vdir`.
+> Questo comando è un alias per `vdir`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr {{[-p|--platform]}} linux vdir`
+`tldr vdir`

@@ -1,7 +1,7 @@
 # gchmod
 
-> Questo comando è un alias per `-p linux chmod`.
+> Questo comando è un alias per `chmod`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr {{[-p|--platform]}} linux chmod`
+`tldr chmod`

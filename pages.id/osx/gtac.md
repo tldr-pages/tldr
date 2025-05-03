@@ -1,7 +1,7 @@
 # gtac
 
-> Perintah ini merupakan alias dari `-p linux tac`.
+> Perintah ini merupakan alias dari `tac`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr {{[-p|--platform]}} linux tac`
+`tldr tac`

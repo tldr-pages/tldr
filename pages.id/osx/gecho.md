@@ -1,7 +1,7 @@
 # gecho
 
-> Perintah ini merupakan alias dari `-p linux echo`.
+> Perintah ini merupakan alias dari `echo`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr {{[-p|--platform]}} linux echo`
+`tldr echo`

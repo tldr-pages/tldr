@@ -1,6 +1,6 @@
 # gfold
 
-> Dieser Befehl ist ein Alias von `-p linux fold`.
+> Dieser Befehl ist ein Alias von GNU `fold`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

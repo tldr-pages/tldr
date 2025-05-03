@@ -1,7 +1,7 @@
 # gsort
 
-> Bu komut `-p linux sort` için bir takma addır.
+> Bu komut `sort` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr {{[-p|--platform]}} linux sort`
+`tldr sort`

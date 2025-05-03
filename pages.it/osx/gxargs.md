@@ -1,7 +1,7 @@
 # gxargs
 
-> Questo comando è un alias per `-p linux xargs`.
+> Questo comando è un alias per `xargs`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr {{[-p|--platform]}} linux xargs`
+`tldr xargs`

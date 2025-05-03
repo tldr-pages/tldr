@@ -1,7 +1,7 @@
 # gtrue
 
-> Cette commande est un alias de `-p linux true`.
+> Cette commande est un alias de `true`.
 
 - Voir la documentation de la commande originale :
 
-`tldr {{[-p|--platform]}} linux true`
+`tldr true`

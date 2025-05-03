@@ -1,6 +1,6 @@
 # gsed
 
-> Este comando es un alias de `-p linux sed`.
+> Este comando es un alias de GNU `sed`.
 
 - Muestra la documentación del comando original:
 

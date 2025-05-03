@@ -1,7 +1,7 @@
 # gxargs
 
-> Dieser Befehl ist ein Alias von `-p linux xargs`.
+> Dieser Befehl ist ein Alias von `xargs`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr {{[-p|--platform]}} linux xargs`
+`tldr xargs`

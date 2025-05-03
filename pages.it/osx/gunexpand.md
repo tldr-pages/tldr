@@ -1,7 +1,7 @@
 # gunexpand
 
-> Questo comando è un alias per `-p linux unexpand`.
+> Questo comando è un alias per `unexpand`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr {{[-p|--platform]}} linux unexpand`
+`tldr unexpand`
