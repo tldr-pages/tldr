@@ -2,7 +2,7 @@
 
 > A fast crawler focused on execution in automation pipelines offering both headless and non-headless crawling.
 > See also: `gau`, `scrapy`, `waymore`.
-> More information: <https://github.com/projectdiscovery/katana>.
+> More information: <https://docs.projectdiscovery.io/tools/katana/running>.
 
 - Crawl a list of URLs:
 
