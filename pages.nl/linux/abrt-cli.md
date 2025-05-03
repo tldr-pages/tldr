@@ -18,7 +18,7 @@
 
 - Een probleem rapporteren aan de geconfigureerde bugtracker (bijv. Bugzilla):
 
-`abrt-cli report {{probleblem_id}}`
+`abrt-cli report {{probleem_id}}`
 
 - Een logbestand monitoren en een programma starten als er een overeenkomst wordt gevonden:
 
