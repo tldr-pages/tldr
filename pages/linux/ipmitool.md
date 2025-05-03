@@ -7,7 +7,7 @@
 
 `systemctl start ipmidrv`
 
-- Open IPMI shell on the local hardware :
+- Open IPMI shell on the local hardware:
 
 `sudo ipmitool shell`
 
