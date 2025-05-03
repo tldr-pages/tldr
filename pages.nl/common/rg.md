@@ -34,4 +34,4 @@
 
 - Zoek naar een letterlijk string pattroon:
 
-`rg {{-D|--fixed-strings -- {{string}}`
+`rg {{[-D|--fixed-strings]}} -- {{string}}`
