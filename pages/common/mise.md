@@ -1,6 +1,6 @@
 # mise
 
-> Manage versions of different packages.
+> Manage language runtimes like Node.js, Python, Ruby, Go, Java, etc and developemnt tools.
 > More information: <https://mise.jdx.dev>.
 
 - List all available plugins:
