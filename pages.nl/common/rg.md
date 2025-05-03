@@ -18,15 +18,15 @@
 
 - Zoek in bestanden die overeenkomen met een glob (bijv. `README.*`) naar een patroon:
 
-`rg {{patroon}} --glob {{glob}}`
+`rg {{patroon}} {{[-g|--glob]}} {{bestandsnaam_glob_patroon}}`
 
 - Toon recursief de bestandsnamen welke overeenkomen met een pattern:
 
-`rg --files | rg {{pattern}}`
+`rg --files | rg {{patroon}}`
 
 - Toon alleen overeenkomende bestanden (handig bij het doorsturen naar andere commando's):
 
-`rg {{[-l|--files-with-matches]}}`
+`rg {{[-l|--files-with-matches]}} {{patroon}}`
 
 - Toon regels die niet overeenkomen met de gegeven reguliere expressie:
 
@@ -34,4 +34,4 @@
 
 - Zoek naar een letterlijk string pattroon:
 
-`rg {{-D--fixed-strings -- {{string}}`
+`rg {{-D|--fixed-strings -- {{string}}`
