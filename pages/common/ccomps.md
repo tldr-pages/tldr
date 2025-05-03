@@ -6,15 +6,15 @@
 
 - Decompose one or more graphs into their connected components:
 
-`ccomps {{path/to/input1.gv}} {{path/to/input2.gv ...}} > {{path/to/output.gv}}`
+`ccomps {{path/to/input1.gv path/to/input2.gv ...}} > {{path/to/output.gv}}`
 
 - Print the number of nodes, edges, and connected components in one or more graphs:
 
-`ccomps -v -s {{path/to/input1.gv}} {{path/to/input2.gv ...}}`
+`ccomps -v -s {{path/to/input1.gv path/to/input2.gv ...}}`
 
 - Write each connected component to numbered filenames based on `output.gv`:
 
-`ccomps -x -o {{path/to/output.gv}} {{path/to/input1.gv}} {{path/to/input2.gv ...}}`
+`ccomps -x -o {{path/to/output.gv}} {{path/to/input1.gv path/to/input2.gv ...}}`
 
 - Display help:
 

@@ -13,16 +13,16 @@
 
 - Wis de omgeving en voer een programma uit:
 
-`env -i {{programma}}`
+`env {{[-i|--ignore-environment]}} {{programma}}`
 
-- Verwijder een variable van de omgeving en voer een programma uit:
+- Verwijder een variabele van de omgeving en voer een programma uit:
 
-`env -u {{variable}} {{programma}}`
+`env {{[-u|--unset]}} {{variabele}} {{programma}}`
 
-- Zet een variable en voer een programma uit:
+- Zet een variabele en voer een programma uit:
 
-`env {{variable}}={{waarde}} {{programma}}`
+`env {{variabele}}={{waarde}} {{programma}}`
 
-- Zet meerdere variablen en voer een programma uit:
+- Zet meerdere variabelen en voer een programma uit:
 
-`env {{variable1}}={{waarde}} {{variable2}}={{waarde}} {{variable3}}={{waarde}} {{programma}}`
+`env {{variabele1=waarde variabele2=waarde variabele3=waarde ...}} {{programma}}`

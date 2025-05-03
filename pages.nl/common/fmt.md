@@ -9,12 +9,12 @@
 
 - Herformatteer een bestand met uitvoerregels van (hoogstens) `n` tekens:
 
-`fmt -w {{n}} {{pad/naar/bestand}}`
+`fmt {{[-w|--width]}} {{n}} {{pad/naar/bestand}}`
 
 - Herformatteer een bestand zonder regels die korter zijn dan de opgegeven breedte samen te voegen:
 
-`fmt -s {{pad/naar/bestand}}`
+`fmt {{[-s|--split-only]}} {{pad/naar/bestand}}`
 
 - Herformatteer een bestand met uniforme spatiëring (1 spatie tussen woorden en 2 spaties tussen alinea's):
 
-`fmt -u {{pad/naar/bestand}}`
+`fmt {{[-u|--uniform-spacing]}} {{pad/naar/bestand}}`

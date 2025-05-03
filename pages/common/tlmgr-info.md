@@ -29,7 +29,7 @@
 
 - Show only specific information about a package:
 
-`tlmgr info {{package}} --data "{{name}},{{category}},{{installed}},{{size}},{{depends}},..."`
+`tlmgr info {{package}} --data "{{name}},{{category}},{{installed}},{{size}},{{depends}},{{...}}"`
 
 - Print all available packages as JSON encoded array:
 

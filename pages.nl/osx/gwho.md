@@ -1,7 +1,7 @@
 # gwho
 
-> Dit commando is een alias van `-p linux who`.
+> Dit commando is een alias van GNU `who`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux who`
+`tldr who`

@@ -1,7 +1,7 @@
 # g[
 
-> Dit commando is een alias van `-p linux [`.
+> Dit commando is een alias van GNU `[`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux [`
+`tldr [`

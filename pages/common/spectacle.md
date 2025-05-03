@@ -9,8 +9,12 @@
 
 - Capture a screenshot of the active window:
 
-`spectacle --activewindow`
+`spectacle {{[-a|--activewindow]}}`
 
 - Capture a screenshot of a specific region:
 
-`spectacle --region`
+`spectacle {{[-r|--region]}}`
+
+- Start another Spectacle instance so that you can screenshot Spectacle itself:
+
+`spectacle {{[-i|--new-instance]}}`

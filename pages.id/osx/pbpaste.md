@@ -1,7 +1,7 @@
 # pbpaste
 
 > Kirim isi papan klip (clipboard) ke output standar.
-> Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/pbpaste.1.html>.
+> Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/pbcopy.1>.
 
 - Tulis konten papan klip ke dalam sebuah file:
 

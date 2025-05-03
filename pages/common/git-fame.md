@@ -1,7 +1,7 @@
 # git fame
 
 > Pretty-print Git repository contributions.
-> More information: <https://github.com/casperdcl/git-fame>.
+> More information: <https://github.com/casperdcl/git-fame#usage>.
 
 - Calculate contributions for the current Git repository:
 
@@ -21,11 +21,11 @@
 
 - Display contributions per file extension:
 
-`git fame --bytype`
+`git fame {{[-t|--bytype]}}`
 
 - Ignore whitespace changes:
 
-`git fame --ignore-whitespace`
+`git fame {{[-w|--ignore-whitespace]}}`
 
 - Detect inter-file line moves and copies:
 

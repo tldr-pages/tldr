@@ -1,7 +1,7 @@
 # gping6
 
-> Dit commando is een alias van `-p linux ping6`.
+> Dit commando is een alias van GNU `ping6`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux ping6`
+`tldr ping6`

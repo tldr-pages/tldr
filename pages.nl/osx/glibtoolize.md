@@ -1,7 +1,7 @@
 # glibtoolize
 
-> Dit commando is een alias van `-p linux libtoolize`.
+> Dit commando is een alias van GNU `libtoolize`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux libtoolize`
+`tldr {{[-p|--platform]}} linux libtoolize`

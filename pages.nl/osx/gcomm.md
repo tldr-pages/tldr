@@ -1,7 +1,7 @@
 # gcomm
 
-> Dit commando is een alias van `-p linux comm`.
+> Dit commando is een alias van GNU `comm`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux comm`
+`tldr comm`

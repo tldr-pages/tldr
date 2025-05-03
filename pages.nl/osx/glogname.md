@@ -1,7 +1,7 @@
 # glogname
 
-> Dit commando is een alias van `-p linux logname`.
+> Dit commando is een alias van GNU `logname`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux logname`
+`tldr logname`
