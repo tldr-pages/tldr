@@ -1,4 +1,4 @@
-# virsh-undefine
+# virsh undefine
 
 > Delete a virtual machine.
 > More information: <https://manned.org/virsh>.

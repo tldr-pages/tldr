@@ -9,7 +9,7 @@
 
 - Launch Dillo with a specific window size and screen location:
 
-`dillo --geometry {{width}}x{{height}}+{{x_position}}+{{y_position}}`
+`dillo {{[-g|--geometry]}} {{width}}x{{height}}+{{x_position}}+{{y_position}}`
 
 - Launch Dillo and open a specific URL:
 
@@ -21,12 +21,12 @@
 
 - Launch Dillo in full-screen mode:
 
-`dillo --fullwindow`
+`dillo {{[-f|--fullwindow]}}`
 
 - Display version:
 
-`dillo --version`
+`dillo {{[-v|--version]}}`
 
 - Display help:
 
-`dillo --help`
+`dillo {{[-h|--help]}}`

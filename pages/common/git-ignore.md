@@ -10,7 +10,7 @@
 
 - Ignore file(s) privately, updating `.git/info/exclude` file:
 
-`git ignore {{file_pattern}} --private`
+`git ignore {{file_pattern}} {{[-p|--private]}}`
 
 - Ignore file(s) locally, updating local `.gitignore` file:
 
@@ -18,4 +18,4 @@
 
 - Ignore file(s) globally, updating global `.gitignore` file:
 
-`git ignore {{file_pattern}} --global`
+`git ignore {{file_pattern}} {{[-g|--global]}}`

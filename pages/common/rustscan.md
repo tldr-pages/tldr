@@ -13,7 +13,7 @@
 
 - Scan a specific list of ports:
 
-`rustscan {{[-p|--ports]}} {{port1,port2,...,portN}} {{[-a|--addresses]}} {{address_or_addresses}}`
+`rustscan {{[-p|--ports]}} {{port1,port2,...}} {{[-a|--addresses]}} {{address_or_addresses}}`
 
 - Scan a specific range of ports:
 

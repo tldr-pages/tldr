@@ -13,7 +13,7 @@
 
 - Scan a web server for user-defined paths with common extensions:
 
-`dirsearch {{[-u|--url]}} {{url}} --extensions-list {{[-w|--wordlists]}} {{path/to/url-paths.txt,path/to/url-paths.txt,...}}`
+`dirsearch {{[-u|--url]}} {{url}} --extensions-list {{[-w|--wordlists]}} {{path/to/url-paths1.txt,path/to/url-paths2.txt,...}}`
 
 - Scan a web server using a cookie:
 
