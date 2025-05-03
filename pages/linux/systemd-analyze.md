@@ -27,3 +27,7 @@
 - Show security scores of running units:
 
 `systemd-analyze security`
+
+- View all udev rules together:
+
+`systemd-analyze cat-config udev/rules.d`
