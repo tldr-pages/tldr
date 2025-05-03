@@ -2,7 +2,7 @@
 
 > F-Droid build tool.
 > F-Droid is an installable catalog of FOSS (Free and Open Source Software) applications for the Android platform.
-> More information: <https://f-droid.org/>.
+> More information: <https://f-droid.org/en/docs/Building_Applications/>.
 
 - Build a specific app:
 

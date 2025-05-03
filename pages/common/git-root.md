@@ -10,4 +10,4 @@
 
 - Print the current working directory relative to the root of the current Git repository:
 
-`git root --relative`
+`git root {{[-r|--relative]}}`
