@@ -2,7 +2,7 @@
 
 > Execute commands as another user.
 > Asks for password in a GUI if available.
-> More information: <https://manned.org/pkexec>.
+> More information: <https://polkit.pages.freedesktop.org/polkit/pkexec.1.html>.
 
 - Run command as root:
 
