@@ -1,7 +1,7 @@
 # fpsync
 
 > Execute several synchronization processes locally or on several remote workers through SSH.
-> More information: <https://www.fpart.org/fpsync/>.
+> More information: <https://manned.org/fpsync>.
 
 - Recursively synchronize a directory to another location:
 

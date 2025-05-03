@@ -21,7 +21,7 @@
 
 - 캡처된 출력의 형식 지정:
 
-`tshark -T {{json|text|ps|…}}`
+`tshark -T {{json|text|ps|...}}`
 
 - 출력할 특정 필드 선택:
 
