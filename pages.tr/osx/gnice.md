@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux nice`
+`tldr {{[-p|--platform]}} linux nice`

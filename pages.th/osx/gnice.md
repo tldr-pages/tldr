@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux nice`
+`tldr {{[-p|--platform]}} linux nice`

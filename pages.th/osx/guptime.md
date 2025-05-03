@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux uptime`
+`tldr {{[-p|--platform]}} linux uptime`

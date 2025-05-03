@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux yes`
+`tldr {{[-p|--platform]}} linux yes`

@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux split`
+`tldr {{[-p|--platform]}} linux split`

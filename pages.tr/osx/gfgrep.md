@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux fgrep`
+`tldr {{[-p|--platform]}} linux fgrep`

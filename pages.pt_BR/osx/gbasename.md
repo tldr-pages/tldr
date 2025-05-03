@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux basename`
+`tldr {{[-p|--platform]}} linux basename`

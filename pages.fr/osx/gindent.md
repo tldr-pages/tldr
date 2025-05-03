@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux indent`
+`tldr {{[-p|--platform]}} linux indent`

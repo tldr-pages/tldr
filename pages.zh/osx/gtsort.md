@@ -4,4 +4,4 @@
 
 - 原命令的文档在：
 
-`tldr -p linux tsort`
+`tldr {{[-p|--platform]}} linux tsort`

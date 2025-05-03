@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux nproc`
+`tldr {{[-p|--platform]}} linux nproc`

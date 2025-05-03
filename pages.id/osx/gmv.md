@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux mv`
+`tldr {{[-p|--platform]}} linux mv`

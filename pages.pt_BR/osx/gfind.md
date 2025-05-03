@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux find`
+`tldr {{[-p|--platform]}} linux find`

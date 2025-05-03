@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux sync`
+`tldr {{[-p|--platform]}} linux sync`

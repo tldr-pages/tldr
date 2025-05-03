@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux truncate`
+`tldr {{[-p|--platform]}} linux truncate`

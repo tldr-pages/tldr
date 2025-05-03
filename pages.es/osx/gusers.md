@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux users`
+`tldr {{[-p|--platform]}} linux users`

@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux join`
+`tldr {{[-p|--platform]}} linux join`

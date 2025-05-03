@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux hostname`
+`tldr {{[-p|--platform]}} linux hostname`

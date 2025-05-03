@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux nice`
+`tldr {{[-p|--platform]}} linux nice`

@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux split`
+`tldr {{[-p|--platform]}} linux split`

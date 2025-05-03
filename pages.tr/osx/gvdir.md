@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux vdir`
+`tldr {{[-p|--platform]}} linux vdir`

@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux ftp`
+`tldr {{[-p|--platform]}} linux ftp`

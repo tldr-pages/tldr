@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux base32`
+`tldr {{[-p|--platform]}} linux base32`

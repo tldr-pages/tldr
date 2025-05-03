@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux fmt`
+`tldr {{[-p|--platform]}} linux fmt`

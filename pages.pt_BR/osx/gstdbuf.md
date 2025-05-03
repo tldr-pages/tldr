@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux stdbuf`
+`tldr {{[-p|--platform]}} linux stdbuf`

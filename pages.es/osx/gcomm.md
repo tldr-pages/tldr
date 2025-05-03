@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux comm`
+`tldr {{[-p|--platform]}} linux comm`

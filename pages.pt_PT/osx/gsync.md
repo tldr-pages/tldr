@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux sync`
+`tldr {{[-p|--platform]}} linux sync`

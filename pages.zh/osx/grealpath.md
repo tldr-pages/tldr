@@ -4,4 +4,4 @@
 
 - 原命令的文档在：
 
-`tldr -p linux realpath`
+`tldr {{[-p|--platform]}} linux realpath`

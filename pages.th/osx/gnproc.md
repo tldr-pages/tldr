@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux nproc`
+`tldr {{[-p|--platform]}} linux nproc`

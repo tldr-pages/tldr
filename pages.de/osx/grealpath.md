@@ -4,4 +4,4 @@
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux realpath`
+`tldr {{[-p|--platform]}} linux realpath`

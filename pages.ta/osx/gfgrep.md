@@ -4,4 +4,4 @@
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 
-`tldr -p linux fgrep`
+`tldr {{[-p|--platform]}} linux fgrep`

@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux dirname`
+`tldr {{[-p|--platform]}} linux dirname`

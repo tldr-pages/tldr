@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux wc`
+`tldr {{[-p|--platform]}} linux wc`

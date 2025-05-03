@@ -4,4 +4,4 @@
 
 - 原命令的文档在：
 
-`tldr -p linux basenc`
+`tldr {{[-p|--platform]}} linux basenc`

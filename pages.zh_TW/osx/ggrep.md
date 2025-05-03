@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux grep`
+`tldr {{[-p|--platform]}} linux grep`

@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux hostid`
+`tldr {{[-p|--platform]}} linux hostid`

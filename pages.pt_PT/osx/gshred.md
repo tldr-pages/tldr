@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux shred`
+`tldr {{[-p|--platform]}} linux shred`

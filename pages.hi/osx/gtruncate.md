@@ -4,4 +4,4 @@
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux truncate`
+`tldr {{[-p|--platform]}} linux truncate`

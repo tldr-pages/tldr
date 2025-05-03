@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux egrep`
+`tldr {{[-p|--platform]}} linux egrep`

@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux factor`
+`tldr {{[-p|--platform]}} linux factor`

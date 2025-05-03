@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux seq`
+`tldr {{[-p|--platform]}} linux seq`

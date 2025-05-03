@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux uname`
+`tldr {{[-p|--platform]}} linux uname`

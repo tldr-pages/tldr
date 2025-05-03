@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux uname`
+`tldr {{[-p|--platform]}} linux uname`

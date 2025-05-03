@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux ping`
+`tldr {{[-p|--platform]}} linux ping`

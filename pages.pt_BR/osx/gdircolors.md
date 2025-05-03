@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux dircolors`
+`tldr {{[-p|--platform]}} linux dircolors`

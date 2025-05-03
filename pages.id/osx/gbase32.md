@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux base32`
+`tldr {{[-p|--platform]}} linux base32`

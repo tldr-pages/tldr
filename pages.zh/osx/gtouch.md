@@ -4,4 +4,4 @@
 
 - 原命令的文档在：
 
-`tldr -p linux touch`
+`tldr {{[-p|--platform]}} linux touch`

@@ -4,4 +4,4 @@
 
 - 原命令的文档在：
 
-`tldr -p linux tail`
+`tldr {{[-p|--platform]}} linux tail`

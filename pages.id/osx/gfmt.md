@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux fmt`
+`tldr {{[-p|--platform]}} linux fmt`

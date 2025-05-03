@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux uname`
+`tldr {{[-p|--platform]}} linux uname`

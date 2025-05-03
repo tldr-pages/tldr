@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux whois`
+`tldr {{[-p|--platform]}} linux whois`

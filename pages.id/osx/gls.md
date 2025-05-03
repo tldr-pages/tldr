@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux ls`
+`tldr {{[-p|--platform]}} linux ls`

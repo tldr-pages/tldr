@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux install`
+`tldr {{[-p|--platform]}} linux install`

@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux tsort`
+`tldr {{[-p|--platform]}} linux tsort`

@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux which`
+`tldr {{[-p|--platform]}} linux which`

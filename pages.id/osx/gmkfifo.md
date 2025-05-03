@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux mkfifo`
+`tldr {{[-p|--platform]}} linux mkfifo`

@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux cut`
+`tldr {{[-p|--platform]}} linux cut`

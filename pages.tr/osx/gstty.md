@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux stty`
+`tldr {{[-p|--platform]}} linux stty`

@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux tail`
+`tldr {{[-p|--platform]}} linux tail`

@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux pinky`
+`tldr {{[-p|--platform]}} linux pinky`

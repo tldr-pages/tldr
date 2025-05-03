@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux traceroute`
+`tldr {{[-p|--platform]}} linux traceroute`

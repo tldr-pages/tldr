@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux rmdir`
+`tldr {{[-p|--platform]}} linux rmdir`

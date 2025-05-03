@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux base32`
+`tldr {{[-p|--platform]}} linux base32`

@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux groups`
+`tldr {{[-p|--platform]}} linux groups`

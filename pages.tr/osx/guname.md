@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux uname`
+`tldr {{[-p|--platform]}} linux uname`

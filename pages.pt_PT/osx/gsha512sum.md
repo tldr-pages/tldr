@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux sha512sum`
+`tldr {{[-p|--platform]}} linux sha512sum`

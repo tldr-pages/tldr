@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux users`
+`tldr {{[-p|--platform]}} linux users`

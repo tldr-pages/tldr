@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux shred`
+`tldr {{[-p|--platform]}} linux shred`

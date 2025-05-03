@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux traceroute`
+`tldr {{[-p|--platform]}} linux traceroute`

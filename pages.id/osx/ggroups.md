@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux groups`
+`tldr {{[-p|--platform]}} linux groups`

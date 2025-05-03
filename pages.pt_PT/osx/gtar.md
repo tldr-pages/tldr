@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux tar`
+`tldr {{[-p|--platform]}} linux tar`

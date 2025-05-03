@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux vdir`
+`tldr {{[-p|--platform]}} linux vdir`

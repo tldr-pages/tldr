@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux vdir`
+`tldr {{[-p|--platform]}} linux vdir`

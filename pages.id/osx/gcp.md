@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux cp`
+`tldr {{[-p|--platform]}} linux cp`

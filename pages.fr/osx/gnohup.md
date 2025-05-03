@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux nohup`
+`tldr {{[-p|--platform]}} linux nohup`

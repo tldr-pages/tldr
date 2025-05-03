@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux dir`
+`tldr {{[-p|--platform]}} linux dir`

@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux ping6`
+`tldr {{[-p|--platform]}} linux ping6`

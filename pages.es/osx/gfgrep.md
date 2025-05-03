@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux fgrep`
+`tldr {{[-p|--platform]}} linux fgrep`

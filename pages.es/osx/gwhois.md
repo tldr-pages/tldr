@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux whois`
+`tldr {{[-p|--platform]}} linux whois`

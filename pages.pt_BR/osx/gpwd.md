@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux pwd`
+`tldr {{[-p|--platform]}} linux pwd`

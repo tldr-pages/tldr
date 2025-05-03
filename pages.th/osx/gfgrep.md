@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux fgrep`
+`tldr {{[-p|--platform]}} linux fgrep`

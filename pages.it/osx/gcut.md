@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux cut`
+`tldr {{[-p|--platform]}} linux cut`

@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux sha224sum`
+`tldr {{[-p|--platform]}} linux sha224sum`

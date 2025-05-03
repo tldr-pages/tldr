@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux stty`
+`tldr {{[-p|--platform]}} linux stty`

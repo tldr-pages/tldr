@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux readlink`
+`tldr {{[-p|--platform]}} linux readlink`

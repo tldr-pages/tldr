@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux pinky`
+`tldr {{[-p|--platform]}} linux pinky`

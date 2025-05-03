@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux touch`
+`tldr {{[-p|--platform]}} linux touch`

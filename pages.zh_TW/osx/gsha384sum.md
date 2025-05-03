@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux sha384sum`
+`tldr {{[-p|--platform]}} linux sha384sum`

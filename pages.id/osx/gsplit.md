@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux split`
+`tldr {{[-p|--platform]}} linux split`

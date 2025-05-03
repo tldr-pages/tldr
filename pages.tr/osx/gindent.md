@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux indent`
+`tldr {{[-p|--platform]}} linux indent`

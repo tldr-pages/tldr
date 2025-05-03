@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux mkfifo`
+`tldr {{[-p|--platform]}} linux mkfifo`

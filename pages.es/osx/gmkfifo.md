@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux mkfifo`
+`tldr {{[-p|--platform]}} linux mkfifo`

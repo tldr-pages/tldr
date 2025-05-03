@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux logname`
+`tldr {{[-p|--platform]}} linux logname`

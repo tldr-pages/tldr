@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux sort`
+`tldr {{[-p|--platform]}} linux sort`

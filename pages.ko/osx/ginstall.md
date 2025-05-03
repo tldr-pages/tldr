@@ -4,4 +4,4 @@
 
 - 원본 명령어 보기:
 
-`tldr -p linux install`
+`tldr {{[-p|--platform]}} linux install`

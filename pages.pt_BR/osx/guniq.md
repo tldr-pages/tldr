@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux uniq`
+`tldr {{[-p|--platform]}} linux uniq`

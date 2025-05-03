@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux id`
+`tldr {{[-p|--platform]}} linux id`

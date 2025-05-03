@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux mv`
+`tldr {{[-p|--platform]}} linux mv`

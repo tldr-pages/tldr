@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux ls`
+`tldr {{[-p|--platform]}} linux ls`

@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux pwd`
+`tldr {{[-p|--platform]}} linux pwd`

@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux sum`
+`tldr {{[-p|--platform]}} linux sum`

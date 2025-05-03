@@ -4,4 +4,4 @@
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux md5sum`
+`tldr {{[-p|--platform]}} linux md5sum`

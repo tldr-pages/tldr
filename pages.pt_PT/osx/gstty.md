@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux stty`
+`tldr {{[-p|--platform]}} linux stty`

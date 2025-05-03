@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux uptime`
+`tldr {{[-p|--platform]}} linux uptime`

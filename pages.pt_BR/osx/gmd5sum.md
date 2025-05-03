@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux md5sum`
+`tldr {{[-p|--platform]}} linux md5sum`

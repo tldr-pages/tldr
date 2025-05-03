@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux ftp`
+`tldr {{[-p|--platform]}} linux ftp`

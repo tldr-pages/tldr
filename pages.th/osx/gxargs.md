@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux xargs`
+`tldr {{[-p|--platform]}} linux xargs`

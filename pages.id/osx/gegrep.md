@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux egrep`
+`tldr {{[-p|--platform]}} linux egrep`

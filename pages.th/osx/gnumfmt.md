@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux numfmt`
+`tldr {{[-p|--platform]}} linux numfmt`

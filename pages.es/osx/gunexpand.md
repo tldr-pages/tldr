@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux unexpand`
+`tldr {{[-p|--platform]}} linux unexpand`

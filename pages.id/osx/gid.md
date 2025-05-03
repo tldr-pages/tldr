@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux id`
+`tldr {{[-p|--platform]}} linux id`

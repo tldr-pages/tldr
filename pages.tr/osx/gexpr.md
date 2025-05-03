@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux expr`
+`tldr {{[-p|--platform]}} linux expr`

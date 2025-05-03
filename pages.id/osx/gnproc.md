@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux nproc`
+`tldr {{[-p|--platform]}} linux nproc`

@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux od`
+`tldr {{[-p|--platform]}} linux od`

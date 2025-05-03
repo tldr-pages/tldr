@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux basename`
+`tldr {{[-p|--platform]}} linux basename`

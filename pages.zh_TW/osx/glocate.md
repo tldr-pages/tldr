@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux locate`
+`tldr {{[-p|--platform]}} linux locate`

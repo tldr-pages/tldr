@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux pathchk`
+`tldr {{[-p|--platform]}} linux pathchk`

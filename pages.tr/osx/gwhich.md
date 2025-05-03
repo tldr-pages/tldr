@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux which`
+`tldr {{[-p|--platform]}} linux which`

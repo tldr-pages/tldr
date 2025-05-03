@@ -4,4 +4,4 @@
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 
-`tldr -p linux ping6`
+`tldr {{[-p|--platform]}} linux ping6`

@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux chroot`
+`tldr {{[-p|--platform]}} linux chroot`

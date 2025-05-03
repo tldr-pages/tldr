@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux tftp`
+`tldr {{[-p|--platform]}} linux tftp`

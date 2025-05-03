@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux tty`
+`tldr {{[-p|--platform]}} linux tty`

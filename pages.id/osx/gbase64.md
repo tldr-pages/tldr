@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux base64`
+`tldr {{[-p|--platform]}} linux base64`

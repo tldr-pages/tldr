@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux od`
+`tldr {{[-p|--platform]}} linux od`

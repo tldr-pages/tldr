@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux egrep`
+`tldr {{[-p|--platform]}} linux egrep`

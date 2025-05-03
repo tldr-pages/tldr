@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux unlink`
+`tldr {{[-p|--platform]}} linux unlink`

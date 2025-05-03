@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux realpath`
+`tldr {{[-p|--platform]}} linux realpath`

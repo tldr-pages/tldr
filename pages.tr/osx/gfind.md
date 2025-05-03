@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux find`
+`tldr {{[-p|--platform]}} linux find`

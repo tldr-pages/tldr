@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux sum`
+`tldr {{[-p|--platform]}} linux sum`

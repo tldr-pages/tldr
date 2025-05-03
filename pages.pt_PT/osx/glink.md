@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux link`
+`tldr {{[-p|--platform]}} linux link`

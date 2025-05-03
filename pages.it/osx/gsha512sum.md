@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux sha512sum`
+`tldr {{[-p|--platform]}} linux sha512sum`

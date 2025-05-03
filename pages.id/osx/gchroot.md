@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux chroot`
+`tldr {{[-p|--platform]}} linux chroot`

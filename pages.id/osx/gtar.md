@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux tar`
+`tldr {{[-p|--platform]}} linux tar`

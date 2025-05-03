@@ -4,4 +4,4 @@
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux b2sum`
+`tldr {{[-p|--platform]}} linux b2sum`

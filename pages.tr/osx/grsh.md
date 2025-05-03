@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux rsh`
+`tldr {{[-p|--platform]}} linux rsh`

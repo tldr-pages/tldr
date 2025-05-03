@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux printenv`
+`tldr {{[-p|--platform]}} linux printenv`

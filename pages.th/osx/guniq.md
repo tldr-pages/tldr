@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux uniq`
+`tldr {{[-p|--platform]}} linux uniq`

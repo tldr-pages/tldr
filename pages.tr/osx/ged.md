@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux ed`
+`tldr {{[-p|--platform]}} linux ed`

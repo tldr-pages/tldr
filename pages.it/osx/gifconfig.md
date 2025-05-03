@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux ifconfig`
+`tldr {{[-p|--platform]}} linux ifconfig`

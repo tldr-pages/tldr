@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux dirname`
+`tldr {{[-p|--platform]}} linux dirname`

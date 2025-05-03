@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux shuf`
+`tldr {{[-p|--platform]}} linux shuf`

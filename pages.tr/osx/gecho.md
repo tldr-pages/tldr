@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux echo`
+`tldr {{[-p|--platform]}} linux echo`

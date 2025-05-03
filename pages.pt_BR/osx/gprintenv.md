@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux printenv`
+`tldr {{[-p|--platform]}} linux printenv`

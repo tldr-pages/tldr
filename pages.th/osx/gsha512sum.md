@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux sha512sum`
+`tldr {{[-p|--platform]}} linux sha512sum`

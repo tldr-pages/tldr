@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux basenc`
+`tldr {{[-p|--platform]}} linux basenc`

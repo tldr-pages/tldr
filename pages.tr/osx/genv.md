@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux env`
+`tldr {{[-p|--platform]}} linux env`

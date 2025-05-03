@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux cat`
+`tldr {{[-p|--platform]}} linux cat`

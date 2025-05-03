@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux cp`
+`tldr {{[-p|--platform]}} linux cp`

@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux users`
+`tldr {{[-p|--platform]}} linux users`

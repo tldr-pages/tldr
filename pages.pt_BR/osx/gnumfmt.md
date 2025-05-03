@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux numfmt`
+`tldr {{[-p|--platform]}} linux numfmt`

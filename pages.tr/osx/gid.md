@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux id`
+`tldr {{[-p|--platform]}} linux id`

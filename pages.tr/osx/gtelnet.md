@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux telnet`
+`tldr {{[-p|--platform]}} linux telnet`

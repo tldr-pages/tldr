@@ -4,4 +4,4 @@
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux wc`
+`tldr {{[-p|--platform]}} linux wc`

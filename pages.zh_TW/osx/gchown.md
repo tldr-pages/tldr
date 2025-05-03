@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux chown`
+`tldr {{[-p|--platform]}} linux chown`

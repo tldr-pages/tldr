@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux link`
+`tldr {{[-p|--platform]}} linux link`

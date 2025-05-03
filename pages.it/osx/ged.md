@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux ed`
+`tldr {{[-p|--platform]}} linux ed`

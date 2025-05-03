@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux whoami`
+`tldr {{[-p|--platform]}} linux whoami`

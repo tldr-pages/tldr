@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux chroot`
+`tldr {{[-p|--platform]}} linux chroot`

@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux ping6`
+`tldr {{[-p|--platform]}} linux ping6`

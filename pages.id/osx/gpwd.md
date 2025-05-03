@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux pwd`
+`tldr {{[-p|--platform]}} linux pwd`

@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux whois`
+`tldr {{[-p|--platform]}} linux whois`

@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux rmdir`
+`tldr {{[-p|--platform]}} linux rmdir`

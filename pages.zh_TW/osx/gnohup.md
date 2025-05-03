@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux nohup`
+`tldr {{[-p|--platform]}} linux nohup`

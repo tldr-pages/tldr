@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux sha1sum`
+`tldr {{[-p|--platform]}} linux sha1sum`

@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux find`
+`tldr {{[-p|--platform]}} linux find`

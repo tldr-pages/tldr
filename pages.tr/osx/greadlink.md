@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux readlink`
+`tldr {{[-p|--platform]}} linux readlink`

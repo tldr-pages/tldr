@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux base64`
+`tldr {{[-p|--platform]}} linux base64`

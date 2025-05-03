@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux mv`
+`tldr {{[-p|--platform]}} linux mv`

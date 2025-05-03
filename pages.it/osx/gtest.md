@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux test`
+`tldr {{[-p|--platform]}} linux test`

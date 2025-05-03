@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux libtool`
+`tldr {{[-p|--platform]}} linux libtool`

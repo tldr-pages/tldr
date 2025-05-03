@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux hostid`
+`tldr {{[-p|--platform]}} linux hostid`

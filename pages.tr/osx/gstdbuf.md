@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux stdbuf`
+`tldr {{[-p|--platform]}} linux stdbuf`

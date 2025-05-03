@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux hostname`
+`tldr {{[-p|--platform]}} linux hostname`

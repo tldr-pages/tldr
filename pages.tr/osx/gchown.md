@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux chown`
+`tldr {{[-p|--platform]}} linux chown`

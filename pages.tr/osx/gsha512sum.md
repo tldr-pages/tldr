@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux sha512sum`
+`tldr {{[-p|--platform]}} linux sha512sum`

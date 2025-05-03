@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux time`
+`tldr {{[-p|--platform]}} linux time`

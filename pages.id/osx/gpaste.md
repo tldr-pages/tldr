@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux paste`
+`tldr {{[-p|--platform]}} linux paste`

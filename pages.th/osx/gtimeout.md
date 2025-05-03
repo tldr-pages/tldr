@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux timeout`
+`tldr {{[-p|--platform]}} linux timeout`

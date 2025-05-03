@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux expand`
+`tldr {{[-p|--platform]}} linux expand`

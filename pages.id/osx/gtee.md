@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux tee`
+`tldr {{[-p|--platform]}} linux tee`

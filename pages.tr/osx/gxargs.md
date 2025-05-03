@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux xargs`
+`tldr {{[-p|--platform]}} linux xargs`

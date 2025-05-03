@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux dircolors`
+`tldr {{[-p|--platform]}} linux dircolors`

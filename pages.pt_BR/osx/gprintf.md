@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux printf`
+`tldr {{[-p|--platform]}} linux printf`

@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux ls`
+`tldr {{[-p|--platform]}} linux ls`

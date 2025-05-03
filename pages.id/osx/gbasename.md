@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux basename`
+`tldr {{[-p|--platform]}} linux basename`

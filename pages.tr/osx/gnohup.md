@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux nohup`
+`tldr {{[-p|--platform]}} linux nohup`

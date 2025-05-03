@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux readlink`
+`tldr {{[-p|--platform]}} linux readlink`

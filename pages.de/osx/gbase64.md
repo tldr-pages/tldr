@@ -4,4 +4,4 @@
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux base64`
+`tldr {{[-p|--platform]}} linux base64`

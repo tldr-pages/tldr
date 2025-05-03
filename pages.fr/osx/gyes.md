@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux yes`
+`tldr {{[-p|--platform]}} linux yes`

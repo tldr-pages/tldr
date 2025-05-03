@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux wc`
+`tldr {{[-p|--platform]}} linux wc`

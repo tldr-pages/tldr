@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux shuf`
+`tldr {{[-p|--platform]}} linux shuf`

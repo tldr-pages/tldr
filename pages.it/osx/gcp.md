@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux cp`
+`tldr {{[-p|--platform]}} linux cp`

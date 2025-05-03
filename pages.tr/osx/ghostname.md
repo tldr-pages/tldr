@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux hostname`
+`tldr {{[-p|--platform]}} linux hostname`

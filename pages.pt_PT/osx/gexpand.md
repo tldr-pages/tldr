@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux expand`
+`tldr {{[-p|--platform]}} linux expand`

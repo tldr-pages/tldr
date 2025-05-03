@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux unexpand`
+`tldr {{[-p|--platform]}} linux unexpand`

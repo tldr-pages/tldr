@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux pwd`
+`tldr {{[-p|--platform]}} linux pwd`

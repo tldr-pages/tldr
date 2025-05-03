@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux cksum`
+`tldr {{[-p|--platform]}} linux cksum`

@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux wc`
+`tldr {{[-p|--platform]}} linux wc`

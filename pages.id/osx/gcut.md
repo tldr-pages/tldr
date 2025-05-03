@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux cut`
+`tldr {{[-p|--platform]}} linux cut`

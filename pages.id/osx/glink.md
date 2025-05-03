@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux link`
+`tldr {{[-p|--platform]}} linux link`

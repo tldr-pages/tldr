@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux basename`
+`tldr {{[-p|--platform]}} linux basename`

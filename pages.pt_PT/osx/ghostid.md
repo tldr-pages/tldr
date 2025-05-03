@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux hostid`
+`tldr {{[-p|--platform]}} linux hostid`

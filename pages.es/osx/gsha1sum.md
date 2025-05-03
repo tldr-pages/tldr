@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux sha1sum`
+`tldr {{[-p|--platform]}} linux sha1sum`

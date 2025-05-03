@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux date`
+`tldr {{[-p|--platform]}} linux date`

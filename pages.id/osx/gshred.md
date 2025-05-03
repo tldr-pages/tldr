@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux shred`
+`tldr {{[-p|--platform]}} linux shred`

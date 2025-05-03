@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux md5sum`
+`tldr {{[-p|--platform]}} linux md5sum`

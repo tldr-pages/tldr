@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux expr`
+`tldr {{[-p|--platform]}} linux expr`

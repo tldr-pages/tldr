@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux truncate`
+`tldr {{[-p|--platform]}} linux truncate`

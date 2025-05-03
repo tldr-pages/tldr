@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux ping6`
+`tldr {{[-p|--platform]}} linux ping6`

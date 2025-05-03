@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux rm`
+`tldr {{[-p|--platform]}} linux rm`

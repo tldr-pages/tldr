@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux logname`
+`tldr {{[-p|--platform]}} linux logname`

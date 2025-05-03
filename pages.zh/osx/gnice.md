@@ -4,4 +4,4 @@
 
 - 原命令的文档在：
 
-`tldr -p linux nice`
+`tldr {{[-p|--platform]}} linux nice`

@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux install`
+`tldr {{[-p|--platform]}} linux install`

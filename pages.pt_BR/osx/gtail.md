@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux tail`
+`tldr {{[-p|--platform]}} linux tail`

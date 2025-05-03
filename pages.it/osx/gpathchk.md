@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux pathchk`
+`tldr {{[-p|--platform]}} linux pathchk`

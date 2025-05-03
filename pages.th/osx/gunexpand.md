@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux unexpand`
+`tldr {{[-p|--platform]}} linux unexpand`

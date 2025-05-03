@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux uniq`
+`tldr {{[-p|--platform]}} linux uniq`

@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux xargs`
+`tldr {{[-p|--platform]}} linux xargs`

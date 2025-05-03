@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux ftp`
+`tldr {{[-p|--platform]}} linux ftp`

@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux indent`
+`tldr {{[-p|--platform]}} linux indent`

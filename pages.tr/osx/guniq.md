@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux uniq`
+`tldr {{[-p|--platform]}} linux uniq`

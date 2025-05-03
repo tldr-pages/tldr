@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux echo`
+`tldr {{[-p|--platform]}} linux echo`

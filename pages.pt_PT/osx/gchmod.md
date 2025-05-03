@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux chmod`
+`tldr {{[-p|--platform]}} linux chmod`

@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux units`
+`tldr {{[-p|--platform]}} linux units`

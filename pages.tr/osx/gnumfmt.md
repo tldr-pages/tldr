@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux numfmt`
+`tldr {{[-p|--platform]}} linux numfmt`

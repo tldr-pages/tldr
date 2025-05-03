@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux shuf`
+`tldr {{[-p|--platform]}} linux shuf`

@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux libtool`
+`tldr {{[-p|--platform]}} linux libtool`

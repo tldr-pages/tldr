@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux grep`
+`tldr {{[-p|--platform]}} linux grep`

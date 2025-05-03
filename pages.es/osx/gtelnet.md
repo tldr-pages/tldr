@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux telnet`
+`tldr {{[-p|--platform]}} linux telnet`

@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux pr`
+`tldr {{[-p|--platform]}} linux pr`

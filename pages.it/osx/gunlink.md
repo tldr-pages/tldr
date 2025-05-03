@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux unlink`
+`tldr {{[-p|--platform]}} linux unlink`

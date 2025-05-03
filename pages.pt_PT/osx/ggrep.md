@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux grep`
+`tldr {{[-p|--platform]}} linux grep`

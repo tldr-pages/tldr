@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux od`
+`tldr {{[-p|--platform]}} linux od`

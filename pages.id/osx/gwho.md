@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux who`
+`tldr {{[-p|--platform]}} linux who`

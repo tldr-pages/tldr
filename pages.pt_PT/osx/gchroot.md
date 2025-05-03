@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux chroot`
+`tldr {{[-p|--platform]}} linux chroot`

@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux rexec`
+`tldr {{[-p|--platform]}} linux rexec`

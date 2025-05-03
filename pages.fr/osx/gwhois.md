@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux whois`
+`tldr {{[-p|--platform]}} linux whois`

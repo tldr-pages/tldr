@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux ifconfig`
+`tldr {{[-p|--platform]}} linux ifconfig`

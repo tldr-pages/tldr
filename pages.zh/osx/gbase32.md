@@ -4,4 +4,4 @@
 
 - 原命令的文档在：
 
-`tldr -p linux base32`
+`tldr {{[-p|--platform]}} linux base32`

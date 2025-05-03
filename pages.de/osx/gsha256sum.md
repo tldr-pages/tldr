@@ -4,4 +4,4 @@
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux sha256sum`
+`tldr {{[-p|--platform]}} linux sha256sum`

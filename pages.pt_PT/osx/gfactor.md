@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux factor`
+`tldr {{[-p|--platform]}} linux factor`

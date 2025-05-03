@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux nice`
+`tldr {{[-p|--platform]}} linux nice`

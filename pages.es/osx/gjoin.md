@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux join`
+`tldr {{[-p|--platform]}} linux join`

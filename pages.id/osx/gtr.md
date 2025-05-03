@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux tr`
+`tldr {{[-p|--platform]}} linux tr`

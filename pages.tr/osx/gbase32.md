@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux base32`
+`tldr {{[-p|--platform]}} linux base32`

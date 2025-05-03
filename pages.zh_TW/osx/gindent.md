@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux indent`
+`tldr {{[-p|--platform]}} linux indent`

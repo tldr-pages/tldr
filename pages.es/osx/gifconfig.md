@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux ifconfig`
+`tldr {{[-p|--platform]}} linux ifconfig`

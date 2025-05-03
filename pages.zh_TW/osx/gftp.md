@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux ftp`
+`tldr {{[-p|--platform]}} linux ftp`

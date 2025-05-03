@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux timeout`
+`tldr {{[-p|--platform]}} linux timeout`

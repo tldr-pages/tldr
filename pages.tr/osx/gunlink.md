@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux unlink`
+`tldr {{[-p|--platform]}} linux unlink`

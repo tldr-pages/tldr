@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux nohup`
+`tldr {{[-p|--platform]}} linux nohup`

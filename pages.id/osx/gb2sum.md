@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux b2sum`
+`tldr {{[-p|--platform]}} linux b2sum`

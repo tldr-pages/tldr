@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux mv`
+`tldr {{[-p|--platform]}} linux mv`

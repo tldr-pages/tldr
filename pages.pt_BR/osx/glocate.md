@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux locate`
+`tldr {{[-p|--platform]}} linux locate`

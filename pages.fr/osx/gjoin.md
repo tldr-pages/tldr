@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux join`
+`tldr {{[-p|--platform]}} linux join`

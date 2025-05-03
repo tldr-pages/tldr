@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux cksum`
+`tldr {{[-p|--platform]}} linux cksum`

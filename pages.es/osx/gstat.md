@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux stat`
+`tldr {{[-p|--platform]}} linux stat`

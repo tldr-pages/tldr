@@ -4,4 +4,4 @@
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux uptime`
+`tldr {{[-p|--platform]}} linux uptime`

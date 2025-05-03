@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux install`
+`tldr {{[-p|--platform]}} linux install`

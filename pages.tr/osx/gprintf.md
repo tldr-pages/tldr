@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux printf`
+`tldr {{[-p|--platform]}} linux printf`

@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux sum`
+`tldr {{[-p|--platform]}} linux sum`

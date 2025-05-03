@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux mkdir`
+`tldr {{[-p|--platform]}} linux mkdir`

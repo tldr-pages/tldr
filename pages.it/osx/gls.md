@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux ls`
+`tldr {{[-p|--platform]}} linux ls`

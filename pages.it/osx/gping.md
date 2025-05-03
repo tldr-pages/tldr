@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux ping`
+`tldr {{[-p|--platform]}} linux ping`

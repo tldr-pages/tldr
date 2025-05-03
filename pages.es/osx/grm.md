@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux rm`
+`tldr {{[-p|--platform]}} linux rm`

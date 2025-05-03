@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux ed`
+`tldr {{[-p|--platform]}} linux ed`

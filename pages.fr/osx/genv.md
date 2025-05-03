@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux env`
+`tldr {{[-p|--platform]}} linux env`

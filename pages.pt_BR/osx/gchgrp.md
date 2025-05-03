@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux chgrp`
+`tldr {{[-p|--platform]}} linux chgrp`

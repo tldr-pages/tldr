@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux printf`
+`tldr {{[-p|--platform]}} linux printf`

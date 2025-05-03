@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux join`
+`tldr {{[-p|--platform]}} linux join`

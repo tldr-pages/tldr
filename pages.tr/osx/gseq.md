@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux seq`
+`tldr {{[-p|--platform]}} linux seq`

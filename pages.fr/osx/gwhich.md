@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux which`
+`tldr {{[-p|--platform]}} linux which`

@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux touch`
+`tldr {{[-p|--platform]}} linux touch`

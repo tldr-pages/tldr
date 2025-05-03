@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux tac`
+`tldr {{[-p|--platform]}} linux tac`

@@ -4,4 +4,4 @@
 
 - 原命令的文档在：
 
-`tldr -p linux md5sum`
+`tldr {{[-p|--platform]}} linux md5sum`

@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux fmt`
+`tldr {{[-p|--platform]}} linux fmt`

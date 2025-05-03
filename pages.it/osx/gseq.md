@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux seq`
+`tldr {{[-p|--platform]}} linux seq`

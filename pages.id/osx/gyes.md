@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux yes`
+`tldr {{[-p|--platform]}} linux yes`

@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux rsh`
+`tldr {{[-p|--platform]}} linux rsh`

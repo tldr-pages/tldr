@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux stat`
+`tldr {{[-p|--platform]}} linux stat`

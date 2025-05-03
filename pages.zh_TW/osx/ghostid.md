@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux hostid`
+`tldr {{[-p|--platform]}} linux hostid`

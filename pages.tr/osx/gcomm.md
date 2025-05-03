@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux comm`
+`tldr {{[-p|--platform]}} linux comm`

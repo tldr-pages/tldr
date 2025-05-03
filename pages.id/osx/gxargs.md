@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux xargs`
+`tldr {{[-p|--platform]}} linux xargs`

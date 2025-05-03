@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux truncate`
+`tldr {{[-p|--platform]}} linux truncate`

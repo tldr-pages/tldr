@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux fgrep`
+`tldr {{[-p|--platform]}} linux fgrep`

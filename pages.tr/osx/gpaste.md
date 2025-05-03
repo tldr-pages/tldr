@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux paste`
+`tldr {{[-p|--platform]}} linux paste`

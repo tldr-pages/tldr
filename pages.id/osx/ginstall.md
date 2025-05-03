@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux install`
+`tldr {{[-p|--platform]}} linux install`

@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux rmdir`
+`tldr {{[-p|--platform]}} linux rmdir`

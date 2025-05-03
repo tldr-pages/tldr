@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux pinky`
+`tldr {{[-p|--platform]}} linux pinky`

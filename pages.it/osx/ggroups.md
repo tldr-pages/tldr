@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux groups`
+`tldr {{[-p|--platform]}} linux groups`

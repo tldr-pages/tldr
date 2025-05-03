@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux echo`
+`tldr {{[-p|--platform]}} linux echo`

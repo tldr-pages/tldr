@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux sync`
+`tldr {{[-p|--platform]}} linux sync`

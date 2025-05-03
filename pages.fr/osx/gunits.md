@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux units`
+`tldr {{[-p|--platform]}} linux units`

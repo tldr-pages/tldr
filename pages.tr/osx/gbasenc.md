@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux basenc`
+`tldr {{[-p|--platform]}} linux basenc`

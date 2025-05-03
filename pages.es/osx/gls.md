@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux ls`
+`tldr {{[-p|--platform]}} linux ls`

@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux who`
+`tldr {{[-p|--platform]}} linux who`

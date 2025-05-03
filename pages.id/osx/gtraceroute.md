@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux traceroute`
+`tldr {{[-p|--platform]}} linux traceroute`

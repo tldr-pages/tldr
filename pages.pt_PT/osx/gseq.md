@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux seq`
+`tldr {{[-p|--platform]}} linux seq`

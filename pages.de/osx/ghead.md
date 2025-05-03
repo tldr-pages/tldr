@@ -4,4 +4,4 @@
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux head`
+`tldr {{[-p|--platform]}} linux head`

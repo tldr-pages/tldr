@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux cut`
+`tldr {{[-p|--platform]}} linux cut`

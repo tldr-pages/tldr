@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux ping`
+`tldr {{[-p|--platform]}} linux ping`

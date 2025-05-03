@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux shuf`
+`tldr {{[-p|--platform]}} linux shuf`

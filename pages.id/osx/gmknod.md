@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux mknod`
+`tldr {{[-p|--platform]}} linux mknod`

@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux pathchk`
+`tldr {{[-p|--platform]}} linux pathchk`

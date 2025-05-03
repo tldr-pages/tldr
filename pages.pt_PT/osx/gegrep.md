@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux egrep`
+`tldr {{[-p|--platform]}} linux egrep`

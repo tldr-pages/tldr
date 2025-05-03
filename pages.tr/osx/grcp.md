@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux rcp`
+`tldr {{[-p|--platform]}} linux rcp`

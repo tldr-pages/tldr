@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux printf`
+`tldr {{[-p|--platform]}} linux printf`

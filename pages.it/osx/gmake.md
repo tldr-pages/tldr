@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux make`
+`tldr {{[-p|--platform]}} linux make`

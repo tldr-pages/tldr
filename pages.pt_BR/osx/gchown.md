@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux chown`
+`tldr {{[-p|--platform]}} linux chown`

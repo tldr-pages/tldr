@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux cp`
+`tldr {{[-p|--platform]}} linux cp`

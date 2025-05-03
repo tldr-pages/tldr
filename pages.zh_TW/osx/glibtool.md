@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux libtool`
+`tldr {{[-p|--platform]}} linux libtool`

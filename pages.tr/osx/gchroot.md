@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux chroot`
+`tldr {{[-p|--platform]}} linux chroot`

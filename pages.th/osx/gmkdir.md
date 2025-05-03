@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux mkdir`
+`tldr {{[-p|--platform]}} linux mkdir`

@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux chown`
+`tldr {{[-p|--platform]}} linux chown`

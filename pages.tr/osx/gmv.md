@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux mv`
+`tldr {{[-p|--platform]}} linux mv`

@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux ping6`
+`tldr {{[-p|--platform]}} linux ping6`

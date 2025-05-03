@@ -4,4 +4,4 @@
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux ping`
+`tldr {{[-p|--platform]}} linux ping`

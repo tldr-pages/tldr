@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux sync`
+`tldr {{[-p|--platform]}} linux sync`

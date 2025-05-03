@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux tee`
+`tldr {{[-p|--platform]}} linux tee`

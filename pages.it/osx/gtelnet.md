@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux telnet`
+`tldr {{[-p|--platform]}} linux telnet`

@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux tar`
+`tldr {{[-p|--platform]}} linux tar`

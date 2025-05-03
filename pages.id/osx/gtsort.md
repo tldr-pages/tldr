@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux tsort`
+`tldr {{[-p|--platform]}} linux tsort`

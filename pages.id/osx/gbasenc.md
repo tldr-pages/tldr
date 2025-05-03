@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux basenc`
+`tldr {{[-p|--platform]}} linux basenc`

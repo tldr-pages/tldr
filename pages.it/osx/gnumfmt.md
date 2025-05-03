@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux numfmt`
+`tldr {{[-p|--platform]}} linux numfmt`

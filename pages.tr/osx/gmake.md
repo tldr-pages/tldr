@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux make`
+`tldr {{[-p|--platform]}} linux make`

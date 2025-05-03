@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux ping6`
+`tldr {{[-p|--platform]}} linux ping6`

@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux make`
+`tldr {{[-p|--platform]}} linux make`

@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux printenv`
+`tldr {{[-p|--platform]}} linux printenv`

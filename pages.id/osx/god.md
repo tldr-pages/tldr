@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux od`
+`tldr {{[-p|--platform]}} linux od`

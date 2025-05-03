@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux tar`
+`tldr {{[-p|--platform]}} linux tar`

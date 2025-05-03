@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux egrep`
+`tldr {{[-p|--platform]}} linux egrep`

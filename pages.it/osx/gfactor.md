@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux factor`
+`tldr {{[-p|--platform]}} linux factor`

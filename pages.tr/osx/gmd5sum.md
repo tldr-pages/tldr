@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux md5sum`
+`tldr {{[-p|--platform]}} linux md5sum`

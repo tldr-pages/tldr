@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux expr`
+`tldr {{[-p|--platform]}} linux expr`

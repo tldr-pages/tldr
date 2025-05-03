@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux who`
+`tldr {{[-p|--platform]}} linux who`

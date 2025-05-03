@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux unlink`
+`tldr {{[-p|--platform]}} linux unlink`

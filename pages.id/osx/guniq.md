@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux uniq`
+`tldr {{[-p|--platform]}} linux uniq`

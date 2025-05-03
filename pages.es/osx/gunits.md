@@ -4,4 +4,4 @@
 
 - Muestra la documentación del comando original:
 
-`tldr -p linux units`
+`tldr {{[-p|--platform]}} linux units`

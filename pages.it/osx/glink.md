@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux link`
+`tldr {{[-p|--platform]}} linux link`

@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux touch`
+`tldr {{[-p|--platform]}} linux touch`

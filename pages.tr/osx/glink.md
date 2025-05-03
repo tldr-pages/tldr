@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux link`
+`tldr {{[-p|--platform]}} linux link`

@@ -4,4 +4,4 @@
 
 - Exibe documentação do comando original:
 
-`tldr -p linux env`
+`tldr {{[-p|--platform]}} linux env`

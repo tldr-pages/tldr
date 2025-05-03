@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux split`
+`tldr {{[-p|--platform]}} linux split`

@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux yes`
+`tldr {{[-p|--platform]}} linux yes`

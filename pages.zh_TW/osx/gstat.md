@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux stat`
+`tldr {{[-p|--platform]}} linux stat`

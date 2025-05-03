@@ -4,4 +4,4 @@
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 
-`tldr -p linux base32`
+`tldr {{[-p|--platform]}} linux base32`

@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux b2sum`
+`tldr {{[-p|--platform]}} linux b2sum`

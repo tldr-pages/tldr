@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux shred`
+`tldr {{[-p|--platform]}} linux shred`

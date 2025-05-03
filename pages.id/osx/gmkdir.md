@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux mkdir`
+`tldr {{[-p|--platform]}} linux mkdir`

@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux numfmt`
+`tldr {{[-p|--platform]}} linux numfmt`

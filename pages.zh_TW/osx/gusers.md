@@ -4,4 +4,4 @@
 
 - 原命令的文件在：
 
-`tldr -p linux users`
+`tldr {{[-p|--platform]}} linux users`

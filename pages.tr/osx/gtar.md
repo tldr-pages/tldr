@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux tar`
+`tldr {{[-p|--platform]}} linux tar`

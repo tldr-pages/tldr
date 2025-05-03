@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux traceroute`
+`tldr {{[-p|--platform]}} linux traceroute`

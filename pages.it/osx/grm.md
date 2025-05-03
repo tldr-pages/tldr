@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux rm`
+`tldr {{[-p|--platform]}} linux rm`
