@@ -1,4 +1,4 @@
-# npm home
+# npm-home
 
 > 웹 브라우저에서 패키지의 npm 페이지, Yarn 페이지 또는 GitHub 저장소를 엽니다.
 > 더 많은 정보: <https://github.com/sindresorhus/npm-home>.
