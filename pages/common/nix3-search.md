@@ -6,7 +6,7 @@
 
 - Search `nixpkgs` for a package based on its name or description:
 
-`nix search {{nixpkgs}} {{search_term...}}`
+`nix search {{nixpkgs}} {{search_term}}`
 
 - Show description of a package from nixpkgs:
 

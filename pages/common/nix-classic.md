@@ -10,11 +10,11 @@
 
 - Start a shell with the specified packages available:
 
-`nix-shell {{[-p|--packages]}} {{pkg1 pkg2 pkg3...}}`
+`nix-shell {{[-p|--packages]}} {{pkg1 pkg2 pkg3 ...}}`
 
 - Install some packages permanently:
 
-`nix-env {{[-iA|--install --attr]}} {{nixpkgs.pkg1 nixpkgs.pkg2...}}`
+`nix-env {{[-iA|--install --attr]}} {{nixpkgs.pkg1 nixpkgs.pkg2 ...}}`
 
 - Show all dependencies of a store path (package), in a tree format:
 
