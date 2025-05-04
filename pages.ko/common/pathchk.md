@@ -13,7 +13,7 @@
 
 - 모든 POSIX 호환 시스템에서 경로명의 유효성을 확인:
 
-`pathchk --portability {{경로1 경로2 ...}}`
+`pathchk {{[-p -P|--portability]}} {{경로1 경로2 ...}}`
 
 - 빈 경로나 선행 대시(-)만 확인:
 

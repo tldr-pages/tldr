@@ -13,7 +13,7 @@
 
 - Controleer padnamen op geldigheid in alle POSIX-conforme systemen:
 
-`pathchk --portability {{pad1 pad2 ...}}`
+`pathchk {{[-p -P|--portability]}} {{pad1 pad2 ...}}`
 
 - Controleer alleen op lege padnamen of leidende streepjes (-):
 

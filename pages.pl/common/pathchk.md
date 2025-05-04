@@ -13,7 +13,7 @@
 
 - Sprawdź ścieżki pod kątem poprawności we wszystkich systemach zgodnych z POSIX:
 
-`pathchk --portability {{ścieżka1 ścieżka2 ...}}`
+`pathchk {{[-p -P|--portability]}} {{ścieżka1 ścieżka2 ...}}`
 
 - Sprawdź tylko pod kątem pustych ścieżek lub wiodących myślników (-):
 
