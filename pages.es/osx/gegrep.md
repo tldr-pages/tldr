@@ -1,7 +1,7 @@
 # gegrep
 
-> Este comando es un alias de `-p linux egrep`.
+> Este comando es un alias de `egrep`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux egrep`
+`tldr egrep`

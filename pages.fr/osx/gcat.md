@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux cat`
+`tldr {{[-p|--platform]}} linux cat`

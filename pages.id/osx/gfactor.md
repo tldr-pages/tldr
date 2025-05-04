@@ -1,7 +1,7 @@
 # gfactor
 
-> Perintah ini merupakan alias dari `-p linux factor`.
+> Perintah ini merupakan alias dari `factor`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux factor`
+`tldr factor`

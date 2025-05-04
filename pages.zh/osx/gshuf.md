@@ -1,7 +1,7 @@
 # gshuf
 
-> 这是 `-p linux shuf` 命令的一个别名。
+> 这是 `shuf` 命令的一个别名。
 
 - 原命令的文档在：
 
-`tldr -p linux shuf`
+`tldr {{[-p|--platform]}} coomon shuf`

@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux df`
+`tldr {{[-p|--platform]}} linux df`

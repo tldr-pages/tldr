@@ -2,7 +2,7 @@
 
 > A fast crawler focused on execution in automation pipelines offering both headless and non-headless crawling.
 > See also: `gau`, `scrapy`, `waymore`.
-> More information: <https://github.com/projectdiscovery/katana>.
+> More information: <https://docs.projectdiscovery.io/tools/katana/running>.
 
 - Crawl a list of URLs:
 
@@ -11,10 +11,6 @@
 - Crawl a [u]RL using headless mode using Chromium:
 
 `katana -u {{https://example.com}} {{[-hl|-headless]}}`
-
-- Use `subfinder` to find subdomains, and then use [p]a[s]sive sources (Wayback Machine, Common Crawl, and AlienVault) for URL discovery:
-
-`subfinder {{[-dL|-list]}} {{path/to/domains.txt}} | katana -passive`
 
 - Pass requests through a proxy (http/socks5) and use custom headers from a file:
 

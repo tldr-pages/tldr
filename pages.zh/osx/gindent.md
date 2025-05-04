@@ -1,7 +1,7 @@
 # gindent
 
-> 这是 `-p linux indent` 命令的一个别名。
+> 这是 `indent` 命令的一个别名。
 
 - 原命令的文档在：
 
-`tldr -p linux indent`
+`tldr {{[-p|--platform]}} common indent`

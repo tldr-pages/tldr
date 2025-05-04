@@ -1,7 +1,7 @@
 # gtraceroute
 
-> Bu komut `-p linux traceroute` için bir takma addır.
+> Bu komut `traceroute` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux traceroute`
+`tldr traceroute`

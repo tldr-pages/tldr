@@ -1,7 +1,7 @@
 # ggroups
 
-> Este comando é um apelido de `-p linux groups`.
+> Este comando é um apelido de `groups`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux groups`
+`tldr groups`
