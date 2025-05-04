@@ -4,22 +4,22 @@
 > See also: `hydra`.
 > More information: <https://www.netexec.wiki/ssh-protocol>.
 
-- Spray the specified [p]assword against a list of [u]sernames on the specified target:
+- Spray the specified password against a list of usernames on the specified target:
 
-`nxc ssh {{192.168.178.2}} -u {{path/to/usernames.txt}} -p {{password}}`
+`nxc ssh {{192.168.178.2}} {{[-u|--username]}} {{path/to/usernames.txt}} {{[-p|--password]}} {{password}}`
 
-- Search for valid credentials by trying out every combination in the specified lists of [u]sernames and [p]asswords:
+- Search for valid credentials by trying out every combination in the specified lists of usernames and passwords:
 
-`nxc ssh {{192.168.178.2}} -u {{path/to/usernames.txt}} -p {{path/to/passwords.txt}}`
+`nxc ssh {{192.168.178.2}} {{[-u|--username]}} {{path/to/usernames.txt}} {{[-p|--password]}} {{path/to/passwords.txt}}`
 
-- Use the specified private key for authentication, using the supplied [p]assword as the key's passphrase:
+- Use the specified private key for authentication, using the supplied password as the key's passphrase:
 
-`nxc ssh {{192.186.178.2}} -u {{path/to/usernames.txt}} -p {{password}} --key-file {{path/to/id_rsa}}`
+`nxc ssh {{192.186.178.2}} {{[-u|--username]}} {{path/to/usernames.txt}} {{[-p|--password]}} {{password}} --key-file {{path/to/id_rsa}}`
 
-- Try a combination of [u]sername and [p]assword on a number of targets:
+- Try a combination of username and password on a number of targets:
 
-`nxc ssh {{192.168.178.0/24}} -u {{username}} -p {{password}}`
+`nxc ssh {{192.168.178.0/24}} {{[-u|--username]}} {{username}} {{[-p|--password]}} {{password}}`
 
 - Check for `sudo` privileges on a successful login:
 
-`nxc ssh {{192.168.178.2}} -u {{username}} -p {{path/to/passwords.txt}} --sudo-check`
+`nxc ssh {{192.168.178.2}} {{[-u|--username]}} {{username}} {{[-p|--password]}} {{path/to/passwords.txt}} --sudo-check`
