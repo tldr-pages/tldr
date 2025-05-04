@@ -20,6 +20,6 @@
 
 `mullvad status`
 
-- Check expire date of account and obtain device name:
+- Check the account expiration date and obtain the device name:
 
 `mullvad account get`
