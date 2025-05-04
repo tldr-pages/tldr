@@ -20,7 +20,7 @@
 
 `sudo btrfs scrub resume {{path/to/btrfs_mount}}`
 
-- Start a scrub, but do not put put the program in the [B]ackground:
+- Start a scrub, but do not put the program in the [B]ackground:
 
 `sudo btrfs scrub start -B {{path/to/btrfs_mount}}`
 
