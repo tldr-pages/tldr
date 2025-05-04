@@ -1,7 +1,7 @@
 # collectd
 
 > System statistics collection daemon.
-> More information: <https://collectd.org/>.
+> More information: <https://www.collectd.org/documentation/>.
 
 - Test the configuration file and then exit:
 
