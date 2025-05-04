@@ -1,7 +1,7 @@
 # look
 
 > Display lines beginning with a prefix in a file.
-> Note: the lines in the file must be sorted.
+> Note: The lines in the file must be sorted.
 > See also: `grep`, `sort`.
 > More information: <https://manned.org/look>.
 

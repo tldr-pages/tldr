@@ -1,7 +1,7 @@
 # podman login
 
 > Log in to a container registry.
-> Note: the default authfile path on Linux is `$XDG_RUNTIME_DIR/containers/auth.json`, which is usually stored in a `tmpfs` (in RAM).
+> Note: The default authfile path on Linux is `$XDG_RUNTIME_DIR/containers/auth.json`, which is usually stored in a `tmpfs` (in RAM).
 > More information: <https://docs.podman.io/en/latest/markdown/podman-login.1.html>.
 
 - Log in to a registry (non-persistent on Linux; persistent on Windows/macOS):

@@ -15,7 +15,7 @@
 
 `msfconsole {{[-n|--no-database]}}`
 
-- Execute console commands (Note: use `;` for passing multiple commands):
+- Execute console commands (Note: Use `;` for passing multiple commands):
 
 `msfconsole {{[-x|--execute-command]}} "{{use auxiliary/server/capture/ftp; set SRVHOST 0.0.0.0; set SRVPORT 21; run}}"`
 
