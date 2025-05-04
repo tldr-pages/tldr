@@ -28,6 +28,6 @@
 
 `hledger {{[bs|balancesheet]}} {{[-Qt|--quarterly --tree]}} {{[-2|--depth 2]}}`
 
-- Short form of the above, and generate HTML output in `bs.html`:
+- Same as above above, and generate HTML output in `bs.html`:
 
-`hledger bs -Qt -2 -o bs.html`
+`hledger {{[bs|balancesheet]}} {{[-Qt|--quarterly --tree]}} {{[-2|--depth 2]}} {{[-o|--output-file]}} bs.html`
