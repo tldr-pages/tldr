@@ -2,7 +2,7 @@
 
 > Tools for handling high-throughput sequencing (genomics) data.
 > Used for reading/writing/editing/indexing/viewing of data in SAM/BAM/CRAM format.
-> More information: <https://www.htslib.org>.
+> More information: <https://www.htslib.org/doc/samtools.html>.
 
 - Convert a SAM input file to BAM stream and save to file:
 
