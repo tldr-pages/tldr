@@ -14,4 +14,4 @@
 
 - Write a `.patch` file for the 3 latest commits:
 
-`git format-patch -{{3}}`
+`git format-patch -3`

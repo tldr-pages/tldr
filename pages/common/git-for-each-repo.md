@@ -6,8 +6,8 @@
 
 - Run maintenance on each of a list of repositories stored in the `maintenance.repo` user configuration variable:
 
-`git for-each-repo --config={{maintenance.repo}} {{maintenance run}}`
+`git for-each-repo --config maintenance.repo {{maintenance run}}`
 
 - Run `git pull` on each repository listed in a global configuration variable:
 
-`git for-each-repo --config={{global_configuration_variable}} {{pull}}`
+`git for-each-repo --config {{global_configuration_variable}} {{pull}}`
