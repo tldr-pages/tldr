@@ -7,5 +7,7 @@
 - Create a CPIO archive from the current directory:
 
 `create-image {{[-o|--output]}} {{path/to/output.cpio}}`
-- Display help
+
+- Display help:
+
 `create-image {{[-h|--help]}}`
