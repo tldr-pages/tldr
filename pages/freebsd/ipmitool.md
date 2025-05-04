@@ -7,7 +7,7 @@
 
 `kldload ipmi.ko`
 
-- Open IPMI shell on the local hardware :
+- Open IPMI shell on the local hardware:
 
 `ipmitool shell`
 

@@ -1,7 +1,7 @@
 # gsha256sum
 
-> 这是 `-p linux sha256sum` 命令的一个别名。
+> 这是 `sha256sum` 命令的一个别名。
 
 - 原命令的文档在：
 
-`tldr -p linux sha256sum`
+`tldr sha256sum`

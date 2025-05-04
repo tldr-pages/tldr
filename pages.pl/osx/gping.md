@@ -1,7 +1,7 @@
 # gping
 
-> To polecenie jest aliasem `-p linux ping`.
+> To polecenie jest aliasem GNU `ping`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux ping`
+`tldr {{[-p|--platform]}} common ping`

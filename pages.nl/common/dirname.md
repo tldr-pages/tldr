@@ -13,4 +13,4 @@
 
 - Scheid de uitvoer met een NUL-teken in plaats van een nieuwe regel (handig bij gebruik met `xargs`):
 
-`dirname --zero {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
+`dirname {{[-z|--zero]}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`

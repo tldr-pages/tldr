@@ -1,7 +1,7 @@
 # gegrep
 
-> Perintah ini merupakan alias dari `-p linux egrep`.
+> Perintah ini merupakan alias dari `egrep`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux egrep`
+`tldr egrep`

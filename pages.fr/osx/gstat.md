@@ -1,7 +1,7 @@
 # gstat
 
-> Cette commande est un alias de `-p linux stat`.
+> Cette commande est un alias de `stat`.
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux stat`
+`tldr {{[-p|--platform]}} common stat`

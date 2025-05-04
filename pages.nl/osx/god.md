@@ -1,7 +1,7 @@
 # god
 
-> Dit commando is een alias van `-p linux od`.
+> Dit commando is een alias van GNU `od`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux od`
+`tldr od`

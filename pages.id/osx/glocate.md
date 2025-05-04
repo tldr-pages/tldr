@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux locate`
+`tldr {{[-p|--platform]}} linux locate`

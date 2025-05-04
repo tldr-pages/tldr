@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux runcon`
+`tldr {{[-p|--platform]}} linux runcon`

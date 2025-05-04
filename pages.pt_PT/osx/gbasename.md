@@ -1,7 +1,7 @@
 # gbasename
 
-> Este comando é um alias de `-p linux basename`.
+> Este comando é um alias de `basename`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux basename`
+`tldr basename`

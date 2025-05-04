@@ -1,7 +1,7 @@
 # gping
 
-> Este comando é um apelido de `-p linux ping`.
+> Este comando é um apelido de `ping`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux ping`
+`tldr {{[-p|--platform]}} common ping`

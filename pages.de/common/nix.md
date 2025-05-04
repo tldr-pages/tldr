@@ -1,24 +1,34 @@
 # nix
 
-> Dienstprogramme für die Nix-Sprache und den Nix-Speicher.
-> Weitere Informationen: <https://nixos.org/manual/nix>.
+> Ein leistungsfähiger Paketmanager, der das Paketmanagement zuverlässig, reproduzierbar und deklarativ macht.
+> `nix` ist experimentell und muss gesondert aktiviert werden. Für die klassische, stabile Schnittstelle siehe `tldr nix classic`.
+> Einige Unterbefehle wie `build`, `develop`, `flake`, `registry`, `profile`, `search`, `repl`, `store`, `edit`, `why-depends` usw. haben ihre eigene Dokumentation.
+> Weitere Informationen: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix>.
 
-- Suche nach einem Paket über seinen Namen oder seine Beschreibung:
+- Aktiviere den `nix` Befehl:
 
-`nix search {{suchbegriff}}`
+`mkdir {{[-p|--parents]}} ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
 
-- Starte eine Nix-Shell, die die angegebenen Pakete zur Verfügung stellt:
+- Suche ein Paket in nixpkgs nach Namen oder Beschreibung:
 
-`nix run {{nixpkgs.pkg1 nixpkgs.pkg2 ...}}`
+`nix search nixpkgs {{suchbegriff}}`
 
-- Optimiere die Festplattennutzung des Nix-Speichers durch Zusammenfassen doppelter Dateien:
+- Starte eine Shell und stelle die angegebenen Pakete von nixpkgs darin bereit:
 
-`nix store optimise`
+`nix shell {{nixpkgs#pkg1 nixpkgs#pkg2 nixpkgs#pkg3 ...}}`
 
-- Starte eine interaktive Umgebung zum Ausführen von Nix-Ausdrücken:
+- Installiere einige Pakete von nixpkgs dauerhaft:
+
+`nix profile install {{nixpkgs#pkg1 nixpkgs#pkg2 nixpkgs#pkg3 ...}}`
+
+- Entferne ungenutzte Pfade aus dem Nix-Store, um Speicherplatz freizugeben:
+
+`nix store gc`
+
+- Starte eine interaktive Umgebung zur Auswertung von Nix-Ausdrücken:
 
 `nix repl`
 
-- Upgrade Nix auf die neueste stabile Version:
+- Zeige Hilfe für einen bestimmten Unterbefehl an:
 
-`nix upgrade-nix`
+`nix help {{unterbefehl}}`

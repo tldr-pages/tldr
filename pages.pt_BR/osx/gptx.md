@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux ptx`
+`tldr {{[-p|--platform]}} linux ptx`

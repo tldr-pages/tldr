@@ -1,7 +1,7 @@
 # gsha384sum
 
-> Perintah ini merupakan alias dari `-p linux sha384sum`.
+> Perintah ini merupakan alias dari `sha384sum`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux sha384sum`
+`tldr sha384sum`

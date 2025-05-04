@@ -1,7 +1,7 @@
 # gtail
 
-> Dit commando is een alias van `-p linux tail`.
+> Dit commando is een alias van GNU `tail`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux tail`
+`tldr {{[-p|--platform]}} common tail`

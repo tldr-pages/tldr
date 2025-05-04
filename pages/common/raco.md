@@ -21,7 +21,7 @@
 
 - Search local documentation:
 
-`raco docs {{search_terms ...}}`
+`raco docs {{search_terms}}`
 
 - Display help:
 

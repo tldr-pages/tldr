@@ -1,7 +1,7 @@
 # gchown
 
-> Perintah ini merupakan alias dari `-p linux chown`.
+> Perintah ini merupakan alias dari `chown`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux chown`
+`tldr chown`

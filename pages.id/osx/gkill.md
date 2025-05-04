@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux kill`
+`tldr {{[-p|--platform]}} linux kill`

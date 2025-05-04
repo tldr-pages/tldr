@@ -1,7 +1,7 @@
 # gupdatedb
 
-> Dit commando is een alias van `-p linux updatedb`.
+> Dit commando is een alias van GNU `updatedb`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux updatedb`
+`tldr {{[-p|--platform]}} linux updatedb`

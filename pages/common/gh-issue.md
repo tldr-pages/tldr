@@ -9,23 +9,23 @@
 
 - Display a specific issue in the default web browser:
 
-`gh issue view {{issue_number}} --web`
+`gh issue view {{issue_number}} {{[-w|--web]}}`
 
 - Create a new issue in the default web browser:
 
-`gh issue create --web`
+`gh issue create {{[-w|--web]}}`
 
 - List the last 10 issues with the `bug` label:
 
-`gh issue list --limit {{10}} --label "{{bug}}"`
+`gh issue list {{[-L|--limit]}} {{10}} {{[-l|--label]}} "{{bug}}"`
 
 - List closed issues made by a specific user:
 
-`gh issue list --state closed --author {{username}}`
+`gh issue list {{[-s|--state]}} closed {{[-A|--author]}} {{username}}`
 
 - Display the status of issues relevant to the user, in a specific repository:
 
-`gh issue status --repo {{owner}}/{{repository}}`
+`gh issue status {{[-R|--repo]}} {{owner}}/{{repository}}`
 
 - Reopen a specific issue:
 

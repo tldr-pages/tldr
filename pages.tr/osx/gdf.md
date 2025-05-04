@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux df`
+`tldr {{[-p|--platform]}} linux df`

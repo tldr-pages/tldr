@@ -2,7 +2,7 @@
 
 > A super-powered `laravel new` for Laravel and Valet.
 > See also `lambo new` for additional command flags.
-> More information: <https://github.com/tighten/lambo>.
+> More information: <https://github.com/tighten/lambo#usage>.
 
 - Create a new Laravel application:
 
@@ -14,7 +14,7 @@
 
 - Open the configuration in a specific editor:
 
-`lambo edit-config --editor="{{path/to/editor}}"`
+`lambo edit-config {{[-e|--editor]}} "{{path/to/editor}}"`
 
 - Open the configuration file that is run after new applications have been scaffolded:
 

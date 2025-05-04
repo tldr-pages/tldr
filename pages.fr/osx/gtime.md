@@ -1,7 +1,7 @@
 # gtime
 
-> Cette commande est un alias de `-p linux time`.
+> Cette commande est un alias de `time`.
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux time`
+`tldr time`

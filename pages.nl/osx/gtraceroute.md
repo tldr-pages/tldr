@@ -1,7 +1,7 @@
 # gtraceroute
 
-> Dit commando is een alias van `-p linux traceroute`.
+> Dit commando is een alias van GNU `traceroute`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux traceroute`
+`tldr traceroute`

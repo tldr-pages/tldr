@@ -1,7 +1,7 @@
 # gstdbuf
 
-> Questo comando è un alias per `-p linux stdbuf`.
+> Questo comando è un alias per `stdbuf`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux stdbuf`
+`tldr stdbuf`

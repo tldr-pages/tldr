@@ -1,7 +1,7 @@
 # sfdk init
 
 > Initializes a new project.
-> More information: <https://docs.sailfishos.org/Reference/I18n/Application_Configuration/>.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/15-building-init/doc/command.init.adoc>.
 
 - Initialize a new project of the given type:
 

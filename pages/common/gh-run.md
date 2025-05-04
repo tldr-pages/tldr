@@ -13,11 +13,11 @@
 
 - Display information about the steps of a job:
 
-`gh run view --job={{job_number}}`
+`gh run view {{[-j|--job]}} {{job_number}}`
 
 - Display the log of a job:
 
-`gh run view --job={{job_number}} --log`
+`gh run view {{[-j|--job]}} {{job_number}} --log`
 
 - Check a specific workflow and exit with a non-zero status if the run failed:
 

@@ -3,7 +3,7 @@
 > A fast and multi-purpose DNS toolkit to run multiple DNS queries.
 > Note: input to `dnsx` needs to be passed through `stdin` (pipe `|`) in some cases.
 > See also: `dig`, `dog`, `dnstracer`.
-> More information: <https://github.com/projectdiscovery/dnsx>.
+> More information: <https://docs.projectdiscovery.io/tools/dnsx/running>.
 
 - Query the A record of a (sub)domain and show [re]sponse received:
 

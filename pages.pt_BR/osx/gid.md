@@ -1,7 +1,7 @@
 # gid
 
-> Este comando é um apelido de `-p linux id`.
+> Este comando é um apelido de `id`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux id`
+`tldr id`

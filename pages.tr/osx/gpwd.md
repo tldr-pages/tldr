@@ -1,7 +1,7 @@
 # gpwd
 
-> Bu komut `-p linux pwd` için bir takma addır.
+> Bu komut `pwd` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux pwd`
+`tldr pwd`

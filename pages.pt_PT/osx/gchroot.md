@@ -1,7 +1,7 @@
 # gchroot
 
-> Este comando é um alias de `-p linux chroot`.
+> Este comando é um alias de `chroot`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux chroot`
+`tldr chroot`

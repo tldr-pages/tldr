@@ -1,7 +1,7 @@
 # gchgrp
 
-> Dieser Befehl ist ein Alias von `-p linux chgrp`.
+> Dieser Befehl ist ein Alias von `chgrp`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux chgrp`
+`tldr chgrp`
