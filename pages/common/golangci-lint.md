@@ -7,7 +7,7 @@
 
 `golangci-lint run`
 
-- List enabled and disabled linters (Note: disabled linters are shown last, do not mistake them for enabled ones):
+- List enabled and disabled linters (Note: Disabled linters are shown last, do not mistake them for enabled ones):
 
 `golangci-lint linters`
 
