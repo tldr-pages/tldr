@@ -1,7 +1,7 @@
 # whois
 
 > WHOIS（RFC 3912）协议的命令行客户端。
-> 更多信息：<https://github.com/rfc1036/whois>.
+> 更多信息：<https://manned.org/whois>.
 
 - 获取域名信息：
 
