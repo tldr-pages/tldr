@@ -1,4 +1,4 @@
-v# git contrib
+# git contrib
 
 > Display commits from an author.
 > Part of `git-extras`.
