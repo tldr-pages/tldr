@@ -2,12 +2,10 @@
 
 > CPIO image creation utility.
 > Commonly found in initramfs-tools packages in some Linux distributions.
-> More information: <https://linux.die.net/man/1/euca-create-image>.
+> More information: <https://git.kernel.org/pub/scm/bluetooth/bluez.git/tree/tools/create-image.c>.
 
 - Create a CPIO archive from the current directory:
 
-`create-image --output {{path/to/output.cpio}}`
-
-- Display help information:
-
-`create-image --help`
+`create-image {{[-o|--output]}} {{path/to/output.cpio}}`
+- Display help
+`create-image {{[-h|--help]}}`
