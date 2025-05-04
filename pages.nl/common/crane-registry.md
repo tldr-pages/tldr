@@ -16,10 +16,10 @@
 
 `crane registry serve --disk {{pad/naar/store_dir}}`
 
-- Toon help voor `crane registry`:
+- Toon de help voor `crane registry`:
 
 `crane registry {{[-h|--help]}}`
 
-- Toon help voor `crane registry serve`:
+- Toon de help voor `crane registry serve`:
 
 `crane registry serve {{[-h|--help]}}`
