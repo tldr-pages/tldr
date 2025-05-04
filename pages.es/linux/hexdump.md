@@ -13,7 +13,7 @@
 
 - Muestra la representación hexadecimal de un archivo, pero interpreta solo n bytes de la entrada:
 
-`hexdump {{[-C|--canonical]}} {{[-n|--length]}} {{numero_de_bytes}} {{ruta/al/archivo}}`
+`hexdump {{[-C|--canonical]}} {{[-n|--length]}} {{número_de_bytes}} {{ruta/al/archivo}}`
 
 - No reemplaza las líneas duplicadas con '*':
 
