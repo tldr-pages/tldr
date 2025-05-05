@@ -2,7 +2,7 @@
 
 > Display Git repository information.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-info>.
+> More information: <https://manned.org/git-info>.
 
 - Display remote locations, remote and local branches, most recent commit data and `.git/config` settings:
 

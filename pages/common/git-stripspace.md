@@ -9,8 +9,8 @@
 
 - Trim whitespace and Git comments from a file:
 
-`cat {{path/to/file}} | git stripspace --strip-comments`
+`cat {{path/to/file}} | git stripspace {{[-s|--strip-comments]}}`
 
 - Convert all lines in a file into Git comments:
 
-`git stripspace --comment-lines < {{path/to/file}}`
+`git stripspace {{[-c|--comment-lines]}} < {{path/to/file}}`
