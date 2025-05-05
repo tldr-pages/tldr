@@ -1,7 +1,7 @@
 # calc
 
 > Uma calculadora interativa de precisão arbitrária no terminal.
-> Mais informações: <https://github.com/lcn2/calc>.
+> Mais informações: <https://manned.org/calc>.
 
 - Inicia a `calc` no modo interativo:
 
