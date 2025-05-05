@@ -24,6 +24,6 @@
 
 `mqtt_check.py -debug {{domain}}/{{username}}:{{password}}@{{targetName}}`
 
-- Display help message:
+- Display help:
 
 `mqtt_check.py --help`

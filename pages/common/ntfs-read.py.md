@@ -16,6 +16,6 @@
 
 `ntfs-read.py -debug {{volume}}`
 
-- Display help message:
+- Display help:
 
 `ntfs-read.py --help`

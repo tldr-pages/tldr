@@ -1,7 +1,7 @@
 # whois
 
 > Program klien antarmuka baris perintah bagi protokol informasi WHOIS (RFC 3912).
-> Informasi lebih lanjut: <https://github.com/rfc1036/whois>.
+> Informasi lebih lanjut: <https://manned.org/whois>.
 
 - Dapatkan informasi kepemilikan bagi suatu nama domain:
 
