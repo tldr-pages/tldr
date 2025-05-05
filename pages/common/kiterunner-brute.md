@@ -4,7 +4,7 @@
 > The `brute` subcommand targets one or multiple hosts.
 > More information: <https://github.com/assetnote/kiterunner>.
 
-- Bruteforce a target with an Assetnote wordlist (e.g., first 20000 API routes):
+- Bruteforce a target with an Assetnote wordlist (e.g., first 20,000 API routes):
 
 `kiterunner brute {{https://target.com}} {{[-A|--assetnote-wordlist]}}={{apiroutes-210328:20000}}`
 
