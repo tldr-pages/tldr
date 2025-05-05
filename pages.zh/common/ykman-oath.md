@@ -14,7 +14,7 @@
 
 - 添加一个新账户（`--issuer` 是可选的）：
 
-`ykman oath accounts add --issuer {{发行者}} {{名称}}`
+`ykman oath accounts add {{[-i|--issuer]}} {{发行者}} {{名称}}`
 
 - 列出所有账户（及其发行者）：
 
