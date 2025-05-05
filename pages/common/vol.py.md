@@ -1,10 +1,10 @@
-# volatility3
+# vol.py
 
 > Forensics framework used to analyze volatile memory (RAM) dumps.
 > With volatility 3, plugins are now based on operating system. Examples below will use windows.
 > More information: <https://volatility3.readthedocs.io/en/latest/index.html>.
 
-- Displays all available options:
+- Display help:
 
 `python3 vol.py -h`
 
