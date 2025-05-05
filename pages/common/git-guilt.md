@@ -2,7 +2,7 @@
 
 > Show total blame count for files with unstaged changes or calculate the change in blame between two revisions.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-guilt>.
+> More information: <https://manned.org/git-guilt>.
 
 - Show total blame count:
 
@@ -22,7 +22,7 @@
 
 - Find blame delta over the last three weeks:
 
-`git guilt 'git log --until="3 weeks ago" --format="%H" {{[-n|--max-count]}} 1'`
+`git guilt 'git log --until "3 weeks ago" --format "%H" {{[-n|--max-count]}} 1'`
 
 - Find blame delta over the last three weeks (git 1.8.5+):
 

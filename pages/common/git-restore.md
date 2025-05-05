@@ -10,7 +10,7 @@
 
 - Restore an unstaged file to the version of a specific commit:
 
-`git restore --source {{commit}} {{path/to/file}}`
+`git restore {{[-s|--source]}} {{commit}} {{path/to/file}}`
 
 - Discard all unstaged changes to tracked files:
 
@@ -18,16 +18,16 @@
 
 - Unstage a file:
 
-`git restore --staged {{path/to/file}}`
+`git restore {{[-S|--staged]}} {{path/to/file}}`
 
 - Unstage all files:
 
-`git restore --staged :/`
+`git restore {{[-S|--staged]}} :/`
 
 - Discard all changes to files, both staged and unstaged:
 
-`git restore --worktree --staged :/`
+`git restore {{[-W|--worktree]}} {{[-S|--staged]}} :/`
 
 - Interactively select sections of files to restore:
 
-`git restore --patch`
+`git restore {{[-p|--patch]}}`
