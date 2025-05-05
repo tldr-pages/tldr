@@ -32,6 +32,6 @@
 
 `makepkg --printsrcinfo > .SRCINFO`
 
-- Install only the build dependencies for a program:
+- Download the source and install only the build dependencies for a program:
 
 `makepkg {{[-so|--syncdeps --nobuild]}}`
