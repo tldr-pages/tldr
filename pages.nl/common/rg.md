@@ -1,6 +1,6 @@
 # rg
 
-> Ripgrep is een recursieve regel-georiënteerde zoek tool.
+> Ripgrep, een recursieve regel-georiënteerde zoek tool.
 > Wil een sneller alternatief zijn dan `grep`.
 > Meer informatie: <https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md>.
 
