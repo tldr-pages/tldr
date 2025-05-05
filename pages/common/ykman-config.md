@@ -6,12 +6,12 @@
 
 - Enable an application over USB or NFC (`--enable` can be used multiple times to specify more applications):
 
-`ykman config {{usb|nfc}} --enable {{otp|u2f|fido2|oath|piv|openpgp|hsmauth}}`
+`ykman config {{usb|nfc}} {{[-e|--enable]}} {{otp|u2f|fido2|oath|piv|openpgp|hsmauth}}`
 
 - Disable an application over USB or NFC (`--disable` can be used multiple times to specify more applications):
 
-`ykman config {{usb|nfc}} --disable {{otp|u2f|fido2|oath|piv|openpgp|hsmauth}}`
+`ykman config {{usb|nfc}} {{[-d|--disable]}} {{otp|u2f|fido2|oath|piv|openpgp|hsmauth}}`
 
 - Disable all applications over NFC:
 
-`ykman config nfc --disable-all`
+`ykman config nfc {{[-D|--disable-all]}}`
