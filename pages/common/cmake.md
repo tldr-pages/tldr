@@ -29,8 +29,8 @@
 
 - Run a custom build target:
 
-`cmake --build {{path/to/build_directory}} --target {{target_name}}`
+`cmake --build {{path/to/build_directory}} {{[-t|--target]}} {{target_name}}`
 
 - Display help, obtain a list of generators:
 
-`cmake --help`
+`cmake {{[-h|--help]}}`
