@@ -14,7 +14,7 @@
 
 - Ejecuta un comando de `stdin` a las 10:00 AM de hoy:
 
-`echo "{{comando}}" | at 1000``
+`echo "{{comando}}" | at 1000`
 
 - Ejecuta comandos desde un archivo determinado el próximo martes:
 
