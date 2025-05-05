@@ -12,6 +12,6 @@
 
 `git format-patch {{revision_1}}..{{revision_2}}`
 
-- Write a `.patch` file for the 3 latest commits:
+- Write a `.patch` file for the `n` latest commits:
 
 `git format-patch -{{n}}`
