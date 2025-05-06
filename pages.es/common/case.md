@@ -1,15 +1,15 @@
 # case
 
-> Construcción de Bash para crear sentencias condicionales multi-elección.
+> Construcción de Bash para crear sentencias condicionales multi-elección..
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-case>.
 
 - Compara una variable con literales de cadena para decidir qué comando ejecutar:
 
-`case {{$COUNTRULE}} in {{palabras}}) {{wc -w LEAME}} ;; {{líneas}}) {{wc -l LEAME}} ;; esac`
+`case {{$COUNTRULE}} in {{palabras}}) {{wc -w LÉAME}} ;; {{líneas}}) {{wc -l LÉAME}} ;; esac`
 
-- Combina patrones con |, usa * como patrón de reserva:
+- Combina patrones con |, usar * como patrón de reserva:
 
-`case {{$COUNTRULE}} in {{[wW]|palabras}}) {{wc -w LEAME}} ;; {{[lL]|líneas}}) {{wc -l LEAME}} ;; *) {{echo "¿qué?"}} ;; esac`
+`case {{$COUNTRULE}} in {{[wW]|palabras}}) {{wc -w LÉAME}} ;; {{[lL]|líneas}}) {{wc -l LÉAME}} ;; *) {{echo "¿qué?"}} ;; esac`
 
 - Permite la coincidencia de múltiples patrones:
 
@@ -17,4 +17,8 @@
 
 - Continúa con los comandos del siguiente patrón sin comprobar el patrón:
 
-`case {{$ANIMAL}} in {{gato}}) echo "Es un gato" ;& {{perro}}) echo "O es un perro o es un gato" ;& *) echo "Fallback" ;; esac`
+`case {{$ANIMAL}} in {{gato}}) echo "Es un gato" ;& {{perro}}) echo "O es un perro o es un gato" ;& *) echo «Fallback» ;; esac`
+
+- Muestra la ayuda:
+
+`help case`
