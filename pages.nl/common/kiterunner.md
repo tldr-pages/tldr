@@ -5,7 +5,7 @@
 
 - Bekijk documentatie voor het bruteforcen van API-paden en webeindpunten:
 
-`tldr kiterunner brute`.
+`tldr kiterunner brute`
 
 - Bekijk documentatie voor het gelijktijdig scannen van hosts met kitebuilder woordenlijsten:
 
