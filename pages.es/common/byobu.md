@@ -1,3 +1,4 @@
+
 # byobu
 
 > Gestor de ventanas y multiplexor de terminales.
@@ -23,3 +24,11 @@
 - Desactiva el inicio automático después de iniciar sesión en la consola de texto:
 
 `byobu-disable`
+
+- Se desconecta de `byobu`:
+
+`<F6>`
+
+- Apaga una ventana:
+
+`<Ctrl a><k>`
