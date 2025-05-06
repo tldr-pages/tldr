@@ -24,6 +24,6 @@
 
 `crane {{[-v|--verbose]}} {{subcommand}}`
 
-- Toon help voor een subcommando:
+- Toon de help voor een subcommando:
 
 `crane {{[-h|--help]}} {{subcommand}}`

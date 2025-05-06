@@ -24,6 +24,6 @@
 
 `<q>`
 
-- Toon help over interactieve commando's:
+- Toon de help over interactieve commando's:
 
 `<h>`

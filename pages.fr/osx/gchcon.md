@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux chcon`
+`tldr {{[-p|--platform]}} linux chcon`

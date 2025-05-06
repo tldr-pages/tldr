@@ -2,7 +2,7 @@
 
 > 여러 프로브를 한 번에 실행하기 위해 Go로 작성된 빠르고 다목적 HTTP 도구 키트.
 > 참고: 동일한 명령 이름을 가진 관련 없는 Python's HTTPX와 혼동하지 말것.
-> 더 많은 정보: <https://github.com/projectdiscovery/httpx>.
+> 더 많은 정보: <https://docs.projectdiscovery.io/tools/httpx/running>.
 
 - 프로브 상태를 표시하는 [u]RL, 호스트, IP 주소 또는 서브넷 (CIDR 표기법)에 대해 프로브를 실행:
 

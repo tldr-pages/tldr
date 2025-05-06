@@ -1,7 +1,7 @@
 # gshred
 
-> Perintah ini merupakan alias dari `-p linux shred`.
+> Perintah ini merupakan alias dari `shred`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux shred`
+`tldr shred`

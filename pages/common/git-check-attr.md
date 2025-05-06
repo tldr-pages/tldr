@@ -5,7 +5,7 @@
 
 - Check the values of all attributes on a file:
 
-`git check-attr --all {{path/to/file}}`
+`git check-attr {{[-a|--all]}} {{path/to/file}}`
 
 - Check the value of a specific attribute on a file:
 
@@ -13,7 +13,7 @@
 
 - Check the values of all attributes on specific files:
 
-`git check-attr --all {{path/to/file1 path/to/file2 ...}}`
+`git check-attr {{[-a|--all]}} {{path/to/file1 path/to/file2 ...}}`
 
 - Check the value of a specific attribute on one or more files:
 

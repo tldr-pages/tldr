@@ -4,15 +4,11 @@
 > Los resultados se enviarán al correo del usuario.
 > Más información: <https://manned.org/at>.
 
-- Inicia el servicio (daemon)`atd`:
-
-`systemctl start atd`
-
-- Crea comandos interactivamente y los ejecuta en 5 minutos (pulsa `<Ctrl d>` cuando termines):
+- Crea comandos interactivamente y los ejecuta en 5 minutos (pulsa `<Ctrl d>` cuando termines)::
 
 `at now + 5 minutes`
 
-- Crea comandos de forma interactiva y los ejecuta a una hora determinada:
+- Crea comandos interactivamente y los ejecuta a una hora determinada:
 
 `at {{hh:mm}}`
 
@@ -23,3 +19,11 @@
 - Ejecuta comandos desde un archivo determinado el próximo martes:
 
 `at -f {{ruta/al/archivo}} 9:30 PM Tue`
+
+- Lista todos los trabajos en cola para el usuario actual (igual que `atq`):
+
+`at -l`
+
+- Visualiza un trabajo específico:
+
+`at -c {{número_de_trabajo}}`

@@ -1,7 +1,7 @@
 # gtruncate
 
-> Perintah ini merupakan alias dari `-p linux truncate`.
+> Perintah ini merupakan alias dari `truncate`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux truncate`
+`tldr truncate`

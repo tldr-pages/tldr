@@ -17,8 +17,8 @@
 
 - Open the Git repository at mentioned path:
 
-`git cola --repo {{path/to/git-repository}}`
+`git cola {{[-r|--repo]}} {{path/to/git-repository}}`
 
 - Apply the path filter to the status widget:
 
-`git cola --status-filter {{filter}}`
+`git cola {{[-s|--status-filter]}} {{filter}}`

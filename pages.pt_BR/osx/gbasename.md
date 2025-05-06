@@ -1,7 +1,7 @@
 # gbasename
 
-> Este comando é um apelido de `-p linux basename`.
+> Este comando é um apelido de `basename`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux basename`
+`tldr basename`

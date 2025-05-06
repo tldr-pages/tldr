@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux rlogin`
+`tldr {{[-p|--platform]}} linux rlogin`

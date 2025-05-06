@@ -1,7 +1,7 @@
 # gnice
 
-> Este comando é um apelido de `-p linux nice`.
+> Este comando é um apelido de `nice`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux nice`
+`tldr nice`

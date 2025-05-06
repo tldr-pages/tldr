@@ -1,7 +1,7 @@
 # gwhoami
 
-> Este comando é um alias de `-p linux whoami`.
+> Este comando é um alias de `whoami`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux whoami`
+`tldr whoami`

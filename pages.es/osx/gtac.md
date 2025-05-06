@@ -1,7 +1,7 @@
 # gtac
 
-> Este comando es un alias de `-p linux tac`.
+> Este comando es un alias de `tac`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux tac`
+`tldr tac`

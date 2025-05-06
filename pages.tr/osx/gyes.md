@@ -1,7 +1,7 @@
 # gyes
 
-> Bu komut `-p linux yes` için bir takma addır.
+> Bu komut `yes` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux yes`
+`tldr yes`

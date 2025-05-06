@@ -26,7 +26,7 @@
 
 - Show monthly incomes/expenses/totals, largest first, summarised to 2 levels:
 
-`hledger {{[is|incomestatement]}} {{[-M|--monthly]}} {{[-T|--row-total]}} {{[-A|--average]}} --sort --depth 2`
+`hledger {{[is|incomestatement]}} {{[-M|--monthly]}} {{[-T|--row-total]}} {{[-A|--average]}} --sort {{[-2|--depth 2]}}`
 
 - Show the `assets:bank:checking` account's transactions and running balance:
 

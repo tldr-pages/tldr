@@ -1,7 +1,7 @@
 # gtr
 
-> Este comando es un alias de `-p linux tr`.
+> Este comando es un alias de `tr`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux tr`
+`tldr tr`

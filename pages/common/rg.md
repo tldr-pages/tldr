@@ -10,7 +10,7 @@
 
 - Recursively search for a pattern in a file or directory:
 
-`rg {{pattern}} {{path/to/directory}}`
+`rg {{pattern}} {{path/to/file_or_directory}}`
 
 - Include hidden files and entries listed in `.gitignore`:
 

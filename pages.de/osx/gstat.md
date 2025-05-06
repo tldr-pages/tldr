@@ -1,7 +1,7 @@
 # gstat
 
-> Dieser Befehl ist ein Alias von `-p linux stat`.
+> Dieser Befehl ist ein Alias von `stat`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux stat`
+`tldr {{[-p|--platform]}} common stat`

@@ -10,7 +10,7 @@
 
 - List local, global or system configuration entries and show their file location:
 
-`git config --list --{{local|global|system}} --show-origin`
+`git config {{[-l|--list]}} --{{local|global|system}} --show-origin`
 
 - Set the global value of a given configuration entry (in this case an alias):
 
@@ -30,8 +30,8 @@
 
 - Edit the local Git configuration (`.git/config`) in the default editor:
 
-`git config --edit`
+`git config {{[-e|--edit]}}`
 
 - Edit the global Git configuration (`~/.gitconfig` by default or `$XDG_CONFIG_HOME/git/config` if such a file exists) in the default editor:
 
-`git config --global --edit`
+`git config --global {{[-e|--edit]}}`

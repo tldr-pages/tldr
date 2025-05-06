@@ -14,7 +14,7 @@
 
 - 새 계정 추가 (`--issuer`는 선택 사항):
 
-`ykman oath accounts add --issuer {{발행자}} {{이름}}`
+`ykman oath accounts add {{[-i|--issuer]}} {{발행자}} {{이름}}`
 
 - 모든 계정 나열 (발행자 포함):
 

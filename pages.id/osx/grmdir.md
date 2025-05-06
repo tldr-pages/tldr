@@ -1,7 +1,7 @@
 # grmdir
 
-> Perintah ini merupakan alias dari `-p linux rmdir`.
+> Perintah ini merupakan alias dari `rmdir`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux rmdir`
+`tldr rmdir`

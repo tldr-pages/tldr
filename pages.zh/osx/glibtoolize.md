@@ -4,4 +4,4 @@
 
 - 原命令的文档在：
 
-`tldr -p linux libtoolize`
+`tldr {{[-p|--platform]}} linux libtoolize`

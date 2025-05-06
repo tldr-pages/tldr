@@ -1,7 +1,7 @@
 # gmkfifo
 
-> यह आदेश `-p linux mkfifo` का उपनाम है।
+> यह आदेश `mkfifo` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux mkfifo`
+`tldr mkfifo`

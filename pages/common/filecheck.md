@@ -12,7 +12,7 @@
 
 `echo "{{some_text}}" | FileCheck {{path/to/check_file}}`
 
-- Match with the specified custom check `prefix` (Note: the default prefix is `CHECK`):
+- Match with the specified custom check `prefix` (Note: The default prefix is `CHECK`):
 
 `echo "{{some_text}}" | FileCheck --check-prefix={{prefix}} {{path/to/check_file}}`
 

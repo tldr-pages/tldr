@@ -1,7 +1,7 @@
 # gfgrep
 
-> Este comando é um apelido de `-p linux fgrep`.
+> Este comando é um apelido de `fgrep`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux fgrep`
+`tldr fgrep`

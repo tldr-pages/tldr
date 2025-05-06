@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux chcon`
+`tldr {{[-p|--platform]}} linux chcon`

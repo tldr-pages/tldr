@@ -25,7 +25,7 @@
 
 - Bangun situs web dengan untuk dijalankan pada alamat IP lokal:
 
-`hugo server --bind {{ip-lokal}} --baseURL {{http://ip-lokal}}`
+`hugo server --bind {{ip_lokal}} --baseURL {{http://ip_lokal}}`
 
 - Bangun situs web menuju direktori yang ditentukan:
 

@@ -10,7 +10,7 @@
 
 - Maak een VM met standaard instellingen en voorzie optioneel van een naam en/of template (zie `limactl create --list-templates` voor beschikbare templates):
 
-`limactl create --name {{vm_name}} template://{{debian|fedora|ubuntu|…}}`
+`limactl create --name {{vm_name}} template://{{debian|fedora|ubuntu|...}}`
 
 - Start een VM (dit kan enkele afhankelijkheden erin installeren en een paar minuten duren):
 
