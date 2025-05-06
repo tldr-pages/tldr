@@ -1,4 +1,3 @@
-
 # byobu
 
 > Gestor de ventanas y multiplexor de terminales.
