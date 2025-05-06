@@ -6,7 +6,7 @@
 
 - Bruteforce a target with an Assetnote wordlist (e.g., first 20,000 API routes):
 
-`kiterunner brute {{https://example.com}} {{[-A|--assetnote-wordlist]}}={{apiroutes-210328:20000}}`
+`kiterunner brute {{https://example.com}} {{[-A|--assetnote-wordlist]}} {{apiroutes-210328:20000}}`
 
 - Bruteforce a target with a custom wordlist:
 
