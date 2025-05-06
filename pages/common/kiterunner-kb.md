@@ -6,32 +6,32 @@
 
 - Compile a kitebuilder schema from JSON to a kite file:
 
-`kiterunner kb compile {{wordlist.json}} {{wordlist.kite}}`
+`kiterunner kb compile {{path/to/wordlist.json}} {{path/to/wordlist.kite}}`
 
 - Convert a kite file to a text wordlist:
 
-`kiterunner kb convert {{wordlist.kite}} {{wordlist.txt}}`
+`kiterunner kb convert {{path/to/wordlist.kite}} {{path/to/wordlist.txt}}`
 
 - Convert a text wordlist to a kite file:
 
-`kiterunner kb convert {{wordlist.txt}} {{wordlist.kite}}`
+`kiterunner kb convert {{path/to/wordlist.txt}} {{path/to/wordlist.kite}}`
 
 - Convert a kite file to a JSON schema:
 
-`kiterunner kb convert {{wordlist.kite}} {{wordlist.json}}`
+`kiterunner kb convert {{path/to/wordlist.kite}} {{path/to/wordlist.json}}`
 
 - Parse a kitebuilder schema and output prettified JSON data:
 
-`kiterunner kb parse {{wordlist.json}} {{[-o|--output]}} {{json}}`
+`kiterunner kb parse {{path/to/wordlist.json}} {{[-o|--output]}} {{json}}`
 
 - Parse a kite file and output prettified text data:
 
-`kiterunner kb parse {{wordlist.kite}} {{[-o|--output]}} {{text}}`
+`kiterunner kb parse {{path/to/wordlist.kite}} {{[-o|--output]}} {{text}}`
 
 - Replay a specific request from a kitebuilder schema output:
 
-`kiterunner kb replay {{[-w|--kitebuilder-list]}} {{wordlist.kite}} "{{request_output}}"`
+`kiterunner kb replay {{[-w|--kitebuilder-list]}} {{path/to/wordlist.kite}} "{{request_output}}"`
 
 - Replay a request through a proxy for inspection:
 
-`kiterunner kb replay {{[-w|--kitebuilder-list]}} {{wordlist.kite}} {{[-p|--proxy]}} {{http://localhost:8080}} "{{request_output}}"`
+`kiterunner kb replay {{[-w|--kitebuilder-list]}} {{path/to/wordlist.kite}} {{[-p|--proxy]}} {{http://localhost:8080}} "{{request_output}}"`

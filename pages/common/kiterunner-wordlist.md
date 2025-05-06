@@ -22,7 +22,7 @@
 
 - Save a specific Assetnote wordlist by full filename:
 
-`kiterunner wordlist save {{httparchive_apiroutes_2021_03_28.txt}}`
+`kiterunner wordlist save {{path/to/httparchive_apiroutes_2024_05_28.txt}}`
 
 - Save multiple wordlists by alias:
 
