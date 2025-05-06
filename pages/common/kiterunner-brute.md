@@ -26,7 +26,7 @@
 
 - Bruteforce and ignore specific content length responses:
 
-`kiterunner brute {{https://example.com}} {{[-w|--wordlist]}} {{path/to/wordlist.txt}} --ignore-length={{100-105}}`
+`kiterunner brute {{https://example.com}} {{[-w|--wordlist]}} {{path/to/wordlist.txt}} --ignore-length {{100-105}}`
 
 - Bruteforce with custom HTTP headers:
 
