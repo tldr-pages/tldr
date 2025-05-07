@@ -1,6 +1,6 @@
 # case
 
-> Construcción de Bash para crear sentencias condicionales multi-elección..
+> Construcción de Bash para crear sentencias condicionales multi-elección.
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-case>.
 
 - Compara una variable con literales de cadena para decidir qué comando ejecutar:
