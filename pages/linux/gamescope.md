@@ -7,7 +7,7 @@
 
 `gamescope -h 720 -H 1440 -S integer -- %command%`
 
-- Limit a vsynced game to 30 FPS
+- Limit a vsynced game to 30 FPS:
 
 `gamescope -r 30 -- %command%`
 
