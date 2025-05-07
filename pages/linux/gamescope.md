@@ -1,7 +1,7 @@
 # gamescope
 
 > Micro-compositor used as a game layer.
-> More information: <https://github.com/ValveSoftware/gamescope>
+> More information: <https://github.com/ValveSoftware/gamescope>.
 
 - Upscale a 720p game to 1440p with integer scaling:
 
