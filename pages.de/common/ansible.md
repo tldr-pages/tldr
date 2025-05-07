@@ -2,7 +2,7 @@
 
 > Verwalte Computergruppen per Fernzugriff über SSH (Verwende die Datei `/etc/ansible/hosts`, um neue Gruppen/Hosts hinzuzufügen).
 > Manche Unterbefehle wie `galaxy` sind separat dokumentiert.
-> Weitere Informationen: <https://www.ansible.com/>.
+> Weitere Informationen: <https://docs.ansible.com/ansible/latest/cli/ansible.html>.
 
 - Liste Hosts auf, die zu einer Gruppe gehören:
 
