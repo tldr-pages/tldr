@@ -1,7 +1,7 @@
 # exo iam
 
 > CLI for managing the Exoscale IAM service.
-> More information: <https://community.exoscale.com/community/iam/>
+> More information: <https://community.exoscale.com/community/iam/>.
 
 - List all of the IAM roles:
 

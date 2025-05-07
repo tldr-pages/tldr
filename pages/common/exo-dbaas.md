@@ -1,7 +1,7 @@
 # exo dbaas
 
 > CLI for managing Exoscale DBaaS.
-> More information: <https://community.exoscale.com/community/dbaas/>
+> More information: <https://community.exoscale.com/community/dbaas/>.
 
 - List available Database Service types:
 
