@@ -1,6 +1,6 @@
 # exo compute sks
 
-> CLI for managing the Exoscale Scalable Kubernetes Service (SKS).
+> Manage the Exoscale Scalable Kubernetes Service (SKS).
 > More information: <https://community.exoscale.com/community/sks/>.
 
 - List the supported SKS cluster versions:
@@ -15,13 +15,13 @@
 
 `exo compute sks list`
 
-- Generate a Kubernetes kubeconfig file for an SKS cluster that expires in 30 minutes:
+- Generate a Kubernetes kubeconfig file for an SKS cluster that expires in 1800 seconds:
 
-`exo compute sks kubeconfig {{cluster_name|id}} {{user}} --ttl {{1800}} {{[-z|--zone]}} {{zone}}`
+`exo compute sks kubeconfig {{cluster_name|id}} {{user}} --ttl 1800 {{[-z|--zone]}} {{zone}}`
 
 - Create and add a Nodepool containing 3 nodes to an SKS cluster:
 
-`exo compute sks nodepool add {{cluster_name|id}} {{nodepool_name}} --size {{3}} {{[-z|--zone]}} {{zone}}`
+`exo compute sks nodepool add {{cluster_name|id}} {{nodepool_name}} --size 3 {{[-z|--zone]}} {{zone}}`
 
 - Remove a Nodepool from an SKS cluster:
 

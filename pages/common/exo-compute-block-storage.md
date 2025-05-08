@@ -1,11 +1,11 @@
 # exo compute block-storage
 
-> CLI for managing the Exoscale Block Storage service.
+> Manage the Exoscale Block Storage service.
 > More information: <https://community.exoscale.com/community/block-storage/>.
 
 - Create a 20GB Block Storage Volume:
 
-`exo compute block-storage create {{volume_name}} --size {{20}} {{[-z|--zone]}} {{zone}}`
+`exo compute block-storage create {{volume_name}} --size 20 {{[-z|--zone]}} {{zone}}`
 
 - List Block Storage Volumes:
 
@@ -27,6 +27,6 @@
 
 `exo compute block-storage create {{volume_name}} --snapshot {{snapshot_name|id}} {{[-z|--zone]}} {{zone}}`
 
-- Update an existing Block Storage Volume:
+- Update an existing Block Storage Volume with a new name and a new volume size of 30GB:
 
-`exo compute block-storage update {{volume_name|id}} --size {{new_size}} --name {{new_name}}`
+`exo compute block-storage update {{volume_name|id}} --size 30 --name {{new_name}}`

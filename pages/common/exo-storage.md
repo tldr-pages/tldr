@@ -1,6 +1,6 @@
 # exo storage
 
-> CLI for managing the Exoscale Simple Object Storage (SOS) service.
+> Manage the Exoscale Simple Object Storage (SOS) service.
 > More information: <https://community.exoscale.com/community/storage/>.
 
 - Create a new SOS bucket:

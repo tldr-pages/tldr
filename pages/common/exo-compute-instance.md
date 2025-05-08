@@ -1,6 +1,6 @@
 # exo compute instance
 
-> CLI for managing Exoscale Compute instances.
+> Manage Exoscale Compute instances.
 > More information: <https://community.exoscale.com/community/compute/>.
 
 - Create a Debian based Compute instance with a disk size of 10GB:
@@ -31,6 +31,6 @@
 
 `exo compute instance snapshot revert {{snapshot_id}} {{instance_name|id}}`
 
-- Resize the disk size of a Compute instance:
+- Resize the disk size of a Compute instance to 20GB:
 
-`exo compute instance resize-disk {{instance_name|id}} {{20}}`
+`exo compute instance resize-disk {{instance_name|id}} 20`

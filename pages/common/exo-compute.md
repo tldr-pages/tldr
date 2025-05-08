@@ -1,6 +1,6 @@
 # exo compute
 
-> CLI for managing Exoscale Compute resources.
+> Manage Exoscale Compute resources.
 > Some subcommands such as `instance` have their own documentation.
 > More information: <https://community.exoscale.com/community/compute/>.
 
