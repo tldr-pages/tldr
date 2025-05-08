@@ -21,7 +21,7 @@
 
 - Close all tabs within dbeaver:
 
-`dbeaver {{[closeTabs|--closeTabs]}}`
+`dbeaver {{[-closeTabs|--closeTabs]}}`
 
 - Bring `DBeaver` to the top of applications:
 
