@@ -15,7 +15,7 @@
 
 `tldr {{[-L|--language]}} {{sprachcode}} {{befehl}}`
 
-- Zeige die tldr-Seite für einen Befehl aus einer bestimmten Plattform an:
+- Zeige die tldr-Seite für einen Befehl auf einer bestimmten Plattform an:
 
 `tldr {{[-p|--platform]}} {{android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows}} {{befehl}}`
 
