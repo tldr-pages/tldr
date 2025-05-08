@@ -15,6 +15,10 @@
 
 `gamescope {{[-r|--nested-refresh]}} 30 -- %command%`
 
+- Toggle fullscreen:
+
+`<Super f>`
+
 - Get a full list of options:
 
 `gamescope --help`
