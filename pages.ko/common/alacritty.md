@@ -1,7 +1,7 @@
 # alacritty
 
 > 교차 플랫폼으로, GPU-가속 터미널 에뮬레이터.
-> 더 많은 정보: <https://github.com/alacritty/alacritty>.
+> 더 많은 정보: <https://manned.org/alacritty>.
 
 - 새 Alacritty 창 열기:
 
