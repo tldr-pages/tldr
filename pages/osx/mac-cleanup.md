@@ -4,9 +4,8 @@
 > More information: <https://github.com/mac-cleanup/mac-cleanup-py>.
 
 - Start the cleanup process:
-(the configuration screen will open on the first launch)
 
-`mac-cleanup`
+`mac-cleanup` (the configuration screen will open on the first launch)
 
 - Open the module [c]onfiguration screen:
 
