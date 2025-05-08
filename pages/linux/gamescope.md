@@ -19,6 +19,6 @@
 
 `<Super f>`
 
-- Get a full list of options:
+- Show help:
 
 `gamescope --help`
