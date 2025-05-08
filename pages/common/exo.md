@@ -1,6 +1,6 @@
 # exo
 
-> The official CLI tool for Exoscale services.
+> Manage the Exoscale services.
 > Some subcommands such as `exo compute` have their own usage documentation.
 > More information: <https://community.exoscale.com/community/tools/exoscale-command-line-interfaces>.
 
@@ -24,6 +24,6 @@
 
 `exo storage list {{[-O|--output-template]}} '\{\{ .Name \}\}`
 
-- Display help for a command:
+- Display help for a specific sub-command:
 
 `exo {{iam}} {{[-h|--help]}}`

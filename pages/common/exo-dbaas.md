@@ -1,6 +1,6 @@
 # exo dbaas
 
-> CLI for managing Exoscale DBaaS.
+> Manage Exoscale DBaaS.
 > More information: <https://community.exoscale.com/community/dbaas/>.
 
 - List available Database Service types:
@@ -21,7 +21,7 @@
 
 - Set a specified maintenance time and day of the week for a Database Service:
 
-`exo dbaas update {{database_service_name}} --maintenance-dow {{day_of_week}} --maintenance-time {{HH:MM:SS}}`
+`exo dbaas update {{database_service_name}} --maintenance-dow {{day_of_the_week}} --maintenance-time {{HH:MM:SS}}`
 
 - Get help for a specific Database Service type:
 
