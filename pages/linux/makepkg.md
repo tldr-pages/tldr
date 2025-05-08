@@ -14,7 +14,7 @@
 
 - Make a package, install its dependencies then install it to the system:
 
-`makepkg {{[-s|--syncdeps]}} {{[-i|--install]}}`
+`makepkg {{[-si|--syncdeps --install]}}`
 
 - Make a package, but skip checking the source's hashes:
 
@@ -31,3 +31,7 @@
 - Generate and save the source information into `.SRCINFO`:
 
 `makepkg --printsrcinfo > .SRCINFO`
+
+- Download the source and install only the build dependencies for a program:
+
+`makepkg {{[-so|--syncdeps --nobuild]}}`
