@@ -5,7 +5,7 @@
 
 - Start the cleanup process:
 
-`mac-cleanup` (the configuration screen will open on the first launch)
+`mac-cleanup`
 
 - Open the module [c]onfiguration screen:
 
