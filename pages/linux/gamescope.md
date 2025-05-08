@@ -1,6 +1,6 @@
 # gamescope
 
-> Micro-compositor used as a game layer.
+> A micro-compositor used as a game layer.
 > More information: <https://github.com/ValveSoftware/gamescope>.
 
 - Run a program with gamescope:
