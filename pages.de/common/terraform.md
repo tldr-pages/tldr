@@ -1,7 +1,7 @@
 # terraform
 
 > Erstellen und Bereitstellen von Infrastruktur als Code für Cloud-Anbieter.
-> Weitere Informationen: <https://www.terraform.io/>.
+> Weitere Informationen: <https://developer.hashicorp.com/terraform/cli/commands>.
 
 - Initialisieren einer neuen oder bestehenden Terraform-Konfiguration:
 
