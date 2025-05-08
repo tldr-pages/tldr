@@ -1,7 +1,7 @@
 # kate
 
 > KDE's advanced text editor.
-> More information: <https://kate-editor.org/>.
+> More information: <https://docs.kde.org/stable5/en/kate/kate/fundamentals.html#starting-from-the-command-line>.
 
 - Open specific files:
 
