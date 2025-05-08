@@ -9,7 +9,7 @@
 
 - Limit a vsynced game to 30 FPS:
 
-`gamescope -r 30 -- %command%`
+`gamescope {{[-r|--nested-refresh]}} 30 -- %command%`
 
 - Get a full list of options:
 
