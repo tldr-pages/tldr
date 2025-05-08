@@ -1,7 +1,7 @@
 # yarn
 
 > JavaScript 및 Node.js 패키지 대체 관리자.
-> 더 많은 정보: <https://yarnpkg.com>.
+> 더 많은 정보: <https://yarnpkg.com/cli>.
 
 - 전역적으로 모듈 설치:
 
