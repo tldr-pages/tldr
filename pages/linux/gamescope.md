@@ -5,7 +5,7 @@
 
 - Upscale a 720p game to 1440p with integer scaling:
 
-`gamescope -h 720 -H 1440 -S integer -- %command%`
+`gamescope {{[-h|--nested-height]}} 720 {{[-H|--output-height]}} 1440 {{[-S|--scaler]}} integer -- %command%`
 
 - Limit a vsynced game to 30 FPS:
 
