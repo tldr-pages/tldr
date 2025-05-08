@@ -23,7 +23,7 @@
 
 `code --{{install|uninstall}}-extension {{publisher.extension}}`
 
-- Print diagnostic and process information about the running code window:
+- Display diagnostic and process information about the running code window:
 
 `code {{[-s|--status]}}`
 
