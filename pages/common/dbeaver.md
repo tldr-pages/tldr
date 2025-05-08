@@ -1,7 +1,7 @@
 # dbeaver
 
 > A GUI SQL client supporting many databases.
-> More information: <https://github.com/dbeaver/dbeaver>.
+> More information: <https://dbeaver.com/docs/dbeaver/Command-Line/>.
 
 - Open `DBeaver`:
 
