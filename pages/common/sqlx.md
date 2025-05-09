@@ -21,4 +21,4 @@
 
 - Revert the latest migration for the specified database:
 
-`sqlx migrate revert --database_url {{database_url}}`
+`sqlx migrate revert {{[-D|--database-url]}} {{database_url}}`
