@@ -10,11 +10,11 @@
 
 - Build a Bicep file:
 
-`az bicep build --file {{path/to/file.bicep}}`
+`az bicep build {{[-f|--file]}} {{path/to/file.bicep}}`
 
 - Attempt to decompile an ARM template file to a Bicep file:
 
-`az bicep decompile --file {{path/to/template_file.json}}`
+`az bicep decompile {{[-f|--file]}} {{path/to/template_file.json}}`
 
 - Upgrade Bicep CLI to the latest version:
 
