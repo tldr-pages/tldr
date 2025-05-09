@@ -5,20 +5,20 @@
 
 - Run a `doctl databases replica` command with an access token:
 
-`doctl databases pool {{command}} --access-token {{access_token}}`
+`doctl {{[d|databases]}} {{[p|pool]}} {{command}} {{[-t|--access-token]}} {{access_token}}`
 
 - Retrieve information about a read-only database replica:
 
-`doctl databases replica get {{database_id}} {{replica_name}}`
+`doctl {{[d|databases]}} {{[r|replica]}} {{[g|get]}} {{database_id}} {{replica_name}}`
 
 - Retrieve list of read-only database replicas:
 
-`doctl databases replica list {{database_id}}`
+`doctl {{[d|databases]}} {{[r|replica]}} {{[ls|list]}} {{database_id}}`
 
 - Create a read-only database replica:
 
-`doctl databases replica create {{database_id}} {{replica_name}}`
+`doctl {{[d|databases]}} {{[r|replica]}} {{[c|create]}} {{database_id}} {{replica_name}}`
 
 - Delete a read-only database replica:
 
-`doctl databases replica delete {{database_id}} {{replica_name}}`
+`doctl {{[d|databases]}} {{[r|replica]}} {{[rm|delete]}} {{database_id}} {{replica_name}}`
