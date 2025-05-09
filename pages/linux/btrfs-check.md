@@ -13,7 +13,7 @@
 
 - Show the progress of the check:
 
-`sudo btrfs check --progress {{path/to/partition}}`
+`sudo btrfs check {{[-p|--progress]}} {{path/to/partition}}`
 
 - Verify the checksum of each data block (if the filesystem is good):
 
@@ -21,7 +21,7 @@
 
 - Use the `n`-th superblock (`n` can be 0, 1 or 2):
 
-`sudo btrfs check --super {{n}} {{path/to/partition}}`
+`sudo btrfs check {{[-s|--super]}} {{n}} {{path/to/partition}}`
 
 - Rebuild the checksum tree:
 
