@@ -1,7 +1,7 @@
 # gls
 
-> Dit commando is een alias van `-p linux ls`.
+> Dit commando is een alias van GNU `ls`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux ls`
+`tldr ls`

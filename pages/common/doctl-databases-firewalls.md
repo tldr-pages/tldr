@@ -5,7 +5,7 @@
 
 - Run a `doctl databases firewalls` command with an access token:
 
-`doctl databases firewalls {{command}} --access-token {{access_token}}`
+`doctl databases firewalls {{command}} {{[-t|--access-token]}} {{access_token}}`
 
 - Retrieve a list of firewall rules for a given database:
 

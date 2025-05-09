@@ -1,16 +1,16 @@
-# git sizer
+# git-sizer
 
-> Calcula diferentes métricas del repositorio Git y te informa de cualquier que puede causar problemas o inconvenientes.
+> Calcula varias métricas de tamaño de repositorios Git y te alerta de cualquiera que pueda causar problemas o inconvenientes.
 > Más información: <https://github.com/github/git-sizer>.
 
-- Reporta solo estadísticas que tienen un nivel de preocupación mayor que 0:
+- Informa solo de las estadísticas que tienen un nivel de incidencia superior a 0:
 
-`git sizer`
+`git-sizer`
 
-- Reporta todas las estadísticas:
+- Informa de todas las estadísticas:
 
-`git sizer -v`
+`git-sizer -v`
 
-- Muestra opciones adicionales:
+- Vea opciones adicionales:
 
-`git sizer -h`
+`git-sizer -h`

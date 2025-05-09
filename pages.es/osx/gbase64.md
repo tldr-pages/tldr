@@ -1,7 +1,7 @@
 # gbase64
 
-> Este comando es un alias de `-p linux base64`.
+> Este comando es un alias de `base64`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux base64`
+`tldr {{[-p|--platform]}} common base64`

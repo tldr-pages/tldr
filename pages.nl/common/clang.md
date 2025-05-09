@@ -26,7 +26,7 @@
 
 - Compileer broncode zonder deze te linken:
 
-`clang {{[-c|--compile]}} {{path/to/source.c}}`
+`clang {{[-c|--compile]}} {{pad/naar/bron.c}}`
 
 - Optimaliseer het gecompileerde programma voor prestaties:
 

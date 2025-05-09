@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux rcp`
+`tldr {{[-p|--platform]}} linux rcp`

@@ -1,7 +1,7 @@
 # lbu
 
 > Manage `apk` overlay files on a diskless Alpine Linux system.
-> Note: subcommands like `include` write to `/etc`, which is stored in RAM. You need to run `lbu commit` to save the changes.
+> Note: Subcommands like `include` write to `/etc`, which is stored in RAM. You need to run `lbu commit` to save the changes.
 > More information: <https://wiki.alpinelinux.org/wiki/Alpine_local_backup>.
 
 - Commit changes to persistent storage (only files in `/etc` by default):

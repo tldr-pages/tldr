@@ -1,7 +1,7 @@
 # gshuf
 
-> Este comando é um apelido de `-p linux shuf`.
+> Este comando é um apelido de `shuf`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux shuf`
+`tldr {{[-p|--platform]}} coomon shuf`

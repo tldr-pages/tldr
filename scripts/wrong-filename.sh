@@ -10,14 +10,14 @@ OUTPUT_FILE="inconsistent-filenames.txt"
 rm -f "$OUTPUT_FILE"
 touch "$OUTPUT_FILE"
 
-IGNORE_LIST=("caret" "comma" "curly brace" "dollar sign" "dot" "exclamation mark" "tilde" "percent sign" "qm move disk" "umount" "rename" "pacman  d" "pacman  f" "pacman  q" "pacman  r" "pacman  s" "pacman  t" "pacman  u" "parted" "print.runmailcap" "print.win")
+IGNORE_LIST=("caret" "comma" "curly brace" "dollar sign" "dot" "exclamation mark" "jc.json" "tilde" "percent sign" "qm move disk" "umount" "rename" "pacman  d" "pacman  f" "pacman  q" "pacman  r" "pacman  s" "pacman  t" "pacman  u" "parted" "print.runmailcap" "print.win")
 
 set -e
 
 # Iterate through all Markdown files in the 'pages' directories
 find pages* -name '*.md' -type f | while read -r path; do
   # Extract the expected command name from the filename
-  COMMAND_NAME_FILE=$(basename "$path" | head -c-4 | sed 's/nix3/nix/' | sed 's/\.fish//' | sed 's/\.js//' | sed 's/\.1//' | tr '-' ' '  | tr '[:upper:]' '[:lower:]')
+  COMMAND_NAME_FILE=$(basename "$path" | head -c-4 | sed 's/\.fish//' | sed 's/\.js//' | sed 's/\.1//' | sed 's/\.2//' | sed 's/\.3//' | tr '-' ' '  | tr '[:upper:]' '[:lower:]')
 
   # Extract the command name from the first line of the Markdown file
   COMMAND_NAME_PAGE=$(head -n1 "$path" | tail -c+3 | sed 's/--//' | tr '-' ' ' | tr '[:upper:]' '[:lower:]')

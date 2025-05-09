@@ -1,7 +1,7 @@
 # gwho
 
-> Perintah ini merupakan alias dari `-p linux who`.
+> Perintah ini merupakan alias dari `who`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux who`
+`tldr who`

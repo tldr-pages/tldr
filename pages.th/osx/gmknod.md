@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux mknod`
+`tldr {{[-p|--platform]}} linux mknod`

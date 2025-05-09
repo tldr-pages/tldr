@@ -1,7 +1,7 @@
 # fpsync
 
 > Execute several synchronization processes locally or on several remote workers through SSH.
-> More information: <https://www.fpart.org/fpsync/>.
+> More information: <https://manned.org/fpsync>.
 
 - Recursively synchronize a directory to another location:
 
@@ -23,6 +23,6 @@
 
 `fpsync -v -n 4 -f 1000 -s $((100 * 1024 * 1024)) {{/path/to/source/}} {{/path/to/destination/}}`
 
-- Recursively synchronize any directories but exclude specific `.snapshot*` files (Note: options and values must be separated by a pipe character):
+- Recursively synchronize any directories but exclude specific `.snapshot*` files (Note: Options and values must be separated by a pipe character):
 
 `fpsync -v -O "-x|.snapshot*" {{/path/to/source/}} {{/path/to/destination/}}`

@@ -16,6 +16,6 @@
 
 `hledger {{[is|incomestatement]}} {{[-MTAS|--monthly --row-total --average --sort-amount]}} {{[-2|--depth 2]}}`
 
-- Short form of the above, and generate HTML output in `is.html`:
+- Same as above, and generate HTML output in `is.html`:
 
-`hledger is -MTAS -2 -o is.html`
+`hledger {{[is|incomestatement]}} {{[-MTAS|--monthly --row-total --average --sort-amount]}} {{[-2|--depth 2]}} {{[-o|--output-file]}} is.html`

@@ -18,7 +18,7 @@
 
 - Change the update interval in seconds (or one of these time units: `ms`, `us`, `min`):
 
-`systemd-cgtop --delay={{interval}}`
+`systemd-cgtop {{[-d|--delay]}} {{interval}}`
 
 - Only count userspace processes (without kernel threads):
 

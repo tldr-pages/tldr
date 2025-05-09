@@ -1,7 +1,7 @@
 # cryptsetup open
 
 > Create a decrypted mapping of an encrypted volume.
-> Note: with TRIM enabled, minimal data leakage in form of freed block information, perhaps sufficient to determine the filesystem in use may occur.
+> Note: With TRIM enabled, minimal data leakage in form of freed block information, perhaps sufficient to determine the filesystem in use may occur.
 > However, you still most likely want to enable it, because the data inside is still safe and SSDs without TRIM will wear out faster.
 > More information: <https://manned.org/cryptsetup-open>.
 

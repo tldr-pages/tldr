@@ -5,8 +5,8 @@
 
 - Windows에서 Microsoft Edge에 대한 문서 보기:
 
-`tldr -p windows msedge`
+`tldr {{[-p|--platform]}} windows msedge`
 
 - 다른 플랫폼에서 Microsoft Edge에 대한 문서 보기:
 
-`tldr -p common microsoft-edge`
+`tldr {{[-p|--platform]}} common microsoft-edge`

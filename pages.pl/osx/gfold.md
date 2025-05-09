@@ -1,7 +1,7 @@
 # gfold
 
-> To polecenie jest aliasem `-p linux fold`.
+> To polecenie jest aliasem GNU `fold`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux fold`
+`tldr {{[-p|--platform]}} linux fold`

@@ -10,7 +10,7 @@
 
 - Check tags for a GPG signature and show details for each tag:
 
-`git verify-tag {{tag1 optional_tag2 ...}} --verbose`
+`git verify-tag {{tag1 optional_tag2 ...}} {{[-v|--verbose]}}`
 
 - Check tags for a GPG signature and print the raw details:
 

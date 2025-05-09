@@ -1,7 +1,7 @@
 # grip
 
 > Preview GitHub-flavoured Markdown files locally.
-> More information: <https://github.com/joeyespo/grip>.
+> More information: <https://manned.org/grip>.
 
 - Start the server and serve the rendered `README` file of a current directory:
 
@@ -13,7 +13,7 @@
 
 - Start the server and open the `README` file of the current directory in the browser:
 
-`grip --browser`
+`grip {{[-b|--browser]}}`
 
 - Start the server in the specified port and serve the rendered `README` file of the current directory:
 

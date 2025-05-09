@@ -1,7 +1,7 @@
 # guname
 
-> Perintah ini merupakan alias dari `-p linux uname`.
+> Perintah ini merupakan alias dari `uname`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux uname`
+`tldr {{[-p|--platform]}} common uname`

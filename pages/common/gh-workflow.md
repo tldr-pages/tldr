@@ -9,15 +9,15 @@
 
 - View a specific workflow in the default browser:
 
-`gh workflow view {{id|workflow_name|filename.yml}} --web`
+`gh workflow view {{id|workflow_name|filename.yml}} {{[-w|--web]}}`
 
 - Display the YAML definition of a specific workflow:
 
-`gh workflow view {{id|workflow_name|filename.yml}} --yaml`
+`gh workflow view {{id|workflow_name|filename.yml}} {{[-y|--yaml]}}`
 
 - Display the YAML definition for a specific Git branch or tag:
 
-`gh workflow view {{id|workflow_name|filename.yml}} --ref {{branch|tag_name}} --yaml`
+`gh workflow view {{id|workflow_name|filename.yml}} {{[-r|--ref]}} {{branch|tag_name}} {{[-y|--yaml]}}`
 
 - List workflow files (use `--all` to include disabled workflows):
 
@@ -29,7 +29,7 @@
 
 - Run a manual workflow using a specific branch or tag with JSON parameters from `stdin`:
 
-`echo '{{{"param1": "value1", "param2": "value2", ...}}}' | gh workflow run {{id|workflow_name|filename.yml}} --ref {{branch|tag_name}}`
+`echo '{{{"param1": "value1", "param2": "value2", ...}}}' | gh workflow run {{id|workflow_name|filename.yml}} {{[-r|--ref]}} {{branch|tag_name}}`
 
 - Enable or disable a specific workflow:
 

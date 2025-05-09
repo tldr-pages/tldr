@@ -1,7 +1,7 @@
 # gsha1sum
 
-> Este comando es un alias de `-p linux sha1sum`.
+> Este comando es un alias de `sha1sum`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux sha1sum`
+`tldr sha1sum`

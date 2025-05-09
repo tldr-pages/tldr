@@ -21,7 +21,7 @@
 
 - Log in with a specific GitHub Enterprise Server:
 
-`gh auth login --hostname {{github.example.com}}`
+`gh auth login {{[-h|--hostname]}} {{github.example.com}}`
 
 - Refresh the session to ensure authentication credentials have the correct minimum scopes (removes additional scopes requested previously):
 
@@ -29,4 +29,4 @@
 
 - Expand the permission scopes:
 
-`gh auth refresh --scopes {{repo,admin:repo_hook,admin:org,admin:public_key,admin:org_hook,...}}`
+`gh auth refresh {{[-s|--scopes]}} {{repo,admin:repo_hook,admin:org,admin:public_key,admin:org_hook,...}}`

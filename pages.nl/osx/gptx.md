@@ -1,7 +1,7 @@
 # gptx
 
-> Dit commando is een alias van `-p linux ptx`.
+> Dit commando is een alias van GNU `ptx`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux ptx`
+`tldr {{[-p|--platform]}} linux ptx`

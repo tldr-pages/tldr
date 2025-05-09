@@ -1,7 +1,7 @@
 # gcksum
 
-> To polecenie jest aliasem `-p linux cksum`.
+> To polecenie jest aliasem GNU `cksum`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux cksum`
+`tldr cksum`

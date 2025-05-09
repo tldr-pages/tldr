@@ -33,4 +33,4 @@
 
 - List the allowed (and forbidden) commands for the invoking user:
 
-`sudo {{[-l|--list]}}`
+`sudo {{[-ll|--list --list]}}`

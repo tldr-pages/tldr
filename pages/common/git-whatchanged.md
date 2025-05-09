@@ -10,7 +10,7 @@
 
 - Display logs and changes for recent commits within the specified time frame:
 
-`git whatchanged --since="{{2 hours ago}}"`
+`git whatchanged --since "{{2 hours ago}}"`
 
 - Display logs and changes for recent commits for specific files or directories:
 

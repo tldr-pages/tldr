@@ -4,4 +4,4 @@
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux sed`
+`tldr {{[-p|--platform]}} linux sed`

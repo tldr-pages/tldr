@@ -1,7 +1,7 @@
 # gvdir
 
-> Dit commando is een alias van `-p linux vdir`.
+> Dit commando is een alias van GNU `vdir`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux vdir`
+`tldr vdir`

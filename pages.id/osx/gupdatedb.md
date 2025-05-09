@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux updatedb`
+`tldr {{[-p|--platform]}} linux updatedb`

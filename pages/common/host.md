@@ -7,7 +7,7 @@
 
 `host {{domain}}`
 
-- Lookup a field (CNAME, TXT,...) of a domain:
+- Lookup a field (CNAME, TXT, ...) of a domain:
 
 `host -t {{field}} {{domain}}`
 

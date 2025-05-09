@@ -13,7 +13,7 @@
 
 - Bereken de BLAKE2 checksum voor `stdin`:
 
-`{{command}} | b2sum`
+`{{commando}} | b2sum`
 
 - Lees een bestand van BLAKE2 sums en bestandsnamen en verifieer dat alle bestanden overeenkomende checksums hebben:
 

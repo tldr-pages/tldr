@@ -1,7 +1,7 @@
 # sfdk config
 
 > Configures sfdk.
-> More information: <https://docs.sailfishos.org/Develop/Apps/Tutorials/Building_packages_-_advanced_techniques/>.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/10-general/doc/command.config.adoc>.
 
 - Show configuration in all scopes:
 

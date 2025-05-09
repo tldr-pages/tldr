@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux rlogin`
+`tldr {{[-p|--platform]}} linux rlogin`

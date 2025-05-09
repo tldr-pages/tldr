@@ -4,4 +4,4 @@
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`tldr -p linux tftp`
+`tldr {{[-p|--platform]}} linux tftp`

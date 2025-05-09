@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux cat`
+`tldr {{[-p|--platform]}} linux cat`

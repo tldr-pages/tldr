@@ -1,7 +1,7 @@
 # history
 
 > История командной строки.
-> Больше информации: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.
+> Больше информации: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html#index-history>.
 
 - Отобразить список истории команд с номерами строк:
 

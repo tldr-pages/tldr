@@ -1,7 +1,7 @@
 # gsed
 
-> Dit commando is een alias van `-p linux sed`.
+> Dit commando is een alias van GNU `sed`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux sed`
+`tldr {{[-p|--platform]}} linux sed`

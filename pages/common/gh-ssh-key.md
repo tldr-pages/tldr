@@ -17,4 +17,4 @@
 
 - Add an SSH key to the currently authenticated user's account with a specific title:
 
-`gh ssh-key add --title {{title}} {{path/to/key.pub}}`
+`gh ssh-key add {{[-t|--title]}} {{title}} {{path/to/key.pub}}`

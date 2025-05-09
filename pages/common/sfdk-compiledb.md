@@ -1,7 +1,7 @@
 # sfdk compiledb
 
-> Generates compilation database.
-> More information: <https://docs.sailfishos.org/Develop/Apps/Tutorials/Building_packages_-_advanced_techniques/#editing-code-without-sailfish-ide/>.
+> Generate compilation database.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/70-ide-compiledb/doc/command.compiledb.adoc>.
 
 - Generate compilation database:
 

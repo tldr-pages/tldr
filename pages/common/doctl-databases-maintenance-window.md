@@ -5,7 +5,7 @@
 
 - Run a `doctl databases maintenance-window` command with an access token:
 
-`doctl databases maintenance-window {{command}} --access-token {{access_token}}`
+`doctl databases maintenance-window {{command}} {{[-t|--access-token]}} {{access_token}}`
 
 - Retrieve details about a database cluster's maintenance windows:
 

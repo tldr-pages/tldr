@@ -6,11 +6,11 @@
 
 - Report what would be removed by Git prune without removing it:
 
-`git prune --dry-run`
+`git prune {{[-n|--dry-run]}}`
 
 - Prune unreachable objects and display what has been pruned to `stdout`:
 
-`git prune --verbose`
+`git prune {{[-v|--verbose]}}`
 
 - Prune unreachable objects while showing progress:
 

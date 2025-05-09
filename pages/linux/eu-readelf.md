@@ -1,6 +1,6 @@
 # eu-readelf
 
-> Displays information about ELF files.
+> Display information about ELF files.
 > More information: <https://manned.org/eu-readelf>.
 
 - Display all extractable information contained in the ELF file:

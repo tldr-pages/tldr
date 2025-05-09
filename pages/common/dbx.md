@@ -1,7 +1,7 @@
 # dbx
 
 > Interact with the Databricks platform.
-> Note: this tool has been retired and it is recommended to use Databricks Asset Bundles instead.
+> Note: This tool has been retired and it is recommended to use Databricks Asset Bundles instead.
 > More information: <https://dbx.readthedocs.io/en/latest/reference/cli/#dbx>.
 
 - Create a new `dbx` project in the current working directory:

@@ -1,7 +1,7 @@
 # gprintf
 
-> Perintah ini merupakan alias dari `-p linux printf`.
+> Perintah ini merupakan alias dari `printf`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux printf`
+`tldr printf`

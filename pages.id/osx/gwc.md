@@ -1,7 +1,7 @@
 # gwc
 
-> Perintah ini merupakan alias dari `-p linux wc`.
+> Perintah ini merupakan alias dari `wc`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux wc`
+`tldr {{[-p|--platform]}} common wc`

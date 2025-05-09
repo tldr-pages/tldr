@@ -25,7 +25,7 @@
 
 - Invoke a chaincode method with the specified arguments:
 
-`minifab invoke {{[-n|--chaincode-name]}} {{chaincode_name}} {{[-p|--chaincode-parameters]}} '"{{method_name}}", "{{argument1}}", "{{argument2}}", ...'`
+`minifab invoke {{[-n|--chaincode-name]}} {{chaincode_name}} {{[-p|--chaincode-parameters]}} '"{{method_name}}", {{"argument1", "argument2", ...}}'`
 
 - Make a query on the ledger:
 

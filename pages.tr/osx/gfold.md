@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux fold`
+`tldr {{[-p|--platform]}} linux fold`

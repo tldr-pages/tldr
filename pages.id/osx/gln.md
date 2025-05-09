@@ -1,7 +1,7 @@
 # gln
 
-> Perintah ini merupakan alias dari `-p linux ln`.
+> Perintah ini merupakan alias dari `ln`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux ln`
+`tldr ln`

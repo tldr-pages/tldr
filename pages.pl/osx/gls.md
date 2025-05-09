@@ -1,7 +1,7 @@
 # gls
 
-> To polecenie jest aliasem `-p linux ls`.
+> To polecenie jest aliasem GNU `ls`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux ls`
+`tldr ls`

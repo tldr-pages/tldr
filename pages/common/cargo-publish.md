@@ -1,7 +1,7 @@
 # cargo publish
 
 > Upload a package to a registry.
-> Note: you have to add an authentication token using `cargo login` before publishing a package.
+> Note: You have to add an authentication token using `cargo login` before publishing a package.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-publish.html>.
 
 - Perform checks, create a `.crate` file and upload it to the registry:

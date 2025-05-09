@@ -14,7 +14,7 @@
 
 - Export an SVG file into a bitmap of 600x400 pixels (aspect ratio distortion may occur):
 
-`inkscape {{path/to/file.svg}} {{[-o|--export-filename]}} {{path/to/filename.png}} {{[-w|--export-width]}} {{600}} {{[-h|--export-height]}} {{400}}`
+`inkscape {{path/to/file.svg}} {{[-o|--export-filename]}} {{path/to/filename.png}} {{[-w|--export-width]}} 600 {{[-h|--export-height]}} 400`
 
 - Export the drawing (bounding box of all objects) of an SVG file into a bitmap:
 

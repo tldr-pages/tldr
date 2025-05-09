@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux libtool`
+`tldr {{[-p|--platform]}} linux libtool`

@@ -23,6 +23,9 @@
 /.devcontainer/* @kbdharun @sebastiaanspeck
 /.github/workflows/* @sbrl @kbdharun @sebastiaanspeck
 /scripts/* @sebastiaanspeck @kbdharun
+/package.json @kbdharun @sebastiaanspeck
+/package-lock.json @kbdharun @sebastiaanspeck
+/requirements.txt @kbdharun @sebastiaanspeck
 
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun
 /contributing-guides/style-guide.md @sbrl @kbdharun

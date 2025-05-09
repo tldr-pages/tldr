@@ -1,7 +1,7 @@
 # history
 
 > Historial de la línea de comandos.
-> Más información: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.
+> Más información: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html#index-history>.
 
 - Muestra el historial de comandos junto a su número de línea:
 
