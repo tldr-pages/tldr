@@ -17,7 +17,7 @@
 
 - Run all pending migrations for the specified database:
 
-`sqlx migrate run --database_url {{database_url}}`
+`sqlx migrate run {{[-D|--database-url]}} {{database_url}}`
 
 - Revert the latest migration for the specified database:
 
