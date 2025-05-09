@@ -17,7 +17,7 @@
 
 - Executar repetidamente um pipeline e mostrar o resultado:
 
-`watch “{{comando_1}} | {{comando_2}} | {{comando_3}}"`
+`watch "{{comando_1}} | {{comando_2}} | {{comando_3}}"`
 
 - Saia do `watch` se a saída visível for alterada:
 
