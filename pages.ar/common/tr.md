@@ -23,7 +23,7 @@
 
 `tr -s '{{input_characters}}' < {{path/to/file}}`
 
-- ترجمة محتويات ملف إلى أحرف كبيرة (Upper-case):
+- تحويل محتويات ملف إلى أحرف كبيرة (Upper-case):
 
 `tr "[:lower:]" "[:upper:]" < {{path/to/file}}`
 
