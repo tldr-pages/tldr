@@ -9,7 +9,7 @@
 
 - Drop the specified database:
 
-`sqlx database drop --database-url {{database_url}}`
+`sqlx database drop {{[-D|--database-url]}} {{database_url}}`
 
 - Create a new pair of up and down migration files with the given description in the "migrations" directory:
 
