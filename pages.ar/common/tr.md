@@ -17,11 +17,11 @@
 
 - حذف جميع تكرارات مجموعة الأحرف المحددة من المدخلات:
 
-`tr -d '{{input_characters}}' < {{path/to/file}}`
+`tr {{[-d|--delete]}} '{{input_characters}}' < {{path/to/file}}`
 
 - ضغط سلسلة من الأحرف المتطابقة إلى حرف واحد:
 
-`tr -s '{{input_characters}}' < {{path/to/file}}`
+`tr {{[-s|--squeeze-repeats]}} '{{input_characters}}' < {{path/to/file}}`
 
 - تحويل محتويات ملف إلى أحرف كبيرة (Upper-case):
 
@@ -29,4 +29,4 @@
 
 - إزالة الأحرف غير القابلة للطباعة من ملف:
 
-`tr -cd "[:print:]" < {{path/to/file}}`
+`tr {{[-cd|--complement --delete]}} "[:print:]" < {{path/to/file}}`
