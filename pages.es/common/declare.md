@@ -1,4 +1,4 @@
-# Declare
+# declare
 
 > Declara variables y les da atributos.
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-declare>.
