@@ -5,20 +5,20 @@
 
 - Run a `doctl databases pool` command with an access token:
 
-`doctl databases pool {{command}} --access-token {{access_token}}`
+`doctl {{[d|databases]}} {{[p|pool]}} {{command}} {{[-t|--access-token]}} {{access_token}}`
 
 - Retrieve information about a database connection pool:
 
-`doctl databases pool get {{database_id}} {{pool_name}}`
+`doctl {{[d|databases]}} {{[p|pool]}} {{[g|get]}} {{database_id}} {{pool_name}}`
 
 - List connection pools for a database cluster:
 
-`doctl databases pool list {{database_id}}`
+`doctl {{[d|databases]}} {{[p|pool]}} {{[ls|list]}} {{database_id}}`
 
 - Create a connection pool for a database:
 
-`doctl databases pool create {{database_id}} {{pool_name}} --db {{new_pool_name}} --size {{pool_size}}`
+`doctl {{[d|databases]}} {{[p|pool]}} {{[c|create]}} {{database_id}} {{pool_name}} --db {{new_pool_name}} --size {{pool_size}}`
 
 - Delete a connection pool for a database:
 
-`doctl databases pool create {{database_id}} {{pool_name}}`
+`doctl {{[d|databases]}} {{[p|pool]}} {{[c|create]}} {{database_id}} {{pool_name}}`

@@ -5,16 +5,16 @@
 
 - Connect local serverless support to a functions namespace:
 
-`doctl serverless connect`
+`doctl {{[sls|serverless]}} connect`
 
 - Deploy a functions project to your functions namespace:
 
-`doctl serverless deploy`
+`doctl {{[sls|serverless]}} deploy`
 
 - Obtain metadata of a functions project:
 
-`doctl serverless get-metadata`
+`doctl {{[sls|serverless]}} get-metadata`
 
 - Provide information about serverless support:
 
-`doctl serverless status`
+`doctl {{[sls|serverless]}} status`

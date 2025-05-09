@@ -5,12 +5,12 @@
 
 - Create a droplet:
 
-`doctl compute droplet create --region {{region}} --image {{os_image}} --size {{vps_type}} {{droplet_name}}`
+`doctl compute {{[d|droplet]}} {{[c|create]}} --region {{region}} --image {{os_image}} --size {{vps_type}} {{droplet_name}}`
 
 - Delete a droplet:
 
-`doctl compute droplet delete {{droplet_id|droplet_name}}`
+`doctl compute {{[d|droplet]}} {{[d|delete]}} {{droplet_id|droplet_name}}`
 
 - List droplets:
 
-`doctl compute droplet list`
+`doctl compute {{[d|droplet]}} {{[ls|list]}}`

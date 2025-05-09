@@ -5,32 +5,32 @@
 
 - Create an app:
 
-`doctl apps create`
+`doctl {{[a|apps]}} {{[c|create]}}`
 
 - Create a deployment for a specific app:
 
-`doctl apps create-deployment {{app_id}}`
+`doctl {{[a|apps]}} {{[cd|create-deployment]}} {{app_id}}`
 
 - Delete an app interactively:
 
-`doctl apps delete {{app_id}}`
+`doctl {{[a|apps]}} {{[d|delete]}} {{app_id}}`
 
 - Get an app:
 
-`doctl apps get`
+`doctl {{[a|apps]}} {{[g|get]}}`
 
 - List all apps:
 
-`doctl apps list`
+`doctl {{[a|apps]}} {{[ls|list]}}`
 
 - List all deployments from a specific app:
 
-`doctl apps list-deployments {{app_id}}`
+`doctl {{[a|apps]}} {{[lsd|list-deployments]}} {{app_id}}`
 
 - Get logs from a specific app:
 
-`doctl apps logs {{app_id}}`
+`doctl {{[a|apps]}} {{[l|logs]}} {{app_id}}`
 
 - Update a specific app with a given app spec:
 
-`doctl apps update {{app_id}} --spec {{path/to/spec.yml}}`
+`doctl {{[a|apps]}} {{[u|update]}} {{app_id}} --spec {{path/to/spec.yml}}`
