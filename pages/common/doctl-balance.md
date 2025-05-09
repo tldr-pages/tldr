@@ -9,7 +9,7 @@
 
 - Get the balance of an account associated with an access token:
 
-`doctl balance get --access-token {{access_token}}`
+`doctl balance get {{[-t|--access-token]}} {{access_token}}`
 
 - Get the balance of an account associated with a specified context:
 
