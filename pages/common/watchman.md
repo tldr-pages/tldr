@@ -1,7 +1,7 @@
 # watchman
 
 > A service that watches files, and triggers actions when changes occur.
-> More information: <https://facebook.github.io/watchman/>.
+> More information: <https://facebook.github.io/watchman/docs/cli-options>.
 
 - Start watching a directory for changes:
 
