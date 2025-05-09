@@ -2,7 +2,7 @@
 
 > Dex to Java decompiler.
 > Produces Java source code from Android Dex and APK files.
-> More information: <https://github.com/skylot/jadx>.
+> More information: <https://github.com/skylot/jadx#usage>.
 
 - Decompile a Dex file into a directory:
 
@@ -10,4 +10,4 @@
 
 - Decompile a Dex file into a specific directory:
 
-`jadx --output-dir {{path/to/directory}} {{path/to/file}}`
+`jadx {{[-d|--output-dir]}} {{path/to/directory}} {{path/to/file}}`

@@ -5,7 +5,7 @@
 
 - Run a `doctl databases pool` command with an access token:
 
-`doctl databases pool {{command}} --access-token {{access_token}}`
+`doctl databases pool {{command}} {{[-t|--access-token]}} {{access_token}}`
 
 - Retrieve information about a database connection pool:
 
