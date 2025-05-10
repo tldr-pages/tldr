@@ -14,4 +14,4 @@
 
 - Provide a custom status message to systemd (this information is shown by `systemctl status`):
 
-`systemd-notify --status="{{Add custom status message here...}}"`
+`systemd-notify --status "{{Add custom status message here...}}"`

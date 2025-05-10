@@ -9,15 +9,15 @@
 
 - Mount an OS image:
 
-`systemd-dissect --mount {{path/to/image.raw}} {{/mnt/image}}`
+`systemd-dissect {{[-m|--mount]}} {{path/to/image.raw}} {{/mnt/image}}`
 
 - Unmount an OS image:
 
-`systemd-dissect --umount {{/mnt/image}}`
+`systemd-dissect {{[-u|--umount]}} {{/mnt/image}}`
 
 - List files in an image:
 
-`systemd-dissect --list {{path/to/image.raw}}`
+`systemd-dissect {{[-l|--list]}} {{path/to/image.raw}}`
 
 - Attach an OS image to an automatically allocated loopback block device and print its path:
 

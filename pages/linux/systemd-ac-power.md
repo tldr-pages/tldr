@@ -9,4 +9,4 @@
 
 - Additionally print `yes` or `no` to `stdout`:
 
-`systemd-ac-power --verbose`
+`systemd-ac-power {{[-v|--verbose]}}`

@@ -13,12 +13,12 @@
 
 - Silently check without printing anything:
 
-`systemd-detect-virt --quiet`
+`systemd-detect-virt {{[-q|--quiet]}}`
 
 - Only detect container virtualization:
 
-`systemd-detect-virt --container`
+`systemd-detect-virt {{[-c|--container]}}`
 
 - Only detect hardware virtualization:
 
-`systemd-detect-virt --vm`
+`systemd-detect-virt {{[-v|--vm]}}`
