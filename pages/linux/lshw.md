@@ -17,4 +17,4 @@
 
 - Save all network interfaces to an HTML/XML/JSON file:
 
-`sudo lshw {{[-c|-class]}} network -html > {{interfaces.html}}`
+`sudo lshw {{[-c|-class]}} network -{{html|xml|json}} > {{interfaces.html|interfaces.xml|interfaces.json}}`
