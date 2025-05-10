@@ -2,7 +2,7 @@
 
 > Z SHell, Bash 호환 명령줄 인터프리터.
 > 같이 보기: `bash`, `histexpand`.
-> 더 많은 정보: <https://www.zsh.org>.
+> 더 많은 정보: <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 
 - 대화형 셸 세션 시작:
 

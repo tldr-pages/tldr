@@ -2,7 +2,7 @@
 
 > Z SHell, un interpréteur de ligne de commande compatible avec Bash.
 > Voir aussi `histexpand` pour l'expansion de l'historique.
-> Plus d'informations : <https://www.zsh.org>.
+> Plus d'informations : <https://zsh.sourceforge.io/Doc/Release/Invocation.html#Invocation>.
 
 - Démarre une session shell interactive :
 
