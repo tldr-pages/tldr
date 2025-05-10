@@ -15,6 +15,6 @@
 
 `sudo lshw {{[-c|-class]}} disk -class storage -short`
 
-- Save all network interfaces to an HTML file:
+- Save all network interfaces to an HTML/XML/JSON file:
 
 `sudo lshw {{[-c|-class]}} network -html > {{interfaces.html}}`
