@@ -11,8 +11,8 @@
 
 - View changes without applying:
 
-`systemd-repart --dry-run=yes`
+`systemd-repart --dry-run yes`
 
 - Grow root partition size to 10 gigabytes:
 
-`systemd-repart --size=10G --root /`
+`systemd-repart --size 10G --root /`

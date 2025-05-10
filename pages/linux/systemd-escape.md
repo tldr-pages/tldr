@@ -9,11 +9,11 @@
 
 - Reverse the escaping process:
 
-`systemd-escape --unescape {{text}}`
+`systemd-escape {{[-u|--unescape]}} {{text}}`
 
 - Treat the given text as a path:
 
-`systemd-escape --path {{text}}`
+`systemd-escape {{[-p|--path]}} {{text}}`
 
 - Append the given suffix to the escaped text:
 
