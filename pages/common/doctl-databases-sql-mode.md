@@ -5,7 +5,7 @@
 
 - Run a `doctl databases sql-mode` command with an access token:
 
-`doctl databases sql-mode {{command}} --access-token {{access_token}}`
+`doctl databases sql-mode {{command}} {{[-t|--access-token]}} {{access_token}}`
 
 - Get a MySQL database cluster's SQL modes:
 

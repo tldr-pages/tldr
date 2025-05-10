@@ -5,7 +5,7 @@
 
 - Run a `doctl databases db` command with an access token:
 
-`doctl databases db {{command}} --access-token {{access_token}}`
+`doctl databases db {{command}} {{[-t|--access-token]}} {{access_token}}`
 
 - Retrieve the name of the given database hosted in the given database cluster:
 

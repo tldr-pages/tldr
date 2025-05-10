@@ -21,4 +21,4 @@
 
 - Show available commands:
 
-`doctl auth --help`
+`doctl auth {{[-h|--help]}}`

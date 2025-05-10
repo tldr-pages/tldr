@@ -5,7 +5,7 @@
 
 - Run a `doctl databases options` command with an access token:
 
-`doctl databases options {{command}} --access-token {{access_token}}`
+`doctl databases options {{command}} {{[-t|--access-token]}} {{access_token}}`
 
 - Retrieve a list of the available database engines:
 
