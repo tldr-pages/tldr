@@ -9,24 +9,24 @@
 
 - Use extended regular expressions (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
 
-`bzgrep --extended-regexp --ignore-case "{{search_pattern}}" {{path/to/file}}`
+`bzgrep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
 
-- Print 3 lines of context around, before, or after each match:
+- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
-`bzgrep --{{context|before-context|after-context}}={{3}} "{{search_pattern}}" {{path/to/file}}`
+`bzgrep --{{context|before-context|after-context}} {{3}} "{{search_pattern}}" {{path/to/file}}`
 
 - Print file name and line number for each match:
 
-`bzgrep --with-filename --line-number "{{search_pattern}}" {{path/to/file}}`
+`bzgrep {{[-H|--with-filename]}} {{[-n|--line-number]}} "{{search_pattern}}" {{path/to/file}}`
 
 - Search for lines matching a pattern, printing only the matched text:
 
-`bzgrep --only-matching "{{search_pattern}}" {{path/to/file}}`
+`bzgrep {{[-o|--only-matching]}} "{{search_pattern}}" {{path/to/file}}`
 
 - Recursively search files in a bzip2 compressed tar archive for a pattern:
 
-`bzgrep --recursive "{{search_pattern}}" {{path/to/tar/file}}`
+`bzgrep {{[-r|--recursive]}} "{{search_pattern}}" {{path/to/tar/file}}`
 
 - Search `stdin` for lines that do not match a pattern:
 
-`cat {{/path/to/bz/compressed/file}} | bzgrep --invert-match "{{search_pattern}}"`
+`cat {{/path/to/bz/compressed/file}} | bzgrep {{[-v|--invert-match]}} "{{search_pattern}}"`

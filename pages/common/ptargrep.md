@@ -9,8 +9,8 @@
 
 - Extract to the current directory using the basename of the file from the archive:
 
-`ptargrep --basename "{{search_pattern}}" {{path/to/file}}`
+`ptargrep {{[-b|--basename]}} "{{search_pattern}}" {{path/to/file}}`
 
 - Search for a case-insensitive pattern matching within a tar archive:
 
-`ptargrep --ignore-case "{{search_pattern}}" {{path/to/file}}`
+`ptargrep {{[-i|--ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
