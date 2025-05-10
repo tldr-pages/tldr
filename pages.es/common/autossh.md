@@ -2,7 +2,7 @@
 
 > Ejecuta, monitorea y reinicia conexiones SSH.
 > Auto-reconecta para mantener los túneles de reenvío de puertos. Acepta todas las señales SSH.
-> Más información: <https://www.harding.motd.ca/autossh>.
+> Más información: <https://manned.org/autossh>.
 
 - Inicia una sesión SSH, reiniciando cuando un puerto de monitoreo no retorna datos:
 
