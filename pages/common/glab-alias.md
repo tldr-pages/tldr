@@ -1,7 +1,7 @@
 # glab alias
 
 > Manage GitLab CLI command aliases.
-> More information: <https://glab.readthedocs.io/en/latest/alias>.
+> More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/alias/index.md>.
 
 - Display the subcommand help:
 
@@ -17,7 +17,7 @@
 
 - Set a shell command as a `glab` subcommand:
 
-`glab alias set --shell {{alias_name}} {{command}}`
+`glab alias set {{[-s|--shell]}} {{alias_name}} {{command}}`
 
 - Delete a command shortcut:
 
