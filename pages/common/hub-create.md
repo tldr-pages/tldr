@@ -9,4 +9,4 @@
 
 - Create a private repository and open the new repository in a web browser:
 
-`hub create --private --browse`
+`hub create {{[-p|--private]}} {{[-o|--browse]}}`
