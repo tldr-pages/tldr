@@ -12,9 +12,9 @@
 
 `ssh -i {{path/to/key_file}} {{username}}@{{remote_host}}`
 
-- Connect to a remote server with IP `10.0.0.1` using a shorthand and using a specific [p]ort:
+- Connect to a remote server with IP `10.0.0.1`  and using a specific [p]ort (Note: `10.0.0.1` can be shortened to `10.1`):
 
-`ssh {{username}}@10.1 -p {{2222}}`
+`ssh {{username}}@10.0.0.1 -p {{2222}}`
 
 - Run a command on a remote server with a [t]ty allocation allowing interaction with the remote command:
 
