@@ -1,7 +1,7 @@
 # arp
 
 > システムのARPキャッシュを表示し、操作します。
-> もっと詳しく: <https://manned.org/arp>。
+> もっと詳しく: <https://manned.org/arp.8>。
 
 - 現在のARPテーブルを表示する:
 
