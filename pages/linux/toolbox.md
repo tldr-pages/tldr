@@ -14,7 +14,7 @@
 
 - Display help:
 
-`toolbox --help`
+`toolbox {{[-h|--help]}}`
 
 - Display version:
 
