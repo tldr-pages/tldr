@@ -1,7 +1,7 @@
 # rofi
 
 > An application launcher and window switcher.
-> More information: <https://github.com/davatorium/rofi>.
+> More information: <https://github.com/davatorium/rofi#manpage>.
 
 - Show the list of apps:
 
