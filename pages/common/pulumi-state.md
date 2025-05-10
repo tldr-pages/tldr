@@ -25,4 +25,4 @@
 
 - Display help:
 
-`pulumi state --help`
+`pulumi state {{[-h|--help]}}`

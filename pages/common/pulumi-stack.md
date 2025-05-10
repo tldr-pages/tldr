@@ -9,7 +9,7 @@
 
 - Show the stack state along with resource URNs:
 
-`pulumi stack --show-urns`
+`pulumi stack {{[-u|--show-urns]}}`
 
 - List stacks in the current project:
 
@@ -17,7 +17,7 @@
 
 - List stacks across all projects:
 
-`pulumi stack ls --all`
+`pulumi stack ls {{[-a|--all]}}`
 
 - Select an active stack:
 

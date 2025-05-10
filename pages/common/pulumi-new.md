@@ -21,4 +21,4 @@
 
 - Use the specified secrets provider with the <pulumi.com> backend:
 
-`pulumi new --secrets-provider={{passphrase}}`
+`pulumi new --secrets-provider {{passphrase}}`
