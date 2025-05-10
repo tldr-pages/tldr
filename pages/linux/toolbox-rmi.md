@@ -10,8 +10,8 @@
 
 - Remove all `toolbox` images:
 
-`toolbox rmi --all`
+`toolbox rmi {{[-a|--all]}}`
 
 - Force the removal of a `toolbox` image which is currently being used by a container (the container will be removed as well):
 
-`toolbox rmi --force {{image_name}}`
+`toolbox rmi {{[-f|--force]}} {{image_name}}`
