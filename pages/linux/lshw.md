@@ -13,8 +13,8 @@
 
 - List all disks and storage controllers in tabular format:
 
-`sudo lshw -class disk -class storage -short`
+`sudo lshw {{[-c|-class]}} disk -class storage -short`
 
 - Save all network interfaces to an HTML file:
 
-`sudo lshw -class network -html > {{interfaces.html}}`
+`sudo lshw {{[-c|-class]}} network -html > {{interfaces.html}}`
