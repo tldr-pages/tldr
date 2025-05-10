@@ -6,24 +6,24 @@
 
 - Create a logic app:
 
-`az logicapp create --name {{name}} --resource-group {{resource_group}} --storage-account {{storage_account}}`
+`az logicapp create {{[-n|--name]}} {{name}} {{[-g|--resource-group]}} {{resource_group}} {{[-s|--storage-account]}} {{storage_account}}`
 
 - Delete a logic app:
 
-`az logicapp delete --name {{name}} --resource-group {{resource_group}}`
+`az logicapp delete {{[-n|--name]}} {{name}} {{[-g|--resource-group]}} {{resource_group}}`
 
 - List logic apps:
 
-`az logicapp list --resource-group {{resource_group}}`
+`az logicapp list {{[-g|--resource-group]}} {{resource_group}}`
 
 - Restart a logic app:
 
-`az logicapp restart --name {{name}} --resource-group {{resource_group}}`
+`az logicapp restart {{[-n|--name]}} {{name}} {{[-g|--resource-group]}} {{resource_group}}`
 
 - Start a logic app:
 
-`az logicapp start --name {{name}} --resource-group {{resource_group}}`
+`az logicapp start {{[-n|--name]}} {{name}} {{[-g|--resource-group]}} {{resource_group}}`
 
 - Stop a logic app:
 
-`az logicapp stop --name {{name}} --resource-group {{resource_group}}`
+`az logicapp stop {{[-n|--name]}} {{name}} {{[-g|--resource-group]}} {{resource_group}}`

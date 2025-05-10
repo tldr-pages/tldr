@@ -6,11 +6,11 @@
 
 - Register a provider:
 
-`az provider register --namespace {{Microsoft.PolicyInsights}}`
+`az provider register {{[-n|--namespace]}} {{Microsoft.PolicyInsights}}`
 
 - Unregister a provider:
 
-`az provider unregister --namespace {{Microsoft.Automation}}`
+`az provider unregister {{[-n|--namespace]}} {{Microsoft.Automation}}`
 
 - List all providers for a subscription:
 
@@ -18,7 +18,7 @@
 
 - Show information about a specific provider:
 
-`az provider show --namespace {{Microsoft.Storage}}`
+`az provider show {{[-n|--namespace]}} {{Microsoft.Storage}}`
 
 - List all resource types for a specific provider:
 

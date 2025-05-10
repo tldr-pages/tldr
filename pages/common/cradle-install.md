@@ -9,7 +9,7 @@
 
 - Forcefully overwrite files:
 
-`cradle install --force`
+`cradle install {{[-f|--force]}}`
 
 - Skip running SQL migrations:
 
