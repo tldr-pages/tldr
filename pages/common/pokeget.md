@@ -3,13 +3,13 @@
 > Display sprites of Pokemon in your terminal, written in Rust.
 > More information: <https://github.com/talwat/pokeget-rs>.
 
-Print a given Pokemon sprite
+- Print a sprite of a given pokemon
 
-`pokeget {{pokemon_name}}
+`pokeget {{pokemon_name}}`
 
-- Print a female Pikachu:
+- Print Mr. Mime:
 
-`pokeget pikachu --female`
+`pokeget mr-mime`
 
 - Print Mega Gengar:
 
@@ -19,7 +19,7 @@ Print a given Pokemon sprite
 
 `pokeget random {{[-s|--shiny]}}`
 
-- Print an Alolan Meowth, without printing the Pokemon's name:
+- Print Alolan Meowth, without printing the Pokemon's name:
 
 `pokeget meowth {{[-a|--alolan]}} --hide-name`
 
