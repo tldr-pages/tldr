@@ -1,4 +1,4 @@
-# pokeget-rs
+# pokeget
 
 > Fetch Pokemon sprites, written in Rust.
 > More information: <https://github.com/talwat/pokeget-rs>.
