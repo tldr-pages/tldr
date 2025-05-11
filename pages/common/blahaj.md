@@ -25,4 +25,4 @@
 
 - Print contents of text document, color by word, color background instead of text:
 
-`blahaj -w -b path/to/file`
+`blahaj -w -b {{path/to/file}}`
