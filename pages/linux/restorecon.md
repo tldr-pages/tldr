@@ -6,7 +6,7 @@
 
 - View the current security context of a file or directory:
 
-`ls -dlZ {{path/to/file_or_directory}}`
+`ls {{[-dlZ|--directory -l --context]}} {{path/to/file_or_directory}}`
 
 - Restore the security context of a file or directory:
 

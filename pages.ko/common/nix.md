@@ -7,7 +7,7 @@
 
 - `nix` 명령 활성화:
 
-`mkdir -p ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
+`mkdir {{[-p|--parents]}} ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
 
 - nixpkgs에서 이름이나 설명으로 패키지 검색:
 

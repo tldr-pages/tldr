@@ -1,7 +1,7 @@
 # ghostty
 
 > A fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
-> Note: all options from the configuration file can also be used on the command-line (using `--option=argument`).
+> Note: All options from the configuration file can also be used on the command-line (using `--option=argument`).
 > More information: <https://ghostty.org/docs/config/reference>.
 
 - Open a new Ghostty window (not supported on macOS):

@@ -29,8 +29,4 @@
 
 - Show the first two levels of the accounts hierarchy:
 
-`hledger {{[acc|accounts]}} {{[-t|--tree]}} --depth 2`
-
-- Short form of the above:
-
-`hledger acc -t -2`
+`hledger {{[acc|accounts]}} {{[-t|--tree]}} {{[-2|--depth 2]}}`

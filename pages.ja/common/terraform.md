@@ -1,7 +1,7 @@
 # terraform
 
 > インフラストラクチャをコードとして作成し、クラウドプロバイダにデプロイします。
-> もっと詳しく: <https://www.terraform.io/>。
+> もっと詳しく: <https://developer.hashicorp.com/terraform/cli/commands>。
 
 - 新規または既存のTerraform設定を初期化する:
 

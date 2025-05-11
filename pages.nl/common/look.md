@@ -9,14 +9,14 @@
 
 `look {{prefix}} {{pad/naar/bestand}}`
 
-- Zoek hoofdletterongevoelig ([f]) alleen op alfanumerieke tekens ([d]):
+- Zoek hoofdletterongevoelig alleen op alfanumerieke tekens:
 
-`look -f -d {{prefix}} {{pad/naar/bestand}}`
+`look {{[-f|--ignore-case]}} {{[-d|--alphanum]}} {{prefix}} {{pad/naar/bestand}}`
 
-- Specificeer een string-[t]erminatiekarakter (standaard is spatie):
+- Specificeer een karakter voor het beëindigen van een string (standaard een spatie):
 
-`look -t {{,}}`
+`look {{[-t|--terminate]}} {{,}}`
 
-- Zoek in `/usr/share/dict/words` (`--ignore-case` en `--alphanum` worden aangenomen):
+- Zoek in `/usr/share/dict/words` (`--alphanum` en `--ignore-case` worden verondersteld):
 
 `look {{prefix}}`

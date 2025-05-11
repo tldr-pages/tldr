@@ -1,8 +1,8 @@
 # xxh
 
 > Bring your shell with all of your customizations through SSH sessions.
-> Note: xxh does not install anything into system directories on the target machine; removing `~/.xxh` will clear all traces of xxh on the target machine.
-> More information: <https://github.com/xxh/xxh>.
+> Note: `xxh` does not install anything into system directories on the target machine; removing `~/.xxh` will clear all traces of xxh on the target machine.
+> More information: <https://github.com/xxh/xxh#usage>.
 
 - Connect to a host and run the current shell:
 

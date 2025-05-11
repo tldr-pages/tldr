@@ -1,7 +1,7 @@
 # gshuf
 
-> Bu komut `-p linux shuf` için bir takma addır.
+> Bu komut `shuf` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux shuf`
+`tldr {{[-p|--platform]}} coomon shuf`

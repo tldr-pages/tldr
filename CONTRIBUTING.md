@@ -41,7 +41,7 @@ Here are a few guidelines to get started:
    Remember, it's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
    For example, commands that require `sudo` should include it directly in the examples.
-3. Try to incorporate the spelled-out version of single-letter options in the example's description.
+3. Prefer using longform options or try to incorporate the spelled-out version of single-letter options in the example's description if the program doesn't support longform.
    The goal is to allow people to *understand* the syntax of the commands, not just *memorize* it.
 4. Introduce options gradually, starting with the simplest command invocations and using more complex examples progressively.
 5. Focus on details specific to the command and avoid explaining general UNIX concepts that could apply to any command
@@ -51,6 +51,8 @@ These are all guidelines, not strict rules.
 Use proper judgement, keeping simplicity and user-friendliness as the top priorities.
 
 When in doubt, have a look at a few existing pages :).
+
+See the full [style guide](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md) for detailed instructions.
 
 ## Directory structure
 

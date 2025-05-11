@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux kill`
+`tldr {{[-p|--platform]}} linux kill`

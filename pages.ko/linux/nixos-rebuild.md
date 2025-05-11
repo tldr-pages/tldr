@@ -9,7 +9,7 @@
 
 - 새로운 설정을 빌드하고 전환하며, 부팅 기본값으로 설정하고 부팅 항목 이름 지정:
 
-`sudo nixos-rebuild switch -p {{이름}}`
+`sudo nixos-rebuild switch {{[-p|--profile-name]}} {{이름}}`
 
 - 새로운 설정을 빌드하고 전환하며, 부팅 기본값으로 설정하고 업데이트 설치:
 
@@ -30,3 +30,7 @@
 - 설정을 빌드하고 가상 머신에서 열기:
 
 `sudo nixos-rebuild build-vm`
+
+- 부트로더 메뉴에서와 같이 사용 가능한 세대를 나열합니다:
+
+`nixos-rebuild list-generations`

@@ -7,14 +7,6 @@
 
 `cmake {{path/to/project_directory}}`
 
-- Generate a build recipe, with build type set to `Release` with CMake variable:
-
-`cmake {{path/to/project_directory}} -D {{CMAKE_BUILD_TYPE=Release}}`
-
-- Generate a build recipe using `generator_name` as the underlying build system:
-
-`cmake -G {{generator_name}} {{path/to/project_directory}}`
-
 - Use a generated recipe in a given directory to build artifacts:
 
 `cmake --build {{path/to/build_directory}}`
@@ -23,14 +15,22 @@
 
 `cmake --install {{path/to/build_directory}} --strip`
 
+- Generate a build recipe, with build type set to `Release` with CMake variable:
+
+`cmake {{path/to/project_directory}} -D {{CMAKE_BUILD_TYPE=Release}}`
+
+- Generate a build recipe using `generator_name` as the underlying build system:
+
+`cmake -G {{generator_name}} {{path/to/project_directory}}`
+
 - Install the build artifacts using the custom prefix for paths:
 
 `cmake --install {{path/to/build_directory}} --strip --prefix {{path/to/directory}}`
 
 - Run a custom build target:
 
-`cmake --build {{path/to/build_directory}} --target {{target_name}}`
+`cmake --build {{path/to/build_directory}} {{[-t|--target]}} {{target_name}}`
 
 - Display help, obtain a list of generators:
 
-`cmake --help`
+`cmake {{[-h|--help]}}`

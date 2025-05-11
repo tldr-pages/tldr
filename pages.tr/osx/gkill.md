@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux kill`
+`tldr {{[-p|--platform]}} linux kill`

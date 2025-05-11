@@ -1,6 +1,6 @@
 # gmv
 
-> Dit commando is een alias van `mv`.
+> Dit commando is een alias van GNU `mv`.
 
 - Bekijk de documentatie van het originele commando:
 

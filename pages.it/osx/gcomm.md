@@ -1,7 +1,7 @@
 # gcomm
 
-> Questo comando è un alias per `-p linux comm`.
+> Questo comando è un alias per `comm`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux comm`
+`tldr comm`

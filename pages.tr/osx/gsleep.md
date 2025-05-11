@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux sleep`
+`tldr {{[-p|--platform]}} linux sleep`

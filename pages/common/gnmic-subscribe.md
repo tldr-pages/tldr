@@ -13,7 +13,7 @@
 
 - Subscribe to a target with sample interval and updates only on change:
 
-`gnmic {{[-a|--address]}} {{ip:port}} subscribe --path {{path}} --stream-mode on-change --heartbeat-interval 1m`
+`gnmic {{[-a|--address]}} {{ip:port}} subscribe --path {{path}} --stream-mode on-change --heartbeat-interval {{1m}}`
 
 - Subscribe to a target for only one update:
 

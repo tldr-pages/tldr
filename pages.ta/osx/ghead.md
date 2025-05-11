@@ -4,4 +4,4 @@
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 
-`tldr -p linux head`
+`tldr {{[-p|--platform]}} linux head`

@@ -3,7 +3,7 @@
 > Print given arguments.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
-- Print a text message. Note: quotes are optional:
+- Print a text message. Note: Quotes are optional:
 
 `echo "{{Hello World}}"`
 

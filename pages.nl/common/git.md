@@ -2,7 +2,7 @@
 
 > Gedistribueerd versiebeheersysteem.
 > Sommige subcommando's zoals `commit`, `add`, `branch`, `checkout`, `push`, etc. hebben hun eigen documentatie.
-> Meer informatie: <https://git-scm.com/>.
+> Meer informatie: <https://git-scm.com/docs/git>.
 
 - Voer een Git-subcommando uit:
 
@@ -14,16 +14,16 @@
 
 - Voer een Git-subcommando met een gegeven configuratieset:
 
-`git -c '{{config.sleutel}}={{waarde}}' {{subcommando}}`
+`git -c '{{config.key}}={{waarde}}' {{subcommando}}`
 
 - Toon de algemene help:
 
-`git --help`
+`git {{[-h|--help]}}`
 
-- Toon de help van een specifiek subcommando (zoals `commit`, `log`, enz.):
+- Toon de help van een specifiek subcommando (zoals `clone`, `add`, `push`, `log`, enz.):
 
 `git help {{subcommando}}`
 
 - Toon de versie:
 
-`git --version`
+`git {{[-v|--version]}}`

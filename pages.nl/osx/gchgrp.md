@@ -1,6 +1,6 @@
 # gchgrp
 
-> Dit commando is een alias van `chgrp`.
+> Dit commando is een alias van GNU `chgrp`.
 
 - Bekijk de documentatie van het originele commando:
 

@@ -1,7 +1,7 @@
 # gtail
 
-> 這是 `-p linux tail` 命令的一個別名。
+> 這是 `tail` 命令的一個別名。
 
 - 原命令的文件在：
 
-`tldr -p linux tail`
+`tldr {{[-p|--platform]}} common tail`

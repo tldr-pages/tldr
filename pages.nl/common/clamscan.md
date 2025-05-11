@@ -9,7 +9,7 @@
 
 - Scan alle bestanden recursief in een specifieke map:
 
-`clamscan -r {{pad/naar/map}}`
+`clamscan {{[-r|--recursive]}} {{pad/naar/map}}`
 
 - Scan data van `stdin`:
 
@@ -17,15 +17,15 @@
 
 - Specificeer een virus database bestand of map van bestanden:
 
-`clamscan --database {{pad/naar/database_bestand_of_map}}`
+`clamscan {{[-d|--database]}} {{pad/naar/database_bestand_of_map}}`
 
 - Scan de huidige map en toon alleen geïnfecteerde bestanden:
 
-`clamscan --infected`
+`clamscan {{[-i|--infected]}}`
 
 - Sla het scan rapport op in een log bestand:
 
-`clamscan --log {{pad/naar/log_bestand}}`
+`clamscan {{[-l|--log]}} {{pad/naar/log_bestand}}`
 
 - Verplaats geïnfecteerde bestanden naar een specifieke map:
 

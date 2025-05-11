@@ -13,11 +13,11 @@
 
 - Start a daemon, accepting connections from a specific network address or address range:
 
-`distccd --daemon --allow {{ip_address|network_prefix}}`
+`distccd --daemon {{[-a|--allow]}} {{ip_address|network_prefix}}`
 
 - Start a daemon with a lowered priority that can run a maximum of 4 tasks at a time:
 
-`distccd --daemon --jobs {{4}} --nice {{5}}`
+`distccd --daemon {{[-j|--jobs]}} {{4}} {{[-N|--nice]}} {{5}}`
 
 - Start a daemon and register it via mDNS/DNS-SD (Zeroconf):
 

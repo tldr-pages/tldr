@@ -1,7 +1,7 @@
 # whois
 
 > Opdrachtregelclient voor het WHOIS (RFC 3912) protocol.
-> Meer informatie: <https://github.com/rfc1036/whois>.
+> Meer informatie: <https://manned.org/whois>.
 
 - Verkrijg informatie over een domeinnaam:
 

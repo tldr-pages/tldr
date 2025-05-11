@@ -26,7 +26,7 @@
 
 - 로컬 IP에 사이트 구축:
 
-`hugo server --bind {{로컬-ip}} --baseURL {{http://로컬-ip}}`
+`hugo server --bind {{로컬_ip}} --baseURL {{http://로컬_ip}}`
 
 - 주어진 디렉토리에 사이트를 구축:
 

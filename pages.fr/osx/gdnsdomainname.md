@@ -4,4 +4,4 @@
 
 - Voir la documentation de la commande originale :
 
-`tldr -p linux dnsdomainname`
+`tldr {{[-p|--platform]}} linux dnsdomainname`

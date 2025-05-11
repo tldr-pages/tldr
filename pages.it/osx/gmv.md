@@ -1,7 +1,7 @@
 # gmv
 
-> Questo comando è un alias per `-p linux mv`.
+> Questo comando è un alias per `mv`.
 
 - Consulta la documentazione del comando originale:
 
-`tldr -p linux mv`
+`tldr mv`

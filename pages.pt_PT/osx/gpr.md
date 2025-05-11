@@ -1,7 +1,7 @@
 # gpr
 
-> Este comando é um alias de `-p linux pr`.
+> Este comando é um alias de `pr`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux pr`
+`tldr pr`

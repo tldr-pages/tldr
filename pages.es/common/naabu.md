@@ -3,7 +3,7 @@
 > Un escáner de puertos rápido, escrito en Go, enfocado en fiabilidad y simplicidad.
 > Vea también: `nmap`.
 > Nota: Algunas características sólo se activan cuando `naabu` se ejecuta con privilegios de superusuario, como el escaneo SYN.
-> Más información: <https://github.com/projectdiscovery/naabu>.
+> Más información: <https://docs.projectdiscovery.io/tools/naabu/running>.
 
 - Ejecuta un escaneo SYN contra los puertos predeterminados (top 100) del host remoto:
 

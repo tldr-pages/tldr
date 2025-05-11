@@ -1,6 +1,6 @@
 # grlogin
 
-> Dit commando is een alias van `rlogin`.
+> Dit commando is een alias van GNU `rlogin`.
 
 - Bekijk de documentatie van het originele commando:
 

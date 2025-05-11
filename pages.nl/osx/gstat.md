@@ -1,6 +1,6 @@
 # gstat
 
-> Dit commando is een alias van `stat`.
+> Dit commando is een alias van GNU `stat`.
 
 - Bekijk de documentatie van het originele commando:
 

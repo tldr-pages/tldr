@@ -1,7 +1,7 @@
 # gwhich
 
-> Perintah ini merupakan alias dari `-p linux which`.
+> Perintah ini merupakan alias dari `which`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux which`
+`tldr which`

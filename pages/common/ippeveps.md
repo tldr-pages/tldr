@@ -11,4 +11,4 @@
 
 - Print a file from `stdin` to `stdout`:
 
-`{{wget -O - https://examplewebsite.com/file}} | ippeveps`
+`{{wget {{[-O|--output-document]}} - https://example.com/file}} | ippeveps`
