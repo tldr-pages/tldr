@@ -14,8 +14,8 @@
 
 - Create a virtual network:
 
-`az network vnet create --address-prefixes {{10.0.0.0/16}} --name {{vnet}} --resource_group {{group_name}} --submet-name {{subnet}} --subnet-prefixes {{10.0.0.0/24}}`
+`az network vnet create --address-prefixes {{10.0.0.0/16}} {{[-n|--name]}} {{vnet}} {{[-g|--resource-group]}} {{group_name}} --submet-name {{subnet}} --subnet-prefixes {{10.0.0.0/24}}`
 
 - Enable accelerated networking for a network interface card:
 
-`az network nic update --accelerated-networking true --name {{nic}} --resource-group {{resource_group}}`
+`az network nic update --accelerated-networking true {{[-n|--name]}} {{nic}} {{[-g|--resource-group]}} {{resource_group}}`
