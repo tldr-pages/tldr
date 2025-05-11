@@ -25,4 +25,4 @@
 
 - Print a random Pokemon with 1/4096 chance to be shiny:
 
-`((RANDOM%4096 == 0)) && pokeget random --shiny || pokeget random`
+`((RANDOM%4095 == 0)) && pokeget random --shiny || pokeget random`
