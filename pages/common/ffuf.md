@@ -14,7 +14,7 @@
 
 - Fuzz with specified [t]hreads (default: 40) and pro[x]ying the traffic and save [o]utput to a file:
 
-`ffuf -o -w {{path/to/wordlist.txt}} -u {{http://example/FUZZ}} -t {{500}} -x {{http://127.0.0.1:8080}}`
+`ffuf -o -w {{path/to/wordlist.txt}} -u {{http://example.com/FUZZ}} -t {{500}} -x {{http://127.0.0.1:8080}}`
 
 - Fuzz a specific [H]eader ("Name: Value") and [m]atch HTTP status [c]odes:
 
