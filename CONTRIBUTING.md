@@ -52,7 +52,7 @@ Use proper judgement, keeping simplicity and user-friendliness as the top priori
 
 When in doubt, have a look at a few existing pages :).
 
-See the full [style guide](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md) for detailed instructions
+See the full [style guide](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md) for detailed instructions.
 
 ## Directory structure
 
