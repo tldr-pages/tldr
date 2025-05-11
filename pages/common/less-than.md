@@ -26,3 +26,7 @@
 - Disregard leading tabs (good for scripts with indentation but does not work for spaces):
 
 `cat <<- {{EOF}} > {{path/to/file.txt}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
+
+- Pass command output to a program as a file descriptor:
+
+`diff <({{command1}}) <({{command2}})`
