@@ -12,7 +12,7 @@
 
 `ssh -i {{path/to/key_file}} {{username}}@{{remote_host}}`
 
-- Connect to a remote server with IP `10.0.0.1`  and using a specific [p]ort (Note: `10.0.0.1` can be shortened to `10.1`):
+- Connect to a remote server with IP `10.0.0.1` and using a specific [p]ort (Note: `10.0.0.1` can be shortened to `10.1`):
 
 `ssh {{username}}@10.0.0.1 -p {{2222}}`
 
