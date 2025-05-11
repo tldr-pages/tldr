@@ -13,16 +13,16 @@
 
 - List multiple class of hardware (all disks and storage controllers) in tabular format:
 
-`sudo lshw {{[-C|-class]}} disk {{[-C|-class]}} storage -short`
+`sudo lshw {{[-c|-class]}} disk {{[-C|-class]}} storage -short`
 
 - Save all network interfaces to an HTML/XML/JSON file:
 
-`sudo lshw {{[-C|-class]}} network -{{html|xml|json}} > interfaces{{.html|.xml|.json}}`
+`sudo lshw {{[-c|-class]}} network -{{html|xml|json}} > interfaces{{.html|.xml|.json}}`
 
 - List network interfaces without revealing sensitive information (IP addresses, serial numbers, etc.):
 
-`sudo lshw {{[-C|-class]}} network -sanitize`
+`sudo lshw {{[-c|-class]}} network -sanitize`
 
 - List a particular class of hardware:
 
-`sudo lshw {{[-C|-class]}} {{system|bridge|memory|processor|address|storage|disk|tape|bus|network|display|input|printer|multimedia|communication|power|volume|generic}}`
+`sudo lshw {{[-c|-class]}} {{system|bridge|memory|processor|address|storage|disk|tape|bus|network|display|input|printer|multimedia|communication|power|volume|generic}}`
