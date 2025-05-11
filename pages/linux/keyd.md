@@ -11,7 +11,7 @@
 
 `sudo keyd monitor`
 
-- Reset bindings and reload the configuration file:
+- Reset bindings and reload the configuration files in `/etc/keyd`:
 
 `sudo keyd reload`
 
