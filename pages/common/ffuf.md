@@ -22,7 +22,7 @@
 
 - Fuzz with specified HTTP method and [d]ata, while [f]iltering out comma separated status [c]odes:
 
-`ffuf -w {{path/to/postdata.txt}} -X {{POST}} -d "{{username=admin\&password=FUZZ}}" -u {{http://example/login.php}} -fc {{401,403}}`
+`ffuf -w {{path/to/postdata.txt}} -X {{POST}} -d "{{username=admin\&password=FUZZ}}" -u {{http://example.com/login.php}} -fc {{401,403}}`
 
 - Fuzz multiple positions with multiple wordlists using different modes:
 
