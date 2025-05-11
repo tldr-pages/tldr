@@ -21,7 +21,7 @@
 
 - Echo text to console, color by individual character:
 
-`echo "Hello, world" | blahaj {{[-i|--individual]}}`
+`echo "{{Hello, world}}" | blahaj {{[-i|--individual]}}`
 
 - Print contents of text document, color by word, color background instead of text:
 
