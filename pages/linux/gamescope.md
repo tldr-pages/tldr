@@ -7,7 +7,7 @@
 
 `gamescope -- {{program}}`
 
-- Run a game with gamescope through steam:
+- Run a game with gamescope through Steam:
 
 `gamescope -- %command%`
 
