@@ -5,7 +5,7 @@
 
 - Run a `doctl databases` command with an access token:
 
-`doctl databases {{command}} --access-token {{access_token}}`
+`doctl databases {{command}} {{[-t|--access-token]}} {{access_token}}`
 
 - Get details for a database cluster:
 

@@ -5,7 +5,7 @@
 
 - Run a `doctl databases user` command with an access token:
 
-`doctl databases user {{command}} --access-token {{access_token}}`
+`doctl databases user {{command}} {{[-t|--access-token]}} {{access_token}}`
 
 - Retrieve details about a database user:
 

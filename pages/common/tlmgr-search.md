@@ -1,7 +1,7 @@
 # tlmgr search
 
 > Search for TeX Live packages using (Perl) regular expressions.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://www.tug.org/texlive/doc/tlmgr.html#search>.
 
 - Search for a package name and descriptions of all locally installed packages from a specific regular expression:
 

@@ -13,4 +13,4 @@
 
 - Display help:
 
-`doctl account --help`
+`doctl account {{[-h|--help]}}`
