@@ -19,7 +19,7 @@
 
 `{{cowsay "Hello, world"}} | blahaj {{[-c|--colors]}} lesbian`
 
-- Echo text to console, color by individual character:
+- Print text and color by individual character:
 
 `echo "{{Hello, world}}" | blahaj {{[-i|--individual]}}`
 
