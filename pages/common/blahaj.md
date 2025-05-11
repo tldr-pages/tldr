@@ -13,7 +13,7 @@
 
 - Print a random flag with a 2x size multiplier:
 
-`blahaj --random --flag --multiplier=2`
+`blahaj --random --flag --multiplier 2`
 
 - Print the result of a text-producing command with random colors:
 
