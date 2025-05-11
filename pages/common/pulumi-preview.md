@@ -9,7 +9,7 @@
 
 - Show a preview of updates to a stack's resources in JSON format:
 
-`pulumi preview --json`
+`pulumi preview {{[-j|--json]}}`
 
 - Preview updates as a rich diff showing overall changes:
 
@@ -17,4 +17,4 @@
 
 - Display help:
 
-`pulumi preview --help`
+`pulumi preview {{[-h|--help]}}`

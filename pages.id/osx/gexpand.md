@@ -1,7 +1,7 @@
 # gexpand
 
-> Perintah ini merupakan alias dari `-p linux expand`.
+> Perintah ini merupakan alias dari `expand`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux expand`
+`tldr expand`

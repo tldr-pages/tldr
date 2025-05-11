@@ -1,7 +1,7 @@
 # gshuf
 
-> Este comando es un alias de `-p linux shuf`.
+> Este comando es un alias de `shuf`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux shuf`
+`tldr {{[-p|--platform]}} coomon shuf`

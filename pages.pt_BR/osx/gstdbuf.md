@@ -1,7 +1,7 @@
 # gstdbuf
 
-> Este comando é um apelido de `-p linux stdbuf`.
+> Este comando é um apelido de `stdbuf`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux stdbuf`
+`tldr stdbuf`

@@ -5,19 +5,19 @@
 
 - Match the sender address using a case-insensitive search:
 
-`exiqgrep -f '<{{email@somedomain.com}}>'`
+`exiqgrep -f '<{{email@example.com}}>'`
 
 - Match the sender address and display message IDs only:
 
-`exiqgrep -i -f '<{{email@somedomain.com}}>'`
+`exiqgrep -i -f '<{{email@example.com}}>'`
 
 - Match the recipient address:
 
-`exiqgrep -r '{{email@somedomain.com}}'`
+`exiqgrep -r '{{email@example.com}}'`
 
 - Remove all messages matching the sender address from the queue:
 
-`exiqgrep -i -f '<{{email@somedomain.com}}>' | xargs exim -Mrm`
+`exiqgrep -i -f '<{{email@example.com}}>' | xargs exim -Mrm`
 
 - Test for bounced messages:
 

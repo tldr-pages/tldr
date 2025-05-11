@@ -2,7 +2,7 @@
 
 > 신뢰성과 단순성에 중점을 둔 Go로 작성된 빠른 포트 스캐너.
 > 참고: 일부 기능은 `naabu`를 루트 권한으로 실행할 때만 활성화되며, 예를 들어 SYN 스캔이 있습니다.
-> 더 많은 정보: <https://github.com/projectdiscovery/naabu>.
+> 더 많은 정보: <https://docs.projectdiscovery.io/tools/naabu/running>.
 
 - 원격 호스트의 기본(상위 100개) 포트에 대해 SYN 스캔 실행:
 

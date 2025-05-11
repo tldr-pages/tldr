@@ -5,7 +5,7 @@
 
 - List the last 10 issues with the `bug` label:
 
-`hub issue list --limit {{10}} --labels "{{bug}}"`
+`hub issue list {{[-L|--limit]}} {{10}} {{[-l|--labels]}} "{{bug}}"`
 
 - Display a specific issue:
 
@@ -13,4 +13,4 @@
 
 - List 10 closed issues assigneed to a specific user:
 
-`hub issue --state {{closed}} --assignee {{username}} --limit {{10}}`
+`hub issue {{[-s|--state]}} {{closed}} {{[-a|--assignee]}} {{username}} --limit {{10}}`

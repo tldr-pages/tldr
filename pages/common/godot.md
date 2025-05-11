@@ -15,9 +15,9 @@
 
 `godot {{[-p|--project-manager]}}`
 
-- Export a project for a given export preset (the preset must be defined in the project):
+- Export a project for release using a given export preset (the preset must be defined in the project):
 
-`godot --export {{preset}} {{output_path}}`
+`godot --export-release {{preset}} {{output_path}}`
 
 - Execute a standalone GDScript file (the script must inherit from `SceneTree` or `MainLoop`):
 

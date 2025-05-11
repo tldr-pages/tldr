@@ -5,8 +5,8 @@
 
 - Lihat dokumentasi untuk perintah Microsoft Edge untuk Windows:
 
-`tldr -p windows msedge`
+`tldr {{[-p|--platform]}} windows msedge`
 
 - Lihat dokumentasi untuk perintah Microsoft Edge untuk perangkat lainnya:
 
-`tldr -p common microsoft-edge`
+`tldr {{[-p|--platform]}} common microsoft-edge`

@@ -1,7 +1,7 @@
 # gid
 
-> Este comando es un alias de `-p linux id`.
+> Este comando es un alias de `id`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux id`
+`tldr id`

@@ -19,3 +19,7 @@
 - Check status of VPN tunnel:
 
 `mullvad status`
+
+- Check the account expiration date and obtain the device name:
+
+`mullvad account get`

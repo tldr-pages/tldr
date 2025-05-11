@@ -1,7 +1,7 @@
 # st
 
 > A simple terminal emulator for the X Window System.
-> More information: <https://st.suckless.org>.
+> More information: <https://manned.org/st>.
 
 - Open a terminal:
 

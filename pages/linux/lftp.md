@@ -5,7 +5,7 @@
 
 - Connect to an FTP server:
 
-`lftp --user {{username}} {{ftp.example.com}}`
+`lftp {{[-u|--user]}} {{username}} {{ftp.example.com}}`
 
 - Download multiple files (glob expression):
 
@@ -29,4 +29,4 @@
 
 - Upload or update an entire directory:
 
-`mirror -R {{path/to/local_dir}} {{path/to/remote_output_dir}}`
+`mirror {{[-R|--reverse]}} {{path/to/local_dir}} {{path/to/remote_output_dir}}`

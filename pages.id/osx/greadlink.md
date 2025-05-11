@@ -1,7 +1,7 @@
 # greadlink
 
-> Perintah ini merupakan alias dari `-p linux readlink`.
+> Perintah ini merupakan alias dari `readlink`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux readlink`
+`tldr readlink`

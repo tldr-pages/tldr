@@ -13,7 +13,7 @@
 
 - Start in the balance sheet accounts screen, showing hierarchy down to level 3:
 
-`hledger-ui --bs {{[-t|--tree]}} --depth 3`
+`hledger-ui --bs {{[-t|--tree]}} {{[-3|--depth 3]}}`
 
 - Start in this account's screen, showing cleared transactions, and reload on change:
 

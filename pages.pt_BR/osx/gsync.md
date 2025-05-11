@@ -1,7 +1,7 @@
 # gsync
 
-> Este comando é um apelido de `-p linux sync`.
+> Este comando é um apelido de `sync`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux sync`
+`tldr sync`

@@ -1,7 +1,7 @@
 # history
 
 > Tampilkan riwayat penugasan baris perintah (command-line).
-> Informasi lebih lanjut: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.
+> Informasi lebih lanjut: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html#index-history>.
 
 - Tampilkan riwayat penugasan baris perintah beserta angka baris:
 

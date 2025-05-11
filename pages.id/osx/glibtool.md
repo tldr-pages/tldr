@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux libtool`
+`tldr {{[-p|--platform]}} linux libtool`

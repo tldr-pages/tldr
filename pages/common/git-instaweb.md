@@ -9,19 +9,19 @@
 
 - Listen only on localhost:
 
-`git instaweb --start --local`
+`git instaweb --start {{[-l|--local]}}`
 
 - Listen on a specific port:
 
-`git instaweb --start --port {{1234}}`
+`git instaweb --start {{[-p|--port]}} {{1234}}`
 
 - Use a specified HTTP daemon:
 
-`git instaweb --start --httpd {{lighttpd|apache2|mongoose|plackup|webrick}}`
+`git instaweb --start {{[-d|--httpd]}} {{lighttpd|apache2|mongoose|plackup|webrick}}`
 
 - Also auto-launch a web browser:
 
-`git instaweb --start --browser`
+`git instaweb --start {{[-b|--browser]}}`
 
 - Stop the currently running GitWeb server:
 

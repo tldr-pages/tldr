@@ -4,4 +4,4 @@
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux cat`
+`tldr {{[-p|--platform]}} linux cat`
