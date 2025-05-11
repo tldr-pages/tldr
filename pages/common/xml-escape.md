@@ -1,16 +1,16 @@
 # xml escape
 
 > Escape special XML characters, e.g. `<a1>` → `&lt;a1&gt;`.
-> More information: <https://xmlstar.sourceforge.net/doc/xmlstarlet.pdf>.
+> More information: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139540960>.
 
 - Escape special XML characters in a string:
 
-`xml escape "{{<a1>}}"`
+`xml {{[esc|escape]}} "{{<a1>}}"`
 
 - Escape special XML characters from `stdin`:
 
-`echo "{{<a1>}}" | xml escape`
+`echo "{{<a1>}}" | xml {{[esc|escape]}}`
 
 - Display help:
 
-`xml escape --help`
+`xml {{[esc|escape]}} --help`
