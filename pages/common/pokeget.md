@@ -3,21 +3,21 @@
 > Fetch Pokemon sprites, written in Rust.
 > More information: <https://github.com/talwat/pokeget-rs>.
 
-- Print a female Pikachu's sprite:
+- Print a female Pikachu:
 
 `pokeget pikachu --female`
 
-- Print Mega Gengar's sprite:
+- Print Mega Gengar:
 
-`pokeget gengar --mega`
+`pokeget gengar {{[-m|--mega]}}`
 
-- Print a random shiny Pokemon's sprite:
+- Print a random shiny Pokemon:
 
-`pokeget random --shiny`
+`pokeget random {{[-s|--shiny]}}`
 
 - Print an Alolan Meowth, without printing the Pokemon's name:
 
-`pokeget meowth --alolan --hide-name`
+`pokeget meowth {{[-a|--alolan]}} --hide-name`
 
 - Print a random Pokemon with 1/4096 chance to be shiny:
 
