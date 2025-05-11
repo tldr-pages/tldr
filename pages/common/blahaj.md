@@ -7,22 +7,22 @@
 
 `blahaj --flags`
 
-- Print a blahaj with lesbian colors to console:
+- Print a shark (blahaj) with lesbian colors:
 
-`blahaj --shark --colors lesbian`
+`blahaj -s --c lesbian`
 
 - Print a random flag with a 2x size multiplier:
 
-`blahaj --random --flag --multiplier 2`
+`blahaj --flag -r --multiplier 2`
 
 - Print the result of a text-producing command with random colors:
 
-`cowsay | blahaj --random`
+`cowsay | blahaj -r`
 
 - Echo text to console, color by individual character:
 
-`echo "insert text here" | blahaj --individual`
+`echo "Hello, world" | blahaj -i`
 
 - Print contents of text document, color by word, color background instead of text:
 
-`blahaj --words --background path/to/file`
+`blahaj -w -b path/to/file`
