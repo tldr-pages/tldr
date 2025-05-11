@@ -17,7 +17,7 @@
 
 - Print the result of a text-producing command with lesbian colors:
 
-`cowsay | blahaj {{[-c|--colors]}} lesbian`
+`{{cowsay}} | blahaj {{[-c|--colors]}} lesbian`
 
 - Echo text to console, color by individual character:
 
