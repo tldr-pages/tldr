@@ -7,7 +7,7 @@
 
 `fossil commit`
 
-- Create a new version containing all the changes in the current checkout, using the specified comment:
+- Create a new version containing all the changes in the current checkout, using the specified [m]essage:
 
 `fossil commit {{[-m|--comment]}} "{{comment}}"`
 
