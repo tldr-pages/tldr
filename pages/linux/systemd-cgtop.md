@@ -10,11 +10,11 @@
 
 - Change the sort order:
 
-`systemd-cgtop --order={{cpu|memory|path|tasks|io}}`
+`systemd-cgtop {{[-i|--order]}} {{cpu|memory|path|tasks|io}}`
 
 - Show the CPU usage by time instead of percentage:
 
-`systemd-cgtop --cpu=percentage`
+`systemd-cgtop --cpu percentage`
 
 - Change the update interval in seconds (or one of these time units: `ms`, `us`, `min`):
 
