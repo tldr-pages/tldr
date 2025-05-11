@@ -1,4 +1,4 @@
-xample# exiqgrep
+# exiqgrep
 
 > Perl script offering possibilities to `grep` in the Exim queue output.
 > More information: <https://www.exim.org/exim-html-current/doc/html/spec_html/ch-exim_utilities.html>.
