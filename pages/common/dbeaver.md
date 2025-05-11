@@ -13,20 +13,20 @@
 
 - Force the creation of a new instance:
 
-`dbeaver {{[-newInstance|--newInstance]}}`
+`dbeaver --newInstance`
 
 - Stop the running instance:
 
-`dbeaver {{[-stop|--quit]}}`
+`dbeaver --quit`
 
 - Close all tabs within dbeaver:
 
-`dbeaver {{[-closeTabs|--closeTabs]}}`
+`dbeaver --closeTabs`
 
 - Bring `DBeaver` to the top of applications:
 
-`dbeaver {{[-bringToFront|--bringToFront]}}`
+`dbeaver --bringToFront`
 
 - Display help:
 
-`dbeaver {{[-help|--help]}}`
+`dbeaver --help`
