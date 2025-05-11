@@ -32,6 +32,6 @@
 
 `sudo bcachefs data rereplicate {{path/to/mountpoint}}`
 
-- Display help:
+- Create a snapshot of a particular directory:
 
-`bcachefs`
+`bcachefs subvolume snapshot {{path/to/directory}} {{path/to/snapshot}}`

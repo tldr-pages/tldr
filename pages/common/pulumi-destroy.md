@@ -9,11 +9,11 @@
 
 - Destroy all resources in a specific stack:
 
-`pulumi destroy --stack {{stack}}`
+`pulumi destroy {{[-s|--stack]}} {{stack}}`
 
 - Automatically approve and destroy resources after previewing:
 
-`pulumi destroy --yes`
+`pulumi destroy {{[-y|--yes]}}`
 
 - Exclude protected resources from being destroyed:
 

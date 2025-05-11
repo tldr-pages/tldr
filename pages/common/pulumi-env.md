@@ -29,4 +29,4 @@
 
 - Display help:
 
-`pulumi env --help`
+`pulumi env {{[-h|--help]}}`

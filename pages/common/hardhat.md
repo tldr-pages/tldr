@@ -1,7 +1,7 @@
 # hardhat
 
 > A development environment for Ethereum software.
-> More information: <https://hardhat.org>.
+> More information: <https://hardhat.org/hardhat-runner/docs/getting-started#quick-start>.
 
 - List available subcommands (or create a new project if no configuration exists):
 

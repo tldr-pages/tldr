@@ -2,7 +2,7 @@
 
 > Executa, monitora e reinicia conexões SSH.
 > Reconecta automaticamente para manter os túneis de redirecionamento de porta ativos. Aceita todas as flags do SSH.
-> Mais informações: <https://www.harding.motd.ca/autossh>.
+> Mais informações: <https://manned.org/autossh>.
 
 - Inicia uma sessão SSH, reiniciando quando uma porta de monitoramento falhar em retornar dados:
 

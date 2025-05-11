@@ -1,7 +1,7 @@
 # arp
 
 > Tampilkan dan manipulasi cache informasi ARP pada sistem operasi Anda.
-> Informasi lebih lanjut: <https://manned.org/arp>.
+> Informasi lebih lanjut: <https://manned.org/arp.8>.
 
 - Tampilkan informasi tabel ARP yang dikenali sistem operasi Anda saat ini:
 

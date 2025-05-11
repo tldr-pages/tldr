@@ -2,7 +2,7 @@
 
 > Uninstall TeX Live packages.
 > By default, removed packages will be backed up to `./tlpkg/backups` under the TL installation directory.
-> More information: <https://www.tug.org/texlive/tlmgr.html>.
+> More information: <https://www.tug.org/texlive/doc/tlmgr.html#remove-option...-pkg>.
 
 - Uninstall a TeX Live package:
 
