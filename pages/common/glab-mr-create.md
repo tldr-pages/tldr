@@ -1,7 +1,7 @@
 # glab mr create
 
 > Manage GitLab merge requests.
-> More information: <https://glab.readthedocs.io/en/latest/mr/create.html>.
+> More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/create.md>.
 
 - Interactively create a merge request:
 
@@ -9,7 +9,7 @@
 
 - Create a merge request, determining the title and description from the commit messages of the current branch:
 
-`glab mr create --fill`
+`glab mr create {{[-f|--fill]}}`
 
 - Create a draft merge request:
 
@@ -17,8 +17,8 @@
 
 - Create a merge request specifying the target branch, title, and description:
 
-`glab mr create --target-branch {{target_branch}} --title "{{title}}" --description "{{description}}"`
+`glab mr create {{[-b|--target-branch]}} {{target_branch}} {{[-t|--title]}} "{{title}}" {{[-d|--description]}} "{{description}}"`
 
 - Start opening a merge request in the default web browser:
 
-`glab mr create --web`
+`glab mr create {{[-w|--web]}}`
