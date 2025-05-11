@@ -13,7 +13,7 @@
 
 - List multiple class of hardware (all disks and storage controllers) in tabular format:
 
-`sudo lshw {{[-c|-class]}} disk {{[-C|-class]}} storage -short`
+`sudo lshw {{[-c|-class]}} disk {{[-c|-class]}} storage -short`
 
 - Save all network interfaces to an HTML/XML/JSON file:
 
