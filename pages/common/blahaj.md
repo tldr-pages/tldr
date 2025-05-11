@@ -23,6 +23,6 @@
 
 `echo "{{Hello, world}}" | blahaj {{[-i|--individual]}}`
 
-- Print contents of text document, color by word, color background instead of text:
+- Print contents of a text document, coloring the background instead of text, by word:
 
 `blahaj {{[-w|--words]}} {{[-b|--background]}} {{path/to/file}}`
