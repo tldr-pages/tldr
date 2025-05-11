@@ -3,7 +3,7 @@
 > Display sprites of Pokemon in your terminal, written in Rust.
 > More information: <https://github.com/talwat/pokeget-rs>.
 
-- Print a sprite of a given pokemon
+- Print a sprite of a given pokemon:
 
 `pokeget {{pokemon_name}}`
 
