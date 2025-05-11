@@ -1,7 +1,7 @@
 # code
 
 > Cross platform and extensible code editor.
-> More information: <https://github.com/microsoft/vscode>.
+> More information: <https://code.visualstudio.com/docs/configure/command-line>.
 
 - Start Visual Studio Code:
 
