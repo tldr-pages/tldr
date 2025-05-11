@@ -1,6 +1,6 @@
 # pokeget
 
-> Fetch Pokemon sprites, written in Rust.
+> Display sprites of Pokemon in your terminal, written in Rust.
 > More information: <https://github.com/talwat/pokeget-rs>.
 
 - Print a female Pikachu:
