@@ -6,7 +6,7 @@
 
 - Enumerate directories using [c]olored output and a [w]ordlist specifying a target [u]RL:
 
-`ffuf -c -w {{path/to/wordlist.txt}} -u {{http://example/FUZZ}}`
+`ffuf -c -w {{path/to/wordlist.txt}} -u {{http://example.com/FUZZ}}`
 
 - Enumerate webservers of subdomains by changing the position of the keyword:
 
