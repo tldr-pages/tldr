@@ -25,4 +25,4 @@
 
 - Print contents of text document, color by word, color background instead of text:
 
-`blahaj --words --background /path/to/file`
+`blahaj --words --background path/to/file`
