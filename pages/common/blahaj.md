@@ -1,4 +1,4 @@
-# BLAHAJ
+# blahaj
 
 > A lolcat-like output colorizer tool that also prints flags and colorful sharks.
 > More information: <https://codeberg.org/GeopJr/BLAHAJ>.
