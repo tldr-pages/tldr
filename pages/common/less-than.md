@@ -9,7 +9,7 @@
 
 - Create a here document and pass that into `stdin` (requires a multiline command):
 
-`{{command}} << {{EOF}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
+`{{command}} << {{EOF}} <Enter> {{multiline_text}} <Enter> {{EOF}}`
 
 - Create a here string and pass that into `stdin` (achieves the same effect as `echo string |`):
 
