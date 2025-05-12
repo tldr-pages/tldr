@@ -24,6 +24,6 @@
 
 `sudo chmem --enable 0x{{start_address}} --zone {{zone_name}}`
 
-- Show help information:
+- Display help:
 
 `chmem --help`
