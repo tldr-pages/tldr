@@ -2,7 +2,7 @@
 
 > Modify the state of memory blocks (online or offline) in a Linux system.
 > Typically used in virtualized environments to manage memory hotplug.
-> More information: <https://man7.org/linux/man-pages/man8/chmem.8.html>.
+> More information: <https://manned.org/chmem>.
 
 - Set a memory block offline by its block number:
 
