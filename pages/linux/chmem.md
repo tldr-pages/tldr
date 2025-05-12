@@ -4,11 +4,15 @@
 > Typically used in virtualized environments to manage memory hotplug.
 > More information: <https://manned.org/chmem>.
 
-- Set a memory block offline by its block number:
+- Set a memory block offline using the short option:
 
-`sudo chmem {{[-b|--block]}} {{[-d|--disable]}} {{block_number}}`
+`sudo chmem -b -d {{block_number}}`
 
-- Set a memory block online by its block number:
+- Set a memory block offline using the long option:
+
+`sudo chmem --block --disable {{block_number}}`
+
+- Set a memory block online:
 
 `sudo chmem --block --enable {{block_number}}`
 
@@ -22,7 +26,7 @@
 
 - Set memory online and assign it to a specific zone (e.g., Movable):
 
-`sudo chmem --enable 0x{{start_address}} --zone {{zone_name}}`
+`sudo chmem --enable 0x{{start_address}} --zone {{Movable}}`
 
 - Display help:
 
