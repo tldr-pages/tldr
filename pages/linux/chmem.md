@@ -6,7 +6,7 @@
 
 - Set a memory block offline by its block number:
 
-`sudo chmem --block --disable {{block_number}}`
+`sudo chmem {{[-b|--block]}} {{[-d|--disable]}} {{block_number}}`
 
 - Set a memory block online by its block number:
 
