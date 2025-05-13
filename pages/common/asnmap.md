@@ -18,7 +18,7 @@
 
 - Lookup CIDR ranges for an organization:
 
-`asnmap {{[-org|-org]}} {{GOOGLE}} -silent`
+`asnmap -org {{GOOGLE}} -silent`
 
 - Lookup CIDR ranges from a file of targets:
 
