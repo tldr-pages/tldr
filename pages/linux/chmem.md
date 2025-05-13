@@ -14,15 +14,15 @@
 
 - Set a memory range offline using hexadecimal addresses:
 
-`sudo chmem --disable 0x{{start_address}}-0x{{end_address}}`
+`sudo chmem {{[-d|--disable]}} 0x{{start_address}}-0x{{end_address}}`
 
 - Set a memory range online using hexadecimal addresses:
 
-`sudo chmem --enable 0x{{start_address}}-0x{{end_address}}`
+`sudo chmem {{[-e|--enable]}} 0x{{start_address}}-0x{{end_address}}`
 
 - Set memory online and assign it to a specific zone (e.g., Movable):
 
-`sudo chmem --enable 0x{{start_address}} --zone {{Movable}}`
+`sudo chmem {{[-e|--enable]}} 0x{{start_address}} --zone {{Movable}}`
 
 - Display help:
 
