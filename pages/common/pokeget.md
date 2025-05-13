@@ -1,6 +1,6 @@
 # pokeget
 
-> Display sprites of Pokemon in your terminal, written in Rust.
+> Display sprites of Pokemon in your terminal.
 > More information: <https://github.com/talwat/pokeget-rs>.
 
 - Print a sprite of a given pokemon:
