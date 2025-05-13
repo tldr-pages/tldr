@@ -6,32 +6,32 @@
 
 - Lookup CIDR ranges for an ASN:
 
-`asnmap {{[-a|--asn]}} {{AS5650}} -silent`
+`asnmap {{[-a|-asn]}} {{AS5650}} -silent`
 
 - Lookup CIDR ranges for an IP address:
 
-`asnmap {{[-i|--ip]}} {{100.19.12.21}} -silent`
+`asnmap {{[-i|-ip]}} {{100.19.12.21}} -silent`
 
 - Lookup CIDR ranges for a domain:
 
-`asnmap {{[-d|--domain]}} {{example.com}} -silent`
+`asnmap {{[-d|-domain]}} {{example.com}} -silent`
 
 - Lookup CIDR ranges for an organization:
 
-`asnmap {{[-org|--org]}} {{GOOGLE}} -silent`
+`asnmap {{[-org|-org]}} {{GOOGLE}} -silent`
 
 - Lookup CIDR ranges from a file of targets:
 
-`asnmap {{[-f|--file]}} {{targets.txt}} -silent`
+`asnmap {{[-f|-file]}} {{targets.txt}} -silent`
 
 - Output results in JSON format:
 
-`asnmap {{[-d|--domain]}} {{facebook.com}} {{[-j|--json]}} -silent`
+`asnmap {{[-d|-domain]}} {{facebook.com}} {{[-j|-json]}} -silent`
 
 - Output results in CSV format:
 
-`asnmap {{[-a|--asn]}} {{AS394161}} {{[-c|--csv]}} -silent`
+`asnmap {{[-a|-asn]}} {{AS394161}} {{[-c|-csv]}} -silent`
 
 - Update asnmap to the latest version:
 
-`asnmap {{[-up|--update]}}`
+`asnmap {{[-up|-update]}}`
