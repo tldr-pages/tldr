@@ -1,7 +1,7 @@
 # ac
 
 > 打印用户连接时间的统计数据。
-> 更多信息：<https://man.openbsd.org/ac>.
+> 更多信息：<https://manned.org/ac.8>.
 
 - 打印当前用户连接的时间，以小时为单位：
 
