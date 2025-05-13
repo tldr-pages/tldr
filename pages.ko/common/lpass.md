@@ -1,7 +1,7 @@
 # lpass
 
 > LastPass 비밀번호 관리자의 명령줄 인터페이스.
-> 더 많은 정보: <https://github.com/lastpass/lastpass-cli>.
+> 더 많은 정보: <https://lastpass.github.io/lastpass-cli/lpass.1.html>.
 
 - 마스터 비밀번호를 입력하여 LastPass 계정에 로그인:
 

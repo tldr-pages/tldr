@@ -1,7 +1,7 @@
 # findfs
 
 > 파일시스템을 레이블 또는 UUID로 찾습니다.
-> 더 많은 정보: <https://mirrors.edge.kernel.org/pub/linux/utils/util-linux>.
+> 더 많은 정보: <https://manned.org/findfs>.
 
 - 파일시스템 레이블로 블록 장치 검색:
 

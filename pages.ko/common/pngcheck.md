@@ -1,7 +1,7 @@
 # pngcheck
 
 > PNG, JNG, MNG 파일에 대한 자세한 정보를 출력하고 검증합니다.
-> 더 많은 정보: <http://www.libpng.org/pub/png/apps/pngcheck.html>.
+> 더 많은 정보: <https://github.com/pnggroup/pngcheck>.
 
 - 이미지의 요약 정보 출력 (너비, 높이, 색상 깊이):
 

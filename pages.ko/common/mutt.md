@@ -1,7 +1,7 @@
 # mutt
 
 > 커맨드라인 이메일 클라이언트.
-> 더 많은 정보: <http://mutt.org>.
+> 더 많은 정보: <http://mutt.org/doc/mutt.1.txt>.
 
 - 지정된 메일박스 열기:
 

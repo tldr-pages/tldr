@@ -1,7 +1,7 @@
 # wajig
 
 > Uproszczone narzędzie do zarządzania pakietami dla systemów oparych na Debianie.
-> Więcej informacji: <https://wajig.togaware.com>.
+> Więcej informacji: <https://togaware.com/linux/survivor/wajig.html>.
 
 - Aktualizacja listy dostępnych pakietów i ich wersji:
 

@@ -1,7 +1,7 @@
 # xxhsum
 
 > 빠른 비암호화 알고리즘인 xxHash를 사용하여 체크섬을 출력하거나 검증합니다.
-> 더 많은 정보: <https://github.com/Cyan4973/xxHash>.
+> 더 많은 정보: <https://manned.org/xxhsum>.
 
 - 특정 알고리즘을 사용하여 [f]파일의 체크섬 계산:
 

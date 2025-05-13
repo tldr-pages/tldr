@@ -1,7 +1,7 @@
 # influx
 
 > InfluxDB 커멘드 라인 클라이언트.
-> 더 많은 정보: <https://docs.influxdata.com/influxdb/v1.7/tools/shell/>.
+> 더 많은 정보: <https://docs.influxdata.com/influxdb/v1/tools/influx-cli/use-influx-cli/>.
 
 - 자격증명 없이 localhost에서 실행되는 InfluxDB에 연결:
 

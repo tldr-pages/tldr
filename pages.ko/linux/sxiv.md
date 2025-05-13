@@ -1,7 +1,7 @@
 # sxiv
 
 > Simple X Image Viewer.
-> 더 많은 정보: <https://github.com/muennich/sxiv>.
+> 더 많은 정보: <https://manned.org/sxiv>.
 
 - 이미지 열기:
 

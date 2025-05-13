@@ -1,7 +1,7 @@
 # nitrogen
 
 > X 윈도우용 데스크탑 배경 탐색기 및 설정기.
-> 더 많은 정보: <https://github.com/l3ib/nitrogen>.
+> 더 많은 정보: <https://manned.org/nitrogen>.
 
 - 특정 디렉토리의 배경 화면을 보고 설정:
 

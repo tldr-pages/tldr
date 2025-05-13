@@ -1,7 +1,7 @@
 # svn changelist
 
 > 파일 세트에 변경 목록을 연결.
-> 더 많은 정보: <https://svnbook.red-bean.com/en/1.7/svn.advanced.changelists.html>.
+> 더 많은 정보: <https://subversion.apache.org/>.
 
 - 파일을 변경 목록에 추가하며, 변경 목록이 존재하지 않을 경우 생성:
 

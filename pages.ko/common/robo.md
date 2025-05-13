@@ -1,7 +1,7 @@
 # robo
 
 > PHP 작업 러너.
-> 더 많은 정보: <https://robo.li/>.
+> 더 많은 정보: <https://robo.li/getting-started.html>.
 
 - 사용 가능한 명령 나열:
 

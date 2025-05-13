@@ -1,7 +1,7 @@
 # dkms
 
 > Um framework que permite recompilação dinâmica de modulos do kernel.
-> Mais informações: <https://github.com/dell/dkms>.
+> Mais informações: <https://manned.org/dkms>.
 
 - Lista os módulos instalados atualmente:
 

@@ -1,7 +1,7 @@
 # symfony
 
 > Symfony 프레임워크의 콘솔 컴포넌트.
-> 더 많은 정보: <https://symfony.com>.
+> 더 많은 정보: <https://symfony.com/doc/current/setup.html>.
 
 - 새로운 Symfony 프로젝트 생성:
 

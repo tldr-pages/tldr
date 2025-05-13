@@ -1,7 +1,7 @@
 # pdftk
 
 > PDF 도구 모음.
-> 더 많은 정보: <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit>.
+> 더 많은 정보: <https://www.pdflabs.com/docs/pdftk-man-page/>.
 
 - PDF 파일에서 1-3, 5, 6-10 페이지를 추출하여 다른 파일로 저장:
 

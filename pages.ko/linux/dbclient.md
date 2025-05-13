@@ -1,7 +1,7 @@
 # dbclient
 
 > 경량 Dropbear 보안 셸 클라이언트.
-> 더 많은 정보: <https://manned.org/dbclient.1>.
+> 더 많은 정보: <https://manned.org/dbclient>.
 
 - 원격 호스트에 연결:
 

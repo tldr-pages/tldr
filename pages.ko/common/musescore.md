@@ -2,7 +2,7 @@
 
 > MuseScore 3 악보 편집기.
 > 같이 보기: `lilypond`.
-> 더 많은 정보: <https://musescore.org/en/handbook/3/command-line-options>.
+> 더 많은 정보: <https://musescore.org/en/handbook/4/command-line-options>.
 
 - 특정 오디오 드라이버 사용:
 

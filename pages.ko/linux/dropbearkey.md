@@ -1,7 +1,7 @@
 # dropbearkey
 
 > Dropbear 형식으로 SSH 키를 생성합니다.
-> 더 많은 정보: <https://manned.org/dropbearkey.1>.
+> 더 많은 정보: <https://manned.org/dropbearkey>.
 
 - [t]유형 ed25519의 SSH 키를 생성하여 키 [f]파일에 저장:
 

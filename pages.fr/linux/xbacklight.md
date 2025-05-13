@@ -1,7 +1,7 @@
 # xbacklight
 
 > Outil pour ajuster la luminosité du rétroéclairage en utilisant l'extension RandR.
-> Plus d'informations : <https://gitlab.freedesktop.org/xorg/app/xbacklight>.
+> Plus d'informations : <https://manned.org/xbacklight>.
 
 - Obtient le niveau de luminosité de l'écran actuel comme un pourcentage :
 

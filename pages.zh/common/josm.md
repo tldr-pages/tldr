@@ -1,7 +1,7 @@
 # josm
 
 > 可扩展的 OpenStreetMap 编辑器，适用于 Java 8+。
-> 更多信息：<https://josm.openstreetmap.de/>.
+> 更多信息：<https://manned.org/josm>.
 
 - 启动 JOSM：
 

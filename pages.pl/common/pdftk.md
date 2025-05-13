@@ -1,7 +1,7 @@
 # pdftk
 
 > Zestaw narzędzi PDF.
-> Więcej informacji: <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit>.
+> Więcej informacji: <https://www.pdflabs.com/docs/pdftk-man-page/>.
 
 - Wyodrębnij strony 1-3, 5 i 6-10 z pliku PDF oraz zapisz je jako inny plik PDF:
 

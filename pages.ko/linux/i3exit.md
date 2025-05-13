@@ -1,7 +1,7 @@
 # i3exit
 
 > i3 윈도우 관리자를 종료.
-> 더 많은 정보: <https://gitlab.manjaro.org/packages/community/i3/i3exit>.
+> 더 많은 정보: <https://gitlab.manjaro.org/packages/extra/i3exit/-/blob/master/i3exit>.
 
 - i3에서 로그아웃:
 

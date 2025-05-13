@@ -1,7 +1,7 @@
 # luac
 
 > Lua 바이트코드 컴파일러.
-> 더 많은 정보: <https://www.lua.org>.
+> 더 많은 정보: <https://www.lua.org/manual/5.4/luac.html>.
 
 - Lua 소스 파일을 Lua 바이트코드로 컴파일:
 

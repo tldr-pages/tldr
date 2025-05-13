@@ -2,7 +2,7 @@
 
 > Python 기반의 크로스 플랫폼 및 Unix 지향 셸.
 > Xonsh(발음: conch)에서 sh/Python 코드를 작성하고 혼합할 수 있습니다.
-> 더 많은 정보: <https://xon.sh>.
+> 더 많은 정보: <https://xon.sh/contents.html>.
 
 - 대화형 셸 세션 시작:
 

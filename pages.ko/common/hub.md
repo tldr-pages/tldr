@@ -2,7 +2,7 @@
 
 > GitHub 기반 프로젝트 작업을 위한 명령을 추가하는 Git용 래퍼.
 > `hub alias`의 지시에 따라 설정되면, `git`을 사용하여 `hub` 명령을 실행할 수 있음.
-> 더 많은 정보: <https://hub.github.com>.
+> 더 많은 정보: <https://hub.github.com/hub.1.html>.
 
 - slug를 사용해 저장소를 복제 (소유자는 사용자 이름을 생략할 수 있음):
 

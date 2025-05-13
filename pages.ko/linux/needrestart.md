@@ -1,7 +1,7 @@
 # needrestart
 
 > 라이브러리 업그레이드 후 다시 시작해야 하는 데몬 확인.
-> 더 많은 정보: <https://github.com/liske/needrestart>.
+> 더 많은 정보: <https://manned.org/needrestart>.
 
 - 오래된 프로세스 나열:
 

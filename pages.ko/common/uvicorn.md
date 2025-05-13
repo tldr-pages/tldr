@@ -1,7 +1,7 @@
 # uvicorn
 
 > 비동기 프로젝트를 위한 Python ASGI HTTP 서버.
-> 더 많은 정보: <https://www.uvicorn.org/>.
+> 더 많은 정보: <https://www.uvicorn.org/settings/>.
 
 - Python 웹 앱 실행:
 

@@ -1,7 +1,7 @@
 # phpstorm
 
 > JetBrains IntelliJ 플랫폼을 기반으로 한 PHP용 크로스 플랫폼 IDE.
-> 더 많은 정보: <https://jetbrains.com/phpstorm>.
+> 더 많은 정보: <https://www.jetbrains.com/help/phpstorm/working-with-the-ide-features-from-command-line.html#arguments>.
 
 - 특정 디렉토리 열기:
 

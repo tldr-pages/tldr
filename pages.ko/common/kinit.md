@@ -2,7 +2,7 @@
 
 > Kerberos 서버와 주체를 인증하여 티켓을 얻고 캐시.
 > 참고: Kerberos 주체는 사용자, 서비스 또는 애플리케이션일 수 있습니다.
-> 더 많은 정보: <https://web.mit.edu/kerberos/krb5-1.12/doc/user/user_commands/kinit.html>.
+> 더 많은 정보: <https://web.mit.edu/kerberos/krb5-latest/doc/user/user_commands/kinit.html>.
 
 - 사용자를 인증하고 티켓 발급 티켓 획득:
 

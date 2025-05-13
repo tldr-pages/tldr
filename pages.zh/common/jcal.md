@@ -1,7 +1,7 @@
 # jcal
 
 > 以贾拉里历格式显示日历信息，并突出显示当前日期。
-> 更多信息：<https://www.nongnu.org/jcal/>.
+> 更多信息：<https://www.nongnu.org/jcal/jcal.html>.
 
 - 显示当前月份的日历：
 

@@ -2,7 +2,7 @@
 
 > Korn Shell, Bash와 호환되는 명령줄 인터프리터.
 > 같이 보기: `histexpand`.
-> 더 많은 정보: <http://kornshell.com>.
+> 더 많은 정보: <https://manned.org/ksh>.
 
 - 대화형 셸 세션 시작:
 
