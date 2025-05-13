@@ -7,7 +7,7 @@
 
 `pokeget {{pokemon_name}}`
 
-- Print Mr. Mime:
+- Print Mr. Mime (note the use of `-` instead of spaces):
 
 `pokeget mr-mime`
 
