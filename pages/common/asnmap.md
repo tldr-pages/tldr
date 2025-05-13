@@ -1,6 +1,7 @@
 # asnmap
 
 > A Go CLI tool for mapping organization network ranges using ASN information.
+> Note: An API key is required from ProjectDiscovery Cloud Platform for the tool to work.
 > More information: <https://github.com/projectdiscovery/asnmap>.
 
 - Lookup CIDR ranges for an ASN:
