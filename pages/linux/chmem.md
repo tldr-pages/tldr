@@ -22,7 +22,7 @@
 
 - Set memory online and assign it to a specific zone (e.g., Movable):
 
-`sudo chmem {{[-e|--enable]}} 0x{{start_address}} --zone {{Movable}}`
+`sudo chmem {{[-e|--enable]}} 0x{{start_address}} {{[-z|--zone]}} {{Movable}}`
 
 - Display help:
 
