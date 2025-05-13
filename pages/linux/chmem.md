@@ -26,4 +26,4 @@
 
 - Display help:
 
-`chmem --help`
+`chmem {{[-h|--help]}}`
