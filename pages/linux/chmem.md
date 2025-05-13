@@ -10,7 +10,7 @@
 
 - Set a memory block online:
 
-`sudo chmem --block --enable {{block_number}}`
+`sudo chmem {{[-b|--block]}} {{[-e|--enable]}} {{block_number}}`
 
 - Set a memory range offline using hexadecimal addresses:
 
