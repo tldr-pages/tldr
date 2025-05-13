@@ -13,7 +13,7 @@
 
 - Search for a pattern in all files recursively in a directory, showing line numbers of matches, ignoring binary files:
 
-`grep {{[-r|--recursive]}} {{[-n|--line-number]}} --binary-files without-match "{{search_pattern}}" {{path/to/directory}}`
+`grep {{[-r|--recursive]}} {{[-n|--line-number]}} {{[-I|--binary-files=without-match]}} "{{search_pattern}}" {{path/to/directory}}`
 
 - Use extended regular expressions (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
 
