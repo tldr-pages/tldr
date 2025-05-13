@@ -4,13 +4,9 @@
 > Typically used in virtualized environments to manage memory hotplug.
 > More information: <https://manned.org/chmem>.
 
-- Set a memory block offline using the short option:
+- Set a memory block offline:
 
-`sudo chmem -b -d {{block_number}}`
-
-- Set a memory block offline using the long option:
-
-`sudo chmem --block --disable {{block_number}}`
+`sudo chmem {{[-b|--block]}} {{[-d|--disable]}} {{block_number}}`
 
 - Set a memory block online:
 
