@@ -22,3 +22,7 @@
 - Delete a boot option:
 
 `sudo efibootmgr {{[-b|--bootnum]}} {{0008}} {{[-B|--delete-bootnum]}}`
+
+- Set boot order:
+
+`sudo efibootmgr {{[-o|--bootorder]}} {{XXXX,YYYY,ZZZZ,...}}`
