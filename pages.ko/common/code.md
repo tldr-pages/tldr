@@ -1,7 +1,7 @@
 # code
 
 > 확장 가능한 크로스 플랫폼 코드 에디터.
-> 더 많은 정보: <https://github.com/microsoft/vscode>.
+> 더 많은 정보: <https://code.visualstudio.com/docs/configure/command-line>.
 
 - Visual Studio Code 실행:
 
