@@ -10,3 +10,7 @@
 - List all partitions in a table, including current mountpoints:
 
 `sudo blkid {{[-o|--output]}} list`
+
+- Get the block ID of a partition:
+
+`blkid {{[-s|--match-tag]}} UUID {{[-o|--output]}} value {{/dev/sdXY}}`
