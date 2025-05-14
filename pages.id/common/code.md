@@ -1,7 +1,7 @@
 # code
 
 > Pengolah kode komputer yang tersedia lintas platform dan dapat diperluas.
-> Informasi lebih lanjut: <https://github.com/microsoft/vscode>.
+> Informasi lebih lanjut: <https://code.visualstudio.com/docs/configure/command-line>.
 
 - Jalankan aplikasi Visual Studio Code:
 
