@@ -11,6 +11,6 @@
 
 `sudo blkid {{[-o|--output]}} list`
 
-- Get the block ID of a partition:
+- Get the UUID of the filesystem on a partition:
 
 `blkid {{[-s|--match-tag]}} UUID {{[-o|--output]}} value {{/dev/sdXY}}`
