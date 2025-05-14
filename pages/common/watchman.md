@@ -31,6 +31,6 @@
 
 `watchman trigger-del {{path/to/watched_directory}} {{trigger_name}}`
 
-- Temporarily stop watchman, until the next time you call a watchman command:
+- Temporarily stop `watchman`, until the next time you call a `watchman` command:
 
 `watchman shutdown-server`
