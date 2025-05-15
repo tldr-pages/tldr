@@ -6,3 +6,7 @@
 - Display DIMM information:
 
 `decode-dimms`
+
+- Display help:
+
+`decode-dimms {{[-h|--help]}}`
