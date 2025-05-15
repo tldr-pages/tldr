@@ -1,7 +1,7 @@
 # awk
 
 > A versatile programming language for working on files.
-> Different versions often make this a symlink of their binary.
+> Note: Different implementations of AWK often make this a symlink of their binary.
 > See also: `gawk`.
 > More information: <https://github.com/onetrueawk/awk>.
 
