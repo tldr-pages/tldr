@@ -14,7 +14,7 @@
 
 - Show only tags references in the default remote repository:
 
-`git ls-remote --tags`
+`git ls-remote {{[-t|--tags]}}`
 
 - Show all references from a remote repository based on name or URL:
 

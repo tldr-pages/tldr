@@ -5,15 +5,15 @@
 
 - Print a completion script:
 
-`gh completion --shell {{bash|zsh|fish|powershell}}`
+`gh completion {{[-s|--shell]}} {{bash|zsh|fish|powershell}}`
 
 - Append the `gh` completion script to `~/.bashrc`:
 
-`gh completion --shell {{bash}} >> {{~/.bashrc}}`
+`gh completion {{[-s|--shell]}} {{bash}} >> {{~/.bashrc}}`
 
 - Append the `gh` completion script to `~/.zshrc`:
 
-`gh completion --shell {{zsh}} >> {{~/.zshrc}}`
+`gh completion {{[-s|--shell]}} {{zsh}} >> {{~/.zshrc}}`
 
 - Display the subcommand help:
 

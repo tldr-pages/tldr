@@ -1,7 +1,7 @@
 # lxc-create
 
 > Create linux containers.
-> More information: <https://linuxcontainers.org/lxc/getting-started>.
+> More information: <https://linuxcontainers.org/lxc/getting-started/>.
 
 - Create a container interactively in `/var/lib/lxc/`:
 

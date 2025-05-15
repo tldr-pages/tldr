@@ -1,7 +1,7 @@
 # gcut
 
-> Dit commando is een alias van `-p linux cut`.
+> Dit commando is een alias van GNU `cut`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux cut`
+`tldr {{[-p|--platform]}} common cut`

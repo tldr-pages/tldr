@@ -2,7 +2,7 @@
 
 > 通过 SSH 协议远程管理计算机组。使用 `/etc/ansible/hosts` 文件来添加组 / 主机。
 > 此命令也有关于其子命令的文件，例如：`galaxy`.
-> 更多信息：<https://www.ansible.com/>.
+> 更多信息：<https://docs.ansible.com/ansible/latest/cli/ansible.html>.
 
 - 列出给定组下的所有主机：
 

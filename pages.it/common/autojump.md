@@ -1,7 +1,7 @@
 # autojump
 
 > Salta velocemente tra le directory che usi più spesso.
-> Alias come j o jc sono disponibili per una maggiore velocità di scrittura.
+> Alias come `j` o `jc` sono disponibili per una maggiore velocità di scrittura.
 > Maggiori informazioni: <https://github.com/wting/autojump>.
 
 - Muoviti in una directory il cui nome contiene una parola chiave:
@@ -16,10 +16,10 @@
 
 `jo {{parola_chiave}}`
 
-- Rimuovi directory non esistenti dal database di autojump:
+- Rimuovi directory non esistenti dal database di `autojump`:
 
 `j --purge`
 
-- Mostra le voci nel database di autojump:
+- Mostra le voci nel database di `autojump`:
 
-`j -s`
+`j {{[-s|--stat]}}`

@@ -4,4 +4,4 @@
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr -p linux chcon`
+`tldr {{[-p|--platform]}} linux chcon`

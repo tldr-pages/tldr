@@ -1,7 +1,7 @@
 # gpr
 
-> Dit commando is een alias van `-p linux pr`.
+> Dit commando is een alias van GNU `pr`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux pr`
+`tldr pr`

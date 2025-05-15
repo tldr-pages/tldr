@@ -1,7 +1,7 @@
 # glibtool
 
-> Dit commando is een alias van `-p linux libtool`.
+> Dit commando is een alias van GNU `libtool`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux libtool`
+`tldr {{[-p|--platform]}} linux libtool`

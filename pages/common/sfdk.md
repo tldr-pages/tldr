@@ -1,7 +1,7 @@
 # sfdk
 
 > The command line frontend of the Sailfish SDK.
-> More information: <https://docs.sailfishos.org/Tools/Sailfish_SDK/Installation/>.
+> More information: <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/10-general/doc/module.adoc>.
 
 - Execute a subcommand:
 

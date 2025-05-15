@@ -9,12 +9,12 @@
 
 - Decodeer een bestand met base64 encoding:
 
-`basenc --decode --base64 {{pad/naar/bestand}}`
+`basenc {{[-d|--decode]}} --base64 {{pad/naar/bestand}}`
 
 - Encodeer `stdin` met base32 encoding met 42 kolommen:
 
-`{{command}} | basenc --base32 -w42`
+`{{commando}} | basenc --base32 {{[-w|--wrap]}} 42`
 
 - Encodeer `stdin` met base32 encoding:
 
-`{{command}} | basenc --base32`
+`{{commando}} | basenc --base32`

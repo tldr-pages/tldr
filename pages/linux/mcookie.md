@@ -1,6 +1,6 @@
 # mcookie
 
-> Generates random 128-bit hexadecimal numbers.
+> Generate random 128-bit hexadecimal numbers.
 > More information: <https://manned.org/mcookie>.
 
 - Generate a random number:

@@ -17,12 +17,12 @@
 
 - Print file name and line number for each match:
 
-`egrep --with-filename --line-number "{{search_pattern}}" {{path/to/file}}`
+`egrep {{[-H|--with-filename]}} {{[-n|--line-number]}} "{{search_pattern}}" {{path/to/file}}`
 
 - Search for a pattern in all files recursively in a directory, ignoring binary files:
 
-`egrep --recursive --binary-files={{without-match}} "{{search_pattern}}" {{path/to/directory}}`
+`egrep {{[-r|--recursive]}} --binary-files={{without-match}} "{{search_pattern}}" {{path/to/directory}}`
 
 - Search for lines that do not match a pattern:
 
-`egrep --invert-match "{{search_pattern}}" {{path/to/file}}`
+`egrep {{[-v|--invert-match]}} "{{search_pattern}}" {{path/to/file}}`

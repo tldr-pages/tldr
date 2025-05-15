@@ -1,7 +1,7 @@
 # gchmod
 
-> Dit commando is een alias van `-p linux chmod`.
+> Dit commando is een alias van GNU `chmod`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux chmod`
+`tldr chmod`

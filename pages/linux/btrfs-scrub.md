@@ -20,10 +20,10 @@
 
 `sudo btrfs scrub resume {{path/to/btrfs_mount}}`
 
-- Start a scrub, but wait until the scrub finishes before exiting:
+- Start a scrub, but do not put the program in the [B]ackground:
 
 `sudo btrfs scrub start -B {{path/to/btrfs_mount}}`
 
 - Start a scrub in quiet mode (does not print errors or statistics):
 
-`sudo btrfs scrub start -q {{path/to/btrfs_mount}}`
+`sudo btrfs scrub start {{[-q|--quiet]}} {{path/to/btrfs_mount}}`

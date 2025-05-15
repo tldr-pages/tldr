@@ -1,7 +1,7 @@
 # gseq
 
-> 这是 `-p linux seq` 命令的一个别名。
+> 这是 `seq` 命令的一个别名。
 
 - 原命令的文档在：
 
-`tldr -p linux seq`
+`tldr seq`

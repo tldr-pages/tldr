@@ -1,7 +1,7 @@
 # gdate
 
-> Dit commando is een alias van `-p linux date`.
+> Dit commando is een alias van GNU `date`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux date`
+`tldr {{[-p|--platform]}} common date`

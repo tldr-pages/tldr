@@ -1,36 +1,33 @@
 # asciinema
 
-> Graba y reproduce sesiones de terminal, y opcionalmente compártelas en asciinema.org.
+> Graba y reproduce sesiones de terminal, y opcionalmente compártelas en <https://asciinema.org>.
+> Vea también: `terminalizer`.
 > Más información: <https://docs.asciinema.org/manual/cli/usage>.
 
-- Asocia el programa local de `asciinema` con una cuenta de asciinema.org:
+- Asocia la instalación local de `asciinema` con una cuenta de asciinema.org:
 
 `asciinema auth`
 
-- Crea una nueva grabación (una vez acabada, se preguntará al usuario si la quiere guardar en local, o subirla):
+- Haz una nueva grabación y guárdala en un archivo local (termínala con `<Ctrl d>` o teclea `exit`):
 
-`asciinema rec`
+`asciinema rec {{ruta/a/grabación.cast}}`
 
-- Crea una nueva grabación y la guarda en un archivo local:
+- Reproduce una grabación de la terminal desde un archivo local:
 
-`asciinema rec {{ruta/hacia/grabación.cast}}`
+`asciinema play {{ruta/a/grabación.cast}}`
 
-- Reproduce una grabación desde un archivo local:
+- Reproduce una grabación de terminal alojada en <https://asciinema.org>:
 
-`asciinema play {{ruta/hacia/grabación.cast}}`
+`asciinema play https://asciinema.org/a/{{cast_id}}`
 
-- Reproduce una grabación desde asciinema.org:
-
-`asciinema play https://asciinema.org/a/{{identificador_de_grabación}}`
-
-- Crea una nueva grabación, limitando el tiempo de espera máximo a 2.5 segundos:
+- Realiza una nueva grabación, limitando el tiempo de espera a un máximo de 2,5 segundos:
 
 `asciinema rec {{[-i|--idle-time-limit]}} 2.5`
 
-- Imprime la salida completa de un archivo local de grabación:
+- Imprime el resultado completo de una grabación guardada localmente:
 
-`asciinema cat {{ruta/hacia/grabación.cast}}`
+`asciinema cat {{ruta/a/grabación.cast}}`
 
-- Sube un archivo local de grabación a asciinema.org:
+- Carga una sesión de terminal guardada localmente en asciinema.org:
 
-`asciinema upload {{ruta/hacia/grabación.cast}}`
+`asciinema upload {{ruta/a/grabación.cast}}`

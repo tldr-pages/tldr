@@ -2,7 +2,7 @@
 
 > A wrapper for Git that adds commands for working with GitHub-based projects.
 > If set up as instructed by `hub alias`, one can use `git` to run `hub` commands.
-> More information: <https://hub.github.com>.
+> More information: <https://hub.github.com/hub.1.html>.
 
 - Clone a repository using its slug (owners can omit the username):
 

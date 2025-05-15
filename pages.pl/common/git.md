@@ -2,7 +2,7 @@
 
 > Rozproszony system kontroli wersji.
 > Niektóre podkomendy takie jak `commit`, `add`, `branch`, `checkout`, `push`, itd. mają osobną dokumentację.
-> Więcej informacji: <https://git-scm.com/>.
+> Więcej informacji: <https://git-scm.com/docs/git>.
 
 - Wykonaj podkomendę Git:
 

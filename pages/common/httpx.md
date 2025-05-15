@@ -1,8 +1,8 @@
 # httpx
 
 > A fast and multi-purpose HTTP toolkit written in Go to run multiple probes at once.
-> Note: not to be confused with the unrelated Python's HTTPX which has the same command name.
-> More information: <https://github.com/projectdiscovery/httpx>.
+> Note: Not to be confused with the unrelated Python's HTTPX which has the same command name.
+> More information: <https://docs.projectdiscovery.io/tools/httpx/running>.
 
 - Run a probe against a [u]RL, host, IP Address or subnet (CIDR notation) showing probe status:
 

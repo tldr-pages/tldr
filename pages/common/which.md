@@ -9,4 +9,4 @@
 
 - If there are multiple executables which match, display all:
 
-`which -a {{executable}}`
+`which {{[-a|--all]}} {{executable}}`

@@ -2,7 +2,7 @@
 
 > Distributed version control system.
 > Some subcommands such as `commit`, `add`, `branch`, `checkout`, `push`, etc. have their own usage documentation.
-> More information: <https://git-scm.com/>.
+> More information: <https://git-scm.com/docs/git>.
 
 - Execute a Git subcommand:
 
@@ -18,7 +18,7 @@
 
 - Display help:
 
-`git --help`
+`git {{[-h|--help]}}`
 
 - Display help for a specific subcommand (like `clone`, `add`, `push`, `log`, etc.):
 
@@ -26,4 +26,4 @@
 
 - Display version:
 
-`git --version`
+`git {{[-v|--version]}}`

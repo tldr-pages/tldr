@@ -9,16 +9,16 @@
 
 - Edit a project (the current directory must contain a `project.godot` file):
 
-`godot -e`
+`godot {{[-e|--editor]}}`
 
 - Open the project manager even if the current directory contains a `project.godot` file:
 
-`godot -p`
+`godot {{[-p|--project-manager]}}`
 
-- Export a project for a given export preset (the preset must be defined in the project):
+- Export a project for release using a given export preset (the preset must be defined in the project):
 
-`godot --export {{preset}} {{output_path}}`
+`godot --export-release {{preset}} {{output_path}}`
 
 - Execute a standalone GDScript file (the script must inherit from `SceneTree` or `MainLoop`):
 
-`godot -s {{script.gd}}`
+`godot {{[-s|--script]}} {{script.gd}}`

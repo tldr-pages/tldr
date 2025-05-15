@@ -1,7 +1,7 @@
 # gb2sum
 
-> Este comando é um alias de `-p linux b2sum`.
+> Este comando é um alias de `b2sum`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux b2sum`
+`tldr b2sum`

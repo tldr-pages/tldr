@@ -6,20 +6,20 @@
 
 - Update the list of available slackbuilds and versions:
 
-`slapt-src --update`
+`slapt-src {{[-u|--update]}}`
 
 - List all available slackbuilds:
 
-`slapt-src --list`
+`slapt-src {{[-l|--list]}}`
 
 - Fetch, build and install the specified slackbuild(s):
 
-`slapt-src --install {{slackbuild_name}}`
+`slapt-src {{[-i|--install]}} {{slackbuild_name}}`
 
 - Locate slackbuilds by their name or description:
 
-`slapt-src --search {{search_term}}`
+`slapt-src {{[-s|--search]}} {{search_term}}`
 
 - Display information about a slackbuild:
 
-`slapt-src --show {{slackbuild_name}}`
+`slapt-src {{[-w|--show]}} {{slackbuild_name}}`

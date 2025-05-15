@@ -1,7 +1,7 @@
 # gwc
 
-> Dit commando is een alias van `-p linux wc`.
+> Dit commando is een alias van GNU `wc`.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr -p linux wc`
+`tldr {{[-p|--platform]}} common wc`

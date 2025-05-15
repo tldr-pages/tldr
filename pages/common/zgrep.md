@@ -29,4 +29,4 @@
 
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
-`zgrep --{{context|before-context|after-context}} {{3}} {{pattern}} {{path/to/compressed/file}}`
+`zgrep --{{context|before-context|after-context}} 3 {{pattern}} {{path/to/compressed/file}}`

@@ -1,7 +1,7 @@
 # gstat
 
-> Este comando é um apelido de `-p linux stat`.
+> Este comando é um apelido de `stat`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux stat`
+`tldr {{[-p|--platform]}} common stat`

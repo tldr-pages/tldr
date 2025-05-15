@@ -25,4 +25,4 @@
 
 - Set one or more variables and run a program:
 
-`env {{variable1}}={{value}} {{variable2}}={{value}} {{variable3}}={{value}} {{program}}`
+`env {{variable1=value variable2=value variable3=value ...}} {{program}}`

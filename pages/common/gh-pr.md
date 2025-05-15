@@ -18,7 +18,7 @@
 
 - Approve the pull request for the current branch:
 
-`gh pr review --approve`
+`gh pr review {{[-a|--approve]}}`
 
 - Merge the pull request associated with the current branch interactively:
 
@@ -30,7 +30,7 @@
 
 - Edit the base branch of a pull request:
 
-`gh pr edit --base {{branch_name}}`
+`gh pr edit {{[-B|--base]}} {{branch_name}}`
 
 - Check the status of the current repository's pull requests:
 

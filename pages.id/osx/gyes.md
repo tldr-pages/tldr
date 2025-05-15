@@ -1,7 +1,7 @@
 # gyes
 
-> Perintah ini merupakan alias dari `-p linux yes`.
+> Perintah ini merupakan alias dari `yes`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux yes`
+`tldr yes`

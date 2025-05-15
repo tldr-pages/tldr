@@ -10,8 +10,8 @@
 
 - Genereer een magnet-link voor een specifieke torrent:
 
-`transmission-show --magnet {{pad/naar/bestand.torrent}}`
+`transmission-show {{[-m|--magnet]}} {{pad/naar/bestand.torrent}}`
 
 - Vraag de trackers van een torrent op en toon het huidige aantal peers:
 
-`transmission-show --scrape {{pad/naar/bestand.torrent}}`
+`transmission-show {{[-s|--scrape]}} {{pad/naar/bestand.torrent}}`

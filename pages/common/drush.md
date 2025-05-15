@@ -1,7 +1,7 @@
 # drush
 
 > A command-line shell and scripting interface for Drupal.
-> More information: <https://www.drush.org>.
+> More information: <https://www.drush.org/latest/usage/>.
 
 - Enable module "foo":
 

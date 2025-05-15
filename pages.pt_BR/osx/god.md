@@ -1,7 +1,7 @@
 # god
 
-> Este comando é um apelido de `-p linux od`.
+> Este comando é um apelido de `od`.
 
-- Exibe documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
-`tldr -p linux od`
+`tldr od`

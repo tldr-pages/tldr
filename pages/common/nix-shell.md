@@ -1,29 +1,11 @@
 # nix-shell
 
-> Start an interactive shell based on a Nix expression.
-> See also: `nix3 shell`.
-> More information: <https://nixos.org/manual/nix/stable/command-ref/nix-shell.html>.
+> `nix-shell` can refer to multiple commands with the same name.
 
-- Start with nix expression in `shell.nix` or `default.nix` in the current directory:
+- View documentation for the traditional shell:
 
-`nix-shell`
+`tldr nix-shell.2`
 
-- Run shell command in non-interactive shell and exit:
+- View documentation for nix3 shell:
 
-`nix-shell --run "{{command}} {{argument1 argument2 ...}}"`
-
-- Start with expression in `default.nix` in the current directory:
-
-`nix-shell {{default.nix}}`
-
-- Start with packages loaded from nixpkgs:
-
-`nix-shell --packages {{package1 package2 ...}}`
-
-- Start with packages loaded from specific nixpkgs revision:
-
-`nix-shell --packages {{package1 package2 ...}} -I nixpkgs={{https://github.com/NixOS/nixpkgs/archive/nixpkgs_revision.tar.gz}}`
-
-- Evaluate rest of file in specific interpreter, for use in `#!-scripts` (see <https://nixos.org/manual/nix/stable/#use-as-a-interpreter>):
-
-`nix-shell -i {{interpreter}} --packages {{package1 package2 ...}}`
+`tldr nix shell.3`

@@ -1,7 +1,7 @@
 # gtouch
 
-> यह आदेश `-p linux touch` का उपनाम है।
+> यह आदेश `touch` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr -p linux touch`
+`tldr touch`

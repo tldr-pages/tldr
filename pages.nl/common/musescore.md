@@ -1,7 +1,7 @@
 # musescore
 
 > MuseScore 3 bladmuziek bewerker.
-> Meer informatie: <https://musescore.org/en/handbook/3/command-line-options>.
+> Meer informatie: <https://musescore.org/en/handbook/4/command-line-options>.
 
 - Gebruik een specifiek audio stuurprogramma:
 

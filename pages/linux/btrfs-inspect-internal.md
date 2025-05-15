@@ -9,7 +9,7 @@
 
 - Print superblock's and all of its copies' information:
 
-`sudo btrfs inspect-internal dump-super --all {{path/to/partition}}`
+`sudo btrfs inspect-internal dump-super {{[-a|--all]}} {{path/to/partition}}`
 
 - Print filesystem's metadata information:
 

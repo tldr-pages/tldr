@@ -1,7 +1,7 @@
 # acpi
 
 > Shows battery status or thermal information.
-> More information: <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
+> More information: <https://manned.org/acpi>.
 
 - Show battery information:
 
@@ -9,20 +9,20 @@
 
 - Show thermal information:
 
-`acpi -t`
+`acpi {{[-t|--thermal]}}`
 
 - Show cooling device information:
 
-`acpi -c`
+`acpi {{[-c|--cooling]}}`
 
 - Show thermal information in Fahrenheit:
 
-`acpi -tf`
+`acpi {{[-tf|--thermal --fahrenheit]}}`
 
 - Show all information:
 
-`acpi -V`
+`acpi {{[-V|--everything]}}`
 
 - Extract information from `/proc` instead of `/sys`:
 
-`acpi -p`
+`acpi {{[-p|--proc]}}`

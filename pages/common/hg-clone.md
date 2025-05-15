@@ -9,16 +9,16 @@
 
 - Clone a repository to the head of a specific branch, ignoring later commits:
 
-`hg clone --branch {{branch}} {{remote_repository_source}}`
+`hg clone {{[-b|--branch]}} {{branch}} {{remote_repository_source}}`
 
 - Clone a repository with only the `.hg` directory, without checking out files:
 
-`hg clone --noupdate {{remote_repository_source}}`
+`hg clone {{[-U|--noupdate]}} {{remote_repository_source}}`
 
 - Clone a repository to a specific revision, tag or branch, keeping the entire history:
 
-`hg clone --updaterev {{revision}} {{remote_repository_source}}`
+`hg clone {{[-u|--updaterev]}} {{revision}} {{remote_repository_source}}`
 
 - Clone a repository up to a specific revision without any newer history:
 
-`hg clone --rev {{revision}} {{remote_repository_source}}`
+`hg clone {{[-r|--rev]}} {{revision}} {{remote_repository_source}}`

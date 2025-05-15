@@ -5,8 +5,8 @@
 
 - Clone a virtual machine and automatically generate a new name, storage path, and MAC address:
 
-`virt-clone --original {{vm_name}} --auto-clone`
+`virt-clone {{[-o|--original]}} {{vm_name}} --auto-clone`
 
 - Clone a virtual machine and specify the new name, storage path, and MAC address:
 
-`virt-clone --original {{vm_name}} --name {{new_vm_name}} --file {{path/to/new_storage}} --mac {{ff:ff:ff:ff:ff:ff|RANDOM}}`
+`virt-clone {{[-o|--original]}} {{vm_name}} {{[-n|--name]}} {{new_vm_name}} {{[-f|--file]}} {{path/to/new_storage}} {{[-m|--mac]}} {{ff:ff:ff:ff:ff:ff|RANDOM}}`

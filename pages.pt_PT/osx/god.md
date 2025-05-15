@@ -1,7 +1,7 @@
 # god
 
-> Este comando é um alias de `-p linux od`.
+> Este comando é um alias de `od`.
 
-- Exibe documentação do comando original:
+- Ver documentação do comando original:
 
-`tldr -p linux od`
+`tldr od`

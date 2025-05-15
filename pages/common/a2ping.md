@@ -29,4 +29,4 @@
 
 - Display help:
 
-`a2ping -h`
+`a2ping {{[-h|--help]}}`

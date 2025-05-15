@@ -1,13 +1,11 @@
 # nix-build
 
-> Build a Nix expression.
-> See also: `nix3 build`.
-> More information: <https://nixos.org/manual/nix/stable/command-ref/nix-build.html>.
+> `nix-build` can refer to multiple commands with the same name.
 
-- Build a Nix expression:
+- View documentation for the traditional builder:
 
-`nix-build '<nixpkgs>' --attr {{firefox}}`
+`tldr nix-build.2`
 
-- Build a sandboxed Nix expression (on non-NixOS):
+- View documentation for nix3 builder:
 
-`nix-build '<nixpkgs>' --attr {{firefox}} --option sandbox true`
+`tldr nix build.3`

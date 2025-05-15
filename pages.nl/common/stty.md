@@ -3,9 +3,13 @@
 > Stel opties in voor een terminalapparaatinterface.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html>.
 
+- Toon de huidige terminal grootte:
+
+`stty size`
+
 - Toon alle instellingen voor de huidige terminal:
 
-`stty --all`
+`stty {{[-a|--all]}}`
 
 - Stel het aantal rijen of kolommen in:
 
@@ -13,7 +17,7 @@
 
 - Verkrijg de daadwerkelijke overdrachtssnelheid van een apparaat:
 
-`stty --file {{pad/naar/apparaat_bestand}} speed`
+`stty {{[-F|--file]}} {{pad/naar/apparaat_bestand}} speed`
 
 - Reset alle modi naar redelijke waarden voor de huidige terminal:
 
@@ -26,3 +30,7 @@
 - Zet karakter echoing uit of aan:
 
 `stty {{-echo|echo}}`
+
+- Toon de help:
+
+`stty --help`

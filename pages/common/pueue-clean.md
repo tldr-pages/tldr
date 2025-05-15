@@ -9,4 +9,4 @@
 
 - Only clean commands that finished successfully:
 
-`pueue clean --successful-only`
+`pueue clean {{[-s|--successful-only]}}`

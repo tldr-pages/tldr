@@ -6,11 +6,11 @@
 
 - Create an App Configuration:
 
-`az appconfig create --name {{name}} --resource-group {{group_name}} --location {{location}}`
+`az appconfig create {{[-n|--name]}} {{name}} {{[-g|--resource-group]}} {{group_name}} {{[-l|--location]}} {{location}}`
 
 - Delete a specific App Configuration:
 
-`az appconfig delete --resource-group {{rg_name}} --name {{appconfig_name}}`
+`az appconfig delete {{[-g|--resource-group]}} {{rg_name}} {{[-n|--name]}} {{appconfig_name}}`
 
 - List all App Configurations under the current subscription:
 
@@ -18,12 +18,12 @@
 
 - List all App Configurations under a specific resource group:
 
-`az appconfig list --resource-group {{rg_name}}`
+`az appconfig list {{[-g|--resource-group]}} {{rg_name}}`
 
 - Show properties of an App Configuration:
 
-`az appconfig show --name {{appconfig_name}}`
+`az appconfig show {{[-n|--name]}} {{appconfig_name}}`
 
 - Update a specific App Configuration:
 
-`az appconfig update --resource-group {{rg_name}} --name {{appconfig_name}}`
+`az appconfig update {{[-g|--resource-group]}} {{rg_name}} {{[-n|--name]}} {{appconfig_name}}`

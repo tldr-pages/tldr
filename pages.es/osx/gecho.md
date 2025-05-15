@@ -1,7 +1,7 @@
 # gecho
 
-> Este comando es un alias de `-p linux echo`.
+> Este comando es un alias de `echo`.
 
-- Muestra la documentación del comando original:
+- Vea la documentación para el comando original:
 
-`tldr -p linux echo`
+`tldr echo`

@@ -1,7 +1,7 @@
 # quilt
 
 > Manage a series of patches.
-> More information: <https://savannah.nongnu.org/projects/quilt>.
+> More information: <https://manned.org/quilt>.
 
 - Import an existing patch from a file:
 

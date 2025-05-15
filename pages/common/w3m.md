@@ -2,7 +2,7 @@
 
 > A text-based web browser.
 > Supports SSL and mouse input, even over SSH.
-> More information: <https://w3m.sourceforge.net>.
+> More information: <https://w3m.sourceforge.net/MANUAL>.
 
 - Open a URL:
 

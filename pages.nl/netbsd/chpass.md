@@ -2,7 +2,7 @@
 
 > Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
 > Bekijk ook: `passwd`.
-> Meer informatie: <https://man.netbsd.org/chsh>.
+> Meer informatie: <https://man.netbsd.org/chpass>.
 
 - Stel interactief een specifieke login shell in voor de huidige gebruiker:
 
@@ -14,7 +14,7 @@
 
 - Stel een login [s]hell in voor een specifieke gebruiker:
 
-`chpass chsh -s {{pad/naar/shell}} {{gebruikersnaam}}`
+`chpass -s {{pad/naar/shell}} {{gebruikersnaam}}`
 
 - Specificeer een gebruikersdatabase entry in het `passwd` bestandsformaat:
 

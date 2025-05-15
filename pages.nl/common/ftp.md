@@ -5,7 +5,7 @@
 
 - Verbinden met een FTP-server:
 
-`ftp {{ftp.voorbeeld.com}}`
+`ftp {{ftp.example.com}}`
 
 - Verbinden met een FTP-server met opgave van IP-adres en poort:
 

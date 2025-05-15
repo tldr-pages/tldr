@@ -4,4 +4,4 @@
 
 - Exibe documentação sobre o comando original:
 
-`tldr -p linux dd`
+`tldr {{[-p|--platform]}} linux dd`

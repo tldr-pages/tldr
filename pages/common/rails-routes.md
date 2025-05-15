@@ -13,8 +13,8 @@
 
 - List routes partially matching URL helper method name, HTTP verb, or URL path:
 
-`rails routes -g {{posts_path|GET|/posts}}`
+`rails routes {{[-g|--grep]}} {{posts_path|GET|/posts}}`
 
 - List routes that map to a specified controller:
 
-`rails routes -c {{posts|Posts|Blogs::PostsController}}`
+`rails routes {{[-c|--controller]}} {{posts|Posts|Blogs::PostsController}}`

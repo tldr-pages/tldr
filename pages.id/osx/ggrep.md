@@ -1,7 +1,7 @@
 # ggrep
 
-> Perintah ini merupakan alias dari `-p linux grep`.
+> Perintah ini merupakan alias dari `grep`.
 
 - Tampilkan dokumentasi untuk perintah asli:
 
-`tldr -p linux grep`
+`tldr grep`

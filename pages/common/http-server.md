@@ -9,7 +9,7 @@
 
 - Start an HTTP server on a specific port to serve a specific directory:
 
-`http-server {{path/to/directory}} --port {{port}}`
+`http-server {{path/to/directory}} {{[-p|--port]}} {{port}}`
 
 - Start an HTTP server using basic authentication:
 
@@ -21,7 +21,7 @@
 
 - Start an HTTPS server on the default port using the specified certificate:
 
-`http-server --ssl --cert {{path/to/cert.pem}} --key {{path/to/key.pem}}`
+`http-server {{[-S|--ssl]}} {{[-C|--cert]}} {{path/to/cert.pem}} {{[-K|--key]}} {{path/to/key.pem}}`
 
 - Start an HTTP server and include the client's IP address in the output logging:
 
@@ -33,4 +33,4 @@
 
 - Start an HTTP server with logging disabled:
 
-`http-server --silent`
+`http-server {{[-s|--silent]}}`
