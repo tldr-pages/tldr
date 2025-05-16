@@ -2,7 +2,7 @@
 
 > Descubre y sondea hosts en una red utilizando el protocolo ARP.
 > Útil para el descubrimiento de direcciones MAC.
-> Más información: <https://github.com/ThomasHabets/arping>.
+> Más información: <https://manned.org/arping>.
 
 - Haz ping a un host mediante paquetes de petición ARP:
 
