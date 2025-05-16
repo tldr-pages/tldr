@@ -2,7 +2,7 @@
 
 > Interpréteur du langage de programmation Ruby.
 > Voir aussi : `gem`, `bundler`, `rake`, `irb`.
-> Plus d'informations : <https://www.ruby-lang.org>.
+> Plus d'informations : <https://manned.org/ruby>.
 
 - Exécute un script Ruby :
 
