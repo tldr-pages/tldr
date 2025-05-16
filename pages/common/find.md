@@ -15,13 +15,9 @@
 
 `find {{root_path}} -type d -iname '{{*lib*}}'`
 
-- Find files matching a given pattern, excluding specific paths:
+- Find files matching a given pattern, excluding specific directory tree (and its contents):
 
-`find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
-
-- Exclude a specific directory tree (and its contents) when searching for files:
-
-`find {{root_path}} -path '{{path/to/exclude}}' -prune -o -name '{{*.ext}}' -type f`
+`find {{root_path}} -path '{{*/site-packages/*}}' -prune -o -name '{{*.py}}' -type f`
 
 - Find files matching a given size range, limiting the recursive depth to "1":
 
