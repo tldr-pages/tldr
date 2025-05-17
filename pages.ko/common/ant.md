@@ -2,7 +2,7 @@
 
 > Apache Ant.
 > 자바 기반 프로젝트를 빌드하고 관리하는 도구.
-> 더 많은 정보: <https://ant.apache.org>.
+> 더 많은 정보: <https://ant.apache.org/manual/index.html>.
 
 - 기본 빌드 파일인 `build.xml`로 프로젝트 빌드:
 

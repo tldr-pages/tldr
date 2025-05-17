@@ -2,7 +2,7 @@
 
 > Ruby 프로그래밍 언어 인터프리터.
 > 같이 보기: `gem`, `bundler`, `rake`, `irb`.
-> 더 많은 정보: <https://www.ruby-lang.org>.
+> 더 많은 정보: <https://manned.org/ruby>.
 
 - Ruby 스크립트 실행:
 
