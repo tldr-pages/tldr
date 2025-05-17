@@ -6,7 +6,7 @@
 
 - Print the fifth column (a.k.a. field) in a space-separated file:
 
-`awk '{print $5}' {{path/to/file}}`
+`gawk '{print $5}' {{path/to/file}}`
 
 - Print the second column of the lines containing "foo" in a space-separated file:
 
