@@ -6,20 +6,20 @@
 
 - List the custom images under a resource group:
 
-`az image list --resource-group {{resource_group}}`
+`az image list {{[-g|--resource-group]}} {{resource_group}}`
 
 - Create a custom image from managed disks or snapshots:
 
-`az image create --resource-group {{resource_group}} --name {{name}} --os-type {{windows|linux}} --source {{os_disk_source}}`
+`az image create {{[-g|--resource-group]}} {{resource_group}} {{[-n|--name]}} {{name}} --os-type {{windows|linux}} --source {{os_disk_source}}`
 
 - Delete a custom image:
 
-`az image delete --name {{name}} --resource-group {{resource_group}}`
+`az image delete {{[-n|--name]}} {{name}} {{[-g|--resource-group]}} {{resource_group}}`
 
 - Show details of a custom image:
 
-`az image show --name {{name}} --resource-group {{resource_group}}`
+`az image show {{[-n|--name]}} {{name}} {{[-g|--resource-group]}} {{resource_group}}`
 
 - Update custom images:
 
-`az image update --name {{name}} --resource-group {{resource_group}} --set {{property=value}}`
+`az image update {{[-n|--name]}} {{name}} {{[-g|--resource-group]}} {{resource_group}} --set {{property=value}}`

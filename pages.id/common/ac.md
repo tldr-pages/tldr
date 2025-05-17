@@ -1,7 +1,7 @@
 # ac
 
 > Tampilkan statistik mengenai lama waktu pengguna sistem operasi yang terhubung.
-> Informasi lebih lanjut: <https://man.openbsd.org/ac>.
+> Informasi lebih lanjut: <https://manned.org/ac.8>.
 
 - Tampilkan berapa lama pengguna saat ini telah terhubung dengan sistem operasi, dalam hitungan jam:
 

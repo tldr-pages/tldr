@@ -5,11 +5,11 @@
 
 - Display account info:
 
-`doctl account get`
+`doctl account {{[g|get]}}`
 
 - Show the hourly API limit, progress towards it, and when the rate limit resets:
 
-`doctl account ratelimit`
+`doctl account {{[rl|ratelimit]}}`
 
 - Display help:
 

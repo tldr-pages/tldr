@@ -1,7 +1,7 @@
 # glab repo
 
 > Work with GitLab repositories.
-> More information: <https://glab.readthedocs.io/en/latest/repo/index.html#synopsis>.
+> More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/repo/index.md>.
 
 - Create a new repository (if the repository name is not set, the default name will be the name of the current directory):
 
