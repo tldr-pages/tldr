@@ -33,4 +33,4 @@
 
 - Find timestamps in a log file and reformat them into your local time in place:
 
-`biff tag lines /tmp/access.log | biff time in system | biff time fmt {{[-f|--format]}} '%c' | head -n3 | biff untag {{[-s|--substitute]}}`
+`biff tag lines /tmp/access.log | biff time in system | biff time fmt {{[-f|--format]}} '%c' | head {{[-n|--lines]}} 3 | biff untag {{[-s|--substitute]}}`
