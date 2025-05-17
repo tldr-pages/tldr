@@ -1,7 +1,7 @@
 # nix shell
 
 > 지정된 패키지가 사용 가능한 셸 시작.
-> 같이 보기: 개발 환경 설정을 위한 `nix-shell`, 플레이크에 대한 정보를 위한 `nix3 flake`.
+> 같이 보기: 개발 환경 설정을 위한 `nix-shell`, 플레이크에 대한 정보를 위한 `nix flake`.
 > 더 많은 정보: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-shell.html>.
 
 - `nixpkgs`의 일부 패키지와 함께 대화형 셸 시작:

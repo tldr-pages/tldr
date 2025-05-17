@@ -1,13 +1,11 @@
 # nix-build
 
-> Nix 표현식을 빌드.
-> 같이 보기: `nix3 build`.
-> 더 많은 정보: <https://nixos.org/manual/nix/stable/command-ref/nix-build.html>.
+> `nix-build`는 같은 이름의 여러 명령을 참조할 수 있습니다.
 
-- Nix 표현식 빌드:
+- 기존 빌더에 대한 문서를 참조하세요:
 
-`nix-build '<nixpkgs>' --attr {{firefox}}`
+`tldr nix-build.2`
 
-- 샌드박스된 Nix 표현식 빌드 (NixOS가 아닌 경우):
+- nix3 빌더에 대한 문서 보기:
 
-`nix-build '<nixpkgs>' --attr {{firefox}} --option sandbox true`
+`tldr nix build.3`
