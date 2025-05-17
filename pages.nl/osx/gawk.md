@@ -4,4 +4,4 @@
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr awk`
+`tldr {{[-p|--platform]}} common gawk`

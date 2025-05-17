@@ -1,7 +1,7 @@
 # gawk
 
-> यह आदेश `awk` का उपनाम है।
+> यह आदेश GNU `awk` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr awk`
+`tldr {{[-p|--platform]}} common gawk`

@@ -1,7 +1,7 @@
 # gawk
 
-> Este comando é um alias de `awk`.
+> Este comando é um alias de GNU `awk`.
 
 - Exibe documentação do comando original:
 
-`tldr awk`
+`tldr {{[-p|--platform]}} common gawk`

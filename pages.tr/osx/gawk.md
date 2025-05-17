@@ -1,7 +1,7 @@
 # gawk
 
-> Bu komut `awk` için bir takma addır.
+> Bu komut GNU `awk` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr awk`
+`tldr {{[-p|--platform]}} common gawk`

@@ -1,7 +1,7 @@
 # gawk
 
-> Este comando é um apelido de `awk`.
+> Este comando é um apelido de GNU `awk`.
 
 - Exibe documentação sobre o comando original:
 
-`tldr awk`
+`tldr {{[-p|--platform]}} common gawk`

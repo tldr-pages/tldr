@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr awk`
+`tldr {{[-p|--platform]}} common gawk`
