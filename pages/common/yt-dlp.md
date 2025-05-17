@@ -36,3 +36,7 @@
 - Download a Udemy course keeping each chapter in a separate directory:
 
 `yt-dlp {{[-u|--username]}} {{user}} {{[-p|--password]}} {{password}} {{[-P|--paths]}} "{{path/to/directory}}" {{[-o|--output]}} "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{https://www.udemy.com/java-tutorial}}"`
+
+- Download youtube playlist keeping the height <= 720p in mp4 format
+
+`yt-dlp {{-f}} "{{bestvideo[height<=720]+bestaudio/best[height<=720]}}" {{--merge-output-format}} mp4 {{-o}} "{{%(playlist_index)s - %(title)s.%(ext)s}}" "{{https://www.youtube.com/playlist}}"`
