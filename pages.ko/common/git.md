@@ -2,7 +2,7 @@
 
 > 분산 버전 관리 시스템.
 > `commit`, `add`, `branch`, `checkout`, `push` 등의 특정 하위 명령어는 고유의 문서가 따로 있습니다. `tldr git subcommand`를 통해 확인할 수 있습니다.
-> 더 많은 정보: <https://git-scm.com/>.
+> 더 많은 정보: <https://git-scm.com/docs/git>.
 
 - 하위 명령어 실행:
 

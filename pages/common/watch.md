@@ -9,7 +9,7 @@
 
 - Re-run a command every 60 seconds:
 
-`watch {{[-n|--interval]}} {{60}} {{command}}`
+`watch {{[-n|--interval]}} 60 {{command}}`
 
 - Monitor disk space, highlighting differences as they appear:
 

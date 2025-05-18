@@ -2,7 +2,7 @@
 
 > Apache Ant。
 > 用于构建和管理基于 Java 的项目的工具。
-> 更多信息：<https://ant.apache.org>.
+> 更多信息：<https://ant.apache.org/manual/index.html>.
 
 - 用默认的构建文件 `build.xml` 构建一个项目：
 

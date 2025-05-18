@@ -8,7 +8,7 @@
 
 `kde-builder --initial-setup`
 
-- Compile a KDE component and its dependencies from the source:
+- Compile a KDE component and its dependencies from the source (use `workspace` to compile Plasma desktop):
 
 `kde-builder {{component_name}}`
 

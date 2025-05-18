@@ -1,7 +1,7 @@
 # alacritty
 
 > 跨平台、GPU 加速的终端模拟器。
-> 更多信息：<https://github.com/alacritty/alacritty>.
+> 更多信息：<https://manned.org/alacritty>.
 
 - 启动新的 Alacritty 进程并创建窗口：
 

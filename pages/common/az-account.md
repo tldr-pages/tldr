@@ -10,7 +10,7 @@
 
 - Set a `subscription` to be the currently active subscription:
 
-`az account set --subscription {{subscription_id}}`
+`az account set {{[-s|--subscription]}} {{subscription_id}}`
 
 - List supported regions for the currently active subscription:
 
@@ -22,4 +22,4 @@
 
 - Print details of the currently active subscription in a specific format:
 
-`az account show --output {{json|tsv|table|yaml}}`
+`az account show {{[-o|--output]}} {{json|tsv|table|yaml}}`

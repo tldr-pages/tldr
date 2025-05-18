@@ -1,7 +1,7 @@
 # terraform
 
 > 코드로 인프라를 생성하고 클라우드 제공업체에 배포.
-> 더 많은 정보: <https://www.terraform.io/>.
+> 더 많은 정보: <https://developer.hashicorp.com/terraform/cli/commands>.
 
 - 새 또는 기존 Terraform 구성 초기화:
 

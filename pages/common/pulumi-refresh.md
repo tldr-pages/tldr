@@ -21,8 +21,8 @@
 
 - The name of the stack to operate on (defaults to the current stack):
 
-`pulumi refresh --stack {{stack_name}}`
+`pulumi refresh {{[-s|--stack]}} {{stack_name}}`
 
 - Display help:
 
-`pulumi refresh --help`
+`pulumi refresh {{[-h|--help]}}`

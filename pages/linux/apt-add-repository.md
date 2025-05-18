@@ -9,7 +9,7 @@
 
 - Remove an `apt` repository:
 
-`apt-add-repository --remove {{repository_spec}}`
+`apt-add-repository {{[-r|--remove]}} {{repository_spec}}`
 
 - Update the package cache after adding a repository:
 
@@ -17,4 +17,4 @@
 
 - Enable source packages:
 
-`apt-add-repository --enable-source {{repository_spec}}`
+`apt-add-repository {{[-s|--enable-source]}} {{repository_spec}}`

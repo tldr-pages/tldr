@@ -7,6 +7,10 @@
 
 `progress`
 
+- Monitor all running coreutils:
+
+`progress {{[-m|--monitor]}}`
+
 - Show the progress of running coreutils in quiet mode:
 
 `progress {{[-q|--quiet]}}`
