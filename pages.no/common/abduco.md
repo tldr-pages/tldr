@@ -1,7 +1,7 @@
 # abduco
 
 > Terminal økt behandler.
-> Mer informasjon: <https://www.brain-dump.org/projects/abduco/>.
+> Mer informasjon: <https://manned.org/abduco>.
 
 - List opp økter:
 
