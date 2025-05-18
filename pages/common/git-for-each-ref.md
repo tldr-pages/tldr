@@ -21,16 +21,16 @@
 
 - List short names of all refs:
 
-`git for-each-ref --format="%(refname:short)"`
+`git for-each-ref --format "%(refname:short)"`
 
 - Sort refs by committer date (most recent first):
 
-`git for-each-ref --sort=-committerdate`
+`git for-each-ref --sort -committerdate`
 
 - Sort refs by committer date (oldest first):
 
-`git for-each-ref --sort=committerdate`
+`git for-each-ref --sort committerdate`
 
 - Limit output to a specified number of refs:
 
-`git for-each-ref --count={{count}}`
+`git for-each-ref --count {{count}}`
