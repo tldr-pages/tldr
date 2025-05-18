@@ -32,6 +32,10 @@
 
 `yay -Yc`
 
+- Clean pacman and yay caches (old package versions kept for rollback and downgrade purposes):
+
+`yay -Scc`
+
 - Show statistics for installed packages and system health:
 
 `yay -Ps`
