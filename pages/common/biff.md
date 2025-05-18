@@ -21,7 +21,7 @@
 
 - Print a past or future time relative to current time:
 
-`biff time add -1w now`
+`biff time add {{-1d|1d|1w|-1m|1y|...}} now`
 
 - Add a complex duration to the current time:
 
