@@ -19,7 +19,7 @@
 
 `TZ='Japan' biff time in America/New_York 02:30`
 
-- Add a duration to the current time:
+- Print a past or future time relative to current time:
 
 `biff time add -1w now`
 
