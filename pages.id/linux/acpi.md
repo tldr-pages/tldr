@@ -1,7 +1,7 @@
 # acpi
 
 > Tampilkan status baterai atau informasi suhu.
-> Informasi lebih lanjut: <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
+> Informasi lebih lanjut: <https://manned.org/acpi>.
 
 - Tampilkan informasi baterai:
 

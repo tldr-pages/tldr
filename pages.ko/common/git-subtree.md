@@ -1,7 +1,7 @@
 # git subtree
 
 > 프로젝트 종속성을 하위 프로젝트로 관리.
-> 더 많은 정보: <https://manpages.debian.org/latest/git-man/git-subtree.1.html>.
+> 더 많은 정보: <https://manned.org/git-subtree>.
 
 - Git 저장소를 서브트리로 추가:
 
