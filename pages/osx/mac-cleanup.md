@@ -17,7 +17,7 @@
 
 - Specify the directory with custom cleanup [p]ath:
 
-`mac-cleanup -p {{path/to/directory}}`
+`mac-cleanup {{[-p|--custom-path]}} {{path/to/directory}}`
 
 - Automatically acknowledge all warnings and continue with [f]orce:
 
