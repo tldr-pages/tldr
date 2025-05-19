@@ -1,7 +1,7 @@
 # git lfs
 
 > Lavora con file di grandi dimensioni in repository Git.
-> Maggiori informazioni: <https://git-lfs.com>.
+> Maggiori informazioni: <https://github.com/git-lfs/git-lfs/tree/main/docs>.
 
 - Inizializza Git LFS:
 

@@ -1,7 +1,7 @@
 # git lfs
 
 > Git depolarındaki büyük dosyalarla çalış.
-> Daha fazla bilgi için: <https://git-lfs.com>.
+> Daha fazla bilgi için: <https://github.com/git-lfs/git-lfs/tree/main/docs>.
 
 - Git LFS'i başlat:
 
