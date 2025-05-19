@@ -1,7 +1,7 @@
 # code
 
 > 跨平台且可扩展的代码编辑器。
-> 更多信息：<https://github.com/microsoft/vscode>.
+> 更多信息：<https://code.visualstudio.com/docs/configure/command-line>.
 
 - 启动 Visual Studio Code：
 

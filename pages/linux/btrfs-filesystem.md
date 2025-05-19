@@ -26,3 +26,7 @@
 - Summarize disk usage for the files in a directory recursively:
 
 `sudo btrfs filesystem du {{[-s|--summarize]}} {{path/to/directory}}`
+
+- Create a swap file:
+
+`sudo btrfs filesystem mkswapfile --size {{8g}} --uuid {{clear|random|time|UUID_value}} {{path/to/swapfile}}`
