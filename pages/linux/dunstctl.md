@@ -1,20 +1,28 @@
 # dunstctl
 
-> Control command for `dunst`.
-> More information: <https://manned.org/dunstctl>.
+> Control the `dunst` notification daemon.
+> More information: <https://dunst-project.org/documentation/dunstctl>.
 
-- Pause notifications:
+- Pause/Unpause/Toggle desktop notifications:
 
-`dunstctl set-paused true`
-
-- Un-pause notifications:
-
-`dunstctl set-paused false`
+`dunstctl set-paused {{true|false|toggle}}`
 
 - Close all notifications:
 
 `dunstctl close-all`
 
+- Delete all notifications from history:
+
+`dunstctl history-clear`
+
+- Display the latest notification from history:
+
+`dunstctl history-pop`
+
+- Reload the configuration file:
+
+`dunstctl reload`
+
 - Display help:
 
-`dunstctl --help`
+`dunstctl {{[-h|--help]}}`
