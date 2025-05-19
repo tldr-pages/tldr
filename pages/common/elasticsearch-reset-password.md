@@ -5,12 +5,12 @@
 
 - Reset the password of the user to an auto-generated value and print it in the console:
 
-`elasticsearch-reset-password {{-u|--username}} {{user}}`
+`elasticsearch-reset-password {{[-u|--username]}} {{user}}`
 
 - Prompt interactively to reset the password for a native user:
 
-`elasticsearch-reset-password {{-u|--username}} {{user}} -i`
+`elasticsearch-reset-password {{[-u|--username]}} {{user}} {{[-i|--interactive]}}`
 
 - Interactively reset the password for a user at a specified Elasticsearch node URL:
 
-`elasticsearch-reset-password --url {{host}}:{{port}} {{-u|--username}} {{user}} {{-i|--interactive}}`
+`elasticsearch-reset-password --url {{host}}:{{port}} {{[-u|--username]}} {{user}} {{[-i|--interactive]}}`
