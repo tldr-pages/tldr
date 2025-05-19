@@ -13,7 +13,7 @@
 
 - Perform a dry-ru[n], showing what will be removed without actually deleting it:
 
-`mac-cleanup -n`
+`mac-cleanup {{[-n|--dry-run]}}`
 
 - Specify the directory with custom cleanup [p]ath:
 
