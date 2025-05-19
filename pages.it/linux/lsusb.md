@@ -13,7 +13,7 @@
 
 - Elenca informazioni prolisse riguardo ai dispositivi USB:
 
-`lsusb {{[-V|--verbose]}}`
+`lsusb {{[-v|--verbose]}}`
 
 - Elenca solamente i dispositivi con un certo id fornitore e ID prodotto:
 

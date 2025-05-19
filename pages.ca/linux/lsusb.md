@@ -13,7 +13,7 @@
 
 - Llista tots els disposititus USB de forma verbosa:
 
-`lsusb {{[-V|--verbose]}}`
+`lsusb {{[-v|--verbose]}}`
 
 - Llista només dispositius amb un ID d'assemblador i producte determinat:
 
