@@ -1,7 +1,7 @@
 # git lfs
 
 > Git 저장소에서 대용량 파일을 다루기 위한 도구.
-> 더 많은 정보: <https://git-lfs.com>.
+> 더 많은 정보: <https://github.com/git-lfs/git-lfs/tree/main/docs>.
 
 - Git LFS 초기화:
 
