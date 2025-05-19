@@ -9,7 +9,7 @@
 
 - Open the module [c]onfiguration screen:
 
-`mac-cleanup -c`
+`mac-cleanup {{[-c|--configure]}}`
 
 - Perform a dry-ru[n], showing what will be removed without actually deleting it:
 
