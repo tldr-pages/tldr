@@ -23,7 +23,7 @@
 
 `sudo nixos-rebuild boot`
 
-- Construye y activa la configuración nueva, pero no la hagas la entrada de arranque predeterminada (para fines de prueba):
+- Construye y activa la configuración nueva, pero no la haga la entrada de arranque predeterminada (solo para finalidad de pruebas):
 
 `sudo nixos-rebuild test`
 
