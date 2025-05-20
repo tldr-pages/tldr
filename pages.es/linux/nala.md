@@ -1,7 +1,7 @@
 # nala
 
 > Gestor de paquetes con interfaz moderna.
-> Front-end para la API `python-apt`.
+> Interfaz para la API `python-apt`.
 > Más informacion: <https://gitlab.com/volian/nala>.
 
 - Instalar un paquete, o actualizarlo a la última versión disponible:
