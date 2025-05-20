@@ -6,6 +6,6 @@
 
 `tldr nix-build.2`
 
-- Ver la documentación para el constructor nix3:
+- Vea la documentación para el constructor nix3:
 
 `tldr nix build.3`
