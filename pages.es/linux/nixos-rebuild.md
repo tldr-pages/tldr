@@ -19,7 +19,7 @@
 
 `sudo nixos-rebuild switch --rollback`
 
-- Construye la configuración nueva y hazla predeterminada sin cambiar a ella:
+- Construye la configuración nueva y la predetermina sin cambiar a ella:
 
 `sudo nixos-rebuild boot`
 
