@@ -6,6 +6,6 @@
 
 `tldr nix-store.2`
 
-- Ver la documentación para el almacén nix3:
+- Vea la documentación para el almacén nix3:
 
 `tldr nix store.3`
