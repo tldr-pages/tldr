@@ -11,7 +11,7 @@
 
 `sudo nixos-container create {{nombre_del_contenedor}} --config-file {{ruta_a_la_configuracion_de_nix}}`
 
-- Inicia, detiene, termina, o destruye un contenedor específico:
+- Inicia, detiene, termina o destruye un contenedor específico:
 
 `sudo nixos-container {{start|stop|terminate|destroy|status}} {{nombre_del_contenedor}}`
 
