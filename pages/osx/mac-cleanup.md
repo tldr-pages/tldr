@@ -7,7 +7,7 @@
 
 `mac-cleanup`
 
-- Open the module [c]onfiguration screen:
+- Open the module configuration screen:
 
 `mac-cleanup {{[-c|--configure]}}`
 
