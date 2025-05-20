@@ -1,7 +1,7 @@
 # nix search
 
 > Busca paquetes en un flake de Nix.
-> Ver también: `nix flake` para información sobre los flakes.
+> Vea también: `nix flake` para información sobre los flakes.
 > Más información: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-search.html>.
 
 - Busca `nixpkgs` para un paquete basado en su nombre o descripción:
