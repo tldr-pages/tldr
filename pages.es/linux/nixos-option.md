@@ -3,7 +3,7 @@
 > Inspecciona una configuración de NixOS.
 > Más información: <https://nixos.org/manual/nixos/stable/index.html#sec-modularity>.
 
-- Lista todas las subclaves de una clave de opciones proporcionada:
+- Lista todas las subclaves de una clave de opciones proporcionadas:
 
 `nixos-option {{clave}}`
 
