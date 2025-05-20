@@ -2,7 +2,7 @@
 
 > `nix-store` puede referirse a múltiples comandos con el mismo nombre.
 
-- Ver la documentación para el almacén tradicional:
+- Vea la documentación para el almacén tradicional:
 
 `tldr nix-store.2`
 
