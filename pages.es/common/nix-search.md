@@ -12,6 +12,6 @@
 
 `nix search {{nixpkgs#pkg}}`
 
-- Muestra todos los paquetes disponibles de un flake en github:
+- Muestra todos los paquetes disponibles de un flake en Github:
 
 `nix search {{github:dueño/repositorio}}`
