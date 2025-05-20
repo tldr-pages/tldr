@@ -7,6 +7,6 @@
 
 `nix why-depends {{/run/current-system}} {{/nix/store/...}}`
 
-- Muestra por qué un paquete de nixpkgs requiere otro paquete como una dependencia de _tiempo de construcción_:
+- Muestra por qué un paquete de nixpkgs requiere otro paquete como una dependencia de tiempo de construcción:
 
 `nix why-depends --derivation {{nixpkgs#dependiente}} {{nixpkgs#dependencia}}`
