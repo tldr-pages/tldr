@@ -2,7 +2,7 @@
 
 > `nix-shell` puede referirse a múltiples comandos con el mismo nombre.
 
-- Ver la documentación para el shell tradicional:
+- Vea la documentación para el shell tradicional:
 
 `tldr nix-shell.2`
 
