@@ -4,7 +4,7 @@
 > Ver también: `nix build.3`.
 > Más información: <https://nixos.org/manual/nix/stable/command-ref/nix-build.html>.
 
-- Construye una expresión de Nix.
+- Construye una expresión de Nix:
 
 `nix-build '<nixpkgs>' {{[-A|--attr]}} {{firefox}}`
 

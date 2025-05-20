@@ -4,7 +4,7 @@
 > Ver <https://nixos.org/manual/nix/stable/language/index.html> para una descripción de el lenguaje de expresiones de Nix.
 > Más información: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-repl.html>.
 
-- Inicia un entorno interactivo para evaluar expresiones de Nix.
+- Inicia un entorno interactivo para evaluar expresiones de Nix:
 
 `nix repl`
 

@@ -1,7 +1,7 @@
 # nix develop
 
 > Ejecuta un shell de Bash que provee el entorno de construcción de una derivación.
-> Más Información: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-develop.html>.
+> Más información: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-develop.html>.
 
 - Ejecuta un shell con todas las dependencias de un paquete de nixpkgs disponibles:
 
