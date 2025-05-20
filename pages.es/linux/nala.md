@@ -4,7 +4,7 @@
 > Interfaz para la API `python-apt`.
 > Más informacion: <https://gitlab.com/volian/nala>.
 
-- Instalar un paquete, o actualizarlo a la última versión disponible:
+- Instala un paquete o lo actualiza a la última versión disponible:
 
 `sudo nala install {{paquete}}`
 
