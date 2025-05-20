@@ -17,7 +17,7 @@
 
 `nix shell {{nixpkgs#pkg1 nixpkgs#pkg2 nixpkgs#pkg3 ...}}`
 
-- Instala unos paquetes de nixpkgs permanentemente:
+- Instala unos paquetes de nixpkgs de manera permanente:
 
 `nix profile install {{nixpkgs#pkg1 nixpkgs#pkg2 nixpkgs#pkg3 ...}}`
 
