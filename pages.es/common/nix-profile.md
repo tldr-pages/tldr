@@ -1,7 +1,7 @@
 # nix profile
 
 > Instala, actualiza y quita paquetes de perfiles de Nix.
-> Más informácion: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-profile.html>.
+> Más información: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-profile.html>.
 
 - Instala unos paquetes desde nixpkgs al perfil predeterminado:
 
