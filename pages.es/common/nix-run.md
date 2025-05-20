@@ -1,7 +1,7 @@
 # nix run
 
 > Ejecuta una aplicación desde un flake de Nix.
-> Ver también: `nix flake` para información sobre los flakes.
+> Vea también: `nix flake` para información sobre los flakes.
 > Más información: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-run.html>.
 
 - Ejecuta la aplicación predeterminada del flake en el directorio actual:
