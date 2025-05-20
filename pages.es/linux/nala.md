@@ -24,7 +24,7 @@
 
 `sudo nala upgrade`
 
-- Eliminar todos los paquetes y dependencias no utilizados de tu sistema:
+- Elimina todos los paquetes y dependencias no utilizados de tu sistema:
 
 `sudo nala autoremove`
 
