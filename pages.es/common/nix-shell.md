@@ -6,6 +6,6 @@
 
 `tldr nix-shell.2`
 
-- Ver la documentación para el shell de nix3:
+- Vea la documentación para el shell de nix3:
 
 `tldr nix shell.3`
