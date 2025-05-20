@@ -1,6 +1,6 @@
 # nix-collect-garbage
 
-> Elimina rutas del almacén de nix desusados y inalcanzables.
+> Elimina rutas del almacén de nix desusados o inalcanzables.
 > Las generaciones se pueden listar usando `nix-env --list-generations`.
 > Más información: <https://nixos.org/manual/nix/stable/command-ref/nix-collect-garbage.html>.
 
