@@ -19,7 +19,7 @@
 
 `nix profile remove {{legacyPackages.x86_64-linux.pkg}}`
 
-- Actualiza paquetes en el predeterminado a la versión más reciente disponible:
+- Actualiza paquetes en el perfil predeterminado a la versión más reciente disponible:
 
 `nix profile upgrade`
 
