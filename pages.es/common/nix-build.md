@@ -2,7 +2,7 @@
 
 > `nix-build` puede referirse a múltiples comandos con el mismo nombre.
 
-- Ver la documentación para el constructor tradicional:
+- Vea la documentación para el constructor tradicional:
 
 `tldr nix-build.2`
 
