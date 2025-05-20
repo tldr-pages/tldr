@@ -24,6 +24,6 @@
 
 `nix-shell {{[-p|--packages]}} {{paquete1 paquete2 ...}} {{[-I|--include]}} nixpkgs={{https://github.com/NixOS/nixpkgs/archive/revision_de_nixpkgs.tar.gz}}`
 
-- Evalua el resto de un archivo en un interpretador, para usarse con `#!-scripts` (ver también <https://nixos.org/manual/nix/stable/#use-as-a-interpreter>):
+- Evalua el resto de un archivo en un interpretador, para usarse con `#!-scripts` (vea también <https://nixos.org/manual/nix/stable/#use-as-a-interpreter>):
 
 `nix-shell -i {{interpretador}} {{[-p|--packages]}} {{paquete1 paquete2 ...}}`
