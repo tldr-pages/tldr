@@ -27,7 +27,7 @@
 
 `sudo nixos-rebuild test`
 
-- Construye la configuración nueva y ábrela en un hipervisor:
+- Construye la configuración nueva y la abre en un hipervisor:
 
 `sudo nixos-rebuild build-vm`
 
