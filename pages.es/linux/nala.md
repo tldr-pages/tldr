@@ -12,7 +12,7 @@
 
 `sudo nala remove {{paquete}}`
 
-- Desinstalar un paquete y borrar sus archivos de configuración:
+- Desinstala un paquete y borra sus archivos de configuración:
 
 `nala purge {{paquete}}`
 
