@@ -20,7 +20,7 @@
 
 `nala search "{{patrón}}"`
 
-- Actualizar la lista de paquetes disponibles e instalar las actualizaciones:
+- Actualiza la lista de paquetes disponibles e instala las actualizaciones:
 
 `sudo nala upgrade`
 
