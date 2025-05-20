@@ -1,7 +1,7 @@
 # nix run
 
 > Nix 플레이크에서 애플리케이션 실행.
-> 같이 보기: 플레이크에 대한 정보는 `nix3 flake`.
+> 같이 보기: 플레이크에 대한 정보는 `nix flake`.
 > 더 많은 정보: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-run.html>.
 
 - 현재 디렉토리의 플레이크에서 기본 애플리케이션 실행:

@@ -1,7 +1,7 @@
 # ruby
 
 > Interpreter bahasa pemrograman Ruby.
-> Informasi lebih lanjut: <https://www.ruby-lang.org>.
+> Informasi lebih lanjut: <https://manned.org/ruby>.
 
 - Jalankan suatu berkas skrip atau program Ruby:
 
