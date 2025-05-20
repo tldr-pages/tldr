@@ -24,6 +24,6 @@
 
 `nixpkgs-review wip`
 
-- Construye paquetes cambiados que hayan sido añadido a git:
+- Construye paquetes cambiados que hayan sido añadidos a git:
 
 `nixpkgs-review wip --staged`
