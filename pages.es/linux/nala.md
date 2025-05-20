@@ -28,7 +28,7 @@
 
 `sudo nala autoremove`
 
-- Búsqueda de los mirrors más rápidos para mejorar tiempos de descarga:
+- Búsqueda de los espejos más rápidos para mejorar tiempos de descarga:
 
 `sudo nala fetch`
 
