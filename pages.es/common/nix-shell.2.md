@@ -1,7 +1,7 @@
 # nix-shell
 
 > Inicia un shell interactivo basado on una expresión de Nix.
-> Ver también: `nix shell.3`.
+> Vea también: `nix shell.3`.
 > Más información: <https://nixos.org/manual/nix/stable/command-ref/nix-shell.html>.
 
 - Inicia con una expresión de nix en `shell.nix` o `default.nix` del directorio actual:
