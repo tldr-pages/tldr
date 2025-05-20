@@ -1,0 +1,36 @@
+# nixos-rebuild
+
+> Reconfigura una máquina de NixOS.
+> Más información: <https://nixos.org/nixos/manual/#sec-changing-config>.
+
+- Construye y cambia a la configuración nueva, haciéndola la predeterminada al arrancar el sistema:
+
+`sudo nixos-rebuild switch`
+
+- Construye y cambia a la configuración nueva, haciéndola la predeterminada al arrancar el sistema (con un nombre):
+
+`sudo nixos-rebuild switch {{[-p|--profile-name]}} {{nombre}}`
+
+- Construye y cambia a la configuración nueva, haciéndola la predeterminada al arrancar el sistema e instalando actualizaciones:
+
+`sudo nixos-rebuild switch --upgrade`
+
+- Revierte cambios a la configuración, cambiando a la generación previa:
+
+`sudo nixos-rebuild switch --rollback`
+
+- Construye la configuración nueva y hazla predeterminada sin cambiar a ella:
+
+`sudo nixos-rebuild boot`
+
+- Construye y activa la configuración nueva, pero no la hagas la entrada de arranque predeterminada (para fines de prueba):
+
+`sudo nixos-rebuild test`
+
+- Construye la configuración nueva y ábrela en un hipervisor:
+
+`sudo nixos-rebuild build-vm`
+
+- Lista generaciones dispoinibles similarmente al menú del cargador de arranque:
+
+`nixos-rebuild list-generations`

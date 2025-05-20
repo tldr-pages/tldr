@@ -1,0 +1,11 @@
+# nix-build
+
+> `nix-build` puede referirse a múltiples comandos con el mismo nombre.
+
+- Ver la documentación para el constructor tradicional:
+
+`tldr nix-build.2`
+
+- Ver la documentación para el constructor nix3:
+
+`tldr nix build.3`
