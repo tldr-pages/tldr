@@ -11,7 +11,7 @@
 
 `nix profile install {{github:dueño/repositorio/paquete}} --profile {{./ruta/al/directorio}}`
 
-- Lista paquetes instalados actualmente en el perfil predeterminado:
+- Lista los paquetes instalados actualmente en el perfil predeterminado:
 
 `nix profile list`
 
