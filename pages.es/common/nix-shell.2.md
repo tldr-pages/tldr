@@ -8,7 +8,7 @@
 
 `nix-shell`
 
-- Ejecuta un comando de shell en un shell no interactivo y salir:
+- Ejecuta un comando de shell en un shell no interactivo y sale:
 
 `nix-shell --run "{{comando}} {{argumento1 argumento2 ...}}"`
 
