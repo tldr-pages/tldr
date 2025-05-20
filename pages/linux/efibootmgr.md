@@ -17,7 +17,7 @@
 
 - Change the current boot order:
 
-`sudo efibootmgr {{[-o|--bootorder]}} {{0002,0008,0001,0005}}`
+`sudo efibootmgr {{[-o|--bootorder]}} {{0002,0008,0001,001A,...}}`
 
 - Delete a boot option:
 
