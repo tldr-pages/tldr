@@ -8,7 +8,7 @@
 
 `sudo nala install {{paquete}}`
 
-- Desinstalar un paquete:
+- Desinstala un paquete:
 
 `sudo nala remove {{paquete}}`
 
