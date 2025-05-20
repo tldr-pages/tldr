@@ -8,7 +8,7 @@
 
 `nix registry pin {{nixpkgs}}`
 
-- Fija una entrada a la versión actual de la rama, o una reivisión particular de un repositorio de GitHub:
+- Fija una entrada a la versión actual de la rama, o una revisión particular de un repositorio de GitHub:
 
 `nix registry pin {{entrada}} {{github:dueño/repositorio/rama_o_revisión}}`
 
