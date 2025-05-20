@@ -31,6 +31,6 @@
 
 `sudo nixos-rebuild build-vm`
 
-- Lista generaciones dispoinibles similarmente al menú del cargador de arranque:
+- Lista generaciones disponibles similarmente al menú del cargador de arranque:
 
 `nixos-rebuild list-generations`
