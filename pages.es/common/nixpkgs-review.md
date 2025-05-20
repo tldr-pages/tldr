@@ -8,7 +8,7 @@
 
 `nixpkgs-review pr {{número_de_solicitud|url_de_solicitud}}`
 
-- Construye paquetes cambiados y publica un comentario con un reporte (requiere armar un token en `hub`, `gh`, o la `GITHUB_TOKEN` variable del entorno):
+- Construye paquetes cambiados y publica un comentario con un reporte (requiere armar un token en `hub`, `gh`, o la variable del entorno `GITHUB_TOKEN`):
 
 `nixpkgs-review pr --post-result {{número_de_solicitud|url_de_solicitud}}`
 
