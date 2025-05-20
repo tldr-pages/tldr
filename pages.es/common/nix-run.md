@@ -20,7 +20,7 @@
 
 `nix run {{nombre_de_remoto}}:{{dueño}}/{{repositorio}}`
 
-- Ejecuta desde un repositorio remoto usando una etiqueta específica, revisión, o rama:
+- Ejecuta desde un repositorio remoto usando una etiqueta específica, revisión o rama:
 
 `nix run {{nombre_de_remoto}}:{{dueño}}/{{repositorio}}/{{referencia}}`
 
