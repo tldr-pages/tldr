@@ -1,6 +1,6 @@
 # nix-store
 
-> Manipula o buscar en el almacén de Nix.
+> Manipula o busca en el almacén de Nix.
 > Ver también: `nix store.3`.
 > Más información: <https://nixos.org/manual/nix/stable/command-ref/nix-store.html>.
 
