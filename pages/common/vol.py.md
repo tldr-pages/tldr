@@ -6,20 +6,20 @@
 
 - Get information about a memory dump file:
 
-`python3 vol.py -f {{path/to/memory_dump_file}} windows.info`
+`python3 vol.py {{[-f|--filename]}} {{path/to/memory_dump_file}} windows.info`
 
 - List active processes:
 
-`python3 vol.py -f {{path/to/ memory_dump_file}} windows.pslist`
+`python3 vol.py {{[-f|--filename]}} {{path/to/memory_dump_file}} windows.pslist`
 
 - List hashes of users on system:
 
-`python3 vol.py -f {{path/to/ memory_dump_file}} windows.hashdump`
+`python3 vol.py {{[-f|--filename]}} {{path/to/memory_dump_file}} windows.hashdump`
 
 - List active network connections:
 
-`python3 vol.py -f {{path/to/ memory_dump_file}} windows.netstat`
+`python3 vol.py {{[-f|--filename]}} {{path/to/memory_dump_file}} windows.netstat`
 
 - Display help:
 
-`python3 vol.py -h`
+`python3 vol.py {{[-h|--help]}}`
