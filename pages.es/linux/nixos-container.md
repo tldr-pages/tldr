@@ -23,6 +23,6 @@
 
 `sudo $EDITOR /var/lib/container/{{nombre_del_contenedor}}/etc/nixos/configuration.nix && sudo nixos-container update {{nombre_del_contenedor}}`
 
-- Entra una sesión de shell interactivo en un contenedor que ya está activo:
+- Entra a una sesión de shell interactivo en un contenedor que ya está activo:
 
 `sudo nixos-container root-login {{nombre_del_contenedor}}`
