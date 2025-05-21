@@ -13,7 +13,7 @@
 
 - Specify domain (e.g., package, program, module):
 
-`gettext {{[-d textdomain|--domain=textdomain|--domain textdomain]}}`
+`gettext {{[-d|--domain]}} {{textdomain}}`
 
 - Display help:
 
