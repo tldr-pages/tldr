@@ -17,7 +17,7 @@
 
 - Continúa con los comandos del siguiente patrón sin comprobar el patrón:
 
-`case {{$ANIMAL}} in {{gato}}) echo "Es un gato" ;& {{perro}}) echo "O es un perro o es un gato" ;& *) echo «Fallback» ;; esac`
+`case {{$ANIMAL}} in {{gato}}) echo "Es un gato" ;& {{perro}}) echo "O es un perro o es un gato" ;& *) echo "Fallback" ;; esac`
 
 - Muestra la ayuda:
 
