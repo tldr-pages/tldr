@@ -11,10 +11,10 @@
 
 `gettext {{[-h|--help]}}`
 
-- Use context to disambiguate
+- Use context to disambiguate:
 
 `gettext {{[-c context|--context=context]}}`
 
-- Specify domain (e.g., package, program, module)
+- Specify domain (e.g., package, program, module):
 
 `gettext {{[-d textdomain|--domain=textdomain]}}`
