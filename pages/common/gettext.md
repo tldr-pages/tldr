@@ -7,14 +7,14 @@
 
 `LANGUAGE={{locale}} gettext {{msgid}} {{default_value}}`
 
-- Display help:
-
-`gettext {{[-h|--help]}}`
-
 - Use context to disambiguate:
 
-`gettext {{[-c context|--context=context]}}`
+`gettext {{[-c context|--context=context|--context context]}}`
 
 - Specify domain (e.g., package, program, module):
 
-`gettext {{[-d textdomain|--domain=textdomain]}}`
+`gettext {{[-d textdomain|--domain=textdomain|--domain textdomain]}}`
+
+- Display help:
+
+`gettext {{[-h|--help]}}`
