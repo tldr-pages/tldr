@@ -10,3 +10,11 @@
 - Display help:
 
 `gettext {{[-h|--help]}}`
+
+- Use context to disambiguate
+
+`gettext {{[-c context|--context=context]}}`
+
+- Specify domain (e.g., package, program, module)
+
+`gettext {{[-d textdomain|--domain=textdomain]}}`
