@@ -2,6 +2,7 @@
 
 > Takes a string and tries to return the translated version based on your current language and app settings.
 > If no translation exists, it returns in English.
+> See also: `msgfmt`.
 > More information: <https://www.gnu.org/software/gettext/manual/html_node/gettext-Invocation.html>.
 
 - Get the translation of a string, or output a default string if no translation exists:
