@@ -6,20 +6,20 @@
 
 - List AKS clusters:
 
-`az aks list --resource-group {{resource_group}}`
+`az aks list {{[-g|--resource-group]}} {{resource_group}}`
 
 - Create a new AKS cluster:
 
-`az aks create --resource-group {{resource_group}} --name {{name}} --node-count {{count}} --node-vm-size {{size}}`
+`az aks create {{[-g|--resource-group]}} {{resource_group}} {{[-n|--name]}} {{name}} {{[-c|--node-count]}} {{count}} --node-vm-size {{size}}`
 
 - Delete an AKS cluster:
 
-`az aks delete --resource-group {{resource_group}} --name {{name}}`
+`az aks delete {{[-g|--resource-group]}} {{resource_group}} {{[-n|--name]}} {{name}}`
 
 - Get the access credentials for an AKS cluster:
 
-`az aks get-credentials --resource-group {{resource_group}} --name {{name}}`
+`az aks get-credentials {{[-g|--resource-group]}} {{resource_group}} {{[-n|--name]}} {{name}}`
 
 - Get the upgrade versions available for an AKS cluster:
 
-`az aks get-upgrades --resource-group {{resource_group}} --name {{name}}`
+`az aks get-upgrades {{[-g|--resource-group]}} {{resource_group}} {{[-n|--name]}} {{name}}`

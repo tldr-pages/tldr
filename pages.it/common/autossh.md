@@ -2,7 +2,7 @@
 
 > Esegue, monitora e riavvia connessioni SSH.
 > Si riconnette automaticamente per tenere attivi tunnel di port forwarding. Accetta tutte le flag di SSH.
-> Maggiori informazioni: <https://www.harding.motd.ca/autossh>.
+> Maggiori informazioni: <https://manned.org/autossh>.
 
 - Apri una sessione SSH, riavviandola quando una porta monitorata smette di rispondere:
 

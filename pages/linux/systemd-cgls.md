@@ -13,4 +13,4 @@
 
 - Display the control group hierarchy of one or more systemd units:
 
-`systemd-cgls --unit {{unit1 unit2 ...}}`
+`systemd-cgls {{[-u|--unit]}} {{unit1 unit2 ...}}`

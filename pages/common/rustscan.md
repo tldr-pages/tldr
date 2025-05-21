@@ -1,7 +1,8 @@
 # rustscan
 
-> Fast Port Scanner written in Rust with `nmap` built in.
-> More information: <https://github.com/RustScan/RustScan>.
+> Modern Port Scanner written in Rust.
+> Note: `nmap` must be installed for some of the examples below to work.
+> More information: <https://github.com/bee-san/RustScan/wiki>.
 
 - Scan all ports of one or more comma-delimited addresses using the default values:
 
@@ -17,11 +18,11 @@
 
 - Scan a specific range of ports:
 
-`rustscan {{[-r|--range]}} {{start-end}} {{[-a|--addresses]}} {{address_or_addresses}}`
+`rustscan {{[-r|--range]}} {{start}}-{{end}} {{[-a|--addresses]}} {{address_or_addresses}}`
 
-- Add script arguments to `nmap`:
+- Invoke `nmap` functionalities (Nmap's OS detection and default scripts):
 
-`rustscan {{[-a|--addresses]}} {{address_or_addresses}} -- -A -sC`
+`rustscan {{[-a|--addresses]}} {{address_or_addresses}} -- -O {{[-sC|--script=default]}}`
 
 - Scan with custom batch size (default: 4500) and timeout (default: 1500ms):
 

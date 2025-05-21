@@ -10,12 +10,12 @@
 
 - Specify an image policy:
 
-`systemd-machine-id-setup --image-policy={{your_policy}}`
+`systemd-machine-id-setup --image-policy {{your_policy}}`
 
 - Display the output as JSON:
 
-`sudo systemd-machine-id-setup --json=pretty`
+`sudo systemd-machine-id-setup --json pretty`
 
 - Operate on a disk image instead of a directory tree:
 
-`systemd-machine-id-setup --image={{/path/to/image}}`
+`systemd-machine-id-setup --image {{/path/to/image}}`

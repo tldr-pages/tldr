@@ -9,11 +9,11 @@
 
 - Automatically approve and perform the update after previewing it:
 
-`pulumi up --yes`
+`pulumi up {{[-y|--yes]}}`
 
 - Preview and deploy changes in a specific stack:
 
-`pulumi up --stack {{stack}}`
+`pulumi up {{[-s|--stack]}} {{stack}}`
 
 - Don't display stack outputs:
 

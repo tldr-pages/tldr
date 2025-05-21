@@ -1,7 +1,7 @@
 # code
 
 > Editor de código extensible y multiplataforma.
-> Más información: <https://github.com/microsoft/vscode>.
+> Más información: <https://code.visualstudio.com/docs/configure/command-line>.
 
 - Inicia Visual Studio Code:
 
