@@ -1,7 +1,7 @@
 # ascii
 
 > ASCII எழுத்து மாற்றுப்பெயர்களைக் காட்டு.
-> மேலும் விவரத்திற்கு: <http://www.catb.org/~esr/ascii/>.
+> மேலும் விவரத்திற்கு: <http://www.catb.org/~esr/ascii/ascii.html>.
 
 - ஒரு எழுத்தின் ASCII மாற்றுப்பெயர்களைக் காட்டு:
 
