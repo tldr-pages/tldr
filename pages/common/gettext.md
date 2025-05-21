@@ -3,7 +3,7 @@
 > Takes a string and tries to return the translated version based on your current language and app settings.
 > By default, gettext looks for translations here: '<LOCALEDIR>/<LANG>/LC_MESSAGES/<domain>.mo'.
 > For example, gettext would look for a Spanish translation file called asd.mo in 'locale/es/LC_MESSAGES/asd.mo'.
-> Note that gettext looks in the global 'messages' domain. If you want to use any other domain, you need to use the 'context' or 'textdomain' optional flags.
+> Note that gettext looks in the global 'messages' domain. If you want to use any other domain, you need to use the 'context' or 'textdomain' optional flags. 
 > If no translation exists when gettext is invoked, it returns in English.
 > See also: `msgfmt`.
 > More information: <https://www.gnu.org/software/gettext/manual/html_node/gettext-Invocation.html>.
@@ -16,7 +16,7 @@
 
 `gettext {{[-c|--context]}} {{context}}`
 
-- Specify the domain (e.g., package, program, module) you want gettext to look inside for the translation:
+- Specify the domain (e.g., package, program, module - the namespace or "filename") you want gettext to look inside for the translation:
 
 `gettext {{[-d|--domain]}} {{textdomain}}`
 
