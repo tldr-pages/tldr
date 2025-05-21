@@ -9,7 +9,7 @@
 
 - Use context to disambiguate:
 
-`gettext {{[-c context|--context=context|--context context]}}`
+`gettext {{[-c|--context]}} {{context}}`
 
 - Specify domain (e.g., package, program, module):
 
