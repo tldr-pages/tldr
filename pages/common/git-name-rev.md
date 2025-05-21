@@ -3,7 +3,7 @@
 > Describe a commit using existing ref names.
 > More information: <https://git-scm.com/docs/git-name-rev>.
 
-- Show name for HEAD:
+- Show the name for HEAD:
 
 `git name-rev HEAD`
 
@@ -19,7 +19,7 @@
 
 `git name-rev --tags HEAD`
 
-- Prevent ‘undefined’ output for unknown commits:
+- Prevent `undefined` output for unknown commits:
 
 `git name-rev --no-undefined {{commit-ish}}`
 
@@ -31,6 +31,6 @@
 
 `git name-rev --refs refs/heads/ {{commit-ish}}`
 
-- Read commit IDs from standard input:
+- Read commit IDs from `stdin`:
 
 `echo "{{commit-ish}}" | git name-rev --annotate-stdin`
