@@ -22,7 +22,7 @@
 
 - Create a new archive from specified files and/or directories:
 
-`atool {{[-a|--add]}} {{new_archive.zip}} {{file1.txt}} {{directory_name}}`
+`atool {{[-a|--add]}} {{new_archive.zip}} {{path/to/file1 path/to/file2 ...}}`
 
 - List files in an archive and send the output through a pager:
 
