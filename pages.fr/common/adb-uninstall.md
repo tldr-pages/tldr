@@ -1,6 +1,6 @@
 # adb uninstall
 
-> Désinstalle un paquet.
+> Désinstalle un paquet d'une instance d'émulateur Android ou d'un appareil Android.
 > Plus d'information : <https://manned.org/adb>.
 
 - Désinstalle un paquet :
