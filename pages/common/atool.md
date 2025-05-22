@@ -2,7 +2,7 @@
 
 > A script for managing file archives of various types.
 > `atool` uses external archiver programs but provides a consistent command-line interface for listing, extracting, creating, and managing archives.
-> More information: <https://savannah.nongnu.org/projects/atool/>.
+> More information: <https://manned.org/atool>.
 
 - List files in an archive:
 
