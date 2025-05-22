@@ -1,7 +1,7 @@
 # fadvise
 
 > Control Linux file caching behavior.
-> See also: fincore.
+> See also: `fincore`.
 > More information: <https://manned.org/fadvise>.
 
 - Preload a file or directory into cache:
