@@ -1,7 +1,7 @@
 # diff
 
 > 比较文件或目录。
-> 更多信息: <https://manned.org/diff>.
+> 更多信息：<https://manned.org/diff>.
 
 - 比较文件 （列出从`原文件`到`新文件`的修改）：
 
