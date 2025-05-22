@@ -2,7 +2,7 @@
 
 > 저장소 커밋 및 태그에서 변경 로그 보고서를 생성.
 > `git-extras`의 일부.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-changelog>.
+> 더 많은 정보: <https://manned.org/git-changelog>.
 
 - 최신 Git 태그 이후의 커밋 메시지로 기존 파일을 업데이트하거나 새 `History.md` 파일을 생성:
 
