@@ -4,7 +4,7 @@
 > Vea también: `lvm`.
 > Mas Informacion: <https://manned.org/lvdisplay>.
 
-- Mostrar informacion sobre todos los volumenes logicos:
+- Muestra información sobre todos los volúmenes lógicos:
 
 `sudo lvdisplay`
 
