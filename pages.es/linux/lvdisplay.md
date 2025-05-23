@@ -8,7 +8,7 @@
 
 `sudo lvdisplay`
 
-- Mostrar informacion sobre todos los volumenes logicos dentro del grupo de volumenes vg1:
+- Muestra información sobre todos los volúmenes lógicos dentro del grupo de volúmenes vg1:
 
 `sudo lvdisplay {{vg1}}`
 
