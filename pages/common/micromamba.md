@@ -8,10 +8,6 @@
 
 `micromamba create -p {{/path/to/env}} {{python=3.11 numpy}}`
 
-- Create a new environment by name:
-
-`micromamba create -n {{env_name}} {{python=3.11 matplotlib}}`
-
 - Activate an environment by name or path:
 
 `micromamba activate {{env_name}}`
@@ -26,21 +22,9 @@
 
 `micromamba install {{scipy pandas}}`
 
-- Update packages in the current environment:
-
-`micromamba update {{package_name}}`
-
-- Remove packages from the current environment:
-
-`micromamba remove {{package_name}}`
-
 - List all installed packages in the current environment:
 
 `micromamba list`
-
-- List all environments:
-
-`micromamba env list`
 
 - Search for packages in channels or current environment:
 
@@ -50,18 +34,6 @@
 
 `micromamba repoquery depends -t {{package_name}}`
 
-- Clean unused packages and caches:
-
-`micromamba clean --all`
-
-- Generate shell init scripts for activation support (e.g., for bash):
-
-`micromamba shell init -s {{bash}} -p {{~/.micromamba}}`
-
 - Show information about the current micromamba setup:
 
 `micromamba info`
-
-- Update micromamba itself:
-
-`micromamba self-update`
