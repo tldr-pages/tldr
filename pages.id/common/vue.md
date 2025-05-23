@@ -2,7 +2,7 @@
 
 > CLI serba guna untuk Vue.js.
 > Beberapa subperintah seperti `build` mempunyai dokumentasi terpisah.
-> Informasi lebih lanjut: <https://cli.vuejs.org>.
+> Informasi lebih lanjut: <https://cli.vuejs.org/guide/>.
 
 - Buat proyek vue baru secara interaktif:
 
