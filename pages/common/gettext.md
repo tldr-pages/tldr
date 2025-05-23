@@ -12,6 +12,6 @@
 
 `LANGUAGE={{locale}} gettext {{[-d|--domain]}} {{domain}} {{msgid}}`
 
-- Display [h]elp:
+- Display help:
 
 `gettext {{[-h|--help]}}`
