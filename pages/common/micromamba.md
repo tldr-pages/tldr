@@ -10,12 +10,10 @@
 
 - Activate an environment by name or path:
 
-`micromamba activate {{env_name}}`
 `micromamba activate -p {{/path/to/env}}`
 
 - Run a command inside an environment without activating it in the shell:
 
-`micromamba run -n {{env_name}} {{python script.py}}`
 `micromamba run -p {{/path/to/env}} {{pytest tests/}}`
 
 - Install packages into the currently active environment:
