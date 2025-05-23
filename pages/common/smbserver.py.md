@@ -19,9 +19,9 @@
 
 `smbserver.py -hashes {{LMHASH}}:{{NTHASH}} {{sharename}} {{path/to/share}}`
 
-- Set up a share on a specific IP address:
+- Set up a share on a specific interface:
 
-`smbserver.py -ip {{ip_address}} {{sharename}} {{path/to/share}}`
+`smbserver.py {{[-ip|--interface-address]}} {{interface_ip_address}} {{sharename}} {{path/to/share}}`
 
 - Set up a share on a non-standard SMB port:
 
