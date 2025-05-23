@@ -12,6 +12,6 @@
 
 `sudo lvdisplay {{vg1}}`
 
-- Mostrar informacion sobre volumen logico lv1 dentro del grupo de volumenes vg1:
+- Muestra información sobre volumen lógico lv1 dentro del grupo de volúmenes vg1:
 
 `sudo lvdisplay {{vg1/lv1}}`
