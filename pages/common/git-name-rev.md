@@ -19,7 +19,7 @@
 
 `git name-rev --tags HEAD`
 
-- Prevent `undefined` output for unknown commits:
+- Exit with a non-zero status code instead of printing `undefined` for unknown commits:
 
 `git name-rev --no-undefined {{commit-ish}}`
 
