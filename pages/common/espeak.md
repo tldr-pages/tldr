@@ -1,6 +1,6 @@
 # espeak
 
-> Uses text-to-speech to speak through the default sound device.
+> Use text-to-speech to speak through the default sound device.
 > More information: <https://espeak.sourceforge.net>.
 
 - Speak a phrase aloud:

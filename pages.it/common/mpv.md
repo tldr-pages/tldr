@@ -1,7 +1,7 @@
 # mpv
 
 > Un player audio/video basato su MPlayer.
-> Maggiori informazioni: <https://mpv.io>.
+> Maggiori informazioni: <https://mpv.io/manual/stable/>.
 
 - Riproduci un file video o audio:
 
