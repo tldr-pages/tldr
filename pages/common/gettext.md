@@ -19,4 +19,4 @@
 
 - Display gettext version:
 
-`gettext {{[-v|--version]}}`
+`gettext {{[-V|--version]}}`
