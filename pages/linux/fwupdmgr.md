@@ -1,6 +1,7 @@
 # fwupdmgr
 
 > Update device firmware, including UEFI, using `fwupd`.
+> See also: `fwupdtool`.
 > More information: <https://fwupd.org/>.
 
 - Display all devices detected by fwupd:
