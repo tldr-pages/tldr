@@ -14,7 +14,7 @@
 
 - Create a new `gpt` partition table with a 500MiB boot partition and give the rest for the system partition:
 
-`sudo parted {{/dev/sdX}} {{[-s|--script]}} mklabel gpt mkpart primary 0% 500MiB mkpart primary 500MiB 100%`
+`sudo parted {{/dev/sdX}} {{[-s|--script]}} mklabel gpt mkpart {{boot}} 0% 500MiB mkpart {{system}} 500MiB 100%`
 
 - Start interactive mode with the specified disk selected:
 
