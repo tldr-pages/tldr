@@ -8,7 +8,7 @@
 > See also: `msgfmt`, `msgunfmt`.
 > More information: <https://www.gnu.org/software/gettext/manual/html_node/gettext-Invocation.html>.
 
-- Get the translation of a string as specified in the [d]omain file (falls back to original if no translation exists):
+- Get the translation of a string as specified in the domain file (falls back to given `msgid` if no translation exists):
 
 `LANGUAGE={{locale}} gettext {{[-d|--domain]}} {{domain}} {{msgid}}`
 
