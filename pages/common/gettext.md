@@ -11,7 +11,7 @@
 
 - Surpress the trailing newline gettext generates in output:
 
-`gettext {{[-n]}}`
+`gettext -n`
 
 - Display help:
 
