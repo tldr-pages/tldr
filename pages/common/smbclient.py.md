@@ -29,8 +29,8 @@
 
 - Execute commands from an input file in the SMB shell:
 
-`smbclient.py -inputfile {{input_file}} {{domain}}/{{username}}:{{password}}@{{target}}`
+`smbclient.py -inputfile {{path/to/input_file}} {{domain}}/{{username}}:{{password}}@{{target}}`
 
 - Log SMB client commands to an output file:
 
-`smbclient.py -outputfile {{output_file}} {{domain}}/{{username}}:{{password}}@{{target}}`
+`smbclient.py -outputfile {{path/to/output_file}} {{domain}}/{{username}}:{{password}}@{{target}}`
