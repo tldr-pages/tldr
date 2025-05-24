@@ -2,7 +2,7 @@
 
 > Create a Git branch in a repository.
 > Part of `git-extras`.
-> More information: <https://manned.org/man/git-create-branch>.
+> More information: <https://manned.org/git-create-branch>.
 
 - Create a local branch:
 

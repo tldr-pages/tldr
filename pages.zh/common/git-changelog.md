@@ -2,7 +2,7 @@
 
 > 从仓库提交和标签生成变更日志报告。
 > 属于 `git-extras` 的一部分。
-> 更多信息：<https://github.com/tj/git-extras/blob/master/Commands.md#git-changelog>.
+> 更多信息：<https://manned.org/git-changelog>.
 
 - 更新现有文件或创建新的 `History.md` 文件，包含自最新 Git 标签以来的提交信息：
 
