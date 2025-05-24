@@ -11,7 +11,7 @@
 
 - Surpress the trailing newline gettext generates in output:
 
-`gettext -n`
+`LANGUAGE={{locale}} gettext -n {{[-d|--domain]}} {{domain}} "{{msgid}}"`
 
 - Display help:
 
