@@ -1,7 +1,7 @@
 # git subtree
 
 > Proje bağımlılıklarını alt proje olarak yönetmeye yarayan bir araç.
-> Daha fazla bilgi için: <https://manpages.debian.org/latest/git-man/git-subtree.1.html>.
+> Daha fazla bilgi için: <https://manned.org/git-subtree>.
 
 - Bir Git deposunu alt ağaç olarak ekle:
 
