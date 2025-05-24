@@ -10,7 +10,7 @@
 
 - Activate an environment by name or path:
 
-`micromamba activate -p {{/path/to/env}}`
+`micromamba activate {{[-p|--prefix]}} {{/path/to/env}}`
 
 - Run a command inside an environment without activating it in the shell:
 
