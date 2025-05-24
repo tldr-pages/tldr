@@ -4,7 +4,7 @@
 > See also: `fwupdmgr`.
 > More information: <https://github.com/fwupd/fwupd/blob/main/src/fwupdtool.md>.
 
-- Display all devices detected by fwupd:
+- Display all devices detected by `fwupd`:
 
 `fwupdtool get-devices`
 
