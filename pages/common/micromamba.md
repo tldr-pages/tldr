@@ -2,7 +2,7 @@
 
 > A fast, minimal, standalone package and environment manager for conda packages.
 > Drop-in replacement for conda, ideal for CI, Docker, and lightweight setups.
-> More information: <https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html>.
+> More information: <https://manned.org/micromamba>.
 
 - Create a new environment at a specific path, installing named packages into it:
 
