@@ -33,4 +33,4 @@
 
 - Set up a share and log commands to an output file:
 
-`smbserver.py -outputfile {{output_file}} {{sharename}} {{path/to/share}}`
+`smbserver.py -outputfile {{path/to/output_file}} {{sharename}} {{path/to/share}}`
