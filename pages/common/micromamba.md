@@ -30,7 +30,7 @@
 
 - Query tree-like dependencies of a package:
 
-`micromamba repoquery depends -t {{package_name}}`
+`micromamba repoquery depends {{[-t|--tree]}} {{package_name}}`
 
 - Show information about the current micromamba setup:
 
