@@ -1,7 +1,7 @@
 # sqlite3
 
 > SQLite 3의 명령줄 인터페이스로, 자체 포함 파일 기반 임베디드 SQL 엔진입니다.
-> 더 많은 정보: <https://sqlite.org>.
+> 더 많은 정보: <https://sqlite.org/cli.html>.
 
 - 새 데이터베이스로 대화형 셸 시작:
 
