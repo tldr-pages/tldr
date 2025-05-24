@@ -14,7 +14,7 @@
 
 - Run a command inside an environment without activating it in the shell:
 
-`micromamba run -p {{/path/to/env}} {{pytest tests/}}`
+`micromamba run {{[-p|--prefix]}} {{/path/to/env}} {{pytest tests/}}`
 
 - Install packages into the currently active environment:
 
