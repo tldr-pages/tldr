@@ -12,7 +12,7 @@
 
 `sudo parted {{/dev/sdX}} mklabel {{aix|amiga|bsd|dvh|gpt|loop|mac|msdos|pc98|sun}}`
 
-- Create a new `gpt` partition table with a 500MiB boot partition and give the rest for the system partition (`--script` prevents user intervention prompts):
+- Create a new `gpt` partition table with a 500MiB boot partition and give the rest for the system partition (`--script` skips user intervention prompts):
 
 `sudo parted {{/dev/sdX}} {{[-s|--script]}} mklabel gpt mkpart "{{boot_partition_name}}" 0% 500MiB mkpart "{{system_partition_name}}" 500MiB 100%`
 
