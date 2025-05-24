@@ -1,6 +1,6 @@
 # ssh
 
-> Secure Shell is een protocol waarmee je op een veilige manier kunt inloggen op externe systemen.
+> Secure Shell is een protocol waarmee op een veilige manier ingelogd kan worden op externe systemen.
 > Het kan gebruikt worden voor het loggen of uitvoeren van opdrachten op een externe server.
 > Meer informatie: <https://man.openbsd.org/ssh>.
 
