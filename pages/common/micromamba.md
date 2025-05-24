@@ -6,7 +6,7 @@
 
 - Create a new environment at a specific path, installing named packages into it:
 
-`micromamba create -p {{/path/to/env}} {{python=3.11 numpy}}`
+`micromamba create {{[-p|--prefix]}} {{/path/to/env}} {{python=3.11 numpy}}`
 
 - Activate an environment by name or path:
 
