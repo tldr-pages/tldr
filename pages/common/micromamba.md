@@ -32,6 +32,6 @@
 
 `micromamba repoquery depends {{[-t|--tree]}} {{package_name}}`
 
-- Show information about the current micromamba setup:
+- Show information about the current `micromamba` setup:
 
 `micromamba info`
