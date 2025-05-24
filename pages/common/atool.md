@@ -14,7 +14,7 @@
 
 - Extract an archive to a specific directory:
 
-`atool -X {{path/to/output_directory}} {{archive.rar}}`
+`atool {{[-X|--extract-to]}} {{path/to/output_directory}} {{archive.rar}}`
 
 - Display a specific file's content from an archive to standard output (like `cat`):
 
