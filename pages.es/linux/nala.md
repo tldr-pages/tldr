@@ -2,7 +2,7 @@
 
 > Gestor de paquetes con interfaz moderna.
 > Interfaz para la API `python-apt`.
-> Más informacion: <https://gitlab.com/volian/nala>.
+> Más información: <https://gitlab.com/volian/nala>.
 
 - Instala un paquete o lo actualiza a la última versión disponible:
 
