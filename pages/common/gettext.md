@@ -7,7 +7,7 @@
 
 - Get the translation of a string as specified in the domain file (falls back to given `msgid` if no translation exists):
 
-`LANGUAGE={{locale}} gettext {{[-d|--domain]}} {{domain}} {{msgid}}`
+`LANGUAGE={{locale}} gettext {{[-d|--domain]}} {{domain}} "{{msgid}}"`
 
 - Suppress the trailing newline gettext generates in output:
 
