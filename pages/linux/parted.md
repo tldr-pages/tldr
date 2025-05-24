@@ -18,7 +18,7 @@
 
 - Set a partition to have its boot flag turned on:
 
-`sudo parted {{/dev/sdX}} set {{1}} boot on` 
+`sudo parted {{/dev/sdX}} set {{1}} boot on`
 
 - Start interactive mode with the specified disk selected:
 
