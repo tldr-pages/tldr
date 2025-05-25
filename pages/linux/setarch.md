@@ -16,7 +16,7 @@
 
 `setarch {{linux32}} {{[-R|--addr-no-randomize]}} {{command}}`
 
-- List supported architectures by `setarch`:
+- List supported architectures:
 
 `setarch --list`
 
