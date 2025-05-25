@@ -23,6 +23,6 @@
 
 `iwctl station {{station}} connect {{network_name}}`
 
-- Call general help:
+- Display help:
 
 `iwctl {{[-h|--help]}}`
