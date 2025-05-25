@@ -23,6 +23,6 @@
 
 `iwctl station {{站点}} connect {{网络名称}}`
 
-- 调用一般帮助：
+- 显示帮助：
 
 `iwctl {{[-h|--help]}}`
