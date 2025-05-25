@@ -14,7 +14,7 @@
 
 - Run a prompt with automatic approval of all file edits and commands:
 
-`codex --approval-mode full-auto "{{your prompt}}"`
+`codex {{[-a|--approval-mode]}} full-auto "{{your prompt}}"`
 
 - Use a specific provider and model:
 
