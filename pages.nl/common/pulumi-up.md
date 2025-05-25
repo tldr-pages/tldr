@@ -1,6 +1,6 @@
 # pulumi up
 
-> Creëer of update the bronnen in een stack.
+> Creëer of update de bronnen in een stack.
 > Meer informatie: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_up/>.
 
 - Bekijk en implementeer wijzigingen in een programma en/of infrastructuur:
