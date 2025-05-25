@@ -11,7 +11,7 @@
 
 `pulumi destroy {{[-s|--stack]}} {{stack}}`
 
-- Keur automatisch bronnen goed en vernietigen deze voorvertoning:
+- Keur automatisch bronnen goed en vernietig deze na voorvertoning:
 
 `pulumi destroy {{[-y|--yes]}}`
 
