@@ -18,7 +18,7 @@
 
 - Use a specific provider and model:
 
-`codex --provider {{provider_name}} --model {{model_name}} "{{your prompt}}"`
+`codex --provider {{provider_name}} {{[-m|--model]}} {{model_name}} "{{your prompt}}"`
 
 - Load the entire repository as context (experimental):
 
