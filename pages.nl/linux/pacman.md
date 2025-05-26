@@ -9,7 +9,7 @@
 
 `sudo pacman -Syu`
 
-- Installeer een nieuwe pakket:
+- Installeer een nieuw pakket:
 
 `sudo pacman -S {{pakket}}`
 
