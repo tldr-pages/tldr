@@ -10,7 +10,7 @@
 
 - Aumente el tamaño de un volumen por 40 GB, así como a los sistemas subyacentes:
 
-`sudo lvextend {{[-L|--size]}} +{{40G}} {{[-r|--resizefs]}} {{volumen_logico}}`.
+`sudo lvextend {{[-L|--size]}} +{{40G}} {{[-r|--resizefs]}} {{volumen_logico}}`
 
 - Aumente el tamaño de un volumen al 100% del espacio físico libre del volumen:
 
