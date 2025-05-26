@@ -14,7 +14,7 @@
 
 - Geef expliciet een doel-IP-adres op (handig als de doelnaam een NetBIOS-naam is):
 
-`rpcdump.py -doel-ip {{doel_ip}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
+`rpcdump.py -target-ip {{doel_ip}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
 
 - Maak verbinding met een specifieke poort (standaard is 135 voor RPC Endpoint Mapper):
 

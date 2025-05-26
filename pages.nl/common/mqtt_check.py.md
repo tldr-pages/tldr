@@ -6,7 +6,7 @@
 
 - Controleer MQTT aanmeldingsgegevens voor een doel (hostnaam van de MQTT broker):
 
-`mqtt_check.py {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{doelNaam}}`
+`mqtt_check.py {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doelNaam}}`
 
 - Geef een aangepaste client-ID op voor authenticatie:
 
@@ -14,7 +14,7 @@
 
 - Schakel SSL in voor de verbinding:
 
-`mqtt_check.py -ssl {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{doelNaam}}`
+`mqtt_check.py -ssl {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doelNaam}}`
 
 - Maak verbinding met een specifieke poort (standaard is 1883):
 
@@ -22,7 +22,7 @@
 
 - Schakel debug-uitvoer in:
 
-`mqtt_check.py -debug {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{doelNaam}}`
+`mqtt_check.py -debug {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doelNaam}}`
 
 - Toon help:
 

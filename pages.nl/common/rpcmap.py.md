@@ -18,7 +18,7 @@
 
 - Bruteforce hoofdversies van gevonden UUID's:
 
-`rpcmap.py -brute-versies {{stringbinding}}`
+`rpcmap.py -brute-versions {{stringbinding}}`
 
 - Geef handmatig een doel-IP-adres op:
 

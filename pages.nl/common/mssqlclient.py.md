@@ -10,7 +10,7 @@
 
 - Maak verbinding met SQL server-authenticatie:
 
-`mssqlclient.py {{gebruikersnaam}}:{{wachtwoord}}@{doel}}`
+`mssqlclient.py {{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
 
 - Maak verbinding met pass-the-hash-authenticatie:
 
@@ -26,7 +26,7 @@
 
 - Voer meerdere SQL-opdrachten vanuit een bestand uit:
 
-`mssqlclient.py {{gebruikersnaam}}:{{wachtwoord}}@{{doel}} -bestand {{pad/naar/sql_bestand.sql}}`
+`mssqlclient.py {{gebruikersnaam}}:{{wachtwoord}}@{{doel}} -file {{pad/naar/sql_bestand.sql}}`
 
 - Maak verbinding met een specifieke database-instantie (standaard is `None`):
 

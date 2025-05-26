@@ -9,7 +9,7 @@
 
 - Stel een share in met een aangepast commentaar:
 
-`smbserver.py -commentaar {{my_share}} {{share_naam}} {{pad/naar/share}}`
+`smbserver.py -comment {{my_share}} {{share_naam}} {{pad/naar/share}}`
 
 - Stel een share in met gebruikersnaam en wachtwoord verificatie:
 
