@@ -7,7 +7,7 @@
 
 `sudo lvm`
 
-- Inicialice un disco o partición para ser utilizado como volumen físico:
+- Inicializa un disco o partición para ser utilizado como volumen físico:
 
 `sudo lvm pvcreate {{/dev/sdXY}}`
 
