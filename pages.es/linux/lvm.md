@@ -11,7 +11,7 @@
 
 `sudo lvm pvcreate {{/dev/sdXY}}`
 
-- Imprime información sobre volumenes fisicos:
+- Imprime información sobre volúmenes físicos:
 
 `sudo lvm pvdisplay`
 
