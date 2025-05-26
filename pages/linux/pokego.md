@@ -10,7 +10,7 @@
 
 - Print a specific shiny Pokémon:
 
-`pokego --name spheal -s`
+`pokego --name spheal -shiny`
 
 - Print an alternative form of a Pokémon:
 
