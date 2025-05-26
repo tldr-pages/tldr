@@ -2,7 +2,7 @@
 
 > TeX Live 패키지의 백업을 관리.
 > 기본 백업 디렉토리는 `backupdir` 옵션에 의해 지정되며, `tlmgr option`으로 확인 가능.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#backup>.
 
 - 하나 이상의 패키지 백업:
 

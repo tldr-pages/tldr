@@ -1,7 +1,7 @@
 # tlmgr platform
 
 > Gerencia plataformas de TeX Live.
-> Mais informações: <https://www.tug.org/texlive/tlmgr.html>.
+> Mais informações: <https://www.tug.org/texlive/doc/tlmgr.html#platform>.
 
 - Lista todas as plataformas disponíveis no repositório de pacotes:
 
