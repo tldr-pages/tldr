@@ -16,6 +16,6 @@
 
 `sudo lvextend {{[-l|--extents]}} +{{100}}%FREE {{volumen_logico}}`
 
-- Aumente el tamaño de un volumen al 100% del espacio físico libre del volumen y redimensione a los sistemas subyacentes.
+- Aumente el tamaño de un volumen al 100% del espacio físico libre del volumen y redimensione a los sistemas subyacentes:
 
 `sudo lvextend {{[-l|--extents]}} +{{100}}%FREE {{[-r|--resizefs]}} {{volumen_logico}}`
