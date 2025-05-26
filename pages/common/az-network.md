@@ -2,7 +2,7 @@
 
 > Manage Azure Network resources.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/network>.
+> More information: <https://learn.microsoft.com/en-us/cli/azure/network?view=azure-cli-latest>.
 
 - List network resources in a region that are used against a subscription quota:
 

@@ -2,7 +2,7 @@
 
 > Bicep CLI 명령어 집합.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/cli/azure/bicep>.
+> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/bicep?view=azure-cli-latest>.
 
 - Bicep CLI 설치:
 

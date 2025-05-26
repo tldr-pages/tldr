@@ -2,7 +2,7 @@
 
 > Administra la información de una suscripción de Azure.
 > Parte de `azure-cli` (también conocido como `az`).
-> Más información: <https://learn.microsoft.com/cli/azure/account>.
+> Más información: <https://learn.microsoft.com/en-us/cli/azure/account?view=azure-cli-latest>.
 
 - Lista las suscripciones de la cuenta activa:
 

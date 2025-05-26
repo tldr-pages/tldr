@@ -2,7 +2,7 @@
 
 > Strumento ufficiale da linea di comando per Microsoft Azure.
 > Alcuni comandi aggiuntivi, come `login`, hanno la propria documentazione.
-> Maggiori informazioni: <https://learn.microsoft.com/cli/azure/reference-index>.
+> Maggiori informazioni: <https://learn.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest>.
 
 - Effettua il log in ad Azure:
 

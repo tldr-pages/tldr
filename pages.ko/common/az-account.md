@@ -2,7 +2,7 @@
 
 > Azure 구독 정보를 관리.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/cli/azure/account>.
+> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/account?view=azure-cli-latest>.
 
 - 로그인한 계정의 모든 구독을 나열:
 

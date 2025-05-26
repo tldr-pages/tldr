@@ -2,7 +2,7 @@
 
 > Manage Azure Pipelines resources.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/pipelines>.
+> More information: <https://learn.microsoft.com/en-us/cli/azure/pipelines?view=azure-cli-latest>.
 
 - Create a new Azure Pipeline (YAML based):
 

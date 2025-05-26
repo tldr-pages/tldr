@@ -2,7 +2,7 @@
 
 > Manage Azure Cloud Storage resources.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/storage>.
+> More information: <https://learn.microsoft.com/en-us/cli/azure/storage?view=azure-cli-latest>.
 
 - Create a storage account specifying a location:
 

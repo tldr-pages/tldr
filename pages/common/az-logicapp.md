@@ -2,7 +2,7 @@
 
 > Manage Logic Apps in Azure Cloud Services.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/logicapp>.
+> More information: <https://learn.microsoft.com/en-us/cli/azure/logicapp?view=azure-cli-latest>.
 
 - Create a logic app:
 

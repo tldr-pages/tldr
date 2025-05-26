@@ -2,7 +2,7 @@
 
 > Manage Azure DevOps organizations.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/devops>.
+> More information: <https://learn.microsoft.com/en-us/cli/azure/devops?view=azure-cli-latest>.
 
 - Set the Personal Access Token (PAT) to login to a particular organization:
 

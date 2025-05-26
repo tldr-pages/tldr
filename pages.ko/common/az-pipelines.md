@@ -2,7 +2,7 @@
 
 > Azure Pipelines 리소스를 관리.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/cli/azure/pipelines>.
+> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/pipelines?view=azure-cli-latest>.
 
 - 새로운 Azure 파이프라인(YAML 기반)을 생성:
 

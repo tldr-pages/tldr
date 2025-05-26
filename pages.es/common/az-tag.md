@@ -2,7 +2,7 @@
 
 > Administra etiquetas en un recurso de Azure.
 > Parte de `azure-cli` (también conocido como `az`).
-> Más información: <https://learn.microsoft.com/cli/azure/tag>.
+> Más información: <https://learn.microsoft.com/en-us/cli/azure/tag?view=azure-cli-latest>.
 
 - Crea un valor de etiqueta:
 

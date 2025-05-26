@@ -2,7 +2,7 @@
 
 > Azure에서 스토리지 큐를 관리.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/cli/azure/storage/queue>.
+> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/storage/queue?view=azure-cli-latest>.
 
 - 큐 생성:
 

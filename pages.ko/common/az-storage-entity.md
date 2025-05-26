@@ -2,7 +2,7 @@
 
 > Azure Table storage 엔티티를 관리.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/cli/azure/storage/entity>.
+> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/storage/entity?view=azure-cli-latest>.
 
 - 테이블에 엔터티를 삽입:
 

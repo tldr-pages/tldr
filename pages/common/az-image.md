@@ -2,7 +2,7 @@
 
 > Manage custom Virtual Machine Images in Azure.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/image>.
+> More information: <https://learn.microsoft.com/en-us/cli/azure/image?view=azure-cli-latest>.
 
 - List the custom images under a resource group:
 

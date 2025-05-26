@@ -2,7 +2,7 @@
 
 > Azure Cloud Services에서 논리 앱을 관리.
 > `azure-cli` (`az`라고도 함)의 일부.
-> 더 많은 정보: <https://learn.microsoft.com/cli/azure/logicapp>.
+> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/logicapp?view=azure-cli-latest>.
 
 - 논리 앱 만들기:
 

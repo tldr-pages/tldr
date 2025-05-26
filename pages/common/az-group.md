@@ -2,7 +2,7 @@
 
 > Manage resource groups and template deployments.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/group>.
+> More information: <https://learn.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest>.
 
 - Create a new resource group:
 

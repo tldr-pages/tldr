@@ -2,7 +2,7 @@
 
 > Manage SSH public keys with virtual machines.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/sshkey>.
+> More information: <https://learn.microsoft.com/en-us/cli/azure/sshkey?view=azure-cli-latest>.
 
 - Create a new SSH key:
 

@@ -2,7 +2,7 @@
 
 > Grupo de comandos de la CLI de Bicep.
 > Parte de `azure-cli` (también conocido como `az`).
-> Más información: <https://learn.microsoft.com/cli/azure/bicep>.
+> Más información: <https://learn.microsoft.com/en-us/cli/azure/bicep?view=azure-cli-latest>.
 
 - Instala la CLI de Bicep:
 

@@ -2,7 +2,7 @@
 
 > Manage Azure API Management services.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/apim>.
+> More information: <https://learn.microsoft.com/en-us/cli/azure/apim?view=azure-cli-latest>.
 
 - List API Management services within a resource group:
 

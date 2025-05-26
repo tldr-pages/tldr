@@ -2,7 +2,7 @@
 
 > Azure CLI 구성을 관리.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/cli/azure/config>.
+> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/config?view=azure-cli-latest>.
 
 - 모든 구성 설정을 출력:
 

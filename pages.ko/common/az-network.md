@@ -2,7 +2,7 @@
 
 > Azure 네트워크 리소스를 관리.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/cli/azure/network>.
+> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/network?view=azure-cli-latest>.
 
 - 구독 할당량에 대해 사용되는 지역의 네트워크 리소스 목록을 나열:
 

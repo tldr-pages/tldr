@@ -2,7 +2,7 @@
 
 > Manage storage queues in Azure.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/storage/queue>.
+> More information: <https://learn.microsoft.com/en-us/cli/azure/storage/queue?view=azure-cli-latest>.
 
 - Create a queue:
 

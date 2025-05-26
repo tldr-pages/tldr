@@ -2,7 +2,7 @@
 
 > Manage Redis caches.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/redis>.
+> More information: <https://learn.microsoft.com/en-us/cli/azure/redis?view=azure-cli-latest>.
 
 - Create a new Redis cache instance:
 

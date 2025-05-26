@@ -2,7 +2,7 @@
 
 > Manage Azure subscription information.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/advisor>.
+> More information: <https://learn.microsoft.com/en-us/cli/azure/advisor?view=azure-cli-latest>.
 
 - List Azure Advisor configuration for the entire subscription:
 

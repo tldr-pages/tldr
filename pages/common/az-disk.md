@@ -2,7 +2,7 @@
 
 > Manage Azure Managed Disks.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/disk>.
+> More information: <https://learn.microsoft.com/en-us/cli/azure/disk?view=azure-cli-latest>.
 
 - Create a managed disk:
 

@@ -2,7 +2,7 @@
 
 > Administra las configuraciones de aplicaciones en Azure.
 > Parte de `azure-cli` (también conocido como `az`).
-> Más información: <https://learn.microsoft.com/cli/azure/appconfig>.
+> Más información: <https://learn.microsoft.com/en-us/cli/azure/appconfig?view=azure-cli-latest>.
 
 - Crea una configuración de aplicación:
 

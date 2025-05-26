@@ -2,7 +2,7 @@
 
 > 登入到 Azure。
 > `azure-cli` 的一部分（也稱為 `az`）。
-> 更多資訊：<https://learn.microsoft.com/cli/azure/reference-index#az-login>.
+> 更多資訊：<https://learn.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest#az-login>.
 
 - 以互動方式進行登入：
 

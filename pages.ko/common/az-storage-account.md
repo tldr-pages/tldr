@@ -2,7 +2,7 @@
 
 > Azure에서 스토리지 계정을 관리.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/cli/azure/storage/account>.
+> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/storage/account?view=azure-cli-latest>.
 
 - 스토리지 계정 생성:
 

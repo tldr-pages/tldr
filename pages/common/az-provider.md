@@ -2,7 +2,7 @@
 
 > Manage resource providers.
 > Part of `azure-cli` (also known as `az`).
-> More information: <https://learn.microsoft.com/cli/azure/provider>.
+> More information: <https://learn.microsoft.com/en-us/cli/azure/provider?view=azure-cli-latest>.
 
 - Register a provider:
 
