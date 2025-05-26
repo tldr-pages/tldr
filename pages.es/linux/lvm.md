@@ -23,7 +23,7 @@
 
 `sudo lvm vgdisplay`
 
-- Crear un volumen logico con tamano de 10G a partir del grupo de volumen vg1:
+- Crea un volumen lógico con un tamaño de 10G a partir del grupo de volumen vg1:
 
 `sudo lvm lvcreate {{[-L|--size]}} {{10G}} {{vg1}}`
 
