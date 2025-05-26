@@ -9,10 +9,6 @@
 
 `LANGUAGE={{locale}} gettext {{[-d|--domain]}} {{domain}} "{{msgid}}"`
 
-- Suppress the trailing newline gettext generates in output:
-
-`LANGUAGE={{locale}} gettext -n {{[-d|--domain]}} {{domain}} "{{msgid}}"`
-
 - Display help:
 
 `gettext {{[-h|--help]}}`
