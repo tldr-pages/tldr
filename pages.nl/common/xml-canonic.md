@@ -1,4 +1,4 @@
-# xml canonical
+# xml canonic
 
 > Maak XML-documenten canoniek.
 > Meer informatie: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139560880>.
@@ -13,7 +13,7 @@
 
 - Maak XML uitsluitend canoniek, met behulp van een XPATH vanuit een bestand, met behoud van commentaar:
 
-`xml {{[c14n|canonic]}} --exc-met-commentaar {{pad/naar/invoer.xml|URI}} {{pad/naar/c14n.xpath}}`
+`xml {{[c14n|canonic]}} --exc-with-comments {{pad/naar/invoer.xml|URI}} {{pad/naar/c14n.xpath}}`
 
 - Toon help:
 
