@@ -1,7 +1,7 @@
 # lvm
 
 > Administración de volúmenes fisicos, grupos de volúmenes, y volúmenes lógicos mediante la terminal interactiva de Logical Volume Manager (LVM).
-> Mas información: <https://manned.org/lvm>.
+> Más información: <https://manned.org/lvm>.
 
 - Inicie la terminal interactiva Logical Volume Manager:
 
