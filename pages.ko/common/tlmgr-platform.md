@@ -1,7 +1,7 @@
 # tlmgr platform
 
 > TeX Live 플랫폼 관리.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#platform>.
 
 - 패키지 저장소에서 사용 가능한 모든 플랫폼 나열:
 
