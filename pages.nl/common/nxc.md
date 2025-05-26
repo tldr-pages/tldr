@@ -10,7 +10,7 @@
 
 - Toont de opties die beschikbaar zijn voor de opgegeven module:
 
-`nxc {{smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql}} {{[-M|--module]}} {{module_name}} --opties`
+`nxc {{smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql}} {{[-M|--module]}} {{module_name}} --options`
 
 - Geef een [o]ptie op voor een module:
 
