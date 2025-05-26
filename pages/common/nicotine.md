@@ -1,7 +1,7 @@
 # nicotine
 
 > Graphical client for the Soulseek peer-to-peer network.
-> More information: <https://manned.org/man/nicotine>.
+> More information: <https://manned.org/nicotine>.
 
 - Start Nicotine+:
 
