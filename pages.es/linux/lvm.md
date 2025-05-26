@@ -15,7 +15,7 @@
 
 `sudo lvm pvdisplay`
 
-- Crear un grupo de volumen llamado vg1 a partir del volumen físico en `/dev/sdXY`:
+- Crea un grupo de volumen llamado vg1 a partir del volumen físico en `/dev/sdXY`:
 
 `sudo lvm vgcreate {{vg1}} {{/dev/sdXY}}`
 
