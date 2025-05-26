@@ -1,6 +1,6 @@
 # pokego
 
-> A command-line tool that displays Pokémon sprites in color directly in your terminal.
+> Displays Pokémon sprites in color directly in your terminal.
 > Inspired by phoney badger's pokemon-colorscripts but offers enhanced speed and efficiency.
 > More information: <https://github.com/rubiin/pokego>.
 
