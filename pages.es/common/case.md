@@ -5,11 +5,11 @@
 
 - Compara una variable con literales de cadena para decidir qué comando ejecutar:
 
-`case {{$COUNTRULE}} in {{palabras}}) {{wc -w LEAME}} ;; {{líneas}}) {{wc -l LEAME}} ;; esac`
+`case {{$COUNTRULE}} in {{palabras}}) {{wc --words LÉAME}} ;; {{líneas}}) {{wc --lines LÉAME}} ;; esac`
 
-- Combina patrones con |, usa * como patrón de reserva:
+- Combina patrones con |, usar * como patrón de reserva:
 
-`case {{$COUNTRULE}} in {{[wW]|palabras}}) {{wc -w LEAME}} ;; {{[lL]|líneas}}) {{wc -l LEAME}} ;; *) {{echo "¿qué?"}} ;; esac`
+`case {{$COUNTRULE}} in {{[wW]|palabras}}) {{wc --words LÉAME}} ;; {{[lL]|líneas}}) {{wc --lines LÉAME}} ;; *) {{echo "¿qué?"}} ;; esac`
 
 - Permite la coincidencia de múltiples patrones:
 
@@ -18,3 +18,7 @@
 - Continúa con los comandos del siguiente patrón sin comprobar el patrón:
 
 `case {{$ANIMAL}} in {{gato}}) echo "Es un gato" ;& {{perro}}) echo "O es un perro o es un gato" ;& *) echo "Fallback" ;; esac`
+
+- Muestra la ayuda:
+
+`help case`
