@@ -204,7 +204,6 @@ git push origin vX.Y.Z
 - Once the release is published, [view the workflow run of `copy-release-assets.yml`](https://github.com/tldr-pages/tldr/actions/workflows/copy-release-assets.yml) and after its successful completion ensure the assets are copied from the previous release.
 - Notify the [social media managers](https://github.com/tldr-pages/access#social-media-accounts) to post about the client specification release on Mastodon and other platforms to inform the wider community about the release.
 
-
 ## VI. Periodic Maintenance Tasks
 
 To maintain the quality and relevance of the tldr-pages project, maintainers are encouraged to regularly perform the following tasks:
@@ -222,3 +221,5 @@ To maintain the quality and relevance of the tldr-pages project, maintainers are
 - **Maintain collaborators and Org members list** — Periodically review the list of collaborators and organization members. Remove inactive members and onboard new contributors who have demonstrated consistent involvement. Document any changes using an issue with the `archive` label.
 
 - **Manage "Let's document" and translation requests** — Monitor and update issues labeled as `let's document` or language-specific translation requests. While these are often maintained by issue authors, there’s room for improvement through automation — for example, updating issue status based on milestones or completed PRs.
+
+- **Review translated pages** — Check the [tldr-maintenance repository](https://github.com/tldr-pages/tldr-maintenance) for issues or inconsistencies with translated pages.
