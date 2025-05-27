@@ -17,7 +17,7 @@
 
 - Voer PHP-code uit (Opmerkingen: Gebruik geen <? ?> tags; escape dubbele aanhalingstekens met backslash):
 
-`php -r "{{code}}"`
+`php {{[-r|--run]}} "{{code}}"`
 
 - Start een PHP ingebouwde web[S]erver in de huidige map:
 
