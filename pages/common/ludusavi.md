@@ -1,7 +1,7 @@
 # ludusavi
 
 > Backup video game save data.
-> More information: <https://github.com/mtkennerly/ludusavi/tree/master/docs>.
+> More information: <https://github.com/mtkennerly/ludusavi/blob/master/docs/cli.md>.
 
 - Backup games:
 
