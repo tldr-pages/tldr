@@ -1,7 +1,7 @@
 # keybase
 
 > Directorio de claves que conecta identidades en redes sociales a claves encriptadas de una manera públicamente auditable.
-> Más información: <https://keybase.io/docs/command_line>.
+> Más información: <https://book.keybase.io/docs/cli>.
 
 - Sigue a otro usuario:
 
