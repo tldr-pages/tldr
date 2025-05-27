@@ -1,6 +1,6 @@
 # gio
 
-> GIO command-line tool to handle local and virtual files (GVfs).
+> Handle local and virtual files (GVfs).
 > Part of GLib used in GNOME-based systems.
 > More information: <https://manpages.ubuntu.com/manpages/focal/man1/gio.1.html>.
 
