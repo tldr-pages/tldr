@@ -7,7 +7,7 @@
 
 `nicotine`
 
-- Start Nicotine+ in headless mode:
+- Start Nicotine+ in headless ([n]) mode:
 
 `nicotine {{[-n|--headless]}}`
 
