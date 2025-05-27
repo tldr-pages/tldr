@@ -1,7 +1,7 @@
 # az quantum
 
 > Manage Azure Quantum workspaces and submit quantum jobs to providers (preview, requires quantum extension).
-> More information: <https://learn.microsoft.com/en-us/cli/azure/quantum?view=azure-cli-latest>.
+> More information: <https://learn.microsoft.com/cli/azure/quantum>.
 
 - Create a new Azure Quantum workspace:
 
