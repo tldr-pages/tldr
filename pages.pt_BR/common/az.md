@@ -2,7 +2,7 @@
 
 > A interface de linha de comando oficial do Microsoft Azure.
 > Alguns subcomandos como `login` tem sua própria documentação de uso.
-> Mais informações: <https://learn.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest>.
+> Mais informações: <https://learn.microsoft.com/pt-br/cli/azure/reference-index?view=azure-cli-latest>.
 
 - Faz log in no Azure:
 

@@ -2,7 +2,7 @@
 
 > Azure에서 사용자 지정 가상 머신 이미지를 관리.
 > `azure-cli` (`az`라고도 함)의 일부.
-> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/image?view=azure-cli-latest>.
+> 더 많은 정보: <https://learn.microsoft.com/ko-kr/cli/azure/image?view=azure-cli-latest>.
 
 - 리소스 그룹 아래에 사용자 정의 이미지를 나열:
 

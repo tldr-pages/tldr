@@ -2,7 +2,7 @@
 
 > Azure에서 blob 저장소 컨테이너 및 개체를 관리.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/storage/blob?view=azure-cli-latest>.
+> 더 많은 정보: <https://learn.microsoft.com/ko-kr/cli/azure/storage/blob?view=azure-cli-latest>.
 
 - 소스([s]ource) 컨테이너를 지정하는 파일([f]ile) 경로에 blob를 다운로드:
 

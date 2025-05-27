@@ -2,7 +2,7 @@
 
 > 가상 머신으로 SSH 공개 키를 관리.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/sshkey?view=azure-cli-latest>.
+> 더 많은 정보: <https://learn.microsoft.com/ko-kr/cli/azure/sshkey?view=azure-cli-latest>.
 
 - 새로운 SSH 키를 생성:
 

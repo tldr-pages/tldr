@@ -2,7 +2,7 @@
 
 > Gestiona máquinas virtuales en Azure.
 > Parte de `azure-cli` (también conocido como `az`).
-> Más información: <https://learn.microsoft.com/en-us/cli/azure/vm?view=azure-cli-latest>.
+> Más información: <https://learn.microsoft.com/es-es/cli/azure/vm?view=azure-cli-latest>.
 
 - Muestra una tabla de Máquinas Virtuales disponibles:
 

@@ -2,7 +2,7 @@
 
 > Azure에서 NoSQL 키-값 스토리지를 관리.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/storage/table?view=azure-cli-latest>.
+> 더 많은 정보: <https://learn.microsoft.com/ko-kr/cli/azure/storage/table?view=azure-cli-latest>.
 
 - 스토리지 계정에 새 테이블을 만듬:
 

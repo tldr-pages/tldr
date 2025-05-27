@@ -2,7 +2,7 @@
 
 > La CLI officielle de Microsoft Azure.
 > Certaines commandes comme `az login` ont leur propre documentation.
-> Plus d'informations : <https://learn.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest>.
+> Plus d'informations : <https://learn.microsoft.com/fr-fr/cli/azure/reference-index?view=azure-cli-latest#az-login>.
 
 - Connexion à Azure :
 

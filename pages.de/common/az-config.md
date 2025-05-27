@@ -2,7 +2,7 @@
 
 > Verwalten der Azure CLI-Konfiguration.
 > Teil von `azure-cli` (auch bekannt als `az`).
-> Weitere Informationen: <https://learn.microsoft.com/en-us/cli/azure/config?view=azure-cli-latest>.
+> Weitere Informationen: <https://learn.microsoft.com/de-de/cli/azure/config?view=azure-cli-latest>.
 
 - Rufe alle Konfigurationen ab:
 

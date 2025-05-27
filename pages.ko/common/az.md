@@ -2,7 +2,7 @@
 
 > Microsoft Azure의 공식 CLI tool입니다.
 > `login`과 같은 하위 명령어는 자체 사용법 문서가 존재.
-> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest>.
+> 더 많은 정보: <https://learn.microsoft.com/ko-kr/cli/azure/reference-index?view=azure-cli-latest>.
 
 - Azure에 로그인:
 

@@ -2,7 +2,7 @@
 
 > Azure Cloud Storage 리소스를 관리.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/storage?view=azure-cli-latest>.
+> 더 많은 정보: <https://learn.microsoft.com/ko-kr/cli/azure/storage?view=azure-cli-latest>.
 
 - 위치([l]ocation)를 지정하는 스토리지 계정을 생성:
 

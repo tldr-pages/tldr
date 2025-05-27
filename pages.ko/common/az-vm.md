@@ -2,7 +2,7 @@
 
 > Azure에서 가상 머신을 관리.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/vm?view=azure-cli-latest>.
+> 더 많은 정보: <https://learn.microsoft.com/ko-kr/cli/azure/vm?view=azure-cli-latest>.
 
 - 사용 가능한 가상 머신의 세부 정보 나열:
 

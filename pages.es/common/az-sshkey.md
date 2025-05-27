@@ -2,7 +2,7 @@
 
 > Administra claves públicas SSH con máquinas virtuales.
 > Parte de `azure-cli` (también conocido como `az`).
-> Más información: <https://learn.microsoft.com/en-us/cli/azure/sshkey?view=azure-cli-latest>.
+> Más información: <https://learn.microsoft.com/es-es/cli/azure/sshkey?view=azure-cli-latest>.
 
 - Crea una nueva clave SSH:
 

@@ -2,7 +2,7 @@
 
 > Azure API Management 서비스를 관리.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/apim?view=azure-cli-latest>.
+> 더 많은 정보: <https://learn.microsoft.com/ko-kr/cli/azure/apim?view=azure-cli-latest>.
 
 - 리소스 그룹 내 API Management 서비스를 나열:
 

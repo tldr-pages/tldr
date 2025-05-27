@@ -2,7 +2,7 @@
 
 > Azure 구독에서 로그아웃.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest#az-logout>.
+> 더 많은 정보: <https://learn.microsoft.com/ko-kr/cli/azure/reference-index?view=azure-cli-latest#az-logout>.
 
 - 활성 계정에서 로그아웃:
 

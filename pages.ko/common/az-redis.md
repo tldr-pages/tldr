@@ -2,7 +2,7 @@
 
 > Redis 캐시 관리.
 > `azure-cli`의 일부 (`az`라고도 함).
-> 더 많은 정보: <https://learn.microsoft.com/en-us/cli/azure/redis?view=azure-cli-latest>.
+> 더 많은 정보: <https://learn.microsoft.com/ko-kr/cli/azure/redis?view=azure-cli-latest>.
 
 - 새로운 Redis 캐시 인스턴스를 생성:
 
