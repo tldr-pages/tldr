@@ -7,30 +7,30 @@
 
 `php {{pad/naar/bestand}}`
 
-- Controleer de syntax van (d.w.z. lint) een PHP-script:
+- Controleer de syntax van (d.w.z. [l]int) een PHP-script:
 
-`php -l {{pad/naar/bestand}}`
+`php {{[-l|--syntax-check]}} {{pad/naar/bestand}}`
 
-- Voer PHP interactief uit:
+- Voer PHP inter[a]ctief uit:
 
-`php -a`
+`php {{[-a|--interactive]}}`
 
-- Voer PHP-code uit (Opmerkingen: Gebruik geen <? ?> tags; ontsnap dubbele aanhalingstekens met backslash):
+- Voer PHP-code uit (Opmerkingen: Gebruik geen <? ?> tags; escape dubbele aanhalingstekens met backslash):
 
 `php -r "{{code}}"`
 
-- Start een PHP ingebouwde webserver in de huidige map:
+- Start een PHP ingebouwde web[S]erver in de huidige map:
 
-`php -S {{host:poort}}`
+`php {{[-S|--server]}} {{host:poort}}`
 
 - Toon geïnstalleerde PHP-extensies:
 
-`php -m`
+`php {{[-m|--modules]}}`
 
 - Toon informatie over de huidige PHP-configuratie:
 
-`php -i`
+`php {{[-i|--info]}}`
 
 - Toon informatie over een specifieke functie:
 
-`php --rf {{functie_naam}}`
+`php {{[--rf|--rfunction]}} {{functie_naam}}`
