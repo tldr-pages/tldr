@@ -1,7 +1,7 @@
 # medusa
 
 > Un forzador bruto de inicio de sesión modular y paralelo para una variedad de protocolos.
-> Más información: <https://jmk-foofus.github.io/medusa/medusa.html>.
+> Más información: <https://manned.org/medusa>.
 
 - Lista todos los módulos instalados:
 
