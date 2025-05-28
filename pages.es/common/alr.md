@@ -6,7 +6,7 @@
 
 - Crea un proyecto de un ejecutable (`--bin`) o de una biblioteca (`--lib`):
 
-`alr init {{[--bin|--lib]}} {{nombre_de_proyecto}}`
+`alr init {{--bin|--lib}} {{nombre_de_proyecto}}`
 
 - Añade una dependencia al proyecto:
 
