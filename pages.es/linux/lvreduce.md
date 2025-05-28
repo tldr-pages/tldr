@@ -1,6 +1,6 @@
 # lvreduce
 
-> Reducir el tamaño de un volumen lógico.
+> Reduce el tamaño de un volumen lógico.
 > Ver también: `lvm`.
 > Más información: <https://manned.org/lvreduce>.
 
