@@ -12,7 +12,7 @@
 
 `setarch x86_64 {{bash}}`
 
-- Schakel randomisatie van de virtuele adresruimte uit:
+- Schakel de willekeurigheid van de virtuele adresruimte uit:
 
 `setarch {{linux32}} {{[-R|--addr-no-randomize]}} {{command}}`
 
