@@ -1,7 +1,7 @@
 # lvcreate
 
 > Crea un volumen lógico en un grupo de volumen existente. Un grupo de volumen es una colección de volúmenes lógicos y físicos.
-> Ver también: `lvm`.
+> Vea también: `lvm`.
 > Más información: <https://manned.org/lvcreate>.
 
 - Crea un volumen lógico de 10 GB en el grupo de volumen vg1:
