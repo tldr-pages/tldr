@@ -6,7 +6,7 @@
 
 - Create a binary or library project:
 
-`alr init {{--bin|--lib}} {{project_name}}`
+`alr init {{[--bin|--lib]}} {{project_name}}`
 
 - Add a dependency to the project:
 
