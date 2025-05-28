@@ -1,7 +1,7 @@
 # exo compute block-storage
 
 > Manage the Exoscale Block Storage service.
-> More information: <https://community.exoscale.com/community/block-storage/>.
+> More information: <https://community.exoscale.com/product/storage/block-storage/>.
 
 - Create a 20GB Block Storage Volume:
 

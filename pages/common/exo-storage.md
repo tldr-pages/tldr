@@ -1,7 +1,7 @@
 # exo storage
 
 > Manage the Exoscale Simple Object Storage (SOS) service.
-> More information: <https://community.exoscale.com/community/storage/>.
+> More information: <https://community.exoscale.com/product/storage/object-storage/>.
 
 - Create a new SOS bucket:
 

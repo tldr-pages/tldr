@@ -1,7 +1,7 @@
 # exo compute instance
 
 > Manage Exoscale Compute instances.
-> More information: <https://community.exoscale.com/community/compute/>.
+> More information: <https://community.exoscale.com/product/compute/instances/>.
 
 - Create a Debian based Compute instance with a disk size of 10GB:
 

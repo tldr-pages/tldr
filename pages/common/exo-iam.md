@@ -1,7 +1,7 @@
 # exo iam
 
 > Manage the Exoscale IAM service.
-> More information: <https://community.exoscale.com/community/iam/>.
+> More information: <https://community.exoscale.com/product/iam/>.
 
 - List all of the IAM roles:
 

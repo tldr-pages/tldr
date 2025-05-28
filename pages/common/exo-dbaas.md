@@ -1,7 +1,7 @@
 # exo dbaas
 
 > Manage Exoscale DBaaS.
-> More information: <https://community.exoscale.com/community/dbaas/>.
+> More information: <https://community.exoscale.com/product/dbaas/>.
 
 - List available Database Service types:
 

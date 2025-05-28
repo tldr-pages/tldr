@@ -1,7 +1,7 @@
 # exo compute sks
 
 > Manage the Exoscale Scalable Kubernetes Service (SKS).
-> More information: <https://community.exoscale.com/community/sks/>.
+> More information: <https://community.exoscale.com/product/compute/containers/>.
 
 - List the supported SKS cluster versions:
 
