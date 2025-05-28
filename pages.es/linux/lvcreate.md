@@ -1,6 +1,6 @@
 # lvcreate
 
-> Crear un volumen lógico en un grupo de volumen existente. Un grupo de volumen es una colección de volumenes lógicos y físicos.
+> Crea un volumen lógico en un grupo de volumen existente. Un grupo de volumen es una colección de volúmenes lógicos y físicos.
 > Ver también: `lvm`.
 > Más información: <https://manned.org/lvcreate>.
 
