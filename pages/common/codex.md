@@ -28,6 +28,6 @@
 
 `/cost`
 
-- Show help and a summary of available options:
+- Display help:
 
 `codex --help`
