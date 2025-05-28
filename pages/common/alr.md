@@ -18,4 +18,4 @@
 
 - Compile the project:
 
-`alr build {{[--release|--development|--validation]}}`
+`alr build {{--release|--development|--validation}}`
