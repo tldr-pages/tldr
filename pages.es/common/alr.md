@@ -2,7 +2,7 @@
 
 > Gestor de paquetes de Ada.
 > Gestiona compiladores, dependencias, herramientas y bibliotecas de Ada.
-> Más información en: <https://alire.ada.dev/>.
+> Más información: <https://alire.ada.dev/>.
 
 - Crea un proyecto de un ejecutable (`--bin`) o de una biblioteca (`--lib`):
 
