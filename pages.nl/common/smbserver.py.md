@@ -9,11 +9,11 @@
 
 - Stel een share in met een aangepast commentaar:
 
-`smbserver.py -comment {{my_share}} {{share_naam}} {{pad/naar/share}}`
+`smbserver.py -comment {{mijn_share}} {{share_naam}} {{pad/naar/share}}`
 
 - Stel een share in met gebruikersnaam en wachtwoord verificatie:
 
-`smbserver.py -username {{gebruikersnaam}} -password {{password}} {{share_naam}} {{pad/naar/share}}`
+`smbserver.py -username {{gebruikersnaam}} -password {{wachtwoord}} {{share_naam}} {{pad/naar/share}}`
 
 - Stel een share in met NTLM hash-authenticatie:
 
@@ -21,7 +21,7 @@
 
 - Stel een share in op een specifieke interface:
 
-`smbserver.py {{[-ip|--interface-address]}} {{interface_ip_address}} {{share_naam}} {{pad/naar/share}}`
+`smbserver.py {{[-ip|--interface-address]}} {{interface_ip_adres}} {{share_naam}} {{pad/naar/share}}`
 
 - Stel een share in op een niet-standaard SMB-poort:
 

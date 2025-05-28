@@ -18,7 +18,7 @@
 
 - Maak verbinding met een specifieke poort (standaard is 135 voor RPC Endpoint Mapper):
 
-`rpcdump.py -port {{port_number}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
+`rpcdump.py -port {{poort_nummer}} {{domein}}/{{gebruikersnaam}}:{{wachtwoord}}@{{doel}}`
 
 - Schakel debug-uitvoer in:
 
