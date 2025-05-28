@@ -1,6 +1,6 @@
 # pulumi destroy
 
-> Venietig alle bestaande bronnen in een stack.
+> Vernietig alle bestaande bronnen in een stack.
 > Meer informatie: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_destroy/>.
 
 - Vernietig alle bronnen in de huidige stack:
