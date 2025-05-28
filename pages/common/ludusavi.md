@@ -17,7 +17,7 @@
 
 - Wrap launcher game:
 
-`ludusavi wrap --gui --infer {{[heroic|lutris|steam]}} -- {{game_launch_commands}}`
+`ludusavi wrap --gui --infer {{heroic|lutris|steam}} -- {{game_launch_commands}}`
 
 - Wrap standalone game:
 
