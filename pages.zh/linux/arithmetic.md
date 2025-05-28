@@ -1,7 +1,7 @@
 # arithmetic
 
 > 测试见到你的算术问题。
-> 更多信息：<https://manned.org/arithmetic.6>.
+> 更多信息：<https://manned.org/arithmetic>.
 
 - 开始算术测试：
 

@@ -1,7 +1,7 @@
 # tlmgr conf
 
 > TeX Live 구성 관리.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#conf>.
 
 - 현재 TeX Live 구성 보기:
 
