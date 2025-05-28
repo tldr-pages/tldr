@@ -32,6 +32,6 @@
 
 `g++ {{ruta/al/código_fuente.cpp}} -O{{1|2|3|fast}} {{[-o|--output]}} {{ruta/al/ejecutable}}`
 
-- Muestra la versión del programa
+- Muestra la versión del programa:
 
 `g++ --version`
