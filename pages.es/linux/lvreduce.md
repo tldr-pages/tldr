@@ -1,7 +1,7 @@
 # lvreduce
 
 > Reduce el tamaño de un volumen lógico.
-> Ver también: `lvm`.
+> Vea también: `lvm`.
 > Más información: <https://manned.org/lvreduce>.
 
 - Reduce el tamaño de un volumen a 120GB:
