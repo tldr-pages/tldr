@@ -4,7 +4,7 @@
 > Vea también: `lvm`.
 > Más información: <https://manned.org/lvs>.
 
-- Muestre información sobre volúmenes lógicos:
+- Muestra información sobre volúmenes lógicos:
 
 `lvs`
 
