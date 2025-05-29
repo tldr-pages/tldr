@@ -12,7 +12,7 @@
 
 `sudo lvextend {{[-L|--size]}} +{{40G}} {{[-r|--resizefs]}} {{volumen_logico}}`
 
-- Aumente el tamaño de un volumen al 100% del espacio físico libre del volumen:
+- Aumenta el tamaño de un volumen al 100% del espacio físico libre del volumen:
 
 `sudo lvextend {{[-l|--extents]}} +{{100}}%FREE {{volumen_logico}}`
 
