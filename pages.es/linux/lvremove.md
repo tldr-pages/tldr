@@ -8,6 +8,6 @@
 
 `sudo lvremove {{grupo_de_volumen}}/{{volumen_lógico}}`
 
-- Eliminar todos los volúmenes lógicos en un grupo de volumen:
+- Elimina todos los volúmenes lógicos en un grupo de volumen:
 
 `sudo lvremove {{grupo_de_volumen}}`
