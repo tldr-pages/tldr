@@ -4,7 +4,7 @@
 > Vea también: `lvm`.
 > Más información: <https://manned.org/lvremove>.
 
-- Eliminar un volumen lógico de un grupo de volumen:
+- Elimina un volumen lógico de un grupo de volumen:
 
 `sudo lvremove {{grupo_de_volumen}}/{{volumen_lógico}}`
 
