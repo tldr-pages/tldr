@@ -9,7 +9,7 @@
 
 - Converteer het 5e veld (1-gebaseerd) naar IEC-eenheden zonder de header te converteren:
 
-`ls -l | numfmt --header=1 --field=5 --to iec`
+`ls -l | numfmt --header=1 --field 5 --to iec`
 
 - Converteer naar IEC-eenheden, opvullen met 5 tekens, links uitgelijnd:
 
