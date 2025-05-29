@@ -18,7 +18,7 @@
 
 - Toon bestand in hexadecimale notatie (1-byte eenheden) en 4 bytes per regel:
 
-`od {{[-t|--format]}} {{x1}} {{[-w|--width=]}}4 {{pad/naar/bestand}}`
+`od {{[-t|--format]}} {{x1}} {{[-w|--width=]}}4 {{[-v|--output-duplicates]}} {{pad/naar/bestand}}`
 
 - Toon bestand in hexadecimale notatie samen met de tekenweergave, en toon geen byte-offsets:
 
