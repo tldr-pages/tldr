@@ -21,11 +21,11 @@
 
 - 파일 확장자별 기여도 표시:
 
-`git fame --bytype`
+`git fame {{[-t|--bytype]}}`
 
 - 공백 변화 무시:
 
-`git fame --ignore-whitespace`
+`git fame {{[-w|--ignore-whitespace]}}`
 
 - 파일 간의 줄 이동 및 복사 감지:
 

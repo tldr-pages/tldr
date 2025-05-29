@@ -9,8 +9,8 @@
 
 - 도움말 표시:
 
-`git extras --help`
+`git extras {{[-h|--help]}}`
 
 - 버전 표시:
 
-`git extras --version`
+`git extras {{[-v|--version]}}`

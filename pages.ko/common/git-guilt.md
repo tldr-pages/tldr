@@ -14,15 +14,15 @@
 
 - 작성자 이메일을 이름 대신 표시:
 
-`git guilt --email`
+`git guilt {{[-e|--email]}}`
 
 - 블레임을 할당할 때 공백만 변경된 부분 무시:
 
-`git guilt --ignore-whitespace`
+`git guilt {{[-e|--email]}}`
 
 - 지난 3주 동안의 블레임 델타 찾기:
 
-`git guilt 'git log --until="3 weeks ago" --format="%H" -n 1'`
+`git guilt 'git log --until "3 weeks ago" --format "%H" {{[-n|--max-count]}} 1'`
 
 - 지난 3주 동안의 블레임 델타 찾기 (git 1.8.5+):
 
