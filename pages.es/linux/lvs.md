@@ -12,7 +12,7 @@
 
 `lvs {{[-a|--all]}}`
 
-- Cambiar la visualización por defecto para mostrar más detalles:
+- Cambia la visualización por defecto para mostrar más detalles:
 
 `lvs {{[-v|--verbose]}}`
 
