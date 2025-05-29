@@ -12,10 +12,6 @@
 
 `yay`
 
-- Synchronize and update only AUR packages:
-
-`yay -Sua`
-
 - Install a new package from the repos and AUR and do not ask to confirm transactions:
 
 `yay -S {{package}} --noconfirm`
@@ -31,6 +27,10 @@
 - Remove orphaned packages (installed as dependencies but not required by any package):
 
 `yay -Yc`
+
+- Clean `pacman` and `yay` caches (old package versions kept for rollback and downgrade purposes):
+
+`yay -Scc`
 
 - Show statistics for installed packages and system health:
 
