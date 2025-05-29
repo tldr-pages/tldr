@@ -8,7 +8,7 @@
 
 `lvs`
 
-- Muestre todos los volúmenes lógicos:
+- Muestra todos los volúmenes lógicos:
 
 `lvs {{[-a|--all]}}`
 
