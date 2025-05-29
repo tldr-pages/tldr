@@ -15,7 +15,7 @@
 
 `npm ls {{[-l|--long]}}`
 
-- Imprime las dependencias en formato parseable:
+- Imprime las dependencias en formato analizable:
 
 `npm ls {{[-p|--parseable]}}`
 
