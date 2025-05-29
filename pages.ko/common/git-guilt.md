@@ -2,7 +2,7 @@
 
 > 스테이지되지 않은 변경 사항이 있는 파일에 대한 전체 블레임 수를 표시하거나 두 개의 리비전 간 블레임 변경을 계산.
 > `git-extras`의 일부.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-guilt>.
+> 더 많은 정보: <https://manned.org/git-guilt>.
 
 - 전체 블레임 수 표시:
 

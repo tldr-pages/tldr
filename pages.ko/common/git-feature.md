@@ -2,7 +2,7 @@
 
 > 기능 브랜치를 생성하거나 병합.
 > 기능 브랜치는 feature/<이름> 형식을 따릅니다.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-feature>.
+> 더 많은 정보: <https://manned.org/git-feature>.
 
 - 새 기능 브랜치를 생성하고 전환:
 
