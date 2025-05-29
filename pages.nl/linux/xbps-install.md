@@ -10,4 +10,4 @@
 
 - Synchroniseer en update alle pakketten:
 
-`xbps-install {{[-S|--sync}}] {{[-u|--update]}}`
+`xbps-install {{[-S|--sync]}} {{[-u|--update]}}`
