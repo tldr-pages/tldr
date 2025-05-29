@@ -20,7 +20,7 @@
 
 `lvs {{[-o|--options]}} {{nombre_campo_1}},{{nombre_campo_2}}`
 
-- Añadir un campo a la visualización por defecto:
+- Añade un campo a la visualización por defecto:
 
 `lvs {{[-o|--options]}} +{{nombre_campo}}`
 
