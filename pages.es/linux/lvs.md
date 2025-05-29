@@ -28,6 +28,6 @@
 
 `lvs --noheadings`
 
-- Usar un separador para separar los campos:
+- Usa un separador para separar los campos:
 
 `lvs --separator {{=}}`
