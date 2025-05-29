@@ -28,7 +28,7 @@
 
 `yay -Yc`
 
-- Clean pacman and yay caches (old package versions kept for rollback and downgrade purposes):
+- Clean `pacman` and `yay` caches (old package versions kept for rollback and downgrade purposes):
 
 `yay -Scc`
 
