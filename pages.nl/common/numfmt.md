@@ -13,4 +13,4 @@
 
 - Converteer naar IEC-eenheden, opvullen met 5 tekens, links uitgelijnd:
 
-`du -s * | numfmt --to=iec --format="%-5f"`
+`du {{[-s|--summarize]}} * | numfmt --to=iec --format="%-5f"`

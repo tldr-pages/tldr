@@ -13,4 +13,4 @@
 
 - IEC 단위로 변환하고, 5자리를 채워 왼쪽 정렬:
 
-`du -s * | numfmt --to=iec --format="%-5f"`
+`du {{[-s|--summarize]}} * | numfmt --to=iec --format="%-5f"`
