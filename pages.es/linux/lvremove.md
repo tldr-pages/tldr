@@ -1,7 +1,7 @@
 # lvremove
 
 > Elimina volúmenes lógicos.
-> Vea tambien: `lvm`.
+> Vea también: `lvm`.
 > Más información: <https://manned.org/lvremove>.
 
 - Eliminar un volumen lógico de un grupo de volumen:
