@@ -1,6 +1,6 @@
 # lvdisplay
 
-> Imprime información sobre Logical Volumes Manager(LVM).
+> Imprime información sobre Logical Volumes Manager (LVM).
 > Vea también: `lvm`.
 > Más información: <https://manned.org/lvdisplay>.
 
