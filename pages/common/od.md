@@ -18,7 +18,7 @@
 
 - Display file in hexadecimal format (1-byte units), and 4 bytes per line:
 
-`od {{[-t|--format]}} {{x1}} {{[-w|--width=]}}{{4}} {{[-v|--output-duplicates]}} {{path/to/file}}`
+`od {{[-t|--format]}} {{x1}} {{[-w|--width=]}}4 {{[-v|--output-duplicates]}} {{path/to/file}}`
 
 - Display file in hexadecimal format along with its character representation, and do not print byte offsets:
 
