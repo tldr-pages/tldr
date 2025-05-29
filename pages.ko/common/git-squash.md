@@ -2,7 +2,7 @@
 
 > 여러 커밋을 하나의 커밋으로 합치기.
 > `git-extras`의 일부.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-squash>.
+> 더 많은 정보: <https://manned.org/git-squash>.
 
 - 특정 브랜치의 모든 커밋을 현재 브랜치에 하나의 커밋으로 합치기:
 
