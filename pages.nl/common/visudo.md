@@ -9,7 +9,7 @@
 
 - Controleer sudoers-bestand op fouten:
 
-`sudo visudo -c`
+`sudo visudo {{[-c|--check]}}`
 
 - Bewerk het sudoers-bestand met een specifieke editor:
 
@@ -17,4 +17,4 @@
 
 - Toon de versie:
 
-`visudo --version`
+`visudo {{[-V|--version]}}`
