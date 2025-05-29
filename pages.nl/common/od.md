@@ -10,7 +10,7 @@
 
 - Toon bestand in uitgebreide modus, d.w.z. zonder dubbele regels te vervangen door `*`:
 
-`od {{[-v|--output-duplicates]}}  {{pad/naar/bestand}}`
+`od {{[-v|--output-duplicates]}} {{pad/naar/bestand}}`
 
 - Toon bestand in hexadecimale notatie (2-byte eenheden), met byte-offsets in decimale notatie:
 
