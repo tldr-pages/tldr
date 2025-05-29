@@ -1,6 +1,6 @@
 # lvremove
 
-> Eliminar volúmenes lógicos.
+> Elimina volúmenes lógicos.
 > Vea tambien: `lvm`.
 > Más información: <https://manned.org/lvremove>.
 
