@@ -4,7 +4,7 @@
 > Vea tambien: `lvm`.
 > Más información: <https://manned.org/lvextend.8>.
 
-- Aumente el tamaño de un volumen a 120 GB:
+- Aumenta el tamaño de un volumen a 120 GB:
 
 `sudo lvextend {{[-L|--size]}} {{120G}} {{volumen_logico}}`
 
