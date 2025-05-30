@@ -17,7 +17,7 @@
 
 - Set a configuration key to a specific value:
 
-`npm config set {{key}}={{value}}`
+`npm config set {{key}} {{value}}`
 
 - Delete a configuration key:
 
