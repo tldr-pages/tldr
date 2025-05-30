@@ -2,7 +2,7 @@
 
 > Herramienta de alineación Burrows-Wheeler.
 > Mapeador de secuencias de ADN cortas y poco divergentes frente a un gran genoma de referencia, como el genoma humano.
-> Más información: <https://github.com/lh3/bwa>.
+> Más información: <https://manned.org/bwa>.
 
 - Indexa el genoma de referencia:
 
