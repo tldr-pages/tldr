@@ -3,7 +3,7 @@
 > An interception tool writes input events to a virtual keyboard device using /dev/uinput.
 > More information: <https://gitlab.com/interception/linux/tools/-/tree/master?ref_type=heads#uinput>.
 
-- Show resulting YAML device description merge and exit:
+- Show resulting YAML device description merge and exit (Dry-run):
 
 `uinput -p`
 
