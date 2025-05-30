@@ -14,7 +14,7 @@
 
 - Call a specific target, executing 4 jobs at a time in parallel:
 
-`make {{[-j|--jobs]}} {{4}} {{target}}`
+`make {{[-j|--jobs]}} 4 {{target}}`
 
 - Use a specific Makefile:
 
