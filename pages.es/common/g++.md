@@ -16,7 +16,7 @@
 
 `g++ {{ruta/al/código_fuente.cpp}} -Wall {{[-g|--debug]}} -Og {{[-o|--output]}} {{ruta/al/ejecutable}}`
 
-- Eliga un lenguaje estándar para compilar (C++98/C++11/C++14/C++17):
+- Elija un lenguaje estándar para compilar (C++98/C++11/C++14/C++17):
 
 `g++ {{ruta/al/código_fuente.cpp}} -std={{c++98|c++11|c++14|c++17}} {{[-o|--output]}} {{ruta/al/ejecutable}}`
 
