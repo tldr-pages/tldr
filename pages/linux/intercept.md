@@ -9,4 +9,4 @@
 
 - Read and output raw input events from a given input device file (system can see key presses and doesn't block other programs from reading them):
 
-`sudo intercept {{/dev/input?eventX}}`
+`sudo intercept {{/dev/input/eventX}}`
