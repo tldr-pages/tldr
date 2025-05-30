@@ -1,7 +1,7 @@
 # atoum
 
 > Un framework de pruebas unitarias para PHP sencillo, moderno e intuitivo.
-> Más información: <https://atoum.org>.
+> Más información: <https://atoum.readthedocs.io/en/latest/option_cli.html>.
 
 - Inicializa un fichero de configuración:
 
@@ -13,24 +13,24 @@
 
 - Ejecuta pruebas utilizando el archivo de configuración especificado:
 
-`atoum -c {{ruta/al/archivo}}`
+`atoum {{[-c|--configuration]}} {{ruta/al/archivo}}`
 
 - Ejecuta un archivo de prueba específico:
 
-`atoum -f {{ruta/al/archivo}}`
+`atoum {{[-f|--files]}} {{ruta/al/archivo}}`
 
 - Ejecuta un directorio específico de pruebas:
 
-`atoum -d {{ruta/al/directorio}}`
+`atoum {{[-d|--directories]}} {{ruta/al/directorio}}`
 
 - Ejecuta todas las pruebas dado un namespace específico:
 
-`atoum -ns {{namespace}}`
+`atoum {{[-ns|--namespaces]}} {{namespace}}`
 
 - Ejecuta todas las pruebas dada una etiqueta específica:
 
-`atoum -t {{etiqueta}}`
+`atoum {{[-t|--tags]}} {{etiqueta}}`
 
 - Carga un archivo bootstrap personalizado antes de ejecutar las pruebas:
 
-`atoum --bootstrap-file {{ruta/al/archivo}}`
+`atoum {{[-bf|--bootstrap-file]}} {{ruta/al/archivo}}`
