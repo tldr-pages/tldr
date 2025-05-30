@@ -2,7 +2,7 @@
 
 > Un reproductor de audio con una interfaz similar a Winamp o XMMS.
 > Vea también: `clementine`, `ncmpcpp`, `cmus`.
-> Más información: <https://qmmp.ylsoftware.com>.
+> Más información: <https://manned.org/qmmp>.
 
 - Lanza la interfaz gráfica de usuario (GUI):
 
@@ -10,7 +10,7 @@
 
 - Comienza o detiene el audio actual:
 
-`qmmp --play-pause`
+`qmmp {{[-t|--play-pause]}}`
 
 - Va hacia adelante o hacia atrás una cantidad específica de tiempo en segundos:
 

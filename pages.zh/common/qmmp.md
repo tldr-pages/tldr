@@ -2,7 +2,7 @@
 
 > 具有类似于 Winamp 或 XMMS 界面的音频播放器。
 > 请参阅：`clementine`，`ncmpcpp`，`cmus`。
-> 更多信息：<https://qmmp.ylsoftware.com>.
+> 更多信息：<https://manned.org/qmmp>.
 
 - 启动 GUI：
 
@@ -10,7 +10,7 @@
 
 - 开始或停止当前播放的音频：
 
-`qmmp --play-pause`
+`qmmp {{[-t|--play-pause]}}`
 
 - 向前或向后移动指定的秒数：
 
