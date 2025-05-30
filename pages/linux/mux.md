@@ -1,7 +1,7 @@
 # mux
 
 > A utility for multiplexing streams of input events.
-> More information: <>.
+> More information: <https://gitlab.com/interception/linux/tools/-/blob/master/mux.cpp?ref_type=heads>.
 
 - Create a new muxer with a specified name (can be repeated to create multiple):
 
