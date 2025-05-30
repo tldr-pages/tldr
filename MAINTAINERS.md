@@ -91,7 +91,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
 - **witt ([@witt-bit](https://github.com/witt-bit))**:
   [14 January 2025](https://github.com/tldr-pages/tldr/issues/15514) — present
 - **Amine LOUHICHI ([@aminelch](https://github.com/aminelch))**:
-[08 April 2025](https://github.com/tldr-pages/tldr/issues/16126) — present
+  [08 April 2025](https://github.com/tldr-pages/tldr/issues/16126) — present
 - **Dylan McGivern ([@dmmqz](https://github.com/dmmqz))**:
   [30 May 2025](https://github.com/tldr-pages/tldr/issues/16671) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
