@@ -12,7 +12,7 @@
 
 `g++ {{ruta/al/código_fuente.cpp}} -Wall {{[-o|--output]}} {{ejecutable}}`
 
-- Muestra advertencias comunes, añade símbolos de depueración a la salida y optimiza sin afectar la depuración:
+- Muestra advertencias comunes, añade símbolos de depuración a la salida y optimiza sin afectar la depuración:
 
 `g++ {{ruta/al/código_fuente.cpp}} -Wall {{[-g|--debug]}} -Og {{[-o|--output]}} {{ruta/al/ejecutable}}`
 
