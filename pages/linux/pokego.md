@@ -1,7 +1,7 @@
 # pokego
 
 > Displays Pokémon sprites in color directly in your terminal.
-> Inspired by Phoney badger's pokemon-colorscripts but offers enhanced speed and efficiency.
+> Inspired by Phoney badger's `pokemon-colorscripts` but offers enhanced speed and efficiency.
 > More information: <https://github.com/rubiin/pokego>.
 
 - Print a specific Pokémon:
