@@ -13,7 +13,7 @@
 
 - Exporteer een binary van de container naar de host (bijv.`$HOME/.local/bin`) :
 
-`distrobox-export {{[-b|--bin]}} {{pad/naar/binary}} {{[-ep|--export-path]}} {{pad/naar/exporteren}}`
+`distrobox-export {{[-b|--bin]}} {{pad/naar/binary}} {{[-ep|--export-path]}} {{pad/naar/export}}`
 
 - Exporteer een service van de container naar de host (`--sudo` zal de service uitvoeren als root in de container):
 
