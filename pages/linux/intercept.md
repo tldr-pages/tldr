@@ -5,7 +5,7 @@
 
 - Read and output raw input events from a given input device file (system won’t see key presses):
 
-## `sudo intercept -g {{/dev/input?eventX}}`
+`sudo intercept -g {{/dev/input/eventX}}`
 
 - Read and output raw input events from a given input device file (system can see key presses and doesn't block other programs from reading them):
 
