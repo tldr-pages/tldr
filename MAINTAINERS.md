@@ -92,6 +92,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [14 January 2025](https://github.com/tldr-pages/tldr/issues/15514) — present
 - **Amine LOUHICHI ([@aminelch](https://github.com/aminelch))**:
 [08 April 2025](https://github.com/tldr-pages/tldr/issues/16126) — present
+- **Dylan McGivern ([@dmmqz](https://github.com/dmmqz))**:
+  [30 May 2025](https://github.com/tldr-pages/tldr/issues/16671) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
