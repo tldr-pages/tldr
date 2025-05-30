@@ -1,8 +1,7 @@
 # mux
 
 > A interception tool for multiplexing streams of input events.
-> More information: <https://gitlab.com/interception/linux/tools/-/blob/master/mux.cpp?ref_type=heads>.
-> More information: <https://github.com/meicale/Interception-Tools/blob/master/mux.cpp>.
+> More information: <https://gitlab.com/interception/linux/tools/-/tree/master?ref_type=heads#mux>.
 
 - Create a new muxer with a specified name (can be repeated to create multiple):
 
