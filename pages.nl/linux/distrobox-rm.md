@@ -5,8 +5,8 @@
 
 - Verwijder een Distrobox container (Tip: Stop de container voordat je hem verwijdert):
 
-`distrobox-rm {{container_name}}`
+`distrobox-rm {{container_naam}}`
 
 - Verwijder een Distrobox container geforceerd:
 
-`distrobox-rm {{container_name}} {{[-f|--force]}}`
+`distrobox-rm {{container_naam}} {{[-f|--force]}}`
