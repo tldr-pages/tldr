@@ -26,7 +26,7 @@
 
 - Enlaza y compila múltiples archivos en un ejecutable:
 
-`g++ {{[-c|--compile]}} {{ruta/al/código_fuente1.cpp ruta/al/código_fuente2.cpp ...}} && g++ {{[-o|--output]}} {{ruta/al/ejecutable}} {{ruta/al/códigofuente1.o ruta/al/código_fuente2.o ...}}`
+`g++ {{[-c|--compile]}} {{ruta/al/código_fuente1.cpp ruta/al/código_fuente2.cpp ...}} && g++ {{[-o|--output]}} {{ruta/al/ejecutable}} {{ruta/al/código_fuente1.o ruta/al/código_fuente2.o ...}}`
 
 - Optimiza el programa compilado para mejorar la velocidad de ejecución:
 
