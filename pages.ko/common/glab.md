@@ -2,7 +2,7 @@
 
 > GitLab으로 원활하게 작업.
 > `config`와 같은 일부 하위 명령에는 자체 사용법 문서가 있음.
-> 더 많은 정보: <https://github.com/profclems/glab>.
+> 더 많은 정보: <https://gitlab.com/gitlab-org/cli/-/tree/main/docs/source>.
 
 - 로컬에서 GitLab 저장소를 복제:
 

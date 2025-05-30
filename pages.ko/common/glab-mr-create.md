@@ -1,7 +1,7 @@
 # glab mr create
 
 > GitLab 병합 요청을 관리.
-> 더 많은 정보: <https://glab.readthedocs.io/en/latest/mr/create.html>.
+> 더 많은 정보: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/create.md>.
 
 - 대화형으로 병합 요청을 생성:
 
