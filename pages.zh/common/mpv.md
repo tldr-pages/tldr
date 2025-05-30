@@ -2,7 +2,7 @@
 
 > 一个基于 MPlayer 的音频/视频播放器。
 > 请参阅：`mplayer`, `vlc`。
-> 更多信息：<https://mpv.io>.
+> 更多信息：<https://mpv.io/manual/stable/>.
 
 - 从 URL 或文件播放视频或音频：
 
