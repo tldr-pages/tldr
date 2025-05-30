@@ -14,4 +14,4 @@
 
 - Betreed een Distrobox container zonder een tty the instanteren:
 
-`distrobox-enter --name {{container_name}} -- {{uptime -p}}`
+`distrobox-enter {{[-n|--name]}} {{container_name}} -- {{uptime --pretty}}`

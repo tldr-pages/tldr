@@ -6,8 +6,8 @@
 
 - Maak een Distrobox container met behulp van het Ubuntu image:
 
-`distrobox-create {{container_name}} --image {{ubuntu:latest}}`
+`distrobox-create {{container_name}} {{[-i|--image]}} {{ubuntu:latest}}`
 
 - Kloon een Distrobox container:
 
-`distrobox-create --clone {{container_name}} {{cloned_container_name}}`
+`distrobox-create {{[-c|--clone]}} {{container_name}} {{cloned_container_name}}`
