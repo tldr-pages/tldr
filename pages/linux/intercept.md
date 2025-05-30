@@ -5,4 +5,4 @@
 
 - Read and output raw input events from a given input device file:
 
-`intercept {{/dev/input?eventX}}`
+`intercept -g {{/dev/input?eventX}}`
