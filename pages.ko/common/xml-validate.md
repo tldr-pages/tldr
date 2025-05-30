@@ -1,7 +1,7 @@
 # xml validate
 
 > XML 문서 유효성 검사.
-> 더 많은 정보: <https://xmlstar.sourceforge.net/docs.php>.
+> 더 많은 정보: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139576400>.
 
 - 하나 이상의 XML 문서가 잘 형성되었는지 검사:
 

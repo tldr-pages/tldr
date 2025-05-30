@@ -1,7 +1,7 @@
 # xml elements
 
 > XML 문서의 요소를 추출하고 구조를 표시합니다.
-> 더 많은 정보: <https://xmlstar.sourceforge.net/docs.php>.
+> 더 많은 정보: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139665568>.
 
 - XML 문서에서 요소 추출 (XPATH 표현 생성):
 

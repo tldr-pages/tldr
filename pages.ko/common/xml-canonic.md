@@ -1,7 +1,7 @@
 # xml canonic
 
 > XML 문서를 정규화.
-> 더 많은 정보: <https://xmlstar.sourceforge.net/docs.php>.
+> 더 많은 정보: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139560880>.
 
 - XML 문서를 정규화하여 주석을 보존:
 

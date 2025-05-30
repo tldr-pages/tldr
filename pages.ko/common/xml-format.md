@@ -1,7 +1,7 @@
 # xml format
 
 > XML 문서를 포맷합니다.
-> 더 많은 정보: <https://xmlstar.sourceforge.net/docs.php>.
+> 더 많은 정보: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139569312>.
 
 - XML 문서를 탭으로 들여쓰기하여 포맷:
 

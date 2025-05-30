@@ -1,7 +1,7 @@
 # xml depyx
 
 > PYX (ESIS - ISO 8879) 문서를 XML 형식으로 변환.
-> 더 많은 정보: <https://xmlstar.sourceforge.net/docs.php>.
+> 더 많은 정보: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139550832>.
 
 - PYX (ESIS - ISO 8879) 문서를 XML 형식으로 변환:
 
