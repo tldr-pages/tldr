@@ -17,4 +17,4 @@
 
 - Deel je terminal sessie in real-time:
 
-`mkfifo {{pad/naar/pipe}}; script -f {{pad/naar/pipe}}`
+`mkfifo {{pad/naar/pipe}}; script {{[-f|--flush]}} {{pad/naar/pipe}}`
