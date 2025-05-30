@@ -9,15 +9,15 @@
 
 - Imprime todos los paquetes instalados incluyendo las dependencias de pares:
 
-`npm ls --all`
+`npm ls {{[-a|--all]}}`
 
 - Imprime las dependencias con información ampliada:
 
-`npm ls --long`
+`npm ls {{[-l|--long]}}`
 
-- Imprime las dependencias en formato parseable:
+- Imprime las dependencias en formato analizable:
 
-`npm ls --parseable`
+`npm ls {{[-p|--parseable]}}`
 
 - Imprime dependencias en formato JSON:
 
