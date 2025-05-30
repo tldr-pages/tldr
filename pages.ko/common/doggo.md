@@ -22,4 +22,4 @@
 
 - 역방향 DNS 조회를 수행:
 
-`doggo {{[-x|--reverse]}} --short`
+`doggo {{[-x|--reverse]}} {{8.8.4.4}} --short`
