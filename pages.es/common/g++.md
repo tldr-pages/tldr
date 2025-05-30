@@ -22,7 +22,7 @@
 
 - Incluye bibliotecas de una ruta diferente:
 
-`g++ {{ruta/al/código_fuente.cpp}} {{[-o|--output]}} {{ruta/al/ejecutable}} -I{{ruta/a/header}} -L{{ruta/a/la/biblioteca}} -l{{nombre_de_la_biblioteca}}`
+`g++ {{ruta/al/código_fuente.cpp}} {{[-o|--output]}} {{ruta/al/ejecutable}} -I{{ruta/al/encabezado}} -L{{ruta/a/la/biblioteca}} -l{{nombre_de_la_biblioteca}}`
 
 - Enlaza y compila múltiples archivos en un ejecutable:
 
