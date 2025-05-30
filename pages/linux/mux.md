@@ -9,7 +9,7 @@
 
 - Set the muxer's internal queue size (default is 100):
 
-`mux -s {{size}}`
+`mux -- size {{size}}`
 
 - Read input from a named muxer (can be repeated in "switch mode"):
 
