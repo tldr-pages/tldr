@@ -2,7 +2,7 @@
 
 > 오픈 브로드캐스터 소프트웨어.
 > 비디오 녹화 및 라이브 스트리밍 프로그램.
-> 더 많은 정보: <https://obsproject.com/>.
+> 더 많은 정보: <https://obsproject.com/kb/launch-parameters>.
 
 - OBS 실행:
 
@@ -10,7 +10,7 @@
 
 - OBS를 포터블 모드로 실행:
 
-`obs --portable`
+`obs {{[-p|--portable]}}`
 
 - 실행 시 자동으로 비디오 녹화를 시작:
 
