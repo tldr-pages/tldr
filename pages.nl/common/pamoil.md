@@ -9,4 +9,4 @@
 
 - Beschouw een omgeving van N pixels voor het "smearing"-effect:
 
-`pamoil -n {{N}} {{pad/naar/invoer_bestand.pam}} > {{pad/naar/uitvoer_bestand.pam}}`
+`pamoil -n {{n}} {{pad/naar/invoer_bestand.pam}} > {{pad/naar/uitvoer_bestand.pam}}`

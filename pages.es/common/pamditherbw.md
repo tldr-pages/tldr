@@ -14,8 +14,8 @@
 
 - Utiliza el método de cuantización de atkinson y la semilla especificada para un generador de número pseudo-aleatorio:
 
-`ppmditherbw -atkinson -randomseed {{1337}} {{ruta/a/la/imagen.pgm}} > {{ruta/al/archivo.pgm}}`
+`ppmditherbw {{[-a|-atkinson]}} {{[-r|-randomseed]}} {{1337}} {{ruta/a/la/imagen.pgm}} > {{ruta/al/archivo.pgm}}`
 
 - Especifica el valor de umbralización (thresholding) para los métodos de cuantización que realizan algún tipo de umbralización:
 
-`ppmditherbw -{{fs|atkinson|thresholding}} -value {{0.3}} {{ruta/a/la/imagen.pgm}} > {{ruta/al/archivo.pgm}}`
+`ppmditherbw -{{fs|atkinson|thresholding}} {{[-va|-value]}} {{0.3}} {{ruta/a/la/imagen.pgm}} > {{ruta/al/archivo.pgm}}`

@@ -9,12 +9,12 @@
 
 - 오버레이의 수평 정렬 설정:
 
-`pamcomp -align {{left|center|right|beyondleft|beyondright}} -xoff {{수평_오프셋}} {{경로/대상/오버레이.pam}} {{경로/대상/언더레이.pam}} > {{경로/대상/출력.pam}}`
+`pamcomp {{[-ali|-align]}} {{left|center|right|beyondleft|beyondright}} {{[-x|-xoff]}} {{수평_오프셋}} {{경로/대상/오버레이.pam}} {{경로/대상/언더레이.pam}} > {{경로/대상/출력.pam}}`
 
 - 오버레이의 수직 정렬 설정:
 
-`pamcomp -valign {{top|middle|bottom|above|below}} -yoff {{수직_오프셋}} {{경로/대상/오버레이.pam}} {{경로/대상/언더레이.pam}} > {{경로/대상/출력.pam}}`
+`pamcomp {{[-va|-valign]}} {{top|middle|bottom|above|below}} {{[-y|-yoff]}} {{수직_오프셋}} {{경로/대상/오버레이.pam}} {{경로/대상/언더레이.pam}} > {{경로/대상/출력.pam}}`
 
 - 오버레이의 불투명도 설정:
 
-`pamcomp -opacity {{0.7}} {{경로/대상/오버레이.pam}} {{경로/대상/언더레이.pam}} > {{경로/대상/출력.pam}}`
+`pamcomp {{[-o|-opacity]}} {{0.7}} {{경로/대상/오버레이.pam}} {{경로/대상/언더레이.pam}} > {{경로/대상/출력.pam}}`
