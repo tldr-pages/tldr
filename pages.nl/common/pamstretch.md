@@ -6,8 +6,8 @@
 
 - Vergroot een PAM afbeelding met een gehele factor:
 
-`pamstretch {{N}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamstretch {{n}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.pam}}`
 
 - Vergroot een PAM afbeelding met de gespecificeerde factoren in de horizontale en verticale richtingen:
 
-`pamstretch -xscale {{XN}} -yscale {{YN}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamstretch {{[-x|-xscale]}} {{xn}} {{[-y|-yscale]}} {{yn}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.pam}}`

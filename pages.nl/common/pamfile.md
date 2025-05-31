@@ -9,8 +9,8 @@
 
 - Beschrijf iedere afbeelding in ieder invoerbestand (in tegenstelling tot alleen de eerste afbeelding in elk bestand) in een machine-leesbaar formaat:
 
-`pamfile -allimages -machine {{pad/naar/bestand}}`
+`pamfile {{[-a|-allimages]}} -machine {{pad/naar/bestand}}`
 
 - Toon hoeveel afbeeldingen de invoerbestanden bevatten:
 
-`pamfile -count {{pad/naar/bestand}}`
+`pamfile {{[-cou|-count]}} {{pad/naar/bestand}}`
