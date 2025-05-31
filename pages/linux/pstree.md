@@ -25,4 +25,4 @@
 
 - Display parents of a specified process:
 
-`pstree -s $$ {{pid}}`
+`pstree {{[-s|--show-parents]}} $$ {{pid}}`
