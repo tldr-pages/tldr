@@ -7,10 +7,6 @@
 
 `iwctl`
 
-- Call general help:
-
-`iwctl {{[-h|--help]}}`
-
 - Display your Wi-Fi stations:
 
 `iwctl station list`
@@ -26,3 +22,7 @@
 - Connect to a network with a station, if credentials are needed they will be asked:
 
 `iwctl station {{station}} connect {{network_name}}`
+
+- Display help:
+
+`iwctl {{[-h|--help]}}`
