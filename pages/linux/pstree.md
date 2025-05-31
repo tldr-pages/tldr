@@ -19,10 +19,10 @@
 
 `pstree -a`
 
-- Display child processes of the shell:
+- Display childs of a specified process:
 
-`pstree $$`
+`pstree {{pid}}`
 
-- Display parent processes of the shell:
+- Display parents of a specified process:
 
-`pstree -s $$`
+`pstree -s $$ {{pid}}`
