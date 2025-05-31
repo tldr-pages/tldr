@@ -1,7 +1,7 @@
 # tlmgr update
 
 > TeX Live 패키지 업데이트.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#update-option...-pkg>.
 
 - 모든 TeX Live 패키지를 업데이트:
 

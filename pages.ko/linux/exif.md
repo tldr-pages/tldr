@@ -1,7 +1,7 @@
 # exif
 
 > JPEG 파일의 EXIF 정보를 표시하고 변경.
-> 더 많은 정보: <https://github.com/libexif/exif/>.
+> 더 많은 정보: <https://manned.org/exif>.
 
 - 이미지에서 인식된 모든 EXIF 정보 표시:
 

@@ -14,19 +14,19 @@
 
 - Roep een specifiek doel aan en voer 4 taken tegelijk uit in parallel:
 
-`make -j{{4}} {{doel}}`
+`make {{[-j|--jobs]}} 4 {{doel}}`
 
 - Gebruik een specifieke Makefile:
 
-`make --file {{pad/naar/bestand}}`
+`make {{[-f|--file]}} {{pad/naar/bestand}}`
 
 - Voer make uit vanuit een andere map:
 
-`make --directory {{pad/naar/map}}`
+`make {{[-C|--directory]}} {{pad/naar/map}}`
 
 - Forceer het maken van een doel, zelfs als bronbestanden ongewijzigd zijn:
 
-`make --always-make {{doel}}`
+`make {{[-B|--always-make]}} {{doel}}`
 
 - Overschrijf een variabele die in de Makefile is gedefinieerd:
 
@@ -34,4 +34,4 @@
 
 - Overschrijf variabelen die in de Makefile zijn gedefinieerd door de omgeving:
 
-`make --environment-overrides {{doel}}`
+`make {{[-e|--environment-overrides]}} {{doel}}`
