@@ -7,18 +7,18 @@
 
 `claude prompt`
 
-- `claude`を更新する：
+- `claude`を更新する:
 
 `claude update`
 
-- 設定されたMCPサーバ一覧を取得する：
+- 設定されたMCPサーバ一覧を取得する:
 
 `claude mcp list`
 
-- 一つのコミットでコマンドを作成
+- 一つのコミットでコマンドを作成:
 
 `claude commit`
 
-- 設定を取得する
+- 設定を取得する:
 
 `claude config list`
