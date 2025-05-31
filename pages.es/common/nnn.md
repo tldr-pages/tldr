@@ -2,7 +2,7 @@
 
 > Gestor de archivos de terminal interactivo y analizador de uso de disco.
 > Vea también: `clifm`, `mc`, `ranger`, `vifm`.
-> Más información: <https://github.com/jarun/nnn>.
+> Más información: <https://github.com/jarun/nnn/wiki/Usage#program-options>.
 
 - Abre el directorio actual (o especifica uno como primer argumento):
 

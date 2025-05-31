@@ -1,7 +1,7 @@
 # rofi
 
 > Un lanzador de aplicaciones y conmutador de ventanas.
-> Más información: <https://github.com/davatorium/rofi>.
+> Más información: <https://github.com/davatorium/rofi#manpage>.
 
 - Muestra la lista de aplicaciones:
 
