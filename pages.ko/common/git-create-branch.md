@@ -2,7 +2,7 @@
 
 > 리포지토리에 Git 브랜치 생성.
 > `git-extras`의 일부.
-> 더 많은 정보: <https://github.com/tj/git-extras/blob/master/Commands.md#git-create-branch>.
+> 더 많은 정보: <https://manned.org/git-create-branch>.
 
 - 로컬 브랜치 생성:
 

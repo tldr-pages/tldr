@@ -2,7 +2,7 @@
 
 > `tlmgr`의 그래픽 사용자 인터페이스를 시작.
 > `tlmgr gui`는 수동으로 설치해야 하는 `perl-tk` 패키지에 의존.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#gui>.
 
 - `tlmgr`를 위한 GUI 시작:
 

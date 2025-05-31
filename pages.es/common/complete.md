@@ -1,7 +1,7 @@
 # complete
 
 > Autocompleta argumentos para comandos de la interfaz interactiva (shell).
-> Más información: <https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html>.
+> Más información: <https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html#index-complete>.
 
 - Aplica una función que realiza autocompletado a un comando:
 
