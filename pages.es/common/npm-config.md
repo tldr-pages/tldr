@@ -17,7 +17,7 @@
 
 - Establece una clave de configuración a un valor específico:
 
-`npm config set {{clave}}={{valor}}`
+`npm config set {{clave}} {{valor}}`
 
 - Elimina una clave de configuración:
 
