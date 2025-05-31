@@ -9,15 +9,15 @@
 
 - Test alleen op specifieke omgevingen:
 
-`pio test --environment {{omgeving1}} --environment {{omgeving2}}`
+`pio test {{[-e|--environment]}} {{omgeving1}} {{[-e|--environment]}} {{omgeving2}}`
 
 - Voer alleen testen uit die qua naam overeenkomen met een specifiek glob patroon:
 
-`pio test --filter "{{patroon}}"`
+`pio test {{[-f|--filter]}} "{{patroon}}"`
 
 - Negeer testen die qua naam overeenkomen met een specifiek glob patroon:
 
-`pio test --ignore "{{patroon}}"`
+`pio test {{[-i|--ignore]}} "{{patroon}}"`
 
 - Specificeer een poort voor firmware uploading:
 
@@ -25,4 +25,4 @@
 
 - Specificeer een aangepast configuratiebestand voor het uitvoeren van de testen:
 
-`pio test --project-conf {{pad/naar/platformio.ini}}`
+`pio test {{[-c|--project-conf]}} {{pad/naar/platformio.ini}}`
