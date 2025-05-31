@@ -7,7 +7,7 @@
 
 `uinput -p`
 
-- Merge YAML device description(s) to resulting virtual device (repeatable):
+- Merge YAML device description(s) to resulting virtual device:
 
 `sudo uinput -c {{device.yaml}}`
 
