@@ -1,7 +1,7 @@
 # claude
 
 > コードベースを理解し、自然言語コマンドを通じてより速くコーディングできるようサポートするエージェント型コーディングツールです。
-> もっと詳しく: <https://docs.anthropic.com/ja/docs/claude-code/overview>
+> もっと詳しく: <https://docs.anthropic.com/ja/docs/claude-code/overview>。
 
 - プロンプトを指定して実行する:
 
