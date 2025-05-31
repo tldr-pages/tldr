@@ -2,7 +2,7 @@
 
 > XPATH를 사용하여 XML 문서에서 선택.
 > 팁: XML 문서의 XPATH를 표시하려면 `xml elements`를 사용하세요.
-> 더 많은 정보: <https://xmlstar.sourceforge.net/docs.php>.
+> 더 많은 정보: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139652416>.
 
 - "XPATH1"과 일치하는 모든 요소를 선택하고 그 하위 요소 "XPATH2"의 값을 출력:
 

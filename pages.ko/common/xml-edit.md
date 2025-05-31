@@ -1,7 +1,7 @@
 # xml edit
 
 > XML 문서 편집.
-> 더 많은 정보: <https://xmlstar.sourceforge.net/docs.php>.
+> 더 많은 정보: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139594320>.
 
 - XML 문서에서 XPATH와 일치하는 요소 삭제:
 

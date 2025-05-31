@@ -1,7 +1,7 @@
 # xml list
 
 > 디렉토리의 내용을 XML 형식으로 나열 (예: `ls`).
-> 더 많은 정보: <https://xmlstar.sourceforge.net/docs.php>.
+> 더 많은 정보: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139535968>.
 
 - 현재 디렉토리의 목록을 XML 문서로 작성:
 
