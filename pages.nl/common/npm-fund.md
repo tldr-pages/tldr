@@ -13,4 +13,4 @@
 
 - Toon afhankelijkheden met een financierings-URL voor een specifieke [w]orkspace voor het project in de huidige directory:
 
-`npm fund -w {{workspace}}`
+`npm fund {{[-w|--workspace]}} {{workspace}}`
