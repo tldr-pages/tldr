@@ -2,7 +2,7 @@
 
 > Crack WEP and WPA/WPA2 keys from handshake in captured packets.
 > Part of Aircrack-ng network software suite.
-> More information: <https://www.aircrack-ng.org/doku.php>.
+> More information: <https://www.aircrack-ng.org/doku.php?id=aircrack-ng>.
 
 - Crack key from capture file using [w]ordlist:
 
