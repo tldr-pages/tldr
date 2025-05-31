@@ -18,4 +18,4 @@
 
 - Reduce el tamaño de un volumen lógico así como a los sistemas subyacentes en 120 GB:
 
-`lvresize --size -{{120G}} -resizefs {{grupo_de_volumen}}/{{volumen_logico}}`
+`lvresize --size -{{120G}} --resizefs {{grupo_de_volumen}}/{{volumen_logico}}`
