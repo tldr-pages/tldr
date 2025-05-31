@@ -9,7 +9,7 @@
 
 - Toon alle beschikbare project doelen voor een specifieke omgeving:
 
-`pio run --list-targets --environment {{omgeving}}`
+`pio run --list-targets {{[-e|--environment]}} {{omgeving}}`
 
 - Voer alle doelen uit:
 
@@ -17,12 +17,12 @@
 
 - Voer alle doelen uit voor de gespecificeerde omgevingen:
 
-`pio run --environment {{omgeving1}} --environment {{omgeving2}}`
+`pio run {{[-e|--environment]}} {{omgeving1}} {{[-e|--environment]}} {{omgeving2}}`
 
 - Voer gespecificeerde doelen uit:
 
-`pio run --target {{doel1}} --target {{doel2}}`
+`pio run {{[-t|--target]}} {{doel1}} {{[-t|--target]}} {{doel2}}`
 
 - Voer de doelen uit van een specifiek configuratiebestand:
 
-`pio run --project-conf {{pad/naar/platformio.ini}}`
+`pio run {{[-c|--project-conf]}} {{pad/naar/platformio.ini}}`
