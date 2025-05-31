@@ -13,4 +13,4 @@
 
 - Merge reference device description from device node(s) to resulting virtual device:
 
-`sudo uinput -d {{devnode1 devnode2 ...}}`
+`sudo uinput -d {{/dev/input/eventX}}`
