@@ -15,7 +15,7 @@
 
 `pstree {{user}}`
 
-- Display command line arguments
+- Display command line arguments:
 
 `pstree -a`
 
@@ -23,6 +23,6 @@
 
 `pstree $$`
 
-- Display parent processes of the shell
+- Display parent processes of the shell:
 
 `pstree -s $$`
