@@ -9,7 +9,7 @@
 
 - Merge YAML device description(s) to resulting virtual device:
 
-`sudo uinput -c {{device.yaml}}`
+`sudo uinput -c {{path/to/device1.yaml path/to/device2.yaml ...}}`
 
 - Merge reference device description from device node(s) to resulting virtual device:
 
