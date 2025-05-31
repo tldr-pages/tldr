@@ -4,30 +4,30 @@
 > Bekijk ook: `unzip`.
 > Meer informatie: <https://manned.org/zip>.
 
-- Voeg bestanden/directories toe aan een specifiek archief ([r]ecursief):
+- Voeg bestanden/mappen toe aan een specifiek archief:
 
-`zip -r {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_directory1 pad/naar/bestand_of_directory2 ...}}`
+`zip {{[-r|--recurse-paths]}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
-- Verwijder bestanden/directories uit een specifiek archief ([d]elete):
+- Verwijder bestanden/mappen uit een specifiek archief:
 
-`zip -d {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_directory1 pad/naar/bestand_of_directory2 ...}}`
+`zip {{[-d|--delete]}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
-- Archiveer bestanden/directories waarbij opgegeven bestanden worden uitgesloten:
+- Archiveer bestanden/mappen waarbij opgegeven bestanden worden uitgesloten:
 
-`zip -r {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_directory1 pad/naar/bestand_of_directory2 ...}} -x {{pad/naar/uitgesloten_bestanden_of_directories}}`
+`zip {{[-r|--recurse-paths]}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}} {{[-x|--exclude]}} {{pad/naar/uitgesloten_bestanden_of_mappen}}`
 
-- Archiveer bestanden/directories met een specifieke compressieniveau (`0` - het laagste, `9` - het hoogste):
+- Archiveer bestanden/mappen met een specifieke compressieniveau (`0` - het laagste, `9` - het hoogste):
 
-`zip -r -{{0..9}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_directory1 pad/naar/bestand_of_directory2 ...}}`
+`zip {{[-r|--recurse-paths]}} -{{0..9}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
-- Maak een [e]ncrypted archief met een specifiek wachtwoord:
+- Maak een encrypted archief met een specifiek wachtwoord:
 
-`zip -r -e {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_directory1 pad/naar/bestand_of_directory2 ...}}`
+`zip {{[-re|--recurse-paths --encrypt]}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
-- Archiveer bestanden/directories in een multipart [s]plit Zip-archief (bijv. 3 GB delen):
+- Archiveer bestanden/mappen in een multipart split Zip-archief (bijv. 3 GB delen):
 
-`zip -r -s {{3g}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_directory1 pad/naar/bestand_of_directory2 ...}}`
+`zip {{[-rs|--recurse-paths --split-size]}} {{3g}} {{pad/naar/gecomprimeerd.zip}} {{pad/naar/bestand_of_map1 pad/naar/bestand_of_map2 ...}}`
 
 - Print de inhoud van een specifiek archief:
 
-`zip -sf {{pad/naar/gecomprimeerd.zip}}`
+`zip {{[-sf|--split-size --freshen]}} {{pad/naar/gecomprimeerd.zip}}`

@@ -11,14 +11,14 @@
 
 `mac-cleanup {{[-c|--configure]}}`
 
-- Perform a dry-ru[n], showing what will be removed without actually deleting it:
+- Perform a dry-run, showing what will be removed without actually deleting it:
 
 `mac-cleanup {{[-n|--dry-run]}}`
 
-- Specify the directory with custom cleanup [p]ath:
+- Specify the directory with custom cleanup path:
 
 `mac-cleanup {{[-p|--custom-path]}} {{path/to/directory}}`
 
-- Automatically acknowledge all warnings and continue with [f]orce:
+- Automatically acknowledge all warnings and continue with force:
 
-`mac-cleanup -f`
+`mac-cleanup {{[-f|--force]}}`

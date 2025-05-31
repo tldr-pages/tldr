@@ -9,4 +9,4 @@
 
 - Display username of the current user in the specific registry:
 
-`npm whoami --registry={{registry_url}}`
+`npm whoami --registry {{registry_url}}`

@@ -1,7 +1,7 @@
 # tlmgr dump-tlpdb
 
 > TeX Live 패키지 데이터베이스 덤프.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#dump-tlpdb-option...---json>.
 
 - 로컬 패키지 데이터베이스 덤프:
 

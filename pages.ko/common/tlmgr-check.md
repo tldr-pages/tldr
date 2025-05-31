@@ -1,7 +1,7 @@
 # tlmgr check
 
 > TeX Live 설치의 일관성을 검사.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#check-option...-depends-executes-files-runfiles-texmfdbs-all>.
 
 - 전체 TeX Live 설치의 일관성을 검사:
 
