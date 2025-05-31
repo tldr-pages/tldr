@@ -11,6 +11,6 @@
 
 `sudo uinput -c {{device.yaml}}`
 
-- Merge reference device description from device node(s) to resulting virtual device (repeatable):
+- Merge reference device description from device node(s) to resulting virtual device:
 
-`sudo uinput -d {{devnode}}`
+`sudo uinput -d {{devnode1 devnode2 ...}}`
