@@ -19,7 +19,7 @@
 
 `pstree -a`
 
-- Display childs of a specified process:
+- Display children of a specified process:
 
 `pstree {{pid}}`
 
