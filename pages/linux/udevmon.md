@@ -6,4 +6,4 @@
 
 - Start udevmon with specified configuration file:
 
-`udevmon -c {{config_file_path}}`
+`udevmon -c {{path/to/config.yaml}}`
