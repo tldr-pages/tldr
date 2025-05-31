@@ -17,7 +17,7 @@
 
 - Display command line arguments:
 
-`pstree -a`
+`pstree {{[-a|--arguments]}}`
 
 - Display children of a specified process:
 
