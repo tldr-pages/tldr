@@ -10,13 +10,13 @@
 
 - Start een nieuwe Remote Agent met een specifieke naam en deel deze met vrienden:
 
-`pio remote agent start --name {{agent_naam}} --share {{example1@example.com}} --share {{example2@example.com}}`
+`pio remote agent start {{[-n|--name]}} {{agent_naam}} {{[-s|--share]}} {{example1@example.com}} {{[-s|--share]}} {{example2@example.com}}`
 
 - Toon alle apparaten van een specifieke Agents (laat `--agent` weg voor alle Agents):
 
 `pio remote --agent {{agent_naam1}} --agent {{agent_naam2}} device list`
 
-- Verbind met een seriele poort van een remote apparaat:
+- Verbind met een seriële poort van een remote apparaat:
 
 `pio remote --agent {{agent_naam}} device monitor`
 
