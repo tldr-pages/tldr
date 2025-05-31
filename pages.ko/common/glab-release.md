@@ -1,7 +1,7 @@
 # glab release
 
 > GitLab 배포 관맄.
-> 더 많은 정보: <https://glab.readthedocs.io/en/latest/release>.
+> 더 많은 정보: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/release/index.md>.
 
 - Gitlab 저장소의 릴리스 목록은 30개 항목으로 제한됨:
 

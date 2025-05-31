@@ -1,7 +1,7 @@
 # glab issue
 
 > GitLab 이슈 관리.
-> 더 많은 정보: <https://glab.readthedocs.io/en/latest/issue>.
+> 더 많은 정보: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/issue/index.md>.
 
 - 특정 이슈 표시:
 

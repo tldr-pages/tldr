@@ -1,7 +1,7 @@
 # glab mr merge
 
 > GitLab 병합 요청을 관리.
-> 더 많은 정보: <https://glab.readthedocs.io/en/latest/mr/merge.html>.
+> 더 많은 정보: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/merge.md>.
 
 - 현재 브랜치와 관련된 병합 요청을 대화식으로 병합:
 

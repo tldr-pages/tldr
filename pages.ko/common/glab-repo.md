@@ -1,7 +1,7 @@
 # glab repo
 
 > GitLab 레포지토리 작업.
-> 더 많은 정보: <https://glab.readthedocs.io/en/latest/repo/index.html#synopsis>.
+> 더 많은 정보: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/repo/index.md>.
 
 - 새로운 저장소를 생성 (저장소 이름이 설정되지 않은 경우, 기본 이름은 현재 디렉터리의 이름이 됨):
 
