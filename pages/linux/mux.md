@@ -3,7 +3,7 @@
 > Intercept and multiplex streams of input events.
 > More information: <https://gitlab.com/interception/linux/tools/-/tree/master?ref_type=heads#mux>.
 
-- Create a new muxer with a specified name (can be repeated to create multiple):
+- Create a new muxer with a specified name:
 
 `mux -c {{muxer_name1 muxer_name2 ...}}`
 
