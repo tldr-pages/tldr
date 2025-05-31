@@ -1,7 +1,7 @@
 # yay
 
 > Yet Another Yogurt: build and install packages from the Arch User Repository.
-> Also see `pacman`.
+> See also: `pacman`.
 > More information: <https://github.com/Jguer/yay>.
 
 - Interactively search and install packages from the repos and AUR:
