@@ -5,7 +5,7 @@
 
 - Registreer een nieuw PlatformIO account:
 
-`pio account register --username {{gebruikersnaam}} --email {{email}} --password {{wachtwoord}} --firstname {{voornaam}} --lastname {{achternaam}}`
+`pio account register {{[-u|--username]}} {{gebruikersnaam}} {{[-e|--email]}} {{email}} {{[-p|--password]}} {{wachtwoord}} --firstname {{voornaam}} --lastname {{achternaam}}`
 
 - Verwijder permanent je PlatformIO account en gerelateerde data:
 
@@ -13,7 +13,7 @@
 
 - Log in bij je PlatformIO account:
 
-`pio account login --username {{gebruikersnaam}} --password {{wachtwoord}}`
+`pio account login {{[-u|--username]}} {{gebruikersnaam}} {{[-p|--password]}} {{wachtwoord}}`
 
 - Log uit bij je PlatformIO account:
 
@@ -21,7 +21,7 @@
 
 - Update je PlatformIO profiel:
 
-`pio account update --username {{gebruikersnaam}} --email {{email}} --firstname {{voornaam}} --lastname {{achternaam}} --current-password {{wachtwoord}}`
+`pio account update {{[-u|--username]}} {{gebruikersnaam}} {{[-e|--email]}} {{email}} --firstname {{voornaam}} --lastname {{achternaam}} --current-password {{wachtwoord}}`
 
 - Toon gedetailleerde informatie over je PlatformIO account:
 
@@ -29,4 +29,4 @@
 
 - Reset je wachtwoord door gebruik te maken van je gebruikersnaam of email:
 
-`pio account forgot --username {{gebruikersnaam_of_email}}`
+`pio account forgot {{[-u|--username]}} {{gebruikersnaam_of_email}}`
