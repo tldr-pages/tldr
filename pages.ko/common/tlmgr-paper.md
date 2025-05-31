@@ -1,7 +1,7 @@
 # tlmgr paper
 
 > TeX Live 설치의 용지 크기 옵션 관리.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#paper>.
 
 - 모든 TeX Live 프로그램에서 사용되는 기본 용지 크기 표시:
 

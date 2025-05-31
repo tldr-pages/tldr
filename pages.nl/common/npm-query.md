@@ -25,8 +25,8 @@
 
 - Zoek alle afhankelijkheden met postinstall-scripts en verwijder ze:
 
-`npm query ":attr(scripts, [postinstall])" | jq 'map(.name) | join("\n")' -r | xargs -I {} npm uninstall {}`
+`npm query ":attr(scripts, [postinstall])" | jq 'map(.name) | join("\n")' {{[-r|--raw-output]}} | xargs -I _ npm uninstall _`
 
 - Zoek alle Git-afhankelijkheden en print welke applicatie ze vereist:
 
-`npm query ":type(git)" | jq 'map(.name)' | xargs -I {} npm why {}`
+`npm query ":type(git)" | jq 'map(.name)' | xargs -I _ npm why _`
