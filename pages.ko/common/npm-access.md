@@ -17,7 +17,7 @@
 
 - 패키지 상태 설정 (공개 또는 비공개):
 
-`npm access set status={{public|private}} {{패키지_이름}}`
+`npm access set status {{public|private}} {{패키지_이름}}`
 
 - 패키지에 대한 접근 권한 부여:
 
@@ -29,4 +29,4 @@
 
 - 2단계 인증 요구 사항 구성:
 
-`npm access set mfa={{none|publish|automation}} {{패키지_이름}}`
+`npm access set mfa {{none|publish|automation}} {{패키지_이름}}`
