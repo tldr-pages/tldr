@@ -10,11 +10,11 @@
 
 - Forceer de helderste pixels om wit te zijn, de donkerste pixels om zwart te zijn en verspreid de tussenliggende pixels kwadratisch zodat pixels met een helderheid van `n` 50% helderder worden:
 
-`pnmnorm -midvalue {{n}} {{pad/naar/afbeelding.pnm}} > {{pad/naar/uitvoer.pnm}}`
+`pnmnorm {{[-midv|-midvalue]}} {{n}} {{pad/naar/afbeelding.pnm}} > {{pad/naar/uitvoer.pnm}}`
 
 - Behoud de tint van de pixels, pas alleen de helderheid aan:
 
-`pnmnorm -keephues {{pad/naar/afbeelding.pnm}} > {{pad/naar/uitvoer.pnm}}`
+`pnmnorm {{[-k|-keephues]}} {{pad/naar/afbeelding.pnm}} > {{pad/naar/uitvoer.pnm}}`
 
 - Specificeer een methode om de helderheid van een pixel te berekenen:
 
