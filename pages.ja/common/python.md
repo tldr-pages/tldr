@@ -1,7 +1,7 @@
 # python
 
-> Python language インタプリタ.
-> もっと詳しく: <https://www.python.org>.
+> Python language インタプリタ。
+> もっと詳しく: <https://www.python.org>。
 
 - REPLを開始する (インタラクティブ):
 
