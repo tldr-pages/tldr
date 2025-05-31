@@ -5,7 +5,7 @@
 
 - Create a new muxer with a specified name (can be repeated to create multiple):
 
-`mux -c {{muxer_name}}`
+`mux -c {{muxer_name1 muxer_name2 ...}}`
 
 - Set the muxer's internal queue size (default is 100):
 
