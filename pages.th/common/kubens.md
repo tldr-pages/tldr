@@ -1,7 +1,7 @@
 # kubens
 
 > คำสั่งอรรถประโยชน์สำหรับสลับเนมสเปซของ Kubernetes
-> ข้อมูลเพิ่มเติม: <https://github.com/ahmetb/kubectx>
+> ข้อมูลเพิ่มเติม: <https://manned.org/kubens>
 
 - แสดงเนมสเปซทั้งหมด:
 

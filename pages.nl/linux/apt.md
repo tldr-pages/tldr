@@ -9,7 +9,7 @@
 
 `sudo apt update`
 
-- Zoek naar een specifiek pakket:
+- Zoek naar een specifiek pakket (gebruik `apt search --name-only pakket` om alleen op pakketnaam te zoeken):
 
 `apt search {{pakket}}`
 
@@ -29,10 +29,10 @@
 
 `sudo apt upgrade`
 
-- Maak een lijst van alle pakketten:
+- Toon alle pakketten:
 
 `apt list`
 
-- Maak een lijst van alle geïnstalleerde pakketten:
+- Toon alle geïnstalleerde pakketten:
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`
