@@ -1,7 +1,7 @@
 # asterisk
 
 > Ejecuta y administra instancias de servidores telefónicos e intercambiadores (teléfonos).
-> Más información: <https://docs.asterisk.org>.
+> Más información: <https://docs.asterisk.org/Operation/>.
 
 - [R]econecta a un servidor en ejecución y activa el registro con 3 niveles de [v]erbosidad:
 
