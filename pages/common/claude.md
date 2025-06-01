@@ -7,7 +7,7 @@
 
 `claude prompt`
 
-- Update`claude`:
+- Update `claude`:
 
 `claude update`
 
