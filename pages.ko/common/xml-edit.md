@@ -21,7 +21,7 @@
 
 - "id=3"인 XML 테이블 레코드를 "id=5" 값으로 업데이트:
 
-`xml {{[ed|edit]}} {{[-u|--update]}} "{{xml/table/rec[@id=3]/@id}}" -v {{5}} {{경로/대상/입력.xml|URI}}`
+`xml {{[ed|edit]}} {{[-u|--update]}} "{{xml/table/rec[@id=3]/@id}}" {{[-v|--value]}} {{5}} {{경로/대상/입력.xml|URI}}`
 
 - 도움말 표시:
 
