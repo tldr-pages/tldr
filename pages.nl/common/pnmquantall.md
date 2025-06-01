@@ -10,4 +10,4 @@
 
 - Sla de gekwantificeerde afbeeldingen op naar bestanden met dezelfde namen als de invoerbestanden, maar met de gespecificeerde extensie:
 
-`pnmquantall -ext {{extensie}} {{n_kleuren}} {{pad/naar/invoer1.pnm pad/naar/invoer2.pnm ...}}`
+`pnmquantall {{[-e|-ext]}} {{extensie}} {{n_kleuren}} {{pad/naar/invoer1.pnm pad/naar/invoer2.pnm ...}}`
