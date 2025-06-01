@@ -2,7 +2,7 @@
 
 > XMLStarlet 도구 모음: XML 문서를 쿼리, 편집, 검사, 변환 및 변형.
 > `xml validate`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://xmlstar.sourceforge.net/docs.php>.
+> 더 많은 정보: <https://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139670224>.
 
 - 하위 명령 목록을 포함한 일반 도움말 표시:
 
