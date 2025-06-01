@@ -9,7 +9,7 @@
 
 - 토큰으로 로그인:
 
-`glab auth login --token {{토큰}}`
+`glab auth login {{[-t|--token]}} {{토큰}}`
 
 - 인증 상태 확인:
 
@@ -17,4 +17,4 @@
 
 - 특정 GitLab 인스턴스에 로그인:
 
-`glab auth login --hostname {{gitlab.example.com}}`
+`glab auth login {{[-h|--hostname]}} {{gitlab.example.com}}`

@@ -13,12 +13,12 @@
 
 - 레포지토리 포크 및 복제:
 
-`glab repo fork {{소유자}}/{{레포지토리}} --clone`
+`glab repo fork {{소유자}}/{{레포지토리}} {{[-c|--clone]}}`
 
 - 기본 웹 브라우저에서 레포지토리 보기:
 
-`glab repo view {{소유자}}/{{레포지토리}} --web`
+`glab repo view {{소유자}}/{{레포지토리}} {{[-w|--web]}}`
 
 - GitLab 인스턴스에서 일부 레포지토리를 검색:
 
-`glab repo search -s {{검색_문자열}}`
+`glab repo search {{[-s|--search]}} {{검색_문자열}}`

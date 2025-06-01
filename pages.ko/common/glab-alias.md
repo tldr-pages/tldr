@@ -17,7 +17,7 @@
 
 - 쉘 명령을 `glab` 하위 명령으로 설정:
 
-`glab alias set --shell {{alias_이름}} {{명령어}}`
+`glab alias set {{[-s|--shell]}} {{alias_이름}} {{명령어}}`
 
 - 명령 단축키 삭제:
 
