@@ -5,12 +5,12 @@
 
 - 문자열에서 특수 XML 문자 이스케이프:
 
-`xml escape "{{<a1>}}"`
+`xml {{[esc|escape]}} "{{<a1>}}"`
 
 - `stdin`에서 특수 XML 문자 이스케이프:
 
-`echo "{{<a1>}}" | xml escape`
+`echo "{{<a1>}}" | xml {{[esc|escape]}}`
 
 - 도움말 표시:
 
-`xml escape --help`
+`xml {{[esc|escape]}} --help`
