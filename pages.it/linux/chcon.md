@@ -5,11 +5,11 @@
 
 - Mostra il contesto di sicurezza di un file:
 
-`ls -lZ {{percorso/del/file}}`
+`ls {{[-lZ|-l --context]}} {{percorso/del/file}}`
 
 - Cambia il contesto di sicurezza di un file usandone un'altro come riferimento:
 
-`chcon --reference={{file_di_riferimento}} {{file}}`
+`chcon --reference {{file_di_riferimento}} {{file}}`
 
 - Cambia l'intero contesto di sicurezza SELinux di un file:
 
@@ -17,16 +17,16 @@
 
 - Cambia solo l'utente di un contesto di sicurezza SELinux:
 
-`chcon -u {{utente}} {{file}}`
+`chcon {{[-u|--user]}} {{utente}} {{file}}`
 
 - Cambia solo il ruolo di un contesto di sicurezza SELinux:
 
-`chcon -r {{ruolo}} {{file}}`
+`chcon {{[-r|--role]}} {{ruolo}} {{file}}`
 
 - Cambia solo il tipo di un contesto di sicurezza SELinux:
 
-`chcon -t {{tipo}} {{file}}`
+`chcon {{[-t|--type]}} {{tipo}} {{file}}`
 
 - Cambia solo il range/livello di un contesto di sicurezza SELinux:
 
-`chcon -l {{range/livello}} {{file}}`
+`chcon {{[-l|--range]}} {{range/livello}} {{file}}`

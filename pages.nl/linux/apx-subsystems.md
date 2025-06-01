@@ -14,16 +14,16 @@
 
 - Reset een specifiek subsysteem naar zijn initiële toestand:
 
-`apx subsystems reset --name {{string}}`
+`apx subsystems reset {{[-n|--name]}} {{string}}`
 
 - [f]orceer een reset van een specifiek subsysteem:
 
-`apx subsystems reset --name {{string}} --force`
+`apx subsystems reset {{[-n|--name]}} {{string}} {{[-f|--force]}}`
 
 - Verwijder een specifiek subsysteem:
 
-`apx subsystems rm --name {{string}}`
+`apx subsystems rm {{[-n|--name]}} {{string}}`
 
 - [f]orceer het verwijderen van een specifiek subsysteem:
 
-`apx subsystems rm --name {{string}} --force`
+`apx subsystems rm {{[-n|--name]}} {{string}} {{[-f|--force]}}`

@@ -9,15 +9,15 @@
 
 - Toon hoe lang gebruikers verbonden zijn geweest in uren:
 
-`ac --individual-totals`
+`ac {{[-p|--individual-totals]}}`
 
 - Toon hoe lang een bepaalde gebruiker verbonden is geweest in uren:
 
-`ac --individual-totals {{gebruikersnaam}}`
+`ac {{[-p|--individual-totals]}} {{gebruikersnaam}}`
 
 - Toon hoe lang een bepaalde gebruiker per dag verbonden is geweest in uren (met totaal):
 
-`ac --daily-totals --individual-totals {{gebruikersnaam}}`
+`ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{gebruikersnaam}}`
 
 - Toon ook extra details:
 

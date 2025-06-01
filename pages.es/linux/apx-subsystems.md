@@ -14,16 +14,16 @@
 
 - Restablece un subsistema específico a su estado inicial:
 
-`apx subsystems reset --name {{cadena_de_caracteres}}`
+`apx subsystems reset {{[-n|--name]}} {{cadena_de_caracteres}}`
 
 - Fuerza el restablecimiento de un subsistema específico:
 
-`apx subsystems reset --name {{cadena_de_caracteres}} --force`
+`apx subsystems reset {{[-n|--name]}} {{cadena_de_caracteres}} {{[-f|--force]}}`
 
 - Elimina un subsistema específico:
 
-`apx subsystems rm --name {{cadena_de_caracteres}}`
+`apx subsystems rm {{[-n|--name]}} {{cadena_de_caracteres}}`
 
 - Fuerza la eliminación de un subsistema específico:
 
-`apx subsystems rm --name {{cadena_de_caracteres}} --force`
+`apx subsystems rm {{[-n|--name]}} {{cadena_de_caracteres}} {{[-f|--force]}}`

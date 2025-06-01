@@ -9,15 +9,15 @@
 
 - چاپ تعداد ساعات اتصال کاربران:
 
-`ac --individual-totals`
+`ac {{[-p|--individual-totals]}}`
 
 - چاپ تعداد ساعات اتصال یک کاربر خاص:
 
-`ac --individual-totals {{username}}`
+`ac {{[-p|--individual-totals]}} {{username}}`
 
 - چاپ تعداد ساعات اتصال یک کاربر خاص (به همراه مجموع آن):
 
-`ac --daily-totals --individual-totals {{username}}`
+`ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{username}}`
 
 - نمایش اطلاعات بیشتر:
 

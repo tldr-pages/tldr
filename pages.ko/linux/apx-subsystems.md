@@ -14,16 +14,16 @@
 
 - 특정 서브시스템을 초기 상태로 재설정:
 
-`apx subsystems reset --name {{문자열}}`
+`apx subsystems reset {{[-n|--name]}} {{문자열}}`
 
 - 특정 서브시스템을 [f]강제로 재설정:
 
-`apx subsystems reset --name {{문자열}} --force`
+`apx subsystems reset {{[-n|--name]}} {{문자열}} {{[-f|--force]}}`
 
 - 특정 서브시스템 제거:
 
-`apx subsystems rm --name {{문자열}}`
+`apx subsystems rm {{[-n|--name]}} {{문자열}}`
 
 - 특정 서브시스템을 [f]강제로 제거:
 
-`apx subsystems rm --name {{문자열}} --force`
+`apx subsystems rm {{[-n|--name]}} {{문자열}} {{[-f|--force]}}`

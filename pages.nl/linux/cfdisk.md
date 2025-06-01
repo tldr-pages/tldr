@@ -9,4 +9,4 @@
 
 - Creëer een nieuwe partitie tabel voor een specifiek apparaat en beheer het:
 
-`cfdisk --zero {{/dev/sdX}}`
+`cfdisk {{[-z|--zero]}} {{/dev/sdX}}`

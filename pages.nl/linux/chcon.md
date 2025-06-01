@@ -5,11 +5,11 @@
 
 - Toon beveiligingscontext van een bestand:
 
-`ls -lZ {{pad/naar/bestand}}`
+`ls {{[-lZ|-l --context]}} {{pad/naar/bestand}}`
 
 - Verander de beveiligingscontext van een doelbestand, door gebruik te maken van een referentiebestand:
 
-`chcon --reference={{referentiebestand}} {{doelbestand}}`
+`chcon --reference {{referentiebestand}} {{doelbestand}}`
 
 - Verander de volledige SELinux beveiligingscontext van een bestand:
 
@@ -17,16 +17,16 @@
 
 - Verander alleen het gebruikersgedeelte van de SELinux beveiligingscontext:
 
-`chcon -u {{user}} {{bestandsnaam}}`
+`chcon {{[-u|--user]}} {{user}} {{bestandsnaam}}`
 
 - Verander alleen het rolgedeelte van de SELinux beveiligingscontext:
 
-`chcon -r {{rol}} {{bestandsnaam}}`
+`chcon {{[-r|--role]}} {{rol}} {{bestandsnaam}}`
 
 - Verander alleen het typegedeelte van de SELinux beveiligingscontext:
 
-`chcon -t {{type}} {{bestandsnaam}}`
+`chcon {{[-t|--type]}} {{type}} {{bestandsnaam}}`
 
 - Verander alleen het bereik/niveaugedeelte van de SELinux beveiligingscontext:
 
-`chcon -l {{bereik/niveau}} {{bestandsnaam}}`
+`chcon {{[-l|--range]}} {{bereik/niveau}} {{bestandsnaam}}`
