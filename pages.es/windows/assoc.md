@@ -15,6 +15,6 @@
 
 `assoc .{{txt}}={{archivotxt}}`
 
-- Ver la salida de `assoc` una pantalla a la vez:
+- Visualiza la salida de `assoc` una pantalla a la vez:
 
 `assoc | {{extra}}`

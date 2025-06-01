@@ -9,7 +9,7 @@
 
 - Agregar un paquete de aplicación con dependencias:
 
-`Add-AppxPackage -Path {{ruta\al\paquete.msix}} -DependencyPath {{ruta\al\dependencias.msix}}`
+`Add-AppxPackage -Path {{ruta\al\paquete.msix}} -DependencyPath {{ruta\a\dependencias.msix}}`
 
 - Instalar una aplicación utilizando el archivo del instalador de la aplicación:
 
@@ -17,4 +17,4 @@
 
 - Agregar un paquete no firmado:
 
-`Add-AppxPackage -Path {{ruta\al\paquete.msix}} -DependencyPath {{ruta\al\dependencias.msix}} -AllowUnsigned`
+`Add-AppxPackage -Path {{ruta\al\paquete.msix}} -DependencyPath {{ruta\a\dependencias.msix}} -AllowUnsigned`
