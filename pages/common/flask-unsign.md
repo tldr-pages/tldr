@@ -29,4 +29,4 @@
 
 - Brute-force a session cookie with custom threads and no literal evaluation:
 
-`flask-unsign {{[-u|--unsign]}} {{[-c|--cookie]}} {{cookie}} {{[-w|--wordlist]}} {{wordlist}} {{[-t|--threads]}} {{threads}} {{[-nE|--no-literal-eval]}}`
+`flask-unsign {{[-u|--unsign]}} {{[-c|--cookie]}} {{cookie}} {{[-w|--wordlist]}} {{path/to/wordlist.txt}} {{[-t|--threads]}} {{threads}} {{[-nE|--no-literal-eval]}}`
