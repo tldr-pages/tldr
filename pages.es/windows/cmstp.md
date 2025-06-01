@@ -34,4 +34,3 @@
 - Desinstalar silenciosamente sin un aviso de confirmación:
 
 `cmstp /u /s "{{ruta\al\archivo_de_perfil}}"`
-
