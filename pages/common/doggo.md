@@ -2,7 +2,7 @@
 
 > DNS client for Humans.
 > Written in Golang.
-> More information: <https://doggo.mrkaran.dev/docs/guide/reference/>.
+> More information: <https://github.com/mr-karan/doggo/blob/main/docs/src/content/docs/guide/reference.md>.
 
 - Perform a simple DNS lookup:
 
