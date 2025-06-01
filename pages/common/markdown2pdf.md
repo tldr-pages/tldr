@@ -9,7 +9,7 @@
 
 - Convert a Markdown file to a PDF with a specific path:
 
-`markdown2pdf {{[-p|--path]}} {{path/to/input_file.md}} -o {{path/to/output_file.pdf}}`
+`markdown2pdf {{[-p|--path]}} {{path/to/input_file.md}} {{[-o|--output]}} {{path/to/output_file.pdf}}`
 
 - Convert Markdown content provided as a string:
 
