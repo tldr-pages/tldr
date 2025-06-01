@@ -9,7 +9,7 @@
 
 - Decode a session cookie fetched from a URL which returns a `Set-Cookie` header:
 
-`flask-unsign {{[-d|--decode]}} --server {{url}}`
+`flask-unsign {{[-d|--decode]}} --server {{URL}}`
 
 - Brute-force a secret key using the default flask-unsign-wordlist (requires `flask-unsign-wordlist`):
 
