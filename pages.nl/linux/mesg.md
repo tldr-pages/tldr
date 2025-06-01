@@ -18,4 +18,4 @@
 
 - Schakel [v]erbose modus in, en toon een waarschuwing als het commando niet wordt uitgevoerd vanaf een terminal:
 
-`mesg --verbose`
+`mesg {{[-v|--verbose]}}`

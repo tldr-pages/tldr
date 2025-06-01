@@ -14,11 +14,11 @@
 
 - Divide um arquivo a cada 5 linhas, ignorando o fato do total de linhas ser divisível por 5:
 
-`csplit -k {{arquivo}} 5 {*}`
+`csplit {{[-k|--keep-files]}} {{arquivo}} 5 {*}`
 
 - Divide o arquivo na linha 5 e utiliza um prefixo específico para os arquivos de saída:
 
-`csplit {{arquivo}} 5 -f {{prefix}}`
+`csplit {{arquivo}} 5 {{[-f|--prefix]}} {{prefix}}`
 
 - Divide um arquivo na linha que atenda a expressão regular:
 

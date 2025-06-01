@@ -11,7 +11,7 @@
 
 - Zoek hoofdletterongevoeling alleen op lege en alfanumerieke tekens:
 
-`look {{[-f|--ignore-case}]} {{[-d|--alphanum]}} {{prefix}} {{pad/naar/bestand}}`
+`look {{[-f|--ignore-case]}} {{[-d|--alphanum]}} {{prefix}} {{pad/naar/bestand}}`
 
 - Specificeer een string-terminatiekarakter (standaard is spatie):
 
