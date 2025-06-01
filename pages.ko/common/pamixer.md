@@ -1,7 +1,7 @@
 # pamixer
 
 > PulseAudio를 위한 간단한 커맨드라인 믹서.
-> 더 많은 정보: <https://github.com/cdemoulins/pamixer>.
+> 더 많은 정보: <https://github.com/cdemoulins/pamixer#installation>.
 
 - 모든 싱크 및 소스를 해당 ID와 함께 나열:
 
