@@ -2,7 +2,7 @@
 
 > Administra subsistemas en `apx`.
 > Los subsistemas son contenedores que pueden crearse a partir de stacks preexistentes.
-> Más información: <https://github.com/Vanilla-OS/apx>.
+> Más información: <https://docs.vanillaos.org/docs/en/apx-manpage#subsystems>.
 
 - Crea de forma interactiva un nuevo subsistema:
 
