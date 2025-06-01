@@ -2,7 +2,7 @@
 
 > Neo4j DBMS(데이터베이스 관리 시스템) 관리 및 운영.
 > 같이 보기: `cypher-shell`, `mysqld`.
-> 더 많은 정보: <https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/>.
+> 더 많은 정보: <https://neo4j.com/docs/operations-manual/current/neo4j-admin-neo4j-cli/>.
 
 - DBMS 시작:
 
