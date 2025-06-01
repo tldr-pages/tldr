@@ -23,7 +23,7 @@
 
 `flask-unsign {{[-s|--sign]}} {{[-c|--cookie]}} {{"{'logged_in': False}"}} {{[-S|--secret]}} {{secret}}`
 
-- Sign a session cookie using legacy timestamp (useful for old version):
+- Sign a session cookie using legacy timestamp (useful for old versions):
 
 `flask-unsign {{[-s|--sign]}} {{[-c|--cookie]}} {{"{'logged_in': False}"}} {{[-S|--secret]}} {{secret}} {{[-l|--legacy]}}`
 
