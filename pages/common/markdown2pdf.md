@@ -1,20 +1,20 @@
 # markdown2pdf
 
-> Markdown2pdf is a simple commandline tool to convert markdown to PDF.
+> Convert markdown to PDF.
 > More information: <https://github.com/theiskaa/markdown2pdf>.
 
-- Convert any .md file regardless of name to a output.pdf:
+- Convert a Markdown file to a PDF:
 
-`markdown2pdf -p "path/to/file.md"`
+`markdown2pdf {{[-p--path]}} {{path/to/input_file.md}}`
 
-- Convert .md file to a .pdf file of a specified path and name:
+- Convert a Markdown file to a PDF with a specific path:
 
-`markdown2pdf -p "path/to/file.md" -o "different/path/to/file/pdf"`
+`markdown2pdf {{[-p|--path]}} {{path/to/input_file.md}} -o {{path/to/output_file.pdf}}`
 
 - Convert Markdown content provided as a string:
 
-`markdown2pdf -s "**bold text** *italic text*." -o "string.pdf"`
+`markdown2pdf {{[-s|--string]}} {{markdown_text}} {{[-o|--output]}} {{path/to/output_file.pdf}}`
 
-- Convert from URL (this will convert README.md at that URL to local readme.pdf):
+- Convert from URL (this will convert a Markdown file at that URL to a local PDF file):
 
-`markdown2pdf -u "https://raw.githubusercontent.com/user/repo/main/README.md" -o "readme.pdf"`
+`markdown2pdf {{[-u|--url]}} {{URL}} {{[-o|--output]}} {{path/to/output_file.pdf}}`
