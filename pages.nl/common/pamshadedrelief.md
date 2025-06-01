@@ -10,4 +10,4 @@
 
 - Pas de gamma aan van een afbeelding met de gespecificeerde factor:
 
-`pamshadedrelief -gamma {{factor}} < {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`
+`pamshadedrelief {{[-g|-gamma]}} {{factor}} < {{pad/naar/invoer.pam}} > {{pad/naar/uitvoer.pam}}`

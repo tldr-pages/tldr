@@ -10,12 +10,12 @@
 
 - Markeer de gespecificeerde kleur als transparent in de uitvoer-afbeelding:
 
-`pamtopng -transparent {{kleur}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`
+`pamtopng {{[-t|-transparent]}} {{kleur}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`
 
 - Voeg de tekst in gespecificeerde bestand toe als tEXt chunks in de uitvoer:
 
-`pamtopng -text {{pad/naar/bestand.txt}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`
+`pamtopng {{[-te|-text]}} {{pad/naar/bestand.txt}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`
 
 - Zorg ervoor dat het uitvoerbestand geïnterlaced is in Adam7-formaat:
 
-`pamtopng -interlace {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`
+`pamtopng {{[-in|-interlace]}} {{pad/naar/afbeelding.pam}} > {{pad/naar/uitvoer.png}}`

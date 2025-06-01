@@ -9,4 +9,4 @@
 
 - 출력 UIL 파일에 출력할 접두사 문자열 지정:
 
-`pamtouil -name {{uil이름}} {{경로/대상/입력.pnm|pam}} > {{경로/대상/출력.uil}}`
+`pamtouil {{[-n|-name]}} {{uil이름}} {{경로/대상/입력.pnm|pam}} > {{경로/대상/출력.uil}}`
