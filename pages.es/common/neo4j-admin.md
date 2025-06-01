@@ -1,7 +1,7 @@
 # neo4j-admin
 
 > Gestiona y administra un Neo4j DBMS (Sistema de Gestión de Bases de Datos).
-> Más información: <https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/>.
+> Más información: <https://neo4j.com/docs/operations-manual/current/neo4j-admin-neo4j-cli/>.
 
 - Inicia el DBMS:
 
