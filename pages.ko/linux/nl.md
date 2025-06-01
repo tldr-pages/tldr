@@ -1,7 +1,7 @@
 # nl
 
 > 파일이나 `stdin`에서 각 줄에 번호를 매깁니다.
-> 더 많은 정보: <https://manned.org/nl.1p>.
+> 더 많은 정보: <https://manned.org/nl>.
 
 - 파일에서 빈 줄이 아닌 줄에 번호 매기기:
 
