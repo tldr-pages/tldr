@@ -17,7 +17,7 @@
 
 - Brute-force a secret key with a custom wordlist (use `--no-literal-eval` for unquoted entries):
 
-`flask-unsign {{[-u|--unsign]}} {{[-c|--cookie]}} {{cookie}} {{[-w|--wordlist]}} {{wordlist}}`
+`flask-unsign {{[-u|--unsign]}} {{[-c|--cookie]}} {{cookie}} {{[-w|--wordlist]}} {{path/to/wordlist.txt}}`
 
 - Sign a new session cookie with a secret key:
 
