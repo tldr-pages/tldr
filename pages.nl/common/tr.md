@@ -17,11 +17,11 @@
 
 - Verwijder alle voorkomens van de opgegeven set tekens uit de invoer:
 
-`tr -d '{{invoer_karakters}}' < {{pad/naar/bestand}}`
+`tr {{[-d|--delete]}} '{{invoer_karakters}}' < {{pad/naar/bestand}}`
 
 - Comprimeer een reeks identieke tekens tot een enkel teken:
 
-`tr -s '{{invoer_karakters}}' < {{pad/naar/bestand}}`
+`tr {{[-s|--squeeze-repeats]}} '{{invoer_karakters}}' < {{pad/naar/bestand}}`
 
 - Vertaal de inhoud van een bestand naar hoofdletters:
 
@@ -29,4 +29,4 @@
 
 - Verwijder niet-afdrukbare tekens uit een bestand:
 
-`tr -cd "[:print:]" < {{pad/naar/bestand}}`
+`tr {{[-cd|--complement --delete]}} "[:print:]" < {{pad/naar/bestand}}`
