@@ -19,6 +19,6 @@
 
 `claude commit`
 
-- Get list of configuration:
+- Get the list of configurations:
 
 `claude config list`
