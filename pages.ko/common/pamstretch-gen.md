@@ -6,4 +6,4 @@
 
 - 지정된 소수 배율로 PAM 이미지 확대:
 
-`pamstretch-gen {{N}} {{경로/대상/이미지.pam}} > {{경로/대상/출력.pam}}`
+`pamstretch-gen {{n}} {{경로/대상/이미지.pam}} > {{경로/대상/출력.pam}}`

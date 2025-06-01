@@ -10,7 +10,7 @@
 
 - Assume that the tiles overlap horizontally and vertically by the specified amount:
 
-`pamundice {{filename_%1d_%1a.ppm}} {{[-a|-across]}} {{x_value}} {{[-d|-down]}} {{y_value}} {{[-h|-hoverlap]}} {{value}} {{[-vo|-voverlap]}} {{value}} > {{path/to/output.ppm}}`
+`pamundice {{filename_%1d_%1a.ppm}} {{[-a|-across]}} {{x_value}} {{[-d|-down]}} {{y_value}} {{[-ho|-hoverlap]}} {{value}} {{[-vo|-voverlap]}} {{value}} > {{path/to/output.ppm}}`
 
 - Specify the images to be combined through a text file containing one filename per line:
 
