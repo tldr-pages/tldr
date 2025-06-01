@@ -11,7 +11,7 @@
 
 `claude update`
 
-- Get list of specified MCP server:
+- Get the list of specified MCP servers:
 
 `claude mcp list`
 
