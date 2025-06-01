@@ -9,27 +9,27 @@
 
 - 指定したPythonスクリプトを実行:
 
-`python {{path/to/file.py}}`
+`python {{Pythonファイルパス}}`
 
 - 指定したPythonスクリプトを実行してREPLを実行:
 
-`python -i {{path/to/file.py}}`
+`python -i {{Pythonファイルパス}}`
 
 - Python実装を文字列で指定して実行する:
 
-`python -c "{{expression}}"`
+`python -c "{{Python実装文字列}}"`
 
 - 指定したライブラリモジュールのスクリプトを実行する:
 
-`python -m {{module}} {{arguments}}`
+`python -m {{モジュール名}} {{引数}}`
 
 - pipを利用してパッケージをインストールする:
 
-`python -m pip install {{package}}`
+`python -m pip install {{パッケージ}}`
 
 - インタラクティブにPythonスクリプトをデバッグする:
 
-`python -m pdb {{path/to/file.py}}`
+`python -m pdb {{Pythonファイルパス}}`
 
 - ビルトインのHTTPサーバをポート8000版でカレントディレクトリで実行する:
 
