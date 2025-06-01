@@ -21,7 +21,7 @@
 
 - Zoek "fuzzy" met maximaal 3 extra, missende of verwisselende karakters in het patroon:
 
-`ugrep {{[-Z|--fuzzy=]}}={{3}} "{{zoekpatroon}}"`
+`ugrep {{[-Z|--fuzzy=]}}{{3}} "{{zoekpatroon}}"`
 
 - Zoek passende gecomprimeerde bestanden, zip en tar archieven recursief in de huidige map:
 
