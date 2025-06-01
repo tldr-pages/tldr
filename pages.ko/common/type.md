@@ -2,7 +2,7 @@
 
 > 셀이 실행할 명령의 유형을 표시합니다.
 > 참고: 모든 예시는 POSIX 호환이 아닙니다.
-> 더 많은 정보: <https://manned.org/type>.
+> 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-type>.
 
 - 명령의 유형 표시:
 
