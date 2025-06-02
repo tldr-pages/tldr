@@ -6,6 +6,7 @@
 - Comparte archivos o directorios:
 
 `airshare {{code}} {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
+
 - Recibe un archivo:
 
 `airshare {{code}}`

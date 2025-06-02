@@ -30,5 +30,3 @@
 - Detén o reinicia el servicio de AdGuard Home:
 
 `AdGuardHome --service {{stop|restart}}`
-
-

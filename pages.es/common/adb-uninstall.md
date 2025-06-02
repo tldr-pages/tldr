@@ -10,6 +10,3 @@
 - Desinstalar un paquete, pero conservarndo los datos del usuario:
 
 `adb uninstall -k {{com.ejemplo.app}}`
-
-
-

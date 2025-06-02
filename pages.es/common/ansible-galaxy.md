@@ -30,4 +30,3 @@
 - Despliega más información (ayuda) acerca de roles o colecciones:
 
 `ansible-galaxy {{role|collection}} {{[-h|--help]}}`
-
