@@ -13,7 +13,7 @@
 
 - Display CPU statistics:
 
-`iostat -c`
+`iostat {{[-c|--compact]}}`
 
 - Display disk statistics with disk names (including LVM):
 

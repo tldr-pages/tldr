@@ -12,26 +12,26 @@
 
 `ipcs {{--shmems|--queues|--semaphores}}`
 
-- Toon volledige details over de resource met een specifieke [i]D:
+- Toon volledige details over de resource met een specifieke ID:
 
-`ipcs {{--shmems|--queues|--semaphores}} --id {{resource_id}}`
+`ipcs {{--shmems|--queues|--semaphores}} {{[-i|--id]}} {{resource_id}}`
 
-- Toon [l]imieten in [b]ytes of in een leesbaar formaat:
+- Toon limieten in [b]ytes of in een leesbaar formaat:
 
-`ipcs --limits {{--bytes|--human}}`
+`ipcs {{[-l|--limits]}} {{--bytes|--human}}`
 
-- Toon s[u]mmary over huidig gebruik:
+- Toon samenvatting over huidig gebruik:
 
-`ipcs --summary`
+`ipcs {{[-u|--summary]}}`
 
-- Toon [c]reator's en owner's UIDs en PIDs voor alle IPC-faciliteiten:
+- Toon creator's en owner's UIDs en PIDs voor alle IPC-faciliteiten:
 
-`ipcs --creator`
+`ipcs {{[-c|--creator]}}`
 
-- Toon de [p]ID van de laatste operatoren voor alle IPC-faciliteiten:
+- Toon de PID van de laatste operatoren voor alle IPC-faciliteiten:
 
-`ipcs --pid`
+`ipcs {{[-p|--pid]}}`
 
-- Toon laatste toegang[s]tijden voor alle IPC-faciliteiten:
+- Toon laatste toegangstijden voor alle IPC-faciliteiten:
 
-`ipcs --time`
+`ipcs {{[-t|--time]}}`
