@@ -7,6 +7,6 @@
 
 `adb uninstall {{com.example.app}}`
 
-- Desinstalar un paquete, pero conservarndo los datos del usuario:
+- Desinstala un paquete, pero conservando los datos del usuario:
 
 `adb uninstall -k {{com.ejemplo.app}}`
