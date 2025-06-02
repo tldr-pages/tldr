@@ -5,7 +5,7 @@
 
 - Desinstalar un paquete:
 
-`adb uninstall {{com.ejemplo.app}}`
+`adb uninstall {{com.example.app}}`
 
 - Desinstalar un paquete, pero conservarndo los datos del usuario:
 
