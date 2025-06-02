@@ -21,4 +21,4 @@
 
 - Zmień właściciela pliku/katalogu by był taki sam jak w pliku referencyjnym:
 
-`chown --reference={{ścieżka/do/pliku_referencyjnego}} {{ścieżka/do/pliku_lub_katalogu}}`
+`chown --reference {{ścieżka/do/pliku_referencyjnego}} {{ścieżka/do/pliku_lub_katalogu}}`

@@ -9,4 +9,4 @@
 
 - Erzeuge und bearbeite eine neue Partitionierungstabelle für eine bestimmte Festplatte:
 
-`cfdisk --zero {{/dev/sdX}}`
+`cfdisk {{[-z|--zero]}} {{/dev/sdX}}`
