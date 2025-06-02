@@ -28,6 +28,6 @@
 
 `<:>{{bmark|bdelete}} {{nombre_marcador}}<Enter>`
 
-- Liste marcadores:
+- Lista los marcadores:
 
 `<:>blist<Enter>`
