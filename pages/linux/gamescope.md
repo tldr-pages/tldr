@@ -19,10 +19,14 @@
 
 `gamescope {{[-r|--nested-refresh]}} 30 -- %command%`
 
+- Launch Steam in Big Picture Mode and integrate with gamescope:
+
+`gamescope {{[-e|--steam]}} -- /usr/bin/steam -tenfoot`
+
 - Toggle fullscreen:
 
 `<Super f>`
 
-- Show help:
+- Display help:
 
 `gamescope --help`
