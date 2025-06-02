@@ -7,10 +7,6 @@
 
 `yapf {{[-d|--diff]}} {{path/to/file}}`
 
-- Format the file in-place and display a diff of the changes:
-
-`yapf {{[-d|--diff]}} {{[-i|--in-place]}} {{path/to/file}}`
-
 - Recursively format all Python files in a directory, concurrently:
 
-`yapf {{[-r|--recursive]}} {{[-i|--in-place]}} --style {{pep8}} {{[-p|--parallel]}} {{path/to/directory}}`
+`yapf {{[-ri|--recursive --in-place]}} --style {{pep8}} {{[-p|--parallel]}} {{path/to/directory}}`
