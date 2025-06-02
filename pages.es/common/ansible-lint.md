@@ -3,7 +3,7 @@
 > Aplica reglas y sigue las mejores prácticas en la automatización de tu contenido.
 > Más información: <https://ansible.readthedocs.io/projects/lint/>.
 
-- Analizar un playbook (archivo de tareas) específico y un directorio de roles con Lint.
+- Analizar un playbook (archivo de tareas) específico y un directorio de roles con Lint:
 
 `ansible-lint {{ruta/al/playbook}} {{ruta/al/directorio_de_roles}}`
 
