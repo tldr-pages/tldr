@@ -1,7 +1,7 @@
 # zathura
 
 > Un visor de documentos modal tipo vim, con una línea de comando integrada.
-> Asegúrese de tener instalado un backend (poppler, PostScript, or DjVu).
+> Asegúrese de tener instalado un backend (poppler, PostScript o DjVu).
 > Más información: <https://pwmt.org/projects/zathura/>.
 
 - Abre un archivo:
