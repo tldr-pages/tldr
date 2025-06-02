@@ -5,4 +5,4 @@
 
 - Añade una extensión `.gz` a los archivos Gzip suministrados(Nota: Otros archivos son ignorados):
 
-`zforce {{ruta/a/archivo1 ruta/a/archivo2 ...}}`
+`zforce {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
