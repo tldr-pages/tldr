@@ -13,4 +13,4 @@
 
 - 버전 표시:
 
-`pamtotga -version`
+`pamtotga {{[-v|-version]}}`
