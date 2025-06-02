@@ -5,8 +5,8 @@
 
 - Compile un archivo de zona horaria desde un directorio:
 
-`zic -d {{ruta/a/directorio}}`
+`zic -d {{ruta/al/directorio}}`
 
 - Reporte alertas durante la compilación de un archivo específico:
 
-`zic -v {{ruta/a/archivo}}.infile`
+`zic -v {{ruta/al/archivo}}.infile`
