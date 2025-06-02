@@ -14,4 +14,3 @@
 - Compileer een DVI-document en sluit af als er een fout optreedt:
 
 `latex -halt-on-error {{bron.tex}}`
-
