@@ -7,6 +7,6 @@
 
 `zic -d {{ruta/al/directorio}}`
 
-- Reporte alertas durante la compilación de un archivo específico:
+- Reporta alertas durante la compilación de un archivo específico:
 
 `zic -v {{ruta/al/archivo}}.infile`
