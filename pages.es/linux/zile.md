@@ -1,4 +1,4 @@
-# zile 
+# zile
 
 > Una versión ligera del editor de texto Emacs.
 > Más información: <https://www.gnu.org/software/zile>.
