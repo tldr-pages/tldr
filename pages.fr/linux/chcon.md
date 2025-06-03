@@ -5,11 +5,11 @@
 
 - Affiche le contexte de sécurité d'un fichier :
 
-`ls -lZ {{chemin/vers/fichier}}`
+`ls {{[-lZ|-l --context]}} {{chemin/vers/fichier}}`
 
 - Change le contexte de sécurité d'un fichier cible, en utilisant un fichier de référence :
 
-`chcon --reference={{fichier_référence}} {{fichier_cible}}`
+`chcon --reference {{fichier_référence}} {{fichier_cible}}`
 
 - Change le contexte de sécurité SELinux complet d'un fichier :
 
@@ -17,16 +17,16 @@
 
 - Change seulement la partie utilisateur du contexte de sécurité SELinux :
 
-`chcon -u {{utilisateur}} {{fichier}}`
+`chcon {{[-u|--user]}} {{utilisateur}} {{fichier}}`
 
 - Change seulement la partie role du contexte de sécurité SELinux :
 
-`chcon -r {{role}} {{fichier}}`
+`chcon {{[-r|--role]}} {{role}} {{fichier}}`
 
 - Change seulement la partie type du contexte de sécurité SELinux :
 
-`chcon -t {{type}} {{fichier}}`
+`chcon {{[-t|--type]}} {{type}} {{fichier}}`
 
 - Change seulement la partie plage/niveau du contexte de sécurité SELinux :
 
-`chcon -l {{plage/niveau}} {{fichier}}`
+`chcon {{[-l|--range]}} {{plage/niveau}} {{fichier}}`
