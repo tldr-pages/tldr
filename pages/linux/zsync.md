@@ -4,7 +4,7 @@
 > Efficiently updates large files over HTTP by transferring only changed blocks using a `.zsync` control file.
 > Similar to `rsync`, but designed for HTTP and file mirroring.
 > HTTPS is not supported - use HTTP URLs only.
-> More information: <http://zsync.moria.org.uk>.
+> More information: <https://manned.org/zsync>.
 
 - Download a file using a `.zsync` control file:
 
