@@ -1,7 +1,7 @@
 # pgbench
 
 > Ejecuta una prueba de referencia (benchmark test) en PostgreSQL.
-> Más información: <https://www.postgresql.org/docs/10/pgbench.html>.
+> Más información: <https://www.postgresql.org/docs/current/pgbench.html>.
 
 - Inicia una base de datos con un factor de escalamiento de 50 veces el tamaño predeterminado:
 
