@@ -11,7 +11,7 @@
 
 `pcdovtoppm {{[-m|-maxwidth]}} {{breedte}} {{[-s|-size]}} {{grootte}} {{pad/naar/bestand.pcd}} > {{pad/naar/uitvoer.ppm}}`
 
-- Specificeer het maximale [a]antal afbeeldingen en het maximale aantal kleuren:
+- Specificeer het maximale aantal afbeeldingen en het maximale aantal kleuren:
 
 `pcdovtoppm {{[-a|-across]}} {{n_afbeeldingen}} {{[-c|-colors]}} {{n_kleuren}} {{pad/naar/bestand.pcd}} > {{pad/naar/uitvoer.ppm}}`
 
