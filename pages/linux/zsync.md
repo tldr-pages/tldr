@@ -7,7 +7,7 @@
 
 - Download a file using a `.zsync` control file:
 
-`zsync {{url.zsync}}`
+`zsync {{path/to/url.zsync}}`
 
 - Use a local file as a seed to avoid re-downloading unchanged parts:
 
