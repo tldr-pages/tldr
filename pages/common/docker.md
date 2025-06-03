@@ -35,4 +35,3 @@
 - Fetch and follow the logs of a container:
 
 `docker logs {{[-f|--follow]}} {{container_name}}`
-
