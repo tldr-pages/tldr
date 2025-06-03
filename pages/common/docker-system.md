@@ -15,7 +15,7 @@
 
 `docker system df {{[-v|--verbose]}}`
 
-- Remove unused data (append `--volumes` to remove unused volumes as well):
+- Remove unused data (append `{{[-v|--volumes]}}` to remove unused volumes as well):
 
 `docker system prune`
 
