@@ -1,6 +1,6 @@
 # uv init
 
-> Create a new project.
+> Create a new Python project.
 > More information: <https://docs.astral.sh/uv/reference/cli/#uv-init>.
 
 - Initialize a project in the current directory:
