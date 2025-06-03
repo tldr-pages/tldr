@@ -19,7 +19,7 @@
 
 - Resume a partial download and keep the temporary file:
 
-`zsync -k {{url.zsync}}`
+`zsync -k {{path/to/url.zsync}}`
 
 - Run in quiet mode with minimal output (no progress bar, download rate, or ETA display):
 
