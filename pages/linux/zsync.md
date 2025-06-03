@@ -12,11 +12,11 @@
 
 - Use a local file as a seed to avoid re-downloading unchanged parts:
 
-`zsync -i {{existing_file_path}} {{url.zsync}}`
+`zsync -i {{path/to/existing_file}} {{url.zsync}}`
 
 - Save the updated file under a specific name:
 
-`zsync -i {{existing_file_path}} -o {{new_file_path}} {{url.zsync}}`
+`zsync -i {{path/to/existing_file}} -o {{path/to/new_file}} {{url.zsync}}`
 
 - Resume a partial download and keep the temporary file:
 
