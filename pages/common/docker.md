@@ -35,3 +35,7 @@
 - Fetch and follow the logs of a container:
 
 `docker logs {{[-f|--follow]}} {{container_name}}`
+
+- Search for Docker images by name or keyword:
+
+`docker search {{keyword}}`
