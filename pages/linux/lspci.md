@@ -7,7 +7,7 @@
 
 `lspci`
 
-- Display additional info:
+- Display additional info (can be repeated to increase verbosity):
 
 `lspci -v`
 
