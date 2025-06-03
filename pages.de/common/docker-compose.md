@@ -17,7 +17,7 @@
 
 - Starte alle Container durch Angabe eines Projektnamens unter Verwendung einer alternativen Compose-Datei:
 
-`docker compose -p {{Projektname}} {{[-f|--file]}} {{pfad/zu/verzeichnis}} up`
+`docker compose {{[-p|--project-name]}} {{Projektname}} {{[-f|--file]}} {{pfad/zu/verzeichnis}} up`
 
 - Stoppe alle laufenden Container:
 

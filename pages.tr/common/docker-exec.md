@@ -13,7 +13,7 @@
 
 - Belirtilen bir komutu üstünde çalıştırmak adına çalışan dizini seç:
 
-`docker exec {{[-it|--interactive --tty]}} --workdir {{örnek/dizin}} {{konteyner_ismi}} {{komut}}`
+`docker exec {{[-it|--interactive --tty]}} {{[-w|--workdir]}} {{örnek/dizin}} {{konteyner_ismi}} {{komut}}`
 
 - Varolan konteyner üstünde arkaplanda çalışmak üzere bir komut çalıştır ancak `stdin`'i açık tut:
 
@@ -21,7 +21,7 @@
 
 - Çalışmakta olan bir Bash oturumu içinde bir çevre değişkeni belirle:
 
-`docker exec {{[-it|--interactive --tty]}} --env {{değişken_ismi}}={{value}} {{konteyner_ismi}} {{/bin/bash}}`
+`docker exec {{[-it|--interactive --tty]}} {{[-e|--env]}} {{değişken_ismi}}={{value}} {{konteyner_ismi}} {{/bin/bash}}`
 
 - Belirtilmiş bir kullanıcı olarak komut çalıştır:
 

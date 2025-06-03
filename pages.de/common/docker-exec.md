@@ -13,7 +13,7 @@
 
 - Bestimme das Arbeitsverzeichnis, in dem der Befehl ausgeführt werden soll:
 
-`docker exec {{[-it|--interactive --tty]}} --workdir {{pfad/zu/verzeichnis}} {{container_name}} {{befehl}}`
+`docker exec {{[-it|--interactive --tty]}} {{[-w|--workdir]}} {{pfad/zu/verzeichnis}} {{container_name}} {{befehl}}`
 
 - Führe einen Befehl im Hintergrund in einem laufenden Container aus, aber lies von der Standardeingabe:
 
@@ -21,7 +21,7 @@
 
 - Setze eine Umgebungsvariable in einer laufenden Bash Sitzung:
 
-`docker exec {{[-it|--interactive --tty]}} --env {{variablen_name}}={{wert}} {{container_name}} {{/bin/bash}}`
+`docker exec {{[-it|--interactive --tty]}} {{[-e|--env]}} {{variablen_name}}={{wert}} {{container_name}} {{/bin/bash}}`
 
 - Führe einen Befehl als ein bestimmter Benutzer aus:
 

@@ -17,7 +17,7 @@
 
 - Avvia tutti i contenitori specificando un nome di progetto e utilizzando un file compose alternativo:
 
-`docker compose -p {{nome_di_progetto}} {{[-f|--file]}} {{percorso/del/file}} up`
+`docker compose {{[-p|--project-name]}} {{nome_di_progetto}} {{[-f|--file]}} {{percorso/del/file}} up`
 
 - Ferma tutti i container in esecuzione:
 

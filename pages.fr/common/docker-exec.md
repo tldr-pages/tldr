@@ -13,7 +13,7 @@
 
 - Sélectionner le répertoire de travail pour une commande donnée à exécuter :
 
-`docker exec {{[-it|--interactive --tty]}} --workdir {{chemin/vers/le/répertoire}} {{nom_du_conteneur}} {{commande}}`
+`docker exec {{[-it|--interactive --tty]}} {{[-w|--workdir]}} {{chemin/vers/le/répertoire}} {{nom_du_conteneur}} {{commande}}`
 
 - Exécuter une commande en arrière-plan sur un conteneur existant mais garder `stdin` ouvert :
 
@@ -21,7 +21,7 @@
 
 - Définir une variable d'environnement dans une session Bash en cours d'exécution :
 
-`docker exec {{[-it|--interactive --tty]}} --env {{variable_d_environnement}}={{valeur}} {{nom_du_conteneur}} {{/bin/bash}}`
+`docker exec {{[-it|--interactive --tty]}} {{[-e|--env]}} {{variable_d_environnement}}={{valeur}} {{nom_du_conteneur}} {{/bin/bash}}`
 
 - Exécuter une commande en tant qu'utilisateur spécifique :
 
