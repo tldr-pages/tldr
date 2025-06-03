@@ -23,4 +23,4 @@
 
 - Run in quiet mode with minimal output (no progress bar, download rate, or ETA display):
 
-`zsync -q {{url.zsync}}`
+`zsync -q {{path/to/url.zsync}}`
