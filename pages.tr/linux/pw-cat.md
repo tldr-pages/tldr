@@ -1,7 +1,7 @@
 # pw-cat
 
 > Pipewire üzerinden ses dosyalarını çalın ve kaydedin.
-> Daha fazla bilgi için: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
+> Daha fazla bilgi için: <https://docs.pipewire.org/page_man_pw-cat_1.html>.
 
 - Varsayılan hedef üzerinden bir WAV dosyası oynat:
 
@@ -14,3 +14,7 @@
 - Örnek bir kaydı farklı bir örnek oran kullanarak kayda al:
 
 `pw-cat {{[-r|--record]}} --rate={{6000}} {{örnek/konum/dosya.wav}}`
+
+- Yardımı görüntüle:
+
+`pw-cat {{[-h|--help]}}`

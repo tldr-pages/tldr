@@ -10,7 +10,7 @@
 
 - 사용자 정의 파일 레이블링 규칙을 헤더 없이 나열:
 
-`sudo semanage fcontext {{[-l|--list]}} --locallist --noheading`
+`sudo semanage fcontext {{[-l|--list]}} {{[-C|--locallist]}} {{[-n|--noheading]}}`
 
 - PCRE 정규표현식과 일치하는 경로에 레이블을 지정하는 사용자 정의 규칙 추가:
 

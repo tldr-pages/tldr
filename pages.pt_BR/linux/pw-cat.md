@@ -1,7 +1,7 @@
 # pw-cat
 
 > Toca e grava arquivos de áudio através do PipeWire.
-> Mais informações: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
+> Mais informações: <https://docs.pipewire.org/page_man_pw-cat_1.html>.
 
 - Toca um arquivo WAV no alvo padrão:
 
@@ -18,3 +18,7 @@
 - Faz uma gravação com uma taxa de amostragem diferente:
 
 `pw-cat {{[-r|--record]}} --rate {{6000}} {{caminho/para/arquivo.wav}}`
+
+- Exibe ajuda:
+
+`pw-cat {{[-h|--help]}}`

@@ -10,7 +10,7 @@
 
 - Toon alle door de gebruiker gedefinieerde bestandslabelregels zonder koppen:
 
-`sudo semanage fcontext {{[-l|--list]}} --locallist --noheading`
+`sudo semanage fcontext {{[-l|--list]}} {{[-C|--locallist]}} {{[-n|--noheading]}}`
 
 - Voeg een door de gebruiker gedefinieerde regel toe die elk pad labelt dat overeenkomt met een PCRE-regex:
 
