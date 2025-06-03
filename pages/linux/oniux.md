@@ -15,7 +15,7 @@
 
 `oniux curl {{http://example.onion}}`
 
-- Run an entire shell in a "torified" isolation:
+- Run an entire shell in "torified" isolation:
 
 `oniux bash`
 
