@@ -1,7 +1,8 @@
 # oniux
 
 > Isolate an arbitrary application and route traffic over the Tor network.
-> This is still considered experimental software! More information: <https://gitlab.torproject.org/tpo/core/oniux>.
+> Note: This is experimental software.
+> More information: <https://gitlab.torproject.org/tpo/core/oniux>.
 
 - Isolate an application:
 
