@@ -1,24 +1,24 @@
 # oniux
 
-> Isolate an arbitrary application over the Tor network.
+> Isolate an arbitrary application and route traffic over the Tor network.
 > This is still considered experimental software! More information: <https://gitlab.torproject.org/tpo/core/oniux>.
 
-- Perform a simple HTTPS query using oniux:
+- Isolate an application:
 
-`oniux curl https://icanhazip.com`
+`oniux {{command}}`
 
-- Perform a simple HTTPS query using oniux, using IPv6:
+- Query a website:
 
-`oniux curl -6 https://ipv6.icanhazip.com`
+`oniux curl {{https://example.com}}`
 
-- Perform a simple HTTPS query using oniux, on the Tor network:
+- Query an onion site:
 
-`oniux curl http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/index.html`
+`oniux curl {{http://example.onion}}`
 
 - Run an entire shell in a "torified" isolation:
 
 `oniux bash`
 
-- Isolcate graphical applications in desktop environments:
+- Isolate graphical applications in desktop environments:
 
 `oniux hexchat`
