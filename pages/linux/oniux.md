@@ -1,6 +1,6 @@
 # oniux
 
-> Oniux utilizes various Linux namespaces(7) in order to isolate an arbitrary application over the Tor network.
+> Isolate an arbitrary application over the Tor network.
 > This is still considered experimental software! More information: <https://gitlab.torproject.org/tpo/core/oniux>.
 
 - Perform a simple HTTPS query using oniux:
