@@ -5,11 +5,11 @@
 
 - Compileer een bronbestand naar een `libtool`-object:
 
-`libtool --mode=compile gcc -c {{pad/naar/bron.c}} -o {{pad/naar/bron.lo}}`
+`libtool --mode=compile gcc {{[-c|--compile]}} {{pad/naar/bron.c}} {{[-o|--output]}} {{pad/naar/bron.lo}}`
 
 - Maak een bibliotheek of een uitvoerbaar bestand:
 
-`libtool --mode=link gcc -o {{pad/naar/bibliotheek.lo}} {{pad/naar/bron.lo}}`
+`libtool --mode=link gcc {{[-o|--output]}} {{pad/naar/bibliotheek.lo}} {{pad/naar/bron.lo}}`
 
 - Stel automatisch het bibliotheekpad in zodat een ander programma niet-geïnstalleerde door `libtool` gegenereerde programma's of bibliotheken kan gebruiken:
 

@@ -6,12 +6,12 @@
 
 - 마지막 부분이 손상된 Netpbm 파일 수정:
 
-`pamfix -truncate {{경로/대상/손상된_파일.ext}} > {{경로/대상/출력_파일.ext}}`
+`pamfix {{[-t|-truncate]}} {{경로/대상/손상된_파일.ext}} > {{경로/대상/출력_파일.ext}}`
 
 - 이미지의 `maxval`을 초과하는 픽셀 값을 낮추어 수정:
 
-`pamfix -clip {{경로/대상/손상된_파일.ext}} > {{경로/대상/출력_파일.ext}}`
+`pamfix {{[-cl|-clip]}} {{경로/대상/손상된_파일.ext}} > {{경로/대상/출력_파일.ext}}`
 
 - 이미지의 `maxval`을 초과하는 픽셀 값을 증가시켜 수정:
 
-`pamfix -changemaxval {{경로/대상/손상된.pam|pbm|pgm|ppm}} > {{경로/대상/출력.pam|pbm|pgm|ppm}}`
+`pamfix {{[-ch|-changemaxval]}} {{경로/대상/손상된.pam|pbm|pgm|ppm}} > {{경로/대상/출력.pam|pbm|pgm|ppm}}`

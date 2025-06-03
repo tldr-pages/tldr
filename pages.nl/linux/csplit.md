@@ -14,11 +14,11 @@
 
 - Splits een bestand iedere 5 regels en negeer de exacte verdeeldheid error:
 
-`csplit -k {{pad/naar/bestand}} 5 {*}`
+`csplit {{[-k|--keep-files]}} {{pad/naar/bestand}} 5 {*}`
 
 - Splits een bestand op regel 5 en gebruik een aangepaste prefix voor de uitvoerbestanden:
 
-`csplit {{pad/naar/bestand}} 5 -f {{prefix}}`
+`csplit {{pad/naar/bestand}} 5 {{[-f|--prefix]}} {{prefix}}`
 
 - Splits een bestand op een regel die overeenkomt met de reguliere expressie:
 

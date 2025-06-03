@@ -2,7 +2,7 @@
 
 > Inicializa e atualiza seu sistema usando imagens de containeres.
 > Manipula atualizações transacionais e transparentes utilizando imagens de containeres OCI/Docker.
-> Mais informações: <https://containers.github.io/bootc/>.
+> Mais informações: <https://manned.org/bootc.8>.
 
 - Mostra todos os deployments na ordem que eles aparecem na inicialização:
 

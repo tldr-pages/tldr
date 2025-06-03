@@ -10,12 +10,12 @@
 
 - 출력 이미지에서 지정된 색상을 투명하게 표시:
 
-`pamtopng -transparent {{색상}} {{경로/대상/이미지.pam}} > {{경로/대상/출력.png}}`
+`pamtopng {{[-t|-transparent]}} {{색상}} {{경로/대상/이미지.pam}} > {{경로/대상/출력.png}}`
 
 - 지정된 파일의 텍스트를 출력물에 tEXt 청크로 포함:
 
-`pamtopng -text {{경로/대상/파일.txt}} {{경로/대상/이미지.pam}} > {{경로/대상/출력.png}}`
+`pamtopng {{[-te|-text]}} {{경로/대상/파일.txt}} {{경로/대상/이미지.pam}} > {{경로/대상/출력.png}}`
 
 - 출력 파일을 Adam7 형식으로 인터레이스 처리:
 
-`pamtopng -interlace {{경로/대상/이미지.pam}} > {{경로/대상/출력.png}}`
+`pamtopng {{[-in|-interlace]}} {{경로/대상/이미지.pam}} > {{경로/대상/출력.png}}`
