@@ -1,6 +1,6 @@
 # zsync
 
-> Partial/differential file downloader.
+> Partial/differential file downloader designed for HTTP and file mirroring.
 > HTTPS is not supported - use HTTP URLs only.
 > See also: `rsync`
 > More information: <https://manned.org/zsync>.
