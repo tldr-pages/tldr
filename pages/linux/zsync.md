@@ -15,7 +15,7 @@
 
 - Save the updated file under a specific name:
 
-`zsync -i {{path/to/existing_file}} -o {{path/to/new_file}} {{url.zsync}}`
+`zsync -i {{path/to/existing_file}} -o {{path/to/new_file}} {{path/to/url.zsync}}`
 
 - Resume a partial download and keep the temporary file:
 
