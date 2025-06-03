@@ -9,19 +9,19 @@
 
 - Führe Aufgaben im Playbook mit benutzerdefiniertem Host-Bestand aus:
 
-`ansible-playbook {{playbook}} -i {{inventory_datei}}`
+`ansible-playbook {{playbook}} {{[-i|--inventory]}} {{inventory_datei}}`
 
 - Führe Aufgaben im Playbook aus, wobei zusätzliche Variablen über die Befehlszeile definiert werden:
 
-`ansible-playbook {{playbook}} -e "{{variable1}}={{wert1}} {{variable2}}={{wert2}}"`
+`ansible-playbook {{playbook}} {{[-e|--extra-vars]}} "{{variable1}}={{wert1}} {{variable2}}={{wert2}}"`
 
 - Führe Aufgaben in Playbook mit zusätzlichen Variablen aus, die in einer JSON-Datei definiert sind:
 
-`ansible-playbook {{playbook}} -e "@{{variablen.json}}"`
+`ansible-playbook {{playbook}} {{[-e|--extra-vars]}} "@{{variablen.json}}"`
 
 - Führe Aufgaben im Playbook für die angegebenen Tags aus:
 
-`ansible-playbook {{playbook}} --tags {{tag1,tag2}}`
+`ansible-playbook {{playbook}} {{[-t|--tags|]}} {{tag1,tag2}}`
 
 - Führe Aufgaben in einem Playbook aus, die mit einer bestimmten Aufgabe beginnen:
 
