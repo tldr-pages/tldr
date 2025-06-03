@@ -6,16 +6,16 @@
 
 - Voer een commando uit op een externe [h]ost:
 
-`rexec -h={{remote_host}} {{ls -l}}`
+`rexec {{[-h|--host]}} {{remote_host}} {{ls -l}}`
 
 - Specificeer de externe [g]ebruikersnaam op een externe [h]ost:
 
-`rexec -username={{gebruikersnaam}} -h={{remote_host}} {{ps aux}}`
+`rexec {{[-u|--username]}} {{gebruikersnaam}} {{[-h|--host]}} {{remote_host}} {{ps aux}}`
 
 - Redirect `stdin` van `/dev/null` op een externe [h]ost:
 
-`rexec --no-err -h={{remote_host}} {{ls -l}}`
+`rexec {{[-n|--noerr]}} {{[-h|--host]}} {{remote_host}} {{ls -l}}`
 
 - Specificeer de externe [P]oort op een externe [h]ost:
 
-`rexec -P={{1234}} -h={{remote_host}} {{ls -l}}`
+`rexec {{[-P|--port]}} {{1234}} {{[-h|--host]}} {{remote_host}} {{ls -l}}`

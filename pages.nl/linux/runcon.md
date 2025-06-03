@@ -10,11 +10,11 @@
 
 - Specificeer het domein om een commando in uit te voeren:
 
-`runcon -t {{domein}}_t {{commando}}`
+`runcon {{[-t|--type]}} {{domein}}_t {{commando}}`
 
 - Specificeer de context rol om een commando mee uit te voeren:
 
-`runcon -r {{rol}}_r {{commando}}`
+`runcon {{[-r|--role]}} {{rol}}_r {{commando}}`
 
 - Specificeer de volledige context om een commando mee uit te voeren:
 
