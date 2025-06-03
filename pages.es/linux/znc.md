@@ -1,0 +1,20 @@
+# znc
+
+> Rebotador de IRC.
+> Más información: <https://manned.org/znc>.
+
+- Ejecute la configuración inicial:
+
+`znc {{[-c|--makeconf]}}`
+
+- Inicie el proceso demonio del rebotador de IRC:
+
+`znc`
+
+- Configure `znc` para systemd:
+
+`sudo {{[-u|--user]}} znc znc {{[-c|--makeconf]}} {{[-d|--datadir]}} /var/lib/znc`
+
+- Habilite `znc` para que se inicie en arranque e inicie ahora:
+
+`systemctl enable znc --now`
