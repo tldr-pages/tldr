@@ -9,7 +9,7 @@
 
 - Analizar un playbook mientras se excluyen reglas específicas:
 
-`ansible-lint {{[-x|--exclude-rules]}} {{regla1, regla2,...}} {ruta/al/archivo_playbook}`
+`ansible-lint {{[-x|--exclude-rules]}} {{regla1, regla2,...}} {{ruta/al/archivo_playbook}}`
 
 - Analizar un playbook en modo sin conexión y darle como formato de salida PEP8:
 
