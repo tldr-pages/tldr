@@ -11,7 +11,7 @@
 
 - Use a local file as a seed to avoid re-downloading unchanged parts:
 
-`zsync -i {{path/to/existing_file}} {{url.zsync}}`
+`zsync -i {{path/to/existing_file}} {{path/to/url.zsync}}`
 
 - Save the updated file under a specific name:
 
