@@ -5,16 +5,16 @@
 
 - Toca um arquivo WAV no alvo padrão:
 
-`pw-cat --playback {{caminho/para/arquivo.wav}}`
+`pw-cat {{[-p|--playback]}} {{caminho/para/arquivo.wav}}`
 
 - Toca um arquivo WAV com uma qualidade de reamostragem específica (4 por padrão):
 
-`pw-cat --quality {{0..15}} --playback {{caminho/para/arquivo.wav}}`
+`pw-cat {{[-q|--quality]}} {{0..15}} {{[-p|--playback]}} {{caminho/para/arquivo.wav}}`
 
 - Faz uma gravação com o volume em 125%:
 
-`pw-cat --record --volume {{1.25}} {{caminho/para/arquivo.wav}}`
+`pw-cat {{[-r|--record]}} --volume {{1.25}} {{caminho/para/arquivo.wav}}`
 
 - Faz uma gravação com uma taxa de amostragem diferente:
 
-`pw-cat --record --rate {{6000}} {{caminho/para/arquivo.wav}}`
+`pw-cat {{[-r|--record]}} --rate {{6000}} {{caminho/para/arquivo.wav}}`
