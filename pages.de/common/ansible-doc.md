@@ -10,7 +10,7 @@
 
 - Auflisten der verfügbare Plugins eines bestimmten Typs:
 
-`ansible-doc{{[-t|--type]}} {{plugin_typ}} {{[-l|--list]}}`
+`ansible-doc {{[-t|--type]}} {{plugin_typ}} {{[-l|--list]}}`
 
 - Anzeigen von Informationen über ein bestimmtes Aktions-Plugin (Module):
 
@@ -18,12 +18,12 @@
 
 - Anzeigen von Informationen über ein Plugin mit einem betimmten Typ:
 
-`ansible-doc{{[-t|--type]}} {{plugin_typ}} {{plugin_name}}`
+`ansible-doc {{[-t|--type]}} {{plugin_typ}} {{plugin_name}}`
 
 - Anzeigen des Playbookausschnittes für ein Actions-Plugin (Module):
 
-`ansible-doc{{[-s|--snippet]}} {{plugin_name}}`
+`ansible-doc {{[-s|--snippet]}} {{plugin_name}}`
 
 - Anzeigen von Informationen über ein Aktions-Plugin (Module) als JSON:
 
-`ansible-doc{{[-j|--json]}} {{plugin_name}}`
+`ansible-doc {{[-j|--json]}} {{plugin_name}}`

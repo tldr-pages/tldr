@@ -10,7 +10,7 @@
 
 - 특정 유형의 사용 가능한 플러그인을 나열:
 
-`ansible-doc{{[-t|--type]}} {{become|cache|callback|cliconf|connection|...}} {{[-l|--list]}}`
+`ansible-doc {{[-t|--type]}} {{become|cache|callback|cliconf|connection|...}} {{[-l|--list]}}`
 
 - 특정 작업 플러그인(모듈)에 대한 정보 표시:
 
@@ -18,12 +18,12 @@
 
 - 특정 유형의 플러그인에 대한 정보 표시:
 
-`ansible-doc{{[-t|--type]}} {{become|cache|callback|cliconf|connection|...}} {{플러그인_이름}}`
+`ansible-doc {{[-t|--type]}} {{become|cache|callback|cliconf|connection|...}} {{플러그인_이름}}`
 
 - 액션 플러그인(모듈)에 대한 플레이북 스니펫 표시:
 
-`ansible-doc{{[-s|--snippet]}} {{플러그인_이름}}`
+`ansible-doc {{[-s|--snippet]}} {{플러그인_이름}}`
 
 - 액션 플러그인(모듈)에 대한 정보를 JSON으로 표시:
 
-`ansible-doc{{[-j|--json]}} {{플러그인_이름}}`
+`ansible-doc {{[-j|--json]}} {{플러그인_이름}}`
