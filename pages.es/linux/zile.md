@@ -11,7 +11,7 @@
 
 `zile {{ruta/al/archivo}}`
 
-- Guarde un archivo:
+- Guarda un archivo:
 
 `<Ctrl x><Ctrl s>`
 
