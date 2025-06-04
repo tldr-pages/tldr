@@ -9,12 +9,12 @@
 
 - 입력 파일의 모든 이미지를 PAM으로 변환:
 
-`winicontopam -allimages {{경로/대상/입력_파일.ico}} > {{경로/대상/출력.pam}}`
+`winicontopam {{[-al|-allimages]}} {{경로/대상/입력_파일.ico}} > {{경로/대상/출력.pam}}`
 
 - 입력 파일의 n번째 이미지를 PAM으로 변환:
 
-`winicontopam -image {{n}} {{경로/대상/입력_파일.ico}} > {{경로/대상/출력.pam}}`
+`winicontopam {{[-i|-image]}} {{n}} {{경로/대상/입력_파일.ico}} > {{경로/대상/출력.pam}}`
 
 - 추출할 이미지가 그라데이션 투명 데이터와 AND 마스크를 포함하는 경우, 출력 PAM 파일의 다섯 번째 채널에 AND 마스크를 작성:
 
-`winicontopam -andmasks {{경로/대상/입력_파일.ico}} > {{경로/대상/출력.pam}}`
+`winicontopam {{[-an|-andmasks]}} {{경로/대상/입력_파일.ico}} > {{경로/대상/출력.pam}}`

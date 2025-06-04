@@ -9,7 +9,7 @@
 
 - Mount with options to exclude specific partitions (e.g. `/home`, overlays):
 
-`sudo mount.steamos -o nohome,nooverlay {{/dev/sdX}} {{/mnt}}`
+`sudo mount.steamos {{[-o|--options]}} nohome,nooverlay {{/dev/sdX}} {{/mnt}}`
 
 - Unmount all partitions mounted under a target directory:
 
@@ -17,4 +17,4 @@
 
 - Display help:
 
-`mount.steamos -h`
+`mount.steamos {{[-h|--help]}}`
