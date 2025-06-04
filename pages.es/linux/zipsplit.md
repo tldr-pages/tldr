@@ -7,7 +7,7 @@
 
 `zipsplit {{ruta/al/archivo.zip}}`
 
-- Use un [n]úmero dado de bytes como limite parcial:
+- Usa un [n]úmero dado de bytes como límite parcial:
 
 `zipsplit -n {{size}} {{ruta/al/archivo.zip}}`
 
