@@ -10,4 +10,4 @@
 
 - 查看传统 Windows PowerShell（版本 5.1 及以下）的命令文档：
 
-`tldr powershell -p windows`
+`tldr powershell {{[-p|--platform]}} windows`
