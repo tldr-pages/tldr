@@ -1,7 +1,7 @@
 # scheme
 
 > MIT Scheme 언어 인터프리터 및 REPL(대화형 셸).
-> 더 많은 정보: <https://www.gnu.org/software/mit-scheme>.
+> 더 많은 정보: <https://www.gnu.org/software/mit-scheme/documentation/stable/mit-scheme-user.html#Command_002dLine-Options>.
 
 - REPL(대화형 셸) 시작:
 
