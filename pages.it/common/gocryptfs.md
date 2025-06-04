@@ -1,7 +1,7 @@
 # gocryptfs
 
 > Filesystem crittografato scritto in Go.
-> Maggiori informazioni: <https://github.com/rfjakob/gocryptfs>.
+> Maggiori informazioni: <https://github.com/rfjakob/gocryptfs#use>.
 
 - Inizializzare un filesystem crittografato:
 
