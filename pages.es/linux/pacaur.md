@@ -7,7 +7,7 @@
 
 `pacaur -Syu`
 
-- Sincronice y actualice solo los paquetes AUR:
+- Sincroniza y actualiza solo los paquetes AUR:
 
 `pacaur -Syua`
 
