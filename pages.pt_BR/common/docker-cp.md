@@ -13,4 +13,4 @@
 
 - Copia um diretório de um host para um container, seguindo o link simbólico (copia os arquivos linkados diretamente e não o link simbólico):
 
-`docker cp --follow-link {{caminho/do/arquivo_ou_diretório_linkado_do_host}} {{nome_do_container}}:{{caminho/do/arquivo_ou_diretório_do_container}}`
+`docker cp {{[-L|--follow-link]}} {{caminho/do/arquivo_ou_diretório_linkado_do_host}} {{nome_do_container}}:{{caminho/do/arquivo_ou_diretório_do_container}}`
