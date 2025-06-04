@@ -1,9 +1,8 @@
 # steamos-boot-install
 
-> Wrapper for `steamos-finalize-install`, which sets up bootloaders and applies system updates.
-> Deprecated alias kept for backward compatibility.
+> This command is an alias of `steamos-finalize-install`.
 > More information: <https://gitlab.com/users/evlaV/projects>.
 
-- Run `steamos-finalize-install`:
+- View documentation for the original command:
 
-`sudo steamos-boot-install`
+`tldr steamos-finalize-install`
