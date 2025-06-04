@@ -9,8 +9,8 @@
 
 - 특정 패키지의 GitHub 저장소를 웹 브라우저에서 열기:
 
-`npm-home -g {{패키지}}`
+`npm-home {{[-g|--github]}} {{패키지}}`
 
 - 특정 패키지의 Yarn 페이지를 웹 브라우저에서 열기:
 
-`npm-home -y {{패키지}}`
+`npm-home {{[-y|--yarn]}} {{패키지}}`

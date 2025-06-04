@@ -5,28 +5,28 @@
 
 - Toon alle poorten:
 
-`netstat --all`
+`netstat {{[-a|--all]}}`
 
 - Toon alle luisterende poorten:
 
-`netstat --listening`
+`netstat {{-l|--listening]}}`
 
 - Toon luisterende TCP-poorten:
 
-`netstat --tcp`
+`netstat {{-t|--tcp]}}`
 
 - Toon PID en programmanamen:
 
-`netstat --program`
+`netstat {{[-p|--program]}}`
 
-- Toon informatie continu:
+- Toon continu informatie:
 
-`netstat --continuous`
+`netstat {{[-c|--continuous]}}`
 
 - Toon routes en los IP-adressen niet op naar hostnamen:
 
-`netstat --route --numeric`
+`netstat {{[-rn|--route --numeric]}}`
 
 - Toon luisterende TCP- en UDP-poorten (+ gebruiker en proces als je root bent):
 
-`netstat --listening --program --numeric --tcp --udp --extend`
+`netstat {{[-tulpne|--tcp --udp --listening --program --numeric --extend]}}`

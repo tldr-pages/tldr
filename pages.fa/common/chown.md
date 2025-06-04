@@ -21,4 +21,4 @@
 
 - تغییر مالک یک فایل/پوشه برای همسان شدن با فایل مرجع:
 
-`chown --reference={{path/to/reference_file}} {{path/to/file_or_directory}}`
+`chown --reference {{path/to/reference_file}} {{path/to/file_or_directory}}`

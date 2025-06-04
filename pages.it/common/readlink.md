@@ -9,4 +9,4 @@
 
 - Ottiene il percorso assoluto di un file:
 
-`readlink -f {{nome_file}}`
+`readlink {{[-f|--canonicalize]}} {{nome_file}}`

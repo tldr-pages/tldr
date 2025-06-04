@@ -10,12 +10,12 @@
 
 - Kopieer een directory recursief:
 
-`rcp -r {{pad/naar/local_directory}} {{gebruikersnaam}}@{{remote_host}}:{{/pad/naar/bestemming/}}`
+`rcp {{[-r|--recursive]}} {{pad/naar/local_directory}} {{gebruikersnaam}}@{{remote_host}}:{{/pad/naar/bestemming/}}`
 
 - Behoud de bestandseigenschappen:
 
-`rcp -p {{pad/naar/local_file}} {{gebruikersnaam}}@{{remote_host}}:{{/pad/naar/bestemming/}}`
+`rcp {{[-p|--preserve]}} {{pad/naar/local_file}} {{gebruikersnaam}}@{{remote_host}}:{{/pad/naar/bestemming/}}`
 
 - Forceer kopiëren zonder bevestiging:
 
-`rcp -f {{pad/naar/local_file}} {{gebruikersnaam}}@{{remote_host}}:{{/pad/naar/bestemming/}}`
+`rcp {{[-f|--from]}} {{pad/naar/local_file}} {{gebruikersnaam}}@{{remote_host}}:{{/pad/naar/bestemming/}}`

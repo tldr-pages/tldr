@@ -1,7 +1,7 @@
 # yay
 
 > Yet Another Yogurt: build and install packages from the Arch User Repository.
-> Also see `pacman`.
+> See also: `pacman`.
 > More information: <https://github.com/Jguer/yay>.
 
 - Interactively search and install packages from the repos and AUR:
@@ -11,10 +11,6 @@
 - Synchronize and update all packages from the repos and AUR:
 
 `yay`
-
-- Synchronize and update only AUR packages:
-
-`yay -Sua`
 
 - Install a new package from the repos and AUR and do not ask to confirm transactions:
 
@@ -31,6 +27,10 @@
 - Remove orphaned packages (installed as dependencies but not required by any package):
 
 `yay -Yc`
+
+- Clean `pacman` and `yay` caches (old package versions kept for rollback and downgrade purposes):
+
+`yay -Scc`
 
 - Show statistics for installed packages and system health:
 

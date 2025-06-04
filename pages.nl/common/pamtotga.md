@@ -13,4 +13,4 @@
 
 - Toon de versie:
 
-`pamtotga -version`
+`pamtotga {{[-v|-version]}}`

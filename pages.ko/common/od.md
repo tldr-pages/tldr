@@ -10,20 +10,20 @@
 
 - 자세한 모드로 파일 표시, 즉 중복 줄을 `*`로 대체하지 않음:
 
-`od -v {{경로/대상/파일}}`
+`od {{[-v|--output-duplicates]}} {{경로/대상/파일}}`
 
 - 16진수 형식(2바이트 단위)으로 파일 표시, 10진수 형식의 바이트 오프셋:
 
-`od --format={{x}} --address-radix={{d}} -v {{경로/대상/파일}}`
+`od {{[-t|--format]}} {{x}} {{[-A|--address-radix]}} {{d}} {{[-v|--output-duplicates]}} {{경로/대상/파일}}`
 
 - 16진수 형식(1바이트 단위)으로 파일 표시, 4바이트 단위로 줄바꿈:
 
-`od --format={{x1}} --width={{4}} -v {{경로/대상/파일}}`
+`od {{[-t|--format]}} {{x1}} {{[-w|--width=]}}4 {{[-v|--output-duplicates]}} {{경로/대상/파일}}`
 
 - 16진수 형식과 문자 표현으로 파일 표시, 바이트 오프셋은 출력하지 않음:
 
-`od --format={{xz}} --address-radix={{n}} -v {{경로/대상/파일}}`
+`od {{[-t|--format]}} {{xz}} {{[-A|--address-radix]}} {{n}} {{[-v|--output-duplicates]}} {{경로/대상/파일}}`
 
 - 500번째 바이트부터 시작하여 파일의 100바이트만 읽기:
 
-`od --read-bytes 100 --skip-bytes=500 -v {{경로/대상/파일}}`
+`od {{[-N|--read-bytes]}} 100 {{[-j|--skip-bytes]}} 500 {{[-v|--output-duplicates]}} {{경로/대상/파일}}`

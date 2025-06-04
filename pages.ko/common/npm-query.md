@@ -25,8 +25,8 @@
 
 - 설치 후 스크립트로 모든 의존성을 찾아 제거:
 
-`npm query ":attr(scripts, [postinstall])" | jq 'map(.name) | join("\n")' -r | xargs -I {} npm uninstall {}`
+`npm query ":attr(scripts, [postinstall])" | jq 'map(.name) | join("\n")' {{[-r|--raw-output]}} | xargs -I _ npm uninstall _`
 
 - 모든 Git 종속성을 찾아 어떤 애플리케이션에 필요한지 출력:
 
-`npm query ":type(git)" | jq 'map(.name)' | xargs -I {} npm why {}`
+`npm query ":type(git)" | jq 'map(.name)' | xargs -I _ npm why _`

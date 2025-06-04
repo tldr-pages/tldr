@@ -13,19 +13,19 @@
 
 - Dockerイメージを構築しそれにタグを付ける:
 
-`docker build --tag {{名前:タグ}} .`
+`docker build {{[-t|--tag]}} {{名前:タグ}} .`
 
 - ビルドコンテキスト無しでDockerイメージを構築する:
 
-`docker build --tag {{名前:タグ}} - < {{Dockerfile}}`
+`docker build {{[-t|--tag]}} {{名前:タグ}} - < {{Dockerfile}}`
 
 - Dockerイメージ構築時にキャッシュを使わないようにする:
 
-`docker build --no-cache --tag {{名前:タグ}} .`
+`docker build --no-cache {{[-t|--tag]}} {{名前:タグ}} .`
 
 - 指定のDockerfileを用いてDockerイメージを構築する:
 
-`docker build --file {{Dockerfile}} .`
+`docker build {{[-f|--file]}} {{Dockerfile}} .`
 
 - ビルド時のカスタム変数を指定してイメージを構築する:
 

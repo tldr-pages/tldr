@@ -13,4 +13,4 @@
 
 - Toon de waarde van een variabele en eindig met NUL in plaats van een nieuwe regel:
 
-`printenv --null {{HOME}}`
+`printenv {{[-0|--null]}} {{HOME}}`

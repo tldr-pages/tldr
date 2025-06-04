@@ -14,8 +14,8 @@
 
 - Reemplaza píxeles transparentes por el color especificado:
 
-`pngtopam -mix -background {{color}} {{ruta/a/la/imagen.png}} > {{ruta/al/resultado.pam}}`
+`pngtopam {{[-m|-mix]}} {{[-ba|-background]}} {{color}} {{ruta/a/la/imagen.png}} > {{ruta/al/resultado.pam}}`
 
 - Escribe los trozos de tEXt encontrados en la imagen de entrada al archivo de texto especificado:
 
-`pngtopam -text {{ruta/al/archivo.txt}} {{ruta/a/la/imagen.png}} > {{ruta/al/resultado.pam}}`
+`pngtopam {{[-te|-text]}} {{ruta/al/archivo.txt}} {{ruta/a/la/imagen.png}} > {{ruta/al/resultado.pam}}`

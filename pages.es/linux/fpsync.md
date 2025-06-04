@@ -1,7 +1,7 @@
 # fpsync
 
 > Ejecuta varios procesos de sincronización localmente o en varios trabajadores remotos a través de SSH.
-> Más información: <https://www.fpart.org/fpsync/>.
+> Más información: <https://manned.org/fpsync>.
 
 - Sincroniza recursivamente un directorio a otra ubicación:
 
