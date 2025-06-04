@@ -1,7 +1,7 @@
 # lxc-create
 
 > Crea contenedores linux.
-> Más información: <https://linuxcontainers.org/lxc/getting-started/>.
+> Más información: <https://linuxcontainers.org/lxc/getting-started>.
 
 - Crea un contenedor interactivamente en `/var/lib/lxc/`:
 
