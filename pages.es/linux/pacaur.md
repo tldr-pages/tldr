@@ -15,7 +15,7 @@
 
 `pacaur -S {{paquete}}`
 
-- Elimine un paquete y sus dependencias (incluye paquetes AUR):
+- Elimina un paquete y sus dependencias (incluye paquetes AUR):
 
 `pacaur -Rs {{paquete}}`
 
