@@ -13,7 +13,7 @@
 
 - Ejecuta un archivo Python específico y comienza un REPL:
 
-`ptpython -i {{ruta/al/archivo.py}}`
+`ptpython {{[-i|--interactive]}} {{ruta/al/archivo.py}}`
 
 - Abre el menú:
 
