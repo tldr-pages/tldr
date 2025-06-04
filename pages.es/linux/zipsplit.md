@@ -11,7 +11,7 @@
 
 `zipsplit -n {{size}} {{ruta/al/archivo.zip}}`
 
-- [p]ause entre la cración de cada parte:
+- [p]ausa entre la creación de cada parte:
 
 `zipsplit -p -n {{size}} {{ruta/al/archivo.zip}}`
 
