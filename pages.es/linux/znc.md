@@ -11,7 +11,7 @@
 
 `znc`
 
-- Configure `znc` para systemd:
+- Configura `znc` para systemd:
 
 `sudo {{[-u|--user]}} znc znc {{[-c|--makeconf]}} {{[-d|--datadir]}} /var/lib/znc`
 
