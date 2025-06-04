@@ -14,3 +14,7 @@
 - Recursively make an entire directory and contents immutable:
 
 `chattr -R +i {{path/to/directory}}`
+
+- Mark a directory and its files to be interpreted in a case-insensitive manner:
+
+`chattr +F {{path/to/directory}}`
