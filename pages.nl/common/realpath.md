@@ -9,16 +9,16 @@
 
 - Vereis dat alle padcomponenten bestaan:
 
-`realpath --canonicalize-existing {{pad/naar/bestand_of_map}}`
+`realpath {{[-e|--canonicalize-existing]}} {{pad/naar/bestand_of_map}}`
 
 - Los ".." componenten op voordat symlinks worden gevolgd:
 
-`realpath --logical {{pad/naar/bestand_of_map}}`
+`realpath {{[-L|--logical]}} {{pad/naar/bestand_of_map}}`
 
 - Schakel symlink-uitbreiding uit:
 
-`realpath --no-symlinks {{pad/naar/bestand_of_map}}`
+`realpath {{[-s|--no-symlinks]}} {{pad/naar/bestand_of_map}}`
 
 - Onderdruk foutmeldingen:
 
-`realpath --quiet {{pad/naar/bestand_of_map}}`
+`realpath {{[-q|--quiet]}} {{pad/naar/bestand_of_map}}`
