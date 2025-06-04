@@ -2,7 +2,7 @@
 
 > Lista la información de los últimos inicios de sesión de usuario.
 > Vea también: `lastb`, `login`.
-> Más información: <https://manned.org/last.1>.
+> Más información: <https://manned.org/last>.
 
 - Lista la información de inicio de sesión (por ejemplo, nombre de usuario, terminal, tiempo de arranque, núcleo) de todos los usuarios:
 

@@ -1,7 +1,7 @@
 # xrdb
 
 > Utilitário de base de dados de recursos para servidor X window em sistemas tipo Unix.
-> Mais informações: <https://www.x.org/releases/X11R7.7/doc/man/man1/xrdb.1.xhtml>.
+> Mais informações: <https://www.x.org/releases/current/doc/man/man1/xrdb.1.xhtml>.
 
 - Inicia `xrdb` em modo interactivo:
 
