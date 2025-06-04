@@ -17,7 +17,7 @@
 
 - Search for images with a minimum number of stars:
 
-`docker search --filter {{stars=NUMBER}} {{keyword}}`
+`docker search {{[-f|--filter]}} stars={{number}} {{keyword}}`
 
 - Limit the number of results:
 
