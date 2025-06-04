@@ -23,6 +23,6 @@
 
 `pacaur -Ss {{palabra_clave}}`
 
-- Liste todos los paquetes instalados en este momento (incluye paquetes AUR):
+- Lista todos los paquetes instalados en este momento (incluye paquetes AUR):
 
 `pacaur -Qs`
