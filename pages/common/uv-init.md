@@ -13,7 +13,7 @@
 
 - Create a project for a Python library:
 
-`uv init --lib {{project_name}}`
+`uv init {{[--lib|--library]}} {{project_name}}`
 
 - Specify the build system:
 
