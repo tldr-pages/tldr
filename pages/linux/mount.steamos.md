@@ -17,4 +17,4 @@
 
 - Display help:
 
-`mount.steamos -h`
+`mount.steamos {{[-h|--help]}}`
