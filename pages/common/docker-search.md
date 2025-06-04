@@ -9,7 +9,7 @@
 
 - Search for images and only show official ones:
 
-`docker search {{[-f|--filter]}} is-official=true  {{keyword}}`
+`docker search {{[-f|--filter]}} is-official=true {{keyword}}`
 
 - Search for images and only show automated builds:
 
