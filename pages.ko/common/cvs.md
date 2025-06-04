@@ -1,7 +1,7 @@
 # cvs
 
 > 수정 관리 시스템이며 동시성 버전 관리 시스템.
-> 더 많은 정보: <https://cvs.nongnu.org>.
+> 더 많은 정보: <https://manned.org/cvs>.
 
 - 새로운 저장소를 생성 (`CVSROOT` 환경 변수를 외부에서 설정해야 함):
 
