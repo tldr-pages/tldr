@@ -13,7 +13,7 @@
 
 - Search for images and only show automated builds:
 
-`docker search --filter {{is-automated=true}} {{keyword}}`
+`docker search {{[-f|--filter]}} is-automated={{true}} {{keyword}}`
 
 - Search for images with a minimum number of stars:
 
