@@ -15,6 +15,6 @@
 
 `zipsplit -p -n {{size}} {{ruta/al/archivo.zip}}`
 
-- De salida a los archivos Zip más pequeños en un directorio dado:
+- Da salida a los archivos Zip más pequeños en un directorio dado:
 
 `zipsplit -b {{ruta/al/directorio_de_salida}} -n {{size}} {{ruta/al/archivo.zip}}`
