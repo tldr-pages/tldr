@@ -1,6 +1,6 @@
 # zipsplit
 
-> Divide un archivo Zip dentro de archivos Zip más pequeños.
+> Divide un archivo Zip en archivos Zip más pequeños.
 > Más información: <https://manned.org/zipsplit>.
 
 - Divide un archivo Zip en partes no mayores a 36000 bytes (36 MB):
