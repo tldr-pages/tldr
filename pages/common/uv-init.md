@@ -11,6 +11,10 @@
 
 `uv init {{project_name}}`
 
+- Create a project in a given directory:
+
+`uv init --directory {{path/to/directory}} {{project_name}}`
+
 - Create a project for a Python library:
 
 `uv init {{[--lib|--library]}} {{project_name}}`
