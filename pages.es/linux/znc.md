@@ -7,7 +7,7 @@
 
 `znc {{[-c|--makeconf]}}`
 
-- Inicie el proceso demonio del rebotador de IRC:
+- Inicia el programa residente del rebotador de IRC:
 
 `znc`
 
