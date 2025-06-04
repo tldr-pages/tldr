@@ -9,4 +9,4 @@
 
 - Toon het absolute pad naar een bestand:
 
-`readlink -f {{pad/naar/bestand}}`
+`readlink {{[-f|--canonicalize]}} {{pad/naar/bestand}}`
