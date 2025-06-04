@@ -3,7 +3,7 @@
 > Una versión ligera del editor de texto Emacs.
 > Más información: <https://www.gnu.org/software/zile>.
 
-- Inicie un bufer para notas temporales, las cuales no serán guardadas:
+- Inicia un búfer para notas temporales, las cuales no serán guardadas:
 
 `zile`
 
