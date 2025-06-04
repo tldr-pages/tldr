@@ -19,7 +19,7 @@
 
 `pacaur -Rs {{paquete}}`
 
-- Busque una palabra clave en la base de datos de paquetes (incluye AUR):
+- Busca una palabra clave en la base de datos de paquetes (incluye AUR):
 
 `pacaur -Ss {{palabra_clave}}`
 
