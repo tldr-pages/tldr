@@ -14,8 +14,8 @@
 
 - Vervang transparente pixels door de gespecificeerde kleur:
 
-`pngtopam -mix -background {{kleur}} {{pad/naar/afbeelding.png}} > {{pad/naar/uitvoer.pam}}`
+`pngtopam {{[-m|-mix]}} {{[-ba|-background]}} {{kleur}} {{pad/naar/afbeelding.png}} > {{pad/naar/uitvoer.pam}}`
 
 - Schrijf tEXt chunks gevonden in de invoer-afbeelding naar het gespecificeerde tekstbestand:
 
-`pngtopam -text {{pad/naar/bestand.txt}} {{pad/naar/afbeelding.png}} > {{pad/naar/uitvoer.pam}}`
+`pngtopam {{[-te|-text]}} {{pad/naar/bestand.txt}} {{pad/naar/afbeelding.png}} > {{pad/naar/uitvoer.pam}}`
