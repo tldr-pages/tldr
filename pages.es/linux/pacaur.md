@@ -11,7 +11,7 @@
 
 `pacaur -Syua`
 
-- Instale un nuevo paquete (incluye AUR):
+- Instala un nuevo paquete (incluye AUR):
 
 `pacaur -S {{paquete}}`
 
