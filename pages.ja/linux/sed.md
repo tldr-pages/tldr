@@ -16,7 +16,7 @@
 
 `sed {{[-i|--in-place]}} 's/apple/mango/g' {{path/to/file}}`
 
-- 特定のスクリプトファイル([f]ile)を実行し、結果を`stdout`に出力する:
+- 特定のスクリプトファイルを実行し、結果を`stdout`に出力する:
 
 `{{command}} | sed {{-f|--file}} {{path/to/script.sed}}`
 
@@ -24,10 +24,10 @@
 
 `{{command}} | sed {{[-n|--quiet]}} '1p'`
 
-- ファイルの最初の行を削除([d]elete)する:
+- ファイルの最初の行を削除する:
 
 `sed {{[-i|--in-place]}} 1d {{path/to/file}}`
 
-- ファイルの先頭行に改行を挿入([i]nsert)する:
+- ファイルの先頭行に改行を挿入する:
 
 `sed {{[-i|--in-place]}} '1i\your new line text\' {{path/to/file}}`
