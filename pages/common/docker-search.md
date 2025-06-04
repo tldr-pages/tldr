@@ -25,4 +25,4 @@
 
 - Customize the output format:
 
-`docker search --format "{{.Name}}: {{.Description}}" {{keyword}}`
+`docker search {{[-f|--format]}} "{{.Name}}: {{.Description}}" {{keyword}}`
