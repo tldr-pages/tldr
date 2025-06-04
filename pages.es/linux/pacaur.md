@@ -3,7 +3,7 @@
 > Utilidad de Arch Linux para construir e instalar paquetes del repositorio de usuarios de Arch.
 > Más información: <https://github.com/rmarquis/pacaur>.
 
-- Sincronice y actualice todos los paquetes (incluye AUR):
+- Sincroniza y actualiza todos los paquetes (incluye AUR):
 
 `pacaur -Syu`
 
