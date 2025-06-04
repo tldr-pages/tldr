@@ -3,7 +3,7 @@
 > Rebotador de IRC.
 > Más información: <https://manned.org/znc>.
 
-- Ejecute la configuración inicial:
+- Ejecuta la configuración inicial:
 
 `znc {{[-c|--makeconf]}}`
 
