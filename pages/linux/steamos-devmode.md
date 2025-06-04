@@ -1,7 +1,7 @@
 # steamos-devmode
 
 > Enable SteamOS developer mode.
-> Developer mode disables read-only protections and initializes the package manager.
+> Note: Developer mode disables read-only protections and initializes the package manager.
 > More information: <https://gitlab.com/users/evlaV/projects>.
 
 - Enable developer mode:
