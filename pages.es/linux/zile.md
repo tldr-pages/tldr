@@ -21,7 +21,7 @@
 
 - Abre un archivo en la línea numérica especificada:
 
-`zile +{{numero_de_linea}} {{ruta/al/archivo}}`
+`zile +{{número_de_línea}} {{ruta/al/archivo}}`
 
 - Deshace cambios:
 
