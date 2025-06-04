@@ -1,7 +1,7 @@
 # pulseaudio
 
 > Programma che permette di gestire il daemon audio di sistema.
-> Maggiori informazioni: <https://www.freedesktop.org/wiki/Software/PulseAudio/>.
+> Maggiori informazioni: <https://manned.org/pulseaudio>.
 
 - Controlla se PulseAudio è in esecuzione. Se il programma non è attivo viene restituito un exit code diverso da 0:
 
@@ -13,7 +13,7 @@
 
 - Interrompe l'esecuzione del daemon di PulseAudio:
 
-`pulseaudio --kill`
+`pulseaudio {{[-k|--kill]}}`
 
 - Mostra i moduli disponibili:
 
@@ -21,4 +21,4 @@
 
 - Carica un modulo all'interno del daemon in esecuzione con gli argomenti specificati:
 
-`pulseaudio --load="{{nome_modulo}} {{argomenti}}"`
+`pulseaudio {{[-L|--load]}} "{{nome_modulo}} {{argomenti}}"`
