@@ -15,7 +15,7 @@
 
 `<Ctrl x><Ctrl s>`
 
-- Salir:
+- Sale:
 
 `<Ctrl x><Ctrl c>`
 
