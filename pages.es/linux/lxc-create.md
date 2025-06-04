@@ -9,7 +9,7 @@
 
 - Crea un contenedor en un directorio de destino:
 
-`lxc-create {{[-P|--lxcpath]}} {{/ruta/al/directorio/}} {{[-n|--name]}} {{contenedor}} {{[-t|--template]}} download`
+`sudo lxc-create {{[-P|--lxcpath]}} {{/ruta/al/directorio/}} {{[-n|--name]}} {{contenedor}} {{[-t|--template]}} download`
 
 - Crea un contenedor pasando opciones a una plantilla:
 
