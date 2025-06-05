@@ -27,7 +27,7 @@
 
 /contributing-guides/maintainers-guide.md @sbrl @kbdharun @sebastiaanspeck
 /contributing-guides/style-guide.md @sbrl @kbdharun @sebastiaanspeck
-/contributing-guides/translation-templates/ @sebastiaanspeck
+/contributing-guides/translation-templates/ @kbdharun @sebastiaanspeck
 /contributing-guides/*.ar.md @MachiavelliII
 /contributing-guides/*.de.md @pixelcmtd @gutjuri
 /contributing-guides/*.es.md @kant @tricantivu @ikks
