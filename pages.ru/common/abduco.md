@@ -1,7 +1,7 @@
 # abduco
 
 > Менеджер сессий терминала.
-> Больше информации: <https://www.brain-dump.org/projects/abduco/>.
+> Больше информации: <https://manned.org/abduco>.
 
 - Вывести список сеансов:
 

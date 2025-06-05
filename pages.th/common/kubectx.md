@@ -1,7 +1,7 @@
 # kubectx
 
 > คำสั่งอรรถประโยชน์สำหรับสลับบริบทของคำสั่ง `kubectl`
-> ข้อมูลเพิ่มเติม: <https://github.com/ahmetb/kubectx>
+> ข้อมูลเพิ่มเติม: <https://manned.org/kubectx>
 
 - แสดงบริบททั้งหมด:
 

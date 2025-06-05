@@ -1,7 +1,7 @@
 # abduco
 
 > Gerenciador de sessão no terminal.
-> Mais informações: <https://www.brain-dump.org/projects/abduco/>.
+> Mais informações: <https://manned.org/abduco>.
 
 - Lista sessões:
 

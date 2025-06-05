@@ -1,7 +1,7 @@
 # ulimit
 
 > الحصول على وتعيين حدود الموارد لعمليات المستخدم.
-> لمزيد من التفاصيل: <https://manned.org/ulimit>.
+> لمزيد من التفاصيل: <https://www.gnu.org/software/bash/manual/bash.html#index-ulimit>.
 
 - عرض خصائص جميع حدود المستخدم:
 

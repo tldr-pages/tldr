@@ -2,7 +2,7 @@
 
 > Muestra una linda vaca y un mensaje en el escritorio de Linux.
 > La vaca se muestra por una cantidad fija de tiempo, o una cantidad de tiempo calculado a partir del tamaño del texto. Haga clic en la vaca para despedirla inmediatamente.
-> Más información: <https://www.doof.me.uk/xcowsay/>.
+> Más información: <https://manned.org/xcowsay>.
 
 - Muestra una vaca diciendo "hola, mundo":
 

@@ -1,7 +1,7 @@
 # ascii
 
 > ASCII 문자 별칭을 표시합니다.
-> 더 많은 정보: <http://www.catb.org/~esr/ascii/>.
+> 더 많은 정보: <http://www.catb.org/~esr/ascii/ascii.html>.
 
 - 문자의 ASCII 별칭 표시:
 

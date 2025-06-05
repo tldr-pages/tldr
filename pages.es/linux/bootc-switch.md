@@ -1,7 +1,7 @@
 # bootc switch
 
 > Apunta a una nueva referencia de imagen contenedora para arrancar.
-> Más información: <https://containers.github.io/bootc/man/bootc-switch.html>.
+> Más información: <https://manned.org/bootc-switch.8>.
 
 - Cambia el SO base a una nueva imagen de contenedor desde un registro:
 

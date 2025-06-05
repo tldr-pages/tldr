@@ -1,7 +1,7 @@
 # kubectx
 
 > `kubectl` 컨텍스트를 관리하고 전환하는 도구.
-> 더 많은 정보: <https://github.com/ahmetb/kubectx>.
+> 더 많은 정보: <https://manned.org/kubectx>.
 
 - 컨텍스트 나열:
 

@@ -1,7 +1,7 @@
 # acpi
 
 > Zeigt den Akkustatus oder Temperatur-Informationen an.
-> Weitere Informationen: <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
+> Weitere Informationen: <https://manned.org/acpi>.
 
 - Zeige Informationen über den Akku an:
 

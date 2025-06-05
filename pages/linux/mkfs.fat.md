@@ -18,3 +18,7 @@
 - Use 5 instead of 2 file allocation tables:
 
 `mkfs.fat -f 5 {{/dev/sdXY}}`
+
+- Specify filesystem type:
+
+`mkfs.fat -F {{12|16|32}} {{/dev/sdXY}}`

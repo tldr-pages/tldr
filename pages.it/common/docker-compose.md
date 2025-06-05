@@ -9,7 +9,7 @@
 
 - Crea ed avvia tutti i container in background utilizzando il file `docker-compose.yml` nella directory corrente:
 
-`docker compose up --detach`
+`docker compose up {{[-d|--detach]}}`
 
 - Avvia tutti i container, buildandoli di nuovo se necessario:
 
@@ -17,7 +17,7 @@
 
 - Avvia tutti i contenitori specificando un nome di progetto e utilizzando un file compose alternativo:
 
-`docker compose -p {{nome_di_progetto}} --file {{percorso/del/file}} up`
+`docker compose {{[-p|--project-name]}} {{nome_di_progetto}} {{[-f|--file]}} {{percorso/del/file}} up`
 
 - Ferma tutti i container in esecuzione:
 
@@ -25,12 +25,12 @@
 
 - Ferma e rimuovi tutti i container, reti, immagini e volumi:
 
-`docker compose down --rmi all --volumes`
+`docker compose down --rmi all {{[-v|--volumes]}}`
 
 - Segui i log di tutti i container:
 
-`docker compose logs --follow`
+`docker compose logs {{[-f|--follow]}}`
 
 - Segui i log di un container specifico:
 
-`docker compose logs --follow {{nome_container}}`
+`docker compose logs {{[-f|--follow]}} {{nome_container}}`

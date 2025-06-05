@@ -1,7 +1,7 @@
 # mvn
 
 > Apache Maven：构建和管理基于 Java 的项目。
-> 更多信息：<https://maven.apache.org>.
+> 更多信息：<https://manned.org/mvn>.
 
 - 编译项目：
 

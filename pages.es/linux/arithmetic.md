@@ -1,7 +1,7 @@
 # arithmetic
 
 > Examen de problemas simples de aritmética.
-> Más información: <https://manned.org/arithmetic.6>.
+> Más información: <https://manned.org/arithmetic>.
 
 - Inicia un examen de aritmética:
 

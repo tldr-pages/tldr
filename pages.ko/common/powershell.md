@@ -10,4 +10,4 @@
 
 - 레거시 Windows PowerShell(버전 5.1 이하)의 명령에 대한 문서 보기:
 
-`tldr powershell -p windows`
+`tldr powershell {{[-p|--platform]}} windows`

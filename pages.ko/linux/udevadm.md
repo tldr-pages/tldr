@@ -1,7 +1,7 @@
 # udevadm
 
 > Linux `udev` 관리 도구.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/udevadm>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/udevadm.html>.
 
 - 모든 장치 이벤트 모니터링:
 

@@ -2,7 +2,7 @@
 
 > Apache Ant.
 > Outil pour construire et gérer les projets basés sur du Java.
-> Plus d'informations : <https://ant.apache.org>.
+> Plus d'informations : <https://ant.apache.org/manual/index.html>.
 
 - Construit un projet avec le fichier de construction `build.xml` :
 

@@ -1,7 +1,7 @@
 # ani-cli
 
 > یک ابزار خط فرمان برای کاوش و تماشای انیمه.
-> اطلاعات بیشتر: <https://github.com/pystardust/ani-cli>.
+> اطلاعات بیشتر: <https://manned.org/ani-cli>.
 
 - جستجوی انیمه با نام:
 

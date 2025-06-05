@@ -1,7 +1,7 @@
 # ulimit
 
 > 获取和设置用户限制。
-> 更多信息：<https://manned.org/ulimit>.
+> 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-ulimit>.
 
 - 获取所有用户限制的属性：
 

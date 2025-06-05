@@ -16,7 +16,11 @@
 
 `select {{/dev/sdX}}`
 
-- Create a 16 GB partition with the specified filesystem in interactive mode:
+- Create a 16 GB partition with the specified filesystem in interactive mode (`GPT` partition table):
+
+`mkpart {{partition_name}} {{btrfs|ext2|ext3|ext4|fat16|fat32|hfs|hfs+|linux-swap|ntfs|reiserfs|udf|xfs}} {{0%}} {{16G}}`
+
+- Create a 16 GB partition with the specified filesystem in interactive mode (`MBR` partition table):
 
 `mkpart {{primary|logical|extended}} {{btrfs|ext2|ext3|ext4|fat16|fat32|hfs|hfs+|linux-swap|ntfs|reiserfs|udf|xfs}} {{0%}} {{16G}}`
 

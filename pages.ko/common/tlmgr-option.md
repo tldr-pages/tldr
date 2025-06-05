@@ -1,7 +1,7 @@
 # tlmgr option
 
 > TeX Live 설정 관리자.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#option>.
 
 - 모든 TeX Live 설정 나열:
 

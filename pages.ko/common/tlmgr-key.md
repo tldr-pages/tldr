@@ -1,7 +1,7 @@
 # tlmgr key
 
 > TeX Live 데이터베이스를 검증하는 데 사용되는 GPG 키 관리.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#key>.
 
 - TeX Live의 모든 키 나열:
 

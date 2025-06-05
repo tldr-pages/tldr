@@ -9,7 +9,7 @@
 
 - Create a here document and pass that into `stdin` (requires a multiline command):
 
-`{{command}} << {{EOF}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
+`{{command}} << {{EOF}} <Enter> {{multiline_text}} <Enter> {{EOF}}`
 
 - Create a here string and pass that into `stdin` (achieves the same effect as `echo string |`):
 
@@ -26,3 +26,7 @@
 - Disregard leading tabs (good for scripts with indentation but does not work for spaces):
 
 `cat <<- {{EOF}} > {{path/to/file.txt}} <Enter> {{multiline_data}} <Enter> {{EOF}}`
+
+- Pass command output to a program as a file descriptor:
+
+`diff <({{command1}}) <({{command2}})`

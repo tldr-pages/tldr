@@ -25,7 +25,7 @@
 
 - Open a dialog containing a specific dropdown menu and print the selected item to `stdout`:
 
-`kdialog --combobx "{{message}}" "{{item1}}" "{{item2}}" "{{...}}"`
+`kdialog --combobox "{{message}}" "{{item1}}" "{{item2}}" "{{...}}"`
 
 - Open a file chooser dialog and print the selected file's path to `stdout`:
 

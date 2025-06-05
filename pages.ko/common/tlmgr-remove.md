@@ -2,7 +2,7 @@
 
 > TeX Live 패키지 제거.
 > 기본적으로, 제거된 패키지는 TL 설치 디렉토리의 `./tlpkg/backups`에 백업됩니다.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#remove-option...-pkg>.
 
 - TeX Live 패키지 제거:
 

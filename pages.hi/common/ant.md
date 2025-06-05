@@ -1,7 +1,7 @@
 # ant
 
 > Apache Ant: जावा-आधारित प्रोजेक्ट बनाएं और प्रबंधित करें।
-> अधिक जानकारी: <https://ant.apache.org>।
+> अधिक जानकारी: <https://ant.apache.org/manual/index.html>।
 
 - डिफ़ॉल्ट बिल्ड फ़ाइल के साथ एक प्रोजेक्ट बनाएं `build.xml`:
 

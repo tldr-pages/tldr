@@ -1,7 +1,7 @@
 # cowsay
 
 > 무언가를 말하거나 생각하는 ASCII 문자(기본적으로 cow)를 생성.
-> 더 많은 정보: <https://github.com/tnalpgge/rank-amateur-cowsay>.
+> 더 많은 정보: <https://manned.org/cowsay>.
 
 - "Hello world"라고 말하는 ASCII cow 출력:
 

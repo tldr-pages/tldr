@@ -1,7 +1,7 @@
 # vue
 
 > Wielofunkcyjny interfejs CLI dla Vue.js.
-> Więcej informacji: <https://cli.vuejs.org>.
+> Więcej informacji: <https://cli.vuejs.org/guide/>.
 
 - Utwórz nowy projekt vue interaktywnie:
 

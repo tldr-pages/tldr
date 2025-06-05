@@ -2,7 +2,7 @@
 
 > Linux 데스크탑에 귀여운 소와 메시지를 표시합니다.
 > 소는 고정된 시간 동안 표시되거나 텍스트 크기에 따라 계산된 시간 동안 표시됩니다. 소를 클릭하면 즉시 닫힙니다.
-> 더 많은 정보: <https://www.doof.me.uk/xcowsay/>.
+> 더 많은 정보: <https://manned.org/xcowsay>.
 
 - "hello, world"라고 말하는 소를 표시:
 

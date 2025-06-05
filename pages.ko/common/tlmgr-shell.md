@@ -1,7 +1,7 @@
 # tlmgr shell
 
 > 네이티브 TeX Live 관리자의 대화형 셸 시작.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#shell>.
 
 - `tlmgr`의 대화형 셸 시작:
 

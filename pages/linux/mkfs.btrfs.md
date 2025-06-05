@@ -15,3 +15,7 @@
 - Set a label for the filesystem:
 
 `sudo mkfs.btrfs {{[-L|--label]}} "{{label}}" {{/dev/sdX /dev/sdY ...}}`
+
+- Overwrite existing filesystem if one is detected:
+
+`sudo mkfs.btrfs {{[-f|--force]}} {{/dev/sdX}}`

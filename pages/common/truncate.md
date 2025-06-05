@@ -21,4 +21,4 @@
 
 - Empty the file's content, but do not create the file if it does not exist:
 
-`truncate {{[-c|--no-create]}} {{[-s|--size]}} 0 {{path/to/file}}`
+`truncate {{[-cs|--no-create --size]}} 0 {{path/to/file}}`

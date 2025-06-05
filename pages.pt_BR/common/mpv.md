@@ -2,7 +2,7 @@
 
 > Um tocador de vídeo/audio baseado no MPlayer.
 > Veja também: `mplayer`, `vlc`.
-> Mais informações: <https://mpv.io>.
+> Mais informações: <https://mpv.io/manual/stable/>.
 
 - Toca um vídeo ou áudio de uma URL ou arquivo:
 

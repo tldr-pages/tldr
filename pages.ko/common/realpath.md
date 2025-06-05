@@ -9,16 +9,16 @@
 
 - 모든 경로 구성 요소가 존재해야 함:
 
-`realpath --canonicalize-existing {{경로/대상/파일_또는_폴더}}`
+`realpath {{[-e|--canonicalize-existing]}} {{경로/대상/파일_또는_폴더}}`
 
 - 심볼릭 링크 전에 ".." 구성 요소 해결:
 
-`realpath --logical {{경로/대상/파일_또는_폴더}}`
+`realpath {{[-L|--logical]}} {{경로/대상/파일_또는_폴더}}`
 
 - 심볼릭 링크 확장 비활성화:
 
-`realpath --no-symlinks {{경로/대상/파일_또는_폴더}}`
+`realpath {{[-s|--no-symlinks]}} {{경로/대상/파일_또는_폴더}}`
 
 - 오류 메시지 억제:
 
-`realpath --quiet {{경로/대상/파일_또는_폴더}}`
+`realpath {{[-q|--quiet]}} {{경로/대상/파일_또는_폴더}}`

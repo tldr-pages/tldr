@@ -2,7 +2,7 @@
 
 > 在 Git 仓库中创建分支。
 > 属于 `git-extras` 一部分。
-> 更多信息：<https://github.com/tj/git-extras/blob/master/Commands.md#git-create-branch>.
+> 更多信息：<https://manned.org/git-create-branch>.
 
 - ​​创建本地分支​​：
 

@@ -1,6 +1,7 @@
 # fincore
 
 > Display how much cache memory a file is taking.
+> See also: `fadvise`.
 > More information: <https://manned.org/fincore>.
 
 - Display cache details for a file:

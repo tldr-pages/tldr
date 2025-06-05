@@ -2,7 +2,7 @@
 
 > MPlayer 기반의 오디오/비디오 플레이어.
 > 같이 보기: `mplayer`, `vlc`.
-> 더 많은 정보: <https://mpv.io>.
+> 더 많은 정보: <https://mpv.io/manual/stable/>.
 
 - URL 또는 파일에서 비디오나 오디오 재생:
 

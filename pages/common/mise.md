@@ -1,6 +1,6 @@
 # mise
 
-> Manage versions of different packages.
+> Manage language runtimes like Node.js, Python, Ruby, Go, Java, etc and various tools.
 > More information: <https://mise.jdx.dev>.
 
 - List all available plugins:
@@ -30,3 +30,7 @@
 - Set environment variable in configuration:
 
 `mise set {{variable}}={{value}}`
+
+- Pass plugin options:
+
+`mise use {{name}}\[{{option1}}={{option1_value}},{{option2}}={{option2_value}}\]@{{version}}`

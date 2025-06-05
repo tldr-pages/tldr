@@ -1,7 +1,7 @@
 # cowsay
 
 > Imprime arte ASCII (por defecto una vaca) diciendo o pensando algo.
-> Más información: <https://github.com/tnalpgge/rank-amateur-cowsay>.
+> Más información: <https://manned.org/cowsay>.
 
 - Imprime una vaca ASCII diciendo "hola, mundo":
 

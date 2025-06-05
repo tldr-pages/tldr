@@ -1,7 +1,7 @@
 # ant
 
 > Apache Ant: compila e administra projetos baseados em Java.
-> Mais informações: <https://ant.apache.org>.
+> Mais informações: <https://ant.apache.org/manual/index.html>.
 
 - Compila um projeto com o arquivo padrão de build `build.xml`:
 

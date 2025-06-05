@@ -2,7 +2,7 @@
 
 > Acelerador de descargas.
 > Protocolos soportados HTTP, HTTPS y FTP.
-> Más información: <https://github.com/axel-download-accelerator/axel>.
+> Más información: <https://manned.org/axel>.
 
 - Descarga un archivo alojado en una URL:
 

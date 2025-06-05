@@ -2,7 +2,7 @@
 
 > Travailler harmonieusement avec GitHub depuis la ligne de commande.
 > Certaines commandes comme `gh config` ont leur propre documentation.
-> Plus d'informations : <https://cli.github.com/>.
+> Plus d'informations : <https://cli.github.com/manual/gh>.
 
 - Clone un dépôt GitHub localement :
 

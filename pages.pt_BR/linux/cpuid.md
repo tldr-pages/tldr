@@ -1,7 +1,7 @@
 # cpuid
 
 > Exibe informações detalhadas sobre todas as CPUs.
-> Mais informações: <https://etallen.com/cpuid.html>.
+> Mais informações: <https://manned.org/man/cpuid.1>.
 
 - Exibe informações de todas as CPUs:
 
