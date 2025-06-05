@@ -19,7 +19,7 @@
 
 `uv python find {{versie}}`
 
-- Pin het huidige project vast naar een specifieke Python-versie:
+- Pin het huidige project vast aan een specifieke Python-versie:
 
 `uv python pin {{versie}}`
 
