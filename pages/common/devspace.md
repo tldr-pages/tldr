@@ -1,19 +1,19 @@
 # devspace
 
 > DevSpace accelerates developing, deploying, and debugging applications with Docker and Kubernetes.
-> More information: <https://devspace.sh>.
+> More information: <https://devspace.sh/docs/cli>.
 
 - Initialize a new DevSpace project in the current directory:
 
 `devspace init`
 
-- Start development mode with port forwarding, file sync, and terminal access:
+- Start development mode with port forwarding, file synchronization, and terminal access:
 
 `devspace dev`
 
-- Start development mode with a specific namespace:
+- Start development mode in a specific namespace:
 
-`devspace dev -n {{namespace}}`
+`devspace dev {{[-n|--namespace]}} {{namespace}}`
 
 - Deploy the project to Kubernetes:
 
@@ -21,7 +21,7 @@
 
 - Deploy the project with a specific profile:
 
-`devspace deploy -p {{profile-name}}`
+`devspace deploy {{[-p|--profile]}} {{profile-name}}`
 
 - Build all defined images:
 
@@ -29,7 +29,7 @@
 
 - Follow logs from a pod:
 
-`devspace logs -f`
+`devspace logs {{[-f|--follow]}}`
 
 - Open the DevSpace UI in the browser:
 
