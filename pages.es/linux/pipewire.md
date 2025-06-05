@@ -1,0 +1,20 @@
+# pipewire
+
+> Inicia un proceso demonio de PipeWire.
+> Más información: <https://docs.pipewire.org/page_man_pipewire_1.html>.
+
+- Inicia el proceso demonio de PipeWire:
+
+`pipewire`
+
+- Usa un archivo de configuración diferente:
+
+`pipewire --config {{ruta/al/archivo.conf}}`
+
+- Define el nivel de verbosidad (error, alerta, depurar o rastrear):
+
+`pipewire -{{v|vv|...|vvvvv}}`
+
+- Muestra ayuda:
+
+`pipewire --help`
