@@ -15,6 +15,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | da    |              |                 |
 | de    |              |                 |
 | es    |              |                 |
+| fa    |              |                 |
 | fi    |              |                 |
 | fr    |              |                 |
 | hi    |              |                 |
