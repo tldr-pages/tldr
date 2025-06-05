@@ -7,6 +7,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 
 | en    | Display help | Display version |
 |-------|--------------|-----------------|
+| ar    |              |                 |
 | bn    |              |                 |
 | bs    |              |                 |
 | ca    |              |                 |
