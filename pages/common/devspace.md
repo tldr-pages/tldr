@@ -4,25 +4,33 @@
 > More information: <https://devspace.sh>.
 
 - Initialize a new DevSpace project in the current directory:
-  `devspace init`
+
+`devspace init`
 
 - Start development mode with port forwarding, file sync, and terminal access:
-  `devspace dev`
+
+`devspace dev`
 
 - Start development mode with a specific namespace:
-  `devspace dev -n {{namespace}}`
+
+`devspace dev -n {{namespace}}`
 
 - Deploy the project to Kubernetes:
-  `devspace deploy`
+
+`devspace deploy`
 
 - Deploy the project with a specific profile:
-  `devspace deploy -p {{profile-name}}`
+
+`devspace deploy -p {{profile-name}}`
 
 - Build all defined images:
-  `devspace build`
+
+`devspace build`
 
 - Follow logs from a pod:
-  `devspace logs -f`
+
+`devspace logs -f`
 
 - Open the DevSpace UI in the browser:
-  `devspace ui`
+
+`devspace ui`
