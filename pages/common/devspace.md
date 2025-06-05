@@ -1,6 +1,6 @@
 # devspace
 
-> DevSpace accelerates developing, deploying, and debugging applications with Docker and Kubernetes.
+> Use DevSpace to develop, deploy, and debug applications inside Kubernetes with features like file sync, port forwarding, and container access.
 > More information: <https://devspace.sh/docs/cli>.
 
 - Initialize a new DevSpace project in the current directory:
