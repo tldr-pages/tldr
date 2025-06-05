@@ -23,6 +23,6 @@
 
 `sudo bpftrace -d -e '{{한_줄_프로그램}}'`
 
-- bpftrace 버전 표시:
+- 버전 표시:
 
 `bpftrace {{[-V|--version]}}`

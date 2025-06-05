@@ -23,6 +23,6 @@
 
 `sudo bpftrace -d -e '{{programa_de_uma_linha}}'`
 
-- Exibe a versão do bpftrace:
+- Exibe a versão:
 
 `bpftrace {{[-V|--version]}}`
