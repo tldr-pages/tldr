@@ -34,4 +34,4 @@
 
 - Reempaqueta un archivo de un formato a otro (por ejemplo, de .tar.gz a .tar.7z):
 
-`atool {{[-r|--repack]}} {{archivo_antiguo.tar.gz}} {{archivo_nuevo.tar.7z}}`f
+`atool {{[-r|--repack]}} {{archivo_antiguo.tar.gz}} {{archivo_nuevo.tar.7z}}`
