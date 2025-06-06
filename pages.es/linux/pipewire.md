@@ -1,6 +1,6 @@
 # pipewire
 
-> Inicia un proceso demonio de PipeWire.
+> Inicia el programa residente PipeWire.
 > Más información: <https://docs.pipewire.org/page_man_pipewire_1.html>.
 
 - Inicia el proceso demonio de PipeWire:
