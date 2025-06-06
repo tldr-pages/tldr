@@ -1,7 +1,7 @@
 # fpsync
 
 > 여러 동기화 프로세스를 로컬 또는 여러 원격 워커에서 SSH를 통해 실행.
-> 더 많은 정보: <https://www.fpart.org/fpsync/>.
+> 더 많은 정보: <https://manned.org/fpsync>.
 
 - 디렉토리를 다른 위치로 재귀적으로 동기화:
 
