@@ -3,7 +3,7 @@
 > 두 파일의 줄에서 설정 작업 수행.
 > 출력되는 줄의 순서는 첫 번째 파일의 줄 순서에 따라 결정됨.
 > 참고: `diff`.
-> 더 많은 정보: <https://joeyh.name/code/moreutils/>.
+> 더 많은 정보: <https://manned.org/combine>.
 
 - 지정된 두 파일 모두에 있는 라인을 출력:
 

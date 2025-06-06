@@ -1,7 +1,7 @@
 # flask
 
 > Flask 애플리케이션을 위한 일반 유틸리티 스크립트. `FLASK_APP` 환경 변수에 정의된 애플리케이션을 로드.
-> 더 많은 정보: <https://flask.palletsprojects.com/en/1.1.x/cli/>.
+> 더 많은 정보: <https://flask.palletsprojects.com/en/stable/cli/>.
 
 - 개발 서버 실행:
 
