@@ -1,7 +1,7 @@
 # nnn
 
 > 인터랙티브 터미널 파일 관리 및 디스크 사용량 분석기.
-> 더 많은 정보: <https://github.com/jarun/nnn>.
+> 더 많은 정보: <https://github.com/jarun/nnn/wiki/Usage#program-options>.
 
 - 현재 디렉토리 열기 (또는 첫 번째 인수로 지정된 디렉토리 열기):
 

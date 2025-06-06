@@ -1,7 +1,7 @@
 # puppet agent
 
 > Puppet 서버에서 클라이언트 구성을 가져와 로컬 호스트에 적용.
-> 더 많은 정보: <https://puppet.com/docs/puppet/7/man/agent.html>.
+> 더 많은 정보: <https://github.com/puppetlabs/puppet/blob/main/references/man/agent.md>.
 
 - Puppet 서버에 노드를 등록하고 받은 카탈로그 적용:
 

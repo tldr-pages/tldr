@@ -1,7 +1,7 @@
 # ngrep
 
 > 정규식을 사용하여 네트워크 트래픽 패킷을 필터링.
-> 더 많은 정보: <https://github.com/jpr5/ngrep>.
+> 더 많은 정보: <https://github.com/jpr5/ngrep/blob/master/EXAMPLES.md>.
 
 - 모든 인터페이스의 트래픽 캡처:
 

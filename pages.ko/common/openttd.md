@@ -1,7 +1,7 @@
 # openttd
 
 > Microprose 게임 "Transport Tycoon Deluxe"의 오픈 소스 클론.
-> 더 많은 정보: <https://www.openttd.org>.
+> 더 많은 정보: <https://wiki.openttd.org/en/Manual/Command%20line>.
 
 - 새 게임 시작:
 

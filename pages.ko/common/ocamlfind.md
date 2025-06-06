@@ -2,7 +2,7 @@
 
 > OCaml을 위한 findlib 패키지 관리자.
 > 외부 라이브러리로 실행 파일을 연결하는 과정을 단순화합니다.
-> 더 많은 정보: <https://projects.camlcity.org/projects/findlib.html>.
+> 더 많은 정보: <https://manned.org/ocamlfind>.
 
 - 소스 파일을 네이티브 바이너리로 컴파일하고 패키지와 링크:
 

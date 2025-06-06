@@ -1,7 +1,7 @@
 # mp3info
 
 > MP3 파일의 ID3v1 태그를 보기/편집하는 도구(ID3v2는 지원하지 않음).
-> 더 많은 정보: <https://www.ibiblio.org/mp3info>.
+> 더 많은 정보: <https://www.ibiblio.org/mp3info/mp3info.html>.
 
 - 특정 MP3 파일의 모든 ID3v1 태그 표시:
 

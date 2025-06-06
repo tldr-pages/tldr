@@ -1,7 +1,7 @@
 # openscad
 
 > 솔리드 3D CAD 객체를 생성하는 소프트웨어.
-> 더 많은 정보: <https://openscad.org>.
+> 더 많은 정보: <https://manned.org/openscad>.
 
 - 파일 열기:
 

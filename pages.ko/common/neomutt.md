@@ -1,7 +1,7 @@
 # neomutt
 
 > NeoMutt 명령줄 이메일 클라이언트.
-> 더 많은 정보: <https://neomutt.org>.
+> 더 많은 정보: <https://neomutt.org/guide/reference.html>.
 
 - 지정된 메일박스 열기:
 
