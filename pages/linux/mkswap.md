@@ -20,6 +20,6 @@
 
 `sudo mkswap {{[-U|--uuid]}} {{clear|random|time|UUID_value}}`
 
-- Set up a swap file (for btrfs, see `tldr btrfs filesystem` instead):
+- Set up a swap file (See also: `btrfs filesystem` for btrfs swap setup):
 
 `sudo mkswap {{[-s|--size]}} {{file_size}} {{[-F|--file]}} {{path/to/swapfile}}`
