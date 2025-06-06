@@ -1,7 +1,7 @@
 # musescore
 
 > MuseScore 3 Notenblatt-Editor.
-> Weitere Informationen: <https://musescore.org/en/handbook/3/command-line-options>.
+> Weitere Informationen: <https://musescore.org/en/handbook/4/command-line-options>.
 
 - Verwende einen bestimmten Audio-Treiber:
 
