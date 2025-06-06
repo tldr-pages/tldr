@@ -1,7 +1,7 @@
 # xteddy
 
 > X Windows 데스크탑에 귀여운 곰 인형을 표시하는 도구.
-> 더 많은 정보: <https://manned.org/xteddy.1>.
+> 더 많은 정보: <https://manned.org/xteddy>.
 
 - X 데스크탑에 귀여운 곰 인형 표시:
 

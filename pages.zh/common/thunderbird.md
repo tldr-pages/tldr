@@ -1,7 +1,7 @@
 # thunderbird
 
 > 电子邮件客户端和 RSS 阅读器。
-> 更多信息：<https://thunderbird.net>.
+> 更多信息：<https://manned.org/thunderbird>.
 
 - 打开 Thunderbird:
 

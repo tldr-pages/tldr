@@ -2,7 +2,7 @@
 
 > Altera a prioridade/agradabilidade de agendamento de um ou mais processos em execução.
 > Os valores de agradabilidade variam de -20 (mais favorável ao processo) a 19 (menos favorável ao processo).
-> Mais informações: <https://manned.org/renice>.
+> Mais informações: <https://manned.org/renice.1p>.
 
 - Altera a prioridade de um [p]rocesso em execução:
 

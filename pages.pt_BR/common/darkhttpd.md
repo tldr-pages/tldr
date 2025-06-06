@@ -1,7 +1,7 @@
 # darkhttpd
 
 > Servidor web Darkhttpd.
-> Mais informações: <https://unix4lyfe.org/darkhttpd>.
+> Mais informações: <https://github.com/emikulic/darkhttpd#how-to-run-darkhttpd>.
 
 - Inicia o servidor servindo a raiz do documento especificada:
 
