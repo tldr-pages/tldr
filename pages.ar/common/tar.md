@@ -28,7 +28,7 @@
 
 `tar caf {{path/to/target.tar.xz}} {{path/to/file1 path/to/file2 ...}}`
 
-- عرض محتويات ملف  بالتفصيل:
+- عرض محتويات ملف بالتفصيل:
 
 `tar tvf {{path/to/source.tar}}`
 
