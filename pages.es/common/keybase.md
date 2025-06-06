@@ -1,6 +1,6 @@
 # keybase
 
-> Directorio de claves que conecta identidades en redes sociales a claves encriptadas de una manera públicamente auditable.
+> Directorio clave que asigna identidades de redes sociales a claves de cifrado de forma públicamente auditable.
 > Más información: <https://book.keybase.io/docs/cli>.
 
 - Sigue a otro usuario:
@@ -27,6 +27,6 @@
 
 `keybase decrypt {{[-i|--infile]}} {{archivo_de_entrada}} {{[-o|--outfile]}} {{archivo_de_salida}}`
 
-- Revoca el dispositivo actual, se desconecta y borra los datos locales:
+- Revoca el dispositivo actual, cierra la sesión y elimina los datos locales:
 
 `keybase deprovision`
