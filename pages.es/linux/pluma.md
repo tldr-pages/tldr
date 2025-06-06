@@ -3,7 +3,7 @@
 > Edita archivos en el entorno de escritorio MATE.
 > Más información: <https://manned.org/pluma>.
 
-- Inicia el editor: 
+- Inicia el editor:
 
 `pluma`
 
