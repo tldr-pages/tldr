@@ -2,7 +2,7 @@
 
 > Burrows-Wheeler 정렬 도구.
 > 짧고 낮은 발산율의 DNA 서열을 인간 유전체와 같은 대형 참조 유전체에 매핑합니다.
-> 더 많은 정보: <https://github.com/lh3/bwa>.
+> 더 많은 정보: <https://manned.org/bwa>.
 
 - 참조 유전체 색인 생성:
 

@@ -1,7 +1,7 @@
 # cryptcat
 
 > Cryptcat은 암호화 기능을 갖춘 netcat입니다.
-> 더 많은 정보: <https://cryptcat.sourceforge.net>.
+> 더 많은 정보: <https://manned.org/cryptcat>.
 
 - 지정된 [p]포트에서 [l]수신하고 받은 데이터를 출력:
 
