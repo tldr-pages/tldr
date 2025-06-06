@@ -9,7 +9,7 @@
 
 - Define el número de versiones de paquetes para conservar:
 
-`paccache {{[-rk|--remove --keep]}} {{numero_de_versiones}}`
+`paccache {{[-rk|--remove --keep]}} {{número_de_versiones}}`
 
 - Realiza una ejecución-en-seco y muestra el número de paquetes candidatos a ser eliminados:
 
