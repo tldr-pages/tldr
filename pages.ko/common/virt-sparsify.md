@@ -2,7 +2,7 @@
 
 > 가상 머신 드라이브 이미지를 Thin Provisioning으로 변환.
 > 주의: 데이터 손상을 방지하기 위해 오프라인 상태의 머신에서만 사용하세요.
-> 더 많은 정보: <https://libguestfs.org>.
+> 더 많은 정보: <https://manned.org/virt-sparsify>.
 
 - 스냅샷이 없는 상태로 비압축된 이미지를 압축된 스파스 이미지로 생성:
 

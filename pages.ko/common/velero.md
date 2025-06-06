@@ -1,7 +1,7 @@
 # velero
 
 > Kubernetes 애플리케이션 및 그들의 지속 볼륨을 백업 및 마이그레이션.
-> 더 많은 정보: <https://github.com/heptio/velero>.
+> 더 많은 정보: <https://velero.io/docs/main/>.
 
 - 모든 리소스를 포함하는 백업 생성:
 

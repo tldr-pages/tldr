@@ -1,7 +1,7 @@
 # spike
 
 > JavaScript로 작성된 완전한 기능을 갖춘 정적 웹사이트 생성기.
-> 더 많은 정보: <https://spike.js.org>.
+> 더 많은 정보: <https://spike.readme.io/docs/command-line-interface>.
 
 - 기본 템플릿을 사용하여 새 프로젝트 생성:
 
