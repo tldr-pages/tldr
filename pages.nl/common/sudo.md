@@ -19,11 +19,11 @@
 
 `sudo !!`
 
-- Start de standaard shell met superuser-rechten en voer login-specifieke bestanden uit (`.profile`, `.bash_profile`, etc.):
+- Start de standaard shell met superuserrechten en voer login-specifieke bestanden uit (`.profile`, `.bash_profile`, etc.):
 
 `sudo {{[-i|--login]}}`
 
-- Start de standaard shell met superuser-rechten zonder de omgeving te veranderen:
+- Start de standaard shell met superuserrechten zonder de omgeving te veranderen:
 
 `sudo {{[-s|--shell]}}`
 
