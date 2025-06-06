@@ -15,6 +15,6 @@
 
 `pipewire -{{v|vv|...|vvvvv}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `pipewire --help`
