@@ -1,7 +1,7 @@
 # autopkgtest
 
 > Ejecuta pruebas sobre paquetes de Debian.
-> Más información: <https://wiki.debian.org/ContinuousIntegration/autopkgtest>.
+> Más información: <https://manpages.debian.org/bookworm/autopkgtest/autopkgtest.1.en.html>.
 
 - Construye el paquete en el directorio actual y ejecuta todas las pruebas directamente en el sistema:
 
@@ -21,4 +21,4 @@
 
 - Prueba el paquete en el directorio actual sin reconstruirlo:
 
-`autopkgtest --no-built-binaries -- {{null}}`
+`autopkgtest {{[-B|--no-built-binaries]}} -- {{null}}`
