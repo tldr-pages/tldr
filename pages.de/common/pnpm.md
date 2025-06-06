@@ -2,7 +2,7 @@
 
 > Schneller, speicherplatzsparender Paketmanager für Node.js.
 > Ein Kommandozeilenwerkzeug für die Verwaltung von JavaScript und Node.js Paketen (Packages).
-> Weitere Informationen: <https://pnpm.io>.
+> Weitere Informationen: <https://pnpm.io/pnpm-cli>.
 
 - Erstelle eine `package.json` Datei interaktiv:
 

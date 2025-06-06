@@ -2,7 +2,7 @@
 
 > 빠르고, 디스크 공간 효율적인 Node.js용 패키지 관리자.
 > Node.js 프로젝트 및 해당 모듈 의존성 관리.
-> 더 많은 정보: <https://pnpm.io>.
+> 더 많은 정보: <https://pnpm.io/pnpm-cli>.
 
 - `package.json` 파일 생성:
 
