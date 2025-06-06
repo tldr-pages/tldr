@@ -1,6 +1,6 @@
 # distrobox-create
 
-> Create a Distrobox container. See also: `tldr distrobox`.
+> Create a Distrobox container. See also: `distrobox`.
 > The container created will be tightly integrated with the host, allowing sharing of the user's HOME directory, external storage, external USB devices, graphical apps (X11/Wayland), and audio.
 > More information: <https://distrobox.it/usage/distrobox-create>.
 
