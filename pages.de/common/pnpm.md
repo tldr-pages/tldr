@@ -18,11 +18,11 @@
 
 - Installiere ein Package und füge es als Entwicklungs-Abhängigkeit der `package.json` Datei hinzu:
 
-`pnpm add -D {{modul_name}}`
+`pnpm add {{[-D|--save-dev]}} {{modul_name}}`
 
 - Installiere ein Package global:
 
-`pnpm add -g {{modul_name}}`
+`pnpm add {{[-g|--global]}} {{modul_name}}`
 
 - Deinstalliere ein Package und entferne es automatisch aus der `package.json` Datei:
 
@@ -34,4 +34,4 @@
 
 - Gib eine Liste aller global installierten Packages aus:
 
-`pnpm list -g --depth={{0}}`
+`pnpm list {{[-g|--global]}} --depth={{0}}`
