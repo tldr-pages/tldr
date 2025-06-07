@@ -9,23 +9,23 @@
 
 - Decompress an XZ file:
 
-`xz --decompress {{path/to/file.xz}}`
+`xz {{[-d|--decompress]}} {{path/to/file.xz}}`
 
 - Compress a file using lzma:
 
-`xz --format=lzma {{path/to/file}}`
+`xz {{[-F|--format]}} lzma {{path/to/file}}`
 
 - Decompress an LZMA file:
 
-`xz --decompress --format=lzma {{path/to/file.lzma}}`
+`xz {{[-d|--decompress]}} {{[-F|--format]}} lzma {{path/to/file.lzma}}`
 
 - Decompress a file and write to `stdout` (implies `--keep`):
 
-`xz --decompress --stdout {{path/to/file.xz}}`
+`xz {{[-d|--decompress]}} {{[-c|--stdout]}} {{path/to/file.xz}}`
 
 - Compress a file, but don't delete the original:
 
-`xz --keep {{path/to/file}}`
+`xz {{[-k|--keep]}} {{path/to/file}}`
 
 - Compress a file using the fastest compression:
 
