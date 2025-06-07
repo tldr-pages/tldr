@@ -34,4 +34,4 @@
 
 - Gib eine Liste aller global installierten Packages aus:
 
-`pnpm list {{[-g|--global]}} --depth={{0}}`
+`pnpm list {{[-g|--global]}} --depth {{0}}`

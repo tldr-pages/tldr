@@ -34,4 +34,4 @@
 
 - 최상위 전역적으로([g]lobally) 설치된 모듈 나열:
 
-`pnpm list {{[-g|--global]}} --depth={{0}}`
+`pnpm list {{[-g|--global]}} --depth {{0}}`

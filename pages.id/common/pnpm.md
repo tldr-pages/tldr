@@ -34,4 +34,4 @@
 
 - Buat daftar modul tingkat atas yang diinstal secara [g]lobal:
 
-`pnpm list {{[-g|--global]}} --depth={{0}}`
+`pnpm list {{[-g|--global]}} --depth {{0}}`
