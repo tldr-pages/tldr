@@ -13,7 +13,7 @@
 
 - Compress a file using lzma:
 
-`xz {{[-F|--format]}}=lzma {{path/to/file}}`
+`xz {{[-F|--format]}} lzma {{path/to/file}}`
 
 - Decompress an LZMA file:
 
