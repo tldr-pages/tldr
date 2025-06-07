@@ -2,7 +2,7 @@
 
 > Simple IRC 클라이언트.
 > suckless 도구의 일부.
-> 더 많은 정보: <https://tools.suckless.org/sic/>.
+> 더 많은 정보: <https://manned.org/sic>.
 
 - 기본 호스트(irc.ofct.net)에 `$USER` 환경 변수에 설정된 닉네임으로 연결:
 

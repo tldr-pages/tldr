@@ -1,7 +1,7 @@
 # xbacklight
 
 > RandR 확장을 사용하여 화면 밝기를 조절하는 유틸리티.
-> 더 많은 정보: <https://gitlab.freedesktop.org/xorg/app/xbacklight>.
+> 더 많은 정보: <https://manned.org/xbacklight>.
 
 - 현재 화면 밝기를 퍼센트로 확인:
 
