@@ -25,6 +25,6 @@
 
 `virt-xml {{domain}} --edit --boot bootmenu={{on|off}}`
 
-- Attach host USB hub to a running VM (See also: `lsusb`):
+- Attach host USB hub to a running VM (run `lsusb` to see a list of USB devices with their IDs):
 
 `virt-xml {{domain}} --update --add-device --hostdev {{bus}}.{{device}}`
