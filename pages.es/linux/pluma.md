@@ -19,6 +19,6 @@
 
 `pluma --list-encodings`
 
-- Abre un documento y ve a una linea específica:
+- Abre un documento y va a una linea específica:
 
 `pluma +{{10}} {{ruta/al/archivo}}`
