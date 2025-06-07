@@ -13,11 +13,11 @@
 
 - Comprime un archivo usando LZMA:
 
-`xz {{[-F|--format]}}=lzma {{ruta/al/archivo}}`
+`xz {{[-F|--format]}} lzma {{ruta/al/archivo}}`
 
 - Descomprime un archivo LZMA:
 
-`xz {{[-d|--decompress]}} {{[-F|--format]}}=lzma {{ruta/al/archivo.lzma}}`
+`xz {{[-d|--decompress]}} {{[-F|--format]}} lzma {{ruta/al/archivo.lzma}}`
 
 - Descomprime un archivo y escribe a `stdout` (implica `--keep`):
 

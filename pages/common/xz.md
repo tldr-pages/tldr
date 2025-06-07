@@ -17,7 +17,7 @@
 
 - Decompress an LZMA file:
 
-`xz {{[-d|--decompress]}} {{[-F|--format]}}=lzma {{path/to/file.lzma}}`
+`xz {{[-d|--decompress]}} {{[-F|--format]}} lzma {{path/to/file.lzma}}`
 
 - Decompress a file and write to `stdout` (implies `--keep`):
 

@@ -13,11 +13,11 @@
 
 - 파일을 lzma로 압축:
 
-`xz {{[-F|--format]}}=lzma {{경로/대상/파일}}`
+`xz {{[-F|--format]}} lzma {{경로/대상/파일}}`
 
 - LZMA 파일 압축 해제:
 
-`xz {{[-d|--decompress]}} {{[-F|--format]}}=lzma {{경로/대상/파일.lzma}}`
+`xz {{[-d|--decompress]}} {{[-F|--format]}} lzma {{경로/대상/파일.lzma}}`
 
 - 파일 압축 해제 후 `stdout`에 쓰기 (`--keep` 포함):
 

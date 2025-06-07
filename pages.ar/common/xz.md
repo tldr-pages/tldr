@@ -13,11 +13,11 @@
 
 - ضغط ملف باستخدام خوارزمية lzma:
 
-`xz {{[-F|--format]}}=lzma {{path/to/file}}`
+`xz {{[-F|--format]}} lzma {{path/to/file}}`
 
 - فك ضغط ملف LZMA:
 
-`xz {{[-d|--decompress]}} {{[-F|--format]}}=lzma {{path/to/file.lzma}}`
+`xz {{[-d|--decompress]}} {{[-F|--format]}} lzma {{path/to/file.lzma}}`
 
 - فك ضغط ملف وكتابته إلى المخرجات القياسية (stdout) (يتضمن `--keep`):
 

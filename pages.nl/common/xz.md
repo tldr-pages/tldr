@@ -13,11 +13,11 @@
 
 - Comprimeer een bestand gebruik makend van lzma:
 
-`xz {{[-F|--format]}}=lzma {{pad/naar/bestand}}`
+`xz {{[-F|--format]}} lzma {{pad/naar/bestand}}`
 
 - Decomprimer een LZMA bestand:
 
-`xz {{[-d|--decompress]}} {{[-F|--format]}}=lzma {{pad/naar/bestand.lzma}}`
+`xz {{[-d|--decompress]}} {{[-F|--format]}} lzma {{pad/naar/bestand.lzma}}`
 
 - Decomprimer een bestand en schrijf het naar `stdout` (impliceert `--keep`):
 

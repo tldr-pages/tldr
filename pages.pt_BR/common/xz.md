@@ -13,11 +13,11 @@
 
 - Compacta um arquivo no formato LZMA:
 
-`xz {{[-F|--format]}}=lzma {{caminho/para/arquivo}}`
+`xz {{[-F|--format]}} lzma {{caminho/para/arquivo}}`
 
 - Descompacta um arquivo no formato LZMA:
 
-`xz {{[-d|--decompress]}} {{[-F|--format]}}=lzma {{caminho/para/arquivo.lzma}}`
+`xz {{[-d|--decompress]}} {{[-F|--format]}} lzma {{caminho/para/arquivo.lzma}}`
 
 - Descompacta um arquivo e escrever a saída no terminal (implica `--keep`):
 

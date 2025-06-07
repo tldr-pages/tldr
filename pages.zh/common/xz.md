@@ -13,11 +13,11 @@
 
 - 使用 lzma 压缩文件：
 
-`xz {{[-F|--format]}}=lzma {{路径/到/文件}}`
+`xz {{[-F|--format]}} lzma {{路径/到/文件}}`
 
 - 解压 LZMA 文件：
 
-`xz {{[-d|--decompress]}} {{[-F|--format]}}=lzma {{路径/到/文件.lzma}}`
+`xz {{[-d|--decompress]}} {{[-F|--format]}} lzma {{路径/到/文件.lzma}}`
 
 - 解压文件并输出到 `stdout`（暗示 `--keep`）：
 
