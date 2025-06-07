@@ -8,7 +8,7 @@
 
 `tar cf {{path/to/target.tar}} {{path/to/file1 path/to/file2 ...}}`
 
-- إنشاء أرشيف وكتابته إلى ملف:
+- إنشاء أرشيف وكتابته إلى ملف (gzipped):
 
 `tar czf {{path/to/target.tar.gz}} {{path/to/file1 path/to/file2 ...}}`
 
