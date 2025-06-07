@@ -8,7 +8,7 @@
 
 `nix run`
 
-- Run a command whose name matches the package name from nixpkgs (See also: `nix shell` for a different command from that package):
+- Run a command whose name matches the package name from nixpkgs (if you want a different command from that package, see `tldr nix shell`):
 
 `nix run nixpkgs#{{pkg}}`
 
