@@ -20,6 +20,6 @@
 
 `ulimit -u 30`
 
-- Display help (bash only):
+- Display help (Bash only):
 
 `help ulimit`
