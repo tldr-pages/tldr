@@ -1,6 +1,6 @@
 # magick
 
-> Creër, bewerk, vorm of converteer bitmapafbeeldingen.
+> Creëer, bewerk, vorm of converteer bitmapafbeeldingen.
 > Deze tool vervangt `convert` in ImageMagick 7+. Bekijk `magick convert` om de oude tool te gebruiken in versies 7+.
 > Sommige subcommando's zoals `mogrify` hebben hun eigen documentatie.
 > Meer informatie: <https://imagemagick.org>.
@@ -17,7 +17,7 @@
 
 `magick {{*.jpg}} {{pad/naar/uitvoer_afbeelding.gif}}`
 
-- Creër een dambordpatroon:
+- Creëer een dambordpatroon:
 
 `magick -size {{640x480}} pattern:checkerboard {{pad/naar/dambordpatroon.png}}`
 
