@@ -1,6 +1,7 @@
 # distrobox-stop
 
-> Stop a Distrobox container. See also: `distrobox`.
+> Stop a Distrobox container.
+> See also: `distrobox`.
 > More information: <https://distrobox.it/usage/distrobox-stop>.
 
 - Stop a Distrobox container:
