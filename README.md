@@ -64,13 +64,7 @@ SunOS, Android, and Windows command-line tools.
 > see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
 
 A popular and convenient way to access these pages on your computer
-is to install the official [Node.js client](https://github.com/tldr-pages/tldr-node-client):
-
-```shell
-npm install -g tldr
-```
-
-Alternatively, you can also use the official [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via [pip3](https://pypi.org/project/tldr/) (or [other package managers](https://github.com/tldr-pages/tldr-python-client#installation)):
+is to install the official [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via [pip3](https://pypi.org/project/tldr/) (or [other package managers](https://github.com/tldr-pages/tldr-python-client#installation)):
 
 ```shell
 pip3 install tldr
@@ -81,6 +75,12 @@ Linux and Mac users can also install the official [Rust Client](https://github.c
 
 ```shell
 brew install tlrc
+```
+
+Alternatively, you can also use the official [Node.js client](https://github.com/tldr-pages/tldr-node-client), although it has fallen behind in updates:
+
+```shell
+npm install -g tldr
 ```
 
 Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
