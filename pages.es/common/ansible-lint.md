@@ -19,6 +19,6 @@
 
 `ansible-lint {{[-r|--rules]}} {{ruta/al/directorio_de_reglas_personalizadas}} {{ruta/al/archivo_playbook}}`
 
-- Analizar todo el contenido Ansible de manerea recursiva en un directorio dado:
+- Analiza todo el contenido Ansible de manera recursiva en un directorio dado:
 
 `ansible-lint {{ruta/al/directorio_del_proyecto}}`
