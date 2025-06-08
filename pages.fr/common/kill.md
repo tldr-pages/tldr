@@ -12,10 +12,6 @@
 
 `kill -l`
 
-- Termine une tâche de fond :
-
-`kill %{{identifiant_tâche}}`
-
 - Termine un processus avec le signal SIGHUP ("raccrocher"). Beaucoup de daemons se rafraîchissent au lieu de terminer :
 
 `kill -{{1|HUP}} {{identifiant_processus}}`
@@ -32,6 +28,6 @@
 
 `kill -{{17|STOP}} {{identifiant_processus}}`
 
-- Envoie le signal SIGUSR1 à tous les processus dans le groupe avec l'identifiant indiqué :
+- Envoie le signal `SIGUSR1` à tous les processus dans le groupe avec l'identifiant indiqué :
 
 `kill -{{SIGUSR1}} -{{identifiant_groupe}}`
