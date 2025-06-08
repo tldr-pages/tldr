@@ -1,6 +1,6 @@
 # AdGuardHome
 
-> Software de red completa para bloquear anuncios y el rastreo.
+> Software de red completo para bloquear anuncios y rastreo.
 > Más información: <https://github.com/AdguardTeam/AdGuardHome>.
 
 - Corre AdGuard Home:
