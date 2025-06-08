@@ -20,6 +20,6 @@
 
 `airdecap-ng -l -e {{essid}} -p {{contraseña}} {{ruta/al/archivo_de_captura.cap}}`
 
-- Descifra un archivo de captura WPA/WPA2 cifrado usando los puntos de acceso [e]ssid y [p]contraseña, así como su dirección MAC para filtrar:
+- Descifra un archivo de captura WPA/WPA2 cifrado usando los puntos de acceso [e]ssid y contraseña, así como su dirección MAC para filtrar:
 
 `airdecap-ng -b {{ap_mac}} -e {{essid}} -p {{contraseña}} {{ruta/al/archivo_de_captura.cap}}`
