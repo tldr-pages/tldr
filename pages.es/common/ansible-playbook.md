@@ -21,7 +21,7 @@
 
 - Ejecuta tareas en el playbook dado con etiquetas específicas:
 
-`ansible-playbook {{playbook}} {{[-t|--tags]}} {{tag1,tag2}}`
+`ansible-playbook {{playbook}} {{[-t|--tags]}} {{etiqueta1,etiqueta2}}`
 
 - Ejecuta tareas en el playbook dado empezando por una tarea determinada:
 
