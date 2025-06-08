@@ -1,7 +1,7 @@
 # animdl
 
 > Recolector eficiente y veloz de datos de anime.
-> Consultar también: `ani-cli`.
+> Vea también: `ani-cli`.
 > Más información: <https://github.com/justfoolingaround/animdl>.
 
 - Descarga un anime específico:
