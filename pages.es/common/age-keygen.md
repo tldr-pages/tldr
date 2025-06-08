@@ -4,7 +4,7 @@
 > Vea también: `age` para cifrar/descifrar archivos.
 > Más información: <https://manned.org/age-keygen>.
 
-- Generar un par de claves, guardarlas en un archivo sin cifrar, y mostrar la clave pública con `stdout`:
+- Genera un par de claves, las guarda en un archivo sin cifrar, y muestra la clave pública con `stdout`:
 
 `age-keygen {{[-o|--output]}} {{ruta/al/archivo}}`
 
