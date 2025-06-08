@@ -25,7 +25,7 @@
 
 - Ejecuta tareas en el playbook dado empezando por una tarea determinada:
 
-`ansible-playbook {{playbook}} --start-at {{tarea_nombre}}`
+`ansible-playbook {{playbook}} --start-at {{nombre_tarea}}`
 
 - Ejecuta tareas en el playbook dado sin realizar ningún cambio (dry-run):
 
