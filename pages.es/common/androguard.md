@@ -13,4 +13,4 @@
 
 - Descompila el código en Java de una aplicación:
 
-`androguard decompile {{ruta/al/app.apk}} --output {{ruta/al/directorio_de_salida}}`
+`androguard decompile {{ruta/a/app.apk}} --output {{ruta/al/directorio_de_salida}}`
