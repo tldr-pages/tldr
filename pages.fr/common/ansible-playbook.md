@@ -9,19 +9,19 @@
 
 - Exécute les tâches d'un playbook avec fichier d'inventaire spécifié :
 
-`ansible-playbook {{playbook}} -i {{fichier_d_inventaire}}`
+`ansible-playbook {{playbook}} {{[-i|--inventory]}} {{fichier_d_inventaire}}`
 
 - Exécute les tâches d'un playbook avec des variables supplémentaires définies via la ligne de commande :
 
-`ansible-playbook {{playbook}} -e "{{variable1}}={{valeur1}} {{variable2}}={{valeur2}}"`
+`ansible-playbook {{playbook}} {{[-e|--extra-vars]}} "{{variable1}}={{valeur1}} {{variable2}}={{valeur2}}"`
 
 - Exécute les tâches d'un playbook avec des variables supplémentaires définies dans un fichier JSON :
 
-`ansible-playbook {{playbook}} -e "@{{variables.json}}"`
+`ansible-playbook {{playbook}} {{[-e|--extra-vars]}} "@{{variables.json}}"`
 
 - Exécute les tâches d'un playbook pour certain tags :
 
-`ansible-playbook {{playbook}} --tags {{tag1,tag2}}`
+`ansible-playbook {{playbook}} {{[-t|--tags|]}} {{tag1,tag2}}`
 
 - Exécute les tâches d'un playbook en démarrant depuis une certaine tache :
 

@@ -9,23 +9,23 @@
 
 - Executa um comando em um novo container em background e exibe o ID:
 
-`docker run --detach {{image}} {{command}}`
+`docker run {{[-d|--detach]}} {{image}} {{command}}`
 
 - Executa um comando em um novo container que será removido após a execução em um modo interativo e com um terminal TTY:
 
-`docker run --rm --interactive --tty {{image}} {{command}}`
+`docker run --rm {{[-it|--interactive --tty]}} {{image}} {{command}}`
 
 - Executa um comando em um novo container com variáveis de ambiente:
 
-`docker run --env '{{variável}}={{valor}}' --env {{variável}} {{imagem}} {{comando}}`
+`docker run {{[-e|--env]}} '{{variável}}={{valor}}' {{[-e|--env]}} {{variável}} {{imagem}} {{comando}}`
 
 - Executa um comando em um novo container montando volumes nos caminhos específicos:
 
-`docker run --volume {{caminho/no/host_local}}:{{caminho/no/container}} {{imagem}} {{comando}}`
+`docker run {{[-v|--volume]}} {{caminho/no/host_local}}:{{caminho/no/container}} {{imagem}} {{comando}}`
 
 - Executa um comando em um novo container e abre as portas para acesso:
 
-`docker run --publish {{porta_do_host_local}}:{{porta_do_container}} {{imagem}} {{comando}}`
+`docker run {{[-p|--publish]}} {{porta_do_host_local}}:{{porta_do_container}} {{imagem}} {{comando}}`
 
 - Executa um comando em um novo container sobrescrevendo o entrypoint da imagem:
 

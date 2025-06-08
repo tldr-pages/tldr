@@ -2,7 +2,7 @@
 
 > Create or merge feature branches.
 > Feature branches obey the format feature/name.
-> More information: <http://manned.org/git-feature>.
+> More information: <https://manned.org/git-feature>.
 
 - Create and switch to a new feature branch:
 

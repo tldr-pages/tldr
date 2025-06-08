@@ -10,4 +10,4 @@
 
 - Lihat dokumentasi untuk perintah yang menyalakan PowerShell versi bawaan Windows (versi 5.1 ke bawah):
 
-`tldr powershell -p windows`
+`tldr powershell {{[-p|--platform]}} windows`

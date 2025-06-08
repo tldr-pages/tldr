@@ -17,16 +17,16 @@
 
 - Lees een bestand met SHA512 checksums en bestandsnamen en verifieer dat alle bestanden overeenkomende checksums hebben:
 
-`sha512sum --check {{pad/naar/bestand.sha512}}`
+`sha512sum {{[-c|--check]}} {{pad/naar/bestand.sha512}}`
 
 - Toon alleen een bericht voor ontbrekende bestanden of wanneer verificatie mislukt:
 
-`sha512sum --check --quiet {{pad/naar/bestand.sha512}}`
+`sha512sum {{[-c|--check]}} --quiet {{pad/naar/bestand.sha512}}`
 
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
-`sha512sum --ignore-missing --check --quiet {{pad/naar/bestand.sha512}}`
+`sha512sum --ignore-missing {{[-c|--check]}} --quiet {{pad/naar/bestand.sha512}}`
 
 - Controleer een bekende SHA512 checksum van een bestand:
 
-`echo {{bekende_sha512_checksum_van_het_bestand}} {{pad/naar/bestand}} | sha512sum --check`
+`echo {{bekende_sha512_checksum_van_het_bestand}} {{pad/naar/bestand}} | sha512sum {{[-c|--check]}}`

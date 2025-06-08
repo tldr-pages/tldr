@@ -17,4 +17,4 @@
 
 - Remove all ACL entries of a file:
 
-`setfacl {{[-X|--remove-all]}} {{path/to/file_or_directory}}`
+`setfacl {{[-b|--remove-all]}} {{path/to/file_or_directory}}`
