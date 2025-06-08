@@ -1,6 +1,7 @@
 # distrobox-upgrade
 
-> Upgrade one or multiple Distrobox containers. See also: `tldr distrobox`.
+> Upgrade one or multiple Distrobox containers.
+> See also: `distrobox`.
 > More information: <https://distrobox.it/usage/distrobox-upgrade>.
 
 - Upgrade a container using the container's native package manager:

@@ -1,7 +1,8 @@
 # nix
 
 > A powerful package manager that makes package management reliable, reproducible, and declarative.
-> `nix` is experimental and requires enabling experimental features. For a classic, stable interface, see `tldr nix classic`.
+> `nix` is experimental and requires enabling experimental features.
+> See also: `nix classic` for a classic, stable interface.
 > Some subcommands such as `build`, `develop`, `flake`, `registry`, `profile`, `search`, `repl`, `store`, `edit`, `why-depends`, etc. have their own usage documentation.
 > More information: <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix>.
 

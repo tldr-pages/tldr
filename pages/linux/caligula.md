@@ -9,4 +9,4 @@
 
 - Flash an ISO to a drive without entering the hash interactively:
 
-`caligula burn {{path/to/image.iso}}  {{[s|--hash]}} {{hash}}`
+`caligula burn {{path/to/image.iso}}  {{[-s|--hash]}} {{hash}}`

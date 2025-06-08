@@ -1,7 +1,7 @@
 # debsecan
 
 > Debian 보안 분석기, 특정 Debian 설치에서 취약점을 나열하는 도구.
-> 더 많은 정보: <https://gitlab.com/fweimer/debsecan>.
+> 더 많은 정보: <https://manned.org/debsecan>.
 
 - 현재 호스트에서 취약한 설치 패키지 나열:
 

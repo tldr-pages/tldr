@@ -17,8 +17,6 @@
 /pages.zh/ @blueskyson @einverne
 /pages.zh_TW/ @blueskyson
 
-/pages/linux/ @cyqsimon
-
 /*.md @sbrl @kbdharun @sebastiaanspeck
 /.devcontainer/* @kbdharun @sebastiaanspeck
 /.github/workflows/* @sbrl @kbdharun @sebastiaanspeck
@@ -27,8 +25,9 @@
 /package-lock.json @kbdharun @sebastiaanspeck
 /requirements.txt @kbdharun @sebastiaanspeck
 
-/contributing-guides/maintainers-guide.md @sbrl @kbdharun
-/contributing-guides/style-guide.md @sbrl @kbdharun
+/contributing-guides/maintainers-guide.md @sbrl @kbdharun @sebastiaanspeck
+/contributing-guides/style-guide.md @sbrl @kbdharun @sebastiaanspeck
+/contributing-guides/translation-templates/ @kbdharun @sebastiaanspeck
 /contributing-guides/*.ar.md @MachiavelliII
 /contributing-guides/*.de.md @pixelcmtd @gutjuri
 /contributing-guides/*.es.md @kant @tricantivu @ikks
