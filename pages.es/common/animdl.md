@@ -16,7 +16,7 @@
 
 `animdl download {{nombre_anime}} {{[-d|--download-dir]}} {{ruta/al/directorio_de_descargas}}`
 
-- Obtener la URL de transmisión de un anime específico:
+- Obtiene la URL de transmisión de un anime específico:
 
 `animdl grab {{nombre_anime}}`
 
