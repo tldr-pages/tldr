@@ -9,7 +9,7 @@
 
 - Buat dan nyalakan semua kontainer di latar belakang menggunakan file docker-compose.yml dari direktori saat ini:
 
-`docker compose up --detach`
+`docker compose up {{[-d|--detach]}}`
 
 - Nyalakan semua kontainer, dan bangun ulang jika diperlukan:
 
@@ -17,7 +17,7 @@
 
 - Nyalakan semua kontainer dengan menentukan nama proyek dan menggunakan file compose alternatif:
 
-`docker compose -p {{nama_proyek}} --file {{jalan/menuju/file}} up`
+`docker compose {{[-p|--project-name]}} {{nama_proyek}} {{[-f|--file]}} {{jalan/menuju/file}} up`
 
 - Hentikan semua kontainer yang sedang berjalan:
 
@@ -25,12 +25,12 @@
 
 - Hentikan dan menghapus semua kontainer, jaringan, image, dan volume:
 
-`docker compose down --rmi all --volumes`
+`docker compose down --rmi all {{[-v|--volumes]}}`
 
 - Ikuti log untuk semua kontainer:
 
-`docker compose logs --follow`
+`docker compose logs {{[-f|--follow]}}`
 
 - Ikuti log untuk kontainer tertentu:
 
-`docker compose logs --follow {{container_name}}`
+`docker compose logs {{[-f|--follow]}} {{container_name}}`

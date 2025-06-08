@@ -6,8 +6,8 @@
 
 - 지정된 이미지를 주어진 배율로 확대:
 
-`pamenlarge -scale {{N}} {{경로/대상/이미지.pam}} > {{경로/대상/출력.pam}}`
+`pamenlarge {{[-s|-scale]}} {{n}} {{경로/대상/이미지.pam}} > {{경로/대상/출력.pam}}`
 
 - 지정된 이미지를 가로 및 세로로 주어진 배율로 확대:
 
-`pamenlarge -xscale {{XN}} -yscale {{YN}} {{경로/대상/이미지.pam}} > {{경로/대상/출력.pam}}`
+`pamenlarge {{[-x|-xscale]}} {{xn}} {{[-y|-yscale]}} {{yn}} {{경로/대상/이미지.pam}} > {{경로/대상/출력.pam}}`

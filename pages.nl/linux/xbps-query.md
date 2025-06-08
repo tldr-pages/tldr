@@ -6,20 +6,20 @@
 
 - Zoek naar een pakket in externe repositories met behulp van een reguliere expressie of een trefwoord (als `--regex` wordt weggelaten):
 
-`xbps-query --search {{reguliere_expressie|trefwoord}} --repository --regex`
+`xbps-query {{[-s|--search]}} {{reguliere_expressie|trefwoord}} --repository --regex`
 
 - Toon informatie over een geïnstalleerd pakket:
 
-`xbps-query --show {{pakket}}`
+`xbps-query {{[-S|--show]}} {{pakket}}`
 
 - Toon informatie over een pakket in externe repositories:
 
-`xbps-query --show {{pakket}} --repository`
+`xbps-query {{[-S|--show]}} {{pakket}} --repository`
 
 - Toon alle geregistreerde pakketen in de pakket database:
 
-`xbps-query --list-pkgs`
+`xbps-query {{[-l|--list-pkgs]}}`
 
 - Toon expliciet geïnstalleerde pakketen (bijv. niet automatisch geïnstalleerd als afhankelijkheden):
 
-`xbps-query --list-manual-pkgs`
+`xbps-query {{[-m|--list-manual-pkgs]}}`

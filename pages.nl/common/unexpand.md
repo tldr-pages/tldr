@@ -13,7 +13,7 @@
 
 - Converteer alle spaties, in plaats van alleen de voorloopspaties:
 
-`unexpand -a {{pad/naar/bestand}}`
+`unexpand {{[-a|--all]}} {{pad/naar/bestand}}`
 
 - Converteer alleen leidende reeksen van spaties (overschrijft -a):
 
@@ -21,4 +21,4 @@
 
 - Plaats tabs een bepaald aantal tekens uit elkaar, niet 8 (activeert -a):
 
-`unexpand -t {{nummer}} {{pad/naar/bestand}}`
+`unexpand {{[-t|--tabs]}} {{nummer}} {{pad/naar/bestand}}`

@@ -9,15 +9,15 @@
 
 - Print alle geïnstalleerde pakketten inclusief gelijkwaardige afhankelijkheden:
 
-`npm ls --all`
+`npm ls {{[-a|--all]}}`
 
 - Print afhankelijkheden met uitgebreide informatie:
 
-`npm ls --long`
+`npm ls {{[-l|--long]}}`
 
 - Print afhankelijkheden in parseable formaat:
 
-`npm ls --parseable`
+`npm ls {{[-p|--parseable]}}`
 
 - Print afhankelijkheden in JSON formaat:
 

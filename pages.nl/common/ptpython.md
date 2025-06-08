@@ -13,7 +13,7 @@
 
 - Voer een specfiek Python bestand uit en start een REPL:
 
-`ptpython -i {{pad/naar/bestand.py}}`
+`ptpython {{[-i|--interactive]}} {{pad/naar/bestand.py}}`
 
 - Open het menu:
 

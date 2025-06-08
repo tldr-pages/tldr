@@ -21,4 +21,4 @@
 
 - Cambia il proprietario di un file/directory rendendolo uguale a quello di un altro file di riferimento:
 
-`chown --reference={{percorso/del/file_riferimento}} {{percorso/del/file_o_directory}}`
+`chown --reference {{percorso/del/file_riferimento}} {{percorso/del/file_o_directory}}`

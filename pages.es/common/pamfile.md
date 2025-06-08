@@ -9,8 +9,8 @@
 
 - Describe cada imagen en cada archivo de entrada (a diferencia de la primera imagen en cada archivo) en un formato legible para la máquina:
 
-`pamfile -allimages -machine {{ruta/al/archivo}}`
+`pamfile {{[-a|-allimages]}} -machine {{ruta/al/archivo}}`
 
 - Muestra un conteo de cuántas imágenes contiene el archivo:
 
-`pamfile -count {{ruta/al/archivo}}`
+`pamfile {{[-cou|-count]}} {{ruta/al/archivo}}`

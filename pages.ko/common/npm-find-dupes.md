@@ -9,7 +9,7 @@
 
 - 중복 감지에 `devDependencies` 포함:
 
-`npm find-dupes --include=dev`
+`npm find-dupes --include dev`
 
 - `node-modules`에서 특정 패키지의 모든 중복 인스턴스 나열:
 
@@ -17,11 +17,11 @@
 
 - 중복 감지에서 선택적 의존성 제외:
 
-`npm find-dupes --omit=optional`
+`npm find-dupes --omit optional`
 
 - 출력의 로그 레벨 설정:
 
-`npm find-dupes --loglevel={{silent|error|warn|info|verbose}}`
+`npm find-dupes --loglevel {{silent|error|warn|info|verbose}}`
 
 - 중복 정보를 JSON 형식으로 출력:
 
@@ -29,8 +29,8 @@
 
 - 중복 검색을 특정 스코프로 제한:
 
-`npm find-dupes --scope={{@스코프1,@스코프2}}`
+`npm find-dupes --scope {{@스코프1,@스코프2}}`
 
 - 특정 스코프를 중복 감지에서 제외:
 
-`npm find-dupes --omit-scope={{@스코프1,@스코프2}}`
+`npm find-dupes --omit-scope {{@스코프1,@스코프2}}`

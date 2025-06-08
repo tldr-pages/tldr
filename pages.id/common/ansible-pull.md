@@ -5,16 +5,16 @@
 
 - Tarik suatu playbook dari repositori VCS, kemudian jalankan aturan default dari playbook local.yml:
 
-`ansible-pull -U {{url_repositori}}`
+`ansible-pull {{[-U|--url]}} {{url_repositori}}`
 
 - Tarik suatu playbook dari repositori VCS, kemudian jalankan aturan playbook dengan nama tertentu:
 
-`ansible-pull -U {{url_repositori}} {{playbook}}`
+`ansible-pull {{[-U|--url]}} {{url_repositori}} {{playbook}}`
 
 - Tarik suatu playbook dari [C]abang tertentu pada repositori VCS, kemudian jalankan aturan playbook dengan nama tertentu:
 
-`ansible-pull -U {{url_repositori}} -C {{cabang}} {{playbook}}`
+`ansible-pull {{[-U|--url]}} {{url_repositori}} {{[-C|--checkout]}} {{cabang}} {{playbook}}`
 
 - Tarik suatu playbook dari repositori VCS, kemudian definisikan daftar perangkat/host dari suatu berkas (hosts), kemudian jalankan aturan playbook dengan nama tertentu:
 
-`ansible-pull -U {{url_repositori}} -i {{berkas_hosts}} {{playbook}}`
+`ansible-pull {{[-U|--url]}} {{url_repositori}} {{[-i|--inventory]}} {{berkas_hosts}} {{playbook}}`

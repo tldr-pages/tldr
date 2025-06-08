@@ -9,4 +9,4 @@
 
 - Log in op een externe host met een specifieke gebruikersnaam:
 
-`rlogin -l {{gebruikersnaam}} {{remote_host}}`
+`rlogin {{[-l|--user]}} {{gebruikersnaam}} {{remote_host}}`
