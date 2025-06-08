@@ -1,7 +1,7 @@
 # st
 
 > Emulator terminal simpel untuk sistem window X.
-> Informasi lebih lanjut: <https://st.suckless.org>.
+> Informasi lebih lanjut: <https://manned.org/st>.
 
 - Membuka sebuah terminal:
 

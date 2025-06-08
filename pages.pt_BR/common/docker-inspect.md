@@ -13,20 +13,20 @@
 
 - Exibe o endereço IP de um contêiner:
 
-`docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{contêiner}}`
+`docker inspect {{[-f|--format]}} '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' {{contêiner}}`
 
 - Exibe o caminho para o arquivo de log do contêiner:
 
-`docker inspect --format='\{\{.LogPath\}\}' {{contêiner}}`
+`docker inspect {{[-f|--format]}} '\{\{.LogPath\}\}' {{contêiner}}`
 
 - Exibe o nome da imagem do contêiner:
 
-`docker inspect --format='\{\{.Config.Image\}\}' {{contêiner}}`
+`docker inspect {{[-f|--format]}} '\{\{.Config.Image\}\}' {{contêiner}}`
 
 - Exibe as informações de configuração como JSON:
 
-`docker inspect --format='\{\{json .Config\}\}' {{contêiner}}`
+`docker inspect {{[-f|--format]}} '\{\{json .Config\}\}' {{contêiner}}`
 
 - Exibe todas as portas vinculadas:
 
-`docker inspect --format='\{\{range $p, $conf := .NetworkSettings.Ports\}\} \{\{$p\}\} -> \{\{(index $conf 0).HostPort\}\} \{\{end\}\}' {{contêiner}}`
+`docker inspect {{[-f|--format]}} '\{\{range $p, $conf := .NetworkSettings.Ports\}\} \{\{$p\}\} -> \{\{(index $conf 0).HostPort\}\} \{\{end\}\}' {{contêiner}}`

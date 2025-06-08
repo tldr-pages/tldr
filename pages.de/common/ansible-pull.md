@@ -5,16 +5,16 @@
 
 - Laden eines Playbooks aus einem VCS und ausführen des standardmässigen local.yml Playbooks:
 
-`ansible-pull -U {{repository_url}}`
+`ansible-pull {{[-U|--url]}} {{repository_url}}`
 
 - Laden eines Playbooks aus einem VCS und ausführen eines spezifischen Playbooks:
 
-`ansible-pull -U {{repository_url}} {{playbook}}`
+`ansible-pull {{[-U|--url]}} {{repository_url}} {{playbook}}`
 
 - Laden eines Playbooks aus einem VCS unter angabe eines bestimmten branches und ausführen eines spezifischen Playbooks:
 
-`ansible-pull -U {{repository_url}} -C {{branch}} {{playbook}}`
+`ansible-pull {{[-U|--url]}} {{repository_url}} {{[-C|--checkout]}} {{branch}} {{playbook}}`
 
 - Laden eines Playbooks aus einem VCS und ausführen eines spezifischen Playbooks unter angabe einer Hosts-Datei:
 
-`ansible-pull -U {{repository_url}} -i {{hosts_datei}} {{playbook}}`
+`ansible-pull {{[-U|--url]}} {{repository_url}} {{[-i|--inventory]}} {{hosts_datei}} {{playbook}}`
