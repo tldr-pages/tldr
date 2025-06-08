@@ -27,6 +27,6 @@
 
 `ansible-playbook {{playbook}} --start-at {{tarea_nombre}}`
 
-- Corre tareas en el playbook dado sin realizar ningún cambio (dry-run):
+- Ejecuta tareas en el playbook dado sin realizar ningún cambio (dry-run):
 
 `ansible-playbook {{playbook}} {{[-C|--check]}} {{[-D|--diff]}}`
