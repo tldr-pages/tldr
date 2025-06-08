@@ -3,7 +3,7 @@
 > Desinstala un paquete.
 > Más información: <https://manned.org/adb>.
 
-- Desinstalar un paquete:
+- Desinstala un paquete:
 
 `adb uninstall {{com.example.app}}`
 
