@@ -7,7 +7,7 @@
 
 `ansible-playbook {{playbook}}`
 
-- Corre tareas en el playbook dado con inventario de host personalizado:
+- Ejecuta tareas en el playbook dado con inventario de host personalizado:
 
 `ansible-playbook {{playbook}} {{[-i|--inventory]}} {{inventory_file}}`
 
