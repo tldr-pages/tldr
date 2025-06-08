@@ -23,7 +23,7 @@
 
 `ansible-playbook {{playbook}} {{[-t|--tags]}} {{tag1,tag2}}`
 
-- Corre tareas en el playbook dado empezando por una tarea en específico:
+- Ejecuta tareas en el playbook dado empezando por una tarea determinada:
 
 `ansible-playbook {{playbook}} --start-at {{tarea_nombre}}`
 
