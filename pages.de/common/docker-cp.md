@@ -13,4 +13,4 @@
 
 - Kopiere eine Datei oder ein Verzeichnis vom Host in einen Container und folge dabei Symlinks (kopiert die verlinkten Dateien statt der Symlinks):
 
-`docker cp --follow-link {{pfad/zu/symlink_auf_host}} {{container_name}}:{{pfad/zu/datei_oder_verzeichnis_in_container}}`
+`docker cp {{[-L|--follow-link]}} {{pfad/zu/symlink_auf_host}} {{container_name}}:{{pfad/zu/datei_oder_verzeichnis_in_container}}`

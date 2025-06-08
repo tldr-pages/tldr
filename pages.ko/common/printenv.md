@@ -13,4 +13,4 @@
 
 - 변수를 출력하고 줄바꿈 대신 NUL로 끝내기:
 
-`printenv --null {{HOME}}`
+`printenv {{[-0|--null]}} {{HOME}}`

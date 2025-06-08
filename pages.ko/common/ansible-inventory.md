@@ -10,11 +10,11 @@
 
 - 사용자 지정 인벤토리를 표시:
 
-`ansible-inventory --list --inventory {{경로/대상/파일_또는_스크립트_또는_디렉토리}}`
+`ansible-inventory --list {{[-i|--inventory-file]}} {{경로/대상/파일_또는_스크립트_또는_디렉토리}}`
 
 - YAML에서 기본 인벤토리를 표시:
 
-`ansible-inventory --list --yaml`
+`ansible-inventory --list {{[-y|--yaml]}}`
 
 - 기본 인벤토리를 파일에 덤프:
 

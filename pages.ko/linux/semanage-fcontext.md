@@ -6,19 +6,19 @@
 
 - 모든 파일 레이블링 규칙 나열:
 
-`sudo semanage fcontext --list`
+`sudo semanage fcontext {{[-l|--list]}}`
 
 - 사용자 정의 파일 레이블링 규칙을 헤더 없이 나열:
 
-`sudo semanage fcontext --list --locallist --noheading`
+`sudo semanage fcontext {{[-l|--list]}} {{[-C|--locallist]}} {{[-n|--noheading]}}`
 
 - PCRE 정규표현식과 일치하는 경로에 레이블을 지정하는 사용자 정의 규칙 추가:
 
-`sudo semanage fcontext --add --type {{samba_share_t}} {{'/mnt/share(/.*)?'}}`
+`sudo semanage fcontext {{[-a|--add]}} {{[-t|--type]}} {{samba_share_t}} {{'/mnt/share(/.*)?'}}`
 
 - PCRE 정규표현식을 사용하여 사용자 정의 규칙 삭제:
 
-`sudo semanage fcontext --delete {{'/mnt/share(/.*)?'}}`
+`sudo semanage fcontext {{[-d|--delete]}} {{'/mnt/share(/.*)?'}}`
 
 - 새로운 규칙을 적용하여 폴더를 재귀적으로 다시 레이블링:
 

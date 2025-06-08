@@ -9,4 +9,4 @@
 
 - 파일의 절대 경로 가져오기:
 
-`readlink -f {{경로/대상/파일}}`
+`readlink {{[-f|--canonicalize]}} {{경로/대상/파일}}`

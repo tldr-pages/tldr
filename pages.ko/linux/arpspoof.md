@@ -1,7 +1,7 @@
 # arpspoof
 
 > 패킷을 가로채기 위해 ARP 응답을 위조합니다.
-> 더 많은 정보: <https://monkey.org/~dugsong/dsniff>.
+> 더 많은 정보: <https://manned.org/arpspoof>.
 
 - 호스트의 패킷을 가로채기 위해 [i]인터페이스의 모든 호스트를 중독:
 
