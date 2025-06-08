@@ -9,7 +9,7 @@
 
 - Despliega metadatos de la aplicación (versión y ID de la app):
 
-`androguard apkid {{ruta/al/app.apk}}`
+`androguard apkid {{ruta/a/app.apk}}`
 
 - Descompila el código en Java de una aplicación:
 
