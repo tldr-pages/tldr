@@ -7,7 +7,7 @@
 
 `ansible-lint {{ruta/al/playbook}} {{ruta/al/directorio_de_roles}}`
 
-- Analizar un playbook mientras se excluyen reglas específicas:
+- Analiza un playbook mientras se excluyen reglas específicas:
 
 `ansible-lint {{[-x|--exclude-rules]}} {{regla1, regla2,...}} {{ruta/al/archivo_playbook}}`
 
