@@ -23,6 +23,6 @@
 
 `airshare --file-path {{code}}`
 
-- Recive un archivo y cópialo al portapapeles:
+- Recibe un archivo y lo copia al portapapeles:
 
 `airshare --clip-receive {{code}}`
