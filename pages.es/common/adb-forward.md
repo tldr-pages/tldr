@@ -3,7 +3,7 @@
 > Permite conectarse a un dispositivo Android de forma inalámbrica.
 > Más información: <https://developer.android.com/tools/adb>.
 
-- Reenviar un puerto TCP:
+- Reenvía un puerto TCP:
 
 `adb forward tcp:{{puerto_local}} tcp:{{puerto_remoto}}`
 
