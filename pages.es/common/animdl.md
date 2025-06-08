@@ -8,7 +8,7 @@
 
 `animdl download {{nombre_anime}}`
 
-- Descarga un anime específico, específicando un rango de episodios:
+- Descarga un anime determinado, especificando un rango de episodios:
 
 `animdl download {{nombre_anime}} {{[-r|--range]}} {{episodio_inicial}}-{{episodio_final}}`
 
