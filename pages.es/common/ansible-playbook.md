@@ -15,7 +15,7 @@
 
 `ansible-playbook {{playbook}} {{[-e|--extra-vars]}} "{{variable1}}={{valor1}} {{variable2}}={{valor2}}"`
 
-- Corre tareas en el playbook dado con variables extra definidas en un archivo JSON:
+- Ejecuta tareas en el playbook dado con variables extra definidas en un archivo JSON:
 
 `ansible-playbook {{playbook}} {{[-e|extra-vars]}} "@{{variables.json}}"`
 
