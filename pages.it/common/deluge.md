@@ -9,7 +9,7 @@
 
 - Scarica un torrent utilizzando uno specifico file di configurazione:
 
-`deluge -c {{percorso/del/file_configurazione}} {{url|magnet|percorso/del/file}}`
+`deluge {{[-c|--config]}} {{percorso/del/file_configurazione}} {{url|magnet|percorso/del/file}}`
 
 - Scarica un torrent ed avvia una specifica interfaccia utente:
 
@@ -17,4 +17,4 @@
 
 - Scarica un torrent e scrivi il log in un file:
 
-`deluge -l {{percorso/del/file_log}} {{url|magnet|percorso/del/file}}`
+`deluge {{[-l|--logfile]}} {{percorso/del/file_log}} {{url|magnet|percorso/del/file}}`
