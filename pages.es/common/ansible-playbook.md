@@ -3,7 +3,7 @@
 > Ejecuta tareas definidas en un playbook (archivo de tareas) en máquinas remotas sobre SSH.
 > Más información: <https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>.
 
-- Corre tareas en el playbook dado:
+- Ejecuta tareas en el playbook dado:
 
 `ansible-playbook {{playbook}}`
 
