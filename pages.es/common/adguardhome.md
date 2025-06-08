@@ -3,7 +3,7 @@
 > Software de red completo para bloquear anuncios y rastreo.
 > Más información: <https://github.com/AdguardTeam/AdGuardHome>.
 
-- Corre AdGuard Home:
+- Ejecuta AdGuard Home:
 
 `AdGuardHome`
 
