@@ -11,7 +11,7 @@
 
 `ansible-lint {{[-x|--exclude-rules]}} {{regla1, regla2,...}} {{ruta/al/archivo_playbook}}`
 
-- Analizar un playbook en modo sin conexión y darle como formato de salida PEP8:
+- Analiza un playbook en modo sin conexión y le da un formato de salida PEP8:
 
 `ansible-lint {{[-o|--offline]}} {{[-p|--parseable]}} {{ruta/al/archivo_playbook}}`
 
