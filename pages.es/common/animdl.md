@@ -24,7 +24,7 @@
 
 `animdl schedule`
 
-- Busca un anime en específico:
+- Busca un anime específico:
 
 `animdl search {{nombre_anime}}`
 
