@@ -9,4 +9,4 @@
 
 - Desinstala un paquete, pero conservando los datos del usuario:
 
-`adb uninstall -k {{com.ejemplo.app}}`
+`adb uninstall -k {{com.example.app}}`
