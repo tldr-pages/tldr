@@ -15,7 +15,7 @@
 
 `ansible-lint {{[-o|--offline]}} {{[-p|--parseable]}} {{ruta/al/archivo_playbook}}`
 
-- Analizar un playboo usando un directorio de reglas personalizadas:
+- Analiza un playbook usando un directorio de reglas personalizadas:
 
 `ansible-lint {{[-r|--rules]}} {{ruta/al/directorio_de_reglas_personalizadas}} {{ruta/al/archivo_playbook}}`
 
