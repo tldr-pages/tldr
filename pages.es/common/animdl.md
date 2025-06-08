@@ -32,6 +32,6 @@
 
 `animdl stream {{nombre_anime}}`
 
-- Ver la transmisión del último episodio de un anime específico:
+- Vea la transmisión del último episodio de un anime específico:
 
 `animdl stream {{nombre_anime}} {{[-s|--special]}} latest`
