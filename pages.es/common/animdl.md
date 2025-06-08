@@ -20,7 +20,7 @@
 
 `animdl grab {{nombre_anime}}`
 
-- Desplegar el cronograma de los próximos animes para la siguiente semana:
+- Despliega el cronograma de los próximos animes para la siguiente semana:
 
 `animdl schedule`
 
