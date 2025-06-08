@@ -28,7 +28,7 @@
 
 `animdl search {{nombre_anime}}`
 
-- Ver un anime específico en transmisión:
+- Vea un anime específico en transmisión:
 
 `animdl stream {{nombre_anime}}`
 
