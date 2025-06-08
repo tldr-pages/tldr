@@ -11,7 +11,7 @@
 
 `ansible-playbook {{playbook}} {{[-i|--inventory]}} {{inventory_file}}`
 
-- Corre tareas en el playbook dado con variables extra definidas con la línea de comandos:
+- Ejecuta tareas en el playbook dado con variables extra definidas con la línea de comandos:
 
 `ansible-playbook {{playbook}} {{[-e|--extra-vars]}} "{{variable1}}={{valor1}} {{variable2}}={{valor2}}"`
 
