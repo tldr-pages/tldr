@@ -8,6 +8,6 @@
 
 `age-keygen {{[-o|--output]}} {{ruta/al/archivo}}`
 
-- Convertir una identidad en un destinatario y mostrar la clave pública con `stdout`:
+- Convierte una identidad en un destinatario y muestra la clave pública con `stdout`:
 
 `age-keygen -y {{ruta/al/archivo}}`
