@@ -1,7 +1,7 @@
 # deluge
 
 > Client BItTorrent da linea di comando.
-> Maggiori informazioni: <https://deluge-torrent.org>.
+> Maggiori informazioni: <https://manned.org/deluge>.
 
 - Scarica un torrent:
 
