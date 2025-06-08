@@ -5,12 +5,12 @@
 
 - Verander de buffer grootte van `stdin` naar 512 KiB:
 
-`stdbuf --input=512K {{commando}}`
+`stdbuf {{[-i|--input]}} 512K {{commando}}`
 
 - Verander de buffer van `stdout` naar lijn-buffering:
 
-`stdbuf --output=L {{commando}}`
+`stdbuf {{[-o|--output]}} L {{commando}}`
 
 - Verander de buffer van `stderr` naar ongebufferd:
 
-`stdbuf --error=0 {{commando}}`
+`stdbuf {{[-e|--error]}} 0 {{commando}}`

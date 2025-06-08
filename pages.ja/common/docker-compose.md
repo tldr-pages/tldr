@@ -9,7 +9,7 @@
 
 - カレントディレクトリにある `docker-compose.yml`ファイルを使用してバックグラウンドで全てのコンテナを作成・起動する:
 
-`docker compose up --detach`
+`docker compose up {{[-d|--detach]}}`
 
 - 全てのコンテナを起動し、必要に応じて再ビルドする:
 
@@ -21,12 +21,12 @@
 
 - 全てのコンテナ、ネットワーク、イメージ、ボリュームを停止して削除する:
 
-`docker compose down --rmi all --volumes`
+`docker compose down --rmi all {{[-v|--volumes]}}`
 
 - 全てのコンテナのログをフォローする(表示し続ける):
 
-`docker compose logs --follow`
+`docker compose logs {{[-f|--follow]}}`
 
 - 特定コンテナのログをフォローする(表示し続ける):
 
-`docker compose logs --follow {{コンテナ名}}`
+`docker compose logs {{[-f|--follow]}} {{コンテナ名}}`

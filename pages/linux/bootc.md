@@ -2,7 +2,7 @@
 
 > Boot and upgrade via container images.
 > Manages transactional, in-place operating system updates using OCI/Docker container images.
-> More information: <https://containers.github.io/bootc/>.
+> More information: <https://manned.org/bootc.8>.
 
 - Show deployments in the order they will appear in the bootloader:
 

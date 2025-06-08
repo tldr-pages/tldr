@@ -5,20 +5,20 @@
 
 - Genereer een permutatie-index waarbij het eerste veld van elke regel een indexreferentie is:
 
-`ptx --references {{pad/naar/bestand}}`
+`ptx {{[-r|--references]}} {{pad/naar/bestand}}`
 
 - Genereer een permutatie-index met automatisch gegenereerde indexreferenties:
 
-`ptx --auto-reference {{pad/naar/bestand}}`
+`ptx {{[-A|--auto-reference]}} {{pad/naar/bestand}}`
 
 - Genereer een permutatie-index met een vaste breedte:
 
-`ptx --width={{breedte_in_kolommen}} {{pad/naar/bestand}}`
+`ptx {{[-w|--width]}} {{breedte_in_kolommen}} {{pad/naar/bestand}}`
 
 - Genereer een permutatie-index met een lijst van gefilterde woorden:
 
-`ptx --only-file={{pad/naar/filter}} {{pad/naar/bestand}}`
+`ptx {{[-o|--only-file]}} {{pad/naar/filter}} {{pad/naar/bestand}}`
 
 - Genereer een permutatie-index met SYSV-stijl gedragingen:
 
-`ptx --traditional {{pad/naar/bestand}}`
+`ptx {{[-G|--traditional]}} {{pad/naar/bestand}}`

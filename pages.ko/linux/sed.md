@@ -14,20 +14,20 @@
 
 - 특정 파일에서 모든 `apple` (기본 정규식) 발생 부분을 `mango` (기본 정규식)로 대체하고 원본 파일을 직접 덮어쓰기:
 
-`sed -i 's/apple/mango/g' {{경로/대상/파일}}`
+`sed {{[-i|--in-place]}} 's/apple/mango/g' {{경로/대상/파일}}`
 
-- 특정 스크립트 [f]파일을 실행하고 결과를 `stdout`에 출력:
+- 특정 스크립트 파일을 실행하고 결과를 `stdout`에 출력:
 
-`{{command}} | sed {{-f|--file}} {{경로/대상/스크립트.sed}}`
+`{{command}} | sed {{[-f|--file]}} {{경로/대상/스크립트.sed}}`
 
 - 첫 번째 줄만 `stdout`에 출력:
 
 `{{command}} | sed {{[-n|--quiet]}} '1p'`
 
-- 파일의 첫 번째 줄 [d]삭제:
+- 파일의 첫 번째 줄 삭제:
 
-`sed -i 1d {{경로/대상/파일}}`
+`sed {{[-i|--in-place]}} 1d {{경로/대상/파일}}`
 
-- 파일의 첫 번째 줄에 새 줄 [i]삽입:
+- 파일의 첫 번째 줄에 새 줄 삽입:
 
-`sed -i '1i\your new line text\' {{경로/대상/파일}}`
+`sed {{[-i|--in-place]}} '1i\your new line text\' {{경로/대상/파일}}`

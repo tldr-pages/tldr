@@ -3,7 +3,7 @@
 > Beheer en monitor PlatformIO apparaten.
 > Meer informatie: <https://docs.platformio.org/en/latest/core/userguide/device/>.
 
-- Toon alle beschikbare seriele poorten:
+- Toon alle beschikbare seriële poorten:
 
 `pio device list`
 
@@ -17,11 +17,11 @@
 
 - Start een interactieve apparaat monitor en luister naar een specifieke poort:
 
-`pio device monitor --port {{/dev/ttyUSBX}}`
+`pio device monitor {{[-p|--port]}} {{/dev/ttyUSBX}}`
 
 - Start een interactieve apparaat monitor en stel een specifieke baud in (standaard is 9600):
 
-`pio device monitor --baud {{57600}}`
+`pio device monitor {{[-b|--baud]}} {{57600}}`
 
 - Start een interactieve apparaat monitor en stel een specifieke EOL karakter in (standaard is `CRLF`):
 

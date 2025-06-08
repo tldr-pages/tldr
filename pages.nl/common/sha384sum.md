@@ -17,16 +17,16 @@
 
 - Lees een bestand met SHA384 checksums en bestandsnamen en verifieer dat alle bestanden overeenkomende checksums hebben:
 
-`sha384sum --check {{pad/naar/bestand.sha384}}`
+`sha384sum {{[-c|--check]}} {{pad/naar/bestand.sha384}}`
 
 - Toon alleen een bericht voor ontbrekende bestanden of wanneer verificatie mislukt:
 
-`sha384sum --check --quiet {{pad/naar/bestand.sha384}}`
+`sha384sum {{[-c|--check]}} --quiet {{pad/naar/bestand.sha384}}`
 
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
-`sha384sum --ignore-missing --check --quiet {{pad/naar/bestand.sha384}}`
+`sha384sum --ignore-missing {{[-c|--check]}} --quiet {{pad/naar/bestand.sha384}}`
 
 - Controleer een bekende SHA384 checksum van een bestand:
 
-`echo {{bekende_sha384_checksum_van_het_bestand}} {{pad/naar/bestand}} | sha384sum --check`
+`echo {{bekende_sha384_checksum_van_het_bestand}} {{pad/naar/bestand}} | sha384sum {{[-c|--check]}}`

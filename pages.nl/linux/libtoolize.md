@@ -6,4 +6,4 @@
 
 - Initialiseer een project voor `libtool` door de benodigde bestanden te kopiëren (symbolische links vermijden) en bestaande bestanden indien nodig te overschrijven:
 
-`libtoolize --copy --force`
+`libtoolize {{[-cf|--copy --force]}}`

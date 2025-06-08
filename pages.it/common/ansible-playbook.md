@@ -9,12 +9,12 @@
 
 - Esegui task nel playbook con un inventory personalizzato:
 
-`ansible-playbook {{playbook}} -i {{inventory}}`
+`ansible-playbook {{playbook}} {{[-i|--inventory]}} {{inventory}}`
 
 - Esegui task nel playvook con variabili aggiuntive definite da linea di comando:
 
-`ansible-playbook {{playbook}} -e "{{variabile1}}={{valore1}} {{variabile2}}={{valore2}} ..."`
+`ansible-playbook {{playbook}} {{[-e|--extra-vars]}} "{{variabile1}}={{valore1}} {{variabile2}}={{valore2}} ..."`
 
 - Esegui task nel playbook con variabili aggiuntive definite in un file JSON:
 
-`ansible-playbook {{playbook}} -e "@{{variabili.json}}"`
+`ansible-playbook {{playbook}} {{[-e|--extra-vars]}} "@{{variabili.json}}"`

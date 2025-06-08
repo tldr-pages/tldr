@@ -1,7 +1,7 @@
 # git fame
 
 > Pretty-print Git repository contributions.
-> More information: <https://github.com/casperdcl/git-fame#usage>.
+> More information: <https://manned.org/git-fame>.
 
 - Calculate contributions for the current Git repository:
 

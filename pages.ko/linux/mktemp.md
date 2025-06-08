@@ -9,7 +9,7 @@
 
 - 사용자 지정 디렉토리 사용 (기본값: `$TMPDIR`, 또는 `/tmp`):
 
-`mktemp --tmpdir={{/경로/대상/tempdir}}`
+`mktemp {{[-p |--tmpdir=]}}{{/경로/대상/tempdir}}`
 
 - 사용자 지정 경로 템플릿 사용 (`X`는 무작위 영숫자 문자로 대체됨):
 
@@ -25,4 +25,4 @@
 
 - 빈 임시 디렉토리를 생성하고 절대 경로 출력:
 
-`mktemp --directory`
+`mktemp {{[-d|--directory]}}`

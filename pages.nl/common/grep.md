@@ -13,7 +13,7 @@
 
 - Zoek naar een patroon in alle bestanden in een map, recursief, toon regelnummers van overeenkomsten, negeer binaire bestanden:
 
-`grep {{[-r|--recursive]}} {{[-n|--line-number]}} --binary-files {{without-match}} "{{zoekpatroon}}" {{pad/naar/map}}`
+`grep {{[-r|--recursive]}} {{[-n|--line-number]}} {{[-I|--binary-files=without-match]}} "{{zoekpatroon}}" {{pad/naar/map}}`
 
 - Gebruik uitgebreide reguliere expressies (ondersteunt `?`, `+`, `{}`, `()` en `|`), in hoofdletterongevoelige modus:
 

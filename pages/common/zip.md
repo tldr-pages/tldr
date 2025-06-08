@@ -14,7 +14,7 @@
 
 - Archive files/directories excluding specified ones:
 
-`zip {{[-r|--recurse-paths]}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} {{-x|--exclude}} {{path/to/excluded_files_or_directories}}`
+`zip {{[-r|--recurse-paths]}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} {{[-x|--exclude]}} {{path/to/excluded_files_or_directories}}`
 
 - Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest):
 
@@ -22,11 +22,11 @@
 
 - Create an encrypted archive with a specific password:
 
-`zip {{[-r|--recurse-paths]}} {{[-e|--encrypt]}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`zip {{[-re|--recurse-paths --encrypt]}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Archive files/directories to a multi-part split Zip archive (e.g. 3 GB parts):
 
-`zip {{[-r|--recurse-paths]}} {{[-s|--split-size]}} {{3g}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`zip {{[-rs|--recurse-paths --split-size]}} {{3g}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Print a specific archive contents:
 
