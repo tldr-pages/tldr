@@ -12,7 +12,7 @@
 
 `animdl download {{nombre_anime}} {{[-r|--range]}} {{episodio_inicial}}-{{episodio_final}}`
 
-- Descarga un anime específico, específicando un directorio de descarga:
+- Descarga un anime determinado, especificando un directorio de descarga:
 
 `animdl download {{nombre_anime}} {{[-d|--download-dir]}} {{ruta/al/directorio_de_descargas}}`
 
