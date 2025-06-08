@@ -19,7 +19,7 @@
 
 `ansible-playbook {{playbook}} {{[-e|extra-vars]}} "@{{variables.json}}"`
 
-- Corre tareas en el playbook dado con tags específicos:
+- Ejecuta tareas en el playbook dado con etiquetas específicas:
 
 `ansible-playbook {{playbook}} {{[-t|--tags]}} {{tag1,tag2}}`
 
