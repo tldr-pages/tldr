@@ -218,7 +218,7 @@ To maintain the quality and relevance of the tldr-pages project, maintainers are
 
 - **Revise CONTRIBUTING.md and the Style Guide** — Make sure that [`CONTRIBUTING.md`](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md) and the [Style Guide](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md) reflect current conventions. If community conventions shift, update these documents to guide future contributions.
 
-- **Maintain collaborators and Org members list** — Periodically review the list of collaborators and organization members. Remove inactive members and onboard new contributors who have demonstrated consistent involvement. Document any changes using an issue with the `archive` label.
+- **Maintain collaborators and Org members list** — Periodically review the list of collaborators and organization members. Remove inactive members and onboard new contributors who have demonstrated consistent involvement. Document any changes using an issue with the `community` label.
 
 - **Manage "Let's document" and translation requests** — Monitor and update issues labeled as `let's document` or language-specific translation requests. While these are often maintained by issue authors, there’s room for improvement through automation — for example, updating issue status based on milestones or completed PRs.
 
