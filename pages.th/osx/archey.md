@@ -1,7 +1,7 @@
 # archey
 
 > แสดงข้อมูลระบบอย่างมีสไตล์.
-> ข้อมูลเพิ่มเติม: <https://github.com/joshfinnie/archey-osx>.
+> ข้อมูลเพิ่มเติม: <https://github.com/joshfinnie/archey-osx>
 
 - แสดงข้อมูลระบบ:
 

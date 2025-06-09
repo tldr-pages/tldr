@@ -2,7 +2,7 @@
 
 > แอสเซมเบลอร์ของ GNU ขนาดย่อม.
 > ออกแบบมาเพื่อแปลงผลลัพธ์จาก `gcc` ให้เป็นไฟล์ที่ใช้กับ `ld`.
-> ข้อมูลเพิ่มเติม: <https://keith.github.io/xcode-man-pages/as.1.html>.
+> ข้อมูลเพิ่มเติม: <https://keith.github.io/xcode-man-pages/as.1.html>
 
 - แปลงไฟล์เป็นแอสเซมบลี โดยส่งออกไฟล์ลงใน `a.out`:
 

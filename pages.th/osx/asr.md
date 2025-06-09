@@ -2,7 +2,7 @@
 
 > กู้คืน (คัดลอก) ดิสก์อิมเมจไปยังวอลุ่ม.
 > ชื่อคำสั่งย่อมาจาก Apple Software Restore.
-> ข้อมูลเพิ่มเติม: <https://keith.github.io/xcode-man-pages/asr.8.html>.
+> ข้อมูลเพิ่มเติม: <https://keith.github.io/xcode-man-pages/asr.8.html>
 
 - กู้คืนอิมเมจดิสก์ไปยังวอลุ่มเป้าหมาย:
 

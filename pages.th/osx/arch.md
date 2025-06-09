@@ -2,7 +2,7 @@
 
 > แสดงชื่อสถาปัตยกรรมของระบบ หรือรันคำสั่งในสถาปัตยกรรมที่ต่างออกไป.
 > ดูเพิ่มเติม: `uname`.
-> ข้อมูลเพิ่มเติม: <https://keith.github.io/xcode-man-pages/arch.1.html>.
+> ข้อมูลเพิ่มเติม: <https://keith.github.io/xcode-man-pages/arch.1.html>
 
 - แสดงสถาปัตยกรรมของระบบ:
 

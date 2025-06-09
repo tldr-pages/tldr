@@ -2,7 +2,7 @@
 
 > โปรแกรมสำหรับแสดงข้อมูลเมตาของไฟล์เสียงบน OS X.
 > คำสั่งที่ติดตั้งมาพร้อมกับ OS X.
-> ข้อมูลเพิ่มเติม: <https://keith.github.io/xcode-man-pages/afinfo.1.html>.
+> ข้อมูลเพิ่มเติม: <https://keith.github.io/xcode-man-pages/afinfo.1.html>
 
 - แสดงข้อมูลของไฟล์เสียงที่ส่งไป:
 
