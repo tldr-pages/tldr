@@ -17,7 +17,7 @@
 
 - Delete a virtual cluster:
 
-`vcluster delete {{vcluster-name}}`
+`vcluster delete {{vcluster_name}}`
 
 - List platform-managed virtual clusters:
 
