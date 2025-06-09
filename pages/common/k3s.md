@@ -5,15 +5,15 @@
 
 - Install a single-node K3s server with default settings:
 
-`curl -sfL https://get.k3s.io | sh -s - server`
+`curl {{[-sfL|--silent --fail --location]}} https://get.k3s.io | sh -s - server`
 
 - Install a K3s server without deploying a local agent:
 
-`curl -sfL https://get.k3s.io | sh -s - server {{[--disable]}} {{agent}}`
+`curl {{[-sfL|--silent --fail --location]}} https://get.k3s.io | sh -s - server --disable {{agent}}`
 
 - Install a K3s agent that connects to a server:
 
-`curl -sfL https://get.k3s.io | sh -s - agent {{[-s|--server]}} {{https://myserver:6443}} {{[-t|--token]}} {{mytoken}}`
+`curl {{[-sfL|--silent --fail --location]}} https://get.k3s.io | sh -s - agent {{[-s|--server]}} {{https://myserver:6443}} {{[-t|--token]}} {{mytoken}}`
 
 - Run the embedded `kubectl` command:
 
