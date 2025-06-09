@@ -2,7 +2,7 @@
 
 > 텍스트 기반 웹 브라우저.
 > SSL 및 마우스 입력을 지원하며, SSH를 통해서도 사용할 수 있습니다.
-> 더 많은 정보: <https://w3m.sourceforge.net>.
+> 더 많은 정보: <https://w3m.sourceforge.net/MANUAL>.
 
 - URL 열기:
 
