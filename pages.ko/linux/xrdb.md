@@ -1,7 +1,7 @@
 # xrdb
 
 > 유닉스 계열 시스템을 위한 X 윈도우 서버의 리소스 데이터베이스 도구.
-> 더 많은 정보: <https://www.x.org/releases/X11R7.7/doc/man/man1/xrdb.1.xhtml>.
+> 더 많은 정보: <https://www.x.org/releases/current/doc/man/man1/xrdb.1.xhtml>.
 
 - 대화형 모드로 `xrdb` 시작:
 

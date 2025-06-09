@@ -1,7 +1,7 @@
 # tcptraceroute
 
 > TCP 패킷을 사용하는 traceroute 구현.
-> 더 많은 정보: <https://github.com/mct/tcptraceroute>.
+> 더 많은 정보: <https://manned.org/tcptraceroute>.
 
 - 호스트까지의 경로 추적:
 
