@@ -17,16 +17,16 @@
 
 - Lees een bestand met MD5 checksums en bestandsnamen en verifieer dat alle bestanden overeenkomende checksums hebben:
 
-`md5sum --check {{pad/naar/bestand.md5}}`
+`md5sum {{[-c|--check]}} {{pad/naar/bestand.md5}}`
 
 - Toon alleen een bericht voor ontbrekende bestanden of wanneer verificatie mislukt:
 
-`md5sum --check --quiet {{pad/naar/bestand.md5}}`
+`md5sum {{[-c|--check]}} --quiet {{pad/naar/bestand.md5}}`
 
 - Toon alleen een bericht wanneer verificatie mislukt, negeer ontbrekende bestanden:
 
-`md5sum --ignore-missing --check --quiet {{pad/naar/bestand.md5}}`
+`md5sum --ignore-missing {{[-c|--check]}} --quiet {{pad/naar/bestand.md5}}`
 
 - Controleer een bekende MD5 checksum van een bestand:
 
-`echo {{bekende_md5_checksum_van_het_bestand}} {{pad/naar/bestand}} | md5sum --check`
+`echo {{bekende_md5_checksum_van_het_bestand}} {{pad/naar/bestand}} | md5sum {{[-c|--check]}}`

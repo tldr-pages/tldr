@@ -13,19 +13,19 @@
 
 - 建立 Docker 映像檔並加上標籤：
 
-`docker build --tag {{名稱:標籤}} .`
+`docker build {{[-t|--tag]}} {{名稱:標籤}} .`
 
 - 不使用建構上下文（Build Context）來建立映像檔：
 
-`docker build --tag {{名稱:標籤}} - < {{Dockerfile}}`
+`docker build {{[-t|--tag]}} {{名稱:標籤}} - < {{Dockerfile}}`
 
 - 在建構映像檔時不使用快取：
 
-`docker build --no-cache --tag {{名稱:標籤}} .`
+`docker build --no-cache {{[-t|--tag]}} {{名稱:標籤}} .`
 
 - 使用特定的 Dockerfile 來建構映像檔：
 
-`docker build --file {{Dockerfile}} .`
+`docker build {{[-f|--file]}} {{Dockerfile}} .`
 
 - 在建構時傳遞自訂的變數：
 

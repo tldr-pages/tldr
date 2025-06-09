@@ -9,15 +9,15 @@
 
 - 사용자가 몇 시간 동안 연결되었는지 출력:
 
-`ac --individual-totals`
+`ac {{[-p|--individual-totals]}}`
 
 - 특정 사용자가 몇 시간 동안 연결되었는지 출력:
 
-`ac --individual-totals {{사용자명}}`
+`ac {{[-p|--individual-totals]}} {{사용자명}}`
 
 - 특정 사용자가 하루 동안 몇 시간 연결되었는지 출력(총합 포함):
 
-`ac --daily-totals --individual-totals {{사용자명}}`
+`ac {{[-d|--daily-totals]}} {{[-p|--individual-totals]}} {{사용자명}}`
 
 - 추가 세부 정보도 표시:
 

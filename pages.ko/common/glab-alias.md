@@ -1,7 +1,7 @@
 # glab alias
 
 > GitLab CLI 명령어 별칭을 관리.
-> 더 많은 정보: <https://glab.readthedocs.io/en/latest/alias>.
+> 더 많은 정보: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/alias/index.md>.
 
 - 하위 명령어 도움말을 표시:
 
@@ -17,7 +17,7 @@
 
 - 쉘 명령을 `glab` 하위 명령으로 설정:
 
-`glab alias set --shell {{alias_이름}} {{명령어}}`
+`glab alias set {{[-s|--shell]}} {{alias_이름}} {{명령어}}`
 
 - 명령 단축키 삭제:
 

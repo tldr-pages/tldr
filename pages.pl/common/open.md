@@ -4,7 +4,7 @@
 
 - Zobacz dokumentację komendy dostępnej w macOS:
 
-`tldr open -p osx`
+`tldr open {{[-p|--platform]}} osx`
 
 - Zobacz dokumentację komendy dostępnej w fish:
 

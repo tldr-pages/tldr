@@ -1,7 +1,7 @@
 # wajig
 
 > Debian 기반 시스템을 위한 단순화된 올인원 시스템 지원 도구.
-> 더 많은 정보: <https://wajig.togaware.com>.
+> 더 많은 정보: <https://togaware.com/linux/survivor/wajig.html>.
 
 - 사용 가능한 패키지 및 버전 목록 업데이트:
 

@@ -9,12 +9,12 @@
 
 - Limiteer resultaten van strings met minimaal n karakters lang:
 
-`strings -n {{n}} {{pad/naar/bestand}}`
+`strings {{[-n|--bytes]}} {{n}} {{pad/naar/bestand}}`
 
 - Prefix ieder resultaat met de offset in het bestand:
 
-`strings -t d {{pad/naar/bestand}}`
+`strings {{[-t|--radix]}} d {{pad/naar/bestand}}`
 
 - Prefix ieder resultaat met de offset in het bestand als hexadecimaal:
 
-`strings -t x {{pad/naar/bestand}}`
+`strings {{[-t|--radix]}} x {{pad/naar/bestand}}`

@@ -5,11 +5,11 @@
 
 - Upgrade een container met behulp van het native pakketbeheer van de container:
 
-`distrobox-upgrade {{container_name}}`
+`distrobox-upgrade {{container_naam}}`
 
 - Upgrade alle containers met behulp van het native pakketbeheer van de container:
 
-`distrobox-upgrade --all`
+`distrobox-upgrade {{[-a|--all]}}`
 
 - Upgrade specifieke containers met behulp van het native pakketbeheer van de container:
 

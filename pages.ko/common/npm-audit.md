@@ -30,4 +30,4 @@
 
 - 특정 심각도 이상의 취약점에서만 실패하도록 감사 구성:
 
-`npm audit --audit-level={{info|low|moderate|high|critical}}`
+`npm audit --audit-level {{info|low|moderate|high|critical}}`

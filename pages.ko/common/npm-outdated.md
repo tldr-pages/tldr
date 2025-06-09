@@ -9,4 +9,4 @@
 
 - 현재 프로젝트와 상관없이 오래된 패키지 찾기:
 
-`npm outdated --all`
+`npm outdated {{[-a|--all]}}`

@@ -1,11 +1,7 @@
 # bpftrace
 
 > Linux eBPF를 위한 고급 추적 언어.
-> 더 많은 정보: <https://github.com/iovisor/bpftrace>.
-
-- bpftrace 버전 표시:
-
-`bpftrace -V`
+> 더 많은 정보: <https://github.com/bpftrace/bpftrace/blob/master/man/adoc/bpftrace.adoc>.
 
 - 사용 가능한 모든 프로브 나열:
 
@@ -26,3 +22,7 @@
 - 드라이런을 수행하고 eBPF 형식으로 출력 표시:
 
 `sudo bpftrace -d -e '{{한_줄_프로그램}}'`
+
+- 버전 표시:
+
+`bpftrace {{[-V|--version]}}`

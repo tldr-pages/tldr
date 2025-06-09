@@ -10,11 +10,11 @@
 
 - Affiche un inventaire spécifique :
 
-`ansible-inventory --list --inventory {{chemin/vers/fichier_ou_script_ou_dossier}}`
+`ansible-inventory --list {{[-i|--inventory-file]}} {{chemin/vers/fichier_ou_script_ou_dossier}}`
 
 - Affiche l'inventaire par défaut en YAML :
 
-`ansible-inventory --list --yaml`
+`ansible-inventory --list {{[-y|--yaml]}}`
 
 - Sauvegarde l'inventaire par défaut dans un fichier :
 

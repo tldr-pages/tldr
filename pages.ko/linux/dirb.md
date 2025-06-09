@@ -1,7 +1,7 @@
 # dirb
 
 > HTTP 기반 웹 서버의 디렉토리와 파일을 스캔합니다.
-> 더 많은 정보: <https://dirb.sourceforge.net>.
+> 더 많은 정보: <https://manned.org/dirb>.
 
 - 기본 단어 목록을 사용하여 웹 서버 스캔:
 

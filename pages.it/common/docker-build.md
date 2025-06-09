@@ -13,15 +13,15 @@
 
 - Crea e tagga un'immagine Docker:
 
-`docker build --tag {{nome:tag}} .`
+`docker build {{[-t|--tag]}} {{nome:tag}} .`
 
 - Non usare la cache per la creazione di un'immagine Docker:
 
-`docker build --no-cache --tag {{nome:tag}} .`
+`docker build --no-cache {{[-t|--tag]}} {{nome:tag}} .`
 
 - Crea un'immagine Docker usando un dato Dockerfile:
 
-`docker build --file {{Dockerfile}} .`
+`docker build {{[-f|--file]}} {{Dockerfile}} .`
 
 - Crea un'immagine Docker usando variabili fornite in fase di build:
 

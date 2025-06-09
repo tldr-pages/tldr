@@ -13,15 +13,15 @@
 
 - Bir Docker imgesi oluşturun ve etiketleyin:
 
-`docker build --tag {{isim:etiket}} .`
+`docker build {{[-t|--tag]}} {{isim:etiket}} .`
 
 - İmge oluştururken çerez kullanımını etkisizleştirin:
 
-`docker build --no-cache --tag {{isim:etiket}} .`
+`docker build --no-cache {{[-t|--tag]}} {{isim:etiket}} .`
 
 - Belirtilen Dockerfile ile bir Docker imgesi oluşturun:
 
-`docker build --file {{Dockerfile}} .`
+`docker build {{[-f|--file]}} {{Dockerfile}} .`
 
 - Kişiselleştirilmiş yapım-zaman değerleriyle oluşturun:
 

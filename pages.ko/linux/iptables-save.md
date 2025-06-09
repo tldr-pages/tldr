@@ -10,8 +10,8 @@
 
 - 특정 [t]테이블의 `iptables` 설정 출력:
 
-`sudo iptables-save --table {{테이블}}`
+`sudo iptables-save {{[-t|--table]}} {{테이블}}`
 
 - `iptables` 설정을 [f]파일에 저장:
 
-`sudo iptables-save --file {{경로/대상/파일}}`
+`sudo iptables-save {{[-f|--file]}} {{경로/대상/파일}}`

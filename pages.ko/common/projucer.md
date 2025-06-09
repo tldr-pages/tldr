@@ -1,7 +1,7 @@
 # Projucer
 
 > JUCE 프레임워크 애플리케이션을 위한 프로젝트 관리자.
-> 더 많은 정보: <https://juce.com/discover/stories/projucer-manual#10.4-command-line-tools>.
+> 더 많은 정보: <https://docs.juce.com/master/projucer_manual.html#projucer_manual_tools_command_line_tools>.
 
 - 프로젝트에 대한 정보 표시:
 

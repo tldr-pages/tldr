@@ -1,7 +1,7 @@
 # pdftk
 
 > Conjunto de utilitários para manipular arquivos PDF.
-> Mais informações: <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit>.
+> Mais informações: <https://www.pdflabs.com/docs/pdftk-man-page/>.
 
 - Extrai conjuntos de páginas de um arquivo PDF (páginas 1 a 3, 5 e 6 a 10) e guardá-las num novo arquivo:
 

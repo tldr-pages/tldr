@@ -26,4 +26,4 @@
 
 - Genereer handmatig een rapport om te debuggen:
 
-`abrt-cli report --analyze {{probleem_id}}`
+`abrt-cli report {{[-a|--analyze]}} {{probleem_id}}`
