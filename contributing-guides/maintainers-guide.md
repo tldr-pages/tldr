@@ -210,7 +210,7 @@ To maintain the quality and relevance of the tldr-pages project, maintainers are
 
 - **Monitor software updates** — Regularly check if the tools documented in tldr-pages have been updated — especially those introducing breaking changes. Update relevant pages accordingly and, where appropriate, encourage contributors to do the same.
 
-- **Validate external links** — Periodically check that all links across the documentation — including `more_info` fields in pages — are functional. Consider using automated link-checking tools to detect broken URLs. Replace or remove any broken links.
+- **Validate external links** — Periodically check that all links across the documentation and pages are functional. Consider using https://github.com/tldr-pages/tldr-maintenance/issues/129 for link-checking pages and other automated link-checking tools to detect broken URLs for documentation. Then replace or remove any broken links.
 
 - **Update client status on the wiki** — Ensure the list of clients in the project's [Wiki](https://github.com/tldr-pages/tldr/wiki) reflects their current development status (active, inactive, deprecated). Reach out to maintainers of clients when needed for status updates.
 
