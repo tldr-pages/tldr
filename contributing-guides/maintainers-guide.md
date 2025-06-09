@@ -222,4 +222,4 @@ To maintain the quality and relevance of the tldr-pages project, maintainers are
 
 - **Manage "Let's document" and translation requests** — Monitor and update issues labeled as `let's document` or language-specific translation requests. While these are often maintained by issue authors, there’s room for improvement through automation — for example, updating issue status based on milestones or completed PRs.
 
-- **Review translated pages** — Check the [tldr-maintenance repository](https://github.com/tldr-pages/tldr-maintenance) for issues or inconsistencies with translated pages.
+- **Review translated pages** — Check the [tldr-maintenance repository](https://github.com/tldr-pages/tldr-maintenance/issues/127) for issues or inconsistencies with translated pages.
