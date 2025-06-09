@@ -13,7 +13,7 @@
 
 - Create a virtual cluster with a specific space and cluster:
 
-`loft create vcluster {{vcluster-name}} {{[-s|--space]}} {{space-name}} {{[-c|--cluster]}} {{cluster-name}}`
+`loft create vcluster {{vcluster_name}} {{[-s|--space]}} {{space_name}} {{[-c|--cluster]}} {{cluster_name}}`
 
 - List all virtual clusters:
 
@@ -21,11 +21,11 @@
 
 - Switch context to a specific virtual cluster:
 
-`loft use vcluster {{vcluster-name}}`
+`loft use vcluster {{vcluster_name}}`
 
 - Delete a virtual cluster:
 
-`loft delete vcluster {{vcluster-name}}`
+`loft delete vcluster {{vcluster_name}}`
 
 - Show the current Loft username:
 
