@@ -18,7 +18,7 @@
 
 - Especifica o limite de velocidade de download (em KB/s):
 
-`transmission-cli {{[-d|--downlimit]}} {{url|magnet|caminho/para/arquivo}}`
+`transmission-cli {{[-d|--downlimit]}} {{50}} {{url|magnet|caminho/para/arquivo}}`
 
 - Especifica o limite de velocidade de upload (em KB/s):
 

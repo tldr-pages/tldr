@@ -17,11 +17,11 @@
 
 - 토렌트 1과 2 시작, 토렌트 3 중지:
 
-`transmission-remote {{호스트명}} {{[-t|--torrent]}} "{{1,2}}" {{[-s|--start]}} {{[-t|--torrent]}} {{3}} {{[-S|--stop]}}`
+`transmission-remote {{호스트명}} {{[-t|--torrent]}} "1,2" {{[-s|--start]}} {{[-t|--torrent]}} 3 {{[-S|--stop]}}`
 
 - 토렌트 1과 2 제거, 토렌트 2의 로컬 데이터도 삭제:
 
-`transmission-remote {{호스트명}} {{[-t|--torrent]}} {{1}} {{[-r|--remove]}} {{[-t|--torrent]}} {{2}} {{[-rad|--remove-and-delete]}}e`
+`transmission-remote {{호스트명}} {{[-t|--torrent]}} 1 {{[-r|--remove]}} {{[-t|--torrent]}} 2 {{[-rad|--remove-and-delete]}}`
 
 - 모든 토렌트 중지:
 
@@ -29,4 +29,4 @@
 
 - 토렌트 1-10 및 15-20을 새 디렉토리로 이동 (존재하지 않는 경우 생성됨):
 
-`transmission-remote {{호스트명}} {{[-t|--torrent]}} "{{1-10,15-20}}" --move {{/경로/대상/새_디렉토리}}`
+`transmission-remote {{호스트명}} {{[-t|--torrent]}} "1-10,15-20" --move {{/경로/대상/새_디렉토리}}`

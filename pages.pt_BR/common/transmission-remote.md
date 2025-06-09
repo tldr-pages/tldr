@@ -17,11 +17,11 @@
 
 - Inicia os torrents 1 e 2, interrompe o torrent 3:
 
-`transmission-remote {{hostname}} {{[-t|--torrent]}} "{{1,2}}" {{[-s|--start]}} {{[-t|--torrent]}} {{3}} {{[-S|--stop]}}`
+`transmission-remote {{hostname}} {{[-t|--torrent]}} "1,2" {{[-s|--start]}} {{[-t|--torrent]}} 3 {{[-S|--stop]}}`
 
 - Remove os torrents 1 e 2 e também exclui dados locais do torrent 2:
 
-`transmission-remote {{hostname}} {{[-t|--torrent]}} {{1}} {{[-r|--remove]}} {{[-t|--torrent]}} {{2}} {{[-rad|--remove-and-delete]}}`
+`transmission-remote {{hostname}} {{[-t|--torrent]}} 1 {{[-r|--remove]}} {{[-t|--torrent]}} 2 {{[-rad|--remove-and-delete]}}`
 
 - Interrompe todos os torrents:
 
@@ -29,4 +29,4 @@
 
 - Move os torrents 1-10 e 15-20 para um novo diretório (que será criado se não existir):
 
-`transmission-remote {{hostname}} {{[-t|--torrent]}} "{{1-10,15-20}}" --move {{/caminho/para/nodo_diretorio}}`
+`transmission-remote {{hostname}} {{[-t|--torrent]}} "1-10,15-20" --move {{/caminho/para/nodo_diretorio}}`
