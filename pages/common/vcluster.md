@@ -5,11 +5,11 @@
 
 - Create a virtual cluster in a specific namespace:
 
-`vcluster create {{vcluster-name}} {{[-n|--namespace]}} {{namespace}}`
+`vcluster create {{vcluster_name}} {{[-n|--namespace]}} {{namespace}}`
 
 - Connect to a virtual cluster with a local port and insecure mode:
 
-`vcluster connect {{vcluster-name}} {{[-n|--namespace]}} {{namespace}} {{[--local-port]}} {{port}} {{[--insecure]}}`
+`vcluster connect {{vcluster_name}} {{[-n|--namespace]}} {{namespace}} --local-port {{port}} --insecure`
 
 - List all virtual clusters:
 
@@ -25,12 +25,12 @@
 
 - Create a platform-managed virtual cluster:
 
-`vcluster platform create {{vcluster-name}} {{[-n|--namespace]}} {{namespace}}`
+`vcluster platform create {{vcluster_name}} {{[-n|--namespace]}} {{namespace}}`
 
 - Connect to a platform-managed virtual cluster:
 
-`vcluster platform connect {{vcluster-name}} {{[-n|--namespace]}} {{namespace}}`
+`vcluster platform connect {{vcluster_name}} {{[-n|--namespace]}} {{namespace}}`
 
 - Delete a platform-managed virtual cluster:
 
-`vcluster platform delete {{vcluster-name}} {{[-n|--namespace]}} {{namespace}}`
+`vcluster platform delete {{vcluster_name}} {{[-n|--namespace]}} {{namespace}}`
