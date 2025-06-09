@@ -5,11 +5,11 @@
 
 - Install the DevPod CLI on Linux:
 
-`curl -L -o devpod https://github.com/loft-sh/devpod/releases/latest/download/devpod-linux-amd64 && sudo install -m0755 devpod /usr/local/bin`
+`curl {{[-L|--location]}} {{[-o|--output]}} devpod https://github.com/loft-sh/devpod/releases/latest/download/devpod-linux-amd64 && sudo install -m0755 devpod /usr/local/bin`
 
 - Add a provider such as Docker or Kubernetes:
 
-`devpod provider add {{provider-name}}`
+`devpod provider add {{provider_name}}`
 
 - List all available providers:
 
@@ -21,15 +21,15 @@
 
 - Start a workspace from a local directory:
 
-`devpod up {{./path/to/project}}`
+`devpod up {{path/to/project}}`
 
 - Recreate an existing workspace:
 
-`devpod up {{workspace-name}} {{[-r|--recreate]}}`
+`devpod up {{workspace_name}} {{[-r|--recreate]}}`
 
 - Reset a workspace to a clean state:
 
-`devpod up {{workspace-name}} {{[-x|--reset]}}`
+`devpod up {{workspace_name}} {{[-x|--reset]}}`
 
 - Add a custom provider from a GitHub repository:
 
