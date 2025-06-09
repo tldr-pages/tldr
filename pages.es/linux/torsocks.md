@@ -2,7 +2,7 @@
 
 > Enruta el tráfico de cualquier aplicación a través de la red Tor.
 > Nota: `torsocks` asumirá que debe conectarse al proxy SOCKS que corre en 127.0.0.1:9050 que es el servicio (daemon) predeterminado de Tor.
-> Más información: <https://gitlab.torproject.org/tpo/core/torsocks/>.
+> Más información: <https://manned.org/torsocks>.
 
 - Ejecuta un comando usando Tor:
 
@@ -22,8 +22,8 @@
 
 - Aísla el tráfico a través de un circuito Tor diferente, mejorando el anonimato:
 
-`torsocks --isolate {{curl https://check.torproject.org/api/ip}}`
+`torsocks {{[-i|--isolate]}} {{curl https://check.torproject.org/api/ip}}`
 
 - Se conecta a un proxy Tor que se ejecuta en una dirección y un puerto específico:
 
-`torsocks --address {{ip}} --port {{puerto}} {{comando}}`
+`torsocks {{[-a|--address]}} {{ip}} {{[-P|--port]}} {{puerto}} {{comando}}`

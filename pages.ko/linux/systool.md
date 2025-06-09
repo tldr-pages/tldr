@@ -2,7 +2,7 @@
 
 > 버스 및 클래스별 시스템 장치 정보를 확인합니다.
 > 이 명령어는 `sysfs` 패키지의 일부입니다.
-> 더 많은 정보: <https://github.com/linux-ras/sysfsutils>.
+> 더 많은 정보: <https://manned.org/systool>.
 
 - 버스의 장치 속성을 모두 나열 (예: `pci`, `usb`). 모든 버스를 보려면 `ls /sys/bus` 사용:
 
