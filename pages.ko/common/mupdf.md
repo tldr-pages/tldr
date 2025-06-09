@@ -1,7 +1,7 @@
 # mupdf
 
 > 경량 PDF, XPS 및 전자책 뷰어.
-> 더 많은 정보: <https://www.mupdf.com>.
+> 더 많은 정보: <https://mupdf.readthedocs.io/en/latest/tools/mupdf-gl.html>.
 
 - 첫 페이지에서 PDF 열기:
 
