@@ -1,7 +1,7 @@
 # vcluster
 
 > Create and manage lightweight virtual Kubernetes clusters in namespaces.
-> More information: <https://www.vcluster.com/docs/cli/>.
+> More information: <https://www.vcluster.com/docs/vcluster>.
 
 - Create a virtual cluster in a specific namespace:
 
