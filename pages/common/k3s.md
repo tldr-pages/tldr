@@ -1,7 +1,7 @@
 # k3s
 
 > Install and manage lightweight Kubernetes clusters using the k3s CLI.
-> More information: <https://docs.k3s.io/cli/k3s>.
+> More information: <https://docs.k3s.io/cli>.
 
 - Install a single-node K3s server with default settings:
 
