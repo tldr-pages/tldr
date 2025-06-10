@@ -17,7 +17,7 @@
 
 - Voer een specifiek script uit:
 
-`fish {{path/to/script.fish}}`
+`fish {{pad/naar/script.fish}}`
 
 - Controleer een specifiek script op syntax fouten:
 
