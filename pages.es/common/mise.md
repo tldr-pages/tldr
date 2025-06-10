@@ -34,4 +34,3 @@
 - Pasa opciones del complemento:
 
 `mise use {{nombre}}\[{{opción1}}={{opción1_valor}},{{opción2}}={{opción2_valor}}\]@{{versión}}`
-
