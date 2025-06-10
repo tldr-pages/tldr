@@ -3,9 +3,6 @@
 > Launch reproducible development environments using Docker, Kubernetes, or SSH.
 > More information: <https://devpod.sh/docs/quickstart/devpod-cli/>.
 
-- Install the DevPod CLI on Linux:
-
-`curl {{[-L|--location]}} {{[-o|--output]}} devpod https://github.com/loft-sh/devpod/releases/latest/download/devpod-linux-amd64 && sudo install {{[-m|--mode]}} 0755 devpod /usr/local/bin`
 
 - Add a provider such as Docker or Kubernetes:
 
