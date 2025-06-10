@@ -3,7 +3,6 @@
 > Launch reproducible development environments using Docker, Kubernetes, or SSH.
 > More information: <https://devpod.sh/docs/quickstart/devpod-cli/>.
 
-
 - Add a provider such as Docker or Kubernetes:
 
 `devpod provider add {{provider_name}}`
