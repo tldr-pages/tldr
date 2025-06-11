@@ -1,7 +1,7 @@
 # uvicorn
 
 > Python 的 ASGI HTTP 服务器，适用于异步项目。
-> 更多信息：<https://www.uvicorn.org/>.
+> 更多信息：<https://www.uvicorn.org/settings/>.
 
 - 运行 Python Web 应用：
 

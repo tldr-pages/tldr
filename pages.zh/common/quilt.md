@@ -1,7 +1,7 @@
 # quilt
 
 > 管理一系列的补丁。
-> 更多信息：<https://savannah.nongnu.org/projects/quilt>.
+> 更多信息：<https://manned.org/quilt>.
 
 - 从文件中导入一个已有补丁：
 

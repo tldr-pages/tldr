@@ -1,7 +1,7 @@
 # jhipster
 
 > 使用单体或微服务架构的 Web 应用程序生成器。
-> 更多信息：<https://www.jhipster.tech/>.
+> 更多信息：<https://www.jhipster.tech/creating-an-app/#command-line-options>.
 
 - 生成一个简单的全栈项目（单体或微服务）：
 
