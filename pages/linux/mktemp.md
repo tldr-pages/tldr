@@ -29,4 +29,4 @@
 
 - Print the name of a temporary file or directory without actually creating it:
 
-`mktemp {{--dry-run}}`
+`mktemp --dry-run`
