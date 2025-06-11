@@ -15,6 +15,6 @@
 
 `sync; echo 3 | sudo tee /proc/sys/vm/drop_caches`
 
-- Flushes disk writes and attempts to clear inactive memory and filesystem caches (macOS only):
+- Flush disk writes and attempts to clear inactive memory and filesystem caches (macOS only):
 
 `sync; sudo purge`
