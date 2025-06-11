@@ -2,7 +2,7 @@
 
 > An alternative to `find`.
 > Aims to be faster and easier to use than `find`.
-> More information: <https://github.com/sharkdp/fd>.
+> More information: <https://github.com/sharkdp/fd#how-to-use>.
 
 - Recursively find files matching a specific pattern in the current directory:
 
@@ -14,7 +14,7 @@
 
 - Find files with a specific extension:
 
-`fd --extension {{txt}}`
+`fd {{[-e|--extension]}} {{txt}}`
 
 - Find files in a specific directory:
 
@@ -22,8 +22,8 @@
 
 - Include ignored and hidden files in the search:
 
-`fd --hidden --no-ignore "{{string|regex}}"`
+`fd {{[-H|--hidden]}} {{[-I|--no-ignore]}} "{{string|regex}}"`
 
 - Execute a command on each search result returned:
 
-`fd "{{string|regex}}" --exec {{command}}`
+`fd "{{string|regex}}" {{[-x|--exec]}} {{command}}`
