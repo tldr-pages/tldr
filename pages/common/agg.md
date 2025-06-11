@@ -1,6 +1,6 @@
 # agg
 
-> Create a GIF from `asciinema` terminal session recording.
+> Create a GIF from an `asciinema` terminal session recording.
 > More information: <https://docs.asciinema.org/manual/agg/usage/>.
 
 - Create a GIF:
