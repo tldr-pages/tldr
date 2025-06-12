@@ -26,3 +26,7 @@
 - Create an empty temporary directory and print its absolute path:
 
 `mktemp {{[-d|--directory]}}`
+
+- Print the name of a temporary file or directory without actually creating it:
+
+`mktemp {{[-u|--dry-run]}}`
