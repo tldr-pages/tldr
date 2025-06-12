@@ -1,6 +1,7 @@
 # wait
 
 > Wait for a process to complete before proceeding.
+> See also: `ps` to view information about running processes.
 > More information: <https://manned.org/wait>.
 
 - Wait for a process to finish given its process ID (PID) and return its exit status:
