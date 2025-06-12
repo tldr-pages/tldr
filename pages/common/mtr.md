@@ -1,7 +1,7 @@
 # mtr
 
 > Matt's Traceroute: combined traceroute and ping tool.
-> More information: <https://www.bitwizard.nl/mtr/>.
+> More information: <https://manned.org/mtr>.
 
 - Traceroute to a host and continuously ping all intermediary hops:
 
@@ -9,11 +9,11 @@
 
 - Disable IP address and host name mapping:
 
-`mtr --no-dns {{example.com}}`
+`mtr {{[-n|--no-dns]}} {{example.com}}`
 
 - Generate output after pinging each hop 10 times:
 
-`mtr --report-wide {{example.com}}`
+`mtr {{[-w|--report-wide]}} {{example.com}}`
 
 - Force IP IPv4 or IPV6:
 
@@ -21,12 +21,12 @@
 
 - Wait for a given time (in seconds) before sending another packet to the same hop:
 
-`mtr --interval {{10}} {{example.com}}`
+`mtr {{[-i|--interval]}} {{10}} {{example.com}}`
 
 - Display the Autonomous System Number (ASN) for each hop:
 
-`mtr --aslookup {{example.com}}`
+`mtr {{[-z|--aslookup]}} {{example.com}}`
 
 - Display both IP address and reverse DNS name:
 
-`mtr --show-ips {{example.com}}`
+`mtr {{[-b|--show-ips]}} {{example.com}}`
