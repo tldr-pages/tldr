@@ -1,7 +1,6 @@
 # yazi
 
 > Szuper gyors terminál fájlkezelő, Rust-ban írva.
-> Efficient, user-friendly, and customizable file management experience.
 > Hatékony, könnyed, és testreszabható fájlkezelési élmény.
 > További információk: <https://github.com/sxyazi/yazi>.
 
