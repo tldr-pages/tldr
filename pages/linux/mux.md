@@ -1,7 +1,7 @@
 # mux
 
 > Intercept and multiplex streams of input events.
-> More information: <https://gitlab.com/interception/linux/tools/-/tree/master?ref_type=heads#mux>.
+> More information: <https://gitlab.com/interception/linux/tools/-/tree/master#mux>.
 
 - Create a new muxer with a specified name:
 
