@@ -21,7 +21,7 @@
 
 - Overwrite a file and remove it:
 
-`shred --remove {{path/to/file}}`
+`shred {{[-u|--remove]}} {{path/to/file}}`
 
 - Overwrite a file 100 times, add a final overwrite with zeros, remove the file after overwriting it and show verbose progress on the screen:
 
