@@ -8,6 +8,6 @@
 
 `fg`
 
-- Bring a specific job to foreground:
+- Bring a specific job to foreground (run `jobs` to find the job number):
 
-`fg %{{job_id}}`
+`fg %{{job_number}}`
