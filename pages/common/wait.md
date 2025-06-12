@@ -12,7 +12,7 @@
 
 `wait`
 
-- Wait for a job to finish:
+- Wait for a job to finish (run `jobs` to find the job number):
 
 `wait %{{job_number}}`
 
