@@ -17,7 +17,7 @@
 
 `dirs -v`
 
-- Display the directory stack without the tilde-prefix (`~`)
+- Display the directory stack without the tilde-prefix (`~`):
 
 `dirs -l`
 
