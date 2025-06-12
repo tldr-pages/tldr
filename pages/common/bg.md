@@ -8,6 +8,6 @@
 
 `bg`
 
-- Resume a specific job (use `jobs -l` to get its ID) and run it in the background:
+- Resume a specific job and run it in the background (run `jobs` to find the job number):
 
-`bg %{{job_id}}`
+`bg %{{job_number}}`
