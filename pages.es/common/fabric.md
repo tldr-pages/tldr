@@ -14,11 +14,11 @@
 
 - Ejecuta un patrón con la entrada de un archivo:
 
-`fabric {{[-p|--pattern]}} {{pattern_name}} < {{ruta/a/archivo_de_entrada}}`
+`fabric {{[-p|--pattern]}} {{nombre_del_patrón}} < {{ruta/a/archivo_de_entrada}}`
 
 - Ejecuta un patrón en una dirección URL de YouTube:
 
-`fabric {{[-y|--youtube]}} «{{https://www.youtube.com/watch?v=video_id}}» {{[-p|--pattern]}} {{nombre_del_patrón}}`
+`fabric {{[-y|--youtube]}} "{{https://www.youtube.com/watch?v=video_id}}" {{[-p|--pattern]}} {{nombre_del_patrón}}`
 
 - Encadena patrones conectando la salida de uno al otro:
 
@@ -30,8 +30,8 @@
 
 - Ejecuta un patrón y guarda la salida en un archivo:
 
-`fabric {{[-p|--pattern]}} {{nombre_patrón}} {{[-o|--output]}} {{ruta/al/archivo_de_salida}}`
+`fabric {{[-p|--pattern]}} {{nombre_del_patrón}} {{[-o|--output]}} {{ruta/al/archivo_de_salida}}`
 
 - Ejecuta un patrón con las variables especificadas:
 
-`fabric {{[-p|--pattern]}} {{nombre_patrón}} {{[-v|--variable]}} "{{nombre_variable}}:{{valor}}"`
+`fabric {{[-p|--pattern]}} {{nombre_del_patrón}} {{[-v|--variable]}} "{{nombre_variable}}:{{valor}}"`
