@@ -8,7 +8,7 @@
 
 `disown`
 
-- Disown a specific job:
+- Disown a specific job (run `jobs` to find the job number):
 
 `disown %{{job_number}}`
 
