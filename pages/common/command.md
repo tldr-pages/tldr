@@ -7,7 +7,7 @@
 
 `command {{ls}}`
 
-- Find and execute a command using a default PATH that guarantees to find all standard utilities:
+- Find and execute a command using a default $PATH (`/bin:/usr/bin:/sbin:/usr/sbin:/etc:/usr/etc`) that guarantees to find all standard utilities:
 
 `command -p {{command_name}}`
 
