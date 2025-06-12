@@ -25,6 +25,10 @@
 
 `dirs +{{n}}`
 
+- Display only the `n`th entry in the directory stack from the last, starting at 0 (bash only):
+
+`dirs -{{n}}`
+
 - Clear the directory stack:
 
 `dirs -c`
