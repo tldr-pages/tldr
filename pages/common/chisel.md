@@ -10,7 +10,7 @@
 
 - Run a Chisel server listening to a specific port:
 
-`chisel server -p {{server_port}}`
+`chisel server {{[-p|--port]}} {{server_port}}`
 
 - Run a chisel server that accepts authenticated connections using username and password:
 
@@ -30,7 +30,7 @@
 
 - Initialize a Chisel server in reverse mode on a specific port, also enabling SOCKS5 proxy (on port 1080) functionality:
 
-`chisel server -p {{server_port}} --reverse --socks5`
+`chisel server {{[-p|--port]}} {{server_port}} --reverse --socks5`
 
 - Connect to a Chisel server at specific IP and port, creating a reverse tunnel mapped to a local SOCKS proxy:
 
