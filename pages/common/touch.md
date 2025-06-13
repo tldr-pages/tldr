@@ -21,4 +21,4 @@
 
 - Set the timestamp by parsing a string:
 
-`touch {{[-d|--date]}} "{{last year|5 hours|next thursday|nov 14|...}} {{path/to/file}}`
+`touch {{[-d|--date]}} "{{last year|5 hours|next thursday|nov 14|...}}" {{path/to/file}}`

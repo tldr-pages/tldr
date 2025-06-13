@@ -21,7 +21,7 @@
 
 - Overschrijf een bestand en verwijder het:
 
-`shred --remove {{pad/naar/bestand}}`
+`shred {{[-u|--remove]}} {{pad/naar/bestand}}`
 
 - Overschrijf een bestand 100 keer, voeg een laatste overschrijving met nullen toe, verwijder het bestand na overschrijven en toon verbose voortgang op het scherm:
 
