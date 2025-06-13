@@ -11,6 +11,6 @@
 
 `sudo aa-remove-unknown`
 
-- Display help information:
+- Display help:
 
 `aa-remove-unknown {{[-h|--help]}}`

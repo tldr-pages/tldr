@@ -7,6 +7,6 @@
 
 `sudo aa-teardown`
 
-- Display help information:
+- Display help:
 
 `aa-teardown {{[-h|--help]}}`

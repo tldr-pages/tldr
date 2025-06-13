@@ -15,6 +15,6 @@
 
 `sudo aa-genprof {{[-f |--file]}} {{/path/to/logfile}} {{program_path}}`
 
-- Display help information:
+- Display help:
 
 `aa-genprof {{[-h|--help]}}`
