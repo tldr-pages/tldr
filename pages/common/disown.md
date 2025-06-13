@@ -12,10 +12,10 @@
 
 `disown %{{job_number}}`
 
-- Disown all jobs (bash only):
+- Disown all jobs (Bash only):
 
 `disown -a`
 
-- Keep job (do not disown it), but mark it so that no future SIGHUP is received on shell exit (bash only):
+- Keep job (do not disown it), but mark it so that no future SIGHUP is received on shell exit (Bash only):
 
 `disown -h %{{job_number}}`
