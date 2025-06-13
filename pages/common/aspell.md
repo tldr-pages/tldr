@@ -17,8 +17,8 @@
 
 - Run `aspell` with a different language (takes two-letter ISO 639 language code):
 
-`aspell --lang={{cs}}`
+`aspell --lang {{cs}}`
 
 - List misspelled words from `stdin` and ignore words from personal word list:
 
-`cat {{path/to/file}} | aspell --personal={{personal-word-list.pws}} list`
+`cat {{path/to/file}} | aspell --personal {{personal-word-list.pws}} list`
