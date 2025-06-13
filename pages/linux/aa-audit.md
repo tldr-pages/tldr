@@ -9,7 +9,7 @@
 
 - Set multiple profiles to audit mode:
 
-`sudo aa-audit {{profile1}} {{profile2}}`
+`sudo aa-audit {{profile1 profile2 ...}}`
 
 - Set a profile to audit mode from a specific directory:
 
