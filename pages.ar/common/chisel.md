@@ -10,7 +10,7 @@
 
 - تشغيل خادم Chisel يستمع إلى منفذ محدد:
 
-`chisel server -p {{server_port}}`
+`chisel server {{[-p|--port]}} {{server_port}}`
 
 - تشغيل خادم Chisel يقبل الاتصالات المصادق عليها باستخدام اسم المستخدم وكلمة المرور:
 
@@ -30,7 +30,7 @@
 
 - تهيئة خادم Chisel في الوضع العكسي على منفذ محدد، مع تمكين وظيفة وكيل SOCKS5 (على المنفذ 1080):
 
-`chisel server -p {{server_port}} --reverse --socks5`
+`chisel server {{[-p|--port]}} {{server_port}} --reverse --socks5`
 
 - الاتصال بخادم Chisel على عنوان IP ومنفذ محددين، وإنشاء نفق عكسي يتم تعيينه إلى وكيل SOCKS محلي:
 
