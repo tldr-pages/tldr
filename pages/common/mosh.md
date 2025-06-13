@@ -2,7 +2,7 @@
 
 > Mobile Shell (`mosh`) is a robust and responsive replacement for SSH.
 > `mosh` persists connections to remote servers while roaming between networks.
-> More information: <https://mosh.org>.
+> More information: <https://manned.org/mosh>.
 
 - Connect to a remote server:
 
