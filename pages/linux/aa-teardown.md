@@ -9,4 +9,4 @@
 
 - Display help information:
 
-`aa-teardown --help`
+`aa-teardown {{[-h|--help]}}`

@@ -1,16 +1,16 @@
 # aa-mergeprof
 
-> Merge AppArmor security profiles from multiple sources.
+> Merge AppArmor security profile files into the profile directory.
 > More information: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-mergeprof.8>.
 
-- Merge profiles from a directory into the current profile:
+- Merge one or more profile files into the default profile directory:
 
-`sudo aa-mergeprof {{/path/to/profiles}}`
+`sudo aa-mergeprof {{file1}} {{file2}}`
 
-- Merge profiles and overwrite existing rules:
+- Merge profile files into a specific directory:
 
-`sudo aa-mergeprof --force {{/path/to/profiles}}`
+`sudo aa-mergeprof {{[-d|--dir]}} {{/path/to/profiles}} {{file1}} {{file2}}`
 
-- Display help information:
+- Display help:
 
-`aa-mergeprof --help`
+`aa-mergeprof {{[-h|--help]}}`

@@ -11,10 +11,18 @@
 
 `sudo aa-cleanprof {{profile1}} {{profile2}}`
 
-- Run in verbose mode to see detailed output:
+- Specify the directory containing profiles:
 
-`sudo aa-cleanprof --verbose {{profile_name}}`
+`sudo aa-cleanprof {{[-d|--dir]}} {{/path/to/profiles}} {{profile_name}}`
 
-- Display help information:
+- Run silently without prompts:
 
-`aa-cleanprof --help`
+`sudo aa-cleanprof {{[-s|--silent]}} {{profile_name}}`
+
+- Prevent profile reload after cleaning:
+
+`sudo aa-cleanprof --no-reload {{profile_name}}`
+
+- Display help:
+
+`aa-cleanprof {{[-h|--help]}}`

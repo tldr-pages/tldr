@@ -13,4 +13,4 @@
 
 - Display help information:
 
-`aa-remove-unknown --help`
+`aa-remove-unknown {{[-h|--help]}}`

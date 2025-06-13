@@ -7,10 +7,14 @@
 
 `sudo aa-genprof {{program_path}}`
 
-- Update an existing profile interactively:
+- Specify a custom directory for profiles:
 
-`sudo aa-genprof --update {{profile_name}}`
+`sudo aa-genprof {{[-d|--dir]}} {{/path/to/profiles}} {{program_path}}`
+
+- Specify a custom logfile for profiling:
+
+`sudo aa-genprof {{[-f |--file]}} {{/path/to/logfile}} {{program_path}}`
 
 - Display help information:
 
-`aa-genprof --help`
+`aa-genprof {{[-h|--help]}}`

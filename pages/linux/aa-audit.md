@@ -13,12 +13,20 @@
 
 - Set a profile to audit mode from a specific directory:
 
-`sudo aa-audit --dir={{/path/to/profiles}} {{profile_name}}`
+`sudo aa-audit {{[-d|--dir]}} {{/path/to/profiles}} {{profile_name}}`
 
 - Force audit mode even if already applied:
 
 `sudo aa-audit --force {{profile_name}}`
 
+- Set a profile to audit mode without reloading it:
+
+`sudo aa-audit --no-reload {{profile_name}}`
+
+- Remove audit mode for a profile:
+
+`sudo aa-audit {{[-r|--remove]}} {{profile_name}}`
+
 - Display help:
 
-`aa-audit --help`
+`aa-audit {{[-h |--help]}}`

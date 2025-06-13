@@ -1,20 +1,24 @@
 # aa-logprof
 
-> Log profile learning tool for AppArmor to update profiles interactively based on audit logs.
+> Interactively update AppArmor security profiles based on logged violations.
 > More information: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-logprof.8>.
 
-- Run aa-logprof to update profiles interactively:
+- Interactively review and update profiles based on system logs:
 
 `sudo aa-logprof`
 
-- Specify a particular profile to update:
+- Use a specific directory for AppArmor profiles:
 
-`sudo aa-logprof {{profile_name}}`
+`sudo aa-logprof {{[-d|--dir]}} {{/path/to/profiles}}`
 
-- Run in verbose mode:
+- Use a specific log file instead of the default:
 
-`sudo aa-logprof --verbose`
+`sudo aa-logprof {{[-f|--file]}} {{/path/to/logfile}}`
 
-- Display help information:
+- Ignore all log entries before the specified mark:
 
-`aa-logprof --help`
+`sudo aa-logprof {{[-m|--logmark]}} "{{log_marker_text}}"`
+
+- Display help:
+
+`aa-logprof {{[-h|--help]}}`
