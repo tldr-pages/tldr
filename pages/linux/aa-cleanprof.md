@@ -9,7 +9,7 @@
 
 - Clean multiple profiles at once:
 
-`sudo aa-cleanprof {{profile1}} {{profile2}}`
+`sudo aa-cleanprof {{profile1 profile2 ...}}`
 
 - Specify the directory containing profiles:
 
