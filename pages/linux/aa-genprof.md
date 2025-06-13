@@ -13,7 +13,7 @@
 
 - Specify a custom logfile for profiling:
 
-`sudo aa-genprof {{[-f |--file]}} {{/path/to/logfile}} {{program_path}}`
+`sudo aa-genprof {{[-f|--file]}} {{/path/to/logfile}} {{program_path}}`
 
 - Display help:
 
