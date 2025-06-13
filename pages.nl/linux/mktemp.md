@@ -26,3 +26,7 @@
 - Maak een lege tijdelijke map aan en toon het absolute pad:
 
 `mktemp {{[-d|--directory]}}`
+
+- Print de naam van een tijdelijk bestand of map zonder het te creëren:
+
+`mktemp {{[-u|--dry-run]}}`
