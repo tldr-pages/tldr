@@ -14,7 +14,7 @@
 
 - Search for lines matching a pattern, printing only the matched text and not the rest of the line:
 
-`ack {{[-o|--output='$&']}} "{{search_pattern}}"`
+`ack {{[-o|--output '$&']}} "{{search_pattern}}"`
 
 - Limit search to files of a specific type:
 
