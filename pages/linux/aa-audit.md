@@ -29,4 +29,4 @@
 
 - Display help:
 
-`aa-audit {{[-h |--help]}}`
+`aa-audit {{[-h|--help]}}`
