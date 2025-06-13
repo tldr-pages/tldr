@@ -10,3 +10,11 @@
 - Schrijf alle hangende schrijfoperaties van een enkel bestand naar de schijf:
 
 `sync {{pad/naar/bestand}}`
+
+- Schrijf alle schrijfoperaties en verwijder caches van het bestandssysteem (alleen voor Linux):
+
+`sync; echo 3 | sudo tee /proc/sys/vm/drop_caches`
+
+- Voer schijf schrijfoperaties uit en probeer inactief geheugen en caches van het bestandssysteem te wissen (alleen voor MacOS):
+
+`sync; sudo purge`
