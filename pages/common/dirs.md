@@ -21,11 +21,11 @@
 
 `dirs -l`
 
-- Display only the `n`th entry in the directory stack, starting at 0 (bash only):
+- Display only the `n`th entry in the directory stack, starting at 0 (Bash only):
 
 `dirs +{{n}}`
 
-- Display only the `n`th entry in the directory stack from the last, starting at 0 (bash only):
+- Display only the `n`th entry in the directory stack from the last, starting at 0 (Bash only):
 
 `dirs -{{n}}`
 
