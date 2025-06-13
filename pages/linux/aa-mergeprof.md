@@ -5,7 +5,7 @@
 
 - Merge one or more profile files into the default profile directory:
 
-`sudo aa-mergeprof {{file1}} {{file2}}`
+`sudo aa-mergeprof {{file1 file2 ...}}`
 
 - Merge profile files into a specific directory:
 
