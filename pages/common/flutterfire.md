@@ -1,7 +1,7 @@
 # flutterfire
 
 > Configure a Firebase project for your Flutter app.
-> Note: requires Firebase CLI and FlutterFire CLI to be installed.
+> Note: Requires Firebase CLI and FlutterFire CLI to be installed.
 > More information: <https://firebase.flutter.dev/docs/cli/>.
 
 - Initialize and configure Firebase for your current Flutter app:
@@ -10,8 +10,8 @@
 
 - Specify platforms (iOS, Android, web) to support:
 
-`flutterfire configure --platforms={{ios,android}}`
+`flutterfire configure --platforms {{ios,android}}`
 
 - Use a specific Firebase project:
 
-`flutterfire configure --project={{project_id}}`
+`flutterfire configure --project {{project_id}}`
