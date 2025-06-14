@@ -1,6 +1,7 @@
 # echo
 
 > Print given arguments.
+> See also: `printf`.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Print a text message. Note: Quotes are optional:
