@@ -1,6 +1,6 @@
 # k3s
 
-> Install and manage lightweight Kubernetes clusters using the k3s CLI.
+> Install and manage lightweight Kubernetes clusters.
 > More information: <https://docs.k3s.io/cli>.
 
 - Run the embedded `kubectl` command:
