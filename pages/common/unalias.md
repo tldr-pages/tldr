@@ -1,6 +1,7 @@
 # unalias
 
 > Remove aliases.
+> See also: `alias`.
 > More information: <https://manned.org/unalias>.
 
 - Remove an alias:
