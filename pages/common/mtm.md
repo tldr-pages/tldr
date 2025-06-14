@@ -1,7 +1,6 @@
 # mtm
 
-> Terminal multiplexer.
-> Suckless terminal multiplexer with no bells or whistles.
+> Minimal terminal multiplexer.
 > See also: `tmux`, `screen`.
 > More information: <https://github.com/deadpixi/mtm>.
 
