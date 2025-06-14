@@ -10,7 +10,7 @@
 
 - Specify platforms (iOS, Android, web) to support:
 
-`flutterfire configure --platforms {{ios,android}}`
+`flutterfire configure --platforms {{ios,android,...}}`
 
 - Use a specific Firebase project:
 
