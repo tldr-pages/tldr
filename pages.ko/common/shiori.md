@@ -1,7 +1,7 @@
 # shiori
 
 > Go로 제작된 간단한 북마크 관리자.
-> 더 많은 정보: <https://github.com/go-shiori/shiori>.
+> 더 많은 정보: <https://github.com/go-shiori/shiori/blob/master/docs/Usage.md>.
 
 - HTML 넷스케이프 북마크 형식 파일에서 북마크 가져오기:
 

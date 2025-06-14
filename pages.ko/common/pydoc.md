@@ -1,7 +1,7 @@
 # pydoc
 
 > 오프라인 Python 문서 보기.
-> 더 많은 정보: <https://docs.python.org/3/library/pydoc.html>.
+> 더 많은 정보: <https://docs.python.org/library/pydoc.html>.
 
 - 주제(파이썬 키워드, 주제, 함수, 모듈, 패키지 등)에 대한 문서 출력:
 

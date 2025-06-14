@@ -1,7 +1,7 @@
 # sequelize
 
 > Postgres, MySQL, MariaDB, SQLite 및 Microsoft SQL Server를 위한 Promise 기반 Node.js ORM.
-> 더 많은 정보: <https://sequelize.org/>.
+> 더 많은 정보: <https://sequelize.org/docs/v7/cli/>.
 
 - 3개의 필드와 마이그레이션 파일로 모델 생성:
 
