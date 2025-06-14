@@ -20,6 +20,10 @@
 
 `dropdb --password {{dbname}}}}`
 
+- Suppress a password prompt before connecting to the database:
+
+`dropdb --no-password {{dbname}}}}`
+
 - Specify the server host name:
 
 `dropdb --host={{host}} {{dbname}}`
