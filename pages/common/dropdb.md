@@ -24,6 +24,10 @@
 
 `dropdb --host={{host}} {{dbname}}`
 
+- Specify the server port:
+
+`dropdb --port={{port}} {{dbname}}`
+
 - Attempt to terminate existing connections before destroying the database:
 
 `dropdb --force {{dbname}}`
