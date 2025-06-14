@@ -2,7 +2,7 @@
 
 > F-Droid 빌드 도구.
 > F-Droid는 Android 플랫폼용 FOSS (무료 및 오픈 소스 소프트웨어) 애플리케이션의 설치 가능한 카탈로그.
-> 더 많은 정보: <https://f-droid.org/>.
+> 더 많은 정보: <https://f-droid.org/en/docs/Building_Applications/>.
 
 - 특정 앱 구축:
 

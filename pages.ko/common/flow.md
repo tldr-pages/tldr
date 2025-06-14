@@ -1,7 +1,7 @@
 # flow
 
 > JavaScript용 정적 유형 검사기.
-> 더 많은 정보: <https://flow.org>.
+> 더 많은 정보: <https://flow.org/en/docs/cli/>.
 
 - 흐름 검사를 실행:
 

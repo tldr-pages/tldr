@@ -2,7 +2,7 @@
 
 > Glasgow Haskell 컴파일러.
 > 하스켈 소스 파일을 컴파일하고 링크.
-> 더 많은 정보: <https://www.haskell.org/ghc>.
+> 더 많은 정보: <https://downloads.haskell.org/ghc/latest/docs/users_guide/usage.html>.
 
 - 현재 디렉터리에서 모든 모듈을 찾아 컴파일:
 
