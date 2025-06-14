@@ -1,7 +1,7 @@
 # mg
 
 > 작고 빠르며 이식성이 뛰어난 `emacs` 기반 텍스트 편집기.
-> 더 많은 정보: <https://github.com/hboetes/mg>.
+> 더 많은 정보: <https://manned.org/mg>.
 
 - 파일을 열어 편집:
 
