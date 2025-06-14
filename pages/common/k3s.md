@@ -3,18 +3,6 @@
 > Install and manage lightweight Kubernetes clusters using the k3s CLI.
 > More information: <https://docs.k3s.io/cli>.
 
-- Install a single-node K3s server with default settings:
-
-`curl {{[-sfL|--silent --fail --location]}} https://get.k3s.io | sh -s - server`
-
-- Install a K3s server without deploying a local agent:
-
-`curl {{[-sfL|--silent --fail --location]}} https://get.k3s.io | sh -s - server --disable {{agent}}`
-
-- Install a K3s agent that connects to a server:
-
-`curl {{[-sfL|--silent --fail --location]}} https://get.k3s.io | sh -s - agent {{[-s|--server]}} {{https://myserver:6443}} {{[-t|--token]}} {{mytoken}}`
-
 - Run the embedded `kubectl` command:
 
 `k3s kubectl get nodes`
