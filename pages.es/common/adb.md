@@ -22,11 +22,11 @@
 
 - Copia un archivo/directorio del dispositivo de destino:
 
-`adb pull {{ruta/a/archivo_o_directorio_del_dispositivo}} {{ruta/al/directorio_de_destino_local}}`
+`adb pull {{ruta/al/archivo_o_directorio_del_dispositivo}} {{ruta/al/directorio_de_destino_local}}`
 
 - Copia un archivo/directorio al dispositivo de destino:
 
-`adb push {{ruta/a/archivo_o_directorio_local}} {{ruta/al/dirección_o_destino_del_dispositivo}}`
+`adb push {{ruta/al/archivo_o_directorio_local}} {{ruta/al/dirección_o_destino_del_dispositivo}}`
 
 - Lista todos los dispositivos conectados:
 
