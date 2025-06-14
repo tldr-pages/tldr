@@ -1,4 +1,4 @@
-# json.tool
+# python -m json.tool
 
 > Validate and pretty-print JSON data.
 > Part of Python's standard library.
