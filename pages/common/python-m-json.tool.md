@@ -2,7 +2,7 @@
 
 > Validate and pretty-print JSON data.
 > Part of Python's standard library.
-> More information: <https://docs.python.org/3/library/json.html>.
+> More information: <https://docs.python.org/3/library/json.html#module-json.tool>.
 
 - Pretty-print JSON from a file:
 
