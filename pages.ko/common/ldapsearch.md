@@ -5,7 +5,7 @@
 
 - 주어진 그룹의 멤버인 모든 항목을 LDAP 서버에서 쿼리하고 객체의 displayName 값을 반환:
 
-`ldapsearch {{[-D|--bindDN]}} '{{관리자_DN}}' {{[-w|--bindPassword]}} '{{비밀번호}}' {{[{{[-h|--hostname]}}|--hostname]}} {{ldap_호스트}} {{[-b|--baseDN]}} {{기본_ou}} '{{memberOf=group1}}' displayName`
+`ldapsearch {{[-D|--bindDN]}} '{{관리자_DN}}' {{[-w|--bindPassword]}} '{{비밀번호}}' {{[-h|--hostname]}} {{ldap_호스트}} {{[-b|--baseDN]}} {{기본_ou}} '{{memberOf=group1}}' displayName`
 
 - 줄바꿈 없는 비밀번호 파일을 사용하여 주어진 그룹의 멤버인 모든 항목을 LDAP 서버에서 쿼리하고 객체의 displayName 값을 반환:
 
