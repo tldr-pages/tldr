@@ -6,3 +6,7 @@
 - Inicializa una base de datos:
 
 `sudo mariadb-install-db --user {{usuario}} --basedir {{/usr}} --datadir {{var/lib/mysql}}`
+
+- Muestra la ayuda:
+
+`mariadb-install-db --help`
