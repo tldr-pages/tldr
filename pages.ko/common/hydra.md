@@ -2,7 +2,7 @@
 
 > 온라인 비밀번호 추측 도구.
 > 지원되는 프로토콜에는 FTP, HTTP(S), SMTP, SNMP, XMPP, SSH 등이 포함됨.
-> 더 많은 정보: <https://github.com/vanhauser-thc/thc-hydra>.
+> 더 많은 정보: <https://manned.org/hydra>.
 
 - Hydra의 마법사를 시작:
 
