@@ -1,7 +1,7 @@
 # jhipster
 
 > 모놀리식 또는 마이크로서비스 아키텍처를 사용하는 웹 애플리케이션 생성기.
-> 더 많은 정보: <https://www.jhipster.tech/>.
+> 더 많은 정보: <https://www.jhipster.tech/creating-an-app/#command-line-options>.
 
 - 간단한 풀스택 프로젝트 생성 (모놀리식 또는 마이크로서비스):
 

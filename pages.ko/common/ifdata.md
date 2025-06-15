@@ -1,7 +1,7 @@
 # ifdata
 
 > 네트워크 인터페이스에 대한 정보를 표시.
-> 더 많은 정보: <https://joeyh.name/code/moreutils/>.
+> 더 많은 정보: <https://manned.org/ifdata>.
 
 - 지정된 인터페이스의 전체 구성을 표시:
 

@@ -1,7 +1,7 @@
 # medusa
 
 > 다양한 프로토콜에 대한 모듈식 병렬 로그인 브루트포싱 도구.
-> 더 많은 정보: <https://jmk-foofus.github.io/medusa/medusa.html>.
+> 더 많은 정보: <https://manned.org/medusa>.
 
 - 설치된 모든 모듈 나열:
 
