@@ -1,7 +1,7 @@
 # rsstail
 
 > RSS 피드를 위한 `tail`.
-> 더 많은 정보: <https://github.com/gvalkov/rsstail.py>.
+> 더 많은 정보: <https://manned.org/rsstail>.
 
 - 주어진 URL의 피드를 표시하고 새 항목이 아래에 나타날 때까지 대기:
 
