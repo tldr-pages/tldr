@@ -8,7 +8,7 @@
 
 `evil-winrm {{[-i|--ip]}} {{ip}} {{[-u|--user]}} {{user}} {{[-p|--password]}} {{password}}`
 
-- Connect to a host, passing the password hash:
+- Connect to a host using pass-the-hash authentication instead of a password:
 
 `evil-winrm {{[-i|--ip]}} {{ip}} {{[-u|--user]}} {{user}} {{[-H|--hash]}} {{nt_hash}}`
 
