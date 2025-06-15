@@ -6,11 +6,11 @@
 
 - Enumerate users with Kerberos pre-authentication disabled (default anonymous enumeration):
 
-`GetNPUsers.py {{domain}}/ -usersfile {{path/to/userslist}} -dc-ip {{domain_controller_ip}}`
+`GetNPUsers.py {{domain}}/ -usersfile {{path/to/userslist}} -dc-ip {{domain_controller_ip}} -no-pass`
 
 - Perform AS-REP roasting and dump crackable hashes for offline cracking:
 
-`GetNPUsers.py {{domain}}/ -usersfile {{path/to/userslist}} -dc-ip {{domain_controller_ip}} -request`
+`GetNPUsers.py {{domain}}/ -usersfile {{path/to/userslist}} -dc-ip {{domain_controller_ip}} -no-pass -request`
 
 - Authenticate with valid credentials (if anonymous binding is disabled):
 
