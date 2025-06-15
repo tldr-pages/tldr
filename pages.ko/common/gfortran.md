@@ -1,7 +1,7 @@
 # gfortran
 
 > Fortran 소스 파일을 전처리하고 컴파일한 다음 함께 어셈블하고 링크.
-> 더 많은 정보: <https://gcc.gnu.org/wiki/GFortran>.
+> 더 많은 정보: <https://gcc.gnu.org/onlinedocs/gfortran/Invoking-GNU-Fortran.html>.
 
 - 여러 소스 파일을 실행 파일로 컴파일:
 
