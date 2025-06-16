@@ -1,6 +1,6 @@
 # sed
 
-> Stream editor for filtering and transforming text.
+> GNU stream editor for filtering and transforming text.
 > See also: `awk`, `ed`.
 > More information: <https://www.gnu.org/software/sed/manual/sed.html>.
 
