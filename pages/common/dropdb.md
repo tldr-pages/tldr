@@ -10,7 +10,7 @@
 
 - Request a verification prompt before any destructive actions:
 
-`dropdb --interactive {{database_name}}`
+`dropdb {{[-i|--interactive]}} {{database_name}}`
 
 - Connect with a specific username and destroy a database:
 
