@@ -1,7 +1,7 @@
 # dropdb
 
 > Remove a PostgreSQL database.
-> This is a simple wrapper around the SQL command `DROP DATABASE`.
+> A simple wrapper around the SQL command `DROP DATABASE`.
 > More information: <https://www.postgresql.org/docs/current/app-dropdb.html>.
 
 - Destroy a database:
