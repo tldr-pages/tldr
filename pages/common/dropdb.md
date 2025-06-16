@@ -26,7 +26,7 @@
 
 - Specify the server host name:
 
-`dropdb --host={{host}} {{dbname}}`
+`dropdb --host {{host}} {{database_name}}`
 
 - Specify the server port:
 
