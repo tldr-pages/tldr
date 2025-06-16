@@ -1,7 +1,7 @@
 # grumphp
 
 > 소스 코드 품질 검사를 가능하게 하는 PHP Composer 플러그인.
-> 더 많은 정보: <https://github.com/phpro/grumphp>.
+> 더 많은 정보: <https://github.com/phpro/grumphp#commands>.
 
 - Git 훅을 등록:
 

@@ -1,7 +1,7 @@
 # quilt
 
 > 일련의 패치를 관리.
-> 더 많은 정보: <https://savannah.nongnu.org/projects/quilt>.
+> 더 많은 정보: <https://manned.org/quilt>.
 
 - 기존 패치를 파일에서 가져오기:
 

@@ -2,7 +2,7 @@
 
 > 사람을 위한 DNS 클라이언트.
 > Golang으로 작성됨.
-> 더 많은 정보: <https://doggo.mrkaran.dev/docs/guide/reference/>.
+> 더 많은 정보: <https://github.com/mr-karan/doggo/blob/main/docs/src/content/docs/guide/reference.md>.
 
 - 간단한 DNS 조회를 수행:
 

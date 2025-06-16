@@ -1,7 +1,7 @@
 # gst-launch-1.0
 
 > GStreamer 파이프라인 빌드 및 실행.
-> 더 많은 정보: <https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html?gi-language=c>.
+> 더 많은 정보: <https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html>.
 
 - 창에서 테스트 비디오 재생:
 

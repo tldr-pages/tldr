@@ -1,7 +1,7 @@
 # vipe
 
 > UNIX 파이프라인 중간에서 텍스트 편집기를 실행합니다.
-> 더 많은 정보: <https://joeyh.name/code/moreutils/>.
+> 더 많은 정보: <https://manned.org/vipe>.
 
 - `command1`의 출력을 편집한 후 `command2`로 파이핑:
 

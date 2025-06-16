@@ -1,7 +1,7 @@
 # snyk
 
 > 코드의 취약점을 찾아 위험을 해결합니다.
-> 더 많은 정보: <https://snyk.io>.
+> 더 많은 정보: <https://docs.snyk.io/snyk-cli/commands>.
 
 - Snyk 계정에 로그인:
 
