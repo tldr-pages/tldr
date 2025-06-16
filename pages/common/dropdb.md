@@ -14,24 +14,24 @@
 
 - Connect with a specific username and destroy a database:
 
-`dropdb --username {{username}} {{dbname}}`
+`dropdb {{[-U|--username]}} {{username}} {{dbname}}`
 
 - Force a password prompt before connecting to the database:
 
-`dropdb --password {{dbname}}}}`
+`dropdb {{[-W|--password]}} {{dbname}}}}`
 
 - Suppress a password prompt before connecting to the database:
 
-`dropdb --no-password {{database_name}}`
+`dropdb {{[-w|--no-password]}} {{database_name}}`
 
 - Specify the server host name:
 
-`dropdb --host {{host}} {{database_name}}`
+`dropdb {{[-h|--host]}} {{host}} {{database_name}}`
 
 - Specify the server port:
 
-`dropdb --port {{port}} {{database_name}}`
+`dropdb {{[-p|--port]}} {{port}} {{database_name}}`
 
 - Attempt to terminate existing connections before destroying the database:
 
-`dropdb --force {{database_name}}`
+`dropdb {{[-f|--force]}} {{database_name}}`
