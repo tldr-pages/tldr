@@ -22,7 +22,7 @@
 
 - Suppress a password prompt before connecting to the database:
 
-`dropdb --no-password {{dbname}}}}`
+`dropdb --no-password {{database_name}}`
 
 - Specify the server host name:
 
