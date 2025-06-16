@@ -34,4 +34,4 @@
 
 - Attempt to terminate existing connections before destroying the database:
 
-`dropdb --force {{dbname}}`
+`dropdb --force {{database_name}}`
