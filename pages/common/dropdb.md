@@ -30,7 +30,7 @@
 
 - Specify the server port:
 
-`dropdb --port={{port}} {{dbname}}`
+`dropdb --port {{port}} {{database_name}}`
 
 - Attempt to terminate existing connections before destroying the database:
 
