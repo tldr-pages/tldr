@@ -27,3 +27,7 @@
 - Parallel runs of up to `max-procs` processes at a time; the default is 1. If `max-procs` is 0, xargs will run as many processes as possible at a time:
 
 `{{arguments_source}} | xargs {{[-P|--max-procs]}} {{max-procs}} {{command}}`
+
+- Prompt user for confirmation before executing command (confirm with `y` or `Y`):
+
+`{{arguments_source}} | xargs {{[-p|--interactive]}} {{command}}`
