@@ -14,7 +14,7 @@
 
 - Connect with a specific username and destroy a database:
 
-`dropdb --username={{username}} {{dbname}}`
+`dropdb --username {{username}} {{dbname}}`
 
 - Force a password prompt before connecting to the database:
 
