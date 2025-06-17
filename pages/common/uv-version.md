@@ -26,4 +26,3 @@
 - Display version in JSON format:
 
 `uv version --output-format json`
-
