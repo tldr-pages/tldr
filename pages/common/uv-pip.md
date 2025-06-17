@@ -1,6 +1,5 @@
 # uv pip
 
-> Manage Python packages with a pip-compatible interface.
 > Provides pip-like commands for installing, uninstalling, and managing packages.
 > More information: <https://docs.astral.sh/uv/reference/cli/#uv-pip>.
 
