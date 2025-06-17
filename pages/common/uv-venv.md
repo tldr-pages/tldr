@@ -1,6 +1,5 @@
 # uv venv
 
-> Create a virtual environment.
 > Creates an isolated Python environment for installing packages.
 > More information: <https://docs.astral.sh/uv/reference/cli/#uv-venv>.
 
