@@ -28,7 +28,7 @@
 
 `uv pip list`
 
-- Show information about an installed package:
+- Display information about an installed package:
 
 `uv pip show {{package}}`
 
