@@ -4,7 +4,7 @@
 > See also: `awk`, `ed`.
 > More information: <https://www.gnu.org/software/sed/manual/sed.html>.
 
-- Replace `apple` with `mango` using basic regex on all lines, print to `stdout`:
+- Replace `apple` with `mango` on all lines using basic regex, print to `stdout`:
 
 `{{command}} | sed 's/apple/mango/g'`
 
