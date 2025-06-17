@@ -1,7 +1,6 @@
 # uv sync
 
 > Update the project's environment to match the lockfile.
-> Installs, upgrades, or removes packages to match exactly what's in `uv.lock`.
 > More information: <https://docs.astral.sh/uv/reference/cli/#uv-sync>.
 
 - Sync the project environment with the lockfile:
