@@ -9,7 +9,7 @@
 
 - Run a Python module:
 
-`uv run -m {{module_name}}`
+`uv run {{[-m|--module]}} {{module_name}}`
 
 - Run a command with additional packages installed temporarily:
 
