@@ -1,6 +1,6 @@
 # xdg-user-dir
 
-> Retrieve XDG user directory locations
+> Retrieve XDG user directory locations.
 > More information: <https://manned.org/xdg-user-dir>.
 
 - Display the home directory for the current user:
