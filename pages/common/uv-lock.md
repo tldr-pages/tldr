@@ -1,7 +1,6 @@
 # uv lock
 
 > Update the project's lockfile.
-> Creates or updates `uv.lock` with resolved dependency versions for reproducible installs.
 > More information: <https://docs.astral.sh/uv/reference/cli/#uv-lock>.
 
 - Create or update the project's lockfile:
