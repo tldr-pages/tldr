@@ -1,7 +1,6 @@
 # uv remove
 
-> Remove dependencies from the project.
-> Updates the `pyproject.toml` file and re-locks the project dependencies.
+> Removes dependencies from the project's `pyproject.toml` file.
 > More information: <https://docs.astral.sh/uv/reference/cli/#uv-remove>.
 
 - Remove a dependency from the project:
