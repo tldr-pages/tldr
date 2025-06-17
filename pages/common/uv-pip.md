@@ -10,7 +10,7 @@
 
 - Install packages from a requirements file:
 
-`uv pip install -r {{requirements.txt}}`
+`uv pip install {{[-r|--requirements]}} {{requirements.txt}}`
 
 - Install a package with a specific version:
 
