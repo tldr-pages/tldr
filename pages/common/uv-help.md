@@ -1,7 +1,6 @@
 # uv help
 
 > Display detailed documentation for uv commands.
-> Provides comprehensive help information for any uv command or subcommand.
 > More information: <https://docs.astral.sh/uv/reference/cli/#uv-help>.
 
 - Display general help for uv:
