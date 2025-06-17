@@ -8,7 +8,7 @@
 
 `{{command}} | sed 's/apple/mango/g'`
 
-- Replace `apple` with `APPLE` using extended regex on all lines, print to `stdout`:
+- Replace `apple` with `APPLE` on all lines using extended regex, print to `stdout`:
 
 `{{command}} | sed {{[-E|--regexp-extended]}} 's/(apple)/\U\1/g'`
 
