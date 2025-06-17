@@ -1,6 +1,6 @@
 # komac
 
-> Create WinGet manifests for the winget-pkgs repository.
+> Create WinGet manifests for the `winget-pkgs` repository.
 > More information: <https://github.com/russellbanks/Komac>.
 
 - Create a new package from scratch:
