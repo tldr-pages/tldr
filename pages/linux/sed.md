@@ -20,7 +20,7 @@
 
 `{{command}} | sed {{[-f|--file]}} {{path/to/script.sed}}`
 
-- Print only the first line to `stdout`:
+- [p]rint only the first line to `stdout`:
 
 `{{command}} | sed {{[-n|--quiet]}} '1p'`
 
