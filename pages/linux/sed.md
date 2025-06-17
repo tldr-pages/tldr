@@ -12,7 +12,7 @@
 
 `{{command}} | sed {{[-E|--regexp-extended]}} 's/(apple)/\U\1/g'`
 
-- Use basic regex to replace `apple` to `mango` and `orange` to `lime` in-place in a file (overwriting original file):
+- Use basic regex to replace `apple` with `mango` and `orange` with `lime` in-place in a file (overwriting original file):
 
 `sed {{[-i|--in-place]}} -e 's/apple/mango/g' -e 's/orange/lime/g' {{path/to/file}}`
 
