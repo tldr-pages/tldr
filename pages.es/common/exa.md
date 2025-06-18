@@ -21,7 +21,7 @@
 
 - Muestra un árbol de archivos de tres niveles de profundidad:
 
-`exa {{[-l|--long]}} {[[-T|--tree]}} {{[-L|--level]}} {{3}}`
+`exa {{[-l|--long]}} {{[-T|--tree]}} {{[-L|--level]}} {{3}}`
 
 - Lista los archivos ordenados por fecha de modificación (los más antiguos primero):
 
