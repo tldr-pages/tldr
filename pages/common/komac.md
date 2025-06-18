@@ -13,7 +13,7 @@
 
 - Update a package with multiple URLs and automatically submit:
 
-`komac update {{Package.Identifier}} --version {{1.2.3}} --urls {{https://example.com/app.exe}} {{https://example.com/app.msi}} --submit`
+`komac update {{Package.Identifier}} --version {{1.2.3}} --urls {{https://example.com/app.exe https://example.com/app.msi ...}} --submit`
 
 - Remove a version from winget-pkgs:
 
