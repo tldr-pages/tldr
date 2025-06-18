@@ -21,7 +21,7 @@
 
 - Wyświetl drzewko plików (trzy poziomy):
 
-`exa {{[-l|--long]}} {[[-T|--tree]}} {{[-L|--level]}} {{3}}`
+`exa {{[-l|--long]}} {{[-T|--tree]}} {{[-L|--level]}} {{3}}`
 
 - Wyświetl listę plików posortowaną względem daty zmiany, od najstarszego:
 
