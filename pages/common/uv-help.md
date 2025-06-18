@@ -3,7 +3,7 @@
 > Display detailed documentation for `uv` commands.
 > More information: <https://docs.astral.sh/uv/reference/cli/#uv-help>.
 
-- Display general help for uv:
+- Display general help for `uv`:
 
 `uv help`
 
