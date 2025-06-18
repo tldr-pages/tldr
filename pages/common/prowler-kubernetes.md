@@ -4,11 +4,11 @@
 > See also: `prowler`, `prowler-aws`, `prowler-azure`, `prowler-gcp`, `prowler-m365`, `prowler-github`.
 > More information: <https://docs.prowler.com/projects/prowler-open-source/en/latest/>.
 
-- Run the default checks using the default KubeConfig location:
+- Run the default checks using the default kubeconfig location:
 
 `prowler kubernetes`
 
-- Specify a custom KubeConfig file for scanning:
+- Specify a custom kubeconfig file for scanning:
 
 `prowler kubernetes --kubeconfig-file {{path/to/kubeconfig}}`
 
