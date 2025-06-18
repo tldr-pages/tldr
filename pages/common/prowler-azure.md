@@ -1,6 +1,6 @@
 # prowler azure
 
-> Run Prowler to assess Azure security best practices, perform audits, compliance checks, and generate reports.
+> Assess Azure security best practices, perform audits, compliance checks, and generate reports.
 > See also: `prowler`, `prowler-aws`, `prowler-gcp`, `prowler-kubernetes`, `prowler-m365`, `prowler-github`.
 > More information: <https://docs.prowler.com/projects/prowler-open-source/en/latest/>.
 
@@ -10,7 +10,7 @@
 
 - Run checks for specific Azure subscriptions:
 
-`prowler azure --az-cli-auth --subscription-ids {{subscription_id1}} {{subscription_id2}}`
+`prowler azure --az-cli-auth --subscription-ids {{subscription_id1 subscription_id2 ...}}`
 
 - Authenticate using a service principal via environment variables:
 
@@ -18,7 +18,7 @@
 
 - Authenticate using browser login and specify a tenant ID:
 
-`prowler azure --browser-auth --tenant-id {{"XXXXXXXX"}}`
+`prowler azure --browser-auth --tenant-id "{{XXXXXXXX}}"`
 
 - Authenticate using a managed identity (e.g. for Azure VM):
 
@@ -26,7 +26,7 @@
 
 - Run checks for selected Azure services:
 
-`prowler azure {{[-s|--services]}} {{defender}} {{iam}}`
+`prowler azure {{[-s|--services]}} {{defender iam ...}}`
 
 - Run a specific Azure check:
 
@@ -34,4 +34,4 @@
 
 - Exclude specific checks or services:
 
-`prowler azure {{[-e|--excluded-checks]}} {{storage_blob_public_access_level_is_disabled}} --exclude-services {{defender}} {{iam}}`
+`prowler azure {{[-e|--excluded-checks]}} {{storage_blob_public_access_level_is_disabled}} --exclude-services {{defender iam ...}}`

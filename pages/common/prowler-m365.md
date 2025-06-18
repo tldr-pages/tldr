@@ -1,6 +1,6 @@
 # prowler m365
 
-> Run Prowler to assess Microsoft 365 (M365) security configurations and best practices.
+> Assess Microsoft 365 (M365) security configurations and best practices.
 > See also: `prowler`, `prowler-aws`, `prowler-azure`, `prowler-gcp`, `prowler-kubernetes`, `prowler-github`.
 > More information: <https://docs.prowler.com/projects/prowler-open-source/en/latest/>.
 
@@ -18,7 +18,7 @@
 
 - Authenticate using a browser and specify the tenant ID:
 
-`prowler m365 --browser-auth --tenant-id {{"XXXXXXXX"}}`
+`prowler m365 --browser-auth --tenant-id "{{XXXXXXXX}}"`
 
 - Run a specific Microsoft 365 check:
 
