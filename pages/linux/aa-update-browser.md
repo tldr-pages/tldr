@@ -3,7 +3,7 @@
 > Update AppArmor browser profiles to use supported abstractions.
 > Part of the AppArmor suite.
 > Requires root privileges.
-> More information: <https://manpages.ubuntu.com/manpages/questing/en/man8/aa-update-browser.8.html>.
+> More information: <https://manned.org/aa-update-browser>.
 
 - List available browser abstraction profiles:
 
