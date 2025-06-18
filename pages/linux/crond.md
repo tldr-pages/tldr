@@ -2,7 +2,7 @@
 
 > Daemon to execute scheduled commands from crontab files.
 > When invoked, checks for and runs scheduled jobs.
-> More information: <https://www.linux.org/docs/man8/cron.html>.
+> More information: <https://manned.org/crond>.
 
 - Start daemon in the background and check for scheduled commands:
 
