@@ -8,7 +8,7 @@
 
 `sudo aa-update-browser -l`
 
-- Show what changes would be made to a profile without applying them (dry-run):
+- Show what changes would be made to a profile without applying them ([d]ry-run):
 
 `sudo aa-update-browser -d {{path/to/profile}}`
 
