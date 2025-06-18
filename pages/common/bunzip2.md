@@ -1,6 +1,6 @@
 # bunzip2
 
-> Decompresses a file and saves by overwriting the original compressed file.
+> Decompress a file and save by overwriting the original compressed file.
 > See also: `bzip2`, `bzcat`, `bzip2recover`.
 > More information: <https://manned.org/bunzip2>.
 
