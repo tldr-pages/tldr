@@ -21,7 +21,7 @@
 
 - Zeige Dateien in einer Baumstruktur an, die drei Ebenen tief ist:
 
-`exa {{[-l|--long]}} {[[-T|--tree]}} {{[-L|--level]}} {{3}}`
+`exa {{[-l|--long]}} {{[-T|--tree]}} {{[-L|--level]}} {{3}}`
 
 - Liste Dateien nach Änderungsdatum aufsteigend sortiert auf:
 
