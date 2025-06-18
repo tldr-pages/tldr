@@ -14,7 +14,7 @@
 
 - Update a profile with specific abstractions:
 
-`sudo aa-update-browser -u {{abstraction1,abstraction2}} {{/path/to/profile}}`
+`sudo aa-update-browser -u {{abstraction1,abstraction2}} {{path/to/profile}}`
 
 - Remove all abstractions from a profile:
 
