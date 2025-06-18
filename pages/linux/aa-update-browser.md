@@ -10,7 +10,7 @@
 
 - Show what changes would be made to a profile without applying them (dry-run):
 
-`sudo aa-update-browser -d {{/path/to/profile}}`
+`sudo aa-update-browser -d {{path/to/profile}}`
 
 - Update a profile with specific abstractions:
 
