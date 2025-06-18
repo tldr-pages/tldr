@@ -24,6 +24,6 @@
 
 `bunzip2 {{[-k|--keep]}} {{file.bz2}}`
 
-- Override file overwrite and keep the original compressed file.
+- Override file overwrite and keep the original compressed file:
 
 `bunzip2 {{[-V|--version]}}`
