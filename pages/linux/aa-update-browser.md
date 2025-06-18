@@ -2,7 +2,6 @@
 
 > Update AppArmor browser profiles to use supported abstractions.
 > Part of the AppArmor suite.
-> Requires root privileges.
 > More information: <https://manned.org/aa-update-browser>.
 
 - List available browser abstraction profiles:
