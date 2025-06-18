@@ -18,7 +18,7 @@
 
 - Remove all abstractions from a profile:
 
-`sudo aa-update-browser -u '' {{/path/to/profile}}`
+`sudo aa-update-browser -u '' {{path/to/profile}}`
 
 - Display help:
 
