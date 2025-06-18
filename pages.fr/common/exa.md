@@ -1,35 +1,35 @@
 # exa
 
 > Une alternative moderne à `ls` (pour lister le contenu de répertoires).
-> Plus d'informations : <https://github.com/ogham/exa>.
+> Plus d'informations : <https://github.com/ogham/exa#command-line-options>.
 
 - Liste les fichiers, un par ligne :
 
-`exa --oneline`
+`exa {{[-1|--oneline]}}`
 
 - Liste tous les fichiers, y compris les fichiers cachés :
 
-`exa --all`
+`exa {{[-a|--all]}}`
 
 - Liste au format long (autorisations, propriété, taille et date de modification) de tous les fichiers :
 
-`exa --long --all`
+`exa {{[-l|--long]}} {{[-a|--all]}}`
 
 - Liste les fichiers avec le plus volumineux en haut :
 
-`exa --reverse --sort={{taille}}`
+`exa {{[-r|--reverse]}} {{[-s|--sort]}} {{size}}`
 
 - Affiche une arborescence de fichiers, sur trois niveaux de profondeur :
 
-`exa --long --tree --level={{3}}`
+`exa {{[-l|--long]}} {{[-T|--tree]}} {{[-L|--level]}} {{3}}`
 
 - Liste des fichiers triés par date de modification (le plus ancien en premier) :
 
-`exa --long --sort={{modifié}}`
+`exa {{[-l|--long]}} {{[-s|--sort]}} {{modified}}`
 
 - Liste les fichiers avec leur en-tête, leur icône et leur statut Git :
 
-`exa --long --header --icons --git`
+`exa {{[-l|--long]}} {{[-h|--header]}} --icons --git`
 
 - Liste les fichiers sauf ceux mentionnés dans `.gitignore` :
 

@@ -1,35 +1,35 @@
 # exa
 
 > Nowoczesny odpowiednik `ls` (wyświetla zawartość katalogu).
-> Więcej informacji: <https://github.com/ogham/exa>.
+> Więcej informacji: <https://github.com/ogham/exa#command-line-options>.
 
 - Wyświetl listę plików, po jednym w linii:
 
-`exa --oneline`
+`exa {{[-1|--oneline]}}`
 
 - Wyświetl wszystkie pliki, łącznie z ukrytymi:
 
-`exa --all`
+`exa {{[-a|--all]}}`
 
 - Wyświetl listę wszystkich plików ze szczegółami (uprawnienia, właściciel, wielkość i data zmiany):
 
-`exa --long --all`
+`exa {{[-l|--long]}} {{[-a|--all]}}`
 
 - Wyświetl listę plików posortowaną względem wielkości pliku, od największego:
 
-`exa --reverse --sort={{size}}`
+`exa {{[-r|--reverse]}} {{[-s|--sort]}} {{size}}`
 
 - Wyświetl drzewko plików (trzy poziomy):
 
-`exa --long --tree --level={{3}}`
+`exa {{[-l|--long]}} {{[-T|--tree]}} {{[-L|--level]}} {{3}}`
 
 - Wyświetl listę plików posortowaną względem daty zmiany, od najstarszego:
 
-`exa --long --sort={{modified}}`
+`exa {{[-l|--long]}} {{[-s|--sort]}} {{modified}}`
 
 - Wyświetl listę plików wraz z nagłówkiem, ikoną i statusem Git:
 
-`exa --long --header --icons --git`
+`exa {{[-l|--long]}} {{[-h|--header]}} --icons --git`
 
 - Wyświetl listę plików, ignorując pliki z `.gitignore`:
 
