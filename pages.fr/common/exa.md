@@ -21,7 +21,7 @@
 
 - Affiche une arborescence de fichiers, sur trois niveaux de profondeur :
 
-`exa {{[-l|--long]}} {[[-T|--tree]}} {{[-L|--level]}} {{3}}`
+`exa {{[-l|--long]}} {{[-T|--tree]}} {{[-L|--level]}} {{3}}`
 
 - Liste des fichiers triés par date de modification (le plus ancien en premier) :
 
