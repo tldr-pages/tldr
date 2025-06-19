@@ -19,6 +19,6 @@
 
 `bing-rewards --profile "Default" "Profile 1" "Profile 2"`
 
-- Display command documentation and config file path:
+- Display help:
 
 `bing-rewards {{[-h|--help]}}`
