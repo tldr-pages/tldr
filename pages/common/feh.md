@@ -15,7 +15,7 @@
 
 `feh --borderless {{path/to/images}}`
 
-- Set the behavior when reaching the beginnig or end of the image list:
+- Set the behavior when reaching the beginning or end of the image list:
 
 `feh --on-last-slide {{hold|quit|resume}} {{path/to/images}}`
 
