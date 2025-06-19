@@ -3,11 +3,11 @@
 > Codifica o decodifica un archivo o `stdin` usando una codificación especificada, a `stdout`.
 > Más información: <https://www.gnu.org/software/coreutils/manual/html_node/basenc-invocation.html>.
 
-- Codificar un archivo con codificación base64:
+- Codifica un archivo con codificación base64:
 
 `basenc --base64 {{ruta/a/archivo}}`
 
-- Descodifica un archivo con codificación base64:
+- Descifra un archivo con codificación base64:
 
 `basenc {{[-d|--decode]}}} --base64 {{ruta/a/archivo}}`
 
