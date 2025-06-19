@@ -1,7 +1,7 @@
 # ip
 
 > Mostra / manipola routing, dispositivi, criteri di routing e tunnel.
-> Alcuni sottocomandi, come `ip {{[a|address]}}ess`, hanno una propria documentazione d'uso.
+> Alcuni sottocomandi, come `address`, hanno una propria documentazione d'uso.
 > Maggiori informazioni: <https://www.manned.org/ip.8>.
 
 - Elenca le interfacce con informazioni dettagliate:
