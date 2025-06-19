@@ -3,7 +3,7 @@
 > Prevent macOS from sleeping.
 > More information: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
-- Prevent the display from sleeping
+- Prevent the display from sleeping:
 
 `caffeinate -d`
 
