@@ -1,6 +1,7 @@
 # bzip2
 
 > A block-sorting file compressor.
+> See also: `bzcat`, `bunzip2`, `bzip2recover`.
 > More information: <https://manned.org/bzip2>.
 
 - Compress a file:
