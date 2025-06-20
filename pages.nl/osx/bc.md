@@ -22,7 +22,7 @@
 
 - Bereken een uitdrukking met de gespecificeerde schaal:
 
-`bc --expression='scale = {{10}}; {{5 / 3}}'`
+`bc --expression {{'scale = 10; 5 / 3'}}`
 
 - Bereken een sinus/cosinus/arctangens/natuurlijke logaritme/exponentiële functie met behulp van `mathlib`:
 
