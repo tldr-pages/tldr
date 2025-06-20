@@ -24,9 +24,9 @@
 
 `{{commando}} | sed {{[-n|--quiet]}} '1p'`
 
-- Verwijder de eerste regel van een bestand:
+- Verwij[d]er regels 1 tot en met 5 van een bestand en maak een back-up van het originele bestand met een `.orig` extensie:
 
-`sed {{[-i|--in-place]}} 1d {{pad/naar/bestand}}`
+`sed {{[-i|--in-place=]}}{{.orig}} '1,5d' {{pad/naar/bestand}}`
 
 - Voeg een nieuwe regel in bij de eerste regel van een bestand:
 
