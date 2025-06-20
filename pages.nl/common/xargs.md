@@ -27,3 +27,7 @@
 - Parallelle uitvoeringen van maximaal `max-procs` processen tegelijk; de standaard is 1. Als `max-procs` 0 is, zal xargs zoveel mogelijk processen tegelijk uitvoeren:
 
 `{{argumenten_bron}} | xargs {{[-P|--max-procs]}} {{max-procs}} {{commando}}`
+
+- Vraag de gebruiker om bevestiging voordat de opdracht wordt uitgevoerd (bevestig met `y` of `Y`):
+
+`{{argumenten_bron}} | xargs {{[-p|--interactive]}} {{commando}}`
