@@ -14,7 +14,7 @@
 
 - Gebruik basisregex om `apple` te vervangen door `mango` en `orange` door `lime` in een bestand (waarbij het originele bestand wordt overschreven):
 
-`sed {{[-i|--in-place]}} -e ‘s/apple/mango/g’ -e ‘s/orange/lime/g’ {{pad/naar/bestand}}`
+`sed {{[-i|--in-place]}} -e 's/apple/mango/g' -e 's/orange/lime/g' {{pad/naar/bestand}}`
 
 - Voer een specifiek script bestand uit en toon het resultaat in `stdout`:
 
