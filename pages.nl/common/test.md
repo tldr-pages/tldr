@@ -26,4 +26,4 @@
 
 - Gebruik `test` in een conditioneel statement:
 
-`if test -f "{{path/to/file}}"; then echo "File exists"; else echo "File does not exist"; fi`
+`if test -f "{{pad/naar/bestand}}"; then echo "File exists"; else echo "File does not exist"; fi`
