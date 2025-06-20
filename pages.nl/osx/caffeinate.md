@@ -3,10 +3,6 @@
 > Voorkom dat macOS in slaapstand gaat.
 > Meer informatie: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
-- Voorkom dat de schijf in slaapstand gaat (gebruik `<Ctrl c>` om te stoppen):
-
-`caffeinate -m`
-
 - Voorkom dat het scherm in slaapstand gaat:
 
 `caffeinate -d`
@@ -23,6 +19,6 @@
 
 `caffeinate -w {{pid}}`
 
-- Voorkom dat de schijf in slaapstand gaat (gebruik `<Ctrl c>` om af te sluiten):
+- Voorkom dat de schijf in slaapstand gaat (gebruik `<Ctrl c>` om te stoppen):
 
 `caffeinate -m`
