@@ -31,3 +31,7 @@
 - Voeg een nieuwe regel in bij de eerste regel van een bestand:
 
 `sed {{[-i|--in-place]}} '1i\your new line text\' {{pad/naar/bestand}}`
+
+- Verwijder lege regels (met of zonder spaties/tabtekens) uit een bestand, waarbij het oorspronkelijke bestand ter plaatse wordt overschreven:
+
+`sed {{[-i|--in-place]}} '/^[[:space:]]*$/d' {{pad/naar/bestand}}`
