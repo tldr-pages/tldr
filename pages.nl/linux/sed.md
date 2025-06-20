@@ -12,9 +12,9 @@
 
 `{{commando}} | sed {{[-E|--regexp-extended]}} 's/(apple)/\U\1/g'`
 
-- Vervang alle `apple` (basis regex) met `mango` (basis regex) in een specifiek bestand en overschrijf het originele bestand:
+- Gebruik basisregex om `apple` te vervangen door `mango` en `orange` door `lime` in een bestand (waarbij het originele bestand wordt overschreven):
 
-`sed {{[-i|--in-place]}} 's/apple/mango/g' {{pad/naar/bestand}}`
+`sed {{[-i|--in-place]}} -e ‘s/apple/mango/g’ -e ‘s/orange/lime/g’ {{pad/naar/bestand}}`
 
 - Voer een specifiek script bestand uit en toon het resultaat in `stdout`:
 
