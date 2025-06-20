@@ -3,11 +3,11 @@
 > Export the project's lockfile to an alternate format.
 > More information: <https://docs.astral.sh/uv/reference/cli/#uv-export>.
 
-- Export dependencies to a requirements.txt file:
+- Export dependencies to a `requirements.txt` file:
 
 `uv export --format requirements-txt {{[-o|--output-file]}} {{requirements.txt}}`
 
-- Export dependencies to pylock.toml format:
+- Export dependencies to `pylock.toml` format:
 
 `uv export --format pylock.toml`
 

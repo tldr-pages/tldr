@@ -3,7 +3,7 @@
 > Upload distributions to an index.
 > More information: <https://docs.astral.sh/uv/reference/cli/#uv-publish>.
 
-- Publish packages from dist/ directory (default behavior):
+- Publish packages from `dist/` directory (default behavior):
 
 `uv publish`
 
