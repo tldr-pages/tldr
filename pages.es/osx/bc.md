@@ -14,7 +14,7 @@
 
 - Calcula una expresión:
 
-`bc --expression='{{5 / 3}}'`
+`bc --expression '{{5 / 3}}'`
 
 - Ejecuta un script:
 
@@ -26,4 +26,4 @@
 
 - Calcula una función seno/coseno/arctangente/logaritmo natural/exponencial utilizando `mathlib`:
 
-`bc --mathlib --expression='{{s|c|a|l|e}}({{1}})'`
+`bc --mathlib --expression '{{s|c|a|l|e}}({{1}})'`

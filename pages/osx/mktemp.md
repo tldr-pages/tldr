@@ -9,7 +9,7 @@
 
 - Use a custom directory (defaults to the output of `getconf DARWIN_USER_TEMP_DIR`, or `/tmp`):
 
-`mktemp --tmpdir={{/path/to/tempdir}}`
+`mktemp --tmpdir {{/path/to/tempdir}}`
 
 - Use a custom path template (`X`s are replaced with random alphanumeric characters):
 

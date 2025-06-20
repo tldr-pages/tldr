@@ -14,7 +14,7 @@
 
 - 수식 계산:
 
-`bc --expression='{{5 / 3}}'`
+`bc --expression '{{5 / 3}}'`
 
 - 스크립트 실행:
 
@@ -26,4 +26,4 @@
 
 - `mathlib`을 사용하여 사인/코사인/아크탄젠트/자연 로그/지수 함수 계산:
 
-`bc --mathlib --expression='{{s|c|a|l|e}}({{1}})'`
+`bc --mathlib --expression '{{s|c|a|l|e}}({{1}})'`
