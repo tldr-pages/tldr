@@ -21,7 +21,7 @@
 
 - Build and output to a specific directory:
 
-`uv build --out-dir {{path/to/output}}`
+`uv build {{[-o|--out-dir]}} {{path/to/output}}`
 
 - Build a specific package in a workspace:
 
@@ -29,8 +29,8 @@
 
 - Build all packages in the workspace:
 
-`uv build --all-packages`
+`uv build {{[--all|--all-packages]}}`
 
 - Build with a specific Python interpreter:
 
-`uv build --python {{python3.11}}`
+`uv build {{[-p|--python]}} {{python3.11}}`

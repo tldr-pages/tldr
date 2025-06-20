@@ -13,11 +13,11 @@
 
 - Publish using a specific username and password:
 
-`uv publish --username {{username}} --password {{password}}`
+`uv publish {{[-u|--username]}} {{username}} {{[-p|--password]}} {{password}}`
 
 - Publish using an API token:
 
-`uv publish --token {{your_api_token}}`
+`uv publish {{[-t|--token]}} {{your_api_token}}`
 
 - Publish specific distribution files:
 

@@ -17,7 +17,7 @@
 
 - Update `uv` with verbose output:
 
-`uv self update --verbose`
+`uv self update {{[-v|--verbose]}}`
 
 - Display the current `uv` version:
 

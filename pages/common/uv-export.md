@@ -5,7 +5,7 @@
 
 - Export dependencies to a requirements.txt file:
 
-`uv export --format requirements-txt --output-file {{requirements.txt}}`
+`uv export --format requirements-txt {{[-o|--output-file]}} {{requirements.txt}}`
 
 - Export dependencies to pylock.toml format:
 

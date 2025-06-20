@@ -29,4 +29,4 @@
 
 - Clean cache with verbose output:
 
-`uv cache clean --verbose`
+`uv cache clean {{[-v|--verbose]}}`
