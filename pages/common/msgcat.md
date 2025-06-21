@@ -22,7 +22,7 @@
 
 - Use the first available translation for duplicate entries:
 
-`msgcat {{--use-first}} {{file1.po}} {{file2.po}} > {{output.po}}`
+`msgcat --use-first {{file1.po file2.po ...}} > {{output.po}}`
 
 - Display help:
 
