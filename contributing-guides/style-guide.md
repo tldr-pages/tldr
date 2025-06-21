@@ -430,7 +430,7 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 - Prefer not grouping options that take in arguments (i.e. `{{[-it|--interactive --tty]}} {{[-w|--workdir]}} {{path/to/directory}}` instead of `{{[-itw|--interactive --tty --workdir]}} {{path/to/directory}}`)
 - Prefer using a space instead of the equals sign (`=`) to separate options from their arguments (i.e. use `--opt arg` instead of `--opt=arg`), unless the program does not support it.
 - Likewise prefer separating shortform options from their arguments with a space (i.e. use `-o arg` instead of `-oarg`), unless the program does not support it.
-- If a command only supports `-oarg` and `--opt=arg` the option placeholder should be written like this `{{[-o|--opt=]}}arg`.
+- If a command only supports `-oarg` and `--opt=arg` the option placeholder should be written like this `{{[-o|--opt=]}}arg`. Keep in mind how the command would look if a client were to display only short or only long options.
 
 ### Placeholder syntax
 
