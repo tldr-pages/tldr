@@ -18,7 +18,7 @@
 
 - Output only unique messages (appearing in one file only):
 
-`msgcat {{--unique}} {{file1.po}} {{file2.po}} > {{unique.po}}`
+`msgcat --unique {{file1.po file2.po ...}} > {{unique.po}}`
 
 - Use the first available translation for duplicate entries:
 
