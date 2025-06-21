@@ -26,4 +26,4 @@
 
 - Display help:
 
-`msgcat {{--help}}`
+`msgcat --help`
