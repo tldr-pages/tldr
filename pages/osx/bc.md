@@ -22,7 +22,7 @@
 
 - Calculate an expression with the specified scale:
 
-`bc --expression {{'scale = 10; 5 / 3'}}`
+`bc --expression '{{scale = 10; 5 / 3}}'`
 
 - Calculate a sine/cosine/arctangent/natural logarithm/exponential function using `mathlib`:
 
