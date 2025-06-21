@@ -10,7 +10,7 @@
 
 - Combine input files listed in a text file:
 
-`msgcat {{--files-from=file_list.txt}} > {{combined.po}}`
+`msgcat --files-from {{path/to/file_list.txt}} > {{combined.po}}`
 
 - Set the output encoding (e.g., UTF-8):
 
