@@ -13,7 +13,7 @@
 
 - Schrijf de uitvoer naar een ander bestand:
 
-`shuf {{pad/naar/invoer_bestand}} --output={{pad/naar/uitvoer_bestand}}`
+`shuf {{pad/naar/invoer_bestand}} --output {{pad/naar/uitvoer_bestand}}`
 
 - Genereer willekeurige getallen in het bereik van 1 tot 10:
 

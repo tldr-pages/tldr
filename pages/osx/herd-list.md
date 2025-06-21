@@ -18,7 +18,7 @@
 
 - Display the list in a specific output format:
 
-`herd list --format={{txt|xml|json|md}}`
+`herd list --format {{txt|xml|json|md}}`
 
 - List all commands without describing their arguments:
 
