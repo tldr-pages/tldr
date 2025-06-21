@@ -14,12 +14,12 @@
 
 - Delete a specific store path (most be unused):
 
-`nix store delete {{/nix/store/...}}`
+`nix store delete /nix/store/{{checksum-package-version.ext}}`
 
 - List a contents of the store path, on a remote store:
 
-`nix store --store {{https://cache.nixos.org}} ls {{/nix/store/...}}`
+`nix store --store {{https://cache.nixos.org}} ls /nix/store/{{checksum-package-version.ext}}`
 
 - Show the differences in versions between two store paths, with their respective dependencies:
 
-`nix store diff-closures {{/nix/store/...}} {{/nix/store/...}}`
+`nix store diff-closures /nix/store/{{checksum-package-version.ext}} /nix/store/{{checksum-package-version.ext}}`

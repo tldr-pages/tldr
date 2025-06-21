@@ -5,7 +5,7 @@
 
 - Show why the currently running NixOS system requires a certain store path:
 
-`nix why-depends {{/run/current-system}} {{/nix/store/...}}`
+`nix why-depends {{/run/current-system}} /nix/store/{{checksum-package-version.ext}}`
 
 - Show why a package from nixpkgs requires another package as a _build-time_ dependency:
 

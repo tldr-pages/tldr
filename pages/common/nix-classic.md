@@ -19,7 +19,7 @@
 
 - Show all dependencies of a store path (package), in a tree format:
 
-`nix-store {{[-q|--query]}} --tree {{/nix/store/...}}`
+`nix-store {{[-q|--query]}} --tree /nix/store/{{checksum-package-version.ext}}`
 
 - Update the channels (repositories):
 
