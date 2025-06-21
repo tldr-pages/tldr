@@ -6,7 +6,7 @@
 
 - Combine multiple `.po` files into one:
 
-`msgcat {{file1.po}} {{file2.po}} > {{combined.po}}`
+`msgcat {{file1.po file2.po ...}} > {{combined.po}}`
 
 - Combine input files listed in a text file:
 
