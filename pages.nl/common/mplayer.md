@@ -7,7 +7,7 @@
 
 `mplayer {{pad/naar/bestand|url}}`
 
-- Speel meerdere bestand af:
+- Speel meerdere bestanden af:
 
 `mplayer {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
