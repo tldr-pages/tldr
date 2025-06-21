@@ -1,8 +1,8 @@
 # bzip2recover
 
 > Attempts to recover data from a damaged `.bz2` file.
+> > See also: `bzip2`.
 > More information: <https://linux.die.net/man/1/bzip2recover>.
-> See also: `bzip2`.
 
 - Recover all intact blocks from a damaged `.bz2` file:
 
