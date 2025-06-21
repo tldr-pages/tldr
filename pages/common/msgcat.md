@@ -14,7 +14,7 @@
 
 - Set the output encoding (e.g., UTF-8):
 
-`msgcat {{--to-code=UTF-8}} {{input.po}} > {{output.po}}`
+`msgcat --to-code {{UTF-8}} {{input.po}} > {{output.po}}`
 
 - Output only unique messages (appearing in one file only):
 
