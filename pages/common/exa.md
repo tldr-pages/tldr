@@ -21,7 +21,7 @@
 
 - Display a tree of files, three levels deep:
 
-`exa {{[-l|--long]}} {[[-T|--tree]}} {{[-L|--level]}} {{3}}`
+`exa {{[-l|--long]}} {{[-T|--tree]}} {{[-L|--level]}} {{3}}`
 
 - List files sorted by modification date (oldest first):
 

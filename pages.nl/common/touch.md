@@ -21,4 +21,4 @@
 
 - Stel de timestamp in door een string te parsen:
 
-`touch {{[-d|--date]}} "{{last year|5 hours|next thursday|nov 14|...}} {{pad/naar/bestand}}`
+`touch {{[-d|--date]}} "{{last year|5 hours|next thursday|nov 14|...}}" {{pad/naar/bestand}}`
