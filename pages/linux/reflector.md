@@ -9,11 +9,11 @@
 
 - Only get German HTTPS mirrors:
 
-`reflector --country {{Germany}} --protocol {{https}}`
+`reflector {{[-c|--country]}} {{Germany}} {{[-p|--protocol]}} {{https}}`
 
 - Only get the 10 recently sync'd mirrors:
 
-`reflector --latest {{10}}`
+`reflector {{[-l|--latest]}} {{10}}`
 
 - Use a configuration file to fetch mirrors:
 
