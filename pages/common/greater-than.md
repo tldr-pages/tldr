@@ -1,4 +1,4 @@
-# Greater than
+# >
 
 > Redirect output.
 > More information: <https://gnu.org/software/bash/manual/bash.html#Redirecting-Output>.
