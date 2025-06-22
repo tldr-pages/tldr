@@ -1,7 +1,7 @@
 # ip
 
 > Affiche / manipule l'adressage, le routage, les interfaces et périphériques réseau, les règles de routage et les tunnels.
-> Certaines commandes comme `ip {{[a|address]}}ess` ont leur propre documentation.
+> Certaines commandes comme `address` ont leur propre documentation.
 > Plus d'informations : <https://www.manned.org/ip.8>.
 
 - Liste les interfaces avec des infos détaillées :

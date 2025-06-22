@@ -23,3 +23,7 @@
 - Als A waar is, voer dan B uit, of C in het geval van een fout (let op dat C mogelijk wordt uitgevoerd, zelfs als A mislukt):
 
 `test {{voorwaarde}} && {{echo "true"}} || {{echo "false"}}`
+
+- Gebruik `test` in een conditioneel statement:
+
+`if test -f "{{pad/naar/bestand}}"; then echo "File exists"; else echo "File does not exist"; fi`
