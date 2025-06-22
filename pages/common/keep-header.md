@@ -13,7 +13,7 @@
 
 - Read from `stdin`, sorting all except the first line:
 
-`cat {{path/to/file}} | keep-header -- {{command}}`
+`keep-header -- {{command}} < {{path/to/file}}`
 
 - Grep a file, keeping the first line regardless of the search pattern:
 

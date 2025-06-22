@@ -13,7 +13,7 @@
 
 - Run a system prompt against a file:
 
-`cat {{path/to/file.py}} | llm {{[-s|--system]}} "{{Explain this code}}"`
+`llm {{[-s|--system]}} "{{Explain this code}}" < {{path/to/file.py}}`
 
 - Install packages from PyPI into the same environment as LLM:
 

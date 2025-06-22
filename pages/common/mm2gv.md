@@ -10,7 +10,7 @@
 
 - Convert a graph using `stdin` and `stdout`:
 
-`cat {{input.mm}} | mm2gv > {{output.gv}}`
+`mm2gv > {{output.gv}} < {{input.mm}}`
 
 - Display help:
 

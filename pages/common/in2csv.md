@@ -18,4 +18,4 @@
 
 - Pipe a JSON file to in2csv:
 
-`cat {{data.json}} | in2csv {{[-f|--format]}} json > {{data.csv}}`
+`in2csv {{[-f|--format]}} json > {{data.csv}} < {{data.json}}`

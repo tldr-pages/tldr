@@ -9,7 +9,7 @@
 
 - List misspelled words from `stdin`:
 
-`cat {{path/to/file}} | aspell list`
+`aspell list < {{path/to/file}}`
 
 - Show available dictionary languages:
 
@@ -21,4 +21,4 @@
 
 - List misspelled words from `stdin` and ignore words from personal word list:
 
-`cat {{path/to/file}} | aspell --personal {{personal-word-list.pws}} list`
+`aspell --personal {{personal-word-list.pws}} list < {{path/to/file}}`

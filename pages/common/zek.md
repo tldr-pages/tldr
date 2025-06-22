@@ -5,7 +5,7 @@
 
 - Generate a Go struct from a given XML from `stdin` and display output on `stdout`:
 
-`cat {{path/to/input.xml}} | zek`
+`zek < {{path/to/input.xml}}`
 
 - Generate a Go struct from a given XML from `stdin` and send output to a file:
 
@@ -13,4 +13,4 @@
 
 - Generate an example Go program from a given XML from `stdin` and send output to a file:
 
-`cat {{path/to/input.xml}} | zek -p -o {{path/to/output.go}}`
+`zek -p -o {{path/to/output.go}} < {{path/to/input.xml}}`

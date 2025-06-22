@@ -33,4 +33,4 @@
 
 - Search `stdin` for lines that do not match a pattern:
 
-`cat {{path/to/file}} | grep {{[-v|--invert-match]}} "{{search_pattern}}"`
+`grep {{[-v|--invert-match]}} "{{search_pattern}}" < {{path/to/file}}`

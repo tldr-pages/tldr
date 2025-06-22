@@ -17,4 +17,4 @@
 
 - Convert existing timestamps in a text file (eg. a log file) into [r]elative format:
 
-`cat {{path/to/file}} | ts -r`
+`ts -r < {{path/to/file}}`

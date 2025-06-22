@@ -10,7 +10,7 @@
 
 - Convert a graph using `stdin` and `stdout`:
 
-`cat {{input.gml}} | graphml2gv > {{output.gv}}`
+`graphml2gv > {{output.gv}} < {{input.gml}}`
 
 - Display help:
 

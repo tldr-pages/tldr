@@ -21,7 +21,7 @@
 
 - Set a value for a configuration key from a file:
 
-`cat {{path/to/file}} | pulumi config set {{key}}`
+`pulumi config set {{key}} < {{path/to/file}}`
 
 - Set a secret value (e.g. API key) for a configuration key and store/display as ciphertext:
 

@@ -21,4 +21,4 @@
 
 - Join a file from `stdin`:
 
-`cat {{path/to/file1}} | join - {{path/to/file2}}`
+`join - {{path/to/file2}} < {{path/to/file1}}`

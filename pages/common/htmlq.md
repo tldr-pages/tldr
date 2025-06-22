@@ -5,19 +5,19 @@
 
 - Return all elements of class `card`:
 
-`cat {{path/to/file.html}} | htmlq '.card'`
+`htmlq '.card' < {{path/to/file.html}}`
 
 - Get the text content of the first paragraph:
 
-`cat {{path/to/file.html}} | htmlq --text 'p:first-of-type'`
+`htmlq --text 'p:first-of-type' < {{path/to/file.html}}`
 
 - Find all the links in a page:
 
-`cat {{path/to/file.html}} | htmlq --attribute href 'a'`
+`htmlq --attribute href 'a' < {{path/to/file.html}}`
 
 - Remove all images and SVGs from a page:
 
-`cat {{path/to/file.html}} | htmlq --remove-nodes 'img' --remove-nodes 'svg'`
+`htmlq --remove-nodes 'img' --remove-nodes 'svg' < {{path/to/file.html}}`
 
 - Pretty print and write the output to a file:
 

@@ -18,7 +18,7 @@
 
 - Receive an image from `stdin` and display detailed information:
 
-`cat {{path/to/image.png}} | pngcheck -cvt`
+`pngcheck -cvt < {{path/to/image.png}}`
 
 - [s]earch for PNGs within a specific file and display information about them:
 

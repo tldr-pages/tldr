@@ -25,7 +25,7 @@
 
 - Create a file from `stdin`:
 
-`cat {{path/to/file}} | kate {{[-i|--stdin]}}`
+`kate {{[-i|--stdin]}} < {{path/to/file}}`
 
 - Display help:
 
