@@ -1,7 +1,7 @@
 # hn
 
 > Hacker News용 커멘드 라인 인터페이스.
-> 더 많은 정보: <https://github.com/rafaelrinaldi/hn-cli#usage>
+> 더 많은 정보: <https://github.com/rafaelrinaldi/hn-cli#usage>.
 
 - Hacker News에서 기사 보기:
 
