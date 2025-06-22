@@ -1,4 +1,4 @@
-# Less than
+# <
 
 > Redirect data to `stdin`.
 > More information: <https://gnu.org/software/bash/manual/bash.html#Redirecting-Input>.
