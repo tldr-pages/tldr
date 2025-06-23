@@ -13,7 +13,7 @@
 
 - Escribe el resultado en otro archivo:
 
-`shuf {{nombre_archivo}} --output={{nombre_archivo_salida}}`
+`shuf {{nombre_archivo}} --output {{nombre_archivo_salida}}`
 
 - Genera números aleatorios en el rango 1-10:
 

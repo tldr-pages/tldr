@@ -129,7 +129,7 @@ The templates can be changed when necessary, but if so, it needs to be updated h
 ### fi
 
 ```markdown
-> Lisätietoja: <https://example.com>.
+> Lisätietoa: <https://example.com>.
 ```
 
 ---

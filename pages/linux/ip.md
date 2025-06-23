@@ -10,11 +10,11 @@
 
 - List interfaces with brief network layer info:
 
-`ip {{[-br a|-brief address]}}`
+`ip {{[-br|-brief]}} {{[a|address]}}`
 
 - List interfaces with brief link layer info:
 
-`ip {{[-br l|-brief link]}}`
+`ip {{[-br|-brief]}} {{[l|link]}}`
 
 - Display the routing table:
 
