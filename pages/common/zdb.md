@@ -7,10 +7,10 @@
 
 `zdb`
 
-- Show detailed configuration for a specific ZFS pool:
+- Show detailed [C]onfiguration for a specific ZFS pool:
 
 `zdb -C {{poolname}}`
 
-- Show statistics about number, size and deduplication of blocks:
+- Show statistics about number, size and deduplication of [b]locks:
 
 `zdb -b {{poolname}}`
