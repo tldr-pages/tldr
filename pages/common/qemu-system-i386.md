@@ -22,3 +22,7 @@
 - Exit non-graphical QEMU:
 
 `<Ctrl a><x>`
+
+- List supported machine types:
+
+`qemu-system-x86_64 {{[-M|--machine]}} help`
