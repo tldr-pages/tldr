@@ -18,3 +18,7 @@
 - Do not launch a VNC server:
 
 `qemu-system-i386 -hda {{image_name.img}} -m {{4096}} -nographic`
+
+- Exit QEMU:
+
+`<Ctrl a><x>`
