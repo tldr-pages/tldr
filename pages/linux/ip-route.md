@@ -11,21 +11,21 @@
 
 `sudo ip {{[r|route]}} {{[a|add]}} default via {{gateway_ip}}`
 
-- Add a default route using `ethX`:
+- Add a default route using `eth0`:
 
-`sudo ip {{[r|route]}} {{[a|add]}} default dev {{ethX}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default dev {{eth0}}`
 
 - Add a static route:
 
-`sudo ip {{[r|route]}} {{[a|add]}} {{destination_ip}} via {{gateway_ip}} dev {{ethX}}`
+`sudo ip {{[r|route]}} {{[a|add]}} {{destination_ip}} via {{gateway_ip}} dev {{eth0}}`
 
 - Delete a static route:
 
-`sudo ip {{[r|route]}} {{[d|delete]}} {{destination_ip}} dev {{ethX}}`
+`sudo ip {{[r|route]}} {{[d|delete]}} {{destination_ip}} dev {{eth0}}`
 
 - Change or replace a static route:
 
-`sudo ip {{[r|route]}} {{change|replace}} {{destination_ip}} via {{gateway_ip}} dev {{ethX}}`
+`sudo ip {{[r|route]}} {{change|replace}} {{destination_ip}} via {{gateway_ip}} dev {{eth0}}`
 
 - Show which route will be used by the kernel to reach an IP address:
 

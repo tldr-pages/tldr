@@ -13,16 +13,16 @@
 
 - Display information about a specific network interface:
 
-`ip {{[a|address]}} {{[s|show]}} {{ethX}}`
+`ip {{[a|address]}} {{[s|show]}} {{eth0}}`
 
 - Add an IP address to a network interface:
 
-`sudo ip {{[a|address]}} {{[a|add]}} {{ip_address}} dev {{ethX}}`
+`sudo ip {{[a|address]}} {{[a|add]}} {{ip_address}} dev {{eth0}}`
 
 - Remove an IP address from a network interface:
 
-`sudo ip {{[a|address]}} {{[d|delete]}} {{ip_address}} dev {{ethX}}`
+`sudo ip {{[a|address]}} {{[d|delete]}} {{ip_address}} dev {{eth0}}`
 
 - Delete all IP addresses in a given scope from a network interface:
 
-`sudo ip {{[a|address]}} {{[f|flush]}} {{ethX}} scope {{global|host|link}}`
+`sudo ip {{[a|address]}} {{[f|flush]}} {{eth0}} scope {{global|host|link}}`
