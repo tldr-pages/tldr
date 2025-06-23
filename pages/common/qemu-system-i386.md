@@ -14,3 +14,7 @@
 - Boot from physical device (e.g. from USB to test bootable medium):
 
 `qemu-system-i386 -hda {{/dev/storage_device}} -m {{4096}}`
+
+- Do not launch a VNC server:
+
+`qemu-system-i386 -hda {{image_name.img}} -m {{4096}} -nographic`
