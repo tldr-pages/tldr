@@ -5,16 +5,12 @@
 
 - Boot from image emulating x64 architecture:
 
-`qemu-system-x86_64 -hda {{image_name.img}}`
+`qemu-system-x86_64 -hda {{image_name.img}} -m {{4096}}`
 
 - Boot QEMU instance with a live ISO image:
 
-`qemu-system-x86_64 -hda {{image_name.img}} -cdrom {{os_image.iso}} -boot d`
-
-- Specify amount of RAM for instance:
-
-`qemu-system-x86_64 -m 256 -hda {{image_name.img}} -cdrom {{os-image.iso}} -boot d`
+`qemu-system-x86_64 -hda {{image_name.img}} -cdrom {{os_image.iso}} -boot d -m {{4096}}`
 
 - Boot from physical device (e.g. from USB to test bootable medium):
 
-`qemu-system-x86_64 -hda {{/dev/storage_device}}`
+`qemu-system-x86_64 -hda {{/dev/storage_device}} -m {{4096}}`
