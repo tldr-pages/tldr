@@ -3,26 +3,26 @@
 > Find extended regular expression patterns in compressed files using `egrep`.
 > More information: <https://www.unix.com/man-page/freebsd/1/zegrep/>.
 
-- Search for extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`) in a compressed file:
+- Search for extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`) in a compressed file (case-sensitive):
 
 `zegrep "{{search_pattern}}" {{path/to/file}}`
 
-- Search for extended regular expressions (case-[i]nsensitive):
+- Search for extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`) in a compressed file (case-insensitive):
 
-`zegrep -i "{{search_pattern}}" {{path/to/file}}`
+`zegrep {{[-i|--ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
 
-- Search for lines that do not match a pattern ([v]erse the pattern):
+- Search for lines that do not match a pattern:
 
-`zegrep -v "{{search_pattern}}" {{path/to/file}}`
+`zegrep {{[-v|--invert-match]}} "{{search_pattern}}" {{path/to/file}}`
 
-- Print the [H]eader (file name) and line [n]umber for each match:
+- Print file name and line number for each match:
 
-`zegrep -H -n "{{search_pattern}}" {{path/to/file}}`
+`zegrep {{[-H|--with-filename]}} {{[-n|--line-number]}} "{{search_pattern}}" {{path/to/file}}`
 
-- Print [o]nly the matching text:
+- Search for lines matching a pattern, printing only the matched text:
 
-`zegrep -o "{{search_pattern}}" {{path/to/file}}`
+`zegrep {{[-o|--only-matching]}} "{{search_pattern}}" {{path/to/file}}`
 
-- [r]ecursively search files in a compressed file:
+- Recursively search files in a compressed file for a pattern:
 
-`zegrep -r "{{search_pattern}}" {{path/to/file}}`
+`zegrep {{[-r|--recursive]}} "{{search_pattern}}" {{path/to/file}}`
