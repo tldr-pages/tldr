@@ -15,7 +15,7 @@
 
 `sfill -ll -v {{/path/to/mounted_disk_directory}}`
 
-- Overwrite only free space of a d[i]sk:
+- Overwrite only free space of a d[I]sk:
 
 `sfill -I {{/path/to/mounted_disk_directory}}`
 
