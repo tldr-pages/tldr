@@ -12,7 +12,7 @@
 
 `frps {{[-c|--config]}} ./frps.toml`
 
-- Start the service, using a specified config file:
+- Start the service, using a specified configuration file:
 
 `frps {{[-c|--config]}} {{path/to/file}}`
 
