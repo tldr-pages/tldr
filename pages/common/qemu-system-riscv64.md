@@ -5,4 +5,4 @@
 
 - Boot a kernel emulating `riscv64` architecture:
 
-`qemu-system-riscv64 -machine virt -bios none -kernel {{kernel.elf}}`
+`qemu-system-riscv64 {{[-M|--machine]}} virt -bios none -kernel {{kernel.elf}}`
