@@ -13,4 +13,4 @@
 
 - Show statistics about number, size and deduplication of [b]locks:
 
-`zdb -b {{poolname}}`
+`zdb {{[-b|--block-stats]}} {{poolname}}`
