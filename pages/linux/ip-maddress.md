@@ -9,15 +9,15 @@
 
 - List device specific addresses:
 
-`ip {{[m|maddress]}} {{[s|show]}} dev {{eth0}}`
+`ip {{[m|maddress]}} {{[s|show]}} dev {{ethX}}`
 
 - Join a multicast group statically:
 
-`sudo ip {{[m|maddress]}} {{[a|add]}} {{33:33:00:00:00:02}} dev {{eth0}}`
+`sudo ip {{[m|maddress]}} {{[a|add]}} {{33:33:00:00:00:02}} dev {{ethX}}`
 
 - Leave a static multicast group:
 
-`sudo ip {{[m|maddress]}} {{[d|delete]}} {{33:33:00:00:00:02}} dev {{eth0}}`
+`sudo ip {{[m|maddress]}} {{[d|delete]}} {{33:33:00:00:00:02}} dev {{ethX}}`
 
 - Display help:
 
