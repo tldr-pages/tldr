@@ -13,7 +13,7 @@
 
 - Actualiza un paquete con varias URL y lo envía automáticamente:
 
-Komac update {{Paquete.Identificador}} --versión {{1.2.3}} --urls {{}} --version {{1.2.3}} --urls {{https://example.com/app.exe https://example.com/app.msi ...}} --submit`
+`komac update {{Paquete.Identificador}} --version {{1.2.3}} --urls {{https://example.com/app.exe https://example.com/app.msi ...}} --submit`
 
 - Elimina una versión de winget-pkgs:
 
