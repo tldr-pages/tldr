@@ -25,4 +25,4 @@
 
 - List supported machine types:
 
-`qemu-system-x86_64 {{[-M|--machine]}} help`
+`qemu-system-x86_64 {{[-M|-machine]}} help`
