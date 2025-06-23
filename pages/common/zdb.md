@@ -11,6 +11,6 @@
 
 `zdb {{[-C|--config]}} {{poolname}}`
 
-- Show statistics about number, size and deduplication of [b]locks:
+- Show statistics about number, size and deduplication of blocks:
 
 `zdb {{[-b|--block-stats]}} {{poolname}}`
