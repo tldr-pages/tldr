@@ -1,7 +1,7 @@
 # qemu-system-arm
 
 > Emulate `arm` architecture.
-> More information: <https://www.qemu.org/docs/master/system/target-riscv.html>.
+> More information: <https://www.qemu.org/docs/master/system/target-arm.html>.
 
 - Boot a kernel emulating `arm` architecture:
 
