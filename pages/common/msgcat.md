@@ -6,23 +6,23 @@
 
 - Combine multiple `.po` files into one:
 
-`msgcat {{file1.po file2.po ...}} > {{combined.po}}`
+`msgcat {{file1.po file2.po ...}} {{[-o|--output-file]}} {{combined.po}}`
 
 - Combine input files listed in a text file:
 
-`msgcat --files-from {{path/to/file_list.txt}} > {{combined.po}}`
+`msgcat --files-from {{path/to/file_list.txt}} {{[-o|--output-file]}} {{combined.po}}`
 
 - Set the output encoding (e.g., UTF-8):
 
-`msgcat --to-code {{UTF-8}} {{input.po}} > {{output.po}}`
+`msgcat --to-code {{UTF-8}} {{input.po}} {{[-o|--output-file]}} {{output.po}}`
 
 - Output only unique messages (appearing in one file only):
 
-`msgcat --unique {{file1.po file2.po ...}} > {{unique.po}}`
+`msgcat --unique {{file1.po file2.po ...}} {{[-o|--output-file]}} {{unique.po}}`
 
 - Use the first available translation for duplicate entries:
 
-`msgcat --use-first {{file1.po file2.po ...}} > {{output.po}}`
+`msgcat --use-first {{file1.po file2.po ...}} {{[-o|--output-file]}} {{output.po}}`
 
 - Display help:
 
