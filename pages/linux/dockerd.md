@@ -9,16 +9,16 @@
 
 - Run Docker daemon and configure it to listen to specific sockets (UNIX and TCP):
 
-`dockerd --host unix://{{path/to/tmp.sock}} --host tcp://{{ip}}`
+`dockerd {{[-H|--host]}} unix://{{path/to/tmp.sock}} {{[-H|--host]}} tcp://{{ip}}`
 
 - Run with specific daemon PID file:
 
-`dockerd --pidfile {{path/to/pid_file}}`
+`dockerd {{[-p|--pidfile]}} {{path/to/pid_file}}`
 
 - Run in debug mode:
 
-`dockerd --debug`
+`dockerd {{[-D|--debug]}}`
 
 - Run and set a specific log level:
 
-`dockerd --log-level {{debug|info|warn|error|fatal}}`
+`dockerd {{[-l|--log-level]}} {{debug|info|warn|error|fatal}}`
