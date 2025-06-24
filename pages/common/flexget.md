@@ -15,6 +15,6 @@
 
 `flexget series list`
 
-- Run a task from a config file:
+- Run a task from a configuration file:
 
 `flexget -c {{path/to/config.yml}} execute --task {{task_name}}`
