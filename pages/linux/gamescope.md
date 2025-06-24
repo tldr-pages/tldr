@@ -23,6 +23,10 @@
 
 `gamescope {{[-e|--steam]}} -- /usr/bin/steam -tenfoot`
 
+- Specify which display to prefer:
+
+`gamescope {{[-O|--prefer-output]}} {{HDMI-A-1,DP-3,...}} -- {{program}}`
+
 - Toggle fullscreen:
 
 `<Super f>`
