@@ -1,6 +1,6 @@
 # sqlx
 
-> Command-line utility for SQLx, the Rust SQL toolkit.
+> Utility for SQLx, the Rust SQL toolkit.
 > More information: <https://github.com/launchbadge/sqlx/blob/main/sqlx-cli/README.md>.
 
 - Create the database specified in the DATABASE_URL environment variable:

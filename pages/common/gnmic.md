@@ -1,6 +1,6 @@
 # gnmic
 
-> A gNMI command-line client.
+> A gNMI client.
 > Manage gNMI network device configuration and view operational data.
 > More information: <https://gnmic.kmrd.dev>.
 
