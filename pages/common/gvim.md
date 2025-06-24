@@ -6,8 +6,8 @@
 
 - Open `gvim`:
 
-`gvim {{path/to/file}}`
+`gvim`
 
-- Open a specific file in `gvim`:
+- Open a specific file:
 
 `gvim {{path/to/file}}`
