@@ -21,4 +21,4 @@
 
 - Push the current directory to a new GitHub repository:
 
-`gh repo create --source=. --public`
+`gh repo create --source . --public`
