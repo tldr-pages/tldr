@@ -9,7 +9,7 @@
 
 - Lees van `stdin`:
 
-`{{commando}} | nl -`
+`{{commando}} | nl`
 
 - Nummer [a]lle [b]ody regels inclusief lege regels of [n]ummer geen [b]ody regels:
 
