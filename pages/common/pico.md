@@ -23,7 +23,7 @@
 
 `pico -m {{path/to/file}}`
 
-- Set the operating directory for 'pico':
+- Set the operating directory for `pico`:
 
 `pico -o {{path/to/directory}}`
 
