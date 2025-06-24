@@ -26,12 +26,12 @@
 
 - Make an interface up/down:
 
-`sudo ip {{[l|link]}} {{[s|set]}} {{interface_name}} {{up|down}}`
+`sudo ip {{[l|link]}} {{[s|set]}} {{ethX}} {{up|down}}`
 
 - Add/Delete an IP address to an interface:
 
-`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{interface_name}}`
+`sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{ethX}}`
 
 - Add a default route:
 
-`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{interface_name}}`
+`sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{ethX}}`
