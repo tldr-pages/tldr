@@ -1,7 +1,8 @@
-# gh-repo-create
-> Create a new GitHub repository using the GitHub CLI.  
+# gh repo create
+
+> Create a new GitHub repository using the GitHub CLI.
 > More information: <https://cli.github.com/manual/gh_repo_create>.
-> 
+
 - Create a new repository interactively:
 
 `gh repo create`
