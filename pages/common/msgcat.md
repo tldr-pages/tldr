@@ -10,15 +10,15 @@
 
 - Combine input files listed in a text file:
 
-`msgcat --files-from {{path/to/file_list.txt}} {{[-o|--output-file]}} {{combined.po}}`
+`msgcat {{[-f|--files-from]}} {{path/to/file_list.txt}} {{[-o|--output-file]}} {{combined.po}}`
 
-- Set the output encoding (e.g., UTF-8):
+- Set the output encoding (e.g. UTF-8):
 
-`msgcat --to-code {{UTF-8}} {{input.po}} {{[-o|--output-file]}} {{output.po}}`
+`msgcat {{[-t|--to-code]}} {{UTF-8}} {{input.po}} {{[-o|--output-file]}} {{output.po}}`
 
 - Output only unique messages (appearing in one file only):
 
-`msgcat --unique {{file1.po file2.po ...}} {{[-o|--output-file]}} {{unique.po}}`
+`msgcat {{[-u|--unique]}} {{file1.po file2.po ...}} {{[-o|--output-file]}} {{unique.po}}`
 
 - Use the first available translation for duplicate entries:
 
@@ -26,4 +26,4 @@
 
 - Display help:
 
-`msgcat --help`
+`msgcat {{[-h|--help]}}`
