@@ -1,6 +1,6 @@
 # pico
 
-> Command-line text editor styled after the Alpine Composer.
+> Text editor styled after the Alpine Composer.
 > More information: <https://manned.org/pico>.
 
 - Start the editor:
