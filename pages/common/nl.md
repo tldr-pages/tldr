@@ -9,7 +9,7 @@
 
 - Read from `stdin`:
 
-`{{command}} | nl -`
+`{{command}} | nl`
 
 - Number [a]ll [b]ody lines including blank lines or do [n]ot number [b]ody lines:
 
