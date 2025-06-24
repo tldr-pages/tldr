@@ -128,7 +128,7 @@ Algunos subcomandos, como `example command`, tienen su propia documentación de 
 ### fi
 
 ```markdown
-Joillakin alakomennoilla, kuten `example command`, on omat käyttöoppaansa.
+Joillakin alikomennoilla, kuten `example command`, on omat käyttöoppaansa.
 ```
 
 ---
