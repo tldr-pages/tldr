@@ -9,16 +9,16 @@
 
 - Start the daemon, logging to `stdout`:
 
-`bluetoothd --nodetach`
+`bluetoothd {{[-n|--nodetach]}}`
 
 - Start the daemon with a specific configuration file (defaults to `/etc/bluetooth/main.conf`):
 
-`bluetoothd --configfile {{path/to/file}}`
+`bluetoothd {{[-f|--configfile]}} {{path/to/file}}`
 
 - Start the daemon with verbose output to `stderr`:
 
-`bluetoothd --debug`
+`bluetoothd {{[-d|--debug]}}`
 
 - Start the daemon with verbose output coming from specific files in the bluetoothd or plugins source:
 
-`bluetoothd --debug={{path/to/file1:path/to/file2:...}}`
+`bluetoothd {{[-d|--debug=]}}{{path/to/file1:path/to/file2:...}}`

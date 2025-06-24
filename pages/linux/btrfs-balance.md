@@ -13,7 +13,7 @@
 
 - Balance data block groups which are less than 15% utilized, running the operation in the background:
 
-`sudo btrfs balance start --bg -dusage={{15}} {{path/to/btrfs_filesystem}}`
+`sudo btrfs balance start {{[--bg|--background]}} -dusage={{15}} {{path/to/btrfs_filesystem}}`
 
 - Balance a max of 10 metadata chunks with less than 20% utilization and at least 1 chunk on a given device `devid` (see `btrfs filesystem show`):
 
