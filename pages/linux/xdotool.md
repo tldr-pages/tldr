@@ -1,6 +1,6 @@
 # xdotool
 
-> Command-line automation for X11.
+> Automate X11 actions.
 > More information: <https://manned.org/xdotool>.
 
 - Retrieve the X-Windows window ID of the running Firefox window(s):
