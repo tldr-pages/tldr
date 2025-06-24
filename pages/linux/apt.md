@@ -25,10 +25,9 @@
 
 `sudo apt install {{package}}`
 
-- Remove a package (keep configs), or purge (remove config files too):
+- Remove a package (use `purge` instead to remove config files too):
 
 `sudo apt remove {{package}}`
-`sudo apt purge {{package}}`
 
 - Upgrade all installed packages to their latest versions:
 
