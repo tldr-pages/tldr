@@ -13,4 +13,4 @@
 
 - Create a new issue, optionally set a parent issue:
 
-`jira issue create -P{{parent}}`
+`jira issue create --parent {{parent}}`
