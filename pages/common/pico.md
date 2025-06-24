@@ -9,7 +9,7 @@
 
 - Start the editor with the cursor located n lines into the file:
 
-`pico +n {{path/to/file}}`
+`pico +{{n}} {{path/to/file}}`
 
 - Start the editor with the cursor shown before the current selection:
 
