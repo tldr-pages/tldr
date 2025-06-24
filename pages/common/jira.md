@@ -1,6 +1,6 @@
 # jira
 
-> Command line interface (third party) for interacting with Jira.
+> Interface (third party) for interacting with Jira.
 > More information: <https://github.com/ankitpokhrel/jira-cli>.
 
 - List recent issues:
