@@ -1,6 +1,6 @@
 # apt
 
-> Command-line package manager for Debian-based distributions.
+> Package manager for Debian-based distributions.
 > Intended as a user-friendly alternative to `apt-get` for interactive use.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://manned.org/apt.8>.
@@ -21,7 +21,7 @@
 
 `apt show {{package}}`
 
-- Install a package, or update it to latest:
+- Install a package, or update it to latest version:
 
 `sudo apt install {{package}}`
 
