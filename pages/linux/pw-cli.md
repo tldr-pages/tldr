@@ -5,7 +5,7 @@
 
 - Print information of all object of a specific type:
 
-`pw-cli {{[ls|list-objects]}} {{Node|Link|Port|Client|Device|Metadata|Factory|Module|Profiler|SecurityContext|Core}}
+`pw-cli {{[ls|list-objects]}} {{Node|Link|Port|Client|Device|Metadata|Factory|Module|Profiler|SecurityContext|Core}}`
 
 - Print information about an object with a specific ID:
 
