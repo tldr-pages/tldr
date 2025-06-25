@@ -9,7 +9,7 @@
 
 - List all current devices and monitor for any changes:
 
-`gst-device-monitor-1.0 {{[-f|--folloe]}}`
+`gst-device-monitor-1.0 {{[-f|--follow]}}`
 
 - List devices of a specific type:
 
