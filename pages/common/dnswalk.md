@@ -32,6 +32,6 @@
 
 `dnswalk -F {{domain.}}`
 
-- Enable "lame delegation" to test whether the listed host is returning authoritative answers:
+- Enable "[l]ame delegation" to test whether the listed host is returning authoritative answers:
 
 `dnswalk -l {{domain.}}`
