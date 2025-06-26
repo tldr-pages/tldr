@@ -25,7 +25,7 @@
 
 `sudo apt install {{package}}`
 
-- Remove a package (use `purge` instead to remove config files too):
+- Remove a package (use `purge` instead to also remove configuration files):
 
 `sudo apt remove {{package}}`
 
