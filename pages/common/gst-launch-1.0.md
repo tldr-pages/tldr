@@ -27,3 +27,7 @@
 - Force an End Of Stream event if the pipeline is shut down with `<Ctrl c>` for containers that require finalization such as `mp4`:
 
 `gst-launch-1.0 {{[-e|--eos-on-shutdown]}} videotestsrc ! x264enc ! mp4mux ! filesink location={{path/to/file.mp4}}`
+
+- Multiplex together test video and test audio into a file:
+
+`gst-launch-1.0 {{[-e|--eos-on-shutdown]}} videotestsrc ! x264enc ! {{element_name}}. audiotestsrc ! opusenc ! {{element_name}}. matroskamux name={{element_name}} ! filesink location={{path/to/file.mkv}}`
