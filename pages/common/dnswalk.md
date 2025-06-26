@@ -4,7 +4,7 @@
 > "Walks" across zones and validates database consistency and best practices.
 > More information: <https://manned.org/dnswalk>.
 
-- Debug a DNS pathway for a domain:
+- Debug a DNS pathway for a Full Qualified Domain Name (FQDN):
 
 `dnswalk {{domain.}}`
 
