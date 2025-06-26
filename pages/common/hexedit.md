@@ -17,4 +17,4 @@
 
 - Show help page:
 
-`hexedit -h`
+`hexedit {{[-h|--help]}}`
