@@ -20,7 +20,7 @@
 
 `dnswalk -d {{domain.}}`
 
-- Suppress check for invalid characters in domain name:
+- Suppress check for [i]nvalid characters in domain name:
 
 `dnswalk -i {{domain.}}`
 
