@@ -20,6 +20,6 @@
 
 `pwqgen {{[-h|--help]}}`
 
-- View program version and exit:
+- Display version:
 
 `pwqgen --version`
