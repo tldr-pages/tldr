@@ -1,6 +1,6 @@
 # pkgz
 
-> Unified package manager CLI for installing, removing, updating, and searching packages from multiple sources.  
+> Unified package manager for installing, removing, updating, and searching packages from multiple sources.  
 > More information: <https://github.com/roguehashrate/pkgz>
 
 - Install a package:
