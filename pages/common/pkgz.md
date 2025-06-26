@@ -1,7 +1,7 @@
 # pkgz
 
 > Unified package manager for installing, removing, updating, and searching packages from multiple sources.  
-> More information: <https://github.com/roguehashrate/pkgz>
+> More information: <https://github.com/roguehashrate/pkgz#-usage>
 
 - Install a package:
 
