@@ -13,6 +13,6 @@
 
 `rnano {{path/to/file}}`
 
-- Show all command line options:
+- Display help:
 
 `rnano {{[-h|--help]}} {{path/to/file}}`
