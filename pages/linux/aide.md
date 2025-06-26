@@ -25,8 +25,8 @@
 
 - Use REGEX to limit AIDE to a specific string:
 
-`aide {{[-l |--limit=]}}{{REGEX}}`
+`aide {{[-l|--limit]}} {{REGEX}}`
 
 - Send reporter results to a URL:
 
-`aide {{[-r |--report=]}}{{reporterurl}}`
+`aide {{[-r|--report]}} {{reporterurl}}`
