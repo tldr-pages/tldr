@@ -21,7 +21,7 @@
 
 - Define a config file to override the default {{./aide.conf}}:
 
-`sudo aide {{[-c|--config=]}} {{path/to/configfile}}`
+`sudo aide {{[-c|--config]}} {{path/to/configfile}}`
 
 - Use REGEX to limit AIDE to a specific string:
 
