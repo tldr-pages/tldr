@@ -16,7 +16,7 @@
 
 `pwqgen config={{path/to/config_file}}`
 
-- View program help text and exit:
+- Display help:
 
 `pwqgen {{[-h|--help]}}`
 
