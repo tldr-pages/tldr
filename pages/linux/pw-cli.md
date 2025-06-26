@@ -15,7 +15,7 @@
 
 `pw-cli {{[i|info]}} all`
 
-- Monitor for activity:
+- Monitor for object changes:
 
 `pw-cli {{[-m|--monitor]}}`
 
