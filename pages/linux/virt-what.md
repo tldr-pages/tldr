@@ -12,6 +12,6 @@
 
 `virt-what > {{path/to/file}}`
 
-- Show version:
+- Display version:
 
 `virt-what --version`
