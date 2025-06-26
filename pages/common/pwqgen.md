@@ -14,7 +14,7 @@
 
 - Use a config file to control password generation:
 
-`pwqgen config={{path/to/configfile}}`
+`pwqgen config={{path/to/config_file}}`
 
 - View program help text and exit:
 
