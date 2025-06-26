@@ -29,4 +29,4 @@
 
 - Send reporter results to a URL:
 
-`aide {{[-r|--report=]}} {{reporterurl}}`
+`aide {{[-r |--report=]}}{{reporterurl}}`
