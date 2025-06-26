@@ -19,6 +19,6 @@
 
 `pkgz update`
 
-- Show the version of pkgz:
+- Display version:
 
 `pkgz --version`
