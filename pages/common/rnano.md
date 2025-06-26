@@ -15,4 +15,4 @@
 
 - Show all command line options:
 
-`rnano -h {{path/to/file}}`
+`rnano {{[-h|--help]}} {{path/to/file}}`
