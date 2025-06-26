@@ -3,7 +3,7 @@
 > Emulate `x86_64` architecture.
 > More information: <https://www.qemu.org/docs/master/system/target-i386.html>.
 
-- Boot from image emulating x64 architecture:
+- Boot from image emulating `x86_64` architecture:
 
 `qemu-system-x86_64 -hda {{image_name.img}} -m {{4096}}`
 
