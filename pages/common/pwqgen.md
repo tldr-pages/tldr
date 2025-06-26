@@ -1,6 +1,6 @@
 # pwqgen
 
-> Generates a random passphrase.
+> Generate a random passphrase.
 > See also: `libpasswdqc`.
 > More information: <https://manned.org/pwqgen>.
 
