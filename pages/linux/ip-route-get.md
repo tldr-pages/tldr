@@ -13,11 +13,11 @@
 
 - Print route to a destination for packets arriving on a specific interface:
 
-`ip {{[r|route]}} {{[g|get]}} {{destination}} iif {{eth0}}`
+`ip {{[r|route]}} {{[g|get]}} {{destination}} iif {{ethX}}`
 
 - Print route to a destination, forcing output through a specific interface:
 
-`ip {{[r|route]}} {{[g|get]}} {{destination}} oif {{eth1}}`
+`ip {{[r|route]}} {{[g|get]}} {{destination}} oif {{ethX}}`
 
 - Print route to a destination with a specified Type of Service (ToS):
 
