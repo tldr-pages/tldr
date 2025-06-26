@@ -6,7 +6,7 @@
 
 - Debug a DNS pathway for a Full Qualified Domain Name (FQDN):
 
-`dnswalk {{domain.}}`
+`dnswalk {{domain}}.`
 
 - Descend sub-domains recursively:
 
