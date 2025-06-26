@@ -1,11 +1,16 @@
 # gst-launch-1.0
 
 > Build and run a GStreamer pipeline.
+> See also: `gst-inspect-1.0`.
 > More information: <https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html>.
 
 - Play test video in a window:
 
 `gst-launch-1.0 videotestsrc ! xvimagesink`
+
+- Play test audio:
+
+`gst-launch-1.0 audiotestsrc ! autoaudiosink`
 
 - Play a media file in a window:
 
