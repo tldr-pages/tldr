@@ -1,6 +1,6 @@
 # hexedit
 
-> File editor for hexademical and ASCII content.
+> File editor for hexadecimal and ASCII content.
 > More information: <https://manned.org/hexedit>.
 
 - Open file:
