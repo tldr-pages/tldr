@@ -9,7 +9,7 @@
 
 - Display file with sectors:
 
-`hexedit -s {{path/to/file}}`
+`hexedit {{[-s|--sector]}} {{path/to/file}}`
 
 - Maximize file display:
 
