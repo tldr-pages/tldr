@@ -23,6 +23,6 @@
 
 `kubie exec {{context}} {{namespace}} {{command}}`
 
-- Check the Kubernetes config files for issues:
+- Check the Kubernetes configuration files for issues:
 
 `kubie lint`
