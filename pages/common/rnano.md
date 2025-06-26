@@ -15,4 +15,4 @@
 
 - Display help:
 
-`rnano {{[-h|--help]}} {{path/to/file}}`
+`rnano {{[-h|--help]}}`
