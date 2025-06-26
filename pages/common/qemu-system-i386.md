@@ -3,7 +3,7 @@
 > Emulate `i386` architecture.
 > More information: <https://www.qemu.org/docs/master/system/target-i386.html>.
 
-- Boot from image emulating i386 architecture:
+- Boot from image emulating `i386` architecture:
 
 `qemu-system-i386 -hda {{image_name.img}} -m {{4096}}`
 
