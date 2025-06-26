@@ -13,7 +13,7 @@
 
 - Maximize file display:
 
-`hexedit -m {{path/to/file}}`
+`hexedit {{[-m|--maximize]}} {{path/to/file}}`
 
 - Show help page:
 
