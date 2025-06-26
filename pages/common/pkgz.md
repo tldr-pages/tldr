@@ -1,19 +1,24 @@
 # pkgz
 
-A fast, extensible CLI package manager written in Crystal.  
-Supports unified package management across Apt, Flatpak, Pacstall, Pacman, Paru, DNF, and BSD package systems.
+> Unified package manager CLI for installing, removing, updating, and searching packages from multiple sources.  
+> More information: <https://github.com/libertyimp/pkgz>
 
-- `pkgz install <app>`  
-  Installs the app from the first enabled source where it’s found.
+- Install a package:
 
-- `pkgz remove <app>`  
-  Attempts to remove the app from all enabled sources.
+`pkgz install {{package_name}}`
 
-- `pkgz update`  
-  Runs update commands on all enabled sources.
+- Remove a package:
 
-- `pkgz search <app>`  
-  Searches across all enabled sources and lists matches.
+`pkgz remove {{package_name}}`
 
-- `pkgz --version`  
-  Prints the current pkgz version.
+- Search for a package:
+
+`pkgz search {{package_name}}`
+
+- Update all packages in all sources:
+
+`pkgz update`
+
+- Show the version of pkgz:
+
+`pkgz --version`
