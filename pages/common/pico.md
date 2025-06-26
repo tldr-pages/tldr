@@ -19,7 +19,7 @@
 
 `pico -Q "{{quotestring}}" {{path/to/file}}`
 
-- Enable mouse functionality when run within an 'xterm' window:
+- Enable mouse functionality when run within an `xterm` window:
 
 `pico -m {{path/to/file}}`
 
