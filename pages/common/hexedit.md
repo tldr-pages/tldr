@@ -15,6 +15,6 @@
 
 `hexedit {{[-m|--maximize]}} {{path/to/file}}`
 
-- Show help page:
+- Display help:
 
 `hexedit {{[-h|--help]}}`
