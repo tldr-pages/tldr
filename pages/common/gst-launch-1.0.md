@@ -6,7 +6,7 @@
 
 - Play test video in a window:
 
-`gst-launch-1.0 videotestsrc ! xvimagesink`
+`gst-launch-1.0 videotestsrc ! autovideosink`
 
 - Play test audio:
 
