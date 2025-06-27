@@ -9,15 +9,15 @@
 
 - Do not show progress information:
 
-`gdebi {{path/to/package.deb}} --quiet`
+`gdebi {{path/to/package.deb}} {{[-q|--quiet]}}`
 
 - Set an APT configuration option:
 
-`gdebi {{path/to/package.deb}} --option={{APT_OPTS}}`
+`gdebi {{path/to/package.deb}} {{[-o|--option]}} {{APT_OPTS}}`
 
 - Use alternative root dir:
 
-`gdebi {{path/to/package.deb}} --root={{path/to/root_dir}}`
+`gdebi {{path/to/package.deb}} --root {{path/to/root_dir}}`
 
 - Display version:
 
