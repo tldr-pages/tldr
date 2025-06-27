@@ -1,6 +1,7 @@
 # pw-cli
 
 > Manage a PipeWire instance's modules, objects, nodes, devices, links and much more.
+> See also: `wpctl`.
 > More information: <https://docs.pipewire.org/page_man_pw-cli_1.html>.
 
 - Print information of all object of a specific type:
