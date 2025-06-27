@@ -27,10 +27,10 @@
 
 `away {{[-P|--nopersist]}} {{message}}`
 
-- Display version:
-
-`away {{[-v|--version]}} {{message}}`
-
 - Display help:
 
-`away {{[-h|--help]}} {{message}}`
+`away {{[-h|--help]}}`
+
+- Display version:
+
+`away {{[-v|--version]}}`
