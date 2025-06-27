@@ -1,6 +1,6 @@
 # stress-ng
 
-> Load and stress a Linux system in various ways (CPU, memory, I/O, etc.). 
+> Load and stress a Linux system in various ways (CPU, memory, I/O, etc.).
 > Useful for benchmarking, hardware validation, and stability testing.
 > More information: <https://manpages.ubuntu.com/manpages/focal/man1/stress-ng.1.html>.
 
