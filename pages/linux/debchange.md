@@ -5,11 +5,11 @@
 
 - Add a new version for a non-maintainer upload to the changelog:
 
-`debchange --nmu`
+`debchange {{[-n|--nmu]}}`
 
 - Add a changelog entry to the current version:
 
-`debchange --append`
+`debchange {{[-a|--append]}}`
 
 - Add a changelog entry to close the bug with specified ID:
 
