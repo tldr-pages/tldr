@@ -14,12 +14,12 @@
 
 - Unvote one or more AUR packages:
 
-`aurvote --unvote {{package1 package2 ...}}`
+`aurvote {{[-u|--unvote]}} {{package1 package2 ...}}`
 
 - Check if one or more AUR packages have already been voted:
 
-`aurvote --check {{package1 package2 ...}}`
+`aurvote {{[-c|--check]}} {{package1 package2 ...}}`
 
 - Display help:
 
-`aurvote --help`
+`aurvote {{[-h|--help]}}`

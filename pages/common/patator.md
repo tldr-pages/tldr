@@ -23,6 +23,6 @@
 
 `patator --help`
 
-- Show help for a particular module:
+- Display help for a particular module:
 
 `patator {{module_name}} --help`

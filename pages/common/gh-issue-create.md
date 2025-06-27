@@ -27,6 +27,6 @@
 
 `gh issue create {{[-w|--web]}}`
 
-- Display the help:
+- Display help:
 
 `gh issue create --help`
