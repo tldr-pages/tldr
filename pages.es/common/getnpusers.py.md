@@ -6,11 +6,11 @@
 
 - Enumera los usuarios con la autenticación previa de Kerberos desactivada (enumeración anónima por defecto):
 
-`GetNPUsers.py {{dominio}}/ -usersfile {{ruta/a/la/lista_de_usuarios}} -dc-ip {{ip_del_controlador_de_dominio}}`
+`GetNPUsers.py {{dominio}}/ -usersfile {{ruta/a/la/lista_de_usuarios}} -dc-ip {{ip_del_controlador_de_dominio}} -no-pass`
 
 - Realiza roasting AS-REP y vuelca hash descifrables para descifrados sin conexión:
 
-`GetNPUsers.py {{dominio}}/ -usersfile {{ruta/a/la/lista_de_usuarios}} -dc-ip {{ip_del_controlador_de_dominio}} -request`
+`GetNPUsers.py {{dominio}}/ -usersfile {{ruta/a/la/lista_de_usuarios}} -dc-ip {{ip_del_controlador_de_dominio}} -no-pass -request`
 
 - Autentica con credenciales válidas (si el enlace anónimo está desactivado):
 
