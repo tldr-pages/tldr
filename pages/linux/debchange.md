@@ -1,6 +1,6 @@
 # debchange
 
-> Mantain the debian/changelog file of a Debian source package.
+> Maintain the debian/changelog file of a Debian source package.
 > More information: <https://manned.org/debchange.1>.
 
 - Add a new version for a non-maintainer upload to the changelog:
