@@ -9,4 +9,4 @@
 
 - Add multiple physical volumes to an existing volume group:
 
-`vgextend {{vg1}} {{/dev/sda1}} {{/dev/sda2}}`
+`vgextend {{vg1}} {{/dev/sda1 /dev/sda2 ...}}`
