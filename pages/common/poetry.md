@@ -32,6 +32,6 @@
 
 `poetry version {{patch|minor|major|prepatch|preminor|premajor|prerelease}}`
 
-- Spawn a shell within the project's virtual environment:
+- Spawn a shell within the project's virtual environment (for versions below 2.0, use `poetry shell`):
 
-`poetry shell`
+`eval "$(poetry env activate)"`
