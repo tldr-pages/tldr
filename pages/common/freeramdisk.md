@@ -1,9 +1,9 @@
 # freeramdisk
 
-> Frees memory used by loadin ramdisk on legacy systems.
+> Frees memory used by loadlin ramdisk on legacy systems.
 > Largely deprecated by `umount`, `losetup`, and `tmpfs`.
 > More information: <https://manned.org/freeramdisk>.
 
-- Free loadin ramdisk memory:
+- Free loadlin ramdisk memory:
 
 `sudo freeramdisk`
