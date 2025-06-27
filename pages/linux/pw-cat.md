@@ -1,6 +1,7 @@
 # pw-cat
 
 > Play and record audio files through PipeWire.
+> See also: `wpctl`, `pw-cli`.
 > More information: <https://docs.pipewire.org/page_man_pw-cat_1.html>.
 
 - Play a WAV file over the default target:
