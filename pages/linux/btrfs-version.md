@@ -7,6 +7,6 @@
 
 `btrfs version --help`
 
-- Display btrfs-progs version:
+- Display version:
 
 `btrfs version`
