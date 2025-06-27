@@ -30,4 +30,4 @@
 
 - Display help:
 
-`dolphin {{[-h|--help]}}`
+`dolphin --help`
