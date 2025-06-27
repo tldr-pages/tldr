@@ -15,7 +15,7 @@
 
 `pulumi org set-default {{organization_name}}`
 
-- Search for resources in Pulumi Cloud using Pulumi AI with plaintext natural language query:
+- Search for resources in Pulumi Cloud using Pulumi AI with a plaintext natural language query:
 
 `pulumi org search ai {{[-q|--query]}} {{"show me all load balancers in my organization"}}`
 
