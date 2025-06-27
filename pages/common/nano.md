@@ -1,7 +1,8 @@
 # nano
 
-> Text editor. An enhanced `Pico` clone.
-> More information: <https://nano-editor.org>.
+> Text editor. An enhanced `pico` clone.
+> See also: `pico`, `rnano`.
+> More information: <https://nano-editor.org/dist/latest/nano.html>.
 
 - Start the editor:
 
