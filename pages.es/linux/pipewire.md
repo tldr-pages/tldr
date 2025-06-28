@@ -3,7 +3,7 @@
 > Inicia el programa residente PipeWire.
 > Más información: <https://docs.pipewire.org/page_man_pipewire_1.html>.
 
-- Inicia el  programa residente PipeWire:
+- Inicia el programa residente PipeWire:
 
 `pipewire`
 
