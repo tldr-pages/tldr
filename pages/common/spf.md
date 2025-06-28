@@ -23,7 +23,7 @@
 
 `spf {{[-c|--config-file]}} {{path/to/config.toml}} {{[--hf|--hotkey-file]}} {{path/to/hotkey.toml}}`
 
-- Set a chooser file: write the opened path to this file and exit:
+- Set a chooser file; write the opened path to this file and exit:
 
 `spf {{[--cf|--chooser-file]}} {{/tmp/chooser-result}}`
 
