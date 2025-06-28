@@ -14,4 +14,4 @@
 
 - Quit alpine:
 
-`q + y`
+`<q><y>`
