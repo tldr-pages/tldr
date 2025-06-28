@@ -13,7 +13,7 @@
 
 `apt search {{package}}`
 
-- Search packages by name only (supports wildcards like "*"):
+- Search packages by name only (supports wildcards like `*`):
 
 `apt list {{package}}`
 
