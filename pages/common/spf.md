@@ -29,4 +29,4 @@
 
 - Show internal configuration and data directory paths:
 
-`spf path-list`
+`spf {{[pl|path-list]}}`
