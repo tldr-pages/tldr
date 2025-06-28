@@ -23,7 +23,7 @@
 
 `chkrootkit -r {{path/to/directory}}`
 
-- Ignore [n[fs-mounted directories:
+- Ignore [n]fs-mounted directories:
 
 `chkrootkit -n`
 
