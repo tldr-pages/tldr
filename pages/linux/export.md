@@ -11,7 +11,7 @@
 
 `export -n {{VARIABLE}}`
 
-- Export a function to child processes:
+- Export a [f]unction to child processes:
 
 `export -f {{FUNCTION_NAME}}`
 
