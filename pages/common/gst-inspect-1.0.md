@@ -10,3 +10,7 @@
 - List hardware transcoding capabilities of your device:
 
 `gst-inspect-1.0 {{vaapi|nvcodec}}`
+
+- List all available plugins:
+
+`gst-inspect-1.0`
