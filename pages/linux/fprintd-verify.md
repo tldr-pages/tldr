@@ -25,4 +25,4 @@
 
 - Display help:
 
-`fprintd-verify --help`
+`fprintd-verify {{[-h|--help]}}`
