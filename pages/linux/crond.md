@@ -11,7 +11,7 @@
 
 `crond -n`
 
-- Send job output from the daemon to the system log:
+- Send job output from the daemon to the [s]ystem log:
 
 `crond -s`
 
