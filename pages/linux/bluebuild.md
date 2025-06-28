@@ -13,7 +13,7 @@
 
 - Generate a Containerfile:
 
-`bluebuild generate --output {{Containerfile}} {{path/to/recipe.yml}}`
+`bluebuild generate {{[-o|--output]}} {{Containerfile}} {{path/to/recipe.yml}}`
 
 - Generate an ISO from a recipe:
 
@@ -21,4 +21,4 @@
 
 - Display help:
 
-`bluebuild --help`
+`bluebuild {{[-h|--help]}}`
