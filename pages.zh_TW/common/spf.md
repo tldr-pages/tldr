@@ -23,7 +23,7 @@
 
 `spf {{[-c|--config-file]}} {{path/to/config.toml}} {{[--hf|--hotkey-file]}} {{path/to/hotkey.toml}}`
 
-- 設定選擇器檔案：將開啟的路徑寫入該檔案並退出：
+- 將第一個開啟的檔案路徑寫入該檔案並退出：
 
 `spf {{[--cf|--chooser-file]}} {{/tmp/chooser-result}}`
 
