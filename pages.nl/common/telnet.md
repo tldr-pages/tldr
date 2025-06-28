@@ -21,7 +21,7 @@
 
 - Start `telnet` met "x" als het sessie beëindigingsteken:
 
-`telnet -e {{x}} {{ip_adres}} {{poort}}`
+`telnet {{[-e|--escape]}} {{x}} {{ip_adres}} {{poort}}`
 
 - Telnet naar de Star Wars-animatie:
 

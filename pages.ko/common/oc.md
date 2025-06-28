@@ -2,7 +2,7 @@
 
 > OpenShift 컨테이너 플랫폼 CLI.
 > 애플리케이션 및 컨테이너 관리를 허용합니다.
-> 더 많은 정보: <https://docs.openshift.com/container-platform/3.11/cli_reference/get_started_cli.html>.
+> 더 많은 정보: <https://docs.openshift.com/container-platform/latest/cli_reference/get_started_cli.html>.
 
 - OpenShift 컨테이너 플랫폼 서버에 로그인:
 

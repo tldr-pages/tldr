@@ -9,23 +9,23 @@
 
 - 생성된 이미지에 `CMD` Dockerfile 명령 적용:
 
-`docker commit --change "CMD {{명령}}" {{컨테이너}} {{이미지}}:{{태그}}`
+`docker commit {{[-c|--change]}} "CMD {{명령}}" {{컨테이너}} {{이미지}}:{{태그}}`
 
 - 생성된 이미지에 `ENV` Dockerfile 명령 적용:
 
-`docker commit --change "ENV {{이름}}={{값}}" {{컨테이너}} {{이미지}}:{{태그}}`
+`docker commit {{[-c|--change]}} "ENV {{이름}}={{값}}" {{컨테이너}} {{이미지}}:{{태그}}`
 
 - 메타데이터에 특정 작성자를 포함하여 이미지 생성:
 
-`docker commit --author "{{작성자}}" {{컨테이너}} {{이미지}}:{{태그}}`
+`docker commit {{[-a|--author]}} "{{작성자}}" {{컨테이너}} {{이미지}}:{{태그}}`
 
 - 메타데이터에 특정 주석을 포함하여 이미지 생성:
 
-`docker commit --message "{{주석}}" {{컨테이너}} {{이미지}}:{{태그}}`
+`docker commit {{[-m|--message]}} "{{주석}}" {{컨테이너}} {{이미지}}:{{태그}}`
 
 - 커밋 중 컨테이너를 중지하지 않고 이미지 생성:
 
-`docker commit --pause {{false}} {{컨테이너}} {{이미지}}:{{태그}}`
+`docker commit {{[-p|--pause]}} {{false}} {{컨테이너}} {{이미지}}:{{태그}}`
 
 - 도움말 표시:
 

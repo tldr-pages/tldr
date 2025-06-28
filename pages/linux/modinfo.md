@@ -10,4 +10,4 @@
 
 - List the specified attribute only:
 
-`modinfo {{[-F|--field]}} {{author|description|license|parm|filename}} {{kernel_module}}`
+`modinfo {{[-F|--field]}} {{author|description|license|parm|filename|version|...}} {{kernel_module}}`

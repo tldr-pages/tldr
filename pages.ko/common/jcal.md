@@ -1,7 +1,7 @@
 # jcal
 
 > Jalali 형식으로 달력을 표시하며, 현재 날짜를 강조 표시.
-> 더 많은 정보: <https://www.nongnu.org/jcal/>.
+> 더 많은 정보: <https://www.nongnu.org/jcal/jcal.html>.
 
 - 현재 월의 달력 표시:
 

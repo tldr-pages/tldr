@@ -1,7 +1,7 @@
 # matlab
 
 > MathWorks의 수치 계산 환경.
-> 더 많은 정보: <https://uk.mathworks.com/help/matlab/>.
+> 더 많은 정보: <https://se.mathworks.com/help/matlab/matlab_env/startup-options.html>.
 
 - 시작 시 스플래시 화면 없이 실행:
 

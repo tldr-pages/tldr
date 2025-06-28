@@ -20,7 +20,7 @@
 
 `ipcs {{[-l|--limits]}} {{--bytes|--human}}`
 
-- Show s[u]mmary about current usage:
+- Show summary about current usage:
 
 `ipcs {{[-u|--summary]}}`
 

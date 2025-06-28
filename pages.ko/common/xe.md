@@ -1,7 +1,7 @@
 # xe
 
 > 다른 명령이나 파일에서 파이프로 전달된 각 줄에 대해 명령을 한 번 실행.
-> 더 많은 정보: <https://github.com/leahneukirchen/xe>.
+> 더 많은 정보: <https://github.com/leahneukirchen/xe/blob/master/README>.
 
 - 입력 데이터의 각 줄을 인수로 사용하여 명령 실행:
 

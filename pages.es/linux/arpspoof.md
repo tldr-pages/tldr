@@ -1,7 +1,7 @@
 # arpspoof
 
 > Forja respuestas ARP para interceptar paquetes.
-> Más información: <https://monkey.org/~dugsong/dsniff>.
+> Más información: <https://manned.org/arpspoof>.
 
 - Envenena todos los hosts para interceptar paquetes en la [i]nterfaz para el host:
 

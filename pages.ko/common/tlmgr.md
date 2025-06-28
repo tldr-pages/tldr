@@ -2,7 +2,7 @@
 
 > 기존 TeX Live 설치의 패키지 및 구성 옵션 관리.
 > `paper`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-> 더 많은 정보: <https://www.tug.org/texlive/tlmgr.html>.
+> 더 많은 정보: <https://www.tug.org/texlive/doc/tlmgr.html#ACTIONS>.
 
 - 패키지 및 그 의존성 설치:
 

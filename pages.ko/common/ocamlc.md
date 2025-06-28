@@ -2,7 +2,7 @@
 
 > OCaml 바이트코드 컴파일러.
 > OCaml 인터프리터로 실행 가능한 실행 파일을 생성합니다.
-> 더 많은 정보: <https://ocaml.org>.
+> 더 많은 정보: <https://manned.org/ocamlc>.
 
 - 소스 파일로부터 바이너리 생성:
 

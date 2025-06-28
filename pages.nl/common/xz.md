@@ -9,23 +9,23 @@
 
 - Decomprimer een xz bestand:
 
-`xz --decompress {{pad/naar/bestand.xz}}`
+`xz {{[-d|--decompress]}} {{pad/naar/bestand.xz}}`
 
 - Comprimeer een bestand gebruik makend van lzma:
 
-`xz --format=lzma {{pad/naar/bestand}}`
+`xz {{[-F|--format]}} lzma {{pad/naar/bestand}}`
 
 - Decomprimer een LZMA bestand:
 
-`xz --decompress --format=lzma {{pad/naar/bestand.lzma}}`
+`xz {{[-d|--decompress]}} {{[-F|--format]}} lzma {{pad/naar/bestand.lzma}}`
 
 - Decomprimer een bestand en schrijf het naar `stdout` (impliceert `--keep`):
 
-`xz --decompress --stdout {{pad/naar/bestand.xz}}`
+`xz {{[-d|--decompress]}} {{[-c|--stdout]}} {{pad/naar/bestand.xz}}`
 
 - Comprimeer een bestand, maar verwijder het origineel niet:
 
-`xz --keep {{pad/naar/bestand}}`
+`xz {{[-k|--keep]}} {{pad/naar/bestand}}`
 
 - Comprimeer een bestand, gebruik makend van de snelste compressie:
 

@@ -18,3 +18,7 @@
 - Set the files' timestamp to the reference file's timestamp, and do not create the file if it does not exist:
 
 `touch {{[-c|--no-create]}} {{[-r|--reference]}} {{path/to/reference_file}} {{path/to/file1 path/to/file2 ...}}`
+
+- Set the timestamp by parsing a string:
+
+`touch {{[-d|--date]}} "{{last year|5 hours|next thursday|nov 14|...}}" {{path/to/file}}`

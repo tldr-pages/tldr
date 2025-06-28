@@ -10,7 +10,7 @@
 
 - Archive a file keeping the input file:
 
-`p7zip {{[-k|--heep]}} {{path/to/file}}`
+`p7zip {{[-k|--keep]}} {{path/to/file}}`
 
 - Decompress a file, replacing it with the original uncompressed version:
 
@@ -18,7 +18,7 @@
 
 - Decompress a file keeping the input file:
 
-`p7zip {{[-d|--decompress]}} {{[-k|--heep]}} {{compressed.ext}}.7z`
+`p7zip {{[-d|--decompress]}} {{[-k|--keep]}} {{compressed.ext}}.7z`
 
 - Skip some checks and force compression or decompression:
 

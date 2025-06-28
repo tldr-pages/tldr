@@ -1,6 +1,7 @@
 # xdg-user-dirs-update
 
 > Update XDG user directories.
+> See also: `xdg-user-dir`.
 > More information: <https://manned.org/xdg-user-dirs-update>.
 
 - Change XDG's DESKTOP directory to the specified directory (must be absolute):

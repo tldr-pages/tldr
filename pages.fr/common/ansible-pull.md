@@ -5,16 +5,16 @@
 
 - Récupère le playbook depuis un VCS et exécute le fichier par défaut local.yaml du playbook :
 
-`ansible-pull -U {{url_du_dépôt}}`
+`ansible-pull {{[-U|--url]}} {{url_du_dépôt}}`
 
 - Récupère le playbook depuis un VCS et exécute un playbook spécifique :
 
-`ansible-pull -U {{url_du_dépôt}} {{playbook}}`
+`ansible-pull {{[-U|--url]}} {{url_du_dépôt}} {{playbook}}`
 
 - Récupère un playbook depuis un VCS sur une branche spécifique et exécute ce dernier :
 
-`ansible-pull -U {{url_du_dépôt}} -C {{branche}} {{playbook}}`
+`ansible-pull {{[-U|--url]}} {{url_du_dépôt}} {{[-C|--checkout]}} {{branche}} {{playbook}}`
 
 - Récupère un playbook depuis un VCS, spécifie les fichiers hôtes et exécute un playbook spécifique :
 
-`ansible-pull -U {{url_du_dépôt}} -i {{fichier_hôtes}} {{playbook}}`
+`ansible-pull {{[-U|--url]}} {{url_du_dépôt}} {{[-i|--inventory]}} {{fichier_hôtes}} {{playbook}}`

@@ -1,37 +1,36 @@
 # last
 
-> Toon informatie over de laatste gebruikerslogins.
-> Bekijk ook: `lastb`, `login`.
+> Toon de laatst ingelogde gebruikers.
 > Meer informatie: <https://manned.org/last>.
 
-- Toon logininformatie (bijv. gebruikersnaam, terminal, opstarttijd, kernel) van alle gebruikers:
+- Bekijk de laatste inloggegevens (bijv. gebruikersnaam, terminal, opstarttijd, kernel) van alle gebruikers zoals gelezen uit `/var/log/wtmp`:
 
 `last`
 
-- Toon logininformatie van een specifieke gebruiker:
+- Toon login informatie van een specifieke gebruiker:
 
 `last {{gebruikersnaam}}`
 
-- Toon informatie van een specifieke TTY:
+- Specificeer hoeveel van de laatste aanmeldingen weergegeven moeten worden:
 
-`last {{tty1}}`
+`last {{[-n|--limit]}} {{login_count}}`
 
-- Toon de meest recente informatie (standaard staan de nieuwste bovenaan):
+- Toon de volledige datum en tijd voor vermeldingen en toon vervolgens de kolom met de hostnaam als laatste weer om afkapping te voorkomen:
 
-`last | tac`
+`last {{[-F|--fulltimes]}} {{[-a|--hostlast]}}`
 
-- Toon informatie over systeemopstarts:
+- Toon alle aanmeldingen van een specifieke gebruiker en toon het IP-adres in plaats van de hostnaam:
 
-`last "{{system boot}}"`
+`last {{gebruikersnaam}} {{[-i|--ip]}}`
 
-- Toon informatie met een specifiek [t]ijdstempel formaat:
+- Toon informatie vanaf een specifieke datum en tijd:
 
-`last --time-format {{notime|full|iso}}`
+`last {{[-s|--since]}} {{-7days}}`
 
-- Toon informatie [s]inds een specifieke tijd en datum:
+- Bekijk alle geregistreerde herstarts (d.w.z. de laatste aanmeldingen van de pseudo-gebruiker “reboot”):
 
-`last --since {{-7days}}`
+`last reboot`
 
-- Toon informatie (bijv. hostnaam en IP) van externe hosts:
+- Toon de help:
 
-`last --dns`
+`last {{[-h|--help]}}`

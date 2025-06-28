@@ -203,3 +203,23 @@ git push origin vX.Y.Z
 
 - Once the release is published, [view the workflow run of `copy-release-assets.yml`](https://github.com/tldr-pages/tldr/actions/workflows/copy-release-assets.yml) and after its successful completion ensure the assets are copied from the previous release.
 - Notify the [social media managers](https://github.com/tldr-pages/access#social-media-accounts) to post about the client specification release on Mastodon and other platforms to inform the wider community about the release.
+
+## VI. Periodic Maintenance Tasks
+
+To maintain the quality and relevance of the tldr-pages project, maintainers are encouraged to regularly perform the following tasks:
+
+- **Monitor software updates** — Regularly check if the tools documented in tldr-pages have been updated — especially those introducing breaking changes. Update relevant pages accordingly and, where appropriate, encourage contributors to do the same.
+
+- **Validate external links** — Periodically check that all links across the documentation and pages are functional. Consider using https://github.com/tldr-pages/tldr-maintenance/issues/129 for link-checking pages and other automated link-checking tools to detect broken URLs for documentation. Then replace or remove any broken links.
+
+- **Update client status on the wiki** — Ensure the list of clients in the project's [Wiki](https://github.com/tldr-pages/tldr/wiki) reflects their current development status (active, inactive, deprecated). Reach out to maintainers of clients when needed for status updates.
+
+- **Track and document new clients** — Look out for new tldr clients being developed. When appropriate, add them to the Wiki or relevant documentation, and encourage their maintainers to follow the project’s conventions and style guidelines.
+
+- **Revise CONTRIBUTING.md and the Style Guide** — Make sure that [`CONTRIBUTING.md`](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md) and the [Style Guide](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/style-guide.md) reflect current conventions. If community conventions shift, update these documents to guide future contributions.
+
+- **Maintain collaborators and Org members list** — Periodically review the list of collaborators and organization members. Remove inactive members and onboard new contributors who have demonstrated consistent involvement. Document any changes using an issue with the `community` label.
+
+- **Manage "Let's document" and translation requests** — Monitor and update issues labeled as `let's document` or language-specific translation requests. While these are often maintained by issue authors, there’s room for improvement through automation — for example, updating issue status based on milestones or completed PRs.
+
+- **Review translated pages** — Check the [tldr-maintenance repository](https://github.com/tldr-pages/tldr-maintenance/issues/127) for issues or inconsistencies with translated pages.

@@ -13,7 +13,7 @@
 
 - Run command in a one-off container in interactive mode and pseudo-TTY:
 
-`docker run --rm {{[-i|--interactive]}} {{[-t|--tty]}} {{image}} {{command}}`
+`docker run --rm {{[-it|--interactive --tty]}} {{image}} {{command}}`
 
 - Run command in a new container with passed environment variables:
 

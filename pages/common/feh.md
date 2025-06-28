@@ -15,9 +15,9 @@
 
 `feh --borderless {{path/to/images}}`
 
-- Exit after the last image:
+- Set the behavior when reaching the beginning or end of the image list:
 
-`feh --cycle-once {{path/to/images}}`
+`feh --on-last-slide {{hold|quit|resume}} {{path/to/images}}`
 
 - Use a specific slideshow cycle delay:
 

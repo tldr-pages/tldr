@@ -1,7 +1,7 @@
 # dkms
 
 > 커널 모듈의 동적 빌드를 위한 프레임워크.
-> 더 많은 정보: <https://github.com/dell/dkms>.
+> 더 많은 정보: <https://manned.org/dkms>.
 
 - 현재 설치된 모듈 나열:
 

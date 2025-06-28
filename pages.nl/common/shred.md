@@ -9,20 +9,20 @@
 
 - Overschrijf een bestand en toon de voortgang op het scherm:
 
-`shred --verbose {{pad/naar/bestand}}`
+`shred {{[-v|--verbose]}} {{pad/naar/bestand}}`
 
-- Overschrijf een bestand, waarbij [z]ero's in plaats van willekeurige gegevens worden achtergelaten:
+- Overschrijf een bestand, waarbij nullen in plaats van willekeurige gegevens worden achtergelaten:
 
-`shred --zero {{pad/naar/bestand}}`
+`shred {{[-z|--zero]}} {{pad/naar/bestand}}`
 
-- Overschrijf een bestand een specifiek aa[n]tal keren:
+- Overschrijf een bestand een specifiek aantal keren:
 
-`shred --iterations {{25}} {{pad/naar/bestand}}`
+`shred {{[-n|--iterations]}} {{25}} {{pad/naar/bestand}}`
 
 - Overschrijf een bestand en verwijder het:
 
-`shred --remove {{pad/naar/bestand}}`
+`shred {{[-u|--remove]}} {{pad/naar/bestand}}`
 
-- Overschrijf een bestand 100 keer, voeg een laatste overschrijving met [z]ero's toe, verwijder het bestand na overschrijven en toon [v]erbose voortgang op het scherm:
+- Overschrijf een bestand 100 keer, voeg een laatste overschrijving met nullen toe, verwijder het bestand na overschrijven en toon verbose voortgang op het scherm:
 
-`shred -vzun 100 {{pad/naar/bestand}}`
+`shred {{[-vzun|--verbose --zero --remove --iterations]}} 100 {{pad/naar/bestand}}`

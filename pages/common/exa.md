@@ -1,35 +1,35 @@
 # exa
 
 > A modern replacement for `ls` (List directory contents).
-> More information: <https://github.com/ogham/exa>.
+> More information: <https://github.com/ogham/exa#command-line-options>.
 
 - List files one per line:
 
-`exa --oneline`
+`exa {{[-1|--oneline]}}`
 
 - List all files, including hidden files:
 
-`exa --all`
+`exa {{[-a|--all]}}`
 
 - Long format list (permissions, ownership, size and modification date) of all files:
 
-`exa --long --all`
+`exa {{[-l|--long]}} {{[-a|--all]}}`
 
 - List files with the largest at the top:
 
-`exa --reverse --sort={{size}}`
+`exa {{[-r|--reverse]}} {{[-s|--sort]}} {{size}}`
 
 - Display a tree of files, three levels deep:
 
-`exa --long --tree --level={{3}}`
+`exa {{[-l|--long]}} {{[-T|--tree]}} {{[-L|--level]}} {{3}}`
 
 - List files sorted by modification date (oldest first):
 
-`exa --long --sort={{modified}}`
+`exa {{[-l|--long]}} {{[-s|--sort]}} {{modified}}`
 
 - List files with their headers, icons, and Git statuses:
 
-`exa --long --header --icons --git`
+`exa {{[-l|--long]}} {{[-h|--header]}} --icons --git`
 
 - Don't list files mentioned in `.gitignore`:
 

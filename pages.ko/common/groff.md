@@ -1,7 +1,7 @@
 # groff
 
 > `troff` 및 `nroff` 조판 유틸리티를 GNU로 대체.
-> 더 많은 정보: <https://www.gnu.org/software/groff>.
+> 더 많은 정보: <https://www.gnu.org/software/groff/manual/groff.html.node/Groff-Options.html>.
 
 - PostScript 프린터의 출력 형식을 지정하고, 출력을 파일에 저장:
 

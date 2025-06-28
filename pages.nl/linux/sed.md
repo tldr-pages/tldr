@@ -12,9 +12,9 @@
 
 `{{commando}} | sed {{[-E|--regexp-extended]}} 's/(apple)/\U\1/g'`
 
-- Vervang alle `apple` (basis regex) met `mango` (basis regex) in een specifiek bestand en overschrijf het originele bestand:
+- Gebruik basisregex om `apple` te vervangen door `mango` en `orange` door `lime` in een bestand (waarbij het originele bestand wordt overschreven):
 
-`sed -i 's/apple/mango/g' {{pad/naar/bestand}}`
+`sed {{[-i|--in-place]}} -e 's/apple/mango/g' -e 's/orange/lime/g' {{pad/naar/bestand}}`
 
 - Voer een specifiek script bestand uit en toon het resultaat in `stdout`:
 
@@ -24,10 +24,14 @@
 
 `{{commando}} | sed {{[-n|--quiet]}} '1p'`
 
-- Verwijder de eerste regel van een bestand:
+- Verwij[d]er regels 1 tot en met 5 van een bestand en maak een back-up van het originele bestand met een `.orig` extensie:
 
-`sed -i 1d {{pad/naar/bestand}}`
+`sed {{[-i|--in-place=]}}{{.orig}} '1,5d' {{pad/naar/bestand}}`
 
 - Voeg een nieuwe regel in bij de eerste regel van een bestand:
 
-`sed -i '1i\your new line text\' {{pad/naar/bestand}}`
+`sed {{[-i|--in-place]}} '1i\your new line text\' {{pad/naar/bestand}}`
+
+- Verwijder lege regels (met of zonder spaties/tabtekens) uit een bestand, waarbij het oorspronkelijke bestand ter plaatse wordt overschreven:
+
+`sed {{[-i|--in-place]}} '/^[[:space:]]*$/d' {{pad/naar/bestand}}`
