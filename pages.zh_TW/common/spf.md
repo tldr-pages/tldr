@@ -13,20 +13,20 @@
 
 - 修復快捷鍵設定，補上缺少的按鍵：
 
-`spf --fix-hotkeys`
+`spf {{[--fh|--fix-hotkeys]}}`
 
 - 修復設定檔，補上缺少的項目：
 
-`spf --fix-config-file`
+`spf {{[--fch|--fix-config-file]}}`
 
 - 使用指定的設定檔與快捷鍵檔案：
 
-`spf --config-file {{path/to/config.toml}} --hotkey-file {{path/to/hotkey.toml}}`
+`spf {{[-c|--config-file]}} {{path/to/config.toml}} {{[--hf|--hotkey-file]}} {{path/to/hotkey.toml}}`
 
 - 設定選擇器檔案：將開啟的路徑寫入該檔案並退出：
 
-`spf --chooser-file {{/tmp/chooser-result}}`
+`spf {{[--cf|--chooser-file]}} {{/tmp/chooser-result}}`
 
 - 顯示內部設定與資料目錄路徑：
 
-`spf path-list`
+`spf {{[pl|path-list]}}`
