@@ -11,6 +11,14 @@
 
 `gst-inspect-1.0 {{vaapi|nvcodec}}`
 
+- List plugins that utilize graphics APIs:
+
+`gst-inspect-1.0 {{vulkan|opengl}}`
+
+- List available image codecs:
+
+`gst-inspect-1.0 {{png|jpeg}}`
+
 - List all available plugins:
 
 `gst-inspect-1.0`
