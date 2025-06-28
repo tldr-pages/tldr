@@ -10,7 +10,7 @@
 
 - 특정 포트를 수신하는 Chisel 서버 실행:
 
-`chisel server -p {{서버_포트}}`
+`chisel server {{[-p|--port]}} {{서버_포트}}`
 
 - 사용자 이름 및 암호 인증을 사용하여 연결을 보호하는 Chisel 서버 실행:
 
@@ -30,7 +30,7 @@
 
 - 특정 포트에서 역방향 모드로 Chisel 서버 초기화, 또한 SOCKS5 프록시(포트 1080) 기능 활성화:
 
-`chisel server -p {{서버_포트}} --reverse --socks5`
+`chisel server {{[-p|--port]}} {{서버_포트}} --reverse --socks5`
 
 - 특정 IP 및 포트에서 Chisel 서버에 연결하고 로컬 SOCKS 프록시에 매핑된 역방향 터널 생성:
 

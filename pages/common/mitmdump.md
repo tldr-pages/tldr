@@ -15,3 +15,7 @@
 - Replay a saved traffic file:
 
 `mitmdump {{[-nc|--no-server --client-replay]}} {{path/to/file}}`
+
+- Intercept DNS traffic (starts an intercepting DNS server on 127.0.0.1:53):
+
+`sudo mitmdump {{[-m|--mode]}} dns`

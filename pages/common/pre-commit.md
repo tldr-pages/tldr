@@ -19,6 +19,6 @@
 
 `pre-commit clean`
 
-- Update pre-commit config file to the latest repos' versions:
+- Update pre-commit configuration file to the latest repos' versions:
 
 `pre-commit autoupdate`

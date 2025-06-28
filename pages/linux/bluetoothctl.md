@@ -1,7 +1,7 @@
 # bluetoothctl
 
 > Manage Bluetooth devices.
-> More information: <https://bitbucket.org/serkanp/bluetoothctl>.
+> More information: <https://manned.org/bluetoothctl>.
 
 - Enter the `bluetoothctl` shell:
 

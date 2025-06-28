@@ -26,3 +26,7 @@
 - Zet meerdere variabelen en voer een programma uit:
 
 `env {{variabele1=waarde variabele2=waarde variabele3=waarde ...}} {{programma}}`
+
+- Voer een programma uit onder een andere naam:
+
+`env {{[-a|--argv0]}} {{aangepaste_naam}} {{programma}}`

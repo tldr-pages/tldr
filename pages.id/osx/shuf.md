@@ -13,7 +13,7 @@
 
 - Menuliskan output ke file lain:
 
-`shuf {{nama_file}} --output={{nama_file_output}}`
+`shuf {{nama_file}} --output {{nama_file_output}}`
 
 - Men-generate angka acak dari 1-10:
 

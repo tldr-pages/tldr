@@ -9,7 +9,7 @@
 
 - Gebruik een aangepaste map (standaard is de uitvoer van `getconf DARWIN_USER_TEMP_DIR`, of `/tmp`):
 
-`mktemp --tmpdir={{/pad/naar/tempdir}}`
+`mktemp --tmpdir {{/pad/naar/tempdir}}`
 
 - Gebruik een aangepast pad-sjabloon (`X`en worden vervangen door willekeurige alfanumerieke tekens):
 
