@@ -25,7 +25,7 @@
 
 - Set a chooser file: write the opened path to this file and exit:
 
-`spf --chooser-file {{/tmp/chooser-result}}`
+`spf {{[--cf|--chooser-file]}} {{/tmp/chooser-result}}`
 
 - Show internal configuration and data directory paths:
 
