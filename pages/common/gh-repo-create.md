@@ -17,8 +17,8 @@
 
 - Clone the new repo locally after creation:
 
-`gh repo create {{repo_name}} --clone`
+`gh repo create {{repo_name}} {{[-c|--clone]}}`
 
 - Push the current directory to a new GitHub repository:
 
-`gh repo create --source . --public`
+`gh repo create {{[-s|--source]}} . --public`
