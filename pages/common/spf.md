@@ -13,7 +13,7 @@
 
 - Fix hotkey settings by appending missing keys:
 
-`spf --fix-hotkeys`
+`spf {{[-fh|--fix-hotkeys]}}`
 
 - Fix the configuration file by appending missing entries:
 
