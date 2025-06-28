@@ -17,7 +17,7 @@
 
 - Specify [e]xcluded files for some tests:
 
-`chkrootkit -d "{{path/to/file}}"`
+`chkrootkit -e "{{path/to/file}}"`
 
 - Specify a directory as the [r]oot for testing (e.g. mounted ext drives):
 
