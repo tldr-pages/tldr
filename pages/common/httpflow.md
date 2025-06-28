@@ -1,6 +1,6 @@
 # httpflow
 
-> A command-line utility to capture and dump HTTP streams.
+> A utility to capture and dump HTTP streams.
 > More information: <https://github.com/six-ddc/httpflow>.
 
 - Capture traffic on all interfaces:

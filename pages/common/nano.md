@@ -1,6 +1,6 @@
 # nano
 
-> Command-line text editor. An enhanced `pico` clone.
+> Text editor. An enhanced `pico` clone.
 > See also: `pico`, `rnano`.
 > More information: <https://nano-editor.org/dist/latest/nano.html>.
 

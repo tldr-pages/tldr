@@ -6,7 +6,7 @@
 
 - Enable profile:
 
-`sudo aa-enforce --dir {{path/to/profile}}`
+`sudo aa-enforce {{[-d|--dir]}} {{path/to/profile}}`
 
 - Enable profiles:
 

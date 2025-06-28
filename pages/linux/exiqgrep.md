@@ -11,7 +11,7 @@
 
 `exiqgrep -i -f '<{{email@example.com}}>'`
 
-- Match the recipient address:
+- Match the [r]ecipient address:
 
 `exiqgrep -r '{{email@example.com}}'`
 
@@ -23,6 +23,6 @@
 
 `exiqgrep -f '^<>$'`
 
-- Display the count of bounced messages:
+- Display the [c]ount of bounced messages:
 
 `exiqgrep -c -f '^<>$'`
