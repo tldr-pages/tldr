@@ -31,3 +31,7 @@
 - Multiplex together test video and test audio into a file:
 
 `gst-launch-1.0 {{[-e|--eos-on-shutdown]}} videotestsrc ! x264enc ! {{element_name}}. audiotestsrc ! opusenc ! {{element_name}}. matroskamux name={{element_name}} ! filesink location={{path/to/file.mkv}}`
+
+- Dump a pipeline into a `.dot` file which can then be rendered with tools like `dot`:
+
+`GST_DEBUG_DUMP_DOT_DIR={{path/to/directory}} gst-launch-1.0 {{pipeline}}`
