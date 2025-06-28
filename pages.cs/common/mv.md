@@ -19,7 +19,7 @@
 
 `mv {{[-f|--force]}} {{cesta/ke/zdroji}} {{cesta/k/cili}}`
 
-- Zeptat se pro potvrzení interaktivně před přepsáním existujícíh souborů, bez ohledu na oprávnění souborů.
+- Zeptat se pro potvrzení interaktivně před přepsáním existujícíh souborů, bez ohledu na oprávnění souborů:
 
 `mv {{[-i|--interactive]}} {{cesta/k/zdroji}} {{cests/k/cili}}`
 

@@ -11,11 +11,11 @@
 
 `cp {{cesta/ke/zdrojovemu_adresari.ext}} {{cesta/k/nadrazenemu_adresari}}`
 
-- Rekurzivně zkopírovat obsah adresáře do jiné lokace (pokud cíl existuje, adresář se zkopíruje do něj)
+- Rekurzivně zkopírovat obsah adresáře do jiné lokace (pokud cíl existuje, adresář se zkopíruje do něj):
 
 `cp {{[-r|--recursive]}} {{cesta/ke/zdrojovemu_adresari}} {{cesta/k/cilovemu_adresare}}`
 
-- Zkopírovat adresář rekurzivně, ve verbózním režimu (zobrazí soubory jak jsou zkopírovány)
+- Zkopírovat adresář rekurzivně, ve verbózním režimu (zobrazí soubory jak jsou zkopírovány):
 
 `cp {{[-vr|--verbose --recursive]}} {{cesta/ke/zdrojovemu_adresari}} {{cesta/k/cilovemu_adresari}}`
 
@@ -23,7 +23,7 @@
 
 `cp {{[-t|--target-directory]}} {{cesta/k/cilovemu_adresari}} {{cesta/k/souboru1 cesta/k/souboru2 ...}}`
 
-- Zkopírovat všechny soubory se specifickou koncovkou do jiné lokace, v interaktívním režimu (zeptá se uživatele před přepsáním)
+- Zkopírovat všechny soubory se specifickou koncovkou do jiné lokace, v interaktívním režimu (zeptá se uživatele před přepsáním):
 
 `cp {{[-i|--interactive]}} {{*.ext}} {{cesta/k/cilovemu_adresari}}`
 
