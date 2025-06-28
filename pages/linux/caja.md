@@ -14,12 +14,12 @@
 
 - Open specific directories in tabs:
 
-`caja --tabs {{path/to/directory1 path/to/directory2 ...}}`
+`caja {{[-t|--tabs]}} {{path/to/directory1 path/to/directory2 ...}}`
 
 - Open a directory with a specific window size:
 
-`caja --geometry={{600}}x{{400}} {{path/to/directory}}`
+`caja {{[-g|--geometry]}} {{600}}x{{400}} {{path/to/directory}}`
 
 - Close all windows:
 
-`caja --quit`
+`caja {{[-q|--quit]}}`
