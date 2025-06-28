@@ -1,6 +1,6 @@
 # lwp-request
 
-> Simple command-line HTTP client.
+> Simple HTTP client.
 > Built with libwww-perl.
 > More information: <https://metacpan.org/pod/lwp-request>.
 
