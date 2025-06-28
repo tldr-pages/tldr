@@ -1,6 +1,6 @@
 # pkcon
 
-> PackageKit client used by Discover and Gnome software and alternative to 'apt'.
+> PackageKit client used by Discover and Gnome software and alternative to `apt`.
 > More information: <https://manned.org/pkcon>.
 
 - Install a package:
