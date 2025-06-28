@@ -12,7 +12,7 @@
 
 `immich-go -server={{server_url}} -key={{server_key}} upload -create-albums -google-photos -date={{2019-06}} {{path/to/takeout_file.zip}}`
 
-- Upload a takeout file using server and key from a config file:
+- Upload a takeout file using server and key from a configuration file:
 
 `immich-go -use-configuration={{~/.immich-go/immich-go.json}} upload {{path/to/takeout_file.zip}}`
 

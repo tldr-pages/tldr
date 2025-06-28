@@ -2,6 +2,7 @@
 
 > Manage WirePlumber, a session and policy manager for PipeWire.
 > Note: You can use the special name `@DEFAULT_SINK@` in place of `id` to operate on the default sink.
+> See also: `pw-cli`.
 > More information: <https://pipewire.pages.freedesktop.org/wireplumber/>.
 
 - List all objects managed by WirePlumber:

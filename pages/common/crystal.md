@@ -31,6 +31,6 @@
 
 `crystal init app {{application_name}}`
 
-- Display all help options:
+- Display help:
 
 `crystal help`

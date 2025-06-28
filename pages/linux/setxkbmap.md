@@ -11,10 +11,6 @@
 
 `setxkbmap -layout {{us,de}} -variant {{,qwerty}} -option {{'grp:alt_caps_toggle'}}`
 
-- Get help:
-
-`setxkbmap -help`
-
 - List all layouts:
 
 `localectl list-x11-keymap-layouts`
@@ -26,3 +22,7 @@
 - List available switching options:
 
 `localectl list-x11-keymap-options | grep grp:`
+
+- Display help:
+
+`setxkbmap -help`

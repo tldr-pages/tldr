@@ -32,6 +32,6 @@
 
 `step crypto keypair {{path/to/public_key}} {{path/to/private_key}} --kty {{RSA|EC}}`
 
-- Show help for subcommands:
+- Display help for subcommands:
 
 `step {{path|base64|certificate|completion|context|crl|crypto|oauth|ca|beta|ssh}} --help`
