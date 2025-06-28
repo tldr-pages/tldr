@@ -28,7 +28,7 @@
 
 `ndc -s {{command}}`
 
-- Enable [t]racing for prootocl and system debugging:
+- Enable [t]racing for protocol and system debugging:
 
 `ndc -t {{command}}`
 
