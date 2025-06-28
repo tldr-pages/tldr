@@ -23,6 +23,6 @@
 
 `ipcalc {{[-s|--split]}} {{size1 size2 size3 ...}} {{192.168.0.1}}`
 
-- Show version information:
+- Display version:
 
 `ipcalc {{[-v|--version]}}`
