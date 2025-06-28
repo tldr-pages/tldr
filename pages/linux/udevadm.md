@@ -9,19 +9,19 @@
 
 - Print `uevents` sent out by the kernel:
 
-`sudo udevadm monitor --kernel`
+`sudo udevadm monitor {{[-k|--kernel]}}`
 
 - Print device events after being processed by `udev`:
 
-`sudo udevadm monitor --udev`
+`sudo udevadm monitor {{[-u|--udev]}}`
 
 - List attributes of device `/dev/sda`:
 
-`sudo udevadm info --attribute-walk {{/dev/sda}}`
+`sudo udevadm info {{[-a|--attribute-walk]}} {{/dev/sda}}`
 
 - Reload all `udev` rules:
 
-`sudo udevadm control --reload`
+`sudo udevadm control {{[-R|--reload]}}`
 
 - Trigger all `udev` rules to run:
 
