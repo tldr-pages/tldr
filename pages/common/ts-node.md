@@ -23,6 +23,6 @@
 
 `ts-node --transpile-only {{path/to/file.ts}}`
 
-- Display TS-Node help:
+- Display help:
 
 `ts-node --help`

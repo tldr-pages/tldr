@@ -19,7 +19,7 @@
 
 `meson test`
 
-- Show the help:
+- Display help:
 
 `meson {{[-h|--help]}}`
 

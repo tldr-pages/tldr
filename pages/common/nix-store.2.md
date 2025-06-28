@@ -14,16 +14,16 @@
 
 - Delete a specific store path (must be unused):
 
-`nix-store --delete {{/nix/store/...}}`
+`nix-store --delete /nix/store/{{checksum-package-version.ext}}`
 
 - Show all dependencies of a store path (package), in a tree format:
 
-`nix-store {{[-q|--query]}} --tree {{/nix/store/...}}`
+`nix-store {{[-q|--query]}} --tree /nix/store/{{checksum-package-version.ext}}`
 
 - Calculate the total size of a certain store path with all the dependencies:
 
-`du {{[-cLsh|--total --dereference --summarize --human-readable]}} $(nix-store {{[-q|--query]}} --references {{/nix/store/...}})`
+`du {{[-cLsh|--total --dereference --summarize --human-readable]}} $(nix-store {{[-q|--query]}} --references /nix/store/{{checksum-package-version.ext}})`
 
 - Show all dependents of a particular store path:
 
-`nix-store {{[-q|--query]}} --referrers {{/nix/store/...}}`
+`nix-store {{[-q|--query]}} --referrers /nix/store/{{checksum-package-version.ext}}`

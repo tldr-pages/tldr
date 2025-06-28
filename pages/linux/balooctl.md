@@ -33,4 +33,4 @@
 
 - Display help:
 
-`balooctl --help`
+`balooctl {{[-h|--help]}}`

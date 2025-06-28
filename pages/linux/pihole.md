@@ -3,13 +3,13 @@
 > Manage the Pi-hole ad-blocking DNS server.
 > More information: <https://docs.pi-hole.net/main/pihole-command>.
 
-- Check the Pi-hole daemon's status:
+- Check Pi-hole's status:
 
 `pihole status`
 
 - Update Pi-hole and Gravity:
 
-`pihole {{[-up|updatePihole]}}`
+`sudo pihole {{[-up|updatePihole]}}`
 
 - Start or stop the daemon:
 
@@ -25,7 +25,7 @@
 
 - Allow or deny the specified domain:
 
-`pihole {{allowlist|denylist}} {{example.com}}`
+`pihole {{allow|deny}} {{example.com}}`
 
 - Search the lists for a domain:
 
