@@ -34,4 +34,4 @@
 
 - Dump a pipeline into a `.dot` file which can then be rendered with tools like `dot`:
 
-`GST_DEBUG_DUMP_DOT_DIR=path/to/directory gst-launch-1.0 {{pipeline}}`
+`GST_DEBUG_DUMP_DOT_DIR={{path/to/directory}} gst-launch-1.0 {{pipeline}}`
