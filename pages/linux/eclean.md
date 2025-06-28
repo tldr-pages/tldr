@@ -13,8 +13,8 @@
 
 - Clean the distfiles of all uninstalled packages, but keep the distfiles of installed packages:
 
-`sudo eclean --deep --package-names distfiles`
+`sudo eclean {{[-d|--deep]}} {{[-n|--package-names]}} distfiles`
 
 - Clean the binary packages of all uninstalled packages, but keep the binaries of installed packages:
 
-`sudo eclean --deep --package-names packages`
+`sudo eclean {{[-d|--deep]}} {{[-n|--package-names]}} packages`
