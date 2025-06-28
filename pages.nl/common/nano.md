@@ -28,7 +28,7 @@
 
 `nano {{[-B|--backup]}} {{pad/naar/bestand}}`
 
-- Open een bestand in de beperkte modus (d.w.z. lees/schrijf niet naar bestanden die niet op de command-line zijn gespecificeerd)
+- Open een bestand in de beperkte modus (d.w.z. lees/schrijf niet naar bestanden die niet op de command-line zijn gespecificeerd):
 
 `nano {{[-R|--restricted]}} {{pad/naar/bestand}}`
 
