@@ -1,7 +1,7 @@
 # daemon
 
-> Run processes as daemons.
-> More information: <https://manned.org/man/daemon.1>.
+> Turns other processes into daemons.
+> More information: <https://manned.org/daemon.1>.
 
 - Run a command as a daemon:
 
