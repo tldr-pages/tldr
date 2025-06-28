@@ -17,7 +17,7 @@
 
 - Fix the configuration file by appending missing entries:
 
-`spf --fix-config-file`
+`spf {{[--fch|--fix-config-file]}}`
 
 - Use specific configuration and hotkey files:
 
