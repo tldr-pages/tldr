@@ -11,7 +11,7 @@
 
 - Use a keyfile instead of a passphrase:
 
-`cryptsetup open --key-file {{path/to/file}} {{/dev/sdXY}} {{mapping_name}}`
+`cryptsetup open {{[-k|--key-file]}} {{path/to/file}} {{/dev/sdXY}} {{mapping_name}}`
 
 - Allow the use of TRIM on the device:
 
@@ -23,4 +23,4 @@
 
 - Open a LUKS volume and make the decrypted mapping read-only:
 
-`cryptsetup open --readonly {{/dev/sdXY}} {{mapping_name}}`
+`cryptsetup open {{[-r|--readonly]}} {{/dev/sdXY}} {{mapping_name}}`
