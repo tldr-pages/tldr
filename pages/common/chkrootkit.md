@@ -19,7 +19,7 @@
 
 `chkrootkit -d "{{path/to/file}}"`
 
-- Specifiy a directory as the [r]oot for testing (e.g. mounted ext drives):
+- Specify a directory as the [r]oot for testing (e.g. mounted ext drives):
 
 `chkrootkit -r {{path/to/directory}}`
 
