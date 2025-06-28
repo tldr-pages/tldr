@@ -9,4 +9,4 @@
 
 - Don't show informative messages:
 
-`sudo a2enconf --quiet {{configuration_file}}`
+`sudo a2enconf {{[-q|--quiet]}} {{configuration_file}}`
