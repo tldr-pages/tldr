@@ -19,6 +19,10 @@
 
 `gst-inspect-1.0 {{png|jpeg}}`
 
+- List available audio codecs:
+
+`gst-inspect-1.0 {{opus|vorbis}}`
+
 - List all available plugins:
 
 `gst-inspect-1.0`
