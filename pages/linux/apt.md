@@ -21,7 +21,7 @@
 
 `apt show {{package}}`
 
-- Install a package, or update it to latest version:
+- Install a package, or update it to the latest version:
 
 `sudo apt install {{package}}`
 
