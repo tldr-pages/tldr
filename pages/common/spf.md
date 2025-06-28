@@ -21,7 +21,7 @@
 
 - Use specific configuration and hotkey files:
 
-`spf --config-file {{path/to/config.toml}} --hotkey-file {{path/to/hotkey.toml}}`
+`spf {{[-c|--config-file]}} {{path/to/config.toml}} {{[--hf|--hotkey-file]}} {{path/to/hotkey.toml}}`
 
 - Set a chooser file: write the opened path to this file and exit:
 
