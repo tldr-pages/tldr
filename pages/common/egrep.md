@@ -13,7 +13,7 @@
 
 - Search `stdin` for a pattern:
 
-`cat {{path/to/file}} | egrep {{search_pattern}}`
+`egrep {{search_pattern}} < {{path/to/file}}`
 
 - Print file name and line number for each match:
 

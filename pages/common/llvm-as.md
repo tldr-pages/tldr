@@ -13,4 +13,4 @@
 
 - Read an IR file from `stdin` and assemble it:
 
-`cat {{path/to/source.ll}} | llvm-as -o {{path/to/out.bc}}`
+`llvm-as -o {{path/to/out.bc}} < {{path/to/source.ll}}`

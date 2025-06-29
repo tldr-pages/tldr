@@ -9,7 +9,7 @@
 
 - Convert a PYX document from `stdin` to XML format:
 
-`cat {{path/to/input.pyx}} | xml {{[p2x|depyx]}} > {{path/to/output.xml}}`
+`xml {{[p2x|depyx]}} > {{path/to/output.xml}} < {{path/to/input.pyx}}`
 
 - Display help:
 

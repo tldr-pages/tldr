@@ -29,7 +29,7 @@
 
 - Read CSV from `stdin` and write CSV to `stdout`:
 
-`cat {{path/to/source.csv}} | duckdb -c "{{COPY (FROM read_csv('/dev/stdin')) TO '/dev/stdout' WITH (FORMAT CSV, HEADER)}}"`
+`duckdb -c "{{COPY (FROM read_csv('/dev/stdin')) TO '/dev/stdout' WITH (FORMAT CSV, HEADER)}}" < {{path/to/source.csv}}`
 
 - Start the DuckDB UI, a web interface with notebooks:
 

@@ -13,7 +13,7 @@
 
 - Create a new IAM role:
 
-`cat {{/path/to/policy.json}} | exo iam role create {{iam_role_name}} --editable --policy -`
+`exo iam role create {{iam_role_name}} --editable --policy - < {{/path/to/policy.json}}`
 
 - Show the policy of an existing IAM role:
 
@@ -21,4 +21,4 @@
 
 - Update the default Organization policy (the default Organization policy will be applied to all of the API keys within the Organization):
 
-`cat {{/path/to/policy.json}} | exo iam org-policy update -`
+`exo iam org-policy update - < {{/path/to/policy.json}}`

@@ -29,7 +29,7 @@
 
 - Merge the authorization entries from a specific file into the authorization database:
 
-`cat {{path/to/file}} | xauth merge -`
+`xauth merge - < {{path/to/file}}`
 
 - Display help:
 

@@ -13,4 +13,4 @@
 
 - Read a Bitcode file from `stdin` and analyze it:
 
-`cat {{path/to/file.bc}} | llvm-bcanalyzer`
+`llvm-bcanalyzer < {{path/to/file.bc}}`

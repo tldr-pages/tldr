@@ -13,4 +13,4 @@
 
 - Format a file read from `stdin` and print to `stdout`:
 
-`cat {{path/to/file.tex}} | tex-fmt --stdin`
+`tex-fmt --stdin < {{path/to/file.tex}}`

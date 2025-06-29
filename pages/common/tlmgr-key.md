@@ -13,7 +13,7 @@
 
 - Add a key from `stdin`:
 
-`cat {{path/to/key.gpg}} | sudo tlmgr key add -`
+`sudo tlmgr key add - < {{path/to/key.gpg}}`
 
 - Remove a specific key by its ID:
 

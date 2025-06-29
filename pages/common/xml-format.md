@@ -17,7 +17,7 @@
 
 - Format an XML document from `stdin`, removing the `DOCTYPE` declaration:
 
-`cat {{path\to\input.xml}} | xml {{[fo|format]}} {{[-D|--dropdtd]}} > {{path/to/output.xml}}`
+`xml {{[fo|format]}} {{[-D|--dropdtd]}} > {{path/to/output.xml}} < {{path\to\input.xml}}`
 
 - Format an XML document, omitting the XML declaration:
 

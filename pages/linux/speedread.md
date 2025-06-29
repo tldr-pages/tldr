@@ -6,15 +6,15 @@
 
 - Read a text file at a specific speed:
 
-`cat {{path/to/file.txt}} | speedread -wpm {{250}}`
+`speedread -wpm {{250}} < {{path/to/file.txt}}`
 
 - Resume from a specific line:
 
-`cat {{path/to/file.txt}} | speedread -resume {{5}}`
+`speedread -resume {{5}} < {{path/to/file.txt}}`
 
 - Show multiple words at a time:
 
-`cat {{path/to/file.txt}} | speedread -multiword`
+`speedread -multiword < {{path/to/file.txt}}`
 
 - Slow down by 10% during the reading session:
 

@@ -5,7 +5,7 @@
 
 - Append file content to the source file:
 
-`cat {{path/to/file}} | sponge -a {{path/to/file}}`
+`sponge -a {{path/to/file}} < {{path/to/file}}`
 
 - Remove all lines starting with # in a file:
 

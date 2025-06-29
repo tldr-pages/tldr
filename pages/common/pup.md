@@ -5,24 +5,24 @@
 
 - Transform a raw HTML file into a cleaned, indented, and colored format:
 
-`cat {{index.html}} | pup --color`
+`pup --color < {{index.html}}`
 
 - Filter HTML by element tag name:
 
-`cat {{index.html}} | pup '{{tag}}'`
+`pup '{{tag}}' < {{index.html}}`
 
 - Filter HTML by ID:
 
-`cat {{index.html}} | pup '{{div#id}}'`
+`pup '{{div#id}}' < {{index.html}}`
 
 - Filter HTML by attribute value:
 
-`cat {{index.html}} | pup '{{input[type="text"]}}'`
+`pup '{{input[type="text"]}}' < {{index.html}}`
 
 - Print all text from the filtered HTML elements and their children:
 
-`cat {{index.html}} | pup '{{div}} text{}'`
+`pup '{{div}} text{}' < {{index.html}}`
 
 - Print HTML as JSON:
 
-`cat {{index.html}} | pup '{{div}} json{}'`
+`pup '{{div}} json{}' < {{index.html}}`

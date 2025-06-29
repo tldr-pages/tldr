@@ -21,4 +21,4 @@
 
 - Decompress an archive from `stdin`:
 
-`cat {{path/to/archive.gz}} | gunzip`
+`gunzip < {{path/to/archive.gz}}`

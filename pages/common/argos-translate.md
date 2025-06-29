@@ -13,7 +13,7 @@
 
 - Translate a text file from English to Hindi:
 
-`cat {{path/to/file.txt}} | argos-translate --from-lang en --to-lang hi`
+`argos-translate --from-lang en --to-lang hi < {{path/to/file.txt}}`
 
 - List all installed translation pairs:
 

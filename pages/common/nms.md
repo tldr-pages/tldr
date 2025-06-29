@@ -13,7 +13,7 @@
 
 - Decrypt the content of a file, with a custom output color:
 
-`cat {{path/to/file}} | nms -a -f {{blue|white|yellow|black|magenta|green|red}}`
+`nms -a -f {{blue|white|yellow|black|magenta|green|red}} < {{path/to/file}}`
 
 - Clear the screen before decrypting:
 

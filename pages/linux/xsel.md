@@ -9,7 +9,7 @@
 
 - Use the contents of a file as input of the clipboard:
 
-`cat {{path/to/file}} | xsel {{[-ib|--input --clipboard]}}`
+`xsel {{[-ib|--input --clipboard]}} < {{path/to/file}}`
 
 - Output the clipboard's contents into the terminal (equivalent to `<Ctrl v>`):
 

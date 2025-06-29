@@ -5,16 +5,16 @@
 
 - Print a table from JSON or JSON Lines input:
 
-`cat {{file.json}} | jtbl`
+`jtbl < {{file.json}}`
 
 - Print a table and specify the column width for wrapping:
 
-`cat {{file.json}} | jtbl --cols={{width}}`
+`jtbl --cols={{width}} < {{file.json}}`
 
 - Print a table and truncate rows instead of wrapping:
 
-`cat {{file.json}} | jtbl {{[-t|--truncate]}}`
+`jtbl {{[-t|--truncate]}} < {{file.json}}`
 
 - Print a table and don't wrap or truncate rows:
 
-`cat {{file.json}} | jtbl {{[-n|--no-wrap]}}`
+`jtbl {{[-n|--no-wrap]}} < {{file.json}}`
