@@ -25,7 +25,7 @@
 
 - 將第一個開啟的檔案路徑寫入該檔案並退出：
 
-`spf {{[--cf|--chooser-file]}} {{/tmp/chooser-result}}`
+`spf {{[--cf|--chooser-file]}} {{tmp/chooser-result}}`
 
 - 顯示內部設定與資料目錄路徑：
 
