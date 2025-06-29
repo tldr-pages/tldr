@@ -12,7 +12,7 @@
 
 `dnswalk -r {{domain}}.`
 
-- Only perform a `dnswalk` if the zonme has been [m]odified since the last test:
+- Only perform a `dnswalk` if the zone has been [m]odified since the last run:
 
 `dnswalk -m {{domain}}.`
 
