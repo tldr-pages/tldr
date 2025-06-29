@@ -6,7 +6,7 @@
 
 - Stress all CPUs with 4 workers for 60 seconds:
 
-`stress-ng --cpu 4 --timeout 60s`
+`stress-ng {{[-c|--cpu]}} 4 {{[-t|--timeout]}} 60s`
 
 - Stress virtual memory with 2 workers for 30 seconds:
 
