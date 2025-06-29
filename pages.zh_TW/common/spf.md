@@ -9,7 +9,7 @@
 
 - 使用多個路徑啟動 `spf`：
 
-`spf {{/path/to/start1}} {{/path/to/start2}}`
+`spf {{path/to/directory1 /path/to/directory2 ...}}`
 
 - 修復快捷鍵設定，補上缺少的按鍵：
 
