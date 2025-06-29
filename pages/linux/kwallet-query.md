@@ -13,7 +13,7 @@
 
 - List all available folders:
 
-`kwallet-query  {{kdewallet}} {{[-l|--list-entries]}} {{[-f|--folder]}} ""`
+`kwallet-query {{kdewallet}} {{[-l|--list-entries]}} {{[-f|--folder]}} ""`
 
 - Display help:
 
