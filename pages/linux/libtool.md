@@ -25,7 +25,7 @@
 
 - Delete installed libraries or executables:
 
-`libtool uninstall {{path/to/installed_library.la}}`
+`libtool {{[u|uninstall]}} {{path/to/installed_library.la}}`
 
 - Delete uninstalled libraries or executables:
 
