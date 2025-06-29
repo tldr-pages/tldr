@@ -15,7 +15,7 @@
 
 `boxxy {{[-t|--trace]}} {{program}}`
 
-- Pass a rule directly on the terminal:
+- Pass a redirection rule directly on the terminal:
 
 `boxxy {{[-r|--rule]}} {{path/to/file_or_directory}}:{{path/to/redirection}}:{{file|directory}} {{program}}`
 
