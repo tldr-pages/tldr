@@ -10,7 +10,7 @@
 
 - Stress virtual memory with 2 workers for 30 seconds:
 
-`stress-ng --vm 2 --vm-bytes {{512M}} --timeout 30s`
+`stress-ng {{[-m|--vm]}} 2 --vm-bytes {{512M}} {{[-t|--timeout]}} 30s`
 
 - Stress the I/O subsystem with 3 workers:
 
