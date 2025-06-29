@@ -1,17 +1,17 @@
 # qemu-system-x86_64
 
-> Emulate `x86_64` architecture.
+> Emulate the `x86_64` architecture.
 > More information: <https://www.qemu.org/docs/master/system/target-i386.html>.
 
-- Boot from image emulating `x86_64` architecture:
+- Boot from an image emulating the `x86_64` architecture:
 
 `qemu-system-x86_64 -hda {{image_name.img}} -m {{4096}}`
 
-- Boot QEMU instance with a live ISO image:
+- Boot a QEMU instance from a live ISO image:
 
 `qemu-system-x86_64 -hda {{image_name.img}} -cdrom {{os_image.iso}} -boot d -m {{4096}}`
 
-- Boot from physical device (e.g. from USB to test bootable medium):
+- Boot from a physical device (e.g. from USB to test a bootable medium):
 
 `qemu-system-x86_64 -hda {{/dev/storage_device}} -m {{4096}}`
 
@@ -23,6 +23,6 @@
 
 `<Ctrl a><x>`
 
-- List supported machine types:
+- List the supported machine types:
 
 `qemu-system-x86_64 {{[-M|-machine]}} help`
