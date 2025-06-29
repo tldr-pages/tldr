@@ -9,7 +9,7 @@
 
 - Create a library or an executable:
 
-`libtool link gcc {{[-o|--output]}} {{path/to/library.lo}} {{path/to/source.lo}}`
+`libtool {{[l|link]}} gcc {{[-o|--output]}} {{path/to/library.lo}} {{path/to/source.lo}}`
 
 - Automatically set the library path so that another program can use uninstalled `libtool` generated programs or libraries:
 
@@ -17,11 +17,11 @@
 
 - Install a shared library:
 
-`libtool install cp {{path/to/library.la}} {{path/to/installation_directory}}`
+`libtool {{[i|install]}} cp {{path/to/library.la}} {{path/to/installation_directory}}`
 
 - Complete the installation of `libtool` libraries on the system:
 
-`libtool finish {{path/to/installation_dir}}`
+`libtool {{[f|finish]}} {{path/to/installation_dir}}`
 
 - Delete installed libraries or executables:
 
@@ -29,4 +29,4 @@
 
 - Delete uninstalled libraries or executables:
 
-`libtool clean rm {{path/to/source.lo}} {{path/to/library.la}}`
+`libtool {{[cl|clean]}} rm {{path/to/source.lo}} {{path/to/library.la}}`
