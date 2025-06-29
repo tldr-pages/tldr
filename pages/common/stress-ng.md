@@ -14,7 +14,7 @@
 
 - Stress the I/O subsystem with 3 workers for 45 seconds:
 
-`stress-ng {{[-i|--io]}} 3 {{[-t|--timeout]}} {{45s}}`
+`stress-ng {{[-i|--io]}} 3 {{[-t|--timeout]}} 45s`
 
 - Run all stress tests for 2 minutes:
 
