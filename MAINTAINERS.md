@@ -254,7 +254,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [28 April 2024](https://github.com/tldr-pages/tldr/issues/12687) — present
 - **Juri ([@gutjuri](https://github.com/gutjuri))**:
   [29 April 2024](https://github.com/tldr-pages/tldr/issues/12686) — present
-- Managor ([@Managor](https://github.com/Managor)):
+- **Managor ([@Managor](https://github.com/Managor))**:
   [29 June 2025](https://github.com/tldr-pages/tldr/issues/17029) — present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
