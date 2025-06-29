@@ -34,4 +34,4 @@
 
 - Enable "[l]ame delegation" to test whether the listed host is returning authoritative answers:
 
-`dnswalk -l {{domain.}}`
+`dnswalk -l {{domain}}.`
