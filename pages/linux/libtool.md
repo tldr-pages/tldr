@@ -5,7 +5,7 @@
 
 - Compile a source file into a `libtool` object:
 
-`libtool compile gcc {{[-c|--compile]}} {{path/to/source.c}} {{[-o|--output]}} {{path/to/source.lo}}`
+`libtool {{[c|compile]}} gcc {{[-c|--compile]}} {{path/to/source.c}} {{[-o|--output]}} {{path/to/source.lo}}`
 
 - Create a library or an executable:
 
