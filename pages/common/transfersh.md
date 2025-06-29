@@ -1,6 +1,6 @@
 # transfersh
 
-> An unofficial command-line client for transfer.sh.
+> An unofficial client for transfer.sh.
 > More information: <https://github.com/AlpixTM/transfersh>.
 
 - Upload a file to transfer.sh:
