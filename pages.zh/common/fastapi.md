@@ -1,6 +1,6 @@
 # fastapi
 
-> 用于运行 FastAPI 应用的 CLI 工具，底层使用 Uvicorn。  
+> 用于运行 FastAPI 应用的 CLI 工具，底层使用 Uvicorn。
 > 更多信息：<https://fastapi.tiangolo.com/tutorial/cli/>.
 
 - 使用自动重新加载运行 FastAPI 应用（用于开发）：

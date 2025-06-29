@@ -1,6 +1,6 @@
 # fastapi
 
-> Uvicorn을 내부적으로 사용하는 FastAPI 앱 실행용 CLI 도구.  
+> Uvicorn을 내부적으로 사용하는 FastAPI 앱 실행용 CLI 도구.
 > 더 많은 정보: <https://fastapi.tiangolo.com/tutorial/cli/>.
 
 - 자동 리로드를 사용하여 FastAPI 앱 실행 (개발용):
