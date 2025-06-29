@@ -30,7 +30,7 @@
 
 - Enable "[F]ascist checking" to compare A record PTR name with the forward name and report mismatches:
 
-`dnswalk -F {{domain.}}`
+`dnswalk -F {{domain}}.`
 
 - Enable "[l]ame delegation" to test whether the listed host is returning authoritative answers:
 
