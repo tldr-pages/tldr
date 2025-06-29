@@ -2,7 +2,7 @@
 
 > Утиліта пошуку DNS.
 > Вона має кольоровий вихід, підтримує протоколи DNS-over-TLS і DNS-over-HTTPS та може видавати JSON.
-> Більше інформації: <https://dns.lookup.dog>.
+> Більше інформації: <https://github.com/ogham/dog#examples>.
 
 - Шукає IP-адреси пов'язані з іменем хоста (A records):
 
@@ -18,12 +18,12 @@
 
 - Запит через TCP, а не UDP:
 
-`dog {{example.com}} MX @{{1.1.1.1}} --tcp`
+`dog {{example.com}} MX @{{1.1.1.1}} {{[-T|--tcp]}}`
 
 - Запитує тип записів MX, пов’язаних із заданим доменним ім’ям через TCP, використовуючи явні аргументи:
 
-`dog --query {{example.com}} --type MX --nameserver {{1.1.1.1}} --tcp`
+`dog {{[-q|--query]}} {{example.com}} {{[-t|--type]}} MX {{[-n|--nameserver]}} {{1.1.1.1}} {{[-T|--tcp]}}`
 
 - Шукає IP-адреси, пов’язані з іменем хоста (записи A), за допомогою DNS через HTTPS (DoH):
 
-`dog {{example.com}} --https @{{https://cloudflare-dns.com/dns-query}}`
+`dog {{example.com}} {{[-H|--https]}} @{{https://cloudflare-dns.com/dns-query}}`
