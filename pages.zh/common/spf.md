@@ -25,7 +25,7 @@
 
 - 将第一个选中的文件路径写入该文件并退出：
 
-`spf {{[--cf|--chooser-file]}} {{/tmp/chooser-result}}`
+`spf {{[--cf|--chooser-file]}} {{tmp/chooser-result}}`
 
 - 显示内部配置和数据目录路径：
 
