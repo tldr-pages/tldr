@@ -180,8 +180,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [3 May 2024](https://github.com/tldr-pages/tldr/issues/12718) — present
 - **Wiktor Perskawiec ([@spageektti](https://github.com/spageektti))**:
   [1 June 2024](https://github.com/tldr-pages/tldr/issues/12869) — present
-- **Managor ([@Managor](https://github.com/Managor))**:
-  [3 October 2024](https://github.com/tldr-pages/tldr/issues/13956) — present
 - **Renie ([@renie](https://github.com/renie))**:
   [23 October 2024](https://github.com/tldr-pages/tldr/issues/14343) — present
 - **Machiavelli ([@MachiavelliII](https://github.com/MachiavelliII))**:
@@ -224,6 +222,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [24 October 2023](https://github.com/tldr-pages/tldr/issues/11201) — [29 April 2024](https://github.com/tldr-pages/tldr/issues/12686)
 - Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz)):
   [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — [22 September 2024](https://github.com/tldr-pages/tldr/issues/5932)
+- Managor ([@Managor](https://github.com/Managor)):
+  [3 October 2024](https://github.com/tldr-pages/tldr/issues/13956) — [29 June 2025](https://github.com/tldr-pages/tldr/issues/17029)
 
 ## Organization owners
 
@@ -256,6 +256,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [28 April 2024](https://github.com/tldr-pages/tldr/issues/12687) — present
 - **Juri ([@gutjuri](https://github.com/gutjuri))**:
   [29 April 2024](https://github.com/tldr-pages/tldr/issues/12686) — present
+- **Managor ([@Managor](https://github.com/Managor))**:
+  [29 June 2025](https://github.com/tldr-pages/tldr/issues/17029) — present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
