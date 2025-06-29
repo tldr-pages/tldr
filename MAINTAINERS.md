@@ -150,7 +150,7 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [03 October 2024](https://github.com/tldr-pages/tldr/issues/13946) — [23 October 2024](https://github.com/tldr-pages/tldr/issues/14343)
 - Machiavelli ([@MachiavelliII](https://github.com/MachiavelliII)):
   [21 January 2025](https://github.com/tldr-pages/tldr/issues/15564) — [27 Mar 2025](https://github.com/tldr-pages/tldr/issues/16036)
-- **Nelson Figueroa ([@nelsonfigueroa](https://github.com/nelsonfigueroa)):**
+- Nelson Figueroa ([@nelsonfigueroa](https://github.com/nelsonfigueroa)):
   [21 September 2024](https://github.com/tldr-pages/tldr/issues/13781) — [29 June 2025](https://github.com/tldr-pages/tldr/issues/17025)
 
 ## Organization members
