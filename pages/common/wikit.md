@@ -1,6 +1,6 @@
 # wikit
 
-> A command-line program for getting Wikipedia summaries easily.
+> Easily get Wikipedia summaries.
 > More information: <https://github.com/KorySchneider/wikit>.
 
 - Show a short summary of a specific topic on Wikipedia:

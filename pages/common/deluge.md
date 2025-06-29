@@ -1,6 +1,6 @@
 # deluge
 
-> A command-line BitTorrent client.
+> A BitTorrent client.
 > More information: <https://manned.org/deluge>.
 
 - Download a torrent:
