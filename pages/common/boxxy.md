@@ -1,6 +1,6 @@
 # boxxy
 
-> .
+> Redirect file locations for programs that don't respect the XDG standards.
 > More information: <https://github.com/queer/boxxy>.
 
 - Run a program with file redirections defined in `~/.config/boxxy/boxxy.yaml`:
