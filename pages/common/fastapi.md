@@ -1,7 +1,7 @@
 # fastapi
 
 > CLI tool to run FastAPI apps which uses Uvicorn under the hood.
-> More information: <https://fastapi.tiangolo.com/tutorial/cli/>.
+> More information: <https://fastapi.tiangolo.com/tutorial/>.
 
 - Run a FastAPI app with automatic reload (for development):
 
