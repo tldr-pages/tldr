@@ -22,7 +22,7 @@
 
 - Suppress check for [i]nvalid characters in domain name:
 
-`dnswalk -i {{domain.}}`
+`dnswalk -i {{domain}}.`
 
 - Enable duplicate A record warning:
 
