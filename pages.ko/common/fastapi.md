@@ -25,4 +25,4 @@
 
 - 하위 명령어의 도움말 보기:
 
-`fastapi run --help`
+`fastapi {{하위명령어}} --help`

@@ -25,4 +25,4 @@
 
 - 显示子命令的帮助信息：
 
-`fastapi run --help`
+`fastapi {{子命令}} --help`

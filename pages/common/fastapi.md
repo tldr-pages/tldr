@@ -25,4 +25,4 @@
 
 - Display help for a subcommand:
 
-`fastapi run --help`
+`fastapi {{subcommand}} --help`
