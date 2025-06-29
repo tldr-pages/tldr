@@ -1,28 +1,28 @@
 # fastapi
 
-> Uvicorn을 내부적으로 사용하는 FastAPI 앱 실행용 CLI 도구.
-> 더 많은 정보: <https://fastapi.tiangolo.com/tutorial/>.
+> Uvicorn을 기반으로 동작하는 FastAPI 앱 실행용 CLI 도구.
+> 더 많은 정보: <https://manned.org/fastapi>.
 
-- 자동 리로드를 사용하여 FastAPI 앱 실행 (개발용):
+- 자동 재시작 기능을 사용하여 FastAPI 앱 실행 (개발용):
 
-`fastapi run {{main.py}} --reload`
+`fastapi run {{경로/파일.py}} --reload`
 
-- `dev` 명령어를 사용하여 개발 또는 프로덕션 모드로 앱 실행:
+- 개발 모드에서 앱 실행:
 
-`fastapi dev {{main.py}}`
+`fastapi dev {{경로/파일.py}}`
 
-- 실행할 호스트와 포트를 지정:
+- 호스트와 포트를 지정하여 실행:
 
-`fastapi run {{main.py}} --host {{0.0.0.0}} --port {{8000}}`
+`fastapi run {{경로/파일.py}} --host {{호스트_주소}} --port {{포트}}`
 
-- 앱 변수 이름이 `app`이 아닌 경우 설정하거나, 앱 디렉터리를 지정:
+- 앱 변수 이름을 설정하거나 (기본값은 `app`), 앱 디렉터리를 지정:
 
-`fastapi run {{main.py}} --app-dir {{path/to/app}} --app {{custom_app_name}}`
+`fastapi run {{경로/파일.py}} --app-dir {{경로/앱}} --app {{사용자_정의_앱명}}`
 
-- 전역 도움말 표시:
+- 전체 도움말 보기:
 
 `fastapi --help`
 
-- 하위 명령어의 도움말 표시:
+- 하위 명령어의 도움말 보기:
 
 `fastapi run --help`
