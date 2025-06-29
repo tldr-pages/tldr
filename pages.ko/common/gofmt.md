@@ -1,7 +1,7 @@
 # gofmt
 
 > Go 소스 코드를 포맷합니다.
-> 더 많은 정보: <https://golang.org/cmd/gofmt/>.
+> 더 많은 정보: <https://pkg.go.dev/cmd/gofmt>.
 
 - 파일을 포맷하고 결과를 콘솔에 표시:
 

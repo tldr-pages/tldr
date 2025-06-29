@@ -1,7 +1,7 @@
 # go doc
 
 > 显示包或符号的文档。
-> 更多信息：<https://golang.org/cmd/go/#hdr-Show_documentation_for_package_or_symbol>.
+> 更多信息：<https://pkg.go.dev/cmd/go#hdr-Show_documentation_for_package_or_symbol>.
 
 - 显示当前包的文档：
 
