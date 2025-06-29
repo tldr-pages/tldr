@@ -18,4 +18,4 @@
 
 - Run all stress tests for 2 minutes:
 
-`stress-ng --all {{1}} --timeout 2m`
+`stress-ng {{[-a|--all]}} {{1}} {{[-t|--timeout]}} 2m`
