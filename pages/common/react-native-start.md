@@ -1,6 +1,6 @@
 # react-native start
 
-> Command-line tools to start the React Native server.
+> Start the React Native server.
 > More information: <https://github.com/facebook/react-native/tree/main/packages/community-cli-plugin#start>.
 
 - Start the server that communicates with connected devices:

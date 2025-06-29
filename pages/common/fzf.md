@@ -1,6 +1,6 @@
 # fzf
 
-> Command-line fuzzy finder.
+> Fuzzy finder.
 > Similar to `sk`.
 > More information: <https://github.com/junegunn/fzf>.
 
