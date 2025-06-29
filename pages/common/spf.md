@@ -25,7 +25,7 @@
 
 - Write the path of the first selected file to this file and exit:
 
-`spf {{[--cf|--chooser-file]}} {{/tmp/chooser-result}}`
+`spf {{[--cf|--chooser-file]}} {{tmp/chooser-result}}`
 
 - Show internal configuration and data directory paths:
 
