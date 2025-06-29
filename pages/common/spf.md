@@ -9,7 +9,7 @@
 
 - Launch `spf` with multiple paths:
 
-`spf {{/path/to/start1}} {{/path/to/start2}}`
+`spf {{path/to/directory1 path/to/directory2 ...}}`
 
 - Fix hotkey settings by appending missing keys:
 
