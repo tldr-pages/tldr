@@ -18,7 +18,7 @@
 
 - Print [d]ebugging and status to `stderr` instead of `stdout`:
 
-`dnswalk -d {{domain.}}`
+`dnswalk -d {{domain}}.`
 
 - Suppress check for [i]nvalid characters in domain name:
 
