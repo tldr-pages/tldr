@@ -14,7 +14,7 @@
 
 - Only perform a `dnswalk` if the zonme has been [m]odified since the last test:
 
-`dnswalk -m {{domain.}}`
+`dnswalk -m {{domain}}.`
 
 - Print [d]ebugging and status to `stderr` instead of `stdout`:
 
