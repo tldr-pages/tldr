@@ -9,7 +9,7 @@
 
 - Create a new repository with a specified name and description:
 
-`gh repo create {{repo_name}} --description "{{repo_description}}"`
+`gh repo create {{repo_name}} {{[-d|--description]}} "{{repo_description}}"`
 
 - Create a private repository from the current directory:
 
