@@ -13,7 +13,7 @@
 
 - Automatically set the library path so that another program can use uninstalled `libtool` generated programs or libraries:
 
-`libtool execute gdb {{path/to/program}}`
+`libtool {{[e|execute]}} gdb {{path/to/program}}`
 
 - Install a shared library:
 
