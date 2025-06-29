@@ -24,7 +24,7 @@
 
 `tar xf {{jalan/menuju/sumber.tar[.gz|.bz2|.xz]}} --directory={{jalan/menuju/direktori}}`
 
-- Buat ([c]reate) suatu arsip  terkompres dan simpan di dalam suatu berkas ([f]ile), menggunakan metode kompresi yang ditentukan secara otom[a]tis berdasarkan nama ekstensi berkas tujuan:
+- Buat ([c]reate) suatu arsip terkompres dan simpan di dalam suatu berkas ([f]ile), menggunakan metode kompresi yang ditentukan secara otom[a]tis berdasarkan nama ekstensi berkas tujuan:
 
 `tar caf {{jalan/menuju/target.tar.xz}} {{jalan/menuju/berkas1 jalan/menuju/berkas2 ...}}`
 

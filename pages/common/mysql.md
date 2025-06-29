@@ -1,6 +1,6 @@
 # mysql
 
-> The MySQL command-line tool.
+> The MySQL tool.
 > More information: <https://www.mysql.com/>.
 
 - Connect to a database:
