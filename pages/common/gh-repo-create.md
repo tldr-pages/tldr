@@ -15,7 +15,7 @@
 
 `gh repo create {{[-s|--source]}} . --private`
 
-- Clone the new repo locally after creation:
+- Clone the new repository locally after creation:
 
 `gh repo create {{repo_name}} {{[-c|--clone]}}`
 
