@@ -13,7 +13,7 @@
 
 - Create a private repository from the current directory:
 
-`gh repo create --private`
+`gh repo create {{[-s|--source]}} . --private`
 
 - Clone the new repo locally after creation:
 
