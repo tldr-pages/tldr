@@ -26,7 +26,7 @@
 
 - Enable duplicate A record warning:
 
-`dnswalk -a {{domain.}}`
+`dnswalk -a {{domain}}.`
 
 - Enable "[F]ascist checking" to compare A record PTR name with the forward name and report mismatches:
 
