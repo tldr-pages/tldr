@@ -12,7 +12,7 @@
 
 `stress-ng {{[-m|--vm]}} 2 --vm-bytes {{512M}} {{[-t|--timeout]}} 30s`
 
-- Stress the I/O subsystem with 3 workers:
+- Stress the I/O subsystem with 3 workers for 45 seconds:
 
 `stress-ng {{[-i|--io]}} 3 {{[-t|--timeout]}} {{45s}}`
 
