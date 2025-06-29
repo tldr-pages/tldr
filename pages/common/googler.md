@@ -1,6 +1,6 @@
 # googler
 
-> Search Google from command-line.
+> Search Google from the command-line.
 > More information: <https://github.com/jarun/googler>.
 
 - Search Google for a keyword:

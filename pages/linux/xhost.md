@@ -15,7 +15,7 @@
 
 `xhost -{{hostname}}`
 
-- Allow all hosts to connect (disable access control — insecure):
+- Allow all hosts to connect (disable access control - insecure):
 
 `xhost +`
 

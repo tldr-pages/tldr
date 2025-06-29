@@ -18,7 +18,7 @@
 
 - os/arch{{/variant}}{{:osversion}} 형식으로 플랫폼을 지정 (e.g. linux/amd64). (기본값 모두):
 
-`crane  --platform {{플랫폼}} {{하위명령어}}`
+`crane --platform {{플랫폼}} {{하위명령어}}`
 
 - 하위 명령에 대한 디버그 로그 활성화:
 

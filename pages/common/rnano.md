@@ -1,18 +1,8 @@
 # rnano
 
-> A restricted version of `nano`.
-> Command-line text editor with restricted drive access.
-> See also: `nano`.
+> This command is an alias of `nano --restricted`.
 > More information: <https://manned.org/rnano>.
 
-- Start the editor:
+- View documentation for the original command:
 
-`rnano`
-
-- Open a specific file:
-
-`rnano {{path/to/file}}`
-
-- Display help:
-
-`rnano {{[-h|--help]}}`
+`tldr nano`

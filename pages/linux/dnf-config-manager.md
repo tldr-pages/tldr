@@ -13,11 +13,11 @@
 
 - Enable a specific repository:
 
-`dnf config-manager --set-enabled {{repository_id}}`
+`dnf config-manager {{[--enable|--set-enabled]}} {{repository_id}}`
 
 - Disable specified repositories:
 
-`dnf config-manager --set-disabled {{repository_id1 repository_id2 ...}}`
+`dnf config-manager {{[--disable|--set-disabled]}} {{repository_id1 repository_id2 ...}}`
 
 - Set a configuration option for a repository:
 
