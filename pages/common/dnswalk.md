@@ -10,7 +10,7 @@
 
 - Descend sub-domains [r]ecursively:
 
-`dnswalk -r {{domain.}}`
+`dnswalk -r {{domain}}.`
 
 - Only perform a `dnswalk` if the zonme has been [m]odified since the last test:
 
