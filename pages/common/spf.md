@@ -5,7 +5,7 @@
 
 - Launch `spf` with a specific path:
 
-`spf {{/path/to/start}}`
+`spf {{path/to/directory}}`
 
 - Launch `spf` with multiple paths:
 
