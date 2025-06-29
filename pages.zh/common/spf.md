@@ -9,7 +9,7 @@
 
 - 使用多个路径启动 `spf`：
 
-`spf {{/path/to/start1}} {{/path/to/start2}}`
+`spf {{path/to/directory1 path/to/directory2 ...}}`
 
 - 修复快捷键设置，补全缺失的按键：
 
