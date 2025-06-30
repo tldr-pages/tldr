@@ -10,4 +10,3 @@
 - Show stat, summary and patch of modifications of an operation:
 
 `jj {{[op|operation]}} show {{--stat}} {{[-s|--summary]}} {{[-p|--patch]}} {{operation}}`
-
