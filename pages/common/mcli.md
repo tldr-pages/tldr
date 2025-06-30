@@ -1,6 +1,6 @@
 # mcli
 
-> MinIO Client for object storage and filesystems
+> MinIO Client for object storage and filesystems.
 > May be named 'mc' on some systems.
 > More information: <https://minio.github.io/mc/>.
 
