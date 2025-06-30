@@ -7,13 +7,9 @@
 
 `git show`
 
-- Show information about a given commit:
+- Show information about a given commit | tag | branch:
 
-`git show {{commit}}`
-
-- Show information about the commit associated with a given tag:
-
-`git show {{tag}}`
+`git show {{commit|tag|branch}}`
 
 - Show information about the 3rd commit from the HEAD of a branch:
 
