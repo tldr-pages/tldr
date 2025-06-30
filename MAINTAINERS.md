@@ -90,8 +90,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [14 January 2025](https://github.com/tldr-pages/tldr/issues/15514) — present
 - **Amine LOUHICHI ([@aminelch](https://github.com/aminelch))**:
   [08 April 2025](https://github.com/tldr-pages/tldr/issues/16126) — present
-- **Dylan McGivern ([@dmmqz](https://github.com/dmmqz))**:
-  [30 May 2025](https://github.com/tldr-pages/tldr/issues/16671) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -152,6 +150,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [21 January 2025](https://github.com/tldr-pages/tldr/issues/15564) — [27 Mar 2025](https://github.com/tldr-pages/tldr/issues/16036)
 - Nelson Figueroa ([@nelsonfigueroa](https://github.com/nelsonfigueroa)):
   [21 September 2024](https://github.com/tldr-pages/tldr/issues/13781) — [29 June 2025](https://github.com/tldr-pages/tldr/issues/17025)
+- Dylan McGivern ([@dmmqz](https://github.com/dmmqz)):
+  [30 May 2025](https://github.com/tldr-pages/tldr/issues/16671) — [30 June 2025](https://github.com/tldr-pages/tldr/issues/17026)
 
 ## Organization members
 
@@ -184,6 +184,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [27 Mar 2025](https://github.com/tldr-pages/tldr/issues/16036) — present
 - **Nelson Figueroa ([@nelsonfigueroa](https://github.com/nelsonfigueroa))**:
   [29 June 2025](https://github.com/tldr-pages/tldr/issues/17025) — present
+- **Dylan McGivern ([@dmmqz](https://github.com/dmmqz))**:
+  [30 June 2025](https://github.com/tldr-pages/tldr/issues/17026) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
