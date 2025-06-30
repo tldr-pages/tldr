@@ -5,20 +5,20 @@
 
 - Set output column count to a specific value:
 
-`img2txt --width={{10}}`
+`img2txt {{[-W|--width]}} {{10}} {{path/to/image}}`
 
 - Set output line count to a specific value:
 
-`img2txt --height={{5}}`
+`img2txt {{[-H|--height]}} {{5}} {{path/to/image}}`
 
 - Set output font width to a specific value:
 
-`img2txt --font-width={{12}}`
+`img2txt {{[-x|--font-width]}} {{12}} {{path/to/image}}`
 
 - Set output font height to a specific value:
 
-`img2txt --font-height={{14}}`
+`img2txt {{[-y|--font-height]}} {{14}} {{path/to/image}}`
 
 - Set image brightness to a specific value:
 
-`img2txt --brightness={{2}}`
+`img2txt {{[-b|--brightness]}} {{2}} {{path/to/image}}`

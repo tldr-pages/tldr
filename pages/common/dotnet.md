@@ -1,6 +1,6 @@
 # dotnet
 
-> Cross platform .NET command-line tools for .NET Core.
+> Cross platform .NET tools for .NET Core.
 > Some subcommands such as `build` have their own usage documentation.
 > More information: <https://learn.microsoft.com/dotnet/core/tools>.
 

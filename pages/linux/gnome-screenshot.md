@@ -9,27 +9,27 @@
 
 - Take a screenshot and save it to the named file location:
 
-`gnome-screenshot --file {{path/to/file}}`
+`gnome-screenshot {{[-f|--file]}} {{path/to/file}}`
 
 - Take a screenshot and save it to the clipboard:
 
-`gnome-screenshot --clipboard`
+`gnome-screenshot {{[-c|--clipboard]}}`
 
 - Take a screenshot after the specified number of seconds:
 
-`gnome-screenshot --delay {{5}}`
+`gnome-screenshot {{[-d|--delay]}} {{5}}`
 
 - Launch the GNOME Screenshot GUI:
 
-`gnome-screenshot --interactive`
+`gnome-screenshot {{[-i|--interactive]}}`
 
 - Take a screenshot of the current window and save it to the specified file location:
 
-`gnome-screenshot --window --file {{path/to/file}}`
+`gnome-screenshot {{[-w|--window]}} {{[-f|--file]}} {{path/to/file}}`
 
 - Take a screenshot after the specified number of seconds and save it to the clipboard:
 
-`gnome-screenshot --delay {{10}} --clipboard`
+`gnome-screenshot {{[-d|--delay]}} {{10}} {{[-c|--clipboard]}}`
 
 - Display the version:
 

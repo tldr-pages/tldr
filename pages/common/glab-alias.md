@@ -3,10 +3,6 @@
 > Manage GitLab CLI command aliases.
 > More information: <https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/alias/index.md>.
 
-- Display the subcommand help:
-
-`glab alias`
-
 - List all the aliases `glab` is configured to use:
 
 `glab alias list`
@@ -22,3 +18,7 @@
 - Delete a command shortcut:
 
 `glab alias delete {{alias_name}}`
+
+- Display the subcommand help:
+
+`glab alias`

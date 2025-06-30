@@ -11,6 +11,6 @@
 
 `expect -c "{{commands}}"`
 
-- Enter an interactive REPL (use `exit` or `<Ctrl d>` to exit):
+- Enter an [i]nteractive REPL (use `exit` or `<Ctrl d>` to exit):
 
 `expect -i`

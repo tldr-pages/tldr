@@ -17,8 +17,8 @@
 
 - List installed plasmoids (`--global` for all users):
 
-`kpackagetool5 {{[-t|--type]}} Plasma/Applet  {{[-l|--list]}} {{[-g|--global]}}`
+`kpackagetool5 {{[-t|--type]}} Plasma/Applet {{[-l|--list]}} {{[-g|--global]}}`
 
 - Remove a plasmoid by name:
 
-`kpackagetool5 {{[-t|--type]}} Plasma/Applet  {{[-r|--remove]}} "{{name}}"`
+`kpackagetool5 {{[-t|--type]}} Plasma/Applet {{[-r|--remove]}} "{{name}}"`

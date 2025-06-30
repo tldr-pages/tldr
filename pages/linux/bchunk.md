@@ -1,7 +1,7 @@
 # bchunk
 
 > Convert CD images to a set of `.iso` and `.cdr` tracks.
-> More information: <http://he.fi/bchunk>.
+> More information: <https://manned.org/bchunk>.
 
 - Convert binary CD into a standard iso9960 image file:
 

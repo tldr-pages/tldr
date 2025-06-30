@@ -1,6 +1,6 @@
 # supervisorctl
 
-> Supervisor is a client/server system that allows its users to control a number of processes on UNIX-like operating systems.
+> Supervisor, a client/server system that allows its users to control a number of processes on UNIX-like operating systems.
 > Supervisorctl is the command-line client piece of the supervisor which provides a shell-like interface.
 > More information: <http://supervisord.org>.
 
