@@ -6,4 +6,4 @@
 
 - Start `fancontrol`:
 
-`fancontrol {{path/to/configfile}}`
+`fancontrol {{path/to/config_file}}`
