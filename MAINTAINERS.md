@@ -152,6 +152,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [21 September 2024](https://github.com/tldr-pages/tldr/issues/13781) — [29 June 2025](https://github.com/tldr-pages/tldr/issues/17025)
 - Dylan McGivern ([@dmmqz](https://github.com/dmmqz)):
   [30 May 2025](https://github.com/tldr-pages/tldr/issues/16671) — [30 June 2025](https://github.com/tldr-pages/tldr/issues/17026)
+- Kristopher Sandoval ([@KristopherLeads](https://github.com/KristopherLeads)):
+  [29 June 2025](https://github.com/tldr-pages/tldr/issues/17024) — present
 
 ## Organization members
 
