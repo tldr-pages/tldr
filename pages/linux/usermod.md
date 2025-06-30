@@ -20,7 +20,7 @@
 
 `sudo usermod {{[-aG|--append --groups]}} {{group1,group2,...}} {{username}}`
 
-- Remove a user from supplementary groups:
+- Remove a user from specific groups:
 
 `sudo usermod {{[-rG|--remove --groups]}} {{group1,group2,...}} {{username}}`
 
