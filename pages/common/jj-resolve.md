@@ -17,12 +17,12 @@
 
 - Resolve conflicts in given files:
 
-`jj resolve {{file1}} {{file2}} ...`
+`jj resolve {{file1 file2 ...}}`
 
 - Resolve accepting the incoming versions:
 
-`jj resolve {{--tool}} :theirs`
+`jj resolve --tool :theirs`
 
 - Resolve accepting the outgoing versions:
 
-`jj resolve {{--tool}} :ours`
+`jj resolve --tool :ours`
