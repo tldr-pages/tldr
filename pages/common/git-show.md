@@ -23,6 +23,10 @@
 
 `git show --stat {{commit}}`
 
+- Show a simplified list of all files changed in a commit (modified, added, and deleted):
+
+`git show --name-only {{commit}}`
+
 - Show only the list of added, renamed or deleted files:
 
 `git show --summary {{commit}}`
