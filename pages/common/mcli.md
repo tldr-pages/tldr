@@ -14,4 +14,4 @@
 
 - List buckets and their content recursively:
 
-`mcli ls local --recursive`
+`mcli ls {{local}} --recursive`
