@@ -1,6 +1,6 @@
 # nix-channel
 
-> Manage nix update channels.
+> Manage `nix` update channels.
 > More information: <https://nixos.wiki/wiki/Nix_channels>.
 
 - List current channels:
