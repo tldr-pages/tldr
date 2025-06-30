@@ -1,7 +1,7 @@
 # go version
 
 > Go sürümünü yazdır.
-> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Print_Go_version>.
+> Daha fazla bilgi için: <https://pkg.go.dev/cmd/go#hdr-Print_Go_version>.
 
 - Go sürümünü yazdır:
 
