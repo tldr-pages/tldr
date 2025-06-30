@@ -7,7 +7,7 @@
 
 `git show`
 
-- Show information about a given commit | tag | branch:
+- Show information about a specific commit, tag, or branch (such as `HEAD` for the latest commit):
 
 `git show {{commit|tag|branch}}`
 
