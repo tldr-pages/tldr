@@ -1,12 +1,20 @@
 # jj
 
-> Jujutsu - Version control system.
-> Some subcommands such as `log`, `new`, `git fetch`, `git push`, etc. have their own usage documentation.
+> Jujutsu, a version control system.
+> Some subcommands such as `log`, `desc`, `new`, `git fetch`, etc. have their own usage documentation.
 > More information: <https://jj-vcs.github.io/jj/latest/cli-reference/>.
 
 - Execute a jj subcommand:
 
 `jj {{subcommand}`
+
+- Update description of the given revision(s):
+
+`jj describe {{[-r|--revision]}} {{revsets}}`
+
+- Create a new commit/revision on top of the given revision(s):
+
+`jj new {{revsets}}`
 
 - Execute a jj subcommand without snapshotting the working copy:
 
