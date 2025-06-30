@@ -4,10 +4,6 @@
 > Some subcommands such as `log`, `desc`, `new`, `git fetch`, etc. have their own usage documentation.
 > More information: <https://jj-vcs.github.io/jj/latest/cli-reference/>.
 
-- Execute a jj subcommand:
-
-`jj {{subcommand}`
-
 - Update description of the given revision(s):
 
 `jj describe {{[-r|--revision]}} {{revsets}}`
