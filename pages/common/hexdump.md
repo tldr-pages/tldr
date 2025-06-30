@@ -16,7 +16,7 @@
 
 `hexdump -C -n {{number_of_bytes}} {{path/to/file}}`
 
-- Verbose - No suppression by '*' on duplicate lines:
+- Verbose - no suppression by `*` on duplicate lines:
 
 `hexdump -v {{path/to/file}}`
 
