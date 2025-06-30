@@ -1,11 +1,11 @@
 # brightnessctl
 
 > Utility for reading and controlling device brightness for Linux operating systems.
-> More information: <https://github.com/Hummer12007/brightnessctl>.
+> More information: <https://github.com/Hummer12007/brightnessctl#usage>.
 
 - List devices with changeable brightness:
 
-`brightnessctl --list`
+`brightnessctl {{[-l|--list]}}`
 
 - Print the current brightness of the display backlight:
 

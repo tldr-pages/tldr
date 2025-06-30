@@ -1,6 +1,6 @@
 # ern
 
-> Electrode Native platform command-line client.
+> Electrode Native platform client.
 > More information: <https://native.electrode.io/reference/index-6>.
 
 - Create a new `ern` application (`MiniApp`):

@@ -1,20 +1,7 @@
 # apt-add-repository
 
-> Manage `apt` repository definitions.
-> More information: <https://manned.org/apt-add-repository.1>.
+> This command is an alias of `add-apt-repository`.
 
-- Add a new `apt` repository:
+- View documentation for the original command:
 
-`apt-add-repository {{repository_spec}}`
-
-- Remove an `apt` repository:
-
-`apt-add-repository {{[-r|--remove]}} {{repository_spec}}`
-
-- Update the package cache after adding a repository:
-
-`apt-add-repository --update {{repository_spec}}`
-
-- Enable source packages:
-
-`apt-add-repository {{[-s|--enable-source]}} {{repository_spec}}`
+`tldr add-apt-repository`

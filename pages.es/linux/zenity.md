@@ -12,7 +12,7 @@
 
 `zenity --info --text="{{¡Hola!}}"`
 
-- Muestra un formulario  de nombre/contraseña y retorna los datos separados por ";":
+- Muestra un formulario de nombre/contraseña y retorna los datos separados por ";":
 
 `zenity --forms --add-entry="{{Nombre}}" --add-password="{{Contraseña}}" --separator="{{;}}"`
 

@@ -14,8 +14,8 @@
 
 - List storage accounts:
 
-`az storage account list  {{[-g|--resource-group]}}  {{azure_resource_group}}`
+`az storage account list {{[-g|--resource-group]}} {{azure_resource_group}}`
 
 - Delete a specific storage account:
 
-`az storage account delete {{[-n|--name]}} {{storage_account_name}}  {{[-g|--resource-group]}}  {{azure_resource_group}}`
+`az storage account delete {{[-n|--name]}} {{storage_account_name}} {{[-g|--resource-group]}} {{azure_resource_group}}`

@@ -1,6 +1,6 @@
 # keepassxc-cli
 
-> Command-line interface for KeepassXC.
+> Interface for KeepassXC.
 > More information: <https://manned.org/keepassxc-cli>.
 
 - Search entries:

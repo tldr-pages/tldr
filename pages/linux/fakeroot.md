@@ -11,7 +11,7 @@
 
 `fakeroot -- {{command}} {{command_arguments}}`
 
-- Run a command as fakeroot and save the environment to a file on exit:
+- Run a command as fakeroot and [s]ave the environment to a file on exit:
 
 `fakeroot -s {{path/to/file}} -- {{command}} {{command_arguments}}`
 
