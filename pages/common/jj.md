@@ -1,7 +1,7 @@
 # jj
 
 > Jujutsu, a version control system.
-> Some subcommands such as `log`, `desc`, `new`, `git fetch`, etc. have their own usage documentation.
+> Some subcommands such as `log`, `desc`, `new`, `git`, etc. have their own usage documentation.
 > More information: <https://jj-vcs.github.io/jj/latest/cli-reference/>.
 
 - Update description of the given revision(s):
