@@ -1,13 +1,13 @@
 # jj git
 
-> Run Git-related commands for a jj repository.
+> Run Git-related commands for a `jj` repository.
 > More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-git>.
 
 - Create a new Git backed repository:
 
 `jj git init`
 
-- Create a new repo backed by a clone of a Git repo:
+- Create a new repository backed by a clone of a Git repository:
 
 `jj git clone {{source}}`
 
