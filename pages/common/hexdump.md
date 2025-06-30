@@ -12,7 +12,7 @@
 
 `hexdump -C {{path/to/file}}`
 
-- Display the hexadecimal representation of a file, but interpret only n bytes of the input:
+- Display the hexadecimal representation of a file, but interpret only a specific number of bytes of the input:
 
 `hexdump -C -n {{number_of_bytes}} {{path/to/file}}`
 
