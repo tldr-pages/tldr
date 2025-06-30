@@ -1,7 +1,7 @@
 # hexdump
 
 > Display file contents in hexadecimal, decimal, octal, or ASCII.
-> Useful for inspect dump file, binary data, or debug output.
+> Useful for inspecting dump file, binary data, or debug output.
 > More information: <https://www.unix.com/man_page/osx/1/hexdump/>.
 
 - Print the hexadecimal representation of a file, replacing duplicate lines by '*':
