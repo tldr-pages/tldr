@@ -3,7 +3,7 @@
 > Manage PKCS #11 module information within the NSS security module database.
 > More information: <https://manned.org/modutil>.
 
-- Add a PKCS #11 module to the mentionned NSS database (e.g. a Firefox profile: `$HOME/.mozilla/firefox/default-release`):
+- Add a PKCS #11 module to a NSS database (e.g. a Firefox profile: `$HOME/.mozilla/firefox/default-release`):
 
 `modutil -dbdir sql:{{path/to/nss/db/dir}} -add "{{module_label}}" -libfile {{path/to/pkcs11_mod.so}}`
 
