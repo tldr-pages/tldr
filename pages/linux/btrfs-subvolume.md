@@ -15,7 +15,7 @@
 
 `sudo btrfs subvolume delete {{path/to/subvolume}}`
 
-- Create a read-only snapshot of an existing subvolume:
+- Create a [r]ead-only snapshot of an existing subvolume:
 
 `sudo btrfs subvolume snapshot -r {{path/to/source_subvolume}} {{path/to/target}}`
 

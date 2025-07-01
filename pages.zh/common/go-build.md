@@ -1,7 +1,7 @@
 # go build
 
 > 编译 Go 源代码。
-> 更多信息：<https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies>.
+> 更多信息：<https://pkg.go.dev/cmd/go#hdr-Compile_packages_and_dependencies>.
 
 - 编译 ‘package main’ 文件（输出为不带扩展名的文件名）：
 

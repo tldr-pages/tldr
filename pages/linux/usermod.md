@@ -20,6 +20,10 @@
 
 `sudo usermod {{[-aG|--append --groups]}} {{group1,group2,...}} {{username}}`
 
+- Remove a user from specific groups:
+
+`sudo usermod {{[-rG|--remove --groups]}} {{group1,group2,...}} {{username}}`
+
 - Change a user home directory:
 
 `sudo usermod {{[-m|--move-home]}} {{[-d|--home]}} {{path/to/new_home}} {{username}}`

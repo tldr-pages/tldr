@@ -7,7 +7,7 @@
 
 `sudo e2fsck {{/dev/sdXN}}`
 
-- Check filesystem and automatically repair any damaged blocks:
+- Check filesystem and automatically repair ([p]reen) any damaged blocks:
 
 `sudo e2fsck -p {{/dev/sdXN}}`
 

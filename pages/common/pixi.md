@@ -23,7 +23,7 @@
 
 `pixi task {{command}}`
 
-- Print the help message:
+- Display help:
 
 `pixi {{command}} --help`
 

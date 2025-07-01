@@ -10,4 +10,4 @@
 
 - Stel profielen in op klaagmodus:
 
-`sudo aa-complain --dir {{pad/naar/profielen}}`
+`sudo aa-complain {{[-d|--dir]}} {{pad/naar/profielen}}`

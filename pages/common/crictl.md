@@ -1,6 +1,6 @@
 # crictl
 
-> Command-line for CRI-compatible container runtimes.
+> Manage CRI-compatible container runtimes.
 > More information: <https://github.com/kubernetes-sigs/cri-tools/blob/master/docs/crictl.md>.
 
 - List all kubernetes pods (Ready and NotReady):

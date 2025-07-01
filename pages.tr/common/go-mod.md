@@ -1,7 +1,7 @@
 # go mod
 
 > Modül yönetimi.
-> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Module_maintenance>.
+> Daha fazla bilgi için: <https://pkg.go.dev/cmd/go#hdr-Module_maintenance>.
 
 - Mevcut dizinde yeni modül başlat:
 
