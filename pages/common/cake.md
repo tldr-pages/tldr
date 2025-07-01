@@ -1,6 +1,6 @@
 # cake
 
-> The command-line processor for the CakePHP framework.
+> The processor for the CakePHP framework.
 > More information: <https://cakephp.org>.
 
 - Display basic information about the current app and available commands:

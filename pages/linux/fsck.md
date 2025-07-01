@@ -11,6 +11,6 @@
 
 `sudo fsck -r {{/dev/sdXN}}`
 
-- Check filesystem `/dev/sdXN`, reporting any damaged blocks and automatically repairing them:
+- Check filesystem `/dev/sdXN`, reporting any damaged blocks and [a]utomatically repairing them:
 
 `sudo fsck -a {{/dev/sdXN}}`

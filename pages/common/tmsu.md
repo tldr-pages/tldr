@@ -1,6 +1,6 @@
 # tmsu
 
-> Simple command-line tool for tagging files.
+> Simple tool for tagging files.
 > More information: <https://tmsu.org>.
 
 - Tag a specific file with multiple tags:

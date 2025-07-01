@@ -17,4 +17,4 @@
 
 - Abre una aplicación al hacer clic en la notificación:
 
-`terminal-notifier -message '{{Importados 42 contactos.}}'  -activate {{com.apple.AddressBook}}`
+`terminal-notifier -message '{{Importados 42 contactos.}}' -activate {{com.apple.AddressBook}}`

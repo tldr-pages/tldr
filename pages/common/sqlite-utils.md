@@ -1,6 +1,6 @@
 # sqlite-utils
 
-> Command-line tool used to manipulate SQLite databases in a number of different ways.
+> Manipulate SQLite databases in a number of different ways.
 > More information: <https://sqlite-utils.datasette.io/en/stable/cli.html>.
 
 - Create a database:

@@ -1,7 +1,7 @@
 # go doc
 
 > 패키지나 심볼에 대한 문서 보기.
-> 더 많은 정보: <https://golang.org/cmd/go/#hdr-Show_documentation_for_package_or_symbol>.
+> 더 많은 정보: <https://pkg.go.dev/cmd/go#hdr-Show_documentation_for_package_or_symbol>.
 
 - 현재 패키지에 대한 문서 보기:
 
