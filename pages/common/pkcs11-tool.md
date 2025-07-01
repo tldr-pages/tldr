@@ -1,6 +1,6 @@
 # pkcs11-tool
 
-> utility for managing and using PKCS #11 security tokens
+> Utility for managing and using PKCS #11 security tokens.
 > More information: <https://github.com/OpenSC/OpenSC/wiki/Using-pkcs11-tool-and-OpenSSL>.
 
 - List slots and their potential token, using a specific module (e.g. /usr/lib/softhsm/libsofthsm2.so):
