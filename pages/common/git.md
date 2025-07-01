@@ -4,11 +4,11 @@
 > Some subcommands such as `commit`, `add`, `branch`, `switch`, `push`, etc. have their own usage documentation.
 > More information: <https://git-scm.com/docs/git>.
 
-- Create an empty git repository:
+- Create an empty Git repository:
 
 `git init`
 
-- Clone a git repository from the internet:
+- Clone a Git repository from the internet:
 
 `git clone {{https://example.com/repo.git}}`
 
