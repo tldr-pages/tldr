@@ -5,16 +5,16 @@
 
 - List slots and their potential token, using a specific module (e.g. /usr/lib/softhsm/libsofthsm2.so):
 
-`pkcs11-tool --module {{path/to/module.so}} --list-slots --list-token-slots`
+`pkcs11-tool --module {{path/to/module.so}} {{[-L|--list-slots]}} {{[-T|--list-token-slots]}}`
 
 - List objects in a specific slot. (Note: slot_id is not the slot index shown as "Slot X"):
 
-`pkcs11-tool list-objects --pin {{auth_pin}} --slot {{slot_id}}`
+`pkcs11-tool {{[-O|--list-objects]}} {{[-p|--pin]}} {{auth_pin}} --slot {{slot_id}}`
 
 - Create a new object with a specific label and type (e.g. cert, privkey, pubkey, secrkey, data):
 
-`pkcs11-tool --slot {{slot_id}} --pin {{auth_pin}} --type {{cert}} --label "{{label}}" --id {{01}} --write-object {{path/to/cert.crt}}`
+`pkcs11-tool --slot {{slot_id}} {{[-p|--pin]}} {{auth_pin}} {{[-y|--type]}} {{cert}} {{[-a|--label]}} "{{label}}" {{[-d|--id]}} {{01}} {{[-w|--write-object]}} {{path/to/cert.crt}}`
 
 - Delete an object by its label and type (e.g. cert, privkey, pubkey, secrkey, data):
 
-`pkcs11-tool --slot {{slot_id}} --pin {{auth_pin}} --type {{cert}} --label "{{label}}" --delete-object`
+`pkcs11-tool --slot {{slot_id}} {{[-p|--pin]}} {{auth_pin}} {{[-y|--type]}} {{cert}} {{[-a|--label]}} "{{label}}" {{[-b|--delete-object]}}`
