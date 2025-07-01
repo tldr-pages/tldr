@@ -8,4 +8,4 @@
 
 - View documentation for Midnight Commander:
 
-`tldr mc.c.md`
+`tldr mc.c`
