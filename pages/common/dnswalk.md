@@ -28,7 +28,7 @@
 
 `dnswalk -a {{domain}}.`
 
-- Enable "[F]ascist checking" to compare A record PTR name with the forward name and report mismatches:
+- Enable "[F]ascist checking" to compare the A record PTR name with the forward name and report mismatches:
 
 `dnswalk -F {{domain}}.`
 
