@@ -1,0 +1,36 @@
+# sg_raw
+
+> Send arbitrary SCSI command to a connected device.
+> More information: <https://manned.org/sg_raw>.
+
+- Read data from `IFILE` instead of `stdin`:
+
+`sg_raw {{[-i|--infile]}} {{path/to/IFILE}} {{/dev/sgX}} {{SCSI_command}}`
+
+- Skip the first `LEN` bytes of input data:
+
+`sg_raw {{[-k|--skip]}} {{LEN}} {{/dev/sgX}} {{SCSI_command}}`
+
+- Read `SLEN` bytes of data and send to the device:
+
+`sg_raw {{[-s|--send]}} {{SLEN}} {{/dev/sgX}} {{SCSI_command}}`
+
+- Wait up to `SEC` seconds for `sg_raw` to finish processing:
+
+`sg_raw {{[-t|--timeout]}} {{SEC}} {{/dev/sgX}} {{SCSI_command}}`
+
+- Increase verbosity level by 1:
+
+`sg_raw {{[-v|--verbose]}} {{/dev/sgX}} {{SCSI_command}}`
+
+- Hide SCSI Sense information:
+
+`sg_raw {{[-n|--nosense]}} {{/dev/sgX}} {{SCSI_command}}`
+
+- Dump returned data in binary form:
+
+`sg_raw {{[-b|--binary]}} {{/dev/sgX}} {{SCSI_command}}`
+
+- Write data received from the specified device to an OFILE:
+
+`sg_raw {{[-o|--outfile]}} {{path/to/OFILE}} {{/dev/sgX}} {{SCSI_command}}`
