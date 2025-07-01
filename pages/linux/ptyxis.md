@@ -9,7 +9,7 @@
 
 - Execute a specific command in a new terminal window:
 
-`ptyxis {{[-x|--execute]}} <command>`
+`ptyxis {{[-x|--execute]}} {{command}}`
 
 - Open new tab ub the last opened window:
 
