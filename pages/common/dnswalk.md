@@ -24,7 +24,7 @@
 
 `dnswalk -i {{domain}}.`
 
-- Enable duplicate A record warning:
+- Enable duplicate A record warnings:
 
 `dnswalk -a {{domain}}.`
 
