@@ -34,3 +34,7 @@
 - Write data received from the specified device to an OFILE:
 
 `sg_raw {{[-o|--outfile]}} {{path/to/OFILE}} {{/dev/sgX}} {{SCSI_command}}`
+
+- Send a command to an optical SCSI device assigned to `sr0` to load the media in its tray:
+
+`sg_raw /dev/sr0 EA 00 00 00 00 01`
