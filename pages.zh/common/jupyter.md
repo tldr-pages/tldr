@@ -2,7 +2,7 @@
 
 > 用于创建和共享包含代码、可视化和笔记的文档的 Web 应用程序。
 > 主要用于数据分析、科学计算和机器学习。
-> 更多信息：<https://jupyter.org>.
+> 更多信息：<https://docs.jupyter.org/en/latest/>.
 
 - 在当前目录下启动一个 Jupyter notebook 服务器：
 
@@ -18,7 +18,7 @@
 
 - 在指定端口启动服务器：
 
-`jupyter notebook --port={{端口}}`
+`jupyter notebook --port {{端口}}`
 
 - 列出当前正在运行的 notebook 服务器：
 

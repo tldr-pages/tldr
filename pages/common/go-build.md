@@ -1,7 +1,7 @@
 # go build
 
 > Compile Go sources.
-> More information: <https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies>.
+> More information: <https://pkg.go.dev/cmd/go#hdr-Compile_packages_and_dependencies>.
 
 - Compile a 'package main' file (output will be the filename without extension):
 

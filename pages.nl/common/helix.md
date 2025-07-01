@@ -12,7 +12,7 @@
 
 `helix --vsplit {{pad/naar/bestand1 pad/naar/bestand2}}`
 
-- Toon de tutorial om  Helix te leren (of open het binnen Helix door op `<Esc>` te drukken en `<:>tutor<Enter>` te typen):
+- Toon de tutorial om Helix te leren (of open het binnen Helix door op `<Esc>` te drukken en `<:>tutor<Enter>` te typen):
 
 `helix --tutor`
 

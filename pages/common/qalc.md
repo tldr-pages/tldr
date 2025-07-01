@@ -1,6 +1,6 @@
 # qalc
 
-> Powerful and easy to use command-line calculator.
+> Powerful and easy to use calculator.
 > See also: `bc`.
 > More information: <https://qalculate.github.io/manual/qalc.html>.
 

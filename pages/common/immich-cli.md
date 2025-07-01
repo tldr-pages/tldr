@@ -1,6 +1,6 @@
 # immich-cli
 
-> Immich has a command-line interface (CLI) that allows you to perform certain actions from the command-line.
+> Immich command-line interface (CLI) that allows you to perform certain actions.
 > See also: `immich-go`.
 > More information: <https://immich.app/docs/features/command-line-interface/>.
 
@@ -10,7 +10,7 @@
 
 - Upload some image files:
 
-`immich upload {{file1.jpg file2.jpg}}`
+`immich upload {{file1.jpg file2.jpg ...}}`
 
 - Upload a directory including subdirectories:
 

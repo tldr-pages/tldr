@@ -1,15 +1,15 @@
 # conda
 
 > 프로그래밍 언어에 대한 패키지, 의존성 및 환경 관리.
-> 더 많은 정보: <https://github.com/conda/conda>.
+> 더 많은 정보: <https://docs.conda.io/projects/conda/en/latest/commands/index.html>.
 
 - 새로운 환경을 생성합니다, 이름이 주어진 패키지로 설치합니다:
 
-`conda create --name {{환경_이름}} {{python=2.7 matplotlib}}`
+`conda create {{[-n|--name]}} {{환경_이름}} {{python=3.9 matplotlib}}`
 
 - 모든 환경의 리스트를 보여줍니다:
 
-`conda info --envs`
+`conda info {{[-e|--envs]}}`
 
 - 환경을 불러오거나:
 
@@ -21,7 +21,7 @@
 
 - 모든 환경을 제거합니다 (모든 패키지 제거):
 
-`conda remove --name {{환경_이름}} --all`
+`conda remove {{[-n|--name]}} {{환경_이름}} --all`
 
 - 현재 환경의 패키지를 설치합니다:
 
@@ -33,4 +33,4 @@
 
 - 사용하지 않는 패키지나 캐시를 제거합니다:
 
-`conda clean --all`
+`conda clean {{[-a|--all]}}`

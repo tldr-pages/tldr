@@ -9,7 +9,7 @@
 
 - Read from `stdin`:
 
-`{{command}} | nl -`
+`{{command}} | nl`
 
 - Number [a]ll body lines including blank lines or do [n]ot number body lines:
 
