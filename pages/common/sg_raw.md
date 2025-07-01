@@ -23,10 +23,6 @@
 
 `sg_raw {{[-v|--verbose]}} {{/dev/sgX}} {{SCSI_command}}`
 
-- Hide SCSI Sense information:
-
-`sg_raw {{[-n|--nosense]}} {{/dev/sgX}} {{SCSI_command}}`
-
 - Dump returned data in binary form:
 
 `sg_raw {{[-b|--binary]}} {{/dev/sgX}} {{SCSI_command}}`
