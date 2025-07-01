@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr mc.cli.md`
+`tldr mc.cli`
