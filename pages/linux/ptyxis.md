@@ -1,6 +1,6 @@
 # ptyxis
 
-> A container-oriented terminal for GNOME
+> A container-oriented terminal for GNOME.
 > Ptyxis is a terminal for GNOME that focuses on ease-of-use in a world of containers.
 > More information: <https://gitlab.gnome.org/chergert/ptyxis>.
 
@@ -20,6 +20,6 @@
 
 `ptyxis --tab [-T|--title] <title>`
 
-- Specify the working directory for a new tab, window, or command execution
+- Specify the working directory for a new tab, window, or command execution:
 
 `ptyxis [-d|--working-directory]=<DIR> --tab`
