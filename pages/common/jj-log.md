@@ -7,6 +7,6 @@
 
 `jj log`
 
-- Show only given revsets:
+- Show only given revsets (e.g. `B::D`, `A..D`, `B|C|D`, etc.):
 
 `jj log {{[-r|--revisions]}} {{revsets}}`

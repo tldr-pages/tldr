@@ -7,7 +7,7 @@
 
 `jj diff`
 
-- Show changes of given revsets:
+- Show changes of given revsets (e.g. `B::D`, `A..D`, `B|C|D`, etc.):
 
 `jj diff {{[-r|--revisions]}} {{revsets}}`
 

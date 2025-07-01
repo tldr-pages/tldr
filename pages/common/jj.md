@@ -4,11 +4,11 @@
 > Some subcommands such as `log`, `desc`, `new`, `git`, etc. have their own usage documentation.
 > More information: <https://jj-vcs.github.io/jj/latest/cli-reference/>.
 
-- Update description of the given revision(s):
+- Update description of the revisions specified by given revsets (e.g. `B::D`, `A..D`, `B|C|D`, etc.):
 
 `jj describe {{[-r|--revision]}} {{revsets}}`
 
-- Create a new commit/revision on top of the given revision(s):
+- Create a new commit/revision on top of the revisions specified by the given revsets:
 
 `jj new {{revsets}}`
 
