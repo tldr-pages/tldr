@@ -7,7 +7,7 @@
 
 `gdm`
 
-- Prevent `GDM` from being run as a daemon background process:
+- Prevent `gdm` from being run as a daemon background process:
 
 `gdm --nodaemon`
 
