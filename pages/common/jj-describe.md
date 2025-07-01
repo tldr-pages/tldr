@@ -5,12 +5,12 @@
 
 - Update the description of the current change:
 
-`jj desc`
+`jj {{[desc|describe]}}`
 
 - Update the description of given revsets:
 
-`jj desc {{revsets}}`
+`jj {{[desc|describe]}} {{revsets}}`
 
 - Update the description to the given message:
 
-`jj desc {{[-m|--message]}} {{message}}`
+`jj {{[desc|describe]}} {{[-m|--message]}} {{message}}`
