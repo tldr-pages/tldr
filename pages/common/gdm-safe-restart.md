@@ -1,6 +1,6 @@
 # gdm-safe-restart
 
-> Restarts the GNOME Display Manager (GDM) only when all users have logged out.
+> Restart the GNOME Display Manager (GDM) only when all users have logged out.
 > See also: `gdm`, `gdm-binary`, `gdmsetup`, `gdm-stop`, `gdm-restart`.
 > More information: <https://manned.org/gdm>.
 
