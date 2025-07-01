@@ -27,7 +27,7 @@
 
 `chkrootkit -n`
 
-- Make [T]ests and ignore specific filesystem types:
+- Invoke [T]ests and ignore specific filesystem types:
 
 `chkrootkit -T {{filesystemtype}}`
 
