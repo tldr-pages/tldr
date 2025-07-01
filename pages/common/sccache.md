@@ -6,7 +6,7 @@
 
 - Show compilation statistics:
 
-`sccache -s`
+`sccache {{[-s|--show-stats]}}`
 
 - Run gcc (or any compiler command) through sccache:
 
