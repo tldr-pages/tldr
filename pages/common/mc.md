@@ -4,7 +4,7 @@
 
 - View documentation for MinIO client:
 
-`tldr mcli`
+`tldr mc.cli`
 
 - View documentation for Midnight Commander:
 

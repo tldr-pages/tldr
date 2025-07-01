@@ -1,17 +1,7 @@
 # mcli
 
-> MinIO Client for object storage and filesystems.
-> May be named `mc` on some systems.
-> More information: <https://minio.github.io/mc/>.
+> This command is an alias of `mc` (MinIO client).
 
-- Add connection to a S3 server:
+- View documentation for the original command:
 
-`mcli alias set {{local}} {{http://localhost:9000}} {{access_key}} {{secret_key}}`
-
-- Create a bucket:
-
-`mcli mb {{local/bucket_name}}`
-
-- List buckets and their content recursively:
-
-`mcli ls {{local}} --recursive`
+`tldr mc.cli.md`
