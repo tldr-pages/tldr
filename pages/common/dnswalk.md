@@ -16,7 +16,7 @@
 
 `dnswalk -m {{domain}}.`
 
-- Print [d]ebugging and status to `stderr` instead of `stdout`:
+- Print [d]ebugging and status information to `stderr` instead of `stdout`:
 
 `dnswalk -d {{domain}}.`
 
