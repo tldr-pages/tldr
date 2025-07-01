@@ -1,7 +1,7 @@
 # apt
 
-> Hulpprogramma voor pakketbeheer voor op Debian gebaseerde distributies.
-> Aanbevolen vervanging voor `apt-get` bij interactief gebruik in Ubuntu versie 16.04 en later.
+> Pakketbeheerder voor op Debian gebaseerde distributies.
+> Gebruiksvriendelijk alternatief voor `apt-get` voor interactief gebruik.
 > Voor gelijkwaardige commando's in andere pakket managers, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Meer informatie: <https://manned.org/apt.8>.
 
@@ -9,29 +9,29 @@
 
 `sudo apt update`
 
-- Zoek naar een specifiek pakket (gebruik `apt search --name-only pakket` om alleen op pakketnaam te zoeken):
+- Zoek naar pakketten op naam of beschrijving:
 
 `apt search {{pakket}}`
 
-- Toon informatie voor een specifiek pakket:
+- Zoek naar pakketten op naam (ondersteund wildcards zoals `*`):
 
-`apt show {{pakket1 pakket2 ...}}`
+`apt list {{pakket}}`
 
-- Installeer specifieke pakketten of werk ze bij naar de nieuwste beschikbare versies:
+- Toon gedetailleerde informatie voor een specifiek pakket:
 
-`sudo apt install {{pakket1 pakket2 ...}}`
+`apt show {{pakket}}`
 
-- Verwijder specifieke pakketten (gebruik in plaats daarvan purge om ook hun configuratiebestanden te verwijderen):
+- Installeer specifieke pakketten of werk ze bij naar de nieuwste versies:
 
-`sudo apt remove {{pakket1 pakket2 ...}}`
+`sudo apt install {{pakket}}`
 
-- Upgrade alle geïnstalleerde pakketten naar hun nieuwste beschikbare versies:
+- Verwijder specifieke pakketten (gebruik in plaats daarvan `purge` om ook hun configuratiebestanden te verwijderen):
+
+`sudo apt remove {{pakket}}`
+
+- Upgrade alle geïnstalleerde pakketten naar hun nieuwste versies:
 
 `sudo apt upgrade`
-
-- Toon alle pakketten:
-
-`apt list`
 
 - Toon alle geïnstalleerde pakketten:
 

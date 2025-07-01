@@ -1,6 +1,6 @@
 # duckdb
 
-> Command-line client for DuckDB, an in-process analytical SQL engine.
+> Client for DuckDB, an in-process analytical SQL engine.
 > More information: <https://duckdb.org>.
 
 - Start an interactive shell with a transient in-memory database:

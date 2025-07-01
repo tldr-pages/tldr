@@ -9,7 +9,7 @@
 
 - Say [-E] first match group, using a regexp, ignoring space in regex [/x]:
 
-`perl -n -E 'say $1 if m/{{before}} (  {{group_regex}}  ) {{after}}/x'`
+`perl -n -E 'say $1 if m/{{before}} ( {{group_regex}} ) {{after}}/x'`
 
 - [-i]n-place, with backup, [s/] substitute all occurrence [/g] of regex with replacement:
 

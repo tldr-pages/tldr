@@ -1,7 +1,7 @@
 # go build
 
 > Go 소스 컴파일.
-> 더 많은 정보: <https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies>.
+> 더 많은 정보: <https://pkg.go.dev/cmd/go#hdr-Compile_packages_and_dependencies>.
 
 - 'package main' 파일 컴파일 (출력은 확장자가 없는 파일 이름):
 

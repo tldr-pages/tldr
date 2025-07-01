@@ -1,6 +1,6 @@
 # whois
 
-> Command-line client for the WHOIS (RFC 3912) protocol.
+> Client for the WHOIS (RFC 3912) protocol.
 > More information: <https://manned.org/whois>.
 
 - Get information about a domain name:
