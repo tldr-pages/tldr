@@ -8,7 +8,7 @@
 
 `dnswalk {{domain}}.`
 
-- Descend sub-domains [r]ecursively:
+- Process sub-domains [r]ecursively:
 
 `dnswalk -r {{domain}}.`
 
