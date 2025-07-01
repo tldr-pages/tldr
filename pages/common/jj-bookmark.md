@@ -6,7 +6,7 @@
 
 - Create a new bookmark at the given revision:
 
-`jj bookmark create {{[-r|--revision]}} {{revset}} {{name}}`
+`jj bookmark create {{[-r|--revision]}} {{revision}} {{name}}`
 
 - List all existing bookmarks and their targets:
 
@@ -14,7 +14,7 @@
 
 - Move an existing bookmark to another revision:
 
-`jj bookmark move {{[-t|--to]}} {{revset}} {{name}}`
+`jj bookmark move {{[-t|--to]}} {{revision}} {{name}}`
 
 - Track given remote bookmarks:
 
