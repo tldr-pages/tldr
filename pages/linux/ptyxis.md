@@ -1,0 +1,24 @@
+# ptyxis
+
+> A container-oriented terminal for GNOME
+> More information: <https://gitlab.gnome.org/chergert/ptyxis>.
+
+- Open a new ptyxis window:
+
+`ptyxis --new-window`
+
+- Execute a specfic command in a new terminal window:
+
+`ptyxis -x <command>`
+
+- Open new tab ub the last opened window:
+
+`ptyxis --tab`
+
+- Set the title for a new:
+
+`ptyxis --tab [-T|--title] <title>`
+
+- Specify the working directory for a new tab, window, or command execution
+
+`ptyxis [-d|--working-directory]=<DIR> --tab`
