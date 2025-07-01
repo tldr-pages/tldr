@@ -3,6 +3,10 @@
 > Send arbitrary SCSI command to a connected device.
 > More information: <https://manned.org/sg_raw>.
 
+- Send a command to an optical SCSI device assigned to `sr0` to load the media in its tray:
+
+`sg_raw /dev/sr0 EA 00 00 00 00 01`
+
 - Read data from `IFILE` instead of `stdin`:
 
 `sg_raw {{[-i|--infile]}} {{path/to/IFILE}} {{/dev/sgX}} {{SCSI_command}}`
@@ -30,7 +34,3 @@
 - Write data received from the specified device to an OFILE:
 
 `sg_raw {{[-o|--outfile]}} {{path/to/OFILE}} {{/dev/sgX}} {{SCSI_command}}`
-
-- Send a command to an optical SCSI device assigned to `sr0` to load the media in its tray:
-
-`sg_raw /dev/sr0 EA 00 00 00 00 01`
