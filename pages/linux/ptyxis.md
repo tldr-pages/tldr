@@ -21,4 +21,4 @@
 
 - Specify the working directory for a new tab, window, or command execution:
 
-`ptyxis [-d|--working-directory]=<DIR> --tab`
+`ptyxis {{[-d|--working-directory]}} {{path/to/directory}} --tab`
