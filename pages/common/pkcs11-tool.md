@@ -5,11 +5,12 @@
 
 - List slots and their potential token, using a specific module (e.g. /usr/lib/softhsm/libsofthsm2.so):
 
-`pkcs11-tool --module {{path/to/module.so}} -L -T`
+`pkcs11-tool --module {{path/to/module.so}} --list-slots --list-token-slots`
 
 - List objects in a specific slot. (Note: slot_id is not the slot index shown as "Slot X"):
 
-`pkcs11-tool -O --pin {{auth_pin}} --slot {{slot_id}}`
+
+`pkcs11-tool list-objects --pin {{auth_pin}} --slot {{slot_id}}`
 
 - Create a new object with a specific label and type (e.g. cert, privkey, pubkey, secrkey, data):
 
