@@ -20,15 +20,15 @@
 
 `git add {{[-A|-all]}}`
 
-- Commit changes to version history
+- Commit changes to version history:
 
 `git commit {{[-m|--message]}} {{message-text}}`
 
-- Push version history to a remote
+- Push version history to a remote:
 
 `git push`
 
-- Pull any changes made to a remote
+- Pull any changes made to a remote:
 
 `git pull`
 
