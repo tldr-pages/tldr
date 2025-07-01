@@ -21,13 +21,13 @@
 
 - Muestra un árbol de archivos, con tres niveles de profundidad:
 
-`exa {{[-l|--long]}} {[[-T|--tree]}} {{[-L|--level]}} {{3}}`
+`exa {{[-l|--long]}} {{[-T|--tree]}} {{[-L|--level]}} {{3}}`
 
 - Lista archivos ordenados por fecha de modificación (los más antiguos primero):
 
 `exa {{[-l|--long]}} {{[-s|--sort]}} {{modified}}`
 
-- Muestra los archivos con sus encabezados, iconos y estados Git:
+- Muestra los archivos con sus encabezados, íconos y estados Git:
 
 `exa {{[-l|--long]}} {{[-h|--header]}} --icons --git`
 
