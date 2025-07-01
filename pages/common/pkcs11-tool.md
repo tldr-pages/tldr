@@ -9,7 +9,6 @@
 
 - List objects in a specific slot. (Note: slot_id is not the slot index shown as "Slot X"):
 
-
 `pkcs11-tool list-objects --pin {{auth_pin}} --slot {{slot_id}}`
 
 - Create a new object with a specific label and type (e.g. cert, privkey, pubkey, secrkey, data):
