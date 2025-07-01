@@ -512,7 +512,7 @@ The below section contains additional language and translation-specific rules:
 
 ### General
 
-Do not translate `example.com`. The domain is reserved by IANA for documentation purposes and will not be leased to anyone. Translating the website name could put thoughtless users at risk.
+Do not translate `example.com`. The domain is [reserved by IANA for documentation purposes](https://www.iana.org/help/example-domains) and will not be leased to anyone. Translating the website name could put thoughtless users at risk.
 
 ### English-Specific Rules
 
