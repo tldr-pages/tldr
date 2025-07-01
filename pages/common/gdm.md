@@ -7,9 +7,7 @@
 
 `gdm`
 
-- Run the GNOME Display Manager application:
-
-- Prevent GDM from being run as a daemon background process:
+- Prevent `GDM` from being run as a daemon background process:
 
 `gdm --nodaemon`
 
