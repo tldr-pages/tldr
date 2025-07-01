@@ -22,7 +22,7 @@
 
 - Commit changes to version history:
 
-`git commit {{[-m|--message]}} {{message-text}}`
+`git commit {{[-m|--message]}} {{message_text}}`
 
 - Push version history to a remote:
 
