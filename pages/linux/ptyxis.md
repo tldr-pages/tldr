@@ -7,7 +7,7 @@
 
 `ptyxis --new-window`
 
-- Execute a specfic command in a new terminal window:
+- Execute a specific command in a new terminal window:
 
 `ptyxis {{[-x|--execute]}} <command>`
 
