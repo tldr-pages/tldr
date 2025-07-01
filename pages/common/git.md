@@ -16,7 +16,7 @@
 
 `git status`
 
-- Stage all chages for a commit:
+- Stage all changes for a commit:
 
 `git add {{[-A|-all]}}`
 
