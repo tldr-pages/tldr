@@ -17,7 +17,7 @@
 
 - Set the title for a new:
 
-`ptyxis --tab [-T|--title] <title>`
+`ptyxis --tab {{[-T|--title]}} {{title}}`
 
 - Specify the working directory for a new tab, window, or command execution:
 
