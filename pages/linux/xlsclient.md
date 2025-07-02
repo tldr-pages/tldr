@@ -1,7 +1,6 @@
 # xlsclients
 
 > List client applications running on an X11 display.
-> Useful for capturing the current graphical session state or debugging.
 > More information: <https://manned.org/xlsclients>.
 
 - List clients on the default display:
@@ -24,6 +23,6 @@
 
 `xlsclients -display {{hostname}}:{{display_number}}`
 
-- Show the version of `xlsclients`:
+- Display version: 
 
 `xlsclients -version`
