@@ -6,20 +6,20 @@
 
 - Individual actions/programs on run-mailcap can be invoked with action flag:
 
-`run-mailcap --action=ACTION [--option[=value]]`
+`run-mailcap --action={{view|cat|compose|composetyped|edit|print}}`
 
 - In simple language:
 
-`run-mailcap --action=ACTION {{filename}}`
+`run-mailcap --action={{action}} {{filename}}`
 
 - Turn on extra information:
 
-`run-mailcap --action=ACTION --debug {{filename}}`
+`run-mailcap --action={{action}} --debug {{filename}}`
 
 - Ignore any "copiousoutput" directive and forward output to `stdout`:
 
-`run-mailcap --action=ACTION --nopager {{filename}}`
+`run-mailcap --action={{action}} --nopager {{filename}}`
 
 - Display the found command without actually executing it:
 
-`run-mailcap --action=ACTION --norun {{filename}}`
+`run-mailcap --action={{action}} --norun {{filename}}`
