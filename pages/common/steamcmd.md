@@ -15,6 +15,6 @@
 
 `steamcmd +@sSteamCmdForcePlatformType {{windows}} +login {{anonymous}} +app_update {{appid}} validate +quit`
 
-- Clear cached login credentials:
+- Clear cached login credentials for a user:
 
 `steamcmd +login {{username}} +logout +quit`
