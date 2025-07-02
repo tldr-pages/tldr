@@ -8,9 +8,13 @@
 
 `jj describe {{[-r|--revision]}} {{revsets}}`
 
-- Create a new commit/revision on top of the revisions specified by the given revsets:
+- Create a new commit/revision on top of a given revision :
 
-`jj new {{revsets}}`
+`jj new {{revset}}`
+
+- Create a new merge commit on top of multiple revisions:
+
+`jj new {{revset1 revset2 ...}}`
 
 - Execute a jj subcommand without snapshotting the working copy:
 
