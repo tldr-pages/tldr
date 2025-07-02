@@ -14,3 +14,7 @@
 - Install an application for a specific platform:
 
 `steamcmd +@sSteamCmdForcePlatformType {{windows}} +login {{anonymous}} +app_update {{appid}} validate +quit`
+
+- Clear cached login credentials:
+
+`steamcmd +login {{username}} +logout +quit`
