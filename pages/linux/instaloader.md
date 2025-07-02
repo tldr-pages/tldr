@@ -34,4 +34,4 @@
 
 - Download all types of posts (login required):
 
-`instaloader {{[-l|--login]}} {{username}} {{[-p|--password]}} {{password}} {[-s|--stories]}} --igtv --highlights {{profile_name}}`
+`instaloader {{[-l|--login]}} {{username}} {{[-p|--password]}} {{password}} {{[-s|--stories]}} --igtv --highlights {{profile_name}}`
