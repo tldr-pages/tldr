@@ -10,16 +10,16 @@
 
 - In simple language:
 
-`run-mailcap --action={{action}} {{filename}}`
+`run-mailcap --action={{action}} {{path/to/file}}`
 
 - Turn on extra information:
 
-`run-mailcap --action={{action}} --debug {{filename}}`
+`run-mailcap --action={{action}} --debug {{path/to/file}}`
 
 - Ignore any "copiousoutput" directive and forward output to `stdout`:
 
-`run-mailcap --action={{action}} --nopager {{filename}}`
+`run-mailcap --action={{action}} --nopager {{path/to/file}}`
 
 - Display the found command without actually executing it:
 
-`run-mailcap --action={{action}} --norun {{filename}}`
+`run-mailcap --action={{action}} --norun {{path/to/file}}`
