@@ -3,7 +3,7 @@
 > A container-oriented terminal for GNOME.
 > More information: <https://gitlab.gnome.org/chergert/ptyxis#basic-usage--command-line-options>.
 
-- Open a new ptyxis window:
+- Open a new Ptyxis window:
 
 `ptyxis --new-window`
 
