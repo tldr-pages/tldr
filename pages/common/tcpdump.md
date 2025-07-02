@@ -13,11 +13,11 @@
 
 - Capture all TCP traffic showing contents ([A]SCII) in console:
 
-`tcpdump -A tcp`
+`sudo tcpdump -A tcp`
 
 - Capture the traffic from or to a host:
 
-`tcpdump host {{www.example.com}}`
+`sudo tcpdump host {{www.example.com}}`
 
 - Capture the traffic from a specific interface, source, destination and destination port:
 
@@ -25,11 +25,11 @@
 
 - Capture the traffic of a network:
 
-`tcpdump net {{192.168.1.0/24}}`
+`sudo tcpdump net {{192.168.1.0/24}}`
 
 - Capture all traffic except traffic over port 22 and [w]rite to a dump file:
 
-`tcpdump -w {{dumpfile.pcap}} port not {{22}}`
+`sudo tcpdump -w {{dumpfile.pcap}} port not {{22}}`
 
 - [r]ead from a given dump file:
 
