@@ -11,7 +11,7 @@
 
 `sudo tcpdump {{[-i|--interface]}} {{eth0}}`
 
-- Capture all TCP traffic showing contents (ASCII) in console:
+- Capture all TCP traffic showing contents ([A]SCII) in console:
 
 `tcpdump -A tcp`
 
@@ -27,10 +27,10 @@
 
 `tcpdump net {{192.168.1.0/24}}`
 
-- Capture all traffic except traffic over port 22 and save to a dump file:
+- Capture all traffic except traffic over port 22 and [w]rite to a dump file:
 
 `tcpdump -w {{dumpfile.pcap}} port not {{22}}`
 
-- Read from a given dump file:
+- [r]ead from a given dump file:
 
 `tcpdump -r {{dumpfile.pcap}}`
