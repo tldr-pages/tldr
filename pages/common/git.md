@@ -24,7 +24,7 @@
 
 `git commit {{[-m|--message]}} {{message_text}}`
 
-- Push version history to a remote:
+- Push local commits to a remote repository:
 
 `git push`
 
