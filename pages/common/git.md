@@ -8,11 +8,11 @@
 
 `git init`
 
-- Clone a Git repository from the internet:
+- Clone a remote Git repository from the internet:
 
 `git clone {{https://example.com/repo.git}}`
 
-- View the status of the current repository:
+- View the status of the local repository:
 
 `git status`
 
