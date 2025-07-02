@@ -10,3 +10,7 @@
 - Show only given revsets (e.g. `B::D`, `A..D`, `B|C|D`, etc.):
 
 `jj log {{[-r|--revisions]}} {{revsets}}`
+
+- Show log with a particular template for each line (e.g. 5 characters of commit hash and author):
+
+`jj log -T 'commit_id.shortest(5) ++ " " ++ author'`
