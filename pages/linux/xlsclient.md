@@ -23,6 +23,6 @@
 
 `xlsclients -display {{hostname}}:{{display_number}}`
 
-- Display version: 
+- Display version:
 
 `xlsclients -version`
