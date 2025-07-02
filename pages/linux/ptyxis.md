@@ -11,7 +11,7 @@
 
 `ptyxis {{[-x|--execute]}} {{command}}`
 
-- Open new tab ub the last opened window:
+- Open new tab in the last opened window:
 
 `ptyxis --tab`
 
