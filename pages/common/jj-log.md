@@ -13,4 +13,4 @@
 
 - Show log with a particular template for each line (e.g. 5 characters of commit hash and author):
 
-`jj log -T 'commit_id.shortest(5) ++ " " ++ author'`
+`jj log {{[-T|--template]}} 'commit_id.shortest(5) ++ " " ++ author'`
