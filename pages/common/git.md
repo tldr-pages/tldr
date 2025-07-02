@@ -18,7 +18,7 @@
 
 - Stage all changes for a commit:
 
-`git add {{[-A|-all]}}`
+`git add {{[-A|--all]}}`
 
 - Commit changes to version history:
 
