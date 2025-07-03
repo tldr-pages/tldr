@@ -5,4 +5,4 @@
 
 - Query a package for its dependencies:
 
-`dnf {{[rq|repoquery]}} --deplist {{package1}}`
+`dnf {{[rq|repoquery]}} --deplist {{package}}`
