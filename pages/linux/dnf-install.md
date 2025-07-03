@@ -11,7 +11,7 @@
 
 `sudo dnf install {{path/to/file}}`
 
-- Install a package from the internet
+- Install a package from the internet:
 
 `sudo dnf install {{https://example.com/package.rmp}}`
 
