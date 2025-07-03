@@ -6,24 +6,24 @@
 
 - Create a new bookmark at the given revision:
 
-`jj bookmark create {{[-r|--revision]}} {{revision}} {{name}}`
+`jj {{[b|bookmark]}} {{[c|create]}} {{[-r|--revision]}} {{revision}} {{name}}`
 
 - List all existing bookmarks and their targets:
 
-`jj bookmark list`
+`jj {{[b|bookmark]}} {{[l|list]}}`
 
 - Move an existing bookmark to another revision:
 
-`jj bookmark move {{[-t|--to]}} {{revision}} {{name}}`
+`jj {{[b|bookmark]}} {{[m|move]}} {{[-t|--to]}} {{revision}} {{name}}`
 
 - Track given remote bookmarks:
 
-`jj bookmark track {{name}}@{{remote}}`
+`jj {{[b|bookmark]}} {{[t|track]}} {{name}}@{{remote}}`
 
 - Delete a bookmark, and propagate the deletion to remotes on the next push:
 
-`jj bookmark delete {{name}}`
+`jj {{[b|bookmark]}} {{[d|delete]}} {{name}}`
 
 - Forget a bookmark locally, without marking its deletion to be pushed:
 
-`jj bookmark forget {{name}}`
+`jj {{[b|bookmark]}} {{[f|forget]}} {{name}}`
