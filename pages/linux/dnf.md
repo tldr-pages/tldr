@@ -17,7 +17,7 @@
 
 `dnf {{[if|info]}} {{package}}`
 
-- Install a new package (use `-y` to confirm all prompts automatically):
+- Install a new package (use `--assumeyes` to confirm all prompts automatically):
 
 `sudo dnf {{[in|install]}} {{package1 package2 ...}}`
 
