@@ -1,7 +1,7 @@
 # xq
 
 > A lightweight XML and HTML formatting and querying tool.
-> See also: `xmlstarlet`
+> See also: `xmlstarlet`.
 > More information: <https://github.com/sibprogrammer/xq>.
 
 - Format an XML file and highlight the syntax:
