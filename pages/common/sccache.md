@@ -14,7 +14,7 @@
 
 - Start sccache server in the foreground and print logs:
 
-`killall sccache; SCCACHE_LOG=trace SCCACHE_START_SERVER=1 sccache`
+`sccache --stop-server; SCCACHE_LOG=trace SCCACHE_START_SERVER=1 sccache`
 
 - Ask scheduler for distributed compilation status:
 
