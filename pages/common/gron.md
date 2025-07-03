@@ -3,13 +3,9 @@
 > Transform `JSON` into individual assignments for easier management.
 > More information: <https://manned.org/gron>.
 
-- Output in color:
+- Process `JSON` file into individual assignments:
 
-`gron {{[-c|--colorize]}} {{path/to/file|url}}`
-
-- Output in monochrome:
-
-`gron {{[-m|--monochrome]}} {{path/to/file|url}}`
+`gron {{path/to/file|url}}`
 
 - Don't sort output data:
 
