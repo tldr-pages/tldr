@@ -13,7 +13,7 @@
 
 - Especifica cuántos de los últimos inicios de sesión mostrar:
 
-`last {{[-n|--limit]}}} {{cuenta_inicios}}`
+`last {{[-n|--limit]}} {{cuenta_inicios}}`
 
 - Muestra la fecha y hora completas de las entradas y, a continuación, muestra la columna del nombre de host en último lugar para evitar que se trunque:
 
