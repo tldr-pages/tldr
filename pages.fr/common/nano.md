@@ -1,7 +1,7 @@
 # nano
 
 > Éditeur de texte simple et convivial. C'est un clone libre et amélioré de Pico.
-> Plus d'informations : <https://nano-editor.org>.
+> Plus d'informations : <https://nano-editor.org/dist/latest/nano.html>.
 
 - Ouvre un fichier :
 

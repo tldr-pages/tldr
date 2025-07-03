@@ -1,7 +1,7 @@
 # nano
 
 > 命令行文本编辑器。一个功能更强的 `Pico` 克隆版。
-> 更多信息：<https://nano-editor.org>.
+> 更多信息：<https://nano-editor.org/dist/latest/nano.html>.
 
 - 启动编辑器：
 
