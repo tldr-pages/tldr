@@ -17,8 +17,8 @@
 
 - Add the Extra Packages for Enterprise Linux (EPEL) repositories:
 
-`dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm`
+`sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm`
 
 - Add Remi's RPM repository:
 
-`dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm`
+`sudo dnf install https://rpms.remirepo.net/enterprise/remi-release-8.rpm`
