@@ -9,7 +9,7 @@
 
 - Don't sort output data:
 
-`gron {{[--no-sort]}} {{path/to/file|url}}`
+`gron --no-sort {{path/to/file|url}}`
 
 - Disable certificate validation:
 
