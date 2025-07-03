@@ -14,3 +14,7 @@
 - Set a package to be enabled:
 
 `sudo dnf module enable {{package_name}}:{{stream}}`
+
+- Enable and install a specific version:
+
+`dnf module install {{package_name}}:{{stream}}`
