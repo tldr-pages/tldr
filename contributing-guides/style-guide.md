@@ -313,7 +313,7 @@ Use backticks on the following:
 
 When describing keycaps or a keyboard shortcut for a utility, use the same [keypress syntax](#keypress-syntax) as in example commands. Make sure to enclose it in backticks so that it is not invisible in markdown renderers (i.e. ``Print the last lines of a given file and keep reading it until `<Ctrl c>`:``).
 
-If a program requires root privileges to run and doesn't provide its own prompt for a password, prepend the command with `sudo`. (i.e `sudo apt update`)
+If a program requires root privileges to run and doesn't provide its own prompt for a password, prepend the command with `sudo` (e.g. `sudo apt update`).
 
 ## Heading
 
