@@ -17,7 +17,7 @@
 
 - Muestra la fecha y hora completas de las entradas y, a continuación, muestra la columna del nombre de host en último lugar para evitar que se trunque:
 
-`last {{[-F|--fulltimes]}} {{[-a|--hostlast]}}``
+`last {{[-F|--fulltimes]}} {{[-a|--hostlast]}}`
 
 - Visualiza todos los inicios de sesión de un usuario específico y muestra la dirección IP en lugar del nombre de host:
 
