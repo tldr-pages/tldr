@@ -21,7 +21,11 @@
 
 - Specify a particular display to inspect:
 
-`xlsclients -display {{hostname}}:{{display_number}}`
+`xlsclients -display :{{display_number}}`
+
+- List clients on remote host's display:
+
+`xlsclients -display remotehost:0`
 
 - Display version:
 
