@@ -7,6 +7,6 @@
 
 `modutil -dbdir sql:{{path/to/nss/db/dir}} -add "{{module_label}}" -libfile {{path/to/pkcs11_mod.so}}`
 
-- List PKCS#11 modules in a NSS database:
+- List PKCS #11 modules in a NSS database:
 
 `modutil -dbdir sql:{{path/to/nss/db/dir}} -list`
