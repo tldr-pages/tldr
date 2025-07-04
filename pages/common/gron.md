@@ -15,7 +15,7 @@
 
 `gron {{[-k|--insecure]}} {{url}}`
 
-- Display values of `gron` assigments:
+- Display values of `gron` assignments:
 
 `gron {{[-v|--values]}} {{path/to/file|url}}`
 
