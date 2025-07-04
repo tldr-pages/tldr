@@ -11,11 +11,11 @@
 
 `find {{root_path}} -path '{{*/path/*/*.ext}}' -or -name '{{*pattern*}}'`
 
-- Suche Verzeichnisse, die ohne Berücksichtigung der Groß- und Kleinschreibung einem bestimmten Namen entsprechen:
+- Suche Verzeichnisse, die ohne Berücksichtigung der Groß- und Kleinschreibung einem bestimmten Namensmustern entsprechen:
 
 `find {{root_path}} -type d -iname '{{*lib*}}'`
 
-- Suche Dateien, die einem bestimmten Muster entsprechen, unter Ausschluss bestimmter Pfade:
+- Suche Dateien, die einem bestimmten Namensmustern entsprechen, unter Ausschluss bestimmter Pfade:
 
 `find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
 
@@ -31,6 +31,6 @@
 
 `find {{root_path}} -daystart -mtime {{-1}} -exec {{tar -cvf archive.tar}} {} \+`
 
-- Suche leere Dateien oder Verzeichnisse und lösche diese ausführlich:
+- Suche leere Dateien oder Verzeichnisse, gebe diese aus und lösche diese:
 
 `find {{root_path}} -type {{f|d}} -empty -delete -print`
