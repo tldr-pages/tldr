@@ -6,7 +6,7 @@
 
 - Set or unset a SELinux boolean. Booleans allow the administrator to customize how policy rules affect confined process types (a.k.a domains):
 
-`sudo semanage boolean {{[-m|--modify]}} {{-1|--on|-0|--off}} {{haproxy_connect_any}}`
+`sudo semanage boolean {{[-m|--modify]}} {{--on|--off}} {{haproxy_connect_any}}`
 
 - Add a user-defined file context labeling rule. File contexts define what files confined domains are allowed to access:
 
