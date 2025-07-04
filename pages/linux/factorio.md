@@ -21,4 +21,4 @@
 
 - Display help:
 
-`{{path/to/factorio}} {{-h|--help}}`
+`{{path/to/factorio}} {{[-h|--help]}}`
