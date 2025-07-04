@@ -23,10 +23,10 @@
 
 `qemu-img convert -f {{vmdk}} -O {{qcow2}} {{path/to/image_file.vmdk}} {{path/to/image_file.qcow2}}`
 
-- Create an internal snapshot of a KVM .qcow2 disk image:
+- [c]reate an internal snapshot of a KVM .qcow2 disk image:
 
 `qemu-img snapshot -c {{snapshot_tag_name}} {{path/to/image_file.qcow2}}`
 
-- Apply an internal snapshot to a KVM .qcow2 disk image:
+- [a]pply an internal snapshot to a KVM .qcow2 disk image:
 
 `qemu-img snapshot -a {{snapshot_tag_name}} {{path/to/image_file.qcow2}}`
