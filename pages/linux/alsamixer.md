@@ -1,7 +1,7 @@
 # alsamixer
 
 > Graphical mixer for ALSA soundcard driver.
-> More information: <https://manned.org/man/alsamixer>.
+> More information: <https://manned.org/alsamixer>.
 
 - Select the soundcard to use:
 
