@@ -25,7 +25,7 @@
 
 - List clients on remote host's display:
 
-`xlsclients -display {{remotehost}}:0`
+`xlsclients -display {{remote_host}}:0`
 
 - Display version:
 
