@@ -18,7 +18,7 @@
 
 - Set or unset permissive mode for a confined domain. Per-domain permissive mode allows more granular control compared to `setenforce`:
 
-`sudo semanage permissive {{-a|--add|-d|--delete}} {{httpd_t}}`
+`sudo semanage permissive {{--add|--delete}} {{httpd_t}}`
 
 - Output local customizations in the default store:
 
