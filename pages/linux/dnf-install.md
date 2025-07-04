@@ -1,6 +1,6 @@
 # dnf install
 
-> Install packages on Red Had based distributions.
+> Install packages on Red Hat-based distributions.
 > More information: <https://dnf.readthedocs.io/en/latest/command_ref.html#install-examples>.
 
 - Install a package by name:
