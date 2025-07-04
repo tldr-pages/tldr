@@ -13,7 +13,7 @@
 
 - Disable certificate validation:
 
-`gron {{[-k|--insecure]}} {{path/to/file|url}}`
+`gron {{[-k|--insecure]}} {{url}}`
 
 - Display values of `gron` assigments:
 
