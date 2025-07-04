@@ -8,7 +8,7 @@
 
 `sccache {{[-s|--show-stats]}}`
 
-- Run gcc (or any compiler command) through sccache:
+- Run `gcc` (or any compiler command) through `sccache`:
 
 `sccache gcc {{path/to/file.c}}`
 
