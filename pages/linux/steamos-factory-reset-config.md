@@ -1,6 +1,6 @@
 # steamos-factory-reset-config
 
-> Generates configuration files required by `steamos-factory-reset`.
+> Generate configuration files required by `steamos-factory-reset`.
 > This command is typically called internally and not meant to be run manually.
 > More information: <https://gitlab.com/users/evlaV/projects>.
 
