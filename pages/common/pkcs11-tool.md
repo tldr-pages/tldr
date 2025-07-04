@@ -11,7 +11,7 @@
 
 `pkcs11-tool {{[-O|--list-objects]}} {{[-p|--pin]}} {{auth_pin}} --slot {{slot_id}}`
 
-- Create a new object with a specific label and type (e.g. cert, privkey, pubkey, secrkey, data):
+- Create a new object with a specific label and type:
 
 `pkcs11-tool --slot {{slot_id}} {{[-p|--pin]}} {{auth_pin}} {{[-y|--type]}} {{cert|privkey|pubkey|secrkey|data|...}} {{[-a|--label]}} "{{label}}" {{[-d|--id]}} {{01}} {{[-w|--write-object]}} {{path/to/cert.crt}}`
 
