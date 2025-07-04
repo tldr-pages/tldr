@@ -13,7 +13,7 @@
 
 - Desactiva la validación de certificados:
 
-`gron {{[-k|--insecure]}} {{url}}``
+`gron {{[-k|--insecure]}} {{url}}`
 
 - Muestra los valores de las asignaciones de `gron`:
 
