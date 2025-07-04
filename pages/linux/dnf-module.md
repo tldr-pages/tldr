@@ -9,7 +9,7 @@
 
 - View modularity of a specific program:
 
-`dnf module list {{package}}`
+`dnf module list {{package_name}}`
 
 - Set a package to be enabled:
 
