@@ -17,4 +17,4 @@
 
 - Delete an object by its label and type (e.g. cert, privkey, pubkey, secrkey, data):
 
-`pkcs11-tool --slot {{slot_id}} {{[-p|--pin]}} {{auth_pin}} {{[-y|--type]}} {{cert}} {{[-a|--label]}} "{{label}}" {{[-b|--delete-object]}}`
+`pkcs11-tool --slot {{slot_id}} {{[-p|--pin]}} {{auth_pin}} {{[-y|--type]}} {{cert|privkey|pubkey|secrkey|data|...}} {{[-a|--label]}} "{{label}}" {{[-b|--delete-object]}}`
