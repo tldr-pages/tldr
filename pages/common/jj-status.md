@@ -6,4 +6,4 @@
 
 - Show high-level status of the repository:
 
-`jj status`
+`jj {{[st|status]}}`
