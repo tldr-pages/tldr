@@ -13,7 +13,7 @@
 
 - Install a package from the internet:
 
-`sudo dnf {{[in|install]}} {{https://example.com/package.rmp}}`
+`sudo dnf {{[in|install]}} {{https://example.com/package.rpm}}`
 
 - Add the Extra Packages for Enterprise Linux (EPEL) repositories:
 
