@@ -31,6 +31,6 @@
 
 `sg_raw {{[-b|--binary]}} {{/dev/sgX}} {{SCSI_command}}`
 
-- Write data received from the specified device to an OFILE:
+- Write data received from the specified device to an `OFILE`:
 
 `sg_raw {{[-o|--outfile]}} {{path/to/OFILE}} {{/dev/sgX}} {{SCSI_command}}`
