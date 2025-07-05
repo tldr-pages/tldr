@@ -12,7 +12,7 @@
 
 `git switch {{[-c|--create]}} {{branch_naam}}`
 
-- Creëer een nieuwe gebaseerd op een bestaande commit en wissel ernaar:
+- Creëer een nieuwe branch gebaseerd op een bestaande commit en wissel ernaar:
 
 `git switch {{[-c|--create]}} {{branch_naam}} {{commit}}`
 

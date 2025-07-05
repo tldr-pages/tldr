@@ -29,7 +29,7 @@
 
 - Verwijder een lokale branch (je moet eerst wisselen naar een andere branch):
 
-`git branch {{[-d|--delete]}} {{branch_name}}`
+`git branch {{[-d|--delete]}} {{branch_naam}}`
 
 - Verwijder een externe branch:
 
