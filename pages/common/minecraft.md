@@ -3,7 +3,7 @@
 > Run a headless Minecraft server.
 > More information: <https://minecraft.wiki/w/Tutorial:Setting_up_a_Java_Edition_server>.
 
-- Start a Minecraft server and generate a world it if it doesn't exist:
+- Start a Minecraft server and generate a world if it doesn't exist:
 
 `java -jar {{path/to/server.jar}} --nogui`
 
