@@ -18,8 +18,3 @@
 - Show help for command-line options:
 
 `pgcli --help`
-
-- Location of the configuration file:
-
-`~/.config/pgcli/config`
-
