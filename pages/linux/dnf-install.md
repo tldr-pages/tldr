@@ -3,7 +3,7 @@
 > Install packages on Red Hat-based distributions.
 > More information: <https://dnf.readthedocs.io/en/latest/command_ref.html#install-examples>.
 
-- Install a package by name:
+- Install packages by name:
 
 `sudo dnf {{[in|install]}} {{package1 package2 ...}}`
 
