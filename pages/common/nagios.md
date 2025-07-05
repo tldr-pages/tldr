@@ -2,7 +2,7 @@
 
 > Legacy host/service/networking monitoring program.
 > Largely deprecated by `nagios4`.
-> More information <https://manned.org/nagios>.
+> More information: <https://manned.org/nagios>.
 
 - Start `nagios`:
 
