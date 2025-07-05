@@ -1,6 +1,6 @@
 # elasticsearch-keystore
 
-> Manage secure settings (passwords, tokens, credentials) used by Elasticsearch.
+> Manage secure settings (e.g., passwords, tokens, and credentials) used by Elasticsearch..
 > More information: <https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-keystore.html>.
 
 - Create a new keystore (not password-protected):
