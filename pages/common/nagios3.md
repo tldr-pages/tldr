@@ -5,7 +5,7 @@
 > See also: `nagios`, `nagios2`, `nagios4`.
 > More information: <https://manned.org/nagios>.
 
-- Start `nagios3`:
+- Start `nagios3` /etc/nagios3/nagios.cfg:
 
 `nagios3`
 
