@@ -22,4 +22,4 @@
 
 - List explicitly-installed packages with their optional dependencies:
 
-`expac {{[-d|--delim]}} '\n\n' {{[-l|listdelim]}} '\n\t' {{[-Q|--query]}} '%n\n\t%O' $(pacman -Qeq)`
+`expac {{[-d|--delim]}} '\n\n' {{[-l|--listdelim]}} '\n\t' {{[-Q|--query]}} '%n\n\t%O' $(pacman -Qeq)`
