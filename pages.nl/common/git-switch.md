@@ -18,7 +18,7 @@
 
 - Wissel naar de vorige branch:
 
- `git switch -`
+`git switch -`
 
 - Wissel naar een branch en update alle submodules zodat ze overeenkomen:
 
