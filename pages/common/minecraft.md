@@ -7,7 +7,7 @@
 
 `java -jar {{path/to/server.jar}} --nogui`
 
-- Set the minimum and maximum amount of memory a server is allowed to have
+- Set the minimum and maximum amount of memory a server is allowed to have:
 
 `java -Xms{{1024M}} -Xmx{{2048M}} -jar {{path/to/server.jar}} --nogui`
 
