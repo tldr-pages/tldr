@@ -5,9 +5,9 @@
 > See also: `nagios`, `nagios2`, `nagios4`.
 > More information: <https://manned.org/nagios>.
 
-- Start `nagios3` /etc/nagios3/nagios.cfg:
+- Start `nagios3`:
 
-`nagios3`
+`nagios3 /etc/nagios3/nagios.cfg`
 
 - Start `nagios3` in daemon mode:
 
