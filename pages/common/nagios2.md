@@ -7,7 +7,7 @@
 
 - Start `nagios2`:
 
-`nagios2`
+`nagios2 /etc/nagios2/nagios.cfg`
 
 - Start `nagios2` in daemon mode:
 
