@@ -17,7 +17,7 @@
 
 - Muestra los valores de las asignaciones de `gron`:
 
-`gron {{[-v|--values]}}} {{ruta/al/archivo|url}}`
+`gron {{[-v|--values]}} {{ruta/al/archivo|url}}`
 
 - Convierte las asignaciones convertidas con `gron` en `JSON`:
 
