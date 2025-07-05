@@ -3,7 +3,7 @@
 > Restore files from another revision.
 > More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-restore>.
 
-- Restore files from another revision into another revision:
+- Restore files from a revision into another revision:
 
 `jj restore {{[-f|--from]}} {{revset}} {{[-t|--into]}} {{revset}} {{filesets}}`
 
