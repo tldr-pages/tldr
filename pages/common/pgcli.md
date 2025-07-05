@@ -11,10 +11,6 @@
 
 `pgcli {{[-h|--host]}} {{host}} {{[-U|--username]}} {{username}} {{[-d|--dbname]}} {{database}}`
 
-- Enable Vim keybindings for the current session:
-
-`pgcli --vi`
-
 - Display help:
 
 `pgcli --help`
