@@ -21,7 +21,7 @@
 
 - Convierte las asignaciones convertidas con `gron` en `JSON`:
 
-`gron {{[-u|--ungron]}}} {{ruta/al/archivo|url}}`
+`gron {{[-u|--ungron]}} {{ruta/al/archivo|url}}`
 
 - Procesa líneas individuales de entrada como objetos `JSON` separados:
 
@@ -29,4 +29,4 @@
 
 - Representa los datos procesados como un flujo `JSON`:
 
-`gron {{[-j|--json]}}} {{ruta/al/archivo|url}}`
+`gron {{[-j|--json]}} {{ruta/al/archivo|url}}`
