@@ -26,4 +26,4 @@
 
 - Display help:
 
-`lsar {{-h|--help}}`
+`lsar {{[-h|--help]}}`

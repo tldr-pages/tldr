@@ -31,6 +31,6 @@
 
 `pico -v {{path/to/file}}`
 
-- Displays all files including those beginning with a period:
+- Display all files including those beginning with a period:
 
 `pico -a`

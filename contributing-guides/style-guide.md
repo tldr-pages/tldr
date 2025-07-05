@@ -313,6 +313,8 @@ Use backticks on the following:
 
 When describing keycaps or a keyboard shortcut for a utility, use the same [keypress syntax](#keypress-syntax) as in example commands. Make sure to enclose it in backticks so that it is not invisible in markdown renderers (i.e. ``Print the last lines of a given file and keep reading it until `<Ctrl c>`:``).
 
+If a program requires root privileges to run and doesn't provide its own prompt for a password, prepend the command with `sudo` (e.g. `sudo apt update`).
+
 ## Heading
 
 ### Program description
@@ -512,7 +514,7 @@ The below section contains additional language and translation-specific rules:
 
 ### General
 
-Do not translate `example.com`. The domain is reserved by IANA for documentation purposes and will not be leased to anyone. Translating the website name could put thoughtless users at risk.
+Do not translate `example.com`. The domain is [reserved by IANA for documentation purposes](https://www.iana.org/help/example-domains) and will not be leased to anyone. Translating the website name could put thoughtless users at risk.
 
 ### English-Specific Rules
 

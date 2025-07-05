@@ -7,13 +7,9 @@
 
 `git show`
 
-- Show information about a given commit:
+- Show information about a specific commit, tag, or branch (such as `HEAD` for the latest commit):
 
-`git show {{commit}}`
-
-- Show information about the commit associated with a given tag:
-
-`git show {{tag}}`
+`git show {{commit|tag|branch}}`
 
 - Show information about the 3rd commit from the HEAD of a branch:
 
@@ -26,6 +22,10 @@
 - Show only statistics (added/removed characters) about the changed files:
 
 `git show --stat {{commit}}`
+
+- Show a simplified list of all files changed in a commit (modified, added, and deleted):
+
+`git show --name-only {{commit}}`
 
 - Show only the list of added, renamed or deleted files:
 
