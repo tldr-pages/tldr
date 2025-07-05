@@ -9,7 +9,7 @@
 
 - Connect to a database using flags:
 
-`pgcli -h {{host}} -U {{user}} -d {{database}}`
+`pgcli {{[-h|--host]}} {{host}} {{[-U|--username]}} {{username}} {{[-d|--dbname]}} {{database}}`
 
 - Enable Vim keybindings for the current session:
 
