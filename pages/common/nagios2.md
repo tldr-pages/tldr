@@ -5,18 +5,18 @@
 > See also: `nagios`, `nagios3`, `nagios4`.
 > More information: <https://manned.org/nagios>.
 
-- Start `nagios`:
+- Start `nagios2`:
 
-`nagios /etc/nagios2/nagios.cfg`
+`nagios2`
 
-- Start `nagios` in daemon mode:
+- Start `nagios2` in daemon mode:
 
-`nagios -d`
+`nagios2 -d`
 
-- Start `nagios`, print service check scheduling information to `stdout`, then shutdown:
+- Start `nagios2`, print service check scheduling information to `stdout`, then shutdown:
 
-`nagios -s`
+`nagios2 -s`
 
 - Verify configuration file:
 
-`nagios -v`
+`nagios2 -v`
