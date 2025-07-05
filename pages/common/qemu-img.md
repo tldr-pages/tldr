@@ -27,6 +27,6 @@
 
 `qemu-img snapshot -c {{snapshot_tag_name}} {{path/to/image_file.qcow2}}`
 
-- [a]pply an internal snapshot to a KVM .qcow2 disk image:
+- [a]pply an internal snapshot to a KVM `.qcow2` disk image:
 
 `qemu-img snapshot -a {{snapshot_tag_name}} {{path/to/image_file.qcow2}}`
