@@ -1,7 +1,7 @@
 # jj abandon
 
 > Abandon a revision, rebasing descendants onto its parent(s).
-> Abandoning a revision gets rid of its change id.
+> Abandoning a revision removes its associated change ID.
 > More information: <https://jj-vcs.github.io/jj/latest/cli-reference/#jj-abandon>.
 
 - Abandon revisions specified by given revsets (e.g. `B::D`, `A..D`, `B|C|D`, etc.):
