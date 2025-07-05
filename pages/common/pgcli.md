@@ -11,7 +11,7 @@
 
 `pgcli -h {{host}} -U {{user}} -d {{database}}`
 
-- Enable Vim keybindings for this session:
+- Enable Vim keybindings for the current session:
 
 `pgcli --vi`
 
