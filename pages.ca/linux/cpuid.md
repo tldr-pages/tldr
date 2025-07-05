@@ -1,7 +1,7 @@
 # cpuid
 
 > Mostra informació detallada sobre totes les CPUs.
-> Més informació: <https://manned.org/man/cpuid.1>.
+> Més informació: <https://manned.org/cpuid.1>.
 
 - Mostra informació de totes les CPUs:
 
@@ -9,8 +9,8 @@
 
 - Mostra informació només per la CPU actual:
 
-`cpuid -1`
+`cpuid {{[-1|--one-cpu]}}`
 
 - Mostra informació hexadecimal en brut sense decodificar:
 
-`cpuid -r`
+`cpuid {{[-r|--raw]}}`
