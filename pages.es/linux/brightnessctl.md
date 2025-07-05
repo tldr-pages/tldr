@@ -1,7 +1,7 @@
 # brightnessctl
 
 > Utilidad para leer y controlar el brillo de dispositivos en sistemas operativos Linux.
-> Más información:<https://github.com/Hummer12007/brightnessctl#usage>.
+> Más información: <https://github.com/Hummer12007/brightnessctl#usage>.
 
 - Lista de dispositivos a los que se les puede cambiar el brillo:
 

@@ -1,7 +1,7 @@
 # brightnessctl
 
 > Linux 운영 체제에서 장치 밝기를 읽고 제어하는 유틸리티.
-> 더 많은 정보:<https://github.com/Hummer12007/brightnessctl#usage>.
+> 더 많은 정보: <https://github.com/Hummer12007/brightnessctl#usage>.
 
 - 밝기를 변경할 수 있는 장치 나열:
 
