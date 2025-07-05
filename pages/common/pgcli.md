@@ -15,6 +15,6 @@
 
 `pgcli --vi`
 
-- Show help for command-line options:
+- Display help:
 
 `pgcli --help`
