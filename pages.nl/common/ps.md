@@ -29,4 +29,4 @@
 
 - Sorteer processen op geheugengebruik:
 
-`ps {{[k|--sort]}} size`
+`ps --sort size`
