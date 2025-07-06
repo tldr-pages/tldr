@@ -7,13 +7,17 @@
 
 `scrcpy`
 
+- Turn the device screen off and prevent it from sleeping while mirroring:
+
+`srccpy {{[-S|--turn-screen-off]}} {{[-w|--stay-awake]}}`
+
 - Display a mirror of a specific device based on its ID or IP address (find it under the `adb devices` command):
 
-`scrcpy --serial {{0123456789abcdef|192.168.0.1:5555}}`
+`scrcpy {{[-s|--serial]}} {{0123456789abcdef|192.168.0.1:5555}}`
 
 - Start display in fullscreen mode:
 
-`scrcpy --fullscreen`
+`scrcpy {{[-f|--fullscreen]}}`
 
 - Rotate the display screen. Each incremental value adds a 90 degree counterclockwise rotation:
 
@@ -21,11 +25,11 @@
 
 - Show touches on physical device:
 
-`scrcpy --show-touches`
+`scrcpy {{[-t|--show-touches]}}`
 
 - Record display screen:
 
-`scrcpy --record {{path/to/file.mp4}}`
+`scrcpy {{[-r|--record]}} {{path/to/file.mp4}}`
 
 - Specify the target directory for pushing files to device by drag and drop (non-APK):
 
