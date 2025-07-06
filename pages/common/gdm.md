@@ -20,10 +20,10 @@
 
 `gdm --preserve-ld-vars`
 
-- Show `gdm` version:
-
-`gdm --version`
-
-- Show `gdm` help message:
+- Display help:
 
 `gdm --help`
+
+- Display version:
+
+`gdm --version`
