@@ -9,7 +9,7 @@
 
 - Turn the device screen off and prevent it from sleeping while mirroring:
 
-`srccpy {{[-S|--turn-screen-off]}} {{[-w|--stay-awake]}}`
+`scrcpy {{[-S|--turn-screen-off]}} {{[-w|--stay-awake]}}`
 
 - Display a mirror of a specific device based on its ID or IP address (find it under the `adb devices` command):
 
