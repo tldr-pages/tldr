@@ -1,8 +1,6 @@
 # filen
 
-> Command-line interface for Filen, an end-to-end encrypted cloud storage service.
-> Supports file upload/download, sync, trash management, mount a network drive and integration with S3 and WebDAV.
-> Running the command without arguments opens an interactive mode.
+> Filen, an end-to-end encrypted cloud storage service.
 > More information: <https://github.com/FilenCloudDienste/filen-cli>.
 
 - Upload a local file to a specific remote folder:
