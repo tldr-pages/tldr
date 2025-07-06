@@ -16,7 +16,7 @@
 
 `gdm --no-console`
 
-- Prevent sanitizing `ENV` variables that start with `LD_`:
+- Prevent sanitizing environment variables that start with `LD_`:
 
 `gdm --preserve-ld-vars`
 
