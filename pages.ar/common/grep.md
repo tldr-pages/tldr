@@ -21,7 +21,7 @@
 
 - طباعة 3 أسطر من السياق حول، قبل أو بعد كل تطابق:
 
-`grep --{{context|before-context|after-context}} 3 "{{search_pattern}}" {{path/to/file}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{search_pattern}}" {{path/to/file}}`
 
 - طباعة اسم الملف ورقم السطر لكل تطابق مع تمييز بالألوان:
 

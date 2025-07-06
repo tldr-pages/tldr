@@ -21,7 +21,7 @@
 
 - Cetak 3 baris konteks isi berkas pada sekitar, sebelum, atau sesudah setiap hasil pencarian:
 
-`grep --{{context|before-context|after-context}} 3 "{{pola_pencarian}}" {{jalan/menuju/berkas}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{pola_pencarian}}" {{jalan/menuju/berkas}}`
 
 - Cetak nama berkas dan nomor baris di mana pola tersebut ditemukan dalam format teks berwarna:
 

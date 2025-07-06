@@ -21,7 +21,7 @@
 
 - 各マッチの前後3行のコンテキストを表示する:
 
-`grep --{{context|before-context|after-context}} 3 "{{検索パターン}}" {{path/to/file}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{検索パターン}}" {{path/to/file}}`
 
 - 各マッチのファイル名と行番号をカラー出力する:
 

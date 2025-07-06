@@ -21,7 +21,7 @@
 
 - 打印每次匹配的上下文、之前或之後的 3 行：
 
-`grep --{{context|before-context|after-context}} 3 "{{字符串}}" {{檔案/完整/路徑}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{字符串}}" {{檔案/完整/路徑}}`
 
 - 打印包含匹配結果的文件名和行號，並啟用彩色輸出：
 
