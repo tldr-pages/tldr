@@ -10,7 +10,7 @@
 
 - Execute an Open MPI program with `n` parallel processes:
 
-`mpirun {{-n|--n|-c|-np}} {{n}} {{path/to/executable}}`
+`mpirun -n {{n}} {{path/to/executable}}`
 
 - Allow more processes than available physical cores:
 
