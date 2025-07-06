@@ -1,7 +1,7 @@
 # dnswalk
 
 > DNS debugger.
-> "Walks" across zones and validates database consistency and best practices.
+> "Walk" across zones and validate database consistency and best practices.
 > More information: <https://manned.org/dnswalk>.
 
 - Debug a DNS pathway for a Fully Qualified Domain Name (FQDN):
