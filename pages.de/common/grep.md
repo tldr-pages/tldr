@@ -14,7 +14,7 @@
 
 - Benutze erweiterte reguläre Ausdrücke (unterstützt `?`, `+`, `{}`, `()` und `|`) ohne Beachtung der Groß-, Kleinschreibung:
 
-`grep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{ausdruck}}" {{pfad/zu/datei}}`
+`grep {{[-Ei|--extended-regexp --ignore-case]}} "{{ausdruck}}" {{pfad/zu/datei}}`
 
 - Zeige 3 Zeilen Kontext um [C], vor [B] oder nach [A] jedem Ergebnis:
 
