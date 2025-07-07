@@ -1,6 +1,6 @@
 # i2cget
 
-> I2C bus register reading tool.
+> Read from an register of an I2C device.
 > Note: All addresses should be specified in hexadecimal.
 > More information: <https://github.com/mozilla-b2g/i2c-tools/tree/master>.
 

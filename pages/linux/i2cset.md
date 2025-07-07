@@ -1,6 +1,6 @@
 # i2cset
 
-> I2C bus register writing tool.
+> Set the value of a register of an I2C device.
 > Note: All addresses should be specified in hexadecimal.
 > More information: <https://github.com/mozilla-b2g/i2c-tools/tree/master>.
 
