@@ -13,19 +13,19 @@
 
 - 재귀적으로 디렉토리 안의 바이너리 파일을 제외한 모든 파일 안에서 패턴을 검색하고, 일치하는 줄의 번호를 보여줌:
 
-`grep {{[-r|--recursive]}} {{[-n|--line-number]}} --binary-files {{without-match}} "{{검색_패턴}}" {{디렉토리/의/경로}}`
+`grep {{[-rnI|--recursive --line-number --binary-files=without-match]}} "{{검색_패턴}}" {{디렉토리/의/경로}}`
 
 - 대소문자를 구분하지 않는 모드에서 확장된 정규표현식 사용 (`?`, `+`, `{}`, `()`, 그리고 `|` 를 지원):
 
-`grep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{검색_패턴}}" {{파일/의/경로}}`
+`grep {{[-Ei|--extended-regexp --ignore-case]}} "{{검색_패턴}}" {{파일/의/경로}}`
 
 - 일치하는 문자열 주변, 이전 혹은 이후의 3줄을 출력:
 
-`grep --{{context|before-context|after-context}} 3 "{{검색_패턴}}" {{파일/의/경로}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{검색_패턴}}" {{파일/의/경로}}`
 
 - 각각의 일치하는 문자열의 파일 이름과 줄 번호 출력:
 
-`grep {{[-H|--with-filename]}} {{[-n|--line-number]}} --color=always "{{검색_패턴}}" {{파일/의/경로}}`
+`grep {{[-Hn|--with-filename --line-number]}} --color=always "{{검색_패턴}}" {{파일/의/경로}}`
 
 - 패턴과 일치하는 줄을 검색하고, 일치하는 문자만 출력:
 

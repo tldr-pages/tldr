@@ -18,15 +18,15 @@
 
 - Utilise des expressions régulières étendues (supporte `?`, `+`, `{}`, `()` et `|`) :
 
-`grep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} {{expression_régulière}} {{chemin/vers/fichier}}`
+`grep {{[-Ei|--extended-regexp --ignore-case]}} {{expression_régulière}} {{chemin/vers/fichier}}`
 
 - Affiche 3 lignes de [C]ontexte, avant ([B]efore), ou [A]près chaque concordance :
 
-`grep --{{context|before-context|after-context}} 3 "{{chaîne_recherchée}}" {{chemin/vers/fichier}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{chaîne_recherchée}}" {{chemin/vers/fichier}}`
 
 - Affiche le nom du fichier avec la ligne correspondante pour chaque concordance :
 
-`grep {{[-H|--with-filename]}} {{[-n|--line-number]}} --color=always "{{chaîne_recherchée}}" {{chemin/vers/fichier}}`
+`grep {{[-Hn|--with-filename --line-number]}} --color=always "{{chaîne_recherchée}}" {{chemin/vers/fichier}}`
 
 - Utilise l'entrée standard au lieu d'un fichier :
 
