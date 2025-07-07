@@ -9,7 +9,7 @@
 
 - Display information about a specific hardware component:
 
-`hwinfo --{{cpu|memory|disk|gfxcard|network|usb|pci|keyboard|mouse|monitor|sound|fingerprint}}`
+`hwinfo --{{cpu|memory|disk|gfxcard|network|usb|pci|keyboard|mouse|monitor|sound|fingerprint|...}}`
 
 - Display information about a specific hardware component succinctly:
 
