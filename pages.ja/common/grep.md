@@ -13,19 +13,19 @@
 
 - ディレクトリ内の全てのファイルを再帰的にパターン検索し、マッチしたファイルの行番号を表示する:
 
-`grep {{[-r|--recursive]}} {{[-n|--line-number]}} --binary-files {{without-match}} "{{検索パターン}}" {{path/to/directory}}`
+`grep {{[-rnI|--recursive --line-number --binary-files=without-match]}} "{{検索パターン}}" {{path/to/directory}}`
 
 - 拡張正規表現 (`?`, `+`, `{}`, `()`, `|` をサポート)を大文字小文字を区別しないモードで使用する:
 
-`grep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{検索パターン}}" {{path/to/file}}`
+`grep {{[-Ei|--extended-regexp --ignore-case]}} "{{検索パターン}}" {{path/to/file}}`
 
 - 各マッチの前後3行のコンテキストを表示する:
 
-`grep --{{context|before-context|after-context}} 3 "{{検索パターン}}" {{path/to/file}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{検索パターン}}" {{path/to/file}}`
 
 - 各マッチのファイル名と行番号をカラー出力する:
 
-`grep {{[-H|--with-filename]}} {{[-n|--line-number]}} --color=always "{{検索パターン}}" {{path/to/file}}`
+`grep {{[-Hn|--with-filename --line-number]}} --color=always "{{検索パターン}}" {{path/to/file}}`
 
 - パターンにマッチする行を検索し、マッチしたテキストのみを表示する:
 

@@ -13,19 +13,19 @@
 
 - 在指定目录下的所有文件中递归地查找模式，显示匹配的行号并忽略二进制文件：
 
-`grep {{[-r|--recursive]}} {{[-n|--line-number]}} --binary-files {{without-match}} "{{模式字符串}}" {{路径/到/目录}}`
+`grep {{[-rnI|--recursive --line-number --binary-files=without-match]}} "{{模式字符串}}" {{路径/到/目录}}`
 
 - 使用大小写不敏感的扩展正则表达式（支持 `?`、`+`、`{}`、`()`, 和 `|`）：
 
-`grep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{模式字符串}}" {{路径/到/文件}}`
+`grep {{[-Ei|--extended-regexp --ignore-case]}} "{{模式字符串}}" {{路径/到/文件}}`
 
 - 在每个匹配前后、之前或之后打印 3 行上下文：
 
-`grep --{{context|before-context|after-context}} 3 "{{模式字符串}}" {{路径/到/文件}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{模式字符串}}" {{路径/到/文件}}`
 
 - 以带有颜色的方式，打印每个匹配的文件名和行号：
 
-`grep {{[-H|--with-filename]}} {{[-n|--line-number]}} --color=always "{{模式字符串}}" {{路径/到/文件}}`
+`grep {{[-Hn|--with-filename --line-number]}} --color=always "{{模式字符串}}" {{路径/到/文件}}`
 
 - 只打印文件中与模式匹配的行：
 

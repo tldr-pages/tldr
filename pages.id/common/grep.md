@@ -13,19 +13,19 @@
 
 - Cari seluruh berkas selain berkas format biner di dalam suatu direktori secara rekursif (termasuk berkas-berkas di dalam subdirektori) dengan menunjukkan nomor barisan di mana pola tersebut ditemukan:
 
-`grep {{[-r|--recursive]}} {{[-n|--line-number]}} --binary-files {{without-match}} "{{pola_pencarian}}" {{jalan/menuju/direktori}}`
+`grep {{[-rnI|--recursive --line-number --binary-files=without-match]}} "{{pola_pencarian}}" {{jalan/menuju/direktori}}`
 
 - Gunakan sintaks ekspresi reguler tingkat lanjut (mendukung `?`, `+`, `{}`, `()`, dan `|`), dalam mode case-insensitive (tanpa menghiraukan perbedaan antara huruf kapital dan kecil):
 
-`grep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{pola_pencarian}}" {{jalan/menuju/berkas}}`
+`grep {{[-Ei|--extended-regexp --ignore-case]}} "{{pola_pencarian}}" {{jalan/menuju/berkas}}`
 
 - Cetak 3 baris konteks isi berkas pada sekitar, sebelum, atau sesudah setiap hasil pencarian:
 
-`grep --{{context|before-context|after-context}} 3 "{{pola_pencarian}}" {{jalan/menuju/berkas}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{pola_pencarian}}" {{jalan/menuju/berkas}}`
 
 - Cetak nama berkas dan nomor baris di mana pola tersebut ditemukan dalam format teks berwarna:
 
-`grep {{[-H|--with-filename]}} {{[-n|--line-number]}} --color=always "{{pola_pencarian}}" {{jalan/menuju/berkas}}`
+`grep {{[-Hn|--with-filename --line-number]}} --color=always "{{pola_pencarian}}" {{jalan/menuju/berkas}}`
 
 - Cari untuk barisan teks yang memenuhi kriteria pada pola pencarian, dan hanya cetak bagian teks yang memenuhi pola:
 

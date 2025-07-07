@@ -13,19 +13,19 @@
 
 - جستجو بازگشتی یک الگو در تمامی فایل های یک پوشه، نمایش تمامی خطوط منطبق، فایل های باینری را رد میکند:
 
-`grep {{[-r|--recursive]}} {{[-n|--line-number]}} --binary-files {{without-match}} "{{search_pattern}}" {{path/to/directory}}`
+`grep {{[-rnI|--recursive --line-number --binary-files=without-match]}} "{{search_pattern}}" {{path/to/directory}}`
 
 - استفاده از عبارات با قاعده توسعه یافته (با پشتیبانی از `?`، `+`، `{}`، `()`، و `|`)، در حالت حساس به بزرگی کوچکی کاراکتر ها :
 
-`grep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
+`grep {{[-Ei|--extended-regexp --ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
 
 - چاپ 3 خط از قبل و بعد محل انطباق:
 
-`grep --{{context|before-context|after-context}} 3 "{{search_pattern}}" {{path/to/file}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{search_pattern}}" {{path/to/file}}`
 
 - چاپ نام فایل و شماره خط برای هر انطباق با رنگبندی :
 
-`grep {{[-H|--with-filename]}} {{[-n|--line-number]}} --color=always "{{search_pattern}}" {{path/to/file}}`
+`grep {{[-Hn|--with-filename --line-number]}} --color=always "{{search_pattern}}" {{path/to/file}}`
 
 - جستجوی خطوط منطبق، چاپ متن منطبق :
 
