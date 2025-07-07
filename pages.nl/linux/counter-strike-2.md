@@ -13,7 +13,7 @@
 
 - Start een spel met een opgegeven server-IP en poort:
 
-`{{path/to/cs2}} -dedicated +map {{de_dust2}} -ip {{1.2.3.4}} -port {{27015}}`
+`{{pad/naar/cs2}} -dedicated +map {{de_dust2}} -ip {{1.2.3.4}} -port {{27015}}`
 
 - Sluit de server af:
 
