@@ -1,6 +1,8 @@
 # dnf config-manager
 
 > Manage DNF configuration options and repositories on Fedora-based systems.
+> Not default to `dnf` but supported via `dnf-plugins-core`.
+> See also: `dnf builddep`, `dnf changelog`, `dnf copr`, `dnf debug`, `dnf debuginfo-install`, `dnf download`, `dnf generate_completion_cache`, `dnf groups-manager`, `dnf leaves`, `dnf local`, `dnf migrate`, `dnf modulesync`, `dnf needs-restarting`, `dnf post-transaction-actions`, `dnf repoclosure`, `dnf repodiff`, `dnf repograph`, `dnf repomanage`, `dnf reposync`, `dnf show-leaves`, `dnf system-upgrade`, `dnf versionlock`.
 > More information: <https://dnf-plugins-core.readthedocs.io/en/latest/config_manager.html>.
 
 - Add (and enable) a repository from a URL:
