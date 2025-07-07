@@ -11,7 +11,7 @@
 
 - View all changelogs for a given package after a specified date:
 
-`dnf changelog --since {{date}} {{command}}`
+`dnf changelog --since {{date}} {{package}}`
 
 - View the last `n` number of changelogs for a given package:
 
