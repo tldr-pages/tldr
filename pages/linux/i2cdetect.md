@@ -1,7 +1,8 @@
 # i2cdetect
 
 > Scan I2C buses.
-> More information: <https://manned.org/i2cdump>.
+> See also: `i2cdump`, `i2cget`, `i2cset`.
+> More information: <https://manned.org/i2cdetect>.
 
 - List active I2C buses:
 
