@@ -9,7 +9,7 @@
 
 - Download hello-world for any programming language into exercism workspace:
 
-`exercism download --track={{lang}} --exercise=hello-world`
+`exercism download --track {{lang}} --exercise hello-world`
 
 - Open an exercise dir on the website:
 
