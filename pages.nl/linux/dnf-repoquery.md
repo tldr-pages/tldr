@@ -1,4 +1,4 @@
-# dnf install
+# dnf repoquery
 
 > Vraag pakketten op voor informatie.
 > Meer informatie: <https://dnf.readthedocs.io/en/latest/command_ref.html#repoquery-command>.
