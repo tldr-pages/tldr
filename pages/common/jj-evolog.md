@@ -5,12 +5,12 @@
 
 - Show how a revision has evolved over time:
 
-`jj evolog {{[-r|--revision]}} {{revset}}`
+`jj evolog {{[-r|--revisions]}} {{revsets}}`
 
 - Show diff statistics in the evolution log:
 
-`jj evolog {{[-r|--revision]}} {{revset}} --stat`
+`jj evolog {{[-r|--revisions]}} {{revsets}} --stat`
 
 - Show summary of each change in the evolution log:
 
-`jj evolog {{[-r|--revision]}} {{revset}} {{[-s|--summary]}}`
+`jj evolog {{[-r|--revisions]}} {{revsets}} {{[-s|--summary]}}`
