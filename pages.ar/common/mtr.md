@@ -9,11 +9,11 @@
 
 - تعطيل تعيين عناوين IP وأسماء المضيفين:
 
-`mtr --no-dns {{example.com}}`
+`mtr {{[-n|--no-dns]}} {{example.com}}`
 
 - عرض المخرجات بعد إرسال 10 حزم ping لكل نقطة:
 
-`mtr --report-wide {{example.com}}`
+`mtr {{[-w|--report-wide]}} {{example.com}}`
 
 - فرض استخدام IPv4 أو IPv6:
 
@@ -21,12 +21,12 @@
 
 - الانتظار لوقت محدد (بالثواني) قبل إرسال حزمة أخرى إلى نفس النقطة:
 
-`mtr --interval {{10}} {{example.com}}`
+`mtr {{[-i|--interval]}} {{10}} {{example.com}}`
 
 - عرض رقم النظام المستقل (ASN) لكل نقطة:
 
-`mtr --aslookup {{example.com}}`
+`mtr {{[-z|--aslookup]}} {{example.com}}`
 
 - عرض كل من عنوان IP والاسم العكسي لـ DNS:
 
-`mtr --show-ips {{example.com}}`
+`mtr {{[-b|--show-ips]}} {{example.com}}`
