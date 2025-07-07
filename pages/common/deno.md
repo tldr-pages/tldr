@@ -18,7 +18,7 @@
 
 - Run a file with explicit permissions or allow all (only if you trust the source):
 
-`deno run {{[--allow-env|--allow-net|--allow-write|--allow-all]}} jsr:@deno/deployctl`
+`deno run {{[--allow-env|--allow-net|--allow-write|--allow-all]}} {{jsr:@deno/deployctl}}`
 
 - List and run tasks from deno.json or scripts from package.json:
 
