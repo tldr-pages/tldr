@@ -3,6 +3,10 @@
 > Interface with Filen, an end-to-end encrypted cloud storage service.
 > More information: <https://github.com/FilenCloudDienste/filen-cli>.
 
+- Enter interactive mode:
+
+  `filen`
+
 - Upload a local file to a specific remote folder:
 
 `filen upload {{path/to/local_file}} {{remote_folder_id}}`
@@ -13,7 +17,7 @@
 
 - List files and folders inside a remote folder:
 
-`filen ls {{remote_folder_id}}`
+`filen ls {{remote_folder}`
 
 - Delete a remote file or folder (move it to trash):
 
@@ -23,14 +27,10 @@
 
 `filen trash restore {{remote_id}}`
 
-- Permanently delete a trashed item:
-
-`filen trash delete {{remote_id}}`
-
 - Synchronize a local folder with a remote folder (two-way sync):
 
-`filen sync {{local_folder}}:/{{remote_folder_id}} --continuous`
+`filen sync {{local_folder}}:/{{remote_folder}} --continuous`
 
 - Download changes from the cloud to a local folder (one-way sync):
 
-`filen sync {{local_folder}}:ctl:/{{remote_folder_id}}`
+`filen sync {{local_folder}}:ctl:/{{remote_folder}}`
