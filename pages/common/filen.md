@@ -1,6 +1,6 @@
 # filen
 
-> An end-to-end encrypted cloud storage service.
+> Interface with Filen, an end-to-end encrypted cloud storage service.
 > More information: <https://github.com/FilenCloudDienste/filen-cli>.
 
 - Upload a local file to a specific remote folder:
