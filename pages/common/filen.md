@@ -5,7 +5,7 @@
 
 - Enter interactive mode:
 
-  `filen`
+`filen`
 
 - Upload a local file to a specific remote folder:
 
