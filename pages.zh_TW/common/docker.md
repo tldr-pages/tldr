@@ -24,7 +24,7 @@
 
 `docker images`
 
-- 從正在運行的容器內打開一個互動式 ([i]nteractive) 终端 ([t]ty) shell (`sh`)：
+- 從正在運行的容器內打開一個互動式 (interactive) 終端 shell (`sh`)：
 
 `docker exec -it {{容器名稱}} {{sh}}`
 
