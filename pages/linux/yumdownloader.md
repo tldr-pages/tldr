@@ -5,4 +5,4 @@
 
 - View documentation for the original command:
 
-`tldr dnf`
+`tldr dnf download`
