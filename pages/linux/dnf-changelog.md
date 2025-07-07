@@ -7,7 +7,7 @@
 
 - View all changelogs for a given package:
 
-`dnf changelog {{command}}`
+`dnf changelog {{package}}`
 
 - View all changelogs for a given package after a specified date:
 
