@@ -1,11 +1,11 @@
 # filen
 
-> Filen, an end-to-end encrypted cloud storage service.
+> An end-to-end encrypted cloud storage service.
 > More information: <https://github.com/FilenCloudDienste/filen-cli>.
 
 - Upload a local file to a specific remote folder:
 
-`filen upload --path {{local_file_path}} --remote {{remote_folder_id}}`
+`filen upload --path {{path/to/local_file}} --remote {{remote_folder_id}}`
 
 - Download a file or folder using its remote ID:
 
@@ -15,7 +15,7 @@
 
 `filen list --folder {{remote_folder_id}}`
 
-- Delete a remote file or folder (moves it to trash):
+- Delete a remote file or folder (move it to trash):
 
 `filen rm --id {{remote_id}}`
 
@@ -31,6 +31,6 @@
 
 `filen sync --source {{local_folder}} --target {{remote_folder_id}}`
 
-- Reverse sync: download changes from the cloud to a local folder:
+- Download changes from the cloud to a local folder (reverse sync):
 
 `filen sync --source {{remote_folder_id}} --target {{local_folder}} --reverse`
