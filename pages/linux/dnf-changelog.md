@@ -19,7 +19,7 @@
 
 - Show only new items for upgradeable packages:
 
-`dnf changelog --upgrades {{command}}`
+`dnf changelog --upgrades {{package}}`
 
 - Display help:
 
