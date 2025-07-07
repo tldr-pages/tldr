@@ -17,7 +17,7 @@
 
 - Deel een map met specifieke opties (bijvoorbeeld root-toegang toestaan vanaf een bepaalde host):
 
-`share -F nfs -o rw,root={{hostname}} {{/pad/naar/map}}`
+`share -F nfs -o rw,root={{hostnaam}} {{/pad/naar/map}}`
 
 - Maak delen persistent door entries toe te voegen aan `/etc/dfs/dfstab`:
 

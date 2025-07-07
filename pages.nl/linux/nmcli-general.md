@@ -14,7 +14,7 @@
 
 - Verander de hostname van het huidige apparaat:
 
-`sudo nmcli general hostname {{new_hostname}}`
+`sudo nmcli general hostname {{nieuwe_hostnaam}}`
 
 - Toon de permissies van NetworkManager:
 

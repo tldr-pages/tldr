@@ -6,7 +6,7 @@
 
 - Voer een Fossil subcommando uit:
 
-`fossil {{subcommand}}`
+`fossil {{subcommando}}`
 
 - Toon de algemene help:
 
@@ -14,7 +14,7 @@
 
 - Toon de help voor een specifiek subcommando (zoals `add`, `commit`, etc.):
 
-`fossil help {{subcommand}}`
+`fossil help {{subcommando}}`
 
 - Toon de versie:
 
