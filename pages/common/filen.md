@@ -13,7 +13,7 @@
 
 - Download a file or folder using its remote ID:
 
-`filen download {{remote_id}} {{local_destination_path}}`
+`filen download {{remote_id}} {{path/to/local_destination}}`
 
 - List files and folders inside a remote folder:
 
