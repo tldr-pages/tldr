@@ -1,7 +1,7 @@
 # i2cdetect
 
 > Scan I2C buses.
-> More information: <https://github.com/mozilla-b2g/i2c-tools/tree/master>.
+> More information: <https://manned.org/i2cdump>.
 
 - List active I2C buses:
 
