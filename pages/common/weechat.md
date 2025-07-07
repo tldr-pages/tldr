@@ -1,6 +1,6 @@
 # weechat
 
-> Command-line internet relay chat client with various features.
+> Internet relay chat client with various features.
 > More information: <https://weechat.org/doc>.
 
 - Start WeeChat:

@@ -29,4 +29,4 @@
 
 - 按内存使用量对进程进行排序：
 
-`ps {{[k|--sort]}} size`
+`ps --sort size`

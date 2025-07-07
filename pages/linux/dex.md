@@ -9,15 +9,15 @@
 
 - Execute all programs in the specified folders:
 
-`dex {{[-a|--autostart]} {{[-s|--search-paths]}} {{path/to/directory1}}:{{path/to/directory2}}:{{path/to/directory3}}:`
+`dex {{[-a|--autostart]}} {{[-s|--search-paths]}} {{path/to/directory1}}:{{path/to/directory2}}:{{path/to/directory3}}:`
 
 - Preview the programs would be executed in a GNOME specific autostart:
 
-`dex {{[-a|--autostart]} {{[-e|--environment]}} {{GNOME}}`
+`dex {{[-a|--autostart]}} {{[-e|--environment]}} {{GNOME}}`
 
 - Preview the programs would be executed in a regular autostart:
 
-`dex {{[-a|--autostart]} {{[-d|--dry-run]}}`
+`dex {{[-a|--autostart]}} {{[-d|--dry-run]}}`
 
 - Preview the value of the DesktopEntry property `Name`:
 

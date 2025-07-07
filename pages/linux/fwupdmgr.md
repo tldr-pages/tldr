@@ -23,3 +23,7 @@
 - Remount `/boot` with more privileges if update complains about a read-only filesystem:
 
 `sudo mount {{[-o|--options]}} uid=1000,gid=1000,umask=0022 {{/dev/sdX}} /boot`
+
+- Show firmware update history:
+
+`fwupdmgr get-history`

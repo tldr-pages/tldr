@@ -13,4 +13,4 @@
 
 - Show extra debugging output:
 
-`zapier analytics {{[-m|--mode]}} {{enabled|anonymous|disabled}} {{-d|--debug}}`
+`zapier analytics {{[-m|--mode]}} {{enabled|anonymous|disabled}} {{[-d|--debug]}}`

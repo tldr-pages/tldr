@@ -1,7 +1,7 @@
 # ntpq
 
 > Query the Network Time Protocol (NTP) daemon.
-> More information: <https://manned.org/man/ntpq.1>.
+> More information: <https://manned.org/ntpq.1>.
 
 - Start `ntpq` in interactive mode:
 

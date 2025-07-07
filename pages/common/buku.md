@@ -1,6 +1,6 @@
 # buku
 
-> Command-line browser-independent bookmark manager.
+> Browser-independent bookmark manager.
 > More information: <https://github.com/jarun/Buku#usage>.
 
 - Display all bookmarks matching "keyword" and with "privacy" tag:
