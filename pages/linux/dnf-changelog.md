@@ -7,19 +7,19 @@
 
 - View all changelogs for a given package:
 
-`dnf changelog {{path/to/specification.spec}}`
+`dnf changelog {{command}}`
 
 - View all changelogs for a given package after a specified date:
 
-`dnf changelog --since {{date}} {{path/to/specification.spec}}`
+`dnf changelog --since {{date}} {{command}}`
 
 - View the last `n` number of changelogs for a given package:
 
-`dnf changelog --count {{number}} {{path/to/specification.spec}}`
+`dnf changelog --count {{number}} {{command}}`
 
 - Show only new items for upgradeable packages:
 
-`dnf changelog --upgrades {{path/to/specification.spec}}`
+`dnf changelog --upgrades {{command}}`
 
 - Display help:
 
