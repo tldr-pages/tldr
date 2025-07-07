@@ -1,6 +1,6 @@
 # dnf builddep
 
-> Install dependencies to build a given package. 
+> Install dependencies to build a given package.
 > Not default to `dnf` but supported via `dnf-plugins-core`.
 > See also: `dnf`.
 > More information: <https://dnf-plugins-core.readthedocs.io/en/latest/builddep.html>.
