@@ -4,7 +4,7 @@
 > Includes dependency management using npm or jsr, and tooling like bench, bundle, doc, and coverage.
 > More information: <https://docs.deno.com/runtime/reference/cli>.
 
-- Start a REPL (interactive shell):
+- Start a REPL (interactive shell, also known as Read-Eval-Print Loop):
 
 `deno`
 
