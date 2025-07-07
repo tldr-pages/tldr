@@ -15,7 +15,7 @@
 
 - View the last `n` number of changelogs for a given package:
 
-`dnf changelog --count {{number}} {{command}}`
+`dnf changelog --count {{number}} {{package}}`
 
 - Show only new items for upgradeable packages:
 
