@@ -11,14 +11,14 @@
 
 `exercism download --track {{lang}} --exercise hello-world`
 
-- Open an exercise dir on the website:
+- Open an exercise directory on the website:
 
-`exercism open {{path/to/solution/}}`
+`exercism open {{path/to/directory/}}`
 
 - Test your solution. It will also tell you if you are missing tools for the {{lang}}:
 
-`exercism test {{path/to/solution/}}`
+`exercism test {{path/to/directory/}}`
 
 - Submit your solution. You can share from the website or ask a community mentor for help:
 
-`exercism submit {{path/to/solution/}}`
+`exercism submit {{path/to/directory/}}`
