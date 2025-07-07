@@ -29,8 +29,8 @@
 
 - Synchronize a local folder with a remote folder (two-way sync):
 
-`filen sync {{local_folder}}:/{{remote_folder}} --continuous`
+`filen sync {{path/to/local_folder}}:/{{remote_folder}} --continuous`
 
 - Download changes from the cloud to a local folder (one-way sync):
 
-`filen sync {{local_folder}}:ctl:/{{remote_folder}}`
+`filen sync {{path/to/local_folder}}:ctl:/{{remote_folder}}`
