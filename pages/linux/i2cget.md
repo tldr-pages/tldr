@@ -9,9 +9,9 @@
 `i2cget {{i2cbus}} {{device_address}} {{register_address}}`
 
 - Read from a register of an I2C device without asking for confirmation:
+
 `i2cget -y {{i2cbus}} {{device_address}} {{register_address}}`
 
 - Read from a register of an I2C device using a specific mode (`b`, `w`):
 
 `i2cget {{i2cbus}} {{device_address}} {{register_address}} {{mode}}`
-

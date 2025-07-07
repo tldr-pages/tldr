@@ -9,9 +9,9 @@
 `i2cset {{i2cbus}} {{device_address}} {{register_address}} {{value}}`
 
 - Write to a register of an I2C device without asking for confirmation:
+
 `i2cset -y {{i2cbus}} {{device_address}} {{register_address}} {{value}}`
 
 - Write to a register of an I2C device using a specific mode (`b`, `w`):
 
 `i2cset {{i2cbus}} {{device_address}} {{register_address}} {{value}} {{mode}}`
-
