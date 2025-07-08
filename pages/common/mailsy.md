@@ -7,7 +7,7 @@
 
 `mailsy g`
 
-- Fetch emails (press Enter to open email in browser):
+- Fetch emails (press `<Enter>` to open email in browser):
 
 `mailsy m`
 
