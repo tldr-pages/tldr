@@ -11,7 +11,7 @@
 
 `mailsy m`
 
-- Show details about Account:
+- Show details about the account:
 
 `mailsy me`
 
