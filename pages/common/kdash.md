@@ -7,7 +7,7 @@
 
 `kdash`
 
-- Show dashboard as debug mode and write logs:
+- Show dashboard in debug mode and write logs:
 
 `kdash -d`
 
