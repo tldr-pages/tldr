@@ -17,7 +17,7 @@
 
 - Perform lossy optimization on a PDF without performing any OCR:
 
-`ocrmypdf --tesseract-timeout=0 --optimize 2 --skip-text {{path/to/input.pdf}} {{path/to/output.pdf}}`
+`ocrmypdf --tesseract-timeout 0 --optimize 2 --skip-text {{path/to/input.pdf}} {{path/to/output.pdf}}`
 
 - Set the metadata of a searchable PDF file:
 
