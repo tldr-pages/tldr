@@ -11,10 +11,10 @@
 
 `mailsy m`
 
-- Details about Account:
+- Show details about Account:
 
 `mailsy me`
 
-- Details about Account:
+- Delete Account:
 
 `mailsy d`
