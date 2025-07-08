@@ -3,11 +3,11 @@
 > Quickly generate a disposable email using mail.tm API.
 > More information: <https://github.com/BalliAsghar/Mailsy>.
 
-- Create Email Address:
+- Create an email address:
 
 `mailsy g`
 
-- Fetch Emails (press Enter to open email in browser.):
+- Fetch emails (press Enter to open email in browser):
 
 `mailsy m`
 
@@ -15,6 +15,6 @@
 
 `mailsy me`
 
-- Delete Account:
+- Dispose the email address:
 
 `mailsy d`
