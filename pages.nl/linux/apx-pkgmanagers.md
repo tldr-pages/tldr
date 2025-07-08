@@ -18,4 +18,4 @@
 
 - Geef informatie weer over een specifieke pakketbeheer:
 
-`apx pkgmanagers show {{name}}`
+`apx pkgmanagers show {{naam}}`

@@ -10,24 +10,24 @@
 
 - Maak een VM met standaard instellingen en voorzie optioneel van een naam en/of template (zie `limactl create --list-templates` voor beschikbare templates):
 
-`limactl create --name {{vm_name}} template://{{debian|fedora|ubuntu|...}}`
+`limactl create --name {{vm_naam}} template://{{debian|fedora|ubuntu|...}}`
 
 - Start een VM (dit kan enkele afhankelijkheden erin installeren en een paar minuten duren):
 
-`limactl start {{vm_name}}`
+`limactl start {{vm_naam}}`
 
 - Open een externe shell in een VM:
 
-`limactl shell {{vm_name}}`
+`limactl shell {{vm_naam}}`
 
 - Voer een commando uit in een VM:
 
-`limactl shell {{vm_name}} {{commando}}`
+`limactl shell {{vm_naam}} {{commando}}`
 
 - Stop/sluit een VM af:
 
-`limactl stop {{vm_name}}`
+`limactl stop {{vm_naam}}`
 
 - Verwijder een VM:
 
-`limactl remove {{vm_name}}`
+`limactl remove {{vm_naam}}`

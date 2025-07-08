@@ -18,4 +18,4 @@
 
 - Maak een aangepaste toolchain door te symlinken naar een map:
 
-`rustup toolchain link {{custom_toolchain_name}} {{pad/naar/map}}`
+`rustup toolchain link {{aangepaste_toolchain_naam}} {{pad/naar/map}}`
