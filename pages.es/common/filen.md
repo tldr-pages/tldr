@@ -15,7 +15,7 @@
 
 `filen download {{id_remoto}} {{ruta/a/destino_local}}`
 
--Lista archivos y carpetas dentro de una carpeta remota:
+- Lista archivos y carpetas dentro de una carpeta remota:
 
 `filen ls {{carpeta_remota}}
 
