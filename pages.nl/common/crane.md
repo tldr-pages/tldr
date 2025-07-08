@@ -6,24 +6,24 @@
 
 - Voer een `crane` subcommando uit:
 
-`crane {{subcommand}}`
+`crane {{subcommando}}`
 
 - Sta het pushen van niet-distribueerbare (buitenlandse) lagen toe:
 
-`crane --allow-nondistributable-artifacts {{subcommand}}`
+`crane --allow-nondistributable-artifacts {{subcommando}}`
 
 - Sta het ophalen van afbeeldingsreferenties zonder TLS toe:
 
-`crane --insecure {{subcommand}}`
+`crane --insecure {{subcommando}}`
 
 - Geef het platform op in de vorm os/arch{{/variant}}{{:osversion}} (bijv. linux/amd64). (standaard alle):
 
-`crane --platform {{platform}} {{subcommand}}`
+`crane --platform {{platform}} {{subcommando}}`
 
 - Schakel debuglogs in voor een subcommando:
 
-`crane {{[-v|--verbose]}} {{subcommand}}`
+`crane {{[-v|--verbose]}} {{subcommando}}`
 
 - Toon de help voor een subcommando:
 
-`crane {{[-h|--help]}} {{subcommand}}`
+`crane {{[-h|--help]}} {{subcommando}}`
