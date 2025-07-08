@@ -17,7 +17,7 @@
 
 - Lista archivos y carpetas dentro de una carpeta remota:
 
-`filen ls {{carpeta_remota}}
+`filen ls {{carpeta_remota}}`
 
 - Elimina un archivo o carpeta remoto (lo mueve a la papelera):
 
@@ -33,4 +33,4 @@
 
 - Descarga los cambios desde la nube a una carpeta local (sincronización unidireccional):
 
-`filen sync {{ruta/a/carpeta_local}}:ctl:/{{carpeta_remota}}}
+`filen sync {{ruta/a/carpeta_local}}:ctl:/{{carpeta_remota}}}`
