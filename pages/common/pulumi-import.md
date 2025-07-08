@@ -12,7 +12,7 @@
 
 `pulumi import aws:iam/user:User {{my_user_resource}} {{id}}`
 
-- Import your exising cloudflare worker:
+- Import your existing cloudflare worker:
 
 `pulumi import cloudflare:index/workersScript:WorkersScript {{my_worker_script}} {{account_id/script_name}}`
 
