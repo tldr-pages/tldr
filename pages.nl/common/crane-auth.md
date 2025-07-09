@@ -5,7 +5,7 @@
 
 - Voer het `crane auth` subcommando uit:
 
-`crane auth {{subcommand}}`
+`crane auth {{subcommando}}`
 
 - Implementeer credential helper:
 
