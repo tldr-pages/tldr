@@ -17,4 +17,4 @@
 
 - Vervang dubbele regels niet door '*':
 
-`hexdump {{[-v|--no-squeezing]}} {{path/to/file}}`
+`hexdump {{[-v|--no-squeezing]}} {{pad/naar/bestand}}`

@@ -22,3 +22,11 @@
 - Set the timestamp by parsing a string:
 
 `touch {{[-d|--date]}} "{{last year|5 hours|next thursday|nov 14|...}}" {{path/to/file}}`
+
+- Create multiple files with an increasing number:
+
+`touch {{path/to/file{1..10}}}`
+
+- Create multiple files with a letter range:
+
+`touch {{path/to/file{a..z}}}`

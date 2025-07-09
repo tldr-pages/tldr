@@ -5,20 +5,20 @@
 
 - Inschakelen van een service in de service database:
 
-`svcadm enable {{service_name}}`
+`svcadm enable {{service_naam}}`
 
 - Uitschakelen van een service in de service database:
 
-`svcadm disable {{service_name}}`
+`svcadm disable {{service_naam}}`
 
 - Herstarten van een draaiende service:
 
-`svcadm restart {{service_name}}`
+`svcadm restart {{service_naam}}`
 
 - Refresh de configuratie van een service:
 
-`svcadm refresh {{service_name}}`
+`svcadm refresh {{service_naam}}`
 
 - Haal een service uit maintenance state, en schakel deze in:
 
-`svcadm clear {{service_name}}`
+`svcadm clear {{service_naam}}`

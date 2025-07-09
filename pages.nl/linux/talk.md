@@ -13,7 +13,7 @@
 
 - Start een talk-sessie met een gebruiker op een externe machine:
 
-`talk {{gebruikersnaam}}@{{hostname}}`
+`talk {{gebruikersnaam}}@{{hostnaam}}`
 
 - Wis tekst op beide terminals:
 

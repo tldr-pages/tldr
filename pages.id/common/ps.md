@@ -29,4 +29,4 @@
 
 - Sortir proses berdasarkan konsumsi memori:
 
-`ps {{[k|--sort]}} size`
+`ps --sort size`

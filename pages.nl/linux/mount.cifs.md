@@ -6,12 +6,12 @@
 
 - Verbinding maken met de opgegeven gebruikersnaam of `$USER` als standaard (U wordt gevraagd om een wachtwoord):
 
-`mount.cifs -o user={{gebruikersnaam}} //{{server}}/{{share_name}} {{mountpoint}}`
+`mount.cifs -o user={{gebruikersnaam}} //{{server}}/{{share_naam}} {{mountpoint}}`
 
 - Maak verbinding als gastgebruiker (zonder wachtwoord):
 
-`mount.cifs -o guest //{{server}}/{{share_name}} {{mountpoint}}`
+`mount.cifs -o guest //{{server}}/{{share_naam}} {{mountpoint}}`
 
 - Stel eigendomsinformatie in voor de mounted map:
 
-`mount.cifs -o uid={{user_id|gebruikersnaam}},gid={{group_id|groupname}} //{{server}}/{{share_name}} {{mountpoint}}`
+`mount.cifs -o uid={{gebruiker_id|gebruikersnaam}},gid={{groep_id|groepsnaam}} //{{server}}/{{share_naam}} {{mountpoint}}`

@@ -6,15 +6,15 @@
 
 - Start een nieuwe benaamde sessie:
 
-`zellij --session {{naam}}`
+`zellij {{[-s|--session]}} {{naam}}`
 
 - Toon bestaande sessies:
 
-`zellij list-sessions`
+`zellij {{[ls|list-sessions]}}`
 
 - Koppel aan de meest recent gebruikte sessie:
 
-`zellij attach`
+`zellij {{[a|attach]}}`
 
 - Open een nieuwe pane (binnen een zellij sessie):
 

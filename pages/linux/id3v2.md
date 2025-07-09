@@ -5,7 +5,7 @@
 
 - List all genres:
 
-`id3v2 {{-L|--list-genres}}`
+`id3v2 {{[-L|--list-genres]}}`
 
 - List all tags of specific files:
 

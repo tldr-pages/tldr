@@ -13,7 +13,7 @@
 
 - Actualiza una entrada específica (dependencia) del flake en el directorio actual:
 
-`nix flake lock --update-input {{entrada}}`
+`nix flake update {{entrada}}`
 
 - Muestra todas the salidas de un flake en github:
 

@@ -1,29 +1,37 @@
 # git
 
 > Gedistribueerd versiebeheersysteem.
-> Sommige subcommando's zoals `commit`, `add`, `branch`, `checkout`, `push`, etc. hebben hun eigen documentatie.
+> Sommige subcommando's zoals `commit`, `add`, `branch`, `switch`, `push`, etc. hebben hun eigen documentatie.
 > Meer informatie: <https://git-scm.com/docs/git>.
 
-- Voer een Git-subcommando uit:
+- Creëer een lege Git repository:
 
-`git {{subcommando}}`
+`git init`
 
-- Voer een Git-subcommando uit op een aangepast repository-rootpad:
+- Kloon een externe Git repository vanaf het internet:
 
-`git -C {{pad/naar/repo}} {{subcommando}}`
+`git clone {{https://example.com/repo.git}}`
 
-- Voer een Git-subcommando met een gegeven configuratieset:
+- Toon de status van de lokale repository:
 
-`git -c '{{config.key}}={{waarde}}' {{subcommando}}`
+`git status`
 
-- Toon de algemene help:
+- Voeg alle veranderingen toe aan een commit:
 
-`git {{[-h|--help]}}`
+`git add {{[-A|--all]}}`
 
-- Toon de help van een specifiek subcommando (zoals `clone`, `add`, `push`, `log`, enz.):
+- Commit veranderingen naar de versiegeschiedenis:
 
-`git help {{subcommando}}`
+`git commit {{[-m|--message]}} {{bericht_tekst}}`
 
-- Toon de versie:
+- Push lokale commits naar een externe repository:
 
-`git {{[-v|--version]}}`
+`git push`
+
+- Haal alle veranderingen op van een externe repository:
+
+`git pull`
+
+- Stel alles opnieuw in zoals het was in de laatste commit:
+
+`git reset --hard; git clean {{[-f|--force]}}`

@@ -34,4 +34,4 @@
 
 - Show the amount spent on food from the `assets:cash` account:
 
-`hledger print assets:cash | hledger {{-f|--file}} - {{[-I|--ignore-assertions]}} aregister expenses:food`
+`hledger print assets:cash | hledger {{[-f|--file]}} - {{[-I|--ignore-assertions]}} aregister expenses:food`
