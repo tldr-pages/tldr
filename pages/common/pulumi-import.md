@@ -16,6 +16,6 @@
 
 `pulumi import cloudflare:index/workersScript:WorkersScript {{my_worker_script}} {{account_id/script_name}}`
 
-- Import from a JSON file for bulk import operations and output to a file instead of stdout:
+- Import from a JSON file for bulk import operations and output to a file instead of `stdout`:
 
 `pulumi import --file {{path/to/file.json}} --out {{path/to/file}}`
