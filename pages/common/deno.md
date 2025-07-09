@@ -20,7 +20,7 @@
 
 `deno run {{[--allow-env|--allow-net|--allow-write|--allow-all]}} {{jsr:@deno/deployctl}}`
 
-- List and run tasks from deno.json or scripts from package.json:
+- List and run tasks from `deno.json` or scripts from `package.json`:
 
 `deno task`
 
