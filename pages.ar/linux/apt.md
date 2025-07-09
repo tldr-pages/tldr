@@ -31,10 +31,6 @@
 
 `sudo apt upgrade`
 
-- إظهار قائمة جميع الحزم:
-
-`apt list`
-
 - إظهار قائمة جميع الحزم المثبتة:
 
 `apt list --installed`
