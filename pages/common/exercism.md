@@ -7,7 +7,7 @@
 
 `exercism configure`
 
-- Download hello-world for any programming language into exercism workspace:
+- Download `hello-world` for any programming language into exercism workspace:
 
 `exercism download --track {{lang}} --exercise hello-world`
 
