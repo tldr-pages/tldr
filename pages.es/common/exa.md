@@ -3,7 +3,7 @@
 > Un reemplazo moderno para `ls` (Lista el contenido de los directorios).
 > Más información: <https://github.com/ogham/exa#command-line-options>.
 
-- Lista archivos uno por línea:
+- Lista los archivos uno por línea:
 
 `exa {{[-1|--oneline]}}`
 
@@ -15,22 +15,22 @@
 
 `exa {{[-l|--long]}} {{[-a|--all]}}`
 
-- Muestra los archivos con el más grande al principio:
+- Lista los archivos con el más grande en la parte superior:
 
 `exa {{[-r|--reverse]}} {{[-s|--sort]}} {{size}}`
 
-- Muestra un árbol de archivos de tres niveles de profundidad:
+- Muestra un árbol de archivos, con tres niveles de profundidad:
 
 `exa {{[-l|--long]}} {{[-T|--tree]}} {{[-L|--level]}} {{3}}`
 
-- Lista los archivos ordenados por fecha de modificación (los más antiguos primero):
+- Lista archivos ordenados por fecha de modificación (los más antiguos primero):
 
 `exa {{[-l|--long]}} {{[-s|--sort]}} {{modified}}`
 
-- Lista de archivos con sus cabeceras, iconos y estados Git:
+- Muestra los archivos con sus encabezados, íconos y estados Git:
 
 `exa {{[-l|--long]}} {{[-h|--header]}} --icons --git`
 
-- No lista los archivos mencionados en `.gitignore`:
+- No muestra los archivos mencionados en `.gitignore`:
 
 `exa --git-ignore`
