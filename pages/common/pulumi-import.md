@@ -8,11 +8,11 @@
 
 `pulumi import {{type_token}} {{name}} {{id}}`
 
-- Import your existing AWS user as a `pulumi` resource:
+- Import an existing AWS user as a `pulumi` resource:
 
 `pulumi import aws:iam/user:User {{my_user_resource}} {{id}}`
 
-- Import your existing Cloudflare worker:
+- Import an existing Cloudflare worker:
 
 `pulumi import cloudflare:index/workersScript:WorkersScript {{my_worker_script}} {{account_id/script_name}}`
 
