@@ -3,7 +3,7 @@
 > Download coding exercises in any language and submit your solutions.
 > More information: <https://exercism.org/docs/using/solving-exercises/working-locally>.
 
-- Configure exercism following instructions for api token:
+- Configure exercism following instructions for the API token:
 
 `exercism configure`
 
