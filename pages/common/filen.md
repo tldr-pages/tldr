@@ -17,7 +17,7 @@
 
 - List files and folders inside a remote folder:
 
-`filen ls {{remote_folder}`
+`filen ls {{remote_folder}}`
 
 - Delete a remote file or folder (move it to trash):
 
