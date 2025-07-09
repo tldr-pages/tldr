@@ -7,7 +7,7 @@
 
 `rsql`
 
-- Connect to a database (es. PostgreSQL):
+- Connect to a database (e.g. PostgreSQL):
 
 `rsql --url {{"postgresql://user:pass@localhost/mydb"}}`
 
@@ -27,6 +27,6 @@
 
 `rsql --url {{"sqlite://db.sqlite"}} --format json`
 
-- Delimited file with custom separator (es .txt file):
+- Connect to file and use custom line separator (e.g. .txt file):
 
 `rsql --url {{"delimited://data.txt?separator=|&has_header=true"}}`
