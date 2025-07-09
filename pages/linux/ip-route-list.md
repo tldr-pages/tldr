@@ -21,7 +21,7 @@
 
 - List routes from a given device only:
 
-`ip {{[r|route]}} {{[l|list]}} dev {{eth0}}`
+`ip {{[r|route]}} {{[l|list]}} dev {{ethX}}`
 
 - List routes within a given scope:
 

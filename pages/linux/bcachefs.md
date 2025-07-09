@@ -14,7 +14,7 @@
 
 - Create a RAID 0 filesystem where an SSD acts as a cache and an HDD acts as a long-term storage:
 
-`sudo bcachefs format --label=ssd.ssd1 {{path/to/ssd/partition}} --label=hdd.hdd1 {{path/to/hdd/partition}} --replicas=1 --foreground_target=ssd --promote_target=ssd --background_target=hdd`
+`sudo bcachefs format {{[-l|--label]}} {{ssd.ssd1}} {{path/to/ssd/partition}} {{[-l|--label]}} {{hdd.hdd1}} {{path/to/hdd/partition}} --replicas 1 --foreground_target {{ssd}} --promote_target {{ssd}} --background_target {{hdd}}`
 
 - Mount a multidevice filesystem:
 
@@ -22,11 +22,11 @@
 
 - Display disk usage:
 
-`bcachefs fs usage --human-readable {{path/to/mountpoint}}`
+`bcachefs fs usage {{[-h|--human-readable]}} {{path/to/mountpoint}}`
 
 - Set replicas after formatting and mounting:
 
-`sudo bcachefs set-fs-option --metadata_replicas={{2}} --data_replicas={{2}} {{path/to/partition}}`
+`sudo bcachefs set-fs-option --metadata_replicas {{2}} --data_replicas {{2}} {{path/to/partition}}`
 
 - Force `bcachefs` to ensure all files are replicated:
 

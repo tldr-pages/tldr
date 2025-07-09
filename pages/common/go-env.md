@@ -1,7 +1,7 @@
 # go env
 
 > Manage environment variables used by the Go toolchain.
-> More information: <https://golang.org/cmd/go/#hdr-Print_Go_environment_information>.
+> More information: <https://pkg.go.dev/cmd/go#hdr-Print_Go_environment_information>.
 
 - Show all environment variables:
 

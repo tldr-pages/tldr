@@ -1,7 +1,7 @@
 # go list
 
 > List packages or modules.
-> More information: <https://golang.org/cmd/go/#hdr-List_packages_or_modules>.
+> More information: <https://pkg.go.dev/cmd/go#hdr-List_packages_or_modules>.
 
 - List packages:
 

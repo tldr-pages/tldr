@@ -16,6 +16,6 @@
 
 `bpython {{[-i|--interactive]}} {{path/to/file.py}}`
 
-- Use the specified config file instead of the default config:
+- Use the specified configuration file instead of the default configuration:
 
 `bpython --config {{path/to/file.conf}}`

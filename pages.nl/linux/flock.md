@@ -6,12 +6,12 @@
 
 - Voer een commando met een bestandslock uit zodra de lock niet meer nodig is voor anderen:
 
-`flock {{path/to/lock.lock}} {{[-c|--command]}} "{{commando}}"`
+`flock {{pad/naar/lock.lock}} {{[-c|--command]}} "{{commando}}"`
 
 - Voer een opdracht uit met een bestandslock en sluit af als de lock niet bestaat:
 
-`flock {{pad/tot/lock.lock}} {{[-n|--nonblock]}} {{[-c|--command]}} "{{commando}}"`
+`flock {{pad/naar/lock.lock}} {{[-n|--nonblock]}} {{[-c|--command]}} "{{commando}}"`
 
 - Voer een opdracht uit met een bestandslock en sluit af met een specifieke foutcode als de lock niet bestaat:
 
-`flock {{pad/tot/lock.lock}} {{[-n|--nonblock]}} {{[-E|--conflict-exit-code]}} {{error_code}} {{[-c|--command]}} "{{commando}}"`
+`flock {{pad/naar/lock.lock}} {{[-n|--nonblock]}} {{[-E|--conflict-exit-code]}} {{error_code}} {{[-c|--command]}} "{{commando}}"`

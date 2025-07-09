@@ -13,19 +13,19 @@
 
 - Busca un patrón en todos los archivos de forma recursiva en un directorio, mostrando los números de línea de las coincidencias e ignorando los archivos binarios:
 
-`grep {{[-r|--recursive]}} {{[-n|--line-number]}} --binary-files {{without-match}} "{{patrón_de_búsqueda}}" {{ruta/al/directorio}}`
+`grep {{[-rnI|--recursive --line-number --binary-files=without-match]}} "{{patrón_de_búsqueda}}" {{ruta/al/directorio}}`
 
 - Utiliza expresiones regulares extendidas (los metacaracteres `?`, `+`, `{}`, `()` y `|` no requieren de una barra inversa), sin distinguir entre mayúsculas y minúsculas:
 
-`grep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
+`grep {{[-Ei|--extended-regexp --ignore-case]}} "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
 - Imprime 3 líneas alrededor, antes o después de cada coincidencia:
 
-`grep --{{context|before-context|after-context}} 3 "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
 - Imprime con colores el nombre del archivo y el número de línea de cada coincidencia:
 
-`grep {{[-H|--with-filename]}} {{[-n|--line-number]}} --color=always "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
+`grep {{[-Hn|--with-filename --line-number]}} --color=always "{{patrón_de_búsqueda}}" {{ruta/al/archivo}}`
 
 - Busca líneas que coincidan con un patrón e imprime solo el texto coincidente:
 

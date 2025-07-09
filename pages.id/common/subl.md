@@ -1,11 +1,11 @@
 # subl
 
 > Editor teks Sublime.
-> Informasi lebih lanjut: <https://www.sublimetext.com>.
+> Informasi lebih lanjut: <https://www.sublimetext.com/docs/command_line.html>.
 
 - Membuka direktori saat ini di Sublime Text:
 
-`subl {{.}}`
+`subl .`
 
 - Membuka sebuah berkas atau direktori in Sublime Text:
 
@@ -17,8 +17,8 @@
 
 - Membuka sebuah berkas atau direktori di jendela yang sedang terbuka:
 
-`subl -a {{jalur/ke/berkas}}`
+`subl {{[-a|--add]}} {{jalur/ke/berkas}}`
 
 - Membuka sebuah berkas atau direktori di jendela baru:
 
-`subl -n {{jalur/ke/berkas}}`
+`subl {{[-n|--new-window]}} {{jalur/ke/berkas}}`

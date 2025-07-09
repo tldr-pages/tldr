@@ -13,7 +13,7 @@
 
 - 현재 디렉토리의 플레이크의 특정 입력(의존성) 업데이트:
 
-`nix flake lock --update-input {{입력}}`
+`nix flake update {{입력}}`
 
 - GitHub에 있는 플레이크의 모든 출력 표시:
 

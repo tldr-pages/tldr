@@ -10,11 +10,11 @@
 
 - List all listening ports:
 
-`netstat {{-l|--listening]}}`
+`netstat {{[-l|--listening]}}`
 
 - List listening TCP ports:
 
-`netstat {{-t|--tcp]}}`
+`netstat {{[-t|--tcp]}}`
 
 - Display PID and program names:
 

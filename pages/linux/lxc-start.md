@@ -13,7 +13,7 @@
 
 - Start a container in the foreground:
 
-`sudo lxc-start {{container_name}} {{[-F|--foreground]]}`
+`sudo lxc-start {{container_name}} {{[-F|--foreground]}}`
 
 - Exit out of a foreground container (run this in a separate terminal):
 

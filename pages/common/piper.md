@@ -4,7 +4,7 @@
 > Try out and download speech models from <https://rhasspy.github.io/piper-samples>.
 > More information: <https://github.com/rhasspy/piper>.
 
-- Output a WAV [f]ile using a text-to-speech [m]odel (assuming a config file at model_path + .json):
+- Output a WAV [f]ile using a text-to-speech [m]odel (assuming a configuration file at model_path + .json):
 
 `echo {{Thing to say}} | piper -m {{path/to/model.onnx}} -f {{outputfile.wav}}`
 

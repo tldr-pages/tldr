@@ -14,7 +14,7 @@
 
 - Schakel de willekeurigheid van de virtuele adresruimte uit:
 
-`setarch {{linux32}} {{[-R|--addr-no-randomize]}} {{command}}`
+`setarch {{linux32}} {{[-R|--addr-no-randomize]}} {{commando}}`
 
 - Toon ondersteunde architecturen:
 

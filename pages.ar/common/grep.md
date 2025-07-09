@@ -13,19 +13,19 @@
 
 - البحث عن نمط في جميع الملفات داخل دليل بشكل متكرر، مع عرض أرقام الأسطر المطابقة، وتجاهل الملفات الثنائية:
 
-`grep {{[-r|--recursive]}} {{[-n|--line-number]}} --binary-files {{without-match}} "{{search_pattern}}" {{path/to/directory}}`
+`grep {{[-rnI|--recursive --line-number --binary-files=without-match]}} "{{search_pattern}}" {{path/to/directory}}`
 
 - استخدام التعابير النمطية الموسعة (يدعم `?`, `+`, `{}`, `()`, و `|`)، في وضع عدم التمييز بين الأحرف الكبيرة والصغيرة:
 
-`grep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
+`grep {{[-Ei|--extended-regexp --ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
 
 - طباعة 3 أسطر من السياق حول، قبل أو بعد كل تطابق:
 
-`grep --{{context|before-context|after-context}} 3 "{{search_pattern}}" {{path/to/file}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{search_pattern}}" {{path/to/file}}`
 
 - طباعة اسم الملف ورقم السطر لكل تطابق مع تمييز بالألوان:
 
-`grep {{[-H|--with-filename]}} {{[-n|--line-number]}} --color=always "{{search_pattern}}" {{path/to/file}}`
+`grep {{[-Hn|--with-filename --line-number]}} --color=always "{{search_pattern}}" {{path/to/file}}`
 
 - البحث عن الأسطر المطابقة لنمط معين، مع طباعة النص المطابق فقط:
 

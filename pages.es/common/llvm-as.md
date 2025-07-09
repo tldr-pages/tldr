@@ -1,6 +1,6 @@
 # llvm-as
 
-> Ir de Representación intermedia LLVM (`.ll`) a Bitcode de Ensamblador  (`.bc`).
+> Ir de Representación intermedia LLVM (`.ll`) a Bitcode de Ensamblador (`.bc`).
 > Más información: <https://llvm.org/docs/CommandGuide/llvm-as.html>.
 
 - Ensambla un archivo IR:
