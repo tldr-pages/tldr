@@ -25,4 +25,4 @@
 
 - Delete completion for a plugin:
 
-`zinit cuninstall {{repository_owner/repository_name}}`
+`zinit cuninstall {{repository_owner}}/{{repository_name}}`
