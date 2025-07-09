@@ -21,7 +21,7 @@
 
 - After OpenOCD startup, connect GDB to OpenOCD (default port 3333):
 
-`(gdb) target extended-remote localhost:{{port}}`
+`target extended-remote localhost:{{port}}`
 
 - List site-wide script library:
 
