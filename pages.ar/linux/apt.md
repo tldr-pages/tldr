@@ -14,6 +14,7 @@
 `apt search {{package}}`
 
 - البحث عن الحزم بالأسم فقط (يدعم أستخدام الـwildcards مثل `*`):
+
 `apt list {{package}}`
 
 - عرض معلومات تفصيلية حول حزمة معينة:
@@ -34,4 +35,4 @@
 
 - إظهار قائمة جميع الحزم المثبتة:
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`
