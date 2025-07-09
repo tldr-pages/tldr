@@ -9,7 +9,7 @@
 
 - Go to the directory of a plugin:
 
-`zinit cd {{repository_owner/repository_name}}`
+`zinit cd {{repository_owner}}/{{repository_name}}`
 
 - Fetch the newest version of zinit from GitHub:
 
