@@ -11,15 +11,15 @@
 
 `rsql --url {{"postgresql://user:pass@localhost/mydb"}}`
 
-- PostgreSQL with SSL:
+- Connect to a PostgreSQL database with SSL:
 
 `rsql --url {{"postgresql://user:pass@localhost/db?sslmode=require"}}`
 
-- MySQL with charset:
+- Connect to a MySQL database with a specified charset:
 
 `rsql --url {{"mysql://user:pass@localhost/db?charset=utf8mb4"}}`
 
-- Run a query and exit (not in interactive mode):
+- Run a query and exit:
 
 `rsql --url {{"sqlite://database.db"}} -- "SELECT * FROM users LIMIT 10"`
 
