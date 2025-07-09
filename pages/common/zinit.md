@@ -21,7 +21,7 @@
 
 - Install completions for a plugin:
 
-`zinit creinstall {{repository_owner/repository_name}}`
+`zinit creinstall {{repository_owner}}/{{repository_name}}`
 
 - Delete completion for a plugin:
 
