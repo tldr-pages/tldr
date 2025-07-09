@@ -4,7 +4,7 @@
 > Read syntax for your cloud provider: <https://www.pulumi.com/registry/>.
 > More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_import/>.
 
-- Generate the resource definition for existing provider resource and name it {{name}}:
+- Generate the resource definition with a given name for an existing provider resource:
 
 `pulumi import {{type_token}} {{name}} {{id}}`
 
