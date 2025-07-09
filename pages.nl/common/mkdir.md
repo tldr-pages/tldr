@@ -17,4 +17,4 @@
 
 - Maak recursief meerdere geneste mappen:
 
-`mkdir {{[-p|--parents]}} {{pad/naar/{a,b}/{x,y,z}/{h,i,j} }}`
+`mkdir {{[-p|--parents]}} {{path/to/{a,b}/{x,y,z}/{h,i,j}}}`
