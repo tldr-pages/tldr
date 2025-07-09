@@ -27,6 +27,6 @@
 
 `rsql --url {{"sqlite://db.sqlite"}} --format json`
 
-- Connect to file and use custom line separator (e.g. .txt file):
+- Connect to file and use custom line separator:
 
 `rsql --url {{"delimited://data.txt?separator=|&has_header=true"}}`
