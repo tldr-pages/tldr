@@ -14,3 +14,7 @@
 - Maak mappen aan met specifieke permissies:
 
 `mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{pad/naar/map1 pad/naar/map2 ...}}`
+
+- Maak recursief meerdere geneste mappen:
+
+`mkdir {{[-p|--parents]}} {{pad/naar/{a,b}/{x,y,z}/{h,i,j}}}`
