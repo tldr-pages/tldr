@@ -1,6 +1,6 @@
 # mailsy
 
-> Quickly generate a disposable email using mail.tm API.
+> Quickly generate a disposable email using `mail.tm` API.
 > More information: <https://github.com/BalliAsghar/Mailsy>.
 
 - Create an email address:
