@@ -1,7 +1,6 @@
 # acpi_listen
 
 > Listen to ACPI events.
-> See also: `acpid`.
 > More information: <https://manned.org/acpi_listen>.
 
 - Listen to any ACPI event while the daemon is running:
