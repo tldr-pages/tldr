@@ -1,20 +1,24 @@
 # exercism
 
-> Download and solve problems.
+> Download coding exercises in any language and submit your solutions.
 > More information: <https://exercism.org/docs/using/solving-exercises/working-locally>.
 
-- Configure the application token and the preferred workspace for Exercism:
+- Configure exercism following instructions for the API token:
 
-`exercism configure --token={{your-application-token}} --workspace={{/path/to/preferred/workspace}}`
+`exercism configure`
 
-- Download a specific exercise:
+- Download `hello-world` for any programming language into exercism workspace:
 
-`exercism download --exercise={{exercise_slug}} --track={{track_slug}}`
+`exercism download --track {{programming_language}} --exercise hello-world`
 
-- Submit an exercise:
+- Open an exercise directory on the website:
 
-`exercism submit {{path/to/file}}`
+`exercism open {{path/to/directory}}`
 
-- Print the path to the solution workspace:
+- Test your solution. It will also tell you if you are missing tools for the programming language:
 
-`exercism workspace`
+`exercism test {{path/to/directory}}`
+
+- Submit your solution. You can share from the website or ask a community mentor for help:
+
+`exercism submit {{path/to/directory}}`
