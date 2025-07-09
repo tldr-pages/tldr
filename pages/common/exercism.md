@@ -15,7 +15,7 @@
 
 `exercism open {{path/to/directory}}`
 
-- Test your solution. It will also tell you if you are missing tools for the {{lang}}:
+- Test your solution. It will also tell you if you are missing tools for the programming language:
 
 `exercism test {{path/to/directory}}`
 
