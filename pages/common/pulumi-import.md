@@ -8,7 +8,7 @@
 
 `pulumi import {{type_token}} {{name}} {{id}}`
 
-- Import your existing aws user as a pulumi resource:
+- Import your existing AWS user as a `pulumi` resource:
 
 `pulumi import aws:iam/user:User {{my_user_resource}} {{id}}`
 
