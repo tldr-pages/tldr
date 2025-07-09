@@ -24,7 +24,7 @@
 
 `deno task`
 
-- Install dependencies listed in deno.json or package.json (also lock files):
+- Install dependencies listed in `deno.json` or `package.json` (also lock files):
 
 `deno install`
 
