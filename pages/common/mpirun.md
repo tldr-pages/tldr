@@ -2,7 +2,7 @@
 
 > Execute serial and parallel jobs in Open MPI.
 > See also: `mpic++`.
-> More information: <https://docs.open-mpi.org/en/v5.0.x/man-openmpi/man1/mpirun.1.html>.
+> More information: <https://docs.open-mpi.org/en/main/man-openmpi/man1/mpirun.1.html>.
 
 - Execute an Open MPI program:
 
