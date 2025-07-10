@@ -20,6 +20,6 @@
 
 `pulumi plugin install {{kind}} {{name}} {{version}}`
 
-- Remove a plugin kind (e.g. resource) and pick a version or a specific one:
+- Remove a plugin kind (e.g. resource) and interactively pick a version or provide a specific one:
 
 `pulumi plugin rm {{kind}} {{name}} {{version}}`
