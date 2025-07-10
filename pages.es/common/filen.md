@@ -29,7 +29,7 @@
 
 - Sincroniza una carpeta local con una carpeta remota (sincronización bidireccional):
 
-`filen sync {{ruta/a/carpeta_local}}:/{{carpeta_remota}} ---continuous`
+`filen sync {{ruta/a/carpeta_local}}:/{{carpeta_remota}} --continuous`
 
 - Descarga los cambios desde la nube a una carpeta local (sincronización unidireccional):
 
