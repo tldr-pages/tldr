@@ -4,10 +4,6 @@
 > Other commands manage these automatically.
 > More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_plugin/>.
 
-- Display help to see sub-commands:
-
-`pulumi plugin {{[-h|--help]}}`
-
 - List all plugins on the downloaded cache:
 
 `pulumi plugin ls`
@@ -23,3 +19,7 @@
 - Remove a plugin kind (e.g. resource) and interactively pick a version or provide a specific one:
 
 `pulumi plugin rm {{kind}} {{name}} {{version}}`
+
+- Display help to see sub-commands:
+
+`pulumi plugin {{[-h|--help]}}`
