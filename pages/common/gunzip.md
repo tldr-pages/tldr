@@ -9,15 +9,15 @@
 
 - Extract a file to a target destination:
 
-`gunzip --stdout {{archive.tar.gz}} > {{archive.tar}}`
+`gunzip {{[-c|--stdout]}} {{archive.tar.gz}} > {{archive.tar}}`
 
 - Extract a file and keep the archive file:
 
-`gunzip --keep {{archive.tar.gz}}`
+`gunzip {{[-k|--keep]}} {{archive.tar.gz}}`
 
 - List the contents of a compressed file:
 
-`gunzip --list {{file.txt.gz}}`
+`gunzip {{[-l|--list]}} {{file.txt.gz}}`
 
 - Decompress an archive from `stdin`:
 
