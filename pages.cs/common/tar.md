@@ -1,6 +1,6 @@
 # tar
 
-> Archivovací nástroj
+> Archivovací nástroj.
 > Často kombinován s komprimovací metodou, například `gzip` nebo `bzip2`.
 > Více informací: <https://www.gnu.org/software/tar>.
 
