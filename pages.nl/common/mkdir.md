@@ -15,6 +15,6 @@
 
 `mkdir {{[-m|--mode]}} {{rwxrw-r--}} {{pad/naar/map1 pad/naar/map2 ...}}`
 
-- Maak recursief meerdere geneste mappen:
+- Maak meerdere geneste mappen recursief:
 
 `mkdir {{[-p|--parents]}} {{pad/naar/{a,b}/{x,y,z}/{h,i,j} }}`
