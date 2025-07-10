@@ -1,7 +1,7 @@
 # openocd
 
 > Debug and program embedded systems with OpenOCD.
-> More information: <http://openocd.org/>.
+> More information: <https://manned.org/openocd>.
 
 - Attach OpenOCD session to a board with a configuration file:
 
