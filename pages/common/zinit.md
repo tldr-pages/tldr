@@ -1,6 +1,6 @@
 # zinit
 
-> Flexible and blazing fast zsh plugin manager.
+> Flexible and blazing fast `zsh` plugin manager.
 > More information: <https://github.com/zdharma-continuum/zinit>.
 
 - Show all installed plugins:
@@ -11,7 +11,7 @@
 
 `zinit cd {{repository_owner}}/{{repository_name}}`
 
-- Fetch the newest version of zinit from GitHub:
+- Fetch the newest version of `zinit` from GitHub:
 
 `zinit self-update`
 
