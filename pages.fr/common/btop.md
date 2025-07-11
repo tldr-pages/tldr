@@ -10,4 +10,4 @@
 
 - Démarre `btop` avec les réglages spécifiés :
 
-`btop --preset {{0..9}}`
+`btop {{[-p|--preset]}} {{0..9}}`
