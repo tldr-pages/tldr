@@ -33,6 +33,6 @@
 
 `yt-dlp {{[-o|--output]}} "{{%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}}" "{{https://www.youtube.com/user/TheLinuxFoundation/playlists}}"`
 
-- تحميل كورس من Udemy مع حفظ كل فصل في مجلد منفصل:
+- تحميل دورة من Udemy مع حفظ كل فصل في مجلد منفصل:
 
 `yt-dlp {{[-u|--username]}} {{user}} {{[-p|--password]}} {{password}} {{[-P|--paths]}} "{{path/to/directory}}" {{[-o|--output]}} "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{https://www.udemy.com/java-tutorial}}"`
