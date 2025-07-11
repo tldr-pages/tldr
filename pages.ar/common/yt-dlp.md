@@ -25,7 +25,7 @@
 
 `yt-dlp {{[-x|--extract-audio]}} --audio-format {{mp3}} --audio-quality {{0}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- تحميل عناصر محددة من قائمة التشغيل (مثال: العنصر الثاني, الرابع إلى السادس, والأخير) (العنصر يبدأ من 1, ليس من 0):
+- تحميل فقط العناصر الثانية والرابعة والخامسة والسادسة والأخيرة من قائمة التشغيل (مع العلم أنّ العنصر الأول يُحسب برقم 1، وليس 0):
 
 `yt-dlp {{[-I|--playlist-items]}} 2,4:6,-1 "{{https://youtube.com/playlist?list=PLbzoR-pLrL6pTJfLQ3UwtB-3V4fimdqnA}}"`
 
