@@ -1,24 +1,37 @@
 # deno
 
-> A secure runtime for JavaScript and TypeScript.
-> More information: <https://deno.land>.
+> A secure runtime for JavaScript, TypeScript, and WebAssembly.
+> Includes dependency management using `npm` or `jsr`, and tooling like bench, bundle, doc, and coverage.
+> More information: <https://docs.deno.com/runtime/reference/cli>.
 
-- Run a JavaScript or TypeScript file:
-
-`deno run {{path/to/file.ts}}`
-
-- Start a REPL (interactive shell):
+- Start a REPL (interactive shell, also known as Read-Eval-Print Loop):
 
 `deno`
 
-- Run a file with network access enabled:
+- Start a new project named sample and test it:
 
-`deno run --allow-net {{path/to/file.ts}}`
+`deno init sample && cd sample && deno test`
 
-- Run a file from a URL:
+- Run a file securely. It will ask (if needed) to allow net, read, etc:
 
-`deno run {{https://deno.land/std/examples/welcome.ts}}`
+`deno run {{path/to/file.ts}}`
 
-- Install an executable script from a URL:
+- Run a file with explicit permissions or allow all (only if you trust the source):
 
-`deno install {{https://deno.land/std/examples/colors.ts}}`
+`deno run {{[--allow-env|--allow-net|--allow-write|--allow-all]}} {{jsr:@deno/deployctl}}`
+
+- List and run tasks from `deno.json` or scripts from `package.json`:
+
+`deno task`
+
+- Install dependencies listed in `deno.json` or `package.json` (also lock files):
+
+`deno install`
+
+- Check types, format, and lint (fix if possible):
+
+`deno check && deno fmt && deno lint --fix`
+
+- Compile the script, imported dependencies, and runtime into a self contained executable:
+
+`deno compile {{path/to/file.ts}}`
