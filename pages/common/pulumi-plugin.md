@@ -20,6 +20,6 @@
 
 `pulumi plugin rm {{kind}} {{name}} {{version}}`
 
-- Display help to see sub-commands:
+- Display help:
 
 `pulumi plugin {{[-h|--help]}}`
