@@ -33,4 +33,4 @@
 
 - Descarga los cambios desde la nube a una carpeta local (sincronización unidireccional):
 
-`filen sync {{ruta/a/carpeta_local}}:ctl:/{{carpeta_remota}}}`
+`filen sync {{ruta/a/carpeta_local}}:ctl:/{{carpeta_remota}}`
