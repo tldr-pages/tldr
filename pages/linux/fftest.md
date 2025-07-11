@@ -1,6 +1,7 @@
 # fftest
 
-> This program tests force-feedback devices (e.g controllers with rumble functionality). More information: https://manned.org/man/fftest.
+> Test force-feedback devices (e.g., controllers with rumble functionality).
+> More information: <https://manned.org/fftest>.
 
 - Open the fftest CLI on event9:
 
