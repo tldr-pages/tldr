@@ -3,7 +3,7 @@
 > Instala módulos de PowerShell desde PowerShell Gallery, NuGet y otros repositorios.
 > Más información: <https://learn.microsoft.com/powershell/module/powershellget/install-module>.
 
-- Instala un módulo o actualízalo a la última versión disponible:
+- Instala un módulo o lo actualiza a la última versión disponible:
 
 `Install-Module {{módulo}}`
 

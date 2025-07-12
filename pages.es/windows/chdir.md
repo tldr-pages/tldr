@@ -1,9 +1,9 @@
 # chdir
 
-> Este comando es un alias de `cd` en Símbolo del Sistema, y subsecuentemente `Set-Location` en PowerShell.
+> Este comando es un alias de `cd` en la línea de comandos del sistema, y subsecuentemente `Set-Location` en PowerShell.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/chdir>.
 
-- Mostrar la documentación original del comando de Símbolo del Sistema:
+- Muestra la documentación original de la línea de comandos del sistema:
 
 `tldr cd`
 

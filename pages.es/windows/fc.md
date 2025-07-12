@@ -1,14 +1,14 @@
 # fc
 
-> Comparar las diferencias entre dos archivos o conjuntos de archivos.
-> Use comodines (*) para comparar conjuntos de archivos.
+> Compara las diferencias entre dos archivos o conjuntos de archivos.
+> Usa comodines (*) para comparar conjuntos de archivos.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/fc>.
 
-- Comparar 2 archivos especificados:
+- Compara 2 archivos especificados:
 
 `fc {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 
-- Realizar una comparación sin distinguir entre mayúsculas y minúsculas:
+- Realiza una comparación sin distinguir entre mayúsculas y minúsculas:
 
 `fc /c {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 

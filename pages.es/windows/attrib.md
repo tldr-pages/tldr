@@ -19,10 +19,10 @@
 
 `attrib /s`
 
-- Agregar el atributo `solo-lectu[r]a` o `[a]rchivo` o `[s]istema` o `oculto[h]` o `contenido no [i]ndexado` a archivos o directorios:
+- Agrega el atributo `solo-lectu[r]a` o `[a]rchivo` o `[s]istema` o `oculto[h]` o `contenido no [i]ndexado` a archivos o directorios:
 
 `attrib +{{r|a|s|h|i}} {{ruta\al\archivo_o_directorio1 ruta\al\archivo_o_directorio2 ...}}`
 
-- Eliminar un atributo específico de archivos o directorios:
+- Elimina un atributo específico de archivos o directorios:
 
 `attrib -{{r|a|s|h|i}} {{ruta\al\archivo_o_directorio1 ruta\al\archivo_o_directorio2 ...}}`

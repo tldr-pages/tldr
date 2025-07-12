@@ -3,11 +3,11 @@
 > Muestra los valores de claves y subclaves en el registro.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query>.
 
-- Mostrar todos los valores de una clave:
+- Muestra todos los valores de una clave:
 
 `reg query {{nombre_de_clave}}`
 
-- Mostrar un [v]alor específico de una clave:
+- Muestra un [v]alor específico de una clave:
 
 `reg query {{nombre_de_clave}} /v {{valor}}`
 
