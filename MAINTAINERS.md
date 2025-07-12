@@ -56,8 +56,6 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [14 November 2023](https://github.com/tldr-pages/tldr/issues/11495) — present
 - **Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin))**:
   [9 January 2021](https://github.com/tldr-pages/tldr/issues/5122) — [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473), [15 November 2023](https://github.com/tldr-pages/tldr/issues/11509) — present
-- **Marcher Simon ([@marchersimon](https://github.com/marchersimon))**:
-  [9 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722), [20 November 2023](https://github.com/tldr-pages/tldr/issues/11381) — present
 - **cyqsimon ([@cyqsimon](https://github.com/cyqsimon))**:
   [28 December 2023](https://github.com/tldr-pages/tldr/issues/11864) — present
 - **Jongwon Youn ([@korECM](https://github.com/korECM))**:
@@ -154,6 +152,9 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [21 September 2024](https://github.com/tldr-pages/tldr/issues/13781) — [29 June 2025](https://github.com/tldr-pages/tldr/issues/17025)
 - Dylan McGivern ([@dmmqz](https://github.com/dmmqz)):
   [30 May 2025](https://github.com/tldr-pages/tldr/issues/16671) — [30 June 2025](https://github.com/tldr-pages/tldr/issues/17026)
+- Marcher Simon ([@marchersimon](https://github.com/marchersimon)):
+  [9 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722), [20 November 2023](https://github.com/tldr-pages/tldr/issues/11381) — [12 July 2025](https://github.com/tldr-pages/tldr/issues/17214)
+
 
 ## Organization members
 
