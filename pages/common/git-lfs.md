@@ -31,6 +31,6 @@
 
 `git lfs fetch`
 
-- Checkout all Git LFS objects:
+- Replace pointer files with actual Git LFS objects:
 
 `git lfs checkout`
