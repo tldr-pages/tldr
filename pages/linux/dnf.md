@@ -7,32 +7,32 @@
 
 - Upgrade installed packages to the newest available versions:
 
-`sudo dnf upgrade`
+`sudo dnf {{[up|upgrade]}}`
 
 - Search packages via keywords:
 
-`dnf search {{keyword1 keyword2 ...}}`
+`dnf {{[se|search]}} {{keyword1 keyword2 ...}}`
 
 - Display details about a package:
 
-`dnf info {{package}}`
+`dnf {{[if|info]}} {{package}}`
 
-- Install a new package (use `-y` to confirm all prompts automatically):
+- Install a new package (use `--assumeyes` to confirm all prompts automatically):
 
-`sudo dnf install {{package1 package2 ...}}`
+`sudo dnf {{[in|install]}} {{package1 package2 ...}}`
 
 - Remove a package:
 
-`sudo dnf remove {{package1 package2 ...}}`
+`sudo dnf {{[rm|remove]}} {{package1 package2 ...}}`
 
 - List installed packages:
 
-`dnf list --installed`
+`dnf {{[ls|list]}} --installed`
 
 - Find which packages provide a given command:
 
-`dnf provides {{command}}`
+`dnf {{[wp|provides]}} {{command}}`
 
 - View all past operations:
 
-`dnf history`
+`dnf {{[hist|history]}}`

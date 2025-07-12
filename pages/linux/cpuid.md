@@ -1,7 +1,7 @@
 # cpuid
 
 > Display detailed information about all CPUs.
-> More information: <https://manned.org/man/cpuid.1>.
+> More information: <https://manned.org/cpuid.1>.
 
 - Display information for all CPUs:
 

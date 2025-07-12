@@ -22,7 +22,7 @@
 
 - Build a site including pages that are marked as a "draft":
 
-`hugo --buildDrafts`
+`hugo {{[-D|--buildDrafts]}}`
 
 - Build a site on your local IP:
 
@@ -30,7 +30,7 @@
 
 - Build a site to a given directory:
 
-`hugo --destination {{path/to/destination}}`
+`hugo {{[-d|--destination]}} {{path/to/destination}}`
 
 - Build a site, start up a webserver to serve it, and automatically reload when pages are edited:
 

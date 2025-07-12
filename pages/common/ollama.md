@@ -20,7 +20,7 @@
 
 `ollama list`
 
-- Pull/Update a specific model:
+- Pull a specific model:
 
 `ollama pull {{model}}`
 

@@ -10,7 +10,7 @@
 
 - Update interactief een nieuwe stack configuratie:
 
-`apx stacks update {{name}}`
+`apx stacks update {{naam}}`
 
 - Toon alle beschikbare stack configuraties:
 

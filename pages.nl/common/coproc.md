@@ -25,7 +25,7 @@
 
 - Maak een coprocess dat herhaaldelijk `stdin` leest, voert een pipeline uit op de input en schrijf de output naar `stdout`:
 
-`coproc {{name}} { while read line; do echo "$line" | {{command1 | command2 | ...}} | cat /dev/fd/0; done }`
+`coproc {{naam}} { while read line; do echo "$line" | {{commando1 | commando2 | ...}} | cat /dev/fd/0; done }`
 
 - Maak en gebruik een coprocess dat `bc` uitvoert:
 

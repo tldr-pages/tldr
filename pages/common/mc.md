@@ -1,14 +1,11 @@
 # mc
 
-> Midnight Commander, a TUI file manager.
-> Navigate the directory structure using the `<ArrowKeys>`, the mouse or by typing the commands into the terminal.
-> See also: `ranger`, `clifm`, `vifm`, `nautilus`.
-> More information: <https://midnight-commander.org>.
+> `mc` can refer to multiple commands with the same name.
 
-- Start Midnight Commander:
+- View documentation for MinIO client:
 
-`mc`
+`tldr mc.cli`
 
-- Start Midnight Commander in black and white:
+- View documentation for Midnight Commander:
 
-`mc {{[-b|--nocolor]}}`
+`tldr mc.fm`

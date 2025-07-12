@@ -1,36 +1,36 @@
 # choco install
 
-> Instalar uno o más paquetes con Chocolatey.
+> Instala uno o más paquetes con Chocolatey.
 > Más información: <https://chocolatey.org/docs/commands-install>.
 
-- Instalar uno o más paquetes:
+- Instala uno o más paquetes:
 
 `choco install {{paquete1 paquete2 ...}}`
 
-- Instalar paquetes desde un archivo de configuración personalizado:
+- Instala paquetes desde un archivo de configuración personalizado:
 
-`choco install {{ruta\al\archivo_paquetes.config}}`
+`choco install {{ruta\al\archivo_de_paquetes.config}}`
 
-- Instalar un archivo `nuspec` o `nupkg` específico:
+- Instala un archivo `nuspec` o `nupkg` específico:
 
-`choco install {{ruta\al\archivo}}`
+`choco install {{path\to\file}}`
 
-- Instalar una versión específica de un paquete:
+- Instala una versión específica de un paquete:
 
 `choco install {{paquete}} --version {{versión}}`
 
-- Permitir la instalación de múltiples versiones de un paquete:
+- Permite instalar varias versiones de un paquete:
 
 `choco install {{paquete}} --allow-multiple`
 
-- Confirmar automáticamente todos los mensajes:
+- Confirma todas las solicitudes automáticamente:
 
 `choco install {{paquete}} --yes`
 
-- Especificar una fuente personalizada para recibir paquetes:
+- Especifica una fuente personalizada desde la cual recibir los paquetes:
 
 `choco install {{paquete}} --source {{url_fuente|alias}}`
 
-- Proporcionar un nombre de usuario y una contraseña para la autenticación:
+- Proporciona un nombre de usuario y una contraseña para la autenticación:
 
 `choco install {{paquete}} --user {{nombre_usuario}} --password {{contraseña}}`

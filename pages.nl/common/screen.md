@@ -22,7 +22,7 @@
 
 - Herkoppel aan een open screen:
 
-`screen -r {{session_name}}`
+`screen -r {{sessie_naam}}`
 
 - Koppel los van binnen een screen:
 

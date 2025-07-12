@@ -2,7 +2,7 @@
 
 > Editor sencillo y fácil de usar. Un clon libre y mejorado de `Pico`.
 > Vea también: `emacs`, `helix`, `vim`.
-> Más información: <https://nano-editor.org>.
+> Más información: <https://nano-editor.org/dist/latest/nano.html>.
 
 - Inicia el editor:
 
