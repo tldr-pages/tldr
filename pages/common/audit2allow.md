@@ -27,7 +27,7 @@
 
 - Specify a policy file for further analysis:
 
-`audit2allow {{[-p|--policy]}} <policyfile>`
+`audit2allow {{[-p|--policy]}} {{path/to/policyfile}}`
 
 - Limit analysis to messages with a type specified in `RegEx`:
 
