@@ -1,6 +1,6 @@
 # color
 
-> Establecer los colores de primer plano y fondo de la consola.
+> Establece los colores de primer plano y fondo de la consola.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
 
 - Establecer los colores de la consola a los valores predeterminados:

@@ -1,6 +1,6 @@
 # virtualboxvm
 
-> Administrar máquinas virtuales de VirtualBox.
+> Administra máquinas virtuales de VirtualBox.
 > Más información: <https://www.virtualbox.org>.
 
 - Iniciar una máquina virtual:

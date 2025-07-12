@@ -1,6 +1,6 @@
 # choco apikey
 
-> Gestionar claves API para fuentes de Chocolatey.
+> Gestiona claves API para fuentes de Chocolatey.
 > Más información: <https://chocolatey.org/docs/commands-apikey>.
 
 - Mostrar una lista de fuentes y sus claves API:

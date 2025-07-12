@@ -1,6 +1,6 @@
 # choco pin
 
-> Fijar un paquete en una versión con Chocolatey.
+> Fija un paquete en la versión escogida con Chocolatey.
 > Los paquetes fijados se omiten automáticamente al actualizar.
 > Más información: <https://chocolatey.org/docs/commands-pin>.
 

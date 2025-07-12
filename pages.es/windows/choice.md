@@ -1,13 +1,13 @@
 # choice
 
-> Solicitar al usuario que seleccione una opción y devolver el índice de la opción seleccionada.
+> Solicita al usuario que seleccione una opción y devuelve el índice de la opción seleccionada.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/choice>.
 
 - Solicitar al usuario actual que seleccione una opción `Y` o `N`:
 
 `choice`
 
-- Solicitar al usuario actual que seleccione una [o]pción de un conjunto específico:
+- Solicitar al usuario actual que seleccione una op[c]ión de un conjunto específico:
 
 `choice /c {{AB}}`
 

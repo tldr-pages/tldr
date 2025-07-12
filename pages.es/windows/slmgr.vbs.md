@@ -1,6 +1,6 @@
 # slmgr.vbs
 
-> Instalar, activar y gestionar licencias de Windows.
+> Instala, activa y gestiona licencias de Windows.
 > Este comando puede sobrescribir, desactivar y/o eliminar la licencia actual de Windows. Proceda con precaución.
 > Más información: <https://learn.microsoft.com/windows-server/get-started/activation-slmgr-vbs-options>.
 

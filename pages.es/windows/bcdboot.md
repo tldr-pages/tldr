@@ -15,7 +15,7 @@
 
 `bcdboot {{C:\Windows}} /s {{S:}}`
 
-- Especificar un [l]ocal:
+- Especificar un idioma [l]ocal:
 
 `bcdboot {{C:\Windows}} /l {{es-es}}`
 

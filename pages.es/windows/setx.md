@@ -1,6 +1,6 @@
 # setx
 
-> Establecer variables de entorno persistentes.
+> Establece variables de entorno persistentes.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/setx>.
 
 - Establecer una variable de entorno para el usuario actual:

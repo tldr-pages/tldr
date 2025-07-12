@@ -1,6 +1,6 @@
 # cmdkey
 
-> Crear, mostrar y eliminar nombres de usuario y contraseñas almacenados.
+> Crea, muestra y elimina nombres de usuario y contraseñas almacenados.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmdkey>.
 
 - Listar todas las credenciales de usuario:

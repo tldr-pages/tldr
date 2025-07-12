@@ -1,6 +1,6 @@
 # choco search
 
-> Buscar un paquete local o remoto con Chocolatey.
+> Busca un paquete local o remoto con Chocolatey.
 > Más información: <https://chocolatey.org/docs/commands-search>.
 
 - Buscar un paquete:

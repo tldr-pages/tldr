@@ -1,6 +1,6 @@
 # choco source
 
-> Gestionar fuentes para paquetes con Chocolatey.
+> Gestiona fuentes para paquetes con Chocolatey.
 > Más información: <https://chocolatey.org/docs/commands-source>.
 
 - Listar las fuentes actualmente disponibles:

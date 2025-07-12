@@ -19,19 +19,19 @@
 
 - Abrir en modo aplicación (sin barras de herramientas, barra de URL, botones, etc.):
 
-`msedge --app={{https://ejemplo.com}}`
+`msedge --app {{https://ejemplo.com}}`
 
 - Usar un servidor proxy:
 
-`msedge --proxy-server="{{socks5://hostname:66}}" {{ejemplo.com}}`
+`msedge --proxy-server "{{socks5://hostname:66}}" {{ejemplo.com}}`
 
 - Abrir con un directorio de perfil personalizado:
 
-`msedge --user-data-dir={{ruta/al/directorio}}`
+`msedge --user-data-dir {{ruta/al/directorio}}`
 
 - Abrir sin validación CORS (útil para probar una API):
 
-`msedge --user-data-dir={{ruta/al/directorio}} --disable-web-security`
+`msedge --user-data-dir {{ruta/al/directorio}} --disable-web-security`
 
 - Abrir con una ventana de DevTools para cada pestaña abierta:
 

@@ -1,6 +1,6 @@
 # takeown
 
-> Tomar posesión de un archivo o directorio.
+> Toma posesión de un archivo o directorio.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/takeown>.
 
 - Tomar posesión del archivo especificado:

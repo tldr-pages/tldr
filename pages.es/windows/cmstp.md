@@ -1,6 +1,6 @@
 # cmstp
 
-> Administrar perfiles de servicio de conexión.
+> Administra perfiles de servicio de conexión.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmstp>.
 
 - Instalar un perfil específico:

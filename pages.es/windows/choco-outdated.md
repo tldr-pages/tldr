@@ -1,6 +1,6 @@
 # choco outdated
 
-> Comprobar paquetes desactualizados con Chocolatey.
+> Comprueba paquetes desactualizados con Chocolatey.
 > Más información: <https://chocolatey.org/docs/commands-outdated>.
 
 - Mostrar una lista de paquetes desactualizados en formato de tabla:

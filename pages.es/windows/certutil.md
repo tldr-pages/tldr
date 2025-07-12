@@ -3,15 +3,15 @@
 > Una herramienta para gestionar y configurar información de certificados.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/certutil>.
 
-- Volcar la información de configuración o archivos:
+- Exportar la información de configuración o archivos:
 
 `certutil {{nombre_de_archivo}}`
 
-- Codificar un archivo en hexadecimal:
+- Encriptar un archivo en hexadecimal:
 
 `certutil -encodehex {{ruta\al\archivo_entrada}} {{ruta\al\archivo_salida}}`
 
-- Codificar un archivo a Base64:
+- Encriptar un archivo a Base64:
 
 `certutil -encode {{ruta\al\archivo_entrada}} {{ruta\al\archivo_salida}}`
 

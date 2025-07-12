@@ -1,6 +1,6 @@
 # choco feature
 
-> Interactuar con características de Chocolatey.
+> Interactúa con características de Chocolatey.
 > Más información: <https://chocolatey.org/docs/commands-feature>.
 
 - Mostrar una lista de características disponibles:

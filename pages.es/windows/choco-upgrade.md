@@ -1,6 +1,6 @@
 # choco upgrade
 
-> Actualizar uno o más paquetes con Chocolatey.
+> Actualiza uno o más paquetes con Chocolatey.
 > Más información: <https://chocolatey.org/docs/commands-upgrade>.
 
 - Actualizar uno o más paquetes:

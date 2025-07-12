@@ -1,6 +1,6 @@
 # set
 
-> Mostrar o establecer variables de entorno para la instancia actual de CMD.
+> Muestra o establece variables de entorno para la instancia actual de CMD.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/set>.
 
 - Listar todas las variables de entorno actuales:

@@ -1,6 +1,6 @@
 # w32tm
 
-> Consultar y controlar el servicio de sincronización de tiempo w32time.
+> Consulta y controla el servicio de sincronización de tiempo w32time.
 > Más información: <https://learn.microsoft.com/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings>.
 
 - Mostrar el estado actual de la sincronización de tiempo:
