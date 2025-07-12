@@ -15,7 +15,7 @@
 
 `git config {{[-f|--file]}} .lfsconfig lfs.url {{lfs_eindpunt_url}}`
 
-- Toon bestanden die worden bijgehouden:
+- Toon patronen die worden bijgehouden:
 
 `git lfs track`
 
