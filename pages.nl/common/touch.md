@@ -22,3 +22,11 @@
 - Stel de timestamp in door een string te parsen:
 
 `touch {{[-d|--date]}} "{{last year|5 hours|next thursday|nov 14|...}}" {{pad/naar/bestand}}`
+
+- Maak meerdere bestanden met oplopende nummers:
+
+`touch {{pad/naar/bestand{1..10}}}`
+
+- Maak meerdere bestanden met een letterbereik:
+
+`touch {{pad/naar/bestand{a..z}}}`
