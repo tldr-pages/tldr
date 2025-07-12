@@ -17,7 +17,7 @@
 
 - Laat tabs een bepaald aantal tekens uit elkaar staan, niet 8:
 
-`expand {{[-t|--tabs]}} {{number}} {{pad/naar/bestand}}`
+`expand {{[-t|--tabs]}} {{nummer}} {{pad/naar/bestand}}`
 
 - Gebruik een door komma's gescheiden lijst met expliciete tabposities:
 

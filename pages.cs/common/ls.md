@@ -1,6 +1,6 @@
 # ls
 
-> Vypsat obsah adresáře.
+> Vypisuje obsah adresáře.
 > Více informací: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Vypsat soubory samostatně na každý řádek:
@@ -23,11 +23,11 @@
 
 `ls {{[-lh|-l --human-readable]}}`
 
-- List files in [l]ong format, sorted by [S]ize (descending) recursively:
+- Vypsat všechny soubory s dlouhým formátem, seřazené podle velikosti (sestupně) rekurzivně:
 
 `ls {{[-lSR|-lS --recursive]}}`
 
-- Vypsat všechny soubory s dlouhým formátem, seřazené podle velikosti (sestupně) rekurzivně:
+- Vypsat všechny soubory s dlouhým formátem, seřazené podle času změny v obráceném pořadí (nejstarší první):
 
 `ls {{[-ltr|-lt --reverse]}}`
 

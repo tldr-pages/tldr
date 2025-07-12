@@ -8,23 +8,23 @@
 
 - Voer een `gcrane`-subcommando uit:
 
-`gcrane {{subcommand}}`
+`gcrane {{subcommando}}`
 
 - Sta het pushen van niet-distributieve (vreemde) lagen toe:
 
-`gcrane --allow-nondistributable-artifacts {{subcommand}}`
+`gcrane --allow-nondistributable-artifacts {{subcommando}}`
 
 - Sta het ophalen van afbeeldingsreferenties zonder TLS toe:
 
-`gcrane --insecure {{subcommand}}`
+`gcrane --insecure {{subcommando}}`
 
 - Specificeer het platform in de vorm os/arch{{/variant}}{{:osversion}} (bijv. linux/amd64). (standaard alles):
 
-`gcrane --platform {{platform}} {{subcommand}}`
+`gcrane --platform {{platform}} {{subcommando}}`
 
 - Schakel debuglogs in:
 
-`gcrane {{[-v|--verbose]}} {{subcommand}}`
+`gcrane {{[-v|--verbose]}} {{subcommando}}`
 
 - Toon de help:
 

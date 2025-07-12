@@ -1,7 +1,7 @@
 # go mod
 
 > 모듈 유지 관리.
-> 더 많은 정보: <https://golang.org/cmd/go/#hdr-Module_maintenance>.
+> 더 많은 정보: <https://pkg.go.dev/cmd/go#hdr-Module_maintenance>.
 
 - 현재 디렉터리에 새 모듈 초기화:
 

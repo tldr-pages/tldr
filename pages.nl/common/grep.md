@@ -13,19 +13,19 @@
 
 - Zoek naar een patroon in alle bestanden in een map, recursief, toon regelnummers van overeenkomsten, negeer binaire bestanden:
 
-`grep {{[-r|--recursive]}} {{[-n|--line-number]}} {{[-I|--binary-files=without-match]}} "{{zoekpatroon}}" {{pad/naar/map}}`
+`grep {{[-rnI|--recursive --line-number --binary-files=without-match]}} "{{zoekpatroon}}" {{pad/naar/map}}`
 
 - Gebruik uitgebreide reguliere expressies (ondersteunt `?`, `+`, `{}`, `()` en `|`), in hoofdletterongevoelige modus:
 
-`grep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`grep {{[-Ei|--extended-regexp --ignore-case]}} "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
 - Print 3 regels context rondom, voor of na elke overeenkomst:
 
-`grep --{{context|before-context|after-context}} 3 "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`grep {{--context|--before-context|--after-context}} 3 "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
 - Print bestandsnaam en regelnummers voor elke overeenkomst met kleuruitvoer:
 
-`grep {{[-H|--with-filename]}} {{[-n|--line-number]}} --color=always "{{zoekpatroon}}" {{pad/naar/bestand}}`
+`grep {{[-Hn|--with-filename --line-number]}} --color=always "{{zoekpatroon}}" {{pad/naar/bestand}}`
 
 - Zoek naar regels die overeenkomen met een patroon en print alleen de overeenkomstige tekst:
 

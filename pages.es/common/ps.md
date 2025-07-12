@@ -29,4 +29,4 @@
 
 - Ordena los procesos por consumo de memoria:
 
-`ps {{[k|--sort]}} size`
+`ps --sort size`

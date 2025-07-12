@@ -20,6 +20,10 @@
 
 `sudo usermod {{[-aG|--append --groups]}} {{groep1,groep2,...}} {{gebruikersnaam}}`
 
+- Verwijder een gebruiker uit specifieke groepen:
+
+`sudo usermod {{[-rG|--remove --groups]}} {{groep1,groep2,...}} {{gebruikersnaam}}`
+
 - Verander een gebruikers thuismap:
 
 `sudo usermod {{[-m|--move-home]}} {{[-d|--home]}} {{pad/naar/nieuwe_thuismap}} {{gebruikersnaam}}`

@@ -13,7 +13,7 @@
 
 - Update a specific input (dependency) of the flake in the current directory:
 
-`nix flake lock --update-input {{input}}`
+`nix flake update {{input}}`
 
 - Show all the outputs of a flake on github:
 
