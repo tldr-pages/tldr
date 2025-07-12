@@ -28,7 +28,7 @@
 
 `flutter build apk --target-platform {{android-arm}},{{android-arm64}}`
 
-- Delete the `build/` and `.dart_tool/` directories:
+- Delete the `build` and `.dart_tool` directories:
 
 `flutter clean`
 
