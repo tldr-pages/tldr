@@ -22,8 +22,8 @@
 
 - Confirmar los cambios de un archivo en una unidad protegida:
 
-`uwfmgr file commit {{letra_de_unidad}:\ruta\al\archivo}`
+`uwfmgr file commit {{letra_de_unidad:\ruta\al\archivo}}`
 
 - Confirmar la eliminación de un archivo en una unidad protegida:
 
-`uwfmgr file commit-delete {{letra_de_unidad}:\ruta\al\archivo}`
+`uwfmgr file commit-delete {{letra_de_unidad:\ruta\al\archivo}}`
