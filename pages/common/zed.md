@@ -3,7 +3,7 @@
 > Text editor designed to be fast, efficient and convenient.
 > More information: <https://zed.dev/docs/#cli>.
 
-- Open specific paths in zed:
+- Open specific paths in Zed:
 
 `zed {{path/to/directory_or_file1 path/to/directory_or_file2 ...}}`
 
@@ -19,6 +19,6 @@
 
 `zed {{path/to/file}}:{{line_number}}:{{column_number}}`
 
-- Open a diff tab in zed for two versions of a file:
+- Open a diff tab in Zed for two versions of a file:
 
-`zed --diff {{path/to/OLD_FILE}} {{path/to/NEW_FILE}}`
+`zed --diff {{path/to/old_file}} {{path/to/new_file}}`
