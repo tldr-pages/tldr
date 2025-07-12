@@ -3,19 +3,19 @@
 > Muestra o cambia los atributos de archivos o directorios.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/attrib>.
 
-- Mostrar todos los atributos establecidos de los archivos en el directorio actual:
+- Muestra todos los atributos establecidos de los archivos en el directorio actual:
 
 `attrib`
 
-- Mostrar todos los atributos establecidos de los archivos en un directorio específico:
+- Muestra todos los atributos establecidos de los archivos en un directorio específico:
 
 `attrib {{ruta\al\directorio}}`
 
-- Mostrar todos los atributos establecidos de archivos y [d]irectorios en el directorio actual:
+- Muestra todos los atributos establecidos de archivos y [d]irectorios en el directorio actual:
 
 `attrib /d`
 
-- Mostrar todos los atributos establecidos de los archivos en el directorio actual y [s]ubdirectorios:
+- Muestra todos los atributos establecidos de los archivos en el directorio actual y [s]ubdirectorios:
 
 `attrib /s`
 
