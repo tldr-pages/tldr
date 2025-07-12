@@ -1,7 +1,7 @@
 # audit2allow
 
 > Scan logs for messages pertaining to denied permissions.
-> Generates a report of Type Enforcement (TE) rules that might allow successful operations.
+> Generate a report of Type Enforcement (TE) rules that might allow successful operations.
 > See also `audit2why`.
 > More information: <https://manned.org/audit2allow>.
 
