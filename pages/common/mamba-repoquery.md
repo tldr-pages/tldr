@@ -9,7 +9,7 @@
 
 - Search for all packages satisfying specific constraints:
 
-`mamba repoquery search {{sphinx<5}}`
+`mamba repoquery search "{{sphinx<5}}"`
 
 - List the dependencies of a package installed in the currently activated environment, in a tree format:
 

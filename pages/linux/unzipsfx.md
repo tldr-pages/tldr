@@ -9,16 +9,16 @@
 
 - Extract a self-extracting binary in the current directory:
 
-`{{./path/to/binary)}}`
+`{{./path/to/binary}}`
 
 - Test a self-extracting binary for errors:
 
-`{{./path/to/binary)}} -t`
+`{{./path/to/binary}} -t`
 
 - Print content of a file in the self-extracting binary without extraction:
 
-`{{./path/to/binary)}} -c {{path/to/filename}}`
+`{{./path/to/binary}} -c {{path/to/filename}}`
 
 - Print comments on Zip archive in the self-extracting binary:
 
-`{{./path/to/binary)}} -z`
+`{{./path/to/binary}} -z`

@@ -10,4 +10,4 @@
 
 - Ensure that the Vagrantfile is correctly structured while ignoring provider-specific configuration options:
 
-`vagrant validate {{[-p|--ignore-provider]}} {{docker|hypervlibvirt|parallels|qemu|virtualbox|vmware_desktop}`
+`vagrant validate {{[-p|--ignore-provider]}} {{docker|hypervlibvirt|parallels|qemu|virtualbox|vmware_desktop}}`

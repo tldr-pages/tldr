@@ -18,7 +18,7 @@
 
 - Force a password prompt before connecting to the database:
 
-`dropdb {{[-W|--password]}} {{dbname}}}}`
+`dropdb {{[-W|--password]}} {{dbname}}`
 
 - Suppress a password prompt before connecting to the database:
 

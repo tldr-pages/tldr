@@ -13,11 +13,11 @@
 
 - Write to a specific coprocess `stdin`:
 
-`echo "{{input}}" >&"${{{name}}[1]}"`
+`echo "{{input}}" >&"${{{name[1]}}}"`
 
 - Read from a specific coprocess `stdout`:
 
-`read {{variable}} <&"${{{name}}[0]}"`
+`read {{variable}} <&"${{{name[0]}}}"`
 
 - Create a coprocess which repeatedly reads `stdin` and runs some commands on the input:
 

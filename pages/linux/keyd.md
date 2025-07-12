@@ -21,4 +21,4 @@
 
 - Create a temporary binding:
 
-`sudo keyd bind "{{pressed_key}} = {{output_key}}`
+`sudo keyd bind "{{pressed_key}} = {{output_key}}"`
