@@ -25,4 +25,4 @@
 
 - Run a benchmark where a single parameter changes for each run:
 
-`hyperfine {{[-p|--prepare]}} '{{make clean}}' {{[-P|--parameter-scan]}} {{num_threads}} {{1}} {{10}} 'make {{[-j|--jobs]}} {{num_threads}}'`
+`hyperfine {{[-p|--prepare]}} '{{make clean}}' {{[-P|--parameter-scan]}} {{num_threads}} {{1}} {{10}} '{{make --jobs {num_threads}}}'`
