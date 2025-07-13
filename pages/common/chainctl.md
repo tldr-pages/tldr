@@ -1,0 +1,40 @@
+# chainctl
+
+> The official CLI for Chainguard.
+> More information: <https://edu.chainguard.dev/chainguard/chainctl>.
+
+- Authenticate to the Chainguard Platform:
+
+`chainctl auth login`
+
+- Check your authentication status:
+
+`chainctl auth status`
+
+- Logout from the Chainguard Platform:
+
+`chainctl auth logout`
+
+- Check which version you have installed:
+
+`chainctl version`
+
+- Update to the latest version:
+
+`chainctl update`
+
+- List images available to your account:
+
+`chainctl images list`
+
+- List image repositories available to your account:
+
+`chainctl images repos list`
+
+- Examine the history of an image tag in chainctl (i.e. IMAGE=python TAG=3):
+
+`chainctl images history IMAGE:TAG`
+
+- List package version data from repositories avaiable to your account (i.e. PACKAGE_NAME=go):
+
+`chainctl packages versions list PACKAGE_NAME`
