@@ -5,7 +5,7 @@
 
 - Open specific paths in Zed:
 
-`zed {{path/to/directory_or_file1 path/to/directory_or_file2 ...}}`
+`zed {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Open a path in foreground and display logs:
 
