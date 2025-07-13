@@ -7,10 +7,6 @@
 
 `chainctl auth login`
 
-- Check your authentication status:
-
-`chainctl auth status`
-
 - Logout from the Chainguard Platform:
 
 `chainctl auth logout`
