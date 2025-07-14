@@ -1,7 +1,7 @@
 # deno
 
 > JavaScript 및 TypeScript를 위한 보안 런타임입니다.
-> 더 많은 정보: <https://deno.land>.
+> 더 많은 정보: <https://docs.deno.com/runtime/reference/cli>.
 
 - JavaScript 또는 TypeScript 파일을 실행:
 
