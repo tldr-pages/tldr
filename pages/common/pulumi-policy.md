@@ -10,7 +10,7 @@
 
 - Check compliance of Pulumi project with `pulumi preview` against a policy (without Pulumi Cloud, best on CI/CD):
 
-`pulumi preview --policy-pack {{/path/to/directory}}`
+`pulumi preview --policy-pack {{path/to/directory}}`
 
 - List all policies for an organization:
 
