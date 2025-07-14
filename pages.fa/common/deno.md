@@ -1,7 +1,7 @@
 # deno
 
 > یک runtime امن برای JavaScript و TypeScript.
-> اطلاعات بیشتر: <https://deno.land>.
+> اطلاعات بیشتر: <https://docs.deno.com/runtime/reference/cli>.
 
 - اجرای یک فایل JavaScript یا TypeScript:
 
