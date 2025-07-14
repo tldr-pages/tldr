@@ -27,7 +27,7 @@
 
 `chainctl images repos list`
 
-- Examine the history of an image tag in chainctl (i.e. IMAGE=python TAG=3):
+- Examine the history of an image tag in chainctl (e.g., IMAGE=python TAG=3):
 
 `chainctl images history {{image}}:{{tag}}`
 
