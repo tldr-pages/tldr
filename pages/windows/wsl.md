@@ -13,11 +13,11 @@
 
 - Specify a particular distribution:
 
-`wsl --distribution {{distribution}} {{shell_command}}`
+`wsl {{[-d|--distribution]}} {{distribution}} {{shell_command}}`
 
 - List available distributions:
 
-`wsl --list`
+`wsl {{[-l|--list]}}`
 
 - Export a distribution to a `.tar` file:
 
