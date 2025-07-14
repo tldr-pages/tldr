@@ -29,7 +29,7 @@
 
 - Examine the history of an image tag in chainctl (i.e. IMAGE=python TAG=3):
 
-`chainctl images history IMAGE:TAG`
+`chainctl images history {{image}}:{{tag}}`
 
 - List package version data from repositories avaiable to your account (i.e. PACKAGE_NAME=go):
 
