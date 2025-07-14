@@ -13,7 +13,7 @@
 
 - List translations from a component in a specific format:
 
-`wlc {{[-f|--format]}} {{[text|csv|json|html]}} ls {{project/component}}`
+`wlc {{[-f|--format]}} {{text|csv|json|html}} ls {{project/component}}`
 
 - Print stats for a project:
 
