@@ -33,4 +33,4 @@
 
 - List package version data from repositories avaiable to your account (i.e. PACKAGE_NAME=go):
 
-`chainctl packages versions list PACKAGE_NAME`
+`chainctl packages versions list {{package_name}}`
