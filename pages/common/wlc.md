@@ -1,6 +1,6 @@
 # wlc
 
-> Weblate <https://weblate.org/> command-line utility.
+> Manage localization projects on a Weblate instance.
 > More information: <https://docs.weblate.org/en/latest/wlc.html#commands>.
 
 - List projects using a configuration file:
