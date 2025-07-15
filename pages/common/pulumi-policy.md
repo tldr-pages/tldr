@@ -1,7 +1,6 @@
 # pulumi policy
 
 > Manage resource policies on Pulumi Cloud (Business Critical) or locally (no organization sub-commands).
-> Read about enforcing a policy pack: <https://www.pulumi.com/docs/iac/crossguard/get-started/#enforcing-a-policy-pack>.
 > More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_policy/>.
 
 - Create a new Pulumi Policy Pack from a template or URL:
