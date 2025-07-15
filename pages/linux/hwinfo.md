@@ -13,7 +13,7 @@
 
 - Display information about a specific hardware component succinctly:
 
-`hwinfo --{{component}} --short`
+`hwinfo {{--component}} --short`
 
 - Write all hardware information to a file:
 
