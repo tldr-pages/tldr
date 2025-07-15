@@ -27,10 +27,10 @@
 
 `chainctl images repos list`
 
-- Examine the history of an image tag in chainctl (e.g., IMAGE=python TAG=3):
+- Examine the history of an image tag in chainctl (e.g., image=python tag=3):
 
 `chainctl images history {{image}}:{{tag}}`
 
-- List package version data from repositories available to your account (e.g., PACKAGE_NAME=go):
+- List package version data from repositories available to your account (e.g., package_name=go):
 
 `chainctl packages versions list {{package_name}}`
