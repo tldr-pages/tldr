@@ -9,7 +9,7 @@
 
 - Run a Linux command without using a shell:
 
-`wsl --exec {{command}} {{command_arguments}}`
+`wsl {{[-e|--exec]}} {{command}} {{command_arguments}}`
 
 - Specify a particular distribution:
 
