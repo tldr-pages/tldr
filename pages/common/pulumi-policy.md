@@ -21,7 +21,7 @@
 
 - Enable a policy with a specific version:
 
-`pulumi policy enable {{organization_name/policy_pack_name}} {{latest|version}}`
+`pulumi policy enable {{organization_name}}/{{policy_pack_name}} {{latest|version}}`
 
 - Disable a policy with a specific version (defaults to all versions):
 
