@@ -5,7 +5,7 @@
 
 - Create a new Pulumi Policy Pack from a template or URL:
 
-`pulumi policy new --dir {{path/to/directory}} {{[template|url]}}`
+`pulumi policy new --dir {{path/to/directory}} {{template|url}}`
 
 - Check compliance of Pulumi project with `pulumi preview` against a policy (without Pulumi Cloud, best on CI/CD):
 
