@@ -13,7 +13,7 @@
 
 - Iterate over a given range of numbers:
 
-`for {{variable}} in {{{from}}..{{to}}..{{step}}}; do {{echo "Loop is executed"}}; done`
+`for {{variable}} in {{{from..to..step}}}; do {{echo "Loop is executed"}}; done`
 
 - Iterate over a given list of files:
 
