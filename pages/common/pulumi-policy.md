@@ -25,7 +25,7 @@
 
 - Disable a policy with a specific version (defaults to all versions):
 
-`pulumi policy disable {{organization_name/policy_pack_name}} --version {{version}}`
+`pulumi policy disable {{organization_name}}/{{policy_pack_name}} --version {{version}}`
 
 - Display help:
 
