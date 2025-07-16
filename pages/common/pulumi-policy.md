@@ -7,9 +7,9 @@
 
 `pulumi policy new --dir {{path/to/directory}} {{template|url}}`
 
-- Check compliance of Pulumi project with `pulumi preview` against a policy (without Pulumi Cloud, best on CI/CD):
+- Validate syntax of a policy. To check a policy against a project use `pulumi preview`:
 
-`pulumi preview --policy-pack {{path/to/directory}}`
+`pulumi policy validate-config {{organization_name}}/{{policy_pack_name}} {{version}}`
 
 - List all policies for an organization:
 
