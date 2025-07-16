@@ -1,7 +1,7 @@
 # slocate
 
 > Secure variant of GNU Locate.
-> See also 'locate'.
+> See also: `locate`.
 > More information: <https://manned.org/slocate>.
 
 - Enable quiet mode to suppress error messages:
