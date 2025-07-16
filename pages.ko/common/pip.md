@@ -14,7 +14,7 @@
 
 - 패키지 업그레이드:
 
-`pip install --upgrade {{패키지}}`
+`pip install {{[-U|--upgrade]}} {{패키지}}`
 
 - 패키지 제거:
 
@@ -30,4 +30,4 @@
 
 - 파일에서 패키지 설치:
 
-`pip install --requirement {{requirements.txt}}`
+`pip install {{[-r|--requirement]}} {{requirements.txt}}`
