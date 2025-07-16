@@ -2,7 +2,7 @@
 
 > Informa de paquetes no libres instalados en sistemas operativos basados en Debian.
 > Este comando se conocía anteriormente como `vrms`.
-> Más información: <https://salsa.debian.org/debian/check-dfsg-status>.
+> Más información: <https://salsa.debian.org/debian/check-dfsg-status/>.
 
 - Lista los paquetes no libres y `contrib` (más la descripción):
 
