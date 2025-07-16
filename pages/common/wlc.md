@@ -15,7 +15,7 @@
 
 `wlc {{[-f|--format]}} {{text|csv|json|html}} ls {{project}}/{{component}}`
 
-- Print stats for a project:
+- Print statistics for a project:
 
 `wlc stats {{project}}`
 
