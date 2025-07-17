@@ -15,6 +15,10 @@
 
 `sudo minicom {{[-D|--device]}} {{/dev/ttyXYZ}} {{[-s|--setup]}}`
 
+- Capture the output of a serial port to a file:
+
+`sudo minicom {{[-D|--device]}} {{/dev/ttyXYZ}} {{[-C|--capturefile]}} {{path/to/file}}`
+
 - Exit minicom:
 
 `<Ctrl a><x><Enter>`
