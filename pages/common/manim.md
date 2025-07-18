@@ -30,7 +30,3 @@
 - Display help:
 
 `manim {{[--help]}}`
-
-- Display help for a subcommand:
-
-`manim {{subcommand}} {{[--help]}}`
