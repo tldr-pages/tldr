@@ -1,7 +1,7 @@
 # manim
 
 > 수학 설명 영상을 위한 애니메이션 엔진입니다.
-> 더 많은 정보: <https://docs.manim.community/en/stable/tutorials/quickstart.html>
+> 더 많은 정보: <https://docs.manim.community/en/stable/tutorials/quickstart.html>.
 
 - 기본 설정으로 Python 스크립트의 장면을 렌더링:
 

@@ -1,7 +1,7 @@
 # manim
 
 > Animation engine for explanatory math videos.
-> More information: <https://docs.manim.community/en/stable/tutorials/quickstart.html>.
+> More information: <https://docs.manim.community/en/stable/tutorials/quickstart/html>.
 
 - Render a scene from a Python script using the default settings:
 
