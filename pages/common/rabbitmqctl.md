@@ -13,7 +13,7 @@
 
 - View documentation for rabbitmq user commands:
 
-`tldr rabbitmqctl user`
+`tldr rabbitmqctl users`
 
 - View documentation for rabbitmq vhosts commands:
 
