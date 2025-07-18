@@ -1,7 +1,6 @@
-# trace-cmd-report
+# trace-cmd report
 
 > Display recorded trace events.
-> This utility only runs as root.
 > See also: `trace-cmd list`, `trace-cmd record`.
 > More information: <https://manned.org/trace-cmd-report>.
 
