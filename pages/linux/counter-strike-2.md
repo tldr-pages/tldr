@@ -1,4 +1,4 @@
-# counter strike 2
+# Counter Strike 2
 
 > Host a headless Counter Strike 2 server.
 > More information: <https://developer.valvesoftware.com/wiki/Counter-Strike_2/Dedicated_Servers>.
