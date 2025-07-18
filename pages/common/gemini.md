@@ -17,7 +17,7 @@
 
 - Run inside a sandbox container:
 
-`gemini --sandbox`
+`gemini {{[-s|--sandbox]}}`
 
 - Execute a prompt then stay in interactive mode:
 
