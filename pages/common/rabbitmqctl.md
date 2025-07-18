@@ -1,6 +1,6 @@
 # rabbitmqctl
 
-> Command-line tool to manage, configure and inspect RabbitMQ servers.
+> Manage, configure, and inspect RabbitMQ servers.
 > More information: <https://www.rabbitmq.com/rabbitmqctl.8.html>.
 
 - Display the status of the current node:
