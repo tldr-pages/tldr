@@ -14,7 +14,7 @@
 
 - Start tracing with a specific plugin:
 
-`trace-cmd start -p {{blk|function_graph|wakeup_dl|wakeup_rt|wakeup|function nop}}`
+`trace-cmd start -p {{blk|function_graph|wakeup_dl|wakeup_rt|wakeup|function|nop}}`
 
 - View the trace output:
 
