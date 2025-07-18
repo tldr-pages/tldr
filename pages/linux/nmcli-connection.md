@@ -10,11 +10,11 @@
 
 - Activate a connection:
 
-`nmcli connection up uuid {{uuid}}`
+`nmcli connection up {{uuid}}`
 
 - Deactivate a connection:
 
-`nmcli connection down uuid {{uuid}}`
+`nmcli connection down {{uuid}}`
 
 - Create an auto-configured dual stack connection:
 
