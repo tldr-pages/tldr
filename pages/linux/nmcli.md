@@ -7,13 +7,13 @@
 
 `tldr nmcli device`
 
-- View documentation for running `nmcli` as a NetworkManager secret/polkit agent:
-
-`tldr nmcli agent`
-
 - View documentation for managing network connections:
 
 `tldr nmcli connection`
+
+- View documentation for running `nmcli` as a NetworkManager secret/polkit agent:
+
+`tldr nmcli agent`
 
 - View documentation for managing general settings of NetworkManager:
 
