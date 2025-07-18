@@ -2,6 +2,7 @@
 
 > Utility to interact with the Ftrace Linux kernel internal tracer.
 > This utility only runs as root.
+> See also: `trace-cmd-list`, `trace-cmd-record`, `trace-cmd-report`.
 > More information: <https://manned.org/trace-cmd>.
 
 - Display the status of tracing system:
@@ -14,7 +15,7 @@
 
 - Start tracing with a specific plugin:
 
-`trace-cmd start -p {{timerlat|osnoise|hwlat|blk|mmiotrace|function_graph|wakeup_dl|wakeup_rt|wakeup|function|nop}}`
+`trace-cmd start -p {{plugin}}`
 
 - View the trace output:
 
@@ -28,6 +29,10 @@
 
 `trace-cmd clear`
 
-- Clear the trace buffers and stop tracing:
+- Record a trace:
 
-`trace-cmd reset`
+`trace-cmd record`
+
+- Display the recorded trace:
+
+`trace-cmd report`
