@@ -6,7 +6,7 @@
 
 - リソースに関する情報をより詳細に一覧表示する:
 
-`kubectl get {{pod|service|deployment|ingress|...}} -o wide`
+`kubectl get {{pod|service|deployment|ingress|...}} {{[-o|--output]}} wide`
 
 - 指定したポッドにラベル 'unhealthy' と値 'true' を付けて更新する:
 

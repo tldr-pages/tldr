@@ -6,7 +6,7 @@
 
 - 리소스에 대한 정보를 자세히 나열:
 
-`kubectl get {{pod|service|deployment|ingress|...}} -o wide`
+`kubectl get {{pod|service|deployment|ingress|...}} {{[-o|--output]}} wide`
 
 - 지정된 포드에 'unhealthy' 레이블과 'true' 값을 추가:
 
