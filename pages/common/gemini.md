@@ -25,7 +25,7 @@
 
 - Include all files in context:
 
-`gemini --all-files`
+`gemini {{[-a|--all-files]}}`
 
 - Show memory usage in status bar:
 
