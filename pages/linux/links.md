@@ -17,11 +17,11 @@
 
 - Navigate forwards and backwards through the links on a page:
 
-`{{ArrowUp|ArrowDown}}`
+`{{<ArrowUp>|<ArrowDown>}}`
 
 - Go forwards and backwards one page:
 
-`{{ArrowLeft|ArrowRight}}`
+`{{<ArrowLeft>|<ArrowRight>}}`
 
 - Exit:
 
