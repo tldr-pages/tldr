@@ -489,6 +489,9 @@ When documenting optional placeholders like paths or file extensions, it is sugg
 
 - Use `{{path/to/source.ext}}` instead of `{{path/to/source.tar[.gz|.bz2|.xz]}}`.
 
+> [!IMPORTANT]
+> Do not put placeholders inside placeholders.
+
 ### Keypress syntax
 
 To mark keypresses for TUI or GUI programs, use angle brackets `<` and `>`.
