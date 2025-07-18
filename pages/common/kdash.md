@@ -17,4 +17,4 @@
 
 - Set the polling rate:
 
-`kdash -p 200`
+`kdash -p {{200}}`
