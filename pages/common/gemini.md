@@ -13,7 +13,7 @@
 
 - Override the default model (default: gemini-2.5-pro):
 
-`gemini -m {{gemini-2.5-flash}}`
+`gemini {{[-m|--model]}} {{gemini-2.5-flash}}`
 
 - Run inside a sandbox container:
 
