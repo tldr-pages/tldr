@@ -13,7 +13,7 @@
 
 - Open een pad in een nieuw venster:
 
-`zed {{path/to/project}} {{[-n|--new]}}`
+`zed {{pad/naar/project}} {{[-n|--new]}}`
 
 - Open een bestand op het opgegeven regelnummer en kolom:
 
