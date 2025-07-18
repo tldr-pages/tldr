@@ -337,9 +337,9 @@ It should instead be simplified to make it easier for everyone to read:
 
 ### More information links
 
-- On the `More information` link line, we prefer linking to the author's provided documentation of the command-line reference or the man page. When not available, use <https://manned.org> as the default fallback for all platforms
+- On the `More information` link line, provide a direct link to documentation that instructs on how to use the command. We prefer linking to the author's provided documentation but when not available or very lacking in information, use <https://manned.org> as the default fallback for all platforms
 (except `osx` and BSD platforms other than FreeBSD).
-Alternatively, you can link to the author's website or a tutorial page if the command doesn't have a documentation page.
+If there is no documentation page to be found, you can link to the author's website or a third party tutorial.
 
 - For `osx`: Apple distributes the built-in man pages [in Xcode](https://developer.apple.com/documentation/os/reading_unix_manual_pages).
 For commands documented there, we recommend using <https://keith.github.io/xcode-man-pages/>, an HTML export of all Apple's man pages bundled with Xcode.
@@ -488,6 +488,9 @@ Keep the following guidelines in mind when choosing placeholders:
 When documenting optional placeholders like paths or file extensions, it is suggested to specify them in the page or example descriptions instead of the placeholder itself. For example:
 
 - Use `{{path/to/source.ext}}` instead of `{{path/to/source.tar[.gz|.bz2|.xz]}}`.
+
+> [!IMPORTANT]
+> Do not put placeholders inside placeholders.
 
 ### Keypress syntax
 

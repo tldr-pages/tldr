@@ -1,7 +1,7 @@
 # deno
 
 > Runtime aman untuk JavaScript dan TypeScript.
-> Informasi lebih lanjut: <https://deno.land>.
+> Informasi lebih lanjut: <https://docs.deno.com/runtime/reference/cli>.
 
 - Jalankan program dari suatu berkas JavaScript atau TypeScript:
 

@@ -1,6 +1,6 @@
 # gpg-tui
 
-> Terminal user interface for GNU Public Guard.
+> Terminal user interface for GNU Privacy Guard.
 > More information: <https://github.com/orhun/gpg-tui>.
 
 - Start `gpg-tui`:
