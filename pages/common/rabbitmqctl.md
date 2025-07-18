@@ -11,7 +11,7 @@
 
 `tldr rabbitmqctl cluster`
 
-- View documentation for rabbitmq user commands:
+- View documentation for RabbitMQ user commands:
 
 `tldr rabbitmqctl users`
 
