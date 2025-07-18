@@ -6,7 +6,7 @@
 
 - Print the statuses of all network interfaces:
 
-`nmcli device status`
+`nmcli device`
 
 - Print the available Wi-Fi access points:
 
