@@ -13,7 +13,7 @@
 
 - Attach OpenOCD session to a board with configuration files and a list of commands to be executed on server startup:
 
-`openocd {{[-f|--file]}} {{config_file.cfg}}  {{[-c|--command]}} "{{command}}"`
+`openocd {{[-f|--file]}} {{config_file.cfg}} {{[-c|--command]}} "{{command}}"`
 
 - Use configuration files in the specified path:
 
