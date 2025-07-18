@@ -9,7 +9,7 @@
 
 - Show dashboard in debug mode and write logs:
 
-`kdash -d`
+`kdash {{[-d|--debug]}}`
 
 - Set the tick rate:
 
