@@ -13,8 +13,8 @@
 
 - Set the tick rate:
 
-`kdash {{[-t|--tick-rate]}} 100`
+`kdash {{[-t|--tick-rate]}} {{100}}`
 
 - Set the polling rate:
 
-`kdash -p {{200}}`
+`kdash -t {{200}} -p {{400}}`
