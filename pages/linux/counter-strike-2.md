@@ -9,7 +9,7 @@
 
 - Run a game with specified maximum number of players:
 
-`{{path/to/cs2}}  -dedicated +map {{de_dust2}} -maxplayers {{64}}`
+`{{path/to/cs2}} -dedicated +map {{de_dust2}} -maxplayers {{64}}`
 
 - Run a game with specified server IP and port:
 
