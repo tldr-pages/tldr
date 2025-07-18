@@ -21,7 +21,7 @@
 
 - Execute a prompt then stay in interactive mode:
 
-`gemini -i "{{Give me an example of recursion in Python}}"`
+`gemini {{[-i|--prompt-interactive]}} "{{Give me an example of recursion in Python}}"`
 
 - Include all files in context:
 
