@@ -1,6 +1,6 @@
 # gemini
 
-> Gemini CLI - Launch an interactive CLI, use -p/--prompt for non-interactive mode.
+> Launch an interactive prompt with Gemini AI.
 > More information: <https://github.com/google-gemini/gemini-cli>.
 
 - Start a REPL session to chat interactively:
