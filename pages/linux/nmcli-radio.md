@@ -7,7 +7,6 @@
 
 `nmcli {{[r|radio]}} {{[w|wifi]}}`
 
-
 - Turn Wi-Fi on or off:
 
 `nmcli {{[r|radio]}} {{[w|wifi]}} {{on|off}}`
