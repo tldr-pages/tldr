@@ -14,7 +14,7 @@
 
 - تحديث حزمة مثبتة:
 
-`pip install --upgrade {{package}}`
+`pip install {{[-U|--upgrade]}} {{package}}`
 
 - إزالة تثبيت حزمة:
 
@@ -30,4 +30,4 @@
 
 - تثبيت الحزم من ملف متطلبات:
 
-`pip install --requirement {{requirements.txt}}`
+`pip install {{[-r|--requirement]}} {{requirements.txt}}`
