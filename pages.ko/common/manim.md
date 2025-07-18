@@ -25,8 +25,8 @@
 
 - 렌더링 없이 스크립트에 정의된 장면 목록 보기:
 
-`manim {{[--list_scenes]}} {{경로/파일.py}}`
+`manim --list_scenes {{경로/파일.py}}`
 
 - 도움말 표시:
 
-`manim {{[--help]}}`
+`manim --help`

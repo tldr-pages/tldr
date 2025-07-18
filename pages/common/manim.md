@@ -25,8 +25,8 @@
 
 - List available scenes in a file without rendering:
 
-`manim {{[--list_scenes]}} {{path/to/file.py}}`
+`manim --list_scenes {{path/to/file.py}}`
 
 - Display help:
 
-`manim {{[--help]}}`
+`manim --help`

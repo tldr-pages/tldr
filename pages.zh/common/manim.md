@@ -25,8 +25,8 @@
 
 - 列出文件中可用的场景而不进行渲染：
 
-`manim {{[--list_scenes]}} {{路径/文件.py}}`
+`manim --list_scenes {{路径/文件.py}}`
 
 - 显示帮助信息：
 
-`manim {{[--help]}}`
+`manim --help`
