@@ -1,7 +1,6 @@
-# trace-cmd-record
+# trace-cmd record
 
 > Capture kernel trace events.
-> This utility only runs as root.
 > See also: `trace-cmd list`, `trace-cmd report`.
 > More information: <https://manned.org/trace-cmd-record>.
 
