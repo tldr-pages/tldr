@@ -1,13 +1,14 @@
 # wezterm
 
 > Wez's Terminal Emulator - a powerful cross-platform terminal emulator and multiplexer.
+> Some subcommands such as `cli` have their own usage documentation.
 > More information: <https://wezterm.org/cli/general>.
 
 - Start a new Wezterm process and create a window:
 
 `wezterm`
 
-- Establish an `ssh` session:
+- Establish an `ssh` session in a new Wezterm window:
 
 `wezterm ssh {{user}}@{{host}}:{{port}}`
 
@@ -19,11 +20,11 @@
 
 `wezterm imgcat {{path/to/image}}`
 
-- Record a terminal session as an asciicat (by default recordings are found in `/tmp`):
+- Record a terminal session as an asciicast (by default recordings are saved to `/tmp`):
 
 `wezterm record`
 
-- Replay an asciicat terminal session:
+- Replay an asciicast terminal session:
 
 `wezterm replay {{path/to/cast_file}}`
 
