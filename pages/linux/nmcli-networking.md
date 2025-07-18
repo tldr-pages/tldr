@@ -13,8 +13,8 @@
 
 - Show the last known connectivity state:
 
-`nmcli {{[n|networking]}} connectivity`
+`nmcli {{[n|networking]}} {{[c|connectivity]}}`
 
 - Show the current connectivity state:
 
-`nmcli {{[n|networking]}} connectivity check`
+`nmcli {{[n|networking]}} {{[c|connectivity]}} {{[c|check]}}`
