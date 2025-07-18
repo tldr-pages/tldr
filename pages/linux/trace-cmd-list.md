@@ -1,7 +1,6 @@
 # trace-cmd list
 
 > Show available tracers, events, or options for tracing.
-> This utility only runs as root.
 > See also: `trace-cmd record`, `trace-cmd report`.
 > More information: <https://manned.org/trace-cmd-list>.
 
