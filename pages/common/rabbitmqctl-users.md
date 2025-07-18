@@ -1,4 +1,4 @@
-# rabbitmqctl-user
+# rabbitmqctl-users
 
 > Manage RabbitMQ users, their permissions, and tags.
 > More information: <https://www.rabbitmq.com/management.html>.
