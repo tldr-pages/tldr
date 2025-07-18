@@ -14,7 +14,7 @@
 
 - Connect to a Wi-Fi network with the specified SSID (you will be prompted for a password):
 
-`nmcli --ask device wifi connect {{ssid}}`
+`nmcli device wifi connect {{ssid}} --ask`
 
 - Print the password and QR code for the current Wi-Fi network:
 
