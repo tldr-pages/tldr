@@ -25,7 +25,7 @@
 
 - Clear all permissions for a user on a specific virtual host:
 
-`rabbitmqctl clear_permissions -p {{vhost}} {{username}}`
+`rabbitmqctl clear_permissions {{[-p|--vhost]}} {{vhost}} {{username}}`
 
 - Assign one or more tags (e.g., administrator) to a user:
 
