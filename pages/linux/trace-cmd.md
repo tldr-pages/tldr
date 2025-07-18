@@ -1,7 +1,7 @@
 # trace-cmd
 
 > Utility to interact with the Ftrace Linux kernel internal tracer.
-> See also: `trace-cmd-list`, `trace-cmd-record`, `trace-cmd-report`.
+> See also: `trace-cmd list`, `trace-cmd record`, `trace-cmd report`.
 > More information: <https://manned.org/trace-cmd>.
 
 - Display the status of tracing system:
