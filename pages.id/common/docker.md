@@ -6,7 +6,7 @@
 
 - Tampilkan semua daftar kontainer Docker (yang sedang berjalan dan berhenti):
 
-`docker ps --all`
+`docker ps {{[-a|--all]}}`
 
 - Nyalakan sebuah kontainer dari citra (image), dengan nama kustom:
 
@@ -26,7 +26,7 @@
 
 - Buka sesi shell didalam sebuah kontainer yang sedang berjalan:
 
-`docker exec -it {{nama_kontainer}} {{sh}}`
+`docker exec {{[-it|--interactive --tty]}} {{nama_kontainer}} {{sh}}`
 
 - Hapus kontainer yang sedang berhenti:
 
@@ -34,4 +34,4 @@
 
 - Ambil dan ikuti semua log dari sebuah kontainer:
 
-`docker logs -f {{nama_kontainer}}`
+`docker logs {{[-f|--follow]}} {{nama_kontainer}}`
