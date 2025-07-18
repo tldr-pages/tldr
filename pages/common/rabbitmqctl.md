@@ -7,7 +7,7 @@
 
 `rabbitmqctl status`
 
-- View documentation for rabbitmq cluster commands:
+- View documentation for RabbitMQ cluster commands:
 
 `tldr rabbitmqctl cluster`
 
