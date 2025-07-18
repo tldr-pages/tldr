@@ -9,11 +9,11 @@
 
 - Print the available Wi-Fi access points:
 
-`nmcli {{[d|device]}} wifi`
+`nmcli {{[d|device]}} {{[w|wifi]}}`
 
 - Connect to a Wi-Fi network with the specified SSID (you will be prompted for a password):
 
-`nmcli {{[d|device]}} wifi connect {{ssid}} --ask`
+`nmcli {{[d|device]}} {{[w|wifi]}} {{[c|connect]}} {{ssid}} --ask`
 
 - Print the password and QR code for the current Wi-Fi network:
 
