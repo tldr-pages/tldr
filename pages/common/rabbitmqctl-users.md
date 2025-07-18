@@ -21,7 +21,7 @@
 
 - Set permissions for a user on a specific virtual host:
 
-`rabbitmqctl set_permissions -p {{vhost}} {{username}} {{read}} {{write}} {{configure}}`
+`rabbitmqctl set_permissions {{[-p|--vhost]}} {{vhost}} {{username}} {{read}} {{write}} {{configure}}`
 
 - Clear all permissions for a user on a specific virtual host:
 
