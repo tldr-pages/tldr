@@ -1,4 +1,4 @@
-# trace-cmd-list
+# trace-cmd list
 
 > Show available tracers, events, or options for tracing.
 > This utility only runs as root.
