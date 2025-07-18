@@ -15,7 +15,7 @@
 
 `tldr rabbitmqctl users`
 
-- View documentation for rabbitmq vhosts commands:
+- View documentation for RabbitMQ vhosts commands:
 
 `tldr rabbitmqctl vhosts`
 
