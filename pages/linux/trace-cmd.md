@@ -1,7 +1,6 @@
 # trace-cmd
 
 > Utility to interact with the Ftrace Linux kernel internal tracer.
-> This utility only runs as root.
 > See also: `trace-cmd-list`, `trace-cmd-record`, `trace-cmd-report`.
 > More information: <https://manned.org/trace-cmd>.
 
