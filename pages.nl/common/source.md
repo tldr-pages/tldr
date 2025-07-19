@@ -7,6 +7,6 @@
 
 `source {{pad/naar/bestand}}`
 
-- Evalueer de inhoud van een bepaald bestand (als alternatief ter vervanging van `source` door` .`):
+- Evalueer de inhoud van een bepaald bestand (als alternatief ter vervanging van `source` door `.`):
 
 `. {{pad/naar/bestand}}`
