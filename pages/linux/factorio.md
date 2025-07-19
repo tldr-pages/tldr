@@ -1,4 +1,4 @@
-# factorio
+# Factorio
 
 > Create and start a headless Factorio server.
 > More information: <https://wiki.factorio.com/Multiplayer>.
