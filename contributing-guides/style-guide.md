@@ -315,6 +315,14 @@ When describing keycaps or a keyboard shortcut for a utility, use the same [keyp
 
 If a program requires root privileges to run and doesn't provide its own prompt for a password, prepend the command with `sudo` (e.g. `sudo apt update`).
 
+### Standardized Terms
+
+Some terms are used repeatedly throughout pages, and as such, should be standardized. These include:
+
+| Term | Standard | Explanation |
+|---|---|---|
+| Regular expression | `` `regex` `` | `regex` defines a match pattern given a string of characters (https://en.wikipedia.org/wiki/Regular_expression). |
+
 ## Heading
 
 ### Program description
