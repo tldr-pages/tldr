@@ -7,9 +7,9 @@
 
 `gemini`
 
-- Send a prompt and exit immediately (read from stdin):
+- Send the output of another command to Gemini:
 
-`echo "{{Summarize the history of Rome}}" | gemini {{[-p|--prompt]}}`
+`{{echo "Summarize the history of Rome"}} | gemini {{[-p|--prompt]}}`
 
 - Override the default model (default: gemini-2.5-pro):
 
