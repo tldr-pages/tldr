@@ -14,16 +14,16 @@
 
 - `<Shift Tab>`을 사용해 여러 파일을 선택하고 파일에 작성:
 
-`find {{경로/대상/디렉터리}} -type f | fzf --multi > {{경로/대상/파일}}`
+`find {{경로/대상/디렉터리}} -type f | fzf {{[-m|--multi]}} > {{경로/대상/파일}}`
 
 - 지정된 쿼리로 `fzf`를 시작:
 
-`fzf --query "{{쿼리}}"`
+`fzf {{[-q|--query]}} "{{쿼리}}"`
 
 - core로 시작하고 go, rb 또는 py로 끝나는 항목에서 `fzf`를 시작:
 
-`fzf --query "^core go$ | rb$ | py$"`
+`fzf {{[-q|--query]}} "^core go$ | rb$ | py$"`
 
 - pvc와 일치하지 않고 travis와 정확히 일치하는 항목에 대해 `fzf`를 시작:
 
-`fzf --query "!pyc 'travis"`
+`fzf {{[-q|--query]}} "!pyc 'travis"`
