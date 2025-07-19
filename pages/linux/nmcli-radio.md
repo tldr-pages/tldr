@@ -1,29 +1,28 @@
 # nmcli radio
 
 > Show the status of radio switches or enable/disable them using NetworkManager.
-> This subcommand can also be called with `nmcli r`.
 > More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
 - Show status of Wi-Fi:
 
-`nmcli radio wifi`
+`nmcli {{[r|radio]}} {{[w|wifi]}}`
 
 - Turn Wi-Fi on or off:
 
-`nmcli radio wifi {{on|off}}`
+`nmcli {{[r|radio]}} {{[w|wifi]}} {{on|off}}`
 
 - Show status of WWAN:
 
-`nmcli radio wwan`
+`nmcli {{[r|radio]}} {{[ww|wwan]}}`
 
 - Turn WWAN on or off:
 
-`nmcli radio wwan {{on|off}}`
+`nmcli {{[r|radio]}} {{[ww|wwan]}} {{on|off}}`
 
 - Show status of both switches:
 
-`nmcli radio all`
+`nmcli {{[r|radio]}}`
 
 - Turn both switches on or off:
 
-`nmcli radio all {{on|off}}`
+`nmcli {{[r|radio]}} {{[a|all]}} {{on|off}}`
