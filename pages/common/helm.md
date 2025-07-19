@@ -14,15 +14,15 @@
 
 - List helm repositories:
 
-`helm repo list`
+`helm repo {{[ls|list]}}`
 
 - Update helm repositories:
 
-`helm repo update`
+`helm repo {{[up|update]}}`
 
 - Delete a helm repository:
 
-`helm repo remove {{repository_name}}`
+`helm repo {{[rm|remove]}} {{repository_name}}`
 
 - Install a helm chart:
 
@@ -34,4 +34,4 @@
 
 - Update helm dependencies:
 
-`helm dependency update`
+`helm {{[dep|dependency]}} {{[up|update]}}`
