@@ -3,17 +3,17 @@
 > Manage the network configuration using NetworkManager.
 > More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
-- View documentation for running `nmcli` as a NetworkManager secret/polkit agent:
+- View documentation for managing network interfaces and establishing new Wi-Fi connections:
 
-`tldr nmcli agent`
+`tldr nmcli device`
 
 - View documentation for managing network connections:
 
 `tldr nmcli connection`
 
-- View documentation for managing network interfaces and establishing new Wi-Fi connections:
+- View documentation for running `nmcli` as a NetworkManager secret/polkit agent:
 
-`tldr nmcli device`
+`tldr nmcli agent`
 
 - View documentation for managing general settings of NetworkManager:
 
