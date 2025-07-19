@@ -1,6 +1,6 @@
 # kerl
 
-> Easy building and installing of Erlang/OTP instances.
+> Build and install Erlang/OTP instances with ease.
 > More information: <https://github.com/kerl/kerl>.
 
 - Build and install an Erlang/OTP version in a directory:
