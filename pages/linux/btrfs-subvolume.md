@@ -5,24 +5,24 @@
 
 - Create a new empty subvolume:
 
-`sudo btrfs subvolume create {{path/to/new_subvolume}}`
+`sudo btrfs {{[su|subvolume]}} {{[c|create]}} {{path/to/new_subvolume}}`
 
 - List all subvolumes and snapshots in the specified filesystem:
 
-`sudo btrfs subvolume list {{path/to/btrfs_filesystem}}`
+`sudo btrfs {{[su|subvolume]}} {{[l|list]}} {{path/to/btrfs_filesystem}}`
 
 - Delete a subvolume:
 
-`sudo btrfs subvolume delete {{path/to/subvolume}}`
+`sudo btrfs {{[su|subvolume]}} {{[d|delete]}} {{path/to/subvolume}}`
 
 - Create a [r]ead-only snapshot of an existing subvolume:
 
-`sudo btrfs subvolume snapshot -r {{path/to/source_subvolume}} {{path/to/target}}`
+`sudo btrfs {{[su|subvolume]}} {{[sn|snapshot]}} -r {{path/to/source_subvolume}} {{path/to/target}}`
 
 - Create a read-write snapshot of an existing subvolume:
 
-`sudo btrfs subvolume snapshot {{path/to/source_subvolume}} {{path/to/target}}`
+`sudo btrfs {{[su|subvolume]}} {{[sn|snapshot]}} {{path/to/source_subvolume}} {{path/to/target}}`
 
 - Show detailed information about a subvolume:
 
-`sudo btrfs subvolume show {{path/to/subvolume}}`
+`sudo btrfs {{[su|subvolume]}} {{[sh|show]}} {{path/to/subvolume}}`
