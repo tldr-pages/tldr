@@ -10,7 +10,7 @@
 
 - Perform checks, create a `.crate` file but don't upload it (equivalent of `cargo package`):
 
-`cargo publish --dry-run`
+`cargo publish {{[-n|--dry-run]}}`
 
 - Use the specified registry (registry names can be defined in the configuration - the default is <https://crates.io>):
 

@@ -22,4 +22,4 @@
 
 - Only show normal/build/development dependencies:
 
-`cargo tree --edges {{normal|build|dev}}`
+`cargo tree {{[-e|--edges]}} {{normal|build|dev}}`

@@ -9,7 +9,7 @@
 
 - Display what would be updated, but don't actually write the lockfile:
 
-`cargo update --dry-run`
+`cargo update {{[-n|--dry-run]}}`
 
 - Update only the specified dependencies:
 
