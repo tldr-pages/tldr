@@ -6,24 +6,24 @@
 
 - Start a scrub:
 
-`sudo btrfs scrub start {{path/to/btrfs_mount}}`
+`sudo btrfs {{[sc|scrub]}} start {{path/to/btrfs_mount}}`
 
 - Show the status of an ongoing or last completed scrub:
 
-`sudo btrfs scrub status {{path/to/btrfs_mount}}`
+`sudo btrfs {{[sc|scrub]}} status {{path/to/btrfs_mount}}`
 
 - Cancel an ongoing scrub:
 
-`sudo btrfs scrub cancel {{path/to/btrfs_mount}}`
+`sudo btrfs {{[sc|scrub]}} {{[c|cancel]}} {{path/to/btrfs_mount}}`
 
 - Resume a previously cancelled scrub:
 
-`sudo btrfs scrub resume {{path/to/btrfs_mount}}`
+`sudo btrfs {{[sc|scrub]}} {{[r|resume]}} {{path/to/btrfs_mount}}`
 
 - Start a scrub, but do not put the program in the [B]ackground:
 
-`sudo btrfs scrub start -B {{path/to/btrfs_mount}}`
+`sudo btrfs {{[sc|scrub]}} start -B {{path/to/btrfs_mount}}`
 
 - Start a scrub in quiet mode (does not print errors or statistics):
 
-`sudo btrfs scrub start {{[-q|--quiet]}} {{path/to/btrfs_mount}}`
+`sudo btrfs {{[sc|scrub]}} start {{[-q|--quiet]}} {{path/to/btrfs_mount}}`
