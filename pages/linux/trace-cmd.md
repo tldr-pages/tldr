@@ -6,32 +6,32 @@
 
 - Display the status of tracing system:
 
-`trace-cmd stat`
+`sudo trace-cmd stat`
 
 - List available tracers:
 
-`trace-cmd list -t`
+`sudo trace-cmd list -t`
 
 - Start tracing with a specific plugin:
 
-`trace-cmd start -p {{function|function_graph|preemptirqsoff|irqsoff|preemptoff|wakeup|...}}`
+`sudo trace-cmd start -p {{function|function_graph|preemptirqsoff|irqsoff|preemptoff|wakeup|...}}`
 
 - View the trace output:
 
-`trace-cmd show`
+`sudo trace-cmd show`
 
 - Stop the tracing but retain the buffers:
 
-`trace-cmd stop`
+`sudo trace-cmd stop`
 
 - Clear the trace buffers:
 
-`trace-cmd clear`
+`sudo trace-cmd clear`
 
 - Record a trace:
 
-`trace-cmd record`
+`sudo trace-cmd record`
 
 - Display the recorded trace:
 
-`trace-cmd report`
+`sudo trace-cmd report`
