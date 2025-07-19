@@ -2,6 +2,7 @@
 
 > Display file contents in hexadecimal, decimal, octal, or ASCII.
 > Useful for inspecting dump file, binary data, or debug output.
+> See also: `hexyl`, `od`, `xxd`.
 > More information: <https://manned.org/man/freebsd/hexdump.1>.
 
 - Print the hexadecimal representation of a file, replacing duplicate lines by `*`:
