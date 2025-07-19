@@ -5,24 +5,24 @@
 
 - Scan for available networks:
 
-`wpa_cli scan`
+`sudo wpa_cli scan`
 
 - Show scan results:
 
-`wpa_cli scan_results`
+`sudo wpa_cli scan_results`
 
 - Add a network:
 
-`wpa_cli add_network {{number}}`
+`sudo wpa_cli {{[add_n|add_network]}} {{number}}`
 
 - Set a network's SSID:
 
-`wpa_cli set_network {{number}} ssid "{{SSID}}"`
+`sudo wpa_cli {{[set_n|set_network]}} {{number}} ssid "{{SSID}}"`
 
 - Enable network:
 
-`wpa_cli enable_network {{number}}`
+`sudo wpa_cli {{[en|enable_network]}} {{number}}`
 
 - Save config:
 
-`wpa_cli save_config`
+`sudo wpa_cli {{[sa|save_config]}}`
