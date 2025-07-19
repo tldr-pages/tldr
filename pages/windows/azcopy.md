@@ -5,7 +5,7 @@
 
 - Log in to an Azure Tenant:
 
-`azopy login`
+`azcopy login`
 
 - Upload a local file:
 

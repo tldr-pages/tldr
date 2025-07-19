@@ -4,7 +4,7 @@
 > En PowerShell, este comando es un alias de `Set-Location`. Esta documentación está basada en la versión del símbolo del sistema (`cmd`) de `cd`.
 > Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Vea la documentación del comando PowerShell equivalente:
+- Muestra la documentación del comando PowerShell equivalente:
 
 `tldr set-location`
 
