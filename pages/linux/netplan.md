@@ -1,7 +1,7 @@
 # netplan
 
 > Network configuration utility using YAML.
-> More information: <https://netplan.io/>.
+> More information: <https://netplan.readthedocs.io/en/stable/cli/>.
 
 - Apply a network configuration and make it persistent:
 
@@ -17,7 +17,7 @@
 
 - Try configuration changes without applying them permanently:
 
-`sudo netplan try --timeout={{seconds}}`
+`sudo netplan try --timeout {{seconds}}`
 
 - Return to previous working configuration after failed apply:
 
