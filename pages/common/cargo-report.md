@@ -5,12 +5,12 @@
 
 - Display a report:
 
-`cargo report {{future-incompatibilities|...}}`
+`cargo report future-incompatibilities`
 
 - Display a report with the specified Cargo-generated ID:
 
-`cargo report {{future-incompatibilities|...}} --id {{id}}`
+`cargo report future-incompatibilities --id {{id}}`
 
 - Display a report for the specified package:
 
-`cargo report {{future-incompatibilities|...}} --package {{package}}`
+`cargo report future-incompatibilities {{[-p|--package]}} {{package}}`
