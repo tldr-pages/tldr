@@ -1,4 +1,4 @@
-# terraria
+# Terraria
 
 > Create and start a headless Terraria server.
 > More information: <https://terraria.wiki.gg/wiki/Server>.
