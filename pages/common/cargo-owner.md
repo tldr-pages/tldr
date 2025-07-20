@@ -5,15 +5,15 @@
 
 - Invite the given user or team as an owner:
 
-`cargo owner --add {{username|github:org_name:team_name}} {{crate}}`
+`cargo owner {{[-a|--add]}} {{username|github:org_name:team_name}} {{crate}}`
 
 - Remove the given user or team as an owner:
 
-`cargo owner --remove {{username|github:org_name:team_name}} {{crate}}`
+`cargo owner {{[-r|--remove]}} {{username|github:org_name:team_name}} {{crate}}`
 
 - List owners of a crate:
 
-`cargo owner --list {{crate}}`
+`cargo owner {{[-l|--list]}} {{crate}}`
 
 - Use the specified registry (registry names can be defined in the configuration - the default is <https://crates.io>):
 
