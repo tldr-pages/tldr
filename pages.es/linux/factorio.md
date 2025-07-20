@@ -7,7 +7,7 @@
 
 `{{ruta/a/factorio}} --create {{ruta/al/archivo_guardado.zip}}`
 
--Inicia un servidor de Factorio:
+- Inicia un servidor de Factorio:
 
 `{{ruta/a/factorio}} --start-server {{ruta/al/archivo_guardado.zip}}`
 
