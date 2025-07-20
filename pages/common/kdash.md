@@ -7,7 +7,7 @@
 
 `kdash`
 
-- Show dashboard in debug mode and write logs:
+- Show dashboard in debug mode and write logs to a file in the current directory:
 
 `kdash {{[-d|--debug]}}`
 
