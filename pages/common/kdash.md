@@ -15,6 +15,6 @@
 
 `kdash {{[-t|--tick-rate]}} {{100}}`
 
-- Set the polling rate(must be multiples of the tick rate):
+- Set the polling rate (must be a multiple of the tick rate):
 
 `kdash {{[-t|--tick-rate]}} {{200}} {{[-p|--poll-rate]}} {{400}}`
