@@ -21,7 +21,7 @@
 
 - Unmount one or more devices:
 
-`systemd-mount {{[-u|--umount]}} {{path/to/mount_point_or_device1}} {{path/to/mount_point_or_device2}}`
+`systemd-mount {{[-u|--umount]}} {{path/to/mount_point_or_device1 path/to/mount_point_or_device2 ...}}`
 
 - Mount a file system (image or block device) with a specific file system type:
 
