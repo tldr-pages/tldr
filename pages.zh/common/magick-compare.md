@@ -6,8 +6,8 @@
 
 - 比较两个图片：
 
-`magick compare {{到/图片1/的路径.png}} {{到/图片2/的路径.png}} {{到/比较图片/的路径.png}}`
+`magick compare {{路径/到/图片1.png}} {{路径/到/图片2.png}} {{路径/到/比较图片.png}}`
 
 - 使用特定的算法比较两个图片：
 
-`magick compare -verbose -metric {{PSNR}} {{到/图片1/的路径.png}} {{到/图片2/的路径.png}} {{到/比较图片/的路径.png}}`
+`magick compare -verbose -metric {{PSNR}} {{路径/到/图片1.png}} {{路径/到/图片2.png}} {{路径/到/比较图片.png}}`
