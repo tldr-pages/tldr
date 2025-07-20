@@ -5,4 +5,4 @@
 
 - Remove an installed binary:
 
-`cargo remove {{package_spec}}`
+`cargo uninstall {{package_spec}}`
