@@ -17,11 +17,11 @@
 
 - تنفيذ كود JavaScript من سطر الأوامر:
 
-`node -e "{{code}}"`
+`node {{[-e|--eval]}} "{{code}}"`
 
 - تنفيذ وطباعة النتيجة، مفيد لطباعة إصدارات تبعيات node:
 
-`node -p "process.versions"`
+`node {{[-p|--print]}} "process.versions"`
 
 - تفعيل المصحح (inspector)، مع إيقاف التنفيذ حتى يتم الاتصال بمصحح الأخطاء (debugger) بمجرد تحليل الكود المصدري بالكامل:
 
