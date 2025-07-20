@@ -3,7 +3,7 @@
 > Display various kinds of reports.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-report.html>.
 
-- Display a report:
+- Display a report of crates which will eventually stop compiling:
 
 `cargo report future-incompatibilities`
 
