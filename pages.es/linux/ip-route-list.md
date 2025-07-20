@@ -11,9 +11,9 @@
 
 `ip {{[r|route]}} {{[l|lista]}} {{[t|table]}} {{main|254}}`
 
-- Mostrar la tabla de enrutamiento local:
+- Muestra la tabla de enrutamiento local:
 
-`ip {{[r|route]}} {{[l|list]}}} {{[t|table]}} {{local|255}}`
+`ip {{[r|route]}} {{[l|list]}} {{[t|table]}} {{local|255}}`
 
 - Muestra todas las tablas de enrutamiento:
 
