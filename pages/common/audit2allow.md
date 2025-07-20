@@ -29,7 +29,7 @@
 
 `audit2allow {{[-p|--policy]}} {{path/to/policyfile}}`
 
-- Limit analysis to messages with a type specified in `RegEx`:
+- Limit analysis to messages with a type specified in `regex`:
 
 `audit2allow {{[-t|--type]}} {{type_regex}}`
 
