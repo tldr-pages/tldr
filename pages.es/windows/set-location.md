@@ -4,30 +4,30 @@
 > Nota: Este comando sólo se puede utilizar a través de PowerShell.
 > Más información: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-location>.
 
-- Va al directorio especificado:
+- Ir al directorio especificado:
 
 `Set-Location {{ruta\al\directorio}}`
 
-- Va a un directorio específico en una unidad diferente:
+- Ir a un directorio específico en una unidad diferente:
 
 `Set-Location {{C}}:{{ruta\al\directorio}}`
 
-- Va y muestra la ubicación del directorio especificado:
+- Ir y muestra la ubicación del directorio especificado:
 
 `Set-Location {{ruta\al\directorio}} -PassThru`
 
-- Sube al padre del directorio actual:
+- Subir al directorio padre del directorio actual:
 
 `Set-Location ..`
 
-- Va al directorio principal del usuario actual:
+- Ir al directorio principal del usuario actual:
 
 `Set-Location ~`
 
-- Regresa/va al directorio elegido anteriormente:
+- Regresar/ir al directorio elegido anteriormente:
 
 `Set-Location {{-|+}}`
 
-- Va a la raíz de la unidad actual:
+- Ir a la raíz de la unidad actual:
 
 `Set-Location \`
