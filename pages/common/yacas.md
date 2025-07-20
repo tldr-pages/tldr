@@ -13,7 +13,7 @@
 
 - While in a `yacas` session, display an example:
 
-`{{Example()}};`
+`Example();`
 
 - Quit from a `yacas` session:
 
