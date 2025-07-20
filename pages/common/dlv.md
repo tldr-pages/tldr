@@ -21,7 +21,7 @@
 
 - Attach to a running process and begin debugging:
 
-`div attach {{pid}}`
+`dlv attach {{pid}}`
 
 - Compile and begin tracing a program:
 
