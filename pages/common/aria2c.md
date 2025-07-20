@@ -18,7 +18,7 @@
 
 - Download the same file from different mirrors and verify the checksum of the downloaded file:
 
-`aria2c --checksum {{sha-256}}={{hash}} {{"url1" "url2" "url3" ...}}`
+`aria2c --checksum {{sha-256}}={{hash}} {{"url1" "url2" ...}}`
 
 - Download the URIs listed in a file with a specific number of parallel downloads:
 
