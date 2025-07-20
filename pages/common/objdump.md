@@ -19,6 +19,10 @@
 
 `objdump {{[-M|--disassembler-options]}} intel {{[-d|--disassemble]}} {{path/to/binary}}`
 
+- Display the symbol table:
+
+`objdump {{[-t|--syms]}} {{path/to/binary}}`
+
 - Display a complete binary hex dump of all sections:
 
 `objdump {{[-s|--full-contents]}} {{path/to/binary}}`
