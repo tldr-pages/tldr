@@ -34,4 +34,4 @@
 
 - Build only the specified binary:
 
-`cargo --bin {{name}}`
+`cargo rustc --bin {{name}}`
