@@ -5,11 +5,11 @@
 
 - Add files to a changelist, creating the changelist if it does not exist:
 
-`svn changelist {{changelist_name}} {{path/to/file1}} {{path/to/file2}}`
+`svn changelist {{changelist_name}} {{path/to/file1 path/to/file2 ...}}`
 
 - Remove files from a changelist:
 
-`svn changelist --remove {{path/to/file1}} {{path/to/file2}}`
+`svn changelist --remove {{path/to/file1 path/to/file2 ...}}`
 
 - Remove the whole changelist at once:
 

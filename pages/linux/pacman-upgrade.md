@@ -6,7 +6,7 @@
 
 - Install one or more packages from files:
 
-`sudo pacman -U {{path/to/package1.pkg.tar.zst}} {{path/to/package2.pkg.tar.zst}}`
+`sudo pacman -U {{path/to/package1.pkg.tar.zst path/to/package2.pkg.tar.zst ...}}`
 
 - Install a package without prompting:
 
