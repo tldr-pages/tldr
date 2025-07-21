@@ -9,7 +9,7 @@
 
 - Zeige die Logs und aktualisiere sie automatisch:
 
-`docker logs -f {{container_name}}`
+`docker logs {{[-f|--follow]}} {{container_name}}`
 
 - Zeige die letzten 5 Zeilen:
 
@@ -17,7 +17,7 @@
 
 - Zeige die Logs und füge ihnen Zeitstempel hinzu:
 
-`docker logs -t {{container_name}}`
+`docker logs {{[-t|--timestamps]}} {{container_name}}`
 
 - Zeige Logs vor einem bestimmten Zeitpunkt der Ausführung des Containers (bspw. 23m, 10s, 2013-01-02T13:23:37):
 
