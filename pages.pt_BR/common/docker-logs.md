@@ -13,7 +13,7 @@
 
 - Exibe as últimas 5 linhas:
 
-`docker logs {{nome_do_container}} --tail {{5}}`
+`docker logs {{nome_do_container}} {{[-n|--tail]}} {{5}}`
 
 - Exibe logs e adiciona a informação de hora ao log:
 

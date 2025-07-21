@@ -13,7 +13,7 @@
 
 - Son 5 kaydı yazdır:
 
-`docker logs {{konteyner_ismi}} --tail {{5}}`
+`docker logs {{konteyner_ismi}} {{[-n|--tail]}} {{5}}`
 
 - Kayıtları yazdır ve zaman damgaları ile iliştir:
 

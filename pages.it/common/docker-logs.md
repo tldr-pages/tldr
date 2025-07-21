@@ -13,7 +13,7 @@
 
 - Mostra le ultime 5 righe:
 
-`docker logs {{nome_container}} --tail {{5}}`
+`docker logs {{nome_container}} {{[-n|--tail]}} {{5}}`
 
 - Mostra i log mettendo un timestamp in coda:
 

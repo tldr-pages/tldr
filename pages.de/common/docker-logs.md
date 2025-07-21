@@ -13,7 +13,7 @@
 
 - Zeige die letzten 5 Zeilen:
 
-`docker logs {{container_name}} --tail {{5}}`
+`docker logs {{container_name}} {{[-n|--tail]}} {{5}}`
 
 - Zeige die Logs und füge ihnen Zeitstempel hinzu:
 

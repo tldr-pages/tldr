@@ -13,7 +13,7 @@
 
 - Afficher les 5 dernière lignes des journaux d'un conteneur :
 
-`docker logs {{nom_du_conteneur}} --tail {{5}}`
+`docker logs {{nom_du_conteneur}} {{[-n|--tail]}} {{5}}`
 
 - Afficher les journaux d'un conteneur avec l'horodatage :
 
