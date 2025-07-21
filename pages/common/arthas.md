@@ -14,7 +14,7 @@
 
 - Exit the current Arthas client without affecting other clients. equals `exit`、`logout`、`q` command:
 
-`exit|quit|logout|q`
+`{{exit|quit|logout|q}}`
 
 - Terminate the Arthas server, all the Arthas clients connecting to this server will be disconnected:
 
