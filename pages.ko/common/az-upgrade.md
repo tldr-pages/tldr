@@ -14,4 +14,4 @@
 
 - 확인 메시지를 표시하지 않고 Azure CLI 및 확장을 업그레이드:
 
-`az version --all --yes`
+`az upgrade --all --yes`
