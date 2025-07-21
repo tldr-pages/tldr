@@ -6,24 +6,24 @@
 
 - Install one or more packages from files:
 
-`sudo pacman {{[-U|--upgrade]}} {{path/to/package1.pkg.tar.zst path/to/package2.pkg.tar.zst ...}}`
+`sudo pacman -U {{path/to/package1.pkg.tar.zst path/to/package2.pkg.tar.zst ...}}`
 
 - Install a package without prompting:
 
-`sudo pacman {{[-U|--upgrade]}} --noconfirm {{path/to/package.pkg.tar.zst}}`
+`sudo pacman -U --noconfirm {{path/to/package.pkg.tar.zst}}`
 
 - Overwrite conflicting files during a package installation:
 
-`sudo pacman {{[-U|--upgrade]}} --overwrite {{path/to/file}} {{path/to/package.pkg.tar.zst}}`
+`sudo pacman -U --overwrite {{path/to/file}} {{path/to/package.pkg.tar.zst}}`
 
-- Install a package, skipping the dependency version checks:
+- Install a package, skipping the [d]ependency version checks:
 
-`sudo pacman {{[-Ud|--upgrade --nodeps]}} {{path/to/package.pkg.tar.zst}}`
+`sudo pacman -Ud {{path/to/package.pkg.tar.zst}}`
 
-- Fetch and print packages that would be affected by upgrade (does not install any packages):
+- Fetch and [p]rint packages that would be affected by upgrade (does not install any packages):
 
-`pacman {{[-Up|--upgrade --print]}} {{path/to/package.pkg.tar.zst}}`
+`pacman -Up {{path/to/package.pkg.tar.zst}}`
 
-- Display help:
+- Display [h]elp:
 
-`pacman {{[-Uh|--upgrade --help]}}`
+`pacman -Uh`

@@ -5,34 +5,34 @@
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://manned.org/pacman.8>.
 
-- Synchronize and update all packages:
+- [S]ynchronize and update all packages:
 
-`sudo pacman {{[-Syu|--sync --refresh --sysupgrade]}}`
+`sudo pacman -Syu`
 
 - Install a new package:
 
-`sudo pacman {{[-S|--sync]}} {{package}}`
+`sudo pacman -S {{package}}`
 
-- Remove a package and its dependencies:
+- [R]emove a package and its dependencies:
 
-`sudo pacman {{[-Rs|--remove --recursive]}} {{package}}`
+`sudo pacman -Rs {{package}}`
 
-- Search the package database for a regular expression or keyword:
+- Search ([s]) the package database for a regular expression or keyword:
 
-`pacman {{[-Ss|--sync --search]}} "{{search_pattern}}"`
+`pacman -Ss "{{search_pattern}}"`
 
-- Search the database for packages containing a specific file:
+- Search the database for packages containing a specific [F]ile:
 
-`pacman {{[-F|--files]}} "{{file_name}}"`
+`pacman -F "{{file_name}}"`
 
-- List only the explicitly installed packages and versions:
+- List only the [e]xplicitly installed packages and versions:
 
-`pacman {{[-Qe|--query --explicit]}}`
+`pacman -Qe`
 
-- List orphan packages (installed as dependencies but not actually required by any package):
+- List orphan packages (installed as [d]ependencies but not actually required by any package):
 
-`pacman {{[-Qdtq|--query --deps --unrequired --quiet]}}`
+`pacman -Qtdq`
 
 - Empty the entire `pacman` cache:
 
-`sudo pacman {{[-Scc|--sync --clean --clean]}}`
+`sudo pacman -Scc`

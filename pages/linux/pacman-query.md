@@ -4,34 +4,34 @@
 > See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 
-- Query the local package database and list installed packages and versions:
+- [Q]uery the local package database and list installed packages and versions:
 
-`pacman {{[-Q|--query]}}`
+`pacman -Q`
 
-- List only packages and versions that were explicitly installed:
+- List only packages and versions that were [e]xplicitly installed:
 
-`pacman {{[-Qe|--query --explicit]}}`
+`pacman -Qe`
 
-- Find which package owns a file:
+- Find which package [o]wns a file:
 
-`pacman {{[-Qo|--query --owns]}} {{filename}}`
+`pacman -Qo {{filename}}`
 
-- Display information about an installed package:
+- Display information about an [i]nstalled package:
 
-`pacman {{[-Qi|--query --info]}} {{package}}`
+`pacman -Qi {{package}}`
 
-- Display the list of files owned by a specific package:
+- Display the [l]ist of files owned by a specific package:
 
-`pacman {{[-Ql|--query --list]}} {{package}}`
+`pacman -Ql {{package}}`
 
-- List orphan packages (installed as dependencies but unrequired by any package and print in quiet mode (only package name is displayed)):
+- List orphan packages (installed as [d]ependencies but unrequired ([t]) by any package and print in [q]uiet mode (only package name is displayed)):
 
-`pacman {{[-Qdtq|--query --deps --unrequired --quiet]}}`
+`pacman -Qdtq`
 
-- List installed packages foreign to the repository database:
+- List installed packages foreign ([m]) to the repository database:
 
-`pacman {{[-Qm|--query --foreign]}}`
+`pacman -Qm`
 
-- List packages that can be upgraded:
+- List packages that can be [u]pgraded:
 
-`pacman {{[-Qu|--query --upgrades]}}`
+`pacman -Qu`

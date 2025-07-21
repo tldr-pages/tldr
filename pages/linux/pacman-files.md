@@ -6,24 +6,24 @@
 
 - Update the package database:
 
-`sudo pacman {{[-Fy|--files --refresh]}}`
+`sudo pacman -Fy`
 
-- Find the package that owns a specific file:
+- Find the package that owns a specific [F]ile:
 
-`pacman {{[-F|--files]}} {{filename}}`
+`pacman -F {{filename}}`
 
-- Find the package that owns a specific file, using a regular expression:
+- Find the package that owns a specific [F]ile, using a regular e[x]pression:
 
-`pacman {{[-Fx|--files --regex]}} '{{regular_expression}}'`
+`pacman -Fx '{{regular_expression}}'`
 
 - List only the package names:
 
-`pacman {{[-Fq|--files --quiet]}} {{filename}}`
+`pacman -Fq {{filename}}`
 
-- List the files owned by a specific package:
+- [l]ist the [F]iles owned by a specific package:
 
-`pacman {{[-Fl|--files --list]}} {{package}}`
+`pacman -Fl {{package}}`
 
-- Display help:
+- Display [h]elp:
 
-`pacman {{[-Fh|--files --help]}}`
+`pacman -Fh`
