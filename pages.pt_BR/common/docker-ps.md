@@ -9,28 +9,28 @@
 
 - Lista todos contêineres Docker (em execução e parados):
 
-`docker ps --all`
+`docker ps {{[-a|--all]}}`
 
 - Lista os últimos contêineres criados (inclui todos os estados):
 
-`docker ps --latest`
+`docker ps {{[-l|--latest]}}`
 
 - Filtra os contêineres que contêm uma substring no seu nome:
 
-`docker ps --filter "name={{nome}}"`
+`docker ps {{[-f|--filter]}} "name={{nome}}"`
 
 - Filtra todos os contêineres que compartilham uma determinada imagem com um antepassado:
 
-`docker ps --filter "ancestor={{imagem}}:{{tag}}"`
+`docker ps {{[-f|--filter]}} "ancestor={{imagem}}:{{tag}}"`
 
 - Filtra contêineres que tenham o código de saída:
 
-`docker ps --all --filter "exited={{código}}"`
+`docker ps {{[-a|--all]}} {{[-f|--filter]}} "exited={{código}}"`
 
 - Filtra contêineres por estado (created, running, removing, paused, exited e dead):
 
-`docker ps --filter "status={{estado}}"`
+`docker ps {{[-f|--filter]}} "status={{estado}}"`
 
 - Filtra contêineres que montem um volume específico ou tenham um volume montado em um caminho específico:
 
-`docker ps --filter "volume={{caminho/para/diretório}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker ps {{[-f|--filter]}} "volume={{caminho/para/diretório}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
