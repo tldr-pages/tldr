@@ -17,11 +17,11 @@
 
 - 执行输入的 JavaScript 代码：
 
-`node -e "{{代码}}"`
+`node {{[-e|--eval]}} "{{代码}}"`
 
 - 执行输入的 JavaScript 代码并显示结果，用于打印 node 的依赖版本：
 
-`node -p "process.versions"`
+`node {{[-p|--print]}} "process.versions"`
 
 - 启动检查器并在程序源码解析完成后等待调试器连接：
 
