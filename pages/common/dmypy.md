@@ -12,7 +12,7 @@
 
 `dmypy start`
 
-- Type check a file (needs the daemon to be running):
+- Type check a file (requires the daemon to be running):
 
 `dmypy run -- {{path/to/file.py}}`
 
