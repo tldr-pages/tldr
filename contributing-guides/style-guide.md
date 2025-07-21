@@ -117,7 +117,7 @@ most [tldr pages clients](https://github.com/tldr-pages/tldr/wiki/Clients) will 
 In this case, the information of the Windows version of `cd` (stored in `pages/windows/cd.md`) will be displayed by default to Windows users, and a generic/common version (stored in `pages/common/cd.md`)
 will be displayed for Linux, macOS, and other platform users.
 
-Try to match the page filename as close to the the invoked command as possible. Do not use the project name. The goal is to be as transparent as possible to the user when they are curious of a command.
+Try to match the page filename as close to the the invoked command as possible. Do not use the project name if possible. The goal is to be as transparent as possible to the user when they are curious of a command.
 
 ### Aliases
 
