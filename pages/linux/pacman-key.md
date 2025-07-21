@@ -14,19 +14,19 @@
 
 - List keys from the public keyring:
 
-`pacman-key {{[-l|--list-keys]}}`
+`pacman-key --list-keys`
 
 - Add the specified keys:
 
-`sudo pacman-key {{[-a|--add]}} {{path/to/keyfile.gpg}}`
+`sudo pacman-key --add {{path/to/keyfile.gpg}}`
 
 - Receive a key from a key server:
 
-`sudo pacman-key {{[-r|--recv-keys]}} "{{uid|name|email}}"`
+`sudo pacman-key --recv-keys "{{uid|name|email}}"`
 
 - Print the fingerprint of a specific key:
 
-`pacman-key {{[-f|--finger]}} "{{uid|name|email}}"`
+`pacman-key --finger "{{uid|name|email}}"`
 
 - Sign an imported key locally:
 
@@ -34,4 +34,4 @@
 
 - Remove a specific key:
 
-`sudo pacman-key {{[-d|--delete]}} "{{uid|name|email}}"`
+`sudo pacman-key --delete "{{uid|name|email}}"`
