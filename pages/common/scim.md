@@ -1,4 +1,4 @@
-# SC-IM
+# scim
 
 > A curses based, vim-like spreadsheet calculator.
 > Use `<h><j><k><l>` or `<ArrowKeys>` to navigate.
