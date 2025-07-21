@@ -6,32 +6,32 @@
 
 - Install a new package:
 
-`sudo pacman -S {{package}}`
+`sudo pacman {{[-S|--sync]}} {{package}}`
 
-- [S]ynchronize and refresh ([y]) the package database along with a sys[u]pgrade (add `--downloadonly` to only download the packages and not update them):
+- Synchronize and refresh the package database along with a sysupgrade (add `--downloadonly` to only download the packages and not update them):
 
-`sudo pacman -Syu`
+`sudo pacman {{[-Syu|--sync --refresh --sysupgrade]}}`
 
-- Update and [u]pgrade all packages and install a new one without prompting:
+- Update and upgrade all packages and install a new one without prompting:
 
-`sudo pacman -Syu --noconfirm {{package}}`
+`sudo pacman {{[-Syu|--sync --refresh --sysupgrade]}} --noconfirm {{package}}`
 
-- [s]earch the package database for a regular expression or keyword:
+- Search the package database for a regular expression or keyword:
 
-`pacman -Ss "{{search_pattern}}"`
+`pacman {{[-Ss|--sync --search]}} "{{search_pattern}}"`
 
-- Display [i]nformation about a package:
+- Display information about a package:
 
-`pacman -Si {{package}}`
+`pacman {{[-Si|--sync --info]}} {{package}}`
 
 - Overwrite conflicting files during a package update:
 
-`sudo pacman -Syu --overwrite {{path/to/file}}`
+`sudo pacman {{[-Syu|--sync --refresh --sysupgrade]}} --overwrite {{path/to/file}}`
 
-- Remove not installed packages and unused repositories from the cache (use the flags `Sc` to [c]lean all packages):
+- Remove not installed packages and unused repositories from the cache (use the flags `Sc` to clean all packages):
 
-`sudo pacman -Sc`
+`sudo pacman {{[-Sc|--sync --clean]}}`
 
 - Specify the package version that should be installed:
 
-`sudo pacman -S {{package}}={{version}}`
+`sudo pacman {{[-S|--sync]}} {{package}}={{version}}`

@@ -7,24 +7,24 @@
 
 - Mark a package as implicitly installed:
 
-`sudo pacman -D --asdeps {{package}}`
+`sudo pacman {{[-D|--database]}} --asdeps {{package}}`
 
 - Mark a package as explicitly installed:
 
-`sudo pacman -D --asexplicit {{package}}`
+`sudo pacman {{[-D|--database]}} --asexplicit {{package}}`
 
-- Chec[k] that all the package dependencies are installed:
+- Check that all the package dependencies are installed:
 
-`pacman -Dk`
+`pacman {{[-Dk|--database --check]}}`
 
-- Chec[k] the sync [D]atabase to ensure all specified dependencies of downloadable packages are available:
+- Check the sync database to ensure all specified dependencies of downloadable packages are available:
 
-`pacman -Dkk`
+`pacman {{[-Dkk|--database --check --check]}}`
 
-- Chec[k] and display in [q]uiet mode (only error messages are displayed):
+- Check and display in quiet mode (only error messages are displayed):
 
-`pacman -Dkq`
+`pacman {{[-Dkq|--database --check --quiet]}}`
 
-- Display [h]elp:
+- Display help:
 
-`pacman -Dh`
+`pacman {{[-Dh|--database --help]}}`

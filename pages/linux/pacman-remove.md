@@ -4,30 +4,30 @@
 > See also: `pacman`.
 > More information: <https://manned.org/pacman.8>.
 
-- [R]emove a package and its dependencies recur[s]ively:
+- Remove a package and its dependencies recursively:
 
-`sudo pacman -Rs {{package}}`
+`sudo pacman {{[-Rs|--remove --recursive]}} {{package}}`
 
-- [R]emove a package and its dependencies. Also do [n]ot save backups of configuration files:
+- Remove a package and its dependencies. Also do not save backups of configuration files:
 
-`sudo pacman -Rsn {{package}}`
+`sudo pacman {{[-Rsn|--remove --recursive --nosave]}} {{package}}`
 
-- [R]emove a package without prompting:
+- Remove a package without prompting:
 
-`sudo pacman -R --noconfirm {{package}}`
+`sudo pacman {{[-R|--remove]}} --noconfirm {{package}}`
 
-- [R]emove orphan packages (installed as [d]ependencies but no[t] required by any package):
+- Remove orphan packages (installed as dependencies but not required by any package):
 
-`sudo pacman -Rsn $(pacman -Qdtq)`
+`sudo pacman {{[-Rsn|--remove --recursive --nosave]}} $(pacman {{[-Qdtq|--query --deps --unrequired --quiet]}})`
 
-- [R]emove a package and [c]ascade that to all packages that depend on it:
+- Remove a package and cascade that to all packages that depend on it:
 
-`sudo pacman -Rc {{package}}`
+`sudo pacman {{[-Rc|--remove --cascade]}} {{package}}`
 
-- List and [p]rint packages that would be affected (does not [R]emove any packages):
+- List and print packages that would be affected (does not remove any packages):
 
-`pacman -Rp {{package}}`
+`pacman {{[-Rp|--remove --print]}} {{package}}`
 
-- Display [h]elp:
+- Display help:
 
-`pacman -Rh`
+`pacman {{[-Rh|--remove --help]}}`
