@@ -6,16 +6,16 @@
 
 - Vypsat stav všech síťových rozhraní:
 
-`nmcli device status`
+`nmcli {{[d|device]}}`
 
 - Vypsat všechny dostupné přístupové body Wi-Fi:
 
-`nmcli device wifi`
+`nmcli {{[d|device]}} {{[w|wifi]}}`
 
 - Připojit se k Wi-Fi síťi s uvedeným SSID (budete vyzváni k zadání hesla):
 
-`nmcli --ask device wifi connect {{ssid}}`
+`nmcli {{[d|device]}} {{[w|wifi]}} {{[c|connect]}} {{ssid}} {{[-a|--ask]}}`
 
 - Vypsat heslo a QR kód pro aktuální Wi-Fi síť:
 
-`nmcli device wifi show-password`
+`nmcli {{[d|device]}} {{[w|wifi]}} {{[s|show-password]}}`

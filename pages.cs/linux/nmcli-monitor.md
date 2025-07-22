@@ -6,4 +6,4 @@
 
 - Spustit monitorování změn NetworkManageru:
 
-`nmcli monitor`
+`nmcli {{[m|monitor]}}`

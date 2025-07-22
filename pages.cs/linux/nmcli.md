@@ -1,19 +1,19 @@
 # nmcli
 
 > Spravuje síťovou konfiguraci pomocí NetworkManageru.
-> Více Informací: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Více informací: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
 
-- Zobrazit dokumentaci pro běžící `nmcli` jako skrytý/polkit NetworkManager agent:
+- Zobrazit dokumentaci pro správu síťových rozhraní a navázání nových Wi-Fi připojení:
 
-`tldr nmcli agent`
+`tldr nmcli device`
 
 - Zobrazit dokumentaci pro správu síťových spojení:
 
 `tldr nmcli connection`
 
-- Zobrazit dokumentaci pro správu síťových rozhraní a navázání nových Wi-Fi připojení:
+- Zobrazit dokumentaci pro běžící `nmcli` jako skrytý/polkit NetworkManager agent:
 
-`tldr nmcli device`
+`tldr nmcli agent`
 
 - Zobrazit dokumentaci pro správu obecných nastavení NetworkManageru:
 

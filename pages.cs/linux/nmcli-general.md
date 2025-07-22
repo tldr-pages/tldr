@@ -6,24 +6,24 @@
 
 - Zobrazit obecný stav NetworkManageru:
 
-`nmcli general`
+`nmcli {{[g|general]}}`
 
 - Zobrazit hostitelské jméno aktuálního zařízení:
 
-`nmcli general hostname`
+`nmcli {{[g|general]}} {{[h|hostname]}}`
 
 - Změnit hostitelské jméno aktuálního zařízení:
 
-`sudo nmcli general hostname {{nove_hostitelske_jmeno}}`
+`sudo nmcli {{[g|general]}} {{[h|hostname]}} {{nove_hostitelske_jmeno}}`
 
 - Zobrazit oprávění NetworkManageru:
 
-`nmcli general permissions`
+`nmcli {{[g|general]}} {{[p|permissions]}}`
 
 - Zobrazit aktuální úroveň logů a domén:
 
-`nmcli general logging`
+`nmcli {{[g|general]}} {{[l|logging]}}`
 
 - Nastavit úroveň logů a/nebo domén (všechny dostupné domény najdete pomocí `man NetworkManager.conf`):
 
-`nmcli general logging level {{INFO|OFF|ERR|WARN|DEBUG|TRACE}} domain {{domena_1,domena_2,...}}`
+`sudo nmcli {{[g|general]}} {{[l|logging]}} {{[l|level]}} {{INFO|OFF|ERR|WARN|DEBUG|TRACE}} domain {{domena_1,domena_2,...}}`
