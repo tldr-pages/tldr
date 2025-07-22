@@ -18,7 +18,7 @@
 
 - Display help for a specific subcommand:
 
-`gitea admin --help`
+`gitea {{admin}} --help`
 
 - Display help:
 
