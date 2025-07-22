@@ -12,7 +12,7 @@
 
 `gitea migrate`
 
-- Esegui comandi amministrativi integrati (come la gestione utenti):
+- Esegui comandi amministrativi integrati per la gestione utenti o delle autenticazioni:
 
 `gitea admin user list`
 
