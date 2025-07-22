@@ -1,6 +1,6 @@
 # gitea
 
-> A command-line tool for administering Gitea, a lightweight Git hosting server.
+> Administering Gitea, a lightweight Git hosting server.
 > Requires a configured `app.ini` file or environment variables.
 > More information: <https://docs.gitea.com/administration/command-line>.
 
