@@ -1,41 +1,29 @@
 # gitea
 
-Uno strumento da riga di comando per amministrare Gitea, un server Git leggero e autogestito.
+> A command-line tool for administering Gitea, a lightweight Git hosting server.
+> Requires a configured `app.ini` file or environment variables.
+> More information: <https://docs.gitea.com/administration/command-line>.
 
-> Richiede un file `app.ini` configurato o variabili d'ambiente.
-> Maggiori informazioni: <https://docs.gitea.com/administration/command-line>.
+- Show the available commands:
 
-- Mostra i comandi disponibili:
-  ```sh
-  gitea help
-    ````
+`gitea help`
 
-* Avvia il server web Gitea usando la configurazione predefinita:
+- Run the Gitea web server using the default configuration:
 
-  ```sh
-  gitea web
-  ```
+`gitea web`
 
-* Mostra la versione attuale di Gitea:
+- Display the current Gitea version:
 
-  ```sh
-  gitea --version
-  ```
+`gitea --version`
 
-* Crea lo schema e le tabelle nel database:
+- Create the necessary database schema and tables:
 
-  ```sh
-  gitea migrate
-  ```
+`gitea migrate`
 
-* Esegui comandi amministrativi integrati (come la gestione utenti):
+- Run built-in admin commands (like user management):
 
-  ```sh
-  gitea admin user list
-  ```
+`gitea admin user list`
 
-* Mostra la guida di un sottocomando specifico:
+- Show help for a specific subcommand:
 
-  ```sh
-  gitea admin --help
-  ```
+`gitea admin --help`
