@@ -4,17 +4,9 @@
 > Requires a configured `app.ini` file or environment variables.
 > More information: <https://docs.gitea.com/administration/command-line>.
 
-- Show the available commands:
-
-`gitea help`
-
 - Run the Gitea web server using the default configuration:
 
 `gitea web`
-
-- Display the current Gitea version:
-
-`gitea --version`
 
 - Create the necessary database schema and tables:
 
@@ -27,3 +19,11 @@
 - Show help for a specific subcommand:
 
 `gitea admin --help`
+
+- Display the current Gitea version:
+
+`gitea --version`
+
+- Show the available commands:
+
+`gitea help`
