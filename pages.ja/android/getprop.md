@@ -7,11 +7,11 @@
 
 `getprop`
 
-- 指定したプロパティーの情報を指定します:
+- 指定したプロパティーの情報を表示します:
 
 `getprop {{property}}`
 
-- SDK API レベルを表示させます:
+- SDK API レベルを表示します:
 
 `getprop {{ro.build.version.sdk}}`
 
