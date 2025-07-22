@@ -3,22 +3,22 @@
 > Termux 用パッケージ管理ユーティリティ。
 > もっと詳しく: <https://wiki.termux.com/wiki/Package_Management>。
 
-- すべてのインストールされたパッケージをアップグレードします。:
+- すべてのインストールされたパッケージをアップグレードします:
 
 `pkg upgrade`
 
-- パッケージをインストールします。:
+- パッケージをインストールします:
 
 `pkg install {{package}}`
 
-- パッケージをアンインストールします。:
+- パッケージをアンインストールします:
 
 `pkg uninstall {{package}}`
 
-- パッケージを再インストールします。:
+- パッケージを再インストールします:
 
 `pkg reinstall {{package}}`
 
-- パッケージを検索します。:
+- パッケージを検索します:
 
 `pkg search {{package}}`

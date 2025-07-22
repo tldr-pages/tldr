@@ -3,30 +3,30 @@
 > Androidのシステムプロパティについての情報を表示します。
 > もっと詳しく: <https://manned.org/getprop>。
 
-- Android のシステムプロパティについての情報を表示します。:
+- Android のシステムプロパティについての情報を表示します:
 
 `getprop`
 
-- 指定したプロパティーの情報を指定します。:
+- 指定したプロパティーの情報を指定します:
 
 `getprop {{property}}`
 
-- SDK API レベルを表示させます。:
+- SDK API レベルを表示させます:
 
 `getprop {{ro.build.version.sdk}}`
 
-- Androidのバージョン情報を表示します。:
+- Androidのバージョン情報を表示します:
 
 `getprop {{ro.build.version.release}}`
 
-- Androidのデバイス情報を表示します。:
+- Androidのデバイス情報を表示します:
 
 `getprop {{ro.vendor.product.model}}`
 
-- OEMのアンロック状況を表示します。:
+- OEMのアンロック状況を表示します:
 
 `getprop {{ro.oem_unlock_supported}}`
 
-- Android の Wi-FiカードのMACアドレスを表示します。:
+- Android の Wi-FiカードのMACアドレスを表示します:
 
 `getprop {{ro.boot.wifimacaddr}}`
