@@ -18,7 +18,7 @@
 
 - Mostra la guida di un sottocomando specifico:
 
-`gitea admin --help`
+`gitea {{admin}} --help`
 
 - Mostra la pagina di aiuto:
 
