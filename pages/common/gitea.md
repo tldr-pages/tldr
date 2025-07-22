@@ -12,9 +12,9 @@
 
 `gitea migrate`
 
-- Run built-in admin commands (like user management):
+- Run administrative subcommands for user management or authentication management:
 
-`gitea admin user list`
+`gitea admin {{user list}}`
 
 - Display help for a specific subcommand:
 
