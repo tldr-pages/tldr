@@ -1,7 +1,7 @@
 # logcat
 
 > エラー時に発生したスタックトレースを含む、アプリケーションによって作成されたログや、システムメッセージのログを削除します。
-> もっと詳しく: <https://developer.android.com/tools/logcat>.
+> もっと詳しく: <https://developer.android.com/tools/logcat>。
 
 - システムログを表示します。:
 
