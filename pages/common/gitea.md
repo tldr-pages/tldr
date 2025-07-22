@@ -16,7 +16,7 @@
 
 `gitea admin user list`
 
-- Show help for a specific subcommand:
+- Display help for a specific subcommand:
 
 `gitea admin --help`
 
