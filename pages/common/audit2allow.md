@@ -33,6 +33,6 @@
 
 `audit2allow {{[-t|--type]}} {{type_regex}}`
 
-- Show help:
+- Display help:
 
 `audit2allow {{[-h|--help]}}`
