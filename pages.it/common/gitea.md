@@ -20,10 +20,10 @@
 
 `gitea admin --help`
 
-- Mostra i comandi disponibili:
-
-`gitea help`
-
 - Mostra la versione attuale di Gitea:
 
 `gitea --version`
+
+- Mostra i comandi disponibili:
+
+`gitea help`
