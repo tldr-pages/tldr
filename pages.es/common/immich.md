@@ -1,4 +1,4 @@
-# immich-cli
+# immich
 
 > Immich tiene una interfaz de línea de comandos (CLI) que le permite realizar ciertas acciones desde la línea de comandos.
 > Vea también: `immich-go`.
