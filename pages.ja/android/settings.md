@@ -7,7 +7,7 @@
 
 `settings list {{global}}`
 
-- 指定した設定値を取得します。
+- 指定した設定値を取得します。:
 
 `settings get {{global}} {{airplane_mode_on}}`
 
