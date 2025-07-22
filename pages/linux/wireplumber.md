@@ -1,6 +1,6 @@
 # wireplumber
 
-> A modular session/policy manager for PipeWire and a GObject-based high-level library that wraps PipeWire’s API.
+> A modular session/policy manager for PipeWire and a GObject-based high-level library that wraps PipeWire's API.
 > See also: `wpctl`, `pipewire`.
 > More information: <https://pipewire.pages.freedesktop.org/wireplumber/>.
 
