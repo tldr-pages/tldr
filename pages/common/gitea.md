@@ -2,21 +2,21 @@
 
 A command-line tool for administering Gitea, a lightweight Git hosting server.
 
-> Requires a configured `app.ini` or environment variables.
-> More information: <https://docs.gitea.com/administration/command-line>.
+Requires a configured `app.ini` file or environment variables.  
+More information: https://docs.gitea.com/administration/command-line
 
 - Show the available commands:
   ```sh
   gitea help
-    ````
+  ````
 
-* Run Gitea web server using the default configuration:
+* Run the Gitea web server using the default configuration:
 
   ```sh
   gitea web
   ```
 
-* Display current Gitea version:
+* Display the current Gitea version:
 
   ```sh
   gitea --version
@@ -28,13 +28,13 @@ A command-line tool for administering Gitea, a lightweight Git hosting server.
   gitea migrate
   ```
 
-* Run the built-in admin commands (like user management):
+* Run built-in admin commands (like user management):
 
   ```sh
   gitea admin user list
   ```
 
-* Run a specific subcommand with help output:
+* Show help for a specific subcommand:
 
   ```sh
   gitea admin --help
