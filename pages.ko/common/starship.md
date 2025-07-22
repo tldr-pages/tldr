@@ -22,7 +22,7 @@
 
 - 기본 편집기에서 starship 구성 편집:
 
-`starship configure`
+`starship config`
 
 - 시스템 및 starship 구성에 대한 정보를 미리 채운 GitHub 이슈로 버그 보고서 생성:
 
