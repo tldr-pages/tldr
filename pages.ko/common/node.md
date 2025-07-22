@@ -17,11 +17,11 @@
 
 - 인수로 JavaScript 코드 평가:
 
-`node -e "{{코드}}"`
+`node {{[-e|--eval]}} "{{코드}}"`
 
 - 결과 평가 및 출력, node의 종속성 버전을 출력하는 데 유용:
 
-`node -p "process.versions"`
+`node {{[-p|--print]}} "process.versions"`
 
 - 인스펙터 활성화, 소스 코드가 완전히 구문 분석될 때까지 디버거가 연결될 때까지 실행 일시 중지:
 

@@ -26,4 +26,4 @@
 
 - Duplicate a quota to other users:
 
-`sudo edquota {{[-p|--prototype]}} {{reference_user}} {{destination_user1}} {{destination_user2}}`
+`sudo edquota {{[-p|--prototype]}} {{reference_user}} {{destination_user1 destination_user2 ...}}`

@@ -13,7 +13,7 @@
 
 - Send an email with files attached:
 
-`mutt -a {{file1}} {{file2}} -- {{recipient@example.com}}`
+`mutt -a {{file1 file2 ...}} -- {{recipient@example.com}}`
 
 - Specify a file to include as the message body:
 

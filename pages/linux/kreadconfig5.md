@@ -9,7 +9,7 @@
 
 - Read a key from a specific configuration file:
 
-`kwriteconfig5 --file {{path/to/file}} --group {{group_name}} --key {{key_name}}`
+`kreadconfig5 --file {{path/to/file}} --group {{group_name}} --key {{key_name}}`
 
 - Check if systemd is used to start the Plasma session:
 
