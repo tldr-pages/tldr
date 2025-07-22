@@ -4,17 +4,9 @@
 > Richiede un file `app.ini` configurato o variabili d'ambiente.
 > Maggiori informazioni: <https://docs.gitea.com/administration/command-line>.
 
-- Mostra i comandi disponibili:
-
-`gitea help`
-
 - Avvia il server web Gitea usando la configurazione predefinita:
 
 `gitea web`
-
-- Mostra la versione attuale di Gitea:
-
-`gitea --version`
 
 - Crea lo schema e le tabelle nel database:
 
@@ -27,3 +19,11 @@
 - Mostra la guida di un sottocomando specifico:
 
 `gitea admin --help`
+
+- Mostra i comandi disponibili:
+
+`gitea help`
+
+- Mostra la versione attuale di Gitea:
+
+`gitea --version`
