@@ -19,6 +19,6 @@
 
 `pm list packages {{keyword1 keyword2 ...}}`
 
-- 指定したアプリケーションのAPKのパスを表示します。：
+- 指定したアプリケーションのAPKのパスを表示します。:
 
 `pm path {{app}}`
