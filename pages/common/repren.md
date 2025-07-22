@@ -7,9 +7,9 @@
 
 `repren --dry-run --rename --literal --from '{{find_string}}' --to '{{replacement_string}}' {{*.png}}`
 
-- Do a dry-run renaming a directory of JPEGs with a regular expression:
+- Do a dry-run renaming a directory of JPEGs with a `regex`:
 
-`repren --rename --dry-run --from '{{regular_expression}}' --to '{{replacement_string}}' {{*.jpg}} {{*.jpeg}}`
+`repren --rename --dry-run --from '{{regex}}' --to '{{replacement_string}}' {{*.jpg}} {{*.jpeg}}`
 
 - Do a find-and-replace on the contents of a directory of CSV files:
 

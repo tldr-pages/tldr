@@ -23,7 +23,7 @@
 
 `ag foo {{[-G|--file-search-regex]}} bar`
 
-- Find files whose contents match a regular expression:
+- Find files whose contents match a `regex`:
 
 `ag '{{^ba(r|z)$}}'`
 

@@ -31,6 +31,6 @@
 
 `smbmap {{[-u|--username]}} {{username}} {{[-p|--password]}} {{password}} -d {{domain}} -H {{ip_or_hostname}} --upload {{path/to/file}} '{{/share_name/remote_filename}}'`
 
-- Display SMB shares and recursively list directories and files, searching for file content matching a regular expression:
+- Display SMB shares and recursively list directories and files, searching for file content matching a `regex`:
 
 `smbmap {{[-u|--username]}} {{username}} --prompt -H {{ip}} -R -F {{pattern}}`

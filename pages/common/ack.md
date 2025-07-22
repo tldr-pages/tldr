@@ -4,7 +4,7 @@
 > See also: `rg`, which is much faster.
 > More information: <https://beyondgrep.com/documentation>.
 
-- Search for files containing a string or regular expression in the current directory recursively:
+- Search for files containing a string or `regex` in the current directory recursively:
 
 `ack "{{search_pattern}}"`
 
