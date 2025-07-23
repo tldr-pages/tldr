@@ -7,7 +7,7 @@
 
 `gemini`
 
-- Send the output of another command to Gemini:
+- Send the output of another command to Gemini and exit immediately:
 
 `{{echo "Summarize the history of Rome"}} | gemini {{[-p|--prompt]}}`
 
