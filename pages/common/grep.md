@@ -1,6 +1,6 @@
 # grep
 
-> Find patterns in files using `regex`s.
+> Find patterns in files using `regex`es.
 > More information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Search for a pattern within a file:
