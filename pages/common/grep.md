@@ -15,7 +15,7 @@
 
 `grep {{[-rnI|--recursive --line-number --binary-files=without-match]}} "{{search_pattern}}" {{path/to/directory}}`
 
-- Use extended `regex`s (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
+- Use extended `regex`es (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
 
 `grep {{[-Ei|--extended-regexp --ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
 
