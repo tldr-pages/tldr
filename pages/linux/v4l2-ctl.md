@@ -5,7 +5,7 @@
 
 - List all video devices:
 
-`v4l2-ctl --list-devices`
+`v4l2-ctl {{[-A|--list-devices]}}`
 
 - List supported video formats and resolutions of default video device `/dev/video0`:
 
