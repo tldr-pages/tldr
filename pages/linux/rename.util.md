@@ -1,9 +1,8 @@
 # rename
 
 > Rename multiple files.
-> Note: This page refers to the command from the `util-linux` package.
-> For the Perl version, see `file-rename` or `perl-rename`.
-> Warning: This command has no safeguards and will overwrite files without prompting.
+> WARNING: This command will overwrite files without prompting unless the dry-run option is used.
+> Note: This page refers to the command from the `util-linux` package. For the Perl version, see `rename`.
 > More information: <https://manned.org/rename>.
 
 - Rename files using simple substitutions (substitute 'foo' with 'bar' wherever found):
