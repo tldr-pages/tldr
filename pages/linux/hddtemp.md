@@ -30,7 +30,7 @@
 - Enter debug mode to show S.M.A.R.T. fields and their values:
 
 `hddtemp {{-D|--debug}} {{type:}}{{/dev/sdX}}`
-       
+
 - Suppress compatibility check for drive types:
 
 `hddtemp {{-q|--quiet}} {{type:}}{{/dev/sdX}}`
