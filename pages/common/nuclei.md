@@ -17,20 +17,20 @@
 
 - Run HTTP [p]rotocol [t]ype templates of high and critical severity, [e]xporting results to [m]arkdown files inside a specific directory:
 
-`nuclei {{[-s|-severity]}} high,critical {{[-pt|-type]}} http {{[-u|-target]}} {{http://scanme.sh}} {{[-me|-markdown-export]}} {{markdown_directory}}`
+`nuclei {{[-s|-severity]}} high,critical {{[-pt|-type]}} http {{[-u|-target]}} {{http://example.com}} {{[-me|-markdown-export]}} {{markdown_directory}}`
 
 - Run all templates using a different [r]ate [l]imit and maximum [b]ulk [s]ize with silent output (only showing the findings):
 
-`nuclei {{[-rl|-rate-limit]}} {{150}} {{[-bs|-bulk-size]}} {{25}} {{[-c|-concurrency]}} {{25}} -silent {{[-u|-target]}} {{http://scanme.sh}}`
+`nuclei {{[-rl|-rate-limit]}} {{150}} {{[-bs|-bulk-size]}} {{25}} {{[-c|-concurrency]}} {{25}} -silent {{[-u|-target]}} {{http://example.com}}`
 
 - Run the WordPress [w]orkflow against a WordPress site:
 
-`nuclei {{[-w|-workflows]}} {{path/to/nuclei-templates/workflows/wordpress-workflow.yaml}} {{[-u|-target]}} {{https://sample.wordpress.site}}`
+`nuclei {{[-w|-workflows]}} {{path/to/nuclei-templates/workflows/wordpress-workflow.yaml}} {{[-u|-target]}} {{https://example.com}}`
 
 - Run one or more specific [t]emplates or directory with [t]emplates with [v]erbose output in `stderr` and [o]utput detected issues/vulnerabilities to a file:
 
-`nuclei {{[-t|-templates]}} {{path/to/nuclei-templates/http}} {{[-u|-target]}} {{http://scanme.sh}} {{[-v|-verbose]}} {{[-o|-output]}} {{results}}`
+`nuclei {{[-t|-templates]}} {{path/to/nuclei-templates/http}} {{[-u|-target]}} {{http://example.com}} {{[-v|-verbose]}} {{[-o|-output]}} {{results}}`
 
 - Run scan based on one or more [t]emplate [c]onditions:
 
-`nuclei {{[-tc|-template-condition]}} "{{contains(tags, 'xss') && contains(tags, 'cve')}}" {{[-u|-target]}} {{https://vulnerable.website}}`
+`nuclei {{[-tc|-template-condition]}} "{{contains(tags, 'xss') && contains(tags, 'cve')}}" {{[-u|-target]}} {{https://example.com}}`
