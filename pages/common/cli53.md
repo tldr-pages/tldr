@@ -21,7 +21,7 @@
 
 - Create a `www` subdomain pointing to an external address (must end with a dot):
 
-`cli53 {{[rc|rrcreate]}} {{example.com}} {{'www 300 CNAME lb.externalhost.com.'}}`
+`cli53 {{[rc|rrcreate]}} {{example.com}} {{'www 300 CNAME lb.example.com.'}}`
 
 - Create a `www` subdomain pointing to an IP address:
 
