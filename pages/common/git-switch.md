@@ -27,3 +27,7 @@
 - Switch to a branch and automatically merge the current branch and any uncommitted changes into it:
 
 `git switch {{[-m|--merge]}} {{branch_name}}`
+
+- Switch to a tag:
+
+`git switch {{[-d|--detach]}} {{tag}}`
