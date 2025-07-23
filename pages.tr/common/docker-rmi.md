@@ -13,7 +13,7 @@
 
 - Bir imgeyi zorla sil:
 
-`docker rmi --force {{imge}}`
+`docker rmi {{[-f|--force]}} {{imge}}`
 
 - Bir imgeyi etiketlenmemiş ana yollarını silmeden sil:
 

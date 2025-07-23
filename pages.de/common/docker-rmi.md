@@ -13,7 +13,7 @@
 
 - Erzwinge das Löschen eines Images:
 
-`docker rmi --force {{image}}`
+`docker rmi {{[-f|--force]}} {{image}}`
 
 - Lösche ein Image aber behalte Eltern-Images ohne Tag:
 
