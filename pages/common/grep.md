@@ -7,7 +7,7 @@
 
 `grep "{{search_pattern}}" {{path/to/file}}`
 
-- Search for an exact string (disables `regex`s):
+- Search for an exact string (disables `regex`es):
 
 `grep {{[-F|--fixed-strings]}} "{{exact_string}}" {{path/to/file}}`
 
