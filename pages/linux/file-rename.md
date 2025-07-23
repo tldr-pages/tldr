@@ -1,30 +1,7 @@
 # file-rename
 
-> Rename a file or group of files with a regular expression.
-> WARNING: This command will overwrite files without prompting unless the dry-run option is used.
-> Note: This page refers to the Perl version, also known as `file-rename`. For the `util-linux` version, see `rename.util`.
-> More information: <https://manned.org/file-rename>.
+> This command is an alias of `rename.file`.
 
-- Replace `from` with `to` in the filenames of the specified files:
+- View documentation for the original command:
 
-`rename 's/{{from}}/{{to}}/' {{*.txt}}`
-
-- Dry-run - display which changes would occur without performing them:
-
-`rename {{[-n|--dry-run]}} 's/{{from}}/{{to}}/' {{*.txt}}`
-
-- Change the extension:
-
-`rename 's/\.old$/\.new/' {{*.txt}}`
-
-- Change to lowercase (use `-f` in case-insensitive filesystems):
-
-`rename {{[f|--force]}} 'y/A-Z/a-z/' {{*.txt}}`
-
-- Capitalize first letter of every word in the name:
-
-`rename {{[f|--force]}} 's/\b(\w)/\U$1/g' {{*.txt}}`
-
-- Replace spaces with underscores:
-
-`rename 's/\s+/_/g' {{*.txt}}`
+`tldr rename.file`

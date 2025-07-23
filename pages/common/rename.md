@@ -2,7 +2,7 @@
 
 > Rename a file or group of files with a regular expression.
 > WARNING: This command will overwrite files without prompting unless the dry-run option is used.
-> Note: This page refers to the Perl version, also known as `file-rename`. For the `util-linux` version, see `rename.util`.
+> Note: This page refers to the Perl version, also known as `file-rename`.
 > More information: <https://manned.org/file-rename>.
 
 - Replace `from` with `to` in the filenames of the specified files:
@@ -11,7 +11,7 @@
 
 - Dry-run - display which changes would occur without performing them:
 
-`rename {{[-n|--dry-run]}} 's/{{from}}/{{to}}/' {{*.txt}}`
+`rename {{-n}} 's/{{from}}/{{to}}/' {{*.txt}}`
 
 - Change the extension:
 
