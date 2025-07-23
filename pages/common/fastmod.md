@@ -8,7 +8,7 @@
 
 `fastmod {{regex}} {{replacement}}`
 
-- Replace a regex pattern in case-insensitive mode in specific files or directories:
+- Replace a `regex` in case-insensitive mode in specific files or directories:
 
 `fastmod --ignore-case {{regex}} {{replacement}} -- {{path/to/file path/to/directory ...}}`
 
