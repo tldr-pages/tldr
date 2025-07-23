@@ -29,4 +29,4 @@
 
 - Drag and select a window on screen to display screenkey:
 
-`screenkey {{[-p|--position]}} fixed {{[-g|--geometry]}} {{$(slop {{[-n|--nodecorations]}} {{[-f|--format]}} '%g')}}`
+`screenkey {{[-p|--position]}} fixed {{[-g|--geometry]}} {{$(slop --nodecorations --format '%g')}}`

@@ -9,4 +9,4 @@
 
 - 如果有多个匹配结果则打印所有结果：
 
-`which -a {{executable}}`
+`which {{[-a|--all]}} {{executable}}`

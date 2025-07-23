@@ -5,8 +5,8 @@
 
 - Display help:
 
-`btrfs version --help`
+`btrfs {{[v|version]}} --help`
 
 - Display version:
 
-`btrfs version`
+`btrfs {{[v|version]}}`
