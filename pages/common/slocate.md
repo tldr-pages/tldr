@@ -32,6 +32,6 @@
 
 `slocate {{[-d|--database]}} {{path/to/directory}}`
 
-- Search the `slocate` database using a specific `regular expression`:
+- Search the `slocate` database using a specific `regex` string:
 
-`slocate {{[-r|--regexp]}} {{regular_expression}}`
+`slocate {{[-r|--regex]}} {{regex}}`
