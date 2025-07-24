@@ -10,23 +10,23 @@
 
 - Generate a random string that matches a regular expression:
 
-`exrex --random '{{regular_expression}}'`
+`exrex {{[-r|--random]}} '{{regex}}'`
 
 - Generate at most 100 strings that match a regular expression:
 
-`exrex --max-number {{100}} '{{regular_expression}}'`
+`exrex {{[-m|--max-number]}} {{100}} '{{regex}}'`
 
 - Generate all possible strings that match a regular expression, joined by a custom delimiter string:
 
-`exrex --delimiter "{{, }}" '{{regular_expression}}'`
+`exrex {{[-d|--delimiter]}} "{{, }}" '{{regex}}'`
 
 - Print count of all possible strings that match a regular expression:
 
-`exrex --count '{{regular_expression}}'`
+`exrex {{[-c|--count]}} '{{regex}}'`
 
 - Simplify a regular expression:
 
-`exrex --simplify '{{ab|ac}}'`
+`exrex {{[-s|--simplify]}} '{{ab|ac}}'`
 
 - Print eyes:
 
