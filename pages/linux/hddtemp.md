@@ -33,4 +33,4 @@
 
 - Suppress compatibility check for drive types:
 
-`hddtemp {{-q|--quiet}} {{type:}}{{/dev/sdX}}`
+`hddtemp {{[-q|--quiet]}} {{type:}}{{/dev/sdX}}`
