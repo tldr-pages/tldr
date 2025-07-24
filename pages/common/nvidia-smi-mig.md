@@ -10,3 +10,7 @@
 - List GPU instances:
 
 `nvidia-smi mig {{[-lgi|--list-gpu-instances]}}`
+
+- Display help:
+
+`nvidia-smi mig {{[-h|--help]}}`
