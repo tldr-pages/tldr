@@ -19,7 +19,7 @@
 
 - Change to lowercase (use `-f` in case-insensitive filesystems):
 
-`rename {{[f|--force]}} 'y/A-Z/a-z/' {{*.txt}}`
+`rename {{[-f|--force]}} 'y/A-Z/a-z/' {{*.txt}}`
 
 - Capitalize first letter of every word in the name:
 
