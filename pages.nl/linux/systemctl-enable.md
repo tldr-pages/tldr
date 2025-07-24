@@ -5,7 +5,7 @@
 
 - Schakel het automatisch opstarten van een service aan:
 
-`systemctl disable {{eenheid}}`
+`systemctl enable {{eenheid}}`
 
 - Schakel het automatisch opstarten van een service aan en start het nu:
 
