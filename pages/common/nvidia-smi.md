@@ -14,3 +14,7 @@
 - Monitor overall GPU usage with 1-second update interval:
 
 `nvidia-smi dmon`
+
+- Create a compute instance from device 0:
+
+`nvidia-smi mig {{[-cgi|--create-gpu-instance]}} {{0}} {{[-C|--default-compute-instance]}}`
