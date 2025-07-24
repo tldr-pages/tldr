@@ -25,7 +25,7 @@
 
 - Wake ATA drive before attempting to read temperature:
 
-`hddtemp {{-w|--wake-up}} {{type:}}{{/dev/sdX}}`
+`hddtemp {{[-w|--wake-up]}} {{type:}}{{/dev/sdX}}`
 
 - Enter debug mode to show S.M.A.R.T. fields and their values:
 
