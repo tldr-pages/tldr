@@ -17,15 +17,15 @@
 
 - Lee un archivo de sumas de comprobación SHA1 y nombres de archivo y verifica que todos los archivos tengan sumas de comprobación coincidentes:
 
-`sha1sum {{[-c|--check]}}} {{ruta/al/archivo.sha1}}`
+`sha1sum {{[-c|--check]}} {{ruta/al/archivo.sha1}}`
 
 - Solo muestra un mensaje cuando faltan archivos o cuando falla la verificación:
 
-`sha1sum {{[-c|--check]}}} --quiet {{ruta/al/archivo.sha1}}`
+`sha1sum {{[-c|--check]}} --quiet {{ruta/al/archivo.sha1}}`
 
 - Solo muestra un mensaje cuando falla la verificación, ignorando los archivos que faltan:
 
-`sha1sum --ignore-missing {{[-c|--check]}}} --quiet {{ruta/a/archivo.sha1}}`
+`sha1sum --ignore-missing {{[-c|--check]}} --quiet {{ruta/a/archivo.sha1}}`
 
 - Comprueba una suma de comprobación SHA1 conocida de un archivo:
 
