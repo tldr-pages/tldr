@@ -14,3 +14,11 @@
 - Display current usage statistics for device 0:
 
 `dcgmi dmon {{[-e|--field-id]}}{{1001,1002,1003,1004,1005}}`
+
+- Display help:
+
+`dcgmi {{[-h|--help]}}`
+
+- Display help for a subcommand:
+
+`dcgmi {{subcommand}} {{[-h|--help]}}`
