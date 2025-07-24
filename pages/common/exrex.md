@@ -1,7 +1,7 @@
 # exrex
 
 > Generate all/random matching strings for a `regex`.
-> It can also simplify `regex`.
+> It can also simplify `regex`es.
 > More information: <https://github.com/asciimoo/exrex>.
 
 - Generate all possible strings that match a `regex`:
