@@ -6,16 +6,16 @@
 
 - Lees een PGM afbeelding, pas dithering toe en sla het op naar een bestand:
 
-`ppmditherbw {{pad/naar/afbeelding.pgm}} > {{pad/naar/bestand.pgm}}`
+`pamditherbw {{pad/naar/afbeelding.pgm}} > {{pad/naar/bestand.pgm}}`
 
 - Gebruik de gespecificeerde kwantificering methode:
 
-`ppmditherbw -{{floyd|fs|atkinson|threshold|hilbert|...}} {{pad/naar/afbeelding.pgm}} > {{pad/naar/bestand.pgm}}`
+`pamditherbw -{{floyd|fs|atkinson|threshold|hilbert|...}} {{pad/naar/afbeelding.pgm}} > {{pad/naar/bestand.pgm}}`
 
 - Gebruik de atkinson kwantificering methode en de gespecifieerde seed voor een pseudo-random nummer generator:
 
-`ppmditherbw {{[-a|-atkinson]}} {{[-r|-randomseed]}} {{1337}} {{pad/naar/afbeelding.pgm}} > {{pad/naar/bestand.pgm}}`
+`pamditherbw {{[-a|-atkinson]}} {{[-r|-randomseed]}} {{1337}} {{pad/naar/afbeelding.pgm}} > {{pad/naar/bestand.pgm}}`
 
 - Specificeer de drempel waarde van de kwantificering methodes die een vorm van drempels uitvoeren:
 
-`ppmditherbw -{{fs|atkinson|thresholding}} {{[-va|-value]}} {{0.3}} {{pad/naar/afbeelding.pgm}} > {{pad/naar/bestand.pgm}}`
+`pamditherbw -{{fs|atkinson|thresholding}} {{[-va|-value]}} {{0.3}} {{pad/naar/afbeelding.pgm}} > {{pad/naar/bestand.pgm}}`
