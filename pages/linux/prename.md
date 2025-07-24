@@ -1,6 +1,6 @@
 # prename
 
-> This command is an alias of `rename.file`.
+> This command is an alias of `rename`.
 
 - View documentation for the original command:
 
