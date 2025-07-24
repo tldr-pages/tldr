@@ -4,7 +4,7 @@
 
 - View documentation for the Perl version:
 
-`tldr rename.file`
+`tldr -p common rename`
 
 - View documentation for the `util-linux` package:
 
