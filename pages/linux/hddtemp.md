@@ -17,7 +17,7 @@
 
 - Print only numeric value of temperature without unit:
 
-`hddtemp {{-n|--numeric}} {{type:}}{{/dev/sdX}}`
+`hddtemp {{[-n|--numeric]}} {{type:}}{{/dev/sdX}}`
 
 - Define the unit used to denote temperature:
 
