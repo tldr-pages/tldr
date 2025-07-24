@@ -1,6 +1,6 @@
 # dcgmi
 
-> Manage and monitor NVIDIA Data Center GPUs
+> Manage and monitor NVIDIA Data Center GPUs.
 > More information: <https://developer.nvidia.com/dcgm>.
 
 - Display information on all available GPUs and processes using them:
