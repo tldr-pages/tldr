@@ -23,7 +23,7 @@
 
 - Capitalize first letter of every word in the name:
 
-`rename {{[f|--force]}} 's/\b(\w)/\U$1/g' {{*.txt}}`
+`rename {{[-f|--force]}} 's/\b(\w)/\U$1/g' {{*.txt}}`
 
 - Replace spaces with underscores:
 
