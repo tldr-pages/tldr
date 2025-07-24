@@ -1,6 +1,6 @@
 # nvidia-smi mig
 
-> Manage multi-instance GPUs.
+> Manage Nvidia multi-instance GPUs.
 > More information: <https://docs.nvidia.com/datacenter/tesla/mig-user-guide/index.html>.
 
 - Create a compute instance from device 0:
