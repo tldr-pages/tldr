@@ -17,11 +17,11 @@
 
 - Muestra texto de ayuda para cualquier comando en la CLI interactiva:
 
-`> {{radare2_comando}}?`
+`{{radare2_comando}}?`
 
 - Ejecuta un comando desde la CLI interactiva:
 
-`> !{{shell_comando}}`
+`!{{shell_comando}}`
 
 - Vierte los bytes crudos del bloque actual a un archivo:
 

@@ -1,4 +1,4 @@
-# immich-cli
+# immich
 
 > Immich에는 커멘드라인에서 특정 작업을 수행할 수 있는 커멘드라인 인터페이스 (CLI)가 있음.
 > 참고: `immich-go`.
