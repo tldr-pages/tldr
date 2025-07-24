@@ -13,7 +13,7 @@
 
 - Log temperatures to syslog every `n` seconds:
 
-`hddtemp {{-S|--syslog}} {{nseconds}} {{type:}}{{/dev/sdX}}`
+`hddtemp {{[-S|--syslog]}} {{nseconds}} {{type:}}{{/dev/sdX}}`
 
 - Print only numeric value of temperature without unit:
 
