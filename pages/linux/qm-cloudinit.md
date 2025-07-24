@@ -5,20 +5,20 @@
 
 - Configure cloudinit settings for a specific user and set password for the user:
 
-`qm cloudinit {{vm_id}} -user={{user}} -password={{password}}`
+`qm {{[clou|cloudinit]}} {{vm_id}} -user={{user}} -password={{password}}`
 
 - Configure cloudinit settings for a specific user and set password for the user with a specific SSH key:
 
-`qm cloudinit {{vm_id}} -user={{user}} -password={{password}} -sshkey={{ssh_key}}`
+`qm {{[clou|cloudinit]}} {{vm_id}} -user={{user}} -password={{password}} -sshkey={{ssh_key}}`
 
 - Set the hostname for a specific virtual machine:
 
-`qm cloudinit {{vm_id}} -hostname={{hostname}}`
+`qm {{[clou|cloudinit]}} {{vm_id}} -hostname={{hostname}}`
 
 - Configure the network interface settings for a specific virtual machine:
 
-`qm cloudinit {{vm_id}} -ipconfig {{ipconfig}}`
+`qm {{[clou|cloudinit]}} {{vm_id}} -ipconfig {{ipconfig}}`
 
 - Configure a shell script to execute before `cloud-ini` is run on a virtual machine:
 
-`qm cloudinit {{vm_id}} -pre {{script}}`
+`qm {{[clou|cloudinit]}} {{vm_id}} -pre {{script}}`
