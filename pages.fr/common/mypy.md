@@ -1,6 +1,6 @@
 # mypy
 
-> Vérifie les types dans un code Pyhon.
+> Vérifie les types dans un code Python.
 > Plus d'informations : <https://mypy.readthedocs.io/en/stable/running_mypy.html>.
 
 - Vérifie les types pour un fichier spécifique :
