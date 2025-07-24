@@ -5,7 +5,7 @@
 
 - Display temperature of a specific drive:
 
-`hddtemp {{type:}}{{/dev/sdX}}`
+`hddtemp {{type}}:{{/dev/sdX}}`
 
 - Display temperature of a SATA drive assigned to `sda`:
 
