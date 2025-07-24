@@ -11,7 +11,7 @@
 
 `free -{{b|k|m|g}}`
 
-- Toon geheugen in mens-leesbare eenheden:
+- Toon geheugen in leesbare eenheden:
 
 `free {{[-h|--human]}}`
 
