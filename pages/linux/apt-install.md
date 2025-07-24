@@ -2,7 +2,7 @@
 
 > Install packages for Debian-based distributions.
 > More information: <https://manned.org/apt.8>.
-> 
+
 - Install a package, or update it to the latest version:
 
 `sudo apt install {{package}}`
