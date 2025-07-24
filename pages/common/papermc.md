@@ -22,3 +22,7 @@
 - Restore world data from a backup:
 
 `papermc restore {{filename}}`
+
+- Display help:
+
+`papermc`
