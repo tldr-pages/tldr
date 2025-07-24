@@ -21,7 +21,7 @@
 
 - Define the unit used to denote temperature:
 
-`hddtemp {{-u|--unit}} {{C|F}} {{type:}}{{/dev/sdX}}`
+`hddtemp {{[-u|--unit]}} {{C|F}} {{type:}}{{/dev/sdX}}`
 
 - Wake ATA drive before attempting to read temperature:
 
