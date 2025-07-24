@@ -17,4 +17,4 @@
 
 - Ververs de uitvoer elke 2 seconden:
 
-`free {{[-s|--seconds]}} {{2}}`
+`free {{[-s|--seconds]}} 2`
