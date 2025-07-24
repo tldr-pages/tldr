@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr rename.file`
+`tldr -p common rename`

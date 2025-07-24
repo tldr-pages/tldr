@@ -6,6 +6,6 @@
 
 `tldr -p common rename`
 
-- View documentation for the `util-linux` package:
+- View documentation for the `util-linux` version:
 
 `tldr rename.util`
