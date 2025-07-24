@@ -9,9 +9,7 @@
 
 - Do a dry-run renaming a directory of JPEGs with a `regex`:
 
-
 `repren --rename {{[-n|--dry-run]}} --from '{{regex}}' --to '{{replacement_string}}' {{*.jpg}} {{*.jpeg}}`
-
 
 - Do a find-and-replace on the contents of a directory of CSV files:
 
