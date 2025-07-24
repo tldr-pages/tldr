@@ -13,24 +13,24 @@
 
 - Log temperatures to syslog every `n` seconds:
 
-`hddtemp {{[-S|--syslog]}} {{nseconds}} {{type:}}{{/dev/sdX}}`
+`hddtemp {{[-S|--syslog]}} {{nseconds}} {{type}}:{{/dev/sdX}}`
 
 - Print only numeric value of temperature without unit:
 
-`hddtemp {{[-n|--numeric]}} {{type:}}{{/dev/sdX}}`
+`hddtemp {{[-n|--numeric]}} {{type}}:{{/dev/sdX}}`
 
 - Define the unit used to denote temperature:
 
-`hddtemp {{[-u|--unit]}} {{C|F}} {{type:}}{{/dev/sdX}}`
+`hddtemp {{[-u|--unit]}} {{C|F}} {{type}}:{{/dev/sdX}}`
 
 - Wake ATA drive before attempting to read temperature:
 
-`hddtemp {{[-w|--wake-up]}} {{type:}}{{/dev/sdX}}`
+`hddtemp {{[-w|--wake-up]}} {{type}}:{{/dev/sdX}}`
 
 - Enter debug mode to show S.M.A.R.T. fields and their values:
 
-`hddtemp {{[-D|--debug]}} {{type:}}{{/dev/sdX}}`
+`hddtemp {{[-D|--debug]}} {{type}}:{{/dev/sdX}}`
 
 - Suppress compatibility check for drive types:
 
-`hddtemp {{[-q|--quiet]}} {{type:}}{{/dev/sdX}}`
+`hddtemp {{[-q|--quiet]}} {{type}}:{{/dev/sdX}}`
