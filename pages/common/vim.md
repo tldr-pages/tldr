@@ -29,9 +29,9 @@
 
 `</>{{search_pattern}}<Enter>`
 
-- Perform a regular expression substitution in the whole file:
+- Perform a `regex` substitution in the whole file:
 
-`<:>%s/{{regular_expression}}/{{replacement}}/g<Enter>`
+`<:>%s/{{regex}}/{{replacement}}/g<Enter>`
 
 - Display the line numbers:
 

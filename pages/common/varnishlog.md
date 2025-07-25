@@ -19,6 +19,6 @@
 
 `varnishlog -q 'ReqURL eq "{{/path}}"'`
 
-- Only display requests to paths matching a regular expression:
+- Only display requests to paths matching a `regex`:
 
 `varnishlog -q 'ReqURL ~ "{{regex}}"'`

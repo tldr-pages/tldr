@@ -12,9 +12,9 @@
 
 `pacman -F {{filename}}`
 
-- Find the package that owns a specific [F]ile, using a regular e[x]pression:
+- Find the package that owns a specific [F]ile, using a `rege[x]`:
 
-`pacman -Fx '{{regular_expression}}'`
+`pacman -Fx '{{regex}}'`
 
 - List only the package names:
 
