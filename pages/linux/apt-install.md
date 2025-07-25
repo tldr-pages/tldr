@@ -7,6 +7,6 @@
 
 `sudo apt install {{package}}`
 
-- Display verbose package version information:
+- Display verbose package version information during installation or update:
 
 `sudo apt install {{[-V|--verbose-versions]}} {{package}}`
