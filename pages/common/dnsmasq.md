@@ -1,7 +1,7 @@
 # dnsmasq
 
 > Lightweight DNS, DHCP, TFTP, and PXE server.
-> More information: <https://manned.org/dnsmasq>
+> More information: <https://manned.org/dnsmasq>.
 
 - Start dnsmasq with default configuration:
 
@@ -13,7 +13,7 @@
 
 - Specify a custom configuration file:
 
-`dnsmasq --conf-file={{/path/to/config.conf}}`
+`dnsmasq --conf-file=/path/to/config.conf`
 
 - Enable verbose logging:
 
