@@ -15,7 +15,7 @@
 
 `whatis --wildcard {{net*}}`
 
-- Search man page descriptions with a regular expression:
+- Search man page descriptions with a `regex`:
 
 `whatis --regex '{{wish[0-9]\.[0-9]}}'`
 

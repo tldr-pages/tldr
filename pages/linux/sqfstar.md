@@ -19,6 +19,6 @@
 
 `zstdcat {{archive.tar.zst}} | sqfstar {{filesystem.squashfs}} "{{*.gz}}"`
 
-- Create a squashfs filesystem from a tar archive compressed with `lz4`, excluding files matching a regular expression:
+- Create a squashfs filesystem from a tar archive compressed with `lz4`, excluding files matching a `regex`:
 
-`lz4cat {{archive.tar.lz4}} | sqfstar {{filesystem.squashfs}} -regex "{{regular_expression}}"`
+`lz4cat {{archive.tar.lz4}} | sqfstar {{filesystem.squashfs}} -regex "{{regex}}"`

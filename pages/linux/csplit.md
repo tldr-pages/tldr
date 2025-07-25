@@ -20,6 +20,6 @@
 
 `csplit {{path/to/file}} 5 {{[-f|--prefix]}} {{prefix}}`
 
-- Split a file at a line matching a regular expression:
+- Split a file at a line matching a `regex`:
 
-`csplit {{path/to/file}} /{{regular_expression}}/`
+`csplit {{path/to/file}} /{{regex}}/`

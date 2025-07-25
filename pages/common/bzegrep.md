@@ -1,13 +1,13 @@
 # bzegrep
 
-> Find extended regular expression patterns in `bzip2` compressed files using `egrep`.
+> Find extended `regex` patterns in `bzip2` compressed files using `egrep`.
 > More information: <https://manned.org/bzegrep>.
 
-- Search for extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`) in a compressed file (case-sensitive):
+- Search for extended `regex` (supporting `?`, `+`, `{}`, `()` and `|`) in a compressed file (case-sensitive):
 
 `bzegrep "{{search_pattern}}" {{path/to/file}}`
 
-- Search for extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`) in a compressed file (case-insensitive):
+- Search for extended `regex` (supporting `?`, `+`, `{}`, `()` and `|`) in a compressed file (case-insensitive):
 
 `bzegrep {{[-i|--ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
 
