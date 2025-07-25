@@ -22,4 +22,3 @@
 - Print an action's execution history:
 
 `trunk actions histoty <action>`
-
