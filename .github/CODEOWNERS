@@ -10,7 +10,7 @@
 /pages.ko/ @IMHOJEONG @Zamoca42 @CodePsy-2001
 /pages.nl/ @sebastiaanspeck @leonvsc @Waples @dmmqz
 /pages.pl/ @acuteenvy @spageektti
-/pages.pt_BR/ @isaacvicente @vitorhcl @renie
+/pages.pt_BR/ @isaacvicente @renie
 /pages.pt_PT/ @waldyrious
 /pages.ta/ @kbdharun
 /pages.tr/ @tansiret
@@ -39,7 +39,7 @@
 /contributing-guides/*.ko.md @IMHOJEONG @Zamoca42 @CodePsy-2001
 /contributing-guides/*.nl.md @sebastiaanspeck @leonvsc @Waples @dmmqz
 /contributing-guides/*.pl.md @acuteenvy @spageektti
-/contributing-guides/*.pt_BR.md @isaacvicente @vitorhcl @renie
+/contributing-guides/*.pt_BR.md @isaacvicente @renie
 /contributing-guides/*.pt_PT.md @waldyrious
 /contributing-guides/*.ta.md @kbdharun
 /contributing-guides/*.tr.md @tansiret
