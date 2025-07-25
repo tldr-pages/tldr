@@ -5,20 +5,20 @@
 
 - Create a virtual machine:
 
-`qm create {{100}}`
+`qm {{[cr|create]}} {{100}}`
 
 - Automatically start the machine after creation:
 
-`qm create {{100}} --start 1`
+`qm {{[cr|create]}} {{100}} --start 1`
 
 - Specify the type of operating system on the machine:
 
-`qm create {{100}} --ostype {{win10}}`
+`qm {{[cr|create]}} {{100}} --ostype {{win10}}`
 
 - Replace an existing machine (requires archiving it):
 
-`qm create {{100}} --archive {{path/to/backup_file.tar}} --force 1`
+`qm {{[cr|create]}} {{100}} --archive {{path/to/backup_file.tar}} --force 1`
 
 - Specify a script that is executed automatically depending on the state of the virtual machine:
 
-`qm create {{100}} --hookscript {{path/to/script.pl}}`
+`qm {{[cr|create]}} {{100}} --hookscript {{path/to/script.pl}}`
