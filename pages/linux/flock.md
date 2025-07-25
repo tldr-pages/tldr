@@ -22,4 +22,4 @@
 
 - Archive a bunch of files, waiting for the previous tar command to finish if it's still running elsewhere and holding the same lock file:
 
-`flock {{/tmp/backup.lock}} {{tar -cvf ./backup.tar ./data}}`
+`flock {{/tmp/backup.lock}} {{tar -cvf ./backup.tar ./data/}}`
