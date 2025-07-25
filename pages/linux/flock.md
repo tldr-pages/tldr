@@ -20,6 +20,6 @@
 
 `flock {{path/to/lock.lock}} {{[-w|--timeout]}} 10 {{command}}`
 
-- Archive a bunch of files, waiting for the previous tar command to finish if it's still running elsewhere and holding the same lock file:
+- Backup a bunch of files, waiting for the previous tar command to finish if it's still running elsewhere and holding the same lock file (can be used in a cronjob that runs often):
 
 `flock {{/tmp/backup.lock}} {{tar -cvf ./backup.tar ./data/}}`
