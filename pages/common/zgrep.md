@@ -23,9 +23,9 @@
 
 `zgrep {{[-e|--regexp]}} "{{pattern_1}}" {{[-e|--regexp]}} "{{pattern_2}}" {{path/to/compressed/file}}`
 
-- Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`):
+- Use extended `regex` (supporting `?`, `+`, `{}`, `()` and `|`):
 
-`zgrep {{[-E|--extended-regexp]}} {{regular_expression}} {{path/to/file}}`
+`zgrep {{[-E|--extended-regexp]}} {{regex}} {{path/to/file}}`
 
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 

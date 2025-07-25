@@ -11,7 +11,7 @@
 
 `sudo btrfs {{[rest|restore]}} {{[-D|--dry-run]}} {{path/to/btrfs_device}} {{path/to/target_directory}}`
 
-- Restore files matching a given regex ([c]ase-insensitive) files to be restored from a btrfs filesystem (all parent directories of target file(s) must match as well):
+- Restore files matching a given `regex` ([c]ase-insensitive) files to be restored from a btrfs filesystem (all parent directories of target file(s) must match as well):
 
 `sudo btrfs {{[rest|restore]}} --path-regex {{regex}} -c {{path/to/btrfs_device}} {{path/to/target_directory}}`
 

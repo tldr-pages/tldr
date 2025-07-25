@@ -1,30 +1,30 @@
 # exrex
 
-> Generate all/random matching strings for a regular expression.
-> It can also simplify regular expressions.
+> Generate all/random matching strings for a `regex`.
+> It can also simplify `regex`es.
 > More information: <https://github.com/asciimoo/exrex>.
 
-- Generate all possible strings that match a regular expression:
+- Generate all possible strings that match a `regex`:
 
-`exrex '{{regular_expression}}'`
+`exrex '{{regex}}'`
 
-- Generate a random string that matches a regular expression:
+- Generate a random string that matches a `regex`:
 
 `exrex {{[-r|--random]}} '{{regex}}'`
 
-- Generate at most 100 strings that match a regular expression:
+- Generate at most 100 strings that match a `regex`:
 
 `exrex {{[-m|--max-number]}} {{100}} '{{regex}}'`
 
-- Generate all possible strings that match a regular expression, joined by a custom delimiter string:
+- Generate all possible strings that match a `regex`, joined by a custom delimiter string:
 
 `exrex {{[-d|--delimiter]}} "{{, }}" '{{regex}}'`
 
-- Print count of all possible strings that match a regular expression:
+- Print count of all possible strings that match a `regex`:
 
 `exrex {{[-c|--count]}} '{{regex}}'`
 
-- Simplify a regular expression:
+- Simplify a `regex`:
 
 `exrex {{[-s|--simplify]}} '{{ab|ac}}'`
 
