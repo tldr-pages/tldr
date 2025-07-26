@@ -4,9 +4,9 @@
 > See also: `xbps`.
 > More information: <https://manned.org/xbps-query.1>.
 
-- Search for a package in remote repositories using a regular expression or a keyword (if `--regex` is omitted):
+- Search for a package in remote repositories using a `regex` or a keyword (if `--regex` is omitted):
 
-`xbps-query {{[-s|--search]}} {{regular_expression|keyword}} --repository --regex`
+`xbps-query {{[-s|--search]}} {{regex|keyword}} --repository --regex`
 
 - Show information about an installed package:
 

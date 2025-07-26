@@ -5,7 +5,7 @@
 
 - Search for remote gem(s) and show all available versions:
 
-`gem search {{regular_expression}} --all`
+`gem search {{regex}} --all`
 
 - Install the latest version of a gem:
 

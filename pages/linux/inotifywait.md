@@ -15,9 +15,9 @@
 
 `inotifywait {{[-m|--monitor]}} {{[-r|--recursive]}} {{path/to/directory}}`
 
-- Watch a directory for changes, excluding files, whose names match a regular expression:
+- Watch a directory for changes, excluding files, whose names match a `regex`:
 
-`inotifywait {{[-m|--monitor]}} {{[-r|--recursive]}} --exclude "{{regular_expression}}" {{path/to/directory}}`
+`inotifywait {{[-m|--monitor]}} {{[-r|--recursive]}} --exclude "{{regex}}" {{path/to/directory}}`
 
 - Watch a file for changes, exiting when no event occurs for 30 seconds:
 

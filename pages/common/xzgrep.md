@@ -1,6 +1,6 @@
 # xzgrep
 
-> Search files possibly compressed with `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, or `zstd` using regular expressions.
+> Search files possibly compressed with `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, or `zstd` using `regex`.
 > See also: `grep`.
 > More information: <https://manned.org/xzgrep>.
 
@@ -8,7 +8,7 @@
 
 `xzgrep "{{search_pattern}}" {{path/to/file}}`
 
-- Search for an exact string (disables regular expressions):
+- Search for an exact string (disables `regex`):
 
 `xzgrep {{[-F|--fixed-strings]}} "{{exact_string}}" {{path/to/file}}`
 
@@ -16,7 +16,7 @@
 
 `xzgrep {{[-n|--line-number]}} "{{search_pattern}}" {{path/to/file}}`
 
-- Use extended regular expressions (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
+- Use extended `regex` (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
 
 `xzgrep {{[-E|--extended-regexp]}} {{[-i|--ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
 
