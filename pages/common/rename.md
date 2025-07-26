@@ -3,7 +3,7 @@
 > Rename a file or group of files with a regular expression.
 > WARNING: This command will overwrite files without prompting unless the dry-run option is used.
 > Note: This page refers to the Perl version, also known as `file-rename`.
-> More information: <https://manned.org/prename>.
+> More information: <https://manned.org/file-rename>.
 
 - Replace `from` with `to` in the filenames of the specified files:
 
