@@ -11,7 +11,6 @@
 /pages.nl/ @sebastiaanspeck @leonvsc @Waples @dmmqz
 /pages.pl/ @acuteenvy @spageektti
 /pages.pt_BR/ @isaacvicente @renie
-/pages.pt_PT/ 
 /pages.ta/ @kbdharun
 /pages.tr/ @tansiret
 /pages.zh/ @blueskyson @einverne
@@ -40,7 +39,6 @@
 /contributing-guides/*.nl.md @sebastiaanspeck @leonvsc @Waples @dmmqz
 /contributing-guides/*.pl.md @acuteenvy @spageektti
 /contributing-guides/*.pt_BR.md @isaacvicente @renie
-/contributing-guides/*.pt_PT.md 
 /contributing-guides/*.ta.md @kbdharun
 /contributing-guides/*.tr.md @tansiret
 /contributing-guides/*.zh.md @blueskyson @einverne
