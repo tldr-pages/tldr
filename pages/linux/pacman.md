@@ -17,7 +17,7 @@
 
 `sudo pacman -Rs {{package}}`
 
-- Search ([s]) the package database for a regular expression or keyword:
+- Search ([s]) the package database for a `regex` or keyword:
 
 `pacman -Ss "{{search_pattern}}"`
 

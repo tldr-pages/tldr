@@ -1,7 +1,7 @@
 # deno
 
 > Un environnement d’exécution sécurisé pour JavaScript et TypeScript.
-> Plus d'informations : <https://deno.land>.
+> Plus d'informations : <https://docs.deno.com/runtime/reference/cli>.
 
 - Exécute un fichier JavaScript ou TypeScript :
 

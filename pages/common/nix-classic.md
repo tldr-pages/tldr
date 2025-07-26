@@ -7,7 +7,7 @@
 
 - Search for a package in nixpkgs via its name:
 
-`nix-env {{[-qaP|--query --available --attr-path]}} {{search_term_regexp}}`
+`nix-env {{[-qaP|--query --available --attr-path]}} {{search_term_regex}}`
 
 - Start a shell with the specified packages available:
 

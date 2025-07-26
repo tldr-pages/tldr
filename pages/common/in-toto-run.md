@@ -17,4 +17,4 @@
 
 - Scan the image using Trivy and generate link file:
 
-`in-toto-run {{[-n|--step-name]}} {{scan}} -k {{key_file}} {{[-p|--products]}} {{report.json}} -- {{/bin/sh -c "trivy {{[-o|--output]}} report.json {{[-f|--format]}} json <IMAGE>"}}`
+`in-toto-run {{[-n|--step-name]}} {{scan}} -k {{key_file}} {{[-p|--products]}} {{report.json}} -- {{/bin/sh -c "trivy --output report.json --format json <IMAGE>"}}`

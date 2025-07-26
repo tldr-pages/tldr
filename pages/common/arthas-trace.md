@@ -14,7 +14,7 @@
 
 - Trace the invoke chain of multiple classes or multiple methods:
 
-`trace -E {{class-pattern1|class-patter2}} {{method-pattern1|method-pattern2|method-pattern3}}`
+`trace -E {{class-pattern1}}|{{class-patter2}} {{method-pattern1}}|{{method-pattern2}}|{{method-pattern3}}`
 
 - Track method invoke chains, only display invoke information that exceeds 10 ms, and exit after 5 times:
 

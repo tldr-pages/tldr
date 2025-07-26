@@ -13,7 +13,7 @@
 
 - Itereer over een gegeven reeks nummers:
 
-`for {{variabele}} in {{{van}}..{{tot}}..{{stap}}}; do {{echo "Loop wordt uitgevoerd"}}; done`
+`for {{variabele}} in {{{van..tot..stap}}}; do {{echo "Loop wordt uitgevoerd"}}; done`
 
 - Itereer over een gegeven lijst van bestanden:
 

@@ -17,7 +17,7 @@
 
 - Fetch a specific structure:
 
-`fastfetch {{[-s|--structure]}} {{structure}}`
+`fastfetch {{[-s|--structure]}} {{os:kernel:de:cpu:gpu}}`
 
 - Use a specific logo:
 

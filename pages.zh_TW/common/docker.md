@@ -6,7 +6,7 @@
 
 - 列出所有 Docker 容器（包括停止的容器）：
 
-`docker ps --all`
+`docker ps {{[-a|--all]}}`
 
 - 透過映像檔啟動容器，並為容器命名：
 
@@ -24,9 +24,9 @@
 
 `docker images`
 
-- 從正在運行的容器內打開一個互動式 ([i]nteractive) 终端 ([t]ty) shell (`sh`)：
+- 從正在運行的容器內打開一個互動式 (interactive) 終端 shell (`sh`)：
 
-`docker exec -it {{容器名稱}} {{sh}}`
+`docker exec {{[-it|--interactive --tty]}} {{容器名稱}} {{sh}}`
 
 - 刪除一個停止的容器：
 
@@ -34,4 +34,4 @@
 
 - 獲取並查看容器的日誌：
 
-`docker logs -f {{容器名稱}}`
+`docker logs {{[-f|--follow]}} {{容器名稱}}`

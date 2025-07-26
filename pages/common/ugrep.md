@@ -7,7 +7,7 @@
 
 `ugrep {{[-Q|--query]}}`
 
-- Search the current directory recursively for files containing a regex search pattern:
+- Search the current directory recursively for files containing a `regex` search pattern:
 
 `ugrep "{{search_pattern}}"`
 

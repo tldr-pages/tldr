@@ -17,11 +17,11 @@
 
 - JavaScript kodunu argüman olarak geçerek değerlendir:
 
-`node -e "{{kod}}"`
+`node {{[-e|--eval]}} "{{kod}}"`
 
 - Sonucu değerlendir ve yazdır, Node.js bağımlılıklarının sürümlerini yazdırmak için kullanışlıdır:
 
-`node -p "process.versions"`
+`node {{[-p|--print]}} "process.versions"`
 
 - Denetleyiciyi etkinleştirerek, kaynak kodu tamamen ayrıştırıldıktan sonra bir hata ayıklayıcı bağlanana kadar yürütmeyi duraklatır:
 

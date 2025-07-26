@@ -9,7 +9,7 @@
 
 - Remove multiple dependencies:
 
-`uv remove {{package1}} {{package2}}`
+`uv remove {{package1 package2 ...}}`
 
 - Remove a development dependency:
 

@@ -13,7 +13,7 @@
 
 - Set the type of a partition:
 
-`sfdisk --part-type {{path/to/device}}} {{partition_number}} {{swap}}`
+`sfdisk --part-type {{path/to/device}} {{partition_number}} {{swap}}`
 
 - Delete a partition:
 

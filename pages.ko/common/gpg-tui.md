@@ -1,6 +1,6 @@
 # gpg-tui
 
-> GNU Public Guard용 터미널 사용자 인터페이스.
+> GNU Privacy Guard용 터미널 사용자 인터페이스.
 > 더 많은 정보: <https://github.com/orhun/gpg-tui>.
 
 - `gpg-tui` 시작:

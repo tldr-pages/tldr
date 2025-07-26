@@ -9,4 +9,4 @@
 
 - Se existe múltiplos executáveis que concidem com a pesquisa, exibe todos:
 
-`which -a {{executavél}}`
+`which {{[-a|--all]}} {{executavél}}`

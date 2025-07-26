@@ -1,6 +1,7 @@
 # hexdump
 
 > An ASCII, decimal, hexadecimal, octal dump.
+> See also: `hexyl`, `od`, `xxd`.
 > More information: <https://manned.org/hexdump>.
 
 - Print the hexadecimal representation of a file, replacing duplicate lines by '*':

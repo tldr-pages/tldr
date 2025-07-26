@@ -15,6 +15,10 @@
 
 `pulumi preview --diff`
 
+- Preview updates using a Policy Pack (without Pulumi Cloud, best on CI/CD):
+
+`pulumi preview --policy-pack {{path/to/directory}}`
+
 - Display help:
 
 `pulumi preview {{[-h|--help]}}`
