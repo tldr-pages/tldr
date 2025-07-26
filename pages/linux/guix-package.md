@@ -11,7 +11,7 @@
 
 `guix package {{[-r|--remove]}} {{package}}`
 
-- Search the package database for a regular expression:
+- Search the package database for a `regex`:
 
 `guix package {{[-s|--search]}} "{{search_pattern}}"`
 

@@ -21,6 +21,6 @@
 
 `stow {{[-R|--restow]}} {{[-t|--target]}} {{path/to/target_directory}} {{file1 directory1 file2 directory2}}`
 
-- Exclude files matching a regular expression:
+- Exclude files matching a `regex`:
 
-`stow --ignore={{regular_expression}} {{[-t|--target]}} {{path/to/target_directory}} {{file1 directory1 file2 directory2}}`
+`stow --ignore={{regex}} {{[-t|--target]}} {{path/to/target_directory}} {{file1 directory1 file2 directory2}}`
