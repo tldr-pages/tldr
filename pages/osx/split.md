@@ -7,7 +7,7 @@
 
 `split -l 10 {{path/to/file}}`
 
-- Split a file by a regular expression. The matching line will be the first line of the next output file:
+- Split a file by a `regex`. The matching line will be the first line of the next output file:
 
 `split -p {{cat|^[dh]og}} {{path/to/file}}`
 

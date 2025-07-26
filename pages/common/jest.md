@@ -11,13 +11,13 @@
 
 `jest {{path/to/file1 path/to/file2 ...}}`
 
-- Run the test suites from files within the current and subdirectories, whose paths match the given regular expression:
+- Run the test suites from files within the current and subdirectories, whose paths match the given `regex`:
 
-`jest {{regular_expression1}} {{regular_expression2}}`
+`jest {{regex1}} {{regex2}}`
 
-- Run the tests whose names match the given regular expression:
+- Run the tests whose names match the given `regex`:
 
-`jest --testNamePattern {{regular_expression}}`
+`jest --testNamePattern {{regex}}`
 
 - Run test suites related to a given source file:
 

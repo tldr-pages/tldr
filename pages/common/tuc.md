@@ -16,7 +16,7 @@
 
 `echo "foo bar    baz" | tuc {{[-d|--delimiter]}} ' ' {{[-f|--fields]}} {{2:}}`
 
-- Cut using regular expressions:
+- Cut using `regex`:
 
 `echo "a,b, c" | tuc {{[-e|--regex]}} '{{[, ]+}}' {{[-f|--fields]}} {{1,3}}`
 

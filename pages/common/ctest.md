@@ -11,6 +11,6 @@
 
 `ctest {{[-N|--show-only]}}`
 
-- Run a single test based on its name, or filter on a regular expression:
+- Run a single test based on its name, or filter on a `regex`:
 
 `ctest --output-on-failure {{[-R|--tests-regex]}} '^{{test_name}}$'`
