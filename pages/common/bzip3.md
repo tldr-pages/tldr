@@ -25,7 +25,7 @@
 
 - Decompress a file overwriting existing files:
 
-`bzip3 {{[-d|--decode]}} {{[-f--force]}} {{path/to/compressed_file.bz3}}`
+`bzip3 {{[-d|--decode]}} {{[-f|--force]}} {{path/to/compressed_file.bz3}}`
 
 - Display help:
 
