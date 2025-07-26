@@ -11,13 +11,13 @@
 
 `vitest run {{path/to/file1 path/to/file2 ...}}`
 
-- Run the test suites from files within the current and subdirectories, whose paths match the given regular expression:
+- Run the test suites from files within the current and subdirectories, whose paths match the given `regex`:
 
-`vitest run {{regular_expression1}} {{regular_expression2}}`
+`vitest run {{regex1}} {{regex2}}`
 
-- Run the tests whose names match the given regular expression:
+- Run the tests whose names match the given `regex`:
 
-`vitest run --testNamePattern {{regular_expression}}`
+`vitest run --testNamePattern {{regex}}`
 
 - Watch files for changes and automatically re-run related tests:
 

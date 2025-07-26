@@ -1,6 +1,6 @@
 # rgrep
 
-> Recursively find patterns in files using regular expressions.
+> Recursively find patterns in files using `regex`.
 > Equivalent to `grep -r`.
 > More information: <https://www.gnu.org/software/grep/manual/grep.html#Command_002dline-Options>.
 
@@ -12,11 +12,11 @@
 
 `rgrep {{[-i|--ignore-case]}} "{{search_pattern}}"`
 
-- Recursively search for an extended regular expression pattern (supports `?`, `+`, `{}`, `()` and `|`) in the current working directory:
+- Recursively search for an extended `regex` pattern (supports `?`, `+`, `{}`, `()` and `|`) in the current working directory:
 
 `rgrep {{[-E|--extended-regexp]}} "{{search_pattern}}"`
 
-- Recursively search for an exact string (disables regular expressions) in the current working directory:
+- Recursively search for an exact string (disables `regex`) in the current working directory:
 
 `rgrep {{[-F|--fixed-strings]}} "{{exact_string}}"`
 

@@ -5,8 +5,8 @@
 
 - Reboot a virtual machine:
 
-`qm reboot {{vm_id}}`
+`qm {{[reb|reboot]}} {{vm_id}}`
 
 - Reboot a virtual machine after wait for at most 10 seconds:
 
-`qm reboot --timeout {{10}} {{vm_id}}`
+`qm {{[reb|reboot]}} --timeout {{10}} {{vm_id}}`
