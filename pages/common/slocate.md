@@ -34,4 +34,4 @@
 
 - Search the `slocate` database using a specific `regex` string:
 
-`slocate {{[-r|--regex]}} {{regex}}`
+`slocate {{[-r|--regexp]}} {{regex}}`
