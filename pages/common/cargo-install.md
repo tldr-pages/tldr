@@ -15,7 +15,7 @@
 
 `cargo install --git {{repo_url}} --{{branch|tag|rev}} {{branch_name|tag|commit_hash}}`
 
-- Install a package locally:
+- Install a package from a local directory:
 
 `cargo install --path {{path/to/package}}`
 
