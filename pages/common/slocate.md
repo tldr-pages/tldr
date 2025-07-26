@@ -26,7 +26,7 @@
 
 - Set the security level of `slocate`, with `0` being disabled, and `1` being secure:
 
-`slocate -l {{[0|1]}}`
+`slocate -l {{0|1}}`
 
 - Specify the database that `slocate` should search in:
 
