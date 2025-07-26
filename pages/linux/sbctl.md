@@ -14,7 +14,7 @@
 
 - Enroll the custom secure boot keys and Microsoft's UEFI vendor certificates:
 
-`sbctl enroll-keys --microsoft`
+`sbctl enroll-keys {{[-m|--microsoft]}}`
 
 - Automatically run `create-keys` and `enroll-keys` based on the settings in `/etc/sbctl/sbctl.conf`:
 
