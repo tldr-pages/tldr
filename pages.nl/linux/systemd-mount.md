@@ -21,7 +21,7 @@
 
 - Unmount een of meerdere apparaten:
 
-`systemd-mount {{[-u|--umount]}} {{pad/naar/mount_point_of_apparaat1}} {{pad/naar/mount_point_of_apparaat2}}`
+`systemd-mount {{[-u|--umount]}} {{pad/naar/mount_point_of_apparaat1 pad/naar/mount_point_of_apparaat2 ...}}`
 
 - Mount een bestandssysteem (afbeelding of blokapparaat) met een specifiek bestandssysteemtype:
 
