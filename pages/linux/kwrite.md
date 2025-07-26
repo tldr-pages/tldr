@@ -1,7 +1,7 @@
 # kwrite
 
 > Text editor of the KDE Desktop project.
-> See also `kate`.
+> See also: `kate`.
 > More information: <https://docs.kde.org/stable5/en/kate/kwrite/command-line-options.html>.
 
 - Open a text file:

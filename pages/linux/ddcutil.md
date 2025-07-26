@@ -1,7 +1,8 @@
 # ddcutil
 
 > Control the settings of connected displays via DDC/CI.
-> This command requires the kernel module `i2c-dev` to be loaded. See also: `modprobe`.
+> This command requires the kernel module `i2c-dev` to be loaded.
+> See also: `modprobe`.
 > More information: <https://www.ddcutil.com>.
 
 - List all compatible displays:

@@ -1,7 +1,7 @@
 # tlp-stat
 
 > Generate TLP status reports.
-> See also `tlp`.
+> See also: `tlp`.
 > More information: <https://linrunner.de/tlp/usage/tlp-stat>.
 
 - Generate status report with configuration and all active settings:

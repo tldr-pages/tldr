@@ -1,7 +1,7 @@
 # troff
 
 > Typesetting processor for the groff (GNU Troff) document formatting system.
-> See also `groff`.
+> See also: `groff`.
 > More information: <https://manned.org/troff>.
 
 - Format output for a PostScript printer, saving the output to a file:

@@ -1,7 +1,7 @@
 # pkgfile
 
 > Search files from packages in the official repositories on Arch-based systems.
-> See also: `pacman files`, describing the usage of `pacman --files`.
+> See also: `pacman files` describing the usage of `pacman --files`.
 > More information: <https://manned.org/pkgfile>.
 
 - Synchronize the pkgfile database:

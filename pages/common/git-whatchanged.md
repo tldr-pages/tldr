@@ -1,7 +1,7 @@
 # git whatchanged
 
 > Show what has changed with recent commits or files.
-> See also `git log`.
+> See also: `git log`.
 > More information: <https://git-scm.com/docs/git-whatchanged>.
 
 - Display logs and changes for recent commits:

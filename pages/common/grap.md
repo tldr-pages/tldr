@@ -1,7 +1,7 @@
 # grap
 
 > A charting preprocessor for the groff (GNU Troff) document formatting system.
-> See also `pic` and `groff`.
+> See also: `pic`, `groff`.
 > More information: <https://manned.org/grap>.
 
 - Process a `grap` file and save the output file for future processing with `pic` and `groff`:

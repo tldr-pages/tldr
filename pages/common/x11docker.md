@@ -1,7 +1,7 @@
 # x11docker
 
 > Securely run GUI applications and desktop UIs in Docker containers.
-> See also `xephyr`.
+> See also: `xephyr`.
 > More information: <https://github.com/mviereck/x11docker#terminal-syntax>.
 
 - Launch VLC in a container:

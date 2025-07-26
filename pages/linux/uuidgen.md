@@ -1,7 +1,7 @@
 # uuidgen
 
 > Generate unique identifiers (UUIDs).
-> See also `uuid`.
+> See also: `uuid`.
 > More information: <https://manned.org/uuidgen>.
 
 - Create a random UUIDv4:

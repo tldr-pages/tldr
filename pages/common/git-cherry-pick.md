@@ -8,7 +8,7 @@
 
 `git cherry-pick {{commit}}`
 
-- Apply a range of commits to the current branch (see also `git rebase --onto`):
+- Apply a range of commits to the current branch (see also: `git rebase --onto`):
 
 `git cherry-pick {{start_commit}}~..{{end_commit}}`
 

@@ -1,7 +1,7 @@
 # ldapdomaindump
 
 > Dump users, computers, groups, OS and membership information via LDAP to HTML, JSON and greppable output.
-> See also `ldapsearch`.
+> See also: `ldapsearch`.
 > More information: <https://github.com/dirkjanm/ldapdomaindump#usage>.
 
 - Dump all information using the given LDAP account:

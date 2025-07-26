@@ -1,7 +1,7 @@
 # byobu
 
 > Window manager and terminal multiplexer.
-> See also: `tmux` and `screen`.
+> See also: `tmux`, `screen`.
 > More information: <https://www.byobu.org/documentation>.
 
 - Start a new session:

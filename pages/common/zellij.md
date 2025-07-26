@@ -1,7 +1,7 @@
 # zellij
 
 > Terminal multiplexer with batteries included.
-> See also `tmux` and `screen`.
+> See also: `tmux`, `screen`.
 > More information: <https://zellij.dev/documentation/>.
 
 - Start a new named session:
