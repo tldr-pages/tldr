@@ -55,7 +55,7 @@ How about:
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, FreeBSD, NetBSD, OpenBSD,
-SunOS, Android, and Windows command-line tools.
+SunOS, Android, Windows, and Cisco IOS command-line tools.
 
 ## How do I use it?
 
