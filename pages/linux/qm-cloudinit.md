@@ -19,6 +19,6 @@
 
 `qm {{[clou|cloudinit]}} {{vm_id}} -ipconfig {{ipconfig}}`
 
-- Configure a shell script to execute before `cloud-ini` is run on a virtual machine:
+- Configure a shell script to execute before `cloudinit` is run on a virtual machine:
 
 `qm {{[clou|cloudinit]}} {{vm_id}} -pre {{script}}`
