@@ -1,4 +1,4 @@
-# counter strike 2
+# Counter Strike 2
 
 > Host een headless Counter Strike 2-server.
 > Meer informatie: <https://developer.valvesoftware.com/wiki/Counter-Strike_2/Dedicated_Servers>.
@@ -9,7 +9,7 @@
 
 - Start een spel met een bepaald maximum aantal spelers:
 
-`{{pad/naar/cs2}}  -dedicated +map {{de_dust2}} -maxplayers {{64}}`
+`{{pad/naar/cs2}} -dedicated +map {{de_dust2}} -maxplayers {{64}}`
 
 - Start een spel met een opgegeven server-IP en poort:
 

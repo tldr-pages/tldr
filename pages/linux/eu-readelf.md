@@ -9,4 +9,4 @@
 
 - Display the contents of all NOTE segments/sections, or of a particular segment/section:
 
-`eu-readelf {{[-n--notes]}} {{.note.ABI-tag}} {{path/to/file}}`
+`eu-readelf {{[-n|--notes]}} {{.note.ABI-tag}} {{path/to/file}}`

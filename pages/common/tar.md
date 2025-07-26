@@ -14,7 +14,7 @@
 
 - [c]reate a g[z]ipped (compressed) archive from a directory using relative paths:
 
-`tar czf {{path/to/target.tar.gz}} --directory={{path/to/directory}} .`
+`tar czf {{path/to/target.tar.gz}} {{[-C|--directory]}} {{path/to/directory}} .`
 
 - E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely:
 
@@ -22,7 +22,7 @@
 
 - E[x]tract a (compressed) archive [f]ile into the target directory:
 
-`tar xf {{path/to/source.tar[.gz|.bz2|.xz]}} --directory={{path/to/directory}}`
+`tar xf {{path/to/source.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{path/to/directory}}`
 
 - [c]reate a compressed archive and write it to a [f]ile, using the file extension to [a]utomatically determine the compression program:
 

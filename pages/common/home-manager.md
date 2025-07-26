@@ -1,6 +1,6 @@
 # home-manager
 
-> Manage a per-user environment using Nix, allowing declarative configuration of the user’s home.
+> Manage a per-user environment using Nix, allowing declarative configuration of the user's home.
 > More information: <https://github.com/nix-community/home-manager>.
 
 - Build the configuration defined in `~/.config/nixpkgs/home.nix` without applying it:

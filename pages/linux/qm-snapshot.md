@@ -5,12 +5,12 @@
 
 - Create a snapshot of a specific virtual machine:
 
-`qm snapshot {{vm_id}} {{snapshot_name}}`
+`qm {{[sn|snapshot]}} {{vm_id}} {{snapshot_name}}`
 
 - Create a snapshot with a specific description:
 
-`qm snapshot {{vm_id}} {{snapshot_name}} --description {{description}}`
+`qm {{[sn|snapshot]}} {{vm_id}} {{snapshot_name}} --description {{description}}`
 
 - Create a snapshot including the vmstate:
 
-`qm snapshot {{vm_id}} {{snapshot_name}} --description {{description}} --vmstate 1`
+`qm {{[sn|snapshot]}} {{vm_id}} {{snapshot_name}} --description {{description}} --vmstate 1`

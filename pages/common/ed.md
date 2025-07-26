@@ -30,7 +30,7 @@
 
 - Replace a string with a specific replacement for all lines:
 
-`,s/{{regular_expression}}/{{replacement}}/g<Enter>`
+`,s/{{regex}}/{{replacement}}/g<Enter>`
 
 - Exit `ed`:
 

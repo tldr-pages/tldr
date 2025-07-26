@@ -5,11 +5,11 @@
 
 - Do a dry-run renaming a directory of PNGs with a literal string replacement:
 
-`repren --dry-run --rename --literal --from '{{find_string}}' --to '{{replacement_string}}' {{*.png}}`
+`repren {{[-n|--dry-run]}} --rename --literal --from '{{find_string}}' --to '{{replacement_string}}' {{*.png}}`
 
-- Do a dry-run renaming a directory of JPEGs with a regular expression:
+- Do a dry-run renaming a directory of JPEGs with a `regex`:
 
-`repren --rename --dry-run --from '{{regular_expression}}' --to '{{replacement_string}}' {{*.jpg}} {{*.jpeg}}`
+`repren --rename {{[-n|--dry-run]}} --from '{{regex}}' --to '{{replacement_string}}' {{*.jpg}} {{*.jpeg}}`
 
 - Do a find-and-replace on the contents of a directory of CSV files:
 
@@ -17,8 +17,8 @@
 
 - Do both a find-and-replace and a rename operation at the same time, using a pattern file:
 
-`repren --patterns {{path/to/patfile.ext}} --full {{*.txt}}`
+`repren {{[-p|--patterns]}} {{path/to/patfile.ext}} --full {{*.txt}}`
 
 - Do a case-insensitive rename:
 
-`repren --rename --insensitive --patterns {{path/to/patfile.ext}} *`
+`repren --rename {{[-i|--insensitive]}} {{[-p|--patterns]}} {{path/to/patfile.ext}} *`

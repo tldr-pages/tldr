@@ -6,20 +6,20 @@
 
 - Migrate a specific virtual machine:
 
-`qm migrate {{vm_id}} {{target}}`
+`qm {{[mi|migrate]}} {{vm_id}} {{target}}`
 
 - Override the current I/O bandwidth limit with 10 KiB/s:
 
-`qm migrate {{vm_id}} {{target}} --bwlimit 10`
+`qm {{[mi|migrate]}} {{vm_id}} {{target}} --bwlimit 10`
 
 - Allow migration of virtual machines using local devices (root only):
 
-`qm migrate {{vm_id}} {{target}} --force true`
+`qm {{[mi|migrate]}} {{vm_id}} {{target}} --force true`
 
 - Use online/live migration if a virtual machine is running:
 
-`qm migrate {{vm_id}} {{target}} --online true`
+`qm {{[mi|migrate]}} {{vm_id}} {{target}} --online true`
 
 - Enable live storage migration for local disks:
 
-`qm migrate {{vm_id}} {{target}} --with-local-disks true`
+`qm {{[mi|migrate]}} {{vm_id}} {{target}} --with-local-disks true`

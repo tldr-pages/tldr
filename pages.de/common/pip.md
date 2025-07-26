@@ -14,7 +14,7 @@
 
 - Aktualisiere ein Paket:
 
-`pip install --upgrade {{paketname}}`
+`pip install {{[-U|--upgrade]}} {{paketname}}`
 
 - Deinstalliere ein Paket:
 
@@ -30,4 +30,4 @@
 
 - Installiere Pakete, die in einer Datei gelistet sind:
 
-`pip install --requirement {{requirements.txt}}`
+`pip install {{[-r|--requirement]}} {{requirements.txt}}`

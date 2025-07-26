@@ -7,7 +7,7 @@
 
 `rnm -ss {{old}} -rs {{new}} {{path/to/directory}}`
 
-- Use a fixed (literal) search and replace string instead of regex:
+- Use a fixed (literal) search and replace string instead of `regex`:
 
 `rnm -ssf {{old}} -rs {{new}} {{path/to/files}}`
 

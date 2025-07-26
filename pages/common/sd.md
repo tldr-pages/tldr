@@ -3,7 +3,7 @@
 > Intuitive find and replace.
 > More information: <https://github.com/chmln/sd>.
 
-- Trim some whitespace using a regular expression (output stream: `stdout`):
+- Trim some whitespace using a `regex` (output stream: `stdout`):
 
 `{{echo 'lorem ipsum 23   '}} | sd '\s+$' ''`
 

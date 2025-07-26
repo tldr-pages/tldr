@@ -23,3 +23,7 @@
 - Delete a feed at a specified index:
 
 `r2e delete {{index}}`
+
+- Display help:
+
+`r2e {{[-h|--help]}}`

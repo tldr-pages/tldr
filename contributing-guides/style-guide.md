@@ -117,6 +117,8 @@ most [tldr pages clients](https://github.com/tldr-pages/tldr/wiki/Clients) will 
 In this case, the information of the Windows version of `cd` (stored in `pages/windows/cd.md`) will be displayed by default to Windows users, and a generic/common version (stored in `pages/common/cd.md`)
 will be displayed for Linux, macOS, and other platform users.
 
+Try to match the page filename with the invoked command. Do not use the project name if possible. The goal is to be as transparent as possible to the user when they are curious of a command.
+
 ### Aliases
 
 If a command can be called with alternative names (like `vim` can be called by `vi`), alias pages can be created to point the user to the original command name.
@@ -315,6 +317,14 @@ When describing keycaps or a keyboard shortcut for a utility, use the same [keyp
 
 If a program requires root privileges to run and doesn't provide its own prompt for a password, prepend the command with `sudo` (e.g. `sudo apt update`).
 
+### Standardized Terms
+
+Some terms are used repeatedly throughout pages, and as such, should be standardized. These include:
+
+| Term | Standard | Explanation |
+|---|---|---|
+| Regular expression | `` `regex` `` | `regex` defines a match pattern given a string of characters (https://en.wikipedia.org/wiki/Regular_expression). |
+
 ## Heading
 
 ### Program description
@@ -480,7 +490,7 @@ Keep the following guidelines in mind when choosing placeholders:
 
 - If a command can optionally take 1 or more arguments of the same kind, use an ellipsis: `{{placeholder1 placeholder2 ...}}`.
   For instance, if multiple paths are expected, use `{{path/to/directory1 path/to/directory2 ...}}`.
-- If only one of the multiple options is possible, write it as: `{{placeholder1|placeholder2|placeholder3}}`. If there are more than 4 possible values, you can use `|...` after the last item.
+- If only one of the multiple options is possible, write it as: `{{placeholder1|placeholder2|placeholder3}}`. If there are more than 3 possible values, you can use `|...` after the last item.
 - Use two dots to mark a range of possible values, for example `{{1..5}}` or `{{a..z}}`.
 
 #### Optional placeholders
@@ -488,6 +498,9 @@ Keep the following guidelines in mind when choosing placeholders:
 When documenting optional placeholders like paths or file extensions, it is suggested to specify them in the page or example descriptions instead of the placeholder itself. For example:
 
 - Use `{{path/to/source.ext}}` instead of `{{path/to/source.tar[.gz|.bz2|.xz]}}`.
+
+> [!IMPORTANT]
+> Do not put placeholders inside placeholders.
 
 ### Keypress syntax
 

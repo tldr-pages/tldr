@@ -9,7 +9,7 @@
 
 - Interpret JSON list as a table and put objects inside as columns (path/to/file.json: `{"list":[{"age":"26","name":"Tanaka"}]}`):
 
-`trdsql "SELECT * FROM {{path/to/file.json}}::.list`
+`trdsql "SELECT * FROM {{path/to/file.json}}::.list"`
 
 - Manipulate complex SQL query with data from multiple CSV files with first line is header (`-ih`):
 

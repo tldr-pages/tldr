@@ -1,13 +1,13 @@
 # grep
 
-> Find patterns in files using regular expressions.
+> Find patterns in files using `regex`es.
 > More information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Search for a pattern within a file:
 
 `grep "{{search_pattern}}" {{path/to/file}}`
 
-- Search for an exact string (disables regular expressions):
+- Search for an exact string (disables `regex`es):
 
 `grep {{[-F|--fixed-strings]}} "{{exact_string}}" {{path/to/file}}`
 
@@ -15,7 +15,7 @@
 
 `grep {{[-rnI|--recursive --line-number --binary-files=without-match]}} "{{search_pattern}}" {{path/to/directory}}`
 
-- Use extended regular expressions (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
+- Use extended `regex`es (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
 
 `grep {{[-Ei|--extended-regexp --ignore-case]}} "{{search_pattern}}" {{path/to/file}}`
 

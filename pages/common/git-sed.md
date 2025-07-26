@@ -12,7 +12,7 @@
 
 `git sed -c '{{find_text}}' '{{replace_text}}'`
 
-- Replace the specified text, using regular expressions:
+- Replace the specified text, using `regex`:
 
 `git sed -f g '{{find_text}}' '{{replace_text}}'`
 
