@@ -1,4 +1,4 @@
-# rename
+# perl-rename
 
 > This command is an alias of `rename`.
 
