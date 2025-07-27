@@ -3,7 +3,7 @@
 > 与 distccd 搭配使用的分布式 C/C++/ObjC 编译客户端.
 > 更多信息：<https://manned.org/distcc>.
 
-- 使用类似 gcc 的编译器编译源文件：
+- 使用类似 `gcc` 的编译器编译源文件：
 
 `distcc {{compiler}} -c {{source.c}} -o {{output.o}}`
 
@@ -11,11 +11,11 @@
 
 `export DISTCC_HOSTS="localhost {{ip1}} {{ip2}}"`
 
-- 使用 distcc 和 make 并行编译项目：
+- 使用 `distcc` 和 `make` 并行编译项目：
 
-`make -j{{parallel_jobs}} CC="distcc {{compiler}}"`
+`make {{-j|--jobs}} {{parallel_jobs}} CC="distcc {{compiler}}"`
 
-- 显示当前配置的 distcc 主机列表：
+- 显示当前配置的 `distcc` 主机列表：
 
 `distcc --show-hosts`
 
