@@ -26,7 +26,7 @@
 
 - Add a volume to /etc/fstab for mounting at boot:
 
-`/dev/stratis/{{pool_name}}/{{volume_name}} {{/mnt/target}} xfs defaults,x-systemd.requires=stratisd.service 0 0`
+`echo /dev/stratis/{{pool_name}}/{{volume_name}} {{/mnt/target}} xfs defaults,x-systemd.requires=stratisd.service 0 0 | sudo tee -a /etc/fstab`
 
 - Extend an existing pool by adding a new device:
 
