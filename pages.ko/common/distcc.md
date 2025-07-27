@@ -1,6 +1,6 @@
 # distcc
 
-> `distcc`와 함께 사용하는 분산 C/C++/ObjC 컴파일 클라이언트입니다.
+> `distccd`와 함께 사용하는 분산 C/C++/ObjC 컴파일 클라이언트입니다.
 > 더 많은 정보: <https://manned.org/distcc>.
 
 - `gcc`와 같은 컴파일러로 소스 파일을 컴파일:
