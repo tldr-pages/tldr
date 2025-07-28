@@ -17,4 +17,4 @@
 
 - Refresh the output every 2 seconds:
 
-`free {{[-s|--seconds]}} {{2}}`
+`free {{[-s|--seconds]}} 2`

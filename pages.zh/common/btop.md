@@ -10,19 +10,19 @@
 
 - 使用指定预设启动 `btop`:
 
-`btop --preset {{0..9}}`
+`btop {{[-p|--preset]}} {{0..9}}`
 
 - 使用 16 种颜色和 TTY 友好的图形符号在 TTY 模式下启动 `btop`:
 
-`btop --tty_on`
+`btop {{[-t|--tty]}}`
 
 - 在 256 色模式而不是 24 位颜色模式下启动 `btop`:
 
-`btop --low-color`
+`btop {{[-l|--low-color]}}`
 
 - 设置更新速率为 500 毫秒：
 
-`btop --update 500`
+`btop {{[-u|--update]}} 500`
 
 - 退出 `btop`：
 

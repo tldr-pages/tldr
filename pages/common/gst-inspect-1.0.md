@@ -13,7 +13,7 @@
 
 - List available container plugins:
 
-`gst-inspect-10 {{matroska|avi|ogg|isomp4}}`
+`gst-inspect-1.0 {{matroska|avi|ogg|isomp4}}`
 
 - List available audio codecs:
 

@@ -13,4 +13,4 @@
 
 - Print what would be upgraded, but don't actually upgrade anything:
 
-`brew upgrade --dry-run`
+`brew upgrade {{[-n|--dry-run]}}`

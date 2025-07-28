@@ -1,4 +1,4 @@
-# minecraft
+# Minecraft
 
 > Run a headless Minecraft server.
 > More information: <https://minecraft.wiki/w/Tutorial:Setting_up_a_Java_Edition_server>.

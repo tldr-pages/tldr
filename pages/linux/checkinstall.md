@@ -1,11 +1,11 @@
 # checkinstall
 
 > Track the local installation of a software package, and produce a binary package which can be used with a system's native package manager.
-> More information: <https://checkinstall.izto.org>.
+> More information: <https://checkinstall.izto.org/docs.php>.
 
 - Create and install a package with default settings:
 
-`sudo checkinstall --default`
+`sudo checkinstall {{[-y|--default]}}`
 
 - Create a package but don't install it:
 

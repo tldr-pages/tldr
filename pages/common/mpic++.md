@@ -2,7 +2,7 @@
 
 > Open MPI wrapper compiler for C++.
 > See also: `mpirun`.
-> More information: <https://www.open-mpi.org/doc/v3.0/man1/mpic++.1.php>.
+> More information: <https://manned.org/mpicxx>.
 
 - Compile an Open MPI program:
 

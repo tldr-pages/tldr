@@ -9,28 +9,28 @@
 
 - Liste laufende und gestoppte Container auf:
 
-`docker ps --all`
+`docker ps {{[-a|--all]}}`
 
 - Zeige den zuletzt erstellten Container (berücksichtigt jeden Status):
 
-`docker ps --latest`
+`docker ps {{[-l|--latest]}}`
 
 - Zeige nur Container mit einer bestimmten Zeichenkette im Namen:
 
-`docker ps --filter "name={{name}}"`
+`docker ps {{[-f|--filter]}} "name={{name}}"`
 
 - Zeige nur Container die von einem bestimmten Image abstammen:
 
-`docker ps --filter "ancestor={{image}}:{{tag}}"`
+`docker ps {{[-f|--filter]}} "ancestor={{image}}:{{tag}}"`
 
 - Zeige nur Container mit einem bestimmten Exit-Code:
 
-`docker ps --all --filter "exited={{code}}"`
+`docker ps {{[-a|--all]}} {{[-f|--filter]}} "exited={{code}}"`
 
 - Zeige nur Container mit einem bestimmten Status (created, running, removing, paused, exited und dead):
 
-`docker ps --filter "status={{status}}"`
+`docker ps {{[-f|--filter]}} "status={{status}}"`
 
 - Zeige nur Container, welche einen bestimmten Datenträger oder einen Datenträger an einem bestimmten Pfad eingehängt haben:
 
-`docker ps --filter "volume={{pfad/zu/verzeichnis}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker ps {{[-f|--filter]}} "volume={{pfad/zu/verzeichnis}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`

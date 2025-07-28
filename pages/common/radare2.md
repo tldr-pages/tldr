@@ -17,11 +17,11 @@
 
 - Display help text for any command in the interactive CLI:
 
-`> {{radare2_command}}?`
+`{{radare2_command}}?`
 
 - Run a shell command from the interactive CLI:
 
-`> !{{shell_command}}`
+`!{{shell_command}}`
 
 - Dump raw bytes of current block to a file:
 
