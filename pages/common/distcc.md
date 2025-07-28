@@ -13,7 +13,7 @@
 
 - Compile a project with `make` using `distcc`:
 
-`make {{-j|--jobs}} {{parallel_jobs}} CC="distcc {{compiler}}"`
+`make {{[-j|--jobs]}} {{parallel_jobs}} CC="distcc {{compiler}}"`
 
 - Show the list of current `distcc` hosts:
 

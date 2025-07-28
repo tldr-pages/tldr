@@ -13,7 +13,7 @@
 
 - `distcc`를 사용해 `make`로 프로젝트를 병렬 컴파일:
 
-`make {{-j|--jobs}} {{parallel_jobs}} CC="distcc {{compiler}}"`
+`make {{[-j|--jobs]}} {{parallel_jobs}} CC="distcc {{compiler}}"`
 
 - 현재 설정된 `distcc` 호스트 목록 확인:
 

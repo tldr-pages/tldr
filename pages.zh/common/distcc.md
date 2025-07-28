@@ -13,7 +13,7 @@
 
 - 使用 `distcc` 和 `make` 并行编译项目：
 
-`make {{-j|--jobs}} {{parallel_jobs}} CC="distcc {{compiler}}"`
+`make {{[-j|--jobs]}} {{parallel_jobs}} CC="distcc {{compiler}}"`
 
 - 显示当前配置的 `distcc` 主机列表：
 
