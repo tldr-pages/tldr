@@ -5,7 +5,7 @@
 
 - Generate a private key and save it to a file:
 
-`certtool --generate-privkey --outfile {{private.key}}`
+`certtool {{[-p|--generate-privkey]}} --outfile {{path/to/private.key}}`
 
 - Generate a self-signed certificate using a private key and a template file:
 
