@@ -1,7 +1,7 @@
 # masscan
 
 > A very fast network scanner.
-> Works best with elevated privileges. For help with Nmap compatibility, run `masscan --help`.
+> Works best with elevated privileges. For help with Nmap compatibility, run `masscan --nmap`.
 > More information: <https://manned.org/masscan>.
 
 - Scan an IP or network subnet for port 80:
