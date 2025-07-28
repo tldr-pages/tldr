@@ -25,7 +25,7 @@
 
 - Lista las rutas dentro de un ámbito determinado:
 
-`ip {{[r|route]}} {{[l|list]}} {{[s|scope]}} enlace`
+`ip {{[r|route]}} {{[l|list]}} {{[s|scope]}} link`
 
 - Muestra la caché de enrutamiento:
 
