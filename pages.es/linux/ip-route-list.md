@@ -9,7 +9,7 @@
 
 - Muestra la tabla de enrutamiento principal (igual que el primer ejemplo):
 
-`ip {{[r|route]}} {{[l|lista]}} {{[t|table]}} {{main|254}}`
+`ip {{[r|route]}} {{[l|list]}} {{[t|table]}} {{main|254}}`
 
 - Muestra la tabla de enrutamiento local:
 
@@ -17,7 +17,7 @@
 
 - Muestra todas las tablas de enrutamiento:
 
-`ip {{[r|route]}} {{[l|lista]}} {{[t|table]}} {{all|unspec|0}}`
+`ip {{[r|route]}} {{[l|list]}} {{[t|table]}} {{all|unspec|0}}`
 
 - Lista solo las rutas de un dispositivo determinado:
 
