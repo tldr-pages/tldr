@@ -2,12 +2,12 @@
 
 > Un equipo de herramientas de DNS rápido y multipropósito para ejecutar múltiples consultas DNS.
 > Nota: la entrada a `dnsx` necesita ser pasada a través de `stdin` (tubería `|`) en algunos casos.
-> Ver también: `dig`, `dog`, `dnstracer`.
+> Vea también: `dig`, `dog`, `dnstracer`.
 > Más información: <https://docs.projectdiscovery.io/tools/dnsx/running>.
 
 - Consulta el registro A de un subdominio y muestra la [re]spuesta recibida:
 
-`echo {{example.com}} | dnsx -a -re`
+`echo {{example.com}} | dnsx -a {{[-re|-resp]}}`
 
 - Consulta todos los registros DNS (A, AAAA, CNAME, NS, TXT, SRV, PTR, MX, SOA, AXFR y CAA):
 
@@ -19,7 +19,7 @@
 
 - Muestra s[o]lo la [r]espuesta (no muestra el dominio o subdominio consultado):
 
-`echo {{example.com}} | dnsx -ro`
+`echo {{example.com}} | dnsx {{[-ro|-resp-only]}}`
 
 - Muestra la respuesta sin procesar una consulta, especificando los solucionado[r]es a utilizar y el número de intentos en caso de haber errores:
 
