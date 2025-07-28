@@ -32,6 +32,6 @@
 
 `masscan {{0.0.0.0/0}} {{[-p|--ports]}} {{0-65535}} --output-format {{binary|grepable|json|list|xml}} --output-filename {{path/to/file}}`
 
-- Odczytaj binarny wynik skanu z pliku i wypisz do `stdout`
+- Odczytaj binarny wynik skanu z pliku i wypisz do `stdout`:
 
 `masscan --readscan {{path/to/file}}`
