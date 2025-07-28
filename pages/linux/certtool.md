@@ -9,7 +9,7 @@
 
 - Generate a self-signed certificate using a private key and a template file:
 
-`certtool --generate-self-signed --load-privkey {{private.key}} --template {{info.template}} --outfile {{certificate.crt}}`
+`certtool {{[-s|--generate-self-signed]}} --load-privkey {{path/to/private.key}} --template {{path/to/info.template}} --outfile {{path/to/certificate.crt}}`
 
 - Generate a certificate signing request (CSR):
 
