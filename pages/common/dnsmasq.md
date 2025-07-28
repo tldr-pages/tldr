@@ -13,7 +13,7 @@
 
 - Specify a custom configuration file:
 
-`dnsmasq --conf-file=/path/to/config.conf`
+`dnsmasq --conf-file={{path/to/config.conf}}`
 
 - Enable verbose logging:
 
