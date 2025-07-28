@@ -21,7 +21,7 @@
 
 - Include the HTTP response headers in the output:
 
-`gh api {{[--include]}} {{endpoint}}`
+`gh api {{[-i|--include]}} {{endpoint}}`
 
 - Do not print the response body:
 
