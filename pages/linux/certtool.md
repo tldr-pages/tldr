@@ -1,7 +1,7 @@
 # certtool
 
 > Generate and manage X.509 certificates, keys, and PKI structures using GnuTLS.
-> More information: <https://gnutls.org/documentation.html>.
+> More information: <https://gnutls.org/manual/gnutls.html#certtool-Invocation>.
 
 - Generate a private key and save it to a file:
 
