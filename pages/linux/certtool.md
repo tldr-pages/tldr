@@ -21,4 +21,4 @@
 
 - Verify a certificate against a CA certificate:
 
-`certtool --verify --infile {{certificate.crt}} --load-ca-certificate {{ca.crt}}`
+`certtool --verify --infile {{path/to/certificate.crt}} --load-ca-certificate {{path/to/ca.crt}}`
