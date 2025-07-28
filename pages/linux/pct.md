@@ -21,7 +21,7 @@
 
 - Resize the container's disk to 20G:
 
-`pct {{[resi|resize]]} {{100}} {{rootfs|mpX}} {{20G}}`
+`pct {{[resi|resize]}} {{100}} {{rootfs|mpX}} {{20G}}`
 
 - Show the configuration of a container, specifying its ID:
 
