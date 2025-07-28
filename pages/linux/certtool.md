@@ -17,7 +17,7 @@
 
 - Generate a certificate authority (CA) certificate:
 
-`certtool --generate-self-signed --load-privkey {{ca.key}} --template {{ca.template}} --outfile {{ca.crt}}`
+`certtool {{[-s|--generate-self-signed]}} --load-privkey {{path/to/ca.key}} --template {{path/to/ca.template}} --outfile {{path/to/ca.crt}}`
 
 - Verify a certificate against a CA certificate:
 
