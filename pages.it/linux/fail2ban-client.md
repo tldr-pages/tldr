@@ -1,7 +1,7 @@
 # fail2ban-client
 
 > Configurare e controllare il server fail2ban.
-> Più informazioni: <https://manned.org/fail2ban-client>.
+> Maggiori informazioni: <https://manned.org/fail2ban-client>.
 
 - Ottiene lo stato corrente del servizio jail:
 

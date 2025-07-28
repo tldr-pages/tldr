@@ -1,7 +1,7 @@
 # crond
 
 > Servizio per eseguire i comandi pianificati dai file crontab.
-> Più informazioni: <https://manned.org/crond>.
+> Maggiori informazioni: <https://manned.org/crond>.
 
 - Avvia un servizio in background e controlla i comandi pianificati:
 
