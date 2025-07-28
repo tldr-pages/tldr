@@ -13,7 +13,7 @@
 
 - Generate a certificate signing request (CSR):
 
-`certtool --generate-request --load-privkey {{private.key}} --template {{info.template}} --outfile {{request.csr}}`
+`certtool {{[-q|--generate-request]}} --load-privkey {{path/to/private.key}} --template {{path/to/info.template}} --outfile {{path/to/request.csr}}`
 
 - Generate a certificate authority (CA) certificate:
 
