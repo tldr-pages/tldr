@@ -13,7 +13,7 @@
 
 - Atur profil ke mode audit dari direktori tertentu:
 
-`sudo aa-audit {{[-d|--dir]}} {{/path/to/profiles}} {{nama_profil}}`
+`sudo aa-audit {{[-d|--dir]}} {{/jalan/menuju/profiles}} {{nama_profil}}`
 
 - Paksa mode audit meski sudah diterapkan:
 
