@@ -23,7 +23,7 @@
 
 - Muestra la respuesta sin procesar una consulta, especificando los solucionado[r]es a utilizar y el número de intentos en caso de haber errores:
 
-`echo {{example.com}} | dnsx -{{debug|raw}} -resolver {{1.1.1.1,8.8.8.8,...}} -retry {{número}}`
+`echo {{example.com}} | dnsx -{{debug|raw}} {{[-r|-resolver]}} {{1.1.1.1,8.8.8.8,...}} -retry {{número}}`
 
 - Aplica fuerza bruta a registros DNS utilizando un marcador de posición:
 
