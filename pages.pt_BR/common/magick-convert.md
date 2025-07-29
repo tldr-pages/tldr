@@ -26,9 +26,9 @@
 
 - Cria um GIF a partir de uma série de imagens, com um intervalo de 100ms entre elas:
 
-`magick convert {{caminho/para/imagem1.png}} {{caminho/para/imagem2.png}} {{caminho/para/imagem3.png}} -delay {{100}} {{caminho/para/animacao.gif}}`
+`magick convert {{caminho/para/imagem1.png caminho/para/imagem2.png ...}} -delay {{10}} {{caminho/para/animacao.gif}}`
 
-- Cria uma imagem de tamanho 800x600 com apenas um fundo sólido vermelho:
+- Cria uma imagem apenas com um fundo sólido vermelho:
 
 `magick convert -size {{800x600}} "xc:{{#ff0000}}" {{caminho/para/imagem.png}}`
 

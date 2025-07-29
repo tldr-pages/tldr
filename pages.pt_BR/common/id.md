@@ -9,7 +9,7 @@
 
 - Exibe a identidade do usuário atual:
 
-`id -un`
+`id {{[-un|--user --name]}}`
 
 - Exibe a identidade do usuário atual como um número:
 
@@ -17,7 +17,7 @@
 
 - Exibe a identidade do grupo primário atual:
 
-`id -gn`
+`id {{[-gn|--group --name]}}`
 
 - Exibe a identidade do grupo atual como um número:
 
