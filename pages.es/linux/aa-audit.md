@@ -13,7 +13,7 @@
 
 - Establece un perfil en modo auditoría desde un directorío específico:
 
-`sudo aa-audit {{[-d|--dir]}} {{/ruta/a/perfiles}} {nombre_perfil}}`
+`sudo aa-audit {{[-d|--dir]}} {{/ruta/a/perfiles}} {{nombre_perfil}}`
 
 - Fuerza modo auditoría incluso si ya ha sido aplicado:
 
