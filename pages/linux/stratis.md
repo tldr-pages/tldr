@@ -24,7 +24,7 @@
 
 `sudo mkfs.xfs /dev/stratis/{{pool_name}}/{{volume_name}} && sudo mount /dev/stratis/{{pool_name}}/{{volume_name}} {{/mnt/target}}`
 
-- Add a volume to /etc/fstab for mounting at boot:
+- Add a volume to `/etc/fstab` for mounting at boot:
 
 `echo /dev/stratis/{{pool_name}}/{{volume_name}} {{/mnt/target}} xfs defaults,x-systemd.requires=stratisd.service 0 0 | sudo tee -a /etc/fstab`
 
