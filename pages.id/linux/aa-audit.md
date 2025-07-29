@@ -1,7 +1,7 @@
 # aa-audit
 
 > Mengatur profil keamanan AppArmor ke mode audit.
-> Informasi selengkapnya: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-audit.8>.
+> Informasi lebih lanjut: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-audit.8>.
 
 - Atur satu profil ke mode audit:
 
