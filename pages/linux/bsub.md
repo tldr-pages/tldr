@@ -1,7 +1,7 @@
 # bsub
 
 > Submit batch jobs to LSF (Load Sharing Facility) scheduler.
-> More information: <https://www.ibm.com/docs/spectrum-lsf/10.1.0?topic=reference-bsub>.
+> More information: <https://www.ibm.com/docs/spectrum-lsf/latest?topic=reference-bsub>.
 
 - Submit a script file as a job:
 
@@ -13,7 +13,7 @@
 
 - Submit a job with a name and redirect output and error:
 
-`bsub -J {{job_name}} --output {{output.log}} --error {{error.log}} {{path/to/script.sh}}`
+`bsub -J {{job_name}} --output {{path/to/output.log}} --error {{path/to/error.log}} {{path/to/script.sh}}`
 
 - Request 8 CPU cores and 16GB memory for a command:
 
