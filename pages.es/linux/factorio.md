@@ -1,4 +1,4 @@
-# factorio
+# Factorio
 
 > Crea e inicia un servidor Factorio sin interfaz gráfica.
 > Más información: <https://wiki.factorio.com/Multiplayer>.
