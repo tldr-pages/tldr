@@ -7,7 +7,7 @@
 
 `sudo aa-cleanprof {{nombre_perfil}}`
 
-- Limpia multiples perfiles al mismo tiempo:
+- Limpia múltiples perfiles al mismo tiempo:
 
 `sudo aa-cleanprof {{perfil1 perfil2 ...}}`
 
