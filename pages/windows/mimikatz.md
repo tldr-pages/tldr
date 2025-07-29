@@ -1,6 +1,7 @@
 # mimikatz
 
-> Interact with Windows credentials, perform credential dumping, token manipulation, and more: Requires administrator privileges and typically runs on Windows.
+> Interact with Windows credentials, perform credential dumping, token manipulation, and more.
+> Requires administrator privileges and typically runs on Windows.
 > More information: <https://github.com/gentilkiwi/mimikatz>.
 
 - Run mimikatz in interactive mode:
