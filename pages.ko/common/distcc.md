@@ -5,15 +5,15 @@
 
 - `gcc`와 같은 컴파일러로 소스 파일을 컴파일:
 
-`distcc {{gcc}} -c {{path/to/source.c}} -o {{path/to/output.o}}`
+`distcc {{컴파일러명}} -c {{소스/파일/경로.c}} -o {{출력/파일/경로.o}}`
 
 - 컴파일을 분산시킬 원격 호스트 설정:
 
-`export DISTCC_HOSTS="localhost {{ip1}} {{ip2}}"`
+`export DISTCC_HOSTS="localhost {{호스트IP1}} {{호스트IP2}}"`
 
 - `distcc`를 사용해 `make`로 프로젝트를 병렬 컴파일:
 
-`make {{[-j|--jobs]}} {{parallel_jobs}} CC="distcc {{gcc}}"`
+`make {{[-j|--jobs]}} {{병렬_작업_수}} CC="distcc {{컴파일러명}}"`
 
 - 현재 설정된 `distcc` 호스트 목록 확인:
 
