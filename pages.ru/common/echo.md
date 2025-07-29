@@ -1,7 +1,7 @@
 # echo
 
 > Выводит указанные аргументы.
-> См. также: `printf`.
+> Смотрите также: `printf`.
 > Дополнительная информация: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Вывести текстовое сообщение. Примечание: кавычки необязательны:
