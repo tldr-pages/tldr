@@ -5,7 +5,7 @@
 
 - 모든 오디오 출력 및 입력 포트와 해당 ID 나열:
 
-`pw-link --output --input --id`
+`pw-link {{[-oiI|--output --input --id]}}`
 
 - 출력 포트와 입력 포트 간 링크 생성:
 
