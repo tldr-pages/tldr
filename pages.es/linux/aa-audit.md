@@ -1,6 +1,6 @@
 # aa-audit
 
-> Establece perfiles de seguridad de AppArmor en modo de auditoría 
+> Establece perfiles de seguridad de AppArmor en modo de auditoría.
 > Más información: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-audit.8>.
 
 - Establece un perfil en modo auditoría:
