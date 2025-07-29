@@ -13,7 +13,7 @@
 
 - Limpia un perfil desde un directorío específico:
 
-`sudo aa-cleanprof {{[-d|--dir]}} {{/ruta/a/perfiles}} {nombre_perfil}}`
+`sudo aa-cleanprof {{[-d|--dir]}} {{/ruta/a/perfiles}} {{nombre_perfil}}`
 
 - Ejecuta silenciosamente sin indicaciones:
 
