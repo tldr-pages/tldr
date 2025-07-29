@@ -14,7 +14,7 @@
 
 - Inscribe las claves de arranque seguro personalizadas y los certificados de proveedor UEFI de Microsoft:
 
-`sbctl enroll-keys --microsoft`
+`sbctl enroll-keys {{[-m|--microsoft]}}`
 
 - Ejecuta automáticamente `create-keys` y `enroll-keys` basado en los parámetros de `/etc/sbctl/sbctl.conf`:
 

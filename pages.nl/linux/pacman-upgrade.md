@@ -6,7 +6,7 @@
 
 - Installeer een of meerdere pakketten vanuit bestanden:
 
-`sudo pacman -U {{pad/naar/pakket1.pkg.tar.zst}} {{pad/naar/pakket2.pkg.tar.zst}}`
+`sudo pacman -U {{pad/naar/pakket1.pkg.tar.zst pad/naar/pakket2.pkg.tar.zst ...}}`
 
 - Installeer een pakket zonder vragen te stellen:
 
