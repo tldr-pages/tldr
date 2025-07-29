@@ -2,7 +2,7 @@
 
 > Выводит указанные аргументы.
 > Смотрите также: `printf`.
-> Дополнительная информация: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
+> Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - Вывести текстовое сообщение. Примечание: кавычки необязательны:
 
@@ -27,11 +27,3 @@
 - Вывести статус выхода последней выполненной команды (Примечание: в командной строке Windows и PowerShell эквивалентные команды — `echo %errorlevel%` и `$lastexitcode` соответственно):
 
 `echo $?`
-
-- Показать справку:
-
-`echo --help`
-
-- Показать версию:
-
-`echo --version`
