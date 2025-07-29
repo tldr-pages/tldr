@@ -17,8 +17,8 @@
 
 - Display minimal output (silent mode):
 
-`elasticsearch-croneval "{{cron_expression}}" {{-s|--silent}}`
+`elasticsearch-croneval "{{cron_expression}}" {{[-s|--silent]}}`
 
 - Display verbose output:
 
-`elasticsearch-croneval "{{cron_expression}}" {{-v|--verbose}}`
+`elasticsearch-croneval "{{cron_expression}}" {{[-v|--verbose]}}`
