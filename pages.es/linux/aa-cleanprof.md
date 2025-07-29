@@ -19,7 +19,7 @@
 
 `sudo aa-cleanprof {{[-s|--silent]}} {{nombre_perfil}}`
 
-- Preven la recarga del perfil tras limpiarlo:
+- Prevén la recarga del perfil tras limpiarlo:
 
 `sudo aa-cleanprof --no-reload {{nombre_perfil}}`
 
