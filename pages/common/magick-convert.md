@@ -26,7 +26,7 @@
 
 - Create a GIF from a series of images with 100ms delay between them:
 
-`magick convert {{path/to/image1.png path/to/image2.png ...}} -delay {{10}} {{path/to/animation.gif}}`
+`magick convert {{path/to/image1.png path/to/image2.png ...}} -delay {{100}} {{path/to/animation.gif}}`
 
 - Create an image with nothing but a solid red background:
 
