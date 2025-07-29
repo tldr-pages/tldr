@@ -5,7 +5,7 @@
 
 - 使用类似 `gcc` 的编译器编译源文件：
 
-`distcc {{compiler}} -c {{source.c}} -o {{output.o}}`
+`distcc {{gcc}} -c {{path/to/source.c}} -o {{path/to/output.o}}`
 
 - 设置用于分布式编译的远程主机：
 
@@ -13,7 +13,7 @@
 
 - 使用 `distcc` 和 `make` 并行编译项目：
 
-`make {{[-j|--jobs]}} {{parallel_jobs}} CC="distcc {{compiler}}"`
+`make {{[-j|--jobs]}} {{parallel_jobs}} CC="distcc {{gcc}}"`
 
 - 显示当前配置的 `distcc` 主机列表：
 

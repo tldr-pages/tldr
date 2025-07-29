@@ -5,7 +5,7 @@
 
 - Compile a source file using a compiler like `gcc`:
 
-`distcc {{compiler}} -c {{source.c}} -o {{output.o}}`
+`distcc {{gcc}} -c {{path/to/source.c}} -o {{path/to/output.o}}`
 
 - Set remote hosts to distribute compilation:
 
@@ -13,7 +13,7 @@
 
 - Compile a project with `make` using `distcc`:
 
-`make {{[-j|--jobs]}} {{parallel_jobs}} CC="distcc {{compiler}}"`
+`make {{[-j|--jobs]}} {{parallel_jobs}} CC="distcc {{gcc}}"`
 
 - Show the list of current `distcc` hosts:
 

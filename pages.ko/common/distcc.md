@@ -5,7 +5,7 @@
 
 - `gcc`와 같은 컴파일러로 소스 파일을 컴파일:
 
-`distcc {{compiler}} -c {{source.c}} -o {{output.o}}`
+`distcc {{gcc}} -c {{path/to/source.c}} -o {{path/to/output.o}}`
 
 - 컴파일을 분산시킬 원격 호스트 설정:
 
@@ -13,7 +13,7 @@
 
 - `distcc`를 사용해 `make`로 프로젝트를 병렬 컴파일:
 
-`make {{[-j|--jobs]}} {{parallel_jobs}} CC="distcc {{compiler}}"`
+`make {{[-j|--jobs]}} {{parallel_jobs}} CC="distcc {{gcc}}"`
 
 - 현재 설정된 `distcc` 호스트 목록 확인:
 
