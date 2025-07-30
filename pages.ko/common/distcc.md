@@ -9,7 +9,7 @@
 
 - 컴파일을 분산시킬 원격 호스트 설정:
 
-`export DISTCC_HOSTS="localhost {{호스트IP1}} {{호스트IP2}}"`
+`export DISTCC_HOSTS="localhost {{호스트IP1 호스트IP2 ...}}"`
 
 - `distcc`를 사용해 `make`로 프로젝트를 병렬 컴파일:
 
@@ -19,10 +19,10 @@
 
 `distcc --show-hosts`
 
-- 버전 정보 출력:
+- 버전 출력:
 
 `distcc --version`
 
-- 도움말 보기:
+- 도움말 출력:
 
 `distcc --help`

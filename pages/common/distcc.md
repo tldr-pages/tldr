@@ -9,7 +9,7 @@
 
 - Set remote hosts to distribute compilation:
 
-`export DISTCC_HOSTS="localhost {{ip1}} {{ip2}}"`
+`export DISTCC_HOSTS="localhost {{ip1 ip2 ...}}"`
 
 - Compile a project with `make` using `distcc`:
 
@@ -19,10 +19,10 @@
 
 `distcc --show-hosts`
 
-- Display the version:
+- Display version:
 
 `distcc --version`
 
-- Show help:
+- Display help:
 
 `distcc --help`
