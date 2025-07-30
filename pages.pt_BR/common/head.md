@@ -5,4 +5,4 @@
 
 - Exibe as primeiras linhas de um arquivo:
 
-`head -n {{count}} {{caminho/para/o/arquivo}}`
+`head -n {{número_linhas}} {{caminho/para/arquivo}}`
