@@ -5,16 +5,16 @@
 
 - Install GRUB on a BIOS system:
 
-`grub-install --target {{i386-pc}} {{path/to/device}}`
+`sudo grub-install --target {{i386-pc}} {{path/to/device}}`
 
 - Install GRUB on an UEFI system:
 
-`grub-install --efi-directory {{path/to/efi_directory}}`
+`sudo grub-install --efi-directory {{path/to/efi_directory}}`
 
 - Install GRUB on an UEFI system while specifying architecture and boot menu text:
 
-`grub-install --target {{x86_64-efi}} --efi-directory {{path/to/efi_directory}} --bootloader-id {{GRUB}}`
+`sudo grub-install --target {{x86_64-efi}} --efi-directory {{path/to/efi_directory}} --bootloader-id {{GRUB}}`
 
 - Install GRUB pre-loading specific modules:
 
-`grub-install --target {{x86_64-efi}} --efi-directory {{path/to/efi_directory}} --modules "{{part_gpt part_msdos}}"`
+`sudo grub-install --target {{x86_64-efi}} --efi-directory {{path/to/efi_directory}} --modules "{{part_gpt part_msdos}}"`
