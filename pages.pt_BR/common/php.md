@@ -26,7 +26,7 @@
 
 `php {{-m|--modules}}`
 
-- Exibir informações sobre a configuração atual do PHP:
+- Exibe informações sobre a configuração atual do PHP:
 
 `php {{-i|--info}}`
 
