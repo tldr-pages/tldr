@@ -9,6 +9,10 @@
 
 - Install GRUB on an UEFI system:
 
+`grub-install --efi-directory {{path/to/efi_directory}}`
+
+- Install GRUB on an UEFI system while specifying architecture and boot menu text:
+
 `grub-install --target {{x86_64-efi}} --efi-directory {{path/to/efi_directory}} --bootloader-id {{GRUB}}`
 
 - Install GRUB pre-loading specific modules:
