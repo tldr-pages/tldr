@@ -2,7 +2,7 @@
 
 > Interface de linha de comando do PHP. Mais informações: <https://php.net>.
 
-- Analisar e executar um script PHP:
+- Analisa e executa um script PHP:
 
 `php {{caminho/para/arquivo}}`
 
