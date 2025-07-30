@@ -1,7 +1,8 @@
 # git ignore
 
 > Show/update `.gitignore` files.
-> Part of `git-extras`. See also `git ignore-io`.
+> Part of `git-extras`.
+> See also: `git ignore-io`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-ignore>.
 
 - Show the content of all global and local `.gitignore` files:

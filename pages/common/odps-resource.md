@@ -1,7 +1,7 @@
 # odps resource
 
 > Manage resources in ODPS (Open Data Processing Service).
-> See also `odps`.
+> See also: `odps`.
 > More information: <https://www.alibabacloud.com/help/doc-detail/27971.htm>.
 
 - Show resources in the current project:
