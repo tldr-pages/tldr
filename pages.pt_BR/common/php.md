@@ -6,7 +6,7 @@
 
 `php {{caminho/para/arquivo}}`
 
-- Verificar a sintaxe (lint) de um script PHP:
+- Verifica a sintaxe (lint) de um script PHP:
 
 `php {{-l|--syntax-check}} {{caminho/para/arquivo}}`
 
