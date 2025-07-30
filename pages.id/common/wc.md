@@ -5,24 +5,24 @@
 
 - Hitung semua baris dalam suatu berkas:
 
-`wc {{[-l|--lines]}} {{path/to/file}}`
+`wc {{[-l|--baris]}} {{jalur/ke/berkas}}`
 
 - Hitung semua kata dalam suatu berkas:
 
-`wc {{[-w|--words]}} {{path/to/file}}`
+`wc {{[-w|--kata]}} {{jalur/ke/berkas}}`
 
 - Hitung semua bita dalam suatu berkas:
 
-`wc {{[-c|--bytes]}} {{path/to/file}}`
+`wc {{[-c|--bita]}} {{jalur/ke/berkas}}`
 
 - Hitung semua karakter dalam suatu berkas (dengan memperhitungkan karakter multi-bita):
 
-`wc {{[-m|--chars]}} {{path/to/file}}`
+`wc {{[-m|--karakter]}} {{jalur/ke/berkas}}`
 
 - Hitung semua baris, kata, dan byte dari `stdin`:
 
-`{{find .}} | wc`
+`{{temukan .}} | wc`
 
 - Hitung panjang baris yang terpanjang dalam jumlah karakter:
 
-`wc {{[-L|--max-line-length]}} {{path/to/file}}`
+`wc {{[-L|--maksimal-panjang-baris]}} {{jalur/ke/berkas}}`
