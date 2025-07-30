@@ -30,6 +30,6 @@
 
 `php {{-i|--info}}`
 
-- Exibir informações sobre uma função específica:
+- Exibe informações sobre uma função específica:
 
 `php {{--rf|--rfunction}} {{nome_da_função}}`
