@@ -1,6 +1,6 @@
 # crontab
 
-> Agenda tarefas (jobs) do cron para rodarem em um intervalo de tempo para o usuário atual.
+> Agenda tarefas cron para serem executadas em um intervalo de tempo para o usuário atual.
 > Mais informações: <https://crontab.guru/>.
 
 - Edita o arquivo crontab para o usuário atual:
@@ -11,26 +11,26 @@
 
 `sudo crontab -e -u {{usuário}}`
 
-- Substitui o conteúdo do crontab pelo conteúdo do arquivo listado:
+- Substitui o crontab atual pelo conteúdo do arquivo fornecido:
 
-`crontab {{caminho/para/o/arquivo}}`
+`crontab {{caminho/para/arquivo}}`
 
-- Lista as tarefas (jobs) cron existentes para o usuário atual:
+- Exibe uma lista de tarefas cron existentes para o usuário atual:
 
 `crontab -l`
 
-- Remove todas as tarefas (jobs) cron para o usuário atual:
+- Remove todos as tarefas de cron do usuário atual:
 
 `crontab -r`
 
-- Tarefa de exemplo que executa todo dia às 10:00 (* corresponde a qualquer valor):
+- Exemplo de tarefa executada às 10:00 todos os dias (* significa qualquer valor):
 
 `0 10 * * * {{comando_para_executar}}`
 
-- Tarefa de exemplo que roda um comando a cada 10 minutos:
+- Exemplo de entrada do crontab, que executa um comando a cada 10 minutos:
 
 `*/10 * * * * {{comando_para_executar}}`
 
-- Tarefa de exemplo que roda um script toda Sexta-Feira (Friday/Fri) às 02:30:
+- Exemplo de entrada do crontab, que executa um determinado script às 02:30 todas as sextas-feiras:
 
-`30 2 * * Fri {{/absolute/path/to/script.sh}}`
+`30 2 * * Fri {{/caminho/absoluto/para/script.sh}}`
