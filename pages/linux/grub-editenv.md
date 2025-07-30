@@ -7,7 +7,7 @@
 
 `grub-editenv /boot/grub/grubenv set default={{Ubuntu}}`
 
-- Display the GRUB environment variables:
+- Display all GRUB environment variables:
 
 `grub-editenv /boot/grub/grubenv list`
 
