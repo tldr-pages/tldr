@@ -22,7 +22,7 @@
 
 `php {{-S|--server}} {{host}}:{{porta}}`
 
-- Listar as extensões do PHP instaladas:
+- Lista as extensões do PHP instaladas:
 
 `php {{-m|--modules}}`
 
