@@ -35,3 +35,7 @@
 - Kurulu paketleri listeleyin:
 
 `apt list --installed`
+
+- Sistemin artık ihtiyaç duymadığı bağımlılık paketlerini kaldırın:
+
+`apt autoremove`
