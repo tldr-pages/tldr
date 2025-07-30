@@ -18,7 +18,7 @@
 
 `php {{-r|--run}} "{{código}}"`
 
-- Iniciar o servidor web embutido do PHP no diretório atual:
+- Inicia o servidor web embutido do PHP no diretório atual:
 
 `php {{-S|--server}} {{host}}:{{porta}}`
 
