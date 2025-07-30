@@ -28,7 +28,7 @@
 
 `apt-get autoclean`
 
-- Artık gerekmeyen paketleri silin:
+- Artık ihtiyaç duyulmayan bağımlılık paketlerini silin:
 
 `apt-get autoremove`
 
