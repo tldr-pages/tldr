@@ -14,7 +14,7 @@
 
 `php {{-a|--interactive}}`
 
-- Executar código PHP (não use as tags `<? ?>`; escape aspas duplas com barra invertida):
+- Executa código PHP (não use as tags `<? ?>`; escape aspas duplas com barra invertida):
 
 `php {{-r|--run}} "{{código}}"`
 
