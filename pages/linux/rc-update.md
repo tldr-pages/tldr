@@ -1,7 +1,7 @@
 # rc-update
 
 > Add and remove OpenRC services to and from runlevels.
-> See also `openrc`.
+> See also: `openrc`.
 > More information: <https://manned.org/rc-update>.
 
 - List enabled services and the runlevels they are added to:

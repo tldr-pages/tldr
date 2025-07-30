@@ -1,7 +1,7 @@
 # git switch
 
 > Switch between Git branches. Requires Git version 2.23+.
-> See also `git checkout`.
+> See also: `git checkout`.
 > More information: <https://git-scm.com/docs/git-switch>.
 
 - Switch to an existing branch:
