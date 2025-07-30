@@ -5,19 +5,19 @@
 
 - Hitung semua baris dalam suatu berkas:
 
-`wc {{[-l|--baris]}} {{jalur/ke/berkas}}`
+`wc {{[-l|--lines]}} {{jalur/ke/berkas}}`
 
 - Hitung semua kata dalam suatu berkas:
 
-`wc {{[-w|--kata]}} {{jalur/ke/berkas}}`
+`wc {{[-w|--words]}} {{jalur/ke/berkas}}`
 
 - Hitung semua bita dalam suatu berkas:
 
-`wc {{[-c|--bita]}} {{jalur/ke/berkas}}`
+`wc {{[-c|--bytes]}} {{jalur/ke/berkas}}`
 
 - Hitung semua karakter dalam suatu berkas (dengan memperhitungkan karakter multi-bita):
 
-`wc {{[-m|--karakter]}} {{jalur/ke/berkas}}`
+`wc {{[-m|--chars]}} {{jalur/ke/berkas}}`
 
 - Hitung semua baris, kata, dan byte dari `stdin`:
 
@@ -25,4 +25,4 @@
 
 - Hitung panjang baris yang terpanjang dalam jumlah karakter:
 
-`wc {{[-L|--maksimal-panjang-baris]}} {{jalur/ke/berkas}}`
+`wc {{[-L|--max-line-length]}} {{jalur/ke/berkas}}`
