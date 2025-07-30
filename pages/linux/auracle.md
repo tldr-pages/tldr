@@ -3,9 +3,9 @@
 > Interact with Arch Linux's User Repository, commonly referred to as the AUR.
 > More information: <https://github.com/falconindy/auracle>.
 
-- Display AUR packages that match a regular expression:
+- Display AUR packages that match a `regex`:
 
-`auracle search '{{regular_expression}}'`
+`auracle search '{{regex}}'`
 
 - Display information about one or more AUR packages:
 

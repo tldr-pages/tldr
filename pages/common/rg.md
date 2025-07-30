@@ -4,7 +4,7 @@
 > Aims to be a faster alternative to `grep`.
 > More information: <https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md>.
 
-- Recursively search current directory for a pattern (regular expression):
+- Recursively search current directory for a pattern (`regex`):
 
 `rg {{pattern}}`
 

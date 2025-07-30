@@ -7,10 +7,10 @@
 
 `recsel {{[-p|--print]}} name,version {{data.rec}}`
 
-- Use "~" to match a string with a given regular expression:
+- Use "~" to match a string with a given `regex`:
 
-`recsel {{[-e|--expression]}} "{{field_name}} ~ '{{regular_expression}}' {{data.rec}}"`
+`recsel {{[-e|--expression]}} "{{field_name}} ~ '{{regex}}' {{data.rec}}"`
 
 - Use a predicate to match a name and a version:
 
-`recsel {{[-e|--expression]}} "name ~ '{{regular_expression}}' && version ~ '{{regular_expression}}'" {{data.rec}}`
+`recsel {{[-e|--expression]}} "name ~ '{{regex}}' && version ~ '{{regex}}'" {{data.rec}}`

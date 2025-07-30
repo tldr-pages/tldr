@@ -7,9 +7,9 @@
 
 `git fame`
 
-- Exclude files/directories that match the specified regular expression:
+- Exclude files/directories that match the specified `regex`:
 
-`git fame --excl "{{regular_expression}}"`
+`git fame --excl "{{regex}}"`
 
 - Calculate contributions made after the specified date:
 

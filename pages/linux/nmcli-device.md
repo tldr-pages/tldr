@@ -18,3 +18,7 @@
 - Print the password and QR code for the current Wi-Fi network:
 
 `nmcli {{[d|device]}} {{[w|wifi]}} {{[s|show-password]}}`
+
+- Print detailed information about a device:
+
+`nmcli {{[d|device]}} {{[sh|show]}} {{wlan0}}`

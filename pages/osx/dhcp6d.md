@@ -1,6 +1,7 @@
 # dhcp6d
 
-> Stateless DHCPv6 server. See also: `InternetSharing`.
+> Stateless DHCPv6 server.
+> See also: `InternetSharing`.
 > It should not be invoked manually.
 > More information: <https://www.manpagez.com/man/8/dhcp6d/>.
 
