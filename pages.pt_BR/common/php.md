@@ -10,7 +10,7 @@
 
 `php {{-l|--syntax-check}} {{caminho/para/arquivo}}`
 
-- Executar o PHP de forma interativa:
+- Executa o PHP de forma interativa:
 
 `php {{-a|--interactive}}`
 
