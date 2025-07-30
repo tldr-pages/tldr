@@ -8,28 +8,28 @@
 
 - Verificar a sintaxe (lint) de um script PHP:
 
-`php -l {{caminho/para/arquivo}}`
+`php {{-l|--syntax-check}} {{caminho/para/arquivo}}`
 
 - Executar o PHP de forma interativa:
 
-`php -a`
+`php {{-a|--interactive}}`
 
 - Executar código PHP (não use as tags `<? ?>`; escape aspas duplas com barra invertida):
 
-`php -r "{{código}}"`
+`php {{-r|--run}} "{{código}}"`
 
 - Iniciar o servidor web embutido do PHP no diretório atual:
 
-`php -S {{host}}:{{porta}}`
+`php {{-S|--server}} {{host}}:{{porta}}`
 
 - Listar as extensões do PHP instaladas:
 
-`php -m`
+`php {{-m|--modules}}`
 
 - Exibir informações sobre a configuração atual do PHP:
 
-`php -i`
+`php {{-i|--info}}`
 
 - Exibir informações sobre uma função específica:
 
-`php --rf {{nome_da_função}}`
+`php {{--rf|--rfunction}} {{nome_da_função}}`
