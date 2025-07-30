@@ -14,4 +14,3 @@
 - Reset the `saved_entry` variable to the default:
 
 `grub-editenv /boot/grub/grubenv unset saved_entry`
-
