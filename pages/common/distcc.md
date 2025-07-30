@@ -19,10 +19,10 @@
 
 `distcc --show-hosts`
 
-- Display version:
-
-`distcc --version`
-
 - Display help:
 
 `distcc --help`
+
+- Display version:
+
+`distcc --version`

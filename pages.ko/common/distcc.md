@@ -19,10 +19,10 @@
 
 `distcc --show-hosts`
 
-- 버전 출력:
-
-`distcc --version`
-
 - 도움말 출력:
 
 `distcc --help`
+
+- 버전 출력:
+
+`distcc --version`

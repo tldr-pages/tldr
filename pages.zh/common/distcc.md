@@ -19,10 +19,10 @@
 
 `distcc --show-hosts`
 
-- 显示版本：
-
-`distcc --version`
-
 - 显示帮助：
 
 `distcc --help`
+
+- 显示版本：
+
+`distcc --version`
