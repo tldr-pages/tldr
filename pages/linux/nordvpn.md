@@ -1,7 +1,7 @@
 # nordvpn
 
 > Command-line interface for NordVPN.
-> More information: <https://nordvpn.com/download/linux/>.
+> More information: <https://support.nordvpn.com/hc/en-us/articles/20196094470929-Installing-NordVPN-on-Linux-distributions>.
 
 - Interactively log into a NordVPN account:
 
