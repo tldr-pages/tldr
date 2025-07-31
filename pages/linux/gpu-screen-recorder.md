@@ -10,3 +10,7 @@
 - Specify a specific source:
 
 `gpu-screen-recorder -w {{screen|DP-1|HDMI-A1|...}} -o {{path/to/video.mp4}}`
+
+- List capture sources:
+
+`gpu-screen-recorder --list-capture-options`
