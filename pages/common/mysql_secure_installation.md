@@ -1,7 +1,7 @@
 # mysql_secure_installation
 
 > Set up MySQL to have better security.
-> More information: <https://dev.mysql.com/doc/refman/en/mysql-secure-installation.html>.
+> More information: <https://manned.org/mysql_secure_installation>.
 
 - Start an interactive setup:
 
