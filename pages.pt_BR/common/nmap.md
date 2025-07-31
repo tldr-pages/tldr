@@ -8,11 +8,11 @@
 
 `nmap -v{{1|2|3}} {{ip_ou_hostname}}`
 
-- Executa uma varredura de ping em uma sub-rede ou hosts individuais agressivamente:
+- Executa uma varredura de ping em uma sub-rede ou servidores individuais agressivamente:
 
 `nmap -T5 -sn {{192.168.0.0/24|ip_ou_hostname1,ip_ou_hostname2,...}}`
 
-- Ativa detecção de OS, detecção de versão, escaneamento por script e tracerout de hosts a partir de um arquivo:
+- Ativa detecção de OS, detecção de versão, escaneamento por script e traceroute de servidores a partir de um arquivo:
 
 `sudo nmap -A -iL {{caminho_para_arquivo.txt}}`
 

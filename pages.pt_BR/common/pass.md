@@ -1,7 +1,7 @@
 # pass
 
 > Guarda e lê senhas ou outras informações sensíveis.
-> Todos os dados são criptografados com gpg e gerenciados por um repositório Git.
+> Todos os dados são criptografados com GPG e gerenciados por um repositório Git.
 > Mais informações: <https://www.passwordstore.org>.
 
 - Inicia (ou recriptografa) o armazenamento usando um ou mais IDs GPG:
