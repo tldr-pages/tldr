@@ -1,7 +1,7 @@
 # mysql
 
 > MySQL 命令列工具。
-> 更多資訊：<https://www.mysql.com/>.
+> 更多資訊：<https://manned.org/mysql>.
 
 - 與資料庫連線：
 
