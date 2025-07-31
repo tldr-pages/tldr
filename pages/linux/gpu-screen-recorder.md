@@ -26,3 +26,7 @@
 - Capture the video in a replay buffer:
 
 `pkill -SIGUSR1 -f gpu-screen-recorder`
+
+- Run `gpu-screen-recorder` in the background:
+
+`systemctl start --user gpu-screen-recorder.service`
