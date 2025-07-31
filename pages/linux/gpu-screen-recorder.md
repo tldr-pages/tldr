@@ -23,6 +23,6 @@
 
 `gpu-screen-recorder -w {{screen}} -r {{30}} -c {{mp4}} -ro {{path/to/directory}} -o {{whatever}}`
 
-- Start and stop a replay buffer recording:
+- Capture the video in a replay buffer:
 
-`pkill -SIGRTMIN -f gpu-screen-recorder`
+`pkill -SIGUSR1 -f gpu-screen-recorder`
