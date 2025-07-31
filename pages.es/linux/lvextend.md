@@ -1,7 +1,7 @@
 # lvextend
 
 > Aumenta el tamaño de un volumen lógico.
-> Vea tambien: `lvm`.
+> Vea también: `lvm`.
 > Más información: <https://manned.org/lvextend.8>.
 
 - Aumenta el tamaño de un volumen a 120 GB:
