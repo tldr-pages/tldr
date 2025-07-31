@@ -2,7 +2,7 @@
 
 > Backups MySQL databases.
 > See also: `mysql` for restoring databases.
-> More information: <https://dev.mysql.com/doc/refman/en/mysqldump.html>.
+> More information: <https://manned.org/mysqldump>.
 
 - Create a backup (user will be prompted for a password):
 
