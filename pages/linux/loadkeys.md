@@ -6,7 +6,7 @@
 
 - Load a specific keyboard layout for the current console:
 
-`sudo loadkeys {{en|de|fi|dvorak|...}}`
+`sudo loadkeys {{en|de|fi|dvorak|defkeymap|...}}`
 
 - Load a default keymap:
 
