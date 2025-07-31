@@ -1,7 +1,7 @@
 # mysqld
 
 > Start the MySQL database server.
-> More information: <https://dev.mysql.com/doc/refman/en/mysqld.html>.
+> More information: <https://manned.org/mysqld>.
 
 - Start the MySQL database server:
 
