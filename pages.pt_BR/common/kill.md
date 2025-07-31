@@ -4,17 +4,13 @@
 > Todos os sinais exceto pelo SIGKILL e SIGSTOP podem ser interceptados pelo processo para finalizar de forma limpa.
 > Mais informações: <https://manned.org/kill.1posix>.
 
-- Finaliza um programa usando o sinal default SIGTERM (terminate):
+- Finaliza um programa usando o sinal padrão SIGTERM (terminate):
 
 `kill {{id_do_processo}}`
 
-- Lista todos os nomes dos sinais disponíveis (para serem usados sem o prefixo `SIG`):
+- Lista todos os nomes de sinais disponíveis (para serem usados sem o prefixo `SIG`):
 
 `kill -l`
-
-- Finaliza um processo em background:
-
-`kill %{{id_do_processo}}`
 
 - Finaliza um programa usando o sinal SIGHUP. Muitos daemons vão recarregar ao invés de finalizar:
 
@@ -24,11 +20,11 @@
 
 `kill -{{2|INT}} {{id_do_processo}}`
 
-- Envia sinal para o sistema operacional para finalizar imediatamente o programa (quem não tem chance de capturar o sinal):
+- Envia sinal para o sistema operacional para finalizar imediatamente o programa (que não tem chance de capturar o sinal):
 
 `kill -{{9|KILL}} {{id_do_processo}}`
 
-- Envia sinal para o sistema operacional para pausar o programa até um sinal SIGCONT ("continue") seja recebido:
+- Envia sinal para o sistema operacional para pausar o programa até que um sinal SIGCONT ("continue") seja recebido:
 
 `kill -{{17|STOP}} {{id_do_processo}}`
 
