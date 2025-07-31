@@ -31,6 +31,6 @@
 
 `updatectl vacuum {{target}}`
 
-- Show help page:
+- Display help:
 
 `updatectl {{[-h|--help]}}`
