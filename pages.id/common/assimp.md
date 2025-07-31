@@ -2,7 +2,7 @@
 
 > Klien baris perintah untuk pustaka Open Asset Import Library.
 > Mendukung pemuatan 40+ format file 3D, dan mengekspor ke beberapa format 3D populer.
-> Informasi lebih lanjut: <https://assimp-docs.readthedocs.io/>.
+> Informasi lebih lanjut: <https://manned.org/assimp>.
 
 - Tampilkan daftar format berkas impor yang didukung:
 

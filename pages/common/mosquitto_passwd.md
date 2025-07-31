@@ -1,7 +1,7 @@
 # mosquitto_passwd
 
 > Manage password files for mosquitto.
-> See also `mosquitto`, the MQTT server that this manages.
+> See also: `mosquitto`, the MQTT server that this manages.
 > More information: <https://mosquitto.org/man/mosquitto_passwd-1.html>.
 
 - Add a new user to a password file (will prompt to enter the password):
