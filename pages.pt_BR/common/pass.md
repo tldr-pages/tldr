@@ -1,6 +1,6 @@
 # pass
 
-> Guarda e lê senhas ou outras informações sensíveis
+> Guarda e lê senhas ou outras informações sensíveis.
 > Todos os dados são criptografados com gpg e gerenciados por um repositório Git.
 > Mais informações: <https://www.passwordstore.org>.
 
