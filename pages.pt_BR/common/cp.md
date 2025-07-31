@@ -13,24 +13,24 @@
 
 - Copia recursivamente o conteúdo de um diretório para outra localização (se o destino existe, o diretório é copiado dentro dele):
 
-`cp -R {{caminho/para/diretório_origem}} {{caminho/para/diretório_destino}}`
+`cp {{[-r|--recursive]}} {{caminho/para/diretório_origem}} {{caminho/para/diretório_destino}}`
 
 - Copia um diretório recursivamente, em modo verboso (mostra arquivos que estão sendo copiados):
 
-`cp -vR {{caminho/para/diretório_origem}} {{caminho/para/diretório_destino}}`
+`cp {{[-vr|--verbose --recursive]}} {{caminho/para/diretório_origem}} {{caminho/para/diretório_destino}}`
 
 - Copia múltiplos arquivos de uma só vez para um diretório:
 
-`cp -t {{caminho/para/diretório_destino}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
+`cp {{[-t|--target-directory]}} {{caminho/para/diretório_destino}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
 
 - Copia arquivos de texto para outra localização, em modo interativo (pergunta ao usuário antes de sobrescrever):
 
-`cp -i {{*.txt}} {{caminho/para/diretório_destino}}`
+`cp {{[-i|--interactive]}} {{*.txt}} {{caminho/para/diretório_destino}}`
 
 - Segue links simbólicos antes de copiar:
 
-`cp -L {{link}} {{caminho/para/diretório_destino}}`
+`cp {{[-L|--dereference]}} {{link}} {{caminho/para/diretório_destino}}`
 
 - Usa o primeiro argumento como o diretório destino (útil para `xargs ... | cp -t <DIR_DEST>`):
 
-`cp -t {{caminho/para/diretório_destino}} {{caminho/para/arquivo_ou_diretório1 caminho/para/arquivo_ou_diretório2 ...}}`
+`cp {{[-t|--target-directory]}} {{caminho/para/diretório_destino}} {{caminho/para/arquivo_ou_diretório1 caminho/para/arquivo_ou_diretório2 ...}}`
