@@ -8,7 +8,7 @@
 
 `makepkg`
 
-- Buat paket dan instal dependensinya:
+- Buat paket dan instal sekaligus dependensinya:
 
 `makepkg {{[-s|--syncdeps]}}`
 
