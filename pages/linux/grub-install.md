@@ -5,6 +5,10 @@
 
 - Install GRUB on a BIOS system:
 
+`sudo grub-install {{path/to/device}}`
+
+- Install GRUB on a BIOS system while specifying architecture:
+
 `sudo grub-install --target {{i386-pc}} {{path/to/device}}`
 
 - Install GRUB on an UEFI system:
