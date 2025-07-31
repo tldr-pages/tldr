@@ -13,4 +13,4 @@
 
 - Display help:
 
-`grub-mkconfig {{[-?|--help]}}`
+`grub-mkconfig {{[-h|--help]}}`
