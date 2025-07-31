@@ -18,3 +18,11 @@
 - List audio capture sources:
 
 `gpu-screen-recorder {{--list-audio-devices|--list-application-audio}}`
+
+- Record using the replay buffer:
+
+`gpu-screen-recorder -w {{screen}} -r {{30}} -c {{mp4}} -ro {{path/to/directory}} -o {{whatever}}`
+
+- Start and stop a replay buffer recording:
+
+`pkill -SIGRTMIN -f gpu-screen-recorder`
