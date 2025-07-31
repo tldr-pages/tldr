@@ -1,7 +1,7 @@
 # bg
 
 > Resume suspended jobs (e.g. using `<Ctrl z>`), and keeps them running in the background.
-> See also: `jobs`, `fg` and `disown`.
+> See also: `jobs`, `fg`, `disown`.
 > More information: <https://manned.org/bg>.
 
 - Resume the most recently suspended job and run it in the background:
