@@ -5,16 +5,16 @@
 
 - Update all packages in the current project:
 
-`npm update`
+`npm {{[up|update]}}`
 
 - Update a specific package in the current project:
 
-`npm update {{package}}`
+`npm {{[up|update]}} {{package}}`
 
 - Update a package globally:
 
-`npm update {{[-g|--global]}} {{package}}`
+`npm {{[up|update]}} {{[-g|--global]}} {{package}}`
 
 - Update multiple packages at once:
 
-`npm update {{package1 package2 ...}}`
+`npm {{[up|update]}} {{package1 package2 ...}}`

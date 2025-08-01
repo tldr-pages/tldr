@@ -29,8 +29,8 @@
 
 - Show the cache path:
 
-`npm config get cache`
+`npm {{[c|config]}} get cache`
 
 - Change the cache path:
 
-`npm config set cache {{path/to/directory}}`
+`npm {{[c|config]}} set cache {{path/to/directory}}`

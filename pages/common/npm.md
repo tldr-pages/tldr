@@ -10,28 +10,28 @@
 
 - Download all the packages listed as dependencies in `package.json`:
 
-`npm install`
+`npm {{[i|install]}}`
 
 - Download a specific version of a package and add it to the list of dependencies in `package.json`:
 
-`npm install {{package_name}}@{{version}}`
+`npm {{[i|install]}} {{package_name}}@{{version}}`
 
 - Download the latest version of a package and add it to the list of dev dependencies in `package.json`:
 
-`npm install {{package_name}} {{[-D|--save-dev]}}`
+`npm {{[i|install]}} {{package_name}} {{[-D|--save-dev]}}`
 
 - Download the latest version of a package and install it globally:
 
-`npm install {{[-g|--global]}} {{package_name}}`
+`npm {{[i|install]}} {{[-g|--global]}} {{package_name}}`
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
-`npm uninstall {{package_name}}`
+`npm {{[r|uninstall]}} {{package_name}}`
 
 - List all locally installed dependencies:
 
-`npm list`
+`npm {{[ls|list]}}`
 
 - List all top-level globally installed packages:
 
-`npm list {{[-g|--global]}} --depth {{0}}`
+`npm {{[ls|list]}} {{[-g|--global]}} --depth {{0}}`

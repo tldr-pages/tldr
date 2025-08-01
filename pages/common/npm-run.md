@@ -25,4 +25,4 @@
 
 - Run a script named `test`:
 
-`npm test`
+`npm {{[t|test]}}`
