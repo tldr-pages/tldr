@@ -29,4 +29,4 @@
 
 - Run `gpu-screen-recorder` in the background:
 
-`systemctl start --user gpu-screen-recorder.service`
+`systemctl start --user gpu-screen-recorder`
