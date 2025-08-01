@@ -23,7 +23,7 @@
 
 `gpu-screen-recorder -w {{screen}} -r {{30}} -c {{mp4}} -ro {{path/to/directory}} -o {{whatever}}`
 
-- Capture the video in a replay buffer:
+- Capture a video from the replay buffer:
 
 `pkill -SIGUSR1 -f gpu-screen-recorder`
 
