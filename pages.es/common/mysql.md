@@ -1,7 +1,7 @@
 # mysql
 
 > Herramienta de línea de comandos para gestionar bases de datos MySQL.
-> Más información: <https://www.mysql.com/>.
+> Más información: <https://manned.org/mysql>.
 
 - Conecta a una base de datos:
 
