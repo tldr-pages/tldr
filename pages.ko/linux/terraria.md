@@ -1,4 +1,4 @@
-# terraria
+# Terraria
 
 > 무인 Terraria 서버를 생성하고 시작합니다.
 > 더 많은 정보: <https://terraria.wiki.gg/wiki/Server>.
