@@ -1,7 +1,7 @@
 # mysql
 
 > Narzędzie wiersza polecenia MySQL.
-> Więcej informacji: <https://www.mysql.com/>.
+> Więcej informacji: <https://manned.org/mysql>.
 
 - Połącz się z bazą danych:
 
