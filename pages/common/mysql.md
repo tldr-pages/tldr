@@ -1,7 +1,7 @@
 # mysql
 
 > The MySQL tool.
-> More information: <https://www.mysql.com/>.
+> More information: <https://manned.org/mysql>.
 
 - Connect to a database:
 
