@@ -7,7 +7,7 @@
 
 `vagrant init`
 
-- Create Vagrantfile with the Ubuntu 20.04 (Focal Fossa) box from HashiCorp Atlas:
+- Create Vagrantfile with a box from the Vagrant Public Registry:
 
 `vagrant init {{ubuntu/focal64}}`
 
