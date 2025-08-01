@@ -12,26 +12,26 @@
 
 `sudo fdisk {{/dev/sdX}}`
 
-- Once partitioning a disk, create a partition:
+- Create a [n]ew partition:
 
 `<n>`
 
-- Once partitioning a disk, select a partition to delete:
+- Select a partition to [d]elete:
 
 `<d>`
 
-- Once partitioning a disk, view the partition table:
+- View the [p]artition table:
 
 `<p>`
 
-- Once partitioning a disk, write the changes made:
+- [w]rite the changes made:
 
 `<w>`
 
-- Once partitioning a disk, discard the changes made:
+- Discard the changes made and [q]uit:
 
 `<q>`
 
-- Once partitioning a disk, open a help menu:
+- Open a help [m]enu:
 
 `<m>`
