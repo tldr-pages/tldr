@@ -1,6 +1,6 @@
 # elasticsearch-create-enrollment-token
 
-> Creates enrollment tokens for Elasticsearch nodes and Kibana instances.
+> Create enrollment tokens for Elasticsearch nodes and Kibana instances.
 > More information: <https://www.elastic.co/guide/en/elasticsearch/reference/current/create-enrollment-token.html>.
 
 - Create an enrollment token for adding a new Elasticsearch node:
