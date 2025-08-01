@@ -15,7 +15,7 @@
 
 `crond -s`
 
-- Sovrascrive le limitazione di default e accetta crontables personalizzate:
+- Sovrascrive le limitazioni di default e accetta crontables personalizzate:
 
 `crond -p`
 

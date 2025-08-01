@@ -3,7 +3,7 @@
 > Esegui un server di Minecraft senza interfaccia grafica.
 > Maggiori informazioni: <https://minecraft.wiki/w/Tutorial:Setting_up_a_Java_Edition_server>.
 
-- Avvia un server Minecraft e genera un modo se non esiste:
+- Avvia un server Minecraft e genera un mondo se non esiste:
 
 `java -jar {{percorso/del/server.jar}} --nogui`
 

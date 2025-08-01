@@ -1,10 +1,10 @@
 # firewall-cmd
 
 > Il client a linea di comando firewalld.
-> Visualizza e adatta lo stato di configurazione del firewall in esecuzioni (runtime) o permanente.
+> Visualizza e adatta lo stato di configurazione del firewall in esecuzione (runtime) o permanente.
 > Maggiori informazioni: <https://firewalld.org/documentation/man-pages/firewall-cmd>.
 
-- Visualizza tutte le zone e regole firewall disponibili nel loro stato di configurazioni runtime:
+- Visualizza tutte le zone e regole firewall disponibili nel loro stato di configurazione runtime:
 
 `firewall-cmd --list-all-zones`
 
