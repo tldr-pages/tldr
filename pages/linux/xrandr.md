@@ -13,7 +13,7 @@
 
 - Change the resolution and update frequency of DisplayPort 1 to 1920x1080, 60Hz:
 
-`xrandr --output {{DP1}} --mode {{1920x1080}} --rate {{60}}`
+`xrandr --output {{DP1}} --mode {{1920x1080}} {{[-r|--rate]}} {{60}}`
 
 - Set the resolution of HDMI2 to 1280x1024 and put it on the right of DP1:
 
