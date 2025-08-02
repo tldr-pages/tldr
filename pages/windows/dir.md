@@ -23,6 +23,6 @@
 
 `dir /b`
 
-- Sort results by size, date, name, etc. (e.g., by date/time):
+- Sort results by date/time, oldest first
 
 `dir /o:d`
