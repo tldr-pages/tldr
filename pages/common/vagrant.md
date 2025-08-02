@@ -7,7 +7,7 @@
 
 `vagrant init`
 
-- Create Vagrantfile with a box from the Vagrant Public Registry:
+- Create a `Vagrantfile` with a box from the Vagrant Public Registry:
 
 `vagrant init {{ubuntu/focal64}}`
 
