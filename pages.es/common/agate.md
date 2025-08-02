@@ -5,7 +5,7 @@
 
 - Ejecuta y genera una clave privada y un certificado:
 
-`agate --content {{ruta/a/contenido/}} --addr {{[::]:1965}} --addr {{0.0.0.0:1965}} --hostname {{ejemplo.com}} --lang {{sp-SP}}`
+`agate --content {{ruta/a/contenido/}} --addr {{[::]:1965}} --addr {{0.0.0.0:1965}} --hostname {{example.com}} --lang {{sp-SP}}`
 
 - Ejecuta servidor:
 
@@ -13,4 +13,4 @@
 
 - Muestra la ayuda:
 
-`agate -h`
+`agate {{[-h|--help]}}`
