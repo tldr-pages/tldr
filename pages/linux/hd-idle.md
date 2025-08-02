@@ -1,6 +1,6 @@
 # hd-idle
 
-> hd-idle is a utility program for spinning-down external disks after a period of idle time.
+> Utility program for spinning-down external disks after a period of idle time.
 > More information: <https://hd-idle.sourceforge.net/>.
 
 - There needs to be a service running for auto-spin down. By default hard disks will spin down after 10 minutes of inactivity:
