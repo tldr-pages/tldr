@@ -18,7 +18,7 @@
 
 - Delete a snapshot:
 
-`vagrant snspahot delete {{snapshot_name}}`
+`vagrant snapshot delete {{snapshot_name}}`
 
 - List available snapshots of the machine:
 
