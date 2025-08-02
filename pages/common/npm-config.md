@@ -1,4 +1,4 @@
-# npm-config
+# npm config
 
 > Manage the `npm` configuration settings.
 > More information: <https://docs.npmjs.com/cli/commands/npm-config>.
