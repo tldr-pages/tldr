@@ -12,7 +12,7 @@
 
 `vagrant snapshot restore {{snapshot_name}}`
 
-- Restore a snapshot but do not start the machine:
+- Restore a snapshot without starting the machine:
 
 `vagrant snapshot restore --no-start {{snapshot_name}}`
 
