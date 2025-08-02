@@ -3,7 +3,7 @@
 > Manage lightweight, reproducible, and portable development environments.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli>.
 
-- Create Vagrantfile in the current directory with the base Vagrant box:
+- Create a `Vagrantfile` in the current directory with the base Vagrant box:
 
 `vagrant init`
 
