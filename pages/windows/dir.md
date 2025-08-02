@@ -22,3 +22,7 @@
 - Show a bare list of directories and files, with no additional information:
 
 `dir /b`
+
+- Sort results by size, date, name, etc. (e.g., by date/time):
+
+`dir /o:d`
