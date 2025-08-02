@@ -1,7 +1,7 @@
 # npm doctor
 
 > Check the health of the npm environment.
-> More information: <https://docs.npmjs.com/cli/commands/npm-doctor>.
+> More information: <https://docs.npmjs.com/cli/npm-doctor>.
 
 - Run all default health checks for `npm`:
 
