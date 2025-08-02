@@ -13,7 +13,7 @@
 
 - Verify fingerprints for a specific user:
 
-`fprint-verify {{username}}`
+`fprintd-verify {{username}}`
 
 - Verify a specific fingerprint for a specific user:
 
@@ -21,7 +21,7 @@
 
 - Fail the process if a fingerprint doesn't match with ones stored in the database for the current user:
 
-`fprint-verify --g-fatal-warnings`
+`fprintd-verify --g-fatal-warnings`
 
 - Display help:
 
