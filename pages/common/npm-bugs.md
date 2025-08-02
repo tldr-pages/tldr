@@ -14,8 +14,8 @@
 
 - Configure the browser used to open URLs by setting your preferred browser for `npm` commands:
 
-`npm config set browser {{browser_name}}`
+`npm {{[c|config]}} set browser {{browser_name}}`
 
 - Control URL opening: set `browser` to `true` for the system URL opener, or `false` to print URLs in the terminal:
 
-`npm config set browser {{true|false}}`
+`npm {{[c|config]}} set browser {{true|false}}`

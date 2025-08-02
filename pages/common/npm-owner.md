@@ -1,7 +1,7 @@
 # npm owner
 
 > Manage ownership of published packages.
-> More information: <https://docs.npmjs.com/cli/commands/npm-owner>.
+> More information: <https://docs.npmjs.com/cli/npm-owner>.
 
 - Add a new user as a maintainer of a package:
 
