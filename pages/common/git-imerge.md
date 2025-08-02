@@ -1,4 +1,4 @@
-# git-imerge
+# git imerge
 
 > Perform a merge or rebase between two Git branches incrementally.
 > Conflicts between branches are tracked down to pairs of individual commits, to simplify conflict resolution.
