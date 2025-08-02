@@ -1,7 +1,7 @@
 # npm cache
 
 > Manage the npm package cache.
-> More information: <https://docs.npmjs.com/cli/commands/npm-cache>.
+> More information: <https://docs.npmjs.com/cli/npm-cache>.
 
 - Add a specific package to the cache:
 
@@ -29,8 +29,8 @@
 
 - Show the cache path:
 
-`npm config get cache`
+`npm {{[c|config]}} get cache`
 
 - Change the cache path:
 
-`npm config set cache {{path/to/directory}}`
+`npm {{[c|config]}} set cache {{path/to/directory}}`
