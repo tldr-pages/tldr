@@ -2,7 +2,7 @@
 
 > 简便地创建、编辑和运行仅包含源代码的自包含 Java 程序。
 > 此命令也有关于其子命令的文件，例如：`java`.
-> 更多信息：<https://www.jbang.dev/documentation/guide/latest/cli/jbang.html>.
+> 更多信息：<https://www.jbang.dev/documentation/jbang/latest/cli/jbang.html>.
 
 - 初始化一个简单的 Java 类：
 
