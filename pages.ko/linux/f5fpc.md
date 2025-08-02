@@ -1,7 +1,7 @@
 # f5fpc
 
 > BIG-IP Edge의 독점 상업용 SSL VPN 클라이언트.
-> 더 많은 정보: <https://techdocs.f5.com/kb/en-us/products/big-ip_apm/manuals/product/apm-client-configuration-11-4-0/4.html>.
+> 더 많은 정보: <https://my.f5.com/manage/s/article/K47922841>.
 
 - 새 VPN 연결 열기:
 
