@@ -1,6 +1,6 @@
 # vagrant snapshot
 
-> Manage snapshots of Vangrant machines.
+> Manage snapshots of Vagrant machines.
 > See also: `vagrant`.
 > More information: <https://developer.hashicorp.com/vagrant/docs/cli/snapshot>.
 
