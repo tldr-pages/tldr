@@ -6,7 +6,7 @@
 
 - Take a snapshot of the machine (running or stopped):
 
-`vagrant snpahot save {{snapshot_name}}`
+`vagrant snapshot save {{snapshot_name}}`
 
 - Restore a snapshot and start the machine:
 
