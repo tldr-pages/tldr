@@ -1,4 +1,4 @@
-# yadm-upgrade
+# yadm upgrade
 
 > Upgrade `yadm` to the latest version.
 > Upgrading will attempt to de-initialize and re-initialize your submodules.

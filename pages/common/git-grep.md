@@ -1,4 +1,4 @@
-# git-grep
+# git grep
 
 > Find strings inside files anywhere in a repository's history.
 > Accepts a lot of the same flags as regular `grep`.

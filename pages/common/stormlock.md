@@ -1,4 +1,4 @@
-# Stormlock
+# stormlock
 
 > Centralized locking system.
 > More information: <https://github.com/tmccombs/stormlock>.

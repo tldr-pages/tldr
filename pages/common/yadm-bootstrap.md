@@ -1,4 +1,4 @@
-# yadm-bootstrap
+# yadm bootstrap
 
 > Execute Yadm's bootstrap file.
 > This file should be created in `$HOME/.config/yadm/bootstrap`.

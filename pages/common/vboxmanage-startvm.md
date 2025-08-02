@@ -1,4 +1,4 @@
-# vboxmanage-startvm
+# VBoxManage startvm
 
 > Start a virtual machine.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-startvm>.

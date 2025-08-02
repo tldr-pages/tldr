@@ -1,4 +1,4 @@
-# vboxmanage-import
+# VBoxManage import
 
 > Import a previously exported virtual machine (VM).
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-import>.

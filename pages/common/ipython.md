@@ -1,4 +1,4 @@
-# IPython
+# ipython
 
 > A Python shell with automatic history, dynamic object introspection, easier configuration, command completion, access to the system shell and more.
 > More information: <https://ipython.readthedocs.io>.

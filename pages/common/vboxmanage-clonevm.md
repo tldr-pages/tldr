@@ -1,4 +1,4 @@
-# vboxmanage-clonevm
+# VBoxManage clonevm
 
 > Create a clone of an existing virtual machine (VM).
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-clonevm>.

@@ -1,4 +1,4 @@
-# vboxmanage-createvm
+# VBoxManage createvm
 
 > Create a new virtual machine.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-createvm>.

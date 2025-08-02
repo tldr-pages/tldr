@@ -17,11 +17,11 @@
 
 - Disable a specific extension:
 
-`gnome-extension disable "{{extension_id}}"`
+`gnome-extensions disable "{{extension_id}}"`
 
 - Uninstall a specific extension:
 
-`gnome-extension uninstall "{{extension_id}}"`
+`gnome-extensions uninstall "{{extension_id}}"`
 
 - Display help for a specific subcommand (like `list`):
 

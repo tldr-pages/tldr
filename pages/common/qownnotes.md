@@ -1,4 +1,4 @@
-# qownnotes
+# QOwnNotes
 
 > Markdown note-taking application.
 > Optionally integrates with the note-taking applications of Nextcloud and ownCloud.

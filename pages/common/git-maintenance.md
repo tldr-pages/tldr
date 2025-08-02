@@ -1,4 +1,4 @@
-# git-maintenance
+# git maintenance
 
 > Run tasks to optimize Git repository data.
 > More information: <https://git-scm.com/docs/git-maintenance>.

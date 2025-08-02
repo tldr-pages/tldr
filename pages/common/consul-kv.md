@@ -1,4 +1,4 @@
-# consul-kv
+# consul kv
 
 > Distributed key-value store with health checking and service discovery.
 > More information: <https://learn.hashicorp.com/consul/getting-started/kv>.

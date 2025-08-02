@@ -1,4 +1,4 @@
-# PHP-CS-Fixer
+# php-cs-fixer
 
 > Automatic coding style fixer for PHP.
 > More information: <https://github.com/FriendsOfPHP/PHP-CS-Fixer>.

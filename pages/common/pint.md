@@ -1,4 +1,4 @@
-# Pint
+# pint
 
 > An opinionated PHP code style fixer based on PHP-CS-Fixer.
 > More information: <https://laravel.com/docs/pint>.
