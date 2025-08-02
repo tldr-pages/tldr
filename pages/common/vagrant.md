@@ -1,17 +1,18 @@
 # vagrant
 
 > Manage lightweight, reproducible, and portable development environments.
-> More information: <https://www.vagrantup.com>.
+> Some subcommands such as `box`, `snapshot`, `halt`, etc. have their own usage documentation.
+> More information: <https://developer.hashicorp.com/vagrant/docs/cli>.
 
-- Create Vagrantfile in current directory with the base Vagrant box:
+- Create a `Vagrantfile` in the current directory with the base Vagrant box:
 
 `vagrant init`
 
-- Create Vagrantfile with the Ubuntu 20.04 (Focal Fossa) box from HashiCorp Atlas:
+- Create a `Vagrantfile` with a box from the Vagrant Public Registry:
 
-`vagrant init ubuntu/focal64`
+`vagrant init {{ubuntu/focal64}}`
 
-- Start and provision the vagrant environment:
+- Start and provision the Vagrant environment:
 
 `vagrant up`
 
@@ -23,7 +24,7 @@
 
 `vagrant halt`
 
-- Connect to machine via SSH:
+- Connect to the machine via SSH:
 
 `vagrant ssh`
 
