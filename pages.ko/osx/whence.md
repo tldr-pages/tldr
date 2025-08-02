@@ -1,7 +1,7 @@
 # whence
 
 > Zsh 내장 명령어로, 명령어가 어떻게 해석될지를 나타냅니다.
-> 더 많은 정보: <https://keith.github.io/xcode-man-pages/whence.1.html>.
+> 더 많은 정보: <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html#index-whence>.
 
 - `command`를 해석하고, `alias`로 정의된 경우 확장:
 
