@@ -11,7 +11,7 @@
 
 `vagrant init {{ubuntu/focal64}}`
 
-- Start and provision the vagrant environment:
+- Start and provision the Vagrant environment:
 
 `vagrant up`
 
