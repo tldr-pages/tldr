@@ -1,7 +1,7 @@
 # npm org
 
 > Manage organizations.
-> More information: <https://docs.npmjs.com/cli/commands/npm-org>.
+> More information: <https://docs.npmjs.com/cli/npm-org>.
 
 - Add a new user to an organization:
 
