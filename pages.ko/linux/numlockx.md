@@ -1,7 +1,7 @@
 # numlockx
 
 > X11 세션에서 넘버락 키 상태를 제어합니다.
-> 더 많은 정보: <https://www.mike-devlin.com/linux/README-numlockx.htm>.
+> 더 많은 정보: <https://manned.org/numlockx>.
 
 - 현재 넘버락 상태 표시:
 
