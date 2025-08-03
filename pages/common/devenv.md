@@ -1,7 +1,7 @@
 # devenv
 
 > Fast, Declarative, Reproducible and Composable Developer Environments using Nix.
-> More information: <https://devenv.sh>.
+> More information: <https://devenv.sh/getting-started/#commands>.
 
 - Initialise the environment:
 
@@ -17,7 +17,7 @@
 
 - Start processes with `devenv`:
 
-`devenv up --config /{{file}}/{{path}}/`
+`devenv up --config {{path/to/file}}`
 
 - Clean the environment variables and re-enter the shell in offline mode:
 
