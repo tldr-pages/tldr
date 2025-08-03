@@ -17,4 +17,4 @@
 
 - List downloaded templates:
 
-`pveam list {{local}}
+`pveam list {{local}}`
