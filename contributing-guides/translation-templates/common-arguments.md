@@ -32,7 +32,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | pt_BR | caminho/para/arquivo  | caminho/para/diretorio   | caminho/para/arquivo_ou_diretorio    | pacote        | nome_do_usuario    |
 | pt_PT | caminho/para/ficheiro | caminho/para/diretório   | caminho/para/ficheiro_ou_diretório   | pacote        | nome_de_utilizador |
 | ro    | cale/către/fișier     | cale/către/director      | cale/către/fișier_sau_director       | pachet        | nume_utilizator    |
-| ru    | путь/до/файла         | путь/до/папки            | путь/до/файла_или_папки              | пакет         | имя_пользователя   |
+| ru    | путь/к/файлу          | путь/к/каталогу          | путь/к/файлу_или_каталогу            | пакет         | имя_пользователя   |
 | sh    | put/do/datoteke       | put/do/direktorija       | put/do/datoteke_ili_direktorija      | paket         | korisničko_ime     |
 | sr    | put/do/datoteke       | put/do/direktorijuma     | put/do/datoteke_ili_direktorijuma    | paket         | korisničko_ime     |
 | sv    | sökväg/till/fil       | sökväg/till/katalog      | sökväg/till/fil_eller_katalog        | paket         | användarnamn       |
