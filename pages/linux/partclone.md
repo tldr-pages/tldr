@@ -7,7 +7,7 @@
 
 `sudo partclone.{{ext4|btrfs|fat32|xfs|...}} {{[-c|--clone]}} {{[-s|--source]}} {{/dev/sdXY}} {{[-o|--output]}} {{path/to/backup.img}}`
 
-- Restroe a partition from an image:
+- Restore a partition from an image:
 
 `sudo partclone.{{ext4|btrfs|fat32|xfs|...}} {{[-c|--clone]}} {{[-s|--source]}} {{path/to/backup.img}} {{[-o|--output]}} {{/dev/sdXY}}`
 
