@@ -17,7 +17,7 @@
 
 - Create a container from template with 4GB size:
 
-`pct {{[cr|create]}} {{100}} {{/var/lib/vz/template/cache/distro-name.tar.zst}} --rootfs {{local-lvm}}:4 --net0 name=eth0,bridge=vmbr0 --hostname {{hostname}} --password {{password}} --on-boot --start`
+`pct {{[cr|create]}} {{100}} {{/var/lib/vz/template/cache/distro-name.tar.zst}} --rootfs {{local-lvm}}:4`
 
 - Resize the container's disk to 20G:
 
