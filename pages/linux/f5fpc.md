@@ -1,7 +1,7 @@
 # f5fpc
 
 > A proprietary commercial SSL VPN client by BIG-IP Edge.
-> More information: <https://techdocs.f5.com/kb/en-us/products/big-ip_apm/manuals/product/apm-client-configuration-11-4-0/4.html>.
+> More information: <https://my.f5.com/manage/s/article/K47922841>.
 
 - Open a new VPN connection:
 
