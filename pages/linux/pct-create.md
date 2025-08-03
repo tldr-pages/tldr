@@ -9,8 +9,8 @@
 
 - Create a container from a template and give it a hostname and a password:
 
-`pct {{[cr|create]}} {{100}} {{/var/lib/vz/template/cache/distro-name.tar.zst}} --rootfs {{local-lvm}}:4 --hostname {{hostname}} --password {{password}}`
+`pct {{[cr|create]}} {{100}} {{/var/lib/vz/template/cache/distro-name.tar.zst}} --rootfs {{local-lvm}}:{{4}} --hostname {{hostname}} --password {{password}}`
 
 - Start a container immediately after creation:
 
-`pct {{[cr|create]}} {{100}} {{/var/lib/vz/template/cache/distro-name.tar.zst}} --rootfs {{local-lvm}}:4 --start`
+`pct {{[cr|create]}} {{100}} {{/var/lib/vz/template/cache/distro-name.tar.zst}} --rootfs {{local-lvm}}:{{4}} --start`
