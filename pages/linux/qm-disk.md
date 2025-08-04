@@ -1,4 +1,4 @@
-# qm disk import
+# qm disk
 
 > Manage disk images.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
