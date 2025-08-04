@@ -25,7 +25,7 @@
 
 - Lange lijstweergave gesorteerd op grootte (aflopend) recursief:
 
-`ls {{-lSR|-lS --recursive}}`
+`ls {{[-lSR|-lS --recursive]}}`
 
 - Lange lijstweergave van alle bestanden, gesorteerd op wijzigingsdatum (oudste eerst):
 
