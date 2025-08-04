@@ -1,4 +1,4 @@
-.:# minidlna
+# minidlna
 
 > ReadyMedia (formerly MiniDLNA) is a lightweight media server compatible with DLNA/UPnP-AV clients.
 > Used to stream media to smart TVs, consoles, and other DLNA-compatible devices.
