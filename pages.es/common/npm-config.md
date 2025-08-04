@@ -25,7 +25,7 @@
 
 - Edita el archivo de configuración global npm en el editor por defecto:
 
-`npm {{[c|config]}} edit`.
+`npm {{[c|config]}} edit`
 
 - Intentar reparar elementos de configuración no válidos:
 
