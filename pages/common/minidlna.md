@@ -5,7 +5,7 @@
 > Configuration is typically done via the `minidlna.conf` file.
 > More information: <https://manned.org/minidlna>.
 
-- Start the MiniDLNA daemon using the default configuration:
+- Start the MiniDLNA daemon using the default configuration at /etc/minidlna.conf:
 
 `minidlna`
 
