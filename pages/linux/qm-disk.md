@@ -13,7 +13,7 @@
 
 - Delete the previous copy of the virtual disk:
 
-`qm {{[di|disk]}} {{[m|move]}} -delete {{vm_id}} {{destination}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} --delete {{vm_id}} {{destination}} {{index}}`
 
 - Import a VMDK/qcow2/raw disk image using a specific storage name:
 
