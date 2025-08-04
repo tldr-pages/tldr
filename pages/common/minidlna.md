@@ -1,46 +1,46 @@
-# minidlna
+.:# minidlna
 
 > ReadyMedia (formerly MiniDLNA) is a lightweight media server compatible with DLNA/UPnP-AV clients.
 > Used to stream media to smart TVs, consoles, and other DLNA-compatible devices.
 > Configuration is typically done via the `minidlna.conf` file.
-> More information: <https://wiki.archlinux.org/title/ReadyMedia>
+> More information: <https://wiki.archlinux.org/title/ReadyMedia>.
 
-- Start the MiniDLNA daemon using the default configuration.
+- Start the MiniDLNA daemon using the default configuration:
 
 `minidlna`
 
-- Start MiniDLNA with a specific configuration file.
+- Start MiniDLNA with a specific configuration file:
 
 `minidlna -f {{/path/to/minidlna.conf}}`
 
-- Force a database rescan on startup.
+- Force a database rescan on startup:
 
 `minidlna -R`
 
-- Run MiniDLNA in the foreground (useful for debugging).
+- Run MiniDLNA in the foreground (useful for debugging):
 
 `minidlna -d`
 
-- Enable verbose debug output.
+- Enable verbose debug output:
 
 `minidlna -d -v`
 
-- Specify a custom media directory (overrides config).
+- Specify a custom media directory (overrides config):
 
 `minidlna -m {{/path/to/media}}`
 
-- Specify a custom database directory.
+- Specify a custom database directory:
 
 `minidlna -P {{/path/to/pidfile}}`
 
-- Specify a custom log file path.
+- Specify a custom log file path:
 
-`minidlna -l {{/path/to/logfile.log}}`
+`minidlna -l {{/path/to/logfil.log}}`
 
-- Show help for all available options.
+- Show help for all available options:
 
 `minidlna -h`
 
-- Display version information.
+- Display version information:
 
 `minidlna -V`
