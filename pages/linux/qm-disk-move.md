@@ -9,4 +9,4 @@
 
 - Delete the previous copy of the virtual disk:
 
-`qm {{[di|disk]}} {{[m|move]}} -delete {{vm_id}} {{destination}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} --delete {{vm_id}} {{destination}} {{index}}`
