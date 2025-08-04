@@ -15,6 +15,6 @@
 
 `qm set {{100}} --cores {{4}}`
 
-- Set the alotted amount of memory:
+- Set the allotted amount of memory:
 
 `qm set {{100}} --memory {{8192}}`
