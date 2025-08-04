@@ -19,9 +19,9 @@
 
 `qemu-img map {{path/to/image_file.img}}`
 
-- Convert a VMware `.vmdk` disk image to a KVM `.qcow2` disk image:
+- Convert a VMware `.vmdk` disk image to a KVM `.qcow2` disk image and display [p]rogress:
 
-`qemu-img convert -f vmdk -O qcow2 {{path/to/image_file.vmdk}} {{path/to/image_file.qcow2}}`
+`qemu-img convert -f vmdk -O qcow2 -p {{path/to/image_file.vmdk}} {{path/to/image_file.qcow2}}`
 
 - [c]reate an internal snapshot of a KVM `.qcow2` disk image:
 
