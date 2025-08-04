@@ -5,7 +5,7 @@
 
 - Muestra todos los ajustes de configuración:
 
-`npm {{[c|config]}} list`.
+`npm {{[c|config]}} list`
 
 - Lista todos los ajustes de configuración como `JSON`:
 
