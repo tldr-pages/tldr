@@ -3,7 +3,7 @@
 > ReadyMedia (formerly MiniDLNA) is a lightweight media server compatible with DLNA/UPnP-AV clients.
 > Used to stream media to smart TVs, consoles, and other DLNA-compatible devices.
 > Configuration is typically done via the `minidlna.conf` file.
-> More information: <https://wiki.archlinux.org/title/ReadyMedia>.
+> More information: <https://manned.org/minidlna>.
 
 - Start the MiniDLNA daemon using the default configuration:
 
