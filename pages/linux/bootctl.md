@@ -5,7 +5,7 @@
 
 - Show information about the system firmware and the bootloaders:
 
-`bootctl status`
+`bootctl`
 
 - Show all available bootloader entries:
 
