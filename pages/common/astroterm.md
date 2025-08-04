@@ -1,7 +1,7 @@
 # astroterm
 
 > A terminal-based star map.
-> More information: <https://github.com/da-luce/astroterm>.
+> More information: <https://github.com/da-luce/astroterm#usage>.
 
 - Display real-time positions of stars and planets based on your current location:
 
