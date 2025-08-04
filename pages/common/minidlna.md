@@ -36,11 +36,3 @@
 - Specify a custom log file path:
 
 `minidlna -l {{/path/to/logfil.log}}`
-
-- Show help for all available options:
-
-`minidlna -h`
-
-- Display version information:
-
-`minidlna -V`
