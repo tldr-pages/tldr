@@ -11,7 +11,7 @@
 
 `qm set {{100}} --autostart {{0|1}}`
 
-- Set the alotted core count of a VM:
+- Set the allotted core count of a VM:
 
 `qm set {{100}} --cores {{4}}`
 
