@@ -11,10 +11,6 @@
 
 `elasticsearch-node unsafe-bootstrap`
 
-- Shutdown the node (must be run from the same host where Elasticsearch is installed):
-
-`elasticsearch-node shutdown`
-
 - Repurpose a node for a different role (e.g., from master to data node):
 
 `elasticsearch-node repurpose`
