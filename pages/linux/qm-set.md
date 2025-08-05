@@ -19,6 +19,10 @@
 
 `qm set {{100}} --memory {{8192}}`
 
+- Give a VM a network device:
+
+`qm set {{100}} --net{{0}} {{virtio|e1000|rtl8139|vmxnet3}}`
+
 - Delete a device:
 
 `qm set {{100}} --delete {{device_name0}}`
