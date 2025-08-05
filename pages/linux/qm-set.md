@@ -19,9 +19,9 @@
 
 `qm set {{100}} --memory {{8192}}`
 
-- Give a VM a network device:
+- Give a VM a network device and bridge it to the host network:
 
-`qm set {{100}} --net{{0}} {{virtio|e1000|rtl8139|vmxnet3}}`
+`qm set {{100}} --net{{0}} {{virtio|e1000|rtl8139|vmxnet3}},bridge=vmbr{{0}}`
 
 - Delete a device:
 
