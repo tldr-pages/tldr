@@ -1,7 +1,7 @@
 # chainctl
 
 > The official CLI for Chainguard.
-> More information: <https://edu.chainguard.dev/chainguard/chainctl>.
+> More information: <https://edu.chainguard.dev/chainguard/chainctl/chainctl-docs/chainctl/>.
 
 - Authenticate to the Chainguard Platform:
 

@@ -23,9 +23,9 @@
 
 `sudo aide {{[-c|--config]}} {{path/to/config_file}}`
 
-- Use REGEX to limit AIDE to a specific string:
+- Use `regex` to limit AIDE to a specific string:
 
-`sudo aide {{[-l|--limit]}} {{REGEX}}`
+`sudo aide {{[-l|--limit]}} {{regex}}`
 
 - Send reporter results to a URL:
 

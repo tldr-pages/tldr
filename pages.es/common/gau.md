@@ -5,7 +5,7 @@
 
 - Obtén todas las URLs de un dominio de Open Threat Exchange de AlienVault, Wayback Machine, Common Crawl y URLScan:
 
-`gau {{ejemplo.com}}`
+`gau {{example.com}}`
 
 - Obtén URLs de varios dominios:
 
@@ -17,7 +17,7 @@
 
 - Escribe los resultados en un archivo:
 
-`gau {{ejemplo.com}} --o {{ruta/a/urls_encontradas.txt}}`
+`gau {{example.com}} --o {{ruta/a/urls_encontradas.txt}}`
 
 - Busca las URLs de un solo proveedor específico:
 
@@ -25,8 +25,8 @@
 
 - Busca las URLs de varios proveedores:
 
-`gau --providers {{wayback,otx,...}} {{ejemplo.com}}`
+`gau --providers {{wayback,otx,...}} {{example.com}}`
 
 - Busca las URLs dentro de un intervalo de fechas específico:
 
-`gau --from {{AAAAMM}} --to {{YYYYMM}} {{ejemplo.com}}`
+`gau --from {{AAAAMM}} --to {{YYYYMM}} {{example.com}}`

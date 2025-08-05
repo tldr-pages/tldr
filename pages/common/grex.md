@@ -1,13 +1,13 @@
 # grex
 
-> Generate regular expressions.
+> Generate `regex`s.
 > More information: <https://github.com/pemistahl/grex>.
 
-- Generate a simple regular expression:
+- Generate a simple `regex`:
 
 `grex {{space_separated_strings}}`
 
-- Generate a case-insensitive regular expression:
+- Generate a case-insensitive `regex`:
 
 `grex {{[-i|--ignore-case]}} {{space_separated_strings}}`
 

@@ -7,14 +7,10 @@
 
 `grub-editenv /boot/grub/grubenv set default={{Ubuntu}}`
 
-- Display the current value of the `timeout` variable:
+- Display all GRUB environment variables:
 
-`grub-editenv /boot/grub/grubenv list timeout`
+`grub-editenv /boot/grub/grubenv list`
 
 - Reset the `saved_entry` variable to the default:
 
 `grub-editenv /boot/grub/grubenv unset saved_entry`
-
-- Append "quiet splash" to the kernel command-line:
-
-`grub-editenv /boot/grub/grubenv list kernel_cmdline`

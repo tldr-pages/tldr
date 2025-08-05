@@ -1,7 +1,7 @@
 # pw-dot
 
 > Create `.dot` files of the PipeWire graph.
-> See also: `dot`, for rendering graph.
+> See also: `dot` for rendering graph.
 > More information: <https://docs.pipewire.org/page_man_pw-dot_1.html>.
 
 - Generate a graph to `pw.dot` file:

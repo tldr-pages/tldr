@@ -1,32 +1,32 @@
-# npm-config
+# npm config
 
 > Gestiona los ajustes de configuración de `npm`.
-> Más información: <https://docs.npmjs.com/cli/commands/npm-config>.
+> Más información: <https://docs.npmjs.com/cli/npm-config>.
 
 - Muestra todos los ajustes de configuración:
 
-`npm config list`
+`npm {{[c|config]}} list`
 
 - Lista todos los ajustes de configuración como `JSON`:
 
-`npm config list --json`
+`npm {{[c|config]}} list --json`
 
 - Obtiene el valor de una clave de configuración específica:
 
-`npm config get {{clave}}`
+`npm {{[c|config]}} get {{clave}}`
 
 - Establece una clave de configuración a un valor específico:
 
-`npm config set {{clave}} {{valor}}`
+`npm {{[c|config]}} set {{clave}} {{valor}}`
 
 - Elimina una clave de configuración:
 
-`npm config delete {{clave}}`
+`npm {{[c|config]}} delete {{clave}}`
 
-- Edita el archivo de configuración global de npm en el editor predeterminado:
+- Edita el archivo de configuración global npm en el editor por defecto:
 
-`npm config edit`
+`npm {{[c|config]}} edit`
 
-- Intenta reparar elementos de configuración no válidos:
+- Intentar reparar elementos de configuración no válidos:
 
-`npm config fix`
+`npm {{[c|config]}} fix`
