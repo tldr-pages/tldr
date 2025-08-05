@@ -73,6 +73,7 @@ The `pages` directory and `pages.*` language-specific directories contain the pl
 2. If the command is **only** available for **one** platform, these are the available directories followed by their right platform:
 
 - `android`: Android
+- `cisco-ios`: Cisco IOS
 - `freebsd`: FreeBSD
 - `openbsd`: OpenBSD
 - `osx`: OSX/Mac OS/macOS (will be replaced by `macos`)
@@ -281,7 +282,7 @@ For other cases, it is suggested to follow <https://www.conventionalcommits.org/
 ## Name collisions
 
 When there are multiple commands sharing the same name, the existing page of the command and the new command can be renamed to `command.1` and so on following a numbering scheme or using a suffix relating to the program like the programming language i.e. `command.js`.
-The base page can be updated to reference the newly renamed/created pages by following [this subcommand reference format](#subcommands).
+The base page can be updated to reference the newly renamed/created pages by following [the disambiguation page format](contributing-guides/style-guide.md#disambiguations).
 
 See the following page for reference:
 

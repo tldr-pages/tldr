@@ -1,7 +1,7 @@
 # mysql
 
 > MySQL 명령줄 도구.
-> 더 많은 정보: <https://www.mysql.com/>.
+> 더 많은 정보: <https://manned.org/mysql>.
 
 - 데이터베이스에 연결:
 

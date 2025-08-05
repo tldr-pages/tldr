@@ -16,7 +16,7 @@
 
 `tac {{[-s|--separator]}} {{separator}} {{path/to/file1 path/to/file2 ...}}`
 
-- Use a specific regex as a separator:
+- Use a specific `regex` as a separator:
 
 `tac {{[-r|--regex]}} {{[-s|--separator]}} {{separator}} {{path/to/file1 path/to/file2 ...}}`
 

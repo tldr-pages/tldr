@@ -18,3 +18,7 @@
 - Toon het wachtwoord en de QR-code voor het huidige Wi-Fi netwerk:
 
 `nmcli {{[d|device]}} {{[w|wifi]}} {{[s|show-password]}}`
+
+- Toon gedetailleerde informatie over een device:
+
+`nmcli {{[d|device]}} {{[sh|show]}} {{wlan0}}`

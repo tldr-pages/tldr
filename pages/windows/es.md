@@ -8,9 +8,9 @@
 
 `es {{search_term}}`
 
-- Search using a regular expression:
+- Search using a `regex`:
 
-`es -r {{regex_pattern}}`
+`es -r {{regex}}`
 
 - Match whole words:
 

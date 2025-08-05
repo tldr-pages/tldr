@@ -1,7 +1,7 @@
 # npm deprecate
 
 > Mark a version or range of versions of an `npm` package as deprecated.
-> More information: <https://docs.npmjs.com/cli/commands/npm-deprecate/>.
+> More information: <https://docs.npmjs.com/cli/npm-deprecate/>.
 
 - Deprecate a specific version of a package:
 

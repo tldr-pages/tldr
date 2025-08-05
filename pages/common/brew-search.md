@@ -7,9 +7,9 @@
 
 `brew search {{keyword}}`
 
-- Search for casks and formulae using a regular expression:
+- Search for casks and formulae using a `regex`:
 
-`brew search /{{regular_expression}}/`
+`brew search /{{regex}}/`
 
 - Enable searching through descriptions:
 

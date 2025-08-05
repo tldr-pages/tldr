@@ -1,7 +1,7 @@
 # xsltproc
 
 > Przekształć XML z XSLT w celu uzyskania wyjścia (zwykle HTML lub XML).
-> Więcej informacji: <http://www.xmlsoft.org/xslt/xsltproc.html>.
+> Więcej informacji: <https://manned.org/xsltproc>.
 
 - Przekształć plik XML za pomocą określonego arkusza stylów XSLT:
 

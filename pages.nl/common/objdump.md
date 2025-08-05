@@ -19,6 +19,10 @@
 
 `objdump {{[-M|--disassembler-options]}} intel {{[-d|--disassemble]}} {{pad/naar/binary}}`
 
+- Toon de symbooltabel:
+
+`objdump {{[-t|--syms]}} {{pad/naar/binary}}`
+
 - Toon een complete binary hex dump van alle secties:
 
 `objdump {{[-s|--full-contents]}} {{pad/naar/binary}}`

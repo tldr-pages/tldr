@@ -1,7 +1,7 @@
 # emacs
 
 > The extensible, customizable, self-documenting, real-time display editor.
-> See also `emacsclient`.
+> See also: `emacsclient`.
 > More information: <https://www.gnu.org/software/emacs>.
 
 - Start Emacs and open a file:

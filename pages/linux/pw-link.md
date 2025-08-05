@@ -5,7 +5,7 @@
 
 - List all audio output and input ports with their IDs:
 
-`pw-link {{[-oiI|--output --input --ids]}}`
+`pw-link {{[-oiI|--output --input --id]}}`
 
 - Create a link between an output and an input port:
 
@@ -17,7 +17,7 @@
 
 - List all links with their IDs:
 
-`pw-link {{[-lI|--links --ids]}}`
+`pw-link {{[-lI|--links --id]}}`
 
 - Display help:
 
