@@ -23,6 +23,6 @@
 
 `dir /b`
 
-- Sorteer resultaten op datum/tijd, oudste eerste:
+- Sorteer resultaten op datum/tijd, oudste eerst:
 
 `dir /o:d`
