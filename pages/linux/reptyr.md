@@ -7,3 +7,7 @@
 - Move a running process to your current terminal:
 
 `reptyr {{pid}}`
+
+- Attach to a process using its name:
+
+`reptyr $(pidof {{htop}})`
