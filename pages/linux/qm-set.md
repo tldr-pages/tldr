@@ -18,3 +18,7 @@
 - Set the allotted amount of memory:
 
 `qm set {{100}} --memory {{8192}}`
+
+- Delete a device:
+
+`qm set {{100}} --delete {{device_name0}}`
