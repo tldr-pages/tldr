@@ -11,7 +11,7 @@
 
 - Start MiniDLNA with a specific configuration file:
 
-`minidlna -f {{/path/to/minidlna.conf}}`
+`minidlna -f {{path/to/minidlna.conf}}`
 
 - Force a database rescan on startup:
 
@@ -27,12 +27,12 @@
 
 - Specify a custom media directory (overrides config):
 
-`minidlna -m {{/path/to/media}}`
+`minidlna -m {{path/to/media}}`
 
 - Specify a custom database directory:
 
-`minidlna -P {{/path/to/pidfile}}`
+`minidlna -P {{path/to/pidfile}}`
 
 - Specify a custom log file path:
 
-`minidlna -l {{/path/to/logfil.log}}`
+`minidlna -l {{path/to/logfil.log}}`
