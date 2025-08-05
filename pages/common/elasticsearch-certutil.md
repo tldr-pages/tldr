@@ -31,6 +31,6 @@
 
 `elasticsearch-certutil password`
 
-- Display help:
+- Generate a keystore password with a specified value:
 
-`elasticsearch-certutil {{[-h|--help]}}`
+`elasticsearch-certutil password --pass {{password}}`
