@@ -10,7 +10,7 @@
 
 - Print a specific path sub-directories and sub-keys:
 
-`dconf list /{{path/to/directory/}}`
+`dconf list /{{path/to/directory}}/`
 
 - Write a specific key value:
 
@@ -22,8 +22,8 @@
 
 - Watch a specific key/directory for changes:
 
-`dconf watch /{{path/to/key|/path/to/directory/}}`
+`dconf watch /{{path/to/key|/path/to/directory}}/`
 
 - Dump a specific directory in INI file format:
 
-`dconf dump /{{path/to/directory/}}`
+`dconf dump /{{path/to/directory}}/`

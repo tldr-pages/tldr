@@ -10,4 +10,4 @@
 
 - Reset a specific directory:
 
-`dconf reset -f /{{path/to/directory/}}`
+`dconf reset -f /{{path/to/directory}}/`

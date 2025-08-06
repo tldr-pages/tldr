@@ -10,7 +10,7 @@
 
 - Create an X cursor file using a configuration file and specify the path to the image files:
 
-`xcursorgen --prefix {{path/to/image_directory/}} {{path/to/config.cursor}} {{path/to/output_file}}`
+`xcursorgen --prefix {{path/to/image_directory}}/ {{path/to/config.cursor}} {{path/to/output_file}}`
 
 - Create an X cursor file using a configuration file and write the output to `stdout`:
 
