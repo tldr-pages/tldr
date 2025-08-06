@@ -11,6 +11,10 @@
 
 `elasticsearch-users useradd {{username}} -r {{role1,role2}}`
 
+- Change the password for an existing user:
+
+`elasticsearch-users passwd {{username}}`
+
 - Delete a user:
 
 `elasticsearch-users userdel {{username}}`
