@@ -9,4 +9,4 @@
 
 - Add 10GB to the container storage:
 
-`pct {{[resi|resize]}} {{100}} rootfs +{{10G}}`
+`pct {{[resi|resize]}} {{100}} rootfs +10G`
