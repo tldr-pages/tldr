@@ -5,7 +5,7 @@
 > Vea también: `dig`, `dog`, `dnstracer`.
 > Más información: <https://docs.projectdiscovery.io/tools/dnsx/running>.
 
-- Consulta el registro A de un subdominio y muestra la [re]spuesta recibida:
+- Consulta el registro A de un (sub)dominio y muestra la [re]spuesta recibida:
 
 `echo {{example.com}} | dnsx -a {{[-re|-resp]}}`
 
@@ -15,21 +15,21 @@
 
 - Consulta un tipo específico de registro DNS:
 
-`echo {{example.com}} | dnsx -re -{{a|aaaa|cname|ns|txt|srv|ptr|mx|soa|any|axfr|caa}}`
+`echo {{example.com}} | dnsx {{[-re|-resp]}} -{{a|aaaa|cname|ns|txt|srv|ptr|mx|soa|any|axfr|caa}}
 
-- Muestra s[o]lo la [r]espuesta (no muestra el dominio o subdominio consultado):
+- Muestra solo la respuesta (no muestra el dominio o subdominio consultado):
 
 `echo {{example.com}} | dnsx {{[-ro|-resp-only]}}`
 
-- Muestra la respuesta sin procesar una consulta, especificando los solucionado[r]es a utilizar y el número de intentos en caso de haber errores:
+- Muestra la respuesta sin procesar de una consulta, especificando los solucionadores a utilizar y el número de intentos en caso de haber errores:
 
 `echo {{example.com}} | dnsx -{{debug|raw}} {{[-r|-resolver]}} {{1.1.1.1,8.8.8.8,...}} -retry {{número}}`
 
-- Aplica fuerza bruta a registros DNS utilizando un marcador de posición:
+- Aplica fuerza bruta a los registros DNS utilizando un marcador de posición:
 
 `dnsx {{[-d|-domain]}} {{FUZZ.example.com}} {{[-w|-wordlist]}} {{ruta/a/lista_de_palabras.txt}} {{[-re|-resp]}}`
 
-- Aplica fuerza bruta a registros DNS a partir de una lista de [d]ominios y listas de palabras, adjuntando la salida a un archivo sin códigos de [c]olor:
+- Aplica fuerza bruta a registros DNS a partir de una lista de dominios y listas de palabras, adjuntando la salida a un archivo sin códigos de color:
 
 `dnsx {{[-d|-domain]}} {{ruta/a/dominio.txt}} {{[-w|-wordlist]}} {{ruta/a/lista_de_palabras.txt}} {{[-re|-resp]}} {{[-o|-output]}} {{ruta/a/salida.txt}} {{[-nc|-no-color]}}`
 
