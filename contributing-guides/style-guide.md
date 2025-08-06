@@ -468,8 +468,8 @@ Keep the following guidelines in mind when choosing placeholders:
   except when the location is implicit.
 - When the path cannot be relative
   and has to start at the root of the filesystem,
-  prefix it with a slash,
-  such as `get {{/path/to/remote_file}}`.
+  prefix it with a slash outside the placeholder,
+  such as `get /{{path/to/remote_file}}`.
 - In case of a possible reference both to a file or a directory,
   use `{{path/to/file_or_directory}}`.
 
