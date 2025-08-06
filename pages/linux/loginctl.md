@@ -5,7 +5,7 @@
 
 - Print all current sessions:
 
-`loginctl list-sessions`
+`loginctl`
 
 - Print all properties of a specific session:
 
