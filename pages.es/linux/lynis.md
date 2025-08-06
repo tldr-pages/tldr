@@ -1,6 +1,6 @@
 # lynis
 
-> Herramienta de seguridad y auditoria del sistema.
+> Herramienta de seguridad y auditoría del sistema.
 > Más información: <https://cisofy.com/documentation/lynis/>.
 
 - Comprueba que Lynis está actualizado:
