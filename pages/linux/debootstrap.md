@@ -5,7 +5,7 @@
 
 - Create a Debian stable release system inside the `debian-root` directory:
 
-`sudo debootstrap stable {{path/to/debian-root/}} http://deb.debian.org/debian`
+`sudo debootstrap stable {{path/to/debian-root}}/ http://deb.debian.org/debian`
 
 - Create a minimal system including only required packages:
 
