@@ -15,7 +15,7 @@
 
 - Consulta un tipo específico de registro DNS:
 
-`echo {{example.com}} | dnsx {{[-re|-resp]}} -{{a|aaaa|cname|ns|txt|srv|ptr|mx|soa|any|axfr|caa}}
+`echo {{example.com}} | dnsx {{[-re|-resp]}} -{{a|aaaa|cname|ns|txt|srv|ptr|mx|soa|any|axfr|caa}}`
 
 - Muestra solo la respuesta (no muestra el dominio o subdominio consultado):
 
