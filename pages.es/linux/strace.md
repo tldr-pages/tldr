@@ -11,7 +11,7 @@
 
 `strace {{[-p|--attach]}} {{pid}} -e {{llamada_sis,llamada_sis2,...}}`
 
-- Cuenta el tiempo, número de llamadas, y errores para cada llamada al sistema y devuelve un resumen cuando el programa acabe:
+- Cuenta el tiempo, número de llamada y errores para cada llamada al sistema y devuelve un resumen cuando el programa acabe:
 
 `strace {{[-p|--attach]}} {{pid}} {{[-c|--summary-only]}}`
 
