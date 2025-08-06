@@ -7,6 +7,6 @@
 
 `pct {{[resi|resize]}} {{100}} rootfs 20G`
 
-- Add 10GB to the container storage
+- Add 10GB to the container storage:
 
 `pct {{[resi|resize]}} {{100}} rootfs +{{10G}}`
