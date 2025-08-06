@@ -27,4 +27,4 @@
 
 - Change the root directory and write a specific fake host into the `utmp` file:
 
-`agetty {{[-r|--chroot]}} {{/path/to/root_directory}} {{[-H|--host]}} {{fake_host}} -`
+`agetty {{[-r|--chroot]}} /{{path/to/root_directory}} {{[-H|--host]}} {{fake_host}} -`

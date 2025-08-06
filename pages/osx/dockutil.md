@@ -9,11 +9,11 @@
 
 - Replace one application with another in the current user's dock:
 
-`dockutil --add {{/path/to/application}} --replacing '{{dock_item_label}}'`
+`dockutil --add /{{path/to/application}} --replacing '{{dock_item_label}}'`
 
 - Add a directory with view options and display it as a folder icon or stack:
 
-`dockutil --add {{/path/to/directory}} --view {{grid|fan|list|auto}} --display {{folder|stack}}`
+`dockutil --add /{{path/to/directory}} --view {{grid|fan|list|auto}} --display {{folder|stack}}`
 
 - Add a URL dock item after another item:
 

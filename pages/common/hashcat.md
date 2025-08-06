@@ -25,7 +25,7 @@
 
 - Perform a combination attack (mode 1) using the concatenation of words from two different custom dictionaries:
 
-`hashcat --hash-type {{hash_type_id}} --attack-mode {{1}} {{hash_value}} {{/path/to/dictionary1.txt}} {{/path/to/dictionary2.txt}}`
+`hashcat --hash-type {{hash_type_id}} --attack-mode {{1}} {{hash_value}} /{{path/to/dictionary1.txt}} /{{path/to/dictionary2.txt}}`
 
 - Show result of an already cracked hash:
 
