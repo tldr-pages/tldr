@@ -6,7 +6,7 @@
 
 - Create a Btrfs filesystem on an empty partition:
 
-`sudo mkfs.btrfs {{dev/sdXY}}`
+`sudo mkfs.btrfs {{/dev/sdXY}}`
 
 - Create a btrfs filesystem on a single device:
 
