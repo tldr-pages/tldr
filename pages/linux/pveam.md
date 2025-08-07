@@ -18,3 +18,7 @@
 - List downloaded templates:
 
 `pveam list {{local}}`
+
+- List available templates in a specific section:
+
+`pveam available --section {{system|turnkeylinux|mail}}`
