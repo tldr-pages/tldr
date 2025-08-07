@@ -11,6 +11,6 @@
 
 `sudo update-initramfs -u`
 
-- Remove an existing initramfs:
+- Remove an existing initramfs (be careful when using `all` for `kernel_version`):
 
 `sudo update-initramfs -d -k {{kernel_version}}`
