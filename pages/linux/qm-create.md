@@ -3,7 +3,7 @@
 > Create or restore a virtual machine on QEMU/KVM Virtual Machine Manager.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- Create a virtual machine:
+- Create a virtual machine with access to 512MiB of memory and 1 CPU score:
 
 `qm {{[cr|create]}} {{100}}`
 
