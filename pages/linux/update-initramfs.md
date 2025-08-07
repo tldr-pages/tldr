@@ -13,4 +13,4 @@
 
 - Remove an existing initramfs:
 
-`initramfs -d`
+`sudo update-initramfs -d -k {{kernel_version}}`
