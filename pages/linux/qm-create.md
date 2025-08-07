@@ -23,6 +23,6 @@
 
 `qm {{[cr|create]}} {{100}} --hookscript {{path/to/script.pl}}`
 
-- Create a VM that bridges itself to the host network
+- Create a VM that bridges itself to the host network:
 
 `qm {{[cr|create]}} {{100}} --net{{0}} virtio,bridge=vmbr0`
