@@ -9,7 +9,7 @@
 
 - Automatically start the machine after creation:
 
-`qm {{[cr|create]}} {{100}} --start 1`
+`qm {{[cr|create]}} {{100}} --start`
 
 - Specify the type of operating system on the machine:
 
@@ -22,3 +22,7 @@
 - Specify a script that is executed automatically depending on the state of the virtual machine:
 
 `qm {{[cr|create]}} {{100}} --hookscript {{path/to/script.pl}}`
+
+- Specify the install media:
+
+`qm {{[cr|create]}} {{100}} --cdrom {{local:iso/install-media.iso}}`
