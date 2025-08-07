@@ -3,7 +3,7 @@
 > Send actions to Kodi.
 > More information: <https://kodi.wiki/view/List_of_built-in_functions>.
 
--Quit Kodi:
+- Quit Kodi:
 
 `kodi-send {{[-a|--action]}} Quit`
 
