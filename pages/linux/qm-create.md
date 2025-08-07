@@ -30,3 +30,7 @@
 - Specify the install media:
 
 `qm {{[cr|create]}} {{100}} --cdrom {{local:iso/install-media.iso}}`
+
+- Create a VM that bridges itself to the host network:
+
+`qm {{[cr|create]}} {{100}} --net{{0}} virtio,bridge=vmbr{{0}}`
