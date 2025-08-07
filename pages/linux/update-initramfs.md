@@ -9,7 +9,7 @@
 
 - Update an existing initramfs:
 
-`initramfs -u`
+`sudo update-initramfs -u`
 
 - Remove an existing initramfs:
 
