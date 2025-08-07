@@ -10,7 +10,7 @@
 
 - Add the default Arch Linux keys:
 
-`sudo pacman-key --populate {{archlinux}}`
+`sudo pacman-key --populate`
 
 - List keys from the public keyring:
 

@@ -1,4 +1,4 @@
-# qm move disk
+# qm move-disk
 
 > This command is an alias of `qm disk move`.
 

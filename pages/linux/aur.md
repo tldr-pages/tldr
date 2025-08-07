@@ -4,6 +4,10 @@
 > Note: A local repository needs to be defined in `/etc/pacman.conf` and `vifm` needs to be installed for this to fully function.
 > More information: <https://github.com/aurutils/aurutils>.
 
+- Initialize the repository that matches the path in `/etc/pacman.conf`:
+
+`repo-add {{path/to/database.db.tar.gz}}`
+
 - Search the AUR database for a package:
 
 `aur search {{keyword}}`
