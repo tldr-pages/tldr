@@ -21,4 +21,8 @@
 
 - List available templates in a specific section:
 
-`pveam available --section {{system|turnkeylinux|mail}}`
+`pveam {{[a|available]}} --section {{system|turnkeylinux|mail}}`
+
+- Remove a template:
+
+`pveam {{[r|remove]}} local:vztmpl/{{template_name}}`
