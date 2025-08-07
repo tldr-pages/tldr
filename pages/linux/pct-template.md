@@ -5,4 +5,4 @@
 
 - Convert a container into a template:
 
-`pct template {{100}}`
+`pct {{[t|template]}} {{100}}`
