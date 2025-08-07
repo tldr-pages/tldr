@@ -21,4 +21,4 @@
 
 - YAML 매니페스트 [f]ile에 정의된 Kubernetes 객체의 세부 정보 표시:
 
-`kubectl describe {{[-f|--file]}} {{경로/대상/manifest.yaml}}`
+`kubectl describe {{[-f|--filename]}} {{경로/대상/manifest.yaml}}`
