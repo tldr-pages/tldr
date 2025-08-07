@@ -5,4 +5,4 @@
 
 - Clone a container with a custom name:
 
-`pct clone {{template_id}} {{copy_id}} --hostname {{host_name}}`
+`pct {{[cl|clone]}} {{template_id}} {{copy_id}} --hostname {{host_name}}`
