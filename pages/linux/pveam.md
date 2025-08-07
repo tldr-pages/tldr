@@ -25,4 +25,4 @@
 
 - Remove a template:
 
-`pveam {{[r|remove]}} local:vztmpl/{{template_name}}`
+`pveam {{[r|remove]}} {{local}}:{{vztmpl}}/{{template_name}}`
