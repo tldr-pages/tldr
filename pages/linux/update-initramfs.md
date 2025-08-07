@@ -3,7 +3,7 @@
 > Manage initramfs.
 > More information: <https://manned.org/update-initramfs>.
 
-- Create a new initramfs:
+- Create a new initramfs (use `all` for all installed kernel versions):
 
 `sudo update-initramfs -c -k {{kernel_version}}`
 
