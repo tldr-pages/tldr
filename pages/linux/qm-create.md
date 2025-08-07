@@ -11,6 +11,10 @@
 
 `qm {{[cr|create]}} {{100}} --start`
 
+- Give the virtual machine a name:
+
+`qm {{[cr|create]}} {{100}} --name {{vm_name}}`
+
 - Specify the type of operating system on the machine:
 
 `qm {{[cr|create]}} {{100}} --ostype {{win10}}`
