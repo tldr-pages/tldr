@@ -5,7 +5,7 @@
 
 - Create a new initramfs:
 
-`initramfs -c`
+`sudo update-initramfs -c -k {{kernel_version}}`
 
 - Update an existing initramfs:
 
