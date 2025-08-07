@@ -21,4 +21,4 @@
 
 - Zeige Details zu Ressourcen, die in einer YAML Datei definiert sind, an:
 
-`kubectl describe {{[-f|--file]}} {{pfad/zu/manifest.yaml}}`
+`kubectl describe {{[-f|--filename]}} {{pfad/zu/manifest.yaml}}`
