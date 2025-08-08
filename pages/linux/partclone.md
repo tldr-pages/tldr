@@ -1,7 +1,7 @@
 # partclone
 
 > Copy and restore partitions to and from an image while disregarding empty blocks.
-> More information: <https://manned.org/a2disconf.8>.
+> More information: <https://manned.org/partclone.8>.
 
 - Copy a partition into an image:
 
