@@ -25,7 +25,7 @@
 </div>
 
 ## What is tldr-pages?
-## TEST
+## TEST 2
 
 The **tldr-pages** project is a collection of community-maintained help pages
 for command-line tools, that aims to be a simpler, more approachable complement
