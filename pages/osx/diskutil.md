@@ -10,12 +10,12 @@
 
 - Repair the filesystem data structures of a volume:
 
-`diskutil repairVolume {{/dev/sdX}}`
+`diskutil repairVolume {{/dev/disk}}`
 
 - Unmount a volume:
 
-`diskutil unmountDisk {{/dev/sdX}}`
+`diskutil unmountDisk {{/dev/disk}}`
 
 - Eject a CD/DVD (unmount first):
 
-`diskutil eject {{/dev/sdXY}}`
+`diskutil eject {{/dev/didkX}}`
