@@ -22,3 +22,7 @@
 - Dump info in a readable form:
 
 `lspci -vm`
+
+- Show PCI vendor and device codes alongside its name:
+
+`lspci -nn`
