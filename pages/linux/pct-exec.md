@@ -13,4 +13,4 @@
 
 - Pass arguments to the command:
 
-`pct {{[ex|exec]}} {{100}} -- {{command}} {{arguments`
+`pct {{[ex|exec]}} {{100}} -- {{command}} {{arguments}}`
