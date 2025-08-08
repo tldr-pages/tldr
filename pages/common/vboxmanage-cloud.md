@@ -1,4 +1,4 @@
-# vboxmanage-cloud
+# VBoxManage cloud
 
 > VirtualBox command-line interface for managing cloud instances and images.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-cloud>.
