@@ -17,6 +17,6 @@
 
 `pdfbook2 --paper=a4paper --inner-margin=50 input.pdf`
 
-- Large input files can be output in print signatures for binding into a larger booklet (signatures must be divisible by 4):
+- Large INPUT files can be OUTPUT organised in print signatures for binding into a larger booklet (signatures must be divisible by 4):
 
 `pdfbook2 --paper=a4paper --signature=24 input.pdf`
