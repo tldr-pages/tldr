@@ -1,7 +1,7 @@
 # bindfs
 
 > Mount a directory elsewhere with different permissions.
-> More information: <https://manned.org/a2disconf.8>.
+> More information: <https://bindfs.org/docs/bindfs.1.html>.
 
 - Mount a directory with same permissions:
 
