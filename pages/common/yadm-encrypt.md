@@ -1,4 +1,4 @@
-# yadm-encrypt
+# yadm encrypt
 
 > Encrypt files listed in the designated encrypt file.
 > After the files are encrypted they will be save in the designated archive folder.
