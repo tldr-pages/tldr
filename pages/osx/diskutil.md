@@ -18,4 +18,4 @@
 
 - Eject a CD/DVD (unmount first):
 
-`diskutil eject {{/dev/didkX}}`
+`diskutil eject {{/dev/diskX}}`
