@@ -26,3 +26,11 @@
 - Execute a command on an emulator:
 
 `sfdk emulator exec {{emulator}} {{command}}`
+
+- Set a property:
+
+`sfdk emulator set {{name}} {{property}}={{value}}`
+
+- Show emulator properties:
+
+`sfdk emulator show {{name}}`
