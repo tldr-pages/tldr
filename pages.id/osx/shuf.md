@@ -1,7 +1,7 @@
 # shuf
 
 > Generate permutasi acak.
-> Informasi lebih lanjut: <https://keith.github.io/xcode-man-pages/shuf.1.html>.
+> Informasi lebih lanjut: <https://manpagez.com/man/1/shuf/>.
 
 - Acak urutan baris di sebuah file dan outputkan hasilnya:
 
