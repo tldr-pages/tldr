@@ -3,7 +3,7 @@
 > Generate SAML Service Provider metadata for configuring a SAML Identity Provider.
 > More information: <https://www.elastic.co/guide/en/elasticsearch/reference/current/saml-metadata.html>.
 
-- Generate SAML metadata for a specific realm and print it to standard output:
+- Generate SAML metadata for a specific realm and print it to `stdout`:
 
 `elasticsearch-saml-metadata --realm {{realm_name}}`
 
