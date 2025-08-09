@@ -2,7 +2,7 @@
 
 > Create a double sided printable pdf booklet from an INPUT pdf.
 > Note: The booklet needs to be printed double-sided in landscape mode, flipped on the long edge.
-> More information: <https://github.com/jenom/pdfbook2>.
+> More information: <https://github.com/jenom/pdfbook2#examples>.
 
 - Create a booklet named `file-book.pdf` with sane defaults:
 
