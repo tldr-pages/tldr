@@ -14,12 +14,12 @@
 
 - Prepare a new ostree deployment with upgraded packages and reboot into it:
 
-`rpm-ostree upgrade --reboot`
+`rpm-ostree upgrade {{[-r|--reboot]}}`
 
 - Reboot into the previous ostree deployment:
 
-`rpm-ostree rollback --reboot`
+`rpm-ostree rollback {{[-r|--reboot]}}`
 
 - Install a package into a new ostree deployment and reboot into it:
 
-`rpm-ostree install {{package}} --reboot`
+`rpm-ostree install {{package}} {{[-r|--reboot]}}`

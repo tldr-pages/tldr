@@ -7,7 +7,7 @@
 
 `crane index filter`
 
-- Specify the platform(s) to keep from base in the form os/arch{{/variant}}{{:osversion}}{{,<platform>}}:
+- Specify the platform(s) to keep from base in the form `os/arch/variant:osversion,platform`:
 
 `crane index filter --platform {{platform1 platform2 ...}}`
 

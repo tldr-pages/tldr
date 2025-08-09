@@ -1,7 +1,7 @@
 # npm token
 
 > Manage and generate authentication tokens for the npm registry.
-> More information: <https://docs.npmjs.com/cli/commands/npm-token>.
+> More information: <https://docs.npmjs.com/cli/npm-token>.
 
 - Create a new authentication token:
 

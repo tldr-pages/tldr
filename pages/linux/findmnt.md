@@ -17,7 +17,7 @@
 
 - Find filesystems in specific type:
 
-`findmnt {{[-t|--types]}} {{ext4}}`
+`findmnt {{[-t|--types]}} {{ext4,virtiofs,btrfs,...}}`
 
 - Find filesystems with specific label:
 

@@ -1,4 +1,4 @@
-# npm name
+# npm-name
 
 > Check whether a package or organization name is available on npm.
 > More information: <https://github.com/sindresorhus/npm-name-cli>.
