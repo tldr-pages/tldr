@@ -8,3 +8,11 @@
 `nh os switch`
 
 - nh clean - a re-implementation of nix-collect-garbage that also collects gcroots
+`nh clean all --ask`
+
+- nh os - reimplements nixos-rebuild with build-tree displays, diff of changes, confirmation
+`nh os switch -- ask --file ./`
+
+- nh home - reimpliments home-manager
+
+- nh darwin - impliments darwin-rebuild
