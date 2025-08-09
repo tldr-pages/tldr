@@ -4,6 +4,10 @@
 > Defaults to `raid1`, which specifies 2 copies of a data block spread across 2 different devices.
 > More information: <https://btrfs.readthedocs.io/en/latest/mkfs.btrfs.html>.
 
+- Create a Btrfs filesystem on an empty partition:
+
+`sudo mkfs.btrfs {{/dev/sdXY}}`
+
 - Create a btrfs filesystem on a single device:
 
 `sudo mkfs.btrfs {{[-m|--metadata]}} single {{[-d|--data]}} single {{/dev/sdX}}`
