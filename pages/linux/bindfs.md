@@ -7,9 +7,9 @@
 
 `sudo bindfs {{path/to/directory}} {{path/to/mount_point}}`
 
-- Mount a directory elsewhere with the mount directory being owned by another user:
+- Map filesystem objects owned by `user1` to be owned by `user2` (also applies to newly created files):
 
-`sudo bindfs --force-user=asd {{path/to/directory}} {{path/to/mount_point}}`
+`sudo bindfs --map={{user1}}/{{user2}} {{path/to/directory}} {{path/to/mount_point}}`
 
 - Unmount a directory:
 
