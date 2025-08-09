@@ -9,7 +9,7 @@
 
 `pdfbook2 input.pdf`
 
-- Output a booklet with the paper size set to A4:
+- Create a booklet with the paper size set to A4:
 
 `pdfbook2 --paper=a4paper input.pdf`
 
