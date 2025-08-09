@@ -1,6 +1,7 @@
 # php
 
-> Interface de linha de comando do PHP. Mais informações: <https://php.net>.
+> Interface de linha de comando do PHP.
+> Mais informações: <https://php.net>.
 
 - Analisa e executa um script PHP:
 
