@@ -1,6 +1,6 @@
 # vboxmanage-modifyvm
 
-> Change settings for a virtual machine that is stopped.  
+> Change settings for a virtual machine that is stopped.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-modifyvm>.
 
 - Modify VM settings (i.e. name, RAM, CPU count, OS type, boot order, display, networking, VRDE, recording, USB, etc.):
