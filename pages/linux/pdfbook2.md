@@ -11,7 +11,7 @@
 
 - Create a booklet with the paper size set to A4:
 
-`pdfbook2 --paper=a4paper input.pdf`
+`pdfbook2 {{[-p|--paper]}} a4paper {{path/to/file.pdf}}`
 
 - Output booklet has the inner margin reduced to 50 pixels (default = 150px):
 
