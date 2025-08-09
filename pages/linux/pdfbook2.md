@@ -4,9 +4,9 @@
 > Printing Note: the booklet needs to be printed double sided in landscape mode, flipped on the long edge.
 > More information: <https://github.com/jenom/pdfbook2>.
 
-- Basic command to create a booklet with sane defaults:
+- Create a booklet named `file-book.pdf` with sane defaults:
 
-`pdfbook2 input.pdf`
+`pdfbook2 {{path/to/file.pdf}}`
 
 - Create a booklet with the paper size set to A4:
 
