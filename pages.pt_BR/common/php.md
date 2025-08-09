@@ -21,7 +21,7 @@
 
 - Inicia o servidor web embutido do PHP no diretório atual:
 
-`php {{-S|--server}} {{host}}:{{porta}}`
+`php {{-S|--server}} {{servidor}}:{{porta}}`
 
 - Lista as extensões do PHP instaladas:
 
