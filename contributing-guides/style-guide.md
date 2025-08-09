@@ -350,7 +350,7 @@ It should instead be simplified to make it easier for everyone to read:
 - On the `More information` link line, provide a direct link to documentation that instructs on how to use the command. We prefer linking to the author's provided documentation but when not available or very lacking in information, use <https://manned.org> as the default fallback for all platforms
 (except `osx` and BSD platforms other than FreeBSD).
 If there is no documentation page to be found, you can link to the author's website or a third party tutorial.
-- Keep the more information link short. Cut out redundant text if possible. For example use https://manned.org/partclone instead of https://manned.org/man/partclone.8
+- Keep the more information link short. Cut out redundant text if possible. For example use https://manned.org/partclone instead of https://manned.org/man/partclone.8 unless there are two different manpages for a command across distributions/platforms i.e. `command.1` and `command.8`.
 
 - For `osx`: Apple distributes the built-in man pages [in Xcode](https://developer.apple.com/documentation/os/reading_unix_manual_pages).
 For commands documented there, we recommend using <https://keith.github.io/xcode-man-pages/>, an HTML export of all Apple's man pages bundled with Xcode.
