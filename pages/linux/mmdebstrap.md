@@ -6,7 +6,7 @@
 
 - Create a Debian Stable directory chroot:
 
-`sudo mmdebstrap stable {{path/to/debian-root/}}`
+`sudo mmdebstrap stable {{path/to/debian-root}}/`
 
 - Create a Debian Bookworm tarball chroot using a mirror:
 

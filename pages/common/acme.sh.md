@@ -6,7 +6,7 @@
 
 - Issue a certificate using webroot mode:
 
-`acme.sh --issue {{[-d|--domain]}} {{example.com}} {{[-w|--webroot]}} {{/path/to/webroot}}`
+`acme.sh --issue {{[-d|--domain]}} {{example.com}} {{[-w|--webroot]}} /{{path/to/webroot}}`
 
 - Issue a certificate for multiple domains using standalone mode using port 80:
 
@@ -30,4 +30,4 @@
 
 - Install certificate files into the specified locations (useful for automatic certificate renewal):
 
-`acme.sh {{[-i|--install-cert]}} {{[-d|--domain]}} {{example.com}} --key-file {{/path/to/example.com.key}} --fullchain-file {{/path/to/example.com.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`
+`acme.sh {{[-i|--install-cert]}} {{[-d|--domain]}} {{example.com}} --key-file /{{path/to/example.com.key}} --fullchain-file /{{path/to/example.com.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`

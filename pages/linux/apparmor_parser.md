@@ -33,4 +33,4 @@
 
 - Replace a profile, rebuild cache, and write it to a custom directory:
 
-`sudo apparmor_parser {{[-r|--replace]}} {{[-W|--write-cache]}} {{[-L|--cache-loc]}} {{/path/to/cache}} {{path/to/profile}}`
+`sudo apparmor_parser {{[-r|--replace]}} {{[-W|--write-cache]}} {{[-L|--cache-loc]}} /{{path/to/cache}} {{path/to/profile}}`

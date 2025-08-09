@@ -9,7 +9,7 @@
 
 - List the contents of a folder:
 
-`keepassxc-cli ls {{path/to/database_file}} {{/path/to/directory}}`
+`keepassxc-cli ls {{path/to/database_file}} /{{path/to/directory}}`
 
 - Add an entry with an auto-generated password:
 

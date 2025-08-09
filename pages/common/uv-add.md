@@ -30,7 +30,7 @@
 
 - Add package as editable:
 
-`uv add --editable {{path/to/package/}}`
+`uv add --editable {{path/to/package}}/`
 
 - Enable an extra when installing package, may be provided multiple times:
 

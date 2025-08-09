@@ -9,4 +9,4 @@
 
 - Set the default boot entry to an entry number, name or identifier for an alternative boot directory for the next boot:
 
-`sudo grub-reboot --boot-directory {{/path/to/boot_directory}} {{entry_number}}`
+`sudo grub-reboot --boot-directory /{{path/to/boot_directory}} {{entry_number}}`

@@ -5,11 +5,11 @@
 
 - Add a torrent file or magnet link to Transmission and download to a specified directory:
 
-`transmission-remote {{hostname}} {{[-a|--all]}} {{torrent|url}} {{[-w|--download-dir]}} {{/path/to/download_directory}}`
+`transmission-remote {{hostname}} {{[-a|--all]}} {{torrent|url}} {{[-w|--download-dir]}} /{{path/to/download_directory}}`
 
 - Change the default download directory:
 
-`transmission-remote {{hostname}} {{[-w|--download-dir]}} {{/path/to/download_directory}}`
+`transmission-remote {{hostname}} {{[-w|--download-dir]}} /{{path/to/download_directory}}`
 
 - List all torrents:
 
@@ -29,4 +29,4 @@
 
 - Move torrents 1-10 and 15-20 to a new directory (which will be created if it does not exist):
 
-`transmission-remote {{hostname}} {{[-t|--torrent]}} "1-10,15-20" --move {{/path/to/new_directory}}`
+`transmission-remote {{hostname}} {{[-t|--torrent]}} "1-10,15-20" --move /{{path/to/new_directory}}`

@@ -10,7 +10,7 @@
 
 - Record including audio, both with mic and system sounds:
 
-`wf-recorder {{[-a|--audio]}} {{[-f|--file]}} {{/path/to/file_with_audio.webm}}`
+`wf-recorder {{[-a|--audio]}} {{[-f|--file]}} /{{path/to/file_with_audio.webm}}`
 
 - Select and record a portion of the screen using `slurp`, outputting to default `recording.mp4`:
 

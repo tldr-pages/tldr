@@ -21,7 +21,7 @@
 
 - List all files in a path with a given prefix:
 
-`aws s3 ls --recursive {{bucket_name}}/{{path/to/directory/}}{{prefix}}`
+`aws s3 ls --recursive {{bucket_name}}/{{path/to/directory}}/{{prefix}}`
 
 - Display help:
 

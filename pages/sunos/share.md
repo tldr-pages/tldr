@@ -9,16 +9,16 @@
 
 - Share a directory with read/write access:
 
-`share -F nfs -o rw {{/path/to/directory}}`
+`share -F nfs -o rw /{{path/to/directory}}`
 
 - Share a directory with read-only access:
 
-`share -F nfs -o ro {{/path/to/directory}}`
+`share -F nfs -o ro /{{path/to/directory}}`
 
 - Share a directory with specific options (e.g., allow root access from a specific host):
 
-`share -F nfs -o rw,root={{hostname}} {{/path/to/directory}}`
+`share -F nfs -o rw,root={{hostname}} /{{path/to/directory}}`
 
 - Make sharing persistent by adding entries to `/etc/dfs/dfstab`:
 
-`echo "share -F nfs -o rw {{/path/to/directory}}" >> /etc/dfs/dfstab`
+`echo "share -F nfs -o rw /{{path/to/directory}}" >> /etc/dfs/dfstab`
