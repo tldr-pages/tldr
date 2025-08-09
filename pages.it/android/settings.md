@@ -1,7 +1,7 @@
 # settings
 
 > Acquisici informazioni su Android OS.
-> Maggiori informazioni: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> Maggiori informazioni: <https://web.archive.org/web/20240525010124/https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - Visualizza una lista di impostazioni nel namespace `global`:
 

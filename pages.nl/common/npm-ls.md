@@ -1,7 +1,7 @@
 # npm ls
 
 > Print alle geïnstalleerde pakketten naar `stdout`.
-> Meer informatie: <https://docs.npmjs.com/cli/commands/npm-ls>.
+> Meer informatie: <https://docs.npmjs.com/cli/npm-ls>.
 
 - Print alle versies van directe afhankelijkheden naar `stdout`:
 

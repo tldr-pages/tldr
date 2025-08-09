@@ -11,6 +11,10 @@
 
 `history {{20}}`
 
+- Exibe histórico com data e hora em diferentes formatos (diponível apenas em Zsh):
+
+`history -{{d|f|i|E}}`
+
 - Limpa a lista do histórico de comandos (apenas para o shell Bash atual):
 
 `history -c`

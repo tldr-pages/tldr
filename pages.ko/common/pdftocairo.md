@@ -1,7 +1,7 @@
 # pdftocairo
 
 > PDF 파일을 PNG/JPEG/TIFF/PDF/PS/EPS/SVG 형식으로 변환하는 도구입니다 (cairo 사용).
-> 더 많은 정보: <https://poppler.freedesktop.org>.
+> 더 많은 정보: <https://manned.org/pdftocairo>.
 
 - PDF 파일을 JPEG로 변환:
 

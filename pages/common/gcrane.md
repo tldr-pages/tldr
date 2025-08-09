@@ -18,7 +18,7 @@
 
 `gcrane --insecure {{subcommand}}`
 
-- Specify the platform in the form os/arch{{/variant}}{{:osversion}} (e.g. linux/amd64). (default all):
+- Specify the platform in the form `os/arch/variant:osversion` (e.g. `linux/amd64`). (default all):
 
 `gcrane --platform {{platform}} {{subcommand}}`
 

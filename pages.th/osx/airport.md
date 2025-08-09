@@ -1,7 +1,7 @@
 # airport
 
 > เครื่องมือสำหรับตั้งค่าเครือข่ายไร้สาย (WLANs, Wi-Fi).
-> ข้อมูลเพิ่มเติม: <https://keith.github.io/xcode-man-pages/airport.1.html>
+> ข้อมูลเพิ่มเติม: <https://ss64.com/mac/airport.html>
 
 - แสดงสถานะเครือข่ายไร้สายปัจจุบัน:
 

@@ -1,12 +1,7 @@
 # qm rescan
 
-> Rescan all storages and update disk sizes and unused disk images of a virtual machine.
-> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+> This command is an alias of `qm disk rescan`.
 
-- Rescan all storages and update disk sizes and unused disk images of a specific virtual machine:
+- View documentation for the original command:
 
-`qm rescan {{vm_id}}`
-
-- Perform a dry-run of rescan on a specific virtual machine and do not write any changes to configurations:
-
-`qm rescan --dryrun {{true}} {{vm_id}}`
+`tldr qm disk rescan`
