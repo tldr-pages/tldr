@@ -12,10 +12,10 @@
 
 `pdfbook2 {{[-p|--paper]}} a4paper {{path/to/file.pdf}}`
 
-- Output booklet has the inner margin reduced to 50 pixels (default = 150px):
+- Create a booklet that has the inner margin reduced to 50 pixels (default = 150px):
 
-`pdfbook2 --paper=a4paper --inner-margin=50 input.pdf`
+`pdfbook2 {{[-p|--paper]}} a4paper {{[-i|--inner-margin]}} 50 {{path/to/file.pdf}}`
 
-- Large INPUT files can be OUTPUT organised in print signatures for binding into a larger booklet (signatures must be divisible by 4):
+- Organize a large file with print signatures for binding into a larger booklet (signatures must be divisible by 4):
 
-`pdfbook2 --paper=a4paper --signature=24 input.pdf`
+`pdfbook2 {{[-p|--paper]}} a4paper --signature 24 {{path/to/file.pdf}}`
