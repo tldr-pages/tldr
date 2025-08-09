@@ -21,7 +21,7 @@
 
 - Start a PHP built-in web [S]erver in the current directory:
 
-`php {{[-S|--server]}} {{host:port}}`
+`php {{[-S|--server]}} {{host}}:{{port}}`
 
 - List installed PHP extensions:
 
