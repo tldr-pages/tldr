@@ -3,7 +3,7 @@
 > Create or remove decrypted mappings of encrypted volumes. Equivalent of `cryptsetup open` and `cryptsetup close`.
 > Arguments to this command are written exactly like a line in `/etc/crypttab`. It's used by systemd to unlock devices on boot.
 > See also: `cryptsetup`.
-> More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-cryptsetup.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemd-cryptsetup.html>.
 
 - Open a LUKS volume and create a decrypted mapping at `/dev/mapper/mapping_name`:
 
