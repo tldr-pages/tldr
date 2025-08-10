@@ -1,4 +1,4 @@
-# qm move disk
+# qm move-disk
 
 > 이 명령은 `qm disk move`의 별칭입니다.
 
