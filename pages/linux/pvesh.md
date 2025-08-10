@@ -1,0 +1,12 @@
+# pvesh
+
+> Interface with the Proxmox VE API.
+> More information: <https://pve.proxmox.com/pve-docs/pvesh.1.html>.
+
+- List available nodes:
+
+`pvesh {{[g|get]}} /nodes`
+
+- Discover API paths:
+
+`pvesh {{[l|ls]}} {{/}}`

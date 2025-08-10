@@ -5,4 +5,4 @@
 
 - Print the status of a specific PID:
 
-`qm {{[g|guest]}} exec-status {{vm_id}} {{pid}}`
+`qm {{[g|guest]}} {{[exec-s|exec-status]}} {{vm_id}} {{pid}}`

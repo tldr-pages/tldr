@@ -2,7 +2,7 @@
 
 > JavaScript en Node.js pakketbeheer.
 > Beheer Node.js-projecten en hun module-afhankelijkheden.
-> Meer informatie: <https://www.npmjs.com>.
+> Meer informatie: <https://docs.npmjs.com/cli/npm>.
 
 - Maak een `package.json`-bestand met standaardwaarden (laat --yes weg om dit interactief te doen):
 
@@ -10,28 +10,28 @@
 
 - Download alle pakketten die zijn vermeld als afhankelijkheden in `package.json`:
 
-`npm install`
+`npm {{[i|install]}}`
 
 - Download een specifieke versie van een pakket en voeg het toe aan de lijst van afhankelijkheden in `package.json`:
 
-`npm install {{pakket_naam}}@{{versie}}`
+`npm {{[i|install]}} {{pakket_naam}}@{{versie}}`
 
 - Download de nieuwste versie van een pakket en voeg het toe aan de lijst van dev-afhankelijkheden in `package.json`:
 
-`npm install {{pakket_naam}} {{[-D|--save-dev]}}`
+`npm {{[i|install]}} {{pakket_naam}} {{[-D|--save-dev]}}`
 
 - Download de nieuwste versie van een pakket en installeer het globaal:
 
-`npm install {{[-g|--global]}} {{pakket_naam}}`
+`npm {{[i|install]}} {{[-g|--global]}} {{pakket_naam}}`
 
 - Verwijder een pakket en haal het uit de lijst van afhankelijkheden in `package.json`:
 
-`npm uninstall {{pakket_naam}}`
+`npm {{[r|uninstall]}} {{pakket_naam}}`
 
 - Toon alle lokaal geïnstalleerde afhankelijkheden:
 
-`npm list`
+`npm {{[ls|list]}}`
 
 - Toon alle top-level globaal geïnstalleerde pakketten:
 
-`npm list {{[-g|--global]}} --depth {{0}}`
+`npm {{[ls|list]}} {{[-g|--global]}} --depth {{0}}`

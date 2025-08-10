@@ -1,4 +1,4 @@
-# vboxmanage-export
+# VBoxManage export
 
 > Export virtual machines to a virtual appliance (ISO) or a cloud service.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-export>.
