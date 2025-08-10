@@ -17,4 +17,4 @@
 
 - List snapshots of a VM:
 
-`qm {{[lists|listsnapshots]}} 100`
+`qm {{[lists|listsnapshot]}} 100`
