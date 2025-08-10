@@ -1,6 +1,6 @@
 # lxc-top
 
-> Display resource usage of containers.
+> Display resource usage of LXC containers.
 > More information: <https://linuxcontainers.org/lxc/manpages/man1/lxc-top.1.html>.
 
 - Start `lxc-top`:
