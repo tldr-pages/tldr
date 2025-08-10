@@ -27,3 +27,7 @@
 - Install a package without viewing changes in Vim and do not confirm dependency installation:
 
 `aur sync --noview {{[-n|--noconfirm]}} {{package}}`
+
+- Remove a package form a repository:
+
+`repo-remove {{path/to/database.db.tar.gz}} {{package}}`
