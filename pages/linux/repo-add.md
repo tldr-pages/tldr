@@ -7,7 +7,7 @@
 
 `repo-add {{path/to/database.db.tar.gz}}`
 
-- Add all package binaries in the current directory and remove the old database file:
+- Add all package binaries in the current directory and remove any outdated package files:
 
 `repo-add {{[-R|--remove]}} {{path/to/database.db.tar.gz}} {{*.pkg.tar.zst}}`
 
