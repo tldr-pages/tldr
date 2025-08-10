@@ -5,8 +5,8 @@
 
 - List available nodes:
 
-`pvesh get /nodes`
+`pvesh {{[g|get]}} /nodes`
 
 - Discover API paths:
 
-`pvesh ls {{/}}`
+`pvesh {{[l|ls]}} {{/}}`
