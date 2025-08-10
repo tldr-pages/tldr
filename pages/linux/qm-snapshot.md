@@ -14,3 +14,7 @@
 - Create a snapshot including the vmstate:
 
 `qm {{[sn|snapshot]}} {{vm_id}} {{snapshot_name}} --description {{description}} --vmstate 1`
+
+- List snapshots of a VM:
+
+`qm {{[lists|listsnapshots]}} 100`
