@@ -5,8 +5,8 @@
 
 - View documentation for the Ruff linter:
 
-`tldr ruff check`
+`ruff check`
 
 - View documentation for the Ruff code formatter:
 
-`tldr ruff format`
+`ruff format`
