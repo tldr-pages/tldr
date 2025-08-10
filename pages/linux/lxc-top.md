@@ -9,7 +9,7 @@
 
 - Adjust update interval:
 
-`lxc-top {{[-d|--delau]}} {{5}}`
+`lxc-top {{[-d|--delay]}} {{5}}`
 
 - Sort by [n]ame, [c]pu use, [b]lock I/O, [m]emory, or [k]ernel memory:
 
