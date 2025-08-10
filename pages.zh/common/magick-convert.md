@@ -22,7 +22,7 @@
 
 - 水平/竖直地排列图片：
 
-`magick convert {{路径/到/图片1.png 路径/到/图片2.png ...}} {{-append|+append}} {{路径/到/输出图片.png}}`
+`magick convert -background none {{路径/到/图片1.png 路径/到/图片2.png ...}} {{-append|+append}} {{路径/到/输出图片.png}}`
 
 - 创建一个 GIF 动图，按 100ms 的间隔播放一系列图片：
 
