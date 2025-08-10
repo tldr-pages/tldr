@@ -1,6 +1,7 @@
 # repo-add
 
 > Package database maintenance utility which enables installation of said package via Pacman.
+> See also: `repo-remove`.
 > More information: <https://manned.org/repo-add>.
 
 - Create an empty repository:
