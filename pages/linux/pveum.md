@@ -5,12 +5,12 @@
 
 - List users:
 
-`pveum user list`
+`pveum {{[u|user]}} {{[l|list]}}`
 
 - Add a user:
 
-`pveum user add {{username}}@pve`
+`pveum {{[u|user]}} {{[a|add]}} {{username}}@pve`
 
 - Delete a user:
 
-`pveum user delete {{username}}@pve`
+`pveum {{[u|user]}} {{[d|delete]}} {{username}}@pve`
