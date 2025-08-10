@@ -28,6 +28,6 @@
 
 `aur sync --noview {{[-n|--noconfirm]}} {{package}}`
 
-- Remove a package form a repository:
+- Remove a package form the repository metadata (does not remove the package file itself):
 
 `repo-remove {{path/to/database.db.tar.gz}} {{package}}`
