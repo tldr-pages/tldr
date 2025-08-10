@@ -7,6 +7,10 @@
 
 `repo-add {{path/to/database.db.tar.gz}}`
 
+- Add packages to the repository:
+
+`repo-add {{path/to/database.db.tar.gz}} {{package1.pkg.tar.zst package2.pkg.tar.zst ...}}`
+
 - Add all package binaries in the current directory and remove any outdated package files:
 
 `repo-add {{[-R|--remove]}} {{path/to/database.db.tar.gz}} {{*.pkg.tar.zst}}`
