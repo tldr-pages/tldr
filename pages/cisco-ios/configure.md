@@ -6,3 +6,7 @@
 - Configure from the terminal:
 
 `{{[conf|configure]}} {{[t|terminal]}}`
+
+- Back out one level in configuration mode:
+
+`exit`
