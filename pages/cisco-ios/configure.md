@@ -10,3 +10,7 @@
 - Back out one level in configuration mode:
 
 `exit`
+
+- Exit out of configuration mode:
+
+`end`
