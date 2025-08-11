@@ -7,7 +7,7 @@
 
 `write memory`
 
-- Delete the configuration in memory
+- Delete the configuration in memory:
 
 `write erase`
 
