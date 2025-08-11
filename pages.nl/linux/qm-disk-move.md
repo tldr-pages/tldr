@@ -9,4 +9,4 @@
 
 - Verwijder de vorige kopie van de virtuele schijf:
 
-`qm {{[di|disk]}} {{[m|move]}} -delete {{vm_id}} {{bestemming}} {{index}}`
+`qm {{[di|disk]}} {{[m|move]}} --delete {{vm_id}} {{bestemming}} {{index}}`
