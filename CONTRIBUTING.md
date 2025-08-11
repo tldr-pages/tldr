@@ -73,6 +73,7 @@ The `pages` directory and `pages.*` language-specific directories contain the pl
 2. If the command is **only** available for **one** platform, these are the available directories followed by their right platform:
 
 - `android`: Android
+- `cisco-ios`: Cisco IOS
 - `freebsd`: FreeBSD
 - `openbsd`: OpenBSD
 - `osx`: OSX/Mac OS/macOS (will be replaced by `macos`)

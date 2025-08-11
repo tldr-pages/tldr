@@ -1,7 +1,7 @@
 # nmcli networking
 
 > Manage the networking status of NetworkManager.
-> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#networking>.
 
 - Show the networking status of NetworkManager:
 

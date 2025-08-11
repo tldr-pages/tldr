@@ -27,3 +27,7 @@
 - Wissel naar een branch en voeg automatisch de huidige branch en alle niet-vastgelegde aanpassingen hierin samen:
 
 `git switch {{[-m|--merge]}} {{branch_naam}}`
+
+- Wissel naar een tag:
+
+`git switch {{[-d|--detach]}} {{tag}}`

@@ -1,4 +1,4 @@
-# yadm-init
+# yadm init
 
 > Initialize a new, empty repository for tracking dotfiles.
 > The repository is stored in `$HOME/.local/share/yadm/repo.git`.

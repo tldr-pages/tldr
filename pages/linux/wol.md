@@ -21,7 +21,7 @@
 
 - Read hardware addresses, IP addresses/hostnames, optional ports and SecureON passwords from a file:
 
-`wol {{[-f|--file]]} {{path/to/file}}`
+`wol {{[-f|--file]}} {{path/to/file}}`
 
 - Turn on verbose output:
 

@@ -1,7 +1,7 @@
 # shuf
 
 > 무작위 순열 생성.
-> 더 많은 정보: <https://keith.github.io/xcode-man-pages/shuf.1.html>.
+> 더 많은 정보: <https://manpagez.com/man/1/shuf/>.
 
 - 파일의 줄 순서를 무작위로 변환하여 결과 출력:
 

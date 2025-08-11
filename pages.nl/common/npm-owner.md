@@ -1,7 +1,7 @@
 # npm owner
 
 > Beheer eigendom van gepubliceerde pakketten.
-> Meer informatie: <https://docs.npmjs.com/cli/commands/npm-owner>.
+> Meer informatie: <https://docs.npmjs.com/cli/npm-owner>.
 
 - Voeg een nieuwe gebruiker toe als maintainer van een pakket:
 
