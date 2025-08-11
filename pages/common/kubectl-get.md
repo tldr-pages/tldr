@@ -21,11 +21,11 @@
 
 - Get services in a specified namespace:
 
-`kubectl get {{[svc|services|...]}} {{[-n|--namespace]}} {{namespace}}`
+`kubectl get {{[svc|services]}} {{[-n|--namespace]}} {{namespace}}`
 
 - Get other resources:
 
-`kubectl get {{persistentvolumeclaims|secret}}`
+`kubectl get {{persistentvolumeclaims|secret|...}}`
 
 - Get all resources in all namespaces:
 
