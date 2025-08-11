@@ -21,7 +21,7 @@
 
 - Force a full index exchange in order to resolve out of sync files:
 
-`syncthing --reset-deltas`
+`syncthing --reset-database`
 
 - Change the address upon which the web interface listens:
 
