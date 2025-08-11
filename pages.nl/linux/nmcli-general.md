@@ -1,7 +1,7 @@
 # nmcli general
 
 > Beheer algemene instellingen van NetworkManager.
-> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#general>.
 
 - Toon de algemene status van NetworkManager:
 
