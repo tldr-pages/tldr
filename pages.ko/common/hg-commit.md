@@ -1,7 +1,7 @@
 # hg commit
 
 > 준비된 모든 파일 또는 지정된 파일을 저장소에 커밋.
-> 더 많은 정보: <https://www.mercurial-scm.org/doc/hg.1.html#commit>.
+> 더 많은 정보: <https://www.mercurial-scm.org/help/commands/commit>.
 
 - 준비된 파일을 저장소에 커밋:
 
