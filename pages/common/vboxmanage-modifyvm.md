@@ -1,4 +1,4 @@
-# vboxmanage-modifyvm
+# VBoxManage modifyvm
 
 > Change settings for a virtual machine that is stopped.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-modifyvm>.
