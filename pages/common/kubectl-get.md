@@ -21,7 +21,7 @@
 
 - Get services in a specified namespace:
 
-`kubectl get {{[svc|services]}} {{[-n|--namespace]}} {{namespace}}`
+`kubectl get {{[svc|services|...]}} {{[-n|--namespace]}} {{namespace}}`
 
 - Get other resources:
 
