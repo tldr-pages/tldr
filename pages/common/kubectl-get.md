@@ -23,6 +23,10 @@
 
 `kubectl get {{[svc|services]}} {{[-n|--namespace]}} {{namespace}}`
 
+- Get other resources:
+
+`kubectl get {{persistentvolumeclaims|secret}}`
+
 - Get all resources in all namespaces:
 
 `kubectl get all {{[-A|--all-namespaces]}}`
