@@ -18,4 +18,4 @@
 
 - Organize a large file with print signatures for binding into a larger booklet (signatures must be divisible by 4):
 
-`pdfbook2 {{[-p|--paper]}} a4paper --signature 24 {{path/to/file.pdf}}`
+`pdfbook2 {{[-p|--paper]}} a4paper --signature {{24}} {{path/to/file.pdf}}`
