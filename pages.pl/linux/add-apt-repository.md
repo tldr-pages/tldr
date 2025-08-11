@@ -1,7 +1,7 @@
 # add-apt-repository
 
 > Zarządzaj definicjami repozytoriów `apt`.
-> Więcej informacji: <https://manned.org/apt-add-repository>.
+> Więcej informacji: <https://manned.org/add-apt-repository>.
 
 - Dodaj nowe repozytorium `apt`:
 
