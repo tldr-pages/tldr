@@ -15,6 +15,10 @@
 
 `complete -o nospace -F {{function}} {{command}}`
 
-- List all complete specifications:
+- List all loaded complete specifications:
 
 `complete -p`
+
+- List loaded complete specifications for  a command:
+
+`complete -p {{command}}`
