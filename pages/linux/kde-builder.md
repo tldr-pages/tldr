@@ -30,7 +30,7 @@
 
 - Install login session:
 
-`kb --install-login-session-only`
+`kde-builder --install-login-session-only`
 
 - Use system libraries in place of a component if it fails to build:
 
