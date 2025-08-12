@@ -11,6 +11,14 @@
 
 `cage -- {{application}} {{arguments}}`
 
+- Hide window decorations (this can lock you from accessing the terminal):
+
+`cage -d {{application}}`
+
+- Allow switching terminals with `<Ctrl Alt F2>`:
+
+`cage -s {{application}}`
+
 - Display help:
 
 `cage -h`
