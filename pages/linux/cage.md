@@ -11,11 +11,11 @@
 
 `cage -- {{application}} {{arguments}}`
 
-- Hide window decorations (this can lock you from accessing the terminal):
+- Hide window [d]ecorations (this can lock you from accessing the terminal):
 
 `cage -d {{application}}`
 
-- Allow switching terminals with `<Ctrl Alt F2>`:
+- Allow [s]witching terminals with `<Ctrl Alt F2>`:
 
 `cage -s {{application}}`
 
