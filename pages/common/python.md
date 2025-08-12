@@ -1,7 +1,7 @@
 # python
 
 > Python language interpreter.
-> More information: <https://www.python.org>.
+> More information: <https://manned.org/python>.
 
 - Start a REPL (interactive shell):
 
