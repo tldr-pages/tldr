@@ -34,7 +34,3 @@
 - List all users on the system:
 
 `compgen -u`
-
-- Display help:
-
-`compgen --help`
