@@ -14,3 +14,7 @@
 - Apply autocompletion without appending a space to the completed word:
 
 `complete -o nospace -F {{function}} {{command}}`
+
+- List all complete specifications:
+
+`complete -p`
