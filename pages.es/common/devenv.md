@@ -17,7 +17,7 @@
 
 - Inicia procesos con `devenv`:
 
-`devenv up --config /{{archivo}}/{{ruta}}/`
+`devenv up --config {{ruta/al/archivo}}`
 
 - Limpia las variables de entorno y vuelve a entrar en el intérprete de comandos en el modo sin conexión:
 
