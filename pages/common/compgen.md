@@ -11,6 +11,10 @@
 
 `compgen -c {{str}}`
 
+- Match against a wordlist:
+
+`compgen -W "{{apple orange banana}}" {{a}}`
+
 - List all aliases:
 
 `compgen -a`
