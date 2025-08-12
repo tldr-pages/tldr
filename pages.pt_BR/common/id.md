@@ -7,9 +7,17 @@
 
 `id`
 
+- Exibe a identidade do usuário atual:
+
+`id {{[-un|--user --name]}}`
+
 - Exibe a identidade do usuário atual como um número:
 
 `id {{[-u|--user]}}`
+
+- Exibe a identidade do grupo primário atual:
+
+`id {{[-gn|--group --name]}}`
 
 - Exibe a identidade do grupo atual como um número:
 
@@ -17,4 +25,4 @@
 
 - Exibe o ID de um usuário arbitrário (UID), ID do grupo (GID) e grupos aos quais eles pertencem:
 
-`id {{nomedeusuario}}`
+`id {{nome_de_usuário}}`

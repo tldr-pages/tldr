@@ -5,16 +5,16 @@
 
 - Update container template database:
 
-`pveam update`
+`pveam {{[u|update]}}`
 
 - List available templates:
 
-`pveam available`
+`pveam {{[a|available]}}`
 
 - Download a template:
 
-`pveam download {{local}} {{template_name}}`
+`pveam {{[d|download]}} {{local}} {{template_name}}`
 
 - List downloaded templates:
 
-`pveam list {{local}}`
+`pveam {{[l|list]}} {{local}}`
