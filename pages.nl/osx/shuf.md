@@ -1,7 +1,7 @@
 # shuf
 
 > Genereer willekeurige permutaties.
-> Meer informatie: <https://keith.github.io/xcode-man-pages/shuf.1.html>.
+> Meer informatie: <https://manpagez.com/man/1/shuf/>.
 
 - Wijzig willekeurig de volgorde van regels in een bestand en toon het resultaat:
 

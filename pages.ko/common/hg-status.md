@@ -1,7 +1,7 @@
 # hg status
 
 > 작업 디렉토리에서 변경된 파일을 보여줍니다.
-> 더 많은 정보: <https://www.mercurial-scm.org/doc/hg.1.html#status>.
+> 더 많은 정보: <https://www.mercurial-scm.org/help/commands/status>.
 
 - 변경된 파일의 상태 표시:
 

@@ -2,7 +2,7 @@
 
 > Client for the Open Asset Import Library.
 > Supports loading of 40+ 3D file formats, and exporting to several popular 3D formats.
-> More information: <https://assimp-docs.readthedocs.io/>.
+> More information: <https://manned.org/assimp>.
 
 - List all supported import formats:
 

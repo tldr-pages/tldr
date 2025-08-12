@@ -29,4 +29,4 @@
 
 - Lösche Resourcen, die in einer YAML Datei definiert sind:
 
-`kubectl delete --filename {{pfad/zu/manifest.yaml}}`
+`kubectl delete {{[-f|--filename]}} {{pfad/zu/manifest.yaml}}`

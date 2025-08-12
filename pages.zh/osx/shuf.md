@@ -1,7 +1,7 @@
 # shuf
 
 > 生成随机排列。
-> 更多信息：<https://keith.github.io/xcode-man-pages/shuf.1.html>.
+> 更多信息：<https://manpagez.com/man/1/shuf/>.
 
 - 随机化文件中的行顺序并输出结果：
 

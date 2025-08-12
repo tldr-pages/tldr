@@ -5,7 +5,7 @@
 
 - Lista todos as saídas e entradas de áudio com seus IDs:
 
-`pw-link {{[-oiI|--output --input --ids]}}`
+`pw-link {{[-oiI|--output --input --id]}}`
 
 - Cria uma conexão entre uma porta de entrada e uma porta de saída:
 
@@ -17,7 +17,7 @@
 
 - Lista todas as conexões com seus IDs:
 
-`pw-link {{[-lI|--links --ids]}}`
+`pw-link {{[-lI|--links --id]}}`
 
 - Exibe ajuda:
 

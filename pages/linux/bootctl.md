@@ -5,7 +5,7 @@
 
 - Show information about the system firmware and the bootloaders:
 
-`bootctl status`
+`bootctl`
 
 - Show all available bootloader entries:
 
@@ -17,7 +17,7 @@
 
 - Specify the path to the EFI system partition (defaults to `/efi/`, `/boot/` or `/boot/efi`):
 
-`bootctl --esp-path={{/path/to/efi_system_partition/}}`
+`bootctl --esp-path {{/path/to/efi_system_partition/}}`
 
 - Install `systemd-boot` into the EFI system partition:
 

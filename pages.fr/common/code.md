@@ -13,11 +13,11 @@
 
 - Compare deux fichiers spécifiques :
 
-`code --diff {{chemin/vers/fichier1}} {{chemin/vers/fichier2}}`
+`code {{[-d|--diff]}} {{chemin/vers/fichier1}} {{chemin/vers/fichier2}}`
 
 - Ouvre des fichiers/répertoires spécifiques dans une nouvelle fenêtre :
 
-`code --new-window {{chemin/vers/fichier_ou_répertoire1 chemin/vers/fichier_ou_répertoire2 ...}}`
+`code {{[-n|--new-window]}} {{chemin/vers/fichier_ou_répertoire1 chemin/vers/fichier_ou_répertoire2 ...}}`
 
 - Installe/désinstalle une extension spécifique :
 
