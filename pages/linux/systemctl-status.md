@@ -7,7 +7,7 @@
 
 `systemctl status {{unit}}.{{service|timer|socket|target|...}}`
 
-- Show the status of the last failed unit:
+- Show the status of failed units:
 
 `systemctl status --failed`
 
