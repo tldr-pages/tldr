@@ -1,7 +1,7 @@
 # msgunfmt
 
 > Decompile message catalog from the binary format.
-> More information: <https://www.gnu.org/software/gettext/manual/html_node/msgunfmt-Invocation.html>.
+> More information: <https://www.gnu.org/software/gettext/manual/gettext.html#msgunfmt-Invocation>.
 
 - Output conversion:
 
