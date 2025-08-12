@@ -1,7 +1,7 @@
 # devenv
 
 > Entornos de desarrollo rápidos, declarativos, reproducibles y componibles utilizando Nix.
-> Más información: <https://devenv.sh>.
+> Más información: <https://devenv.sh/getting-started/#commands>.
 
 - Inicializa el entorno:
 
