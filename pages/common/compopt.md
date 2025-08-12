@@ -1,6 +1,7 @@
 # compopt
 
 > Print or change the completion options for a command.
+> See also: `compgen`, `complete`.
 > More information: <https://manned.org/compopt>.
 
 - Print the options for the currently executing completion:
