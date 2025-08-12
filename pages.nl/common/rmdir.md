@@ -12,6 +12,6 @@
 
 `rmdir {{[-p|--parents]}} {{pad/naar/map1 pad/naar/map2 ...}}`
 
-- Schoon een map van lege mappen:
+- Verwijder alle lege mappen in een map:
 
 `rmdir *`
