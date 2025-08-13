@@ -6,4 +6,3 @@
 - Open bash in a pod:
 
 `kubectl exec {{pod_name}} {{-it|--stdin --tty]}} -- bash`
-
