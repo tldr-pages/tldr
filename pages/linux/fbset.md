@@ -5,4 +5,4 @@
 
 - Show current framebuffer settings:
 
-`fbset {{[-i|--info]}}`
+`sudo fbset {{[-i|--info]}}`
