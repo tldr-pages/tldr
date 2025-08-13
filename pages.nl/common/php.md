@@ -21,7 +21,7 @@
 
 - Start een PHP ingebouwde web[S]erver in de huidige map:
 
-`php {{[-S|--server]}} {{host:poort}}`
+`php {{[-S|--server]}} {{host}}:{{poort}}`
 
 - Toon geïnstalleerde PHP-extensies:
 
