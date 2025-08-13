@@ -12,6 +12,10 @@
 
 `kubectl apply {{[-k|--kustomize]}} {{path/to/directory}}`
 
+- Apply a configuration to a resource by `stdin`:
+
+`{{cat pod.json}} | kubectl apply {{[-f|--filename]}} -`
+
 - Edit the latest last-applied-configuration annotations of resources from the default editor:
 
 `kubectl apply edit-last-applied {{[-f|--filename]}} {{path/to/filename}}`
