@@ -6,3 +6,7 @@
 - Show current framebuffer settings:
 
 `sudo fbset {{[-i|--info]}}`
+
+Set a framebuffer mode defined in `/etc/fb.modes`:
+
+`sudo fbset "{{800}}x{{600}}-60}}"
