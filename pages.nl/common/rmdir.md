@@ -11,3 +11,7 @@
 - Verwijder specifieke geneste directories recursief:
 
 `rmdir {{[-p|--parents]}} {{pad/naar/map1 pad/naar/map2 ...}}`
+
+- Verwijder alle lege mappen in een map:
+
+`rmdir *`
