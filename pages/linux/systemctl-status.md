@@ -21,8 +21,8 @@
 
 - List all units of a specific type:
 
-`systemctl status --type={{service|timer|socket|target|...}}`
+`systemctl status --type {{service|timer|socket|target|...}}`
 
 - List all units with a specific state:
 
-`systemctl status --state={{active|inactive|failed}}`
+`systemctl status --state {{active|inactive|failed}}`
