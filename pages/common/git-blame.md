@@ -19,6 +19,10 @@
 
 `git blame {{commit}}~ {{path/to/file}}`
 
+- Jump to the parent of a specific commit and track a specific text and 10 of its following lines:
+
+`git blame -L '/{{text}}/',+10 {{a82812aa}}^ tldr.py`
+
 - Print author name and commit hash information for a specific line range:
 
 `git blame -L {{start_line}},{{end_line}} {{path/to/file}}`
