@@ -1,16 +1,16 @@
 # hd-idle
 
-> Utility program for spinning-down external disks after a period of idle time.
-> More information: <https://hd-idle.sourceforge.net/>.
+> Spin down external disks after a period of idle time.
+> More information: <https://manned.org/hd-idle>.
 
-- There needs to be a service running for auto-spin down. By default hard disks will spin down after 10 minutes of inactivity:
+- Start a service to manage hard drive spin down. By default hard disks will spin down after 10 minutes of inactivity:
 
-`/etc/init.d/hd-idle start`
+`systemctl start hd-idle`
 
 - Spin down a disk immediately:
 
-`hd-idle -t sda`
+`hd-idle -t {{/dev/sdX}}`
 
-- Set idle time to 0 (meaning hd-idle will never try to spin down a disk), then set explicit idle times (in seconds) for disks which have the string "sda" or "sdb" in their device name (sda to spin down after 5 min of inactivity, sdb - after 20 min):
+- Set disks to never spin down, then set explicit idle times (in seconds) for disks which have "sda" or "sdb" in their device name:
 
-`hd-idle -i 0 -a sda -i 300 -a sdb -i 1200`
+`hd-idle -i 0 -a /dev/sda -i {{300}} -a /dev/sdb -i {{1200}}`
