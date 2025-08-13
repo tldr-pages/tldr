@@ -20,7 +20,7 @@
 
 `tig {{base_ref}}..{{compared_ref}}`
 
-- Browse git blame interactively:
+- Browse git blame interactively (press `<,>` to move to parent:
 
 `tig blame {{path/to/file}}`
 
