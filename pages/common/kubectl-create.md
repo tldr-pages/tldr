@@ -13,16 +13,16 @@
 
 - Create a deployment:
 
-`kubectl create deployment {{deployment_name}} --image={{image}}`
+`kubectl create {{[deploy|deployment]}} {{deployment_name}} --image={{image}}`
 
 - Create a deployment with replicas:
 
-`kubectl create deployment {{deployment_name}} --image={{image}} --replicas={{number_of_replicas}}`
+`kubectl create {{[deploy|deployment]}} {{deployment_name}} --image={{image}} --replicas={{number_of_replicas}}`
 
 - Create a service:
 
-`kubectl create service {{service_type}} {{service_name}} --tcp={{port}}:{{target_port}}`
+`kubectl create {{[svc|service]}} {{service_type}} {{service_name}} --tcp={{port}}:{{target_port}}`
 
 - Create a namespace:
 
-`kubectl create namespace {{namespace_name}}`
+`kubectl create {{[ns|namespace]}} {{namespace_name}}`

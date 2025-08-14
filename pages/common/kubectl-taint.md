@@ -5,12 +5,12 @@
 
 - Apply taint to a node:
 
-`kubectl taint nodes {{node_name}} {{label_key}}={{label_value}}:{{effect}}`
+`kubectl taint {{[no|nodes]}} {{node_name}} {{label_key}}={{label_value}}:{{effect}}`
 
 - Remove taint from a node:
 
-`kubectl taint nodes {{node_name}} {{label_key}}:{{effect}}-`
+`kubectl taint {{[no|nodes]}} {{node_name}} {{label_key}}:{{effect}}-`
 
 - Remove all taints from a node:
 
-`kubectl taint nodes {{node_name}} {{label_key}}-`
+`kubectl taint {{[no|nodes]}} {{node_name}} {{label_key}}-`
