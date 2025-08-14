@@ -1,11 +1,11 @@
 # compgen
 
-> A built-in command for auto-completion in Bash.
-> This command is usually used within completion functions.
+> Bash built-in command for generating possible completion matches in Bash.
+> Usually used within custom completion functions.
 > See also: `complete`, `compopt`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-compgen>.
 
-- List all commands that you could run:
+- List all shell built-ins, aliases, functions and executables that you could run:
 
 `compgen -c`
 
