@@ -1,6 +1,6 @@
 # complete
 
-> Get and set argument autocompletion to shell commands.
+> Get and set argument autocompletion of shell commands.
 > The specified completions will be invoked when `<Tab>` is pressed in Bash.
 > See also: `compgen`, `compopt`.
 > More information: <https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html#index-complete>.
