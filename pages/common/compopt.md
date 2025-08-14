@@ -13,6 +13,6 @@
 
 `compopt {{command}}`
 
-- Modify a completion option of a command:
+- Enable or disable a completion option of a command:
 
 `compopt {{-o|+o}} {{option}} {{command}}`
