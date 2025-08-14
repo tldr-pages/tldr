@@ -1,7 +1,7 @@
 # compopt
 
 > Print or change the completion options for a command.
-> `-o` means enabled and `+o` means disabled
+> `-o` means enabled and `+o` means disabled.
 > See also: `compgen`, `complete`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-compopt>.
 
