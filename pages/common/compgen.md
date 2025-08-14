@@ -8,9 +8,9 @@
 
 `compgen -c`
 
-- List all commands that you could run that start with a specified string and save results to `variable`:
+- List all commands that you could run that start with a specified string and save results to `COMPREPLY`:
 
-`compgen -V {{variable}} -c {{str}}`
+`compgen -V COMPREPLY -c {{str}}`
 
 - Match against a wordlist:
 
