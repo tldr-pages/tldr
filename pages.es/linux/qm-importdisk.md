@@ -1,4 +1,4 @@
-# qm import disk
+# qm importdisk
 
 > Este comando es un alias de `qm disk import`.
 

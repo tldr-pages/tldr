@@ -1,7 +1,7 @@
 # nmcli device
 
 > Manage network interfaces and establish new Wi-Fi connections using NetworkManager.
-> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#device>.
 
 - Print the statuses of all network interfaces:
 

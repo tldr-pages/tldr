@@ -1,7 +1,7 @@
 # nmcli monitor
 
 > Monitor changes to the NetworkManager connection status.
-> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#monitor>.
 
 - Start monitoring NetworkManager changes:
 

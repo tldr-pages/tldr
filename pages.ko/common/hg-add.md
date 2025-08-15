@@ -1,7 +1,7 @@
 # hg add
 
 > 지정한 파일을 Mercurial의 다음 커밋을 위한 스테이징 영역에 추가.
-> 더 많은 정보: <https://www.mercurial-scm.org/doc/hg.1.html#add>.
+> 더 많은 정보: <https://www.mercurial-scm.org/help/commands/add>.
 
 - 파일 또는 디렉토리를 스테이징 영역에 추가:
 

@@ -9,24 +9,24 @@
 
 - Add a node to the cluster configuration (internal use):
 
-`pvecm addnode {{node}}`
+`pvecm {{[addn|addnode]}} {{node}}`
 
 - Display the version of the cluster join API available on this node:
 
-`pvecm apiver`
+`pvecm {{[ap|apiver]}}`
 
 - Generate new cluster configuration:
 
-`pvecm create {{clustername}}`
+`pvecm {{[c|create]}} {{clustername}}`
 
 - Remove a node from the cluster configuration:
 
-`pvecm delnode {{node}}`
+`pvecm {{[d|delnode]}} {{node}}`
 
 - Display the local view of the cluster nodes:
 
-`pvecm nodes`
+`pvecm {{[n|nodes]}}`
 
 - Display the local view of the cluster status:
 
-`pvecm status`
+`pvecm {{[s|status]}}`

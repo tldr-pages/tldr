@@ -1,7 +1,7 @@
 # nmcli connection
 
 > Beheer verbindingen met NetworkManager.
-> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#connection>.
 
 - Toon alle NetworkManager connecties (toont naam, UUID, type en apparaat):
 

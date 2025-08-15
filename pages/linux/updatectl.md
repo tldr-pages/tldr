@@ -1,7 +1,7 @@
 # updatectl
 
 > System update utility.
-> More information: <https://www.freedesktop.org/software/systemd/man/257/updatectl.html>.
+> More information: <https://www.freedesktop.org/software/systemd/man/updatectl.html>.
 
 - Apply an update:
 
