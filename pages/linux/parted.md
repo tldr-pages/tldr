@@ -1,7 +1,7 @@
 # parted
 
 > A partition manipulation program.
-> See also: `parted-interactive`, `partprobe`.
+> See also: `parted.interactive`, `partprobe`.
 > More information: <https://www.gnu.org/software/parted/manual/html_node/Invoking-Parted.html>.
 
 - List partitions on all block devices:

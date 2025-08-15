@@ -13,11 +13,11 @@
 
 - Bandingkan isi antara dua berkas teks:
 
-`code --diff {{jalan/menuju/berkas1}} {{jalan/menuju/berkas2}}`
+`code {{[-d|--diff]}} {{jalan/menuju/berkas1}} {{jalan/menuju/berkas2}}`
 
 - Buka kumpulan berkas atau direktori menuju sebuah jendela pengolah baru:
 
-`code --new-window {{jalan/menuju/berkas_atau_direktori1 jalan/menuju/berkas_atau_direktori2 ...}}`
+`code {{[-n|--new-window]}} {{jalan/menuju/berkas_atau_direktori1 jalan/menuju/berkas_atau_direktori2 ...}}`
 
 - Pasang/bongkat suatu paket ekstensi:
 

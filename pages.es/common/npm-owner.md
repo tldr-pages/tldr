@@ -1,7 +1,7 @@
 # npm owner
 
 > Gestiona la propiedad de paquetes publicados.
-> Más información: <https://docs.npmjs.com/cli/commands/npm-owner>.
+> Más información: <https://docs.npmjs.com/cli/npm-owner>.
 
 - Añade un nuevo usuario como un mantenedor de un paquete:
 

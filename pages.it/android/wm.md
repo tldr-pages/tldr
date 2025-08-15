@@ -2,7 +2,7 @@
 
 > Visualizza informazioni dello schermo del dispositivo Android.
 > Questo comando può essere usato solo attraverso `adb shell`.
-> Maggiori informazioni: <https://adbinstaller.com/commands/adb-shell-wm-5b672b17e7958178a2955538>.
+> Maggiori informazioni: <https://web.archive.org/web/20240420064706/https://adbinstaller.com/commands/adb-shell-wm-5b672b17e7958178a2955538>.
 
 - Visualizza le dimensioni fisiche dello schermo di un dispositivo Android:
 

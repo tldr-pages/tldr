@@ -1,7 +1,7 @@
 # quickemu
 
 > Build and manage highly optimised desktop virtual machines quickly.
-> See also: `quickget`, for preparing VM configurations.
+> See also: `quickget` for preparing VM configurations.
 > More information: <https://github.com/quickemu-project/quickemu>.
 
 - Create and run a virtual machine from a configuration file:

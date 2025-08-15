@@ -9,24 +9,24 @@
 
 - 지정된 [n]amespace의 노드 가져오기:
 
-`kubectl get nodes --namespace {{네임스페이스}}`
+`kubectl get nodes {{[-n|--namespace]}} {{네임스페이스}}`
 
 - 지정된 [n]amespace의 파드 가져오기:
 
-`kubectl get pods --namespace {{네임스페이스}}`
+`kubectl get pods {{[-n|--namespace]}} {{네임스페이스}}`
 
 - 지정된 [n]amespace의 배포 가져오기:
 
-`kubectl get deployments --namespace {{네임스페이스}}`
+`kubectl get deployments {{[-n|--namespace]}} {{네임스페이스}}`
 
 - 지정된 [n]amespace의 서비스 가져오기:
 
-`kubectl get services --namespace {{네임스페이스}}`
+`kubectl get services {{[-n|--namespace]}} {{네임스페이스}}`
 
 - 지정된 [n]amespace의 모든 리소스 가져오기:
 
-`kubectl get all --namespace {{네임스페이스}}`
+`kubectl get all {{[-n|--namespace]}} {{네임스페이스}}`
 
 - YAML 매니페스트 [f]ile에 정의된 Kubernetes 객체 가져오기:
 
-`kubectl get --file {{경로/대상/매니페스트.yaml}}`
+`kubectl get {{[-f|--filename]}} {{경로/대상/매니페스트.yaml}}`

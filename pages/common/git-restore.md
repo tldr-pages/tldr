@@ -1,7 +1,7 @@
 # git restore
 
 > Restore working tree files. Requires Git version 2.23+.
-> See also `git checkout` and `git reset`.
+> See also: `git checkout`, `git reset`.
 > More information: <https://git-scm.com/docs/git-restore>.
 
 - Restore an unstaged file to the staged version:

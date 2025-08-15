@@ -1,7 +1,7 @@
 # fg
 
 > Run jobs in foreground.
-> See also: `jobs`, `bg` and `disown`.
+> See also: `jobs`, `bg`, `disown`.
 > More information: <https://manned.org/fg>.
 
 - Bring most recently suspended or running background job to foreground:
