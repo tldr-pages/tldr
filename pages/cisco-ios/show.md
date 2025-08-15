@@ -14,3 +14,7 @@
 - Show currently running configuration:
 
 `{{[s|show]}} running-config`
+
+- Show SSH configuration:
+
+`{{[s|show]}} ip ssh`
