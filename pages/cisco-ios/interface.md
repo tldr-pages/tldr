@@ -8,6 +8,6 @@
 
 `interface vlan {{1}}`
 
-Set and interface to be active or inactive:
+Set and interface to be active or inactive (this is run inside the interface command):
 
 `{{no shutdown|shutdown}}`
