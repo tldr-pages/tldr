@@ -7,3 +7,7 @@
 - Configure a vlan:
 
 `interface vlan {{1}}`
+
+Set and interface to be active or inactive:
+
+`{{no shutdown|shutdown}}`
