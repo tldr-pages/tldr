@@ -15,6 +15,10 @@
 
 `pvesm add {{[d|dir]}} {{storage_name}} --path {{path/to/directory}}`
 
+- Set a storage to contain specific content:
+
+`pvesm set {{storage_name}} --content {{iso,images,backup,vztmpl,...}}`
+
 - Remove a storage:
 
 `pvesm {{[r|remove]}} {{storage_name}}`
