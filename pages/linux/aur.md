@@ -4,13 +4,17 @@
 > Note: A local repository needs to be defined in `/etc/pacman.conf` and `vifm` needs to be installed for this to fully function.
 > More information: <https://github.com/aurutils/aurutils>.
 
+- Initialize the repository that matches the path in `/etc/pacman.conf`:
+
+`repo-add {{path/to/database.db.tar.gz}}`
+
 - Search the AUR database for a package:
 
 `aur search {{keyword}}`
 
-- Download a package and its dependencies from AUR, build them and add them to a local repository:
+- Download one or more packages and their dependencies from the AUR, build them, and add them to a local repository:
 
-`aur sync {{package}}`
+`aur sync {{package1 package2 ...}}`
 
 - List packages available in your local repository:
 

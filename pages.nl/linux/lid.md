@@ -1,10 +1,11 @@
 # lid
 
-> Let op: deze pagina is op dit moment een verwijzing. Als je bekend bent met dit programma, mag je een pull request openen.
-> Query ID database en rappoteer resultaten.
-> In Fedora en Arch Linux is de binary naam `lid` in gebruik door een ander programma. Bekijk hiervoor `tldr libuser-lid`.
-> Meer informatie: <https://www.gnu.org/software/idutils/>.
+> `lid` kan verwijzen naar meerdere commando's met dezelfde naam.
 
-- Bekijk de documentatie voor `libuser-lid`:
+- Bekijk de documentatie voor het `libuser` hulpprogramma:
 
-`tldr libuser-lid`
+`tldr lid.libuser`
+
+- Bekijk de documentatie voor het `idutils` hulpprogramma:
+
+`tldr lid.idutils`

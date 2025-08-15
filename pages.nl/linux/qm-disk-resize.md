@@ -5,4 +5,4 @@
 
 - Voeg `n` gigabytes toe aan een virtuele schijf:
 
-`qm disk resize {{vm_id}} {{schijfnaam}} +{{n}}G`
+`qm {{[di|disk]}} {{[resi|resize]}} {{vm_id}} {{schijfnaam}} +{{n}}G`

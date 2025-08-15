@@ -1,7 +1,7 @@
 # hg remove
 
 > 지정된 파일을 스테이징 영역에서 제거.
-> 더 많은 정보: <https://www.mercurial-scm.org/doc/hg.1.html#remove>.
+> 더 많은 정보: <https://www.mercurial-scm.org/help/commands/remove>.
 
 - 파일 또는 디렉토리를 스테이징 영역에서 제거:
 

@@ -2,7 +2,7 @@
 
 > 다양한 서비스로부터 이벤트를 수신하고, 간단한 규칙 엔진을 통해 처리하여 동작을 수행하는 이벤트 모니터 서비스.
 > 동작은 명령 실행, 이메일 전송 또는 SMS 메시지 발송을 포함할 수 있습니다.
-> 더 많은 정보: <https://keith.github.io/xcode-man-pages/emond.8.html>.
+> 더 많은 정보: <https://manpagez.com/man/8/emond/>.
 
 - 데몬 시작:
 

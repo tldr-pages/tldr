@@ -1,11 +1,12 @@
 # loginctl
 
 > Manage the systemd login manager.
+> See also: `lslogins`.
 > More information: <https://www.freedesktop.org/software/systemd/man/loginctl.html>.
 
 - Print all current sessions:
 
-`loginctl list-sessions`
+`loginctl`
 
 - Print all properties of a specific session:
 

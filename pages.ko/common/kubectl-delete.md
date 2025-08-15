@@ -29,4 +29,4 @@
 
 - YAML 매니페스트에 정의된 리소스 삭제:
 
-`kubectl delete --filename {{경로/대상/매니페스트.yaml}}`
+`kubectl delete {{[-f|--filename]}} {{경로/대상/매니페스트.yaml}}`
