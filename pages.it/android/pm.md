@@ -7,11 +7,11 @@
 
 `pm list packages`
 
-- Elenca tutte le app di [s]istema installate:
+- Elenca tutte le app di sistema installate:
 
 `pm list packages -s`
 
-- Elenca tutte le app di terze parti ([3]rd-party) installate:
+- Elenca tutte le app di terze parti installate:
 
 `pm list packages -3`
 
