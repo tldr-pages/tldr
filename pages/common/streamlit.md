@@ -1,7 +1,7 @@
 # streamlit
 
 > Framework for creating interactive, data-driven web apps in Python.
-> More information: <https://docs.streamlit.io/>.
+> More information: <https://docs.streamlit.io/develop/api-reference/cli>.
 
 - Check for the Streamlit installation:
 
