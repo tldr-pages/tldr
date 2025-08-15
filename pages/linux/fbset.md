@@ -10,3 +10,7 @@
 - Set a framebuffer mode defined in `/etc/fb.modes`:
 
 `sudo fbset "{{800}}x{{600}}-{{60}}"`
+
+- Set an arbitrary framebuffer mode:
+
+`sudo fbset {{TTY_horizontal}} {{TTY_vertical}} {{monitor_horizontal}} {{monitor_vertical}} {{color_depth}}`
