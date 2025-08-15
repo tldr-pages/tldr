@@ -7,6 +7,10 @@
 
 `{{[s|show]}} ip interface brief`
 
+- Show specific interface configuration:
+
+`{{[s|show]}} ip interface {{vlan1}}`
+
 - Show vlan configuration:
 
 `{{[s|show]}} vlan`
