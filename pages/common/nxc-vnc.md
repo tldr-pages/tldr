@@ -1,7 +1,7 @@
 # nxc vnc
 
 > Pentest and exploit VNC servers.
-> More information: <https://www.netexec.wiki/>.
+> More information: <https://www.netexec.wiki/getting-started/selecting-and-using-a-protocol>.
 
 - Search for valid credentials by trying out every combination in the specified lists of usernames and passwords:
 
