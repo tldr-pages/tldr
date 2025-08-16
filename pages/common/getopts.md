@@ -4,7 +4,7 @@
 > This command does not support longform options and thus using `getopt` is recommended instead.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-getopts>.
 
-- Check if an option is set in the current context:
+- Check if an option is the first set option in the current context:
 
 `getopts {{x}} {{opt}}; echo ${{opt}}`
 
