@@ -6,7 +6,7 @@
 
 - 커밋 작성자 목록을 `AUTHORS` 파일 대신 `stdout`에 출력:
 
-`git authors --list`
+`git authors {{[-l|--list]}}`
 
 - 커밋 작성자 목록을 `AUTHORS` 파일에 추가하고 기본 편집기로 열기:
 
