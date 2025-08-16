@@ -2,7 +2,7 @@
 
 > Easy security-hardened OpenVPN setup and manager.
 > Originally designed for the Raspberry Pi, but works on other Linux devices too.
-> More information: <https://www.pivpn.io/>.
+> More information: <https://docs.pivpn.io/openvpn/>.
 
 - Add a new client device:
 

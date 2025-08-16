@@ -1,7 +1,7 @@
 # prettier
 
 > An opinionated code formatter for JavaScript, JSON, CSS, YAML, and more.
-> More information: <https://prettier.io/>.
+> More information: <https://prettier.io/docs/cli>.
 
 - Format a file and print the result to `stdout`:
 

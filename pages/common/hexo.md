@@ -1,7 +1,7 @@
 # hexo
 
 > A fast, simple & powerful blog framework.
-> More information: <https://hexo.io/>.
+> More information: <https://hexo.io/docs/commands>.
 
 - Initialize a website:
 
