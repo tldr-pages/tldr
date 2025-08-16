@@ -3,17 +3,21 @@
 > Edit Kubernetes resources.
 > More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#edit>.
 
-- Edit a pod:
+- Edit a pod in the default namespace:
 
-`kubectl edit pod/{{pod_name}}`
+`kubectl edit {{[po|pod]}}/{{pod_name}}`
 
-- Edit a deployment:
+- Edit a deployment in the default namespace:
 
-`kubectl edit deployment/{{deployment_name}}`
+`kubectl edit {{[deploy|deployment]}}/{{deployment_name}}`
 
-- Edit a service:
+- Edit a service in the default namespace:
 
-`kubectl edit svc/{{service_name}}`
+`kubectl edit {{[svc|service]}}/{{service_name}}`
+
+- Edit all entries of a given resource in a given namespace:
+
+`kubectl edit {{resource}} {{[-n|--namespace]}} {{namespace}}`
 
 - Edit a resource using a specific editor:
 
