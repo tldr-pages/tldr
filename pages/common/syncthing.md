@@ -3,14 +3,6 @@
 > Continuous bidirectional decentralised folder synchronisation tool.
 > More information: <https://docs.syncthing.net/users/syncthing.html>.
 
-- Start Syncthing:
-
-`syncthing`
-
-- Start Syncthing without opening a web browser:
-
-`syncthing --no-browser`
-
 - Print the device ID:
 
 `syncthing --device-id`
@@ -34,3 +26,11 @@
 - Disable the Syncthing monitor process:
 
 `syncthing --no-restart`
+
+- Set the log level for output:
+
+`syncthing --log-level {{info|warning|error|debug}}`
+
+- Configure retention time for deleted items in the database:
+
+`syncthing --db-delete-retention-interval {{duration}}`
