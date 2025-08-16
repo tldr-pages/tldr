@@ -1,7 +1,7 @@
 # composer
 
 > A package-based dependency manager for PHP projects.
-> More information: <https://getcomposer.org/>.
+> More information: <https://getcomposer.org/doc/03-cli.md>.
 
 - Interactively create a `composer.json` file:
 
