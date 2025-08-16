@@ -6,7 +6,7 @@
 
 - Pretend to load a module into the kernel, but don't actually do it:
 
-`sudo modprobe --dry-run {{module_name}}`
+`sudo modprobe {{[-n|--dry-run]}} {{module_name}}`
 
 - Load a module into the kernel:
 
@@ -14,7 +14,7 @@
 
 - Remove a module from the kernel:
 
-`sudo modprobe --remove {{module_name}}`
+`sudo modprobe {{[-r|--remove]}} {{module_name}}`
 
 - Remove a module and those that depend on it from the kernel:
 
@@ -22,4 +22,4 @@
 
 - Show a kernel module's dependencies:
 
-`sudo modprobe --show-depends {{module_name}}`
+`sudo modprobe {{[-D|--show-depends]}} {{module_name}}`

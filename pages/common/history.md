@@ -1,7 +1,7 @@
 # history
 
-> Command-line history.
-> More information: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html#index-history>.
+> Manage command-line history.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-history>.
 
 - Display the commands history list with line numbers:
 
@@ -26,3 +26,7 @@
 - [d]elete the history entry at the specified offset:
 
 `history -d {{offset}}`
+
+- Add a command to history without running it:
+
+`history -s {{command}}`

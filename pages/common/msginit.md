@@ -1,7 +1,7 @@
 # msginit
 
 > Generate language specific translation files based on Portable Object Templates.
-> More information: <https://www.gnu.org/software/gettext/manual/html_node/msginit-Invocation.html>.
+> More information: <https://www.gnu.org/software/gettext/manual/gettext.html#msginit-Invocation>.
 
 - Generate Portable Object files in system locale from `messages.pot`:
 

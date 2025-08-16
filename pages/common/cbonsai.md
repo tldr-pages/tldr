@@ -11,6 +11,18 @@
 
 `cbonsai {{[-i|--infinite]}}`
 
+- Set the growth factor of the tree (default: 32):
+
+`cbonsai {{[-L|--life]}} {{0..200}}`
+
+- Set the branching factor of the tree (default: 5):
+
+`cbonsai {{[-M|--multiplier]}} {{0..20}}`
+
+- Run in screensaver mode (equivalent to `--live --infinite` but any keypress exits):
+
+`cbonsai {{[-S|--screensaver]}}`
+
 - Append a message to the bonsai:
 
 `cbonsai {{[-m|--message]}} "{{message}}"`
