@@ -24,6 +24,10 @@
 
 `aur sync {{[-u|--upgrades]}}`
 
+- Clean build files after install:
+
+`aur sync {{[-C|--clean]}} {{package}}`
+
 - Install a package without viewing changes in Vim and do not confirm dependency installation:
 
 `aur sync --noview {{[-n|--noconfirm]}} {{package}}`
