@@ -15,6 +15,6 @@
 
 `soffice --pt {{printer_name}} {{path/to/file1 path/to/file2 ...}}`
 
-- Convert all `.doc` files in current directory to PDF:
+- Convert all `.doc` files in the current directory to PDF:
 
 `soffice --convert-to pdf *.doc`
