@@ -2,7 +2,7 @@
 
 > A package manager for Kubernetes.
 > Some subcommands such as `install` have their own usage documentation.
-> More information: <https://helm.sh/>.
+> More information: <https://helm.sh/docs/helm/>.
 
 - Create a helm chart:
 
