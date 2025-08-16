@@ -25,4 +25,4 @@
 
 - Update a subnet with DNS `8.8.8.8` and set a new name:
 
-`openstack subnet set --dns-nameserver {{8.8.8.8}} --name {{new_subnet_name}} {{subnet_id}}`
+`openstack subnet set --dns-nameserver 8.8.8.8 --name {{new_subnet_name}} {{subnet_id}}`
