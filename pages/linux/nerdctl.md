@@ -25,7 +25,7 @@
 
 - Open an interactive tty with Bourne shell (`sh`) inside a running container:
 
-`nerdctl exec {{[-it|--interactive --tty]}} {{container_name}} {{sh}}`
+`nerdctl exec {{[-it|--interactive --tty]}} {{container_name}} sh`
 
 - Remove stopped containers:
 
