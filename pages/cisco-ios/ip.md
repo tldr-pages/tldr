@@ -18,4 +18,4 @@
 
 - Define a domain name:
 
-`ip domain-name example.com`
+`ip domain-name {{example.com}}`
