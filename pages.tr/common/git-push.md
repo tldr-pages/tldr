@@ -13,7 +13,7 @@
 
 - Mevcut dalı bir uzak dal ismi ayarlayarak uzak depoda yayınla:
 
-`git push {{uzak_bağlantı}} -u {{uzak_dal}}`
+`git push {{uzak_bağlantı}} {{[-u|--set-upstream]}} {{uzak_dal}}`
 
 - Yerel dallardaki tüm değişiklikleri onların belirtilen uzak depodaki uzak eşlerine gönder:
 
@@ -21,7 +21,7 @@
 
 - Uzak depodaki bir dalı sil:
 
-`git push {{uzak_bağlantı}} --delete {{uzak_dal}}`
+`git push {{uzak_bağlantı}} {{[-d|--delete]}} {{uzak_dal}}`
 
 - Yerel eşi olmayan uzak dalları sil:
 
