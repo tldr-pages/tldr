@@ -15,7 +15,7 @@
 
 - Set arguments of a command to autocomplete to shell builtins:
 
-`complete -A builtin {{command}}`
+`complete -b {{command}}`
 
 - Apply autocompletion without appending a space to the completed word:
 
