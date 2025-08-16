@@ -1,7 +1,7 @@
 # sbcl
 
 > High performance Common Lisp compiler.
-> More information: <https://www.sbcl.org/>.
+> More information: <https://www.sbcl.org/manual/index.html#Command-Line-Options>.
 
 - Start a REPL (interactive shell):
 

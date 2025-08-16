@@ -1,7 +1,7 @@
 # terminator
 
 > Arrange multiple GNOME terminals in one window.
-> More information: <https://gnome-terminator.org/>.
+> More information: <https://gnome-terminator.readthedocs.io/en/latest/advancedusage.html>.
 
 - Start `terminator` window:
 
@@ -9,7 +9,7 @@
 
 - Start with a fullscreen window:
 
-`terminator -f`
+`terminator {{[-f|--fullscreen]}}`
 
 - Split terminals horizontally:
 

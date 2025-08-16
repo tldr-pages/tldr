@@ -1,7 +1,7 @@
 # wkhtmltopdf
 
 > Convert HTML documents or web pages into PDF files.
-> More information: <https://wkhtmltopdf.org/>.
+> More information: <https://wkhtmltopdf.org/usage/wkhtmltopdf.txt>.
 
 - Convert a HTML document into PDF:
 
