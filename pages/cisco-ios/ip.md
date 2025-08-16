@@ -2,7 +2,7 @@
 
 > Manage IP configurations.
 > Accessed in configuration mode.
-> More information: <https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipaddr/command/ipaddr-cr-book.html?utm_source=chatgpt.com>.
+> More information: <https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipaddr/command/ipaddr-cr-book.html>.
 
 - Set the SSH version:
 
