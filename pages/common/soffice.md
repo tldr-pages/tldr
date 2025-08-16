@@ -1,6 +1,6 @@
 # soffice
 
-> CLI for the powerful and free office suite LibreOffice.
+> CLI for the powerful and free LibreOffice suite.
 > More information: <https://help.libreoffice.org/latest/en-US/text/shared/guide/pdf_params.html>.
 
 - Open one or more files in read-only mode:
