@@ -13,15 +13,15 @@
 
 - Klone nur das `.git` Verzeichnis für ein existierendes repository:
 
-`git clone --no-checkout {{url_zu_repository}}`
+`git clone {{[-n|--no-checkout]}} {{url_zu_repository}}`
 
 - Klone ein lokales Repository:
 
-`git clone --local {{pfad/zu/lokalem_repository}}`
+`git clone {{[-l|--local]}} {{pfad/zu/lokalem_repository}}`
 
 - Klone ohne Meldungen:
 
-`git clone --quiet {{url_zu_repository}}`
+`git clone {{[-q|--quiet]}} {{url_zu_repository}}`
 
 - Klone ein existierendes Repository und rufe nur die neuesten 10 Commits im Standard-Branch ab (spart Zeit):
 
@@ -29,8 +29,8 @@
 
 - Klone ein existierendes Repository, aber lade nur einen bestimmten Branch herunter:
 
-`git clone --branch {{name}} --single-branch {{url_zu_repository}}`
+`git clone {{[-b|--branch]}} {{name}} --single-branch {{url_zu_repository}}`
 
 - Klone ein existierendes Repository mit einem bestimmten SSH Befehl:
 
-`git clone --config core.sshCommand="{{ssh -i pfad/zu/privat_ssh_schlüssel}}" {{url_zu_repository}}`
+`git clone {{[-c|--config]}} core.sshCommand="{{ssh -i pfad/zu/privat_ssh_schlüssel}}" {{url_zu_repository}}`
