@@ -5,20 +5,20 @@
 
 - Show switch IP addresses:
 
-`{{[s|show]}} ip interface brief`
+`{{[sh|show]}} ip interface brief`
 
 - Show specific interface configuration:
 
-`{{[s|show]}} ip interface {{vlan1}}`
+`{{[sh|show]}} ip interface {{vlan1}}`
 
 - Show vlan configuration:
 
-`{{[s|show]}} vlan`
+`{{[sh|show]}} vlan`
 
 - Show currently running configuration:
 
-`{{[s|show]}} running-config`
+`{{[sh|show]}} running-config`
 
 - Show SSH configuration:
 
-`{{[s|show]}} ip ssh`
+`{{[sh|show]}} ip ssh`
