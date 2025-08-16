@@ -25,4 +25,4 @@
 
 - Change mountpoint for a filesystem:
 
-`zfs set mountpoint={{/my/mount/path}} {{pool_name/filesystem_name}}`
+`zfs set mountpoint=/{{path/to/mount_point}} {{pool_name/filesystem_name}}`

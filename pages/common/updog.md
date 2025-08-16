@@ -10,7 +10,7 @@
 
 - Start a HTTP server for a specified directory:
 
-`updog --directory {{/path/to/directory}}`
+`updog --directory /{{path/to/directory}}`
 
 - Start a HTTP server on a specified port:
 

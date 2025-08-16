@@ -21,7 +21,7 @@
 
 - Upload all files from a directory recursively:
 
-`transfersh --recursive {{path/to/directory/}}`
+`transfersh --recursive {{path/to/directory}}/`
 
 - Upload a specific directory as an uncompressed tar:
 

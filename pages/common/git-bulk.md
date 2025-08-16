@@ -10,15 +10,15 @@
 
 - Register a workspace for bulk operations:
 
-`git bulk --addworkspace {{workspace_name}} {{/absolute/path/to/repository}}`
+`git bulk --addworkspace {{workspace_name}} /{{path/to/repository}}`
 
 - Clone a repository inside a specific directory, then register the repository as a workspace:
 
-`git bulk --addworkspace {{workspace_name}} {{/absolute/path/to/parent_directory}} --from {{remote_repository_location}}`
+`git bulk --addworkspace {{workspace_name}} /{{path/to/parent_directory}} --from {{remote_repository_location}}`
 
 - Clone repositories from a newline-separated list of remote locations, then register them as workspaces:
 
-`git bulk --addworkspace {{workspace_name}} {{/path/to/root/directory}} --from {{/path/to/file}}`
+`git bulk --addworkspace {{workspace_name}} /{{path/to/root/directory}} --from /{{path/to/file}}`
 
 - List all registered workspaces:
 
