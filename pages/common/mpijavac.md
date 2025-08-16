@@ -2,7 +2,7 @@
 
 > Open MPI compiler wrapper for Java.
 > See also: `mpirun`.
-> More information: <https://docs.open-mpi.org/en/v5.0.x/features/java.html#building-java-mpi-applications>.
+> More information: <https://docs.open-mpi.org/en/main/features/java.html#building-java-mpi-applications>.
 
 - Compile a Java source file:
 
