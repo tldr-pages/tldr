@@ -1,7 +1,7 @@
 # msgfmt
 
 > Compile message catalog to binary format.
-> More information: <https://www.gnu.org/software/gettext/manual/html_node/msgfmt-Invocation.html>.
+> More information: <https://www.gnu.org/software/gettext/manual/gettext.html#msgfmt-Invocation>.
 
 - Compile a file to `messages.mo`:
 
