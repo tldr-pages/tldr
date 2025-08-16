@@ -1,4 +1,4 @@
-# vboxmanage-extpack
+# VBoxManage extpack
 
 > Manage extension packs for Oracle VirtualBox.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-extpack>.

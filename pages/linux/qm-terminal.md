@@ -5,7 +5,7 @@
 
 - Attach to a terminal:
 
-`qm terminal {{100}}`
+`qm {{[ter|terminal]}} {{100}}`
 
 - Detach from a terminal:
 

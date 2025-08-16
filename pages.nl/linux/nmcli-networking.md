@@ -1,7 +1,7 @@
 # nmcli networking
 
 > Beheer de netwerk status of NetworkManager.
-> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#networking>.
 
 - Toon de netwerk status of NetworkManager:
 

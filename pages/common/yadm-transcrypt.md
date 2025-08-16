@@ -1,4 +1,4 @@
-# yadm-transcrypt
+# yadm transcrypt
 
 > If `transcrypt` is installed, this command allows you to pass options directly to `transcrypt`.
 > With the environment configured to use the yadm repository.

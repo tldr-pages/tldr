@@ -1,7 +1,7 @@
 # nmcli radio
 
 > Show the status of radio switches or enable/disable them using NetworkManager.
-> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> More information: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#radio>.
 
 - Show status of Wi-Fi:
 

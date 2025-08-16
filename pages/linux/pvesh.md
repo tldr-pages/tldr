@@ -5,8 +5,12 @@
 
 - List available nodes:
 
-`pvesh get /nodes`
+`pvesh {{[g|get]}} /nodes`
+
+- Display detailed information about containers or virtual machines:
+
+`pvesh {{[g|get]}} /nodes/{{node_name}}/{{lxc|qemu}}`
 
 - Discover API paths:
 
-`pvesh ls {{/}}`
+`pvesh {{[l|ls]}} {{/}}`
