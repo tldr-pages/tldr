@@ -6,7 +6,7 @@
 
 - 将完整的提交者列表输出到标准输出，而不是写入到 `AUTHORS` 文件：
 
-`git authors --list`
+`git authors {{[-l|--list]}}`
 
 - 将提交者列表追加到 `AUTHORS` 文件并用默认编辑器打开：
 
