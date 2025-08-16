@@ -11,3 +11,11 @@
 - Set the address of the device (This is done under `interface command`):
 
 `ip address {{10.0.0.1}} {{255.255.255.0}}`
+
+- Set the address to be determined with dhcp (This is done under `interface command`):
+
+`ip address dhcp`
+
+- Define a domain name:
+
+`ip domain-name example.com`
