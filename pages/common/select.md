@@ -17,4 +17,4 @@
 
 - Create a menu from a Bash array:
 
-`{{fruits}}={{(apple orange pear banana)}}; select {{word}} in ${{{fruits[@]}}}; do echo ${{word}}; done`
+`{{fruits}}=({{apple orange pear banana}}); select {{word}} in ${{{fruits[@]}}}; do echo ${{word}}; done`
