@@ -18,7 +18,7 @@
 
 - Set max per-user process limit:
 
-`ulimit -u 30`
+`ulimit -u {{30}}`
 
 - Display help (Bash only):
 
