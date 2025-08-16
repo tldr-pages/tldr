@@ -1,7 +1,7 @@
 # write
 
 > Write data to memory.
-> More information: <>.
+> More information: <https://www.oreilly.com/library/view/cisco-ios-in/0596008694/re869.html>.
 
 - Write current configuration to memory:
 
