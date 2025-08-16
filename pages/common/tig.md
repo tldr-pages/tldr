@@ -20,6 +20,10 @@
 
 `tig {{base_ref}}..{{compared_ref}}`
 
+- Browse git blame interactively (press `<,>` to jump to parent):
+
+`tig blame {{path/to/file}}`
+
 - Display commits from all branches and stashes:
 
 `tig --all`
