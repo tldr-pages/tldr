@@ -1,29 +1,28 @@
 # nmcli radio
 
 > Muestra el estado de los interruptores de radio o activa/desactiva utilizando NetworkManager.
-> Este subcomando también puede llamarse con `nmcli r`.
-> Más información: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Más información: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#radio>.
 
 - Muestra el estado de WiFi:
 
-`nmcli radio wifi`
+`nmcli {{[r|radio]}} {{[w|wifi]}}`
 
 - Enciende o apaga WiFi:
 
-`nmcli radio wifi {{on|off}}`
+`nmcli {{[r|radio]}} {{[w|wifi]}} {{on|off}}`
 
 - Muestra el estado de WWAN:
 
-`nmcli radio wwan`
+`nmcli {{[r|radio]}} {{[ww|wwan]}}`
 
 - Enciende o apaga WWAN:
 
-`nmcli radio wwan {{on|off}}`
+`nmcli {{[r|radio]}} {{[ww|wwan]}} {{on|off}}`
 
 - Muestra el estado de todos los interruptores:
 
-`nmcli radio all`
+`nmcli {{[r|radio]}}`
 
 - Activa o apaga todos los interruptores:
 
-`nmcli radio all {{on|off}}`
+`nmcli {{[r|radio]}} {{[a|all]}} {{on|off}}`

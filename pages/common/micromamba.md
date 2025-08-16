@@ -6,15 +6,15 @@
 
 - Create a new environment at a specific path, installing named packages into it:
 
-`micromamba create {{[-p|--prefix]}} {{/path/to/env}} {{python=3.11 numpy}}`
+`micromamba create {{[-p|--prefix]}} /{{path/to/env}} {{python=3.11 numpy}}`
 
 - Activate an environment by name or path:
 
-`micromamba activate {{[-p|--prefix]}} {{/path/to/env}}`
+`micromamba activate {{[-p|--prefix]}} /{{path/to/env}}`
 
 - Run a command inside an environment without activating it in the shell:
 
-`micromamba run {{[-p|--prefix]}} {{/path/to/env}} {{pytest tests/}}`
+`micromamba run {{[-p|--prefix]}} /{{path/to/env}} {{pytest tests/}}`
 
 - Install packages into the currently active environment:
 

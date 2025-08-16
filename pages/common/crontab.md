@@ -1,7 +1,7 @@
 # crontab
 
 > Schedule cron jobs to run on a time interval for the current user.
-> More information: <https://crontab.guru/>.
+> More information: <https://manned.org/crontab>.
 
 - Edit the crontab file for the current user:
 
@@ -33,4 +33,4 @@
 
 - Sample crontab entry, which runs a certain script at 02:30 every Friday:
 
-`30 2 * * Fri {{/absolute/path/to/script.sh}}`
+`30 2 * * Fri /{{path/to/script.sh}}`

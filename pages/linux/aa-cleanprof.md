@@ -13,7 +13,7 @@
 
 - Specify the directory containing profiles:
 
-`sudo aa-cleanprof {{[-d|--dir]}} {{/path/to/profiles}} {{profile_name}}`
+`sudo aa-cleanprof {{[-d|--dir]}} /{{path/to/profiles}} {{profile_name}}`
 
 - Run silently without prompts:
 

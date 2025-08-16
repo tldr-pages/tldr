@@ -29,4 +29,4 @@
 
 - Search `stdin` for lines that do not match a pattern:
 
-`cat {{/path/to/bz/compressed/file}} | bzgrep {{[-v|--invert-match]}} "{{search_pattern}}"`
+`cat {{path/to/bz/compressed/file}} | bzgrep {{[-v|--invert-match]}} "{{search_pattern}}"`
