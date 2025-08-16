@@ -21,4 +21,4 @@
 
 - Includi dettagli sul pattern corrispondente per ogni percorso specificato:
 
-`git check-ignore --verbose {{percorso/del/file_o_directory1 percorso/del/file_o_directory2 ...}}`
+`git check-ignore {{[-v|--verbose]}} {{percorso/del/file_o_directory1 percorso/del/file_o_directory2 ...}}`

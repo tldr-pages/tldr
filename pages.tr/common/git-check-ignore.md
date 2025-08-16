@@ -21,4 +21,4 @@
 
 - Her yol için eşleşen desene dair detayları dahil et:
 
-`git check-ignore --verbose {{örnek/dosya_veya_dizin1 örnek/dosya_veya_dizin2 ...}}`
+`git check-ignore {{[-v|--verbose]}} {{örnek/dosya_veya_dizin1 örnek/dosya_veya_dizin2 ...}}`
