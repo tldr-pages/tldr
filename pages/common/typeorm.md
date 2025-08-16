@@ -1,7 +1,7 @@
 # typeorm
 
 > A JavaScript ORM that can run on Node.js, browser, Cordova, Ionic, React Native, NativeScript, and Electron platforms.
-> More information: <https://typeorm.io/>.
+> More information: <https://typeorm.io/docs/advanced-topics/using-cli/#initialize-a-new-typeorm-project>.
 
 - Generate a new initial TypeORM project structure:
 
