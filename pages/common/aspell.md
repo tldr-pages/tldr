@@ -1,7 +1,7 @@
 # aspell
 
 > Interactive spell checker.
-> More information: <http://aspell.net/>.
+> More information: <http://aspell.net/man-html/index.html>.
 
 - Spell check a single file:
 
