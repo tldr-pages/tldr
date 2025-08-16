@@ -7,3 +7,11 @@
 - Generate an `rsa` key:
 
 `crypto key generate rsa`
+
+- Define a modulus for a key:
+
+`crypto key generate rsa modulus {{1024}}`
+
+- Remove all keys:
+
+`crypto key zeroize`
