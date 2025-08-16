@@ -8,9 +8,9 @@
 
 `getopts {{x}} {{opt}}; echo $opt`
 
-- Set an option to require an argument and check said argument:
+- Set an option to require an argument and print them:
 
-`getopts {{x}}: {{opt}}; echo $OPTARG`
+`getopts {{x}}: {{opt}}; echo $opt $OPTARG`
 
 - Check for multiple options:
 
