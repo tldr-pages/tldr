@@ -2,7 +2,7 @@
 
 > RPM Package Manager.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> More information: <https://rpm.org/>.
+> More information: <https://rpm-software-management.github.io/rpm/man/rpm.8>.
 
 - Show version of httpd package:
 

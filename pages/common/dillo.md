@@ -1,7 +1,7 @@
 # dillo
 
 > A lightweight web browser intended for slow computers.
-> More information: <https://www.dillo.org/>.
+> More information: <https://manned.org/dillo>.
 
 - Launch Dillo:
 

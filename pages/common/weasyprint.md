@@ -1,7 +1,7 @@
 # weasyprint
 
 > Render HTML to PDF or PNG.
-> More information: <https://weasyprint.org/>.
+> More information: <https://doc.courtbouillon.org/weasyprint/stable/api_reference.html#command-line-api>.
 
 - Render an HTML file to PDF:
 

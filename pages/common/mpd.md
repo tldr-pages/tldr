@@ -2,7 +2,7 @@
 
 > Music Player Daemon.
 > See also: `mpc`, `ncmpcpp`.
-> More information: <https://www.musicpd.org/>.
+> More information: <https://mpd.readthedocs.io/en/stable/mpd.1.html>.
 
 - Start MPD:
 

@@ -2,7 +2,7 @@
 
 > Vala code runner.
 > Tutorial: <https://wiki.gnome.org/Projects/Vala/Tutorial>.
-> More information: <https://valadoc.org/>.
+> More information: <https://docs.vala.dev/index.html>.
 
 - Run a vala file, with gtk+:
 
