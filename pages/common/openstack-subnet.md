@@ -17,7 +17,7 @@
 
 - Create a subnet with subnet range `192.168.0.0/24` in a given network:
 
-`openstack subnet create --network {{network_id_or_name}} --subnet-range {{192.168.0.0/24}} {{subnet_name}}`
+`openstack subnet create --network {{network_id_or_name}} --subnet-range 192.168.0.0/24 {{subnet_name}}`
 
 - Delete a subnet:
 
