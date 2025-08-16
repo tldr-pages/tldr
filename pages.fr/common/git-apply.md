@@ -5,7 +5,7 @@
 
 - Afficher les messages à propos des fichiers corrigés :
 
-`git apply --verbose {{chemin/vers/fichier}}`
+`git apply {{[-v|--verbose]}} {{chemin/vers/fichier}}`
 
 - Applique le correctif et ajoute les fichiers à l index :
 
@@ -13,7 +13,7 @@
 
 - Applique un correctif depuis une source distante :
 
-`curl -L {{https://example.com/file.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://example.com/file.patch}} | git apply`
 
 - Affiche les différences résultantes et applique le correctif :
 
@@ -21,7 +21,7 @@
 
 - Applique le correctif en ordre inverse :
 
-`git apply --reverse {{chemin/vers/fichier}}`
+`git apply {{[-R|--reverse]}} {{chemin/vers/fichier}}`
 
 - Stocke le résultat du correctif dans l'index sans modifier la branche courante :
 

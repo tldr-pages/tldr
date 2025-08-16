@@ -6,7 +6,7 @@
 
 - Tampilkan informasi lengkap (mode verbose) atas proses perubahan yang sedang dilakukan:
 
-`git apply --verbose {{jalan/menuju/file}}`
+`git apply {{[-v|--verbose]}} {{jalan/menuju/file}}`
 
 - Gunakan patch dan tambahkan file yang diubah ke dalam indeks perubahan:
 
@@ -14,7 +14,7 @@
 
 - Gunakan perubahan dari file patch dari sumber dalam jaringan (online):
 
-`curl -L {{https://example.com/file.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://example.com/file.patch}} | git apply`
 
 - Tampilkan informasi statistik perbedaan (diffstat) setelah melakukan perubahan menurut file patch:
 
@@ -22,7 +22,7 @@
 
 - Batalkan perubahan yang dilakukan melalui file patch:
 
-`git apply --reverse {{jalan/menuju/file}}`
+`git apply {{[-R|--reverse]}} {{jalan/menuju/file}}`
 
 - Simpan hasil perubahan ke dalam indeks perubahan tanpa merubah susunan file/direktori dalam direktori kerja saat ini:
 

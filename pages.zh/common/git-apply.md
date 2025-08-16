@@ -6,7 +6,7 @@
 
 - 显示补丁文件的应用详情：
 
-`git apply --verbose {{路径/到/文件}}`
+`git apply {{[-v|--verbose]}} {{路径/到/文件}}`
 
 - 应用补丁并将修改添加到暂存区：
 
@@ -14,7 +14,7 @@
 
 - 应用远程补丁文件：
 
-`curl -L {{https://example.com/file.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://example.com/file.patch}} | git apply`
 
 - 应用远程补丁文件：
 
@@ -22,7 +22,7 @@
 
 - 反向应用补丁（撤销更改）：
 
-`git apply --reverse {{路径/到/文件}}`
+`git apply {{[-R|--reverse]}} {{路径/到/文件}}`
 
 - 将补丁结果存入暂存区但不修改工作区：
 

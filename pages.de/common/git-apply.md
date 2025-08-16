@@ -5,7 +5,7 @@
 
 - Gib Informationen über gepatchte Dateien aus:
 
-`git apply --verbose {{pfad/zu/datei}}`
+`git apply {{[-v|--verbose]}} {{pfad/zu/datei}}`
 
 - Integriere die Patch-Datei und füge sie zum Index hinzu:
 
@@ -13,7 +13,7 @@
 
 - Integriere eine externe Patch-Datei:
 
-`curl -L {{https://beispiel.de/datei.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://beispiel.de/datei.patch}} | git apply`
 
 - Gib diffstat des Inputs aus und integriere die Patch-Datei:
 
@@ -21,7 +21,7 @@
 
 - Integriere eine Patch-Datei in umgekehrter Reihenfolge:
 
-`git apply --reverse {{pfad/zu/datei}}`
+`git apply {{[-R|--reverse]}} {{pfad/zu/datei}}`
 
 - Speichere das Ergebnis einer Patch-Datei im Index, ohne den Arbeitsbaum zu verändern:
 
