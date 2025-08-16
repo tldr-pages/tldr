@@ -17,4 +17,4 @@
 
 - Download a local copy of all ArchWiki pages into a specific directory:
 
-`archwiki-rs local-wiki {{/path/to/local_wiki}} --format {{plain-text|markdown|html}}`
+`archwiki-rs local-wiki /{{path/to/local_wiki}} --format {{plain-text|markdown|html}}`

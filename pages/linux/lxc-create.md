@@ -9,7 +9,7 @@
 
 - Create a container in a target directory:
 
-`sudo lxc-create {{[-P|--lxcpath]}} {{/path/to/directory/}} {{[-n|--name]}} {{container_name}} {{[-t|--template]}} download`
+`sudo lxc-create {{[-P|--lxcpath]}} /{{path/to/directory}}/ {{[-n|--name]}} {{container_name}} {{[-t|--template]}} download`
 
 - Create a container passing options to a template:
 

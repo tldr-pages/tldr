@@ -9,4 +9,4 @@
 
 - Check any kernel for LXC support:
 
-`CONFIG={{/path/to/configuration}} lxc-checkconfig`
+`CONFIG=/{{path/to/configuration}} lxc-checkconfig`

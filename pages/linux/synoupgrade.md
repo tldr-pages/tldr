@@ -29,7 +29,7 @@
 
 - Upgrade the DSM using a patch file (should be an absolute path):
 
-`sudo synoupgrade --patch {{/path/to/file.pat}}`
+`sudo synoupgrade --patch /{{path/to/file.pat}}`
 
 - Display help:
 

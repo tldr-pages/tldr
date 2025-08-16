@@ -13,7 +13,7 @@
 
 - Build the whole site into a different directory:
 
-`zola build --output-dir {{path/to/output_directory/}}`
+`zola build --output-dir {{path/to/output_directory}}/`
 
 - Build and serve the site using a local server (default is `127.0.0.1:1111`):
 

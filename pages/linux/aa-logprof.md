@@ -9,11 +9,11 @@
 
 - Use a specific directory for AppArmor profiles:
 
-`sudo aa-logprof {{[-d|--dir]}} {{/path/to/profiles}}`
+`sudo aa-logprof {{[-d|--dir]}} /{{path/to/profiles}}`
 
 - Use a specific log file instead of the default:
 
-`sudo aa-logprof {{[-f|--file]}} {{/path/to/logfile}}`
+`sudo aa-logprof {{[-f|--file]}} /{{path/to/logfile}}`
 
 - Ignore all log entries before the specified mark:
 
