@@ -11,7 +11,7 @@
 
 - Enable or disable a completion option of a command:
 
-`compopt {{-o|+o}} {{option1}} {{-o|+o}} {{option2}}  {{command}}`
+`compopt {{-o|+o}} {{option1}} {{-o|+o}} {{option2}} {{command}}`
 
 - Print the options for the currently executing completion:
 
