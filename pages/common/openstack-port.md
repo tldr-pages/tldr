@@ -17,7 +17,7 @@
 
 - Create a port and assign it a fixed IP `192.168.1.50`:
 
-`openstack port create --network {{network_id}} --fixed-ip subnet={{subnet_id}},ip-address={{192.168.1.50}} {{port_name}}`
+`openstack port create --network {{network_id}} --fixed-ip subnet={{subnet_id}},ip-address=192.168.1.50 {{port_name}}`
 
 - Delete a port:
 
