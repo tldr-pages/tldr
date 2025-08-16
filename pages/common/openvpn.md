@@ -1,7 +1,7 @@
 # openvpn
 
 > OpenVPN client and daemon binary.
-> More information: <https://openvpn.net/>.
+> More information: <https://openvpn.net/community-docs/community-articles/openvpn-2-6-manual.html>.
 
 - Connect to server using a configuration file:
 

@@ -1,7 +1,7 @@
 # dcfldd
 
 > Enhanced version of dd for forensics and security.
-> More information: <https://dcfldd.sourceforge.net/>.
+> More information: <https://manned.org/dcfldd>.
 
 - Copy a disk to a raw image file and hash the image using SHA256:
 
