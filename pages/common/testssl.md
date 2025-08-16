@@ -1,7 +1,7 @@
 # testssl
 
 > Check SSL/TLS protocols and ciphers supported by a server.
-> More information: <https://testssl.sh/>.
+> More information: <https://testssl.sh/doc/testssl.1.html>.
 
 - Test a server (run every check) on port 443:
 
