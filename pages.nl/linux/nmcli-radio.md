@@ -1,7 +1,7 @@
 # nmcli radio
 
 > Toon de status van radioschakelaars of schakel ze in/uit via NetworkManager.
-> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Meer informatie: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#radio>.
 
 - Toon de status van Wi-Fi:
 
