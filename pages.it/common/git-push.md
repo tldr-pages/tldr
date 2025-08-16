@@ -13,7 +13,7 @@
 
 - Invia le modifiche fatte in uno specifico ramo locale al corrispondente ramo remoto ed imposta il ramo remoto come destinazione di default per i push/pull del ramo locale:
 
-`git push -u {{nome_repository_remoto}} {{nome_ramo}}`
+`git push {{[-u|--set-upstream]}} {{nome_repository_remoto}} {{nome_ramo}}`
 
 - Invia le modifiche fatte in uno specifico ramo locale ad uno specifico ramo remoto:
 
@@ -25,7 +25,7 @@
 
 - Cancella un ramo di un repository remoto:
 
-`git push {{nome_repository_remoto}} --delete {{nome_ramo_remoto}}`
+`git push {{nome_repository_remoto}} {{[-d|--delete]}} {{nome_ramo_remoto}}`
 
 - Cancella i rami remoti che non hanno un ramo locale corrispondente:
 
