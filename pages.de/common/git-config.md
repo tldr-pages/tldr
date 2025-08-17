@@ -6,15 +6,15 @@
 
 - Liste nur lokale Konfigurationseinträge (gespeichert unter `.git/config` im aktiven Repository) auf:
 
-`git config --list --local`
+`git config {{[-l|--list]}} --local`
 
 - Liste nur globale Konfigurationseinträge (gespeichert unter `~/.gitconfig`) auf:
 
-`git config --list --global`
+`git config {{[-l|--list]}} --global`
 
 - Liste nur System-Konfigurationseinträge (gespeichert unter `/etc/gitconfig`) und deren Speicherort auf:
 
-`git config --list --system --show-origin`
+`git config {{[-l|--list]}} --system --show-origin`
 
 - Gib den Wert eines bestimmten Konfigurationseintrags aus:
 
@@ -30,8 +30,8 @@
 
 - Bearbeite die Git-Konfiguration für das aktuelle Repository mit dem Standard-Editor:
 
-`git config --edit`
+`git config {{[-e|--edit]}}`
 
 - Bearbeite die globale Git-Konfiguration mit dem Standard-Editor:
 
-`git config --global --edit`
+`git config --global {{[-e|--edit]}}`
