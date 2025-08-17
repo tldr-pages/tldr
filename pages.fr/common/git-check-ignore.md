@@ -21,4 +21,4 @@
 
 - Inclure les détails pour chaque occurrence dans le chemin :
 
-`git check-ignore --verbose {{chemin/vers/fichier_ou_répertoire1 chemin/vers/fichier_ou_répertoire2 ...}}`
+`git check-ignore {{[-v|--verbose]}} {{chemin/vers/fichier_ou_répertoire1 chemin/vers/fichier_ou_répertoire2 ...}}`

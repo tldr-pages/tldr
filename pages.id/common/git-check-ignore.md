@@ -21,4 +21,4 @@
 
 - Tampilkan informasi pola pengecualian `.gitignore` yang dipakai untuk mengecualikan setiap jalur:
 
-`git check-ignore --verbose {{jalan/menuju/file_atau_direktori1 jalan/menuju/file_atau_direktori2 ...}}`
+`git check-ignore {{[-v|--verbose]}} {{jalan/menuju/file_atau_direktori1 jalan/menuju/file_atau_direktori2 ...}}`
