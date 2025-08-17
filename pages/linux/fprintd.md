@@ -16,6 +16,6 @@
 
 `tldr fprintd-verify`
 
-- View documentation for deleteting fingerprints from a database:
+- View documentation for deleting fingerprints from a database:
 
 `tldr fprintd-delete`
