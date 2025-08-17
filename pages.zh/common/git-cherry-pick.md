@@ -18,4 +18,4 @@
 
 - 将提交变更应用到工作区但不自动创建提交：
 
-`git cherry-pick --no-commit {{提交哈希}}`
+`git cherry-pick {{[-n|--no-commit]}} {{提交哈希}}`
