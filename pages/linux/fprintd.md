@@ -1,6 +1,7 @@
 # fprintd
 
 > Fingerprint management daemon.
+> `fprintd` isn't a command, but a set of commands.
 > More information: <https://fprint.freedesktop.org/>.
 
 - View documentation for listing enrolled fingerprints:
@@ -15,6 +16,6 @@
 
 `tldr fprintd-verify`
 
-- View documentation for deleteting fingerprints from a database:
+- View documentation for deleting fingerprints from a database:
 
 `tldr fprintd-delete`
