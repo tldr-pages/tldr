@@ -5,4 +5,4 @@
 
 - Open Bash in a pod, using the first container by default:
 
-`kubectl exec {{pod_name}} {{-it|--stdin --tty]}} -- bash`
+`kubectl exec {{pod_name}} {{[-it|--stdin --tty]}} -- bash`
