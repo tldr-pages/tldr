@@ -10,7 +10,7 @@
 
 - Gunakan dan komit perubahan dari file patch dari sumber dalam jaringan (online):
 
-`curl -L {{https://example.com/file.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://example.com/file.patch}} | git apply`
 
 - Batalkan proses perubahan yang dilakukan:
 

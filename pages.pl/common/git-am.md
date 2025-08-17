@@ -10,7 +10,7 @@
 
 - Zastosuj i komituj zmiany ze zdalnego pliku poprawki:
 
-`curl -L {{https://example.com/plik.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://example.com/plik.patch}} | git apply`
 
 - Przerwij proces zastosowania pliku poprawki:
 

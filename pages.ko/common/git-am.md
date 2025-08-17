@@ -10,7 +10,7 @@
 
 - 원격 패치 파일을 적용하고 커밋:
 
-`curl -L {{https://example.com/file.patch}} | git apply`
+`curl {{[-L|--location]}} {{https://example.com/file.patch}} | git apply`
 
 - 패치 파일 적용 과정 중단:
 
