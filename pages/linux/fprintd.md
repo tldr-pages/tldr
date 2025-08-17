@@ -1,6 +1,7 @@
 # fprintd
 
 > Fingerprint management daemon.
+> `fprintd` isn't a command, but a set of commands.
 > More information: <https://fprint.freedesktop.org/>.
 
 - View documentation for listing enrolled fingerprints:
