@@ -21,7 +21,7 @@
 
 - Lihat isi cabang yang bersumber dari sumber jauh (remote):
 
-`git checkout --track {{nama_remote}}/{{nama_cabang}}`
+`git checkout {{[-t|--track]}} {{nama_remote}}/{{nama_cabang}}`
 
 - Singkirkan semua perubahan yang tidak masuk status stage pada direktori saat ini (lihat `git reset` untuk perintah yang lebih mirip undo):
 

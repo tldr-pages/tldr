@@ -21,7 +21,7 @@
 
 - Basculer sur une branche distante existante :
 
-`git checkout --track {{nom_distant}}/{{nom_de_branche}}`
+`git checkout {{[-t|--track]}} {{nom_distant}}/{{nom_de_branche}}`
 
 - Annule tout les changements dans le répertoire courant (voir `git reset` pour plus de commandes d'annulation) :
 
