@@ -30,7 +30,7 @@
 
 - Voeg pakket toe als bewerkbaar:
 
-`uv add --editable {{pad/naar/pakket/}}`
+`uv add --editable {{pad/naar/pakket}}/`
 
 - Schakel een extra in bij het installeren van een pakket, deze kan meerdere keren opgegeven worden:
 

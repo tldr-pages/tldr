@@ -9,7 +9,7 @@
 
 - Gebruik een aangepaste map (standaard is `$TMPDIR`, of `/tmp`):
 
-`mktemp {{[-p |--tmpdir=]}}{{/pad/naar/tempdir}}`
+`mktemp {{[-p |--tmpdir=]}}/{{pad/naar/tempdir}}`
 
 - Gebruik een aangepast pad-sjabloon (`X`en worden vervangen door willekeurige alfanumerieke tekens):
 

@@ -29,4 +29,4 @@
 
 - Verwijder alle bestanden met een specifieke oorspronkelijke locatie:
 
-`trash-rm {{/pad/naar/bestand_of_map}}`
+`trash-rm /{{pad/naar/bestand_of_map}}`

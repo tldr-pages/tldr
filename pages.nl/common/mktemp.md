@@ -9,7 +9,7 @@
 
 - Gebruik een aangepaste map als `$TMPDIR` niet is ingesteld (de standaard is platformafhankelijk, maar meestal `/tmp`):
 
-`mktemp -p {{/pad/naar/tempdir}}`
+`mktemp -p /{{pad/naar/tempdir}}`
 
 - Gebruik een aangepast pad-sjabloon (`X`en worden vervangen door willekeurige alfanumerieke tekens):
 

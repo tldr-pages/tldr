@@ -22,7 +22,7 @@
 
 - Draag de inhoud van een map over, maar niet de map zelf:
 
-`rsync {{[-r|--recursive]}} {{pad/naar/bron/}} {{pad/naar/bestemming}}`
+`rsync {{[-r|--recursive]}} {{pad/naar/bron}}/ {{pad/naar/bestemming}}`
 
 - Gebruik archiefmodus, los symlinks op en sla bestanden over die nieuwer zijn op de bestemming:
 

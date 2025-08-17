@@ -30,3 +30,7 @@
 - Print een functie-definitie:
 
 `declare -f {{functie_naam}}`
+
+- Print een variabele-definitie:
+
+`declare -p {{variabele_naam}}`
