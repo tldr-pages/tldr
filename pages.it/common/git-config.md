@@ -6,15 +6,15 @@
 
 - Elenca solo le opzioni di configurazione locali (salvate in `.git/config` nel repository corrente):
 
-`git config --list --local`
+`git config {{[-l|--list]}} --local`
 
 - Elenca solo le opzioni di configurazione globali (salvate in `~/.gitconfig`):
 
-`git config --list --global`
+`git config {{[-l|--list]}} --global`
 
 - Elenca tutte le opzioni di configurazione impostate, sia locali che globali:
 
-`git config --list`
+`git config {{[-l|--list]}}`
 
 - Mostra il valore di una data opzione di configurazione:
 

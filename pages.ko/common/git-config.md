@@ -10,11 +10,11 @@
 
 - 개별 저장소 또는 전역 설정 항목을 나열:
 
-`git config --list --{{local|global}}`
+`git config {{[-l|--list]}} --{{local|global}}`
 
 - 시스템 설정 항목만 나열하고(저장 위치: `/etc/gitconfig`), 파일 위치를 표시:
 
-`git config --list --system --show-origin`
+`git config {{[-l|--list]}} --system --show-origin`
 
 - 주어진 설정 항목의 값을 가져오기:
 
@@ -30,8 +30,8 @@
 
 - 개별 저장소의 Git 설정(`.git/config`)을 기본 편집기에서 편집:
 
-`git config --edit`
+`git config {{[-e|--edit]}}`
 
 - 전역 Git 설정(기본적으로 `~/.gitconfig` 또는 `$XDG_CONFIG_HOME/git/config` 파일이 존재하는 경우)을 기본 편집기에서 편집:
 
-`git config --global --edit`
+`git config --global {{[-e|--edit]}}`

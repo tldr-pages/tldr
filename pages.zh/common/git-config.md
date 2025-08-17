@@ -6,15 +6,15 @@
 
 - 列出局部设置项（存储在当前仓库的 `.git/config`）：
 
-`git config --list --local`
+`git config {{[-l|--list]}} --local`
 
 - 列出全局配置项（存储在 `~/.gitconfig`）：
 
-`git config --list --global`
+`git config {{[-l|--list]}} --global`
 
 - 列出系统配置项（存储在 `/etc/gitconfig`），并且展示文件的位置：
 
-`git config --list --system --show-origin`
+`git config {{[-l|--list]}} --system --show-origin`
 
 - 获取某个配置项的值：
 
@@ -30,8 +30,8 @@
 
 - 使用默认编辑器修改本地设置：
 
-`git config --edit`
+`git config {{[-e|--edit]}}`
 
 - 使用默认编辑器修改全局设置：
 
-`git config --global --edit`
+`git config --global {{[-e|--edit]}}`
