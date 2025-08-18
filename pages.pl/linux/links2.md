@@ -1,6 +1,6 @@
 # links2
 
-> Tekstowa przeglądarka WWW.
+> Przeglądarka internetowa z wierszem poleceń i opcjonalną obsługą grafiki.
 > Zobacz także: `links`.
 > Więcej informacji: <http://links.twibright.com/>.
 
