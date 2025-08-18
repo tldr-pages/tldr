@@ -29,4 +29,4 @@
 
 - Verplaats torrents 1-10 en 15-20 naar een nieuwe map (die wordt aangemaakt als deze nog niet bestaat):
 
-`transmission-remote {{hostnaam}} {{[-t|--torrent]}} "1-10,15-20" --move /{{path/to/new_directory}}`
+`transmission-remote {{hostnaam}} {{[-t|--torrent]}} "1-10,15-20" --move /{{pad/naar/nieuwe_map}}`
