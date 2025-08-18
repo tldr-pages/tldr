@@ -9,4 +9,4 @@
 
 - Toon gebruikers van een specifieke groep:
 
-`sudo lid --group {{naam}}`
+`sudo lid --group {{groepsnaam}}`
