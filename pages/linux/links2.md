@@ -1,6 +1,6 @@
 # links2
 
-> Command-line web browser.
+> Command-line web browser with optional graphics support.
 > See also: `links`.
 > More information: <http://links.twibright.com/user_en.html#subch-browser_calibration>.
 
