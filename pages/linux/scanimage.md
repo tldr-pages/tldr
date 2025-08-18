@@ -14,3 +14,7 @@
 - Specify resolution for the scanned image (default resolution is 75):
 
 `scanimage --resolution {{300}} > {{path/to/new_image}}`
+
+- Specify the device to scan from:
+
+`scanimage {{[-d|--device]}} {{device_name}} > {{path/to/new_image}}`
