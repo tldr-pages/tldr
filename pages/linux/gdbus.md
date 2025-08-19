@@ -20,11 +20,7 @@
 
 `gdbus call --session --dest {{destination_bus_name}} --object-path /{{path/to/object}} --method {{interface.method_name}} {{argument1 argument2 ...}}`
 
-- Emit a signal from an object with one argument:
-
-`gdbus emit --session --object-path /{{path/to/object}} --signal {{interface.signal_name}} {{argument}}`
-
-- Emit a signal from an object with multiple arguments:
+- Emit a signal from an object with arguments:
 
 `gdbus emit --session --object-path /{{path/to/object}} --signal {{interface.signal_name}} {{argument1 argument2 ...}}`
 
