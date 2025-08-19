@@ -1,7 +1,7 @@
 # help2man
 
 > Produce simple man pages from an executable's `--help` and `--version` output.
-> More information: <https://www.gnu.org/software/help2man>.
+> More information: <https://www.gnu.org/software/help2man/#Invoking-help2man>.
 
 - Generate a man page for an executable:
 
