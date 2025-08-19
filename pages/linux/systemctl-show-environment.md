@@ -3,7 +3,7 @@
 > Display systemd environment blocks.
 > More information: <https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#show-environment>.
 
-- Display the environment block for system:
+- Display the environment block for the system:
 
 `systemctl show-environment`
 
