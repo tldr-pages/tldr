@@ -5,4 +5,4 @@
 
 - Guarda la documentazione del comando originale:
 
-'tldr chromium'.
+'tldr chromium'
