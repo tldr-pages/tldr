@@ -6,7 +6,7 @@
 
 - Tampilkan daftar pelaku komit menuju `stdout` daripada menuju ke file `AUTHORS`:
 
-`git authors --list`
+`git authors {{[-l|--list]}}`
 
 - Masukkan daftar pelaku komit menuju file `AUTHORS`, kemudian buka file tersebut pada aplikasi penyunting file teks default:
 

@@ -1,7 +1,7 @@
 # datamash
 
 > Perform basic numeric, textual and statistical operations on input textual data files.
-> More information: <https://www.gnu.org/software/datamash/manual/html_node/Invoking-datamash.html>.
+> More information: <https://www.gnu.org/software/datamash/manual/datamash.html#Invoking-datamash>.
 
 - Get max, min, mean and median of a single column of numbers:
 

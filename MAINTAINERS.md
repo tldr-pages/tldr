@@ -90,6 +90,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [08 April 2025](https://github.com/tldr-pages/tldr/issues/16126) — present
 - **Kristopher Sandoval ([@KristopherLeads](https://github.com/KristopherLeads))**:
   [29 June 2025](https://github.com/tldr-pages/tldr/issues/17024) — present
+- **Harshavardhan ([@TheRootDaemon](https://github.com/TheRootDaemon))**:
+  [17 August 2025](https://github.com/tldr-pages/tldr/issues/17708) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):

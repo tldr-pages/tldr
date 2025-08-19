@@ -2,7 +2,7 @@
 
 > Easily build KDE components from its source repositories.
 > Drop-in replacement for `kdesrc-build`.
-> More information: <https://kde-builder.kde.org/en/cmdline/cmdline-usage.html>.
+> More information: <https://kde-builder.kde.org/en/cmdline/supported-cmdline-params.html>.
 
 - Initialize `kde-builder`:
 
@@ -28,9 +28,9 @@
 
 `kde-builder --run {{executable_name}}`
 
-- Build all configured components:
+- Install login session:
 
-`kde-builder`
+`kde-builder --install-login-session-only`
 
 - Use system libraries in place of a component if it fails to build:
 

@@ -29,7 +29,7 @@
 
 - Find out which package owns a file:
 
-`opkg search {{/path/to/file}}`
+`opkg search /{{path/to/file}}`
 
 - List all files belonging to a package:
 

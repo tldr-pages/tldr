@@ -1,7 +1,7 @@
 # tqdm
 
 > Show progress over time of a command.
-> More information: <https://tqdm.github.io/>.
+> More information: <https://tqdm.github.io/docs/cli/>.
 
 - Show iterations per second and use `stdout` afterwards:
 

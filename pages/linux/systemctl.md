@@ -1,6 +1,7 @@
 # systemctl
 
 > Control the systemd system and service manager.
+> Some subcommands such as `disable`, `status`, `reboot` etc. have their own usage documentation.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
 
 - Show all running services:

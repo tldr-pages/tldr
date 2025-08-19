@@ -1,7 +1,7 @@
 # tofu
 
 > Create and deploy infrastructure as code to cloud providers. Open-source fork of Terraform.
-> More information: <https://opentofu.org/>.
+> More information: <https://opentofu.org/docs/cli/commands/>.
 
 - Initialize a new or existing OpenTofu configuration:
 

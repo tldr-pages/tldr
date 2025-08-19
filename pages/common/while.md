@@ -5,7 +5,7 @@
 
 - Read `stdin` and perform an action on every line:
 
-`while read line; do echo "$line"; done`
+`while read line; do {{echo "$line"}}; done`
 
 - Execute a command forever once every second:
 

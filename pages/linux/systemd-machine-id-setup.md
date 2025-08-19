@@ -18,4 +18,4 @@
 
 - Operate on a disk image instead of a directory tree:
 
-`systemd-machine-id-setup --image {{/path/to/image}}`
+`systemd-machine-id-setup --image /{{path/to/image}}`

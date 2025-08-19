@@ -9,7 +9,7 @@
 
 - Merge profile files into a specific directory:
 
-`sudo aa-mergeprof {{[-d|--dir]}} {{/path/to/profiles}} {{file1 file2 ...}}`
+`sudo aa-mergeprof {{[-d|--dir]}} /{{path/to/profiles}} {{file1 file2 ...}}`
 
 - Display help:
 

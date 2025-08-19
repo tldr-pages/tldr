@@ -18,3 +18,11 @@
 - List downloaded templates:
 
 `pveam {{[l|list]}} {{local}}`
+
+- List available templates in a specific section:
+
+`pveam {{[a|available]}} --section {{system|turnkeylinux|mail}}`
+
+- Remove a template:
+
+`pveam {{[r|remove]}} {{local}}:{{vztmpl}}/{{template_name}}`

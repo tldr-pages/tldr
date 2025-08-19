@@ -11,7 +11,7 @@
 
 - Add a medium from a hard drive (run `genhdlist2` in the directory first):
 
-`sudo urpmi.addmedia --distrib HD file:/{{/path/to/repo}}`
+`sudo urpmi.addmedia --distrib HD file://{{path/to/repo}}`
 
 - Add important media from a chosen mirror:
 

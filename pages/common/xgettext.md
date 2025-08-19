@@ -1,7 +1,7 @@
 # xgettext
 
 > Extract gettext strings from code files.
-> More information: <https://www.gnu.org/software/gettext/manual/html_node/xgettext-Invocation.html>.
+> More information: <https://www.gnu.org/software/gettext/manual/gettext.html#xgettext-Invocation>.
 
 - Scan file and output strings to `messages.po`:
 

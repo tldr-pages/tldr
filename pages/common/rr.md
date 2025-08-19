@@ -1,7 +1,7 @@
 # rr
 
 > Debugging tool designed to record and replay program execution.
-> More information: <https://rr-project.org/>.
+> More information: <https://github.com/rr-debugger/rr/wiki/Usage>.
 
 - Record an application:
 

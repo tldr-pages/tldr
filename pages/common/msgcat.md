@@ -2,7 +2,7 @@
 
 > Concatenate and merge multiple `.po` translation files.
 > Useful in software localization pipelines to combine message catalogs with filtering options.
-> More information: <https://www.gnu.org/software/gettext/manual/html_node/msgcat-Invocation.html>.
+> More information: <https://www.gnu.org/software/gettext/manual/gettext.html#msgcat-Invocation>.
 
 - Combine multiple `.po` files into one:
 

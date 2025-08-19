@@ -1,7 +1,7 @@
 # hello
 
 > Print "Hello, world!", "hello, world" or a customizable text.
-> More information: <https://www.gnu.org/software/hello/manual/html_node/Invoking-hello.html>.
+> More information: <https://www.gnu.org/software/hello/manual/hello.html#Invoking-hello>.
 
 - Print "Hello, world!":
 

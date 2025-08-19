@@ -6,20 +6,20 @@
 
 - Unmount a filesystem, by passing the path to the source it is mounted from:
 
-`umount {{path/to/device_file}}`
+`sudo umount {{path/to/device_file}}`
 
 - Unmount a filesystem, by passing the path to the target where it is mounted:
 
-`umount {{path/to/mounted_directory}}`
+`sudo umount {{path/to/mounted_directory}}`
 
 - When an unmount fails, try to remount the filesystem read-only:
 
-`umount {{[-r|--read-only]}} {{path/to/mounted_directory}}`
+`sudo umount {{[-r|--read-only]}} {{path/to/mounted_directory}}`
 
 - Recursively unmount each specified directory:
 
-`umount {{[-R|--recursive]}} {{path/to/mounted_directory}}`
+`sudo umount {{[-R|--recursive]}} {{path/to/mounted_directory}}`
 
 - Unmount all mounted filesystems (except the `proc` filesystem):
 
-`umount {{[-a|--all]}}`
+`sudo umount {{[-a|--all]}}`

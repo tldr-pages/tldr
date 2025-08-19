@@ -14,7 +14,7 @@
 
 - View images [r]ecursively from a path:
 
-`imv -r --slideshow {{path/to/path}}`
+`imv -r --slideshow {{path/to/directory}}`
 
 - Open multiple images via `stdin`:
 

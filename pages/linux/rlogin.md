@@ -1,7 +1,7 @@
 # rlogin
 
 > Log in to a remote host.
-> More information: <https://www.gnu.org/software/inetutils/manual/html_node/rlogin-invocation.html>.
+> More information: <https://www.gnu.org/software/inetutils/manual/inetutils.html#rlogin-invocation>.
 
 - Log in to a remote host:
 
