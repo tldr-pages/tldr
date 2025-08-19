@@ -23,7 +23,7 @@
 
 - Transfer local file to the remote system:
 
-`put /{{path/local_file}}`
+`put {{path/local_file}}`
 
 - Transfer remote directory to the local system recursively (works with `put` too):
 
