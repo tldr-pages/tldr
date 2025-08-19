@@ -16,11 +16,7 @@
 
 `gdbus introspect --session --dest {{destination_bus_name}} --object-path /{{path/to/object}}`
 
-- Call a method on an object with one argument:
-
-`gdbus call --session --dest {{destination_bus_name}} --object-path /{{path/to/object}} --method {{interface.method_name}} {{argument}}`
-
-- Call a method on an object with multiple arguments:
+- Call a method on an object with arguments:
 
 `gdbus call --session --dest {{destination_bus_name}} --object-path /{{path/to/object}} --method {{interface.method_name}} {{argument1 argument2 ...}}`
 
