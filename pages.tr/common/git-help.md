@@ -17,7 +17,7 @@
 
 - Mevcut rehberleri sırala:
 
-`git help {{[-g|--guide]}}`
+`git help {{[-g|--guides]}}`
 
 - Mümkün olan tüm konfigürasyon değişkenlerini sırala:
 

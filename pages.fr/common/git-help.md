@@ -17,7 +17,7 @@
 
 - Lister les manuels disponibles :
 
-`git help {{[-g|--guide]}}`
+`git help {{[-g|--guides]}}`
 
 - Lister toutes les variables de configuration disponibles :
 
