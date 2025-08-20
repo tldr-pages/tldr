@@ -34,4 +34,4 @@
 
 - Download all URLs stored in a text file to a specific directory:
 
-`wget {{[-P|--directory-prefix]}} {{path/to/directory}} {{[-i|--input-file]}} {{URLs.txt}}`
+`wget {{[-P|--directory-prefix]}} {{path/to/directory}} {{[-i|--input-file]}} {{path/to/URLs.txt}}`

@@ -14,15 +14,15 @@
 
 - Download één webpagina en alle bijbehorende bronnen met een interval van 3 seconden tussen verzoeken (scripts, stylesheets, afbeeldingen, etc.):
 
-`wget {{[-pkw|--page-requisites --convert-links --wait]}} 3 {{https://example.com/somepage.html}}`
+`wget {{[-pkw|--page-requisites --convert-links --wait]}} 3 {{https://example.com/eenpagina.html}}`
 
 - Download alle vermelde bestanden binnen een map en zijn submappen (downloadt geen embedded pagina-elementen):
 
-`wget {{[-mnp|--mirror --no-parent]}} {{https://example.com/somepath/}}`
+`wget {{[-mnp|--mirror --no-parent]}} {{https://example.com/eenpad/}}`
 
 - Beperk de downloadsnelheid en het aantal verbindingspogingen:
 
-`wget --limit-rate {{300k}} {{[-t|--tries]}} {{100}} {{https://example.com/somepath/}}`
+`wget --limit-rate {{300k}} {{[-t|--tries]}} {{100}} {{https://example.com/eenpad/}}`
 
 - Download een bestand van een HTTP-server met behulp van Basic Auth (werkt ook met FTP):
 
