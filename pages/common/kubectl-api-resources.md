@@ -27,4 +27,3 @@
 
 `kubectl api-resources --api-group=extensions`
 
-

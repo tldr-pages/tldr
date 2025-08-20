@@ -14,4 +14,3 @@
 - Auto scale a replication controller with target CPU utilization at 80%:
 
 `kubectl autoscale rc foo --max=5 --cpu-percent=80`
-
