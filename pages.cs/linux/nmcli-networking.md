@@ -1,7 +1,7 @@
 # nmcli networking
 
 > Spravuje síťový stav NetworkManageru.
-> Více informací: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Více informací: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#networking>.
 
 - Zobrazit síťový stav NetworkManageru:
 

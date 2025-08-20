@@ -1,7 +1,7 @@
 # nmcli agent
 
 > Spouští `nmcli` jako skrytý nebo polkit NetworkManager agent.
-> Více informací: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Více informací: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#agent>.
 
 - Registrovat `nmcli` jako skrytý agent a poslouchat tajné žádosti:
 

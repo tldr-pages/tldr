@@ -1,7 +1,7 @@
 # nmcli radio
 
 > Zobrazit stav rádiových přepínačů nebo je povolit/zakázat pomocí NetworkManageru.
-> Více informací: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html>.
+> Více informací: <https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html#radio>.
 
 - Zobrazit stav Wi-Fi:
 
