@@ -1,7 +1,7 @@
 # gdb
 
 > The GNU Debugger.
-> More information: <https://www.gnu.org/software/gdb>.
+> More information: <https://sourceware.org/gdb/current/onlinedocs/gdb#Invocation>.
 
 - Debug an executable:
 
