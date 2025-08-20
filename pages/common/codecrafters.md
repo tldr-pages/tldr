@@ -1,7 +1,7 @@
 # codecrafters
 
 > Practice writing complex software.
-> More information: <https://codecrafters.io/>.
+> More information: <https://docs.codecrafters.io/cli/usage>.
 
 - Run tests without committing changes:
 

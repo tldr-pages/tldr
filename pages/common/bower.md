@@ -2,7 +2,7 @@
 
 > A package manager optimized for front-end web development.
 > A package can be a GitHub user/repo shorthand, a Git endpoint, a URL or a registered package.
-> More information: <https://bower.io/>.
+> More information: <https://bower.io/#getting-started>.
 
 - Install a project's dependencies, listed in its bower.json:
 

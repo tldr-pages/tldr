@@ -9,16 +9,16 @@
 
 - Visualizza aiuto per un sottocomando Git in un browser web:
 
-`git help --web {{sottocomando}}`
+`git help {{[-w|--web]}} {{sottocomando}}`
 
 - Mostra un elenco dei sottocomandi Git disponibili:
 
-`git help --all`
+`git help {{[-a|--all]}}`
 
 - Mostra un elenco delle guide disponibili:
 
-`git help --guide`
+`git help {{[-g|--guides]}}`
 
 - Mostra tutte le possibili variabili di configurazione:
 
-`git help --config`
+`git help {{[-c|--config]}}`

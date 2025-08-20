@@ -22,7 +22,7 @@
 
 - Transfer directory contents, but not the directory itself:
 
-`rsync {{[-r|--recursive]}} {{path/to/source/}} {{path/to/destination}}`
+`rsync {{[-r|--recursive]}} {{path/to/source}}/ {{path/to/destination}}`
 
 - Use archive mode, resolve symlinks, and skip files that are newer on the destination:
 

@@ -2,7 +2,7 @@
 
 > Template-based static site generator. Uses modules, components, and themes.
 > Some subcommands such as `server` have their own usage documentation.
-> More information: <https://gohugo.io>.
+> More information: <https://gohugo.io/commands/>.
 
 - Create a new Hugo site:
 

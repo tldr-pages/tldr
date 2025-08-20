@@ -21,7 +21,7 @@
 
 - Delete all deployments and services in a specified namespace:
 
-`kubectl delete {{[deploy|deployment]}},{{[svcľservices]}} --all {{[-n|--namespace]}} {{namespace}}`
+`kubectl delete {{[deploy|deployment]}},{{[svc|services]}} --all {{[-n|--namespace]}} {{namespace}}`
 
 - Delete all nodes:
 

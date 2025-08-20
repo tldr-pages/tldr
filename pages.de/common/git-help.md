@@ -9,16 +9,16 @@
 
 - Zeige Hilfe für einen bestimmten Git-Unterbefehl im Web-Browser an:
 
-`git help --web {{unterbefehl}}`
+`git help {{[-w|--web]}} {{unterbefehl}}`
 
 - Zeige eine Liste von allen verfügbaren Git-Unterbefehlen an:
 
-`git help --all`
+`git help {{[-a|--all]}}`
 
 - Liste die verfügbaren Handbücher auf:
 
-`git help --guide`
+`git help {{[-g|--guides]}}`
 
 - Liste alle Konfigurationsvariablen auf:
 
-`git help --config`
+`git help {{[-c|--config]}}`

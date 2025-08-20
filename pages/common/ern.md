@@ -13,7 +13,7 @@
 
 - Create an Electrode Native container:
 
-`ern create-container --miniapps {{/path/to/miniapp_directory}} --platform {{ios|android}}`
+`ern create-container --miniapps /{{path/to/miniapp_directory}} --platform {{ios|android}}`
 
 - Publish an Electrode Native container to a local Maven repository:
 

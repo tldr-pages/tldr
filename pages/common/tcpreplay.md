@@ -1,7 +1,7 @@
 # tcpreplay
 
 > Replay network traffic stored in a `pcap` file.
-> More information: <https://tcpreplay.appneta.com/>.
+> More information: <https://tcpreplay.appneta.com/wiki/tcpreplay-man.html>.
 
 - List available network interfaces:
 

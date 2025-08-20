@@ -9,4 +9,4 @@
 
 - List users of a specific group:
 
-`sudo lid --group {{name}}`
+`sudo lid --group {{group_name}}`

@@ -2,7 +2,7 @@
 
 > CLI client for Mullvad VPN.
 > See also: `fastd`, `ivpn`, `mozillavpn`, `warp-cli`.
-> More information: <https://mullvad.net/>.
+> More information: <https://mullvad.net/en/help/how-use-mullvad-cli>.
 
 - Link your Mullvad account with the specified account number:
 
