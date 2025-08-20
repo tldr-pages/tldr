@@ -2,7 +2,7 @@
 
 > Download bestanden vanaf het internet.
 > Ondersteunt HTTP, HTTPS en FTP.
-> More information: <https://www.gnu.org/software/wget/manual/wget.html>.
+> Meer informatie: <https://www.gnu.org/software/wget/manual/wget.html>.
 
 - Download de inhoud van een URL naar een bestand (in dit geval genaamd "foo"):
 
@@ -34,4 +34,4 @@
 
 - Download alle URL's die zijn opgeslagen in een tekstbestand naar een specifieke map:
 
-`wget {{[-P|--directory-prefix]}} {{pad/naar/map}} {{[-i|--input-file]}} {{URLs.txt}}`
+`wget {{[-P|--directory-prefix]}} {{pad/naar/map}} {{[-i|--input-file]}} {{pad/naar/URLs.txt}}`
