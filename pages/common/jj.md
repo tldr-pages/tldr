@@ -6,7 +6,7 @@
 
 - Update description of the revisions specified by given revsets (e.g. `B::D`, `A..D`, `B|C|D`, etc.):
 
-`jj {{[desc|describe]}} {{[-r|--revision]}} {{revsets}}`
+`jj describe {{[-m|--message]}} "{{message}}" {{[-r|--revision]}} {{revsets}}`
 
 - Create a new commit/revision on top of a given revision:
 
