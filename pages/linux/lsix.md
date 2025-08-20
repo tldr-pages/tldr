@@ -1,8 +1,16 @@
 # lsix
 
-> Convert images to sixel format and display them on the terminal.
+> List and display images in sixel format on the terminal.
 > See also: `img2sixel`.
 > More information: <https://github.com/hackerb9/lsix>.
+
+- List images in the current directory:
+
+`lsix`
+
+- List iamges in a specific directory:
+
+`lsix {{path/to/directory}}`
 
 - Display an image on the terminal:
 
