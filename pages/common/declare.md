@@ -30,3 +30,7 @@
 - Print a function definition:
 
 `declare -f {{function_name}}`
+
+- Print a variable definition:
+
+`declare -p {{variable_name}}`

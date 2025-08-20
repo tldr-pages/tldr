@@ -17,4 +17,4 @@
 
 - Export a copy of the entire tree at the last commit to the specified directory (the trailing slash is important):
 
-`git checkout-index {{[-a|--all]}} {{[-f|--force]}} --prefix {{path/to/export_directory/}}`
+`git checkout-index {{[-a|--all]}} {{[-f|--force]}} --prefix {{path/to/export_directory}}/`

@@ -13,7 +13,7 @@
 
 - Lade den aktuellen Branch in ein entferntes Repository mit Angabe des Namens des entfernten Branches hoch:
 
-`git push -u {{remote_name}} {{remote_branch}}`
+`git push {{[-u|--set-upstream]}} {{remote_name}} {{remote_branch}}`
 
 - Lade Änderungen eines bestimmten lokalen Branches zu einem bestimmten entfernten Branch hoch:
 
@@ -25,7 +25,7 @@
 
 - Lösche einen Branch in einem entfernten Repository:
 
-`git push {{remote_name}} --delete {{remote_branch}}`
+`git push {{remote_name}} {{[-d|--delete]}} {{remote_branch}}`
 
 - Entferne alle remote Branches, welche kein lokales Gegenstück besitzen:
 

@@ -1,4 +1,4 @@
-# choco-push
+# choco push
 
 > Push een gecompileerd NuGet pakket (`nupkg`) naar een pakketfeed.
 > Meer informatie: <https://docs.chocolatey.org/en-us/create/commands/push>.

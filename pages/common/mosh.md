@@ -26,4 +26,4 @@
 
 - Usage when `mosh-server` binary is outside standard path:
 
-`mosh --server={{path/to/bin/}}mosh-server {{remote_host}}`
+`mosh --server={{path/to/mosh-server}} {{remote_host}}`

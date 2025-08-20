@@ -1,7 +1,7 @@
 # hg pull
 
 > Pull changes from a specified repository to the local repository.
-> More information: <https://www.mercurial-scm.org/doc/hg.1.html#pull>.
+> More information: <https://www.mercurial-scm.org/help/commands/pull>.
 
 - Pull from the "default" source path:
 

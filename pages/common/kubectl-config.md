@@ -17,6 +17,10 @@
 
 `kubectl config current-context`
 
+- Set the default namespace of the current context:
+
+`kubectl config set-context --current --namespace {{namespace}}`
+
 - Switch to another context:
 
 `kubectl config {{use|use-context}} {{context_name}}`

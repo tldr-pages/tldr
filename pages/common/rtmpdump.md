@@ -1,7 +1,7 @@
 # rtmpdump
 
 > Dump media content streamed over the RTMP protocol.
-> More information: <https://rtmpdump.mplayerhq.hu/>.
+> More information: <https://rtmpdump.mplayerhq.hu/rtmpdump.1.html>.
 
 - Download a file:
 

@@ -1,20 +1,20 @@
-# apt-add-repository
+# add-apt-repository
 
 > Zarządzaj definicjami repozytoriów `apt`.
-> Więcej informacji: <https://manned.org/apt-add-repository.1>.
+> Więcej informacji: <https://manned.org/add-apt-repository>.
 
 - Dodaj nowe repozytorium `apt`:
 
-`apt-add-repository {{specyfikacja_repozytorium}}`
+`add-apt-repository {{specyfikacja_repozytorium}}`
 
 - Usuń repozytorium `apt`:
 
-`apt-add-repository --remove {{specyfikacja_repozytorium}}`
+`add-apt-repository {{[-r|--remove]}} {{specyfikacja_repozytorium}}`
 
 - Zaktualizuj pamięć podręczną pakietów po dodaniu repozytorium:
 
-`apt-add-repository --update {{specyfikacja_repozytorium}}`
+`add-apt-repository --update {{specyfikacja_repozytorium}}`
 
 - Pozwól na pobieranie pakietów źródłowych z podanego repozytorium:
 
-`apt-add-repository --enable-source {{specyfikacja_repozytorium}}`
+`add-apt-repository {{[-s|--enable-source]}} {{specyfikacja_repozytorium}}`

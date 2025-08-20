@@ -1,7 +1,7 @@
 # hg log
 
 > 저장소의 수정 내역을 표시.
-> 더 많은 정보: <https://www.mercurial-scm.org/doc/hg.1.html#log>.
+> 더 많은 정보: <https://www.mercurial-scm.org/help/commands/log>.
 
 - 저장소의 전체 수정 내역 표시:
 

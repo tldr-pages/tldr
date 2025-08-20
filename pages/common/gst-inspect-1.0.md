@@ -9,15 +9,15 @@
 
 - List hardware transcoding capabilities of your device:
 
-`gst-inspect-1.0 {{vaapi|nvcodec}}`
+`gst-inspect-1.0 {{vaapi|nvcodec|...}}`
 
 - List available container plugins:
 
-`gst-inspect-1.0 {{matroska|avi|ogg|isomp4}}`
+`gst-inspect-1.0 {{matroska|avi|ogg|isomp4|...}}`
 
 - List available audio codecs:
 
-`gst-inspect-1.0 {{opus|vorbis|flac}}`
+`gst-inspect-1.0 {{opus|vorbis|flac|...}}`
 
 - List GStreamer core elements:
 
@@ -25,11 +25,11 @@
 
 - List plugins that utilize graphics APIs:
 
-`gst-inspect-1.0 {{vulkan|opengl}}`
+`gst-inspect-1.0 {{vulkan|opengl|...}}`
 
 - List available image codecs:
 
-`gst-inspect-1.0 {{png|jpeg}}`
+`gst-inspect-1.0 {{png|jpeg|...}}`
 
 - List all available plugins:
 

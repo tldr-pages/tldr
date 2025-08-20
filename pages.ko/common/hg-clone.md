@@ -1,7 +1,7 @@
 # hg clone
 
 > 기존 저장소의 복사본을 새 디렉터리에 생성.
-> 더 많은 정보: <https://www.mercurial-scm.org/doc/hg.1.html#clone>.
+> 더 많은 정보: <https://www.mercurial-scm.org/help/commands/clone>.
 
 - 저장소를 지정한 디렉터리에 클론:
 

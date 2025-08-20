@@ -9,11 +9,11 @@
 
 - Specify a custom directory for profiles:
 
-`sudo aa-genprof {{[-d|--dir]}} {{/path/to/profiles}} {{program_path}}`
+`sudo aa-genprof {{[-d|--dir]}} /{{path/to/profiles}} {{program_path}}`
 
 - Specify a custom logfile for profiling:
 
-`sudo aa-genprof {{[-f|--file]}} {{/path/to/logfile}} {{program_path}}`
+`sudo aa-genprof {{[-f|--file]}} /{{path/to/logfile}} {{program_path}}`
 
 - Display help:
 

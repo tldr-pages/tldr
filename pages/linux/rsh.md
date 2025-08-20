@@ -1,7 +1,7 @@
 # rsh
 
 > Execute commands on a remote host.
-> More information: <https://www.gnu.org/software/inetutils/manual/html_node/rsh-invocation.html>.
+> More information: <https://www.gnu.org/software/inetutils/manual/inetutils.html#rsh-invocation>.
 
 - Execute a command on a remote host:
 

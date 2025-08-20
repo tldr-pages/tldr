@@ -9,16 +9,16 @@
 
 - 웹 브라우저에서 특정 Git 하위 명령에 대한 도움말 표시:
 
-`git help --web {{하위_명령}}`
+`git help {{[-w|--web]}} {{하위_명령}}`
 
 - 사용 가능한 모든 Git 하위 명령의 목록 표시:
 
-`git help --all`
+`git help {{[-a|--all]}}`
 
 - 사용 가능한 가이드 목록 표시:
 
-`git help --guide`
+`git help {{[-g|--guides]}}`
 
 - 모든 가능한 설정 변수 나열:
 
-`git help --config`
+`git help {{[-c|--config]}}`

@@ -1,7 +1,7 @@
 # hg serve
 
 > 리포지토리를 탐색하기 위한 독립형 Mercurial 웹 서버 시작.
-> 더 많은 정보: <https://www.mercurial-scm.org/doc/hg.1.html#serve>.
+> 더 많은 정보: <https://www.mercurial-scm.org/help/commands/serve>.
 
 - 웹 서버 인스턴스 시작:
 

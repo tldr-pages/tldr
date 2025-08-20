@@ -1,7 +1,7 @@
 # hg pull
 
 > 지정된 저장소에서 로컬 저장소로 변경 사항을 가져옵니다.
-> 더 많은 정보: <https://www.mercurial-scm.org/doc/hg.1.html#pull>.
+> 더 많은 정보: <https://www.mercurial-scm.org/help/commands/pull>.
 
 - "기본" 소스 경로에서 가져오기:
 

@@ -1,7 +1,7 @@
 # cryfs
 
 > A cryptographic filesystem for the cloud.
-> More information: <https://www.cryfs.org/>.
+> More information: <https://manned.org/cryfs>.
 
 - Mount an encrypted filesystem. The initialization wizard will be started on the first execution:
 

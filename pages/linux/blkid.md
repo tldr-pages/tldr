@@ -13,4 +13,4 @@
 
 - Get the UUID of the filesystem on a partition:
 
-`blkid {{[-s|--match-tag]}} UUID {{[-o|--output]}} value {{/dev/sdXY}}`
+`sudo blkid {{[-s|--match-tag]}} UUID {{[-o|--output]}} value {{/dev/sdXY}}`

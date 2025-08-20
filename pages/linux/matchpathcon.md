@@ -6,12 +6,12 @@
 
 - Lookup the persistent security context setting of an absolute path:
 
-`matchpathcon {{/path/to/file}}`
+`matchpathcon /{{path/to/file}}`
 
 - Restrict lookup to settings on a specific file type:
 
-`matchpathcon -m {{file|dir|pipe|chr_file|blk_file|lnk_file|sock_file}} {{/path/to/file}}`
+`matchpathcon -m {{file|dir|pipe|chr_file|blk_file|lnk_file|sock_file}} /{{path/to/file}}`
 
 - [V]erify that the persistent and current security context of a path agree:
 
-`matchpathcon -V {{/path/to/file}}`
+`matchpathcon -V /{{path/to/file}}`
