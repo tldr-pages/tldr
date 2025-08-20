@@ -26,4 +26,3 @@
 - Print the supported API resources with a specific APIGroup:
 
 `kubectl api-resources --api-group=extensions`
-
