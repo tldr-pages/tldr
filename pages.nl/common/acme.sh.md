@@ -6,7 +6,7 @@
 
 - Geef een certificaat uit met behulp van de webroot-modus:
 
-`acme.sh --issue {{[-d|--domain]}} {{example.com}} {{[-w|--webroot]}} {{/pad/naar/webroot}}`
+`acme.sh --issue {{[-d|--domain]}} {{example.com}} {{[-w|--webroot]}} /{{pad/naar/webroot}}`
 
 - Geef een certificaat uit voor meerdere domeinen in de zelfstandige modus met poort 80:
 
@@ -30,4 +30,4 @@
 
 - Installeer certificaatbestanden op de opgegeven locaties (handig voor automatische certificaatvernieuwing):
 
-`acme.sh {{[-i|--install-cert]}} {{[-d|--domain]}} {{example.com}} --key-file {{/pad/naar/example.key}} --fullchain-file {{/pad/naar/example.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`
+`acme.sh {{[-i|--install-cert]}} {{[-d|--domain]}} {{example.com}} --key-file /{{pad/naar/example.com.key}} --fullchain-file /{{pad/naar/example.com.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`

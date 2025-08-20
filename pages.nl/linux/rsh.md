@@ -1,7 +1,7 @@
 # rsh
 
 > Voer commando's uit op een externe host.
-> Meer informatie: <https://www.gnu.org/software/inetutils/manual/html_node/rsh-invocation.html>.
+> Meer informatie: <https://www.gnu.org/software/inetutils/manual/inetutils.html#rsh-invocation>.
 
 - Voer een commando uit op een externe host:
 

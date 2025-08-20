@@ -2,7 +2,7 @@
 
 > Automatisch bug rapportage hulpmiddel voor Fedora-gebaseerde systemen.
 > Gebruikt om applicatie crashes te detecteren, analyseren en rapporteren.
-> Meer informatie: <https://abrt.readthedocs.io/>.
+> Meer informatie: <https://abrt.readthedocs.io/en/latest/usage.html>.
 
 - Lijst van gedetecteerde problemen:
 
