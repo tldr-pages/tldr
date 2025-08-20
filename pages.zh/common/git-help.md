@@ -9,16 +9,16 @@
 
 - 在网络浏览器中显示指定 Git 子命令的帮助信息：
 
-`git help --web {{subcommand}}`
+`git help {{[-w|--web]}} {{subcommand}}`
 
 - 列出所有可用的 Git 子命令：
 
-`git help --all`
+`git help {{[-a|--all]}}`
 
 - 列出可用的指南：
 
-`git help --guide`
+`git help {{[-g|--guides]}}`
 
 - 列出所有配置变量的名称：
 
-`git help --config`
+`git help {{[-c|--config]}}`
