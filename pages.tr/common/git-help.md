@@ -9,16 +9,16 @@
 
 - Belirtilmiş Git alt komutu hakkında yardım bilgisini bir ağ tarayıcısında göster:
 
-`git help --web {{komut_ismi}}`
+`git help {{[-w|--web]}} {{komut_ismi}}`
 
 - Tüm mevcut Git alt komutlarını sırala:
 
-`git help --all`
+`git help {{[-a|--all]}}`
 
 - Mevcut rehberleri sırala:
 
-`git help --guide`
+`git help {{[-g|--guides]}}`
 
 - Mümkün olan tüm konfigürasyon değişkenlerini sırala:
 
-`git help --config`
+`git help {{[-c|--config]}}`
