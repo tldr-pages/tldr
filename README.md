@@ -64,10 +64,10 @@ SunOS, Android, Windows, and Cisco IOS command-line tools.
 > see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
 
 A popular and convenient way to access these pages on your computer
-is to install the official [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via [pip3](https://pypi.org/project/tldr/) (or [other package managers](https://github.com/tldr-pages/tldr-python-client#installation)):
+is to install the official [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via [pipx](https://pypi.org/project/tldr/) (or [other package managers](https://github.com/tldr-pages/tldr-python-client#installation)):
 
 ```shell
-pip3 install tldr
+pipx install tldr
 ```
 
 Linux and Mac users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc)
