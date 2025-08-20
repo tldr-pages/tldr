@@ -1,8 +1,8 @@
 # links2
 
-> Tekstowa przeglądarka WWW.
+> Przeglądarka internetowa w wierszu poleceń z opcjonalną obsługą grafiki.
 > Zobacz także: `links`.
-> Więcej informacji: <http://links.twibright.com/>.
+> Więcej informacji: <http://links.twibright.com/user_en.html#subch-browser_calibration>.
 
 - Odwiedź stronę w trybie graficznym:
 
