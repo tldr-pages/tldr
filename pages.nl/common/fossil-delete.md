@@ -1,7 +1,17 @@
 # fossil delete
 
-> Dit commando is een alias van `fossil rm`.
+> Verwijder bestanden of mappen uit Fossil-versiebeheer.
+> Zie ook: `fossil forget`.
+> Meer informatie: <https://fossil-scm.org/home/help/rm>.
 
-- Bekijk de documentatie van het originele commando:
+- Verwijder een bestand of map uit Fossil-versiebeheer:
 
-`tldr fossil rm`
+`fossil {{[rm|delete]}} {{pad/naar/bestand_of_map}}`
+
+- Een bestand of map verwijderen uit Fossil-versiebeheer en ook van de schijf verwijderen:
+
+`fossil {{[rm|delete]}} --hard {{pad/naar/bestand_of_map}}`
+
+- Alle eerder verwijderde en niet-vastgelegde bestanden opnieuw toevoegen aan Fossil-versiebeheer:
+
+`fossil {{[rm|delete]}} --reset`

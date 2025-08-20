@@ -5,11 +5,11 @@
 
 - Voeg een torrentbestand of magnet-link toe aan Transmission en download naar een opgegeven map:
 
-`transmission-remote {{hostnaam}} {{[-a|--all]}} {{torrent|url}} {{[-w|--download-dir]}} {{/pad/naar/download_map}}`
+`transmission-remote {{hostnaam}} {{[-a|--all]}} {{torrent|url}} {{[-w|--download-dir]}} /{{pad/naar/download_map}}`
 
 - Verander de standaard downloadmap:
 
-`transmission-remote {{hostnaam}} {{[-w|--download-dir]}} {{/pad/naar/download_map}}`
+`transmission-remote {{hostnaam}} {{[-w|--download-dir]}} /{{pad/naar/download_map}}`
 
 - Toon alle torrents:
 
@@ -29,4 +29,4 @@
 
 - Verplaats torrents 1-10 en 15-20 naar een nieuwe map (die wordt aangemaakt als deze nog niet bestaat):
 
-`transmission-remote {{hostnaam}} {{[-t|--torrent]}} "1-10,15-20" --move {{/path/to/new_directory}}`
+`transmission-remote {{hostnaam}} {{[-t|--torrent]}} "1-10,15-20" --move /{{pad/naar/nieuwe_map}}`

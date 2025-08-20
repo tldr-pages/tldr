@@ -6,20 +6,20 @@
 
 - Koppel een bestandssysteem los door het pad op te geven van de bron waarop het gemount is:
 
-`umount {{pad/naar/apparaat_bestand}}`
+`sudo umount {{pad/naar/apparaat_bestand}}`
 
 - Koppel een bestandssysteem los door het pad op te geven waarop het gemount is:
 
-`umount {{pad/naar/gemounte_map}}`
+`sudo umount {{pad/naar/gemounte_map}}`
 
 - Als het loskoppelen faalt, probeer het bestandssysteem dan opnieuw te koppelen in leesmodus:
 
-`umount {{[-r|--read-only]}} {{pad/naar/gemounte_map}}`
+`sudo umount {{[-r|--read-only]}} {{pad/naar/gemounte_map}}`
 
 - Koppel ieder gespecificeerde map recursief los:
 
-`umount {{[-R|--recursive]}} {{pad/naar/gemounte_map}}`
+`sudo umount {{[-R|--recursive]}} {{pad/naar/gemounte_map}}`
 
 - Koppel alle gemounte bestandssystemen los (behalve het `proc` bestandssysteem):
 
-`umount {{[-a|--all]}}`
+`sudo umount {{[-a|--all]}}`
