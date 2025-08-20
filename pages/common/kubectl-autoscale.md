@@ -1,6 +1,6 @@
 # kubectl autoscale
 
-> Builds an autoscaler to intelligently scale pod count based on cluster demands.
+> Builds an autoscaler to intelligently scale pod count based on kubernetes cluster demands.
 > More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#autoscale>.
 
 - Usage:
@@ -14,3 +14,4 @@
 - Auto scale a replication controller with target CPU utilization at 80%:
 
 `kubectl autoscale rc foo --max=5 --cpu-percent=80`
+
