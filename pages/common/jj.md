@@ -6,7 +6,7 @@
 
 - Update description of the revisions specified by given revsets (e.g. `B::D`, `A..D`, `B|C|D`, etc.):
 
-`jj describe --message "{{message}}" --revision {{revsets}}`
+`jj {{[desc|describe]}} {{[-r|--revision]}} {{revsets}}`
 
 - Create a new commit/revision on top of a given revision:
 
@@ -30,7 +30,7 @@
 
 - Execute a jj subcommand at an operation:
 
-`jj --at-operation {{operation}} {{subcommand}}`
+`jj {{[--at-op|--at-operation]}} {{operation}} {{subcommand}}`
 
 - Display help for a specific subcommand (like `new`, `commit`, `desc`, etc.):
 
