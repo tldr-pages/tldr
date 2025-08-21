@@ -1,6 +1,6 @@
 # orb
 
-> Command-line interface for OrbStack, a fast and lightweight container and virtual machine runtime for macOS.
+> Interface for OrbStack, a fast and lightweight container and virtual machine runtime for macOS.
 > Provides Docker-compatible commands and Linux VM management.
 > More information: <https://docs.orbstack.dev/>.
 
