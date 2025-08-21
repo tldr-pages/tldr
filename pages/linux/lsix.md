@@ -8,7 +8,7 @@
 
 `lsix`
 
-- List iamges in a specific directory:
+- List images in a specific directory:
 
 `lsix {{path/to/directory}}`
 
