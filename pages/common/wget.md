@@ -14,11 +14,11 @@
 
 - Download a single web page and all its resources with 3-second intervals between requests (scripts, stylesheets, images, etc.):
 
-`wget {{[-pkw|--page-requisites --convert-links --wait]}} 3 {{https://example.com/somepage.html}}`
+`wget {{[-pkw|--page-requisites --convert-links --wait]}} 3 {{https://example.com/some_page.html}}`
 
 - Download all listed files within a directory and its sub-directories (does not download embedded page elements):
 
-`wget {{[-mnp|--mirror --no-parent]}} {{https://example.com/somepath/}}`
+`wget {{[-mnp|--mirror --no-parent]}} {{https://example.com/some_path/}}`
 
 - Limit the download speed and the number of connection retries:
 
