@@ -1,7 +1,7 @@
 # am
 
 > مدير الأنشطة في أندرويد.
-> للمزيد من المعلومات: <https://developer.android.com/tools/adb#am>.
+> لمزيد من التفاصيل: <https://developer.android.com/tools/adb#am>.
 
 - ابدأ نشاطا بتحديد اسم الحزمة/المكوّن بالكامل:
 
