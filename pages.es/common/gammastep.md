@@ -1,4 +1,4 @@
-# Gammastep
+# gammastep
 
 > Ajusta la temperatura del color de la pantalla según la hora del día.
 > Más información: <https://gitlab.com/chinstrap/gammastep>.
