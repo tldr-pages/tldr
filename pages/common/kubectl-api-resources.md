@@ -9,11 +9,11 @@
 
 - Print the supported API resources with more information:
 
-`kubectl api-resources -o wide`
+`kubectl api-resources {{[-o|--output]}} wide`
 
 - Print the supported API resources sorted by a column:
 
-`kubectl api-resources --sort-by=name`
+`kubectl api-resources --sort-by name`
 
 - Print the supported namespaced resources:
 
@@ -25,4 +25,4 @@
 
 - Print the supported API resources with a specific APIGroup:
 
-`kubectl api-resources --api-group=extensions`
+`kubectl api-resources --api-group={{api-group}}`
