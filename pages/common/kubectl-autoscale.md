@@ -1,6 +1,6 @@
 # kubectl autoscale
 
-> Creates an autoscaler to intelligently scale pod count based on kubernetes cluster demands.
+> Create an autoscaler to intelligently scale pod count based on kubernetes cluster demands.
 > More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#autoscale>.
 
 - Auto scale a deployment with no target CPU utilization specified:
