@@ -17,7 +17,7 @@
 
 - Print the supported namespaced resources:
 
-`kubectl api-resources --namespaced=true`
+`kubectl api-resources {{[--namespaced=true | --namespaced]}}`
 
 - Print the supported non-namespaced resources:
 
