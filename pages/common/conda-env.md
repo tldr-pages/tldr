@@ -3,7 +3,7 @@
 > Manage conda environments.
 > More information: <https://docs.conda.io/projects/conda/en/latest/commands/env/index.html>.
 
-- Create an environment from an environment file (yml, txt, etc):
+- Create an environment from an environment file (yml, txt, etc.):
 
 `conda env create {{[-f|--file]}} {{file_name}}`
 
@@ -29,4 +29,4 @@
 
 - Set environment variables:
 
-`conda env config vars set {{my_var=value}}`
+`conda env config vars set {{my_var}}={{value}}`
