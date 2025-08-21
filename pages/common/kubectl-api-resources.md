@@ -13,11 +13,11 @@
 
 - Print the supported API resources sorted by a column:
 
-`kubectl api-resources --sort-by name`
+`kubectl api-resources --sort-by {{name}}`
 
 - Print the supported namespaced resources:
 
-`kubectl api-resources {{[--namespaced=true | --namespaced]}}`
+`kubectl api-resources --namespaced`
 
 - Print the supported non-namespaced resources:
 
