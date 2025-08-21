@@ -23,6 +23,6 @@
 
 `kubectl api-resources --namespaced=false`
 
-- Print the supported API resources with a specific APIGroup:
+- Print the supported API resources with a specific API group:
 
 `kubectl api-resources --api-group={{api-group}}`
