@@ -3,9 +3,9 @@
 > Manage conda environments.
 > More information: <https://docs.conda.io/projects/conda/en/latest/commands/env/index.html>.
 
-- Create an environment from an environment file (yml, txt, etc.):
+- Create an environment from an environment file (YAML, TXT, etc.):
 
-`conda env create {{[-f|--file]}} {{file_name}}`
+`conda env create {{[-f|--file]}} {{path/to/file}}`
 
 - Delete an environment and everything in it:
 
@@ -13,7 +13,7 @@
 
 - Update an environment based on an environment file:
 
-`conda env update {{[-f|--file]}} {{file_name}} --prune`
+`conda env update {{[-f|--file]}} {{path/to/file}} --prune`
 
 - List all environments:
 
