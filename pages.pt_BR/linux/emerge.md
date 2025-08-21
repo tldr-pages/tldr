@@ -30,4 +30,4 @@
 
 - Procura na base de dados por uma palavra-chave:
 
-`emerge {{[-S|--searchdesc]}} {{palavra-chave}}
+`emerge {{[-S|--searchdesc]}} {{palavra-chave}}`
