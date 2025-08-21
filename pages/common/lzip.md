@@ -2,7 +2,7 @@
 
 > A lossless data compressor with a user interface similar to `gzip` or `bzip2`.
 > Lzip uses a simplified form of the "Lempel-Ziv-Markovchain-Algorithm" (LZMA) stream format and provides 3-factor integrity checking to maximize interoperability and optimize safety.
-> More information: <https://www.nongnu.org/lzip>.
+> More information: <https://www.nongnu.org/lzip/manual/lzip_manual.html#Invoking-lzip>.
 
 - Archive a file, replacing it with with a compressed version:
 
