@@ -27,3 +27,4 @@
 - Specifica un [t]imeout in secondi (predefinito: 10s):
 
 `dumpsys -t {{8}}`
+    
