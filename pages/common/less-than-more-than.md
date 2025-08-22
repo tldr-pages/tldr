@@ -13,4 +13,4 @@
 
 - Close a file descriptor:
 
-`exec 3<>-`
+`exec {{3}}<>-`
