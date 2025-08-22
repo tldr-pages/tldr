@@ -8,7 +8,7 @@
   "dependencies": {
     "glob": "11.0.3",
     "markdownlint-cli": "^0.45.0",
-    "tldr-lint": "^0.0.19"
+    "tldr-lint": "^0.0.20"
   },
   "devDependencies": {
     "husky": "^9.1.7"
