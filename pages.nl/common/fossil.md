@@ -2,7 +2,7 @@
 
 > Gedistribueerd versiebheer systeem.
 > Sommige subcommando's zoals `db` hebben hun eigen documentatie.
-> Meer informatie: <https://fossil-scm.org/>.
+> Meer informatie: <https://fossil-scm.org/home/help>.
 
 - Voer een Fossil subcommando uit:
 

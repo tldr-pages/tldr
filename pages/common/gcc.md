@@ -2,7 +2,7 @@
 
 > Preprocess and compile C and C++ source files, then assemble and link them together.
 > Part of GCC (GNU Compiler Collection).
-> More information: <https://gcc.gnu.org>.
+> More information: <https://gcc.gnu.org/onlinedocs/gcc/>.
 
 - Compile multiple source files into an executable:
 
