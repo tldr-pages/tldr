@@ -92,6 +92,8 @@ If you are an owner of the organization, you can see an automated list [here](ht
   [29 June 2025](https://github.com/tldr-pages/tldr/issues/17024) — present
 - **Harshavardhan ([@TheRootDaemon](https://github.com/TheRootDaemon))**:
   [17 August 2025](https://github.com/tldr-pages/tldr/issues/17708) — present
+- **Sarijen ([@Sarijen](https://github.com/Sarijen))**:
+  [21 August 2025](https://github.com/tldr-pages/tldr/issues/17757) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):

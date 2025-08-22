@@ -2,7 +2,7 @@
 
 > Archiving utility.
 > Often combined with a compression method, such as `gzip` or `bzip2`.
-> More information: <https://www.gnu.org/software/tar>.
+> More information: <https://www.gnu.org/software/tar/manual/tar.html>.
 
 - [c]reate an archive and write it to a [f]ile:
 

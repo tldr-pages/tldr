@@ -1,7 +1,7 @@
 # cmp
 
 > Vergelijk twee bestanden byte voor byte.
-> Meer informatie: <https://www.gnu.org/software/diffutils/manual/html_node/Invoking-cmp.html>.
+> Meer informatie: <https://www.gnu.org/software/diffutils/manual/diffutils.html#Invoking-cmp>.
 
 - Toon karakter en regelnummer van het eerste verschil tussen twee bestanden:
 

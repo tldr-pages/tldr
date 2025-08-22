@@ -1,7 +1,7 @@
 # talk
 
 > Een visueel communicatieprogramma dat regels van jouw terminal kopieert naar die van een andere gebruiker.
-> Meer informatie: <https://www.gnu.org/software/inetutils/manual/html_node/talk-invocation.html>.
+> Meer informatie: <https://www.gnu.org/software/inetutils/manual/inetutils.html#talk-invocation>.
 
 - Start een talk-sessie met een gebruiker op dezelfde machine:
 
