@@ -33,4 +33,4 @@
 
 - Write to a custom file descriptor:
 
-`{{echo text}} >&3` 
+`{{echo text}} >&3`
