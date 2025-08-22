@@ -14,7 +14,7 @@
 
 - Compila un file sorgente in un eseguibile con nome specifico:
 
-`go build -o {{eseguibile}} {{file}}.go`
+`go build -o {{eseguibile}} {{percorso/del/file}}.go`
 
 - Compila il pacchetto presente nella directory corrente:
 
