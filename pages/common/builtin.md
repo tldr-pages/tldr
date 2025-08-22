@@ -1,7 +1,7 @@
 # builtin
 
 > Execute shell builtins.
-> More information: <https://manned.org/builtin.1>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-builtin>.
 
 - Run a shell builtin:
 
