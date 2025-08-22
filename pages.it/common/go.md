@@ -6,7 +6,7 @@
 
 - Scarica e installa un pacchetto, specificato tramite il suo import path:
 
-`go get {{percorso_pacchetto}}`
+`go get {{percorso/del/pacchetto}}`
 
 - Compila ed esegui un file sorgente (deve contenere un package `main`):
 
