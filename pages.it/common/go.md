@@ -10,7 +10,7 @@
 
 - Compila ed esegui un file sorgente (deve contenere un package `main`):
 
-`go run {{file}}.go`
+`go run {{percorso/del/file}}.go`
 
 - Compila un file sorgente in un eseguibile con nome specifico:
 
