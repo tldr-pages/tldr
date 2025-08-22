@@ -31,6 +31,6 @@
 
 `diff <({{command1}}) <({{command2}})`
 
-- Open a persistent file descriptor
+- Open a persistent file descriptor:
 
 `exec {{3}}<{{path/to/file}}`
