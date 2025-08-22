@@ -1,6 +1,6 @@
 # lua
 
-> Een krachtige, lichtgewicht en insluitbare programmeertaal.
+> Een krachtige, lichtgewicht en embeddable programmeertaal.
 > Meer informatie: <https://www.lua.org/manual/5.4/lua.html>.
 
 - Start een interactieve Lua-shell:
