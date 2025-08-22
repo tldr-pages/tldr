@@ -10,4 +10,4 @@
 
 - Force the creation without any confirmation prompts:
 
-`pvcreate --force {{/dev/sda1}}`
+`pvcreate {{[-f|--force]}} {{/dev/sda1}}`
