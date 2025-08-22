@@ -1,4 +1,4 @@
-# choco-push
+# choco push
 
 > Sube un paquete NuGet compilado (`nupkg`) a un feed de paquetes.
 > Más información: <https://docs.chocolatey.org/en-us/create/commands/push>.
