@@ -12,11 +12,11 @@
 
 `conda info {{[-e|--envs]}}`
 
-- Laad een omgeving:
+- Activeer een omgeving:
 
-`conda activate {{environment_name}}`
+`conda activate {{omgevingsnaam}}`
 
-- Ontlaad een omgeving:
+- Deactiveer een omgeving:
 
 `conda deactivate`
 
