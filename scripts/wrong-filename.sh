@@ -10,7 +10,7 @@ OUTPUT_FILE="inconsistent-filenames.txt"
 rm -f "$OUTPUT_FILE"
 touch "$OUTPUT_FILE"
 
-IGNORE_LIST=("jc.json" "mc.cli" "mc.fm" "qm move disk" "umount" "rename" "pacman  d" "pacman  f" "pacman  q" "pacman  r" "pacman  s" "pacman  t" "pacman  u" "parted" "print.runmailcap" "print.win" "python  m json.tool")
+IGNORE_LIST=("jc.json" "lid.libuser" "mc.cli" "mc.fm" "pacman  d" "pacman  f" "pacman  q" "pacman  r" "pacman  s" "pacman  t" "pacman  u" "parted" "print.runmailcap" "print.win" "python  m json.tool" "qm move disk" "rename" "snap.esa" "snap.pkg" "umount")
 
 set -e
 
