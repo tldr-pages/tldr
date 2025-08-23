@@ -1,7 +1,7 @@
 # collectd
 
 > 시스템 통계 수집 데몬.
-> 더 많은 정보: <https://github.com/collectd/collectd>.
+> 더 많은 정보: <https://manned.org/collectd>.
 
 - 구성 파일을 테스트하고 종료:
 
