@@ -9,4 +9,4 @@
 
 - Voer een testscan uit op een specifieke virtual machine en maak geen veranderingen in de configuraties:
 
-`qm {{[di|disk]}} {{[resc|rescan]}} --dryrun true {{vm_id}}`
+`qm {{[di|disk]}} {{[resc|rescan]}} --dryrun`
