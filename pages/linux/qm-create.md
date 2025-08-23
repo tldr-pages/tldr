@@ -7,7 +7,7 @@
 
 `qm {{[cr|create]}} {{100}}`
 
-- Give the virtual machine a name automatically start the machine after creation:
+- Give the virtual machine a name and automatically start the machine after creation:
 
 `qm {{[cr|create]}} {{100}} --name {{vm_name}} --start`
 
