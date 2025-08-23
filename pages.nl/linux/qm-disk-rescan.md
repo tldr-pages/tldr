@@ -5,7 +5,7 @@
 
 - Scan alle opslag opnieuw en update schijfgroottes en ongebruikte schijf images van een specifieke virtual machine:
 
-`qm {{[di|disk]}} {{[resc|rescan]}} {{vm_id}}`
+`qm {{[di|disk]}} {{[resc|rescan]}}`
 
 - Voer een testscan uit op een specifieke virtual machine en maak geen veranderingen in de configuraties:
 
