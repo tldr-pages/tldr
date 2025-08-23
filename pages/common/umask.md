@@ -1,7 +1,7 @@
 # umask
 
 > Manage the read/write/execute permissions that are masked out (i.e. restricted) for newly created files by the user.
-> More information: <https://manned.org/umask>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-umask>.
 
 - Display the current mask in octal notation:
 
