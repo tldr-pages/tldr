@@ -12,11 +12,11 @@
 
 `conda info {{[-e|--envs]}}`
 
-- Load an environment:
+- Activate an environment:
 
 `conda activate {{environment_name}}`
 
-- Unload an environment:
+- Deactivate an environment:
 
 `conda deactivate`
 
