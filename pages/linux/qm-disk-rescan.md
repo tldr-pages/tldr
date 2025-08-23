@@ -9,4 +9,4 @@
 
 - Perform a dry-run of rescan on a specific virtual machine and do not write any changes to configurations:
 
-`qm {{[di|disk]}} {{[resc|rescan]}} --dryrun true {{vm_id}}`
+`qm {{[di|disk]}} {{[resc|rescan]}} --dryrun`
