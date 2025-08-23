@@ -6,7 +6,7 @@
 
 - Change the size of a logical volume to 120 GB:
 
-`lvresize {{[-L|--size]}} {{120G}} {{volume_group}}/{{logical_volume}}`
+`lvresize {{[-L|--size]}} 120G {{volume_group}}/{{logical_volume}}`
 
 - Extend the size of a logical volume as well as the underlying filesystem by 120 GB:
 
