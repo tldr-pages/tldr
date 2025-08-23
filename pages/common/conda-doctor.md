@@ -15,6 +15,6 @@
 
 `conda doctor {{[-p|--prefix]}} {{path/to/environment}}`
 
-- Enable verbose output:
+- Enable verbose output (Note: the `-v` flag can be repeated to increase verbosity):
 
 `conda doctor {{[-v|--verbose]}}`
