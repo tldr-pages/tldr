@@ -1,7 +1,7 @@
 # arduino
 
 > Arduino Studio - 为 Arduino 平台准备的集成开发环境。
-> 更多信息： <https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>.
+> 更多信息：<https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>.
 
 - 构建一个草稿：
 
@@ -12,6 +12,7 @@
 `arduino --upload {{路径/到/文件.ino}}`
 
 - 构建草稿，并上传至带有一个 Atmega328p CPU 的 Arduino Nano（连接到端口 `/dev/ttyACM0`）：
+
 `arduino --board {{arduino:avr:nano:cpu=atmega328p}} --port {{/dev/ttyACM0}} --upload {{路径/到/文件.ino}}`
 
 - 将首选项 `名称` 设定为特定 `值`：
