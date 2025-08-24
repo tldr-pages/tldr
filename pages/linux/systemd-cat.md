@@ -14,3 +14,11 @@
 - Use the specified identifier (default: `cat` when reading from a pipeline, executable name otherwise):
 
 `{{command}} | systemd-cat {{[-t|--identifier]}} {{id}}`
+
+- Use the specified default priority level for all logged messages:
+
+`systemd-cat {{[-p|--priority]}} {{emerg|alert|crit|err|warning|notice|info|debug}} {{command}}`
+
+- Use the specified default priority level for the logged messages from the command's `stderr`:
+
+`systemd-cat --stderr-priority {{emerg|alert|crit|err|warning|notice|info|debug}} {{command}}`
