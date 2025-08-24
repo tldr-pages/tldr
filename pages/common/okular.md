@@ -13,7 +13,7 @@
 
 - Open a document at a specific page:
 
-`okular --page {{page_number}} {{path/to/file}}`
+`okular {{[-p|--page]}} {{page_number}} {{path/to/file}}`
 
 - Open a specific document in presentation mode:
 

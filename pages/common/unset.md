@@ -1,7 +1,7 @@
 # unset
 
 > Remove shell variables or functions.
-> More information: <https://manned.org/unset>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-unset>.
 
 - Remove the variable `foo`, or if the variable doesn't exist, remove the function `foo`:
 
