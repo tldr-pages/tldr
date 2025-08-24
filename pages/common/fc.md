@@ -1,7 +1,7 @@
 # fc
 
 > Open the most recent command for editing and then run it.
-> More information: <https://manned.org/fc>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-fc>.
 
 - Open the last command in the default system editor and run it after editing:
 
