@@ -11,7 +11,7 @@
 
 - Dry-run - toon welke veranderingen zouden plaatsvinden zonder ze uit te voeren:
 
-`rename -n 's/{{van}}/{{naar}}/' {{*.txt}}`
+`rename {{[-n|-nono]}} 's/{{van}}/{{naar}}/' {{*.txt}}`
 
 - Verander de extensie:
 
@@ -25,6 +25,6 @@
 
 `rename {{[-f|--force]}} 's/\b(\w)/\U$1/g' {{*.txt}}`
 
-- Vervang spaties met onderstrepingstekens:
+- Vervang spaties met underscores:
 
 `rename 's/\s+/_/g' {{*.txt}}`
