@@ -11,7 +11,7 @@
 
 - Dry-run - display which changes would occur without performing them:
 
-`rename -n 's/{{from}}/{{to}}/' {{*.txt}}`
+`rename {{[-n|-nono]}} 's/{{from}}/{{to}}/' {{*.txt}}`
 
 - Change the extension:
 
