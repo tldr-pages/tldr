@@ -3,7 +3,7 @@
 > Create aliases - words that are replaced by a command string.
 > Aliases expire with the current shell session unless defined in the shell's configuration file, e.g. `~/.bashrc` for Bash or `~/.zshrc` for Zsh.
 > See also: `unalias`.
-> More information: <https://manned.org/alias>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-alias>.
 
 - List all aliases:
 
