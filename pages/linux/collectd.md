@@ -1,7 +1,7 @@
 # collectd
 
 > System statistics collection daemon.
-> More information: <https://www.collectd.org/documentation/>.
+> More information: <https://manned.org/collectd>.
 
 - Test the configuration file and then exit:
 

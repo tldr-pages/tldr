@@ -15,6 +15,10 @@
 
 `sudo e2fsck -c {{/dev/sdXN}}`
 
+- Force checking even if the filesystem seems clean:
+
+`sudo e2fsck -f {{/dev/sdXN}}`
+
 - Perform an exhaustive, non-destructive read-write test for bad blocks and blacklist them:
 
 `sudo e2fsck -fccky {{/dev/sdXN}}`

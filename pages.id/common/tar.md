@@ -14,7 +14,7 @@
 
 - Buat ([c]reate) suatu arsip dengan tambahan kompresi g[z]ip dari suatu direktori mengunakan alamat berkas relatif:
 
-`tar czf {{jalan/menuju/target.tar.gz}} --directory={{jalan/menuju/direktori}} .`
+`tar czf {{jalan/menuju/target.tar.gz}} {{[-C|--directory]}} {{jalan/menuju/direktori}} .`
 
 - E[x]trak suatu berkas ([f]ile) arsip (biasa atau terkompres) menuju direktori saat ini dengan menampilkan rincian operasi (mode [v]erbose):
 
@@ -22,7 +22,7 @@
 
 - E[x]trak suatu berkas ([f]ile) arsip (biasa atau terkompres) menuju direktori target yang ditentukan:
 
-`tar xf {{jalan/menuju/sumber.tar[.gz|.bz2|.xz]}} --directory={{jalan/menuju/direktori}}`
+`tar xf {{jalan/menuju/sumber.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{jalan/menuju/direktori}}`
 
 - Buat ([c]reate) suatu arsip terkompres dan simpan di dalam suatu berkas ([f]ile), menggunakan metode kompresi yang ditentukan secara otom[a]tis berdasarkan nama ekstensi berkas tujuan:
 

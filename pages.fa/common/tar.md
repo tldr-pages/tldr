@@ -14,7 +14,7 @@
 
 - [c]ایجاد یک آرشیو g[z]ip شده (فشرده) از یک پوشه با استفاده از مسیرهای نسبی:
 
-`tar czf {{path/to/target.tar.gz}} --directory={{path/to/directory}} .`
+`tar czf {{path/to/target.tar.gz}} {{[-C|--directory]}} {{path/to/directory}} .`
 
 - استخراج [x] یک آرشیو (فشرده) [f]فایل در پوشه فعلی به صورت [v]کامل:
 
@@ -22,7 +22,7 @@
 
 - استخراج [x] یک آرشیو (فشرده) [f]فایل در پوشه مقصد:
 
-`tar xf {{path/to/source.tar[.gz|.bz2|.xz]}} --directory={{path/to/directory}}`
+`tar xf {{path/to/source.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{path/to/directory}}`
 
 - [c]ایجاد یک آرشیو فشرده و نوشتن آن در یک [f]فایل، با استفاده از پسوند فایل برای تعیین [a]خودکار برنامه فشرده‌سازی:
 
