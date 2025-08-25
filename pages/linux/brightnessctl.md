@@ -15,7 +15,7 @@
 
 `brightnessctl {{[g|get]}} {{[-d|--device]}} '{{device_name}}'`
 
-- Set the brightness of a device to a specified percentage:
+- Set the brightness to a specified percentage:
 
 `brightnessctl {{[s|set]}} {{50}}%`
 
