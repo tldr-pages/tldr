@@ -9,11 +9,11 @@
 
 - Forcefully remove a volume group without confirmation:
 
-`vgremove --force {{volume_group}}`
+`vgremove {{[-f|--force]}} {{volume_group}}`
 
 - Set the debug level for detailed logging to level 2, (repeat `--debug` up to 6 times to increase the level):
 
-`vgremove --debug --debug {{volume_group}}`
+`vgremove {{[-d|--debug]}} {{[-d|--debug]}} {{volume_group}}`
 
 - Use a specific config setting to override defaults:
 
@@ -21,4 +21,4 @@
 
 - Display help text for usage information:
 
-`vgremove --help`
+`vgremove {{[-h|--help]}}`

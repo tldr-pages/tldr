@@ -6,8 +6,8 @@
 
 - Initialize the `/dev/sda1` volume for use by LVM:
 
-`pvcreate {{/dev/sda1}}`
+`pvcreate {{/dev/sdXY}}`
 
 - Force the creation without any confirmation prompts:
 
-`pvcreate --force {{/dev/sda1}}`
+`pvcreate {{[-f|--force]}} {{/dev/sdXY}}`
