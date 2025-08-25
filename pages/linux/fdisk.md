@@ -1,6 +1,6 @@
 # fdisk
 
-> Manage partition tables and partitions on a hard disk.
+> Manage partition tables and partitions on a storage drive.
 > See also: `partprobe`.
 > More information: <https://manned.org/fdisk>.
 
