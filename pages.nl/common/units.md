@@ -1,7 +1,7 @@
 # units
 
 > Converteer tussen twee maateenheden.
-> Meer informatie: <https://www.gnu.org/software/units/>.
+> Meer informatie: <https://www.gnu.org/software/units/manual/units.html>.
 
 - Voer uit in interactieve modus:
 

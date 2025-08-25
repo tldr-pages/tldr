@@ -2,7 +2,7 @@
 
 > Archiveringsprogramma.
 > Vaak gecombineerd met een compressiemethode, zoals `gzip` of `bzip2`.
-> Meer informatie: <https://www.gnu.org/software/tar>.
+> Meer informatie: <https://www.gnu.org/software/tar/manual/tar.html>.
 
 - [c]reëer een archief en schrijf het naar een bestand ([f]):
 

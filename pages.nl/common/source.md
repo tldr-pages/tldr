@@ -1,7 +1,7 @@
 # source
 
 > Voer opdrachten uit vanuit een bestand in de huidige shell.
-> Meer informatie: <https://manned.org/source>.
+> Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-source>.
 
 - Evalueer de inhoud van een bepaald bestand:
 
