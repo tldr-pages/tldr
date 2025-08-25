@@ -17,4 +17,4 @@
 
 - List available audio devices:
 
-`aplay -l`
+`aplay {{[-l|--list-devices]}}`
