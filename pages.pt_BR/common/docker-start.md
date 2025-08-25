@@ -13,7 +13,7 @@
 
 - Inicia um container, atachando ao terminal os sinais `stdout` e `stderr` e outros sinais:
 
-`docker start --attach {{container}}`
+`docker start {{[-a|--attach]}} {{container}}`
 
 - Inicia um ou mais containers com ID separados por espaço:
 

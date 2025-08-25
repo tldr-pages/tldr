@@ -13,7 +13,7 @@
 
 - Starte einen Container und verbinde dich mit der Standardausgabe sowie der Standardfehlerausgabe und leite Signale weiter:
 
-`docker start --attach {{container}}`
+`docker start {{[-a|--attach]}} {{container}}`
 
 - Starte einen oder mehrere durch Leerzeichen getrennte Container:
 
