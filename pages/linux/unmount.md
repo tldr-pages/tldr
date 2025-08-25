@@ -1,4 +1,4 @@
-# umount
+# unmount
 
 > The correct command is `umount` (u-mount).
 > More information: <https://manned.org/umount.8>.
