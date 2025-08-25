@@ -11,7 +11,7 @@
 
 - Dry-run - toon welke veranderingen zouden plaatsvinden zonder ze uit te voeren:
 
-`rename {{[-n|--nono]}} 's/{{van}}/{{naar}}/' {{*.txt}}`
+`rename -n 's/{{van}}/{{naar}}/' {{*.txt}}`
 
 - Verander de extensie:
 
