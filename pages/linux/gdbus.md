@@ -1,6 +1,6 @@
 # gdbus
 
-> Interact with D-Bus objects from the command line.
+> Interact with D-Bus objects.
 > Part of GLib.
 > More information: <https://manned.org/gdbus>.
 
