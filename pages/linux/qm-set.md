@@ -26,3 +26,7 @@
 - Delete a device:
 
 `qm set {{100}} --delete {{device_name0}}`
+
+- Passthrough a GPU device to the guest:
+
+`qm set {{100}} --hostpci{{0}} {{0000:00:02}},x-vga=1`
