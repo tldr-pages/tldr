@@ -15,7 +15,7 @@
 
 `brightnessctl {{[g|get]}} {{[-d|--device]}} '{{apparaatnaam}}'`
 
-- Stel de helderheid van een device in op een bepaald percentage:
+- Stel de helderheid van een apparaat in op een bepaald percentage:
 
 `brightnessctl {{[s|set]}} {{50}}%`
 
