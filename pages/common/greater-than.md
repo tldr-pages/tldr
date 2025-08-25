@@ -26,3 +26,11 @@
 - Redirect `stderr` to `stdout` for piping them together:
 
 `{{command1}} 2>&1 | {{command2}}`
+
+- Open a persistent file descriptor:
+
+`exec {{3}}>{{path/to/file}}`
+
+- Write to a custom file descriptor:
+
+`{{echo text}} >&{{3}}`
