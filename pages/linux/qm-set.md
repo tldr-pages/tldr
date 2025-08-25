@@ -25,7 +25,7 @@
 
 - Delete a device:
 
-`qm set {{100}} --delete {{device_name0}}`
+`qm set {{100}} --delete {{device_name0,device_name1,...}}`
 
 - Passthrough a GPU device to the guest:
 
