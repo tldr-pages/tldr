@@ -29,4 +29,4 @@
 
 - Passthrough a GPU device to the guest:
 
-`qm set {{100}} --hostpci{{0}} {{0000:00:02}},x-vga=1`
+`qm set {{100}} --hostpci{{0}} {{0000:00:02}},x-vga=1 --bios ovmf`
