@@ -11,7 +11,7 @@
 
 `brightnessctl {{[g|get]}}`
 
-- Toon de huidige helder van een bepaald apparaat (kan een wildcard zijn):
+- Toon de huidige helderheid van een bepaald apparaat (kan een wildcard zijn):
 
 `brightnessctl {{[g|get]}} {{[-d|--device]}} '{{apparaatnaam}}'`
 
