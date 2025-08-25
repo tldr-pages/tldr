@@ -1,7 +1,7 @@
 # syncthing
 
 > 지속적인 양방향 분산 폴더 동기화 도구.
-> 더 많은 정보: <https://docs.syncthing.net/>.
+> 더 많은 정보: <https://docs.syncthing.net/users/syncthing.html>.
 
 - Syncthing 시작:
 
@@ -9,28 +9,28 @@
 
 - 웹 브라우저를 열지 않고 Syncthing 시작:
 
-`syncthing -no-browser`
-
-- 장치 ID 출력:
-
-`syncthing -device-id`
+`syncthing --no-browser`
 
 - 홈 디렉토리 변경:
 
-`syncthing -home={{경로/대상/폴더}}`
+`syncthing --home {{디렉토리/경로}}`
 
-- 전체 색인 교환 강제 수행:
+- 로깅을 증가시켜 Syncthing 실행:
 
-`syncthing -reset-deltas`
+`syncthing --verbose`
 
-- 웹 인터페이스가 수신 대기할 주소 변경:
+- 모든 장치 일시 중지:
 
-`syncthing -gui-address={{IP_주소:포트|경로/대상/socket.sock}}`
+`syncthing cli config devices pause --all`
 
-- Syncthing이 사용하는 파일 경로 표시:
+- 모든 장치 다시 시작:
 
-`syncthing -paths`
+`syncthing cli config devices resume --all`
 
-- Syncthing 모니터 프로세스 비활성화:
+- 웹 인터페이스가 수신 대기하는 주소 변경:
 
-`syncthing -no-restart`
+`syncthing --gui-address {{아이피주소:포트|소켓/경로/소켓.sock}}`
+
+- 출력 로그 레벨 설정:
+
+`syncthing --log-level {{정보|경고|오류|디버그}}`
