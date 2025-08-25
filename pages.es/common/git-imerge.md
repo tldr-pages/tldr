@@ -1,4 +1,4 @@
-# git-imerge
+# git imerge
 
 > Ejecuta una fusión o rebase entre dos ramas Git incrementalmente.
 > Los conflictos entre las ramas se rastrean a pares de commits individuales para simplificar la resolución de conflictos.
