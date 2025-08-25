@@ -1,6 +1,6 @@
 # rename
 
-> Rename a file or group of files with a regular expression.
+> Rename a file or group of files with a `regex`.
 > WARNING: This command will overwrite files without prompting unless the dry-run option is used.
 > Note: This page refers to the Perl version, also known as `file-rename`.
 > More information: <https://manned.org/prename>.
@@ -15,7 +15,7 @@
 
 - Change the extension:
 
-`rename 's/\.old$/\.new/' {{*.txt}}`
+`rename 's/\.{{old}}$/\.{{new}}/' {{*.txt}}`
 
 - Change to lowercase (use `-f` in case-insensitive filesystems):
 
