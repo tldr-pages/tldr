@@ -1,7 +1,7 @@
 # codecrafters
 
 > Practica escribiendo software complejo.
-> Más información: <https://codecrafters.io/>.
+> Más información: <https://docs.codecrafters.io/cli/usage>.
 
 - Ejecuta pruebas sin confirmar cambios:
 
