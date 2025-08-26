@@ -5,7 +5,7 @@
 
 - Move a file inside the repo and add the movement to the next commit:
 
-`git mv {{path/to/file}} {{new/path/to/file}}`
+`git mv {{path/to/file}} {{path/to/destination}}`
 
 - Rename a file or directory and add the renaming to the next commit:
 
