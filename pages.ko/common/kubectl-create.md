@@ -5,11 +5,11 @@
 
 - 리소스 정의 파일을 사용하여 리소스 생성:
 
-`kubectl create -f {{경로/대상/파일.yml}}`
+`kubectl create {{[-f|--filename]}} {{경로/대상/파일.yml}}`
 
 - `stdin`에서 리소스 생성:
 
-`kubectl create -f -`
+`kubectl create {{[-f|--filename]}} -`
 
 - 배포 생성:
 
