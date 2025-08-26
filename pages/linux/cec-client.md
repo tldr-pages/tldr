@@ -10,15 +10,15 @@
 
 - Start an interactive CEC session:
 
-`cec-client`
+`sudo cec-client`
 
 - Set the On-Screen Display name:
 
-`cec-client {{[-o|--osd-name]}} {{name}}`
+`sudo cec-client {{[-o|--osd-name]}} {{name}}`
 
 - Send a single command:
 
-`echo {{on 0}} | cec-client {{[-s|--single-command]}}`
+`echo {{on 0}} | sudo cec-client {{[-s|--single-command]}}`
 
 - Set a device to standby in interactive mode:
 
