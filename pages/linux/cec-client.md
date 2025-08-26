@@ -11,6 +11,10 @@
 
 `cec-client {{[-o|--osd-name]}} {{name}}`
 
+- Send a single command:
+
+`echo {{on 0}} | cec-client {{[-s|--single-command]}}`
+
 - Start an interactive CEC session:
 
 `cec-client`
