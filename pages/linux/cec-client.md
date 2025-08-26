@@ -7,6 +7,14 @@
 
 `cec-client -l`
 
-- Start and debug a CEC connection with the default adapter:
+- Start an interactive CEC session:
 
 `cec-client`
+
+- Set a device to standby in interactive mode:
+
+`standby 0`
+
+- Turn a device on in interactive mode:
+
+`on 0`
