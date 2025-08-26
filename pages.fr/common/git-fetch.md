@@ -17,8 +17,8 @@
 
 - Recherche également les tags depuis le registre courant :
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
 - Supprime les références locales de branches ayant été supprimés du registre distant :
 
-`git fetch --prune`
+`git fetch {{[-p|--prune]}}`
