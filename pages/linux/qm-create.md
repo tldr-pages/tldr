@@ -11,7 +11,7 @@
 
 `qm {{[cr|create]}} {{100}} --name {{vm_name}} --start`
 
-- Give a virtual machine specified amout of memory and CPUs:
+- Give a virtual machine specified amount of memory and CPUs:
 
 `qm {{[cr|create]}} {{100}} --memory {{8192}} --cores {{4}}`
 
