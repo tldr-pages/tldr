@@ -19,7 +19,7 @@
 
 `git clone {{[-l|--local]}} {{pad/naar/lokale_repository}}`
 
-- Kloon stilletjes:
+- Kloon in stille modus:
 
 `git clone {{[-q|--quiet]}} {{externe_repository_locatie}}`
 
