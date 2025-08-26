@@ -13,11 +13,11 @@
 
 - Write the backup to a specific file:
 
-`vgcfgbackup --file {{/path/to/backup}} {{vg_name}}`
+`vgcfgbackup {{[-f|--file]}} {{/path/to/backup}} {{vg_name}}`
 
 - Back up multiple VGs using a filename template (`%s` becomes the VG name):
 
-`vgcfgbackup --file {{/tmp/vg-backup-%s}} {{vg1}} {{vg2}}`
+`vgcfgbackup {{[-f|--file]}} {{/tmp/vg-backup-%s}} {{vg1}} {{vg2}}`
 
 - Produce JSON-formatted report output:
 
