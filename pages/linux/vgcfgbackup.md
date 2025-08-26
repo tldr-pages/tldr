@@ -17,8 +17,8 @@
 
 - Back up multiple VGs using a filename template (`%s` becomes the VG name):
 
-`vgcfgbackup {{[-f|--file]}} /{{tmp/vg-backup-%s}} {{vg1 vg2 ...}}`
+`vgcfgbackup {{[-f|--file]}} {{/tmp/vg-backup-%s}} {{vg1 vg2 ...}}`
 
 - Increase verbosity (repeat `-v` for more detail):
 
-`vgcfgbackup -v {{vg_name}}`
+`vgcfgbackup {{[-v|--verbose]}} {{vg_name}}`
