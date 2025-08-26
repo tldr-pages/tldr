@@ -1,0 +1,24 @@
+# vgcfgbackup
+
+> Back up volume group configuration metadata to files (not user data).
+> More information: <https://manned.org/vgcfgbackup>.
+
+- Back up metadata for all volume groups:
+
+`vgcfgbackup`
+
+- Back up metadata for a specific volume group:
+
+`vgcfgbackup {{vg_name}}`
+
+- Write the backup to a specific file:
+
+`vgcfgbackup --file {{/path/to/backup}} {{vg_name}}`
+
+- Back up multiple VGs using a filename template (`%s` becomes the VG name):
+
+`vgcfgbackup --file {{/tmp/vg-backup-%s}} {{vg1}} {{vg2}}`
+
+- Produce JSON-formatted report output:
+
+`vgcfgbackup --reportformat json {{vg_name}}`
