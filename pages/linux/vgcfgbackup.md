@@ -3,7 +3,7 @@
 > Back up volume group configuration metadata to files (not user data).
 > More information: <https://manned.org/vgcfgbackup>.
 
-- Back up metadata for all volume groups:
+- Back up metadata for all volume groups (to `/etc/lvm/backup/` by default):
 
 `vgcfgbackup`
 
@@ -13,12 +13,12 @@
 
 - Write the backup to a specific file:
 
-`vgcfgbackup {{[-f|--file]}} {{/path/to/backup}} {{vg_name}}`
+`vgcfgbackup {{[-f|--file]}} {{path/to/backup}} {{vg_name}}`
 
 - Back up multiple VGs using a filename template (`%s` becomes the VG name):
 
-`vgcfgbackup {{[-f|--file]}} {{/tmp/vg-backup-%s}} {{vg1}} {{vg2}}`
+`vgcfgbackup {{[-f|--file]}} /{{tmp/vg-backup-%s}} {{vg1 vg2 ...}}`
 
-- Produce JSON-formatted report output:
+- Increase verbosity (repeat `-v` for more detail):
 
-`vgcfgbackup --reportformat json {{vg_name}}`
+`vgcfgbackup -v {{vg_name}}`
