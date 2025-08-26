@@ -9,7 +9,7 @@
 
 - 병합 메시지 편집:
 
-`git merge --edit {{브랜치_이름}}`
+`git merge {{[-e|--edit]}} {{브랜치_이름}}`
 
 - 브랜치 병합 및 병합 커밋 생성:
 
@@ -21,4 +21,4 @@
 
 - 특정 전략을 사용하여 병합:
 
-`git merge --strategy {{전략}} --strategy-option {{전략_옵션}} {{브랜치_이름}}`
+`git merge {{[-s|--strategy]}} {{전략}} {{[-X|--strategy-option]}} {{전략_옵션}} {{브랜치_이름}}`
