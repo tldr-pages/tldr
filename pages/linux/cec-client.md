@@ -21,8 +21,8 @@
 
 - Set a device to standby in interactive mode:
 
-`standby 0`
+`standby {{0}}`
 
 - Turn a device on in interactive mode:
 
-`on 0`
+`on {{0}}`
