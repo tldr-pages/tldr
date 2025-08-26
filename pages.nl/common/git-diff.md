@@ -33,4 +33,4 @@
 
 - Vergelijk verschillende bestanden van de huidige branch met een andere:
 
-`git diff {{branch}}:{{pad/naar/bestand1}} {{pad/naar/bestand2}}`
+`git diff {{branch}}:{{pad/naar/bestand2}} {{pad/naar/bestand1}}`
