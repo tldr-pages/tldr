@@ -7,6 +7,10 @@
 
 `cec-client {{[-l|--list-devices]}}`
 
+- Start an interactive CEC session:
+
+`cec-client`
+
 - Set the On-Screen Display name:
 
 `cec-client {{[-o|--osd-name]}} {{name}}`
@@ -14,10 +18,6 @@
 - Send a single command:
 
 `echo {{on 0}} | cec-client {{[-s|--single-command]}}`
-
-- Start an interactive CEC session:
-
-`cec-client`
 
 - Set a device to standby in interactive mode:
 
