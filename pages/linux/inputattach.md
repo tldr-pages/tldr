@@ -1,6 +1,7 @@
 # inputattach
 
 > Attach a device to the Linux input system.
+> The input devies are presented as files in `/dev/input/`.
 > More information: <https://manned.org/inputattach>.
 
 - Attach a Pulse8 CEC device to the input system:
