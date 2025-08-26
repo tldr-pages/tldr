@@ -21,7 +21,7 @@
 
 - Move a secret from one path to another:
 
-`safe move {{/path/to/old_secret}} {{new/path/to/new_secret}}`
+`safe move {{path/to/old_secret}} {{path/to/new_secret}}`
 
 - Generate a new 2048-bit SSH key-pair and store it:
 
