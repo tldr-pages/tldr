@@ -16,6 +16,6 @@
 
 `systemd-sysusers --cat-config`
 
-- Create users based on files listen in the previous command:
+- Create users based on files listed in the previous command:
 
 `systemd-sysusers`
