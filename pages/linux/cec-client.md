@@ -5,7 +5,11 @@
 
 - List all CEC adapters:
 
-`cec-client -l`
+`cec-client {{[-l|--list-devices]}}`
+
+- Set the On-Screen Display name:
+
+`cec-client {{[-o|--osd-name]}} {{name}}`
 
 - Start an interactive CEC session:
 
