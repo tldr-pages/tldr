@@ -27,7 +27,7 @@
 
 `sudo apachectl graceful`
 
-- Print full Apache configuration:
+- Print full Apache configuration (not always supported):
 
 `apachectl -S`
 
