@@ -3,7 +3,7 @@
 > Kloon een bestaande repository.
 > Meer informatie: <https://git-scm.com/docs/git-clone>.
 
-- Kloon een bestaande repository naar een nieuwe map (de standaardmap is de repositorynaam):
+- Kloon een bestaande repository naar een nieuwe map (de standaardmap is de repository-naam):
 
 `git clone {{externe_repository_locatie}} {{pad/naar/map}}`
 
@@ -23,7 +23,7 @@
 
 `git clone {{[-q|--quiet]}} {{externe_repository_locatie}}`
 
-- Kloon een bestaande repository, waarbij alleen de nieuwste 10 commits op de standaardbranch worden opgehaald (handig om tijd te besparen):
+- Kloon een bestaande repository, waarbij alleen de nieuwste 10 commits op de standaard-branch worden opgehaald (handig om tijd te besparen):
 
 `git clone --depth 10 {{externe_repository_locatie}}`
 
