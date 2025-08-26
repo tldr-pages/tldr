@@ -1,6 +1,6 @@
 # git pull
 
-> Haal een branch op vanuit een externe repository en voeg deze samen naar een lokale repository.
+> Haal een branch op vanuit een externe repository en voeg deze samen met de lokale repository.
 > Meer informatie: <https://git-scm.com/docs/git-pull>.
 
 - Download wijzigingen uit de standaard externe repository en voeg deze samen:
