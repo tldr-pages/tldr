@@ -2,7 +2,7 @@
 
 > Remove aliases.
 > See also: `alias`.
-> More information: <https://manned.org/unalias>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-unalias>.
 
 - Remove an alias:
 

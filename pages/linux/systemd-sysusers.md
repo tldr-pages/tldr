@@ -15,3 +15,7 @@
 - Print the contents of all configuration files (before each file, its name is printed as a comment):
 
 `systemd-sysusers --cat-config`
+
+- Create users based on files listed in the previous command:
+
+`systemd-sysusers`

@@ -17,8 +17,8 @@
 
 - Lade auch die Tags des Repository im Upstream:
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
 - Lösche lokale Referenzen auf entfernte Branches, die im Upstream-Repository nicht mehr existieren:
 
-`git fetch --prune`
+`git fetch {{[-p|--prune]}}`

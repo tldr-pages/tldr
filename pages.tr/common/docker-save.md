@@ -9,12 +9,12 @@
 
 - Bir imgeyi, bir tar arşivine kaydet:
 
-`docker save --output {{örnek/dosya.tar}} {{imge}}:{{etiket}}`
+`docker save {{[-o|--output]}} {{örnek/dosya.tar}} {{imge}}:{{etiket}}`
 
 - Bir imgenin tüm etiketlerini kaydet:
 
-`docker save --output {{örnek/dosya.tar}} {{imge_ismi}}`
+`docker save {{[-o|--output]}} {{örnek/dosya.tar}} {{imge_ismi}}`
 
 - Bir imgenin belirli etiketlerini kaydetmek için elle seç:
 
-`docker save --output {{örnek/dosya.tar}} {{imge_ismi:etiket1 imge_ismi:etiket2 ...}}`
+`docker save {{[-o|--output]}} {{örnek/dosya.tar}} {{imge_ismi:etiket1 imge_ismi:etiket2 ...}}`

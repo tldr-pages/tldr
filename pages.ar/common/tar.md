@@ -14,7 +14,7 @@
 
 - إنشاء أرشيف مضغوط من مجلد باستخدام المسارات النسبية:
 
-`tar czf {{path/to/target.tar.gz}} --directory={{path/to/directory}} .`
+`tar czf {{path/to/target.tar.gz}} {{[-C|--directory]}} {{path/to/directory}} .`
 
 - فك ضغط ملف أرشيف مضغوط في المجلد الحالي:
 
@@ -22,7 +22,7 @@
 
 - فك ضغط ملف أرشيف مضغوط في مجلد محدد:
 
-`tar xf {{path/to/source.tar[.gz|.bz2|.xz]}} --directory={{path/to/directory}}`
+`tar xf {{path/to/source.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{path/to/directory}}`
 
 - إنشاء أرشيف مضغوط وكتابته إلى ملف، مع تحديد خوارزمية الضغط تلقائيًا بناءً على امتداد الملف:
 
