@@ -1,0 +1,28 @@
+# get_iplayer
+
+> Indexing tool and personal video recorder for BBC iPlayer and BBC Sounds.
+> More information: <https://github.com/get-iplayer/get_iplayer?tab=readme-ov-file>.
+
+- Search programmes by name:
+
+`get_iplayer "Name of the Program"`
+
+- Record programme by results of search:
+
+`get_iplayer "Name of the Program" --get` or `get_iplayer "Name of the Program" -g`
+
+- Record programme by URL from the BBC iPlayer website:
+
+`get_iplayer "https://www.bbc.co.uk/iplayer/episode/PIDoftheprogram/name-of-show-episode-number-episode-title"`
+
+- Download subtitles for a programme by results of search:
+
+`get_iplayer "Name of the Program" --subtitles`
+
+- Search for a programme, record it and download substitles:
+
+`get_iplayer "Name of the Program" --get --subtitles`
+
+- Display basic help page:
+- 
+`get_iplayer --helpbasic`
