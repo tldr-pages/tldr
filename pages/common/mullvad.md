@@ -12,6 +12,14 @@
 
 `mullvad lan set allow`
 
+- Select a server in a specific city:
+
+`mullvad relay set location {{se}} {{mma}}`
+
+- Select a specific server:
+
+`mullvad relay set location {{se-mma-wg-001}}`
+
 - Establish the VPN tunnel:
 
 `mullvad connect`
