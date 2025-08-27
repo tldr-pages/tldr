@@ -1,7 +1,7 @@
 # browsh
 
 > Vea páginas web en el terminal utilizando un backend de Firefox.
-> Más información: <httphttps://www.brow.sh/docs/keybindings/>.
+> Más información: <https://www.brow.sh/docs/keybindings/>.
 
 - Inicia browsh:
 
