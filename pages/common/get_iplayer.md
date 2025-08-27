@@ -9,7 +9,7 @@
 
 - Record programme by results of search:
 
-`get_iplayer "Name of the Program" --get` or `get_iplayer "Name of the Program" -g`
+`get_iplayer "Name of the Program" --get`
 
 - Record programme by URL from the BBC iPlayer website:
 
@@ -24,5 +24,5 @@
 `get_iplayer "Name of the Program" --get --subtitles`
 
 - Display basic help page:
-- 
+
 `get_iplayer --helpbasic`
