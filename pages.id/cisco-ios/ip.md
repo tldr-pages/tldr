@@ -10,7 +10,7 @@
 
 - Atur alamat perangkat saat ini (Perintah ini dijalankan di dalam perintah `interface`):
 
-`ip address {{10.0.0.1}} {{255.255.255.0}}
+`ip address {{10.0.0.1}} {{255.255.255.0}}`
 
 - Atur alamat perangkat menggunakan DHCP (Perintah ini dijalankan di dalam perintah `interface`):
 
