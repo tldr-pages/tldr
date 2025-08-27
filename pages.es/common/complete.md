@@ -1,4 +1,4 @@
-# complet
+# complete
 
 e > Obtiene y establece las reglas de autocompletado de argumentos de los comandos del shell en Bash.
 > Las terminaciones especificadas se invocarán cuando se pulse `<Tab>` en Bash.
