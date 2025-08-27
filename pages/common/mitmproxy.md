@@ -27,3 +27,11 @@
 - Set the console layout:
 
 `mitmproxy --console-layout {{horizontal|single|vertical}}`
+
+- Save all proxied traffic to a file for later analysis:
+
+`mitmproxy {{[-w|--save-stream-file]}} {{path/to/dump.mitm}}`
+
+- Replay a previously saved HTTP flow file:
+
+`mitmproxy {{[-nr|--no-server --rfile]}} {{path/to/dump.mitm}}`
