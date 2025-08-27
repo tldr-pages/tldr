@@ -1,7 +1,7 @@
 # dust
 
 > Give an instant overview of which directories are using disk space.
-> See also: `du`.
+> See also: `du`, `ncdu`.
 > More information: <https://github.com/bootandy/dust#usage>.
 
 - Display information for the current directory:
