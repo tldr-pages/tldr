@@ -14,7 +14,7 @@
 
 - Vytvořit gzip (komprimovaný) archiv z adresáře pomocí relativních cest:
 
-`tar czf {{cesta/k/cili.tar.gz}} --directory={{cesta/k/adresari}} .`
+`tar czf {{cesta/k/cili.tar.gz}} {{[-C|--directory]}} {{cesta/k/adresari}} .`
 
 - E[x]trahovat (komprimovaný) archiv do aktuálního adresáře [v]erbózně:
 
@@ -22,7 +22,7 @@
 
 - E[x]trahovat (komprimovaný) archiv do cílového adresáře:
 
-`tar xf {{cesta/ke/zdroji.tar[.gz|.bz2|.xz]}} --directory={{cesta/k/adresari}}`
+`tar xf {{cesta/ke/zdroji.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{cesta/k/adresari}}`
 
 - Vytvořit komprimovaý archiv, zapsat jej do souboru a [a]utomaticky určit program pro kompresi pomocí přípony souboru:
 

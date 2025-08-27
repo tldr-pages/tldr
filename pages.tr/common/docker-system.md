@@ -13,7 +13,7 @@
 
 - Disk kullanımı üzerine detaylı bilgi göster:
 
-`docker system df --verbose`
+`docker system df {{[-v|--verbose]}}`
 
 - Kullanılmayan veriyi sil:
 
@@ -29,7 +29,7 @@
 
 - Geçerli JSON satırları olarak yayınlanan konteynerleden tam-zamanlı eylemleri göster:
 
-`docker system events --filter 'type=container' --format '{{json .}}'`
+`docker system events {{[-f|--filter]}} 'type=container' --format '{{json .}}'`
 
 - Sistem bilgisi göster:
 

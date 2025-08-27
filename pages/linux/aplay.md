@@ -14,3 +14,7 @@
 - Play the raw file as a 22050 Hz, mono, 8-bit, Mu-Law `.au` file:
 
 `aplay {{[-c|--channels]}} {{1}} {{[-t|--file-type]}} {{raw}} {{[-r|--rate]}} {{22050}} {{[-f|--format]}} {{mu_law}} {{path/to/file}}`
+
+- List available audio devices:
+
+`aplay {{[-l|--list-devices]}}`

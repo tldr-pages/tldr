@@ -9,8 +9,8 @@
 
 - Charge une image Docker depuis un fichier spécifique :
 
-`docker load --input {{chemin/vers/fichier_image.tar}}`
+`docker load {{[-i|--input]}} {{chemin/vers/fichier_image.tar}}`
 
 - Charge une image Docker depuis un fichier spécifique en mode silencieux :
 
-`docker load --quiet --input {{chemin/vers/fichier_image.tar}}`
+`docker load {{[-q|--quiet]}} {{[-i|--input]}} {{chemin/vers/fichier_image.tar}}`

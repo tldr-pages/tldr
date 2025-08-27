@@ -13,7 +13,7 @@
 
 - Bir konteyneri, ona `stdout` ile `stderr`'i ekleyerek ve sinyaller göndererek başlat:
 
-`docker start --attach {{konteyner}}`
+`docker start {{[-a|--attach]}} {{konteyner}}`
 
 - Bir veya daha fazla boşlukla ayrılarak belirtilmiş konteynerleri başlar:
 

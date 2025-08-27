@@ -1,7 +1,7 @@
 # argos-translate
 
 > Una biblioteca de traducción local (offline) de código abierto y una herramienta CLI escrita en Python.
-> Más información: <https://www.argosopentech.com/>.
+> Más información: <https://argos-translate.readthedocs.io/en/latest/source/cli.html>.
 
 - Instala pares de traducción del español al inglés:
 
