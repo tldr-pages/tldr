@@ -33,4 +33,4 @@
 
 - Compare different files from the current branch to another branch:
 
-`git diff {{branch}}:{{path/to/file2}} {{path/to/file1}}`
+`git diff {{other_branch}}:{{path/to/file2}} {{path/to/file1}}`
