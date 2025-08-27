@@ -1,7 +1,7 @@
-# Colon
+# :
 
 > Returns a successful exit status code of 0.
-> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#colon>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-_003a>.
 
 - Return a successful exit code:
 

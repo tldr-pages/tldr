@@ -9,7 +9,7 @@
 
 - Birleştirme mesajını düzenle:
 
-`git merge {{-e|--show-email}} {{dal_ismi}}`
+`git merge {{[-e|--edit]}} {{dal_ismi}}`
 
 - Bir dalı birleştir ve birleştirme commit'i oluştur:
 

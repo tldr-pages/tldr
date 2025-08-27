@@ -7,3 +7,7 @@
 - Restrict line protocols to `ssh`:
 
 `transport input ssh`
+
+- Restrict line protocols to `telnet`:
+
+`transport input telnet`

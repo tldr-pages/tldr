@@ -9,12 +9,12 @@
 
 - 현재 실행 중인 커널에 대해 모든 모듈 다시 빌드:
 
-`dkms autoinstall`
+`sudo dkms autoinstall`
 
 - 현재 실행 중인 커널에 대해 acpi_call 모듈의 버전 1.2.1 설치:
 
-`dkms install -m {{acpi_call}} -v {{1.2.1}}`
+`sudo dkms install -m {{acpi_call}} -v {{1.2.1}}`
 
 - 모든 커널에서 acpi_call 모듈의 버전 1.2.1 제거:
 
-`dkms remove -m {{acpi_call}} -v {{1.2.1}} --all`
+`sudo dkms remove -m {{acpi_call}} -v {{1.2.1}} --all`

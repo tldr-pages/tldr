@@ -13,7 +13,7 @@
 
 - ディスクの使用量に関して詳細な情報を表示する:
 
-`docker system df --verbose`
+`docker system df {{[-v|--verbose]}}`
 
 - 不使用データを削除する:
 
@@ -29,7 +29,7 @@
 
 - コンテナからのリアルタイムイベントを適正なJSON行としてストリーム表示する:
 
-`docker system events --filter 'type=container' --format '{{json .}}'`
+`docker system events {{[-f|--filter]}} 'type=container' --format '{{json .}}'`
 
 - システム全体に関わる情報の表示をする:
 

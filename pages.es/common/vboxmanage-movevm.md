@@ -1,4 +1,4 @@
-# vboxmanage movevm
+# VBoxManage movevm
 
 > Mueve una máquina virtual (VM) a una nueva ubicación en el sistema anfitrión.
 > Más información: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-movevm>.
