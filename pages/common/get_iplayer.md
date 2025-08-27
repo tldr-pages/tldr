@@ -19,7 +19,7 @@
 
 `get_iplayer "Name of the Program" --subtitles`
 
-- Search for a programme, record it and download substitles:
+- Search for a programme, record it and download subtitles:
 
 `get_iplayer "Name of the Program" --get --subtitles`
 
