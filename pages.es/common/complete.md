@@ -19,7 +19,7 @@
 
 - Aplica el autocompletado sin añadir un espacio a la palabra completada:
 
-`completar -o nospace -F {{función}} {{comando}}`
+`complete -o nospace -F {{función}} {{comando}}`
 
 - Lista todas las especificaciones completas cargadas:
 
