@@ -1,6 +1,6 @@
 # complete
 
-e > Obtiene y establece las reglas de autocompletado de argumentos de los comandos del shell en Bash.
+> Obtiene y establece las reglas de autocompletado de argumentos de los comandos del shell en Bash.
 > Las terminaciones especificadas se invocarán cuando se pulse `<Tab>` en Bash.
 > Vea también: `compgen`, `compopt`.
 > Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-complete>.
