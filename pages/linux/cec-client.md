@@ -1,6 +1,6 @@
 # cec-client
 
-> Manage CEC connections.
+> Manage serial bus CEC connections.
 > See also: `cec-ctl`.
 > More information: <https://manned.org/man/cec-client>.
 
