@@ -1,6 +1,6 @@
 # cec-ctl
 
-> Control CEC devices.
+> Control kernel CEC devices.
 > See also: `cec-client`.
 > More information: <https://manned.org/cec-ctl>.
 
