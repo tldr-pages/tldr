@@ -7,9 +7,9 @@
 
 `pdf-parser {{[-a|--stats]}} {{path/to/file.pdf}}`
 
-- Display objects of type `/Font` in a PDF file:
+- Display objects of a specific type (`/Font`, `/URI`, ...) in a PDF file:
 
-`pdf-parser {{[-t|--type]}} {{/Font}} {{path/to/file.pdf}}`
+`pdf-parser {{[-t|--type]}} {{/object_type}} {{path/to/file.pdf}}`
 
 - Search for strings in indirect objects:
 
