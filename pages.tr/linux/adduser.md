@@ -1,7 +1,7 @@
 # adduser
 
 > Kullanıcı ekleme yardımcısı
-> Detaylı bilgi için bkz: <https://manned.org/man.tr/adduser.8>.
+> Daha fazla bilgi için: <https://manned.org/man.tr/adduser.8>.
 
 - Varsayılan ev diziniyle yeni bir kullanıcı oluşturun ve kullanıcının bir parola belirlemesini isteyin:
 
