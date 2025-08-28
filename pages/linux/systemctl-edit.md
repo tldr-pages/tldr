@@ -13,4 +13,4 @@
 
 - Create a new unit file:
 
-`sudo systemctl edit {{[-lf|--full --force]}}`
+`sudo systemctl edit {{[-lf|--full --force]}} {{unit_file}}`
