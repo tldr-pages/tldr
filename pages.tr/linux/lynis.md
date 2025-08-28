@@ -1,7 +1,7 @@
 # lynis
 
 > Sistem ve güvenlik denetim aracı.
-> Detaylı bilgi için bkz.: <https://cisofy.com/documentation/lynis/>
+> Daha fazla bilgi için: <https://cisofy.com/documentation/lynis/>
 
 - Kullandığınız Lynis sürümünün güncelliğini denetleyin:
 
