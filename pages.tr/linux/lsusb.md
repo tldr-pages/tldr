@@ -1,4 +1,4 @@
-# lsusb 
+# lsusb
 
 > USB girişleri ve girişlere bağlı olan cihazlar hakkında bilgi görüntüleyin.
 > Daha fazla bilgi için bkz.: <https://manned.org/man.tr/lsusb.8>
