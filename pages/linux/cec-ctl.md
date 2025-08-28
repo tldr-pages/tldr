@@ -10,7 +10,7 @@
 
 - Monitor CEC traffic:
 
-`sudo cec-ctl {{[-m|--montor]}}`
+`sudo cec-ctl {{[-m|--monitor]}}`
 
 - Show CEC topology:
 
