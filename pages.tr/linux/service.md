@@ -2,7 +2,7 @@
 
 > Başlatma betiklerini çalıştırarak hizmetleri/servisleri yönetin.
 > Tam betik yolu atlanmalıdır (`/etc/init.d/` varsayılır).
-> Detaylı bilgi için: <https://manned.org/service>.
+> Daha fazla bilgi için: <https://manned.org/service>.
 
 - Tüm servisleri ve durumlarını görüntüleyin:
 
