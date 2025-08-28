@@ -25,4 +25,4 @@
 
 - Always open `i3-nagbar` on the primary monitor (default: focused monitor):
 
-`i3-nagbar {{[-p|--primary]}} {{[-m|--message]}} "{{error message}}"`
+`i3-nagbar {{[-pm|--primary --message]}} "{{error message}}"`
