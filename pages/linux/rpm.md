@@ -6,7 +6,7 @@
 
 - Show version of httpd package:
 
-`rpm {{[-q|--query]}} {{httpd}}`
+`rpm {{[-q|--query]}} httpd`
 
 - List versions of all matching packages:
 
