@@ -1,7 +1,7 @@
 # timedatectl
 
 > Sistem tarih ve zamanını ayarlayın.
-> Daha fazla bilgi için bkz.: <https://manned.org/timedatectl>
+> Detaylı bilgi için: <https://manned.org/timedatectl>
 
 - Mevcut sistem saatini kontrol edin:
 
