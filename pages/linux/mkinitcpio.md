@@ -13,11 +13,11 @@
 
 - Generate a ramdisk environment based on the `linux` preset:
 
-`sudo mkinitcpio {{[-p|--preset]}} {{linux}}`
+`sudo mkinitcpio {{[-p|--preset]}} linux`
 
 - Generate a ramdisk environment based on the `linux-lts` preset:
 
-`sudo mkinitcpio {{[-p|--preset]}} {{linux-lts}}`
+`sudo mkinitcpio {{[-p|--preset]}} linux-lts`
 
 - Generate an initramfs image using an alternative configuration file:
 
