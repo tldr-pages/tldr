@@ -9,7 +9,7 @@
 
 - 编辑合并说明信息:
 
-`git merge --edit {{分支名}}`
+`git merge {{[-e|--edit]}} {{分支名}}`
 
 - 合并分支，创建合并提交：
 
@@ -21,4 +21,4 @@
 
 - 采用特定的策略进行合并：
 
-`git merge --strategy {{策略}} --strategy-option {{策略选项}} {{分支名}}`
+`git merge {{[-s|--strategy]}} {{策略}} {{[-X|--strategy-option]}} {{策略选项}} {{分支名}}`

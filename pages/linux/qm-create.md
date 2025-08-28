@@ -7,13 +7,13 @@
 
 `qm {{[cr|create]}} {{100}}`
 
-- Automatically start the machine after creation:
+- Give the virtual machine a name and automatically start the machine after creation:
 
-`qm {{[cr|create]}} {{100}} --start`
+`qm {{[cr|create]}} {{100}} --name {{vm_name}} --start`
 
-- Give the virtual machine a name:
+- Give a virtual machine specified amount of memory and CPUs:
 
-`qm {{[cr|create]}} {{100}} --name {{vm_name}}`
+`qm {{[cr|create]}} {{100}} --memory {{8192}} --cores {{4}}`
 
 - Specify the type of operating system on the machine:
 

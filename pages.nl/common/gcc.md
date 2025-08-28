@@ -2,7 +2,7 @@
 
 > Preprocess en compileer C en C++ bronbestanden, monteer en koppel ze vervolgens samen.
 > Onderdeel van GCC (GNU Compiler Collection).
-> Meer informatie: <https://gcc.gnu.org>.
+> Meer informatie: <https://gcc.gnu.org/onlinedocs/gcc/>.
 
 - Compileer meerdere bronbestanden in een uitvoerbaar bestand:
 

@@ -1,7 +1,8 @@
 # dust
 
-> Dust gives an instant overview of which directories are using disk space.
-> More information: <https://github.com/bootandy/dust>.
+> Give an instant overview of which directories are using disk space.
+> See also: `du`, `ncdu`.
+> More information: <https://github.com/bootandy/dust#usage>.
 
 - Display information for the current directory:
 
@@ -13,20 +14,20 @@
 
 - Display 30 directories (defaults to 21):
 
-`dust --number-of-lines 30`
+`dust {{[-n|--number-of-lines]}} 30`
 
 - Display information for the current directory, up to 3 levels deep:
 
-`dust --depth 3`
+`dust {{[-d|--depth]}} 3`
 
-- Display the biggest directories at the top in descending order:
+- Display the largest directories at the top in descending order:
 
-`dust --reverse`
+`dust {{[-r|--reverse]}}`
 
-- Ignore all files and directories with a specific name:
+- Ignore a file or directory:
 
-`dust --ignore-directory {{file_or_directory_name}}`
+`dust {{[-X|--ignore-directory]}} {{path/to/file_or_directory}}`
 
 - Do not display percent bars and percentages:
 
-`dust --no-percent-bars`
+`dust {{[-b|--no-percent-bars]}}`
