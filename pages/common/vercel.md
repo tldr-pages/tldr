@@ -19,13 +19,13 @@
 
 `vercel init`
 
-- Deploy with Environment Variables:
+- Deploy with environment variables:
 
-`vercel --env {{ENV}}={{var}}`
+`vercel {{[-e|--env]}} {{ENV}}={{var}}`
 
-- Build with Environment Variables:
+- Build with environment variables:
 
-`vercel --build-env {{ENV}}={{var}}`
+`vercel {{[-b|--build-env]}} {{ENV}}={{var}}`
 
 - Set default regions to enable the deployment on:
 
