@@ -16,10 +16,6 @@
 
 `sudo pacman -Rs {{paket_ismi}}`
 
-- İndirilmiş paket ve sürümleri sırala:
-
-`pacman -Q`
-
 - Sadece özellikle belirtilen paket ve sürümleri sırala:
 
 `pacman -Qe`
