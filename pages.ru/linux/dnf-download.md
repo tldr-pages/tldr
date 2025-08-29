@@ -2,7 +2,7 @@
 
 > Загрузка RPM-пакетов из репозиториев DNF.
 > Не является частью основной команды `dnf`, но поддерживается через плагин `dnf-plugins-core`.
-> Подробнее: <https://dnf-plugins-core.readthedocs.io/en/latest/download.html>.
+> Больше информации: <https://dnf-plugins-core.readthedocs.io/en/latest/download.html>.
 
 - Скачать последнюю версию пакета в текущую директорию:
 
