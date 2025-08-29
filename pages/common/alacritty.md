@@ -19,7 +19,7 @@
 
 `alacritty --working-directory {{path/to/directory}}`
 
-- execute a command in a new Alacritty window (also works with `alacritty msg create-window`):
+- Execute a command in a new Alacritty window (also works with `alacritty msg create-window`):
 
 `alacritty {{[-e|--command]}} {{command}}`
 
