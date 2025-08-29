@@ -22,4 +22,3 @@
 - Remi'nin RPM deposunu ekle:
 
 `sudo dnf {{[in|install]}} https://rpms.remirepo.net/enterprise/remi-release-{{8}}.rpm`
-

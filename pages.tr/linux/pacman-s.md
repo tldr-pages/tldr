@@ -5,4 +5,3 @@
 - Asıl komutun dökümantasyonunu görüntüle:
 
 `tldr pacman sync`
-

@@ -28,4 +28,3 @@
 - Yardımı görüntüle:
 
 `dnf builddep --help-cmd`
-

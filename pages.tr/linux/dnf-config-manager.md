@@ -28,4 +28,3 @@
 - Yardımı görüntüle:
 
 `dnf config-manager --help-cmd`
-
