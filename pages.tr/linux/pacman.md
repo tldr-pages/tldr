@@ -24,6 +24,18 @@
 
 `pacman -Qe`
 
+- Orphan paketleri listele (bağımlılık olarak kurulmuş ama aslında hiçbir paket tarafından gerekmeyenler):
+
+`pacman -Qtdq`
+
 - Paket çerezlerini boş alan açmak için temizle:
 
 `sudo pacman -Scc`
+
+- Paket veritabanında `regex` veya anahter kelime ile ara:
+
+`pacman -Ss "{{search_pattern}}"`
+
+- Belirli bir dosyayı içeren paketleri veritabanında ara:
+
+`pacman -F "{{file_name}}"`
