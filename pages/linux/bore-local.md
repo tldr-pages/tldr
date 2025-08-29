@@ -13,7 +13,7 @@
 
 - Specify a remote server port explicitly:
 
-`bore local --to {{remote_server_address}} --port {{remote_port}} {{local_port}}`
+`bore local {{[-t|--to]}} {{remote_server_address}} {{[-p|--port]}} {{remote_port}} {{local_port}}`
 
 - Use a secret for authentication:
 
