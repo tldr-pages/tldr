@@ -9,7 +9,7 @@
 
 - Expose a specific local host instead of `localhost`:
 
-`bore local --local-host {{host}} --to {{remote_server_address}} {{local_port}}`
+`bore local {{[-l|--local-host]}} {{host}} {{[-t|--to]}} {{remote_server_address}} {{local_port}}`
 
 - Specify a remote server port explicitly:
 
