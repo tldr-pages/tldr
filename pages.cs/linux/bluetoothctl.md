@@ -7,7 +7,7 @@
 
 `bluetoothctl`
 
-- Vypsat všechny známe zařízení:
+- Vypsat všechna známá zařízení:
 
 `bluetoothctl devices`
 
@@ -15,7 +15,7 @@
 
 `bluetoothctl power {{on|off}}`
 
-- Spárovat se s zařízením:
+- Spárovat se zařízením:
 
 `bluetoothctl pair {{mac_adresa}}`
 
@@ -23,7 +23,7 @@
 
 `bluetoothctl remove {{mac_adresa}}`
 
-- Připojit se ke spárovanému zařízení:
+- Připojit se k spárovanému zařízení:
 
 `bluetoothctl connect {{mac_adresa}}`
 
