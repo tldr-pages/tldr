@@ -1,7 +1,7 @@
 # npm run
 
 > Komut çalıştırır.
-> Daha fazla bilgi için: <https://docs.npmjs.com/cli/npm-run>.
+> Daha fazla bilgi için: <https://docs.npmjs.com/cli/commands/npm-run-script>.
 
 - Bir komut çalıştırır:
 
