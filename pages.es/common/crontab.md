@@ -1,7 +1,7 @@
 # crontab
 
 > Programa trabajos recurrentes (cron jobs) para ejecutarse a intervalos de tiempo para el usuario actual.
-> Más información: <https://crontab.guru/>.
+> Más información: <https://manned.org/crontab>.
 
 - Edita el archivo crontab para el usuario actual:
 
