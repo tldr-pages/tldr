@@ -7,9 +7,9 @@
 
 `pdf-parser {{[-a|--stats]}} {{path/to/file.pdf}}`
 
-- نمایش اشیاء با نوع `/Font` در یک فایل پی دی اف:
+- نمایش اشیاء از یک نوع خاص (`/Font`, `/URI`, ...) در یک فایل پی دی اف:
 
-`pdf-parser {{[-t|--type]}} {{/Font}} {{path/to/file.pdf}}`
+`pdf-parser {{[-t|--type]}} {{/object_type}} {{path/to/file.pdf}}`
 
 - جستجوی رشته ها در اشیاء غیرمستقیم:
 
