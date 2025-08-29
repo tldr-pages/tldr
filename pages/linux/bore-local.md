@@ -5,7 +5,7 @@
 
 - Expose a local port to a remote Bore server:
 
-`bore local --to {{remote_server_address}} {{local_port}}`
+`bore local {{[-t|--to]}} {{remote_server_address}} {{local_port}}`
 
 - Expose a specific local host instead of `localhost`:
 
