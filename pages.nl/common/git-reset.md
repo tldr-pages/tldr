@@ -12,7 +12,7 @@
 
 `git reset {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
 
-- Maak toevoegingen van delen van een bestand ongedaan:
+- Maak toevoegingen van delen van een bestand interactief ongedaan:
 
 `git reset {{[-p|--patch]}} {{pad/naar/bestand}}`
 
