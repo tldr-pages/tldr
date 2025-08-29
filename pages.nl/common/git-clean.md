@@ -11,7 +11,7 @@
 
 `git clean {{[-i|--interactive]}}`
 
-- Toon welke bestanden verwijdert zouden worden zonder ze echt te verwijderen:
+- Toon welke bestanden verwijderd zouden worden zonder ze echt te verwijderen:
 
 `git clean {{[-n|--dry-run]}}`
 
