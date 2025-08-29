@@ -1,6 +1,6 @@
 # bore local
 
-> Starts a local proxy to a remote server using Bore.
+> Start a local proxy to a remote server using Bore.
 > More information: <https://github.com/ekzhang/bore#detailed-usage>.
 
 - Expose a local port to a remote Bore server:
