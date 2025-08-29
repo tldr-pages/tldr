@@ -9,4 +9,4 @@
 
 - Restart more than one unit:
 
-`systemctl restart {{unit1}} {{unit2}}`
+`systemctl restart {{unit1 unit2 ...}}`
