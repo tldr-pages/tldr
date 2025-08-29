@@ -21,4 +21,4 @@
 
 - Display help:
 
-`bore local --help`
+`bore local {{[-h|--help]}}`
