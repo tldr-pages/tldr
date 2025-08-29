@@ -17,7 +17,7 @@
 
 - Use a secret for authentication:
 
-`bore local --to {{remote_server_address}} --secret {{your_secret}} {{local_port}}`
+`bore local {{[-t|--to]}} {{remote_server_address}} {{[-s|--secret]}} {{your_secret}} {{local_port}}`
 
 - Display help:
 
