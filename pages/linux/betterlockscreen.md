@@ -1,7 +1,7 @@
 # betterlockscreen
 
 > Simple, minimal lock screen.
-> More information: <https://github.com/betterlockscreen/betterlockscreen>.
+> More information: <https://github.com/betterlockscreen/betterlockscreen#usage>.
 
 - Lock the screen:
 
