@@ -31,6 +31,6 @@
 
 `cmake --build {{pad/naar/bouwmap}} {{[-t|--target]}} {{doelnaam}}`
 
-- Toon de help en verkrijg een lijst met generatoren:
+- Toon de help:
 
 `cmake {{[-h|--help]}}`
