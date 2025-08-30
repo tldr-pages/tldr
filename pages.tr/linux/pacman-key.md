@@ -2,7 +2,7 @@
 
 > pacman'ın anahtar zincirini yönetmek için kullanılan GnuPG sarmalayıcı betiği.
 > Ayrıca bakınız: `pacman`.
-> Daha fazla bilgi: <https://manned.org/pacman-key>.
+> Daha fazla bilgi için: <https://manned.org/pacman-key>.
 
 - `pacman` anahtar zincirini başlat:
 
