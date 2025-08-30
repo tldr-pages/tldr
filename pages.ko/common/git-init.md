@@ -13,7 +13,7 @@
 
 - 객체 해시로 SHA256를 사용하여 저장소 초기화 (Git 버전 2.29+ 이상 필요):
 
-`git init --object-format {{sha256}}`
+`git init --object-format sha256`
 
 - SSH를 통해 원격으로 사용할 수 있는 베어본 저장소 초기화:
 
