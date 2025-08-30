@@ -13,7 +13,7 @@
 
 - Lancer un conteneur, en attachant `stdout` et `stderr` et en transférant les signaux :
 
-`docker start --attach {{conteneur}}`
+`docker start {{[-a|--attach]}} {{conteneur}}`
 
 - Lancer un ou plusieurs conteneurs séparés par des espaces :
 

@@ -9,12 +9,12 @@
 
 - Speichere ein Image in ein Tar-Archiv:
 
-`docker save --output {{pfad/zu/datei.tar}} {{image}}:{{tag}}`
+`docker save {{[-o|--output]}} {{pfad/zu/datei.tar}} {{image}}:{{tag}}`
 
 - Speichere alle Tags eines Images:
 
-`docker save --output {{pfad/zu/datei.tar}} {{image_name}}`
+`docker save {{[-o|--output]}} {{pfad/zu/datei.tar}} {{image_name}}`
 
 - Speichere nur bestimmte Tags eines Images:
 
-`docker save --output {{pfad/zu/datei.tar}} {{image_name:tag1 image_name:tag2 ...}}`
+`docker save {{[-o|--output]}} {{pfad/zu/datei.tar}} {{image_name:tag1 image_name:tag2 ...}}`

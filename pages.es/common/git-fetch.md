@@ -17,8 +17,8 @@
 
 - Recibe también las etiquetas de un repositorio upstream:
 
-`git fetch --tags`
+`git fetch {{[-t|--tags]}}`
 
 - Elimina las referencias locales a ramas remotas que han sido eliminadas de upstream:
 
-`git fetch --prune`
+`git fetch {{[-p|--prune]}}`

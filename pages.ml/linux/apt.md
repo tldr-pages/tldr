@@ -34,4 +34,4 @@
 
 - ഇൻസ്റ്റാൾ ചെയ്ത പാക്കേജുകൾ കാണിക്കുക:
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`

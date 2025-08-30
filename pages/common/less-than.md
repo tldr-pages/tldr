@@ -1,4 +1,4 @@
-# Less than
+# <
 
 > Redirect data to `stdin`.
 > More information: <https://gnu.org/software/bash/manual/bash.html#Redirecting-Input>.
@@ -30,3 +30,7 @@
 - Pass command output to a program as a file descriptor:
 
 `diff <({{command1}}) <({{command2}})`
+
+- Open a persistent file descriptor:
+
+`exec {{3}}<{{path/to/file}}`
