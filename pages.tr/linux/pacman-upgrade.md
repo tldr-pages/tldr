@@ -2,7 +2,7 @@
 
 > Arch Linux paket yöneticisi aracı.
 > Ayrıca bakınız: `pacman`.
-> Daha fazla bilgi: <https://manned.org/pacman.8>
+> Daha fazla bilgi için: <https://manned.org/pacman.8>
 
 - Dosyalardan bir veya daha fazla paket kur:
 
