@@ -21,8 +21,8 @@
 
 - El nombre de la pila sobre la que operar (por defecto es la pila actual):
 
-`pulumi refresh --stack {{nombre_pila}}`
+`pulumi refresh {{[-s|--stack]}} {{nombre_pila}}`
 
 - Muestra la ayuda:
 
-`pulumi refresh --help`
+`pulumi refresh {{[-h|--help]}}`
