@@ -9,15 +9,15 @@
 
 - Lista todas as imagens Docker incluindo imagens intermedirárias:
 
-`docker images --all`
+`docker images {{[-a|--all]}}`
 
 - Lista no modo silencioso (somente IDs numéricos):
 
-`docker images --quiet`
+`docker images {{[-q|--quiet]}}`
 
 - Lista todas as imagens Docker não usadas por nenhum container:
 
-`docker images --filter dangling=true`
+`docker images {{[-f|--filter]}} dangling=true`
 
 - Lista imagens que contenham um substring no seu nome:
 

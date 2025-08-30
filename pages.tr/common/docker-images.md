@@ -9,15 +9,15 @@
 
 - Orta düzeyler de dahil olmak üzere tüm Docker imgelerini sırala:
 
-`docker images --all`
+`docker images {{[-a|--all]}}`
 
 - Çıktıyı sessiz modda (yalnızca sayısal ID'ler olarak) sırala:
 
-`docker images --quiet`
+`docker images {{[-q|--quiet]}}`
 
 - Herhangi bir konteyner tarafından kullanılmayan tüm Docker imgelerini sırala:
 
-`docker images --filter dangling=true`
+`docker images {{[-f|--filter]}} dangling=true`
 
 - İsminde belirtilen dizeleri taşıyan imgeleri sırala:
 
