@@ -34,4 +34,3 @@
 - Display help:
 
 `updatectl {{[-h|--help]}}`
- 
