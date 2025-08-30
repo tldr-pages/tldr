@@ -1,7 +1,7 @@
 # dnf module
 
 > Paket modülerliğini yönetmek için kullanılır.
-> Daha fazla bilgi: <https://dnf.readthedocs.io/en/latest/command_ref.html#module-command>.
+> Daha fazla bilgi için: <https://dnf.readthedocs.io/en/latest/command_ref.html#module-command>.
 
 - Modülerlik genel görünümünü göster:
 
