@@ -7,7 +7,7 @@
 
 `sudo fscrypt setup`
 
-- Prepare a specific mountpoint for use with fscrypt:
+- Prepare a specific mountpoint for use with `fscrypt`:
 
 `fscrypt setup {{path/to/directory}}`
 
