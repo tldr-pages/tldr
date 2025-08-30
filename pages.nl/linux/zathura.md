@@ -1,6 +1,6 @@
 # zathura
 
-> Een vim-achtige modale bestandsviewer, met een geïntegreerde command-line.
+> Een Vim-achtige modale bestandsviewer, met een geïntegreerde command-line.
 > Zorg ervoor dat er een backend is geïnstalleerd (poppler, PostScript of DjVu).
 > Meer informatie: <https://pwmt.org/projects/zathura/>.
 
