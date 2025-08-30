@@ -8,7 +8,7 @@
 
 `bore local {{[-t|--to]}} {{remote_server_address}} {{local_port}}`
 
-- Start a bore server:
+- Start a Bore server:
 
 `bore server`
 
