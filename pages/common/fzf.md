@@ -2,7 +2,7 @@
 
 > Fuzzy finder.
 > Similar to `sk`.
-> More information: <https://github.com/junegunn/fzf>.
+> More information: <https://github.com/junegunn/fzf#usage>.
 
 - Start `fzf` on all files in the specified directory:
 
@@ -20,10 +20,10 @@
 
 `fzf {{[-q|--query]}} "{{query}}"`
 
-- Start `fzf` on entries that start with core and end with either go, rb, or py:
+- Start `fzf` on entries that start with `core` and end with either `go`, `rb`, or `py`:
 
 `fzf {{[-q|--query]}} "^core go$ | rb$ | py$"`
 
-- Start `fzf` on entries that not match pyc and match exactly travis:
+- Start `fzf` on entries that not match `pyc` and match exactly `travis`:
 
-`fzf {{[-q|--query]}} "!pyc 'travis"`
+`fzf {{[-q|--query]}} "\!pyc 'travis'"`
