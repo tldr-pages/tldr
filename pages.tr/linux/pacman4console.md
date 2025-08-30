@@ -1,7 +1,7 @@
 # pacman4console
 
 > Orijinal Pacman'den ilham alan metin tabanlı bir konsol oyunu.
-> Daha fazla bilgi: <https://github.com/YoctoForBeaglebone/pacman4console>.
+> Daha fazla bilgi için: <https://github.com/YoctoForBeaglebone/pacman4console>.
 
 - Seviye 1'de bir oyuna başla:
 
