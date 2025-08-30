@@ -16,7 +16,6 @@
 
 `sudo pacman -Rs {{paket_ismi}}`
 
-
 - Paket veritabanında `regex` veya anahter kelime ile ara:
 
 `pacman -Ss "{{search_pattern}}"`
