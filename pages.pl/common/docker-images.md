@@ -9,12 +9,12 @@
 
 - Wyświetl wszystkie obrazy Dockera, w tym intermediates:
 
-`docker images -a`
+`docker images {{[-a|--all]}}`
 
 - Wyświetl dane wyjściowe w trybie quiet (tylko identyfikatory numeryczne):
 
-`docker images -q`
+`docker images {{[-q|--quiet]}}`
 
 - Wyświetl wszystkie obrazy Docker nieużywane przez żaden kontener:
 
-`docker images --filter dangling=true`
+`docker images {{[-f|--filter]}} dangling=true`
