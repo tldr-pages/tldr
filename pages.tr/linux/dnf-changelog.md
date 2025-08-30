@@ -3,7 +3,7 @@
 > Belirli bir paketin değişiklik kayıtlarını görüntülemek için kullanılır.
 > Varsayılan olarak `dnf` ile gelmez, `dnf-plugins-core` ile desteklenir.
 > Ayrıca bakınız: `dnf`.
-> Daha fazla bilgi: <https://dnf-plugins-core.readthedocs.io/en/latest/changelog.html>.
+> Daha fazla bilgi için: <https://dnf-plugins-core.readthedocs.io/en/latest/changelog.html>.
 
 - Belirli bir paketin tüm değişiklik kayıtlarını görüntüle:
 
