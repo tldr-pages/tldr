@@ -1,7 +1,7 @@
 # dnf group
 
 > Fedora tabanlı sistemlerde paketlerin sanal koleksiyonlarını yönetmek için kullanılır.
-> Daha fazla bilgi: <https://dnf.readthedocs.io/en/latest/command_ref.html#group-command>.
+> Daha fazla bilgi için: <https://dnf.readthedocs.io/en/latest/command_ref.html#group-command>.
 
 - DNF gruplarını listele, kurulu ve kurulmamış durumları tabloda göster:
 
