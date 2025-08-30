@@ -2,7 +2,7 @@
 
 > Belirtilen her bağımlılığı kontrol eder ve sistemde henüz karşılanmamış bağımlılıkların bir listesini döndürür.
 > Ayrıca bakınız: `pacman`.
-> Daha fazla bilgi: <https://manned.org/pacman.8>.
+> Daha fazla bilgi için: <https://manned.org/pacman.8>.
 
 - Kurulu olmayan bağımlılıkların paket adlarını yazdır:
 
