@@ -2,7 +2,7 @@
 
 > Preprocesa y compila archivos de código fuente de C++.
 > Parte de GCC (GNU Compiler Collection).
-> Más información: <https://gcc.gnu.org>.
+> Más información: <https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Dialect-Options.html>.
 
 - Compila varios archivo de código fuente en un ejecutable:
 
