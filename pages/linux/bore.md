@@ -1,6 +1,7 @@
 # bore local
 
 > Start a local proxy to a remote server using Bore.
+> Subcommand `local` has its own usage documentation.
 > More information: <https://github.com/ekzhang/bore#detailed-usage>.
 
 - Expose a local port to a remote Bore server:
