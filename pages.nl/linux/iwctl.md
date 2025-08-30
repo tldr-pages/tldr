@@ -3,15 +3,15 @@
 > Beheer de `iwd` netwerk supplicant.
 > Meer informatie: <https://manned.org/iwctl>.
 
-- Start de interactieve modus, in deze modus kunt u de commando's direct invoeren, met autocompletion:
+- Voer `iwctl` uit in interactieve modus:
 
 `iwctl`
 
-- Toon jouw Wi-Fi-stations:
+- Toon Wi-Fi-stations:
 
 `iwctl station list`
 
-- Begin met zoeken naar netwerken met een station:
+- Zoek naar netwerken met een station:
 
 `iwctl station {{station}} scan`
 
