@@ -31,6 +31,6 @@
 
 `cmake --build {{path/to/build_directory}} {{[-t|--target]}} {{target_name}}`
 
-- Display help, obtain a list of generators:
+- Display help:
 
 `cmake {{[-h|--help]}}`
