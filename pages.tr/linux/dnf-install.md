@@ -1,7 +1,7 @@
 # dnf install
 
 > Red Hat tabanlı dağıtımlarda paket kurmak için kullanılır.
-> Daha fazla bilgi: <https://dnf.readthedocs.io/en/latest/command_ref.html#install-examples>.
+> Daha fazla bilgi için: <https://dnf.readthedocs.io/en/latest/command_ref.html#install-examples>.
 
 - Paketleri ad ile kur:
 
