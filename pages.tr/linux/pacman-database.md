@@ -3,7 +3,7 @@
 > Arch Linux paket veritabanında işlem yapmak için kullanılır.
 > Kurulu paketlerin belirli özelliklerini değiştirir.
 > Ayrıca bakınız: `pacman`.
-> Daha fazla bilgi: <https://manned.org/pacman.8>.
+> Daha fazla bilgi için: <https://manned.org/pacman.8>.
 
 - Bir paketi dolaylı olarak kurulu olarak işaretle:
 
