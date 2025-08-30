@@ -1,32 +1,38 @@
 # dnf
 
 > RHEL, Fedora ve CentOS için paket yönetim aracı (yum'un yerini alır).
+> `group` ve `config-manager` gibi bazı alt komutların kendi kullanım dökümantasyonu vardır.
+> Diğer paket yöneticilerindeki eşdeğer komutlar için bkz: <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > Daha fazla bilgi için: <https://dnf.readthedocs.io>.
 
-- Kurulu paketleri kullanılabilir en yeni sürümlere yükselt:
+- Kurulu paketleri mevcut en yeni sürümlere yükselt:
 
-`sudo dnf upgrade`
+`sudo dnf {{[up|upgrade]}}`
 
-- Anahtar kelimeler kullanarak paket ara:
+- Paketleri anahtar kelimelerle ara:
 
-`dnf search {{anahtar_kelimeler1 anahtar_kelimeler2 ...}}`
+`dnf {{[se|search]}} {{anahtar_kelime1 anahtar_kelime2 ...}}`
 
-- Bir paketin ayrıntılarını göster:
+- Bir paket hakkında detaylı bilgi göster:
 
-`dnf info {{paket}}`
+`dnf {{[if|info]}} {{paket}}`
 
-- Yeni bir paket kur:
+- Yeni bir paket kur (`--assumeyes` ile tüm onayları otomatik kabul edebilirsin):
 
-`sudo dnf install {{paket1 paket2 ...}}`
+`sudo dnf {{[in|install]}} {{paket1 paket2 ...}}`
 
 - Bir paketi kaldır:
 
-`sudo dnf remove {{paket1 paket2 ...}}`
+`sudo dnf {{[rm|remove]}} {{paket1 paket2 ...}}`
 
 - Kurulu paketleri listele:
 
-`dnf list --installed`
+`dnf {{[ls|list]}} --installed`
 
-- Verilen dosyayı hangi paketlerin sağladığını bul:
+- Belirli bir komutu sağlayan paketleri bul:
 
-`dnf provides {{dosya}}`
+`dnf {{[wp|provides]}} {{komut}}`
+
+- Geçmiş tüm işlemleri görüntüle:
+
+`dnf {{[hist|history]}}`
