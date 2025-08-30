@@ -1,4 +1,4 @@
-# bore local
+# bore
 
 > Start a local proxy to a remote server using Bore.
 > Subcommand `local` has its own usage documentation.
