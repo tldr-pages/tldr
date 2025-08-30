@@ -3,7 +3,7 @@
 > Go tool for managing Linux filesystem encryption.
 > More information: <https://github.com/google/fscrypt>.
 
-- Prepare the root filesystem for use with fscrypt:
+- Prepare the root filesystem for use with `fscrypt`:
 
 `sudo fscrypt setup`
 
