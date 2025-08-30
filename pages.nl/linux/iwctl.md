@@ -15,7 +15,7 @@
 
 `iwctl station {{station}} scan`
 
-- Toon de netwerken die zijn gevonden door de station:
+- Toon de netwerken die zijn gevonden door het station:
 
 `iwctl station {{station}} get-networks`
 
