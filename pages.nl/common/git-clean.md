@@ -23,6 +23,6 @@
 
 `git clean {{[-f|--force]}} -d`
 
-- Verwijder niet-bijgehouden bestanden, inclusief geë[x]cludeerde bestanden (bestanden die worden genegeerd door `.gitignore` en `.git/info/exclude`):
+- Verwijder niet-bijgehouden bestanden, inclusief genegeerde ([x]) bestanden (bestanden die worden genegeerd door `.gitignore` en `.git/info/exclude`):
 
 `git clean -x`
