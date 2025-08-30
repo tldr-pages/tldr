@@ -13,7 +13,7 @@
 
 - 初始化仓库，使用 SHA256 算法生成对象哈希（需 Git 2.29+ 版本支持）：
 
-`git init --object-format {{sha256}}`
+`git init --object-format sha256`
 
 - 创建裸仓库，适合用作 SSH 远程仓库：
 
