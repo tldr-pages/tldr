@@ -13,7 +13,7 @@
 
 - Inicializa um repositório usando SHA256 para os hashes de objeto (requer Git versão 2.29+):
 
-`git init --object-format {{sha256}}`
+`git init --object-format sha256`
 
 - Inicializa um repositório barebones, adequado para usar como um remoto via SSH:
 

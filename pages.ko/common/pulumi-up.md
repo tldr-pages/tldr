@@ -9,11 +9,11 @@
 
 - 미리보기 후 자동 승인 및 업데이트 수행:
 
-`pulumi up --yes`
+`pulumi up {{[-y|--yes]}}`
 
 - 특정 스택에서 변경 사항 미리보기 및 배포:
 
-`pulumi up --stack {{스택}}`
+`pulumi up {{[-s|--stack]}} {{스택}}`
 
 - 스택 출력을 표시하지 않음:
 

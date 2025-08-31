@@ -34,4 +34,4 @@
 
 - 列出已安装的软件包：
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`
