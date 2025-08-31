@@ -35,4 +35,3 @@
 - Pull a shared environment from FloxHub:
 
 `flox pull {{environment_name}}`
-
