@@ -6,3 +6,15 @@
 - Subset a TTF font file to the Basic Latin Unicode block:
 
 `fonttools subset font.ttf --unicodes=U+0000-007F`
+
+- Change the file type to WOFF2:
+
+`fonttools subset font.ttf --unicodes=U+0000-007F --flavor=woff2`
+
+- Keep only the onum (oldstyle figures) and kern (kerning) OpenType font features:
+
+`fonttools subset font.ttf --unicodes=U+0000-007F --layout-features=onum,kern`
+
+- Set the output file's name:
+
+`fonttools subset font.ttf --unicodes=U+0000-007F --output-file=subset.ttf`
