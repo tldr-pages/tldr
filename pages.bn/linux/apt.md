@@ -34,4 +34,4 @@
 
 - ইনস্টল করা প্যাকেজ সমূহ তালিকা করুন:
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`

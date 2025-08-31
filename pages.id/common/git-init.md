@@ -13,7 +13,7 @@
 
 - Inisialisasikan sebuah repositori menggunakan format hash objek berbasis SHA256 (membutuhkan Git versi 2.29+):
 
-`git init --object-format {{sha256}}`
+`git init --object-format sha256`
 
 - Inisialisasikan sebuah repositori kosong (barebones) yang dapat digunakan sebagai remote melalui koneksi SSH:
 

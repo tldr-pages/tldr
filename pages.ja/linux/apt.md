@@ -34,4 +34,4 @@
 
 - インストールされた全てのパッケージを表示（依存関係も表示）:
 
-`apt list --installed`
+`apt list {{[-i|--installed]}}`
