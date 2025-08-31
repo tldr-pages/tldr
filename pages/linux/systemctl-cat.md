@@ -13,4 +13,4 @@
 
 - Show the contents of a unit file for a template with a specific instance:
 
-`systemctl cat {{template@instance}}`
+`systemctl cat {{template@}}`
