@@ -17,7 +17,7 @@
 
 - Clone a local repository:
 
-`git clone {{[-l|--local]}} {{path/to/local/repository}}`
+`git clone {{[-l|--local]}} {{path/to/local_repository}}`
 
 - Clone quietly:
 
@@ -25,7 +25,7 @@
 
 - Clone an existing repository only fetching the 10 most recent commits on the default branch (useful to save time):
 
-`git clone --depth {{10}} {{remote_repository_location}}`
+`git clone --depth 10 {{remote_repository_location}}`
 
 - Clone an existing repository only fetching a specific branch:
 
