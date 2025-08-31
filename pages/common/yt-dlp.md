@@ -3,7 +3,7 @@
 > A youtube-dl fork with additional features and fixes.
 > Download videos from YouTube and other websites.
 > See also: `ytfzf`.
-> More information: <https://github.com/yt-dlp/yt-dlp>.
+> More information: <https://github.com/yt-dlp/yt-dlp#usage-and-options>.
 
 - Download a video or playlist (with the default options from command below):
 
