@@ -3,15 +3,15 @@
 > Control the `iwd` network supplicant.
 > More information: <https://manned.org/iwctl>.
 
-- Start the interactive mode, in this mode you can enter the commands directly, with autocompletion:
+- Run `iwctl` in interactive mode:
 
 `iwctl`
 
-- Display your Wi-Fi stations:
+- Display Wi-Fi stations:
 
 `iwctl station list`
 
-- Start looking for networks with a station:
+- Look for networks with a station:
 
 `iwctl station {{station}} scan`
 
