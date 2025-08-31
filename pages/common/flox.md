@@ -1,7 +1,8 @@
 # flox
 
-> A next-generation package and virtual environment manager. Flox allows you to create reproducible development environments that are portable across multiple platforms and can be shared with others.
-> More information: <https://flox.dev/docs/>
+> A next-generation package and virtual environment manager.
+> Flox allows you to create reproducible development environments that are portable across multiple platforms and can be shared with others.
+> More information: <https://flox.dev/docs/>.
 
 - Create a new environment in the current directory:
 
