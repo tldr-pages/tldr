@@ -27,7 +27,7 @@
 
 `rbw get {{[-c|--clipboard]}} "{{entry_name}}"`
 
-- Generate a new password:
+- Generate a new password with the specified number of characters:
 
 `rbw generate {{password_length}}`
 
