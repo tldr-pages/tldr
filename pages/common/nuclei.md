@@ -11,7 +11,7 @@
 
 `nuclei -tl {{[-pt|-type]}} {{dns|file|http|headless|tcp|workflow|ssl|websocket|whois|code|javascript}}`
 
-- Run an [a]utomatic web [s]can using Wappalyzer technology detection for a specific target [u]RL/host:
+- Run an automatic web scan using Wappalyzer technology detection for a specific target [u]RL/host:
 
 `nuclei {{[-as|-automatic-scan]}} {{[-u|-target]}} {{scanme.nmap.org}}`
 
