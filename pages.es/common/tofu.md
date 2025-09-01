@@ -1,7 +1,7 @@
 # tofu
 
 > Crea y despliega infraestructura como código a proveedores de nube. Bifurcación de código abierto de Terraform.
-> Más información: <https://opentofu.org/>.
+> Más información: <https://opentofu.org/docs/cli/commands/>.
 
 - Inicializa una configuración OpenTofu nueva o existente:
 
