@@ -5,11 +5,11 @@
 
 - Convert a linear logical volume to RAID1 (add one mirror: two copies total):
 
-`lvconvert --type raid1 {{[-m|--mirrors]}} {{1}} {{/dev/vg_name/lv_name}}`
+`lvconvert --type raid1 {{[-m|--mirrors]}} {{/dev/vg_name/lv_name}}`
 
 - Remove mirroring and convert back to a linear logical volume:
 
-`lvconvert {{[-m|--mirrors]}} {{0}} {{/dev/vg_name/lv_name}}`
+`lvconvert {{[-m|--mirrors]}} {{/dev/vg_name/lv_name}}`
 
 - Merge a snapshot back into its origin logical volume (applies on next activation):
 
