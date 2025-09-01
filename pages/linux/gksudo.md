@@ -1,7 +1,7 @@
 > Frontend for sudo.
 > Allows you to run graphical commands which need root access without having to run an X terminal emulator.
-> This command is deprecated in favor of commands like 'pkexec', and is no longer maintained.
-> See also: 'gksu'.
+> Note: This command is deprecated in favor of commands like `pkexec`, and is no longer maintained.
+> See also: `gksu`.
 > More information: <https://manned.org/man/gksudo>.
 
 - Run a command as a specific user:
