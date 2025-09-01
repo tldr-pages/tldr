@@ -11,7 +11,7 @@
 
 `journalctl --vacuum-time 2d`
 
-- Yeni mesajların sadece son 'n' satırlarını gösterin ve takip edin (geleneksel syslog için `tail -f` benzeri)
+- Yeni mesajların sadece son 'n' satırlarını gösterin ve takip edin (geleneksel syslog için `tail -f` benzeri):
 
 `journalctl {{[-n|--lines]}} {{n}} {{[-f|--follow]}}`
 
