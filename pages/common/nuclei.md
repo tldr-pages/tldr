@@ -19,7 +19,7 @@
 
 `nuclei {{[-s|-severity]}} {{high,critical,...}} {{[-pt|-type]}} http {{[-u|-target]}} {{https://example.com}} {{[-me|-markdown-export]}} {{path/to/directory}}`
 
-- Run all templates with a custom [r]ate [l]imit, maximum [b]ulk [s]ize, and silent output (only findings shown):
+- Run all templates with a custom rate limit, maximum bulk size, and silent output (only findings shown):
 
 `nuclei {{[-rl|-rate-limit]}} {{150}} {{[-bs|-bulk-size]}} {{25}} {{[-c|-concurrency]}} {{25}} -silent {{[-u|-target]}} {{https://example.com}}`
 
