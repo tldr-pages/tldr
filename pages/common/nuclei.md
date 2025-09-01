@@ -23,7 +23,7 @@
 
 `nuclei {{[-rl|-rate-limit]}} {{150}} {{[-bs|-bulk-size]}} {{25}} {{[-c|-concurrency]}} {{25}} -silent {{[-u|-target]}} {{https://example.com}}`
 
-- Run a specific nuclei-bundled [w]orkflow against a target:
+- Run a specific nuclei-bundled workflow against a target:
 
 `nuclei {{[-w|-workflows]}} {{workflows/wordpress-workflow.yaml}} {{[-u|-target]}} {{https://example.com}}`
 
