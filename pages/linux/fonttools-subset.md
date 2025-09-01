@@ -17,4 +17,4 @@
 
 - Set the output file's name:
 
-`fonttools subset {{path/to/font.ttf}} --unicodes=U+0000-007F --output-file={{path/to/subset.ttf}}
+`fonttools subset {{path/to/font.ttf}} --unicodes=U+0000-007F --output-file={{path/to/subset.ttf}}`
