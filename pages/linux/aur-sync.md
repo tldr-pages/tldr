@@ -1,4 +1,4 @@
-# aur
+# aur sync
 
 > Download and build AUR packages automatically.
 > Note: A local repository needs to be defined in `/etc/pacman.conf` and `vifm` needs to be installed for this to fully function.
