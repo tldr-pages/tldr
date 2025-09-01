@@ -1,7 +1,7 @@
 # rbw
 
 > Unofficial Bitwarden-compatible CLI password manager, written in Rust.
-> More information: <https://github.com/doy/rbw>.
+> More information: <https://github.com/doy/rbw#configuration>.
 
 - Log in to the vault:
 
