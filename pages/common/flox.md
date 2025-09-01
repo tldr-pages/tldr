@@ -17,7 +17,7 @@
 
 - Install a package into the current environment:
 
-`flox install {{package}}`
+`flox {{[i|install]}} {{package}}`
 
 - Uninstall a package from the current environment:
 
