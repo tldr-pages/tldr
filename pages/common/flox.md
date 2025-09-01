@@ -1,6 +1,6 @@
 # flox
 
-> Easy to use Nix package and environment manager
+> Easy to use Nix package and environment manager.
 > More information: <https://flox.dev/docs/>.
 
 - Create a new environment in the current directory:
