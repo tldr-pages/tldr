@@ -31,3 +31,7 @@
 - Upload a locally saved terminal session to asciinema.org:
 
 `asciinema {{[u|upload]}} {{path/to/recording.cast}}`
+
+- Stream the current terminal on a local webpage:
+
+`asciinema {{[st|stream]}} --local`
