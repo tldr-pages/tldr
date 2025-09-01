@@ -30,4 +30,3 @@
 - Añade un comando al historial sin ejecutarlo:
 
 `history -s {{comando}}`
-
