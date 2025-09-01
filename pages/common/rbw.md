@@ -29,7 +29,7 @@
 
 - Generate a new password:
 
-`rbw generate {{--no-symbols}} {{--only-numbers}} {{--nonconfusables}} {{password_length}}`
+`rbw generate --no-symbols {{password_length}}`
 
 - Lock the vault:
 
