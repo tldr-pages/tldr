@@ -17,15 +17,15 @@
 
 - Get a password for an entry:
 
-`rbw get {{"entry_name"}}`
+`rbw get "{{entry_name}}"`
 
 - Get a username for an entry:
 
-`rbw get {{[-f|--field]}} username {{"entry_name"}}`
+`rbw get {{[-f|--field]}} username "{{entry_name}}"`
 
 - Copy a password to the clipboard:
 
-`rbw get {{[-c|--clipboard]}} {{"entry_name"}}`
+`rbw get {{[-c|--clipboard]}} "{{entry_name}}"`
 
 - Generate a new password:
 
