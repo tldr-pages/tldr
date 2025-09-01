@@ -1,6 +1,6 @@
 # flox
 
-> A next-generation package and virtual environment manager.
+> Tool to create and manage reproducible environments with specific packages and tools.
 > More information: <https://flox.dev/docs/>.
 
 - Create a new environment in the current directory:
