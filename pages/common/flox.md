@@ -1,7 +1,7 @@
 # flox
 
 > Easy to use Nix package and environment manager.
-> More information: <https://flox.dev/docs/>.
+> More information: <https://flox.dev/docs/reference/command-reference/flox/#command-line-completions>.
 
 - Create a new environment in the current directory:
 
