@@ -3,9 +3,12 @@
 > Unofficial Bitwarden-compatible CLI password manager, written in Rust.
 > More information: <https://github.com/doy/rbw>.
 
-- Login and unlock the vault:
+- Log in to the vault:
 
 `rbw login`
+
+- Unlock the vault:
+
 `rbw unlock`
 
 - List all items in the vault:
