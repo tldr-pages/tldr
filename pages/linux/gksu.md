@@ -1,3 +1,5 @@
+# gksu
+
 > Frontend for su.
 > Allows you to run graphical commands which need root access without having to run an X terminal emulator.
 > Note: This command is deprecated in favor of commands like `pkexec`, and is no longer maintained.
