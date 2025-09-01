@@ -9,11 +9,11 @@
 
 - GRUB'u, bir BIOS sistemine belirtilen mimari ile kurun:
 
-`sudo grub-install --target {{i386-pc}} {{cihaz/yolu}}
+`sudo grub-install --target {{i386-pc}} {{cihaz/yolu}}`
 
 - Bir UEFI sisteme GRUB kurun:
 
-`sudo grub-install --efi-directory {{efi/dizini/yolu}}
+`sudo grub-install --efi-directory {{efi/dizini/yolu}}`
 
 - GRUB'u, UEFI bir sisteme belirtilen mimari ve belirtilen önyükleme menü yazısı ile kurun:
 
