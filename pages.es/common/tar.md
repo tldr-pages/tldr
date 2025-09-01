@@ -2,7 +2,7 @@
 
 > Utilidad de archivado.
 > A menudo se combina con un método de compresión, como gzip o bzip2.
-> Más información: <https://www.gnu.org/software/tar>.
+> Más información: <https://www.gnu.org/software/tar/manual/tar.html>.
 
 - [c]rea un archivo y lo escribe en un [f]ichero:
 
