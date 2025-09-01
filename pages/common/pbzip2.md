@@ -12,6 +12,10 @@
 
 `pbzip2 -p{{4}} {{path/to/file}}`
 
+- Compress in combination with tar (remove `-pN` to use all CPUs`):
+
+`tar -cf {{path/to/compressed_file}}.tar.bz2 {{[-I|--use-compress-program]}} "pbzip2 -pN" {{path/to/file}}`
+
 - Decompress a file:
 
 `pbzip2 {{[-d|--decompress]}} {{path/to/compressed_file.bz2}}`
