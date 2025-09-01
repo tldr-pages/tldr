@@ -1,6 +1,6 @@
 # flox
 
-> Tool to create and manage reproducible environments with specific packages and tools.
+> Easy to use Nix package and environment manager
 > More information: <https://flox.dev/docs/>.
 
 - Create a new environment in the current directory:
