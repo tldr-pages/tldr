@@ -15,7 +15,7 @@
 
 `nuclei {{[-as|-automatic-scan]}} {{[-u|-target]}} {{scanme.nmap.org}}`
 
-- Run HTTP [p]rotocol [t]ype templates of specific severity, [e]xporting results to [m]arkdown files inside a specific directory:
+- Run HTTP [p]rotocol [t]ype templates of specific severity, exporting results to markdown files inside a specific directory:
 
 `nuclei {{[-s|-severity]}} {{high,critical,...}} {{[-pt|-type]}} http {{[-u|-target]}} {{https://example.com}} {{[-me|-markdown-export]}} {{path/to/directory}}`
 
