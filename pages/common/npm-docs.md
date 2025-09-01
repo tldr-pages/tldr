@@ -1,7 +1,7 @@
 # npm docs
 
 > Open the documentation for one or more packages in the default web browser.
-> More information: <https://docs.npmjs.com/cli/v11/commands/npm-docs>.
+> More information: <https://docs.npmjs.com/cli/commands/npm-docs>.
 
 - Open a specific package's documentation page:
 
