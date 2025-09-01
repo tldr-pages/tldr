@@ -13,4 +13,4 @@
 
 - Yardımı görüntüleyin:
 
-`grub-mkconfig {{[-h|--help]}}
+`grub-mkconfig {{[-h|--help]}}`
