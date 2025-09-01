@@ -25,7 +25,7 @@
 
 - View a list of all packages installed in the current environment:
 
-`flox list`
+`flox {{[l|list]}}`
 
 - Push a local environment to FloxHub to share with others:
 
