@@ -31,6 +31,6 @@
 
 `nuclei {{[-t|-templates]}} {{path/to/nuclei-templates/http}} {{[-u|-target]}} {{https://example.com}} {{[-v|-verbose]}} {{[-o|-output]}} {{path/to/results}}`
 
-- Run a scan based on one or more [t]emplate [c]onditions:
+- Run a scan based on one or more template conditions:
 
 `nuclei {{[-tc|-template-condition]}} "{{contains(tags, 'xss') && contains(tags, 'cve')}}" {{[-u|-target]}} {{https://example.com}}`
