@@ -1,7 +1,7 @@
 # grub-install
 
 > Bir cihaza GRUB kurun.
-> Daha fazla bilgi için: <https://www.gnu.org/software/grub/manual/grub/grub.html#Installing-GRUB-using-grub_002dinstall>
+> Daha fazla bilgi için: <https://www.gnu.org/software/grub/manual/grub/grub.html#Installing-GRUB-using-grub_002dinstall>.
 
 - Bir BIOS sisteme GRUB kurun:
 

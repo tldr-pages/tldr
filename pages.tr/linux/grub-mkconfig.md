@@ -1,7 +1,7 @@
 # grub-mkconfig
 
 > GRUB yapılandırma dosyası oluşturun.
-> Daha fazla bilgi: <https://www.gnu.org/software/grub/manual/grub/grub.html#Invoking-grub_002dmkconfig>.
+> Daha fazla bilgi için: <https://www.gnu.org/software/grub/manual/grub/grub.html#Invoking-grub_002dmkconfig>.
 
 - Bir deneme çalıştırması yapın ve yapılandırmayı çıktı olarak yazdırın:
 
