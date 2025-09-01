@@ -12,11 +12,11 @@
 
 'gksu {{[-u|--user]}} {{userid}} {{[--preserve-env|-k]}} {{command}}'
 
-- For `gksu` to use `su` to run the command:
+- Force `gksu` to use `su` to run the command:
 
 'gksu {{[-u|--user]}} {{userid}} {{[--su-mode|-w]}} {{command}}'
 
-- For `gksu` to use `sudo` to run the command:
+- Force `gksu` to use `sudo` to run the command:
 
 'gksu {{[-u|--user]}} {{userid}} {{[{{[--sudo-mode|-S]}}]}} {{command}}'
 
