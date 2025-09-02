@@ -9,7 +9,7 @@
 
 - Record programme by results of search:
 
-`get_iplayer "Name of the Program" --get`
+`get_iplayer "{{program_name}}" {{[-g|--get]}}`
 
 - Record programme by URL from the BBC iPlayer website:
 
