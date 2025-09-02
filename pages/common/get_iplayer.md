@@ -1,7 +1,7 @@
 # get_iplayer
 
 > Indexing tool and personal video recorder for BBC iPlayer and BBC Sounds.
-> More information: <https://github.com/get-iplayer/get_iplayer?tab=readme-ov-file>.
+> More information: <https://github.com/get-iplayer/get_iplayer/wiki/manpage>.
 
 - Search programmes by name:
 
