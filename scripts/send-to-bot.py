@@ -9,7 +9,8 @@ BOT_URL = "https://tldr-bot.starbeamrainbowlabs.com"
 
 COMMENT_ERROR = """<!-- tldr-bot - errors -->
 
-The [build](https://github.com/tldr-pages/tldr/actions/runs/{build_id}) for this PR failed with the following error(s):
+The [build](https://github.com/tldr-pages/tldr/actions/runs/{build_id}) for this PR failed
+on commit [`{commit_sha}`](https://github.com/{repo_slug}/commit/{commit_sha}) with the following error(s):
 
 ```
 {content}
@@ -20,7 +21,8 @@ Please fix the error(s) and push again.
 
 COMMENT_CHECK = """<!-- tldr-bot - check-results -->
 
-Hello! I've noticed something unusual when checking this PR:
+Hello! I've noticed something unusual when checking this PR
+at commit [`{commit_sha}`](https://github.com/{repo_slug}/commit/{commit_sha}):
 
 {content}
 
@@ -60,9 +62,18 @@ def main(action):
     content = sys.stdin.read().strip()
 
     if action == "report-errors":
-        comment_body = COMMENT_ERROR.format(build_id=BUILD_ID, content=content)
+        comment_body = COMMENT_ERROR.format(
+            build_id=BUILD_ID,
+            commit_sha=COMMIT_SHA,
+            repo_slug=REPO_SLUG,
+            content=content,
+        )
     elif action == "report-check-results":
-        comment_body = COMMENT_CHECK.format(content=content)
+        comment_body = COMMENT_CHECK.format(
+            commit_sha=COMMIT_SHA,
+            repo_slug=REPO_SLUG,
+            content=content,
+        )
 
     if post_comment(PR_ID, comment_body):
         print("Success.")
@@ -76,8 +87,9 @@ if __name__ == "__main__":
     REPO_SLUG = os.environ.get("GITHUB_REPOSITORY")
     PR_ID = os.environ.get("PULL_REQUEST_ID")
     BUILD_ID = os.environ.get("GITHUB_RUN_ID")
+    COMMIT_SHA = os.environ.get("GITHUB_SHA")
 
-    if PR_ID is None or BUILD_ID is None or REPO_SLUG is None:
+    if PR_ID is None or BUILD_ID is None or REPO_SLUG is None or COMMIT_SHA is None:
         print("Needed environment variables are not set.", file=sys.stderr)
         sys.exit(1)
 

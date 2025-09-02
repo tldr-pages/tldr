@@ -2,7 +2,7 @@
 
 > Preprocesa y compila archivos de código fuente C y C++, luego los ensambla y los une.
 > Parte de GCC Colección de Compilación GNU (GNU Compiler Collection).
-> Más información: <https://gcc.gnu.org>.
+> Más información: <https://gcc.gnu.org/onlinedocs/gcc/>.
 
 - Compila varios archivos de código fuente en un ejecutable:
 
