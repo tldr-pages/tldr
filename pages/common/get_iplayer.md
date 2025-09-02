@@ -23,6 +23,6 @@
 
 `get_iplayer "{{program_name}}" {{[-g|--get]}} --subtitles`
 
-- Display basic help page:
+- Display help:
 
 `get_iplayer --helpbasic`
