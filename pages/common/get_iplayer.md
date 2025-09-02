@@ -5,7 +5,7 @@
 
 - Search programmes by name:
 
-`get_iplayer "Name of the Program"`
+`get_iplayer "{{program_name}}"`
 
 - Record programme by results of search:
 
