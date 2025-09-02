@@ -12,16 +12,16 @@
 
 - Run the command while preserving the current environments:
 
-`gksudo {{[-u|--user]}} {{userid}} {{[--preserve-env|-k]}} {{command}}`
+`gksudo {{[-u|--user]}} {{userid}} {{[-k|--preserve-env]}} {{command}}`
 
 - Force `gksudo` to use `su` to run the command:
 
-`gksu {{[-u|--user]}} {{userid}} {{[--su-mode|-w]}} {{command}}`
+`gksu {{[-u|--user]}} {{userid}} {{[-w|--su-mode]}} {{command}}`
 
 - Force `gksudo` to use `sudo` to run the command:
 
-`gksudo {{[-u|--user]}} {{userid}} {{[{{[--sudo-mode|-S]}}]}} {{command}}`
+`gksudo {{[-u|--user]}} {{userid}} {{[-S|--sudo-mode]}} {{command}}`
 
 - Output debug info for the given command:
 
-`gksudo {{[-u|--user]}} {{userid}} {{[--debug|-d]}} {{command}}`
+`gksudo {{[-u|--user]}} {{userid}} {{[-d|--debug]}} {{command}}`
