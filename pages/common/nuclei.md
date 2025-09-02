@@ -1,36 +1,36 @@
 # nuclei
 
-> Fast and customizable vulnerability scanner based on a simple YAML based DSL.
+> Fast and customizable vulnerability scanner using a simple YAML-based DSL.
 > More information: <https://docs.projectdiscovery.io/tools/nuclei/running>.
 
-- [u]pdate `nuclei` [t]emplates to the latest released version (will be downloaded to `~/nuclei-templates`):
+- Update `nuclei` templates to the latest released version (downloaded to `~/nuclei-templates` on macOS/Linux or `%USERPROFILE%\nuclei-templates` on Windows):
 
 `nuclei {{[-ut|-update-templates]}}`
 
-- [l]ist all [t]emplates with a specific [p]rotocol [t]ype:
+- [l]ist all [t]emplates by specific [p]rotocol [t]ype:
 
 `nuclei -tl {{[-pt|-type]}} {{dns|file|http|headless|tcp|workflow|ssl|websocket|whois|code|javascript}}`
 
-- Run an [a]utomatic web [s]can using wappalyzer technology detection specifying a target [u]RL/host to scan:
+- Run an automatic web scan using Wappalyzer technology detection for a specific target [u]RL/host:
 
-`nuclei {{[-as|-automatic-scan]}} {{[-u|-target]}} {{scanme.nmap.org}}`
+`nuclei {{[-as|-automatic-scan]}} {{[-u|-target]}} {{example.com}}`
 
-- Run HTTP [p]rotocol [t]ype templates of high and critical severity, [e]xporting results to [m]arkdown files inside a specific directory:
+- Run HTTP [p]rotocol [t]ype templates of specific severity, exporting results to markdown files inside a specific directory:
 
-`nuclei {{[-s|-severity]}} high,critical {{[-pt|-type]}} http {{[-u|-target]}} {{http://example.com}} {{[-me|-markdown-export]}} {{markdown_directory}}`
+`nuclei {{[-s|-severity]}} {{high,critical,...}} {{[-pt|-type]}} http {{[-u|-target]}} {{https://example.com}} {{[-me|-markdown-export]}} {{path/to/directory}}`
 
-- Run all templates using a different [r]ate [l]imit and maximum [b]ulk [s]ize with silent output (only showing the findings):
+- Run all templates with a custom rate limit, maximum bulk size, and silent output (only findings shown):
 
-`nuclei {{[-rl|-rate-limit]}} {{150}} {{[-bs|-bulk-size]}} {{25}} {{[-c|-concurrency]}} {{25}} -silent {{[-u|-target]}} {{http://example.com}}`
+`nuclei {{[-rl|-rate-limit]}} {{150}} {{[-bs|-bulk-size]}} {{25}} {{[-c|-concurrency]}} {{25}} -silent {{[-u|-target]}} {{https://example.com}}`
 
-- Run the WordPress [w]orkflow against a WordPress site:
+- Run a specific nuclei-bundled workflow against a target:
 
-`nuclei {{[-w|-workflows]}} {{path/to/nuclei-templates/workflows/wordpress-workflow.yaml}} {{[-u|-target]}} {{https://example.com}}`
+`nuclei {{[-w|-workflows]}} {{workflows/wordpress-workflow.yaml}} {{[-u|-target]}} {{https://example.com}}`
 
-- Run one or more specific [t]emplates or directory with [t]emplates with [v]erbose output in `stderr` and [o]utput detected issues/vulnerabilities to a file:
+- Run one or more specific templates or directory with templates with verbose output in `stderr` and output detected issues/vulnerabilities to a file:
 
-`nuclei {{[-t|-templates]}} {{path/to/nuclei-templates/http}} {{[-u|-target]}} {{http://example.com}} {{[-v|-verbose]}} {{[-o|-output]}} {{results}}`
+`nuclei {{[-t|-templates]}} {{path/to/nuclei-templates/http}} {{[-u|-target]}} {{https://example.com}} {{[-v|-verbose]}} {{[-o|-output]}} {{path/to/results}}`
 
-- Run scan based on one or more [t]emplate [c]onditions:
+- Run a scan based on one or more template conditions:
 
 `nuclei {{[-tc|-template-condition]}} "{{contains(tags, 'xss') && contains(tags, 'cve')}}" {{[-u|-target]}} {{https://example.com}}`
