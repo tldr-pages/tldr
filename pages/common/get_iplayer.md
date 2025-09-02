@@ -25,4 +25,4 @@
 
 - Display help:
 
-`get_iplayer --helpbasic`
+`get_iplayer {{[-h|--help]}}`
