@@ -1,7 +1,7 @@
 # aspell
 
 > Corrector ortográfico interactivo.
-> Más información: <http://aspell.net/>.
+> Más información: <http://aspell.net/man-html/index.html>.
 
 - Revisa la ortografía de un solo archivo:
 
