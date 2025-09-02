@@ -17,8 +17,8 @@
 
 - Ejecuta `aspell` con un idioma diferente (toma el código de idioma ISO 639 de dos letras):
 
-`aspell --lang={{cs}}`
+`aspell --lang {{cs}}`
 
 - Lista las palabras mal escritas de `stdin` e ignora las palabras de la lista personal de palabras:
 
-`cat {{ruta/al/archivo}} | aspell --personal={{lista_personal_de_palabras.pws}} list`
+`cat {{ruta/al/archivo}} | aspell --personal {{lista_personal_de_palabras.pws}} list`
