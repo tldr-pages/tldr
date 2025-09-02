@@ -1,7 +1,7 @@
 # rdiff-backup
 
 > Local/remote mirror and incremental backup tool.
-> More information: <https://rdiff-backup.net>.
+> More information: <https://rdiff-backup.net/rdiff-backup.1.html>.
 
 - Back up `/path/to/source` to `/path/to/backup`:
 
