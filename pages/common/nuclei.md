@@ -7,15 +7,15 @@
 
 `nuclei {{[-ut|-update-templates]}}`
 
-- [l]ist all [t]emplates by specific [p]rotocol [t]ype:
+- List all templates by specific protocol type:
 
 `nuclei -tl {{[-pt|-type]}} {{dns|file|http|headless|tcp|workflow|ssl|websocket|whois|code|javascript}}`
 
-- Run an automatic web scan using Wappalyzer technology detection for a specific target [u]RL/host:
+- Run an automatic web scan using Wappalyzer technology detection for a specific target URL/host:
 
 `nuclei {{[-as|-automatic-scan]}} {{[-u|-target]}} {{example.com}}`
 
-- Run HTTP [p]rotocol [t]ype templates of specific severity, exporting results to markdown files inside a specific directory:
+- Run HTTP protocol type templates of specific severity, exporting results to markdown files inside a specific directory:
 
 `nuclei {{[-s|-severity]}} {{high,critical,...}} {{[-pt|-type]}} http {{[-u|-target]}} {{https://example.com}} {{[-me|-markdown-export]}} {{path/to/directory}}`
 
