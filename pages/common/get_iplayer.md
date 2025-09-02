@@ -21,7 +21,7 @@
 
 - Search for a programme, record it and download subtitles:
 
-`get_iplayer "Name of the Program" --get --subtitles`
+`get_iplayer "{{program_name}}" {{[-g|--get]}} --subtitles`
 
 - Display basic help page:
 
