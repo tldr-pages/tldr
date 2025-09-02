@@ -17,7 +17,7 @@
 
 - Download subtitles for a programme by results of search:
 
-`get_iplayer "Name of the Program" --subtitles`
+`get_iplayer "{{program_name}}" --subtitles-only`
 
 - Search for a programme, record it and download subtitles:
 
