@@ -13,7 +13,7 @@
 
 - Run an automatic web scan using Wappalyzer technology detection for a specific target [u]RL/host:
 
-`nuclei {{[-as|-automatic-scan]}} {{[-u|-target]}} {{scanme.nmap.org}}`
+`nuclei {{[-as|-automatic-scan]}} {{[-u|-target]}} {{example.com}}`
 
 - Run HTTP [p]rotocol [t]ype templates of specific severity, exporting results to markdown files inside a specific directory:
 
