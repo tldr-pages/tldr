@@ -11,6 +11,6 @@
 
 `systemctl cat {{unit1 unit2 ...}}`
 
-- Show the contents of a unit file for a template with a specific instance:
+- Show the contents of a unit file for a template:
 
 `systemctl cat {{template@}}`
