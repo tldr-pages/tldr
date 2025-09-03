@@ -4,7 +4,7 @@
 > Se accede en modo de configuración.
 > Más información: <https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/interface/command/ir-cr-book/ir-i1.html>.
 
-- Configurar una VLAN:
+- Configura una VLAN:
 
 `interface vlan {{1}}`
 
