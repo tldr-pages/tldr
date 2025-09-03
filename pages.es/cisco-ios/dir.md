@@ -11,6 +11,6 @@
 
 `dir {{flash}}:`
 
-- Listar los sistemas de archivos disponibles:
+- Lista los sistemas de archivos disponibles:
 
 `dir ?`
