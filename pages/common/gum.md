@@ -18,11 +18,11 @@
 
 - Show a spinner while a command is taking place with text alongside:
 
-`gum spin --spinner {{dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger}} --title "{{loading...}}" -- {{command}}`
+`gum spin {{[-s|--spinner]}} {{dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger}} --title "{{loading...}}" -- {{command}}`
 
 - Format text to include emojis:
 
-`gum format -t {{emoji}} "{{:smile: :heart: hello}}"`
+`gum format {{[-t|--type]}} {{emoji}} "{{:smile: :heart: hello}}"`
 
 - Interactively prompt for multi-line text (`<Ctrl d>` to save) and write to `data.txt`:
 
