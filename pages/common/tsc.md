@@ -19,7 +19,7 @@
 
 `tsc --outFile {{output.js}} {{input.ts}}`
 
-- Compile all `.ts` files of a TypeScript project defined in a `tsconfig.json` file:
+- Compile all `.ts` files of a TypeScript project defined in a `tsconfig.json` file (`--build` can be omitted to build the project in the current working directory):
 
 `tsc {{[-b|--build]}} {{tsconfig.json}}`
 
