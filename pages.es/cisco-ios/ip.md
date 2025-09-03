@@ -4,7 +4,7 @@
 > Se accede en modo de configuración.
 > Más información: <https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipaddr/command/ipaddr-cr-book.html>.
 
-- Establecer la versión de SSH:
+- Establece la versión de SSH:
 
 `ip ssh version {{2}}`
 
