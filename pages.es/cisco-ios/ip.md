@@ -12,7 +12,7 @@
 
 `ip address {{10.0.0.1}} {{255.255.255.0}}`
 
-- Configurar la dirección para que se obtenga mediante DHCP (esto se hace dentro del comando `interface`):
+- Configura la dirección para que se obtenga mediante DHCP (esto se hace dentro del comando `interface`):
 
 `ip address dhcp`
 
