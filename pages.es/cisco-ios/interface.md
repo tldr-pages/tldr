@@ -8,6 +8,6 @@
 
 `interface vlan {{1}}`
 
-- Activar o desactivar una interfaz (este comando se ejecuta dentro del modo de interfaz):
+- Activa o desactiva una interfaz (este comando se ejecuta dentro del modo de interfaz):
 
 `{{no shutdown|shutdown}}`
