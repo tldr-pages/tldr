@@ -13,7 +13,7 @@
 
 - Compile a TypeScript file into JavaScript using a specific target syntax (default is `ES3`):
 
-`tsc --target {{ES5|ES2015|ES2016|ES2017|ES2018|ESNEXT|...}} {{foobar.ts}}`
+`tsc {{[-t|--target]}} {{ES5|ES2015|ES2016|ES2017|ES2018|ESNEXT|...}} {{foobar.ts}}`
 
 - Compile a TypeScript file into a JavaScript file with a custom name:
 
@@ -21,7 +21,7 @@
 
 - Compile all `.ts` files of a TypeScript project defined in a `tsconfig.json` file:
 
-`tsc --build {{tsconfig.json}}`
+`tsc {{[-b|--build]}} {{tsconfig.json}}`
 
 - Run the compiler using command-line options and arguments fetched from a text file:
 
@@ -33,4 +33,4 @@
 
 - Run the compiler in watch mode, which automatically recompiles code when it changes:
 
-`tsc --watch`
+`tsc {{[--watch]}}`
