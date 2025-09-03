@@ -7,9 +7,9 @@
 
 `tsc --init`
 
-- Compile a TypeScript file `foobar.ts` into a JavaScript file `foobar.js`:
+- Compile a TypeScript file into a JavaScript file with the same name:
 
-`tsc {{foobar.ts}}`
+`tsc {{path/to/file.ts}}`
 
 - Compile a TypeScript file into JavaScript using a specific target syntax (default is `ES3`):
 
