@@ -11,7 +11,7 @@
 
 `{{[sh|show]}} ip interface {{vlan1}}`
 
-- Mostrar la configuración de las VLAN:
+- Muestra la configuración de las VLAN:
 
 `{{[sh|show]}} vlan`
 
