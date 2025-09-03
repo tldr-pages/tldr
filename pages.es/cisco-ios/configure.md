@@ -7,7 +7,7 @@
 
 `{{[conf|configure]}} {{[t|terminal]}}`
 
-- Retroceder un nivel en el modo de configuración:
+- Retrocede un nivel en el modo de configuración:
 
 `exit`
 
