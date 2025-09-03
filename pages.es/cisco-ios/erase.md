@@ -7,6 +7,6 @@
 
 `erase startup-config`
 
-- Borrar un sistema de archivos:
+- Borra un sistema de archivos:
 
 `erase {{flash}}:`
