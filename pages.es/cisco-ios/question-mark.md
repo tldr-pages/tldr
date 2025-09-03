@@ -7,7 +7,7 @@
 
 `?`
 
-- Obtener los sistemas de almacenamiento que se pueden listar:
+- Muestra los sistemas de almacenamiento que se pueden listar:
 
 `dir ?`
 
