@@ -1,7 +1,7 @@
 # mimikatz crypto
 
 > Manipula los servicios criptográficos y certificados de Windows.
-> Mas informacion: <https://github.com/gentilkiwi/mimikatz>.
+> Más información: <https://github.com/gentilkiwi/mimikatz>.
 
 - Listar provedores criptográficos:
 

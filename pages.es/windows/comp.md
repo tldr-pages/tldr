@@ -1,8 +1,8 @@
 # comp
 
-> Compara el contenido de dos archivos o conjunto de archivos
-> Usa comodines (*) para comparar conjuntos de archivos
-> Mas informacion: <https://learn.microsoft.com/windows-server/administration/windows-commands/comp>.
+> Compara el contenido de dos archivos o conjunto de archivos.
+> Usa comodines (*) para comparar conjuntos de archivos.
+> Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/comp>.
 
 - Compara archivos de forma interactiva:
 
