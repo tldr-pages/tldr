@@ -33,4 +33,4 @@
 
 - Run the compiler in watch mode, which automatically recompiles code when it changes:
 
-`tsc {{[--watch]}}`
+`tsc {{[-w|--watch]}}`
