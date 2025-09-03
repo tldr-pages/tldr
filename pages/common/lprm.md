@@ -10,7 +10,11 @@
 
 - Cancel a job of a specific server:
 
-`lprm -h {{server[:port]}} {{job_id}}`
+`lprm -h {{server}} {{job_id}}`
+
+- Cancel a job of a specific server in a specific port:
+
+`lprm -h {{server}}:{{port}} {{job_id}}`
 
 - Cancel multiple jobs with a encrypted connection to the server:
 
