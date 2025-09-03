@@ -11,6 +11,10 @@
 
 `npm ls {{[-a|--all]}}`
 
+- Print all globally installed packages:
+
+`npm ls {{[-g|--global]}}`
+
 - Print dependencies with extended information:
 
 `npm ls {{[-l|--long]}}`
