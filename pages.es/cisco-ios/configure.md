@@ -11,6 +11,6 @@
 
 `exit`
 
-- Salir completamente del modo de configuración:
+- Sale completamente del modo de configuración:
 
 `end`
