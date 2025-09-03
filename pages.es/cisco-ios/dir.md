@@ -7,7 +7,7 @@
 
 `dir`
 
-- Listar archivos en un sistema de archivos específico:
+- Lista archivos en un sistema de archivos específico:
 
 `dir {{flash}}:`
 
