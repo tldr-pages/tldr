@@ -21,7 +21,7 @@
 
 - Compile all `.ts` files of a TypeScript project defined in a `tsconfig.json` file (`--build` can be omitted to build the project in the current working directory):
 
-`tsc {{[-b|--build]}} {{tsconfig.json}}`
+`tsc {{[-b|--build]}} {{path/to/tsconfig.json}}`
 
 - Run the compiler using command-line options and arguments fetched from a text file:
 
