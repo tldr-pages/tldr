@@ -11,6 +11,6 @@
 
 `reload in {{n}}`
 
-- Cancelar reinicios pendientes:
+- Cancela reinicios pendientes:
 
 `reload cancel`
