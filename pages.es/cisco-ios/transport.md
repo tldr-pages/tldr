@@ -8,6 +8,6 @@
 
 `transport input ssh`
 
-- Restringir los protocolos de línea a `telnet`:
+- Restringe los protocolos de línea a `telnet`:
 
 `transport input telnet`
