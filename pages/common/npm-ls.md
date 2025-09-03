@@ -5,24 +5,24 @@
 
 - Print all versions of direct dependencies to `stdout`:
 
-`npm ls`
+`npm {{[ls|list]}}`
 
 - Print all installed packages including peer dependencies:
 
-`npm ls {{[-a|--all]}}`
+`npm {{[ls|list]}} {{[-a|--all]}}`
 
 - Print all globally installed packages:
 
-`npm ls {{[-g|--global]}}`
+`npm {{[ls|list]}} {{[-g|--global]}}`
 
 - Print dependencies with extended information:
 
-`npm ls {{[-l|--long]}}`
+`npm {{[ls|list]}} {{[-l|--long]}}`
 
 - Print dependencies in parseable format:
 
-`npm ls {{[-p|--parseable]}}`
+`npm {{[ls|list]}} {{[-p|--parseable]}}`
 
 - Print dependencies in JSON format:
 
-`npm ls --json`
+`npm {{[ls|list]}} --json`
