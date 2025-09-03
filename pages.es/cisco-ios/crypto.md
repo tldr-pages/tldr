@@ -12,6 +12,6 @@
 
 `crypto key generate rsa modulus {{1024}}`
 
-- Eliminar todas las claves:
+- Elimina todas las claves:
 
 `crypto key zeroize`
