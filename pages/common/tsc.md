@@ -13,7 +13,7 @@
 
 - Compile a TypeScript file into JavaScript using a specific target syntax (default is `ES3`):
 
-`tsc {{[-t|--target]}} {{ES5|ES2015|ES2016|ES2017|ES2018|ESNEXT|...}} {{foobar.ts}}`
+`tsc {{[-t|--target]}} {{ES5|ES2015|ES2016|ES2017|ES2018|ESNEXT|...}} {{path/to/file.ts}}`
 
 - Compile a TypeScript file into a JavaScript file with a custom name:
 
