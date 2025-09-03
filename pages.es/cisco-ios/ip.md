@@ -16,6 +16,6 @@
 
 `ip address dhcp`
 
-- Definir un nombre de dominio:
+- Define un nombre de dominio:
 
 `ip domain-name {{example.com}}`
