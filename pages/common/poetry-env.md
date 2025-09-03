@@ -14,11 +14,11 @@
 
 - List all virtualenvs associated with the current project (optionally showing the full path):
 
-`poetry env list {{[--full-path]}}`
+`poetry env list --full-path`
 
 - Remove specific or all virtualenvs associated with the current project:
 
-`poetry env remove python {{path/to/executable or environment_name}} | poetry env remove {{[--all]}}`
+`poetry env remove python {{path/to/executable|environment_name}} | poetry env remove --all`
 
 - Activate or create a virtualenv for the project using the specified python executable:
 
