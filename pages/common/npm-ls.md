@@ -3,7 +3,7 @@
 > Print installed packages to `stdout`.
 > More information: <https://docs.npmjs.com/cli/npm-ls>.
 
-- Print all versions of direct dependencies to `stdout`:
+- Print all versions of direct dependencies in the current project to `stdout`:
 
 `npm {{[ls|list]}}`
 
