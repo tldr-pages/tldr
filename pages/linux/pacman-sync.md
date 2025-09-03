@@ -28,7 +28,7 @@
 
 `sudo pacman -Syu --overwrite {{path/to/file}}`
 
-- Remove not installed packages and unused repositories from the cache (use the flags `Sc` to [c]lean all packages):
+- Remove not installed packages and unused repositories from the cache (use the flags `Scc` to [c]lean all packages):
 
 `sudo pacman -Sc`
 
