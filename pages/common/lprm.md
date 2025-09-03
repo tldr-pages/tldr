@@ -26,4 +26,4 @@
 
 - Cancel the current job of a specific printer or class:
 
-`lprm -P {{destination[/instance]}}`
+`lprm -P {{destination/instance}}`
