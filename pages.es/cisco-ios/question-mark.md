@@ -11,6 +11,6 @@
 
 `dir ?`
 
-- Mostrar qué información IP se puede visualizar:
+- Muestra qué información IP se puede visualizar:
 
 `ip show ?`
