@@ -26,7 +26,7 @@
 
 - Remove unused packages and tarballs from the cache:
 
-`mamba clean -pt`
+`mamba clean {{[-pt|--packages --tarballs]}}`
 
 - Activate an environment:
 
