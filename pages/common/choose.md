@@ -1,7 +1,7 @@
 # choose
 
 > A human-friendly and fast alternative to cut and (sometimes) awk.
-> More information: <https://github.com/theryangeary/choose>.
+> More information: <https://github.com/theryangeary/choose#usage>.
 
 - Print the 5th item from a line (starting from 0):
 
