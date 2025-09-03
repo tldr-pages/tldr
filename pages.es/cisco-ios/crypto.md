@@ -4,7 +4,7 @@
 > Se accede en modo de configuración.
 > Más información: <https://www.cisco.com/c/en/us/td/docs/security/asa/asa-cli-reference/A-H/asa-command-ref-A-H/crypto-is-cz-commands.html>.
 
-- Generar una clave `rsa`:
+- Genera una clave `rsa`:
 
 `crypto key generate rsa`
 
