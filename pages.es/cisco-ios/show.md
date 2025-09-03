@@ -15,7 +15,7 @@
 
 `{{[sh|show]}} vlan`
 
-- Mostrar la configuración en ejecución:
+- Muestra la configuración en ejecución:
 
 `{{[sh|show]}} running-config`
 
