@@ -8,7 +8,7 @@
 
 `ip ssh version {{2}}`
 
-- Asignar la dirección IP del dispositivo (esto se hace dentro del comando `interface`):
+- Asigna la dirección IP del dispositivo (esto se hace dentro del comando `interface`):
 
 `ip address {{10.0.0.1}} {{255.255.255.0}}`
 
