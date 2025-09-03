@@ -17,7 +17,7 @@
 
 - Compile a TypeScript file into a JavaScript file with a custom name:
 
-`tsc --outFile {{output.js}} {{input.ts}}`
+`tsc --outFile {{path/to/output_file.js}} {{path/to/input_file.ts}}`
 
 - Compile all `.ts` files of a TypeScript project defined in a `tsconfig.json` file (`--build` can be omitted to build the project in the current working directory):
 
