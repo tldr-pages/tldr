@@ -13,7 +13,7 @@
 
 - List the dependencies of a package installed in the currently activated environment, in a tree format:
 
-`mamba repoquery depends --tree {{scipy}}`
+`mamba repoquery depends {{[-t|--tree]}} {{scipy}}`
 
 - Print packages in the current environment that require a particular package to be installed (i.e. inverse of `depends`):
 
