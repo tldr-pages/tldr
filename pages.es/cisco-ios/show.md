@@ -7,7 +7,7 @@
 
 `{{[sh|show]}} ip interface brief`
 
-- Mostrar la configuración de una interfaz específica:
+- Muestra la configuración de una interfaz específica:
 
 `{{[sh|show]}} ip interface {{vlan1}}`
 
