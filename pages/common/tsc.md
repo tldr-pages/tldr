@@ -3,6 +3,10 @@
 > TypeScript compiler.
 > More information: <https://www.typescriptlang.org/docs/handbook/compiler-options.html>.
 
+- Initialize a TypeScript project:
+
+`tsc --init`
+
 - Compile a TypeScript file `foobar.ts` into a JavaScript file `foobar.js`:
 
 `tsc {{foobar.ts}}`
