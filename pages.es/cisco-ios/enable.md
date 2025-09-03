@@ -3,6 +3,6 @@
 > Entra en el modo de ejecución privilegiado.
 > Más información: <https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/security/d1/sec-d1-cr-book/sec-cr-e1.html#wp3307186499>.
 
-- Entrar en el modo de ejecución privilegiado:
+- Entra en el modo de ejecución privilegiado:
 
 `enable`
