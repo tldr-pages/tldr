@@ -8,7 +8,7 @@
 
 `crypto key generate rsa`
 
-- Definir un módulo para una clave:
+- Define un módulo para una clave:
 
 `crypto key generate rsa modulus {{1024}}`
 
