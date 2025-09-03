@@ -19,6 +19,6 @@
 
 `{{[sh|show]}} running-config`
 
-- Mostrar la configuración de SSH:
+- Muestra la configuración de SSH:
 
 `{{[sh|show]}} ip ssh`
