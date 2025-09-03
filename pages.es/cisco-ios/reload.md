@@ -7,7 +7,7 @@
 
 `reload`
 
-- Reiniciar después de `n` segundos:
+- Reinicia después de `n` segundos:
 
 `reload in {{n}}`
 
