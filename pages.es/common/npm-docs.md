@@ -9,4 +9,4 @@
 
 - Abre las páginas de documentación de varios paquetes a la vez:
 
-`npm docs {{package1 package2 ...}}`
+`npm docs {{paquete1 paquete2 ...}}`
