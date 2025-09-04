@@ -3,14 +3,14 @@
 > Manipula los servicios criptográficos y certificados de Windows.
 > Más información: <https://github.com/gentilkiwi/mimikatz>.
 
-- Listar provedores criptográficos:
+- Lista provedores criptográficos:
 
 `mimikatz "crypto::providers"`
 
-- Listar claves en un proveedor criptográfico:
+- Lista claves en un proveedor criptográfico:
 
 `mimikatz "crypto::capi"`
 
-- Exportar certificados y claves:
+- Exporta certificados y claves:
 
 `mimikatz "crypto::certificates /export"`
