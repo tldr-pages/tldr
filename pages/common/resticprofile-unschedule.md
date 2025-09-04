@@ -11,5 +11,4 @@
 
 `resticprofile unschedule --all`
 
-- See also: `resticprofile-schedule`
-
+- See also: `resticprofile-schedule`.
