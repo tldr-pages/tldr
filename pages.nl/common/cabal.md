@@ -14,7 +14,7 @@
 
 - Download en installeer een pakket:
 
-`cabal install {{package}}`
+`cabal install {{pakket}}`
 
 - Maak een nieuwe Haskell-project in de huidige map:
 
