@@ -20,7 +20,7 @@
 
 `cabal init`
 
-- Bouw een project in de huidige map:
+- Bouw het project in de huidige map:
 
 `cabal build`
 
