@@ -13,12 +13,12 @@
 
 - Crea una aplicación Rails con `postgresql` como base de datos:
 
-`rails new {{nombre_de_la_app}} {{-d|--database}} postgresql`
+`rails new {{nombre_de_la_app}} {{[-d|--database]}} postgresql`
 
 - Crea una aplicación Rails sin generar archivos JavaScript:
 
-`rails new {{nombre_de_la_app}} {{-J|--skip-javascript}}`
+`rails new {{nombre_de_la_app}} {{[-J|--skip-javascript]}}`
 
 - Muestra la ayuda:
 
-`rails new {{-h|--help}}`
+`rails new {{[-h|--help]}}`

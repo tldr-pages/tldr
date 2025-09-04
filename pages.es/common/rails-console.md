@@ -9,12 +9,12 @@
 
 - Inicia la consola Rails y revierte todas las modificaciones de datos al salir:
 
-`rails console {{-s|--sandbox}}`
+`rails console {{[-s|--sandbox]}}`
 
 - Inicia la consola Rails en un entorno específico:
 
-`rails console {{-e|--environment}} {{dev|test|production|...}}`
+`rails console {{[-e|--environment]}} {{dev|test|production|...}}`
 
 - Muestra la ayuda:
 
-`rails console {{-h|--help}}`
+`rails console {{[-h|--help]}}`
