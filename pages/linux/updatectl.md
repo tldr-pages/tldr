@@ -3,15 +3,19 @@
 > System update utility.
 > More information: <https://www.freedesktop.org/software/systemd/man/updatectl.html>.
 
-- Apply an update:
+- Check to see if the system has any available updates:
 
-`updatectl update {{target}}`
+`updatectl check`
 
-- Apply update and then reboot system:
+- Update to the latest version:
 
-`updatectl --reboot update {{target}}`
+`updatectl update`
 
-- Show data about the target and its versions:
+- Show update targets:
+
+`updatectl list`
+
+- Show data about a target and its versions:
 
 `updatectl list {{target}}`
 
@@ -19,13 +23,9 @@
 
 `updatectl --offline list {{target}}`
 
-- Suppress data headers for returned information:
+- Apply an update to a target and then reboot the system:
 
-`updatectl --no-legend list {{target}}`
-
-- Check to see if a target has any available updates:
-
-`updatectl check {{target}}`
+`updatectl --reboot update {{target}}`
 
 - Clean up old versions of a specified target:
 
