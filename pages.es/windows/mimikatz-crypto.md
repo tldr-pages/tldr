@@ -3,7 +3,7 @@
 > Manipula los servicios criptográficos y certificados de Windows.
 > Más información: <https://github.com/gentilkiwi/mimikatz>.
 
-- Lista provedores criptográficos:
+- Lista proveedores criptográficos:
 
 `mimikatz "crypto::providers"`
 
