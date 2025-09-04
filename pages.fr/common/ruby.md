@@ -26,4 +26,4 @@
 
 - Affiche la version de Ruby utilisée :
 
-`ruby -v`
+`ruby {{[-v|--version]}}`
