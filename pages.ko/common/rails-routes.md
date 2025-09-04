@@ -9,12 +9,12 @@
 
 - 확장된 형식으로 모든 경로 나열:
 
-`rails routes --expanded`
+`rails routes {{[-E|--expanded]}}`
 
 - URL 헬퍼 메서드 이름, HTTP 메서드 또는 URL 경로와 부분적으로 일치하는 경로 나열:
 
-`rails routes -g {{posts_path|GET|/posts}}`
+`rails routes {{[-g|--grep]}} {{posts_path|GET|/posts}}`
 
 - 지정된 컨트롤러에 매핑된 경로 나열:
 
-`rails routes -c {{posts|Posts|Blogs::PostsController}}`
+`rails routes {{[-c|--controller]}} {{posts|Posts|Blogs::PostsController}}`
