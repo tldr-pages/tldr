@@ -25,4 +25,4 @@
 
 - Tampilkan [v]ersi Ruby saat ini:
 
-`ruby -v`
+`ruby {{[-v|--version]}}`
