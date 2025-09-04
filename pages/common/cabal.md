@@ -20,7 +20,7 @@
 
 `cabal init`
 
-- Build the project in the current directory:
+- Build a project in the current directory:
 
 `cabal build`
 
