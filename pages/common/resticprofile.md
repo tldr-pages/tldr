@@ -31,4 +31,3 @@
 - Show all details of a profile:
 
 `resticprofile show {{[-n|--name]}} "{{profile_name}}`
-

@@ -21,10 +21,10 @@
 
 - Display status of scheduled jobs for a profile:
 
-`resticprofile status {{[-n|--name]}} {{profile_name}}
+`resticprofile status {{[-n|--name]}} {{profile_name}}`
 
 - Run a scheduled job manually (used by system scheduler):
 
  `resticprofile run-schedule "backup@{{profile_name}}"`
 
-- See also: `resticprofile-unschedule`
+- See also: `resticprofile-unschedule`.
