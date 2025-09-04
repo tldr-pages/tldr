@@ -5,7 +5,7 @@
 
 - Abre la página de documentación de un paquete específico:
 
-`npm docs {{package}}`
+`npm docs {{paquete}}`
 
 - Abre las páginas de documentación de varios paquetes a la vez:
 
