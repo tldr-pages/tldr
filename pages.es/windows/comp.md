@@ -8,7 +8,7 @@
 
 `comp`
 
-- Compara dos archivos especificos:
+- Compara dos archivos específicos:
 
 `comp {{ruta\al\archivo1}} {{ruta\al\archivo2}}`
 
