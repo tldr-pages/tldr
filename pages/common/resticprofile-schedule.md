@@ -1,6 +1,7 @@
 # resticprofile schedule
 
 > Schedule backups and run them in the background.
+> See also: `resticprofile`, `resticprofile-unschedule`.
 > More information: <https://creativeprojects.github.io/resticprofile/schedules/configuration/index.html>.
 
 - Schedule default profile:
@@ -25,6 +26,4 @@
 
 - Run a scheduled job manually (used by system scheduler):
 
- `resticprofile run-schedule "backup@{{profile_name}}"`
-
-- See also: `resticprofile-unschedule`.
+`resticprofile run-schedule "backup@{{profile_name}}"`
