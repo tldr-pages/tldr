@@ -1,7 +1,7 @@
 # resticprofile
 
 > Configuration profiles manager for restic backup.
-> Some subcommands such as `schedule` and `unschedule` have their own usage documentation.
+> See also: `restic`, `resticprofile-schedule`, `resticprofile-unschedule`.
 > More information: <https://creativeprojects.github.io/resticprofile/configuration/getting_started/index.html#write-your-first-configuration-file>.
 
 - List all saved snapshots:

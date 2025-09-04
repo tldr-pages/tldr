@@ -1,7 +1,7 @@
 # resticprofile schedule
 
 > Schedule backups and run them in the background.
-> See also: `resticprofile`, `resticprofile-unschedule`.
+> See also: `restic`, `resticprofile`, `resticprofile-unschedule`.
 > More information: <https://creativeprojects.github.io/resticprofile/schedules/configuration/index.html>.
 
 - Schedule default profile:
