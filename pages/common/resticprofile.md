@@ -26,8 +26,8 @@
 
 - Generate shell completions:
 
-`resticprofile generate "{{--bash-completion|--zsh-completion}}"`
+`resticprofile generate {{--bash-completion|--zsh-completion}}`
 
 - Show all details of a profile:
 
-`resticprofile show {{[-n|--name]}} "{{profile_name}}`
+`resticprofile show {{[-n|--name]}} "{{profile_name}}"`
