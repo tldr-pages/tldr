@@ -444,7 +444,7 @@ Try to keep the following order:
 - Positional arguments/Packages/Data
 - Data redirection to a file
 
-For example: `systemctl status --user pipewire > file.txt`
+For example: `program < input_file.txt status --user pipewire > output_file.txt`
 
 This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise.
 
