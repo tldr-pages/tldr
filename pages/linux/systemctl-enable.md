@@ -10,3 +10,7 @@
 - Enable a service to run on boot and start it now:
 
 `systemctl enable {{unit}} --now`
+
+- Enable a user unit:
+
+`systemctl enable --user {{unit}}`
