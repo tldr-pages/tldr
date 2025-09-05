@@ -10,11 +10,11 @@
 
 - Display help:
 
-`choco -?`
+`choco {{[-h|--help]}}`
 
 - Display help for a specific command:
 
-`choco {{command}} -?`
+`choco {{command}} {{[-h|--help]}}`
 
 - Display version:
 
