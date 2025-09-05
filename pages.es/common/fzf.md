@@ -2,7 +2,7 @@
 
 > Buscador aproximado (fuzzy search) de la línea de comando.
 > Parecido a `sk`.
-> Más información: <https://github.com/junegunn/fzf>.
+> Más información: <https://github.com/junegunn/fzf#usage>.
 
 - Aplica `fzf` a todos los archivos en el directorio especificado:
 
