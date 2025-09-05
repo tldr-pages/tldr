@@ -443,7 +443,11 @@ Try to keep the following order:
 - Program options
 - Positional arguments/Packages/Data
 
+For example: `systemctl enable --user --now pipewire`
+
 This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise.
+
+If the command does multiple things, try to keep the chronological order in which things happen.
 
 ### Option syntax
 
