@@ -439,6 +439,7 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 Try to keep the following order:
 
 - Program name
+- Data redirect from a file
 - All subcommands
 - Program options
 - Positional arguments/Packages/Data
