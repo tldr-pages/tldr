@@ -1,7 +1,7 @@
 # conda doctor
 
-> Muestra un informe de salud para tu entorno.
-> More information: <https://docs.conda.io/projects/conda/en/latest/commands/doctor.html>.
+> Muestra un informe de salud de su entorno.
+> Más información: <https://docs.conda.io/projects/conda/en/latest/commands/doctor.html>.
 
 - Muestra el informe del entorno actualmente activo:
 
@@ -9,7 +9,7 @@
 
 - Especifica un entorno por nombre:
 
-`conda doctor {{[-n|--name]}} {{nombre_de_entorno}}`
+`conda doctor {{[-n|--name]}} {{nombre_del_entorno}}`
 
 - Especifica un entorno por su ruta:
 
