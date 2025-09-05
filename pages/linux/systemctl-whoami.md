@@ -8,6 +8,10 @@
 
 `systemctl whoami`
 
+- Show the unit of the current shell in user service manager (services managed for your login session):
+
+`systemctl --user whoami`
+
 - Show the unit a specific process belongs to:
 
 `systemctl whoami {{pid}}`
