@@ -14,4 +14,4 @@
 
 - Freeze all running units:
 
-`systemctl freeze {{[-a|--all]}}`
+`systemctl freeze '*'`
