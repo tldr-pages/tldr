@@ -2,7 +2,7 @@
 
 > The Chocolatey package manager.
 > Some subcommands such as `install` have their own usage documentation.
-> More information: <https://docs.chocolatey.org/en-us/create/commands/>.
+> More information: <https://docs.chocolatey.org/en-us/choco/commands/>.
 
 - Execute a Chocolatey command:
 
