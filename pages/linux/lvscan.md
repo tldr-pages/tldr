@@ -18,4 +18,4 @@
 
 - Display logical volumes in JSON format:
 
-`lvscan --reportformat {{json}}`
+`lvscan --reportformat json`
