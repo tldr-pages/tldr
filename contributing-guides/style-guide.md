@@ -442,8 +442,9 @@ Try to keep the following order:
 - All subcommands
 - Program options
 - Positional arguments/Packages/Data
+- Data redirection
 
-For example: `systemctl enable --user --now pipewire`
+For example: `systemctl status --user pipewire > file.txt`
 
 This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise.
 
