@@ -6,7 +6,7 @@
 
 - Crea un nuevo entorno e instala en él los paquetes indicados:
 
-`conda create {{[-n|--name]}} {{nombre_de_entorno}} {{python=3.9 matplotlib}}`
+`conda create {{[-n|--name]}} {{nombre_del_entorno}} {{python=3.9 matplotlib}}`
 
 - Lista todos los entornos:
 
