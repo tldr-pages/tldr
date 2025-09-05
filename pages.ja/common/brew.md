@@ -4,9 +4,9 @@
 > `install` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
 > もっと詳しく: <https://docs.brew.sh/Manpage>。
 
-- formulae や cask の最新の安定版をインストールする (開発版には `--devel` を使う):
+- formulae や cask の最新の安定版をインストールする:
 
-`brew install {{formula}}`
+`brew install {{formula|cask}}`
 
 - 全てのインストールされている formulae や cask を一覧表示:
 
@@ -14,7 +14,7 @@
 
 - インストールされている formula または cask をアップグレード (何も指定されない場合、インストールされている全ての formulae/cask がアップグレードされる):
 
-`brew upgrade {{formula}}`
+`brew upgrade {{formula|cask}}`
 
 - Homebrew のソースリポジトリから、Homebrew の最新バージョン、全ての formulae と cask を取得:
 
@@ -30,7 +30,7 @@
 
 - formula または cask の情報を表示 (バージョン, インストールパス, 依存関係, etc.):
 
-`brew info {{formula}}`
+`brew info {{formula|cask}}`
 
 - ローカルの Homebrew インストールに潜在的な問題がないかチェック:
 
