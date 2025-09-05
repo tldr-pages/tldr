@@ -14,7 +14,3 @@
 - Suspend the system and then hibernate after a delay:
 
 `systemctl hybrid-sleep`
-
-- Suspend the system but allow waking with keyboard and mouse:
-
-`systemctl suspend --allow=keyboard --allow=mouse`
