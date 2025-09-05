@@ -22,7 +22,7 @@
 
 - Elimina un entorno (remueve todos los paquetes):
 
-`conda remove {{[-n|--name]}} {{nombre_de_entorno}} --all`
+`conda remove {{[-n|--name]}} {{nombre_del_entorno}} --all`
 
 - Instala paquetes en el entorno actual:
 
