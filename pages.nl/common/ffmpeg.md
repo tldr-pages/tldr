@@ -1,7 +1,7 @@
 # ffmpeg
 
 > Videoconversie tool.
-> Meer informatie: <https://ffmpeg.org>.
+> Meer informatie: <https://ffmpeg.org/ffmpeg.html#Options>.
 
 - Extraheer het geluid van een video en sla het op als MP3:
 

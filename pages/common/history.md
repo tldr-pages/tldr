@@ -15,7 +15,7 @@
 
 `history -{{d|f|i|E}}`
 
-- [c]lear the commands history list (only for current Bash shell):
+- [c]lear the commands history list:
 
 `history -c`
 
