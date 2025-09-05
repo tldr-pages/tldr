@@ -434,6 +434,17 @@ For example, `[d]ownload` in English may be translated into `[d]escargar` in Spa
 
 ## Example commands
 
+### Argument order
+
+Try to keep the following order:
+
+- Program name
+- All subcommands
+- Program options
+- Positional arguments/Packages/Data
+
+This is only a suggestion and should be disregarded when program functionality or readability dictates otherwise.
+
 ### Option syntax
 
 - For user-friendliness, prefer **GNU-style long options** (like `--help` rather than `-h`). Make sure that the options are cross-platform compatible (intended to work the same across multiple platforms) for pages in the `common` directory.
