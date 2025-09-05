@@ -442,7 +442,7 @@ Try to keep the following order:
 - All subcommands
 - Program options
 - Positional arguments/Packages/Data
-- Data redirection
+- Data redirection to a file
 
 For example: `systemctl status --user pipewire > file.txt`
 
