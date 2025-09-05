@@ -14,7 +14,7 @@
 
 - Activa un entorno:
 
-`conda activate {{nombre_de_entorno}}`
+`conda activate {{nombre_del_entorno}}`
 
 - Desactiva un entorno:
 
