@@ -11,3 +11,7 @@
 - Restart more than one unit:
 
 `systemctl restart {{unit1 unit2 ...}}`
+
+- Restart a user unit:
+
+`systemctl restart --user {{unit}}`
