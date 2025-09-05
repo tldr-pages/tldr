@@ -14,4 +14,4 @@
 
 - Thaw all currently frozen units:
 
-`systemctl thaw {{[-a|--all]}}`
+`systemctl thaw '*'`
