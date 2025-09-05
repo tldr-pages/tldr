@@ -11,6 +11,6 @@
 
 `systemctl enable {{unit}} --now`
 
-- Enable a user unit:
+- Enable a user unit to run on login:
 
 `systemctl enable --user {{unit}}`
