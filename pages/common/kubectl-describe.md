@@ -1,4 +1,4 @@
-# kubectl-describe
+# kubectl describe
 
 > Show details of Kubernetes resources.
 > More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe>.
