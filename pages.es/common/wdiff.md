@@ -1,7 +1,7 @@
 # wdiff
 
 > Muestra las diferencias de palabras entre archivos de texto.
-> Más información: <https://www.gnu.org/software/wdiff/>.
+> Más información: <https://www.gnu.org/software/wdiff/manual/wdiff.html#wdiff-invocation>.
 
 - Compara dos archivos:
 
@@ -9,8 +9,8 @@
 
 - Ignora mayúsculas y minúsculas al comparar:
 
-`wdiff --ignore-case {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
+`wdiff {{[-i|--ignore-case]}} {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
 - Muestra cuantas palabras se han eliminado, insertado o sustituido:
 
-`wdiff --statistics {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
+`wdiff {{[-s|--statistics]}} {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
