@@ -7,7 +7,7 @@
 
 `brew bundle`
 
-- 从特定路径下的特定 Brewfile 安装软件包
+- 从特定路径下的特定 Brewfile 安装软件包：
 
 `brew bundle --file {{路径/到/文件}}`
 
