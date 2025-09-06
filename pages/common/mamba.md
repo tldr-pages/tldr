@@ -14,7 +14,7 @@
 
 - Update all packages in the current environment:
 
-`mamba update --all`
+`mamba update {{[-a|--all]}}`
 
 - Search for a specific package across repositories:
 
@@ -22,11 +22,11 @@
 
 - List all environments:
 
-`mamba info --envs`
+`mamba info {{[-e|--envs]}}`
 
-- Remove unused [p]ackages and [t]arballs from the cache:
+- Remove unused packages and tarballs from the cache:
 
-`mamba clean -pt`
+`mamba clean {{[-pt|--packages --tarballs]}}`
 
 - Activate an environment:
 
