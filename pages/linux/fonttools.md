@@ -1,6 +1,6 @@
 # fonttools
 
-> Libraries and utilities for manipulating fonts in Python.
+> Manipulate fonts in Python.
 > More information: <https://fonttools.readthedocs.io/en/latest/>.
 
 - Subset a TTF font file to the Basic Latin Unicode block:
